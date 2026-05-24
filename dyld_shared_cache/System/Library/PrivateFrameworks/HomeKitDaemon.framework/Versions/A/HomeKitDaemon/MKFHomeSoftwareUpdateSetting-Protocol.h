@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomeSoftwareUpdateSettingDatabaseID, NSNumber;
+@class NSNumber;
 
 @protocol MKFHomeSoftwareUpdateSetting
+- (NSNumber *)With (virtual):%{public}@ wasSharing:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSNumber *)public}@ wasSharing:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *automaticSoftwareUpdateEnabled;
-@property(copy, nonatomic) NSNumber *automaticThirdPartyAccessorySoftwareUpdateEnabled;
-@property(readonly, copy, nonatomic) MKFHomeSoftwareUpdateSettingDatabaseID *databaseID;
 @end
 

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, VNEntityIdentificationModelAlgorithm;
-
 @interface VNEntityIdentificationModelInformation
 {
     _Bool _readOnly;
-    unsigned long long _version;
-    VNEntityIdentificationModelAlgorithm *_algorithm;
-    NSDate *_lastModificationDate;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)service:didReceiveArchivedItemsDescriptors: /* Error: Ran out of types for this method. */;
+- (id)appendString:(id)arg1;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (_Bool);
 - (void);
 - (id);
@@ -28,9 +23,6 @@
 - (void)featureOrientation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) VNEntityIdentificationModelAlgorithm *algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, copy) NSDate *lastModificationDate; // @synthesize lastModificationDate=_lastModificationDate;
-@property(readonly, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
 @property(readonly) unsigned long long version; // @synthesize version=_version;
 
 @end

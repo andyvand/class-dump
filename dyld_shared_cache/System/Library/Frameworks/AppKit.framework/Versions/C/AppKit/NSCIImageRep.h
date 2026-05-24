@@ -16,17 +16,17 @@
 + (id);
 + (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)roxySession <%{public}@> %{public}@ getting auth headers for session %@ with identifier %@ outstanding auth tasks %@;
+- (_Bool)k;
+- (_Bool)ic}@> failed to create a background AVAssetDownloadTask, as remote session is unavailable;
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)6lq;
 - (void);
+- (id)synchronouslyReflectCurrentValue;
 - (id);
-- (id);
-- (id)alueForKey:(struct _NSZone *)arg1;
+- (id)_fetchValueForKey:(struct _NSZone *)arg1;
 - (_Bool);
-- (_Bool)ttached;
+- (_Bool)attached;
 
 // Remaining properties
 @property(readonly) CIImage *CIImage;

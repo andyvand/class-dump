@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSDocumentIdentifier, GSStagingPrefix, NSData, NSURL;
-@protocol NSCopying><NSSecureCoding;
+@class GSDocumentIdentifier;
 
 @interface GSPermanentStorage
 {
     GSDocumentIdentifier *_documentID;
-    GSStagingPrefix *_stagingPrefix;
-    NSURL *_documentURL;
-    unsigned long long _remoteID;
-    unsigned long long _storageID;
-    NSData *_pubExtension;
-    NSData *_privExtension;
-    long long _pubHandle;
-    long long _privHandle;
 }
 
 + (id);
@@ -31,7 +22,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (id);
@@ -43,7 +34,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -57,25 +48,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)GKDirectAnswer",&,N;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_noteNewPresentationSizeForPlayerItem: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GSDocumentIdentifier *documentID;
-@property(retain) NSURL *documentURL; // @synthesize documentURL=_documentURL;
-@property(readonly, nonatomic) id <NSCopying><NSSecureCoding> persistentIdentifier; // @synthesize persistentIdentifier=_documentID;
-@property(retain) NSData *privExtension;
-@property(retain) NSData *pubExtension;
 @property(readonly, nonatomic) long long remoteID;
-@property(retain, nonatomic) GSStagingPrefix *stagingPrefix; // @synthesize stagingPrefix=_stagingPrefix;
-@property(readonly, nonatomic) unsigned long long storageID; // @synthesize storageID=_storageID;
 
 @end
 

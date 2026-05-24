@@ -7,7 +7,6 @@
 @interface NSPPrivacyProxyProxyPathWeight
 {
     CDStruct_9f2792e4 _proxies;
-    unsigned int _weight;
 }
 
 - (void);
@@ -22,17 +21,15 @@
 - (id);
 - (unsigned int);
 - (id);
-- (void);
-- (unsigned int *);
+- (void)session from %@, at least, but there is no session scheduled yet;
+- (unsigned int *)na_mostCommonObject;
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)P;
 - (void)@ùÑ$ð1Â0@ù
 × ;
-- (void)ServiceStatusTimeline;
+- (void)NSPServerPrivacyProxyServiceStatusTimeline;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *proxies;
-@property(readonly, nonatomic) unsigned long long proxiesCount;
 @property(nonatomic) unsigned int weight; // @synthesize weight=_weight;
 
 @end

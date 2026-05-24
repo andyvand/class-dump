@@ -7,16 +7,6 @@
 @interface SiriInference.DateTime.Date
 {
     id day;
-    id month;
-    id year;
-    id definedValue;
-    id holiday;
-    id monthOfYear;
-    id weekOfYear;
-    id dayOfWeek;
-    id dayOfWeekOrdinal;
-    id calendarEra;
-    id occurringIn;
 }
 
 @end

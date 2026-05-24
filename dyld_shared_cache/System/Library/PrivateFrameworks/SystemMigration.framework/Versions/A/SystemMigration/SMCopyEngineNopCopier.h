@@ -6,34 +6,24 @@
 
 #import <SystemMigration/SMCopyEngineFileCopier.h>
 
-@class NSMutableSet, NSString, NSURL;
-
 @interface SMCopyEngineNopCopier : SMCopyEngineFileCopier
 {
     _Bool _skipPreflight;
-    _Bool _sourceIsTimeMachine;
-    _Bool _overwriteDestination;
-    _Bool _supportResumption;
-    _Bool _fileCopyingMode;
-    NSURL *_destinationSandboxURL;
-    NSString *_sourceRelativePath;
-    NSURL *_finalDestinationURL;
-    NSMutableSet *_failedRelativePaths;
 }
 
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -49,15 +39,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *destinationSandboxURL; // @synthesize destinationSandboxURL=_destinationSandboxURL;
-@property(retain, nonatomic) NSMutableSet *failedRelativePaths; // @synthesize failedRelativePaths=_failedRelativePaths;
 @property _Bool fileCopyingMode; // @synthesize fileCopyingMode=_fileCopyingMode;
-@property(retain, nonatomic) NSURL *finalDestinationURL; // @synthesize finalDestinationURL=_finalDestinationURL;
-@property _Bool overwriteDestination; // @synthesize overwriteDestination=_overwriteDestination;
-@property _Bool skipPreflight; // @synthesize skipPreflight=_skipPreflight;
-@property _Bool sourceIsTimeMachine; // @synthesize sourceIsTimeMachine=_sourceIsTimeMachine;
-@property(retain, nonatomic) NSString *sourceRelativePath; // @synthesize sourceRelativePath=_sourceRelativePath;
-@property _Bool supportResumption; // @synthesize supportResumption=_supportResumption;
 
 @end
 

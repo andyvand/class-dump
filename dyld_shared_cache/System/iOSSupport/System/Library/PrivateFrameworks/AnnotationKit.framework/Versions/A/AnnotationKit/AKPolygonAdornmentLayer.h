@@ -10,9 +10,9 @@
 {
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)ImageLoading;
+- (void)onse"8;
+- (_Bool)";
 
 @end
 

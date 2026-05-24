@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)p;
 + (unsigned long long);
 + (id);
 + (id);

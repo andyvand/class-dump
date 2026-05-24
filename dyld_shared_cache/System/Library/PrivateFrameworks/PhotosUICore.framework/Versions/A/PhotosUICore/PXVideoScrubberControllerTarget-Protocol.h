@@ -4,12 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVPlayerItem;
+
 @protocol PXVideoScrubberControllerTarget
+- (void);
+- (AVPlayerItem *)C;
+
+@optional
 - (float);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType durationChangeHandler;
-@property(copy, nonatomic) CDUnknownBlockType playerItemChangeHandler;
-@property(copy, nonatomic) CDUnknownBlockType statusChangeHandler;
 @end
 

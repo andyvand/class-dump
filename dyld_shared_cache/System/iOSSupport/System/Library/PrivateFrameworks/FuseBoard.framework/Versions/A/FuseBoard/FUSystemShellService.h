@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol FBSApplicationInfoProvider, FUSystemShellServiceDelegate, OS_dispatch_source;
+@protocol FBSApplicationInfoProvider, FUSystemShellServiceDelegate;
 
 @interface FUSystemShellService
 {
     id <FUSystemShellServiceDelegate> _delegate;
     id <FBSApplicationInfoProvider> _appProvider;
-    NSObject<OS_dispatch_source> *_terminationSource;
 }
 
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id)>;
+- (void)>;
+- (void);
+- (void)>;
+- (void)5>;
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 

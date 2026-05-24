@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface IDSMPDecryptionResult
 {
     NSData *_decryptedData;
-    NSDictionary *_encryptedAttributes;
-    CDUnknownBlockType _commitBlock;
-    NSDictionary *_additionalDecryptionResult;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)86;
 - (void);
 - (id);
 - (void)ze too large:%zu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalDecryptionResult; // @synthesize additionalDecryptionResult=_additionalDecryptionResult;
-@property(copy, nonatomic) CDUnknownBlockType commitBlock; // @synthesize commitBlock=_commitBlock;
 @property(retain, nonatomic) NSData *decryptedData; // @synthesize decryptedData=_decryptedData;
-@property(retain, nonatomic) NSDictionary *encryptedAttributes; // @synthesize encryptedAttributes=_encryptedAttributes;
 
 @end
 

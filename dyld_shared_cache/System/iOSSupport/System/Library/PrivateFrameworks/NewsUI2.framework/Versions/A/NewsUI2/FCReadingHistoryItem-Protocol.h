@@ -7,40 +7,19 @@
 @class CKRecord, NSDate, NSString;
 
 @protocol FCReadingHistoryItem
+- (NSDate *)@;
+- (NSDate *);
+- (_Bool)ParticipantListViewControllerDelegate;
+- (_Bool);
+- (NSString *)Successful ReadyToPlay;
+- (long long)pFilter - Discarding ad %{public}s:%{public}s cap exceeded for entityId %{public}s (%ld/%ld impressions in %lds window) /* Error: Ran out of types for this method. */;
 - (unsigned long long)P;
 - (NSString *)àP;
-- (NSString *)eration;
+- (NSString *)unableToInitializeFeatureFetchOperation;
 - (CKRecord *)F16ProviderDelegateP;
 - (NSString *)reason=%{public}@, state=%{public}@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) unsigned long long articleLikingStatus;
-@property(readonly, nonatomic) CKRecord *asCKRecord;
-@property(readonly, copy, nonatomic) NSString *clusterID;
-@property(readonly, copy, nonatomic) NSString *deviceID;
-@property(readonly, copy, nonatomic) NSDate *firstSeenAt;
-@property(readonly, copy, nonatomic) NSDate *firstSeenAtOfMaxVersionSeen;
-@property(readonly, nonatomic) unsigned long long flags;
-@property(readonly, nonatomic) _Bool hasArticleBeenConsumed;
-@property(readonly, nonatomic) _Bool hasArticleBeenMarkedOffensive;
-@property(readonly, nonatomic) _Bool hasArticleBeenRead;
-@property(readonly, nonatomic) _Bool hasArticleBeenRemovedFromAudio;
-@property(readonly, nonatomic) _Bool hasArticleBeenSeen;
-@property(readonly, nonatomic) _Bool hasArticleCompletedListening;
-@property(readonly, nonatomic) _Bool hasArticleCompletedReading;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSDate *lastListenedAt;
-@property(readonly, copy, nonatomic) NSDate *lastVisitedAt;
-@property(readonly, nonatomic) long long listenedCount;
-@property(readonly, nonatomic) double listeningProgress;
-@property(readonly, copy, nonatomic) NSDate *listeningProgressSavedAt;
-@property(readonly, nonatomic) long long maxVersionRead;
-@property(readonly, nonatomic) long long maxVersionSeen;
-@property(readonly, nonatomic, getter=isPruningDisabled) _Bool pruningDisabled;
-@property(readonly, nonatomic) long long readCount;
-@property(readonly, copy, nonatomic) NSString *readingPosition;
-@property(readonly, copy, nonatomic) NSDate *readingPositionSavedAt;
-@property(readonly, copy, nonatomic) NSString *sourceChannelTagID;
 @end
 

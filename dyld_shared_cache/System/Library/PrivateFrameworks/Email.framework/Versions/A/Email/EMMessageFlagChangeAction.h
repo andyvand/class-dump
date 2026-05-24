@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)DemoAccessoryServer;
 - (id);
 - (id);
 - (id);

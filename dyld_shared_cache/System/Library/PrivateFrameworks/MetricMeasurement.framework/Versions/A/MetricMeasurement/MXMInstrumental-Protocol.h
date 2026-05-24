@@ -5,5 +5,10 @@
 //
 
 @protocol MXMInstrumental
+
+@optional
+- (_Bool);
+- (void).U;
+- (_Bool)+z;
 @end
 

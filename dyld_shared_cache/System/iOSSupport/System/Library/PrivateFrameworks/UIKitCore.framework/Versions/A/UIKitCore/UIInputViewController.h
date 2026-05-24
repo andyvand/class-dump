@@ -6,20 +6,11 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, UIInputView, UIKeyboard;
-@protocol UITextDocumentProxy;
+@class UIKeyboard;
 
 @interface UIInputViewController : UIViewController
 {
     _Bool _commitInputModeOnTouchEnd;
-    _Bool _inputModeListIsShown;
-    _Bool _viewConformsToRemotePlaceholder;
-    double _touchBegan;
-    _Bool _alignsToContentViewController;
-    _Bool _autosizeToCurrentKeyboard;
-    _Bool _hasDictationKey;
-    id <UITextDocumentProxy> _textDocumentProxy;
-    NSString *_primaryLanguage;
 }
 
 + (void);
@@ -29,24 +20,24 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool)CaptiveLoginAllowed: /* Error: Ran out of types for this method. */;
+- (void)Du;
+- (void);
+- (void)2^f56B64f68;
+- (id);
+- (void);
+- (id);
+- (void)beginTransaction;
+- (void)icSubscriptionStatus",R,C,N;
+- (void)=[%{public}@];
+- (_Bool)Translator was missing mapping for MPModelPropertyAlbumPreorder;
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)j;
 - (void);
 - (_Bool);
 - (void);
@@ -66,11 +57,11 @@
 - (void)56@0:8@16@24@32{CGPoint=dd}40 /* Error: Ran out of types for this method. */;
 - (void)8q16{CGVector=dd}24B40;
 - (id)entHostNeedsUpdate"b1"allowsDithering"b1"allowsGroupFiltering"b1"useReducedTransparencyForContentHost"b1"isUpdatingSubviews"b1"hasBackdropBackgroundColorAlpha"b1"isContentStatic"b1"blurClippingMode"I};
-- (_Bool)terDuration: /* Error: Ran out of types for this method. */;
-- (void)useOfCell:(_Bool)arg1;
+- (_Bool)speedAfterDuration: /* Error: Ran out of types for this method. */;
+- (void)preventReuseOfCell:(_Bool)arg1;
 - (_Bool)shiftTouches;
 - (void)ification;
-- (void)ignmentRectContext;
+- (void)UIZoomTransitionAlignmentRectContext;
 - (id)¨$<hØ;
 - (void)è;
 - (id)¬%·;
@@ -85,23 +76,7 @@
 - (void)Ysq;
 
 // Remaining properties
-@property(nonatomic) _Bool _alignsToContentViewController; // @synthesize _alignsToContentViewController;
-@property(nonatomic, setter=_setAutosizeToCurrentKeyboard:) _Bool _autosizeToCurrentKeyboard; // @synthesize _autosizeToCurrentKeyboard;
-@property(readonly, nonatomic) _Bool _isPlaceholder;
 @property(readonly, nonatomic) UIKeyboard *_keyboard;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasDictationKey; // @synthesize hasDictationKey=_hasDictationKey;
-@property(readonly, nonatomic) _Bool hasFullAccess;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIInputView *inputView;
-@property(readonly, nonatomic) _Bool needsInputModeSwitchKey;
-@property(copy, nonatomic) NSString *primaryLanguage; // @synthesize primaryLanguage=_primaryLanguage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <UITextDocumentProxy> textDocumentProxy; // @synthesize textDocumentProxy=_textDocumentProxy;
 
 @end
 

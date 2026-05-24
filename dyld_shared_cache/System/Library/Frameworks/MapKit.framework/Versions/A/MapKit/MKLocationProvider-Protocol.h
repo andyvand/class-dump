@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSBundle, NSString;
 @protocol MKLocationProviderDelegate;
 
 @protocol MKLocationProvider
+- (_Bool);
+- (void)involvedIdentifiers;
+- (void)C;
+- (_Bool);
+- (void)commandControlListener:hasLPCMBufferAvailable: /* Error: Ran out of types for this method. */;
+- (_Bool),&,N,V_shadowMicScoreCreator;
+- (long long)_block_invoke;
 - (int)*Ð1Â0@ù
 × ;
 - (double);
-- (void)Edge: /* Error: Ran out of types for this method. */;
-- (void)uiresAttributionInDeveloperPlaceCard;
-- (void)eDidChange:(double)arg1 reason: /* Error: Ran out of types for this method. */;
-- (void)fNecessary: /* Error: Ran out of types for this method. */;
-- (void)cessURL: /* Error: Ran out of types for this method. */;
-- (void)uteKey;
+- (void)setEdge: /* Error: Ran out of types for this method. */;
+- (void)requiresAttributionInDeveloperPlaceCard;
+- (void)mapView:(double)arg1 arTrackingStateDidChange:reason: /* Error: Ran out of types for this method. */;
+- (void)addLabelIfNecessary: /* Error: Ran out of types for this method. */;
+- (void)_processURL: /* Error: Ran out of types for this method. */;
+- (void)_iconAttributeKey;
 - (void)N,G_accuracyRingStrokeOpacityThreshold,S_setAccuracyRingStrokeOpacityThreshold:,V_accuracyRingStrokeOpacityThreshold /* Error: Ran out of types for this method. */;
 - (void)ring",R,N,G_localizedSnippet;
 - (double)ÄDøE\FÀGøH0JJäKÌL;
-- (double);
-- (void)igurationShowsTraffic;
+- (void)MKHybridMapConfigurationShowsTraffic;
 - (double)alue;
-- (void)rrorGEOTransitIncidentKey;
+- (void)MKErrorGEOTransitIncidentKey;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accuracyAuthorization;
-@property(readonly, nonatomic) int authorizationStatus;
 @property(nonatomic) __weak id <MKLocationProviderDelegate> delegate;
-@property(nonatomic) double desiredAccuracy;
-@property(nonatomic) double distanceFilter;
-@property(retain, nonatomic) NSBundle *effectiveBundle;
-@property(copy, nonatomic) NSString *effectiveBundleIdentifier;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval;
-@property(nonatomic) _Bool fusionInfoEnabled;
-@property(readonly, nonatomic) _Bool isTracePlayer;
-@property(readonly, nonatomic) CLLocation *lastLocation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CLLocation",?,R,N
-
-@property(nonatomic) _Bool matchInfoEnabled;
-@property(readonly, nonatomic) _Bool shouldShiftIfNecessary;
-@property(readonly, nonatomic) double timeScale;
-@property(readonly, nonatomic) _Bool usesCLMapCorrection;
 @end
 

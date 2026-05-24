@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioRecordContext, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSOpportuneSpeakEventMonitor
 {
     _Bool _isOpportuneSpeakListening;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_audioProviderUUID;
-    CSAudioRecordContext *_audioRecordContext;
-    NSUUID *_token;
 }
 
-+ (id)led: /* Error: Ran out of types for this method. */;
++ (id)_notifyObserver:withEnabled: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)setXpcReportCompleteDevice: /* Error: Ran out of types for this method. */;
+- (void)x;
 - (void);
 - (id);
+- (void)@"NSError">24;
 - (void);
 - (void);
+- (void);
+- (void)yIdentificationModelPrint>"16;
+- (void)initWithTargetedImageData:(id)arg1 orientation:options:session:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)addImageAestheticsConfigurationForOriginalRequest:(id)arg1;
+- (id)tSpecifier",R,N,V_landmarksOriginatingRequestSpecifier;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)dedEventWithStopReason:withMHUUID: /* Error: Ran out of types for this method. */;
+- (void)emitAttendingContextEndedEventWithStopReason:withMHUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *audioProviderUUID; // @synthesize audioProviderUUID=_audioProviderUUID;
-@property(retain, nonatomic) CSAudioRecordContext *audioRecordContext; // @synthesize audioRecordContext=_audioRecordContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOpportuneSpeakListening; // @synthesize isOpportuneSpeakListening=_isOpportuneSpeakListening;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *token; // @synthesize token=_token;
 
 @end
 

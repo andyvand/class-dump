@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol INSearchForAccountsIntentResponseExport
-- (long long)el;
+- (NSArray *);
+- (long long)hasSequenceLabel;
 
 // Remaining properties
-@property(copy) NSArray *accounts;
 @property(readonly) long long code;
 @end
 

@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOPDPublisher, NSString, NSURL;
-@protocol GEOCollectionPublisherAttribution;
+@class GEOPDPublisher;
 
 @interface GEOPublisher
 {
     GEOPDPublisher *_publisher;
-    NSString *_publisherAttributionIdentifierString;
-    id <GEOCollectionPublisherAttribution> _publisherAttribution;
 }
 
 - (long long);
-- (id);
-- (id);
-- (id);
+- (id)address;
+- (id)ABCDContactDateComponents;
+- (id)ABCDAbstractGroup;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)EventLookupResult;
+- (id)GEOSpatialEventLookupResult;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBlocked) _Bool blocked;
-@property(readonly, nonatomic) GEOMapItemIdentifier *identifier;
-@property(readonly, nonatomic) id <GEOCollectionPublisherAttribution> publisherAttribution; // @synthesize publisherAttribution=_publisherAttribution;
-@property(readonly, nonatomic) NSString *publisherDescription;
-@property(readonly, nonatomic) NSURL *publisherURL;
-@property(readonly, nonatomic, getter=isSuppressed) _Bool suppressed;
 @property(readonly, nonatomic) long long totalCollectionCount;
 
 @end

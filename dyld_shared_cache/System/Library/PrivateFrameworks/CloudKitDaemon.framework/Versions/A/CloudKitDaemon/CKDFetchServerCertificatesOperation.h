@@ -13,19 +13,18 @@
     NSArray *_validatedTrusts;
 }
 
-+ (id);
++ (id)setRxBytes:(unsigned long long)arg1;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)none;
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (void)c identity to per-participant PCS:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) NSArray *validatedTrusts; // @synthesize validatedTrusts=_validatedTrusts;
 
 @end
 

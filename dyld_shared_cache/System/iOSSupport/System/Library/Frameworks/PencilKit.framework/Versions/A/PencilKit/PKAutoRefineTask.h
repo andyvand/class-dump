@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString, PKAutoRefineQueryItem;
-@protocol CHStrokeProviderVersion, PKAutoRefineTaskDelegate;
+@class PKAutoRefineQueryItem;
+@protocol PKAutoRefineTaskDelegate;
 
 @interface PKAutoRefineTask
 {
     PKAutoRefineQueryItem *_queryItem;
-    long long _initialFirstColumnToCommit;
-    long long _initialLastColumnToCommit;
-    long long _firstColumnToCommit;
-    long long _lastColumnToCommit;
-    id <CHStrokeProviderVersion> _providerVersion;
-    double _startTime;
-    double _completionTime;
-    NSString *_stringToRefine;
-    NSArray *_strokesToReplace;
-    double _averageOriginalTokenOrientation;
-    double _averageOriginalTokenHeight;
-    _Bool _isCanceled;
-    _Bool _isComplete;
-    _Bool _hasStrokeAnimationStarted;
-    _Bool _strokesRefinementSuccessful;
-    id <PKAutoRefineTaskDelegate> _delegate;
 }
 
 - (void);
@@ -55,13 +39,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PKAutoRefineTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) double duration;
-@property(readonly) _Bool hasOngoingAnimation;
-@property(readonly) _Bool hasStrokeAnimationStarted; // @synthesize hasStrokeAnimationStarted=_hasStrokeAnimationStarted;
-@property(readonly) _Bool isCanceled; // @synthesize isCanceled=_isCanceled;
-@property(readonly) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(readonly) NSLocale *locale;
-@property(readonly) _Bool strokesRefinementSuccessful; // @synthesize strokesRefinementSuccessful=_strokesRefinementSuccessful;
 
 @end
 

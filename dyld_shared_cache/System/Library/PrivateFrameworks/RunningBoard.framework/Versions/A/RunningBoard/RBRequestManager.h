@@ -11,8 +11,8 @@
     id <RBDaemonContextProviding> _daemonContext;
 }
 
-- (void);
-- (id);
+- (void)e=%i documentEmbeddingAvailable=%d searchTermsMatchTitle=%@;
+- (id)_currentConnection;
 - (id);
 - (void);
 

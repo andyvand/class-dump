@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBPriceRangeValue, _INPBRangeValue;
+@class _INPBRangeValue;
 
 @interface _INPBRidePartySizeOption
 {
     struct _has;
-    _INPBRangeValue *_partySizeRange;
-    _INPBPriceRangeValue *_priceRange;
-    NSString *_sizeDescription;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)h;
 - (void);
 - (id);
-- (id);
+- (id)loadExtensionsWithPaths:(id)arg1 withIdentifiers:withNoAuth:withError: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)X;
 - (_Bool);
 - (void);
 - (id);
@@ -35,19 +32,7 @@
 - (void)ttributeMetadata;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPartySizeRange;
-@property(readonly, nonatomic) _Bool hasPriceRange;
-@property(readonly, nonatomic) _Bool hasSizeDescription;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBRangeValue *partySizeRange; // @synthesize partySizeRange=_partySizeRange;
-@property(retain, nonatomic) _INPBPriceRangeValue *priceRange; // @synthesize priceRange=_priceRange;
-@property(copy, nonatomic) NSString *sizeDescription; // @synthesize sizeDescription=_sizeDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDPreferredResidentsList, HMDPrimaryElectionCoordinationAddOn, NSSet, NSString;
-@protocol HMDResidentDeviceManagerContext, HMDResidentSelectionModeDelegate;
+@class HMDPrimaryElectionCoordinationAddOn;
+@protocol HMDResidentSelectionModeDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSelectionCoordinationElection
 {
     id <HMDResidentSelectionModeDelegate> _delegate;
-    unsigned long long _primaryChangedReason;
-    HMDPrimaryElectionCoordinationAddOn *_coordinationAddOn;
-    id <HMDResidentDeviceManagerContext> _context;
 }
 
 - (void);
@@ -27,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
+- (id)startSharingWithContact:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -43,28 +40,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)t;
 - (void);
 - (id);
 - (id)blic}@Handling added advertisement:(id)arg1 %@;
 - (void)r;
-- (void)eVersion;
+- (void)accessorySoftwareVersion;
 
 // Remaining properties
-@property(readonly) __weak id <HMDResidentDeviceManagerContext> context; // @synthesize context=_context;
 @property(retain) HMDPrimaryElectionCoordinationAddOn *coordinationAddOn; // @synthesize coordinationAddOn=_coordinationAddOn;
-@property(readonly) unsigned long long currentModeType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDResidentSelectionModeDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDPreferredResidentsList *localPreferredResidentsList;
-@property(readonly, nonatomic) NSSet *locallyReachableResidents;
-@property(readonly) unsigned long long primaryChangedReason; // @synthesize primaryChangedReason=_primaryChangedReason;
-@property(readonly) Class superclass;
 
 @end
 

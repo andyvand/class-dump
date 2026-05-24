@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)tMetricsAccessoryProvidingP;
 + (id)cts is empty. Did CNContact fail to decode?;
 - (id);
 - (id);

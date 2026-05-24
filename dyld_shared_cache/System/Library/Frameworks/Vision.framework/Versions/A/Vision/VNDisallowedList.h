@@ -18,14 +18,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void)_:options:):inputImageDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSSet *allIdentifiers;
 @property(readonly) unsigned long long identifierCount;
 
 @end

@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaMARRSQueryRewriteEvaluated, NLXSchemaMARRSQueryRewriteFailed, NLXSchemaMARRSQueryRewriteStarted, NSData;
+@class NLXSchemaMARRSQueryRewriteStarted;
 
 @interface NLXSchemaMARRSQueryRewriteContext : SISchemaInstrumentationMessage
 {
     NLXSchemaMARRSQueryRewriteStarted *_started;
-    NLXSchemaMARRSQueryRewriteEvaluated *_evaluated;
-    NLXSchemaMARRSQueryRewriteFailed *_failed;
-    NLXSchemaMARRSQueryRewriteStarted *_startedOrChanged;
-    NLXSchemaMARRSQueryRewriteEvaluated *_ended;
-    _Bool _hasStarted;
-    _Bool _hasEvaluated;
-    _Bool _hasFailed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -40,17 +30,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)Q16Q24C32@?36;
+- (void)notifyArtworkStatusChangedWithInfoArray:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ibrary/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_pcons.c;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
@@ -63,18 +53,7 @@
 - (void)ÿòÑ¯%;
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaMARRSQueryRewriteEvaluated *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaMARRSQueryRewriteEvaluated *evaluated; // @synthesize evaluated=_evaluated;
-@property(retain, nonatomic) NLXSchemaMARRSQueryRewriteFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasEvaluated; // @synthesize hasEvaluated=_hasEvaluated;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaMARRSQueryRewriteStarted *started; // @synthesize started=_started;
-@property(retain, nonatomic) NLXSchemaMARRSQueryRewriteStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

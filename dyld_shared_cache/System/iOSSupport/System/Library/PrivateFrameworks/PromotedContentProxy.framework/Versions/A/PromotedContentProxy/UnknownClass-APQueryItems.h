@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (APQueryItems)
+- (id)9;
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool)89;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)Q;
 @end
 

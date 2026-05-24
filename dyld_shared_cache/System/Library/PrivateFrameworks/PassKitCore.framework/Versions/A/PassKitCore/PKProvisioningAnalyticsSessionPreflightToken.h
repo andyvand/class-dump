@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface PKProvisioningAnalyticsSessionPreflightToken
 {
     double _start;
-    NSMutableDictionary *_stepProperties;
 }
 
-- (id);
+- (id);
 - (id);
 - (double);
-- (void)ntervalSpecified;
+- (void)recurrenceIntervalSpecified;
 
 // Remaining properties
 @property(readonly, nonatomic) double start; // @synthesize start=_start;
-@property(readonly, nonatomic) NSMutableDictionary *stepProperties; // @synthesize stepProperties=_stepProperties;
 
 @end
 

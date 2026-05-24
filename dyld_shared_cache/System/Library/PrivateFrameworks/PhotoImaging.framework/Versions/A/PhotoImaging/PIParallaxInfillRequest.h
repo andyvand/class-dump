@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUColorSpace, NUPixelFormat;
-@protocol NUImageBuffer, NUScalePolicy;
+@protocol NUImageBuffer;
 
 @interface PIParallaxInfillRequest
 {
     _Bool _shouldInfillForeground;
-    id <NUImageBuffer> _segmentationMatte;
-    id <NUScalePolicy> _scalePolicy;
-    NUPixelFormat *_pixelFormat;
-    NUColorSpace *_colorSpace;
 }
 
 - (_Bool);
@@ -25,20 +20,16 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (void);
-- (void);
+- (void)g session.;
 - (void);
 - (void)Á¨Ð!;
-- (void);
+- (void)setIsSpatialPhotoAvailable: /* Error: Ran out of types for this method. */;
 - (id)e;
 
 // Remaining properties
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(retain, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(retain, nonatomic) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
 @property(retain, nonatomic) id <NUImageBuffer> segmentationMatte; // @synthesize segmentationMatte=_segmentationMatte;
-@property(nonatomic) _Bool shouldInfillForeground; // @synthesize shouldInfillForeground=_shouldInfillForeground;
 
 @end
 

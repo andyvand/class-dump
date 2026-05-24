@@ -6,8 +6,6 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSString, SIComponentIdentifier;
-
 @interface SISchemaTopLevelUnionType : SISchemaInstrumentationMessage
 {
 }
@@ -19,24 +17,15 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)n;
 - (int);
 - (id);
 - (id)× ;
-- (int)estStarted;
-- (_Bool)enceStarted;
+- (int)POMMESSchemaPOMMESProfileSliceResolutionRequestStarted;
+- (_Bool)JRSchemaJRInferenceStarted;
 
 // Remaining properties
 @property(readonly, nonatomic) int clockIsolationLevel;
-@property(readonly, nonatomic) SIComponentIdentifier *componentIdentifier;
-@property(readonly, nonatomic) int componentName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

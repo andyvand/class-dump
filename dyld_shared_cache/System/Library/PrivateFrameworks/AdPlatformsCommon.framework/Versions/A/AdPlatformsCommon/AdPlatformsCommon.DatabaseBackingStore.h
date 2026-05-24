@@ -7,14 +7,6 @@
 @interface AdPlatformsCommon.DatabaseBackingStore
 {
     id telemetryDelivery;
-    id identifierStorage;
-    id accountProvider;
-    id sessionProvider;
-    id notificationPoster;
-    id featureFlagEnabled;
-    id bucketIdInjector;
-    id nodeFetcher;
-    id rotationSignal;
 }
 
 @end

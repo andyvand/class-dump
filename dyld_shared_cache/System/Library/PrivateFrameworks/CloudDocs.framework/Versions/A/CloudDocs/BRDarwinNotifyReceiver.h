@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface BRDarwinNotifyReceiver
 {
     NSString *_eventName;
-    int _token;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _lastState;
-    CDUnknownBlockType _handler;
 }
 
 - (void);

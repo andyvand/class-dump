@@ -4,41 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSNotificationCenter, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMCameraRecordingReachabilityEventManager
 {
     struct os_unfair_lock_s _lock;
-    _HMContext *_context;
-    NSUUID *_uniqueIdentifier;
-    NSNotificationCenter *_notificationCenter;
-    NSMapTable *_delegateCallersByObservers;
 }
 
-+ (id)Value;
++ (id)HMAccessCodeUpdateRequestValueCodingKeyAccessoryAccessCodeValue;
 - (id);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)#;
 - (void);
+- (void);
+- (void);
+- (id)>	8	;
+- (void)SecondaryDynamic;
+- (id)normalizedHandleWithType:value:isoCountryCode: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)4q32q40q48;
@@ -47,21 +42,6 @@
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSMapTable *delegateCallersByObservers; // @synthesize delegateCallersByObservers=_delegateCallersByObservers;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

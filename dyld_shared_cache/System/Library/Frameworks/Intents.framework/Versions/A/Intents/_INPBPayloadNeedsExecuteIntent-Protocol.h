@@ -9,7 +9,6 @@
 @protocol _INPBPayloadNeedsExecuteIntent
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentExecution;
 @property(retain, nonatomic) _INPBIntentExecutionRequest *intentExecution;
 @end
 

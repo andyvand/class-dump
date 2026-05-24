@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CIMLFeatureProvider
 {
     NSMutableDictionary *contents;
-    MLMultiArray *multiArray;
-    struct __CVBuffer *buffer;
-    NSString *name;
 }
 
 - (void);
@@ -33,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *contents; // @synthesize contents;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

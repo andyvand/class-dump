@@ -9,11 +9,10 @@
 @interface RoamPolicyStore
 {
     _Bool _enabled;
-    AnalyticsStoreMOHandler *_roamPolicyMOHandler;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -28,7 +27,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)get identity from Apple ID:(unsigned long long)arg1 %@;
 - (void);
 - (void);
 - (_Bool);
@@ -36,9 +35,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_readAndLogforParam:(unsigned long long)arg1;
 - (_Bool);
-- (void);
+- (void)!;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -49,7 +48,6 @@
 × ;
 
 // Remaining properties
-@property _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain, nonatomic) AnalyticsStoreMOHandler *roamPolicyMOHandler; // @synthesize roamPolicyMOHandler=_roamPolicyMOHandler;
 
 @end

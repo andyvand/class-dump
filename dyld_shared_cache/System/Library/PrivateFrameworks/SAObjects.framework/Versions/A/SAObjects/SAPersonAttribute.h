@@ -6,8 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAPerson;
-@protocol SAAceComparable;
+@class NSString;
 
 @interface SAPersonAttribute : AceObject
 {
@@ -18,17 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *data;
-@property(copy, nonatomic) NSString *dataType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayText;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAPerson *object;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <SAAceComparable> typedData;
 
 @end
 

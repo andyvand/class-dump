@@ -6,14 +6,11 @@
 
 #import <CoreML/MLProgramContainer.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MLMultiFunctionProgramContainer : MLProgramContainer
 {
     struct map<std::string, InputNameToShapes, std::less<std::string>, std::allocator<std::pair<const std::string, InputNameToShapes>>> functionNameToInputShapes;
-    NSString *_activeFunction;
-    NSDictionary *_functionNameToOutputLayersNames;
-    NSDictionary *_functionNameToInputLayersNames;
 }
 
 + (id);
@@ -28,8 +25,6 @@
 - (void)"NSError"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeFunction;
-@property(retain, nonatomic) NSDictionary *functionNameToInputLayersNames; // @synthesize functionNameToInputLayersNames=_functionNameToInputLayersNames;
 @property(retain, nonatomic) NSDictionary *functionNameToOutputLayersNames; // @synthesize functionNameToOutputLayersNames=_functionNameToOutputLayersNames;
 
 @end

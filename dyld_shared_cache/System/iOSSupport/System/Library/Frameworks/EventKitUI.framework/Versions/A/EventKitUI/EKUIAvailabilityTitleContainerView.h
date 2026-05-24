@@ -15,7 +15,7 @@
 - (struct CGSize);
 - (void);
 - (id);
-- (void)unction:context: /* Error: Ran out of types for this method. */;
+- (void)sortedArrayUsingFunction:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak EKUIAvailabilityViewController *controller; // @synthesize controller=_controller;

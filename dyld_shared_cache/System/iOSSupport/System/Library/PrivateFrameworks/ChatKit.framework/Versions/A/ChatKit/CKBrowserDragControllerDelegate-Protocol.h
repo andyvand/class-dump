@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKBrowserDragManager;
+
 @protocol CKBrowserDragControllerDelegate
+- (_Bool);
+- (void);
+
+@optional
+- (void)invalidateDisplayForGlyphRange:(CKBrowserDragManager *)arg1;
 @end
 

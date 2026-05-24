@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSObject, NSOutputStream, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableData;
 
 __attribute__((visibility("hidden")))
 @interface OspreyBufferedOutputStream
 {
     NSMutableData *_outputBuffer;
-    NSOutputStream *_outputStream;
-    _Bool _closed;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -21,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)rsive download action for items:(id)arg1 %d;
+- (void)@;
 - (long long);
 - (id);
 - (_Bool)t¼tñtêt§t_tttÎt6t{t`t-tÕttlt!tÙtttÂt:twtæt«tStttHt°týt©Þt¨t«ktª&t­=t¬pt¯t®Åt¡Tt t£át¢¬t¥·t¤út§t¦Ot¹»t¸öt»tºCt½Xt¼t¿ít¾ t±1t°|t³t²ÉtµÒt´t·gt¶*tINtHtKûtJ¶tM­tLàtOtNUtAÄt@tCqtB<tE'tDjtGtFßtY+tXft[tZÓt]Èt\t_}t^0tQ¡tPìtStRYtUBtTtW÷tVºtithÔtk,tjatmztl7toÏtntat`^tc¦tbëteðtd½tgEtftyütx±t{Itzt}t|Rtªt~çtqvtp;tsÃtrtuttØtw tvmt	åt¨tPt
@@ -33,13 +29,7 @@ QÈè­ÕáG¢å*íàÛÒ4^v¼~e%K`^ÄR¸ïOL­md¡9{ïdñ
 Øàÿ	hÈ¼Q{vóéÇJ,Úòæ¨ÄÚÂ«¢¥FK÷Ì§ÚlP`&¢æRvÖQÛü»[yïìP»TÙâ@ÙÚØ0{Ô­;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

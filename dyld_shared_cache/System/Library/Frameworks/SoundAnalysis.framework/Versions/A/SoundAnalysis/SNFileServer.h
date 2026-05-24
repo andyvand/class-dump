@@ -7,13 +7,11 @@
 @interface SNFileServer
 {
     id queue;
-    id link;
-    id rootDirectory;
 }
 
-- (void);
+- (void)er;
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

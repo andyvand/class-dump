@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFPerformContactQueryCommand : SFCommand
 {
@@ -16,20 +16,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
 @property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

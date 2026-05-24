@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSSearchResultSection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_resolvedItems;
-    NSString *_sectionHeaderDisplayName;
-    NSString *_sectionSubHeaderDisplayNameWithEnrichment;
-    NSString *_sectionSubHeaderDisplayName;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _searchResultSectionCellType;
-    int _searchResultSectionType;
-    struct {
-        unsigned int has_searchResultSectionCellType:1;
-        unsigned int has_searchResultSectionType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_resolvedItems:1;
-        unsigned int read_sectionHeaderDisplayName:1;
-        unsigned int read_sectionSubHeaderDisplayNameWithEnrichment:1;
-        unsigned int read_sectionSubHeaderDisplayName:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)attSiriDidDetectContinuousConversation;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)s"b1"read_regions"b1"read_resources"b1"wrote_anyField"b1};
-- (id)Index;
+- (id)_pathIndex;
 - (id)|Ü;
 - (void);
 

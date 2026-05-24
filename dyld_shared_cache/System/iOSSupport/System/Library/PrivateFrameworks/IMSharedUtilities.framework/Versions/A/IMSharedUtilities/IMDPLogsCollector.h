@@ -9,27 +9,23 @@
 @interface IMDPLogsCollector
 {
     _DPBitValueRecorder *_privatizedUIInteractionRecorder;
-    _DPBitValueRecorder *_privatizedImageReceivedRecorder;
-    _DPBitValueRecorder *_privatizedImageSentRecorder;
 }
 
 + (id);
 + (id)st is outgoing, it should have a version.;
+- (void)So20UIViewAnimationStateCSgXw;
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)̛.3G;
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
-- (void);
+- (void)G;
 
 // Remaining properties
-@property(retain, nonatomic) _DPBitValueRecorder *privatizedImageReceivedRecorder; // @synthesize privatizedImageReceivedRecorder=_privatizedImageReceivedRecorder;
-@property(retain, nonatomic) _DPBitValueRecorder *privatizedImageSentRecorder; // @synthesize privatizedImageSentRecorder=_privatizedImageSentRecorder;
 @property(retain, nonatomic) _DPBitValueRecorder *privatizedUIInteractionRecorder; // @synthesize privatizedUIInteractionRecorder=_privatizedUIInteractionRecorder;
 
 @end

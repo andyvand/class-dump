@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface MRCompanionLinkClientRequest : MRCompanionLinkClientEvent
 {
     NSDate *_date;
-    CDUnknownBlockType _callback;
 }
 
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)ionRef *, const PairingDelegate *, PairingSessionType);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 
 @end

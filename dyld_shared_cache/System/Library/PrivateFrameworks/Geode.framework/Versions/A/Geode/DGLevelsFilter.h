@@ -4,57 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, IPAColorProfile, NSNumber;
+@class CIImage, IPAColorProfile;
 
 @interface DGLevelsFilter
 {
     CIImage *inputImage;
-    NSNumber *inputBlackSrcRGB;
-    NSNumber *inputBlackDstRGB;
-    NSNumber *inputShadowSrcRGB;
-    NSNumber *inputShadowDstRGB;
-    NSNumber *inputMidSrcRGB;
-    NSNumber *inputMidDstRGB;
-    NSNumber *inputHilightSrcRGB;
-    NSNumber *inputHilightDstRGB;
-    NSNumber *inputWhiteSrcRGB;
-    NSNumber *inputWhiteDstRGB;
-    NSNumber *inputBlackSrcRed;
-    NSNumber *inputBlackDstRed;
-    NSNumber *inputShadowSrcRed;
-    NSNumber *inputShadowDstRed;
-    NSNumber *inputMidSrcRed;
-    NSNumber *inputMidDstRed;
-    NSNumber *inputHilightSrcRed;
-    NSNumber *inputHilightDstRed;
-    NSNumber *inputWhiteSrcRed;
-    NSNumber *inputWhiteDstRed;
-    NSNumber *inputBlackSrcGreen;
-    NSNumber *inputBlackDstGreen;
-    NSNumber *inputShadowSrcGreen;
-    NSNumber *inputShadowDstGreen;
-    NSNumber *inputMidSrcGreen;
-    NSNumber *inputMidDstGreen;
-    NSNumber *inputHilightSrcGreen;
-    NSNumber *inputHilightDstGreen;
-    NSNumber *inputWhiteSrcGreen;
-    NSNumber *inputWhiteDstGreen;
-    NSNumber *inputBlackSrcBlue;
-    NSNumber *inputBlackDstBlue;
-    NSNumber *inputShadowSrcBlue;
-    NSNumber *inputShadowDstBlue;
-    NSNumber *inputMidSrcBlue;
-    NSNumber *inputMidDstBlue;
-    NSNumber *inputHilightSrcBlue;
-    NSNumber *inputHilightDstBlue;
-    NSNumber *inputWhiteSrcBlue;
-    NSNumber *inputWhiteDstBlue;
-    NSNumber *inputMode;
-    IPAColorProfile *_inputWorkingColorProfile;
 }
 
 + (id);
-+ (void)BufferMutableTile;
++ (void)PA2DBufferMutableTile;
 - (void);
 - (id);
 - (id);

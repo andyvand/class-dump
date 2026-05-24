@@ -16,15 +16,15 @@
 + (void);
 + (void);
 + (void);
++ (void)qɎR1;
 + (void);
-+ (void);
-+ (void);
++ (void);;
 + (int);
 + (void);
 + (int);
 + (id);
-+ (void);
-+ (void);
++ (void)Kj;
++ (void)*3;
 + (_Bool);
 + (_Bool);
 + (_Bool);

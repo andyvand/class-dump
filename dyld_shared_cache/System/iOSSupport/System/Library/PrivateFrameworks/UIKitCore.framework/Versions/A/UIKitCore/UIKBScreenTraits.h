@@ -4,40 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScreen;
-
 @interface UIKBScreenTraits
 {
     _Bool _isEmulatingIdiom;
-    long long _idiomToEmulate;
-    _Bool _knobInput;
-    _Bool _touchInput;
-    _Bool _touchpadInput;
-    _Bool _isKeyboardMinorEdgeWidth;
-    _Bool _isInPopover;
-    _Bool _isSplit;
-    _Bool _supportsSplit;
-    _Bool _centerFilled;
-    _Bool _isFloating;
-    _Bool _isLinear;
-    _Bool _resizeKeyboardHeight;
-    _Bool _isFirstPartyStickers;
-    _Bool _isEmojiPosterOniPad;
-    _Bool _isStickerPickerService;
-    _Bool _isStickerPickerServiceCollectionView;
-    UIScreen *_screen;
-    long long _orientation;
-    double _keyboardWidth;
-    double _keyboardBarHeight;
-    long long _preferredEmojiScrollingDirection;
-    double _assistantViewWidth;
-    double _keyboardHeightAdjustment;
-    double _hostKeyboardWidth;
-    double _screenToNativeScaleRatio;
-    struct CGSize _stretchFactor;
-    struct CGSize _preferredContentSizeInPopover;
-    struct CGRect _bounds;
-    struct CGRect _assistantViewWindowBounds;
 }
 
 + (id);
@@ -46,11 +15,12 @@
 + (id);
 + (id);
 + (id)GSize=dd}}60@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16i48d52;
-+ (void)ollerViewTopConstraint;
-+ (id)ectionDisplayInteractionDelegate_Internal;
-+ (id)apWidth;
++ (void)contentViewControllerViewTopConstraint;
++ (id)UITextSelectionDisplayInteractionDelegate_Internal;
++ (id)UILeftCapWidth;
 - (struct CGRect);
-- (id);
+- (id)nput
+;
 - (void);
 - (long long);
 - (double);
@@ -72,11 +42,11 @@
 - (_Bool)@32B40@44;
 - (_Bool);
 - (struct CGRect)Q16B24@"UITraitCollection"28;
-- (void)IndexPath:(_Bool)arg1;
-- (_Bool)tSignalEventTimestamp;
-- (long long)boardShown;
-- (double)dFiveRowControlKeyWidthForRow:keysForRow:context: /* Error: Ran out of types for this method. */;
-- (void)ounceMinMaxValueImageViewsIfNeeded;
+- (void)frameForItemAtIndexPath:(_Bool)arg1;
+- (_Bool)_lastSignalEventTimestamp;
+- (long long)_isKeyboardShown;
+- (double)_derivedFiveRowControlKeyWidthForRow:keysForRow:context: /* Error: Ran out of types for this method. */;
+- (void)_bounceMinMaxValueImageViewsIfNeeded;
 - (double)renderJobsCount;
 - (_Bool)namicHidingDelegate;
 - (double);
@@ -84,10 +54,10 @@
 - (long long)swipe actions view at index path:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize)ÿ;
-- (void)ioParameters;
-- (_Bool)dChangeNotification;
-- (double)ctionStyleDestructive;
-- (void)orphableInternal;
+- (void)dampingRatioParameters;
+- (_Bool)UIDeviceBatteryStateDidChangeNotification;
+- (double)UIAlertActionStyleDestructive;
+- (void)_UIMorphableInternal;
 - (_Bool)À`;
 - (struct CGSize)øwÔ];
 - (void)ÿØ×ÚXa`;
@@ -101,32 +71,7 @@
 - (id)CêÔ<Tl;
 
 // Remaining properties
-@property(nonatomic) double assistantViewWidth; // @synthesize assistantViewWidth=_assistantViewWidth;
-@property(nonatomic) struct CGRect assistantViewWindowBounds; // @synthesize assistantViewWindowBounds=_assistantViewWindowBounds;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) _Bool centerFilled; // @synthesize centerFilled=_centerFilled;
-@property(readonly, nonatomic) long long idiom;
-@property(readonly, nonatomic) _Bool isEmojiScrollingDirectionVertical;
-@property(readonly, nonatomic) _Bool isFloating; // @synthesize isFloating=_isFloating;
-@property(readonly, nonatomic) _Bool isInPopover; // @synthesize isInPopover=_isInPopover;
-@property(readonly, nonatomic) _Bool isKeyboardMinorEdgeWidth; // @synthesize isKeyboardMinorEdgeWidth=_isKeyboardMinorEdgeWidth;
-@property(readonly, nonatomic) _Bool isLinear; // @synthesize isLinear=_isLinear;
-@property(nonatomic) _Bool isSplit; // @synthesize isSplit=_isSplit;
-@property(nonatomic) double keyboardBarHeight; // @synthesize keyboardBarHeight=_keyboardBarHeight;
-@property(nonatomic) double keyboardHeightAdjustment; // @synthesize keyboardHeightAdjustment=_keyboardHeightAdjustment;
-@property(readonly, nonatomic) struct CGSize keyboardScreenReferenceSize;
-@property(nonatomic) double keyboardWidth; // @synthesize keyboardWidth=_keyboardWidth;
-@property(readonly, nonatomic) _Bool knobInput; // @synthesize knobInput=_knobInput;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) struct CGSize preferredContentSizeInPopover; // @synthesize preferredContentSizeInPopover=_preferredContentSizeInPopover;
 @property(nonatomic) long long preferredEmojiScrollingDirection; // @synthesize preferredEmojiScrollingDirection=_preferredEmojiScrollingDirection;
-@property(nonatomic) _Bool resizeKeyboardHeight; // @synthesize resizeKeyboardHeight=_resizeKeyboardHeight;
-@property(readonly, nonatomic) UIScreen *screen; // @synthesize screen=_screen;
-@property(nonatomic) double screenToNativeScaleRatio; // @synthesize screenToNativeScaleRatio=_screenToNativeScaleRatio;
-@property(nonatomic) struct CGSize stretchFactor; // @synthesize stretchFactor=_stretchFactor;
-@property(nonatomic) _Bool supportsSplit; // @synthesize supportsSplit=_supportsSplit;
-@property(readonly, nonatomic) _Bool touchInput; // @synthesize touchInput=_touchInput;
-@property(readonly, nonatomic) _Bool touchpadInput; // @synthesize touchpadInput=_touchpadInput;
 
 @end
 

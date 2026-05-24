@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
-@protocol PXPerson;
-
 @interface PXPeopleNameSelection
 {
     unsigned long long _selectionType;
-    id <PXPerson> _person;
-    CNContact *_contact;
-    NSString *_name;
 }
 
 - (void);
@@ -21,21 +15,16 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)createVideoAdProviderForComponentView:(id)arg1 videoPlayerViewController:analyticsReporter: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)mLiveAttributesWereUpdatedSinceLastRendering;
 - (id)={CGPoint=dd}{CGSize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}112@304{PXTileGeometry={CGRect={CGPoint=dd}{CGSize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}312@504;
 - (id)xE;
 - (id)¤y\¤AAyÙV¤y¬G'¤GGAAyc¶¤yõï«y÷;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) id <PXPerson> person; // @synthesize person=_person;
 @property(readonly, nonatomic) unsigned long long selectionType; // @synthesize selectionType=_selectionType;
 
 @end

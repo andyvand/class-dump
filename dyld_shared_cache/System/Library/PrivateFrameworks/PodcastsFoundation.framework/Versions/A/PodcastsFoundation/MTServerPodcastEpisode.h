@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSOrderedSet, NSString;
+@class NSString;
 
 @interface MTServerPodcastEpisode
 {
     void id;
-    void type;
-    id href;
-    id attributes;
-    id relationships;
 }
 
 - (unsigned int);
 - (id);
+- (id)k;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -45,19 +41,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)k";
 - (_Bool);
 - (double);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (_Bool);
 - (double);
 - (id);
 - (double);
 - (id);
-- (id)apters;
+- (id)chapters;
 - (id)hþÿ$hþÿ<hþÿThþÿlhþÿhþÿhþÿ¼hþÿÔhþÿ\iþÿ jþÿ8jþÿ¬jþÿäjþÿüjþÿDkþÿ\kþÿÄkþÿlþÿ lþÿmþÿ(mþÿ@mþÿXmþÿxmþÿmþÿ¨mþÿ8nþÿànþÿoþÿpþÿ0pþÿ¸pþÿ4qþÿqþÿrþÿ(rþÿrþÿsþÿPsþÿhsþÿ(tþÿ`tþÿtþÿÈtþÿètþÿuþÿ uþÿ8uþÿxuþÿ¸uþÿðuþÿ(vþÿ`vþÿ¨vþÿÀvþÿØvþÿðvþÿwþÿ0wþÿHwþÿwþÿ¸wþÿðwþÿxþÿ0xþÿPxþÿpxþÿxþÿÀxþÿ;
 - (void);
 - (long long);
@@ -65,52 +61,7 @@
 - (id)ÿ}]lÐ»ÿµ]tÐ»ÿ]Ð»ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *artworkBackgroundColor;
-@property(nonatomic, readonly) double artworkHeight;
-@property(nonatomic, readonly) NSString *artworkTemplateURL;
-@property(nonatomic, readonly) NSString *artworkTextPrimaryColor;
-@property(nonatomic, readonly) NSString *artworkTextQuaternaryColor;
-@property(nonatomic, readonly) NSString *artworkTextSecondaryColor;
-@property(nonatomic, readonly) NSString *artworkTextTertiaryColor;
-@property(nonatomic, readonly) double artworkWidth;
 @property(nonatomic, readonly) NSString *author;
-@property(nonatomic, readonly) unsigned long long byteSize;
-@property(nonatomic, readonly) NSString *category;
-@property(nonatomic, readonly) NSString *chapterSource;
-@property(nonatomic, readonly) NSOrderedSet *chapters;
-@property(nonatomic, readonly) double duration;
-@property(nonatomic, readonly) NSString *enclosureURL;
-@property(nonatomic, readonly) double entitledDuration;
-@property(nonatomic, readonly) NSString *entitledEnclosureURL;
-@property(nonatomic, readonly) NSString *entitledPriceType;
-@property(nonatomic, readonly) NSString *entitledTranscriptIdentifier;
-@property(nonatomic, readonly) NSString *entitledTranscriptProvider;
-@property(nonatomic, readonly) NSString *entitledTranscriptSnippet;
-@property(nonatomic, readonly) long long episodeNumber;
-@property(nonatomic, readonly) NSString *episodeStoreId;
-@property(nonatomic, readonly) NSString *episodeType;
-@property(nonatomic, readonly) NSDate *firstTimeAvailableAsFree;
-@property(nonatomic, readonly) NSDate *firstTimeAvailableAsPaid;
-@property(nonatomic, readonly) NSString *freeTranscriptIdentifier;
-@property(nonatomic, readonly) NSString *freeTranscriptProvider;
-@property(nonatomic, readonly) NSString *freeTranscriptSnippet;
-@property(nonatomic, readonly) NSString *guid;
-@property(nonatomic, readonly) NSString *id;
-@property(nonatomic, readonly) _Bool isExplicit;
-@property(nonatomic, readonly) _Bool isRestricted;
-@property(nonatomic, readonly) NSString *itemDescription;
-@property(nonatomic, readonly) NSString *itemSummary;
-@property(nonatomic, readonly) NSString *itunesTitle;
-@property(nonatomic, readonly) NSString *priceType;
-@property(nonatomic, readonly) _Bool priceTypeIsPSUB;
-@property(nonatomic, readonly) NSDate *pubDate;
-@property(nonatomic, readonly) NSString *resolvedEnclosureUrl;
-@property(nonatomic, readonly) long long seasonNumber;
-@property(nonatomic, readonly) NSString *title;
-@property(nonatomic, readonly) unsigned int trackNum;
-@property(nonatomic, readonly) NSString *type;
-@property(nonatomic, readonly) NSString *uti;
-@property(nonatomic, readonly) NSString *webpageURL;
 
 @end
 

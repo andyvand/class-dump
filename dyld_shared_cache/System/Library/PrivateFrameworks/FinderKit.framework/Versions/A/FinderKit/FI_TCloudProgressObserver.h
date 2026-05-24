@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TInternalCloudProgressObserver, FPProviderDomain, NSArray, NSObject, NSString, NSURL;
+@class FI_TInternalCloudProgressObserver, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface FI_TCloudProgressObserver
 {
     NSURL *_rootURL;
-    NSObject *_subscriber;
-    struct TNotificationCenterObserver _stateObserver;
-    struct TFENode _sidebarTargetNode;
-    optional_c3575463 _iCloudFlavor;
-    FPProviderDomain *_domain;
-    NSString *_iCloudDriveStatus;
-    double _percentageComplete;
-    FI_TInternalCloudProgressObserver *_internalObserver;
 }
 
 + (id);
@@ -29,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (struct TFENode);
 - (void);
 - (void);
-- (optional_c3575463);
+- (optional_ee0e940d);
 - (id);
 - (id);
 - (void);
@@ -45,14 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) FPProviderDomain *domain; // @synthesize domain=_domain;
-@property(copy, nonatomic) NSString *iCloudDriveStatus; // @synthesize iCloudDriveStatus=_iCloudDriveStatus;
-@property(readonly, nonatomic) optional_c3575463 iCloudFlavor; // @synthesize iCloudFlavor=_iCloudFlavor;
 @property(retain) FI_TInternalCloudProgressObserver *internalObserver; // @synthesize internalObserver=_internalObserver;
-@property(nonatomic) double percentageComplete; // @synthesize percentageComplete=_percentageComplete;
-@property(readonly) NSArray *progresses;
-@property(readonly, nonatomic) struct TFENode sidebarTargetNode; // @synthesize sidebarTargetNode=_sidebarTargetNode;
-@property(readonly, nonatomic) _Bool syncedWithICloud;
 
 @end
 

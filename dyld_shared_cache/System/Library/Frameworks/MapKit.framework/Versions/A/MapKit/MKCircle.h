@@ -6,45 +6,24 @@
 
 #import <MapKit/MKShape.h>
 
-@class NSString;
-
 @interface MKCircle : MKShape
 {
     struct CLLocationCoordinate2D _coordinate;
-    double _radius;
-    CDStruct_02837cd9 _boundingMapRect;
 }
 
-+ (id);
-+ (id);
++ (id)__objc_arraydata__DATA_CONST;
++ (id);
 + (_Bool);
 - (id);
-- (CDStruct_02837cd9);
-- (_Bool);
+- (CDStruct_2f492f29);
+- (_Bool)<{;
 - (id);
 - (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)_enabledPolicyWithAVVCAudioSource;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_02837cd9 boundingMapRect; // @synthesize boundingMapRect=_boundingMapRect;
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

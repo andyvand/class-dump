@@ -4,10 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSMutableString, NSString;
 
 @protocol EFSQLExpressable
-- (void);
+- (void)ef_isLaterThanOrEqualDate:(NSMutableString *)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ef_SQLExpression;

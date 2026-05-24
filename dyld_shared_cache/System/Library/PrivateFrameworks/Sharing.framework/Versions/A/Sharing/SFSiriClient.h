@@ -10,10 +10,6 @@
 @interface SFSiriClient
 {
     _Bool _invalidateCalled;
-    unsigned int _invalidateFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _siriDialogHandler;
 }
 
 - (void);
@@ -39,14 +35,12 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)addNameService;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType siriDialogHandler; // @synthesize siriDialogHandler=_siriDialogHandler;
 
 @end
 

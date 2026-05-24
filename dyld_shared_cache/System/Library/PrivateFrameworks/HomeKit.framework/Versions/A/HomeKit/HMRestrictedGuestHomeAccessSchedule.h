@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface HMRestrictedGuestHomeAccessSchedule
 {
     NSArray *_weekDayRules;
-    NSArray *_yearDayRules;
 }
 
 + (_Bool);
@@ -17,22 +16,22 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)RMN;
 - (id);
-- (id);
-- (id);
+- (id)-O;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)discard;
+- (id)translation;
 - (void);
 - (id);
 - (id);
@@ -41,25 +40,7 @@
 - (void)ä;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(copy) NSArray *weekDayRules; // @synthesize weekDayRules=_weekDayRules;
-@property(copy) NSArray *yearDayRules; // @synthesize yearDayRules=_yearDayRules;
 
 @end
 

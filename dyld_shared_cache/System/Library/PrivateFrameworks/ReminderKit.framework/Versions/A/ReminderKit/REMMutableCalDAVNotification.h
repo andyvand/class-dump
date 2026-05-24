@@ -6,7 +6,7 @@
 
 #import <ReminderKit/REMCalDAVNotification.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface REMMutableCalDAVNotification : REMCalDAVNotification
 {
@@ -14,11 +14,6 @@
 
 
 // Remaining properties
-@property(copy, nonatomic) NSString *daPushKey;
-@property(copy, nonatomic) NSString *daSyncToken;
-@property(copy, nonatomic) NSString *externalIdentifier;
-@property(copy, nonatomic) NSString *externalModificationTag;
-@property(retain, nonatomic) NSURL *hostURL; // @dynamic hostURL;
 @property(retain, nonatomic) NSString *uuidString; // @dynamic uuidString;
 @end
 

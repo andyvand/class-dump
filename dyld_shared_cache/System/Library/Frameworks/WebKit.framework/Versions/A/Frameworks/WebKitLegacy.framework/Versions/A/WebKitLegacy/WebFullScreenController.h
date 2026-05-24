@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WebView;
-
 __attribute__((visibility("hidden")))
 @interface WebFullScreenController
 {
     struct RefPtr<WebCore::Element, WTF::RawPtrTraits<WebCore::Element>, WTF::DefaultRefDerefTraits<WebCore::Element>> _element;
-    WebView *_webView;
-    struct RetainPtr<NSView> _webViewPlaceholder;
-    struct RetainPtr<WebWindowScaleAnimation> _scaleAnimation;
-    struct RetainPtr<WebWindowFadeAnimation> _fadeAnimation;
-    struct RetainPtr<NSWindow> _backgroundWindow;
-    struct CGRect _initialFrame;
-    struct CGRect _finalFrame;
-    struct IntPoint _scrollPosition;
-    float _savedScale;
-    _Bool _isEnteringFullScreen;
-    struct CompletionHandler<void (bool)> _didEnterFullscreen;
-    struct CompletionHandler<void ()> _exitCompletionHandler;
-    _Bool _isFullScreen;
 }
 
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
+- (void)d#;
+- (void)>#;
 - (struct CGRect);
 - (void);
 - (void);
@@ -45,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void *);
-- (void);
+- (void)ailed to load flexList icon image;
 - (id);
 - (void);
 - (id);
@@ -59,7 +44,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) struct CGRect finalFrame; // @synthesize finalFrame=_finalFrame;
 @property(readonly) struct CGRect initialFrame; // @synthesize initialFrame=_initialFrame;
 
 @end

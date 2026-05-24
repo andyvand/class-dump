@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebLoadingPageModel, AMSUIWebNavigationBarModel, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFlowOptions
 {
     _Bool _animated;
-    _Bool _deferredPresentation;
-    _Bool _disableTimeout;
-    _Bool _reuseExistingPage;
-    _Bool _suppressErrorPage;
-    NSString *_backgroundColor;
-    AMSUIWebLoadingPageModel *_loadingPage;
-    long long _modalPresentationStyle;
-    long long _modalTransitionStyle;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    NSDictionary *_pageData;
-    struct CGSize _modalWindowSize;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)move assertions:%{public}@, will let garbage collection collect. /* Error: Ran out of types for this method. */;
+- (void)ifiers found, device is not enrolled in trial experiment;
+- (void)che;
+- (void)r %lu assertions;
+- (void)s:(_Bool)arg1 %{public}lu);
+- (void)s request seems to have failed;
+- (_Bool)error while getting status of auto asset for assetSelector:%{public}@ error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)type:%@, path:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (id)cV;
 - (void);
 - (_Bool);
 - (void)";
@@ -51,17 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool animated; // @synthesize animated=_animated;
-@property(retain) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property _Bool deferredPresentation; // @synthesize deferredPresentation=_deferredPresentation;
-@property _Bool disableTimeout; // @synthesize disableTimeout=_disableTimeout;
-@property(retain) AMSUIWebLoadingPageModel *loadingPage; // @synthesize loadingPage=_loadingPage;
-@property long long modalPresentationStyle; // @synthesize modalPresentationStyle=_modalPresentationStyle;
-@property long long modalTransitionStyle; // @synthesize modalTransitionStyle=_modalTransitionStyle;
-@property struct CGSize modalWindowSize; // @synthesize modalWindowSize=_modalWindowSize;
-@property(retain) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(retain) NSDictionary *pageData; // @synthesize pageData=_pageData;
-@property _Bool reuseExistingPage; // @synthesize reuseExistingPage=_reuseExistingPage;
-@property _Bool suppressErrorPage; // @synthesize suppressErrorPage=_suppressErrorPage;
 
 @end
 

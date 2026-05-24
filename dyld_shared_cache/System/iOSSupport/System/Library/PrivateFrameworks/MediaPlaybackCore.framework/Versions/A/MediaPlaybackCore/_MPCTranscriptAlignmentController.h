@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol MPCPlaybackEngineEventConsumer;
 
 @interface _MPCTranscriptAlignmentController
@@ -12,7 +11,7 @@
     id platformImplementation;
 }
 
-- (void);
+- (void)setPhotoStreamEnabled:(double)arg1;
 - (id);
 - (void);
 - (id);
@@ -23,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) id <MPCPlaybackEngineEventConsumer> eventConsumer;
-@property(nonatomic, readonly) _Bool isEnabled;
-@property(nonatomic, readonly) NSArray *transcriptAlignments;
 
 @end
 

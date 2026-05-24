@@ -12,23 +12,32 @@ __attribute__((visibility("hidden")))
 @interface _NSComboBoxPlugin : _NSSelectionBinderPlugin
 {
     NSDecimalNumber *_originalMinValue;
-    NSDecimalNumber *_originalMaxValue;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)J	KJ5IJ	K
+K1JJ)
+K)K)AJJKJ	KJIJ	K
+KJJ)
+K)K))JJKJ	KJ=IJs2;
+- (_Bool)!Aa,
+K5JJ)
+K)K)!JJKJ	KJ5IJ	K
+K1JJ)
+K)K)AJJKJ	KJIJ	K
+KJJ)
+K)K))JJKJ	KJ=IJs2;
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)�;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (Class);
 - (void);

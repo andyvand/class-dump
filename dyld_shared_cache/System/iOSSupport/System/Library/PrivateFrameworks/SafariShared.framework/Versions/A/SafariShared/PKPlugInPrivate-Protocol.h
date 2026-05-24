@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, NSUUID, NSXPCConnection;
+@class NSArray, NSDate, NSDictionary, NSUUID, NSXPCConnection;
 
 @protocol PKPlugInPrivate
+- (NSDate *)uZ;
+- (void);
+- (_Bool);
+- (NSArray *)$)k;
+- (NSArray *)#;
+- (NSXPCConnection *)9;
 - (NSDictionary *)qÌÐ1Â0@ù
 × ;
 - (NSDictionary *);
 - (unsigned int)dAddressBookLabelToOverridePreferredIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDictionary *environment;
-@property(readonly) unsigned int extensionPointPlatform;
-@property(retain) NSDictionary *extensionState;
-@property(readonly) NSArray *launchPersonas;
-@property(readonly) NSXPCConnection *pluginConnection;
-@property(copy) NSArray *preferredLanguages;
-@property(copy) NSString *sandboxProfile;
-@property(readonly) NSDate *timestamp;
 @property(readonly) NSUUID *uuid;
 @end
 

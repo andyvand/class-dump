@@ -14,9 +14,9 @@
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id)s;
+- (id)subtitleLocalizedArguments;
 - (void)identity from the public sharing key:%@ (key was %@) /* Error: Ran out of types for this method. */;
-- (id)icCodeServiceURL;
+- (id)publicCodeServiceURL;
 - (id)the unit tests told us to do it.;
 - (id)ction%@ tearing down;
 - (void)tattrlist() failed for path %{public}s - %{public}s;

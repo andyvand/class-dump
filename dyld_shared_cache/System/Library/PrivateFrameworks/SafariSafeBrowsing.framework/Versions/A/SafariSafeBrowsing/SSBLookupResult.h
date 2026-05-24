@@ -9,30 +9,24 @@
 @interface SSBLookupResult
 {
     _Bool _URLContainsUserInfo;
-    NSArray *_serviceLookupResults;
 }
 
 + (_Bool);
 - (id);
+- (_Bool)ndle version did not match; LaunchServices DB may need to be rebuilt;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)tub not supported: /* Error: Ran out of types for this method. */;
+- (_Bool)sion not supported: /* Error: Ran out of types for this method. */;
+- (id)e.Notes.WidgetExtension;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool).apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension;
+- (id)ySkc;
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool URLContainsUserInfo; // @synthesize URLContainsUserInfo=_URLContainsUserInfo;
-@property(readonly, nonatomic, getter=isKnownToBeUnsafe) _Bool knownToBeUnsafe;
-@property(readonly, nonatomic, getter=isMalware) _Bool malware;
-@property(readonly, nonatomic, getter=isPhishing) _Bool phishing;
 @property(readonly, nonatomic) NSArray *serviceLookupResults; // @synthesize serviceLookupResults=_serviceLookupResults;
-@property(readonly, nonatomic, getter=isUnwantedSoftware) _Bool unwantedSoftware;
 
 @end
 

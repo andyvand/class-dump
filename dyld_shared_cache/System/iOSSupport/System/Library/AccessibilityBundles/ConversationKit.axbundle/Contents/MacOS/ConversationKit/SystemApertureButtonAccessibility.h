@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)OBPrivacySplashControllerAccessibility;
 - (id);
 - (id);
 - (unsigned long long);

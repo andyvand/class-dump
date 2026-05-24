@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NAUIUIViewControllerNoticationObserver
 {
     NSMutableArray *_observations;
-    UIViewController *_viewController;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

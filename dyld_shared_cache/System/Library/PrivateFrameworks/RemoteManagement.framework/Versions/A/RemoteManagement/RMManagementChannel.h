@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface RMManagementChannel
 {
     _Bool _isEnrolled;
-    long long _type;
-    NSString *_identifier;
-    NSString *_accountIdentifier;
-    NSString *_accountDescription;
-    NSString *_organizationDescription;
-    NSURL *_enrollmentURL;
-    NSString *_enrollmentToken;
 }
 
 + (_Bool);
@@ -26,24 +17,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)1;
 - (_Bool);
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id):: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountDescription; // @synthesize accountDescription=_accountDescription;
-@property(readonly, copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, copy, nonatomic) NSString *enrollmentToken; // @synthesize enrollmentToken=_enrollmentToken;
-@property(readonly, copy, nonatomic) NSURL *enrollmentURL; // @synthesize enrollmentURL=_enrollmentURL;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isEnrolled; // @synthesize isEnrolled=_isEnrolled;
-@property(readonly, copy, nonatomic) NSString *organizationDescription; // @synthesize organizationDescription=_organizationDescription;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

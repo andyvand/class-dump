@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID, SSRRemoteControlClient;
-@protocol OS_dispatch_queue, SSRVoiceProfileManagerDelegate;
-
 @interface SSRVoiceProfileManager
 {
     unsigned long long _currentDeviceCategory;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUUID *_endpointUUID;
-    SSRRemoteControlClient *_remoteControlClient;
-    NSString *_lastRepromptedDate;
-    id <SSRVoiceProfileManagerDelegate> _delegate;
 }
 
 + (void);
 + (id);
 + (id);
-- (id);
+- (id)lf;
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)EventEE_;
+- (_Bool)eObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_18RavenSolutionEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void);
 - (_Bool);
 - (id);
@@ -38,69 +30,69 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
 - (id);
+- (void)waitingCallerWithRequestedRange:(id)arg1;
+- (id)inactiveSpatialPhotoDataLayer;
+- (void)remakerOperationWithInputType:(unsigned long long)arg1 videoURL:imageURL:adjustmentData: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)snapshotWithSignature:withIDSDestinations:validFor:duration:events:payload:actions:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void)removeAllObjects;
 - (void);
 - (void);
 - (id);
+- (id)isFileURL;
+- (id)ring",C,N,V_summary;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (_Bool)HMBLocalZoneIDRow;
+- (_Bool)�;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)setSkipInterval:(id)arg1;
+- (id)didFinishAnimations:(id)arg1;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)rds;
+- (id)4;
+- (void)g9;
+- (id);
+- (_Bool)decodeObjectOfClass:(id)arg1 forKey:(id)arg2;
 - (id);
 - (void);
 - (id);
@@ -111,21 +103,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void)dlyWithError:(id)arg1;
+- (void)_handleXPCDisconnectedUnexpectedlyWithError:(id)arg1;
 - (void)¬(;
 - (id)to asset for %{public}@;
 - (id)ining for %@;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentDeviceCategory; // @synthesize currentDeviceCategory=_currentDeviceCategory;
-@property(nonatomic) __weak id <SSRVoiceProfileManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSUUID *endpointUUID; // @synthesize endpointUUID=_endpointUUID;
-@property(copy) NSString *lastRepromptedDate; // @synthesize lastRepromptedDate=_lastRepromptedDate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SSRRemoteControlClient *remoteControlClient; // @synthesize remoteControlClient=_remoteControlClient;
 
 @end
 

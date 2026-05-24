@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRCHPatternNetwork, NSCharacterSet, NSLocale, NSString;
-
 @interface CRLanguageCorrection
 {
     void *_characterLanguageModel;
-    struct _LXLexicon *_staticLexicon;
-    struct _LXLexicon *_dynamicLexicon;
-    NSString *_invalidSingleCharCNNCode;
-    CRCHPatternNetwork *_patternFST;
-    NSLocale *_locale;
 }
 
 + (id);
@@ -30,7 +23,7 @@
 - (id);
 - (id);
 - (struct _LXLexicon *);
-- (struct _LXLexicon *);
+- (struct _LXLexicon *)C;
 - (id);
 - (id);
 - (void);
@@ -43,12 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) void *characterLanguageModel; // @synthesize characterLanguageModel=_characterLanguageModel;
-@property(readonly) NSCharacterSet *confusableCharacters;
-@property(nonatomic) struct _LXLexicon *dynamicLexicon; // @synthesize dynamicLexicon=_dynamicLexicon;
-@property(retain, nonatomic) NSString *invalidSingleCharCNNCode; // @synthesize invalidSingleCharCNNCode=_invalidSingleCharCNNCode;
-@property(readonly) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) CRCHPatternNetwork *patternFST; // @synthesize patternFST=_patternFST;
-@property(nonatomic) struct _LXLexicon *staticLexicon; // @synthesize staticLexicon=_staticLexicon;
 
 @end
 

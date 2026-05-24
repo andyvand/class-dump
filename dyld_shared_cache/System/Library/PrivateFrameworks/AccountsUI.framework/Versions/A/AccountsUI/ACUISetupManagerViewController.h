@@ -4,62 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountType, ACUIAccountSetupViewController, ACUIAccountTypeRowRadio, NSArray, NSButton, NSLayoutConstraint, NSProgressIndicator, NSString, NSWindow;
+@class NSProgressIndicator;
 
 @interface ACUISetupManagerViewController
 {
     _Bool _cancelWillQuit;
-    NSString *_dataclassFilter;
-    NSProgressIndicator *_spinner;
-    NSButton *_continueButton;
-    NSWindow *_window;
-    NSWindow *_sheet;
-    NSArray *_accountTypes;
-    NSLayoutConstraint *_providerTableHeightConstraint;
-    NSButton *_cancelButton;
-    ACAccountType *_otherAccountsType;
-    ACUIAccountSetupViewController *_setupViewController;
-    CDUnknownBlockType _completion;
-    ACUIAccountTypeRowRadio *_selectedRow;
-    NSString *_username;
-    ACAccountType *_accountType;
-    NSWindow *_safariConfirmSheet;
-    NSString *_password;
-    ACUISetupManagerViewController *_strongSelf;
 }
 
 + (_Bool);
 + (void);
 + (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
+- (void)!;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)T;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)C9;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -75,7 +58,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)*i(8;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -87,31 +70,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) ACAccountType *accountType; // @synthesize accountType=_accountType;
-@property(retain) NSArray *accountTypes; // @synthesize accountTypes=_accountTypes;
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property _Bool cancelWillQuit; // @synthesize cancelWillQuit=_cancelWillQuit;
-@property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain) NSButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(retain) NSString *dataclassFilter; // @synthesize dataclassFilter=_dataclassFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) ACAccountType *otherAccountsType; // @synthesize otherAccountsType=_otherAccountsType;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property(retain) NSLayoutConstraint *providerTableHeightConstraint; // @synthesize providerTableHeightConstraint=_providerTableHeightConstraint;
-@property(retain) NSWindow *safariConfirmSheet; // @synthesize safariConfirmSheet=_safariConfirmSheet;
-@property(retain, nonatomic) ACUIAccountTypeRowRadio *selectedRow; // @synthesize selectedRow=_selectedRow;
-@property(retain) ACUIAccountSetupViewController *setupViewController; // @synthesize setupViewController=_setupViewController;
-@property(retain) NSWindow *sheet; // @synthesize sheet=_sheet;
 @property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain) ACUISetupManagerViewController *strongSelf; // @synthesize strongSelf=_strongSelf;
-@property(readonly) Class superclass;
-@property(retain) NSString *username; // @synthesize username=_username;
-@property(retain) NSWindow *window; // @synthesize window=_window;
 
 @end
 

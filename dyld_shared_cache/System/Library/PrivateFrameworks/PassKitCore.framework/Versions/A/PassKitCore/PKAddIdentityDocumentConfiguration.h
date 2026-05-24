@@ -6,46 +6,33 @@
 
 #import <PassKitCore/PKAddSecureElementPassConfiguration.h>
 
-@class NSArray, NSString, PKAddShareablePassConfiguration, PKIdentityDocumentMetadata;
+@class PKIdentityDocumentMetadata;
 
 @interface PKAddIdentityDocumentConfiguration : PKAddSecureElementPassConfiguration
 {
     _Bool _requiresNonceValidityChecks;
-    PKIdentityDocumentMetadata *_metadata;
 }
 
 + (void);
 + (_Bool)0@ù
 × ;
 - (id);
-- (id);
+- (id)@9?;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)#;
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)eerPaymentPaymentMode:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak PKAddIdentityDocumentConfiguration *identityDocumentConfiguration;
 @property(readonly, nonatomic) PKIdentityDocumentMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSArray *metadataProviders;
-@property(nonatomic) _Bool requiresNonceValidityChecks; // @synthesize requiresNonceValidityChecks=_requiresNonceValidityChecks;
-@property(readonly, nonatomic) PKAddSecureElementPassConfiguration *secureElementPassConfiguration;
-@property(readonly, nonatomic) __weak PKAddShareablePassConfiguration *shareablePassConfiguration;
-@property(readonly) Class superclass;
 
 @end
 

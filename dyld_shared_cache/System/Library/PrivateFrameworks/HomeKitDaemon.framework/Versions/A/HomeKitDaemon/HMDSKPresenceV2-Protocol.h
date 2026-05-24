@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol HMDSKPresenceV2
+- (void);
+- (void)smsStrategyIdentifier;
+- (void)c;
 - (void)l"16@?0@"HMDBackingStoreModelObject"8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *persistentDevices;
 @property(readonly, nonatomic) NSString *presenceIdentifier;
-@property(readonly, nonatomic) NSArray *presentDevices;
 @end
 

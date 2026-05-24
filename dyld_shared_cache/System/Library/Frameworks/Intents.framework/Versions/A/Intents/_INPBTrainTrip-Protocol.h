@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTime, _INPBDateTimeRange, _INPBLocationValue;
+@class NSString;
 
 @protocol _INPBTrainTrip
-- (void)xtSync;
+- (void)C;
+- (void);
+- (void)resetOnNextSync;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *arrivalPlatform;
-@property(retain, nonatomic) _INPBLocationValue *arrivalStationLocation;
-@property(copy, nonatomic) NSString *departurePlatform;
-@property(retain, nonatomic) _INPBLocationValue *departureStationLocation;
-@property(readonly, nonatomic) _Bool hasArrivalPlatform;
-@property(readonly, nonatomic) _Bool hasArrivalStationLocation;
-@property(readonly, nonatomic) _Bool hasDeparturePlatform;
-@property(readonly, nonatomic) _Bool hasDepartureStationLocation;
-@property(readonly, nonatomic) _Bool hasOnlineCheckInTime;
-@property(readonly, nonatomic) _Bool hasProvider;
-@property(readonly, nonatomic) _Bool hasTrainName;
-@property(readonly, nonatomic) _Bool hasTrainNumber;
-@property(readonly, nonatomic) _Bool hasTripDuration;
-@property(retain, nonatomic) _INPBDateTime *onlineCheckInTime;
-@property(copy, nonatomic) NSString *provider;
-@property(copy, nonatomic) NSString *trainName;
-@property(copy, nonatomic) NSString *trainNumber;
-@property(retain, nonatomic) _INPBDateTimeRange *tripDuration;
 @end
 

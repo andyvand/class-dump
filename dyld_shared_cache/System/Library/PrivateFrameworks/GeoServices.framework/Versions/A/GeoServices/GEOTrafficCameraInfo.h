@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTrafficCameraInfo
 {
     PBUnknownFields *_unknownFields;
-    double _fraction;
-    GEOLatLng *_position;
-    double _speedThresholdMps;
-    int _type;
-    struct {
-        unsigned int has_fraction:1;
-        unsigned int has_speedThresholdMps:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool)chantLookupFeedback:(id)arg1;
++ (_Bool)setMerchantLookupFeedback:(id)arg1;
 - (double);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@48i56;
+- (_Bool)prepareDatabaseFileWithURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -34,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)hostTimeForSeconds:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -42,14 +33,14 @@
 - (int);
 - (id);
 - (_Bool);
-- (void);
+- (void));
 - (id)_clientAbExperimentAssignment"b1"read_datasetAbStatus"b1"read_tilesAbExperimentAssignment"b1"wrote_anyField"b1};
-- (void)k;
-- (id)itoryType;
-- (int)ccessPoint:(id)arg1;
-- (id)verProxy;
+- (void)outreachLink;
+- (id)hasTerritoryType;
+- (int)setAccessPoint:(id)arg1;
+- (id)_GEOServerProxy;
 - (void)ndle:(double)arg1 %{private}@;
-- (id)ack;
+- (id)will_send_ev_directions_feedback;
 - (void);
 - (id)¬@È;
 - (_Bool)ôèø¨ô$;
@@ -57,15 +48,7 @@
 - (void)£¥ÖûZQ@;
 
 // Remaining properties
-@property(nonatomic) double fraction;
-@property(nonatomic) _Bool hasFraction;
-@property(readonly, nonatomic) _Bool hasPosition;
-@property(nonatomic) _Bool hasSpeedThresholdMps;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEOLatLng *position;
-@property(nonatomic) double speedThresholdMps;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

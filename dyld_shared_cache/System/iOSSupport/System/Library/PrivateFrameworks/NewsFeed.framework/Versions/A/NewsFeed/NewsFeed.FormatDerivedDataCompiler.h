@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatDerivedDataCompiler
 {
     id languages;
-    id settings;
-    id system;
 }
 
 @end

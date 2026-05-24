@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)ۗ9#;
 - (long long);
 
 @end

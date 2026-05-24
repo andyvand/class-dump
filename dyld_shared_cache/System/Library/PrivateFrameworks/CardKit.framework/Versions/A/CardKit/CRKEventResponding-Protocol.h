@@ -5,5 +5,8 @@
 //
 
 @protocol CRKEventResponding
+
+@optional
+- (void);
 @end
 

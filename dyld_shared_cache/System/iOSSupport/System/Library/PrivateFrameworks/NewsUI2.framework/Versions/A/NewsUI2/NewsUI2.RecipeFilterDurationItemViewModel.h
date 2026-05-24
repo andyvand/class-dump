@@ -7,11 +7,6 @@
 @interface NewsUI2.RecipeFilterDurationItemViewModel
 {
     id tagID;
-    id title;
-    id primaryLabel;
-    id secondaryLabel;
-    id _selectionState;
-    id _$observationRegistrar;
 }
 
 @end

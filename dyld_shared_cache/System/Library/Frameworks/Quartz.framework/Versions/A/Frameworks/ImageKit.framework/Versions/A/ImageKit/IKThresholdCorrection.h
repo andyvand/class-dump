@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface IKThresholdCorrection
 {
     CIImage *inputImage;
-    NSNumber *inputPower;
 }
 
 + (void);
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)CoverMidAltPct"b1"cloudCoverHighAltPct"b1};
 - (id);
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSString, TLKAsyncCache;
+@class CNContactStore;
 
 @interface SearchUIContactCache
 {
@@ -19,24 +19,16 @@
 - (void);
 - (id);
 - (id);
+- (void)brary/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Image/NUImageFactory.mm;
+- (id)omitStacksWithUserActive;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)tem;
+- (void)SearchUIAutoLayoutItem;
 - (id)So13SFCardSectionCm;
 
 // Remaining properties
-@property(readonly) TLKAsyncCache *cacheToPrewarm;
 @property(retain) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

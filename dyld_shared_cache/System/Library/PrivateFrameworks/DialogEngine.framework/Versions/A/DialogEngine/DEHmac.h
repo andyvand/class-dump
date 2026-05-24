@@ -9,7 +9,6 @@
 @interface DEHmac
 {
     NSData *_hmac;
-    CDStruct_43cfb2c2 _context;
 }
 
 + (_Bool);
@@ -17,15 +16,14 @@
 - (void);
 - (id);
 - (void);
-- (CDStruct_43cfb2c2);
+- (CDStruct_39d5974f);
 - (void);
 - (void);
 - (void)***
 ;
 
 // Remaining properties
-@property(nonatomic) CDStruct_43cfb2c2 context; // @synthesize context=_context;
-@property(retain, nonatomic) NSData *hmac; // @synthesize hmac=_hmac;
+@property(nonatomic) CDStruct_39d5974f context; // @synthesize context=_context;
 
 @end
 

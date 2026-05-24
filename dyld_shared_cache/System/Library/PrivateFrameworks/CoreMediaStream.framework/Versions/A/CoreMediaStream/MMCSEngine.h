@@ -4,48 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSThread, NSTimer, NSURL;
-@protocol MMCSEngineDelegate, OS_dispatch_queue;
+@class NSTimer, NSURL;
 
 @interface MMCSEngine
 {
     NSURL *_workPathURL;
-    NSString *_appIDHeader;
-    NSString *_dataClass;
-    NSDictionary *_options;
-    struct _mmcs_engine *_engine;
-    struct {
-        long long version;
-        void *context;
-        CDUnknownFunctionPointerType getFileDescriptorAndContentTypeFromItemCallback;
-        CDUnknownFunctionPointerType getItemProgressCallback;
-        CDUnknownFunctionPointerType getItemDoneCallback;
-        CDUnknownFunctionPointerType putItemProgressCallback;
-        CDUnknownFunctionPointerType putItemDoneCallback;
-        CDUnknownFunctionPointerType requestCompletedCallback;
-    } _engineClientContext;
-    NSMutableDictionary *_itemIDToAssetMap;
-    NSObject<OS_dispatch_queue> *_itemIDToAssetMapQueue;
-    NSMutableArray *_requestorContexts;
-    NSObject<OS_dispatch_queue> *_reqestorContextQueue;
-    NSMutableDictionary *_autoItemIDDictionary;
-    NSURL *_autoItemIDPersistenceURL;
-    NSObject<OS_dispatch_queue> *_autoItemIDDictionaryQueue;
-    _Bool _autoGenerateItemID;
-    _Bool _isMetricsGatheringEnabled;
-    _Bool _isDone;
-    id <MMCSEngineDelegate> _delegate;
-    NSThread *_workThread;
-    NSTimer *_threadKeepAliveTimer;
 }
 
-+ (id);
-+ (id);
++ (id)] Finished removing the restricted guest from [%@] resulted in outcome:(int)arg1 [%@] with error:[%@] /* Error: Ran out of types for this method. */;
++ (id)tricted guest [%@];
 - (void);
+- (void)=;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)rem;
+- (void)NSt3__120__shared_ptr_emplaceIN4siri12dialogengine14ConditionEntryENS_9allocatorIS3_EEEE;
 - (void);
 - (void);
 - (void);
@@ -55,28 +27,28 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)__DATA_DIRTY;
+- (unsigned long long)ReleaseSubrangeMethod:0x%x /* Error: Ran out of types for this method. */;
+- (_Bool)snapPreserveSecondaryCount;
+- (void)cDestParity(437) cannot add 1 element to context;
 - (void);
-- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)reportFolderItemsSyncSuccess:(unsigned long long)arg1 forFolderWithID:withItemsCount:andAccountWithID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (id);
@@ -84,18 +56,12 @@
 - (void);
 - (void);
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (void)el:(_Bool)arg1 didFindNewAccessControl:inAlbum: /* Error: Ran out of types for this method. */;
+- (void)MSASModel:(_Bool)arg1 didFindNewAccessControl:inAlbum: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool autoGenerateItemID; // @synthesize autoGenerateItemID=_autoGenerateItemID;
-@property(nonatomic) __weak id <MMCSEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasOutstandingActivity;
-@property(nonatomic) _Bool isDone; // @synthesize isDone=_isDone;
-@property(nonatomic) _Bool isMetricsGatheringEnabled; // @synthesize isMetricsGatheringEnabled=_isMetricsGatheringEnabled;
 @property(retain, nonatomic) NSTimer *threadKeepAliveTimer; // @synthesize threadKeepAliveTimer=_threadKeepAliveTimer;
-@property(retain, nonatomic) NSThread *workThread; // @synthesize workThread=_workThread;
 
 @end
 

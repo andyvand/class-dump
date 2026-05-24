@@ -7,16 +7,17 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool);
-- (struct _NSZone *)DidChangeNotification;
+- (Class)alLevel;
+- (id)V_batteryAtCriticalLevel;
+- (id)sRelayAttempted;
+- (id)allowsCellular;
+- (id)ailed;
+- (Class)sPrimaryDeviceTypeCategory;
+- (unsigned long long);
+- (NSString *);
+- (struct _NSZone *)CKMacAutoCapitalizationDidChangeNotification;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

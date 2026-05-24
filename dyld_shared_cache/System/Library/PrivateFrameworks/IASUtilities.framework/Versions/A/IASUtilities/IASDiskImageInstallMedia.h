@@ -6,25 +6,21 @@
 
 #import <IASUtilities/IASInstallMedia.h>
 
-@class NSDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface IASDiskImageInstallMedia : IASInstallMedia
 {
     NSURL *_mountPoint;
-    void *_diskImage;
-    NSDictionary *_mountInfo;
-    NSObject<OS_dispatch_queue> *_attachQueue;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A9;
 - (void *);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -32,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *attachQueue; // @synthesize attachQueue=_attachQueue;
 @property void *diskImage; // @synthesize diskImage=_diskImage;
-@property(retain) NSDictionary *mountInfo; // @synthesize mountInfo=_mountInfo;
-@property(copy) NSURL *mountPoint; // @synthesize mountPoint=_mountPoint;
 
 @end
 

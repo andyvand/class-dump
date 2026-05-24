@@ -4,33 +4,138 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface WBSRemoteHistorySession
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_items;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)d{;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)it_SSAO"
+                 ],
+    "passes":{
+        "SceneKit_SSAO_DEPTH":{
+            "outputs":{
+                "depth":"depth-target",
+                "color":"ssao-depth"
+            },
+            "depthStates":{
+                "clear":true
+            },
+            "colorStates":{
+                "clear":true,
+                "clearColor":"-100000. -100000. -100000. -100000."
+            },
+            "samples":1,
+            "__clientProgram":"NO",
+            "draw":"DRAW_SCENE",
+        },
+        "SceneKit_SSAO":{
+            "outputs":{
+                "color":"COLOR"
+            },
+            "inputs":{
+                "color":"COLOR"
+            },
+            "draw":"DRAW_QUAD",
+            "clientProgram":"NO",
+            "program":"C3D-GLSL-UNAVAILABLE"
+        }
+    },
+    "symbols":{},
+    "targets":{
+        "depth-target":{
+            "type":"depth",
+        },
+        "ssao-depth":{
+            "format":"rgba16f",
+            "type":"color",
+            "global":true,
+            "mipmapped":true,
+            "scaleFactor":1.0
+        }
+    }
+}
+ /* Error: Ran out of types for this method. */;
+- (id)_lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+ /* Error: Ran out of types for this method. */;
 - (void)t.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);}}var metadataHTML = '';if (metadataElement && metadataElement.innerText) {metadataElement.className = 'metadata';metadataHTML = metadataElement.outerHTML;}articleHTML = subheadHTML + metadataHTML + articleHTML;articleHTML;;
 
 // Remaining properties
-@property(readonly, getter=isCurrentSession) _Bool currentSession;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

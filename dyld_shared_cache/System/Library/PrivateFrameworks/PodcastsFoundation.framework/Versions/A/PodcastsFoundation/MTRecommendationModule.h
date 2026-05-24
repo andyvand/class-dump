@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTRecommendationModuleAttributes, NSString;
+@class NSString;
 
 @interface MTRecommendationModule
 {
     void id;
-    void type;
-    MTRecommendationModuleAttributes *attributes;
-    id categories;
-    id shows;
-    id episodes;
 }
 
-- (void);
+- (void)a;
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (void)URd__r0__lXX;
 
 // Remaining properties
-@property(nonatomic, readonly) MTRecommendationModuleAttributes *attributes; // @synthesize attributes;
 @property(nonatomic, copy) NSString *id;
-@property(nonatomic, copy) NSString *type;
 
 @end
 

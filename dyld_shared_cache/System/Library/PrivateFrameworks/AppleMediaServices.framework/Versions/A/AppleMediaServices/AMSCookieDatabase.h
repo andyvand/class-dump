@@ -4,36 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnection, NSString;
+@class AMSSQLiteConnection;
 
 @interface AMSCookieDatabase
 {
     AMSSQLiteConnection *_connection;
-    NSString *_dbPath;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)r %@.;
++ (id)AFASRSharedUserInfo:(id)arg1:(id)arg2 sharedUserId;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)utableDictionary",&,N,V_outputDevicesChangedCallbacks;
 + (void);
 + (id)0@ù
 × ;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)IMDIndexing_CoreDuet;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)AFCallStateSnapshotMutability;
 - (id);
 - (void);
 - (_Bool)@ù
@@ -43,14 +42,6 @@ Rø¸¼ép¤vrê:ÅJ;w-BîÄä»Ç!¦\nfk+/ eÐ¸{5]
 
 // Remaining properties
 @property(readonly) AMSSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *dbPath; // @synthesize dbPath=_dbPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

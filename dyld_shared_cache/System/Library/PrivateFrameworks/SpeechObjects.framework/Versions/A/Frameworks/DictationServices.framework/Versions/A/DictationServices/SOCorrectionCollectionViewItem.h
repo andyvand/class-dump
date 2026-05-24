@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, SOBadgeRoundRectView;
-
 __attribute__((visibility("hidden")))
 @interface SOCorrectionCollectionViewItem
 {
     double _maxBadgeWidth;
-    unsigned long long _badgeNumber;
-    NSLayoutConstraint *_textFieldLeadingConstraint;
-    SOBadgeRoundRectView *_badgeView;
 }
 
 + (id);
@@ -22,16 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)PID:%d with error:%s. This DiagnosticExtension may not have appropriate access to the specified item. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long badgeNumber; // @synthesize badgeNumber=_badgeNumber;
-@property(retain, nonatomic) SOBadgeRoundRectView *badgeView; // @synthesize badgeView=_badgeView;
 @property(nonatomic) double maxBadgeWidth;
-@property(retain, nonatomic) NSLayoutConstraint *textFieldLeadingConstraint; // @synthesize textFieldLeadingConstraint=_textFieldLeadingConstraint;
 
 @end
 

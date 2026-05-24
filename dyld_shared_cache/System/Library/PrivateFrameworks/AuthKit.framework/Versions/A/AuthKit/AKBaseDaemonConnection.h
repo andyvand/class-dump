@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface AKBaseDaemonConnection
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id)ofileContext;
+- (id)AKSimpleProfileContext;
 - (void);
 - (id)­]ZÀ¸È¬ä<§vkîÃúK*bsxø1¾aåÜOY8Á`5cëãëË;
 - (id)ê$6ó	;

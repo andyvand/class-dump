@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)subscription for external record type %@;
 - (id);
 - (void);
 

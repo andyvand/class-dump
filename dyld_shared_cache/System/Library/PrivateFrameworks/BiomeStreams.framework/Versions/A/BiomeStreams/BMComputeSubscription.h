@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMDSL, BMDSLSubscriber, NSDate, NSSet, NSString, NSXPCConnection;
+@class NSString;
 
 @interface BMComputeSubscription
 {
     _Bool _waking;
-    _Bool _pendingDemand;
-    NSString *_identifier;
-    NSString *_uniqueIdentifier;
-    NSString *_useCase;
-    NSString *_client;
-    NSSet *_streamIdentifiers;
-    NSSet *_postMigrationStreamIdentifiers;
-    BMDSL *_graph;
-    BMDSLSubscriber *_subscriber;
-    CDUnknownBlockType _block;
-    unsigned long long _token;
-    NSDate *_createdAt;
-    NSDate *_initialBookmarkTimestamp;
-    NSXPCConnection *_connection;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -48,7 +34,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -59,22 +45,7 @@
 - (id)=Éÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
 @property(copy, nonatomic) NSString *client; // @synthesize client=_client;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(readonly, nonatomic) BMDSL *graph; // @synthesize graph=_graph;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDate *initialBookmarkTimestamp; // @synthesize initialBookmarkTimestamp=_initialBookmarkTimestamp;
-@property(nonatomic) _Bool pendingDemand; // @synthesize pendingDemand=_pendingDemand;
-@property(readonly, nonatomic) NSSet *postMigrationStreamIdentifiers; // @synthesize postMigrationStreamIdentifiers=_postMigrationStreamIdentifiers;
-@property(readonly, nonatomic) NSSet *streamIdentifiers; // @synthesize streamIdentifiers=_streamIdentifiers;
-@property(readonly, nonatomic) BMDSLSubscriber *subscriber; // @synthesize subscriber=_subscriber;
-@property(readonly, nonatomic) unsigned long long token; // @synthesize token=_token;
-@property(readonly, nonatomic, getter=isUnclaimed) _Bool unclaimed;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *useCase; // @synthesize useCase=_useCase;
-@property(readonly, nonatomic) _Bool waking; // @synthesize waking=_waking;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RBAssertionOriginatorPidStore
 {
     struct {
@@ -13,34 +11,22 @@
         unsigned int _field2;
         unsigned int _field3;
     } *_header;
-    NSString *_path;
-    int *_pids;
-    int _headerID;
-    int _pidsID;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)countByEnumeratingWithState:(int)arg1 objects:count: /* Error: Ran out of types for this method. */;
+- (_Bool)enum_kMDItemAcquisitionModel_n2_word;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)";
+- (id)r '%s'.;
+- (id)@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

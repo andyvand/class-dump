@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSObservable, NSString;
+@class AMSObservable;
 
 __attribute__((visibility("hidden")))
 @interface AMSAccountsChangedObservable
 {
     struct os_unfair_lock_s _notificationsLock;
-    ACAccount *_account;
-    NSString *_accountTypeIdentifier;
-    AMSObservable *_observable;
 }
 
 + (id);
@@ -23,12 +20,12 @@ __attribute__((visibility("hidden")))
 ðáøðà¹ðãðâðåöðäðçðæ»ðéðèVðë'ðêðí²ðì§ðï{ðîMðñðð°ðóØðòðõiðôð÷~ðöðùðøðûpðú¤ðýÛðüOðÿÞðþ"ð±ðTðµðÝð)ðúðdððæð¡ðîðð$ððLð[ðÌðôðòðÅðÒð®ðbð`ðððÎð1ðýðßð:ðð¡ð âð£³ð¢kð¥ð¤ð§ð¦ð©oð¨Èð«Ñðªrð­ð¬?ð¯ð®ð±ð°¦ð³Qð²×ðµð´Uð·zð¶Ïð¹ð¸ºð»-ðºCð½Ið¼ð¿ð¾ð!M3[]!A3O~~bk.Mac~{zk|".G`m !A[3O~~bk.Mac~{zk|.Mk|zghgmozk.O{zfa|gzw!M@3O~~bk.Hog|^bow.Mk|zghgmozk.O{zfa|gzw /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)o create DNDModeConfigurationService;
 - (struct os_unfair_lock_s);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_limitCount;
 - (id)OnDevice,Sams_setDidAcknowledgeBundleHolderPrivacyAcknowledgementOnDevice:(id)arg1;
 - (_Bool)PO4PÌPpQèRTSüS$hUÔU;
 - (id)ic}@:(id)arg1 [%{public}@] Failed to send new code. %{public}@;
@@ -40,9 +37,6 @@ __attribute__((visibility("hidden")))
 - (id)Q;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) NSString *accountTypeIdentifier; // @synthesize accountTypeIdentifier=_accountTypeIdentifier;
-@property(readonly) struct os_unfair_lock_s notificationsLock; // @synthesize notificationsLock=_notificationsLock;
 @property(retain) AMSObservable *observable; // @synthesize observable=_observable;
 
 @end

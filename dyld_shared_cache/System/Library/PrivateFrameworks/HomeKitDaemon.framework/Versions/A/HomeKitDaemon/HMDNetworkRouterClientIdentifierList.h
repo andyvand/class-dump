@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientIdentifierList
@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_clientIdentifiers;
 }
 
-+ (id);
-- (id);
++ (id)momentLocalIdentifiersInDateInterval:(id)arg1 error:(id *)arg2;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -21,18 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id):(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)isAppleMediaAccessoryUUID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (void)tate != HMDXPCClientConnectionStateInvalidated;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *clientIdentifiers; // @synthesize clientIdentifiers=_clientIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

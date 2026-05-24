@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSLocalDeliveryMessageReceivedMetric
 {
     _Bool _isFromDefaultPairedDevice;
-    NSString *_service;
-    unsigned long long _messageSize;
-    unsigned long long _linkType;
-    unsigned long long _priority;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)x,;
 - (unsigned long long);
 - (id);
 - (void):%p; handlesCount = %@; qualifiedHandlesCount = %@; qualifiedHandlesIML = %@; primaryHandlesCount = %@; qualifiedPrimaryHandles = %@; qualifiedPrimaryHandlesIML = %@; familyHandlesCount = %@; emergencyHandlesCount = %@; qualifiedEmergencyHandles = %@; qualifiedEmergencyHandlesIML = %@> /* Error: Ran out of types for this method. */;
@@ -26,20 +22,7 @@
 - (unsigned long long)»Òÿ5"âW,©ÐÿU"âW»Òÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFromDefaultPairedDevice; // @synthesize isFromDefaultPairedDevice=_isFromDefaultPairedDevice;
-@property(readonly, nonatomic) unsigned long long linkType; // @synthesize linkType=_linkType;
-@property(readonly, nonatomic) unsigned long long messageSize; // @synthesize messageSize=_messageSize;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

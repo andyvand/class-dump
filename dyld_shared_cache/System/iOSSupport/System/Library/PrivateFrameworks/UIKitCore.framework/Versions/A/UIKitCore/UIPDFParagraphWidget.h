@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, NSString, UIPDFPageView;
+@class CAShapeLayer, UIPDFPageView;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFParagraphWidget
 {
     CAShapeLayer *_trackingBorder;
-    struct CGRect _initialRect;
-    _Bool _tracking;
-    struct CGRect _currentTrackingRect;
-    CALayer *_leftGrabber;
-    CALayer *_rightGrabber;
-    CALayer *_topGrabber;
-    CALayer *_bottomGrabber;
-    CALayer *_selectedGrabber;
-    struct CGRect _boundsInPDFSpace;
-    struct CGColor *_grabberColor;
-    UIPDFPageView *_pageView;
-    struct CGPoint _initialSelectionPointOnPage;
 }
 
-- (struct CGPoint);
+- (struct CGPoint)_deleteHandleIDFromArchivedMap: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)e;
+- (void)o;
+- (void)}};
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGPoint);
-- (struct CGPoint);
-- (_Bool);
-- (void);
-- (struct CGPoint);
-- (struct CGRect);
+- (struct CGPoint)ber from the user inputed information or we have no pin to compare against, this will fail validation;
+- (_Bool)sage items for retracted message part %ld in edited message %@;
+- (void)processing for command %ld was skipped because it is unsupported while processing GUID (%@);
+- (struct CGPoint)ifier %@, %lld/%lld;
+- (struct CGRect)cting\U2026;
 - (id);
 - (void);
-- (void);
+- (void)_payloadAllowSharedStream;
 - (id);
 - (void)ension.;
 - (void)ÿ;
@@ -47,16 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)¤ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint currentSelectionPointOnPage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGPoint initialSelectionPointOnPage; // @synthesize initialSelectionPointOnPage=_initialSelectionPointOnPage;
 @property(nonatomic) UIPDFPageView *pageView; // @synthesize pageView=_pageView;
-@property(readonly) Class superclass;
 
 @end
 

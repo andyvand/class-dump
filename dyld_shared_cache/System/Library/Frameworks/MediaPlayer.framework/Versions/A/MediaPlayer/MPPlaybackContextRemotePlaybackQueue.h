@@ -11,7 +11,6 @@
 @interface MPPlaybackContextRemotePlaybackQueue : MPRemotePlaybackQueue
 {
     MPPlaybackContext *_playbackContext;
-    long long _replaceIntent;
 }
 
 - (id);
@@ -19,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)_lightweightPersonalizedStoreAssetWithUnpersonalizedAsset:libraryAsset:personalizationProperties: /* Error: Ran out of types for this method. */;
 

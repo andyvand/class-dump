@@ -6,29 +6,18 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSCollectionView, NSString;
-@protocol NSTouchBarCustomizationPaletteViewControllerDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPaletteViewController : NSViewController
 {
     NSArray *_touchBars;
-    NSArray *_visiblePaletteBarItems;
-    NSArray *_barPresets;
-    NSCollectionView *_paletteCollectionView;
-    _Bool _showNonCustomizableItems;
-    struct CGSize _presetSize;
-    double _presetScale;
-    Class _presetRepresentedObjectClass;
-    id <NSTouchBarCustomizationPaletteViewControllerDelegate> _delegate;
-    double _scaleFactor;
-    double _visualCenterXOffset;
 }
 
-- (double);
-- (id);
-- (_Bool);
-- (void);
+- (double)u;
+- (id)EAN image '%c%c%c%c' (IOConnectCallScalarMethod kAppleNVMeEANRead returned 0x%X);
+- (_Bool)PzjaX07XnS4KcMZ+l8ymA;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,22 +30,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)led to bind date to the delte statement;
 - (void);
 - (void);
-- (void);
+- (id)`;
 - (id);
-- (id);
-- (void);
-- (void)edView;
-- (long long)quiresCorrectContentAppearance:(id)arg1;
-- (long long)ayouts;
+- (void)encodeDouble:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)focusedView;
+- (long long)_setRequiresCorrectContentAppearance:(id)arg1;
+- (long long)_sectionLayouts;
 - (double);
 - (_Bool)ice"8@"NSError"16;
 - (void)sult in memory corruption.;
@@ -64,21 +53,7 @@ __attribute__((visibility("hidden")))
 - (void)X+C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSTouchBarCustomizationPaletteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property Class presetRepresentedObjectClass; // @synthesize presetRepresentedObjectClass=_presetRepresentedObjectClass;
-@property double presetScale; // @synthesize presetScale=_presetScale;
-@property struct CGSize presetSize; // @synthesize presetSize=_presetSize;
-@property double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property _Bool showNonCustomizableItems;
-@property(readonly) Class superclass;
 @property(copy) NSArray *touchBars;
-@property double visualCenterXOffset; // @synthesize visualCenterXOffset=_visualCenterXOffset;
 
 @end
 

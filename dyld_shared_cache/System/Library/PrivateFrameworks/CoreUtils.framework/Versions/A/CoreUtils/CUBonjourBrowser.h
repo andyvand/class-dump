@@ -4,48 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CUBonjourBrowser
 {
     _Bool _activateCalled;
-    _Bool _activated;
-    struct BonjourBrowser *_bonjourBrowser;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSMutableDictionary *_deviceMap;
-    struct LogCategory *_ucat;
-    _Bool _browseFlagsChanged;
-    unsigned int _changeFlags;
-    unsigned int _controlFlags;
-    unsigned long long _browseFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_domain;
-    NSString *_interfaceName;
-    NSString *_label;
-    NSString *_serviceType;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _deviceChangedHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
-- (int);
-- (id);
+- (int)count;
+- (id)Mail;
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (id)initWithReceiver:strong: /* Error: Ran out of types for this method. */;
+- (void), 
+}>;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)*;
 - (void);
 - (id);
 - (unsigned int);
@@ -58,21 +36,21 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)tune iteration for Winograd A18 kernel;
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (unsigned int);
+- (void)MPSCNNPooling_new_tex2darray_tex2darray_max_swEdge_4x2_0;
+- (unsigned int);
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -80,19 +58,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long browseFlags; // @synthesize browseFlags=_browseFlags;
-@property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(nonatomic) unsigned int controlFlags; // @synthesize controlFlags=_controlFlags;
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler; // @synthesize deviceChangedHandler=_deviceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
-@property(readonly, copy) NSArray *devices;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

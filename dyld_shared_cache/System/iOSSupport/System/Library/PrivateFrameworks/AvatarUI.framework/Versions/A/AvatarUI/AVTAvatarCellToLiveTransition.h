@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)[A�;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarTransitionModel> avatarTransitionModel; // @synthesize avatarTransitionModel=_avatarTransitionModel;

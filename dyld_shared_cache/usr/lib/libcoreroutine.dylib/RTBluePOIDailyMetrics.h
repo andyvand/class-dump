@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RTDefaultsManager;
+@class RTDefaultsManager;
 
 @interface RTBluePOIDailyMetrics
 {
     RTDefaultsManager *_defaultsManager;
-    NSMutableDictionary *_metrics;
 }
 
 - (void);
 - (void);
+- (id)oken.;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)y6;
+- (id)`#;
 - (_Bool);
 - (void);
 - (void);
-- (id)e;
+- (id)earlyStopPOIConfidence;
 - (void)us, %@, error, %@;
 - (id)ersToRemove FIRST, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
 
 @end
 

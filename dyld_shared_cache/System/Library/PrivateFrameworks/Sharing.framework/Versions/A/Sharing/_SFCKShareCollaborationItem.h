@@ -6,17 +6,12 @@
 
 #import <Sharing/SFCollaborationItem.h>
 
-@class CKAllowedSharingOptions, CKContainerSetupInfo, CKShare, LPLinkMetadata, NSArray, NSError, NSItemProvider, NSNumber, NSString, NSUUID, SFCollaborationCloudSharingResult, SFCollaborationMetadata, _SWCollaborationShareOptions;
+@class CKContainerSetupInfo;
 
 __attribute__((visibility("hidden")))
 @interface _SFCKShareCollaborationItem : SFCollaborationItem
 {
     _Bool _isServiceManatee;
-    _Bool _isLoadingContainerSetupInfo;
-    CKAllowedSharingOptions *_ckOptions;
-    CKShare *_updatedShare;
-    CKContainerSetupInfo *_containerSetupInfo;
-    LPLinkMetadata *_postSharelinkMetadata;
 }
 
 - (id);
@@ -35,48 +30,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)8);
 - (_Bool);
 - (void)dlþÿhlþÿðOþÿ
 Oþÿ
 ;
-- (_Bool)urationMs;
+- (_Bool)keyExchangeDurationMs;
 
 // Remaining properties
-@property(readonly, nonatomic) id activityItem;
-@property(readonly, copy, nonatomic) NSString *additionalContentIdentifier;
-@property(readonly, nonatomic) NSNumber *canAddPeople;
-@property(retain, nonatomic) CKAllowedSharingOptions *ckOptions; // @synthesize ckOptions=_ckOptions;
-@property(retain, nonatomic) SFCollaborationCloudSharingResult *cloudSharingResult;
 @property(retain, nonatomic) CKContainerSetupInfo *containerSetupInfo; // @synthesize containerSetupInfo=_containerSetupInfo;
-@property(readonly, copy, nonatomic) NSString *contentIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) _Bool defaultCollaboration;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) _Bool isLoading;
-@property(nonatomic) _Bool isLoadingContainerSetupInfo; // @synthesize isLoadingContainerSetupInfo=_isLoadingContainerSetupInfo;
-@property(readonly, nonatomic) _Bool isPostShare;
-@property(readonly, nonatomic) _Bool isServiceManatee; // @synthesize isServiceManatee=_isServiceManatee;
-@property(readonly, nonatomic) NSItemProvider *itemProvider;
-@property(readonly, nonatomic) LPLinkMetadata *linkMetadata;
-@property(readonly, nonatomic) SFCollaborationMetadata *metadata;
-@property(readonly, nonatomic) NSError *metadataLoadError;
-@property(copy, nonatomic) NSArray *options;
-@property(readonly, nonatomic) _Bool optionsChanged;
-@property(readonly, nonatomic) id placeholderActivityItem;
-@property(retain, nonatomic) LPLinkMetadata *postSharelinkMetadata; // @synthesize postSharelinkMetadata=_postSharelinkMetadata;
-@property(readonly, copy, nonatomic) NSArray *sendCopyItemPlaceholderValues;
-@property(readonly, copy, nonatomic) NSArray *sendCopyItems;
-@property(readonly, nonatomic) id sendCopyRepresentation;
-@property(copy, nonatomic) _SWCollaborationShareOptions *shareOptions;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type;
-@property(retain, nonatomic) CKShare *updatedShare; // @synthesize updatedShare=_updatedShare;
 
 @end
 

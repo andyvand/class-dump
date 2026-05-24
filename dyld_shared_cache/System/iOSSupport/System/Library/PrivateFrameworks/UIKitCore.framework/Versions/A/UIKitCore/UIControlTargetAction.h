@@ -10,15 +10,11 @@ __attribute__((visibility("hidden")))
 @interface UIControlTargetAction
 {
     UIAction *_actionHandler;
-    id _target;
-    SEL _action;
-    unsigned long long _eventMask;
-    _Bool _cancelled;
 }
 
 - (id);
 - (_Bool);
-- (void)d;
+- (void)remainsVisibleWhenDisabled;
 - (void)î7×¬Íh;
 
 // Remaining properties

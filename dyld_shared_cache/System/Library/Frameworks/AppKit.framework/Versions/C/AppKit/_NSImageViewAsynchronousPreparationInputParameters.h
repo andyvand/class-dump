@@ -4,67 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSColorSpace, NSImage, NSString, SLSIconAppearanceConfiguration;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface _NSImageViewAsynchronousPreparationInputParameters
 {
     NSImage *_asynchronousImage;
-    NSColorSpace *_colorSpace;
-    struct CGRect _bounds;
-    struct CGAffineTransform _transform;
-    NSAppearance *_appearance;
-    unsigned long long _frameStyle;
-    unsigned long long _imageScaling;
-    unsigned long long _imageAlignment;
-    _Bool _flipped;
-    SLSIconAppearanceConfiguration *_iconAppearanceConfiguration;
 }
 
 + (id);
 + (id);
 - (void);
+- (void)u;
 - (void);
-- (void);
-- (void);
+- (void)ction of im4c:(id)arg1 %d;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)_ֈi;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)ce_cancel connection=%llu;
 - (id);
 - (void);
 - (struct CGAffineTransform);
 - (_Bool);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)_updateAntialiasingThreshold;
 - (void)áî/°!¬Bùñä31Â0@ù
 × ;
-- (id)ackgroundColor;
-- (void)tVibrantBlendingStyleForSubtree:(struct CGAffineTransform)arg1;
+- (id)forBackgroundColor;
+- (void)_setVibrantBlendingStyleForSubtree:(struct CGAffineTransform)arg1;
 - (void)8Ø;
-- (void)ionFile;
+- (void)IconInternetLocationFile;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
 @property(retain, nonatomic) NSImage *asynchronousImage; // @synthesize asynchronousImage=_asynchronousImage;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(retain, nonatomic) NSColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFlipped) _Bool flipped; // @synthesize flipped=_flipped;
-@property(nonatomic) unsigned long long frameStyle; // @synthesize frameStyle=_frameStyle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SLSIconAppearanceConfiguration *iconAppearanceConfiguration; // @synthesize iconAppearanceConfiguration=_iconAppearanceConfiguration;
-@property(nonatomic) unsigned long long imageAlignment; // @synthesize imageAlignment=_imageAlignment;
-@property(nonatomic) unsigned long long imageScaling; // @synthesize imageScaling=_imageScaling;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

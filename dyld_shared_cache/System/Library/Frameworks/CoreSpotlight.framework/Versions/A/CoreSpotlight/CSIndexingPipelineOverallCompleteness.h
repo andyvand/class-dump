@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CSIndexingPipelineOverallCompleteness
 {
     NSString *_pipeline;
-    NSNumber *_overallCompleteness;
-    NSNumber *_donationCompeleteness;
-    NSNumber *_pipelineCompleteness;
-    NSNumber *_pipelineCompletenessHeuristicScore;
-    double _pipelineReportAge;
 }
 
 + (_Bool);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (id);
@@ -32,14 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSNumber *donationCompeleteness; // @synthesize donationCompeleteness=_donationCompeleteness;
-@property(readonly) _Bool isSufficientlyComplete;
-@property(readonly) NSNumber *overallCompleteness; // @synthesize overallCompleteness=_overallCompleteness;
 @property(readonly) NSString *pipeline; // @synthesize pipeline=_pipeline;
-@property(readonly) NSNumber *pipelineCompleteness; // @synthesize pipelineCompleteness=_pipelineCompleteness;
-@property(readonly) NSNumber *pipelineCompletenessHeuristicScore; // @synthesize pipelineCompletenessHeuristicScore=_pipelineCompletenessHeuristicScore;
-@property(readonly) double pipelineReportAge; // @synthesize pipelineReportAge=_pipelineReportAge;
-@property(readonly) double sufficientlyCompleteThreshold;
 
 @end
 

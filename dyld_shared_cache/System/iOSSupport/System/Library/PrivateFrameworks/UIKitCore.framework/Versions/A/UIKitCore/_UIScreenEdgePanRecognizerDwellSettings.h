@@ -10,31 +10,23 @@ __attribute__((visibility("hidden")))
 @interface _UIScreenEdgePanRecognizerDwellSettings : _UISettings
 {
     double _longPressTipPermittedHorizontalMovement;
-    double _longPressTipPermittedVerticalMovement;
-    double _longPressPermittedHorizontalMovement;
-    double _longPressPermittedVerticalMovement;
-    double _longPressRequiredDuration;
 }
 
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (void)tShouldSaveAutofill: /* Error: Ran out of types for this method. */;
+- (void)setShouldSaveAutofill: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double longPressPermittedHorizontalMovement; // @synthesize longPressPermittedHorizontalMovement=_longPressPermittedHorizontalMovement;
-@property(nonatomic) double longPressPermittedVerticalMovement; // @synthesize longPressPermittedVerticalMovement=_longPressPermittedVerticalMovement;
-@property(nonatomic) double longPressRequiredDuration; // @synthesize longPressRequiredDuration=_longPressRequiredDuration;
 @property(nonatomic) double longPressTipPermittedHorizontalMovement; // @synthesize longPressTipPermittedHorizontalMovement=_longPressTipPermittedHorizontalMovement;
-@property(nonatomic) double longPressTipPermittedVerticalMovement; // @synthesize longPressTipPermittedVerticalMovement=_longPressTipPermittedVerticalMovement;
 
 @end
 

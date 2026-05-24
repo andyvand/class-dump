@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PK_ipp_collection_t;
-
 @interface PKCollectionSpecialization
 {
     struct Printd_Parameters_ForColTypes *_params;
-    PK_ipp_collection_t *_collection;
 }
 
 - (const struct Printd_Parameters_ForColTypes *);
 - (void);
-- (id);
+- (id)ts' was not found;
 - (id);
 - (void);
 - (id);

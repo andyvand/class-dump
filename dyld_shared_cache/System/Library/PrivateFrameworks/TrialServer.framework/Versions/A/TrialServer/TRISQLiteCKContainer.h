@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, NSString, TRISQLiteCKDatabase;
+@class CKDatabase, TRISQLiteCKDatabase;
 
 @interface TRISQLiteCKContainer
 {
     TRISQLiteCKDatabase *_database;
-    NSString *_containerIdentifier;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)proxyOnly;
+- (id)fetchAssetsForLanguage:clientID:completion: /* Error: Ran out of types for this method. */;
+- (id)dictationConnection:didDetectLanguage:confidenceScores: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -22,10 +21,7 @@
 - (id)space:%llu, required space:%llu, purgeable space:%llu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
 @property(readonly, nonatomic) CKDatabase *privateCloudDatabase;
-@property(readonly, nonatomic) CKDatabase *publicCloudDatabase;
-@property(readonly, nonatomic) CKDatabase *sharedCloudDatabase;
 
 @end
 

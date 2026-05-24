@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOMapItemIdentifier, GEOPDExploreGuidesLookupParameters, NSString;
+@class GEOLatLng;
 
 @interface GEOExploreGuidesLookupParameters
 {
     GEOLatLng *_referenceLocation;
-    NSString *_airportCode;
-    NSString *_cityName;
-    GEOMapItemIdentifier *_mapItemIdentifier;
-    unsigned long long _supportedPunchoutType;
 }
 
 - (unsigned long long);
 - (void);
+- (void);
+- (id);
+- (id)ȩ;
+- (id);
+- (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)%{public}llu, with startAnalyzeSampleCount = %{public}llu, samplesFed = %{public}llu, triggerStartSampleCount = %{public}llu;
 - (void),Ñ4;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *airportCode; // @synthesize airportCode=_airportCode;
-@property(retain, nonatomic) NSString *cityName; // @synthesize cityName=_cityName;
-@property(retain, nonatomic) GEOMapItemIdentifier *mapItemIdentifier; // @synthesize mapItemIdentifier=_mapItemIdentifier;
-@property(readonly, nonatomic) GEOPDExploreGuidesLookupParameters *pdParams;
 @property(retain, nonatomic) GEOLatLng *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(nonatomic) unsigned long long supportedPunchoutType; // @synthesize supportedPunchoutType=_supportedPunchoutType;
 
 @end
 

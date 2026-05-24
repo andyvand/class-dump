@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMDateProvider, NSString;
+@class HMMDateProvider;
 
 __attribute__((visibility("hidden")))
 @interface HMDLogEventWeekBasedFilter
@@ -12,21 +12,14 @@ __attribute__((visibility("hidden")))
     HMMDateProvider *_dateProvider;
 }
 
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)unmappedContents;
+- (_Bool)anyway;
 - (id)label:(id)arg1 %@;
 - (void)65291;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

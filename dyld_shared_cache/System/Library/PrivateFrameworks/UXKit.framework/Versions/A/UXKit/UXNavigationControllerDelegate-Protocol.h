@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UXViewControllerAnimatedTransitioning, UXViewControllerInteractiveTransitioning;
+
 @protocol UXNavigationControllerDelegate
+
+@optional
+- (void);
+- (void)=;
+- (id <UXViewControllerAnimatedTransitioning>);
+- (id <UXViewControllerInteractiveTransitioning>)data = %p, length = %lu;
 @end
 

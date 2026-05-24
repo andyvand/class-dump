@@ -6,28 +6,28 @@
 
 #import <WebKitLegacy/DOMObject.h>
 
-@class DOMCSSRule, NSString;
+@class NSString;
 
 @interface DOMCSSStyleDeclaration : DOMObject
 {
 }
 
 - (id);
+- (id)ej5;
+- (id);
+- (id);
+- (id);
+- (id)L";
+- (id);
+- (id);
+- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -35,16 +35,20 @@
 - (void);
 - (void);
 - (void);
+- (void)*3;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)'9;
+- (void)ʬ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void):(id)arg1 =;
 - (void);
 - (void);
 - (void);
@@ -52,6 +56,7 @@
 - (void);
 - (void);
 - (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
@@ -61,6 +66,7 @@
 - (void);
 - (void);
 - (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
@@ -70,32 +76,26 @@
 - (void);
 - (void);
 - (void);
+- (void)cjP;
 - (void);
 - (void);
+- (void)v;
 - (void);
+- (void)R;
 - (void);
+- (void);
 - (void);
+- (void)<R;
 - (void);
 - (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -105,15 +105,15 @@
 - (id);
 - (id);
 - (id);
+- (id)i;
 - (id);
 - (id);
 - (id);
+- (id)n;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)J;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -128,6 +128,7 @@
 - (id);
 - (id);
 - (id);
+- (id)Ę;
 - (id);
 - (id);
 - (id);
@@ -146,46 +147,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -197,86 +159,122 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)n;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id))8ijh8);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)iTunesAccountsInUseIncludeLocal:includeSandbox: /* Error: Ran out of types for this method. */;
+- (void)bject will be evicted.;
+- (id)n't Exist;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned int)#;
+- (void);
+- (void)P;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)dump:(id)arg1 uuid:uarpStatus:direction: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)J@;
+- (id));
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)_bin_8:drain_depth_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_depth_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_depth_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_count_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_var_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_depth_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_mean_at_charge_start_soc_curr_static_bin:charge_duration_count_at_charge_start_soc_curr_static_bin:charge_duration_var_at_charge_start_soc_curr_static_bin:charge_duration_p_0_00_at_charge_start_soc_curr_static_bin:charge_duration_p_0_10_at_charge_start_soc_curr_static_bin:charge_duration_p_0_25_at_charge_start_soc_curr_static_bin:charge_duration_p_0_50_at_charge_start_soc_curr_static_bin:charge_duration_p_0_75_at_charge_start_soc_curr_static_bin:charge_duration_p_0_90_at_charge_start_soc_curr_static_bin:charge_duration_p_1_00_at_charge_start_soc_curr_static_bin:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:prev_1_drain_depth:prev_1_charge_duration:prev_1_drain_duration:prev_2_drain_depth:prev_2_charge_duration:prev_2_drain_duration:prev_3_drain_depth:prev_3_charge_duration:prev_3_drain_duration:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days: /* Error: Ran out of types for this method. */;
+- (id)convertDateTimeColumnToSeconds:inDataFrame: /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (id)error:Not enough history, do not post /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id)?;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id));
+- (id);
+- (void)16;
 - (void)nPtr<WebWindowFadeAnimation>="m_ptr"@"WebWindowFadeAnimation"};
-- (void)atternStrings:(id)arg1 excludeMatchPatternStrings:injectionTime:injectedFrames: /* Error: Ran out of types for this method. */;
-- (void)torEnabled;
-- (id)teInterventionsEnabled;
-- (void)KitVideoPresentationModeAPIEnabled;
-- (id)ationIcon;
+- (void)_addUserScriptToGroup:(id)arg1 world:source:url:includeMatchPatternStrings:excludeMatchPatternStrings:injectionTime:injectedFrames: /* Error: Ran out of types for this method. */;
+- (void)WebKitFontFaceSetConstructorEnabled;
+- (id)WebKitDynamicSiteInterventionsEnabled;
+- (void)WebKitVideoPresentationModeAPIEnabled;
+- (id)NSApplicationIcon;
 - (id)Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<JSC::JSObject *>, Traits = WTF::HashTraits<JSC::JSObject *>, KeyTraits = WTF::HashTraits<JSC::JSObject *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSString *cssText;
-@property(readonly) unsigned int length;
-@property(readonly) DOMCSSRule *parentRule;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CKDPResponseOperationResultErrorAuxiliaryErrorErrorUserInfoValue
 {
     double _doubleValue;
-    long long _int64Value;
-    NSData *_bytesValue;
-    NSString *_stringValue;
-    int _value;
-    _Bool _boolValue;
-    CDStruct_13ce34bd _has;
 }
 
 - (id);
@@ -22,8 +14,8 @@
 - (int);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)AVTStickerPagingController;
+- (_Bool)ind configuration for index %ld;
 - (void);
 - (void);
 - (void);
@@ -31,41 +23,31 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)sh completion callback.
+;
 - (_Bool);
-- (_Bool);
+- (_Bool)lastRoamScanUniqueChannelsCount;
 - (long long);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)markAsDownloaded:userHandle: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)F7;
 - (void);
-- (id)lock:objectBlock:blockBlock: /* Error: Ran out of types for this method. */;
+- (id)CKIterateArgumentsForIndexRange:primitiveTypeBlock:objectBlock:blockBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)$3ðÿ!f;
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(retain, nonatomic) NSData *bytesValue; // @synthesize bytesValue=_bytesValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) _Bool hasBoolValue;
-@property(readonly, nonatomic) _Bool hasBytesValue;
 @property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasInt64Value;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) long long int64Value; // @synthesize int64Value=_int64Value;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int value; // @synthesize value=_value;
 
 @end
 

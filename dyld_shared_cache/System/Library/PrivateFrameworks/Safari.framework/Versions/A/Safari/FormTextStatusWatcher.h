@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface FormTextStatusWatcher
 {
     NSMutableSet *_unverifiedTabs;
-    id <FormTextStatusWatcherDelegate> _delegate;
 }
 
 - (unsigned long long);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <FormTextStatusWatcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long unverifiedTabCount;
 
 @end
 

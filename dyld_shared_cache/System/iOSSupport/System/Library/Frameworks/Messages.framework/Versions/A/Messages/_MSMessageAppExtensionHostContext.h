@@ -10,14 +10,34 @@
 @interface _MSMessageAppExtensionHostContext
 {
     NSString *_queuedCanShowBrowserPluginIdentifier;
-    CDUnknownBlockType _queuedCanShowBrowserCompletion;
-    id <_MSMessageComposeHostProtocol> _delegate;
 }
 
 + (id);
 + (id);
++ (id)@;
 + (id);
-+ (id);
+- (void);
+- (void)�m;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,49 +45,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mostRecentPosition;
+- (void)PXPhotoKitAssetsDataSource",R,D,N;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)LAST_PAGE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_MSMessageComposeHostProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

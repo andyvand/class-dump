@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface IKHardwareCapsChangeNotifier
 {
     struct IONotificationPort *_notificationPort;
-    NSMutableDictionary *_notifierMap;
-    NSMutableArray *_cameraCallbackObjs;
-    _Bool _hasQ8;
-    _Bool _hasDV;
-    id _delegate;
 }
 
-+ (id);
++ (id)h@9	t@9?k ;
 - (id);
 - (void);
 - (id);
@@ -31,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)ton;

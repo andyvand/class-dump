@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation, CKPinnedConversationActivitySnapshot, CKPinnedConversationView;
+
 @protocol CKPinnedConversationViewDelegate
+- (CKPinnedConversationActivitySnapshot *)insertItemsWithIdentifiers:(CKConversation *)arg1 beforeItemWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)ic_shouldIgnoreObserveValue:(CKPinnedConversationView *)arg1 ofObject:(CKPinnedConversationActivitySnapshot *)arg2 forKeyPath: /* Error: Ran out of types for this method. */;
 @end
 

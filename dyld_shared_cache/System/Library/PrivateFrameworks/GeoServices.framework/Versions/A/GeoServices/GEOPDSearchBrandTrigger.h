@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchBrandTrigger
 {
     double _relevance;
-    NSString *_trigger;
 }
 
 - (id);
@@ -19,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)rd"b1"read_unknownFields"b1"read_incidentIndexs"b1"read_advisoryCards"b1"read_advisoryItems"b1"read_analyticsMessageValues"b1"read_detailCardTitle"b1"read_noticeArtwork"b1"read_noticeText"b1"wrote_anyField"b1};
-- (id)ey;
+- (id)_placeCacheKey;
 - (id)Ï;
 - (void);
 

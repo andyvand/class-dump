@@ -10,21 +10,18 @@
 @interface FigDelegateStorage
 {
     NSObject<OS_dispatch_queue> *_delegateQueue;
-    id _delegate;
-    struct os_unfair_lock_s _lock;
 }
 
 + (void)aGroup-Misc;
-- (void);
-- (void);
+- (void)elementAtIndex: /* Error: Ran out of types for this method. */;
+- (void)!;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) id delegate;
-@property(readonly) NSObject<OS_dispatch_queue> *delegateQueue;
 
 @end
 

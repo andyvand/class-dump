@@ -9,8 +9,8 @@
 }
 
 + (unsigned long long);
-+ (id);
-+ (id);
++ (id));
++ (id)updateCurrentBrowserURL;
 
 @end
 

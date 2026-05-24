@@ -4,34 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VNCCCharBoxContext;
-
 __attribute__((visibility("hidden")))
 @interface VNCCTextDetector
 {
     int _getFilter_callCount;
-    _Bool _computeZCVectorHighProbability;
-    unsigned char _ii;
-    unsigned char _profileNormal;
-    _Bool _debugMatlab;
-    _Bool _debugOut;
-    int _midRow;
-    unsigned int _minHeight;
-    unsigned int _maxHeight;
-    unsigned int _startMaxFind;
-    unsigned int _stopMaxFind;
-    float _mmHeightCard;
-    float _mmWidthCard;
-    unsigned int _pixelHeightCard;
-    unsigned int _pixelWidthCard;
-    unsigned int _minBoxWidth;
-    unsigned int _maxBoxWidth;
-    unsigned int _startNormal;
-    unsigned int _stopNormal;
-    unsigned int _startSensitized;
-    unsigned int _stopSensitized;
-    VNCCCharBoxContext *_charBoxContext;
-    NSString *_debugFilename;
 }
 
 + (id);
@@ -61,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (float);
 - (float);
-- (unsigned int);
+- (unsigned int);
 - (int);
 - (unsigned int);
 - (void);
@@ -69,11 +45,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (int);
 - (int);
-- (int);
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (void);
 - (int);
 - (void);
@@ -104,32 +80,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (int);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (int);
-- (int);
-- (int);
-- (void);
-- (int);
-- (unsigned int);
-- (int);
-- (int);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void);
 - (void);
 - (void);
 - (int);
+- (void);
 - (int);
+- (int);
+- (int);
+- (void);
 - (int);
 - (unsigned int);
+- (int);
+- (int);
 - (void);
 - (void);
 - (void);
+- (unsigned int);
+- (void);
+- (void);
+- (int);
+- (int);
+- (int);
+- (unsigned int);
+- (void);
+- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -140,32 +116,11 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (id);
-- (void)eflightBindingsInput;
+- (id)kCBCSStartAclConnEvent;
+- (void)detectorCropProcessingPreflightBindingsInput;
 
 // Remaining properties
-@property(retain) VNCCCharBoxContext *charBoxContext; // @synthesize charBoxContext=_charBoxContext;
 @property _Bool computeZCVectorHighProbability; // @synthesize computeZCVectorHighProbability=_computeZCVectorHighProbability;
-@property(copy) NSString *debugFilename; // @synthesize debugFilename=_debugFilename;
-@property _Bool debugMatlab; // @synthesize debugMatlab=_debugMatlab;
-@property _Bool debugOut; // @synthesize debugOut=_debugOut;
-@property unsigned char ii; // @synthesize ii=_ii;
-@property unsigned int maxBoxWidth; // @synthesize maxBoxWidth=_maxBoxWidth;
-@property unsigned int maxHeight; // @synthesize maxHeight=_maxHeight;
-@property int midRow; // @synthesize midRow=_midRow;
-@property unsigned int minBoxWidth; // @synthesize minBoxWidth=_minBoxWidth;
-@property unsigned int minHeight; // @synthesize minHeight=_minHeight;
-@property float mmHeightCard; // @synthesize mmHeightCard=_mmHeightCard;
-@property float mmWidthCard; // @synthesize mmWidthCard=_mmWidthCard;
-@property unsigned int pixelHeightCard; // @synthesize pixelHeightCard=_pixelHeightCard;
-@property unsigned int pixelWidthCard; // @synthesize pixelWidthCard=_pixelWidthCard;
-@property unsigned char profileNormal; // @synthesize profileNormal=_profileNormal;
-@property unsigned int startMaxFind; // @synthesize startMaxFind=_startMaxFind;
-@property unsigned int startNormal; // @synthesize startNormal=_startNormal;
-@property unsigned int startSensitized; // @synthesize startSensitized=_startSensitized;
-@property unsigned int stopMaxFind; // @synthesize stopMaxFind=_stopMaxFind;
-@property unsigned int stopNormal; // @synthesize stopNormal=_stopNormal;
-@property unsigned int stopSensitized; // @synthesize stopSensitized=_stopSensitized;
 
 @end
 

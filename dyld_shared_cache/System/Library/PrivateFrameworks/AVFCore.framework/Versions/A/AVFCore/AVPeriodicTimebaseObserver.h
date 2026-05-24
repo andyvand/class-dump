@@ -9,13 +9,6 @@
 @interface AVPeriodicTimebaseObserver : AVTimebaseObserver
 {
     CDStruct_1b6d18a9 _intervalRequested;
-    CDStruct_1b6d18a9 _lastIntervalUsed;
-    CDStruct_1b6d18a9 _lastPeriodicFireTime;
-    CDStruct_1b6d18a9 _lastNonperiodicFireTime;
-    CDStruct_1b6d18a9 _lastStopTime;
-    CDStruct_1b6d18a9 _nonPeriodicOffset;
-    unsigned int _sequenceNum;
-    CDUnknownBlockType _block;
 }
 
 - (id);
@@ -24,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

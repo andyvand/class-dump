@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCArticleModalBrandBarConfig
 {
     _Bool _enabled;
-    int _maxCount;
-    int _campaignVersion;
-    long long _quiescenceInterval;
-    NSString *_messageTitle;
-    NSString *_messageBody;
-    NSString *_ctaTitle;
-    NSString *_ctaUrl;
 }
 
 - (id);
@@ -23,21 +14,14 @@
 - (int);
 - (id);
 - (id);
-- (long long);
+- (long long)ots/4~CNrJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/paimaging/PhotoApps/PAImageAssetType.m;
 - (_Bool):groupDarkStyleTitleColor:thumbnailDirectory:isPublic: /* Error: Ran out of types for this method. */;
 - (int)\¿¿;
-- (void);
+- (void)todayWidgetForYouTopicDiversityThreshold;
 - (id)ø#;
 
 // Remaining properties
-@property(readonly, nonatomic) int campaignVersion; // @synthesize campaignVersion=_campaignVersion;
-@property(readonly, nonatomic) NSString *ctaTitle; // @synthesize ctaTitle=_ctaTitle;
-@property(readonly, nonatomic) NSString *ctaUrl; // @synthesize ctaUrl=_ctaUrl;
 @property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) int maxCount; // @synthesize maxCount=_maxCount;
-@property(readonly, nonatomic) NSString *messageBody; // @synthesize messageBody=_messageBody;
-@property(readonly, nonatomic) NSString *messageTitle; // @synthesize messageTitle=_messageTitle;
-@property(readonly, nonatomic) long long quiescenceInterval; // @synthesize quiescenceInterval=_quiescenceInterval;
 
 @end
 

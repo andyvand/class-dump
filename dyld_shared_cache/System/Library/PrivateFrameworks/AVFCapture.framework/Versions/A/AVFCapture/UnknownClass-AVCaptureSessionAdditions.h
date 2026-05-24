@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AVCaptureSessionAdditions)
-- (id);
+- (id);
 @end
 

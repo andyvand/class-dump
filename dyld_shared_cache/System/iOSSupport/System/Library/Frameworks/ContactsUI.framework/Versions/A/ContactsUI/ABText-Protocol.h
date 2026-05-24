@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @protocol ABText
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ab_text;
-@property(copy, nonatomic) NSDictionary *ab_textAttributes;
 @end
 

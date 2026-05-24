@@ -15,8 +15,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)gw;
+- (id)Z;
 - (void);
 - (id);
 - (void)sAfterDate:beforeDate:withCompletionHandler:]_block_invoke /* Error: Ran out of types for this method. */;

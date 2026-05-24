@@ -7,9 +7,6 @@
 @interface SoundAnalysis.AnalysisClientUtils.RegenerativeConnection
 {
     id $defaultActor;
-    id connectionGenerator;
-    id currentConnection;
-    id invalidationMonitor;
 }
 
 @end

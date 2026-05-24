@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHAceCommandEnded, ORCHSchemaORCHAceCommandFailed, ORCHSchemaORCHAceCommandStarted, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHAceCommandContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_aceId;
-    ORCHSchemaORCHAceCommandStarted *_startedOrChanged;
-    ORCHSchemaORCHAceCommandEnded *_ended;
-    ORCHSchemaORCHAceCommandFailed *_failed;
-    _Bool _hasAceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichCommandevent;
 }
 
 - (unsigned long long);
@@ -28,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -50,21 +42,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)teQuerySuggestionTier1;
+- (id)_alternateQuerySuggestionTier1;
 - (id)vedSlotName;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *aceId; // @synthesize aceId=_aceId;
-@property(retain, nonatomic) ORCHSchemaORCHAceCommandEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHAceCommandFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasAceId; // @synthesize hasAceId=_hasAceId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ORCHSchemaORCHAceCommandStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichCommandevent; // @synthesize whichCommandevent=_whichCommandevent;
 
 @end
 

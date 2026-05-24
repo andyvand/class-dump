@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNGeminiManager, CNUIContactCardPropertyViewConfiguration;
+@class CNContact;
 
 @interface ContactsUI.ContactCardSwiftUIViewController
 {
     id hostingController;
-    CNContact *contact;
-    _Bool forceReload;
-    id contactStore;
-    id actionsProvider;
-    id inlineActionsViewModel;
-    id cardActionViewModels;
-    id customActionViewModels;
-    CNUIContactCardPropertyViewConfiguration *propertyViewConfiguration;
-    _Bool isInlineContactCard;
-    CNGeminiManager *geminiManager;
-    _Bool isOutOfProcess;
 }
 
-+ (id);
++ (id)T;
 - (void);
-- (id);
+- (id)";
 - (_Bool);
-- (id);
+- (id)МR);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)macOSRemoteSecretView;
+- (id)W;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id)ntactConfiguration",&,N,V_configuration;
-- (void);
+- (void)_avatarProvider;
 
 // Remaining properties
 @property(nonatomic, retain) CNContact *contact; // @synthesize contact;
-@property(nonatomic) _Bool forceReload; // @synthesize forceReload;
-@property(nonatomic, readonly) CNGeminiManager *geminiManager; // @synthesize geminiManager;
-@property(nonatomic, readonly) _Bool isInlineContactCard; // @synthesize isInlineContactCard;
-@property(nonatomic, readonly) _Bool isOutOfProcess; // @synthesize isOutOfProcess;
-@property(nonatomic, retain) CNUIContactCardPropertyViewConfiguration *propertyViewConfiguration; // @synthesize propertyViewConfiguration;
 
 @end
 

@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFPowerLogger, HMMIntervalMapper;
-@protocol HMMLogEventDispatching;
+@class HMMIntervalMapper;
 
 __attribute__((visibility("hidden")))
 @interface HMDPowerLogObserverContext
 {
     HMMIntervalMapper *_homeConfigurationEventHistogram;
-    HMMIntervalMapper *_cameraConfigurationEventHistogram;
-    id <HMMLogEventDispatching> _logEventDispatcher;
-    HMFPowerLogger *_powerLogger;
 }
 
+- (id)6A;
+- (id)BTkJBRUFtcG1aUGc0RUFRRE56TXc5RHdRQkFNM01URDVNQkFFQXpjeE1QMDBFQVFEWFVWVThUZ1FCQU0zTXpEMVBCQUVBTXpNelAxQUVBUUFBQUlBLzwvZGVwdGhCbHVyRWZmZWN0OlJlbmRlcmluZ1BhcmFtZXRlcnM+CiAgICAgICAgIDxkZXB0aEJsdXJFZmZlY3Q6U2ltdWxhdGVkQXBlcnR1cmU+MS40MDAwMDA8L2RlcHRoQmx1ckVmZmVjdDpTaW11bGF0ZWRBcGVydHVyZT4KICAgICAgICAgPHBvcnRyYWl0TGlnaHRpbmdFZmZlY3Q6RWZmZWN0U3RyZW5ndGg+MC41MDAwMDA8L3BvcnRyYWl0TGlnaHRpbmdFZmZlY3Q6RWZmZWN0U3RyZW5ndGg+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo=;
 - (id);
-- (id);
-- (id);
-- (id)eforeStartingHH2Migration;
+- (id)removeAllOperationsBeforeStartingHH2Migration;
 - (void)?0@"HMDMatterPath"8;
 - (id)ing/Mismatched home room identifier for ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMMIntervalMapper *cameraConfigurationEventHistogram; // @synthesize cameraConfigurationEventHistogram=_cameraConfigurationEventHistogram;
 @property(readonly, nonatomic) HMMIntervalMapper *homeConfigurationEventHistogram; // @synthesize homeConfigurationEventHistogram=_homeConfigurationEventHistogram;
-@property(readonly, nonatomic) __weak id <HMMLogEventDispatching> logEventDispatcher; // @synthesize logEventDispatcher=_logEventDispatcher;
-@property(readonly, nonatomic) __weak HMFPowerLogger *powerLogger; // @synthesize powerLogger=_powerLogger;
 
 @end
 

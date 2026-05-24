@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSUUID, _ML3DatabaseConnectionSubPool;
-@protocol ML3DatabaseConnectionPoolDelegate, OS_dispatch_queue;
+@class _ML3DatabaseConnectionSubPool;
 
 @interface ML3DatabaseConnectionPool
 {
     _ML3DatabaseConnectionSubPool *_readersSubPool;
-    _ML3DatabaseConnectionSubPool *_writersSubPool;
-    NSMutableDictionary *_identifiersConnectionsMap;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSUUID *_poolStorageKey;
-    _Bool _useDistantWriterConnections;
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } _poolLockCondition;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _poolLockMutex;
-    _Bool _closed;
-    _Bool _locked;
-    NSString *_databasePath;
-    id <ML3DatabaseConnectionPoolDelegate> _delegate;
-    unsigned long long _maxReaders;
-    unsigned long long _maxWriters;
-    unsigned long long _connectionsJournalingMode;
 }
 
 - (void);
@@ -38,18 +17,18 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)__gcc_except_tab__TEXT;
+- (id)H;
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)setFirstCoreDataContainerSetupUnderlyingErrorDomainHH2: /* Error: Ran out of types for this method. */;
+- (void)}@Failed to get component for merge;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)6@0:8@16B24@?28 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -57,7 +36,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (id);
 - (void)Ô!°!0Cù1Ð1Â0@ù
 × ;
@@ -73,14 +52,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isClosed) _Bool closed; // @synthesize closed=_closed;
-@property(nonatomic) unsigned long long connectionsJournalingMode; // @synthesize connectionsJournalingMode=_connectionsJournalingMode;
-@property(readonly, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(nonatomic) __weak id <ML3DatabaseConnectionPoolDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isCurrentThreadConnectionInTransaction;
-@property(readonly, nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(readonly, nonatomic) unsigned long long maxReaders; // @synthesize maxReaders=_maxReaders;
-@property(readonly, nonatomic) unsigned long long maxWriters; // @synthesize maxWriters=_maxWriters;
-@property(nonatomic) _Bool useDistantWriterConnections;
 
 @end
 

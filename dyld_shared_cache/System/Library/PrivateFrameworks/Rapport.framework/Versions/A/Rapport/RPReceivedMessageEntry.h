@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RPReceivedMessageEntry
 {
     NSString *_eventID;
-    NSDictionary *_event;
-    NSString *_requestID;
-    NSDictionary *_request;
-    CDUnknownBlockType _responseHandler;
-    NSDictionary *_options;
-    NSNumber *_sessionID;
 }
 
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"acousticProfileVersion"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"serviceModelVersion"I"aceToQuasarTemplate"{map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>="__tree_"{__tree<std::__value_type<std::string, std::string>, std::__map_value_compare<std::string, std::pair<const std::string, std::string>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::string>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"quasarTemplateToAce"{map<std::string, std::vector<std::string>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::string>>>>="__tree_"{__tree<std::__value_type<std::string, std::vector<std::string>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<std::string>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"quasarTemplateToEnumerationType"{map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>>="__tree_"{__tree<std::__value_type<std::string, std::string>, std::__map_value_compare<std::string, std::pair<const std::string, std::string>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::string>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"g2pModelVersion"i"hybridEndpointerVersion"i} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -35,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *event; // @synthesize event=_event;
 @property(copy, nonatomic) NSString *eventID; // @synthesize eventID=_eventID;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSDictionary *request; // @synthesize request=_request;
-@property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(copy, nonatomic) NSNumber *sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

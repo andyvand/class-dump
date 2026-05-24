@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface RGSiriSchemaRGOverrideStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_overridesMobileAssetVersion;
-    CDStruct_b33ad018 _has;
-    _Bool _hasOverridesMobileAssetVersion;
 }
 
 - (void);
@@ -25,24 +20,20 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurchaseRequest_macOS.m:20 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)tringRef *, int64_t *, int64_t *, Boolean *, Boolean *, CFStringRef *, int64_t *, CFStringRef *, int64_t *, int64_t *, int64_t *, int64_t *, int64_t *, CFStringRef *, int64_t *, NSRange *, CFStringRef *, CFDataRef *, CFStringRef *, int64_t *, CFDataRef *, int64_t *, CFStringRef *, CFDataRef *, CFStringRef *, CFStringRef *, CFStringRef *, int64_t *, CFStringRef *, CFStringRef *, CFStringRef *, CFStringRef *, int64_t *, int64_t *, int64_t *, CFStringRef *, CFStringRef *, CFStringRef *, int64_t *, int64_t *, CFStringRef *);
 - (id);
-- (id);
-- (id)iases:(id)arg1;
+- (id);
+- (id)addUsageAliases:(id)arg1;
 - (id)SampledErrorInSeconds;
-- (_Bool)NC;
-- (void)TARGET_PLAN_OVERRIDES_SERVICE_HANDLE;
+- (_Bool)VOICENAME_ZHCNC;
+- (void)IFPLATFORMREQUESTTARGET_PLAN_OVERRIDES_SERVICE_HANDLE;
 - (_Bool)ntResults.payload.outcome.parameterConfirmation.item.value.query.typeIdentifier.custom.bundleId;
 - (void)V×ÿZ¢¬Ê";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasOverridesMobileAssetVersion; // @synthesize hasOverridesMobileAssetVersion=_hasOverridesMobileAssetVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *overridesMobileAssetVersion; // @synthesize overridesMobileAssetVersion=_overridesMobileAssetVersion;
 
 @end
 

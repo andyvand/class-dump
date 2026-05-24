@@ -6,18 +6,12 @@
 
 #import <ClassroomKit/CRKASMRosterProviderDecoratorBase.h>
 
-@class CATOperation, CATOperationQueue, NSObject, NSSet;
-@protocol CRKASMRoster, CRKASMRosterProviding, CRKIDSPrimitives;
+@class NSObject;
+@protocol CRKASMRosterProviding;
 
 @interface CRKIDSFirewallUpdatingRosterProvider : CRKASMRosterProviderDecoratorBase
 {
     _Bool _observingRosters;
-    NSSet *_allowedAppleIDs;
-    NSObject<CRKASMRosterProviding> *_secondaryRosterProvider;
-    id <CRKIDSPrimitives> _IDSPrimitives;
-    CATOperationQueue *_operationQueue;
-    id <CRKASMRoster> _publishedRoster;
-    CATOperation *_lastWorkOperation;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (id);
@@ -34,8 +28,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,15 +42,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(copy, nonatomic) NSSet *allowedAppleIDs; // @synthesize allowedAppleIDs=_allowedAppleIDs;
-@property(nonatomic) __weak CATOperation *lastWorkOperation; // @synthesize lastWorkOperation=_lastWorkOperation;
-@property(nonatomic, getter=isObservingRosters) _Bool observingRosters; // @synthesize observingRosters=_observingRosters;
-@property(readonly, nonatomic) CATOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain, nonatomic) id <CRKASMRoster> publishedRoster; // @synthesize publishedRoster=_publishedRoster;
 @property(readonly, nonatomic) NSObject<CRKASMRosterProviding> *secondaryRosterProvider; // @synthesize secondaryRosterProvider=_secondaryRosterProvider;
 
 @end

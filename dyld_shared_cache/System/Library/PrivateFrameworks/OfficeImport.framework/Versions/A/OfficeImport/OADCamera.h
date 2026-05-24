@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface OADCamera
 {
     OADRotation3D *mRotation;
-    int mCameraType;
-    float mFieldOfView;
-    float mZoom;
 }
 
-- (void);
+- (void)	;
 - (void);
 - (int);
 - (id);
@@ -27,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float)1Â0@ù
 × ;
-- (void)mlNode:(float)arg1 toRow:drawingState: /* Error: Ran out of types for this method. */;
+- (void)readRowFromXmlNode:(float)arg1 toRow:drawingState: /* Error: Ran out of types for this method. */;
 - (void);
 - (float)¬;
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, NSMutableArray;
+@class IOBluetoothDevice;
 
 @interface IOBluetoothAudioManager
 {
     IOBluetoothDevice *_audioDeviceConnecting;
-    NSMutableArray *_audioDevicesToConnect;
-    int _audioConnectAttempt;
 }
 
 + (void);
@@ -25,7 +23,7 @@
 + (void);
 + (void);
 + (unsigned int);
-+ (unsigned int);
++ (unsigned int)4;
 + (unsigned int);
 + (void);
 + (void);
@@ -39,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (void);
@@ -47,7 +45,6 @@
 
 // Remaining properties
 @property(retain) IOBluetoothDevice *audioDeviceConnecting; // @synthesize audioDeviceConnecting=_audioDeviceConnecting;
-@property(retain) NSMutableArray *audioDevicesToConnect; // @synthesize audioDevicesToConnect=_audioDevicesToConnect;
 
 @end
 

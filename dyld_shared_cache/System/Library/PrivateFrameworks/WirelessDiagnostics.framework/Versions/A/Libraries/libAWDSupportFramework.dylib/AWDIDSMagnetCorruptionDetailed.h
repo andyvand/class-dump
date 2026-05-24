@@ -7,19 +7,6 @@
 @interface AWDIDSMagnetCorruptionDetailed
 {
     unsigned long long _correctFramesSinceLastCorruption;
-    unsigned long long _correctRawBytesSinceLastCorruption;
-    unsigned long long _discardedRawBytes;
-    unsigned long long _linkType;
-    unsigned long long _recoveryTimeInMs;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int correctFramesSinceLastCorruption:1;
-        unsigned int correctRawBytesSinceLastCorruption:1;
-        unsigned int discardedRawBytes:1;
-        unsigned int linkType:1;
-        unsigned int recoveryTimeInMs:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
@@ -27,48 +14,37 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)d;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long)fåÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long correctFramesSinceLastCorruption; // @synthesize correctFramesSinceLastCorruption=_correctFramesSinceLastCorruption;
-@property(nonatomic) unsigned long long correctRawBytesSinceLastCorruption; // @synthesize correctRawBytesSinceLastCorruption=_correctRawBytesSinceLastCorruption;
-@property(nonatomic) unsigned long long discardedRawBytes; // @synthesize discardedRawBytes=_discardedRawBytes;
-@property(nonatomic) _Bool hasCorrectFramesSinceLastCorruption;
-@property(nonatomic) _Bool hasCorrectRawBytesSinceLastCorruption;
-@property(nonatomic) _Bool hasDiscardedRawBytes;
-@property(nonatomic) _Bool hasLinkType;
-@property(nonatomic) _Bool hasRecoveryTimeInMs;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long linkType; // @synthesize linkType=_linkType;
-@property(nonatomic) unsigned long long recoveryTimeInMs; // @synthesize recoveryTimeInMs=_recoveryTimeInMs;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionSessionProvider, NSArray, NSMutableArray, NSMutableDictionary, NSSet, NSString, NSUUID;
-@protocol CMIOExtensionSessionDeviceDelegate;
+@class CMIOExtensionSessionProvider;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionSessionDevice
 {
     struct os_unfair_lock_s _lock;
-    id <CMIOExtensionSessionDeviceDelegate> _delegate;
-    NSMutableDictionary *_propertyStates;
-    NSSet *_availableProperties;
-    NSMutableArray *_streams;
-    NSArray *_streamIDs;
-    NSString *_description;
-    _Bool _invalidated;
-    _Bool _runningSomewhere;
-    int _deviceControlPID;
-    NSString *_localizedName;
-    NSUUID *_deviceID;
-    NSString *_legacyDeviceID;
-    NSString *_manufacturer;
-    NSString *_modelID;
-    long long _specialDeviceType;
-    CMIOExtensionSessionProvider *_provider;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)i8
+;
 - (void);
 - (void);
 - (void);
@@ -40,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)60;
 - (int);
 - (id);
 - (id);
@@ -48,12 +32,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)sabledConnectivity;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)B@�;
 - (long long);
 - (id);
 - (id);
@@ -63,19 +47,7 @@ __attribute__((visibility("hidden")))
 - (id)tachment.firewire_packet_information;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *availableProperties;
-@property(nonatomic) __weak id <CMIOExtensionSessionDeviceDelegate> delegate;
-@property(nonatomic) int deviceControlPID; // @synthesize deviceControlPID=_deviceControlPID;
-@property(readonly, copy, nonatomic) NSUUID *deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, copy, nonatomic) NSString *legacyDeviceID; // @synthesize legacyDeviceID=_legacyDeviceID;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly, copy, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;
 @property(readonly, nonatomic) __weak CMIOExtensionSessionProvider *provider; // @synthesize provider=_provider;
-@property(nonatomic, getter=isRunningSomewhere) _Bool runningSomewhere; // @synthesize runningSomewhere=_runningSomewhere;
-@property(nonatomic) long long specialDeviceType; // @synthesize specialDeviceType=_specialDeviceType;
-@property(readonly, copy, nonatomic) NSArray *streams;
 
 @end
 

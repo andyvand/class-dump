@@ -6,7 +6,6 @@
 
 #import <ContactsUI/CNContactListAction.h>
 
-@class NSString;
 @protocol CNContactListActionDelegate;
 
 __attribute__((visibility("hidden")))
@@ -18,14 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CNContactListActionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

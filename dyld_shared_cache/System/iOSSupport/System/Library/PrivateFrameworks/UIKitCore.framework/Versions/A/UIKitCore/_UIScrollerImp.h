@@ -4,47 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
-@protocol _UIScrollerImpDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIScrollerImp
 {
     double _expansionTransitionProgress;
-    double _trackAlpha;
-    double _knobAlpha;
-    _Bool *_outstandingRolloverAnimationCancelledPtr;
-    struct {
-        unsigned int isHoriz:1;
-        unsigned int partsUsable:2;
-        unsigned int overlayScrollerState:2;
-        unsigned int enabled:1;
-        unsigned int avoidingOtherScrollerThumb:1;
-        unsigned int tracking:1;
-        unsigned int knobStyle:2;
-        unsigned int shouldDrawRolloverState:1;
-        unsigned int isExpanded:1;
-        unsigned int usePresentationValue:1;
-        unsigned int userInterfaceLayoutDirection:1;
-        unsigned int invalid:1;
-    } _sFlags;
-    double _presentationValue;
-    CALayer *_layer;
-    CALayer *_trackLayer;
-    CALayer *_knobLayer;
-    double _doubleValue;
-    double _knobProportion;
-    double _knobLength;
-    double _uiStateTransitionProgress;
-    id <_UIScrollerImpDelegate> _delegate;
-    struct CGSize _boundsSize;
 }
 
-+ (id);
-+ (Class);
++ (id)IMDChatStore;
++ (Class)TelephonyService;
 - (unsigned long long);
 - (struct CGRect);
-- (void);
+- (void)r {%@}, currently {%@}.;
 - (long long);
 - (unsigned long long);
 - (double);
@@ -61,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (void);
 - (void);
 - (void);
@@ -82,26 +52,26 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (id);
+- (id);
 - (double);
 - (double);
 - (double);
 - (_Bool);
 - (_Bool);
 - (double);
+- (struct CGRect);
+- (void);
+- (struct CGSize)*;
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (void);
-- (struct CGSize);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
 - (id);
 - (void);
+- (double)U;
+- (double);
 - (double);
-- (double);
-- (double);
 - (void);
 - (void);
 - (void);
@@ -109,8 +79,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)ActivationLockBypassCode;
+- (id)rverAdamID;
 - (void);
 - (void);
 - (id);
@@ -121,9 +91,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ñb°1Â0@ù
 × ;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (double)xt: /* Error: Ran out of types for this method. */;
-- (id)ess;
+- (_Bool)ui_appendCornerRadii:withName: /* Error: Ran out of types for this method. */;
+- (double)transform10KeyKeyplane:withTransformationContext: /* Error: Ran out of types for this method. */;
+- (id)DragLiftEffectSpringStiffness;
 - (void)etrieve auxillary item from result.;
 - (_Bool)ª¸þÿ;
 - (void);
@@ -131,37 +101,7 @@ __attribute__((visibility("hidden")))
 - (void)èþq;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidingOtherScrollerThumb;
-@property(nonatomic) struct CGSize boundsSize; // @synthesize boundsSize=_boundsSize;
-@property(nonatomic) __weak id <_UIScrollerImpDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic, getter=isExpanded) _Bool expanded;
-@property(nonatomic) double expansionTransitionProgress; // @synthesize expansionTransitionProgress=_expansionTransitionProgress;
-@property(nonatomic, getter=isHorizontal) _Bool horizontal;
-@property(nonatomic) double knobAlpha; // @synthesize knobAlpha=_knobAlpha;
-@property(readonly, nonatomic) double knobEndInset;
-@property(retain, nonatomic) CALayer *knobLayer; // @synthesize knobLayer=_knobLayer;
-@property(readonly, nonatomic) double knobLength; // @synthesize knobLength=_knobLength;
-@property(readonly, nonatomic) double knobMinLength;
-@property(readonly, nonatomic) double knobOverlapEndInset;
-@property(nonatomic) double knobProportion; // @synthesize knobProportion=_knobProportion;
-@property(nonatomic) long long knobStyle;
-@property(retain, nonatomic) CALayer *layer; // @synthesize layer=_layer;
-@property(nonatomic) double presentationValue;
-@property(readonly, nonatomic) long long scrollerStyle;
-@property(nonatomic) _Bool shouldDrawRolloverState;
-@property(nonatomic) double trackAlpha; // @synthesize trackAlpha=_trackAlpha;
-@property(readonly, nonatomic) double trackBoxWidth;
-@property(readonly, nonatomic) double trackEndInset;
-@property(retain, nonatomic) CALayer *trackLayer; // @synthesize trackLayer=_trackLayer;
-@property(readonly, nonatomic) double trackOverlapEndInset;
-@property(readonly, nonatomic) double trackSideInset;
-@property(readonly, nonatomic) double trackWidth;
 @property(nonatomic, getter=isTracking) _Bool tracking;
-@property(nonatomic) double uiStateTransitionProgress; // @synthesize uiStateTransitionProgress=_uiStateTransitionProgress;
-@property(nonatomic, getter=shouldUsePresentationValue) _Bool usePresentationValue;
-@property(nonatomic) long long userInterfaceLayoutDirection;
 
 @end
 

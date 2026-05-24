@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (double);
-+ (double);
++ (double);
++ (double);
 + (double);
 
 @end

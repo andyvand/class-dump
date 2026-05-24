@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOETATrafficUpdateRequest, GEOETATrafficUpdateResponse, NSArray, NSError;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MNSessionUpdateResponseInfo
 {
     NSArray *_waypoints;
-    GEOETATrafficUpdateRequest *_request;
-    GEOETATrafficUpdateResponse *_response;
-    NSError *_error;
-    double _responseTime;
 }
 
 - (id);
@@ -29,10 +25,6 @@ __attribute__((visibility("hidden")))
 - (double)ules available for provided vehicle;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) GEOETATrafficUpdateRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) GEOETATrafficUpdateResponse *response; // @synthesize response=_response;
-@property(nonatomic) double responseTime; // @synthesize responseTime=_responseTime;
 @property(retain, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end

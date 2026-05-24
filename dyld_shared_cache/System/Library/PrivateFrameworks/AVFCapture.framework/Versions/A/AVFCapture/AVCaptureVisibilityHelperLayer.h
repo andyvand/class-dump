@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     AVWeakReference *_delegate;
 }
 
-- (void);
+- (void)@0:8@16@24B32 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

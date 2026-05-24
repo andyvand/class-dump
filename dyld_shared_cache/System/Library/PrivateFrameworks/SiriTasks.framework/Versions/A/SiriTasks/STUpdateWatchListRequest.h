@@ -9,13 +9,12 @@
 @interface STUpdateWatchListRequest
 {
     NSArray *_contentIdentifiersToAdd;
-    NSArray *_contentIdentifiersToRemove;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)Th;
 - (void);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setContentIdentifiersToAdd:) NSArray *contentIdentifiersToAdd; // @synthesize contentIdentifiersToAdd=_contentIdentifiersToAdd;
-@property(copy, nonatomic, setter=_setContentIdentifiersToRemove:) NSArray *contentIdentifiersToRemove; // @synthesize contentIdentifiersToRemove=_contentIdentifiersToRemove;
 
 @end
 

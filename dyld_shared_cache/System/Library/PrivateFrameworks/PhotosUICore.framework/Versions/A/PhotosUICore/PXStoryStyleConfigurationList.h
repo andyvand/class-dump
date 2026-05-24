@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PXStoryStyleConfiguration;
+@class NSArray;
 
 @interface PXStoryStyleConfigurationList
 {
     NSArray *_autoEditStyleConfigurations;
-    PXStoryStyleConfiguration *_initialStyleConfiguration;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *autoEditStyleConfigurations; // @synthesize autoEditStyleConfigurations=_autoEditStyleConfigurations;
-@property(readonly, nonatomic) PXStoryStyleConfiguration *initialStyleConfiguration; // @synthesize initialStyleConfiguration=_initialStyleConfiguration;
 
 @end
 

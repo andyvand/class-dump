@@ -7,10 +7,6 @@
 @interface WidgetKit.DatePublisher__priv_A678AB8EBD96EB0F22F9B66B950B3AAD
 {
     id _date;
-    id updateInterval;
-    id name;
-    id requesters;
-    id machTimer;
 }
 
 @end

@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDResultSnippetFilter
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _supportedChildActions;
-    int _maxChildItems;
-    int _maxChildPlaces;
-    _Bool _supportChildItems;
-    struct {
-        unsigned int has_maxChildItems:1;
-        unsigned int has_maxChildPlaces:1;
-        unsigned int has_supportChildItems:1;
-    } _flags;
 }
 
 - (void);
@@ -26,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id)ementID"b1"has_announcementType"b1"has_displayDestinations"b1"has_releasePhase"b1"read_buttonOneAppURI"b1"read_buttonOneMessage"b1"read_buttonTwoAppURI"b1"read_buttonTwoMessage"b1"read_flyoverInfo"b1"read_mapRegion"b1"read_title"b1"read_userMessage"b1"wrote_anyField"b1};
-- (id)penAndConfigure;
+- (id)_openAndConfigure;
 - (id)]t]^;
 - (void)P«gG@;
 

@@ -9,10 +9,9 @@
 @interface CKCarouselBalloonView : CKBalloonView
 {
     id carouselStackView;
-    id dataSource;
 }
 
-+ (double);
++ (double)roller;
 + (double);
 - (void);
 - (id);

@@ -12,30 +12,20 @@ __attribute__((visibility("hidden")))
 @interface NSRGBSliders : NSColorSpaceSliders
 {
     id redSlider;
-    id greenSlider;
-    id blueSlider;
-    NSView *_rgbView;
-    id redText;
-    id greenText;
-    id blueText;
-    id rgbText;
-    id hexText;
-    long long _entryMode;
-    id hexContainer;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)ԍ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 

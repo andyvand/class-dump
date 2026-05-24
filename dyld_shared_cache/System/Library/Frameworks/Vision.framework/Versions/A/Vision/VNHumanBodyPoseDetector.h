@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-+ (id);
++ (id)l>",&,V_suggestionsService;
 + (id);
 - (id);
 - (_Bool);

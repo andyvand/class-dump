@@ -7,7 +7,6 @@
 @interface NewsUI2.FeedHeadlineProgressCommandHandler
 {
     id playbackConductor;
-    id listeningProgressManager;
 }
 
 @end

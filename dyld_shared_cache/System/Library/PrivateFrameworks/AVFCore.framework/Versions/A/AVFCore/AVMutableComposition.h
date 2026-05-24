@@ -14,10 +14,9 @@
 }
 
 + (id);
-+ (id);
++ (id)_makeProxyChannelWithRemoteInterface:remoteInterfaceName:exportedInterface:exportedInterfaceName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGSize naturalSize;
 @property(readonly, nonatomic) NSArray *tracks;
 
 @end

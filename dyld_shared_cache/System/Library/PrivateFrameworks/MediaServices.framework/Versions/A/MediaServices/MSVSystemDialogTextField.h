@@ -9,8 +9,6 @@
 @interface MSVSystemDialogTextField
 {
     _Bool _secure;
-    NSString *_title;
-    long long _keyboardType;
 }
 
 + (id);
@@ -21,12 +19,10 @@
 - (_Bool);
 - (void);
 - (long long);
-- (void);
-- (void)endar;
+- (void)SEPORT);
+- (void)NSCalendar;
 
 // Remaining properties
-@property(nonatomic) long long keyboardType; // @synthesize keyboardType=_keyboardType;
-@property(nonatomic, getter=isSecure) _Bool secure; // @synthesize secure=_secure;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

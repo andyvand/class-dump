@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface VNRequestPerformer
 {
     struct os_unfair_lock_s _requestLock;
-    NSMutableArray *_requestsInFlight;
-    NSMutableArray *_requestsPending;
-    struct os_unfair_lock_s _trackersInFlightLock;
-    NSMutableSet *_trackersInFlight;
-    NSMutableDictionary *_sequencedRequestObservations;
 }
 
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 - (void);
@@ -29,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)V_predicate;
+- (void)externalImageURI;
 - (id);
 - (void);
 - (id);
-- (void)es;
+- (void)hashes;
 
 @end
 

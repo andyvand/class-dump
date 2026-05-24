@@ -10,6 +10,22 @@
 + (id);
 + (id);
 + (id);
++ (id)f;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)o;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id),!@!;
 + (id);
 + (id);
 + (id);
@@ -21,51 +37,36 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
+- (_Bool)&;
+- (id);
+- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)`
+;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)");
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (id)'H;
+- (void)(!H;
+- (void)@!H;
+- (void) H;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 @end

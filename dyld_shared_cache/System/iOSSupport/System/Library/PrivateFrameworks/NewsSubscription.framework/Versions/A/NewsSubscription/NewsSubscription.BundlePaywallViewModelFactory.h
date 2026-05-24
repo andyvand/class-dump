@@ -7,23 +7,6 @@
 @interface NewsSubscription.BundlePaywallViewModelFactory
 {
     id channelToken;
-    id genreToken;
-    id priceToken;
-    id priceDeltaToken;
-    id defaultTitleWithTagFreeTrial;
-    id defaultTitleWithTagNonTrial;
-    id defaultTitleWithoutTagFreeTrial;
-    id defaultTitleWithoutTagNonTrial;
-    id defaultDescriptionFreeTrial;
-    id defaultDescriptionNonTrial;
-    id defaultLearnMore;
-    id defaultLearnMoreURL;
-    id defaultWebAuthButtonTitle;
-    id webAuthButtonTitle;
-    id configurationManager;
-    id purchaseProvider;
-    id offerOverrideProvider;
-    id offerManager;
 }
 
 @end

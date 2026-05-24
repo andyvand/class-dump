@@ -14,7 +14,7 @@
 }
 
 + (id);
-- (id);
+- (id)_updateLayerBlock;
 - (void);
 - (id);
 - (id);

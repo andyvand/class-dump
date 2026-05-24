@@ -9,26 +9,20 @@
 @interface MPAVBatteryLevel
 {
     NSNumber *_leftPercentage;
-    NSNumber *_rightPercentage;
-    NSNumber *_singlePercentage;
-    NSNumber *_casePercentage;
 }
 
 - (id);
+- (id)fetchBackward;
+- (id)_onConflictSet;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)BMPBHealthKitWorkoutEventType v1 enum value:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (void)serInterfaceStyle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *casePercentage; // @synthesize casePercentage=_casePercentage;
 @property(readonly, nonatomic) NSNumber *leftPercentage; // @synthesize leftPercentage=_leftPercentage;
-@property(readonly, nonatomic) NSNumber *rightPercentage; // @synthesize rightPercentage=_rightPercentage;
-@property(readonly, nonatomic) NSNumber *singlePercentage; // @synthesize singlePercentage=_singlePercentage;
 
 @end
 

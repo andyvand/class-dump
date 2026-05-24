@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableArray;
+@class NSArray;
 
 @interface MRShiftingTilesTimingInfo
 {
     _Bool fallLeft;
-    long long fallDirection;
-    _Bool isTop;
-    NSArray *layouts;
-    long long add;
-    NSIndexSet *remove;
-    long long slideIndex;
-    NSMutableArray *additionalTimingInfo;
-    double duration;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
 - (id)?;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *additionalTimingInfo; // @synthesize additionalTimingInfo;
 @property(retain, nonatomic) NSArray *layouts; // @synthesize layouts;
-@property(retain, nonatomic) NSIndexSet *remove; // @synthesize remove;
 
 @end
 

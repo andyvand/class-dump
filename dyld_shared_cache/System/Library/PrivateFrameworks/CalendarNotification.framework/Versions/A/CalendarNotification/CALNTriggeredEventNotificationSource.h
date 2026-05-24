@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol CALNCalendarIconIdentifierProvider, CALNNotificationManager, CALNSnoozeUpdateTimer, CALNSourceEventRepresentationProvider, CALNTimeToLeaveRefreshStorage, CALNTravelAdvisoryTimelinessAuthority, CALNTriggeredEventNotificationBodyDescriptionProvider, CALNTriggeredEventNotificationDataSource, CALNTriggeredEventNotificationDataStorage, CALNTriggeredEventNotificationMapItemURLProvider, CALNTriggeredEventNotificationTransitionProvider, CALNTriggeredEventNotificationTriggerHelper, CALNURLHandler, CalDateProvider, OS_dispatch_queue;
+@protocol CALNTriggeredEventNotificationDataSource;
 
 @interface CALNTriggeredEventNotificationSource
 {
     id <CALNTriggeredEventNotificationDataSource> _dataSource;
-    id <CALNNotificationManager> _notificationManager;
-    id <CALNCalendarIconIdentifierProvider> _iconIdentifierProvider;
-    id <CALNSourceEventRepresentationProvider> _sourceEventRepresentationProvider;
-    id <CALNTriggeredEventNotificationTriggerHelper> _triggerHelper;
-    id <CALNTriggeredEventNotificationTransitionProvider> _transitionProvider;
-    id <CALNTriggeredEventNotificationBodyDescriptionProvider> _bodyDescriptionProvider;
-    id <CALNTravelAdvisoryTimelinessAuthority> _travelAdvisoryTimelinessAuthority;
-    id <CalDateProvider> _dateProvider;
-    id <CALNTriggeredEventNotificationDataStorage> _notificationDataStorage;
-    id <CALNTimeToLeaveRefreshStorage> _timeToLeaveRefreshStorage;
-    id <CALNSnoozeUpdateTimer> _snoozeUpdateTimer;
-    NSMutableDictionary *_eventURLToObjectIDMap;
-    id <CALNURLHandler> _urlHandler;
-    id <CALNTriggeredEventNotificationMapItemURLProvider> _mapItemURLProvider;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -33,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)?;
 + (id);
 + (id);
 + (id);
@@ -53,7 +37,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -61,11 +45,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (void)h;
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)�;
+- (id)D;
 - (void);
 - (void);
 - (id);
@@ -73,7 +57,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -84,12 +68,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)@yJ	;
 - (id);
-- (_Bool);
+- (_Bool)>;
 - (id);
-- (id);
+- (id)__auth_stubs;
 - (void);
 - (id);
 - (id);
@@ -97,29 +81,29 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)_isInsideExpandableContainer;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -131,31 +115,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CALNTriggeredEventNotificationBodyDescriptionProvider> bodyDescriptionProvider; // @synthesize bodyDescriptionProvider=_bodyDescriptionProvider;
-@property(readonly, nonatomic) NSArray *categories;
 @property(readonly, nonatomic) id <CALNTriggeredEventNotificationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) id <CalDateProvider> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *eventURLToObjectIDMap; // @synthesize eventURLToObjectIDMap=_eventURLToObjectIDMap;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CALNCalendarIconIdentifierProvider> iconIdentifierProvider; // @synthesize iconIdentifierProvider=_iconIdentifierProvider;
-@property(readonly, nonatomic) id <CALNTriggeredEventNotificationMapItemURLProvider> mapItemURLProvider; // @synthesize mapItemURLProvider=_mapItemURLProvider;
-@property(readonly, nonatomic) id <CALNTriggeredEventNotificationDataStorage> notificationDataStorage; // @synthesize notificationDataStorage=_notificationDataStorage;
-@property(readonly, nonatomic) __weak id <CALNNotificationManager> notificationManager; // @synthesize notificationManager=_notificationManager;
-@property(readonly, nonatomic) id <CALNSnoozeUpdateTimer> snoozeUpdateTimer; // @synthesize snoozeUpdateTimer=_snoozeUpdateTimer;
-@property(readonly, nonatomic) id <CALNSourceEventRepresentationProvider> sourceEventRepresentationProvider; // @synthesize sourceEventRepresentationProvider=_sourceEventRepresentationProvider;
-@property(readonly, nonatomic) NSString *sourceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CALNTimeToLeaveRefreshStorage> timeToLeaveRefreshStorage; // @synthesize timeToLeaveRefreshStorage=_timeToLeaveRefreshStorage;
-@property(readonly, nonatomic) id <CALNTriggeredEventNotificationTransitionProvider> transitionProvider; // @synthesize transitionProvider=_transitionProvider;
-@property(readonly, nonatomic) id <CALNTravelAdvisoryTimelinessAuthority> travelAdvisoryTimelinessAuthority; // @synthesize travelAdvisoryTimelinessAuthority=_travelAdvisoryTimelinessAuthority;
-@property(readonly, nonatomic) id <CALNTriggeredEventNotificationTriggerHelper> triggerHelper; // @synthesize triggerHelper=_triggerHelper;
-@property(readonly, nonatomic) id <CALNURLHandler> urlHandler; // @synthesize urlHandler=_urlHandler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

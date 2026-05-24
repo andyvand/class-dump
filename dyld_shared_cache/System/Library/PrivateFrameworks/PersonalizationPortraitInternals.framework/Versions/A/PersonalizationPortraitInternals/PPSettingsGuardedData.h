@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSMutableDictionary, NSSet, NSString;
-
 @interface PPSettingsGuardedData
 {
     double _cachedWeightMultiplier;
-    NSSet *_donationDisabledBundleIdentifiers;
-    NSSet *_cloudKitDisabledBundleIdentifiers;
-    NSMutableDictionary *_donationDisabledChangeHandlers;
-    NSMutableDictionary *_queryPlanLoggingChangeHandlers;
-    int _nextChangeHandlerToken;
-    _Bool _appConnectionsLocationsEnabled;
-    NSDate *_entitiesBackfillTimestamp;
-    NSData *_entitiesMappingTrieSha256;
-    NSString *_abGroupOverride;
 }
 
 - (void)A¡Ð!@ù÷Ð1Â0@ù

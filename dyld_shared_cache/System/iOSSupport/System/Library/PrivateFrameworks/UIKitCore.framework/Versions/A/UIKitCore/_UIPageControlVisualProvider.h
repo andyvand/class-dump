@@ -4,50 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIPageControl, UIView;
+@class UIPageControl;
 
 __attribute__((visibility("hidden")))
 @interface _UIPageControlVisualProvider
 {
     UIPageControl *_pageControl;
-    long long _displayedPage;
-    _Bool _supportsContinuousInteraction;
-    long long _interactionState;
-    UIImage *_preferredActiveIndicatorImage;
-    struct CGAffineTransform _activeTransformForTouchedPage;
-    struct CGAffineTransform _targetTransformForTouchedPage;
-    struct CAColorMatrix _pageIndicatorVibrantColorMatrix;
-    struct CAColorMatrix _activePageIndicatorVibrantColorMatrix;
 }
 
 - (struct CGSize);
 - (void);
 - (struct CGSize);
-- (void)xtFieldViewControllerContainerViewConstraints;
+- (void)_applyTextFieldViewControllerContainerViewConstraints;
 - (void)oURL:(struct CGAffineTransform)arg1 %@;
 - (void);
 - (struct CGAffineTransform);
 - (void);
-- (id)t2;
+- (id)variant2;
 - (long long)setting hide delay to:OverlayScrollerCancelledHideDelay /* Error: Ran out of types for this method. */;
 - (double)layed from view services may have at most three buttons;
 - (struct CAColorMatrix)];
 - (long long)ew delegate method %@ returned an invalid target index path (section:%ld, row:%ld) because there are only %ld rows in this section of the table view. /* Error: Ran out of types for this method. */;
 - (id)code for view %@;
 - (void)hived restorable state:(id)arg1 %@;
-- (_Bool)a;
+- (_Bool)Metadata;
 - (void)opInteraction:viewControllerForDroppingUserActivityOfType:must return a non-nil view controller. /* Error: Ran out of types for this method. */;
-- (void)erRemoveBoldToggleChange;
-- (void)eLooksLikeShiftAlternate;
+- (void)UITextFormattingViewControllerRemoveBoldToggleChange;
+- (void)UIKBAttributeNameLooksLikeShiftAlternate;
 - (void)supported(void);
-- (void)extDictationDidPauseNotification;
-- (void)meterIDHapticIntensity;
+- (void)_NSTextInputContextDictationDidPauseNotification;
+- (void)CHHapticEventParameterIDHapticIntensity;
 - (void)iewController(StateRestoration) _decodeRestorableStateAndReturnContinuationWithCoder:(id)arg1 ]_block_invoke;
 - (void)Invalid state:deallocating delayed presentation of <%s:%p> while still ignoring events /* Error: Ran out of types for this method. */;
 - (id)nd right values.;
 - (_Bool)youtAnchor * _Nonnull __strong, NSString * _Nonnull __strong);
 - (void)infinite or null frame, or a frame with members that aren't finite (inf/NaN).;
-- (void)putSource;
+- (void)InputSource;
 - (void)UIBlurEffectStyleATVAdaptiveLighten;
 - (void)ayout: /* Error: Ran out of types for this method. */;
 - (id)rror log path when there were no duplicate commands. This is a UIKit internal bug.;
@@ -60,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize)°þM13Ì½uþM134°þ;
 - (void);
-- (void)ndSuppressionKey;
+- (void)BackgroundSuppressionKey;
 - (struct CGAffineTransform);
 - (void)YQ43HÇsþ¡Q43ÇsþÙQ43`Èsþ©Q43Çsþ;
 - (void);
@@ -73,17 +65,7 @@ __attribute__((visibility("hidden")))
 - (void)@`;
 
 // Remaining properties
-@property(nonatomic) struct CAColorMatrix activePageIndicatorVibrantColorMatrix; // @synthesize activePageIndicatorVibrantColorMatrix=_activePageIndicatorVibrantColorMatrix;
-@property(nonatomic) struct CGAffineTransform activeTransformForTouchedPage; // @synthesize activeTransformForTouchedPage=_activeTransformForTouchedPage;
-@property(retain, nonatomic) UIView *backgroundView;
 @property(readonly, nonatomic) long long displayedPage;
-@property(nonatomic) double indicatorOpacity;
-@property(nonatomic) long long interactionState; // @synthesize interactionState=_interactionState;
-@property(nonatomic) struct CAColorMatrix pageIndicatorVibrantColorMatrix; // @synthesize pageIndicatorVibrantColorMatrix=_pageIndicatorVibrantColorMatrix;
-@property(retain, nonatomic) UIImage *preferredActiveIndicatorImage; // @synthesize preferredActiveIndicatorImage=_preferredActiveIndicatorImage;
-@property(retain, nonatomic) UIImage *preferredIndicatorImage;
-@property(nonatomic) _Bool supportsContinuousInteraction; // @synthesize supportsContinuousInteraction=_supportsContinuousInteraction;
-@property(nonatomic) struct CGAffineTransform targetTransformForTouchedPage; // @synthesize targetTransformForTouchedPage=_targetTransformForTouchedPage;
 
 @end
 

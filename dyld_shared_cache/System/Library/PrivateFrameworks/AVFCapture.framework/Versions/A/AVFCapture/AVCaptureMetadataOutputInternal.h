@@ -4,46 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVWeakReference, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_source;
+@class AVCaptureDataOutputDelegateCallbackHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureMetadataOutputInternal
 {
     AVCaptureDataOutputDelegateCallbackHelper *delegateCallbackHelper;
-    AVWeakReference *weakReference;
-    NSArray *metadataObjectTypes;
-    struct CGRect rectOfInterest;
-    _Bool faceTrackingMetadataObjectTypesAvailable;
-    long long faceTrackingMaxFaces;
-    _Bool faceTrackingUsesFaceRecognition;
-    _Bool faceTrackingPlusEnabled;
-    _Bool faceTrackingSuspended;
-    float faceTrackingNetworkFailureThresholdMultiplier;
-    float faceTrackingFailureFieldOfViewModifier;
-    _Bool attentionDetectionEnabled;
-    _Bool faceOcclusionDetectionEnabled;
-    _Bool periocularForFaceIDReadinessEnabled;
-    _Bool attentionForFaceIDReadinessRequired;
-    NSDictionary *targetFrameRateByMetadataObjectType;
-    _Bool videoPreviewHistogramMetadataObjectTypesAvailable;
-    _Bool appClipCodeObjectTypeAvailable;
-    _Bool textRegionObjectTypeAvailable;
-    _Bool sceneClassificationObjectTypeAvailable;
-    _Bool headObjectTypesAvailable;
-    _Bool humanHandObjectTypeAvailable;
-    _Bool emitsEmptyObjectDetectionMetadata;
-    _Bool offlineVideoStabilizationMotionMetadataObjectTypesAvailable;
-    NSMutableDictionary *previousTwoCMTimesByDetectorType;
-    _Bool drawMetadataObjects;
-    _Bool synchronizationEnabledByClient;
-    _Bool synchronizationEnabled;
-    unsigned long long maxSynchronizationFrameDelay;
-    NSMutableArray *synchronizedMetadataCollectionsQueue;
-    NSObject<OS_dispatch_source> *synchronizationQueueFlushTimer;
 }
 
-- (void);
+- (void)changeTypeForProvisionedDataclass: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

@@ -5,5 +5,10 @@
 //
 
 @protocol CPXFocusControlling
+- (short)uildRoots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCKRecordZoneMetadata.m;
+- (void)property;
+- (short)ontext.m;
+- (short)egate checkAndScheduleImportIfNecessaryFromPush:(struct CPSProcessSerNum)arg1 fromErrorRecovery:fromShareAccept:andStartAfterDate:]_block_invoke /* Error: Ran out of types for this method. */;
+- (short)countAffectedObjects;
 @end
 

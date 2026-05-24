@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionViewFlowLayout, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSFlowLayoutInfo
 {
     NSMutableArray *_sections;
-    _Bool _useFloatingHeaderFooter;
-    _Bool _horizontal;
-    _Bool _leftToRight;
-    struct CGRect _visibleBounds;
-    struct CGSize _layoutSize;
-    double _dimension;
-    _Bool _isValid;
-    CDStruct_2f5e8405 _rowAlignmentOptions;
-    NSCollectionViewFlowLayout *_layout;
-    struct CGSize _computedEstimatedSum;
-    long long _computedEstimatedCount;
-    _Bool _usesFloatingHeaderFooter;
-    struct CGSize _contentSize;
-    _Bool _estimatesSizes;
-    struct CGSize _dropTargetGapSize;
 }
 
-- (void);
-- (_Bool);
+- (void)ismatch;
+- (_Bool)B6ubxH76sLbumbw;
 - (struct CGSize);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)5;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (CDStruct_2f5e8405);
+- (void)xt:(_Bool)arg1;
+- (_Bool)_showAttachmentCell_macOS:inRect:characterIndex: /* Error: Ran out of types for this method. */;
+- (CDStruct_77932685);
 - (_Bool);
 - (_Bool)Aï/!DùQå3ð1Â0@ù
 × ;
 - (struct CGRect)rdShortcut"16@0:(id)arg1 8;
 - (struct CGSize)@"<_NSDisplayLinkInfoProvider>";
-- (id)ElementsAttribute;
-- (id)uldShowDocumentIcon;
-- (_Bool)andboxExtension:toURL: /* Error: Ran out of types for this method. */;
-- (id)tionReason;
+- (id)accessibilityMarkerUIElementsAttribute;
+- (id)_shouldShowDocumentIcon;
+- (_Bool)_attachSandboxExtension:toURL: /* Error: Ran out of types for this method. */;
+- (id)_alternateContentsDisassociationReason;
 - (void)wProtocol>",W,N,V_viewPresentingSubmenu;
 - (void)À*;
 - (void)ementRange=%@;
@@ -63,18 +48,7 @@ __attribute__((visibility("hidden")))
 - (double)Ä@;
 
 // Remaining properties
-@property(readonly) _Bool _collapsesSectionsToFirstItem;
-@property(readonly, nonatomic) struct CGSize computedEstimatedSize;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(nonatomic) double dimension; // @synthesize dimension=_dimension;
-@property(nonatomic) struct CGSize dropTargetGapSize; // @synthesize dropTargetGapSize=_dropTargetGapSize;
-@property(nonatomic) _Bool estimatesSizes; // @synthesize estimatesSizes=_estimatesSizes;
-@property(nonatomic) _Bool horizontal; // @synthesize horizontal=_horizontal;
-@property(nonatomic) __weak NSCollectionViewFlowLayout *layout; // @synthesize layout=_layout;
-@property(nonatomic) _Bool leftToRight; // @synthesize leftToRight=_leftToRight;
-@property(nonatomic) CDStruct_2f5e8405 rowAlignmentOptions; // @synthesize rowAlignmentOptions=_rowAlignmentOptions;
 @property(readonly, nonatomic) NSMutableArray *sections; // @synthesize sections=_sections;
-@property(nonatomic) _Bool usesFloatingHeaderFooter; // @synthesize usesFloatingHeaderFooter=_usesFloatingHeaderFooter;
 
 @end
 

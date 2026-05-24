@@ -6,20 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSLayoutConstraint, NSMutableSet, NSResponder, NSString, NSViewHostingContext, NSViewHostingTraits;
-
 __attribute__((visibility("hidden")))
 @interface NSViewHostingContextRootView : NSView
 {
     NSView *_contentView;
-    NSViewHostingContext *_hostingContext;
-    NSViewHostingTraits *_hostingTraits;
-    NSLayoutConstraint *_containerWidthConstraint;
-    NSLayoutConstraint *_containerHeightConstraint;
-    NSResponder *_firstResponder;
-    _Bool _receivedNonProcessedEvent;
-    NSMutableSet *_trackingAreas;
-    NSMutableSet *_activeTrackingAreas;
 }
 
 - (void);
@@ -32,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -46,29 +36,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)4@0:(id)arg1 8@16@24@32Q40@48@?56;
+- (_Bool)>40;
+- (void)containerURLForSecurityApplicationGroupIdentifier:(id)arg1;
+- (_Bool)_dataAckCompletion;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (double);
+- (void)ave %{public}@ entitlement.;
+- (void)Session adopters are required to have %{public}@ entitlement.;
+- (id)%@;
+- (void)%ld token %@ bundle %@;
+- (void)headers %@ code %ld failureCount %ld token %@ bundle %@;
+- (void)nd cookie host only flag;
+- (struct CGPoint)k creation, reconnect=%c, invalid=%c;
+- (struct CGPoint)ound transfer daemon prior to NSURLSessionTask creation, reconnect=%c, invalid=%c;
+- (_Bool)ll wait for reply:session %@ with identifier %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)ic}@peer %{public}@%{public}@;
+- (void)P;
 - (void);
 - (id)1Â0@ù
 × ;
@@ -79,20 +69,7 @@ __attribute__((visibility("hidden")))
 - (id)PÑ	LA;
 
 // Remaining properties
-@property(readonly) double _displayScale;
-@property(readonly) _Bool _receivedNonProcessedEvent;
 @property(readonly) NSView *contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak NSViewHostingContext *hostingContext;
-@property(readonly) NSViewHostingTraits *hostingTraits;
-@property(readonly, getter=isInKeyWindow) _Bool inKeyWindow;
-@property(readonly) Class superclass;
-@property(readonly, getter=isVisible) _Bool visible;
 
 @end
 

@@ -6,30 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKQuery, CKQueryCursor, CKQueryOperationInfo, CKRecordZoneID, NSArray, NSDictionary, NSMutableDictionary, NSString;
 @protocol CKQueryOperationCallbacks;
 
 @interface CKQueryOperation : CKDatabaseOperation
 {
     _Bool _shouldFetchAssetContent;
-    _Bool _fetchAllResults;
-    CDUnknownBlockType _recordFetchedBlock;
-    CDUnknownBlockType _recordMatchedBlock;
-    CDUnknownBlockType _queryCompletionBlock;
-    CDUnknownBlockType _queryCursorFetchedBlock;
-    CKQuery *_query;
-    CKQueryCursor *_cursor;
-    CKRecordZoneID *_zoneID;
-    unsigned long long _resultsLimit;
-    NSArray *_desiredKeys;
-    unsigned long long _mergeableValueCount;
-    unsigned long long _mergeableDeltaCount;
-    unsigned long long _assetBackedMergeableDeltaCount;
-    CDUnknownBlockType _recordMatchedBlock_wrapper;
-    CDUnknownBlockType _queryCompletionBlock_wrapper;
-    CKQueryCursor *_resultsCursor;
-    NSMutableDictionary *_recordErrors;
-    NSDictionary *_assetTransferOptionsByKey;
 }
 
 + (SEL);
@@ -37,35 +18,36 @@
 + (SEL);
 - (CDUnknownBlockType);
 - (void);
+- (CDUnknownBlockType)#;
+- (void);
+- (void)qa;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)h;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
+- (void)(
+J;
 - (void);
 - (void);
 - (id);
@@ -74,8 +56,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void)me;
+- (_Bool);
+- (void)_operationGroupName;
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
@@ -85,31 +67,7 @@
 - (void)Ö¦;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *assetTransferOptionsByKey; // @synthesize assetTransferOptionsByKey=_assetTransferOptionsByKey;
 @property(readonly, nonatomic) id <CKQueryOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CKQueryCursor *cursor; // @synthesize cursor=_cursor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(nonatomic) _Bool fetchAllResults; // @synthesize fetchAllResults=_fetchAllResults;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKQueryOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CKQuery *query; // @synthesize query=_query;
-@property(copy, nonatomic) CDUnknownBlockType queryCompletionBlock; // @synthesize queryCompletionBlock=_queryCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType queryCompletionBlock_wrapper; // @synthesize queryCompletionBlock_wrapper=_queryCompletionBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType queryCursorFetchedBlock; // @synthesize queryCursorFetchedBlock=_queryCursorFetchedBlock;
-@property(retain, nonatomic) NSMutableDictionary *recordErrors; // @synthesize recordErrors=_recordErrors;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchedBlock; // @synthesize recordFetchedBlock=_recordFetchedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordMatchedBlock; // @synthesize recordMatchedBlock=_recordMatchedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordMatchedBlock_wrapper; // @synthesize recordMatchedBlock_wrapper=_recordMatchedBlock_wrapper;
-@property(copy, nonatomic) CKQueryCursor *resultsCursor; // @synthesize resultsCursor=_resultsCursor;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

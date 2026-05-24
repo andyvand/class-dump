@@ -6,13 +6,11 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSDictionary;
 @protocol NSSliderDelegate;
 
 @interface NSSlider : NSControl
 {
     id <NSSliderDelegate> _delegate;
-    NSDictionary *_tickMarkLayoutPoints;
 }
 
 @end

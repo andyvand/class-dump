@@ -7,14 +7,11 @@
 @interface IMSharedUtilities.DictionaryCoder
 {
     id logger;
-    id dicts;
-    id arrays;
-    id key;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)eerpayment.cip.failed;
 - (void);
 - (_Bool)0@48@56q64@72;
 - (void)Û;

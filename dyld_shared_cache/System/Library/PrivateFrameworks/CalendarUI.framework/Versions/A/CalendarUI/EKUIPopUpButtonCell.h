@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIPopUpButton, EKViewController, NSDictionary;
-
 @interface EKUIPopUpButtonCell
 {
     _Bool _useAlternateTitle;
-    _Bool _mouseOver;
-    EKUIPopUpButton *_uiPopUpbutton;
-    NSDictionary *_enabledTitleAttributes;
-    NSDictionary *_disabledTitleAttributes;
-    EKViewController *_viewController;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (_Bool);
@@ -36,16 +29,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)I;
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *disabledTitleAttributes; // @synthesize disabledTitleAttributes=_disabledTitleAttributes;
-@property(retain) NSDictionary *enabledTitleAttributes; // @synthesize enabledTitleAttributes=_enabledTitleAttributes;
-@property _Bool mouseOver; // @synthesize mouseOver=_mouseOver;
-@property __weak EKUIPopUpButton *uiPopUpbutton; // @synthesize uiPopUpbutton=_uiPopUpbutton;
 @property _Bool useAlternateTitle; // @synthesize useAlternateTitle=_useAlternateTitle;
-@property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

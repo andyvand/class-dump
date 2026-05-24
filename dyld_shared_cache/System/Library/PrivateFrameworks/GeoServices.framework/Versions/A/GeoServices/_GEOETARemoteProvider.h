@@ -10,13 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _GEOETARemoteProvider
 {
     GEOXPCConnection *_connection;
-    CDUnknownBlockType _willSendRequestHandler;
-    CDUnknownBlockType _finishedHandler;
-    CDUnknownBlockType _networkActivityHandler;
-    CDUnknownBlockType _errorHandler;
 }
 
-+ (id);
++ (id)CNFamilyCircleConfigurationUpdateTask;
 - (void)ÿÿÿÿ;
 
 @end

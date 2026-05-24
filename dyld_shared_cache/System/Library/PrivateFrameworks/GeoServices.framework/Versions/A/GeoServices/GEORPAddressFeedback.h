@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlace, GEOPDPlaceRequest, GEORPAddressCorrections, GEORPPersonalizedMapsContext, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPAddressFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPAddressCorrections *_address;
-    GEORPPersonalizedMapsContext *_personalizedMaps;
-    GEOPDPlaceRequest *_placeRequest;
-    GEOPDPlace *_place;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_address:1;
-        unsigned int read_personalizedMaps:1;
-        unsigned int read_placeRequest:1;
-        unsigned int read_place:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sMismatchedStorefrontDeviceRegion:(id)arg1;
-- (void);
++ (_Bool)setIsMismatchedStorefrontDeviceRegion:(id)arg1;
+- (void)@"CNCDDatabaseRemovalRequest"16;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,14 +20,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)o `;
+- (void)(%Ț?;
 - (id);
+- (void)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)satScoreThreshold;
+- (void)nged from %@ to %@.;
+- (void)nager _setupForHearstIfNeededWithPrepareCompletion:(unsigned long long)arg1 completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
@@ -57,8 +39,8 @@
 - (id)ield"b1};
 - (void)6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@0:(id)arg1 8;
 - (_Bool);
-- (id)workService: /* Error: Ran out of types for this method. */;
-- (void)xtIntersectionOf:(int)arg1 handler:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)setNetworkService: /* Error: Ran out of types for this method. */;
+- (void)findRoadsFromNextIntersectionOf:(int)arg1 handler:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)absDepartureTime;
 - (int)ÜßÈà;
 - (id)_;
@@ -70,17 +52,7 @@
 - (void)6ÊúÍÄ*L@;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPAddressCorrections *address;
 @property(readonly, nonatomic) _Bool hasAddress;
-@property(readonly, nonatomic) _Bool hasPersonalizedMaps;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasPlaceRequest;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEORPPersonalizedMapsContext *personalizedMaps;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeRequest;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

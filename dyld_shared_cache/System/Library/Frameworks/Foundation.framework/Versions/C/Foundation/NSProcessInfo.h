@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface NSProcessInfo
 {
     NSDictionary *environment;
-    NSArray *arguments;
-    NSString *hostName;
-    NSString *name;
-    long long automaticTerminationOptOutCounter;
 }
 
 @end

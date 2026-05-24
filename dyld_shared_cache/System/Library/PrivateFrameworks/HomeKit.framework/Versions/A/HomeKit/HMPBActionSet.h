@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface HMPBActionSet
 {
     NSString *_actionSetType;
-    NSMutableArray *_actions;
-    NSData *_homeUUID;
-    NSString *_name;
-    NSData *_uuid;
 }
 
 + (Class);
-- (void);
+- (void)/6;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)_handleToDisplayNameMapping;
 - (id);
 - (id);
 - (_Bool);
@@ -32,29 +28,21 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)groundwork;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ortsFaceClassification;
-- (_Bool)stination;
+- (void)supportsFaceClassification;
+- (_Bool)hasDestination;
 - (void)Ð½Ô¿¬ÀÁ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionSetType; // @synthesize actionSetType=_actionSetType;
-@property(retain, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) _Bool hasActionSetType;
-@property(readonly, nonatomic) _Bool hasHomeUUID;
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(retain, nonatomic) NSData *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSData *uuid; // @synthesize uuid=_uuid;
 
 @end
 

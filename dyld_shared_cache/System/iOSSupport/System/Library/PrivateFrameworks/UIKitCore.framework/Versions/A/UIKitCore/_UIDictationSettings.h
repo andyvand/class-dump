@@ -4,45 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDictationSettings
 {
     _Bool _glowEffectEnabled;
-    _Bool _pulseAnimationEnabled;
-    _Bool _trailAnimationEnabled;
-    _Bool _soundReactiveCursorEnabled;
-    _Bool _commandHapticFeedbackEnabled;
-    _Bool _voiceCommandsInIWorkEnabled;
-    double _minimumRadius;
-    double _cursorGlowBlurRadius;
-    double _trailingGlowBlurRadius;
-    NSString *_lightModeCompositingFiler;
-    NSString *_darkModeCompositingFiler;
-    double _trailingGlowDuration;
-    double _tailHeight;
-    double _headHeight;
-    double _trailingGlowAlpha;
-    double _cursorGlowAlphaMin;
-    double _cursorGlowAlphaMax;
-    double _revealFadeTime;
-    double _typewriterEffectFramesPerSecond;
-    double _typewriterEffectStreamingCharacterInsertionRate;
-    double _typewriterEffectMinDurationBetweenHypotheses;
-    double _pulseFrameRate;
-    double _trailFrameRate;
-    double _audioPollingRate;
-    double _audioWidthMaxBump;
-    double _audioHeightMaxBump;
-    double _audioScaleAnimationDampingRatio;
-    double _audioScaleAnimationResponse;
-    long long _impactStyle;
-    double _impactIntensity;
-    double _pulseWidthMaxBump;
-    double _pulseHeightMaxBump;
-    double _pulseDuration;
-    double _cursorGlowBorderPadding;
 }
 
 + (id);
@@ -77,86 +42,53 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SString"32C40@"NSString"44;
+- (void)alueCollection"16@"NSDictionary"24;
+- (void)e"32;
+- (void)updateMessagesSyncedSyndicationRangesForGUIDs:(id)arg1 toStatus: /* Error: Ran out of types for this method. */;
+- (void)updateDisplayName:(double)arg1 fromDisplayName:fromID:forChatID:identifier:style:messageID: /* Error: Ran out of types for this method. */;
+- (void)updateDisplayName:(double)arg1;
+- (void)updateCollaborationMetadata:(double)arg1 forMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)updateCloudKitSyncState:(double)arg1;
+- (void)systemApplicationDidSuspendForEventsOnly;
+- (void)shouldForceAccountsActive;
+- (void)shouldExcludeChatFromRelay:(double)arg1;
+- (void)shouldEnablePreviewTranscodingQualityForTransfer:(double)arg1 isSending: /* Error: Ran out of types for this method. */;
+- (void)shouldDropIncomingCheckInMessageWithURL:(double)arg1 senderHandle:isFromMe: /* Error: Ran out of types for this method. */;
+- (double)sendData:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (double)postSyncStateToRTC:category:reportDictionary: /* Error: Ran out of types for this method. */;
+- (double)postSyncStateToCloudKit: /* Error: Ran out of types for this method. */;
+- (double)onName: /* Error: Ran out of types for this method. */;
+- (double)ntifier:localizedApplicationName: /* Error: Ran out of types for this method. */;
+- (_Bool)postSharePlayNotificationForChatGUID:faceTimeConversationUUID:handleIdentifier:localizedApplicationName: /* Error: Ran out of types for this method. */;
+- (id)fetchLatestRecordKeyFromCKAndCreateIfKeyDoesNotExistWithCompletion:forceFetch: /* Error: Ran out of types for this method. */;
+- (long long)_releaseBlock;
+- (double)_myV1ReadReceiptsReceivedDuringStorageWithQOI;
+- (_Bool)_isFetchingExitForEnablement;
+- (id)"NSArray",R,N,V_chatStatusChanges;
+- (double)nService;
+- (double)T@"IMDService",R,W,N,V_replicationService;
+- (double)MDService",R,&;
+- (double)chatRoomForGroupChatIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)IMDRelayMessageToSuper_Default_Frame;
+- (double)h;
 - (double);
 - (double);
+- (double)`;
 - (double);
-- (double);
-- (double);
-- (_Bool);
-- (id);
-- (long long);
-- (double);
-- (_Bool);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void);
-- (double);
-- (void);
-- (void);
 - (void);
 - (double);
 - (void);
+- (void);
+- (void);
+- (double);
+- (void);
 - (double)nputAccessoryViewsOnAppearance"b1"useViewBasedTopAndBottomGuides"b1"didConfirmLayoutGuideClass"b1"restoresFocusAfterTransition"b2"hasFocusGroupIdentifier"b2"freezeLayoutForOrientationChangeOnDismissal"b1"viewRespectsSystemMinimumLayoutMargins"b1"ignoresWrapperViewForContentOverlayInsets"b1"overridesSetContentOverlayInsets"b1"isViewAttachedToWindow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
-- (void)edBackdropViewIfNeeded;
+- (void)removeCombinedBackdropViewIfNeeded;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double audioHeightMaxBump; // @synthesize audioHeightMaxBump=_audioHeightMaxBump;
-@property(nonatomic) double audioPollingRate; // @synthesize audioPollingRate=_audioPollingRate;
-@property(nonatomic) double audioScaleAnimationDampingRatio; // @synthesize audioScaleAnimationDampingRatio=_audioScaleAnimationDampingRatio;
-@property(nonatomic) double audioScaleAnimationResponse; // @synthesize audioScaleAnimationResponse=_audioScaleAnimationResponse;
-@property(nonatomic) double audioWidthMaxBump; // @synthesize audioWidthMaxBump=_audioWidthMaxBump;
-@property(nonatomic) _Bool commandHapticFeedbackEnabled; // @synthesize commandHapticFeedbackEnabled=_commandHapticFeedbackEnabled;
-@property(nonatomic) double cursorGlowAlphaMax; // @synthesize cursorGlowAlphaMax=_cursorGlowAlphaMax;
-@property(nonatomic) double cursorGlowAlphaMin; // @synthesize cursorGlowAlphaMin=_cursorGlowAlphaMin;
-@property(nonatomic) double cursorGlowBlurRadius; // @synthesize cursorGlowBlurRadius=_cursorGlowBlurRadius;
-@property(nonatomic) double cursorGlowBorderPadding; // @synthesize cursorGlowBorderPadding=_cursorGlowBorderPadding;
-@property(retain, nonatomic) NSString *darkModeCompositingFiler; // @synthesize darkModeCompositingFiler=_darkModeCompositingFiler;
-@property(nonatomic) _Bool glowEffectEnabled; // @synthesize glowEffectEnabled=_glowEffectEnabled;
-@property(nonatomic) double headHeight; // @synthesize headHeight=_headHeight;
-@property(nonatomic) double impactIntensity; // @synthesize impactIntensity=_impactIntensity;
-@property(nonatomic) long long impactStyle; // @synthesize impactStyle=_impactStyle;
-@property(retain, nonatomic) NSString *lightModeCompositingFiler; // @synthesize lightModeCompositingFiler=_lightModeCompositingFiler;
 @property(nonatomic) double minimumRadius; // @synthesize minimumRadius=_minimumRadius;
-@property(nonatomic) _Bool pulseAnimationEnabled; // @synthesize pulseAnimationEnabled=_pulseAnimationEnabled;
-@property(nonatomic) double pulseDuration; // @synthesize pulseDuration=_pulseDuration;
-@property(nonatomic) double pulseFrameRate; // @synthesize pulseFrameRate=_pulseFrameRate;
-@property(nonatomic) double pulseHeightMaxBump; // @synthesize pulseHeightMaxBump=_pulseHeightMaxBump;
-@property(nonatomic) double pulseWidthMaxBump; // @synthesize pulseWidthMaxBump=_pulseWidthMaxBump;
-@property(nonatomic) double revealFadeTime; // @synthesize revealFadeTime=_revealFadeTime;
-@property(nonatomic) _Bool soundReactiveCursorEnabled; // @synthesize soundReactiveCursorEnabled=_soundReactiveCursorEnabled;
-@property(nonatomic) double tailHeight; // @synthesize tailHeight=_tailHeight;
-@property(nonatomic) _Bool trailAnimationEnabled; // @synthesize trailAnimationEnabled=_trailAnimationEnabled;
-@property(nonatomic) double trailFrameRate; // @synthesize trailFrameRate=_trailFrameRate;
-@property(nonatomic) double trailingGlowAlpha; // @synthesize trailingGlowAlpha=_trailingGlowAlpha;
-@property(nonatomic) double trailingGlowBlurRadius; // @synthesize trailingGlowBlurRadius=_trailingGlowBlurRadius;
-@property(nonatomic) double trailingGlowDuration; // @synthesize trailingGlowDuration=_trailingGlowDuration;
-@property(nonatomic) double typewriterEffectFramesPerSecond; // @synthesize typewriterEffectFramesPerSecond=_typewriterEffectFramesPerSecond;
-@property(nonatomic) double typewriterEffectMinDurationBetweenHypotheses; // @synthesize typewriterEffectMinDurationBetweenHypotheses=_typewriterEffectMinDurationBetweenHypotheses;
-@property(nonatomic) double typewriterEffectStreamingCharacterInsertionRate; // @synthesize typewriterEffectStreamingCharacterInsertionRate=_typewriterEffectStreamingCharacterInsertionRate;
-@property(nonatomic) _Bool voiceCommandsInIWorkEnabled; // @synthesize voiceCommandsInIWorkEnabled=_voiceCommandsInIWorkEnabled;
 
 @end
 

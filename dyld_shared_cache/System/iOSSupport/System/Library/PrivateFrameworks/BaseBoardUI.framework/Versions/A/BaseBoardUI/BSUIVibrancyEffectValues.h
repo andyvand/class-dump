@@ -11,8 +11,6 @@
 @interface BSUIVibrancyEffectValues : BSUIVibrancyValues
 {
     NSString *_groupName;
-    struct CAColorMatrix _backdropColorMatrix;
-    struct CAColorMatrix _vibrantColorMatrix;
 }
 
 + (struct CAColorMatrix);
@@ -20,18 +18,16 @@
 + (struct CAColorMatrix);
 + (struct CAColorMatrix);
 - (void);
-- (id);
-- (struct CAColorMatrix);
-- (id);
-- (id);
+- (id)"PKMetalRendererController"16@"<MTLTexture>"24;
+- (struct CAColorMatrix)-Wy;
+- (id)rid message indices.;
+- (id)t: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct CAColorMatrix);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CAColorMatrix backdropColorMatrix; // @synthesize backdropColorMatrix=_backdropColorMatrix;
-@property(readonly, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) struct CAColorMatrix vibrantColorMatrix; // @synthesize vibrantColorMatrix=_vibrantColorMatrix;
 
 @end
 

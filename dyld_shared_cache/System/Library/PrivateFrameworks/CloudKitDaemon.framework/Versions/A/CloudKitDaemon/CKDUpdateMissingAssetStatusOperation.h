@@ -6,21 +6,12 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDFetchRecordsOperation, CKDModifyRecordsOperation, CKRecord, CKRecordID, NSArray;
-
 @interface CKDUpdateMissingAssetStatusOperation : CKDDatabaseOperation
 {
     _Bool _recovered;
-    _Bool _isPackage;
-    CKRecordID *_repairRecordID;
-    NSArray *_assetSizes;
-    NSArray *_assetPutReceipts;
-    CKDFetchRecordsOperation *_fetchOperation;
-    CKDModifyRecordsOperation *_modifyOperation;
-    CKRecord *_record;
 }
 
-+ (id);
++ (id)setTotalCca85to90:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -29,31 +20,23 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)agePersistentIDs:conversationID:] /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
+- (void);
 - (int);
 - (id);
 - (void)8;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assetPutReceipts; // @synthesize assetPutReceipts=_assetPutReceipts;
-@property(retain, nonatomic) NSArray *assetSizes; // @synthesize assetSizes=_assetSizes;
-@property(retain, nonatomic) CKDFetchRecordsOperation *fetchOperation; // @synthesize fetchOperation=_fetchOperation;
-@property(nonatomic) _Bool isPackage; // @synthesize isPackage=_isPackage;
-@property(retain, nonatomic) CKDModifyRecordsOperation *modifyOperation; // @synthesize modifyOperation=_modifyOperation;
-@property(retain, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(nonatomic) _Bool recovered; // @synthesize recovered=_recovered;
-@property(retain, nonatomic) CKRecordID *repairRecordID; // @synthesize repairRecordID=_repairRecordID;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

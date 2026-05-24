@@ -4,62 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface UnknownClass (UIDocumentPicker)
-+ (id);
-+ (id);
-+ (id);
++ (id)o stopping attachment sync;
++ (id)CK error with nil failedTransfers, treating all %lu transfers as failed. error:%@ /* Error: Ran out of types for this method. */;
++ (id)e:(id)arg1 %@;
 + (id);
 + (id);
 + (void);
 + (_Bool);
 + (id);
+- (void)ncomplete identifier(s), returning empty capabilities (from:(_Bool)arg1 %@, to:%@) /* Error: Ran out of types for this method. */;
+- (void)SenderCapabilityPipelineComponent> Incomplete identifier(s), returning empty capabilities (from:(_Bool)arg1 %@, to:%@) /* Error: Ran out of types for this method. */;
+- (void)le to construct CKRecord with given data. This is bad.;
+- (id)yncController | Recently Deleted:returning nil record. recordID nil for metadata:%@ /* Error: Ran out of types for this method. */;
+- (id)error %@;
+- (id)ges to write up;
+- (id)metadata:(id *)arg1 %@;
+- (_Bool)ld not convert message to CKRecord with metadata:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)bleMessageSyncController | Recently Deleted:marking clean:Using partIndex fallback:could not convert message to CKRecord with metadata:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ssed in a nil zone;
+- (_Bool)elete;
+- (_Bool)ntly Deleted | No GUIDs passed in to delete;
+- (id)Got %lu recordIDs to sync, filtered to %lu unique recordID;
+- (id)letes as CK syncing is off;
+- (_Bool)ntered error:%@ /* Error: Ran out of types for this method. */;
+- (id)y Deleted:(id *)arg1 could not write record:%@ encountered error:%@ /* Error: Ran out of types for this method. */;
+- (id)ing recoverable message record:%@ /* Error: Ran out of types for this method. */;
+- (id)sources"32@"IDSMessageContext"40@"IMPowerAssertion"48;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)cordCleanup failed for topic feedback;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)ezeAction;
+- (void)UIPencilPreferredSqueezeAction;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setTitle:) NSString *_title;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @end
 

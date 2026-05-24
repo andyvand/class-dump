@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (struct CGSize);
 + (float);
 + (void);
-+ (void);
++ (void);
 + (struct CGRect);
 + (_Bool);
 + (_Bool);

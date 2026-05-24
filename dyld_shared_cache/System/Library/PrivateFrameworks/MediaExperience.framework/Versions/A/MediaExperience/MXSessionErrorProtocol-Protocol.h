@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol MXSessionErrorProtocol
+- (int)4F;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *applicationCausingFailure;
-@property(readonly, nonatomic) int error;
 @end
 

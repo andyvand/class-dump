@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PGGraphMomentNodeCollection, PHUserFeedbackCalculator;
-@protocol OS_os_log;
+@class PGGraphMomentNodeCollection, PHUserFeedbackCalculator;
 
 @interface PGMemoryMomentNodesWithBlockedFeatureCache
 {
     PHUserFeedbackCalculator *_userFeedbackCalculator;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGGraphMomentNodeCollection *_momentNodesWithBlockedFeature;
 }
 
 - (void);
 - (id);
 - (id);
+- (id)indexValue;
 - (id);
-- (id);
-- (void)n;
+- (void)PGGraphChangeTypeSocialGroupsDeletion;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodesWithBlockedFeature; // @synthesize momentNodesWithBlockedFeature=_momentNodesWithBlockedFeature;

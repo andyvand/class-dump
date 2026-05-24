@@ -6,23 +6,12 @@
 
 #import <Foundation/NSFileAccessClaim.h>
 
-@class NSArray, NSFileAccessNode, NSMutableDictionary, NSMutableSet, NSXPCConnection;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSFileSubarbitrationClaim : NSFileAccessClaim
 {
     NSArray *_readingURLs;
-    unsigned long long _readingOptions;
-    NSArray *_writingURLs;
-    unsigned long long _writingOptions;
-    NSXPCConnection *_subarbiterConnection;
-    NSArray *_readingLocations;
-    NSArray *_writingLocations;
-    NSFileAccessNode *_rootNode;
-    NSMutableSet *_forwardedClaimIDs;
-    NSMutableDictionary *_readRelinquishmentsByPresenterID;
-    NSMutableDictionary *_writeRelinquishmentsByPresenterID;
-    _Bool _nullified;
 }
 
 + (_Bool)ansform has no inverse;
@@ -33,18 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (id)%-5d CADSPUtility:(id)arg1 %s:%d:Delaunay Triangulation Error:Convex hull could not be created. Check for overlapping speakers.  /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)erver(CGDirectDisplayID, double);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void)lvedConflictsExistForItemAtURL: /* Error: Ran out of types for this method. */;
+- (_Bool)`;
+- (void)unresolvedConflictsExistForItemAtURL: /* Error: Ran out of types for this method. */;
 - (void)Î
 Ï
 Ï
@@ -162,7 +151,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) _Bool nullified; // @synthesize nullified=_nullified;
-@property(retain) NSXPCConnection *subarbiterConnection; // @synthesize subarbiterConnection=_subarbiterConnection;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsArticles.RecipeArticleDrawerRouter
 {
     id router;
-    id tracker;
-    id routeContext;
 }
 
 @end

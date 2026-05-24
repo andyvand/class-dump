@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObjectID, NSString, NSUUID;
-
 @interface RTWorkoutDistance
 {
     _Bool _areBothWorkoutsDecimated;
-    _Bool _isVisited;
-    NSManagedObjectID *_objectID;
-    NSUUID *_firstWorkout;
-    NSUUID *_secondWorkout;
-    double _distance;
-    long long _distanceMetric;
-    long long _workoutActivityType;
-    NSDate *_date;
 }
 
-+ (id);
++ (id)kipping StoreHSM in Silent DBR mode.;
 + (id);
 - (void);
 - (id);
@@ -30,30 +20,15 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)O;
 - (id);
-- (id);
-- (double);
-- (id)ns: /* Error: Ran out of types for this method. */;
+- (double);
+- (id)submitVisitSettledStateMetricsForVisits:transitions: /* Error: Ran out of types for this method. */;
 - (void), %{sensitive}@;
 - (long long)blic}.3lf;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool areBothWorkoutsDecimated; // @synthesize areBothWorkoutsDecimated=_areBothWorkoutsDecimated;
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) long long distanceMetric; // @synthesize distanceMetric=_distanceMetric;
-@property(readonly, copy, nonatomic) NSUUID *firstWorkout; // @synthesize firstWorkout=_firstWorkout;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isVisited; // @synthesize isVisited=_isVisited;
-@property(readonly, copy, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, copy, nonatomic) NSUUID *secondWorkout; // @synthesize secondWorkout=_secondWorkout;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long workoutActivityType; // @synthesize workoutActivityType=_workoutActivityType;
 
 @end
 

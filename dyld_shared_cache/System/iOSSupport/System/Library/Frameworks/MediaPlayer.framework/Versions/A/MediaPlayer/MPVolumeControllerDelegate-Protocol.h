@@ -5,5 +5,10 @@
 //
 
 @protocol MPVolumeControllerDelegate
+
+@optional
+- (void)4;
+- (void);
+- (void)socialProfilesCount;
 @end
 

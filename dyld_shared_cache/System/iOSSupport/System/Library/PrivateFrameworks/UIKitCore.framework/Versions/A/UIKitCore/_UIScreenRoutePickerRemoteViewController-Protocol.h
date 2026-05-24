@@ -5,5 +5,8 @@
 //
 
 @protocol _UIScreenRoutePickerRemoteViewController
+- (void)setOriginalMessageTimestamp:(_Bool)arg1;
+- (void)initWithGroupName:(void (^)(struct CGSize))arg1 lane:runResult:status:taskReports: /* Error: Ran out of types for this method. */;
+- (void)payloadAllowCloudPhotoLibrary;
 @end
 

@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextView;
+@class UITextView;
 
 __attribute__((visibility("hidden")))
 @interface CKMentionsTextContainerOverlayView
 {
     UITextView *_textView;
-    NSDictionary *_mentionAnimations;
 }
 
-- (void);
-- (void);
+- (void)intersectSet:(id)arg1;
+- (void)fierToSearchResult;
 - (id);
-- (id);
+- (id)n;
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id)onItemIdentifier;
+- (id)lastSelectedConversationItemIdentifier;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *mentionAnimations; // @synthesize mentionAnimations=_mentionAnimations;
 @property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 
 @end

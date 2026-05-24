@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMConnectionMonitor, NSArray, NSString;
-
 @interface NetworkChangeNotifier
 {
     _Bool _lastPostedNetworkUp;
-    struct __SCDynamicStore *_store;
-    NSString *_myIP;
-    NSArray *_myIPs;
-    IMConnectionMonitor *_connectionMonitor;
 }
 
-+ (void);
++ (void)`
+;
 + (_Bool);
 + (id);
 - (id);
@@ -30,33 +25,24 @@
 - (id);
 - (int);
 - (id);
-- (struct __SCDynamicStore *);
+- (struct __SCDynamicStore *)setNeverBeenLocked: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)(Watts) (PBLC);
 - (void);
 - (struct __SCDynamicStore *);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMConnectionMonitor *connectionMonitor; // @synthesize connectionMonitor=_connectionMonitor;
-@property(readonly, nonatomic) struct __SCDynamicStore *getDynamicStore;
-@property(readonly, nonatomic) _Bool isNetworkUp;
-@property(nonatomic) _Bool lastPostedNetworkUp; // @synthesize lastPostedNetworkUp=_lastPostedNetworkUp;
-@property(readonly, nonatomic) NSString *myGatewayAddress;
-@property(retain, nonatomic) NSString *myIP; // @synthesize myIP=_myIP;
-@property(readonly, nonatomic) NSString *myIPAddress;
-@property(readonly, nonatomic) NSArray *myIPAddresses;
-@property(retain, nonatomic) NSArray *myIPs; // @synthesize myIPs=_myIPs;
 @property(nonatomic) struct __SCDynamicStore *store; // @synthesize store=_store;
 
 @end

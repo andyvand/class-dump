@@ -9,10 +9,6 @@
 @interface GEOMIFModelMetadata
 {
     NSString *_modelVersion;
-    NSString *_rolloutId;
-    NSString *_rolloutRampId;
-    NSString *_rolloutDeploymentId;
-    NSString *_rolloutFactorpackId;
 }
 
 - (id);
@@ -21,16 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id)eExternalResource:(struct _NSZone *)arg1;
+- (id)tileDBDidDeleteExternalResource:(struct _NSZone *)arg1;
 - (void)(3;
 - (id),Dqÿ§5µ6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(readonly, nonatomic) NSString *rolloutDeploymentId; // @synthesize rolloutDeploymentId=_rolloutDeploymentId;
-@property(readonly, nonatomic) NSString *rolloutFactorpackId; // @synthesize rolloutFactorpackId=_rolloutFactorpackId;
-@property(readonly, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
-@property(readonly, nonatomic) NSString *rolloutRampId; // @synthesize rolloutRampId=_rolloutRampId;
 
 @end
 

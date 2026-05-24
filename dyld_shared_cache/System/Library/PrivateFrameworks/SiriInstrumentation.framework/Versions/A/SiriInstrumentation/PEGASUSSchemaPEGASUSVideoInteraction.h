@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PEGASUSSchemaPEGASUSVideoInteraction : SISchemaInstrumentationMessage
 {
     int _interactionType;
-    NSString *_clientComponentName;
-    NSString *_dialogId;
-    int _clientInteractionVideoVerb;
-    struct {
-        unsigned int interactionType:1;
-        unsigned int clientInteractionVideoVerb:1;
-    } _has;
-    _Bool _hasClientComponentName;
-    _Bool _hasDialogId;
 }
 
 - (void);
@@ -27,7 +16,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)q,;
 - (_Bool);
 - (void);
 - (void);
@@ -40,30 +29,22 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)etching messages for chat:(id)arg1 %@ filtered by predicate:%@ sortDescriptors:%llu limit:%llu /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id)
 × ;
-- (id)FailedToConvertClientEvent;
+- (id)_hasFailedToConvertClientEvent;
 - (id)euralCombinerRequestContext;
-- (void)s;
+- (void)maxEntityChars;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientComponentName; // @synthesize clientComponentName=_clientComponentName;
-@property(nonatomic) int clientInteractionVideoVerb; // @synthesize clientInteractionVideoVerb=_clientInteractionVideoVerb;
-@property(copy, nonatomic) NSString *dialogId; // @synthesize dialogId=_dialogId;
-@property(nonatomic) _Bool hasClientComponentName; // @synthesize hasClientComponentName=_hasClientComponentName;
-@property(nonatomic) _Bool hasClientInteractionVideoVerb;
-@property(nonatomic) _Bool hasDialogId; // @synthesize hasDialogId=_hasDialogId;
-@property(nonatomic) _Bool hasInteractionType;
 @property(nonatomic) int interactionType; // @synthesize interactionType=_interactionType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

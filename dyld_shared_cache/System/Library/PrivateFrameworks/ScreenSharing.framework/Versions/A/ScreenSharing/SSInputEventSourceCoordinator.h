@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableSet, NSObject, NSRecursiveLock;
+@class NSObject, NSRecursiveLock;
 @protocol SSInputEventConsumer;
 
 @interface SSInputEventSourceCoordinator
 {
     NSObject<SSInputEventConsumer> *mActiveConsumer;
-    NSMutableSet *mEventSources;
-    NSMutableSet *mRegisteredConsumers;
-    NSLock *mLock;
-    NSRecursiveLock *_activeConsumerLock;
 }
 
 + (id);
@@ -30,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property NSObject<SSInputEventConsumer> *activeConsumer;
 @property(retain) NSRecursiveLock *activeConsumerLock; // @synthesize activeConsumerLock=_activeConsumerLock;
 
 @end

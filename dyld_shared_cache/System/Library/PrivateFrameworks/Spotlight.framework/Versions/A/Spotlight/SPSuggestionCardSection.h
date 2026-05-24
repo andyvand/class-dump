@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFSearchResult_SpotlightExtras;
-
 @interface SPSuggestionCardSection
 {
     _Bool _topHit;
-    SFSearchResult_SpotlightExtras *_result;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)and unigram node (U2 parse missing);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak SFSearchResult_SpotlightExtras *result; // @synthesize result=_result;
 @property _Bool topHit; // @synthesize topHit=_topHit;
 
 @end

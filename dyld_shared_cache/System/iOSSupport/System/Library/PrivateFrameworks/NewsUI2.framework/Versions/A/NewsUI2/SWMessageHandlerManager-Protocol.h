@@ -5,5 +5,6 @@
 //
 
 @protocol SWMessageHandlerManager
+- (void)r/db/SystemConfiguration/preferences.xml;
 @end
 

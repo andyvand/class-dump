@@ -11,12 +11,12 @@
     NSArray *_profiles;
 }
 
-+ (_Bool);
++ (_Bool)erial;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -24,14 +24,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@"<NSXPCListenerDelegate>";
 - (_Bool);
 - (id);
 - (void);
 - (id)ates:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool empty;
 @property(readonly, nonatomic) NSArray *profiles;
 
 @end

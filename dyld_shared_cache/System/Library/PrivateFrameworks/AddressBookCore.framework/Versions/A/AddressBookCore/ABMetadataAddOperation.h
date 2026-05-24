@@ -6,12 +6,11 @@
 
 #import <AddressBookCore/ABMetadataOperation.h>
 
-@class ABAddressBook, NSArray;
+@class NSArray;
 
 @interface ABMetadataAddOperation : ABMetadataOperation
 {
     NSArray *_uniqueIds;
-    ABAddressBook *_addressBookForReading;
 }
 
 - (id);

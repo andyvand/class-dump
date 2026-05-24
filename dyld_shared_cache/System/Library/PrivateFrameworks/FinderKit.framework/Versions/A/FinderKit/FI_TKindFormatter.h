@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface FI_TKindFormatter
 {
     double _width;
-    NSDictionary *_stringAttributes;
-    struct unordered_map<TString, std::vector<TruncationTableElement>, TStringCaseInsensitiveHash, TStringCaseInsensitiveCompare, std::allocator<std::pair<const TString, std::vector<TruncationTableElement>>>> _truncationTables;
 }
 
 + (id);

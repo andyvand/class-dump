@@ -5,5 +5,6 @@
 //
 
 @protocol AMSDeviceMessengerServiceInterface
+- (void);
 @end
 

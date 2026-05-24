@@ -8,8 +8,6 @@
 {
     id _cEnvironmentLightEstimationProvider;
     id _cEnvironmentLightEstimationConfiguration;
-    id anchorQueue;
-    id anchorUpdateIterators;
 }
 
 @end

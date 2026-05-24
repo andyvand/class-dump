@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     UILabel *_feedbackLabel;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Center delegate did not call timeout state handler.;
 - (void);
 
 // Remaining properties

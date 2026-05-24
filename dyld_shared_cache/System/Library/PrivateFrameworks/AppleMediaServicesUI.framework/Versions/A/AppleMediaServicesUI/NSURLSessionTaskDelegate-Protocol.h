@@ -7,6 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)@;
+- (void)helperController;
 - (void)ð1Â0@ù
 × ;
 - (void);

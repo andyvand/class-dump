@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLComputePassDescriptor, NSError, NSString;
-@protocol MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLLogContainer;
+@class MTLComputePassDescriptor;
+@protocol MTLBlitCommandEncoder, MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLLogContainer, MTLRenderCommandEncoder;
 
 @protocol MTLCommandBuffer
+- (id <MTLRenderCommandEncoder>);
+- (void)?;
+- (id <MTLBlitCommandEncoder>)k;
+- (id <MTLComputeCommandEncoder>);
+- (double), ;
+- (id <MTLDevice>)) ;
+- (void);
+- (void)_Uq ;
 - (id <MTLComputeCommandEncoder>)unsigned int, std:(MTLComputePassDescriptor *)arg1:pair<const unsigned int, NSString *>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, NSString *>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *>=^v}}{?=Q}{?=f}}},V_encoderLabels /* Error: Ran out of types for this method. */;
 - (void)maxBytesPerRow=%u, avgBytesPerRow=%f, totalBytesPerRow=%llu, countBytesPerRow=%u, frameBufferCount=%u, renderTargetCount=%u, shaderWriteCount=%u, linearAlignLess64Count=%u;
 - (id <MTLCommandQueue>)dation;
 - (id <MTLLogContainer>)llMode:] /* Error: Ran out of types for this method. */;
 - (void)was unused.;
-- (void);
 
 // Remaining properties
-@property(readonly) double GPUEndTime;
-@property(readonly) double GPUStartTime;
-@property(readonly) id <MTLCommandQueue> commandQueue;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long errorOptions;
-@property(readonly) double kernelEndTime;
-@property(readonly) double kernelStartTime;
-@property(copy) NSString *label;
-@property(readonly) id <MTLLogContainer> logs;
-@property(readonly) _Bool retainedReferences;
-@property(readonly) unsigned long long status;
 @end
 

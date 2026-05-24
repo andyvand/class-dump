@@ -15,8 +15,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool loop; // @dynamic loop;
-@property(readonly, nonatomic) NSString *resourceIdentifier; // @dynamic resourceIdentifier;
 @property(readonly, nonatomic) NSString *stillImageIdentifier; // @dynamic stillImageIdentifier;
 
 @end

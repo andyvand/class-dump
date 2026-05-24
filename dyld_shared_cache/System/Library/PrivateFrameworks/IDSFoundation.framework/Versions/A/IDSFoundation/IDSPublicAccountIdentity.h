@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMPPublicAccountIdentity, IDSMPPublicServiceIdentityAdmin, IDSMPPublicServiceIdentitySigning, NSString;
+@class IDSMPPublicAccountIdentity;
 
 @interface IDSPublicAccountIdentity
 {
     IDSMPPublicAccountIdentity *_accountIdentity;
-    IDSMPPublicServiceIdentityAdmin *_adminIdentity;
-    IDSMPPublicServiceIdentitySigning *_signingIdentity;
 }
 
 + (_Bool);
@@ -20,21 +18,12 @@
 - (id);
 - (void);
 - (id);
-- (id)l: /* Error: Ran out of types for this method. */;
+- (id)recvKeyMaterial: /* Error: Ran out of types for this method. */;
 - (id)@ÙWS;
 - (void)nfo request response: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) IDSMPPublicAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
-@property(readonly, nonatomic) IDSMPPublicServiceIdentityAdmin *adminIdentity; // @synthesize adminIdentity=_adminIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IDSMPPublicServiceIdentitySigning *signingIdentity; // @synthesize signingIdentity=_signingIdentity;
-@property(readonly) Class superclass;
 
 @end
 

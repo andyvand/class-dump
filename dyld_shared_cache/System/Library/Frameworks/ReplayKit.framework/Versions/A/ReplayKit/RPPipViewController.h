@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureDeviceInput, AVCaptureSession;
+@class AVCaptureSession;
 
 @interface RPPipViewController
 {
     long long _cameraPosition;
-    AVCaptureSession *_pipSession;
-    AVCaptureDevice *_videoDevice;
-    AVCaptureDeviceInput *_videoInput;
-    double _previousOrientationWidth;
-    double _previousOrientationHeight;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (double);
 - (double);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -32,26 +27,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (void)r:(long long)arg1;
+- (long long)removeCredential:forProtectionSpace:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)(;
+- (id)din saari;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long cameraPosition; // @synthesize cameraPosition=_cameraPosition;
 @property(retain, nonatomic) AVCaptureSession *pipSession; // @synthesize pipSession=_pipSession;
-@property(nonatomic) double previousOrientationHeight; // @synthesize previousOrientationHeight=_previousOrientationHeight;
-@property(nonatomic) double previousOrientationWidth; // @synthesize previousOrientationWidth=_previousOrientationWidth;
-@property(retain, nonatomic) AVCaptureDevice *videoDevice; // @synthesize videoDevice=_videoDevice;
-@property(retain, nonatomic) AVCaptureDeviceInput *videoInput; // @synthesize videoInput=_videoInput;
 
 @end
 

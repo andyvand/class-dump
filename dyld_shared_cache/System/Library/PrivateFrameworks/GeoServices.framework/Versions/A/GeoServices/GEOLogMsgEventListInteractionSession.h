@@ -4,53 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLogMsgEventListInteractionSession
 {
     PBDataReader *_reader;
-    NSMutableArray *_listResultItems;
-    NSString *_searchString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _listType;
-    struct {
-        unsigned int has_listType:1;
-        unsigned int read_listResultItems:1;
-        unsigned int read_searchString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)e:(id)arg1;
++ (Class)etic The Bahamas;
++ (_Bool)setHasSpokenPrivacyFilterType:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void)initWithAuditToken:assumedIdentity:tccServices: /* Error: Ran out of types for this method. */;
+- (void)uaSession;
+- (void)؅;
+- (_Bool)TY;
+- (id)create dispatch source, calling block immediately;
+- (int)IntlUtility;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (int);
-- (void);
-- (int);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (id)%s Turn off VoiceTrigger AP mode, since BuiltInSpeaker is not active;
+- (void)B;
+- (unsigned long long))A;
+- (_Bool)IO.;
 - (_Bool);
 - (id);
 - (void);
-- (id)edicted:(struct _NSZone *)arg1;
-- (id)laceData:type: /* Error: Ran out of types for this method. */;
+- (id)setStateOfChargeAtDestPredicted:(struct _NSZone *)arg1;
+- (id)categoryNamesForPlaceData:type: /* Error: Ran out of types for this method. */;
 - (id)ping to continue.;
 - (id);
 - (void)|¨4;
@@ -59,10 +47,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasListType;
-@property(readonly, nonatomic) _Bool hasSearchString;
-@property(retain, nonatomic) NSMutableArray *listResultItems;
-@property(nonatomic) int listType;
-@property(retain, nonatomic) NSString *searchString;
 
 @end
 

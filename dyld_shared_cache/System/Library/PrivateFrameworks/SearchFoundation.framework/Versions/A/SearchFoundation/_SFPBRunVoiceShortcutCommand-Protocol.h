@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBRunVoiceShortcutCommand
+- (NSString *)initWithPersons:inContext: /* Error: Ran out of types for this method. */;
+- (NSData *)setCharacterRecognitionData:algorithmVersion:adjustmentVersion: /* Error: Ran out of types for this method. */;
+- (id)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *voiceShortcutIdentifier;
 @end
 

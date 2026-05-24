@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
+- (_Bool)@?0@"ABPerson"8;
 - (id);
-- (id);
+- (id);
 - (id);
 
 @end

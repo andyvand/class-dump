@@ -14,10 +14,10 @@
 + (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)les>",R,N;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__handleNearbyRecommendedNetworksChangedEvent:(id)arg1;
+- (void)4060-BD2D-1D36D8B28251;
 
 // Remaining properties
 @property(readonly) long long situation; // @synthesize situation=_situation;

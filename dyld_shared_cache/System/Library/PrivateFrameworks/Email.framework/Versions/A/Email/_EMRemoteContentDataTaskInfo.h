@@ -4,51 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, NSURLSessionDataTask;
+@class NSObject, NSURLSessionDataTask;
 @protocol OS_dispatch_data;
 
 @interface _EMRemoteContentDataTaskInfo
 {
     NSObject<OS_dispatch_data> *_data;
-    _Bool _isSynthetic;
-    _Bool _failOpen;
-    _Bool _didComplete;
-    _Bool _didCollectMetrics;
-    NSURLSessionDataTask *_dataTask;
-    CDUnknownBlockType _completion;
 }
 
-- (void);
-- (id);
+- (void)@;
+- (id)WidgetAccessoryReachabilityMonitorDelegateAdaptor;
+- (_Bool)Event;
+- (_Bool);
+- (void)HomeIntelligenceProtoPETSecureSubmitterEventMetadataDevice;
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)attachmentUUID;
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)successfulAssetCollections;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy, nonatomic) NSData *data;
 @property(readonly, nonatomic) NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didCollectMetrics; // @synthesize didCollectMetrics=_didCollectMetrics;
-@property(nonatomic) _Bool didComplete; // @synthesize didComplete=_didComplete;
-@property(readonly, nonatomic) _Bool failOpen; // @synthesize failOpen=_failOpen;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSynthetic; // @synthesize isSynthetic=_isSynthetic;
-@property(readonly) Class superclass;
 
 @end
 

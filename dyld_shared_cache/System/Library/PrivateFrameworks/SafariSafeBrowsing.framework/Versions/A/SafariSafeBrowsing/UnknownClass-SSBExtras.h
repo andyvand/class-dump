@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
-
 @interface UnknownClass (SSBExtras)
-- (_Bool);
+- (_Bool)ningboard;
 - (id);
-- (id);
-- (_Bool);
+- (id)NSForceLegacyTextStylesForWidgets;
+- (_Bool)compactTrailing;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *ssb_canonicalizeURL;
 @property(readonly, nonatomic) _Bool ssb_hasUserInfo;
-@property(readonly, nonatomic) NSArray *ssb_hashes;
-@property(readonly, nonatomic) _Bool ssb_isSafeURL;
 @end
 

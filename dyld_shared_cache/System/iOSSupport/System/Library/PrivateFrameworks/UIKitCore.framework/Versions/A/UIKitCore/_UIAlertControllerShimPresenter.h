@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAlertController, UIAlertView, UIPopoverController, UIViewController, _UIAlertControllerShimPresenterWindow;
-@protocol UIPopoverControllerDelegate;
+@class UIAlertController, UIPopoverController;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerShimPresenter
 {
     UIPopoverController *_popoverController;
-    id <UIPopoverControllerDelegate> _popoverDelegate;
-    UIViewController *_inPopoverViewController;
-    _UIAlertControllerShimPresenterWindow *_window;
-    UIAlertController *_alertController;
-    UIAlertView *_legacyAlert;
 }
 
 + (_Bool);
@@ -23,16 +17,16 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (void);
+- (void)conversationManager:(id)arg1 cameraMixedWithScreenDidChangeForConversation: /* Error: Ran out of types for this method. */;
+- (id)removeMessageWithGUID:fromChat: /* Error: Ran out of types for this method. */;
+- (void)check on upgrade after %f seconds;
+- (void)g relay phone number %@;
+- (void)up base telephony service;
+- (void)essage %@;
+- (void)ayoutAsText):(_Bool)arg1 %@;
+- (id)t changed! Now waiting for %lld;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)v;
 - (void);
 - (id);
 - (void);
@@ -44,16 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak UIAlertController *alertController; // @synthesize alertController=_alertController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) UIAlertView *legacyAlert; // @synthesize legacyAlert=_legacyAlert;
-@property(nonatomic) __weak id <UIPopoverControllerDelegate> popoverDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIAlertControllerShimPresenterWindow *window; // @synthesize window=_window;
 
 @end
 

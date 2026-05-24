@@ -7,14 +7,11 @@
 @interface MapsSuggestions._MapsSuggestionsGeoMotionListener__priv_DD3AD38A4252515A4F029B3ADF45D1CD
 {
     id _hasReceivedUpdate;
-    id _lock;
-    id _semaphore;
-    id _isDriving;
 }
 
 - (void);
 - (id);
-- (void)iteSignalValue:forType:gathered: /* Error: Ran out of types for this method. */;
+- (void)writeSignalValue:forType:gathered: /* Error: Ran out of types for this method. */;
 
 @end
 

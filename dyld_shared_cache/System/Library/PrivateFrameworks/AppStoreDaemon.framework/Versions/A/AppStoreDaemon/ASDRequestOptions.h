@@ -11,7 +11,7 @@
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)timestamp, absolute_timestamp, true_heading, magnetic_heading, accuracy) VALUES(?, ?, ?, ?, ?);
 
 @end
 

@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface LSCodeEvaluationClientManager
 {
     struct os_unfair_lock_s _propertiesLock;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableDictionary *_connMap;
-    NSMutableDictionary *_opMap;
-    NSMutableSet *_evaluations;
 }
 
-+ (id);
++ (id)�;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)z!;
 - (id);
 - (void);
 - (void);
@@ -52,20 +48,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)s ;
+- (id)red_map_equal<std::array<unsigned long long, 3>, std::pair<const std::array<unsigned long long, 3>, unsigned int>, MTLSamplerDescriptorHashMap::equal_t, MTLSamplerDescriptorHashMap::hash_t>, std::allocator<std::pair<const std::array<unsigned long long, 3>, unsigned int>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::array<unsigned long long, 3>, unsigned int>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::array<unsigned long long, 3>, unsigned int>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::array<unsigned long long, 3>, unsigned int>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::array<unsigned long long, 3>, unsigned int>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_limit"I} /* Error: Ran out of types for this method. */;
+- (void)etal devices.;
 - (void)ô;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *connMap; // @synthesize connMap=_connMap;
-@property(retain) NSMutableSet *evaluations; // @synthesize evaluations=_evaluations;
-@property(retain) NSMutableDictionary *opMap; // @synthesize opMap=_opMap;
-@property struct os_unfair_lock_s propertiesLock; // @synthesize propertiesLock=_propertiesLock;
 @property(retain) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end

@@ -6,8 +6,8 @@
 
 @interface UnknownClass (ABAddressBookAssistantAdditions)
 - (id);
+- (id)|;
 - (id);
-- (id);
-- (id);
+- (id)|;
 @end
 

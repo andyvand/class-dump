@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSString, PGFeatureExtractor;
+@class NSPredicate;
 
 @interface PGFeatureValidator
 {
     NSPredicate *_predicate;
-    PGFeatureExtractor *_featureExtractor;
-    NSString *_featureName;
 }
 
 - (long long);
@@ -21,11 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void)mberOfAssetsWithPositiveScenes;
+- (void)minimumNumberOfAssetsWithPositiveScenes;
 
 // Remaining properties
-@property(readonly, nonatomic) PGFeatureExtractor *featureExtractor; // @synthesize featureExtractor=_featureExtractor;
-@property(readonly, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
 @property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFDeviceDiscoveryManager, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class CWFDeviceDiscoveryManager, NSMutableSet;
 
 @interface CWFHotspotClientManager
 {
     NSMutableSet *_activeHotspotClients;
-    CWFDeviceDiscoveryManager *_deviceDiscoveryManager;
-    NSObject<OS_dispatch_queue> *_hotspotQueue;
 }
 
 + (id);
@@ -30,12 +27,10 @@
 - (void);
 - (void);
 - (id);
-- (void)OI;
+- (void)atWorkScopedNOI;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *activeHotspotClients; // @synthesize activeHotspotClients=_activeHotspotClients;
 @property(retain, nonatomic) CWFDeviceDiscoveryManager *deviceDiscoveryManager; // @synthesize deviceDiscoveryManager=_deviceDiscoveryManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *hotspotQueue; // @synthesize hotspotQueue=_hotspotQueue;
 
 @end
 

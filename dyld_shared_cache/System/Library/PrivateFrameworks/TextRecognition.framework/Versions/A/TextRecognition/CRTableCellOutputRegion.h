@@ -6,12 +6,9 @@
 
 #import <TextRecognition/CROutputRegion.h>
 
-@class NSString;
-
 @interface CRTableCellOutputRegion : CROutputRegion
 {
     struct _NSRange _rowRange;
-    struct _NSRange _colRange;
 }
 
 - (_Bool);
@@ -28,15 +25,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property struct _NSRange colRange; // @synthesize colRange=_colRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property struct _NSRange rowRange; // @synthesize rowRange=_rowRange;
-@property(readonly) Class superclass;
 
 @end
 

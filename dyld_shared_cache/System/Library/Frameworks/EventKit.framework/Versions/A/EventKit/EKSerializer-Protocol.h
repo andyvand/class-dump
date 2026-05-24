@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKEvent, NSData, NSString;
+
 @protocol EKSerializer
+- (NSString *)MRRemoveSyncedOutputDevicesMessage;
+- (NSData *);
+- (EKEvent *);
 @end
 

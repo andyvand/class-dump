@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineCatalogModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

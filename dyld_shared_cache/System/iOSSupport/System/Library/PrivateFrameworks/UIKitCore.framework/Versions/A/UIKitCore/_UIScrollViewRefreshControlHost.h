@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface _UIScrollViewRefreshControlHost
 {
     UIScrollView *_scrollView;
-    _Bool _refreshControlAutomaticContentOffsetAdjustmentEnabledNeedsReset;
-    _Bool _refreshControlAutomaticContentOffsetAdjustmentEnabledWhenLastIdle;
 }
 
 - (void)!DùQað1Â0@ù
 × ;
-- (id):(id)arg1;
+- (id)noteProgrammaticSelectionChangeForIndexPath:(id)arg1;
 - (void)_preferredFontForTextStyle:(double)arg1 weight: /* Error: Ran out of types for this method. */;
-- (void)SinglePicker;
+- (void)UIWebSelectSinglePicker;
 - (_Bool)ÜQþ þÿ;
-- (id);
+- (id)KBother;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool refreshControlInsetsAffectScrollViewRubberBanding;
-@property(readonly) __weak UIScrollView *scrollView;
-@property(readonly) Class superclass;
 
 @end
 

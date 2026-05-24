@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)A;
 + (Class);
 + (Class);
 + (long long)ata: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ndDeviceAndPlaySoundIntentDeviceUnsupportedReason:(id)arg1;
+- (id)StringAsFindDeviceAndPlaySoundIntentDeviceUnsupportedReason:(id)arg1;
 
 @end
 

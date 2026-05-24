@@ -9,8 +9,6 @@
 @interface MPSNNReshapeNode : MPSNNFilterNode
 {
     unsigned long long _resultWidth;
-    unsigned long long _resultHeight;
-    unsigned long long _resultFeatureChannels;
 }
 
 + (id);

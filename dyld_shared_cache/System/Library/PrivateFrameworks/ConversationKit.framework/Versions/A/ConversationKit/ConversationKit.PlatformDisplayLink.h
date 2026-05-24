@@ -9,7 +9,6 @@
 @interface ConversationKit.PlatformDisplayLink : ConversationKit.PlatformDisplayLinkBase
 {
     id observers;
-    id isRunning;
 }
 
 @end

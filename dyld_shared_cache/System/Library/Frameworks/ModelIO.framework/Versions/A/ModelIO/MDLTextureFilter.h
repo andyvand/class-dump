@@ -7,34 +7,24 @@
 @interface MDLTextureFilter
 {
     unsigned long long sWrapMode;
-    unsigned long long tWrapMode;
-    unsigned long long rWrapMode;
-    unsigned long long minFilter;
-    unsigned long long magFilter;
-    unsigned long long mipFilter;
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)e=QQ}20;
+- (unsigned long long)EXISTS ix_modelHandles_name_version_locale             ON modelHandles (name, version, locale);
 - (void);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)cteristic write request is a required parameter;
+- (unsigned long long)HAPNFCAccessKeyStateActive;
+- (void)HAPWiFiConfigurationOperationTypeCommitConfigurationFailSafe;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long magFilter; // @synthesize magFilter;
-@property(nonatomic) unsigned long long minFilter; // @synthesize minFilter;
-@property(nonatomic) unsigned long long mipFilter; // @synthesize mipFilter;
-@property(nonatomic) unsigned long long rWrapMode; // @synthesize rWrapMode;
 @property(nonatomic) unsigned long long sWrapMode; // @synthesize sWrapMode;
-@property(nonatomic) unsigned long long tWrapMode; // @synthesize tWrapMode;
 
 @end
 

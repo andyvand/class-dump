@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly) NSDate *dateStarted;
-@property(readonly) unsigned long long kind;
 @end
 

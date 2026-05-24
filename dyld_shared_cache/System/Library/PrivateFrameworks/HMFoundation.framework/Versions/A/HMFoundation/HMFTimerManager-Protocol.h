@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol HMFTimerManagerDelegate, OS_dispatch_queue;
+@protocol HMFTimerManagerDelegate;
 
 @protocol HMFTimerManager
+- (void)T@"NSArray",C,V_sortDescriptors;
 
 // Remaining properties
 @property __weak id <HMFTimerManagerDelegate> delegate;
-@property(retain) NSObject<OS_dispatch_queue> *delegateQueue;
 @end
 

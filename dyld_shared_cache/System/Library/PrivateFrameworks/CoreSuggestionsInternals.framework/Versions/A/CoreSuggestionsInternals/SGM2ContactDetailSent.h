@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2ContactDetailSent
 {
     int _detail;
-    int _foundIn;
-    NSString *_key;
-    int _source;
-    int _tokens;
-    _Bool _hasName;
-    struct {
-        unsigned int detail:1;
-        unsigned int foundIn:1;
-        unsigned int source:1;
-        unsigned int tokens:1;
-        unsigned int hasName:1;
-    } _has;
 }
 
+- (void)&;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)__objc_stubs;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)"WKWebView"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32;
+- (int)2@"WKFrameInfo"40@?<v@?@"NSString">48;
+- (id)uration"24@"WKNavigationAction"32@"WKWindowFeatures"40;
+- (int)0:8@16@24{CGPoint=dd}32@48 /* Error: Ran out of types for this method. */;
 - (int);
-- (id);
-- (int);
-- (int);
-- (int);
+- (int)4:(id)arg1 32;
 - (void);
 - (_Bool);
 - (int);
@@ -47,9 +33,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ReminderDueBy;
 - (_Bool);
-- (id);
+- (id)mMapAnnotationIdToAnnotation;
 - (_Bool);
 - (void);
 - (void);
@@ -59,26 +45,15 @@
 - (id);
 - (_Bool)ql$ð1Â0@ù
 × ;
-- (void)imeIsUnknown:(id)arg1;
-- (_Bool)lConfigRule;
+- (void)setTimeIsUnknown:(id)arg1;
+- (_Bool)SGMISaliencyModelConfigRule;
 - (void)D<F;
 - (void);
 - (id)LE reminders (id INTEGER PRIMARY KEY AUTOINCREMENT,entityId INTEGER NOT NULL,duplicateKey TEXT NOT NULL,sourceKey TEXT,title text NOT NULL,dueDateComponents TEXT,dueLocationId INTEGER,dueLocationType INTEGER NOT NULL,dueLocationTrigger INTEGER NOT NULL,sourceUrl TEXT NOT NULL,creationDate num NOT NULL,opaqueKey TEXT,uniqueKey TEXT,contactIdentifier TEXT,reminderStatus NUM NOT NULL,FOREIGN KEY(entityId) REFERENCES entity(id) ON DELETE NO ACTION,FOREIGN KEY(dueLocationId) REFERENCES locations(id) ON DELETE SET NULL);
 - (int)ventId, name;
 
 // Remaining properties
-@property(nonatomic) int detail; // @synthesize detail=_detail;
-@property(nonatomic) int foundIn; // @synthesize foundIn=_foundIn;
-@property(nonatomic) _Bool hasDetail;
-@property(nonatomic) _Bool hasFoundIn;
-@property(nonatomic) _Bool hasHasName;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasTokens;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(nonatomic) int tokens; // @synthesize tokens=_tokens;
 
 @end
 

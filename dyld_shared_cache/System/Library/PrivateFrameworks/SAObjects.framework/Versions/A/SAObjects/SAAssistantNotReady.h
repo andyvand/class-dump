@@ -16,9 +16,9 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)on;
+- (id)`;
+- (_Bool);
+- (void)applicationVersion;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *language;

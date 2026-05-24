@@ -5,5 +5,6 @@
 //
 
 @protocol AVOutputSettingsValidation
+- (_Bool);
 @end
 

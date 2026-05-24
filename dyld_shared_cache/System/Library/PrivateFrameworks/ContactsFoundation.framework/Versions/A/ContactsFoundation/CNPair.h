@@ -7,15 +7,14 @@
 @interface CNPair
 {
     id _first;
-    id _second;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)h;
 - (void);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly) id first; // @synthesize first=_first;
-@property(readonly) id second; // @synthesize second=_second;
 
 @end
 

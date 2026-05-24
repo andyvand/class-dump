@@ -6,33 +6,27 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, UIKBUndoStyling, UILabel, UIVisualEffectView;
+@class UIVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface UIKBUndoStateHUD : UIView
 {
     long long _controlType;
-    NSLayoutConstraint *_undoStateHUDWidthConstraint;
-    NSLayoutConstraint *_undoStateHUDHeightConstraint;
-    UIVisualEffectView *_shadowView;
-    UIView *_containerView;
-    UILabel *_labelView;
-    UIKBUndoStyling *_style;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)IeAgH_;
+- (id)So31IMDBatchSimulatedEntryProcessorC;
 - (void);
-- (id);
+- (id)%@ isLast %{BOOL}d markedLast %{BOOL}d;
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)setPayloadRepeatingPowerOff: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)sForView: /* Error: Ran out of types for this method. */;
+- (id)_subtreeMonitorsForView: /* Error: Ran out of types for this method. */;
 - (void)fig",R,N;
 - (id)·`·;
 - (void)Sû;
@@ -40,13 +34,7 @@ __attribute__((visibility("hidden")))
 - (id)ØÎi;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) long long controlType; // @synthesize controlType=_controlType;
-@property(retain, nonatomic) UILabel *labelView; // @synthesize labelView=_labelView;
 @property(retain, nonatomic) UIVisualEffectView *shadowView; // @synthesize shadowView=_shadowView;
-@property(retain, nonatomic) UIKBUndoStyling *style; // @synthesize style=_style;
-@property(retain, nonatomic) NSLayoutConstraint *undoStateHUDHeightConstraint; // @synthesize undoStateHUDHeightConstraint=_undoStateHUDHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *undoStateHUDWidthConstraint; // @synthesize undoStateHUDWidthConstraint=_undoStateHUDWidthConstraint;
 
 @end
 

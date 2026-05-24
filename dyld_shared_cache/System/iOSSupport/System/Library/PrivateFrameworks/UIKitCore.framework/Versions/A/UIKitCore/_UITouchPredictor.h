@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _UIValuePredictor;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UITouchPredictor
 {
     NSMutableArray *_predictions;
-    _Bool _predictionsValid;
-    _UIValuePredictor *_xValuePredictor;
-    _UIValuePredictor *_yValuePredictor;
-    _UIValuePredictor *_angleValuePredictor;
-    _UIValuePredictor *_azimuthValuePredictor;
-    _UIValuePredictor *_forceValuePredictor;
-    double _averageTouchInterval;
-    double _lastTouchTimestamp;
-    double _numPredictionsBuffer[5];
-    long long _numPredictionsBufferCount;
 }
 
 - (id);
 - (id);
 - (void);
+- (id)ction";
+- (id):8 /* Error: Ran out of types for this method. */;
+- (void)on:(id)arg1;
+- (id)Enabled;
+- (unsigned long long)serviceDelegate;
 - (id);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)p;
+- (unsigned long long)sk because of nil path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id)calculationVisibility;
+- (id)_calculationVisibility;
 - (id)e.;
 - (void)yProvidingP;
 

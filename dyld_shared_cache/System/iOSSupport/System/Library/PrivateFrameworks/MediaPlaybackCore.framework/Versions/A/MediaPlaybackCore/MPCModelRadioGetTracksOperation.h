@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICRadioGetTracksRequest, NSString;
+@class ICRadioGetTracksRequest;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelRadioGetTracksOperation
 {
     ICRadioGetTracksRequest *_request;
-    NSString *_siriAssetInfo;
-    void *_radioQueueFeederPointerForLogging;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)superclass;
+- (id)count"16i24@"ACDAccountStore"28@"ACAccount"36;
 - (CDUnknownBlockType);
 - (void);
 - (void)

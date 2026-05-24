@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)s;
+- (_Bool)s;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionCustomViewHighlighter
@@ -15,23 +15,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)MSenderContext"40;
+- (void)submitCloudKitMetricWithData:(id)arg1 operationGroupName:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)recoverableMessagesMetadataPendingCloudKitSaveWithLimit: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)(;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customView; // @synthesize customView=_customView;
-@property(nonatomic) _Bool customViewFlipsHorizontalAxis; // @synthesize customViewFlipsHorizontalAxis=_customViewFlipsHorizontalAxis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

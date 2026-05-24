@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _MPCProtoRadioContentReferenceStoreContentReference
 {
     long long _storeAdamID;
-    struct {
-        unsigned int storeAdamID:1;
-    } _has;
 }
 
 - (id);

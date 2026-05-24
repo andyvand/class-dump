@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface SLWebTokenHandlerResponse
 {
     NSString *_token;
-    NSString *_refreshToken;
-    NSString *_idToken;
-    NSDate *_expiryDate;
-    NSArray *_grantedDataclasses;
-    NSArray *_usernames;
-    NSString *_displayName;
 }
 
 - (id);
@@ -29,13 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly, nonatomic) NSArray *grantedDataclasses; // @synthesize grantedDataclasses=_grantedDataclasses;
-@property(readonly, nonatomic) NSString *idToken; // @synthesize idToken=_idToken;
-@property(readonly, nonatomic) NSString *refreshToken; // @synthesize refreshToken=_refreshToken;
 @property(retain, nonatomic) NSString *token; // @synthesize token=_token;
-@property(readonly, nonatomic) NSArray *usernames; // @synthesize usernames=_usernames;
 
 @end
 

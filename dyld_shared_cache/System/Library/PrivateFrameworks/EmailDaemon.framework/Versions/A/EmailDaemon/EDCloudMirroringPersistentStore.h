@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDTaskScheduler, NSManagedObjectContext, NSPersistentContainer, NSString;
+@class NSPersistentContainer;
 
 @interface EDCloudMirroringPersistentStore
 {
     NSPersistentContainer *_persistentContainer;
-    EDTaskScheduler *_importScheduler;
-    EDTaskScheduler *_exportScheduler;
-    NSManagedObjectContext *_managedObjectContext;
 }
 
 + (id)0@ù
 × ;
 - (id);
 - (void);
-- (id);
+- (id)8@"AVTCoreModelPickerDisplayCondition"16Q24;
 - (void);
 - (id);
 - (void);
@@ -36,17 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EDTaskScheduler *exportScheduler; // @synthesize exportScheduler=_exportScheduler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) EDTaskScheduler *importScheduler; // @synthesize importScheduler=_importScheduler;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 @property(readonly, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ControllerByType;
+- (void)_actionsControllerByType;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;

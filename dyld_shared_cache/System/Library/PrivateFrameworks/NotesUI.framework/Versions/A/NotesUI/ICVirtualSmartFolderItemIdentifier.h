@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICFolderCustomNoteSortType, ICQuery, NSManagedObjectID, NSString;
-@protocol ICItemIdentifier;
+@class NSString;
 
 @interface ICVirtualSmartFolderItemIdentifier
 {
     unsigned long long _hash;
-    NSString *_type;
-    id <ICItemIdentifier> _parentIdentifier;
-    NSManagedObjectID *_accountObjectID;
-    NSString *_defaultTitle;
 }
 
 + (id);
@@ -21,7 +16,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,12 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)jjh8I;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -46,39 +41,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)q!6;
 - (id);
 - (long long)Â0@ù
 × ;
-- (void)ue:error: /* Error: Ran out of types for this method. */;
+- (void)blockingGeneratePDFDataForAttachment:withProgress:queue:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSManagedObjectID *accountObjectID; // @synthesize accountObjectID=_accountObjectID;
-@property(nonatomic) long long dateHeadersType;
-@property(readonly, copy, nonatomic) NSString *dateHeadersTypeUserDefaultsKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSString *defaultTitle; // @synthesize defaultTitle=_defaultTitle;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash; // @synthesize hash=_hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isTrashFolder;
-@property(copy, nonatomic) ICFolderCustomNoteSortType *noteSortType;
-@property(readonly, copy, nonatomic) NSString *noteSortTypeUserDefaultsKey;
-@property(readonly, nonatomic) id <ICItemIdentifier> parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly, nonatomic) ICQuery *query;
-@property(readonly, nonatomic, getter=isShowingDateHeaders) _Bool showingDateHeaders;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsDateHeaders;
-@property(readonly, copy, nonatomic) NSString *systemImageName;
-@property(readonly, copy, nonatomic) NSString *title;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) long long visibility;
-@property(readonly, copy, nonatomic) NSString *visibilityUserDefaultsKey;
 
 @end
 

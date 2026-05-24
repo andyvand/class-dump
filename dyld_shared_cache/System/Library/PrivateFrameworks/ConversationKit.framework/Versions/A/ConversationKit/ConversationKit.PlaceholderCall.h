@@ -7,14 +7,6 @@
 @interface ConversationKit.PlaceholderCall
 {
     id purpose;
-    id willSetAVModeSoon;
-    id bluetoothAudioFormat;
-    id isSendingVideo;
-    id isSharingScreen;
-    id isUplinkMuted;
-    id shouldSuppressRingtone;
-    id conversationUUID;
-    id placeholderCallCenter;
 }
 
 @end

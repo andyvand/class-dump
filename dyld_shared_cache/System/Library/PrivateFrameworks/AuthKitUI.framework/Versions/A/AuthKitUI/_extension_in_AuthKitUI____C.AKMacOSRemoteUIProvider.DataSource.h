@@ -7,7 +7,6 @@
 @interface (extension in AuthKitUI):__C.AKMacOSRemoteUIProvider.DataSource
 {
     id contextController;
-    id deferredResponse;
 }
 
 @end

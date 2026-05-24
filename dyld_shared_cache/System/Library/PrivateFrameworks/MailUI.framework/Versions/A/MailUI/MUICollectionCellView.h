@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSViewController;
+@class NSLayoutConstraint;
 
 @interface MUICollectionCellView
 {
     _Bool _emphasized;
-    _Bool _focused;
-    _Bool _selected;
-    _Bool _lastMessage;
-    unsigned long long _cellIndex;
-    NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_midXConstraint;
-    NSLayoutConstraint *_minYConstraint;
 }
 
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -37,30 +29,21 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (id)_analyticsTimer;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void)apToRadar;
+- (void)40@0:(_Bool)arg1 8@16d24@?32;
+- (void)numberWithUnsignedInt:(_Bool)arg1;
+- (void)openTapToRadar;
 - (_Bool): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cellIndex; // @synthesize cellIndex=_cellIndex;
-@property(nonatomic) _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property(nonatomic) _Bool focused; // @synthesize focused=_focused;
-@property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(nonatomic, getter=isLastMessage) _Bool lastMessage; // @synthesize lastMessage=_lastMessage;
-@property(retain, nonatomic) NSLayoutConstraint *midXConstraint; // @synthesize midXConstraint=_midXConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *minYConstraint; // @synthesize minYConstraint=_minYConstraint;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, nonatomic) __weak NSViewController *viewController;
 @property(retain, nonatomic) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end

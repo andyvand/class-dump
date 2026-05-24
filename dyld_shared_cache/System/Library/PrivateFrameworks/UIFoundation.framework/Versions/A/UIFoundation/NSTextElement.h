@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTextContentManager, NSTextRange;
+@class NSTextContentManager;
 
 @interface NSTextElement
 {
     NSTextContentManager *_textContentManager;
-    unsigned char _coalescingType;
-    NSTextRange *_elementRange;
 }
 
 + (long long);
@@ -28,20 +26,13 @@
 - (struct CGSize);
 - (unsigned char);
 - (id);
-- (id);
+- (id);
 - (void)ÔÞ/ð!dEù±Ñ31Â0@ù
 × ;
 - (_Bool)manager %p reentrant glyph generation problem.;
 
 // Remaining properties
-@property(readonly, copy) NSArray *childElements;
 @property unsigned char coalescingType; // @synthesize coalescingType=_coalescingType;
-@property(retain) NSTextRange *elementRange; // @synthesize elementRange=_elementRange;
-@property(readonly) _Bool isBeginningOfDocument; // @dynamic isBeginningOfDocument;
-@property(readonly) _Bool isEndOfDocument; // @dynamic isEndOfDocument;
-@property(readonly) _Bool isRepresentedElement;
-@property(readonly) __weak NSTextElement *parentElement;
-@property __weak NSTextContentManager *textContentManager; // @dynamic textContentManager;
 
 @end
 

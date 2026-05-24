@@ -10,7 +10,7 @@
 
 + (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)ÿê Yï;
 
 @end

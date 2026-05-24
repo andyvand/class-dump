@@ -12,14 +12,13 @@
 {
 }
 
-- (id);
+- (id)I;
 - (void);
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(nonatomic) int ordinal;
 @property(copy, nonatomic) NSString *styleSheetId;
 
 @end

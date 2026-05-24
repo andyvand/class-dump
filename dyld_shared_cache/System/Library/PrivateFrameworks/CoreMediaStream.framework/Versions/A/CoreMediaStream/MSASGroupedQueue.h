@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSASServerSideModel, MSTimerGate, NSObject;
-@protocol OS_dispatch_queue;
+@class MSTimerGate;
 
 @interface MSASGroupedQueue
 {
     _Bool _isShuttingDown;
-    _Bool _isAssertingBusyAssertion;
-    int _maxGroupedCallbackEventBatchCount;
-    MSASServerSideModel *_model;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_memberQueue;
-    double _maxGroupedCallbackEventIdleInterval;
-    double _maxGroupedCallbackEventStaleness;
-    MSTimerGate *_idleTimerGate;
-    MSTimerGate *_stalenessTimerGate;
 }
 
+- (void)ic}@Camera profile settings is not initialized, skipping controller side checks to disallow snapshot requests;
+- (void)e snapshot session info for:%@ /* Error: Ran out of types for this method. */;
+- (void)the snapshot file %@;
+- (void)t %@:%@ /* Error: Ran out of types for this method. */;
+- (void)}@Failed to create snapshot file for request %@:%@ /* Error: Ran out of types for this method. */;
+- (void)te is not present in request:%@ /* Error: Ran out of types for this method. */;
+- (void)t session UUID or path or capture date is not present in request:%@ /* Error: Ran out of types for this method. */;
+- (void)ing stream setup %@:%@ /* Error: Ran out of types for this method. */;
+- (id)iting auto accept is expired - purging.;
+- (void)metadata for %@, removing it.;
+- (void)%@ with error %@;
+- (void)e has completed with error %@;
+- (void)e to primary resident disabled;
+- (_Bool)Modifying notification registrations resident due to primary resident disabled;
+- (_Bool)ed.;
+- (id)@:Fetch request with key(s) %{public}@ returned more than one result /* Error: Ran out of types for this method. */;
+- (void)Erroring out.;
+- (void)%{public}@DataStream transport closing.;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -55,21 +45,12 @@
 - (id);
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)appendDescription:prefix:toString: /* Error: Ran out of types for this method. */;
+- (_Bool)_checkItems:identifiers:protectionClass:bundleID: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) MSTimerGate *idleTimerGate; // @synthesize idleTimerGate=_idleTimerGate;
-@property(readonly, nonatomic) _Bool isAssertingBusyAssertion; // @synthesize isAssertingBusyAssertion=_isAssertingBusyAssertion;
-@property(nonatomic) _Bool isShuttingDown; // @synthesize isShuttingDown=_isShuttingDown;
-@property(nonatomic) int maxGroupedCallbackEventBatchCount; // @synthesize maxGroupedCallbackEventBatchCount=_maxGroupedCallbackEventBatchCount;
-@property(nonatomic) double maxGroupedCallbackEventIdleInterval; // @synthesize maxGroupedCallbackEventIdleInterval=_maxGroupedCallbackEventIdleInterval;
-@property(nonatomic) double maxGroupedCallbackEventStaleness; // @synthesize maxGroupedCallbackEventStaleness=_maxGroupedCallbackEventStaleness;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *memberQueue; // @synthesize memberQueue=_memberQueue;
-@property(nonatomic) __weak MSASServerSideModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) MSTimerGate *stalenessTimerGate; // @synthesize stalenessTimerGate=_stalenessTimerGate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

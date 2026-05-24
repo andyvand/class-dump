@@ -7,12 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBPatternModel
+- (NSData *);
+- (NSString *);
+- (NSData *)setChangeCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pattern_bundle_id;
 @property(copy, nonatomic) NSString *pattern_id;
-@property(copy, nonatomic) NSData *pattern_parameters;
-@property(copy, nonatomic) NSString *pattern_template_directory;
 @end
 

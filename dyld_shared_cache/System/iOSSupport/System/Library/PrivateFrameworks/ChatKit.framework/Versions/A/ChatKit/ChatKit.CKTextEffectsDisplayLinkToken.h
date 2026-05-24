@@ -7,7 +7,6 @@
 @interface ChatKit.CKTextEffectsDisplayLinkToken
 {
     id displayLink;
-    id invocationBlock;
 }
 
 - (void);

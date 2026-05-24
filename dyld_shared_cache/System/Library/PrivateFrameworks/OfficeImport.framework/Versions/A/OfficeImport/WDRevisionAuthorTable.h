@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WDDocument;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface WDRevisionAuthorTable
 {
     NSMutableArray *mAuthors;
-    WDDocument *mDocument;
 }
 
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ProposedStart;
 - (void)t is too small.;
 
 @end

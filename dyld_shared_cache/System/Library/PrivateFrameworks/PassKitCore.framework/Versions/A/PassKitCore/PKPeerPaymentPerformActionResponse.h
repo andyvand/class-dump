@@ -9,7 +9,6 @@
 @interface PKPeerPaymentPerformActionResponse : PKPeerPaymentWebServiceResponse
 {
     _Bool _success;
-    long long _status;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (_Bool)pb|cÔddeôgÜm;
 
 // Remaining properties
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

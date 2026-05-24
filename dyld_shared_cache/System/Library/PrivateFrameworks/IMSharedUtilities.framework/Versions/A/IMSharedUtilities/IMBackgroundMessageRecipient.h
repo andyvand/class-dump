@@ -9,7 +9,6 @@
 @interface IMBackgroundMessageRecipient
 {
     NSString *_phoneNumber;
-    NSString *_displayName;
 }
 
 + (_Bool);
@@ -21,11 +20,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)I7;
 - (void)Ò;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end

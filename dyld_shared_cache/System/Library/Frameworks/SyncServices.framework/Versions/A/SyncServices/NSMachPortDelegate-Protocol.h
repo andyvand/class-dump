@@ -5,5 +5,8 @@
 //
 
 @protocol NSMachPortDelegate
+
+@optional
+- (void);
 @end
 

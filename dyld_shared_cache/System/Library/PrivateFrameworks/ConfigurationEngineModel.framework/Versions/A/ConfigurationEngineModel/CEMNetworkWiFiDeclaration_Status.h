@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
++ (id)kA;
 - (id);
-- (_Bool);
+- (_Bool).NewAssetNotification;
 
 @end
 

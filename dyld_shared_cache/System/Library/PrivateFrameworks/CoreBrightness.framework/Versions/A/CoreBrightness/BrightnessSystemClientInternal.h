@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClientExportedObj, NSCondition, NSMutableArray, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSXPCConnection;
 
 @interface BrightnessSystemClientInternal
 {
     NSXPCConnection *_connection;
-    id _remote;
-    BrightnessSystemClientExportedObj *exportedObj;
-    NSMutableArray *_clientProperties;
-    NSCondition *copyPropertyForKeyWaitCondition;
-    _Bool copyPropertyForKeyCompleted;
-    _Bool _useSynchronousRemote;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)4*';
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)Video;
+- (_Bool)rowsperstrip:(id)arg1 %lu;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
+- (void)Q;
 - (void);
-- (void);
-- (void);
+- (void)CBDisplayClockSourceAdapter;
 
 @end
 

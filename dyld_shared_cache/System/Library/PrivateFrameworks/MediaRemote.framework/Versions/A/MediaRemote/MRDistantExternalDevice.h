@@ -6,46 +6,21 @@
 
 #import <MediaRemote/MRExternalDevice.h>
 
-@class MRAVDistantEndpoint, MRDeviceInfo, MRExternalOutputContextDataSource, MROrigin, NSArray, NSDate, NSError, NSMutableArray, NSObject, NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRDistantExternalDevice : MRExternalDevice
 {
     NSObject<OS_dispatch_queue> *_workerQueue;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _callbacks;
-    unsigned long long _deviceNotifications;
-    NSDate *_hasEverAttemptedToConnectDate;
-    MROrigin *_customOrigin;
-    _Bool _hasEverAtteptedToConnectWhileInvalid;
-    NSArray *_subscribedPlayerPaths;
-    MRExternalOutputContextDataSource *_externalOutputContext;
-    unsigned int _connectionOptions;
-    NSMutableArray *_pendingConnectionAttempts;
-    MRDeviceInfo *_deviceInfo;
-    NSError *_lastConnectionError;
-    NSDate *_onLock_connectionStateDate;
-    unsigned int _onLock_connectionState;
-    MRAVDistantEndpoint *_onLock_distantEndpoint;
-    _Bool _hasEverAttemptedToConnect;
-    unsigned long long _notifications;
-    CDUnknownBlockType _connectionStateCallback;
-    NSObject<OS_dispatch_queue> *_connectionStateCallbackQueue;
-    CDUnknownBlockType _customDataCallback;
-    NSObject<OS_dispatch_queue> *_customDataCallbackQueue;
-    CDUnknownBlockType _volumeCallback;
-    NSObject<OS_dispatch_queue> *_volumeCallbackQueue;
-    NSXPCConnection *_hostedExternalDeviceConnection;
 }
 
 + (id);
-+ (id);
++ (id)H5;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
@@ -57,6 +32,7 @@
 - (void);
 - (void);
 - (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -73,11 +49,23 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)?;
+- (void);
+- (void);
+- (void);
+- (id)Z;
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)hh8;
+- (void)hh8);
 - (void);
 - (void);
 - (void);
@@ -86,23 +74,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType);
+- (id)j8;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -115,47 +90,27 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)_passwordMustTextField;
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void)startRecordingForPendingSpeechRequestWithOptions:(id)arg1 completion:(id)arg2;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)groupedDevicesType;
 - (id)s;
-- (void)sDiscoveryMode;
+- (void)_previousEndpointsDiscoveryMode;
 - (void)cationRequest",R,N,V_request;
-- (unsigned long long)uests;
+- (unsigned long long)MRNowPlayingPlayerClientRequests;
 - (unsigned long long)R
 ;
 - (_Bool)E;
 - (id)väÿ<;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long callbacks;
 @property(copy, nonatomic) CDUnknownBlockType connectionStateCallback; // @synthesize connectionStateCallback=_connectionStateCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *connectionStateCallbackQueue; // @synthesize connectionStateCallbackQueue=_connectionStateCallbackQueue;
-@property(copy, nonatomic) CDUnknownBlockType customDataCallback; // @synthesize customDataCallback=_customDataCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *customDataCallbackQueue; // @synthesize customDataCallbackQueue=_customDataCallbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MRDeviceInfo *deviceInfo; // @dynamic deviceInfo;
-@property(retain, nonatomic) MRAVDistantEndpoint *distantEndpoint;
-@property(retain, nonatomic) MRExternalOutputContextDataSource *externalOutputContext;
-@property(readonly, nonatomic) _Bool hasEverAttemptedToConnect; // @synthesize hasEverAttemptedToConnect=_hasEverAttemptedToConnect;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCConnection *hostedExternalDeviceConnection; // @synthesize hostedExternalDeviceConnection=_hostedExternalDeviceConnection;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *listenerEndpoint;
-@property(readonly, nonatomic) unsigned long long notifications; // @synthesize notifications=_notifications;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType volumeCallback; // @synthesize volumeCallback=_volumeCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *volumeCallbackQueue; // @synthesize volumeCallbackQueue=_volumeCallbackQueue;
 
 @end
 

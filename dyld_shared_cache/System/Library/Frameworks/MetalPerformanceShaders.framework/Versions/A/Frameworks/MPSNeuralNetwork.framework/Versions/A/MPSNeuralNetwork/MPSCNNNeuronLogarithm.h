@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)+);
+- (id)setTensorAllocationSizeInBytes:(id)arg1;
 - (id);
 
 @end

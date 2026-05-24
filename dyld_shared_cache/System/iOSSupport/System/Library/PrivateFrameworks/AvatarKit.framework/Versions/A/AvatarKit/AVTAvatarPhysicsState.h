@@ -11,7 +11,7 @@
     NSDictionary *_dictionaryRepresentation;
 }
 
-- (id);
+- (id)ublic}@Unexpectedly got a watchdog fire event from an unexpected timer.;
 - (id);
 - (void);
 

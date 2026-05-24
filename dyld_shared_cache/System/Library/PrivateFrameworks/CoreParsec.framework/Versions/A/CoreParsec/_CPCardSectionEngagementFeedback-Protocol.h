@@ -4,23 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPCardSectionForFeedback, _CPPunchoutForFeedback;
+@class NSData, NSString, _CPCardSectionForFeedback;
 
 @protocol _CPCardSectionEngagementFeedback
+- (void)ts<uint64_t>, unsigned long long>>, Traits = WTF:(NSString *)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::RemoteMediaSessionProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)IdentityExtractor, WTF:(_Bool)arg1:DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)icationChallengeDisposition, WebCore:(NSString *)arg1:Credential &&)> &&) /* Error: Ran out of types for this method. */;
+- (void)yValuePairKeyExtractor<WTF:(int)arg1:KeyValuePair<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ng, std:(int)arg1:unique_ptr<WebKit::InspectorTargetProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *)WebKit::WebPageProxy, WeakPtrImpl = WTF::DefaultWeakPtrImpl, PtrTraits = WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>] /* Error: Ran out of types for this method. */;
+- (_Bool)aluePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *)be parsed because it doesn't have a path.;
+- (int)Traits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)F:(_CPCardSectionForFeedback *)arg1:KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (int);
+- (id)@;
+- (unsigned long long);
+- (NSData *)	;
 - (void)nkingFeedback"24@0:(int)arg1 8Q16;
-- (int)Percentage;
+- (int)_embeddedAssetsPercentage;
 
 // Remaining properties
-@property(nonatomic) int actionCardType;
-@property(nonatomic) int actionTarget;
-@property(retain, nonatomic) _CPCardSectionForFeedback *cardSection;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) _CPPunchoutForFeedback *destination;
-@property(nonatomic) _Bool destinationWasPARPunchout;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *parPunchoutActionTarget;
-@property(copy, nonatomic) NSString *resultId;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
 @end
 

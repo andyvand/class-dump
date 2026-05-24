@@ -8,9 +8,6 @@
 {
     id gridID;
     id type;
-    id ratePlan;
-    id requestId;
-    id HMACAuthInfo;
 }
 
 @end

@@ -6,32 +6,18 @@
 
 #import <HelpData/DDMObject.h>
 
-@class DDMBook, DDMMeta, DDMMisc, NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface DDMTopic : DDMObject
 {
     _Bool _allResourcesCached;
-    NSString *_tocID;
-    NSString *_title;
-    NSString *_locale;
-    NSString *_content;
-    DDMMeta *_meta;
-    NSArray *_articles;
-    NSString *_bookID;
-    NSDictionary *_bookInfo;
-    NSNumber *_count;
-    NSString *_topicID;
-    NSString *_articleID;
-    NSString *_searchTitle;
-    DDMMisc *_miscAttributes;
-    NSString *_bodyString;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ԁ;
 - (id);
 - (id);
 - (_Bool);
@@ -44,30 +30,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@0:8@16Q24I32B36 /* Error: Ran out of types for this method. */;
+- (id)swiftRuntimeInfoStableABI;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool allResourcesCached; // @synthesize allResourcesCached=_allResourcesCached;
-@property(readonly) NSString *articleID; // @synthesize articleID=_articleID;
-@property(readonly) NSArray *articles; // @synthesize articles=_articles;
-@property(readonly) NSString *bodyString; // @synthesize bodyString=_bodyString;
-@property(readonly) NSString *bookID; // @synthesize bookID=_bookID;
-@property(readonly) NSDictionary *bookInfo; // @synthesize bookInfo=_bookInfo;
-@property(readonly) NSString *content; // @synthesize content=_content;
-@property(readonly) NSNumber *count; // @synthesize count=_count;
-@property(readonly) DDMBook *ddmBook;
-@property(readonly) NSString *htmlTopic;
-@property(readonly) NSString *locale; // @synthesize locale=_locale;
-@property(readonly) DDMMeta *meta; // @synthesize meta=_meta;
-@property(readonly) DDMMisc *miscAttributes; // @synthesize miscAttributes=_miscAttributes;
-@property(readonly) NSString *searchTitle; // @synthesize searchTitle=_searchTitle;
-@property(readonly) NSString *title; // @synthesize title=_title;
 @property(readonly) NSString *tocID; // @synthesize tocID=_tocID;
-@property(readonly) NSString *topicID; // @synthesize topicID=_topicID;
 
 @end
 

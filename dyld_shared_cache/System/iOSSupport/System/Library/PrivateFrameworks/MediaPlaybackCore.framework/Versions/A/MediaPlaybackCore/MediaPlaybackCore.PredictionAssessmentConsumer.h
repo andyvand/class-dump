@@ -7,13 +7,12 @@
 @interface MediaPlaybackCore.PredictionAssessmentConsumer
 {
     id playbackEngine;
-    id subscription;
 }
 
-+ (void);
++ (void)__TEXT;
 + (unsigned int);
 + (void);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);

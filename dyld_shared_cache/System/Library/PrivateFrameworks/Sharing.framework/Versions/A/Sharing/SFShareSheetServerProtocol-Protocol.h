@@ -5,5 +5,7 @@
 //
 
 @protocol SFShareSheetServerProtocol
+- (void);
+- (void)8h;
 @end
 

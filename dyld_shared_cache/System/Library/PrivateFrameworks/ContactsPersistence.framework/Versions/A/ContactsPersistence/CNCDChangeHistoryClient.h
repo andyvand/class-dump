@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSPersistentHistoryToken, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface CNCDChangeHistoryClient
@@ -13,16 +13,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSPersistentHistoryToken *lastToken;
 @property(copy, nonatomic) NSData *lastTokenData; // @dynamic lastTokenData;
-@property(nonatomic) _Bool needsFullSync;
-@property(copy, nonatomic) NSNumber *needsFullSyncNumber; // @dynamic needsFullSyncNumber;
 
 @end
 

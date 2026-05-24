@@ -9,8 +9,6 @@
 @interface WidgetKit.DescriptorFetchResult
 {
     id widgetDescriptors;
-    id controlDescriptors;
-    id activityDescriptors;
 }
 
 + (_Bool);

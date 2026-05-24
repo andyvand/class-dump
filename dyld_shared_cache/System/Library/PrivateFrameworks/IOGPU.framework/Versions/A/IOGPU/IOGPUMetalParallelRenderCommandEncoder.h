@@ -8,13 +8,13 @@
 {
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)o %@ after getting its data;
 - (unsigned long long);
 
 @end

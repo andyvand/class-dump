@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDouble, _INPBInteger, _INPBIntentMetadata, _INPBString;
+@class _INPBDouble, _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBSetRadioStationIntent
+- (_INPBIntentMetadata *)Finder;
+- (_Bool);
+- (void)fileURLWithPath:(_INPBDouble *)arg1;
+- (void);
 - (_Bool)dioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest:internalSignals:entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate:alternativeProviderBundleIdentifier: /* Error: Ran out of types for this method. */;
-- (void)IntentData;
+- (void)INPrivateAddMediaIntentData;
 - (int)@;
 - (_INPBDouble *)lic}@;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *channel;
-@property(retain, nonatomic) _INPBDouble *frequency;
-@property(readonly, nonatomic) _Bool hasChannel;
-@property(readonly, nonatomic) _Bool hasFrequency;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasPresetNumber;
-@property(nonatomic) _Bool hasRadioType;
-@property(readonly, nonatomic) _Bool hasStationName;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBInteger *presetNumber;
-@property(nonatomic) int radioType;
-@property(retain, nonatomic) _INPBString *stationName;
 @end
 

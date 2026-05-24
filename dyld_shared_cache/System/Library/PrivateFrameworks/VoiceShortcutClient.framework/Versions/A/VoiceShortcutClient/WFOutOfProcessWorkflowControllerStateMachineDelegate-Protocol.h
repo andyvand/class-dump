@@ -5,5 +5,7 @@
 //
 
 @protocol WFOutOfProcessWorkflowControllerStateMachineDelegate
+- (void);
+- (void)G3|;
 @end
 

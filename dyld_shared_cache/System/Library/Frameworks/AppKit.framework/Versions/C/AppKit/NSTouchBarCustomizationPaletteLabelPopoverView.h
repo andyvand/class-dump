@@ -6,47 +6,28 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSImage, NSVisualEffectView, _NSCartoucheMaskLayer;
+@class NSVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPaletteLabelPopoverView : NSView
 {
     NSVisualEffectView *_backdrop;
-    _NSCartoucheMaskLayer *_backdropMask;
-    CALayer *_shadows;
-    CALayer *_primaryShadow;
-    _NSCartoucheMaskLayer *_primaryShadowShadow;
-    _NSCartoucheMaskLayer *_primaryShadowMask;
-    CALayer *_rimShadow;
-    _NSCartoucheMaskLayer *_rimShadowShadow;
-    _NSCartoucheMaskLayer *_rimShadowMask;
-    NSImage *_cartoucheImage;
-    struct CGSize _cartouchSize;
-    unsigned long long _cartoucheSide;
-    float _radius;
-    double _minHeight;
-    double _edgeInset;
-    NSView *_contentView;
-    double _center;
 }
 
 - (void);
 - (double);
 - (double);
 - (void);
-- (void);
-- (double);
-- (id)Pending:(struct CGRect)arg1;
-- (void)nHandler:(id)arg1;
+- (void)lue changes, missing delegate;
+- (double);
+- (id)setPending:(struct CGRect)arg1;
+- (void)_prepareToSaveToURL:(id)arg1 forSaveOperation:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)rameworks/FinderKit.framework/FinderKit;
 - (id)ËÅA;
 
 // Remaining properties
-@property double center;
 @property(retain) NSView *contentView;
-@property double edgeInset; // @synthesize edgeInset=_edgeInset;
-@property double minHeight; // @synthesize minHeight=_minHeight;
 
 @end
 

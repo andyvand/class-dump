@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSSet;
+@class NSSet;
 
 @interface WFContextualActionFilteringBehavior
 {
     NSSet *_matchingTypes;
-    NSPredicate *_inClientPredicate;
-    NSPredicate *_daemonPredicate;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)s;
 - (id);
 - (id);
 - (unsigned long long);
@@ -29,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSPredicate *daemonPredicate; // @synthesize daemonPredicate=_daemonPredicate;
-@property(readonly, nonatomic) NSPredicate *inClientPredicate; // @synthesize inClientPredicate=_inClientPredicate;
 @property(readonly, nonatomic) NSSet *matchingTypes; // @synthesize matchingTypes=_matchingTypes;
 
 @end

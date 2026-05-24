@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTRoutineManager;
+@class RTRoutineManager;
 
 @interface MapsSuggestionsRealRoutineConnector
 {
@@ -16,14 +16,14 @@
 - (void);
 - (void);
 - (id);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)IndexPathsMovedToIndexPath"b1"delegateDragOperationForItemsAtIndexPathsMovedOntoItemAtIndexPath"b1"dataSourceNumberOfSections"b1"dataSourceViewForSupplementaryElement"b1"reloadSkippedDuringSuspension"b1"scheduledUpdateVisibleCells"b1"scheduledUpdateVisibleCellLayoutAttributes"b1"allowsSelection"b1"allowsMultipleSelection"b1"fadeCellsForBoundsChange"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"skipCellsUpdateDuringResizing"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"accessibilityDelegateShouldPrepareAccessibilitySection"b1"accessibilityDelegateAXRoleDescription"b1"viewIsPrepared"b1"performingHitTest"b1};
 - (void);
 - (void)firesAt"@"NSDate"}};
 - (void)rgeFromSuggestionEntry:(id)arg1 behavior:(id)arg2 protectTitles:(id)arg3 protectTitleDecorations:(CDUnknownBlockType)arg4 protectMapItem:protectWeight:protectExpiration:protectIcon:] /* Error: Ran out of types for this method. */;
@@ -31,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

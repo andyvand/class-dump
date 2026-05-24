@@ -6,23 +6,21 @@
 
 #import <MediaRemote/MRBaseBannerRequest.h>
 
-@class MRStaticRouteBannerRequest, NSString;
+@class NSString;
 
 @interface MRRouteBannerRequest : MRBaseBannerRequest
 {
     NSString *_routeIdentifier;
-    unsigned long long _bannerType;
-    MRStaticRouteBannerRequest *_staticRequest;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)#;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)6B;
 - (id);
-- (void);
+- (void)6;
 - (unsigned long long);
 - (id);
 - (id);
@@ -30,9 +28,7 @@
 - (void)f",&,N,V_updatePlayerMessage;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bannerType; // @synthesize bannerType=_bannerType;
 @property(retain, nonatomic) NSString *routeIdentifier; // @synthesize routeIdentifier=_routeIdentifier;
-@property(retain, nonatomic) MRStaticRouteBannerRequest *staticRequest; // @synthesize staticRequest=_staticRequest;
 
 @end
 

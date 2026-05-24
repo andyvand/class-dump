@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface INFSentenceContext
 {
     NSNumber *_number;
-    unsigned long long _gender;
 }
 
 + (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long gender; // @synthesize gender=_gender;
 @property(copy, nonatomic) NSNumber *number; // @synthesize number=_number;
 
 @end

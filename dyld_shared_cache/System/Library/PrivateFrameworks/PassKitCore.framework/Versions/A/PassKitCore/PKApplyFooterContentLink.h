@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKApplyFooterContentLink
 {
     NSString *_linkText;
-    long long _behavior;
-    NSURL *_linkURL;
-    NSString *_termsIdentifier;
-    NSString *_analyticsIdentifier;
-    struct _NSRange _linkRange;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -28,25 +23,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (unsigned long long);
-- (long long);
-- (_Bool);
+- (long long)T&;
+- (_Bool)frameErasureRateHistograms;
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)eMap;
+- (id)_instrumentToDeviceMap;
 - (void).;
-- (void)Cloud;
+- (void)notSignedIntoiCloud;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *analyticsIdentifier; // @synthesize analyticsIdentifier=_analyticsIdentifier;
-@property(nonatomic) long long behavior; // @synthesize behavior=_behavior;
-@property(nonatomic) struct _NSRange linkRange; // @synthesize linkRange=_linkRange;
 @property(copy, nonatomic) NSString *linkText; // @synthesize linkText=_linkText;
-@property(copy, nonatomic) NSURL *linkURL; // @synthesize linkURL=_linkURL;
-@property(copy, nonatomic) NSString *termsIdentifier; // @synthesize termsIdentifier=_termsIdentifier;
 
 @end
 

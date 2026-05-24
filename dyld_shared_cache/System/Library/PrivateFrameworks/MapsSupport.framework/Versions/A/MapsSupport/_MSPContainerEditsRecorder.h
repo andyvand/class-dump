@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _MSPContainerEditsRecorder
 {
     NSMutableArray *_originalMutableArray;
-    NSMutableArray *_orderedEdits;
-    NSMutableSet *_updatedObjects;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)l;
+- (void);
+- (void);
+- (id)l;
 - (unsigned long long);
+- (void)l;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *orderedEdits;
 @property(readonly, nonatomic) NSMutableArray *recordableMutableArray;
 
 @end

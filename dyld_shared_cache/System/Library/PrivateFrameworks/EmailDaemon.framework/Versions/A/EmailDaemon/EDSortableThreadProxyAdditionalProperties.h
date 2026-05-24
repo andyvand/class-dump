@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlags, EMCategory, EMGeneratedSummary, EMReadLater, NSArray, NSDate, NSIndexSet, NSString;
+@class NSDate;
 
 @interface EDSortableThreadProxyAdditionalProperties
 {
     _Bool _hasUnflagged;
-    _Bool _isVIP;
-    _Bool _isBlocked;
-    _Bool _hasAttachments;
-    _Bool _isAuthenticated;
-    _Bool _allowAuthenticationWarning;
-    NSDate *_displayDate;
-    long long _businessID;
-    NSString *_businessLogoID;
-    EMCategory *_category;
-    EMReadLater *_readLater;
-    NSDate *_sendLaterDate;
-    unsigned long long _numberOfMessagesInThread;
-    long long _displayMessageGlobalID;
-    NSArray *_senderList;
-    NSArray *_toList;
-    NSArray *_ccList;
-    ECMessageFlags *_flags;
-    NSIndexSet *_flagColors;
-    NSArray *_mailboxObjectIDs;
-    EMGeneratedSummary *_generatedSummary;
 }
 
 - (void);
@@ -55,8 +35,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)%;
 - (void);
 - (_Bool);
 - (id);
@@ -66,37 +46,17 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)endpointdelegate_setCurrentVolumeSlider;
+- (id)_tdEvalStartedBySymptomsRTTFailCount;
+- (void)TD_roamStatus_FailedFilteredOut_Count_WhileTDWait;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)nt;
+- (void)vipCount;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAuthenticationWarning; // @synthesize allowAuthenticationWarning=_allowAuthenticationWarning;
-@property(nonatomic) long long businessID; // @synthesize businessID=_businessID;
-@property(copy, nonatomic) NSString *businessLogoID; // @synthesize businessLogoID=_businessLogoID;
-@property(retain, nonatomic) EMCategory *category; // @synthesize category=_category;
-@property(copy, nonatomic) NSArray *ccList; // @synthesize ccList=_ccList;
 @property(retain) NSDate *displayDate; // @synthesize displayDate=_displayDate;
-@property(nonatomic) long long displayMessageGlobalID; // @synthesize displayMessageGlobalID=_displayMessageGlobalID;
-@property(copy, nonatomic) NSIndexSet *flagColors; // @synthesize flagColors=_flagColors;
-@property(retain, nonatomic) ECMessageFlags *flags; // @synthesize flags=_flags;
-@property(retain, nonatomic) EMGeneratedSummary *generatedSummary; // @synthesize generatedSummary=_generatedSummary;
-@property(nonatomic) _Bool hasAttachments; // @synthesize hasAttachments=_hasAttachments;
-@property(nonatomic) _Bool hasUnflagged; // @synthesize hasUnflagged=_hasUnflagged;
-@property(nonatomic) _Bool isAuthenticated; // @synthesize isAuthenticated=_isAuthenticated;
-@property(nonatomic) _Bool isBlocked; // @synthesize isBlocked=_isBlocked;
-@property(nonatomic) _Bool isVIP; // @synthesize isVIP=_isVIP;
-@property(retain, nonatomic) NSArray *mailboxObjectIDs; // @synthesize mailboxObjectIDs=_mailboxObjectIDs;
-@property(nonatomic) unsigned long long numberOfMessagesInThread; // @synthesize numberOfMessagesInThread=_numberOfMessagesInThread;
-@property(retain) EMReadLater *readLater; // @synthesize readLater=_readLater;
-@property(retain) NSDate *sendLaterDate; // @synthesize sendLaterDate=_sendLaterDate;
-@property(copy, nonatomic) NSArray *senderList; // @synthesize senderList=_senderList;
-@property(copy, nonatomic) NSArray *toList; // @synthesize toList=_toList;
 
 @end
 

@@ -14,7 +14,7 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id) ;
 - (_Bool)IIQIQQQIQQIIIQIQIIQIIIIIIIIIIIIIIIICCCI[0I]IIiIIIIII}32;
 - (void);
 

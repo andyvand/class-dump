@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABGroupEntriesList, ABPersonEntriesList;
+@class ABAddressBook;
 
 @interface ABPeoplePickerExternalNotificationWatcher
 {
     ABAddressBook *_addressBook;
-    ABGroupEntriesList *_groupEntriesList;
-    ABPersonEntriesList *_personEntriesList;
 }
 
 - (id);

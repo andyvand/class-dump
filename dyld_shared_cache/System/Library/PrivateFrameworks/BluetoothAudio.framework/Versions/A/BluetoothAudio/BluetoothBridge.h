@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBDiscovery, CUSystemMonitor, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface BluetoothBridge
 {
     _Bool _targetUserSession;
-    _Bool _noHFPSupport;
-    NSObject<OS_dispatch_semaphore> *_connectedSemaphore;
-    struct OpaqueFigEndpointManager *_manager;
-    CBDiscovery *_deviceDiscovery;
-    CUSystemMonitor *_systemMonitor;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _lowerScanRate;
-    CDUnknownBlockType _activation;
-    CDUnknownBlockType _activationTimeoutBlock;
 }
 
 + (id);
 - (void);
-- (unsigned char);
+- (unsigned char)"	;
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (void)!;
+- (CDUnknownBlockType)`;
+- (void)tor setTdLogic_decisionState:(id)arg1 forInterface:(CDUnknownBlockType)arg2 ]_block_invoke;
 - (void);
 - (void);
 - (struct __CFDictionary *);
@@ -35,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ionary",&,N,V_objectIDsToMoveByBeforeObjectID;
 - (void);
 - (void);
 - (void);
@@ -47,7 +35,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)%@:(id)arg1 Protection data didn't match;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -60,16 +48,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType activation; // @synthesize activation=_activation;
-@property(copy) CDUnknownBlockType activationTimeoutBlock; // @synthesize activationTimeoutBlock=_activationTimeoutBlock;
-@property(retain) NSObject<OS_dispatch_semaphore> *connectedSemaphore; // @synthesize connectedSemaphore=_connectedSemaphore;
-@property(retain) CBDiscovery *deviceDiscovery; // @synthesize deviceDiscovery=_deviceDiscovery;
-@property(copy) CDUnknownBlockType lowerScanRate; // @synthesize lowerScanRate=_lowerScanRate;
-@property(nonatomic) struct OpaqueFigEndpointManager *manager; // @synthesize manager=_manager;
 @property(nonatomic) _Bool noHFPSupport; // @synthesize noHFPSupport=_noHFPSupport;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) CUSystemMonitor *systemMonitor; // @synthesize systemMonitor=_systemMonitor;
-@property _Bool targetUserSession; // @synthesize targetUserSession=_targetUserSession;
 
 @end
 

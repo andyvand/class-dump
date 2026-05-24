@@ -9,18 +9,16 @@
 @interface _EMBlockedSenderState
 {
     _Bool _valid;
-    EAEmailAddressSet *_blockedSenders;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)<;
 - (void);
-- (void);
+- (void)ork/Versions/A/UniformTypeIdentifiers;
 
 // Remaining properties
 @property(retain, nonatomic) EAEmailAddressSet *blockedSenders; // @synthesize blockedSenders=_blockedSenders;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

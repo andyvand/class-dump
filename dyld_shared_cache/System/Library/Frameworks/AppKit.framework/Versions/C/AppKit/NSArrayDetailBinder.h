@@ -16,30 +16,30 @@ __attribute__((visibility("hidden")))
     } _arrayDetailBinderFlags;
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool)orProtSpace - Error removing cred.  Error=%d, query=%@;
++ (id)NSURLDownloadEntityTag;
++ (id)eHandle"16;
 - (void);
+- (_Bool)set_TCPAdaptiveWriteTimeout: /* Error: Ran out of types for this method. */;
+- (_Bool)caseInsensitiveCompare:(id)arg1;
+- (_Bool)cancelTaskWithIdentifier:(unsigned long long)arg1;
+- (void)_temporaryDestinationURL;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
+- (_Bool)CONNECTProperties=%@, transparent=%s};
+- (_Bool)ube.h;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void)!ì/! @ù1á3°1Â0@ù

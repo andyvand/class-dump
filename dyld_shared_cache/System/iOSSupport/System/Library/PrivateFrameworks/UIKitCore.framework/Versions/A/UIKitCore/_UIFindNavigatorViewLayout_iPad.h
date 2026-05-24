@@ -12,17 +12,14 @@ __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorViewLayout_iPad : _UIFindNavigatorViewLayout
 {
     UIStackView *_containerStackView;
-    UIStackView *_contentStackView;
-    UIStackView *_textFieldsStackView;
-    UIStackView *_nextPrevStackView;
 }
 
 - (void);
-- (void);
+- (void)sendUnApproveToDevice:extraKeys: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double)ePresentationContext";
-- (id)hSupportedOrientations:(struct CGRect)arg1 preferredOrientation:forImmediateCommit:reason: /* Error: Ran out of types for this method. */;
+- (id)_createForcedOrientationTransactionTokenWithSupportedOrientations:(struct CGRect)arg1 preferredOrientation:forImmediateCommit:reason: /* Error: Ran out of types for this method. */;
 - (void)\;
 
 @end

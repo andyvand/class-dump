@@ -9,20 +9,16 @@
 @interface ACCredentialCache
 {
     unsigned int _validityDuration;
-    struct os_unfair_lock_s _credentialCacheLock;
-    struct os_unfair_lock_s _expirersLock;
-    NSMutableDictionary *_expirersByCredentialKey;
-    NSMutableDictionary *_cachedCredentials;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -32,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *cachedCredentials; // @synthesize cachedCredentials=_cachedCredentials;
 @property(retain) NSMutableDictionary *expirersByCredentialKey; // @synthesize expirersByCredentialKey=_expirersByCredentialKey;
 
 @end

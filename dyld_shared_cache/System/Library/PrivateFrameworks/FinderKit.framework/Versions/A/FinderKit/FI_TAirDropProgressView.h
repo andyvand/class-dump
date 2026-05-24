@@ -6,41 +6,31 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TAirDropProgressLayer, NSString;
+@class FI_TAirDropProgressLayer;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropProgressView : FI_TUpdateLayerView
 {
     FI_TAirDropProgressLayer *_progressLayer;
-    _Bool _pressed;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)setDidPasteAddresses: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (_Bool)õð1Â0@ù
 × ;
-- (void)tyForOrientation:(_Bool)arg1;
+- (void)contentHuggingPriorityForOrientation:(_Bool)arg1;
 - (void);
 - (void)ÄÄ;
 - (double)er makeNewFolderForSavePanel:]E4$_17 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool indeterminate;
 @property(nonatomic) double percentComplete;
-@property(nonatomic) _Bool pressed; // @synthesize pressed=_pressed;
-@property(readonly) Class superclass;
 
 @end
 

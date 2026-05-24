@@ -6,18 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSArray, NSDate, NSManagedObjectID, NSMutableArray, NSString, PHCollectionShare, PHObjectPlaceholder, PHShareAssetChangeRequestHelper, PHShareParticipantRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class PHShareAssetChangeRequestHelper;
 
 @interface PHCollectionShareChangeRequest : PHChangeRequest
 {
     _Bool _runningAsUnitTest;
-    _Bool _changedAssets;
-    PHShareAssetChangeRequestHelper *_assetsHelper;
-    PHShareParticipantRelationshipChangeRequestHelper *_participantsHelper;
-    PHCollectionShare *_originalCollectionShare;
-    NSArray *_participantsUnsharedFromCollectionShare;
-    NSMutableArray *_cloudStreamPublishJobs;
 }
 
 + (void);
@@ -30,14 +23,14 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)`n n;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)qk;
 - (void);
 - (void);
 - (_Bool);
@@ -48,7 +41,7 @@
 - (id);
 - (short);
 - (void);
-- (id);
+- (id)`*;
 - (id);
 - (id);
 - (void);
@@ -60,7 +53,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -77,42 +70,10 @@
 - (id);
 - (void)erviceClient;
 - (void)¨;
-- (id)lished;
+- (id)published;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
 @property(readonly, nonatomic) PHShareAssetChangeRequestHelper *assetsHelper; // @synthesize assetsHelper=_assetsHelper;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(nonatomic) _Bool changedAssets; // @synthesize changedAssets=_changedAssets;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(retain, nonatomic) NSMutableArray *cloudStreamPublishJobs; // @synthesize cloudStreamPublishJobs=_cloudStreamPublishJobs;
-@property(retain, nonatomic) NSDate *creationDate;
-@property(nonatomic) _Bool customSortAscending;
-@property(nonatomic) unsigned int customSortKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(nonatomic) short notificationState;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(nonatomic) __weak PHCollectionShare *originalCollectionShare; // @synthesize originalCollectionShare=_originalCollectionShare;
-@property(readonly, nonatomic) PHShareParticipantRelationshipChangeRequestHelper *participantsHelper; // @synthesize participantsHelper=_participantsHelper;
-@property(retain, nonatomic) NSArray *participantsUnsharedFromCollectionShare; // @synthesize participantsUnsharedFromCollectionShare=_participantsUnsharedFromCollectionShare;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedCollectionShare;
-@property(nonatomic) short publicPermission;
-@property(nonatomic) short publicURLState;
-@property(nonatomic) _Bool runningAsUnitTest; // @synthesize runningAsUnitTest=_runningAsUnitTest;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface AppStoreKit.TopChartSegment : AppStoreKit.BasePage
 {
     id shelfOrdering;
-    id shelfMapping;
-    id shortName;
-    id longName;
-    id isIncomplete;
-    id nextPage;
 }
 
 @end

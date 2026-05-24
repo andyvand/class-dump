@@ -7,12 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBToggleAudioCommand
+- (NSData *)ion",&,N,V_suggestion;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *localMediaIdentifier;
-@property(nonatomic) int mediaEntityType;
-@property(copy, nonatomic) NSString *persistentIdentifier;
-@property(copy, nonatomic) NSString *universalLibraryIdentifier;
 @end
 

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString, PHPhotoLibrary;
+@class NSObject, PHPhotoLibrary;
 @protocol OS_dispatch_queue;
 
 @interface PXPhotosAssetsFetcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_queue_cachedFetchResultsByContainerByConfiguration;
-    PHPhotoLibrary *_photoLibrary;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
-- (void);
+- (void)8;
 - (id);
 - (id);
 - (void);
@@ -27,6 +25,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,13 +37,12 @@
 - (id);
 - (id);
 - (id);
+- (id)`.;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)&Q�H;
 - (id);
 - (void);
 - (id);
@@ -52,14 +50,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

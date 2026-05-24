@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor, UIFont, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewCellBadge : UIView
@@ -16,36 +16,30 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
-- (struct CGSize);
+- (id)Q};
+- (void)g9;
+- (struct CGSize);
 - (void);
 - (id);
 - (_Bool);
 - (id)1Â0@ù
 × ;
-- (void)ingFiler:(id)arg1;
-- (void)pdateSingleLayerNoMaskFromLayerStack;
-- (id)elta;
+- (void)setLightModeCompositingFiler:(id)arg1;
+- (void)_updateSingleLayerNoMaskFromLayerStack;
+- (id)_lengthDelta;
 - (void)ketContainerInteraction;
 - (id)Äü!¸ýpþlÿ$;
 - (void)'((;
 - (void)e;
 - (void)ApplicationTesting) _performIOSMacResizeTestUsingTestName:(id)arg1 ];
 - (void)nsitionContext"16;
-- (_Bool)eOverrideCallRinging;
+- (_Bool)UIStatusBarStyleOverrideCallRinging;
 - (void)ÿöñoþ;
-- (_Bool)ightEffect;
+- (_Bool)UIHoverHighlightEffect;
 - (_Bool)33ÄÁ;
 
 // Remaining properties
-@property(nonatomic) _Bool accessoryUsesMonochromaticTreatment;
-@property(nonatomic) _Bool adjustsFontForContentSizeCategory;
 @property(retain, nonatomic) UILabel *badgeTextLabel; // @synthesize badgeTextLabel=_badgeTextLabel;
-@property(retain, nonatomic) UIColor *color;
-@property(retain, nonatomic) UIFont *font;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

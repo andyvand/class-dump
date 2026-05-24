@@ -6,16 +6,13 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface SFContactImage : SFImage
 {
     struct {
         unsigned int threeDTouchEnabled:1;
     } _has;
-    _Bool _threeDTouchEnabled;
-    NSArray *_contactIdentifiers;
-    NSString *_appIconBadgeBundleIdentifier;
 }
 
 + (_Bool);
@@ -24,44 +21,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)representationToken;
+- (void)_initWithIdentifier:(_Bool)arg1 hashedPersonID:flavor:url:miniSINF:sinfs: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)%s is not open;
+- (_Bool);
+- (void)Started = YES;
+- (id)2^@40^@48;
+- (id)childDayGroupPhotosHighlights = %@;
 - (id);
 - (id);
 - (void)_countUnigramPrefixMatchInAuthors;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(copy, nonatomic) NSString *appIconBadgeBundleIdentifier; // @synthesize appIconBadgeBundleIdentifier=_appIconBadgeBundleIdentifier;
-@property(retain, nonatomic) SFImage *badgingImage;
 @property(copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool threeDTouchEnabled; // @synthesize threeDTouchEnabled=_threeDTouchEnabled;
 
 @end
 

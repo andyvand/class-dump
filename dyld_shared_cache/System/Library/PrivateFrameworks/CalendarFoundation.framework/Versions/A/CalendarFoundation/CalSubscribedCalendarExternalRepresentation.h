@@ -11,14 +11,14 @@
 + (unsigned long long);
 + (id);
 + (void);
-+ (int);
++ (int)response2;
 + (id);
 + (void);
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (void);
++ (void)whitespaceCharacterSet;
++ (void)ned WebClip payload;
 
 @end
 

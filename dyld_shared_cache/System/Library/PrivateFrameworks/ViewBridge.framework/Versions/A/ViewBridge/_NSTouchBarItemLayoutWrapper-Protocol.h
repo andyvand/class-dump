@@ -8,45 +8,11 @@
 - (struct CGSize)?<v@?B>24;
 - (struct CGSize)Üä;
 
+@optional
+- (double);
+- (struct CGSize);
+
 // Remaining properties
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long itemPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct CGSize maxSize;
 @property(readonly) struct CGSize minSize;
-@property(readonly) _Bool participatesInOverflow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) long long priorityIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
 @end
 

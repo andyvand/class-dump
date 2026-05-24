@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface MKAttributedStringBlendingConfiguration
 {
     MKAttributedStringVibrancySplitter *_vibrancySplitter;
-    long long _labelBlendingMode;
 }
 
 - (id);
 - (void);
-- (void)ale: /* Error: Ran out of types for this method. */;
+- (void)drawTileAtPath:withTile:inIOSurface:withTimestamp:withTileScale: /* Error: Ran out of types for this method. */;
 
 @end
 

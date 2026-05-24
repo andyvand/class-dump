@@ -6,6 +6,6 @@
 
 @interface UnknownClass (VCAdditions)
 + (id);
-+ (id);
++ (id)!;
 @end
 

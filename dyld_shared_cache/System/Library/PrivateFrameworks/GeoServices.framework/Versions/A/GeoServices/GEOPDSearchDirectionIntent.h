@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)rote_anyField"b1};
-- (id)pResult;
+- (id)_placeLookupResult;
 - (id)(;
 - (void)I± H@;
 

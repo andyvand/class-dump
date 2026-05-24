@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface LASerialSchedulerInternal
 {
     _Bool _running;
-    _Bool _performingPendingOperations;
-    NSMutableArray *_pendingOperations;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

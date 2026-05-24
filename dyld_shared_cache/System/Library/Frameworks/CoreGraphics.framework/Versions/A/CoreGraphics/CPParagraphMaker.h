@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPPage, CPZone, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CPParagraphMaker
 {
     NSMutableArray *avail;
-    NSMutableArray *paragraphs;
-    NSMutableArray *compoundedShapesOnPage;
-    _Bool spacingSet;
-    double currentSpacing;
-    CPZone *parent;
-    CPPage *page;
 }
 
 + (_Bool);

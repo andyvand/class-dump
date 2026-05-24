@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTView, AVTViewUpdater, UIView;
-@protocol AVTViewSessionDelegate;
-
 @interface AVTViewSession
 {
     _Bool _active;
-    UIView *_avtViewContainer;
-    AVTView *_avtView;
-    AVTViewUpdater *_avtViewUpdater;
-    CDUnknownBlockType _becomeActiveHandler;
-    CDUnknownBlockType _tearDownHandler;
-    id <AVTViewSessionDelegate> _delegate;
-    struct CGSize _aspectRatio;
 }
 
 - (void);
@@ -24,13 +14,13 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (id);
+- (void)_Transitions;
+- (id)@D;
 - (void);
 - (_Bool);
 - (void);
@@ -39,13 +29,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) struct CGSize aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(nonatomic) AVTView *avtView; // @synthesize avtView=_avtView;
-@property(nonatomic) UIView *avtViewContainer; // @synthesize avtViewContainer=_avtViewContainer;
-@property(nonatomic) AVTViewUpdater *avtViewUpdater; // @synthesize avtViewUpdater=_avtViewUpdater;
-@property(readonly, copy, nonatomic) CDUnknownBlockType becomeActiveHandler; // @synthesize becomeActiveHandler=_becomeActiveHandler;
-@property(nonatomic) __weak id <AVTViewSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) CDUnknownBlockType tearDownHandler; // @synthesize tearDownHandler=_tearDownHandler;
 
 @end
 

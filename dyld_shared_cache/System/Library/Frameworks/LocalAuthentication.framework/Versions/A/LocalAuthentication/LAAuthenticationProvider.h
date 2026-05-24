@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
-@protocol LAAuthenticationProviderDaemonProtocol;
+@class NSMutableDictionary, NSString;
 
 @interface LAAuthenticationProvider
 {
     NSMutableDictionary *_modules;
-    NSString *_activeModuleId;
-    id <LAAuthenticationProviderDaemonProtocol> _daemon;
-    NSDictionary *_additionalVerifyInfo;
 }
 
 + (id);
@@ -34,7 +30,6 @@
 
 // Remaining properties
 @property(copy) NSString *activeModuleId;
-@property(readonly, copy) NSDictionary *additionalVerifyInfo; // @synthesize additionalVerifyInfo=_additionalVerifyInfo;
 
 @end
 

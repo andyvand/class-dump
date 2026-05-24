@@ -6,14 +6,11 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class CoreDAVPropFindTask, NSSet, NSString, NSURL;
+@class NSSet;
 
 @interface CoreDAVUpdateACLTaskGroup : CoreDAVTaskGroup
 {
     int _state;
-    NSSet *_aceItems;
-    NSURL *_url;
-    CoreDAVPropFindTask *_fetchTask;
 }
 
 - (void);
@@ -24,27 +21,17 @@
 - (id);
 - (id);
 - (void);
+- (void)cation;
 - (void);
-- (void);
-- (int);
-- (void);
+- (int)esult",&,N,V_allShared;
+- (void)(;
 - (void);
 - (id);
-- (void);
+- (void)EWSEmailAddressType;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *aceItems; // @synthesize aceItems=_aceItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CoreDAVPropFindTask *fetchTask; // @synthesize fetchTask=_fetchTask;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

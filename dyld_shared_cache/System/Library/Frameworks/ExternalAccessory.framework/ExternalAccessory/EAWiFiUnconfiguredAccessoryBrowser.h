@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPredicate, NSSet;
-@protocol EAWiFiUnconfiguredAccessoryBrowserDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EAWiFiUnconfiguredAccessoryBrowser
 {
     _Bool __debugLog;
-    id <EAWiFiUnconfiguredAccessoryBrowserDelegate> _delegate;
-    NSSet *_unconfiguredAccessories;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSPredicate *_accessorySearchPredicate;
 }
 
 - (id);
@@ -22,20 +18,17 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id)_;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)V_appSelectionCancelButton;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSPredicate *accessorySearchPredicate; // @synthesize accessorySearchPredicate=_accessorySearchPredicate;
-@property(nonatomic) __weak id <EAWiFiUnconfiguredAccessoryBrowserDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSSet *unconfiguredAccessories; // @synthesize unconfiguredAccessories=_unconfiguredAccessories;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface EDCategorizationProgress
 {
     unsigned long long _totalMessagesToCategorize;
-    unsigned long long _categorizedMessages;
 }
 
 - (unsigned long long);
@@ -15,7 +14,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long categorizedMessages; // @synthesize categorizedMessages=_categorizedMessages;
 @property(readonly, nonatomic) unsigned long long totalMessagesToCategorize; // @synthesize totalMessagesToCategorize=_totalMessagesToCategorize;
 
 @end

@@ -9,6 +9,8 @@
 @protocol HMHomeManagerDelegate
 
 @optional
-- (void)tional:(HMHomeManager *)arg1;
+- (void)ySkc;
+- (void)	;
+- (void)_stringValueFromDictionary:(HMHomeManager *)arg1 key:isOptional: /* Error: Ran out of types for this method. */;
 @end
 

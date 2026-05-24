@@ -6,50 +6,44 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPButtonStyle, LPCaptionButtonPresentationProperties, LPCircularProgressIndicator, UIButton, UISegmentedControl;
+@class LPCaptionButtonPresentationProperties;
 
 __attribute__((visibility("hidden")))
 @interface LPCaptionBarButtonView : LPComponentView
 {
     LPCaptionButtonPresentationProperties *_properties;
-    LPButtonStyle *_style;
-    UIButton *_button;
-    UIButton *_collapsedButton;
-    UISegmentedControl *_segmentedControl;
-    LPCircularProgressIndicator *_progressIndicator;
-    _Bool _collapsed;
 }
 
 - (id);
 - (void);
+- (id);
+- (void)tableView:previewForHighlightingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)systemDidLeaveFirstDataProtectionLock;
+- (void)suggestionPresenterWantsToShowBanner:(id)arg1;
+- (void)stopRecordingAndPlaySound:completion: /* Error: Ran out of types for this method. */;
+- (id)stateRestorationActivityForScene:(id)arg1;
+- (_Bool)startListeningForAppBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)splitViewControllerDidExpand: /* Error: Ran out of types for this method. */;
+- (id)splitViewController:willShowColumn: /* Error: Ran out of types for this method. */;
+- (void)splitViewController:(id)arg1 willHideColumn: /* Error: Ran out of types for this method. */;
+- (void)splitViewController:(id)arg1 willChangeToDisplayMode: /* Error: Ran out of types for this method. */;
+- (void)splitViewController:(id)arg1 topColumnForCollapsingToProposedTopColumn: /* Error: Ran out of types for this method. */;
+- (void)splitViewController:(id)arg1 topColumnForCollapsingToProposedTopColumn:(id)arg2;
+- (struct CGSize)specialization;
+- (_Bool)showOrHideAcceptedContactBannerIfNeeded;
+- (_Bool)showOrHideAcceptedContactBannerIfNeeded;
+- (_Bool)showNicknameSharingOnboardingWithMemoji: /* Error: Ran out of types for this method. */;
+- (_Bool)ndler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
+- (void);
+- (struct CGSize)ordforSelf"b1"newPasswordRequired"b1"requiresMixedCase"b1"hcLowBits"b3"expirationDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"hardExpireDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"maxMinutesUntilChangePassword"I"maxMinutesUntilDisabled"I"maxMinutesOfNonUse"I"maxFailedLoginAttempts"S"minChars"S"maxChars"S}"origAccess"{PWGlobalAccessFeatures="hcHighBit"b1"passwordCannotBeName"b1"passwordIsHash"b1"requiresNumeric"b1"requiresAlpha"b1"usingHardExpirationDate"b1"usingExpirationDate"b1"usingHistory"b1"unused"b1"requiresSymbol"b1"noModifyPasswordforSelf"b1"newPasswordRequired"b1"requiresMixedCase"b1"hcLowBits"b3"expirationDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"hardExpireDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"maxMinutesUntilChangePassword"I"maxMinutesUntilDisabled"I"maxMinutesOfNonUse"I"maxFailedLoginAttempts"S"minChars"S"maxChars"S}"weakAuthMethods"[25{AuthMethName="method"[21c]}]"origWeakAuthMethods"[25{AuthMethName="method"[21c]}]"publicKeyLen"I"publicKey"[1024C]"origPublicKey"[1024C]"privateKeyLen"I"privateKey"[2048C]"origPrivateKey"[2048C]"extraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}"origExtraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}};
+- (id)groupSessionMessage;
+- (void)mentInfo.stickerBalloonBundleID;
 - (_Bool);
 - (void)1Â0@ù
 × ;
 - (void);
-- (void)ssetType;
+- (void)LPMetadataARAssetType;
 
 // Remaining properties
 @property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;

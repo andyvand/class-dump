@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SHKAutoLayoutConstraintPair
 {
     NSLayoutConstraint *_firstConstraint;
-    NSLayoutConstraint *_secondConstraint;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSLayoutConstraint *firstConstraint; // @synthesize firstConstraint=_firstConstraint;
-@property(readonly) NSLayoutConstraint *secondConstraint; // @synthesize secondConstraint=_secondConstraint;
 
 @end
 

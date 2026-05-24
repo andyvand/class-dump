@@ -7,11 +7,6 @@
 @interface PKRendererTileProperties
 {
     _Bool _sixChannelMode;
-    _Bool _extendedDynamicRange;
-    _Bool _transparentBlending;
-    long long _level;
-    struct CGPoint _offset;
-    struct CGAffineTransform _drawingTransform;
 }
 
 - (_Bool);
@@ -22,16 +17,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (struct CGPoint)deredStrokes:wasAddedEarly:hidden:preDrawingChangedBlock: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)addNewRenderedStrokes:wasAddedEarly:hidden:preDrawingChangedBlock: /* Error: Ran out of types for this method. */;
 - (long long)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform drawingTransform; // @synthesize drawingTransform=_drawingTransform;
-@property(readonly, nonatomic) _Bool extendedDynamicRange; // @synthesize extendedDynamicRange=_extendedDynamicRange;
 @property(readonly, nonatomic) long long level; // @synthesize level=_level;
-@property(readonly, nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) _Bool sixChannelMode; // @synthesize sixChannelMode=_sixChannelMode;
-@property(readonly, nonatomic) _Bool transparentBlending; // @synthesize transparentBlending=_transparentBlending;
 
 @end
 

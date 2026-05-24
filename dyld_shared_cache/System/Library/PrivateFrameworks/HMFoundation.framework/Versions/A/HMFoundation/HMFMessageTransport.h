@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void)v32@0:(id)arg1 8@"NSArray"16@?<v@?@"NSError">24;
 - (void);
 
 // Remaining properties

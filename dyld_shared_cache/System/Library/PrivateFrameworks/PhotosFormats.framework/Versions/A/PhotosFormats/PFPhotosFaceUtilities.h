@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (long long);
-+ (_Bool);
++ (_Bool);
 + (struct CGSize);
 + (id);
 + (id);

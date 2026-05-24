@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString, SFLatLng;
+@class NSString;
 
 @protocol SFWeatherColor
+- (double)p ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double cloudCover;
-@property(nonatomic) double cloudCoverHighAltPct;
-@property(nonatomic) double cloudCoverLowAltPct;
-@property(nonatomic) double cloudCoverMidAltPct;
 @property(copy, nonatomic) NSString *condition;
-@property(copy, nonatomic) NSDate *date;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLatLng *location;
 @end
 

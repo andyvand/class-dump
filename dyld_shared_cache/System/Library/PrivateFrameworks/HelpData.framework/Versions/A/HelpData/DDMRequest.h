@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface DDMRequest
 {
     unsigned int _requestType;
-    NSString *_ddmID;
-    NSString *_ddmBookID;
-    NSString *_language;
-    NSString *_product;
-    NSString *_platform;
-    NSString *_platformVersion;
-    NSString *_productVersion;
 }
 
 + (id);
@@ -23,27 +14,19 @@
 - (id);
 - (id);
 - (id);
+- (id)4;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)rTraits;
 - (void);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) NSString *ddmBookID; // @synthesize ddmBookID=_ddmBookID;
-@property(readonly) NSString *ddmID; // @synthesize ddmID=_ddmID;
-@property(readonly) NSURL *ddmURL;
-@property(readonly) NSString *language; // @synthesize language=_language;
-@property(readonly) NSString *platform; // @synthesize platform=_platform;
-@property(readonly) NSString *platformVersion; // @synthesize platformVersion=_platformVersion;
-@property(readonly) NSString *product; // @synthesize product=_product;
-@property(readonly) NSString *productVersion; // @synthesize productVersion=_productVersion;
 @property(readonly) unsigned int requestType; // @synthesize requestType=_requestType;
 
 @end

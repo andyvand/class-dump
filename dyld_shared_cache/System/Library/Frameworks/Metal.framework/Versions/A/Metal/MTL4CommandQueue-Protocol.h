@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @protocol MTL4CommandQueue
+- (void)LanguageCodeSequence;
+- (id <MTLDevice>)9TTracking;
+- (void);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
 @end
 

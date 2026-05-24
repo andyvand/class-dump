@@ -7,16 +7,11 @@
 @interface NewsFeed.VideoLiveStreamOverlayView
 {
     id isMuted;
-    id muteAction;
-    id liveIcon;
-    id durationView;
-    id muteButton;
-    id buttonDimension;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)source.;
 - (id)1Â0@ù
 × ;
 - (void)à±wþUQ:¨}ªþ /* Error: Ran out of types for this method. */;

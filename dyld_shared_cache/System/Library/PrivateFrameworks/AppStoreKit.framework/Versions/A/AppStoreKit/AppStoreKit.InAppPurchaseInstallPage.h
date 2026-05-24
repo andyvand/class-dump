@@ -7,11 +7,6 @@
 @interface AppStoreKit.InAppPurchaseInstallPage
 {
     id lockup;
-    id parentLockup;
-    id preInstallOfferDescription;
-    id pageMetrics;
-    id pageRenderEvent;
-    id isComplete;
 }
 
 @end

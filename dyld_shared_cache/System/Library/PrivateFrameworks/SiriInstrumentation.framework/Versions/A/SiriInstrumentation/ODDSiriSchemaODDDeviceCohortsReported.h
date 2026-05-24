@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODDSiriSchemaODDDeviceCohortsReported : SISchemaInstrumentationMessage
 {
@@ -16,14 +16,14 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)A�;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)actoryData/System/Library/Caches/Repair;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -35,7 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cohorts; // @synthesize cohorts=_cohorts;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

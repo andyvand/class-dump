@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXComponentAnimationController, SXComponentBehaviorController, SXFullscreenVideoPlaybackManager, SXMediaPlaybackController, SXPresentationAttributes, SXTangierController;
-@protocol SXAdDocumentStateManager, SXComponentController, SXTextSelectionManager;
+@class SXComponentAnimationController, SXMediaPlaybackController;
+@protocol SXComponentController, SXTextSelectionManager;
 
 @protocol SXPresentationDelegate
+- (id <SXTextSelectionManager>);
+- (SXMediaPlaybackController *);
+- (_Bool)z;
+- (SXComponentAnimationController *)@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAdDocumentStateManager> adDocumentStateManager;
-@property(readonly, nonatomic) SXComponentAnimationController *animationController;
-@property(readonly, nonatomic) SXComponentBehaviorController *behaviorController;
 @property(readonly, nonatomic) id <SXComponentController> componentController;
-@property(readonly, nonatomic) SXFullscreenVideoPlaybackManager *fullscreenVideoPlaybackManager;
-@property(readonly, nonatomic) SXMediaPlaybackController *mediaPlaybackController;
-@property(readonly, nonatomic) SXPresentationAttributes *presentationAttributes;
-@property(readonly, nonatomic) SXTangierController *tangierController;
-@property(readonly, nonatomic) id <SXTextSelectionManager> textSelectionManager;
 @end
 

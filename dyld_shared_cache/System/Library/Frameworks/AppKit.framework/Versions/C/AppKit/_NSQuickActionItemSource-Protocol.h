@@ -4,15 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSServicesRequestor, _NSQuickActionItemSource;
+@class NSView, NSWindow, _NSQuickAction;
+@protocol NSServicesMenuRequestor, NSServicesRequestor;
 
 @protocol _NSQuickActionItemSource
 
-// Remaining properties
-@property(readonly) id <_NSQuickActionItemSource> additionalQuickActionItemSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<_NSQuickActionItemSource>",?,R
+@optional
+- (id <NSServicesMenuRequestor>);
+- (void)-location) had unexpected size;
+- (void)viceTreeProperty(IODeviceTree:(_NSQuickAction *)arg1 /product side-button-location) had unexpected size;
+- (NSWindow *));
+- (void)operty(IODeviceTree:(_NSQuickAction *)arg1 /product side-button-location);
+- (void)g AppleHDQGasGaugeControl;
+- (NSView *)yInstalledKey;
 
+// Remaining properties
 @property(readonly) __weak id <NSServicesRequestor> servicesRequestor;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<NSServicesRequestor>",?,R,W

@@ -6,13 +6,11 @@
 
 @interface _MRVideoThumbnailRequestProtobuf
 {
-    CDStruct_82f37d05 _timeIntervals;
-    float _thumbnailsHeight;
-    float _thumbnailsWidth;
     struct {
-        unsigned int thumbnailsHeight:1;
-        unsigned int thumbnailsWidth:1;
-    } _has;
+        double *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _timeIntervals;
 }
 
 - (unsigned long long);
@@ -24,28 +22,23 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (float);
-- (double *);
+- (float)6;
+- (double *)setFormattedExpiration: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)_qosClass;
+- (id)ion.state-prepare;
 
 // Remaining properties
-@property(nonatomic) _Bool hasThumbnailsHeight;
-@property(nonatomic) _Bool hasThumbnailsWidth;
-@property(nonatomic) float thumbnailsHeight; // @synthesize thumbnailsHeight=_thumbnailsHeight;
-@property(nonatomic) float thumbnailsWidth; // @synthesize thumbnailsWidth=_thumbnailsWidth;
-@property(readonly, nonatomic) double *timeIntervals;
 @property(readonly, nonatomic) unsigned long long timeIntervalsCount;
 
 @end

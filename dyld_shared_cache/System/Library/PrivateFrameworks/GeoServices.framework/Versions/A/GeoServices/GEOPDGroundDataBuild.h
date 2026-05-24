@@ -10,44 +10,18 @@ __attribute__((visibility("hidden")))
 @interface GEOPDGroundDataBuild
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _capabilitys;
-    CDStruct_9f2792e4 _lodWithTextures;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _bucketId;
-    unsigned int _buildId;
-    unsigned int _dataFormatVersion;
-    unsigned int _dataOutputVersion;
-    float _heightAboveGroundM;
-    unsigned int _index;
-    unsigned int _metricsVersion;
-    int _type;
-    struct {
-        unsigned int has_bucketId:1;
-        unsigned int has_buildId:1;
-        unsigned int has_dataFormatVersion:1;
-        unsigned int has_dataOutputVersion:1;
-        unsigned int has_heightAboveGroundM:1;
-        unsigned int has_index:1;
-        unsigned int has_metricsVersion:1;
-        unsigned int has_type:1;
-        unsigned int read_capabilitys:1;
-        unsigned int read_lodWithTextures:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_isAlarmPlaying;
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id)nTapTypeCitySelectorMetadata";
-- (id)reshold;
+- (id)_distanceDisplayThreshold;
 - (id)Ä12;
 - (void)° ÍX4k@;
 

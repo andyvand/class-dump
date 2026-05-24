@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)appNapPreventLowPriorityCPU;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasChanges;

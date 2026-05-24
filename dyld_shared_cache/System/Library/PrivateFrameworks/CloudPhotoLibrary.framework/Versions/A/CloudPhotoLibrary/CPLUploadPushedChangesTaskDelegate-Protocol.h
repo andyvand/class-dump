@@ -5,5 +5,8 @@
 //
 
 @protocol CPLUploadPushedChangesTaskDelegate
+- (_Bool)commute30MinWarningEntityRelevanceUserFocusModeAndDayOfWeekFeatures;
+- (_Bool)commute30MinWarningEntityRelevanceUserFocusModeAndCoarseTimeOfDayFeatures;
+- (_Bool)commute30MinWarningEntityRelevanceTimeOfDayFeatures;
 @end
 

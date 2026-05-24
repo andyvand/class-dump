@@ -5,11 +5,9 @@
 //
 
 @protocol MFTimeStamp
+- (double);
 
 // Remaining properties
-@property(nonatomic, readonly) double avTime;
-@property(nonatomic, readonly) CDStruct_198678f7 hostTime;
 @property(nonatomic, readonly) double time;
-@property(nonatomic, readonly) double userSecondsSinceReferenceDate;
 @end
 

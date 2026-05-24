@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _NSControlStripTouchBarItem : NSCustomTouchBarItem
 {
     struct CGSize _minSize;
-    struct CGSize _preferredSize;
-    struct CGSize _maxSize;
 }
 
 - (void);
 - (struct CGSize);
-- (void);
+- (void)CompactHTTPCookieReference=^^?^{CompactCookieArray}^{CompactCookieHeader}};
 - (void);
 - (struct CGSize)ate;
-- (void);
+- (void)Input;
 - (struct CGSize)<A;
 
 // Remaining properties
-@property struct CGSize maxSize; // @synthesize maxSize=_maxSize;
 @property struct CGSize minSize; // @synthesize minSize=_minSize;
-@property struct CGSize preferredSize; // @synthesize preferredSize=_preferredSize;
 
 @end
 

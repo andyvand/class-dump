@@ -10,9 +10,9 @@
 {
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)NSURLSessionDelegate;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *world;

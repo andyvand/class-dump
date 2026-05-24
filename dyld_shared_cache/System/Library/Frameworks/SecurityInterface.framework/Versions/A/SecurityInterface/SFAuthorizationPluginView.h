@@ -7,33 +7,31 @@
 @interface SFAuthorizationPluginView
 {
     const struct AuthorizationCallbacks *_callbacks;
-    struct __OpaqueAuthorizationEngine *_engineRef;
-    void *_private;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (struct __OpaqueAuthorizationEngine *);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id)CXNetworkExtensionVoIPXPCClient;
+- (id)<%d> invalid with buffer size <%zu>;
 - (id);
-- (id);
-- (id);
+- (void)ailed %d;
 - (void);
-- (void);
-- (void);
+- (void)managedObjectWithEmergencyContact:(_Bool)arg1 managedObject:inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDStruct_fc55cc78 *);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void)ize: /* Error: Ran out of types for this method. */;
+- (void)setSize: /* Error: Ran out of types for this method. */;
 - (const struct AuthorizationCallbacks *)@;
 
 @end

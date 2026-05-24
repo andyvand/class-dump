@@ -14,14 +14,12 @@ __attribute__((visibility("hidden")))
 
 - (struct CGSize);
 - (id);
-- (id);
+- (id)q;
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowDownloadingThumbnail; // @synthesize allowDownloadingThumbnail=_allowDownloadingThumbnail;
 @property(readonly, nonatomic) ReadingListItem *readingListItem;
-@property(readonly, nonatomic) struct CGSize requiredImageSize;
 
 @end
 

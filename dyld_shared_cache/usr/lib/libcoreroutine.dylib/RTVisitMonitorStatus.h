@@ -7,28 +7,22 @@
 @interface RTVisitMonitorStatus
 {
     _Bool _monitoringVisitIncidents;
-    _Bool _monitoringLeechedVisitIncidents;
-    _Bool _monitoringLowConfidenceVisitIncidents;
-    unsigned long long _feedBufferReferenceCounter;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)unt _initWithDictionary:uniqueID:serviceName:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ace to protocol mapping;
+- (id)!;
 
 // Remaining properties
-@property(nonatomic) unsigned long long feedBufferReferenceCounter; // @synthesize feedBufferReferenceCounter=_feedBufferReferenceCounter;
-@property(nonatomic) _Bool monitoringLeechedVisitIncidents; // @synthesize monitoringLeechedVisitIncidents=_monitoringLeechedVisitIncidents;
-@property(nonatomic) _Bool monitoringLowConfidenceVisitIncidents; // @synthesize monitoringLowConfidenceVisitIncidents=_monitoringLowConfidenceVisitIncidents;
 @property(nonatomic) _Bool monitoringVisitIncidents; // @synthesize monitoringVisitIncidents=_monitoringVisitIncidents;
 
 @end

@@ -9,6 +9,7 @@
 @protocol BKSHIDEventDeliveryPolicyObserving
 
 @optional
+- (void)4;
 - (void)ancestorDefinesTintAdjustmentMode,S_setAncestorDefinesTintAdjustmentMode:(BKSHIDEventDeliveryPolicyObserver *)arg1;
 @end
 

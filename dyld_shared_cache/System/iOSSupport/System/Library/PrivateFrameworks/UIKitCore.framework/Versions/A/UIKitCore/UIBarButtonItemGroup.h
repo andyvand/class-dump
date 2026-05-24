@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UIBarButtonItem, UIMenu, UIMenuElement;
-@protocol _UIBarButtonItemGroupOwner;
+@class NSArray, NSMutableArray;
 
 @interface UIBarButtonItemGroup
 {
     NSMutableArray *_barButtonItems;
-    NSString *_customizationIdentifier;
-    struct {
-        unsigned int hidden:1;
-        unsigned int locked:1;
-        unsigned int sendActionsBeforeDismiss:1;
-        unsigned int showInOverflow:1;
-        unsigned int customizationDisposition:2;
-        unsigned int implicitlyGenerated:1;
-        unsigned int requiresOwnSection:1;
-        unsigned int isInSidebarSection:1;
-        unsigned int wantsHighPriority:1;
-        unsigned int nstoolbarItemIdentifierNeedsPointerForUniqueness:1;
-    } _groupFlags;
-    _Bool _shouldAlwaysCollapse;
-    NSString *_sectionForGeneratingToolbarIdentifiers;
-    NSString *_subsectionForGeneratingToolbarIdentifiers;
-    UIBarButtonItem *_representativeItem;
-    UIMenuElement *_menuRepresentation;
-    long long __calculationVisibility;
-    id <_UIBarButtonItemGroupOwner> _owner;
-    CDUnknownBlockType __notifyPrepareForLayout;
-    CDUnknownBlockType __notifyWillRequestMenuRepresentation;
-    unsigned long long _expandStyle;
 }
 
 + (id);
@@ -42,25 +18,25 @@
 - (id);
 - (void);
 - (id);
+- (_Bool),V_payloadXAuthPassword;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)streamStatus;
+- (id)t have non-zero length.;
+- (_Bool)kMMCSRequestOptionNetworkingDelegate;
+- (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)removeAllItemsInPlaylistWithIdentifier:(_Bool)arg1;
+- (void)addStoreItemWithAdamID:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)__MPModelRelationshipAlbumRepresentativeSong__MAPPING_MISSING__;
 - (void);
 - (void);
 - (id);
@@ -81,28 +57,28 @@
 - (void)Ñf°1Â0@ù
 × ;
 - (_Bool)ctor_"f}}};
-- (id)edHardwareKeyboard;
-- (id)AcceptedTextCompletionExecutionContext: /* Error: Ran out of types for this method. */;
-- (void)kGoingOnSpringAnimationDuration;
-- (_Bool)cessIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)FontSizeTamil;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (void)eAvailableDisplayModes;
-- (_Bool)ntMaskEdgeInsets: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)ForIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ar;
-- (unsigned long long)ont;
-- (void)oke;
-- (void)AppearanceInvocations;
+- (id)updateIsAttachedHardwareKeyboard;
+- (id)undoAcceptedTextCompletionExecutionContext: /* Error: Ran out of types for this method. */;
+- (void)trackGoingOnSpringAnimationDuration;
+- (_Bool)synchronizerForViewServiceWithProcessIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)stringKeyFontSizeTamil;
+- (_Bool)parser:foundIgnorableWhitespace: /* Error: Ran out of types for this method. */;
+- (void)interfaceAction:(id)arg1 reloadDisplayedContentActionProperties: /* Error: Ran out of types for this method. */;
+- (void)_updateAvailableDisplayModes;
+- (_Bool)_setGradientMaskEdgeInsets: /* Error: Ran out of types for this method. */;
+- (_Bool)_scrollPocketAppearanceObserverDidUpdate: /* Error: Ran out of types for this method. */;
+- (_Bool)_nextIndexPathForIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_leftToolbar;
+- (unsigned long long)_iconEmphasizedSymbolFont;
+- (void)_hasStroke;
+- (void)_applyAppearanceInvocations;
 - (_Bool)uousResponder: /* Error: Ran out of types for this method. */;
-- (id)l: /* Error: Ran out of types for this method. */;
-- (void)hViewServiceSessionIfNeeded;
+- (id)videoEditorControllerDidCancel: /* Error: Ran out of types for this method. */;
+- (void)_associateHostedTextEffectsWindowWithViewServiceSessionIfNeeded;
 - (id)É;
 - (_Bool)X{{ {|@|}~~<°;
 - (CDUnknownBlockType)Ü';
-- (void)eForDepthLevel;
+- (void)hostParentFullHeightUntransformedFrameForDepthLevel;
 - (void)placeholder. Value must be greater than zero or UITableViewAutomaticDimension.;
 - (void)"topRight" x="%g" y="%g"/><Point id="bottomRight" x="%g" y="%g"/></Rectangle>;
 - (long long)ctions:ignoringOldKeyWindow:sceneResignKeyWindowActions:andSceneBecomeKeyWindowActions:forReason:] /* Error: Ran out of types for this method. */;
@@ -117,7 +93,7 @@
 - (id)yytmytmG;
 - (CDUnknownBlockType)ø÷÷÷÷÷ç?è?ÙØØØØØè?ü©Ñ>î|>¦¾;
 - (double)Ó;
-- (void)onModifierComponentImpl;
+- (void)UIPhasedTransitionModifierComponentImpl;
 - (_Bool);
 - (void)~Ê;
 - (id)a;
@@ -132,53 +108,7 @@
 - (void)fËôÜn;
 
 // Remaining properties
-@property(nonatomic, setter=_setCalculationVisibility:) long long _calculationVisibility; // @synthesize _calculationVisibility=__calculationVisibility;
-@property(readonly, nonatomic) _Bool _canCollapse;
-@property(readonly, nonatomic) double _contextualExpandedPadding;
-@property(readonly, nonatomic, getter=_isCritical) _Bool _critical;
-@property(readonly, copy, nonatomic) NSString *_customizationIdentifier;
-@property(nonatomic, getter=_dci_isAvailableWithoutCustomization, setter=_dci_setAvailableWithoutCustomization:) _Bool _dci_availableWithoutCustomization;
-@property(readonly, nonatomic) _Bool _disabledExpansion;
-@property(readonly, copy, nonatomic) UIMenuElement *_effectiveMenuRepresentation;
-@property(nonatomic, getter=_isHidden, setter=_setHidden:) _Bool _hidden;
-@property(readonly, nonatomic, getter=_isHiddenForCalculation) _Bool _hiddenForCalculation;
-@property(nonatomic, getter=_isImplicitlyGenerated, setter=_setImplicitlyGenerated:) _Bool _implicitlyGenerated;
-@property(readonly, nonatomic, getter=_isDefaultItem) _Bool _isDefaultItem;
-@property(nonatomic, setter=_setIsInSidebarSection:) _Bool _isInSidebarSection;
-@property(readonly, nonatomic, getter=_isMovableItem) _Bool _movableItem;
-@property(copy, nonatomic) CDUnknownBlockType _notifyPrepareForLayout; // @synthesize _notifyPrepareForLayout=__notifyPrepareForLayout;
-@property(copy, nonatomic) CDUnknownBlockType _notifyWillRequestMenuRepresentation; // @synthesize _notifyWillRequestMenuRepresentation=__notifyWillRequestMenuRepresentation;
-@property(readonly, copy, nonatomic) NSString *_nstoolbarItemIdentifier;
-@property(readonly, nonatomic, getter=_isRemovableItem) _Bool _removableItem;
-@property(readonly, copy, nonatomic) UIMenu *_representativeItemMenu;
-@property(nonatomic, setter=_setRequiresOwnSection:) _Bool _requiresOwnSection;
-@property(copy, nonatomic, setter=_setSectionForGeneratingToolbarIdentifiers:) NSString *_sectionForGeneratingToolbarIdentifiers; // @synthesize _sectionForGeneratingToolbarIdentifiers;
-@property(readonly, nonatomic, getter=_showInOverflow) _Bool _showInOverflow;
-@property(copy, nonatomic, setter=_setSubsectionForGeneratingToolbarIdentifiers:) NSString *_subsectionForGeneratingToolbarIdentifiers; // @synthesize _subsectionForGeneratingToolbarIdentifiers;
-@property(readonly, nonatomic) _Bool _viewNeedsWrapper;
-@property(nonatomic, setter=_setWantsHighPriority:) _Bool _wantsHighPriority;
-@property(nonatomic) _Bool alwaysAvailable;
-@property(copy, nonatomic) NSArray *barButtonItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisplayingRepresentativeItem) _Bool displayingRepresentativeItem;
-@property(nonatomic, getter=_expandStyle, setter=_setExpandStyle:) unsigned long long expandStyle; // @synthesize expandStyle=_expandStyle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidden) _Bool hidden;
 @property(readonly, nonatomic, getter=_items) NSArray *items;
-@property(nonatomic, getter=_isLocked, setter=_setLocked:) _Bool locked;
-@property(copy, nonatomic) UIMenuElement *menuRepresentation; // @synthesize menuRepresentation=_menuRepresentation;
-@property(nonatomic, getter=_minimumLeadingSpace, setter=_setMinimumLeadingSpace:) double minimumLeadingSpace;
-@property(nonatomic, getter=_minimumTrailingSpace, setter=_setMinimumTrailingSpace:) double minimumTrailingSpace;
-@property(nonatomic, getter=_owner, setter=_setOwner:) __weak id <_UIBarButtonItemGroupOwner> owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) UIBarButtonItem *representativeItem; // @synthesize representativeItem=_representativeItem;
-@property(nonatomic, getter=_sendActionsBeforeDismiss, setter=_setSendActionsBeforeDismiss:) _Bool sendActionsBeforeDismiss;
-@property(nonatomic, getter=_shouldAlwaysCollapse, setter=_setShouldAlwaysCollapse:) _Bool shouldAlwaysCollapse; // @synthesize shouldAlwaysCollapse=_shouldAlwaysCollapse;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_isSystemGroup) _Bool systemGroup;
 
 @end
 

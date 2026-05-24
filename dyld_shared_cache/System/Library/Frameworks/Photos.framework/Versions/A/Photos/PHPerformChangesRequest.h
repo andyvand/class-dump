@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSOrderedSet, NSString, PHPerformChangesInstrumentation;
-@protocol PLPerformChangesRequestService;
+@class PHPerformChangesInstrumentation;
 
 @interface PHPerformChangesRequest
 {
     PHPerformChangesInstrumentation *_instrumentation;
-    NSMutableOrderedSet *_inserts;
-    NSMutableOrderedSet *_updates;
-    NSMutableOrderedSet *_deletes;
-    NSMutableOrderedSet *_otherChangeRequests;
-    NSArray *_otherChanges;
-    NSMutableOrderedSet *_otherChangeHandlers;
-    _Bool _inService;
-    id <PLPerformChangesRequestService> _service;
-    NSMutableOrderedSet *_failedOnDemandRequests;
-    NSMutableDictionary *_changeRequestsByUUID;
-    _Bool _waitForDelayedSaveActions;
-    unsigned long long _libraryRole;
 }
 
 + (struct _xpc_type_s *);
@@ -30,10 +17,10 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
-- (id);
+- (id)esCloud.ICLibraryAuthServiceClientTokenProvider.getTokenResultForDSID;
 - (id);
 - (id);
 - (void);
@@ -51,46 +38,30 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)utableData";
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)longestSessionStartDate;
 - (id);
 - (void);
 - (void);
+- (long long)p;
+- (id);
 - (long long);
-- (id);
-- (long long);
 - (void);
 - (id);
 - (id);
+- (_Bool):%p
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)_initializeIsReadyForAnalysisQuickCheck;
 - (void)sOpaque;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessLevel;
-@property(readonly, nonatomic) long long accessScopeOptionsRequiredForRequestedChanges;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSOrderedSet *deletes; // @synthesize deletes=_deletes;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasChangeRequests;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSOrderedSet *inserts; // @synthesize inserts=_inserts;
-@property(retain, nonatomic) PHPerformChangesInstrumentation *instrumentation; // @synthesize instrumentation=_instrumentation;
-@property(nonatomic) unsigned long long libraryRole; // @synthesize libraryRole=_libraryRole;
-@property(readonly, nonatomic) NSOrderedSet *otherChangeRequests; // @synthesize otherChangeRequests=_otherChangeRequests;
-@property(readonly, nonatomic) NSArray *requestSets;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSOrderedSet *updates; // @synthesize updates=_updates;
-@property _Bool waitForDelayedSaveActions; // @synthesize waitForDelayedSaveActions=_waitForDelayedSaveActions;
 
 @end
 

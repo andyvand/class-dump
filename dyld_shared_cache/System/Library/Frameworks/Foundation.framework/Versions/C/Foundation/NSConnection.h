@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSDistantObject, NSPort;
-@protocol NSConnectionDelegate;
+@class NSDictionary;
 
 @interface NSConnection
 {
     id receivePort;
-    id sendPort;
-    id delegate;
-    int busy;
-    int localProxyCount;
-    int waitCount;
-    id delayedRL;
-    id statistics;
-    unsigned char isDead;
-    unsigned char isValid;
-    unsigned char wantsInvalid;
-    unsigned int authGen:1;
-    unsigned int authCheck:1;
-    unsigned int _reserved1:1;
-    unsigned int _reserved2:1;
-    unsigned int doRequest:1;
-    unsigned int isQueueing:1;
-    unsigned int isMulti:1;
-    unsigned int invalidateRP:1;
-    id ___1;
-    id ___2;
-    id runLoops;
-    id requestModes;
-    id rootObject;
-    void *registerInfo;
-    id replMode;
-    id classInfoImported;
-    id releasedProxies;
-    id reserved;
 }
 
 - (unsigned long long);
@@ -60,23 +31,23 @@
 - (void);
 - (id);
 - (void);
+- (_Bool)*;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)&;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -95,40 +66,27 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (Class);
 - (void);
 - (double);
 - (oneway void);
-- (id);
+- (id)S-CondensedBold;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (void)?}16;
 - (void)\L+;
 
 // Remaining properties
-@property id <NSConnectionDelegate> delegate;
-@property _Bool independentConversationQueueing;
-@property(readonly, copy) NSArray *localObjects;
-@property(readonly) _Bool multipleThreadsEnabled;
-@property(readonly, retain) NSPort *receivePort;
-@property(readonly, copy) NSArray *remoteObjects;
-@property double replyTimeout;
-@property(readonly, copy) NSArray *requestModes;
-@property double requestTimeout;
-@property(retain) id rootObject;
-@property(readonly, retain) NSDistantObject *rootProxy;
-@property(readonly, retain) NSPort *sendPort;
 @property(readonly, copy) NSDictionary *statistics;
-@property(readonly, getter=isValid) _Bool valid;
 
 @end
 

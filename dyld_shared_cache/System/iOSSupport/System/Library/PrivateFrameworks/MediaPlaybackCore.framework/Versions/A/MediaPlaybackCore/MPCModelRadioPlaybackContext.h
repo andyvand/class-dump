@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCModelRadioContentReference, MPCPlaybackRequestEnvironment, MPModelRadioStation, NSData, NSString, NSURL;
-@protocol MPCContinueListeningRadioQueueProviding;
+@class NSData;
 
 @interface MPCModelRadioPlaybackContext
 {
     _Bool _continueListeningStation;
-    MPCPlaybackRequestEnvironment *_playbackRequestEnvironment;
-    id <MPCContinueListeningRadioQueueProviding> _continueListeningQueueProvider;
-    long long _continueListeningMaxQueueReferences;
-    long long _continueListeningPrefetchThreshold;
-    MPCModelRadioContentReference *_nowPlayingContentReference;
-    MPCModelRadioContentReference *_seedContentReference;
-    MPModelRadioStation *_radioStation;
-    NSURL *_stationURL;
-    NSData *_delegateTokenB;
 }
 
 + (_Bool);
@@ -26,12 +16,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)P;
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (long long);
@@ -52,29 +42,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)blic}@; userInitiated:%{BOOL}u /* Error: Ran out of types for this method. */;
 - (id)tionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long continueListeningMaxQueueReferences; // @synthesize continueListeningMaxQueueReferences=_continueListeningMaxQueueReferences;
-@property(nonatomic) long long continueListeningPrefetchThreshold; // @synthesize continueListeningPrefetchThreshold=_continueListeningPrefetchThreshold;
-@property(nonatomic) __weak id <MPCContinueListeningRadioQueueProviding> continueListeningQueueProvider; // @synthesize continueListeningQueueProvider=_continueListeningQueueProvider;
-@property(nonatomic) _Bool continueListeningStation; // @synthesize continueListeningStation=_continueListeningStation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSData *delegateTokenB; // @synthesize delegateTokenB=_delegateTokenB;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) MPCModelRadioContentReference *nowPlayingContentReference; // @synthesize nowPlayingContentReference=_nowPlayingContentReference;
-@property(copy, nonatomic) MPCPlaybackRequestEnvironment *playbackRequestEnvironment; // @synthesize playbackRequestEnvironment=_playbackRequestEnvironment;
-@property(retain, nonatomic) MPModelRadioStation *radioStation; // @synthesize radioStation=_radioStation;
-@property(copy, nonatomic) MPCModelRadioContentReference *seedContentReference; // @synthesize seedContentReference=_seedContentReference;
-@property(copy, nonatomic) NSURL *stationURL; // @synthesize stationURL=_stationURL;
-@property(readonly) Class superclass;
 
 @end
 

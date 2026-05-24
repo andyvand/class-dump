@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol AMSUniversalLinksServiceProtocol, OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSUniversalLinksConnection
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (void);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) id <AMSUniversalLinksServiceProtocol> proxy;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

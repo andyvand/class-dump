@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSCarrierLinkResult, AMSPurchaseResult, NSData, NSDictionary, NSString;
+@class AMSCarrierLinkResult, NSString;
 
 @interface AMSEngagementResult
 {
     AMSCarrierLinkResult *_carrierLinkResult;
-    AMSPurchaseResult *_purchaseResult;
-    NSDictionary *_userInfo;
-    NSData *_modelData;
 }
 
 + (_Bool);
@@ -20,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
@@ -35,10 +32,6 @@
 
 // Remaining properties
 @property(readonly) NSString *ams_buyParams;
-@property(retain) AMSCarrierLinkResult *carrierLinkResult; // @synthesize carrierLinkResult=_carrierLinkResult;
-@property(retain) NSData *modelData; // @synthesize modelData=_modelData;
-@property(retain) AMSPurchaseResult *purchaseResult; // @synthesize purchaseResult=_purchaseResult;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

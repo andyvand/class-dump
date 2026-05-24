@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (_Bool)s:WSP_CreateDisconnectInMsg failed %d /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool);
-- (void)genceRate:(id)arg1;
-- (void)nToReplacements:(id)arg1;
+- (void)setConvergenceRate:(id)arg1;
+- (void)addReplacementRevertingAutocorrectionToReplacements:(id)arg1;
 - (void)d with the proposedEffect when used as a custom view in a UINavigationBar or UIToolbar;
 
 @end

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, PXGadgetDataSource;
-@protocol OS_dispatch_group, OS_dispatch_queue, PXGadgetDelegate;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PXGadgetDataSourceManager
 {
     NSObject<OS_dispatch_queue> *_lookupQueue;
-    NSMutableArray *_lookupQueue_loadedProviders;
-    NSObject<OS_dispatch_group> *_deferredGadgetLoadingGroup;
-    NSObject<OS_dispatch_queue> *_deferredGadgetQueue;
-    _Bool _isPerformingChanges;
-    _Bool _dataSourceNeedsUpdate;
-    _Bool _didLoadRemainingGadgets;
-    _Bool _canLoadRemainingDataForProviders;
-    _Bool _hasLoadedPriorities;
-    _Bool _loadingInitialGadgets;
-    _Bool _needsToLoadAllProviders;
-    id <PXGadgetDelegate> _nextGadgetResponder;
-    NSArray *_cachedProviders;
 }
 
 + (id);
@@ -31,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -43,7 +31,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -73,23 +61,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cachedProviders; // @synthesize cachedProviders=_cachedProviders;
-@property(nonatomic) _Bool canLoadRemainingDataForProviders; // @synthesize canLoadRemainingDataForProviders=_canLoadRemainingDataForProviders;
-@property(readonly, nonatomic) PXGadgetDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didLoadRemainingGadgets; // @synthesize didLoadRemainingGadgets=_didLoadRemainingGadgets;
-@property(readonly, nonatomic) CDUnknownBlockType gadgetProviderSortComparator;
-@property(readonly, nonatomic) NSArray *gadgetProviders;
-@property(readonly, nonatomic) CDUnknownBlockType gadgetSortComparator;
-@property(nonatomic) _Bool hasLoadedPriorities; // @synthesize hasLoadedPriorities=_hasLoadedPriorities;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool loadingInitialGadgets; // @synthesize loadingInitialGadgets=_loadingInitialGadgets;
-@property(nonatomic) _Bool needsToLoadAllProviders; // @synthesize needsToLoadAllProviders=_needsToLoadAllProviders;
-@property(nonatomic) __weak id <PXGadgetDelegate> nextGadgetResponder; // @synthesize nextGadgetResponder=_nextGadgetResponder;
-@property(readonly) Class superclass;
 
 @end
 

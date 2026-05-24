@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CoreCDPUI.QuotaStorageViewModel, NSWindow, QuotaStorageViewHandler;
-@protocol CDPQuotaScreenUIHandlerCapable, CDPRemoteDeviceSecretValidatorProtocol;
+@class CDPContext, QuotaStorageViewHandler;
 
 @interface CDPQuotaStoragePresenter
 {
     CDPContext *_cdpContext;
-    NSWindow *_presentingWindow;
-    id <CDPRemoteDeviceSecretValidatorProtocol> _validator;
-    id <CDPQuotaScreenUIHandlerCapable> _uiHandler;
-    QuotaStorageViewHandler *_quotaStorageViewHandler;
-    NSWindow *_quotaStorageWindow;
-    CoreCDPUI.QuotaStorageViewModel *_quotaStorageViewModel;
 }
 
 - (id);
@@ -28,13 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)*;
 
 // Remaining properties
 @property(readonly) QuotaStorageViewHandler *quotaStorageViewHandler; // @synthesize quotaStorageViewHandler=_quotaStorageViewHandler;
-@property(readonly) CoreCDPUI.QuotaStorageViewModel *quotaStorageViewModel; // @synthesize quotaStorageViewModel=_quotaStorageViewModel;
-@property(readonly) NSWindow *quotaStorageWindow; // @synthesize quotaStorageWindow=_quotaStorageWindow;
 
 @end
 

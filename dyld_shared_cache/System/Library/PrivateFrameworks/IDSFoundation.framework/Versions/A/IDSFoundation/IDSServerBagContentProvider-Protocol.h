@@ -5,11 +5,10 @@
 //
 
 @protocol IDSServerBagContentProvider
+- (void);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType contentsUpdatedBlock;
-@property(readonly, nonatomic) _Bool isLoading;
-@property(readonly, nonatomic) _Bool isServerAvailable;
 @end
 

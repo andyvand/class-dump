@@ -9,6 +9,7 @@
 @protocol CALayerDelegate
 
 @optional
-- (id <CAAction>)entShare;
+- (void);
+- (id <CAAction>)iCloudDocumentShare;
 @end
 

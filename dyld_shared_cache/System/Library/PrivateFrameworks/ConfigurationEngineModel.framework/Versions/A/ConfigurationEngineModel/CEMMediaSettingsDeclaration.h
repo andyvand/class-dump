@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMMediaSettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowBookstore;
-    NSNumber *_payloadAllowBookstoreErotica;
-    NSNumber *_payloadAllowEnterpriseBookBackup;
-    NSNumber *_payloadAllowEnterpriseBookMetadataSync;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -35,23 +32,13 @@
 - (_Bool);
 - (id);
 - (int);
+- (id)enhanced;
+- (_Bool)t7001;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)I/Sources/libressl/libressl-2.2/ssl/d1_lib.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowBookstore; // @synthesize payloadAllowBookstore=_payloadAllowBookstore;
-@property(copy, nonatomic) NSNumber *payloadAllowBookstoreErotica; // @synthesize payloadAllowBookstoreErotica=_payloadAllowBookstoreErotica;
-@property(copy, nonatomic) NSNumber *payloadAllowEnterpriseBookBackup; // @synthesize payloadAllowEnterpriseBookBackup=_payloadAllowEnterpriseBookBackup;
-@property(copy, nonatomic) NSNumber *payloadAllowEnterpriseBookMetadataSync; // @synthesize payloadAllowEnterpriseBookMetadataSync=_payloadAllowEnterpriseBookMetadataSync;
-@property(readonly) Class superclass;
 
 @end
 

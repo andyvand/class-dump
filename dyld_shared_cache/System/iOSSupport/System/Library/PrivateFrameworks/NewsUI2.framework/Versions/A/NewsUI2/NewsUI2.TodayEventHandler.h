@@ -7,10 +7,6 @@
 @interface NewsUI2.TodayEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
-    id loadingGate;
 }
 
 @end

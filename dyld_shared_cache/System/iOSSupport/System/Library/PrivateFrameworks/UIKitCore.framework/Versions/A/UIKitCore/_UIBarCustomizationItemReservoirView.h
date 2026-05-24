@@ -6,43 +6,31 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UICollectionView, UILabel, UINavigationBar, _UIDiffuseShadowView;
-
 __attribute__((visibility("hidden")))
 @interface _UIBarCustomizationItemReservoirView : UIView
 {
     _Bool _computedInitialSize;
-    _Bool _isEmpty;
-    _Bool _isExpanded;
-    NSMutableArray *_items;
-    UIView *_arrowView;
-    UIView *_containerView;
-    _UIDiffuseShadowView *_shadowView;
-    UINavigationBar *_topBar;
-    UICollectionView *_collectionView;
-    UILabel *_tipLabel;
-    UILabel *_noContentLabel;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)sharedController;
+- (void)setUnknownSenderRecordInfo:(id)arg1;
+- (void)reindexAllItemsForBundleID:(id)arg1 protectionClass:acknowledgementHandler: /* Error: Ran out of types for this method. */;
+- (void)isAliasRelayCapable:(id)arg1 checkingSelf: /* Error: Ran out of types for this method. */;
+- (void)fileTransferGUIDs;
+- (id)_markMessageAsDeliveredQuietlyAndNotify:session:chat: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (double);
-- (double);
-- (void);
+- (double)etching attachments from CloudKit with error:%@ ---- ***// /* Error: Ran out of types for this method. */;
+- (double)ay received remote file request %@;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (_Bool);
 - (id)1Â0@ù
@@ -51,7 +39,7 @@ __attribute__((visibility("hidden")))
 ð!Ø@ùÑf°1Â0@ù
 × ;
 - (struct CGSize)ration"b1"itemsForBeginningSession"b1"itemsForAddingToSession"b1"sessionPropertiesForSession"b1"operationForAcceptingIntoAction"b1"acceptItemsIntoAction"b1"willBeginDisplayingTab"b1"didEndDisplayingTab"b1"operationForInsertingIntoGroup"b1"insertIntoGroup"b1};
-- (id)ItemWithStyle: /* Error: Ran out of types for this method. */;
+- (id)assistantBarButtonItemWithStyle: /* Error: Ran out of types for this method. */;
 - (void)ty;
 - (id)heetPresentationMetrics",R,N;
 - (id)@"UITableViewCollectionCell",&,N,V_tableViewCell;
@@ -59,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (long long)ü´|¬hà;
 - (void);
 - (void)pearance invocations have been saved.;
-- (void)line;
+- (void)outline;
 - (void)footer height (%g) provided by table delegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
 - (void)\àÿ\ÜØ^;
 - (void)¤ÿ;
@@ -69,20 +57,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIView *arrowView; // @synthesize arrowView=_arrowView;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) UILabel *noContentLabel; // @synthesize noContentLabel=_noContentLabel;
-@property(retain, nonatomic) _UIDiffuseShadowView *shadowView; // @synthesize shadowView=_shadowView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILabel *tipLabel; // @synthesize tipLabel=_tipLabel;
-@property(retain, nonatomic) UINavigationBar *topBar; // @synthesize topBar=_topBar;
 
 @end
 

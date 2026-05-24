@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface RCConfigurationFetchResult
 {
     NSString *_taskIdentifier;
-    NSDictionary *_configurationDataByRequestKey;
-    NSArray *_treatmentIDs;
-    NSArray *_segmentSetIDs;
-    NSError *_error;
 }
 
 - (void);
@@ -21,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -29,11 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configurationDataByRequestKey; // @synthesize configurationDataByRequestKey=_configurationDataByRequestKey;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSArray *segmentSetIDs; // @synthesize segmentSetIDs=_segmentSetIDs;
 @property(retain, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
-@property(retain, nonatomic) NSArray *treatmentIDs; // @synthesize treatmentIDs=_treatmentIDs;
 
 @end
 

@@ -4,58 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaFileType, NSArray, NSString, NSURL;
-@protocol AVAssetWriterDataWritingDelegate, AVAssetWriterDelegate;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterConfigurationState
 {
     NSURL *_URL;
-    id <AVAssetWriterDataWritingDelegate> _dataWritingDelegate;
-    id <AVAssetWriterDelegate> _delegate;
-    AVMediaFileType *_mediaFileType;
-    CDStruct_1b6d18a9 _movieFragmentInterval;
-    CDStruct_1b6d18a9 _initialMovieFragmentInterval;
-    CDStruct_1b6d18a9 _overallDurationHint;
-    _Bool _shouldOptimizeForNetworkUse;
-    NSURL *_directoryForTemporaryFiles;
-    NSArray *_metadataItems;
-    int _movieTimeScale;
-    struct CGAffineTransform _preferredTransform;
-    float _preferredVolume;
-    float _preferredRate;
-    long long _singlePassFileSize;
-    long long _singlePassMediaDataSize;
-    NSArray *_inputs;
-    NSArray *_inputGroups;
-    CDStruct_1b6d18a9 _preferredOutputSegmentInterval;
-    CDStruct_1b6d18a9 _initialSegmentStartTime;
-    NSString *_outputFileTypeProfile;
-    long long _initialMovieFragmentSequenceNumber;
-    _Bool _producesCombinableFragments;
-    NSArray *_contentProtectionConfigurations;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void);
 - (id);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void);
 - (id);
 - (CDStruct_1b6d18a9);
 - (long long);
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (CDStruct_1b6d18a9);
@@ -75,44 +51,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGAffineTransform)aí%Ð! Eùñ)°1Â0@ù
 × ;
-- (float)tentKeyResponseData: /* Error: Ran out of types for this method. */;
+- (float)processContentKeyResponseData: /* Error: Ran out of types for this method. */;
 - (void)andler:(struct CGAffineTransform)arg1;
 - (void)forwardPlaybackEndTime;
-- (void)mpletionHandler:(id)arg1;
-- (void)rUUID:(id)arg1 cryptorKeyRequestID: /* Error: Ran out of types for this method. */;
+- (void)exportAsynchronouslyWithCompletionHandler:(id)arg1;
+- (void)_contentKeyRequestForCryptorUUID:(id)arg1 cryptorKeyRequestID: /* Error: Ran out of types for this method. */;
 - (void)aryContentConfiguration;
 - (void)G;
 - (void)¨¨p©©;
 - (void);
-- (void)eyText;
+- (void)AVCaptionArchiveKeyText;
 - (void)L;
 - (void)?äÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSArray *contentProtectionConfigurations; // @synthesize contentProtectionConfigurations=_contentProtectionConfigurations;
-@property(nonatomic) __weak id <AVAssetWriterDataWritingDelegate> dataWritingDelegate; // @synthesize dataWritingDelegate=_dataWritingDelegate;
-@property __weak id <AVAssetWriterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSURL *directoryForTemporaryFiles; // @synthesize directoryForTemporaryFiles=_directoryForTemporaryFiles;
-@property(nonatomic) CDStruct_1b6d18a9 initialMovieFragmentInterval; // @synthesize initialMovieFragmentInterval=_initialMovieFragmentInterval;
-@property(nonatomic) long long initialMovieFragmentSequenceNumber; // @synthesize initialMovieFragmentSequenceNumber=_initialMovieFragmentSequenceNumber;
-@property(nonatomic) CDStruct_1b6d18a9 initialSegmentStartTime; // @synthesize initialSegmentStartTime=_initialSegmentStartTime;
-@property(copy, nonatomic) NSArray *inputGroups; // @synthesize inputGroups=_inputGroups;
-@property(copy, nonatomic) NSArray *inputs; // @synthesize inputs=_inputs;
-@property(copy, nonatomic) AVMediaFileType *mediaFileType; // @synthesize mediaFileType=_mediaFileType;
-@property(copy, nonatomic) NSArray *metadataItems; // @synthesize metadataItems=_metadataItems;
-@property(nonatomic) CDStruct_1b6d18a9 movieFragmentInterval; // @synthesize movieFragmentInterval=_movieFragmentInterval;
-@property(nonatomic) int movieTimeScale; // @synthesize movieTimeScale=_movieTimeScale;
-@property(copy, nonatomic) NSString *outputFileTypeProfile; // @synthesize outputFileTypeProfile=_outputFileTypeProfile;
-@property(nonatomic) CDStruct_1b6d18a9 overallDurationHint; // @synthesize overallDurationHint=_overallDurationHint;
-@property(nonatomic) CDStruct_1b6d18a9 preferredOutputSegmentInterval; // @synthesize preferredOutputSegmentInterval=_preferredOutputSegmentInterval;
-@property(nonatomic) float preferredRate; // @synthesize preferredRate=_preferredRate;
-@property(nonatomic) struct CGAffineTransform preferredTransform; // @synthesize preferredTransform=_preferredTransform;
-@property(nonatomic) float preferredVolume; // @synthesize preferredVolume=_preferredVolume;
-@property(nonatomic) _Bool producesCombinableFragments; // @synthesize producesCombinableFragments=_producesCombinableFragments;
-@property(nonatomic) _Bool shouldOptimizeForNetworkUse; // @synthesize shouldOptimizeForNetworkUse=_shouldOptimizeForNetworkUse;
-@property(nonatomic) long long singlePassFileSize; // @synthesize singlePassFileSize=_singlePassFileSize;
-@property(nonatomic) long long singlePassMediaDataSize; // @synthesize singlePassMediaDataSize=_singlePassMediaDataSize;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, _IDSGroupSession;
+@class NSString, _IDSGroupSession;
 
 @interface IDSGroupSession
 {
@@ -22,7 +22,7 @@
 + (id);
 + (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,55 +34,51 @@
 - (id);
 - (void);
 - (void);
+- (void)6W;
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (unsigned int)collectSysdiagnoseLog: /* Error: Ran out of types for this method. */;
+- (void)IDSTransportInterface_WiFi;
+- (id)0;
 - (void);
 - (void)1Â0@ù
 × ;
 - (id)scription:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *destination;
-@property(readonly, nonatomic) NSSet *requiredCapabilities;
-@property(readonly, nonatomic) NSSet *requiredLackOfCapabilities;
-@property(readonly, nonatomic) unsigned int sessionEndedReason;
 @property(readonly, nonatomic) NSString *sessionID;
 
 @end

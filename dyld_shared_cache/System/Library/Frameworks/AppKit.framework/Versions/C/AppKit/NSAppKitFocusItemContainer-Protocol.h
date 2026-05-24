@@ -8,23 +8,14 @@
 
 @protocol NSAppKitFocusItemContainer
 
+@optional
+- (_Bool).plist;
+- (_Bool)KN7t4gQkyj5X66dBpmh9HQ;
+- (NSArray *)sendSynchronousRequest:returningResponse:error: /* Error: Ran out of types for this method. */;
+- (NSArray *)_localCache;
+- (NSArray *)|;
+
 // Remaining properties
-@property(readonly) NSArray *_allFocusItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) NSArray *_childFocusItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) NSArray *_leafFocusItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly, getter=isBarContainer) _Bool barContainer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisBarContainer
-
 @property(readonly, getter=isLayoutContainer) _Bool layoutContainer;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,GisLayoutContainer

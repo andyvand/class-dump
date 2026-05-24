@@ -7,16 +7,6 @@
 @interface RemindersUICore.TTRDateBucketSectionHeaderTitleFormatterBase
 {
     id locale;
-    id calendar;
-    id allowsRelativeDates;
-    id referenceDateForYearAndEra;
-    id $__lazy_storage_$_headerRelativeDateFormatter;
-    id $__lazy_storage_$_headerEntireDateExcludingYearFormatter;
-    id $__lazy_storage_$_headerEntireDateIncludingYearFormatter;
-    id $__lazy_storage_$_relativeDateFormatter;
-    id $__lazy_storage_$_absoluteDateFormatter;
-    id $__lazy_storage_$_yearFormatter;
-    id $__lazy_storage_$_monthFormatter;
 }
 
 @end

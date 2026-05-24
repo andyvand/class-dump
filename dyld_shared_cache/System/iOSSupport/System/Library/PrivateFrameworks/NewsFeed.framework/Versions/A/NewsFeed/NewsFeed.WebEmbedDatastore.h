@@ -7,9 +7,6 @@
 @interface NewsFeed.WebEmbedDatastore
 {
     id visualization;
-    id datastore;
-    id contents;
-    id childrenContents;
 }
 
 @end

@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     struct map<long, FI_TSegmentedControlHelper *, std::less<long>, std::allocator<std::pair<const long, FI_TSegmentedControlHelper *>>> _segmentToHelperMap;
 }
 
-- (void);
-- (void);
+- (void)@y	?%@qa;
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)gnose-only;
 - (_Bool);
 - (id);
 - (void);

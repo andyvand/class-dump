@@ -9,8 +9,6 @@
 @interface CKDAnonymousZoneDataObject
 {
     int _changeType;
-    int _deleteType;
-    NSData *_encryptedTupleData;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void)key was %@);
 
 // Remaining properties
-@property(readonly, nonatomic) int changeType; // @synthesize changeType=_changeType;
-@property(readonly, nonatomic) int deleteType; // @synthesize deleteType=_deleteType;
 @property(readonly, copy, nonatomic) NSData *encryptedTupleData; // @synthesize encryptedTupleData=_encryptedTupleData;
 
 @end

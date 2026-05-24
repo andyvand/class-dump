@@ -5,10 +5,11 @@
 //
 
 @class NSString;
-@protocol MTLLibrary, SCNProgramDelegate;
+@protocol MTLLibrary;
 
 @protocol SCNProgramJSExport
 + (id);
+- (NSString *);
 - (id <MTLLibrary>),    s,     t,      t,     sC,      sC,     tC,      tC,     s );
         float D[8] = OSD_ARRAY_8(float,  df0,   df0,    df1,    df1,     df2,    df2,     df3,   df3 );
 
@@ -684,15 +685,6 @@ inline float4 ComputeCascadedShadow(sampler shadow_sampler, float3 viewPos, floa
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) id <SCNProgramDelegate> delegate;
-@property(copy, nonatomic) NSString *fragmentFunctionName;
-@property(copy, nonatomic) NSString *fragmentShader;
-@property(copy, nonatomic) NSString *geometryShader;
-@property(retain, nonatomic) id <MTLLibrary> library;
-@property(nonatomic, getter=isOpaque) _Bool opaque;
-@property(copy, nonatomic) NSString *tessellationControlShader;
-@property(copy, nonatomic) NSString *tessellationEvaluationShader;
-@property(copy, nonatomic) NSString *vertexFunctionName;
 @property(copy, nonatomic) NSString *vertexShader;
 @end
 

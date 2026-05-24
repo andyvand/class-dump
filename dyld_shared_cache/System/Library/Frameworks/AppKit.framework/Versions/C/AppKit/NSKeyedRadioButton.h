@@ -6,16 +6,12 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSString, NSTextField, NSUserDefaultsController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyedRadioButton : NSButton
 {
     NSString *_keyPath;
-    id _valueToSet;
-    NSString *_description;
-    NSTextField *_descriptionField;
-    NSUserDefaultsController *_userDefaultsController;
 }
 
 - (id);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)d;
 - (void);
 - (id);
 - (void);
@@ -32,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain) NSUserDefaultsController *userDefaultsController; // @synthesize userDefaultsController=_userDefaultsController;
-@property(retain) id valueToSet; // @synthesize valueToSet=_valueToSet;
 
 @end
 

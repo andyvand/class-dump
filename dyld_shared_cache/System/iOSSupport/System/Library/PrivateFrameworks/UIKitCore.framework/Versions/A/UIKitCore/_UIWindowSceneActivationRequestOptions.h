@@ -12,7 +12,7 @@
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)UnsafeAsyncSDFNode;
 - (unsigned long long);
 
 // Remaining properties

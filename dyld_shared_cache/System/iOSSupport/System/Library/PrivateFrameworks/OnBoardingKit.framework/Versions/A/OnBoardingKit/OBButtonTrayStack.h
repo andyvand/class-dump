@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, UIStackView, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface OBButtonTrayStack
 {
     UIView *_separatorView;
-    UIView *_buttonView;
-    UIStackView *_buttonsStackView;
-    NSLayoutConstraint *_topPaddingConstraint;
-    NSLayoutConstraint *_bottomPaddingConstraint;
 }
 
 - (void);
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *bottomPaddingConstraint; // @synthesize bottomPaddingConstraint=_bottomPaddingConstraint;
-@property(retain, nonatomic) UIView *buttonView; // @synthesize buttonView=_buttonView;
-@property(retain, nonatomic) UIStackView *buttonsStackView; // @synthesize buttonsStackView=_buttonsStackView;
 @property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(retain, nonatomic) NSLayoutConstraint *topPaddingConstraint; // @synthesize topPaddingConstraint=_topPaddingConstraint;
 
 @end
 

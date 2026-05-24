@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     long long _mode;
 }
 
-- (id);
-- (void);
+- (id)buildWithIdentifier:(long long)arg1 withAskForPassword:withAskForPasswordDelay:withLoginWindowIdleTime:withLoginWindowModulePath: /* Error: Ran out of types for this method. */;
+- (void)objectAtIndex:(id)arg1;
 - (void);
 - (void)0@ù
 × ;
 - (void)!ÌAùe1Â0@ù
 × ;
-- (void)age:identifier:discoverabilityTitle:attributes:state:handler: /* Error: Ran out of types for this method. */;
-- (_Bool)bel;
+- (void)initWithTitle:image:identifier:discoverabilityTitle:attributes:state:handler: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateSceneIdentifierLabel;
 - (_Bool)EdgeInsets=dddd},R,N,VperipheryInsets;
 - (void)gImageView;
 - (void)ZÿùÕXv^;

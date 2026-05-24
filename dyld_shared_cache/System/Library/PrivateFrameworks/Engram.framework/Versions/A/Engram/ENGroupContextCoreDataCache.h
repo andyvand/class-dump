@@ -4,43 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPersistentContainer, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ENGroupContextCoreDataCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSPersistentContainer *_container;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)R;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)j;
 - (id);
-- (id);
+- (id)*;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)S;
 
 // Remaining properties
-@property(retain, nonatomic) NSPersistentContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

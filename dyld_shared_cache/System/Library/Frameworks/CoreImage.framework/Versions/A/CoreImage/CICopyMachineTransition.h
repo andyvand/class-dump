@@ -6,34 +6,27 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICopyMachineTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    CIVector *inputExtent;
-    CIColor *inputColor;
-    NSNumber *inputTime;
-    NSNumber *inputAngle;
-    NSNumber *inputWidth;
-    NSNumber *inputOpacity;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)A;
 - (void);
+- (id);
+- (id);
+- (void) ;
 - (void);
 - (id);
 - (id);
@@ -42,14 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputOpacity; // @synthesize inputOpacity;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
-@property(retain, nonatomic) NSNumber *inputTime; // @synthesize inputTime;
-@property(retain, nonatomic) NSNumber *inputWidth; // @synthesize inputWidth;
 
 @end
 

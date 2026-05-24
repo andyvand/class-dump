@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, WBSSpotlightReindexingBackgroundSystemTaskManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSSiriIntelligenceDonor
 {
     NSObject<OS_dispatch_queue> *_coreSpotlightDonationSerialQueue;
-    NSMutableSet *_identifiersLeftToReindex;
-    WBSSpotlightReindexingBackgroundSystemTaskManager *_reindexingBackgroundSystemTaskManager;
 }
 
 + (id);

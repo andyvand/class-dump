@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _MRDataArtworkProtobuf
 {
     NSData *_imageData;
-    NSString *_type;
 }
 
 - (_Bool);
@@ -18,22 +17,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ary;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool)upportedQueueEndActionsAsString: /* Error: Ran out of types for this method. */;
-- (void)pointDidChangeNotification: /* Error: Ran out of types for this method. */;
+- (void)hText:(id)arg1 expectedSpeakerSharedUserID:expectedSpeakerConfidenceScore:nonspeakerConfidenceScores:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)_subtitle;
+- (_Bool)supportedQueueEndActionsAsString: /* Error: Ran out of types for this method. */;
+- (void)_handleActiveSystemEndpointDidChangeNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImageData;
 @property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

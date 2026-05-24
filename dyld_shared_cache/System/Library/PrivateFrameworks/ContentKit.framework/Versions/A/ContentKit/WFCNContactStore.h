@@ -6,13 +6,11 @@
 
 #import <ContentKit/WFContactStore.h>
 
-@class CNContactStore, NSArray, WFCNContact;
+@class CNContactStore;
 
 @interface WFCNContactStore : WFContactStore
 {
     CNContactStore *_contactStore;
-    WFCNContact *_currentUserWFCNContact;
-    NSArray *_cachedAllUsedLabels;
 }
 
 - (void);
@@ -29,16 +27,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)6_GAGyA29_A16_GSgtGGG_Qo_;
 - (id);
 - (id);
 - (void);
 - (id)ge Content Item;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *cachedAllUsedLabels; // @synthesize cachedAllUsedLabels=_cachedAllUsedLabels;
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) WFCNContact *currentUserWFCNContact; // @synthesize currentUserWFCNContact=_currentUserWFCNContact;
 
 @end
 

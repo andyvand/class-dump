@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSURL;
+@class NSURL;
 
 @interface ICAttachmentWebModelIcon
 {
     _Bool _scaleImageToIconSize;
-    NSURL *_url;
-    double _scale;
-    NSImage *_image;
-    struct CGSize _size;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
 - (struct CGSize);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)re was an exception while unarchiving the cache dictionary.  This could be caused by a class being present in the archive, but not in the program (such as if it was deleted or renamed).  Since it is a cache we don't care about migrating data so we will just create a new dictionary.  If this exception appears repeatedly, then it may be more concerning, but one-off is fine.  Exception:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ickZoomFactor;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool scaleImageToIconSize; // @synthesize scaleImageToIconSize=_scaleImageToIconSize;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSObject, NSString, VCStreamOutput, VCWeakObjectHolder;
-@protocol AVCStreamOutputDelegate, OS_dispatch_queue;
+@class AVConferenceXPCClient;
 
 @interface AVCStreamOutput
 {
     AVConferenceXPCClient *_connection;
-    struct __CFDictionary *_attachments;
-    id _delegate;
-    long long _streamToken;
-    _Bool _isValid;
-    _Bool _isDegraded;
-    _Bool _isSuspended;
-    _Bool _isMediaStalled;
-    _Bool _isPaused;
-    int _processID;
-    float _synchronizationTimeOffset;
-    CDStruct_1b6d18a9 _lastHealthPrintTime;
-    CDStruct_1b6d18a9 _lastSampleBufferTime;
-    unsigned int _sampleBufferCount;
-    float _estimatedDataRate;
-    VCStreamOutput *_vcStreamOutput;
-    _Bool _printSampleBufferDetailsEnabled;
-    struct opaqueVCRemoteImageQueue *_receiverQueue;
-    VCWeakObjectHolder *_weakSelf;
-    _Bool _isStalled;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_internalReceiverQueue;
 }
 
 + (id);
@@ -43,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,23 +60,7 @@
 - (_Bool)â!ëwÙ';
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <AVCStreamOutputDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalReceiverQueue; // @synthesize internalReceiverQueue=_internalReceiverQueue;
-@property(nonatomic) _Bool isDegraded; // @synthesize isDegraded=_isDegraded;
 @property(nonatomic) _Bool isPaused; // @synthesize isPaused=_isPaused;
-@property(nonatomic) _Bool isStalled; // @synthesize isStalled=_isStalled;
-@property(nonatomic) _Bool isSuspended; // @synthesize isSuspended=_isSuspended;
-@property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(readonly) Class superclass;
-@property(nonatomic) float synchronizationTimeOffset; // @synthesize synchronizationTimeOffset=_synchronizationTimeOffset;
 
 @end
 

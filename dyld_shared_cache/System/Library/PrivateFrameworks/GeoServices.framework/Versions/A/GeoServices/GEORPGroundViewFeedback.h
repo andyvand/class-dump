@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPGroundViewCorrections, GEORPGroundViewFeedbackContext, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPGroundViewFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPGroundViewFeedbackContext *_groundViewContext;
-    GEORPGroundViewCorrections *_groundViewCorrections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_groundViewContext:1;
-        unsigned int read_groundViewCorrections:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)cDate:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setLastIcloudSyncDate:(id)arg1;
+- (void)registrationsForTargetRecords:(id)arg1 registrar:error: /* Error: Ran out of types for this method. */;
+- (void)registrarWithPropertyListPersistenceAtURL:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -35,26 +23,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)twoShotFeedbackAlertOverrideForRecordRoute:playbackRoute:deviceSupportsVibrator:deviceSupportsEC: /* Error: Ran out of types for this method. */;
+- (void)CSAdBlockerAssetDownloadMonitor;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id)rotobufSession"16@"PBCodable"24;
-- (id)ithDirectionsFeedbacks:finalLocation:arrivalLocation:arrivedAtDestination:navigationAudioFeedback:durationOfTrip:durationInNavigationModes:preArrival:originalEta:isVlfImprovementUsed:isCoarseLocationUsed:acceptedCyclingWorkout:batteryDied:chargingStopAdded:isSiriEngaged:tripOrigin:wasBadRouteExperience:isBadEvExperience:isEvSampleTrip:stateOfChargeAtOrigin:stateOfChargeAtDestPredicted:stateOfChargeAtDestActual:stateOfChargeDiffAtDest:waypoints:evConsumptionModel:evChargingMode:isEVRoute:activeNavMode:arWalkingUsedInRoutePlanning:arWalkingUsedInNavigation:voiceGuidanceLevel:hFPEnabled:isEndRouteTermination:isParkedCarTermination:isTransitionToWalkingTermination:isTransitionToFindmyTermination:parkingDetectionLocation:timeBetweenParkedAndArrival:arrivedAtDestinationCount:inParkingModeCount:isInParkingMode:isSuggestToWalkingTriggered:isTransitedToWalking:isSuggestToFindmyTriggered:isTransitedToFindmy:routeHandoffCapable: /* Error: Ran out of types for this method. */;
+- (id)captureDirectionsWithDirectionsFeedbacks:finalLocation:arrivalLocation:arrivedAtDestination:navigationAudioFeedback:durationOfTrip:durationInNavigationModes:preArrival:originalEta:isVlfImprovementUsed:isCoarseLocationUsed:acceptedCyclingWorkout:batteryDied:chargingStopAdded:isSiriEngaged:tripOrigin:wasBadRouteExperience:isBadEvExperience:isEvSampleTrip:stateOfChargeAtOrigin:stateOfChargeAtDestPredicted:stateOfChargeAtDestActual:stateOfChargeDiffAtDest:waypoints:evConsumptionModel:evChargingMode:isEVRoute:activeNavMode:arWalkingUsedInRoutePlanning:arWalkingUsedInNavigation:voiceGuidanceLevel:hFPEnabled:isEndRouteTermination:isParkedCarTermination:isTransitionToWalkingTermination:isTransitionToFindmyTermination:parkingDetectionLocation:timeBetweenParkedAndArrival:arrivedAtDestinationCount:inParkingModeCount:isInParkingMode:isSuggestToWalkingTriggered:isTransitedToWalking:isSuggestToFindmyTriggered:isTransitedToFindmy:routeHandoffCapable: /* Error: Ran out of types for this method. */;
 - (id)°X;
 - (id)frontFaceReadAllFrom can only be called once per object;
 - (void)-_á?¹N@;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPGroundViewFeedbackContext *groundViewContext;
-@property(retain, nonatomic) GEORPGroundViewCorrections *groundViewCorrections;
 @property(readonly, nonatomic) _Bool hasGroundViewContext;
-@property(readonly, nonatomic) _Bool hasGroundViewCorrections;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

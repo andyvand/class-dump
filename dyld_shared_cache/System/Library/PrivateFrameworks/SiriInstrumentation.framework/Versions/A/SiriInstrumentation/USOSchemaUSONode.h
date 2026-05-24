@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface USOSchemaUSONode : SISchemaInstrumentationMessage
 {
     unsigned int _usoElementId;
-    unsigned int _usoVerbElementId;
-    NSString *_entityLabel;
-    NSString *_verbLabel;
-    struct {
-        unsigned int usoElementId:1;
-        unsigned int usoVerbElementId:1;
-    } _has;
-    _Bool _hasEntityLabel;
-    _Bool _hasVerbLabel;
 }
 
 - (id);
@@ -36,33 +25,25 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)8W;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_newGroup;
+- (_Bool)chat_id, COUNT(1) FROM message m INNER JOIN chat_message_join cm ON m.ROWiD = cm.message_id WHERE m.item_type == 0 AND m.is_read == 0 AND m.is_from_me == 0 AND m.is_finished = 1 AND m.is_system_message = 0 GROUP BY +cm.chat_id;
 - (id);
-- (id);
+- (id)h;
 - (id)deleteStartIndex;
-- (id)viceClockStatistics;
+- (id)_offDeviceClockStatistics;
 - (void)nt;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *entityLabel; // @synthesize entityLabel=_entityLabel;
-@property(nonatomic) _Bool hasEntityLabel; // @synthesize hasEntityLabel=_hasEntityLabel;
-@property(nonatomic) _Bool hasUsoElementId;
-@property(nonatomic) _Bool hasUsoVerbElementId;
-@property(nonatomic) _Bool hasVerbLabel; // @synthesize hasVerbLabel=_hasVerbLabel;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int usoElementId; // @synthesize usoElementId=_usoElementId;
-@property(nonatomic) unsigned int usoVerbElementId; // @synthesize usoVerbElementId=_usoVerbElementId;
-@property(copy, nonatomic) NSString *verbLabel; // @synthesize verbLabel=_verbLabel;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSTimeZone, PKPassUpcomingPassInformationEntryMetadataEvent;
+@class PKPassUpcomingPassInformationEntryMetadataEvent;
 
 @interface PKPassUpcomingPassInformationEntryMetadata
 {
     _Bool _ignoreTimeComponents;
-    NSString *_identifier;
-    NSString *_name;
-    unsigned long long _type;
-    NSDate *_date;
-    NSTimeZone *_timeZone;
-    NSDictionary *_semantics;
 }
 
 + (id);
@@ -24,29 +18,22 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)y;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setHasMovingAvgHighBandwidth:(id)arg1;
+- (void)on_wifi_mode;
 - (id);
 - (_Bool)Date",C,N,V_lastUpdated;
-- (void)NEL_INBOUND_PHONE_CALL;
+- (void)VERIFICATION_CHANNEL_INBOUND_PHONE_CALL;
 - (id)PÏ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) PKPassUpcomingPassInformationEntryMetadataEvent *eventMetadata;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool ignoreTimeComponents; // @synthesize ignoreTimeComponents=_ignoreTimeComponents;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSDictionary *semantics; // @synthesize semantics=_semantics;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

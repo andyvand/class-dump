@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMScale, NSArray, NSAttributedString, NSString;
+@class AXMScale, NSString;
 
 @interface AXMNumericDataAxisDescriptor
 {
     NSString *_title;
-    NSAttributedString *_attributedTitle;
-    long long _scaleType;
-    double _lowerBound;
-    double _upperBound;
-    CDUnknownBlockType _valueDescriptionProvider;
-    NSArray *_gridlinePositions;
-    AXMScale *_scale;
 }
 
-- (double);
-- (_Bool);
+- (double)/z;
+- (_Bool)\|;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -31,37 +24,22 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?A;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)ourceNodes;
+- (void)3q;
+- (void)sourceNodes;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *gridlinePositions; // @synthesize gridlinePositions=_gridlinePositions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCategoricalAxis;
-@property(nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
 @property(retain, nonatomic) AXMScale *scale; // @synthesize scale=_scale;
-@property(nonatomic) long long scaleType; // @synthesize scaleType=_scaleType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
-@property(copy, nonatomic) CDUnknownBlockType valueDescriptionProvider; // @synthesize valueDescriptionProvider=_valueDescriptionProvider;
 
 @end
 

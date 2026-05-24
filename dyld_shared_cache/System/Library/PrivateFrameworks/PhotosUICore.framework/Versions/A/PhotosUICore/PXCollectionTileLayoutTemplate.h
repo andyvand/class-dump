@@ -9,7 +9,6 @@
 @interface PXCollectionTileLayoutTemplate : PXLayoutTemplate
 {
     struct CGRect _imageRect;
-    struct CGRect _titleSubtitleRect;
 }
 
 - (struct CGRect);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect imageRect; // @synthesize imageRect=_imageRect;
-@property(readonly, nonatomic) struct CGRect titleSubtitleRect; // @synthesize titleSubtitleRect=_titleSubtitleRect;
 
 @end
 

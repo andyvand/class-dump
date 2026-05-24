@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface CKAttachmentItem
 {
     struct CGSize _size;
-    _Bool _isIrisAsset;
-    _Bool _isSticker;
-    _Bool _showDocumentIcon;
-    NSURL *_fileURL;
-    NSURL *_appendedBundleURL;
-    NSString *_transferGUID;
-    NSString *_guid;
-    NSDate *_createdDate;
-    NSString *_irisVideoPath;
-    NSURL *_alternateShareURL;
-    NSURL *_previewURL;
 }
 
-+ (id);
-+ (id);
++ (id)ud account without passphrase — manually fetching user record… {accountID:%@}%s:%d /* Error: Ran out of types for this method. */;
++ (id)thenticated with prompt {prompt:%@, result:%@}%s:%d /* Error: Ran out of types for this method. */;
 + (unsigned long long);
 + (id);
 + (struct CGSize);
@@ -31,34 +20,34 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)xyc;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)l;
+- (id)o;
+- (_Bool)CAttachment"8Q16^B24;
+- (id)FqPGhVxoiAOEg90YdjLrib3m-DUd6A/Library/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/Utilities/ICLongRunningTaskController.m;
+- (id)erationRequest;
+- (void)ICNoteSectionTypeFolders;
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -72,18 +61,7 @@
 - (void)"ð3;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *alternateShareURL; // @synthesize alternateShareURL=_alternateShareURL;
-@property(readonly, nonatomic) NSURL *appendedBundleURL; // @synthesize appendedBundleURL=_appendedBundleURL;
-@property(retain, nonatomic) NSDate *createdDate; // @synthesize createdDate=_createdDate;
 @property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(retain, nonatomic) NSString *irisVideoPath; // @synthesize irisVideoPath=_irisVideoPath;
-@property(nonatomic) _Bool isIrisAsset; // @synthesize isIrisAsset=_isIrisAsset;
-@property(nonatomic) _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(retain, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property(nonatomic) _Bool showDocumentIcon; // @synthesize showDocumentIcon=_showDocumentIcon;
-@property(readonly, nonatomic) struct CGSize size;
-@property(copy, nonatomic) NSString *transferGUID; // @synthesize transferGUID=_transferGUID;
 
 @end
 

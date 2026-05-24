@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PEGASUSSchemaPEGASUSMapsExecutionTier1 : SISchemaInstrumentationMessage
 {
@@ -25,16 +25,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Failed to fetch chat for chatRecord:(id)arg1 %@;
 - (id);
 - (id)
 × ;
-- (id)anResolveContactByRelationship;
-- (id);
+- (id)_hasCanResolveContactByRelationship;
+- (id)usageScoreBooks;
 - (void)d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *mapsEntities; // @synthesize mapsEntities=_mapsEntities;
 
 @end

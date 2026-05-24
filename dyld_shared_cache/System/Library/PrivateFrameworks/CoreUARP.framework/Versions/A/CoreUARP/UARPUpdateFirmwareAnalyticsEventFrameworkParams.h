@@ -9,21 +9,13 @@
 @interface UARPUpdateFirmwareAnalyticsEventFrameworkParams
 {
     NSNumber *_stagingUserInitiated;
-    NSNumber *_stagingDuration;
-    NSNumber *_stagingIterations;
-    NSNumber *_stagingStatus;
-    NSNumber *_stagingVendorError;
-    NSNumber *_applyUserInitiated;
-    NSNumber *_applyDuration;
-    NSNumber *_applyStatus;
-    NSNumber *_applyVendorError;
 }
 
 + (_Bool);
+- (id)l;
 - (id);
+- (id));
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -31,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -45,15 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSNumber *applyDuration; // @synthesize applyDuration=_applyDuration;
-@property(retain) NSNumber *applyStatus; // @synthesize applyStatus=_applyStatus;
-@property(retain) NSNumber *applyUserInitiated; // @synthesize applyUserInitiated=_applyUserInitiated;
-@property(retain) NSNumber *applyVendorError; // @synthesize applyVendorError=_applyVendorError;
-@property(retain) NSNumber *stagingDuration; // @synthesize stagingDuration=_stagingDuration;
-@property(retain) NSNumber *stagingIterations; // @synthesize stagingIterations=_stagingIterations;
-@property(retain) NSNumber *stagingStatus; // @synthesize stagingStatus=_stagingStatus;
 @property(retain) NSNumber *stagingUserInitiated; // @synthesize stagingUserInitiated=_stagingUserInitiated;
-@property(retain) NSNumber *stagingVendorError; // @synthesize stagingVendorError=_stagingVendorError;
 
 @end
 

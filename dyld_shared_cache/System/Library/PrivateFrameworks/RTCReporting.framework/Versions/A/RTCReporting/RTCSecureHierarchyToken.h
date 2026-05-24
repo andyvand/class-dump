@@ -9,7 +9,6 @@
 @interface RTCSecureHierarchyToken
 {
     NSString *_token;
-    int _level;
 }
 
 + (_Bool);
@@ -20,12 +19,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_drain_depth_count_at_charge_start_soc_curr_dynamic_bin_4;
 - (id);
 - (int);
 
 // Remaining properties
-@property(nonatomic) int level; // @synthesize level=_level;
 @property(copy, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end

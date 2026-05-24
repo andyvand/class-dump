@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, RTLocation, RTMapItem;
+@class NSUUID;
 
 @interface RTHistoryEntryPlaceDisplay
 {
     NSUUID *_identifier;
-    NSDate *_usageDate;
-    RTLocation *_location;
-    RTMapItem *_mapItem;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)possible;
 - (id);
 - (id);
 - (id)ionsOfOthers: /* Error: Ran out of types for this method. */;
-- (id)ions:outError: /* Error: Ran out of types for this method. */;
+- (id)_getFamiliarityIndexResultsLOILevelForLOIs:options:outError: /* Error: Ran out of types for this method. */;
 - (void)ce may travel to between startDate, %@, endDate, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) RTLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) NSDate *usageDate; // @synthesize usageDate=_usageDate;
 
 @end
 

@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSAppDeliveryReceipt
 {
     unsigned long long _isToDefaultPairedDevice;
-    unsigned long long _messageSize;
-    unsigned long long _priority;
-    unsigned long long _rTT;
-    unsigned long long _timestamp;
-    NSString *_service;
-    struct {
-        unsigned int isToDefaultPairedDevice:1;
-        unsigned int messageSize:1;
-        unsigned int priority:1;
-        unsigned int rTT:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)	)yS?kc;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,11 +21,11 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)B;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (void);
 - (unsigned long long);
@@ -53,23 +39,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (unsigned long long)*éÿpnÃ©;
 - (void)±Ùÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsToDefaultPairedDevice;
-@property(nonatomic) _Bool hasMessageSize;
-@property(nonatomic) _Bool hasPriority;
-@property(nonatomic) _Bool hasRTT;
-@property(readonly, nonatomic) _Bool hasService;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long isToDefaultPairedDevice; // @synthesize isToDefaultPairedDevice=_isToDefaultPairedDevice;
-@property(nonatomic) unsigned long long messageSize; // @synthesize messageSize=_messageSize;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned long long rTT; // @synthesize rTT=_rTT;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

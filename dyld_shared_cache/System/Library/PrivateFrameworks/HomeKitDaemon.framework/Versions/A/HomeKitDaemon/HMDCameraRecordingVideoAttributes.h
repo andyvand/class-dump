@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingVideoAttributes
 {
     NSNumber *_imageWidth;
-    NSNumber *_imageHeight;
-    long long _resolution;
-    NSNumber *_frameRate;
 }
 
 + (_Bool)4;ÇË;
@@ -30,11 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *frameRate; // @synthesize frameRate=_frameRate;
-@property(readonly, copy, nonatomic) NSNumber *imageHeight; // @synthesize imageHeight=_imageHeight;
 @property(readonly, copy, nonatomic) NSNumber *imageWidth; // @synthesize imageWidth=_imageWidth;
-@property(readonly, nonatomic) long long resolution; // @synthesize resolution=_resolution;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

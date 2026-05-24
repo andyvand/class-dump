@@ -14,10 +14,10 @@
 }
 
 - (void);
+- (id)/Versions/C/AppKit;
+- (id)setPredicateMap:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)qH;
 - (void)ame	assets	curated assets	utility assets	interesting	meanings;
 
 // Remaining properties

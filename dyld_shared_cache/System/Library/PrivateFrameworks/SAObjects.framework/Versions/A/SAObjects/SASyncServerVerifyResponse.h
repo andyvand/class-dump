@@ -18,16 +18,14 @@
 - (void);
 - (void);
 - (void);
+- (id)f;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *internalVerifications;
-@property(copy, nonatomic) NSArray *serverChecksums;
-@property(copy, nonatomic) NSArray *syncDebugInfo;
 
 @end
 

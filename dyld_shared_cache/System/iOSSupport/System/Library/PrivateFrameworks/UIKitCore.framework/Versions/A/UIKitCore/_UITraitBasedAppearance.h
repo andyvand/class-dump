@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool);
++ (id)A;
 - (void);
 - (id);
 - (void)n section %ld. Collection view:(id)arg1 %@.;

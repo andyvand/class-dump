@@ -7,12 +7,6 @@
 @interface ReminderKitInternal.REMPCASolver
 {
     id componentOption;
-    id principalComponentProjection;
-    id explainedVariance;
-    id explainedVarianceRatio;
-    id singularValues;
-    id sampleCount;
-    id featureCount;
 }
 
 @end

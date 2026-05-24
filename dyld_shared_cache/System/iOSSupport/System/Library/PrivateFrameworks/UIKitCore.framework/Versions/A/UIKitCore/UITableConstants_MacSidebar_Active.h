@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)g",C,N,V_identifier;
-- (int);
+- (int)_messagePartGUID;
 
 @end
 

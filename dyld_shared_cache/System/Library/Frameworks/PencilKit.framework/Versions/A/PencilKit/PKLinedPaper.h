@@ -7,18 +7,16 @@
 @interface PKLinedPaper
 {
     double _horizontalInset;
-    struct CGPoint _lineSpacing;
 }
 
 - (id);
-- (double);
+- (double)ICSharedListeningConnectionServiceProtocol;
 - (unsigned long long);
 - (struct CGPoint);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double horizontalInset; // @synthesize horizontalInset=_horizontalInset;
 @property(readonly, nonatomic) struct CGPoint lineSpacing; // @synthesize lineSpacing=_lineSpacing;
 
 @end

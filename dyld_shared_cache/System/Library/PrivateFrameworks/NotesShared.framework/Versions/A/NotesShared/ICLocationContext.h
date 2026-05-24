@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLGeocoder, CLLocationManager, NSString;
+@class CLGeocoder, CLLocationManager;
 
 @interface ICLocationContext
 {
     CLLocationManager *_locationManager;
-    _Bool _requestedAuthorization;
-    CLGeocoder *_geocoder;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)NoOpInvalidation;
 - (void)ð7;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canGetLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CLGeocoder *geocoder; // @synthesize geocoder=_geocoder;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CLLocationManager *locationManager;
-@property(nonatomic) _Bool requestedAuthorization; // @synthesize requestedAuthorization=_requestedAuthorization;
-@property(readonly) Class superclass;
 
 @end
 

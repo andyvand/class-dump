@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INMediaSearch, INPrivateUpdateMediaAffinityIntentData, NSArray;
+@class INPrivateUpdateMediaAffinityIntentData, NSArray;
 
 @protocol INUpdateMediaAffinityIntentExport
+- (void);
+- (INPrivateUpdateMediaAffinityIntentData *);
+- (long long);
 
 // Remaining properties
-@property long long affinityType;
 @property(copy) NSArray *mediaItems;
-@property(copy) INMediaSearch *mediaSearch;
-@property(copy) INPrivateUpdateMediaAffinityIntentData *privateUpdateMediaAffinityIntentData;
 @end
 

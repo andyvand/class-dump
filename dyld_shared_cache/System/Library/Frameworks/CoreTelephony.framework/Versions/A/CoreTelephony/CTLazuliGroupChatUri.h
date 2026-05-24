@@ -9,30 +9,26 @@
 @interface CTLazuliGroupChatUri
 {
     NSString *_destination;
-    NSString *_focus;
-    NSString *_conversationID;
 }
 
-+ (_Bool);
++ (_Bool)uffer:%d> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)NSString",?,R,C;
 - (id);
-- (void);
-- (void);
+- (void)8IXI(JLLxL;
+- (void)instance of AVPlayerItem.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
 @property(retain, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) NSString *focus; // @synthesize focus=_focus;
 
 @end
 

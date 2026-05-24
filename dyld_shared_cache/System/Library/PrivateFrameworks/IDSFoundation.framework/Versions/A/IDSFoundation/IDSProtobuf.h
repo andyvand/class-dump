@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMessageContext, NSData, NSMutableDictionary;
+@class NSData, NSMutableDictionary;
 
 @interface IDSProtobuf
 {
     NSMutableDictionary *_protoBufParams;
-    NSData *_uncompressedData;
 }
 
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) IDSMessageContext *context;
 @property(retain, nonatomic) NSData *data;
-@property(nonatomic) _Bool isResponse;
-@property(nonatomic) unsigned short type;
-@property(retain, nonatomic) NSData *uncompressedData; // @synthesize uncompressedData=_uncompressedData;
 
 @end
 

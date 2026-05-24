@@ -7,9 +7,11 @@
 @class NSArray, NSString;
 
 @protocol PHBatchFetchedPropertySet
++ (_Bool)y:] Completed for entity %{public}@ /* Error: Ran out of types for this method. */;
 + (long long)core;
 + (NSArray *)y mode;
 + (NSString *)eaturedContentAllowed:%@, SearchOptions:%@ /* Error: Ran out of types for this method. */;
 + (NSString *)estamp = %@;
+- (id)#;
 @end
 

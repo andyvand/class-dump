@@ -6,7 +6,6 @@
 
 #import <QuartzComposer/QCStructure.h>
 
-@class QCPixelFormat;
 @protocol QCStreamProvider;
 
 @interface QCStream : QCStructure
@@ -20,8 +19,8 @@
 + (void);
 + (void);
 + (id);
-+ (unsigned long long);
-+ (void)ationManagerAddAnimationGroupForKey;
++ (unsigned long long)__objc_const;
++ (void)C3DAnimationManagerAddAnimationGroupForKey;
 - (void);
 - (void);
 - (void);
@@ -32,12 +31,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)qa;
 - (id);
 - (id);
 - (id);
@@ -45,7 +44,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct __C3DGeometry *);
 - (id);
 - (id);
@@ -55,7 +54,7 @@
 - (int);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)F;
 - (id);
 - (id);
 - (id);
@@ -64,11 +63,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long elementSize;
-@property(readonly) QCPixelFormat *pixelFormat;
-@property(readonly) unsigned long long pixelsDeep;
-@property(readonly) unsigned long long pixelsHigh;
-@property(readonly) unsigned long long pixelsWide;
-@property(readonly) int type;
 
 @end
 

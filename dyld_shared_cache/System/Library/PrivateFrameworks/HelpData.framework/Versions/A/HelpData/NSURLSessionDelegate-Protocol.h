@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)ent:(NSURLSession *)arg1;
 @end
 

@@ -9,20 +9,13 @@
 @interface _UIFeedbackParameters
 {
     float _volume;
-    float _rate;
-    float _transposition;
-    float _attackTime;
-    float _decayTime;
-    float _releaseTime;
-    _UIFeedback *_feedback;
-    _UIFeedbackParameters *_parentParameters;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)_moreButtonExclusionPath;
 - (void);
-- (id);
+- (id)ype:(id)arg1 toParentIdentifiers:order:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
 - (id)1Â0@ù
@@ -34,33 +27,24 @@
 - (void)1Â0@ù
 × ;
 - (float)"NSLayoutConstraint"16@"<NSLayoutItem>"24;
-- (_Bool):(id)arg1;
-- (float)maticallyShowsCancelButton: /* Error: Ran out of types for this method. */;
-- (float)inSearchFieldContainer:searchTextFieldFrame:cancelButtonFrame: /* Error: Ran out of types for this method. */;
-- (float)nputBackdropViewEdgeConstraints;
-- (void)ncelPendingFocusRestoration;
-- (void)king_insertSubview:(float)arg1 belowSubview: /* Error: Ran out of types for this method. */;
+- (_Bool)styleForSheetPresentationController:(id)arg1;
+- (float)setAutomaticallyShowsCancelButton: /* Error: Ran out of types for this method. */;
+- (float)_searchBarWillLayoutSubviews:inSearchFieldContainer:searchTextFieldFrame:cancelButtonFrame: /* Error: Ran out of types for this method. */;
+- (float)_inputBackdropViewEdgeConstraints;
+- (void)_cancelPendingFocusRestoration;
+- (void)_backing_insertSubview:(float)arg1 belowSubview: /* Error: Ran out of types for this method. */;
 - (id)ttomSeparatorInsetsFromCell:(struct _NSZone *)arg1 ,V_ignoreBottomSeparatorInsetsFromCell;
 - (void)taryItems;
 - (id)4;
 - (void)%@;
-- (void)tNames;
+- (void)MoreIntlStartNames;
 - (float)8@"NSMutableArray"16^B24;
 - (_Bool)7y);
 - (void);
 - (float)_;
 
 // Remaining properties
-@property(nonatomic) float attackTime; // @synthesize attackTime=_attackTime;
-@property(readonly, nonatomic, getter=_isAudio) _Bool audio;
-@property(nonatomic) float decayTime; // @synthesize decayTime=_decayTime;
-@property(readonly, nonatomic, getter=_effectiveVolume) float effectiveVolume;
 @property(nonatomic) __weak _UIFeedback *feedback; // @synthesize feedback=_feedback;
-@property(nonatomic) __weak _UIFeedbackParameters *parentParameters; // @synthesize parentParameters=_parentParameters;
-@property(nonatomic) float rate; // @synthesize rate=_rate;
-@property(nonatomic) float releaseTime; // @synthesize releaseTime=_releaseTime;
-@property(nonatomic) float transposition; // @synthesize transposition=_transposition;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

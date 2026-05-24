@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)R = vi_onefixedsize_disk_allocator, POSTINGS_DATA = vi_disk_postings, A = vi_onefixedsize_disk_allocator];
 @end
 

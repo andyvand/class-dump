@@ -7,15 +7,16 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBRFReferenceAttributionCardSection
+- (NSString *);
+- (void);
+- (void);
+- (NSString *)16;
+- (void);
+- (void)`;
+- (NSArray *)music;
+- (NSData *)ributesJSON;
 
 // Remaining properties
-@property(nonatomic) _Bool add_tint;
-@property(nonatomic) int attribution_type;
-@property(nonatomic) int expansion_type;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *sources;
-@property(copy, nonatomic) NSString *text_1;
-@property(copy, nonatomic) NSString *text_2;
-@property(copy, nonatomic) NSArray *thumbnails;
 @end
 

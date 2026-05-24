@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFShowContactCardCommand
+- (void)actions:(NSString *)arg1 %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contactIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isSuggestedContact;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

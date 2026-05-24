@@ -7,18 +7,16 @@
 @interface GEOMapItemParentVenue
 {
     unsigned long long _businessID;
-    int _featureType;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)initWithBase64EncodedString:(unsigned long long)arg1 options:(int)arg2;
+- (id)d endpointer model for task %{public}@, falling back to default task %{public}@;
 - (unsigned long long);
 - (int);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long businessID; // @synthesize businessID=_businessID;
-@property(readonly, nonatomic) int featureType; // @synthesize featureType=_featureType;
 
 @end
 

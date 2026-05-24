@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMDFilteredMessageCounts
 {
     long long deletedMessagesCount;
-    long long chatBotMessagesCount;
-    long long junkMessagesCount;
-    long long systemMessagesCount;
-    long long businessMessagesCount;
-    long long promotionalMessagesCount;
-    long long transactionalMessagesCount;
-    long long expiredMessagesCount;
-    long long balloonPluginMessagesCount;
 }
 
 + (_Bool);
@@ -36,7 +26,7 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (long long);
 - (void);
 - (id);
@@ -45,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long balloonPluginMessagesCount; // @synthesize balloonPluginMessagesCount;
-@property(nonatomic) long long businessMessagesCount; // @synthesize businessMessagesCount;
-@property(nonatomic) long long chatBotMessagesCount; // @synthesize chatBotMessagesCount;
 @property(nonatomic) long long deletedMessagesCount; // @synthesize deletedMessagesCount;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) long long expiredMessagesCount; // @synthesize expiredMessagesCount;
-@property(nonatomic) long long junkMessagesCount; // @synthesize junkMessagesCount;
-@property(nonatomic) long long promotionalMessagesCount; // @synthesize promotionalMessagesCount;
-@property(nonatomic) long long systemMessagesCount; // @synthesize systemMessagesCount;
-@property(nonatomic) long long transactionalMessagesCount; // @synthesize transactionalMessagesCount;
 
 @end
 

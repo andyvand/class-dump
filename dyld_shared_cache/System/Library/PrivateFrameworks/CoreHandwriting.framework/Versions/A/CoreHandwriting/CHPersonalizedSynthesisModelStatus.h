@@ -13,7 +13,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)_flavorSetup;
 - (id);
 - (id);
 - (long long);

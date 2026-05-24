@@ -7,12 +7,6 @@
 @interface NewsUI2.EmailSignupInteractor
 {
     id delegate;
-    id onComplete;
-    id model;
-    id newsletterManager;
-    id signupAutomaticPresentor;
-    id tracker;
-    id interacted;
 }
 
 @end

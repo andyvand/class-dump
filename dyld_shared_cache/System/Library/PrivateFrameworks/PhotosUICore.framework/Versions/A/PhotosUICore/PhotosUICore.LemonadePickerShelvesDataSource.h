@@ -7,10 +7,6 @@
 @interface PhotosUICore.LemonadePickerShelvesDataSource
 {
     id photoLibrary;
-    id availableShelves;
-    id hiddenShelves;
-    id layoutStyle;
-    id observable;
 }
 
 @end

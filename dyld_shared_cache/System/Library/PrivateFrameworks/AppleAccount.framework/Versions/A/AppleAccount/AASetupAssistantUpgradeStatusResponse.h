@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)st;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *upgradeStatus;

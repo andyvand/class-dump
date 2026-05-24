@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, NSObject, PGCurationManager, PGManagerWorkingContext, PGRemoteConfiguration, PHPhotoLibrary, PHUserFeedbackCalculator;
-@protocol OS_os_log;
+@class PGManagerWorkingContext;
 
 @interface PGMemoryElector
 {
     PGManagerWorkingContext *_workingContext;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGCurationManager *_curationManager;
-    PHUserFeedbackCalculator *_userFeedbackCalculator;
-    CLSCurationContext *_curationContext;
-    PGRemoteConfiguration *_remoteConfiguration;
 }
 
 + (long long);
 - (unsigned long long);
 - (void);
+- (id)NSArray",C,N,S_setSharedKeyboardFocusedElementSelectedElementControllers:(id)arg1 ,V__sharedKeyboardFocusedElementSelectedElementControllers;
 - (id);
-- (id);
-- (id);
+- (id)~CNpfugCqAkKaPhovilJJX-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c;
 - (_Bool);
 - (id);
 - (_Bool);

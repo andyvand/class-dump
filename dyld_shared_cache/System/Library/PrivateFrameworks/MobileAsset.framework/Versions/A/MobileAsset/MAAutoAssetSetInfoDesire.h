@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetSetPolicy, NSString;
+@class MAAutoAssetSetPolicy;
 
 @interface MAAutoAssetSetInfoDesire
 {
     _Bool _awaitDownloadingOfDiscovered;
-    _Bool _downloadProgressDesired;
-    MAAutoAssetSetPolicy *_clientAssetSetPolicy;
-    NSString *_desireReason;
-    long long _checkWaitTimeoutSecs;
-    long long _lockWaitTimeoutSecs;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)_setCommands: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)keyShare;
 - (id);
 - (long long);
 - (void);
@@ -31,12 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool awaitDownloadingOfDiscovered; // @synthesize awaitDownloadingOfDiscovered=_awaitDownloadingOfDiscovered;
-@property(readonly, nonatomic) long long checkWaitTimeoutSecs; // @synthesize checkWaitTimeoutSecs=_checkWaitTimeoutSecs;
 @property(readonly, retain, nonatomic) MAAutoAssetSetPolicy *clientAssetSetPolicy; // @synthesize clientAssetSetPolicy=_clientAssetSetPolicy;
-@property(readonly, retain, nonatomic) NSString *desireReason; // @synthesize desireReason=_desireReason;
-@property(readonly, nonatomic) _Bool downloadProgressDesired; // @synthesize downloadProgressDesired=_downloadProgressDesired;
-@property(readonly, nonatomic) long long lockWaitTimeoutSecs; // @synthesize lockWaitTimeoutSecs=_lockWaitTimeoutSecs;
 
 @end
 

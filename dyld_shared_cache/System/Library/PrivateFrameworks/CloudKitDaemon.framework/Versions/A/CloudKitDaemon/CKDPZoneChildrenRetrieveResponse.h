@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPZoneChildrenRetrieveResponse
 {
     NSMutableArray *_childrens;
-    NSData *_continuationToken;
-    _Bool _isComplete;
-    CDStruct_74414baf _has;
 }
 
-+ (Class);
++ (Class)insertions;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -23,12 +20,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)_TtC12SiriOntology29UsoEntity_common_WorkoutClass;
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)pointAdded(CMBaseObjectRef, FigEndpointRef);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -41,10 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *childrens; // @synthesize childrens=_childrens;
-@property(retain, nonatomic) NSData *continuationToken; // @synthesize continuationToken=_continuationToken;
-@property(readonly, nonatomic) _Bool hasContinuationToken;
-@property(nonatomic) _Bool hasIsComplete;
-@property(nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
 
 @end
 

@@ -9,22 +9,19 @@
 @interface IMActionDialPhone
 {
     void phoneNumber;
-    void fallbackUrl;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)cation;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ĳ;
 - (void)¤;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
 
 @end

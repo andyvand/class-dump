@@ -22,32 +22,8 @@ struct os_unfair_lock_s {
 };
 
 struct shared_ptr<IOSurfaceTransactionSerialized[]> {
-    struct *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, IOSurfaceTransaction *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, IOSurfaceTransaction *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, IOSurfaceTransaction *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<unsigned long, IOSurfaceTransaction *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, IOSurfaceTransaction *>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long, IOSurfaceTransaction *>, std::__unordered_map_hasher<unsigned long, std::pair<const unsigned long, IOSurfaceTransaction *>, std::hash<unsigned long>, std::equal_to<unsigned long>>, std::__unordered_map_equal<unsigned long, std::pair<const unsigned long, IOSurfaceTransaction *>, std::equal_to<unsigned long>, std::hash<unsigned long>>, std::allocator<std::pair<const unsigned long, IOSurfaceTransaction *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, IOSurfaceTransaction *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, IOSurfaceTransaction *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, IOSurfaceTransaction *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
+    struct *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 #pragma mark Typedef'd Structures
@@ -79,22 +55,18 @@ typedef struct {
 } CDStruct_aa8f11db;
 
 typedef struct {
-    unsigned long long offset;
-    unsigned long long width;
-    unsigned long long height;
-    unsigned long long bytesPerRow;
-    unsigned int bytesPerElement;
-    unsigned int elementWidth;
-    unsigned int elementHeight;
-} CDStruct_c62edc0d;
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+} CDStruct_56a126eb;
 
 // Template types
 typedef struct shared_ptr<IOSurfaceTransactionSerialized[]> {
-    struct *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_5e55d9c6;
+    struct *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_f9136abd;
 

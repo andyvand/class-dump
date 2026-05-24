@@ -6,16 +6,9 @@
 
 #import <coreroutine/SMCloudKitZone.h>
 
-@class CKRecord, CKSyncEngine, NSHashTable, NSString, RTDefaultsManager, SMActiveSessionDetails;
-
 @interface SMActiveSessionZone : SMCloudKitZone
 {
     _Bool _activeSessionZoneAvailable;
-    CKRecord *_activeSessionRecord;
-    NSHashTable *_observers;
-    CKSyncEngine *_syncEngine;
-    RTDefaultsManager *_defaultsManager;
-    SMActiveSessionDetails *_latestActiveSessionDetails;
 }
 
 - (void);
@@ -33,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (void);
@@ -43,21 +36,21 @@
 - (void);
 - (void);
 - (void);
+- (void)storePCSIdentity:(id)arg1 identity:complete: /* Error: Ran out of types for this method. */;
+- (void)setFdeSet:(id)arg1;
+- (void)setCurrentIdentity:(id)arg1;
+- (_Bool)fetchCurrentOperation: /* Error: Ran out of types for this method. */;
+- (_Bool)fetchComplete:currentItemData:point:error: /* Error: Ran out of types for this method. */;
+- (void)entropyFromMnemonic: /* Error: Ran out of types for this method. */;
+- (void)databasePath;
+- (void)createIdentity:(id)arg1 complete: /* Error: Ran out of types for this method. */;
+- (id)beginActivityWithOptions:reason: /* Error: Ran out of types for this method. */;
+- (id)_CKKSControl;
 - (void);
+- (id)vateFrameworks/AuthKit.framework/AuthKit;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)ackupStatus %@ error %@;
+- (void):(unsigned long long)arg1 FAILED to recover p_password from HSM:(id)arg2 %@;
 - (id);
 - (void);
 - (void);
@@ -70,25 +63,13 @@
 × ;
 - (void)te",R,C,N,V_registrationDate;
 - (void) !;
-- (id);
+- (id)RTDefaultsTripSegmentAllowReprocessTransitions;
 - (void)Send GUID, old GUID, %@, new GUID, %@;
 - (void)erest<---------;
 - (void)e;
 
 // Remaining properties
-@property(retain, nonatomic) CKRecord *activeSessionRecord; // @synthesize activeSessionRecord=_activeSessionRecord;
 @property(nonatomic) _Bool activeSessionZoneAvailable; // @synthesize activeSessionZoneAvailable=_activeSessionZoneAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SMActiveSessionDetails *latestActiveSessionDetails; // @synthesize latestActiveSessionDetails=_latestActiveSessionDetails;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CKSyncEngine *syncEngine; // @synthesize syncEngine=_syncEngine;
 
 @end
 

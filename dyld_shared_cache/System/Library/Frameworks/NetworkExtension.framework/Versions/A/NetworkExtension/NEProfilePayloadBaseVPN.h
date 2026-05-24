@@ -6,25 +6,12 @@
 
 #import <NetworkExtension/NEProfilePayloadBase.h>
 
-@class NSString;
-
 @interface NEProfilePayloadBaseVPN : NEProfilePayloadBase
 {
     _Bool _userNameRequired;
-    _Bool _passwordRequired;
-    _Bool _proxyUserNameRequired;
-    _Bool _proxyPasswordRequired;
-    _Bool _sharedSecretRequired;
-    _Bool _pinRequired;
-    NSString *_userName;
-    NSString *_password;
-    NSString *_proxyUserName;
-    NSString *_proxyPassword;
-    NSString *_sharedSecret;
-    NSString *_pin;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);

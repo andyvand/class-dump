@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoContrast
 {
     CIImage *inputImage;
-    NSNumber *inputContrast;
 }
 
-+ (void)ation;
++ (void)DGAutoLoopOperation;
 - (id);
 - (id);
 

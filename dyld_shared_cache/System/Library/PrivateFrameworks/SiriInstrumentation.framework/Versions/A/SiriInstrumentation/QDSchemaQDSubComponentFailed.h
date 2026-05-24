@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface QDSchemaQDSubComponentFailed : SISchemaInstrumentationMessage
 {
     NSString *_errorDomain;
-    int _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorDomain;
 }
 
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void)So8NSStringC;
+- (id);
 - (_Bool);
+- (void)SGInfo(APSPSGDataSourceRef, CFStringRef);
 - (void);
-- (id);
+- (unsigned long long)poraryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDCreatePlaceholdersRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)s_archived, last_addressed_handle, display_name, group_id, is_filtered, successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat LEFT OUTER JOIN chat_message_join ON    chat_message_join.chat_id == chat.rowid    AND chat_message_join.message_date = (       SELECT MAX(cmj_inner.message_date)        FROM chat_message_join cmj_inner        INNER JOIN message m ON m.ROWID = cmj_inner.message_id        WHERE cmj_inner.chat_id = chat.rowid            AND m.is_finished = 1 AND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
+- (id)imitAndBlock;
+- (id)[;
 - (id);
-- (id);
-- (id);
-- (id)tModelContext;
+- (id)_userEngagementModelContext;
 - (id)TI,N,V_numberOfSeconds;
-- (void)eCount;
+- (void)imageCount;
 - (void)ionUserEditNamedEntityMetrics;
 - (int);
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

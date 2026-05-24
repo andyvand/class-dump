@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface KTIDStaticKeyStoreHandle
 {
     _Bool _valid;
-    int _errorCode;
-    NSString *_handle;
-    NSDate *_validationDate;
 }
 
 + (_Bool);
 - (id);
 - (void);
+- (id);
+- (void)^{CGImage=}96@0:(id)arg1 8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56{CGRect={CGPoint=dd}{CGSize=dd}}64;
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)appendPendingEntriesFromInputContextHistory: /* Error: Ran out of types for this method. */;
+- (id)?0@"NSString"8@"NSDictionary"16;
 - (void);
 - (void);
+- (void)kNtstatMetricItemPretty;
 - (void);
-- (void);
-- (int)OptInManager;
+- (int)KTOptInManager;
 
 // Remaining properties
-@property int errorCode; // @synthesize errorCode=_errorCode;
 @property(copy) NSString *handle; // @synthesize handle=_handle;
-@property _Bool valid; // @synthesize valid=_valid;
-@property(copy) NSDate *validationDate; // @synthesize validationDate=_validationDate;
 
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface _SFAnalysisContextCodingObject
 {
     NSArray *_leftContext;
-    NSArray *_rightContext;
-    NSArray *_selectedText;
-    NSArray *_contextualStrings;
-    NSArray *_contextualNamedEntities;
-    NSData *_profileData;
-    NSData *_jitProfileData;
-    NSArray *_enhancedContextualStrings;
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,9 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)W;
+- (_Bool)_physicsBehaviorsAreInstalledInPhysicsWorld;
 - (void);
 - (id);
 - (id);
@@ -37,14 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *contextualNamedEntities; // @synthesize contextualNamedEntities=_contextualNamedEntities;
-@property(readonly, copy, nonatomic) NSArray *contextualStrings; // @synthesize contextualStrings=_contextualStrings;
-@property(readonly, copy, nonatomic) NSArray *enhancedContextualStrings; // @synthesize enhancedContextualStrings=_enhancedContextualStrings;
-@property(readonly, copy, nonatomic) NSData *jitProfileData; // @synthesize jitProfileData=_jitProfileData;
 @property(readonly, copy, nonatomic) NSArray *leftContext; // @synthesize leftContext=_leftContext;
-@property(readonly, copy, nonatomic) NSData *profileData; // @synthesize profileData=_profileData;
-@property(readonly, copy, nonatomic) NSArray *rightContext; // @synthesize rightContext=_rightContext;
-@property(readonly, copy, nonatomic) NSArray *selectedText; // @synthesize selectedText=_selectedText;
 
 @end
 

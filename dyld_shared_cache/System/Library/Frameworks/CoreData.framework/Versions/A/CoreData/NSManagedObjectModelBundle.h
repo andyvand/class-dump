@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary;
+@class NSBundle;
 
 __attribute__((visibility("hidden")))
 @interface NSManagedObjectModelBundle
 {
     NSBundle *_bundle;
-    NSDictionary *_versionInfoDictionary;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateUIStringProperties, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface IMKCandidateUIProperties
 {
     NSDictionary *_dictionary;
-    NSString *_title;
-    IMKCandidateUIStringProperties *_annotationStringProperties;
-    IMKCandidateUIStringProperties *_groupStringProperties;
-    IMKCandidateUIStringProperties *_guideStringProperties;
-    IMKCandidateUIStringProperties *_titleStringProperties;
-    IMKCandidateUIStringProperties *_noCandidatesStringProperties;
-    double _candidateThickness;
-    double _minimumCandidateWidthForHorizontal;
-    double _minimumCandidateWidthForHorizontalCompressed;
-    double _groupBarThickness;
-    double _selectionViewHeight;
-    _Bool _showsSelectionKeys;
-    double _leftMarginHorizontal;
-    double _leftMarginVertical;
-    double _candidateLeftMarginHorizontal;
-    double _candidateLeftMarginVertical;
-    double _middleMargin;
-    double _padding;
-    long long _windowCategory;
 }
 
 + (id);
@@ -50,33 +31,16 @@
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)%s:%d keyToCompare is not of VCMediaKeyIndex class /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (double)own:withSize: /* Error: Ran out of types for this method. */;
+- (id)VCDurationHistogram;
+- (double)drawArrowUpsideDown:withSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) IMKCandidateUIStringProperties *annotationStringProperties; // @synthesize annotationStringProperties=_annotationStringProperties;
-@property(readonly, nonatomic) double candidateLeftMargin;
-@property(readonly, nonatomic) double candidateThickness; // @synthesize candidateThickness=_candidateThickness;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) double groupBarThickness; // @synthesize groupBarThickness=_groupBarThickness;
-@property(readonly, nonatomic) IMKCandidateUIStringProperties *groupStringProperties; // @synthesize groupStringProperties=_groupStringProperties;
-@property(readonly, nonatomic) IMKCandidateUIStringProperties *guideStringProperties; // @synthesize guideStringProperties=_guideStringProperties;
-@property(readonly, nonatomic) double leftMargin;
-@property(readonly, nonatomic) double middleMargin; // @synthesize middleMargin=_middleMargin;
-@property(readonly, nonatomic) double minimumCandidateWidthForHorizontal; // @synthesize minimumCandidateWidthForHorizontal=_minimumCandidateWidthForHorizontal;
-@property(nonatomic) double minimumCandidateWidthForHorizontalCompressed; // @synthesize minimumCandidateWidthForHorizontalCompressed=_minimumCandidateWidthForHorizontalCompressed;
-@property(readonly, nonatomic) IMKCandidateUIStringProperties *noCandidatesStringProperties; // @synthesize noCandidatesStringProperties=_noCandidatesStringProperties;
-@property(readonly, nonatomic) double padding; // @synthesize padding=_padding;
-@property(readonly, nonatomic) double selectionViewHeight; // @synthesize selectionViewHeight=_selectionViewHeight;
-@property(nonatomic) _Bool showsSelectionKeys; // @synthesize showsSelectionKeys=_showsSelectionKeys;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) IMKCandidateUIStringProperties *titleStringProperties; // @synthesize titleStringProperties=_titleStringProperties;
-@property(nonatomic) long long windowCategory; // @synthesize windowCategory=_windowCategory;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMAssetBase.h>
 
-@class CEMAssetBaseDescriptor, NSString;
+@class CEMAssetBaseDescriptor;
 
 @interface CEMApplicationAnyDeclaration : CEMAssetBase
 {
     CEMAssetBaseDescriptor *_payloadDescriptor;
-    NSString *_payloadBundleIdentifier;
-    NSString *_payloadDesignatedRequirement;
-    NSString *_payloadSigningIdentifier;
 }
 
 + (id);
@@ -35,17 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadBundleIdentifier; // @synthesize payloadBundleIdentifier=_payloadBundleIdentifier;
 @property(copy, nonatomic) CEMAssetBaseDescriptor *payloadDescriptor; // @synthesize payloadDescriptor=_payloadDescriptor;
-@property(copy, nonatomic) NSString *payloadDesignatedRequirement; // @synthesize payloadDesignatedRequirement=_payloadDesignatedRequirement;
-@property(copy, nonatomic) NSString *payloadSigningIdentifier; // @synthesize payloadSigningIdentifier=_payloadSigningIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

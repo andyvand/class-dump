@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTraitsTransitScheduleTimeRange, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOTraitsTransitScheduleModeFilter
 {
     PBUnknownFields *_unknownFields;
-    GEOTraitsTransitScheduleTimeRange *_timeRange;
-    unsigned int _numAdditionalDepartures;
-    struct {
-        unsigned int has_numAdditionalDepartures:1;
-    } _flags;
 }
 
-+ (_Bool)thod:(id)arg1;
++ (_Bool)setMethod:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -25,29 +20,25 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)initWithDisableOnDeviceCompilation:(id)arg1;
+- (_Bool)SSmartSiriVolume didDetectKeywordWithResult:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id)ead_displayedResults"b1"read_searchString"b1"wrote_anyField"b1};
-- (_Bool)ems:collections:publishers: /* Error: Ran out of types for this method. */;
-- (id)ageString;
-- (id)tionsDetail;
+- (_Bool)initWithEntry:traits:entryListIndex:entryIndex:mapItems:collections:publishers: /* Error: Ran out of types for this method. */;
+- (id)hasUsageString;
+- (id)GEOLogMsgStateDirectionsDetail;
 - (id)m can only be called once per object;
 - (id)ÿÿ3;
 - (void)F'K­÷VQ@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumAdditionalDepartures;
 @property(readonly, nonatomic) _Bool hasTimeRange;
-@property(nonatomic) unsigned int numAdditionalDepartures;
-@property(retain, nonatomic) GEOTraitsTransitScheduleTimeRange *timeRange;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

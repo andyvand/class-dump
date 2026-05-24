@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, SFSafariExtensionContext;
+@class NSUUID;
 
 @interface SFSafariTab
 {
     NSUUID *_uuid;
-    SFSafariExtensionContext *__extensionContext;
 }
 
 + (_Bool);
@@ -25,14 +24,13 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)k;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFSafariExtensionContext *_extensionContext; // @synthesize _extensionContext=__extensionContext;
 @property(readonly, nonatomic) NSUUID *_uuid;
 
 @end

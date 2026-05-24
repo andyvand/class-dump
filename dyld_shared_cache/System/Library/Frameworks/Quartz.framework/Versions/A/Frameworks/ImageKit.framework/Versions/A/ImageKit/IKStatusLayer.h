@@ -6,20 +6,11 @@
 
 #import <ImageKit/IKCenteredLayer.h>
 
-@class CATextLayer, IKNCustomLayer, IKNProgressLayer, NSString, NSView;
+@class NSString, NSView;
 
 @interface IKStatusLayer : IKCenteredLayer
 {
     NSView *_view;
-    CATextLayer *_statusTextLayer;
-    NSString *_statusText;
-    IKNProgressLayer *_progressLayer;
-    IKNCustomLayer *_cancelButtonLayer;
-    double _progress;
-    double _offset;
-    double _textSize;
-    double _yPosition;
-    _Bool _showCancelButton;
 }
 
 - (double);
@@ -31,24 +22,21 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(nonatomic) _Bool showCancelButton; // @synthesize showCancelButton=_showCancelButton;
 @property(copy, nonatomic) NSString *statusText; // @synthesize statusText=_statusText;
-@property double yPosition; // @synthesize yPosition=_yPosition;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.CookingKitExternalNavigationHandler
 {
     id navigator;
-    id cookingKitTrackerManager;
 }
 
 @end

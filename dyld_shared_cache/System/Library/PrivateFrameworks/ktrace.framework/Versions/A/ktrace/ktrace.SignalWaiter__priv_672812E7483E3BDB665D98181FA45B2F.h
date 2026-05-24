@@ -7,7 +7,6 @@
 @interface ktrace.SignalWaiter__priv_672812E7483E3BDB665D98181FA45B2F
 {
     id signal;
-    id source;
 }
 
 @end

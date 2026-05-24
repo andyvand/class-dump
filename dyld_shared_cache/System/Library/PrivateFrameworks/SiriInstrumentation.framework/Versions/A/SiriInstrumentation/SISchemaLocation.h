@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaLocation : SISchemaInstrumentationMessage
 {
     float _latitude;
-    float _longitude;
-    float _horizontalAccuracyInMeters;
-    struct {
-        unsigned int latitude:1;
-        unsigned int longitude:1;
-        unsigned int horizontalAccuracyInMeters:1;
-    } _has;
 }
 
 - (void);
@@ -29,30 +20,24 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)sterIDs;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ultiValue"24@?0@"ABMutableMultiValue"8@"CNLabeledValue"16;
+- (_Bool)hare_status INTEGER, share_direction INTEGER, is_expirable INTEGER DEFAULT 0, expire_state INTEGER DEFAULT 0, message_action_type INTEGER DEFAULT 0, message_source INTEGER DEFAULT 0);;
 - (id);
 - (void);
 - (id);
-- (id)leteCompressed_messages;
-- (void)asAudioHintNeeded;
-- (float)sSiriEventTypeUnion;
-- (id)2;
+- (id)deleteCompressed_messages;
+- (void)_wasAudioHintNeeded;
+- (float)_hasSiriEventTypeUnion;
+- (id)_endpointDelayInNsV2;
 - (_Bool)Array",C,N,V_tokenWiseAsrConfidences;
 - (void)x;
 - (void)recognizedTokens;
 - (float)¡Âæ9\Ó>;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHorizontalAccuracyInMeters;
-@property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLongitude;
-@property(nonatomic) float horizontalAccuracyInMeters; // @synthesize horizontalAccuracyInMeters=_horizontalAccuracyInMeters;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) float longitude; // @synthesize longitude=_longitude;
 
 @end
 

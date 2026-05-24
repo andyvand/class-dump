@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPText, NSObject;
-@protocol MRMarimbaBasicPlayback;
+@class MPText;
 
 @interface MRMarimbaTextView
 {
     MPText *_editedText;
-    NSObject<MRMarimbaBasicPlayback> *_marimbaPlayer;
-    _Bool _disableUpdate;
-    _Bool _useRichText;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)ier isEqualToString:(id)arg1 NDAnalyticsUploadSchedulerBackgroundSessionIdentifier];
 - (void);
 - (void);
 - (void);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPoint)dition;
+- (struct CGPoint)_pauseCondition;
 
 @end
 

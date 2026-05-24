@@ -6,27 +6,25 @@
 
 #import <SpotlightServices/SSSectionBuilder.h>
 
-@class NSArray, NSSet;
+@class NSSet;
 
 @interface SSSearchInAppSectionBuilder : SSSectionBuilder
 {
     NSSet *_bundleIdentifiersForHiddenSections;
-    NSArray *_searchInAppInfo;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityIdentifier;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)pId: /* Error: Ran out of types for this method. */;
+- (id)stringByTrimmingCharactersInSet: /* Error: Ran out of types for this method. */;
+- (id)setCanDrawSubviewsIntoLayer: /* Error: Ran out of types for this method. */;
+- (id)(;
+- (void)initWithFastLaunchURL:contentType:displayName:groupId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *bundleIdentifiersForHiddenSections; // @synthesize bundleIdentifiersForHiddenSections=_bundleIdentifiersForHiddenSections;
-@property(retain, nonatomic) NSArray *searchInAppInfo; // @synthesize searchInAppInfo=_searchInAppInfo;
 
 @end
 

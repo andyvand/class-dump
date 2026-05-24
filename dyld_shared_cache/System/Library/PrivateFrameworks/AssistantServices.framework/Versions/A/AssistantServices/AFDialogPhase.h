@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFDialogPhase
 {
     long long _type;
@@ -36,7 +34,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9	;
 - (_Bool);
 - (id);
 - (int);
@@ -44,28 +42,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)&;
 - (_Bool);
 - (void);
 - (_Bool);
 - (long long)Ô ;
 
 // Remaining properties
-@property(readonly, nonatomic) int UEIUUFRReadyDialogPhase;
-@property(readonly, nonatomic) NSString *aceDialogPhaseValue;
-@property(readonly, nonatomic, getter=isAcknowledgementDialogPhase) _Bool acknowledgementDialogPhase;
-@property(readonly, nonatomic, getter=isCancelledDialogPhase) _Bool cancelledDialogPhase;
-@property(readonly, nonatomic, getter=isClarificationDialogPhase) _Bool clarificationDialogPhase;
-@property(readonly, nonatomic, getter=isCompletionDialogPhase) _Bool completionDialogPhase;
-@property(readonly, nonatomic, getter=isConfirmationDialogPhase) _Bool confirmationDialogPhase;
-@property(readonly, nonatomic, getter=isConfirmedDialogPhase) _Bool confirmedDialogPhase;
-@property(readonly, nonatomic, getter=isErrorDialogPhase) _Bool errorDialogPhase;
-@property(readonly, nonatomic, getter=isExpository) _Bool expository;
-@property(readonly, nonatomic, getter=isReflectionDialogPhase) _Bool reflectionDialogPhase;
-@property(readonly, nonatomic, getter=isSummaryDialogPhase) _Bool summaryDialogPhase;
-@property(readonly, nonatomic, getter=isTemporary) _Bool temporary;
 @property(readonly, nonatomic, getter=_type) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic, getter=isUserRequestDialogPhase) _Bool userRequestDialogPhase;
 
 @end
 

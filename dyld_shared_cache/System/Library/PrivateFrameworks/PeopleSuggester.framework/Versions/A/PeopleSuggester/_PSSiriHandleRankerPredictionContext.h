@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface _PSSiriHandleRankerPredictionContext
 {
     NSDate *_suggestionDate;
-    NSArray *_bundleIds;
-    long long _domain;
 }
 
 + (_Bool);
@@ -19,14 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bundleIds; // @synthesize bundleIds=_bundleIds;
-@property long long domain; // @synthesize domain=_domain;
 @property(copy, nonatomic) NSDate *suggestionDate; // @synthesize suggestionDate=_suggestionDate;
 
 @end

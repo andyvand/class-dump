@@ -7,14 +7,13 @@
 @interface AFSpeechRecordingAlertBehavior
 {
     long long _style;
-    long long _beepSoundID;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (long long);
-- (id);
+- (long long)H	;
+- (id)isMethodInProgressMethodExpired;
 - (long long);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long beepSoundID; // @synthesize beepSoundID=_beepSoundID;
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end

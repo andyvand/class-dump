@@ -22,16 +22,12 @@
 - (id);
 - (id);
 - (double);
-- (double);
+- (double)LargeReceivePairVerify;
 - (_Bool);
 - (void)¦;
 
 // Remaining properties
 @property(nonatomic) double deviceAdjustment;
-@property(nonatomic) double deviceClass;
-@property(nonatomic) double deviceDelay;
-@property(nonatomic) double deviceTrumpDelay;
-@property(nonatomic) double deviceVTEndtimeDistanceThreshold;
 
 @end
 

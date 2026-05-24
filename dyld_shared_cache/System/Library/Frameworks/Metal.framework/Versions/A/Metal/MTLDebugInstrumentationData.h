@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSObject;
+@class NSObject;
 @protocol OS_dispatch_data;
 
 @interface MTLDebugInstrumentationData
 {
     NSObject<OS_dispatch_data> *_dataMap;
-    const void *_data;
-    struct vector<const __CFString *, std::allocator<const __CFString *>> _strings;
-    struct vector<MTLDebugLocation *, std::allocator<MTLDebugLocation *>> _debugLocations;
-    struct vector<MTLDebugSubProgram *, std::allocator<MTLDebugSubProgram *>> _debugSubPrograms;
-    NSData *_globalConstantsData;
-    NSObject<OS_dispatch_data> *_userReflectionData;
-    NSArray *_linkedDynamicLibraries;
 }
 
 - (id);
@@ -39,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int activeThreadgroupMask;
-@property(readonly, nonatomic) unsigned long long bufferAccessMask;
-@property(readonly, nonatomic) _Bool hasArgumentBufferInstrumentationFailures;
-@property(readonly, nonatomic) _Bool hasArgumentLimitsInstrumentationFailures;
 @property(readonly, nonatomic) _Bool hasGlobalConstantsInstrumentationFailures;
-@property(readonly, nonatomic) unsigned int threadgroupArgumentOffset;
 
 @end
 

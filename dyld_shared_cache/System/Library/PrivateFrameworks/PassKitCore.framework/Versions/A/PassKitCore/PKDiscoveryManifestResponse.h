@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void)ifier;
+- (id);
+- (void)Identifier;
 
 // Remaining properties
 @property(readonly, nonatomic) PKDiscoveryManifest *manifest; // @synthesize manifest=_manifest;

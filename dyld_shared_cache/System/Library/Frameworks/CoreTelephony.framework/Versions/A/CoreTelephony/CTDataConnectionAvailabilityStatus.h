@@ -7,22 +7,20 @@
 @interface CTDataConnectionAvailabilityStatus
 {
     _Bool _available;
-    int _csiError;
 }
 
-+ (_Bool);
++ (_Bool)customurl.nsurlsession;
 - (void);
 - (int);
-- (id);
-- (id);
-- (void);
+- (id)?;
+- (id);
+- (void)ServerPropertyForOption:(id)arg1 %d value:%{public}@ on %{public}@ cid:%u /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool available; // @synthesize available=_available;
-@property(nonatomic) int csiError; // @synthesize csiError=_csiError;
 
 @end
 

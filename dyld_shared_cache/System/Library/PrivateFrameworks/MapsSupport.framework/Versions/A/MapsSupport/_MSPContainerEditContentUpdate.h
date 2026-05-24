@@ -6,18 +6,16 @@
 
 #import <MapsSupport/_MSPContainerEdit.h>
 
-@class NSString;
-@protocol MSPImmutableObject, MSPMutableObject;
+@protocol MSPMutableObject;
 
 __attribute__((visibility("hidden")))
 @interface _MSPContainerEditContentUpdate : _MSPContainerEdit
 {
     id <MSPMutableObject> _updatedObject;
-    id <MSPImmutableObject> _updatedImmutableObject;
 }
 
 - (void);
-- (id);
+- (id)X;
 - (id);
 - (id);
 - (id);
@@ -25,14 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <MSPImmutableObject> updatedImmutableObject; // @synthesize updatedImmutableObject=_updatedImmutableObject;
 @property(readonly, nonatomic) id <MSPMutableObject> updatedObject; // @synthesize updatedObject=_updatedObject;
 
 @end

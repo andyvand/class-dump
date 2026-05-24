@@ -10,8 +10,8 @@
 {
 }
 
-+ (long long);
-+ (id);
++ (long long)isEnumeratingDirectoryPostOrder;
++ (id)MIMETypeForExtension: /* Error: Ran out of types for this method. */;
 + (void)CREATE TABLE item_artist_new (item_artist_pid INTEGER PRIMARY KEY, item_artist TEXT NOT NULL DEFAULT '', sort_item_artist TEXT, series_name TEXT NOT NULL DEFAULT '', sort_series_name TEXT, grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, store_id INTEGER NOT NULL DEFAULT 0, artist_artwork_token TEXT NOT NULL DEFAULT '', representative_item_pid INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 + (id)Lîðÿq;
 

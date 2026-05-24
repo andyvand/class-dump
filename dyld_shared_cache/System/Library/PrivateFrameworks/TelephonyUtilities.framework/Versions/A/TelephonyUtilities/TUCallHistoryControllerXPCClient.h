@@ -4,67 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface TUCallHistoryControllerXPCClient
 {
     _Bool _hasRequestedInitialState;
-    _Bool _hasInitialState;
-    _Bool _shouldConnectToHost;
-    struct os_unfair_lock_s _accessorLock;
-    int _shouldConnectToken;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
++ (id);
++ (id);
++ (void);
++ (id)Pz;
 + (id);
 + (id);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
 - (void);
 - (void);
-- (void);
+- (void)H-;
 - (id);
 - (void);
 - (struct os_unfair_lock_s);
 - (id);
 - (id);
 - (void);
-- (void)on:toConversation: /* Error: Ran out of types for this method. */;
-- (void)qualToHandoffContext:(CDUnknownBlockType)arg1;
-- (void)o;
+- (void)queueCollaborationIdentifierForCollaboration:toConversation: /* Error: Ran out of types for this method. */;
+- (void)isEqualToHandoffContext:(CDUnknownBlockType)arg1;
+- (void)downgradeToAudio;
 - (_Bool)RL",&,N,V_sandboxExtendedRingtoneSoundURL;
-- (int)gCurrentlyAvailable;
-- (void)eportTelephonyManager;
+- (int)isWiFiCallingCurrentlyAvailable;
+- (void)_TtC18TelephonyUtilities31VoiceSpamReportTelephonyManager;
 - (void)X!|!;
 - (void)CGG;
 - (id)nspecified originating UI type:(CDUnknownBlockType)arg1 %@;
 - (_Bool)d to open collaboration identifier:%@ /* Error: Ran out of types for this method. */;
 - (void)Asked to pick route when available with unique identifier:(int)arg1 %@;
-- (void)oice;
+- (void)supportsTTYWithVoice;
 - (id)est:(CDUnknownBlockType)arg1 %@;
-- (_Bool)oDeviceControllerIsStudioLightEnabled;
+- (_Bool)TUVideoDeviceControllerIsStudioLightEnabled;
 - (void)ø¶;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasInitialState; // @synthesize hasInitialState=_hasInitialState;
-@property(nonatomic) _Bool hasRequestedInitialState; // @synthesize hasRequestedInitialState=_hasRequestedInitialState;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool shouldConnectToHost; // @synthesize shouldConnectToHost=_shouldConnectToHost;
-@property(nonatomic) int shouldConnectToken; // @synthesize shouldConnectToken=_shouldConnectToken;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

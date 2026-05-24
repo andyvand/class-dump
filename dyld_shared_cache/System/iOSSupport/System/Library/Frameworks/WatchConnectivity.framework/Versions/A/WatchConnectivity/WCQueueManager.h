@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WCQueueManager
 {
     _Bool _canSend;
-    _Bool _messageOutstanding;
-    NSMutableArray *_messageQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_inFlightMessages;
 }
 
 - (void);
@@ -43,14 +36,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property _Bool canSend; // @synthesize canSend=_canSend;
-@property(retain) NSMutableDictionary *inFlightMessages; // @synthesize inFlightMessages=_inFlightMessages;
-@property _Bool messageOutstanding; // @synthesize messageOutstanding=_messageOutstanding;
-@property(retain) NSMutableArray *messageQueue; // @synthesize messageQueue=_messageQueue;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

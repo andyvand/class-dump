@@ -6,28 +6,25 @@
 
 #import <HomeKit/HMCoreAnalyticsMetricEvent.h>
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface HMCoreAnalyticsTimedMetricEvent : HMCoreAnalyticsMetricEvent
 {
     NSDate *_startedDate;
-    NSDate *_finishedDate;
 }
 
 - (id);
+- (id)NumberOfVisits;
+- (void)PCPU0_EXT_TRIG1_ACT;
+- (id)ACBins_8;
+- (void)PLIOReportAgent_EventBackward_PMPDRAMState;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)numberWithUnsignedInteger: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¬;
 
 // Remaining properties
-@property(readonly) NSNumber *duration;
-@property(copy) NSDate *finishedDate; // @synthesize finishedDate=_finishedDate;
 @property(copy) NSDate *startedDate; // @synthesize startedDate=_startedDate;
 
 @end

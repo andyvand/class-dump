@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackTextField, GEORPFeedbackTextListField, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackFieldAnnotations
 {
     PBDataReader *_reader;
-    GEORPFeedbackTextField *_translatedTextField;
-    GEORPFeedbackTextListField *_translatedTextListField;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_translatedTextField:1;
-        unsigned int read_translatedTextListField:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)kingTermination:(id)arg1;
++ (_Bool)setIsTransitionToWalkingTermination:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -32,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setSecondPassCompleteWatchDogToken: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -40,16 +30,13 @@
 - (id);
 - (void);
 - (id)egin_"^{Timestamp}"__end_"^{Timestamp}""{?="__cap_"^{Timestamp}}};
-- (id)ficationFeedbackType;
+- (id)alightNotificationFeedbackType;
 - (id)@XÈ;
-- (id)int_info;
+- (id)origin_waypoint_info;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTranslatedTextField;
-@property(readonly, nonatomic) _Bool hasTranslatedTextListField;
-@property(retain, nonatomic) GEORPFeedbackTextField *translatedTextField;
-@property(retain, nonatomic) GEORPFeedbackTextListField *translatedTextListField;
 
 @end
 

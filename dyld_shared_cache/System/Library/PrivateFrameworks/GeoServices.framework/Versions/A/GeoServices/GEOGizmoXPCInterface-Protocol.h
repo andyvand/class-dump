@@ -5,5 +5,6 @@
 //
 
 @protocol GEOGizmoXPCInterface
+- (void)ata.framework/Versions/A/CoreData;
 @end
 

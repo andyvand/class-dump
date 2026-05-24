@@ -4,46 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeNFCReaderKey
 {
     NSData *_publicKeyExternalRepresentation;
-    NSData *_privateKey;
-    NSData *_identifier;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool)4m;
++ (_Bool)84m;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%f;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)ansportProtocol:(struct _NSZone *)arg1 subject:portStart:portEnd:icmpTypes: /* Error: Ran out of types for this method. */;
-- (id)aContentProfileEnabled;
-- (id)ameters;
+- (id)initWithJSONDictionary:(struct _NSZone *)arg1 name:critical:purpose:transportProtocol:subject:portStart:portEnd:icmpTypes: /* Error: Ran out of types for this method. */;
+- (id)ownerMediaContentProfileEnabled;
+- (id)HMDReselectedRTPParameters;
 - (id)t;
 - (id)ust respect delay for found operation;
-- (void)D;
+- (void)VendorProductID;
 - (id)ÿàº(?;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy) NSData *externalRepresentation;
-@property(readonly, copy) NSData *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSData *privateKey; // @synthesize privateKey=_privateKey;
-@property(readonly, copy) NSData *publicKey;
 @property(readonly, copy) NSData *publicKeyExternalRepresentation; // @synthesize publicKeyExternalRepresentation=_publicKeyExternalRepresentation;
 
 @end

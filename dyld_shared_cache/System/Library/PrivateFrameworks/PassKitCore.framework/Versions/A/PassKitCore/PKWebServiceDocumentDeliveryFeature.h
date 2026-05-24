@@ -6,25 +6,21 @@
 
 #import <PassKitCore/PKWebServiceRegionFeature.h>
 
-@class NSURL;
-
 @interface PKWebServiceDocumentDeliveryFeature : PKWebServiceRegionFeature
 {
     _Bool _enabled;
-    NSURL *_webServiceURL;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool));
 + (id);
 - (id);
 - (_Bool);
 - (id);
-- (void)sion;
+- (void)merchantSession;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSURL *webServiceURL; // @synthesize webServiceURL=_webServiceURL;
 
 @end
 

@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UILocalNotification;
+@class UILocalNotification;
 
 @interface UIHandleLocalNotificationAction
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)__kIMDChatRegistryAddedChatNotification;
+- (id)mStorage:(id)arg1 %@, isFromMe:(id)arg2 %@, output messageItems:(CDUnknownBlockType)arg3 %lu};
+- (id)ciatedMessageGUID:(id)arg1 %@, timestamp:(id)arg2 %@, isFromStorage:(id)arg3 %@, isLastFromStorage:(CDUnknownBlockType)arg4 %@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (id);
+- (id)_setShowsSearchResultsController:(long long)arg1;
 - (id),V_secondaryActionsProvider;
 - (id)es contain %@;
 - (id);
@@ -26,9 +26,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *action;
 @property(readonly, copy, nonatomic) UILocalNotification *notification;
-@property(readonly, copy, nonatomic) NSDictionary *userResponse;
 
 @end
 

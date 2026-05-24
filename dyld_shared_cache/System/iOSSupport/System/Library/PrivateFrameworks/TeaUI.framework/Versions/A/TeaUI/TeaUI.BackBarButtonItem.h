@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)todayConfigWithIdentifier:queueConfigs:backgroundColorLight:backgroundColorDark:audioIndicatorColor:widgetBannerConfig: /* Error: Ran out of types for this method. */;
 
 @end
 

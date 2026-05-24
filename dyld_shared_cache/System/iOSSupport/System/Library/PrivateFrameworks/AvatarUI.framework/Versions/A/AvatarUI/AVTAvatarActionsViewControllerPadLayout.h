@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVTViewLayoutInfo;
-
 @interface AVTAvatarActionsViewControllerPadLayout
 {
     long long _buttonCount;
-    id <AVTViewLayoutInfo> _avtViewLayout;
-    struct CGSize _containerSize;
-    struct UIEdgeInsets _edgeInsets;
 }
 
 + (double);
@@ -29,14 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double actionButtonsViewAlpha;
-@property(readonly, nonatomic) struct CGRect actionButtonsViewFrame;
-@property(readonly, nonatomic) struct CGRect avatarContainerViewFrame;
-@property(readonly, nonatomic) id <AVTViewLayoutInfo> avtViewLayout; // @synthesize avtViewLayout=_avtViewLayout;
-@property(readonly, nonatomic) long long buttonCount; // @synthesize buttonCount=_buttonCount;
 @property(readonly, nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(readonly, nonatomic) struct CGRect userInfoFrame;
 
 @end
 

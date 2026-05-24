@@ -9,28 +9,22 @@
 @interface CNContactPosterNameComponents
 {
     NSString *_firstNameComponent;
-    NSString *_secondNameComponent;
-    long long _emphasizedNameComponentIndex;
-    long long _singleNameComponentIndex;
 }
 
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)A;
 - (id);
 - (void)ions";
 
 // Remaining properties
-@property long long emphasizedNameComponentIndex; // @synthesize emphasizedNameComponentIndex=_emphasizedNameComponentIndex;
 @property(copy) NSString *firstNameComponent; // @synthesize firstNameComponent=_firstNameComponent;
-@property(copy) NSString *secondNameComponent; // @synthesize secondNameComponent=_secondNameComponent;
-@property long long singleNameComponentIndex; // @synthesize singleNameComponentIndex=_singleNameComponentIndex;
 
 @end
 

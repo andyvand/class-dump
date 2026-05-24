@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)e found for symbolName :%@, domainName :%@ /* Error: Ran out of types for this method. */;
++ (void);
 - (_Bool);
 - (unsigned long long);
 - (id);

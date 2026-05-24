@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFTextRange, AXFUIElement, AXKElementController, NSString;
+@class AXFUIElement;
 
 @interface AXKElementBasedTextProvider
 {
     AXFUIElement *__element;
-    AXKElementController *__elementController;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void));
 - (void);
 - (id);
-- (long long);
-- (id);
-- (id);
 - (void);
+- (id);
+- (long long))y?]q!;
+- (id);
+- (id);
+- (void)setBaseFontSize: /* Error: Ran out of types for this method. */;
 - (id)status.battery.none;
 
 // Remaining properties
 @property(retain, nonatomic) AXFUIElement *_element; // @synthesize _element=__element;
-@property(retain, nonatomic) AXKElementController *_elementController; // @synthesize _elementController=__elementController;
-@property(readonly, nonatomic) AXFTextRange *contentRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long numberOfCharacters;
-@property(readonly) Class superclass;
 
 @end
 

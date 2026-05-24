@@ -4,50 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, WBSCloudHistoryConfiguration, WBSCloudHistoryPushAgentProxy, WBSCloudKitThrottler, WBSOneShotTimer;
-@protocol OS_dispatch_queue, WBSCloudHistoryDataStore, WBSCloudKitContainerManateeObserving, WBSHistoryServiceDatabaseProtocol, WBSHistoryServiceDatabaseStore;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSCloudHistory
 {
     NSObject<OS_dispatch_queue> *_cloudHistoryQueue;
-    NSObject<OS_dispatch_queue> *_waitUntilMetadataHasLoadedQueue;
-    id <WBSHistoryServiceDatabaseProtocol> _database;
-    NSData *_pushThrottlerData;
-    NSData *_fetchThrottlerData;
-    NSData *_syncCircleSizeRetrievalThrottlerData;
-    NSData *_longLivedSaveOperationData;
-    unsigned long long _syncCircleSize;
-    _Bool _cloudHistoryEnabled;
-    _Bool _saveChangesWhenHistoryLoads;
-    _Bool _fetchChangesWhenHistoryLoads;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> _saveOperationSuddenTerminationDisabler;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> _fetchOperationSuddenTerminationDisabler;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> _replayLongLivedSaveOperationSuddenTerminationDisabler;
-    _Bool _replayLongLivedSaveOperationHasBeenPerformed;
-    WBSCloudHistoryConfiguration *_configuration;
-    id <WBSCloudHistoryDataStore> _store;
-    WBSCloudKitThrottler *_saveChangesThrottler;
-    WBSCloudKitThrottler *_fetchChangesThrottler;
-    WBSCloudKitThrottler *_syncCircleSizeRetrievalThrottler;
-    WBSOneShotTimer *_serverBackoffTimer;
-    _Bool _saveChangesWhenBackoffTimerFires;
-    _Bool _fetchChangesWhenBackoffTimerFires;
-    WBSCloudHistoryPushAgentProxy *_pushAgent;
-    WBSOneShotTimer *_pushNotificationFetchTimer;
-    unsigned long long _numberOfDevicesInSyncCircle;
-    NSMutableDictionary *_syncCircleSizeRetrievalCompletionHandlersByOperation;
-    NSArray *_fetchCompletionHandlers;
-    NSArray *_saveCompletionHandlers;
-    id <WBSCloudKitContainerManateeObserving> _containerManateeObserver;
-    NSMutableArray *_storeDeterminationCompletionBlocks;
-    long long _currentManateeState;
-    _Bool _manateeStateNeedsUpdate;
-    _Bool _isWaitingForPCSIdentityUpdate;
-    _Bool _determiningStoreType;
-    NSDictionary *_namedProfileLocalIdentifiersToServerIdentifiersMap;
-    NSDictionary *_namedProfileServerIdentifiersToLocalIdentifiersMap;
-    _Bool _removedHistoryItemsArePendingSave;
-    id <WBSHistoryServiceDatabaseStore> _databaseStore;
 }
 
 - (void);
@@ -79,6 +41,33 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)	;
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -88,40 +77,13 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -137,17 +99,7 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic, getter=isCloudHistoryEnabled) _Bool cloudHistoryEnabled;
-@property(nonatomic) __weak id <WBSHistoryServiceDatabaseStore> databaseStore; // @synthesize databaseStore=_databaseStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long numberOfDevicesInSyncCircle; // @synthesize numberOfDevicesInSyncCircle=_numberOfDevicesInSyncCircle;
-@property(nonatomic) _Bool removedHistoryItemsArePendingSave; // @synthesize removedHistoryItemsArePendingSave=_removedHistoryItemsArePendingSave;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,13 +6,12 @@
 
 #import <JetEngine/JETreatmentAction.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface JEDeresURLTreatmentAction : JETreatmentAction
 {
     NSString *_scope;
-    NSDictionary *_allowedParameters;
 }
 
 - (id);

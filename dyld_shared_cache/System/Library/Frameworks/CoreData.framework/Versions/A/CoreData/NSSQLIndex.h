@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFetchIndexDescription, NSMutableArray, NSSQLEntity;
+@class NSFetchIndexDescription;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLIndex
 {
     NSFetchIndexDescription *_indexDescription;
-    NSSQLEntity *_sqlEntity;
-    NSMutableArray *_createStrings;
-    NSMutableArray *_dropStrings;
-    NSMutableArray *_updateStrings;
 }
 
-- (id);
+- (id)lY;
 - (id);
 - (void);
 - (id);
@@ -28,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSFetchIndexDescription *indexDescription; // @synthesize indexDescription=_indexDescription;
-@property(readonly, nonatomic) NSSQLEntity *sqlEntity; // @synthesize sqlEntity=_sqlEntity;
 
 @end
 

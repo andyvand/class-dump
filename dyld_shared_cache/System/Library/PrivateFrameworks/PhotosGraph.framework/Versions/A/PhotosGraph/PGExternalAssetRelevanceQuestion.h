@@ -6,23 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGExternalAssetRelevanceQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSString *_entityIdentifier;
-    NSDictionary *_additionalInfo;
 }
 
 - (id);
 - (unsigned short);
-- (id);
+- (id);
+- (unsigned short)q+;
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
-- (id)artDate;
-- (void)avedAssets;
+- (id)_universalStartDate;
+- (void)savedAssets;
 
 @end
 

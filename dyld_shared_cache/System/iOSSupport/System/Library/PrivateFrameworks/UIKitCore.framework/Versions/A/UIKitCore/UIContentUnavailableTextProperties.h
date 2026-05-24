@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIColor, UIFont;
+@class NSString;
 
 @interface UIContentUnavailableTextProperties
 {
@@ -19,21 +19,11 @@
         unsigned int hasCustomizedMinimumScaleFactor:1;
         unsigned int hasCustomizedAllowsDefaultTighteningForTruncation:1;
     } _textFlags;
-    _Bool _adjustsFontSizeToFitWidth;
-    _Bool _allowsDefaultTighteningForTruncation;
-    NSString *_text;
-    UIFont *_font;
-    UIColor *_color;
-    long long _lineBreakMode;
-    NSAttributedString *_attributedText;
-    long long _numberOfLines;
-    double _minimumScaleFactor;
-    long long _alignment;
 }
 
 + (_Bool)parate reuse identifiers for different types of header/footer views to avoid this.;
 - (void);
-- (_Bool);
+- (_Bool)_statusQueryResponses;
 - (_Bool);
 - (void);
 - (id);
@@ -51,26 +41,26 @@
 × ;
 - (long long)irectionalEdgeInsets=dddd}32;
 - (_Bool)etrics={_UIListMetricsBackgroundMetrics=q@qd{NSDirectionalEdgeInsets=dddd}q}{_UIListMetricsContentMetrics=d}{_UIListMetricsImageMetrics=@}{_UIListMetricsLabelMetrics=@@}{_UIListMetricsLabelMetrics=@@}}56@0:(id)arg1 8q16q24q32@40@48;
-- (id)ceName: /* Error: Ran out of types for this method. */;
-- (_Bool)iewSet:(id)arg1;
-- (void)ss:(id)arg1;
-- (_Bool)tIsUnoccludable:(id)arg1;
+- (id)setNetworkInterfaceName: /* Error: Ran out of types for this method. */;
+- (_Bool)endPlacementForInputViewSet:(id)arg1;
+- (void)_userInterfaceIdiomForDeviceClass:(id)arg1;
+- (_Bool)_setIsUnoccludable:(id)arg1;
 - (void)tionState;
 - (void)edbackView;
 - (id)D¹;
 - (void);
 - (void);
 - (_Bool)<ÁÜK;
-- (id)IKeyboardEndIntersectionHeightIncludingAccessory;
-- (id)eLevel;
-- (void)orners;
+- (id)UIKeyboardEndIntersectionHeightIncludingAccessory;
+- (id)UITraitUserInterfaceLevel;
+- (void)UIKBTreePropertyClipCorners;
 - (void)f -sizeThatFits:(double)arg1 , -systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:, or -preferredLayoutAttributesFittingAttributes:. Ensure that your view generates a valid preferred size.
 Original attributes:%@. Preferred attributes:%@.
 Collection View:%@ /* Error: Ran out of types for this method. */;
 - (void)form a delete and a move from the same section (%ld);
 - (void)mension.;
 - (void)tributes"8;
-- (void)gProgressSpring;
+- (void)scrollAwayTrackingProgressSpring;
 - (void);
 - (long long);
 - (id);
@@ -92,24 +82,6 @@ Collection View:%@ /* Error: Ran out of types for this method. */;
 - (long long)ðhÿfø(;
 
 // Remaining properties
-@property(nonatomic, setter=_setAdjustsFontSizeToFitWidth:) _Bool _adjustsFontSizeToFitWidth; // @synthesize _adjustsFontSizeToFitWidth;
-@property(nonatomic, setter=_setAllowsDefaultTighteningForTruncation:) _Bool _allowsDefaultTighteningForTruncation; // @synthesize _allowsDefaultTighteningForTruncation;
-@property(copy, nonatomic, setter=_setAttributedText:) NSAttributedString *_attributedText; // @synthesize _attributedText;
-@property(retain, nonatomic, setter=_setColor:) UIColor *_color; // @synthesize _color;
-@property(retain, nonatomic, setter=_setFont:) UIFont *_font; // @synthesize _font;
-@property(nonatomic, setter=_setLineBreakMode:) long long _lineBreakMode; // @synthesize _lineBreakMode;
-@property(nonatomic, setter=_setMinimumScaleFactor:) double _minimumScaleFactor; // @synthesize _minimumScaleFactor;
-@property(nonatomic, setter=_setNumberOfLines:) long long _numberOfLines; // @synthesize _numberOfLines;
-@property(copy, nonatomic, setter=_setText:) NSString *_text; // @synthesize _text;
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) _Bool allowsDefaultTighteningForTruncation;
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(retain, nonatomic) UIColor *color;
-@property(retain, nonatomic) UIFont *font;
-@property(nonatomic) long long lineBreakMode;
-@property(nonatomic) double minimumScaleFactor;
-@property(nonatomic) long long numberOfLines;
 @property(copy, nonatomic) NSString *text;
 
 @end

@@ -16,13 +16,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)e mirror files or any active downloads for guids:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id)AMSTreatment;
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties

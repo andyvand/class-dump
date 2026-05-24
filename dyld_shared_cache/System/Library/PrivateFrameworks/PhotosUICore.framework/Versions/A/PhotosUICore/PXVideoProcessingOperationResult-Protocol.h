@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAudioMix, AVVideoComposition, NSDictionary, NSError, PXVideoProcessingOperationSpec;
+@class NSDictionary, PXVideoProcessingOperationSpec;
 
 @protocol PXVideoProcessingOperationResult
-- (NSDictionary *)ileUserData;
-- (NSDictionary *)exPath: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)_overlayBadgeTileUserData;
+- (NSDictionary *)_assetAtSimpleIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *debugInfo;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) AVAudioMix *outputAudioMix;
-@property(readonly, nonatomic) AVAsset *outputVideoAsset;
-@property(readonly, nonatomic) AVVideoComposition *outputVideoComposition;
 @property(readonly, nonatomic) PXVideoProcessingOperationSpec *spec;
 @end
 

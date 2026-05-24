@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NSSQLConnectionManager
 {
     NSSQLCore *_sqlCore;
-    CDUnknownBlockType _filter;
 }
 
 - (void);
-- (void);
+- (void)t;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)fyRemoteOfModifiedAccount %@%@;
 
 @end
 

@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorSectionColorItem, AVTAvatarColorVariationStore, NSString;
-
 @interface AVTAvatarAttributeEditorMulticolorPickerSectionItem
 {
     _Bool _selected;
-    _Bool _isPlaceholder;
-    _Bool _isRemovable;
-    NSString *_identifier;
-    NSString *_localizedName;
-    CDUnknownBlockType _editorStateUpdater;
-    CDUnknownBlockType _avatarUpdater;
-    CDUnknownBlockType _removalUpdater;
-    AVTAvatarAttributeEditorSectionColorItem *_colorItem;
-    AVTAvatarColorVariationStore *_variationStore;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -36,23 +25,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType avatarUpdater; // @synthesize avatarUpdater=_avatarUpdater;
-@property(readonly, nonatomic) AVTAvatarAttributeEditorSectionColorItem *colorItem; // @synthesize colorItem=_colorItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CDUnknownBlockType editorStateUpdater; // @synthesize editorStateUpdater=_editorStateUpdater;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(readonly, nonatomic) _Bool isRemovable; // @synthesize isRemovable=_isRemovable;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) CDUnknownBlockType removalUpdater; // @synthesize removalUpdater=_removalUpdater;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVTAvatarColorVariationStore *variationStore; // @synthesize variationStore=_variationStore;
 
 @end
 

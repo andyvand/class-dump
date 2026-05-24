@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSecurityFirewallDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadEnableFirewall;
-    NSNumber *_payloadBlockAllIncoming;
-    NSNumber *_payloadEnableStealthMode;
-    NSArray *_payloadApplications;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -36,22 +33,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)dle;
 - (id);
-- (void);
+- (void)verify B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *payloadApplications; // @synthesize payloadApplications=_payloadApplications;
-@property(copy, nonatomic) NSNumber *payloadBlockAllIncoming; // @synthesize payloadBlockAllIncoming=_payloadBlockAllIncoming;
 @property(copy, nonatomic) NSNumber *payloadEnableFirewall; // @synthesize payloadEnableFirewall=_payloadEnableFirewall;
-@property(copy, nonatomic) NSNumber *payloadEnableStealthMode; // @synthesize payloadEnableStealthMode=_payloadEnableStealthMode;
-@property(readonly) Class superclass;
 
 @end
 

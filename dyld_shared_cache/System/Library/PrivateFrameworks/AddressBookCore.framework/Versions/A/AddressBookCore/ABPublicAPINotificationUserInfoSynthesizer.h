@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface ABPublicAPINotificationUserInfoSynthesizer
 {
     _Bool _isReset;
-    NSMutableArray *_added;
-    NSMutableArray *_updated;
-    NSMutableArray *_removed;
 }
 
 + (id);
 + (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)%{private, mask.hash}scouldn't find my contact in registration response;
+- (id)chatbotversion;
 - (id);
 - (void);
 - (void);
@@ -35,17 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *added; // @synthesize added=_added;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isReset; // @synthesize isReset=_isReset;
-@property(readonly, nonatomic) NSMutableArray *removed; // @synthesize removed=_removed;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableArray *updated; // @synthesize updated=_updated;
 
 @end
 

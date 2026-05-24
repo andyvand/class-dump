@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSSet;
+@class NSDate;
 
 @interface PKCreditAccountMergeSummary
 {
     NSDate *_mergeDate;
-    NSDecimalNumber *_totalBalance;
-    NSSet *_accountDetails;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -25,17 +23,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id)ent;
-- (void)rlyIncome;
+- (unsigned long long)h;
+- (_Bool)hasPowerConsumptionDueToAssocScan;
+- (void)ث;
+- (id);
+- (id)_presenterIsIssuerInstallmentsRepayment;
+- (void)AppleCardYearlyIncome;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *accountDetails; // @synthesize accountDetails=_accountDetails;
 @property(retain, nonatomic) NSDate *mergeDate; // @synthesize mergeDate=_mergeDate;
-@property(retain, nonatomic) NSDecimalNumber *totalBalance; // @synthesize totalBalance=_totalBalance;
 
 @end
 

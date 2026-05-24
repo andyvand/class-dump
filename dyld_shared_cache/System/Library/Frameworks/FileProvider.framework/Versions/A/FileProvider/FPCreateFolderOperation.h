@@ -6,15 +6,11 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPItem, FPItemID, NSString;
+@class FPItem;
 
 @interface FPCreateFolderOperation : FPActionOperation
 {
     FPItem *_parentItem;
-    NSString *_folderFilename;
-    FPItemID *_placeholderID;
-    _Bool _shouldBounceOnCollision;
-    CDUnknownBlockType _createFolderCompletionBlock;
 }
 
 - (_Bool);
@@ -29,7 +25,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType createFolderCompletionBlock; // @synthesize createFolderCompletionBlock=_createFolderCompletionBlock;
 @property(nonatomic) _Bool shouldBounceOnCollision; // @synthesize shouldBounceOnCollision=_shouldBounceOnCollision;
 
 @end

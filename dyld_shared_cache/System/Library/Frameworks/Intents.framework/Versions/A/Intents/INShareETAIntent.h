@@ -6,37 +6,30 @@
 
 #import <Intents/INIntent.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface INShareETAIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)h;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id)è;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSArray *recipients;
-@property(readonly) Class superclass;
 
 @end
 

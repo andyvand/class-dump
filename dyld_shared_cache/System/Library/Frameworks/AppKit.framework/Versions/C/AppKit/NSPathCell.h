@@ -6,32 +6,15 @@
 
 #import <AppKit/NSActionCell.h>
 
-@class NSAnimation, NSArray, NSAttributedString, NSColor, NSMutableArray, NSPathComponentCell, NSPathControlItem, NSPopUpButtonCell, NSString, NSURL;
-@protocol NSPathCellDelegate;
+@class NSArray, NSColor;
 
 @interface NSPathCell : NSActionCell
 {
     NSColor *_backgroundColor;
-    NSMutableArray *_borderColors;
-    NSPathControlItem *_hoveredItem;
-    NSPopUpButtonCell *_popUpButtonCell;
-    struct CGRect _currentRect;
-    NSAnimation *_animation;
-    NSMutableArray *_pathItems;
-    SEL _doubleAction;
-    id <NSPathCellDelegate> _delegate;
-    struct {
-        unsigned int cbs:4;
-        unsigned int reserved:28;
-    } _piFlags;
-    long long _pathStyle;
-    NSPathControlItem *_clickedItem;
-    NSArray *_allowedTypes;
-    NSPopUpButtonCell *__popupButtonCell;
 }
 
 + (_Bool);
-+ (Class);
++ (Class)O;
 - (_Bool);
 - (struct CGRect);
 - (void);
@@ -47,13 +30,13 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (id)divert token for configuration %s;
+- (id)ch_service(%s, XPC_CONNECTION_MACH_SERVICE_PRIVILEGED) failed for delegate class %llu;
+- (void)e.networkextension.uuidcache;
+- (long long)SourceAppUniqueIdentifier;
+- (id)rk preparation took to long;
+- (id)xpired;
+- (id)ficate is invalid;
 - (void);
 - (void);
 - (id);
@@ -66,74 +49,73 @@
 - (void);
 - (void);
 - (SEL);
+- (id)setExpirationHandler: /* Error: Ran out of types for this method. */;
+- (struct CGSize)requiresSecureCoding;
+- (id)getActiveSessionIdentifiersWithReply:(unsigned long long)arg1;
+- (unsigned long long)downloadTaskWithURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)diskCapacity;
+- (id)accept_didCompleteWithError;
+- (void)_setAllowPrivateAccessTokensForThirdParty:(id)arg1;
+- (void)_hasSWCACreatorAttribute;
+- (struct CGPoint)_cfCache;
+- (id)_cachedResponseForConditionalRequest;
+- (id)_actuallyTriedCredentialsSuppliedInURL;
+- (id)URLSession:webSocketTask:didOpenWithProtocol: /* Error: Ran out of types for this method. */;
+- (id)URLSession:task:_isWaitingForConnectionWithReason: /* Error: Ran out of types for this method. */;
+- (id)URLSession:(id)arg1 avAssetDownloadTask:didReceiveAVAssetDownloadToken: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 _taskIsWaitingForConnection:(id)arg2;
+- (id)URLForResource:withExtension: /* Error: Ran out of types for this method. */;
+- (_Bool)HSTSPolicy=},R;
+- (_Bool)resDNSSECValidation;
+- (_Bool)tificateLookup;
+- (_Bool)TB,V_ignoreDidReceiveResponseDisposition;
+- (_Bool)V_basePrioritySetExplicitly;
+- (_Bool)nfiguredViaTaskProperty;
+- (id)eusedConnection;
+- (id)isCellular;
+- (id)ier;
+- (id)rogress",R;
+- (id)Trailers;
+- (void)_NSHTTPAlternativeServicesFilter;
+- (_Bool)NSURLSessionDataDelegatePrivate;
 - (id);
-- (struct CGSize);
+- (void);
+- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (void)ways here;
+- (_Bool)ension for file %@, errno = %{errno}d;
+- (void)@> no connection to background transfer daemon, and will not try to reconnect;
+- (void)ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void)s=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void)Resume offset is %lld.;
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)Dt;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id)trol-allow-credentials;
+- (id)header block for stream %llu;
+- (id)r block for stream %llu;
+- (id)HTTPAdditionalHeaders;
+- (void)initWithSchedulingSet;
+- (_Bool)etObjectKeyWithIndex:] /* Error: Ran out of types for this method. */;
+- (void)0@?0I8r^v12;
+- (void)to get the receiver data from the DB!;
+- (struct CGRect)onse=}16^{__CFError=}24;
+- (struct CGSize)Y156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (id)fFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
+- (id)@;
 - (void);
 - (struct CGRect);
 - (void);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
@@ -141,8 +123,9 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (id);
-- (id);
+- (id)T!h";
 - (_Bool);
 - (id);
 - (void);
@@ -153,37 +136,17 @@
 - (void)!DùÑà31Â0@ù
 × ;
 - (void);
-- (id)redWidth;
+- (id)_requiredWidth;
 - (id)$6´a£;
 - (id);
-- (void)ighlightTextRanges;
+- (void)AXHighlightTextRanges;
 - (void);
 - (void)£B;
 - (_Bool)þáè×D;
 - (void)vF;
 
 // Remaining properties
-@property(copy) NSURL *URL;
-@property(retain, setter=_setClickedItem:) NSPathControlItem *_clickedItem; // @synthesize _clickedItem;
-@property(setter=_setHoveredItem:) __weak NSPathControlItem *_hoveredItem;
-@property(retain, setter=_setPopupButtonCell:) NSPopUpButtonCell *_popupButtonCell; // @synthesize _popupButtonCell=__popupButtonCell;
-@property(copy) NSArray *allowedTypes; // @synthesize allowedTypes=_allowedTypes;
-@property(copy) NSColor *backgroundColor;
-@property(readonly) NSPathComponentCell *clickedPathComponentCell;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSPathCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property SEL doubleAction;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *pathComponentCells;
 @property(copy) NSArray *pathItems;
-@property long long pathStyle;
-@property(copy) NSAttributedString *placeholderAttributedString;
-@property(copy) NSString *placeholderString;
-@property(readonly) Class superclass;
 
 @end
 

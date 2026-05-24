@@ -6,15 +6,14 @@
 
 #import <CloudPhotoLibrary/CPLScopeChange.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CPLLibraryScopeChange : CPLScopeChange
 {
     NSData *_rewindAnchorsPerSharingScopesData;
-    NSString *_problematicFormerSharedScopeIdentifier;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *problematicFormerSharedScopeIdentifier; // @synthesize problematicFormerSharedScopeIdentifier=_problematicFormerSharedScopeIdentifier;
 @property(copy, nonatomic) NSData *rewindAnchorsPerSharingScopesData; // @synthesize rewindAnchorsPerSharingScopesData=_rewindAnchorsPerSharingScopesData;
 
 @end

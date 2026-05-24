@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _UIFocusLinearMovementDebugView : UIView
 {
     NSArray *_items;
-    NSArray *_groups;
-    _Bool _colorCoding;
 }
 
-- (_Bool);
+- (_Bool)mergedModificationWithPendingModification: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)essage;
+- (id)stAddressedSIMID %@;
+- (id)e:(id)arg1 %d numberOfMessagesAfter:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

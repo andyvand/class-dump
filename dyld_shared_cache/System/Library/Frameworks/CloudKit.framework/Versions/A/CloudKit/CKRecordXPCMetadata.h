@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSArray, NSData, NSDate, NSString;
+@class NSString;
 
 @interface CKRecordXPCMetadata
 {
     NSString *_etag;
-    NSDate *_creationDate;
-    NSDate *_modificationDate;
-    NSDate *_expirationDate;
-    CKRecord *_serverRecord;
-    NSData *_protectionData;
-    NSData *_signingPCSIdentityData;
-    NSData *_pcsKeyID;
-    NSArray *_allPCSKeyIDs;
-    NSData *_zoneishKeyID;
 }
 
 + (_Bool);
@@ -36,7 +27,7 @@
 - (id);
 - (id)al-Ð!DDùñG1°1Â0@ù
 × ;
-- (void)CImageInfoEntry;
+- (void)CKSQLiteTOCImageInfoEntry;
 - (void)ÿÿÿÿ;
 - (id)ÿÿÿÿ´;
 - (void);
@@ -48,16 +39,7 @@
 - (id)#;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allPCSKeyIDs; // @synthesize allPCSKeyIDs=_allPCSKeyIDs;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(copy, nonatomic) NSData *pcsKeyID; // @synthesize pcsKeyID=_pcsKeyID;
-@property(copy, nonatomic) NSData *protectionData; // @synthesize protectionData=_protectionData;
-@property(copy, nonatomic) CKRecord *serverRecord; // @synthesize serverRecord=_serverRecord;
-@property(copy, nonatomic) NSData *signingPCSIdentityData; // @synthesize signingPCSIdentityData=_signingPCSIdentityData;
-@property(copy, nonatomic) NSData *zoneishKeyID; // @synthesize zoneishKeyID=_zoneishKeyID;
 
 @end
 

@@ -6,56 +6,12 @@
 
 #import <CoreData/NSPersistentStore.h>
 
-@class NSData, NSDictionary, NSGenerationalRowCache, NSMutableDictionary, NSObject, NSOperationQueue, NSSQLCoreDispatchManager, NSSQLModel, NSSQLiteAdapter, NSSQLiteConnection, NSSet, NSString, NSURL, _NSSQLCoreConnectionObserver, _PFMutex;
-@protocol OS_dispatch_source;
+@class NSSQLModel;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLCore : NSPersistentStore
 {
     NSSQLModel *_model;
-    NSSQLiteAdapter *_adapter;
-    NSSQLiteConnection *_schemaValidationConnection;
-    NSSQLCoreDispatchManager *_dispatchManager;
-    NSGenerationalRowCache *_generationalRowCache;
-    _NSSQLCoreConnectionObserver *_observer;
-    struct os_unfair_lock_s _sqlCoreStateLock;
-    struct os_unfair_lock_s _checkpointSerializationLock;
-    NSMutableDictionary *_storeMetadata;
-    _Atomic id _externalDataReferencesDirectory;
-    _Atomic id _externalDataLinksDirectory;
-    _Atomic id _fileBackedFuturesPath;
-    _Atomic int _transactionInMemorySequence;
-    _Atomic _Bool _metadataIsClean;
-    struct _sqlCoreFlags {
-        unsigned int useSyntaxColoredLogging:1;
-        unsigned int hasExternalDataReferences:1;
-        unsigned int fileProtectionType:3;
-        unsigned int notifyFOKChanges:1;
-        unsigned int initializationComplete:1;
-        unsigned int connectionsAreLocal:1;
-        unsigned int isXPCDelegate:1;
-        unsigned int queryGenerationInitializationFailed:1;
-        unsigned int persistentHistoryTracking:1;
-        unsigned int hasAncillaryModels:1;
-        unsigned int postRemoteNotify:1;
-        unsigned int hasFileBackedFutures:1;
-        unsigned int isInMemory:1;
-        unsigned int historyBatchUpdateModProperties:1;
-        unsigned int indexTracking:1;
-        unsigned int memoryObserverSuspended:1;
-        unsigned int _debugPlaceholders:2;
-        unsigned int _RESERVED:12;
-    } _sqlCoreFlags;
-    _Atomic id _queryGenerationTrackingConnection;
-    _PFMutex *_writerSerializationMutex;
-    NSDictionary *_ancillaryModels;
-    NSDictionary *_ancillarySQLModels;
-    NSDictionary *_historyTrackingOptions;
-    NSData *_dbKey;
-    id _usedIndexes;
-    _Bool _remoteStoresDidChange;
-    int _remoteNotificationToken;
-    NSObject<OS_dispatch_source> *_cache_event_source;
 }
 
 + (_Bool);
@@ -85,80 +41,63 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (id);
 - (void);
-- (void);
+- (void)*t;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (Class);
+- (Class)absoluteString;
+- (_Bool);
+- (id);
+- (_Bool)$;
+- (void)I;
 - (Class);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (Class);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)7;
+- (unsigned long long);
+- (void)
+;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool)!PBùÇ21Â0@ù
 × ;
 - (id)@{os_unfair_lock_s=I}i^v};
-- (id)bject:(id)arg1;
-- (_Bool)stinationAttributeName;
+- (id)removeObserver:(id)arg1 name:(id)arg2 object:(id)arg3;
+- (_Bool)_destinationAttributeName;
 - (id);
-- (id)stamp;
-- (void)lue;
+- (id)NSPersistentHistoryTransactionTimestamp;
+- (void)transformedValue;
 - (id)create XML node from %@ (missing entity or moid);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *ancillaryModels; // @synthesize ancillaryModels=_ancillaryModels;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSQLModel *model;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
 
 @end
 

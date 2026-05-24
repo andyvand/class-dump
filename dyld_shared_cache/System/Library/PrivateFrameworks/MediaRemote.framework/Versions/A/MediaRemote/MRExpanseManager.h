@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, NSHashTable, NSObject, NSString, TUConversationManager, TUNeighborhoodActivityConduit;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRExpanseManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    NSHashTable *_observers;
-    TUConversationManager *_conversationManager;
-    TUNeighborhoodActivityConduit *_conduit;
-    AVAudioSession *_auxiliaryPlaybackAudioSession;
 }
 
 + (id);
@@ -37,7 +32,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool))A;
 - (id);
 - (void);
 - (void)0@ù
@@ -46,25 +41,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activeTelevisionRouteID;
-@property(retain, nonatomic) AVAudioSession *auxiliaryPlaybackAudioSession; // @synthesize auxiliaryPlaybackAudioSession=_auxiliaryPlaybackAudioSession;
-@property(readonly, nonatomic) TUNeighborhoodActivityConduit *conduit; // @synthesize conduit=_conduit;
-@property(readonly, nonatomic) TUConversationManager *conversationManager; // @synthesize conversationManager=_conversationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool expanseHandoffSupported;
-@property(readonly, nonatomic) _Bool expanseSessionActive;
-@property(readonly, nonatomic) _Bool expanseSessionHasActiveActivity;
-@property(readonly, nonatomic) _Bool expanseSessionHasRemoteActivity;
-@property(readonly, nonatomic) _Bool expanseSessionHasScreenSharingActivity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notifyQueue; // @synthesize notifyQueue=_notifyQueue;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

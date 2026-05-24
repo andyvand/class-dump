@@ -4,45 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVUIViewHosterRootViewController, NSMutableArray, NSString, UIResponder, UIView, UIViewController, UIWindow;
-@protocol AVUIViewHostMacHelper;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface AVCatalystUIViewHoster
 {
     UIView *_hostedView;
-    AVUIViewHosterRootViewController *_hostedViewController;
-    UIWindow *_hostingWindow;
-    _Bool _hostSceneReady;
-    NSMutableArray *_hostSceneReadyCallbacks;
-    id <AVUIViewHostMacHelper> _host;
-    UIResponder *_rootResponder;
 }
 
 - (void);
-- (void);
+- (void)M.;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)6;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVUIViewHostMacHelper> host;
 @property(readonly, nonatomic) UIView *hostedView;
-@property(readonly, nonatomic) UIViewController *hostedViewController;
-@property(nonatomic) __weak UIResponder *rootResponder; // @synthesize rootResponder=_rootResponder;
-@property(readonly) Class superclass;
 
 @end
 

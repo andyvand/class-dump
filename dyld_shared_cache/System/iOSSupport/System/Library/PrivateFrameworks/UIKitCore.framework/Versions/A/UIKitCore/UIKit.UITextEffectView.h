@@ -9,16 +9,12 @@
 @interface UIKit.UITextEffectView : UIView
 {
     id source;
-    id animationDelegate;
-    id managedSubviews;
-    id textEffects;
-    id sharedEffectViews;
 }
 
 - (id);
 - (void);
-- (void)r;
-- (id);
+- (void)focusScaleFactor;
+- (id)__useReducedMetrics;
 - (void)int=dd}{CGSize=dd}},N,V_contentBounds;
 - (void)dzìz;
 - (void)¹ÿ+;

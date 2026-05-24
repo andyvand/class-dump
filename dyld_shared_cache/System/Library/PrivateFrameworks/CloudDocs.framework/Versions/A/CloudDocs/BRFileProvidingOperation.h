@@ -11,22 +11,18 @@
 @interface BRFileProvidingOperation : BROperation
 {
     NSURL *_url;
-    unsigned long long _readingOptions;
-    CDUnknownBlockType _fileProvidingCompletion;
-    _Bool _wantsCurrentVersion;
 }
 
-- (void);
+- (void)'a;
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)	(;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fileProvidingCompletion; // @synthesize fileProvidingCompletion=_fileProvidingCompletion;
 @property(nonatomic) _Bool wantsCurrentVersion; // @synthesize wantsCurrentVersion=_wantsCurrentVersion;
 
 @end

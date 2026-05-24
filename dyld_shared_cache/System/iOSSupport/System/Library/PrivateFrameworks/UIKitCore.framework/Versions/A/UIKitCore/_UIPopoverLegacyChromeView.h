@@ -6,29 +6,15 @@
 
 #import <UIKitCore/_UIPopoverStandardChromeView.h>
 
-@class UIView, UIVisualEffectView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPopoverLegacyChromeView : _UIPopoverStandardChromeView
 {
     UIView *_arrowBackgroundView;
-    UIVisualEffectView *_effectView;
-    UIView *_maskView;
-    UIView *_rimShadowView;
-    long long _requestedBackgroundStyle;
-    long long _backgroundStyle;
-    _Bool _popoverBackgroundColorIsOpaque;
-    _Bool _arrowVisible;
-    _Bool _wasPinned;
-    UIView *_arrowView;
-    UIView *_leftCapView;
-    UIView *_rightCapView;
-    UIView *_arrowRimShadowView;
-    UIView *_leftCapRimShadowView;
-    UIView *_rightCapRimShadowView;
 }
 
-+ (double);
++ (double)setPayloadDisableMOBIKE: /* Error: Ran out of types for this method. */;
 + (double)ÿoÛÜl}];
 - (_Bool);
 - (id);
@@ -38,9 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)updateHandle:sourceMessage:personCentricID:onService: /* Error: Ran out of types for this method. */;
+- (id)fetchTransitionedNicknameHandlesWithReply: /* Error: Ran out of types for this method. */;
+- (id)fetchSyncChatSliceForChatWithGUID:serviceName:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_lastPublisherOfOffGridStatus;
 - (void);
 - (void);
 - (void);
@@ -48,46 +35,39 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)s;
 - (void);
 - (double);
 - (id);
 - (long long);
-- (double);
-- (void);
+- (double)estedProperties;
+- (void)cloudShareURL;
 - (void);
 - (void);
 - (double)× ;
 - (id)Ô ;
 - (struct CGSize)!0BùQ`1Â0@ù
 × ;
-- (void)fsetByRatio:(id)arg1;
-- (void)ndAction;
-- (double)tionImageView;
-- (void);
-- (void)legateImplementsEstimatedHeightForSectionHeader;
-- (double)ield;
+- (void)reduceScrubOffsetByRatio:(id)arg1;
+- (void)_unwindAction;
+- (double)_positionImageView;
+- (void)_eventModelTimeDifferenceMax;
+- (void)_delegateImplementsEstimatedHeightForSectionHeader;
+- (double)_borrowSearchTextField;
 - (struct UIEdgeInsets)callyAddsFailureRelationships:,V_automaticallyAddsFailureRelationships /* Error: Ran out of types for this method. */;
 - (void)nLayoutSection",&,N,V_layoutSectionTemplate;
 - (void)ÿÿÿÿ\;
 - (_Bool)\x;
-- (void)ighlightScaleDown;
+- (void)HighlightScaleDown;
 - (void)ement=%@;
 - (void)IKit._UIButtonBarButton;
-- (void)G_GxSgGGx_G;
+- (void)yx_G_GxSgGGx_G;
 - (id)h:/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/RecapPerformanceTesting /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)TextList;
+- (long long)NUITextFormattingViewControllerTextList;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *arrowRimShadowView; // @synthesize arrowRimShadowView=_arrowRimShadowView;
 @property(readonly, nonatomic) UIView *arrowView; // @synthesize arrowView=_arrowView;
-@property(readonly, nonatomic) _Bool hasComponentViews;
-@property(readonly, nonatomic) UIView *leftCapRimShadowView; // @synthesize leftCapRimShadowView=_leftCapRimShadowView;
-@property(readonly, nonatomic) UIView *leftCapView; // @synthesize leftCapView=_leftCapView;
-@property(readonly, nonatomic) UIView *rightCapRimShadowView; // @synthesize rightCapRimShadowView=_rightCapRimShadowView;
-@property(readonly, nonatomic) UIView *rightCapView; // @synthesize rightCapView=_rightCapView;
 
 @end
 

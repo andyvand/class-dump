@@ -10,12 +10,12 @@
 }
 
 + (id);
-+ (void);
++ (void)r: /* Error: Ran out of types for this method. */;
++ (id)DAV::href /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-- (void);
-- (id);
+- (void)_iconFileNames;
+- (id)lib/MacOS/;
 - (id);
 
 @end

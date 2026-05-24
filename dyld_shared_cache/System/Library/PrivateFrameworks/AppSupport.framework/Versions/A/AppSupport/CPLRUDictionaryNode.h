@@ -7,20 +7,16 @@
 @interface CPLRUDictionaryNode
 {
     id _key;
-    id _object;
-    CPLRUDictionaryNode *next;
-    CPLRUDictionaryNode *prev;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)estConfigs;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id key; // @synthesize key=_key;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end
 

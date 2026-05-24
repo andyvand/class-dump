@@ -4,53 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval;
-
 @interface RTLearnedPlaceTypeInferenceEnumerationOptions
 {
     unsigned long long _batchSize;
-    _Bool _sortByCreationDate;
-    _Bool _ascending;
-    unsigned long long _fetchLimit;
-    unsigned long long _offset;
-    NSDateInterval *_dateInterval;
-    NSArray *_filteredToPlaceTypes;
-    NSArray *_filteredToLearnedPlaceIdentifiers;
-    NSArray *_filteredToIdentifiers;
-    NSArray *_filteredToSessionIds;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
+- (id)e}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(unsigned long long)arg1 8;
+- (id)V_queryMissingKeys;
+- (id)yEscrowKeysAll;
+- (id)mt=},V_queryEscrowKey;
+- (id)mt=},V_markMirrorKey;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)to bind to %s, errno:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (Class);
-- (unsigned long long)mOfDataPts: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setNumOfDataPts: /* Error: Ran out of types for this method. */;
 - (void)panionLink, onDeviceLost, id, %@, name, %@, model, %@;
 - (unsigned long long)cated SPI, %@;
 - (unsigned long long)Õë;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
-@property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
 @property(readonly, nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(readonly, nonatomic) NSArray *filteredToIdentifiers; // @synthesize filteredToIdentifiers=_filteredToIdentifiers;
-@property(readonly, nonatomic) NSArray *filteredToLearnedPlaceIdentifiers; // @synthesize filteredToLearnedPlaceIdentifiers=_filteredToLearnedPlaceIdentifiers;
-@property(readonly, nonatomic) NSArray *filteredToPlaceTypes; // @synthesize filteredToPlaceTypes=_filteredToPlaceTypes;
-@property(readonly, nonatomic) NSArray *filteredToSessionIds; // @synthesize filteredToSessionIds=_filteredToSessionIds;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) _Bool sortByCreationDate; // @synthesize sortByCreationDate=_sortByCreationDate;
 
 @end
 

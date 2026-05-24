@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMReplicaIDHelper, REMReplicaIDSource, TTMergeableAttributedString, TTMergeableStringVersionedDocument;
+@class REMReplicaIDSource;
 @protocol REMReplicaManagerProviding;
 
 @interface REMMutableCRMergeableStringDocument
 {
     id <REMReplicaManagerProviding> _replicaManagerProvider;
-    REMReplicaIDSource *_replicaIDSource;
-    TTMergeableStringVersionedDocument *_document;
-    REMReplicaIDHelper *_replicaIDHelper;
 }
 
 - (id);
@@ -31,25 +28,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id){public}@ and URL %{public}@ in tab group with title %{public}@ at index %zu;
 - (void)áêð!|Aùñr °1Â0@ù
 × ;
-- (id)ID: /* Error: Ran out of types for this method. */;
-- (void)rChangeItem:(id)arg1 toListChangeItem: /* Error: Ran out of types for this method. */;
+- (id)addListWithName:toAccountChangeItem:listObjectID: /* Error: Ran out of types for this method. */;
+- (void)_copyReminderChangeItem:(id)arg1 toListChangeItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TTMergeableStringVersionedDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TTMergeableAttributedString *mergeableString;
-@property(retain, nonatomic) REMReplicaIDHelper *replicaIDHelper; // @synthesize replicaIDHelper=_replicaIDHelper;
 @property(retain, nonatomic) REMReplicaIDSource *replicaIDSource; // @synthesize replicaIDSource=_replicaIDSource;
-@property(retain, nonatomic) id <REMReplicaManagerProviding> replicaManagerProvider; // @synthesize replicaManagerProvider=_replicaManagerProvider;
-@property(readonly) Class superclass;
 
 @end
 

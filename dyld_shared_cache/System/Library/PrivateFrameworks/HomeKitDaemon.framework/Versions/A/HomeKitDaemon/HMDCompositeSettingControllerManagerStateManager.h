@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSUUID;
-@protocol HMDCompositeSettingControllerManagerStateManagerDataSource, HMDCompositeSettingControllerManagerStateTransitionDelegate, HMDCompositeSettingNotificationRegistrationProviding;
-
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingControllerManagerStateManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_homeUUIDToState;
-    id <HMDCompositeSettingControllerManagerStateTransitionDelegate> _delegate;
-    id <HMDCompositeSettingNotificationRegistrationProviding> _notificationRegistrationProvider;
-    unsigned long long _notificationOptions;
-    NSUUID *_uuid;
-    id <HMDCompositeSettingControllerManagerStateManagerDataSource> _dataSource;
 }
 
 + (id)TÖB;
 - (unsigned long long);
-- (id);
+- (id)selectCancelled: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (id)¡ßÐ!EùÑÐ1Â0@ù
 × ;
 - (void);
-- (void)tRespondsToHPSSiriAvailableLanguagesProtocolMethods:(id)arg1;
+- (void)objectRespondsToHPSSiriAvailableLanguagesProtocolMethods:(id)arg1;
 - (void)has a resident:(id)arg1 %@;
 - (id)ieval for %@/%@ with error:%@ and %@ completions. /* Error: Ran out of types for this method. */;
 - (long long)blic}@Fetched diagnostics metadata %@ from model for accessory with identifier %@;
@@ -43,18 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)q;
 
 // Remaining properties
-@property(readonly) __weak id <HMDCompositeSettingControllerManagerStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDCompositeSettingControllerManagerStateTransitionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long notificationOptions; // @synthesize notificationOptions=_notificationOptions;
-@property(readonly) id <HMDCompositeSettingNotificationRegistrationProviding> notificationRegistrationProvider; // @synthesize notificationRegistrationProvider=_notificationRegistrationProvider;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

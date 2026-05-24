@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol FCOperationCanceling;
+
 @protocol FCPuzzleDownloadServiceType
+- (_Bool);
+- (id <FCOperationCanceling>)VideoReactionButton;
 @end
 

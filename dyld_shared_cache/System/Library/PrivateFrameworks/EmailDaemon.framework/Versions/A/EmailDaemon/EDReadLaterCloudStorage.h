@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDPersistenceHookRegistry, NSString;
+@class EDMessagePersistence;
 @protocol EMMutableDictionaryProtocol;
 
 @interface EDReadLaterCloudStorage
 {
     id <EMMutableDictionaryProtocol> _persistentDictionary;
-    EDMessagePersistence *_messagePersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)core_Time12HourClock_CurrentTime;
+- (id)R;
 - (id);
 - (id);
 - (void);
@@ -31,15 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
 @property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) Class superclass;
 
 @end
 

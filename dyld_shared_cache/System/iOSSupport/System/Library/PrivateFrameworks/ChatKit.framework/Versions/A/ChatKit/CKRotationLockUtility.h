@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     UIWindow *_lockedWindow;
 }
 
-- (void);
-- (void);
+- (void)containedView;
+- (void)interactedUUIDs;
 - (id);
 - (void);
 - (id);

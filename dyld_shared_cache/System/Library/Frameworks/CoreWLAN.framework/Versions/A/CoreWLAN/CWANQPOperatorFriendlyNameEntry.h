@@ -9,7 +9,6 @@
 @interface CWANQPOperatorFriendlyNameEntry
 {
     NSString *_languageCode;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -20,13 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)gradient for bias vector may not be nil;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

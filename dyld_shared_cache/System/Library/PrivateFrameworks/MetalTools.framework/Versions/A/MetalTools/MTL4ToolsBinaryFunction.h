@@ -6,7 +6,7 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTL4BinaryFunctionReflection, MTLDebugInstrumentationData, NSArray, NSString;
+@class MTLDebugInstrumentationData, NSArray;
 
 @interface MTL4ToolsBinaryFunction : MTLToolsObject
 {
@@ -23,18 +23,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long functionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly) MTL4BinaryFunctionReflection *reflection;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly) Class superclass;
 
 @end
 

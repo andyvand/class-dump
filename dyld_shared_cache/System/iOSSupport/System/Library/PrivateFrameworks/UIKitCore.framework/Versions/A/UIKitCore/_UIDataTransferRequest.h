@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSItemProvider, NSProgress, NSString, NSUUID;
+@class NSItemProvider;
 
 @interface _UIDataTransferRequest
 {
     NSItemProvider *_itemProvider;
-    NSUUID *_UUID;
-    NSProgress *_progress;
 }
 
 - (void);
-- (id);
+- (id)er error;
 - (id)tKind: /* Error: Ran out of types for this method. */;
-- (void)ionTypeDismiss;
-- (id)extAttribute;
+- (void)UIKBKeyInteractionTypeDismiss;
+- (id)_UIARACustomizationArgsHintIsUITextAttribute;
 - (void)entifierProvider);
 - (void)f\;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 
 @end
 

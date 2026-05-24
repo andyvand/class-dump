@@ -4,46 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, INPriceRange, NSArray, NSDate, NSNumber, NSString, NSUserActivity;
+@class NSString;
 
 @interface INRideOption
 {
     NSString *_identifier;
-    NSArray *_availablePartySizeOptions;
-    NSArray *_fareLineItems;
-    NSString *_name;
-    NSDate *_estimatedPickupDate;
-    INPriceRange *_priceRange;
-    NSNumber *_usesMeteredFare;
-    NSString *_disclaimerMessage;
-    NSString *_availablePartySizeOptionsSelectionPrompt;
-    NSString *_specialPricing;
-    INImage *_specialPricingBadgeImage;
-    NSUserActivity *_userActivityForBookingInApplication;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy) NSArray *availablePartySizeOptions; // @synthesize availablePartySizeOptions=_availablePartySizeOptions;
-@property(copy) NSString *availablePartySizeOptionsSelectionPrompt; // @synthesize availablePartySizeOptionsSelectionPrompt=_availablePartySizeOptionsSelectionPrompt;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *disclaimerMessage; // @synthesize disclaimerMessage=_disclaimerMessage;
-@property(copy) NSDate *estimatedPickupDate; // @synthesize estimatedPickupDate=_estimatedPickupDate;
-@property(copy) NSArray *fareLineItems; // @synthesize fareLineItems=_fareLineItems;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) INPriceRange *priceRange; // @synthesize priceRange=_priceRange;
-@property(copy) NSString *specialPricing; // @synthesize specialPricing=_specialPricing;
-@property(copy) INImage *specialPricingBadgeImage; // @synthesize specialPricingBadgeImage=_specialPricingBadgeImage;
-@property(readonly) Class superclass;
-@property(retain) NSUserActivity *userActivityForBookingInApplication; // @synthesize userActivityForBookingInApplication=_userActivityForBookingInApplication;
-@property(copy) NSNumber *usesMeteredFare; // @synthesize usesMeteredFare=_usesMeteredFare;
 
 @end
 

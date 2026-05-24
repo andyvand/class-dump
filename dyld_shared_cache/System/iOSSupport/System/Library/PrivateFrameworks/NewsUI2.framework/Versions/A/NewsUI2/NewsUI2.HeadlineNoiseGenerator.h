@@ -7,11 +7,6 @@
 @interface NewsUI2.HeadlineNoiseGenerator
 {
     id contentContext;
-    id feedPersonalizer;
-    id appConfigManager;
-    id tagService;
-    id headlineService;
-    id poolPromise;
 }
 
 @end

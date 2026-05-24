@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)`;
+- (_Bool)llBodyDetectionEnabled to %d;
+- (unsigned long long):Impl>=^{Impl}^{__shared_weak_count}}16 /* Error: Ran out of types for this method. */;
+- (_Bool)lapping range;
+- (_Bool);
 - (struct _NSZone *)s] run - %lld %s;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)idle_time failed %{darwin.errno}d;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

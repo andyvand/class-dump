@@ -6,20 +6,17 @@
 
 #import <AppKit/NSAccessibilityProxy.h>
 
-@class NSString, NSTableColumn;
+@class NSTableColumn;
 
 @interface NSTableViewCellProxy : NSAccessibilityProxy
 {
     NSTableColumn *_tableColumn;
-    long long _row;
-    Class _alternateParentClass;
-    id _realElement;
 }
 
-+ (id);
++ (id)bject<OS_nw_error>"8;
 + (id);
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
 - (id);
 - (id);
@@ -38,30 +35,24 @@
 - (id);
 - (id);
 - (id);
+- (void)_allowsHTTP3Internal;
+- (void)cs];
+- (void)__nsurlrequest_proto_prop_obj_16;
+- (void)__nsurlrequest_proto_prop_obj_14;
+- (void)__nsurlrequest_proto_prop_obj_12;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)6E4;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
-- (long long);
+- (long long);
+- (long long);
 - (_Bool);
 - (id)v1B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

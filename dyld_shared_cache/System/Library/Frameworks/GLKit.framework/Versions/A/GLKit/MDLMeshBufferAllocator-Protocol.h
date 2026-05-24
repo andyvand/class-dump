@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MDLMeshBuffer, MDLMeshBufferZone;
+
 @protocol MDLMeshBufferAllocator
+- (id <MDLMeshBufferZone>)object (%@) is not a DiscRecording object;
+- (id <MDLMeshBufferZone>)tracks;
+- (id <MDLMeshBuffer>)ed, %s;
+- (id <MDLMeshBuffer>)s;
+- (id <MDLMeshBuffer>)n speed is %s.
+;
+- (id <MDLMeshBuffer>)= ;
 @end
 

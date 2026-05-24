@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface VSValueTypeProperty
 {
     NSString *_name;
-    unsigned long long _kind;
-    NSSet *_allowedClasses;
-    id _initialValue;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (unsigned long long);
@@ -26,9 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *allowedClasses; // @synthesize allowedClasses=_allowedClasses;
-@property(retain, nonatomic) id initialValue; // @synthesize initialValue=_initialValue;
-@property(nonatomic) unsigned long long kind; // @synthesize kind=_kind;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

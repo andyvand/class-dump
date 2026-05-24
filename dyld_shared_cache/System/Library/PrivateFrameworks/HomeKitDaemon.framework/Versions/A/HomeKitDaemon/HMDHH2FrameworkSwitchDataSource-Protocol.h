@@ -7,10 +7,10 @@
 @class HMBCloudDatabase;
 
 @protocol HMDHH2FrameworkSwitchDataSource
+- (_Bool)r_hindi;
 - (HMBCloudDatabase *)Ô ;
 
 // Remaining properties
 @property(readonly) _Bool isHH2Enabled;
-@property(readonly) unsigned long long setupMode;
 @end
 

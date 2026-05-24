@@ -7,9 +7,6 @@
 @interface NewsAds.DebugInterstitialAdProvider
 {
     id isEnabled;
-    id _successRate;
-    id _loadingDelay;
-    id _collapseBehavior;
 }
 
 @end

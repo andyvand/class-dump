@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, WFFileType;
+@class NSArray;
 
 @interface WFDataDetectorResults
 {
     NSArray *_textCheckingResults;
-    NSNumber *_number;
-    NSArray *_dictionaries;
-    WFFileType *_dictionaryType;
 }
 
 - (id);
@@ -19,23 +16,15 @@
 - (id);
 - (id);
 - (id);
+- (id)resetRulerTransform;
+- (id);
+- (id)__AUTH_CONST;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *URLs;
-@property(readonly, nonatomic) NSArray *dateComponentsResults;
-@property(readonly, nonatomic) NSArray *dates;
-@property(readonly, nonatomic) NSArray *dictionaries; // @synthesize dictionaries=_dictionaries;
-@property(readonly, nonatomic) WFFileType *dictionaryType; // @synthesize dictionaryType=_dictionaryType;
-@property(readonly, nonatomic) NSNumber *number; // @synthesize number=_number;
-@property(readonly, nonatomic) NSArray *phoneNumbers;
-@property(readonly, nonatomic) NSArray *streetAddresses;
 @property(readonly, nonatomic) NSArray *textCheckingResults; // @synthesize textCheckingResults=_textCheckingResults;
 
 @end

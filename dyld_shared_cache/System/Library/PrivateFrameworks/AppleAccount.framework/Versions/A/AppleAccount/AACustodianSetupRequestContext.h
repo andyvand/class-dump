@@ -9,35 +9,27 @@
 @interface AACustodianSetupRequestContext
 {
     NSString *_handle;
-    NSString *_custodianSetupToken;
-    NSString *_contactID;
-    NSString *_telemetryFlowID;
-    NSString *_altDSID;
 }
 
 + (_Bool);
+- (id)%d;
+- (void)fFromConfigProfileUUID failed; data incomplete; either persistentCertRefs = %s, uuid = %s, keyChainItemRef = %s;
+- (id);
+- (id)v;
+- (id)h;
+- (void);
+- (void)A;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)e:grandSlamAccount:appTokenID: /* Error: Ran out of types for this method. */;
+- (void)initWithAccountStore:grandSlamAccount:appTokenID: /* Error: Ran out of types for this method. */;
 - (id)µFÈ
 Hk\&rÃæ<¢~P²½`Æ£Dvõ»"¹«[¿ÉøN°LÕÙùê®­´AÒj@Bi¸Î_GFÊOÍ×ã*ópoE~%I;ZV¨ÀM3ôlÛÑQwyü0ÄCþòä^bµ ¶,R]8ß)&ûåË§9éX}ÓðÇ½.ÝSY`cht±dDç
 º>ÈÖsu5Wª¾r$-î6Ïè|ÁØgK'¢í·¤Â\#ÿ£ÞÚÜqì³Æ	P¡k©Åe÷àñ¥f¬ÔnJ:¼7{Ìxzæýá!m=Ã¦U< +ï?2ë /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(readonly, copy, nonatomic) NSString *custodianSetupToken; // @synthesize custodianSetupToken=_custodianSetupToken;
 @property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

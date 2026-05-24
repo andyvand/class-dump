@@ -11,10 +11,10 @@
     int _workspaceType;
 }
 
-+ (_Bool);
-- (int);
-- (id);
-- (id);
++ (_Bool)b;
+- (int)performExportWithRequest:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)exportUUID;
+- (id);
 - (void);
 
 // Remaining properties

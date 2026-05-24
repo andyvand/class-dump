@@ -4,9 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMActionSet, HMHome, HMTrigger;
+
 @protocol HMHomeDelegate
 
 @optional
-- (void)tement;
+- (void)is NSUbiquitousKeyValueStoreInitialSyncChange.;
+- (void)UbiquitousKeyValueStoreDidChangeExternallyNotification change reason is NSUbiquitousKeyValueStoreQuotaViolationChange.;
+- (void)eDidChangeExternallyNotification missing reason.;
+- (void)al;
+- (void)al lane for %{public}s has finished deferral;
+- (void)macOS;
+- (void)Skipping tap-to-radar for Spotlight on macOS;
+- (void)any reparenting tasks.;
+- (void)or %s, dataURL:(HMHome *)arg1 %s, mirror URL:(HMActionSet *)arg2 %s;
+- (void)rror:(HMHome *)arg1 %@;
+- (void)erating safe render for guid:(HMHome *)arg1 %s. Error:(HMTrigger *)arg2 %@;
+- (void)it.;
+- (void)GUIDKey in the current transfer dictionary. Skipping it.;
+- (void);
+- (void)%{public}s] registering for throughput tracking for flag %{public}s;
+- (void)r flag %{public}s with %lu completed items;
+- (void)submitting throughput metric for flag %{public}s with %lu completed items;
+- (void)g %{public}s:(HMHome *)arg1 %@;
+- (void)c}s] failed to submit throughput metric for flag %{public}s:(HMHome *)arg1 %@;
+- (void)using email.;
+- (void)rCommandResponeDBVersion;
+- (void);
+- (void);
+- (void)_insertObjectStatement;
 @end
 

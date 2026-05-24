@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMNode.h>
 
-@class DOMCSSStyleDeclaration, DOMElement, NSString;
+@class NSString;
 
 @interface DOMAttr : DOMNode
 {
@@ -15,17 +15,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)41619OSSignpostComponent;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)removeProfile:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *name;
-@property(readonly) DOMElement *ownerElement;
-@property(readonly) _Bool specified;
-@property(readonly) DOMCSSStyleDeclaration *style;
-@property(copy) NSString *value;
 
 @end
 

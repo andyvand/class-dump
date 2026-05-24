@@ -6,7 +6,7 @@
 
 #import <LaunchServices/LSRecord.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _LSLocalizedStringRecord : LSRecord
@@ -14,29 +14,25 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)^@16Q24;
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)! ;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) NSDictionary *_allUnsanitizedStringValues;
-@property(readonly) NSArray *_missingBundleLocs;
-@property(readonly) NSDictionary *allStringValues;
-@property(readonly) NSString *defaultStringValue;
-@property(readonly) NSString *stringValue;
 
 @end
 

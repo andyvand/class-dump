@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSData;
+@class NSData;
 
 @interface IDSPayloadVerificationContext
 {
     NSData *_signedPayload;
-    NSData *_payloadData;
-    IDSURI *_remoteURI;
 }
 
 + (_Bool);
@@ -20,15 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)setClassOfDevice:(id)arg1;
 - (void);
 - (id);
 - (void)24@?<B@?^@>32;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *payloadData; // @synthesize payloadData=_payloadData;
-@property(readonly, nonatomic) IDSURI *remoteURI; // @synthesize remoteURI=_remoteURI;
 @property(readonly, nonatomic) NSData *signedPayload; // @synthesize signedPayload=_signedPayload;
 
 @end

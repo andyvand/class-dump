@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UILabel;
+@class UILabel;
 
 @interface EKUIInviteesViewSimpleCell
 {
     UILabel *_simpleTextLabel;
-    NSArray *_persistentConstraints;
-    NSString *_simpleText;
 }
 
++ (id)%s;
 + (id);
-+ (id);
-+ (long long);
++ (long long){;
+- (id)%s;
+- (_Bool);
+- (void);
+- (void)s;
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void)tentForSizeCategoryChange: /* Error: Ran out of types for this method. */;
+- (void)updateContentForSizeCategoryChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *persistentConstraints; // @synthesize persistentConstraints=_persistentConstraints;
-@property(retain, nonatomic) NSString *simpleText; // @synthesize simpleText=_simpleText;
 @property(retain, nonatomic) UILabel *simpleTextLabel; // @synthesize simpleTextLabel=_simpleTextLabel;
 
 @end

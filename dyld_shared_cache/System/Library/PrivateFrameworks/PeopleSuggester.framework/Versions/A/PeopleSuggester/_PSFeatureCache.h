@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, NSArray, NSMutableDictionary, NSObject, NSSet, NSUserDefaults, _CDInteractionStore, _PSHistogramFeatureData, _PSPredictionContext, _PSShareSheetEphemeralFeatureManager;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class _PSPredictionContext, _PSShareSheetEphemeralFeatureManager;
 
 @interface _PSFeatureCache
 {
     _PSPredictionContext *_context;
-    NSSet *_candidates;
-    _CDInteractionStore *_store;
-    _PSHistogramFeatureData *_histogramFeatureData;
-    NSArray *_caches;
-    NSMutableDictionary *_cache;
-    struct _opaque_pthread_mutex_t _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    NSUserDefaults *_psDefaults;
-    unsigned long long _timeDelay;
-    unsigned long long _leeway;
-    BMSource *_virtualFeatureStreamSource;
-    _PSShareSheetEphemeralFeatureManager *_ephemeralFeatureManager;
 }
 
+- (void)_gmsPrivateCloudSpeculativeDecodingMetrics;
+- (void)_executorAppIntentTargetType;
+- (void)_executorAppIntentHandleTime;
+- (void)_envelopeStatistics;
+- (void)_entityPartialSiriCount7Day;
+- (void)_entityPartialAppCount2Min;
+- (id)_endpointer;
+- (_Bool)_counterfactualTriggered;
+- (_Bool)_countRequiredAssets;
+- (void)_countPSUSAssets;
+- (id)_contextualEntityStatementIds;
+- (id)_audienceId;
+- (id)_assistantDaemonSpawnTimestampInNs;
+- (id)_assetBringUpErrorDescription;
+- (id)_anonymizedSelectedEntityIdentifier;
+- (id)_actionType;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

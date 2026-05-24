@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PDFAccessibilityNode, PDFAccessibilityNodeText;
+@class PDFAccessibilityNode;
 
 __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodeTablePrivate
 {
     PDFAccessibilityNode *header;
-    NSArray *rowHeaderCells;
-    NSArray *columns;
-    PDFAccessibilityNodeText *caption;
 }
 
 - (void);

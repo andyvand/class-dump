@@ -6,19 +6,12 @@
 
 #import <CalDAV/CalDAVOperation.h>
 
-@class NSError, NSString;
-@protocol CalDAVCalendar, CalDAVCalendarSyncDelegate;
+@class NSError;
+@protocol CalDAVCalendarSyncDelegate;
 
 @interface CalDAVCalendarSyncOperation : CalDAVOperation
 {
     NSError *_savedError;
-    NSString *_nextCtag;
-    NSString *_nextSyncToken;
-    id <CalDAVCalendar> _calendar;
-    NSError *_reportJunkError;
-    unsigned long long _currentStage;
-    _Bool _getScheduleTags;
-    _Bool _getScheduleChanges;
 }
 
 - (_Bool);
@@ -39,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,8 +44,6 @@
 
 // Remaining properties
 @property(nonatomic) id <CalDAVCalendarSyncDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool getScheduleChanges; // @synthesize getScheduleChanges=_getScheduleChanges;
-@property(nonatomic) _Bool getScheduleTags; // @synthesize getScheduleTags=_getScheduleTags;
 
 @end
 

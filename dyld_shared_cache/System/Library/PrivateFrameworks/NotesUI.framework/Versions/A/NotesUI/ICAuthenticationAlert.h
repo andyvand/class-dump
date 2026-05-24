@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICAuthenticationAlert
 {
     _Bool _prefersSheet;
-    _Bool _actionIsDestructive;
-    NSString *_title;
-    NSString *_message;
-    NSString *_actionTitle;
-    CDUnknownBlockType _actionHandler;
-    NSString *_dismissTitle;
-    CDUnknownBlockType _dismissHandler;
-    CDUnknownBlockType _shouldPresentHandler;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -63,36 +53,27 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (CDUnknownBlockType);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)C20;
 - (void);
 - (id);
 - (void);
 - (id)src="data:%@;base64,%@" /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(nonatomic) _Bool actionIsDestructive; // @synthesize actionIsDestructive=_actionIsDestructive;
-@property(copy, nonatomic) NSString *actionTitle; // @synthesize actionTitle=_actionTitle;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(copy, nonatomic) NSString *dismissTitle; // @synthesize dismissTitle=_dismissTitle;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(nonatomic) _Bool prefersSheet; // @synthesize prefersSheet=_prefersSheet;
-@property(readonly, nonatomic) _Bool shouldPresent;
-@property(copy, nonatomic) CDUnknownBlockType shouldPresentHandler; // @synthesize shouldPresentHandler=_shouldPresentHandler;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

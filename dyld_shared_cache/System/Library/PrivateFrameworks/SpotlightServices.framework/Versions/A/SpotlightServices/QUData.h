@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface QUData
 {
     int _intentFromQU;
-    float _intentScore;
-    NSString *_intentLabel;
-    NSSet *_intentBundleIds;
 }
 
-- (id);
+- (id)doneAddingFetchers;
 - (float);
 - (id);
 - (int);
 - (id);
-- (void)y;
+- (void)calibratedEmbeddingSimilarity;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *intentBundleIds; // @synthesize intentBundleIds=_intentBundleIds;
 @property(readonly, nonatomic) int intentFromQU; // @synthesize intentFromQU=_intentFromQU;
-@property(readonly, nonatomic) NSString *intentLabel; // @synthesize intentLabel=_intentLabel;
-@property(readonly, nonatomic) float intentScore; // @synthesize intentScore=_intentScore;
 
 @end
 

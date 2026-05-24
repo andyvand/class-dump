@@ -9,11 +9,9 @@
 @interface PGHolidayDetectionCache
 {
     NSMutableArray *_holidayDateNodes;
-    NSMutableArray *_positivelyClassifiedMomentNodes;
-    NSMutableArray *_negativelyClassifiedMomentNodes;
 }
 
-- (id);
+- (id)or rows where appropriate). Consider implementing %@ for %@.;
 - (void);
 - (void);
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *holidayDateNodes; // @synthesize holidayDateNodes=_holidayDateNodes;
-@property(readonly, nonatomic) NSArray *negativelyClassifiedMomentNodes; // @synthesize negativelyClassifiedMomentNodes=_negativelyClassifiedMomentNodes;
-@property(readonly, nonatomic) NSArray *positivelyClassifiedMomentNodes; // @synthesize positivelyClassifiedMomentNodes=_positivelyClassifiedMomentNodes;
 
 @end
 

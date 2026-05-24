@@ -6,19 +6,11 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSString, NSToolbarItem, NSView;
+@class NSToolbarItem;
 
 @interface NSToolbarButton : NSButton
 {
     NSToolbarItem *_item;
-    NSView *_focusRingView;
-    SEL _primaryAction;
-    SEL _alternateAction;
-    NSString *_primaryToolTip;
-    NSString *_alternateToolTip;
-    NSString *_primaryTitle;
-    NSString *_alternateTitle;
-    _Bool _showingRollover;
 }
 
 + (void)lÿühðH;
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)rr-1019;
 - (void);
 - (void);
 - (id);
@@ -47,7 +39,6 @@
 - (id)5¨(ý?;
 
 // Remaining properties
-@property __weak NSView *focusRingView; // @synthesize focusRingView=_focusRingView;
 @property _Bool showingRollover;
 
 @end

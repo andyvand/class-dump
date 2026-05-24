@@ -7,22 +7,15 @@
 @interface HomeKitDaemon.DemoAccessoryServer
 {
     id browser;
-    id uuid;
-    id targetToCurrentStateUpdateDelay;
-    id skipKeychainSave;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ks8c;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)1K1FQB;
 - (void);
 - (void);
 - (void);
@@ -30,7 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long)deletedMomentUUIDsForValidityCheck;
 - (void)er",R,V_dialogPresenter;
 - (void)Ã_¼>;
 - (void)ÜB;
@@ -39,8 +36,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long communicationProtocol;
-@property(nonatomic, readonly) long long linkType;
-@property(nonatomic, readonly) _Bool paired;
 
 @end
 

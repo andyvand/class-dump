@@ -7,9 +7,10 @@
 @protocol HAP2AccessoryServerDiscoveryDelegate;
 
 @protocol HAP2AccessoryServerDiscovery
+- (id <HAP2AccessoryServerDiscoveryDelegate>)�;
+- (void)Management;
 
 // Remaining properties
 @property(nonatomic) __weak id <HAP2AccessoryServerDiscoveryDelegate> delegate;
-@property(readonly, nonatomic, getter=isDiscovering) _Bool discovering;
 @end
 

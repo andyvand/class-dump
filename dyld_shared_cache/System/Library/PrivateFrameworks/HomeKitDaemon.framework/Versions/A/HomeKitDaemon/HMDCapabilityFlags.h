@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 + (_Bool)dx;Ðá;
 - (id);
 - (id);
+- (id)S;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)VideoNode _evaluateVideo:(id)arg1 ];
 - (void);
 - (id)
 × ;

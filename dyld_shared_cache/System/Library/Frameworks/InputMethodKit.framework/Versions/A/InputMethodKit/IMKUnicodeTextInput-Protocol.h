@@ -5,5 +5,6 @@
 //
 
 @protocol IMKUnicodeTextInput
+- (void)setIsNetworkDegraded:(id)arg1;
 @end
 

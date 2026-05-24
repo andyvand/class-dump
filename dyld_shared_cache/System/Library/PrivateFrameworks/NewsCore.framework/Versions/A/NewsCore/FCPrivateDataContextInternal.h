@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCKPrivateDatabase, FCCKRecordZone, FCCKRecordZoneManager, NSString;
-@protocol FCAppActivityMonitor;
+@class FCCKPrivateDatabase;
 
 @interface FCPrivateDataContextInternal
 {
     FCCKPrivateDatabase *_privateDatabase;
-    id <FCAppActivityMonitor> _appActivityMonitor;
-    FCCKRecordZoneManager *_recordZoneManager;
 }
 
 - (id);
@@ -19,41 +16,23 @@
 - (id);
 - (void);
 - (id);
+- (id)descriptionForMediaType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (void);
+- (id)IXPromotingAppInstallCoordinator;
+- (id);
+- (void)!;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)rname = %@);
 - (id);
 - (id)hes/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Tests/TCKDatabase.m;
-- (void)ngSubscription;
+- (void)existingSubscription;
 - (id)e, id=%{public}s, asset=%{public}s;
 
 // Remaining properties
-@property(retain, nonatomic) id <FCAppActivityMonitor> appActivityMonitor; // @synthesize appActivityMonitor=_appActivityMonitor;
-@property(readonly, nonatomic) FCCKRecordZone *channelMembershipsRecordZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) FCCKRecordZone *issueReadingHistoryRecordZone;
 @property(retain, nonatomic) FCCKPrivateDatabase *privateDatabase; // @synthesize privateDatabase=_privateDatabase;
-@property(readonly, nonatomic) FCCKRecordZone *puzzleHistoryRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *readingHistoryRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *readingListRecordZone;
-@property(retain, nonatomic) FCCKRecordZoneManager *recordZoneManager; // @synthesize recordZoneManager=_recordZoneManager;
-@property(readonly, nonatomic) FCCKRecordZone *sensitiveSubscriptionsRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *shortcutsRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *subscriptionsRecordZone;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) FCCKRecordZone *userInfoRecordZone;
 
 @end
 

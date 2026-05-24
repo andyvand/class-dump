@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagDataSourceChange
 {
     NSString *_accountIdentifier;
-    NSString *_loadedBagIdentifier;
-    NSString *_loadedBagPartialIdentifier;
-    NSDictionary *_originalData;
-    NSDate *_originalExpirationDate;
-    NSString *_profile;
-    NSString *_profileVersion;
-    NSDictionary *_updatedData;
-    NSDate *_updatedExpirationDate;
-    NSSet *_changedKeys;
 }
 
 - (id);
@@ -36,15 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly) NSSet *changedKeys; // @synthesize changedKeys=_changedKeys;
-@property(readonly) NSString *loadedBagIdentifier; // @synthesize loadedBagIdentifier=_loadedBagIdentifier;
-@property(readonly) NSString *loadedBagPartialIdentifier; // @synthesize loadedBagPartialIdentifier=_loadedBagPartialIdentifier;
-@property(readonly) NSDictionary *originalData; // @synthesize originalData=_originalData;
-@property(readonly) NSDate *originalExpirationDate; // @synthesize originalExpirationDate=_originalExpirationDate;
-@property(readonly) NSString *profile; // @synthesize profile=_profile;
-@property(readonly) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
-@property(readonly) NSDictionary *updatedData; // @synthesize updatedData=_updatedData;
-@property(readonly) NSDate *updatedExpirationDate; // @synthesize updatedExpirationDate=_updatedExpirationDate;
 
 @end
 

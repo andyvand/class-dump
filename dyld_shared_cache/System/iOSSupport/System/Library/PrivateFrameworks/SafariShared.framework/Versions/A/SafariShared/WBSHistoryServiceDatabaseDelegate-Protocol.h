@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WBSHistoryServiceEvent;
+
 @protocol WBSHistoryServiceDatabaseDelegate
+- (void)moveMessageRecordsToRecoveryForChatRecordsWithGUIDs:(WBSHistoryServiceEvent *)arg1 deleteDate:(void (^)(NSError *))arg2;
 @end
 

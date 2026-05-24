@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSView;
-@protocol ReadingListItemViewThumbnailImageView;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListItemView
 {
     id _fallbackIconRequestToken;
-    NSTextField *_titleTextField;
-    NSTextField *_previewTextField;
-    NSTextField *_domainTextField;
-    NSView<ReadingListItemViewThumbnailImageView> *_thumbnailView;
 }
 
 - (id);
@@ -34,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSTextField *domainTextField; // @synthesize domainTextField=_domainTextField;
-@property(readonly, nonatomic) NSTextField *previewTextField; // @synthesize previewTextField=_previewTextField;
-@property(readonly, nonatomic) NSView<ReadingListItemViewThumbnailImageView> *thumbnailView; // @synthesize thumbnailView=_thumbnailView;
 @property(readonly, nonatomic) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end

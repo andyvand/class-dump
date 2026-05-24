@@ -7,11 +7,6 @@
 @interface NewsUI2.TopicTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id configurationManager;
-    id sportsGraphManager;
-    id name;
 }
 
 @end

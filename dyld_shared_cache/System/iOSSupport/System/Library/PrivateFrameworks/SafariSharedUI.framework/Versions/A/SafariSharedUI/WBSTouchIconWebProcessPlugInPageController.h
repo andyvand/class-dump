@@ -11,18 +11,15 @@
 @interface WBSTouchIconWebProcessPlugInPageController : WBSWebProcessPlugInPageController
 {
     id <WBSTouchIconObserver> _touchIconObserver;
-    unsigned long long _mainFrameMainResourceId;
-    _Bool _didRecieveDidHandleOnloadEventsForFrameCallback;
-    _Bool _shouldExtractIconsWhenRecievingDidHandleOnloadEventsForFrameCallback;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void)i_isSafariSpecificURL;
+- (void)safari_isSafariSpecificURL;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSTouchIconObserver> touchIconObserver;

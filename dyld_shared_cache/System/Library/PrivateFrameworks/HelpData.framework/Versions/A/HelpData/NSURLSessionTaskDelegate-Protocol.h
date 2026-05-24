@@ -9,7 +9,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)ompare:(NSURLSession *)arg1 options:(NSURLSessionTask *)arg2 range:(long long)arg3;
+- (void);
+- (void)compare:(NSURLSession *)arg1 options:(NSURLSessionTask *)arg2 range:(long long)arg3;
 - (void)hardware:(NSURLSession *)arg1 %@
                                     platform:(NSURLSessionTask *)arg2 %@
                                     osProductName:(void (^)(NSInputStream *))arg3 %@

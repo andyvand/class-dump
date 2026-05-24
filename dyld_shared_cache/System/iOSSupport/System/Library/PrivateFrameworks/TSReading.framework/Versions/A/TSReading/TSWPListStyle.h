@@ -31,23 +31,23 @@
 + (id);
 + (id);
 + (id);
++ (id)9;
++ (id);
++ (int);
 + (id);
 + (id);
-+ (int);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (double);
-- (id);
-- (id);
-- (id);
+- (double)eueFeeder.ClearedQueue:(unsigned long long)arg1;
+- (id)YES;
+- (id)Page;
+- (id)_allowsQueueModifications;
 - (int);
 - (double);
 - (id);
-- (int);
-- (id);
+- (int)AssetLoadPrevention;
+- (id);
 - (int);
 
 // Remaining properties

@@ -5,5 +5,8 @@
 //
 
 @protocol AVMediaOptionsControllerDelegate
+
+@optional
+- (void);
 @end
 

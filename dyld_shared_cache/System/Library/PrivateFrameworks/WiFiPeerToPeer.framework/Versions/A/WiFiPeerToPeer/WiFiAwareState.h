@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwareState
 {
     _Bool _isEnabled;
-    _Bool _isFWElection;
-    NSString *_interfaceName;
-    WiFiMACAddress *_interfaceAddr;
-    unsigned long long _nanRole;
-    long long _hopCount;
-    WiFiMACAddress *_clusterId;
-    long long _selfRankM;
-    long long _selfRankR;
-    WiFiMACAddress *_immediateMaster;
-    long long _immediateMasterRankM;
-    long long _immediateMasterRankR;
-    WiFiMACAddress *_anchorMaster;
-    long long _anchorMasterRankM;
-    long long _anchorMasterRankR;
-    long long _ambtt;
-    unsigned long long _tsf;
 }
 
 + (_Bool);
-+ (id);
++ (id)tionsVisitEventType!;
 - (long long);
 - (long long);
 - (_Bool);
@@ -48,7 +32,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -58,23 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long ambtt; // @synthesize ambtt=_ambtt;
-@property(readonly, nonatomic) WiFiMACAddress *anchorMaster; // @synthesize anchorMaster=_anchorMaster;
-@property(readonly, nonatomic) long long anchorMasterRankM; // @synthesize anchorMasterRankM=_anchorMasterRankM;
-@property(readonly, nonatomic) long long anchorMasterRankR; // @synthesize anchorMasterRankR=_anchorMasterRankR;
-@property(readonly, nonatomic) WiFiMACAddress *clusterId; // @synthesize clusterId=_clusterId;
-@property(readonly, nonatomic) long long hopCount; // @synthesize hopCount=_hopCount;
-@property(readonly, nonatomic) WiFiMACAddress *immediateMaster; // @synthesize immediateMaster=_immediateMaster;
-@property(readonly, nonatomic) long long immediateMasterRankM; // @synthesize immediateMasterRankM=_immediateMasterRankM;
-@property(readonly, nonatomic) long long immediateMasterRankR; // @synthesize immediateMasterRankR=_immediateMasterRankR;
-@property(readonly, nonatomic) WiFiMACAddress *interfaceAddr; // @synthesize interfaceAddr=_interfaceAddr;
 @property(readonly, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) _Bool isFWElection; // @synthesize isFWElection=_isFWElection;
-@property(readonly, nonatomic) unsigned long long nanRole; // @synthesize nanRole=_nanRole;
-@property(readonly, nonatomic) long long selfRankM; // @synthesize selfRankM=_selfRankM;
-@property(readonly, nonatomic) long long selfRankR; // @synthesize selfRankR=_selfRankR;
-@property(readonly, nonatomic) unsigned long long tsf; // @synthesize tsf=_tsf;
 
 @end
 

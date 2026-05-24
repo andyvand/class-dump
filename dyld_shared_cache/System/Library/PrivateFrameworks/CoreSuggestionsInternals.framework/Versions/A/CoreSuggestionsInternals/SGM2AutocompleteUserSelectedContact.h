@@ -4,55 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2AutocompleteUserSelectedContact
 {
     int _app;
-    NSString *_key;
-    _Bool _wasKnownContact;
-    _Bool _wasSuggestedContact;
-    CDStruct_73da3db5 _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)&;
+- (void)__TEXT;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (int);
-- (int);
+- (_Bool)@0:8@"NSControl"16@"NSTextView"24:32 /* Error: Ran out of types for this method. */;
+- (void)e %d;
+- (_Bool)previousAlarmView]|;
+- (id)CALPreferences_enableTimeZoneSupportChangedNotification;
+- (void):(int)arg1 [separator(==1)]|;
+- (int)r(==22)]-(1)-|;
+- (int)hours before travel time;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mKerningOverridden;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool)0@ù
 × ;
-- (void):(id)arg1;
+- (void)setRemoteObjectInterface:(id)arg1;
 - (void)<¬ÐZP[p (\(]¸§^T¨_èª«`x«Ø«aÔ¬bD­c¸­dì¯|±eÐ²f°´g¶(·h¸iÀ¾	´ÂÃ	¬ÅØÅÌÇDÈDÉ¼É°ÊË;
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool hasApp;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasWasKnownContact;
-@property(nonatomic) _Bool hasWasSuggestedContact;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool wasKnownContact; // @synthesize wasKnownContact=_wasKnownContact;
-@property(nonatomic) _Bool wasSuggestedContact; // @synthesize wasSuggestedContact=_wasSuggestedContact;
 
 @end
 

@@ -7,21 +7,6 @@
 @interface NewsFeed.DebugInspectViewDataSource
 {
     id name;
-    id placeholderImage;
-    id emptyImage;
-    id naImage;
-    id desiredItemIdentifiers;
-    id undesiredItemIdentifiers;
-    id feedItemIdentifierDict;
-    id visibleItemIdentifiers;
-    id key;
-    id sections;
-    id feedItemImages;
-    id layoutImages;
-    id allScoredCandidatesSection;
-    id inventory;
-    id headlineService;
-    id recipeService;
 }
 
 @end

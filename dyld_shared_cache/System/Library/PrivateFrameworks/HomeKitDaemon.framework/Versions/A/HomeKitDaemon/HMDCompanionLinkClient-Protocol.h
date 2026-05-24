@@ -8,17 +8,18 @@
 @protocol OS_dispatch_queue;
 
 @protocol HMDCompanionLinkClient
+- (void (^)(RPCompanionLinkDevice *, unsigned int))icationTypes:%s /* Error: Ran out of types for this method. */;
+- (void)StyleFromPixelBuffer:rect:toPixelBuffer:rect:completion:] /* Error: Ran out of types for this method. */;
+- (NSObject<OS_dispatch_queue> *)justmentController setIsAuto:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void (^)(RPCompanionLinkDevice *))q°1Â0@ù
 × ;
 - (void);
-- (void)oPersistentStore:(NSObject<OS_dispatch_queue> *)arg1;
+- (void)acceptShareInvitationsFromMetadata:(NSObject<OS_dispatch_queue> *)arg1 intoPersistentStore: /* Error: Ran out of types for this method. */;
 - (void (^)(RPCompanionLinkDevice *))8ÐÕþÿÿÿÿÜ;
-- (void)r;
+- (void)AccessoryPresenceObserver;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue;
 @end
 

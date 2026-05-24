@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKIdentityProofingDisplayMessage
 {
     NSString *_title;
-    NSString *_message;
-    NSArray *_actions;
 }
 
 + (_Bool)î%1Â0@ù
@@ -21,19 +19,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)secondaryFlowFailureCount;
+- (void)LessThan200mIntervalHistogram;
 - (id);
 - (id);
 - (id)!Dù1ï%Ð1Â0@ù
 × ;
 - (id):(id)arg1;
-- (id)ShownTermsRequest;
-- (void)Metadata;
+- (id)PKApplyWebServiceShownTermsRequest;
+- (void)auxiliaryCapabilityKeyCreationMetadata;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

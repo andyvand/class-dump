@@ -6,47 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUFRCasinoCardSelected, SISchemaUUFRSnippetViewSelected;
+@class SISchemaUUFRCasinoCardSelected;
 
 @interface SISchemaUUFRSelected : SISchemaInstrumentationMessage
 {
     SISchemaUUFRCasinoCardSelected *_casinoCardSelected;
-    SISchemaUUFRSnippetViewSelected *_snippetViewSelected;
-    _Bool _hasCasinoCardSelected;
-    _Bool _hasSnippetViewSelected;
-    unsigned long long _whichSelectionevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)initWithBundleID:bundleVersion:itemID:versionID:installDate:lastLaunchDate: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)_identifier, service_name);
 - (id);
 - (id);
-- (id)oiceCommandParses;
-- (id)iningAttempted;
-- (void)TYPE_PLANNER_SPAN_MATCHER;
+- (id)deleteHasVoiceCommandParses;
+- (id)_hasEnrollmentUIUtteranceTrainingAttempted;
+- (void)CDMSERVICETYPE_PLANNER_SPAN_MATCHER;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUFRCasinoCardSelected *casinoCardSelected; // @synthesize casinoCardSelected=_casinoCardSelected;
-@property(nonatomic) _Bool hasCasinoCardSelected; // @synthesize hasCasinoCardSelected=_hasCasinoCardSelected;
-@property(nonatomic) _Bool hasSnippetViewSelected; // @synthesize hasSnippetViewSelected=_hasSnippetViewSelected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUFRSnippetViewSelected *snippetViewSelected; // @synthesize snippetViewSelected=_snippetViewSelected;
-@property(readonly, nonatomic) unsigned long long whichSelectionevent; // @synthesize whichSelectionevent=_whichSelectionevent;
 
 @end
 

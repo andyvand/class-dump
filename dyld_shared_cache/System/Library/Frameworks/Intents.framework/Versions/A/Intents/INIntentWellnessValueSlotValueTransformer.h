@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class);
 + (Class);
 - (id);
-- (id)Type:(id)arg1;
+- (id)StringAsVisualCodeType:(id)arg1;
 
 @end
 

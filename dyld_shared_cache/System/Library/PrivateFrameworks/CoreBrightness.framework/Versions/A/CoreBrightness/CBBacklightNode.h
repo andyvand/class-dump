@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBIORegistryParser, CBRTPLCParams, NSObject, NSString;
+@class CBRTPLCParams, NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBBacklightNode
 {
     NSObject<OS_os_log> *_log;
-    CBIORegistryParser *_parser;
-    CBRTPLCParams *_rtplc;
 }
 
 - (id);
@@ -36,15 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle;
 @property(readonly) CBRTPLCParams *rtplc; // @synthesize rtplc=_rtplc;
-@property(readonly) Class superclass;
 
 @end
 

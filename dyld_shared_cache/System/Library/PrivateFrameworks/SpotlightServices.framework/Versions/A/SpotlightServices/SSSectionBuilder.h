@@ -4,56 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFMutableResultSection, SPSearchQueryContext;
+@class SFMutableResultSection;
 
 @interface SSSectionBuilder
 {
     _Bool _isTopHitSection;
-    SFMutableResultSection *_section;
-    SPSearchQueryContext *_queryContext;
-    unsigned long long _renderState;
 }
 
 + (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)showsChevronForSingleAction;
++ (id)showingDisclosureViewForComponentView:(id)arg1;
++ (void)convertPoint:(id)arg1 fromView: /* Error: Ran out of types for this method. */;
++ (id)contactsBadgeStyle;
 + (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)symbolicTraits;
+- (id)subtitleButton;
+- (id)substringFromIndex: /* Error: Ran out of types for this method. */;
+- (id)specialization;
+- (id)sourceBundleIdentifier;
+- (id)sourceApplicationSecondaryIdentifierForRequiringPrivacyProxyFailingClosed;
+- (id)sourceApplicationSecondaryIdentifierForRequiringPrivacyProxyFailingClosed;
+- (id)sourceApplication;
+- (id)sortUsingComparator: /* Error: Ran out of types for this method. */;
+- (_Bool)setMediaBottomCaption: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setFixedFallbackImageFontTextStyle: /* Error: Ran out of types for this method. */;
+- (long long)setCopyDocumentURLCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)setCanDrawSubviewsIntoLayer: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long);
-- (long long);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)om.apple.ist.ds.appleconnect.webplugin;
 - (void);
 - (id);
-- (void)utes:type:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)sSynthetic;
+- (void)initWithIdentifier:bundleIdentifier:protectionClass:attributes:type:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_isSynthetic;
 
 // Remaining properties
-@property(nonatomic) _Bool isTopHitSection; // @synthesize isTopHitSection=_isTopHitSection;
-@property(nonatomic) __weak SPSearchQueryContext *queryContext; // @synthesize queryContext=_queryContext;
-@property(nonatomic) unsigned long long renderState; // @synthesize renderState=_renderState;
 @property(nonatomic) __weak SFMutableResultSection *section; // @synthesize section=_section;
 
 @end

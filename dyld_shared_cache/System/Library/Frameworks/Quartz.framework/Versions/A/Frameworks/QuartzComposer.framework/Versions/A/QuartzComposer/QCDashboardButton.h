@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface QCDashboardButton
 {
     long long _direction;
-    NSMutableDictionary *_attr;
-    long long _trackingRectTag;
-    _Bool _active;
-    _Bool _displayCapsule;
-    struct CGRect _activeRect;
-    NSString *_string;
-    id _controller;
 }
 
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (struct CGRect);
 - (void);
@@ -34,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)tion to client import service invalidated;
 - (void);
 - (void);
 - (void);

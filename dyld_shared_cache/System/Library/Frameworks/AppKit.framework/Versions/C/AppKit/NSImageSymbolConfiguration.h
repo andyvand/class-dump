@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NSImageSymbolConfiguration
 {
     double _pointSize;
-    double _weight;
-    long long _scale;
-    long long _renderingStyle;
-    NSArray *_colors;
-    _Bool _prefersMulticolor;
-    long long _variableValueMode;
-    long long _colorRenderingMode;
 }
 
 - (long long);
 - (_Bool);
-- (id);
+- (id)B104@?<v@?B>108;
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)?aea?aea?aec?aec?aee?aee?aei?aei?aeo?aeo?aes?aes?aet?aetCae Cae%Cae-Cae.Cae/Cae3Cae4Cae5Cae6Cae7Cae8Cae9Cae=CaeACae_CaebCaedCaefCaegCaehCaelCaemCaenCaepCaerCaeu*ae;
+- (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)ternalProgress for url %{public}@ %@ %@;
 - (id);
-- (_Bool);
+- (_Bool)J!;
 - (void)!àGùÑß3Ð1Â0@ù
 × ;
 - (id)ty:(struct _NSZone *)arg1 equivalenceIdentifier:layoutDirection: /* Error: Ran out of types for this method. */;
-- (double)33_B20AA1257E16D4018E27D921D92487C843_NSTextFormattingFontPointSizeComponentView;
+- (double)_TtC6AppKitP33_B20AA1257E16D4018E27D921D92487C843_NSTextFormattingFontPointSizeComponentView;
 - (id)Á;
 - (double)entUIStorageServiceListener setUpConnection:]_block_invoke /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(readonly) long long colorRenderingMode; // @synthesize colorRenderingMode=_colorRenderingMode;
-@property(readonly, copy) NSArray *colors; // @synthesize colors=_colors;
 @property(readonly) double pointSize; // @synthesize pointSize=_pointSize;
-@property(readonly) _Bool prefersMulticolor; // @synthesize prefersMulticolor=_prefersMulticolor;
-@property(readonly) long long renderingStyle; // @synthesize renderingStyle=_renderingStyle;
-@property(readonly) long long scale; // @synthesize scale=_scale;
-@property(readonly) long long variableValueMode; // @synthesize variableValueMode=_variableValueMode;
-@property(readonly) double weight; // @synthesize weight=_weight;
 
 @end
 

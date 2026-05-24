@@ -11,16 +11,16 @@
     id <ASAuthorizationProvider> _provider;
 }
 
-+ (id);
++ (id)st;
 + (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)tabGroupScopedTopBookmarkListForFolderId: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(readonly, nonatomic) id <ASAuthorizationProvider> provider; // @synthesize provider=_provider;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalVirtualConference, NSString;
+@class CalVirtualConference;
 
 @interface CalConferenceDeserializationResult
 {
     CalVirtualConference *_conference;
-    NSString *_blockTitle;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *blockTitle; // @synthesize blockTitle=_blockTitle;
-@property(readonly, nonatomic) CalVirtualConference *conference; // @synthesize conference=_conference;
 @property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end

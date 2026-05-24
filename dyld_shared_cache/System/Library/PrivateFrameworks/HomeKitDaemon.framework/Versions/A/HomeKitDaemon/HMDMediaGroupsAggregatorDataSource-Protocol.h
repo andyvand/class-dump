@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDMediaGroupsAggregator, HMDRoom, NSArray, NSString;
+@protocol HMDMediaDestinationManager;
+
 @protocol HMDMediaGroupsAggregatorDataSource
+- (HMDRoom *);
+- (NSString *)_performBlockAfterInitialSync:(HMDMediaGroupsAggregator *)arg1;
+- (id <HMDMediaDestinationManager>)ng",&,N,V_language;
+- (NSArray *)MSPUGCLogDiscardCertificateDurationInMinutesKey;
+- (NSString *)now around %2$@.;
 @end
 

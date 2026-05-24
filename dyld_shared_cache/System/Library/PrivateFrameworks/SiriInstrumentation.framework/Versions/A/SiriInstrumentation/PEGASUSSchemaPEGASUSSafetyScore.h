@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PEGASUSSchemaPEGASUSSafetyScore : SISchemaInstrumentationMessage
 {
     int _scoreClass;
-    float _score;
-    NSString *_scoreLabel;
-    struct {
-        unsigned int scoreClass:1;
-        unsigned int score:1;
-    } _has;
-    _Bool _hasScoreLabel;
 }
 
 - (void);
@@ -33,28 +24,22 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)MNFamiliarRouteProvider;
+- (void)K;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ing chat silencing because override message mentions me is (%@) isSMS (%@) isBusinessChat (%@).;
 - (id);
 - (id)
 × ;
 - (float)onfirmation"b1};
-- (id)onseReported;
+- (id)_hasDecisionEngineResponseReported;
 - (id)@"STSchemaDocumentAttributes",&,N,V_documentAttributes;
 - (void)µ;
-- (void)SV_SE;
+- (void)LOCALE_SV_SE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasScoreClass;
-@property(nonatomic) _Bool hasScoreLabel; // @synthesize hasScoreLabel=_hasScoreLabel;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float score; // @synthesize score=_score;
 @property(nonatomic) int scoreClass; // @synthesize scoreClass=_scoreClass;
-@property(copy, nonatomic) NSString *scoreLabel; // @synthesize scoreLabel=_scoreLabel;
 
 @end
 

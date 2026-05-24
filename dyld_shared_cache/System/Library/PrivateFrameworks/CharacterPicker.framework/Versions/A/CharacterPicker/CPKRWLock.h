@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
         long long _field1;
         char _field2[192];
     } *_rwlockPtr;
-    _Bool _flag;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (_Bool);

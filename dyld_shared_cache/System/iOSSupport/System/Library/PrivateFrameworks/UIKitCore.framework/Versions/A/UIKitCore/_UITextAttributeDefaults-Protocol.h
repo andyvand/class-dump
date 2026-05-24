@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSParagraphStyle, NSShadow, UIColor, UIFont, _UITextAttributeDictionary;
+@class NSParagraphStyle, NSShadow, UIFont, _UITextAttributeDictionary;
 
 @protocol _UITextAttributeDefaults
+- (NSParagraphStyle *);
 - (UIFont *)uProN-W3;
 - (NSShadow *);
 - (_UITextAttributeDictionary *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) _UITextAttributeDictionary *_attributes;
-@property(readonly, nonatomic) UIFont *_font;
-@property(readonly, nonatomic) NSParagraphStyle *_paragraphStyle;
-@property(readonly, nonatomic) NSShadow *_shadow;
-@property(readonly, nonatomic) UIColor *_textColor;
 @end
 

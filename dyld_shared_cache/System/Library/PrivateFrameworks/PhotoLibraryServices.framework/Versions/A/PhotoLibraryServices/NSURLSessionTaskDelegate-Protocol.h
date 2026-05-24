@@ -7,6 +7,11 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (id)roller;
+- (id)width_status_line;
+- (id)J
+;
+- (id)@;
 - (id)ProcessingCompleteToken %@;
 - (id)d:%lu /* Error: Ran out of types for this method. */;
 - (id);

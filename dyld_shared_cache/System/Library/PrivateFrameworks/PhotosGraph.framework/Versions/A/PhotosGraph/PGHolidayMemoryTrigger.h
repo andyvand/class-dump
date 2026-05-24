@@ -13,9 +13,9 @@
     CLSHolidayCalendarEventService *_holidayService;
 }
 
+- (id)eArray",&,N,V__listeners;
 - (id);
-- (id);
-- (void)sBatch;
+- (void)PGSharedLibrarySuggestionsProcessorPersistFromMomentsBatch;
 
 // Remaining properties
 @property(readonly, nonatomic) CLSHolidayCalendarEventService *holidayService; // @synthesize holidayService=_holidayService;

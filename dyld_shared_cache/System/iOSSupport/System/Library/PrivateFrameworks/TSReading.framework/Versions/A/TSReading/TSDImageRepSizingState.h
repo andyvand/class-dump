@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDImageProvider;
-
 @interface TSDImageRepSizingState
 {
     struct CGSize mDesiredSize;
-    TSDImageProvider *mProvider;
-    struct CGPath *mMaskPath;
-    _Bool mIncludesAdjustments;
-    _Bool mWideGamutCanvas;
-    int mStatus;
-    struct CGImage *mSizedImage;
-    long long mSizedImageOrientation;
 }
 
 - (_Bool);
-- (long long);
+- (long long)PlaybackStackControllerDelegate;
 - (_Bool);
 - (_Bool);
 - (struct CGImage *);
-- (void);
-- (void);
+- (void)SmartPlayerItemTransitionSetupFailureReason;
+- (void)CrossFadePlayerItemTransition;
 - (void);
 - (id);
 - (void);
@@ -34,19 +25,11 @@
 - (void);
 - (struct CGSize);
 - (int);
-- (id);
+- (id);
 - (void)en as the last character;
 
 // Remaining properties
 @property(nonatomic) struct CGSize desiredSize; // @synthesize desiredSize=mDesiredSize;
-@property(readonly, nonatomic) struct CGPath *maskPath; // @synthesize maskPath=mMaskPath;
-@property(retain, nonatomic) TSDImageProvider *provider; // @synthesize provider=mProvider;
-@property(nonatomic) struct CGImage *sizedImage; // @synthesize sizedImage=mSizedImage;
-@property(readonly, nonatomic) _Bool sizedImageHasMask;
-@property(nonatomic) _Bool sizedImageIncludesAdjustments; // @synthesize sizedImageIncludesAdjustments=mIncludesAdjustments;
-@property(nonatomic) long long sizedImageOrientation; // @synthesize sizedImageOrientation=mSizedImageOrientation;
-@property(nonatomic) int status; // @synthesize status=mStatus;
-@property(readonly, nonatomic) _Bool wideGamut; // @synthesize wideGamut=mWideGamutCanvas;
 
 @end
 

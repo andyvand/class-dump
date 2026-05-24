@@ -11,40 +11,32 @@
 @interface CKKTVerifyConversationTableViewCell : CKDetailsCell
 {
     _Bool _shouldShowMacHeader;
-    unsigned long long _ktStatus;
-    long long _numberOfRowsInSection;
-    UILabel *_verifyConversationLabel;
-    UILabel *_macHeaderLabel;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)imageForSubAttachment:rotateForMacImageGallery:allowCached: /* Error: Ran out of types for this method. */;
+- (id)imageForDescriptor: /* Error: Ran out of types for this method. */;
+- (void)ic_isFrontSubview: /* Error: Ran out of types for this method. */;
+- (_Bool)_overrideContainerIdentifier;
+- (void)_containedView;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ackButtonTitle;
+- (void)agedObjectContextChangeControllerDelegate>",W,N,V_delegate;
+- (void)setUseConstraintBasedRendering:(id)arg1;
+- (void)sionState;
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)m;
+- (void)zh;
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)!;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long ktStatus; // @synthesize ktStatus=_ktStatus;
-@property(retain, nonatomic) UILabel *macHeaderLabel; // @synthesize macHeaderLabel=_macHeaderLabel;
-@property(nonatomic) long long numberOfRowsInSection; // @synthesize numberOfRowsInSection=_numberOfRowsInSection;
-@property(nonatomic) _Bool shouldShowMacHeader; // @synthesize shouldShowMacHeader=_shouldShowMacHeader;
 @property(retain, nonatomic) UILabel *verifyConversationLabel; // @synthesize verifyConversationLabel=_verifyConversationLabel;
 
 @end

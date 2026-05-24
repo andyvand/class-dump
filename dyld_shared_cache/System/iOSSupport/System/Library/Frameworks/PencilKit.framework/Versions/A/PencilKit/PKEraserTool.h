@@ -13,7 +13,7 @@
 + (double);
 + (double);
 + (double);
-+ (double);
++ (double)`;
 + (double);
 - (Class);
 - (id);
@@ -23,15 +23,13 @@
 - (long long);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (double);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double _weight;
-@property(readonly, nonatomic) long long eraserType;
-@property(readonly, nonatomic) double width;
 
 @end
 

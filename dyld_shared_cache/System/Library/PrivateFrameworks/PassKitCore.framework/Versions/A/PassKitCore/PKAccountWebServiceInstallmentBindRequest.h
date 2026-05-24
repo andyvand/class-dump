@@ -6,25 +6,21 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDecimalNumber, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceInstallmentBindRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSString *_applicationIdentifier;
-    NSDecimalNumber *_bindingAmount;
-    NSString *_merchantIdentifier;
-    NSURL *_baseURL;
 }
 
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)_selectedIndex;
 - (id)source UI provider:Created response group with session identifier:%s /* Error: Ran out of types for this method. */;
-- (void)ECEIVER_MESSAGE;
+- (void)NEARBY_ERROR_SENDER_INELIGIBLE_RECEIVER_MESSAGE;
 - (void)ÿÿÿÿÿ;
 - (id)Ð«¿ÿKM;
 - (void)hO;
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) NSDecimalNumber *bindingAmount; // @synthesize bindingAmount=_bindingAmount;
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
 
 @end
 

@@ -10,21 +10,20 @@
 @interface IDSInternalQueueController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    void *_contextKey;
 }
 
 + (id)@"IDSGroupSession"16@"NSError"24;
 - (void);
 - (void);
-- (id);
+- (id)browser_SetMode;
 - (_Bool);
 - (id);
-- (id);
+- (id)Connections;
 - (_Bool);
-- (id);
+- (id)	;
 - (void)!0Fù,Ð1Â0@ù
 × ;
-- (_Bool)eviceSignature;
+- (_Bool)_deviceSignature;
 
 @end
 

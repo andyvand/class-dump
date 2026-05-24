@@ -6,14 +6,12 @@
 
 #import <Catalyst/CATOperation.h>
 
-@class CATIDSServiceConnection, CATIDSServiceTransport, CATMessage;
+@class CATIDSServiceTransport;
 
 __attribute__((visibility("hidden")))
 @interface _CATIDSServiceTransportSendMessageOperation : CATOperation
 {
     CATIDSServiceTransport *mTransport;
-    CATIDSServiceConnection *mConnection;
-    CATMessage *mMessage;
 }
 
 - (id);

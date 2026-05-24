@@ -14,11 +14,11 @@
 }
 
 + (Class);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)rsonalizationStyle;
 
 // Remaining properties

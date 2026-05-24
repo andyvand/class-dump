@@ -15,11 +15,11 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)ID:(struct CGPoint)arg1 %{BOOL}d  Repaired GUID V2:(struct CGPoint)arg2 %{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)setReferenceItem: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool)istantView;
+- (_Bool)suppressUpdateAssistantView;
 - (id)dAlwaysCollapse;
 
 // Remaining properties

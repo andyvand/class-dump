@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SSAddress, SSConnectionOptions;
+@class SSConnectionOptions;
 
 @protocol SSSessionProtocol
+- (void)(;
+- (void);
 
 // Remaining properties
-@property(retain) SSAddress *address;
 @property(retain) SSConnectionOptions *connectionOptions;
-@property(copy) NSString *serverName;
 @end
 

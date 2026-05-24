@@ -7,12 +7,11 @@
 @class NSString, WKUserScript;
 
 @protocol SWScript
+- (NSString *)mailstationery;
+- (WKUserScript *)M;
 - (NSString *)Ä;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *executableScript;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool queueable;
-@property(readonly, nonatomic) WKUserScript *userScript;
 @end
 

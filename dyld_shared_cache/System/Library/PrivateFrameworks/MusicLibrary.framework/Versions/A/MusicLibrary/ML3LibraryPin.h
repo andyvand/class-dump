@@ -10,9 +10,9 @@
 {
 }
 
-+ (long long);
-+ (id);
-+ (id);
++ (long long)R,V_interestingMemoryUUID;
++ (id)historyTokenURL;
++ (id)inatorDelegate>",W,N,V_delegate;
 + (id)!;
 + (id)-;
 

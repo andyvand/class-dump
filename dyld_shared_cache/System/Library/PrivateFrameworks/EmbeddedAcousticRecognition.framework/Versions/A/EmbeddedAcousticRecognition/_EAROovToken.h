@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface _EAROovToken
 {
     NSString *_orthography;
-    NSSet *_prons;
-    long long _frequency;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (long long)RKNS7_IiNSB_IiEEEESR_E3$_1FNS8_IN5kaldi6quasar17NnlmEvaluatorBaseEEERKS12_EEE;
 
 // Remaining properties
-@property(readonly, nonatomic) long long frequency; // @synthesize frequency=_frequency;
 @property(readonly, nonatomic) NSString *orthography; // @synthesize orthography=_orthography;
-@property(readonly, nonatomic) NSSet *prons; // @synthesize prons=_prons;
 
 @end
 

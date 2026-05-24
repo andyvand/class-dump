@@ -5,5 +5,10 @@
 //
 
 @protocol WKUIDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (void);
 @end
 

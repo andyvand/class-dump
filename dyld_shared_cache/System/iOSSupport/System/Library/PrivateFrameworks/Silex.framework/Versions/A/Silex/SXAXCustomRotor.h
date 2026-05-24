@@ -11,12 +11,12 @@
     NSOrderedSet *_rotorItems;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)d}}32;

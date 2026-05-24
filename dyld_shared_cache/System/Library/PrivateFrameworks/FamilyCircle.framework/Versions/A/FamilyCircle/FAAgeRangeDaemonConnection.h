@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface FAAgeRangeDaemonConnection
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (id)!AùQ*ð1Â0@ù
 × ;

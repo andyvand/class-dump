@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMusicPlayerControllerNowPlaying, MPMusicPlayerQueueDescriptor, NSUserDefaults;
+@class MPMusicPlayerControllerNowPlaying, NSUserDefaults;
 
 @interface MPMusicPlayerControllerSystemCache
 {
@@ -12,21 +12,19 @@
 }
 
 + (id);
-- (void);
+- (void)4;
 - (_Bool);
-- (_Bool);
+- (_Bool)lockTupleShare;
+- (id)atDropConstraintRecurse;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)eleaseDateComponents__MAPPING_MISSING__;
+- (void)__MPModelPropertyAlbumReleaseDateComponents__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCachedData;
 @property(retain, nonatomic) MPMusicPlayerControllerNowPlaying *nowPlaying;
-@property(retain, nonatomic) MPMusicPlayerQueueDescriptor *queueDescriptor;
 
 @end
 

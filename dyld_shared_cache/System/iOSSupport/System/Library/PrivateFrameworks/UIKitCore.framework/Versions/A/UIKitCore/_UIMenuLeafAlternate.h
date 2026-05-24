@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICommandAlternate, UIMenuElement;
+@class UIMenuElement;
 @protocol UIMenuLeaf;
 
 @interface _UIMenuLeafAlternate
@@ -14,34 +14,24 @@
 }
 
 + (id);
-+ (_Bool)splayFormatWithYear;
++ (_Bool)UINotesDisplayFormatWithYear;
+- (id)g"28B36@"NSString"40;
+- (id)ifier";
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_saveRecoverableMessagesOperationFactory:(id)arg1 token:batchSize:recordNameToPartIndexAndRowID:activity: /* Error: Ran out of types for this method. */;
+- (id)e %hhu as both last addressed handle and last addressed sim id are nil;
+- (id)URI to be %@ using Last addressed handle %@;
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool)nCalendarUnit:(id)arg1;
-- (void)tLargeSubtitle:(id)arg1;
+- (unsigned long long);
+- (_Bool)valueForRow:(id)arg1 inCalendarUnit: /* Error: Ran out of types for this method. */;
+- (void)setLargeSubtitle:(id)arg1;
 - (id)dthMaxBump;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UICommandAlternate *commandAlternate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _UIMenuLeafAlternate *leafAlternate;
-@property(readonly, nonatomic) UIMenuElement<UIMenuLeaf> *menuLeaf; // @synthesize menuLeaf=_menuLeaf;
-@property(readonly, nonatomic) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
-@property(readonly) Class superclass;
 
 @end
 

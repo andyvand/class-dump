@@ -6,33 +6,27 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryKernel.h>
 
-@class MPSNDArrayQuantizationDescriptor;
-
 @interface MPSNDArrayLUTGEMV : MPSNDArrayMultiaryKernel
 {
     _Bool _hasLUTLHS;
-    _Bool _hasLUTRHS;
-    MPSNDArrayQuantizationDescriptor *_lhsDesc;
-    MPSNDArrayQuantizationDescriptor *_rhsDesc;
 }
 
 + (const struct MPSLibraryInfo *);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasLUTLHS; // @synthesize hasLUTLHS=_hasLUTLHS;
-@property(nonatomic) _Bool hasLUTRHS; // @synthesize hasLUTRHS=_hasLUTRHS;
 
 @end
 

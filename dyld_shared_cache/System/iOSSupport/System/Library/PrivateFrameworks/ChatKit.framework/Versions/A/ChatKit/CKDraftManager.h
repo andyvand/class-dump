@@ -4,37 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableDictionary;
 
 @interface CKDraftManager
 {
     NSMutableDictionary *_cachedDrafts;
-    NSMutableSet *_dirtyDraftIDs;
-    NSArray *_pendingRecipients;
-    NSString *_pendingChatIdentifier;
 }
 
 + (id)ÿ;
+- (void)ICPressableAttachmentAccessibilityElement;
+- (void)ICDidMoveToWindowSpy;
+- (void);
+- (void)$oLo;
+- (void)8i;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)c7GG;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)GGG;
+- (id)No CKShare or error returned for %@ %@;
+- (id)from error saving share for %@ %@ %@;
+- (id)Server record %@ is not a share %@;
+- (id)%@ for %@ %@;
+- (id)ID %@ %@:(id)arg1 %@;
+- (id)dificationDate so we don't end up in a preview loop (Attachment:%@, modificationDate:%@, previewUpdateDate:%@). /* Error: Ran out of types for this method. */;
+- (void)Handler:] /* Error: Ran out of types for this method. */;
+- (void)er:(id)arg1 accountID:fetchObjectWithCompletionHandler:] /* Error: Ran out of types for this method. */;
+- (id)mention;
 - (void);
 - (void);
 - (void);
@@ -51,9 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cachedDrafts; // @synthesize cachedDrafts=_cachedDrafts;
-@property(retain, nonatomic) NSMutableSet *dirtyDraftIDs; // @synthesize dirtyDraftIDs=_dirtyDraftIDs;
-@property(retain, nonatomic) NSString *pendingChatIdentifier; // @synthesize pendingChatIdentifier=_pendingChatIdentifier;
-@property(retain, nonatomic) NSArray *pendingRecipients; // @synthesize pendingRecipients=_pendingRecipients;
 
 @end
 

@@ -9,14 +9,12 @@
 @interface AKAuthorizationRevokeUpgradeContext
 {
     NSString *_transactionID;
-    NSString *_bundleID;
-    NSString *_teamID;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
 - (void);
@@ -26,8 +24,6 @@
 - (id)yRò¶ø¼ÅûG½es¬²u÷ýön×ÙéOíKtç4¬¯S%wªZG¨:§MÅ¤Ôè»\:@|o¨À1ê¶0Áä§T­gí§Ý /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 @property(copy, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
 
 @end

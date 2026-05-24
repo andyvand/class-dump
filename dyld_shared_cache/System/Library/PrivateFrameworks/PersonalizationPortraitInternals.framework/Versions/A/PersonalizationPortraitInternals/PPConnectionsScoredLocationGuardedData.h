@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface PPConnectionsScoredLocationGuardedData
 {
     NSMutableArray *_locations;
-    NSMutableSet *_seenValues;
 }
 
 - (id);
-- (void)ationScoring;
+- (void)use2StageScoreInterpreterForLocationScoring;
 
 @end
 

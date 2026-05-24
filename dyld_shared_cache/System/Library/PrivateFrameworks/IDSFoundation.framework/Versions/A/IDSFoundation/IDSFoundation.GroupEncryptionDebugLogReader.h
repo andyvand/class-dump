@@ -7,11 +7,6 @@
 @interface IDSFoundation.GroupEncryptionDebugLogReader
 {
     id fileHandle;
-    id sessionID;
-    id startTime;
-    id startTimeIntervalSinceReferenceDate;
-    id buffer;
-    id contexts;
 }
 
 @end

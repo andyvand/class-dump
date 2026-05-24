@@ -5,5 +5,8 @@
 //
 
 @protocol MCCCategoryRulesDelegate
+
+@optional
+- (void);
 @end
 

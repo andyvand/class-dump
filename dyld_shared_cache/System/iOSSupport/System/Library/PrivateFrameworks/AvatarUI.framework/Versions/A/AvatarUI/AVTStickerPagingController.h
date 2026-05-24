@@ -4,50 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarRecordDataSource, AVTStickerConfigurationProvider, AVTUIEnvironment, AVTUIStickerGeneratorPool, NSMutableDictionary, NSObject, NSString, UICollectionView, UICollectionViewCell, UIView, _AVTAvatarRecordImageProvider;
-@protocol AVTAvatarPickerDelegate, AVTPresenterDelegate, AVTResourceCache, AVTStickerDisclosureValidationDelegate, AVTStickerPagingControllerDelegate, AVTStickerSelectionDelegate, AVTStickerSheetControllerProvider, AVTStickerTaskScheduler, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AVTStickerPagingController
 {
     _Bool _allowsPeel;
-    _Bool _isResizing;
-    id <AVTPresenterDelegate> presenterDelegate;
-    id <AVTAvatarPickerDelegate> avatarPickerDelegate;
-    id <AVTStickerPagingControllerDelegate> _delegate;
-    id <AVTStickerDisclosureValidationDelegate> _disclosureValidationDelegate;
-    id <AVTStickerSelectionDelegate> _stickerSelectionDelegate;
-    id <AVTStickerSheetControllerProvider> _stickerSheetControllerProvider;
-    NSObject<OS_dispatch_queue> *_renderingQueue;
-    NSObject<OS_dispatch_queue> *_encodingQueue;
-    AVTAvatarRecordDataSource *_dataSource;
-    AVTUIStickerGeneratorPool *_stickerGeneratorPool;
-    AVTUIEnvironment *_environment;
-    NSMutableDictionary *_pageForRecords;
-    id <AVTStickerTaskScheduler> _taskScheduler;
-    id <AVTResourceCache> _cache;
-    _AVTAvatarRecordImageProvider *_imageProvider;
-    NSString *_focusedPageRecordIdentifier;
-    NSString *_selectedStickerIdentifier;
-    AVTStickerConfigurationProvider *_stickerConfigurationProvider;
-    UIView *_view;
-    UICollectionView *_collectionView;
-    UICollectionViewCell *_lastDeletedCell;
-    struct CGPoint _pageContentOffset;
-    struct CGPoint _endDraggingTargetContentOffset;
-    struct UIEdgeInsets _pageContentInsets;
 }
 
 + (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -59,9 +34,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,9 +59,9 @@
 - (id);
 - (id);
 - (struct CGPoint);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -101,7 +76,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)r is an empty string;
 - (void);
 - (id);
 - (void);
@@ -111,62 +86,30 @@
 - (void);
 - (void);
 - (void);
+- (void)};
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
-- (id);
+- (id)lockStateUpdated:forUser: /* Error: Ran out of types for this method. */;
+- (struct CGSize)0:(id)arg1;
+- (void);
+- (id)%;
 - (id);
 - (long long);
-- (long long);
+- (long long)allowed %lld. %{public}@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)flightInformationWithAirlineCode:(id)arg1 flightNumber:(id)arg2 flightDate: /* Error: Ran out of types for this method. */;
+- (id)AddressConvertible>",C,N,V_senderAddress;
+- (void)";
+- (void);
 - (id);
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
 - (void);
-- (id)nitWithMode:(id)arg1 sessionProvider:(id)arg2 dataSource:environment: /* Error: Ran out of types for this method. */;
+- (id)initWithMode:(id)arg1 sessionProvider:(id)arg2 dataSource:environment: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsPeel; // @synthesize allowsPeel=_allowsPeel;
-@property(nonatomic) __weak id <AVTAvatarPickerDelegate> avatarPickerDelegate; // @synthesize avatarPickerDelegate;
-@property(readonly, nonatomic) id <AVTResourceCache> cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) AVTAvatarRecordDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTStickerPagingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <AVTStickerDisclosureValidationDelegate> disclosureValidationDelegate; // @synthesize disclosureValidationDelegate=_disclosureValidationDelegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *encodingQueue; // @synthesize encodingQueue=_encodingQueue;
-@property(nonatomic) struct CGPoint endDraggingTargetContentOffset; // @synthesize endDraggingTargetContentOffset=_endDraggingTargetContentOffset;
-@property(retain, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) NSString *focusedPageRecordIdentifier; // @synthesize focusedPageRecordIdentifier=_focusedPageRecordIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _AVTAvatarRecordImageProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(nonatomic) _Bool isResizing; // @synthesize isResizing=_isResizing;
-@property(retain, nonatomic) UICollectionViewCell *lastDeletedCell; // @synthesize lastDeletedCell=_lastDeletedCell;
-@property(nonatomic) struct UIEdgeInsets pageContentInsets; // @synthesize pageContentInsets=_pageContentInsets;
-@property(nonatomic) struct CGPoint pageContentOffset; // @synthesize pageContentOffset=_pageContentOffset;
-@property(retain, nonatomic) NSMutableDictionary *pageForRecords; // @synthesize pageForRecords=_pageForRecords;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *renderingQueue; // @synthesize renderingQueue=_renderingQueue;
-@property(retain, nonatomic) NSString *selectedStickerIdentifier; // @synthesize selectedStickerIdentifier=_selectedStickerIdentifier;
-@property(readonly, nonatomic) AVTStickerConfigurationProvider *stickerConfigurationProvider; // @synthesize stickerConfigurationProvider=_stickerConfigurationProvider;
-@property(retain, nonatomic) AVTUIStickerGeneratorPool *stickerGeneratorPool; // @synthesize stickerGeneratorPool=_stickerGeneratorPool;
-@property(nonatomic) __weak id <AVTStickerSelectionDelegate> stickerSelectionDelegate; // @synthesize stickerSelectionDelegate=_stickerSelectionDelegate;
-@property(nonatomic) __weak id <AVTStickerSheetControllerProvider> stickerSheetControllerProvider; // @synthesize stickerSheetControllerProvider=_stickerSheetControllerProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <AVTStickerTaskScheduler> taskScheduler; // @synthesize taskScheduler=_taskScheduler;
-@property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

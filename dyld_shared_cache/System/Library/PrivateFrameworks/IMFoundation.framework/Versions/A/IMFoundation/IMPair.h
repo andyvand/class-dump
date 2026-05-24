@@ -7,13 +7,12 @@
 @interface IMPair
 {
     id _first;
-    id _second;
 }
 
 + (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)%;
+- (unsigned long long)A;
 - (_Bool);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain) id first; // @synthesize first=_first;
-@property(retain) id second; // @synthesize second=_second;
 
 @end
 

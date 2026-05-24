@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _UITabSidebarBottomBarWrapperView : UIView
 {
     CDUnknownBlockType _intrinsicContentSizeInvalidationHandler;
-    _Bool _layoutWithinSafeArea;
-    UIView *_view;
 }
 
-- (void);
+- (void));
 - (_Bool);
 - (id);
 - (void);

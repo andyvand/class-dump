@@ -6,13 +6,11 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface SMSuggestionsStore : RTStore
 {
 }
 
-+ (id);
++ (id)daring;
 - (void);
 - (void);
 - (void);
@@ -21,18 +19,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?48;
+- (void)setCurrentItemNegativeCache:(CDUnknownBlockType)arg1;
 - (id)ossibleMapItem, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

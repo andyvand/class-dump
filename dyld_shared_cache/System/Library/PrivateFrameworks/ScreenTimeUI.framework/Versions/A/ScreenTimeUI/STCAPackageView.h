@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAStateController, NSMutableArray, NSString;
+@class CAStateController;
 
 @interface STCAPackageView
 {
     _Bool _geometryFlipped;
-    CAStateController *_stateController;
-    NSMutableArray *_completionHandlers;
 }
 
-+ (id);
++ (id)k;
 - (id);
 - (_Bool);
 - (void);
@@ -36,15 +34,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)axAttributedStringDescription;
 
 // Remaining properties
-@property(readonly) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property _Bool geometryFlipped; // @synthesize geometryFlipped=_geometryFlipped;
-@property(readonly, getter=isInitialState) _Bool initialState;
-@property(readonly) CALayer *packageRootLayer;
 @property(retain) CAStateController *stateController; // @synthesize stateController=_stateController;
-@property(readonly, copy) NSString *stateName;
 
 @end
 

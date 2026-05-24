@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (unsigned long long);
-- (_Bool)orItemsAtIndexPaths:(id)arg1;
+- (_Bool)setSizes:(id)arg1 forItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
 - (id)ationState,S_setViewAnimationState:(struct _NSZone *)arg1 ,V_viewAnimationState;
 - (void)«ïÒ´^;
 

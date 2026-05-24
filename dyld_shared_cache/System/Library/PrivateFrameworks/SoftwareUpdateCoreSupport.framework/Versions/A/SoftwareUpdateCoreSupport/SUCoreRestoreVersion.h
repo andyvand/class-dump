@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SUCoreRestoreVersion
 {
     NSString *_restoreVersionString;
-    NSArray *_parsedVersion;
-    long long _buildGroup;
-    long long _majorVersion;
-    long long _minorVersion;
-    long long _buildVersion;
-    long long _syncedVersion;
-    long long _suffixVersion;
 }
 
 + (_Bool);
@@ -29,7 +22,7 @@
 - (long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)Q@� ;
 - (id);
 - (_Bool);
 - (void);
@@ -41,19 +34,12 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)EMIMDFRStringCellView;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long buildGroup; // @synthesize buildGroup=_buildGroup;
-@property(readonly, nonatomic) long long buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, nonatomic) long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly, nonatomic) long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(retain, nonatomic) NSArray *parsedVersion; // @synthesize parsedVersion=_parsedVersion;
 @property(retain, nonatomic) NSString *restoreVersionString; // @synthesize restoreVersionString=_restoreVersionString;
-@property(readonly, nonatomic) long long suffixVersion; // @synthesize suffixVersion=_suffixVersion;
-@property(readonly, nonatomic) long long syncedVersion; // @synthesize syncedVersion=_syncedVersion;
 
 @end
 

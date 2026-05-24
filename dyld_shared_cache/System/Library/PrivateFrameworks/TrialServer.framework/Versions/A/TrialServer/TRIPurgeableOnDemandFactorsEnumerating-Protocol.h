@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol TRIPurgeableOnDemandFactorsEnumerating
+- (void)setQueryItems:(NSSet *)arg1;
+- (void)setProcessedVideoSampleBytes:(NSSet *)arg1;
 @end
 

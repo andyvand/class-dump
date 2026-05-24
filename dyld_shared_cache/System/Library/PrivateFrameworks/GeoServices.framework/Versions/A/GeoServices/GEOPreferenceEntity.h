@@ -9,20 +9,14 @@
 @interface GEOPreferenceEntity
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _chargingNetworkMuid;
-    unsigned long long _chargingStationMuid;
-    struct {
-        unsigned int has_chargingNetworkMuid:1;
-        unsigned int has_chargingStationMuid:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setIsFromRecommendationCard:(id)arg1;
+- (void)CNCDCardDAVLegacyCustomPropertyMigrator;
+- (void)ABCDCustomPropertyValue;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)e source;
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -31,24 +25,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)t/rollout notification;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)PDTransitScheduleFilter";
-- (id)Cm;
+- (id)_userOffsetCm;
 - (id)(DÄEØFH;
 - (id)v40@?0@"NSString"8@"NSString"16@"NSData"24@"NSError"32;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long chargingNetworkMuid;
-@property(nonatomic) unsigned long long chargingStationMuid;
 @property(nonatomic) _Bool hasChargingNetworkMuid;
-@property(nonatomic) _Bool hasChargingStationMuid;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

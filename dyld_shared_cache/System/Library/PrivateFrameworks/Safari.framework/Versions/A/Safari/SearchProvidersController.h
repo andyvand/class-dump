@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, SearchProvider;
-@protocol SearchProvidersControllerDelegate, WBSSearchProviderProtocol;
+@class SearchProvider;
+@protocol SearchProvidersControllerDelegate;
 
 @interface SearchProvidersController
 {
     SearchProvider *_defaultProvider;
-    SearchProvider *_privateProvider;
-    NSArray *_providers;
-    id <SearchProvidersControllerDelegate> _delegate;
 }
 
 + (struct URLRequest);
 + (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -47,35 +44,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (_Bool)erence:(unsigned long long)arg1 usingBlock: /* Error: Ran out of types for this method. */;
-- (id)tions;
+- (_Bool)getDomainsAllowedToRemoveForPreference:(unsigned long long)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (id)_addFavoriteButtonStyleOptions;
 - (long long)á;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *carrierTemplateParameterValues;
-@property(readonly, copy, nonatomic) NSString *countryCode;
-@property(readonly, copy, nonatomic) NSArray *currentSearchEngineNames;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <WBSSearchProviderProtocol> defaultSeachProviderForPrivateBrowsing;
-@property(readonly, copy, nonatomic) NSString *defaultSearchEngineName;
-@property(readonly, nonatomic) id <WBSSearchProviderProtocol> defaultSearchProvider;
 @property(nonatomic) __weak id <SearchProvidersControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long deviceType;
-@property(readonly, nonatomic) _Bool hasCustomProviderForPrivateBrowsing;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isChinaDevice;
-@property(readonly, copy, nonatomic) NSString *privateSearchEngineName;
-@property(readonly, nonatomic) NSArray *providerList;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *systemLanguage;
-@property(readonly, copy, nonatomic) NSDictionary *templateParameterValues;
 
 @end
 

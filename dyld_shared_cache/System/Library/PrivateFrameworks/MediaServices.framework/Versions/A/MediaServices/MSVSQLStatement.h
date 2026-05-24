@@ -4,54 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVSQLDatabaseTransaction, _MSVSQLConnection;
-
 @interface MSVSQLStatement
 {
     struct sqlite3_stmt *_statementHandle;
-    _MSVSQLConnection *_connection;
-    MSVSQLDatabaseTransaction *_implicitTransaction;
 }
 
+- (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)yPhotos;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`;
+- (void);
+- (void)2;
+- (void);
+- (_Bool)tableView:(id)arg1 dataCellForTableColumn:(long long)arg2 row:(id *)arg3;
+- (void)iewTouchBar;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)i;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)i;
 - (void);
+- (void);
+- (_Bool)"ABCardViewUndoableDataSource",&,N,V_undoableDataSource;
+- (void);
+- (void)phoneticGivenName;
+- (void);
+- (void);
+- (void);
+- (void)dylib;
 - (void);
 - (void);
 - (void);

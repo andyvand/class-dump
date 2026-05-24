@@ -9,8 +9,6 @@
 @interface DMFFetchRestrictionsResultObject
 {
     NSDictionary *_restrictions;
-    NSDictionary *_globalRestrictions;
-    NSDictionary *_profileRestrictions;
 }
 
 + (_Bool);
@@ -19,13 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)!;
+- (void)CNAutocompletePresentationManager;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *globalRestrictions; // @synthesize globalRestrictions=_globalRestrictions;
-@property(readonly, copy, nonatomic) NSDictionary *profileRestrictions; // @synthesize profileRestrictions=_profileRestrictions;
 @property(readonly, copy, nonatomic) NSDictionary *restrictions; // @synthesize restrictions=_restrictions;
 
 @end

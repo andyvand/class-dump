@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoRapidPayloadReply
 {
     NSString *_failureReason;
-    NSData *_replyPayload;
-    _Bool _success;
-    struct {
-        unsigned int success:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)ĭ;
+- (_Bool)Reminder List:saved uncommitted reminder {reminderID:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -32,19 +27,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *failureReason; // @synthesize failureReason=_failureReason;
-@property(readonly, nonatomic) _Bool hasFailureReason;
-@property(readonly, nonatomic) _Bool hasReplyPayload;
 @property(nonatomic) _Bool hasSuccess;
-@property(retain, nonatomic) NSData *replyPayload; // @synthesize replyPayload=_replyPayload;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

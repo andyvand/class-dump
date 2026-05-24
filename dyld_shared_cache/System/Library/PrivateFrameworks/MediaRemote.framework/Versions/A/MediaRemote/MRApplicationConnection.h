@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRApplicationConnectionContext, MRApplicationConnectionRequestInfo, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRApplicationConnection
 {
     _Bool _isIncomingConnection;
-    struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _incomingMessageHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_messageQueue;
-    long long _state;
-    NSMutableArray *_pendingReceivedMessages;
-    MRApplicationConnectionContext *_context;
-    MRApplicationConnectionRequestInfo *_requestInfo;
 }
 
 - (void);
@@ -27,7 +18,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (id);
@@ -35,9 +26,9 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (long long);
+- (void)M,;
+- (void)8@"IDSService"16B24@"NSError"28@"NSString"36;
+- (long long);
 - (id);
 - (void);
 - (_Bool);
@@ -51,23 +42,12 @@
 × ;
 - (void)
 × ;
-- (struct os_unfair_lock_s)ibility;
+- (struct os_unfair_lock_s)nowPlayingVisibility;
 - (void)SDate",R,N,V_startDate;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MRApplicationConnectionContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSString *identifier;
-@property(copy, nonatomic) CDUnknownBlockType incomingMessageHandler; // @synthesize incomingMessageHandler=_incomingMessageHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) _Bool isIncomingConnection; // @synthesize isIncomingConnection=_isIncomingConnection;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *messageQueue; // @synthesize messageQueue=_messageQueue;
-@property(retain, nonatomic) NSMutableArray *pendingReceivedMessages; // @synthesize pendingReceivedMessages=_pendingReceivedMessages;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) MRApplicationConnectionRequestInfo *requestInfo; // @synthesize requestInfo=_requestInfo;
-@property(readonly, nonatomic) NSString *serviceName;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

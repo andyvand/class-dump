@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _INPBCallRecordFilter
 {
     CDStruct_95bda58d _callTypes;
-    struct {
-        unsigned int callCapability:1;
-        unsigned int preferredCallProvider:1;
-    } _has;
-    int _callCapability;
-    int _preferredCallProvider;
-    NSArray *_participants;
 }
 
-+ (Class);
++ (Class)(	;
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (int);
-- (id);
+- (id)B;
 - (int *);
 - (id);
 - (void);
@@ -41,9 +32,9 @@
 - (int);
 - (int);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (id);
+- (id)opaque"I}"ourl_count"I};
 - (void);
 - (void);
 - (unsigned long long);
@@ -51,28 +42,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)tworkSharingNetworkID"16@"CWFRequestParameters"24@?<v@?@"NSError"q@"NSDate">32;
+- (void)t[%u], addresses(%{public}@), router(%{public}@);
 - (id);
 - (id);
-- (void)Detected;
+- (void)carbonMonoxideDetected;
 
 // Remaining properties
 @property(nonatomic) int callCapability; // @synthesize callCapability=_callCapability;
-@property(readonly, nonatomic) int *callTypes;
-@property(readonly, nonatomic) unsigned long long callTypesCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCallCapability;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(nonatomic) int preferredCallProvider; // @synthesize preferredCallProvider=_preferredCallProvider;
-@property(readonly) Class superclass;
 
 @end
 

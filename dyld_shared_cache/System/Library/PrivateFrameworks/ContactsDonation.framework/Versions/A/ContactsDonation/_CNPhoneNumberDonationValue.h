@@ -6,29 +6,27 @@
 
 #import <ContactsDonation/CNDonationValue.h>
 
-@class CNPhoneNumber, NSString;
+@class CNPhoneNumber;
 
 @interface _CNPhoneNumberDonationValue : CNDonationValue
 {
     CNPhoneNumber *_phoneNumber;
-    NSString *_label;
 }
 
 + (_Bool);
-- (id);
+- (id)C,N,V_serialNumberString;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)setRequestInterruptionBlock:(id)arg1;
+- (void)availableTagSchemesForUnit:language: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(readonly, copy, nonatomic) CNPhoneNumber *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end

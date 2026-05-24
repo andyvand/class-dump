@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface DOCOperationBuffer
 {
     _Bool _locked;
-    NSString *_label;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_targetQueue;
 }
 
 - (id);
@@ -20,9 +14,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)a;
+- (id)%@;
+- (void)View;
 - (void);
 - (id);
 - (void);
@@ -30,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) _Bool locked; // @synthesize locked=_locked;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
 
 @end
 

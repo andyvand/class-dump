@@ -6,26 +6,20 @@
 
 #import <LoginUIKit/LUIUserController.h>
 
-@class NSArray, NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface LUITestUserController : LUIUserController
 {
     _Bool _includeFindMyMacUser;
-    _Bool _includeGuestUser;
-    _Bool _includeOtherUser;
-    NSMutableDictionary *_attributesOfUsers;
-    unsigned long long _desiredNumberOfUsers;
-    NSArray *_userNames;
-    NSMutableSet *_usersSet;
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -42,22 +36,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *attributesOfUsers; // @synthesize attributesOfUsers=_attributesOfUsers;
-@property unsigned long long desiredNumberOfUsers; // @synthesize desiredNumberOfUsers=_desiredNumberOfUsers;
-@property _Bool includeFindMyMacUser; // @synthesize includeFindMyMacUser=_includeFindMyMacUser;
-@property _Bool includeGuestUser; // @synthesize includeGuestUser=_includeGuestUser;
-@property _Bool includeOtherUser; // @synthesize includeOtherUser=_includeOtherUser;
-@property(retain) NSArray *userNames; // @synthesize userNames=_userNames;
-@property(readonly) NSArray *users;
 @property(retain) NSMutableSet *usersSet; // @synthesize usersSet=_usersSet;
 
 @end

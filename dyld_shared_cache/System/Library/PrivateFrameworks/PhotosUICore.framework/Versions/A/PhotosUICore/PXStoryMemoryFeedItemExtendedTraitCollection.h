@@ -6,15 +6,9 @@
 
 #import <PhotosUICore/PXStoryExtendedTraitCollection.h>
 
-@class NSShadow;
-
 @interface PXStoryMemoryFeedItemExtendedTraitCollection : PXStoryExtendedTraitCollection
 {
     _Bool _isFullscreen;
-    double _viewportCornerRadius;
-    NSShadow *_viewportShadow;
-    long long _userInterfaceFeature;
-    double _bottomTitleContentOffset;
 }
 
 - (id);

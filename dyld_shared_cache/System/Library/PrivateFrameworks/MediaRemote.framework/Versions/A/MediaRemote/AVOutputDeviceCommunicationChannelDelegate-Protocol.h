@@ -5,5 +5,8 @@
 //
 
 @protocol AVOutputDeviceCommunicationChannelDelegate
+
+@optional
+- (void)#;
 @end
 

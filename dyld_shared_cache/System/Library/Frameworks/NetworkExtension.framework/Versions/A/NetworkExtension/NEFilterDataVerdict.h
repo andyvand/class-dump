@@ -9,8 +9,6 @@
 @interface NEFilterDataVerdict : NEFilterVerdict
 {
     long long _statisticsReportFrequency;
-    unsigned long long _passBytes;
-    unsigned long long _peekBytes;
 }
 
 + (id);
@@ -19,23 +17,21 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)setNwConnectionID: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (id)em;
+- (id)IdentityDataPasswordKeychainItem;
 
 // Remaining properties
 @property unsigned long long passBytes; // @synthesize passBytes=_passBytes;
-@property unsigned long long peekBytes; // @synthesize peekBytes=_peekBytes;
-@property long long statisticsReportFrequency; // @synthesize statisticsReportFrequency=_statisticsReportFrequency;
 
 @end
 

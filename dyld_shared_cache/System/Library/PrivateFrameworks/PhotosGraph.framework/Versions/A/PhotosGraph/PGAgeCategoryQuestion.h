@@ -6,14 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGAgeCategoryQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
@@ -23,8 +18,8 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id);
-- (void)g;
+- (id)_regionIsHome: /* Error: Ran out of types for this method. */;
+- (void)PersonActivityMeaning;
 
 @end
 

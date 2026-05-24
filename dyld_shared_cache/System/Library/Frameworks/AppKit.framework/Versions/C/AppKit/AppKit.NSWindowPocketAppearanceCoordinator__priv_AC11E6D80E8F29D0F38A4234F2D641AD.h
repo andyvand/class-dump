@@ -7,9 +7,6 @@
 @interface AppKit.NSWindowPocketAppearanceCoordinator__priv_AC11E6D80E8F29D0F38A4234F2D641AD
 {
     id window;
-    id pockets;
-    id affectedViews;
-    id _displayCycleObserver;
 }
 
 - (id);

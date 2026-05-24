@@ -9,22 +9,22 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)hB;
 + (_Bool);
 + (id);
 + (void);
-+ (id);
++ (id);
 + (void);
 + (_Bool);
-+ (void);
++ (void)][%s][%@]%@ %@ %lu;
 + (int);
 + (void *);
-+ (_Bool);
++ (_Bool)`;
 + (_Bool);
 + (void);
 + (int);
-+ (void);
-+ (void);
++ (void)btain the bootstrap token;
++ (void)initWithTypes:error: /* Error: Ran out of types for this method. */;
 + (void);
 
 @end

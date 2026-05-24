@@ -4,69 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, SPBeaconManagerSimpleBeaconUpdateInterface, SPLocalBeaconManager;
-@protocol OS_dispatch_queue, SPBeaconManagerXPCProtocol;
+@class FMXPCServiceDescription;
 
 @interface SPBeaconManager
 {
     CDUnknownBlockType _nearbyTokensChangedBlockWithCompletion;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    FMXPCServiceDescription *_userAgentServiceDescription;
-    FMXPCSession *_userAgentSession;
-    id <SPBeaconManagerXPCProtocol> _proxy;
-    id <SPBeaconManagerXPCProtocol> _userAgentProxy;
-    NSObject<OS_dispatch_queue> *_queue;
-    SPBeaconManagerSimpleBeaconUpdateInterface *_simpleBeaconUpdateInterface;
-    SPLocalBeaconManager *_localBeaconingManager;
 }
 
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (id);
+- (void);
+- (id);
+- (void)H;
+- (CDUnknownBlockType)A;
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -74,6 +43,27 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -82,10 +72,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)npicker;
 - (id);
 - (void);
-- (void);
+- (void)eDuetAttemptInfo> Number of Attempts %@ | Duration of Sync %.04f Minutes <EndCoreDuetAttemptInfo>;
 - (void);
 - (void);
 - (void);
@@ -97,19 +87,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType beaconingKeyChangedBlockWithCompletion;
-@property(retain, nonatomic) SPLocalBeaconManager *localBeaconingManager; // @synthesize localBeaconingManager=_localBeaconingManager;
-@property(copy, nonatomic) CDUnknownBlockType nearbyTokensChangedBlockWithCompletion; // @synthesize nearbyTokensChangedBlockWithCompletion=_nearbyTokensChangedBlockWithCompletion;
-@property(retain, nonatomic) id <SPBeaconManagerXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) SPBeaconManagerSimpleBeaconUpdateInterface *simpleBeaconUpdateInterface; // @synthesize simpleBeaconUpdateInterface=_simpleBeaconUpdateInterface;
-@property(copy, nonatomic) CDUnknownBlockType stateChangedBlockWithCompletion;
-@property(copy, nonatomic) CDUnknownBlockType statusChangedBlockWithCompletion;
-@property(retain, nonatomic) id <SPBeaconManagerXPCProtocol> userAgentProxy; // @synthesize userAgentProxy=_userAgentProxy;
-@property(retain, nonatomic) FMXPCServiceDescription *userAgentServiceDescription; // @synthesize userAgentServiceDescription=_userAgentServiceDescription;
-@property(retain, nonatomic) FMXPCSession *userAgentSession; // @synthesize userAgentSession=_userAgentSession;
 
 @end
 

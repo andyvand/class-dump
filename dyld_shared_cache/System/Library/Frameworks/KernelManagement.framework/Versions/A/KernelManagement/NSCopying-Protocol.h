@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)aida_tokenWithExpirationCheck;
 @end
 

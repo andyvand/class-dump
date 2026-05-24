@@ -5,5 +5,8 @@
 //
 
 @protocol MRExternalDeviceTransportConnectionObserver
+
+@optional
+- (void);
 @end
 

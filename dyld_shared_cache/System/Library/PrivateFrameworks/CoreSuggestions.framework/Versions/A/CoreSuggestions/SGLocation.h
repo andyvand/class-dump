@@ -6,53 +6,15 @@
 
 #import <CoreSuggestions/SGObject.h>
 
-@class NSData, NSString;
-
 @interface SGLocation : SGObject
 {
     unsigned long long _locationType;
-    NSString *_label;
-    NSString *_address;
-    double _latitude;
-    double _longitude;
-    double _accuracy;
-    double _quality;
-    NSString *_airportCode;
-    NSData *_handle;
-    NSString *_country;
-    NSString *_state;
-    NSString *_city;
-    NSString *_thoroughfare;
-    NSString *_subThoroughfare;
-    NSString *_postalCode;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double accuracy; // @synthesize accuracy=_accuracy;
-@property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) NSString *airportCode; // @synthesize airportCode=_airportCode;
-@property(readonly, nonatomic) NSString *city; // @synthesize city=_city;
-@property(readonly, nonatomic) NSString *country; // @synthesize country=_country;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isGeocoded) _Bool geocoded;
-@property(readonly, nonatomic) NSData *handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
 @property(readonly, nonatomic) unsigned long long locationType; // @synthesize locationType=_locationType;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(readonly, nonatomic) double quality; // @synthesize quality=_quality;
-@property(readonly, nonatomic) NSString *state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *subThoroughfare; // @synthesize subThoroughfare=_subThoroughfare;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *thoroughfare; // @synthesize thoroughfare=_thoroughfare;
 
 @end
 

@@ -11,22 +11,15 @@
 @interface AVAnnotationTextRepresentation : AVAnnotationRepresentation
 {
     NSString *_text;
-    NSString *_font;
-    struct CGColor *_backgroundColor;
-    struct CGColor *_foregroundColor;
-    NSString *_link;
-    _Bool _hasShadow;
-    _Bool _hasUnderline;
-    long long _writingMode;
 }
 
 - (long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)4di;
 - (void);
 - (void);
 - (id);
@@ -36,23 +29,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)initWithBytesNoCopy:length:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGColor *);
-- (_Bool);
+- (_Bool)addUpdateCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Û·;
 - (struct CGColor *)æÿ;
 
 // Remaining properties
-@property(nonatomic) struct CGColor *backgroundColor;
-@property(copy, nonatomic) NSString *font; // @synthesize font=_font;
-@property(nonatomic) struct CGColor *foregroundColor;
-@property(nonatomic) _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(nonatomic) _Bool hasUnderline; // @synthesize hasUnderline=_hasUnderline;
-@property(copy, nonatomic) NSString *link; // @synthesize link=_link;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long writingMode; // @synthesize writingMode=_writingMode;
 
 @end
 

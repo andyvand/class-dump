@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ISCompositorRecipe, ISCompositorResourceProvider;
+@protocol ISCompositorRecipe;
 
 @protocol ISCompositorElement
 
 // Remaining properties
 @property(readonly) id <ISCompositorRecipe> recipe;
-@property(readonly) id <ISCompositorResourceProvider> resourceProvider;
 @end
 

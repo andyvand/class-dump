@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface XQueryString
 {
     long long _type;
-    NSString *_string;
 }
 
 + (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)J;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -35,20 +32,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)u;
 - (unsigned long long);
 - (void);
 - (unsigned short);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

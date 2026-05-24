@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)col>"16@0:(id)arg1 8;
-- (id)ClickInteractionDriver;
+- (id)_UILongPressClickInteractionDriver;
 - (void)I¯þø;
 
 @end

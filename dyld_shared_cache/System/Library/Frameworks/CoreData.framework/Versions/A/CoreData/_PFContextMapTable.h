@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PFModelMap;
-
 __attribute__((visibility("hidden")))
 @interface _PFContextMapTable
 {
     unsigned long long _slotLimit;
-    struct __CFDictionary *_objectsByTemporaryID;
-    struct __CFDictionary **_objectsByPermanentObjectID;
-    struct __CFDictionary **_objectsBy64bitPKID;
-    unsigned long long *_capacitiesFor64bitPKMappings;
-    struct _contextMapTableFlags {
-        unsigned int _usesWeakReferences:1;
-        unsigned int _garbageCollectionEnabled:1;
-        unsigned int _reservedFlags:30;
-    } _flags;
-    _PFModelMap *_modelMap;
 }
 
 - (void);

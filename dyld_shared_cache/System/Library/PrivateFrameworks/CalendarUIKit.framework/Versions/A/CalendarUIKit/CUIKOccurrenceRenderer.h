@@ -8,15 +8,15 @@
 {
 }
 
-+ (CDUnknownBlockType)àªîÂõª¿CÑý{E©ôOD©÷[C©ùcB©ûkA©üFøÿ_Ö ;
-+ (id)ªõªõ;
-+ (id)ªÝÿÿ¨Sø@ù¶	;
-+ (id)õªN;
-+ (id)ã;
-+ (id)u<ÿªYøJ;
-+ (void)ªìò1	?×;
-+ (void);
++ (CDUnknownBlockType);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (void)timeToWaitForClientToPullChanges;
++ (id)timeIntervalSinceNow;
 
 @end
 

@@ -6,57 +6,35 @@
 
 #import <UIKitCore/UIPressesEvent.h>
 
-@class NSString, UINSEvent, _UIPhysicalKeyTranslationMap;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIPhysicalKeyboardEvent : UIPressesEvent
 {
     _Bool _canPrivatize;
-    _UIPhysicalKeyTranslationMap *_originalEscapeKeyTranslationMap;
-    _UIPhysicalKeyTranslationMap *_keyTranslationMap;
-    UINSEvent *_uinsEvent;
-    _Bool _needToPrepareKeyTranslationMap;
-    _Bool __isFromEmojiPopover;
-    _Bool _keyCommandHandlingBeforePublic;
-    _Bool _keyEventForwardedFromInputUIHost;
-    _Bool _shiftDown;
-    _Bool __externalEvent;
-    int _inputFlags;
-    unsigned int _keyCommandCode;
-    NSString *_modifiedInput;
-    NSString *_unmodifiedInput;
-    NSString *_shiftModifiedInput;
-    NSString *_commandModifiedInput;
-    NSString *_markedInput;
-    long long _modifierFlags;
-    NSString *_privateInput;
-    long long _privateModifierFlags;
-    NSString *_hint;
-    long long __keyCode;
-    long long _source;
 }
 
-+ (id);
++ (id)$;
 + (_Bool)detent %@ is not encodable. Custom detents are not supported for remote view controllers yet. rdar://65243005 (Custom sheet detents for remote view controllers) /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (long long);
-- (long long);
-- (_Bool);
+- (long long)T;
+- (_Bool)"NSString",C,N,V_statusITunesStoreAccountHash;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)hunk non-zero.;
 - (_Bool);
-- (_Bool);
+- (_Bool)E;
 - (long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)__MPModelPropertyTVEpisodeKeepLocalEnableState__MAPPING_MISSING__;
+- (_Bool)pping for MPModelPropertyCreditsArtistArtwork;
 - (id);
 - (_Bool);
 - (int);
@@ -82,22 +60,22 @@ __attribute__((visibility("hidden")))
 × ;
 - (long long)iewLayoutObserver>";
 - (id)4@0:8@"<UITextDragFinishState>"16 /* Error: Ran out of types for this method. */;
-- (void)oolbarCustomizationSnapshot;
-- (void)ver:(_Bool)arg1;
-- (void)sure:(_Bool)arg1;
-- (_Bool)iaTypes;
+- (void)toolbarCustomizationSnapshot;
+- (void)setModalInPopover:(_Bool)arg1;
+- (void)setMaximumLinearExposure:(_Bool)arg1;
+- (_Bool)mediaTypes;
 - (void);
 - (void);
-- (_Bool)Mode;
+- (_Bool)currentLinguisticInputMode;
 - (void);
-- (void)wWidthConstraint;
-- (_Bool)leColorForState: /* Error: Ran out of types for this method. */;
+- (void)_inputViewWidthConstraint;
+- (_Bool)_fallbackBadgeTitleColorForState: /* Error: Ran out of types for this method. */;
 - (void)setDidSetPreferredFocusedEnvironments:(_Bool)arg1;
 - (void)tingsDiffInspector",&,N,V_carPlayDiffInspector;
 - (unsigned int)nary",&,N,V_delegateForCandidateRequest;
 - (long long)t",&,N,V_leadingBarConstraint;
-- (long long)IGraphicsImageRendererFormat;
-- (void);
+- (long long)UIGraphicsImageRendererFormat;
+- (void)UIRemoteInputViewInfoAdditions;
 - (long long);
 - (_Bool)f%@, %.2f%@) padding(%.2f%@, %.2f%@, %.2f%@, %.2f%@);
 - (long long)tance1;
@@ -109,32 +87,7 @@ __attribute__((visibility("hidden")))
 - (id)èK&ÿ*;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *_commandModifiedInput; // @synthesize _commandModifiedInput;
-@property(nonatomic, getter=_isExternalEvent) _Bool _externalEvent; // @synthesize _externalEvent=__externalEvent;
-@property(readonly, nonatomic) long long _gsModifierFlags;
-@property(retain, nonatomic) NSString *_hint; // @synthesize _hint;
-@property(nonatomic) int _inputFlags; // @synthesize _inputFlags;
-@property(readonly, nonatomic) _Bool _isARepeat;
-@property(readonly, nonatomic) _Bool _isDeleteKey;
-@property(readonly, nonatomic) _Bool _isEjectKey;
-@property(nonatomic) _Bool _isFromEmojiPopover; // @synthesize _isFromEmojiPopover=__isFromEmojiPopover;
-@property(readonly, nonatomic) _Bool _isGlobeKey;
-@property(readonly, nonatomic) _Bool _isKeyDown;
-@property(readonly, nonatomic) _Bool _isModifierKey;
-@property(nonatomic) long long _keyCode; // @synthesize _keyCode=__keyCode;
-@property(retain, nonatomic) NSString *_markedInput; // @synthesize _markedInput;
 @property(retain, nonatomic) NSString *_modifiedInput; // @synthesize _modifiedInput;
-@property(nonatomic, setter=_setModifierFlags:) long long _modifierFlags; // @synthesize _modifierFlags;
-@property(retain, nonatomic) NSString *_privateInput; // @synthesize _privateInput;
-@property(nonatomic) long long _privateModifierFlags; // @synthesize _privateModifierFlags;
-@property(retain, nonatomic) NSString *_shiftModifiedInput; // @synthesize _shiftModifiedInput;
-@property(retain, nonatomic, setter=_setUINSEvent:) UINSEvent *_uinsEvent;
-@property(retain, nonatomic) NSString *_unmodifiedInput; // @synthesize _unmodifiedInput;
-@property(nonatomic) unsigned int keyCommandCode; // @synthesize keyCommandCode=_keyCommandCode;
-@property(nonatomic) _Bool keyCommandHandlingBeforePublic; // @synthesize keyCommandHandlingBeforePublic=_keyCommandHandlingBeforePublic;
-@property(nonatomic) _Bool keyEventForwardedFromInputUIHost; // @synthesize keyEventForwardedFromInputUIHost=_keyEventForwardedFromInputUIHost;
-@property(nonatomic) _Bool shiftDown; // @synthesize shiftDown=_shiftDown;
-@property(nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)dateSFDeviceIdentifier: /* Error: Ran out of types for this method. */;
++ (Class)_updateSFDeviceIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)n.handler;
 

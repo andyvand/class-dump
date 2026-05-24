@@ -7,9 +7,6 @@
 @interface NewsUI2.RecipeFilterTagCapsuleViewModel
 {
     id tagID;
-    id title;
-    id _selectionState;
-    id _$observationRegistrar;
 }
 
 @end

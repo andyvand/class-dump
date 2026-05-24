@@ -9,36 +9,33 @@
 @interface CKCDPCodeServiceRequestAssetAuthorizeGetRequestOptions
 {
     unsigned long long _contentRequestAuthorizeGetOptions;
-    NSMutableArray *_contentRequestHeaders;
-    CDStruct_3f29eb26 _has;
 }
 
 + (Class);
-- (_Bool);
+- (_Bool)UsoTaskBuilder_update_common_Communication;
 - (void);
 - (id);
 - (void);
+- (void)A000000291D1240400;
 - (void);
+- (unsigned long long)ssion %@ set event handler
+;
+- (_Bool);
+- (_Bool)unsubscribeMailtoWithCommand:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)I;
+- (id)keystore;
 - (void);
 - (void)16;
 
 // Remaining properties
-@property(nonatomic) unsigned long long contentRequestAuthorizeGetOptions; // @synthesize contentRequestAuthorizeGetOptions=_contentRequestAuthorizeGetOptions;
 @property(retain, nonatomic) NSMutableArray *contentRequestHeaders; // @synthesize contentRequestHeaders=_contentRequestHeaders;
-@property(nonatomic) _Bool hasContentRequestAuthorizeGetOptions;
 
 @end
 

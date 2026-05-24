@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSString;
+@class AMSBagValue, AMSProcessInfo, NSDate, NSString;
 
 @protocol AMSBagProtocol
+- (AMSBagValue *)_k!;;
+- (AMSBagValue *)@;
+- (NSString *)S+S_ka;
+- (NSDate *);
+- (_Bool);
 
 @optional
 - (AMSProcessInfo *)"itemType":"commLimitsItem",
@@ -88,13 +93,6 @@
 } /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSDate *expirationDate;
 @property(readonly, getter=isExpired) _Bool expired;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
 @end
 

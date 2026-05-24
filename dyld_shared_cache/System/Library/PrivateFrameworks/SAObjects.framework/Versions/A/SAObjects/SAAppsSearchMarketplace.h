@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keyword;
-@property(copy, nonatomic) NSString *marketplace;
 
 @end
 

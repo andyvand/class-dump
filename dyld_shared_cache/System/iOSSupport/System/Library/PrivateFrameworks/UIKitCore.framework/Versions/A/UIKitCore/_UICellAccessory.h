@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UICellAccessory
 {
     UIView *_view;
-    _Bool _alwaysNeedsLayout;
-    NSString *_identifier;
-    double _reservedLayoutWidth;
 }
 
 + (id)>";
-- (struct CGSize);
+- (struct CGSize)IContainerView"16@"NSView"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (id)trics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16r^{mmcs_http_context_options=^{__CFString}^{__CFHTTPMessage}^{_mmcs_http_request_options}ddQQ^?^?^?^?^?^?^?^v^?^vCd^{os_activity_s}}24^{os_activity_s=}32;
 - (id);
-- (id);
-- (_Bool)nWithPoint:(id)arg1;
-- (void)hBaseRequest:(double)arg1 environmentScrollableContainer: /* Error: Ran out of types for this method. */;
-- (void)troller:(id)arg1;
+- (_Bool)setSelectionWithPoint:(id)arg1;
+- (void)initWithBaseRequest:(double)arg1 environmentScrollableContainer: /* Error: Ran out of types for this method. */;
+- (void)_setPresentedStatusBarViewController:(id)arg1;
 - (id)s;
 - (id);
 - (double)for invalid UIWindowSceneGeometryPreferences object;
@@ -30,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysNeedsLayout; // @synthesize alwaysNeedsLayout=_alwaysNeedsLayout;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double reservedLayoutWidth; // @synthesize reservedLayoutWidth=_reservedLayoutWidth;
-@property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

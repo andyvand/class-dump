@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPXDomainContext, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FPXServiceEndpointFactory
 {
     NSDictionary *_serviceSources;
-    FPXDomainContext *_domainContext;
 }
 
 - (id);

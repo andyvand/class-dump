@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _SGTLegacySpotlightItemDictionary
 {
     struct __MDQuery *query;
-    long long index;
-    NSDictionary *collectedAttributes;
 }
 
 - (id);
@@ -19,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void)encodedModelFromAnnotationsController:encrypt: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

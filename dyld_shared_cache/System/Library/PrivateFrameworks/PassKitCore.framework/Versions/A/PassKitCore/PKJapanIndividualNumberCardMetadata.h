@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKIdentityDocumentMetadata.h>
 
-@class NSString, PKAddPassMetadataPreview;
+@class NSString;
 
 @interface PKJapanIndividualNumberCardMetadata : PKIdentityDocumentMetadata
 {
     NSString *_authenticationPassword;
-    NSString *_signingPassword;
-    PKAddPassMetadataPreview *_preview;
 }
 
 + (_Bool);
@@ -24,25 +22,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)u
+;
 - (id);
 - (id);
-- (void);
+- (void)localtimedelta;
 - (id);
 - (id);
-- (void)ken;
+- (void)multi_token;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *authenticationPassword; // @synthesize authenticationPassword=_authenticationPassword;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKAddPassMetadataPreview *preview; // @synthesize preview=_preview;
-@property(copy, nonatomic) NSString *signingPassword; // @synthesize signingPassword=_signingPassword;
-@property(readonly) Class superclass;
 
 @end
 

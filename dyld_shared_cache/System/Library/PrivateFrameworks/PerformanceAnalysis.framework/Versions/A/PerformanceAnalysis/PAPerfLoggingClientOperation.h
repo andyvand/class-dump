@@ -6,16 +6,10 @@
 
 #import <PerformanceAnalysis/PAPerfLoggingCoreOperation.h>
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface PAPerfLoggingClientOperation : PAPerfLoggingCoreOperation
 {
     _Bool _shouldLogResultsToSystemLog;
-    _Bool _shouldMonitorWSUpdates;
-    _Bool _ended;
-    NSObject<OS_dispatch_source> *timeoutTimerSource;
 }
 
 + (id);

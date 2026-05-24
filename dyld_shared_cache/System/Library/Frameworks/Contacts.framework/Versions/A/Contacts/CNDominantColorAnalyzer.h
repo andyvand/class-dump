@@ -7,9 +7,6 @@
 @interface CNDominantColorAnalyzer
 {
     id scaledSize;
-    id bytesPerPixel;
-    id scaledData;
-    id destBuffer;
 }
 
 - (id);

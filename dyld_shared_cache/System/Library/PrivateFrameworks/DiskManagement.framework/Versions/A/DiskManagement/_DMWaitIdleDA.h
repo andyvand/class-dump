@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface _DMWaitIdleDA
 {
     double _givenTimeout;
-    struct __DASession *_givenDASession;
-    _Bool _currentDAIdle;
 }
 
 + (void);
-- (void);
+- (void)NSData",R,C,D;
 - (id);
 
 @end

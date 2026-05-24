@@ -7,12 +7,6 @@
 @interface NewsAds.DebugBannerAdView
 {
     id contentIdentifier;
-    id contentInfo;
-    id state;
-    id onLongPress;
-    id additionalEdgeInsets;
-    id moreButton;
-    id label;
 }
 
 - (id);

@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRApplicationConnectionContext, MRApplicationConnectionRequestInfo;
+@class MRApplicationConnectionRequestInfo;
 
 @interface MRCreateApplicationConnectionMessage : MRProtocolMessage
 {
@@ -14,11 +14,10 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ServerDecodeError;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MRApplicationConnectionContext *context;
 @property(readonly, nonatomic) MRApplicationConnectionRequestInfo *requestInfo;
 
 @end

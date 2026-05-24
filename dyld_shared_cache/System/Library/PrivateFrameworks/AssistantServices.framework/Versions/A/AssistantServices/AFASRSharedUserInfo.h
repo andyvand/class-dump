@@ -9,15 +9,12 @@
 @interface AFASRSharedUserInfo
 {
     NSString *_sharedUserId;
-    NSString *_loggableSharedUserId;
-    NSString *_loggableUserIdHash;
-    NSString *_personaId;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (id);
 - (id);
@@ -28,15 +25,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)sharedWiFiClient;
+- (void)P;
 - (id);
-- (void)ckItem;
+- (void)ClockItem;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(readonly, copy, nonatomic) NSString *loggableUserIdHash; // @synthesize loggableUserIdHash=_loggableUserIdHash;
-@property(readonly, copy, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
 @property(readonly, copy, nonatomic) NSString *sharedUserId; // @synthesize sharedUserId=_sharedUserId;
 
 @end

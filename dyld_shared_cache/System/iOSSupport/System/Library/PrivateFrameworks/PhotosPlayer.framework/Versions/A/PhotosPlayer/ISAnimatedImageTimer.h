@@ -6,21 +6,19 @@
 
 #import <PhotosPlayer/ISObservable.h>
 
-@class CADisplayLink, _ISAnimatedImageTimerForwardingProxy;
+@class CADisplayLink;
 
 @interface ISAnimatedImageTimer : ISObservable
 {
     CADisplayLink *_displayLink;
-    _ISAnimatedImageTimerForwardingProxy *_displayLinkProxy;
-    double _timestamp;
 }
 
 + (id);
-- (id);
+- (id)Point=dd}{CGSize=dd}},N,V_currentOriginFrame;
+- (void)ion;
+- (void)cancelled;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)fullscreenGestureView;
 - (void);
 - (void);
 - (id);

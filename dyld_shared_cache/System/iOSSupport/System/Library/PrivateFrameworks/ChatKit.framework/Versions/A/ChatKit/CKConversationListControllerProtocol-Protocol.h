@@ -4,20 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol CKConversationListControllerDelegate;
+@class CKConversationList, NSSet, NSString;
 
 @protocol CKConversationListControllerProtocol
-- (_Bool);
+- (void)ration"32@0:8@"WKWebView"16@"_WKInspector"24 /* Error: Ran out of types for this method. */;
+- (void)setMediaData:(NSSet *)arg1;
+- (void)setDataFileURLError:(NSString *)arg1;
+- (void)readWriteSharedSubObjectsInSource;
+- (void)persistToggleChecklistItemActivityEventForObject:(long long)arg1 todo: /* Error: Ran out of types for this method. */;
+- (void)persistAttachmentData:error: /* Error: Ran out of types for this method. */;
+- (void)performSetup;
+- (void)performSelector:(_Bool)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)observableProperties;
+- (void)objectsNeedingUpdatedRanges;
+- (void)mediaDidLoadNotification:(NSSet *)arg1;
+- (void)isKeyboardMathSolvingAllowedObservation;
+- (void)invalidateLayoutForCharacterRange:actualCharacterRange: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredFontForHeadingTextWithContentSizeCategory:isForPrint: /* Error: Ran out of types for this method. */;
+- (void)groupTouchBarItem;
+- (void)glyphRangeForCharacterRange:actualCharacterRange: /* Error: Ran out of types for this method. */;
+- (_Bool)_passwordTextField;
+- (NSSet *)tring",C,N,V_actionTitle;
+- (void)ICDrawingTextAttachment;
+- (NSString *);
+- (void)`;
+- (CKConversationList *);
+- (void);
+- (void)So29ICCalculateScrubberControllerC;
+- (void)7Gۚ7G;
+- (void)pted data for:%@ /* Error: Ran out of types for this method. */;
 - (void).;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *activeFilterModes;
 @property(retain, nonatomic) NSString *deferredSearchQuery;
-@property(nonatomic) __weak id <CKConversationListControllerDelegate> delegate;
-@property(retain, nonatomic) NSSet *guidsOfPreservedConversations;
-@property(readonly, nonatomic) _Bool isSearchActive;
-@property(readonly, nonatomic) _Bool isSearchActiveAndDisplayingResultsForSearchText;
-@property(readonly, nonatomic) _Bool isVisible;
 @end
 

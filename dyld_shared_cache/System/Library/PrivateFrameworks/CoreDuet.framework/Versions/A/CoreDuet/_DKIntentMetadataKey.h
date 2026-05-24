@@ -8,10 +8,10 @@
 {
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@;
 + (id);
 + (id);
 + (id);
@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (id)24^@32;
-+ (id)enDate: /* Error: Ran out of types for this method. */;
++ (id)setLastSeenDate: /* Error: Ran out of types for this method. */;
 
 @end
 

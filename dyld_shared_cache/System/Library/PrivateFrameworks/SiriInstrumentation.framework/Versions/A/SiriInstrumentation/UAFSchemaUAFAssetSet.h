@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface UAFSchemaUAFAssetSet : SISchemaInstrumentationMessage
 {
     NSString *_assetSetName;
-    NSArray *_assets;
-    NSString *_assetType;
-    NSString *_assetSetId;
-    NSString *_audienceId;
-    NSArray *_mobileAssetDownloadErrorCodeFrequencys;
-    _Bool _fromPreSoftwareUpdateStaging;
-    _Bool _expensiveCellularDownloadRequested;
-    _Bool _isfromFactory;
-    struct {
-        unsigned int fromPreSoftwareUpdateStaging:1;
-        unsigned int expensiveCellularDownloadRequested:1;
-        unsigned int isfromFactory:1;
-    } _has;
-    _Bool _hasAssetSetName;
-    _Bool _hasAssetType;
-    _Bool _hasAssetSetId;
-    _Bool _hasAudienceId;
 }
 
 - (void);
@@ -45,70 +28,54 @@
 - (void);
 - (void);
 - (id);
+- (unsigned long long)A;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_allSections;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)= 0 WHERE   rowid in (     select m.rowid from message m       INNER JOIN chat_message_join       cm ON m.ROWID = cm.message_id     WHERE       cm.chat_id = ?       AND m.item_type == 0       AND m.is_from_me == ?   );
+- (void)`;
 - (id);
 - (id);
 - (id);
-- (id)artedInSeconds;
-- (id)abel;
-- (id)riptionStatus;
+- (id)deleteTimeSinceMaintenanceStartedInSeconds;
+- (id)deleteScoreLabel;
+- (id)_mediaUserContextSubscriptionStatus;
 - (void)PEGASUSMAPSQUERYLABEL_LOCATION_BELOW_STREET;
-- (id)INFERENCE;
+- (id)CDMSERVICENAME_CCQR_AER_CBR_INFERENCE;
 - (unsigned long long)soEntitySpans.properties.valueInt;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetSetId; // @synthesize assetSetId=_assetSetId;
 @property(copy, nonatomic) NSString *assetSetName; // @synthesize assetSetName=_assetSetName;
-@property(copy, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(copy, nonatomic) NSString *audienceId; // @synthesize audienceId=_audienceId;
-@property(nonatomic) _Bool expensiveCellularDownloadRequested; // @synthesize expensiveCellularDownloadRequested=_expensiveCellularDownloadRequested;
-@property(nonatomic) _Bool fromPreSoftwareUpdateStaging; // @synthesize fromPreSoftwareUpdateStaging=_fromPreSoftwareUpdateStaging;
-@property(nonatomic) _Bool hasAssetSetId; // @synthesize hasAssetSetId=_hasAssetSetId;
-@property(nonatomic) _Bool hasAssetSetName; // @synthesize hasAssetSetName=_hasAssetSetName;
-@property(nonatomic) _Bool hasAssetType; // @synthesize hasAssetType=_hasAssetType;
-@property(nonatomic) _Bool hasAudienceId; // @synthesize hasAudienceId=_hasAudienceId;
-@property(nonatomic) _Bool hasExpensiveCellularDownloadRequested;
-@property(nonatomic) _Bool hasFromPreSoftwareUpdateStaging;
-@property(nonatomic) _Bool hasIsfromFactory;
-@property(nonatomic) _Bool isfromFactory; // @synthesize isfromFactory=_isfromFactory;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *mobileAssetDownloadErrorCodeFrequencys; // @synthesize mobileAssetDownloadErrorCodeFrequencys=_mobileAssetDownloadErrorCodeFrequencys;
 
 @end
 

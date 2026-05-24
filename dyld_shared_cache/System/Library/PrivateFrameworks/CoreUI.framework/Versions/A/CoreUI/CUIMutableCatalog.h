@@ -9,12 +9,11 @@
 @interface CUIMutableCatalog : CUICatalog
 {
     unsigned int _checkRespondsTo:1;
-    unsigned int _respondsToCheck:1;
 }
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id));
 - (id);
 - (id);
 - (void);

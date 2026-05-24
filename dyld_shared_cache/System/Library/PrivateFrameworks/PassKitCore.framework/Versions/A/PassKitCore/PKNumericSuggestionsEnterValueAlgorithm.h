@@ -6,25 +6,11 @@
 
 #import <PassKitCore/PKNumericSuggestionsAlgorithm.h>
 
-@class NSArray, NSDecimalNumber, NSDecimalNumberHandler, NSString, PKNumericSuggestionLastInput;
+@class NSDecimalNumber, NSDecimalNumberHandler;
 
 @interface PKNumericSuggestionsEnterValueAlgorithm : PKNumericSuggestionsAlgorithm
 {
     NSDecimalNumberHandler *_roundingBehavior;
-    NSArray *_valuesToDefaults;
-    NSArray *_defaultSuggestions;
-    unsigned long long _powerOfTenFactor;
-    PKNumericSuggestionLastInput *_lastInput;
-    _Bool _useBuiltInDefaults;
-    _Bool _hasValidDefaultSuggestions;
-    NSDecimalNumber *_cardBalance;
-    NSDecimalNumber *_minBalance;
-    NSDecimalNumber *_maxBalance;
-    NSDecimalNumber *_minLoadAmount;
-    NSDecimalNumber *_maxLoadAmount;
-    NSArray *_defaultValues;
-    long long _decimalPrecision;
-    NSString *_currencyCode;
 }
 
 - (id);
@@ -38,41 +24,32 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (void)y;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)odes;
-- (void)derPaymentRequest;
+- (id)supportedMerchantCountryCodes;
+- (void)serviceProviderPaymentRequest;
 - (id)¦­ÿÿ;
 - (void)string. Found object of class %@.;
 
 // Remaining properties
 @property(copy, nonatomic) NSDecimalNumber *cardBalance; // @synthesize cardBalance=_cardBalance;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) long long decimalPrecision; // @synthesize decimalPrecision=_decimalPrecision;
-@property(copy, nonatomic) NSArray *defaultValues; // @synthesize defaultValues=_defaultValues;
-@property(readonly, nonatomic) _Bool hasValidDefaultSuggestions; // @synthesize hasValidDefaultSuggestions=_hasValidDefaultSuggestions;
-@property(copy, nonatomic) NSDecimalNumber *maxBalance; // @synthesize maxBalance=_maxBalance;
-@property(copy, nonatomic) NSDecimalNumber *maxLoadAmount; // @synthesize maxLoadAmount=_maxLoadAmount;
-@property(copy, nonatomic) NSDecimalNumber *minBalance; // @synthesize minBalance=_minBalance;
-@property(copy, nonatomic) NSDecimalNumber *minLoadAmount; // @synthesize minLoadAmount=_minLoadAmount;
-@property(nonatomic) unsigned long long powerOfTenFactor; // @synthesize powerOfTenFactor=_powerOfTenFactor;
 
 @end
 

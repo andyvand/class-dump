@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface SSRSpeakerRecognitionModelContext
 {
     NSURL *_configFilePath;
-    NSDictionary *_voiceProfilesModelFilePaths;
-    NSDictionary *_voiceProfilesModelFilePathsExclave;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *configFilePath; // @synthesize configFilePath=_configFilePath;
-@property(readonly, nonatomic) NSDictionary *voiceProfilesModelFilePaths; // @synthesize voiceProfilesModelFilePaths=_voiceProfilesModelFilePaths;
-@property(readonly, nonatomic) NSDictionary *voiceProfilesModelFilePathsExclave; // @synthesize voiceProfilesModelFilePathsExclave=_voiceProfilesModelFilePathsExclave;
 
 @end
 

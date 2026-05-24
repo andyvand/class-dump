@@ -6,13 +6,11 @@
 
 #import <SAObjects/SARDExecuteNLOnServer.h>
 
-@class NSString, SAConfidenceScores;
-
 @interface SARDMUXExecuteNLOnServer : SARDExecuteNLOnServer
 {
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -28,10 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool markedForHandOff;
-@property(nonatomic) _Bool muxStateRollback;
-@property(copy, nonatomic) NSString *selectedUserId;
-@property(copy, nonatomic) NSString *selectedUserIdentityClassification;
-@property(retain, nonatomic) SAConfidenceScores *voiceIDConfidenceScores;
 
 @end
 

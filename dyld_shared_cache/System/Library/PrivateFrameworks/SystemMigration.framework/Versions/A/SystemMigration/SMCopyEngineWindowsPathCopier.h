@@ -11,8 +11,6 @@
 @interface SMCopyEngineWindowsPathCopier : SMCopyEngineCopier
 {
     NSString *_windowsSourcePath;
-    unsigned long long _quantityDataReceived;
-    NSString *_expandedPath;
 }
 
 - (id);
@@ -30,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *expandedPath; // @synthesize expandedPath=_expandedPath;
 @property unsigned long long quantityDataReceived; // @synthesize quantityDataReceived=_quantityDataReceived;
-@property(retain) NSString *windowsSourcePath; // @synthesize windowsSourcePath=_windowsSourcePath;
 
 @end
 

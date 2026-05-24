@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSProgressIndicator;
+@class NSButton;
 
 @interface ACUIAccountDataclassCellView
 {
     _Bool _checkboxChecked;
-    NSButton *_checkbox;
-    NSProgressIndicator *_spinner;
 }
 
 - (void);
@@ -20,14 +18,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSButton *checkbox; // @synthesize checkbox=_checkbox;
-@property _Bool checkboxChecked; // @synthesize checkboxChecked=_checkboxChecked;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
 
 @end
 

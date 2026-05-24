@@ -13,7 +13,7 @@
 + (Class);
 + (long long)vent",R,C,V_event;
 - (id);
-- (id)od:(id)arg1;
+- (id)StringAsTriggerMethod:(id)arg1;
 
 @end
 

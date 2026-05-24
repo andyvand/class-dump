@@ -5,5 +5,8 @@
 //
 
 @protocol NSFileProviderEnumerator
+
+@optional
+- (void)BM;
 @end
 

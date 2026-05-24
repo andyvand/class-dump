@@ -6,20 +6,17 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSString;
-
 @interface MRVolumeMutedDidChangeMessage : MRProtocolMessage
 {
 }
 
 - (id);
-- (id);
-- (unsigned long long);
+- (id)longValueForKey:withDefault: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ame name:%@, self last name:%@, other last name:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)"_MRSendHIDEventMessageProtobuf";
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isMuted) _Bool muted;
-@property(readonly, nonatomic) NSString *outputDeviceUID;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, UnifiedField, UnifiedFieldBezelView;
+@class UnifiedField;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldContainerView
 {
     UnifiedField *_unifiedField;
-    UnifiedFieldBezelView *_bezelView;
-    NSView *_scribbleOverlay;
 }
 
 + (void);
@@ -24,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)l;
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)erRow: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -34,8 +32,6 @@ __attribute__((visibility("hidden")))
 - (void)0;
 
 // Remaining properties
-@property(retain, nonatomic) UnifiedFieldBezelView *bezelView; // @synthesize bezelView=_bezelView;
-@property(nonatomic) __weak NSView *scribbleOverlay; // @synthesize scribbleOverlay=_scribbleOverlay;
 @property(retain, nonatomic) UnifiedField *unifiedField; // @synthesize unifiedField=_unifiedField;
 
 @end

@@ -7,9 +7,9 @@
 @class ECEmailAddress, NSString;
 
 @protocol ECEmailAddressConvertible
+- (NSString *)eate failed, err:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ECEmailAddress *emailAddressValue;
-@property(readonly, nonatomic) NSString *stringValue;
 @end
 

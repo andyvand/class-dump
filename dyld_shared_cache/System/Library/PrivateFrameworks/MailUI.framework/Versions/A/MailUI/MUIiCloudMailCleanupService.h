@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MUIiCloudMailCleanupService
 {
     id provider;
@@ -18,25 +16,24 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Q;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)ctiveWindowCategoryButtonTitleBackground;
+- (void)h;
+- (void)mailInactiveWindowCategoryButtonTitleBackground;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isSetUp;
-@property(nonatomic, readonly) NSString *statusText;
 
 @end
 

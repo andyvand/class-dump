@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField;
-
 @interface BUIViewController
 {
     _Bool powerChimeView;
-    NSImageView *_batteryImageView;
-    NSTextField *_batteryImageLabel;
-    double _redStateTriggerLevel;
 }
 
 - (void);
@@ -32,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSTextField *batteryImageLabel; // @synthesize batteryImageLabel=_batteryImageLabel;
-@property(retain) NSImageView *batteryImageView; // @synthesize batteryImageView=_batteryImageView;
-@property(getter=isHidden) _Bool hidden; // @dynamic hidden;
 @property _Bool powerChimeView; // @synthesize powerChimeView;
-@property double redStateTriggerLevel; // @synthesize redStateTriggerLevel=_redStateTriggerLevel;
 
 @end
 

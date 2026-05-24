@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDReliabilityCounts, ODDSiriSchemaODDSessionCounts, ODDSiriSchemaODDTaskCounts, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDAssistantExperimentCounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_turnCounts;
-    ODDSiriSchemaODDTaskCounts *_taskCounts;
-    ODDSiriSchemaODDReliabilityCounts *_reliabilityCounts;
-    ODDSiriSchemaODDSessionCounts *_sessionCounts;
-    _Bool _hasTurnCounts;
-    _Bool _hasTaskCounts;
-    _Bool _hasReliabilityCounts;
-    _Bool _hasSessionCounts;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,17 +44,9 @@
 × ;
 - (id)unt;
 - (id)CompanionDeviceDiscoveryEnded",&,N,V_ended;
-- (void)OATTRIBUTE_PREVIOUS;
+- (void)PEGASUSAUDIOATTRIBUTE_PREVIOUS;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReliabilityCounts; // @synthesize hasReliabilityCounts=_hasReliabilityCounts;
-@property(nonatomic) _Bool hasSessionCounts; // @synthesize hasSessionCounts=_hasSessionCounts;
-@property(nonatomic) _Bool hasTaskCounts; // @synthesize hasTaskCounts=_hasTaskCounts;
-@property(nonatomic) _Bool hasTurnCounts; // @synthesize hasTurnCounts=_hasTurnCounts;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDReliabilityCounts *reliabilityCounts; // @synthesize reliabilityCounts=_reliabilityCounts;
-@property(retain, nonatomic) ODDSiriSchemaODDSessionCounts *sessionCounts; // @synthesize sessionCounts=_sessionCounts;
-@property(retain, nonatomic) ODDSiriSchemaODDTaskCounts *taskCounts; // @synthesize taskCounts=_taskCounts;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *turnCounts; // @synthesize turnCounts=_turnCounts;
 
 @end

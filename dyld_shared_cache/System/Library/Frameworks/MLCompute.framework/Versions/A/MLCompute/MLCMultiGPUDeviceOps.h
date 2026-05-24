@@ -6,17 +6,9 @@
 
 #import <MLCompute/MLCGPUDeviceOps.h>
 
-@class NSArray, NSMutableArray;
-
 @interface MLCMultiGPUDeviceOps : MLCGPUDeviceOps
 {
     int _multiGPUReduction;
-    NSArray *_localGradientMatrices;
-    NSArray *_remoteGradientBuffers;
-    NSArray *_receivedGradientMatrices;
-    NSArray *_matrixSumKernels;
-    NSMutableArray *_allReducedGradientMatrices;
-    NSMutableArray *_rnnTrainableWeightGradients;
 }
 
 + (id);
@@ -25,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)d];
 - (id);
 - (id);
 - (id);
@@ -35,16 +27,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setSourceRows: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *allReducedGradientMatrices; // @synthesize allReducedGradientMatrices=_allReducedGradientMatrices;
-@property(retain, nonatomic) NSArray *localGradientMatrices; // @synthesize localGradientMatrices=_localGradientMatrices;
-@property(retain, nonatomic) NSArray *matrixSumKernels; // @synthesize matrixSumKernels=_matrixSumKernels;
 @property(nonatomic) int multiGPUReduction; // @synthesize multiGPUReduction=_multiGPUReduction;
-@property(retain, nonatomic) NSArray *receivedGradientMatrices; // @synthesize receivedGradientMatrices=_receivedGradientMatrices;
-@property(retain, nonatomic) NSArray *remoteGradientBuffers; // @synthesize remoteGradientBuffers=_remoteGradientBuffers;
-@property(retain, nonatomic) NSMutableArray *rnnTrainableWeightGradients; // @synthesize rnnTrainableWeightGradients=_rnnTrainableWeightGradients;
 
 @end
 

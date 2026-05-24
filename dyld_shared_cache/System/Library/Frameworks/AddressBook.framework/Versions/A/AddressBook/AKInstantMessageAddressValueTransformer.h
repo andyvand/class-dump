@@ -11,7 +11,7 @@
     CNInstantMessageAddress *_lastInstantMessageAddress;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
 - (void);
 - (id);

@@ -6,20 +6,11 @@
 
 #import <SoftwareUpdateCore/SUCorePolicyExtension.h>
 
-@class NSDictionary, NSNumber, NSObject, NSString, SUCoreLog;
-@protocol OS_dispatch_queue;
+@class NSNumber;
 
 @interface SUCorePolicyExtensionCompanionCompatibility : SUCorePolicyExtension
 {
     _Bool _allowSameVersionUpdates;
-    _Bool _preferFullReplacement;
-    _Bool _assetOutOfCompatibilityRange;
-    NSNumber *_minCompatibility;
-    NSNumber *_maxCompatibility;
-    NSDictionary *_suAssetDownloadOptions;
-    NSString *_buildVersion;
-    NSObject<OS_dispatch_queue> *_operationsQueue;
-    SUCoreLog *_logger;
 }
 
 + (_Bool);
@@ -45,30 +36,22 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)g"32;
+- (id)_loadRecentlyClosedTabsOrWindowsFromDiskForProfilesWithIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)ed;
+- (id)RecommendedUpdateEnabled;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSameVersionUpdates; // @synthesize allowSameVersionUpdates=_allowSameVersionUpdates;
-@property(readonly, nonatomic) _Bool assetOutOfCompatibilityRange; // @synthesize assetOutOfCompatibilityRange=_assetOutOfCompatibilityRange;
-@property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) NSNumber *maxCompatibility; // @synthesize maxCompatibility=_maxCompatibility;
 @property(retain, nonatomic) NSNumber *minCompatibility; // @synthesize minCompatibility=_minCompatibility;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *operationsQueue; // @synthesize operationsQueue=_operationsQueue;
-@property(nonatomic) _Bool preferFullReplacement; // @synthesize preferFullReplacement=_preferFullReplacement;
-@property(retain, nonatomic) NSDictionary *suAssetDownloadOptions; // @synthesize suAssetDownloadOptions=_suAssetDownloadOptions;
 
 @end
 

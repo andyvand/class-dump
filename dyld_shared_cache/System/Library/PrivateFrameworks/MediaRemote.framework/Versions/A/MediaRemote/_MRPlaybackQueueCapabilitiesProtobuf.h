@@ -7,13 +7,6 @@
 @interface _MRPlaybackQueueCapabilitiesProtobuf
 {
     _Bool _requestByIdentifiers;
-    _Bool _requestByRange;
-    _Bool _requestByRequest;
-    struct {
-        unsigned int requestByIdentifiers:1;
-        unsigned int requestByRange:1;
-        unsigned int requestByRequest:1;
-    } _has;
 }
 
 - (void);
@@ -24,27 +17,23 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Ⴙ	hh8I7I7I7	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)
+;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ure;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestByIdentifiers;
 @property(nonatomic) _Bool hasRequestByRange;
-@property(nonatomic) _Bool hasRequestByRequest;
-@property(nonatomic) _Bool requestByIdentifiers; // @synthesize requestByIdentifiers=_requestByIdentifiers;
-@property(nonatomic) _Bool requestByRange; // @synthesize requestByRange=_requestByRange;
-@property(nonatomic) _Bool requestByRequest; // @synthesize requestByRequest=_requestByRequest;
 
 @end
 

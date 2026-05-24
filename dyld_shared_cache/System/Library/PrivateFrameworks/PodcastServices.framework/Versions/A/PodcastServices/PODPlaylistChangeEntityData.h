@@ -6,32 +6,23 @@
 
 #import <PodcastServices/PODContentChangeEntityData.h>
 
-@class NSArray, NSString, PODPlaylist;
+@class PODPlaylist;
 
 @interface PODPlaylistChangeEntityData : PODContentChangeEntityData
 {
     PODPlaylist *_playlist;
-    NSArray *_episodes;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)effectiveFirstBaselineOffsetFromTop;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)Uc;
+- (void)synchronousRemoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *episodes; // @synthesize episodes=_episodes;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PODPlaylist *playlist; // @synthesize playlist=_playlist;
-@property(readonly) Class superclass;
 
 @end
 

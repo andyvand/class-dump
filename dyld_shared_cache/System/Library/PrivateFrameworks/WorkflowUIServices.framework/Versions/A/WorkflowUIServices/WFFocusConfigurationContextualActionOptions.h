@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WFColor, WFContextualAction;
+@class WFContextualAction;
 
 @interface WFFocusConfigurationContextualActionOptions
 {
     _Bool _showsEnablementButton;
-    _Bool _enabled;
-    WFContextualAction *_contextualAction;
-    NSArray *_footerButtons;
-    WFColor *_mastheadTintColor;
 }
 
-- (_Bool);
+- (_Bool)T;
+- (id)*T;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)D7{;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFContextualAction *contextualAction; // @synthesize contextualAction=_contextualAction;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSArray *footerButtons; // @synthesize footerButtons=_footerButtons;
-@property(readonly, copy, nonatomic) WFColor *mastheadTintColor; // @synthesize mastheadTintColor=_mastheadTintColor;
-@property(readonly, nonatomic) _Bool showsEnablementButton; // @synthesize showsEnablementButton=_showsEnablementButton;
 
 @end
 

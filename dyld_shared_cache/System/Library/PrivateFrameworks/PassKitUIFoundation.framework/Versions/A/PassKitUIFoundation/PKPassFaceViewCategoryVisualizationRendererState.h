@@ -8,7 +8,23 @@
 
 @interface PKPassFaceViewCategoryVisualizationRendererState : PKPassFaceViewRendererState
 {
-    CDStruct_8fa5c6c3 _state;
+    struct {
+        double startTime;
+        unsigned long long bucketCount;
+        double *magnitudeForBucket;
+        void *colorForBucket;
+        struct {
+            CDStruct_95fa7c00 projectionMatrix;
+            CDStruct_95fa7c00 motionMatrix;
+            id data;
+        } uniforms;
+        CDStruct_0923410a singleCircle;
+        unsigned long long circleCount;
+        CDStruct_0923410a circles[88];
+        unsigned long long categoryCount;
+        unsigned int gravity__framesToRender;
+        _Bool isAnimating;
+    } _state;
 }
 
 - (void);

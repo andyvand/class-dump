@@ -5,10 +5,9 @@
 //
 
 @protocol SCNJSValueSExport
+- (struct SCNMatrix4));
 
 // Remaining properties
-@property(readonly) struct SCNMatrix4 matrix4;
 @property(readonly) struct SCNVector3 vector3;
-@property(readonly) struct SCNVector4 vector4;
 @end
 

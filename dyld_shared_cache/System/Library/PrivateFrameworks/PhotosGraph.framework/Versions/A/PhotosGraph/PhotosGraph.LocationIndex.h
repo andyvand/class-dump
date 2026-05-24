@@ -7,15 +7,6 @@
 @interface PhotosGraph.LocationIndex
 {
     id locationsByMomentUUID;
-    id geoHashesByMomentUUID;
-    id poiLabelsByMomentUUID;
-    id roiLabelsByMomentUUID;
-    id geoHashDataSampler;
-    id poiDataSampler;
-    id roiDataSampler;
-    id featureVectorByMomentUUID;
-    id fallbackFeatureVector;
-    id featureVectorLength;
 }
 
 @end

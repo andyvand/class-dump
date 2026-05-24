@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol CATIDSServiceConnectionDataChunker, CATIDSServiceConnectionDataMessageQueueDelegate, CATTimer, CATTimerSource, OS_dispatch_queue;
+@class NSObject;
+@protocol CATIDSServiceConnectionDataMessageQueueDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CATConcreteIDSServiceConnectionDataMessageQueue
 {
     NSObject<OS_dispatch_queue> *mWorkQueue;
-    id <CATIDSServiceConnectionDataChunker> mDataChunker;
-    id <CATTimerSource> mTimerSource;
-    double mFlushPromptInterval;
-    _Bool mSupportsRetransmit;
-    id <CATTimer> mFlushTimer;
-    unsigned long long mHeadSequenceNumber;
-    unsigned long long mTailSequenceNumber;
-    NSMutableDictionary *mSendContentsBySequenceNumber;
-    id <CATIDSServiceConnectionDataMessageQueueDelegate> _delegate;
 }
 
 + (id);
@@ -29,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

@@ -9,18 +9,12 @@
 @interface GEOPoint
 {
     PBUnknownFields *_unknownFields;
-    int _elevationCm;
-    unsigned int _offsetM;
-    struct {
-        unsigned int has_elevationCm:1;
-        unsigned int has_offsetM:1;
-    } _flags;
 }
 
-+ (_Bool)sult:(id)arg1;
-- (void);
-- (void);
-- (void);
++ (_Bool)setIsEnrichedResult:(id)arg1;
+- (void)setEntity:(unsigned int)arg1;
+- (void)_maxMultivalueSequenceNumberInUse;
+- (void)sistence;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -30,25 +24,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)watch cannot be turned on since device is not unlocked after restart;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id)ter";
-- (id)ngManifest;
+- (id)_updatingManifest;
 - (id)4xxÜx;
-- (id)I;
+- (id)WIFI;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int elevationCm;
-@property(nonatomic) _Bool hasElevationCm;
 @property(nonatomic) _Bool hasOffsetM;
-@property(nonatomic) unsigned int offsetM;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

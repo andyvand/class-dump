@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLResourceIdentity, NSDate;
+@class CPLResourceIdentity;
 
 @interface CPLFileStorageItem
 {
     _Bool _original;
-    _Bool _markedForDelete;
-    CPLResourceIdentity *_identity;
-    NSDate *_lastAccessDate;
 }
 
 - (_Bool);
@@ -21,17 +18,14 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool)c;
+- (_Bool);
 - (id);
-- (id);
+- (id)?;
 - (void)ñð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) CPLResourceIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) NSDate *lastAccessDate; // @synthesize lastAccessDate=_lastAccessDate;
-@property(readonly, nonatomic, getter=isMarkedForDelete) _Bool markedForDelete; // @synthesize markedForDelete=_markedForDelete;
-@property(readonly, nonatomic, getter=isOriginal) _Bool original; // @synthesize original=_original;
 
 @end
 

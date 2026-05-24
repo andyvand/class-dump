@@ -5,5 +5,6 @@
 //
 
 @protocol ASKAirplaneModeInquiryDelegate
+- (void)o;
 @end
 

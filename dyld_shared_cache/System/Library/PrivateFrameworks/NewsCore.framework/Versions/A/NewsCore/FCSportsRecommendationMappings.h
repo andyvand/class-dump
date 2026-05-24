@@ -9,18 +9,16 @@
 @interface FCSportsRecommendationMappings
 {
     FCSportsRecommendationsProvider *_defaultRecommendations;
-    FCSportsRecommendationsProvider *_alternativeRecommendations;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)heckEmojiFontSize:(id)arg1 function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
 - (void)ker init];
 
 // Remaining properties
-@property(retain, nonatomic) FCSportsRecommendationsProvider *alternativeRecommendations; // @synthesize alternativeRecommendations=_alternativeRecommendations;
 @property(retain, nonatomic) FCSportsRecommendationsProvider *defaultRecommendations; // @synthesize defaultRecommendations=_defaultRecommendations;
 
 @end

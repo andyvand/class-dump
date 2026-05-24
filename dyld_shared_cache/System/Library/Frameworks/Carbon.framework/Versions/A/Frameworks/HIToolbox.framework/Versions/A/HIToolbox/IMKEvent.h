@@ -10,17 +10,12 @@ __attribute__((visibility("hidden")))
 @interface IMKEvent
 {
     NSMutableDictionary *_eventDataDictionary;
-    unsigned int eventClass;
-    unsigned int eventKind;
-    unsigned int eventSeqNum;
-    double eventTime;
-    long long _pointSwapType;
 }
 
 + (id);
 + (_Bool);
 + (void)is *not* completion-based (client supportsAsyncCompletion= %d)[Prevented in the Async case];
-- (void);
+- (void);
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -42,13 +37,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)p";
 - (id);
 - (id);
 - (unsigned int);
 - (double);
 - (void);
-- (Class);
+- (Class)@;
 - (void);
 - (id)CR;
 

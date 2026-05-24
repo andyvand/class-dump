@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIKeyboardIndirectTextSelectionGestureState
 {
     _Bool _isShiftKeyBeingHeld;
-    long long _type;
-    long long _state;
-    unsigned long long _flickDirection;
-    unsigned long long _touchCount;
-    struct CGPoint _translation;
 }
 
 + (_Bool)leInputBars:%@
@@ -30,17 +25,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long)0@ù
 × ;
-- (_Bool)w:(id)arg1;
-- (void)s:(id)arg1;
-- (void)UITextViewCommonMethods;
+- (_Bool)updateContainerView:(id)arg1;
+- (void)setGlyphPathBounds:(id)arg1;
+- (void)NSUITextViewCommonMethods;
 - (_Bool)§Í;
 
 // Remaining properties
-@property(nonatomic) unsigned long long flickDirection; // @synthesize flickDirection=_flickDirection;
-@property(nonatomic) _Bool isShiftKeyBeingHeld; // @synthesize isShiftKeyBeingHeld=_isShiftKeyBeingHeld;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long touchCount; // @synthesize touchCount=_touchCount;
-@property(nonatomic) struct CGPoint translation; // @synthesize translation=_translation;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

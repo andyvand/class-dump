@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWGraph, NSMutableDictionary;
+@class BWGraph;
 
 @interface BWNodeEnumerator
 {
     BWGraph *_graph;
-    unsigned long long _depth;
-    NSMutableDictionary *_nodeVisitCountMap;
 }
 
 + (void)ickTimeMovieFileSinkNode setIrisMovieProcessingSuspended:] /* Error: Ran out of types for this method. */;

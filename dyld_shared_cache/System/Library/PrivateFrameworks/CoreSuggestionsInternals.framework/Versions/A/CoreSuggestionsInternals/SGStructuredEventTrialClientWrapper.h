@@ -18,12 +18,12 @@ DdÜ;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
+- (id)XW;
 - (id);
-- (id);
-- (id);
+- (id)e;
 - (void)@"NSArray",R,N,V_taggedCharacterRanges;
 
 @end

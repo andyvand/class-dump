@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKAssetMetadata, BKAssetMetadataFileManager, NSString;
+@class BKAssetMetadata;
 
 @interface BKAssetMetadataIOTask
 {
     BKAssetMetadata *_sourceMetadata;
-    BKAssetMetadataFileManager *_manager;
-    CDUnknownBlockType _progressHandler;
-    NSString *_targetFilenameOverride;
 }
 
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (id);
@@ -28,10 +25,7 @@
 - (void)identifier[1];
 
 // Remaining properties
-@property(retain, nonatomic) BKAssetMetadataFileManager *manager; // @synthesize manager=_manager;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 @property(retain, nonatomic) BKAssetMetadata *sourceMetadata; // @synthesize sourceMetadata=_sourceMetadata;
-@property(copy, nonatomic) NSString *targetFilenameOverride; // @synthesize targetFilenameOverride=_targetFilenameOverride;
 
 @end
 

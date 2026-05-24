@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonListSearchController, CNContactListController, CNContactPickerInProccessViewController, NSString, NSWindow;
-@protocol CNContactPickerInternalResponseDelegate;
+@class CNContactPickerInProccessViewController;
 
 @interface CNContactPickerViewService
 {
     _Bool _needsHostingWindow;
-    CNContactPickerInProccessViewController *_inProcessContactPicker;
-    NSWindow *_hostingWindow;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,29 +36,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) CNContactListController *contactListController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSWindow *hostingWindow; // @synthesize hostingWindow=_hostingWindow;
 @property(retain) CNContactPickerInProccessViewController *inProcessContactPicker; // @synthesize inProcessContactPicker=_inProcessContactPicker;
-@property(nonatomic) _Bool needsHostingWindow; // @synthesize needsHostingWindow=_needsHostingWindow;
-@property __weak id <CNContactPickerInternalResponseDelegate> responseDelegate;
-@property(readonly) ABPersonListSearchController *searchController;
-@property(getter=isSearchFieldVisible) _Bool searchFieldVisible;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
-
 @interface DRSSystemProfile
 {
     unsigned char _platform;
-    _Bool _allowsCustomerAnalyticsOverride;
-    _Bool _allowsBuildVariantOverride;
-    _Bool _allowsAutomatedDeviceGroupOverride;
-    _Bool _overridingCustomerApprovesAnalyticsValue;
-    _Bool _overridingIsCarrier;
-    _Bool _overridingIsSeed;
-    _Bool _overridingIsInternal;
-    _Bool _isInternalVal;
-    _Bool _isSeedVal;
-    _Bool _isCarrierVal;
-    NSString *_build;
-    NSString *_deviceCategory;
-    NSString *_deviceModel;
-    NSString *_hwModel;
-    NSNumber *_isLikelyCarryGroupNum;
-    unsigned long long _deviceHash;
-    NSString *_overridingAutomatedDeviceGroup;
-    NSData *_deviceSHA256Digest;
 }
 
 + (id);
@@ -40,7 +20,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)outlineView:didDragTableColumn: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -52,7 +32,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -70,50 +50,21 @@
 - (unsigned char);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)_internal_setSpotlightPropertiesForGBProjectBundle: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (id)rrentDate:errorOut: /* Error: Ran out of types for this method. */;
+- (id)shouldRunBackstopUpload:currentDate:errorOut: /* Error: Ran out of types for this method. */;
 - (id)esultsStats;
 - (id);
-- (_Bool)ploadActivity;
+- (_Bool)CancelScheduledUploadActivity;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsAutomatedDeviceGroupOverride; // @synthesize allowsAutomatedDeviceGroupOverride=_allowsAutomatedDeviceGroupOverride;
-@property(nonatomic) _Bool allowsBuildVariantOverride; // @synthesize allowsBuildVariantOverride=_allowsBuildVariantOverride;
 @property(nonatomic) _Bool allowsCustomerAnalyticsOverride; // @synthesize allowsCustomerAnalyticsOverride=_allowsCustomerAnalyticsOverride;
-@property(readonly, nonatomic) NSString *automatedDeviceGroup;
-@property(readonly, nonatomic) NSString *build; // @synthesize build=_build;
-@property(readonly, nonatomic) NSString *buildVariant;
-@property(readonly, nonatomic) _Bool customerApprovesAnalytics;
-@property(readonly, nonatomic) NSString *deviceCategory; // @synthesize deviceCategory=_deviceCategory;
-@property(readonly, nonatomic) unsigned long long deviceHash; // @synthesize deviceHash=_deviceHash;
-@property(readonly, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(readonly, nonatomic) NSData *deviceSHA256Digest; // @synthesize deviceSHA256Digest=_deviceSHA256Digest;
-@property(readonly, nonatomic) _Bool hasForbiddenAutomatedDeviceGroup;
-@property(readonly, nonatomic) NSString *hwModel; // @synthesize hwModel=_hwModel;
-@property(readonly, nonatomic) _Bool isCarrier;
-@property(readonly, nonatomic) _Bool isCarrierVal; // @synthesize isCarrierVal=_isCarrierVal;
-@property(readonly, nonatomic) _Bool isInternal;
-@property(readonly, nonatomic) _Bool isInternalVal; // @synthesize isInternalVal=_isInternalVal;
-@property(readonly, nonatomic) NSNumber *isLikelyCarryGroupNum; // @synthesize isLikelyCarryGroupNum=_isLikelyCarryGroupNum;
-@property(readonly, nonatomic) _Bool isLogUploadEnabled;
-@property(readonly, nonatomic) _Bool isSeed;
-@property(readonly, nonatomic) _Bool isSeedVal; // @synthesize isSeedVal=_isSeedVal;
-@property(readonly, nonatomic) _Bool isTaskingEnabled;
-@property(retain, nonatomic) NSString *overridingAutomatedDeviceGroup; // @synthesize overridingAutomatedDeviceGroup=_overridingAutomatedDeviceGroup;
-@property(nonatomic) _Bool overridingCustomerApprovesAnalyticsValue; // @synthesize overridingCustomerApprovesAnalyticsValue=_overridingCustomerApprovesAnalyticsValue;
-@property(nonatomic) _Bool overridingIsCarrier; // @synthesize overridingIsCarrier=_overridingIsCarrier;
-@property(nonatomic) _Bool overridingIsInternal; // @synthesize overridingIsInternal=_overridingIsInternal;
-@property(nonatomic) _Bool overridingIsSeed; // @synthesize overridingIsSeed=_overridingIsSeed;
-@property(readonly, nonatomic) unsigned char platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) NSString *platformString;
-@property(readonly, nonatomic) unsigned long long uploadSessionUploadCapBytes;
 
 @end
 

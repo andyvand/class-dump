@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BluetoothFileReference, IOBluetoothOBEXSession, NSString, NSTimer;
-
 @interface OBEXFileTransferServices
 {
     id mOBEXFileGet;
-    id mOBEXFilePut;
-    BluetoothFileReference *mFolderListingFileRef;
-    int mActionCommand;
-    int mSavedCommand;
-    NSString *mActionArgument1;
-    NSString *mActionArgument2;
-    NSString *mActionArgument3;
-    NSString *mCurrentRemoteDirectory;
-    _Bool mActionInProgress;
-    _Bool mWeOpenedTheOBEXConnection;
-    _Bool mHasTargetHeader;
-    id mDelegate;
-    _Bool mAbortedByOwner;
-    _Bool mWeAreAborting;
-    NSTimer *mInactivityTimer;
-    IOBluetoothOBEXSession *mOBEXSession;
-    unsigned short mMaxPacketLength;
-    int mConnectionID;
-    id mPUTProgress;
-    id mGETProgress;
-    void *mReserved1;
-    void *mReserved2;
 }
 
 + (id);
@@ -45,18 +21,18 @@
 - (int);
 - (int);
 - (int);
+- (void)`;
 - (void);
+- (id)R;
 - (void);
-- (id);
+- (int)#;
 - (void);
-- (int);
-- (void);
-- (void);
+- (void)86Z;
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)hjh8i;
 - (int);
 - (int);
 - (int);
@@ -78,7 +54,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int)RealURL;
 - (void);
 - (int);
 - (int);

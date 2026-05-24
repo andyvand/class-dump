@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol BSCollection
+- (NSArray *)*;
+- (unsigned long long)rameworks/AtomicsInternal.framework/Versions/A/AtomicsInternal;
 
 // Remaining properties
 @property(readonly) unsigned long long count;

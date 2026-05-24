@@ -11,21 +11,19 @@
 @interface PGGraphHighlightsInsertion : PGGraphChange
 {
     NSSet *_highlightUUIDs;
-    NSSet *_highlights;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)g;
 - (id);
 - (id);
 - (unsigned long long);
-- (void)etsNotEligible;
+- (void)numberOfAssetsNotEligible;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *highlightUUIDs; // @synthesize highlightUUIDs=_highlightUUIDs;
-@property(readonly, nonatomic) NSSet *highlights; // @synthesize highlights=_highlights;
 
 @end
 

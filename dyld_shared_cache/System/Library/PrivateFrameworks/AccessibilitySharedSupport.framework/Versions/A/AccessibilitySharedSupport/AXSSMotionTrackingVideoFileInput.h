@@ -18,7 +18,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,12 +27,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)toolbarParentViewNeedingUpdate;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *_name; // @synthesize _name=__name;
-@property(readonly, copy, nonatomic) NSString *name;
 
 @end
 

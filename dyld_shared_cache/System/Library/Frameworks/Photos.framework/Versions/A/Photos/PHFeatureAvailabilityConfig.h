@@ -7,12 +7,6 @@
 @interface PHFeatureAvailabilityConfig
 {
     _Bool _needsPhotosKnowledgeGraph;
-    double _fractionOfAllAssetsWithMediaAnalysisInSearchIndexThreshold;
-    double _fractionOfCuratedAssetsWithSceneAnalysisInSearchIndexThreshold;
-    double _fractionOfCuratedAssetsWithCaptionsThreshold;
-    double _fractionOfCuratedAssetsWithEmbeddingsInVectorIndexThreshold;
-    double _fractionOfHighlightsEnrichedThreshold;
-    unsigned long long _minimumNumberOfCuratedAssets;
 }
 
 - (_Bool);
@@ -22,17 +16,11 @@
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)reateAnimationTargetFromChannel:(unsigned long long)arg1 can't resolve a path (null model);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double fractionOfAllAssetsWithMediaAnalysisInSearchIndexThreshold; // @synthesize fractionOfAllAssetsWithMediaAnalysisInSearchIndexThreshold=_fractionOfAllAssetsWithMediaAnalysisInSearchIndexThreshold;
-@property(readonly, nonatomic) double fractionOfCuratedAssetsWithCaptionsThreshold; // @synthesize fractionOfCuratedAssetsWithCaptionsThreshold=_fractionOfCuratedAssetsWithCaptionsThreshold;
-@property(readonly, nonatomic) double fractionOfCuratedAssetsWithEmbeddingsInVectorIndexThreshold; // @synthesize fractionOfCuratedAssetsWithEmbeddingsInVectorIndexThreshold=_fractionOfCuratedAssetsWithEmbeddingsInVectorIndexThreshold;
-@property(readonly, nonatomic) double fractionOfCuratedAssetsWithSceneAnalysisInSearchIndexThreshold; // @synthesize fractionOfCuratedAssetsWithSceneAnalysisInSearchIndexThreshold=_fractionOfCuratedAssetsWithSceneAnalysisInSearchIndexThreshold;
-@property(readonly, nonatomic) double fractionOfHighlightsEnrichedThreshold; // @synthesize fractionOfHighlightsEnrichedThreshold=_fractionOfHighlightsEnrichedThreshold;
-@property(readonly, nonatomic) unsigned long long minimumNumberOfCuratedAssets; // @synthesize minimumNumberOfCuratedAssets=_minimumNumberOfCuratedAssets;
-@property(readonly, nonatomic) _Bool needsPhotosKnowledgeGraph; // @synthesize needsPhotosKnowledgeGraph=_needsPhotosKnowledgeGraph;
 
 @end
 

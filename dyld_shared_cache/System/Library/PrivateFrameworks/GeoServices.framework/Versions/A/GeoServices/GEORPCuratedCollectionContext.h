@@ -4,93 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPCuratedCollectionContext
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _placeEntityMuids;
-    unsigned long long _curatedCollectionMuid;
-    NSMutableArray *_imageInfos;
-    NSString *_originalDescription;
-    NSString *_originalName;
-    NSString *_originalUrl;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_curatedCollectionMuid:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_placeEntityMuids:1;
-        unsigned int read_imageInfos:1;
-        unsigned int read_originalDescription:1;
-        unsigned int read_originalName:1;
-        unsigned int read_originalUrl:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)rkedCarTermination:(id)arg1;
++ (_Bool)setIsParkedCarTermination:(id)arg1;
 - (void);
 - (void);
+- (void)setIsCompany:(id)arg1;
+- (void)_contactIdentifierSet;
+- (void)CNCDIOSLegacyIdentifierRegistrarState;
+- (unsigned long long)distributionListConfigs;
+- (unsigned long long *)contactIndex;
+- (unsigned long long)downtimeWhitelist;
+- (id)CNPersistentStoreCoordinatorBuildTask;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned long long)m;
 - (void);
 - (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long *);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)@9;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id)setCarHeadUnitSelectedLocale: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)tation with recording info %@...;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id)e_anyField"b1};
-- (id)ddDistToNextCheckpoint: /* Error: Ran out of types for this method. */;
+- (id)addDistToNextCheckpoint: /* Error: Ran out of types for this method. */;
 - (id)<kxk;
-- (id)kingNotification;
+- (id)GEODeviceLockingNotification;
 - (id)¹BA9DÜJVP@;
 - (void)Y|EuL@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long curatedCollectionMuid;
 @property(nonatomic) _Bool hasCuratedCollectionMuid;
-@property(readonly, nonatomic) _Bool hasOriginalDescription;
-@property(readonly, nonatomic) _Bool hasOriginalName;
-@property(readonly, nonatomic) _Bool hasOriginalUrl;
-@property(retain, nonatomic) NSMutableArray *imageInfos;
-@property(retain, nonatomic) NSString *originalDescription;
-@property(retain, nonatomic) NSString *originalName;
-@property(retain, nonatomic) NSString *originalUrl;
-@property(readonly, nonatomic) unsigned long long *placeEntityMuids;
-@property(readonly, nonatomic) unsigned long long placeEntityMuidsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

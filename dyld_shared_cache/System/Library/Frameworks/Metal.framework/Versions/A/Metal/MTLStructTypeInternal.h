@@ -6,16 +6,10 @@
 
 #import <Metal/MTLStructType.h>
 
-@class NSArray, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLStructTypeInternal : MTLStructType
 {
     unsigned long long _dataType;
-    NSDictionary *_dictionary;
-    NSArray *_members;
-    _Bool _isIndirectArgumentBuffer;
-    NSString *_typeName;
 }
 
 - (void);
@@ -23,20 +17,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)T	;
+- (void)oking (oneway)setValue:(_Bool)arg1 forTag:, from Main thread = %d  /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id)sourceIDsIndirectKernel;
+- (id)encodeMTLInstanceBVHResourceIDsIndirectKernel;
 - (id);
 
 // Remaining properties
 @property _Bool isIndirectArgumentBuffer; // @synthesize isIndirectArgumentBuffer=_isIndirectArgumentBuffer;
-@property(readonly) NSString *typeName; // @synthesize typeName=_typeName;
 
 @end
 

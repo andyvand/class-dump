@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSDate, NSNumber, NSString, NSURL, SAEmail, SALocation, SAPhone;
+@class NSURL;
 
 @interface SAABPersonSearch : SADomainCommand
 {
@@ -21,9 +21,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)qa;
 - (id);
-- (void);
+- (void)>;
 - (id);
 - (id);
 - (void);
@@ -34,22 +34,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ortsEntity;
-- (id)iled;
-- (id)d;
+- (void)SASportsEntity;
+- (id)StructuredDictationFailed;
+- (id)signalPayload;
 - (void)$Ð;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *accountIdentifier;
-@property(retain, nonatomic) SALocation *address;
-@property(copy, nonatomic) NSDate *birthday;
-@property(copy, nonatomic) NSString *company;
-@property(retain, nonatomic) SAEmail *email;
-@property(copy, nonatomic) NSNumber *me;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) SAPhone *phone;
-@property(copy, nonatomic) NSString *relationship;
-@property(copy, nonatomic) NSString *scope;
 
 @end
 

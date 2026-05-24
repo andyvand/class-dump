@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKSignature, NSArray, NSMutableArray;
+@class AKController;
 
 @interface AKSignatureModelController
 {
     int _nextUID;
-    _Bool _signaturesDecryptionAttempted;
-    NSMutableArray *_signatures;
-    AKSignature *_selectedSignature;
-    AKController *_controller;
 }
 
 - (void);
@@ -28,16 +24,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)DefaultCharacteristicsByService;
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) AKSignature *selectedSignature; // @synthesize selectedSignature=_selectedSignature;
-@property(readonly) NSArray *signatures;
 
 @end
 

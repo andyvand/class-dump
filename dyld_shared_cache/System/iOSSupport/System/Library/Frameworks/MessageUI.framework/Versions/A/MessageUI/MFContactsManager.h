@@ -13,10 +13,10 @@
 
 + (_Bool);
 + (id);
-- (id);
+- (id)eadingAccessory;
 - (id);
 - (void);
-- (id)iewModel;
+- (id)_tableViewModel;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

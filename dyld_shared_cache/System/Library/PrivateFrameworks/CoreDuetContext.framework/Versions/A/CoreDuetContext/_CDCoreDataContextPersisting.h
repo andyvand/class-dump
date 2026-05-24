@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSObject, _DKCoreDataStorage;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _CDCoreDataContextPersisting
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _DKCoreDataStorage *_storage;
-    NSCountedSet *_keyPathRegistrationCount;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (_Bool);
 - (void);
@@ -23,12 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)versionNumber;
+- (_Bool)imperialFluidOunces;
 - (void);
 - (_Bool);
 - (id);
@@ -39,9 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSCountedSet *keyPathRegistrationCount; // @synthesize keyPathRegistrationCount=_keyPathRegistrationCount;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) _DKCoreDataStorage *storage; // @synthesize storage=_storage;
 
 @end
 

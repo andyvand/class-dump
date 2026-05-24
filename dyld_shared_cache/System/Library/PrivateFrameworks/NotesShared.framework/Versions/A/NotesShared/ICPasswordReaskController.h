@@ -8,17 +8,17 @@
 {
 }
 
-+ (id);
-- (_Bool);
++ (id)saveAttachments:toNote:textBefore:textAfter:fetchFirst: /* Error: Ran out of types for this method. */;
+- (_Bool)W;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
+- (id)recordName;
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)able to retrieve XMLPlist from computer record:(id)arg1 %@ (%d);
+- (void)V;
 
 @end
 

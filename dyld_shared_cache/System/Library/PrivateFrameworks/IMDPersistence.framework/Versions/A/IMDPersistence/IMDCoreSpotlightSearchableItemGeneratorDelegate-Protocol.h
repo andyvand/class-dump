@@ -5,5 +5,8 @@
 //
 
 @protocol IMDCoreSpotlightSearchableItemGeneratorDelegate
+
+@optional
+- (void);
 @end
 

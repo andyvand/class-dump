@@ -4,78 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APInstallAttribution, NSArray, NSDate, NSDictionary, NSError, NSString, NSURL, NSUUID;
-@protocol APPCDiagnosticMetricsHelping, APPCMediaMetricsHelping, APPCMetricEventsTracking, APPCPromotableContentRepresentation;
+@protocol APPCDiagnosticMetricsHelping;
 
 @interface PromotedContent.PromotedContent
 {
     id <APPCDiagnosticMetricsHelping> diagnosticMetricHelper;
-    id metricsHelper;
-    void identifier;
-    void journeyIdentifier;
-    id impressionId;
-    id context;
-    void metaData;
-    void disclosureURL;
-    void disclosureRendererPayload;
-    long long minimumTimeBetweenPresentation;
-    void brandName;
-    void campaignText;
-    void representations;
-    APInstallAttribution *installAttribution;
-    id <APPCPromotableContentRepresentation> bestRepresentation;
-    NSError *error;
-    _Bool placeholder;
-    void startDate;
-    void expirationDate;
-    long long serverUnfilledReason;
-    id <APPCMediaMetricsHelping> mediaMetricHelper;
-    _Bool attachedToView;
-    _Bool vended;
-    _Bool discarded;
-    _Bool consumed;
-    double impressionThreshold;
-    void videoRequestStartDate;
-    _Bool discardedDueToPolicy;
-    id <APPCMetricEventsTracking> metricEventsTracking;
-    _Bool isLocationAvailableForAd;
-    _Bool isPAAvailableForAd;
-    void receivedReferenceTime;
-    void adServerEnvironments;
-    id diagnosticCode;
-    id unfilledReasonDelegate;
-    id promotedContentUsedRegisterID;
-    id overriddenAdType;
-    id _contextIdentifier;
-    id discardReason;
-    id primitiveCreator;
-    id diagnosticPrimitiveCreator;
-    id placement;
-    id serverResponseReceivedTimestamp;
-    id onPromotedContentComplete;
-    id appImpressionTask;
-    id appImpression;
-    id shouldSetupAttributionEventView;
 }
 
-- (id);
+- (id)AudioFeedMastheadModelProvider;
 - (_Bool);
 - (id);
+- (void)CodingKeys;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)gKeys;
 - (long long);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (id);
+- (id)ChannelPickerSectionDescriptor;
 - (id);
 - (_Bool);
 - (id);
@@ -98,7 +51,7 @@
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (void);
 - (id);
@@ -121,50 +74,12 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)__objc_superrefs__DATA_CONST;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *adServerEnvironments;
-@property(nonatomic, readonly) long long adType;
-@property(nonatomic) _Bool attachedToView; // @synthesize attachedToView;
-@property(nonatomic, readonly) _Bool available;
-@property(nonatomic, retain) id <APPCPromotableContentRepresentation> bestRepresentation; // @synthesize bestRepresentation;
-@property(nonatomic, copy) NSString *brandName;
-@property(nonatomic, copy) NSString *campaignText;
-@property(nonatomic) _Bool consumed; // @synthesize consumed;
-@property(nonatomic, readonly) NSUUID *contextIdentifier;
-@property(nonatomic, readonly) NSString *debugDescription;
 @property(nonatomic, readonly) id <APPCDiagnosticMetricsHelping> diagnosticMetricHelper; // @synthesize diagnosticMetricHelper;
-@property(nonatomic) _Bool discarded; // @synthesize discarded;
-@property(nonatomic) _Bool discardedDueToPolicy; // @synthesize discardedDueToPolicy;
-@property(nonatomic, copy) NSString *disclosureRendererPayload;
-@property(nonatomic, copy) NSURL *disclosureURL;
-@property(nonatomic, retain) NSError *error; // @synthesize error;
-@property(nonatomic, copy) NSDate *expirationDate;
-@property(nonatomic, readonly) long long feedMetadataContentProviderID;
-@property(nonatomic, copy) NSString *identifier;
-@property(nonatomic) double impressionThreshold; // @synthesize impressionThreshold;
-@property(nonatomic, retain) APInstallAttribution *installAttribution; // @synthesize installAttribution;
-@property(nonatomic, readonly) _Bool isLocationAvailableForAd; // @synthesize isLocationAvailableForAd;
-@property(nonatomic, readonly) _Bool isMRAID;
-@property(nonatomic, readonly) _Bool isOutstreamVideoAd;
-@property(nonatomic, readonly) _Bool isPAAvailableForAd; // @synthesize isPAAvailableForAd;
-@property(nonatomic, copy) NSString *journeyIdentifier;
-@property(nonatomic, retain) id <APPCMediaMetricsHelping> mediaMetricHelper; // @synthesize mediaMetricHelper;
-@property(nonatomic, copy) NSDictionary *metaData;
-@property(nonatomic, retain) id <APPCMetricEventsTracking> metricEventsTracking; // @synthesize metricEventsTracking;
-@property(nonatomic) long long minimumTimeBetweenPresentation; // @synthesize minimumTimeBetweenPresentation;
-@property(nonatomic, readonly) long long numOfArticlesSinceInterstitial;
-@property(nonatomic, readonly) _Bool placeholder; // @synthesize placeholder;
-@property(nonatomic, readonly) NSDate *receivedReferenceTime;
-@property(nonatomic, copy) NSArray *representations;
-@property(nonatomic) long long serverUnfilledReason; // @synthesize serverUnfilledReason;
-@property(nonatomic, copy) NSDate *startDate;
-@property(nonatomic, readonly) NSDictionary *transparencyDetailsDictionary;
-@property(nonatomic) _Bool vended; // @synthesize vended;
-@property(nonatomic, copy) NSDate *videoRequestStartDate;
 
 @end
 

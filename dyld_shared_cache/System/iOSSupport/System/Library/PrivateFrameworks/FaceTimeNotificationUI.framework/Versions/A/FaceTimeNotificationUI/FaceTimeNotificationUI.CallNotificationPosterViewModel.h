@@ -8,12 +8,6 @@
 {
     id _shouldExpandWindow;
     id _hasSaliencyRect;
-    id logger;
-    id _cancellables;
-    id call;
-    id _posterViewController;
-    id _contactStore;
-    id _$observationRegistrar;
 }
 
 @end

@@ -12,18 +12,16 @@ __attribute__((visibility("hidden")))
 @interface _UIBarBackgroundImageView : UIImageView
 {
     UIView *_topStripView;
-    UIImageView *_customImageContainer;
-    _Bool _translucent;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)c@e@ c;
+- (void)A;
 - (id)Ôa;
 - (void)1Â0@ù
 × ;
 - (void)ion: /* Error: Ran out of types for this method. */;
-- (_Bool)ist: /* Error: Ran out of types for this method. */;
+- (_Bool)_commandWithTitle:target:action:attributes:state:propertyList: /* Error: Ran out of types for this method. */;
 - (void)Dmÿb7Ö ^;
 
 // Remaining properties

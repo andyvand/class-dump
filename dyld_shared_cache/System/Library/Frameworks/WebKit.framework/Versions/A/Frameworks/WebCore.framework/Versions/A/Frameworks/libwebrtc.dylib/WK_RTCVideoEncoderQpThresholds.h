@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface WK_RTCVideoEncoderQpThresholds
 {
     long long _low;
-    long long _high;
 }
 
-- (id);
-- (long long);
+- (id)e only spaces and one semicolon;
+- (long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long high; // @synthesize high=_high;
 @property(readonly, nonatomic) long long low; // @synthesize low=_low;
 
 @end

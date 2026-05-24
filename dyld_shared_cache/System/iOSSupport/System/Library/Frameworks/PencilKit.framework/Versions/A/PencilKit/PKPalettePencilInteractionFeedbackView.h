@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPaletteToolPreview, UIView;
+@class UIView;
 
 @interface PKPalettePencilInteractionFeedbackView
 {
     UIView *_clippingView;
-    UIView *_backgroundView;
-    PKPaletteToolPreview *_toolPreview;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id)6Q24Q32Q40{CGRect={CGPoint=dd}{CGSize=dd}}48;
-- (void)EffectsWindowObserverDelegate;
+- (void)PKTextEffectsWindowObserverDelegate;
 - (void)force from UITouch;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
 @property(retain, nonatomic) UIView *clippingView; // @synthesize clippingView=_clippingView;
-@property(retain, nonatomic) PKPaletteToolPreview *toolPreview; // @synthesize toolPreview=_toolPreview;
 
 @end
 

@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPIndexStateForFeedback, _CPPerformEntityQueryCommandForFeedback;
-
 @interface _CPStartLocalSearchFeedback
 {
     _Bool _isPhotosScopedSearch;
-    _Bool _isSemanticSearchEligible;
-    int _triggerEvent;
-    int _indexType;
-    int _searchType;
-    int _coreSpotlightIndexUsed;
-    int _spotlightInitialPageType;
-    int _spotlightBrowsingSearchScope;
-    unsigned int _inputCharCount;
-    unsigned int _inputWordCount;
-    unsigned long long _timestamp;
-    NSString *_input;
-    NSString *_uuid;
-    unsigned long long _queryId;
-    NSString *_originatingApp;
-    _CPPerformEntityQueryCommandForFeedback *_entityQueryCommand;
-    _CPIndexStateForFeedback *_indexState;
 }
 
 - (void);
 - (_Bool);
 - (int);
 - (int);
-- (void);
+- (void)!3;
 - (id);
 - (id);
 - (unsigned long long);
@@ -41,60 +23,37 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)i;
 - (unsigned int);
-- (void);
+- (void)d;
 - (unsigned long long);
 - (int);
-- (id);
+- (id)yingTelephonyCalls:%d
+ /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (void);
 - (void)iewAppearFeedback"16;
 - (int)ackets;
-- (void)uttonVisibilityFeedback;
+- (void)dynamicButtonVisibilityFeedback;
 - (void)W;
-- (void)s_url;
+- (void)more_results_url;
 - (void)apple.settings;
 - (unsigned int)sec14MagicProvidingP;
-- (void)tCG;
-- (void)rs;
+- (void)SDySSSo8NSObjectCG;
+- (void)RequestParameters;
 - (void);
 - (void);
 - (id);
 - (int)óÿøJN;
 
 // Remaining properties
-@property(nonatomic) int coreSpotlightIndexUsed; // @synthesize coreSpotlightIndexUsed=_coreSpotlightIndexUsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _CPPerformEntityQueryCommandForFeedback *entityQueryCommand; // @synthesize entityQueryCommand=_entityQueryCommand;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _CPIndexStateForFeedback *indexState; // @synthesize indexState=_indexState;
-@property(nonatomic) int indexType; // @synthesize indexType=_indexType;
-@property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(nonatomic) unsigned int inputCharCount; // @synthesize inputCharCount=_inputCharCount;
-@property(nonatomic) unsigned int inputWordCount; // @synthesize inputWordCount=_inputWordCount;
-@property(nonatomic) _Bool isPhotosScopedSearch; // @synthesize isPhotosScopedSearch=_isPhotosScopedSearch;
-@property(nonatomic) _Bool isSemanticSearchEligible; // @synthesize isSemanticSearchEligible=_isSemanticSearchEligible;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *originatingApp; // @synthesize originatingApp=_originatingApp;
-@property(nonatomic) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(nonatomic) int searchType; // @synthesize searchType=_searchType;
-@property(nonatomic) int spotlightBrowsingSearchScope; // @synthesize spotlightBrowsingSearchScope=_spotlightBrowsingSearchScope;
-@property(nonatomic) int spotlightInitialPageType; // @synthesize spotlightInitialPageType=_spotlightInitialPageType;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent; // @synthesize triggerEvent=_triggerEvent;
-@property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

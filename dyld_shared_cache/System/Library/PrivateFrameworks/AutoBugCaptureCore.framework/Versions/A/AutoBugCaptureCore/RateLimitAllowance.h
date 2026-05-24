@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface RateLimitAllowance
 {
     NSDate *_lastCheckedAt;
-    double _allowance;
 }
 
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double allowance; // @synthesize allowance=_allowance;
 @property(retain, nonatomic) NSDate *lastCheckedAt; // @synthesize lastCheckedAt=_lastCheckedAt;
 
 @end

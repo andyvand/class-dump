@@ -7,9 +7,9 @@
 @class HMFVersion;
 
 @protocol HMDCompositeSettingsVersionValueProviding
+- (HMFVersion *)SSConnectionProgressViewControllerDelegate;
 
 // Remaining properties
-@property(readonly) long long type;
 @property(readonly, copy) HMFVersion *version;
 @end
 

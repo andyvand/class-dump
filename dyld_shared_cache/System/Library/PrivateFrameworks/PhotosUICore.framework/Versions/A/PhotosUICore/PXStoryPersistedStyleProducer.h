@@ -5,14 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_os_log, PFStoryRecipe, PXStoryAutoEditDecisionList, PXStorySongResource;
+@protocol OS_os_log, PFStoryRecipe;
 
 @interface PXStoryPersistedStyleProducer
 {
     NSObject<OS_os_log> *_log;
-    id <PFStoryRecipe> _persistedRecipe;
-    id <PXStorySongResource> _songResource;
-    id <PXStoryAutoEditDecisionList> _autoEditDecisionList;
 }
 
 - (id);
@@ -23,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) id <PXStoryAutoEditDecisionList> autoEditDecisionList; // @synthesize autoEditDecisionList=_autoEditDecisionList;
 @property(readonly, nonatomic) id <PFStoryRecipe> persistedRecipe; // @synthesize persistedRecipe=_persistedRecipe;
-@property(readonly, nonatomic) id <PXStorySongResource> songResource; // @synthesize songResource=_songResource;
 
 @end
 

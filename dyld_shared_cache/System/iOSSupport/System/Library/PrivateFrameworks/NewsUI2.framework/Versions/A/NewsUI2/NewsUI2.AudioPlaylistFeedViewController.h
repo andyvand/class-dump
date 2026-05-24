@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
 }
 
 - (id);

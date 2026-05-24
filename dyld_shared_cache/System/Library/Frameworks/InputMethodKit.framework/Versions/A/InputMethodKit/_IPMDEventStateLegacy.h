@@ -7,13 +7,11 @@
 @interface _IPMDEventStateLegacy
 {
     unsigned int _theEventClass;
-    unsigned short _theEventKind;
-    _Bool _eventState;
 }
 
-- (unsigned short);
+- (unsigned short)@);
 - (unsigned int);
-- (void);
+- (void)#;
 - (_Bool);
 - (id);
 - (_Bool);

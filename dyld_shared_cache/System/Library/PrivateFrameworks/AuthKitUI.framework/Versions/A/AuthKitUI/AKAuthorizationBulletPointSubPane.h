@@ -6,20 +6,16 @@
 
 #import <AuthKitUI/AKAuthorizationSubPane.h>
 
-@class NSImage, NSImageView, NSStackView, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface AKAuthorizationBulletPointSubPane : AKAuthorizationSubPane
 {
     NSView *_baseView;
-    NSImageView *_bulletImageView;
-    NSStackView *_messageStackView;
-    NSTextField *_titleLabel;
-    NSTextField *_messageLabel;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)?ט;
 - (void);
 - (id);
 - (struct CGSize);
@@ -28,10 +24,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void).;
 - (id);
 - (id);
-- (void);
+- (void));
 - (id);
 - (id);
 - (void);
@@ -39,13 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *baseView; // @synthesize baseView=_baseView;
-@property(readonly, nonatomic) NSImageView *bulletImageView; // @synthesize bulletImageView=_bulletImageView;
-@property(retain, nonatomic) NSImage *image;
-@property(retain, nonatomic) NSString *message;
-@property(readonly, nonatomic) NSTextField *messageLabel; // @synthesize messageLabel=_messageLabel;
-@property(readonly, nonatomic) NSStackView *messageStackView; // @synthesize messageStackView=_messageStackView;
-@property(retain, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

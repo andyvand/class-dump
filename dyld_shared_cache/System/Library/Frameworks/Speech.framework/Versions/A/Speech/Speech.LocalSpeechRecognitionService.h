@@ -7,8 +7,6 @@
 @interface Speech.LocalSpeechRecognitionService
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, StateCacheMeta;
+@class NSString;
 
 @interface StateCacheEntry
 {
     NSString *_state;
-    StateCacheMeta *_meta;
-    long long _action;
 }
 
 - (void);
@@ -20,14 +18,12 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)B;
 - (void);
 - (void)ÑÐ±ÑÐ²Ð°ÑÑÑÑ;
 - (id)AppleInternal/Library/BuildRoots/4~CNqRugCSzycZZGvpxZ9wI2FWDByvH0oCeGYOVRo/Library/Caches/com.apple.xbs/TemporaryDirectory.oFD1IC/Sources/DialogEngine/protobuf/src/google/protobuf/descriptor.pb.h;
 
 // Remaining properties
-@property(nonatomic) long long action; // @synthesize action=_action;
-@property(copy, nonatomic) StateCacheMeta *meta; // @synthesize meta=_meta;
 @property(copy, nonatomic) NSString *state; // @synthesize state=_state;
 
 @end

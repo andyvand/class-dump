@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface KTOptInState
 {
     _Bool _everOptIn;
-    unsigned long long _state;
-    NSString *_uri;
-    NSString *_application;
-    NSDate *_smtTimestamp;
-    NSString *_osVersion;
-    NSString *_serialNumber;
 }
 
 + (_Bool);
@@ -25,31 +17,25 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)rsionImplementation;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (void)"NSArray"32@0:(id)arg1 8@"NSWindow"16@"NSScreen"24;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)ead;
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *application; // @synthesize application=_application;
-@property _Bool everOptIn; // @synthesize everOptIn=_everOptIn;
-@property(retain) NSString *osVersion; // @synthesize osVersion=_osVersion;
-@property(retain) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(retain) NSDate *smtTimestamp; // @synthesize smtTimestamp=_smtTimestamp;
 @property unsigned long long state; // @synthesize state=_state;
-@property(retain) NSString *uri; // @synthesize uri=_uri;
 
 @end
 

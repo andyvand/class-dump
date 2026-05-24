@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface RFSchemaRFGradingDialogReportedTier1 : SISchemaInstrumentationMessage
 {
@@ -20,21 +20,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)E;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SIGN_IN_REQUIRED;
 - (_Bool);
-- (_Bool);
+- (_Bool)_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE    room_name = ? AND    service_name = ? ORDER BY chat.ROWID ASC;;
 - (id);
 - (id);
-- (id)tEventIdsCount;
+- (id)actionStepResultEventIdsCount;
 - (id)OffsetInNs;
-- (void);
+- (void)sicClientEvent;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *dialogLines; // @synthesize dialogLines=_dialogLines;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

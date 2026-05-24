@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognizer, NSCharacterSet, NSString;
+@class CHRecognizer, NSCharacterSet;
 
 @interface CHSketchRecognizer
 {
@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
@@ -25,16 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSCharacterSet *activeCharacterSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enableCachingIfAvailable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxRecognitionResultCount;
-@property(nonatomic) struct CGSize minimumDrawingSize;
-@property(readonly) Class superclass;
 
 @end
 

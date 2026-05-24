@@ -6,32 +6,11 @@
 
 #import <QuartzComposer/QCZoomView.h>
 
-@class NSColor, NSMutableArray, NSMutableDictionary, NSNumberFormatter, QCKeyFrameEditor, QCTimeLine, QCTimeLineEditorView;
+@class QCTimeLineEditorView;
 
 @interface QCTimeLineView : QCZoomView
 {
     QCTimeLineEditorView *_editorView;
-    QCKeyFrameEditor *_keyFrameEditor;
-    struct CGRect _selectionBounds;
-    QCTimeLine *_timeLine;
-    _Bool _trackMouseCoordinates;
-    _Bool _drawDragBoundries;
-    NSMutableArray *_legendComponents;
-    NSColor *_backgroundColor;
-    NSColor *_disabledAreaColor;
-    NSColor *_disabledAreaGridLineColor;
-    NSColor *_curveHullColor;
-    NSColor *_axisColor;
-    NSColor *_gridLineColor;
-    NSColor *_gridRulerColor;
-    NSMutableDictionary *_gridLabelAttributes;
-    NSMutableDictionary *_mouseCoordsAttributes;
-    NSNumberFormatter *_mouseCoordsXFormatter;
-    NSNumberFormatter *_mouseCoordsYFormatter;
-    long long _newTimeLineIndex;
-    long long _dragIndex;
-    long long _dragTimeLineIndex;
-    int _dragType;
 }
 
 - (_Bool);
@@ -39,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -54,16 +33,16 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (long long);
 - (struct CGSize);
 - (_Bool);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,23 +52,23 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)T;
+- (void)$;
 - (double);
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)%@;
+- (_Bool)";
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)version = 1138219;;
 - (_Bool)Ôp;
 - (void);
 

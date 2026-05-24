@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSContext, WKWebProcessPlugInFrame, WKWebProcessPlugInScriptWorld;
+@class WKWebProcessPlugInFrame, WKWebProcessPlugInScriptWorld;
 
 @interface WBSMetadataExtractor
 {
     WKWebProcessPlugInScriptWorld *_webProcessPlugInScriptWorld;
-    JSContext *_context;
-    WKWebProcessPlugInFrame *_webProcessPlugInFrame;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)6?;
 - (id);
 - (id);
 - (id);
@@ -25,11 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_truncationTables;
 - (void)Provider;
 
 // Remaining properties
-@property(readonly, nonatomic) JSContext *context;
 @property(readonly, nonatomic) WKWebProcessPlugInFrame *webProcessPlugInFrame; // @synthesize webProcessPlugInFrame=_webProcessPlugInFrame;
 
 @end

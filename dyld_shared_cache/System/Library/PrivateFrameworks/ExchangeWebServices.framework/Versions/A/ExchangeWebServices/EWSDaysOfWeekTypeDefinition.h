@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)SonicAssertion] RBSAssertion %p was invalidated error=%{public}@;
 
 @end
 

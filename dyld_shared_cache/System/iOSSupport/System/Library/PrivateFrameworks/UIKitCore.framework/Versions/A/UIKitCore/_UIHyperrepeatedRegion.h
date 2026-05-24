@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol _UIHyperregion;
-
 @interface _UIHyperrepeatedRegion
 {
     unsigned long long *__repetitions;
-    double *__offset;
-    double *__increment;
-    double *__maximumIndices;
-    struct {
-        unsigned int maximumIndices:1;
-    } _clean;
-    unsigned long long __dimensions;
-    id <_UIHyperregion> __region;
-    double *__temp;
 }
 
-+ (id)n: /* Error: Ran out of types for this method. */;
++ (id)setCaretRectBeforeInsertion: /* Error: Ran out of types for this method. */;
 + (_Bool)bday;
 - (const unsigned long long *);
-- (void);
-- (void);
-- (void);
-- (double *);
-- (void);
-- (const double *);
-- (const double *);
+- (void)%@;
+- (void)ntered error %@;
+- (void)nue successfully for message syncing;
+- (double *)ncing is disabled;
+- (void)ckrecord with guid %@ has path %@, finalAssetPath %@ and asset fileURL %@;
+- (const double *)s of existing attachment at %@, %@;
+- (const double *)IMDRelayErrorChatForOutgoingMessageRemovedParticipantsKey;
 - (id);
 - (void);
 - (double *);
@@ -40,26 +28,14 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool)topShadowImage;
-- (void)tKeyboard:(id)arg1;
-- (id)ext;
+- (void)setCurrentKeyboard:(id)arg1;
+- (id)_badgeText;
 - (id)B,N,V_hasNextKeyResponder;
 - (void)View:(double *)arg1 %@;
 - (void)¸l[;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(readonly, nonatomic) const double *_increment;
-@property(readonly, nonatomic) const double *_offset;
-@property(retain, nonatomic, setter=_setRegion:) id <_UIHyperregion> _region; // @synthesize _region=__region;
-@property(readonly, nonatomic) const unsigned long long *_repetitions;
 @property(readonly, nonatomic) double *_temp; // @synthesize _temp=__temp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

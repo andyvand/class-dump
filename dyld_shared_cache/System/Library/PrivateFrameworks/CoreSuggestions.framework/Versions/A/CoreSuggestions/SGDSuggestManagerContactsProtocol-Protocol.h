@@ -4,10 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol SGDSuggestManagerContactsProtocol
+- (void)J!x;
+- (void);
+- (void)_hasJRTSTransmitCapability;
+- (void)igin FROM Origins;
+- (void)@;
+- (void)_validateSpanForRemove:(NSString *)arg1 error:(void (^)(SGXPCResponse1 *))arg2;
+- (void)CADEventSetInvitationStatus:(NSString *)arg1 forEvents:(unsigned long long)arg2 error:(void (^)(SGXPCResponse1 *))arg3;
 - (void)dentifier=%@
 contact = %@
 >;
-- (void)llowUpComputeCustomTimeRange;
+- (void)SuggestionsFollowUpComputeCustomTimeRange;
 @end
 

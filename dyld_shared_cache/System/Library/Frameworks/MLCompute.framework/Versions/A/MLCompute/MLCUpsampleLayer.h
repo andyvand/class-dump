@@ -6,15 +6,9 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class NSArray;
-
 @interface MLCUpsampleLayer : MLCLayer
 {
     _Bool _alignsCorners;
-    int _sampleMode;
-    NSArray *_shape;
-    unsigned long long _upsampleWidth;
-    unsigned long long _upsampleHeight;
 }
 
 + (id);
@@ -32,10 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alignsCorners; // @synthesize alignsCorners=_alignsCorners;
-@property(readonly, nonatomic) int sampleMode; // @synthesize sampleMode=_sampleMode;
-@property(readonly, copy, nonatomic) NSArray *shape; // @synthesize shape=_shape;
-@property(readonly, nonatomic) unsigned long long upsampleHeight; // @synthesize upsampleHeight=_upsampleHeight;
 @property(readonly, nonatomic) unsigned long long upsampleWidth; // @synthesize upsampleWidth=_upsampleWidth;
 
 @end

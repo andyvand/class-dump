@@ -6,30 +6,21 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOImageServicePurgeCacheToSizeRequest : GEOXPCRequest
 {
     unsigned long long _targetSize;
 }
 
-+ (Class);
++ (Class),V_code;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void)esWithNoteCount;
+- (void)_mapFeatureLibraryPlacesWithNoteCount;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long targetSize; // @synthesize targetSize=_targetSize;
 
 @end

@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)setImage: /* Error: Ran out of types for this method. */;
 - (void)Count:'%ld';  /* Error: Ran out of types for this method. */;
 - (void)8î;
 

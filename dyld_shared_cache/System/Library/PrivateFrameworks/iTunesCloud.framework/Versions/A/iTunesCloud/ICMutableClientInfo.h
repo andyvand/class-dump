@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (void);
+- (void)t.preferLowPowerDevice;
 - (void);
 - (void);
 - (void);
@@ -23,14 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bagProfile; // @dynamic bagProfile;
-@property(copy, nonatomic) NSString *bagProfileVersion; // @dynamic bagProfileVersion;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(copy, nonatomic) NSString *clientIdentifier; // @dynamic clientIdentifier;
-@property(copy, nonatomic) NSString *clientVersion; // @dynamic clientVersion;
-@property(copy, nonatomic) NSString *processName; // @dynamic processName;
-@property(copy, nonatomic) NSString *requestingBundleIdentifier; // @dynamic requestingBundleIdentifier;
-@property(copy, nonatomic) NSString *requestingBundleVersion; // @dynamic requestingBundleVersion;
 
 @end
 

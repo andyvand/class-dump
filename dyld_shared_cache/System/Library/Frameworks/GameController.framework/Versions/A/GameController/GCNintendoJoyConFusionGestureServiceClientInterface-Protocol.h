@@ -5,5 +5,6 @@
 //
 
 @protocol GCNintendoJoyConFusionGestureServiceClientInterface
+- (void);
 @end
 

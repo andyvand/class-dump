@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, MNActiveRouteInfo, MNLocation, NSString;
-
 @interface MNNavigationSimulationParameters
 {
     long long _simulationType;
-    MNActiveRouteInfo *_initialRoute;
-    MNLocation *_startingLocation;
-    GEOApplicationAuditToken *_auditToken;
-    NSString *_requestingAppIdentifier;
 }
 
-- (void);
+- (void)ifier;
 - (id);
 - (void);
 - (id);
@@ -28,11 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(retain, nonatomic) MNActiveRouteInfo *initialRoute; // @synthesize initialRoute=_initialRoute;
-@property(copy, nonatomic) NSString *requestingAppIdentifier; // @synthesize requestingAppIdentifier=_requestingAppIdentifier;
 @property(nonatomic) long long simulationType; // @synthesize simulationType=_simulationType;
-@property(retain, nonatomic) MNLocation *startingLocation; // @synthesize startingLocation=_startingLocation;
 
 @end
 

@@ -7,16 +7,14 @@
 @interface PXPowerController
 {
     _Bool _hasPowerAssertion;
-    _Bool _backgrounded;
-    double _powerAssertionStartTime;
 }
 
-+ (id)ocusRegion: /* Error: Ran out of types for this method. */;
++ (id)suggestedCropForTargetSize:withFocusRegion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -24,12 +22,9 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isBackgrounded) _Bool backgrounded; // @synthesize backgrounded=_backgrounded;
-@property(readonly, nonatomic) _Bool hasBackgroundAssertion;
-@property(readonly, nonatomic) _Bool hasPowerAssertion; // @synthesize hasPowerAssertion=_hasPowerAssertion;
 @property(nonatomic) double powerAssertionStartTime; // @synthesize powerAssertionStartTime=_powerAssertionStartTime;
 
 @end

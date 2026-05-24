@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface _DKHistogramMO
 {
@@ -13,14 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *customIdentifier; // @dynamic customIdentifier;
 @property(copy, nonatomic) NSString *deviceIdentifier; // @dynamic deviceIdentifier;
-@property(copy, nonatomic) NSDate *endDate; // @dynamic endDate;
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(copy, nonatomic) NSString *streamName; // @dynamic streamName;
-@property(copy, nonatomic) NSNumber *streamTypeCode; // @dynamic streamTypeCode;
-@property(retain, nonatomic) NSSet *value; // @dynamic value;
 
 @end
 

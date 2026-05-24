@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinBoard, HMDDeviceLockStateDataSource, HMDHAPMetadata, HMDXPCMessageTransport, HMFNetManager, HMFWiFiManager;
-@protocol HMDFeaturesDataSource, HMDIDSIDQueryController, HMDPreferences;
+@class HMDHAPMetadata;
 
 @interface HMDHomeDefaultDataSource
 {
 }
 
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -28,25 +28,16 @@
 - (id);
 - (id);
 - (id);
+- (id)_uuidsOfMomentsToInsert;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ationsWithManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)mkfLocalMatterRegistrationsWithManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (id)Idle;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) HMDBulletinBoard *bulletinBoard;
-@property(nonatomic, readonly) HMDDeviceLockStateDataSource *deviceLockStateDataSource;
-@property(nonatomic, readonly) id <HMDFeaturesDataSource> featuresDataSource;
 @property(nonatomic, readonly) HMDHAPMetadata *hapMetadata;
-@property(nonatomic, readonly) id <HMDIDSIDQueryController> idsIDQueryController;
-@property(nonatomic, readonly) HMFNetManager *netManager;
-@property(nonatomic, readonly) id <HMDPreferences> preferences;
-@property(nonatomic, readonly) HMFWiFiManager *wifiManager;
-@property(nonatomic, readonly) HMDXPCMessageTransport *xpcMessageTransport;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface PPBaseFeedback
 {
     NSString *_clientIdentifier;
-    NSArray *_feedbackItems;
-    NSString *_clientBundleId;
-    NSString *_mappingId;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
@@ -21,27 +17,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)_shouldSaveRequiredContentVersionOverride;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)dp;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (void);
-- (id)dsHandler: /* Error: Ran out of types for this method. */;
+- (id)setEventNameRecordsHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientBundleId; // @synthesize clientBundleId=_clientBundleId;
 @property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, nonatomic) NSArray *feedbackItems; // @synthesize feedbackItems=_feedbackItems;
-@property(readonly) _Bool isMapped;
-@property(readonly, nonatomic) NSString *mappingId; // @synthesize mappingId=_mappingId;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

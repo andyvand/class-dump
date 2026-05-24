@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIVisualEffect;
-
 @interface UITableViewRowAction
 {
     long long _style;
-    NSString *_title;
-    UIColor *_backgroundColor;
-    CDUnknownBlockType _handler;
-    UIVisualEffect *_backgroundEffect;
 }
 
 + (id);
-- (void);
+- (void)ignoreDeliveredQuietlyReceipts;
 - (id);
 - (CDUnknownBlockType);
-- (long long);
-- (void)Orientation:(id)arg1;
-- (void);
+- (long long)newLibraryWithFile:error: /* Error: Ran out of types for this method. */;
+- (void)defaultSizeForOrientation:(id)arg1;
+- (void)_cloudSharingControllerDidActivateShowSharedFolder;
 - (id)inningOfDocument;
 - (void)deString;
 - (id);
 - (id)bs %@.;
-- (id)mmetricAnimationDurations;
+- (id)asymmetricAnimationDurations;
 - (id)µþ;
 - (void)û+×e;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) UIVisualEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;
 @property(readonly, nonatomic, getter=_handler) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

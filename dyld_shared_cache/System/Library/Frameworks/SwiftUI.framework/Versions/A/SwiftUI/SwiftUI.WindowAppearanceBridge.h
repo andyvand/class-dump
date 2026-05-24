@@ -7,17 +7,6 @@
 @interface SwiftUI.WindowAppearanceBridge
 {
     id backgroundTracker;
-    id shapeTracker;
-    id defaultWindowBackgroundColor;
-    id lastWindowContentShape;
-    id cornerPath;
-    id outerHitPath;
-    id innerHitPath;
-    id window;
-    id windowFrameAdjustment;
-    id resizeTrackingArea;
-    id backgroundHost;
-    id isUpdatingFrameSize;
 }
 
 - (void);

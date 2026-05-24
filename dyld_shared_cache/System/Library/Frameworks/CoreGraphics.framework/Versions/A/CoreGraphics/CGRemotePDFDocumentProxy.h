@@ -19,15 +19,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long)°;;
 
 // Remaining properties
-@property(readonly, getter=isEncrypted) _Bool encrypted;
 @property(readonly) NSDictionary *infoDictionary;
-@property(readonly) unsigned long long pageCount;
-@property(readonly, getter=isUnlocked) _Bool unlocked;
 
 @end
 

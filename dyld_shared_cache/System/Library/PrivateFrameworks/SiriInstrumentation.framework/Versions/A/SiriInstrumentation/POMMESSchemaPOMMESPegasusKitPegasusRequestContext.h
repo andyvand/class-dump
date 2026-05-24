@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESPegasusKitPegasusRequest, POMMESSchemaPOMMESPegasusKitPegasusResponse;
+@class POMMESSchemaPOMMESPegasusKitPegasusRequest;
 
 @interface POMMESSchemaPOMMESPegasusKitPegasusRequestContext : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESPegasusKitPegasusRequest *_startedOrChanged;
-    POMMESSchemaPOMMESPegasusKitPegasusResponse *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -22,31 +18,26 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (void));
+- (void)_t soft_hwtrace_live_recording_options_init();
 - (id);
 - (id);
-- (id);
+- (id)u;
 - (void);
-- (unsigned long long);
+- (unsigned long long)ppStoreDaemon/Stubs/ASDJobOptions_macOS.m:36 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ing message record for attachment guid %@;
 - (id);
 - (id);
-- (id)bflowInterfaceName;
+- (id)_primarySubflowInterfaceName;
 - (id)ShortcutContext;
-- (void)MEKITSERVICETYPE_SHOWER;
+- (void)FLOWHOMEKITSERVICETYPE_SHOWER;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusKitPegasusResponse *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) POMMESSchemaPOMMESPegasusKitPegasusRequest *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

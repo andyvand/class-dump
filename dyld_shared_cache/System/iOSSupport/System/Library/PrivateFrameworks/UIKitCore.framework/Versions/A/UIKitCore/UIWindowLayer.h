@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIWindow *_window;
 }
 
-- (void)lementaryView:(struct CGRect)arg1;
+- (void)_notifyDidEndDisplayingSupplementaryView:(struct CGRect)arg1;
 - (void)previewPresentationDelegate;
-- (id)iderWriting;
+- (id)NSItemProviderWriting;
 - (void)`;
 
 @end

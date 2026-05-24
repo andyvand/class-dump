@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDXPCClientConnection, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernMessagingRegistration
 {
     NSString *_messageName;
-    HMDXPCClientConnection *_xpcConnection;
 }
 
 + (id);
 + (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)setNavigationInterrupted: /* Error: Ran out of types for this method. */;
+- (_Bool)yState",&,G_lastState,S_setLastState:(id)arg1;
+- (id)ge (%lu);
 - (id);
 - (id);
 - (id)ssories;
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, nonatomic) HMDXPCClientConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

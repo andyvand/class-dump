@@ -6,12 +6,9 @@
 
 #import <Mail/MFEWSPersistenceTaskOperation.h>
 
-@class NSString;
-
 @interface MFEWSDeleteMailboxTaskOperation : MFEWSPersistenceTaskOperation
 {
     _Bool _didDelete;
-    NSString *_folderIDString;
 }
 
 - (void);
@@ -24,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool didDelete; // @synthesize didDelete=_didDelete;
-@property(readonly, copy, nonatomic) NSString *folderIDString; // @synthesize folderIDString=_folderIDString;
 
 @end
 

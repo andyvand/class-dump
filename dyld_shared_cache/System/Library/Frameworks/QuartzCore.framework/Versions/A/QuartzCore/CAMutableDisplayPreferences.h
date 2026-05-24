@@ -6,8 +6,6 @@
 
 #import <QuartzCore/CADisplayPreferences.h>
 
-@class NSString;
-
 @interface CAMutableDisplayPreferences : CADisplayPreferences
 {
 }
@@ -16,9 +14,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool matchContent; // @dynamic matchContent;
-@property(copy, nonatomic) NSString *preferredHdrMode; // @dynamic preferredHdrMode;
-@property(nonatomic) _Bool prefersHighRefreshRate; // @dynamic prefersHighRefreshRate;
-@property(nonatomic) _Bool prefersVariableRefreshRate; // @dynamic prefersVariableRefreshRate;
 
 @end
 

@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol IMAttributableContent
+
+@optional
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long hash;

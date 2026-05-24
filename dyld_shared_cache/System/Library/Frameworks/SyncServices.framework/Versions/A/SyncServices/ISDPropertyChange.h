@@ -9,7 +9,6 @@
 @interface ISDPropertyChange
 {
     ISDPropertyValue *_propertyValue;
-    int _action;
 }
 
 + (id);
@@ -29,7 +28,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

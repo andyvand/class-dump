@@ -7,10 +7,6 @@
 @interface NEIKEv2CryptoKitHPKE
 {
     id payload;
-    id aad;
-    id psk;
-    id pskID;
-    id key;
 }
 
 - (id);
@@ -18,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ithName:delegate:shouldCreateKernelChannel: /* Error: Ran out of types for this method. */;
+- (void)initWithName:delegate:shouldCreateKernelChannel: /* Error: Ran out of types for this method. */;
 
 @end
 

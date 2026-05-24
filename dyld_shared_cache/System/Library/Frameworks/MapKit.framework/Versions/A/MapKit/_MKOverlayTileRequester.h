@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _MKOverlayTileRequester
 {
     _Bool _cancelled;
-    NSMutableArray *_waiting;
-    NSMutableSet *_running;
-    NSMutableArray *_errors;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
-+ (void);
++ (void)-);
 + (unsigned int);
 + (unsigned char);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ro1,1;
+- (void)2ClassicScan;
+- (void)overy;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void)Mask: /* Error: Ran out of types for this method. */;
+- (void)setMask: /* Error: Ran out of types for this method. */;
 - (void)ding;
 
 @end

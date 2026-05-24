@@ -8,10 +8,10 @@
 @protocol NUAssetMedia;
 
 @protocol NUAsset
+- (id <NUAssetMedia>);
+- (long long)etooth Status;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id <NUAssetMedia> media;
-@property(readonly, nonatomic) long long type;
 @end
 

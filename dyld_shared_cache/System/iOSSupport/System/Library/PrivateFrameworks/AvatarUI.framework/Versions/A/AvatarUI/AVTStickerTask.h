@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
-
 @interface AVTStickerTask
 {
     CDUnknownBlockType _task;
-    NSString *_avatarRecordIdentifier;
-    NSIndexPath *_indexPath;
-    unsigned long long _stickerType;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)k teefjes;
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *avatarRecordIdentifier; // @synthesize avatarRecordIdentifier=_avatarRecordIdentifier;
-@property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) unsigned long long stickerType; // @synthesize stickerType=_stickerType;
 @property(readonly, nonatomic) CDUnknownBlockType task; // @synthesize task=_task;
 
 @end

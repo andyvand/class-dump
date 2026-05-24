@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAColorProfile, NSDictionary, PAImageRequestCacheHint;
+@class IPAColorProfile;
 
 @interface PARenderPipelineOptions
 {
     _Bool _gamutModeSet;
-    int _gamutMode;
-    _Bool _videoFrame;
-    int _renderMode;
-    IPAColorProfile *_outputColorProfile;
-    NSDictionary *_cgImageProperties;
-    long long _sampleMode;
-    PAImageRequestCacheHint *_cacheHint;
-    IPAColorProfile *_linearOutputColorProfileImpl;
 }
 
 + (void);
@@ -31,7 +23,7 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)ctory>";
 - (long long);
 - (id);
 - (void);
@@ -47,15 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) PAImageRequestCacheHint *cacheHint; // @synthesize cacheHint=_cacheHint;
-@property(retain) NSDictionary *cgImageProperties; // @synthesize cgImageProperties=_cgImageProperties;
-@property(nonatomic) int gamutMode;
-@property(retain) IPAColorProfile *linearOutputColorProfile; // @dynamic linearOutputColorProfile;
 @property(retain) IPAColorProfile *linearOutputColorProfileImpl; // @synthesize linearOutputColorProfileImpl=_linearOutputColorProfileImpl;
-@property(retain) IPAColorProfile *outputColorProfile; // @synthesize outputColorProfile=_outputColorProfile;
-@property int renderMode; // @synthesize renderMode=_renderMode;
-@property(nonatomic) long long sampleMode; // @synthesize sampleMode=_sampleMode;
-@property _Bool videoFrame; // @synthesize videoFrame=_videoFrame;
 
 @end
 

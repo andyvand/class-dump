@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)unsignedLongLongValue;
+- (id)backgroundDataTaskDidBecomeDownloadTask: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

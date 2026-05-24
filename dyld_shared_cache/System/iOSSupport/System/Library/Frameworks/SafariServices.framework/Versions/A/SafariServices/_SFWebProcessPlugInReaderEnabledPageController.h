@@ -6,65 +6,50 @@
 
 #import <SafariServices/_SFWebProcessPlugInAutoFillPageController.h>
 
-@class NSDictionary, NSString, SFWebProcessPlugInPageExtensionController, _SFReaderWebProcessPlugInPageController, _WKRemoteObjectInterface;
-@protocol SFReaderEventsListener;
+@class _SFReaderWebProcessPlugInPageController;
 
 @interface _SFWebProcessPlugInReaderEnabledPageController : _SFWebProcessPlugInAutoFillPageController
 {
     struct unique_ptr<SafariServices::ReaderAvailabilityController, std::default_delete<SafariServices::ReaderAvailabilityController>> _readerAvailabilityController;
-    _WKRemoteObjectInterface *_availabilityControllerInterface;
-    id <SFReaderEventsListener> _readerActivityListenerProxy;
-    _SFReaderWebProcessPlugInPageController *_readerPageController;
-    long long _cachedReaderTopScrollOffset;
-    NSDictionary *_initialScrollPositionAsDictionary;
-    SFWebProcessPlugInPageExtensionController *_extensionController;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)<;
 - (struct OpaqueJSValue *);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)CNVector4="x"f"y"f"z"f"w"f};
+- (void)qA;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool readerHasBeenActivatedRecently;
 @property(retain, nonatomic) _SFReaderWebProcessPlugInPageController *readerPageController; // @synthesize readerPageController=_readerPageController;
-@property(readonly) Class superclass;
 
 @end
 

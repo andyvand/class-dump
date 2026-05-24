@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSString;
+@class NSString;
 
 @interface TUGroupTitle
 {
@@ -18,34 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
+- (id)(;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)sharePlayAvailableChanged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) CNContact *backingContact;
-@property(readonly) NSString *backingContactId;
-@property(readonly) NSString *backingContactIdentifier;
-@property(readonly) NSString *callerId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *destinationId;
-@property(readonly) NSString *displayName;
-@property(readonly) NSArray *handles;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *idsCanonicalDestinations;
-@property(readonly) NSString *isoCountryCode;
-@property(readonly) long long mostRecentCallType;
-@property(readonly) _Bool mostRecentCallWasMissed;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

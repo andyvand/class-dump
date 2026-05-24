@@ -9,7 +9,6 @@
 @interface PKPaymentTransactionRequestAmountComparison
 {
     PKCurrencyAmount *_amount;
-    long long _comparison;
 }
 
 + (_Bool)áW"Ð!Eùqî%°1Â0@ù
@@ -18,13 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_gotIPTimestamp;
 - (long long);
-- (void)dPeerPaymentCompleteVerification;
+- (void)PKPeerPaymentDismissedPeerPaymentCompleteVerification;
 
 // Remaining properties
 @property(retain, nonatomic) PKCurrencyAmount *amount; // @synthesize amount=_amount;
-@property(nonatomic) long long comparison; // @synthesize comparison=_comparison;
 
 @end
 

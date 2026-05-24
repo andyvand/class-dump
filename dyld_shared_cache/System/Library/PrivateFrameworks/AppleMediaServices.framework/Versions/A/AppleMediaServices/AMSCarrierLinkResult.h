@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSCarrierLinkParams, NSDictionary, NSError, NSNumber, NSString;
+@class NSError, NSString;
 
 @interface AMSCarrierLinkResult
 {
     NSString *_channelCustomerId;
-    AMSCarrierLinkParams *_linkParams;
-    NSString *_productCode;
-    NSError *_error;
-    NSDictionary *_response;
-    NSNumber *_statusCode;
 }
 
 + (_Bool);
@@ -31,12 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *channelCustomerId; // @synthesize channelCustomerId=_channelCustomerId;
 @property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) AMSCarrierLinkParams *linkParams; // @synthesize linkParams=_linkParams;
-@property(readonly) NSString *productCode; // @synthesize productCode=_productCode;
-@property(readonly) NSDictionary *response; // @synthesize response=_response;
-@property(readonly) NSNumber *statusCode; // @synthesize statusCode=_statusCode;
 
 @end
 

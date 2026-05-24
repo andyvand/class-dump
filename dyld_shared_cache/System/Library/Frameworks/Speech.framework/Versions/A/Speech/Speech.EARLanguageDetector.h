@@ -7,8 +7,6 @@
 @interface Speech.EARLanguageDetector
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

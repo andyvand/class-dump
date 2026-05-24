@@ -4,46 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSError, NSString, NSURL;
+@class NSString;
 
 @interface UMUser
 {
     NSString *_displayName;
-    _Bool _isLoginUser;
-    _Bool _isAuditor;
-    _Bool _isDisabled;
-    _Bool _isTransientUser;
-    _Bool _isPrimaryUser;
-    _Bool _isAdminUser;
-    _Bool _hasManagedCredentials;
-    _Bool _hasDataToSync;
-    _Bool _shouldFetchAttributes;
-    unsigned int _uid;
-    unsigned int _gid;
-    NSString *_alternateDSID;
-    NSURL *_homeDirectoryURL;
-    NSString *_username;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSURL *_photoURL;
-    NSString *_userAuxiliaryString;
-    NSDate *_creationDate;
-    NSDate *_lastLoginDate;
-    NSDate *_lastRemoteAuthDate;
-    unsigned long long _passcodeType;
-    unsigned long long _passcodeLockGracePeriod;
-    NSArray *_languages;
-    unsigned long long _dataQuota;
-    unsigned long long _dataUsed;
-    NSError *_errorCausingLogout;
-    id __photo;
-    NSDate *_firstLoginStartDate;
-    NSDate *_firstLoginEndDate;
-    NSDate *_lastCachedLoginStartDate;
-    NSDate *_lastCachedLoginEndDate;
-    NSDate *_lastLogoutStartDate;
-    NSDate *_lastLogoutEndDate;
-    NSError *_debugErrorCausingLogout;
 }
 
 - (_Bool);
@@ -53,25 +18,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)I;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)newTextureWithSurface:buffer: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)ML.Specification.RBFKernel;
+- (id)rray dataType should be %@ but is %@;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (double);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)h;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -88,7 +53,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)T|;
 - (void);
 - (void);
 - (id);
@@ -100,17 +65,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)reachable:(id)arg1 Could not compute providerID;
 - (void);
 - (id);
-- (_Bool);
+- (void)removeRecordObserver:(unsigned long long)arg1;
+- (void)desiredPackageFileIndices;
+- (id)&;
+- (_Bool)tion.modifyRecordsResultBlock` directly.  We'll invoke the underlying completion block as asked, but without any `savedRecords` or `deletedRecordIDs` values;
 - (id);
 - (id);
 - (void);
@@ -119,7 +84,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (void);
 - (id);
 - (void);
@@ -131,49 +96,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)__objc_ivar;
 - (unsigned int);
 
 // Remaining properties
-@property(copy, nonatomic) id _photo; // @synthesize _photo=__photo;
-@property(readonly, nonatomic) __weak NSArray *allUserPersonas;
-@property(copy, nonatomic) NSString *alternateDSID; // @synthesize alternateDSID=_alternateDSID;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) unsigned long long dataQuota; // @synthesize dataQuota=_dataQuota;
-@property(nonatomic) unsigned long long dataUsed; // @synthesize dataUsed=_dataUsed;
-@property(copy, nonatomic) NSError *debugErrorCausingLogout; // @synthesize debugErrorCausingLogout=_debugErrorCausingLogout;
-@property(copy, nonatomic) NSString *displayName;
-@property(retain, nonatomic) NSError *errorCausingLogout; // @synthesize errorCausingLogout=_errorCausingLogout;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSDate *firstLoginEndDate; // @synthesize firstLoginEndDate=_firstLoginEndDate;
-@property(copy, nonatomic) NSDate *firstLoginStartDate; // @synthesize firstLoginStartDate=_firstLoginStartDate;
-@property(nonatomic) unsigned int gid; // @synthesize gid=_gid;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(nonatomic) _Bool hasDataToSync; // @synthesize hasDataToSync=_hasDataToSync;
-@property(nonatomic) _Bool hasManagedCredentials; // @synthesize hasManagedCredentials=_hasManagedCredentials;
-@property(copy, nonatomic) NSURL *homeDirectoryURL; // @synthesize homeDirectoryURL=_homeDirectoryURL;
-@property(nonatomic) _Bool isAdminUser; // @synthesize isAdminUser=_isAdminUser;
-@property(nonatomic) _Bool isAuditor; // @synthesize isAuditor=_isAuditor;
-@property(nonatomic) _Bool isDisabled; // @synthesize isDisabled=_isDisabled;
-@property(nonatomic) _Bool isLoginUser; // @synthesize isLoginUser=_isLoginUser;
-@property(nonatomic) _Bool isPrimaryUser; // @synthesize isPrimaryUser=_isPrimaryUser;
-@property(nonatomic) _Bool isTransientUser; // @synthesize isTransientUser=_isTransientUser;
-@property(copy, nonatomic) NSArray *languages; // @synthesize languages=_languages;
-@property(copy, nonatomic) NSDate *lastCachedLoginEndDate; // @synthesize lastCachedLoginEndDate=_lastCachedLoginEndDate;
-@property(copy, nonatomic) NSDate *lastCachedLoginStartDate; // @synthesize lastCachedLoginStartDate=_lastCachedLoginStartDate;
-@property(copy, nonatomic) NSDate *lastLoginDate; // @synthesize lastLoginDate=_lastLoginDate;
-@property(copy, nonatomic) NSDate *lastLogoutEndDate; // @synthesize lastLogoutEndDate=_lastLogoutEndDate;
-@property(copy, nonatomic) NSDate *lastLogoutStartDate; // @synthesize lastLogoutStartDate=_lastLogoutStartDate;
-@property(copy, nonatomic) NSDate *lastRemoteAuthDate; // @synthesize lastRemoteAuthDate=_lastRemoteAuthDate;
-@property(readonly, nonatomic) double passcodeBackOffInterval;
-@property(nonatomic) unsigned long long passcodeLockGracePeriod; // @synthesize passcodeLockGracePeriod=_passcodeLockGracePeriod;
-@property(nonatomic) unsigned long long passcodeType; // @synthesize passcodeType=_passcodeType;
-@property(copy, nonatomic) NSURL *photoURL; // @synthesize photoURL=_photoURL;
-@property(nonatomic) _Bool shouldFetchAttributes; // @synthesize shouldFetchAttributes=_shouldFetchAttributes;
 @property(nonatomic) unsigned int uid; // @synthesize uid=_uid;
-@property(copy, nonatomic) NSString *userAuxiliaryString; // @synthesize userAuxiliaryString=_userAuxiliaryString;
-@property(readonly, nonatomic) unsigned long long userType;
-@property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

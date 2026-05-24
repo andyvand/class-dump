@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSDictionary;
 
 @interface HMHAPMetadata
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_version;
-    NSDictionary *_hapChrMap;
-    NSDictionary *_hapSvcMap;
-    NSDictionary *_hapCategoryMap;
 }
 
 + (id);
@@ -20,25 +16,22 @@
 - (void);
 - (void);
 - (void);
+- (id)`;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)";
+- (id)c;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void)DL;
 - (id):(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *hapCategoryMap; // @synthesize hapCategoryMap=_hapCategoryMap;
 @property(retain, nonatomic) NSDictionary *hapChrMap; // @synthesize hapChrMap=_hapChrMap;
-@property(retain, nonatomic) NSDictionary *hapSvcMap; // @synthesize hapSvcMap=_hapSvcMap;
-@property(retain) NSNumber *version; // @synthesize version=_version;
 
 @end
 

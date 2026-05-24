@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     unsigned long long _options;
 }
 
-- (long long);
+- (long long)screenNamesForPerson:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);

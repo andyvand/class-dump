@@ -5,5 +5,9 @@
 //
 
 @protocol SiriUIPresentationDelegate
+- (void);
+- (void)˿;
+- (unsigned long long);
+- (void);
 @end
 

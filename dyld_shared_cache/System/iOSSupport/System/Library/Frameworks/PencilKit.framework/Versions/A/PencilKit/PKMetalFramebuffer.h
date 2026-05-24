@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLDevice, MTLTexture;
+@protocol MTLTexture;
 
 @interface PKMetalFramebuffer
 {
     long long _nonVolatileLockCount;
-    _Bool _isVolatile;
-    _Bool _canBeMadeVolatile;
-    _Bool _memoryless;
-    _Bool _backedByIOSurface;
-    id <MTLTexture> _colorTexture;
-    id <MTLDevice> _device;
-    unsigned long long _pixelFormat;
-    unsigned long long _sampleCount;
-    struct __IOSurface *_ioSurface;
-    long long _blendMode;
-    struct CGSize _size;
-    CDStruct_3ead2808 _clearColor;
 }
 
 - (_Bool);
@@ -35,27 +23,18 @@
 - (void);
 - (struct __IOSurface *);
 - (id);
-- (struct CGSize);
+- (struct CGSize)@;
 - (long long);
 - (id);
-- (CDStruct_3ead2808);
-- (void);
+- (CDStruct_d2b197d1);
+- (void)UIImage"8@"NSError"16;
 - (void);
 - (void)8;
 - (unsigned long long);
-- (unsigned long long)ype;
+- (unsigned long long)inkType;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backedByIOSurface; // @synthesize backedByIOSurface=_backedByIOSurface;
-@property(nonatomic) long long blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) CDStruct_3ead2808 clearColor; // @synthesize clearColor=_clearColor;
 @property(readonly, nonatomic) id <MTLTexture> colorTexture; // @synthesize colorTexture=_colorTexture;
-@property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) struct __IOSurface *ioSurface; // @synthesize ioSurface=_ioSurface;
-@property(readonly, nonatomic) _Bool memoryless; // @synthesize memoryless=_memoryless;
-@property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly, nonatomic) unsigned long long sampleCount; // @synthesize sampleCount=_sampleCount;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

@@ -7,22 +7,20 @@
 @interface AKNoteMarginScroller
 {
     double _minScrollDimension;
-    long long _orientation;
 }
 
 + (id);
 + (_Bool);
 - (void);
-- (double);
+- (double);
 - (void);
 - (struct CGRect);
 - (void);
-- (long long);
-- (void);
+- (long long)setRendererID: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double minScrollDimension; // @synthesize minScrollDimension=_minScrollDimension;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
 
 @end
 

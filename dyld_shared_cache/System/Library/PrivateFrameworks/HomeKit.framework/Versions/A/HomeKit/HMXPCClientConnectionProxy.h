@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface HMXPCClientConnectionProxy
 {
     NSDictionary *_userInfo;
-    CDUnknownBlockType _refreshHandler;
 }
 
 - (id);
@@ -18,17 +17,9 @@
 - (void);
 - (void);
 - (void);
-- (void)st;
+- (void)HMFDigest;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CDUnknownBlockType refreshHandler; // @synthesize refreshHandler=_refreshHandler;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end

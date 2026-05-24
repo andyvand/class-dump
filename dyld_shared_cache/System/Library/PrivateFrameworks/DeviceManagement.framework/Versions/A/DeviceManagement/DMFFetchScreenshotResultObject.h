@@ -11,12 +11,12 @@
     NSData *_screenshotData;
 }
 
-+ (_Bool);
++ (_Bool)! ;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)autocompleteFetchToken;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *screenshotData; // @synthesize screenshotData=_screenshotData;

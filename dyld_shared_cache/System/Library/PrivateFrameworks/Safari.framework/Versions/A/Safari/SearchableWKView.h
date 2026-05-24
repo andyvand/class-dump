@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSString, WKWebsiteDataStore, WebViewController, _WKRemoteObjectRegistry;
-@protocol SearchableWKViewCancelDelegate, SearchableWKViewFullScreenDelegate, SearchableWKViewPlaybackControlsPresenter;
+@protocol SearchableWKViewFullScreenDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SearchableWKView
 {
     _Bool _isInFullscreenMode;
-    id <SearchableWKViewFullScreenDelegate> _fullScreenDelegate;
-    id <SearchableWKViewPlaybackControlsPresenter> _playbackControlsPresenter;
-    id <SearchableWKViewCancelDelegate> _cancelDelegate;
-    unsigned long long _browsingMode;
-    WKWebsiteDataStore *_websiteDataStore;
-    WebViewController *_webViewController;
 }
 
 - (void);
@@ -29,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -41,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -56,36 +49,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)=;
 - (id);
 - (void);
+- (unsigned long long)nection from %{public}@(%d);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void)hP;
 - (void);
 - (void)´(à;
 - (_Bool)H;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long browsingMode; // @synthesize browsingMode=_browsingMode;
-@property(nonatomic) __weak id <SearchableWKViewCancelDelegate> cancelDelegate; // @synthesize cancelDelegate=_cancelDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsTransparentBackground;
 @property(nonatomic) __weak id <SearchableWKViewFullScreenDelegate> fullScreenDelegate; // @synthesize fullScreenDelegate=_fullScreenDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isClosed;
-@property(readonly, nonatomic) unsigned long long pageID;
-@property(readonly) struct OpaqueWKPage *pageRef;
-@property(nonatomic) __weak id <SearchableWKViewPlaybackControlsPresenter> playbackControlsPresenter; // @synthesize playbackControlsPresenter=_playbackControlsPresenter;
-@property(readonly, nonatomic) BrowserViewController *presentingBrowserViewController;
-@property(readonly, nonatomic) _WKRemoteObjectRegistry *remoteObjectRegistry;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak WebViewController *webViewController; // @synthesize webViewController=_webViewController;
-@property(readonly, nonatomic) WKWebsiteDataStore *websiteDataStore; // @synthesize websiteDataStore=_websiteDataStore;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAssetBatch, NSMutableDictionary;
+@class CKDAssetBatch;
 
 @interface CKDTransactionState
 {
     CKDAssetBatch *_assetBatch;
-    NSMutableDictionary *_itemsByAssetId;
-    NSMutableDictionary *_itemsByAssetIdIgnoreRefSignature;
 }
 
 - (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKDAssetBatch *assetBatch; // @synthesize assetBatch=_assetBatch;
-@property(retain, nonatomic) NSMutableDictionary *itemsByAssetId; // @synthesize itemsByAssetId=_itemsByAssetId;
-@property(retain, nonatomic) NSMutableDictionary *itemsByAssetIdIgnoreRefSignature; // @synthesize itemsByAssetIdIgnoreRefSignature=_itemsByAssetIdIgnoreRefSignature;
 
 @end
 

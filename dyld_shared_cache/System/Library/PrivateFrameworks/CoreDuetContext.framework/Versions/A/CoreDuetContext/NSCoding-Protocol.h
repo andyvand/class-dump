@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)edSettingValueUnknown will be reformed to notRequired.;
 @end
 

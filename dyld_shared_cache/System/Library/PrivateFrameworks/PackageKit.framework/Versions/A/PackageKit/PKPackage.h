@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL, PKArchive, PKPackageInfo;
+@class NSURL, PKPackageInfo;
 
 @interface PKPackage
 {
     NSURL *_url;
-    NSDictionary *_options;
-    PKArchive *_archive;
-    PKPackageInfo *_packageInfo;
-    NSDictionary *_componentMap;
-    NSArray *_firmwareBundleComponents;
-    _Bool _populatedSubpaths;
 }
 
 + (id);
@@ -30,18 +24,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
+- (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)(;
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -49,9 +43,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)	;
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -62,14 +56,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) PKArchive *archive;
-@property(readonly) NSURL *fileURL;
-@property(readonly) NSString *packageIdentifier;
 @property(readonly) PKPackageInfo *packageInfo;
-@property(readonly) NSString *packageType;
-@property(readonly) NSString *packageVersion;
-@property(readonly, nonatomic) unsigned long long redeemableHolePunchSpace;
-@property(readonly) NSString *scriptsSubpath;
 
 @end
 

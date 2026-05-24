@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PDFAccessibilityNodePrivate, PDFPage;
-@protocol PDFAccessibilityNodeParent;
+@class PDFAccessibilityNodePrivate, PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNode
@@ -23,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (_Bool);
@@ -44,9 +43,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct _NSRange);
@@ -60,23 +59,23 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (void);
 - (id);
-- (id);
+- (id)addMultipleCallsToCallHistoryWithTransactions: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (struct CGPDFTaggedNode *);
-- (void);
+- (struct CGPDFTaggedNode *)_mergeWithCurrentHomePodAccessory:mediaSystem: /* Error: Ran out of types for this method. */;
+- (void)_handleAccessoryReprovisionedNotification:(id)arg1;
+- (id)HMAccessoryFetchManagedConfigurationProfilesMessage;
+- (_Bool)HMAccessoryActivateCHIPPairingModeAndCreateSetupPayloadStringMessage;
+- (id)pportsNetworkProtection;
+- (void)%@;
+- (id)HMSymptomTypeNeedGeneralFix;
+- (_Bool)teNumber;
+- (id)accessoryAddMS_HH2;
+- (id)Message did not have presenceStatus;
+- (id)r;
+- (id)n(_:) /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)enceSubscriptionsP;
 - (id);
 - (id);
 - (void);
@@ -84,7 +83,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)dynamicViewController:handleDelegateAction:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (int);
@@ -101,20 +100,7 @@ __attribute__((visibility("hidden")))
 - (void)t=dd}16;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altText;
-@property(nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) NSArray *children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGPDFTaggedNode *nodeRef;
 @property(nonatomic) __weak PDFPage *page;
-@property(readonly, nonatomic) __weak id <PDFAccessibilityNodeParent> parent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int type;
 
 @end
 

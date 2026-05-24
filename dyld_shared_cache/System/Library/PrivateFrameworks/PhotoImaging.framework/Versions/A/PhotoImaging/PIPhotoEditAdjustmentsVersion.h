@@ -9,9 +9,6 @@
 @interface PIPhotoEditAdjustmentsVersion
 {
     unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
-    unsigned long long _subMinorVersion;
-    NSString *_platform;
 }
 
 + (id);
@@ -25,19 +22,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ries at school with Taylor;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
-- (void)core: /* Error: Ran out of types for this method. */;
+- (void)setSimilarityScore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly, nonatomic) unsigned long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly, copy, nonatomic) NSString *platform; // @synthesize platform=_platform;
 @property(readonly, nonatomic) __weak NSString *string;
-@property(readonly, nonatomic) unsigned long long subMinorVersion; // @synthesize subMinorVersion=_subMinorVersion;
 
 @end
 

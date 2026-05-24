@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SidebarSearchField
 {
     id <SidebarSearchFieldDelegate> _sidebarSearchFieldDelegate;
-    id _accessibilityOverrideParent;
 }
 
 + (void)Ã4Ð-;
@@ -20,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (id);
 - (void)hP;
 
 // Remaining properties
-@property(nonatomic) __weak id accessibilityOverrideParent; // @synthesize accessibilityOverrideParent=_accessibilityOverrideParent;
 @property(nonatomic) __weak id <SidebarSearchFieldDelegate> sidebarSearchFieldDelegate; // @synthesize sidebarSearchFieldDelegate=_sidebarSearchFieldDelegate;
 
 @end

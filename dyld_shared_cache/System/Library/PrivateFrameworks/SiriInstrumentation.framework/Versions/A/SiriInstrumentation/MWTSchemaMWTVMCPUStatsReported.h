@@ -6,35 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MWTSchemaMWTVMCPUStatsReported : SISchemaInstrumentationMessage
 {
     int _snapshotStage;
-    unsigned long long _cpuTicksSystem;
-    unsigned long long _cpuTicksUser;
-    unsigned long long _cpuTicksIdle;
-    unsigned long long _cpuTicksNice;
-    unsigned long long _compressions;
-    unsigned long long _decompressions;
-    unsigned long long _pageins;
-    unsigned long long _faults;
-    struct {
-        unsigned int snapshotStage:1;
-        unsigned int cpuTicksSystem:1;
-        unsigned int cpuTicksUser:1;
-        unsigned int cpuTicksIdle:1;
-        unsigned int cpuTicksNice:1;
-        unsigned int compressions:1;
-        unsigned int decompressions:1;
-        unsigned int pageins:1;
-        unsigned int faults:1;
-    } _has;
 }
 
 - (int);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -64,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)IA	*?;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -77,10 +56,10 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)ip;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
@@ -89,24 +68,6 @@
 - (id)dAttemptErrorUnderlyingDomain;
 
 // Remaining properties
-@property(nonatomic) unsigned long long compressions; // @synthesize compressions=_compressions;
-@property(nonatomic) unsigned long long cpuTicksIdle; // @synthesize cpuTicksIdle=_cpuTicksIdle;
-@property(nonatomic) unsigned long long cpuTicksNice; // @synthesize cpuTicksNice=_cpuTicksNice;
-@property(nonatomic) unsigned long long cpuTicksSystem; // @synthesize cpuTicksSystem=_cpuTicksSystem;
-@property(nonatomic) unsigned long long cpuTicksUser; // @synthesize cpuTicksUser=_cpuTicksUser;
-@property(nonatomic) unsigned long long decompressions; // @synthesize decompressions=_decompressions;
-@property(nonatomic) unsigned long long faults; // @synthesize faults=_faults;
-@property(nonatomic) _Bool hasCompressions;
-@property(nonatomic) _Bool hasCpuTicksIdle;
-@property(nonatomic) _Bool hasCpuTicksNice;
-@property(nonatomic) _Bool hasCpuTicksSystem;
-@property(nonatomic) _Bool hasCpuTicksUser;
-@property(nonatomic) _Bool hasDecompressions;
-@property(nonatomic) _Bool hasFaults;
-@property(nonatomic) _Bool hasPageins;
-@property(nonatomic) _Bool hasSnapshotStage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long pageins; // @synthesize pageins=_pageins;
 @property(nonatomic) int snapshotStage; // @synthesize snapshotStage=_snapshotStage;
 
 @end

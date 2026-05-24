@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface IMSyndicationAction
 {
     unsigned char _version;
-    unsigned char _syndicationActionType;
-    NSDate *_syndicationStartDate;
-    NSString *_chatGUID;
 }
 
-+ (id);
++ (id)k`;
 + (id);
 + (id);
 + (_Bool);
 - (unsigned char);
 - (unsigned char);
 - (id);
+- (id)h8;
+- (id)U;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)p;
 - (id);
 - (void);
 - (unsigned char);
+- (id)hh8;
 - (id);
-- (id);
-- (id);
+- (id)API from %@;
 - (_Bool);
 - (void);
 - (id);
@@ -39,10 +34,6 @@
 - (void)Q;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;
-@property(readonly, nonatomic) unsigned char syndicatedItemType;
-@property(readonly, nonatomic) unsigned char syndicationActionType; // @synthesize syndicationActionType=_syndicationActionType;
-@property(readonly, nonatomic) NSDate *syndicationStartDate; // @synthesize syndicationStartDate=_syndicationStartDate;
 @property(readonly, nonatomic) unsigned char version; // @synthesize version=_version;
 
 @end

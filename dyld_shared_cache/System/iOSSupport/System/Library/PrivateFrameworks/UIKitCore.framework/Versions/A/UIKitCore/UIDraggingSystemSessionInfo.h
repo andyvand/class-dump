@@ -4,45 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UIDraggingSystemSessionInfo
 {
     _Bool _supportsSystemDrag;
-    unsigned int _sessionIdentifier;
-    int _processIdentifier;
-    NSString *_persistentSceneIdentifier;
-    CDStruct_4c969caf _auditToken;
 }
 
 + (_Bool)UITableView internal inconsistency:attempted to add a drop target gap when one already exists /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (_Bool)nary %s;
+- (void)isturb, attempting to send unavailability receipt or SMS message;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (CDStruct_4c969caf);
-- (unsigned long long);
-- (void)Space:(unsigned int)arg1 searchInfo:ignoresRootContainerClippingRect: /* Error: Ran out of types for this method. */;
-- (_Bool)on;
-- (void)rvers;
+- (CDStruct_6ad76789);
+- (unsigned long long)A;
+- (void)initWithFocusSystem:(unsigned int)arg1 rootContainer:coordinateSpace:searchInfo:ignoresRootContainerClippingRect: /* Error: Ran out of types for this method. */;
+- (_Bool)flushKeyboardOutputOnInputSourceSession;
+- (void)_willBeginHavingAnyObservers;
 - (id)ÿÿÿÿÌ;
 - (void),;
 - (void)èc´eÔfh4i<l mnüop4qrHs4v|y<zü{Dt<dôP<ø8°Hèô4°;
-- (int)yTransformMaxHeight;
+- (int)UISolariumFloatingContentViewModifyTransformMaxHeight;
 - (void)Qc;
 - (id);
 - (void)\ÁÊzh;
 - (unsigned int)×Öl;
 
 // Remaining properties
-@property(nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(copy, nonatomic) NSString *persistentSceneIdentifier; // @synthesize persistentSceneIdentifier=_persistentSceneIdentifier;
-@property(nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(copy, nonatomic) NSString *sceneIdentifier;
 @property(nonatomic) unsigned int sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(nonatomic) _Bool supportsSystemDrag; // @synthesize supportsSystemDrag=_supportsSystemDrag;
 
 @end
 

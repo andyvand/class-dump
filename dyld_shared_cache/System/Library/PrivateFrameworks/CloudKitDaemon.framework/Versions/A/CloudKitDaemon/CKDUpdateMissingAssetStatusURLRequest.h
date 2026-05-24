@@ -6,18 +6,14 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKRecordID, NSArray;
+@class CKRecordID;
 
 @interface CKDUpdateMissingAssetStatusURLRequest : CKDURLRequest
 {
     _Bool _recovered;
-    _Bool _isPackage;
-    CKRecordID *_repairRecordID;
-    NSArray *_assetSizes;
-    NSArray *_assetPutReceipts;
 }
 
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (_Bool);
@@ -29,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)[;
 - (_Bool);
 - (id);
 - (id)D	ÀG´I	8K M	(O;
@@ -40,10 +36,6 @@
 - (void)om backing account %@ or container %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assetPutReceipts; // @synthesize assetPutReceipts=_assetPutReceipts;
-@property(retain, nonatomic) NSArray *assetSizes; // @synthesize assetSizes=_assetSizes;
-@property(nonatomic) _Bool isPackage; // @synthesize isPackage=_isPackage;
-@property(nonatomic) _Bool recovered; // @synthesize recovered=_recovered;
 @property(copy, nonatomic) CKRecordID *repairRecordID; // @synthesize repairRecordID=_repairRecordID;
 
 @end

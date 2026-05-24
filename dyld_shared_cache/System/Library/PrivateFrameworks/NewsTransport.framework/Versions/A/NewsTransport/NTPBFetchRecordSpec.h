@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBCKRecordType;
+@class NSMutableArray;
 
 @interface NTPBFetchRecordSpec
 {
     NSMutableArray *_desiredFields;
-    NSMutableArray *_linkedFields;
-    NTPBCKRecordType *_recordType;
 }
 
-+ (Class);
-+ (Class);
++ (Class)_shuffleSuggestionByKeyAssetUUID;
++ (Class)_presentAlertControllerForCurrentCPLStateIfNeededWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *desiredFields; // @synthesize desiredFields=_desiredFields;
 @property(readonly, nonatomic) _Bool hasRecordType;
-@property(retain, nonatomic) NSMutableArray *linkedFields; // @synthesize linkedFields=_linkedFields;
-@property(retain, nonatomic) NTPBCKRecordType *recordType; // @synthesize recordType=_recordType;
 
 @end
 

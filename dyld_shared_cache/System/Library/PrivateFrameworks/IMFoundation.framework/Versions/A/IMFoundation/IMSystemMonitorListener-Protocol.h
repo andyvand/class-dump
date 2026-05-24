@@ -5,5 +5,13 @@
 //
 
 @protocol IMSystemMonitorListener
+
+@optional
+- (void);
+- (void);
+- (void)Transactions:reply:] /* Error: Ran out of types for this method. */;
+- (void)';
+- (void)h8;
+- (void);
 @end
 

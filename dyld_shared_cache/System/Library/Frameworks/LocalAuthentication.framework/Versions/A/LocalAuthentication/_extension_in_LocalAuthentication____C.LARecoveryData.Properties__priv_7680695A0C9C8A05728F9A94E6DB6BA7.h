@@ -7,7 +7,6 @@
 @interface (extension in LocalAuthentication):__C.LARecoveryData.Properties__priv_7680695A0C9C8A05728F9A94E6DB6BA7
 {
     id uuid;
-    id data;
 }
 
 @end

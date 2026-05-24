@@ -9,25 +9,21 @@
 @interface SPApp
 {
     CSSearchableItem *_item;
-    NSString *_path;
-    NSString *_mdIdentifier;
-    double _modificationTime;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (double);
-- (id);
+- (id)dataset :(id)arg1 literals are not compressible :samples are noisy or too regular 
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *mdIdentifier; // @synthesize mdIdentifier=_mdIdentifier;
-@property(readonly, nonatomic) double modificationTime; // @synthesize modificationTime=_modificationTime;
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end

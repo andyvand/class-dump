@@ -5,5 +5,6 @@
 //
 
 @protocol CNForkJoinResultReportingStrategy
+- (void)H{;
 @end
 

@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiSplitCategoryPicker : UIKeyboardEmojiSplit
 {
     _Bool _whiteText;
-    unsigned long long _currentSelected;
-    long long _lastUsedCategory;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)rtTexttSg;
 - (id);
 - (void);
+- (id)lowDownload was %@, failing local file url retrieval;
+- (void)nt.settings;
 - (id);
 - (void);
 - (_Bool);

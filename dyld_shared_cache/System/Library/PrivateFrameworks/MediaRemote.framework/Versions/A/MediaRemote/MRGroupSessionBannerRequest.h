@@ -11,7 +11,6 @@
 @interface MRGroupSessionBannerRequest : MRBaseBannerRequest
 {
     unsigned char _routeType;
-    NSString *_hostDisplayName;
 }
 
 + (id);
@@ -19,8 +18,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned char);
+- (void)V_claimExpired;
+- (unsigned char)V_clientFailure;
 - (id);
 - (id);
 - (void);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *hostDisplayName; // @synthesize hostDisplayName=_hostDisplayName;
-@property(nonatomic) unsigned char routeType; // @synthesize routeType=_routeType;
 
 @end
 

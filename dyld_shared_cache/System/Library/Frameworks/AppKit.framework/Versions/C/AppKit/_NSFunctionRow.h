@@ -6,47 +6,38 @@
 
 #import <AppKit/NSFunctionRow.h>
 
-@class NSDictionary, NSFunctionRowBackgroundColorView, NSLayoutConstraint, NSLayoutXAxisAnchor, NSViewController, _NSFunctionRowPanel;
+@class NSViewController;
 
 __attribute__((visibility("hidden")))
 @interface _NSFunctionRow : NSFunctionRow
 {
     NSViewController *_viewController;
-    struct __DFRElement *_DFRElement;
-    NSDictionary *_attributes;
-    _NSFunctionRowPanel *_window;
-    NSFunctionRowBackgroundColorView *_rootView;
-    NSLayoutXAxisAnchor *_visualCenterXAnchor;
-    NSLayoutConstraint *_rootWidth;
-    NSLayoutConstraint *_rootHeight;
-    NSLayoutConstraint *_rootVisualCenterX;
-    unsigned long long _status;
 }
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)EnableStark;
+- (void)lidq+FVH2CeOi/ARa0tg;
 - (void);
-- (void);
-- (id);
+- (id){!;
 - (void);
 - (double);
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (struct __DFRElement *);
-- (double);
-- (void);
+- (void)- is_tracker %d domain <%{private}s> owner <%{private}s>, tracker domain <%{private}s>;
+- (id)artworkData;
+- (struct __DFRElement *)eived failure notification;
+- (double)d to mmap TLD info;
+- (void)ic}@) Invalid;
 - (struct __DFRTouchBar *);
 - (void);
 - (id);

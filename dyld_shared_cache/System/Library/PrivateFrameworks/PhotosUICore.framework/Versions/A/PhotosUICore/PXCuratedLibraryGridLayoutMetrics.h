@@ -7,13 +7,6 @@
 @interface PXCuratedLibraryGridLayoutMetrics
 {
     long long _numberOfColumns;
-    double _itemAspectRatio;
-    double _headerAspectRatio;
-    double _screenScale;
-    double _interitemSpacing;
-    long long _style;
-    long long _numberOfPrecedingAssets;
-    struct NSEdgeInsets _padding;
 }
 
 - (void);
@@ -24,26 +17,21 @@
 - (double);
 - (void);
 - (double);
-- (long long);
-- (void);
+- (long long)channelSectionDirectory;
+- (void)textSourceWithFormattedText:(double)arg1 indexPath:dataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
+- (void)color; 
+		} 
+		;
 - (void);
-- (void);
-- (id)ss;
+- (id)invalidateLoadingProgress;
 - (struct NSEdgeInsets)USØ#=;
 - (void)¼÷ÿSíQ¼@=;
 - (long long)lð?;
 
 // Remaining properties
-@property(nonatomic) double headerAspectRatio; // @synthesize headerAspectRatio=_headerAspectRatio;
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
-@property(nonatomic) double itemAspectRatio; // @synthesize itemAspectRatio=_itemAspectRatio;
 @property(nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(nonatomic) long long numberOfPrecedingAssets; // @synthesize numberOfPrecedingAssets=_numberOfPrecedingAssets;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

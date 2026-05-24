@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface SMPathsCache
 {
     NSURL *_cacheLocation;
-    NSMutableDictionary *_persistentCache;
-    NSMutableDictionary *_cache;
 }
 
 + (void);
@@ -30,9 +28,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *cache; // @synthesize cache=_cache;
 @property(retain) NSURL *cacheLocation; // @synthesize cacheLocation=_cacheLocation;
-@property(retain) NSMutableDictionary *persistentCache; // @synthesize persistentCache=_persistentCache;
 
 @end
 

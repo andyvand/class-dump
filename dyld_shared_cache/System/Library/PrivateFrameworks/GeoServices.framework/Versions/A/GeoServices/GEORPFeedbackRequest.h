@@ -4,50 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABSecondPartyPlaceRequestClientMetaData, GEOPDAnalyticMetadata, GEOPDClientMetadata, GEORPClientCapabilities, GEORPDebugSettings, GEORPFeedbackRequestParameters, GEORPFeedbackUserInfo, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackRequest
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _feedbackClientCapabilities;
-    GEOABSecondPartyPlaceRequestClientMetaData *_abClientMetadata;
-    GEOPDAnalyticMetadata *_analyticMetadata;
-    GEORPClientCapabilities *_clientCapabilities;
-    GEOPDClientMetadata *_clientMetadata;
-    GEORPDebugSettings *_debugSettings;
-    NSMutableArray *_displayLanguages;
-    GEORPFeedbackRequestParameters *_feedbackRequestParameters;
-    GEORPFeedbackUserInfo *_userInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _feedbackRequestType;
-    struct {
-        unsigned int has_feedbackRequestType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_feedbackClientCapabilities:1;
-        unsigned int read_abClientMetadata:1;
-        unsigned int read_analyticMetadata:1;
-        unsigned int read_clientCapabilities:1;
-        unsigned int read_clientMetadata:1;
-        unsigned int read_debugSettings:1;
-        unsigned int read_displayLanguages:1;
-        unsigned int read_feedbackRequestParameters:1;
-        unsigned int read_userInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (id);
-+ (Class);
++ (Class)I	;
 + (_Bool)setKnownClientResolvedTypes:(id)arg1 count: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setBundleIdentifiers:(_Bool)arg1;
+- (void)initWithStoreDescription:(int)arg1 readOnly:coordinator: /* Error: Ran out of types for this method. */;
+- (void)initWithStoreDescription:(id)arg1 readOnly:coordinator: /* Error: Ran out of types for this method. */;
+- (void)initWithRegistrar:(int *)arg1 namespaceIdentifier:(unsigned long long)arg2 managedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)deletedRecords;
 - (id);
 - (id);
 - (id);
@@ -59,8 +31,8 @@
 - (id);
 - (int);
 - (id);
-- (int);
-- (id);
+- (int);
+- (id);
 - (int *);
 - (id);
 - (void);
@@ -75,7 +47,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -84,18 +56,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)speechControllerEndRecordInterruption: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)InterleaverIfNeeded];
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)aM;
 - (id);
 - (void);
 - (id);
@@ -106,8 +78,8 @@
 - (id)batchTrafficProbeURL;
 - (id)Lì@;
 - (void)à?l?²°A¬?²ÐBÀ?²Dð?²DL(A²üL<A²P°A²¬RèA²ÔSüA²ØT,B²WtB²ì[pC²\C²°]C²l^¸C²aüC²ðcXD²LdhD²exD²0f¨D²hhìD²ìhE²tj@E²tkTE²¬pF²ÄsF²vðF²lx,G²}ÄG²\~H²ð~ H²|ÔH²ÐèH²ìJ²,J²ÜÓ<J²$Õ\J²ÞäJ²¨ßK²àK²à K²°ä,K²ç<K²îK²ï K²ÜþhL²èL²À	ÜL²ÌM²L(M²ð8M²HM²ä"`M²ü#lM²à&M²Ô+¼M²Ô=üM²@? N²TDN² NN²P¬N²lSÄN²ÔUàN²_ôN²LaO²cO²¸d0O²pfDO²lXO²|wlO²|yO²|O²4~¬O²TÈO² ÜO²TðO²P²,P²t¶P²ôºQ²ÔÉQ²xpR²à#R²°)´R²-èR²p:(id)arg1 üR²p@S²TW$S²üb8S²;
-- (id)oute_length;
-- (id)_at_point;
+- (id)hike_route_length;
+- (id)hide_at_point;
 - (void)ÈÌààÐ;
 - (Class)ÿÿ;
 - (id);
@@ -117,26 +89,7 @@
 - (void)q¬þÛ.9¢¹5;
 
 // Remaining properties
-@property(retain, nonatomic) GEOABSecondPartyPlaceRequestClientMetaData *abClientMetadata;
-@property(retain, nonatomic) GEOPDAnalyticMetadata *analyticMetadata;
-@property(retain, nonatomic) GEORPClientCapabilities *clientCapabilities;
-@property(retain, nonatomic) GEOPDClientMetadata *clientMetadata;
-@property(retain, nonatomic) GEORPDebugSettings *debugSettings;
-@property(retain, nonatomic) NSMutableArray *displayLanguages;
-@property(readonly, nonatomic) int *feedbackClientCapabilities;
-@property(readonly, nonatomic) unsigned long long feedbackClientCapabilitiesCount;
-@property(retain, nonatomic) GEORPFeedbackRequestParameters *feedbackRequestParameters;
-@property(nonatomic) int feedbackRequestType;
-@property(readonly, nonatomic) _Bool hasAbClientMetadata;
-@property(readonly, nonatomic) _Bool hasAnalyticMetadata;
-@property(readonly, nonatomic) _Bool hasClientCapabilities;
-@property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly, nonatomic) _Bool hasDebugSettings;
-@property(readonly, nonatomic) _Bool hasFeedbackRequestParameters;
 @property(nonatomic) _Bool hasFeedbackRequestType;
-@property(readonly, nonatomic) _Bool hasUserInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEORPFeedbackUserInfo *userInfo;
 
 @end
 

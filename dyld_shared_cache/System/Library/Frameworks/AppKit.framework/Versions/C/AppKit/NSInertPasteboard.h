@@ -16,27 +16,27 @@ __attribute__((visibility("hidden")))
 
 + (id)(èK;
 - (_Bool);
-- (id);
+- (id)&;
 - (long long);
-- (unsigned long long);
+- (unsigned long long)32Q40;
+- (long long)_mainDocumentTask;
+- (long long)set_allowsTLSSessionResumption: /* Error: Ran out of types for this method. */;
+- (void)been invalidated;
+- (id)X;
 - (long long);
-- (long long);
-- (void);
-- (id);
-- (long long);
+- (_Bool)eaders;
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (long long)?;
+- (id);
+- (struct __CFPasteboard *)@;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (struct __CFPasteboard *);
-- (_Bool);
-- (id);
+- (id)@;
 - (_Bool);
 - (id);
 - (id);

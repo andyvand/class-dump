@@ -5,20 +5,11 @@
 //
 
 @class VKMapView;
-@protocol MKRotationFilterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MKRotationFilter
 {
     VKMapView *_mapLayer;
-    double _gestureStartAngle;
-    _Bool _userRotatedAwayFromVerticalYaw;
-    double _previousVerticalYawOverride;
-    _Bool _snappedToNorth;
-    _Bool _snappedAtStart;
-    _Bool _snappingEnabled;
-    double _additionalSnappingAngle;
-    id <MKRotationFilterDelegate> _delegate;
 }
 
 - (void);
@@ -31,15 +22,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)Z;
 - (void);
 - (void);
 - (void);
-- (void)ections;
+- (void)connections;
 
 // Remaining properties
-@property(nonatomic) double additionalSnappingAngle; // @synthesize additionalSnappingAngle=_additionalSnappingAngle;
-@property(nonatomic) __weak id <MKRotationFilterDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic, getter=isSnappedToNorth) _Bool snappedToNorth; // @synthesize snappedToNorth=_snappedToNorth;
 
 @end

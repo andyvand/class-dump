@@ -7,17 +7,14 @@
 @interface CNContactPickerUsageTracer
 {
     unsigned long long _countOfContactsExpanded;
-    unsigned long long _countOfGroupsViewed;
-    unsigned long long _countOfLocalSearchesPerformed;
-    unsigned long long _countOfServerSearchesPerformed;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 
 @end
 

@@ -9,10 +9,6 @@
 @interface PIRAWFaceBalance
 {
     CIImage *_inputImage;
-    double _inputOrigI;
-    double _inputOrigQ;
-    double _inputStrength;
-    double _inputWarmth;
 }
 
 + (struct CGColorSpace *);
@@ -29,14 +25,10 @@
 - (id);
 - (void);
 - (id);
-- (void)pColor;
+- (void)smartCropColor;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(nonatomic) double inputOrigI; // @synthesize inputOrigI=_inputOrigI;
-@property(nonatomic) double inputOrigQ; // @synthesize inputOrigQ=_inputOrigQ;
-@property(nonatomic) double inputStrength; // @synthesize inputStrength=_inputStrength;
-@property(nonatomic) double inputWarmth; // @synthesize inputWarmth=_inputWarmth;
 
 @end
 

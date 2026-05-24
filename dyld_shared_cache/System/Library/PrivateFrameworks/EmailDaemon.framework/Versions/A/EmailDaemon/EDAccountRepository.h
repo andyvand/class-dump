@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAccountECAccountTransformer, EDBiomeBlackPearlLogger, EDPersistenceHookRegistry, NSMutableSet, NSString;
-@protocol EDAccountsProvider;
+@class EDAccountECAccountTransformer, NSMutableSet;
 
 @interface EDAccountRepository
 {
     NSMutableSet *_observers;
-    struct os_unfair_lock_s _lock;
-    EDAccountECAccountTransformer *_transformer;
-    id <EDAccountsProvider> _accountsProvider;
-    EDPersistenceHookRegistry *_hookRegistry;
-    EDBiomeBlackPearlLogger *_receiveBiomeCollector;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)rchInfo;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id));
+- (id);
+- (id)EDMessageSearchInfo;
 - (void)obal_data SET read_later_date = (SELECT date FROM read_later WHERE message_global_data.ROWID = read_later.global_message_id);;
 - (void)ingUpdate];
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(retain, nonatomic) EDBiomeBlackPearlLogger *receiveBiomeCollector; // @synthesize receiveBiomeCollector=_receiveBiomeCollector;
-@property(readonly) Class superclass;
 @property(retain) EDAccountECAccountTransformer *transformer; // @synthesize transformer=_transformer;
 
 @end

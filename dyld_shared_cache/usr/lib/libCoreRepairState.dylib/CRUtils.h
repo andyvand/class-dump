@@ -11,8 +11,8 @@
 + (int);
 + (id);
 + (_Bool);
+- (_Bool);;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)ad ssl3 sha1 routines;
 
 @end
 

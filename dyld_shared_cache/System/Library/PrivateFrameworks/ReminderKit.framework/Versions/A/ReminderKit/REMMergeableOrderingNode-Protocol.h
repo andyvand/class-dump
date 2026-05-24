@@ -10,7 +10,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) REMObjectID *accountID;
-@property(retain, nonatomic) REMObjectID *parentOwnerID;
-@property(retain, nonatomic) REMObjectID *parentSubContainerID;
 @end
 

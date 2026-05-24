@@ -4,97 +4,70 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNDowntimeWhitelist, DMFApplicationPolicyMonitor, DMFCommunicationPolicyMonitor, DMFEmergencyModeMonitor, NSArray, NSMapTable, NSObject, NSString, STManagementState;
-@protocol OS_dispatch_queue;
+@class CNContactStore, NSMapTable;
 
 @interface STConversation
 {
     NSMapTable *_contextByHandles;
-    NSObject<OS_dispatch_queue> *_stateChangeQueue;
-    NSObject *_didFetchInitialStateLock;
-    _Bool _isThirdPartyBundleIdentifier;
-    _Bool _emergencyModeEnabled;
-    _Bool _didFetchInitialScreenTimePolicyState;
-    _Bool _didFetchInitialApplicationState;
-    _Bool _didFetchInitialEmergencyModeState;
-    _Bool _didFetchInitialThirdPartyApplicationState;
-    _Bool _didFetchManagingGuardianState;
-    int _policyNotifyToken;
-    int _emergencyModeNotifyToken;
-    CNContactStore *_contactStore;
-    CNDowntimeWhitelist *_whitelist;
-    STManagementState *_managementState;
-    DMFCommunicationPolicyMonitor *_communicationPolicyMonitor;
-    DMFApplicationPolicyMonitor *_thirdPartyApplicationPolicyMonitor;
-    NSString *_bundleIdentifier;
-    NSString *_processName;
-    long long _generalScreenTimePolicy;
-    long long _whileLimitedPolicy;
-    unsigned long long _currentApplicationState;
-    long long _currentThirdPartyApplicationState;
-    DMFEmergencyModeMonitor *_emergencyModeMonitor;
-    STConversation *_me;
-    CDUnknownBlockType _conversationCompletionHandler;
-    NSArray *_managingParentAppleIDs;
 }
 
-+ (void);
++ (void)atus INTEGER NOT NULL DEFAULT 0);
 - (void);
 - (id);
 - (void);
+- (void),@;
+- (_Bool)C3DRendererContextGetBooleanValueForKey;
+- (void)ngent of (2n+1)*pi/2 is infinite;
+- (id);
 - (void);
+- (void);
+- (void)_;
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)_imageDescriptionPopover;
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)a;
 - (id);
 - (_Bool);
-- (int);
-- (void);
+- (int)setAgeVerificationStateInternal: /* Error: Ran out of types for this method. */;
+- (void)_existingPairingCompletionHandlers;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)MPMusicPlayerPlayParameters;
+- (_Bool)bject has no identifiers);
 - (id);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)safari_browserSharedDefaults;
+- (void)initWithColorName:(_Bool)arg1 red:green:blue:alpha:accessibilityName: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
@@ -105,42 +78,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)leInViewport(e){const t=e.getBoundingClientRect();if(!(t.top<window.innerHeight&&t.left<window.innerWidth&&t.bottom>0&&t.right>0))return!1;const n={x:t.left+t.width/2,y:t.top+t.height/2};let o=e,i=document.elementFromPoint(n.x,n.y);if(null==i)return!1;do{if(i===o)return!0}while(o=o.parentNode);do{if(i===e)return!0}while(i=i.parentNode);return!1}function elementIsHidden(e){const t=window.getComputedStyle(e);return'none'===t.display||'visible'!==t.visibility||'0'===t.opacity}function elementOriginPagesFromViewport(e){let t=0,n=0;return e.top<window.pageYOffset?t=window.pageYOffset-e.top:e.top>window.pageYOffset+window.innerHeight&&(t=e.top-window.pageYOffset-window.innerHeight),e.left<window.pageXOffset?n=window.pageXOffset-e.left:e.left>window.pageXOffset+window.innerWidth&&(n=e.left-window.pageXOffset-window.innerWidth),t=Math.floor(t/window.innerHeight),n=Math.floor(n/window.innerWidth),Math.max(t,n)}retrieveNodeInformation(); /* Error: Ran out of types for this method. */;
 - (void)@ù
 × ;
-- (id)e;
+- (id)deviceName;
 - (void);
 - (id)reData Validation for update on Blueprint failed with:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) DMFCommunicationPolicyMonitor *communicationPolicyMonitor; // @synthesize communicationPolicyMonitor=_communicationPolicyMonitor;
 @property(readonly) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(copy) CDUnknownBlockType conversationCompletionHandler; // @synthesize conversationCompletionHandler=_conversationCompletionHandler;
-@property unsigned long long currentApplicationState; // @synthesize currentApplicationState=_currentApplicationState;
-@property long long currentThirdPartyApplicationState; // @synthesize currentThirdPartyApplicationState=_currentThirdPartyApplicationState;
-@property _Bool didFetchInitialApplicationState; // @synthesize didFetchInitialApplicationState=_didFetchInitialApplicationState;
-@property _Bool didFetchInitialEmergencyModeState; // @synthesize didFetchInitialEmergencyModeState=_didFetchInitialEmergencyModeState;
-@property _Bool didFetchInitialScreenTimePolicyState; // @synthesize didFetchInitialScreenTimePolicyState=_didFetchInitialScreenTimePolicyState;
-@property _Bool didFetchInitialThirdPartyApplicationState; // @synthesize didFetchInitialThirdPartyApplicationState=_didFetchInitialThirdPartyApplicationState;
-@property _Bool didFetchManagingGuardianState; // @synthesize didFetchManagingGuardianState=_didFetchManagingGuardianState;
-@property _Bool emergencyModeEnabled; // @synthesize emergencyModeEnabled=_emergencyModeEnabled;
-@property(retain) DMFEmergencyModeMonitor *emergencyModeMonitor; // @synthesize emergencyModeMonitor=_emergencyModeMonitor;
-@property(readonly) int emergencyModeNotifyToken; // @synthesize emergencyModeNotifyToken=_emergencyModeNotifyToken;
-@property long long generalScreenTimePolicy; // @synthesize generalScreenTimePolicy=_generalScreenTimePolicy;
-@property(readonly) _Bool isThirdPartyBundleIdentifier; // @synthesize isThirdPartyBundleIdentifier=_isThirdPartyBundleIdentifier;
-@property(retain) STManagementState *managementState; // @synthesize managementState=_managementState;
-@property(retain, nonatomic) NSArray *managingParentAppleIDs; // @synthesize managingParentAppleIDs=_managingParentAppleIDs;
-@property(retain) STConversation *me; // @synthesize me=_me;
-@property(readonly) int policyNotifyToken; // @synthesize policyNotifyToken=_policyNotifyToken;
-@property(readonly, copy) NSString *processName; // @synthesize processName=_processName;
-@property(retain) DMFApplicationPolicyMonitor *thirdPartyApplicationPolicyMonitor; // @synthesize thirdPartyApplicationPolicyMonitor=_thirdPartyApplicationPolicyMonitor;
-@property long long whileLimitedPolicy; // @synthesize whileLimitedPolicy=_whileLimitedPolicy;
-@property(readonly) CNDowntimeWhitelist *whitelist; // @synthesize whitelist=_whitelist;
 
 @end
 

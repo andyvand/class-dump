@@ -10,15 +10,11 @@ __attribute__((visibility("hidden")))
 @interface LUHostTextQueryContext
 {
     NSString *_title;
-    NSString *_identifier;
-    NSString *_userAgent;
-    long long _queryID;
-    NSString *_queryString;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -29,18 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long queryID; // @synthesize queryID=_queryID;
-@property(retain, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

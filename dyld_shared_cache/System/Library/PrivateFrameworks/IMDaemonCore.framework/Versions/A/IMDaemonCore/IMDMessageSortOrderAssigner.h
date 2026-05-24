@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (id)tLastSentDowngradeRequestSinceLoadDate:(id)arg1;
+- (id)setLastSentDowngradeRequestSinceLoadDate:(id)arg1;
 
 @end
 

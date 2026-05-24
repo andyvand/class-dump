@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VNCoreSceneUnderstandingDetectorTaxonomy
 {
     NSArray *_labels;
-    NSDictionary *_classificationMetricsForLabelDictionary;
 }
 
 + (id);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)VNCreateFaceprintRequest;
 
 // Remaining properties
 @property(readonly, copy) NSArray *labels; // @synthesize labels=_labels;

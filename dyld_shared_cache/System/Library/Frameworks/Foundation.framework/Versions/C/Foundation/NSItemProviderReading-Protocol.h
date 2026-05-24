@@ -5,5 +5,6 @@
 //
 
 @protocol NSItemProviderReading
++ (id)console user %s admin;
 @end
 

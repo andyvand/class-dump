@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TDElementProduction, TDRenditionSpec;
+@class TDElementProduction;
 
 @interface TDSlice
 {
@@ -18,11 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect primitiveSliceRect;
 @property(retain, nonatomic) TDElementProduction *production; // @dynamic production;
-@property(retain, nonatomic) TDRenditionSpec *rendition; // @dynamic rendition;
-@property(nonatomic) struct CGRect sliceRect; // @dynamic sliceRect;
-@property(retain, nonatomic) NSString *sliceRectString; // @dynamic sliceRectString;
 
 @end
 

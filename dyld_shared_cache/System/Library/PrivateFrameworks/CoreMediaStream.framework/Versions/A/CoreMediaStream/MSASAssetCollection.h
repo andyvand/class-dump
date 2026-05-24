@@ -4,61 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface MSASAssetCollection
 {
     _Bool _hasComments;
-    _Bool _isDeletable;
-    _Bool _isMine;
-    NSString *_GUID;
-    NSString *_ctag;
-    NSString *_albumGUID;
-    NSArray *_assets;
-    NSString *_fileName;
-    NSString *_path;
-    id _userInfo;
-    NSDictionary *_metadata;
-    long long _photoNumber;
-    NSDate *_timestamp;
-    NSString *_personID;
-    NSString *_fullName;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_email;
 }
 
-+ (id);
++ (id)";
 + (id);
 + (_Bool);
-- (long long);
-- (id);
-- (_Bool);
+- (long long)Error:unable to deregister from event notifications on accessory (its weak pointer went to nil) /* Error: Ran out of types for this method. */;
+- (id)ociated group identifier:(id)arg1 %@ for group identifier:(id)arg2 %@;
+- (_Bool)get participant accessory uuid from topic:%@ /* Error: Ran out of types for this method. */;
+- (void)quality value:(long long)arg1 %lu;
+- (void)video resolution:(_Bool)arg1 %@;
+- (id)butes:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)وبكم;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)odeListener;
 - (void);
 - (void);
 - (_Bool);
@@ -66,42 +49,25 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)exception;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) NSString *albumGUID; // @synthesize albumGUID=_albumGUID;
-@property(retain, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(retain, nonatomic) NSString *ctag; // @synthesize ctag=_ctag;
-@property(retain, nonatomic) NSString *email; // @synthesize email=_email;
-@property(retain, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(nonatomic) _Bool hasComments; // @synthesize hasComments=_hasComments;
-@property(nonatomic) _Bool isDeletable; // @synthesize isDeletable=_isDeletable;
-@property(nonatomic) _Bool isMine; // @synthesize isMine=_isMine;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(nonatomic) long long photoNumber; // @synthesize photoNumber=_photoNumber;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

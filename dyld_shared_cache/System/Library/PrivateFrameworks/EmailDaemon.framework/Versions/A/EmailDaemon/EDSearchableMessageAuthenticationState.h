@@ -12,7 +12,7 @@
 - (id);
 - (void);
 - (id);
-- (void)nnectionNestedBlockFailed;
+- (void)_EDPersistenceDatabaseConnectionNestedBlockFailed;
 
 @end
 

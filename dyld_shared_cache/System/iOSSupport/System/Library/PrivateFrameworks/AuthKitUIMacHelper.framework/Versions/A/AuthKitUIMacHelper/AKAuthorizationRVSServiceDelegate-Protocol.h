@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationRVSServiceDelegate
+- (void)stopAccessingSecurityScopedResource;
 @end
 

@@ -6,21 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLRouterSchemaNLRouterPromptGenerated : SISchemaInstrumentationMessage
 {
     NSArray *_components;
-    NSArray *_droppedComponents;
-    unsigned int _totalSizeInTokens;
-    unsigned int _estimatedSizeInTokens;
-    struct {
-        unsigned int totalSizeInTokens:1;
-        unsigned int estimatedSizeInTokens:1;
-    } _has;
 }
 
-- (unsigned int);
+- (unsigned int)sA5;
 - (void);
 - (void);
 - (void);
@@ -30,20 +23,20 @@
 - (_Bool);
 - (unsigned int);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)?רc;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)essl-2.2/crypto/ocsp/ocsp_vfy.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -59,12 +52,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(copy, nonatomic) NSArray *droppedComponents; // @synthesize droppedComponents=_droppedComponents;
-@property(nonatomic) unsigned int estimatedSizeInTokens; // @synthesize estimatedSizeInTokens=_estimatedSizeInTokens;
-@property(nonatomic) _Bool hasEstimatedSizeInTokens;
-@property(nonatomic) _Bool hasTotalSizeInTokens;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int totalSizeInTokens; // @synthesize totalSizeInTokens=_totalSizeInTokens;
 
 @end
 

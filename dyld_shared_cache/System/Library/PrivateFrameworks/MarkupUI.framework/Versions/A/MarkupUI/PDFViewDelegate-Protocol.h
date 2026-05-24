@@ -5,5 +5,8 @@
 //
 
 @protocol PDFViewDelegate
+
+@optional
+- (double)l;
 @end
 

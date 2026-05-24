@@ -6,22 +6,20 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SFClockImage : SFImage
 {
     NSNumber *_hour;
-    NSNumber *_minute;
-    NSNumber *_second;
 }
 
 + (_Bool);
-- (id);
+- (id)relateIdentifiers:(id)arg1 type:toParentIdentifiers:parentVersionHash:childKey:order: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)TLAlertTopicEmergencyNonInterrupting;
+- (id):(id)arg1 8Q16Q24;
+- (id)e:%@; localIdentifier:%@; libraryURL:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -33,31 +31,7 @@
 - (id)¶Öê;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *hour; // @synthesize hour=_hour;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(copy, nonatomic) NSNumber *minute; // @synthesize minute=_minute;
-@property(nonatomic) double scale;
-@property(copy, nonatomic) NSNumber *second; // @synthesize second=_second;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

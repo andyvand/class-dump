@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionSystemHighlighter
 {
     _Bool _blinderViewEnabled;
-    UIView *_initialSnapshotView;
-    UIView *_updatedSnapshotView;
-    UIView *_blinderView;
 }
 
+- (id);
+- (void);
+- (void)_filteredOptimizationOptions;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)"IDSService"16@"IDSAccount"24@"NSData"32@"NSString"40@"IDSMessageContext"48;
+- (void)syncPendingDeletionWithCompletion:(id)arg1;
+- (_Bool)initWithMessageStore:chatRegistry:recents:IDSService:storageController:messageContext: /* Error: Ran out of types for this method. */;
+- (id)initWithMessageStore:chatRegistry:recents:IDSService: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void)MetricsTraitDefinition;
+- (void)h handler (%@);
+- (void)_UIBarButtonItemMetricsTraitDefinition;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *blinderView; // @synthesize blinderView=_blinderView;
-@property(nonatomic) _Bool blinderViewEnabled; // @synthesize blinderViewEnabled=_blinderViewEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIView *initialSnapshotView; // @synthesize initialSnapshotView=_initialSnapshotView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *updatedSnapshotView; // @synthesize updatedSnapshotView=_updatedSnapshotView;
 
 @end
 

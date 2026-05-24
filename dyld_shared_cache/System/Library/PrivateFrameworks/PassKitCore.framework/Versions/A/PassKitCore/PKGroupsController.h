@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSSet, NSString, PKCatalog, PKPassLibrary, PKPaymentService;
-@protocol PKGroupsControllerDelegate;
+@class PKPassLibrary;
 
 @interface PKGroupsController
 {
     PKPassLibrary *_passLibrary;
-    PKPaymentService *_paymentService;
-    unsigned long long _filters;
-    unsigned long long _passTypeMask;
-    NSSet *_allowedPassUniqueIDs;
-    NSMutableArray *_groups;
-    NSMutableDictionary *_groupsByGroupID;
-    NSMutableDictionary *_indicesByGroupID;
-    NSMutableDictionary *_groupIDsByPassUniqueID;
-    NSMutableDictionary *_groupIDsByExpiredPassUniqueID;
-    _Bool _suppressRemoteUpdates;
-    _Bool _enqueueRemoteUpdates;
-    PKCatalog *_catalogBeforeReordering;
-    NSMutableArray *_enqueuedUpdates;
-    NSArray *_localPasses;
-    NSSet *_expressPassConfigurations;
-    _Bool _limitedMode;
-    _Bool _activePassesOnly;
-    int _expressPassesInformationToken;
-    _Bool _reorderingEnabled;
-    _Bool _shouldSeparatePaymentPasses;
-    NSArray *_filteredPassUniqueIDs;
-    NSArray *_expiredSectionPasses;
-    NSMutableDictionary *_passAnnotationsByUniqueId;
-    id <PKGroupsControllerDelegate> _delegate;
 }
 
 - (void);
@@ -59,7 +34,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (long long);
@@ -71,29 +46,16 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (void);
+- (id)4);
 - (id);
-- (id);
-- (void)nCamera;
+- (void)scanCamera;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKGroupsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *expiredSectionPasses; // @synthesize expiredSectionPasses=_expiredSectionPasses;
-@property(readonly, nonatomic) NSArray *filteredPassUniqueIDs; // @synthesize filteredPassUniqueIDs=_filteredPassUniqueIDs;
-@property(readonly, nonatomic) _Bool filteringEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *passAnnotationsByUniqueId; // @synthesize passAnnotationsByUniqueId=_passAnnotationsByUniqueId;
 @property(nonatomic) _Bool reorderingEnabled; // @synthesize reorderingEnabled=_reorderingEnabled;
-@property(nonatomic) _Bool shouldSeparatePaymentPasses; // @synthesize shouldSeparatePaymentPasses=_shouldSeparatePaymentPasses;
-@property(readonly) Class superclass;
 
 @end
 

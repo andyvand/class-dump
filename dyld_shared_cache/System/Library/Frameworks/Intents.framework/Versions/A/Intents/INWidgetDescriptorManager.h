@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INWatchdogTimer, NSMutableArray, NSObject, NSSet;
-@protocol OS_dispatch_queue;
+@class NSSet;
 
 @interface INWidgetDescriptorManager
 {
     _Bool _observing;
-    NSMutableArray *_completionHandlers;
-    INWatchdogTimer *_watchdogTimer;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSSet *_widgetDescriptors;
 }
 
 + (id);
@@ -23,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
-- (void)entResponseCodeFailureOngoingWorkout;
+- (void)INStartWorkoutIntentResponseCodeFailureOngoingWorkout;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *widgetDescriptors; // @synthesize widgetDescriptors=_widgetDescriptors;

@@ -6,47 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class CLLocation, NSDate, NSMapTable, NSMutableSet, NSNumber, RTAuthorizationManager, RTInvocationDispatcher, RTLearnedLocationStore, RTLocationAwarenessManagerConfig, RTLocationAwarenessMetrics, RTLocationManager, RTMetricManager, RTMotionActivityManager, RTPowerAssertion, RTTimer, RTTimerManager, RTWiFiManager, RTXPCActivityManager;
+@class RTLocationAwarenessMetrics;
 
 @interface RTLocationAwarenessManager : RTService
 {
     _Bool _activeRequestInterrupted;
-    _Bool _activeRequestFulfilled;
-    _Bool _activeRequestCoarseLocationReceived;
-    _Bool _activeRequestLocationServiceOn;
-    _Bool _activeRequestRoutineOn;
-    _Bool _activeRequestWifiOn;
-    _Bool _requestedHighAccuracyLocation;
-    _Bool _requestedFixedRateLocation;
-    RTLocationAwarenessMetrics *_metrics;
-    RTMetricManager *_metricManager;
-    RTAuthorizationManager *_authorizationManager;
-    RTWiFiManager *_wifiManager;
-    CLLocation *_lastLocationAnyPositive;
-    CLLocation *_lastLocationLessThan200m;
-    CLLocation *_lastLocationLessThan55m;
-    CLLocation *_lastLocationLessThan20m;
-    CLLocation *_lastLocationLessThan10m;
-    NSDate *_scheduledHeartbeatFiringTime;
-    NSDate *_scheduledRestTimerFiringTime;
-    RTLocationAwarenessManagerConfig *_config;
-    NSMapTable *_requesterToHeartbeatBucket;
-    NSMapTable *_heartbeatBucketToRequesters;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationManager *_locationManager;
-    RTTimer *_heartbeatTimer;
-    RTTimer *_restTimer;
-    RTTimerManager *_timerManager;
-    NSDate *_activeOnset;
-    NSNumber *_minHeartbeatBucket;
-    CLLocation *_lastValidLocation;
-    RTMotionActivityManager *_motionActivityManager;
-    RTPowerAssertion *_xpcActivityPowerAssertion;
-    RTXPCActivityManager *_xpcActivityManager;
-    NSDate *_stationaryStartTimestamp;
-    RTInvocationDispatcher *_heartbeatBuffer;
-    NSMutableSet *_highAccuracyLocationRequesters;
-    NSMutableSet *_fixedRateLocationRequesters;
 }
 
 + (id);
@@ -54,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -63,8 +27,8 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)$;
+- (id)gth %lu;
 - (id);
 - (id);
 - (id);
@@ -112,11 +76,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)hh8;
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (double);
 - (void);
@@ -127,49 +91,49 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)off of %@) with configuration %@;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void)0@ù
 × ;
 - (_Bool)ù
 × ;
 - (void)ONavigationRouteSummary"24;
-- (void)rt:end: /* Error: Ran out of types for this method. */;
-- (id)oryToString:(double)arg1;
-- (void)wFliesETA:(id)arg1;
-- (id)er;
-- (void)shold_m;
-- (id)LLocationCoordinate2D: /* Error: Ran out of types for this method. */;
+- (void)visitsWithDwellTimeBetweenDateRange:start:end: /* Error: Ran out of types for this method. */;
+- (id)triggerSOSCategoryToString:(double)arg1;
+- (void)setPreviousCrowFliesETA:(id)arg1;
+- (id)_watchdogManager;
+- (void)_distanceThreshold_m;
+- (id)initWithCLLocationCoordinate2D: /* Error: Ran out of types for this method. */;
 - (void)Ð;
 - (id)ô;
 - (id);
-- (void)gestionSelected_configurationModified;
-- (id)nsitionCount;
-- (void)uteDeviationTriggeredKey;
+- (void)suggestionSelected_configurationModified;
+- (id)transitionCount;
+- (void)RTDefaultsSessionMetricManagerRouteDeviationTriggeredKey;
 - (id)MetadataWithOptions:handler:] /* Error: Ran out of types for this method. */;
 - (void)utine.RelabelerPersisterRun;
-- (void)Pruning;
+- (void)numPlacesAfterDailyPatternsPruning;
 - (id);
 - (void)TTripClusterSchedule from scheduleMO;
 - (void)ete;
@@ -177,43 +141,7 @@
 - (id)@, managedObject, %@, is not supported by RTUserCuration+CoreDataTransformable (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *activeOnset; // @synthesize activeOnset=_activeOnset;
-@property(nonatomic) _Bool activeRequestCoarseLocationReceived; // @synthesize activeRequestCoarseLocationReceived=_activeRequestCoarseLocationReceived;
-@property(nonatomic) _Bool activeRequestFulfilled; // @synthesize activeRequestFulfilled=_activeRequestFulfilled;
-@property(nonatomic) _Bool activeRequestInterrupted; // @synthesize activeRequestInterrupted=_activeRequestInterrupted;
-@property(nonatomic) _Bool activeRequestLocationServiceOn; // @synthesize activeRequestLocationServiceOn=_activeRequestLocationServiceOn;
-@property(nonatomic) _Bool activeRequestRoutineOn; // @synthesize activeRequestRoutineOn=_activeRequestRoutineOn;
-@property(nonatomic) _Bool activeRequestWifiOn; // @synthesize activeRequestWifiOn=_activeRequestWifiOn;
-@property(retain, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(readonly, nonatomic) RTLocationAwarenessManagerConfig *config; // @synthesize config=_config;
-@property(retain, nonatomic) NSMutableSet *fixedRateLocationRequesters; // @synthesize fixedRateLocationRequesters=_fixedRateLocationRequesters;
-@property(retain, nonatomic) NSMapTable *heartbeatBucketToRequesters; // @synthesize heartbeatBucketToRequesters=_heartbeatBucketToRequesters;
-@property(copy, nonatomic) RTInvocationDispatcher *heartbeatBuffer; // @synthesize heartbeatBuffer=_heartbeatBuffer;
-@property(retain, nonatomic) RTTimer *heartbeatTimer; // @synthesize heartbeatTimer=_heartbeatTimer;
-@property(retain, nonatomic) NSMutableSet *highAccuracyLocationRequesters; // @synthesize highAccuracyLocationRequesters=_highAccuracyLocationRequesters;
-@property(retain, nonatomic) CLLocation *lastLocationAnyPositive; // @synthesize lastLocationAnyPositive=_lastLocationAnyPositive;
-@property(retain, nonatomic) CLLocation *lastLocationLessThan10m; // @synthesize lastLocationLessThan10m=_lastLocationLessThan10m;
-@property(retain, nonatomic) CLLocation *lastLocationLessThan200m; // @synthesize lastLocationLessThan200m=_lastLocationLessThan200m;
-@property(retain, nonatomic) CLLocation *lastLocationLessThan20m; // @synthesize lastLocationLessThan20m=_lastLocationLessThan20m;
-@property(retain, nonatomic) CLLocation *lastLocationLessThan55m; // @synthesize lastLocationLessThan55m=_lastLocationLessThan55m;
-@property(retain, nonatomic) CLLocation *lastValidLocation; // @synthesize lastValidLocation=_lastValidLocation;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
 @property(retain, nonatomic) RTLocationAwarenessMetrics *metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) NSNumber *minHeartbeatBucket; // @synthesize minHeartbeatBucket=_minHeartbeatBucket;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(nonatomic) _Bool requestedFixedRateLocation; // @synthesize requestedFixedRateLocation=_requestedFixedRateLocation;
-@property(nonatomic) _Bool requestedHighAccuracyLocation; // @synthesize requestedHighAccuracyLocation=_requestedHighAccuracyLocation;
-@property(retain, nonatomic) NSMapTable *requesterToHeartbeatBucket; // @synthesize requesterToHeartbeatBucket=_requesterToHeartbeatBucket;
-@property(retain, nonatomic) RTTimer *restTimer; // @synthesize restTimer=_restTimer;
-@property(retain, nonatomic) NSDate *scheduledHeartbeatFiringTime; // @synthesize scheduledHeartbeatFiringTime=_scheduledHeartbeatFiringTime;
-@property(retain, nonatomic) NSDate *scheduledRestTimerFiringTime; // @synthesize scheduledRestTimerFiringTime=_scheduledRestTimerFiringTime;
-@property(copy, nonatomic) NSDate *stationaryStartTimestamp; // @synthesize stationaryStartTimestamp=_stationaryStartTimestamp;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(retain, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(retain, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
-@property(retain, nonatomic) RTPowerAssertion *xpcActivityPowerAssertion; // @synthesize xpcActivityPowerAssertion=_xpcActivityPowerAssertion;
 
 @end
 

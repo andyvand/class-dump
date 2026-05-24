@@ -11,26 +11,24 @@
 @interface BPSFilter : BMBookmarkablePublisher
 {
     CDUnknownBlockType _isIncluded;
-    BPSPublisher *_upstream;
 }
 
 + (id);
 + (id);
-- (void);
-- (id);
+- (void)applemusic;
+- (id)service:didSwitchActivePairedDevice:acknowledgementBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (id)ùÑð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType isIncluded; // @synthesize isIncluded=_isIncluded;
 @property(retain, nonatomic) BPSPublisher *upstream; // @synthesize upstream=_upstream;
 
 @end

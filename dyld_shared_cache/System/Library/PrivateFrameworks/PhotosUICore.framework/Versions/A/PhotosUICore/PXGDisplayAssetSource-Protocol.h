@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PXDisplayAssetFetchResult, PXGDisplayAssetRequestObserver;
+
 @protocol PXGDisplayAssetSource
+- (id <PXDisplayAssetFetchResult>)<;
+- (unsigned long long);
+
+@optional
+- (id <PXGDisplayAssetRequestObserver>);
 @end
 

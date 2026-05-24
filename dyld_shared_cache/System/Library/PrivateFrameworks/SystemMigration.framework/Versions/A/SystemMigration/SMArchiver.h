@@ -9,21 +9,19 @@
 @interface SMArchiver
 {
     NSURL *sourcePath;
-    NSURL *destinationPath;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)p;
 - (void);
-- (id);
+- (id)xpcConnection;
 - (_Bool);
 - (_Bool);
 - (void)°!Bù	1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSURL *destinationPath; // @synthesize destinationPath;
 @property(retain) NSURL *sourcePath; // @synthesize sourcePath;
 
 @end

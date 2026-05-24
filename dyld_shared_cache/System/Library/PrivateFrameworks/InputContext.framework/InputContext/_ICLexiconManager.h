@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSObject, _ICNamedEntityStore;
-@protocol OS_dispatch_queue;
-
 @interface _ICLexiconManager
 {
-    struct _opaque_pthread_mutex_t _contactsCallbackLock;
-    struct _opaque_pthread_mutex_t _namedEntityCallbackLock;
-    NSArray *_sources;
-    NSMutableDictionary *_contacts;
-    NSMutableArray *_contactObservers;
-    NSMutableArray *_namedEntitiesUpdateObservers;
-    int _contactChangeCount;
-    int _contactLoadState;
-    int _namedEntityLoadState;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    _ICNamedEntityStore *_namedEntityStore;
+    struct _opaque_pthread_mutex_t {
+        long long __sig;
+        char __opaque[56];
+    } _contactsCallbackLock;
 }
 
 + (unsigned long long);
@@ -48,10 +38,10 @@
 - (void);
 - (void);
 - (void);
-- (id)óªôªàªì;
+- (id);
 - (unsigned long long);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)�S;
 - (void);
 - (void);
 - (int);
@@ -59,22 +49,19 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)available background downloads;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property int contactLoadState; // @synthesize contactLoadState=_contactLoadState;
-@property int namedEntityLoadState; // @synthesize namedEntityLoadState=_namedEntityLoadState;
-@property(retain, nonatomic) _ICNamedEntityStore *namedEntityStore; // @synthesize namedEntityStore=_namedEntityStore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

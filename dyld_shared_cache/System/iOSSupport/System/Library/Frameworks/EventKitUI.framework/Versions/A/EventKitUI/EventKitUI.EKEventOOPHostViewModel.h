@@ -7,16 +7,10 @@
 @interface EventKitUI.EKEventOOPHostViewModel
 {
     id remoteUIConfigured;
-    id _configuration;
-    id _event;
-    id layoutDirection;
-    id sizeCategory;
-    id viewHierarchy;
-    id hasInProcessNavBar;
 }
 
 - (id);
-- (void)leView: /* Error: Ran out of types for this method. */;
+- (void)indexPathForPreferredFocusedViewInTableView: /* Error: Ran out of types for this method. */;
 
 @end
 

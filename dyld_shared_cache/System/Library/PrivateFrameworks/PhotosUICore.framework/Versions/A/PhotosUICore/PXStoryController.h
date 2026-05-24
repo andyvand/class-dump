@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PXObservable, PXUpdater;
-@protocol OS_dispatch_queue, PXStoryQueueParticipant;
+@class NSObject, PXUpdater;
+@protocol OS_dispatch_queue;
 
 @interface PXStoryController
 {
     NSObject<OS_dispatch_queue> *_storyQueue;
-    PXObservable<PXStoryQueueParticipant> *_observableModel;
-    PXUpdater *_updater;
 }
 
 - (id);
@@ -20,23 +18,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)canOpenURL: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)MRImageManagerTimeToWaitBeforeCleaningUpPictureCache;
 - (void)Thumbnails;
 - (void)Xf;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak PXObservable<PXStoryQueueParticipant> *observableModel; // @synthesize observableModel=_observableModel;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end

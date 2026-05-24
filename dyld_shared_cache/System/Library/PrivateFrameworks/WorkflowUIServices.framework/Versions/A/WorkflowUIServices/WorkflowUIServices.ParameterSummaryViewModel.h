@@ -7,10 +7,6 @@
 @interface WorkflowUIServices.ParameterSummaryViewModel
 {
     id templateDataSource;
-    id parameterTemplateMappingHandler;
-    id delegate;
-    id pendingSelectNextParameterUpdate;
-    id parameters;
 }
 
 - (id);

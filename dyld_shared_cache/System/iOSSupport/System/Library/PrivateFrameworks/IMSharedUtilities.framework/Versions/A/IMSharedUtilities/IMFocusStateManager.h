@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DNDState, DNDStateService, IMFocusStateSnapshot, NSHashTable, NSString;
+@class DNDStateService;
 
 @interface IMFocusStateManager
 {
     _Bool _userSwitchForFocusFilteringIsEnabled;
-    _Bool _focusFilterActionIsEnabled;
-    _Bool _registeredAsStateUpdateListener;
-    DNDStateService *_dndStateService;
-    DNDState *_dndState;
-    IMFocusStateSnapshot *_focusSnapshot;
-    NSHashTable *_delegates;
 }
 
 + (_Bool);
@@ -22,23 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) DNDState *dndState; // @synthesize dndState=_dndState;
 @property(retain, nonatomic) DNDStateService *dndStateService; // @synthesize dndStateService=_dndStateService;
-@property(nonatomic) _Bool focusFilterActionIsEnabled; // @synthesize focusFilterActionIsEnabled=_focusFilterActionIsEnabled;
-@property(retain, nonatomic) IMFocusStateSnapshot *focusSnapshot; // @synthesize focusSnapshot=_focusSnapshot;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool registeredAsStateUpdateListener; // @synthesize registeredAsStateUpdateListener=_registeredAsStateUpdateListener;
-@property(readonly, nonatomic) _Bool shouldDisplayFocusFilterBanner;
-@property(readonly, nonatomic) _Bool shouldFilterConversationsByFocus;
-@property(readonly, nonatomic) _Bool shouldFilterUnreadMessageCount;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userSwitchForFocusFilteringIsEnabled; // @synthesize userSwitchForFocusFilteringIsEnabled=_userSwitchForFocusFilteringIsEnabled;
 
 @end
 

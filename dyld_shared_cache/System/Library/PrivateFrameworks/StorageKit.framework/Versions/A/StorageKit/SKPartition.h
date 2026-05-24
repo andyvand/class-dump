@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SKFilesystem;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SKPartition
 {
     NSString *_name;
-    unsigned long long _size;
-    SKFilesystem *_fs;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)conferenceUpdateCapabilities;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SKFilesystem *fs; // @synthesize fs=_fs;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

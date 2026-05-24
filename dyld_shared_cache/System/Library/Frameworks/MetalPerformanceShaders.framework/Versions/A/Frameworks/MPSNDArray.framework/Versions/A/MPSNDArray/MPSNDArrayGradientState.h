@@ -7,8 +7,6 @@
 @interface MPSNDArrayGradientState
 {
     unsigned long long _srcCount;
-    struct NDArraySrcInfo *_srcInfo;
-    unsigned int _provenance;
 }
 
 - (id);

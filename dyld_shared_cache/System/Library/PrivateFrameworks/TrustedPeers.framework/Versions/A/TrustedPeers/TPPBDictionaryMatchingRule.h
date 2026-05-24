@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TPPBDictionaryMatchingRuleFieldExists, TPPBDictionaryMatchingRuleFieldRegexMatch;
+@class NSMutableArray;
 
 @interface TPPBDictionaryMatchingRule
 {
     NSMutableArray *_ands;
-    TPPBDictionaryMatchingRuleFieldExists *_exists;
-    TPPBDictionaryMatchingRuleFieldRegexMatch *_match;
-    TPPBDictionaryMatchingRule *_not;
-    NSMutableArray *_ors;
-    int _type;
-    struct {
-        unsigned int type:1;
-    } _has;
 }
 
 + (Class);
@@ -24,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -41,40 +33,31 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)and same on terminal, ignore the timer set.;
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)EndpointFeatures, FigEndpointFeatures, CFDictionaryRef, FigEndpointFeatures *);
+- (id)dateAdvertiserInfoWithEndpointInfo(APEndpointDescriptionRef, CFDictionaryRef, CFMutableDictionaryRef);
 - (void);
 - (id);
 - (unsigned long long);
 - (int);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)NSDate",C,N,V_settledDate;
+- (_Bool)st Parsed:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)@ù±°°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *ands; // @synthesize ands=_ands;
-@property(retain, nonatomic) TPPBDictionaryMatchingRuleFieldExists *exists; // @synthesize exists=_exists;
-@property(readonly, nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) _Bool hasMatch;
-@property(readonly, nonatomic) _Bool hasNot;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) TPPBDictionaryMatchingRuleFieldRegexMatch *match; // @synthesize match=_match;
-@property(retain, nonatomic) TPPBDictionaryMatchingRule *not; // @synthesize not=_not;
-@property(retain, nonatomic) NSMutableArray *ors; // @synthesize ors=_ors;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

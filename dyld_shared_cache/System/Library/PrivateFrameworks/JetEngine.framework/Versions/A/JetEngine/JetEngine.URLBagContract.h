@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AMSMescalBagContract, AMSMetricsBagContract;
-
 @interface JetEngine.URLBagContract
 {
     id backing;
-    id <AMSMescalBagContract> mescalContract;
 }
 
 - (id);
+- (id)@?@"XPCFinancialDataPersistentHistoryChange"@"NSError">;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@"NSString";
+- (id);
+- (id);
+- (id)"ACAccount";
 - (id);
 - (id);
 - (id);
@@ -30,20 +27,7 @@
 - (void)ê;
 
 // Remaining properties
-@property(nonatomic, readonly) id TFOSamplingPercentage;
-@property(nonatomic, readonly) id TFOSamplingSessionDuration;
-@property(nonatomic, readonly) id TLSSamplingPercentage;
-@property(nonatomic, readonly) id TLSSamplingSessionDuration;
-@property(nonatomic, readonly) id apsEnabledPatterns;
-@property(nonatomic, readonly) id apsSamplingPercent;
 @property(nonatomic, readonly) id guidRegexes;
-@property(nonatomic, readonly) id guidSchemes;
-@property(nonatomic, readonly) id <AMSMescalBagContract> mescalContract; // @synthesize mescalContract;
-@property(nonatomic, readonly) id <AMSMetricsBagContract> metricsContract;
-@property(nonatomic, readonly) id metricsDictionary;
-@property(nonatomic, readonly) id metricsURL;
-@property(nonatomic, readonly) id storefrontSuffix;
-@property(nonatomic, readonly) id trustedDomains;
 
 @end
 

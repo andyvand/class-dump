@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSIndexSet, NSString;
 
 @protocol PXStoryTimeline
+- (NSIndexSet *)#;
+- (long long);
 - (CDStruct_e83c9415)? %ti;
-- (NSString *)itle;
+- (NSString *)photos_library_title;
 
 // Remaining properties
-@property(readonly, nonatomic) long long dataSourceIdentifier;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) long long firstSegmentIdentifier;
-@property(readonly, nonatomic) long long lastSegmentIdentifier;
-@property(readonly, nonatomic) long long numberOfSegments;
-@property(readonly, nonatomic) NSString *objectiveCCode;
-@property(readonly, nonatomic) struct CGSize originalSize;
-@property(readonly, nonatomic) struct CGSize size;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 @end
 

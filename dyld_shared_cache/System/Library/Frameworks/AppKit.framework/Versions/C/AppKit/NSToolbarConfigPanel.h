@@ -6,35 +6,18 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSButton, NSCollectionView, NSLayoutConstraint, NSPopUpButton, NSSegmentedControl, NSString, NSTextField, NSToolbar, NSToolbarImageRepView, NSToolbarPaletteScrollView, NSToolbarSnapshotWindow;
+@class NSToolbar;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarConfigPanel : NSPanel
 {
     NSToolbar *_editedToolbar;
-    double _widthOfWidgets;
-    double _individualItemsMaxHeight;
-    NSToolbar *_individualItemsToolbar;
-    NSTextField *_individualItemsText;
-    NSCollectionView *_individualItemsCollectionView;
-    NSToolbarPaletteScrollView *_individualItemsScrollView;
-    NSToolbar *_defaultItemsToolbar;
-    NSTextField *_defaultItemsText;
-    NSToolbarImageRepView *_defaultToolbarImageRep;
-    NSTextField *_displayModeLabel;
-    NSPopUpButton *_displayModePopUp;
-    NSButton *_useSmallIconsCheckBox;
-    NSSegmentedControl *_displayModeSegmentedControl;
-    NSToolbarSnapshotWindow *_snapshotWindow;
-    _Bool _waitingForToolbarsToLoad;
-    _Bool _defaultSetImageRepLoaded;
-    NSLayoutConstraint *_individualItemsScrollViewHeightConstraint;
 }
 
 + (id);
 + (id);
-- (void);
-- (unsigned long long);
+- (void)ContinuityCapability;
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
@@ -43,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (struct CGSize);
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
+- (void)%;
 - (id);
 - (id);
 - (id);
@@ -63,33 +46,27 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (void);
+- (void)nDataTask"24;
+- (int)taskDependencyDescriptionWithURLPath:(double)arg1 parentMimeType: /* Error: Ran out of types for this method. */;
+- (void){t||};
 - (void);
-- (int);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)cannot initWithResumeData with nil resume URL;
 - (id);
 - (void);
+- (void)NSURLStorageURLCacheDB deleteResponsesSinceDate:(id)arg1 dbConnection=%p DB=%@ Vacuum failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)v24@?0B8@"NSObject<OS_dispatch_data>"12i20;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (struct CGSize);
 - (id)setShowsStateColumn:(id)arg1;
 - (long long)",C;
-- (_Bool);
+- (_Bool)NSInspectorBarTextForegroundColorItemIdentifier;
 - (void);
 - (void)ÿÞêÄFA;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

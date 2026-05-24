@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, NSMutableDictionary, NSObject, NSString, NSURL, NSURLRequest;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSString;
 
 @interface AMSFollowUpAction
 {
     NSMutableDictionary *_userInfo;
-    NSString *_identifier;
-    NSString *_label;
-    AMSMetricsEvent *_metricsEvent;
-    NSURL *_url;
-    NSString *_backingIdentifier;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_actionQueue;
 }
 
 - (_Bool);
@@ -34,19 +26,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (id)TemporaryFileTransferGUID;
+- (void);
+- (id);
+- (void);
+- (id)MRSystemAppPlaybackQueueGetSiriWHAMetricsInfo;
 - (void);
 - (id);
 - (void);
@@ -54,28 +46,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id).admin;
 - (void);
 - (void)PÿÿXÿþÿ;
-- (void)cationName;
+- (void)AMSFlushTimerEnabledNotificationName;
 - (void)êâcg¸28ðç:(id)arg1 «´dªJ¸ûZ¿f¨w¶lòóÛ|Ý0·øûÔLÑø¡*¥½Îk6&ÆIþR²T­z üD>)öþ'+¾58í¶ó:QñèÙ÷}èòLdú©ßäðÅí\{&E4RÃUÃ¼Ý7)O.Ç-ÄæfFîÄ ó£C_¯"'É?ø×m}`U§SNñg;Æ¼ /* Error: Ran out of types for this method. */;
 - (void)¾nÆï÷èGèU£6jüù¹(pT¹7ÕïKÊ¸G¡ß»Î%ä4K÷Ç{Æáëÿ7Þr.£´x»wä>-]%ÅF¸Ï;}¸!'EGçßgk%.!;CJa¤±¬bn'Øôç¿¥;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *actionQueue; // @synthesize actionQueue=_actionQueue;
 @property(retain, nonatomic) NSString *backingIdentifier; // @synthesize backingIdentifier=_backingIdentifier;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(retain) NSString *label; // @synthesize label=_label;
-@property(retain) NSString *logKey;
-@property(copy) AMSMetricsEvent *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(retain) NSString *parentIdentifier;
-@property(retain) NSString *preferredClient;
-@property(retain) NSURLRequest *request;
-@property _Bool requiresFollowUpUI;
-@property _Bool shouldClear;
-@property(retain) NSURL *url; // @synthesize url=_url;
-@property(retain) NSMutableDictionary *userInfo;
 
 @end
 

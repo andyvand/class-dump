@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBHorizontalScrollCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_cardSections;
-    unsigned long long _numberOfRows;
 }
 
 - (void);
@@ -36,52 +26,34 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (_Bool)ICMemoryContentKeyStore;
+- (_Bool)ICConnectionConfiguration;
+- (id);
+- (void);
+- (void);
+- (void);
+- (unsigned long long)h;
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
 - (void);
+- (id)mediaTypeForURL:(id)arg1;
+- (id)sset %{public}@ with the same syndicationIdentifier as %{public}@;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)c;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void)tem: /* Error: Ran out of types for this method. */;
+- (unsigned long long)�?;
+- (void)setSubtitleButtonItem: /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(copy, nonatomic) NSArray *cardSections; // @synthesize cardSections=_cardSections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long numberOfRows; // @synthesize numberOfRows=_numberOfRows;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

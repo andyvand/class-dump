@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)?;
 - (const void *);
 - (_Bool);
 - (id);

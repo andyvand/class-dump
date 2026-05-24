@@ -12,16 +12,16 @@
 }
 
 + (id);
-+ (id);
++ (id)+);
 + (id);
 + (_Bool);
-- (id);
+- (id)V;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (id);
@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -40,10 +40,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)on"b1};
+- (void)_hasRnfActivity;
 - (id);
-- (void)omeKitSimulatedLockCompatibilityModeKey;
+- (void)PKHomeKitSimulatedLockCompatibilityModeKey;
 - (unsigned long long);
 
 // Remaining properties

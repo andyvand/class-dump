@@ -5,5 +5,6 @@
 //
 
 @protocol TSExplicitContentRestrictionAlertPresenter
+- (void);
 @end
 

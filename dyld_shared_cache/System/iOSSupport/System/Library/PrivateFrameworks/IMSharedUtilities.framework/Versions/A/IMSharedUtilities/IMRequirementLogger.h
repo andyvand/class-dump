@@ -7,8 +7,6 @@
 @interface IMRequirementLogger
 {
     unsigned char _loggingLevel;
-    _Bool _throwFailures;
-    const char *_categoryOverride;
 }
 
 + (void);
@@ -16,7 +14,7 @@
 + (id)ChatBot Logo - Business data provider found the logo data:%ld for %s /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct IMRequirementFailed_t);
@@ -27,9 +25,7 @@
 - (id);
 
 // Remaining properties
-@property const char *categoryOverride; // @synthesize categoryOverride=_categoryOverride;
 @property unsigned char loggingLevel; // @synthesize loggingLevel=_loggingLevel;
-@property _Bool throwFailures; // @synthesize throwFailures=_throwFailures;
 
 @end
 

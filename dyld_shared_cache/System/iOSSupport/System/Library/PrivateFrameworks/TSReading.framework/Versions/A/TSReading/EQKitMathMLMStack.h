@@ -6,31 +6,24 @@
 
 #import <TSReading/EQKitMathMLNode.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EQKitMathMLMStack : EQKitMathMLNode
 {
     NSArray *mChildren;
-    int mAlign;
 }
 
-- (id);
-- (int);
+- (id)System/Library/PrivateFrameworks/SiriAudioSupport.framework/SiriAudioSupport;
+- (int)ervices.framework/AssistantServices;
 - (const void *);
 - (struct Schemata);
 - (_Bool);
 - (id);
 - (void);
-- (id)ons;
+- (id)mValidConnections;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

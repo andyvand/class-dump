@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface WiFiUsagePlatformConfig
 {
     NSDictionary *_config;
-    NSString *_platform;
 }
 
 + (void)ictionary;
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *config; // @synthesize config=_config;
-@property(retain) NSString *platform; // @synthesize platform=_platform;
 
 @end
 

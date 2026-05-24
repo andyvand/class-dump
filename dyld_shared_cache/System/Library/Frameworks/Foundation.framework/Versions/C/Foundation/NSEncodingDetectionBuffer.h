@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEncodingDetectionPlaceholder;
-
 __attribute__((visibility("hidden")))
 @interface NSEncodingDetectionBuffer
 {
     unsigned long long _nsEncoding;
-    unsigned int _cfEncoding;
-    NSEncodingDetectionPlaceholder *_placeholder;
-    char *_bytes;
-    _Bool _bytesAllocated;
-    unsigned long long _bytesIndex;
-    unsigned long long _bytesLength;
 }
 
 - (id);
 - (id);
 - (void);
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

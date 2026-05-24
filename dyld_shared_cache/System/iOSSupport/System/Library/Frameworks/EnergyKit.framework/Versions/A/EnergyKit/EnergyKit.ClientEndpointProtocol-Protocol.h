@@ -5,5 +5,6 @@
 //
 
 @protocol EnergyKit.ClientEndpointProtocol
+- (void)9);
 @end
 

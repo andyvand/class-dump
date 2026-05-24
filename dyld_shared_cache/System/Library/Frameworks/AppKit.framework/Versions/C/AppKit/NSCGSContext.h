@@ -17,21 +17,21 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (unsigned long long);
-- (void *);
-- (void);
-- (unsigned long long);
+- (struct CGPoint)addOperation: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void *)to create ABQuery data %{public}@ error %@;
+- (void)ng CF cookie storage singleton;
+- (unsigned long long)PH;
 - (long long);
-- (void);
-- (_Bool);
+- (void)@;
+- (_Bool)!?;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (void)thCGRect: /* Error: Ran out of types for this method. */;
+- (void)_valueWithCGRect: /* Error: Ran out of types for this method. */;
 
 @end
 

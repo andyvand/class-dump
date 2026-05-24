@@ -7,9 +7,6 @@
 @interface PhotosGraph.MusicKitClient
 {
     id bag;
-    id requestFactory;
-    id serialRequestQueue;
-    id maxRequestRetryCount;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPDiagnosticsSnapshotAudioWrapper, HAPDiagnosticsSnapshotFormatWrapper, HAPDiagnosticsSnapshotOptionsWrapper, HAPDiagnosticsSnapshotTypeWrapper, NSString;
+@class HAPDiagnosticsSnapshotFormatWrapper;
 
 @interface HAPSupportedDiagnosticsSnapshot
 {
     HAPDiagnosticsSnapshotFormatWrapper *_format;
-    HAPDiagnosticsSnapshotTypeWrapper *_type;
-    HAPDiagnosticsSnapshotAudioWrapper *_audioDiagnostics;
-    HAPDiagnosticsSnapshotOptionsWrapper *_options;
 }
 
 + (id);
@@ -33,17 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HAPDiagnosticsSnapshotAudioWrapper *audioDiagnostics; // @synthesize audioDiagnostics=_audioDiagnostics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) HAPDiagnosticsSnapshotFormatWrapper *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPDiagnosticsSnapshotOptionsWrapper *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPDiagnosticsSnapshotTypeWrapper *type; // @synthesize type=_type;
 
 @end
 

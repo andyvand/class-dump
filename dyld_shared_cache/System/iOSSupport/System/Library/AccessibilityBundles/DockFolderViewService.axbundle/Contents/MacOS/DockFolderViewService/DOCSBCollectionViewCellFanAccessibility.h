@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id);
 + (void);
-- (_Bool);
+- (_Bool)yxq__G;
 - (unsigned long long);
 - (id);
 

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _Bool _hasCustomImage;
 }
 
-+ (Class);
++ (Class)1;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)"NSDate",R,C;
 - (void);
 - (struct CGSize);
 - (struct NSEdgeInsets)/ÿ¥Ø¤D;

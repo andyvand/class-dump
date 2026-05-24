@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2GeneralInfo
 {
     unsigned long long _ntpTime;
-    unsigned int _abSwitches;
-    NSString *_cname;
-    unsigned int _fecHeaderVersion;
-    unsigned int _rtxVersion;
-    unsigned int _screenRes;
-    struct {
-        unsigned int ntpTime:1;
-        unsigned int abSwitches:1;
-        unsigned int fecHeaderVersion:1;
-        unsigned int rtxVersion:1;
-        unsigned int screenRes:1;
-    } _has;
 }
 
 - (void);
@@ -31,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (void);
 - (id);
@@ -41,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool)K;
+- (_Bool);
+- (unsigned int);
 - (unsigned long long);
-- (void);
+- (void)_;
 - (unsigned int);
 - (void);
 - (id);
@@ -63,19 +49,6 @@ __attribute__((visibility("hidden")))
 - (union tagNTP)(%p) ignoring already added client;
 
 // Remaining properties
-@property(nonatomic) unsigned int abSwitches; // @synthesize abSwitches=_abSwitches;
-@property(retain, nonatomic) NSString *cname; // @synthesize cname=_cname;
-@property(readonly, nonatomic) union tagNTP creationTime;
-@property(nonatomic) unsigned int fecHeaderVersion; // @synthesize fecHeaderVersion=_fecHeaderVersion;
-@property(nonatomic) _Bool hasAbSwitches;
-@property(readonly, nonatomic) _Bool hasCname;
-@property(nonatomic) _Bool hasFecHeaderVersion;
-@property(nonatomic) _Bool hasNtpTime;
-@property(nonatomic) _Bool hasRtxVersion;
-@property(nonatomic) _Bool hasScreenRes;
-@property(nonatomic) unsigned long long ntpTime; // @synthesize ntpTime=_ntpTime;
-@property(nonatomic) unsigned int rtxVersion; // @synthesize rtxVersion=_rtxVersion;
-@property(nonatomic) unsigned int screenRes; // @synthesize screenRes=_screenRes;
 @property(readonly, nonatomic) struct CGSize screenResolution;
 
 @end

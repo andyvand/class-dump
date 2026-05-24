@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface RFOptionalBool
 {
     struct {
         unsigned int value:1;
     } _has;
-    _Bool _value;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)itemExistsWithPersistentID:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)startAccessingSecurityScopedResource;
+- (id)andingData;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end

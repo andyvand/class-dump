@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSString, NSTextField;
+@class NSString;
 
 @interface CWInfoDialog
 {
     NSString *_title;
-    NSString *_description;
-    NSTextField *_titleTextField;
-    NSTextField *_descriptionTextField;
-    NSImageView *_imageView;
-    id _delegate;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)IPMDServerClientWrapperLegacy selectInputMode:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description; // @synthesize description=_description;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end
 

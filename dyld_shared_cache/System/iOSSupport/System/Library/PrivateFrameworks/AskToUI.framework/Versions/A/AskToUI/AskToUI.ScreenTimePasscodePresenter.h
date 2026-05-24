@@ -7,6 +7,7 @@
 @interface AskToUI.ScreenTimePasscodePresenter
 {
     id authenticationStateChanged;
+    id;
 }
 
 - (void);

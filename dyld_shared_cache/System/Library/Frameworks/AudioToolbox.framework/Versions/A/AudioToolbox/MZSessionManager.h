@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface MZSessionManager
 {
     id _application;
-    id _uiapplication;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

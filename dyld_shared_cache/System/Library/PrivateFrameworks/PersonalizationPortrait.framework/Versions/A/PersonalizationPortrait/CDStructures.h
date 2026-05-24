@@ -10,10 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct atomic_flag {
-    _Atomic _Bool _Value;
-};
-
 struct tm {
     int _field1;
     int _field2;

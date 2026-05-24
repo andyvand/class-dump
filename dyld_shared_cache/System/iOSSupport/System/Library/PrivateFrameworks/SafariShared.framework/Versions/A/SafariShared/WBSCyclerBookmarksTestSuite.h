@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WBSCyclerItemListRepresentation, WBSCyclerIterationCounter, WBSCyclerOperationContext, WBSCyclerTestSuiteBookmarkAuxiliary;
+@class NSArray, WBSCyclerOperationContext;
 
 @interface WBSCyclerBookmarksTestSuite
 {
     WBSCyclerOperationContext *_operationContext;
-    WBSCyclerTestSuiteBookmarkAuxiliary *_bookmarkAuxiliary;
-    WBSCyclerItemListRepresentation *_expectedTopLevelBookmarksFromPreviousIteration;
-    WBSCyclerIterationCounter *_iterationCounter;
 }
 
-+ (_Bool);
++ (_Bool)#;
 - (void);
 - (void);
 - (id);
@@ -26,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)[;
+- (id)N18versioned_document8DocumentE;
 - (_Bool);
 - (id);
 - (id);
@@ -39,22 +36,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisFinished
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WBSCyclerIterationCounter *iterationCounter; // @synthesize iterationCounter=_iterationCounter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WBSCyclerIterationCounter",?,&,N,V_iterationCounter
-
 @property(readonly, copy, nonatomic) NSArray *operations;
-@property(readonly) Class superclass;
 
 @end
 

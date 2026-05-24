@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, NSString, _SFPBColor, _SFPBRichText;
 
 @protocol _SFPBCommandRowCardSection
+- (_SFPBRichText *)a%;
+- (void);
+- (_Bool)hasRejectedPrivacyIdentifier:account: /* Error: Ran out of types for this method. */;
+- (_Bool)handleNewTransportControlStateDictionary: /* Error: Ran out of types for this method. */;
+- (_SFPBRichText *);
+- (NSString *)v;
+- (void);
+- (void)_initWithConfiguration:(_SFPBColor *)arg1 toneIdentifier: /* Error: Ran out of types for this method. */;
+- (NSData *)PHLocalIdentifierMapping;
 - (int)X;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(retain, nonatomic) _SFPBImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(retain, nonatomic) _SFPBImage *toggledImage;
-@property(retain, nonatomic) _SFPBRichText *toggledTitle;
-@property(copy, nonatomic) NSString *type;
 @end
 

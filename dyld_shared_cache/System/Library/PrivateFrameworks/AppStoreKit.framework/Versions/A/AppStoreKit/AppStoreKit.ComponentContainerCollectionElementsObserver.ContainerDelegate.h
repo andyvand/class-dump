@@ -7,11 +7,6 @@
 @interface AppStoreKit.ComponentContainerCollectionElementsObserver.ContainerDelegate
 {
     id itemLayoutContext;
-    id presenter;
-    id parent;
-    id scrollObserver;
-    id impressionsCalculator;
-    id doesModelContainment;
 }
 
 @end

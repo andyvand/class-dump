@@ -6,36 +6,29 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSAttributedString, NSString;
+@class NSArray;
 
 @interface _UIExpandingGlyphsView : UIView
 {
     _Bool _expandsFromLeftToRight;
-    _Bool _fadesOut;
-    int _remainingAnimationCount;
-    NSAttributedString *_attributedString;
-    double _baselineOffset;
-    NSArray *_imageViews;
-    CDUnknownBlockType _completionBlock;
-    struct CGSize _intrinsicSize;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)>32;
+- (void)8@"NSString"16@"NSString"24@"NSString"32C40@"NSString"44@"NSString"52;
+- (int)setForceDeferral: /* Error: Ran out of types for this method. */;
+- (struct CGSize)generateUnreadCountReportsWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)askToBuyResponseHandler;
+- (_Bool)_populateAttachmentInfo:fromFileTransferGUIDs:transferInfoProvider:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)_onWriteT2Complete:error:shouldWriteMore:activity:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (int);
-- (struct CGSize);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
 - (struct CGSize);
 - (struct CGSize);
-- (id)lEffectView;
+- (id)_contentsLabelEffectView;
 - (id)h D¼<;
-- (void)edCorners;
+- (void)maskedCorners;
 - (double)ntly adjusted. To debug this issue, check the Console app for logs in the "UICollectionViewFeedbackLoopDebugger" category.
 Collection view: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
@@ -44,21 +37,7 @@ Collection view: /* Error: Ran out of types for this method. */;
 - (void)ì"ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool expandsFromLeftToRight; // @synthesize expandsFromLeftToRight=_expandsFromLeftToRight;
-@property(nonatomic) _Bool fadesOut; // @synthesize fadesOut=_fadesOut;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *imageViews; // @synthesize imageViews=_imageViews;
-@property(nonatomic) struct CGSize intrinsicSize; // @synthesize intrinsicSize=_intrinsicSize;
-@property(nonatomic) int remainingAnimationCount; // @synthesize remainingAnimationCount=_remainingAnimationCount;
-@property(readonly) Class superclass;
 
 @end
 

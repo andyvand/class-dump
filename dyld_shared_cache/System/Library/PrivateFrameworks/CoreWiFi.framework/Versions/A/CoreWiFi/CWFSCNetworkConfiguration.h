@@ -11,22 +11,18 @@ __attribute__((visibility("hidden")))
 @interface CWFSCNetworkConfiguration
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    struct __SCDynamicStore *_storeRef;
-    _Bool _isMonitoringEvents;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (id)YR;
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void).appleid.accountHealthEvent;
 - (id);
 - (void);
 - (id);
@@ -34,25 +30,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)gStore::processBundle:bands directory open failed %d
+ /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ey components;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)l;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)Â0@ù
 × ;
-- (id)thProperties: /* Error: Ran out of types for this method. */;
-- (void)ams;
+- (id)filteredScanResultWithProperties: /* Error: Ran out of types for this method. */;
+- (void)_checkinRequestParams;
 - (void)ssword;
 - (id)Î;
 

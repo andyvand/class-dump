@@ -7,7 +7,7 @@
 #pragma mark Named Structures
 
 struct AuthMethName {
-    char method[21];
+    char _field1[21];
 };
 
 struct BSDTimeStructCopy {
@@ -77,18 +77,18 @@ struct PWFileEntry {
 };
 
 struct PWFileHeader {
-    struct PWGlobalAccessFeatures access;
-    struct PWGlobalAccessFeatures origAccess;
-    struct AuthMethName weakAuthMethods[25];
-    struct AuthMethName origWeakAuthMethods[25];
-    unsigned int publicKeyLen;
-    unsigned char publicKey[1024];
-    unsigned char origPublicKey[1024];
-    unsigned int privateKeyLen;
-    unsigned char privateKey[2048];
-    unsigned char origPrivateKey[2048];
-    struct PWGlobalMoreAccessFeatures extraAccess;
-    struct PWGlobalMoreAccessFeatures origExtraAccess;
+    struct PWGlobalAccessFeatures _field1;
+    struct PWGlobalAccessFeatures _field2;
+    struct AuthMethName _field3[25];
+    struct AuthMethName _field4[25];
+    unsigned int _field5;
+    unsigned char _field6[1024];
+    unsigned char _field7[1024];
+    unsigned int _field8;
+    unsigned char _field9[2048];
+    unsigned char _field10[2048];
+    struct PWGlobalMoreAccessFeatures _field11;
+    struct PWGlobalMoreAccessFeatures _field12;
 };
 
 struct PWGlobalAccessFeatures {
@@ -117,35 +117,35 @@ struct PWGlobalAccessFeatures {
 };
 
 struct PWGlobalMoreAccessFeatures {
-    unsigned int minutesUntilFailedLoginReset;
-    unsigned int notGuessablePattern;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct PWMoreAccessFeatures {
-    unsigned int minutesUntilFailedLoginReset;
-    unsigned int notGuessablePattern;
-    char userkey[64];
-    unsigned int logOffTime;
-    unsigned int kickOffTime;
-    unsigned int adminNoChangePasswords:1;
-    unsigned int requiresSymbol:1;
-    unsigned int unused:1;
-    unsigned int isComputerAccount:1;
-    unsigned int requiresMixedCase:1;
-    unsigned int doNotMerge:1;
-    unsigned int doNotReplicate:1;
-    unsigned int recordIsDead:1;
-    unsigned int adminClass:3;
-    unsigned int adminNoPromoteAdmins:1;
-    unsigned int adminNoClearState:1;
-    unsigned int adminNoDelete:1;
-    unsigned int adminNoCreate:1;
-    unsigned int adminNoSetPolicies:1;
+    unsigned int _field1;
+    unsigned int _field2;
+    char _field3[64];
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :3;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
 };
 
 struct PWSDebugLogOptions {
-    _Bool changeList;
-    _Bool quit;
+    _Bool _field1;
+    _Bool _field2;
 };
 
 struct PasswordDigest {
@@ -154,33 +154,28 @@ struct PasswordDigest {
 };
 
 struct PasswordServerPrefs {
-    unsigned long long badTrialDelay;
-    unsigned short listenerPort[11];
-    int listenerTypeFlags;
-    _Bool externalToolSet;
-    char externalToolPath[256];
-    _Bool realmSet;
-    char realm[256];
-    _Bool syncSASLPluginList;
-    long long deleteWait;
-    long long purgeWait;
-    struct SASLPluginEntry saslPluginState[31];
-    int prefsVersion;
-    struct PWSDebugLogOptions logOptions;
+    unsigned long long _field1;
+    unsigned short _field2[11];
+    int _field3;
+    _Bool _field4;
+    char _field5[256];
+    _Bool _field6;
+    char _field7[256];
+    _Bool _field8;
+    long long _field9;
+    long long _field10;
+    struct SASLPluginEntry _field11[31];
+    int _field12;
+    struct PWSDebugLogOptions _field13;
 };
 
 struct SASLPluginEntry {
-    char name[21];
-    int state;
+    char _field1[21];
+    int _field2;
 };
 
 struct __sbuf {
     char *_field1;
     int _field2;
-};
-
-struct timespec {
-    long long tv_sec;
-    long long tv_nsec;
 };
 

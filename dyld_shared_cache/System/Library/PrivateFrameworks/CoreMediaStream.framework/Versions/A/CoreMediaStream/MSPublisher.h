@@ -6,111 +6,82 @@
 
 #import <CoreMediaStream/MSCupidStateMachine.h>
 
-@class MSMediaStreamDaemon, MSObjectQueue, MSPublishStreamsProtocol, NSArray, NSMutableArray, NSMutableDictionary, NSString, NSURL;
-@protocol MSPublishStorageProtocol, MSPublisherDelegate;
+@class MSMediaStreamDaemon;
+@protocol MSPublisherDelegate;
 
 @interface MSPublisher : MSCupidStateMachine
 {
     id <MSPublisherDelegate> _delegate;
-    MSMediaStreamDaemon *_daemon;
-    int _state;
-    MSObjectQueue *_uploadQueue;
-    MSObjectQueue *_derivativesQueue;
-    MSObjectQueue *_quarantinedQueue;
-    NSArray *_pendingDerivativesQueue;
-    NSMutableArray *_requestAuthQueue;
-    unsigned long long _sendingQueueCount;
-    NSMutableArray *_sendingQueue;
-    NSMutableDictionary *_fileHashToAssetMap;
-    MSPublishStreamsProtocol *_protocol;
-    id <MSPublishStorageProtocol> _storageProtocol;
-    NSURL *_storageProtocolURL;
-    NSMutableArray *_tempFiles;
-    NSMutableDictionary *_maxSizeByUTI;
-    long long _publishTargetByteCount;
-    int _publishBatchSize;
-    int _maxErrorCount;
 }
 
-+ (id);
++ (id));
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool)a for %ld photos in album %{public}@;
+- (void)ating write access from %@ to %@ for user %@;
+- (id)on %@ to user:%@ /* Error: Ran out of types for this method. */;
+- (void)g share participants;
+- (void)ing share participants because home reference is nil;
+- (void)erence is nil;
+- (void)%{public}@Responding to mesh update request message:%@ /* Error: Ran out of types for this method. */;
+- (long long)ened): /* Error: Ran out of types for this method. */;
+- (void)rimary residents list has new items (or some shift in devices happened):(id)arg1;
+- (void)e:(id)arg1 %{public}@;
+- (void)t a part of any homes:(id)arg1 %{public}@;
+- (void)public}@;
+- (int)ic}@Received a remove resident notification for device %{public}@;
+- (void)t;
+- (void)ot create resident storage for home %{public}@:(id)arg1 no primary resident;
+- (int)esh storage;
+- (_Bool)ic,uuid_t}.16P] Stream captured a new snapshot:(id)arg1 %@;
+- (_Bool)MDCameraSnapshotRemoteRelayStreamDelegate callback that the image transfer has completed with error %@;
+- (void)_t}.16P] Received HMDCameraSnapshotRemoteRelaySenderDelegate callback that the image transfer has completed with error %@;
+- (_Bool)t failure:(id)arg1 %@;
+- (void)apshot failure for session without a receiver;
+- (void)remote snapshot received message:(id)arg1 %@;
+- (void){public}@Failed to create snapshot session UUID from remote snapshot received message:%@ /* Error: Ran out of types for this method. */;
+- (void)local session with ID:%{public,uuid_t}.16P /* Error: Ran out of types for this method. */;
+- (void)d out:%@ /* Error: Ran out of types for this method. */;
+- (void)] Failed to create snapshot session with HMDCameraSnapshotRemoteRelayStream:no remote access device /* Error: Ran out of types for this method. */;
+- (void)th HMDCameraSnapshotRemoteRelayStream:(id)arg1 accessory reference is nil;
+- (void)16P] Failed to create snapshot session with HMDCameraSnapshotRemoteRelayStream:(id)arg1 accessory reference is nil;
+- (void)teRelayStream;
+- (void)ating a snapshot session with HMDCameraSnapshotRemoteRelayStream;
+- (void)6P] Failed to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:(id)arg1 no remote access device;
+- (_Bool)to create snapshot session with HMDCameraSnapshotRemoteStreamSender:accessory reference is nil /* Error: Ran out of types for this method. */;
+- (id)napshot session with HMDCameraSnapshotRemoteStreamSender;
+- (void)public}@[%{public,uuid_t}.16P] Creating a snapshot session with HMDCameraStreamSnapshot;
+- (id)uuid_t}.16P] Handling take remote snapshot message:(id)arg1 %{public}@;
+- (id)y is unreachable;
+- (id)ublic,uuid_t}.16P] Taking remote snapshot via stream because accessory is unreachable;
+- (void)lic}@[%{public,uuid_t}.16P] Taking snapshot through available camera stream;
+- (void)session %@ in progress, adding this request to that;
+- (id)] There is already a local session %@ in progress, adding this request to that;
+- (void){public,uuid_t}.16P] There is already a local session %@ in progress, adding this request to that;
+- (_Bool)2 key roll for the current user;
+- (void)r:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (int)ResponderOperatorComposition",&,V_xpcResponderPLAPITest;
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (int);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) MSMediaStreamDaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <MSPublisherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int publishBatchSize; // @synthesize publishBatchSize=_publishBatchSize;
-@property(nonatomic) long long publishTargetByteCount; // @synthesize publishTargetByteCount=_publishTargetByteCount;
-@property(retain, nonatomic) NSURL *storageProtocolURL; // @synthesize storageProtocolURL=_storageProtocolURL;
-@property(readonly) Class superclass;
 
 @end
 

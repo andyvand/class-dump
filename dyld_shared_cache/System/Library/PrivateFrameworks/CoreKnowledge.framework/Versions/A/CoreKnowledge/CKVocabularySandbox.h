@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)d;
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 
 // Remaining properties

@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBCKOperation, NTPBCKQueryRetrieveRequest, NTPBCKRecordRetrieveRequest, NTPBCKRequestOperationHeader;
+@class NTPBCKRequestOperationHeader;
 
 @interface NTPBCKRequestOperation
 {
     NTPBCKRequestOperationHeader *_header;
-    NTPBCKQueryRetrieveRequest *_queryRetrieveRequest;
-    NTPBCKRecordRetrieveRequest *_recordRetrieveRequest;
-    NTPBCKOperation *_request;
 }
 
-- (void);
-- (id);
+- (void)@a;
+- (id)mMapsSuggestionsEntries(MapsSuggestionsEntries *__strong _Nonnull);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)indowInterval;
+- (void)hasSegmentsHistoryWindowInterval;
 - (id)Cù¾;
 - (_Bool)$	;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHeader;
-@property(readonly, nonatomic) _Bool hasQueryRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasRecordRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) NTPBCKRequestOperationHeader *header; // @synthesize header=_header;
-@property(retain, nonatomic) NTPBCKQueryRetrieveRequest *queryRetrieveRequest; // @synthesize queryRetrieveRequest=_queryRetrieveRequest;
-@property(retain, nonatomic) NTPBCKRecordRetrieveRequest *recordRetrieveRequest; // @synthesize recordRetrieveRequest=_recordRetrieveRequest;
-@property(retain, nonatomic) NTPBCKOperation *request; // @synthesize request=_request;
 
 @end
 

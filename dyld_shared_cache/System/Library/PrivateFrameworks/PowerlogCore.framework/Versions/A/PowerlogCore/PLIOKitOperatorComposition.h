@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PLOperator;
+@class PLOperator;
 
 @interface PLIOKitOperatorComposition
 {
     unsigned int _notificationRef;
-    unsigned int _service;
-    unsigned int _iterator;
-    unsigned int _conn;
-    struct IONotificationPort *_ioNotifyPort;
-    NSString *_serviceName;
-    NSString *_serviceClassName;
-    CDUnknownBlockType _operatorBlock;
-    CDUnknownBlockType _matchBlock;
-    PLOperator *_operator;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id)redCategory;
 - (id);
@@ -29,7 +20,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_TtC14FamilyCircleUI30FamilySettingsExtensionHelpers;
 - (struct IONotificationPort *);
 - (void);
 - (id);
@@ -39,8 +30,9 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
-- (id);
+- (id):(id)arg1 6(F'
+;
+- (id)F;
 - (id);
 - (void);
 - (unsigned int);
@@ -49,24 +41,15 @@
 - (void);
 - (void);
 - (void);
-- (id)ithGroup:(id)arg1 andSubGroup:withChannelIDs: /* Error: Ran out of types for this method. */;
+- (id)initWithGroup:(id)arg1 andSubGroup:withChannelIDs: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
-- (unsigned int)NNEL_ID_6;
-- (CDUnknownBlockType)ns;
-- (void)nterval_UsageDiff;
+- (unsigned int)POWER_DOMAIN_CHANNEL_ID_6;
+- (CDUnknownBlockType)OPTICAL_POWER_SC2_FL_Transitions;
+- (void)PLProcessNetworkAgent_EventInterval_UsageDiff;
 - (void)ithFileType:(unsigned int)arg1 withOverrideKeys:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned int conn; // @synthesize conn=_conn;
-@property struct IONotificationPort *ioNotifyPort; // @synthesize ioNotifyPort=_ioNotifyPort;
-@property unsigned int iterator; // @synthesize iterator=_iterator;
-@property(copy, nonatomic) CDUnknownBlockType matchBlock; // @synthesize matchBlock=_matchBlock;
-@property unsigned int notificationRef; // @synthesize notificationRef=_notificationRef;
 @property(retain) PLOperator *operator; // @synthesize operator=_operator;
-@property(copy, nonatomic) CDUnknownBlockType operatorBlock; // @synthesize operatorBlock=_operatorBlock;
-@property unsigned int service; // @synthesize service=_service;
-@property(retain) NSString *serviceClassName; // @synthesize serviceClassName=_serviceClassName;
-@property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

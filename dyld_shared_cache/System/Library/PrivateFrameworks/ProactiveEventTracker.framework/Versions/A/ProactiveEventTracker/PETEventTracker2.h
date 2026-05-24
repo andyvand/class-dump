@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, PETAggregateState, PETConfig, RBSAssertion, RBSTarget;
-@protocol OS_dispatch_queue;
+@class PETAggregateState;
 
 @interface PETEventTracker2
 {
     PETAggregateState *_aggregateState;
-    NSObject<OS_dispatch_queue> *_loggingQueue;
-    int _loggingQueueSize;
-    struct _opaque_pthread_mutex_t _loggingQueueLock;
-    _Bool _inited;
-    RBSTarget *_rbsTarget;
-    RBSAssertion *_rbsAssertion;
-    _Bool _rbsShouldInvalidate;
-    struct _opaque_pthread_mutex_t _rbsAssertionLock;
-    _Bool _isProcessManagedByRBS;
-    _Bool _isTesting;
-    _Bool _isAsyncEnabled;
-    NSString *_rootDir;
-    NSString *_logStoresDir;
-    PETConfig *_config;
-    NSMutableDictionary *_storeCache;
 }
 
 + (id);
@@ -34,24 +18,24 @@
 + (id);
 + (unsigned int);
 + (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
+- (id);
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void).apple.accessibility.live.headphone.level.automation.sample.data;
 - (id);
 - (void);
 - (void);
@@ -72,26 +56,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_parentAccount;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PETAggregateState *aggregateState; // @synthesize aggregateState=_aggregateState;
-@property(retain) PETConfig *config; // @synthesize config=_config;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isAsyncEnabled; // @synthesize isAsyncEnabled=_isAsyncEnabled;
 @property _Bool isTesting; // @synthesize isTesting=_isTesting;
-@property(retain) NSString *logStoresDir; // @synthesize logStoresDir=_logStoresDir;
-@property(retain) NSString *rootDir; // @synthesize rootDir=_rootDir;
-@property(retain) NSMutableDictionary *storeCache; // @synthesize storeCache=_storeCache;
-@property(readonly) Class superclass;
 
 @end
 

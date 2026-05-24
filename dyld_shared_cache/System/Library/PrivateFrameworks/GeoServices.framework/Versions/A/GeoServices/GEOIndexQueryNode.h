@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOIndexQueryNode
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_field;
-    NSMutableArray *_operands;
-    NSString *_value;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    CDStruct_dc56225f _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)@16@24@32B40Q44@52B60@64;
+- (id)ceName:deviceID:productID:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)encyStats:(struct _NSZone *)arg1;
-- (id)ester;
+- (id)setLatencyStats:(struct _NSZone *)arg1;
+- (id)GEOVoltaireSputnikMetadataTileRequester;
 - (id)GloriaDB] DB claimed to open successfully but returned nil;
 - (void)q;
 

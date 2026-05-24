@@ -16,15 +16,13 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)objectForKeyedSubscript:(_Bool)arg1;
 - (_Bool);
 - (id)0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activityItems;
-@property(copy, nonatomic) CDUnknownBlockType completionWithItemsHandler;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 
 @end
 

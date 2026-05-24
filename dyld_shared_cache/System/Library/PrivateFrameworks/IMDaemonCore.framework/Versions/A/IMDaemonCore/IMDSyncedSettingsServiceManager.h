@@ -7,13 +7,6 @@
 @interface IMDSyncedSettingsServiceManager
 {
     id localDomain;
-    id remoteDomain;
-    id ubiquitousStoreQueue;
-    id sharedOTPDefaults;
-    id localStorageDelegate;
-    id remoteStorageDelegate;
-    id watchSyncDelegate;
-    id syncConfigurationDelegate;
 }
 
 + (id);
@@ -21,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (_Bool);
 - (void);

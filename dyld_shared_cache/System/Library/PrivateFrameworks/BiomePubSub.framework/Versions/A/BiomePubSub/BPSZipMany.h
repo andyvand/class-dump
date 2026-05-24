@@ -6,14 +6,11 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface BPSZipMany : BPSPublisher
 {
     NSArray *_publishers;
-    unsigned long long _currentPublisher;
-    unsigned long long _bufferResultCount;
-    NSMutableArray *_buffer;
 }
 
 + (id);
@@ -22,24 +19,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)startAttachmentVerificationTasks;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id)ightsAtIndex: /* Error: Ran out of types for this method. */;
+- (id)centroidWeightsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) unsigned long long bufferResultCount; // @synthesize bufferResultCount=_bufferResultCount;
 @property(nonatomic) unsigned long long currentPublisher; // @synthesize currentPublisher=_currentPublisher;
-@property(readonly, nonatomic) NSArray *publishers; // @synthesize publishers=_publishers;
 
 @end
 

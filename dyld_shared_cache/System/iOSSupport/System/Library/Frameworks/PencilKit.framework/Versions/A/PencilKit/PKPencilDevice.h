@@ -7,14 +7,6 @@
 @interface PKPencilDevice
 {
     struct os_unfair_lock_s _lock;
-    double _lastUsedIimestamp;
-    struct __IOHIDManager *_stylusHidManager;
-    _Bool _isConnected;
-    _Bool _isRollSupported;
-    _Bool _isRollSupportUnknown;
-    int _rollSupportState;
-    double _baseRollAngle;
-    long long _pencilVersion;
 }
 
 + (id);
@@ -36,19 +28,13 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void)b;
 - (id);
 - (_Bool);
 - (void)epresented by PKPaletteBarButton;
 
 // Remaining properties
-@property(nonatomic) double baseRollAngle; // @synthesize baseRollAngle=_baseRollAngle;
-@property(nonatomic) _Bool isConnected; // @synthesize isConnected=_isConnected;
-@property(nonatomic) _Bool isRollSupportUnknown; // @synthesize isRollSupportUnknown=_isRollSupportUnknown;
-@property(nonatomic) _Bool isRollSupported; // @synthesize isRollSupported=_isRollSupported;
 @property(nonatomic) long long pencilVersion; // @synthesize pencilVersion=_pencilVersion;
-@property(readonly, nonatomic) long long pencilVersionForAnalytics;
-@property(readonly, nonatomic) int rollSupportState; // @synthesize rollSupportState=_rollSupportState;
 
 @end
 

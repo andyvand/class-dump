@@ -9,37 +9,35 @@
 @interface VisionSignalGradingVisionGradeEvent
 {
     NSMutableArray *_popularityEntries;
-    NSMutableArray *_visionGrades;
 }
 
++ (Class)^v;
 + (Class);
-+ (Class);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)W;
+- (id)Vo;
 - (id);
 - (void);
 - (void);
+- (unsigned long long)*;
+- (id)Wf;
+- (id)+;
+- (void);
+- (void)5;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long));
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)00;
+- (id)a;
 - (id);
 - (void)ª3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *popularityEntries; // @synthesize popularityEntries=_popularityEntries;
 @property(retain, nonatomic) NSMutableArray *visionGrades; // @synthesize visionGrades=_visionGrades;
 
 @end

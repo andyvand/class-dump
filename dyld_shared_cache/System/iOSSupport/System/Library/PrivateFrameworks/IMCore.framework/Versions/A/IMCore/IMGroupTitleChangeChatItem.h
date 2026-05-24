@@ -6,26 +6,15 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSString;
+@class NSString;
 
 @interface IMGroupTitleChangeChatItem : IMTranscriptChatItem
 {
     _Bool _failed;
-    IMHandle *_sender;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool failed; // @synthesize failed=_failed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) _Bool unattributed;
 @end
 

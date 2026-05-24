@@ -6,21 +6,11 @@
 
 #import <Silex/SXMediaComponentView.h>
 
-@class NSString, SWCrashRetryThrottler, SXWebContentLoadEvent, UIActivityIndicatorView, WKWebView, WKWebsiteDataStore;
-@protocol SXComponentActionHandler, SXProxyAuthenticationHandler, SXSceneStateMonitor;
+@protocol SXComponentActionHandler;
 
 @interface SXEmbedVideoComponentView : SXMediaComponentView
 {
     _Bool _webViewIsLoaded;
-    _Bool _isPresentingFullscreen;
-    id <SXComponentActionHandler> _actionHandler;
-    WKWebView *_webView;
-    SWCrashRetryThrottler *_webCrashRetryThrottler;
-    WKWebsiteDataStore *_dataStore;
-    UIActivityIndicatorView *_activityIndicator;
-    id <SXProxyAuthenticationHandler> _proxyAuthenticationHandler;
-    id <SXSceneStateMonitor> _sceneStateMonitor;
-    SXWebContentLoadEvent *_loadEvent;
 }
 
 + (id);
@@ -33,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -72,22 +62,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
-@property(readonly, nonatomic) WKWebsiteDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isPresentingFullscreen; // @synthesize isPresentingFullscreen=_isPresentingFullscreen;
-@property(retain, nonatomic) SXWebContentLoadEvent *loadEvent; // @synthesize loadEvent=_loadEvent;
-@property(readonly, nonatomic) id <SXProxyAuthenticationHandler> proxyAuthenticationHandler; // @synthesize proxyAuthenticationHandler=_proxyAuthenticationHandler;
-@property(readonly, nonatomic) id <SXSceneStateMonitor> sceneStateMonitor; // @synthesize sceneStateMonitor=_sceneStateMonitor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SWCrashRetryThrottler *webCrashRetryThrottler; // @synthesize webCrashRetryThrottler=_webCrashRetryThrottler;
-@property(retain, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
-@property(nonatomic) _Bool webViewIsLoaded; // @synthesize webViewIsLoaded=_webViewIsLoaded;
 
 @end
 

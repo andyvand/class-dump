@@ -6,23 +6,12 @@
 
 #import <CoreSpeech/CSFileAudioInjectionEngine.h>
 
-@class CSAudioCircularBuffer, CSAudioInjectionDevice, CSKeywordAnalyzerNDEAPI, NSDictionary, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol CSAudioInjectionEngineDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSFileAudioInjectionBuiltInEngine : CSFileAudioInjectionEngine
 {
     _Bool _voiceTriggerEnabled;
-    _Bool _isForwarding;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CSAudioInjectionEngineDelegate> _delegate;
-    CSKeywordAnalyzerNDEAPI *_keywordAnalyzer;
-    CSAudioCircularBuffer *_circularBuffer;
-    unsigned long long _lastForwardedSampleCount;
-    NSMutableArray *_hostTimeBuffer;
-    NSUUID *_uuid;
-    CSAudioInjectionDevice *_connectedDevice;
-    unsigned long long _voiceTriggerSampleCount;
-    NSDictionary *_userIntentOptions;
 }
 
 - (unsigned long long);
@@ -30,14 +19,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)1p;
+- (_Bool)__AUTH_CONST;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -53,13 +42,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)setTimestamp:(id)arg1;
+- (void)N,V_softwareUpdateDataBlob;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithOptions:(id)arg1 logEnabled:logFileNameBase: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -70,25 +59,7 @@
 - (_Bool)pletion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioCircularBuffer *circularBuffer; // @synthesize circularBuffer=_circularBuffer;
-@property(nonatomic) __weak CSAudioInjectionDevice *connectedDevice; // @synthesize connectedDevice=_connectedDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSAudioInjectionEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *hostTimeBuffer; // @synthesize hostTimeBuffer=_hostTimeBuffer;
-@property(nonatomic) _Bool isForwarding; // @synthesize isForwarding=_isForwarding;
-@property(retain, nonatomic) CSKeywordAnalyzerNDEAPI *keywordAnalyzer; // @synthesize keywordAnalyzer=_keywordAnalyzer;
-@property(nonatomic) unsigned long long lastForwardedSampleCount; // @synthesize lastForwardedSampleCount=_lastForwardedSampleCount;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userIntentOptions; // @synthesize userIntentOptions=_userIntentOptions;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic) _Bool voiceTriggerEnabled; // @synthesize voiceTriggerEnabled=_voiceTriggerEnabled;
-@property(nonatomic) unsigned long long voiceTriggerSampleCount; // @synthesize voiceTriggerSampleCount=_voiceTriggerSampleCount;
 
 @end
 

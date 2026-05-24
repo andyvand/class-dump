@@ -6,13 +6,12 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TInlineProgressHostLayer, NSString;
+@class FI_TInlineProgressHostLayer;
 
 __attribute__((visibility("hidden")))
 @interface FI_TDesktopInlineProgressView : FI_TUpdateLayerView
 {
     FI_TInlineProgressHostLayer *_inlineProgressHostLayer;
-    function_e88ba8d7 _cancelButtonHandler;
 }
 
 - (void);
@@ -20,24 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)initWithImage:textIndicator:scale: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)queryTimeout;
+- (_Bool)mui_remoteContentNoProxySchemePrefix;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned int);
-- (void);
-- (double)nView;
+- (void);
+- (double)FI_TColumnView;
 - (_Bool)8¤;
 - (void);
 - (void)ÿÿH¼;
@@ -47,16 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool canCancel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double percentComplete;
-@property(nonatomic) unsigned int state;
-@property(readonly) Class superclass;
 
 @end
 

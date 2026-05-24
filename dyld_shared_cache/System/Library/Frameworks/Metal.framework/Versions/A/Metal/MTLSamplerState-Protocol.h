@@ -8,10 +8,9 @@
 @protocol MTLDevice;
 
 @protocol MTLSamplerState
+- (id <MTLDevice>)noonmeeminitialarabic;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
 @end
 

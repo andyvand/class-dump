@@ -9,10 +9,10 @@
     struct CGRect _bounds;
 }
 
-+ (id)yBody;
++ (id)_distanceFromPrimaryBody;
 + (id)ðÔÿycØis;
-- (struct CGRect)dExtentPosition:executionContext: /* Error: Ran out of types for this method. */;
-- (id)ismissInteractionSubInteractionSettings;
+- (struct CGRect)updateSelectionWithExtentPoint:andExtentPosition:executionContext: /* Error: Ran out of types for this method. */;
+- (id)_TtC5UIKit43_UIDismissInteractionSubInteractionSettings;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

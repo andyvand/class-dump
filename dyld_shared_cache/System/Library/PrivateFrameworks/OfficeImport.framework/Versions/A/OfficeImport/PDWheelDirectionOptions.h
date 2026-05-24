@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     int mSpokes;
 }
 
-- (int);
+- (int);
 - (void);
 
 @end

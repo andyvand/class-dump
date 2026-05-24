@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CLPInstSchemaCLPCurareAppIntentSampleClassificationEnded, CLPInstSchemaCLPCurareAppIntentSampleClassificationFailed, CLPInstSchemaCLPCurareAppIntentSampleClassificationStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CLPInstSchemaCLPCurareAppIntentSampleClassificationContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    CLPInstSchemaCLPCurareAppIntentSampleClassificationStarted *_startedOrChanged;
-    CLPInstSchemaCLPCurareAppIntentSampleClassificationEnded *_ended;
-    CLPInstSchemaCLPCurareAppIntentSampleClassificationFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,12 +20,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (void);
@@ -41,14 +33,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)c;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)<;
 - (id);
 - (id)chemaFLOWLINKActionExecutionEnded";
-- (id)er1;
+- (id)FLOWSchemaFLOWMapsExecutionTier1;
 - (id)È{´Ì}µÐ¶´·¸¸¼¹Àº¤»¼l½¾¼¿tÀ,ÁÂÃÄ Å;
 - (void)6<&;
 - (void)M',;
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) CLPInstSchemaCLPCurareAppIntentSampleClassificationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CLPInstSchemaCLPCurareAppIntentSampleClassificationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CLPInstSchemaCLPCurareAppIntentSampleClassificationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

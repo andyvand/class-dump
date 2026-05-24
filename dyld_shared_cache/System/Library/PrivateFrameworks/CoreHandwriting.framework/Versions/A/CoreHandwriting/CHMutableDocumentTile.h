@@ -6,18 +6,11 @@
 
 #import <CoreHandwriting/CHDocumentTile.h>
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface CHMutableDocumentTile : CHDocumentTile
 {
     NSMutableArray *_subtilePositions;
-    NSMutableArray *_orderedStrokeIdentifiers;
-    NSMutableSet *_contentStrokeIdentifiers;
-    NSMutableSet *_overlapStrokeIdentifiers;
-    NSMutableSet *_contextStrokeIdentifiers;
-    struct CGRect _contentArea;
-    struct CGRect _overlapArea;
-    struct CGRect _contextArea;
 }
 
 - (id);
@@ -28,25 +21,24 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)J
+p	;
 - (struct CGRect);
 - (id);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
+- (struct CGRect)nning breached password lookup session.;
+- (void)e;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentArea; // @synthesize contentArea=_contentArea;
-@property(nonatomic) struct CGRect contextArea; // @synthesize contextArea=_contextArea;
-@property(nonatomic) struct CGRect overlapArea; // @synthesize overlapArea=_overlapArea;
 
 @end
 

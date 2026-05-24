@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSMutableArray, WFCoercionOptions, WFContentAttributionSet;
+@class NSArray, WFCoercionOptions;
 
 @interface WFContentCollection
 {
     WFCoercionOptions *_defaultCoercionOptions;
-    NSMutableArray *_mutableItems;
-    NSLock *_itemWriteLock;
 }
 
 + (id);
@@ -21,14 +19,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) WFContentAttributionSet *attributionSet;
-@property(retain, nonatomic) WFCoercionOptions *defaultCoercionOptions; // @synthesize defaultCoercionOptions=_defaultCoercionOptions;
 @property(readonly, nonatomic) NSArray *extensionItems;
-@property(retain, nonatomic) NSLock *itemWriteLock; // @synthesize itemWriteLock=_itemWriteLock;
-@property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic) NSArray *minimalExtensionItems;
-@property(retain, nonatomic) NSMutableArray *mutableItems; // @synthesize mutableItems=_mutableItems;
-@property(readonly, nonatomic) long long numberOfItems;
 
 @end
 

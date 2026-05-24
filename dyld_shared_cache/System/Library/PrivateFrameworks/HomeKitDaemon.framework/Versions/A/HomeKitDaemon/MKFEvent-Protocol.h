@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFEventDatabaseID, NSDate, NSNumber;
+@class NSNumber;
 @protocol MKFEventTrigger, MKFHome;
 
 @protocol MKFEvent
@@ -12,10 +12,6 @@
 - (id <MKFEventTrigger>)%@, Enabled = %@, Confirmed = %@, Reachable = %@, Reachable by IDS = %@, Capabilities = %@, Device = %@>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFEventDatabaseID *databaseID;
 @property(copy, nonatomic) NSNumber *endEvent;
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) id <MKFEventTrigger> trigger;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

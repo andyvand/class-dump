@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)eDevicePropertyStore;
++ (_Bool)NRSecureDevicePropertyStore;
 + (id)h;
 - (unsigned long long);
 - (id);
 - (oneway void);
-- (unsigned long long);
+- (unsigned long long)@3;
 - (id);
 - (id);
 - (_Bool);

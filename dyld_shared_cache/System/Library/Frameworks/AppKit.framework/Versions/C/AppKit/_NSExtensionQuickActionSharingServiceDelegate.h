@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _NSExtensionQuickActionInvocationRequestor, _NSQuickAction;
+@class _NSQuickAction;
 
 __attribute__((visibility("hidden")))
 @interface _NSExtensionQuickActionSharingServiceDelegate
 {
     _NSQuickAction *_quickAction;
-    _NSExtensionQuickActionInvocationRequestor *_requestor;
 }
 
+- (void)copyBooleanFromServiceTree:(id)arg1 withFirstChar:(id)arg2 propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
+- (id)ct;
+- (void)MGIOKitHelper;
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)ng;
+- (void)_HIMenuSetKeyEquivalentForMatching;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

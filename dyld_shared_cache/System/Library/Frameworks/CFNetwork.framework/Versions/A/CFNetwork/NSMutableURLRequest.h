@@ -6,7 +6,7 @@
 
 #import <CFNetwork/NSURLRequest.h>
 
-@class NSData, NSDictionary, NSInputStream, NSString, NSURL;
+@class NSString;
 
 @interface NSMutableURLRequest : NSURLRequest
 {
@@ -14,25 +14,6 @@
 
 
 // Remaining properties
-@property(copy) NSData *HTTPBody;
-@property(retain) NSInputStream *HTTPBodyStream;
 @property(copy) NSString *HTTPMethod;
-@property _Bool HTTPShouldHandleCookies;
-@property _Bool HTTPShouldUsePipelining;
-@property(copy) NSURL *URL; // @dynamic URL;
-@property(copy) NSDictionary *allHTTPHeaderFields;
-@property _Bool allowsCellularAccess; // @dynamic allowsCellularAccess;
-@property _Bool allowsConstrainedNetworkAccess; // @dynamic allowsConstrainedNetworkAccess;
-@property _Bool allowsExpensiveNetworkAccess; // @dynamic allowsExpensiveNetworkAccess;
-@property _Bool allowsPersistentDNS; // @dynamic allowsPersistentDNS;
-@property _Bool allowsUltraConstrainedNetworkAccess;
-@property _Bool assumesHTTP3Capable; // @dynamic assumesHTTP3Capable;
-@property unsigned long long attribution; // @dynamic attribution;
-@property unsigned long long cachePolicy; // @dynamic cachePolicy;
-@property(copy) NSString *cookiePartitionIdentifier;
-@property(copy) NSURL *mainDocumentURL; // @dynamic mainDocumentURL;
-@property unsigned long long networkServiceType; // @dynamic networkServiceType;
-@property _Bool requiresDNSSECValidation; // @dynamic requiresDNSSECValidation;
-@property double timeoutInterval; // @dynamic timeoutInterval;
 @end
 

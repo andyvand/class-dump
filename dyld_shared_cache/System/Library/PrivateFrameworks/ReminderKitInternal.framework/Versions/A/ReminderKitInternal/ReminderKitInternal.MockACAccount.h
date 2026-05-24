@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString;
+@class NSString;
 
 @interface ReminderKitInternal.MockACAccount
 {
     id rem_aa_primaryEmailMock;
-    id rem_aa_altDSIDMock;
-    id rem_mockChildren;
-    id rem_enabledDataClasses;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_transitLinkID;
 - (id);
 - (id);
 - (_Bool);
@@ -27,10 +24,7 @@
 - (void)$;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *aa_altDSID;
 @property(nonatomic, readonly) NSString *aa_primaryEmail;
-@property(nonatomic, readonly) NSArray *childAccounts;
-@property(nonatomic, retain) NSMutableSet *enabledDataclasses;
 
 @end
 

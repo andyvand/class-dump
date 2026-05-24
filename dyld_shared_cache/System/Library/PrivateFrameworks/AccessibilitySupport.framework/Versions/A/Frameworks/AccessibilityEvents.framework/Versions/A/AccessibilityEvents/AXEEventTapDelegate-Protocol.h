@@ -5,5 +5,6 @@
 //
 
 @protocol AXEEventTapDelegate
+- (struct __CGEvent *)	;
 @end
 

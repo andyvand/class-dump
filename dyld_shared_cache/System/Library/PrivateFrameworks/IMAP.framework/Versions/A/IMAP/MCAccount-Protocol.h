@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAuthScheme, NSArray, NSDate, NSString;
+@class ECAuthScheme, NSString;
 
 @protocol MCAccount
-- (NSString *)cted: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)h;
+- (ECAuthScheme *);
+- (NSString *);
+- (NSString *);
+- (_Bool);
+- (NSString *)p;
+- (void)=;
+- (NSString *)setAXAttribute:withFloat: /* Error: Ran out of types for this method. */;
+- (void)ror:(long long)arg1 %@;
+- (void)U;
+- (NSString *)mailboxNameIfSelected: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *accountTypeString;
-@property _Bool allowInsecureAuthentication;
-@property(readonly, copy) NSString *appleAuthenticationToken;
-@property(readonly, copy) NSString *applePersonID;
-@property(copy) NSString *authenticationScheme;
-@property(readonly, copy) NSString *base64EncodedAppleAuthenticationToken2;
-@property(copy) NSString *canonicalEmailAddress;
-@property(readonly, copy) NSString *clientInfo;
-@property _Bool configureDynamically;
-@property(readonly, copy, nonatomic) NSDate *expiryDate;
-@property(copy) NSString *externalHostname;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C
-
-@property(readonly) _Bool isYahooAccount;
-@property(readonly, copy) NSString *machineID;
-@property(readonly, copy) NSString *oauthToken;
-@property(readonly, copy) NSString *oneTimePassword;
-@property(copy) NSString *password;
-@property long long portNumber;
-@property(retain) ECAuthScheme *preferredAuthScheme;
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-@property(readonly, copy, nonatomic) NSString *saslProfileName;
-@property long long securityLayerType;
-@property _Bool shouldUseAuthentication;
-@property(readonly, copy, nonatomic) NSArray *standardPorts;
-@property(readonly, copy, nonatomic) NSArray *standardSSLPorts;
-@property _Bool usesSSL;
 @end
 

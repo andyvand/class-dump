@@ -9,10 +9,6 @@
 @interface MTLIndirectConstantArgument : MTLBindingInternal
 {
     unsigned short _dataType;
-    unsigned short _alignment;
-    unsigned short _dataSize;
-    unsigned long long _pixelFormat;
-    unsigned long long _aluType;
 }
 
 - (void);

@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPredicateBase.h>
 
-@class CEMPredicateCompositeBudget_Monitors, NSArray, NSString;
+@class NSString;
 
 @interface CEMPredicateCompositeBudget : CEMPredicateBase
 {
     NSString *_payloadCalendarIdentifier;
-    CEMPredicateCompositeBudget_Monitors *_payloadMonitors;
-    NSArray *_payloadNotificationTimes;
-    NSArray *_payloadTimeBudget;
 }
 
 + (id);
@@ -30,22 +27,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?)])\s*;
 - (id);
-- (void);
+- (void)ond with certificate list;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadCalendarIdentifier; // @synthesize payloadCalendarIdentifier=_payloadCalendarIdentifier;
-@property(copy, nonatomic) CEMPredicateCompositeBudget_Monitors *payloadMonitors; // @synthesize payloadMonitors=_payloadMonitors;
-@property(copy, nonatomic) NSArray *payloadNotificationTimes; // @synthesize payloadNotificationTimes=_payloadNotificationTimes;
-@property(copy, nonatomic) NSArray *payloadTimeBudget; // @synthesize payloadTimeBudget=_payloadTimeBudget;
-@property(readonly) Class superclass;
 
 @end
 

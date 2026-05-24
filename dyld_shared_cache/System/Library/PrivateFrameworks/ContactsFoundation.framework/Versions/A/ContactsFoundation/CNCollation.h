@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CNCollation
 {
     _Bool _indexExtraTokenizations;
-    NSArray *_headerLanguages;
-    NSArray *_indexSections;
-    NSString *_searchTransform;
-    NSString *_nameTransform;
-    NSString *_searchCollatorIdentifier;
-    NSString *_sortCollatorIdentifier;
 }
 
 + (id);
@@ -30,17 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)inished.;
 - (void);
 
 // Remaining properties
 @property(readonly) NSArray *headerLanguages; // @synthesize headerLanguages=_headerLanguages;
-@property(readonly) _Bool indexExtraTokenizations; // @synthesize indexExtraTokenizations=_indexExtraTokenizations;
-@property(readonly) NSArray *indexSections; // @synthesize indexSections=_indexSections;
-@property(readonly) NSString *nameTransform; // @synthesize nameTransform=_nameTransform;
-@property(readonly) NSString *searchCollatorIdentifier; // @synthesize searchCollatorIdentifier=_searchCollatorIdentifier;
-@property(readonly) NSString *searchTransform; // @synthesize searchTransform=_searchTransform;
-@property(readonly) NSString *sortCollatorIdentifier; // @synthesize sortCollatorIdentifier=_sortCollatorIdentifier;
 
 @end
 

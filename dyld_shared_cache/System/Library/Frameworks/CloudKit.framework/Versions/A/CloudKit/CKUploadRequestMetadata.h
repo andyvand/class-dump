@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, CKRoughlyEquivalentProperties, NSString;
+@class CKRecordID;
 
 @interface CKUploadRequestMetadata
 {
     long long _databaseScope;
-    CKRecordID *_recordID;
-    NSString *_recordType;
-    NSString *_fieldName;
-    CKRecordID *_repairZoneRecordID;
 }
 
 + (_Bool);
 + (void)d unboxing type:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)	@�H;
 - (id);
 - (long long);
 - (id);
-- (void)TypePredicateValidator;
+- (void)CKCompoundTypePredicateValidator;
 - (id)light %@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;
-@property(readonly, copy, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(readonly, copy, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly, copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
 @property(readonly, copy, nonatomic) CKRecordID *repairZoneRecordID; // @synthesize repairZoneRecordID=_repairZoneRecordID;
 
 @end

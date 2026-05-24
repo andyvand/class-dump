@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)entApplication;
+- (void)PaymentApplication;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPeerPaymentEncryptionCertificate *certificate; // @synthesize certificate=_certificate;

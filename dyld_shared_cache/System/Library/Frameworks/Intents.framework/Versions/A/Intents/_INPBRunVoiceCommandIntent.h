@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentExecutionResult, _INPBIntentMetadata, _INPBVoiceCommandDeviceInformation;
+@class _INPBIntentExecutionResult;
 
 @interface _INPBRunVoiceCommandIntent
 {
     struct _has;
-    _INPBIntentExecutionResult *_executionResult;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBVoiceCommandDeviceInformation *_originDevice;
-    NSString *_previousIntentIdentifier;
-    _INPBDataString *_voiceCommand;
 }
 
 + (_Bool);
@@ -23,13 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)setInterface:(id)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -37,29 +32,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)(
+;
 - (void);
 - (_Bool)PBCallMetrics",&,N,V_callMetrics;
-- (void)ch;
+- (void)INCreateFileIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBIntentExecutionResult *executionResult; // @synthesize executionResult=_executionResult;
-@property(readonly, nonatomic) _Bool hasExecutionResult;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasOriginDevice;
-@property(readonly, nonatomic) _Bool hasPreviousIntentIdentifier;
-@property(readonly, nonatomic) _Bool hasVoiceCommand;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBVoiceCommandDeviceInformation *originDevice; // @synthesize originDevice=_originDevice;
-@property(copy, nonatomic) NSString *previousIntentIdentifier; // @synthesize previousIntentIdentifier=_previousIntentIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDataString *voiceCommand; // @synthesize voiceCommand=_voiceCommand;
 
 @end
 

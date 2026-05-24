@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSNumber, NSString;
 @protocol CNTimeProvider;
 
 @interface CNAutocompleteStoreReproStringRecorder
 {
     id <CNTimeProvider> _timeProvider;
-    NSMutableString *_reproStringStorage;
-    NSNumber *_lastTimestamp;
-    NSString *_lastString;
 }
 
 - (id);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -32,10 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSString *lastString; // @synthesize lastString=_lastString;
-@property(copy) NSNumber *lastTimestamp; // @synthesize lastTimestamp=_lastTimestamp;
-@property(readonly, copy, nonatomic) NSString *reproString;
-@property(readonly) NSMutableString *reproStringStorage; // @synthesize reproStringStorage=_reproStringStorage;
 @property(readonly) id <CNTimeProvider> timeProvider; // @synthesize timeProvider=_timeProvider;
 
 @end

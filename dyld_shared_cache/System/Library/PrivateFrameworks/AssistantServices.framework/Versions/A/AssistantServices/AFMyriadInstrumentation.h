@@ -10,14 +10,12 @@
 @interface AFMyriadInstrumentation
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDASchemaCDAScoreBoosters *_currentBoost;
-    CDASchemaCDAScoreBoosters *_previousBoosts;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,9 +27,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)ateEndedResolvingExperiment;
 

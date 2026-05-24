@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCImageSubjectHighlightViewAccessibility;
 + (void);
 - (void);
 - (void);

@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSViewController;
+@protocol AMSUIMessageViewController;
+
 @protocol AMSUIMessageViewControllerDelegate
+- (void)(%{public}@) assertionID:(NSViewController<AMSUIMessageViewController> *)arg1 (%{public}@) clientID:(struct CGSize)arg2 (%{public}@);
+- (void)pending assertions...;
+- (void)bandoned (due to unexpected welf=nil during update);
+
+@optional
+- (_Bool)@);
+- (void)t update is in progress for query:(NSViewController<AMSUIMessageViewController> *)arg1 (%{public}@);
+- (_Bool)or query:(NSViewController<AMSUIMessageViewController> *)arg1 (%{public}@);
+- (_Bool)ated successfully for asset type:(NSViewController<AMSUIMessageViewController> *)arg1 (%{public}@);
+- (void)e skip updating it again;
+- (void)eStatus:(NSViewController<AMSUIMessageViewController> *)arg1 (%ld);
+- (void)ry;
 @end
 

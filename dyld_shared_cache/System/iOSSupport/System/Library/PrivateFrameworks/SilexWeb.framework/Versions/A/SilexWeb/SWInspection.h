@@ -9,16 +9,14 @@
 @interface SWInspection
 {
     NSArray *_links;
-    NSArray *_accessibilityElements;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessibilityElements; // @synthesize accessibilityElements=_accessibilityElements;
 @property(readonly, nonatomic) NSArray *links; // @synthesize links=_links;
 
 @end

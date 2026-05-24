@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RWIDebuggable, RWIManager;
+@class NSString, RWIDebuggable;
 
 @protocol RWIDebugger
+- (RWIDebuggable *);
+- (void);
+- (void)(;
 
 // Remaining properties
-@property(readonly, nonatomic) RWIDebuggable *debuggable;
-@property(readonly, nonatomic) RWIManager *manager;
 @property(readonly, copy, nonatomic) NSString *uuid;
 @end
 

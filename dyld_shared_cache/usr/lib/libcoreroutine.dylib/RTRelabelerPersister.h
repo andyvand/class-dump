@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSMutableDictionary, RTDistanceCalculator, RTLocationShifter, RTMapItemProviderLearnedPlaceParameters, RTMapItemProviderReverseGeocode, RTRelabelerParameters, RTRelabelerPersisterMetrics, RTRelabelerPersisterParameters;
+@class NSManagedObjectContext, RTRelabelerPersisterMetrics;
 
 @interface RTRelabelerPersister
 {
     RTRelabelerPersisterMetrics *_metrics;
-    NSManagedObjectContext *_context;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLocationShifter *_locationShifter;
-    RTMapItemProviderReverseGeocode *_reverseGeocodeProvider;
-    RTMapItemProviderLearnedPlaceParameters *_learnedPlaceParameters;
-    NSMutableDictionary *_loiIdentifierToUnconcreteMap;
-    RTRelabelerParameters *_relabelerParameters;
-    RTRelabelerPersisterParameters *_relabelerPersisterParameters;
 }
 
-+ (id);
++ (id)encryptionPrivateKey;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (double);
@@ -57,36 +49,28 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)userPersonaUniqueString;
+- (id)unsignedIntValue;
+- (_Bool)setRecordModify:(id *)arg1;
+- (_Bool)setQueryEscrowKeysAll:(_Bool *)arg1;
+- (_Bool)setPublicKeyInfo:(id)arg1;
+- (_Bool)restoreMobileBackup:(id *)arg1 dsid:withReply: /* Error: Ran out of types for this method. */;
+- (_Bool)restartCounter;
+- (_Bool)_limitLocalStoring;
+- (_Bool)_insertWatch;
+- (id)com.apple.pcspPerformCKServerUnreadableDataRemoval;
+- (_Bool)h?;
+- (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)triggerAllFirewallNotificationsWithHandle:delay:service: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)terScheduleStore;
+- (void)tripClusterScheduleStore;
 - (void)tent gnss;
 
 // Remaining properties
 @property(retain, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) RTMapItemProviderLearnedPlaceParameters *learnedPlaceParameters; // @synthesize learnedPlaceParameters=_learnedPlaceParameters;
-@property(readonly, nonatomic) RTLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
-@property(readonly, nonatomic) NSMutableDictionary *loiIdentifierToUnconcreteMap; // @synthesize loiIdentifierToUnconcreteMap=_loiIdentifierToUnconcreteMap;
-@property(retain, nonatomic) RTRelabelerPersisterMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) RTRelabelerParameters *relabelerParameters; // @synthesize relabelerParameters=_relabelerParameters;
-@property(readonly, nonatomic) RTRelabelerPersisterParameters *relabelerPersisterParameters; // @synthesize relabelerPersisterParameters=_relabelerPersisterParameters;
-@property(readonly, nonatomic) RTMapItemProviderReverseGeocode *reverseGeocodeProvider; // @synthesize reverseGeocodeProvider=_reverseGeocodeProvider;
 
 @end
 

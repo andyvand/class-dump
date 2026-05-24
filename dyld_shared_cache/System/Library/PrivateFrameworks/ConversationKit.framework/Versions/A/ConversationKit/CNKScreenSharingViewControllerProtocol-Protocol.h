@@ -7,6 +7,9 @@
 @protocol CNKScreenSharingViewControllerDelegate;
 
 @protocol CNKScreenSharingViewControllerProtocol
+- (_Bool)\Wz;
+- (void);
+- (void)q{;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNKScreenSharingViewControllerDelegate> delegate;

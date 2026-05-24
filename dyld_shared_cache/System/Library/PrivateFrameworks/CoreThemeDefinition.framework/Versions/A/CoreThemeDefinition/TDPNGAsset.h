@@ -6,12 +6,11 @@
 
 #import <CoreThemeDefinition/TDAsset.h>
 
-@class NSNumber, NSSet;
+@class NSSet;
 
 @interface TDPNGAsset : TDAsset
 {
     int _exifOrientation;
-    unsigned int _fileScaleFactor;
 }
 
 - (id);
@@ -20,14 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool rawData; // @dynamic rawData;
 @property(retain, nonatomic) NSSet *renditions; // @dynamic renditions;
-@property(copy, nonatomic) NSNumber *scaledHeight; // @dynamic scaledHeight;
-@property(copy, nonatomic) NSNumber *scaledWidth; // @dynamic scaledWidth;
 
 @end
 

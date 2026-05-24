@@ -10,13 +10,13 @@
 }
 
 + (double);
-+ (double);
-+ (double);
++ (double)rk/CoreGraphics;
++ (double)/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics;
 - (void);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id)re unknown type message;
+- (double);
 - (id);
 
 @end

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface MHSchemaMHRTSFalseRejectDetected : SISchemaInstrumentationMessage
 {
     unsigned int _assetVersion;
-    NSString *_gestureModelVersion;
-    NSString *_audioModelVersion;
-    NSString *_policyModelVersion;
-    CDStruct_2acdca82 _has;
-    _Bool _hasGestureModelVersion;
-    _Bool _hasAudioModelVersion;
-    _Bool _hasPolicyModelVersion;
 }
 
 - (void);
@@ -32,36 +23,28 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)dsa/dsa_ameth.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (void);
+- (void)setHasTopLocale:(unsigned int)arg1;
 - (id)ionId;
 - (id)CECommsAppSelectionTrainingContactDependentSignals",&,N,V_contactDependentSignals;
-- (unsigned int)PLUSPhoneCallDurationBucket;
+- (unsigned int)PLUSSchemaPLUSPhoneCallDurationBucket;
 - (void)iåÿ´Qe!;
 
 // Remaining properties
 @property(nonatomic) unsigned int assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(copy, nonatomic) NSString *audioModelVersion; // @synthesize audioModelVersion=_audioModelVersion;
-@property(copy, nonatomic) NSString *gestureModelVersion; // @synthesize gestureModelVersion=_gestureModelVersion;
-@property(nonatomic) _Bool hasAssetVersion;
-@property(nonatomic) _Bool hasAudioModelVersion; // @synthesize hasAudioModelVersion=_hasAudioModelVersion;
-@property(nonatomic) _Bool hasGestureModelVersion; // @synthesize hasGestureModelVersion=_hasGestureModelVersion;
-@property(nonatomic) _Bool hasPolicyModelVersion; // @synthesize hasPolicyModelVersion=_hasPolicyModelVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *policyModelVersion; // @synthesize policyModelVersion=_policyModelVersion;
 
 @end
 

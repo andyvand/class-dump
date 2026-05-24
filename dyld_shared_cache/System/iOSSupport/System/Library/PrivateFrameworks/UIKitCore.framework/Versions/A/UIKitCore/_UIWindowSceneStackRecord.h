@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindowScene;
+@class UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneStackRecord
 {
     UIWindowScene *_windowScene;
-    unsigned long long _evaluationStrategy;
-    unsigned long long _lastPushedTime;
 }
 
 - (unsigned long long);
 - (id);
+- (id)cl;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ks/ImageIO.framework/Versions/A/ImageIO;
 - (id);
 - (unsigned long long)ow"b1"delegateRespondsToTitleForRow"b1"delegateRespondsToAttributedTitleForRow"b1"delegateRespondsToWidthForComponent"b1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
-- (void):(unsigned long long)arg1;
+- (void)bringupWaveEffectViewForDisplayScale:(unsigned long long)arg1;
 - (id)_navigationToolbarTransitionControllerForContext: /* Error: Ran out of types for this method. */;
 - (id)ractionEnabled set to NO. Views must allow focus interaction to be focusable.;
-- (id)terTextColor;
+- (id)_plainTableHeaderFooterTextColor;
 - (void)ess=;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long evaluationStrategy; // @synthesize evaluationStrategy=_evaluationStrategy;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long lastPushedTime; // @synthesize lastPushedTime=_lastPushedTime;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIWindowScene *windowScene; // @synthesize windowScene=_windowScene;
 
 @end

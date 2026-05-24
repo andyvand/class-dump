@@ -5,5 +5,9 @@
 //
 
 @protocol PKCanvasViewDelegate
+
+@optional
+- (void);
+- (void)T;
 @end
 

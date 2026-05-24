@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface IMTranscodingAgentController
 {
     NSArray *_transcoders;
-    NSArray *_fallbackTranscoders;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_previewGenerationQueue;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)rRef *);
+- (void)oid *);
+- (void)playback info
+;
+- (void)tatus apPlayback_Stop(FigEndpointPlaybackSessionRef, FigEndpointPlaybackSessionStandardCompletion, void *);
+- (_Bool)andleMetadataEvent(APMetadataSourceRef, CFTypeRef, APMetadataSourceEventType, CFTypeRef, CFStringRef, Boolean);
+- (_Bool)backSessionRef, CFDictionaryRef);
+- (void)ItemCompletion, void *);
+- (void)essionRef, CFDataRef, CFStringRef, FigEndpointPlaybackSessionAuthorizeItemCompletion, void *);
+- (id)us apPlayback_AuthorizeItem(FigEndpointPlaybackSessionRef, CFDataRef, CFStringRef, FigEndpointPlaybackSessionAuthorizeItemCompletion, void *);
+- (void)operty(CMBaseObjectRef, CFStringRef, CFTypeRef);
+- (void)treams.
+;
+- (void)ansportStreams(FigEndpointPlaybackSessionRef);
+- (void)ckSessionAirPlay.%{ptr}.notification;
+- (_Bool)i=%@ inBubble=%s visibleToRapport=%s isAcceptable=%s;
+- (void)}] NISession didInvalidateWithError:%@ /* Error: Ran out of types for this method. */;
+- (id)snapInUseCoarseEstimation;
 - (id);
 - (void);
 

@@ -5,5 +5,7 @@
 //
 
 @protocol MKQuickRouteManagerDelegate
+- (_Bool):8 /* Error: Ran out of types for this method. */;
+- (_Bool)dispatch_queue>";
 @end
 

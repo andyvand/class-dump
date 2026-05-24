@@ -7,9 +7,6 @@
 @interface CoreML.BNNSDevice
 {
     id id;
-    id cpuDevice;
-    id mtlDevice;
-    id sharedEventPool;
 }
 
 @end

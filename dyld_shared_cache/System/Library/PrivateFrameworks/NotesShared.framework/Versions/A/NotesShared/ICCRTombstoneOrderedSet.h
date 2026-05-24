@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRArray, ICCRDocument, ICCRSet, NSMapTable, NSMutableOrderedSet, NSObject, NSString;
-@protocol ICCRUndoDelegate;
+@class NSMutableOrderedSet;
 
 @interface ICCRTombstoneOrderedSet
 {
     NSMutableOrderedSet *_cachedIdentifierSet;
-    NSMapTable *_cachedIndexMapping;
-    ICCRDocument *_document;
-    NSObject<ICCRUndoDelegate> *_delegate;
-    ICCRArray *_ordering;
-    ICCRSet *_elements;
 }
 
-- (id);
-- (id);
+- (id)installWaitSemaphore;
+- (id)installClient:(id)arg1 currentState:package:progress:timeRemaining: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -27,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (unsigned long long);
@@ -51,11 +45,11 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)?q`;
 - (id);
 - (id);
 - (void);
@@ -72,20 +66,7 @@
 - (void)ing {object:(id)arg1 %@, error:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableOrderedSet *cachedIdentifierSet; // @synthesize cachedIdentifierSet=_cachedIdentifierSet;
-@property(readonly, nonatomic) NSMapTable *cachedIndexMapping; // @synthesize cachedIndexMapping=_cachedIndexMapping;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<ICCRUndoDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak ICCRDocument *document; // @synthesize document=_document;
-@property(retain, nonatomic) ICCRSet *elements; // @synthesize elements=_elements;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ICCRArray *ordering; // @synthesize ordering=_ordering;
-@property(readonly) Class superclass;
 
 @end
 

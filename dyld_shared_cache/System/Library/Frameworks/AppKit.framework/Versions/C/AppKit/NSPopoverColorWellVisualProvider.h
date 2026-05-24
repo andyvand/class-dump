@@ -6,17 +6,12 @@
 
 #import <AppKit/NSColorWellAppearanceBasedVisualProvider.h>
 
-@class NSButton, _NSDrawingHandlerView;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface NSPopoverColorWellVisualProvider : NSColorWellAppearanceBasedVisualProvider
 {
     NSButton *_bezelRenderingButton;
-    _NSDrawingHandlerView *_colorRenderer;
-    unsigned int _renderUsingSubviews:1;
-    _Bool emptyColor;
-    _Bool _noSelection;
-    CDUnknownBlockType _afterRenderer;
 }
 
 + (void);
@@ -32,25 +27,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct CGSize);
+- (_Bool)T;
 - (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)allowsExpensiveNetworkAccess;
 - (_Bool);
 - (void);
 - (struct NSEdgeInsets);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void)t­?;
 - (void)OB;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType afterRenderer; // @synthesize afterRenderer=_afterRenderer;
-@property(getter=isEmptyColor) _Bool emptyColor; // @synthesize emptyColor;
-@property _Bool noSelection; // @synthesize noSelection=_noSelection;
-@property(readonly) struct NSEdgeInsets renderingButtonAlignmentRectInsets;
-@property(readonly) struct CGSize renderingButtonIntrinsicContentSize;
 @property _Bool rendersUsingSubviews;
 
 @end

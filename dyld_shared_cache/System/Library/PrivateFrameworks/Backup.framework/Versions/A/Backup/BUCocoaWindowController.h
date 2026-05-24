@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BUCocoaWindowController
 {
     double _maxX;
-    double _minY;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationCenterObservers;
-    BUCocoaWindowController *_selfReference;
 }
 
 - (void);
@@ -26,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double maxX; // @synthesize maxX=_maxX;
-@property(nonatomic) double minY; // @synthesize minY=_minY;
 @property(retain, nonatomic) BUCocoaWindowController *selfReference; // @synthesize selfReference=_selfReference;
 
 @end

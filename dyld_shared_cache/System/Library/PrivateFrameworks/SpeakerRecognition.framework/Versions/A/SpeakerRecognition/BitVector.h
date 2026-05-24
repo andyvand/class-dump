@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface BitVector
 {
     unsigned long long _bitsPerBlock;
-    unsigned long long _bitShift;
-    char *_data;
-    long long _numberOfBits;
-    unsigned long long _numberOfBytes;
-    NSData *_bvData;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
@@ -27,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSData *bvData; // @synthesize bvData=_bvData;
 @property(readonly) long long numberOfBits; // @synthesize numberOfBits=_numberOfBits;
-@property(readonly) unsigned long long numberOfBytes; // @synthesize numberOfBytes=_numberOfBytes;
 
 @end
 

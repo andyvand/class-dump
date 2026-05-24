@@ -11,7 +11,7 @@
     CUIKORTextDrawInfo *_drawInfo;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

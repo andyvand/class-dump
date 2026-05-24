@@ -7,13 +7,12 @@
 @interface REMRecurrenceDayOfWeek
 {
     long long _dayOfTheWeek;
-    long long _weekNumber;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)V;
 - (id);
 - (unsigned long long);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long dayOfTheWeek; // @synthesize dayOfTheWeek=_dayOfTheWeek;
-@property(readonly, nonatomic) long long weekNumber; // @synthesize weekNumber=_weekNumber;
 
 @end
 

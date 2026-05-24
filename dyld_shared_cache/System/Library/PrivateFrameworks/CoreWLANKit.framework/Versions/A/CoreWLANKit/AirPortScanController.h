@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWConfiguration, CWInterface, CWWiFiClient, CWWiFiUIProxyClient, NSMenu, NSObject, NSString, NSUUID, NSWindow, NSWindowController;
-@protocol AirPortPrefs, OS_dispatch_queue;
+@class NSMenu;
+@protocol AirPortPrefs;
 
 @interface AirPortScanController
 {
     id <AirPortPrefs> _networkPrefsObject;
-    NSString *_serviceID;
-    NSMenu *_savedMenu;
-    NSString *_interfaceName;
-    CWWiFiClient *_wifiClient;
-    CWWiFiUIProxyClient *_wifiUIClient;
-    NSUUID *_joinUUID;
-    _Bool _menuWillBeShownInPopUp;
-    NSWindowController *_currentDialog;
-    NSWindow *_window;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    _Bool _includePasspoint;
-    unsigned long long _menuScanCounter;
-    CWConfiguration *_configuration;
 }
 
 - (void);
@@ -42,30 +29,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct __SCNetworkInterface *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (struct __SCNetworkInterface *)+;
 - (void);
+- (void)T8;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Q;
+- (void);
+- (void);
+- (void);
+- (void)R?;
+- (void);
+- (void);
+- (id);
+- (void)kb;
 - (id);
 - (void);
 - (void);
@@ -79,10 +66,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id):%d Failed to allocate the media recorder requester ID /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -90,12 +77,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSWindowController *currentDialog; // @synthesize currentDialog=_currentDialog;
-@property(readonly) CWInterface *interface;
-@property(copy) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property id <AirPortPrefs> networkPrefsObject; // @synthesize networkPrefsObject=_networkPrefsObject;
 @property(retain) NSMenu *savedMenu; // @synthesize savedMenu=_savedMenu;
-@property(readonly) NSWindow *window; // @dynamic window;
 
 @end
 

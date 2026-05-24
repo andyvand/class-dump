@@ -9,7 +9,6 @@
 @interface TUCallStartRecordingRequest : TUCallRecordingRequest
 {
     _Bool _isInitiatedLocally;
-    long long _mode;
 }
 
 + (_Bool);
@@ -21,11 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isInitiatedLocally; // @synthesize isInitiatedLocally=_isInitiatedLocally;
 @property(nonatomic) long long mode; // @synthesize mode=_mode;
 
 @end

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MROriginClientPropertiesMessageProtobuf
 {
     double _lastPlayingTimestamp;
-    NSString *_devicePlaybackSessionID;
-    CDStruct_d7e5e336 _has;
 }
 
 - (void);
@@ -28,14 +24,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)ilableDistantEndpointsWithEndpoints: /* Error: Ran out of types for this method. */;
+- (id)stantExperienceStatusManager fetchGenerativeModelsAvailability]_block_invoke;
+- (void)_reloadAvailableDistantEndpointsWithEndpoints: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *devicePlaybackSessionID; // @synthesize devicePlaybackSessionID=_devicePlaybackSessionID;
-@property(readonly, nonatomic) _Bool hasDevicePlaybackSessionID;
 @property(nonatomic) _Bool hasLastPlayingTimestamp;
-@property(nonatomic) double lastPlayingTimestamp; // @synthesize lastPlayingTimestamp=_lastPlayingTimestamp;
 
 @end
 

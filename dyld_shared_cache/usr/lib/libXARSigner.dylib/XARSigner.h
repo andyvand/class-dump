@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSFileHandle, NSURL, NSXMLDocument;
+@class NSFileHandle, NSURL;
 
 @interface XARSigner
 {
     int _checksumAlgorithm;
     NSURL *_inputArchiveURL;
-    NSFileHandle *_inputArchiveHandle;
-    NSXMLDocument *_toc;
-    unsigned long long _inputHeapContentsOffsetInArchive;
-    NSData *_dataToSign;
-    NSData *_cmsSignatureData;
-    NSData *_rsaSignatureData;
 }
 
 - (_Bool);
@@ -36,24 +30,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ow anything about one index;
 - (id);
 - (void);
 
 // Remaining properties
-@property int checksumAlgorithm; // @synthesize checksumAlgorithm=_checksumAlgorithm;
-@property(retain) NSData *cmsSignatureData; // @synthesize cmsSignatureData=_cmsSignatureData;
-@property(retain) NSData *dataToSign; // @synthesize dataToSign=_dataToSign;
 @property(retain) NSFileHandle *inputArchiveHandle; // @synthesize inputArchiveHandle=_inputArchiveHandle;
 @property(retain) NSURL *inputArchiveURL; // @synthesize inputArchiveURL=_inputArchiveURL;
-@property unsigned long long inputHeapContentsOffsetInArchive; // @synthesize inputHeapContentsOffsetInArchive=_inputHeapContentsOffsetInArchive;
-@property(retain) NSData *rsaSignatureData; // @synthesize rsaSignatureData=_rsaSignatureData;
-@property(retain) NSXMLDocument *toc; // @synthesize toc=_toc;
 
 @end
 

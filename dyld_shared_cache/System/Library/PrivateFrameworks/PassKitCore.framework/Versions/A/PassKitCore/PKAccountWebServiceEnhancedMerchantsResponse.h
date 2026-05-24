@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSArray, NSDate, NSNumber;
+@class NSArray;
 
 @interface PKAccountWebServiceEnhancedMerchantsResponse : PKAccountWebServiceResponse
 {
     NSArray *_merchants;
-    NSArray *_orderings;
-    NSDate *_lastAddedDate;
-    NSNumber *_minRefreshPeriod;
 }
 
 - (id);
@@ -24,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastAddedDate; // @synthesize lastAddedDate=_lastAddedDate;
 @property(readonly, nonatomic) NSArray *merchants; // @synthesize merchants=_merchants;
-@property(readonly, nonatomic) NSNumber *minRefreshPeriod; // @synthesize minRefreshPeriod=_minRefreshPeriod;
-@property(readonly, nonatomic) NSArray *orderings; // @synthesize orderings=_orderings;
 
 @end
 

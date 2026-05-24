@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSString;
+@class NSBundle;
 
 @interface OBBundle
 {
     NSBundle *_bundle;
-    _Bool _isPlaceholder;
-    _Bool _isLinkBundle;
-    _Bool _isReplacementBundle;
-    NSString *_identifier;
-    NSString *_name;
-    NSString *_bundleVersion;
-    NSString *_replacementPreconditionCache;
-    NSArray *_replaceeIdentifierSetsCache;
 }
 
 + (id);
@@ -38,25 +30,16 @@
 - (void);
 - (id);
 - (void);
+- (id)insertIntoPhotoLibrary:asset:sceneIdentifier:confidence:packedBoundingBoxRect:startTime:duration:classificationType:thumbnailIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)SEMSpanMatchQueryBuilder;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isLinkBundle; // @synthesize isLinkBundle=_isLinkBundle;
 @property(nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(nonatomic) _Bool isReplacementBundle; // @synthesize isReplacementBundle=_isReplacementBundle;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSArray *replaceeIdentifierSetsCache; // @synthesize replaceeIdentifierSetsCache=_replaceeIdentifierSetsCache;
-@property(retain, nonatomic) NSString *replacementPreconditionCache; // @synthesize replacementPreconditionCache=_replacementPreconditionCache;
-@property(readonly, nonatomic) NSBundle *underlyingBundle;
 
 @end
 

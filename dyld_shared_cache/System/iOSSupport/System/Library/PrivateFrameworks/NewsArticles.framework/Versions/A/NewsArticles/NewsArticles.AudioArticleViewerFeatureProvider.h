@@ -7,10 +7,6 @@
 @interface NewsArticles.AudioArticleViewerFeatureProvider
 {
     id headline;
-    id commandCenter;
-    id tracker;
-    id tipSourceManager;
-    id featureAvailability;
 }
 
 @end

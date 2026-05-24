@@ -7,25 +7,12 @@
 @interface GEORouteDetails
 {
     double _timeSinceRouteResponse;
-    int _resultIndex;
-    unsigned int _stepID;
-    _Bool _isNearCurrentlyDisplayedStep;
-    _Bool _isNearRoute;
-    _Bool _isUserTrackingOn;
-    struct {
-        unsigned int has_timeSinceRouteResponse:1;
-        unsigned int has_resultIndex:1;
-        unsigned int has_stepID:1;
-        unsigned int has_isNearCurrentlyDisplayedStep:1;
-        unsigned int has_isNearRoute:1;
-        unsigned int has_isUserTrackingOn:1;
-    } _flags;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool)ffDevice:(id)arg1;
++ (id)_CNObservableEventBufferingStrategy;
++ (id)CNInhibitor;
++ (id)CNUsageReporting;
++ (_Bool)setMapLaunchSourceHandoffDevice:(id)arg1;
 - (double);
 - (unsigned int);
 - (void);
@@ -34,50 +21,39 @@
 - (void);
 - (void);
 - (void);
+- (void)	?׀;
 - (void);
 - (void);
+- (_Bool)successfullyPrepared;
+- (_Bool)sharedDefaults;
+- (_Bool)setWithSet: /* Error: Ran out of types for this method. */;
+- (id)mt_log_AddressBook_customPropertyDamageDetected:(int)arg1;
+- (_Bool)moveAsideDatabaseAtPath:reason: /* Error: Ran out of types for this method. */;
+- (_Bool)CNCDOrphanRecordMigrator;
+- (_Bool);
+- (_Bool)operties:%{public}@ %{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void)setCanUseCachingServer:(id)arg1;
+- (void)_handleSessionInfoProvidingDelegateRouteChangeNotification:(id)arg1;
 - (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool)__got;
+- (int)scrollingDeltaY;
 - (_Bool);
 - (void);
 - (void);
 - (id)detail:(struct _NSZone *)arg1:_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>>>="__table_"{__hash_table<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::__unordered_map_hasher<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>>, std::__unordered_map_equal<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::equal_to<GEOTileKey>, std::hash<GEOTileKey>>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
 - (id)geotag;
-- (id)alizedQueryUnderstandingTaxonomyResultItemBrand;
-- (id)A_SUBTYPE_APPS;
+- (id)GEOPDLocalizedQueryUnderstandingTaxonomyResultItemBrand;
+- (id)MEDIA_SUBTYPE_APPS;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsNearCurrentlyDisplayedStep;
-@property(nonatomic) _Bool hasIsNearRoute;
-@property(nonatomic) _Bool hasIsUserTrackingOn;
 @property(nonatomic) _Bool hasResultIndex;
-@property(nonatomic) _Bool hasStepID;
-@property(nonatomic) _Bool hasTimeSinceRouteResponse;
-@property(nonatomic) _Bool isNearCurrentlyDisplayedStep;
-@property(nonatomic) _Bool isNearRoute;
-@property(nonatomic) _Bool isUserTrackingOn;
-@property(nonatomic) int resultIndex;
-@property(nonatomic) unsigned int stepID;
-@property(nonatomic) double timeSinceRouteResponse;
 
 @end
 

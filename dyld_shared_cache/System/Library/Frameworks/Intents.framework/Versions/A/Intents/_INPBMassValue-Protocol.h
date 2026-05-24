@@ -7,17 +7,14 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBMassValue
+- (_Bool);
+- (_Bool);
 - (_Bool)y;
 - (void)entResponse;
 - (_INPBValueMetadata *)sirikit.intent.home.communication.StopAnnouncementIntentResponse;
-- (int)mentIntentResponse;
+- (int)SendAnnouncementIntentResponse;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double magnitude;
-@property(nonatomic) int unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

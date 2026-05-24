@@ -6,30 +6,18 @@
 
 #import <GameController/GCDeviceElementDescription.h>
 
-@class NSSet, NSString;
-
 @interface GCDeviceButtonInputDescription : GCDeviceElementDescription
 {
     unsigned long long _attributes;
-    unsigned long long _sourceAttributes;
-    float _sourceTouchedThreshold;
-    float _sourcePressedThreshold;
-    NSString *_name;
-    NSSet *_additionalAliases;
-    NSString *_nameLocalizationKey;
-    NSString *_symbolName;
-    NSString *_sourceNameLocalizationKey;
-    NSString *_sourceSymbolName;
-    long long _sourceExtendedEventFieldIndex;
 }
 
 + (_Bool);
 - (_Bool);
-- (float);
+- (float)u;
 - (id);
 - (float);
 - (id);
-- (long long);
+- (long long)i;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -47,12 +35,6 @@
 
 // Remaining properties
 @property(readonly, getter=isDigital) _Bool digital;
-@property(readonly) long long sourceExtendedEventFieldIndex; // @synthesize sourceExtendedEventFieldIndex=_sourceExtendedEventFieldIndex;
-@property(readonly) NSString *sourceNameLocalizationKey; // @synthesize sourceNameLocalizationKey=_sourceNameLocalizationKey;
-@property(readonly) float sourcePressedThreshold; // @synthesize sourcePressedThreshold=_sourcePressedThreshold;
-@property(readonly) NSString *sourceSymbolName; // @synthesize sourceSymbolName=_sourceSymbolName;
-@property(readonly) float sourceTouchedThreshold; // @synthesize sourceTouchedThreshold=_sourceTouchedThreshold;
-@property(readonly) _Bool supportsTouch;
 
 @end
 

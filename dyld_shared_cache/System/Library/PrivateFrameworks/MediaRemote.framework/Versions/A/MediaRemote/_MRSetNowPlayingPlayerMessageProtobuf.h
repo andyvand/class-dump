@@ -11,23 +11,22 @@
     _MRNowPlayingPlayerPathProtobuf *_playerPath;
 }
 
-- (id);
+- (id)H&;
 - (void);
-- (void);
+- (void)#;
 - (unsigned long long);
 - (_Bool);
+- (_Bool)hZ;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id).xbs/TemporaryDirectory.3GkaPH/Sources/Photos/Projects/PhotoFoundation/Source/PFAssert.m;
+- (id)yStateMutating>"8;
 - (void);
-- (void)completion: /* Error: Ran out of types for this method. */;
+- (void)applicationInfoForApplication:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

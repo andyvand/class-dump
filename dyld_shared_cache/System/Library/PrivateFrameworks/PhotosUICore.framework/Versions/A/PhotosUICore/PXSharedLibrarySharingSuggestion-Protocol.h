@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol PXDisplayAsset, PXDisplayCollection;
+@class NSString;
 
 @protocol PXSharedLibrarySharingSuggestion
+- (void);
 - (NSString *)Providers;
 - (NSString *)ù¬;
 - (_Bool)ut"8{?={CGRect={CGPoint=dd}{CGSize=dd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{CGPoint=dd}{CGSize=dd}}16{?={CGRect={CGPoint=dd}{CGSize=dd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{CGPoint=dd}{CGSize=dd}}176{?={CGSize=dd}{CGSize=dd}{CGSize=dd}BQ{CGPoint=dd}}336{?={CGSize=dd}{CGSize=dd}{CGSize=dd}BQ{CGPoint=dd}}416^B496;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayCollection> displayCollection;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isNew;
-@property(readonly, nonatomic) _Bool isPlaceholder;
-@property(readonly, nonatomic) id <PXDisplayAsset> keyAsset;
-@property(readonly, nonatomic) NSArray *locations;
-@property(readonly, nonatomic) NSString *title;
 @end
 

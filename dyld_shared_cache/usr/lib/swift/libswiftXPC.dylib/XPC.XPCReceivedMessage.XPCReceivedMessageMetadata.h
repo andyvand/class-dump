@@ -7,7 +7,6 @@
 @interface XPC.XPCReceivedMessage.XPCReceivedMessageMetadata
 {
     id requiresHandoff;
-    id isSync;
 }
 
 @end

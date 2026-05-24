@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     id <_MKKVOProxyDelegate> _delegate;
 }
 
+- (void)ergy diff, not running completion block with totalAccumulatedEnergy=%f, lastReportedTotalAccumulatedEnergy=%f, ENERGY_DIFF=%f;
+- (void)mulatedEnergy=%f, ENERGY_DIFF=%f;
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void)ler: /* Error: Ran out of types for this method. */;
+- (void)setGroupStepHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <_MKKVOProxyDelegate> delegate; // @synthesize delegate=_delegate;

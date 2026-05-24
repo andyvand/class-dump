@@ -6,21 +6,18 @@
 
 #import <NearField/NFSession.h>
 
-@class NSMutableDictionary, NSString;
 @protocol NFSecureElementManagerSessionDelegate;
 
 @interface NFSecureElementManagerSession : NFSession
 {
     _Bool _hasApplets;
-    NSMutableDictionary *_appletsById;
-    id <NFSecureElementManagerSessionDelegate> _delegate;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -38,13 +35,13 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)$;
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
 - (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -67,7 +64,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)FAMILY_PURCHASE_SHARING_ROW;
 - (id);
 - (id);
 - (id);
@@ -75,7 +72,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -91,20 +88,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)a;
+- (id)or ptr2 have bad type;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <NFSecureElementManagerSessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

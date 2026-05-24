@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPIdentifier, CKDPProtectionInfo, CKDPUserAlias, NSString;
+@class CKDPUserAlias;
 
 @interface CKDPUser
 {
     CKDPUserAlias *_alias;
-    NSString *_firstName;
-    CKDPIdentifier *_identifier;
-    NSString *_lastName;
-    CKDPProtectionInfo *_protectionInfo;
-    _Bool _isInNetwork;
-    struct {
-        unsigned int isInNetwork:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"mProcessName"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mAudioCaptureOptions"{AudioCaptureOptions="mExclaveAudioCapturePoints"I}"mDSPBypass"B}"mHostDescription"{HostDescription="mBundleID"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mIOContextUID"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)realTimeAudioEngine_tas_processFlush;
 - (_Bool);
+- (_Bool);
+- (void)w analysis for %@ (%@:(id)arg1 %@ - %@ ; %@:%@ - %@)
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -43,25 +36,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)set: /* Error: Ran out of types for this method. */;
+- (id)setStartTimeOffset: /* Error: Ran out of types for this method. */;
 - (id)V_walrusStateControllerProvider;
 - (void)x K;
 - (void)(t;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPUserAlias *alias; // @synthesize alias=_alias;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly, nonatomic) _Bool hasAlias;
-@property(readonly, nonatomic) _Bool hasFirstName;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIsInNetwork;
-@property(readonly, nonatomic) _Bool hasLastName;
-@property(readonly, nonatomic) _Bool hasProtectionInfo;
-@property(retain, nonatomic) CKDPIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isInNetwork; // @synthesize isInNetwork=_isInNetwork;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) CKDPProtectionInfo *protectionInfo; // @synthesize protectionInfo=_protectionInfo;
 
 @end
 

@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinNotificationRegistrationSource, HMDCameraReachabilityBulletinNotificationRegistration;
+@class HMDCameraReachabilityBulletinNotificationRegistration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraReachabilityBulletinNotificationRegistrationRemote
 {
     HMDCameraReachabilityBulletinNotificationRegistration *_registration;
-    HMDBulletinNotificationRegistrationSource *_source;
 }
 
 + (_Bool)T;h¹Á;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id)findEcosystemName:(struct _NSZone *)arg1;
-- (id)udKitImportCountTTRTrigger;
+- (id)cloudKitImportCountTTRTrigger;
 - (id)e;
 - (void)]ô&,¨r;
 - (id)"T.@;
 
 // Remaining properties
 @property(readonly, copy) HMDCameraReachabilityBulletinNotificationRegistration *registration; // @synthesize registration=_registration;
-@property(readonly, copy) HMDBulletinNotificationRegistrationSource *source; // @synthesize source=_source;
 
 @end
 

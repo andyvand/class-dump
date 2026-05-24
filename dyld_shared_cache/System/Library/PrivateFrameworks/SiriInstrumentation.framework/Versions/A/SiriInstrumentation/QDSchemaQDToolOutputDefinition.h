@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, QDSchemaQDEntityType;
+@class QDSchemaQDEntityType;
 
 @interface QDSchemaQDToolOutputDefinition : SISchemaInstrumentationMessage
 {
     QDSchemaQDEntityType *_entityType;
-    _Bool _hasEntityType;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)(*;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)== NO AND isStoreApp == YES AND storeItemID IN %@;
 - (_Bool);
-- (_Bool);
+- (_Bool)D NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (id);
 - (id);
-- (id)tApp;
+- (id)_userRejectRateTargetApp;
 - (id)V_potentialRetryIntervalInSecBucket;
 - (void)GMSClientEvent.GMSModelRequestContext;
 
 // Remaining properties
 @property(retain, nonatomic) QDSchemaQDEntityType *entityType; // @synthesize entityType=_entityType;
-@property(nonatomic) _Bool hasEntityType; // @synthesize hasEntityType=_hasEntityType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

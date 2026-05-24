@@ -8,21 +8,14 @@ __attribute__((visibility("hidden")))
 @interface _UISearchBarBackgroundCacheKey
 {
     long long _barPosition;
-    _Bool _usesContiguousBarBackground;
-    double _scale;
-    double _alpha;
-    double _height;
-    double _statusBarHeight;
-    struct CGColor *_backgroundColor;
-    struct CGColor *_strokeColor;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool)InlineSearch"b1"showsScopeBar"b1"activeSearchDeferringScopeBar"b1"showDictationButton"b1"allowedToShowDictationButton"b1"dictationButtonSetupComplete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
-- (_Bool)ineFragmentRect;
-- (id);
+- (_Bool)extraLineFragmentRect;
+- (id)__markerLayerColorForSubclass:(struct _NSZone *)arg1 otherModule: /* Error: Ran out of types for this method. */;
 
 @end
 

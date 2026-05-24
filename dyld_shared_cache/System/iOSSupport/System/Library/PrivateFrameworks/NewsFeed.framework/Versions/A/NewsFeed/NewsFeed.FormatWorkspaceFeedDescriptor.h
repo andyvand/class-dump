@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatWorkspaceFeedDescriptor
 {
     id identifier;
-    id name;
-    id kind;
-    id configuration;
-    id altFeedDescriptor;
 }
 
 @end

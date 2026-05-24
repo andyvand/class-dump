@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface AOSUIAccountRecoveryContext
 {
     _Bool _recoveryKeyStatus;
-    _Bool _recoveryKeyEligible;
-    NSURL *_recoveryKeyURL;
-    NSString *_recoveryKeyHttpMethod;
 }
 
 - (void);
@@ -28,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool recoveryKeyEligible; // @synthesize recoveryKeyEligible=_recoveryKeyEligible;
-@property(copy, nonatomic) NSString *recoveryKeyHttpMethod; // @synthesize recoveryKeyHttpMethod=_recoveryKeyHttpMethod;
 @property _Bool recoveryKeyStatus; // @synthesize recoveryKeyStatus=_recoveryKeyStatus;
-@property(copy, nonatomic) NSURL *recoveryKeyURL; // @synthesize recoveryKeyURL=_recoveryKeyURL;
 
 @end
 

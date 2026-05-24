@@ -14,16 +14,15 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)tableDidSelectRowAction;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ASCAgentProxy *agentProxy; // @synthesize agentProxy=_agentProxy;
-@property(readonly, nonatomic) long long authorizationStateForPlatformCredentials;
 
 @end
 

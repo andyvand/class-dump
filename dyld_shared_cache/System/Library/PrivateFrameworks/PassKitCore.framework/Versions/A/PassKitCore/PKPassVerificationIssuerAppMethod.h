@@ -6,18 +6,16 @@
 
 #import <PassKitCore/PKPassVerificationMethod.h>
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface PKPassVerificationIssuerAppMethod : PKPassVerificationMethod
 {
     NSArray *_appIdentifiers;
-    NSURL *_appLaunchURL;
-    NSString *_appName;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)9h;
 - (id);
 - (_Bool);
 - (id);
@@ -25,17 +23,15 @@
 - (id);
 - (id);
 - (void);
+- (id)bL;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)alCard:(id)arg1 authorization:action:completion: /* Error: Ran out of types for this method. */;
+- (void)crashTracerTrig;
+- (id)cardCredentialsForVirtualCard:(id)arg1 authorization:action:completion: /* Error: Ran out of types for this method. */;
 - (void)dentifier:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *appIdentifiers; // @synthesize appIdentifiers=_appIdentifiers;
-@property(readonly, nonatomic) NSURL *appLaunchURL; // @synthesize appLaunchURL=_appLaunchURL;
-@property(readonly, nonatomic) NSString *appName; // @synthesize appName=_appName;
 
 @end
 

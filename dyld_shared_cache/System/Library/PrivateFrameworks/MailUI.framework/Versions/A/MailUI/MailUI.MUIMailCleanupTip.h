@@ -9,9 +9,6 @@
 @interface MailUI.MUIMailCleanupTip
 {
     void tipId;
-    void title;
-    void message;
-    void submitButtonLabel;
 }
 
 - (id);
@@ -20,13 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void)BackgroundColor;
+- (void)mailThreadedConversationViewBackgroundColor;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *message;
-@property(nonatomic, readonly) NSString *submitButtonLabel;
 @property(nonatomic, readonly) NSString *tipId;
-@property(nonatomic, readonly) NSString *title;
 
 @end
 

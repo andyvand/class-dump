@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatSystem
 {
     id feedAppConfig;
-    id selectors;
-    id options;
-    id logger;
-    id feedConfig;
 }
 
 @end

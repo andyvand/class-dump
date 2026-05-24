@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol EARSyncPSRAudioProcessorDelegate, OS_dispatch_queue;
+@protocol EARSyncPSRAudioProcessorDelegate;
 
 @interface EARSyncPSRAudioProcessor
 {
     struct shared_ptr<quasar::SyncPSRAudioProcessor> _audioProcessor;
-    struct SystemConfig _sysConfig;
-    unsigned long long _sampleRate;
-    double _scoreReportTimestamp;
-    long long _maxBufferSizeSeconds;
-    unsigned long long _accumulatedProcessingTime;
-    _Bool _lastRowOutputOnly;
-    id <EARSyncPSRAudioProcessorDelegate> _delegate;
-    NSString *_configRoot;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void);
 - (void);
 - (void);
+- (id)ons/A/CoreFoundation;
+- (id)L;
+- (id)eAccount;
+- (id)stem/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount;
 - (id);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)ClassKit;
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -40,16 +30,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)provideAlarmsOptionsCollectionForChangeAlarmStatus:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *configRoot; // @synthesize configRoot=_configRoot;
 @property(nonatomic) __weak id <EARSyncPSRAudioProcessorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

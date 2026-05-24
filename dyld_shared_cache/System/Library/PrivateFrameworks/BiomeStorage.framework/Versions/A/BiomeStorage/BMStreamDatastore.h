@@ -4,80 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFileManager, BMFrameStore, BMPruningPolicy, BMSegmentManager, BMStoreConfig, BMStreamMetadata, NSString;
-@protocol BMStreamDatastorePruningDelegate;
+@class BMFileManager;
 
 @interface BMStreamDatastore
 {
     BMFileManager *_fileManager;
-    unsigned long long _permission;
-    unsigned long long _maxFileSize;
-    NSString *_streamPath;
-    BMStreamMetadata *_metadata;
-    BMPruningPolicy *_pruningPolicy;
-    Class _eventDataClass;
-    struct os_unfair_lock_s _lock;
-    BMStoreConfig *_config;
-    _Bool _biomeLibrary;
-    BMStreamDatastore *_tombstoneStore;
-    _Bool _includeTombstones;
-    NSString *_useCase;
-    NSString *_streamId;
-    id <BMStreamDatastorePruningDelegate> _delegate;
-    NSString *_segmentDirectory;
-    BMSegmentManager *_segmentManager;
-    BMFrameStore *_currentFrameStore;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)h;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)h;
 - (id);
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)fault() to provide a value for this case.;
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_readWriteCounter;
+- (void)T;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (int);
+- (id)SparseVector"16;
+- (_Bool)_personalizationSelectedPseudocountPerSemanticClass;
+- (_Bool).filtering, m.filtered, m.recipient, m.prompt, m.language, m.reply, m.sent_at, cr.prompt_embedding FROM messages as m, (SELECT reply, language, prompt_embedding from custom_responses) as cr WHERE m.filtering AND NOT m.filtered AND m.reply = cr.reply AND m.language = cr.language;
+- (int)%llu);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double)odel;
 - (_Bool);
 - (void);
+- (id)ed!;
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)j;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -86,7 +68,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (void);
 - (id);
 - (id);
@@ -94,44 +76,25 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)returnTypes:(id)arg1;
 - (id);
 - (_Bool);
+- (void)#;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (Class)rtTime:endTime:maxEvents:lastN:options: /* Error: Ran out of types for this method. */;
+- (Class)initWithStreamDatastore:startTime:endTime:maxEvents:lastN:options: /* Error: Ran out of types for this method. */;
 - (unsigned long long)r deleted frame not zero:%#010X frame:%d /* Error: Ran out of types for this method. */;
 - (void)Õ;
 
 // Remaining properties
-@property(readonly, nonatomic) BMStoreConfig *config; // @synthesize config=_config;
-@property(retain, nonatomic) BMFrameStore *currentFrameStore; // @synthesize currentFrameStore=_currentFrameStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BMStreamDatastorePruningDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeTombstones; // @synthesize includeTombstones=_includeTombstones;
-@property(readonly, nonatomic) _Bool isDataAccessible;
-@property(readonly, nonatomic) unsigned long long maxFileSize; // @synthesize maxFileSize=_maxFileSize;
-@property(readonly, nonatomic) BMStreamMetadata *metadata;
 @property(readonly, nonatomic) unsigned long long permission; // @synthesize permission=_permission;
-@property(readonly, nonatomic) BMPruningPolicy *pruningPolicy; // @synthesize pruningPolicy=_pruningPolicy;
-@property(readonly, nonatomic) NSString *segmentDirectory; // @synthesize segmentDirectory=_segmentDirectory;
-@property(readonly, nonatomic) BMSegmentManager *segmentManager; // @synthesize segmentManager=_segmentManager;
-@property(readonly, copy, nonatomic) NSString *streamId; // @synthesize streamId=_streamId;
-@property(readonly, nonatomic) NSString *streamPath; // @synthesize streamPath=_streamPath;
-@property(readonly) Class superclass;
 
 @end
 

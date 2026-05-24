@@ -6,45 +6,21 @@
 
 #import <UIKitCore/UIKeyboardEmojiKeyView.h>
 
-@class NSArray, NSIndexPath, NSString, TUIEmojiSearchInputViewController, TUIEmojiSearchTextField, UICollectionViewFlowLayout, UIKBTree, UIKeyboardEmojiCategory, UIKeyboardEmojiCollectionView, UIKeyboardEmojiGraphicsTraits, UIResponder;
-@protocol UIKBEmojiHitTestResponder;
+@class UIKeyboardEmojiCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiCollectionInputView : UIKeyboardEmojiKeyView
 {
     UIKeyboardEmojiCollectionView *_collectionView;
-    UICollectionViewFlowLayout *_flowLayout;
-    UIKeyboardEmojiGraphicsTraits *_emojiGraphicsTraits;
-    _Bool _isDraggingInputView;
-    unsigned long long _currentSection;
-    _Bool _inputDelegateCanSupportAnimoji;
-    _Bool _hasShownAnimojiFirstTimeExperience;
-    _Bool _shouldRetryFetchingAnimojiRecents;
-    _Bool _useWideAnimojiCell;
-    _Bool _hasShownAnimojiCell;
-    double _frameInset;
-    _Bool _showingVariants;
-    long long _selectedVariant;
-    long long _currentVariantRow;
-    UIKBTree *_selectedPopupKey;
-    _Bool _isSearching;
-    UIKeyboardEmojiCategory *_category;
-    CDUnknownBlockType _completionBlock;
-    UIResponder<UIKBEmojiHitTestResponder> *_hitTestResponder;
-    NSIndexPath *_tappedSkinToneEmoji;
-    TUIEmojiSearchInputViewController *_emojiSearchInputViewController;
-    TUIEmojiSearchTextField *_emojiSearchField;
-    NSIndexPath *_selectedIndexPath;
-    NSArray *_searchResults;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (void);
++ (_Bool)ProcessingPipelineComponent> Started processing;
++ (_Bool)to %@. Are we in exit state ? %@;
+- (void)@;
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -54,53 +30,53 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)ty request %s updated in chat.guid %s with result %@;
+- (void)cord for %s;
+- (void)Could not create delete sync CKRecord for %s;
+- (id)recipient;
+- (double)ck record is present amongst chats;
+- (double)and the whole batch failed ;
+- (void)e; sender:'%@':'%@':'%@' /* Error: Ran out of types for this method. */;
+- (double)flags;
+- (_Bool):(id)arg1 %@) (URI:%@) (decryptionKey:%@) /* Error: Ran out of types for this method. */;
+- (long long)quest to store new personal nickname %@ path%@;
+- (id)transfers:(struct CGRect)arg1 %@ number of batches to fetch:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)Failed type check! {key:%@, class:%@} /* Error: Ran out of types for this method. */;
+- (void)record from recordID because it is nil %@;
+- (id)ot accepting transfer. Did not find a guid;
+- (id)d via CloudKit;
+- (long long)ergeParticipants:(id)arg1 %@;
+- (id)to identifier:%@   chat:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)hanging it from %@ to %@. Are we in exit state ? %@;
+- (_Bool)cannot be sent for messages not from self (%@), receipt was sent from (%@);
+- (_Bool);
+- (_Bool)1 chat bound to message , matches input hint? %{BOOL}d;
+- (_Bool)bundle:(id)arg1 %@   Loaded:%@ /* Error: Ran out of types for this method. */;
+- (id)transcoded result to the watch;
+- (void)%@;
+- (id)ud quota;
+- (id)Check if there is enough iCloud quota;
+- (void):(id)arg1 %@;
+- (long long)loudKitAccountStatusAndCheckForAccountNeedsRepairWithCompletion failed with error:(long long)arg1 %@;
+- (id)ion -- falling through.;
+- (id)that isn't IMDIDS (%@), can't determine region -- falling through.;
+- (double)CollaborationNotices;
+- (long long)ty"16^B24;
+- (_Bool);
+- (_Bool)XPCClientConnectionRouteProvider;
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
 - (double);
-- (double);
-- (void);
-- (double);
 - (_Bool);
-- (long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (double);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void)CEMDeviceListRestrictionsCommand;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool)ÑXð1Â0@ù
 × ;
 - (id);
@@ -109,13 +85,13 @@ __attribute__((visibility("hidden")))
 - (void)!ÔGùqd°1Â0@ù
 × ;
 - (void);
-- (struct CGSize)mationControllerForDismissal:(id)arg1;
-- (id)w: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)onstraints;
-- (id)BaselineRelative: /* Error: Ran out of types for this method. */;
-- (double)ITraitFocusSystemState;
-- (void)B3A7715396E0775E2F5F9PivotView;
+- (struct CGSize)setShouldUseVisualStyleAnimationControllerForDismissal:(id)arg1;
+- (id)initWithFrame:inputView: /* Error: Ran out of types for this method. */;
+- (void)clearCache;
+- (void)_prepareDimmingViewConstraints;
+- (id)_minAttributeForGapConstraintRespectingBaselineRelative: /* Error: Ran out of types for this method. */;
+- (double)UITraitFocusSystemState;
+- (void)_TtCC5UIKit23_UILiquidMorphAnimationP33_3B71486064EBB3A7715396E0775E2F5F9PivotView;
 - (long long)HÉÌÉ;
 - (struct UIEdgeInsets);
 - (void)d&ü'T)+;
@@ -123,9 +99,9 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)sAreDifferent:(id)arg1 %d;
 - (long long)nuIsPrimary=YES, but failed to return a menu, Substituting a dummy menu.;
 - (void)¼|þÿÔ|þÿì|þÿ}þÿ<}þÿd}þÿ}þÿ´}þÿÜ}þÿô}þÿ~þÿ8~þÿX~þÿp~þÿ~þÿ ~þÿ¸~þÿ\þÿ¤þÿÄþÿÜþÿôþÿþÿ$þÿ<þÿTþÿlþÿþÿ´þÿÌþÿäþÿüþÿþÿ,þÿÔþÿþÿ`þÿþÿþÿþÿ¸þÿþÿÄþÿÜþÿtþÿþÿDþÿþÿþÿ¼þÿþÿÄþÿðþÿþÿ(þÿÔþÿ,þÿ\þÿØþÿ;
-- (void)IView_layout;
-- (void)trollerTextListChange;
-- (void)preventPaddle;
+- (void)UIView_layout;
+- (void)UITextFormattingViewControllerTextListChange;
+- (void)KBpreventPaddle;
 - (CDUnknownBlockType);
 - (void)9.ÿdÜ¤xf;
 - (void)q;
@@ -135,23 +111,7 @@ __attribute__((visibility("hidden")))
 - (id)DÛ¥ÿiZØpNl;
 
 // Remaining properties
-@property __weak UIKeyboardEmojiCategory *category; // @synthesize category=_category;
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TUIEmojiSearchTextField *emojiSearchField; // @synthesize emojiSearchField=_emojiSearchField;
-@property(retain, nonatomic) TUIEmojiSearchInputViewController *emojiSearchInputViewController; // @synthesize emojiSearchInputViewController=_emojiSearchInputViewController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIResponder<UIKBEmojiHitTestResponder> *hitTestResponder; // @synthesize hitTestResponder=_hitTestResponder;
-@property(readonly) _Bool isDraggingInputView; // @synthesize isDraggingInputView=_isDraggingInputView;
-@property _Bool isSearching; // @synthesize isSearching=_isSearching;
-@property(retain, nonatomic) NSArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(retain, nonatomic) NSIndexPath *selectedIndexPath; // @synthesize selectedIndexPath=_selectedIndexPath;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSIndexPath *tappedSkinToneEmoji; // @synthesize tappedSkinToneEmoji=_tappedSkinToneEmoji;
 
 @end
 

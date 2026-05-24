@@ -7,7 +7,7 @@
 @class CKRecord, NSString;
 
 @protocol CKDRecordCaching
-- (NSString *)nt;
+- (NSString *)sharedClient;
 - (CKRecord *);
 @end
 

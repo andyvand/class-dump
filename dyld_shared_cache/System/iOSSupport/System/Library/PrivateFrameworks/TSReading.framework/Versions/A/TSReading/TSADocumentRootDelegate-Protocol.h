@@ -9,17 +9,13 @@
 @protocol TSADocumentRootDelegate
 
 @optional
+- (void)me data for animated artwork preview frame request.;
+- (NSString *);
+- (void);
+- (NSString *);
 - (void)rencedStylesOfClass:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *defaultDraftName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *documentCachePath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSString *name;
 @end
 

@@ -6,16 +6,12 @@
 
 #import <Safari/TabDialogViewController.h>
 
-@class AlertDialogConfiguration, NSString, NSTimer;
+@class AlertDialogConfiguration, NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface AlertDialogViewController : TabDialogViewController
 {
     NSTimer *_enableReturnEnterKeyTimer;
-    _Bool _waitForKeyPressDone;
-    _Bool _returnEnterKeyInitiallyDown;
-    _Bool _seenNonInitialReturnEnterKeyDown;
-    unsigned long long _browsingMode;
 }
 
 + (long long);
@@ -30,16 +26,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)missing translator;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) AlertDialogConfiguration *configuration; // @dynamic configuration;
-@property(readonly, copy, nonatomic) NSString *dialogMessage;
 
 @end
 

@@ -12,7 +12,7 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)MRAVDistantExternalDeviceFactory;
 - (_Bool)ÜO¾á^MG;
 - (void)xV²Zq¯Ró&^I_Ç1½ÂE,úçfX«©}ÅÜ+WK¨cjüæÝ´ ³çÎÕÁüÉ¦ø;
 

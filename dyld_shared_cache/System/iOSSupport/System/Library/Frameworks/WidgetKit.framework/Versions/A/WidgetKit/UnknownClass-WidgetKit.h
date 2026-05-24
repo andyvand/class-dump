@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (WidgetKit)
-+ (id);
-+ (id);
++ (id)addSubview:(id)arg1;
++ (id)addSublayer:(id)arg1;
 @end
 

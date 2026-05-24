@@ -15,13 +15,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)";
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void)queue:completion: /* Error: Ran out of types for this method. */;
+- (id)artBeatHandler:invalidationHandler:] /* Error: Ran out of types for this method. */;
+- (void)_muteOutputDeviceVolume:outputDevice:details:queue:completion: /* Error: Ran out of types for this method. */;
 - (void)ÿlcÚ
 ;
 

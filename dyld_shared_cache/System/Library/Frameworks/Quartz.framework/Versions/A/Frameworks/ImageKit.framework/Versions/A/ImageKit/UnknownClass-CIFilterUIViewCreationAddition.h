@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CIFilterUIViewCreationAddition)
-+ (void);
++ (void);
 @end
 

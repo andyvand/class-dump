@@ -9,18 +9,12 @@
 @interface GEOPathStretch
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _endOffsetCm;
-    unsigned int _startOffsetCm;
-    struct {
-        unsigned int has_endOffsetCm:1;
-        unsigned int has_startOffsetCm:1;
-    } _flags;
 }
 
-+ (_Bool)ntTypeds:(id)arg1;
-- (unsigned int);
-- (void);
-- (void);
++ (_Bool)setIntermediateWaypointTypeds:(id)arg1;
+- (unsigned int)v8@?0;
+- (void)region;
+- (void)databaseConstraintCleanupNeeded;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,24 +25,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ublic}f, %{public}f], Results:(id)arg1 [%{public}d, %{public}d, %{public}d, %{public}f];
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)@"GEOPDSearchRichBrandMetadata";
-- (id)otVisiblyAllowable: /* Error: Ran out of types for this method. */;
+- (id)_stringByStrippingFormattingAndNotVisiblyAllowable: /* Error: Ran out of types for this method. */;
 - (id)å;
 - (id)called once per object;
 - (void)<úDK@;
 
 // Remaining properties
-@property(nonatomic) unsigned int endOffsetCm;
-@property(nonatomic) _Bool hasEndOffsetCm;
 @property(nonatomic) _Bool hasStartOffsetCm;
-@property(nonatomic) unsigned int startOffsetCm;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

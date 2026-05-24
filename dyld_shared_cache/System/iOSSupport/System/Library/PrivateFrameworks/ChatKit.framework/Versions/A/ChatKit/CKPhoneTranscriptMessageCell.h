@@ -6,24 +6,21 @@
 
 #import <ChatKit/CKTranscriptMessageCell.h>
 
-@class CKAvatarView, NSString, UIImageView;
 @protocol CKPhoneTranscriptMessageCellAvatarDelegate;
 
 @interface CKPhoneTranscriptMessageCell : CKTranscriptMessageCell
 {
     id <CKPhoneTranscriptMessageCellAvatarDelegate> _messageCellAvatarDelegate;
-    CKAvatarView *_avatarView;
-    UIImageView *_printableAvatarView;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)legacyFolderWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)are:(_Bool)arg1 newShare:(id)arg2;
+- (void)Frame:(id)arg1 finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
+- (void)etionHandler:(id)arg1;
+- (id)ICCreateHTMLNoteAction;
 - (id);
-- (id);
 - (void);
-- (id);
+- (id)n;
 - (id);
 - (void);
 - (id);
@@ -36,16 +33,7 @@
 - (void)¬Ìä;
 
 // Remaining properties
-@property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <CKPhoneTranscriptMessageCellAvatarDelegate> messageCellAvatarDelegate; // @synthesize messageCellAvatarDelegate=_messageCellAvatarDelegate;
-@property(retain, nonatomic) UIImageView *printableAvatarView; // @synthesize printableAvatarView=_printableAvatarView;
-@property(readonly) Class superclass;
 
 @end
 

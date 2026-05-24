@@ -5,27 +5,23 @@
 //
 
 @class NSObject;
-@protocol BWPreviewRegistrationProvider, MTLCommandQueue, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface BWPreviewRegistration
 {
     NSObject<OS_dispatch_queue> *_registrationQueue;
-    id <BWPreviewRegistrationProvider> _registrationProvider;
-    int _previewRegistrationType;
-    id <MTLCommandQueue> _metalCommandQueue;
-    _Bool _excludeStaticComponentFromAlignmentShifts;
 }
 
 + (void)e(_startingPTS, _firstIrisMovieInfo.movieStartTime) == 0));
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)5;
 - (void);
 - (void);
-- (void);
+- (void)pt;
 - (int);
 
 // Remaining properties

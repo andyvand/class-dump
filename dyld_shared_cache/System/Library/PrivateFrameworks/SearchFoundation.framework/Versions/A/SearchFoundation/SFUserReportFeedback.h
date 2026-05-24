@@ -6,16 +6,9 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSArray, NSString, SFCardSection, SFPunchout, SFSearchResult;
-
 @interface SFUserReportFeedback : SFFeedback
 {
     int _reportType;
-    SFSearchResult *_result;
-    SFCardSection *_cardSection;
-    SFPunchout *_userSelection;
-    NSArray *_sections;
-    NSString *_uploadedDataIdentifier;
 }
 
 + (_Bool);

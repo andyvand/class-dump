@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
-@protocol FPDLifetimeServicing, NSXPCProxyCreating;
+@protocol FPDLifetimeServicing;
 
 __attribute__((visibility("hidden")))
 @interface FPService
 {
     id <FPDLifetimeServicing> _extender;
-    NSXPCConnection *_connection;
-    id <NSXPCProxyCreating> _proxy;
-    NSXPCInterface *_interface;
 }
 
 - (id);
+- (id)M;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)|;
 - (id);
 - (id);
 - (void)0@ù
@@ -29,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) id remoteObjectProxy;
-@property(readonly) id synchronousRemoteObjectProxy;
 
 @end
 

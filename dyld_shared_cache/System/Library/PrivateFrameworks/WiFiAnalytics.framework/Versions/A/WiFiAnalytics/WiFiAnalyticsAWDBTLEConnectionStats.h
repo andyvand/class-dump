@@ -7,55 +7,27 @@
 @interface WiFiAnalyticsAWDBTLEConnectionStats
 {
     unsigned int _complete;
-    unsigned int _dc0;
-    unsigned int _dc1;
-    unsigned int _dc2;
-    unsigned int _dc3;
-    unsigned int _dc4;
-    unsigned int _dc5;
-    unsigned int _peakOutage;
-    unsigned int _start;
-    unsigned int _totalDuration;
-    struct {
-        unsigned int complete:1;
-        unsigned int dc0:1;
-        unsigned int dc1:1;
-        unsigned int dc2:1;
-        unsigned int dc3:1;
-        unsigned int dc4:1;
-        unsigned int dc5:1;
-        unsigned int peakOutage:1;
-        unsigned int start:1;
-        unsigned int totalDuration:1;
-    } _has;
 }
 
 - (void);
+- (void)message;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (void);
+- (_Bool)4;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)P;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -63,44 +35,32 @@
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (void);
+- (void);
 - (void);
-- (id);
+- (unsigned int);
+- (unsigned int)|;
+- (unsigned int);
+- (void);
+- (_Bool)24Q32@40;
+- (void);
+- (id)ectID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)texture_buffer_1d;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
+- (id)restingHeartRate;
 - (id);
 - (unsigned int);
-- (void);
+- (void)__LINKEDIT;
 - (void)rror">32;
 
 // Remaining properties
-@property(nonatomic) unsigned int complete; // @synthesize complete=_complete;
-@property(nonatomic) unsigned int dc0; // @synthesize dc0=_dc0;
-@property(nonatomic) unsigned int dc1; // @synthesize dc1=_dc1;
-@property(nonatomic) unsigned int dc2; // @synthesize dc2=_dc2;
-@property(nonatomic) unsigned int dc3; // @synthesize dc3=_dc3;
-@property(nonatomic) unsigned int dc4; // @synthesize dc4=_dc4;
-@property(nonatomic) unsigned int dc5; // @synthesize dc5=_dc5;
-@property(nonatomic) _Bool hasComplete;
-@property(nonatomic) _Bool hasDc0;
-@property(nonatomic) _Bool hasDc1;
-@property(nonatomic) _Bool hasDc2;
-@property(nonatomic) _Bool hasDc3;
-@property(nonatomic) _Bool hasDc4;
-@property(nonatomic) _Bool hasDc5;
-@property(nonatomic) _Bool hasPeakOutage;
 @property(nonatomic) _Bool hasStart;
-@property(nonatomic) _Bool hasTotalDuration;
-@property(nonatomic) unsigned int peakOutage; // @synthesize peakOutage=_peakOutage;
-@property(nonatomic) unsigned int start; // @synthesize start=_start;
-@property(nonatomic) unsigned int totalDuration; // @synthesize totalDuration=_totalDuration;
 
 @end
 

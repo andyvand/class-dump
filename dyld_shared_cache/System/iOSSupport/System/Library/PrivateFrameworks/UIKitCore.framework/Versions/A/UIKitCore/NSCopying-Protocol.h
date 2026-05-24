@@ -5,6 +5,6 @@
 //
 
 @protocol NSCopying
-- (id)omputedEstimatedCount;
+- (id)_computedEstimatedCount;
 @end
 

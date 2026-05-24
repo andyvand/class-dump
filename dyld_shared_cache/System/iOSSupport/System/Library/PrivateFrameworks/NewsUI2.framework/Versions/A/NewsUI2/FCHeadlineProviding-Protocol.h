@@ -4,11 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
+@class FCArticleAudioTrack, FCAssetHandle, FCHeadlineThumbnail, NSArray, NSDate, NSString, NSURL;
+@protocol FCSportsEventProviding;
 
 @protocol FCHeadlineProviding
-- (NSArray *)ailSignupEventHandler;
+- (_Bool)ensionItem(_:for:) /* Error: Ran out of types for this method. */;
+- (double)o;
+- (id <FCSportsEventProviding>)oor connection label feature flag disabled;
+- (NSString *)ticipantVideoProvider;
+- (_Bool)t(rootView:) /* Error: Ran out of types for this method. */;
+- (_Bool)Kit.CaptionsViewController;
+- (_Bool)iPhoneFeatureSupportChecker;
+- (NSString *)U;
+- (NSURL *);
+- (_Bool)?;
+- (_Bool)5I;
+- (_Bool)playerVocalsControlContinuous:chain: /* Error: Ran out of types for this method. */;
+- (double)@"MPSectionedCollection",R,C,N,V_items;
+- (NSArray *);
+- (NSArray *)rewindCommandCount;
+- (_Bool)backCore.playbackContextArchive-v1.opack;
+- (_Bool)qZ;
+- (NSString *)!
+;
+- (NSArray *)_TtC7NewsUI223EmailSignupEventHandler;
 - (NSDate *)ÿÿÿÿØ;
 - (long long);
 - (double)ÿÿÿÿ;
@@ -16,9 +35,9 @@
 - (NSString *)¸Z[\[;
 - (FCAssetHandle *);
 - (NSArray *)0åÿTåÿåÿ¬åÿÐåÿåÿ8åÿ\åÿåÿ¼åÿøåÿåÿ@åÿåÿ¨åÿÌåÿüåÿ åÿDåÿåÿ¤åÿ8åÿ\åÿåÿ¬åÿ<åÿÀåÿäåÿåÿ8åÿ\åÿåÿ¼åÿàåÿLåÿpåÿåÿøåÿåÿ4åÿXåÿpåÿÀåÿäåÿåÿDåÿhåÿäåÿåÿ8åÿ\åÿåÿ¼åÿàåÿ0åÿTåÿìåÿåÿ@åÿdåÿåÿÄåÿèåÿåÿ¤åÿ°åÿdåÿ@åÿtåÿ¸åÿäåÿÌåÿäåÿ¨åÿåÿ|åÿðåÿ$åÿhåÿD åÿh åÿ åÿ° åÿt!åÿ!åÿ¼!åÿà!åÿ"åÿ8"åÿt"åÿ"åÿÌ"åÿ#åÿ,#åÿP#åÿt#åÿ#åÿ¼#åÿà#åÿ$åÿP$åÿt$åÿ$åÿÔ$åÿø$åÿ%åÿ@%åÿ|%åÿ %åÿì%åÿd&åÿ°'åÿÔ'åÿÌ(åÿø(åÿ4)åÿ\)åÿ)åÿ¼)åÿø)åÿ*åÿL*åÿp*åÿ*åÿÐ*åÿô*åÿ;
-- (FCHeadlineThumbnail *)d;
-- (NSString *)groundImageCache;
-- (_Bool)oadsConfigurationCSg;
+- (FCHeadlineThumbnail *)id;
+- (NSString *)backgroundImageCache;
+- (_Bool)So31FCOfflineDownloadsConfigurationCSg;
 - (NSString *)s tag, tag=%@;
 - (NSArray *)is unexpected.;
 - (NSString *)c}@;
@@ -42,249 +61,42 @@ bô9©þ;
 - (long long)]­þ;
 
 @optional
-- (NSArray *)r;
+- (NSString *)ConversationControlsDismissalTimerDelegate;
+- (_Bool);
+- (NSString *)stsuppliesreliable</ul>
+		<select citizensclothingwatching<li id="specificcarryingsentence<center>contrastthinkingcatch(e)southernMichael merchantcarouselpadding:interior.split("lizationOctober ){returnimproved--&gt;
+
+coveragechairman.png" />subjectsRichard whateverprobablyrecoverybaseballjudgmentconnect..css" /> websitereporteddefault"/></a>
+electricscotlandcreationquantity. ISBN 0did not instance-search-" lang="speakersComputercontainsarchivesministerreactiondiscountItalianocriteriastrongly:'http:'script'coveringofferingappearedBritish identifyFacebooknumerousvehiclesconcernsAmericanhandlingdiv id="William provider_contentaccuracysection andersonflexibleCategorylawrence<script>layout="approved maximumheader"></table>Serviceshamiltoncurrent canadianchannels/themes//articleoptionalportugalvalue=""intervalwirelessentitledagenciesSearch" measuredthousandspending&hellip;new Date" size="pageNamemiddle" " /></a>hidden">sequencepersonaloverflowopinionsillinoislinks">
+	<title>versionssaturdayterminalitempropengineersectionsdesignerproposal="false"Españolreleasessubmit" er&quot;additionsymptomsorientedresourceright"><pleasurestationshistory.leaving  border=contentscenter">.
+
+Some directedsuitablebulgaria.show();designedGeneral conceptsExampleswilliamsOriginal"><span>search">operatorrequestsa &quot;allowingDocumentrevision. 
+
+The yourselfContact michiganEnglish columbiapriorityprintingdrinkingfacilityreturnedContent officersRussian generate-8859-1"indicatefamiliar qualitymargin:0 contentviewportcontacts-title">portable.length eligibleinvolvesatlanticonload="default.suppliedpaymentsglossary
+
+After guidance</td><tdencodingmiddle">came to displaysscottishjonathanmajoritywidgets.clinicalthailandteachers<head>
+	affectedsupportspointer;toString</small>oklahomawill be investor0" alt="holidaysResourcelicensed (which . After considervisitingexplorerprimary search" android"quickly meetingsestimate;return ;color:# height=approval, &quot; checked.min.js"magnetic></a></hforecast. While thursdaydvertise&eacute;hasClassevaluateorderingexistingpatients Online coloradoOptions"campbell<!-- end</span><<br />
+_popups|sciences,&quot; quality Windows assignedheight:<b classle&quot; value=" Companyexamples<iframe believespresentsmarshallpart of properly).
+
+The taxonomymuch of </span>
+" data-srtuguêsscrollTo project<head>
+attorneyemphasissponsorsfancyboxworld's wildlifechecked=sessionsprogrammpx;font- Projectjournalsbelievedvacationthompsonlightingand the special border=0checking</tbody><button Completeclearfix
+<head>
+article <sectionfindingsrole in popular  Octoberwebsite exposureused to  changesoperatedclickingenteringcommandsinformed numbers  </div>creatingonSubmitmarylandcollegesanalyticlistingscontact.loggedInadvisorysiblingscontent"s&quot;)s. This packagescheckboxsuggestspregnanttomorrowspacing=icon.pngjapanesecodebasebutton">gamblingsuch as , while </span> missourisportingtop:1px .</span>tensionswidth="2lazyloadnovemberused in height="cript">
+&nbsp;</<tr><td height:2/productcountry include footer" &lt;!-- title"></jquery.</form>
+(简体)(繁體)hrvatskiitalianoromânătürkçeاردوtambiénnoticiasmensajespersonasderechosnacionalserviciocontactousuariosprogramagobiernoempresasanunciosvalenciacolombiadespuésdeportesproyectoproductopúbliconosotroshistoriapresentemillonesmediantepreguntaanteriorrecursosproblemasantiagonuestrosopiniónimprimirmientrasaméricavendedorsociedadrespectorealizarregistropalabrasinterésentoncesespecialmiembrosrealidadcórdobazaragozapáginassocialesbloqueargestiónalquilersistemascienciascompletoversióncompletaestudiospúblicaobjetivoalicantebuscadorcantidadentradasaccionesarchivossuperiormayoríaalemaniafunciónúltimoshaciendoaquellosediciónfernandoambientefacebooknuestrasclientesprocesosbastantepresentareportarcongresopublicarcomerciocontratojóvenesdistritotécnicaconjuntoenergíatrabajarasturiasrecienteutilizarboletínsalvadorcorrectatrabajosprimerosnegocioslibertaddetallespantallapróximoalmeríaanimalesquiénescorazónsecciónbuscandoopcionesexteriorconceptotodavíagaleríaescribirmedicinalicenciaconsultaaspectoscríticadólaresjusticiadeberánperíodonecesitamantenerpequeñorecibidatribunaltenerifecancióncanariasdescargadiversosmallorcarequieretécnicodeberíaviviendafinanzasadelantefuncionaconsejosdifícilciudadesantiguasavanzadatérminounidadessánchezcampañasoftonicrevistascontienesectoresmomentosfacultadcréditodiversassupuestofactoressegundospequeñaгодаеслиестьбылобытьэтомЕслитогоменявсехэтойдажебылигодуденьэтотбыласебяодинсебенадосайтфотонегосвоисвойигрытожевсемсвоюлишьэтихпокаднейдомамиралиботемухотядвухсетилюдиделомиретебясвоевидечегоэтимсчеттемыценысталведьтемеводытебевышенамитипатомуправлицаоднагодызнаюмогудругвсейидеткиноодноделаделесрокиюнявесьЕстьразанашиاللهالتيجميعخاصةالذيعليهجديدالآنالردتحكمصفحةكانتاللييكونشبكةفيهابناتحواءأكثرخلالالحبدليلدروساضغطتكونهناكساحةناديالطبعليكشكرايمكنمنهاشركةرئيسنشيطماذاالفنشبابتعبررحمةكافةيقولمركزكلمةأحمدقلبييعنيصورةطريقشاركجوالأخرىمعناابحثعروضبشكلمسجلبنانخالدكتابكليةبدونأيضايوجدفريقكتبتأفضلمطبخاكثرباركافضلاحلىنفسهأيامردودأنهاديناالانمعرضتعلمداخلممكن /* Error: Ran out of types for this method. */;
+- (FCArticleAudioTrack *);
+- (_Bool)AppStoreMetricDiscardReason;
+- (NSArray *)paidBundleViaOfferHandler;
 - (FCArticleAudioTrack *)ÿÿÿÿ@	;
 - (FCAssetHandle *)Processing authorization change from %s to %s;
 - (_Bool);
-- (NSDate *);
+- (_Bool)tagModel;
 - (_Bool)deviceLanguage: /* Error: Ran out of types for this method. */;
 - (unsigned long long)f tag identifiers;
 - (NSArray *)H;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryText;
-@property(readonly, nonatomic, getter=isAIGenerated) _Bool aiGenerated;
-@property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs;
-@property(readonly, copy, nonatomic) id <FCHeadlineMetadata> appliedOverrideMetadata;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCHeadlineMetadata>",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) FCAssetHandle *articleRecirculationConfigAssetHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCAssetHandle",?,R,N
-
-@property(readonly, nonatomic) id <FCNativeAdProviding> associatedAd;
-@property(readonly, copy, nonatomic) NSArray *authors;
-@property(readonly, nonatomic) long long backendArticleVersion;
-@property(readonly, nonatomic) NSData *backingArticleRecordData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *blockedStorefrontIDs;
-@property(readonly, nonatomic, getter=isBoundToContext) _Bool boundToContext;
-@property(readonly, nonatomic, getter=isBundlePaid) _Bool bundlePaid;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisBundlePaid
-
-@property(readonly, copy, nonatomic) NSString *callToActionText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *clusterID;
-@property(readonly, nonatomic) unsigned long long contentType;
-@property(readonly, copy, nonatomic) NSURL *contentURL;
-@property(readonly, nonatomic) FCCoverArt *coverArt;
-@property(readonly, nonatomic) unsigned long long dataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic, getter=isDeleted) _Bool deleted;
-@property(readonly, nonatomic) _Bool disableBookmarking;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool disablePrerollAds;
-@property(readonly, nonatomic) _Bool disableTapToChannel;
-@property(readonly, nonatomic) NSString *dismissingIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic, getter=isDisplayingAsNativeAd) _Bool displayAsNativeAd;
-@property(readonly, copy, nonatomic) NSDate *displayDate;
-@property(readonly, copy, nonatomic) NSString *excerpt;
-@property(readonly, copy, nonatomic) FCHeadlineExperimentalTitleMetadata *experimentalTitleMetadata;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCHeadlineExperimentalTitleMetadata",?,R,C,N
-
-@property(readonly, nonatomic, getter=isFeatureCandidate) _Bool featureCandidate;
-@property(readonly, nonatomic) unsigned long long feedOrder;
-@property(readonly, nonatomic) NSDate *globalExpirationTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,N
-
-@property(readonly, nonatomic) double globalUserFeedback;
-@property(readonly, nonatomic) _Bool hasThumbnail;
-@property(readonly, nonatomic, getter=isHiddenFromAutoFavorites) _Bool hiddenFromAutoFavorites;
-@property(readonly, nonatomic, getter=isHiddenFromFeeds) _Bool hiddenFromFeeds;
-@property(readonly, nonatomic) _Bool hideModalCloseButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *iAdCategories;
-@property(readonly, copy, nonatomic) NSArray *iAdKeywords;
-@property(readonly, copy, nonatomic) NSArray *iAdSectionIDs;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isBlockedExplicitContent;
-@property(readonly, nonatomic) _Bool isDraft;
-@property(readonly, nonatomic) _Bool isFullTrackAvailableToAll;
-@property(readonly, nonatomic) _Bool isLocalDraft;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isTopStory;
-@property(readonly, nonatomic, getter=isIssueOnly) _Bool issueOnly;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisIssueOnly
-
-@property(readonly, copy, nonatomic) NSString *language;
-@property(readonly, copy, nonatomic) NSDate *lastFetchedDate;
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate;
-@property(readonly, nonatomic) double layeredThumbnailAspectRatio;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *layeredThumbnailJSON;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *linkedArticleIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSArray *linkedIssueIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) _Bool liveCoverageCompleted;
-@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
-@property(readonly, copy, nonatomic) NSString *localDraftPath;
-@property(readonly, nonatomic) long long minimumNewsVersion;
-@property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
-@property(readonly, nonatomic) FCArticleAudioTrack *narrativeTrack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCArticleAudioTrack",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *narrativeTrackBuddyArticleIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) NSString *narrativeTrackPreferredUpsellVariantID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) FCArticleAudioTrack *narrativeTrackSample;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCArticleAudioTrack",?,R,N
-
-@property(readonly, nonatomic) NSString *narrativeTrackTextRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *narrators;
-@property(readonly, copy, nonatomic) NSString *nativeAdCampaignData;
-@property(readonly, nonatomic) _Bool needsRapidUpdates;
-@property(readonly, nonatomic, getter=isPaid) _Bool paid;
-@property(readonly, copy, nonatomic) FCIssue *parentIssue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCIssue",?,R,C,N
-
-@property(readonly, nonatomic, getter=isPressRelease) _Bool pressRelease;
-@property(readonly, copy, nonatomic) NSString *primaryAudience;
-@property(readonly, copy, nonatomic) NSDate *publishDate;
-@property(readonly, nonatomic) NSArray *publisherSpecifiedArticleIDs;
-@property(readonly, copy, nonatomic) NSArray *recipeIDs;
-@property(readonly, nonatomic) _Bool reduceVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool reduceVisibilityForNonFollowers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) NSString *referencedArticleID;
-@property(readonly, copy, nonatomic) NSArray *relatedArticleIDs;
-@property(readonly, nonatomic) unsigned long long role;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) NSURL *routeURL;
-@property(readonly, copy, nonatomic) NSString *shortExcerpt;
-@property(readonly, nonatomic) _Bool showBundleSoftPaywall;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool showPublisherLogo;
-@property(readonly, nonatomic) _Bool showSubscriptionRequiredText;
-@property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
-@property(readonly, copy, nonatomic) NSString *sourceName;
-@property(readonly, copy, nonatomic) NSString *sponsoredBy;
-@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
-@property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
-@property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCHeadlineStocksFields>",?,R,N
-
-@property(readonly, nonatomic) FCTopStoriesStyleConfiguration *storyStyle;
-@property(readonly, nonatomic) int storyType;
-@property(readonly, copy, nonatomic) NSString *surfacedByBinID;
-@property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
-@property(readonly, nonatomic) long long surfacedByFlags;
-@property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
-@property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
-@property(readonly, nonatomic) NSArray *tagsExpiration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnail;
-@property(readonly, nonatomic) struct CGRect thumbnailFocalFrame;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailHQ;
-@property(readonly, nonatomic) FCColor *thumbnailImageAccentColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCColor *thumbnailImageBackgroundColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCColor *thumbnailImagePrimaryColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCColor *thumbnailImageTextColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCColor",?,R,N
-
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailLQ;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailMedium;
-@property(readonly, nonatomic) NSData *thumbnailPerceptualHash;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailUltraHQ;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailWidget;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailWidgetHQ;
-@property(readonly, nonatomic) FCHeadlineThumbnail *thumbnailWidgetLQ;
-@property(readonly, nonatomic) double tileProminenceScore;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSString *titleCompact;
-@property(readonly, nonatomic) unsigned long long topStoryType;
-@property(readonly, copy, nonatomic) NSArray *topicIDs;
-@property(readonly, copy, nonatomic) NSArray *topics;
-@property(readonly, nonatomic) _Bool usesImageOnTopLayout;
-@property(readonly, copy, nonatomic) NSString *videoCallToActionTitle;
-@property(readonly, copy, nonatomic) NSURL *videoCallToActionURL;
-@property(readonly, nonatomic) double videoDuration;
-@property(readonly, nonatomic) FCAssetHandle *videoStillImage;
-@property(readonly, copy, nonatomic) NSString *videoType;
-@property(readonly, nonatomic) NSURL *videoURL;
-@property(readonly, nonatomic) _Bool webConverted;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool webEmbedsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

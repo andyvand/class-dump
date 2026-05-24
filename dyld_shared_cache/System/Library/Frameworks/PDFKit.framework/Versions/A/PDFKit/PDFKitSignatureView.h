@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, PDFAnnotation, PDFPageView, PDFView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface PDFKitSignatureView
 {
     NSView *_view;
-    PDFAnnotation *_annotation;
-    PDFView *_pdfView;
-    PDFPageView *_pdfPageView;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)ith error:(double)arg1 %@;
+- (id);
+- (void)GƵ=G;
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (void);
@@ -36,9 +33,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) PDFAnnotation *annotation; // @synthesize annotation=_annotation;
-@property(retain) PDFPageView *pdfPageView; // @synthesize pdfPageView=_pdfPageView;
-@property(retain) PDFView *pdfView; // @synthesize pdfView=_pdfView;
 @property(retain) NSView *view; // @synthesize view=_view;
 
 @end

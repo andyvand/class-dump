@@ -5,5 +5,8 @@
 //
 
 @protocol NFSessionDelegate
+
+@optional
+- (void);
 @end
 

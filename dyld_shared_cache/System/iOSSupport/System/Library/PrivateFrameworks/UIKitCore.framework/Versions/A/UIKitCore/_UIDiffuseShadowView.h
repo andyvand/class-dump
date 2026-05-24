@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double)!;
 - (void)interEffect"16@"UIPointerShape"24;
-- (id)LayoutInfoRestrictedToSize:(struct CGRect)arg1;
-- (double)ide: /* Error: Ran out of types for this method. */;
+- (id)_computeLayoutInfoRestrictedToSize:(struct CGRect)arg1;
+- (double)addLayoutGuide: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)w internal inconsistency:(struct CGSize)arg1 indexPath cannot be nil in %@;
 - (void);
@@ -29,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double intensity; // @synthesize intensity=_intensity;
-@property(nonatomic) struct CGSize offset;
-@property(copy, nonatomic) UIBezierPath *path; // @synthesize path=_path;
-@property(nonatomic) double radius;
 
 @end
 

@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface MFPBrightnessContrastEffect : MFPEffect
 {
     int mBrightness;
-    int mContrast;
 }
 
 + (id);
-- (id);
+- (id);
 
 @end
 

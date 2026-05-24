@@ -5,5 +5,7 @@
 //
 
 @protocol MTFeedIngesterImageDownloaderProtocol
+- (void);
+- (void);
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalDatabase, HMBLocalSQLContext, HMBLocalZoneConfiguration, HMBModelContainer, NAFuture, NSHashTable, NSMutableDictionary, NSString;
-@protocol HMBLocalZoneDelegate, HMBLocalZoneID, HMBMirrorProtocol;
+@class NSHashTable;
 
 @interface HMBLocalZone
 {
     struct os_unfair_lock_s _propertyLock;
-    _Bool _hasStartedUp;
-    unsigned long long _zoneRow;
-    HMBLocalDatabase *_localDatabase;
-    HMBModelContainer *_modelContainer;
-    HMBLocalZoneConfiguration *_configuration;
-    id <HMBLocalZoneID> _zoneID;
-    id <HMBMirrorProtocol> _mirror;
-    id <HMBLocalZoneDelegate> _delegate;
-    NSHashTable *_observersForAllModels;
-    NSMutableDictionary *_modelObserversByModelID;
-    NSHashTable *_mirrorOutputObservers;
-    HMBLocalSQLContext *_sql;
-    NAFuture *_shutdownFuture;
 }
 
 + (id);
@@ -33,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)name;
+- (void)L",C,N,V_shareURL;
+- (void)eFieldFailure",&,N;
 - (id);
 - (void);
 - (id);
@@ -47,113 +33,94 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)i;
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ement because the [I]nnovation test result was a Reweight                        |;
+- (id);
+- (void);
+- (id)-;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)?	;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void)Y;
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)base64EncodedStringWithOptions:(id *)arg1;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)performSelector:withObject: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)om id [%{public}@] with context;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id)_loadDataForModel:(Class)arg1 positiveRowId:(id)arg2 negativeRowId:(CDUnknownBlockType)arg3 excludeItemIdsUsedWithin:limit:onlyAppleInternal:positiveLabel:skew:block: /* Error: Ran out of types for this method. */;
+- (void)plan with exception %@;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)sponses:(Class)arg1 Could not initialize SGQuickResponsesStore in directory - %@;
+- (id);
+- (void)_commonInitWithURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)^H;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id)ÔA!XCùTÐ1Â0@ù
 × ;
 - (id)Ð!Gù1T°1Â0@ù
 × ;
 - (id)2;
-- (id)ord;
+- (id)_previousSentinelRebuildRecord;
 - (unsigned long long),R;
 - (unsigned long long)zð;
 
 // Remaining properties
-@property(readonly, nonatomic) HMBLocalZoneConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMBLocalZoneDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasStartedUp; // @synthesize hasStartedUp=_hasStartedUp;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMBLocalDatabase *localDatabase; // @synthesize localDatabase=_localDatabase;
-@property(readonly, nonatomic) id <HMBMirrorProtocol> mirror; // @synthesize mirror=_mirror;
-@property(readonly, nonatomic) NSHashTable *mirrorOutputObservers; // @synthesize mirrorOutputObservers=_mirrorOutputObservers;
-@property(readonly, nonatomic) HMBModelContainer *modelContainer; // @synthesize modelContainer=_modelContainer;
-@property(readonly, nonatomic) NSMutableDictionary *modelObserversByModelID; // @synthesize modelObserversByModelID=_modelObserversByModelID;
 @property(readonly, nonatomic) NSHashTable *observersForAllModels; // @synthesize observersForAllModels=_observersForAllModels;
-@property(retain, nonatomic) NAFuture *shutdownFuture; // @synthesize shutdownFuture=_shutdownFuture;
-@property(readonly, nonatomic) HMBLocalSQLContext *sql; // @synthesize sql=_sql;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HMBLocalZoneID> zoneID; // @synthesize zoneID=_zoneID;
-@property(nonatomic) unsigned long long zoneRow; // @synthesize zoneRow=_zoneRow;
 
 @end
 

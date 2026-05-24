@@ -6,30 +6,22 @@
 
 @interface SGSlice
 {
-    struct {
-        unsigned short category;
-        unsigned short subtype;
-    } _type;
-    unsigned long long _start;
-    unsigned long long _end;
+    CDStruct_88f281c7 _type;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)__DATA;
 - (id);
 - (unsigned long long);
-- (CDStruct_d65e47c4);
+- (CDStruct_88f281c7);
 - (struct _NSRange);
 - (unsigned long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long end; // @synthesize end=_end;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(readonly, nonatomic) unsigned long long start; // @synthesize start=_start;
-@property(readonly, nonatomic) CDStruct_d65e47c4 type; // @synthesize type=_type;
+@property(readonly, nonatomic) CDStruct_88f281c7 type; // @synthesize type=_type;
 
 @end
 

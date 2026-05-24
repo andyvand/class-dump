@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (id);
+- (id)?;
 - (void);
-- (void);
+- (void)q;
 - (CDStruct_4c969caf);
 - (void);
 - (int);

@@ -7,14 +7,6 @@
 @interface CalendarUIKit.RepeatViewModel
 {
     id _recurrenceRule;
-    id _editRecurrenceRule;
-    id startDate;
-    id timeZone;
-    id prohibitsMultipleDaysInMonthlyRecurrence;
-    id prohibitsMultipleMonthsInYearlyRecurrence;
-    id prohibitsYearlyRecurrenceInterval;
-    id _showCustom;
-    id _$observationRegistrar;
 }
 
 @end

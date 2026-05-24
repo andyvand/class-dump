@@ -7,14 +7,12 @@
 @interface AppStoreKit.CommerceDialogHandler
 {
     id bag;
-    id presentingViewController;
-    id sheetPresentationViewController;
 }
 
+- (void)"HKWorkoutSessionTaskConfiguration";
+- (void)rizationHintsCore";
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)thorizationHintsCore"@"NSError">;
 - (void);
 - (id);
 - (void)À¸Ñ	G;

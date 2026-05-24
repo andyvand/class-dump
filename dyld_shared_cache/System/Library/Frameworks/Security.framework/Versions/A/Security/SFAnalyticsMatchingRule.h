@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, SECSFAEventRule;
+@class SECSFAEventRule;
 
 __attribute__((visibility("hidden")))
 @interface SFAnalyticsMatchingRule
 {
     _Bool _firstMatchArmed;
-    NSString *_eventName;
-    SECSFAEventRule *_rule;
-    NSDictionary *_matchingDictionary;
-    NSDate *_lastMatch;
 }
 
 + (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)֑ ;
 - (void);
 - (void);
 - (id));
 
 // Remaining properties
-@property(retain) NSString *eventName; // @synthesize eventName=_eventName;
-@property _Bool firstMatchArmed; // @synthesize firstMatchArmed=_firstMatchArmed;
-@property(retain) NSDate *lastMatch; // @synthesize lastMatch=_lastMatch;
-@property(retain) NSDictionary *matchingDictionary; // @synthesize matchingDictionary=_matchingDictionary;
 @property(retain) SECSFAEventRule *rule; // @synthesize rule=_rule;
 
 @end

@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDPoiEventFilter
 {
     PBUnknownFields *_unknownFields;
-    _Bool _includeEventCategoryId;
-    struct {
-        unsigned int has_includeEventCategoryId:1;
-    } _flags;
 }
 
 - (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)SObject<OS_dispatch_queue>"40;
-- (id)sPauseSpokenAudioEnabled;
+- (id)_mapSettingsPauseSpokenAudioEnabled;
 - (id)@ÊÌÐÍxÏ	äÑ	°Ö	üÙ	 Ü	Xã	\æ	;
 - (void)|a2U0FF@;
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PLOperator;
+@class PLOperator;
 
 @interface PLIOHIDOperatorComposition
 {
     struct __IOHIDEventSystemClient *_eventSystemClient;
-    NSArray *_serviceClients;
-    NSString *_serviceName;
-    CDUnknownBlockType _operatorBlock;
-    PLOperator *_operator;
 }
 
 - (void);
@@ -23,21 +19,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (double);
+- (void)U;
+- (double)setModeLock:(id)arg1;
+- (id)C;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property struct __IOHIDEventSystemClient *eventSystemClient; // @synthesize eventSystemClient=_eventSystemClient;
 @property(retain) PLOperator *operator; // @synthesize operator=_operator;
-@property(copy, nonatomic) CDUnknownBlockType operatorBlock; // @synthesize operatorBlock=_operatorBlock;
-@property(retain) NSArray *serviceClients; // @synthesize serviceClients=_serviceClients;
-@property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

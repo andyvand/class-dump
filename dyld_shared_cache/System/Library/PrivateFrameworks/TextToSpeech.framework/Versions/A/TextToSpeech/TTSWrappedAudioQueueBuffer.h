@@ -7,9 +7,6 @@
 @interface TTSWrappedAudioQueueBuffer
 {
     struct AudioQueueBuffer *_aqBuffer;
-    CDUnknownBlockType _completionHandler;
-    unsigned long long _byteSize;
-    struct AudioTimeStamp _queuedTimeStamp;
 }
 
 - (void);
@@ -19,13 +16,10 @@
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (void);
-- (void)SSpeechVoice;
+- (void)TTSSpeechVoice;
 
 // Remaining properties
 @property(nonatomic) struct AudioQueueBuffer *aqBuffer; // @synthesize aqBuffer=_aqBuffer;
-@property(readonly, nonatomic) unsigned long long byteSize; // @synthesize byteSize=_byteSize;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) struct AudioTimeStamp queuedTimeStamp; // @synthesize queuedTimeStamp=_queuedTimeStamp;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, TSDBezierPath;
+@class NSURL;
 
 @interface TSDHyperlinkRegion
 {
     NSURL *mURL;
-    TSDBezierPath *mBezierPath;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=mURL;
-@property(retain, nonatomic) TSDBezierPath *bezierPath; // @synthesize bezierPath=mBezierPath;
 
 @end
 

@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)ICAudioPlaybackAsset;
++ (id)isMathPaperSolvingAllowed;
 + (id);
 + (id);
 + (_Bool);

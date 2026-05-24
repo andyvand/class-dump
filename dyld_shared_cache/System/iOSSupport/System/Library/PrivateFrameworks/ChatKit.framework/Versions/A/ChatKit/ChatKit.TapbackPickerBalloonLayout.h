@@ -7,14 +7,6 @@
 @interface ChatKit.TapbackPickerBalloonLayout
 {
     id pickerPill;
-    id emojiTail;
-    id mediumTail;
-    id smallTail;
-    id cancelButton;
-    id backwardArrow;
-    id forwardArrow;
-    id platterContent;
-    id glassSmoothness;
 }
 
 @end

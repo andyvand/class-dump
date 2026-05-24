@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UINSAlertTextField
 {
     NSString *_placeholder;
-    NSString *_accessibilityLabel;
-    long long _identifier;
-    UIColor *_textColor;
 }
 
 - (void);
 - (id)verticalOffsetForSucceedingLayout;
-- (void)ooterTrailingMarginWidth;
+- (void)_headerFooterTrailingMarginWidth;
 - (id)UIGestureRecognizerTarget;
 - (void)Q;
 - (long long)Dþÿ;
@@ -26,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)Øfn;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(nonatomic) long long identifier; // @synthesize identifier=_identifier;
 @property(copy, nonatomic) NSString *placeholder; // @synthesize placeholder=_placeholder;
-@property(copy, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
 
 @end
 

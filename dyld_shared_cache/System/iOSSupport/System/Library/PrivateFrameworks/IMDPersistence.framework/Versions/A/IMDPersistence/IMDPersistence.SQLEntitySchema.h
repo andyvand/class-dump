@@ -7,10 +7,6 @@
 @interface IMDPersistence.SQLEntitySchema
 {
     id tableName;
-    id properties;
-    id constraints;
-    id columnNamesByPropertyName;
-    id options;
 }
 
 @end

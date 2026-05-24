@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString, NSURL;
 
 @protocol _SSURLCompletionMatch
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastVisitTime;
-@property(readonly, nonatomic) long long matchLocation;
-@property(readonly, nonatomic, getter=isSynthesizedTopHit) _Bool synthesizedTopHit;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic, getter=isTopHit) _Bool topHit;
-@property(readonly, nonatomic, getter=isTopHitDueToTriggerMatch) _Bool topHitDueToTriggerMatch;
 @property(readonly, copy, nonatomic) NSURL *url;
-@property(readonly, copy, nonatomic) NSString *userVisibleURLString;
-@property(readonly, nonatomic) long long visitCount;
 @end
 

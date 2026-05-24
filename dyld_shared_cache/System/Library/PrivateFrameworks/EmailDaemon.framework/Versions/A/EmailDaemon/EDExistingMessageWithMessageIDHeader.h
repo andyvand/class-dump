@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAngleBracketIDHash, ECServerMessage;
+@class ECAngleBracketIDHash;
 
 @interface EDExistingMessageWithMessageIDHeader
 {
     ECAngleBracketIDHash *_messageIDHash;
-    ECServerMessage *_serverMessage;
-    long long _messagePersistentID;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ECAngleBracketIDHash *messageIDHash; // @synthesize messageIDHash=_messageIDHash;
-@property(readonly, nonatomic) long long messagePersistentID; // @synthesize messagePersistentID=_messagePersistentID;
-@property(readonly, nonatomic) ECServerMessage *serverMessage; // @synthesize serverMessage=_serverMessage;
 
 @end
 

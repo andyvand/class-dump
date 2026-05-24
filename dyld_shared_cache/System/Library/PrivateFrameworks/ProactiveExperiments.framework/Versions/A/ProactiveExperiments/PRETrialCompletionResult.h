@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface PRETrialCompletionResult
 {
     _Bool _isCompletionCalled;
-    _Bool _isSuccess;
-    NSError *_downloadError;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)j;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *downloadError; // @synthesize downloadError=_downloadError;
 @property(nonatomic) _Bool isCompletionCalled; // @synthesize isCompletionCalled=_isCompletionCalled;
-@property(nonatomic) _Bool isSuccess; // @synthesize isSuccess=_isSuccess;
 
 @end
 

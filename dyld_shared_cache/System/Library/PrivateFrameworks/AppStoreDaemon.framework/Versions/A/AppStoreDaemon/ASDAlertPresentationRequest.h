@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface ASDAlertPresentationRequest
 {
     NSMutableArray *_actions;
-    NSString *_iconBundlePath;
-    long long _icon;
-    NSString *_title;
-    NSString *_message;
-    NSString *_logKey;
-    long long _style;
 }
 
 + (id);
@@ -22,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
@@ -34,20 +28,14 @@
 - (void);
 - (long long);
 - (void);
+- (id)location is on route, so suppressing guidance events up to [%@].;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions;
-@property(nonatomic) long long icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) NSString *iconBundlePath;
-@property(retain, nonatomic) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

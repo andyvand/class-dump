@@ -14,13 +14,13 @@
 }
 
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)nFileTransfer"16@"NSData"24@"NSString"32@?<v@?@"NSError">40;
+- (_Bool)ntAlphaPath:withNaturalSize:forTargetImageGeometry:withTargetMaskGeometry: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);

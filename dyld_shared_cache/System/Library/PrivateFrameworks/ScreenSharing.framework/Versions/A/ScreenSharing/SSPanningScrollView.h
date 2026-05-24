@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTimer, NSTrackingArea, NSVisualEffectView, NSWindow, SSFrameBufferView;
+@class NSTrackingArea, NSVisualEffectView;
 
 @interface SSPanningScrollView
 {
     NSTrackingArea *mTrackingArea;
-    long long mPanningMode;
-    NSTimer *mPanningTimer;
-    _Bool _leftPanActive;
-    _Bool _rightPanActive;
-    _Bool _topPanActive;
-    _Bool _bottomPanActive;
-    struct CGRect leftRect;
-    struct CGRect rightRect;
-    struct CGRect topRect;
-    struct CGRect bottomRect;
-    _Bool mDisablePanningEvents;
-    _Bool mShowDisconnectedBlurring;
-    struct CGPoint lastPoint;
-    NSVisualEffectView *_fxView;
-    NSImageView *_myImageView;
-    SSFrameBufferView *_frameBufferView;
-    NSWindow *_blankBackgroundWindow;
 }
 
 + (_Bool);
@@ -34,16 +17,17 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)9
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)?רC;
 - (void);
 - (void);
 - (struct CGRect);
@@ -81,14 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSWindow *blankBackgroundWindow; // @synthesize blankBackgroundWindow=_blankBackgroundWindow;
-@property _Bool disablePanningEvents; // @synthesize disablePanningEvents=mDisablePanningEvents;
-@property(retain) SSFrameBufferView *frameBufferView; // @synthesize frameBufferView=_frameBufferView;
 @property(retain) NSVisualEffectView *fxView; // @synthesize fxView=_fxView;
-@property struct CGPoint lastPoint; // @synthesize lastPoint;
-@property(retain) NSImageView *myImageView; // @synthesize myImageView=_myImageView;
-@property long long panningMode;
-@property _Bool showDisconnectedBlurring; // @synthesize showDisconnectedBlurring=mShowDisconnectedBlurring;
 
 @end
 

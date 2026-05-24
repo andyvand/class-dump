@@ -12,12 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNRecognizeTextRequestConfiguration : VNStatefulRequestConfiguration
 {
     _Bool _usesLanguageCorrection;
-    _Bool _automaticallyDetectsLanguage;
-    _Bool _keepResourcesLoaded;
-    float _minimumTextHeight;
-    NSArray *_recognitionLanguages;
-    NSArray *_customWords;
-    long long _recognitionLevel;
 }
 
 - (_Bool);
@@ -34,18 +28,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id)Â@;
 - (void)g:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyDetectsLanguage; // @synthesize automaticallyDetectsLanguage=_automaticallyDetectsLanguage;
-@property(copy, nonatomic) NSArray *customWords; // @synthesize customWords=_customWords;
-@property(nonatomic) _Bool keepResourcesLoaded; // @synthesize keepResourcesLoaded=_keepResourcesLoaded;
-@property(nonatomic) float minimumTextHeight; // @synthesize minimumTextHeight=_minimumTextHeight;
 @property(copy, nonatomic) NSArray *recognitionLanguages; // @synthesize recognitionLanguages=_recognitionLanguages;
-@property(nonatomic) long long recognitionLevel; // @synthesize recognitionLevel=_recognitionLevel;
-@property(nonatomic) _Bool usesLanguageCorrection; // @synthesize usesLanguageCorrection=_usesLanguageCorrection;
 
 @end
 

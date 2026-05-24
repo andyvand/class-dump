@@ -6,7 +6,7 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class MFEWSGetItemDataResponseOperation, NSArray;
+@class NSArray;
 
 @interface MFEWSGetItemDataRequestOperation : MFEWSRequestOperation
 {
@@ -17,16 +17,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)SiteIsolationEnabled;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *itemIdTypes; // @synthesize itemIdTypes=_itemIdTypes;
-@property(retain, nonatomic) MFEWSGetItemDataResponseOperation *responseOperation;
 
 @end
 

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, _UIScrollPocketAppearanceObserverInteraction, _UIScrollPocketLumaObserverInteraction;
-
 @interface _UIFBSSceneCatalystClientComponent
 {
     _Bool _hasSetupWindowInteractions;
-    _Bool _hasScheduledPostLayoutReceiversSync;
-    _UIScrollPocketLumaObserverInteraction *_lumaObserverInteraction;
-    _UIScrollPocketAppearanceObserverInteraction *_appearanceObserverInteraction;
-    NSSet *_lastKnownPockets;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)mand"24@"NSString"32@"NSString"40@"NSData"48;
+- (void)"48@"NSNumber"56;
+- (id)isGroupMessagingEnabled;
+- (id)style: /* Error: Ran out of types for this method. */;
+- (long long)addEntriesFromDictionary: /* Error: Ran out of types for this method. */;
+- (void)addAccount:defaults:service: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateTransitionedListHandlesVersion;
+- (void)IMDRelaySentMessageConfiguration;
 - (id);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)for Tap-to-Radar;
+- (void)darDraft but could not convert IMUserNotificationCenter.sharedInstance() to IMUserNotificationCenter!;
+- (void)ate QuickSwitch message. Bailing!;
+- (id)%ld  local path:(id)arg1 %@  transferred name:(id)arg2 %@  guid:(CDUnknownBlockType)arg3 %@  error:%d  total bytes:%d  created:%@ commSafety:%d update reason:%ld] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)áÿ!ìDùÑXð1Â0@ù
@@ -38,18 +32,7 @@
 - (void)H<\;
 
 // Remaining properties
-@property(retain, nonatomic) _UIScrollPocketAppearanceObserverInteraction *appearanceObserverInteraction; // @synthesize appearanceObserverInteraction=_appearanceObserverInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasSetupWindowInteractions; // @synthesize hasSetupWindowInteractions=_hasSetupWindowInteractions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long hostingWindowCreationBehavior;
-@property(retain, nonatomic) NSSet *lastKnownPockets; // @synthesize lastKnownPockets=_lastKnownPockets;
-@property(retain, nonatomic) _UIScrollPocketLumaObserverInteraction *lumaObserverInteraction; // @synthesize lumaObserverInteraction=_lumaObserverInteraction;
-@property(readonly) Class superclass;
 
 @end
 

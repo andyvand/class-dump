@@ -7,19 +7,16 @@
 @interface ConversationKit.ParticipantListLayout
 {
     id indexPathLayoutAttributes;
-    id lastInvalidatedSize;
-    id calculatedContentSize;
-    id delegate;
 }
 
 - (id);
 - (id);
 - (struct CGSize);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (void)lüÿBÿÿ;
-- (id)ties;
+- (id)SpringBoardUtilities;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize collectionViewContentSize;

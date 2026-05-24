@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSOpportuneSpeakBehaviorMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
 }
 
 + (id)_notifyObserver:withEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)leared %s;
 - (void);
 - (id);
+- (void)initWithTargetedImageData:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (id);
 - (void);
-- (void)dioDeviceWithDuckedLevel:rampDuration: /* Error: Ran out of types for this method. */;
+- (void)duckDefaultOutputAudioDeviceWithDuckedLevel:rampDuration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

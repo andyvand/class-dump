@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 @interface WBSKeyBagLockStatusManager
 {
     NSMutableSet *_handlers;
-    int _notifyTokenLockStatusChanged;
-    int _notifyTokenFirstUnlock;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 + (id);
@@ -24,15 +20,13 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)_normalizedToPageTransformForPageWithBounds: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)A×Ð!È@ù±Xð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isKeyBagEnabled) _Bool keyBagEnabled;
 @property(readonly, nonatomic) long long keyBagLockStatus;
-@property(readonly, nonatomic, getter=isLockedOrAboutToLock) _Bool lockedOrAboutToLock;
 
 @end
 

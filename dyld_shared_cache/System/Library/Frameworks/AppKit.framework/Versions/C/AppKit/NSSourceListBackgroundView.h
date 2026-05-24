@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (id);
+- (void)ionStreamTask"32;
+- (long long)accept__willSendRequestForEstablishedConnection;
+- (void)NSURLSessionTaskDependencyTree;
+- (id)reStreamBase<%s>(%p %s);
 - (id);
 - (void);
 - (_Bool);

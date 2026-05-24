@@ -19,13 +19,10 @@
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id)updateAssetURLHostIfNeededWithComponents: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;
 @property(nonatomic, readonly) _Bool shouldCloseGapOnScroll;
-@property(nonatomic, readonly) _Bool shouldCompressAtTop;
-@property(nonatomic, readonly) double topOffset;
 
 @end
 

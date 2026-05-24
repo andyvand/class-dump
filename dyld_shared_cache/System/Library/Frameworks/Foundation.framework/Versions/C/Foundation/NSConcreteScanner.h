@@ -6,31 +6,23 @@
 
 #import <Foundation/NSScanner.h>
 
-@class NSCharacterSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSConcreteScanner : NSScanner
 {
     NSString *scanString;
-    NSCharacterSet *skipSet;
-    NSCharacterSet *invertedSkipSet;
-    id locale;
-    unsigned long long scanLocation;
-    struct {
-        unsigned int caseSensitive:1;
-        unsigned int :31;
-    } flags;
 }
 
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)splaySC-Semibold;
 - (id);
+- (void)?;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)%d, expected version %d);
 - (_Bool);
 - (void)ork/CoreNLP;
 - (void);

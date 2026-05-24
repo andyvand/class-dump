@@ -5,5 +5,6 @@
 //
 
 @protocol CatalogsCache
+- (void);
 @end
 

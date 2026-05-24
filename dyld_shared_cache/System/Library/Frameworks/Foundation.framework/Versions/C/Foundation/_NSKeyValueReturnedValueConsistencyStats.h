@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSKeyValueReturnedValueConsistencyStats
 {
     _NSKeyValueObjectAndKeyPair *_pair;
-    _Bool _capturedInitialValue;
-    id _weakCurrentValue;
-    id _copiedCurrentValue;
-    long long _checkCount;
 }
 
 - (void);

@@ -9,20 +9,12 @@
 @interface GEOLogMsgStateDeviceBase
 {
     PBUnknownFields *_unknownFields;
-    int _deviceBatteryState;
-    int _deviceInterfaceOrientation;
-    _Bool _deviceInVehicle;
-    struct {
-        unsigned int has_deviceBatteryState:1;
-        unsigned int has_deviceInterfaceOrientation:1;
-        unsigned int has_deviceInVehicle:1;
-    } _flags;
 }
 
-+ (_Bool)pleteGuideResults:(id)arg1;
++ (_Bool)setHasSupportAutocompleteGuideResults:(id)arg1;
 - (_Bool);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
@@ -35,18 +27,18 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)commonCubeMapWithContentsOfFiles:(id)arg1 options:error:lock:glContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (int);
-- (_Bool);
+- (int)stringByAppendingFormat: /* Error: Ran out of types for this method. */;
+- (_Bool)affectedEntities;
 - (_Bool);
 - (void);
-- (id)imingEvent;
+- (id)stateTimingEvent;
 - (_Bool)_rapClientMetadata;
 - (id)ondaryIdentifier,V_secondaryIdentifier;
 - (id)ion timestamp %llu);
-- (_Bool)AYOUT_CURATED_COLLECTION_BAD_URL;
+- (_Bool)FEEDBACK_LAYOUT_CURATED_COLLECTION_BAD_URL;
 - (id);
 - (void)¸3;
 - (id)út5;
@@ -54,13 +46,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) int deviceBatteryState;
-@property(nonatomic) _Bool deviceInVehicle;
-@property(nonatomic) int deviceInterfaceOrientation;
-@property(nonatomic) _Bool hasDeviceBatteryState;
-@property(nonatomic) _Bool hasDeviceInVehicle;
 @property(nonatomic) _Bool hasDeviceInterfaceOrientation;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

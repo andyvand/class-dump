@@ -7,7 +7,6 @@
 @interface SCNAnimationEvent
 {
     double _eventTime;
-    CDUnknownBlockType _eventBlock;
 }
 
 + (id);

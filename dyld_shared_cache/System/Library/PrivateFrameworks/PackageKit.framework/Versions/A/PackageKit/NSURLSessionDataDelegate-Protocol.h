@@ -5,5 +5,10 @@
 //
 
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)	;
+- (void)DMFSecurityFirewallSettingsKey;
+- (void)ect;
 @end
 

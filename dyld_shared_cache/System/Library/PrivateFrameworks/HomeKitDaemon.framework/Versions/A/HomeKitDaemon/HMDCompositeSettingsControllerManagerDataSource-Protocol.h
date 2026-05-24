@@ -8,16 +8,13 @@
 @protocol HMDCompositeSettingsSiriEndpointProfileBridge, HMEEventForwarder, HMELastEventStoreReadHandle, OS_dispatch_queue;
 
 @protocol HMDCompositeSettingsControllerManagerDataSource
-- (id <HMDCompositeSettingsSiriEndpointProfileBridge>)gsConfigurations;
-- (id <HMELastEventStoreReadHandle>)iscoverPrimaryResidentMS;
+- (id <HMDCompositeSettingsSiriEndpointProfileBridge>)homeSettingsConfigurations;
+- (id <HMELastEventStoreReadHandle>)discoverPrimaryResidentMS;
 - (NSUUID *)°;
-- (id <HMEEventForwarder>)eOnboarding;
+- (id <HMEEventForwarder>)ownerDismissedWalletKeyExpressModeOnboarding;
 - (NSArray *)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSArray *homes;
-@property(readonly) id <HMDCompositeSettingsSiriEndpointProfileBridge> siriEndpointBridge;
-@property(readonly, copy) NSUUID *uuid;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue;
 @end
 

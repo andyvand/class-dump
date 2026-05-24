@@ -6,23 +6,16 @@
 
 #import <UIKitCore/_UIFeedbackGeneratorUserInteractionDrivenConfiguration.h>
 
-@class NSString, _UIFeedback;
+@class _UIFeedback;
 @protocol _UIFeedbackDiscretePlayable;
 
 @interface _UISelectionFeedbackGeneratorConfiguration : _UIFeedbackGeneratorUserInteractionDrivenConfiguration
 {
     _UIFeedback<_UIFeedbackDiscretePlayable> *_feedback;
-    double _minimumInterval;
-    NSString *_hidFeedbackPatternName;
-    double _maxSpeed;
-    double _slowAudioVolume;
-    double _fastAudioVolume;
-    double _slowHapticVolume;
-    double _fastHapticVolume;
 }
 
-+ (id);
-+ (id);
++ (id)__compilation_KEY;
++ (id));
 + (id)Z°1Â0@ù
 × ;
 + (id)
@@ -30,7 +23,7 @@
 + (id)ransition;
 - (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,25 +33,18 @@
 - (void)tenerEndpoint";
 - (id)8{CGSize=dd}16@32@40;
 - (_Bool)didate"16@0:(id)arg1 8;
-- (void)ands;
-- (double)BarUpdate;
-- (double)h:playFeedback:atLocation:allowAutoNavigation: /* Error: Ran out of types for this method. */;
-- (double)ate;
-- (double)yWasDismissedByUser: /* Error: Ran out of types for this method. */;
-- (void)age;
+- (void)sharedCommands;
+- (double)_setNeedsUsesStaticScrollBarUpdate;
+- (double)_setHighlightedIndexPath:playFeedback:atLocation:allowAutoNavigation: /* Error: Ran out of types for this method. */;
+- (double)_kbUIStateDelegate;
+- (double)_hideImmediatelyWasDismissedByUser: /* Error: Ran out of types for this method. */;
+- (void)_filterMaskImage;
 - (id)_accessoryButton;
 - (long long)iew.swift;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double fastAudioVolume; // @synthesize fastAudioVolume=_fastAudioVolume;
-@property(nonatomic) double fastHapticVolume; // @synthesize fastHapticVolume=_fastHapticVolume;
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *feedback; // @synthesize feedback=_feedback;
-@property(retain, nonatomic) NSString *hidFeedbackPatternName; // @synthesize hidFeedbackPatternName=_hidFeedbackPatternName;
-@property(nonatomic) double maxSpeed; // @synthesize maxSpeed=_maxSpeed;
-@property(nonatomic) double minimumInterval; // @synthesize minimumInterval=_minimumInterval;
-@property(nonatomic) double slowAudioVolume; // @synthesize slowAudioVolume=_slowAudioVolume;
-@property(nonatomic) double slowHapticVolume; // @synthesize slowHapticVolume=_slowHapticVolume;
 
 @end
 

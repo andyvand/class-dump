@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL;
-@protocol CXVoicemailProviderVendorProtocol, CXVoicemailSourceDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CXVoicemailSource
 {
     _Bool _connected;
-    id <CXVoicemailSourceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (oneway void);
+- (oneway void)P;
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -25,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -36,27 +34,12 @@
 - (_Bool);
 - (int);
 - (id);
-- (id);
+- (id)_hasTravelLimit;
 - (void);
-- (void)onnectingAtDate:(_Bool)arg1;
+- (void)reportOutgoingCallWithUUID:(_Bool)arg1 startedConnectingAtDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, copy, nonatomic) NSURL *bundleURL;
-@property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXVoicemailSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isPermittedToUsePrivateAPI) _Bool permittedToUsePrivateAPI;
-@property(readonly, nonatomic) int processIdentifier;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CXVoicemailProviderVendorProtocol> vendorProtocolDelegate;
 
 @end
 

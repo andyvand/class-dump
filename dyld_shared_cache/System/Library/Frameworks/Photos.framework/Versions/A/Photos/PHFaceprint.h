@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PHFaceprint
 {
     long long _faceprintVersion;
-    NSData *_faceprintData;
 }
 
 - (id);
 - (long long);
 - (id);
+- (id)/?;
 - (id);
-- (id);
-- (void)D: /* Error: Ran out of types for this method. */;
+- (void)_isValidTaskID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSData *faceprintData; // @synthesize faceprintData=_faceprintData;
 @property(readonly, nonatomic) long long faceprintVersion; // @synthesize faceprintVersion=_faceprintVersion;
 
 @end

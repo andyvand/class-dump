@@ -5,12 +5,12 @@
 //
 
 @protocol TSWPOffscreenColumn
+- (void)nels:(unsigned long long)arg1 %@;
+- (unsigned long long)lbum"8;
+- (unsigned long long)erSet"24@"MPMusicPlayerPlayParameters"32@"MPCModelRadioPlaybackContext"40;
+- (struct _NSRange);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange anchoredRange;
-@property(readonly, nonatomic) unsigned long long nextWidowPullsDownFromCharIndex;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(readonly, nonatomic) unsigned long long startAnchoredCharIndex;
 @property(readonly, nonatomic) unsigned long long startCharIndex;
 @end
 

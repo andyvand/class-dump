@@ -7,7 +7,6 @@
 @interface _PKColorPickerCrosshairCornerMaskView
 {
     _Bool _excludeCorner;
-    unsigned long long _cornerPosition;
 }
 
 + (Class);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long cornerPosition; // @synthesize cornerPosition=_cornerPosition;
-@property(nonatomic) _Bool excludeCorner; // @synthesize excludeCorner=_excludeCorner;
 
 @end
 

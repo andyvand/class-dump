@@ -10,12 +10,11 @@
 {
     _Bool _destructive;
     NSString *_title;
-    long long _actionID;
 }
 
-+ (id);
++ (id)e URL;
 - (void);
-- (long long);
+- (long long)GL_ANGLE_clip_cull_distance;
 - (_Bool);
 - (void);
 - (void);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long actionID; // @synthesize actionID=_actionID;
 @property(nonatomic) _Bool destructive; // @synthesize destructive=_destructive;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 

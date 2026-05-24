@@ -5,5 +5,17 @@
 //
 
 @protocol IMDaemonAnyProtocol
+- (void);
+- (void)*C;
+- (void);
+- (void)`;
+- (void)q";
+- (void) ;
+- (void);
+- (void)`	;
+- (void);
+- (void)%
+;
+- (void)sessionDidEndUnexpectedly:(id)arg1;
 @end
 

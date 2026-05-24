@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSURL;
+@class NSData, NSURL;
 
 @interface BCMessageData
 {
     NSURL *_url;
     NSData *_data;
-    NSDictionary *_jsonDictionary;
-    NSDictionary *_replyMessageDictionary;
-    NSDictionary *_receivedMessageDictionary;
 }
 
+- (void)presentationControllerDidDismiss:(id)arg1;
+- (void)presentationController:(id)arg1 willPresentWithAdaptiveStyle:transitionCoordinator: /* Error: Ran out of types for this method. */;
+- (id)presentationAnchorForWebAuthenticationSession: /* Error: Ran out of types for this method. */;
+- (id)presentViewController:animated:completion: /* Error: Ran out of types for this method. */;
+- (id)popoverPresentationControllerDidDismissPopover:(id)arg1;
+- (id)outputImages;
+- (void)objectRepresentationClass;
+- (id)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (void)letionHandler:(id)arg1;
+- (void)@;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)setDetailTitle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *combinedDictionary;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSArray *imagesArray;
-@property(retain, nonatomic) NSDictionary *jsonDictionary; // @synthesize jsonDictionary=_jsonDictionary;
-@property(retain, nonatomic) NSDictionary *receivedMessageDictionary; // @synthesize receivedMessageDictionary=_receivedMessageDictionary;
-@property(retain, nonatomic) NSDictionary *replyMessageDictionary; // @synthesize replyMessageDictionary=_replyMessageDictionary;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

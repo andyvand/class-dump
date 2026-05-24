@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OS_dispatch_semaphore, geo_isolater;
+@class geo_isolater;
 
 @interface MNFamiliarRouteAuthorizationChecker
 {
     id _authorizationStatus;
-    geo_isolater *_isolater;
-    OS_dispatch_semaphore *_semaphore;
 }
 
 + (_Bool);
 + (_Bool);
 + (void);
 + (_Bool);
-+ (id)queRanges;
++ (id)uniqueRanges;
 - (void);
+- (id)DisableDraggableDragGestureInputKey;
 - (id);
 - (id);
-- (id);
-- (void)idEndTime;
+- (void)validEndTime;
 
 // Remaining properties
 @property(nonatomic, readonly) geo_isolater *_isolater; // @synthesize _isolater;
-@property(nonatomic, retain) OS_dispatch_semaphore *_semaphore; // @synthesize _semaphore;
 
 @end
 

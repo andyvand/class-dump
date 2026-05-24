@@ -6,34 +6,11 @@
 
 #import <AddressBook/ABTableEntry.h>
 
-@class CNContact, NSArray, NSDate, NSString, NSURL, SGRecordId;
+@class NSString;
 
 @interface ABPersonEntry : ABTableEntry
 {
     NSString *_linkIdentifier;
-    NSString *_recordIdentifier;
-    SGRecordId *_suggestionIdentifier;
-    _Bool _isSuggested;
-    NSString *_name;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_organization;
-    NSDate *_creationDate;
-    struct _NSRange _nameEmphasisRange;
-    NSString *_searchString;
-    NSString *_sortingFirstName;
-    NSString *_sortingLastName;
-    NSString *_sectionKey;
-    unsigned long long _iconType;
-    unsigned long long _nameOrder;
-    unsigned long long _resultType;
-    NSString *_preferredIdentifier;
-    NSArray *_pickerPropertyObjects;
-    NSArray *_linkedRecordIdentifiers;
-    NSURL *_metadataFileUrl;
-    _Bool _isMe;
-    _Bool _isRestricted;
-    CNContact *_contact;
 }
 
 + (id);
@@ -53,7 +30,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -72,57 +49,29 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (id)`2;
 - (id);
-- (id);
-- (id);
+- (id)_blockArgumentIndicesForMethodSignature: /* Error: Ran out of types for this method. */;
+- (_Bool)p complete view without checking if receiver isFamilyMember;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)yCreating>"8@"NSError"16;
 - (id);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)nitialValue: /* Error: Ran out of types for this method. */;
+- (id)_cn_reduce:initialValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *backingRecordIdentifiers;
-@property(readonly) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) unsigned long long iconType; // @synthesize iconType=_iconType;
-@property(readonly) _Bool isAcceptedIntroduction;
-@property(readonly) _Bool isCompany;
-@property(readonly) _Bool isGroup;
-@property(readonly) _Bool isMe; // @synthesize isMe=_isMe;
-@property(readonly) _Bool isPerson;
-@property(readonly) _Bool isRestricted; // @synthesize isRestricted=_isRestricted;
-@property(readonly) _Bool isSuggested; // @synthesize isSuggested=_isSuggested;
-@property(readonly, copy) NSString *lastName; // @synthesize lastName=_lastName;
 @property(readonly, copy) NSString *linkIdentifier; // @synthesize linkIdentifier=_linkIdentifier;
-@property(readonly, copy) NSArray *linkedRecordIdentifiers; // @synthesize linkedRecordIdentifiers=_linkedRecordIdentifiers;
-@property(readonly, copy) NSURL *metadataFileUrl; // @synthesize metadataFileUrl=_metadataFileUrl;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) struct _NSRange nameEmphasisRange; // @synthesize nameEmphasisRange=_nameEmphasisRange;
-@property(readonly) unsigned long long nameOrder; // @synthesize nameOrder=_nameOrder;
-@property(readonly, copy) NSString *organization; // @synthesize organization=_organization;
-@property(readonly, copy) NSArray *pickerPropertyObjects; // @synthesize pickerPropertyObjects=_pickerPropertyObjects;
-@property(readonly, copy) NSString *preferredIdentifier;
-@property(readonly, copy) NSString *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(readonly) unsigned long long resultType; // @synthesize resultType=_resultType;
-@property(readonly, copy) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, copy) NSString *sectionKey; // @synthesize sectionKey=_sectionKey;
-@property(readonly, copy) NSString *sortingFirstName; // @synthesize sortingFirstName=_sortingFirstName;
-@property(readonly, copy) NSString *sortingLastName; // @synthesize sortingLastName=_sortingLastName;
-@property(readonly, copy) SGRecordId *suggestionIdentifier; // @synthesize suggestionIdentifier=_suggestionIdentifier;
 
 @end
 

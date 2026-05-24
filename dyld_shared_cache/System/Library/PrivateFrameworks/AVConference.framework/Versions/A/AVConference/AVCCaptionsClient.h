@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSLocale, NSObject, NSUUID;
-@protocol AVCCaptionsClientDelegate, OS_dispatch_queue;
+@protocol AVCCaptionsClientDelegate;
 
 @interface AVCCaptionsClient
 {
     long long _streamToken;
-    id _delegate;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSLocale *_sourceLocale;
-    NSLocale *_locale;
-    NSUUID *_translatorIdentifier;
-    NSUUID *_reportingSamplingUUID;
-    int _direction;
 }
 
 + (_Bool);
@@ -49,8 +40,9 @@
 - (id);
 - (long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)~
+�Z;
+- (id)a;
 - (void)càã¯Ô!Ò5nÍý¯2«àº$´@3eì&àÙ ¢Üuñ£/³&VFÌüºJc»Æv}o¤w³Ã{Áë Æ«eB]oÀ,CX`õe§R2G${u%Æ~wl  Ûî¾ÁÍÃíó!ûM-Zú7Ú¨È­þîáXí­²J
 YØÉ¨22ikÊp^Ïz5G ­7_x~öØÚ`W> ­ ìxÄluTjDâ]0õÞöuA*åC/ØKÌí1½Êîí]©¿Ý±¢âÓPÚñ¿1~ÀËÜCîeDb£Ä®èó¿@s/tE/ñ§C_ë?l´©i>|xÕd¦Eó3nÑääùç.¸Ðtß6í©ÅiÔ;Yk-5Ðk7Ó!ò|÷PMCøÚ*â0ã=Èhèn¸»¯É(þÏñ®QR>Â½Xe`«i9Ý¶	fèh H§ËÀ¿¿Eiy.3hËkUnÎHwq²äý=®Qah	KÃx5Ô»i¦S;J6Ú.<0BæT´ãÆ.£Ìw³Úf¾ð@ªúEú^üÊª3àHk¹N³A1øRù2½C	JZ54Æ:SÀ)Ñ¢×ð=Â4Q¨¤?XËW)þ'îD×>x{kÁøý«Óà·C·û¢)ôüÖ¼ ÃÎn4¸piß¯
 Ç]K"oPI	"tò\¬íð6ÓÀl)ÿ»ugl®ÚÝnûI2°Ë»]§#(1Þ7eI!| f®TÖ|$1$d·ö}o#Í}è|mëWüªö­iiRI/øÖÜ2G¶1ÿÓ[°+.­Jh¡©Z]}h@éê°Á«©º±+à±­1D³ÒDÏ¼;¶Ì!pWÙ²Q%³ÞîÀqòoà3©Álé#àýÚçAZ|¾*þô|Üáþ¿u®rØoäYÇÀþ[óAôM0´ç½ÁxÐTâGI½vr÷ÕhëKn¦A9{{"èCAhñz+zDYzc5ÖùS9§çÀÃT7îõQG"J
@@ -79,12 +71,7 @@ XÌ¹>^/§+è1rªB=áa½8Å=ðà¸p¨ÈJ0N&
 6ê©ðu5ú08Ö¡ÃØ°n³!!äì².ðÔ45ò¾×ß¼q±pR'¹³{Õ3IÅyÙusÊû¡5óÌhs#ïÃÆ¦:ÌLé$Ì¹¬ðå¨íÞóæÍ6£?é£ãËrº.\±7ç·ÔÊãaôáÞtó /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool captionsEnabled;
-@property(readonly) _Bool captionsSupported;
 @property(readonly) id <AVCCaptionsClientDelegate> delegate;
-@property(readonly) NSUUID *reportingSamplingUUID; // @synthesize reportingSamplingUUID=_reportingSamplingUUID;
-@property(readonly) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(readonly) NSUUID *translatorIdentifier; // @synthesize translatorIdentifier=_translatorIdentifier;
 
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet, NSTimer;
-@protocol GEOMapServiceTicket;
+@class NSHashTable;
 
 @interface GEOTransitVehicleUpdateRequester
 {
     struct os_unfair_lock_s _updatersLock;
-    NSHashTable *_updaters;
-    struct os_unfair_lock_s _processedTripIdsLock;
-    NSMutableSet *_processedTripIds;
-    struct os_unfair_lock_s _inflightTripIdsLock;
-    NSMutableSet *_inflightTripIds;
-    id <GEOMapServiceTicket> _ticket;
-    NSTimer *_updateTimer;
-    double _requestInterval;
-    unsigned long long _maxRetries;
-    unsigned long long _numRetries;
 }
 
 + (id)d¤þ;
@@ -28,12 +17,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)labels;
+- (void)%@;
+- (void)elete migrated unkown properies %@;
+- (void)ation). Arbitrarily routing the contact to the first container we found in the store.;
+- (void)NCDMeCardImporter;
+- (void)ther>!$_;
 - (void);
 - (void);
 - (void);
@@ -41,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *processedTripIds; // @synthesize processedTripIds=_processedTripIds;
 @property(readonly, nonatomic) NSHashTable *updaters; // @synthesize updaters=_updaters;
 
 @end

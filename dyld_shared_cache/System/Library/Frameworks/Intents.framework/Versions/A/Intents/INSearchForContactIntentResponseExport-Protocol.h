@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INSearchForContactIntentResponseExport
-- (long long)ettingMetadata;
+- (void);
+- (long long)hasSettingMetadata;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *matchedContacts;
 @end
 

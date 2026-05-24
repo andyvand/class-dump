@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureInputPort, NSString;
+@class AVCaptureInputPort;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureMetadataInputInternal
 {
     AVCaptureInputPort *metadataPort;
-    NSString *sourceID;
-    struct opaqueCMFormatDescription *desc;
-    struct OpaqueCMClock *clock;
-    struct OpaqueCMBlockBuffer *emptyBoxedMetadata;
 }
 
 @end

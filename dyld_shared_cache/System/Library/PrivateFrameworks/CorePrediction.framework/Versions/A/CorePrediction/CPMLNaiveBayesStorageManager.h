@@ -10,13 +10,13 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
+- (void)>";
+- (void)<UINSDragSessionHandler>";
+- (void)dapter>";
+- (void)eAttached"b1};
+- (double)Point=dd}24;
+- (double)bugView";
+- (double)@0:(unsigned long long)arg1 8@16@"NSURL"24^@32;
 
 @end
 

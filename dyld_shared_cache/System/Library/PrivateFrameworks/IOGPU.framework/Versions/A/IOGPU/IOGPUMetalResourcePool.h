@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice;
-@protocol MTLDevice;
-
 @interface IOGPUMetalResourcePool
 {
     struct _IOGPUMetalResourcePoolPrivate _priv;
-    Class _resourceClass;
-    IOGPUMetalDevice<MTLDevice> *_device;
-    struct IOGPUNewResourceArgs *_resourceArgs;
-    unsigned int _resourceArgsSize;
-    unsigned long long age_to_purge;
-    unsigned int generation;
-    unsigned long long _allocatedSize;
 }
 
 - (void);
@@ -24,7 +14,7 @@
 - (int);
 - (void);
 - (unsigned int);
-- (struct IOGPUNewResourceArgs *);
+- (struct IOGPUNewResourceArgs *)%;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -32,7 +22,6 @@
 
 // Remaining properties
 @property(readonly) struct IOGPUNewResourceArgs *resourceArgs; // @synthesize resourceArgs=_resourceArgs;
-@property(readonly) unsigned int resourceArgsSize; // @synthesize resourceArgsSize=_resourceArgsSize;
 
 @end
 

@@ -6,45 +6,26 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class BMDeviceTimeZone, NSDate, NSObject, NSString, _DKEvent;
-@protocol OS_dispatch_queue;
-
 @interface _DKNotificationTimeZoneChangeMonitor : _DKMonitor
 {
     _Bool _enabled;
-    _Bool _resumed;
-    _Bool _cancel;
-    double _lastUpdate;
-    BMDeviceTimeZone *_timeZone;
-    NSObject<OS_dispatch_queue> *_donationQueue;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)짟+;
 - (void);
-- (void);
-- (void);
+- (void)";
 
 // Remaining properties
-@property(readonly, nonatomic) _DKEvent *currentEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType historicalHandler;
-@property(copy, nonatomic) CDUnknownBlockType instantHandler;
-@property(readonly, nonatomic) NSDate *lastUpdate;
-@property(copy, nonatomic) CDUnknownBlockType shutdownHandler;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,47 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, MNAudioSystemOptions, MNUserOptions, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MNAudioManager
 {
     int _transportType;
-    GEOObserverHashTable *_observers;
-    MNUserOptions *_options;
-    MNAudioSystemOptions *_audioSystemOptions;
 }
 
-- (_Bool);
+- (_Bool)ManagedSecureTextField;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (double);
+- (void)TransferNavigationColumnSearchPreferencesModifier;
+- (void)SplitViewController;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)DisabledForegroundStyle;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)setWidgetConfiguration:(id)arg1 activationState:forWidgetHostWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_createWakeToken;
 - (void)nary";
-- (int)elegate;
+- (int)_motionContextProviderDelegate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
-@property(readonly, nonatomic) unsigned long long voiceGuidanceLevel;
 
 @end
 

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDRep;
-@protocol TSDGestureDelegate, TSDGestureTarget;
+@protocol TSDGestureTarget;
 
 @interface TSWPDummyTapGesture
 {
     int gestureState;
-    id <TSDGestureTarget> cachedGestureTarget;
-    id <TSDGestureDelegate> gestureDelegate;
-    NSString *_gestureKind;
-    TSDRep *targetRep;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (id)MPCModelStorePlaybackItemsRequestPlaybackRequestEnvironment;
+- (void)_PLACEHOLDER_AUTOPLAY_;
+- (void)?0@"<_ICMutableLiveLinkIdentityPrivate>"8;
+- (void)TimeUntilOutputStart;
+- (struct CGPoint);
 - (id);
 - (struct CGPoint);
 - (id);
@@ -34,17 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget; // @synthesize cachedGestureTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) id <TSDGestureDelegate> gestureDelegate; // @synthesize gestureDelegate;
-@property(retain, nonatomic) NSString *gestureKind; // @synthesize gestureKind=_gestureKind;
-@property(readonly, nonatomic) int gestureState; // @synthesize gestureState;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSDRep *targetRep; // @synthesize targetRep;
 
 @end
 

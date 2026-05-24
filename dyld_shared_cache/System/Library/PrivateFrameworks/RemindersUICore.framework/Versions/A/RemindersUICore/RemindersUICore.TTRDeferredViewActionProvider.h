@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRDeferredViewActionProvider
 {
     id view;
-    id passthroughSubject;
-    id isScheduled;
 }
 
 @end

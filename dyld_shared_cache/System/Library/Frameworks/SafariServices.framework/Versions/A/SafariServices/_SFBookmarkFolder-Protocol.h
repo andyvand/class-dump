@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol _SFBookmarkFolder
+- (NSArray *)24@152{CGRect={CGPoint=dd}{CGSize=dd}}160B192;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *children;

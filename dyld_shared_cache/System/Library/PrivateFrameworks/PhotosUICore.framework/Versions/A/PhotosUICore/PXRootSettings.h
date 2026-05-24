@@ -6,67 +6,9 @@
 
 #import <PhotosUICore/PXSettings.h>
 
-@class PXAlbumsDebugUISettings, PXApplicationSettings, PXAssetVariationsSettings, PXAssetsRecoverySettings, PXAssetsSceneSettings, PXAudioSettings, PXCPLStatusSettings, PXCompleteMyMomentSettings, PXContentPrivacySettings, PXContentSyndicationSettings, PXCuratedLibrarySettings, PXCursorInteractionSettings, PXDiagnosticsSettings, PXDisplayAssetViewDemoSettings, PXDragAndDropSettings, PXDuplicatesSettings, PXFooterSettings, PXForYouSettings, PXGPPTSettings, PXGenerativeStorySettings, PXGridSettings, PXImageModulationSettings, PXImportSettings, PXInlineVideoStabilizationSettings, PXKeyboardSettings, PXKitSettings, PXLemonadeSettings, PXMapSettings, PXMediaProviderSettings, PXMemoriesFeedSettings, PXMemoriesRelatedSettings, PXMessagesUISettings, PXModelSettings, PXOneUpSettings, PXPasteboardAssetSettings, PXPeopleDetailSettings, PXPeopleUISettings, PXPhotosDataSourceSettings, PXPhotosDetailsHeaderTileSettings, PXPhotosDetailsNavigationSettings, PXPhotosDetailsSettings, PXSearchSettings, PXSharedAlbumsSettings, PXSharedCollectionsSettings, PXSharedLibrarySettings, PXSharingSettings, PXSolariumSettings, PXStickersSettings, PXStorySettings, PXSwipeDownSettings, PXSystemNavigationSettings, PXTilingSettings, PXUpNextSettings, PXVideoPlaybackSettings, PXWorkaroundSettings;
-
 @interface PXRootSettings : PXSettings
 {
     _Bool _showLibraryFilterTip;
-    _Bool _showWIPAlertRadar;
-    PXDiagnosticsSettings *_diagnostics;
-    PXPhotosDetailsNavigationSettings *_detailsNavigationSettings;
-    PXStorySettings *_storySettings;
-    PXImageModulationSettings *_imageModulationSettings;
-    PXCuratedLibrarySettings *_curatedLibrarySettings;
-    PXSolariumSettings *_solariumSettings;
-    PXKeyboardSettings *_keyboardSettings;
-    PXVideoPlaybackSettings *_videoPlaybackSettings;
-    PXOneUpSettings *_oneUpSettings;
-    PXPhotosDetailsSettings *_photosDetails;
-    PXPhotosDetailsHeaderTileSettings *_photosDetailsHeaderTile;
-    PXMemoriesFeedSettings *_memoryFeed;
-    PXMemoriesRelatedSettings *_memoriesRelated;
-    PXUpNextSettings *_upNextSettings;
-    PXContentPrivacySettings *_contentPrivacySettings;
-    PXContentSyndicationSettings *_contentSyndicationSettings;
-    PXMessagesUISettings *_messagesUISettings;
-    PXAssetsSceneSettings *_assetsScene;
-    PXPhotosDataSourceSettings *_photosDataSource;
-    PXTilingSettings *_tiling;
-    PXModelSettings *_model;
-    PXKitSettings *_kit;
-    PXWorkaroundSettings *_workaroundSettings;
-    PXGPPTSettings *_tungstenPPTSettings;
-    PXSwipeDownSettings *_swipeDownSettings;
-    PXPeopleDetailSettings *_peopleDetail;
-    PXPeopleUISettings *_peopleUISettings;
-    PXDragAndDropSettings *_dragAndDrop;
-    PXCursorInteractionSettings *_cursorInteractionSettings;
-    PXSharingSettings *_sharingSettings;
-    PXAssetVariationsSettings *_variationsSettings;
-    PXAssetsRecoverySettings *_assetsRecoverySettings;
-    PXCompleteMyMomentSettings *_completeMyMoment;
-    PXForYouSettings *_forYou;
-    PXGridSettings *_grid;
-    PXImportSettings *_importSettings;
-    PXSearchSettings *_searchSettings;
-    PXAlbumsDebugUISettings *_albumsDebugUISettings;
-    PXApplicationSettings *_applicationSettings;
-    PXFooterSettings *_footerSettings;
-    PXSharedLibrarySettings *_sharedLibrarySettings;
-    PXGenerativeStorySettings *_generativeStorySettings;
-    PXLemonadeSettings *_lemonadeSettings;
-    PXCPLStatusSettings *_cplStatusSettings;
-    PXDuplicatesSettings *_duplicatesSettings;
-    PXInlineVideoStabilizationSettings *_inlineVideoStabilizationSettings;
-    PXAudioSettings *_audioSettings;
-    PXMediaProviderSettings *_mediaProviderSettings;
-    PXPasteboardAssetSettings *_dragDropSettings;
-    PXDisplayAssetViewDemoSettings *_assetViewDemoSettings;
-    PXSystemNavigationSettings *_systemNavigationSettings;
-    PXStickersSettings *_stickersSettings;
-    PXMapSettings *_mapSettings;
-    PXSharedAlbumsSettings *_sharedAlbumsSettings;
-    PXSharedCollectionsSettings *_sharedCollectionsSettings;
 }
 
 + (id);
@@ -96,6 +38,30 @@
 - (void);
 - (void);
 - (void);
+- (void)�P�;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)=;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -111,32 +77,22 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -156,20 +112,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -185,78 +127,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
-- (id)DeferredProcessingNeeded;
-- (id)ctRatioNumerator:denominator: /* Error: Ran out of types for this method. */;
-- (id)lock: /* Error: Ran out of types for this method. */;
+- (id)videoDeferredProcessingNeeded;
+- (id)oneUpCompositionWithAspectRatioNumerator:denominator: /* Error: Ran out of types for this method. */;
+- (id)loadMembersWithCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void)@åÿ,¬éÿãÿ\¬éÿÀãÿüãÿèãÿ,åÿxåÿÄåÿåÿ
 åÿåÿ<åÿ`åÿåÿÀåÿüåÿ8åÿ\åÿÈåÿåÿ@åÿdåÿåÿÄåÿ(åÿ@åÿtåÿÀåÿèåÿ`èÿ ãÿ¼åÿPåÿtåÿåÿ°åÿìåÿ åÿ\åÿåÿ¼åÿàåÿåÿXåÿåÿ¸åÿ`åÿåÿÀåÿüåÿ0åÿåÿ,åÿhåÿ¤åÿÈåÿìåÿDåÿhåÿ¤åÿÈåÿüåÿ åÿTåÿåÿDåÿhåÿåÿàåÿåÿ¨ åÿà åÿø åÿ!åÿ(!åÿ@!åÿø!åÿ4"åÿÈ"åÿ\#åÿ#åÿ#åÿÄ#åÿè#åÿ<$åÿ´$åÿØ$åÿ%åÿ&åÿ`&åÿÄ&åÿø&åÿ((åÿd(åÿ(åÿ°)åÿx_èÿãÿ+åÿ´+åÿð+åÿ$,åÿH,åÿ,åÿ¸,åÿ-åÿ@-åÿt-åÿ -åÿÔ-åÿø-åÿ.åÿx.åÿ¬.åÿÐ.åÿ/åÿH/åÿ´/åÿ0åÿ40åÿL0åÿx0åÿ0åÿÈ0åÿì0åÿ(1åÿ\1åÿ1åÿ¬1åÿÐ1åÿ$2åÿ`2åÿ2åÿ¸2åÿä2åÿ3åÿD3åÿx3åÿ¤3åÿÈ3åÿì3åÿ@4åÿ|4åÿ 4åÿH6åÿl6åÿ¨6åÿä6åÿ8åÿ´8åÿp9åÿ¬9åÿÐ9åÿè9åÿ°:(id)arg1 åÿÜ:åÿ@;åÿt;åÿ;åÿ;åÿÌ;åÿ /* Error: Ran out of types for this method. */;
 - (void)dTodayToleranceInHours;
 - (void)ÿ)"ÿ4Ê;
 
 // Remaining properties
-@property(retain, nonatomic) PXAlbumsDebugUISettings *albumsDebugUISettings; // @synthesize albumsDebugUISettings=_albumsDebugUISettings;
-@property(retain, nonatomic) PXApplicationSettings *applicationSettings; // @synthesize applicationSettings=_applicationSettings;
-@property(retain, nonatomic) PXDisplayAssetViewDemoSettings *assetViewDemoSettings; // @synthesize assetViewDemoSettings=_assetViewDemoSettings;
-@property(retain, nonatomic) PXAssetsRecoverySettings *assetsRecoverySettings; // @synthesize assetsRecoverySettings=_assetsRecoverySettings;
-@property(retain, nonatomic) PXAssetsSceneSettings *assetsScene; // @synthesize assetsScene=_assetsScene;
-@property(retain, nonatomic) PXAudioSettings *audioSettings; // @synthesize audioSettings=_audioSettings;
 @property(nonatomic) _Bool canShowInternalUI;
-@property(retain, nonatomic) PXCompleteMyMomentSettings *completeMyMoment; // @synthesize completeMyMoment=_completeMyMoment;
-@property(retain, nonatomic) PXContentPrivacySettings *contentPrivacySettings; // @synthesize contentPrivacySettings=_contentPrivacySettings;
-@property(retain, nonatomic) PXContentSyndicationSettings *contentSyndicationSettings; // @synthesize contentSyndicationSettings=_contentSyndicationSettings;
-@property(retain, nonatomic) PXCPLStatusSettings *cplStatusSettings; // @synthesize cplStatusSettings=_cplStatusSettings;
-@property(retain, nonatomic) PXCuratedLibrarySettings *curatedLibrarySettings; // @synthesize curatedLibrarySettings=_curatedLibrarySettings;
-@property(retain, nonatomic) PXCursorInteractionSettings *cursorInteractionSettings; // @synthesize cursorInteractionSettings=_cursorInteractionSettings;
-@property(retain, nonatomic) PXPhotosDetailsNavigationSettings *detailsNavigationSettings; // @synthesize detailsNavigationSettings=_detailsNavigationSettings;
-@property(retain, nonatomic) PXDiagnosticsSettings *diagnostics; // @synthesize diagnostics=_diagnostics;
-@property(retain, nonatomic) PXDragAndDropSettings *dragAndDrop; // @synthesize dragAndDrop=_dragAndDrop;
-@property(retain, nonatomic) PXPasteboardAssetSettings *dragDropSettings; // @synthesize dragDropSettings=_dragDropSettings;
-@property(retain, nonatomic) PXDuplicatesSettings *duplicatesSettings; // @synthesize duplicatesSettings=_duplicatesSettings;
-@property(retain, nonatomic) PXFooterSettings *footerSettings; // @synthesize footerSettings=_footerSettings;
-@property(retain, nonatomic) PXForYouSettings *forYou; // @synthesize forYou=_forYou;
-@property(retain, nonatomic) PXGenerativeStorySettings *generativeStorySettings; // @synthesize generativeStorySettings=_generativeStorySettings;
-@property(retain, nonatomic) PXGridSettings *grid; // @synthesize grid=_grid;
-@property(nonatomic) _Bool hideWIPAlerts;
-@property(retain, nonatomic) PXImageModulationSettings *imageModulationSettings; // @synthesize imageModulationSettings=_imageModulationSettings;
-@property(retain, nonatomic) PXImportSettings *importSettings; // @synthesize importSettings=_importSettings;
-@property(retain, nonatomic) PXInlineVideoStabilizationSettings *inlineVideoStabilizationSettings; // @synthesize inlineVideoStabilizationSettings=_inlineVideoStabilizationSettings;
-@property(retain, nonatomic) PXKeyboardSettings *keyboardSettings; // @synthesize keyboardSettings=_keyboardSettings;
-@property(retain, nonatomic) PXKitSettings *kit; // @synthesize kit=_kit;
-@property(retain, nonatomic) PXLemonadeSettings *lemonadeSettings; // @synthesize lemonadeSettings=_lemonadeSettings;
-@property(retain, nonatomic) PXMapSettings *mapSettings; // @synthesize mapSettings=_mapSettings;
-@property(retain, nonatomic) PXMediaProviderSettings *mediaProviderSettings; // @synthesize mediaProviderSettings=_mediaProviderSettings;
-@property(retain, nonatomic) PXMemoriesRelatedSettings *memoriesRelated; // @synthesize memoriesRelated=_memoriesRelated;
-@property(retain, nonatomic) PXMemoriesFeedSettings *memoryFeed; // @synthesize memoryFeed=_memoryFeed;
-@property(retain, nonatomic) PXMessagesUISettings *messagesUISettings; // @synthesize messagesUISettings=_messagesUISettings;
-@property(retain, nonatomic) PXModelSettings *model; // @synthesize model=_model;
-@property(retain, nonatomic) PXOneUpSettings *oneUpSettings; // @synthesize oneUpSettings=_oneUpSettings;
-@property(retain, nonatomic) PXPeopleDetailSettings *peopleDetail; // @synthesize peopleDetail=_peopleDetail;
-@property(retain, nonatomic) PXPeopleUISettings *peopleUISettings; // @synthesize peopleUISettings=_peopleUISettings;
-@property(retain, nonatomic) PXPhotosDataSourceSettings *photosDataSource; // @synthesize photosDataSource=_photosDataSource;
-@property(retain, nonatomic) PXPhotosDetailsSettings *photosDetails; // @synthesize photosDetails=_photosDetails;
-@property(retain, nonatomic) PXPhotosDetailsHeaderTileSettings *photosDetailsHeaderTile; // @synthesize photosDetailsHeaderTile=_photosDetailsHeaderTile;
-@property(retain, nonatomic) PXSearchSettings *searchSettings; // @synthesize searchSettings=_searchSettings;
-@property(retain, nonatomic) PXSharedAlbumsSettings *sharedAlbumsSettings; // @synthesize sharedAlbumsSettings=_sharedAlbumsSettings;
-@property(retain, nonatomic) PXSharedCollectionsSettings *sharedCollectionsSettings; // @synthesize sharedCollectionsSettings=_sharedCollectionsSettings;
-@property(retain, nonatomic) PXSharedLibrarySettings *sharedLibrarySettings; // @synthesize sharedLibrarySettings=_sharedLibrarySettings;
-@property(retain, nonatomic) PXSharingSettings *sharingSettings; // @synthesize sharingSettings=_sharingSettings;
-@property(nonatomic) _Bool showLibraryFilterTip; // @synthesize showLibraryFilterTip=_showLibraryFilterTip;
-@property(nonatomic) _Bool showWIPAlertRadar; // @synthesize showWIPAlertRadar=_showWIPAlertRadar;
-@property(retain, nonatomic) PXSolariumSettings *solariumSettings; // @synthesize solariumSettings=_solariumSettings;
-@property(retain, nonatomic) PXStickersSettings *stickersSettings; // @synthesize stickersSettings=_stickersSettings;
-@property(retain, nonatomic) PXStorySettings *storySettings; // @synthesize storySettings=_storySettings;
-@property(retain, nonatomic) PXSwipeDownSettings *swipeDownSettings; // @synthesize swipeDownSettings=_swipeDownSettings;
-@property(retain, nonatomic) PXSystemNavigationSettings *systemNavigationSettings; // @synthesize systemNavigationSettings=_systemNavigationSettings;
-@property(retain, nonatomic) PXTilingSettings *tiling; // @synthesize tiling=_tiling;
-@property(retain, nonatomic) PXGPPTSettings *tungstenPPTSettings; // @synthesize tungstenPPTSettings=_tungstenPPTSettings;
-@property(retain, nonatomic) PXUpNextSettings *upNextSettings; // @synthesize upNextSettings=_upNextSettings;
-@property(retain, nonatomic) PXAssetVariationsSettings *variationsSettings; // @synthesize variationsSettings=_variationsSettings;
-@property(retain, nonatomic) PXVideoPlaybackSettings *videoPlaybackSettings; // @synthesize videoPlaybackSettings=_videoPlaybackSettings;
-@property(retain, nonatomic) PXWorkaroundSettings *workaroundSettings; // @synthesize workaroundSettings=_workaroundSettings;
 
 @end
 

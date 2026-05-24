@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)cookie file = %@;
+- (void)#;
 - (_Bool);
 
 @end

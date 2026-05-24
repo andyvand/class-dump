@@ -7,11 +7,6 @@
 @interface TextRecognition.CRMultiLocaleRecognizerProvider
 {
     id $defaultActor;
-    id textRecognizers;
-    id options;
-    id configuration;
-    id owner;
-    id keepAllResourcesLoadedWhenNotInUse;
 }
 
 @end

@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AOSUIAccountContactsTopContentViewController
 {
     NSString *_titleText;
-    NSString *_detailText;
-    NSTextField *_titleField;
-    NSTextField *_detailField;
 }
 
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)L1;
 - (void);
 - (void);
 - (id);
@@ -29,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak NSTextField *detailField; // @synthesize detailField=_detailField;
-@property(copy) NSString *detailText; // @synthesize detailText=_detailText;
 @property __weak NSTextField *titleField; // @synthesize titleField=_titleField;
-@property(copy) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

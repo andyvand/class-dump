@@ -4,39 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface CTRadioFrequencyFrontEndScanData
 {
     _Bool _rfcInitPass;
-    _Bool _rffeScanPass;
-    unsigned long long _version;
-    unsigned long long _hwPrdId;
-    unsigned long long _hwSku;
-    unsigned long long _hwRev;
-    unsigned long long _hwHousing;
-    unsigned long long _rfcHwid;
-    unsigned long long _rfcRev;
-    unsigned long long _rfcMmwHwid;
-    unsigned long long _rfcMmwRev;
-    unsigned long long _fr2TrxRev;
-    unsigned long long _numExpectedDevices;
-    unsigned long long _numDetectedDevices;
-    unsigned long long _numMissingDevices;
-    NSMutableArray *_rffeScanInfo;
-    NSMutableArray *_missingRffeDevices;
-    NSMutableArray *_missingAtDevices;
-    NSMutableArray *_missingMmwDevices;
 }
 
-+ (_Bool);
++ (_Bool)g dissociated must belong to the same movie;
 - (void);
 - (void);
 - (void);
+- (void)`B;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -48,17 +28,17 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool)R;
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -69,32 +49,14 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)remoteObjectProxyWithErrorHandler:(unsigned long long)arg1;
+- (void)fetchUsersInTargetDisk:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)a&ð!ÄFùqª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long fr2TrxRev; // @synthesize fr2TrxRev=_fr2TrxRev;
-@property(nonatomic) unsigned long long hwHousing; // @synthesize hwHousing=_hwHousing;
-@property(nonatomic) unsigned long long hwPrdId; // @synthesize hwPrdId=_hwPrdId;
-@property(nonatomic) unsigned long long hwRev; // @synthesize hwRev=_hwRev;
-@property(nonatomic) unsigned long long hwSku; // @synthesize hwSku=_hwSku;
-@property(retain, nonatomic) NSMutableArray *missingAtDevices; // @synthesize missingAtDevices=_missingAtDevices;
-@property(retain, nonatomic) NSMutableArray *missingMmwDevices; // @synthesize missingMmwDevices=_missingMmwDevices;
-@property(retain, nonatomic) NSMutableArray *missingRffeDevices; // @synthesize missingRffeDevices=_missingRffeDevices;
-@property(nonatomic) unsigned long long numDetectedDevices; // @synthesize numDetectedDevices=_numDetectedDevices;
-@property(nonatomic) unsigned long long numExpectedDevices; // @synthesize numExpectedDevices=_numExpectedDevices;
-@property(nonatomic) unsigned long long numMissingDevices; // @synthesize numMissingDevices=_numMissingDevices;
-@property(nonatomic) unsigned long long rfcHwid; // @synthesize rfcHwid=_rfcHwid;
-@property(nonatomic) _Bool rfcInitPass; // @synthesize rfcInitPass=_rfcInitPass;
-@property(nonatomic) unsigned long long rfcMmwHwid; // @synthesize rfcMmwHwid=_rfcMmwHwid;
-@property(nonatomic) unsigned long long rfcMmwRev; // @synthesize rfcMmwRev=_rfcMmwRev;
-@property(nonatomic) unsigned long long rfcRev; // @synthesize rfcRev=_rfcRev;
-@property(retain, nonatomic) NSMutableArray *rffeScanInfo; // @synthesize rffeScanInfo=_rffeScanInfo;
-@property(nonatomic) _Bool rffeScanPass; // @synthesize rffeScanPass=_rffeScanPass;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

@@ -5,5 +5,10 @@
 //
 
 @protocol VCSessionDelegate
+- (void);
+- (void)8E;
+- (void);
+- (void);
+- (void)?k!8;
 @end
 

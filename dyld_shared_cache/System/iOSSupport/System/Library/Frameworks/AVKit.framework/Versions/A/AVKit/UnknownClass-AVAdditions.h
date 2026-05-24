@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AVAdditions)
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

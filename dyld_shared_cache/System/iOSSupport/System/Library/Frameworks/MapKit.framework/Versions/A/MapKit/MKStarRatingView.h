@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIImage;
-
 @interface MKStarRatingView
 {
     double _rating;
-    unsigned long long _numLevels;
-    double _padding;
-    _Bool _highlighted;
-    NSMutableArray *_ratingViews;
-    long long _numReviews;
-    long long _starStyle;
-    UIImage *_fullStarImage;
-    UIImage *_halfStarImage;
-    UIImage *_emptyStarImage;
-    UIImage *_fullStarHighlightedImage;
-    UIImage *_halfStarHighlightedImage;
-    UIImage *_emptyStarHighlightedImage;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -35,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,36 +32,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
+- (id)C;
 - (id);
 - (void);
+- (void);
+- (struct CGSize);
+- (id);
+- (void);
 - (struct CGSize);
 - (id);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void)InfoProvider;
-- (id)sFromIdentifiers:(long long)arg1;
-- (struct UIEdgeInsets);
+- (void)debugConsoleAdditionalInfoProvider;
+- (id)buildBatchesFromIdentifiers:(long long)arg1;
+- (struct UIEdgeInsets)_baselineToTop;
 - (_Bool)nableMapsSuggestServerReranking;
 - (void)P=ì=ü>	HA;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *emptyStarHighlightedImage; // @synthesize emptyStarHighlightedImage=_emptyStarHighlightedImage;
-@property(retain, nonatomic) UIImage *emptyStarImage; // @synthesize emptyStarImage=_emptyStarImage;
-@property(retain, nonatomic) UIImage *fullStarHighlightedImage; // @synthesize fullStarHighlightedImage=_fullStarHighlightedImage;
-@property(retain, nonatomic) UIImage *fullStarImage; // @synthesize fullStarImage=_fullStarImage;
-@property(retain, nonatomic) UIImage *halfStarHighlightedImage; // @synthesize halfStarHighlightedImage=_halfStarHighlightedImage;
-@property(retain, nonatomic) UIImage *halfStarImage; // @synthesize halfStarImage=_halfStarImage;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(nonatomic) unsigned long long numberOfRatingLevels; // @synthesize numberOfRatingLevels=_numLevels;
-@property(nonatomic) double rating; // @synthesize rating=_rating;
-@property(nonatomic) long long starStyle; // @synthesize starStyle=_starStyle;
 
 @end
 

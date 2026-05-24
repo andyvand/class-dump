@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTAnswerSynthesisRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)dead before StartConfiguration finished.;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setExternalOrderKey: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCardCollectionAlertToneRowView;
+- (_Bool)_roomname);;
 - (id);
-- (id);
-- (id)uggestedContact;
-- (id)asPick;
-- (_Bool)lidSpeechAlternativesSelected;
-- (_Bool)PE_NOT_APPLICABLE;
-- (void)e;
+- (id)A;
+- (id)deleteIsSuggestedContact;
+- (id)_hasPick;
+- (_Bool)ueiDictationEuclidSpeechAlternativesSelected;
+- (_Bool)FLOWAPPRESOLUTIONTYPE_NOT_APPLICABLE;
+- (void)STSchemaSTSpotlightSearchRetrievalType;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

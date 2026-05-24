@@ -6,33 +6,11 @@
 
 #import <MetalTools/MTLToolsDevice.h>
 
-@class NSData, NSMutableArray, NSSet;
-@protocol MTLBuffer, MTLComputePipelineState, MTLDepthStencilState, MTLRenderPipelineState;
+@protocol MTLRenderPipelineState;
 
 @interface MTLLegacySVDevice : MTLToolsDevice
 {
     struct LegacySVMetalBufferHeap bufferHeap;
-    struct Options boundsCheckOptions;
-    struct LegacySVDeviceOptions deviceOptions;
-    struct LegacySVBufferDescriptorHeap globalBufferHeap;
-    struct LegacySVConstantBufferCache constantBufferCache;
-    struct LegacySVGlobalResidentBufferList globalICBBufferResidentList;
-    id <MTLBuffer> uncheckedBuffer;
-    NSSet *psoEnableChecksList;
-    NSSet *psoDisableChecksList;
-    NSData *_boundsCheckOptionsData;
-    NSMutableArray *_argumentDescriptors;
-    struct once_flag _deviceInitFlag;
-    struct once_flag _icbPipelineInit;
-    id <MTLRenderPipelineState> _icbInheritVertexPipelineState;
-    id <MTLRenderPipelineState> _icbInheritNoneVertexPipelineState;
-    id <MTLRenderPipelineState> _icbInheritBuffersVertexPipelineState;
-    id <MTLDepthStencilState> _icbDepthStencilState;
-    id <MTLComputePipelineState> _icbInheritComputePipelineState;
-    id <MTLComputePipelineState> _icbInheritNoneComputePipelineState;
-    id <MTLComputePipelineState> _icbInheritBuffersComputePipelineState;
-    id <MTLComputePipelineState> _icbInheritBothComputePipelineState;
-    id <MTLComputePipelineState> _accelerationStructureComputePipelineState;
 }
 
 - (void);
@@ -49,25 +27,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id)8;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -75,6 +53,24 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id)@n;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)`;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -84,32 +80,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id).;
 - (id);
 - (id);
 - (id);
@@ -119,8 +97,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)";
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -128,11 +106,11 @@
 - (CDStruct_14f26992);
 - (id);
 - (id);
+- (id)a;
+- (id) ;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (void);
 - (void);
@@ -141,7 +119,7 @@
 - (id);
 - (id)2@0:(unsigned long long)arg1 8{MTL4BufferRange=QQ}16;
 - (void);
-- (id)coder:(unsigned long long)arg1 commandBuffer:descriptor:encoderID: /* Error: Ran out of types for this method. */;
+- (id)initWithComputeCommandEncoder:(unsigned long long)arg1 commandBuffer:descriptor:encoderID: /* Error: Ran out of types for this method. */;
 - (id)nderCommandEncoder drawPrimitives:(id)arg1 indirectBuffer:(unsigned long long)arg2 ];
 - (id)unt (%lu) must be 3 or 4 for MTLCurveBasisBSpline;
 - (id)e MTLAccelerationStructureInstanceDescriptorTypeIndirect or MTLAccelerationStructureInstanceDescriptorTypeIndirectMotion;
@@ -178,16 +156,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLDepthStencilState> ICB_DepthStencilState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_Both_ComputePipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_Buffers_ComputePipelineState;
-@property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_Buffers_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_None_ComputePipelineState;
-@property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_None_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_PSO_ComputePipelineState;
 @property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_PSO_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> accelerationStructureComputePipelineState; // @synthesize accelerationStructureComputePipelineState=_accelerationStructureComputePipelineState;
-@property(readonly, nonatomic) _Bool supportsResourceUsageValidation;
 
 @end
 

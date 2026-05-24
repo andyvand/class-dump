@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSArray, NSDictionary, NSSharingService;
+@class NSSharingService;
 
 __attribute__((visibility("hidden")))
 @interface BrowserSharingOperation
 {
     NSSharingService *_sharingService;
-    NSArray *_items;
-    NSDictionary *_sharingServiceParameters;
-    BrowserViewController *_browserViewController;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)load;
 - (void)ôø;
 
 // Remaining properties
-@property(readonly, nonatomic) BrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) NSSharingService *sharingService; // @synthesize sharingService=_sharingService;
-@property(readonly, nonatomic) NSDictionary *sharingServiceParameters; // @synthesize sharingServiceParameters=_sharingServiceParameters;
 
 @end
 

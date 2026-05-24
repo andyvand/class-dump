@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol AUAudioUnitHostProtocol
+- (void):(NSData *)arg1 _InitializeResourceBundle:(unsigned int)arg2 Can't create a URL for the given path to the resource bundle;
 - (void)%04hx for track format %s;
 @end
 

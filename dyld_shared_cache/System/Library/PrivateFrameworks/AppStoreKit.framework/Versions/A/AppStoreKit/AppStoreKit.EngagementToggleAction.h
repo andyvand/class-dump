@@ -9,7 +9,6 @@
 @interface AppStoreKit.EngagementToggleAction : AppStoreKit.Action
 {
     id identifier;
-    id value;
 }
 
 @end

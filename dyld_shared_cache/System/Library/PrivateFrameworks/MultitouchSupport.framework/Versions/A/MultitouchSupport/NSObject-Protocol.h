@@ -7,6 +7,9 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool);
+- (unsigned long long)H�~H1;
+- (_Bool);
 - (struct _NSZone *)<key>Amplitude</key>
 						<real>0.09</real>
 						<key>DelayMS</key>
@@ -1216,13 +1219,10 @@
 </plist>
 ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)e;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

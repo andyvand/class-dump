@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface MKAttributeLabelModel
 {
     NSImage *logo;
-    NSString *text;
-    double logoVerticalOffset;
-    NSString *providerName;
 }
 
 - (void);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)Rect: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)drawRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *logo; // @synthesize logo;
-@property(nonatomic) double logoVerticalOffset; // @synthesize logoVerticalOffset;
-@property(retain, nonatomic) NSString *providerName; // @synthesize providerName;
-@property(retain, nonatomic) NSString *text; // @synthesize text;
 
 @end
 

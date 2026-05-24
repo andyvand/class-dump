@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPromiseCompletionBlocks, AMSPromiseResult, NSCondition;
-
 @interface AMSPromise
 {
     struct os_unfair_lock_s _stateLock;
-    _Bool _conditionHasSignaled;
-    NSCondition *_condition;
-    AMSPromiseCompletionBlocks *_completionBlocks;
-    AMSPromise *_retainedSelf;
-    AMSPromiseResult *_promiseResult;
 }
 
 + (id);
-+ (void);
++ (void)"LUI2VibrancyEffectView";
++ (id)9;
 + (id);
 + (id);
 + (id);
 + (id);
++ (void),4;
++ (id)g;
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)TP;
++ (id);
 + (_Bool);
 + (id);
 + (_Bool);

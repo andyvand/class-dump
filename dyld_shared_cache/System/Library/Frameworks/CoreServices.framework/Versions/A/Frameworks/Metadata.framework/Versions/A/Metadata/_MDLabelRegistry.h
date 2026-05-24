@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _MDLabelRegistry
 {
     long long _generation;
-    struct __CFDictionary *_labelsByID;
-    struct __CFDictionary *_labelsByUUID;
-    struct __CFDictionary *_labelKinds;
-    struct __CFNotificationCenter *_localCenter;
-    NSObject<OS_dispatch_queue> *_localQueue;
 }
 
-- (id);
+- (id)create CNPhoneNumber object from string:(struct __CFData *)arg1 %@;
+- (void)dicate for phone number:(id)arg1 %@;
+- (void)r email address:(struct __CFData *)arg1 %@;
+- (void)Failed to create CNContact predicate for email address:(struct __CFString *)arg1 %@;
+- (id)turning synthetic contact.;
+- (id)access denied or restricted. Returning synthetic contact.;
+- (id)= %d, error = %@;
+- (void)eAccess results:(id)arg1 granted = %d, error = %@;
+- (void)ready finished coalescer. Ignored.;
+- (struct __CFArray *)nfo:(struct __CFString *)arg1 %@;
+- (struct __CFArray *)data to CKAccountOverrideInfo:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (struct __CFArray *);
-- (struct __CFArray *);
-- (void);
-- (id);
+- (id)c;
 - (_Bool);
 
 @end

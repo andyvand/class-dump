@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface FCPostPurchaseOnboardingConfiguration
 {
     unsigned long long _postPurchaseOnboardingStep;
-    NSString *_landingPageArticleID;
-    NSString *_callToActionText;
-    NSURL *_deepLinkURL;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -25,15 +20,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Count;
 - (id);
 - (void)6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCSubscriptionList.m;
-- (id)gInterval;
+- (id)pingInterval;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *callToActionText; // @synthesize callToActionText=_callToActionText;
-@property(copy, nonatomic) NSURL *deepLinkURL; // @synthesize deepLinkURL=_deepLinkURL;
-@property(copy, nonatomic) NSString *landingPageArticleID; // @synthesize landingPageArticleID=_landingPageArticleID;
 @property(nonatomic) unsigned long long postPurchaseOnboardingStep; // @synthesize postPurchaseOnboardingStep=_postPurchaseOnboardingStep;
 
 @end

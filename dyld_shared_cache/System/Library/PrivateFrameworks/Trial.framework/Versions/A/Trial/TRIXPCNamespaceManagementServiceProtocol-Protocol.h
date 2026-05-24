@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol TRIXPCNamespaceManagementServiceProtocol
+- (void)ed to generate fingerprint for asset %{public}@:(NSString *)arg1 %@;
+- (void);
+- (void)_countBigramPrefixMatchInRecipients;
+- (void)P;
 @end
 

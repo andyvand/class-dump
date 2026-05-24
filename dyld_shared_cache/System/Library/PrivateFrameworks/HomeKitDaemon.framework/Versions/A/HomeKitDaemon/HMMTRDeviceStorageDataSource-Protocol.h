@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSSet, NSString;
+@class NSNumber, NSString;
 
 @protocol HMMTRDeviceStorageDataSource
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (NSString *)hasFromDisplayName;
 - (NSNumber *)@0:8@16@24q32B40@44 /* Error: Ran out of types for this method. */;
 - (NSNumber *)t.seconds;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *attributeDatabase;
-@property(readonly, copy, nonatomic) NSString *extendedMACAddress;
 @property(readonly, copy, nonatomic) NSNumber *nodeID;
-@property(readonly, copy, nonatomic) NSSet *pairings;
-@property(readonly, copy, nonatomic) NSNumber *productID;
-@property(readonly, copy, nonatomic) NSNumber *softwareVersionNumber;
-@property(readonly, copy, nonatomic) NSNumber *supportedLinkLayerTypes;
-@property(readonly, copy, nonatomic) NSNumber *vendorID;
-@property(readonly, nonatomic) _Bool wedSupport;
 @end
 

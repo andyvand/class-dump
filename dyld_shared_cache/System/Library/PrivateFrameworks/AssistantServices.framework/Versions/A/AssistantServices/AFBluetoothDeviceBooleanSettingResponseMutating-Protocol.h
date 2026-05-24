@@ -5,5 +5,6 @@
 //
 
 @protocol AFBluetoothDeviceBooleanSettingResponseMutating
+- (void)ion not generating transaction because missing prerequisite express activity. Activity:(long long)arg1 %lu;
 @end
 

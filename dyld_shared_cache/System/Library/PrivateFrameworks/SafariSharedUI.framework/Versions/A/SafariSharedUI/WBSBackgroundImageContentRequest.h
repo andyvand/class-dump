@@ -16,7 +16,7 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)emoteObjectInterfaceWithProtocol: /* Error: Ran out of types for this method. */;
+- (id)remoteObjectInterfaceWithProtocol: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

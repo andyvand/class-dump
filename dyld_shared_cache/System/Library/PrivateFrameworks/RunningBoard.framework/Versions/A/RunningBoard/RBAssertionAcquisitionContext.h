@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBDomainRestriction, RBProcess, RBSAssertionDescriptor;
-@protocol RBDaemonContextProviding;
+@class RBProcess;
 
 @interface RBAssertionAcquisitionContext
 {
     _Bool _allowAbstractTarget;
-    _Bool _launchAssertion;
-    _Bool _pagePrefetchLaunchScenario;
-    _Bool _unitTesting;
-    RBProcess *_process;
-    RBSAssertionDescriptor *_descriptor;
-    RBDomainRestriction *_targetClientRestriction;
-    unsigned long long _acquisitionPolicy;
-    id _holdToken;
-    id <RBDaemonContextProviding> _daemonContext;
 }
 
 + (id);
@@ -29,29 +19,20 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)IntentModelingLocalSuggestionQuotaLocal;
+- (_Bool)idn't Try;
 - (void);
 - (void);
+- (void);
+- (void)iscreteMediaDomain(mediaDomain);
 - (id);
-- (void);
+- (void)setPreferredAdditionalInputModes:(_Bool)arg1;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long acquisitionPolicy; // @synthesize acquisitionPolicy=_acquisitionPolicy;
-@property(nonatomic) _Bool allowAbstractTarget; // @synthesize allowAbstractTarget=_allowAbstractTarget;
-@property(readonly, nonatomic) id <RBDaemonContextProviding> daemonContext; // @synthesize daemonContext=_daemonContext;
-@property(readonly, nonatomic) RBSAssertionDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) id holdToken; // @synthesize holdToken=_holdToken;
-@property(nonatomic) _Bool launchAssertion; // @synthesize launchAssertion=_launchAssertion;
-@property(nonatomic) _Bool pagePrefetchLaunchScenario; // @synthesize pagePrefetchLaunchScenario=_pagePrefetchLaunchScenario;
 @property(readonly, nonatomic) RBProcess *process; // @synthesize process=_process;
-@property(nonatomic) RBDomainRestriction *targetClientRestriction; // @synthesize targetClientRestriction=_targetClientRestriction;
-@property(nonatomic) _Bool unitTesting; // @synthesize unitTesting=_unitTesting;
 
 @end
 

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SLDataTimelineConnection;
+@protocol SLDataTimelineConnection, SLDataTimelineSnapshotCollection;
 
 @protocol SLDataTimelineUpdate
+- (id <SLDataTimelineSnapshotCollection>)rt Progress;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int action;
 @property(readonly, nonatomic) id <SLDataTimelineConnection> connection;
 @end
 

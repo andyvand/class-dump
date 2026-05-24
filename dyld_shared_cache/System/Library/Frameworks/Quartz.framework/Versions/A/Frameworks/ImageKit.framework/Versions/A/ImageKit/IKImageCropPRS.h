@@ -7,23 +7,21 @@
 @interface IKImageCropPRS
 {
     struct CGPoint _position;
-    struct CGSize _scale;
-    float _rotation;
 }
 
 - (struct CGPoint);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)o create asset from resources;
 - (float);
-- (id);
+- (id)z;
 - (unsigned long long);
 - (struct CGSize);
 - (struct CGPoint);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

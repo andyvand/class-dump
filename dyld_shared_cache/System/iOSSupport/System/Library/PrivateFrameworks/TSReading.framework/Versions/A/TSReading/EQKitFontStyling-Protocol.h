@@ -5,5 +5,7 @@
 //
 
 @protocol EQKitFontStyling
+- (int)ue for SharePlay behavior [options did not contain 'sharedListeningToken'];
+- (int)n;
 @end
 

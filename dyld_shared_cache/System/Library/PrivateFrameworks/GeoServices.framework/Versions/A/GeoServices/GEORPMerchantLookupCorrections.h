@@ -7,49 +7,37 @@
 @interface GEORPMerchantLookupCorrections
 {
     _Bool _isCategoryIncorrect;
-    _Bool _isMerchantIncorrect;
-    _Bool _isOtherIssue;
-    struct {
-        unsigned int has_isCategoryIncorrect:1;
-        unsigned int has_isMerchantIncorrect:1;
-        unsigned int has_isOtherIssue:1;
-    } _flags;
 }
 
-+ (_Bool)amMinRSSI:(id)arg1;
++ (_Bool)setLateRoamMinRSSI:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)r:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)have an account store.;
+- (_Bool)numbers;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)uK;
+- (void)CSVoiceTriggerAssetMetaUpdateMonitor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)acesInGuide"b1"read_photoCarousel"b1"read_price"b1"read_publisherDescription"b1"read_publisherNameForGuide"b1"read_ratings"b1"read_realTimeEvChargerAvailability"b1"read_recent"b1"read_secondaryName"b1"read_serverOverride"b1"read_string"b1"read_transitShields"b1"read_ugcUserSubmittedRecommendations"b1"read_userGeneratedGuides"b1"read_userLibUserNoteClientFix"b1"read_userNote"b1"read_visitedPlace"b1"wrote_anyField"b1};
-- (id)TierRequestedComponents;
+- (id)clearAuxiliaryTierRequestedComponents;
 - (id)@-;
 - (id)(%d) ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsCategoryIncorrect;
-@property(nonatomic) _Bool hasIsMerchantIncorrect;
-@property(nonatomic) _Bool hasIsOtherIssue;
-@property(nonatomic) _Bool isCategoryIncorrect;
-@property(nonatomic) _Bool isMerchantIncorrect;
-@property(nonatomic) _Bool isOtherIssue;
 
 @end
 

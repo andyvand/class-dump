@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDSMSSentMessage
 {
     unsigned long long _timestamp;
-    int _ctError;
-    int _fzError;
-    NSString *_guid;
-    unsigned int _hasAttachments;
-    unsigned int _isGroupMessage;
-    unsigned int _isToEmail;
-    unsigned int _isToPhoneNumber;
-    unsigned int _sendDuration;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int ctError:1;
-        unsigned int fzError:1;
-        unsigned int hasAttachments:1;
-        unsigned int isGroupMessage:1;
-        unsigned int isToEmail:1;
-        unsigned int isToPhoneNumber:1;
-        unsigned int sendDuration:1;
-    } _has;
 }
 
 - (void);
@@ -34,10 +14,10 @@
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (unsigned int);
@@ -45,24 +25,24 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (int);
 - (int);
-- (void);
+- (void))	k`-;
 - (unsigned int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)I	*i;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -76,24 +56,7 @@
 - (void)O¹;
 
 // Remaining properties
-@property(nonatomic) int ctError; // @synthesize ctError=_ctError;
-@property(nonatomic) int fzError; // @synthesize fzError=_fzError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) unsigned int hasAttachments; // @synthesize hasAttachments=_hasAttachments;
-@property(nonatomic) _Bool hasCtError;
-@property(nonatomic) _Bool hasFzError;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasHasAttachments;
-@property(nonatomic) _Bool hasIsGroupMessage;
-@property(nonatomic) _Bool hasIsToEmail;
-@property(nonatomic) _Bool hasIsToPhoneNumber;
-@property(nonatomic) _Bool hasSendDuration;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
-@property(nonatomic) unsigned int isToEmail; // @synthesize isToEmail=_isToEmail;
-@property(nonatomic) unsigned int isToPhoneNumber; // @synthesize isToPhoneNumber=_isToPhoneNumber;
-@property(nonatomic) unsigned int sendDuration; // @synthesize sendDuration=_sendDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

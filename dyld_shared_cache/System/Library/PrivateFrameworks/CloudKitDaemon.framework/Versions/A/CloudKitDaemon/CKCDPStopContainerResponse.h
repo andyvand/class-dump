@@ -7,26 +7,24 @@
 @interface CKCDPStopContainerResponse
 {
     _Bool _success;
-    CDStruct_f2ecb737 _has;
 }
 
 - (id);
 - (_Bool);
+- (void)NSDistributedNotificationCenter;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)CarPlay;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ersistedMessage>"24;
 - (void);
 - (id);
 - (id);
-- (_Bool)asLimit;
+- (_Bool)hasLimit;
 - (void)ts;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

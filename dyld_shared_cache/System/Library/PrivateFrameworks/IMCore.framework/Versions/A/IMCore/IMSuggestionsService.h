@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDictionary, NSHashTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, SGSuggestionsServiceContactsProtocol;
+@class NSObject;
+@protocol SGSuggestionsServiceContactsProtocol;
 
 @interface IMSuggestionsService
 {
     NSObject<SGSuggestionsServiceContactsProtocol> *_connection;
-    NSCache *_cache;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_pending;
-    NSDictionary *_localTable;
-    NSHashTable *_handlesToRetry;
-    id _newContactNotificationToken;
-    struct __CFRunLoopObserver *_notificationObserver;
 }
 
 + (id)`þÿÿR;
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)s:(id)arg1 %d %@(%p) Failed to add remote endpoint - doesn't exist!;
+- (void)is NULL;
+- (void)il;
+- (void)Unable to allocate rate controller config;
+- (id)gs:(id)arg1 VCP support HEVC encoder=%d for mode=%d;
+- (_Bool):(id)arg1 @ AVCSession-removeParticipants;
+- (void)fetch a packet. sent=%u stored=%u, dropping packets. packetsDropped=[S=%u, NR=%u, C=%u, F=%u];
+- (void)d packetThread=%p SendPacketsProc starting;
+- (id)Channel count mismatch! sampleBufferChannelCount=%hhu audioPlayerChannelCount=%d;
+- (void)mGroupID=%s participantID=%@ sessionID=%@;
+- (void)d payload=%u for multiwayMode=%{BOOL}d direction=%hu streamGroupID=%s participantID=%@ sessionID=%@;
+- (_Bool), delegate=%p, activeVideoMode=%d;
+- (_Bool)p) attributes=%@, streamToken=%u, delegate=%p, activeVideoMode=%d;
+- (id)rGetPrefix:(id)arg1 could not create a shared instance of NAT64Resolver;
 - (void);
 - (id);
 - (void)DÐÐ;

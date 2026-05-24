@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDIOPMWrapper
 {
@@ -13,19 +11,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (int);
-- (int);
+- (int)ame:%@, navDisplayAddress:%@, directionsListAddress:%@, waypointCategory:%@, waypointType:%@, isCurrentLocation:%d, isServerProvidedWaypoint:%d> /* Error: Ran out of types for this method. */;
+- (int)receivingHandle;
 - (struct __CFDictionary *);
 
 // Remaining properties
 @property struct __CFDictionary *assertionsByPID; // @synthesize assertionsByPID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

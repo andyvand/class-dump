@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, NSURL, NSUUID;
+@class NSDate;
 
 @interface _PSAttachment
 {
     NSDate *_creationDate;
-    NSString *_UTI;
-    NSString *_photoLocalIdentifier;
-    NSArray *_photoLocalIdentifiers;
-    NSUUID *_identifier;
-    NSUUID *_cloudIdentifier;
-    NSURL *_contentURL;
-    NSString *_contentText;
-    NSArray *_photoSceneDescriptors;
-    NSArray *_peopleInPhoto;
-    NSString *_contentTitle;
-    NSArray *_contentKeywords;
-    NSData *_imageData;
-    NSData *_contentURLSandboxExtension;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned char);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_entityPartialSiriCount1Day;
+- (void)_domainsToSearchForHistory;
+- (void)_contextPrewarmRequest;
+- (id)_cmInitialStartupItemCreationToReadyToPlayDurationInMs;
+- (unsigned char)_closestPositiveExampleScore;
+- (id)_asrState;
+- (id)_asrHypothesisIds;
+- (id)_asrEuclidEmbedding;
+- (id)_asHydrationPerContentTypeTimeInMs;
+- (id)_timeSinceAppLastLaunchedInSec;
+- (void)V_rawMediaTypeUsageSignalMusicWithoutRadio;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -50,32 +37,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)ks/PDFKit.framework/Versions/A/PDFKit;
+- (id)tRect;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)SignificantTimeChangeNotification;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UTI; // @synthesize UTI=_UTI;
-@property(readonly, copy, nonatomic) NSUUID *cloudIdentifier; // @synthesize cloudIdentifier=_cloudIdentifier;
-@property(copy, nonatomic) NSArray *contentKeywords; // @synthesize contentKeywords=_contentKeywords;
-@property(copy, nonatomic) NSString *contentText; // @synthesize contentText=_contentText;
-@property(copy, nonatomic) NSString *contentTitle; // @synthesize contentTitle=_contentTitle;
-@property(readonly, copy, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
-@property(copy, nonatomic) NSData *contentURLSandboxExtension; // @synthesize contentURLSandboxExtension=_contentURLSandboxExtension;
 @property(readonly, copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(copy, nonatomic) NSArray *peopleInPhoto; // @synthesize peopleInPhoto=_peopleInPhoto;
-@property(readonly, copy, nonatomic) NSString *photoLocalIdentifier; // @synthesize photoLocalIdentifier=_photoLocalIdentifier;
-@property(readonly, copy, nonatomic) NSArray *photoLocalIdentifiers; // @synthesize photoLocalIdentifiers=_photoLocalIdentifiers;
-@property(copy, nonatomic) NSArray *photoSceneDescriptors; // @synthesize photoSceneDescriptors=_photoSceneDescriptors;
-@property(readonly, copy, nonatomic) NSArray *suggestedContactIdentifiers;
 
 @end
 

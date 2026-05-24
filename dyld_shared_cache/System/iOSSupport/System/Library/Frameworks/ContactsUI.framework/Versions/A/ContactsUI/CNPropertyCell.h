@@ -6,22 +6,10 @@
 
 #import <ContactsUI/CNLabeledCell.h>
 
-@class CNPropertyGroupItem, UIResponder;
-@protocol CNPresenterDelegate, CNPropertyCellDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CNPropertyCell : CNLabeledCell
 {
     _Bool _allowsEditing;
-    _Bool _ignoreSuggested;
-    _Bool _forceSuggested;
-    _Bool _highlightedProperty;
-    _Bool _important;
-    id _property;
-    UIResponder *_firstResponderItem;
-    double _labelWidth;
-    id <CNPropertyCellDelegate> _delegate;
-    id <CNPresenterDelegate> _presentingDelegate;
 }
 
 + (id);
@@ -30,56 +18,42 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (double)q;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id)R;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)for %@; properties reported as updates:%s. This might be an episode that has been updated and then deleted in an upcoming change. /* Error: Ran out of types for this method. */;
+- (void)characters, or the path exceeded the total allowable length;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)edItems;
+- (void)_removedItems;
 - (void)ton;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) UIResponder *firstResponderItem; // @synthesize firstResponderItem=_firstResponderItem;
-@property(nonatomic) _Bool forceSuggested; // @synthesize forceSuggested=_forceSuggested;
-@property(nonatomic, getter=isHighlightedProperty) _Bool highlightedProperty; // @synthesize highlightedProperty=_highlightedProperty;
-@property(nonatomic) _Bool ignoreSuggested; // @synthesize ignoreSuggested=_ignoreSuggested;
-@property(nonatomic, getter=isImportant) _Bool important; // @synthesize important=_important;
-@property(nonatomic) double labelWidth; // @synthesize labelWidth=_labelWidth;
-@property(nonatomic) __weak id <CNPresenterDelegate> presentingDelegate; // @synthesize presentingDelegate=_presentingDelegate;
 @property(nonatomic) __weak id property; // @synthesize property=_property;
-@property(readonly, nonatomic) CNPropertyGroupItem *propertyItem;
-@property(readonly, nonatomic, getter=isSuggested) _Bool suggested;
-@property(readonly, nonatomic) _Bool supportsCaseSensitiveFormat;
-@property(readonly, nonatomic) _Bool supportsTintColorValue;
-@property(readonly, nonatomic) _Bool supportsValueColorUsesLabelColor;
 
 @end
 

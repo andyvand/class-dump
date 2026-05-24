@@ -6,17 +6,16 @@
 
 #import <VoiceShortcutClient/WFWorkflowOutputRunResult.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface WFWorkflowContextualActionOutputRunResult : WFWorkflowOutputRunResult
 {
     NSArray *_files;
-    NSData *_reversalState;
 }
 
-+ (_Bool);
++ (_Bool)__LINKEDIT;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *files; // @synthesize files=_files;
-@property(readonly, nonatomic) NSData *reversalState; // @synthesize reversalState=_reversalState;
 
 @end
 

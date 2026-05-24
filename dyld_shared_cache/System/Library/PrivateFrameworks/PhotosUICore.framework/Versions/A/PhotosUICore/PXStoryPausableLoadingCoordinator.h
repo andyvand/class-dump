@@ -10,9 +10,6 @@
 @interface PXStoryPausableLoadingCoordinator
 {
     NSObject<OS_dispatch_group> *_timelineWorkGroup;
-    long long _pauseCount;
-    unsigned long long _pausedSignpostID;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);

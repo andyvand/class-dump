@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardCandidatePocketShadow : UICollectionReusableView
 {
     _Bool _shadowFadesToBottom;
-    _Bool _drawsShadow;
-    _Bool _showsInDarkBackground;
 }
 
-+ (double);
++ (double)ming:(_Bool)arg1 %@;
 + (id);
 - (_Bool);
 - (_Bool);
@@ -27,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)ôÿÿÿì}êÿ·þ¸}þÿØ%íÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;
 @property(nonatomic) _Bool shadowFadesToBottom; // @synthesize shadowFadesToBottom=_shadowFadesToBottom;
-@property(nonatomic) _Bool showsInDarkBackground; // @synthesize showsInDarkBackground=_showsInDarkBackground;
 
 @end
 

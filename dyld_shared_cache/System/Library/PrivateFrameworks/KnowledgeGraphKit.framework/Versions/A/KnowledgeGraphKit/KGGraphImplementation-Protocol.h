@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
+@class KGElementIdentifierSet, NSArray, NSSet, NSUUID;
 
 @protocol KGGraphImplementation
+- (NSUUID *);
+- (NSArray *)_f_"^v}};
+- (KGElementIdentifierSet *)nextOpenLocation:(KGElementIdentifierSet *)arg1;
+- (NSArray *)_brokenAlias;
+- (NSArray *);
+- (NSSet *);
+- (KGElementIdentifierSet *);
+- (NSSet *)@16@24@?32@?40@?48;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *graphIdentifier;

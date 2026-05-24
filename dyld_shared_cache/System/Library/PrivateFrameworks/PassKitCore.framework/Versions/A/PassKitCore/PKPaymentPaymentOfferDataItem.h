@@ -16,13 +16,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)R@;
 - (id);
 - (long long);
 - (_Bool)PKFileDescriptorXPCContainer:(id *)arg1 failed to open file %@ - %{public}s.;

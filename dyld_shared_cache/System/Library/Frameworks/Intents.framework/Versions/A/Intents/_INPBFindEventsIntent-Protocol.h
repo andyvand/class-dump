@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBLocation;
+@class _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBLocation;
 
 @protocol _INPBFindEventsIntent
+- (void)=;
+- (void)c;
+- (_INPBIntentMetadata *)pe;
 - (_INPBLocation *);
-- (_Bool)lternativeProviderBundleIdentifier;
-- (_Bool)onoFilter;
+- (_Bool)alternativeProviderBundleIdentifier;
+- (_Bool)monoFilter;
 - (void)w;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTimeRangeValue *dateTimeRange;
-@property(readonly, nonatomic) _Bool hasDateTimeRange;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasRequestedEventAttribute;
-@property(readonly, nonatomic) _Bool hasSearchQuery;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBLocation *location;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(nonatomic) int requestedEventAttribute;
-@property(copy, nonatomic) NSString *searchQuery;
 @end
 

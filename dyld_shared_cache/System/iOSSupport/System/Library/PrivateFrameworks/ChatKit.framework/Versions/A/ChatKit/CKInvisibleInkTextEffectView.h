@@ -6,43 +6,37 @@
 
 #import <ChatKit/CKInvisibleInkEffectView.h>
 
-@class CALayer, CKTextBalloonView, NSArray, NSString, UIColor;
+@class CKTextBalloonView;
 
 __attribute__((visibility("hidden")))
 @interface CKInvisibleInkTextEffectView : CKInvisibleInkEffectView
 {
     _Bool _blendingEnabled;
-    CKTextBalloonView *_balloonView;
-    NSArray *_textViews;
-    NSArray *_textDrawEmitterLayers;
-    NSArray *_dustDrawEmitterLayers;
-    CALayer *_dustEmitterContainerLayer;
-    NSArray *_dustEmitterLayers;
 }
 
+- (void)ic_fontConvertedToSize: /* Error: Ran out of types for this method. */;
+- (id)collapseItemIdentifiers:itemType:context: /* Error: Ran out of types for this method. */;
+- (void)nedModernSourceObjects;
+- (void)_TtC7NotesUI28AVAudioEngineRecordingMethod;
 - (void);
+- (void)_TtC7NotesUI22AudioWaveformGenerator;
+- (void)rTimeTypez?7_6StrideSxQZ;
+- (void)Sg;
+- (void);
+- (void);
+- (void)e;
+- (void)m;
+- (void)e;
+- (id)i;
+- (id)l;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)p;
+- (id)%@};
+- (void)ail invalidated for set of notes;
+- (id)sitive}s};
+- (id)achment;
+- (void)Yesterday;
+- (void)%@, sortOrder:(id)arg1 %lu;
 - (id);
 - (void);
 - (void);
@@ -56,33 +50,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tConfig",&,N,V_internalEndpointConfig;
+- (void)ionTask",&,V_requestTask;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ght:forChatItem: /* Error: Ran out of types for this method. */;
+- (void)photosGridFullScreenBalloonViewController:sendMessageHighlight:forChatItem: /* Error: Ran out of types for this method. */;
 - (void), return min of availableHeight(%f) and entryViewFittingHeight(%f):(id)arg1 %f. KeyboardFrameInViewCoordinates:(id)arg2 %@;
 - (void);
 - (void)?4$0;
 
 // Remaining properties
 @property(nonatomic) __weak CKTextBalloonView *balloonView; // @synthesize balloonView=_balloonView;
-@property(nonatomic) _Bool blendingEnabled; // @synthesize blendingEnabled=_blendingEnabled;
-@property(readonly) UIColor *currentDustColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *dustDrawEmitterLayers; // @synthesize dustDrawEmitterLayers=_dustDrawEmitterLayers;
-@property(retain, nonatomic) CALayer *dustEmitterContainerLayer; // @synthesize dustEmitterContainerLayer=_dustEmitterContainerLayer;
-@property(retain, nonatomic) NSArray *dustEmitterLayers; // @synthesize dustEmitterLayers=_dustEmitterLayers;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *textDrawEmitterLayers; // @synthesize textDrawEmitterLayers=_textDrawEmitterLayers;
-@property(retain, nonatomic) NSArray *textViews; // @synthesize textViews=_textViews;
 
 @end
 

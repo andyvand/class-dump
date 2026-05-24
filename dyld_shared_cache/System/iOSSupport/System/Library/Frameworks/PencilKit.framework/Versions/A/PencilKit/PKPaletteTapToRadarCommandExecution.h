@@ -13,9 +13,9 @@
 
 + (id);
 - (void);
+- (id)identityInEnrichedSearch;
 - (id);
-- (id);
-- (void)SessionActionAnalyticsEndingObserver;
+- (void)UITextInputSessionActionAnalyticsEndingObserver;
 - (void)ÌÔ;
 
 // Remaining properties

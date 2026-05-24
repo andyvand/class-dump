@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CGVirtualDisplay
 {
     unsigned int _vendorID;
-    unsigned int _productID;
-    unsigned int _serialNumber;
-    NSString *_name;
-    struct CGSize _sizeInMillimeters;
-    unsigned int _maxPixelsWide;
-    unsigned int _maxPixelsHigh;
-    struct CGPoint _redPrimary;
-    struct CGPoint _greenPrimary;
-    struct CGPoint _bluePrimary;
-    struct CGPoint _whitePoint;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _terminationHandler;
-    void *_client;
-    unsigned int _displayID;
-    unsigned int _hiDPI;
-    unsigned int _rotation;
-    double _refreshDeadline;
-    _Bool _isReference;
-    NSArray *_modes;
-    unsigned int _serverRPC_port;
-    unsigned int _proxyRPC_port;
-    unsigned int _clientHandler_port;
 }
 
 - (struct CGPoint);
@@ -44,11 +19,11 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGSize);
-- (void);
-- (unsigned int);
+- (void)__objc_superrefs__DATA_CONST;
+- (unsigned int)_opt;
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (id);
 - (id);
@@ -60,24 +35,7 @@
 (WWWWWWWW8YWWWW8ZW W W¢W¢¶W£W£W¤W¤WªWªW¬W¬ âW°W°W³W³W¸W¸8[WÀWÀWÃWÃWÆWÆWÇWÇ äWÈWÈ ãWËWËWÎWÎ	ÓWÒWÓWÔWÔWÖWÖWÜWÜîWßWß¬WàWàÈWãWãWæWæ8\WíWí8]WôWô	åWõWö8^W÷W÷åWùWùWúWú,WüWü[WÿWÿ8`X;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint bluePrimary; // @synthesize bluePrimary=_bluePrimary;
-@property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly, nonatomic) struct CGPoint greenPrimary; // @synthesize greenPrimary=_greenPrimary;
-@property(readonly, nonatomic) unsigned int hiDPI; // @synthesize hiDPI=_hiDPI;
-@property(readonly, nonatomic) unsigned int maxPixelsHigh; // @synthesize maxPixelsHigh=_maxPixelsHigh;
-@property(readonly, nonatomic) unsigned int maxPixelsWide; // @synthesize maxPixelsWide=_maxPixelsWide;
-@property(readonly, nonatomic) NSArray *modes; // @synthesize modes=_modes;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned int productID; // @synthesize productID=_productID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) struct CGPoint redPrimary; // @synthesize redPrimary=_redPrimary;
-@property(readonly, nonatomic) unsigned int rotation; // @synthesize rotation=_rotation;
-@property(readonly, nonatomic) unsigned int serialNum;
-@property(readonly, nonatomic) unsigned int serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, nonatomic) struct CGSize sizeInMillimeters; // @synthesize sizeInMillimeters=_sizeInMillimeters;
-@property(readonly, copy, nonatomic) CDUnknownBlockType terminationHandler; // @synthesize terminationHandler=_terminationHandler;
 @property(readonly, nonatomic) unsigned int vendorID; // @synthesize vendorID=_vendorID;
-@property(readonly, nonatomic) struct CGPoint whitePoint; // @synthesize whitePoint=_whitePoint;
 
 @end
 

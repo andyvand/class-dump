@@ -4,46 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface WBSFormControlMetadata
 {
     NSString *_addressBookLabel;
-    NSString *_associatedUsername;
-    NSString *_fieldClass;
-    NSString *_fieldID;
-    NSString *_fieldName;
-    NSString *_tagName;
-    NSString *_uniqueID;
-    NSString *_nextControlUniqueID;
-    NSString *_placeholder;
-    NSString *_type;
-    NSString *_value;
-    NSString *_passwordRules;
-    NSString *_requiredFormatForDateTimeInput;
-    NSString *_classification;
-    NSDictionary *_radioButtonInfo;
-    NSDictionary *_annotations;
-    NSArray *_selectElementInfo;
-    NSArray *_autocompleteTokens;
-    NSArray *_ancestorFrameURLs;
-    NSArray *_orderedParts;
-    NSArray *_classificationHints;
-    double _rectLeft;
-    double _rectTop;
-    double _rectWidth;
-    double _rectHeight;
-    CDUnion_8fb30954 _flags;
-    int _size;
-    int _maxLength;
-    int _minLength;
-    int _selectionStart;
-    int _selectionLength;
-    int _autoFillButtonType;
-    int _lastAutoFillButtonType;
-    int _continuationID;
-    int _continuationIndex;
-    NSDictionary *_nodePath;
 }
 
 + (id);
@@ -73,7 +38,7 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -101,22 +66,22 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void)@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (_Bool)zR;
+- (id)�#;
+- (id)p;
+- (_Bool);
+- (struct CGRect)hz@9	;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (struct CGRect);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)Manager.UpdatesAvailableGeneral;
+- (id)v;
 - (id);
 - (id);
 - (_Bool);
@@ -138,63 +103,7 @@ ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleN
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
 @property(readonly, copy, nonatomic) NSString *addressBookLabel; // @synthesize addressBookLabel=_addressBookLabel;
-@property(readonly, nonatomic) NSArray *ancestorFrameURLs; // @synthesize ancestorFrameURLs=_ancestorFrameURLs;
-@property(readonly, copy, nonatomic) NSDictionary *annotations; // @synthesize annotations=_annotations;
-@property(readonly, copy, nonatomic) NSString *associatedUsername; // @synthesize associatedUsername=_associatedUsername;
-@property(readonly, nonatomic) long long autoFillButtonType;
-@property(readonly, nonatomic, getter=isAutoFilledTextField) _Bool autoFilledTextField;
-@property(readonly, copy, nonatomic) NSArray *autocompleteTokens; // @synthesize autocompleteTokens=_autocompleteTokens;
-@property(readonly, nonatomic) _Bool claimsToBeCurrentPasswordViaAutocompleteAttribute;
-@property(readonly, nonatomic) _Bool claimsToBeNewPasswordViaAutocompleteAttribute;
-@property(readonly, nonatomic) _Bool claimsToBeUsernameViaAutocompleteAttribute;
-@property(readonly, copy, nonatomic) NSString *classification; // @synthesize classification=_classification;
-@property(readonly, copy, nonatomic) NSArray *classificationHints; // @synthesize classificationHints=_classificationHints;
-@property(readonly, nonatomic) unsigned long long continuationID;
-@property(readonly, nonatomic) unsigned long long continuationIndex;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(readonly, nonatomic) _Bool disallowsAutocomplete;
-@property(readonly, copy, nonatomic) NSString *fieldClass; // @synthesize fieldClass=_fieldClass;
-@property(readonly, copy, nonatomic) NSString *fieldID; // @synthesize fieldID=_fieldID;
-@property(readonly, copy, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) _Bool hasDefaultMaxLength;
-@property(readonly, nonatomic) _Bool hasDefaultMinLength;
-@property(readonly, nonatomic, getter=isLabeledUsernameField) _Bool labeledUsernameField;
-@property(readonly, nonatomic) long long lastAutoFillButtonType;
-@property(readonly, nonatomic) _Bool looksLikeOneTimeCodeField;
-@property(readonly, nonatomic) unsigned long long maxLength;
-@property(readonly, nonatomic) unsigned long long minLength;
-@property(readonly, copy, nonatomic) NSString *nextControlUniqueID; // @synthesize nextControlUniqueID=_nextControlUniqueID;
-@property(readonly, copy, nonatomic) NSDictionary *nodePath; // @synthesize nodePath=_nodePath;
-@property(readonly, nonatomic) long long oneTimeCodeFieldClassification;
-@property(readonly, nonatomic) _Bool oneTimeCodeIsEligibleForAutomaticLogin;
-@property(readonly, copy, nonatomic) NSArray *orderedParts; // @synthesize orderedParts=_orderedParts;
-@property(readonly, copy, nonatomic) NSString *passwordRules; // @synthesize passwordRules=_passwordRules;
-@property(readonly, copy, nonatomic) NSString *placeholder; // @synthesize placeholder=_placeholder;
-@property(readonly, copy, nonatomic) NSDictionary *radioButtonInfo; // @synthesize radioButtonInfo=_radioButtonInfo;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly;
-@property(readonly, nonatomic) double rectHeight; // @synthesize rectHeight=_rectHeight;
-@property(readonly, nonatomic) double rectLeft; // @synthesize rectLeft=_rectLeft;
-@property(readonly, nonatomic) double rectTop; // @synthesize rectTop=_rectTop;
-@property(readonly, nonatomic) double rectWidth; // @synthesize rectWidth=_rectWidth;
-@property(readonly, copy, nonatomic) NSString *requiredFormatForDateTimeInput; // @synthesize requiredFormatForDateTimeInput=_requiredFormatForDateTimeInput;
-@property(readonly, nonatomic, getter=isSecureTextField) _Bool secureTextField;
-@property(readonly, copy, nonatomic) NSArray *selectElementInfo; // @synthesize selectElementInfo=_selectElementInfo;
-@property(readonly, nonatomic) unsigned long long selectionLength;
-@property(readonly, nonatomic) unsigned long long selectionStart;
-@property(readonly, copy, nonatomic) NSData *serializedData;
-@property(readonly, nonatomic) unsigned long long size;
-@property(readonly, copy, nonatomic) NSString *tagName; // @synthesize tagName=_tagName;
-@property(readonly, nonatomic, getter=isTextField) _Bool textField;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(readonly, nonatomic, getter=isUserEditedTextField) _Bool userEditedTextField;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
-@property(readonly, nonatomic, getter=isVerticalWritingMode) _Bool verticalWritingMode;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
 
 @end
 

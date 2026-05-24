@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSArray;
 
 @interface FIAPResult
 {
     NSArray *_historicalDataRequests;
-    NSError *_error;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 + (id)Ô ;
 - (id);
 - (id);
-- (id);
+- (id)CNLikeness;
 - (id);
 - (id);
 - (id);
@@ -30,7 +29,6 @@
 - (void)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSArray *historicalDataRequests; // @synthesize historicalDataRequests=_historicalDataRequests;
 
 @end

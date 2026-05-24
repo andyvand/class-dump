@@ -7,7 +7,6 @@
 @interface AXCoreUtilities.AXInMemorySettingsStore
 {
     id values;
-    id observations;
 }
 
 @end

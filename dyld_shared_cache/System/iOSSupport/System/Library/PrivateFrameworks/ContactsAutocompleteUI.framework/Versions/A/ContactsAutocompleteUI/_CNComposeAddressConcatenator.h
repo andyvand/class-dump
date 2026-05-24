@@ -9,9 +9,6 @@
 @interface _CNComposeAddressConcatenator
 {
     NSString *_andNMoreFormat;
-    NSString *_andNMoreNoEllipsisFormat;
-    NSString *_nAddressesFormat;
-    NSString *_truncatedAddressFormat;
 }
 
 + (id);
@@ -23,15 +20,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)8;
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *andNMoreFormat; // @synthesize andNMoreFormat=_andNMoreFormat;
-@property(retain, nonatomic) NSString *andNMoreNoEllipsisFormat; // @synthesize andNMoreNoEllipsisFormat=_andNMoreNoEllipsisFormat;
-@property(retain, nonatomic) NSString *nAddressesFormat; // @synthesize nAddressesFormat=_nAddressesFormat;
-@property(retain, nonatomic) NSString *truncatedAddressFormat; // @synthesize truncatedAddressFormat=_truncatedAddressFormat;
 
 @end
 

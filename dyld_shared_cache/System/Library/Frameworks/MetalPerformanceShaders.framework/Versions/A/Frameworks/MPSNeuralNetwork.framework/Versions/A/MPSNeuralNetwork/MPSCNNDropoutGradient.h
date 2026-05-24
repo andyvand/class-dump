@@ -9,25 +9,21 @@
 @interface MPSCNNDropoutGradient : MPSCNNGradientKernel
 {
     float _keepProbability;
-    unsigned long long _seed;
-    CDStruct_da2e99ad _maskStrideInPixels;
 }
 
 + (const struct MPSLibraryInfo *);
-- (CDStruct_14f26992);
+- (CDStruct_14f26992);
 - (float);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)MPSMatrixMultiplication.K;
 - (id);
 - (unsigned long long)"R?;
 
 // Remaining properties
 @property(readonly, nonatomic) float keepProbability; // @synthesize keepProbability=_keepProbability;
-@property(readonly, nonatomic) CDStruct_14f26992 maskStrideInPixels; // @synthesize maskStrideInPixels=_maskStrideInPixels;
-@property(readonly, nonatomic) unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

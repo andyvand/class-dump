@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOBusinessHours, GEOPDDataItem, GEORatingSummary, NSMapTable, NSString, NSTimeZone;
-@protocol GEOFactoid;
+@class GEOPDDataItem;
 
 @interface GEOPlaceLineTemplate
 {
     GEOPDDataItem *_dataItem;
-    NSTimeZone *_timeZone;
-    NSMapTable *_attributionMap;
 }
 
-+ (_Bool);
++ (_Bool)CTFontCopyCharacterSet;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOBusinessHours *businessHours;
-@property(readonly, nonatomic) NSString *categoryName;
-@property(readonly, nonatomic) id <GEOFactoid> factoid;
-@property(readonly, nonatomic) NSString *locationName;
-@property(readonly, nonatomic) GEORatingSummary *ratingSummary;
 @property(readonly, nonatomic) int type;
 
 @end

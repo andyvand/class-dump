@@ -7,7 +7,6 @@
 @interface PIPAgentProxy
 {
     id state;
-    id clients;
 }
 
 - (void);
@@ -16,9 +15,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)e;
 - (void);
 
 // Remaining properties

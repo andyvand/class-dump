@@ -9,18 +9,10 @@
 @interface MTL4InstanceAccelerationStructureDescriptor : MTL4AccelerationStructureDescriptor
 {
     unsigned long long _instanceCount;
-    unsigned long long _motionTransformCount;
-    long long _instanceTransformationMatrixLayout;
-    long long _motionTransformType;
-    unsigned long long _motionTransformStride;
-    unsigned long long _instanceDescriptorType;
-    unsigned long long _instanceDescriptorStride;
-    struct MTL4BufferRange _instanceDescriptorBuffer;
-    struct MTL4BufferRange _motionTransformBuffer;
 }
 
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -47,15 +39,7 @@
 - (void)éÿ®ýí;
 
 // Remaining properties
-@property(nonatomic) unsigned long long instanceCount; // @synthesize instanceCount=_instanceCount;
 @property(nonatomic) struct MTL4BufferRange instanceDescriptorBuffer; // @synthesize instanceDescriptorBuffer=_instanceDescriptorBuffer;
-@property(nonatomic) unsigned long long instanceDescriptorStride; // @synthesize instanceDescriptorStride=_instanceDescriptorStride;
-@property(nonatomic) unsigned long long instanceDescriptorType; // @synthesize instanceDescriptorType=_instanceDescriptorType;
-@property(nonatomic) long long instanceTransformationMatrixLayout; // @synthesize instanceTransformationMatrixLayout=_instanceTransformationMatrixLayout;
-@property(nonatomic) struct MTL4BufferRange motionTransformBuffer; // @synthesize motionTransformBuffer=_motionTransformBuffer;
-@property(nonatomic) unsigned long long motionTransformCount; // @synthesize motionTransformCount=_motionTransformCount;
-@property(nonatomic) unsigned long long motionTransformStride; // @synthesize motionTransformStride=_motionTransformStride;
-@property(nonatomic) long long motionTransformType; // @synthesize motionTransformType=_motionTransformType;
 
 @end
 

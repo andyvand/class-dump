@@ -7,19 +7,17 @@
 @interface TRIDiskUsage
 {
     unsigned long long _naiveSum;
-    unsigned long long _deduplicatedSum;
-    unsigned long long _compressedSum;
 }
 
-+ (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
++ (id)initWithImageAtURL:(unsigned long long)arg1;
+- (unsigned long long)iptcMutableDictionary;
+- (id)initWithPortraitConfiguration:(unsigned long long)arg1 landscapeConfiguration:(unsigned long long)arg2;
+- (id)infoForFirstVideoTrackOfAsset:(unsigned long long)arg1;
+- (id)imageWithCVPixelBuffer:(unsigned long long)arg1;
+- (id)imageSpaceTimeRectForPointSpaceTimeRect:(unsigned long long)arg1;
+- (unsigned long long)imageByApplyingOrientation: /* Error: Ran out of types for this method. */;
+- (_Bool)confidence;
+- (unsigned long long)computeRampToTargetRate:forExport:outTimeSteps:outIntermediateRates: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,8 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long compressedSum; // @synthesize compressedSum=_compressedSum;
-@property(readonly, nonatomic) unsigned long long deduplicatedSum; // @synthesize deduplicatedSum=_deduplicatedSum;
 @property(readonly, nonatomic) unsigned long long naiveSum; // @synthesize naiveSum=_naiveSum;
 
 @end

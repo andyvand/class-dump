@@ -9,22 +9,9 @@
 @interface CTCellularPlanProvisioningOnDeviceActivationRequest
 {
     _Bool _useDS;
-    _Bool _isESim;
-    _Bool _portIn;
-    NSString *_eid;
-    NSString *_iccid;
-    NSString *_sourceIccid;
-    NSString *_unusableIccid;
-    NSString *_phoneNumber;
-    NSString *_mcc;
-    NSString *_mnc;
-    NSString *_gid1;
-    NSString *_gid2;
-    NSString *_smdpAddress;
-    NSString *_flowType;
 }
 
-+ (_Bool);
++ (_Bool)*;
 - (_Bool);
 - (id);
 - (id);
@@ -54,33 +41,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void)he '%@' entitlement. The operation will be allowed for now. Error:(id)arg1 %{public}@;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)pple binary with signing identifier "%{public}@";
 - (void)¡&°!\Fù±ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *eid; // @synthesize eid=_eid;
-@property(retain, nonatomic) NSString *flowType; // @synthesize flowType=_flowType;
-@property(retain, nonatomic) NSString *gid1; // @synthesize gid1=_gid1;
-@property(retain, nonatomic) NSString *gid2; // @synthesize gid2=_gid2;
-@property(retain, nonatomic) NSString *iccid; // @synthesize iccid=_iccid;
-@property(nonatomic) _Bool isESim; // @synthesize isESim=_isESim;
-@property(retain, nonatomic) NSString *mcc; // @synthesize mcc=_mcc;
-@property(retain, nonatomic) NSString *mnc; // @synthesize mnc=_mnc;
-@property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(nonatomic) _Bool portIn; // @synthesize portIn=_portIn;
-@property(retain, nonatomic) NSString *smdpAddress; // @synthesize smdpAddress=_smdpAddress;
-@property(retain, nonatomic) NSString *sourceIccid; // @synthesize sourceIccid=_sourceIccid;
-@property(retain, nonatomic) NSString *unusableIccid; // @synthesize unusableIccid=_unusableIccid;
-@property(nonatomic) _Bool useDS; // @synthesize useDS=_useDS;
 
 @end
 

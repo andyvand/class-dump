@@ -6,22 +6,19 @@
 
 #import <CoreData/PFCloudKitImportRecordsWorkItem.h>
 
-@class CKQueryCursor, CKRecordZoneID, NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitCKQueryBackedImportWorkItem : PFCloudKitImportRecordsWorkItem
 {
     NSString *_recordType;
-    NSDate *_maxModificationDate;
-    CKQueryCursor *_queryCursor;
-    CKRecordZoneID *_zoneIDToQuery;
 }
 
 - (id);
 - (_Bool);
+- (void)cxK;
 - (void);
-- (void);
-- (id);
+- (id)v;
 - (_Bool);
 - (_Bool);
 - (void);

@@ -7,15 +7,12 @@
 @class NSString;
 
 @protocol NSObject
+- (NSString *)ary"@"NSDictionary"@"NSError">40@"NSNumber"48;
+- (_Bool)minimumBrightnessLevel;
+- (_Bool)addItemToPlayQueueAfterPlaybackItemOfItem:(Class)arg1;
 - (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

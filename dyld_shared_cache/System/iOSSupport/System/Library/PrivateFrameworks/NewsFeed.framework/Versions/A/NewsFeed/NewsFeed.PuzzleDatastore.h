@@ -7,7 +7,6 @@
 @interface NewsFeed.PuzzleDatastore
 {
     id datastore;
-    id debugDescription;
 }
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 @protocol PXSharedAlbumsActivityEntryRepositoryDelegate;
 
 @interface PXSharedAlbumsActivityEntryRepository
 {
     NSString *_logIdentifier;
-    NSMutableArray *_pendingFeedEntriesChangeNotifications;
-    NSMutableArray *_pendingCommentsChangeNotifications;
-    NSMutableArray *_pendingAssetsChangeNotifications;
-    id <PXSharedAlbumsActivityEntryRepositoryDelegate> _delegate;
 }
 
 - (void);

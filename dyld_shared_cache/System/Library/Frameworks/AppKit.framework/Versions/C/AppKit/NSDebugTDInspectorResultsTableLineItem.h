@@ -10,35 +10,27 @@ __attribute__((visibility("hidden")))
 @interface NSDebugTDInspectorResultsTableLineItem
 {
     _Bool _isHeading;
-    _Bool _showAttributedString;
-    NSString *_keyText;
-    CDUnknownBlockType _valueTextBlock;
-    CDUnknownBlockType _attributedValueTextBlock;
 }
 
 - (CDUnknownBlockType);
 - (_Bool);
+- (void)iled for %s, token = %d:(CDUnknownBlockType)arg1 %u;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (void);
+- (_Bool)setInterface:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (id)allowsPersistentDNS;
+- (id)allowsKeyedCoding;
+- (id)_onqueue_timeoutOccured;
+- (id)_onqueue_addBlockOp:(id)arg1 description:shouldWaitForTls: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)finishing wake up for uuid %@ for session %@ with identifier %@;
 - (id);
 - (id);
 - (void)ùj;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType attributedValueTextBlock; // @synthesize attributedValueTextBlock=_attributedValueTextBlock;
-@property(nonatomic) _Bool isHeading; // @synthesize isHeading=_isHeading;
 @property(copy, nonatomic) NSString *keyText; // @synthesize keyText=_keyText;
-@property(nonatomic) _Bool showAttributedString; // @synthesize showAttributedString=_showAttributedString;
-@property(copy, nonatomic) CDUnknownBlockType valueTextBlock; // @synthesize valueTextBlock=_valueTextBlock;
 
 @end
 

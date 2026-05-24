@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray, NSString;
 
 @protocol ECMessageHeaders
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *encodedHeaders;
 @property(readonly, nonatomic) NSArray *listUnsubscribeCommands;
-@property(readonly, nonatomic) NSString *listUnsubscribePostContent;
 @end
 

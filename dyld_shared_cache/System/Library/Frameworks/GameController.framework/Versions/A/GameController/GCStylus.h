@@ -6,13 +6,13 @@
 
 #import <GameController/GCSpatialAccessory.h>
 
-@class GCControllerLiveInput, GCDeviceHaptics;
+@class GCControllerLiveInput;
 
 @interface GCStylus : GCSpatialAccessory
 {
 }
 
-+ (id);
++ (id);
 + (Class);
 + (_Bool);
 + (_Bool);
@@ -23,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) GCDeviceHaptics *haptics; // @dynamic haptics;
 @property(readonly) GCControllerLiveInput *input; // @dynamic input;
 
 @end

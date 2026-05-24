@@ -7,16 +7,13 @@
 @interface NewsArticles.ArticleBottomPaletteViewController
 {
     id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id bottomPaletteHeight;
-    id contentView;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)edium;
+- (void)thumbnailMedium;
 
 @end
 

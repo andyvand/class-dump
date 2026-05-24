@@ -9,10 +9,6 @@
 @interface WBSSiriIntelligenceDonorBookmarkData
 {
     _Bool _isReadingListItem;
-    NSString *_coreSpotlightID;
-    NSString *_bookmarkURLString;
-    NSString *_bookmarkTitle;
-    NSString *_uuidString;
 }
 
 - (void);
@@ -28,11 +24,7 @@
 - (void)p´;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bookmarkTitle; // @synthesize bookmarkTitle=_bookmarkTitle;
-@property(copy, nonatomic) NSString *bookmarkURLString; // @synthesize bookmarkURLString=_bookmarkURLString;
 @property(copy, nonatomic) NSString *coreSpotlightID; // @synthesize coreSpotlightID=_coreSpotlightID;
-@property(nonatomic) _Bool isReadingListItem; // @synthesize isReadingListItem=_isReadingListItem;
-@property(copy, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end
 

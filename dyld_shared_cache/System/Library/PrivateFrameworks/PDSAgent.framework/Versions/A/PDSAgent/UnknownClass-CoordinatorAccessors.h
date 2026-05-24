@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
-
 @interface UnknownClass (CoordinatorAccessors)
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (long long)StateResponse %{public}@;
+- (long long)equest %@:%@ /* Error: Ran out of types for this method. */;
+- (long long)or:%@ /* Error: Ran out of types for this method. */;
+- (long long)s %p;
+- (long long)eviceID:%@ /* Error: Ran out of types for this method. */;
+- (long long)ceInfo %@;
+- (_Bool)ry-after date which occurs in the past:(id)arg1 %{public}@. Ignoring.;
+- (id){public}@. Error:%{public}@. Will retry later. /* Error: Ran out of types for this method. */;
+- (id)@:Failed to download asset:%{public}@. Error:%{public}@. Will retry later. /* Error: Ran out of types for this method. */;
+- (double)@. Will reauthorize now.;
+- (double)lic}@;
+- (double)om albumGUID %{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
+- (double)}@:Rejecting asset %{public}@ from albumGUID %{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)e go idle.;
+- (_Bool)topping all downloads.;
+- (_Bool)wed to download assets at this time.;
+- (_Bool)MCSEngine:(id)arg1 didMakeGetProgress:state:onAsset:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allRequiredBagCoalescingValuesPresent;
-@property(readonly, nonatomic) _Bool allRequiredBagTTLValuesPresent;
-@property(readonly, nonatomic) _Bool bagKillSwitchActive;
-@property(readonly, nonatomic) double coalesceDelayFromBag;
-@property(readonly, nonatomic) double coalesceMaxPeriodFromBag;
-@property(readonly, nonatomic) double coalescePeriodFromBag;
-@property(readonly, nonatomic) double messageTimeoutFromBag;
-@property(readonly, nonatomic) NSNumber *minEnabledVersion;
-@property(readonly, nonatomic) NSArray *nonCoalescingTopicsFromBag;
 @property(readonly, nonatomic) long long ttlFromBag;
-@property(readonly, nonatomic) long long ttlGracePeriodFromBag;
-@property(readonly, nonatomic) long long ttlWindowFromBag;
 @end
 

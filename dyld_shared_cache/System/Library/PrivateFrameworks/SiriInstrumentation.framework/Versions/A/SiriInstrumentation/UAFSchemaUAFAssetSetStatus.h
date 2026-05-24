@@ -6,18 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface UAFSchemaUAFAssetSetStatus : SISchemaInstrumentationMessage
 {
     NSArray *_uafAssetSets;
-    NSArray *_uafAssetSubscriptions;
-    NSArray *_allAssets;
 }
 
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -37,22 +35,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)_buildRemoveMemberCommandsWithBuilder:(id)arg1;
+- (void)adIdentifier:(id)arg1 dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (_Bool)cated = 0   AND m.cache_roomnames IS NULL   AND m.is_sos  = ?   AND m.service = ?   AND m.guid NOT IN (? )   AND m.text = ? ;
 - (id);
 - (id);
-- (id)ype;
-- (id)nutesSinceLastDisambiguationForSameActions;
-- (void)_SECOND_TURN;
+- (id)deleteSearchType;
+- (id)_minutesSinceLastDisambiguationForSameActions;
+- (void)PEGASUSMULTITURNTRIGGERERROR_NOT_SECOND_TURN;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allAssets; // @synthesize allAssets=_allAssets;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *uafAssetSets; // @synthesize uafAssetSets=_uafAssetSets;
-@property(copy, nonatomic) NSArray *uafAssetSubscriptions; // @synthesize uafAssetSubscriptions=_uafAssetSubscriptions;
 
 @end
 

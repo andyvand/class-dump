@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIActiveSysctlNamespacesProviding, TRINamespaceFactorLevelsRetrieving;
+@protocol TRIActiveSysctlNamespacesProviding;
 
 @interface TRIActiveSysctlFactorsProvider
 {
     id <TRIActiveSysctlNamespacesProviding> _namespacesProvider;
-    id <TRINamespaceFactorLevelsRetrieving> _factorLevelsRetriever;
 }
 
-- (id);
-- (id);
+- (id)getCropRectForPortraitImage:(id)arg1 size:(id)arg2 imgWidth:imgHeight:centerX:centerY: /* Error: Ran out of types for this method. */;
+- (id)dataWithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
 - (void)@0:8q16q24 /* Error: Ran out of types for this method. */;
 
 @end

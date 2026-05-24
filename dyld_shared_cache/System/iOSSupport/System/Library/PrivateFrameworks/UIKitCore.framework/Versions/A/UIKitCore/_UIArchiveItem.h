@@ -9,35 +9,25 @@
 @interface _UIArchiveItem
 {
     _Bool _fileSizeIsSet;
-    _Bool _isAppleDoubleFile;
-    NSString *_pathInArchive;
-    NSString *_fileType;
-    unsigned long long _fileSize;
-    NSString *_pathToAppleDoubleRealFileCounterpart;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)performOneTimeAccountUpgradeCheckIfNeeded;
+- (void)isUltraConstrained;
+- (void)initWithChangeHandler:(_Bool)arg1;
+- (id)_haveRecentUrgentMessageInGracePeriodForChat: /* Error: Ran out of types for this method. */;
+- (id)_haveDeferredUpdateRequest;
+- (_Bool)ityLookupDecisioningManager;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id)sistantView;
-- (void)ithWindowMadeKey:(id)arg1 sceneKeyWindowActions:ignoringOldKeyWindow:sceneResignKeyWindowActions:andSceneBecomeKeyWindowActions:forReason: /* Error: Ran out of types for this method. */;
+- (id)k_instance_is_chunk_reference(chunkInstance) && "Container With Chunk References Must Only Contain Chunks!";
+- (id)hideSystemInputAssistantView;
+- (void)evaluateApplicationKeyWindowForWindowScene:(id)arg1 withWindowMadeKey:sceneKeyWindowActions:ignoringOldKeyWindow:sceneResignKeyWindowActions:andSceneBecomeKeyWindowActions:forReason: /* Error: Ran out of types for this method. */;
 - (void)P¼½Ð;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long fileSize; // @synthesize fileSize=_fileSize;
-@property(nonatomic) _Bool fileSizeIsSet; // @synthesize fileSizeIsSet=_fileSizeIsSet;
-@property(retain, nonatomic) NSString *fileType; // @synthesize fileType=_fileType;
-@property(nonatomic) _Bool isAppleDoubleFile; // @synthesize isAppleDoubleFile=_isAppleDoubleFile;
 @property(retain, nonatomic) NSString *pathInArchive; // @synthesize pathInArchive=_pathInArchive;
-@property(retain, nonatomic) NSString *pathToAppleDoubleRealFileCounterpart; // @synthesize pathToAppleDoubleRealFileCounterpart=_pathToAppleDoubleRealFileCounterpart;
 
 @end
 

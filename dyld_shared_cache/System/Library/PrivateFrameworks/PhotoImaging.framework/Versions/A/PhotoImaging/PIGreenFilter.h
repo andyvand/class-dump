@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NSObject;
+@class CIImage;
 
 @interface PIGreenFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputMaskImage;
-    NSNumber *_inputShowSurround;
-    CIImage *_inputExcludeMask;
-    NSObject *_inputModel;
-    NSObject *_inputRefinementModel;
 }
 
 - (void);
@@ -30,15 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (void)er;
+- (void)segmentationBuffer;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputExcludeMask; // @synthesize inputExcludeMask=_inputExcludeMask;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) CIImage *inputMaskImage; // @synthesize inputMaskImage=_inputMaskImage;
-@property(retain, nonatomic) NSObject *inputModel; // @synthesize inputModel=_inputModel;
-@property(retain, nonatomic) NSObject *inputRefinementModel; // @synthesize inputRefinementModel=_inputRefinementModel;
-@property(retain, nonatomic) NSNumber *inputShowSurround; // @synthesize inputShowSurround=_inputShowSurround;
 
 @end
 

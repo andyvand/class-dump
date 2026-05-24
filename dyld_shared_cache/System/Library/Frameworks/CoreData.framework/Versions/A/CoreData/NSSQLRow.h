@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Atomic id _snapshot;
 }
 
-+ (unsigned int);
++ (unsigned int)c;
 + (void)orResult:withMonitor:error:]_block_invoke /* Error: Ran out of types for this method. */;
 + (id)BLOB;
 - (void);
@@ -20,19 +20,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (const id *);
+- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id)etadata:%@ /* Error: Ran out of types for this method. */;
 
 @end

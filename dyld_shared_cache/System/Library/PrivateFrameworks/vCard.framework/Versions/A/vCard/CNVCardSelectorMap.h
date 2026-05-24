@@ -9,11 +9,10 @@
 @interface CNVCardSelectorMap
 {
     NSMutableArray *_strings;
-    NSMutableArray *_selectors;
 }
 
 - (void);
-- (SEL);
+- (SEL)q;
 - (id);
 - (void);
 

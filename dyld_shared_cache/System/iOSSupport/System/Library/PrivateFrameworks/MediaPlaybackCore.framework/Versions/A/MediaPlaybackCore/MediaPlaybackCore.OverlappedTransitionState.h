@@ -9,9 +9,6 @@
 @interface MediaPlaybackCore.OverlappedTransitionState : MediaPlaybackCore.NaturalTransitionState
 {
     id pivoted;
-    id outgoingItemRestored;
-    id pauseInitiated;
-    id deferredPlayerEvents;
 }
 
 @end

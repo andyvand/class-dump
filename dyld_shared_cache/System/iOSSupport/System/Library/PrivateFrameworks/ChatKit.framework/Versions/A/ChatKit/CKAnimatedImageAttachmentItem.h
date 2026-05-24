@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface CKAnimatedImageAttachmentItem : CKImageAttachmentItem
 {
     NSURL *_animatedPreviewURL;
-    struct CGSize _imageSize;
 }
 
 + (_Bool);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)e;
+- (void)4;
 - (id);
 - (id);
 - (id);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *animatedPreviewURL; // @synthesize animatedPreviewURL=_animatedPreviewURL;
-@property struct CGSize imageSize; // @synthesize imageSize=_imageSize;
 
 @end
 

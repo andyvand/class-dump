@@ -10,33 +10,13 @@ __attribute__((visibility("hidden")))
 @interface VCCoreAudio_AudioUnitMockInstance : VCObject
 {
     unsigned int _enableInputIO;
-    unsigned int _enableOutputIO;
-    struct AURenderCallbackStruct _renderCallback;
-    struct AURenderCallbackStruct _inputCallback;
-    struct AudioStreamBasicDescription _inputStreamFormat;
-    struct AudioStreamBasicDescription _renderStreamFormat;
-    struct AudioBufferList *_inputBuffer;
-    struct AudioBufferList *_renderBuffer;
-    float _ioBufferDuration;
-    double _renderSampleTime;
-    double _inputSampleTime;
-    double _hostTime;
-    double _timebaseHostTimeConversionRatio;
-    CDUnknownBlockType _mutedSpeechActivityListener;
-    float _dynamicDuckerVolume;
-    _Bool _forceWrongSpeakerIOBufferSize;
-    _Bool _isRunning;
-    _Bool _isInitialized;
-    _Bool _isReconfiguring;
-    _Bool _audioSessionIDSet;
-    _Bool _bufferFrameSizeSet;
 }
 
 - (void);
 - (int);
 - (int);
 - (int);
-- (void);
+- (void)R;
 - (int);
 - (int);
 - (int);
@@ -56,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (float);
-- (void);
+- (void)qa;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,14 +48,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)V5&;
 
 // Remaining properties
-@property(nonatomic) _Bool audioSessionIDSet; // @synthesize audioSessionIDSet=_audioSessionIDSet;
-@property(nonatomic) _Bool bufferFrameSizeSet; // @synthesize bufferFrameSizeSet=_bufferFrameSizeSet;
-@property(nonatomic) float dynamicDuckerVolume; // @synthesize dynamicDuckerVolume=_dynamicDuckerVolume;
 @property(readonly, nonatomic) unsigned int enableInputIO; // @synthesize enableInputIO=_enableInputIO;
-@property(readonly, nonatomic) unsigned int enableOutputIO; // @synthesize enableOutputIO=_enableOutputIO;
-@property(nonatomic) _Bool isInitialized; // @synthesize isInitialized=_isInitialized;
-@property _Bool isReconfiguring; // @synthesize isReconfiguring=_isReconfiguring;
-@property(nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
 
 @end
 

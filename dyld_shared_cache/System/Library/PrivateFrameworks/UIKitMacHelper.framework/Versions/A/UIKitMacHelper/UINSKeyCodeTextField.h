@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)@;
 - (id)ding it there.;
 - (void)";
 

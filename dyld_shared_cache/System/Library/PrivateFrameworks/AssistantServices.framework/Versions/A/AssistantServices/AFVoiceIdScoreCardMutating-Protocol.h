@@ -5,5 +5,9 @@
 //
 
 @protocol AFVoiceIdScoreCardMutating
+- (void)(;
+- (void)?;
+- (void);
+- (void)ae;
 @end
 

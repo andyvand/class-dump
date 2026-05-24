@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WiFiAnalyticsAWDSlowWiFiNotification;
-
 @interface WiFiAnalyticsAWDWiFiSlowWiFiReport
 {
     unsigned long long _timestamp;
-    NSMutableArray *_linkQualSamples;
-    WiFiAnalyticsAWDSlowWiFiNotification *_slowNotice;
-    NSMutableArray *_usbEvents;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -32,28 +26,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_fault_if(accountChangeItem == nil) -- accountChangeItem is nil. Unable to update account when setting daIsNotificationsCollection.;
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)Y;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ssionId:(struct _NSZone *)arg1 locationType:poolLength:startDate:endDate:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSlowNotice;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *linkQualSamples; // @synthesize linkQualSamples=_linkQualSamples;
-@property(retain, nonatomic) WiFiAnalyticsAWDSlowWiFiNotification *slowNotice; // @synthesize slowNotice=_slowNotice;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSMutableArray *usbEvents; // @synthesize usbEvents=_usbEvents;
 
 @end
 

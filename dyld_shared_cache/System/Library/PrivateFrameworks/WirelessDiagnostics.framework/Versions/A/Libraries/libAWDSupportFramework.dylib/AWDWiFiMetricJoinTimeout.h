@@ -7,19 +7,13 @@
 @interface AWDWiFiMetricJoinTimeout
 {
     CDStruct_9f2792e4 _associationStates;
-    CDStruct_9f2792e4 _channels;
-    CDStruct_9f2792e4 _joinClassificationInfos;
-    CDStruct_9f2792e4 _joinTargetClassificationInfos;
-    CDStruct_9f2792e4 _totalNumberOfJoinAttempts;
-    unsigned int _sequence;
-    CDStruct_74184a9f _has;
 }
 
 - (unsigned long long);
 - (unsigned int);
 - (unsigned int *);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -27,7 +21,7 @@
 - (unsigned int *);
 - (unsigned int);
 - (unsigned long long);
-- (unsigned int *);
+- (unsigned int *)@9q;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -35,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned int *);
 - (unsigned int);
@@ -43,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (unsigned int);
 - (void);
 - (void);
@@ -52,27 +46,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (unsigned int *);
 - (_Bool);
-- (void);
+- (void));
+- (id);
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int)data length -- Failed {data:%{public}@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *associationStates;
-@property(readonly, nonatomic) unsigned long long associationStatesCount;
-@property(readonly, nonatomic) unsigned int *channels;
-@property(readonly, nonatomic) unsigned long long channelsCount;
 @property(nonatomic) _Bool hasSequence;
-@property(readonly, nonatomic) unsigned int *joinClassificationInfos;
-@property(readonly, nonatomic) unsigned long long joinClassificationInfosCount;
-@property(readonly, nonatomic) unsigned int *joinTargetClassificationInfos;
-@property(readonly, nonatomic) unsigned long long joinTargetClassificationInfosCount;
-@property(nonatomic) unsigned int sequence; // @synthesize sequence=_sequence;
-@property(readonly, nonatomic) unsigned int *totalNumberOfJoinAttempts;
-@property(readonly, nonatomic) unsigned long long totalNumberOfJoinAttemptsCount;
 
 @end
 

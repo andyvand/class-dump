@@ -4,85 +4,71 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKMentionsController, CKMessageEditingView, CKTranscriptOverlayTransitionContext, ChatKit.CKTextEffectCoordinator, NSDictionary, NSString, UITapGestureRecognizer, UIView;
-@protocol CKMessageEditingViewControllerInteractionDelegate, CKTranscriptOverlayTransitionDelegate;
+@class CKTranscriptOverlayTransitionContext;
 
 @interface CKMessageEditingViewController
 {
     _Bool _isInitialLoad;
-    _Bool _animatingIn;
-    _Bool _animatingOut;
-    id <CKTranscriptOverlayTransitionDelegate> _transcriptOverlayTransitionDelegate;
-    id <CKMessageEditingViewControllerInteractionDelegate> _interactionDelegate;
-    double _entryViewOffset;
-    CKTranscriptOverlayTransitionContext *_transitionContext;
-    UIView *_transcriptOverlayView;
-    CKMessageEditingView *_messageEditingView;
-    double _viewHeightForEditedMessageAnchorPosition;
-    NSDictionary *_proofreadingInfo;
-    CKMentionsController *_mentionsController;
-    CKConversation *_conversation;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    ChatKit.CKTextEffectCoordinator *_textEffectsCoordinator;
-    struct CGRect _editedMessageAchorPosition;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)maximumWidth;
+- (id)managedObjectContextChangeController:(id)arg1 performUpdatesForManagedObjectIDs: /* Error: Ran out of types for this method. */;
+- (double)localizedFrameworkStringForKey:value:table:allowSiri: /* Error: Ran out of types for this method. */;
+- (id)ic_rangeIsValid: /* Error: Ran out of types for this method. */;
+- (id)ic_rangeForInlineAttachment:withTextAttachment: /* Error: Ran out of types for this method. */;
+- (void)ic_rangeForBaseAttachment:(id)arg1 withTextAttachment: /* Error: Ran out of types for this method. */;
+- (void)ic_noteEditorBackgroundColor;
+- (id)filterSearchResultsUsingVisiblityTesting: /* Error: Ran out of types for this method. */;
+- (void)filterAttachmentsForPrintingInAttributedString:(id)arg1 textContainer:(id)arg2;
+- (_Bool)fill;
+- (id)fileWrapperFromRange:(id)arg1 documentAttributes:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (id)fileURLWithPath:(id)arg1;
+- (void)filePromiseProvider:(id)arg1 fileNameForType:(id)arg2;
+- (void)fileManager;
+- (void)_webView:(double)arg1 decideDatabaseQuotaForSecurityOrigin:databaseName:displayName:currentQuota:currentOriginUsage:currentDatabaseUsage:expectedUsage:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)_shouldIncludeDefaultFolder;
+- (void)_shouldIncludeAccount;
+- (void)_previewProgressQueue;
+- (void)@"NSString",C,N,V_touchBarReason;
+- (void)startGenerating;
+- (void)__lazy_storage_$_numberFormatter;
+- (void)systemImageName;
+- (void)textStorage;
+- (void)hostingView;
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (double);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (double);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)G;
 - (BOOL);
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)m;
+- (void)};
 - (void);
-- (void);
-- (void);
+- (void)tion before expiry;
 - (_Bool);
-- (id);
+- (id)SiriNoteTextViewSizeDidChangeNotification;
 - (void);
+- (void)@U
+;
 - (void);
-- (void);
-- (void);
+- (void)]
+;
 - (double);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)6$;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -94,7 +80,7 @@
 - (void);
 - (void);
 - (id);
-- (id)tContext: /* Error: Ran out of types for this method. */;
+- (id)processLaunchEventContext: /* Error: Ran out of types for this method. */;
 - (void)KitToolbarItem;
 - (void);
 - (_Bool)ìgûÿ´ÿÿ;
@@ -103,31 +89,7 @@
 - (id)|0;
 
 // Remaining properties
-@property(nonatomic) _Bool animatingIn; // @synthesize animatingIn=_animatingIn;
-@property(nonatomic) _Bool animatingOut; // @synthesize animatingOut=_animatingOut;
-@property(readonly, nonatomic) UIView *balloonViewForAlignment;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect editedMessageAchorPosition; // @synthesize editedMessageAchorPosition=_editedMessageAchorPosition;
-@property(nonatomic) double entryViewOffset; // @synthesize entryViewOffset=_entryViewOffset;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CKMessageEditingViewControllerInteractionDelegate> interactionDelegate; // @synthesize interactionDelegate=_interactionDelegate;
-@property(nonatomic) _Bool isInitialLoad; // @synthesize isInitialLoad=_isInitialLoad;
-@property(retain, nonatomic) CKMentionsController *mentionsController; // @synthesize mentionsController=_mentionsController;
-@property(retain, nonatomic) CKMessageEditingView *messageEditingView; // @synthesize messageEditingView=_messageEditingView;
-@property(retain, nonatomic) NSDictionary *proofreadingInfo; // @synthesize proofreadingInfo=_proofreadingInfo;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
-@property(retain, nonatomic) ChatKit.CKTextEffectCoordinator *textEffectsCoordinator; // @synthesize textEffectsCoordinator=_textEffectsCoordinator;
-@property(nonatomic) __weak id <CKTranscriptOverlayTransitionDelegate> transcriptOverlayTransitionDelegate; // @synthesize transcriptOverlayTransitionDelegate=_transcriptOverlayTransitionDelegate;
-@property(retain, nonatomic) UIView *transcriptOverlayView; // @synthesize transcriptOverlayView=_transcriptOverlayView;
 @property(retain, nonatomic) CKTranscriptOverlayTransitionContext *transitionContext; // @synthesize transitionContext=_transitionContext;
-@property(nonatomic) double viewHeightForEditedMessageAnchorPosition; // @synthesize viewHeightForEditedMessageAnchorPosition=_viewHeightForEditedMessageAnchorPosition;
-@property(readonly, nonatomic) _Bool wantsBackingTranscriptToIgnoreContentOffsetChanges;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView;
+
 @protocol UIScrollViewDelegate
+
+@optional
+- (void)_naturalHeightForPrimaryTextUsingSmallText:(UIScrollView *)arg1 sizeClass: /* Error: Ran out of types for this method. */;
+- (void)showHeader;
+- (void)ary}^{__C3DScene}q}^{__C3DSourceAccessor}(?=^{__CFData}^v^v)qb1b1b1}SCC}24c32q36q44;
+- (void);
+- (void);
 @end
 

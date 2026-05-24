@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SearchUIRFCardSectionView : SearchUICardSectionView
 {
     id hostingView;
-    id context;
 }
 
 + (_Bool);
@@ -21,17 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)ply;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) double highlightFrameCornerRadius;
 @property(nonatomic, readonly) NSView *highlightReferenceView;
 
 @end

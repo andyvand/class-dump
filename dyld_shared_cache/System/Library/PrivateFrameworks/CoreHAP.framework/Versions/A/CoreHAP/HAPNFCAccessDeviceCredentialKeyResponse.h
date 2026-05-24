@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPNFCAccessResponseStatusWrapper, NSData, NSString;
+@class NSData;
 
 @interface HAPNFCAccessDeviceCredentialKeyResponse
 {
     NSData *_identifier;
-    NSData *_issuerKeyIdentifier;
-    HAPNFCAccessResponseStatusWrapper *_statusCode;
 }
 
 + (id);
@@ -30,16 +28,7 @@
 - (void)Î;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *issuerKeyIdentifier; // @synthesize issuerKeyIdentifier=_issuerKeyIdentifier;
-@property(retain, nonatomic) HAPNFCAccessResponseStatusWrapper *statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 
 @end
 

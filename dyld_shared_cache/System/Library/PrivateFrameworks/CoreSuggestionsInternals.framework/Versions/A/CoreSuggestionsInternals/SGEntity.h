@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSPerson, NSData, NSMutableSet, NSSet, NSString, SGDuplicateKey, SGExtractionInfo, SGRecordId, SGSimpleTimeRange;
+@class NSMutableSet, SGRecordId;
 
 @interface SGEntity
 {
     NSMutableSet *_tags;
-    NSSet *_tagsSnapshot;
-    struct _opaque_pthread_mutex_t _tagsLock;
-    unsigned int _state;
-    SGRecordId *_recordId;
-    SGDuplicateKey *_duplicateKey;
-    SGExtractionInfo *_extractionInfo;
-    NSString *_sourceKey;
-    NSString *_content;
-    NSString *_title;
-    NSString *_authorNickname;
-    NSString *_authorPhotoPath;
-    CSPerson *_author;
-    struct SGUnixTimestamp_ _creationTimestamp;
-    struct SGUnixTimestamp_ _lastModifiedTimestamp;
-    SGSimpleTimeRange *_timeRange;
-    NSData *_structuredData;
-    double _quality;
-    NSMutableSet *_locations;
-    long long _masterEntityId;
-    long long _groupId;
-    NSString *_operatingSystemVersion;
-    struct _NSRange _contentRangeOfInterest;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)4;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)d;
 - (void);
 - (long long);
 - (id);
@@ -55,12 +33,12 @@
 - (id);
 - (struct _NSRange);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)setTranslatesAutoresizingMaskIntoConstraints: /* Error: Ran out of types for this method. */;
+- (id)_organizationType;
+- (void)_inspectorWasScrolled:(id)arg1;
+- (_Bool)tton]-|;
+- (_Bool).reminderShareExtension;
+- (_Bool)Contacts;
 - (id);
 - (_Bool);
 - (id);
@@ -70,12 +48,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setSongPart: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)_formatScientificStringWithParens;
 - (unsigned int);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (void);
@@ -84,12 +62,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)dataWithBytes:length: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)1Â0@ù
 × ;
 - (id)8@36B44;
-- (id)ask:(id)arg1 forPluginID:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)performTask:(id)arg1 forPluginID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)ì4;
 - (_Bool)ä;
 - (void)È;
@@ -101,26 +79,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CSPerson *author; // @synthesize author=_author;
-@property(copy, nonatomic) NSString *authorNickname; // @synthesize authorNickname=_authorNickname;
-@property(copy, nonatomic) NSString *authorPhotoPath; // @synthesize authorPhotoPath=_authorPhotoPath;
-@property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(nonatomic) struct _NSRange contentRangeOfInterest; // @synthesize contentRangeOfInterest=_contentRangeOfInterest;
-@property(nonatomic) struct SGUnixTimestamp_ creationTimestamp; // @synthesize creationTimestamp=_creationTimestamp;
-@property(retain, nonatomic) SGDuplicateKey *duplicateKey; // @synthesize duplicateKey=_duplicateKey;
-@property(retain, nonatomic) SGExtractionInfo *extractionInfo; // @synthesize extractionInfo=_extractionInfo;
-@property(nonatomic) long long groupId; // @synthesize groupId=_groupId;
-@property(nonatomic) struct SGUnixTimestamp_ lastModifiedTimestamp; // @synthesize lastModifiedTimestamp=_lastModifiedTimestamp;
-@property(retain, nonatomic) NSMutableSet *locations; // @synthesize locations=_locations;
-@property(nonatomic) long long masterEntityId; // @synthesize masterEntityId=_masterEntityId;
-@property(copy, nonatomic) NSString *operatingSystemVersion; // @synthesize operatingSystemVersion=_operatingSystemVersion;
-@property(nonatomic) double quality; // @synthesize quality=_quality;
 @property(retain, nonatomic) SGRecordId *recordId; // @synthesize recordId=_recordId;
-@property(copy, nonatomic) NSString *sourceKey; // @synthesize sourceKey=_sourceKey;
-@property(nonatomic) unsigned int state; // @synthesize state=_state;
-@property(copy, nonatomic) NSData *structuredData; // @synthesize structuredData=_structuredData;
-@property(retain, nonatomic) SGSimpleTimeRange *timeRange; // @synthesize timeRange=_timeRange;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

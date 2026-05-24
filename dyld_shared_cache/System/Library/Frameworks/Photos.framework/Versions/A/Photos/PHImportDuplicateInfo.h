@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary;
 
 @interface PHImportDuplicateInfo
 {
@@ -14,11 +14,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!b!@b;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -27,22 +27,12 @@
 - (double);
 - (id);
 - (id);
-- (id)tedLibraryFetchFilterObjectID;
+- (id)_limitedLibraryFetchFilterObjectID;
 - (void)e;
 - (id)æ»;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *alternateImportImageDate;
-@property(readonly, nonatomic) NSString *avchdFingerprint;
-@property(readonly, nonatomic) NSString *fileName;
-@property(readonly, nonatomic) NSNumber *fileSize;
-@property(readonly, nonatomic) NSString *fingerprint;
-@property(readonly, nonatomic) _Bool hasVideoComplement;
-@property(readonly, nonatomic) NSDate *imageDate;
 @property(retain, nonatomic) NSMutableDictionary *info; // @synthesize info=_info;
-@property(readonly, nonatomic) _Bool isInTrash;
-@property(readonly, nonatomic) double timezoneOffset;
-@property(readonly, nonatomic) NSString *uuid;
 
 @end
 

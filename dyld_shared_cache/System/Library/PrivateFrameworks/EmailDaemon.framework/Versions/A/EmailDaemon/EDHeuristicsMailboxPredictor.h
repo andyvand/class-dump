@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMailboxPersistence, EDMessagePersistence, NSCache, NSDictionary, NSString;
 @protocol EMUserProfileProvider;
 
 @interface EDHeuristicsMailboxPredictor
 {
     id <EMUserProfileProvider> _userProfileProvider;
-    EDMessagePersistence *_messagePersistence;
-    EDMailboxPersistence *_mailboxPersistence;
-    NSDictionary *_parameters;
-    NSCache *_mailboxIDCache;
 }
 
 - (id);
@@ -28,44 +23,33 @@
 - (id);
 - (id);
 - (id);
+- (id) ;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)?;
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)'�;
+- (id);
+- (_Bool);
+- (void)ction_common_Utilities;
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (id)1Â0@ù
 × ;
 - (void)M searchable_messages WHERE message_id = %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSCache *mailboxIDCache; // @synthesize mailboxIDCache=_mailboxIDCache;
-@property(retain, nonatomic) EDMailboxPersistence *mailboxPersistence; // @synthesize mailboxPersistence=_mailboxPersistence;
-@property(retain, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(retain, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <EMUserProfileProvider> userProfileProvider; // @synthesize userProfileProvider=_userProfileProvider;
 
 @end

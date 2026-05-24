@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSMutableArray, NSMutableSet, NSObject, NSString, PKController, PKPaintAreaView;
-@protocol MTLDevice, OS_dispatch_queue, PKDrawingUUID, PKPaintSurface;
+@class PKController;
 
 @interface PKPaintAreaViewSurface
 {
     PKController *_drawingController;
-    NSMutableArray *_textureSet;
-    struct CGSize _pixelSize;
-    struct CGPoint _oldEraseLocation;
-    CIContext *_imageContext;
-    id <MTLDevice> _device;
-    _Bool _isDrawing;
-    _Bool _waitingForStrokeToEnd;
-    _Bool _isErasingObjects;
-    _Bool _isMipmapped;
-    NSMutableArray *_strokesToErase;
-    NSMutableSet *_strokeIDsToErase;
-    PKPaintAreaView *_paintAreaView;
-    id <PKPaintSurface> _surface;
-    double _textureScale;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    id <PKDrawingUUID> _drawingUUID;
-    struct CGSize _drawingSize;
-    struct CGPoint _previousPoint;
-    struct CGAffineTransform _strokeTransform;
 }
 
 - (_Bool);
@@ -40,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)7;
 - (void);
 - (_Bool);
 - (id);
@@ -63,35 +43,14 @@
 - (id);
 - (_Bool);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void)JK;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly, nonatomic) PKController *drawingController; // @synthesize drawingController=_drawingController;
-@property(readonly, nonatomic) struct CGSize drawingSize; // @synthesize drawingSize=_drawingSize;
-@property(readonly, nonatomic) id <PKDrawingUUID> drawingUUID; // @synthesize drawingUUID=_drawingUUID;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isDrawing; // @synthesize isDrawing=_isDrawing;
-@property(readonly, nonatomic) _Bool isErasingObjects; // @synthesize isErasingObjects=_isErasingObjects;
-@property(readonly, nonatomic) _Bool isMipmapped; // @synthesize isMipmapped=_isMipmapped;
-@property(nonatomic) __weak PKPaintAreaView *paintAreaView; // @synthesize paintAreaView=_paintAreaView;
-@property(nonatomic) struct CGPoint previousPoint; // @synthesize previousPoint=_previousPoint;
-@property(readonly, nonatomic) NSMutableSet *strokeIDsToErase; // @synthesize strokeIDsToErase=_strokeIDsToErase;
-@property(readonly, nonatomic) struct CGAffineTransform strokeTransform; // @synthesize strokeTransform=_strokeTransform;
-@property(readonly, nonatomic) NSMutableArray *strokesToErase; // @synthesize strokesToErase=_strokesToErase;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PKPaintSurface> surface; // @synthesize surface=_surface;
-@property(readonly, nonatomic) double textureScale; // @synthesize textureScale=_textureScale;
-@property(readonly, nonatomic) _Bool waitingForStrokeToEnd; // @synthesize waitingForStrokeToEnd=_waitingForStrokeToEnd;
 
 @end
 

@@ -7,17 +7,6 @@
 @interface GeoServices.GeoidModel
 {
     id values;
-    id latitudeSize;
-    id longitudeSize;
-    id minLatitude;
-    id maxLatitude;
-    id minLongitude;
-    id maxLongitude;
-    id latitudeStep;
-    id longitudeStep;
-    id minUndulation;
-    id quantizationStep;
-    id valid;
 }
 
 - (float);

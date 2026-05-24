@@ -5,5 +5,15 @@
 //
 
 @protocol MTL4ComputeCommandEncoderSPI
+- (void)B.x;
+  var_I_B.z -= r1r2.x * var_I_B.y;
+  cov_Ip.z -= r1r2.x * cov_Ip.y;
+  cov_Ip.z /= var_I_B.z;
+  cov_Ip.y = (cov_Ip.y - (var_I_B.y * cov_Ip.z)) / var_I_B.x;
+  cov_Ip.x = ((cov_Ip.x - (var_I_A.y * cov_Ip.y)) - (var_I_A.z * cov_Ip.z)) / var_I_A.x;
+  cov_Ip.w = meanIP.w - dot(cov_Ip.xyz, meanIP.xyz);
+  return cov_Ip;
+}
+;
 @end
 

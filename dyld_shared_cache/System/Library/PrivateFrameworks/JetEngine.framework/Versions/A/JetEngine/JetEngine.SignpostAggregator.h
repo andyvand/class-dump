@@ -7,9 +7,6 @@
 @interface JetEngine.SignpostAggregator
 {
     id _nextStartTime;
-    id subsystem;
-    id category;
-    id lock;
 }
 
 @end

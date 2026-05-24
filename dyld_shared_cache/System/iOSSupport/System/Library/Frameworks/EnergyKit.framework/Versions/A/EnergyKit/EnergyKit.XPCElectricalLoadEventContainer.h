@@ -7,13 +7,14 @@
 @interface EnergyKit.XPCElectricalLoadEventContainer
 {
     id value;
+    id ;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)=;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiRecipeTagSuggestionsConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiRecipeTagSuggestionsEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiRecipeTagSuggestionsConfiguration *_configuration;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void)ldsparcore/Classes/FCTagRecordSource.m;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsTabiRecipeTagSuggestionsConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServicesConfiguration, NSString;
-@protocol BSInvalidatable;
+@class BSServicesConfiguration;
 
 @interface BSServicesConfigurationRegistration
 {
     BSServicesConfiguration *_configuration;
-    id <BSInvalidatable> _registration;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) BSServicesConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

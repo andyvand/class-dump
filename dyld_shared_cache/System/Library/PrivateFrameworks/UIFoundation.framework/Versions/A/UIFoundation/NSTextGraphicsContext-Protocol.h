@@ -5,10 +5,10 @@
 //
 
 @protocol NSTextGraphicsContext
+- (_Bool);
+- (_Bool)duet.xpc.receiver;
 
 // Remaining properties
 @property(readonly) struct CGContext *CGContext;
-@property(readonly, getter=isDrawingToScreen) _Bool drawingToScreen;
-@property(readonly, getter=isFlipped) _Bool flipped;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKDigitalIssuanceServiceProviderProduct
 {
     NSString *_identifier;
-    NSString *_localizedDisplayName;
-    NSString *_localizedDescription;
-    NSArray *_items;
 }
 
 - (id);
@@ -20,21 +17,11 @@
 - (id);
 - (id)X"!XBùqî%ð1Â0@ù
 × ;
-- (id)DevicesWithArchive;
-- (void)ransactionKeyAttestation;
+- (id)_remoteDevicesWithArchive;
+- (void)transactionKeyAttestation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(readonly) Class superclass;
 
 @end
 

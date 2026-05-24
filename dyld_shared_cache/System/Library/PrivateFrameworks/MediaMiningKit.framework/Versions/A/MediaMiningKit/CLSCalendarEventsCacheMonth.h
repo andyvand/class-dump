@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface CLSCalendarEventsCacheMonth
 {
     long long _month;
-    NSMutableSet *_days;
 }
 
 - (id);
@@ -22,7 +19,6 @@
 - (long long)Ú;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *days; // @synthesize days=_days;
 @property(nonatomic) long long month; // @synthesize month=_month;
 
 @end

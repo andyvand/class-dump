@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _NSStackOverlayDictionary
 {
     NSDictionary *_base;
-    NSDictionary *_overlay;
 }
 
 + (id)|ÿí!8sI;
 - (id);
 - (id);
-- (id);
+- (id)p;
 - (unsigned long long);
 
 @end

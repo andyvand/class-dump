@@ -6,14 +6,12 @@
 
 #import <AppleMediaServicesUI/AMSUIAssetFetchOperation.h>
 
-@class NSURL, NSURLSession, NSURLSessionTask;
+@class NSURLSessionTask;
 
 __attribute__((visibility("hidden")))
 @interface AMSUINetworkImageFetchOperation : AMSUIAssetFetchOperation
 {
     NSURLSessionTask *_sessionTask;
-    NSURL *_url;
-    NSURLSession *_URLSession;
 }
 
 + (id);
@@ -27,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)accuracy;
 - (void);
-- (void);
-- (id);
+- (id)7;
 - (_Bool);
 - (void);
 - (void)@"AMSAuthenticateResult"@"NSError">24;
@@ -37,9 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)k;
 
 // Remaining properties
-@property(retain) NSURLSession *URLSession; // @synthesize URLSession=_URLSession;
 @property(retain) NSURLSessionTask *sessionTask; // @synthesize sessionTask=_sessionTask;
-@property(retain) NSURL *url; // @synthesize url=_url;
 
 @end
 

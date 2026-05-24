@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class FBScene, NSSet;
 
 @protocol FBSceneObserver
 
 @optional
+- (void);
+- (void)workCatalog"@?@"NSString">24@0:(FBScene *)arg1 8@"MPNowPlayingContentItem"16;
+- (void)MPHomeUserMonitor %p> HMSetting "%{public}@" failed to update. shouldAllowExplicit=%{BOOOL}u error=%{public}@;
+- (void)<b;
 - (void);
 - (NSSet *)0@ù
 × ;

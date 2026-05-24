@@ -7,7 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupBlueprintFooterView
 {
     id button;
-    id privacyLabel;
 }
 
 - (id);

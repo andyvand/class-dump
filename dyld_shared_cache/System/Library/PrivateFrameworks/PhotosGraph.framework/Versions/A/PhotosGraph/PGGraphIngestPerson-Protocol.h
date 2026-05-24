@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @protocol PGGraphIngestPerson
 - (unsigned long long)XÊµÿÑö$ä"ÿÑö$àÛ£ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long ageCategory;
-@property(readonly, nonatomic) NSDate *anniversaryDate;
-@property(readonly, nonatomic) NSDate *birthdayDate;
-@property(readonly, nonatomic) NSString *contactID;
 @property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool isFavorite;
-@property(readonly, nonatomic) _Bool isHidden;
-@property(readonly, nonatomic) _Bool isMe;
-@property(readonly, nonatomic) _Bool isUserCreated;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) NSDictionary *locationsByAddressTypes;
-@property(readonly, nonatomic) NSDate *potentialBirthdayDate;
-@property(readonly, nonatomic) unsigned long long relationship;
-@property(readonly, nonatomic) unsigned long long sex;
-@property(readonly, nonatomic) NSString *shareParticipantLocalIdentifier;
 @end
 

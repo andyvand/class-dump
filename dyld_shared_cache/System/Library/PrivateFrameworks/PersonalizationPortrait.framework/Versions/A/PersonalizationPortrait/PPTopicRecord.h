@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PPSource, PPTopic, PPTopicMetadata;
+@class PPTopic;
 
 @interface PPTopicRecord
 {
     PPTopic *_topic;
-    PPSource *_source;
-    unsigned long long _algorithm;
-    double _initialScore;
-    double _decayRate;
-    _Bool _isLocal;
-    NSString *_extractionOsBuild;
-    unsigned int _extractionAssetVersion;
-    PPTopicMetadata *_metadata;
-    BOOL _bucketizedSentimentScore;
 }
 
 + (id);
@@ -28,13 +19,13 @@
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)drawBitmapEraserMask;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (double);
+- (id)BEGIN "CHStrokeGroupQuery_resultsForInitialStrokes";
+- (double)9.;
 - (_Bool);
 - (id);
 - (void);
@@ -47,16 +38,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) double decayRate; // @synthesize decayRate=_decayRate;
-@property(readonly, nonatomic) unsigned int extractionAssetVersion; // @synthesize extractionAssetVersion=_extractionAssetVersion;
-@property(readonly, nonatomic) NSString *extractionOsBuild; // @synthesize extractionOsBuild=_extractionOsBuild;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) double initialScore; // @synthesize initialScore=_initialScore;
-@property(readonly, nonatomic) _Bool isLocal; // @synthesize isLocal=_isLocal;
-@property(readonly, nonatomic) PPTopicMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) double sentimentScore; // @dynamic sentimentScore;
-@property(readonly, nonatomic) PPSource *source; // @synthesize source=_source;
 @property(readonly, nonatomic) PPTopic *topic; // @synthesize topic=_topic;
 
 @end

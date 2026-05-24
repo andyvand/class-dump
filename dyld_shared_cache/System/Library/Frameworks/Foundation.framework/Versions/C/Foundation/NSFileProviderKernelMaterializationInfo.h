@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderKernelFileMaterializationInfo, NSFileProviderKernelPartialFolderMaterializationInfo;
-
 @interface NSFileProviderKernelMaterializationInfo
 {
     unsigned int operation;
-    NSFileProviderKernelFileMaterializationInfo *fileMaterializationInfo;
-    NSFileProviderKernelPartialFolderMaterializationInfo *partialFolderMaterializationInfo;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool)NSURL"8;
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (unsigned int).kN+;
 
 // Remaining properties
-@property(readonly) NSFileProviderKernelFileMaterializationInfo *fileMaterializationInfo; // @synthesize fileMaterializationInfo;
 @property(readonly) unsigned int operation; // @synthesize operation;
-@property(readonly) NSFileProviderKernelPartialFolderMaterializationInfo *partialFolderMaterializationInfo; // @synthesize partialFolderMaterializationInfo;
 
 @end
 

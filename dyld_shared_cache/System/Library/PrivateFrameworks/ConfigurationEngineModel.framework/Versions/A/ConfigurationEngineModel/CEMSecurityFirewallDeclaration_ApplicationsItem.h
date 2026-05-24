@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSecurityFirewallDeclaration_ApplicationsItem : CEMPayloadBase
 {
     NSString *_payloadApplication;
-    NSNumber *_payloadAllowed;
-    NSString *_payloadBundleID;
 }
 
 + (id);
@@ -25,14 +23,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ngOperationSync(work:(id)arg1 );
 - (id);
-- (void);
+- (void)shed A;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadAllowed; // @synthesize payloadAllowed=_payloadAllowed;
 @property(copy, nonatomic) NSString *payloadApplication; // @synthesize payloadApplication=_payloadApplication;
-@property(copy, nonatomic) NSString *payloadBundleID; // @synthesize payloadBundleID=_payloadBundleID;
 
 @end
 

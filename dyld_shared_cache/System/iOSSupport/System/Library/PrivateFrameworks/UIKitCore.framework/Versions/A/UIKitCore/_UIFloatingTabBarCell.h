@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)broadcasterForChatListenersForService:withBlackholeStatus: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

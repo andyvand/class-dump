@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MediaPlaybackCore.RouteMetadata
 {
     _Bool isAirplay;
-    void routeDescription;
 }
 
 - (_Bool);
@@ -17,7 +14,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isAirplay; // @synthesize isAirplay;
-@property(nonatomic, readonly) NSString *routeDescription;
 
 @end
 

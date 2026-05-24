@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface AMSSQLiteCompoundPredicate : AMSSQLitePredicate
 {
     NSString *_combinationOperation;
-    NSArray *_predicates;
 }
 
 + (id);
@@ -22,9 +21,9 @@ __attribute__((visibility("hidden")))
 )Tc8SÅÁ«ÇÊKþ{ît¤Sl_®OÇ ´¡ÉoU%þaþAúX0/LWS¿ÒL9Ss¯ø_©£}CÔ½p9E«µe¥iÁ&1§tðG\p)<X´RÏ?[Àhkuÿ¬Aó½RÒ©uÂîf2ROG3S;^ºpÜ6ô 1þUæîêYpÁë®È /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)rmat";
 - (id);
-- (id)OS_os_transaction_p;
+- (id)So17OS_os_transaction_p;
 - (id)ëâdB	×L_<«­öJìà VªJcÖ«Öæ© í;
 - (void)±Õ ±Õ 1±Õ ±Õ 4±Õ ±Õ 6±Õ ±Õ È±Õ õ±Õ ö±Õ ±Õ ©±Õ ±Õ ±Õ «±Õ ±Õ Ì±Õ _±Õ \±Õ ­±Õ ±Õ s±Õ ±Õ Ý±Õ !±Õ I±Õ z±Õ ï±Õ ±Õ ¹±Õ ±Õ à±Õ :±Õ ú±Õ ±Õ ý±Õ ±Õ »±Õ P±Õ [±Õ +±Õ ±Õ ò±Õ {±Õ É±Õ ð±Õ â±Õ ±Õ ±Õ ±Õ W±Õ ¬±Õ r±Õ ±±Õ 
 ±Õ ±Õ |±Õ Æ±Õ ?±Õ ·±Õ ±Õ A±Õ ±Õ þ±Õ ±Õ Á±Õ ë±Õ ±Õ  ±Õ .±Õ Ê±Õ Ò±Õ æ±Õ ±Õ "±Õ q±Õ û±Õ ±Õ î±Õ Ï±Õ å±Õ ±Õ  ±Õ e±Õ Ñ±Õ <±Õ ù±Õ ±Õ Þ±Õ B±Õ T±Õ ±Õ ²±Õ ±Õ }±Õ ÿ±Õ ±Õ ê±Õ ±Õ ª±Õ ±Õ ±Õ &±Õ ±Õ (±Õ X±Õ è±Õ %±Õ ×±Õ Ä±Õ ¶±Õ '±Õ ±Õ Ø±Õ µ±Õ E±Õ ¤±Õ ¿±Õ 2±Õ H±Õ ±Õ Ð±Õ ~±Õ £±Õ ó±Õ a±Õ @±Õ Y±Õ ±Õ l±Õ 8±Õ ¼±Õ ø±Õ À±Õ R±Õ i±Õ ±Õ Ö±Õ S±Õ N±Õ d±Õ C±Õ g±Õ ç±Õ ô±Õ ñ±Õ ±Õ /±Õ ¦±Õ ü±Õ $±Õ ß±Õ ±Õ ¡±Õ ]±Õ ã±Õ F±Õ ±Õ ±Õ n±Õ 0±Õ Ç±Õ ±Õ Î±Õ  /* Error: Ran out of types for this method. */;

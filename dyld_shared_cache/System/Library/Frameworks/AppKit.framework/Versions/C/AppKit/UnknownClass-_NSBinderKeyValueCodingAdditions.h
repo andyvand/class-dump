@@ -6,25 +6,25 @@
 
 @interface UnknownClass (_NSBinderKeyValueCodingAdditions)
 - (id);
-- (_Bool);
-- (struct _NSRange);
-- (struct _NSRange);
-- (unsigned long long);
-- (struct _NSRange);
+- (_Bool)_powerAssertionReleaseTime;
+- (struct _NSRange);
+- (struct _NSRange);
+- (unsigned long long)_AOSAccountResolveAuthFailure failed with error %@, canceling auth;
+- (struct _NSRange)ountered error(%ld:%d) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool) ;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)z;
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (_Bool);
-- (struct _NSRange)lyingErrors;
+- (struct _NSRange)NSUnderlyingErrors;
 @end
 

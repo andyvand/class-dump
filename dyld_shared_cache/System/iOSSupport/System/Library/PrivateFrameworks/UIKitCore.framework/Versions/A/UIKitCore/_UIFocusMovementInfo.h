@@ -4,71 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIFocusMovementInfo
 {
     _Bool _looping;
-    _Bool _shouldLoadScrollableContainer;
-    _Bool _isVelocityBased;
-    _Bool _isInitialMovement;
-    unsigned long long _heading;
-    unsigned long long _linearHeading;
-    long long _groupFilter;
-    unsigned long long _inputType;
-    struct CGVector _velocity;
-    struct CGRect _fallbackMovementOriginatingFrame;
 }
 
 + (id);
 + (_Bool)ries;
-- (id);
-- (id);
+- (id)handler:(unsigned long long)arg1 localMessageError:(struct CGVector)arg2 storageContext:(_Bool)arg3;
+- (id)handler:(unsigned long long)arg1 localIncomingDownloadMessage:(unsigned long long)arg2 storageContext:(_Bool)arg3;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (unsigned long long)not urgent, will not break though do not disturb;
+- (_Bool)g on local device for message:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)command:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)edJunk:%d, senderIsPairedWatch:%d) /* Error: Ran out of types for this method. */;
+- (_Bool)geGUID;
+- (long long)action type %lu;
+- (struct CGRect)ickname send. isEnabled:%i, onlyUseNicknameSendingService:%i /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (struct CGRect);
-- (id);
-- (unsigned long long);
 - (void);
-- (struct CGVector);
+- (struct CGVector)buildWithMode:withDuration:withStartTime:withEndTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)hHardEdges:(id)arg1;
+- (void)setBlursWithHardEdges:(id)arg1;
 - (id)mingViewTap;
 - (unsigned long long)sedIdle mode is no longer supported.;
-- (void)RotaryMovementAxis;
+- (void)FocusGroupSeparateNestedEqualRotaryMovementAxis;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=_fallbackMovementOriginatingFrame, setter=_setFallbackMovementOriginatingFrame:) struct CGRect fallbackMovementOriginatingFrame; // @synthesize fallbackMovementOriginatingFrame=_fallbackMovementOriginatingFrame;
-@property(nonatomic, getter=_groupFilter, setter=_setGroupFilter:) long long groupFilter; // @synthesize groupFilter=_groupFilter;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, setter=_setHeading:) unsigned long long heading; // @synthesize heading=_heading;
-@property(readonly, nonatomic, getter=_inputType) unsigned long long inputType; // @synthesize inputType=_inputType;
-@property(readonly, nonatomic, getter=_isInitialMovement) _Bool isInitialMovement; // @synthesize isInitialMovement=_isInitialMovement;
-@property(readonly, nonatomic, getter=_isVelocityBased) _Bool isVelocityBased; // @synthesize isVelocityBased=_isVelocityBased;
-@property(nonatomic, getter=_linearHeading, setter=_setLinearHeading:) unsigned long long linearHeading; // @synthesize linearHeading=_linearHeading;
-@property(nonatomic, getter=_isLooping, setter=_setLooping:) _Bool looping; // @synthesize looping=_looping;
-@property(nonatomic, getter=_shouldLoadScrollableContainer, setter=_setShouldLoadScrollableContainer:) _Bool shouldLoadScrollableContainer; // @synthesize shouldLoadScrollableContainer=_shouldLoadScrollableContainer;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=_velocity, setter=_setVelocity:) struct CGVector velocity; // @synthesize velocity=_velocity;
 
 @end
 

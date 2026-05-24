@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (float);
-- (id);
+- (id)`;
 
 // Remaining properties
 @property(readonly) float exposureTargetBias; // @synthesize exposureTargetBias=_exposureTargetBias;

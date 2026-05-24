@@ -9,19 +9,13 @@
 @interface GEOPhotoOptions
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _photoSizes;
-    int _maxPhotos;
-    int _photoType;
-    struct {
-        unsigned int has_photoType:1;
-    } _flags;
 }
 
-+ (_Bool)alIdentifier:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)setInternalIdentifier:(id)arg1;
+- (void)Date:(int)arg1 iOSLegacyIdentifier:externalIdentifier:providerIdentifier:providerMetadata: /* Error: Ran out of types for this method. */;
+- (void)initWithIdentifier:(int *)arg1 name:(unsigned long long)arg2 type:persistentStoreURL:persistentStoreIdentifier:permissions:guardianRestricted:lastSyncDate:iOSLegacyIdentifier:externalIdentifier:providerIdentifier:providerMetadata: /* Error: Ran out of types for this method. */;
+- (void)dateWithYear:(int)arg1 month:day:hour:minute:second:timeZone: /* Error: Ran out of types for this method. */;
+- (void)_CNCDManagedObjectContext_Confined;
 - (id);
 - (int);
 - (id);
@@ -35,30 +29,25 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Using enhanced endpointer;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool).;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id)rrectionSameAsOrgQuery"b1"read_allSpellSuggestions"b1"read_allTokenCandidates"b1"read_spellSuggestion"b1"read_tokenCandidates"b1"wrote_anyField"b1};
-- (id)gestionEntryMetadatas;
+- (id)_suggestionEntryMetadatas;
 - (id)¤d,g;
-- (void)atialPlaceLookupCategoryRestaurant;
+- (void)GEOSpatialPlaceLookupCategoryRestaurant;
 - (id)k;
 - (void)}K@;
 - (int *)>6;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPhotoType;
 @property(nonatomic) int maxPhotos;
-@property(readonly, nonatomic) int *photoSizes;
-@property(readonly, nonatomic) unsigned long long photoSizesCount;
-@property(nonatomic) int photoType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

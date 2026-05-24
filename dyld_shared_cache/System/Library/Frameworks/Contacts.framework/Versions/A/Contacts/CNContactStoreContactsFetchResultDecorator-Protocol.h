@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol CNContactStoreContactsFetchResultDecorator
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *decoratedValue;

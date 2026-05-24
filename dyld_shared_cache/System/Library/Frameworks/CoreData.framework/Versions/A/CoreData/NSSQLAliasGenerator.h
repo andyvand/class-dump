@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSSQLAliasGenerator
 {
     unsigned int _nextTableAlias;
-    unsigned int _nextVariableAlias;
-    unsigned int _nextTempTableAlias;
-    NSString *_tableBase;
-    NSString *_variableBase;
 }
 
 - (void);

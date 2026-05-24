@@ -6,23 +6,22 @@
 
 #import <PackageKit/PKProduct.h>
 
-@class PKArchive, PKDistribution;
+@class PKArchive;
 
 @interface PKFolderArchiveProduct : PKProduct
 {
     PKArchive *_archive;
-    PKDistribution *_distribution;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)qA;
 - (_Bool);
 - (id);
 - (void);

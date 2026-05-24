@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LWCRFact
 {
     struct Fact fact;
     NSString *stringFactStorage;
-    NSData *dataFactStorage;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)A�;
++ (id)hx?kA;
 + (id);
 + (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)lay_get:%s = ERR /* Error: Ran out of types for this method. */;
 
 @end
 

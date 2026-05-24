@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTPredicateInspector;
 @protocol RTPersistenceContextDelegate;
 
 @interface RTPersistenceContext
 {
     long long _mirroringQualityOfService;
-    id <RTPersistenceContextDelegate> _delegate;
-    RTPredicateInspector *_predicateInspector;
-    unsigned long long _options;
 }
 
 - (void);
@@ -29,11 +25,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)&,N,V_listenerGUID;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (_Bool)24@32@40B48;
@@ -41,9 +37,6 @@
 
 // Remaining properties
 @property __weak id <RTPersistenceContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long mirroringQualityOfService; // @synthesize mirroringQualityOfService=_mirroringQualityOfService;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) RTPredicateInspector *predicateInspector; // @synthesize predicateInspector=_predicateInspector;
 
 @end
 

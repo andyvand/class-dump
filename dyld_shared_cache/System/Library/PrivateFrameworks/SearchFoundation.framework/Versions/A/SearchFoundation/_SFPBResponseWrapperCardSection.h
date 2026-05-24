@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCATModel, _SFPBPatternModel;
+@class _SFPBCATModel;
 
 @interface _SFPBResponseWrapperCardSection
 {
     _SFPBCATModel *_catModel;
-    NSData *_visualCATOutput;
-    _SFPBPatternModel *_pattern_model;
-    NSArray *_pattern_models;
 }
 
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)R%;
+- (unsigned long long)p;
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)R(;
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void)V!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)resultWithError:(id)arg1;
+- (id)SmartSharingMetadata] missing entitlement %@;
 - (id);
 - (id);
 - (void)MarkdownCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCATModel *catModel; // @synthesize catModel=_catModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPatternModel *pattern_model; // @synthesize pattern_model=_pattern_model;
-@property(copy, nonatomic) NSArray *pattern_models; // @synthesize pattern_models=_pattern_models;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *visualCATOutput; // @synthesize visualCATOutput=_visualCATOutput;
 
 @end
 

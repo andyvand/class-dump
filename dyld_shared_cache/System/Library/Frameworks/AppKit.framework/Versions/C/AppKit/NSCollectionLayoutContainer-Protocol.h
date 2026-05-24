@@ -9,9 +9,6 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly) struct NSDirectionalEdgeInsets contentInsets;
 @property(readonly) struct CGSize contentSize;
-@property(readonly) struct NSDirectionalEdgeInsets effectiveContentInsets;
-@property(readonly) struct CGSize effectiveContentSize;
 @end
 

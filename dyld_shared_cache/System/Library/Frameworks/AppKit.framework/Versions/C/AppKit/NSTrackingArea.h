@@ -4,37 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCursor, NSDictionary;
+@class NSCursor;
 
 @interface NSTrackingArea
 {
     struct CGRect _rect;
-    id _owner;
-    NSDictionary *_userInfo;
-    unsigned long long _options;
-    struct {
-        unsigned int _installPending:1;
-        unsigned int _uninstallPending:1;
-        unsigned int _installed:1;
-        unsigned int _enabled:1;
-        unsigned int _removed:1;
-        unsigned int _inside:1;
-        unsigned int _mouseEnteredSent:1;
-        unsigned int _suppressFirstMouseEntered:1;
-        unsigned int _needsPressureConfigPushedToCG:1;
-        unsigned int _pressureConfigPushedToCG:1;
-        unsigned int _suppressPressureConfiguration:1;
-        unsigned int _representsGestureRecognizers:1;
-        unsigned int _reserved:20;
-    } _privateFlags;
-    id _reserved;
 }
 
 + (void);
 + (void);
 + (_Bool);
 + (void);
-+ (id);
++ (id) ;
 + (void)d
 H;
 - (void);
@@ -45,54 +26,50 @@ H;
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)J;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)@"<__NSURLSessionTaskGroupForConfiguration>";
+- (_Bool)task:willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)initForReadingFromData:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_httpProtocol;
+- (void)_defaultProtocolClasses;
+- (void)_deallocInternalCFCachedURLResponse;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)getting auth headers for session %@ with identifier %@;
+- (void)ion is unavailable;
+- (void)ic}@> failed to create a background NSURLSessionDataTask, as remote session is unavailable;
+- (_Bool)@ pragma wal enable - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)Error=%d. Cause=%s;
+- (id)6uH;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)isTransportActiveForPeer:(_Bool)arg1;
 - (void *);
 - (unsigned long long);
 - (void);
 - (id)1Â0@ù
 × ;
 - (struct CGRect)ect"b1"_reservedSelectionBinder"b27};
-- (id)es:(struct _NSZone *)arg1;
+- (id)applySnapshot:(struct _NSZone *)arg1 animatingDifferences: /* Error: Ran out of types for this method. */;
 - (id)nknown type;
-- (void)rrowRight;
+- (void)NSDatePickerCalendarArrowRight;
 - (_Bool);
 
 // Remaining properties
 @property(readonly) NSCursor *cursor;
-@property(readonly) unsigned long long options;
-@property(readonly) __weak id owner;
-@property(readonly) struct CGRect rect;
-@property(readonly, copy) NSDictionary *userInfo;
 
 @end
 

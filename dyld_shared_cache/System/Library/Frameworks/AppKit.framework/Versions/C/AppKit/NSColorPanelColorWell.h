@@ -12,20 +12,19 @@ __attribute__((visibility("hidden")))
 @interface NSColorPanelColorWell : NSColorWell
 {
     _Bool _disabledAsColorDestination;
-    _Bool _actsLikeButton;
 }
 
 + (Class);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void):(id)arg1 8^{_CFURLResponse=}16;
+- (void)resumableUploadState;
+- (void)resolveWithTimeout:(id)arg1;
 - (id);
 - (id);
 - (void);
-- (void)ertyWithKey:(id)arg1;
+- (void)valueWithName:(id)arg1 inPropertyWithKey: /* Error: Ran out of types for this method. */;
 - (_Bool)4-ÿbí;
 - (void)ô?E;
 - (void)ìJ;

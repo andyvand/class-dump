@@ -9,20 +9,16 @@
 @interface GEODirectionIntent
 {
     GEOResolvedItem *_origin;
-    GEOResolvedItem *_destination;
-    int _transportType;
 }
 
-- (id);
-- (id);
-- (id)ectorTile;
+- (id)proxyLockUrlForFileAtUrl:(id)arg1;
+- (id)rror"32@"NSDictionary"40;
+- (id)_vectorTile;
 - (void)³`5;
 - (int)àÇ#ÿ@³;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOResolvedItem *destination; // @synthesize destination=_destination;
 @property(readonly, nonatomic) GEOResolvedItem *origin; // @synthesize origin=_origin;
-@property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end
 

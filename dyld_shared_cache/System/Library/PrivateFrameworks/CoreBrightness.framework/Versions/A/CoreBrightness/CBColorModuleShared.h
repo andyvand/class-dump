@@ -6,56 +6,12 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBCEModule, CBColorFilter, ConfidenceEstimatorStats, NSMutableArray, NSMutableDictionary, NSObject, NSString, StockholmALSCoexHandler;
-@protocol CBBrightnessProxy, CBPrimitiveConfigurationProvider><CBBacklightConfigurationProvider, OS_dispatch_source;
+@protocol CBBrightnessProxy;
 
 __attribute__((visibility("hidden")))
 @interface CBColorModuleShared : CBModule
 {
     id <CBBrightnessProxy> _brightnessControlProxy;
-    id <CBPrimitiveConfigurationProvider><CBBacklightConfigurationProvider> _backlightConfig;
-    NSMutableArray *_relevantServices;
-    NSMutableDictionary *_alsNodes;
-    NSMutableDictionary *_currentChromaticitySensitivity;
-    CDStruct_8268a0c4 _reportContext;
-    _Bool _displayOn;
-    _Bool _forceInitialFactorUpdate;
-    struct __IOHIDServiceClient *_dfr;
-    _Bool _clamshell;
-    NSObject<OS_dispatch_source> *_rampTimer;
-    NSString *_userName;
-    NSMutableDictionary *_properties;
-    struct ColorType _colorStruct;
-    _Bool _aggregatedConfigApplied;
-    NSMutableDictionary *_aggregatedConfig;
-    long long _analyticsPeriodicSender;
-    unsigned long long _colorFilterModeOverride;
-    CBColorFilter *_colorFilter;
-    NSMutableArray *_filters;
-    NSMutableDictionary *_pendingALSSamples;
-    StockholmALSCoexHandler *_nfcCoex;
-    int _NSamples;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    _Bool _firstALSEventArrived;
-    float _firstSampleTimeoutValue;
-    _Bool _allALSEventsArrived;
-    _Bool _forceColorUpdate;
-    _Bool _potentiallyBustedALS;
-    _Bool _continueWithFewerALSs;
-    _Bool _useCopyEventOnDisplayWake;
-    float _preStrobeDimPeriod;
-    _Bool _enableMitigations;
-    NSMutableArray *_modules;
-    CBCEModule *_ceModule;
-    unsigned int _ceModelID;
-    float _ceConfidenceThreshold;
-    ConfidenceEstimatorStats *_confidenceEstimatorStats;
-    _Bool _colorEffectsEnabled;
-    _Bool _ammoliteEnabledStatus;
-    _Bool _supportsAmmoliteWithoutColor;
-    _Bool _ammoliteSystemSupported;
-    float _trustedLux;
-    _Bool _mirror;
 }
 
 - (_Bool);
@@ -79,13 +35,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)`4;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)s;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -104,50 +60,36 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (void));
+- (void);
+- (id);
+- (void);
+- (void)8Ծ.;
+- (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool)t;
+- (_Bool);
 - (void);
+- (void);
 - (float);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -157,16 +99,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)D';
+- (void);
+- (void);
+- (void);
+- (id)TemperatureMeanY;
+- (void)r;
+- (void);
+- (_Bool);
+- (id)N;
 - (void);
 - (_Bool);
 - (id);
@@ -176,13 +132,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

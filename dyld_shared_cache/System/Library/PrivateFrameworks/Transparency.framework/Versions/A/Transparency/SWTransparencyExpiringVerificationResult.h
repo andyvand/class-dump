@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface SWTransparencyExpiringVerificationResult
 {
     unsigned long long _result;
-    NSDate *_expiry;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)q,V_livePhotoPairingIdentifierBehavior;
 - (id);
 - (void);
 - (id);
@@ -22,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSDate *expiry; // @synthesize expiry=_expiry;
 @property(readonly) unsigned long long result; // @synthesize result=_result;
 
 @end

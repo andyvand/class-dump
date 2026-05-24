@@ -7,16 +7,12 @@
 @interface AppKit.OrbitalColorView.SpokeLayer__priv_94CD9C654273D2530C10CAAB53C2FA54
 {
     id color;
-    id normalizedRadius;
-    id normalizedOffset;
-    id offsetDirection;
-    id gradientLayer;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)Stuff;
+- (id)B;
+- (void)TabStuff;
 - (void);
 
 @end

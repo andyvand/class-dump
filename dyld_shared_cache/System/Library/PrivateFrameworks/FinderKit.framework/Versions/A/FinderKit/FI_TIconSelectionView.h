@@ -10,26 +10,24 @@ __attribute__((visibility("hidden")))
 @interface FI_TIconSelectionView : FI_TUpdateLayerView
 {
     struct CGSize _iconSize;
-    _Bool _showBorder;
 }
 
 + (double);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)selectionDidChange: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);
 - (struct CGSize);
 - (void);
-- (id);
-- (double)essSubitems;
+- (id);
+- (double)BRShareProcessSubitems;
 - (void);
 - (void)IZZN14TAggregateNode17DispatchNodeEventERK10TNodeEventENK3$_0clEvEUlvE_vJEEE;
 
 // Remaining properties
 @property(nonatomic) struct CGSize iconSize; // @synthesize iconSize=_iconSize;
-@property(nonatomic) _Bool showBorder; // @synthesize showBorder=_showBorder;
 
 @end
 

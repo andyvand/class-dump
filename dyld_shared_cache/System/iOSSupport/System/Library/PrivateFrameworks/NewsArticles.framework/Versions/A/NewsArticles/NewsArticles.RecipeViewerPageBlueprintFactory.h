@@ -7,11 +7,6 @@
 @interface NewsArticles.RecipeViewerPageBlueprintFactory
 {
     id tracker;
-    id contextBuilder;
-    id recipeService;
-    id localRecipeManager;
-    id recipeUserDataManager;
-    id cache;
 }
 
 @end

@@ -15,7 +15,7 @@
 + (void);
 + (unsigned long long);
 + (struct CGPoint);
-+ (struct CGPoint);
++ (struct CGPoint)R1;
 + (struct CGPoint);
 
 @end

@@ -7,41 +7,33 @@
 @interface GEOWiFiConnectionSpeedTest
 {
     float _avgDL;
-    float _avgUL;
-    struct {
-        unsigned int has_avgDL:1;
-        unsigned int has_avgUL:1;
-    } _flags;
 }
 
-+ (_Bool)t:(id)arg1;
++ (_Bool)setOriginTarget:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (float);
-- (float);
+- (float)onScheduler_cacheResult:forRequest: /* Error: Ran out of types for this method. */;
+- (float)obtainPermanentIDsForObjects:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)siriClientBehaviorMonitorAudioDeviceInfoUpdated:(id)arg1;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (void);
 - (id)1Â0@ù
 × ;
-- (id)t: /* Error: Ran out of types for this method. */;
-- (id):count: /* Error: Ran out of types for this method. */;
+- (id)isValidForRequest:client: /* Error: Ran out of types for this method. */;
+- (id)setContainedChildrenPois:count: /* Error: Ran out of types for this method. */;
 - (id)_isServerProvidedWaypoint;
 
 // Remaining properties
-@property(nonatomic) float avgDL;
-@property(nonatomic) float avgUL;
-@property(nonatomic) _Bool hasAvgDL;
 @property(nonatomic) _Bool hasAvgUL;
 
 @end

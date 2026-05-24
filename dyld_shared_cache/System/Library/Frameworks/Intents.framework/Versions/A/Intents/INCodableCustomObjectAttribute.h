@@ -11,18 +11,14 @@
 @interface INCodableCustomObjectAttribute : INCodableObjectAttribute
 {
     INCodableDescription *_codableDescription;
-    NSString *_objectTypeName;
-    NSString *_objectTypeNamespace;
 }
 
++ (_Bool)i;
 + (_Bool);
-+ (_Bool);
-+ (id):(id)arg1 destinationType:(id *)arg2 destinationName:properties: /* Error: Ran out of types for this method. */;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 sourceType:sourceName:destinationType:destinationName:properties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak INCodableDescription *codableDescription; // @synthesize codableDescription=_codableDescription;
 @property(copy, nonatomic) NSString *objectTypeName; // @synthesize objectTypeName=_objectTypeName;
-@property(copy, nonatomic) NSString *objectTypeNamespace; // @synthesize objectTypeNamespace=_objectTypeNamespace;
 
 @end
 

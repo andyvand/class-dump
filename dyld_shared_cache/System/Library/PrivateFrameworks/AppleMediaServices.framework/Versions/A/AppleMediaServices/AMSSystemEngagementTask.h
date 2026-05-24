@@ -6,20 +6,12 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSEngagementRequest, AMSEngagementResult, AMSProcessInfo, NSError, NSObject, NSString, NSXPCConnection;
-@protocol AMSBagProtocol, OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AMSSystemEngagementTask : AMSTask
 {
     _Bool _disablePresentationTarget;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    AMSEngagementRequest *_request;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_group> *_dispatchGroup;
-    NSError *_error;
-    AMSEngagementResult *_result;
-    NSXPCConnection *_underlyingRemoteConnection;
 }
 
 + (id);
@@ -37,12 +29,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)rtical;
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (id):(id)arg1 originNames:(id)arg2;
+- (id)initRSABlindSignatureChallengeWithIssuerName:(id)arg1 redemptionNonce:(id)arg2 originNames: /* Error: Ran out of types for this method. */;
 - (id)ature flag %{public}@/%{public}@:(id)arg1 %{public}@;
 - (id)¬±¡ÿ´¡ÿÜ»¡ÿt÷¡ÿù¡ÿ¢ÿ¬¢ÿ ¢ÿ8¤¢ÿ¥¢ÿ¨¨¢ÿ¯¢ÿÌ±¢ÿ¹¢ÿÅ¢ÿhÕ¢ÿèÚ¢ÿ4ß¢ÿê¢ÿð¢ÿ\Z£ÿD_£ÿh£ÿôp£ÿz£ÿØ~£ÿ£ÿ£ÿP¶£ÿ¹£ÿÔn¤ÿXt¤ÿ|v¤ÿàz¤ÿ~¤ÿ¤ÿ¤ÿ¨¤ÿT¿¤ÿØð¤ÿTò¤ÿ¥ÿX¥ÿøC¥ÿhG¥ÿdO¥ÿÀU¥ÿ`Z¥ÿta¥ÿTh¥ÿ0o¥ÿ,{¥ÿ8}¥ÿP}¥ÿ0}¥ÿ@~¥ÿp¥ÿ¥ÿ¥ÿ¨¥ÿ¥ÿ¥ÿ¥ÿÌÉ¥ÿÍ¥ÿ7¦ÿü¦ÿLy§ÿô§ÿT§ÿP§ÿô§ÿ§ÿô§ÿô§ÿà§ÿÔ¡§ÿ´£§ÿ¥§ÿt§§ÿ4ª§ÿ¤¬§ÿÀ®§ÿÄ°§ÿp´§ÿÐº§ÿp»§ÿÌ¿§ÿØÁ§ÿø×§ÿ<â§ÿüé§ÿý§ÿØ¨ÿ¨ÿD¨ÿð'¨ÿXW¨ÿc¨ÿH¿¨ÿ(Î¨ÿß¨ÿÄá¨ÿð7©ÿè;©ÿB©ÿG©ÿK©ÿPR©ÿS©ÿÐS©ÿxT©ÿÐ]©ÿ`©ÿg©ÿ;
 - (void)ligibility check failure;
@@ -61,22 +53,7 @@ H?P~4ªií©æñ¾!bn;
 - (void);
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
 @property(readonly) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disablePresentationTarget; // @synthesize disablePresentationTarget=_disablePresentationTarget;
-@property(retain) NSObject<OS_dispatch_group> *dispatchGroup; // @synthesize dispatchGroup=_dispatchGroup;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSEngagementRequest *request; // @synthesize request=_request;
-@property(retain) AMSEngagementResult *result; // @synthesize result=_result;
-@property(readonly) Class superclass;
-@property(retain) NSXPCConnection *underlyingRemoteConnection; // @synthesize underlyingRemoteConnection=_underlyingRemoteConnection;
 
 @end
 

@@ -6,22 +6,15 @@
 
 #import <Foundation/NSPredicate.h>
 
-@class NSExpression, NSPredicateOperator;
+@class NSPredicateOperator;
 
 @interface NSComparisonPredicate : NSPredicate
 {
     NSPredicateOperator *_predicateOperator;
-    NSExpression *_lhs;
-    NSExpression *_rhs;
 }
 
 
 // Remaining properties
-@property(readonly) unsigned long long comparisonPredicateModifier;
-@property(readonly) SEL customSelector;
-@property(readonly, retain) NSExpression *leftExpression;
-@property(readonly) unsigned long long options;
 @property(readonly) unsigned long long predicateOperatorType;
-@property(readonly, retain) NSExpression *rightExpression;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol _ASWebAuthenticationSessionRequestHandling
+- (void);
 @end
 

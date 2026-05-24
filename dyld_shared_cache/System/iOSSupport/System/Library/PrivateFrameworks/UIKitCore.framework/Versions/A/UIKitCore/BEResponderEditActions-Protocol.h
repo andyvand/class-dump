@@ -7,6 +7,8 @@
 @protocol BEResponderEditActions
 
 @optional
+- (void)nowPlayingInfoCenter:(id)arg1 artworkForContentItem:size:completion: /* Error: Ran out of types for this method. */;
+- (void)canRelayCommunicationChannel;
 - (void)ar on UIKit if you have repro steps;
 - (void)ntent{view=%p data=%p layout=%p};
 - (void)%@={

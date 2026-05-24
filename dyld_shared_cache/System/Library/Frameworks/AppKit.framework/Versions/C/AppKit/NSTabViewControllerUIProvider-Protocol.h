@@ -7,8 +7,15 @@
 @class NSTabViewController;
 
 @protocol NSTabViewControllerUIProvider
+- (void);
 - (void);
-- (NSTabViewController *)extSuggestionsControlMenuDelegate;
+- (NSTabViewController *)_NSTextSuggestionsControlMenuDelegate;
+
+@optional
+- (void)up != NULL;
+- (void)r;
+- (void)DeviceTree failed;
+- (long long)backgroundTask:didCompleteWithError:taskMetrics:info:reply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property NSTabViewController *tabViewController;

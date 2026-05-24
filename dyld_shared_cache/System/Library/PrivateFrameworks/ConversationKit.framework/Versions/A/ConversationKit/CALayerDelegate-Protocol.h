@@ -9,7 +9,8 @@
 @protocol CALayerDelegate
 
 @optional
-- (void)d;
+- (void);
+- (void)isScreenEnabled;
 - (id <CAAction>);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UICollectionView, UIColor;
+@class UICollectionView, UIColor;
 
 @interface AKColorPaletteView
 {
     UIColor *_color;
-    long long _scrollDirection;
-    UICollectionView *_collectionView;
-    NSArray *_colors;
 }
 
 - (void);
@@ -19,35 +16,48 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)%@ (departure date) to get to %@ (location) on time via transit. Plural hour.;
+- (void)eID,r=e.PasswordElementUniqueID,n=e.ConfirmPasswordElementUniqueID,i=1,l=10;if(a&&(t+=i),o&&(t+=i),r&&(t+=i),n&&(t+=i),!t)return t;for(const i of e.FormControls){const e=i.ControlUniqueID;if(e===a||e===o||e===r||e===n){i.ControlValue&&(t+=l)}}return t}getMetadataForForm(e){const[t,a]=FormMetadataJS.formsAndMetadata(WBSFormMetadataRequestNormal);let o=-1,r=null;for(let n=0;n<t.length;n++)if(t[n]===e){const e=a[n],t=FormMetadataJSController.#o(e);t>o&&(o=t,r=e)}return r}_getMetadataForControl(e,t){let[a,o]=FormMetadataJS.textFieldOrSelectElementMetadata(e,t,!1);return this.populateRectFieldsInFormElementMetadata(a,e),FormMetadataJS.clearTextFieldOrSelectElementMetadataCache(),[a,o]}focusControl(e,t=!1){const a=FormMetadataJS.formControlWithUniqueID(e);a&&(t?FormMetadataJS._focusControlForStreamlinedLogin(a):a.focus())}replaceRangeInControl(e,t,a,o,r){FormMetadataJS.replaceFormFieldRangeAndSelectTail(e,t,a,o,r);const n=FormMetadataJS.formControlWithUniqueID(e);if(n)return FormMetadataJS.textFieldOrSelectElementMetadata(n,WBSFormMetadataRequestNormal,!0)}selectRangeInControl(e,t,a){FormMetadataJS.setFormFieldSelection(e,t,a)}static setInputElementSpellCheckEnabled(e,t){e.autofillSpellcheck=!!t}static setInputElementAutofilled(e,t){e.autofilled=t,t&&FormMetadataJSController.autoFilledFieldWithMetadata(e)}static setInputElementAutoFilledAndViewable(e,t){e.autofilledAndViewable=t}static setInputElementAutofilledAndObscured(e,t){e.autofilledAndObscured=t,t&&FormMetadataJSController.autoFilledFieldWithMetadata(e)}populateRectFieldsInFormElementMetadata(e,t){const a=t.getBoundingClientRect();e.ControlRectLeft=a.left,e.ControlRectTop=a.top,e.ControlRectWidth=a.width,e.ControlRectHeight=a.height}#a(e){return e.flatMap(FormMetadataJS.formControlWithUniqueID)}static autoFilledFieldWithMetadata(e){let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!1);window.webkit.messageHandlers.controller.postMessage({name:"autoFilledFieldWithMetadata",controlMetadata:t,formMetadata:a})}static logicalFormObservedChangeIndicatingFormSubmission(e,t){window.webkit.messageHandlers.controller.postMessage({name:"formObservedChangeIndicatingFormSubmission",formMetadata:e,removedControlsMetadata:t})}static fieldLabelToInfo(e){if(void 0===e)return null;const[t,a]=e;if(t===65535)return[a,"","",""];const o=valueSpecifiers[t];return[a,o.property,o.category,o.parentProperty]}}class FieldMovementChecker{textField;textFieldMetadata;formMetadata;numberOfTimesFieldMovementTimerHasFired;checkForFieldMovementTimeout;pollingIntervals;onFieldMoved;constructor(e){this.textField=null,this.textFieldMetadata=null,this.numberOfTimesFieldMovementTimerHasFired=0,this.checkForFieldMovementTimeout=null,this.pollingIntervals=[10,50,100,850],this.onFieldMoved=e}setTextFieldToMonitor(e,t,a){this.textField=e,this.textFieldMetadata=t,this.formMetadata=a}performNextCheckForFieldMovement(){if(this.checkForFieldMovementTimeout=null,!this.textField||!this.textFieldMetadata)return void this.reset();const e=this.textField.getBoundingClientRect();this.textFieldMetadata.ControlRectLeft!=e.left||this.textFieldMetadata.ControlRectTop!=e.top||this.textFieldMetadata.ControlRectWidth!=e.width||this.textFieldMetadata.ControlRectHeight!=e.height?(this.onFieldMoved(this.textField,this.textFieldMetadata,this.formMetadata),this.numberOfTimesFieldMovementTimerHasFired=0):this.numberOfTimesFieldMovementTimerHasFired+=1,this.numberOfTimesFieldMovementTimerHasFired>=this.pollingIntervals.length?this.reset():this.scheduleNextCheckForFieldMovement()}reset(){this.checkForFieldMovementTimeout&&window.clearTimeout(this.checkForFieldMovementTimeout),this.checkForFieldMovementTimeout=null}scheduleNextCheckForFieldMovement(){this.reset();const e=this.pollingIntervals[this.numberOfTimesFieldMovementTimerHasFired];this.checkForFieldMovementTimeout=window.setTimeout(this.performNextCheckForFieldMovement.bind(this),e)}}class EventDispatcher{#r=new Map;addGlobalListener(e,t){this.#r.has(e)||this.#r.set(e,new Set),this.#r.get(e).add(t)}dispatchEvent(e){if(this.#r.has(e.type))for(const t of this.#r.get(e.type))t(e.target,e.data)}}const formMetadataEventDispatcher=new EventDispatcher;class FocusManager{jsController;fieldMovementChecker;constructor(e){this.jsController=e,this.fieldMovementChecker=new FieldMovementChecker(this.handleElementFocused.bind(this))}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitsubmit",this.submitEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitbeforefocus",this.focusInEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitbeforeblur",this.focusOutEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitusertextinput",this.inputEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("keydown",this.keydownEventHandler.bind(this))}focusInEventHandler(e){this.fieldMovementChecker.reset();let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!0);t&&(e.setUserInfo({form:a,textField:t}),this.fieldMovementChecker.setTextFieldToMonitor(e,t,a),this.fieldMovementChecker.scheduleNextCheckForFieldMovement(),this.handleElementFocused(e,t,a))}handleElementFocused(e,t,a){this.jsController.populateRectFieldsInFormElementMetadata(t,e),window.webkit.messageHandlers.controller.postMessage({name:"elementFocused",focusedElementMetadata:t,formMetadata:a})}focusOutEventHandler(e){this.fieldMovementChecker.reset();let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!0);t&&window.webkit.messageHandlers.controller.postMessage({name:"elementBlurred",focusedElementMetadata:t,formMetadata:a})}inputEventHandler(e){let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestTextChange,!0);t&&(this.jsController.populateRectFieldsInFormElementMetadata(t,e),window.webkit.messageHandlers.controller.postMessage({name:"elementInput",focusedElementMetadata:t,formMetadata:a}))}static#n(e,t){switch(e){case"ArrowUp":return WKInputFieldActionTypeMoveUp;case"ArrowDown":return WKInputFieldActionTypeMoveDown;case"Escape":return WKInputFieldActionTypeCancel;case"Tab":return t?WKInputFieldActionTypeInsertBacktab:WKInputFieldActionTypeInsertTab;case"Enter":return WKInputFieldActionTypeInsertNewline;case"Backspace":return WKInputFieldActionTypeInsertDelete;default:return null}}keydownEventHandler(e,t){const a=FocusManager.#n(t.key,t.shiftKey);if(null===a)return;const[o,r]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"observedActionInFormTextField",action:a,controlMetadata:o,formMetadata:r})}submitEventHandler(e){const t=this.jsController.getMetadataForForm(e);e.setUserInfo(t)}}class AutoFillButtonManager{jsController;constructor(e){this.jsController=e}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitautofillrequest",this.webKitAutofillRequestEventHandler.bind(this))}webKitAutofillRequestEventHandler(e){let[t,a]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"manualAutoFillRequest",focusedElementMetadata:t,formMetadata:a})}}let formMetadataJSController=new FormMetadataJSController;eventQueue.setDelegate(formMetadataEventDispatcher);
+0; /* Error: Ran out of types for this method. */;
+- (void)return vec3(pTmp);
+}
+#endif 
+
+#pragma body
+vec2 normalizedFragCoord = gl_FragCoord.xy * u_floor_viewport.zw;
+normalizedFragCoord.xy += 0.2 * _surface._normalTS.xy;
+vec4 floorColor = texture2D(u_floorReflectionColor, normalizedFragCoord);
+float reflectionFactor = u_floorReflectivity;
+#ifdef USE_FALLOFF
+float floorDepth = texture2D(u_floorReflectionDepth, normalizedFragCoord).x;
+vec3  floorPW = floorUnprojectPoint(vec3(normalizedFragCoord, floorDepth));
+float floorDist = - dot(vec4(floorPW.xyz, 1.0), u_floorPlane);
+#ifdef USE_FALLOFF_START
+floorDist -= u_floorFalloffStart; 
+#endif 
+reflectionFactor *= 1.0 - clamp(floorDist / u_floorFalloff, 0.0, 1.0);
+#endif 
+
+floorColor *= reflectionFactor; 
+_output.color.rgb *= (1. - floorColor.a); 
+_output.color.rgba += floorColor.rgba; 
+;
+- (id)oRemove < _count;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)IOI9?;
 - (void);
 - (void);
 - (id);
 - (long long);
+- (long long)osts (id INTEGER PRIMARY KEY AUTOINCREMENT,domain TEXT NOT NULL UNIQUE);
 - (long long);
-- (long long);
 - (void);
 - (void);
 - (void);
-- (id)ay;
+- (id)forDisplay;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long scrollDirection; // @synthesize scrollDirection=_scrollDirection;
-@property(readonly) Class superclass;
 
 @end
 

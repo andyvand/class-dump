@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)setAlternateNavButton;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASDPurgeableAppRequestOptions *options; // @dynamic options;

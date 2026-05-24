@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _ICLLReactionAction
 {
     NSString *_itemId;
-    NSString *_reaction;
-    NSString *_reactionId;
 }
 
 - (id);

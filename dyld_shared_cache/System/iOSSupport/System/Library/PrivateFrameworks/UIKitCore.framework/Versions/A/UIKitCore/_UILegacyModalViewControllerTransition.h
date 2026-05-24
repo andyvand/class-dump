@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     long long _modalTransitionStyle;
 }
 
-+ (id);
-- (void);
-- (_Bool);
-- (_Bool);
++ (id)guid %@;
+- (void)_createSubscriptionForZoneID:(id)arg1 subscriptionID:recordType:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)served blockedHandles:(id)arg1 %s;
+- (_Bool)ock Incoming Downlaod Message;
 
 @end
 

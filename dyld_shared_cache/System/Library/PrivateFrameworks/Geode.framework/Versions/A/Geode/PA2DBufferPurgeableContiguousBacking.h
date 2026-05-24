@@ -6,17 +6,16 @@
 
 #import <Geode/PA2DBufferContiguousBacking.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PA2DBufferPurgeableContiguousBacking : PA2DBufferContiguousBacking
 {
     NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _accessCount;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -28,13 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGColorSpace *colorSpace; // @dynamic colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

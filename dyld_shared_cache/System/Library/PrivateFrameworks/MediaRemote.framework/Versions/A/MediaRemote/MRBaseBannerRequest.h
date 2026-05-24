@@ -9,7 +9,6 @@
 @interface MRBaseBannerRequest
 {
     NSString *_requestIdentifier;
-    NSString *_bundleIdentifierAffinity;
 }
 
 + (id);
@@ -20,22 +19,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)numberOfMatchesInString:options:range: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void)tentItemIdentifiers;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifierAffinity; // @synthesize bundleIdentifierAffinity=_bundleIdentifierAffinity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface ConversationKit.LocalParticipantButtonShelfViewConstraintManager
 {
     id buttonShelfConstraints;
-    id buttonShelfHiddenConstraint;
-    id buttonShelfBottomConstraint;
 }
 
 @end

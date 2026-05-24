@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTActionParameterContext, IFTSchemaIFTStatementId, NSArray, NSData;
-
 @interface IFTSchemaIFTQueryStep : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_statementId;
-    NSArray *_queries;
-    IFTSchemaIFTActionParameterContext *_context;
-    int _payloadType;
-    struct {
-        unsigned int exists:1;
-        unsigned int payloadType:1;
-    } _has;
-    _Bool _hasStatementId;
-    _Bool _hasContext;
 }
 
 - (id);
@@ -41,39 +29,34 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)sher for stream %@ received initial barrier;
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)NNER JOIN attachment a ON a.rowid = maj.attachment_id
+INNER JOIN message m ON m.rowid = maj.message_id
+INNER JOIN chat_message_join cmj ON cmj.message_id = m.rowid
+WHERE maj.rowid >  ? 
+ORDER BY maj.rowid ;
 - (_Bool);
 - (void);
-- (id);
+- (id)__objc_protorefs__DATA_CONST;
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)ASRSchemaASRActiveConfigUpdateContext",&,N,V_activeConfigUpdateContext;
-- (id)er;
-- (_Bool)Id;
+- (id)CAARSchemaCAARTieBreaker;
+- (_Bool)odsampleId;
 - (_Bool)×`!;
 - (void)c?#;
 - (_Bool)¶ÿ;
 - (void)È);
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTActionParameterContext *context; // @synthesize context=_context;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasContext; // @synthesize hasContext=_hasContext;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasPayloadType;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int payloadType; // @synthesize payloadType=_payloadType;
-@property(copy, nonatomic) NSArray *queries; // @synthesize queries=_queries;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end
 

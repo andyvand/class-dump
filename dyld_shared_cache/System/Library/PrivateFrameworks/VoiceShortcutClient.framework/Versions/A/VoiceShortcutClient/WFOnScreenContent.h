@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INFile, NSURL;
+@class NSURL;
 
 @interface WFOnScreenContent
 {
     NSURL *_URL;
-    INFile *_file;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) INFile *file; // @synthesize file=_file;
 
 @end
 

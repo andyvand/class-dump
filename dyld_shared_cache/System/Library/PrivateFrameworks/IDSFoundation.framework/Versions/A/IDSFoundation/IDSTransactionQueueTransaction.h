@@ -7,19 +7,17 @@
 @interface IDSTransactionQueueTransaction
 {
     _Bool _readyToExecute;
-    id _item;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)"@  ;
+- (id);
 - (void)session-info request %@ for %@, sentBytes:%lu /* Error: Ran out of types for this method. */;
 - (id)ckers;
 
 // Remaining properties
-@property(retain, nonatomic) id item; // @synthesize item=_item;
 @property(nonatomic) _Bool readyToExecute; // @synthesize readyToExecute=_readyToExecute;
 
 @end

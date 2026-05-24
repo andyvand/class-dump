@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACUICertificatePanelManager, NSArray, NSTextField;
+@class ACUICertificatePanelManager;
 
 @interface ACUIViewController
 {
     _Bool _disableAutoReload;
-    NSTextField *_passwordField;
-    NSTextField *_errorMessageLabel;
-    ACAccount *_account;
-    ACUICertificatePanelManager *_certPanelMgr;
-    NSArray *_uiDataclasses;
 }
 
 - (_Bool);
@@ -30,7 +25,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -52,12 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
 @property(retain) ACUICertificatePanelManager *certPanelMgr; // @synthesize certPanelMgr=_certPanelMgr;
-@property(nonatomic) _Bool disableAutoReload; // @synthesize disableAutoReload=_disableAutoReload;
-@property(retain) NSTextField *errorMessageLabel; // @synthesize errorMessageLabel=_errorMessageLabel;
-@property(retain) NSTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(retain) NSArray *uiDataclasses; // @synthesize uiDataclasses=_uiDataclasses;
 
 @end
 

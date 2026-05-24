@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBTemperatureList
 {
     struct _has;
-    _INPBCondition *_condition;
-    NSArray *_temperatures;
 }
 
-+ (Class);
++ (Class)setGenerateThumbnailsAtBackgroundPriority: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (unsigned long long);
 - (id);
@@ -25,27 +23,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)skier;
+- (_Bool)P;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)eETAIntentResponseCodeInProgress;
+- (void)INStopShareETAIntentResponseCodeInProgress;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *temperatures; // @synthesize temperatures=_temperatures;
-@property(readonly, nonatomic) unsigned long long temperaturesCount;
 
 @end
 

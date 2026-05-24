@@ -9,7 +9,7 @@
     id metrics;
 }
 
-- (id);
+- (id)9;
 - (id);
 - (void)<;
 

@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISVariable, NSLayoutDimension, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor;
+@class NSISEngine, NSISVariable, NSLayoutXAxisAnchor;
 
 @protocol _UILayoutItem
+- (NSISEngine *);
+- (void)_syncTaskByServiceName;
+- (void);
+- (NSLayoutXAxisAnchor *);
+- (NSISVariable *)_NSRange;
+- (_Bool)_SNAOPClassfication;
 - (NSISVariable *)GùaÐ1Â0@ù
 × ;
 - (NSISVariable *)ù
@@ -16,16 +22,10 @@
 - (_Bool)N,G_FBSScene;
 - (NSISVariable *)olor",&,N,V_imageTintColor;
 
+@optional
+- (NSLayoutXAxisAnchor *);
+
 // Remaining properties
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *centerXAnchor;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *centerYAnchor;
-@property(readonly, nonatomic) NSLayoutDimension *heightAnchor;
 @property(readonly, nonatomic) NSLayoutXAxisAnchor *leadingAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *leftAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *rightAnchor;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *topAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *trailingAnchor;
-@property(readonly, nonatomic) NSLayoutDimension *widthAnchor;
 @end
 

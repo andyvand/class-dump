@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface EKMapSearchCompletionResolverRequest
 {
     MKLocalSearch *_localSearch;
-    EKMapSearchCompletion *_mapSearchCompletion;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)}@>;
 - (CDUnknownBlockType);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) EKMapSearchCompletion *mapSearchCompletion; // @synthesize mapSearchCompletion=_mapSearchCompletion;
 
 @end

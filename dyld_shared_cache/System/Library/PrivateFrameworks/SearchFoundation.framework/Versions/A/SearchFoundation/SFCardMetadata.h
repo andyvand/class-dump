@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFCardMetadata
 {
     struct {
         unsigned int isServerEntity:1;
     } _has;
-    _Bool _isServerEntity;
-    NSString *_queryToSearchAcrossAllDomains;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
+- (_Bool)B;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)populateLocationPropertiesWithPath:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)writeToDirectoryURL:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)nditionUnknown"8;
 - (id);
 - (id);
 - (void)FPBSubscribeForUpdatesCommand",&,N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isServerEntity; // @synthesize isServerEntity=_isServerEntity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *queryToSearchAcrossAllDomains; // @synthesize queryToSearchAcrossAllDomains=_queryToSearchAcrossAllDomains;
-@property(readonly) Class superclass;
 
 @end
 

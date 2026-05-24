@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXActionManager, SXURLActionFactory;
+@protocol SXActionManager;
 
 @interface SXWebContentGenericNavigationHandler
 {
     id <SXActionManager> _actionManager;
-    id <SXURLActionFactory> _URLActionFactory;
 }
 
 - (id);
@@ -19,20 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void)ñîð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXURLActionFactory> URLActionFactory; // @synthesize URLActionFactory=_URLActionFactory;
 @property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

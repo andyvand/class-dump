@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChartUpdater, NSString, NetPreferences, Stock, StockChartView, StockFetcher, StockManager, StockUpdateManager, StocksLayout, StocksStyle, UIButton, UILabel, UITableView, UIView;
+@class StockFetcher, UITableView;
 
 @interface StockPlatterViewController
 {
     StockFetcher *_stockFetcher;
-    Stock *_stock;
-    long long _chartInterval;
-    UITableView *_stocksTableView;
-    UIView *_statusBarView;
-    NetPreferences *_netPreferences;
-    StockUpdateManager *_stockUpdateManager;
-    StockChartView *_chartView;
-    ChartUpdater *_chartUpdater;
-    StocksStyle *_style;
-    StocksLayout *_layout;
-    StockManager *_stockManager;
-    UIButton *_attributionButton;
-    UILabel *_exchangeStatusLabel;
-    NSString *_stockTicker;
-    long long _rowDataType;
 }
 
 - (void);
@@ -31,74 +16,52 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)m|;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (void)m|;
 - (void);
 - (void);
+- (void){;
 - (void);
 - (void);
+- (void);
+- (void)hz;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)am|;
 - (long long);
+- (id)|;
+- (id)|;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id)l;
+- (long long)l;
+- (id)l;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (long long);
-- (void);
 - (long long);
 - (void);
+- (long long);
+- (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void)neThickness;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *attributionButton; // @synthesize attributionButton=_attributionButton;
-@property(nonatomic) long long chartInterval; // @synthesize chartInterval=_chartInterval;
-@property(retain, nonatomic) ChartUpdater *chartUpdater; // @synthesize chartUpdater=_chartUpdater;
-@property(retain, nonatomic) StockChartView *chartView; // @synthesize chartView=_chartView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UILabel *exchangeStatusLabel; // @synthesize exchangeStatusLabel=_exchangeStatusLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) StocksLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) NetPreferences *netPreferences; // @synthesize netPreferences=_netPreferences;
-@property(nonatomic) long long rowDataType; // @synthesize rowDataType=_rowDataType;
-@property(retain, nonatomic) UIView *statusBarView; // @synthesize statusBarView=_statusBarView;
-@property(retain, nonatomic) Stock *stock; // @synthesize stock=_stock;
-@property(retain, nonatomic) StockFetcher *stockFetcher; // @synthesize stockFetcher=_stockFetcher;
-@property(retain, nonatomic) StockManager *stockManager; // @synthesize stockManager=_stockManager;
-@property(retain, nonatomic) NSString *stockTicker; // @synthesize stockTicker=_stockTicker;
-@property(retain, nonatomic) StockUpdateManager *stockUpdateManager; // @synthesize stockUpdateManager=_stockUpdateManager;
 @property(retain, nonatomic) UITableView *stocksTableView; // @synthesize stocksTableView=_stocksTableView;
-@property(retain, nonatomic) StocksStyle *style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

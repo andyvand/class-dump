@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id)zedNamesFilter;
+- (id)localizedNamesFilter;
 - (void)ýÿÿÿ;
 - (void)P@;
 

@@ -9,10 +9,6 @@
 @interface MPSCPUAccelerationStructureTriangleGeometryDescriptor : MPSCPUAccelerationStructureGeometryDescriptor
 {
     unsigned int _indexDataType;
-    void *_vertexData;
-    unsigned long long _vertexStride;
-    void *_indexData;
-    unsigned long long _triangleCount;
 }
 
 - (void *);
@@ -28,11 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) void *indexData; // @synthesize indexData=_indexData;
-@property(nonatomic) unsigned int indexDataType; // @synthesize indexDataType=_indexDataType;
-@property(nonatomic) unsigned long long triangleCount; // @synthesize triangleCount=_triangleCount;
 @property(nonatomic) void *vertexData; // @synthesize vertexData=_vertexData;
-@property(nonatomic) unsigned long long vertexStride; // @synthesize vertexStride=_vertexStride;
 
 @end
 

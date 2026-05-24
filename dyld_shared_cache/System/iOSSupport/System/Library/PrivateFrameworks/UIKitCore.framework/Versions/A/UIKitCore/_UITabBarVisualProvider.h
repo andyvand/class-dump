@@ -5,19 +5,15 @@
 //
 
 @class UITabBar;
-@protocol _UIBarAppearanceChangeObserver;
 
 @interface _UITabBarVisualProvider
 {
     UITabBar *_tabBar;
-    long long _hostedElements;
-    CDUnknownBlockType _hostedElementsLayoutHandler;
-    long long _currentMorphTarget;
 }
 
-+ (_Bool);
++ (_Bool)ut current service is not SMS (current %@, override %@), ignoring!;
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void);
 - (void);
@@ -38,21 +34,21 @@
 - (void);
 - (double);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)8B32Q36B44B48B52;
+- (void)chat:lastAddressedHandleUpdated: /* Error: Ran out of types for this method. */;
+- (id)chat:lastAddressedHandleIDUpdated:lastAddressedSIMIDUpdated: /* Error: Ran out of types for this method. */;
+- (id)as IDS syncs it real time. ***;
+- (void)rt message revocation for %@ in chat %@;
+- (void);
+- (id);
 - (void);
 - (id);
-- (double);
+- (void);
+- (void);
+- (void)initWithArtworkResponseArray:(id)arg1;
+- (void);
+- (id);
+- (double);
 - (void);
 - (id)1Â0@ù
 × ;
@@ -64,23 +60,23 @@
 - (void)6@0:(id)arg1 8@16@24@32@40^{UIEdgeInsets=dddd}48;
 - (void)v32@0:(double)arg1 8@"_TtC5UIKit21UITextEffectTextChunk"16@?<v@?@"UITargetedPreview">24;
 - (void)setLargeTitleViewOverlaysContentView:(id)arg1;
-- (void)SupplementalColumnWidth;
-- (_Bool)PreviousArrows;
-- (id)gate: /* Error: Ran out of types for this method. */;
-- (id)antiateViewControllerWithInputItems:asAccessory:traitCollection:listenerEndpoint:connectionHandler: /* Error: Ran out of types for this method. */;
-- (void)egateForEverythingExceptForms;
-- (void)dSetAsString;
-- (void)mpressorCreatingIfNecessary;
+- (void)maximumSupplementalColumnWidth;
+- (_Bool)_usesNextAndPreviousArrows;
+- (id)_setCompactStyleDelegate: /* Error: Ran out of types for this method. */;
+- (id)_instantiateViewControllerWithInputItems:asAccessory:traitCollection:listenerEndpoint:connectionHandler: /* Error: Ran out of types for this method. */;
+- (void)_editingDelegateForEverythingExceptForms;
+- (void)_dateChangedSetAsString;
+- (void)_activeDecompressorCreatingIfNecessary;
 - (double)youtConstraint",&,N,V_minimumLabelWidth;
-- (void)mbolScale:(id)arg1;
-- (double)ly;
+- (void)setSymbolScale:(id)arg1;
+- (double)__showsGridOnly;
 - (void)_setContainerClassNames:(double)arg1 ,V_containerClassNames;
 - (id)°HÐ;
 - (void);
-- (void);
+- (void)RawValue;
 - (void)rmined;
 - (void)cial case path:(long long)arg1 skipping initial load of ViewController's views for %@;
-- (struct CGSize)ttingViewControllerIncreaseFontSizeChange;
+- (struct CGSize)UITextFormattingViewControllerIncreaseFontSizeChange;
 - (id)oller=%p;
 - (_Bool)BIB_Bottom_Baseline;
 - (void)UIScenePresenterGeometryDriverStorage;
@@ -93,14 +89,7 @@
 - (void)-~;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UIBarAppearanceChangeObserver> appearanceObserver;
-@property(nonatomic) double backgroundTransitionProgress; // @dynamic backgroundTransitionProgress;
-@property(nonatomic) long long currentMorphTarget; // @synthesize currentMorphTarget=_currentMorphTarget;
-@property(nonatomic) long long hostedElements; // @synthesize hostedElements=_hostedElements;
-@property(copy, nonatomic) CDUnknownBlockType hostedElementsLayoutHandler; // @synthesize hostedElementsLayoutHandler=_hostedElementsLayoutHandler;
-@property(nonatomic) double minimumWidthForHorizontalLayout;
 @property(readonly, nonatomic) UITabBar *tabBar; // @synthesize tabBar=_tabBar;
-@property(nonatomic) _Bool useModernAppearance;
 
 @end
 

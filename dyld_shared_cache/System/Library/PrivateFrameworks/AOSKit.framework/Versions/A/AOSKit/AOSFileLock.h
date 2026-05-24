@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AOSFileLock
 {
     int _fileDescriptor;
-    NSString *_filePath;
-    _Bool _isLocked;
 }
 
 - (_Bool);

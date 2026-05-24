@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet, PKShippingMethod;
+@class NSArray;
 
 @interface PKShippingMethods
 {
     NSArray *_legacyShippingMethods;
-    NSOrderedSet *_methodsSet;
-    PKShippingMethod *_defaultMethod;
 }
 
 + (id);
@@ -25,16 +23,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)__DATA_CONST;
+- (void)_txretrans;
 - (id);
 - (id);
 - (void)tHandle:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PKShippingMethod *defaultMethod; // @synthesize defaultMethod=_defaultMethod;
 @property(readonly, nonatomic) NSArray *legacyShippingMethods;
-@property(readonly, nonatomic) NSArray *methods;
 
 @end
 

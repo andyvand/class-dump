@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface EMColumnInfoMapper : CMMapper
 {
     EDColumnInfo *edColumnInfo;
-    double columnWidth;
-    unsigned long long columnSpan;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (double);
 - (void)Ht;
 

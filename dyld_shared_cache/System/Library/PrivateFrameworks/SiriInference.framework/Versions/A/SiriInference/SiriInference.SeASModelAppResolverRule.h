@@ -7,8 +7,6 @@
 @interface SiriInference.SeASModelAppResolverRule
 {
     id phoneAppSelectionModelManager;
-    id appUsageProvider;
-    id appMatcher;
 }
 
 @end

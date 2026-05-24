@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKDPRecordStableUrl
 {
     NSString *_displayedHostname;
-    NSData *_encryptedPublicSharingKey;
-    NSData *_protectedFullToken;
-    NSString *_routingKey;
-    NSData *_shortTokenHash;
 }
 
 - (void);
@@ -27,7 +23,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s, dissociating...
+;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -35,24 +32,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ntimeBase=QAQ}^{__SecKeyDescriptor}^v}16@24@32^@40;
 - (void)ð1Â0@ù
 × ;
-- (id)peAsString: /* Error: Ran out of types for this method. */;
+- (id)typeAsString: /* Error: Ran out of types for this method. */;
 - (void)ÿÿ6;
 - (id)set:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayedHostname; // @synthesize displayedHostname=_displayedHostname;
-@property(retain, nonatomic) NSData *encryptedPublicSharingKey; // @synthesize encryptedPublicSharingKey=_encryptedPublicSharingKey;
-@property(readonly, nonatomic) _Bool hasDisplayedHostname;
-@property(readonly, nonatomic) _Bool hasEncryptedPublicSharingKey;
-@property(readonly, nonatomic) _Bool hasProtectedFullToken;
 @property(readonly, nonatomic) _Bool hasRoutingKey;
-@property(readonly, nonatomic) _Bool hasShortTokenHash;
-@property(retain, nonatomic) NSData *protectedFullToken; // @synthesize protectedFullToken=_protectedFullToken;
-@property(retain, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) NSData *shortTokenHash; // @synthesize shortTokenHash=_shortTokenHash;
 
 @end
 

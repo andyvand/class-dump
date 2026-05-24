@@ -6,37 +6,27 @@
 
 #import <MediaServices/MSVLyricsTextElement.h>
 
-@class MSVLyricsSection, MSVLyricsWord, NSArray, NSAttributedString, NSString;
-
 @interface MSVLyricsLine : MSVLyricsTextElement
 {
     _Bool _instrumentalBreak;
-    _Bool _hasBackgroundVocal;
-    long long _lineIndex;
-    long long _originalLineIndex;
-    MSVLyricsSection *_parentSection;
-    MSVLyricsLine *_nextLine;
-    NSArray *_words;
-    NSString *_translationKey;
-    MSVLyricsWord *_backgroundVocals;
-    NSAttributedString *_primaryVocalText;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)1
+;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)kB;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)nM9;
 - (id);
 - (void);
 - (long long);
@@ -49,16 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MSVLyricsWord *backgroundVocals; // @synthesize backgroundVocals=_backgroundVocals;
-@property(nonatomic) _Bool hasBackgroundVocal; // @synthesize hasBackgroundVocal=_hasBackgroundVocal;
 @property(nonatomic, getter=isInstrumentalBreak) _Bool instrumentalBreak; // @synthesize instrumentalBreak=_instrumentalBreak;
-@property(nonatomic) long long lineIndex; // @synthesize lineIndex=_lineIndex;
-@property(retain, nonatomic) MSVLyricsLine *nextLine; // @synthesize nextLine=_nextLine;
-@property(nonatomic) long long originalLineIndex; // @synthesize originalLineIndex=_originalLineIndex;
-@property(nonatomic) __weak MSVLyricsSection *parentSection; // @synthesize parentSection=_parentSection;
-@property(copy, nonatomic) NSAttributedString *primaryVocalText; // @synthesize primaryVocalText=_primaryVocalText;
-@property(copy, nonatomic) NSString *translationKey; // @synthesize translationKey=_translationKey;
-@property(retain, nonatomic) NSArray *words; // @synthesize words=_words;
 
 @end
 

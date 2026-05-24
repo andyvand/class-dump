@@ -6,30 +6,26 @@
 
 #import <SoftwareUpdate/SUTelemetryEvent.h>
 
-@class NSError, NSString, SUProduct;
+@class SUProduct;
 
 @interface SUTelemetryInstallEvent : SUTelemetryEvent
 {
     SUProduct *_installProduct;
-    NSError *_installError;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (id);
+- (id)initWithDefaultsManager:distanceCalculator:placeInferenceQueryStore: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *eventName;
-@property(retain) NSError *installError; // @synthesize installError=_installError;
 @property(retain) SUProduct *installProduct; // @synthesize installProduct=_installProduct;
-@property(readonly) long long telemetryServer;
 
 @end
 

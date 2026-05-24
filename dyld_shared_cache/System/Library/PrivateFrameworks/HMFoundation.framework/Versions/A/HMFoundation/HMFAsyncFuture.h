@@ -6,27 +6,22 @@
 
 #import <HMFoundation/HMFFuture.h>
 
-@class HMFPromise;
-
 __attribute__((visibility("hidden")))
 @interface HMFAsyncFuture : HMFFuture
 {
     struct os_unfair_lock_s _lock;
-    int _state;
-    HMFPromise *_promise;
-    id _value;
 }
 
 - (id);
 - (id);
 - (struct _HMFFutureBlockOutcome);
 - (id);
-- (_Bool);
+- (_Bool)ld;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)gorySuggestionParameters"b1"read_searchEnrichmentRequestMetadata"b1"read_searchOriginationInfo"b1"wrote_anyField"b1};
-- (id)ayInfo;
+- (id)_displayInfo;
 - (id);
 - (void)Âõ(\ò?®Gáz8@;
 

@@ -7,17 +7,14 @@
 @interface BWStillImageTimeMachine
 {
     struct OpaqueFigSimpleMutex *_timeMachineMutex;
-    struct opaqueCMSampleBuffer **_frames;
-    _Bool _suspended;
-    int _capacity;
 }
 
 + (_Bool);
 + (void), CFURLRef);
 - (int);
-- (struct opaqueCMSampleBuffer *);
+- (struct opaqueCMSampleBuffer *)T;
 - (void);
-- (void);
+- (void)2;
 - (id);
 - (int);
 - (void);

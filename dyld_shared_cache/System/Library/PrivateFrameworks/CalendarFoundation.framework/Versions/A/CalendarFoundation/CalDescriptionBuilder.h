@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CalDescriptionBuilder
 {
     NSMutableDictionary *_descriptionUnderConstruction;
-    NSString *_superclassDescription;
-    _Bool _sortedByKey;
-    NSString *_keyDelimiter;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)imageWithEventStore:(id)arg1 systemSymbolName:(Class)arg2 colorData: /* Error: Ran out of types for this method. */;
+- (id)internalTimeout;
 - (void);
 - (void);
 - (void);
@@ -43,6 +24,16 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)tAccessoryUserName:(id)arg1 %@ endpoint, ERROR:(long long)arg2 called with no reply block!!!;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)R
+G;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,20 +43,25 @@
 - (id);
 - (void);
 - (void);
+- (void)A;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void)removeAllObjects;
+- (void);
+- (id);
+- (void);
+- (void)x
+;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *descriptionUnderConstruction; // @synthesize descriptionUnderConstruction=_descriptionUnderConstruction;
-@property(copy, nonatomic) NSString *keyDelimiter; // @synthesize keyDelimiter=_keyDelimiter;
-@property(nonatomic) _Bool sortedByKey; // @synthesize sortedByKey=_sortedByKey;
-@property(copy, nonatomic) NSString *superclassDescription; // @synthesize superclassDescription=_superclassDescription;
 
 @end
 

@@ -6,23 +6,11 @@
 
 #import <AuthenticationServices/ASAuthorizationRequest.h>
 
-@class ASAuthorizationPublicKeyCredentialPRFRegistrationInput, ASCPublicKeyCredentialCreationOptions, ASCPublicKeyCredentialRegistrationExtensionInputs, ASPublicKeyCredentialClientData, NSArray, NSData, NSString;
+@class ASAuthorizationPublicKeyCredentialPRFRegistrationInput, NSArray;
 
 @interface ASAuthorizationSecurityKeyPublicKeyCredentialRegistrationRequest : ASAuthorizationRequest
 {
     NSArray *_credentialParameters;
-    NSArray *_excludedCredentials;
-    NSString *_residentKeyPreference;
-    struct os_unfair_lock_s _internalLock;
-    NSString *_relyingPartyIdentifier;
-    NSData *_userID;
-    NSString *_displayName;
-    NSString *_name;
-    NSData *_challenge;
-    NSString *_userVerificationPreference;
-    NSString *_attestationPreference;
-    ASPublicKeyCredentialClientData *_clientData;
-    ASCPublicKeyCredentialRegistrationExtensionInputs *_extensions;
 }
 
 + (id);
@@ -39,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_TtC17AdPlatformsCommon28AnonymousSessionIdDatasource;
 - (void);
 - (void);
 - (void);
@@ -50,7 +38,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id),,;
 - (id);
 - (void);
 - (void);
@@ -59,27 +47,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) ASAuthorizationPublicKeyCredentialPRFRegistrationInput *__prfSwift;
-@property(retain, nonatomic) NSString *attestationPreference; // @synthesize attestationPreference=_attestationPreference;
-@property(copy, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(readonly, nonatomic) ASPublicKeyCredentialClientData *clientData; // @synthesize clientData=_clientData;
-@property(readonly, nonatomic) ASCPublicKeyCredentialCreationOptions *coreCredentialCreationOptions;
-@property(copy, nonatomic) NSArray *credentialParameters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSArray *excludedCredentials;
-@property(readonly, nonatomic) ASCPublicKeyCredentialRegistrationExtensionInputs *extensions; // @synthesize extensions=_extensions;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) ASAuthorizationPublicKeyCredentialPRFRegistrationInput *prf;
-@property(readonly, copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(retain, nonatomic) NSString *residentKeyPreference;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *userID; // @synthesize userID=_userID;
-@property(retain, nonatomic) NSString *userVerificationPreference; // @synthesize userVerificationPreference=_userVerificationPreference;
 
 @end
 

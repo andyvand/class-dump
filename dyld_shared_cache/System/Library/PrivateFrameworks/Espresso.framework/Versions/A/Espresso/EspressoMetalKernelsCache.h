@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol MTLDevice, MTLLibrary, OS_dispatch_queue;
+@class NSDictionary;
+@protocol MTLLibrary;
 
 __attribute__((visibility("hidden")))
 @interface EspressoMetalKernelsCache
 {
     id <MTLLibrary> m_ShaderLibrary;
-    id <MTLLibrary> m_DefaultLibrary;
-    id <MTLDevice> _device;
-    _Bool isSupportingiOSGPUFamilyV2;
-    NSObject<OS_dispatch_queue> *dictionary_write_queue;
-    NSMutableDictionary *auxLibraries;
-    NSMutableDictionary *m_kernelCache_rw;
-    struct mutex setup_mutex;
-    NSString *_kernelPrefix;
-    NSDictionary *_m_kernelCache;
 }
 
 - (void);
-- (void);
+- (void)J;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),N,V_parsecCameLaterThanSRT;
 - (_Bool);
 - (_Bool);
 - (void)è+;
@@ -38,7 +29,6 @@ __attribute__((visibility("hidden")))
 - (id)NSt3__110__function6__funcIZN8Espresso6zephyr18match_kernel_chainERNS3_15ordered_block_tERKNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENSA_ISC_EEEENS_8functionIFbRKNS6_IPNS3_6node_tENSA_ISJ_EEEEEEEE3$_0FbmSJ_EEE;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *kernelPrefix; // @synthesize kernelPrefix=_kernelPrefix;
 @property(retain) NSDictionary *m_kernelCache; // @synthesize m_kernelCache=_m_kernelCache;
 
 @end

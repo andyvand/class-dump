@@ -6,40 +6,26 @@
 
 #import <AppKit/NSView.h>
 
-@class NSAlignmentFeedbackFilter, NSTrackingArea, _NSFullScreenTileDividerWindow;
+@class NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileDividerWindowContentView : NSView
 {
     NSTrackingArea *_cursorArea;
-    double _mouseDownTime;
-    _Bool _trackedInArea;
-    _Bool _needsLiveResizeCleanup;
-    unsigned long long _liveResizeOldPresentationOptions;
-    unsigned long long _liveResizeDragPresentationOptions;
-    _NSFullScreenTileDividerWindow *_liveResizeDividerWindow;
-    NSAlignmentFeedbackFilter *_liveResizeAlignmentFilter;
-    struct CGPoint _liveResizeLastMouse;
-    struct CGPoint _liveResizeCGMouse;
-    _Bool _liveResizeSpacerMoved;
-    struct CGPoint _liveResizeDragOffset;
-    _Bool _liveResizeAllowSnap;
-    double _liveResizeOriginCenterSnapX;
-    double _liveResizeLastOriginX;
 }
 
 + (unsigned long long);
 - (_Bool);
-- (id);
+- (id)-screen-height;
 - (void);
 - (void);
 - (struct CGPoint);
 - (double);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void)sets:(id)arg1 contentInsetsReference:supplementaryItems:boundarySupplementaryItems:pinnedSupplementaryItemIndexes:interGroupSpacing:visibleItemsInvalidationHandler:supplementariesFollowInsets:decorationItems:orthogonalScrollingBehavior:isEmptySection:prefersListSolver: /* Error: Ran out of types for this method. */;
+- (void)initWithGroup:(id)arg1 contentInsets:contentInsetsReference:supplementaryItems:boundarySupplementaryItems:pinnedSupplementaryItemIndexes:interGroupSpacing:visibleItemsInvalidationHandler:supplementariesFollowInsets:decorationItems:orthogonalScrollingBehavior:isEmptySection:prefersListSolver: /* Error: Ran out of types for this method. */;
 - (void)ÌDA;
 
 @end

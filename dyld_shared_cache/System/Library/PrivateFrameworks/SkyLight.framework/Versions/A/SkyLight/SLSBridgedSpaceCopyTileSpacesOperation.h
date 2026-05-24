@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id).apple.coredata.cloudkit.zone;
+- (id)dn't set up port to register file with backupd;
 - (id);
 - (unsigned long long);
 - (id);

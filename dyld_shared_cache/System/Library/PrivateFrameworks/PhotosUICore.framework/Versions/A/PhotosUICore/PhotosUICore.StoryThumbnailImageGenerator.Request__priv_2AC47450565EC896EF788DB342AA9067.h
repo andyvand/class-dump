@@ -7,17 +7,6 @@
 @interface PhotosUICore.StoryThumbnailImageGenerator.Request__priv_2AC47450565EC896EF788DB342AA9067
 {
     id storyConfiguration;
-    id storyTraitCollection;
-    id storyQueue;
-    id storyModel;
-    id storyLayout;
-    id engine;
-    id pixelBufferRenderDestination;
-    id convertToYUV;
-    id storyLoadTimeOut;
-    id nonDegradedTimeout;
-    id allowDegradedSnapshot;
-    id waitingForResources;
 }
 
 - (void);

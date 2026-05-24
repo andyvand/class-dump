@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCoreTextTrackRepresentationCocoaHelper
 {
@@ -13,7 +11,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void *);
+- (void *)0:8@16@24@?32 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -23,17 +21,10 @@ __attribute__((visibility("hidden")))
 
 pî¨À}pornïzaluðï¼·­émydesi²ðÐujaöi3åá,hïë´ÁdojëìÐd10°ç*ª­fÊÒcfÁ3àAvidåðóðºqèéÕ7eøé0porn­oýñ`ÑNÁ{videoóðès®pOàÏpèïifim®j¿;aË"ãÍºîðë[øp¤à4gøk'á®Í®pé1ÅI®jéeVé`¨`&_}×Bìoa^}ÃeéæäíÊPâï£kréëõ®Ê÷à("åí²ö@Ù
 mâ xøo;
-- (id)ry;
+- (id)MTCoreMaterialVisualStylePrimary;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property void *parent;
-@property(readonly) Class superclass;
 
 @end
 

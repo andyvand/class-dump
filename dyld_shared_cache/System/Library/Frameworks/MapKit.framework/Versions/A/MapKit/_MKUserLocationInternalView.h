@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)valueFromCoreDataContact: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)fficSupport;
+- (void)sharedTrafficSupport;
 
 // Remaining properties
 @property(nonatomic) __weak MKUserLocationView *parentView; // @synthesize parentView=_parentView;

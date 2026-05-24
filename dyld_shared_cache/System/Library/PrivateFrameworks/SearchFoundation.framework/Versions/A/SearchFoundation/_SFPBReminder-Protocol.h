@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate;
+@class NSData, NSString;
 
 @protocol _SFPBReminder
+- (void);
+- (NSData *)personUUIDsWithNegativeFeedback;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBDate *dueDate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *notes;
 @property(copy, nonatomic) NSString *title;
 @end
 

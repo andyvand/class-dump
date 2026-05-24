@@ -7,7 +7,6 @@
 @interface FCFeedInsertionToken
 {
     unsigned long long _fromOrder;
-    unsigned long long _toOrder;
 }
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol MPMutablePlaybackArchiveDisplayProperties
+- (void);
+- (void)_removedItemIds;
 @end
 

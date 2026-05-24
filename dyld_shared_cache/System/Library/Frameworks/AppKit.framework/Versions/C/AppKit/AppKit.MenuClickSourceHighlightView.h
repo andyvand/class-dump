@@ -9,15 +9,12 @@
 @interface AppKit.MenuClickSourceHighlightView : NSView
 {
     id frames;
-    id highlightCornerRadius;
-    id edgeInsets;
-    id _colors;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (id)lveRetainingPreferredSizes:(struct CGRect)arg1;
+- (id)_solveRetainingPreferredSizes:(struct CGRect)arg1;
 - (void)~E;
 
 // Remaining properties

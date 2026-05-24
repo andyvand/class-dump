@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPPlaceBookmark, MSPRegionBookmark, MSPRouteBookmark, MSPTransitLineBookmark, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPBookmarkStorage
 {
     PBUnknownFields *_unknownFields;
-    double _position;
-    double _timestamp;
-    NSString *_identifier;
-    MSPPlaceBookmark *_placeBookmark;
-    MSPRegionBookmark *_regionBookmark;
-    MSPRouteBookmark *_routeBookmark;
-    MSPTransitLineBookmark *_transitLineBookmark;
-    int _type;
-    CDStruct_dd13975a _has;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)8
+;
+- (id);
+- (id);
+- (id)p	;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)analysis result;
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -49,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h";
 - (void);
 - (id);
 - (id);
@@ -62,23 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPlaceBookmark;
-@property(nonatomic) _Bool hasPosition;
-@property(readonly, nonatomic) _Bool hasRegionBookmark;
-@property(readonly, nonatomic) _Bool hasRouteBookmark;
-@property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) _Bool hasTransitLineBookmark;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) MSPPlaceBookmark *placeBookmark; // @synthesize placeBookmark=_placeBookmark;
-@property(nonatomic) double position; // @synthesize position=_position;
-@property(retain, nonatomic) MSPRegionBookmark *regionBookmark; // @synthesize regionBookmark=_regionBookmark;
-@property(retain, nonatomic) MSPRouteBookmark *routeBookmark; // @synthesize routeBookmark=_routeBookmark;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) MSPTransitLineBookmark *transitLineBookmark; // @synthesize transitLineBookmark=_transitLineBookmark;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

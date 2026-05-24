@@ -4,58 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, CBL2CAPChannel, CBPeripheral, CUReadRequest, CUWriteRequest, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CBL2CAPChannel;
 
 @interface CUBLEConnection
 {
     CDUnknownBlockType _activateCompletion;
-    CBCentralManager *_centralManager;
-    _Bool _guardConnected;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    CBPeripheral *_peripheral;
-    NSObject<OS_dispatch_source> *_readSource;
-    unsigned char _readSuspended;
-    CUReadRequest *_readRequestCurrent;
-    NSMutableArray *_readRequests;
-    int _socketFD;
-    int _state;
-    NSObject<OS_dispatch_source> *_writeSource;
-    unsigned char _writeSuspended;
-    CUWriteRequest *_writeRequestCurrent;
-    NSMutableArray *_writeRequests;
-    struct LogCategory *_ucat;
-    unsigned short _destinationPSM;
-    int _connectionLatency;
-    NSString *_clientBundleID;
-    long long _clientUseCase;
-    NSUUID *_destinationUUID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    CBL2CAPChannel *_l2capChannel;
-    CDUnknownBlockType _serverInvalidationHandler;
 }
 
 - (void);
-- (void);
+- (void);
 - (unsigned short);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)organizations;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)__objc_dictobj;
+- (id)iconSystemName;
+- (void)n SA account is not eligible for security upgrade.;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)h/;
 - (void);
 - (void);
 - (id);
@@ -65,16 +37,16 @@
 - (void);
 - (void);
 - (id);
+- (void)1;
 - (void);
 - (void);
+- (int)MinFilter2HSinglePassRadius2;
 - (void);
-- (int);
-- (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
-- (void);
+- (void)isConvolutionTranspose;
+- (void)Length, batchSize, inputSize];
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -84,8 +56,8 @@
 - (void);
 - (CDUnknownBlockType);
 - (long long);
-- (void);
-- (void);
+- (void)P;
+- (void)Authorization"16@?<v@?@"NSString"@"NSError">24;
 - (void);
 - (void);
 - (void);
@@ -94,24 +66,7 @@
 - (void):8@16i24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
-@property(nonatomic) long long clientUseCase; // @synthesize clientUseCase=_clientUseCase;
-@property(nonatomic) int connectionLatency; // @synthesize connectionLatency=_connectionLatency;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned short destinationPSM; // @synthesize destinationPSM=_destinationPSM;
-@property(copy, nonatomic) NSUUID *destinationUUID; // @synthesize destinationUUID=_destinationUUID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(retain, nonatomic) CBL2CAPChannel *l2capChannel; // @synthesize l2capChannel=_l2capChannel;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType serverInvalidationHandler; // @synthesize serverInvalidationHandler=_serverInvalidationHandler;
-@property(readonly) Class superclass;
 
 @end
 

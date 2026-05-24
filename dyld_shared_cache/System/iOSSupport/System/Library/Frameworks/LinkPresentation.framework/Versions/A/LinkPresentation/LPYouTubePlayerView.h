@@ -9,25 +9,20 @@
 @interface LPYouTubePlayerView
 {
     _Bool _startsPlayingAutomatically;
-    _Bool _showsControls;
-    _Bool _muted;
-    id <LPYouTubePlayerDelegate> _delegate;
-    double _startTime;
-    double _endTime;
 }
 
+- (_Bool)transcriptDockingStateDidChange: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(_Bool)arg1 willDeleteChatItems: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)totalSpaceOfAttachments;
+- (void)totalSatelliteMessageCount;
+- (void)textView:writingToolsIgnoredRangesInEnclosingRange: /* Error: Ran out of types for this method. */;
+- (void)suggestionURLsForItems:(double)arg1;
+- (void)suggestedReply;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (double);
+- (double)assetTypeForAssetAtURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -38,15 +33,10 @@
 - (void)Á÷Ð!EùQ1Â0@ù
 × ;
 - (void)fetching because web view is still loading;
-- (void)apabilitiesDidChangeNotification;
+- (void)SKCloudServiceCapabilitiesDidChangeNotification;
 
 // Remaining properties
 @property(nonatomic) __weak id <LPYouTubePlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(nonatomic) _Bool showsControls; // @synthesize showsControls=_showsControls;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) _Bool startsPlayingAutomatically; // @synthesize startsPlayingAutomatically=_startsPlayingAutomatically;
 
 @end
 

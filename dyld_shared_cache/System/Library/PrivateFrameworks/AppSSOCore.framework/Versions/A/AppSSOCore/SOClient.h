@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOServiceConnection;
+@class SOServiceConnection;
 
 __attribute__((visibility("hidden")))
 @interface SOClient
@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)|S`;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -27,17 +27,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)Endpoint:error: /* Error: Ran out of types for this method. */;
+- (id)createKeyFromEndpoint:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) SOServiceConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(readonly) Class superclass;
 
 @end
 

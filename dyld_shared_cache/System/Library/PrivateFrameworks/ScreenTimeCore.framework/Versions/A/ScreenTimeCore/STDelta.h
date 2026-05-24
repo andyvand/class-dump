@@ -9,23 +9,19 @@
 @interface STDelta
 {
     NSString *_uniqueIdentifier;
-    long long _changeType;
-    NSDictionary *_dictionary;
 }
 
-- (void);
+- (void)COLUMN keep_local INTEGER NOT NULL DEFAULT 0;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long changeType; // @synthesize changeType=_changeType;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

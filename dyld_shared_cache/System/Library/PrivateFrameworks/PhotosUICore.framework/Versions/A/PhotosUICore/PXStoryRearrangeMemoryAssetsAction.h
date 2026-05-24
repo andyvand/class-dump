@@ -6,30 +6,25 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHAsset, PXStoryModel;
-@protocol PXFastEnumeration;
+@class PXStoryModel;
 
 @interface PXStoryRearrangeMemoryAssetsAction : PXPhotosAction
 {
     PXStoryModel *_model;
-    id <PXFastEnumeration> _movedAssets;
-    PHAsset *_targetAsset;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id):pixelBuffer:orientation:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)requestVKImageAnalysisForAsset:pixelBuffer:orientation:resultHandler: /* Error: Ran out of types for this method. */;
 - (void)8ÑÉ58´¼(;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) id <PXFastEnumeration> movedAssets; // @synthesize movedAssets=_movedAssets;
-@property(readonly, nonatomic) PHAsset *targetAsset; // @synthesize targetAsset=_targetAsset;
 
 @end
 

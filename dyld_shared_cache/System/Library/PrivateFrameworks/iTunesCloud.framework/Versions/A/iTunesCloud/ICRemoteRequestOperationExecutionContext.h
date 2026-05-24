@@ -9,20 +9,18 @@
 @interface ICRemoteRequestOperationExecutionContext
 {
     ICRemoteRequestOperation *_remoteRequestOperation;
-    long long _qualityOfService;
 }
 
 + (_Bool);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)`B;
 - (id);
 - (void)ring",&,N,V_body;
 - (void)status monitor connection was interrupted.;
 
 // Remaining properties
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 @property(readonly, nonatomic) ICRemoteRequestOperation *remoteRequestOperation; // @synthesize remoteRequestOperation=_remoteRequestOperation;
 
 @end

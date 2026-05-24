@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol DDSTrialClient;
+
 @protocol DDSTrialClientDelegate
+- (void)setHasDictationContentEdited:(id <DDSTrialClient>)arg1;
+- (void)setHasDictationAlternativesViewed:(id <DDSTrialClient>)arg1;
 @end
 

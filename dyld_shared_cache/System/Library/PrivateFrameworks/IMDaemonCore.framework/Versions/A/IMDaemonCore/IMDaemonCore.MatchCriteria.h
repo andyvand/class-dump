@@ -7,9 +7,6 @@
 @interface IMDaemonCore.MatchCriteria
 {
     id isPrefix;
-    id strings;
-    id isSuffix;
-    id groups;
 }
 
 @end

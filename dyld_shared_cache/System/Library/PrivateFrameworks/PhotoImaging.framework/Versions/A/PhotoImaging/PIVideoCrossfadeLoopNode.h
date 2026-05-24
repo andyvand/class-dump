@@ -7,8 +7,6 @@
 @interface PIVideoCrossfadeLoopNode
 {
     CDStruct_1b6d18a9 _startTime;
-    CDStruct_1b6d18a9 _crossfadeDuration;
-    CDStruct_e83c9415 _loopTimeRange;
 }
 
 - (id);
@@ -18,17 +16,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (CDStruct_e83c9415);
-- (CDStruct_1b6d18a9);
+- (CDStruct_5c5366e1);
+- (CDStruct_1b6d18a9)edgesTo:matching: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 crossfadeDuration; // @synthesize crossfadeDuration=_crossfadeDuration;
-@property(readonly, nonatomic) CDStruct_e83c9415 loopTimeRange; // @synthesize loopTimeRange=_loopTimeRange;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
 
 @end

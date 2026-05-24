@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SRCSCommandRecognitionSystem;
+@class NSArray;
 
 @interface SRCSCommandRecognizer
 {
     NSArray *_spokenCommands;
-    SRCSCommandRecognitionSystem *_commandRecognitionSystem;
-    _Bool _active;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)
+KJ;
 - (void);
 - (void);
 - (_Bool);

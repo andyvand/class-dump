@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryFetchRequest, CNContactStore;
+@class CNChangeHistoryFetchRequest;
 
 __attribute__((visibility("hidden")))
 @interface CNChangeHistoryFetchExecutor
 {
     CNChangeHistoryFetchRequest *_request;
-    CNContactStore *_store;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
+- (id)sOperatorBundle:true, skip merging ' /* Error: Ran out of types for this method. */;
+- (id)elephony.sipIncoming.sms;
 - (id);
 - (id);
 - (id);
+- (id)setNumberOfBrokenFilesInReconciliationTableCheck: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_DMAPFSSubjectDirectoryPathsForTarget;
 - (id);
 - (_Bool);
 - (void)@32@0:8@16q24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CNChangeHistoryFetchRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end
 

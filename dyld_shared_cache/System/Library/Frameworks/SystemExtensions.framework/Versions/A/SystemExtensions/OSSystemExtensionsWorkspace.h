@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString, OSSystemExtensionsWorkspaceClient;
+@class OSSystemExtensionsWorkspaceClient;
 
 @interface OSSystemExtensionsWorkspace
 {
     struct os_unfair_lock_s _lock;
-    OSSystemExtensionsWorkspaceClient *_sharedConnection;
-    NSMutableSet *_observers;
-    NSMutableDictionary *_stateForObserver;
 }
 
 + (id);
+- (void)ssage:(id)arg1 Unknown field type:%u /* Error: Ran out of types for this method. */;
+- (void)data message from %@;
+- (void)etPairResourceTransferSender:(id)arg1 failed to create data message from %@;
+- (id)urceTransferSender:failed to create first message from %@ /* Error: Ran out of types for this method. */;
+- (void)ourceTransferSender:(id)arg1 unable to open file for read (errno %d);
+- (id)es_legacy/IDSFoundation/IDSSocketPairMessage.m;
+- (_Bool)IDSSocketPairResourceTransferReceiver;
+- (_Bool)urceTransferReceiver:(unsigned long long)arg1 system space unavailable file %llu system %llu (%d);
+- (void)ot get system attributes (%d) for path %@;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)Configuration skipped:current configuration does not exist /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -35,17 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) OSSystemExtensionsWorkspaceClient *sharedConnection; // @synthesize sharedConnection=_sharedConnection;
-@property(retain, nonatomic) NSMutableDictionary *stateForObserver; // @synthesize stateForObserver=_stateForObserver;
-@property(readonly) Class superclass;
 
 @end
 

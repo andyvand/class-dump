@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSMutableArray, NSString;
+@class CNContact;
 
 @interface IMMe
 {
     CNContact *_cnContact;
-    NSString *_cnNickname;
-    NSString *_cnFirstName;
-    NSString *_cnFullName;
-    NSString *_cnLastName;
-    NSArray *_cnEmails;
-    NSMutableArray *_cnIMHandles;
-    NSMutableArray *_loginIMHandles;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)n;
++ (id)%s:%d toneInjectionEnabled = %d /* Error: Ran out of types for this method. */;
++ (id)e=%@. Key is nil.;
++ (id)re reading in %s = %s;
++ (id)rSpectrumMeter-registerPowerSpectrumForCellularTapType;
++ (id)version;
 
 @end
 

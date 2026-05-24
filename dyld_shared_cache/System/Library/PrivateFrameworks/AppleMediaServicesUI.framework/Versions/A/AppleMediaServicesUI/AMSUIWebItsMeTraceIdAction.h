@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)1;
 - (id);
-- (id);
-- (void)FillColor;
+- (void)quinarySystemFillColor;
 
 @end
 

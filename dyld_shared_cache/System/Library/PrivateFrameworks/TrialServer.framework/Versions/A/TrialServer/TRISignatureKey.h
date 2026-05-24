@@ -9,9 +9,9 @@
     struct __SecKey *_key;
 }
 
-+ (struct __SecKey *);
++ (struct __SecKey *)risticValue";
 + (id);
-- (void);
+- (void)readDataOfLength:orLimit: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);

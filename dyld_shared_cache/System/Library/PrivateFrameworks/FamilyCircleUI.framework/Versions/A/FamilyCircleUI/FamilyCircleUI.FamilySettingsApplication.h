@@ -7,14 +7,6 @@
 @interface FamilyCircleUI.FamilySettingsApplication
 {
     id _state;
-    id aidaAccountManager;
-    id familyCircleStore;
-    id servicesStore;
-    id checklistRankingConfigStore;
-    id navigationPathSubject;
-    id accountStore;
-    id servicesOwnerManager;
-    id launchDate;
 }
 
 - (void);

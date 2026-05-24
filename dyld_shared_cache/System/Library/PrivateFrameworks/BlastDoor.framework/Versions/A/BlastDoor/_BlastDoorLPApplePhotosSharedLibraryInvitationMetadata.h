@@ -11,12 +11,11 @@
 @interface _BlastDoorLPApplePhotosSharedLibraryInvitationMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_message;
-    NSString *_originatorDisplayName;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void)4p1;
 - (id);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *originatorDisplayName; // @synthesize originatorDisplayName=_originatorDisplayName;
 
 @end
 

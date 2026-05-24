@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol GCPressedStateInput
+- (double);
 
 // Remaining properties
-@property(readonly) double lastPressedStateLatency;
-@property(readonly) double lastPressedStateTimestamp;
-@property(readonly, getter=isPressed) _Bool pressed;
 @property(copy) CDUnknownBlockType pressedDidChangeHandler;
-@property(readonly, copy) NSSet *sources;
 @end
 

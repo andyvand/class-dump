@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKIdentity;
-
 @interface BKMatchEvent
 {
     _Bool _result;
-    unsigned long long _timeStamp;
-    BKIdentity *_matchedIdentity;
 }
 
 + (id);
@@ -19,13 +15,11 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)Starting download+prepare for update:(_Bool)arg1 %@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKIdentity *matchedIdentity; // @synthesize matchedIdentity=_matchedIdentity;
 @property(nonatomic) _Bool result; // @synthesize result=_result;
-@property(nonatomic) unsigned long long timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

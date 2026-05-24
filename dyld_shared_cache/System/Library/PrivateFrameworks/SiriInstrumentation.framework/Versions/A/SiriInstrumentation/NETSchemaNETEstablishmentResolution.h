@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NETSchemaNETEndpoint, NSData;
-
 @interface NETSchemaNETEstablishmentResolution : SISchemaInstrumentationMessage
 {
     unsigned long long _duration;
-    unsigned int _resolutionSource;
-    NETSchemaNETEndpoint *_successfulEndpoint;
-    NETSchemaNETEndpoint *_preferredEndpoint;
-    unsigned int _endpointCount;
-    struct {
-        unsigned int duration:1;
-        unsigned int resolutionSource:1;
-        unsigned int endpointCount:1;
-    } _has;
-    _Bool _hasSuccessfulEndpoint;
-    _Bool _hasPreferredEndpoint;
 }
 
 - (id);
@@ -37,7 +24,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -49,7 +36,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)setCext-hashedRoot;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -59,21 +46,11 @@
 × ;
 - (id)IsEmailAvailable;
 - (id)SchemaODDAnnounceProperties",&,N,V_announce;
-- (void)THESISHYDRATIONCONTENTTYPE_CALENDAR;
-- (void)ientEvent;
+- (void)STANSWERSYNTHESISHYDRATIONCONTENTTYPE_CALENDAR;
+- (void)ASRSpeechProfileSchemaASRSpeechProfileClientEvent;
 
 // Remaining properties
 @property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned int endpointCount; // @synthesize endpointCount=_endpointCount;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasEndpointCount;
-@property(nonatomic) _Bool hasPreferredEndpoint; // @synthesize hasPreferredEndpoint=_hasPreferredEndpoint;
-@property(nonatomic) _Bool hasResolutionSource;
-@property(nonatomic) _Bool hasSuccessfulEndpoint; // @synthesize hasSuccessfulEndpoint=_hasSuccessfulEndpoint;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NETSchemaNETEndpoint *preferredEndpoint; // @synthesize preferredEndpoint=_preferredEndpoint;
-@property(nonatomic) unsigned int resolutionSource; // @synthesize resolutionSource=_resolutionSource;
-@property(retain, nonatomic) NETSchemaNETEndpoint *successfulEndpoint; // @synthesize successfulEndpoint=_successfulEndpoint;
 
 @end
 

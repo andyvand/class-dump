@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id);
+- (id)Assigned;
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 
 @end

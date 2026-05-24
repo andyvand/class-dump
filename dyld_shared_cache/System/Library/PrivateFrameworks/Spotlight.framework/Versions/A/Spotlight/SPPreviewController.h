@@ -10,25 +10,23 @@
 @interface SPPreviewController
 {
     NSObject<SPPreviewControllerDelegate> *_delegate;
-    NSObject *_punchoutDelegate;
 }
 
 - (void);
+- (id)7;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)BluetoothDeviceSearchAttributes=III^{IOBluetoothDeviceSearchDeviceAttributes}}32;
 - (void);
 - (void)ñ'ð1Â0@ù
 × ;
 
 // Remaining properties
 @property __weak NSObject<SPPreviewControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property __weak NSObject *punchoutDelegate; // @synthesize punchoutDelegate=_punchoutDelegate;
 
 @end
 

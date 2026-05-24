@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientRankingModelFeatureFunction, GEOClientRankingModelFeatureIdentifier;
+@class GEOClientRankingModelFeatureIdentifier;
 
 @interface GEOClientRankingModelFeature
 {
     GEOClientRankingModelFeatureIdentifier *_featureIdentifier;
-    GEOClientRankingModelFeatureFunction *_function;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)",R,C,N,V_dsid;
+- (id),R;
+- (id);
+- (id)dFinishSpeakerRecognition:] /* Error: Ran out of types for this method. */;
 - (id)Ë
 Ë
 øË
@@ -35,7 +34,6 @@ $Î
 
 // Remaining properties
 @property(readonly, nonatomic) GEOClientRankingModelFeatureIdentifier *featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(readonly, nonatomic) GEOClientRankingModelFeatureFunction *function; // @synthesize function=_function;
 
 @end
 

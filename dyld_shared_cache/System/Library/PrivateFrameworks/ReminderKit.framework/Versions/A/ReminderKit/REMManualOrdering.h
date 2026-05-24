@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, REMObjectID;
+@class REMObjectID;
 
 @interface REMManualOrdering
 {
     short _listType;
-    REMObjectID *_objectID;
-    NSString *_listID;
-    NSArray *_topLevelElementIDs;
-    NSDictionary *_secondaryLevelElementIDsByTopLevelElementID;
-    REMObjectID *_uncommitedElementsAccountID;
-    NSDate *_modifiedDate;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (id);
@@ -39,13 +33,7 @@
 - (id)UID = %@};
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *listID; // @synthesize listID=_listID;
-@property(readonly, nonatomic) short listType; // @synthesize listType=_listType;
-@property(readonly, nonatomic) NSDate *modifiedDate; // @synthesize modifiedDate=_modifiedDate;
 @property(readonly, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) NSDictionary *secondaryLevelElementIDsByTopLevelElementID; // @synthesize secondaryLevelElementIDsByTopLevelElementID=_secondaryLevelElementIDsByTopLevelElementID;
-@property(readonly, nonatomic) NSArray *topLevelElementIDs; // @synthesize topLevelElementIDs=_topLevelElementIDs;
-@property(readonly, nonatomic) REMObjectID *uncommitedElementsAccountID; // @synthesize uncommitedElementsAccountID=_uncommitedElementsAccountID;
 
 @end
 

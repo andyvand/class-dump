@@ -7,8 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (_Bool)troller;
-- (long long)eelerPipelineTransportModePredictionKey;
-- (void)PanZoom;
+- (_Bool)_MKPlaceViewController;
+- (long long)MapsSuggestionsShouldUseFeelerPipelineTransportModePredictionKey;
+- (void)HandlePanZoom;
 @end
 

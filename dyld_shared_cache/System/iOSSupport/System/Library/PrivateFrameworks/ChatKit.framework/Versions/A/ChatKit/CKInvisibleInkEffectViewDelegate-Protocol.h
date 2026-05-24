@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKInvisibleInkEffectView;
+
 @protocol CKInvisibleInkEffectViewDelegate
+
+@optional
+- (void)attachmentBoundsIncludingMarginsFromAttachmentBounds:(CKInvisibleInkEffectView *)arg1;
 @end
 

@@ -7,12 +7,10 @@
 @interface MailUI.CatchUpFeedbackController
 {
     id showingFeedback;
-    id sourceViewController;
-    id $__lazy_storage_$_feedbackController;
 }
 
 - (id);
-- (void)ForDisplayForMessage:mailboxCriteria: /* Error: Ran out of types for this method. */;
+- (void)mailboxForDisplayForMessage:mailboxCriteria: /* Error: Ran out of types for this method. */;
 
 @end
 

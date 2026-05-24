@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDResidentDevice, NSArray, NSDate, NSUUID;
+@class HMDDevice, HMFFuture, NSArray;
 @protocol HMDResidentDeviceManagerDelegate;
 
 @protocol HMDResidentDeviceManager
+- (_Bool)B;
+- (_Bool);
+- (_Bool);
+- (_Bool)8;
+- (_Bool)MSPMutableObject>";
+- (HMFFuture *)isBlocked;
+- (void)_msp_testTripsByIdentifier;
+- (void)_enqueuedCoalescingEditBarrierBlocks;
+- (HMDDevice *)eckin to complete;
+- (void)hange;
+- (void)er:%{public}@, context:%@ fromID %@} /* Error: Ran out of types for this method. */;
+- (void)s:%@, error:%@ context %@} /* Error: Ran out of types for this method. */;
+- (NSArray *)tion;
+- (void)s original objects = %@ with objects = %@ at indexes = %@ };
+- (NSArray *)<;
 - (_Bool)±ð1Â0@ù
 × ;
 - (void)tSubmitterDataSource>",R,W,N,V_eligibilityStatusDataSource;
-- (void);
+- (void)hasOnboardedForNaturalLighting;
 
 // Remaining properties
-@property(readonly) NSArray *autoSelectedPreferredResidents;
-@property(readonly, copy, nonatomic) NSArray *availableResidentDevices;
-@property(readonly, nonatomic) HMDDevice *confirmedPrimaryResidentDevice;
-@property(readonly, nonatomic, getter=isCurrentDeviceAvailableResident) _Bool currentDeviceAvailableResident;
-@property(readonly, nonatomic, getter=isCurrentDeviceConfirmedPrimaryResident) _Bool currentDeviceConfirmedPrimaryResident;
-@property(readonly, nonatomic, getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident;
 @property __weak id <HMDResidentDeviceManagerDelegate> delegate;
-@property(readonly) _Bool hasActivePrimaryResidentTransaction;
-@property(readonly, nonatomic) _Bool hasAnyResident;
-@property(readonly, nonatomic) _Bool hasTrustZoneCapableResident;
-@property(readonly) _Bool homeSupportsResidentSelection;
-@property(readonly, nonatomic) _Bool isResidentElectionV2Enabled;
-@property(readonly) HMDResidentDevice *primaryResidentDevice;
-@property(readonly) NSUUID *primaryResidentGenerationID;
-@property(readonly) NSDate *primaryResidentSelectionTimestamp;
-@property(readonly) NSUUID *primaryResidentUUID;
-@property(readonly, nonatomic, getter=isResidentAvailable) _Bool residentAvailable;
-@property(readonly, copy, nonatomic) NSArray *residentDevices;
-@property(readonly) unsigned long long residentSelectionMode;
-@property(nonatomic, getter=isResidentSupported) _Bool residentSupported;
-@property(readonly) HMDResidentDevice *userSelectedPreferredResident;
 @end
 

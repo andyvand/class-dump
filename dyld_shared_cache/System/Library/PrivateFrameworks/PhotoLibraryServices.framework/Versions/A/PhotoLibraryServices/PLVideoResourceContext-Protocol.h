@@ -5,5 +5,6 @@
 //
 
 @protocol PLVideoResourceContext
+- (id)3, FAURLEndpointResendInvitation %@;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAssetStreamHandle, CloudKit.CloudAssetsAssetStreamHandle;
+@class CKAssetStreamHandle;
 
 @interface CKMediaItemMaker
 {
     CKAssetStreamHandle *_assetStreamHandle;
-    CloudKit.CloudAssetsAssetStreamHandle *_cloudAssetsAssetStreamHandle;
 }
 
 - (id);
@@ -19,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void)@;
 - (id)D:(id)arg1 %s;
 
 // Remaining properties
 @property(readonly, nonatomic) CKAssetStreamHandle *assetStreamHandle; // @synthesize assetStreamHandle=_assetStreamHandle;
-@property(readonly, nonatomic) CloudKit.CloudAssetsAssetStreamHandle *cloudAssetsAssetStreamHandle; // @synthesize cloudAssetsAssetStreamHandle=_cloudAssetsAssetStreamHandle;
 
 @end
 

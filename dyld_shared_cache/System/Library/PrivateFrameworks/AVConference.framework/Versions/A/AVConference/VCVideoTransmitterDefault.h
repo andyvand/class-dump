@@ -6,23 +6,10 @@
 
 #import <AVConference/VCVideoTransmitterBase.h>
 
-@class NSString, VCVideoHardwareDumpCollector;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoTransmitterDefault : VCVideoTransmitterBase
 {
     struct tagHANDLE *_videoTransmitterHandle;
-    unsigned int _audioTimestampRate;
-    int _transmitterMode;
-    _Bool _canLocalResizePIP;
-    _Bool _canRemoteResizePIP;
-    _Bool _forceL4SHighDataRate;
-    NSString *_logPrefix;
-    struct tagVCAspectRatios _remoteScreenAspectRatios;
-    struct tagVCAspectRatios _remoteExpectedAspectRatios;
-    struct tagVCAspectRatios _remoteExpectedFullScreenAspectRatios;
-    double _lastSentVideoHostTime;
-    VCVideoHardwareDumpCollector *_verificationContext;
 }
 
 + (void);
@@ -31,41 +18,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q;
+- (void)qh;
 - (void);
 - (void);
 - (unsigned int);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id)s, error=%s;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) struct tagHANDLE *videoTransmitterHandle; // @synthesize videoTransmitterHandle=_videoTransmitterHandle;
 
 @end

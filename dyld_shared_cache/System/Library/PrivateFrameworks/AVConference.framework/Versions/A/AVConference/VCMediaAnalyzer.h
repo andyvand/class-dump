@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, VCPCaptureAnalysisSession;
-@protocol OS_dispatch_queue, VCMediaAnalyzerDelegate;
+@protocol VCMediaAnalyzerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaAnalyzer
 {
     long long _streamToken;
-    NSObject<OS_dispatch_queue> *_analyzerQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <VCMediaAnalyzerDelegate> _delegate;
-    struct opaqueRTCReporting *_reportingAgent;
-    _Bool _isAnalyzerStarted;
-    VCPCaptureAnalysisSession *_captureAnalysisSession;
-    int _processingEventsCount;
-    double _accumulatedProcessingTime;
 }
 
 + (CDUnknownBlockType);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);

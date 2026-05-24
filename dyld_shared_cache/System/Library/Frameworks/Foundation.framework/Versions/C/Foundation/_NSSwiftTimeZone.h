@@ -6,47 +6,37 @@
 
 #import <Foundation/_NSTimeZoneBridge.h>
 
-@class NSData, NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSSwiftTimeZone : _NSTimeZoneBridge
 {
     id timeZone;
-    id lock;
 }
 
 + (_Bool)localizedCompare: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
 - (Class);
+- (id);
 - (id);
+- (id)sion for path:%s /* Error: Ran out of types for this method. */;
+- (_Bool).mHasInterpolationLength;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)I;
 - (void);
 - (id);
 - (id);
-- (long long)initWithValues:(id)arg1;
+- (long long)_initWithValues:(id)arg1;
 - (double)Ëù;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *abbreviation;
 @property(nonatomic, readonly) Class classForCoder;
-@property(nonatomic, readonly) NSData *data;
-@property(nonatomic, readonly) _Bool daylightSavingTime;
-@property(nonatomic, readonly) double daylightSavingTimeOffset;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSDate *nextDaylightSavingTimeTransition;
-@property(nonatomic, readonly) long long secondsFromGMT;
 
 @end
 

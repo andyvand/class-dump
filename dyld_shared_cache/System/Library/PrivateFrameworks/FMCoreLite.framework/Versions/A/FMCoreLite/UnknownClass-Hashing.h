@@ -7,20 +7,18 @@
 @class NSData;
 
 @interface UnknownClass (Hashing)
+- (id)B;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)y;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, copy) NSData *fm_sha1Hash;
-@property(readonly, copy) NSData *fm_sha256Hash;
-@property(readonly, copy) NSData *fm_sha512Hash;
 @end
 

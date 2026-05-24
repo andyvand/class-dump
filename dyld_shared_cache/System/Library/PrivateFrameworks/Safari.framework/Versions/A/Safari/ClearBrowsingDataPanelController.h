@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ClearBrowsingDataController, NSButton, NSGridView, NSImageView, NSPopUpButton, NSProgressIndicator, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface ClearBrowsingDataPanelController
 {
     long long _scope;
-    ClearBrowsingDataController *_clearBrowsingDataController;
-    NSTextField *_profileTextField;
-    NSPopUpButton *_profilePopUpButton;
-    NSTextField *_messageTextField;
-    NSPopUpButton *_timePeriodPopUp;
-    NSTextField *_informativeTextField;
-    NSTextField *_clearTextField;
-    NSProgressIndicator *_progressIndicator;
-    NSButton *_cancelButton;
-    NSButton *_clearHistoryButton;
-    NSButton *_helpButton;
-    NSImageView *_safariAppIcon;
-    NSGridView *_clearingOptionsGridView;
 }
 
 + (void);
@@ -34,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -47,8 +34,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)B;
+- (void)v;
 - (id);
 - (void)1¢°1Â0@ù
 × ;
@@ -58,16 +45,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) __weak NSButton *clearHistoryButton; // @synthesize clearHistoryButton=_clearHistoryButton;
-@property(nonatomic) __weak NSTextField *clearTextField; // @synthesize clearTextField=_clearTextField;
-@property(nonatomic) __weak NSGridView *clearingOptionsGridView; // @synthesize clearingOptionsGridView=_clearingOptionsGridView;
-@property(nonatomic) __weak NSButton *helpButton; // @synthesize helpButton=_helpButton;
-@property(nonatomic) __weak NSTextField *informativeTextField; // @synthesize informativeTextField=_informativeTextField;
 @property(nonatomic) __weak NSTextField *messageTextField; // @synthesize messageTextField=_messageTextField;
-@property(nonatomic) __weak NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(nonatomic) __weak NSImageView *safariAppIcon; // @synthesize safariAppIcon=_safariAppIcon;
-@property(nonatomic) __weak NSPopUpButton *timePeriodPopUp; // @synthesize timePeriodPopUp=_timePeriodPopUp;
 
 @end
 

@@ -7,7 +7,7 @@
 @class NSDate;
 
 @protocol HMFDateProvider
-- (NSDate *);
+- (NSDate *)kHMFPowerLogEventType;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *now;

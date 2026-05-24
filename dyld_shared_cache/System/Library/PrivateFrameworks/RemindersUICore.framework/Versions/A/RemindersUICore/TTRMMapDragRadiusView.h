@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSTextField, NSView;
-@protocol MKAnnotation, MKOverlay, TTRMRadialMapControllerDelegate;
+@class NSView;
 
 @interface TTRMMapDragRadiusView
 {
     NSView *_handleImageView;
-    id <MKAnnotation> annotation;
-    id <MKOverlay> circleOverlay;
-    id <MKOverlay> dashOverlay;
-    MKMapView *mapView;
-    id <TTRMRadialMapControllerDelegate> delegate;
-    long long proximity;
-    double radius;
-    double _metersPerPixel;
-    NSTextField *_text;
-    struct CGPoint center;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (void);
@@ -49,19 +38,19 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id).;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (struct CGPoint);
-- (void);
 - (void);
+- (void)0`;
 - (long long);
 - (id);
 - (double);
-- (void);
+- (void)passURLToPKPassMap;
 - (void);
 - (id);
 - (void);
@@ -70,17 +59,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) id <MKAnnotation> annotation; // @synthesize annotation;
-@property struct CGPoint center; // @synthesize center;
-@property(retain) id <MKOverlay> circleOverlay; // @synthesize circleOverlay;
-@property(retain) id <MKOverlay> dashOverlay; // @synthesize dashOverlay;
-@property(nonatomic) __weak id <TTRMRadialMapControllerDelegate> delegate; // @synthesize delegate;
 @property(retain) NSView *handleImageView; // @synthesize handleImageView=_handleImageView;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView;
-@property(nonatomic) double metersPerPixel; // @synthesize metersPerPixel=_metersPerPixel;
-@property long long proximity; // @synthesize proximity;
-@property(nonatomic) double radius; // @synthesize radius;
-@property(retain) NSTextField *text; // @synthesize text=_text;
 
 @end
 

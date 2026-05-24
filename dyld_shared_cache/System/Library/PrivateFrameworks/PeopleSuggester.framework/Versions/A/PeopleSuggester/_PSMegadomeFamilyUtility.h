@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, _PSContactResolver;
+@class CNContactStore;
 
 @interface _PSMegadomeFamilyUtility
 {
     CNContactStore *_contactStore;
-    _PSContactResolver *_contactResolver;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)_freqSameGroup0MinTo2Min;
+- (id)_freqAnyGroup10MinTo1Hr;
+- (id)_cdmMatchingSpanLabel;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)PLApplicationAgent_EventForward_AmbientModeLifetimeCounter;
 - (void);
 - (void)k:(id)arg1 o:path:/System/Library/Frameworks/Contacts.framework/Contacts /* Error: Ran out of types for this method. */;
-- (id)ures_personIDsOfPeopleInSharedPhotoAssets;
+- (id)_PSEnsembleModel_getPhotoBasedFeatures_personIDsOfPeopleInSharedPhotoAssets;
 
 // Remaining properties
-@property(retain, nonatomic) _PSContactResolver *contactResolver; // @synthesize contactResolver=_contactResolver;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMNetworkMonitor, MMCSController;
+@class MMCSController;
 
 @interface IMTransferAgentController
 {
     MMCSController *_controller;
-    IMNetworkMonitor *_networkMonitor;
 }
 
 + (id);
@@ -29,11 +28,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(retain, nonatomic) MMCSController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) IMNetworkMonitor *networkMonitor; // @synthesize networkMonitor=_networkMonitor;
 
 @end
 

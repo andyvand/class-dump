@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL, NSXPCStoreServer;
+@class NSXPCStoreServer;
 
 @interface RTPersistenceRemoteStoreServer
 {
     NSXPCStoreServer *_xpcStoreServer;
-    NSURL *_storeURL;
-    NSURL *_modelURL;
-    NSDictionary *_serverOptions;
 }
 
-- (void);
+- (void)_processRegisterIndication:(id)arg1 candidatePairToken: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)ner:(id)arg1 didChangeNavigationState:transportType: /* Error: Ran out of types for this method. */;
-- (id)isit:(id)arg1;
+- (void)navigationListener:(id)arg1 didChangeNavigationState:transportType: /* Error: Ran out of types for this method. */;
+- (id)locationManager:(id)arg1 didReportVisit:(id)arg2;
 - (void)Invalid parameter not satisfying:(inputLongitude != 0.0) /* Error: Ran out of types for this method. */;
 - (void), %ld;
 - (void)isfying:(id)arg1 loi (in %s:%d) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(retain) NSDictionary *serverOptions; // @synthesize serverOptions=_serverOptions;
-@property(retain) NSURL *storeURL; // @synthesize storeURL=_storeURL;
 @property(retain) NSXPCStoreServer *xpcStoreServer; // @synthesize xpcStoreServer=_xpcStoreServer;
 
 @end

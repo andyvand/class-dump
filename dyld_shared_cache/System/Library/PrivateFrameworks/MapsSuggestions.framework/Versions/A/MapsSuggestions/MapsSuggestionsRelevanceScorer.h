@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray;
+@class NSMutableArray;
 
 @interface MapsSuggestionsRelevanceScorer
 {
     NSMutableArray *_scorers;
-    NSDate *_scorersUpdatedAt;
 }
 
 - (id);

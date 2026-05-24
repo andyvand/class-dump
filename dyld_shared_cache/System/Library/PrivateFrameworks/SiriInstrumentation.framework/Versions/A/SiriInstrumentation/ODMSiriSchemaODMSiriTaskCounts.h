@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODMSiriSchemaODMSiriTaskCounts : SISchemaInstrumentationMessage
 {
     unsigned int _completedSiriTaskCount;
-    unsigned int _failedSiriTaskCount;
-    unsigned int _cancelledSiriTaskCount;
-    unsigned int _completedUITaskCount;
-    struct {
-        unsigned int completedSiriTaskCount:1;
-        unsigned int failedSiriTaskCount:1;
-        unsigned int cancelledSiriTaskCount:1;
-        unsigned int completedUITaskCount:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -45,7 +34,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool))`m2;
 - (_Bool);
 - (id);
 - (id)1Þ°1Â0@ù
@@ -54,15 +43,7 @@
 - (id)SelectedLocale;
 
 // Remaining properties
-@property(nonatomic) unsigned int cancelledSiriTaskCount; // @synthesize cancelledSiriTaskCount=_cancelledSiriTaskCount;
 @property(nonatomic) unsigned int completedSiriTaskCount; // @synthesize completedSiriTaskCount=_completedSiriTaskCount;
-@property(nonatomic) unsigned int completedUITaskCount; // @synthesize completedUITaskCount=_completedUITaskCount;
-@property(nonatomic) unsigned int failedSiriTaskCount; // @synthesize failedSiriTaskCount=_failedSiriTaskCount;
-@property(nonatomic) _Bool hasCancelledSiriTaskCount;
-@property(nonatomic) _Bool hasCompletedSiriTaskCount;
-@property(nonatomic) _Bool hasCompletedUITaskCount;
-@property(nonatomic) _Bool hasFailedSiriTaskCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

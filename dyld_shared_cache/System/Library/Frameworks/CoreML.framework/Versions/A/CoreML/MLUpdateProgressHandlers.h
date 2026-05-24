@@ -7,20 +7,18 @@
 @interface MLUpdateProgressHandlers
 {
     long long _interestedEvents;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (void);
-- (long long);
+- (void)copyMTLBVHTransformsKernel;
+- (long long)atomic_fetch_and;
 - (id);
 - (void);
+- (void)D0;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)r.cc;
 - (CDUnknownBlockType);
 - (void)4Q32{?={?=QQQ}{?=QQQ}}40Q88Q96;
 - (void)e and bind the buffer object. It can be a system level error such as out-of-memory errors, or the model is broken or unsupported.;
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property long long interestedEvents; // @synthesize interestedEvents=_interestedEvents;
-@property(copy) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

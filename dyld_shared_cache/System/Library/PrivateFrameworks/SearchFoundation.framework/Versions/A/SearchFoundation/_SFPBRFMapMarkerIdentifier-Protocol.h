@@ -7,11 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBRFMapMarkerIdentifier
+- (_Bool);
+- (void);
+- (NSData *)ernateImportImageDate;
+- (id)";
 
 // Remaining properties
-@property(nonatomic) _Bool isForCameraPositionOnly;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *muid;
-@property(copy, nonatomic) NSString *resultProviderID;
 @end
 

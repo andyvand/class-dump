@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL, OCPPackage, OCPPackageRelationshipCollection;
+@class NSURL, OCPPackage;
 
 __attribute__((visibility("hidden")))
 @interface OCPPackagePart
 {
     NSURL *mLocation;
-    OCPPackageRelationshipCollection *mRelationships;
-    struct _xmlDoc *mDocument;
-    NSMutableDictionary *mAlternateContentMap;
-    OCPPackage *mPackage;
 }
 
 - (struct _xmlTextReader *);
@@ -31,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)HÖ×èØ8Ú<ÛÝ;
 - (void)üà
 ;
-- (id)lLink;
+- (id)6XlLink;
 
 // Remaining properties
 @property(readonly) __weak OCPPackage *package; // @synthesize package=mPackage;

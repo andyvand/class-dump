@@ -7,7 +7,6 @@
 @interface TextRecognition.CREngineAccurate.RecognizerTasks
 {
     id $defaultActor;
-    id tasks;
 }
 
 @end

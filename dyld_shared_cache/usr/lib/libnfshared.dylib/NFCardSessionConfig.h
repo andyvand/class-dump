@@ -14,9 +14,9 @@
 + (id);
 + (_Bool);
 - (void);
+- (id)R;
 - (id);
-- (id);
-- (void);
+- (void)initVerifiedRootObjectFromData:(id)arg1 requireUTF8:maxDepth:maxTables: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

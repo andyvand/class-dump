@@ -6,23 +6,21 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableDictionary, VCRateSharingGroup;
+@class VCRateSharingGroup;
 
 __attribute__((visibility("hidden")))
 @interface VCRateControllerManager : VCObject
 {
     VCRateSharingGroup *_defaultSharingGroup;
-    NSMutableDictionary *_sharingGroupDict;
-    struct _opaque_pthread_mutex_t _sharingGroupMutex;
 }
 
-+ (id)tion_GetDataMode;
++ (id)VCConnection_GetDataMode;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id):, /* Error: Ran out of types for this method. */;
 
 @end
 

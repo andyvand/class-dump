@@ -6,36 +6,26 @@
 
 #import <Navigation/MNIPCMessage.h>
 
-@class GEORouteIncident, NSString;
-
 @interface MNIPCTrafficIncidentAlertMessage : MNIPCMessage
 {
     unsigned long long _type;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_identifier;
-    GEORouteIncident *_incident;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)&R;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ultSet"8^@16;
 - (id);
-- (id);
-- (id);
+- (id)ntext should be updated for control:(id)arg1 %{public}@;
+- (id)$;
 - (void)ateResponse"24@"GEOComposedRoute"32;
-- (id)8CLRegionC;
+- (id)So8CLRegionC;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) GEORouteIncident *incident; // @synthesize incident=_incident;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

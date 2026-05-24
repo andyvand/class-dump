@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AASignedOutAccountKeychain, ACAccountStore, NSString;
+@class ACAccountStore;
 @protocol AASignOutFlowControllerDelegate;
 
 @interface AASignOutFlowController
 {
     ACAccountStore *_accountStore;
-    NSString *telemetryFlowID;
-    AASignedOutAccountKeychain *_signedOutAccountKeychain;
-    id <AASignOutFlowControllerDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)result:(id)arg1 %d;
+- (void)ple.mail.managed;
+- (void).ews.account;
+- (void)apToken;
+- (void)otstrap Token.;
+- (void)n = %d;
+- (void)ainWifiPassword found agent port %d;
+- (void)fiPassword returned %d (%d);
+- (void)MIG_RemoveWifiNetworkProfile;
+- (void)eturned %d;
+- (void)moveEAPClientProfile mcxUsr_removeeapclientprofile kern_result returned %d;
+- (void)onfiguration fetchDidFailWithError = %s;
+- (void)MCCloudConfiguration T2 YES;
+- (id)h;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)egateQueue: /* Error: Ran out of types for this method. */;
+- (void)sessionWithConfiguration:delegate:delegateQueue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AASignOutFlowControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBTimer;
+@class _INPBIntentMetadata;
 
 @protocol _INPBResetTimerIntent
-- (_Bool)dentifier;
+- (void);
+- (_Bool)hasIAP2Identifier;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasResetMultiple;
-@property(readonly, nonatomic) _Bool hasTargetTimer;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool resetMultiple;
-@property(retain, nonatomic) _INPBTimer *targetTimer;
 @end
 

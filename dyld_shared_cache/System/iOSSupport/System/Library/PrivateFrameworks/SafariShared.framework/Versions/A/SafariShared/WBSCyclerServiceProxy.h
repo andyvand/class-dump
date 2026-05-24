@@ -9,10 +9,10 @@
 @interface WBSCyclerServiceProxy
 {
     NSXPCConnection *_xpcConnection;
-    CDUnknownBlockType _errorHandler;
 }
 
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -20,18 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Pi;
 - (id);
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType)sen;
+- (CDUnknownBlockType)Hessen;
 - (void)¼;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType connectionInvalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
 
 @end
 

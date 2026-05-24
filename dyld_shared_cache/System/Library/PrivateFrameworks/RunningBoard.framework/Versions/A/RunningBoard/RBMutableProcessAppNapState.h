@@ -15,9 +15,9 @@
 - (void);
 - (void);
 - (void);
+- (void)ust be greater or equal to 0;
 - (void);
-- (void);
-- (void);
+- (void)lastPathComponent;
 - (id);
 
 @end

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADColorMap, OADColorScheme;
-@protocol OADColorPalette;
+@class OADColorScheme;
 
 __attribute__((visibility("hidden")))
 @interface OADColorContext
 {
     OADColorScheme *mScheme;
-    OADColorMap *mMap;
-    id <OADColorPalette> mPalette;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (unsigned long long);
 - (id);
@@ -27,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)t;
 
 // Remaining properties
-@property(readonly, nonatomic) OADColorMap *map; // @synthesize map=mMap;
-@property(retain, nonatomic) id <OADColorPalette> palette; // @synthesize palette=mPalette;
 @property(readonly, nonatomic) OADColorScheme *scheme; // @synthesize scheme=mScheme;
 
 @end

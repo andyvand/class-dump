@@ -9,26 +9,22 @@
 @interface GEOMapsNearbyWidget
 {
     GEOMapsServerMetadata *_serverMetadata;
-    int _tappedItemIndex;
-    struct {
-        unsigned int has_tappedItemIndex:1;
-    } _flags;
 }
 
-+ (_Bool)llAhead:(id)arg1;
-- (void);
++ (_Bool)setHasTollAhead:(id)arg1;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)task:didCompleteAfter: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)cVADEventWithSecondPassRequest:(id)arg1 ];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,9 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasServerMetadata;
-@property(nonatomic) _Bool hasTappedItemIndex;
-@property(retain, nonatomic) GEOMapsServerMetadata *serverMetadata;
-@property(nonatomic) int tappedItemIndex;
 
 @end
 

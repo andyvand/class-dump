@@ -7,15 +7,6 @@
 @interface AppStoreKit.ArcadeSubscriptionManager
 {
     id paymentQueue;
-    id dialogHandler;
-    id activeStoreAccountProvider;
-    id observers;
-    id stateLock;
-    id arcadeSubscriptionFamilyId;
-    id subscriptionEntitlements;
-    id subscriptionState;
-    id paymentCallbacks;
-    id logger;
 }
 
 - (void);

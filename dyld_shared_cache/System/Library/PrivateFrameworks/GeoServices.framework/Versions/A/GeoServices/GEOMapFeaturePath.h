@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOMapFeaturePath
 {
     struct vector<GEOLocationCoordinate3D, std::allocator<GEOLocationCoordinate3D>> _coordinates;
-    double _length;
-    NSArray *_segments;
 }
 
 - (CDStruct_39925896);
@@ -22,9 +18,7 @@
 - (void)Ê3;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long coordinateCount;
 @property(readonly, nonatomic) double length; // @synthesize length=_length;
-@property(readonly, nonatomic) NSArray *segments; // @synthesize segments=_segments;
 
 @end
 

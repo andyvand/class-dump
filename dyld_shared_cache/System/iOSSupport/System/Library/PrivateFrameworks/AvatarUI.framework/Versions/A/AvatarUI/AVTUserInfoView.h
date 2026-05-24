@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UILabel, UIVisualEffectView;
-
 @interface AVTUserInfoView
 {
     _Bool _isRegisteredForCategorySizeChange;
-    UIColor *_containerBackgroundColor;
-    UIVisualEffectView *_userInfoEffectView;
-    UILabel *_userInfoLabel;
-    NSArray *_activeConstraints;
-    struct NSDirectionalEdgeInsets _textInsets;
 }
 
 + (double);
@@ -26,27 +19,21 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets);
 - (struct CGSize);
-- (void);
+- (void)d 1 element to context;
 - (id);
 - (void);
-- (void);
+- (void).;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;
-@property(nonatomic) UIColor *containerBackgroundColor; // @synthesize containerBackgroundColor=_containerBackgroundColor;
 @property(nonatomic) _Bool isRegisteredForCategorySizeChange; // @synthesize isRegisteredForCategorySizeChange=_isRegisteredForCategorySizeChange;
-@property(retain, nonatomic) NSString *text;
-@property(nonatomic) struct NSDirectionalEdgeInsets textInsets; // @synthesize textInsets=_textInsets;
-@property(retain, nonatomic) UIVisualEffectView *userInfoEffectView; // @synthesize userInfoEffectView=_userInfoEffectView;
-@property(retain, nonatomic) UILabel *userInfoLabel; // @synthesize userInfoLabel=_userInfoLabel;
 
 @end
 

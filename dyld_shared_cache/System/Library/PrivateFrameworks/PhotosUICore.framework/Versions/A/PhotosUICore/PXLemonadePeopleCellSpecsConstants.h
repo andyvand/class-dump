@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (double)stic;
++ (double)moments_diagnostic;
 - (id);
 
 @end

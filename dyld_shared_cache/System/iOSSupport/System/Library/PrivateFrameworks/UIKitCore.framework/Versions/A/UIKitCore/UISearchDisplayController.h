@@ -4,68 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIButton, UIColor, UILabel, UINavigationItem, UIPopoverController, UIScrollView, UISearchBar, UISearchDisplayControllerContainerView, UITableView, UIView, UIViewController, _UINavigationControllerPalette, _UISearchControllerDidScrollDelegate;
-@protocol UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate;
+@class UIViewController;
 
 @interface UISearchDisplayController
 {
     UIViewController *_viewController;
-    UITableView *_tableView;
-    UIView *_dimmingView;
-    UISearchBar *_searchBar;
-    UILabel *_noResultsLabel;
-    NSString *_noResultsMessage;
-    NSString *_resultsTitle;
-    struct __CFArray *_containingScrollViews;
-    double _lastKeyboardAdjustment;
-    double _lastFooterAdjustment;
-    UIPopoverController *_popoverController;
-    long long _searchResultsTableViewStyle;
-    id _navigationControllerBookkeeper;
-    NSArray *_savedSelectedCellsWhenViewWillAppear;
-    UIScrollView *_savedContainingScrollView;
-    UISearchDisplayControllerContainerView *_containerView;
-    unsigned long long _savedSearchBarResizingMask;
-    UINavigationItem *_navigationItem;
-    struct CGPoint _containingScrollViewContentOffset;
-    struct CGRect _searchFieldInNavigationBarFrame;
-    _UINavigationControllerPalette *_attachedNavigationPalette;
-    UIButton *_animatingAppearanceNavigationButton;
-    double _animatingAppearanceNavigationSearchBarWidth;
-    UIColor *_dimmingOverlayColor;
-    UIView *_tableViewBackgroundHeaderView;
-    long long _unactivatedBarPosition;
-    _UISearchControllerDidScrollDelegate *_didScrollDelegate;
-    struct {
-        unsigned int visible:1;
-        unsigned int animating:1;
-        unsigned int hidIndexBar:1;
-        unsigned int hidNavigationBar:1;
-        unsigned int noResultsMessageVisible:1;
-        unsigned int noResultsMessageAutoDisplay:1;
-        unsigned int navigationBarHidingEnabled:1;
-        unsigned int dimTableViewOnEmptySearchString:1;
-        unsigned int isRotatingWithPopover:1;
-        unsigned int cancelButtonManagementDisabled:1;
-        unsigned int allowDisablingNavigationBarHiding:1;
-        unsigned int showsResultsForEmptyField:1;
-        unsigned int searchBarCanBeHoisted:1;
-        unsigned int animatingSearchResultsDisappearance:1;
-        unsigned int navigationBarShadowWasHidden:1;
-        unsigned int hoistingSearchBar:1;
-    } _searchDisplayControllerFlags;
-    _Bool _displaysSearchBarInNavigationBar;
-    id <UISearchDisplayDelegate> _delegate;
-    id <UITableViewDataSource> _tableViewDataSource;
-    id <UITableViewDelegate> _tableViewDelegate;
-    unsigned long long _navigationBarSearchFieldSizing;
-    double __activationGapHeight;
-    double __additionalNonCollapsingHeightAboveSearchBar;
 }
 
 + (void);
-- (void);
-- (void);
+- (void)_recordNameToMessageItemMap;
+- (void)_TtC12IMDaemonCore34ScheduledMessageMembershipObserver;
 - (void);
 - (void);
 - (void);
@@ -82,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)l;
 - (id);
 - (id);
 - (void);
@@ -94,59 +42,59 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)(;
+- (unsigned long long);
+- (_Bool)find chat for message:%@ /* Error: Ran out of types for this method. */;
+- (id)Conversation remoteMembers (%@);
+- (id)tched, Messages participants (%@) did not equal TUConversation remoteMembers (%@);
+- (_Bool)or:not using LQM on Wi-Fi /* Error: Ran out of types for this method. */;
+- (_Bool)sisting merge id due to override;
+- (_Bool)iver:%@ is not candidate for Oscar /* Error: Ran out of types for this method. */;
+- (void)ed.;
+- (void)number, not relaying to peer %@;
+- (void)lPending ok:%@ /* Error: Ran out of types for this method. */;
+- (void)s %ld;
+- (double)loudkit eligibility returned:%@ inCarry:%@ /* Error: Ran out of types for this method. */;
+- (id)cknowledgment:associatedMessageGUID:sender:] /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)er = %@; isFromMe = %@; command = %ld>;
+- (double).messages;
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (double);
 - (id);
-- (struct UIEdgeInsets);
-- (double);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)R@;
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (_Bool);
@@ -161,20 +109,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setPayloadAllowFindMyFriendsModification: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)"NSMutableArray",&,N,V_properties;
+- (id)D;
 - (id);
 - (void)0@ù
 × ;
 - (_Bool)!AùQf°1Â0@ù
 × ;
 - (void)ray"24@"NSArray"32;
-- (void);
-- (id);
-- (void)aint;
+- (void)externalTransitioningEntries;
+- (id)backgroundViewImage;
+- (void)_scrollViewBottomConstraint;
 - (void)dback;
 - (void)ackGenerator",&,N,V_impactFeedbackGenerator;
 - (id);
@@ -182,32 +130,7 @@
 - (void),gþ¶;
 
 // Remaining properties
-@property(nonatomic) double _activationGapHeight; // @synthesize _activationGapHeight=__activationGapHeight;
-@property(nonatomic) double _additionalNonCollapsingHeightAboveSearchBar; // @synthesize _additionalNonCollapsingHeightAboveSearchBar=__additionalNonCollapsingHeightAboveSearchBar;
-@property(nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool automaticallyShowsNoResultsMessage;
-@property(nonatomic, getter=_isCancelButtonManagementDisabled, setter=_setCancelButtonManagementDisabled:) _Bool cancelButtonManagementDisabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <UISearchDisplayDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dimTableViewOnEmptySearchString;
-@property(nonatomic) _Bool displaysSearchBarInNavigationBar; // @synthesize displaysSearchBarInNavigationBar=_displaysSearchBarInNavigationBar;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isNavigationBarHidingEnabled) _Bool navigationBarHidingEnabled;
-@property(nonatomic) unsigned long long navigationBarSearchFieldSizing; // @synthesize navigationBarSearchFieldSizing=_navigationBarSearchFieldSizing;
-@property(readonly, nonatomic) UINavigationItem *navigationItem;
-@property(copy, nonatomic) NSString *noResultsMessage;
 @property(nonatomic) _Bool noResultsMessageVisible;
-@property(readonly, nonatomic) UISearchBar *searchBar; // @synthesize searchBar=_searchBar;
-@property(readonly, nonatomic) __weak UIViewController *searchContentsController; // @synthesize searchContentsController=_viewController;
-@property(nonatomic) __weak id <UITableViewDataSource> searchResultsDataSource; // @synthesize searchResultsDataSource=_tableViewDataSource;
-@property(nonatomic) __weak id <UITableViewDelegate> searchResultsDelegate; // @synthesize searchResultsDelegate=_tableViewDelegate;
-@property(readonly, nonatomic) UITableView *searchResultsTableView; // @synthesize searchResultsTableView=_tableView;
-@property(copy, nonatomic) NSString *searchResultsTitle; // @synthesize searchResultsTitle=_resultsTitle;
-@property(readonly) Class superclass;
 
 @end
 

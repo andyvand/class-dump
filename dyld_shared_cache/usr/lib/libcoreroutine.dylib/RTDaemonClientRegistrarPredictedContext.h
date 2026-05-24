@@ -6,37 +6,32 @@
 
 #import <coreroutine/RTDaemonClientRegistrar.h>
 
-@class NSObject, NSString, RTInvocationDispatcher, RTPredictedContextManager, RTPredictedContextOptions;
-@protocol OS_dispatch_queue, RTDaemonClientRegistrarPredictedContextProtocol;
+@class NSObject, RTPredictedContextManager;
+@protocol OS_dispatch_queue;
 
 @interface RTDaemonClientRegistrarPredictedContext : RTDaemonClientRegistrar
 {
     NSObject<OS_dispatch_queue> *_queue;
-    RTPredictedContextOptions *_options;
-    NSString *_clientIdentity;
-    id <RTDaemonClientRegistrarPredictedContextProtocol> _delegate;
-    RTPredictedContextManager *_predictedContextManager;
-    RTInvocationDispatcher *_dispatcher;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)`;
+- (id):(id)arg1 8B16@"NSString"20@?<v@?@"NSNumber"@"NSNumber"@"NSNumber"@"NSError">28;
+- (void)_CFString}^{__CFString}BBBBBBBBI^{__CFString}}16;
+- (id);
+- (id)remote candidates list is nil; not processing binding response;
+- (long long)ate pair %@ with the same QRSessionID %@ disconnecting %@;
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (long long);
 - (void);
-- (id);
+- (id)connectionWithConnectedSocket: /* Error: Ran out of types for this method. */;
+- (void)I;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)ibilityWithError:(id)arg1;
+- (void)_checkInitiatorEligibilityWithError:(id)arg1;
 - (_Bool)	;
 - (void)crumb %{sensitive}@ is at or after time of stopLoiLocation %{sensitive}@, not adding start LOI;
 - (_Bool)ÀÚÙÿ
@@ -45,19 +40,7 @@
 - (id)x-ÇÿA;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientIdentity; // @synthesize clientIdentity=_clientIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RTDaemonClientRegistrarPredictedContextProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) RTPredictedContextOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) RTPredictedContextManager *predictedContextManager; // @synthesize predictedContextManager=_predictedContextManager;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,17 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPMapCollectionPublisherMetadata : _BlastDoorLPSpecializationMetadata
 {
     unsigned int _numberOfPublishedCollections;
-    NSString *_name;
-    _BlastDoorLPImage *_icon;
 }
 
 + (id);
 + (_Bool);
 - (void);
-- (void);
+- (void)`p;
 - (unsigned int);
 - (void);
 - (id);
@@ -28,13 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (void)RecoveryFlow;
+- (void)dataRecoveryFlow;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfPublishedCollections; // @synthesize numberOfPublishedCollections=_numberOfPublishedCollections;
 
 @end
 

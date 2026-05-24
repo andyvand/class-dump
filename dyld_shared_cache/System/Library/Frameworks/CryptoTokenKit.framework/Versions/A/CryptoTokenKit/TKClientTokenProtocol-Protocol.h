@@ -5,5 +5,6 @@
 //
 
 @protocol TKClientTokenProtocol
+- (void);
 @end
 

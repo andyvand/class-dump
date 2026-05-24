@@ -6,64 +6,54 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPTextViewStyle, NSAttributedString, NSRegularExpression, NSString, UIFont, UILabel, UIVisualEffectView;
+@class NSAttributedString, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface LPTextView : LPComponentView
 {
     UILabel *_coloredGlyphsView;
-    UIVisualEffectView *_effectView;
-    struct UIEdgeInsets _contentInset;
-    LPTextViewStyle *_style;
-    NSAttributedString *_attributedString;
-    double _ascender;
-    double _descender;
-    long long _overrideMaximumNumberOfLines;
-    NSRegularExpression *_emphasizedTextExpression;
-    UILabel *_textView;
-    UIFont *_font;
 }
 
-+ (id);
-+ (id);
++ (id)showTranscriptTimestamps;
++ (id)showTapToRadarMessagesApp;
 - (void);
 - (_Bool);
 - (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (long long);
+- (struct CGRect)transcriptCollectionViewController:saveLastTappedChatItemWithDataDetector: /* Error: Ran out of types for this method. */;
+- (void)transcriptBalloonCell:(long long)arg1 allowedLayoutActionForTextBalloonView: /* Error: Ran out of types for this method. */;
+- (void)touchUpOutsideStartButton:(id)arg1 event: /* Error: Ran out of types for this method. */;
+- (long long)titleLabelAppearanceAnimationOpacity;
+- (void)thumbnailDataForAsset:targetSize:onlyFromCache:outDataSpec: /* Error: Ran out of types for this method. */;
+- (id)textReplyPreviewBalloonMinHeight;
+- (double)textDroppableView:dropSessionDidExit: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)test_throwExceptionDuringInflate;
+- (long long)testPerformSearchDelegate;
+- (id)testImage;
+- (long long)tapbackUserDataForAsset:previousAsset: /* Error: Ran out of types for this method. */;
+- (void)taillessSkinnyBalloonMaskSize;
+- (void)tableView:sectionForSectionIndexTitle:atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)supportsFoundInSuggestions;
+- (void)suggestedActionsMenuAdditionalHeightWithChatBotActionButton:(id)arg1;
+- (void)stringByReplacingMatchesInString:options:range:withTemplate: /* Error: Ran out of types for this method. */;
+- (_Bool)stickerReactionTextBalloonAdditionalVerticalPadding;
+- (double)stickerPickerMessagePartParentChatItem;
+- (id)business_sendButtonColor;
+- (id);
 - (void);
 - (id);
-- (double);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (double);
+- (id)k/Versions/A/Metal;
+- (double)2;
 - (double);
 - (id);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)lips;
 - (void);
-- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void)Á÷ð!äBùQ°1Â0@ù
@@ -71,20 +61,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSAttributedString *attributedString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly, nonatomic) UIFont *fallbackFont;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long overrideMaximumNumberOfLines; // @synthesize overrideMaximumNumberOfLines=_overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) UIFont *preferredFont;
-@property(readonly, retain, nonatomic) LPTextViewStyle *style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILabel *textView; // @synthesize textView=_textView;
 
 @end
 

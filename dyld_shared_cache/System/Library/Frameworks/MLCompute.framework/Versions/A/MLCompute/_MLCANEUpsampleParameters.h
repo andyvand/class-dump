@@ -9,20 +9,16 @@
 @interface _MLCANEUpsampleParameters
 {
     float _scaleFactorX;
-    float _scaleFactorY;
-    NSDictionary *_upsampleParams;
 }
 
 + (id);
 - (id);
 - (id);
-- (float);
+- (float)T;
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) float scaleFactorX; // @synthesize scaleFactorX=_scaleFactorX;
-@property(readonly, nonatomic) float scaleFactorY; // @synthesize scaleFactorY=_scaleFactorY;
 @property(readonly, retain, nonatomic) NSDictionary *upsampleParams; // @synthesize upsampleParams=_upsampleParams;
 
 @end

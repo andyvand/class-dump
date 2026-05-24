@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, NSAttributedString, NSString;
+@class NSString;
 
 @interface IMKCandidateDefinitionUnit
 {
     NSString *_text;
-    NSString *_annotation;
-    NSAttributedString *_extraAnnotation;
-    _Bool _hasDefinition;
-    _Bool _hasNote;
-    _Bool _selectionTurnedOff;
 }
 
++ (id);
 + (id);
-+ (id);
 - (void);
-- (void);
+- (void)8h;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,7 +36,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id):O /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -50,23 +45,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *annotation; // @synthesize annotation=_annotation;
-@property(readonly, nonatomic) NSString *axDescriptionString;
-@property(readonly, nonatomic) NSString *axHelpString;
-@property(readonly, nonatomic) NSString *axValueString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSAttributedString *extraAnnotation; // @synthesize extraAnnotation=_extraAnnotation;
-@property(nonatomic) _Bool hasDefinition; // @synthesize hasDefinition=_hasDefinition;
-@property(nonatomic) _Bool hasNote; // @synthesize hasNote=_hasNote;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IMKCandidate *imkCandidate;
-@property(nonatomic) _Bool selectionTurnedOff; // @synthesize selectionTurnedOff=_selectionTurnedOff;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) NSString *uniqueKey;
 
 @end
 

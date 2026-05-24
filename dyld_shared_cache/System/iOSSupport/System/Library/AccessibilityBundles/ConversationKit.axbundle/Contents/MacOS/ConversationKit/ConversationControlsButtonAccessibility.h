@@ -13,8 +13,8 @@
 + (Class);
 + (id);
 + (void);
-- (id);
-- (id);
+- (id)@;
+- (id)isRendezvousServiceSelectable:selectedSession: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);

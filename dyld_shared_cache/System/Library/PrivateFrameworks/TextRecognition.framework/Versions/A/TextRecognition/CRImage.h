@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NSURL;
+@class CIImage;
 
 @interface CRImage
 {
     struct __CVBuffer *_pixelBuffer;
-    struct vImage_Buffer _vImage;
-    _Bool _isFullRange;
-    _Bool _vImageDataIsCopy;
-    int _colorSpace;
-    CIImage *_ciImage;
-    struct CGImage *_cgImage;
-    NSNumber *_sceneStabilityMetric;
-    NSURL *_url;
 }
 
 + (id);
@@ -27,22 +19,10 @@
 + (unsigned long long);
 + (struct vImage_Buffer);
 + (struct vImage_Buffer);
-+ (struct vImage_Buffer);
++ (struct vImage_Buffer);
 
 // Remaining properties
-@property(nonatomic) struct CGImage *cgImage; // @synthesize cgImage=_cgImage;
 @property(retain, nonatomic) CIImage *ciImage; // @synthesize ciImage=_ciImage;
-@property(nonatomic) int colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly) _Bool hasBackingPixelBuffer;
-@property(readonly) unsigned long long height;
-@property(readonly) _Bool isFullRange; // @synthesize isFullRange=_isFullRange;
-@property(nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property(retain, nonatomic) NSNumber *sceneStabilityMetric; // @synthesize sceneStabilityMetric=_sceneStabilityMetric;
-@property(readonly) struct CGSize size;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) struct vImage_Buffer vImage; // @synthesize vImage=_vImage;
-@property(nonatomic) _Bool vImageDataIsCopy; // @synthesize vImageDataIsCopy=_vImageDataIsCopy;
-@property(readonly) unsigned long long width;
 
 @end
 

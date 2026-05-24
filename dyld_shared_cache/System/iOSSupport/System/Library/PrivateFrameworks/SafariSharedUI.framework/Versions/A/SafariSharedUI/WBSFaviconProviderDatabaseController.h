@@ -53,8 +53,9 @@
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int);
+- (int)=�
+;
 
 @end
 

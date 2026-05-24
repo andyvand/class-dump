@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableLocalizationTable, NSArray, NSDictionary, NSString;
+@class INCodableLocalizationTable, NSDictionary;
 
 @interface INCodableEnum
 {
     NSDictionary *_valuesByIndex;
-    INCodableLocalizationTable *_localizationTable;
-    NSString *_name;
-    NSString *_displayName;
-    NSString *_displayNameID;
-    NSString *_enumNamespace;
-    long long _type;
-    NSArray *_values;
 }
 
 + (id);
@@ -23,58 +16,44 @@
 + (id);
 + (id);
 + (id);
++ (id)t get the size of %s;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)or:nil] /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id)ontent:(id)arg1 dateSent:(id *)arg2 sender:recipients:groupName:dateMessageWasLastRead:messageType:referencedMessage:serviceName:reaction: /* Error: Ran out of types for this method. */;
-+ (id)dBlocked;
++ (id)initWithIdentifier:(id)arg1 conversationIdentifier:(id *)arg2 content:dateSent:sender:recipients:groupName:dateMessageWasLastRead:messageType:referencedMessage:serviceName:reaction: /* Error: Ran out of types for this method. */;
++ (id)_isCallerIdBlocked;
 + (id)ÓìÓpÖ°Ù;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)GCSteeringWheelElement;
+- (id)X:(id)arg1 h:(id *)arg2 ;
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
+- (id)didDeferJoinToDiscoverMorePreferredNetwork;
+- (_Bool)XPCRequestProxy:(id)arg1 invalidatedXPCConnection: /* Error: Ran out of types for this method. */;
+- (void)NqLugD9JEz9vlwacfVNTWQBoHLWaEB8_xIdvK4/Library/Caches/com.apple.xbs/TemporaryDirectory.kPthP0/Sources/CoreWiFi/Framework/CWFDiagnosticReporter.m;
 - (id);
-- (_Bool);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id)4;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void):(id)arg1;
-- (id)videBinaryValueOptionsForSetBinarySetting:(unsigned long long)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)successWithResolvedCallGroupConversation:(id)arg1;
+- (id)provideBinaryValueOptionsForSetBinarySetting:(unsigned long long)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (void)ntent.geo.ShareETAIntentResponse;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setLocalizationTable:) INCodableLocalizationTable *_localizationTable; // @synthesize _localizationTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *displayNameID; // @synthesize displayNameID=_displayNameID;
-@property(copy, nonatomic, setter=_setEnumNamespace:) NSString *enumNamespace; // @synthesize enumNamespace=_enumNamespace;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

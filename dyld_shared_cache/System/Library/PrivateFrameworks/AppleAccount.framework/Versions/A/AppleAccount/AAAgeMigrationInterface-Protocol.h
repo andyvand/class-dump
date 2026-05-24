@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AAAgeMisconfiguredPromptContext;
+
 @protocol AAAgeMigrationInterface
+- (void)curity.smartcard;
+- (void)file '%s' does not contain one or more required attributes and cannot be installed:(AAAgeMisconfiguredPromptContext *)arg1 identifier:(void (^)(int, NSError *))arg2 %s, profile uuid:%s /* Error: Ran out of types for this method. */;
+- (void)rofile contains missing or invalid information for PayloadIdentifier;
+- (void)llActivationProfile no user passcode policies processed;
+- (void)8Q16^B24;
 @end
 

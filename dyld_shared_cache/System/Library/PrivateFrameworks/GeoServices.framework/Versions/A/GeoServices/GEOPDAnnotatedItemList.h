@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPictureItemContainer, GEOPDTextItemContainer, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAnnotatedItemList
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDPictureItemContainer *_picItemContainer;
-    GEOPDTextItemContainer *_textItemContainer;
-    NSString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _annotatedItemStyle;
-    struct {
-        unsigned int has_annotatedItemStyle:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_picItemContainer:1;
-        unsigned int read_textItemContainer:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)SpeechModelTrainingProtocol;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

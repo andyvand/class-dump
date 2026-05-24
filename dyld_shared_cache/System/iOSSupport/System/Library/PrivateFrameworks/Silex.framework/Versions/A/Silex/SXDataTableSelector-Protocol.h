@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol SXDataTableSelector
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columnIndex;
-@property(readonly, nonatomic) NSString *descriptor;
 @property(readonly, nonatomic) unsigned long long rowIndex;
 @end
 

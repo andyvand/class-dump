@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter;
-@protocol HAPKeyStore, HAPSystemKeychainStore;
-
 __attribute__((visibility("hidden")))
 @interface HMDKeyRollOrchestratorDataSource
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ates after truncation count %lu (%lu);
+- (_Bool)ic}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (_Bool)p cleaning group %@ as abandoned;
+- (_Bool)UpdatesToSharedTrip sharedTripIdentifier:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Ð!DBù±1Â0@ù
 × ;
 - (id)<B?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDesignatedFMFDevice;
-@property(readonly, nonatomic) _Bool isHH2KeyRollingEnabled;
-@property(readonly, nonatomic) _Bool isTinkerWatch;
 @property(readonly, nonatomic) _Bool isiOSDevice;
-@property(readonly, nonatomic) id <HAPKeyStore> keyStore;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) id <HAPSystemKeychainStore> systemKeychainStore;
 
 @end
 

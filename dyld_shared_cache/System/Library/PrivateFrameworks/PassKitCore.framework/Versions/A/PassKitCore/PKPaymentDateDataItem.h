@@ -6,31 +6,27 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class NSDate, NSTimeZone;
+@class NSDate;
 
 @interface PKPaymentDateDataItem : PKPaymentDataItem
 {
     NSDate *_paymentDate;
-    NSTimeZone *_paymentTimeZone;
-    long long _paymentFrequency;
 }
 
 + (long long);
 - (void);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
 - (_Bool)ookup failed for address:(id *)arg1 %@ with error:%@. Recipient is no longer valid. Notifying and returning shouldContinue NO. /* Error: Ran out of types for this method. */;
-- (void)TLE;
+- (void)PEER_PAYMENT_UNDERAGE_ACCOUNT_ERROR_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *paymentDate; // @synthesize paymentDate=_paymentDate;
-@property(nonatomic) long long paymentFrequency; // @synthesize paymentFrequency=_paymentFrequency;
-@property(retain, nonatomic) NSTimeZone *paymentTimeZone; // @synthesize paymentTimeZone=_paymentTimeZone;
 
 @end
 

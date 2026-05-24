@@ -9,24 +9,13 @@
 @interface GEOJunctionInfo
 {
     PBUnknownFields *_unknownFields;
-    struct GEOJunctionElement *_junctionElements;
-    unsigned long long _junctionElementsCount;
-    unsigned long long _junctionElementsSpace;
-    int _drivingSide;
-    int _junctionType;
-    int _maneuverType;
-    struct {
-        unsigned int has_drivingSide:1;
-        unsigned int has_junctionType:1;
-        unsigned int has_maneuverType:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasRouteType:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -36,17 +25,17 @@
 - (unsigned long long);
 - (struct GEOJunctionElement *);
 - (struct GEOJunctionElement);
-- (_Bool);
-- (id);
-- (int);
+- (_Bool)readCurrentBootSessionUUID;
+- (id)authorizationStatus;
+- (int)authorizationRightFromAuthorizationStatus: /* Error: Ran out of types for this method. */;
+- (void)readAndTransmittingContactsData;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (int);
+- (void)ither blocks passed to firstLeftInLazyChain;
+- (_Bool)o;
+- (_Bool)Papua New Guinea;
+- (int)eet, SubLocality, City, Country;
+- (int)mu;
+- (int)&;
 - (void);
 - (void);
 - (id);
@@ -59,23 +48,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)Seconds:(struct _NSZone *)arg1;
-- (id)ummaryLayoutMetadata;
+- (id)setLiveRouteSavingsSeconds:(struct _NSZone *)arg1;
+- (id)GEOGuideSummaryLayoutMetadata;
 - (id)ty] Listening for network reachability changes;
 - (id)ð
 è;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int drivingSide;
-@property(nonatomic) _Bool hasDrivingSide;
-@property(nonatomic) _Bool hasJunctionType;
-@property(nonatomic) _Bool hasManeuverType;
-@property(readonly, nonatomic) struct GEOJunctionElement *junctionElements;
 @property(readonly, nonatomic) unsigned long long junctionElementsCount;
-@property(nonatomic) int junctionType;
-@property(nonatomic) int maneuverType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,16 +7,11 @@
 @class CBFloatArray;
 
 @protocol CBPILParamsProtocol
+- (unsigned long long)IS*;
+- (unsigned int);
+- (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned long long controlType;
 @property(readonly) CBFloatArray *curveLux;
-@property(readonly) CBFloatArray *curveNits;
-@property(readonly) float knownDutyCycle;
-@property(readonly) unsigned int knownNits;
-@property(readonly) unsigned int maxHWDutyCycle;
-@property(readonly) unsigned int minHWDutyCycle;
-@property(readonly) unsigned long long stateSource;
-@property(readonly) unsigned long long transport;
 @end
 

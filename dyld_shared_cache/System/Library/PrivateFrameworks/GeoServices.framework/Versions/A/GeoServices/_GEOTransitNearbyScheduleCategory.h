@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol GEOTransitArtworkDataSource;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitNearbyScheduleCategory
 {
     NSString *_displayName;
-    NSArray *_groups;
-    id <GEOTransitArtworkDataSource> _artwork;
 }
 
 - (id);
@@ -22,16 +19,7 @@ __attribute__((visibility("hidden")))
 - (id)q¼BAôåP@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSArray *groups; // @synthesize groups=_groups;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

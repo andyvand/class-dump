@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)visioningPassDataC;
+- (void)hasPsnullExceeded;
+- (void)So29PKPaymentProvisioningPassDataC;
 
 @end
 

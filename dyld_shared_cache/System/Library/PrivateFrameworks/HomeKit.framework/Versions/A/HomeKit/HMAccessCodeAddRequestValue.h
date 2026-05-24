@@ -4,58 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeValue, NSArray, NSString, NSUUID;
+@class HMAccessCodeValue;
 
 @interface HMAccessCodeAddRequestValue
 {
     HMAccessCodeValue *_accessCodeValue;
-    NSUUID *_accessoryUUID;
-    NSUUID *_userUUID;
-    NSString *_guestName;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)terrorist;
+- (id)intl_HWR;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void)hen deallocating this builder %@;
-- (id)maryClientConnectMessageFailUnderlyingErrorDomain_HH2;
+- (id)lastPrimaryClientConnectMessageFailUnderlyingErrorDomain_HH2;
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;
-@property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *guestName; // @synthesize guestName=_guestName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

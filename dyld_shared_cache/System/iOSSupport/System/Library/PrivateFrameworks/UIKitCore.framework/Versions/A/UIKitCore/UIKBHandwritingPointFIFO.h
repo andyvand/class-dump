@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)modalDisplayView;
-- (void)axDimmingView: /* Error: Ran out of types for this method. */;
+- (void)_setPrimaryParallaxDimmingView: /* Error: Ran out of types for this method. */;
 - (void)øëêÿ)ç;
 
 // Remaining properties

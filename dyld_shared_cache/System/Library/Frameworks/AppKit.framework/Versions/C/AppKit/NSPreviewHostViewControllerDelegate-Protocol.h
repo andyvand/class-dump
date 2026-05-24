@@ -5,5 +5,9 @@
 //
 
 @protocol NSPreviewHostViewControllerDelegate
+
+@optional
+- (id)validation with issuer pubkey failed;
+- (void);
 @end
 

@@ -6,40 +6,39 @@
 
 #import <AppKit/_NSTextFinderImpl.h>
 
-@class NSFindPanel, NSString;
+@class NSFindPanel;
 
 __attribute__((visibility("hidden")))
 @interface _NSFindPanelTextFinder : _NSTextFinderImpl
 {
     NSFindPanel *_panel;
-    NSString *_replacementString;
 }
 
 - (long long);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)tton info %d - %d - %d - %d - %d;
+- (void)S#BLMcaMWcaMBdies2iesdistiemi2emidiemdiun#blm#prd#craukswnvrsemitdilcukskLCrP#doMngeRUKSWDROBMODSdicadiee#tabpcprkadskadbkadmkadpbupsbupbbupmatemPvrSTvrSSHLC3iesmpusrooCbmcmnSCRGDCSkadeofnivpmv;
+- (unsigned long long)FDR.dylib;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (long long);
+- (id);
+- (void);
+- (void);
+- (id)dateWithTimeIntervalSinceReferenceDate: /* Error: Ran out of types for this method. */;
+- (long long)n;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)&;
 - (void);
 - (void)1Â0@ù
 × ;

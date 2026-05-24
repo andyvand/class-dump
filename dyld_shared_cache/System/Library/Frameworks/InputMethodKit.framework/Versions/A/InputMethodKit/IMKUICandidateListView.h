@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUIAbstractCandidateLayout, IMKUICandidateCollectionDocumentView, IMKUICandidateGroupView, IMKUICandidateLayoutTraits, IMKUIScrollView, IMKUITextField, NSArray, NSAttributedString, NSColor, NSDictionary, NSMutableDictionary, NSString;
-@protocol IMKUICandidateAccessibilityDelegate, IMKUICandidateItemViewHandling, IMKUICandidateListViewState;
+@protocol IMKUICandidateAccessibilityDelegate;
 
 @interface IMKUICandidateListView
 {
     id <IMKUICandidateAccessibilityDelegate> _accessibilityController;
-    IMKUIAbstractCandidateLayout *_candidateLayout;
-    id <IMKUICandidateItemViewHandling> _delegate;
-    IMKUICandidateCollectionDocumentView *_documentView;
-    struct CGSize _extraSize;
-    IMKUICandidateGroupView *_groupView;
-    unsigned long long _firstLine;
-    IMKUICandidateLayoutTraits *_layoutTraits;
-    NSArray *_linesToShow;
-    NSAttributedString *_noCandidatesAttributedString;
-    NSString *_noCandidatesMessage;
-    NSDictionary *_noCandidatesMessageAttributes;
-    IMKUITextField *_noCandidatesTextField;
-    NSMutableDictionary *_numberToLineMapping;
-    IMKUIScrollView *_scrollView;
-    _Bool _showsNoCandidatesMessage;
-    _Bool _showsScrollBars;
-    id <IMKUICandidateListViewState> _stateDelegate;
-    _Bool _expandedContent;
-    NSColor *_backgroundColor;
 }
 
 - (id);
@@ -36,27 +16,27 @@
 - (id);
 - (void);
 - (id);
+- (struct CGSize)9	;
+- (_Bool);
+- (void)N@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
 - (id);
 - (id);
 - (id);
@@ -73,21 +53,21 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (id)9	;
+- (_Bool)B;
+- (void);
 - (id);
+- (void);
+- (id);
+- (unsigned long long)f;
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)@;
+- (long long);
 - (id);
 - (id);
 - (void);
@@ -98,44 +78,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)reporting is disabled!;
 - (void);
 - (id);
 - (void)bundlePath;
 
 // Remaining properties
-@property(nonatomic) __weak id <IMKUICandidateAccessibilityDelegate> accessibilityController; // @synthesize accessibilityController=_accessibilityController;
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) IMKUIAbstractCandidateLayout *candidateLayout; // @synthesize candidateLayout=_candidateLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMKUICandidateItemViewHandling> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IMKUICandidateCollectionDocumentView *documentView; // @synthesize documentView=_documentView;
 @property(nonatomic) _Bool expandedContent; // @synthesize expandedContent=_expandedContent;
-@property(nonatomic) struct CGSize extraSize; // @synthesize extraSize=_extraSize;
-@property(nonatomic) unsigned long long firstLine; // @synthesize firstLine=_firstLine;
-@property(retain, nonatomic) IMKUICandidateGroupView *groupView; // @synthesize groupView=_groupView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(retain, nonatomic) NSArray *linesToShow; // @synthesize linesToShow=_linesToShow;
-@property(copy, nonatomic) NSAttributedString *noCandidatesAttributedString; // @synthesize noCandidatesAttributedString=_noCandidatesAttributedString;
-@property(copy, nonatomic) NSString *noCandidatesMessage; // @synthesize noCandidatesMessage=_noCandidatesMessage;
-@property(retain, nonatomic) NSDictionary *noCandidatesMessageAttributes; // @synthesize noCandidatesMessageAttributes=_noCandidatesMessageAttributes;
-@property(readonly, nonatomic) struct CGSize noCandidatesMessageSize;
-@property(retain, nonatomic) IMKUITextField *noCandidatesTextField; // @synthesize noCandidatesTextField=_noCandidatesTextField;
-@property(retain, nonatomic) NSMutableDictionary *numberToLineMapping; // @synthesize numberToLineMapping=_numberToLineMapping;
-@property(retain, nonatomic) IMKUIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) _Bool showsGroups;
-@property(nonatomic) _Bool showsNoCandidatesMessage; // @synthesize showsNoCandidatesMessage=_showsNoCandidatesMessage;
-@property(nonatomic) _Bool showsScrollBars; // @synthesize showsScrollBars=_showsScrollBars;
-@property(nonatomic) __weak id <IMKUICandidateListViewState> stateDelegate; // @synthesize stateDelegate=_stateDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *visibleLineIndices;
 
 @end
 

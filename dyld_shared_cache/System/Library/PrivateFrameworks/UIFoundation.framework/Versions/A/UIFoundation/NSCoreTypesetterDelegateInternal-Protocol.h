@@ -8,6 +8,9 @@
 
 @protocol NSCoreTypesetterDelegateInternal
 
+@optional
+- (_NSTextAttachmentLayoutContext *);
+
 // Remaining properties
 @property(readonly) _NSTextAttachmentLayoutContext *textAttachmentLayoutContext;
 // Preceding property had unknown attributes: ?

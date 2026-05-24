@@ -7,9 +7,10 @@
 @protocol GEORequestCounterTicket;
 
 @protocol GEORequestCounterProtocol
-- (void)tByType;
-- (void)¨4¬0$;
 - (void);
+- (void);
+- (void)GEOETAResultByType;
+- (void)¨4¬0$;
 - (id <GEORequestCounterTicket>)AúüáçP@;
 
 // Remaining properties

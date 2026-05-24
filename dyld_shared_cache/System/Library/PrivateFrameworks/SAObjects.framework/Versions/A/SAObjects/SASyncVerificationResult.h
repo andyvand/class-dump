@@ -6,14 +6,12 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
-
 @interface SASyncVerificationResult : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -26,17 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long fail;
-@property(copy, nonatomic) NSArray *failedObjectIds;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
-@property(nonatomic) long long total;
 
 @end
 

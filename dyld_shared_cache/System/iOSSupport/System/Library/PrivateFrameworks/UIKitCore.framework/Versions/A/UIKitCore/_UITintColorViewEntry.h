@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     UIColor *_tintColor;
 }
 
-- (id);
+- (id)t;
 - (void);
 - (void);
 - (_Bool)6@?24@?32;
-- (id)ction;
-- (id)riptorForUIApplicationIconFormat: /* Error: Ran out of types for this method. */;
+- (id)_cachedPreferredTapAction;
+- (id)_baseImageDescriptorForUIApplicationIconFormat: /* Error: Ran out of types for this method. */;
 - (_Bool)	;
 - (void)tary;
-- (void)SgXw;
+- (void)yxGSgXw;
 - (void)ÕU×$];
 
 // Remaining properties

@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOperationQueue;
+@class NSOperationQueue;
 
 @interface TSWPLoadableFonts
 {
     NSOperationQueue *_fontQueue;
-    NSMutableDictionary *_loadableFonts;
-    NSMutableDictionary *_loadableFontFamilies;
 }
 
 + (id);
-+ (id);
++ (id)existingFont;
 + (id)¿Zbr;
+- (void)artItem=%@ items=%@>;
+- (void)ICStoreServerError;
+- (void)featureName;
+- (void)PodcastsAssetLoading;
+- (void)lled [;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (oneway void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ԅ;
+- (id)p;
 
 @end
 

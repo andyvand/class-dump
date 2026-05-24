@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImageView, NSLayoutConstraint, NSStackView, NSTextField, NSView;
+@class NSView;
 
 @interface OBTemplatePartBulletListItem
 {
     _Bool _showsBackground;
-    NSView *_imageContainer;
-    NSImageView *_imageView;
-    NSStackView *_stackView;
-    NSTextField *_titleLabel;
-    NSTextField *_descriptionLabel;
-    NSStackView *_textStack;
-    NSTextField *_statusLabel;
-    double _iconWidth;
-    double _iconHeight;
-    long long _iconFontSize;
-    double _iconTextSpacing;
-    long long _stackAlignment;
-    NSColor *_layerBackgroundColor;
-    NSLayoutConstraint *_trailingConstraint;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -55,7 +41,7 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)Dm;
 - (id);
 - (void);
 - (void);
@@ -66,21 +52,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSTextField *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property long long iconFontSize; // @synthesize iconFontSize=_iconFontSize;
-@property double iconHeight; // @synthesize iconHeight=_iconHeight;
-@property double iconTextSpacing; // @synthesize iconTextSpacing=_iconTextSpacing;
-@property double iconWidth; // @synthesize iconWidth=_iconWidth;
 @property(retain, nonatomic) NSView *imageContainer; // @synthesize imageContainer=_imageContainer;
-@property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSColor *layerBackgroundColor; // @synthesize layerBackgroundColor=_layerBackgroundColor;
-@property _Bool showsBackground; // @synthesize showsBackground=_showsBackground;
-@property long long stackAlignment; // @synthesize stackAlignment=_stackAlignment;
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSTextField *statusLabel; // @synthesize statusLabel=_statusLabel;
-@property(retain, nonatomic) NSStackView *textStack; // @synthesize textStack=_textStack;
-@property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *trailingConstraint; // @synthesize trailingConstraint=_trailingConstraint;
 
 @end
 

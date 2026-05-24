@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MRPlaybackSessionMigrateAnalytics
 {
     NSMutableDictionary *_data;
-    NSMutableDictionary *_playPerfFields;
 }
 
 - (id);
@@ -20,6 +19,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)8;
+- (void)h8J;
+- (void);
+- (void);
+- (void)h8);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -27,17 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_';
 - (void);
 - (void);
 - (void);
@@ -47,53 +46,30 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (unsigned long long)x;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)e=dd}dBBB}40^{CGSize=dd}80^@88;
 - (id);
 - (id);
 - (void)etVolumeMutedResultMessage;
-- (id)tion;
+- (id)MRNowPlayingControllerDestination;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *data; // @synthesize data=_data;
-@property(retain, nonatomic, setter=set_durationApply:) NSNumber *durationApply; // @dynamic durationApply;
-@property(retain, nonatomic, setter=set_durationApply_SetPlaybackSession:) NSNumber *durationApply_SetPlaybackSession; // @dynamic durationApply_SetPlaybackSession;
-@property(retain, nonatomic, setter=set_durationDetermineRecipe:) NSNumber *durationDetermineRecipe; // @dynamic durationDetermineRecipe;
-@property(retain, nonatomic, setter=set_durationFinalize:) NSNumber *durationFinalize; // @dynamic durationFinalize;
-@property(retain, nonatomic, setter=set_durationPrepare:) NSNumber *durationPrepare; // @dynamic durationPrepare;
-@property(retain, nonatomic, setter=set_errorLevelCore_0:) NSString *errorLevelCore_0; // @dynamic errorLevelCore_0;
-@property(retain, nonatomic, setter=set_errorLevelCore_1:) NSString *errorLevelCore_1; // @dynamic errorLevelCore_1;
-@property(retain, nonatomic, setter=set_errorLevel_0:) NSString *errorLevel_0; // @dynamic errorLevel_0;
-@property(retain, nonatomic, setter=set_errorLevel_1:) NSString *errorLevel_1; // @dynamic errorLevel_1;
-@property(retain, nonatomic, setter=set_errorOnion:) NSString *errorOnion; // @dynamic errorOnion;
-@property(nonatomic, setter=set_handoffAppBundle:) unsigned long long handoffAppBundle; // @dynamic handoffAppBundle;
-@property(nonatomic, setter=set_handoffDestinationDeviceType:) unsigned long long handoffDestinationDeviceType; // @dynamic handoffDestinationDeviceType;
-@property(nonatomic, setter=set_handoffDestinationPerformanceClass:) unsigned long long handoffDestinationPerformanceClass; // @dynamic handoffDestinationPerformanceClass;
-@property(nonatomic, setter=set_handoffInitiator:) unsigned long long handoffInitiator; // @dynamic handoffInitiator;
-@property(retain, nonatomic, setter=set_handoffQueueSize:) NSNumber *handoffQueueSize; // @dynamic handoffQueueSize;
-@property(nonatomic, setter=set_handoffSourceDeviceType:) unsigned long long handoffSourceDeviceType; // @dynamic handoffSourceDeviceType;
-@property(nonatomic, setter=set_handoffSourcePerformanceClass:) unsigned long long handoffSourcePerformanceClass; // @dynamic handoffSourcePerformanceClass;
-@property(retain, nonatomic, setter=set_isSuccess:) NSNumber *isSuccess; // @dynamic isSuccess;
-@property(retain, nonatomic) NSMutableDictionary *playPerfFields; // @synthesize playPerfFields=_playPerfFields;
-@property(retain, nonatomic, setter=set_postDuration:) NSNumber *postDuration; // @dynamic postDuration;
-@property(retain, nonatomic, setter=set_preDuration:) NSNumber *preDuration; // @dynamic preDuration;
-@property(retain, nonatomic, setter=set_userPerceivedAudioContinuity:) NSNumber *userPerceivedAudioContinuity; // @dynamic userPerceivedAudioContinuity;
-@property(retain, nonatomic, setter=set_userPerceivedHandoffTime:) NSNumber *userPerceivedHandoffTime; // @dynamic userPerceivedHandoffTime;
 
 @end
 

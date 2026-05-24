@@ -7,8 +7,6 @@
 @interface NewsUI2.OpenPuzzleTypeFeedCommandHandler
 {
     id navigator;
-    id tracker;
-    id tagService;
 }
 
 @end

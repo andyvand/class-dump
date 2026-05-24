@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMAudioSession, AXMOutputManagerConfiguration, AXMSoundComponent, AXMSpeechComponent, AXMTaskDispatcher, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AXMOutputManagerConfiguration, AXMTaskDispatcher;
 
 @interface AXMOutputManager
 {
     AXMTaskDispatcher *_outputRequests;
-    _Bool _usesPrivateAudioSession;
-    AXMAudioSession *_audioSession;
-    long long _state;
-    NSObject<OS_dispatch_queue> *_queue;
-    AXMSoundComponent *_queue_soundComponent;
-    AXMSpeechComponent *_queue_speechComponent;
-    NSArray *_queue_activeComponents;
-    AXMOutputManagerConfiguration *_configuration;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void))`\|;
+- (void)_\|;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void){;
+- (id);
+- (void)go;
 - (id);
 - (id);
 - (void);
@@ -39,13 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AXMOutputManagerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

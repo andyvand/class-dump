@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCodeRecordTransport, NSData;
+@class NSData;
 
 @interface CKDPTranscodeRequest
 {
     NSData *_constructedAssetDownloadParameters;
-    CKCodeRecordTransport *_record;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)Lk;
+- (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ioEngineRef);
 - (void);
 - (_Bool);
 - (id);
@@ -26,14 +25,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)to query existing server timestamp (%@/%@):(id)arg1 %d;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *constructedAssetDownloadParameters; // @synthesize constructedAssetDownloadParameters=_constructedAssetDownloadParameters;
-@property(readonly, nonatomic) _Bool hasConstructedAssetDownloadParameters;
 @property(readonly, nonatomic) _Bool hasRecord;
-@property(retain, nonatomic) CKCodeRecordTransport *record; // @synthesize record=_record;
 
 @end
 

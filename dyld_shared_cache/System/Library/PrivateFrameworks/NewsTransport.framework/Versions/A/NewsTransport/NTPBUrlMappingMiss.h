@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBUrlMappingMiss
 {
     NSString *_host;
-    NSMutableArray *_paths;
-    NSString *_url;
 }
 
-+ (Class);
++ (Class)_stateQueue_accumulateLoadedTimeRange:moreExpected: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -21,11 +19,11 @@
 - (void);
 - (void);
 - (id);
+- (unsigned long long):8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)data for %@;
+- (void)CoordinatedDictionary;
+- (_Bool)ontID:(id)arg1 %{public}@;
 - (_Bool);
 - (id);
 - (id);
@@ -33,15 +31,11 @@
 - (id);
 - (void);
 - (void)nResume";
-- (void)terval:(id)arg1;
+- (void)setBackgroundMinimumUpdateInterval:(id)arg1;
 - (id)fromNextArticleAffordanceTap;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasHost;
 @property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) NSString *host; // @synthesize host=_host;
-@property(retain, nonatomic) NSMutableArray *paths; // @synthesize paths=_paths;
-@property(retain, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

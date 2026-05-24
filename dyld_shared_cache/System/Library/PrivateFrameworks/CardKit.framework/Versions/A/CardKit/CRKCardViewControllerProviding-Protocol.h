@@ -5,5 +5,8 @@
 //
 
 @protocol CRKCardViewControllerProviding
+
+@optional
+- (void);
 @end
 

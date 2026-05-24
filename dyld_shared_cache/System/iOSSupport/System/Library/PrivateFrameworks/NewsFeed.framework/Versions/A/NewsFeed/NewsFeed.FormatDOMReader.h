@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatDOMReader
 {
     id scalars;
-    id index;
-    id source;
 }
 
 @end

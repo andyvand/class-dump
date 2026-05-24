@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFAnnotation;
+@class PDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface PDFAnnotationPointerTrackingView
@@ -16,19 +16,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)ÔAQ	ð!ÄAùQvð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) PDFAnnotation *annotation; // @synthesize annotation=_annotation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

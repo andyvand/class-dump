@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken;
-
 @interface FBSSceneHostHandle
 {
     _Bool _local;
-    BSAuditToken *_auditToken;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
-- (_Bool);
+- (id) ;
+- (_Bool),;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BSAuditToken *auditToken; // @synthesize auditToken=_auditToken;
 @property(readonly, nonatomic, getter=isLocal) _Bool local; // @synthesize local=_local;
 
 @end

@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SGTInput;
-
 @interface SGTSearchQueryContext
 {
     unsigned long long _searchId;
-    unsigned long long _maxCount;
-    _Bool _matchesFinderFilesOnly;
-    _Bool _matchesSupportFiles;
-    _Bool _isNLSearch;
-    struct _NSRange _NLRange;
-    long long _NLScope;
-    NSString *_queryString;
-    NSString *_inputString;
-    SGTInput *_input;
-    NSArray *_rankingTerms;
-    NSArray *_attributeNames;
-    NSArray *_additionalAttributeNames;
-    NSArray *_sortingAttributeNames;
-    NSArray *_scopes;
-    NSArray *_excludeScopes;
-    NSArray *_includeBundles;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +33,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -61,26 +43,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)addObserver:forKeyPath:options:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property struct _NSRange NLRange; // @synthesize NLRange=_NLRange;
-@property long long NLScope; // @synthesize NLScope=_NLScope;
-@property(retain) NSArray *additionalAttributeNames; // @synthesize additionalAttributeNames=_additionalAttributeNames;
-@property(retain) NSArray *attributeNames; // @synthesize attributeNames=_attributeNames;
-@property(retain) NSArray *excludeScopes; // @synthesize excludeScopes=_excludeScopes;
-@property(retain) NSArray *includeBundles; // @synthesize includeBundles=_includeBundles;
-@property(retain) SGTInput *input; // @synthesize input=_input;
-@property(retain) NSString *inputString; // @synthesize inputString=_inputString;
-@property _Bool isNLSearch; // @synthesize isNLSearch=_isNLSearch;
-@property _Bool matchesFinderFilesOnly; // @synthesize matchesFinderFilesOnly=_matchesFinderFilesOnly;
-@property _Bool matchesSupportFiles; // @synthesize matchesSupportFiles=_matchesSupportFiles;
-@property unsigned long long maxCount; // @synthesize maxCount=_maxCount;
-@property(retain) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain) NSArray *rankingTerms; // @synthesize rankingTerms=_rankingTerms;
-@property(retain) NSArray *scopes; // @synthesize scopes=_scopes;
 @property unsigned long long searchId; // @synthesize searchId=_searchId;
-@property(retain) NSArray *sortingAttributeNames; // @synthesize sortingAttributeNames=_sortingAttributeNames;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMTranscriptChatItem, NSLayoutConstraint, NSString;
-@protocol IMDynamicGradientReferenceView, SOTranscriptCollectionViewItemDelegate, SOTranscriptTheme;
+@class NSLayoutConstraint;
+@protocol SOTranscriptCollectionViewItemDelegate;
 
 @interface SOTranscriptCollectionViewItem
 {
     NSLayoutConstraint *_maxWidthConstraint;
-    IMTranscriptChatItem *_chatItem;
-    id <SOTranscriptCollectionViewItemDelegate> _delegate;
-    id <IMDynamicGradientReferenceView> _gradientReferenceView;
 }
 
 + (id);
@@ -24,9 +21,9 @@
 - (long long);
 - (struct CGSize);
 - (void);
-- (long long);
+- (long long)C;
 - (struct IMBalloonDescriptor_t);
-- (id);
+- (id)f;
 - (void);
 - (void);
 - (void);
@@ -35,25 +32,10 @@
 - (double);
 - (void);
 - (void);
-- (long long)ovider;
+- (long long)FiletransferDomProvider;
 
 // Remaining properties
-@property(readonly) struct IMBalloonDescriptor_t balloonDescriptor;
-@property(readonly, nonatomic) IMTranscriptChatItem *chatItem;
-@property(retain, nonatomic) IMTranscriptChatItem *chatTranscriptItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <SOTranscriptCollectionViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <IMDynamicGradientReferenceView> gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long layoutClassification;
-@property(readonly, nonatomic) long long layoutOrientation;
-@property(nonatomic) double maximumWidth;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SOTranscriptTheme> transcriptTheme;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface GATSchemaGATRichFormatResponseMetadataCaptured : SISchemaInstrumentationMessage
 {
@@ -17,13 +17,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)outlineView:pasteboardWriterForItem: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -33,7 +33,6 @@
 - (void)Âä®æ^$;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *responseSegments; // @synthesize responseSegments=_responseSegments;
 
 @end

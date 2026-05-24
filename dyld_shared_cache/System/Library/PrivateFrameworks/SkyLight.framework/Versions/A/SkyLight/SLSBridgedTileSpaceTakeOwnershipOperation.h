@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)@?0@"NSAttributeDescription"8Q16^B24;
 - (id);
 - (unsigned long long);
 - (id);

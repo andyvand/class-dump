@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)LASIOUserInputHWButtonDoublePress;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *credentials;

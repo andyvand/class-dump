@@ -6,32 +6,25 @@
 
 #import <VoiceShortcutClient/WFDatabaseObjectDescriptor.h>
 
-@class NSDictionary, NSString;
-
 @interface WFServicesWorkflow : WFDatabaseObjectDescriptor
 {
     _Bool _canHandleNoOutputSurface;
-    _Bool _canHandleEmptyInput;
-    unsigned short _glyphCharacter;
-    NSString *_name;
-    NSDictionary *_serviceEntry;
-    long long _hexColor;
 }
 
-- (id);
+- (id)|;
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)Rz;
 - (_Bool);
 - (id);
-- (id);
+- (id)xb=z;
 - (unsigned short);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool))?;
 - (void);
-- (id);
+- (id)xtToSpeech.framework/Versions/A/TextToSpeech;
 - (void)Ñ^°1Â0@ù
 × ;
 

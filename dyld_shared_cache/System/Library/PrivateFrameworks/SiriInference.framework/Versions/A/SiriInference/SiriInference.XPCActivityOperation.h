@@ -7,7 +7,6 @@
 @interface SiriInference.XPCActivityOperation
 {
     id activity;
-    id completionKVObservation;
 }
 
 - (id);

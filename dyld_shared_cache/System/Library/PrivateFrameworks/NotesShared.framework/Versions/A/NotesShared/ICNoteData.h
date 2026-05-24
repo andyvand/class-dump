@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNote, NSData;
-
 @interface ICNoteData
 {
     _Bool needsToBeSaved;
-    _Bool settingNoteData;
-    _Bool didBlockLastSave;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)@' with IP address '%@':%@ (%d) /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void){ID:(id)arg1 %{public}@;
 - (void)0@"<NSSecureCoding>"8@"NSError"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *cryptoInitializationVector; // @dynamic cryptoInitializationVector;
-@property(retain, nonatomic) NSData *cryptoTag; // @dynamic cryptoTag;
-@property(retain, nonatomic) NSData *data; // @dynamic data;
-@property(nonatomic) _Bool didBlockLastSave; // @synthesize didBlockLastSave;
-@property(nonatomic) _Bool needsToBeSaved; // @synthesize needsToBeSaved;
-@property(retain, nonatomic) ICNote *note; // @dynamic note;
-@property(readonly, nonatomic) NSData *primitiveData; // @dynamic primitiveData;
 @property(nonatomic, getter=isSettingNoteData) _Bool settingNoteData; // @synthesize settingNoteData;
 
 @end

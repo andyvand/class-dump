@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MXMInstrument, MXMMutableSampleData, MXMProbe, MXMSampleFilter, NSString;
+@class MXMProbe;
 
 @interface MXMMetric
 {
     MXMProbe *_probe;
-    NSString *_identifier;
-    NSString *_version;
-    NSString *_build;
-    MXMMutableSampleData *_data;
-    MXMSampleFilter *_filter;
-    unsigned long long _preferredSampleMode;
 }
 
 + (_Bool);
@@ -34,16 +28,16 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id){;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (id);
@@ -52,22 +46,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _sampleMode;
-@property(readonly, nonatomic) _Bool _shouldAlwaysWrapInProxy;
-@property(readonly, nonatomic) _Bool _shouldConstructProbe;
-@property(readonly, nonatomic) _Bool _shouldNeverWrapInProxy;
-@property(readonly, nonatomic) NSString *build;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MXMSampleFilter *filter; // @synthesize filter=_filter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) MXMInstrument *instrument;
-@property(nonatomic) unsigned long long preferredSampleMode; // @synthesize preferredSampleMode=_preferredSampleMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *version;
 
 @end
 

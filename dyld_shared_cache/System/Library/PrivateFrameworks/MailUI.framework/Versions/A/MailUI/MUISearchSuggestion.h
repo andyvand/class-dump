@@ -4,55 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, MUISearchSuggestionCategory, NSPredicate, NSString;
-@protocol MUISearchSuggestionDelegate;
+@class CSSuggestion;
 
 @interface MUISearchSuggestion
 {
     CSSuggestion *_spotlightSuggestion;
-    id <MUISearchSuggestionDelegate> _delegate;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@9
+;
 - (id);
 - (double);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)`;
+- (id)�%@8i;
+- (id)qa;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void)red: /* Error: Ran out of types for this method. */;
-- (_Bool)sses:objectID:messageList: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityRequired: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithFileURL:name:date:subject:authors:authorEmailAddresses:objectID:messageList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MUISearchSuggestionCategory *category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MUISearchSuggestionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool exactMatch;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLegacy;
-@property(readonly, nonatomic) NSPredicate *predicate;
-@property(readonly, nonatomic) double ranking;
 @property(readonly, nonatomic) CSSuggestion *spotlightSuggestion; // @synthesize spotlightSuggestion=_spotlightSuggestion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsRanking;
 
 @end
 

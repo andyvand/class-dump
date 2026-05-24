@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGProSharpenFilter
 {
     CIImage *inputImage;
-    NSNumber *inputFalloff;
-    NSNumber *inputSharpness;
-    NSNumber *inputEdgeScale;
-    NSNumber *inputVersion;
 }
 
 + (id);
-+ (void)king;
++ (void)PA2DBufferPurgeableContiguousBacking;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
 

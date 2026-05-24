@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)thumbnailOverlayLabel;
++ (void)leLabel;
 
 @end
 

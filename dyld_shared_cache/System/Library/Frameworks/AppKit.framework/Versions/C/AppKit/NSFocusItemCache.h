@@ -4,53 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSKeyValueDependencyInfo, NSMapTable, NSString;
+@class NSKeyValueDependencyInfo;
 
 __attribute__((visibility("hidden")))
 @interface NSFocusItemCache
 {
     NSKeyValueDependencyInfo *_dependencyInfo;
-    NSArray *_arrangedItems;
-    NSMapTable *_nextFocusItems;
-    NSMapTable *_previousFocusItems;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void)fer size;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)3;
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)olTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void)st_gid"I"st_rdev"i"st_atimespec"{timespec="tv_sec"q"tv_nsec"q}"st_mtimespec"{timespec="tv_sec"q"tv_nsec"q}"st_ctimespec"{timespec="tv_sec"q"tv_nsec"q}"st_birthtimespec"{timespec="tv_sec"q"tv_nsec"q}"st_size"q"st_blocks"q"st_blksize"i"st_flags"I"st_gen"I"st_lspare"i"st_qspare"[2q]};
+- (id),V_allowsExpensiveNetworkAccess;
+- (id)5;
+- (_Bool)pathToDownloadTaskFile set to %@ and current path was %@- reconstructing downloadfile object;
 - (void);
 - (id);
 - (_Bool);
 - (void)q;
 
 // Remaining properties
-@property(retain) NSArray *arrangedItems; // @synthesize arrangedItems=_arrangedItems;
-@property unsigned long long cacheVersion; // @dynamic cacheVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSKeyValueDependencyInfo *dependencyInfo; // @synthesize dependencyInfo=_dependencyInfo;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isArrangementValid;
-@property(copy) NSMapTable *nextFocusItems; // @synthesize nextFocusItems=_nextFocusItems;
-@property(copy) NSMapTable *previousFocusItems; // @synthesize previousFocusItems=_previousFocusItems;
-@property(readonly, getter=isReady) _Bool ready;
 @property unsigned long long seed; // @dynamic seed;
-@property(readonly) Class superclass;
-@property unsigned long long updateVersion; // @dynamic updateVersion;
 
 @end
 

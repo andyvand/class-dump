@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface CNContactContainerPickerItem
 {
     NSString *_name;
-    NSString *_identifier;
 }
 
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (void);
 - (void)ctCardFieldPicker",&,N,V_fieldPicker;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -15,13 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)mDisplayString;
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *calendars; // @dynamic calendars;
-@property(nonatomic) long long code; // @synthesize code;
 
 @end
 

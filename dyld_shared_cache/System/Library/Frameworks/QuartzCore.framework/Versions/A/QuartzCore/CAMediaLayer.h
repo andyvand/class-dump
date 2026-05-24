@@ -12,9 +12,9 @@
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)29TStaticFontSubfamilyNameIndex;
 + (_Bool);
-- (void);
+- (void)C;
 - (_Bool);
 - (void *);
 - (_Bool);

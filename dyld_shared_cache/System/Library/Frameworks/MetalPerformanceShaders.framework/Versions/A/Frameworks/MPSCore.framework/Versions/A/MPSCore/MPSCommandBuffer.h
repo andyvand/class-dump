@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSPredicate, NSError, NSString;
-@protocol MPSHeapProvider, MTLBuffer, MTLCommandBuffer, MTLCommandQueue, MTLDevice, MTLLogContainer;
+@protocol MTLBuffer;
 
 @interface MPSCommandBuffer
 {
     id <MTLBuffer> _currentDispatchBuffer;
-    unsigned long long _offsetToCurrentFree;
-    void *_mpsDevice;
-    MPSPredicate *_predicate;
-    id <MTLCommandBuffer> _commandBuffer;
-    struct MPSCommandBufferDescriptor _mpsCommandBufferDescriptor;
 }
 
 + (id);
@@ -33,35 +27,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)�;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) double GPUEndTime;
-@property(readonly) double GPUStartTime;
-@property(readonly, retain, nonatomic) id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer=_commandBuffer;
-@property(readonly) id <MTLCommandQueue> commandQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long errorOptions;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <MPSHeapProvider> heapProvider;
-@property(readonly) double kernelEndTime;
-@property(readonly) double kernelStartTime;
-@property(copy) NSString *label;
-@property(readonly) id <MTLLogContainer> logs;
 @property struct MPSCommandBufferDescriptor mpsCommandBufferDescriptor; // @synthesize mpsCommandBufferDescriptor=_mpsCommandBufferDescriptor;
-@property(retain, nonatomic) MPSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly) _Bool retainedReferences;
-@property(readonly, retain, nonatomic) id <MTLCommandBuffer> rootCommandBuffer;
-@property(readonly) unsigned long long status;
-@property(readonly) Class superclass;
 
 @end
 

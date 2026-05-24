@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface LSUseValuesMCStateProvider
 {
     _Bool _allowlistEnabled;
-    NSSet *_allowlistedBundles;
-    NSSet *_restrictedBundles;
-    NSSet *_ratingRankExceptionBundleIDs;
-    NSNumber *_maximumRating;
 }
 
 - (id);
@@ -24,13 +18,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿLÔ ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

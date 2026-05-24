@@ -7,7 +7,6 @@
 @interface StoreKit.AppTransactionQueryManager__priv_523F298521DDDFF091791E7BF33A4CA2
 {
     id $defaultActor;
-    id error;
 }
 
 @end

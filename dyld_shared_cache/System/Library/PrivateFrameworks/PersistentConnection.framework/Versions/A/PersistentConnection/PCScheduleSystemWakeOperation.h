@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface PCScheduleSystemWakeOperation
 {
     _Bool _scheduleOrCancel;
-    _Bool _userVisible;
-    NSDate *_wakeDate;
-    double _acceptableDelay;
-    NSString *_serviceIdentifier;
-    void *_unqiueIdentifier;
 }
 
 - (id);

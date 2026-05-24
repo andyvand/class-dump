@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UINavigationBarPalette.h>
 
-@class NSString, UINavigationController, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarBridgingPalette : _UINavigationBarPalette
@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     UIView *_temporaryBackgroundView;
 }
 
-- (void);
+- (void)hls assets table [] error=%{public}@;
 - (void)
 × ;
 - (void)ngs;
 - (_Bool)CalendarTimeView.m;
-- (void)tent;
-- (void)lexInteractionSettings;
-- (unsigned long long)wSceneFullscreenPlacement;
+- (void)VisibleContent;
+- (void)_UIFlexInteractionSettings;
+- (unsigned long long)_UIWindowSceneFullscreenPlacement;
 - (_Bool);
 - (struct UIEdgeInsets);
-- (_Bool)ellAccessorySystemType;
+- (_Bool)_UICellAccessorySystemType;
 - (void)­¡43$tþ;
 - (void)=;
 - (void);
@@ -55,22 +55,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setBackgroundView:) UIView *_backgroundView;
-@property(nonatomic, setter=_setPaletteOverridesPinningBar:) _Bool _paletteOverridesPinningBar;
-@property(readonly, nonatomic) unsigned long long boundaryEdge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UINavigationController *navController;
-@property(nonatomic) _Bool paletteShadowIsHidden;
-@property(nonatomic, getter=isPinned) _Bool pinned;
-@property(nonatomic) _Bool pinningBarShadowIsHidden;
-@property(nonatomic) _Bool pinningBarShadowWasHidden;
-@property(nonatomic) struct UIEdgeInsets preferredContentInsets;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isVisibleWhenPinningBarIsHidden) _Bool visibleWhenPinningBarIsHidden;
 
 @end
 

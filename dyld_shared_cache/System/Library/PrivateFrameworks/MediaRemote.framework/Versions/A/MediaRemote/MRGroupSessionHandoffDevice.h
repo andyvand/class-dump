@@ -9,15 +9,13 @@
 @interface MRGroupSessionHandoffDevice
 {
     NSString *_identifier;
-    NSString *_bluetoothAddress;
 }
 
-- (id);
-- (void)humbstickX;
-- (id)t;
+- (id)m;
+- (void)leftThumbstickX;
+- (id)Ht;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bluetoothAddress; // @synthesize bluetoothAddress=_bluetoothAddress;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

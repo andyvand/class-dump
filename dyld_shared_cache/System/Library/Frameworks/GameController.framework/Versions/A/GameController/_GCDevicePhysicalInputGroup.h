@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, _GCDevicePhysicalInputBase;
-@protocol OS_dispatch_queue, _GCDevicePhysicalInputGroupDataSource;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputGroup
 {
     NSDictionary *_physicalInputs;
-    _GCDevicePhysicalInputBase *_defaultPhysicalInput;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isSnapshot;
-    _Bool _hasQueueOverride;
-    id <_GCDevicePhysicalInputGroupDataSource> _dataSource;
 }
 
 - (id);
@@ -24,20 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)+;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

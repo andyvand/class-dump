@@ -4,40 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface WBSAddressBookMatch
 {
     id _value;
-    NSString *_property;
-    NSString *_key;
-    NSString *_identifier;
-    NSString *_label;
-    NSDictionary *_controlIDToAutoFillValueMap;
-    NSString *_uniqueID;
 }
 
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *completion;
-@property(copy, nonatomic) NSDictionary *controlIDToAutoFillValueMap; // @synthesize controlIDToAutoFillValueMap=_controlIDToAutoFillValueMap;
-@property(copy, nonatomic) NSDate *dateValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *property; // @synthesize property=_property;
 @property(copy, nonatomic) NSString *stringValue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end
 

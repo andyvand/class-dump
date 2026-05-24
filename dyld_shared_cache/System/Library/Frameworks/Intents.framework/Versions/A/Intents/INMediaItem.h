@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, INPrivateMediaItemValueData, NSDictionary, NSString;
+@class INImage, NSString;
 
 @interface INMediaItem
 {
     NSString *_identifier;
-    NSString *_title;
-    long long _type;
-    INImage *_artwork;
-    NSString *_artist;
-    NSDictionary *_topics;
-    NSDictionary *_namedEntities;
-    NSString *_assetInfo;
-    INPrivateMediaItemValueData *_privateMediaItemValueData;
 }
 
 + (id);
@@ -30,15 +22,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_pressedSlot;
+- (id)>;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)askToShareWiFiNetworkSharingNetworkFromAppAndReturnError:(id)arg1;
+- (void)}        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusin', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -46,33 +38,17 @@
 - (id);
 - (void);
 - (id);
-- (id)ionType: /* Error: Ran out of types for this method. */;
-- (id)learInvites;
+- (id)setConditionType: /* Error: Ran out of types for this method. */;
+- (id)clearInvites;
 - (long long),V_tasks;
 - (id)ð;
-- (id)adVoiceCommandDeviceInformation;
-- (void)tionForReportIncident:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_payloadVoiceCommandDeviceInformation;
+- (void)provideUserLocationOptionsCollectionForReportIncident:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)úMÏÔ;
 - (id)SL;
 
 // Remaining properties
 @property(readonly) INImage *_keyImage;
-@property(readonly, copy) NSString *artist; // @synthesize artist=_artist;
-@property(copy) INImage *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *assetInfo; // @synthesize assetInfo=_assetInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSDictionary *namedEntities; // @synthesize namedEntities=_namedEntities;
-@property(copy) INPrivateMediaItemValueData *privateMediaItemValueData; // @synthesize privateMediaItemValueData=_privateMediaItemValueData;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
-@property(readonly, copy) NSDictionary *topics; // @synthesize topics=_topics;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

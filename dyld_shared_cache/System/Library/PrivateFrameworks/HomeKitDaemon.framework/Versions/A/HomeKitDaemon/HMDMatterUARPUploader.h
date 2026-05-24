@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)e - SharePlay connection;
+- (_Bool)PIParallaxClockMaterialRequest;
 - (_Bool)rProvider>",W,V_backupTimerProvider;
 
 @end

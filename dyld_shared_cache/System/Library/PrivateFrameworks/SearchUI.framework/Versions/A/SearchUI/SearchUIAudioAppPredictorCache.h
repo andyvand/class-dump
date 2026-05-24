@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)O responses (lang_response, selected) VALUES($lang_response,1) ON CONFLICT(lang_response) DO UPDATE SET selected=selected+1;
 - (id);
 
 @end

@@ -6,30 +6,24 @@
 
 #import <AppKit/NSResponder.h>
 
-@class FBSScene, NSSceneSession;
-@protocol NSSceneDelegate;
+@class NSSceneSession;
 
 @interface NSScene : NSResponder
 {
     NSSceneSession *session;
-    id <NSSceneDelegate> delegate;
-    id invalidated;
-    id underlyingFBSScene;
 }
 
 + (id);
+- (id)>;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void)Ø¤E;
 
 // Remaining properties
-@property(nonatomic, readonly) FBSScene *_FBSScene;
-@property(nonatomic, retain) id <NSSceneDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) NSSceneSession *session; // @synthesize session;
 
 @end

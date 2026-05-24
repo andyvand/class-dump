@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AKPrivateEmailContext;
+
 @protocol AKPrivateEmailUIProvider
+- (void)_localizedTimeStringForTimedEventDuration:(AKPrivateEmailContext *)arg1 abbreviate:(void (^)(AKPrivateEmail *, NSError *))arg2;
 @end
 

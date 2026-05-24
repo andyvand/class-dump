@@ -11,7 +11,6 @@
 @interface _BlastDoorLPAppleNewsMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_source;
-    NSString *_title;
 }
 
 + (id);
@@ -24,12 +23,11 @@
 - (void);
 - (id);
 - (id);
-- (id)ue;
+- (id)animoji_Value;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *source; // @synthesize source=_source;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

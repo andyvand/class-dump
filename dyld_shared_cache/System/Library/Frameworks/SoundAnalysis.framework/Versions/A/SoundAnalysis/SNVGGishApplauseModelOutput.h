@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNVGGishApplauseModelOutput
 {
@@ -12,14 +12,13 @@
 }
 
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (void)dÁúÿ°ÁúÿüÁúÿHÂúÿÂúÿàÂúÿ,ÃúÿxÃúÿÄÃúÿÄúÿ\Äúÿ¨ÄúÿôÄúÿ@ÅúÿÅúÿØÅúÿ$ÆúÿpÆúÿ¼ÆúÿÇúÿTÇúÿ ÇúÿìÇúÿ8ÈúÿÈúÿÐÈúÿÉúÿhÉúÿ´Éúÿ;
-- (id)rayFromBytesCodingKeys;
+- (id)FloatArrayFromBytesCodingKeys;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *output1; // @synthesize output1=_output1;
 
 @end

@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol NSTitlebarPopoverViewControllerDataSource
+- (NSDictionary *)diS7AlmwFZz6NyF7CY97sA;
 
 // Remaining properties
 @property(readonly) NSDictionary *initialViewBridgeInfo;

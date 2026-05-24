@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSUserDefaults;
-@protocol OS_dispatch_queue;
+@class NSUserDefaults;
 
 @interface WBSUserDefaultObservation
 {
     NSUserDefaults *_defaults;
-    CDUnknownBlockType _handler;
-    NSArray *_keys;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
+- (void)constraintsWithVisualFormat:options:metrics:views: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)Rotation;
 - (void)X°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

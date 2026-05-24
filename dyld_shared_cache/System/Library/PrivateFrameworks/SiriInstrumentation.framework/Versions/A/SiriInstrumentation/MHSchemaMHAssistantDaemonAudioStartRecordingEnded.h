@@ -6,18 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface MHSchemaMHAssistantDaemonAudioStartRecordingEnded : SISchemaInstrumentationMessage
 {
     NSArray *_activeSessionDisplayIds;
-    NSArray *_fanInfos;
 }
 
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Z;
 - (void);
 - (void);
 - (void);
@@ -30,11 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nge String:(id)arg1 %s
+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)!PBùqßð1Â0@ù
 × ;
 - (id)Shown;
@@ -43,8 +43,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activeSessionDisplayIds; // @synthesize activeSessionDisplayIds=_activeSessionDisplayIds;
-@property(copy, nonatomic) NSArray *fanInfos; // @synthesize fanInfos=_fanInfos;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

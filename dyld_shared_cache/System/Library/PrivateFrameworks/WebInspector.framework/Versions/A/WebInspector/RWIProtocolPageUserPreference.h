@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) long long name;
-@property(nonatomic) long long value;
 
 @end
 

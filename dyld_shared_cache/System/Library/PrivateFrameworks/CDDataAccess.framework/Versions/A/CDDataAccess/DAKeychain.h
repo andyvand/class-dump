@@ -11,9 +11,9 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -21,7 +21,7 @@
 - (int);
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);
-- (id);
+- (id)';
 
 @end
 

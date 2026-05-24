@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBTodaySnapshotSection
 {
     NSString *_identifier;
-    NSMutableArray *_items;
 }
 
 + (Class);
@@ -17,13 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setRasterizationScale: /* Error: Ran out of types for this method. */;
+- (_Bool)g _glimmerblocker User;
+- (_Bool)configuration;
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
 
 @end
 

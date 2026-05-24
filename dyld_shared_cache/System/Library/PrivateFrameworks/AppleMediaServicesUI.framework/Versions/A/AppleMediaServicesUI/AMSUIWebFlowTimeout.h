@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFlowTimeout
 {
     CDUnknownBlockType _enqueuedBlock;
-    CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_startTime;
-    double _timeout;
-    double _timeRemaining;
 }
 
 + (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)d in query;
+- (id)?0@"NSString"8;
+- (CDUnknownBlockType)Sk;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (void)mber} pixels;
+- (void)ber of nodes” becomes “NUMBER_OF_NODES”;
+- (id);
+- (void);
+- (CDUnknownBlockType)Eq;
 - (double);
-- (double);
+- (double)Է;
 - (void)UIWebAction"16@0:8 /* Error: Ran out of types for this method. */;
 - (void)yù=yAAy`=£Ã=G_AAy¡	=yËÄ=yÈ=yïÇ=yAAyAAyCÉ=yADGz=y|=SgGGù=y­ô=GG_Qo__Qo__Qo__SSQo_AEGtGGöÛ=GAYGAYG;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType block; // @synthesize block=_block;
 @property(copy) CDUnknownBlockType enqueuedBlock; // @synthesize enqueuedBlock=_enqueuedBlock;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSDate *startTime; // @synthesize startTime=_startTime;
-@property double timeRemaining; // @synthesize timeRemaining=_timeRemaining;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface FPUserInfoPair
 {
     NSString *_a;
-    NSString *_b;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain) NSString *a; // @synthesize a=_a;
-@property(retain) NSString *b; // @synthesize b=_b;
 
 @end
 

@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (CommSafety)
-- (id);
-- (long long);
+- (id)tream [%s] %s:(id)arg1 %d ;
+- (long long)@, streamToken:%@, %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) long long commSafetySensitivityState;

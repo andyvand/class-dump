@@ -16,12 +16,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)CGPoint=dd}{CGSize=dd}}24{CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (unsigned long long);
 - (_Bool)6#24;
-- (void)edToSize:(id)arg1 lineBreakMode: /* Error: Ran out of types for this method. */;
-- (id)weight:transform:color:fill: /* Error: Ran out of types for this method. */;
-- (id)cay;
+- (void)sizeWithFont:(id)arg1 constrainedToSize:lineBreakMode: /* Error: Ran out of types for this method. */;
+- (id)drawPath:weight:transform:color:fill: /* Error: Ran out of types for this method. */;
+- (id)_allowsPopOffsetDecay;
 - (long long),S_setUuid:,V__uuid /* Error: Ran out of types for this method. */;
 
 // Remaining properties

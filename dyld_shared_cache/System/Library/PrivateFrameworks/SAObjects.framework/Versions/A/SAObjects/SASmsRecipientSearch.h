@@ -6,15 +6,13 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray;
-
 @interface SASmsRecipientSearch : SADomainCommand
 {
 }
 
 + (id);
 + (id);
-- (void);
+- (void)O;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool clientShouldResolvePhonesAndEmails;
-@property(copy, nonatomic) NSArray *recipients;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationModel : HMDBackingStoreModelObject
@@ -22,15 +22,6 @@ __attribute__((visibility("hidden")))
 - (id)quest queue;
 
 // Remaining properties
-@property(retain) NSUUID *audioGroupIdentifier; // @dynamic audioGroupIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSNumber *supportedOptions; // @dynamic supportedOptions;
 @property(retain) NSNumber *type; // @dynamic type;
 
 @end

@@ -6,58 +6,41 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSOperation;
-@protocol CKPublishAssetsOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDPublishAssetsOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _assetPublishedBlock;
-    NSArray *_recordIDs;
-    NSDictionary *_fileNamesByAssetFieldNames;
-    unsigned long long _requestedTTL;
-    unsigned long long _URLOptions;
-    NSOperation *_fetchRecordsOperation;
-    NSMutableDictionary *_fetchedRecordsByID;
 }
 
-+ (id);
++ (id)setTestModeEnabled:(unsigned long long)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
+- (void);
+- (void)4;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)%{public}@;
 - (_Bool);
 - (id);
+- (void)_;
 - (void);
-- (void);
-- (id);
+- (id)I!;
 - (unsigned long long);
 - (unsigned long long)°!àDù1Üð1Â0@ù
 × ;
-- (void)WithTrackingID:(unsigned long long)arg1;
+- (void)initWithTrackingID:(unsigned long long)arg1;
 - (void)¼;
-- (void)kRelayOperation;
+- (void)CKDLongLivedCallbackRelayOperation;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long URLOptions; // @synthesize URLOptions=_URLOptions;
-@property(copy, nonatomic) CDUnknownBlockType assetPublishedBlock; // @synthesize assetPublishedBlock=_assetPublishedBlock;
-@property(retain, nonatomic) id <CKPublishAssetsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain) NSOperation *fetchRecordsOperation; // @synthesize fetchRecordsOperation=_fetchRecordsOperation;
-@property(retain, nonatomic) NSMutableDictionary *fetchedRecordsByID; // @synthesize fetchedRecordsByID=_fetchedRecordsByID;
-@property(retain, nonatomic) NSDictionary *fileNamesByAssetFieldNames; // @synthesize fileNamesByAssetFieldNames=_fileNamesByAssetFieldNames;
-@property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(nonatomic) unsigned long long requestedTTL; // @synthesize requestedTTL=_requestedTTL;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

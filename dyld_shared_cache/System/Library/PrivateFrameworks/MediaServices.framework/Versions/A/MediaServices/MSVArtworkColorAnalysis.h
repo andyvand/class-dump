@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface MSVArtworkColorAnalysis
 {
     NSString *_backgroundColorHex;
-    _Bool _backgroundColorLight;
-    NSString *_primaryTextColorHex;
-    _Bool _primaryTextColorLight;
-    NSString *_secondaryTextColorHex;
-    _Bool _secondaryTextColorLight;
-    NSString *_tertiaryTextColorHex;
-    _Bool _tertiaryTextColorLight;
-    NSString *_quaternaryTextColorHex;
-    NSString *_gradientColorHex;
-    NSNumber *_gradientColorStart;
-    NSNumber *_gradientColorEnd;
-    NSArray *_gradientTextColorHex;
-    NSNumber *_gradientColorStartPosition;
-    NSNumber *_gradientColorEndPosition;
 }
 
 + (_Bool);
@@ -35,15 +21,15 @@
 - (void);
 - (void);
 - (void);
+- (void)9Iz";
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -53,24 +39,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SaySDySSypGG;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backgroundColorHex; // @synthesize backgroundColorHex=_backgroundColorHex;
-@property(readonly, nonatomic, getter=isBackgroundColorLight) _Bool backgroundColorLight; // @synthesize backgroundColorLight=_backgroundColorLight;
-@property(retain, nonatomic) NSNumber *gradientColorEndPosition; // @synthesize gradientColorEndPosition=_gradientColorEndPosition;
-@property(retain, nonatomic) NSString *gradientColorHex; // @synthesize gradientColorHex=_gradientColorHex;
-@property(retain, nonatomic) NSNumber *gradientColorStartPosition; // @synthesize gradientColorStartPosition=_gradientColorStartPosition;
-@property(retain, nonatomic) NSArray *gradientTextColorHex; // @synthesize gradientTextColorHex=_gradientTextColorHex;
-@property(retain, nonatomic) NSString *primaryTextColorHex; // @synthesize primaryTextColorHex=_primaryTextColorHex;
-@property(readonly, nonatomic, getter=isPrimaryTextColorLight) _Bool primaryTextColorLight; // @synthesize primaryTextColorLight=_primaryTextColorLight;
-@property(retain, nonatomic) NSString *quaternaryTextColorHex; // @synthesize quaternaryTextColorHex=_quaternaryTextColorHex;
-@property(retain, nonatomic) NSString *secondaryTextColorHex; // @synthesize secondaryTextColorHex=_secondaryTextColorHex;
-@property(readonly, nonatomic, getter=isSecondaryTextColorLight) _Bool secondaryTextColorLight; // @synthesize secondaryTextColorLight=_secondaryTextColorLight;
-@property(retain, nonatomic) NSString *tertiaryTextColorHex; // @synthesize tertiaryTextColorHex=_tertiaryTextColorHex;
-@property(nonatomic, getter=isTertiaryTextColorLight) _Bool tertiaryTextColorLight; // @synthesize tertiaryTextColorLight=_tertiaryTextColorLight;
 
 @end
 

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator;
+@class NSArray;
 
 @interface _PASLowValueCardinalityMutableDictionaryEnumerator
 {
     NSArray *_objectsAndKeys;
-    unsigned long long _i;
-    NSEnumerator *_keyEnumerator;
 }
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)w;
+- (void)sortedArrayUsingComparator: /* Error: Ran out of types for this method. */;
 
 @end
 

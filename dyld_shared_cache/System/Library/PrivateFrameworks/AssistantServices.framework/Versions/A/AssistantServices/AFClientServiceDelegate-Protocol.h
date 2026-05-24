@@ -5,5 +5,15 @@
 //
 
 @protocol AFClientServiceDelegate
+- (oneway void)*;
+- (oneway void);
+- (oneway void)+;
+- (oneway void);
+- (oneway void)?;
+- (oneway void)I;
+- (oneway void)=;
+- (oneway void)j&@y;
+- (oneway void)contentAlingment;
+- (oneway void)	;
 @end
 

@@ -6,28 +6,25 @@
 
 #import <Foundation/NSProcessInfo.h>
 
-@class NSArray, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSSwiftProcessInfo : NSProcessInfo
 {
     id _state;
-    id _processInfo;
 }
 
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
 + (id)û8;
 - (long long);
-- (double);
+- (double);
 - (void);
 - (long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)kaY;
 - (void);
 - (void);
 - (void);
@@ -48,16 +45,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)�`;
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDStruct_2ec95fd7);
+- (CDStruct_2ec95fd7)s;
 - (_Bool);
 - (id);
 - (id);
-- (CDStruct_2ec95fd7);
+- (CDStruct_2ec95fd7)"__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ngine (Casting a token to obtain a morphological word token):%{public}@ /* Error: Ran out of types for this method. */;
 - (int)ðððñòòòòóóóóôôõõõõõõõö÷øùùúúúúûûüüýýýþÿÿ;
@@ -66,27 +63,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long activeProcessorCount;
-@property(nonatomic, readonly) NSArray *arguments;
 @property(nonatomic) _Bool automaticTerminationSupportEnabled;
-@property(nonatomic, readonly) NSDictionary *environment;
-@property(nonatomic, readonly) NSString *fullUserName;
-@property(nonatomic, readonly) NSString *globallyUniqueString;
-@property(nonatomic, readonly) NSString *hostName;
-@property(nonatomic, readonly) _Bool iOSAppOnMac;
-@property(nonatomic, readonly) _Bool iOSAppOnVision;
-@property(nonatomic, readonly) _Bool lowPowerModeEnabled;
-@property(nonatomic, readonly) _Bool macCatalystApp;
-@property(nonatomic, readonly) CDStruct_2ec95fd7 macCatalystVersion;
-@property(nonatomic, readonly) CDStruct_2ec95fd7 operatingSystemVersion;
-@property(nonatomic, readonly) NSString *operatingSystemVersionString;
-@property(nonatomic, readonly) unsigned long long physicalMemory;
-@property(nonatomic, readonly) int processIdentifier;
-@property(nonatomic, copy) NSString *processName;
-@property(nonatomic, readonly) long long processorCount;
-@property(nonatomic, readonly) double systemUptime;
-@property(nonatomic, readonly) long long thermalState;
-@property(nonatomic, readonly) NSString *userName;
 
 @end
 

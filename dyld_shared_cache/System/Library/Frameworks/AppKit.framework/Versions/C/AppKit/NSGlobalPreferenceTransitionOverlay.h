@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface NSGlobalPreferenceTransitionOverlay : NSWindow
 {
     CALayer *_rootLayer;
-    CALayer *_beforeLayer;
 }
 
-- (id);
-- (struct CGRect);
-- (long long);
-- (void);
-- (void);
+- (id)set_prohibitEncryptedDNS:(id)arg1;
+- (struct CGRect)cleanup;
+- (long long)d;
+- (void);
+- (void)@;
 - (void)x¢ÿoÛ rA;
 
 @end

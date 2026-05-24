@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface READSchemaREADPlaybackSessionFailed : SISchemaInstrumentationMessage
 {
     int _errorCodes;
-    struct {
-        unsigned int errorCodes:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)fOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRestoreApplicationsRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)CFString}^v{IMDSqlStatement=^vi^{__CFString}^{sqlite3}iii{IMPerfMeasurement_t={IMFileLocation_t=****i}QQ^{__CFString}ddd}}^{__CFError}}8i16;
+- (id)P;
 - (id);
-- (id);
-- (id)wasMoved;
+- (id)_wasMoved;
 - (id)tputTokenCount;
 
 // Remaining properties
 @property(nonatomic) int errorCodes; // @synthesize errorCodes=_errorCodes;
-@property(nonatomic) _Bool hasErrorCodes;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, NSUndoManager, VSAccountStore;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VSAccountChannelsCenter
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSURL *_fileURL;
-    VSAccountStore *_accountStore;
-    NSString *_fileName;
-    NSURL *_directoryURL;
-    CDUnknownBlockType _identityProviderFetchOperationBlock;
 }
 
 + (void);
@@ -36,13 +31,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)(;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (id);
@@ -53,13 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) VSAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(copy, nonatomic) NSURL *directoryURL; // @synthesize directoryURL=_directoryURL;
-@property(copy, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) CDUnknownBlockType identityProviderFetchOperationBlock; // @synthesize identityProviderFetchOperationBlock=_identityProviderFetchOperationBlock;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(retain, nonatomic) NSUndoManager *undoManager;
 
 @end
 

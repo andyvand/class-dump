@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IMSharedUtilities)
-+ (void);
++ (void);
 @end
 

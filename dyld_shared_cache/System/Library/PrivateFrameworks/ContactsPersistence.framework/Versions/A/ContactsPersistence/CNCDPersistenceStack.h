@@ -7,7 +7,6 @@
 @interface CNCDPersistenceStack
 {
     CDUnknownBlockType _backendProvider;
-    id _notificationSource;
 }
 
 - (void);

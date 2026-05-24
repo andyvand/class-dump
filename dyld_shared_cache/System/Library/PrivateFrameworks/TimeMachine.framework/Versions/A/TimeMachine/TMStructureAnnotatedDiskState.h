@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TMStructureMetadata;
-
 @interface TMStructureAnnotatedDiskState
 {
     long long _state;
-    TMStructureMetadata *_metadata;
 }
 
 + (id);
 - (id);
 - (id);
-- (long long);
+- (long long)SIGN_IN_MESSAGE_NO_CREATE_REBRAND;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain) TMStructureMetadata *metadata; // @synthesize metadata=_metadata;
 @property(readonly) long long state; // @synthesize state=_state;
 
 @end

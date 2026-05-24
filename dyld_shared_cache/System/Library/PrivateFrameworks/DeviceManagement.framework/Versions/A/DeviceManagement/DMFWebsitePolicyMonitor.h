@@ -17,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)control:textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

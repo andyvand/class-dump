@@ -6,15 +6,11 @@
 
 #import <PassKitCore/PKWebServiceRequest.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, PKZeroingDataContainer;
+@class NSMutableDictionary, PKZeroingDataContainer;
 
 @interface PKOverlayableWebServiceRequest : PKWebServiceRequest
 {
     NSMutableDictionary *_overlayParameters;
-    NSMutableDictionary *_secureOverlayParameters;
-    NSArray *_overridenKeys;
-    _Bool _requiresConfigurationForRetry;
-    _Bool _requiresConfigurationForRedirect;
 }
 
 + (_Bool)0@ù
@@ -33,22 +29,18 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)k;
+- (void)L2;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sock_net_inet6_dgram_no_data;
 - (void)ing.  Found object of class %@.;
 
 // Remaining properties
 @property(readonly, nonatomic) PKZeroingDataContainer *archivedData;
-@property(copy, nonatomic) NSDictionary *overlayParameters;
-@property(nonatomic) _Bool requiresConfigurationForRedirect; // @synthesize requiresConfigurationForRedirect=_requiresConfigurationForRedirect;
-@property(nonatomic) _Bool requiresConfigurationForRetry; // @synthesize requiresConfigurationForRetry=_requiresConfigurationForRetry;
-@property(copy, nonatomic) NSDictionary *secureOverlayParameters;
 
 @end
 

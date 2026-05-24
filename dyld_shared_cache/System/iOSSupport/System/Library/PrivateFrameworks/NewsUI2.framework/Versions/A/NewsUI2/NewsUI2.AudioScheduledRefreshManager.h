@@ -7,12 +7,6 @@
 @interface NewsUI2.AudioScheduledRefreshManager
 {
     id dataManager;
-    id feedConfigManager;
-    id paidBundleConfigManager;
-    id bundleSubscriptionManager;
-    id offlineContentManager;
-    id activityScheduler;
-    id refreshDeduper;
 }
 
 @end

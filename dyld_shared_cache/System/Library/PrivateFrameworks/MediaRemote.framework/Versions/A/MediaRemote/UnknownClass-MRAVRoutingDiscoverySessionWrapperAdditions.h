@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface UnknownClass (MRAVRoutingDiscoverySessionWrapperAdditions)
 - (id);
@@ -18,27 +18,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)hh8;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)8);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *mr_allOutputDevices;
-@property(readonly, nonatomic) _Bool mr_containsVideoOutputDevice;
-@property(readonly, nonatomic) NSArray *mr_distantEndpoints;
-@property(readonly, nonatomic) NSArray *mr_distantOutputDevices;
-@property(readonly, nonatomic) NSString *mr_formattedDebugDescription;
-@property(readonly, nonatomic) NSArray *mr_redactClusterMembers;
 @property(readonly, nonatomic) NSArray *nonCachedResults;
 @end
 

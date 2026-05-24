@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSTextStorage;
+@class NSTextStorage;
 
 __attribute__((visibility("hidden")))
 @interface NSTextStorageElementArray
 {
     NSTextStorage *_container;
-    NSString *_key;
-    unsigned long long _count;
-    NSMutableArray *_elements;
 }
 
 - (void);

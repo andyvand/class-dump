@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNaturalLightingCurve, NSString, NSTimeZone;
+@class HMDNaturalLightingCurve;
 
 __attribute__((visibility("hidden")))
 @interface HMDNaturalLightingContext
 {
     HMDNaturalLightingCurve *_curve;
-    NSTimeZone *_timeZone;
 }
 
 + (_Bool),¦;
 + (id)E,B;
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)-0P;
+- (id)arrow cursor;
+- (id)SPanningScrollView edgePanForMouseEvent:(id)arg1 ];
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id)coveryRequest;
+- (id)internalDiscoveryRequest;
 - (id)lic}@Repushing account transactions;
 - (void)Value isKindOfClass:[NSUUID class]] /* Error: Ran out of types for this method. */;
 - (id)p
@@ -29,14 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) HMDNaturalLightingCurve *curve; // @synthesize curve=_curve;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

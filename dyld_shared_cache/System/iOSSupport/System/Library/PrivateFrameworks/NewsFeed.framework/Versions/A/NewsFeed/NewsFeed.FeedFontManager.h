@@ -7,9 +7,6 @@
 @interface NewsFeed.FeedFontManager
 {
     id assetManager;
-    id registrationManager;
-    id lock;
-    id loadedFonts;
 }
 
 @end

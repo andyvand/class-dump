@@ -11,19 +11,17 @@
 @interface MRSetListeningModeMessage : MRProtocolMessage
 {
     NSString *_listeningMode;
-    NSString *_outputDeviceUID;
 }
 
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)setRegistryEntryID: /* Error: Ran out of types for this method. */;
+- (id)isKeyTransparencyEnabled;
+- (unsigned long long)input. Completion? %@, sourceURL? %@;
 - (id);
 - (void)eviceAirPlayActiveCallback;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *listeningMode; // @synthesize listeningMode=_listeningMode;
-@property(readonly, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

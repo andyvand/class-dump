@@ -7,19 +7,13 @@
 @class NSData;
 
 @protocol _SFPBPhotosRankingInfo
+- (int);
+- (void);
+- (void);
+- (id)`;
+- (NSData *)s;
 
 // Remaining properties
-@property(nonatomic) int analyzedAndIndexedAssetsPercentage;
-@property(nonatomic) int analyzedAssetsPercentage;
-@property(nonatomic) int assetEstimationOffAmount;
-@property(nonatomic) int assetsRetrieved;
-@property(nonatomic) int collectionsRetrieved;
-@property(nonatomic) int embeddedAssetsPercentage;
-@property(nonatomic) int indexedAssetsPercentage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int totalNumberOfAssetsInLibrary;
 @property(nonatomic) int totalNumberOfAssetsIndexed;
-@property(nonatomic) int totalNumberOfEmbeddingMatchedAssets;
-@property(nonatomic) int totalNumberOfMetadataMatchedAssets;
 @end
 

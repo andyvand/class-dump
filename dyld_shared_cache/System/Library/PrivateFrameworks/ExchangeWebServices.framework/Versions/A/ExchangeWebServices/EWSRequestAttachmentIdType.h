@@ -13,23 +13,16 @@
     NSString *_Id;
 }
 
-+ (_Bool);
++ (_Bool)predictionFromFeatures:error: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)kStateWaitingForStopIndication;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *Id; // @synthesize Id=_Id;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

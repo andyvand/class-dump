@@ -7,8 +7,6 @@
 @interface ChronoKit.ActivityExtensionSystemDataCacheKeyProvider
 {
     id _subsystemIdentifier;
-    id _systemDataURLProvider;
-    id _fileManager;
 }
 
 @end

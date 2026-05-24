@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayer, AVPlayer, AVPlayerItem, NSString;
-@protocol CKInternalAudioPlayerDelegate;
+@class AVAudioPlayer;
 
 __attribute__((visibility("hidden")))
 @interface CKInternalAudioPlayer
 {
     AVAudioPlayer *_avAudioPlayer;
-    AVPlayer *_avPlayer;
-    AVPlayerItem *_playerItem;
-    long long _avPlayerState;
-    _Bool _avPlayerPrepareRequested;
-    _Bool _avPlayerPlayRequested;
-    long long _playerType;
-    id <CKInternalAudioPlayerDelegate> _delegate;
 }
 
 - (void);
@@ -37,12 +29,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)E;
 - (void);
 - (void);
 - (void);
 - (float);
-- (void);
+- (void)P;
 - (double)0@ù
 × ;
 - (_Bool)onOnboarding enabled;
@@ -50,21 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)/;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKInternalAudioPlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) double deviceCurrentTime;
-@property(readonly, nonatomic) double duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double playbackSpeed;
 @property(readonly, nonatomic) long long playerType; // @synthesize playerType=_playerType;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly) Class superclass;
-@property(nonatomic) float volume;
 
 @end
 

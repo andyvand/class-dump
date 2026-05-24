@@ -6,21 +6,16 @@
 
 #import <Silex/SXDataTableElementStyle.h>
 
-@class SXDataTableBorder, SXJSONArray, UIColor;
+@class UIColor;
 
 @interface SXDataTableColumnStyle : SXDataTableElementStyle
 {
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)JH;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;
-@property(readonly, nonatomic) SXJSONArray *conditional; // @dynamic conditional;
-@property(readonly, nonatomic) SXDataTableBorder *divider; // @dynamic divider;
-@property(readonly, nonatomic) struct _SXConvertibleValue minimumWidth; // @dynamic minimumWidth;
-@property(readonly, nonatomic) SXJSONArray *selectors; // @dynamic selectors;
-@property(readonly, nonatomic) double width; // @dynamic width;
 
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDVideoResolution, NSNumber;
+@class HMDVideoResolution;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraVideoTier
 {
     HMDVideoResolution *_videoResolution;
-    long long _quality;
-    NSNumber *_maxBitRate;
-    NSNumber *_minBitRate;
-    NSNumber *_rtcpInterval;
-    NSNumber *_framerate;
 }
 
 + (_Bool)¼t;È¦à;
+- (id)hared Trip] arrival notification body;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Library: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -29,16 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void)ATE_BULLETIN_TITLE_OCCUPIED_ROOM;
+- (void);
+- (void)CLIMATE_BULLETIN_TITLE_OCCUPIED_ROOM;
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *framerate; // @synthesize framerate=_framerate;
-@property(readonly, nonatomic) NSNumber *maxBitRate; // @synthesize maxBitRate=_maxBitRate;
-@property(readonly, nonatomic) NSNumber *minBitRate; // @synthesize minBitRate=_minBitRate;
-@property(readonly, nonatomic) long long quality; // @synthesize quality=_quality;
-@property(readonly, nonatomic) NSNumber *rtcpInterval; // @synthesize rtcpInterval=_rtcpInterval;
 @property(readonly, nonatomic) HMDVideoResolution *videoResolution; // @synthesize videoResolution=_videoResolution;
 
 @end

@@ -7,10 +7,6 @@
 @interface BlastDoor.XPCConnection
 {
     id connection;
-    id queue;
-    id instanceType;
-    id process;
-    id sessionCallbacks;
 }
 
 @end

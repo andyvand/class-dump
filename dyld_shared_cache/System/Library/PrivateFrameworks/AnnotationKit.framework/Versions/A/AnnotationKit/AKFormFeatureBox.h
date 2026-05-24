@@ -6,16 +6,9 @@
 
 #import <AnnotationKit/AKFormFeature.h>
 
-@class AKFormFeatureLine;
-
 @interface AKFormFeatureBox : AKFormFeature
 {
     _Bool _widthExpands;
-    _Bool _multiline;
-    unsigned long long _flags;
-    unsigned long long _alignment;
-    AKFormFeatureLine *_baseline;
-    struct CGRect _enclosingRegionRect;
 }
 
 + (id);
@@ -27,20 +20,15 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)Channel %d needed but not available;
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)hV;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alignment; // @synthesize alignment=_alignment;
-@property(retain, nonatomic) AKFormFeatureLine *baseline; // @synthesize baseline=_baseline;
-@property(nonatomic) struct CGRect enclosingRegionRect; // @synthesize enclosingRegionRect=_enclosingRegionRect;
 @property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(nonatomic, getter=isMultiline) _Bool multiline; // @synthesize multiline=_multiline;
-@property(nonatomic) _Bool widthExpands; // @synthesize widthExpands=_widthExpands;
 
 @end
 

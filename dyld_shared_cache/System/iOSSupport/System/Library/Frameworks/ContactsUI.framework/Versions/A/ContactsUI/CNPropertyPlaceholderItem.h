@@ -22,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *property; // @synthesize property=_property;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

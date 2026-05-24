@@ -6,25 +6,15 @@
 
 #import <MediaRemote/MRExternalDeviceTransport.h>
 
-@class MRAVOutputDevice, MRCompanionLinkClient, MRExternalDeviceTransportConnection, NSError, NSObject, NSString, RPCompanionLinkDevice;
-@protocol OS_dispatch_queue;
+@class NSError, NSString;
 
 @interface MRRapportTransport : MRExternalDeviceTransport
 {
     NSError *_error;
-    NSObject<OS_dispatch_queue> *_workerQueue;
-    MRAVOutputDevice *_outputDevice;
-    MRAVOutputDevice *_proxyOutputDevice;
-    id _resetToken;
-    id _disconnectToken;
-    MRCompanionLinkClient *_client;
-    NSString *_sessionUID;
-    MRExternalDeviceTransportConnection *_connection;
-    RPCompanionLinkDevice *_targetDevice;
 }
 
 + (void);
-+ (id);
++ (id)";
 + (void);
 + (id);
 - (_Bool);
@@ -38,13 +28,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
+- (void)b;
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -53,9 +43,7 @@
 - (id)ìù	;
 
 // Remaining properties
-@property(retain, nonatomic) MRExternalDeviceTransportConnection *connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) NSString *sessionUID; // @synthesize sessionUID=_sessionUID;
-@property(retain, nonatomic) RPCompanionLinkDevice *targetDevice; // @synthesize targetDevice=_targetDevice;
 
 @end
 

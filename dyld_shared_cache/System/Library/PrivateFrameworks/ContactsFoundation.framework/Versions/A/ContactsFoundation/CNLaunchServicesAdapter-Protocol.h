@@ -5,5 +5,7 @@
 //
 
 @protocol CNLaunchServicesAdapter
+- (void);
+- (void)(;
 @end
 

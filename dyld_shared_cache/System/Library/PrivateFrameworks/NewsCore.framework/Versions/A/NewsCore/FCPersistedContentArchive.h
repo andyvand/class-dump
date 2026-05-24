@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (long long);
-- (void)ended;
+- (void)suspended;
 - (id);
 
 @end

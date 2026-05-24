@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMCameraBulletinBoardNotificationCondition.h>
 
-@class HMCameraSignificantEventPersonFamiliarityNotificationCondition, HMCameraSignificantEventReasonNotificationCondition, NSPredicate;
+@class HMCameraSignificantEventReasonNotificationCondition;
 
 @interface HMMutableCameraBulletinBoardNotificationCondition : HMCameraBulletinBoardNotificationCondition
 {
@@ -15,9 +15,6 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSPredicate *dateComponentsPredicate; // @dynamic dateComponentsPredicate;
-@property(copy) NSPredicate *presencePredicate; // @dynamic presencePredicate;
-@property(copy) HMCameraSignificantEventPersonFamiliarityNotificationCondition *significantEventPersonFamiliarityCondition; // @dynamic significantEventPersonFamiliarityCondition;
 @property(copy) HMCameraSignificantEventReasonNotificationCondition *significantEventReasonCondition; // @dynamic significantEventReasonCondition;
 
 @end

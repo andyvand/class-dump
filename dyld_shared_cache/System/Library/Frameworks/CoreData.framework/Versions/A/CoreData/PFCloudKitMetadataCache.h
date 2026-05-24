@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitMetadataCache
 {
     NSMutableDictionary *_recordZoneIDToZoneMetadata;
-    NSMutableDictionary *_objectIDToRecordMetadata;
-    NSMutableDictionary *_recordIDToMirroredRelationshipOrRecordMetadata;
-    NSMutableDictionary *_zoneIDToMtmKeyToMirroredRelationship;
-    NSMutableDictionary *_objectIDToRelationshipNameToExistingMTMKeys;
-    NSMutableDictionary *_objectIDToChangedPropertyKeys;
-    NSMutableSet *_invalidatedMTMKeys;
-    NSMutableSet *_mutableZoneIDs;
 }
 
 - (void);
-- (id);
+- (id);
 
 @end
 

@@ -10,18 +10,14 @@ __attribute__((visibility("hidden")))
 @interface UIViewSpringAnimationState : UIViewAnimationState
 {
     double _mass;
-    double _stiffness;
-    double _damping;
-    double _velocity;
-    _Bool _allowsOverdamping;
 }
 
 + (id);
 + (id);
-+ (void)nt;
++ (void)_maximumSecondaryMovement;
 + (void)N,S_setAdditionalMinimumTopInset:(double)arg1 ,V__additionalMinimumTopInset;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id)ce && appBundleId);

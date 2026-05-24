@@ -6,36 +6,32 @@
 
 #import <UIKitCore/UITableViewCellReorderControl.h>
 
-@class NSString, UIPanGestureRecognizer, UITapGestureRecognizer, _UIFloatingContentView;
+@class _UIFloatingContentView;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewCellFocusableReorderControl : UITableViewCellReorderControl
 {
     _UIFloatingContentView *_floatingContentView;
-    UIPanGestureRecognizer *_panRecognizer;
-    UITapGestureRecognizer *_upArrowButtonRecognizer;
-    UITapGestureRecognizer *_downArrowButtonRecognizer;
-    _Bool _cellHasReorderingAppearance;
 }
 
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)nd doesn't match BlastDoor command (%ld), trustedData:(_Bool)arg1 %@;
+- (void)astDoor processing for trustedData %@;
+- (_Bool)sabled, setting join state to Read Only;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)ultAttributesWithValue: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (_Bool)contentByAddingAttribute:toDefaultAttributesWithValue: /* Error: Ran out of types for this method. */;
 - (void)ìä <;
 - (void)nder or UIStateRestoring:(id)arg1 %@;
-- (void);
+- (void)preparingToRefresh;
 - (_Bool)iguration;
-- (void)ayout;
+- (void)PlatterLayout;
 - (void);
 - (_Bool)ÌB¼e;
 - (void)¼æa;
@@ -44,13 +40,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

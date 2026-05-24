@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class HVConsumerReply, NSString;
 
 @protocol HVConsumer
+- (HVConsumerReply *)EntityRelationship;
 - (NSString *)timent_score, dk_event_id) VALUES (:name, :lcName, :category, :dynamicCategory, :language, :algorithm, :initialScore, :decayRate, :osBuild,     :assetVersion, :sourceRowId, :isRemote, 0, :sentimentScore, :uuidBlob) /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface TIUserDictionaryEntryValue
 {
     NSString *_phrase;
-    NSString *_shortcut;
-    NSNumber *_timestamp;
 }
 
-+ (id);
++ (id)S;
 + (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)rebuildHighlightsDeletingExistingHighlights:reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -36,16 +34,7 @@
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *phrase; // @synthesize phrase=_phrase;
-@property(copy, nonatomic) NSString *shortcut; // @synthesize shortcut=_shortcut;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     DOMHTMLOptGroupElement *_node;
 }
 
-- (void);
-- (id);
+- (void)d participant override;
+- (id)pV;
 - (void);
 - (id);
 - (void);

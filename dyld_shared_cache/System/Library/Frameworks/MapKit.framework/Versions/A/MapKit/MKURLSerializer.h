@@ -8,11 +8,11 @@
 {
 }
 
++ (id)De;
 + (id);
-+ (id);
-- (id);
-- (id);
-- (id);
+- (id)activityNameToInvolvedIdentifiers;
+- (id)_xpcConnectionHelperQueue;
+- (id)_updateCount;
 - (id);
 
 @end

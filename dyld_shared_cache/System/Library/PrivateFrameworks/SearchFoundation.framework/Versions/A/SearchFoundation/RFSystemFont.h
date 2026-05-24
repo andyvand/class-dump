@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface RFSystemFont
 {
     struct {
         unsigned int weight:1;
     } _has;
-    int _weight;
-    NSNumber *_size;
 }
 
 + (_Bool);
-- (id);
+- (id)moveItemFromIndexPath:(id)arg1 toIndexPath: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (void);
+- (void),N,V_conversationProviderIdentifier;
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)transientCollectionListWithCollections:(id)arg1 title:identifier:photoLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)performCompletionWithFileURLs:preparationOptions:error:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)cified;
 - (id);
 - (int);
 - (id);
@@ -32,17 +30,7 @@
 - (void)PrimaryHeaderStackedImageCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSNumber *size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(nonatomic) int weight; // @synthesize weight=_weight;
 
 @end
 

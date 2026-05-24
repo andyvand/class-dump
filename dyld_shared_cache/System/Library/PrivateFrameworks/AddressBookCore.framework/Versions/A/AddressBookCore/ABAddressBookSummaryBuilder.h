@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSMutableString;
+@class ABAddressBook;
 
 @interface ABAddressBookSummaryBuilder
 {
     ABAddressBook *_addressBook;
-    NSMutableString *_summary;
 }
 
 - (id);
@@ -18,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

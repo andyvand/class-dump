@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)omes after its end date in the spans range:(long long)arg1 [%@];
+- (void)StructuredEvent;
 - (void);
 - (void);
 - (void);

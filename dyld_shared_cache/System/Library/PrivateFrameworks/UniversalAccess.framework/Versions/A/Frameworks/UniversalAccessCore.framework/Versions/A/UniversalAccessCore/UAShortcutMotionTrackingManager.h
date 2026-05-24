@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSMotionTrackingInputManager, NSString;
+@class AXSSMotionTrackingInputManager;
 
 __attribute__((visibility("hidden")))
 @interface UAShortcutMotionTrackingManager
 {
     _Bool _hasUsableInputs;
-    AXSSMotionTrackingInputManager *__inputManager;
 }
 
 + (id);
@@ -18,21 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool));
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXSSMotionTrackingInputManager *_inputManager; // @synthesize _inputManager=__inputManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasUsableInputs; // @synthesize hasUsableInputs=_hasUsableInputs;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

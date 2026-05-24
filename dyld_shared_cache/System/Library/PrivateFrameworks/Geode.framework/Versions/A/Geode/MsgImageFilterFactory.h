@@ -8,7 +8,7 @@
 {
 }
 
-+ (void)EV;
++ (void)_EV;
 - (id);
 - (id);
 

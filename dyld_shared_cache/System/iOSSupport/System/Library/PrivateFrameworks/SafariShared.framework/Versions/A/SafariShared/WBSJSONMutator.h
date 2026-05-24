@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface WBSJSONMutator
 {
     id _originalJSONSource;
-    NSSet *_protectedFields;
-    double _fieldDeletionProbability;
-    double _fieldValueChangeProbability;
-    double _fieldTypeChangeProbability;
-    double _collectionFieldSkewFactorToDecreaseProbabilityOfInvalidResults;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
+- (double)Ө;
 - (double);
 - (double);
 - (double);
-- (double);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)V;
 - (id);
 - (id);
 - (id);
@@ -39,10 +32,7 @@
 - (void)Ø;
 
 // Remaining properties
-@property(nonatomic) double collectionFieldSkewFactorToDecreaseProbabilityOfInvalidResults; // @synthesize collectionFieldSkewFactorToDecreaseProbabilityOfInvalidResults=_collectionFieldSkewFactorToDecreaseProbabilityOfInvalidResults;
 @property(nonatomic) double fieldDeletionProbability; // @synthesize fieldDeletionProbability=_fieldDeletionProbability;
-@property(nonatomic) double fieldTypeChangeProbability; // @synthesize fieldTypeChangeProbability=_fieldTypeChangeProbability;
-@property(nonatomic) double fieldValueChangeProbability; // @synthesize fieldValueChangeProbability=_fieldValueChangeProbability;
 
 @end
 

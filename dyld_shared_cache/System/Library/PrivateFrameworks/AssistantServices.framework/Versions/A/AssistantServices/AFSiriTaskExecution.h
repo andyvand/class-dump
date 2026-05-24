@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriRequest, AFWatchdogTimer, NSObject, NSString, NSXPCListener;
-@protocol AFSiriTaskDelivering, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFSiriTaskExecution
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFSiriRequest *_request;
-    id <AFSiriTaskDelivering> _taskDeliverer;
-    NSXPCListener *_usageResultListener;
-    CDUnknownBlockType _deliveryHandler;
-    CDUnknownBlockType _completionHandler;
-    long long _state;
-    id _keepAliveCycle;
-    AFWatchdogTimer *_taskResponseWatchdogTimer;
-    NSXPCListener *_taskResponseListener;
 }
 
 - (void);
-- (id);
+- (id)@c;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)com.apple.passd.default_transaction;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)ccessibilityState;
+- (void)_accessibilityState;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSItemProvider;
+
 @protocol PXPhotosViewDelegate
+
+@optional
+- (NSItemProvider *);
 @end
 

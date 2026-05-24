@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMapContext, ORCHSchemaORCHMUXRequestEnded, ORCHSchemaORCHMUXRequestStarted;
+@class ORCHSchemaORCHMUXRequestStarted;
 
 @interface ORCHSchemaORCHMUXBridgeContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHMUXRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHMUXRequestEnded *_ended;
-    ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMapContext *_ephemeralToAggregationIdentifierMap;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasEphemeralToAggregationIdentifierMap;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -39,24 +33,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool).N;
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)Threshold;
+- (id)_checkerHSThreshold;
 - (id)",&,N,V_startedOrChanged;
 - (void)d;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHMUXRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHMUXEphemeralToAggregationIdentifierMapContext *ephemeralToAggregationIdentifierMap; // @synthesize ephemeralToAggregationIdentifierMap=_ephemeralToAggregationIdentifierMap;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasEphemeralToAggregationIdentifierMap; // @synthesize hasEphemeralToAggregationIdentifierMap=_hasEphemeralToAggregationIdentifierMap;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHMUXRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

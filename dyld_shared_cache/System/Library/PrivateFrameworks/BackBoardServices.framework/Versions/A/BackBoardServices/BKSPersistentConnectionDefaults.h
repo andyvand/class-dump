@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSPersistentConnectionDefaults
 {
 }
 
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int forceDemoMaxHBI; // @dynamic forceDemoMaxHBI;
-@property(retain, nonatomic) NSString *wifiInterfaceName; // @dynamic wifiInterfaceName;
 
 @end
 

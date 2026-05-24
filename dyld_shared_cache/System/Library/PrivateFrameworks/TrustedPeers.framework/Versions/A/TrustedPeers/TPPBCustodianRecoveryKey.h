@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface TPPBCustodianRecoveryKey
 {
     NSData *_encryptionPublicKey;
-    int _kind;
-    NSData *_signingPublicKey;
-    NSString *_uuid;
-    struct {
-        unsigned int kind:1;
-    } _has;
 }
 
 - (void);
@@ -30,28 +24,21 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)CL Start Event, setting state to Active;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (int);
-- (int);
+- (int)_compareBytes:FromStart:WithLen:With: /* Error: Ran out of types for this method. */;
+- (int)a wifiAccess key but no entries;
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encryptionPublicKey; // @synthesize encryptionPublicKey=_encryptionPublicKey;
-@property(readonly, nonatomic) _Bool hasEncryptionPublicKey;
-@property(nonatomic) _Bool hasKind;
-@property(readonly, nonatomic) _Bool hasSigningPublicKey;
 @property(readonly, nonatomic) _Bool hasUuid;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) NSData *signingPublicKey; // @synthesize signingPublicKey=_signingPublicKey;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TPPBPolicyRedactionAuthenticatedCiphertext;
+@class TPPBPolicyRedactionAuthenticatedCiphertext;
 
 @interface TPPBPolicyRedaction
 {
     TPPBPolicyRedactionAuthenticatedCiphertext *_ciphertext;
-    NSString *_name;
 }
 
-- (void);
+- (void)!;
 - (_Bool);
-- (id);
+- (id)u!;
 - (_Bool);
 - (void);
 - (void);
@@ -23,17 +22,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)get the transaction amount use for Suica, invalid (current) block:(id)arg1 %@;
+- (id)_Finalize(CFTypeRef);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)thNss:(id)arg1 Bw:Phy:] /* Error: Ran out of types for this method. */;
+- (void)';
 
 // Remaining properties
-@property(retain, nonatomic) TPPBPolicyRedactionAuthenticatedCiphertext *ciphertext; // @synthesize ciphertext=_ciphertext;
-@property(readonly, nonatomic) _Bool hasCiphertext;
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

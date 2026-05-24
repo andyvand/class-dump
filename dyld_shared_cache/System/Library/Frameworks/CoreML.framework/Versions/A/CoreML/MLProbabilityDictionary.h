@@ -5,23 +5,21 @@
 //
 
 @class MLProbabilityDictionarySharedKeySet;
-@protocol MLProbabilityDictionaryStorage;
 
 @interface MLProbabilityDictionary
 {
     MLProbabilityDictionarySharedKeySet *_labelIndexMap;
-    id <MLProbabilityDictionaryStorage> _storage;
 }
 
 + (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,7 +30,6 @@
 
 // Remaining properties
 @property(readonly) MLProbabilityDictionarySharedKeySet *labelIndexMap; // @synthesize labelIndexMap=_labelIndexMap;
-@property(readonly) id <MLProbabilityDictionaryStorage> storage; // @synthesize storage=_storage;
 
 @end
 

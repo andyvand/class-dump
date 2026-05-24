@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
++ (id)!;
 - (void);
 - (id);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)blurControls:(id)arg1 inFrame:webView:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 posterFrameTime;

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CHSchemaCHEvaluatorMetadata, CHSchemaCHUserAlignmentInferenceMetadata, NSData;
+@class CHSchemaCHEvaluatorMetadata;
 
 @interface CHSchemaCHUserAlignmentInferenceGenerated : SISchemaInstrumentationMessage
 {
     CHSchemaCHEvaluatorMetadata *_evaluatorMetadata;
-    CHSchemaCHUserAlignmentInferenceMetadata *_userAlignmentInferenceMetadata;
-    _Bool _hasEvaluatorMetadata;
-    _Bool _hasUserAlignmentInferenceMetadata;
 }
 
 - (id);
@@ -34,16 +31,12 @@
 - (_Bool);
 - (id);
 - (id)emaExecutorAppIntentMetrics";
-- (id)aEXPAllocationChangelogSnapshot;
+- (id)EXPSiriSchemaEXPAllocationChangelogSnapshot;
 - (id)TÇ;
 - (void)J&;
 
 // Remaining properties
 @property(retain, nonatomic) CHSchemaCHEvaluatorMetadata *evaluatorMetadata; // @synthesize evaluatorMetadata=_evaluatorMetadata;
-@property(nonatomic) _Bool hasEvaluatorMetadata; // @synthesize hasEvaluatorMetadata=_hasEvaluatorMetadata;
-@property(nonatomic) _Bool hasUserAlignmentInferenceMetadata; // @synthesize hasUserAlignmentInferenceMetadata=_hasUserAlignmentInferenceMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CHSchemaCHUserAlignmentInferenceMetadata *userAlignmentInferenceMetadata; // @synthesize userAlignmentInferenceMetadata=_userAlignmentInferenceMetadata;
 
 @end
 

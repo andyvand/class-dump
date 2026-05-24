@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (void)r:(id)arg1;
+- (void)newLibraryWithStitchedDescriptor:(id)arg1 error: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAnalyticsEvent, NSDate, NSString;
+@class AFAnalyticsEvent;
 
 @interface AFAnalyticsEventRecord
 {
     AFAnalyticsEvent *_event;
-    NSString *_streamUID;
-    NSDate *_dateCreated;
-    NSString *_speechId;
-    NSString *_recordId;
 }
 
 + (_Bool);
@@ -23,25 +19,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
-- (void);
+- (void)AFSafetyBlock;
 - (id)
 ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) AFAnalyticsEvent *event; // @synthesize event=_event;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *recordId; // @synthesize recordId=_recordId;
-@property(readonly, copy, nonatomic) NSString *speechId; // @synthesize speechId=_speechId;
-@property(readonly, copy, nonatomic) NSString *streamUID; // @synthesize streamUID=_streamUID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSettings, FBSSceneSettings, NSSet, NSString;
+@class FBSSceneSettings, NSString;
 
 @interface FBSSceneSnapshotContext
 {
     NSString *_sceneID;
-    FBSSceneSettings *_settings;
-    NSString *_name;
-    double _scale;
-    NSSet *_layersToExclude;
-    double _expirationInterval;
-    BSSettings *_clientExtendedData;
-    struct CGRect _frame;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (double);
 - (id);
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (struct CGRect);
-- (id);
+- (id)dateLastMessageReadInThread;
+- (void):(struct CGRect)arg1 %-5d %s:player %p, clientID:0x%lx /* Error: Ran out of types for this method. */;
+- (void)edCaption ;
 - (void);
-- (void);
-- (void);
-- (double);
+- (double)pronunciationFirstName;
 - (id);
 - (void);
 - (void);
@@ -45,21 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) BSSettings *clientExtendedData; // @synthesize clientExtendedData=_clientExtendedData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double expirationInterval; // @synthesize expirationInterval=_expirationInterval;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSSet *layersToExclude; // @synthesize layersToExclude=_layersToExclude;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, copy, nonatomic) NSString *sceneID; // @synthesize sceneID=_sceneID;
 @property(copy, nonatomic) FBSSceneSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
 
 @end
 

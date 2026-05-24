@@ -6,25 +6,20 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGHolidayQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
-- (double);
+- (double)colorWithColorSpace:components:count: /* Error: Ran out of types for this method. */;
+- (id)kedElement;
+- (unsigned short)T;
 - (id);
 - (unsigned short);
-- (id);
 - (unsigned short);
-- (unsigned short);
-- (unsigned short);
-- (id)dCancelProcessor: /* Error: Ran out of types for this method. */;
-- (void)oriesEnrichmentProcessor;
+- (unsigned short))=;
+- (id)enrichmentManager:didCancelProcessor: /* Error: Ran out of types for this method. */;
+- (void)PGGraphMemoriesEnrichmentProcessor;
 
 @end
 

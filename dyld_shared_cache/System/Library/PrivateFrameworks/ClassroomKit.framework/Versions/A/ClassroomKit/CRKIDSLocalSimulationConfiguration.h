@@ -7,7 +7,6 @@
 @interface CRKIDSLocalSimulationConfiguration
 {
     _Bool _shouldForceAccountsInactive;
-    _Bool _shouldForceRemoteUsersNotRegistered;
 }
 
 + (_Bool);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool shouldForceAccountsInactive; // @synthesize shouldForceAccountsInactive=_shouldForceAccountsInactive;
-@property(nonatomic) _Bool shouldForceRemoteUsersNotRegistered; // @synthesize shouldForceRemoteUsersNotRegistered=_shouldForceRemoteUsersNotRegistered;
 
 @end
 

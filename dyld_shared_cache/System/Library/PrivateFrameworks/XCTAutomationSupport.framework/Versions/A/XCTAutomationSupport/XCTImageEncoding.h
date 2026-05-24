@@ -9,12 +9,11 @@
 @interface XCTImageEncoding
 {
     NSString *_uniformTypeIdentifier;
-    double _compressionQuality;
 }
 
++ (double);
 + (double);
-+ (double);
-+ (_Bool);
++ (_Bool)l"@"NSError">;
 - (id);
 - (double);
 - (id);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double compressionQuality; // @synthesize compressionQuality=_compressionQuality;
 @property(readonly, copy, nonatomic) NSString *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
 
 @end

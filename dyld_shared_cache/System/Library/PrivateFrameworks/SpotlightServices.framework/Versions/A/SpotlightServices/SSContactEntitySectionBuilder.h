@@ -15,8 +15,8 @@
 
 - (_Bool);
 - (void);
-- (id);
-- (void)rmCommand: /* Error: Ran out of types for this method. */;
+- (id)setFixedFallbackImageFont: /* Error: Ran out of types for this method. */;
+- (void)didPerformCommand: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak SSContactResultBuilder *contactResultBuilder; // @synthesize contactResultBuilder=_contactResultBuilder;

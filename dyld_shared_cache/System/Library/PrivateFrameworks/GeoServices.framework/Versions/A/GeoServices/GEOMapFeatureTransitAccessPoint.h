@@ -7,8 +7,6 @@
 @interface GEOMapFeatureTransitAccessPoint
 {
     void *_feature;
-    CDStruct_2c43369c _coordinate;
-    shared_ptr_07a3cc42 _retainedTile;
 }
 
 - (double);
@@ -23,11 +21,7 @@
 - (void *)/9;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
 @property(readonly, nonatomic) void *feature;
-@property(readonly, nonatomic) _Bool isEntrance;
-@property(readonly, nonatomic) _Bool isExit;
-@property(readonly, nonatomic) double radiusMeters;
 
 @end
 

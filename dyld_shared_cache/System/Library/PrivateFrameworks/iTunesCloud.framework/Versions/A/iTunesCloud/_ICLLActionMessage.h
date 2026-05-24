@@ -4,34 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _ICLLAddQueueItemsAction, _ICLLClientInfoAction, _ICLLCurrentItemChangeAction, _ICLLCurrentItemTransitionAction, _ICLLDisplayMessage, _ICLLMoveQueueItemAction, _ICLLParticipantChangeAction, _ICLLPlayNowQueueItemsAction, _ICLLPlaybackSyncAction, _ICLLQueueSyncAction, _ICLLReactionAction, _ICLLRemoveQueueItemAction, _ICLLReplaceQueueItemsAction, _ICLLServerNoticeAction;
-
 __attribute__((visibility("hidden")))
 @interface _ICLLActionMessage
 {
     long long _originatorId;
-    int _action;
-    _ICLLAddQueueItemsAction *_addItems;
-    _ICLLClientInfoAction *_clientInfo;
-    _ICLLCurrentItemChangeAction *_currentItemChange;
-    _ICLLCurrentItemTransitionAction *_currentItemTransition;
-    _ICLLDisplayMessage *_displayMessage;
-    _ICLLMoveQueueItemAction *_moveItem;
-    NSString *_originatorUUID;
-    _ICLLParticipantChangeAction *_participantChange;
-    _ICLLPlayNowQueueItemsAction *_playNowQueueItems;
-    _ICLLPlaybackSyncAction *_playbackSync;
-    _ICLLQueueSyncAction *_queueSync;
-    _ICLLReactionAction *_reaction;
-    _ICLLRemoveQueueItemAction *_removeItem;
-    _ICLLReplaceQueueItemsAction *_replaceQueueItems;
-    _ICLLServerNoticeAction *_serverNotice;
-    _Bool _displayNotice;
-    struct {
-        unsigned int originatorId:1;
-        unsigned int action:1;
-        unsigned int displayNotice:1;
-    } _has;
 }
 
 - (id);

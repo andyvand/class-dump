@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     UIView *_actionContentView;
 }
 
+- (void)K;
+- (_Bool)initWithData:(id)arg1 accountUniqueID:fromID:loginID:serviceName: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ly to chat:%@ /* Error: Ran out of types for this method. */;
+- (id)count %@ (email alias:%@) /* Error: Ran out of types for this method. */;
+- (id)setting active:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
-- (id)maryMenu;
+- (id)primaryMenu;
 - (void)ired scene update for candidate window:(_Bool)arg1 %p; scene:%@ /* Error: Ran out of types for this method. */;
 - (void);
 

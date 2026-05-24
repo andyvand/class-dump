@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSString;
+@class NSString;
 
 @protocol INDeleteParkingLocationIntentResponseExport
-- (long long)rceInCar:completion: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (long long)handleSetAudioSourceInCar:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) CLPlacemark *parkingLocation;
-@property(copy) NSString *parkingNote;
 @end
 

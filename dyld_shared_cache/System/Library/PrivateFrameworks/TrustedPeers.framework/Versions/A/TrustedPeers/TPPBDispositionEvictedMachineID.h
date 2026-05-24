@@ -11,11 +11,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)ssing mandatory CVS tag;
+- (id)ntUUID=%@, clientTypeUUID=%@, streamSendSocketBufferSize=%@, streamQoS=%d, streamThreadPriority=%u, messagingLogLevel=%d).
+;
 - (id);
 
 @end

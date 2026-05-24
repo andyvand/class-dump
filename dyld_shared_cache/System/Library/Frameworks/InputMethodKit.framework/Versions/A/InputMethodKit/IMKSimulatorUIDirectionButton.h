@@ -9,11 +9,11 @@
     long long _direction;
 }
 
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
-- (void)ationInView:(id)arg1 frame: /* Error: Ran out of types for this method. */;
+- (void)drawAnnotationInView:(id)arg1 frame: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long direction; // @synthesize direction=_direction;

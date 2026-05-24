@@ -13,12 +13,12 @@
     ICDrawing *_drawing;
 }
 
++ (unsigned int);
 + (unsigned int);
-+ (unsigned int);
-- (unsigned long long);
+- (unsigned long long) ;
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void)|æ;
 
 // Remaining properties

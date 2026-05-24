@@ -6,21 +6,19 @@
 
 #import <AppleMediaServices/AMSDelegateAuthenticateTask.h>
 
-@class AMSProcessInfo, AMSURLResult, AMSURLTaskInfo;
+@class AMSProcessInfo, AMSURLTaskInfo;
 
 @interface AMSDelegateTokenTask : AMSDelegateAuthenticateTask
 {
     AMSProcessInfo *_processInfo;
-    AMSURLTaskInfo *_taskInfo;
-    AMSURLResult *_urlResult;
 }
 
 - (id);
-- (void);
+- (void);
+- (id)B;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,9 +31,7 @@ $º	l¥Qªøb­ò4t"Á] àæÞÒF#äì9KôV§¦I×{ß¼eÐ16
 - (id);
 
 // Remaining properties
-@property(retain) AMSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
 @property(retain) AMSURLTaskInfo *taskInfo; // @synthesize taskInfo=_taskInfo;
-@property(retain) AMSURLResult *urlResult; // @synthesize urlResult=_urlResult;
 
 @end
 

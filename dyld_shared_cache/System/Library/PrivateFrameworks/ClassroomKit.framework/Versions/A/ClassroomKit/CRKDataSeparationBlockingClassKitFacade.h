@@ -11,7 +11,6 @@
 @interface CRKDataSeparationBlockingClassKitFacade : CRKClassKitFacadeDecoratorBase
 {
     CRKClassKitCurrentUserProvider *_currentUserProvider;
-    long long _modifiedAccountState;
 }
 
 + (id);
@@ -24,14 +23,13 @@
 - (id);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)i7;
+- (void)control_prepareforoutputio__result_s=C(?={audiodsputility_setuperror_s=Q})}8;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CRKClassKitCurrentUserProvider *currentUserProvider; // @synthesize currentUserProvider=_currentUserProvider;
-@property(nonatomic) long long modifiedAccountState; // @synthesize modifiedAccountState=_modifiedAccountState;
 
 @end
 

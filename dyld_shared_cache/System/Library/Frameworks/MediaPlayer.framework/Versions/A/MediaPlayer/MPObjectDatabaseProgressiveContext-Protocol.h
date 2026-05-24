@@ -8,8 +8,6 @@
 - (void)Þ\àXá;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(copy, nonatomic) CDUnknownBlockType onInvalidate;
 @property(nonatomic) unsigned int tag;
 @end
 

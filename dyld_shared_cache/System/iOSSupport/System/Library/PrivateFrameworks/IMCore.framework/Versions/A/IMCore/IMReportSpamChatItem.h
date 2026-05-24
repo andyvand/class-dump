@@ -6,27 +6,13 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class NSString;
-
 @interface IMReportSpamChatItem : IMTranscriptChatItem
 {
     _Bool _wasReportedAsSpam;
-    _Bool _isGroupMessage;
-    _Bool _hasMultipleMessages;
-    _Bool _showReportSMSSpam;
-    _Bool _isBusinessChat;
-    _Bool _canUnsubscribe;
-    NSString *_filterExtension;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnsubscribe; // @synthesize canUnsubscribe=_canUnsubscribe;
-@property(readonly, copy, nonatomic) NSString *filterExtension; // @synthesize filterExtension=_filterExtension;
-@property(readonly, nonatomic) _Bool hasMultipleMessages; // @synthesize hasMultipleMessages=_hasMultipleMessages;
-@property(readonly, nonatomic) _Bool isBusinessChat; // @synthesize isBusinessChat=_isBusinessChat;
-@property(readonly, nonatomic) _Bool isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
-@property(readonly, nonatomic) _Bool showReportSMSSpam; // @synthesize showReportSMSSpam=_showReportSMSSpam;
 @property(readonly, nonatomic) _Bool wasReportedAsSpam; // @synthesize wasReportedAsSpam=_wasReportedAsSpam;
 @end
 

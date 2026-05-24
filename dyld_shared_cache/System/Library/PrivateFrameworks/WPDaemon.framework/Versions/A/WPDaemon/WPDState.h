@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WPDState
 {
     _Bool _restricted;
-    _Bool _initialUpdate;
-    long long _state;
-    NSObject<OS_dispatch_queue> *_cbQueue;
-    CDUnknownBlockType _notification;
-    NSMutableSet *_cbManagers;
-    NSMutableDictionary *_cbStates;
 }
 
 + (long long);
@@ -35,20 +26,14 @@
 - (void);
 - (void);
 - (long long);
+- (void)#;
 - (void);
-- (void);
-- (void);
+- (void)transcodeOptionIsAutoloopVideo;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableSet *cbManagers; // @synthesize cbManagers=_cbManagers;
-@property __weak NSObject<OS_dispatch_queue> *cbQueue; // @synthesize cbQueue=_cbQueue;
-@property(retain) NSMutableDictionary *cbStates; // @synthesize cbStates=_cbStates;
-@property _Bool initialUpdate; // @synthesize initialUpdate=_initialUpdate;
-@property __weak CDUnknownBlockType notification; // @synthesize notification=_notification;
-@property _Bool restricted; // @synthesize restricted=_restricted;
 @property long long state; // @synthesize state=_state;
 
 @end

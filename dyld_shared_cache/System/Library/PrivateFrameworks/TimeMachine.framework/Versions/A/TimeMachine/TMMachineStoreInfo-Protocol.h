@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol TMMachineStoreInfo
 
 // Remaining properties
-@property(readonly) NSString *hardwareModelIdentifier;
-@property(readonly) NSString *hostUUID;
-@property(readonly) NSDate *latestCompleteBackupDate;
 @property(readonly) NSString *name;
 @end
 

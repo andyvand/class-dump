@@ -6,23 +6,20 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSXPCConnection, VSIdentityProvider, VSOptional;
+@class VSIdentityProvider, VSOptional;
 
 @interface VSDeveloperIdentityProviderChangeOperation : VSAsyncOperation
 {
     VSIdentityProvider *_identityProvider;
-    long long _changeKind;
-    VSOptional *_result;
-    NSXPCConnection *_connection;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)110__function6__funcIZ37-[FIFinderView viewWillMoveToWindow:(id)arg1 ]E3$_1FvvEEE;
 - (id);
 - (id);
 - (void);
@@ -31,9 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long changeKind; // @synthesize changeKind=_changeKind;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) VSIdentityProvider *identityProvider; // @synthesize identityProvider=_identityProvider;
 @property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTWeakReference, NSDate;
+@class CUTWeakReference;
 
 @interface IMDInconsistency
 {
     CUTWeakReference *_contextWeakReference;
-    NSDate *_firstOccurrence;
-    unsigned long long _count;
 }
 
 - (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id context;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly) NSDate *firstOccurrence; // @synthesize firstOccurrence=_firstOccurrence;
 
 @end
 

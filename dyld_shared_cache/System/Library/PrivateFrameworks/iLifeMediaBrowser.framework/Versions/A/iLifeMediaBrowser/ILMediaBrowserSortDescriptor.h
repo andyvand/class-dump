@@ -11,7 +11,8 @@
 + (id);
 + (id);
 - (id);
-- (long long);
+- (long long)<
+;
 
 @end
 

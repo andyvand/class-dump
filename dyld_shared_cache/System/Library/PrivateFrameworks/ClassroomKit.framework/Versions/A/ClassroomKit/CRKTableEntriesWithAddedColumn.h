@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol CRKTableEntries;
 
 @interface CRKTableEntriesWithAddedColumn
 {
     id <CRKTableEntries> mOrigin;
-    unsigned long long mIndex;
-    NSArray *mEntries;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

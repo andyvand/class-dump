@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface __VMULeaksMarkerObject
 {
     CDStruct_f7b194fa *_region;
-    unsigned int _entryIndex;
 }
 
 - (void);
 - (unsigned int);
 - (void);
 - (void);
-- (CDStruct_f7b194fa *)pthFirstSearch:nodeVisitBlock:edgeVisitBlock: /* Error: Ran out of types for this method. */;
+- (CDStruct_f7b194fa *)depthFirstSearch:nodeVisitBlock:edgeVisitBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int entryIndex; // @synthesize entryIndex=_entryIndex;
 @property(nonatomic) CDStruct_f7b194fa *region; // @synthesize region=_region;
 
 @end

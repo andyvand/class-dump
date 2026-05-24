@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     _Bool _allowHDR;
 }
 
-- (_Bool);
+- (_Bool)reindexRecentMessagesWithHandles:batchDeferralTime:messageAge:reason: /* Error: Ran out of types for this method. */;
+- (id)initWithMessageBodyWithNativeAttributes:(id)arg1 fileTransferGuids:(double)arg2;
+- (_Bool)_createRecordZoneIfNeeded:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)3WCKEB;
 - (id);
 - (unsigned long long);
 - (_Bool)touchIgnoredUUIDSet;
-- (_Bool)ewForFocus: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)bolConfiguration;
+- (_Bool)_updateDefaultAccessoryViewForFocus: /* Error: Ran out of types for this method. */;
+- (void)_contentEdgeInsets;
+- (id)UIImageSymbolConfiguration;
 - (void)\P[;
 - (id)ìûÓÄ¢\;
 - (struct CGSize);

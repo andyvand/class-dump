@@ -9,9 +9,6 @@
 @protocol MPMutableRadioIdentifiers
 
 // Remaining properties
-@property(copy, nonatomic) NSString *stationEventID;
-@property(copy, nonatomic) NSString *stationHash;
-@property(nonatomic) long long stationID;
 @property(copy, nonatomic) NSString *stationStringID;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface _CNDonationAgentLogger
@@ -17,63 +17,56 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)TRINotificationProcessingPolicy_AssetDownloadPolicy;
+- (void)ProactiveMlf;
 - (void);
 - (void);
+- (void)x;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mathRecognitionController:didEraseStrokesInExpressions: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)fghi/;
+- (void);
+- (void).;
+- (void)one result.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)#;
+- (void);
+- (void);
+- (void)a;
+- (void);
+- (void)isProxy;
+- (void)פ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_taggerForString:language: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log_t; // @synthesize log_t=_log_t;
-@property(readonly) Class superclass;
 
 @end
 

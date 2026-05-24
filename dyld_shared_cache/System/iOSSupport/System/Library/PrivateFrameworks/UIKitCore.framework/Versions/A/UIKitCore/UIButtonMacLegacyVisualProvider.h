@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIButtonLegacyVisualProvider.h>
 
-@class NSString, UIButton, UIButtonMacVisualElement;
+@class UIButtonMacVisualElement;
 
 @interface UIButtonMacLegacyVisualProvider : UIButtonLegacyVisualProvider
 {
@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-+ (id);
++ (id)kMMCSRequestOptionCacheDeleteAvailableSpaceClass;
 + (_Bool);
 - (id);
 - (_Bool);
@@ -25,12 +25,12 @@
 - (struct CGSize)xSet"16^B24;
 - (id)putViewInfoClass(void)_block_invoke;
 - (void);
-- (_Bool);
+- (_Bool)MPLumaTrackingEMASettleDelay;
 - (id)F);
 - (void)ionViewCellC_yt´°;
 - (void)ìÊnþËnþèYÄ7<Ønþ;
-- (void)lLightEffectView;
-- (void)igurationCornerStyle;
+- (void)UIDirectionalLightEffectView;
+- (void)NUIButtonConfigurationCornerStyle;
 - (void)u|43¸÷sþ;
 - (id);
 - (CDStruct_c3b9c2ee)´¾[;
@@ -51,22 +51,7 @@
 - (void)Àÿ!);
 
 // Remaining properties
-@property(nonatomic) _Bool avoidDefaultTitleAndImageLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) UIButton *button;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIButton",?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double focusSizeIncrease;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

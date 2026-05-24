@@ -6,14 +6,11 @@
 
 #import <DocumentManager/DOCFrecencyBasedEvent.h>
 
-@class FPItem, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface DOCHotFolderEvent : DOCFrecencyBasedEvent
 {
     NSString *_appBundleIdentifier;
-    FPItem *_folderItem;
-    unsigned long long _type;
-    NSNumber *_rowId;
 }
 
 - (void);
@@ -22,17 +19,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_TtC16LinkPresentation11LPTextRange;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(copy, nonatomic) FPItem *folderItem; // @synthesize folderItem=_folderItem;
 @property(retain, nonatomic) NSNumber *rowId; // @synthesize rowId=_rowId;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

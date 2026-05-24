@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (id);
+- (id)CKAggregateAcknowledgmentBalloonView;
 
 @end
 

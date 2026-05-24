@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSError;
+@class IDSURI;
 
 @interface IDSPayloadVerificationResult
 {
     _Bool _verified;
-    IDSURI *_uri;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -18,15 +16,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)cDeviceIdentityContainer becuase we are missing the legacyPublicIdentity;
 - (id)DÎ1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) IDSURI *uri; // @synthesize uri=_uri;
-@property(readonly, nonatomic) _Bool verified; // @synthesize verified=_verified;
 
 @end
 

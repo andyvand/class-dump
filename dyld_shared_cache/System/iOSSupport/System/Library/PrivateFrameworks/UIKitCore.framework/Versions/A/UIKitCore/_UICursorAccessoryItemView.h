@@ -6,24 +6,17 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class UIImageView, UILabel, _UIShapeView;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UICursorAccessoryItemView : UIControl
 {
     UILabel *_labelView;
-    UIImageView *_imageView;
-    _UIShapeView *_backgroundView;
-    _Bool _highlighted;
-    _Bool _collapsed;
-    unsigned long long _style;
-    unsigned long long _roundedEdges;
-    CDStruct_5aea72b4 _content;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)fy recipient flag on local device for message:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -34,24 +27,18 @@ __attribute__((visibility("hidden")))
 - (_Bool)!¬@ùc°1Â0@ù
 × ;
 - (void);
-- (id)gestion;
+- (id)_chosenSuggestion;
 - (void)t properly implemented when there's no search controller;
 - (void);
 - (void);
-- (_Bool)roupedBackgroundColorLegacyWhite;
-- (CDStruct_5aea72b4);
+- (_Bool)tableCellGroupedBackgroundColorLegacyWhite;
+- (CDStruct_b86b310a);
 - (void)ü\;
 - (_Bool)æþ;
 - (void)4_;
 - (void)´îâþÁi;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(nonatomic) CDStruct_5aea72b4 content; // @synthesize content=_content;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) double horizontalPadding;
-@property(nonatomic) unsigned long long roundedEdges; // @synthesize roundedEdges=_roundedEdges;
 @property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end

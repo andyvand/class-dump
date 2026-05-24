@@ -5,5 +5,8 @@
 //
 
 @protocol ReaderBundlePageMessageReceiver
+- (void);
+- (void)``2;
+- (void);
 @end
 

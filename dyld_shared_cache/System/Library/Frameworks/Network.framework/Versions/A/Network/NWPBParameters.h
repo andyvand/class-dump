@@ -4,66 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, NWPBEndpoint, NWPBInterface;
-
 __attribute__((visibility("hidden")))
 @interface NWPBParameters
 {
-    CDStruct_95bda58d _prohibitedInterfaceSubTypes;
-    CDStruct_95bda58d _prohibitedInterfaceTypes;
-    NSString *_account;
-    unsigned int _addressFamily;
-    int _dataMode;
-    NSString *_effectiveBundleID;
-    NSString *_effectiveProcessUUID;
-    unsigned int _ipProtocol;
-    NWPBEndpoint *_localEndpoint;
-    NSData *_metadata;
-    unsigned int _multipathService;
-    NSMutableArray *_preferredAgents;
-    NSMutableArray *_prohibitedAgents;
-    NSMutableArray *_prohibitedInterfaces;
-    NSString *_realProcessUUID;
-    NSMutableArray *_requiredAgents;
-    NWPBInterface *_requiredInterface;
-    int _requiredInterfaceType;
-    unsigned int _trafficClass;
-    NSString *_url;
-    _Bool _fastOpen;
-    _Bool _keepalive;
-    _Bool _longOutstandingQueries;
-    _Bool _noFallback;
-    _Bool _prohibitExpensive;
-    _Bool _reduceBuffering;
-    _Bool _reuseLocalAddress;
-    _Bool _useAWDL;
-    _Bool _useP2P;
     struct {
-        unsigned int addressFamily:1;
-        unsigned int dataMode:1;
-        unsigned int ipProtocol:1;
-        unsigned int multipathService:1;
-        unsigned int requiredInterfaceType:1;
-        unsigned int trafficClass:1;
-        unsigned int fastOpen:1;
-        unsigned int keepalive:1;
-        unsigned int longOutstandingQueries:1;
-        unsigned int noFallback:1;
-        unsigned int prohibitExpensive:1;
-        unsigned int reduceBuffering:1;
-        unsigned int reuseLocalAddress:1;
-        unsigned int useAWDL:1;
-        unsigned int useP2P:1;
-    } _has;
+        int *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _prohibitedInterfaceSubTypes;
 }
 
-- (void);
+- (void)orSpaceSRGB;
 - (id);
-- (void);
+- (void)c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)Primary;
+- (id)_ethernetPrimary;
 - (id), q;
 - (void)@;
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)`;
 - (struct ipp_status_t);
 - (id);
 

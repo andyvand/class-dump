@@ -6,42 +6,28 @@
 
 #import <CalendarUI/CalUIListViewCell.h>
 
-@class CalUILabel, CalUILayerBackedView, CalUIListViewCellBackground, EKEvent, NSImageView, NSStackView;
+@class NSImageView;
 
 @interface CalUIListViewTimedEventCell : CalUIListViewCell
 {
     NSImageView *_travelImage;
-    CalUILabel *_travelField;
-    CalUILabel *_travelTimeField;
-    NSStackView *_travelStack;
-    CalUILabel *_titleField;
-    CalUILabel *_topTimeField;
-    NSStackView *_titleStack;
-    NSImageView *_locationImage;
-    CalUILabel *_locationField;
-    CalUILabel *_bottomTimeField;
-    NSStackView *_locationStack;
-    CalUIListViewCellBackground *_backgroundView;
-    NSStackView *_textContentView;
-    CalUILayerBackedView *_colorBarView;
-    EKEvent *_event;
 }
 
-+ (double);
++ (double)q;
 - (void);
 - (id);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)W;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void)fUserAcceptsCert: /* Error: Ran out of types for this method. */;
+- (void)showCertificatePanelForError:andRefreshSourceIfUserAcceptsCert: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,60 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKDayViewContent, EKDayViewContentItem, EKEvent, NSArray, NSNumber, NSString, UITraitCollection;
+@class EKDayViewContentItem, EKEvent;
 
 @interface EKDayViewContentItemStateWrapper
 {
     EKDayViewContentItem *_item;
-    EKDayViewContent *_content;
 }
 
-+ (id);
-- (id);
++ (id)&s;
+- (id)H&s;
 - (_Bool);
-- (long long);
+- (long long)Callbacks>";
 - (_Bool);
-- (double);
+- (double)24@32@40;
 - (double);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (struct CGRect);
-- (id);
-- (id);
+- (id)_maximumToneVolume;
+- (id)Y0;
 - (double);
-- (void)forCellWithReuseIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)lectionViewHasHeader;
+- (void)registerClass:forCellWithReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)_collectionViewHasHeader;
 - (id)ViewControllerNavigationDelegate>",W,N,V_navigationDelegate;
 - (long long);
 - (_Bool);
 - (id)ÿne_¤	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *allDayOverride;
-@property(readonly, nonatomic) struct CGRect backgroundRect;
-@property(readonly, nonatomic) long long birthdayCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long horizontalSizeClass;
-@property(readonly, nonatomic) _Bool isDimmed;
-@property(readonly, nonatomic) _Bool isMiniPreviewInEventDetail;
-@property(readonly, nonatomic) _Bool isProposedTime;
-@property(readonly, nonatomic) _Bool isSelected;
 @property(readonly, nonatomic) EKEvent *occurrence;
-@property(readonly, nonatomic) _Bool occurrenceIsFirstVisibleDayOfEvent;
-@property(readonly, nonatomic) NSArray *occurrences;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
-@property(readonly, nonatomic) double travelTime;
-@property(readonly, nonatomic) double travelTimeHeight;
-@property(readonly, nonatomic) long long userInterfaceStyle;
-@property(readonly, nonatomic) _Bool usesSmallText;
-@property(readonly, nonatomic) double visibleHeight;
 
 @end
 

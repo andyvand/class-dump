@@ -9,18 +9,16 @@
 @interface PHMediaFormatConversionJob
 {
     PHMediaFormatConversionRequest *_conversionRequest;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)e credentials...;
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)commute15MinWarningEntityRelevanceWiFiFeatures;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain) PHMediaFormatConversionRequest *conversionRequest; // @synthesize conversionRequest=_conversionRequest;
 
 @end

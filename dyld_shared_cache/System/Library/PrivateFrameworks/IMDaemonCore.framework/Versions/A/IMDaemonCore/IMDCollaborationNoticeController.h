@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDCollaborationNoticeDispatcher, IMDCollaborationNoticeStore, NSDictionary, NSObject, NSSet, NSString, SWHighlightCenter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMDCollaborationNoticeController
 {
     _Bool _hasPopulatedHighlightTracking;
-    NSDictionary *_highlightURLsForChatGUID;
-    NSSet *_highlightURLs;
-    IMDCollaborationNoticeDispatcher *_noticeDispatcher;
-    NSObject<OS_dispatch_queue> *_mappingChatsToHighlightsQueue;
-    NSObject<OS_dispatch_queue> *_noticeDataQueue;
-    NSObject<OS_dispatch_queue> *_collaborationNoticeDispatcherQueue;
-    IMDCollaborationNoticeStore *_noticeStore;
-    SWHighlightCenter *_highlightCenter;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)"H;
 - (id);
 - (id);
 - (id);
@@ -40,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)O;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -60,22 +52,7 @@
 - (void)¨()ÿ-!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *collaborationNoticeDispatcherQueue; // @synthesize collaborationNoticeDispatcherQueue=_collaborationNoticeDispatcherQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasPopulatedHighlightTracking; // @synthesize hasPopulatedHighlightTracking=_hasPopulatedHighlightTracking;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SWHighlightCenter *highlightCenter; // @synthesize highlightCenter=_highlightCenter;
-@property(retain, nonatomic) NSSet *highlightURLs; // @synthesize highlightURLs=_highlightURLs;
-@property(retain, nonatomic) NSDictionary *highlightURLsForChatGUID; // @synthesize highlightURLsForChatGUID=_highlightURLsForChatGUID;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *mappingChatsToHighlightsQueue; // @synthesize mappingChatsToHighlightsQueue=_mappingChatsToHighlightsQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *noticeDataQueue; // @synthesize noticeDataQueue=_noticeDataQueue;
-@property(readonly, nonatomic) IMDCollaborationNoticeDispatcher *noticeDispatcher; // @synthesize noticeDispatcher=_noticeDispatcher;
-@property(retain, nonatomic) IMDCollaborationNoticeStore *noticeStore; // @synthesize noticeStore=_noticeStore;
-@property(readonly) Class superclass;
 
 @end
 

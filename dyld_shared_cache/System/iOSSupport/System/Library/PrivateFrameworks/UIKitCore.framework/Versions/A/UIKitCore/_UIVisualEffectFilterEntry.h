@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, NSDictionary, NSString;
+@class CAFilter, NSString;
 
 @interface _UIVisualEffectFilterEntry
 {
     CAFilter *_filter;
-    _Bool _useRelaxedDiffingRule;
-    NSString *_filterType;
-    NSDictionary *_configurationValues;
-    NSDictionary *_requestedValues;
-    NSDictionary *_identityValues;
-    double _requestedScaleHint;
-    double _identityScaleHint;
-    NSString *_filterName;
 }
 
 - (void);
@@ -32,41 +24,26 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double)Ôð!¤Dùq`ð1Â0@ù
 × ;
 - (id)Ð!HAùqb°1Â0@ù
 × ;
 - (void)32@0:(id)arg1 8q16@"UINavigationItem"24;
-- (id);
-- (void)r:(id)arg1 fromChildrenBlock: /* Error: Ran out of types for this method. */;
-- (id)itingWithText:(struct _NSZone *)arg1;
+- (id)setDelegate:force: /* Error: Ran out of types for this method. */;
+- (void)replaceChildrenOfMenuForIdentifier:(id)arg1 fromChildrenBlock: /* Error: Ran out of types for this method. */;
+- (id)_client_textFieldShouldEndEditingWithText:(struct _NSZone *)arg1;
 - (double),N,V_resolvedImage;
 - (void)delegate;
-- (id)IDisableLayoutFlushingCount;
-- (void)orPickerColorQueueDelegate;
-- (_Bool)DragSession;
+- (id)UIDisableLayoutFlushingCount;
+- (void)_UIColorPickerColorQueueDelegate;
+- (_Bool)UIDragSession;
 - (id)8îÿ;
-- (id)ceStyle;
+- (id)UIWindowSceneDidUpdateSystemUserInterfaceStyle;
 - (void)ShySuG;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configurationValues; // @synthesize configurationValues=_configurationValues;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CAFilter *filter;
-@property(readonly, copy, nonatomic) NSString *filterName; // @synthesize filterName=_filterName;
 @property(copy, nonatomic) NSString *filterType; // @synthesize filterType=_filterType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double identityScaleHint; // @synthesize identityScaleHint=_identityScaleHint;
-@property(copy, nonatomic) NSDictionary *identityValues; // @synthesize identityValues=_identityValues;
-@property(nonatomic) double requestedScaleHint; // @synthesize requestedScaleHint=_requestedScaleHint;
-@property(copy, nonatomic) NSDictionary *requestedValues; // @synthesize requestedValues=_requestedValues;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useRelaxedDiffingRule; // @synthesize useRelaxedDiffingRule=_useRelaxedDiffingRule;
 
 @end
 

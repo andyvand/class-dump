@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double);
+- (double)y handle future nickname changes.;
+- (id)ersion %@ serverVersion %@;
+- (id)SMSSatelliteNeedsRelay;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)V*;
 
 @end
 

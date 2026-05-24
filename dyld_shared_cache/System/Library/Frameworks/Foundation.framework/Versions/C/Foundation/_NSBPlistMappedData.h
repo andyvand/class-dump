@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSBPlistMappedData
 {
     void *ptr;
-    unsigned long long size;
-    unsigned long long mappingIndex;
-    CDStruct_f10e9336 bplistTrailer;
-    unsigned long long bplistOffset;
-    unsigned char bplistMarker;
 }
 
 - (void);
@@ -21,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (const void *);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)sis  = [%s];
 - (id)ordinatorGetTSD()->reacquisitionBlockCompletion == NULL;
 
 @end

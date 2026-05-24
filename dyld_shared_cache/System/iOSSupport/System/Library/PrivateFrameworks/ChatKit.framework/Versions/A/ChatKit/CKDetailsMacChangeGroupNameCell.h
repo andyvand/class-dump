@@ -6,28 +6,26 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class UIImageView, UILabel;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsMacChangeGroupNameCell : CKDetailsCell
 {
     UIImageView *_cellGlpyh;
-    UILabel *_changeNameLabel;
 }
 
-+ (id)eWithDuration:animations:completion: /* Error: Ran out of types for this method. */;
++ (id)animateWithDuration:animations:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id)6{_NSRange=QQ}32^B48;
 - (id);
-- (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
-- (id)ickerDetailsViewStickerPackNameColor;
+- (id)attributionStickerDetailsViewStickerPackNameColor;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *cellGlpyh; // @synthesize cellGlpyh=_cellGlpyh;
-@property(retain, nonatomic) UILabel *changeNameLabel; // @synthesize changeNameLabel=_changeNameLabel;
 
 @end
 

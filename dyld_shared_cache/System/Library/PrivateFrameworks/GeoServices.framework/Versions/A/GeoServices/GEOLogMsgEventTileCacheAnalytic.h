@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCacheHit, GEOCacheMiss, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventTileCacheAnalytic
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOCacheHit *_cacheHit;
-    GEOCacheMiss *_cacheMiss;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_cacheHit:1;
-        unsigned int read_cacheMiss:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Index:(id)arg1;
++ (_Bool)setHasStopIndex:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)lastPathComponent;
+- (id)lastFourDigitsForNumber: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)match with type :%lu, creating new audioTapProvider /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)A;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)escriptor=CCSCCCCC}16@0:(id)arg1 8;
 - (_Bool);
 - (id);
-- (void);
-- (id)ault:(struct _NSZone *)arg1 forKeyPath: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)setXPCDefault:(struct _NSZone *)arg1 forKeyPath: /* Error: Ran out of types for this method. */;
 - (id)@"GEOWiFiConnectionQuality",&,N;
 - (id)e cache for key:%{private}@, value:%{private}@ /* Error: Ran out of types for this method. */;
 - (id)¸;
 - (void)Ö®3;
 
 // Remaining properties
-@property(retain, nonatomic) GEOCacheHit *cacheHit;
-@property(retain, nonatomic) GEOCacheMiss *cacheMiss;
 @property(readonly, nonatomic) _Bool hasCacheHit;
-@property(readonly, nonatomic) _Bool hasCacheMiss;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

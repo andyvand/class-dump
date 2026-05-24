@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (id);
-- (id);
+- (id)P;
+- (id)bm;
 - (_Bool);
 - (void);
 

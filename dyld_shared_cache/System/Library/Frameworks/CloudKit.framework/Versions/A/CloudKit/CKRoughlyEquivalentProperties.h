@@ -13,11 +13,11 @@
 
 + (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)mage2espresso_param=fiiiffffiIIIiii}16^{__CVBuffer=}24;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

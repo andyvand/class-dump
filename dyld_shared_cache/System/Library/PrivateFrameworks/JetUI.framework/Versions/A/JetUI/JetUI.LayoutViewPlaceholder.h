@@ -7,9 +7,6 @@
 @interface JetUI.LayoutViewPlaceholder
 {
     id measureLogic;
-    id hasContent;
-    id frame;
-    id isHidden;
 }
 
 @end

@@ -4,74 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSArray, NSMutableArray, NSMutableDictionary, NSString, NSUUID, UIViewAnimationState, UIViewPropertyAnimatorTrackingState, _UIAppCACommitFuture, _UICompoundObjectMap;
-@protocol UITimingCurveProvider;
+@class UIViewPropertyAnimatorTrackingState;
 
 @interface UIViewPropertyAnimator
 {
     UIViewPropertyAnimatorTrackingState *_trackingState;
-    NSString *_trackingDescription;
-    double _fractionComplete;
-    double _fractionCompleteWhenContinued;
-    double _drag;
-    _Bool _running;
-    _Bool _reversed;
-    _Bool _pausedAsSpring;
-    _Bool _optionsAreExplicit;
-    _Bool _addedPacingAnimation;
-    _Bool _hasFinalized;
-    double _baseDuration;
-    double _internalDuration;
-    double _delay;
-    UIViewPropertyAnimator *_outerAnimator;
-    NSString *_pacingAnimationKey;
-    CAMediaTimingFunction *_timingFunctionPriorToPause;
-    CAMediaTimingFunction *_timingFunctionWhenPaused;
-    id <UITimingCurveProvider> _timingProviderWhenContinued;
-    _UICompoundObjectMap *_originalToValueMap;
-    _UICompoundObjectMap *_originalFromValueMap;
-    _UICompoundObjectMap *_additiveOffsetsForAnimationKeysMap;
-    _UICompoundObjectMap *_continuedWithSpringForAnimationKeyMap;
-    _UIAppCACommitFuture *_caContinuationCommitFuture;
-    _Bool _pausesOnCompletion;
-    _Bool _shouldBeginFromCurrentState;
-    _Bool _updatesModelValues;
-    _Bool _userInteractionEnabled;
-    _Bool _manualHitTestingEnabled;
-    _Bool _interruptible;
-    _Bool _scrubsLinearly;
-    _Bool _flushUpdates;
-    _Bool _starting;
-    _Bool _pausedOnCompletion;
-    _Bool _shouldLayoutSubviews;
-    _Bool _introspectable;
-    UIViewAnimationState *_viewAnimationState;
-    NSUUID *_trackingIdentifier;
-    NSString *_name;
-    id <UITimingCurveProvider> _timingParameters;
-    long long _animationState;
-    NSMutableArray *_animations;
-    NSMutableArray *_completions;
-    long long _finishingPosition;
-    NSMutableDictionary *_animationDescriptionMap;
-    unsigned long long _options;
 }
 
 - (void);
-- (id);
-- (double);
+- (id)(!hadNonFatalReadError && !hadWriteError && readEverything && wroteEverything) || hadNonFatalReadError || hadWriteError;
+- (double)setStaticEntityType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)!¤AùñY°1Â0@ù
 × ;
 - (double);
 - (long long)condHalf"b1"initializationComplete"b1"dontBecomeKeyOnOrderFront"b1"inGesture"b1"autorotates"b1"autorotationRegistered"b1"isRotating"b1"isUsingOnePartRotationAnimation"b1"disableAutorotationCount"b4"needsAutorotationWhenReenabled"b1"forceTwoPartRotationAnimation"b1"orderKeyboardInAfterRotating"b1"roundedCorners"b4"resizesToFullScreen"b1"keepContextInBackground"b1"forceVisibleOnInit"b1"settingFirstResponder"b1"windowResizedToFullScreen"b1"statusBarFollowsOrientation"b1"secure"b1"isSceneSized"b1"didSetRestorationIdentifier"b1"resigningFirstResponderFromHost"b1"needsBoundingPathUpdate"b1"avoidUpdatingSafeAreaInsets"b1"sceneIsWindowScene"b1"needsFramePositionAdjustmentWhenWindowSceneIsAttached"b1"enqueuedDeferredOrientationUpdate"b1"isNotifyingColorTraitChangeForSubtree"b1"allowsResponderChainSceneHopping"b1"needsCleanupOfOrientationTransaction"b1"wantsSuperlayerSecurityAnalysis"b1};
-- (id)uslyRequestedDisplayMode;
+- (id)_previouslyRequestedDisplayMode;
 - (double)lPocketClientSettings>"8@"FBSSceneTransitionContext"16;
-- (void)ExternallyEnabled;
+- (void)LightweightMaterialBackgroundsExternallyEnabled;
 - (void)undingBoxLayoutGuide-bottom;
 - (void)setText:(id)arg1;
-- (void)e;
-- (_Bool)essionRoleExternalDisplay;
+- (void)richTextType;
+- (_Bool)UIWindowSceneSessionRoleExternalDisplay;
 - (void)sOldStyleSerifs ;
 - (id)t be at least 0.0, or UITableViewAutomaticDimension.;
 - (double)ContentView-bottom-textLayoutGuide-constraint;
@@ -79,20 +33,20 @@
 - (void)ist Header/Footer;
 - (void)ss is %@;
 - (id)Image]-5-|;
-- (void)eChange;
+- (void)UITextFormattingViewControllerRemoveItalicToggleChange;
 - (void)-Half-Width-Swap;
-- (_Bool)pha35;
+- (_Bool)UIKBColorBlack_Alpha35;
 - (void)%@" could not be found.;
 - (_Bool)itCollection class]];
 - (void)d.png;
-- (void)ierPathMiterLimitKey;
+- (void)UIBezierPathMiterLimitKey;
 - (id)2@?0@"UIColor"8Q16@"UITraitCollection"24;
-- (unsigned long long)ndStickerShouldEditNotificationUserInfoSourceRectKey;
-- (void)eviouslyFocusedItem;
+- (unsigned long long)UIEmojiAndStickerShouldEditNotificationUserInfoSourceRectKey;
+- (void)previouslyFocusedItem;
 - (void)LL;
 - (void)%@>;
-- (_Bool)eterIDSustained;
-- (double)ocumentLog;
+- (_Bool)CHHapticEventParameterIDSustained;
+- (double)UIDocumentLog;
 - (void)Forwarding;
 - (void)l when setting a shared view!;
 - (void)ound.scale;
@@ -103,24 +57,24 @@
 - (void)rong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_3;
 - (double)reate CFMutableArray;
 - (_Bool)Item=TopRated;
-- (void)arButtonItem;
-- (id)mVibrantBackgroundThickLight;
+- (void)UIRightBarButtonItem;
+- (id)UIBlurEffectStyleSystemVibrantBackgroundThickLight;
 - (id)ptation=NO;
 - (void)istant;
-- (id)ementPriority;
-- (void)ntActiveDetent;
+- (id)UIAccessibilitySpeechAttributeAnnouncementPriority;
+- (void)indexOfCurrentActiveDetent;
 - (void)- Conflicting action:(double)arg1;
 - (_Bool)øÿÿ|hþÿ&$ÿÿÞ$ÿÿjhþÿÚ$ÿÿ;
 - (double);
 - (_Bool)B®þÿ;
 - (id)|\þÿ;
 - (void)N¿þÿ;
-- (void)unctionC;
+- (void)So21CAMediaTimingFunctionC;
 - (id)¬þ;
 - (void);
-- (_Bool)CommandCG;
-- (void)dStringC4text_t;
-- (void)15UIBarButtonItemC03barbC0_So6UIViewC4viewt;
+- (_Bool)SaySo12UIKeyCommandCG;
+- (void)So18NSAttributedStringC4text_t;
+- (void)So15UIBarButtonItemC03barbC0_So6UIViewC4viewt;
 - (void);
 - (void)ýýí?;
 - (id);
@@ -130,16 +84,16 @@
 - (double);
 - (_Bool)õf23Ìg;
 - (long long)DidUpdateMessage;
-- (void)etedReceivers;
+- (void)TargetedReceivers;
 - (double);
 - (id);
 - (id);
-- (_Bool)rPool;
+- (_Bool)LayerPool;
 - (unsigned long long)i]23,2þ]23Cþ;
-- (double)GeometryDriver;
-- (unsigned long long)ndow;
+- (double)_UISceneHostGeometryDriver;
+- (unsigned long long)_UISelfTargetingTextureHostingWindow;
 - (double)Ëé;
-- (void)ition;
+- (void)_UICustomRawRepresentableTraitDefinition;
 - (void)V[;
 - (id)[;
 - (void);
@@ -203,50 +157,7 @@
 - (id)4Ýþ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _canAddAnimations;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSString *_name; // @synthesize _name;
-@property(nonatomic, setter=_setShouldBeginFromCurrentState:) _Bool _shouldBeginFromCurrentState; // @synthesize _shouldBeginFromCurrentState;
-@property(readonly, nonatomic) unsigned long long _trackedAnimationsCount;
-@property(nonatomic) _Bool _updatesModelValues; // @synthesize _updatesModelValues;
-@property(retain, nonatomic, getter=_animationDescriptionMap, setter=setAnimationDescriptionMap:) NSMutableDictionary *animationDescriptionMap; // @synthesize animationDescriptionMap=_animationDescriptionMap;
-@property(readonly, nonatomic) NSArray *animationDescriptions;
 @property(nonatomic, getter=_animationState, setter=_setAnimationState:) long long animationState; // @synthesize animationState=_animationState;
-@property(retain, nonatomic, getter=_animations, setter=_setAnimations:) NSMutableArray *animations; // @synthesize animations=_animations;
-@property(retain, nonatomic, getter=_completions, setter=_setCompletions:) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double delay;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
-@property(nonatomic, getter=_finishingPosition, setter=_setFinishingPosition:) long long finishingPosition; // @synthesize finishingPosition=_finishingPosition;
-@property(nonatomic) _Bool flushUpdates; // @synthesize flushUpdates=_flushUpdates;
-@property(nonatomic) double fractionComplete;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double internalDuration; // @synthesize internalDuration=_internalDuration;
-@property(nonatomic, getter=isInterruptible) _Bool interruptible; // @synthesize interruptible=_interruptible;
-@property(nonatomic, getter=isIntrospectable) _Bool introspectable; // @synthesize introspectable=_introspectable;
-@property(nonatomic, getter=isManualHitTestingEnabled) _Bool manualHitTestingEnabled; // @synthesize manualHitTestingEnabled=_manualHitTestingEnabled;
-@property(nonatomic, getter=_options, setter=_setOptions:) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) double pacedFractionComplete;
-@property(nonatomic, getter=_isPausedOnCompletion, setter=_setPausedOnCompletion:) _Bool pausedOnCompletion; // @synthesize pausedOnCompletion=_pausedOnCompletion;
-@property(nonatomic) _Bool pausesOnCompletion; // @synthesize pausesOnCompletion=_pausesOnCompletion;
-@property(nonatomic, getter=isReversed) _Bool reversed; // @synthesize reversed=_reversed;
-@property(readonly, nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(nonatomic) _Bool scrubsLinearly; // @synthesize scrubsLinearly=_scrubsLinearly;
-@property(nonatomic, setter=_setShouldLayoutSubviews:) _Bool shouldLayoutSubviews; // @synthesize shouldLayoutSubviews=_shouldLayoutSubviews;
-@property(nonatomic, getter=_isStarting, setter=_setStarting:) _Bool starting; // @synthesize starting=_starting;
-@property(readonly, nonatomic) long long state;
-@property(readonly) Class superclass;
-@property(copy, nonatomic, setter=_setTimingParameters:) id <UITimingCurveProvider> timingParameters; // @synthesize timingParameters=_timingParameters;
-@property(retain, nonatomic, getter=_trackingIdentifier, setter=_setTrackingIdentifier:) NSUUID *trackingIdentifier; // @synthesize trackingIdentifier=_trackingIdentifier;
-@property(nonatomic) double unitDuration;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
-@property(retain, nonatomic, getter=_viewAnimationState, setter=_setViewAnimationState:) UIViewAnimationState *viewAnimationState; // @synthesize viewAnimationState=_viewAnimationState;
 
 @end
 

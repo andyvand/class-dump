@@ -6,27 +6,19 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface RedEyeRecolor : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputSource;
-    CIImage *inputMask;
-    NSNumber *inputNoiseAmount;
-    NSNumber *inputBrightness;
-    NSNumber *inputRecovery;
-    CIVector *inputExtent;
-    NSNumber *inputWhiteCutoff;
-    NSNumber *inputChroma;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)L;
 - (id);
 - (id);
 - (id);
@@ -36,21 +28,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (id)nnnntWlezjkcrRe\oOe\rQojzv}y}zXpi}vrkyyyty¡¡¡¡zzzz{{{{o{{{wvs{arnzPe]vJ_Tonmfnrrrrx{{{v§§§§£¥¥¥fr}{¡£¤¤©©©©¥¥®®®®­­­­Tldx=\Pm||||}d¡¡££££LaWl2H8W?NBZPb^juuuuiiiiQXTX]]]]oooottttZfcm]fanr|||Zsp{}|z}n|zl¡¡¡¡¦¦¦¦ovtz/PCf>VLbgggg]]]]-?/H):'Gcf_j¿¿¿¿®±¶¶]zt?ZJoXYK^aa]assss}^lfpBP@^:RCaqnhq_oiydoi}Wro~}¬¬¬¬¹¹¹¹³³³³[mcxM`QmitlyX{xm}{yw|xmvq}sssskhckqqqquuuummmmOd_oncwupzxz_f^o\plt~~~~K_WjYZP_eeeeflll\e`iDZPhboixprlwPi`tt|||`un¡¡¡¡w~gnetnnknrrnrrvoyYtozb}¥¥¥¥¢¢¢¢wyyyWljn\\W\GLBMLLLLUUUU@WMaZlgxwwwwkkkk____V[[[\\\\4PG]hhdkonytqvn¡¡¡¡££££x`oktnnnnllklN^VgE\Qgajcqaup}j~|wzxxuxSjas[ohyu|wZvp{|w||||NaZe@M@UQULX`d`hmstvxxxxeomtQkhxsujuq¡¡¡¡}Sibv:N=_5K;\QaYiatrw}}}}yyyyamjo`c]gP`Yece^ittttgz{~bomsbb^bJI9M1?,FYYQY||||    \mcitl}tkrnv[e]j[d\hmmim`pmuj}}¯¯¯¯³³³³¡s|~~z~exrN`Uh>N=X``[`nnnnamhnK[Pf]cZizzzzczvIlcuzyt}E_Spij`kkkdkWh\qw{§§§§hwm`l_xnsi{¥¥¥¥±±±±¬¬¬¬q~IaZqD_Xillllnnnnamlpowwz} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputBrightness; // @synthesize inputBrightness;
-@property(retain, nonatomic) NSNumber *inputChroma; // @synthesize inputChroma;
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
-@property(retain, nonatomic) CIImage *inputMask; // @synthesize inputMask;
-@property(retain, nonatomic) NSNumber *inputNoiseAmount; // @synthesize inputNoiseAmount;
-@property(retain, nonatomic) NSNumber *inputRecovery; // @synthesize inputRecovery;
 @property(retain, nonatomic) CIImage *inputSource; // @synthesize inputSource;
-@property(retain, nonatomic) NSNumber *inputWhiteCutoff; // @synthesize inputWhiteCutoff;
 
 @end
 

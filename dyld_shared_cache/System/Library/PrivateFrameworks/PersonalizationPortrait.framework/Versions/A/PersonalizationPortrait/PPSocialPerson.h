@@ -9,20 +9,18 @@
 @interface PPSocialPerson
 {
     NSString *_handle;
-    NSString *_displayName;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)createImageByUnpremultiplyingAlphaInImage:(id)arg1;
+- (id)$;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
 
 @end

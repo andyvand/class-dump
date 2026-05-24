@@ -7,14 +7,13 @@
 @interface NewsUI2.LocalRegionManager
 {
     id locationManager;
-    id localAreasManager;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void)gFeed for My Sports ensuring syncing for prewarm;
 
 @end

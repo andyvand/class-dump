@@ -6,25 +6,42 @@
 
 #import <Vision/VNPersonsModelFaceModel.h>
 
-@class NSDictionary, NSMapTable;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface VNPersonsModelFaceModelVIPv2 : VNPersonsModelFaceModel
 {
     NSMapTable *_serialNumberToPersonUniqueIdentifierMapTable;
-    NSDictionary *_cachedPersonUniqueIdentifierToFaceprintCountMapping;
-    shared_ptr_8c39738b _faceIDModel;
-    unsigned long long _faceprintRequestRevision;
-    int _maximumElementsPerID;
 }
 
 + (id);
 + (_Bool);
 + (shared_ptr_099ccdd3);
 + (_Bool);
+- (id)fp_insecureTempDirectoryIgnoringPersona;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)key>AppleRAID-CanAddMembers</key><true/> 
+<key>AppleRAID-CanAddSpares</key><false/> 
+<key>AppleRAID-SizesCanVary</key><true/> 
+<key>AppleRAID-RemovalAllowed</key><string>Last</string> 
+<key>AppleRAID-CanBeConvertedTo</key><true/> 
+</dict> 
+<dict> 
+<key>AppleRAID-LevelName</key><string>LVG</string> 
+<key>AppleRAID-MemberType</key><array> 
+<string>AppleRAID-Members</string> 
+</array> 
+<key>AppleRAID-AutoRebuild</key><false/> 
+<key>AppleRAID-SetTimeout</key><integer size="32">0</integer> 
+<key>AppleRAID-ChunkSize</key><integer size="64">0x8000</integer> 
+<key>AppleRAID-CanAddMembers</key><true/> 
+<key>AppleRAID-CanAddSpares</key><false/> 
+<key>AppleRAID-SizesCanVary</key><true/> 
+<key>AppleRAID-RemovalAllowed</key><string>None</string> 
+<key>AppleRAID-CanBeConvertedTo</key><true/> 
+</dict> 
+ </array> 
+;
 - (id);
 - (id);
 - (id);

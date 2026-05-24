@@ -7,7 +7,6 @@
 @interface FCContentUnarchiveResult
 {
     id _interestToken;
-    long long _storageSize;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id interestToken; // @synthesize interestToken=_interestToken;
-@property(readonly, nonatomic) long long storageSize; // @synthesize storageSize=_storageSize;
 
 @end
 

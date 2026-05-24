@@ -14,8 +14,8 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)ry">40;
+- (_Bool)directories.;
 - (id);
 - (unsigned int);
 - (unsigned long long);

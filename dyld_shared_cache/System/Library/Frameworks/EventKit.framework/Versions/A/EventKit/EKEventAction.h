@@ -6,7 +6,7 @@
 
 #import <EventKit/EKObject.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface EKEventAction : EKObject
 {
@@ -16,21 +16,17 @@
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)T:No type for animated artwork protobuf %@ in content item %@ /* Error: Ran out of types for this method. */;
+- (id)artwork from protobuf %@ in content item %@;
 - (id);
 - (void);
+- (id);
+- (void)3;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *externalFolderID;
 @property(copy, nonatomic) NSString *externalID;
-@property(copy, nonatomic) NSString *externalModificationTag;
-@property(copy, nonatomic) NSData *externalRepresentation;
-@property(copy, nonatomic) NSString *externalScheduleID;
 
 @end
 

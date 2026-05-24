@@ -6,20 +6,17 @@
 
 #import <AVKit/AVView.h>
 
-@class AVMobileContentTab, NSArray, UIScrollView;
+@class AVMobileContentTab, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassContentTabsContentView : AVView
 {
     AVMobileContentTab *_upcomingContentTab;
-    NSArray *_contentTabs;
-    AVMobileContentTab *_activeContentTab;
-    UIScrollView *_scrollView;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -28,15 +25,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void)AÐ!TEùq[ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) AVMobileContentTab *activeContentTab; // @synthesize activeContentTab=_activeContentTab;
 @property(copy, nonatomic) NSArray *contentTabs; // @synthesize contentTabs=_contentTabs;
-@property(readonly, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) AVMobileContentTab *upcomingContentTab; // @synthesize upcomingContentTab=_upcomingContentTab;
 
 @end
 

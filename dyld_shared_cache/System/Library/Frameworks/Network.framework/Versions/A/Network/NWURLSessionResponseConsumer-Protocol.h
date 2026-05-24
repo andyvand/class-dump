@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSURLResponse, NWURLError;
+@class NSURLResponse, NWURLError;
 
 @protocol NWURLSessionResponseConsumer
+- (void);
+- (NWURLError *)to copy event;
 
 // Remaining properties
-@property(readonly) long long countOfBytesReceived;
-@property(readonly) NSURL *downloadFileURL;
-@property(readonly) NWURLError *error;
 @property(readonly) NSURLResponse *response;
 @end
 

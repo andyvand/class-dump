@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)MIyQ);
+- (void)timeZone;
 @end
 

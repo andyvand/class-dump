@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEFilterAbsoluteVerdict, NSData, NSMutableArray, NSObject, NSString, NSURL, NSUUID;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSString;
 
 @interface NEFilterFlow
 {
     _Bool _inputComplete;
-    _Bool _outputComplete;
-    _Bool _isRemediationFlow;
-    _Bool _isPaused;
-    _Bool _reportAtEnd;
-    _Bool _sourceAppIdentifierFromApp;
-    int _pid;
-    int _epid;
-    int _rpid;
-    NSURL *_URL;
-    NSData *_sourceAppUniqueIdentifier;
-    NSString *_sourceAppIdentifier;
-    NSString *_sourceAppVersion;
-    long long _direction;
-    NSData *_sourceAppAuditToken;
-    NSData *_sourceProcessAuditToken;
-    unsigned long long _inBytes;
-    unsigned long long _outBytes;
-    NSData *_crypto_signature;
-    NEFilterAbsoluteVerdict *_currentVerdict;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSUUID *_flowUUID;
-    NSMutableArray *_savedMessageHandlerQueue;
-    NSObject<OS_xpc_object> *_connection;
 }
 
-+ (_Bool);
++ (_Bool)setOffGridStatus:options:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -49,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -64,40 +40,24 @@
 - (id);
 - (void);
 - (int);
+- (id)entity;
 - (id);
 - (id);
+- (id)write;
 - (id);
-- (id);
-- (id);
-- (int);
+- (int)d/%04X/%d).;
 - (void);
-- (id);
+- (id)iZ@9	kA1;
 - (void);
-- (id);
-- (long long);
+- (id)_immutableCloudConnected;
+- (long long)pantDidJoin group session %@, participantInfo %@;
 - (void);
-- (int);
-- (void)gurationName: /* Error: Ran out of types for this method. */;
-- (id)tityDataImported;
+- (int)`;
+- (void)setConfigurationName: /* Error: Ran out of types for this method. */;
+- (id)identityDataImported;
 
 // Remaining properties
-@property(copy) NSURL *URL; // @synthesize URL=_URL;
-@property(retain) NSData *crypto_signature; // @synthesize crypto_signature=_crypto_signature;
-@property long long direction; // @synthesize direction=_direction;
-@property int epid; // @synthesize epid=_epid;
-@property(readonly) NSUUID *identifier;
-@property(readonly, nonatomic) NSString *identifierString;
-@property unsigned long long inBytes; // @synthesize inBytes=_inBytes;
-@property _Bool inputComplete; // @synthesize inputComplete=_inputComplete;
-@property unsigned long long outBytes; // @synthesize outBytes=_outBytes;
-@property _Bool outputComplete; // @synthesize outputComplete=_outputComplete;
-@property int pid; // @synthesize pid=_pid;
-@property int rpid; // @synthesize rpid=_rpid;
-@property(retain) NSData *sourceAppAuditToken; // @synthesize sourceAppAuditToken=_sourceAppAuditToken;
 @property(copy) NSString *sourceAppIdentifier; // @synthesize sourceAppIdentifier=_sourceAppIdentifier;
-@property(copy) NSData *sourceAppUniqueIdentifier; // @synthesize sourceAppUniqueIdentifier=_sourceAppUniqueIdentifier;
-@property(copy) NSString *sourceAppVersion; // @synthesize sourceAppVersion=_sourceAppVersion;
-@property(retain) NSData *sourceProcessAuditToken; // @synthesize sourceProcessAuditToken=_sourceProcessAuditToken;
 
 @end
 

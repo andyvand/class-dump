@@ -11,10 +11,10 @@
     CUIKAccountsController *_controller;
 }
 
-+ (id)eWithAction: /* Error: Ran out of types for this method. */;
-- (id);
++ (id)eventViewController:didCompleteWithAction: /* Error: Ran out of types for this method. */;
+- (id)defaultProvider;
 - (int);
-- (void)ion:eventStatusButtonsView: /* Error: Ran out of types for this method. */;
+- (void)invokeAction:eventStatusButtonsView: /* Error: Ran out of types for this method. */;
 
 @end
 

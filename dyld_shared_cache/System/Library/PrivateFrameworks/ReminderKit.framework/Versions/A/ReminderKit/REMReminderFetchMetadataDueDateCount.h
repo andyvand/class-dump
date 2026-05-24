@@ -9,7 +9,6 @@
 @interface REMReminderFetchMetadataDueDateCount
 {
     NSDate *_dueDate;
-    long long _count;
 }
 
 + (_Bool);
@@ -20,11 +19,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)0:8@"XPCClientConnection"16@"XPCRequest"24 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) NSDate *dueDate; // @synthesize dueDate=_dueDate;
 
 @end

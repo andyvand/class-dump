@@ -6,22 +6,17 @@
 
 #import <GeoServices/_GEORouteMatchUpdater.h>
 
-@class GEOComposedRouteStep, GEOPBTransitStation, GEOPBTransitStop;
+@class GEOPBTransitStop;
 
 __attribute__((visibility("hidden")))
 @interface _GEORouteMatchUpdater_AlightExit : _GEORouteMatchUpdater
 {
     GEOPBTransitStop *_alightStop;
-    GEOPBTransitStation *_alightStation;
-    struct PolylineCoordinate _routeCoordinateAlightStation;
-    GEOComposedRouteStep *_alightStep;
-    GEOComposedRouteStep *_postAlightStep;
-    GEOComposedRouteStep *_postAlightWalkingStep;
 }
 
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)initWithObjectIDs:(id)arg1;
 - (id);
 - (void)üÿÿÿ;
 

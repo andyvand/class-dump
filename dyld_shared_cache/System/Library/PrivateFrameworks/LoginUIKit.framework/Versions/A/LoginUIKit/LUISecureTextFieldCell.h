@@ -9,13 +9,13 @@
     _Bool _shouldSmoothFonts;
 }
 
-- (_Bool);
+- (_Bool)`T!i  `�T!;
 - (void);
 - (id);
+- (id)d;
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long));
 - (id);
 - (id);
 - (void)TRMPort"24;

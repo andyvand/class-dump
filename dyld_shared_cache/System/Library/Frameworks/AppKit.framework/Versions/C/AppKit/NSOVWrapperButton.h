@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long);
+- (long long)forKey:inRequest:] should only include property list types (NSArray, NSDictionary, NSString, NSData, NSDate, NSNumber). /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)creenshot-window;
 

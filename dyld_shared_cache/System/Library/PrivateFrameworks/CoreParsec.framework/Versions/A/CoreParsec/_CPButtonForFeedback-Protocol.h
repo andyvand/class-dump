@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _CPButtonForFeedback
+- (void)coordinateSetTrack;
+- (NSString *)_storage WHERE key in (;
+- (int)A9;
+- (unsigned long long)B/;
+- (void)C;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *commandDetail;
 @property(nonatomic) int commandType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

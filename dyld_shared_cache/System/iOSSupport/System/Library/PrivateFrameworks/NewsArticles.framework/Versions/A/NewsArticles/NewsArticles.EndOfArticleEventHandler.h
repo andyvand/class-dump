@@ -7,9 +7,6 @@
 @interface NewsArticles.EndOfArticleEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

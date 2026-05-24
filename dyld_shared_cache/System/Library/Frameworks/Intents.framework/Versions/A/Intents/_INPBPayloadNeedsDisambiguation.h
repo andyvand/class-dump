@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBPayloadNeedsDisambiguation
 {
     struct _has;
-    NSArray *_disambiguationItems;
 }
 
 + (Class);
 + (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (void);
@@ -25,21 +24,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void)es:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *disambiguationItems; // @synthesize disambiguationItems=_disambiguationItems;
-@property(readonly, nonatomic) unsigned long long disambiguationItemsCount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

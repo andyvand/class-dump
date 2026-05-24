@@ -6,35 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaASTFlatExprUpdateParametersVariant : SISchemaInstrumentationMessage
 {
     NSArray *_updates;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)#;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)%;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setTimeout: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
-- (id)s:(id)arg1;
+- (id)setDialogLines:(id)arg1;
 - (id)4£¤\¤<¥Ì¥¨à¨ªäªä¬,­®ä®Ä¯°ì°4±²ì²¨´ð´¬¶ô¶Ô·¬¸Ô¹ºüºD»$¼l¼½¸¾tÀ¼À,ÂtÂüÃDÄhÅ°ÅTÆÆ@ÇÇüÈDÉPËËtÌLÍ¼ÎLÏÒÌÒ¬ÓÔ¨ÕðÕÐÖ×ø×@ØdÙôÙ;
 - (void)·#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *updates; // @synthesize updates=_updates;
 
 @end

@@ -7,13 +7,10 @@
 @class NSArray, NSString;
 
 @protocol UINSDocumentBrowserAction
-- (NSString *)ontentIDCallback: /* Error: Ran out of types for this method. */;
+- (NSArray *)proximityPair:withData: /* Error: Ran out of types for this method. */;
+- (NSString *)setSceneIdentifierForTargetContentIDCallback: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long availability;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(copy, nonatomic) NSArray *supportedContentTypes;
-@property(nonatomic) _Bool supportsMultipleItems;
 @end
 

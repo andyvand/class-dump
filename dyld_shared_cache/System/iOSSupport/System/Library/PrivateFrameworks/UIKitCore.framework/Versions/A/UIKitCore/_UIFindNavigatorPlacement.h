@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIFindNavigatorInlinePlacement, _UIFindNavigatorKeyboardPlacement;
-
 @interface _UIFindNavigatorPlacement
 {
     _Bool _showing;
 }
 
 - (void);
-- (id);
+- (id)tsController:attachmentStore: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _UIFindNavigatorInlinePlacement *inlinePlacement;
-@property(readonly, nonatomic) _UIFindNavigatorKeyboardPlacement *keyboardPlacement;
 @property(nonatomic, getter=isShowing) _Bool showing; // @synthesize showing=_showing;
 
 @end

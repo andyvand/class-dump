@@ -6,13 +6,12 @@
 
 #import <AppKit/NSSearchFieldCell.h>
 
-@class NSArray, NSString, NSTextFieldCell;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSTextFinderBarSearchFieldCell : NSSearchFieldCell
 {
     NSArray *recentAttributedSearchStrings;
-    NSTextFieldCell *statusCell;
 }
 
 - (void);
@@ -27,18 +26,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_extractorFinishedSuccessfully;
+- (void)_extraWork;
+- (void)pected read event %ld
+;
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id)rrectContentSize;
+- (id)_usesCorrectContentSize;
 
 // Remaining properties
-@property(copy) NSArray *recentAttributedSearchStrings;
 @property(copy) NSString *statusString;
 
 @end

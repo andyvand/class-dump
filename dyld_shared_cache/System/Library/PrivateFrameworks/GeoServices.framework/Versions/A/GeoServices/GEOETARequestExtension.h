@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)sortedArrayUsingComparator:(id)arg1;
+- (unsigned long long)(;
 - (_Bool);
-- (_Bool);
-- (id)sMapFeatureIsWorkFavoriteSet:(struct _NSZone *)arg1;
-- (id)ureItem;
+- (_Bool);
+- (id)setHasMapFeatureIsWorkFavoriteSet:(struct _NSZone *)arg1;
+- (id)GEOPDPictureItem;
 - (id)tile %s could not be fully read!
 ;
 

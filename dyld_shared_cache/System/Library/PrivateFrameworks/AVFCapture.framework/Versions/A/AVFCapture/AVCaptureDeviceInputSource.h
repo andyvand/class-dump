@@ -12,13 +12,12 @@
 }
 
 + (void)ormats;
-- (id);
-- (void);
-- (id);
+- (id)ndom.m;
+- (void)_beginObservingLanguageChangeNotfication;
+- (id)_cameraInfo;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inputSourceID;
-@property(readonly, nonatomic) NSString *localizedName;
 
 @end
 

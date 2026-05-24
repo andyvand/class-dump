@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationOfInterest, NSDateInterval, NSUUID;
+@class NSUUID;
 
 @interface CLSLocationOfInterestVisit
 {
     NSUUID *_identifier;
-    NSDateInterval *_visitInterval;
-    double _confidence;
-    CLSLocationOfInterest *_locationOfInterest;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)fp_resolveDetachedRootLogicalLocation:error: /* Error: Ran out of types for this method. */;
+- (id),N,GisDimmed,V_dimmed;
 - (void);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak CLSLocationOfInterest *locationOfInterest; // @synthesize locationOfInterest=_locationOfInterest;
-@property(readonly, nonatomic) NSDateInterval *visitInterval; // @synthesize visitInterval=_visitInterval;
 
 @end
 

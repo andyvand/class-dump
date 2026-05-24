@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct _xmlDoc *);
-+ (void);
-+ (id);
++ (void);
++ (id);
 + (id);
 + (struct CGRect);
 

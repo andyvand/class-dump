@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDHome, HMDMessageDispatcher, HMDPreferredResidentsList, HMDResidentDevice, HMDResidentSelectionInfo, HMDResidentSelectionStatusKit, HMDResidentStatusChannel, HMFFuture, NSArray, NSObject;
+@class HMDAppleAccountManager, HMDHome, HMDMessageDispatcher, HMDPreferredResidentsList, HMDResidentDevice, HMFFuture, NSArray, NSObject;
 @protocol OS_dispatch_queue;
 
 @protocol HMDResidentDeviceManagerContext
+- (unsigned long long)#;
+- (_Bool);
+- (_Bool)"NSOrderedSet"24;
+- (HMFFuture *)initWithTitle:subtitle:engineType: /* Error: Ran out of types for this method. */;
+- (HMDPreferredResidentsList *)_objectsWithDuplicateStorageIdentifiersFromArray: /* Error: Ran out of types for this method. */;
+- (HMDResidentDevice *)_sessionStorage;
+- (HMFFuture *)message in %lu chunks (up to %#.1lfkB each)
+	destinations:%{private}@
+	options:%{public}@ /* Error: Ran out of types for this method. */;
+- (double)s not subscribed to trip:%@ /* Error: Ran out of types for this method. */;
+- (NSArray *)r eraseWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (long long)State"8@?0;
+- (_Bool);
 - (HMDHome *)±°1Â0@ù
 × ;
-- (NSObject<OS_dispatch_queue> *)omeInvitationID:completionBlock: /* Error: Ran out of types for this method. */;
+- (NSObject<OS_dispatch_queue> *)_cancelPendingIDSSentInvitationForHomeInvitationID:completionBlock: /* Error: Ran out of types for this method. */;
 - (HMDAppleAccountManager *){public}@%@ %lu pending messages (%lu in flight);
 - (HMDMessageDispatcher *)rant users access.;
-- (_Bool)mateStorage;
+- (_Bool)HAPAccessoryClimateStorage;
 
 // Remaining properties
-@property(readonly, getter=isActingAsResident) _Bool actingAsResident;
-@property(readonly) HMDAppleAccountManager *appleAccountManager;
-@property(readonly) long long atHomeLevel;
-@property(readonly, copy) NSArray *availableResidentDevices;
-@property(readonly) double blockPrimaryTakeoverDuration;
-@property(readonly) HMFFuture *cloudReady;
-@property(readonly) HMDResidentDevice *currentResidentDevice;
-@property(readonly) HMDPreferredResidentsList *electorsPreferredResidentsList;
-@property(readonly) HMFFuture *firstPrimaryResidentDiscoveryAttemptCompletionFuture;
-@property(readonly) _Bool hasReachableAccessories;
-@property(readonly) HMDHome *home;
-@property(readonly) _Bool homeSupportsResidentSelection;
-@property(readonly) _Bool isCurrentDeviceAvailableResident;
-@property(readonly) _Bool isOwnerUser;
-@property(readonly) _Bool isResidentEnabled;
 @property(readonly) _Bool isResidentSupported;
-@property(readonly) HMDMessageDispatcher *messageDispatcher;
-@property(readonly) unsigned long long myLocation;
-@property(readonly) unsigned long long ourNetworkConnectionType;
-@property(readonly) HMDResidentSelectionStatusKit *presentResidentsStatuses;
-@property(readonly) HMDResidentDevice *primaryResidentDevice;
-@property(readonly) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) _Bool residentCapable;
-@property(readonly) HMDResidentSelectionInfo *residentSelectionInfo;
-@property(readonly) HMDResidentStatusChannel *residentStatusChannel;
-@property(readonly) NSArray *residentsPresentOnStatusKit;
 @end
 

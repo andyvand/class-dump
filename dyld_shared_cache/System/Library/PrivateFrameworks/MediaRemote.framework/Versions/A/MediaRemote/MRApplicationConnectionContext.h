@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSData, NSString, _MRApplicationConnectionContextProtobuf;
+@class NSString;
 
 @interface MRApplicationConnectionContext
 {
     NSString *_identifier;
-    NSString *_service;
-    MRPlayerPath *_destinationPlayerPath;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,19 +21,15 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)aultPlayer;
+- (void)isDefaultPlayer;
 
 // Remaining properties
-@property(readonly, nonatomic) MRPlayerPath *destinationPlayerPath; // @synthesize destinationPlayerPath=_destinationPlayerPath;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _MRApplicationConnectionContextProtobuf *protobuf;
-@property(readonly, nonatomic) NSData *protobufData;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end
 

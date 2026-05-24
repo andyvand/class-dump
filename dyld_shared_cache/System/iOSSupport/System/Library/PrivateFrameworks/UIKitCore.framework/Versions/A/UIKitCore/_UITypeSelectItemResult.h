@@ -9,8 +9,6 @@
 @interface _UITypeSelectItemResult
 {
     _UITypeSelectItem *_item;
-    NSIndexSet *_matchingRanges;
-    NSIndexSet *_unmatchingRanges;
 }
 
 - (id);
@@ -20,12 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ionC;
+- (void)So35_UIScrollPocketContainerInteractionC;
 
 // Remaining properties
-@property(retain, nonatomic) _UITypeSelectItem *item; // @synthesize item=_item;
 @property(retain, nonatomic) NSIndexSet *matchingRanges; // @synthesize matchingRanges=_matchingRanges;
-@property(retain, nonatomic) NSIndexSet *unmatchingRanges; // @synthesize unmatchingRanges=_unmatchingRanges;
 
 @end
 

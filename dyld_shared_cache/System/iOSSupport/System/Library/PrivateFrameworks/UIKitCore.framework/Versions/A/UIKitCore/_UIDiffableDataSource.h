@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, __UIDiffableDataSource;
+@class __UIDiffableDataSource;
 
 @interface _UIDiffableDataSource
 {
@@ -21,9 +21,9 @@
 - (id)1Â0@ù
 × ;
 - (id)16;
-- (id)leEnclosingScrollViewNestedPinching;
+- (id)redisableEnclosingScrollViewNestedPinching;
 - (long long),V_dismissesOnViewportResize;
-- (id)Element;
+- (id)UISwitchModernVisualElement;
 - (void)%p for view %p to %ld;
 - (long long)es.m;
 - (void)a UIKeyCommand without a keyboard shortcut? Use the superclass UICommand instead.
@@ -38,7 +38,7 @@
 - (void);
 - (id)­G33¿+;
 - (void)u;
-- (void)crollPocketInteractionStyle;
+- (void)_UIScrollPocketInteractionStyle;
 - (long long);
 - (void)Vy£\;
 - (long long)X¸];
@@ -58,10 +58,7 @@
 - (void)xÚ|)d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *itemIdentifiers;
 @property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
 
 @end
 

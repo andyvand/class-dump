@@ -4,61 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIInlineTextCompletionPrompt, UIKBAnalyticsDispatcher, UIKeyboardScheduledTask, UIResponder, _UIInlineTextCompletion;
-@protocol UIInlineTextCompletionControllerDelegate, UITextInput;
+@class UIInlineTextCompletionPrompt, _UIInlineTextCompletion;
 
 __attribute__((visibility("hidden")))
 @interface UIInlineTextCompletionController
 {
     UIInlineTextCompletionPrompt *m_textCompletionPrompt;
-    _Bool _currentlyAcceptingInlineCompletionByDirectTap;
-    _Bool _deleting;
-    _Bool _hasForwardProgress;
-    id <UIInlineTextCompletionControllerDelegate> _delegate;
-    NSString *_presentingTextCompletionAsMarkedText;
-    UIKBAnalyticsDispatcher *_analyticsDispatcher;
-    _UIInlineTextCompletion *_textCompletion;
-    UIKeyboardScheduledTask *_textCompletionPromptTask;
-    UIKeyboardScheduledTask *_inlineCompletionCoachingTask;
-    _UIInlineTextCompletion *_candidateRemovedOnWillPerformOutput;
-    _UIInlineTextCompletion *_acceptingTextCompletion;
-    _UIInlineTextCompletion *_lastAcceptedTextCompletion;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id)\;
 - (id);
-- (id);
+- (void):(id)arg1 %@, but we can't find an account for it;
+- (void)e supports SMS, sending backwards compatibility edit to CT:(id)arg1 %@;
+- (void)xistingMessage:(id)arg1 %@;
+- (void)ssage should handle.;
+- (void)paired list once %@;
+- (void)nk address provided by carrier is -> %@.
+;
+- (void)group photo to IMDFileTransferCenter for guid:(_Bool)arg1 %@.;
+- (void)sibling. Current GUID:(id)arg1 %@ Sibling GUID:%@ /* Error: Ran out of types for this method. */;
+- (void)r %@;
+- (void)ing a T2 update. Bailing for now;
+- (void)ld, volume:%@ is running on main thread:%@ /* Error: Ran out of types for this method. */;
+- (id)ating transfers for message %@ because there are no asset UUIDs moment share with count %@:%@ /* Error: Ran out of types for this method. */;
+- (id)main ;
+- (id)@ groupID %@ participants %@;
+- (id)ring:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ticipants;
+- (void);
+- (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)Ra;
 - (void);
 - (void);
 - (void);
@@ -77,7 +65,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -93,8 +81,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)tSMSSpam;
+- (void)status is not current (startGeneration:%ld, endGeneration:%ld), discarding status %@. /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)\°1Â0@ù
 × ;
@@ -105,22 +93,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(retain, nonatomic) _UIInlineTextCompletion *acceptingTextCompletion; // @synthesize acceptingTextCompletion=_acceptingTextCompletion;
-@property(nonatomic) __weak UIKBAnalyticsDispatcher *analyticsDispatcher; // @synthesize analyticsDispatcher=_analyticsDispatcher;
-@property(retain, nonatomic) _UIInlineTextCompletion *candidateRemovedOnWillPerformOutput; // @synthesize candidateRemovedOnWillPerformOutput=_candidateRemovedOnWillPerformOutput;
-@property(readonly, nonatomic) unsigned long long currentInlineTextCompletionMode;
-@property(nonatomic) _Bool currentlyAcceptingInlineCompletionByDirectTap; // @synthesize currentlyAcceptingInlineCompletionByDirectTap=_currentlyAcceptingInlineCompletionByDirectTap;
-@property(nonatomic) __weak id <UIInlineTextCompletionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isDeleting) _Bool deleting; // @synthesize deleting=_deleting;
-@property(nonatomic) _Bool hasForwardProgress; // @synthesize hasForwardProgress=_hasForwardProgress;
-@property(readonly, nonatomic) _Bool hasPrompt;
-@property(retain, nonatomic) UIKeyboardScheduledTask *inlineCompletionCoachingTask; // @synthesize inlineCompletionCoachingTask=_inlineCompletionCoachingTask;
-@property(readonly, nonatomic) UIResponder<UITextInput> *inputDelegate;
-@property(retain, nonatomic) _UIInlineTextCompletion *lastAcceptedTextCompletion; // @synthesize lastAcceptedTextCompletion=_lastAcceptedTextCompletion;
-@property(readonly, nonatomic) _UIInlineTextCompletion *oneWordTextCompletion;
-@property(copy, nonatomic) NSString *presentingTextCompletionAsMarkedText; // @synthesize presentingTextCompletionAsMarkedText=_presentingTextCompletionAsMarkedText;
 @property(readonly, nonatomic) _UIInlineTextCompletion *textCompletion; // @synthesize textCompletion=_textCompletion;
-@property(retain, nonatomic) UIKeyboardScheduledTask *textCompletionPromptTask; // @synthesize textCompletionPromptTask=_textCompletionPromptTask;
 
 @end
 

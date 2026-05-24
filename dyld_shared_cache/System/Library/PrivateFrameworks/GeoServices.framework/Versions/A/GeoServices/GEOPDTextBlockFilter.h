@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)invalidate;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)eference"b1"has_pitchedWhileTracking"b1"read_camera"b1"read_centerSpan"b1"read_referralIdentifier"b1"read_routeHandle"b1"read_timePoint"b1"wrote_anyField"b1};
-- (id)te;
+- (id)_samplingRate;
 - (id)tXDYZ;
 - (void);
 

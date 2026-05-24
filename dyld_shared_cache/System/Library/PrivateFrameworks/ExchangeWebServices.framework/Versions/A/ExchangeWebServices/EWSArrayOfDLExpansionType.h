@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EWSArrayOfDLExpansionType
 {
     NSArray *_Mailbox;
-    long long _IndexedPagingOffset;
-    long long _NumeratorOffset;
-    long long _AbsoluteDenominator;
-    long long _IncludesLastItemInRange;
-    long long _TotalItemsInView;
 }
 
 + (id);
@@ -29,22 +24,10 @@
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) long long AbsoluteDenominator; // @synthesize AbsoluteDenominator=_AbsoluteDenominator;
-@property(nonatomic) long long IncludesLastItemInRange; // @synthesize IncludesLastItemInRange=_IncludesLastItemInRange;
-@property(nonatomic) long long IndexedPagingOffset; // @synthesize IndexedPagingOffset=_IndexedPagingOffset;
 @property(copy, nonatomic) NSArray *Mailbox; // @synthesize Mailbox=_Mailbox;
-@property(nonatomic) long long NumeratorOffset; // @synthesize NumeratorOffset=_NumeratorOffset;
-@property(nonatomic) long long TotalItemsInView; // @synthesize TotalItemsInView=_TotalItemsInView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

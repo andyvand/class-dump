@@ -5,6 +5,7 @@
 //
 
 @protocol MTLSharedEvent
+- (unsigned long long);
 
 // Remaining properties
 @property unsigned long long signaledValue;

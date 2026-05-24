@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureSynchronizedSampleBufferDataInternal
 {
     struct opaqueCMSampleBuffer *sampleBuffer;
-    _Bool sampleBufferWasDropped;
-    long long droppedReason;
-    _Bool hasCorrespondingDepthData;
-    _Bool hasCorrespondingVisionData;
-    int constituentDeviceCaptureID;
 }
 
 @end

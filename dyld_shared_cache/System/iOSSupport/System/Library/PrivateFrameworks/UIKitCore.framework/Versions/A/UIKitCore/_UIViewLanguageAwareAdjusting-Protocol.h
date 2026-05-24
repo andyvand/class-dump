@@ -5,6 +5,8 @@
 //
 
 @protocol _UIViewLanguageAwareAdjusting
+- (void)transcriptBackgroundPath;
+- (_Bool)batchProcessingBlock;
 
 // Remaining properties
 @property(nonatomic, getter=_isExtremeSizingEnabled, setter=_setExtremeSizingEnabled:) _Bool _extremeSizingEnabled;

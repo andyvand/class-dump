@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSArray, PBDataReader;
 
 @interface GEOAdditionalEnabledMarkets
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_offlineMarkets;
-    NSMutableArray *_transitMarkets;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_offlineMarkets:1;
-        unsigned int read_transitMarkets:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (Class);
 + (Class);
-+ (_Bool)ViewZoomLevel:(id)arg1;
++ (_Bool)setHasMapViewZoomLevel:(id)arg1;
 + (id)c;
 - (void);
 - (void);
@@ -35,26 +23,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)stringWithFormat: /* Error: Ran out of types for this method. */;
+- (void)_remoteVADSPGRatio;
+- (unsigned long long)entsCoordinator _notifyRemoteTriggerEvent:myriadHash:remoteTriggerType:remoteDeviceId:isTriggeredFromFullWake:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void)ppIdentifier:(id)arg1;
-- (id)rsion:(struct _NSZone *)arg1;
-- (unsigned long long)S;
+- (void)setAppIdentifier:(id)arg1;
+- (id)meetsManifestVersioningForServiceVersion:(struct _NSZone *)arg1;
+- (unsigned long long)isEdgeBSS;
 - (id)`½´½;
-- (id)l;
+- (id)GEOMapsClientFeatureFlagsUpdateInterval;
 - (id);
 - (id)ß£þz#L@;
 - (void)à6;
@@ -63,11 +51,7 @@
 - (void)Áÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *offlineMarkets;
 @property(readonly, nonatomic) NSArray *queryItems;
-@property(readonly, nonatomic) NSDictionary *queryParameters;
-@property(retain, nonatomic) NSMutableArray *transitMarkets;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSData, NSString, TRIFBCloudKitAssetRecordAsset, TRIFBCloudKitTreatmentRecordAsset;
+@class AFBBufRef, NSString;
 
 @interface TRIFBTrialManagedAsset
 {
     AFBBufRef *_br;
-    const struct TrialManagedAsset *_ptr;
 }
 
 - (_Bool);
@@ -17,13 +16,13 @@
 - (const char *);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned char);
-- (id);
+- (unsigned char)C;
+- (id);
 - (id);
 - (const char *);
 - (id);
@@ -34,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (_Bool);
 - (unsigned char);
@@ -47,26 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetId;
-@property(readonly, nonatomic) const char *assetIdAsCString;
-@property(readonly, nonatomic) NSData *assetIdAsData;
-@property(readonly, nonatomic) NSString *assetName;
-@property(readonly, nonatomic) const char *assetNameAsCString;
-@property(readonly, nonatomic) NSData *assetNameAsData;
-@property(readonly, nonatomic) TRIFBCloudKitAssetRecordAsset *cloudKitMetadataAsAsset;
-@property(readonly, nonatomic) TRIFBCloudKitTreatmentRecordAsset *cloudKitMetadataAsTreatment;
-@property(readonly, nonatomic) unsigned char cloudKitMetadataType;
-@property(readonly, nonatomic) unsigned long long downloadSize;
-@property(readonly, nonatomic) unsigned char fileType;
-@property(readonly, nonatomic) _Bool hasDownloadSize;
-@property(readonly, nonatomic) _Bool hasFileType;
-@property(readonly, nonatomic) _Bool hasHasOnDemandFlag;
-@property(readonly, nonatomic) _Bool hasIsOnDemand;
-@property(readonly, nonatomic) _Bool hasOnDemandFlag;
-@property(readonly, nonatomic) _Bool isOnDemand;
 @property(readonly, nonatomic) NSString *path;
-@property(readonly, nonatomic) const char *pathAsCString;
-@property(readonly, nonatomic) NSData *pathAsData;
 
 @end
 

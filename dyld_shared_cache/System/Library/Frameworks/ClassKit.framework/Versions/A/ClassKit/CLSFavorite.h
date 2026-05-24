@@ -6,63 +6,48 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSString, NSURL;
+@class NSArray, NSString;
 
 @interface CLSFavorite : CLSObject
 {
     NSString *_title;
-    NSString *_storeIdentifier;
-    int _type;
-    NSArray *_contextIdentifierPath;
-    NSString *_contextSummary;
-    NSString *_contextCustomTypeName;
-    NSURL *_URL;
-    long long _contextType;
-    NSString *_bundleIdentifier;
-    NSString *_contentStoreIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)_createRequestForAccount:requestHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void)a;
+- (void)d#;
+- (id)annot initialize decompression.  Invalid input. 
+;
+- (id)ffer size %zd too large. 
+;
+- (id)%d
+;
+- (id)StaticDramTime;
+- (id)EndTimeStamp;
+- (id)Unsupported;
+- (id)kernel_stall;
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)?;
+- (id)q;
 - (id);
 - (void);
 - (long long);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)oursOfVertex: /* Error: Ran out of types for this method. */;
+- (id)inNeighboursOfVertex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *contentStoreIdentifier; // @synthesize contentStoreIdentifier=_contentStoreIdentifier;
-@property(retain, nonatomic) NSString *contextCustomTypeName; // @synthesize contextCustomTypeName=_contextCustomTypeName;
 @property(retain, nonatomic) NSArray *contextIdentifierPath; // @synthesize contextIdentifierPath=_contextIdentifierPath;
-@property(retain, nonatomic) NSString *contextSummary; // @synthesize contextSummary=_contextSummary;
-@property(nonatomic) long long contextType; // @synthesize contextType=_contextType;
-@property(copy, nonatomic) NSString *storeIdentifier;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

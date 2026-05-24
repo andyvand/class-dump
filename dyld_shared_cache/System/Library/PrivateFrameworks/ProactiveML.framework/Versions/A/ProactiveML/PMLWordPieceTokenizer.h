@@ -12,7 +12,7 @@
 }
 
 - (int);
-- (id);
+- (id);
 - (int);
 - (unsigned int);
 - (unsigned int);

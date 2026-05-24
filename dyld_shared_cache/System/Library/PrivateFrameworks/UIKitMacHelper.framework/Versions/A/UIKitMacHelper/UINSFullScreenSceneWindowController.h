@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSFullScreenSceneWindowController : UINSSceneWindowController
 {
     struct CGRect _finalWindowFrameForEnteringFullscreen_WithTitlebar;
-    struct CGRect _finalWindowFrameForEnteringFullscreen_NoTitlebar;
-    struct CGRect _finalWindowFrameForExitingFullscreen;
-    struct CGRect _savedPreFullScreenFrame;
-    _Bool _zoomToFitWhenFullScreen;
 }
 
 - (struct CGRect);
@@ -27,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (void);
 - (void);
+- (id)@"CLLocationManager"16@"NSArray"24;
+- (id):(id)arg1 8@"CLLocationManager"16@"CLLocation"24@"CLLocation"32;
+- (struct CGSize);
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (_Bool)ProviderPocket:(id)arg1 windowRelativeFrame:forPocket: /* Error: Ran out of types for this method. */;
+- (_Bool)_coordinateScrollPocketAppearance:(id)arg1 luma:glassFrost:glassMaterialProviderPocket:windowRelativeFrame:forPocket: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect targetFullScreenFrame; // @synthesize targetFullScreenFrame=_finalWindowFrameForEnteringFullscreen_NoTitlebar;

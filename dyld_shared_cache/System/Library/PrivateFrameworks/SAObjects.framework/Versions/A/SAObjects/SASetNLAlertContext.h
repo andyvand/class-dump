@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SASetNLAlertContext : SABaseCommand
 {
@@ -16,19 +16,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)t a c-string from a CFString.;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSArray *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

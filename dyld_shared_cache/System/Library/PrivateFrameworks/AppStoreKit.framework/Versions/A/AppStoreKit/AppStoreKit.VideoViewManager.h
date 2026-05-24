@@ -7,12 +7,9 @@
 @interface AppStoreKit.VideoViewManager
 {
     id logger;
-    id videoViews;
-    id networkInquiry;
-    id metricsPipeline;
 }
 
-- (void);
+- (void);
 
 @end
 

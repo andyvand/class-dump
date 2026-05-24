@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSMediaTaskTypeConfig
 {
     _Bool _includePlatform;
-    NSString *_hostBagKey;
-    NSString *_realm;
-    long long _type;
-    NSString *_typeString;
 }
 
 + (id);
@@ -28,10 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *hostBagKey; // @synthesize hostBagKey=_hostBagKey;
-@property(readonly) _Bool includePlatform; // @synthesize includePlatform=_includePlatform;
-@property(readonly) NSString *realm; // @synthesize realm=_realm;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(readonly) NSString *typeString; // @synthesize typeString=_typeString;
 
 @end
 

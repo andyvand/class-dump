@@ -7,7 +7,6 @@
 @interface ChatKit.PriorityRequestsViewModel
 {
     id _selections;
-    id _$observationRegistrar;
 }
 
 @end

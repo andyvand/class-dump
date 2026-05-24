@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface OADTableRow
 {
     NSMutableArray *mCells;
-    float mHeight;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (float);
-- (void);
+- (void)3;
 - (void)ÿÈº;
 
 @end

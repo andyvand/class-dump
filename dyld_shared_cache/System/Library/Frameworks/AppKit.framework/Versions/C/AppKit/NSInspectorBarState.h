@@ -8,19 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSInspectorBarState
 {
     id _familyName;
-    id _faceName;
-    double _pointSize;
-    id _foregroundColor;
-    id _backgroundColor;
-    id _underlineStyle;
-    id _strikeThrough;
-    long long _alignment;
-    long long _horizontalAlignment;
-    _Bool _fullyJustified;
-    id _lineSpacingStyle;
-    id _textList;
-    BOOL _boldTrait;
-    BOOL _italicTrait;
 }
 
 - (id);
@@ -32,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)sion fd result %d;
 - (id);
 - (BOOL);
-- (long long);
-- (_Bool);
-- (id);
-- (BOOL);
+- (long long)r<TransportConnection>=^{TransportConnection}^{__shared_weak_count}}24@"NSObject<OS_dispatch_data>"40;
+- (_Bool)set_overrideSessionCookieAcceptPolicy: /* Error: Ran out of types for this method. */;
+- (id)registerDownloadLocation:forURLAsset: /* Error: Ran out of types for this method. */;
+- (BOOL)NSURLSessionDataTask;
 - (void);
 - (id);
 - (void);
@@ -57,20 +44,7 @@ __attribute__((visibility("hidden")))
 - (id)fÿÃ°eG;
 
 // Remaining properties
-@property long long alignment; // @synthesize alignment=_alignment;
-@property(retain) id backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property BOOL boldTrait; // @synthesize boldTrait=_boldTrait;
-@property(retain) id faceName; // @synthesize faceName=_faceName;
 @property(retain) id familyName; // @synthesize familyName=_familyName;
-@property(retain) id foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property _Bool fullyJustified; // @synthesize fullyJustified=_fullyJustified;
-@property long long horizontalAlignment; // @synthesize horizontalAlignment=_horizontalAlignment;
-@property BOOL italicTrait; // @synthesize italicTrait=_italicTrait;
-@property(retain) id lineSpacingStyle; // @synthesize lineSpacingStyle=_lineSpacingStyle;
-@property double pointSize; // @synthesize pointSize=_pointSize;
-@property(retain) id strikeThrough; // @synthesize strikeThrough=_strikeThrough;
-@property(retain) id textList; // @synthesize textList=_textList;
-@property(retain) id underlineStyle; // @synthesize underlineStyle=_underlineStyle;
 
 @end
 

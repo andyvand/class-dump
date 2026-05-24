@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSBinder
 {
     id _object;
-    NSMutableArray *_bindingInfos;
-    struct __binderFlags {
-        unsigned int _isConnected:1;
-        unsigned int _hasPerformedObservationRegistration:1;
-        unsigned int _isObserving:1;
-        unsigned int _suspendObservationProcessing:1;
-        unsigned int _needsRefreshWhenObserverationProcessingResumes:1;
-        unsigned int _reservedBinder:27;
-    } _binderFlags;
-    unsigned long long _bindingsBoundMask;
-    id _plugin;
-    id _expectedObservingInfo;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id)file:(id)arg1 %s;
++ (_Bool)tes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
++ (id)CFNetworkHTTP3Override;
++ (id)AppleCFNetworkDiagnosticLogging;
++ (id)w;
 + (void);
 + (void);
 + (id);
@@ -38,105 +24,115 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 + (struct __CFArray *);
-+ (id);
-+ (id);
++ (id)@;
++ (id)6Y7;
 + (void)tMãÿ]) \H;
 - (id);
 - (id);
 - (id);
 - (id);
-- (Class);
-- (_Bool);
+- (Class)T;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (oneway void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)sr/lib/system/libsystem_kernel.dylib;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)0:(_Bool)arg1 8@16@?24;
+- (id)initWithURL:(id)arg1 statusCode:(id)arg2 headerFields:requestTime: /* Error: Ran out of types for this method. */;
+- (void)connectionDidFinishDownloading:(id)arg1 destinationURL: /* Error: Ran out of types for this method. */;
+- (oneway void)checked_didFinishCollectingMetrics;
+- (_Bool)_undeterminedDownloadProgressState;
+- (id)_highPriorityPendingWork;
+- (id)ionary",R,C;
+- (id)gs;
+- (id)_onqueue_dealWithSessionTrustAuth:(id)arg1 credential:(unsigned long long)arg2 completionHandler:(_Bool)arg3;
 - (id);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)D1;
+- (void)bool}d;
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (_Bool)origin;
+- (void)ConnectionProtocolRemoveInputHandler;
+- (id)%d;
+- (id)%ld;
+- (void)AVAssetDownloadTaskMediaSelectionsForMultichannelKey;
+- (void)classes of NSURLRequest are not supported in background sessions. Attempted to use a request of class %@;
+- (void)NSURLDownloadBinHexDecodedDataOffset;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)*,,
+,,,,),8,;;
+;;;;);8;X	XX(XZ	ZZ(Z;
+- (void)dffgghh=	==(=A	AA(A_	__(_b	bb(b==
+====)=8=AA
+AAAA)A8A__
+____)_8_bb
+bbbb)b8bd	dd(df	ff(fg	gg(gh	hh(hdd
+dddd)d8dff
+ffff)f8fgg
+gggg)g8ghh
+hhhh)h8hllmmnnpprruu;
+- (_Bool)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (_Bool)_;
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
 - (void);
 - (id);
 - (void);
@@ -145,7 +141,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)queryInteractionsUsingPredicate:sortDescriptors:limit:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

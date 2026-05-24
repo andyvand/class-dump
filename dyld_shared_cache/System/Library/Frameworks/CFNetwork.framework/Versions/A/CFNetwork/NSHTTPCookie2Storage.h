@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMemoryHTTPCookie2Storage, NSObject, NSPersistentHTTPCookie2Storage;
-@protocol OS_dispatch_queue;
+@class NSPersistentHTTPCookie2Storage;
 
 __attribute__((visibility("hidden")))
 @interface NSHTTPCookie2Storage
 {
     NSPersistentHTTPCookie2Storage *persistentStore;
-    NSMemoryHTTPCookie2Storage *memoryStore;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    CDUnknownBlockType _defaultNotificationHandler;
 }
 
 + (id);
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)TH;
 - (void);
 - (void);
 - (id);

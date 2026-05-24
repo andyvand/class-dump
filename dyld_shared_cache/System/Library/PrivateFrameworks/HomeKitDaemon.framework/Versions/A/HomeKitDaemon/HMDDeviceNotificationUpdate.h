@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceNotificationUpdate
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_notificationsCompletions;
-    NSMapTable *_characteristicUpdateTuples;
-    NSMutableDictionary *_updatedMediaPropertiesByMediaProfile;
-    NSMutableDictionary *_updatedActionSetResponsesByActionSetUUID;
-    NSString *_requestID;
-    NSString *_notificationUpdateID;
 }
 
 - (void);
@@ -27,16 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)dy9;
 - (id);
-- (id);
-- (void)ataStoreActivityLogEventAnalyzer;
+- (void)HMDCoreDataStoreActivityLogEventAnalyzer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actionSetResponses;
-@property(readonly, nonatomic) NSArray *characteristicUpdateTuples;
-@property(readonly, nonatomic) NSArray *completions;
-@property(readonly, nonatomic) NSArray *mediaProperties;
-@property(readonly, nonatomic) NSString *notificationUpdateID; // @synthesize notificationUpdateID=_notificationUpdateID;
 @property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 
 @end

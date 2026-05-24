@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSRateLimiter, NSString;
+@class NSString;
 
 @interface IDSSOSLogger
 {
     NSString *_sosURLString;
-    IDSRateLimiter *_rateLimiter;
 }
 
 + (id);
@@ -18,23 +17,14 @@
 - (void);
 - (id);
 - (double);
-- (id);
+- (id)R;
 - (void);
 - (id);
 - (void)rLocalAddress failed to copy path for %@;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double deviceSOSIdentifierRefreshInterval;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IDSRateLimiter *rateLimiter; // @synthesize rateLimiter=_rateLimiter;
 @property(retain, nonatomic) NSString *sosURLString; // @synthesize sosURLString=_sosURLString;
-@property(readonly) Class superclass;
 
 @end
 

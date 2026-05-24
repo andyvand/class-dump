@@ -14,7 +14,7 @@
 + (_Bool);
 + (id);
 - (id);
-- (id);
+- (id)EmergencyInviteResponseTimeout;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,14 +26,7 @@
 - (void)ntact">16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

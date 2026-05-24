@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaCLPCurareAppIntentTaskClassificationEnded : SISchemaInstrumentationMessage
 {
     unsigned int _sampleCount;
-    unsigned int _classifiedSampleCount;
-    unsigned int _positiveCount;
-    struct {
-        unsigned int sampleCount:1;
-        unsigned int classifiedSampleCount:1;
-        unsigned int positiveCount:1;
-    } _has;
 }
 
 - (void);
@@ -33,25 +24,19 @@
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)emaFLOWLINKActionParametersUpdated";
-- (id)ExecutionTier1;
+- (id)FLOWSchemaFLOWWebAnswerExecutionTier1;
 - (id)°';
 - (unsigned int)Ö*;
 - (void)ÿ|jSï+;
 
 // Remaining properties
-@property(nonatomic) unsigned int classifiedSampleCount; // @synthesize classifiedSampleCount=_classifiedSampleCount;
-@property(nonatomic) _Bool hasClassifiedSampleCount;
-@property(nonatomic) _Bool hasPositiveCount;
-@property(nonatomic) _Bool hasSampleCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int positiveCount; // @synthesize positiveCount=_positiveCount;
 @property(nonatomic) unsigned int sampleCount; // @synthesize sampleCount=_sampleCount;
 
 @end

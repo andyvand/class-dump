@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRecursiveLock, NSString;
+@class NSString;
 
 @interface IMDeviceSupport
 {
     NSString *_model;
-    NSString *_productName;
-    NSString *_productVersion;
-    NSString *_buildVersion;
-    NSRecursiveLock *_lock;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)";
 - (id);
-- (id);
-- (id);
+- (id)`";
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceInformationString;
 @property(readonly, nonatomic) NSString *model;
-@property(readonly, nonatomic) NSString *productBuildVersion;
-@property(readonly, nonatomic) NSString *productName;
-@property(readonly, nonatomic) NSString *productVersion;
-@property(readonly, nonatomic) NSString *userAgentString;
 
 @end
 

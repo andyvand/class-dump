@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSURL;
 
 @interface WBSBrowsingAssistantURLVariants
 {
@@ -14,13 +14,12 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSArray *variants;
 
 @end
 

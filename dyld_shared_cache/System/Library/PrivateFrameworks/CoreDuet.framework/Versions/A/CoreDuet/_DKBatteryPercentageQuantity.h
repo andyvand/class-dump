@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id):(double)arg1 isSingleDevice:isTriggeredSync: /* Error: Ran out of types for this method. */;
++ (id)queryStartDateFromLastDaySyncDates:(double)arg1 lastSyncDate:isSingleDevice:isTriggeredSync: /* Error: Ran out of types for this method. */;
 
 @end
 

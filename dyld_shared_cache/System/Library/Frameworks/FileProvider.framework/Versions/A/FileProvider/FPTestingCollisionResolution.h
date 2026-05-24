@@ -6,13 +6,11 @@
 
 #import <FileProvider/FPTestingOperation.h>
 
-@class NSString;
 @protocol NSFileProviderItem;
 
 @interface FPTestingCollisionResolution : FPTestingOperation
 {
     id <NSFileProviderItem> _renamedItem;
-    long long _snapshotVersion;
 }
 
 + (_Bool);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)!D;
 - (id);
 - (long long);
 - (void);
@@ -28,17 +26,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NSFileProviderItem> renamedItem; // @synthesize renamedItem=_renamedItem;
-@property(readonly, nonatomic) unsigned long long side;
 @property(readonly, nonatomic) long long snapshotVersion; // @synthesize snapshotVersion=_snapshotVersion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type;
 
 @end
 

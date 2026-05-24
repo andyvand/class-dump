@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HMThreadNetworkMetadata
 {
     unsigned char _channel;
-    NSString *_name;
-    NSData *_PANID;
-    NSData *_extendedPANID;
-    NSData *_masterKey;
-    NSString *_passPhrase;
-    NSData *_PSKc;
-    NSData *_operationalDataset;
 }
 
 + (_Bool);
@@ -28,19 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)=;
 - (unsigned char);
-- (void)ccessoryDiagnosticInfo;
+- (void)HMAccessoryDiagnosticInfoProtoAppleMediaAccessoryDiagnosticInfo;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *PANID; // @synthesize PANID=_PANID;
-@property(readonly, nonatomic) NSData *PSKc; // @synthesize PSKc=_PSKc;
-@property(readonly, nonatomic) unsigned char channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) NSData *extendedPANID; // @synthesize extendedPANID=_extendedPANID;
-@property(readonly, nonatomic) NSData *masterKey; // @synthesize masterKey=_masterKey;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSData *operationalDataset; // @synthesize operationalDataset=_operationalDataset;
-@property(readonly, nonatomic) NSString *passPhrase; // @synthesize passPhrase=_passPhrase;
 
 @end
 

@@ -6,9 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
-@protocol MTLDevice;
-
 @interface MTLToolsTextureViewPool : MTLToolsObject
 {
 }
@@ -19,23 +16,14 @@
 - (id);
 - (struct MTLResourceID);
 - (void);
-- (struct MTLResourceID);
+- (struct MTLResourceID)5
+;
 - (struct MTLResourceID);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct MTLResourceID baseResourceID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceViewCount;
-@property(readonly) Class superclass;
 
 @end
 

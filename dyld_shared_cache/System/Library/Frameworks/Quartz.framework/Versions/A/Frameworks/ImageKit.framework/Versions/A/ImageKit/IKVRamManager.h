@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheData, IKLinkedList, IKTexturePacker, NSOpenGLContext;
 @protocol IKVRamManagerDelegateProtocol;
 
 @interface IKVRamManager
 {
     id <IKVRamManagerDelegateProtocol> _delegate;
-    IKTexturePacker *_texturePacker;
-    IKCacheData *_cache;
-    IKLinkedList *_vramBindPriorityList;
-    unsigned int _vramCacheLength;
-    unsigned int _vramCacheUsed;
-    unsigned int _session;
-    NSOpenGLContext *_sharedContext;
 }
 
 - (void);
@@ -26,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -39,7 +31,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

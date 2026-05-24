@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDFactoidInfoItem
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_factoidReferences;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"has_cartoSignificance"b1"has_aoiZoom"b1"has_isIconSuppressed"b1"read_unknownFields"b1"read_cartoZoomIndoors"b1"read_cartoZooms"b1"read_countryCode3A"b1"read_countryCode"b1"read_state"b1"read_vectorPoiDisplayDv"b1"wrote_anyField"b1};
-- (id)ceSettingsLocale;
+- (id)_deviceSettingsLocale;
 - (id)0è|èéêÜê?Ìë8ì,íî;
 - (void);
 

@@ -14,17 +14,17 @@
 + (_Bool)X"°!,Fùî%°1Â0@ù
 × ;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)J;
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool)hostnamesCount;
 - (void);
 - (id);
-- (void)ryptedData;
+- (void)encryptedData;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *requests; // @synthesize requests=_requests;

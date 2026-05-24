@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TXRTextureInfo;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, TXRBufferAllocator, TXRParser;
+@protocol TXRBufferAllocator;
 
 __attribute__((visibility("hidden")))
 @interface TXRFileDataSourceProvider
 {
     id <TXRBufferAllocator> _bufferAllocator;
-    NSObject<OS_dispatch_queue> *_fileIOQueue;
-    NSObject<OS_dispatch_semaphore> *_infoLoaded;
-    id <TXRParser> _parser;
-    TXRTextureInfo *_textureInfo;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)*;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

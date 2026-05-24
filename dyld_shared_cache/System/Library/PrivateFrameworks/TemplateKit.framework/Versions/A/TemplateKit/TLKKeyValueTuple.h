@@ -11,21 +11,19 @@
 @interface TLKKeyValueTuple : TLKObject
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)recentURLsWithLimit:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

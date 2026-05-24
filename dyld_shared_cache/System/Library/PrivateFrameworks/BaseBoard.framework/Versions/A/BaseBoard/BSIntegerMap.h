@@ -9,7 +9,6 @@
 @interface BSIntegerMap
 {
     NSMapTable *_mapTable;
-    id _zeroIndexValue;
 }
 
 - (void);
@@ -25,8 +24,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)_symptom_framework:exit /* Error: Ran out of types for this method. */;
+- (void)CI;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

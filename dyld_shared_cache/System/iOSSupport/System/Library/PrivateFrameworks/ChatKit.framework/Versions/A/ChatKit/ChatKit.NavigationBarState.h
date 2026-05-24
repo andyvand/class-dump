@@ -7,18 +7,6 @@
 @interface ChatKit.NavigationBarState
 {
     id showsBackButton;
-    id displayMode;
-    id isTitleViewInteractable;
-    id conversation;
-    long long unreadCount;
-    id sendProgress;
-    id sendProgressColor;
-    id leadingItems;
-    id trailingItems;
-    id conversationTitle;
-    id locationText;
-    id nicknameOracle;
-    id showGroupNameAndPhoto;
 }
 
 - (id);

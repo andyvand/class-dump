@@ -6,130 +6,90 @@
 
 #import <EventKitUI/EKEditItemViewController.h>
 
-@class EKCalendarItem, EKEventStore, EKStructuredLocation, EKTravelRouteEstimationController, NSDate, NSIndexPath, NSString, UISwitch, UITableView, UITableViewCell, UIView;
-
 @interface EKEventTravelTimeEditViewController : EKEditItemViewController
 {
     struct CGRect _initFrame;
-    EKCalendarItem *_calendarItem;
-    EKEventStore *_eventStore;
-    UITableView *_table;
-    NSIndexPath *_checkedItem;
-    UISwitch *_switchControl;
-    long long _travelTimeSelectedChoice;
-    double _customTravelTimeDuration;
-    _Bool _estimationGroupIsShowing;
-    _Bool _customTimesGroupIsShowing;
-    _Bool _externallySetValueGroupIsShowing;
-    _Bool _isAnimatingTableSections;
-    _Bool _pendingReloadData;
-    NSString *_routeEstimationErrorMessage;
-    _Bool _isOriginSelectionVisible;
-    _Bool _suppressErrors;
-    _Bool _needsShowOriginAlert;
-    _Bool _estimatedRowIsChecked;
-    EKTravelRouteEstimationController *_routeEstimationControler;
-    long long _selectedRoutingMode;
-    long long _originalSelectedRoutingMode;
-    double _originalSelectedTravelTime;
-    UIView *_shadowView;
-    UITableViewCell *_sampleSizingCell;
-    double _selectedTravelTime;
-    NSDate *_arrivalDate;
-    EKStructuredLocation *_originStructuredLocation;
-    EKStructuredLocation *_destinationStructuredLocation;
 }
 
 + (id);
++ (id)S%s;
 + (id);
++ (id)S%s;
 + (id);
-+ (id);
-+ (id);
-- (long long);
+- (long long)!+s;
+- (void)s;
+- (_Bool);
+- (void);
+- (void)s;
+- (void)s;
+- (void);
+- (void);
+- (void)%s;
+- (double)s;
+- (long long);
+- (void)&s;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)&s;
+- (void);
+- (id)Q&s;
+- (id);
+- (void);
+- (void)N&s;
+- (unsigned long long)2%s;
+- (id);
+- (_Bool)&s;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)&s;
+- (long long)&s;
+- (void)3&s;
+- (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)s;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (long long);
-- (_Bool);
+- (void)(s;
+- (long long)*s;
+- (_Bool)s;
+- (id);
+- (void)s;
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (double);
-- (double);
-- (double);
+- (double);
+- (double);
+- (double);
 - (double);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)1Q{;
 - (void);
 - (id);
-- (id);
+- (id):(id)arg1:(id)arg2;
 - (id);
 - (long long);
-- (void);
+- (void)v@?@"OTEscrowCheckCallResult"@"NSError">;
 - (void);
 - (long long);
-- (void);
+- (void)__TEXT;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)setParticipantType: /* Error: Ran out of types for this method. */;
 - (_Bool)Ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *arrivalDate; // @synthesize arrivalDate=_arrivalDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EKStructuredLocation *destinationStructuredLocation; // @synthesize destinationStructuredLocation=_destinationStructuredLocation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) EKStructuredLocation *originStructuredLocation; // @synthesize originStructuredLocation=_originStructuredLocation;
-@property(nonatomic) long long selectedRoutingMode;
 @property(nonatomic) double selectedTravelTime; // @synthesize selectedTravelTime=_selectedTravelTime;
-@property(readonly) Class superclass;
 
 @end
 

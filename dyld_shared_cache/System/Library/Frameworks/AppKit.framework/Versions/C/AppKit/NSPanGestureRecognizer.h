@@ -6,28 +6,15 @@
 
 #import <AppKit/NSGestureRecognizer.h>
 
-@class NSArray, NSMutableArray, _NS2DVelocityFilter;
-
 @interface NSPanGestureRecognizer : NSGestureRecognizer
 {
     struct CGPoint _location;
-    struct CGPoint _translation;
-    unsigned long long _buttonMask;
-    long long _buttonCount;
-    _NS2DVelocityFilter *_velocityFilter;
-    double _timestamp;
-    unsigned long long _modifierFlags;
-    struct CGPoint _locationInWindow;
-    long long _numberOfTouchesRequired;
-    long long _activeTouchCount;
-    NSMutableArray *_trackingTouchIdentities;
-    NSArray *_currentTouches;
-    _Bool _translatesContextOrigin;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,14 +22,13 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long)filenameWithOriginalFilename: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (struct CGPoint);
+- (_Bool)k5;
+- (void)sumeData():(_Bool)arg1 Asked to create from a NULL path!;
+- (void)TTPServerConnection=^^?^^?{_CFHTTPServerClient_V0=q^v^?^?^?}^^?^{__CFAllocator}i^{__CFDictionary}@^{CoreSchedulingSet}^{__CFError}{_CFHTTPServerConnectionCallbacks_V1=q^?^?^?^?^?}^{HTTPServer}C^{__CFReadStream}^{__CFWriteStream}ddqqC^{HTTPServerRequest}^{PendingQueue}^{ActiveResponseInfo}^{__CFData}^{LeftoverBuffer}q@@^{__CFRunLoopTimer}}8;
+- (struct CGPoint)-ERROR:bind of partition value for item:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
@@ -61,8 +47,8 @@
 - (struct CGPoint)!ø@ùÑà3°1Â0@ù
 × ;
 - (void)n"b1"velocityHasSlowed"b1};
-- (void)urceSnapshot:(id)arg1;
-- (void)leContentPreservationForAnimatedResize;
+- (void)setDataSourceSnapshot:(id)arg1;
+- (void)NSDisableContentPreservationForAnimatedResize;
 - (struct CGPoint)½A;
 - (void)ô²ÿ$¶	prD;
 - (unsigned long long)Sÿ;
@@ -70,7 +56,6 @@
 
 // Remaining properties
 @property unsigned long long buttonMask;
-@property long long numberOfTouchesRequired; // @synthesize numberOfTouchesRequired=_numberOfTouchesRequired;
 
 @end
 

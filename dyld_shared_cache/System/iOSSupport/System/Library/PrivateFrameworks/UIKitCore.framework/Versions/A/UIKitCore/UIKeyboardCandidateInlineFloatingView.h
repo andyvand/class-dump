@@ -12,51 +12,39 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardCandidateInlineFloatingView : UIView
 {
     _Bool _reducedWidth;
-    _Bool _tewObserverIsSet;
-    _Bool _inlineRectIsVertical;
-    int _position;
-    int _adjustMode;
-    NSString *_inlineText;
-    double _maxX;
-    double _extendedStateAdditionalHeight;
-    struct CGSize _preferredSize;
-    struct CGRect _inlineRect;
-    struct CGRect _previousCollapsedFrame;
-    struct UIEdgeInsets _extraInsets;
-    struct UIEdgeInsets _cellPadding;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (void);
+- (void).;
+- (void)gnoring reachability update.;
+- (void)uestID %s in requestIDToChatMap %s. Ignoring reachability update.;
+- (void)Could not find chat for requestID %s in requestIDToChatMap %s. Ignoring reachability update.;
+- (void)IMDBadgeUtilities with unread count:(double)arg1 %ld;
+- (void)had changes! syndicationIdentifier:(int)arg1 %@;
+- (struct CGRect)ChangeTokensUpdatedBlock should not get called;
+- (_Bool)%@);
+- (_Bool)Record from IMTransfer guid %@, marking row %lld as failed to upload ***;
+- (id)ng moment share %@ in response to photo library change for message %@;
+- (_Bool)itWithFilePath;
+- (struct CGRect)g in nil filePath to initWithFilePath;
+- (struct UIEdgeInsets)ching ACAccount switch to %@.;
+- (double)us:%@) /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (struct CGRect);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (int);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)refersNoInterruptions:(double)arg1;
 - (double);
 - (struct UIEdgeInsets);
 - (void);
 - (struct CGSize);
+- (void)d.applayer;
 - (void);
-- (void);
-- (int)ration;
+- (int)windowRotationDuration;
 - (id)",R,N,V_selectedChoice;
 - (_Bool)ng new application key window on screen:(struct CGPoint)arg1 %{public}p;
 - (void)Àÿ±È;
@@ -64,18 +52,7 @@ __attribute__((visibility("hidden")))
 - (id)q~Õ@n;
 
 // Remaining properties
-@property(nonatomic) int adjustMode; // @synthesize adjustMode=_adjustMode;
-@property(nonatomic) struct UIEdgeInsets cellPadding; // @synthesize cellPadding=_cellPadding;
-@property(nonatomic) double extendedStateAdditionalHeight; // @synthesize extendedStateAdditionalHeight=_extendedStateAdditionalHeight;
-@property(nonatomic) struct UIEdgeInsets extraInsets; // @synthesize extraInsets=_extraInsets;
-@property(nonatomic) struct CGRect inlineRect; // @synthesize inlineRect=_inlineRect;
-@property(nonatomic) _Bool inlineRectIsVertical; // @synthesize inlineRectIsVertical=_inlineRectIsVertical;
 @property(copy, nonatomic) NSString *inlineText; // @synthesize inlineText=_inlineText;
-@property(nonatomic) double maxX; // @synthesize maxX=_maxX;
-@property(nonatomic) int position; // @synthesize position=_position;
-@property(nonatomic) struct CGSize preferredSize; // @synthesize preferredSize=_preferredSize;
-@property(nonatomic) struct CGRect previousCollapsedFrame; // @synthesize previousCollapsedFrame=_previousCollapsedFrame;
-@property(readonly, nonatomic, getter=isReducedWidth) _Bool reducedWidth; // @synthesize reducedWidth=_reducedWidth;
 
 @end
 

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (_Bool);
++ (id)_UIContentViewLabelConfigurationAccessibility;
++ (void)sibilityNode>;
+- (_Bool)rt/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI;
 - (unsigned long long);
 - (id);
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDBusinessPersistence, EDCategoryPersistence, EDMessagePersistence, EFLazyCache, EFLocked, NSHashTable, NSString;
-@protocol EFScheduler, EMMutableDictionaryProtocol;
+@class EFLazyCache, NSHashTable;
 
 @interface EDBusinessCloudStorage
 {
     NSHashTable *_observers;
-    EDBusinessPersistence *_businessPersistence;
-    EDCategoryPersistence *_categoryPersistence;
-    EDMessagePersistence *_messagePersistence;
-    EFLazyCache *_syncKeyCache;
-    EFLocked *_deletedKeyMap;
-    id <EMMutableDictionaryProtocol> _persistentDictionary;
-    id <EFScheduler> _observerScheduler;
 }
 
 - (id);
@@ -26,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -49,12 +41,12 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)er_noVerb_common_Date;
 - (id);
 - (void);
-- (id);
+- (id)ic decoding not yet implemented for TYP %@;
 - (id);
 - (void);
 - (id)1Â0@ù
@@ -62,19 +54,6 @@
 - (void)er, subject, automated_conversation);;
 
 // Remaining properties
-@property(retain, nonatomic) EDBusinessPersistence *businessPersistence; // @synthesize businessPersistence=_businessPersistence;
-@property(retain, nonatomic) EDCategoryPersistence *categoryPersistence; // @synthesize categoryPersistence=_categoryPersistence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) EFLocked *deletedKeyMap; // @synthesize deletedKeyMap=_deletedKeyMap;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) id <EFScheduler> observerScheduler; // @synthesize observerScheduler=_observerScheduler;
-@property(readonly, nonatomic) id <EMMutableDictionaryProtocol> persistentDictionary; // @synthesize persistentDictionary=_persistentDictionary;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) EFLazyCache *syncKeyCache; // @synthesize syncKeyCache=_syncKeyCache;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol PLAssetsdResourceInternalServiceProtocol
+- (id)';
 @end
 

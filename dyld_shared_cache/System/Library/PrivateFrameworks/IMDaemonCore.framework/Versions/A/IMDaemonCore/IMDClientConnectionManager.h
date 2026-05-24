@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDaemonListenerAVProtocol, IMDaemonListenerAccountsProtocol, IMDaemonListenerAnyProtocol, IMDaemonListenerChatCountsProtocol, IMDaemonListenerChatDatabaseProtocol, IMDaemonListenerChatProtocol, IMDaemonListenerCloudSyncProtocol, IMDaemonListenerCollaborationProtocol, IMDaemonListenerFileProviderProtocol, IMDaemonListenerFileTransfersProtocol, IMDaemonListenerKeyTransparencyProtocol, IMDaemonListenerRemoteIntentProtocol, IMDaemonListenerSyncedSettingsProtocol;
+@protocol IMDaemonListenerAnyProtocol;
 
 @interface IMDClientConnectionManager
 {
@@ -13,6 +13,7 @@
 
 - (id);
 - (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -24,6 +25,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,27 +37,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void)X;
 
 // Remaining properties
-@property(nonatomic, readonly) id <IMDaemonListenerAVProtocol> broadcasterForACConferenceListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerAVProtocol> broadcasterForAVConferenceListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerAccountsProtocol> broadcasterForAccountListeners;
 @property(nonatomic, readonly) id <IMDaemonListenerAnyProtocol> broadcasterForAllListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerChatProtocol> broadcasterForBlackholeChatListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerChatCountsProtocol> broadcasterForChatCountsListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerChatDatabaseProtocol> broadcasterForChatDatabaseListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerChatProtocol> broadcasterForChatListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerCloudSyncProtocol> broadcasterForCloudSyncListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerCollaborationProtocol> broadcasterForCollaborationListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerFileProviderProtocol> broadcasterForFileProviderListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerFileTransfersProtocol> broadcasterForFileTransferListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerKeyTransparencyProtocol> broadcasterForKeyTransparencyListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerRemoteIntentProtocol> broadcasterForRemoteIntentListeners;
-@property(nonatomic, readonly) id <IMDaemonListenerSyncedSettingsProtocol> broadcasterForSyncedSettingsListeners;
 
 @end
 

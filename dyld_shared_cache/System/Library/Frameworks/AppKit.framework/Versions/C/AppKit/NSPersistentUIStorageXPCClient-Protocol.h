@@ -5,5 +5,6 @@
 //
 
 @protocol NSPersistentUIStorageXPCClient
+- (void)ombined format;
 @end
 

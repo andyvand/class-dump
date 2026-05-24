@@ -11,7 +11,7 @@
     struct MTLSharedEventHandlePrivate *_priv;
 }
 
-+ (_Bool);
++ (_Bool)value;
 - (unsigned long long);
 - (id);
 - (unsigned int);

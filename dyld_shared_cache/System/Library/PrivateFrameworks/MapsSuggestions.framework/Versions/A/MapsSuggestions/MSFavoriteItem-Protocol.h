@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @protocol MSFavoriteItem
+- (NSString *);
 - (NSNumber *)apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsParkedCarDeduper.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *customName;
-@property(readonly, nonatomic) _Bool hidden;
-@property(readonly, nonatomic) NSNumber *latitude;
-@property(readonly, nonatomic) NSNumber *longitude;
-@property(readonly, nonatomic) GEOMapItemStorage *mapItemStorage;
-@property(readonly, nonatomic) NSNumber *muid;
-@property(readonly, nonatomic) NSString *originatingAddressString;
-@property(readonly, nonatomic) NSString *shortcutIdentifier;
-@property(readonly, nonatomic) long long source;
-@property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) long long version;
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPageController, NSHashTable, PKCanvasView, PKInk;
-@protocol AKInkOverlayViewDelegate;
+@class PKInk;
 
 @interface AKInkOverlayView
 {
     PKInk *_ink;
-    NSHashTable *_reportedStrokes;
-    AKPageController *_pageController;
-    id _drawingUndoTarget;
-    PKCanvasView *_canvasView;
-    id <AKInkOverlayViewDelegate> _delegate;
-    struct CGSize _canvasSizeInPKDrawingSpace;
-    struct CGRect _previousPageRectInAKModel;
 }
 
 + (id);
@@ -39,33 +31,28 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)k
+;
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)pdatePDFAnnotationIfNeeded: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
-@property struct CGSize canvasSizeInPKDrawingSpace; // @synthesize canvasSizeInPKDrawingSpace=_canvasSizeInPKDrawingSpace;
-@property(retain) PKCanvasView *canvasView; // @synthesize canvasView=_canvasView;
-@property __weak id <AKInkOverlayViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property __weak id drawingUndoTarget; // @synthesize drawingUndoTarget=_drawingUndoTarget;
-@property(copy) PKInk *ink;
-@property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(nonatomic) struct CGRect previousPageRectInAKModel; // @synthesize previousPageRectInAKModel=_previousPageRectInAKModel;
 
 @end
 

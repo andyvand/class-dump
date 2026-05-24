@@ -6,29 +6,16 @@
 
 #import <CloudKitDaemon/CKDPCSData.h>
 
-@class CKDChainPCSData, CKDSharePCSData, CKDZonePCSData, CKEncryptedData, CKPCSKeysToRemove, CKRecordID, CKRecordZoneID, NSData, NSString;
+@class CKRecordID;
 
 @interface CKDRecordPCSData : CKDPCSData
 {
     CKRecordID *_recordID;
-    NSString *_recordType;
-    CKRecordID *_parentID;
-    CKDRecordPCSData *_parentPCSData;
-    NSData *_chainParentPublicKeyID;
-    CKDZonePCSData *_zonePCSData;
-    CKRecordZoneID *_zoneID;
-    NSData *_zoneishPublicKeyID;
-    CKDSharePCSData *_sharePCSData;
-    CKRecordID *_shareID;
-    struct _OpaquePCSShareProtection *_signingPCS;
-    CKDChainPCSData *_chainPCSData;
-    CKEncryptedData *_encryptedPublicSharingKey;
-    CKPCSKeysToRemove *_pcsKeysToRemove;
 }
 
 + (_Bool);
 + (id);
-- (struct _OpaquePCSShareProtection *);
+- (struct _OpaquePCSShareProtection *)core_PrecipitationType_Snow;
 - (void);
 - (id);
 - (id);
@@ -36,28 +23,28 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)1;
+- (id)setHtExtendedCapabilities: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)24@?<v@?>32;
+- (id)_copySearchIndexerDatabaseIntoDirectoryURL: /* Error: Ran out of types for this method. */;
+- (void)_attachDatabaseWithName:(id)arg1 url:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)currentMessageKey;
 - (void);
 - (id);
 - (id);
@@ -71,20 +58,7 @@
 - (void)er sending the server request, the next earliest attempt at sending device capabilities or share/zone usage to the server will be in %{public}@.;
 
 // Remaining properties
-@property(retain, nonatomic) CKDChainPCSData *chainPCSData; // @synthesize chainPCSData=_chainPCSData;
-@property(retain, nonatomic) NSData *chainParentPublicKeyID; // @synthesize chainParentPublicKeyID=_chainParentPublicKeyID;
-@property(retain, nonatomic) CKEncryptedData *encryptedPublicSharingKey; // @synthesize encryptedPublicSharingKey=_encryptedPublicSharingKey;
-@property(retain, nonatomic) CKRecordID *parentID; // @synthesize parentID=_parentID;
-@property(retain, nonatomic) CKDRecordPCSData *parentPCSData; // @synthesize parentPCSData=_parentPCSData;
-@property(copy, nonatomic) CKPCSKeysToRemove *pcsKeysToRemove; // @synthesize pcsKeysToRemove=_pcsKeysToRemove;
 @property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
-@property(retain, nonatomic) CKRecordID *shareID; // @synthesize shareID=_shareID;
-@property(retain, nonatomic) CKDSharePCSData *sharePCSData; // @synthesize sharePCSData=_sharePCSData;
-@property(nonatomic) struct _OpaquePCSShareProtection *signingPCS; // @synthesize signingPCS=_signingPCS;
-@property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
-@property(retain, nonatomic) CKDZonePCSData *zonePCSData; // @synthesize zonePCSData=_zonePCSData;
-@property(retain, nonatomic) NSData *zoneishPublicKeyID; // @synthesize zoneishPublicKeyID=_zoneishPublicKeyID;
 
 @end
 

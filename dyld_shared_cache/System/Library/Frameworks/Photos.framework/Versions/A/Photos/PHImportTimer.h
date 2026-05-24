@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PHImportTimer
 {
     unsigned char _type;
-    unsigned char _subtype;
-    id _uuid;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    unsigned long long _signpostId;
 }
 
 - (id);
@@ -26,21 +19,16 @@
 - (unsigned char);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)time (num frames = %d) ;
+- (void)e or zero;
 - (id);
 - (unsigned char);
-- (void)GenerationTimeout:(id)arg1;
+- (void)setEmbeddingGenerationTimeout:(id)arg1;
 - (void)ager",W,N,V_imageManager;
 - (void)jÊ;
 
 // Remaining properties
-@property(retain) NSDate *endTime; // @synthesize endTime=_endTime;
-@property unsigned long long signpostId; // @synthesize signpostId=_signpostId;
-@property(retain) NSDate *startTime; // @synthesize startTime=_startTime;
-@property unsigned char subtype; // @synthesize subtype=_subtype;
-@property unsigned char type; // @synthesize type=_type;
 @property(retain) id uuid; // @synthesize uuid=_uuid;
 
 @end

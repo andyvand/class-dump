@@ -14,7 +14,7 @@
 
 + (unsigned int);
 + (id);
-- (id);
+- (id)	k;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;

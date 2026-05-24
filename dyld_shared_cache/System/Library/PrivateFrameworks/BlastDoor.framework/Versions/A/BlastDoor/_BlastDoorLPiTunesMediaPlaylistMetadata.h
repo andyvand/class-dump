@@ -6,55 +6,41 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, NSURL, _BlastDoorLPArtworkMetadata, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPiTunesMediaPlaylistMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_curator;
-    NSURL *_curatorProfileURL;
-    NSString *_curatorHandle;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@9;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)=;
+- (void)ecently Deleted] Permanent deletion on selected requested;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (void)textItalicAttribute;
 - (void)¤ý;
 - (id)>%;
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) _BlastDoorLPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *curator; // @synthesize curator=_curator;
-@property(copy, nonatomic) NSString *curatorHandle; // @synthesize curatorHandle=_curatorHandle;
-@property(copy, nonatomic) NSURL *curatorProfileURL; // @synthesize curatorProfileURL=_curatorProfileURL;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

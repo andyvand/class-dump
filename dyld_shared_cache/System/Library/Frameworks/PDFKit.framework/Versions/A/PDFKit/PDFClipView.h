@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)rWithIdentifier:(struct CGRect)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
+@class UIColor, UIImage;
 @protocol UITableConstants;
 
 @protocol _UICollectionViewListDetailAccessoryView
+- (UIImage *),GisConnecting;
 - (long long)1`1Â0@ù
 × ;
 - (void (^)(void));
 - (void)0@ù
 × ;
-- (UIColor *)ew:dropInteraction:item:willAnimateDropWithAnimator: /* Error: Ran out of types for this method. */;
-- (id <UITableConstants>)onvertingFromSpace:toSpace: /* Error: Ran out of types for this method. */;
+- (UIColor *)_webView:dropInteraction:item:willAnimateDropWithAnimator: /* Error: Ran out of types for this method. */;
+- (id <UITableConstants>)_shapeByConvertingFromSpace:toSpace: /* Error: Ran out of types for this method. */;
 - (void)",?,&,N;
 - (void);
 - (void);
 - (UIColor *)º\2;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *accessoryBackgroundColor;
-@property(retain, nonatomic) UIColor *accessoryTintColor;
-@property(nonatomic) _Bool accessoryUsesMonochromaticTreatment;
-@property(copy, nonatomic) CDUnknownBlockType actionHandler;
-@property(retain, nonatomic) id <UITableConstants> constants;
 @property(nonatomic) long long type;
 @end
 

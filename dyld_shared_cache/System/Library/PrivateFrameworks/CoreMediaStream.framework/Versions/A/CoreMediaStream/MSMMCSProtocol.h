@@ -9,37 +9,26 @@
 @interface MSMMCSProtocol
 {
     NSString *_personID;
-    NSString *_MMCSDirPath;
-    struct _mmcs_engine *_engine;
-    NSString *_engineDirPath;
 }
 
-+ (id);
-- (id);
++ (id)Notification:(id)arg1 %@;
+- (id)back that the image capture has started;
+- (void)type:(id)arg1 %{public,uuid_t}.16P (class:%@) /* Error: Ran out of types for this method. */;
+- (void)public,uuid_t}.16P] Sending snapshot received confirmation to the sender;
+- (void)device;
+- (void)_t}.16P] Stream setup is in progress, adding this to remote pending request queue;
+- (id)uest queue;
+- (void)t}.16P] Stream setup is in progress, adding this to pending request queue;
+- (int)ith payload %@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (int);
-- (void);
-- (void);
-- (id);
-- (struct _mmcs_engine *);
+- (id);
+- (struct _mmcs_engine *)rdl;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct _mmcs_engine *engine; // @synthesize engine=_engine;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(readonly) Class superclass;
 
 @end
 

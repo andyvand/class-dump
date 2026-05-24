@@ -7,23 +7,14 @@
 @interface ChatKit.CKInlineMediaViewGenerateButton
 {
     id defaultImageOpacity;
-    id generativeImageOpacity;
-    id imageFilter;
-    id sparklesImage;
-    id backgroundView;
-    _Bool isGenerativeAssetAppearance;
-    id buttonBGColor;
-    id buttonTintColor;
-    id generativeButtonBGColor;
-    id generativeButtonTintColor;
 }
 
-- (_Bool);
+- (_Bool)Q24^B32;
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)popoverFrameInContainer;
 - (void);
 
 // Remaining properties

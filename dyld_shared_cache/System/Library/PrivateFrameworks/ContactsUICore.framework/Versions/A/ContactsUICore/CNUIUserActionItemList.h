@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
+@class NSString;
 
 @interface CNUIUserActionItemList
 {
     NSString *_type;
-    NSImage *_icon;
-    NSArray *_items;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 - (void)NUIUserActivityRestorerDelegate>";
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

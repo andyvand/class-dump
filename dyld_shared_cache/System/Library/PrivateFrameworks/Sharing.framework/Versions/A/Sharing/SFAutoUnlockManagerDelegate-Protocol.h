@@ -5,5 +5,8 @@
 //
 
 @protocol SFAutoUnlockManagerDelegate
+
+@optional
+- (void)A;
 @end
 

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface PXSharedLibraryAssistantParticipantViewModel
 {
     NSImage *_image;
-    NSString *_title;
-    NSString *_subtitle;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)letionHandler:(CDUnknownBlockType)arg1 (void (^)(BOOL success))inCompletionHandler;
 - (void);
 - (void);
 - (id)ange;
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

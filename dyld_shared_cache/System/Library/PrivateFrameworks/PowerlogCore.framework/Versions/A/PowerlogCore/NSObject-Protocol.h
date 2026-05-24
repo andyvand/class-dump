@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (struct _NSZone *)g;
+- (id)a;
+- (id))S	ka;
+- (_Bool)$;
+- (oneway void);
+- (_Bool)DUGetLocalUserMCXRecords():(id)arg1 ODQuery() == %d (%s);
+- (_Bool)_resetContextTimer;
+- (_Bool);
+- (struct _NSZone *)Charging;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

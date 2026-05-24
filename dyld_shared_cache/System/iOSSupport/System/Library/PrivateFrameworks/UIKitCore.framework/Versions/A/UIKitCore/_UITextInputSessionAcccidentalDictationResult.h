@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (unsigned long long)dEnd;
+- (unsigned long long)QualifiedEnd;
 - (void)CollectionViewLayoutAttributes instance for -layoutAttributesForItemAtIndexPath:(unsigned long long)arg1 %@;
 - (void)tableVectorP;
 

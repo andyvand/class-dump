@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, VCHistogram;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCReportingDistribution
 {
     NSDictionary *_keys;
-    double _sum;
-    double _count;
-    double _min;
-    double _max;
-    VCHistogram *_histogram;
-    unsigned int _histogramIncrementFactor;
 }
 
+- (void)/	;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}76;
 - (double);
 - (double);
 - (double);
 
 // Remaining properties
-@property(readonly) double count; // @synthesize count=_count;
-@property(readonly) VCHistogram *histogram; // @synthesize histogram=_histogram;
 @property(readonly) NSDictionary *keys; // @synthesize keys=_keys;
-@property(readonly) double max; // @synthesize max=_max;
-@property(readonly) double min; // @synthesize min=_min;
-@property(readonly) double sum; // @synthesize sum=_sum;
 
 @end
 

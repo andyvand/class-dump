@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface CoreDataValidationCoreAnalyticsEvent
 {
     long long _validationError;
 }
 
-+ (id);
-- (id);
++ (id)B;
+- (id)_artwork_token != '' THEN 1 ELSE (CASE WHEN sync_artwork_token != '' THEN 2 ELSE (CASE WHEN purchase_history_artwork_token != '' THEN 3 ELSE (CASE WHEN store_artwork_token != '' THEN 4 ELSE 0 END) END) END) END);
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 @property(readonly) long long validationError; // @synthesize validationError=_validationError;
 
 @end

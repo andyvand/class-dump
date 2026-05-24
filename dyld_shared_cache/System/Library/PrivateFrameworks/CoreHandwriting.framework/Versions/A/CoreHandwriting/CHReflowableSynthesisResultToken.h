@@ -6,12 +6,11 @@
 
 #import <CoreHandwriting/CHReflowableTextToken.h>
 
-@class CHDrawing, NSDictionary;
+@class CHDrawing;
 
 @interface CHReflowableSynthesisResultToken : CHReflowableTextToken
 {
     CHDrawing *_drawing;
-    NSDictionary *_debugInfo;
 }
 
 + (id);
@@ -20,11 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setScanComplete: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *debugInfo; // @synthesize debugInfo=_debugInfo;
 @property(readonly, copy, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
 
 @end

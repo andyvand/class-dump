@@ -6,30 +6,12 @@
 
 #import <MPSNeuralNetwork/MPSCNNGradientKernel.h>
 
-@protocol MPSCNNConvolutionDataSource, MTLBuffer;
-
 @interface MPSCNNConvolutionGradient : MPSCNNGradientKernel
 {
     unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _groups;
-    unsigned long long _channelMultiplier;
-    unsigned long long _gradientOption;
-    id <MTLBuffer> _weights;
-    _Bool _fullyConnected;
-    _Bool _convolutionTranspose;
-    unsigned int _weightsDataType;
-    unsigned int _preferredWeightsDataType;
-    unsigned int _weightsLayout;
-    id <MPSCNNConvolutionDataSource> _dataSource;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _lock;
-    _Bool _serializeWeightsAndBiases;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -37,7 +19,7 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -46,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)    !!!!""""####$$$$%%%%&&&&''''(((())))****++++,,,,----....////0000111122223333444455556666777788889999:(id)arg1:(id)arg2::;;;;<<<<====>>>>???? /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -58,22 +40,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)matrix size.;
 - (id);
 - (id);
-- (unsigned int);
-- (unsigned long long);
+- (unsigned int)P;
+- (unsigned long long);
 - (unsigned long long)¶;
 - (id)À;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long channelMultiplier; // @synthesize channelMultiplier=_channelMultiplier;
-@property(readonly, retain, nonatomic) id <MPSCNNConvolutionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) unsigned long long gradientOption; // @synthesize gradientOption=_gradientOption;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(nonatomic) _Bool serializeWeightsAndBiases; // @synthesize serializeWeightsAndBiases=_serializeWeightsAndBiases;
 @property(readonly, nonatomic) unsigned long long sourceGradientFeatureChannels; // @synthesize sourceGradientFeatureChannels=_inputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long sourceImageFeatureChannels; // @synthesize sourceImageFeatureChannels=_outputFeatureChannels;
 
 @end
 

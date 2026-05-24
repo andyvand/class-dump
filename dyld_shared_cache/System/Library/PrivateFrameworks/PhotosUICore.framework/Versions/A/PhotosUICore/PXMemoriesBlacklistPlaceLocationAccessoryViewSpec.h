@@ -11,7 +11,6 @@
 @interface PXMemoriesBlacklistPlaceLocationAccessoryViewSpec : PXMemoriesBlacklistAccessoryViewSpec
 {
     CLLocation *_location;
-    double _regionRadius;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) double regionRadius; // @synthesize regionRadius=_regionRadius;
 
 @end
 

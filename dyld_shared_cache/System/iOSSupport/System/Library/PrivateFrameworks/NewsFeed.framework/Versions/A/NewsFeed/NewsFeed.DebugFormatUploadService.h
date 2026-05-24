@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatUploadService
 {
     id newsroomService;
-    id $__lazy_storage_$_urlSessionPool;
-    id uploadQueue;
 }
 
 @end

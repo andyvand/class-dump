@@ -5,6 +5,7 @@
 //
 
 @protocol _UIViewControllerInProcessStatusBarLumaTracking
+- (_Bool)bject:deleteTransferCallback:createItemCallback:fromMessageItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_hasInProcessStatusBarLumaTracking) _Bool hasInProcessStatusBarLumaTracking;

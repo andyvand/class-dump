@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SASVoiceSearchPartialResult : SABaseClientBoundCommand
 {
@@ -20,14 +20,12 @@
 - (void);
 - (void);
 - (id);
+- (id)B;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)&& "The buffer size must be at least 1 byte";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *recognitionText;
-@property(nonatomic) _Bool stable;
-@property(copy, nonatomic) NSArray *voiceSearchResults;
 
 @end
 

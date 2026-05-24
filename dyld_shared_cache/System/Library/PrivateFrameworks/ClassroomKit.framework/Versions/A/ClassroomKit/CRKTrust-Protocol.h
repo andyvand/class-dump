@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKCertificate> leafCertificate;
-@property(readonly, nonatomic) struct __SecTrust *underlyingTrust;
 @end
 

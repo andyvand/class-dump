@@ -5,5 +5,6 @@
 //
 
 @protocol _DKNotificationReceiver
+- (void)7;
 @end
 

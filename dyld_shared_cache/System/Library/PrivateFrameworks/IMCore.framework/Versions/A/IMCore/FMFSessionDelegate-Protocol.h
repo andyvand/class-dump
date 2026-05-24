@@ -9,12 +9,15 @@
 @protocol FMFSessionDelegate
 
 @optional
+- (void);
+- (void)R;
+- (void)-;
+- (void)a;
 - (void)urning early.;
 - (void)ting chat:(NSDictionary *)arg1 %@;
 - (void)À°;
-- (void);
 - (void)ersation identifier:(FMFFriendshipRequest *)arg1;
-- (void)MHandleIdlePulseNotification;
+- (void)__kIMHandleIdlePulseNotification;
 - (void)UÊ»1ôSùÿ;
 @end
 

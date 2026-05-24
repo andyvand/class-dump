@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate, _SFPBStructuredLocation, _SFPBTimeZone, _SFPBURL;
+@class NSData, NSString;
 
 @protocol _SFPBCalendarEvent
-- (_Bool)yIdentifier;
+- (void);
+- (void);
+- (void)resetGuestAssetPromotion:(_Bool)arg1;
+- (NSData *)Ȃ;
+- (_Bool)_memoryIdentifier;
 - (void)d;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBDate *endDate;
-@property(retain, nonatomic) _SFPBStructuredLocation *endLocation;
-@property(retain, nonatomic) _SFPBTimeZone *endTimeZone;
-@property(nonatomic) _Bool isAllDay;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBStructuredLocation *location;
-@property(copy, nonatomic) NSString *notes;
-@property(retain, nonatomic) _SFPBDate *startDate;
-@property(retain, nonatomic) _SFPBTimeZone *startTimeZone;
 @property(copy, nonatomic) NSString *title;
-@property(retain, nonatomic) _SFPBURL *url;
 @end
 

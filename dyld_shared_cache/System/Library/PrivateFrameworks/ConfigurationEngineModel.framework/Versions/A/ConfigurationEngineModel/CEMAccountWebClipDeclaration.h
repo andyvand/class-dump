@@ -6,21 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMAccountWebClipDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadPrecomposed;
-    NSNumber *_payloadFullScreen;
-    NSString *_payloadURL;
-    NSNumber *_payloadIsRemovable;
-    NSString *_payloadLabel;
-    NSString *_payloadIcon;
 }
 
++ (id)T`;
 + (id);
-+ (id);
-+ (id);
++ (id)`;
 + (id);
 + (id);
 + (id);
@@ -29,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (id);
 - (id);
 - (id);
@@ -43,23 +38,11 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)EmbeddingType;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadFullScreen; // @synthesize payloadFullScreen=_payloadFullScreen;
-@property(copy, nonatomic) NSString *payloadIcon; // @synthesize payloadIcon=_payloadIcon;
-@property(copy, nonatomic) NSNumber *payloadIsRemovable; // @synthesize payloadIsRemovable=_payloadIsRemovable;
-@property(copy, nonatomic) NSString *payloadLabel; // @synthesize payloadLabel=_payloadLabel;
 @property(copy, nonatomic) NSNumber *payloadPrecomposed; // @synthesize payloadPrecomposed=_payloadPrecomposed;
-@property(copy, nonatomic) NSString *payloadURL; // @synthesize payloadURL=_payloadURL;
-@property(readonly) Class superclass;
 
 @end
 

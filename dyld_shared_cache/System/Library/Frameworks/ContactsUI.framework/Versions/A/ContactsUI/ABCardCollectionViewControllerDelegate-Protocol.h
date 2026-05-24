@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ABCardViewDelegate, CNUIUserActionListDataSource;
+
 @protocol ABCardCollectionViewControllerDelegate
+- (id <CNUIUserActionListDataSource>)kB;
+- (_Bool);
+- (id <ABCardViewDelegate>)__DATA_DIRTY;
 - (_Bool)idgetProvider"16@"CNContactSharingEnabledWarningViewController"24;
 @end
 

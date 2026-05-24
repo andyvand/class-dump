@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, RCUnfairLock;
+@class NSObject, RCUnfairLock;
 @protocol OS_nw_activity;
 
 @interface RCNetworkActivity
 {
     NSObject<OS_nw_activity> *_activity;
-    unsigned int _domain;
-    unsigned int _label;
-    NSUUID *_parentToken;
-    RCUnfairLock *_accessLock;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setExportedInterface: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -33,9 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RCUnfairLock *accessLock; // @synthesize accessLock=_accessLock;
-@property(nonatomic) unsigned int domain; // @synthesize domain=_domain;
-@property(nonatomic) unsigned int label; // @synthesize label=_label;
-@property(retain, nonatomic) NSUUID *parentToken; // @synthesize parentToken=_parentToken;
 
 @end
 

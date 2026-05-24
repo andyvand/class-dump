@@ -5,5 +5,6 @@
 //
 
 @protocol NUFontRegistration
+- (void);
 @end
 

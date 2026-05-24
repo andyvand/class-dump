@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSString;
 
 __attribute__((visibility("hidden")))
 @interface EOSReporter
 {
     NSString *_eventName;
-    NSMutableDictionary *_sessionReport;
-    NSDate *_sessionStartTime;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
@@ -21,20 +17,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)troller.postMessage({name:"elementFocused",focusedElementMetadata:t,formMetadata:a})}focusOutEventHandler(e){this.fieldMovementChecker.reset();let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!0);t&&window.webkit.messageHandlers.controller.postMessage({name:"elementBlurred",focusedElementMetadata:t,formMetadata:a})}inputEventHandler(e){let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestTextChange,!0);t&&(this.jsController.populateRectFieldsInFormElementMetadata(t,e),window.webkit.messageHandlers.controller.postMessage({name:"elementInput",focusedElementMetadata:t,formMetadata:a}))}static#n(e,t){switch(e){case"ArrowUp":return WKInputFieldActionTypeMoveUp;case"ArrowDown":return WKInputFieldActionTypeMoveDown;case"Escape":return WKInputFieldActionTypeCancel;case"Tab":return t?WKInputFieldActionTypeInsertBacktab:WKInputFieldActionTypeInsertTab;case"Enter":return WKInputFieldActionTypeInsertNewline;case"Backspace":return WKInputFieldActionTypeInsertDelete;default:return null}}keydownEventHandler(e,t){const a=FocusManager.#n(t.key,t.shiftKey);if(null===a)return;const[o,r]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"observedActionInFormTextField",action:a,controlMetadata:o,formMetadata:r})}submitEventHandler(e){const t=this.jsController.getMetadataForForm(e);e.setUserInfo(t)}}class AutoFillButtonManager{jsController;constructor(e){this.jsController=e}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitautofillrequest",this.webKitAutofillRequestEventHandler.bind(this))}webKitAutofillRequestEventHandler(e){let[t,a]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"manualAutoFillRequest",focusedElementMetadata:t,formMetadata:a})}}let formMetadataJSController=new FormMetadataJSController;eventQueue.setDelegate(formMetadataEventDispatcher);
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)lowed;
+- (id)u;
+- (void)setSessionWindowController: /* Error: Ran out of types for this method. */;
+- (void)TransferFailed_NotAllowed;
 - (id)eption caught in loadCredentialsFromKeychain;
 
 // Remaining properties
-@property(readonly) NSString *eventName; // @synthesize eventName=_eventName;
 @property(retain) NSMutableDictionary *sessionReport; // @synthesize sessionReport=_sessionReport;
-@property(retain) NSDate *sessionStartTime; // @synthesize sessionStartTime=_sessionStartTime;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (TransparencyData)
-+ (id);
++ (id)b;
 + (id);
 + (id);
 - (id);

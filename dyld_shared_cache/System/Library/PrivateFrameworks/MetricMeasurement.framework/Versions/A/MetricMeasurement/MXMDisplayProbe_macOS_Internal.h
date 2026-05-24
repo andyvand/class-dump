@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MXMDisplayDescriptor, NSString, SLContentStream;
+@class SLContentStream;
 @protocol MXMDisplayProbePlatformDelegate;
 
 @interface MXMDisplayProbe_macOS_Internal
 {
     SLContentStream *_stream;
-    MXMDisplayDescriptor *_target;
-    id <MXMDisplayProbePlatformDelegate> _delegate;
 }
 
 + (id);
@@ -19,18 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)initWithUsername:password: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MXMDisplayProbePlatformDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

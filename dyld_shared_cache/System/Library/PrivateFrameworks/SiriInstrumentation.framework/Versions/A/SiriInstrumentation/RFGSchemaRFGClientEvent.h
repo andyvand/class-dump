@@ -6,32 +6,26 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, RFSchemaRFGClientEventMetadata, RFSchemaRFGVisualResponseShownLink, RFSchemaRFGVisualResponseShownTier1, SISchemaInstrumentationMessage;
+@class RFSchemaRFGClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface RFGSchemaRFGClientEvent : SISchemaTopLevelUnionType
 {
     RFSchemaRFGClientEventMetadata *_eventMetadata;
-    RFSchemaRFGVisualResponseShownTier1 *_visualResponseShownTier1;
-    RFSchemaRFGVisualResponseShownLink *_visualResponseShownLink;
-    _Bool _hasEventMetadata;
-    _Bool _hasVisualResponseShownTier1;
-    _Bool _hasVisualResponseShownLink;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)1	?נ.;
 - (void);
 - (void);
 - (void);
@@ -43,29 +37,21 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)rary/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableAppRequest_macOS.m:20 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)and last_addressed_sim_id in (%@?)) c INNER JOIN chat_message_join cm ON c.ROWID=cm.chat_id;;
 - (id);
 - (id);
 - (id);
-- (unsigned long long)ected;
-- (id)neof_Value;
+- (unsigned long long)deleteNumAudioFilesSelected;
+- (id)_whichOneof_Value;
 - (id)nNs;
 - (int)	
 ;
-- (void);
+- (void)GMSOPENAIERRORCODE_AUTHORIZATION_CODE_EXPIRED;
 
 // Remaining properties
-@property(retain, nonatomic) RFSchemaRFGClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasVisualResponseShownLink; // @synthesize hasVisualResponseShownLink=_hasVisualResponseShownLink;
-@property(nonatomic) _Bool hasVisualResponseShownTier1; // @synthesize hasVisualResponseShownTier1=_hasVisualResponseShownTier1;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFSchemaRFGVisualResponseShownLink *visualResponseShownLink; // @synthesize visualResponseShownLink=_visualResponseShownLink;
-@property(retain, nonatomic) RFSchemaRFGVisualResponseShownTier1 *visualResponseShownTier1; // @synthesize visualResponseShownTier1=_visualResponseShownTier1;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -5,11 +5,9 @@
 //
 
 @protocol GEOMapTransitAccessPoint
+- (unsigned short);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short accessType;
-@property(readonly, nonatomic) unsigned char entranceExitType;
-@property(readonly, nonatomic) double groundRadius;
 @property(readonly, nonatomic) unsigned long long stationID;
 @end
 

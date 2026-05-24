@@ -12,45 +12,34 @@ __attribute__((visibility("hidden")))
 @interface NSGreySliders : NSColorSpaceSliders
 {
     id greySlider;
-    id greyText;
-    NSView *_greyView;
-    id greyButtons[5];
-    id opacityButtons;
-    double opacityDistanceFromBottom;
-    _Bool alphaButtonsAreHidden;
 }
 
-+ (id);
++ (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)t;
+- (void)onse;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)netServiceDidStop: /* Error: Ran out of types for this method. */;
+- (id)netServiceDidResolveAddress: /* Error: Ran out of types for this method. */;
+- (id)netServiceDidPublish: /* Error: Ran out of types for this method. */;
+- (id)netServiceBrowserWillSearch: /* Error: Ran out of types for this method. */;
+- (id)netServiceBrowser:didRemoveService:moreComing: /* Error: Ran out of types for this method. */;
+- (id)netServiceBrowser:didRemoveService:moreComing: /* Error: Ran out of types for this method. */;
+- (id)backgroundTaskDidResume: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property id greyButton0;
-@property id greyButton1;
-@property id greyButton2;
-@property id greyButton3;
-@property id greyButton4;
 @property(retain) NSView *greyView; // @synthesize greyView=_greyView;
 
 @end

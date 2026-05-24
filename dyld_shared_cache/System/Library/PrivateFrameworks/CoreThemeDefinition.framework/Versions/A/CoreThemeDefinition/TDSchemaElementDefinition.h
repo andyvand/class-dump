@@ -10,8 +10,8 @@
 {
 }
 
-+ (const CDStruct_22c2ae3f *);
-+ (const CDStruct_22c2ae3f *);
++ (const CDStruct_b96027fa *);
++ (const CDStruct_b96027fa *);
 + (unsigned long long);
 
 @end

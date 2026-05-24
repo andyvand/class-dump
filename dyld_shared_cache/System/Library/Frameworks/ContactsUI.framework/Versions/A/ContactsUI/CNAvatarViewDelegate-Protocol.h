@@ -5,5 +5,8 @@
 //
 
 @protocol CNAvatarViewDelegate
+
+@optional
+- (_Bool);
 @end
 

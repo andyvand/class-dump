@@ -7,8 +7,6 @@
 @interface PromotedContent.FrequencyCapData
 {
     id relevantIdentifier;
-    id frequencyValue;
-    id frequencyDuration;
 }
 
 - (id);

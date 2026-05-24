@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface REMUrgentPresentationAlarmStatePerUser
 {
     _Bool _isEnabled;
-    NSString *_personIdentifier;
-    NSDate *_modifiedOn;
 }
 
 + (_Bool);
@@ -20,14 +18,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)v20@?0B8@"NSError"12;
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) NSDate *modifiedOn; // @synthesize modifiedOn=_modifiedOn;
 @property(readonly, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
 
 @end

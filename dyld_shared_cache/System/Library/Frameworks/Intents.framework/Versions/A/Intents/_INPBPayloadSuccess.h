@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentSlotValue;
+@class NSString;
 
 @interface _INPBPayloadSuccess
 {
     struct _has;
-    NSString *_resolvedKeyPath;
-    _INPBIntentSlotValue *_resolvedValue;
 }
 
 + (_Bool);
@@ -20,28 +18,18 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)Frameworks/Foundation.framework/Versions/C/Foundation;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)v4;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)nations;
+- (void)parameterCombinations;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasResolvedKeyPath;
-@property(readonly, nonatomic) _Bool hasResolvedValue;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *resolvedKeyPath; // @synthesize resolvedKeyPath=_resolvedKeyPath;
-@property(retain, nonatomic) _INPBIntentSlotValue *resolvedValue; // @synthesize resolvedValue=_resolvedValue;
-@property(readonly) Class superclass;
 
 @end
 

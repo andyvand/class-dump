@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_IPropertyValueApplicatorController : FI_IPropertyValueController
 {
     struct TFENodeVector _nodes;
-    FI_IPropertyValueApplicator *_valueApplicator;
 }
 
 - (void);
@@ -21,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (const void *);
-- (id);
+- (id);
 - (void)´;
 
 // Remaining properties

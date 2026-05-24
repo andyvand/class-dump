@@ -6,22 +6,16 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TTagTextLabel, FI_TTextField, NSImageView, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TFakeTagsMenuItemView : FI_TUpdateLayerView
 {
     NSView *_selectionView;
-    FI_TTagTextLabel *_titleField;
-    FI_TTextField *_addOrRemoveField;
-    _Bool _useFolderCustomization;
-    _Bool _selected;
-    struct TString _addOrRemoveLabelText;
-    NSImageView *_symbolView;
 }
 
 + (id);
-- (id);
+- (id)ka;
 - (void);
 - (void);
 - (id);
@@ -33,17 +27,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)aÁ!dBùÑõ°1Â0@ù
 × ;
-- (void)ttings;
+- (void)SearchRecentsViewSettings;
 - (void);
 - (void);
-- (void)ock_pointerFvvES2_EE;
+- (void)NSt3__110__function6__funcIU8__strongU13block_pointerFvvES2_EE;
 - (_Bool);
 - (void)ÿÙ;
 
 // Remaining properties
-@property(nonatomic) struct TString addOrRemoveLabelText; // @synthesize addOrRemoveLabelText=_addOrRemoveLabelText;
 @property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) __weak NSImageView *symbolView; // @synthesize symbolView=_symbolView;
 
 @end
 

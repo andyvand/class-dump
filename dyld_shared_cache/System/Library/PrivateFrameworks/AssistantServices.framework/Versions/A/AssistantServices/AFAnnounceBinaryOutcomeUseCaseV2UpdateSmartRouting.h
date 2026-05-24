@@ -9,7 +9,6 @@
 @interface AFAnnounceBinaryOutcomeUseCaseV2UpdateSmartRouting
 {
     NSString *_outputDeviceName;
-    NSString *_sourceDeviceName;
 }
 
 + (id);
@@ -17,30 +16,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)V_merchantTokenPublicKeyHash;
+- (id)ȦD�?;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
-- (_Bool);
+- (long long)`B;
+- (_Bool)timeIntervalSince1970;
 - (void);
 - (id);
-- (void)mandGrammarParseResult;
+- (void)AFVoiceCommandGrammarParseResult;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *outputDeviceName; // @synthesize outputDeviceName=_outputDeviceName;
-@property(readonly, copy, nonatomic) NSString *sourceDeviceName; // @synthesize sourceDeviceName=_sourceDeviceName;
-@property(readonly) Class superclass;
-@property(readonly) long long type;
 
 @end
 

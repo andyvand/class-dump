@@ -10,10 +10,9 @@
 {
 }
 
-+ (id);
++ (id)SSCAMetalLayerClientResourceUsageInterval;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
 @property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
 
 @end

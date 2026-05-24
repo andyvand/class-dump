@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _PXStoryConcreteClipComposition
 {
     unsigned int _edges[2];
-    double _splitRatios[2];
-    long long _dividerAxes[2];
-    long long _clipAssetIndexes[3];
-    long long _numberOfClips;
-    long long _mainDividerAxis;
-    NSString *_label;
-    long long _numberOfAssets;
-    double _primarySplitRatio;
 }
 
 - (double);
@@ -24,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (const long long *);
 - (_Bool);
@@ -38,14 +28,6 @@
 - (void)äÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) const long long *clipAssetIndexes;
-@property(readonly, nonatomic) _Bool clipFramesExtendToBounds;
-@property(readonly, nonatomic) const long long *dividerAxes;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) long long mainDividerAxis; // @synthesize mainDividerAxis=_mainDividerAxis;
-@property(readonly, nonatomic) double mainDividerSplitRatio;
-@property(readonly, nonatomic) long long numberOfAssets; // @synthesize numberOfAssets=_numberOfAssets;
-@property(readonly, nonatomic) long long numberOfClips; // @synthesize numberOfClips=_numberOfClips;
 @property(readonly, nonatomic) double primarySplitRatio; // @synthesize primarySplitRatio=_primarySplitRatio;
 
 @end

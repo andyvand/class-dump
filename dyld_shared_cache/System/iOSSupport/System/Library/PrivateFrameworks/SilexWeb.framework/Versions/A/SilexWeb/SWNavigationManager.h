@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, SWNavigationPreview;
+@class NSMutableArray;
 
 @interface SWNavigationManager
 {
     NSMutableArray *_handlers;
-    NSMutableDictionary *_schemeHandlers;
-    NSMutableDictionary *_extensionHandlers;
-    NSMutableSet *_observers;
-    SWNavigationPreview *_currentPreview;
 }
 
 - (id);
@@ -26,26 +22,15 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)rangeOfWordEnclosingCharIndex:backward: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SWNavigationPreview *currentPreview; // @synthesize currentPreview=_currentPreview;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *extensionHandlers; // @synthesize extensionHandlers=_extensionHandlers;
 @property(readonly, nonatomic) NSMutableArray *handlers; // @synthesize handlers=_handlers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) NSMutableDictionary *schemeHandlers; // @synthesize schemeHandlers=_schemeHandlers;
-@property(readonly) Class superclass;
 
 @end
 

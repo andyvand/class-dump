@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)"NSString"24@"NSString"32;
 
 @end
 

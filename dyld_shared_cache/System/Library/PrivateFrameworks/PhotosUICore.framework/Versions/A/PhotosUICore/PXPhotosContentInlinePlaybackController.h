@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXScrollViewSpeedometer;
-@protocol PXDisplayAsset, PXPhotosContentInlinePlaybackControllerDelegate;
-
 @interface PXPhotosContentInlinePlaybackController
 {
     long long numberOfItemsToPlay;
-    _Bool enableSpatialPhotoPlayback;
-    PXScrollViewSpeedometer *scrollViewSpeedometer;
-    void delegate;
-    id scrollViewSpeedometerObservation;
 }
 
 - (_Bool);
@@ -32,7 +25,7 @@
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (_Bool);
+- (_Bool)V�;
 - (struct CGRect);
 - (id);
 - (struct NSEdgeInsets);
@@ -45,18 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets criticallyVisibleEdgeInsets;
-@property(nonatomic, readonly) id <PXDisplayAsset> currentHoveredDisplayAsset;
-@property(nonatomic, readonly) struct CGRect currentVisibleRect;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic) __weak id <PXPhotosContentInlinePlaybackControllerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool enableSpatialPhotoPlayback; // @synthesize enableSpatialPhotoPlayback;
-@property(nonatomic) _Bool isContentViewVisible;
-@property(nonatomic, readonly) _Bool isSpatialPhotoPlaybackEnabled;
-@property(nonatomic, readonly) long long maxNumberOfPlayingItems;
 @property(nonatomic) long long numberOfItemsToPlay; // @synthesize numberOfItemsToPlay;
-@property(nonatomic, retain) PXScrollViewSpeedometer *scrollViewSpeedometer; // @synthesize scrollViewSpeedometer;
-@property(nonatomic, readonly) _Bool shouldEnablePlayback;
 
 @end
 

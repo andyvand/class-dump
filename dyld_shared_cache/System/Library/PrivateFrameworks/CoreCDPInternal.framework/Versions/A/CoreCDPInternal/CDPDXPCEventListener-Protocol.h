@@ -5,5 +5,8 @@
 //
 
 @protocol CDPDXPCEventListener
+
+@optional
+- (void)HumanReadableUpdateTitle;
 @end
 

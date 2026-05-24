@@ -6,62 +6,47 @@
 
 #import <UIKitCore/UIKeyboardPopoverController.h>
 
-@class NSMutableArray, NSString, TUIEmojiSearchInputViewController, UIKBScreenTraits, UIKBTree, UIKBViewForResponderForwarding, UIKeyboardLayoutStar, UIKeyboardTaskQueue, UITextInputTraits;
+@class UIKeyboardLayoutStar;
 
 @interface UIKeyboardEmojiPopoverController : UIKeyboardPopoverController
 {
     UIKeyboardLayoutStar *_layout;
-    UIKBScreenTraits *_screenTraits;
-    UITextInputTraits *_textInputTraits;
-    UIKeyboardTaskQueue *_taskQueue;
-    UIKBTree *_keyboard;
-    NSMutableArray *_hiddenKeys;
-    UIKBViewForResponderForwarding *_containerForActiveKeys;
-    _Bool _shownKeyboardLayout;
-    TUIEmojiSearchInputViewController *_emojiSearchInputViewController;
 }
 
-+ (id);
++ (id)and recordID %@ on disk;
 - (_Bool);
 - (void);
-- (double);
+- (double)d not fetch archived records from message zone as device condition does not allow sync;
 - (struct CGSize);
+- (id)SNAP sent to %lu recipients;
+- (void)nal nickname to message (%@) to destinations %@;
+- (id)laced from handle with:(id)arg1 %@;
+- (double)the nickname to iCloud, queue to send info out of band for chat %@;
+- (id)tate transition attempted %@ -> %@;
+- (id)dating moment share fetch for message %@ with change %@. Count is now %lu;
+- (id)ent share %@ in response to photo library change for message %@;
+- (id)ry;
+- (id)assing in nil filePath to initWithFilePath;
+- (_Bool)ng deleteExitRecordCompletionBlock;
+- (void)d-container.;
+- (void);
 - (id);
-- (void);
 - (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)statusChanged:message: /* Error: Ran out of types for this method. */;
+- (void)CEMProfileSettingsDeclaration;
+- (void)L@	;
 - (void)
 × ;
 - (struct CGSize)ehaviorSettings";
 - (void)V_lastRowActualGap;
-- (void)der;
+- (void)UIKBLegacyCandidateGridPadInlineGroupBarRightBorder;
 - (void)not supported on iOS;
 - (id);
 - (void)Ômsþ;
 - (_Bool)Ul;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIKeyboardLayoutStar *layout; // @synthesize layout=_layout;
-@property(readonly) Class superclass;
 
 @end
 

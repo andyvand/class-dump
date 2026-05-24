@@ -10,9 +10,9 @@
 {
 }
 
+- (id):(id)arg1 e6M;
 - (id);
-- (id);
-- (void);
+- (void)t in NSUInteger bounds. It will be ignored. The provided metrics are probably malformed. size = %lld;
 
 @end
 

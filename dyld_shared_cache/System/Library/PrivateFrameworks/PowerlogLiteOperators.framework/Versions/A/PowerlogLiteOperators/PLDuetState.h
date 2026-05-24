@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableArray;
+@class NSDate;
 
 @interface PLDuetState
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    double _cpuSeconds;
-    NSMutableArray *_overlappingStates;
-    NSDictionary *_info;
 }
 
 - (void);
@@ -31,10 +27,6 @@
 - (void)Ð@;
 
 // Remaining properties
-@property double cpuSeconds; // @synthesize cpuSeconds=_cpuSeconds;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) NSDictionary *info; // @synthesize info=_info;
-@property(retain) NSMutableArray *overlappingStates; // @synthesize overlappingStates=_overlappingStates;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

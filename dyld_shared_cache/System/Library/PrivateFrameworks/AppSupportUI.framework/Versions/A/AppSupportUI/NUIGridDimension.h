@@ -4,47 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NUIContainerGridView;
+@class NSArray, NUIContainerGridView;
 
 __attribute__((visibility("hidden")))
 @interface NUIGridDimension
 {
     NUIContainerGridView *_gridView;
-    NSArray *_arrangedSubviews;
-    double _length;
-    double _spacing;
-    struct {
-        unsigned int align:8;
-        unsigned int isRow:1;
-        unsigned int hidden:1;
-        unsigned int wasDetached:1;
-    } _flags;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
 - (double);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) long long alignment;
 @property(copy, nonatomic) NSArray *arrangedSubviews; // @dynamic arrangedSubviews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(nonatomic) double length;
-@property(nonatomic) double spacingAfter;
-@property(readonly) Class superclass;
 
 @end
 

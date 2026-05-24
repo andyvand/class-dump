@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _EARFormatter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _EARSyncSpeechRecognizer
 {
     NSObject<OS_dispatch_queue> *_formatterQueue;
-    _EARFormatter *_formatter;
-    struct shared_ptr<quasar::SyncSpeechRecognizer> _syncRecognizer;
-    NSString *_configPath;
 }
 
 + (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)ng long>=(?=cq)B}{optional<long long>=(?=cq)B}},R,N,V_quasarToken;
 - (void)0ð;

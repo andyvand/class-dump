@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 @interface iChatTheaterXPC
 {
     unsigned long long _connectionCount;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_xpc_object> *_currentPeer;
 }
 
 + (id);

@@ -5,5 +5,8 @@
 //
 
 @protocol EMDaemonInterfaceXPC
+- (void);
+- (void);
+- (void)[;
 @end
 

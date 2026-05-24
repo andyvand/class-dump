@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSSet, NSString, REMAccountCapabilities, REMColor, REMListBadge, REMObjectID, REMResolutionTokenMap, REMStore, REMTemplatePublicLink, REMTemplateSectionContext, REMTemplateStorage;
+@class REMStore, REMTemplateStorage;
 
 @interface REMTemplate
 {
     REMStore *_store;
-    REMTemplateStorage *_storage;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -24,8 +23,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)c(;
 - (_Bool);
 - (id);
 - (id);
@@ -33,7 +32,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)tion failure while servicing %@, %@;
 - (void);
 - (void)0@ù
 × ;
@@ -41,28 +40,7 @@
 - (id)tedStores:] Failed to fetch history {error:%{public}@, affectedsStores:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) REMAccountCapabilities *accountCapabilities;
-@property(readonly, nonatomic) REMObjectID *accountID; // @dynamic accountID;
-@property(readonly, nonatomic) REMListBadge *badge;
-@property(readonly, nonatomic) NSString *badgeEmblem; // @dynamic badgeEmblem;
-@property(readonly, nonatomic) REMColor *color; // @dynamic color;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion; // @dynamic effectiveMinimumSupportedVersion;
-@property(readonly, nonatomic) _Bool isPersisted; // @dynamic isPersisted;
-@property(readonly, nonatomic) long long minimumSupportedVersion; // @dynamic minimumSupportedVersion;
-@property(readonly, nonatomic) NSDate *mostRecentPublicLinkUpdateRequestDate; // @dynamic mostRecentPublicLinkUpdateRequestDate;
-@property(readonly, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) REMObjectID *objectID; // @dynamic objectID;
-@property(readonly, nonatomic) REMObjectID *parentAccountID; // @dynamic parentAccountID;
-@property(readonly, nonatomic) REMTemplatePublicLink *publicLink; // @dynamic publicLink;
-@property(readonly, nonatomic) REMObjectID *remObjectID; // @dynamic remObjectID;
-@property(readonly, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @dynamic resolutionTokenMap;
-@property(readonly, nonatomic) NSData *resolutionTokenMapData; // @dynamic resolutionTokenMapData;
-@property(readonly, nonatomic) REMTemplateSectionContext *sectionContext;
-@property(readonly, nonatomic) NSSet *sectionIDsToUndelete; // @dynamic sectionIDsToUndelete;
-@property(readonly, nonatomic) _Bool showingLargeAttachments; // @dynamic showingLargeAttachments;
-@property(readonly, nonatomic) NSString *sortingStyle; // @dynamic sortingStyle;
 @property(copy, nonatomic) REMTemplateStorage *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;
 
 @end
 

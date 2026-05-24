@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (id);
+- (id)isSpeakerCodeUsed;
 - (void);
 - (id);
 - (id);

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (UserSafety)
-+ (id);
++ (id)ror">24^B32;
 @end
 

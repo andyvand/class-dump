@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, AMSPromise, AMSSnapshotBag, NSDate, NSString;
-@protocol AMSBagProtocol;
+@class AMSPromise;
 
 @interface AMSEngagementOfflineBag
 {
     AMSPromise *_snapshotPromise;
-    id <AMSBagProtocol> _underlyingBag;
-    AMSSnapshotBag *_underlyingOfflineBag;
 }
 
 - (id);
@@ -24,40 +21,23 @@
 - (id);
 - (id);
 - (id);
+- (id)A;
 - (id);
-- (id);
-- (id);
+- (id)_demoAccessory;
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool)Ԃ;
 - (id);
-- (_Bool);
-- (id);
-- (void)sForDialogActions:target:action: /* Error: Ran out of types for this method. */;
+- (void)setButtonsForDialogActions:target:action: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDate *expirationDate;
-@property(readonly, getter=isExpired) _Bool expired;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
 @property(retain) AMSPromise *snapshotPromise; // @synthesize snapshotPromise=_snapshotPromise;
-@property(readonly) Class superclass;
-@property(retain) id <AMSBagProtocol> underlyingBag; // @synthesize underlyingBag=_underlyingBag;
-@property(retain) AMSSnapshotBag *underlyingOfflineBag; // @synthesize underlyingOfflineBag=_underlyingOfflineBag;
 
 @end
 

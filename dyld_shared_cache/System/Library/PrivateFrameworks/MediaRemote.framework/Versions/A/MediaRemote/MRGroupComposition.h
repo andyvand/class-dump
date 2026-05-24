@@ -9,28 +9,6 @@
 @interface MRGroupComposition
 {
     NSString *_soloProductIdentifier;
-    NSString *_soloModelIdentifier;
-    unsigned long long _atvCount;
-    unsigned long long _homePodCount;
-    unsigned long long _homePodMiniCount;
-    unsigned long long _headphoneCount;
-    unsigned long long _bluetoothSpeakerCount;
-    unsigned long long _setTopCount;
-    unsigned long long _tvStickCount;
-    unsigned long long _tvCount;
-    unsigned long long _macCount;
-    unsigned long long _hifiCount;
-    unsigned long long _lofiCount;
-    unsigned long long _builtInCount;
-    unsigned long long _legacyBeatsCount;
-    unsigned long long _iPhoneCount;
-    unsigned long long _visionCount;
-    unsigned long long _displayCount;
-    unsigned long long _carplayCount;
-    unsigned long long _vehicleCount;
-    unsigned long long _hearingDeviceCount;
-    unsigned long long _earPodCount;
-    unsigned long long _unknownCount;
 }
 
 + (id);
@@ -89,37 +67,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (unsigned long long);
 - (void)V_cancellationDate;
 
 // Remaining properties
-@property(nonatomic) unsigned long long atvCount; // @synthesize atvCount=_atvCount;
-@property(nonatomic) unsigned long long bluetoothSpeakerCount; // @synthesize bluetoothSpeakerCount=_bluetoothSpeakerCount;
-@property(nonatomic) unsigned long long builtInCount; // @synthesize builtInCount=_builtInCount;
-@property(nonatomic) unsigned long long carplayCount; // @synthesize carplayCount=_carplayCount;
-@property(nonatomic) unsigned long long displayCount; // @synthesize displayCount=_displayCount;
-@property(nonatomic) unsigned long long earPodCount; // @synthesize earPodCount=_earPodCount;
-@property(nonatomic) unsigned long long headphoneCount; // @synthesize headphoneCount=_headphoneCount;
-@property(nonatomic) unsigned long long hearingDeviceCount; // @synthesize hearingDeviceCount=_hearingDeviceCount;
-@property(nonatomic) unsigned long long hifiCount; // @synthesize hifiCount=_hifiCount;
-@property(nonatomic) unsigned long long homePodCount; // @synthesize homePodCount=_homePodCount;
-@property(nonatomic) unsigned long long homePodMiniCount; // @synthesize homePodMiniCount=_homePodMiniCount;
-@property(nonatomic) unsigned long long iPhoneCount; // @synthesize iPhoneCount=_iPhoneCount;
-@property(nonatomic) unsigned long long legacyBeatsCount; // @synthesize legacyBeatsCount=_legacyBeatsCount;
-@property(nonatomic) unsigned long long lofiCount; // @synthesize lofiCount=_lofiCount;
-@property(nonatomic) unsigned long long macCount; // @synthesize macCount=_macCount;
-@property(nonatomic) unsigned long long setTopCount; // @synthesize setTopCount=_setTopCount;
-@property(retain, nonatomic) NSString *soloModelIdentifier; // @synthesize soloModelIdentifier=_soloModelIdentifier;
 @property(retain, nonatomic) NSString *soloProductIdentifier; // @synthesize soloProductIdentifier=_soloProductIdentifier;
-@property(readonly, nonatomic) unsigned long long totalCount;
-@property(nonatomic) unsigned long long tvCount; // @synthesize tvCount=_tvCount;
-@property(nonatomic) unsigned long long tvStickCount; // @synthesize tvStickCount=_tvStickCount;
-@property(nonatomic) unsigned long long unknownCount; // @synthesize unknownCount=_unknownCount;
-@property(nonatomic) unsigned long long vehicleCount; // @synthesize vehicleCount=_vehicleCount;
-@property(nonatomic) unsigned long long visionCount; // @synthesize visionCount=_visionCount;
 
 @end
 

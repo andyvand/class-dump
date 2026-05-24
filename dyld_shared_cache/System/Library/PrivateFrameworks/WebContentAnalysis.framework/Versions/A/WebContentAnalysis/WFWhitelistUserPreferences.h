@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFWhitelistSiteBuffer;
+@class WFWhitelistSiteBuffer;
 
 @interface WFWhitelistUserPreferences
 {
     WFWhitelistSiteBuffer *_filterWhitelist;
-    WFWhitelistSiteBuffer *_filterBlacklist;
-    WFWhitelistSiteBuffer *_webWhitelist;
-    _Bool _filterEnabled;
-    _Bool _whitelistEnabled;
-    _Bool _alwaysAllowHTTPS;
-    NSString *_username;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool)5;
 - (id);
 - (void);
 - (void);
@@ -40,22 +34,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)setPointOfInterestCategory:(_Bool)arg1;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)dTeamIdentifier=%{public}@, error=%{public}@;
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool alwaysAllowHTTPS; // @synthesize alwaysAllowHTTPS=_alwaysAllowHTTPS;
-@property(readonly) WFWhitelistSiteBuffer *filterBlacklist; // @synthesize filterBlacklist=_filterBlacklist;
 @property _Bool filterEnabled; // @synthesize filterEnabled=_filterEnabled;
-@property(readonly) WFWhitelistSiteBuffer *filterWhitelist; // @synthesize filterWhitelist=_filterWhitelist;
-@property(retain) NSString *username; // @synthesize username=_username;
-@property(readonly) WFWhitelistSiteBuffer *webWhitelist; // @synthesize webWhitelist=_webWhitelist;
-@property _Bool whitelistEnabled; // @synthesize whitelistEnabled=_whitelistEnabled;
 
 @end
 

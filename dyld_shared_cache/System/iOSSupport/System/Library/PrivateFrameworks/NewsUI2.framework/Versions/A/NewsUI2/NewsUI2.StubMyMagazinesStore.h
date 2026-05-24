@@ -7,7 +7,6 @@
 @interface NewsUI2.StubMyMagazinesStore
 {
     id state;
-    id badgeIssueIDs;
 }
 
 @end

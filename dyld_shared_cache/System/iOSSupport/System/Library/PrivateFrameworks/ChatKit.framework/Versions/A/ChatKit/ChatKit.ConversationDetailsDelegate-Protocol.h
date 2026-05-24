@@ -5,5 +5,11 @@
 //
 
 @protocol ChatKit.ConversationDetailsDelegate
+
+@optional
+- (void)rray",&,N,V_htmlNotes;
+- (void)T@"NSArray",&,N,V_errors;
+- (void)_TtC7NotesUIP33_0937A1AF2A2827E2462B0E48FD7819BC22OutlineUpdateOperation;
+- (void);
 @end
 

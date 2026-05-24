@@ -9,7 +9,6 @@
 @interface ChatKit.TapbackPickerBackgroundContainerView__priv_522A160BBD24E8726EEE99D68A03969E : ChatKit.TapbackPickerMaskedViewContainer__priv_522A160BBD24E8726EEE99D68A03969E
 {
     id gradientView;
-    id materialView;
 }
 
 - (id);

@@ -6,34 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCEdgeCacheHint, FCFeedDatabase, FCHeldRecords, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSSet;
-@protocol FCContentContext, FCCoreConfiguration, NSCopying;
+@protocol FCContentContext;
 
 @interface FCFeedRequestOperation : FCOperation
 {
     id <FCContentContext> _context;
-    id <FCCoreConfiguration> _configuration;
-    FCFeedDatabase *_feedDatabase;
-    NSObject<NSCopying> *_prewarmRequestKey;
-    NSArray *_feedRequests;
-    unsigned long long _maxCount;
-    long long _options;
-    NSArray *_feedTransformations;
-    FCEdgeCacheHint *_edgeCacheHint;
-    unsigned long long _expectedNetworkEventCount;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _requestCompletionHandler;
-    CDUnknownBlockType _requestCompletionHandlerWithHeldRecords;
-    NSMutableArray *_mutableNetworkEvents;
-    NSSet *_nonExpendableFeedIDs;
-    NSDictionary *_feedRequestsByFeedID;
-    NSDictionary *_databaseLookupsByFeedID;
-    unsigned long long _queryBudget;
-    NSMutableSet *_progressReportedFeedItems;
-    NSMutableDictionary *_resultFeedResponses;
-    FCHeldRecords *_resultHeldArticleRecords;
-    FCHeldRecords *_resultHeldTagRecords;
-    FCHeldRecords *_resultHeldIssueRecords;
 }
 
 + (id);
@@ -47,14 +24,14 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)_updateToolbarContainerConstraints;
 - (void);
 - (long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)uninstallAppWithBundleID:options:disposition:error:legacyProgressBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -63,8 +40,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)nternalUsageSignalWeight;
-- (id)e:cacheControlKey: /* Error: Ran out of types for this method. */;
+- (void)internalUsageSignalWeight;
+- (id)initWithGroupName:cacheControlKey: /* Error: Ran out of types for this method. */;
 - (unsigned long long)@ÖpÛ;
 - (void)aches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKOrderFeedUtilities.m;
 - (void)led to turn data into NTPBTranslationMap;
@@ -76,20 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <FCCoreConfiguration> configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) FCEdgeCacheHint *edgeCacheHint; // @synthesize edgeCacheHint=_edgeCacheHint;
-@property(nonatomic) unsigned long long expectedNetworkEventCount; // @synthesize expectedNetworkEventCount=_expectedNetworkEventCount;
-@property(retain, nonatomic) FCFeedDatabase *feedDatabase; // @synthesize feedDatabase=_feedDatabase;
-@property(copy, nonatomic) NSArray *feedRequests; // @synthesize feedRequests=_feedRequests;
-@property(copy, nonatomic) NSArray *feedTransformations; // @synthesize feedTransformations=_feedTransformations;
-@property(nonatomic) unsigned long long maxCount; // @synthesize maxCount=_maxCount;
-@property(readonly, nonatomic) NSArray *networkEvents;
-@property(nonatomic) long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSObject<NSCopying> *prewarmRequestKey; // @synthesize prewarmRequestKey=_prewarmRequestKey;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(copy, nonatomic) CDUnknownBlockType requestCompletionHandler; // @synthesize requestCompletionHandler=_requestCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType requestCompletionHandlerWithHeldRecords; // @synthesize requestCompletionHandlerWithHeldRecords=_requestCompletionHandlerWithHeldRecords;
 
 @end
 

@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSButtonBezelConfiguration, NSButtonCell, NSColor, NSString, NSWidgetView;
+@class NSButtonBezelConfiguration, NSButtonCell;
 
 __attribute__((visibility("hidden")))
 @interface NSThemeWidgetAppearanceBasedVisualProvider
 {
     NSButtonBezelConfiguration *_bezelConfiguration;
-    NSWidgetView *_widgetView;
-    NSButtonCell *_buttonCell;
-    NSButton *_button;
 }
 
 + (id);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)%p event %d. err:(id)arg1 %d;
 + (id);
-- (unsigned long long);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (struct CGRect);
+- (unsigned long long)to hash;
+- (int)qi;
+- (void)estalt.AllowedProtectedKeys;
+- (void)d+MF+BkcM1zeTxPJCsHpg;
+- (void)g;
+- (void)wleUSQ;
+- (void)Ng;
+- (unsigned long long)q4TDdYG2pN1KDQW/A;
+- (struct CGRect)external functions;
 - (void);
 - (void);
 - (id);
@@ -56,38 +53,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct __CFDictionary *);
-- (struct CGSize);
-- (id);
-- (int);
+- (struct CGSize)rie - Ran out of child maps while inserting a new leaf;
+- (id)roperties:address is IN6ADDR_ANY_INIT /* Error: Ran out of types for this method. */;
+- (int)dictionary;
 - (struct NSEdgeInsets);
 - (unsigned long long);
-- (id);
-- (struct CGSize);
+- (id)kCFDataURLMimeType;
+- (struct CGSize)onCache.cpp;
+- (void)processHeader;
+- (id)NSURLSessionResumeEntityTag;
 - (void);
-- (id);
 - (void);
-- (void);
-- (CDStruct_507282ca);
-- (void)utlined;
+- (CDStruct_c3b9c2ee);
+- (void)Outlined;
 - (void)proxy.luminance=;
 
 // Remaining properties
-@property(readonly) int blendModeForImageContent;
 @property __weak NSButtonCell *buttonCell; // @synthesize buttonCell=_buttonCell;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasBezelTint;
-@property(readonly) _Bool hasDestructiveAppearance;
-@property(readonly) _Bool hasInactiveAppearance;
-@property(readonly) _Bool hasRolloverAppearance;
-@property(readonly) _Bool hasSubviews;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long interiorBackgroundStyle;
-@property(readonly) NSColor *preferredTemplateImageFillColor;
-@property(readonly) Class superclass;
 
 @end
 

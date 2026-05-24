@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BlastDoorSMSCTPartAttachment
 {
@@ -18,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSData *contentData;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *richCardOriginalGuid;
 
 @end
 

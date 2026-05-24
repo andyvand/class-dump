@@ -5,5 +5,6 @@
 //
 
 @protocol NSMutableCopying
+- (id)rror for model prediction in CHNeuralNetwork:(struct _NSZone *)arg1:feedforward:%@ /* Error: Ran out of types for this method. */;
 @end
 

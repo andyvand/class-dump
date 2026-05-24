@@ -7,13 +7,6 @@
 @interface IMUnlockMonitor
 {
     id keybagChangeIOKitToken;
-    id firstKeybagUnlockToken;
-    id keybagChangeToken;
-    id sbLockChangeToken;
-    id initializedBeforeFirstUnlock;
-    id state;
-    id listeners;
-    id stringboardLockstateNotifificationKey;
 }
 
 + (id)ed live photo bundle for transfer %@ at path %@;

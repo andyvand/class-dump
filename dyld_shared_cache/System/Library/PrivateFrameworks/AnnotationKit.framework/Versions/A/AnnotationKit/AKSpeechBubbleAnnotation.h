@@ -17,10 +17,10 @@
 - (double);
 - (id);
 - (id);
+- (id)rg.mozilla.firefox;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)C ;
 
 // Remaining properties
 @property double pointyBitBaseWidthAngle; // @synthesize pointyBitBaseWidthAngle=_pointyBitBaseWidthAngle;

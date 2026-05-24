@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ScreenTimeUtilities)
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)_conversion;
+- (_Bool)item_extra RENAME TO item_extra;
 @end
 

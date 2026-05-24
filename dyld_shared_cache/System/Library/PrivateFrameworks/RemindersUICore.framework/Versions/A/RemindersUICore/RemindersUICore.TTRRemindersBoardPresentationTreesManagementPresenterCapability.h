@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRRemindersBoardPresentationTreesManagementPresenterCapability
 {
     id delegate;
-    id cachedPresentationTrees;
-    id deferredAction;
-    id deferredUpdateFlags;
 }
 
 @end

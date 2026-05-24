@@ -7,36 +7,28 @@
 @interface AWDMDNSResponderServicesStats
 {
     unsigned long long _timestamp;
-    unsigned int _maxServicesCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int maxServicesCount:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id){;
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (void);!;
+- (unsigned long long)B;
+- (unsigned long long);
 - (_Bool);
+- (_Bool)0;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)�;
+- (void)#;
+- (void)`;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxServicesCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int maxServicesCount; // @synthesize maxServicesCount=_maxServicesCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -10,14 +10,13 @@
 @interface PKPaletteTapToRadarCommand
 {
     PKPaletteTapToRadarCommandExecution *_execution;
-    id <PKPaletteTapToRadarCommandDelegate> _delegate;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)ider;
+- (void)PKTextInputStrokeProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PKPaletteTapToRadarCommandDelegate> delegate; // @synthesize delegate=_delegate;

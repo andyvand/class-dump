@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSummaryItemStandardCardSection
 {
     _Bool _suppress_text_2_if_text_1_exceeds_a_single_line;
-    _SFPBRFTextProperty *_text_1;
-    NSArray *_text_2s;
-    NSArray *_text_3s;
-    _SFPBRFTextProperty *_text_4;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
@@ -25,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Rh";
 - (void);
 - (void);
 - (void);
@@ -35,35 +30,22 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)hw;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)]p;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)requestImageDataAndOrientationForAsset:(id)arg1 options:resultHandler: /* Error: Ran out of types for this method. */;
+- (id){public}@, force unadjusted:%{public}@, set original choice:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)PBCollectionCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppress_text_2_if_text_1_exceeds_a_single_line; // @synthesize suppress_text_2_if_text_1_exceeds_a_single_line=_suppress_text_2_if_text_1_exceeds_a_single_line;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(copy, nonatomic) NSArray *text_2s; // @synthesize text_2s=_text_2s;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

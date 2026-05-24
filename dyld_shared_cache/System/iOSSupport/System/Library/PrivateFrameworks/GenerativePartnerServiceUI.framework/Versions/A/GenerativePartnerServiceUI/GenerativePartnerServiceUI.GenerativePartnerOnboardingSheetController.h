@@ -7,6 +7,7 @@
 @interface GenerativePartnerServiceUI.GenerativePartnerOnboardingSheetController
 {
     id hostingController;
+    id;
 }
 
 - (id);

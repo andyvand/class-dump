@@ -13,7 +13,7 @@
 + (Class);
 + (long long)essageWasLastRead;
 - (id);
-- (id)ingAsName:(id)arg1;
+- (id)StringAsName:(id)arg1;
 
 @end
 

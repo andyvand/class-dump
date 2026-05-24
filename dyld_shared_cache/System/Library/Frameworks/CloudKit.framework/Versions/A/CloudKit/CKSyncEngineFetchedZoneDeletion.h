@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSString;
+@class CKRecordZoneID;
 
 @interface CKSyncEngineFetchedZoneDeletion
 {
     CKRecordZoneID *_zoneID;
-    long long _reason;
 }
 
 - (id);
@@ -19,18 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)eration;
+- (void)^?16^v24r^{?=q^?^?^?^?}32;
+- (void)CKUploadMergeableDeltasOperation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end

@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, SLSSpaceWindowManager;
-
 @interface SLSWindowManagerSpace
 {
     _Bool managedSpace;
-    int type;
-    unsigned long long spaceID;
-    NSString *displayUUID;
-    SLSSpaceWindowManager *manager;
-    NSMutableSet *windowIDs;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)ke;
+- (void)recoverFromUnknownShareRecordIDs:(id)arg1 forStore:inMonitor:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)_block_invoke;
+- (void)roringDelegate _acceptShareMetadatasInRequest:(_Bool)arg1 workBlockContext:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)tance of NSPredicate.;
+- (_Bool)= NEW.%@ AND (%@)) WHERE %@ = NEW.%@;;
+- (id)D, PRIMEKEY;
 - (unsigned long long);
 - (id);
-- (int);
-- (void);
+- (int)NS1-0;
+- (void)@9!;
 - (void);
 - (void)Ô;
 - (id)ed to get custom preset info for unsupported hardware;
 - (void)p/bFb Jóó#hxS`ðpk1ãÐx3àóOóOóOKBØó ó¤Ó¨ó7ªó7®0²ó´³ »£ª¾3`Às@ÂSÐÂs@ÄuÅãbÈàÉó?Êó?Îó?Ò;ÖóàóäóèóìóðóôóøÓüñ;
 
 // Remaining properties
-@property(readonly, getter=isCurrentSpace) _Bool currentSpace;
-@property(copy) NSString *displayUUID; // @synthesize displayUUID;
-@property(getter=isManagedSpace) _Bool managedSpace; // @synthesize managedSpace;
-@property __weak SLSSpaceWindowManager *manager; // @synthesize manager;
 @property unsigned long long spaceID; // @synthesize spaceID;
-@property int type; // @synthesize type;
-@property(retain) NSMutableSet *windowIDs; // @synthesize windowIDs;
 
 @end
 

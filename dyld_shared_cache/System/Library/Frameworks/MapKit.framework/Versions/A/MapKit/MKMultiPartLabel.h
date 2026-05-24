@@ -4,66 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMultiPartAttributedString, NSColor, NSDictionary, NSFont, NSString, NSTextView, _MKMultiPartLabelMetrics;
+@class NSTextView, _MKMultiPartLabelMetrics;
 
 @interface MKMultiPartLabel
 {
     NSTextView *_textView;
-    struct CGRect _previousBounds;
-    NSDictionary *_cachedTextAttributes;
-    NSDictionary *_lastAppliedNonColorAttributes;
-    MKMultiPartAttributedString *_multiPartString;
-    NSFont *_font;
-    NSColor *_textColor;
-    long long _textAlignment;
-    _MKMultiPartLabelMetrics *_data;
 }
 
 - (void);
 - (void);
+- (void)O;
+- (void);
+- (void)rY;
+- (id)startSessionWithSignature:(id)arg1 duration:events:payload:actions:reply: /* Error: Ran out of types for this method. */;
+- (id)getDiagnosticCaseSummariesWithIdentifiers:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (id)quota;
 - (void);
 - (void);
-- (void);
+- (id)rategy>",R,N,V_equivalenceStrategy;
+- (struct CGRect)redicate;
+- (struct CGRect)he user is not logged in yet; in the future this will be a hard error;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (double);
+- (double)_summarizeRecords:withBuilder: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)tgtSpeed;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__DATA_CONST;
 - (void)1Â0@ù
 × ;
-- (unsigned long long)tPrimaryTextColor: /* Error: Ran out of types for this method. */;
-- (void)nagerApprovalDidChange: /* Error: Ran out of types for this method. */;
-- (void)on:(unsigned long long)arg1;
+- (unsigned long long)setPrimaryTextColor: /* Error: Ran out of types for this method. */;
+- (void)locationManagerApprovalDidChange: /* Error: Ran out of types for this method. */;
+- (void)_updateControlsPosition:(unsigned long long)arg1;
 - (void)String;
-- (long long)rverDelegate;
-- (unsigned long long)nUI;
+- (long long)_MKWiFiObserverDelegate;
+- (unsigned long long)kExtensionUI;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _MKMultiPartLabelMetrics *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(nonatomic) unsigned long long lineBreakMode;
-@property(retain, nonatomic) MKMultiPartAttributedString *multiPartString; // @synthesize multiPartString=_multiPartString;
-@property(nonatomic) unsigned long long numberOfLines;
-@property(retain, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
 
 @end
 

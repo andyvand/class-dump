@@ -4,141 +4,99 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChartHUDView, ChartIntervalButtonRow, ChartTitleLabel, ChartUpdater, DashedLineView, LoadingLabel, NSArray, NSError, NSMutableArray, NSMutableDictionary, NSString, Stock, StockChartData, StockChartDisplayMode, StocksViewController, UILabel, UIView;
-@protocol StockChartViewDelegate;
+@class LoadingLabel, StockChartDisplayMode;
 
 @interface StockChartView
 {
     LoadingLabel *_loadingLabel;
-    ChartUpdater *_chartUpdater;
-    ChartIntervalButtonRow *_intervalButtonRow;
-    Stock *_stock;
-    NSMutableArray *_axisViews;
-    NSMutableArray *_xLabelViews;
-    NSMutableArray *_yLabelViews;
-    DashedLineView *_previousCloseLine;
-    UILabel *_previousCloseLabel;
-    ChartTitleLabel *_titleView;
-    ChartHUDView *_HUDView;
-    _Bool _animating;
-    _Bool _layoutPending;
-    UIView *_chartTopKeyline;
-    UIView *_chartBottomKeyline;
-    UIView *_xAxisKeyline;
-    NSMutableArray *_displayModes;
-    NSMutableDictionary *_graphViews;
-    _Bool _drawsBottomLine;
-    StocksViewController *_controller;
-    StockChartData *_chartData;
-    NSError *_error;
-    StockChartDisplayMode *_currentDisplayMode;
-    long long _selectedInterval;
-    id <StockChartViewDelegate> _chartViewDelegate;
-    long long _preferredInterval;
 }
 
-+ (struct CGGradient *);
++ (struct CGGradient *);
 - (double);
+- (void)B|;
+- (void){;
+- (void)m|;
+- (id)mzm|;
+- (_Bool)xFPz;
+- (void);
+- (void)mgm|;
 - (void);
 - (void);
+- (void)uVm|;
 - (void);
+- (void);
+- (long long);
+- (void)m|;
+- (void);
+- (void);
+- (long long);
+- (long long);
+- (struct CGRect)o|;
+- (double);
+- (void);
+- (void);
+- (void)[l;
+- (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
+- (void);
+- (void)l;
+- (_Bool)l;
 - (struct CGRect);
-- (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (_Bool);
-- (struct CGRect);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)m;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)m;
+- (double)m;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)'u;
+- (_Bool)z;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id){;
+- (void);
 - (id);
 - (void);
 - (id);
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)p;
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)on",W,N,V_parent;
 - (void);
 - (_Bool)6!Fù?ð1Â0@ù
 × ;
-- (void)rtedArrayUsingSelector: /* Error: Ran out of types for this method. */;
+- (void)sortedArrayUsingSelector: /* Error: Ran out of types for this method. */;
 - (void)on-nil zone schema;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternateDisplayModes;
-@property(retain, nonatomic) StockChartData *chartData; // @synthesize chartData=_chartData;
-@property(nonatomic) __weak id <StockChartViewDelegate> chartViewDelegate; // @synthesize chartViewDelegate=_chartViewDelegate;
-@property(nonatomic) __weak StocksViewController *controller; // @synthesize controller=_controller;
 @property(retain, nonatomic) StockChartDisplayMode *currentDisplayMode; // @synthesize currentDisplayMode=_currentDisplayMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsBottomLine; // @synthesize drawsBottomLine=_drawsBottomLine;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long preferredInterval; // @synthesize preferredInterval=_preferredInterval;
-@property(nonatomic) long long selectedInterval; // @synthesize selectedInterval=_selectedInterval;
-@property(retain, nonatomic) Stock *stock; // @synthesize stock=_stock;
-@property(readonly) Class superclass;
 
 @end
 

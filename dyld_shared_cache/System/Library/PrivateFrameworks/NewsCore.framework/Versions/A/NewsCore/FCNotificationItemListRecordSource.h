@@ -15,7 +15,7 @@
 - (unsigned long long);
 - (id)
 × ;
-- (unsigned long long)seHeaderBytesReceived;
+- (unsigned long long)countOfResponseHeaderBytesReceived;
 - (id)C,N,V_paidBundlePaywallConfiguration;
 - (unsigned long long)üD´;
 - (id);

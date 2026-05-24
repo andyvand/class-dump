@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateFormatter;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CKTokenizationDateParser
 {
     NSArray *_matchingDateFormatters;
-    NSDateFormatter *_displayDateFormatter;
-    unsigned long long _filterOptions;
-    CDUnknownBlockType _createDateRangeBlock;
 }
 
 + (id);
 + (id);
++ (id)D;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)dispatchAfter:(CDUnknownBlockType)arg1 stringIdentifier:withBlock: /* Error: Ran out of types for this method. */;
+- (id)ICPressableAttachmentAccessibilityElement;
 - (id);
 - (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ם7Sgz_Xx;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType createDateRangeBlock; // @synthesize createDateRangeBlock=_createDateRangeBlock;
-@property(readonly, nonatomic) NSDateFormatter *displayDateFormatter; // @synthesize displayDateFormatter=_displayDateFormatter;
-@property(readonly, nonatomic) unsigned long long filterOptions; // @synthesize filterOptions=_filterOptions;
 @property(readonly, nonatomic) NSArray *matchingDateFormatters; // @synthesize matchingDateFormatters=_matchingDateFormatters;
 
 @end

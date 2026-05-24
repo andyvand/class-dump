@@ -6,28 +6,26 @@
 
 #import <PhotoImaging/PIParallaxStyleParameter.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PIParallaxStyleNumberParameter : PIParallaxStyleParameter
 {
     NSNumber *_numberValue;
-    NSString *_unit;
 }
 
 - (_Bool);
 - (id);
+- (id)_updateMetadataIfFetchIsNotInProgressForRequest:(id)arg1 usingWebView:(id)arg2;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setRevision: /* Error: Ran out of types for this method. */;
 - (id)ment;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
-@property(readonly, nonatomic) NSString *unit; // @synthesize unit=_unit;
 
 @end
 

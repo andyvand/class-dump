@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UIPickerTableViewCell.h>
 
-@class NSAttributedString, NSString, UIColor, UILabel;
+@class NSString, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIPickerTableViewTitledCell : UIPickerTableViewCell
 {
     UILabel *_titleLabel;
-    _Bool _isAttributed;
-    UIColor *_textColor;
 }
 
 - (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)
 × ;
-- (void)ithWindowServerHitTestWindow:(_Bool)arg1 event:(_Bool)arg2;
+- (void)_hitTestLocation:(_Bool)arg1 sceneLocationZ:(_Bool)arg2 inScene:withWindowServerHitTestWindow:event: /* Error: Ran out of types for this method. */;
 - (void),V_moveFromRange;
 - (_Bool)_UINavigationBarLargeTitleViewLayout",R,N,V_layout;
 - (id);
@@ -30,9 +28,6 @@ __attribute__((visibility("hidden")))
 - (void)@æ¼ÿ·Ó¨h;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isAttributed; // @synthesize _isAttributed;
-@property(readonly, nonatomic) UILabel *_titleLabel; // @synthesize _titleLabel;
-@property(retain, nonatomic) NSAttributedString *attributedTitle;
 @property(retain, nonatomic) NSString *title;
 
 @end

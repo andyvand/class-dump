@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
+- (_Bool)startSearchingForNewAccessories;
+- (void)le multi-user request;
+- (void)while fetching the presence for users:(id)arg1 %@;
+- (void)HMDeviceSetupSessionClosedState;
+- (struct CGSize)HMHomeWalletKeyManagerMessageKeyDeviceStateForPairedWatches;
+- (void)v;
 - (id);
-- (void);
+- (void)A/;
 - (void);
 
 @end

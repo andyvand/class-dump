@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebNavigationDataPrivate
 {
     struct RetainPtr<NSString> url;
-    struct RetainPtr<NSString> title;
-    struct RetainPtr<NSURLRequest> originalRequest;
-    struct RetainPtr<NSURLResponse> response;
-    _Bool hasSubstituteData;
-    struct RetainPtr<NSString> clientRedirectSource;
 }
 
 - (id);

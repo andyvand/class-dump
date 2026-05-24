@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
++ (Class)kCPAlertActionIdentifierKey;
 + (id);
 + (void);
-- (id);
+- (id)2;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @protocol IMPinContextProviding
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName;
 @property(readonly, nonatomic, getter=isGroupChat) _Bool groupChat;
-@property(readonly, copy, nonatomic) NSString *groupID;
-@property(readonly, copy, nonatomic) NSArray *participantHandles;
-@property(readonly, copy, nonatomic) NSString *persistentID;
-@property(readonly, nonatomic, getter=isSMS) _Bool sms;
 @end
 

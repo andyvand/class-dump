@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GRRSchemaGRRSource : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sourceId;
-    int _sourceType;
-    CDStruct_98cb7231 _has;
-    _Bool _hasSourceId;
 }
 
 - (void);
@@ -21,12 +18,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)singPredicate:(_Bool)arg1 sortedUsingDescriptors:limit:completionHandler:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -39,11 +36,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSourceId; // @synthesize hasSourceId=_hasSourceId;
-@property(nonatomic) _Bool hasSourceType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *sourceId; // @synthesize sourceId=_sourceId;
-@property(nonatomic) int sourceType; // @synthesize sourceType=_sourceType;
 
 @end
 

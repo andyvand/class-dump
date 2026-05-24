@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatViewNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id background;
-    id borders;
-    id cornerRadius;
-    id shadow;
-    id ignoresSmartInvertColors;
 }
 
 @end

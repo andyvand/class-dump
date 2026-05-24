@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)stemComponent;
+- (void)HMMutableMediaSystemComponent;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *valueByCharacteristicUniqueIdentifier; // @synthesize valueByCharacteristicUniqueIdentifier=_valueByCharacteristicUniqueIdentifier;

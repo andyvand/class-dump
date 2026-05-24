@@ -7,8 +7,6 @@
 @interface PhotosUICore.LemonadeAlbumsFeature.ShelfProvider.CollectionContainerModel
 {
     id _isDisabled;
-    id itemListManager;
-    id _$observationRegistrar;
 }
 
 @end

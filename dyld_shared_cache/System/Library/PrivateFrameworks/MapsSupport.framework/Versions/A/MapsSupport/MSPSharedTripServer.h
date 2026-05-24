@@ -4,73 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPReceiverETAController, MSPSenderETAController, MSPSharedTripCapabilityFetchingServer, MSPSharedTripRelay, NSMapTable, NSMutableDictionary, NSMutableSet, NSString, NSXPCListener;
+@class MSPSenderETAController;
 
 @interface MSPSharedTripServer
 {
     MSPSenderETAController *_sendingController;
-    MSPReceiverETAController *_receivingController;
-    MSPSharedTripCapabilityFetchingServer *_capabilityFetchingServer;
-    MSPSharedTripRelay *_idsRelay;
-    NSXPCListener *_listener;
-    NSMutableSet *_connections;
-    NSMutableDictionary *_connectionSubscriptionsByTripID;
-    NSMapTable *_peersByConnection;
 }
 
 + (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void)0;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)bundleIdentifier;
+- (void);
+- (void);
+- (void)__funcIZ39-[FI_TBrowserViewController initCommon]E4$_12FvvEEE;
+- (void);
+- (void)?;
+- (void);
+- (void)3;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (_Bool);
+- (void);
+- (void)initWithPersistenceBaseURL:persistenceName:preferredIconSize:atScale:allScales:isReadOnly:shouldCheckIntegrityWhenOpeningDatabaseBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
+- (id)P;
+- (void);
+- (void)#;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,20 +11,18 @@
 @interface TKPickerSectionItem : TKPickerItem
 {
     NSString *_text;
-    NSString *_footerText;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)showMergeConflictSheetForWindow:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)event;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setFooterText:) NSString *footerText; // @synthesize footerText=_footerText;
 @property(copy, nonatomic, setter=_setText:) NSString *text; // @synthesize text=_text;
 
 @end

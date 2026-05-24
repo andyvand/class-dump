@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessageContext, IMRemoteObjectBroadcaster, NSArray, NSString, Protocol;
+@class NSArray;
 
 @interface Broadcaster
 {
     NSArray *_targets;
-    IMRemoteObjectBroadcaster *_parent;
-    Protocol *_protocol;
-    IMMessageContext *_messageContext;
-    int _curXPCMessagePriority;
-    CDUnknownBlockType _completion;
-    CDUnknownBlockType _hookBlock;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)87ps;
 - (int);
-- (id);
-- (id);
+- (id):(id)arg1 %d;
+- (id)5d std:(id)arg1:(id)arg2 exception caught in scheduleNextStateDump:(id)arg3 %s;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) int curXPCMessagePriority; // @synthesize curXPCMessagePriority=_curXPCMessagePriority;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

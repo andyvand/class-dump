@@ -5,5 +5,8 @@
 //
 
 @protocol EKViewWindowControllerPrivate
+
+@optional
+- (_Bool);
 @end
 

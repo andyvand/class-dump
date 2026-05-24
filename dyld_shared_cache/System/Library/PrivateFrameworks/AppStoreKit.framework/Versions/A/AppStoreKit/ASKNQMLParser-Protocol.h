@@ -5,5 +5,9 @@
 //
 
 @protocol ASKNQMLParser
+- (void);
+- (void);
+- (void);
+- (void)isVideoSuspended;
 @end
 

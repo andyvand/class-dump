@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMIndexThrottleMockStorage
 {
     _Bool _internalIgnoreThrottling;
-    NSObject<OS_dispatch_queue> *_storageQueue;
-    NSMutableDictionary *_internalStorage;
-    NSMutableArray *_internalObservers;
 }
 
 - (void);
@@ -21,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -38,7 +35,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -54,20 +51,7 @@
 - (void)table because it was comm safety sensitive;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreThrottling;
-@property(nonatomic) _Bool internalIgnoreThrottling; // @synthesize internalIgnoreThrottling=_internalIgnoreThrottling;
-@property(retain, nonatomic) NSMutableArray *internalObservers; // @synthesize internalObservers=_internalObservers;
-@property(retain, nonatomic) NSMutableDictionary *internalStorage; // @synthesize internalStorage=_internalStorage;
-@property(readonly, nonatomic) NSArray *observers;
-@property(readonly, nonatomic) NSDictionary *storage;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *storageQueue; // @synthesize storageQueue=_storageQueue;
-@property(readonly) Class superclass;
 
 @end
 

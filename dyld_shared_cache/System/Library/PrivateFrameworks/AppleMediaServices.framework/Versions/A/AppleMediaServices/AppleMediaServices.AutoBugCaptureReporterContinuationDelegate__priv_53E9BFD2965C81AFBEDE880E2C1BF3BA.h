@@ -7,14 +7,12 @@
 @interface AppleMediaServices.AutoBugCaptureReporterContinuationDelegate__priv_53E9BFD2965C81AFBEDE880E2C1BF3BA
 {
     id continuation;
-    id queue;
-    id didResumeContinuation;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)U;
 - (void)èÃ5Á©{\Æ{×[FÈÓÉçnkÁ6%w¸\D+­ÿðÄI9Åîtõuz4_Ñ öFåCT		0ù¶åPÓÄU#
 Â¯nèåy¢¥ª/³&BÊÊTôe :G§Æåuñ-U»M?0NÞ1ÜÍÇj"ºIßªý}æ#oÛÍù,©ïôJéV;rÍsj¸Y1v­ó©õ7õ]ÔÄAÈM¤ù»­2Ø0?ÞÚ7Ô^!ÎÐFyÙ]~=ìö°(ú Cë¥ðL	¬eo&æs@+BÜÒ½åê8Ï%Qï¾w¿³aôgDýOÌáxËÃ©ä$1HiZ®
  /* Error: Ran out of types for this method. */;

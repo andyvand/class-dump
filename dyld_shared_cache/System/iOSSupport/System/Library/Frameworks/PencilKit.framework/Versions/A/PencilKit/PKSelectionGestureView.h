@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKSelectionController, PKSelectionInteraction;
+@class PKSelectionInteraction;
 
 @interface PKSelectionGestureView
 {
-    id _selectionInteraction;
-    PKSelectionController *_selectionController;
+    PKSelectionInteraction *_selectionInteraction;
 }
 
 - (id);
-- (void);
+- (void)($Qm"(Rm;
 - (void);
 - (id);
-- (void);
-- (id)ometric;
+- (void)dataTask:didReceiveAuthenticationChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)isTrigonometric;
 - (void),N,V_imageViewTopAnchorConstraint;
 
 // Remaining properties
-@property(nonatomic) __weak PKSelectionController *selectionController; // @synthesize selectionController=_selectionController;
 @property(retain, nonatomic) PKSelectionInteraction *selectionInteraction; // @synthesize selectionInteraction=_selectionInteraction;
 
 @end

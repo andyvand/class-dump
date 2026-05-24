@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITouch;
 @protocol _UIDragInteractionDriving;
 
 @protocol _UIDragInteractionDriverDelegate
+- (_Bool);
+- (void)V_payloadPinHistory;
 - (_Bool);
 - (void)0@ù
 × ;
-- (_Bool)nHandler:(id <_UIDragInteractionDriving>)arg1;
+- (_Bool)userNotificationCenter:(id <_UIDragInteractionDriving>)arg1 willPresentNotification:(UITouch *)arg2 withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)_systemGestureGateType;
-- (void)entInsets;
+- (void)_currentImageContentInsets;
 @end
 

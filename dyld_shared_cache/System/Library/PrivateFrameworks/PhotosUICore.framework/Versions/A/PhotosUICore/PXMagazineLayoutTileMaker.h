@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PXMagazineGrid, PXMagazineRectArray;
+@class PXMagazineGrid;
 
 @interface PXMagazineLayoutTileMaker
 {
     PXMagazineGrid *_tileGrid;
-    PXMagazineRectArray *_cachedTileRects;
-    NSMutableArray *_allFrames;
-    double _lastTileWidthPadding;
-    double _maxFrameAspectRatio;
-    double _minFrameAspectRatio;
-    _Bool _startLastPadding;
-    NSMutableArray *_sharedTempArray;
-    double *_normalizedWeights;
-    _Bool _layoutFromRightToLeft;
-    unsigned long long _numberOfColumns;
-    double _tileAspectRatio;
-    double _height;
-    double _interTileSpacing;
-    unsigned long long _maxTilesInFrame;
-    struct CGSize _referenceSize;
-    struct CGSize _defaultTileSize;
 }
 
 + (void);
@@ -44,35 +28,28 @@
 - (void);
 - (unsigned long long);
 - (double *);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (double);
 - (long long);
-- (double);
+- (double)�c;
 - (unsigned long long);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (id);
+- (id);
 - (double);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize defaultTileSize; // @synthesize defaultTileSize=_defaultTileSize;
-@property(readonly, nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) double interTileSpacing; // @synthesize interTileSpacing=_interTileSpacing;
-@property(nonatomic) _Bool layoutFromRightToLeft; // @synthesize layoutFromRightToLeft=_layoutFromRightToLeft;
-@property(nonatomic) unsigned long long maxTilesInFrame; // @synthesize maxTilesInFrame=_maxTilesInFrame;
-@property(readonly, nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 @property(readonly, nonatomic) struct CGSize referenceSize; // @synthesize referenceSize=_referenceSize;
-@property(readonly, nonatomic) double tileAspectRatio; // @synthesize tileAspectRatio=_tileAspectRatio;
 
 @end
 

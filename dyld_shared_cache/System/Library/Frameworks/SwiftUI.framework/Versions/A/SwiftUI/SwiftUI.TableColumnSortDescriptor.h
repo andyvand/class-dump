@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SwiftUI.TableColumnSortDescriptor
 {
     id base;
@@ -21,12 +19,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)Resetter;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool ascending;
-@property(nonatomic, readonly) NSString *key;
-@property(nonatomic, readonly) id reversedSortDescriptor;
 
 @end
 

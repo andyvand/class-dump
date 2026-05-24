@@ -10,9 +10,6 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *firmwareVersion;
-@property(readonly, nonatomic) NSString *manufacturer;
 @property(readonly, nonatomic) NSString *modelID;
-@property(readonly, nonatomic) NSString *serialNumber;
 @end
 

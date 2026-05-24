@@ -4,11 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void)SCRCategories_SCRCategorySystemWide_SCRDeleteCharacterMode;
+- (void)SCRCategories_SCRCategorySystemWide_SCRAudioOutputSelectorDeviceID;
+- (UIViewController *)SCRCategories_SCRCategoryTitle_SCRSupportTemporarySpeechParameterChange;
+- (void)omponentSettings_SCRVolumeAsPercent;
+- (long long);
 - (_Bool)èoDp;
 - (long long)Ðûÿÿ([þÿèÉíÿ¬V;
-- (void)eDidChange;
+- (void)IMAVPlayerNotification_StateDidChange;
 @end
 

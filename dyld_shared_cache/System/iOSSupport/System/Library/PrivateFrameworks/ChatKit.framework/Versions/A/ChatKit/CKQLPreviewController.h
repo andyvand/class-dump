@@ -4,67 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatItem, CKTranscriptCollectionView, NSString, UIBarButtonItem;
-@protocol CKQLPreviewControllerDelegate;
-
 @interface CKQLPreviewController
 {
     _Bool _controllerWasDismissed;
-    _Bool _suppressRefetchingCurrentHighQualityImage;
-    _Bool _currentPreviewItemIsSaved;
-    CKChatItem *_chatItem;
-    id <CKQLPreviewControllerDelegate> _chatControllerPreviewDelegate;
-    UIBarButtonItem *_tapbackButton;
 }
 
+- (void)setCollapsed:(_Bool)arg1;
+- (id)modernAccountManagedObjectIDs;
+- (void)managedObjectContextForObject:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (struct CGRect)localeWithLocaleIdentifier:(id)arg1;
+- (id)localZoomFactors;
+- (_Bool)isTodoDoneRange:inTextStorage: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_isLeftArrowPressed;
+- (void)expandItemIdentifier:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (void)_searchSuggestionType;
+- (void)_passwordAndVerifyDoNotMatchLabel;
+- (void)_joinedSharedRootObjectsInSource;
+- (void)_isTogglingBoldface;
+- (void)eArray",&,N,V_joinedSharedRootObjectsInSource;
 - (void);
+- (_Bool);
+- (_Bool)G;
+- (_Bool);
 - (struct CGRect);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
+- (void)0aB2IDCGSo17OS_dispatch_queueCGShyAVGGAYG;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)So6ICNoteCSg;
 - (BOOL);
+- (void)1_GGA4_GSg;
 - (void);
+- (void)SManagedObjectCGSg;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
+- (void)y)Sg_G;
+- (void)So22ICTTTextContentStorageC;
+- (void)So18NSAttributedStringCSg;
+- (void)So28NSPersistentStoreCoordinatorC;
+- (void)So6ICNoteCSgXwz_Xx;
+- (void)y-_yptG;
+- (id)So31ICAttachmentInsertionControllerC;
+- (struct CGRect)So32ICCalculateRecognitionControllerCSgXw;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)e;
+- (_Bool)m;
+- (id)b;
+- (id)u;
+- (id)L;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)i;
+- (void)%@;
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -79,27 +71,11 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CKQLPreviewControllerDelegate> chatControllerPreviewDelegate; // @synthesize chatControllerPreviewDelegate=_chatControllerPreviewDelegate;
-@property(nonatomic) __weak CKChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(retain, nonatomic) CKTranscriptCollectionView *collectionView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CKTranscriptCollectionView",?,&,N
-
 @property(nonatomic) _Bool controllerWasDismissed; // @synthesize controllerWasDismissed=_controllerWasDismissed;
-@property(nonatomic) _Bool currentPreviewItemIsSaved; // @synthesize currentPreviewItemIsSaved=_currentPreviewItemIsSaved;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressRefetchingCurrentHighQualityImage; // @synthesize suppressRefetchingCurrentHighQualityImage=_suppressRefetchingCurrentHighQualityImage;
-@property(retain, nonatomic) UIBarButtonItem *tapbackButton; // @synthesize tapbackButton=_tapbackButton;
 
 @end
 

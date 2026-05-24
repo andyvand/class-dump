@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaQUTokenParseInfo : SISchemaInstrumentationMessage
 {
     unsigned int _tokenLength;
-    struct {
-        unsigned int tokenLength:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -21,19 +16,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setAffiliateIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCollectionItemMessagingAvailabilityHelper;
+- (_Bool)SpotlightQueryProvider _validateSpotlightClientStateWithLastError:(id)arg1 attempts:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)eryDirectQuestion;
-- (id)st;
+- (id)deleteIsQueryDirectQuestion;
+- (id)_hasOnDeviceDigest;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTokenLength;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int tokenLength; // @synthesize tokenLength=_tokenLength;
 
 @end

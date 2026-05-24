@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath, UIShape;
+@class UIBezierPath;
 
 @interface UIResolvedShape
 {
@@ -12,25 +12,21 @@
     id cachedShape;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)ocusRegionContainer>",R,N,V_regionContainer;
-- (id)eGeometryPreferencesMac;
+- (id)UIWindowSceneGeometryPreferencesMac;
 - (id);
 - (id)GV·.3y.3y:¾7GGG /* Error: Ran out of types for this method. */;
 - (struct CGRect)a;
 - (void)Û;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGRect boundingRect;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) UIBezierPath *path;
-@property(nonatomic, readonly) UIShape *shape;
 
 @end
 

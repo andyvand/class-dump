@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (void);
-- (void)ElementsStored;
+- (void)dataElementsStored;
 
 @end
 

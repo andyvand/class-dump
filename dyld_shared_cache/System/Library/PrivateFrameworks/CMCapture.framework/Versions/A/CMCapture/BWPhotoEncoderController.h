@@ -6,50 +6,12 @@
 
 #import <CMCapture/BWStillImageProcessorController.h>
 
-@class BWCMPhotoEncoderManager, BWDNGEncoderManager, BWInferenceEngine, BWInferenceVideoFormat, BWPhotoEncoderControllerConfiguration, FigCapturePixelConverter, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol BWPhotoEncoderControllerDelegate, CMISmartStyleProcessor, OS_dispatch_group, OS_dispatch_queue;
+@class BWPhotoEncoderControllerConfiguration, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface BWPhotoEncoderController : BWStillImageProcessorController
 {
     BWPhotoEncoderControllerConfiguration *_configuration;
-    NSObject<OS_dispatch_queue> *_prewarmQueue;
-    NSObject<OS_dispatch_queue> *_previewGenerationQueue;
-    NSObject<OS_dispatch_group> *_previewGenerationGroup;
-    FigCapturePixelConverter *_previewPixelConverter;
-    FigCapturePixelConverter *_thumbnailPixelConverter;
-    FigCapturePixelConverter *_clientThumbnailPixelConverter;
-    FigCapturePixelConverter *_photoLibraryThumbnailPixelConverter;
-    BWCMPhotoEncoderManager *_cmPhotoEncoderManager;
-    BWDNGEncoderManager *_dngEncoderManager;
-    unsigned long long _dngBitDepth;
-    unsigned long long _maxThreads;
-    FigCapturePixelConverter *_jpegPixelConverter;
-    NSDictionary *_resolvedVideoFormatsByAttachedMediaKey;
-    float _heifQualityOverride;
-    _Bool _heifForceEmbedThumb;
-    _Bool _heifUseTiling;
-    int _heifTileWidth;
-    int _heifTileHeight;
-    _Bool _allowHEIFPrewarming;
-    BWInferenceEngine *_inferenceEngine;
-    _Bool _preparedInferenceEngine;
-    _Atomic _Bool _opportunisticInferenceCompleted;
-    NSObject<OS_dispatch_group> *_inferenceGroup;
-    BWInferenceVideoFormat *_inferenceInputVideoFormat;
-    struct opaqueCMFormatDescription *_inferenceInputFormatDescription;
-    NSDictionary *_adaptiveQualityValueForHEIF;
-    id <CMISmartStyleProcessor> _smartStyleProcessor;
-    struct __CVBuffer *_smartStyleDeltaMapPixelBuffer;
-    struct __CVBuffer *_smartStyleDecompressedStyledPixelBuffer;
-    _Bool _addUnstyledImageToHEIF;
-    _Bool _clientExpectsCameraMountedInLandscapeOrientation;
-    id <BWPhotoEncoderControllerDelegate> _primaryOwnerDelegate;
-    NSMutableDictionary *_inputsByCaptureIdentifier;
-    NSObject<OS_dispatch_queue> *_inputsByCaptureIdentifierQueue;
-    NSObject<OS_dispatch_queue> *_encodingQueue;
-    NSObject<OS_dispatch_group> *_encodingGroup;
-    _Bool _preferMainImageDownscalingFactorByAttachedMediaKeyFromSampleBuffer;
 }
 
 + (_Bool);
@@ -62,29 +24,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (float);
+- (int);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (int);
+- (id);
+- (void)!;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)c;
 - (void);
 - (int);
 - (double);
@@ -111,11 +73,11 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (int);
 - (int);
 - (id);
-- (int);
+- (int)rh;
 - (int);
 - (int);
 - (int);
@@ -131,16 +93,16 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int)0;
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -150,9 +112,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (int);
-- (_Bool);
-- (void);
+- (int)Data<TSP::UUIDData>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<TSU::UUIDData<TSP::UUIDData>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (_Bool)mCrossBetween;
+- (void)`;
 - (unsigned long long);
 - (void);
 - (int);
@@ -163,18 +125,7 @@ __attribute__((visibility("hidden")))
 - (void)v%;
 
 // Remaining properties
-@property(nonatomic) _Bool clientExpectsCameraMountedInLandscapeOrientation; // @synthesize clientExpectsCameraMountedInLandscapeOrientation=_clientExpectsCameraMountedInLandscapeOrientation;
-@property(readonly, nonatomic) NSString *currentInputsCaptureRequestIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool preferMainImageDownscalingFactorByAttachedMediaKeyFromSampleBuffer; // @synthesize preferMainImageDownscalingFactorByAttachedMediaKeyFromSampleBuffer=_preferMainImageDownscalingFactorByAttachedMediaKeyFromSampleBuffer;
-@property __weak id <BWPhotoEncoderControllerDelegate> primaryOwnerDelegate; // @synthesize primaryOwnerDelegate=_primaryOwnerDelegate;
 @property(retain) NSDictionary *resolvedVideoFormatsByAttachedMediaKey; // @synthesize resolvedVideoFormatsByAttachedMediaKey=_resolvedVideoFormatsByAttachedMediaKey;
-@property(readonly) Class superclass;
 
 @end
 

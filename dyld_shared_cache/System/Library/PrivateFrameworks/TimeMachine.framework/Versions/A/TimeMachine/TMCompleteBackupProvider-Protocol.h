@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @protocol TMCompleteBackupProvider
 
 // Remaining properties
-@property(readonly) NSArray *backupDateHistory;
-@property(readonly) NSDictionary *backupHistoryDictionary;
 @property(readonly) NSArray *sortedCompleteBackups;
 @end
 

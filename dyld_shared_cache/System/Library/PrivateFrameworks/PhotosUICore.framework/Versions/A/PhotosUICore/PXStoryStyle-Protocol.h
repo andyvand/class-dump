@@ -5,16 +5,11 @@
 //
 
 @class NSString;
-@protocol PXAudioCueSource, PXStorySongResource;
 
 @protocol PXStoryStyle
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXAudioCueSource> cueSource;
-@property(readonly, nonatomic) long long customColorGradeKind;
-@property(readonly, nonatomic) _Bool isCustomized;
 @property(readonly, nonatomic) NSString *originalColorGradeCategory;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 outroDuration;
-@property(readonly, nonatomic) id <PXStorySongResource> songResource;
 @end
 

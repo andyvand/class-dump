@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordReference, NSData;
+@class NSData;
 
 @interface CKDPRecordChainParent
 {
     NSData *_publicKeyID;
-    CKDPRecordReference *_reference;
 }
 
 - (void);
@@ -17,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)internal local endpoint is only applicable if enable local playback property API is supported.;
+- (unsigned long long){ptr}] %s[0x%04X] Transport audio NOT FOUND:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPublicKeyID;
-@property(readonly, nonatomic) _Bool hasReference;
-@property(retain, nonatomic) NSData *publicKeyID; // @synthesize publicKeyID=_publicKeyID;
-@property(retain, nonatomic) CKDPRecordReference *reference; // @synthesize reference=_reference;
 
 @end
 

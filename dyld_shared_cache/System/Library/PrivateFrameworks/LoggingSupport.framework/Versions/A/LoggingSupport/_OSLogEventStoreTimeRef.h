@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _OSLogEventStoreTimeRef
 {
     unsigned char _uuid[16];
-    unsigned long long _ct;
 }
 
-+ (id);
++ (id)_;
 - (id);
-- (const char *);
+- (const char *)nTextInputTaskSharedTarget;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) const char *UUID;
-@property(readonly, nonatomic) unsigned long long continuousTime; // @synthesize continuousTime=_ct;
 
 @end
 

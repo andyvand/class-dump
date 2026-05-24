@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, _NSCollectionLayoutSectionGeometryTranslator, _NSOrderedRangeIndexer, _NSRTree;
+@class NSArray, _NSCollectionLayoutSectionGeometryTranslator;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutSolutionState
 {
     _NSCollectionLayoutSectionGeometryTranslator *_sectionGeometryTranslator;
-    NSArray *_bookmarks;
-    _NSRTree *_geometricIndexer;
-    _NSOrderedRangeIndexer *_itemRangeIndexer;
-    NSDictionary *_auxiliaryRangeIndexerKindDict;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ngRunLoopMode;
+- (void)_NSBrowserColumnScrollingRunLoopMode;
 - (id)urve value:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *auxiliaryRangeIndexerKindDict; // @synthesize auxiliaryRangeIndexerKindDict=_auxiliaryRangeIndexerKindDict;
 @property(readonly, nonatomic) NSArray *bookmarks; // @synthesize bookmarks=_bookmarks;
-@property(readonly, nonatomic) _NSRTree *geometricIndexer; // @synthesize geometricIndexer=_geometricIndexer;
-@property(readonly, nonatomic) _NSOrderedRangeIndexer *itemRangeIndexer; // @synthesize itemRangeIndexer=_itemRangeIndexer;
-@property(readonly, nonatomic) _NSCollectionLayoutSectionGeometryTranslator *sectionGeometryTranslator; // @synthesize sectionGeometryTranslator=_sectionGeometryTranslator;
 
 @end
 

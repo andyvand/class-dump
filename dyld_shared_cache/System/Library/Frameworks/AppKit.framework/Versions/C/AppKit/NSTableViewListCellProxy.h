@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)receiver data from the DB!;
 
 @end
 

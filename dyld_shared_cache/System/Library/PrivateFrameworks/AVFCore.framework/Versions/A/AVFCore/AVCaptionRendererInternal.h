@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTextStyleRule, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptionRendererInternal
 {
     NSArray *_captions;
-    struct CGRect _bounds;
-    AVTextStyleRule *_defaultStyles;
-    NSArray *_sortedCaptions;
-    struct OpaqueFigCaptionClient *_captionClient;
 }
 
 @end

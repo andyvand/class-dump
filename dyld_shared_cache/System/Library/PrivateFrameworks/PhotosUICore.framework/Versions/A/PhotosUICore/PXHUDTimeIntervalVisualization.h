@@ -11,7 +11,6 @@
 @interface PXHUDTimeIntervalVisualization : PXHUDVisualization
 {
     id _stateTransitionHandlerToken;
-    PXTimeInterval *_timeInterval;
 }
 
 + (id);

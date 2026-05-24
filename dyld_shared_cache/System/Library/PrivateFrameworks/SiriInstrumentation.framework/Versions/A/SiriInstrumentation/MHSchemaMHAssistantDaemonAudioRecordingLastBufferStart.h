@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioRecordingLastBufferStart : SISchemaInstrumentationMessage
 {
     unsigned long long _lastAudioRecordBufferStartTimeOffsetInNs;
-    struct {
-        unsigned int lastAudioRecordBufferStartTimeOffsetInNs:1;
-    } _has;
 }
 
 - (void);
@@ -22,18 +17,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)l/libressl-2.2/crypto/asn1/f_string.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)irmation:(id)arg1;
+- (id)setHasReplyWithoutConfirmation:(id)arg1;
 - (id)gories;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastAudioRecordBufferStartTimeOffsetInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long lastAudioRecordBufferStartTimeOffsetInNs; // @synthesize lastAudioRecordBufferStartTimeOffsetInNs=_lastAudioRecordBufferStartTimeOffsetInNs;
 
 @end

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
-
 @interface WPPeerTrackingRequest
 {
     unsigned char _clientType;
-    NSUUID *_peerUUID;
-    NSDictionary *_peerTrackingDictionary;
 }
 
 + (_Bool);
@@ -30,8 +26,6 @@
 
 // Remaining properties
 @property unsigned char clientType; // @synthesize clientType=_clientType;
-@property(retain) NSDictionary *peerTrackingDictionary; // @synthesize peerTrackingDictionary=_peerTrackingDictionary;
-@property(retain) NSUUID *peerUUID; // @synthesize peerUUID=_peerUUID;
 
 @end
 

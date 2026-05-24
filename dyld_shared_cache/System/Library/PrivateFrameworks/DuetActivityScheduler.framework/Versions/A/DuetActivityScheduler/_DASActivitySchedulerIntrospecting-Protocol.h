@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDateInterval, NSDictionary;
+
 @protocol _DASActivitySchedulerIntrospecting
+- (double)WISE_OPERATION_SQRT);
+- (NSDictionary *)entity_general_paddingERNS_6zephyr10function_tEE3$_0;
+- (_Bool)ocatorIcEEEESG_EEE;
+- (NSArray *);
+- (NSArray *);
+- (NSArray *)D9;
+- (NSArray *);
+- (_Bool);
+- (void);
+- (NSDictionary *)6;
+- (NSArray *)decodeIntForKey:(NSDateInterval *)arg1;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol EFAssertableScheduler
+- (void);
 @end
 

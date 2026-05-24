@@ -6,52 +6,30 @@
 
 #import <PhotosGraph/PGMeaningfulEventCriteria.h>
 
-@class NSDictionary, NSMutableDictionary, NSString, PGMeaningfulEventCollectionTrait, PGMeaningfulEventLocationCollectionTrait, PGMeaningfulEventLocationMobilityTrait, PGMeaningfulEventNumberTrait, PGMeaningfulEventPartOfDayTrait, PGMeaningfulEventSceneCollectionTrait;
+@class NSMutableDictionary;
 
 @interface PGMeaningfulEventRequiredCriteria : PGMeaningfulEventCriteria
 {
     _Bool _mustBeInteresting;
-    NSString *_identifier;
-    double _minimumScore;
-    NSMutableDictionary *_internalAdditionalInfo;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double)?24@32;
+- (id)d}}40@0:8@16@24@32 /* Error: Ran out of types for this method. */;
+- (id)lementInfo: /* Error: Ran out of types for this method. */;
+- (id)_insertEmptyColumnToColumns:(id)arg1 atIndex:(double)arg2;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id):sceneTaxonomy: /* Error: Ran out of types for this method. */;
-- (id)rmers:error: /* Error: Ran out of types for this method. */;
+- (id)requiredCriteriaForIdentifiers:inferenceType:graph:sceneTaxonomy: /* Error: Ran out of types for this method. */;
+- (id)featureExtractorForFingerprintVersion:withGraph:withTransformers:error: /* Error: Ran out of types for this method. */;
 - (void)%ld	deletes:%ld	updates:%ld
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *additionalInfo;
-@property(retain, nonatomic) PGMeaningfulEventPartOfDayTrait *allPartsOfDayTrait; // @dynamic allPartsOfDayTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *datesTrait; // @dynamic datesTrait;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSMutableDictionary *internalAdditionalInfo; // @synthesize internalAdditionalInfo=_internalAdditionalInfo;
-@property(retain, nonatomic) PGMeaningfulEventLocationMobilityTrait *locationMobilityTrait; // @dynamic locationMobilityTrait;
-@property(retain, nonatomic) PGMeaningfulEventLocationCollectionTrait *locationsTrait; // @dynamic locationsTrait;
-@property(retain, nonatomic) PGMeaningfulEventNumberTrait *maximumDurationTrait; // @dynamic maximumDurationTrait;
-@property(readonly, nonatomic) NSString *meaningNodeLabel;
-@property(retain, nonatomic) PGMeaningfulEventNumberTrait *minimumDurationTrait; // @dynamic minimumDurationTrait;
-@property(readonly, nonatomic) double minimumScore; // @synthesize minimumScore=_minimumScore;
-@property(nonatomic) _Bool mustBeInteresting; // @synthesize mustBeInteresting=_mustBeInteresting;
-@property(retain, nonatomic) PGMeaningfulEventNumberTrait *numberOfPeopleTrait; // @dynamic numberOfPeopleTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *peopleTrait; // @dynamic peopleTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *poisTrait; // @dynamic poisTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *publicEventCategoriesTrait; // @dynamic publicEventCategoriesTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *roisTrait; // @dynamic roisTrait;
-@property(retain, nonatomic) PGMeaningfulEventSceneCollectionTrait *scenesTrait; // @dynamic scenesTrait;
-@property(retain, nonatomic) PGMeaningfulEventPartOfDayTrait *significantPartsOfDayTrait; // @dynamic significantPartsOfDayTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *socialGroupsTrait; // @dynamic socialGroupsTrait;
 
 @end
 

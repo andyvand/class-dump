@@ -15,8 +15,8 @@
 
 - (id);
 - (void);
-- (long long);
-- (id);
+- (long long)%@:%s /* Error: Ran out of types for this method. */;
+- (id)moveMarker;
 - (void)lic key:%@. /* Error: Ran out of types for this method. */;
 - (id)8;
 - (id)loading MMCS section item %@ at index %lu with MMCS items %@ for package %@ and operation %{public}@;

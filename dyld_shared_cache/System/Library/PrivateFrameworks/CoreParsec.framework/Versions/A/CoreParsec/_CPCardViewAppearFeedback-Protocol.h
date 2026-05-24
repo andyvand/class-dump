@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPCardForFeedback;
+@class NSString;
 
 @protocol _CPCardViewAppearFeedback
+- (void)erMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF:(NSString *)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *)::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned int)À;
 
 // Remaining properties
-@property(retain, nonatomic) _CPCardForFeedback *card;
-@property(copy, nonatomic) NSString *fbr;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int level;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

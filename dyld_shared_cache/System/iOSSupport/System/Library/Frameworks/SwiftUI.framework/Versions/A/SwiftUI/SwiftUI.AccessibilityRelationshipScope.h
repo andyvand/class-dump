@@ -7,8 +7,6 @@
 @interface SwiftUI.AccessibilityRelationshipScope
 {
     id relatedNodesByKey;
-    id recordsByAttribute;
-    id keysByNodeRelation;
 }
 
 @end

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 @protocol _UIFluidSliderDrivable;
 
 @protocol _UIFluidSliderDriving
+- (double);
 - (void);
-- (UIView *)outPoint;
+- (void);
+- (void);;
+- (UIView *)_bottomTrailingConcentricLayoutPoint;
 - (_Bool)s (the argument was '%@');
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFluidSliderDrivable> drivable;
-@property(nonatomic) _Bool enabled;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) double stretchAmount;
-@property(nonatomic) unsigned long long trackAxis;
-@property(nonatomic) double velocityMultiplier;
-@property(nonatomic) __weak UIView *view;
 @end
 

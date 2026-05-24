@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPixelFormat;
+@class NSString;
 
 @interface NUTestPatternAuxiliaryProperties
 {
     NSString *_auxiliaryImageTypeCGIdentifier;
-    CDStruct_d58201db _size;
 }
 
 - (void);
 - (id);
 - (struct CGImageMetadata *);
-- (id);
+- (id);
 - (id);
 - (struct CGImageMetadata *);
 - (id);
 - (id);
 - (id);
 - (CDStruct_912cb5d2);
-- (void);
+- (void)e;
 - (id);
 - (void)
 × ;
-- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)imageByApplyingOrientation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *auxiliaryImageTypeCGIdentifier; // @synthesize auxiliaryImageTypeCGIdentifier=_auxiliaryImageTypeCGIdentifier;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, nonatomic) struct CGImageMetadata *compatibilityMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NUPixelFormat *pixelFormat;
 @property(nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

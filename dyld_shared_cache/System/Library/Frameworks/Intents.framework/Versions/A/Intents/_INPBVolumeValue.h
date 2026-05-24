@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
-
 @interface _INPBVolumeValue
 {
     CDStruct_74078a21 _has;
-    int _unit;
-    double _magnitude;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -26,32 +21,20 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)DG9;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool)er;
-- (void)nouncementIntentResponseCodeFailure;
+- (id);
+- (_Bool)INHomeAutomationEntityProvider;
+- (void)INReadAnnouncementIntentResponseCodeFailure;
 - (void);
 - (id)Ö¸;
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double magnitude; // @synthesize magnitude=_magnitude;
-@property(readonly) Class superclass;
-@property(nonatomic) int unit; // @synthesize unit=_unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

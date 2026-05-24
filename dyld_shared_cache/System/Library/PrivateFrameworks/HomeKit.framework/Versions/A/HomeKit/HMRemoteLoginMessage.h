@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface HMRemoteLoginMessage
 {
     NSString *_sessionID;
-    NSError *_error;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -24,7 +23,6 @@
 - (void),;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 
 @end

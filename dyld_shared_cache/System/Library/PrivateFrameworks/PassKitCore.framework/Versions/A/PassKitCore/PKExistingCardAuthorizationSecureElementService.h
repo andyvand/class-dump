@@ -10,7 +10,6 @@
 @interface PKExistingCardAuthorizationSecureElementService
 {
     NSObject<OS_dispatch_queue> *_sessionQueue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
 }
 
 - (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)odeChanged;
+- (void)fundingModeChanged;
 
 @end
 

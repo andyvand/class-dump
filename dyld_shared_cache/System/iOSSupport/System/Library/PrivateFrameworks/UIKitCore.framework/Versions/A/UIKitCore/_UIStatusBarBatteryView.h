@@ -6,42 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, CAShapeLayer, NSString, UIAccessibilityHUDItem, UIColor, UILabel, _UIStatusBarBatteryViewAXHUDImageCacheInfo;
-
 @interface _UIStatusBarBatteryView : UIView
 {
     _Bool _saverModeActive;
-    _Bool _showsInlineChargingIndicator;
-    _Bool _rounded;
-    _Bool _showsPercentage;
-    UIColor *_fillColor;
-    UIColor *_bodyColor;
-    UIColor *_pinColor;
-    UIColor *_boltColor;
-    UIColor *_inactiveColor;
-    double _chargePercent;
-    long long _chargingState;
-    long long _lowBatteryMode;
-    double _lowBatteryChargePercentThreshold;
-    long long _iconSize;
-    UILabel *_percentageLabel;
-    _UIStatusBarBatteryViewAXHUDImageCacheInfo *_accessibilityHUDImageCacheInfo;
-    CALayer *_bodyLayer;
-    CALayer *_pinLayer;
-    CALayer *_boltMaskLayer;
-    CALayer *_boltLayer;
-    CALayer *_fillLayer;
-    CALayer *_percentFillLayer;
-    long long _internalSizeCategory;
-    double _bodyColorAlpha;
-    double _pinColorAlpha;
 }
 
 + (struct CGSize);
 + (id);
-+ (struct CGSize)eReachability;
-+ (id)letionBlock:(struct CGSize)arg1;
-+ (struct CGSize)rval:(long long)arg1;
++ (struct CGSize)_rightSideReachability;
++ (id)_invokeHandlerWithCompletionBlock:(struct CGSize)arg1;
++ (struct CGSize)setBeforeReductionTimeInterval:(long long)arg1;
 + (double),&,N,V_onTintColor;
 + (id);
 - (void);
@@ -53,15 +27,15 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (double);
+- (double)CEMManagementTestCommandCommand_Status;
+- (id)EmergencyEnabled;
+- (void)x};
+- (void)=R;
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)2@0:8:16@24 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -69,20 +43,20 @@
 - (void);
 - (double);
 - (id);
+- (id)Y{;
 - (id);
-- (id);
 - (void);
 - (void);
-- (_Bool);
-- (double);
-- (void);
-- (void);
+- (_Bool)8@16@24;
+- (double)isExternalPlaybackActive;
+- (void)_donatingAppEligible;
+- (void)d;
 - (id);
 - (void);
 - (void);
 - (double);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
@@ -121,21 +95,21 @@
 - (void)dateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (id)d}{CGPoint=dd}}40@0:8Q16d24d32 /* Error: Ran out of types for this method. */;
 - (long long)NSProgress"32;
-- (double)eferredKeyboardStyle;
-- (struct CGRect)urrentOrientation:(id)arg1;
-- (double)AdjustsWritingDirection;
-- (_Bool)on:swipeView: /* Error: Ran out of types for this method. */;
-- (void)shouldHaveBackdropView;
-- (id)ForPresenting;
-- (id)intsOnHeightChange;
-- (void)ntTimeInputLabelFrame;
-- (id)egate;
-- (void)GradientMaskView;
+- (double)preferredKeyboardStyle;
+- (struct CGRect)initWithTargetOrientation:(id)arg1 currentOrientation: /* Error: Ran out of types for this method. */;
+- (double)automaticallyAdjustsWritingDirection;
+- (_Bool)_trailingQuickActionOffsetForCenterPosition:swipeView: /* Error: Ran out of types for this method. */;
+- (void)_shouldHaveBackdropView;
+- (id)_itemForPresenting;
+- (id)_didInvalidateBaselineConstraintsOnHeightChange;
+- (void)_currentTimeInputLabelFrame;
+- (id)_controlEventsDelegate;
+- (void)_backdropGradientMaskView;
 - (void)B,?,N,VacceptsSplitKeyboard;
 - (void)ring",C,N,V_formattedDateString;
 - (void)BarProvider;
 - (void)"UIScreen",R,N,V_screen;
-- (void)Alert;
+- (void)UIInterfaceActionConcreteVisualStyle_iOSMacAlert;
 - (id)\îxï;
 - (long long)ent:on gesture:%p (%@) with touches:%@ /* Error: Ran out of types for this method. */;
 - (double)ew with TextViewAllowSelectionContainerInTextLayoutCanvas preference off. Ignoring.;
@@ -149,7 +123,7 @@
 - (void)tViewControllerAdaptiveImpl setPreferredSplitBehavior:(_Bool)arg1 ];
 - (id)rForwardableEventComponent>"8^B16;
 - (void)nHandler:(id)arg1 ];
-- (void)nsSourceApplicationKey;
+- (void)UIApplicationOpenURLOptionsSourceApplicationKey;
 - (void)il-for;
 - (long long)has been dealloced :manager=%@ identifier=%@ /* Error: Ran out of types for this method. */;
 - (_Bool)Kit internal inconsistency:registration missing element kind %@ /* Error: Ran out of types for this method. */;
@@ -168,65 +142,7 @@
 - (void)m!;
 
 // Remaining properties
-@property(retain, nonatomic) _UIStatusBarBatteryViewAXHUDImageCacheInfo *accessibilityHUDImageCacheInfo; // @synthesize accessibilityHUDImageCacheInfo=_accessibilityHUDImageCacheInfo;
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(copy, nonatomic) UIColor *bodyColor; // @synthesize bodyColor=_bodyColor;
-@property(nonatomic) double bodyColorAlpha; // @synthesize bodyColorAlpha=_bodyColorAlpha;
-@property(retain, nonatomic) CALayer *bodyLayer; // @synthesize bodyLayer=_bodyLayer;
-@property(readonly, nonatomic) CAShapeLayer *bodyShapeLayer;
-@property(copy, nonatomic) UIColor *boltColor; // @synthesize boltColor=_boltColor;
-@property(retain, nonatomic) CALayer *boltLayer; // @synthesize boltLayer=_boltLayer;
-@property(retain, nonatomic) CALayer *boltMaskLayer; // @synthesize boltMaskLayer=_boltMaskLayer;
-@property(readonly, nonatomic) CAShapeLayer *boltMaskShapeLayer;
-@property(readonly, nonatomic) CAShapeLayer *boltShapeLayer;
-@property(nonatomic) double chargePercent; // @synthesize chargePercent=_chargePercent;
-@property(nonatomic) long long chargingState; // @synthesize chargingState=_chargingState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(retain, nonatomic) CALayer *fillLayer; // @synthesize fillLayer=_fillLayer;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long iconSize; // @synthesize iconSize=_iconSize;
-@property(copy, nonatomic) UIColor *inactiveColor; // @synthesize inactiveColor=_inactiveColor;
-@property(nonatomic) long long internalSizeCategory; // @synthesize internalSizeCategory=_internalSizeCategory;
-@property(readonly, nonatomic, getter=isLowBattery) _Bool lowBattery;
-@property(nonatomic) double lowBatteryChargePercentThreshold; // @synthesize lowBatteryChargePercentThreshold=_lowBatteryChargePercentThreshold;
-@property(nonatomic) long long lowBatteryMode; // @synthesize lowBatteryMode=_lowBatteryMode;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(retain, nonatomic) CALayer *percentFillLayer; // @synthesize percentFillLayer=_percentFillLayer;
-@property(readonly, nonatomic) CAShapeLayer *percentFillShapeLayer;
-@property(retain, nonatomic) UILabel *percentageLabel; // @synthesize percentageLabel=_percentageLabel;
-@property(copy, nonatomic) UIColor *pinColor; // @synthesize pinColor=_pinColor;
-@property(nonatomic) double pinColorAlpha; // @synthesize pinColorAlpha=_pinColorAlpha;
-@property(retain, nonatomic) CALayer *pinLayer; // @synthesize pinLayer=_pinLayer;
-@property(readonly, nonatomic) CAShapeLayer *pinShapeLayer;
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool rounded; // @synthesize rounded=_rounded;
-@property(nonatomic) _Bool saverModeActive; // @synthesize saverModeActive=_saverModeActive;
-@property(nonatomic) _Bool showsInlineChargingIndicator; // @synthesize showsInlineChargingIndicator=_showsInlineChargingIndicator;
-@property(nonatomic) _Bool showsPercentage; // @synthesize showsPercentage=_showsPercentage;
-@property(nonatomic) long long sizeCategory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

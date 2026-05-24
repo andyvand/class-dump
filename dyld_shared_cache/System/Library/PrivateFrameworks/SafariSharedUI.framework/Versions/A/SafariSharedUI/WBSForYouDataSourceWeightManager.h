@@ -15,7 +15,7 @@
 - (double);
 - (void);
 - (id);
-- (void)bleText;
+- (void)_searchableText;
 
 @end
 

@@ -9,35 +9,29 @@
 @interface PKIdentityPassCredentialProperty
 {
     NSString *_passUniqueIdentifier;
-    NSString *_applicationIdentifier;
-    NSString *_subCredentialIdentifier;
-    NSString *_docType;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)THC;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)sample2Snr;
+- (void)datapointCount;
 - (id);
-- (id)Region:stateful: /* Error: Ran out of types for this method. */;
-- (void)n;
+- (id)createChannelWithRegion:stateful: /* Error: Ran out of types for this method. */;
+- (void)STSSession;
 - (void)Xðªÿw$;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSString *docType; // @synthesize docType=_docType;
 @property(copy, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(copy, nonatomic) NSString *subCredentialIdentifier; // @synthesize subCredentialIdentifier=_subCredentialIdentifier;
 
 @end
 

@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol FCPPTContext
+- (_Bool);
 - (void);
 - (NSString *);
 
 // Remaining properties
-@property(nonatomic, getter=isPrefetchDisabled) _Bool prefetchDisabled;
-@property(nonatomic, getter=isRunningPPT) _Bool runningPPT;
 @property(retain, nonatomic) NSString *testName;
 @end
 

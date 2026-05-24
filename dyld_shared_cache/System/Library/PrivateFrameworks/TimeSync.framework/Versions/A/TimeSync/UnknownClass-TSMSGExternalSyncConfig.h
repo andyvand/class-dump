@@ -6,9 +6,9 @@
 
 @interface UnknownClass (TSMSGExternalSyncConfig)
 + (id);
-- (CDStruct_38929c87);
+- (CDStruct_57a9bbf6);
 
 // Remaining properties
-@property(readonly) CDStruct_38929c87 TSMSGExternalSyncConfigValue;
+@property(readonly) CDStruct_57a9bbf6 TSMSGExternalSyncConfigValue;
 @end
 

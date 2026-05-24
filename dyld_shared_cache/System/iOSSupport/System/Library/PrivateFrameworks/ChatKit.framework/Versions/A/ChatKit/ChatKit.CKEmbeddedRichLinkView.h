@@ -7,19 +7,12 @@
 @interface ChatKit.CKEmbeddedRichLinkView
 {
     id delegate;
-    id url;
-    id richLinkDataSource;
-    id pluginEntryViewController;
-    id discardButton;
-    id editMenuInteraction;
-    id isPresentingEditMenu;
-    id shouldPresentEditMenuWhenAddedToWindow;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)globalVirtualRecentlyDeletedMathNotesFolder;
+- (void)globalVirtualMathNotesFolder;
+- (void)getPresentationData:(id)arg1 mimeType:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,12 +23,12 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (void)iewController: /* Error: Ran out of types for this method. */;
+- (id)Exited"I"respondsToDragDidMoveToPoint"I"respondsToDidDropItemsAtPoint"I"respondsToDataOwner"I"respondsToShouldHandleDroppedContacts"I"respondsToSendingAddressForTargetView"I"respondsToAddressKind"I"respondsToComposeRecipientsForDroppedContacts"I};
+- (void)setWillPresentRegistrationViewController: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ppstore.capsule.2.fill;
 - (void)ectorsUILibrary(void);
-- (void)VED_CONFIRMATION_PARTIAL_SINGLE;
+- (void)ALREADY_SAVED_CONFIRMATION_PARTIAL_SINGLE;
 - (id)dexPath"16@24;
 - (struct CGRect);
 

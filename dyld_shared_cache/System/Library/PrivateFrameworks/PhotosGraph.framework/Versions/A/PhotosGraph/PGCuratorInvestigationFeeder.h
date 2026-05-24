@@ -12,17 +12,17 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long)Limit;
+- (unsigned long long)_fetchLimit;
 - (id)mmon people. fallback to basic curation.;
 - (void)ntityType = %d;
 

@@ -11,45 +11,39 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct IDSGLAttrBinaryData_ {
-    int len;
-    unsigned char data[1024];
+    int _field1;
+    unsigned char _field2[1024];
 };
 
 struct IDSGlobalLinkAttribute {
-    unsigned short type;
-    unsigned short len;
+    unsigned short _field1;
+    unsigned short _field2;
     union {
-        struct sockaddr_storage ss;
-        unsigned short u16;
-        unsigned int u32;
-        unsigned long long u64;
-        struct IDSGLAttrBinaryData_ binaryData;
-    } value;
+        struct sockaddr_storage _field1;
+        unsigned short _field2;
+        unsigned int _field3;
+        unsigned long long _field4;
+        struct IDSGLAttrBinaryData_ _field5;
+    } _field3;
 };
 
 struct IDSNetBuffer_;
 
-struct IDSSimpleUInt16List {
-    unsigned long long listSize;
-    unsigned long long itemCount;
-    unsigned short *items;
-};
-
 struct IDSStunAttribute {
-    unsigned short type;
-    unsigned short len;
-    unsigned short valueType;
-    _Bool encrypted;
+    unsigned short _field1;
+    unsigned short _field2;
+    unsigned short _field3;
+    _Bool _field4;
     union {
-        struct sockaddr_storage ss;
-        unsigned char u8;
-        unsigned short u16;
-        unsigned int u32;
-        unsigned long long u64;
-        struct StunBinaryData binaryData;
-        struct StunErrorCode errorCode;
-        struct StunUnknownAttribute unknownAttribute;
-    } value;
+        struct sockaddr_storage _field1;
+        unsigned char _field2;
+        unsigned short _field3;
+        unsigned int _field4;
+        unsigned long long _field5;
+        struct StunBinaryData _field6;
+        struct StunErrorCode _field7;
+        struct StunUnknownAttribute _field8;
+    } _field5;
 };
 
 struct IDSTCPConnection_ {
@@ -70,28 +64,23 @@ struct IDSTCPConnection_ {
     CDUnknownBlockType _field15;
 };
 
-struct IDSTCPLinkCounter_ {
-    unsigned long long _totalBytesSent;
-    unsigned long long _totalPacketsSent;
-    unsigned long long _totalBytesReceived;
-    unsigned long long _totalPacketsReceived;
-};
+struct IDSTCPLinkCounter_;
 
 struct StunBinaryData {
-    int len;
-    unsigned char data[1472];
+    int _field1;
+    unsigned char _field2[1472];
 };
 
 struct StunErrorCode {
-    int errorClass;
-    int errorNumber;
-    unsigned char errorReason[128];
-    int len;
+    int _field1;
+    int _field2;
+    unsigned char _field3[128];
+    int _field4;
 };
 
 struct StunUnknownAttribute {
-    int count;
-    unsigned short unknowAttributes[20];
+    int _field1;
+    unsigned short _field2[20];
 };
 
 struct _NSRange {
@@ -205,9 +194,9 @@ typedef struct {
 } CDStruct_457e09f6;
 
 typedef struct {
-    int length;
-    unsigned char data[12];
-} CDStruct_330c469e;
+    int _field1;
+    unsigned char _field2[12];
+} CDStruct_c3d3b44c;
 
 typedef struct CDStruct_183601bc;
 
@@ -287,18 +276,4 @@ typedef struct {
     unsigned short _field45;
     unsigned char _field46[0];
 } CDStruct_046a2762;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int participantId:1;
-    unsigned int reason:1;
-} CDStruct_19e42173;
-
-typedef struct {
-    unsigned int sessionStateCounter:1;
-} CDStruct_87dd7fbd;
-
-typedef struct {
-    unsigned int txnId:1;
-} CDStruct_783edc84;
 

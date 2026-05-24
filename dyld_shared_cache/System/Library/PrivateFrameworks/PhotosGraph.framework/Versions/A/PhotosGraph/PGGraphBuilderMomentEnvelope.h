@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PGGraphMomentNode;
+@class PGGraphMomentNode;
 
 @interface PGGraphBuilderMomentEnvelope
 {
     PGGraphMomentNode *_momentNode;
-    NSArray *_sceneEdges;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)initWithString:tokenizerUnit:locale: /* Error: Ran out of types for this method. */;
+- (id)"AXKApplicationController",R,W,N,V_applicationController;
 - (id);
 - (void)IntrusiveObjectPresenceScore;
 
 // Remaining properties
 @property(readonly) PGGraphMomentNode *momentNode; // @synthesize momentNode=_momentNode;
-@property(retain, nonatomic) NSArray *sceneEdges; // @synthesize sceneEdges=_sceneEdges;
 
 @end
 

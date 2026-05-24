@@ -9,6 +9,6 @@
 + (id);
 - (_Bool);
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint)/;
 @end
 

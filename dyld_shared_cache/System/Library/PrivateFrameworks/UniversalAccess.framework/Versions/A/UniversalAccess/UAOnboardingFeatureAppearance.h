@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
-- (long long);
-- (void);
+- (void)ientEventMetadata";
+- (void)TextMetadata";
+- (long long)WSchemaFLOWSmsAttachmentMetadata";
+- (void)r"b1"conditionType"b1"isRecurring"b1"isIntentSelectionCacheHit"b1};
 - (id);
 
 @end

@@ -6,19 +6,19 @@
 
 #import <MediaPlaybackCore/MPCAssistantRemoteControlDestination.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MPCAssistantMutableRemoteControlDestination : MPCAssistantRemoteControlDestination
 {
 }
 
+- (void)__objc_methname;
+- (void);
+- (void)__objc_classname__TEXT;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)\;
 - (void);
 - (void);
 - (void);
@@ -27,17 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleID; // @dynamic appBundleID;
-@property(copy, nonatomic) NSArray *hashedOutputDeviceUIDs; // @dynamic hashedOutputDeviceUIDs;
-@property(nonatomic) _Bool isCompanion; // @dynamic isCompanion;
-@property(nonatomic) _Bool isLocal; // @dynamic isLocal;
-@property(nonatomic) void *origin; // @dynamic origin;
-@property(nonatomic) _Bool originatingDeviceControl; // @dynamic originatingDeviceControl;
-@property(copy, nonatomic) NSString *originatingOutputDeviceUID; // @dynamic originatingOutputDeviceUID;
-@property(copy, nonatomic) NSArray *outputDeviceUIDs; // @dynamic outputDeviceUIDs;
-@property(copy, nonatomic) NSString *outputGroupID; // @dynamic outputGroupID;
-@property(copy, nonatomic) NSArray *outputGroups; // @dynamic outputGroups;
-@property(copy, nonatomic) NSString *playerID; // @dynamic playerID;
-@property(nonatomic) _Bool singleGroup; // @dynamic singleGroup;
 
 @end
 

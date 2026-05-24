@@ -7,17 +7,14 @@
 @interface TRITrialDownloadStatusFields
 {
     int _status;
-    struct {
-        unsigned int status:1;
-    } _has;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ic}@, net:(id)arg1 %{public}@, force unadjusted:%{public}@, set original choice:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -30,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasStatus;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

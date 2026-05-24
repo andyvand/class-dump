@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, NSViewController, SFCardSection, SearchUICardSectionRowModel, SearchUITabButtonIndicatorView;
-@protocol SearchUIFeedbackDelegate;
+@class SearchUICardSectionRowModel;
 
 @interface SearchUICardSectionView
 {
     _Bool _isCompactWidth;
-    _Bool _shouldShowTabIndicator;
-    NSView *_contentView;
-    SearchUICardSectionRowModel *_rowModel;
-    NSViewController *_embeddedViewController;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
-    NSView *_leadingView;
-    NSView *_leadingTextView;
-    NSView *_chevronView;
-    SearchUITabButtonIndicatorView *_secondaryCommandView;
 }
 
 + (_Bool);
@@ -55,47 +45,25 @@
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)7;
 - (void);
 - (void);
+- (id)T@"AWDProactiveModelFittingEvaluation",&,N,V_evaluation;
 - (id);
-- (id);
-- (id);
+- (id)recipient)) AS c FROM messages));
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id)¨ß;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *chevronView; // @synthesize chevronView=_chevronView;
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSViewController *embeddedViewController; // @synthesize embeddedViewController=_embeddedViewController;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect highlightFrame;
-@property(readonly, nonatomic) double highlightFrameCornerRadius;
-@property(readonly, nonatomic) _Bool highlightFrameMatchesHighlightView;
-@property(readonly, nonatomic) NSView *highlightReferenceView;
-@property _Bool isCompactWidth; // @synthesize isCompactWidth=_isCompactWidth;
-@property(readonly, nonatomic) NSView *leadingTextView; // @synthesize leadingTextView=_leadingTextView;
-@property(readonly, nonatomic) NSView *leadingView; // @synthesize leadingView=_leadingView;
 @property(retain, nonatomic) SearchUICardSectionRowModel *rowModel; // @synthesize rowModel=_rowModel;
-@property(retain, nonatomic) SearchUITabButtonIndicatorView *secondaryCommandView; // @synthesize secondaryCommandView=_secondaryCommandView;
-@property(readonly, nonatomic) SFCardSection *section;
-@property(nonatomic) _Bool shouldShowTabIndicator; // @synthesize shouldShowTabIndicator=_shouldShowTabIndicator;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSView *viewForQuickLookZoomTransitionSource;
 
 @end
 

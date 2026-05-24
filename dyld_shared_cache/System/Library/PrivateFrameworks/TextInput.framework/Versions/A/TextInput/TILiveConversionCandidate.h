@@ -11,16 +11,13 @@
 @interface TILiveConversionCandidate : TIMecabraCandidate
 {
     NSString *_candidate;
-    _Bool _inlineCandidate;
-    _Bool _partialCandidate;
 }
 
-+ (int);
++ (int)"?;
 + (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isInlineCandidate) _Bool inlineCandidate; // @synthesize inlineCandidate=_inlineCandidate;
-@property(nonatomic, getter=isPartialCandidate) _Bool partialCandidate; // @synthesize partialCandidate=_partialCandidate;
 
 @end
 

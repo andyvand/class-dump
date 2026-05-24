@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKDAPairingSessionManager, PKDASessionManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKDAManager
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    PKDAPairingSessionManager *_pairingSessionManager;
-    PKDASessionManager *_managementSessionManager;
-    PKDASessionManager *_sharingSessionManager;
 }
 
 + (_Bool);
 + (void);
 + (_Bool)ible credentials;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,9 +24,14 @@
 - (void);
 - (void);
 - (void);
+- (id)S;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)t;
+- (void)Q;
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -43,7 +40,7 @@
 - (void)ion:(id)arg1;
 - (void)-HPKE-v1;
 - (id)ayment.contactlessinterface.transaction-duration;
-- (void)MENT_RECURRING_TERM_EVERY_INTERVAL_WEEKS;
+- (void)PAYMENT_RECURRING_TERM_EVERY_INTERVAL_WEEKS;
 
 @end
 

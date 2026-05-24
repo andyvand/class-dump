@@ -6,27 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTSystemRequirementAuthenticationRequest, IFTSchemaIFTSystemRequirementProtectedAppRequest, IFTSchemaIFTSystemRequirementUserLocationForSystemRequest, NSData;
-
 @interface IFTSchemaIFTSystemRequirement : SISchemaInstrumentationMessage
 {
     _Bool _deviceUnlockRequired;
-    _Bool _authenticationRequired;
-    _Bool _appLaunchRequired;
-    _Bool _carPlayIncompatible;
-    _Bool _carBluetoothIncompatible;
-    IFTSchemaIFTSystemRequirementProtectedAppRequest *_protectedAppApprovalRequired;
-    IFTSchemaIFTSystemRequirementAuthenticationRequest *_userAuthenticationRequired;
-    IFTSchemaIFTSystemRequirementUserLocationForSystemRequest *_userLocationForSystemRequired;
-    _Bool _hasDeviceUnlockRequired;
-    _Bool _hasAuthenticationRequired;
-    _Bool _hasAppLaunchRequired;
-    _Bool _hasCarPlayIncompatible;
-    _Bool _hasCarBluetoothIncompatible;
-    _Bool _hasProtectedAppApprovalRequired;
-    _Bool _hasUserAuthenticationRequired;
-    _Bool _hasUserLocationForSystemRequired;
-    unsigned long long _whichOneof_Systemrequirement;
 }
 
 - (unsigned long long);
@@ -57,7 +39,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -75,33 +57,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)(;
+- (id)p;
 - (id)!lDù1àÐ1Â0@ù
 × ;
 - (id)hot;
-- (id)aFLOWHomeCommunicationSendOrReply;
+- (id)FLOWSchemaFLOWHomeCommunicationSendOrReply;
 - (void)\#;
 
 // Remaining properties
-@property(nonatomic) _Bool appLaunchRequired; // @synthesize appLaunchRequired=_appLaunchRequired;
-@property(nonatomic) _Bool authenticationRequired; // @synthesize authenticationRequired=_authenticationRequired;
-@property(nonatomic) _Bool carBluetoothIncompatible; // @synthesize carBluetoothIncompatible=_carBluetoothIncompatible;
-@property(nonatomic) _Bool carPlayIncompatible; // @synthesize carPlayIncompatible=_carPlayIncompatible;
 @property(nonatomic) _Bool deviceUnlockRequired; // @synthesize deviceUnlockRequired=_deviceUnlockRequired;
-@property(nonatomic) _Bool hasAppLaunchRequired; // @synthesize hasAppLaunchRequired=_hasAppLaunchRequired;
-@property(nonatomic) _Bool hasAuthenticationRequired; // @synthesize hasAuthenticationRequired=_hasAuthenticationRequired;
-@property(nonatomic) _Bool hasCarBluetoothIncompatible; // @synthesize hasCarBluetoothIncompatible=_hasCarBluetoothIncompatible;
-@property(nonatomic) _Bool hasCarPlayIncompatible; // @synthesize hasCarPlayIncompatible=_hasCarPlayIncompatible;
-@property(nonatomic) _Bool hasDeviceUnlockRequired; // @synthesize hasDeviceUnlockRequired=_hasDeviceUnlockRequired;
-@property(nonatomic) _Bool hasProtectedAppApprovalRequired; // @synthesize hasProtectedAppApprovalRequired=_hasProtectedAppApprovalRequired;
-@property(nonatomic) _Bool hasUserAuthenticationRequired; // @synthesize hasUserAuthenticationRequired=_hasUserAuthenticationRequired;
-@property(nonatomic) _Bool hasUserLocationForSystemRequired; // @synthesize hasUserLocationForSystemRequired=_hasUserLocationForSystemRequired;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTSystemRequirementProtectedAppRequest *protectedAppApprovalRequired; // @synthesize protectedAppApprovalRequired=_protectedAppApprovalRequired;
-@property(retain, nonatomic) IFTSchemaIFTSystemRequirementAuthenticationRequest *userAuthenticationRequired; // @synthesize userAuthenticationRequired=_userAuthenticationRequired;
-@property(retain, nonatomic) IFTSchemaIFTSystemRequirementUserLocationForSystemRequest *userLocationForSystemRequired; // @synthesize userLocationForSystemRequired=_userLocationForSystemRequired;
-@property(readonly, nonatomic) unsigned long long whichOneof_Systemrequirement; // @synthesize whichOneof_Systemrequirement=_whichOneof_Systemrequirement;
 
 @end
 

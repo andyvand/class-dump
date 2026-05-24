@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDRecord, NSNumber, NSString;
+@class ABCDRecord;
 
 @interface CNCDOwnedObject
 {
@@ -12,19 +12,14 @@
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id)x;
 
 // Remaining properties
-@property(nonatomic) int iOSLegacyIdentifier; // @dynamic iOSLegacyIdentifier;
-@property(retain, nonatomic) NSNumber *isPrimary; // @dynamic isPrimary;
-@property(retain, nonatomic) NSString *label; // @dynamic label;
-@property(retain, nonatomic) NSNumber *orderingIndex; // @dynamic orderingIndex;
 @property(retain, nonatomic) ABCDRecord *owner; // @dynamic owner;
-@property(retain, nonatomic) NSString *uniqueId; // @dynamic uniqueId;
 
 @end
 

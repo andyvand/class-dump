@@ -5,5 +5,8 @@
 //
 
 @protocol AVPictureInPictureControllerDelegate
+
+@optional
+- (void),;
 @end
 

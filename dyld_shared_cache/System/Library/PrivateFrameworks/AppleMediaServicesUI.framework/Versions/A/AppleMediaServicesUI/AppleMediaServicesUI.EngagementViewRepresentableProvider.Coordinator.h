@@ -10,10 +10,10 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void)omURL:error: /* Error: Ran out of types for this method. */;
+- (void)resultFromURL:error: /* Error: Ran out of types for this method. */;
 
 @end
 

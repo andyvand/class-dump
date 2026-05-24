@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
-+ (void);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
++ (id)comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, category_id INTEGER DEFAULT 0, location_kind_id INTEGER NOT NULL DEFAULT 0, version TEXT NOT NULL DEFAULT '', display_version TEXT NOT NULL DEFAULT '');
++ (void)INTEGER PRIMARY KEY, best_screenshot_token TEXT NOT NULL DEFAULT '', best_screenshot_source_type INTEGER NOT NULL DEFAULT 0, cloud_screenshot_token TEXT NOT NULL DEFAULT '', sync_screenshot_token TEXT NOT NULL DEFAULT '', purchase_history_screenshot_token TEXT NOT NULL DEFAULT '', store_screenshot_token TEXT NOT NULL DEFAULT '');
++ (id)a.total_time_ms = ?);
++ (_Bool)LT 0, date_skipped INTEGER DEFAULT 0, date_accessed INTEGER DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER DEFAULT 0, skip_count_recent INTEGER DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL, store_bookmark_timestamp REAL DEFAULT NULL, store_bookmark_entity_revision INTEGER DEFAULT NULL, hidden INTEGER DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0;
++ (void)INTEGER DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER DEFAULT 0, skip_count_recent INTEGER DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL, store_bookmark_timestamp REAL DEFAULT NULL, store_bookmark_entity_revision INTEGER DEFAULT NULL, hidden INTEGER DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0;
++ (id)EGER DEFAULT 0, play_count_recent INTEGER DEFAULT 0, has_been_played INTEGER DEFAULT 0, date_played INTEGER DEFAULT 0, date_skipped INTEGER DEFAULT 0, date_accessed INTEGER DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER DEFAULT 0, skip_count_recent INTEGER DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL, store_bookmark_timestamp REAL DEFAULT NULL, store_bookmark_entity_revision INTEGER DEFAULT NULL, hidden INTEGER DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0;
++ (id)IFNULL((SELECT artwork_cache_id FROM item JOIN item_extra USING (item_pid) WHERE item.item_pid = composer.representative_item_pid), 0);
++ (void);;
 - (id);
 - (void);
 

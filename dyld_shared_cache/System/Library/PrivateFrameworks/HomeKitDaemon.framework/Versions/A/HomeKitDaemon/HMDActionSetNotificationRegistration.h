@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDActionSetNotificationRegistration
 {
     _Bool _enabled;
-    NSUUID *_actionSetUUID;
-    NSString *_deviceIdsDestination;
-    NSUUID *_userUUID;
-    NSDate *_lastModified;
 }
 
 - (id);
@@ -22,18 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id):(struct _NSZone *)arg1 onHubAccessories: /* Error: Ran out of types for this method. */;
+- (id)deleteHistoryForAccessoryUUID:(struct _NSZone *)arg1 onHubAccessories: /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (id)me manager is not yet configured, bailing insertBulletinForIncomingInvitation.;
 - (_Bool)ent, scheduling resend in %f;
-- (void)tatus;
+- (void)HMDUserAdaptiveTemperatureAutomationsDisclosureStatus;
 
 // Remaining properties
 @property(readonly) NSUUID *actionSetUUID; // @synthesize actionSetUUID=_actionSetUUID;
-@property(readonly, copy) NSString *deviceIdsDestination; // @synthesize deviceIdsDestination=_deviceIdsDestination;
-@property(readonly) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) NSDate *lastModified; // @synthesize lastModified=_lastModified;
-@property(readonly) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

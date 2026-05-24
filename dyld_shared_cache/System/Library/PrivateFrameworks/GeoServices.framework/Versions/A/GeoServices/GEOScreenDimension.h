@@ -9,19 +9,16 @@
 @interface GEOScreenDimension
 {
     PBUnknownFields *_unknownFields;
-    double _height;
-    double _width;
-    CDStruct_a1cdbaa7 _flags;
 }
 
-+ (_Bool)Style:(id)arg1;
++ (_Bool)setMapUiLayoutStyle:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_reinitializeVoiceTriggerWithAsset:(id)arg1;
+- (id)gW	;
 - (unsigned long long);
 - (_Bool);
 - (double);
@@ -30,22 +27,18 @@
 - (void);
 - (void);
 - (id)fer<_GEOProbeCrumbsLocation *, std:(struct _NSZone *)arg1:allocator<_GEOProbeCrumbsLocation *>>="__first_"^^{_GEOProbeCrumbsLocation}"__begin_"^^{_GEOProbeCrumbsLocation}"__end_"^^{_GEOProbeCrumbsLocation}""{?="__cap_"^^{_GEOProbeCrumbsLocation}}}"__start_"Q""{?="__size_"Q}} /* Error: Ran out of types for this method. */;
-- (void)stamp:(double)arg1;
-- (id)ersion;
-- (id)cStringData;
+- (void)placeCacheRegisterCacheResult:(double)arg1 forApp:requestType:timestamp: /* Error: Ran out of types for this method. */;
+- (id)hasDataVersion;
+- (id)GEOGenericStringData;
 - (_Bool)teCoordinate:%{private}@ /* Error: Ran out of types for this method. */;
 - (id)y=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8@"GEOTileData"16;
 - (void)¼BAvþÓP@;
 - (void)xADjÚkO@;
-- (void)tobuf25EncodedDescriptorDatabaseE;
+- (void)N13AddrObjGoogle8protobuf25EncodedDescriptorDatabaseE;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeight;
 @property(nonatomic) _Bool hasWidth;
-@property(nonatomic) double height;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) double width;
 
 @end
 

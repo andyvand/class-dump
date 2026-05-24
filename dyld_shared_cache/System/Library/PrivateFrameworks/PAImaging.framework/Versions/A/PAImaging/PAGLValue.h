@@ -7,13 +7,10 @@
 @interface PAGLValue
 {
     void *_bytes;
-    unsigned int _type;
-    unsigned int _size;
-    unsigned int _count;
 }
 
 + (id);
-+ (id);
++ (id)#;
 + (id);
 + (id);
 + (id);
@@ -34,9 +31,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes; // @synthesize bytes=_bytes;
-@property(readonly, nonatomic) unsigned int count; // @synthesize count=_count;
-@property(readonly, nonatomic) unsigned int size; // @synthesize size=_size;
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

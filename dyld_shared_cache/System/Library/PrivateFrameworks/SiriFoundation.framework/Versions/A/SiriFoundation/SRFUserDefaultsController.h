@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
-
 @interface SRFUserDefaultsController
 {
     _Bool _preferBluetoothMicrophones;
-    NSDictionary *_userHotKeyDisabledNonSAE;
-    NSDictionary *_userHotKeyDisabledSAE;
 }
 
 + (_Bool);
@@ -45,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -57,7 +53,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)V;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -91,38 +87,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double autoDismissDelay;
-@property(readonly, nonatomic) double autoDismissTextToSpeechTimeout;
-@property(nonatomic) _Bool confirmSiriInvokedViaEitherCmdTwice;
-@property(nonatomic, getter=isContinuousSpellCheckingEnabled) _Bool continuousSpellCheckingEnabled;
-@property(readonly, nonatomic) _Bool debugModeEnabled;
-@property(readonly, nonatomic) _Bool designModeEnabled;
-@property(retain) NSDate *dyingWishForInvocationDate;
-@property(readonly) NSString *effectiveMicrophoneIdentifier;
-@property(getter=isGrammarCheckingEnabled) _Bool grammarCheckingEnabled;
-@property(nonatomic) _Bool ignoreMicRequirement;
-@property(readonly) _Bool isDeviceInClamshellMode;
-@property(readonly) _Bool isEffectiveMicrophoneInternal;
-@property NSDictionary *keyboardShortcutDictionary;
-@property(nonatomic, getter=isLockscreenEnabled) _Bool lockscreenEnabled;
-@property(readonly) NSString *modeOverride;
-@property NSDictionary *mostRecentCustomizedKeyboardShorcutDictionary;
-@property _Bool preferBluetoothMicrophones; // @synthesize preferBluetoothMicrophones=_preferBluetoothMicrophones;
-@property(readonly) NSString *preferredBluetoothMicrophoneIdentifier;
-@property(readonly, nonatomic) _Bool showReportConcernButton;
 @property(getter=isStatusMenuVisible) _Bool statusMenuVisible;
-@property(getter=isSuggestionsEnabled) _Bool suggestionsEnabled;
-@property(nonatomic, getter=isTypeToSiriEnabled) _Bool typeToSiriEnabled;
-@property(readonly, nonatomic) NSDictionary *userHotKeyDisabledNonSAE; // @synthesize userHotKeyDisabledNonSAE=_userHotKeyDisabledNonSAE;
-@property(readonly, nonatomic) NSDictionary *userHotKeyDisabledSAE; // @synthesize userHotKeyDisabledSAE=_userHotKeyDisabledSAE;
-@property(readonly, nonatomic) NSDictionary *userHotKeyEitherCommandTwice;
-@property(readonly, nonatomic) NSDictionary *userHotKeyFunctionSpace;
-@property(readonly, nonatomic) NSDictionary *userHotKeyHoldCommandSpace;
-@property(readonly, nonatomic) NSDictionary *userHotKeyHoldOptionSpace;
-@property(readonly, nonatomic) NSDictionary *userHotKeyLeftCommandTwice;
-@property(readonly, nonatomic) NSDictionary *userHotKeyRightCommandTwice;
-@property(nonatomic) _Bool userSignedUpForGM;
-@property(nonatomic, getter=isVoiceTriggerUserEnabled) _Bool voiceTriggerUserEnabled;
 
 @end
 

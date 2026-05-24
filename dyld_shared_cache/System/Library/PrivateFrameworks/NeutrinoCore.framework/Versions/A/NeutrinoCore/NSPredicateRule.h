@@ -14,14 +14,14 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
-- (void)ToRender:toDestination:error: /* Error: Ran out of types for this method. */;
+- (void)startTaskToRender:toDestination:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;

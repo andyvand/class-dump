@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSGestureRecognizer;
+
 @protocol NSGestureRecognizerDelegate
+
+@optional
+- (_Bool);
+- (_Bool)CAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
+- (_Bool)isiCloudAccountBackingOf:(NSGestureRecognizer *)arg1;
+- (_Bool)underlyingBufferLength;
 @end
 

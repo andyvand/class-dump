@@ -8,12 +8,9 @@ __attribute__((visibility("hidden")))
 @interface MSStickerUsageEvent
 {
     long long _sourceType;
-    long long _usageType;
-    long long _stickerType;
-    long long _effectType;
 }
 
-+ (long long);
++ (long long);
 + (long long);
 + (long long);
 + (_Bool);
@@ -25,17 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (void);
-- (void);
+- (void);
 - (long long);
-- (void)ta;
+- (void)imageData;
 
 // Remaining properties
-@property(nonatomic) long long effectType; // @synthesize effectType=_effectType;
 @property(nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(nonatomic) long long stickerType; // @synthesize stickerType=_stickerType;
-@property(nonatomic) long long usageType; // @synthesize usageType=_usageType;
 
 @end
 

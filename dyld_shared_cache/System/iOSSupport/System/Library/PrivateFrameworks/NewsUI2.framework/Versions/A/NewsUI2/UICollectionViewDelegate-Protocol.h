@@ -9,6 +9,7 @@
 @protocol UICollectionViewDelegate
 
 @optional
+- (void)v;
 - (void)! Fùñ°1Â0@ù
 × ;
 - (void)nvironment"24;
@@ -22,7 +23,7 @@
 - (UIContextMenuConfiguration *)\cÞÿcÞÿdÞÿDdÞÿ°dÞÿfÞÿpgÞÿgÞÿÈgÞÿhÞÿØhÞÿähÞÿ8iÞÿ\iÞÿiÞÿ°iÞÿÔiÞÿjÞÿ4jÞÿ¤jÞÿÈjÞÿìjÞÿxkÞÿkÞÿÀkÞÿükÞÿ lÞÿDlÞÿxlÞÿ´lÞÿØlÞÿülÞÿ0mÞÿlmÞÿmÞÿ´mÞÿ`nÞÿoÞÿlpÞÿ¨pÞÿÌpÞÿqÞÿpqÞÿ´qÞÿØqÞÿüqÞÿrÞÿ¼rÞÿèrÞÿsÞÿsÞÿltÞÿuÞÿ,uÞÿ\uÞÿuÞÿ¤uÞÿàuÞÿvÞÿ\vÞÿÈwÞÿxÞÿ(xÞÿxÞÿ°xÞÿäxÞÿ yÞÿDyÞÿhyÞÿzÞÿzÞÿ°zÞÿÔzÞÿ{Þÿ4{Þÿ{Þÿ|Þÿ<|Þÿ`|ÞÿÄ|Þÿè|Þÿ}ÞÿP}Þÿ¤}Þÿ0~Þÿl~Þÿ¨~ÞÿÌ~Þÿð~Þÿ,ÞÿPÞÿtÞÿ°ÞÿÔÞÿ¤ÞÿìÞÿÞÿ¤ÞÿØÞÿÞÿXÞÿÜÞÿ0ÞÿTÞÿÞÿ¨ÞÿÌÞÿ;
 - (void)ôËûÿ;
 - (_Bool)fetchDeduper;
-- (NSIndexPath *)nfigManager;
+- (NSIndexPath *)paidBundleConfigManager;
 - (void)ÿriÝÿ;
 - (void)Þðÿ;
 - (void)ØÇÿÿ´íÿ;

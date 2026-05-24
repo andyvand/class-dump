@@ -5,14 +5,11 @@
 //
 
 @class NSXPCInterface;
-@protocol NSXPCProxyCreating;
 
 __attribute__((visibility("hidden")))
 @interface AMSDaemonConnectionErrorForwardingProxy
 {
     _Bool _isSync;
-    NSXPCInterface *_interface;
-    id <NSXPCProxyCreating> _proxy;
 }
 
 - (id);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)T@"NSData",&,N,V_collectionInfoData;
 - (id);
 - (void)ëºÉ].ß¬ýhJ9êÈ»/\~­Þüà±Âb3@Ô§öV%táÃ°cA2¦Õ÷$WuíÏ¼oM>ªÙû([
 yì½În?LØ«úZ)xô¥Öv'TÀ³âB1`õ×¤wU&²Áã0CaùÛ¨{Y*¾Íï<Omø©Ú	z+XÌ¿îN=l`ªî$x²ö<m§ã)u¿û1[ÕCÍVØN
@@ -30,8 +27,6 @@ yì½În?LØ«úZ)xô¥Öv'TÀ³âB1`õ×¤wU&²Áã0CaùÛ�
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCInterface *interface; // @synthesize interface=_interface;
-@property(readonly, nonatomic) _Bool isSync; // @synthesize isSync=_isSync;
-@property(readonly, nonatomic) id <NSXPCProxyCreating> proxy; // @synthesize proxy=_proxy;
 
 @end
 

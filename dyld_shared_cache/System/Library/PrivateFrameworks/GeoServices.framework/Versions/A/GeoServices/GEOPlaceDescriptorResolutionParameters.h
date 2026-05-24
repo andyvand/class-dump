@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSArray, NSString;
+@class GEOLocation;
 
 @interface GEOPlaceDescriptorResolutionParameters
 {
     GEOLocation *_location;
-    NSArray *_formattedAddress;
-    NSString *_placeNameHint;
-    NSArray *_preferredTypes;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)originalLine;
+- (void)nameOrderForRecord:(id)arg1;
+- (void)Could not fetch CNCDContainer records:(id)arg1 %{public}@ %@;
 - (id);
 - (id);
 - (id);
@@ -25,10 +22,7 @@
 - (void)èqþ_4º»6;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *formattedAddress; // @synthesize formattedAddress=_formattedAddress;
 @property(retain, nonatomic) GEOLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSString *placeNameHint; // @synthesize placeNameHint=_placeNameHint;
-@property(retain, nonatomic) NSArray *preferredTypes; // @synthesize preferredTypes=_preferredTypes;
 
 @end
 

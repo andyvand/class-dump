@@ -9,11 +9,6 @@
 @interface BKUserProtectedConfiguration
 {
     NSNumber *_unlockEnabled;
-    NSNumber *_identificationEnabled;
-    NSNumber *_loginEnabled;
-    NSNumber *_applePayEnabled;
-    NSNumber *_attentionDetectionEnabled;
-    NSNumber *_periocularFaceIDMatchEnabled;
 }
 
 - (void);
@@ -22,23 +17,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)`
+;
 - (id);
 - (void);
 - (id);
+- (id)moveSpacesFromStrongURLsAndEmailsStep is running;
+- (void);
 - (id);
+- (id)authorizeEntryWithProfileUUID:cdHash:gracePeriod:currentMonotonicTime:currentResetCount:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *applePayEnabled; // @synthesize applePayEnabled=_applePayEnabled;
-@property(retain, nonatomic) NSNumber *attentionDetectionEnabled; // @synthesize attentionDetectionEnabled=_attentionDetectionEnabled;
-@property(retain, nonatomic) NSNumber *identificationEnabled; // @synthesize identificationEnabled=_identificationEnabled;
-@property(retain, nonatomic) NSNumber *loginEnabled; // @synthesize loginEnabled=_loginEnabled;
-@property(retain, nonatomic) NSNumber *periocularFaceIDMatchEnabled; // @synthesize periocularFaceIDMatchEnabled=_periocularFaceIDMatchEnabled;
 @property(retain, nonatomic) NSNumber *unlockEnabled; // @synthesize unlockEnabled=_unlockEnabled;
 
 @end

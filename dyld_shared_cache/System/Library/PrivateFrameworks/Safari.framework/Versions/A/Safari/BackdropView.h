@@ -16,24 +16,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)nimated: /* Error: Ran out of types for this method. */;
+- (id)setTabButtonState:animated: /* Error: Ran out of types for this method. */;
 - (void)ncrypted Firefox credentials.;
 - (double)ong long>, WTF::HashMap<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>::KeyValuePairTraits, WTF::HashTraits<unsigned long long>>::validateKey(const ValueType &) [Key = unsigned long long, Value = WTF::KeyValuePair<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>>, HashFunctions = WTF::DefaultHash<unsigned long long>, Traits = WTF::HashMap<unsigned long long, WTF::RefPtr<Safari::SiteMetadataFetcher>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<unsigned long long>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)T;
+- (void)hT;
 - (void);
 - (void);
 - (id)ÿ&QÆ°Ç-;
 - (void)ÿBË;
 
 // Remaining properties
-@property(nonatomic) _Bool captureOnly;
-@property(copy, nonatomic) NSString *cornerCurve;
-@property(nonatomic) double cornerRadius;
 @property(copy, nonatomic) NSString *groupName;
-@property(nonatomic) _Bool windowServerAware;
 
 @end
 

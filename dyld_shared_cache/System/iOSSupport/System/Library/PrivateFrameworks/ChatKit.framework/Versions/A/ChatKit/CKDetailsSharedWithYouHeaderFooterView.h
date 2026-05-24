@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextView;
+@class UITextView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsSharedWithYouHeaderFooterView
@@ -16,20 +16,13 @@ __attribute__((visibility("hidden")))
 + (double)ÀäÀ;
 + (double)½;
 - (id);
-- (void);
+- (void)ObjectContextDidSavePublisher;
 - (struct CGSize);
 - (void);
 - (void)QhkªÿQh;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UITextView *sharedWithYouTextView; // @synthesize sharedWithYouTextView=_sharedWithYouTextView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface RemindersUICore.TTRMQuickBarTimePickerView : RemindersUICore.TTRMQuickBarEntryView
 {
     id delegate;
-    id internalIsEditingTextField;
-    id deferredFocusAction;
-    id internalDateComponents;
 }
 
 - (void);

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)G;
+- (id)A;
 
 // Remaining properties
 @property(readonly, nonatomic) CTRoamingStatus *status;

@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (void)parseSINFDictionary:(unsigned long long)arg1;
+- (id)\;
+- (void)C;
 - (unsigned long long);
 - (void);
 - (id);

@@ -11,7 +11,6 @@
 @interface WBSTabCompletionMatch : WBSURLCompletionMatch
 {
     NSString *_title;
-    NSURL *_url;
 }
 
 + (long long);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ationID;
+- (void)operationID;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;

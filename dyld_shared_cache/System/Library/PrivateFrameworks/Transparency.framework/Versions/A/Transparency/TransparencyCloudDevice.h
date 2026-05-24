@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTLoggableData, NSDate, NSString;
+@class KTLoggableData;
 
 @interface TransparencyCloudDevice
 {
     KTLoggableData *_loggableData;
-    NSString *_state;
-    NSString *_serialNumber;
-    NSDate *_uploadedToCKAt;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)&;
+- (id)_error;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) KTLoggableData *loggableData; // @synthesize loggableData=_loggableData;
-@property(retain) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(retain) NSString *state; // @synthesize state=_state;
-@property(retain) NSDate *uploadedToCKAt; // @synthesize uploadedToCKAt=_uploadedToCKAt;
 
 @end
 

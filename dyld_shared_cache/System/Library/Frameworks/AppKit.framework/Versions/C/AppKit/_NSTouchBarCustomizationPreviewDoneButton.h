@@ -6,14 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSButton, NSString;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarCustomizationPreviewDoneButton : NSView
 {
     NSButton *_doneButton;
-    id _target;
-    SEL _action;
 }
 
 - (id);
@@ -26,15 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)pageAligmentsCount;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(readonly) Class superclass;
 @property __weak id target; // @synthesize target=_target;
 
 @end

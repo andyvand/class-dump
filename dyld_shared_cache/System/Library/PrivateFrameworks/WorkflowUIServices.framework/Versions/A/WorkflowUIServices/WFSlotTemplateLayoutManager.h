@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFSlotTemplateTextStorage;
-@protocol NSLayoutManagerDelegate, WFSlotTemplateLayoutManagerDelegate;
+@class WFSlotTemplateTextStorage;
 
 __attribute__((visibility("hidden")))
 @interface WFSlotTemplateLayoutManager
 {
     _Bool _isLayoutManagerForTextView;
-    _Bool _extendSlotBackgroundOffEdges;
-    unsigned long long _useCase;
-    id <WFSlotTemplateLayoutManagerDelegate> _slotTemplateDelegate;
 }
 
 - (id);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)g;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (double);
-- (unsigned long long);
+- (double);
+- (unsigned long long)T;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -31,33 +27,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGRect *);
 - (void);
 - (_Bool);
-- (void);
+- (void)7{;
 - (void);
 - (struct CGRect);
 - (long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)modifySubscriptionsSavedSubscriptions;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSLayoutManagerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool extendSlotBackgroundOffEdges; // @synthesize extendSlotBackgroundOffEdges=_extendSlotBackgroundOffEdges;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLayoutManagerForTextView; // @synthesize isLayoutManagerForTextView=_isLayoutManagerForTextView;
-@property(readonly, nonatomic) unsigned long long numberOfLaidLines;
-@property(nonatomic) __weak id <WFSlotTemplateLayoutManagerDelegate> slotTemplateDelegate; // @synthesize slotTemplateDelegate=_slotTemplateDelegate;
-@property(readonly) Class superclass;
 @property WFSlotTemplateTextStorage *textStorage; // @dynamic textStorage;
-@property(nonatomic) unsigned long long useCase; // @synthesize useCase=_useCase;
 
 @end
 

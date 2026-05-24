@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBPaymentRecord;
+@class _INPBPaymentRecord;
 
 @interface _INPBSendPaymentIntentResponse
 {
     struct _has;
-    _INPBPaymentRecord *_paymentRecord;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -27,15 +26,7 @@
 - (void)bleValue >= metadata.minimumValue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPaymentRecord;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBPaymentRecord *paymentRecord; // @synthesize paymentRecord=_paymentRecord;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRRequestDetailsProtobuf;
+@class _MRRequestDetailsProtobuf;
 
 @interface _MRSetVolumeMutedMessageProtobuf
 {
     _MRRequestDetailsProtobuf *_details;
-    NSString *_outputDeviceUID;
-    _Bool _isMuted;
-    CDStruct_d5ba98b4 _has;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)unitCount;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)userInfoDictionaryWithLayoutIntent:parentPreviewWidth:xScalar:yScalar:scale:rotation:initialFrameIndex:externalURI: /* Error: Ran out of types for this method. */;
+- (_Bool)conversationPinningMultiDragEnabled;
 - (_Bool);
 - (void);
-- (id)otobuf;
+- (void);
+- (id)required;
+- (id)on _stageUEIEventData:timestamp:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)autoRouteInactiveTimeout;
+- (id)_MRSetReadyStateMessageProtobuf;
 - (void)t.m;
 
 // Remaining properties
-@property(retain, nonatomic) _MRRequestDetailsProtobuf *details; // @synthesize details=_details;
-@property(readonly, nonatomic) _Bool hasDetails;
 @property(nonatomic) _Bool hasIsMuted;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

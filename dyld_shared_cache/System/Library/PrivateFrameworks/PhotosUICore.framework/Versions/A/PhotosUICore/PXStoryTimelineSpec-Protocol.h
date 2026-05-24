@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 @protocol PXStoryTimelineSpec
 - (struct NSEdgeInsets);
 - (long long)¹]¹;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allowedInlineTitles;
-@property(readonly, nonatomic) NSIndexSet *allowedTransitionKinds;
-@property(readonly, nonatomic) BOOL fallbackTransitionKind;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 fixedSegmentDuration;
-@property(readonly, nonatomic) long long layoutDirection;
-@property(readonly, nonatomic) double nUpDividerWidth;
-@property(readonly, nonatomic) struct NSEdgeInsets safeAreaInsets;
-@property(readonly, nonatomic) unsigned long long storyTransitionCurveType;
 @property(readonly, nonatomic) struct CGSize viewportSize;
 @end
 

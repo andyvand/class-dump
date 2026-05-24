@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSData, NSString;
 
 @protocol RFReferenceAttributionCardSection
+- (void);
+- (NSString *)_didChangeBounds;
+- (NSArray *)#;
+- (NSData *);
 
 // Remaining properties
-@property(nonatomic) _Bool add_tint;
-@property(nonatomic) int attribution_type;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int expansion_type;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *sources;
-@property(copy, nonatomic) NSString *text_1;
-@property(copy, nonatomic) NSString *text_2;
-@property(copy, nonatomic) NSArray *thumbnails;
 @end
 

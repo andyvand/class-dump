@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBTimer;
+@class _INPBIntentMetadata;
 
 @interface _INPBPauseTimerIntent
 {
     struct {
         unsigned int pauseMultiple:1;
     } _has;
-    _Bool _pauseMultiple;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBTimer *_targetTimer;
 }
 
 + (_Bool);
@@ -26,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,22 +32,10 @@
 - (id);
 - (void);
 - (_Bool)SDictionary",R,N,V_parameterResolutionResults;
-- (void)ider;
+- (void)Slider;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPauseMultiple;
-@property(readonly, nonatomic) _Bool hasTargetTimer;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) _Bool pauseMultiple; // @synthesize pauseMultiple=_pauseMultiple;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTimer *targetTimer; // @synthesize targetTimer=_targetTimer;
 
 @end
 

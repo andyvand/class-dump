@@ -11,10 +11,10 @@
 }
 
 + (_Bool);
-- (void);
+- (void), description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
 - (id);
 - (id);
-- (id);
+- (id)setVideoTaskToCacheStoragePolicy: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface SkyLight.PresetInfoShim
 {
     id uuid;
-    id name;
-    id description;
-    id origin;
-    id timestampSince1970;
 }
 
 @end

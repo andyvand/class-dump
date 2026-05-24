@@ -4,56 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRShaderArguments, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MRContextState
 {
     float modelViewMatrix[16];
-    float textureMatrix[4][16];
-    float normal[3];
-    unsigned int vbo;
-    const float *vertexPointer;
-    const float *colorsPointer;
-    const float *normalsPointer;
-    float *textureCoordinatesPointer[4];
-    const float *inSpriteCoordinatesPointer;
-    int vertexStride;
-    unsigned short vertexFlags;
-    _Bool vertexArrayIsEnabled;
-    _Bool foreColorArrayIsEnabled;
-    _Bool normalArrayIsEnabled;
-    _Bool textureCoordinatesArrayIsEnabled[4];
-    _Bool inSpriteCoordinatesArrayIsEnabled;
-    float foreColor[4];
-    float backColor[4];
-    unsigned int textureTargetOnUnit[4];
-    unsigned int textureNameOnUnit[4];
-    double textureTimestampOnUnit[4];
-    _Bool blendingIsEnabled;
-    int blendingType;
-    _Bool cullingIsEnabled;
-    _Bool cullFrontfacing;
-    _Bool depthTestIsEnabled;
-    NSString *_shaderID;
-    MRShaderArguments *_shaderArguments;
-    NSMutableDictionary *_vertexAttributes;
-    NSMutableDictionary *_temporaryUniforms;
 }
 
+- (id)alyticsEnvelopeStore";
+- (id)fetchAppConfigurationIfNeededWithCompletionQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)_envelopeStore;
+- (void)_envelopeContentType;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)w: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain) MRShaderArguments *shaderArguments; // @synthesize shaderArguments=_shaderArguments;
 @property(copy) NSString *shaderID; // @synthesize shaderID=_shaderID;
-@property(readonly) NSMutableDictionary *temporaryUniforms; // @synthesize temporaryUniforms=_temporaryUniforms;
-@property(readonly) NSMutableDictionary *vertexAttributes; // @synthesize vertexAttributes=_vertexAttributes;
 
 @end
 

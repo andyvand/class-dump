@@ -16,9 +16,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)rejectContact:(_Bool)arg1 confirmRejectUI:completion: /* Error: Ran out of types for this method. */;
+- (id)y) > 1);
+- (id)*, NSString *__strong, BOOL);
 - (void);
 - (void)§L­j°/²´µ\¶¸(8_6	5ç32M0)-á&á¦)­M°²ç³	µ_¶(¸/8c65Ò3ç1.0-°&°¦­.°ç±Ò³µc¶/¸58e65Â3Ï10ß,&¦ß¬°Ï±Â³µe¶5¸98g6;
 

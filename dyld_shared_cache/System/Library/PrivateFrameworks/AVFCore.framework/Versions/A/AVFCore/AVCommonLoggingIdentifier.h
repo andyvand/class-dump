@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCommonLoggingIdentifier
 {
     NSString *_identifierName;
-    unsigned int _derivedIdentifierCounter;
 }
 
 - (id);
@@ -20,14 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

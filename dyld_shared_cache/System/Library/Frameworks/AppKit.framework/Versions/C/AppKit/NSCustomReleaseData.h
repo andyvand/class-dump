@@ -8,14 +8,12 @@ __attribute__((visibility("hidden")))
 @interface NSCustomReleaseData
 {
     void *_bytes;
-    unsigned long long _length;
-    CDUnknownBlockType _releaseBytesBlock;
 }
 
-- (id);
-- (void);
-- (unsigned long long);
-- (const void *);
+- (id)e:(void *)arg1 error:(unsigned long long)arg2 sender:(CDUnknownBlockType)arg3;
+- (void).;
+- (unsigned long long)8GPG;
+- (const void *)blic.html;
 - (void);
 - (void *)emoteButtonHostInterface(void);
 

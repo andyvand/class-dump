@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.REMAnalyticsManager
 {
     id isTesting;
-    id postedMockRecords;
 }
 
 @end

@@ -19,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)requestsBLE;
 - (void)entApplication. (%@ %@ initialized via initWithCoder:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties

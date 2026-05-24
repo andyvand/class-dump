@@ -9,18 +9,16 @@
 @interface CSOpportuneSpeakListenerOption
 {
     NSString *_deviceId;
-    unsigned long long _opportuneSpeakListeningType;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void)deDouble:forKey: /* Error: Ran out of types for this method. */;
+- (void)encodeDouble:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(nonatomic) unsigned long long opportuneSpeakListeningType; // @synthesize opportuneSpeakListeningType=_opportuneSpeakListeningType;
 
 @end
 

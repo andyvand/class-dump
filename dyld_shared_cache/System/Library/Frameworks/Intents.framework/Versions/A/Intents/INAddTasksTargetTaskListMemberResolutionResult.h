@@ -13,7 +13,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)setPhysicalFileExtensionToken:(id)arg1;
 
 @end
 

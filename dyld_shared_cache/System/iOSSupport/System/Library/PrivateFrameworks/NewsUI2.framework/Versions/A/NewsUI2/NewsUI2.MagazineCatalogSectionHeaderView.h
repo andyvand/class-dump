@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineCatalogSectionHeaderView
 {
     id showingPrefixLabel;
-    id selectCategoryButton;
-    id onSelectCategoryButtonTap;
-    id sortByButton;
 }
 
 - (id);

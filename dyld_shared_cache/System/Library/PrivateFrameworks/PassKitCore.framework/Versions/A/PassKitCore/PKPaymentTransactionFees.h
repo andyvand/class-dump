@@ -12,15 +12,15 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool)0@ù
 × ;
 - (void);
 - (id);
-- (id);
+- (id)THC;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -31,10 +31,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void)ngsHasDismissedAppleCardBankVerificationMessageKey;
+- (unsigned long long);
+- (_Bool)b1"linkType"b1"messageSize"b1"priority"b1"rTT"b1"timestamp"b1};
+- (void)FiNWActivityBtCoex",&,N,V_btCoex;
+- (void)PKSavingsHasDismissedAppleCardBankVerificationMessageKey;
 - (unsigned long long);
 
 // Remaining properties

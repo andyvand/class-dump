@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAssetGeneration, ICCloudSyncingObject, ICDistributedLock, NSArray, NSString, NSURL;
+@class ICAssetGeneration;
 
 @interface ICAssetGenerationManager
 {
     _Bool _advancing;
-    ICCloudSyncingObject *_object;
-    NSString *_generationKeyPath;
-    NSURL *_containerURL;
-    NSArray *_fallbackURLs;
-    double _generationTimeout;
-    ICAssetGeneration *_currentGeneration;
-    ICAssetGeneration *_nextGeneration;
-    ICDistributedLock *_nextGenerationLock;
 }
 
+- (void)2@0:8@16@24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
+- (id)@16@24B32;
+- (id)8@16@24;
+- (void):(id)arg1 Failed to create PKProduct from %@ - %@;
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (double);
+- (double)ig Sur Graphic Day;
 - (id);
 - (id);
 - (_Bool);
@@ -48,16 +40,7 @@
 - (void) ;
 
 // Remaining properties
-@property(nonatomic, getter=isAdvancing) _Bool advancing; // @synthesize advancing=_advancing;
-@property(readonly, copy, nonatomic) NSURL *containerURL; // @synthesize containerURL=_containerURL;
 @property(copy, nonatomic) ICAssetGeneration *currentGeneration; // @synthesize currentGeneration=_currentGeneration;
-@property(copy, nonatomic) NSArray *fallbackURLs; // @synthesize fallbackURLs=_fallbackURLs;
-@property(readonly, copy, nonatomic) NSString *generationKeyPath; // @synthesize generationKeyPath=_generationKeyPath;
-@property(nonatomic) double generationTimeout; // @synthesize generationTimeout=_generationTimeout;
-@property(readonly, copy, nonatomic) NSURL *generationURL;
-@property(copy, nonatomic) ICAssetGeneration *nextGeneration; // @synthesize nextGeneration=_nextGeneration;
-@property(retain, nonatomic) ICDistributedLock *nextGenerationLock; // @synthesize nextGenerationLock=_nextGenerationLock;
-@property(readonly, nonatomic) __weak ICCloudSyncingObject *object; // @synthesize object=_object;
 
 @end
 

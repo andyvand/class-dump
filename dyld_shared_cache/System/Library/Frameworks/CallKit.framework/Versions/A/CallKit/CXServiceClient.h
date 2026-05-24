@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, NSString, NSURL;
-@protocol BSServiceConnectionHost, CXServiceClientDelegate;
-
 @interface CXServiceClient
 {
     _Bool _permittedToUsePrivateAPI;
-    id <CXServiceClientDelegate> _delegate;
-    NSString *_identifier;
-    NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    NSString *_localizedName;
-    long long _backgroundModeOptions;
-    BSServiceConnection<BSServiceConnectionHost> *_connection;
 }
 
 - (_Bool);
-- (long long);
+- (long long)T;
 - (id);
 - (id);
 - (id);
 - (CDStruct_6ad76789);
-- (void);
+- (void)i;
 - (id);
 - (id);
 - (void);
@@ -36,23 +26,11 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)STPresetsAgeSelectedCoreAnalyticsEvent;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_6ad76789 auditToken;
 @property(readonly, nonatomic) long long backgroundModeOptions; // @synthesize backgroundModeOptions=_backgroundModeOptions;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic) BSServiceConnection<BSServiceConnectionHost> *connection; // @synthesize connection=_connection;
-@property(nonatomic) __weak id <CXServiceClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic, getter=isPermittedToUseBluetoothAccessories) _Bool permittedToUseBluetoothAccessories;
-@property(readonly, nonatomic, getter=isPermittedToUsePrivateAPI) _Bool permittedToUsePrivateAPI; // @synthesize permittedToUsePrivateAPI=_permittedToUsePrivateAPI;
-@property(readonly, nonatomic, getter=isPermittedToUsePublicAPI) _Bool permittedToUsePublicAPI;
-@property(readonly, nonatomic) int processIdentifier;
 
 @end
 

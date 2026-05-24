@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKBankAccountInformation, PKCurrencyAmount;
+@class PKBankAccountInformation;
 
 @interface PKAccountServicePaymentMethod
 {
     _Bool _deviceSupportsPeerPaymentAccountPayment;
-    PKBankAccountInformation *_bankAccountInformation;
-    PKCurrencyAmount *_peerPaymentBalance;
-    unsigned long long _selectedMethods;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)&;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) PKBankAccountInformation *bankAccountInformation; // @synthesize bankAccountInformation=_bankAccountInformation;
-@property(nonatomic) _Bool deviceSupportsPeerPaymentAccountPayment; // @synthesize deviceSupportsPeerPaymentAccountPayment=_deviceSupportsPeerPaymentAccountPayment;
-@property(copy, nonatomic) PKCurrencyAmount *peerPaymentBalance; // @synthesize peerPaymentBalance=_peerPaymentBalance;
-@property(nonatomic) unsigned long long selectedMethods; // @synthesize selectedMethods=_selectedMethods;
 
 @end
 

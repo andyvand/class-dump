@@ -9,7 +9,6 @@
 @interface NUVideoFrameSourceNode : NUSourceNode
 {
     long long _orientation;
-    CDStruct_996ac03c _originalExtent;
 }
 
 - (long long);
@@ -21,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (CDStruct_1b6d18a9);
+- (id):(id)arg1;
+- (CDStruct_1b6d18a9)isInternal;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_996ac03c originalExtent; // @synthesize originalExtent=_originalExtent;

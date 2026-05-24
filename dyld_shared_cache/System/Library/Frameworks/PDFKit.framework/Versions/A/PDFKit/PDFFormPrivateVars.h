@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PDFDocument;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFFormPrivateVars
 {
     PDFDocument *document;
-    NSMutableArray *fieldArray;
-    struct CGPDFString *appearString;
-    struct pdf_unfair_mutex formLock;
 }
 
 - (id);

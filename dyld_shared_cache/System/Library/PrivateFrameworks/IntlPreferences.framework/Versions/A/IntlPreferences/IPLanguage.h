@@ -9,30 +9,25 @@
 @interface IPLanguage
 {
     NSString *_identifier;
-    NSString *_name;
-    NSString *_localizedStringForName;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (id);
-- (id);
++ (id)appendString:(id)arg1;
++ (id)appendPixelBuffer:(id)arg1 withPresentationTime: /* Error: Ran out of types for this method. */;
++ (id)_toruspipeRadius;
+- (void)contentsOfDirectoryAtPath:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)checkBounds: /* Error: Ran out of types for this method. */;
+- (id)captureOutput:didOutputSampleBuffer:fromConnection: /* Error: Ran out of types for this method. */;
+- (id)d	;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)completePendingWriteSynchronously;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *localizedStringForName; // @synthesize localizedStringForName=_localizedStringForName;
-@property(readonly, nonatomic) IPLanguage *minimizedLanguage;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

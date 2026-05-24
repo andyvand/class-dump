@@ -4,7 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNFuture, NSArray, NSString, UIImage;
+
 @protocol CNUIUserActionListDataSource
++ (NSArray *);
+- (_Bool);
+- (CNFuture *);
+- (void)j@9
+
+h;
+- (NSString *),;
+- (UIImage *);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool tracksChanges;

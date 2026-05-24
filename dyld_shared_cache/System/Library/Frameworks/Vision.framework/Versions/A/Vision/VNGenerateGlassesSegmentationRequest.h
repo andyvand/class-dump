@@ -12,14 +12,14 @@
 
 + (id);
 + (Class);
-+ (const CDStruct_3a02d5a8 *);
++ (const CDStruct_3a02d5a8 *);
 + (id);
 - (id);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)CNImageDerivedColorFetchColors;
+- (void)stringValue;
 - (long long)~¦T¤¿ÿ;
 - (_Bool)V;
 - (id)ÿ1ê§Tp%¯ÿ1ê§T ¯ÿ;

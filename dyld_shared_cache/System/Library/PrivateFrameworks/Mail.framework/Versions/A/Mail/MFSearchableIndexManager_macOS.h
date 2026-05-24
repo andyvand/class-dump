@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDSearchableIndex, EDSearchableIndexPersistence, EDSearchableIndexScheduler;
+@class EDSearchableIndex;
 
 @interface MFSearchableIndexManager_macOS
 {
     struct os_unfair_lock_s _indexLock;
-    EDSearchableIndex *_index;
-    EDSearchableIndexPersistence *_persistence;
-    EDSearchableIndexScheduler *_scheduler;
 }
 
 + (_Bool);
 + (id);
 + (id);
++ (void);
 + (void);
-+ (void);
-- (id);
+- (id)R	;
 - (void);
 - (id);
 - (void);
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EDSearchableIndex *index; // @synthesize index=_index;
-@property(retain, nonatomic) EDSearchableIndexPersistence *persistence; // @synthesize persistence=_persistence;
-@property(retain, nonatomic) EDSearchableIndexScheduler *scheduler; // @synthesize scheduler=_scheduler;
 
 @end
 

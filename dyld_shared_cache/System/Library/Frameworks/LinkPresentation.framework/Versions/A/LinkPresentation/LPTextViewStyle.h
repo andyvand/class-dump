@@ -4,38 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAppearanceDependentValue, LPGlyphStyle, LPPadding, LPPointUnit, NSColor, NSFont, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface LPTextViewStyle
 {
     float _hyphenationFactor;
-    unsigned int _maximumLines;
-    unsigned int _maximumLinesWithMedia;
-    unsigned int _maximumCharacters;
-    NSColor *_color;
-    NSFont *_font;
-    NSFont *_fallbackFontForTruncatedSingleLine;
-    NSString *_compositingFilter;
-    long long _textAlignment;
-    LPPointUnit *_firstLineLeading;
-    LPPointUnit *_lastLineDescent;
-    LPGlyphStyle *_leadingGlyph;
-    LPGlyphStyle *_trailingGlyph;
-    LPPadding *_padding;
-    LPPointUnit *_paragraphSpacing;
-    LPAppearanceDependentValue *_shadow;
-    long long _maximumLineCountScalingBehavior;
-    double _fontScalingFactor;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -43,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (id);
-- (id);
+- (id)#;
+- (id)$;
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)j;
 - (void);
 - (long long);
 - (id);
@@ -61,9 +44,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)taskIdentifier;
+- (void)dW;
+- (void);
 - (id);
 - (long long)ý;
 - (float)P;
@@ -72,23 +55,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSString *compositingFilter; // @synthesize compositingFilter=_compositingFilter;
-@property(retain, nonatomic) NSFont *fallbackFontForTruncatedSingleLine; // @synthesize fallbackFontForTruncatedSingleLine=_fallbackFontForTruncatedSingleLine;
-@property(retain, nonatomic) LPPointUnit *firstLineLeading; // @synthesize firstLineLeading=_firstLineLeading;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(nonatomic) double fontScalingFactor; // @synthesize fontScalingFactor=_fontScalingFactor;
-@property(nonatomic) float hyphenationFactor; // @synthesize hyphenationFactor=_hyphenationFactor;
-@property(retain, nonatomic) LPPointUnit *lastLineDescent; // @synthesize lastLineDescent=_lastLineDescent;
-@property(retain, nonatomic) LPGlyphStyle *leadingGlyph; // @synthesize leadingGlyph=_leadingGlyph;
-@property(nonatomic) unsigned int maximumCharacters; // @synthesize maximumCharacters=_maximumCharacters;
-@property(nonatomic) long long maximumLineCountScalingBehavior; // @synthesize maximumLineCountScalingBehavior=_maximumLineCountScalingBehavior;
-@property(nonatomic) unsigned int maximumLines; // @synthesize maximumLines=_maximumLines;
-@property(nonatomic) unsigned int maximumLinesWithMedia; // @synthesize maximumLinesWithMedia=_maximumLinesWithMedia;
-@property(readonly, retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) LPPointUnit *paragraphSpacing; // @synthesize paragraphSpacing=_paragraphSpacing;
-@property(retain, nonatomic) LPAppearanceDependentValue *shadow; // @synthesize shadow=_shadow;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(retain, nonatomic) LPGlyphStyle *trailingGlyph; // @synthesize trailingGlyph=_trailingGlyph;
 
 @end
 

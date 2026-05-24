@@ -6,35 +6,32 @@
 
 #import <MediaMiningKit/CLSSocialService.h>
 
-@class CLSCalendarEventsCache, CNContact, CNContactStore, NSMutableSet;
+@class CNContactStore;
 
 @interface CLSSocialServiceCalendar : CLSSocialService
 {
     CNContactStore *_contactStore;
-    CNContact *_meContact;
-    CLSCalendarEventsCache *_calendarEventsCache;
-    NSMutableSet *_prefetchedDateIntervals;
 }
 
 + (_Bool);
-+ (id);
++ (id)B;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)K;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (void)ralBitmap(elementId) from ;
 - (void);
-- (void);
+- (id)t contain all required items;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)D;
 - (void);
 
 @end

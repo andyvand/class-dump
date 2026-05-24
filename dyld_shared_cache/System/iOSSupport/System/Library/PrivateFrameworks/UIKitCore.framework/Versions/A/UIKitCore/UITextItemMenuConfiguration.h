@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu, UITextItemMenuPreview;
-
 @interface UITextItemMenuConfiguration
 {
     long long __preferredExpression;
-    unsigned long long __preferredElementDisplayMode;
-    UIMenu *_menu;
-    UITextItemMenuPreview *_preview;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
+- (void)chat:(long long)arg1 updateIsFiltered: /* Error: Ran out of types for this method. */;
+- (void)chat:(unsigned long long)arg1 updateIsDeletingIncomingMessages: /* Error: Ran out of types for this method. */;
 - (long long);
 - (unsigned long long);
 - (id);
@@ -26,10 +21,7 @@
 - (id)ÿV0×¨9d;
 
 // Remaining properties
-@property(nonatomic) unsigned long long _preferredElementDisplayMode; // @synthesize _preferredElementDisplayMode=__preferredElementDisplayMode;
 @property(nonatomic) long long _preferredExpression; // @synthesize _preferredExpression=__preferredExpression;
-@property(readonly, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(readonly, nonatomic) UITextItemMenuPreview *preview; // @synthesize preview=_preview;
 
 @end
 

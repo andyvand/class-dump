@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DDMLResult
 {
     int _classification;
-    NSString *_matchedString;
-    double _confidence;
-    struct _NSRange _range;
 }
 
 + (_Bool);
@@ -22,19 +17,16 @@ __attribute__((visibility("hidden")))
 - (struct __DDResult *);
 - (id);
 - (int);
-- (struct _NSRange);
+- (struct _NSRange);
 - (_Bool);
-- (void);
+- (void)@;
 - (double);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)encodeUserInfo:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int classification; // @synthesize classification=_classification;
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(copy, nonatomic) NSString *matchedString; // @synthesize matchedString=_matchedString;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end

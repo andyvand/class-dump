@@ -6,29 +6,18 @@
 
 #import <UIFoundation/NSTypesetter.h>
 
-@class NSArray, NSAttributedString, NSLayoutManager, NSParagraphStyle, NSTextContainer;
+@class NSAttributedString;
 
 @interface NSATSTypesetter : NSTypesetter
 {
     NSAttributedString *attributedString;
-    struct _NSRange paragraphGlyphRange;
-    struct _NSRange paragraphSeparatorGlyphRange;
-    double lineFragmentPadding;
-    NSLayoutManager *layoutManager;
-    NSArray *textContainers;
-    NSTextContainer *currentTextContainer;
-    unsigned long long currentTextContainerIndex;
-    struct CGSize currentTextContainerSize;
-    NSParagraphStyle *currentParagraphStyle;
-    void *_atsReserved[8];
-    id _private;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
-+ (void)ntString:completion: /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
++ (id);
++ (void)addSuggestionWithUUID:originalRange:replacementString:completion: /* Error: Ran out of types for this method. */;
+- (void)r;
 - (void);
 - (_Bool);
 - (double);
@@ -39,18 +28,18 @@
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)l#;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)fileHandleForReading;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)oint == hs->config->alps_use_new_codepoint;
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -58,10 +47,10 @@
 - (_Bool);
 - (float);
 - (long long)sion"I"objects"{UINibArchiveTableInfo="count"I"offset"I}"keys"{UINibArchiveTableInfo="count"I"offset"I}"values"{UINibArchiveTableInfo="count"I"offset"I}"classes"{UINibArchiveTableInfo="count"I"offset"I}};
-- (double)eTypeForParameter:(id)arg1;
-- (unsigned long long)esetter;
+- (double)_valueTypeForParameter:(id)arg1;
+- (unsigned long long)NSSingleLineTypesetter;
 - (_Bool)XúÜûÄý,þ;
-- (CDStruct_3fda14a5 *)T;
+- (CDStruct_c3bcf0a7 *)T;
 - (void)¸v;
 - (unsigned long long);
 - (void)vml" xmlns:(_Bool)arg1 w10="urn:schemas-microsoft-com:office:word" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve"> /* Error: Ran out of types for this method. */;
@@ -70,8 +59,8 @@
 - (struct _NSRange)g-compatible:(struct _NSRange)arg1 1.0" xmlns:(id)arg2 chart="urn:(unsigned long long)arg3 oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" office:version="1.0"><office:font-face-decls> /* Error: Ran out of types for this method. */;
 - (void)3;
 - (void)ring "%@";
-- (void)h;
-- (CDUnion_09a75e3c *);
+- (void)ftech;
+- (CDUnion_4707a439 *);
 - (unsigned long long)¤õÿ;
 
 @end

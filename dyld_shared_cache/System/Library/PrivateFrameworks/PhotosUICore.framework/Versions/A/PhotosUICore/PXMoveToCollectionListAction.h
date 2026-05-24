@@ -6,20 +6,15 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHCollectionList, PHFetchResult;
-@protocol PXFastEnumeration;
+@class PHCollectionList;
 
 @interface PXMoveToCollectionListAction : PXPhotosAction
 {
     PHCollectionList *_sourceCollectionList;
-    PHFetchResult *_beforeFetchResult;
-    PHFetchResult *_afterFetchResult;
-    PHCollectionList *_targetCollectionList;
-    id <PXFastEnumeration> _movedCollections;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -30,7 +25,6 @@
 - (void)¶0Bÿ¶0Bÿ¶0Bÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXFastEnumeration> movedCollections; // @synthesize movedCollections=_movedCollections;
 @property(readonly, nonatomic) PHCollectionList *targetCollectionList; // @synthesize targetCollectionList=_targetCollectionList;
 
 @end

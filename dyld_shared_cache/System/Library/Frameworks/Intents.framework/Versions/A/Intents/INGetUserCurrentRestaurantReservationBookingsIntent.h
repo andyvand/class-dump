@@ -6,26 +6,23 @@
 
 #import <Intents/INIntent.h>
 
-@class INRestaurant, NSDate, NSNumber, NSString;
+@class INRestaurant;
 
 @interface INGetUserCurrentRestaurantReservationBookingsIntent : INIntent
 {
     INRestaurant *_restaurant;
-    NSString *_reservationIdentifier;
-    NSNumber *_maximumNumberOfResults;
-    NSDate *_earliestBookingDateForResults;
 }
 
-+ (_Bool);
++ (_Bool)(;
 + (id)yPath:] /* Error: Ran out of types for this method. */;
 - (id);
+- (id)setInterface:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)o;
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_authorizationExternalFormData;
+- (void)didJoinDeferredNetworks;
 - (id);
 - (id);
 - (void);
@@ -35,17 +32,7 @@
 - (void)hCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDate *earliestBookingDateForResults; // @synthesize earliestBookingDateForResults=_earliestBookingDateForResults;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *maximumNumberOfResults; // @synthesize maximumNumberOfResults=_maximumNumberOfResults;
-@property(copy) NSString *reservationIdentifier; // @synthesize reservationIdentifier=_reservationIdentifier;
 @property(copy) INRestaurant *restaurant; // @synthesize restaurant=_restaurant;
-@property(readonly) Class superclass;
 
 @end
 

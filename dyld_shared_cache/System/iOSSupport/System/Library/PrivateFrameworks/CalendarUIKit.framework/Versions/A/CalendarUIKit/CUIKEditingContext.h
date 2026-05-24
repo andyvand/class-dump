@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKEditingContextGroup, CUIKEditingManager, EKEventStore, NSArray, NSError, NSSet, NSString;
-@protocol CUIKActionDelegate, CUIKCommitDelegate, CUIKDecisionDelegate, CUIKEditingContextObserver, CUIKUndoDelegate;
+@class NSArray;
 
 @interface CUIKEditingContext
 {
     NSArray *_objectsBeingEdited;
-    EKEventStore *_eventStore;
-    _Bool _isActive;
-    _Bool _isOpen;
-    CUIKEditingContextGroup *_group;
-    CUIKEditingManager *_editingManager;
-    unsigned long long _interfaceType;
-    id <CUIKDecisionDelegate> _decisionDelegate;
-    id <CUIKActionDelegate> _actionDelegate;
-    id <CUIKUndoDelegate> _undoDelegate;
-    id <CUIKCommitDelegate> _commitDelegate;
-    id <CUIKEditingContextObserver> _observer;
-    NSError *_error;
-    NSSet *_originalIdentifiersForObjectsBeingEdited;
-    NSSet *_originalEventOccurrenceIDsForObjectsBeingEdited;
-    NSArray *_pendingObserverUpdates;
-    NSArray *_pendingGroupUpdates;
 }
 
 + (long long);
@@ -61,7 +44,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -97,7 +80,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)4;
 - (unsigned long long);
 - (void);
 - (void);
@@ -108,48 +91,26 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)_scribbleInteraction:endSuppressingPlaceholderForElement: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)ardItemProvider:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)nName;
+- (void)iconName;
 - (void);
 - (void)C;
 - (void)d attachmentâ¦;
 - (unsigned long long)our invitees. However, some invitees may not be available in the new account.;
-- (id)darModelDidUnlockNotification;
+- (id)CalendarModelDidUnlockNotification;
 - (void)y of Chinese Month;
 - (_Bool)ÈâÔ;
 
 // Remaining properties
-@property __weak id <CUIKActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property __weak id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CUIKDecisionDelegate> decisionDelegate; // @synthesize decisionDelegate=_decisionDelegate;
-@property(readonly, copy) NSString *description;
-@property __weak CUIKEditingManager *editingManager; // @synthesize editingManager=_editingManager;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property __weak CUIKEditingContextGroup *group; // @synthesize group=_group;
-@property(readonly) unsigned long long hash;
 @property unsigned long long interfaceType; // @synthesize interfaceType=_interfaceType;
-@property _Bool isActive; // @synthesize isActive=_isActive;
-@property _Bool isOpen; // @synthesize isOpen=_isOpen;
-@property(retain) NSArray *objectsBeingEdited;
-@property __weak id <CUIKEditingContextObserver> observer; // @synthesize observer=_observer;
-@property(retain) NSSet *originalEventOccurrenceIDsForObjectsBeingEdited; // @synthesize originalEventOccurrenceIDsForObjectsBeingEdited=_originalEventOccurrenceIDsForObjectsBeingEdited;
-@property(retain) NSSet *originalIdentifiersForObjectsBeingEdited; // @synthesize originalIdentifiersForObjectsBeingEdited=_originalIdentifiersForObjectsBeingEdited;
-@property(retain) NSArray *pendingGroupUpdates; // @synthesize pendingGroupUpdates=_pendingGroupUpdates;
-@property(retain) NSArray *pendingObserverUpdates; // @synthesize pendingObserverUpdates=_pendingObserverUpdates;
-@property(readonly) Class superclass;
-@property __weak id <CUIKUndoDelegate> undoDelegate; // @synthesize undoDelegate=_undoDelegate;
 
 @end
 

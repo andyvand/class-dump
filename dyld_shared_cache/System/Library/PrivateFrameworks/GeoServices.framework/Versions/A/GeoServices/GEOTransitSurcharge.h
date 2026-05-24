@@ -9,25 +9,18 @@
 @interface GEOTransitSurcharge
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_surchargeUnits;
-    unsigned int _numberOfLegs;
-    int _paymentType;
-    struct {
-        unsigned int has_numberOfLegs:1;
-        unsigned int has_paymentType:1;
-    } _flags;
 }
 
 + (Class);
 + (_Bool)intRoute:(id)arg1;
 - (unsigned long long);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)_cn_containsSubstring: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -36,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)notifyBuiltInVoiceTrigger:(id)arg1 myriadPHash:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -48,19 +41,14 @@
 × ;
 - (id)1"has_tagSource"b1"read_droppedTokens"b1"read_labelings"b1"read_taggerModelId"b1"wrote_anyField"b1};
 - (int)1"read_countdownData"b1"read_genericCombinations"b1"read_maneuverData"b1"read_measurementData"b1"read_numberData"b1"read_price"b1"read_stringSubstituteData"b1"read_timestampDatas"b1"read_token"b1"read_urlData"b1"read_valString"b1"wrote_anyField"b1};
-- (id)ordinate:radius:categories:dateInterval: /* Error: Ran out of types for this method. */;
-- (id)Status;
+- (id)initWithCoordinate:radius:categories:dateInterval: /* Error: Ran out of types for this method. */;
+- (id)_responseStatus;
 - (id):(id)arg1 %@ k:%@> /* Error: Ran out of types for this method. */;
-- (_Bool)ist;
+- (_Bool)section_list;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumberOfLegs;
-@property(nonatomic) _Bool hasPaymentType;
-@property(nonatomic) unsigned int numberOfLegs;
-@property(nonatomic) int paymentType;
 @property(retain, nonatomic) NSMutableArray *surchargeUnits;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

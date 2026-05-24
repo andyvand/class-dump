@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface __NSWritingToolsTransactionQueue
 {
     NSWritingToolsCoordinator *_coordinator;
-    NSMutableArray *_transactions;
 }
 
 + (id)À|8\¹Â;
-- (void);
-- (id)on: /* Error: Ran out of types for this method. */;
+- (void)PanoramaCameraCapability;
+- (id)endVisualizationWithOutcome:thenContinueAfterAnimation: /* Error: Ran out of types for this method. */;
 - (void)arCodes from EventRef (%d);
 
 // Remaining properties

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol ReceiptInstallerProtocol
+- (oneway void)g6.;
+- (oneway void);
+- (oneway void)7.;
+- (oneway void):(NSString *)arg1 .;
+- (oneway void).;
+- (oneway void)A>.;
 @end
 

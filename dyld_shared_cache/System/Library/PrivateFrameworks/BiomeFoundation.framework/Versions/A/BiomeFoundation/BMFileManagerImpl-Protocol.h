@@ -5,5 +5,6 @@
 //
 
 @protocol BMFileManagerImpl
+- (_Bool);
 @end
 

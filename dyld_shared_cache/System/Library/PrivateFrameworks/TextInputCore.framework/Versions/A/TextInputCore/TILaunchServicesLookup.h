@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface TILaunchServicesLookup
 {
     NSArray *_cache;
-    NSDate *_lastCacheUpdate;
 }
 
 + (id);
-+ (void);
++ (void);
 + (id);
 + (void);
 + (id)¡Ð!ÜEù±iÐ1Â0@ù
 × ;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -36,14 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastCacheUpdate; // @synthesize lastCacheUpdate=_lastCacheUpdate;
-@property(readonly) Class superclass;
 
 @end
 

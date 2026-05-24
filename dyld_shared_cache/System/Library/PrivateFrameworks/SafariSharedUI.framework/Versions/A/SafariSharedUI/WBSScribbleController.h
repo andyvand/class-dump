@@ -4,39 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, NSTimer, WBSScribbleElement, WBSScribbleQuirks, WBSScribbleValidator, WBSUserDefinedContentBlocker, WKWebView;
 @protocol WBSScribbleControllerDelegate;
 
 @interface WBSScribbleController
 {
     _Bool _isGettingElementAtPoint;
-    NSTimer *_validatingTimer;
-    double _validatingDelay;
-    _Bool _isScribbling;
-    _Bool _isUpdatingShouldMakePageScrollableAndInteractable;
-    _Bool _shouldMakePageScrollableAndInteractable;
-    _Bool _startedScribblingWithHiddenItems;
-    unsigned long long _numberOfElementsHiddenByPaintingAvoidance;
-    unsigned long long _numberOfHiddenElementsInheritedFromNormalBrowsing;
-    WBSUserDefinedContentBlocker *_contentBlockerForCurrentHost;
-    NSMutableArray *_scribbleElementsFromCurrentSession;
-    NSMutableArray *_scribbleElementsForGlobalActionsFromCurrentSession;
-    NSMutableArray *_targetedElementsHiddenFromCurrentSession;
-    NSMutableArray *_targetedElementsHiddenByValidation;
-    NSMutableArray *_targetedElementsToHideUsingDisplayNone;
-    NSMutableDictionary *_activeGlobalActionsByDatabaseID;
-    WBSScribbleQuirks *_quirksForCurrentSession;
-    WBSScribbleValidator *_validator;
-    _Bool _elementSelectionEnabled;
-    id <WBSScribbleControllerDelegate> _delegate;
-    WKWebView *_webView;
-    WBSScribbleElement *_selectedScribbleElement;
-    struct CGPoint _lastRequestLocation;
 }
 
-- (void);
+- (void)#;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -52,17 +29,17 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)qA;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -77,7 +54,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -87,23 +64,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canHideContentInWebView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <WBSScribbleControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool elementSelectionEnabled; // @synthesize elementSelectionEnabled=_elementSelectionEnabled;
-@property(readonly, nonatomic) _Bool hasPendingSelectionRequest;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isScribbling; // @synthesize isScribbling=_isScribbling;
-@property(readonly, nonatomic) struct CGPoint lastRequestLocation; // @synthesize lastRequestLocation=_lastRequestLocation;
-@property(readonly, nonatomic) unsigned long long numberOfAllHiddenElements;
-@property(readonly, nonatomic) unsigned long long numberOfChangesFromCurrentSession;
-@property(readonly, nonatomic) WBSScribbleElement *selectedScribbleElement; // @synthesize selectedScribbleElement=_selectedScribbleElement;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak WKWebView *webView; // @synthesize webView=_webView;
 
 @end
 

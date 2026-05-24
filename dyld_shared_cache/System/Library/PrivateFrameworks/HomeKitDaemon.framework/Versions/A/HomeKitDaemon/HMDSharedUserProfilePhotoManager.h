@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreDataCloudTransform, NSString;
-@protocol HMDSharedUserProfilePhotoManagerDelegate;
+@class HMDCoreDataCloudTransform;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedUserProfilePhotoManager
 {
     HMDCoreDataCloudTransform *_cloudTransform;
-    id <HMDSharedUserProfilePhotoManagerDelegate> _delegate;
 }
 
 + (id)KB;
-- (id);
-- (void);
+- (id)MSPMapsInstallStateObserver;
+- (void)U9	};
 - (id);
 - (id);
 - (void)etch is not supported;
@@ -24,14 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDCoreDataCloudTransform *cloudTransform; // @synthesize cloudTransform=_cloudTransform;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDSharedUserProfilePhotoManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

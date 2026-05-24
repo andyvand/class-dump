@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXColumnLayout, SXUnitConverter;
+@class SXColumnLayout;
 
 @interface SXLayoutContext
 {
     SXColumnLayout *_columnLayout;
-    SXUnitConverter *_unitConverter;
 }
 
 - (id);
@@ -20,14 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SXColumnLayout *columnLayout; // @synthesize columnLayout=_columnLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SXUnitConverter *unitConverter; // @synthesize unitConverter=_unitConverter;
 
 @end
 

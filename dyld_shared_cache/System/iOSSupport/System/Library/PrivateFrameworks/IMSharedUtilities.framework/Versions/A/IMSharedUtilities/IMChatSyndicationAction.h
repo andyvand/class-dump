@@ -11,7 +11,7 @@
     _Bool _autoDonateMessages;
 }
 
-+ (_Bool);
++ (_Bool);
 - (unsigned char);
 - (_Bool);
 - (id);

@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDProactiveModelFittingEvalMetrics, AWDProactiveModelFittingMinibatchStats, AWDProactiveModelFittingModelInfo, AWDProactiveModelFittingQuantizedDenseVector, AWDProactiveModelFittingQuantizedSparseVector, AWDProactiveModelFittingSparseFloatVector;
-
 @interface AWDProactiveModelFittingLogRegGradient
 {
     unsigned long long _iteration;
-    unsigned long long _timestamp;
-    AWDProactiveModelFittingQuantizedDenseVector *_denseQuantizedGradient;
-    AWDProactiveModelFittingEvalMetrics *_evaluationMetrics;
-    float _gradientL2norm;
-    float _gradientScaleFactor;
-    AWDProactiveModelFittingMinibatchStats *_minibatchStats;
-    AWDProactiveModelFittingModelInfo *_modelInfo;
-    AWDProactiveModelFittingSparseFloatVector *_sparseFloatGradient;
-    AWDProactiveModelFittingQuantizedSparseVector *_sparseQuantizedGradient;
-    struct {
-        unsigned int iteration:1;
-        unsigned int timestamp:1;
-        unsigned int gradientL2norm:1;
-        unsigned int gradientScaleFactor:1;
-    } _has;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +22,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,47 +37,28 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)endpointCluster_CopySubEndpointProperty;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)standardUserDefaults;
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)E;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@?32;
 
 // Remaining properties
-@property(retain, nonatomic) AWDProactiveModelFittingQuantizedDenseVector *denseQuantizedGradient; // @synthesize denseQuantizedGradient=_denseQuantizedGradient;
-@property(retain, nonatomic) AWDProactiveModelFittingEvalMetrics *evaluationMetrics; // @synthesize evaluationMetrics=_evaluationMetrics;
-@property(nonatomic) float gradientL2norm; // @synthesize gradientL2norm=_gradientL2norm;
-@property(nonatomic) float gradientScaleFactor; // @synthesize gradientScaleFactor=_gradientScaleFactor;
-@property(readonly, nonatomic) _Bool hasDenseQuantizedGradient;
-@property(readonly, nonatomic) _Bool hasEvaluationMetrics;
-@property(nonatomic) _Bool hasGradientL2norm;
-@property(nonatomic) _Bool hasGradientScaleFactor;
-@property(nonatomic) _Bool hasIteration;
-@property(readonly, nonatomic) _Bool hasMinibatchStats;
-@property(readonly, nonatomic) _Bool hasModelInfo;
-@property(readonly, nonatomic) _Bool hasSparseFloatGradient;
-@property(readonly, nonatomic) _Bool hasSparseQuantizedGradient;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long iteration; // @synthesize iteration=_iteration;
-@property(retain, nonatomic) AWDProactiveModelFittingMinibatchStats *minibatchStats; // @synthesize minibatchStats=_minibatchStats;
-@property(retain, nonatomic) AWDProactiveModelFittingModelInfo *modelInfo; // @synthesize modelInfo=_modelInfo;
-@property(retain, nonatomic) AWDProactiveModelFittingSparseFloatVector *sparseFloatGradient; // @synthesize sparseFloatGradient=_sparseFloatGradient;
-@property(retain, nonatomic) AWDProactiveModelFittingQuantizedSparseVector *sparseQuantizedGradient; // @synthesize sparseQuantizedGradient=_sparseQuantizedGradient;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKKSExternalTLKShare
 {
     NSString *_view;
-    NSString *_tlkUUID;
-    NSData *_receiverPeerID;
-    NSData *_senderPeerID;
-    NSData *_wrappedTLK;
-    NSData *_signature;
 }
 
 + (id);
@@ -21,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -34,12 +29,7 @@
 - (void)Ì$;
 
 // Remaining properties
-@property(readonly) NSData *receiverPeerID; // @synthesize receiverPeerID=_receiverPeerID;
-@property(readonly) NSData *senderPeerID; // @synthesize senderPeerID=_senderPeerID;
-@property(readonly) NSData *signature; // @synthesize signature=_signature;
-@property(readonly) NSString *tlkUUID; // @synthesize tlkUUID=_tlkUUID;
 @property(readonly) NSString *view; // @synthesize view=_view;
-@property(readonly) NSData *wrappedTLK; // @synthesize wrappedTLK=_wrappedTLK;
 
 @end
 

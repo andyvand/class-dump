@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantGather
 {
     HMDHomeManager *_manager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSArray *_currentHomekitObjects;
 }
 
 + (id)ÿZ	ÊHC;
@@ -27,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id)	
@@ -38,22 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)Óùþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currentHomeAssistantIdentifier;
-@property(readonly, nonatomic) NSString *currentHomeName;
-@property(retain, nonatomic) NSArray *currentHomekitObjects; // @synthesize currentHomekitObjects=_currentHomekitObjects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long homeCount;
-@property(readonly, nonatomic) NSArray *homeKitObjects;
 @property(nonatomic) __weak HMDHomeManager *manager; // @synthesize manager=_manager;
-@property(readonly, nonatomic) NSString *primaryHomeAssistantIdentifier;
-@property(readonly, nonatomic) NSString *primaryHomeName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

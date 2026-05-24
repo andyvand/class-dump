@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDDepartureSequence, GEOPDDepartureSequenceContainer, GEOPDStopInfo, NSArray, NSSet, NSString, NSTimeZone;
-@protocol GEOTransitLine;
+@class GEOPDDepartureSequence, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitDepartureSequence
 {
     GEOPDDepartureSequence *_sequence;
-    id <GEOTransitLine> _line;
-    NSSet *_nextStopIDs;
-    long long _displayStyle;
-    GEOPDStopInfo *_stopInfo;
-    GEOPDDepartureSequenceContainer *_container;
 }
 
 - (unsigned long long);
@@ -32,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)�;
 - (_Bool);
 - (id);
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,43 +42,18 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)getContactsAccountsWithFetchOptions:(id)arg1 completionHandler:(CDUnknownBlockType)arg2;
 - (id);
-- (id);
+- (id)__swift5_reflstr__TEXT;
 - (id);
 - (id);
 - (id)N;
 - (long long)X;
 - (void)üÿÿÿ;
-- (id)d_ptr_default_deleteIS2_NS1_15V2AddressObjectEEE;
+- (id)NSt3__110shared_ptrIN8addr_obj13AddressObjectEE27__shared_ptr_default_deleteIS2_NS1_15V2AddressObjectEEE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *containerDisplayName;
-@property(readonly, nonatomic) NSArray *containerLabelItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long departureTimeDisplayStyle;
 @property(readonly, nonatomic) NSArray *departures;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *direction;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) long long displayStyle;
-@property(readonly, nonatomic) NSArray *frequencies;
-@property(readonly, nonatomic) _Bool hasWalkingETA;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *headsign;
-@property(readonly, nonatomic) _Bool isLowFrequency;
-@property(readonly, nonatomic) id <GEOTransitLine> line;
-@property(readonly, nonatomic) NSSet *nextStopIDs;
-@property(readonly, nonatomic) NSArray *operatingHours;
-@property(readonly, nonatomic) NSString *originName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
-@property(readonly, nonatomic) unsigned long long transitId;
-@property(readonly, nonatomic) NSString *uniqueId;
-@property(readonly, nonatomic) unsigned long long walkingETA;
 
 @end
 

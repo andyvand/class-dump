@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateController;
 @protocol IMKTextInput><NSObject;
 
 @interface IMKCandidateWindowPositioning
 {
     id <IMKTextInput><NSObject> _client;
-    IMKCandidateController *_candidateController;
-    _Bool _forceNoIncrementalSearchPositioning;
-    struct CGRect _frameOfCurrentlyVisibleScreen;
-    _Bool _isRTL;
-    _Bool _isUsingIncrementalSearch;
-    _Bool _isVerticallyAligned;
-    struct CGRect _screenVisibleFrame;
-    struct CGRect _textFrame;
-    _Bool _updatePositionOnEachKeyPress;
-    struct CGRect _windowFrame;
 }
 
 - (struct CGRect);
@@ -28,21 +17,21 @@
 - (struct CGRect);
 - (void);
 - (void);
+- (void)n;
 - (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect)�;
 - (void);
 - (void);
 - (id);
@@ -51,17 +40,7 @@
 - (id)Úr;
 
 // Remaining properties
-@property(nonatomic) IMKCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) id client; // @synthesize client=_client;
-@property(nonatomic) _Bool forceNoIncrementalSearchPositioning; // @synthesize forceNoIncrementalSearchPositioning=_forceNoIncrementalSearchPositioning;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(nonatomic) _Bool isUsingIncrementalSearch; // @synthesize isUsingIncrementalSearch=_isUsingIncrementalSearch;
-@property(nonatomic) _Bool isVerticallyAligned; // @synthesize isVerticallyAligned=_isVerticallyAligned;
 @property(nonatomic) struct CGRect screenVisibleFrame; // @synthesize screenVisibleFrame=_screenVisibleFrame;
-@property(nonatomic) struct CGRect textFrame; // @synthesize textFrame=_textFrame;
-@property(readonly, nonatomic) struct CGPoint topWindowPosition;
-@property(nonatomic) _Bool updatePositionOnEachKeyPress; // @synthesize updatePositionOnEachKeyPress=_updatePositionOnEachKeyPress;
-@property(nonatomic) struct CGRect windowFrame; // @synthesize windowFrame=_windowFrame;
 
 @end
 

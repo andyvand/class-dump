@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)nternal name:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
+- (void)};
+- (id);
 - (unsigned char);
 - (id);
-- (id);
+- (id)AMSSigningSecurityService;
 
 // Remaining properties
 @property(readonly) unsigned char isRequired; // @synthesize isRequired=_isRequired;

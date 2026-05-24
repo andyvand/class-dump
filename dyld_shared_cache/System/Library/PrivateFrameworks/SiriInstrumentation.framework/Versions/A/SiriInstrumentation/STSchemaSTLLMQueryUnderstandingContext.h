@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTLLMQURequestEnded, STSchemaSTLLMQURequestFailed, STSchemaSTLLMQURequestStarted;
+@class STSchemaSTLLMQURequestStarted;
 
 @interface STSchemaSTLLMQueryUnderstandingContext : SISchemaInstrumentationMessage
 {
     STSchemaSTLLMQURequestStarted *_startedOrChanged;
-    STSchemaSTLLMQURequestEnded *_ended;
-    STSchemaSTLLMQURequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -32,30 +26,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)asign;
+- (unsigned long long)testFlightDownloadManifestRequestForStoreItemIdentifier:bundleIdentifier:error: /* Error: Ran out of types for this method. */;
+- (_Bool)areKitTransitionProvider>",&,V_transitionProvider;
+- (_Bool)ation failed adding column madrid_date_delivered.;
 - (id);
 - (id);
-- (id)a;
+- (id)deleteMentionResolverSpanData;
 - (id)_hasSearchSessionRecord;
-- (void)PriorToSoftwareUpdate;
+- (void)buildVersionPriorToSoftwareUpdate;
 
 // Remaining properties
-@property(retain, nonatomic) STSchemaSTLLMQURequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) STSchemaSTLLMQURequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) STSchemaSTLLMQURequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

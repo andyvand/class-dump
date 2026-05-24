@@ -5,5 +5,12 @@
 //
 
 @protocol RDServer
+- (void);
+- (void)J;
+- (void)t;
+- (void)(	;
+- (void)9;
+- (void);
+- (void)[;
 @end
 

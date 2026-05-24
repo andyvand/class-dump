@@ -7,17 +7,15 @@
 @interface WFSlotTemplateExclusionRect
 {
     unsigned long long _edge;
-    struct CGRect _rect;
 }
 
 - (struct CGRect);
 - (id);
-- (struct CGRect);
+- (struct CGRect)c}@;
 - (unsigned long long)!GùV°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long edge; // @synthesize edge=_edge;
 @property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
 
 @end

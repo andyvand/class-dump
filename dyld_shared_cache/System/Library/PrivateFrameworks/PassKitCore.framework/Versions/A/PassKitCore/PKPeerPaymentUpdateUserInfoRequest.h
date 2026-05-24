@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSArray, NSString, PKPeerPaymentUserInfo;
+@class NSArray, NSString;
 
 @interface PKPeerPaymentUpdateUserInfoRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSArray *_certificates;
-    PKPeerPaymentUserInfo *_userInfo;
 }
 
 - (id);
@@ -21,11 +19,10 @@
 - (void);
 - (void);
 - (id)y Trust session for method:%s /* Error: Ran out of types for this method. */;
-- (void)Certificates;
+- (void)imageCaptureEncryptionCertificates;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(copy, nonatomic) PKPeerPaymentUserInfo *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

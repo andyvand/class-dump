@@ -7,21 +7,9 @@
 @interface PhotosUICore.GenerativeStoryIntelligenceEffectConfiguration__priv_BAC54E8127AF22E5412F9F53491142E0
 {
     id colors;
-    id backgroundColor;
-    id cellCount;
-    id lifetime;
-    id lifetimeVariation;
-    id relativeSize;
-    id sizeVariation;
-    id growthRate;
-    id viewOpacity;
-    id overlayOpacity;
-    id showBlur;
-    id idiom;
-    id colorScheme;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

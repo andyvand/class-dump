@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
-+ (_Bool);
++ (id)@"LUI2TintView",R,V_tintView;
++ (_Bool)suggestedRepliesList;
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 
 @end
 

@@ -9,10 +9,6 @@
 @interface WFPollenConditions
 {
     NSDate *_date;
-    unsigned long long _timeOfDay;
-    unsigned long long _grassIndex;
-    unsigned long long _ragweedIndex;
-    unsigned long long _treeIndex;
 }
 
 + (_Bool);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) unsigned long long grassIndex; // @synthesize grassIndex=_grassIndex;
-@property(nonatomic) unsigned long long ragweedIndex; // @synthesize ragweedIndex=_ragweedIndex;
-@property(nonatomic) unsigned long long timeOfDay; // @synthesize timeOfDay=_timeOfDay;
-@property(nonatomic) unsigned long long treeIndex; // @synthesize treeIndex=_treeIndex;
 
 @end
 

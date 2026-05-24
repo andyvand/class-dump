@@ -11,12 +11,10 @@ __attribute__((visibility("hidden")))
 @interface MRV2NowPlayingControllerOperationQueue
 {
     NSOperationQueue *_queue;
-    _Bool _invalidated;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (_Bool);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
 
 @end
 

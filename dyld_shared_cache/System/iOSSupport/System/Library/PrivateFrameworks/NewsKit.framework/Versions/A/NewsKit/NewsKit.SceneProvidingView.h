@@ -7,6 +7,7 @@
 @interface NewsKit.SceneProvidingView
 {
     id sceneProvider;
+    id;
 }
 
 - (id);

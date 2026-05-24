@@ -9,7 +9,6 @@
 @interface CKTouchIDSession
 {
     NSString *_message;
-    NSString *_appleID;
 }
 
 - (void);
@@ -20,16 +19,15 @@
 - (void);
 - (void);
 - (void);
+- (void)irtual %{public}@ video resource found on asset:(CDUnknownBlockType)arg1 %{public}@;
 - (void);
-- (void);
-- (id);
+- (id)Z;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *appleID; // @synthesize appleID=_appleID;
 @property(copy) NSString *message; // @synthesize message=_message;
 
 @end

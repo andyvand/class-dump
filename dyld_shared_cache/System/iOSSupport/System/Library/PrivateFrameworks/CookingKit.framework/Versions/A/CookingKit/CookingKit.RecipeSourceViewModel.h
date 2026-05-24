@@ -8,12 +8,6 @@
 {
     id _publisher;
     id _title;
-    id _thumbnailURL;
-    id _target;
-    id _isAvailable;
-    id _isFocusable;
-    id _isSponsored;
-    id _$observationRegistrar;
 }
 
 @end

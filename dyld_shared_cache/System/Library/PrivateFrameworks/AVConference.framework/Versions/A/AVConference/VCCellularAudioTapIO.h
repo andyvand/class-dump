@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCAudioIO, VCAudioPowerSpectrumSource, VCMediaRecorder;
+@class VCAudioIO, VCMediaRecorder;
 
 __attribute__((visibility("hidden")))
 @interface VCCellularAudioTapIO
 {
     VCAudioIO *_audioIO;
-    VCAudioPowerSpectrumSource *_powerSpectrumSource;
-    struct tagVCCellularAudioTapIORealtimeContext _realtimeContext;
-    _Bool _enableAsyncTapStart;
-    unsigned long long _audioAssertionCounter;
 }
 
 - (void);
@@ -24,20 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)!;
 - (struct tagVCCellularAudioTapIORealtimeContext *);
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long audioAssertionCounter; // @synthesize audioAssertionCounter=_audioAssertionCounter;
-@property(retain, nonatomic) VCAudioIO *audioIO; // @synthesize audioIO=_audioIO;
-@property(nonatomic) _Bool enableAsyncTapStart; // @synthesize enableAsyncTapStart=_enableAsyncTapStart;
 @property(retain, nonatomic) VCMediaRecorder *mediaRecorder;
-@property(readonly, nonatomic) VCAudioPowerSpectrumSource *powerSpectrumSource; // @synthesize powerSpectrumSource=_powerSpectrumSource;
-@property(readonly, nonatomic) struct tagVCCellularAudioTapIORealtimeContext *realtimeContext;
-@property(readonly, nonatomic) long long streamToken;
 
 @end
 

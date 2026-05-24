@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterInputHelper, AVAssetWriterInputInternal, AVOutputSettings, AVWeakReference, NSArray, NSDictionary, NSString;
+@class AVAssetWriterInputInternal;
 
 @interface AVAssetWriterInput
 {
@@ -24,16 +24,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)a;
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (struct CGAffineTransform);
-- (int);
+- (int);
 - (id);
 - (void);
 - (void);
@@ -43,30 +43,31 @@
 - (_Bool);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)WARF analysis of %s
+;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)setRemoteDeviceNotSetup: /* Error: Ran out of types for this method. */;
+- (void)TD;
 - (void);
-- (void);
-- (short);
+- (short);
 - (short);
 - (struct __CVPixelBufferPool *);
 - (void);
 - (void);
+- (void)createDefaultSerialQueueWithIdentifier:(struct CGAffineTransform)arg1;
+- (void)unregisterSmartCardWithTokenID:(id)arg1 callerBundleID:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)sceneID:(id)arg1 didReceiveActions:forExtension: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (_Bool);
@@ -78,8 +79,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void)P;
 - (id);
 - (void);
 - (_Bool)1Â0@ù
@@ -97,52 +98,27 @@
 - (id);
 - (id);
 - (void)0:(_Bool)arg1 8^{OpaqueFigAssetWriter=}16;
-- (float)base;
-- (id)pletionHandler: /* Error: Ran out of types for this method. */;
-- (void)oding:(id)arg1;
+- (float)readOnlyTimebase;
+- (id)prepareItem:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_setRequiresFlushToResumeDecoding:(id)arg1;
 - (_Bool)ializationData:initializationData:options: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)rackPropertiesForKeys;
+- (CDStruct_1b6d18a9)_figAssetTrackPropertiesForKeys;
 - (id)"NSLocale",R,C,N;
 - (long long) ';
 - (_Bool)customvideocompositorsession.clientcustomcompositorq;
 - (struct opaqueCMFormatDescription *)pired or failed;
-- (int)akDataRate;
-- (void)eFailed;
+- (int)peakDataRate;
+- (void)AVErrorScreenCaptureFailed;
 - (struct CGSize)ime(%lld, %d) --> CMTime(%lld, %d)
 };
 - (void)>= 0.0;
 - (void)t support passthrough for media type %@ to file type %@.;
 - (_Bool)isMapSegment:%d mediaType:%@ segmentDuration:%f mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
-- (void)tionsKey;
+- (void)AVAssetPreferNominalDurationsKey;
 - (_Bool)eNH¹{;
 
 // Remaining properties
-@property(nonatomic, getter=_alternateGroupID, setter=_setAlternateGroupID:) short alternateGroupID;
-@property(readonly, nonatomic, getter=_isAttachedToAdaptor) _Bool attachedToAdaptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool expectsMediaDataInRealTime;
 @property(nonatomic, getter=hasReceiver, setter=setHasReceiver:) _Bool hasReceiver;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic, getter=_helper, setter=_setHelper:) AVAssetWriterInputHelper *helper;
-@property(readonly, getter=_markAsFinishedCalled) _Bool markAsFinishedCalled;
-@property(readonly, nonatomic) NSString *mediaType;
-@property(copy, nonatomic) NSArray *metadata;
-@property(readonly) long long numberOfAppendFailures;
-@property(readonly, nonatomic) NSDictionary *outputSettings;
-@property(readonly, nonatomic, getter=_outputSettingsObject) AVOutputSettings *outputSettingsObject;
-@property(readonly, nonatomic, getter=_pixelBufferPool) struct __CVPixelBufferPool *pixelBufferPool;
-@property(nonatomic, getter=_provisionalAlternateGroupID, setter=_setProvisionalAlternateGroupID:) short provisionalAlternateGroupID;
-@property(readonly, nonatomic, getter=isReadyForMoreMediaData) _Bool readyForMoreMediaData;
-@property(readonly, nonatomic) struct opaqueCMFormatDescription *sourceFormatHint;
-@property(copy, nonatomic, getter=_sourcePixelBufferAttributes, setter=_setSourcePixelBufferAttributes:) NSDictionary *sourcePixelBufferAttributes;
-@property(readonly, nonatomic, getter=_status) long long status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_trackReferences) NSDictionary *trackReferences;
-@property(retain, nonatomic, getter=_weakReferenceToAssetWriter, setter=_setWeakReferenceToAssetWriter:) AVWeakReference *weakReferenceToAssetWriter;
 
 @end
 

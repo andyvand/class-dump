@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PKTransactionAuthenticationContext
 {
     _Bool _complete;
-    unsigned long long _requestedAuthenticationMechanisms;
-    unsigned long long _processedAuthenticationMechanisms;
-    unsigned long long _dataCollectedAuthenticationMechanisms;
-    long long _paymentPINFormat;
-    NSData *_nonce;
-    NSData *_signingKeyMaterial;
-    NSData *_partialSignature;
-    long long _authenticationFailure;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)6H;
 - (void);
 - (void);
 - (void);
@@ -40,24 +30,16 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)addDirectConnectionFirstByteBuckets:(id)arg1;
 - (id);
 - (id);
 - (_Bool)e any invalid suggestion amounts from list...;
 - (void)PeoxVcfXCss1A/o.jpg;
-- (id)redSEP;
-- (void)yButtonLogoWhite;
+- (id)pairedSEP;
+- (void)PayButtonLogoWhite;
 
 // Remaining properties
-@property(nonatomic) long long authenticationFailure; // @synthesize authenticationFailure=_authenticationFailure;
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(nonatomic) unsigned long long dataCollectedAuthenticationMechanisms; // @synthesize dataCollectedAuthenticationMechanisms=_dataCollectedAuthenticationMechanisms;
-@property(copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(copy, nonatomic) NSData *partialSignature; // @synthesize partialSignature=_partialSignature;
-@property(nonatomic) long long paymentPINFormat; // @synthesize paymentPINFormat=_paymentPINFormat;
-@property(nonatomic) unsigned long long processedAuthenticationMechanisms; // @synthesize processedAuthenticationMechanisms=_processedAuthenticationMechanisms;
 @property(nonatomic) unsigned long long requestedAuthenticationMechanisms; // @synthesize requestedAuthenticationMechanisms=_requestedAuthenticationMechanisms;
-@property(copy, nonatomic) NSData *signingKeyMaterial; // @synthesize signingKeyMaterial=_signingKeyMaterial;
 
 @end
 

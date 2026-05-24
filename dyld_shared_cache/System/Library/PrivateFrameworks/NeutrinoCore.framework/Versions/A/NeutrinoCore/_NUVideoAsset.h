@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/_NUAsset.h>
 
-@class NSString, NSURL, NUSourceContainerNode;
-@protocol NUAssetMedia;
+@class NSURL, NUSourceContainerNode;
 
 @interface _NUVideoAsset : _NUAsset
 {
     NUSourceContainerNode *_sourceContainerNode;
-    NSURL *_videoURL;
 }
 
 - (id);
@@ -20,14 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)des (802.11ac).;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id <NUAssetMedia> media;
-@property(readonly, nonatomic) long long type;
 @property(readonly, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end

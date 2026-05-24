@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface FUFutureFlightState
 {
     long long _futureState;
-    NSDate *_expectedDate;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)R;
 - (void);
 - (id);
-- (id);
+- (id)1;
 - (_Bool);
 - (void);
-- (id);
+- (id)to manage quota;
 - (void);
 
 // Remaining properties
-@property(copy) NSDate *expectedDate; // @synthesize expectedDate=_expectedDate;
 @property long long futureState; // @synthesize futureState=_futureState;
 
 @end

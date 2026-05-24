@@ -7,26 +7,22 @@
 @interface _NS1DVelocityFilter
 {
     double _maxAllowedVelocity;
-    double _lastTimestamp;
-    id _private;
 }
 
-- (void);
+- (void)security info dictionary;
 - (_Bool);
 - (double);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)removeHTTPAlternativeServiceEntriesWithRegistrableDomain:(double)arg1;
 - (void);
 - (void);
 - (id);
-- (double)h:handler: /* Error: Ran out of types for this method. */;
+- (double)movePath:toPath:handler: /* Error: Ran out of types for this method. */;
 - (void)16^B24;
 
 // Remaining properties
-@property(readonly) double filteredVelocity;
 @property double lastTimestamp; // @synthesize lastTimestamp=_lastTimestamp;
-@property double maxAllowedVelocity; // @synthesize maxAllowedVelocity=_maxAllowedVelocity;
 
 @end
 

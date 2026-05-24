@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID, WKWebView;
-@protocol WBSPageContextDataFetcherDelegate;
+@class NSUUID;
 
 @interface WBSPageContextDataFetcher
 {
     NSUUID *_ownerUUID;
-    WKWebView *_webView;
-    id <WBSPageContextDataFetcherDelegate> _delegate;
-    NSDictionary *_filteredSchemaData;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void):error: /* Error: Ran out of types for this method. */;
+- (void)rankedNamedEntitiesWithQuery:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <WBSPageContextDataFetcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSDictionary *filteredSchemaData; // @synthesize filteredSchemaData=_filteredSchemaData;
 @property(retain, nonatomic) NSUUID *ownerUUID; // @synthesize ownerUUID=_ownerUUID;
-@property(nonatomic) __weak WKWebView *webView; // @synthesize webView=_webView;
 
 @end
 

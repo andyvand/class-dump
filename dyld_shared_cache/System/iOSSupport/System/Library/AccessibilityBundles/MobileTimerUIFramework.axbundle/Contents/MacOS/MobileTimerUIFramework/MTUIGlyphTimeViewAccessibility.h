@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)_trailingConfiguration;
++ (id)i;
 + (void);
 - (_Bool);
 - (id);

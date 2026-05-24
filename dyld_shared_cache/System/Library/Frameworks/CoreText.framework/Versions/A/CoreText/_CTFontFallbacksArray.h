@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _CTFontFallbacksArray
 {
     struct TUnfairLock _lock;
-    const void *_baseFont;
-    const struct TTraitsValues *_refTraits;
-    unsigned long long _count;
-    NSMutableArray *_cascade;
-    NSMutableArray *_fallbacks;
-    unsigned long long _hash;
-    int _uiUse;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

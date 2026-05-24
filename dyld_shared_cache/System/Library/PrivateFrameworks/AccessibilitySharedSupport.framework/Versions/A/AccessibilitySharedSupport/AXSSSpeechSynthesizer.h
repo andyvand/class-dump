@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisVoice, AVSpeechSynthesizer;
+@class AVSpeechSynthesizer;
 
 @interface AXSSSpeechSynthesizer
 {
     AVSpeechSynthesizer *_synth;
-    AVSpeechSynthesisVoice *_voice;
 }
 
 - (id);
@@ -26,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int audioDeviceId;
-@property(readonly, nonatomic) _Bool speaking;
 @property(readonly, nonatomic) AVSpeechSynthesizer *synth; // @synthesize synth=_synth;
-@property(retain, nonatomic) AVSpeechSynthesisVoice *voice; // @synthesize voice=_voice;
 
 @end
 

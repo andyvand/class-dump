@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface MSVDefaultDictionary
 {
     CDUnknownBlockType _defaultValue;
-    NSMutableDictionary *_storage;
 }
 
 + (id);
@@ -25,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)her:(const id *)arg1 applicationWorkspace:(const id *)arg2;
 - (id);
 - (unsigned long long);
 - (CDUnknownBlockType);

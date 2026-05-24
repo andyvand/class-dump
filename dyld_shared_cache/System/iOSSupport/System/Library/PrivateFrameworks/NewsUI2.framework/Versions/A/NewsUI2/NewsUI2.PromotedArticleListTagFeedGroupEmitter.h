@@ -7,9 +7,6 @@
 @interface NewsUI2.PromotedArticleListTagFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id promotedHeadlineService;
 }
 
 @end

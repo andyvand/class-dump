@@ -4,53 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKComposeSubscriptionSelectorButton, UIFont, UILabel, UIMenu, UIStackView, UIView;
-@protocol CKComposeSubscriptionSelectorButtonDelegate;
+@class UIFont, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKSIMSelectionFieldView
 {
     UIFont *_preferredFont;
-    UIMenu *_subscriptionSelectionMenu;
-    UILabel *_captionLabel;
-    UIView *_separatorView;
-    CKComposeSubscriptionSelectorButton *_subscriptionSelectorButton;
-    UIStackView *_contentStackView;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)sharedItemIdentifier;
+- (void)setMaximumFractionDigits:(id)arg1;
+- (id)migrateNoteToV1NeoIfNeeded:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)migrateNote:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)migrateLockedNotesInAccount:toMode:window:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)glyphRangeForTextContainer:(id)arg1;
+- (void)glyphRangeForCharacterRange:(id)arg1 actualCharacterRange: /* Error: Ran out of types for this method. */;
+- (void)glyphRangeForBoundingRect:(id)arg1 inTextContainer: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)s;
 - (unsigned long long);
-- (id);
+- (id){;
 - (void)¨;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *captionLabel; // @synthesize captionLabel=_captionLabel;
-@property(retain, nonatomic) UIStackView *contentStackView; // @synthesize contentStackView=_contentStackView;
-@property(readonly, nonatomic) unsigned long long currentTheme;
-@property(retain, nonatomic) UIFont *preferredFont; // @synthesize preferredFont=_preferredFont;
-@property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(nonatomic) __weak id <CKComposeSubscriptionSelectorButtonDelegate> subscriptionButtonDelegate;
-@property(retain, nonatomic) UIMenu *subscriptionSelectionMenu; // @synthesize subscriptionSelectionMenu=_subscriptionSelectionMenu;
-@property(retain, nonatomic) CKComposeSubscriptionSelectorButton *subscriptionSelectorButton; // @synthesize subscriptionSelectorButton=_subscriptionSelectorButton;
-@property(readonly, nonatomic) UIView *viewForAlignment;
 
 @end
 

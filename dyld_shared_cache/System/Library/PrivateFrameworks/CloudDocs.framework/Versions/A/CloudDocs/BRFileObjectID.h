@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface BRFileObjectID
 {
@@ -15,7 +15,7 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)JK@'A;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -24,33 +24,19 @@
 - (id);
 - (_Bool);
 - (unsigned char);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void)veObserver:(struct sqlite3_stmt *)arg1 forKeyPath:(int)arg2;
+- (_Bool)d;
+- (void)removeObserver:(struct sqlite3_stmt *)arg1 forKeyPath:(int)arg2;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *asString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSNumber *documentID;
-@property(readonly, nonatomic) NSNumber *folderID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDocumentID;
-@property(readonly, nonatomic) _Bool isFolderOrAliasID;
-@property(readonly, nonatomic) NSNumber *itemDBRowID;
-@property(readonly, nonatomic) unsigned long long rawID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned char type;
 
 @end
 

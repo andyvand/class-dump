@@ -4,74 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSMenuItem, NSNumber, NSObject, NSProgressIndicator, NSSegmentedControl, NSString, NSTimer, NSToolbar, NSToolbarItem, NSViewController, SSCallTrackingWindow, SSSessionView, TUCall;
-@protocol CNKScreenSharingViewControllerProtocol, SSSessionViewDelegate;
+@class SSCallTrackingWindow;
 
 @interface SSCallWindowController
 {
     _Bool _zoomToFit;
-    _Bool _autoResizeEnabled;
-    _Bool _preFullScreenResizeEnabled;
-    _Bool _liveResizeStartedWithExactSize;
-    _Bool _hasSetScreenSize;
-    _Bool _inAnimatedTransition;
-    _Bool _wantsWindowTitleUpdate;
-    _Bool _userInteractedWithWindow;
-    _Bool _setActualSizeOnIncrease;
-    _Bool _addedConversationManagerDelegate;
-    _Bool _isRemoteControlEnabled;
-    _Bool _observingRemoteControlState;
-    _Bool _disableChromeHiding;
-    _Bool _presenterAllowsRequestingControl;
-    NSToolbarItem *_controlObserveToolbarItem;
-    NSToolbarItem *_launchpadToolbarItem;
-    NSToolbarItem *_missionControlToolbarItem;
-    NSToolbarItem *_desktopToolbarItem;
-    NSToolbarItem *_appWindowsToolbarItem;
-    NSToolbarItem *_keyboardSyncToolbarItem;
-    NSToolbarItem *_autoResizeToolbarItem;
-    NSToolbarItem *_zoomToFitToolbarItem;
-    NSToolbarItem *_zoomControlToolbarItem;
-    NSButton *_controlObserveButton;
-    NSButton *_launchpadButton;
-    NSButton *_missionControlButton;
-    NSButton *_desktopButton;
-    NSButton *_appWindowsButton;
-    NSButton *_keyboardSyncButton;
-    NSButton *_zoomToFitButton;
-    NSSegmentedControl *_zoomControl;
-    NSButton *_autoResizeButton;
-    NSMenuItem *_controlObserveMenuRepresentation;
-    NSMenuItem *_zoomMenuRepresentation;
-    NSMenuItem *_zoomMenuRepZoomOut;
-    NSMenuItem *_zoomMenuRepZoomActual;
-    NSMenuItem *_zoomMenuRepZoomIn;
-    NSProgressIndicator *_progressSpinner;
-    NSToolbar *_FTCallTooolbar;
-    NSViewController<CNKScreenSharingViewControllerProtocol> *_screenSharingViewController;
-    NSObject<SSSessionViewDelegate> *_sessionWindowController;
-    SSSessionView *_sessionView;
-    long long _sourceAppAlignment;
-    long long _viewType;
-    double _lastCapturedScale;
-    NSString *_toggleControlCommandKey;
-    NSNumber *_toggleControlCommandKeyModifier;
-    unsigned long long _lastResizeTime;
-    NSTimer *_remoteResizeHandler;
-    TUCall *_call;
-    struct CGSize _lastCapturedSize;
-    struct CGRect _previousScreenSameCallWindowRect;
-    struct CGRect _sourceAppWindowRect;
 }
 
-- (id);
+- (id)a(;
 - (double);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id))x;
 - (void);
 - (id);
 - (id);
@@ -94,6 +41,19 @@
 - (void);
 - (void);
 - (void);
+- (void)2;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -117,6 +77,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -126,21 +87,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(l;
 - (void);
 - (void);
 - (void);
@@ -159,7 +106,7 @@
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (void);
 - (id);
@@ -209,16 +156,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)"__f_"{__value_func<void (FI_TSidebarItemCell *, bool)>="__buf_"(type="__data"[24C])"__f_"^v}};
+- (void)_didResolveNodeNotification:(id)arg1;
+- (id)FI_TDateTextField;
 - (void);
 - (void);
 - (void);
@@ -237,9 +184,9 @@
 - (long long);
 - (void);
 - (void):(id)arg1 8:16@24 /* Error: Ran out of types for this method. */;
-- (void)ectedRange:(id)arg1;
+- (void)textField:(id)arg1 textView:candidatesForSelectedRange: /* Error: Ran out of types for this method. */;
 - (void):velocityY:velocityZ:flags:flavor:withEvent: /* Error: Ran out of types for this method. */;
-- (void)yCGImageFromRemoteScreen;
+- (void)copyCGImageFromRemoteScreen;
 - (void);
 - (void)version %d %d;
 - (void)%lu;
@@ -255,68 +202,7 @@
 - (void){$;
 
 // Remaining properties
-@property NSToolbar *FTCallTooolbar; // @synthesize FTCallTooolbar=_FTCallTooolbar;
-@property _Bool addedConversationManagerDelegate; // @synthesize addedConversationManagerDelegate=_addedConversationManagerDelegate;
-@property NSButton *appWindowsButton; // @synthesize appWindowsButton=_appWindowsButton;
-@property(retain) NSToolbarItem *appWindowsToolbarItem; // @synthesize appWindowsToolbarItem=_appWindowsToolbarItem;
-@property NSButton *autoResizeButton; // @synthesize autoResizeButton=_autoResizeButton;
-@property _Bool autoResizeEnabled; // @synthesize autoResizeEnabled=_autoResizeEnabled;
-@property(retain) NSToolbarItem *autoResizeToolbarItem; // @synthesize autoResizeToolbarItem=_autoResizeToolbarItem;
-@property TUCall *call; // @synthesize call=_call;
 @property(readonly, nonatomic) SSCallTrackingWindow *callTrackingWindow;
-@property NSButton *controlObserveButton; // @synthesize controlObserveButton=_controlObserveButton;
-@property NSMenuItem *controlObserveMenuRepresentation; // @synthesize controlObserveMenuRepresentation=_controlObserveMenuRepresentation;
-@property(retain) NSToolbarItem *controlObserveToolbarItem; // @synthesize controlObserveToolbarItem=_controlObserveToolbarItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property NSButton *desktopButton; // @synthesize desktopButton=_desktopButton;
-@property(retain) NSToolbarItem *desktopToolbarItem; // @synthesize desktopToolbarItem=_desktopToolbarItem;
-@property _Bool disableChromeHiding; // @synthesize disableChromeHiding=_disableChromeHiding;
-@property _Bool hasSetScreenSize; // @synthesize hasSetScreenSize=_hasSetScreenSize;
-@property(readonly) unsigned long long hash;
-@property _Bool inAnimatedTransition; // @synthesize inAnimatedTransition=_inAnimatedTransition;
-@property _Bool isRemoteControlEnabled; // @synthesize isRemoteControlEnabled=_isRemoteControlEnabled;
-@property NSButton *keyboardSyncButton; // @synthesize keyboardSyncButton=_keyboardSyncButton;
-@property(retain) NSToolbarItem *keyboardSyncToolbarItem; // @synthesize keyboardSyncToolbarItem=_keyboardSyncToolbarItem;
-@property double lastCapturedScale; // @synthesize lastCapturedScale=_lastCapturedScale;
-@property struct CGSize lastCapturedSize; // @synthesize lastCapturedSize=_lastCapturedSize;
-@property unsigned long long lastResizeTime; // @synthesize lastResizeTime=_lastResizeTime;
-@property NSButton *launchpadButton; // @synthesize launchpadButton=_launchpadButton;
-@property(retain) NSToolbarItem *launchpadToolbarItem; // @synthesize launchpadToolbarItem=_launchpadToolbarItem;
-@property _Bool liveResizeStartedWithExactSize; // @synthesize liveResizeStartedWithExactSize=_liveResizeStartedWithExactSize;
-@property NSButton *missionControlButton; // @synthesize missionControlButton=_missionControlButton;
-@property(retain) NSToolbarItem *missionControlToolbarItem; // @synthesize missionControlToolbarItem=_missionControlToolbarItem;
-@property _Bool observingRemoteControlState; // @synthesize observingRemoteControlState=_observingRemoteControlState;
-@property _Bool preFullScreenResizeEnabled; // @synthesize preFullScreenResizeEnabled=_preFullScreenResizeEnabled;
-@property(nonatomic) _Bool presenterAllowsRequestingControl; // @synthesize presenterAllowsRequestingControl=_presenterAllowsRequestingControl;
-@property struct CGRect previousScreenSameCallWindowRect; // @synthesize previousScreenSameCallWindowRect=_previousScreenSameCallWindowRect;
-@property(retain) NSProgressIndicator *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property NSTimer *remoteResizeHandler; // @synthesize remoteResizeHandler=_remoteResizeHandler;
-@property(retain) NSViewController<CNKScreenSharingViewControllerProtocol> *screenSharingViewController; // @synthesize screenSharingViewController=_screenSharingViewController;
-@property(retain) SSSessionView *sessionView; // @synthesize sessionView=_sessionView;
-@property(retain) NSObject<SSSessionViewDelegate> *sessionWindowController; // @synthesize sessionWindowController=_sessionWindowController;
-@property _Bool setActualSizeOnIncrease; // @synthesize setActualSizeOnIncrease=_setActualSizeOnIncrease;
-@property long long sourceAppAlignment; // @synthesize sourceAppAlignment=_sourceAppAlignment;
-@property struct CGRect sourceAppWindowRect; // @synthesize sourceAppWindowRect=_sourceAppWindowRect;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *toggleControlCommandKey; // @synthesize toggleControlCommandKey=_toggleControlCommandKey;
-@property(retain, nonatomic) NSNumber *toggleControlCommandKeyModifier; // @synthesize toggleControlCommandKeyModifier=_toggleControlCommandKeyModifier;
-@property _Bool userInteractedWithWindow; // @synthesize userInteractedWithWindow=_userInteractedWithWindow;
-@property long long viewType; // @synthesize viewType=_viewType;
-@property(nonatomic) _Bool wantsWindowTitleUpdate; // @synthesize wantsWindowTitleUpdate=_wantsWindowTitleUpdate;
-@property NSSegmentedControl *zoomControl; // @synthesize zoomControl=_zoomControl;
-@property NSToolbarItem *zoomControlToolbarItem; // @synthesize zoomControlToolbarItem=_zoomControlToolbarItem;
-@property double zoomFactor;
-@property NSMenuItem *zoomMenuRepZoomActual; // @synthesize zoomMenuRepZoomActual=_zoomMenuRepZoomActual;
-@property NSMenuItem *zoomMenuRepZoomIn; // @synthesize zoomMenuRepZoomIn=_zoomMenuRepZoomIn;
-@property NSMenuItem *zoomMenuRepZoomOut; // @synthesize zoomMenuRepZoomOut=_zoomMenuRepZoomOut;
-@property NSMenuItem *zoomMenuRepresentation; // @synthesize zoomMenuRepresentation=_zoomMenuRepresentation;
-@property _Bool zoomToFit; // @synthesize zoomToFit=_zoomToFit;
-@property NSButton *zoomToFitButton; // @synthesize zoomToFitButton=_zoomToFitButton;
-@property NSToolbarItem *zoomToFitToolbarItem; // @synthesize zoomToFitToolbarItem=_zoomToFitToolbarItem;
 
 @end
 

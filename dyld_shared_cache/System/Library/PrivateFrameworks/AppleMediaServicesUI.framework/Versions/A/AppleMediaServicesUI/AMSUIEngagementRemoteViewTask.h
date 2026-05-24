@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagementRequest, AMSEngagementResult, AMSProcessInfo, NSError, NSObject, NSString, NSViewController, NSXPCListener;
+@class NSObject;
 @protocol AMSBagProtocol, OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIEngagementRemoteViewTask
 {
     id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSObject<OS_dispatch_group> *_dispatchGroup;
-    NSError *_error;
-    NSViewController *_presentedViewController;
-    NSXPCListener *_remoteListener;
-    AMSEngagementRequest *_request;
-    AMSEngagementResult *_result;
-    NSViewController *_viewController;
-    struct CGSize _preferredContentSize;
 }
 
 - (void);
@@ -32,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (id);
+- (void)commenterHashedPersonID;
+- (id)workBlock;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (void);
@@ -45,33 +36,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(--volume) requires root;
 - (void);
 - (void);
 - (id);
-- (void)alloc;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (void)shouldSuppressDismissedEventOnDealloc;
+- (id)setCanMakeAccountActive: /* Error: Ran out of types for this method. */;
 - (void)=GG_·Þ=tGG¯=GASG;
 - (void)\;
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSObject<OS_dispatch_group> *dispatchGroup; // @synthesize dispatchGroup=_dispatchGroup;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property struct CGSize preferredContentSize; // @synthesize preferredContentSize=_preferredContentSize;
-@property(retain) NSViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
-@property(retain) NSXPCListener *remoteListener; // @synthesize remoteListener=_remoteListener;
-@property(retain) AMSEngagementRequest *request; // @synthesize request=_request;
-@property(retain) AMSEngagementResult *result; // @synthesize result=_result;
-@property(readonly) Class superclass;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

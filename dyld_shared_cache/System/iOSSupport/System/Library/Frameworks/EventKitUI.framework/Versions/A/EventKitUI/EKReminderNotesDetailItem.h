@@ -14,7 +14,7 @@
 + (CDUnknownBlockType);
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 
 @end
 

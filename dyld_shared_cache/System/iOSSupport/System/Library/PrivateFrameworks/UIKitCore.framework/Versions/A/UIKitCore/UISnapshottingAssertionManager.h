@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)°Ök;
+- (void)acceptsIncomingReplicatedMessagesFromAccount:(CDUnknownBlockType)arg1 toIdentifier:isSOS: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)rrect number of messages;
+- (id)ve, setting callerID to %@;
+- (void)setStatusSIMCarrierNetwork: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)çQËe;

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSUUID;
-@protocol HMDMediaGroupsAggregateBackupMessageTimerProvider, HMDMediaGroupsAggregatorBackupSenderDataSource;
+@protocol HMDMediaGroupsAggregateBackupMessageTimerProvider;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsAggregatorBackupSender
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_backupTimers;
-    id <HMDMediaGroupsAggregatorBackupSenderDataSource> _dataSource;
-    id <HMDMediaGroupsAggregateBackupMessageTimerProvider> _backupTimerProvider;
-    NSUUID *_identifier;
 }
 
 + (id)eÿ¹JøyB;
@@ -22,23 +17,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)tring"16@"NSString"24@"NSURL"32;
+- (id)sharedTripService:(id)arg1 sharingDidInvalidateWithError: /* Error: Ran out of types for this method. */;
+- (id)_activeCapabilityTypeForContact:(id)arg1 serviceName: /* Error: Ran out of types for this method. */;
+- (void)MSPNavigationListener;
+- (id)datedDate %@ 
+hasMadeFinalPush %@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)renderPreviewLayerStackFromWallpaperURL:styleCategory:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -48,15 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak id <HMDMediaGroupsAggregateBackupMessageTimerProvider> backupTimerProvider; // @synthesize backupTimerProvider=_backupTimerProvider;
-@property __weak id <HMDMediaGroupsAggregatorBackupSenderDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

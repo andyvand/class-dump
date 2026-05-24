@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, SSRVoiceProfileManager;
-@protocol OS_dispatch_queue, SSRSpeakerProfileEmbeddingServiceDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SSRSpeakerProfileEmbeddingMessageHandler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_connection;
-    CDUnknownBlockType _errorHandler;
-    id <SSRSpeakerProfileEmbeddingServiceDelegate> _listenerDelegate;
-    SSRVoiceProfileManager *_voiceProfileManager;
 }
 
 - (void);
@@ -22,31 +18,20 @@
 - (oneway void);
 - (void);
 - (id);
-- (void);
+- (void)ActiveObjectINS4_18RavenSolutionEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
+- (id)ourService"16@"AVAirTransport"24;
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_touchBarZoomPreviouslyEnabled;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SSRSpeakerProfileEmbeddingServiceDelegate> listenerDelegate; // @synthesize listenerDelegate=_listenerDelegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SSRVoiceProfileManager *voiceProfileManager; // @synthesize voiceProfileManager=_voiceProfileManager;
 
 @end
 

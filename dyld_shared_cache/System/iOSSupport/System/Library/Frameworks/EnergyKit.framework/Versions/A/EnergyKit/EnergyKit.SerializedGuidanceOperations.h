@@ -7,6 +7,7 @@
 @interface EnergyKit.SerializedGuidanceOperations
 {
     id $defaultActor;
+    id;
 }
 
 @end

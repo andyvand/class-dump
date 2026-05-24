@@ -9,14 +9,12 @@
 @interface CKDPRecordReference
 {
     CKDPRecordIdentifier *_recordIdentifier;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setCachedConfiguration: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (int);
@@ -27,18 +25,15 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (id)!ÌGùÑG1ð1Â0@ù
 × ;
-- (_Bool)s;
+- (_Bool)_recordFields;
 - (void)limit;
 - (void)¨©¸ªX¬	@­à®ð¯;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRecordIdentifier;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

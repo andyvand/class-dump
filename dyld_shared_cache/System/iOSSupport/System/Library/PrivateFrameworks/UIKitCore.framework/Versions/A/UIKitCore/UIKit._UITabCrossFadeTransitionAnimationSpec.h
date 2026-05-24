@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKit._UIDurationBounceAnimationSpec;
-
 @interface UIKit._UITabCrossFadeTransitionAnimationSpec
 {
     double fadedOutScale;
-    UIKit._UIDurationBounceAnimationSpec *fadeOut;
-    UIKit._UIDurationBounceAnimationSpec *scaleOut;
-    UIKit._UIDurationBounceAnimationSpec *fadeIn;
-    UIKit._UIDurationBounceAnimationSpec *scaleIn;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)ckgroundCommand = %@;;
+- (void)%@; OUTPUT transcriptBackgroundCommand = %@;;
 - (void);
 - (void);
 - (id);
@@ -30,11 +24,7 @@
 - (void)ÒÏ\l;
 
 // Remaining properties
-@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *fadeIn; // @synthesize fadeIn;
-@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *fadeOut; // @synthesize fadeOut;
 @property(nonatomic) double fadedOutScale; // @synthesize fadedOutScale;
-@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *scaleIn; // @synthesize scaleIn;
-@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *scaleOut; // @synthesize scaleOut;
 
 @end
 

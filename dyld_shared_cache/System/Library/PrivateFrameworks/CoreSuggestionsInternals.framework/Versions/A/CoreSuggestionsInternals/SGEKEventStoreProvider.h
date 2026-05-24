@@ -7,7 +7,6 @@
 @interface SGEKEventStoreProvider
 {
     CDUnknownBlockType _newEKEventStoreGetter;
-    CDUnknownBlockType _callBlockWithEKEventStoreForReading;
 }
 
 + (id);

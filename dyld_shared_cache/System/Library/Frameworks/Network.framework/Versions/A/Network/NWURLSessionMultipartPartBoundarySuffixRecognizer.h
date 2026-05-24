@@ -8,13 +8,9 @@ __attribute__((visibility("hidden")))
 @interface NWURLSessionMultipartPartBoundarySuffixRecognizer
 {
     _Bool _shouldUnget;
-    int _nextState;
-    unsigned long long _bytesConsumed;
-    char *_buffer;
-    unsigned long long _count;
 }
 
-- (void);
+- (void)k(BOMStorage, const char *);
 - (id);
 
 @end

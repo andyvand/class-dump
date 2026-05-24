@@ -11,8 +11,6 @@
 @interface HMLocationEvent : HMEvent
 {
     CLRegion *_region;
-    HMFLocationAuthorization *_authorization;
-    long long _locationAuthorization;
 }
 
 + (id);
@@ -40,8 +38,6 @@
 
 // Remaining properties
 @property(readonly) HMFLocationAuthorization *authorization; // @synthesize authorization=_authorization;
-@property(nonatomic) long long locationAuthorization; // @synthesize locationAuthorization=_locationAuthorization;
-@property(retain, nonatomic) CLRegion *region; // @synthesize region=_region;
 
 @end
 

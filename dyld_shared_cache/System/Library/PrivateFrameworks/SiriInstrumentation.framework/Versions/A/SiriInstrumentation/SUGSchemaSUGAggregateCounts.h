@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGAggregateCounts : SISchemaInstrumentationMessage
 {
     unsigned int _lastDayCount;
-    unsigned int _lastWeekBucket;
-    unsigned int _last28DaysBucket;
-    struct {
-        unsigned int lastDayCount:1;
-        unsigned int lastWeekBucket:1;
-        unsigned int last28DaysBucket:1;
-    } _has;
 }
 
 - (void);
@@ -37,22 +28,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)6;
+- (_Bool)eDataSource",&,N,V_imageDataSource;
+- (_Bool)msg_group_legacy;
 - (id);
 - (id);
-- (id)dySnapshotCaptured;
+- (id)deleteNetworkConnectionStateReadySnapshotCaptured;
 - (id)_hasSpeechAlternativeRanks;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLast28DaysBucket;
-@property(nonatomic) _Bool hasLastDayCount;
-@property(nonatomic) _Bool hasLastWeekBucket;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int last28DaysBucket; // @synthesize last28DaysBucket=_last28DaysBucket;
 @property(nonatomic) unsigned int lastDayCount; // @synthesize lastDayCount=_lastDayCount;
-@property(nonatomic) unsigned int lastWeekBucket; // @synthesize lastWeekBucket=_lastWeekBucket;
 
 @end
 

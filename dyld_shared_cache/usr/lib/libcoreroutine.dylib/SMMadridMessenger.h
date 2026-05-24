@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue, SMMessagingServiceMessengerDelegate;
 
 @interface SMMadridMessenger
 {
     id <SMMessagingServiceMessengerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_madridMessagesWaitingForAck;
-    NSMutableArray *_resultsWaitingForProcessing;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -32,23 +29,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)gmentProvider,_isValidTransitionToProcess,TripSegment already exists in store for date interval %@, and configuration set to reprocess trip segment data.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SMMessagingServiceMessengerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *madridMessagesWaitingForAck; // @synthesize madridMessagesWaitingForAck=_madridMessagesWaitingForAck;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableArray *resultsWaitingForProcessing; // @synthesize resultsWaitingForProcessing=_resultsWaitingForProcessing;
-@property(readonly) Class superclass;
 
 @end
 

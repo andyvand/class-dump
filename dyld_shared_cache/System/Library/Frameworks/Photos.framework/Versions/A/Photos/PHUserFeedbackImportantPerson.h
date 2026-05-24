@@ -9,17 +9,15 @@
 @interface PHUserFeedbackImportantPerson
 {
     NSString *_personUUID;
-    unsigned long long _type;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)_canCreateLivePhotoWithURLs:videoComplementMetadata:outError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *personUUID; // @synthesize personUUID=_personUUID;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end
 

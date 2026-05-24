@@ -4,6 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, NSUUID, W5Event, W5Peer, W5PeerDiscoveryConfiguration;
+
 @protocol W5XPCRequestDelegate
+- (void)og reply (callbackInterval:(W5Peer *)arg1 %lld):(NSDictionary *)arg2 %@;
+- (void)eServices received request for expire state for guid:(W5Event *)arg1 %@;
+- (void)ices received request for expire state;
+- (void)n message expire state reply handler:(W5Peer *)arg1 %s;
+- (void)ackInterval:(NSArray *)arg1 %lld):(void (^)(NSError *))arg2 %@;
+- (void)Received expire state reply (callbackInterval:(void (^)(NSError *))arg1 %lld):%@ /* Error: Ran out of types for this method. */;
+- (void)ssage expire state reply handler:(void (^)(NSError *))arg1 %s;
+- (void)ed request for routing for guid:(W5PeerDiscoveryConfiguration *)arg1 %@  error:(NSUUID *)arg2 %d;
+- (void)s received request for routing;
+- (void)to message services agent;
+- (void)reply handler:(void (^)(NSError *))arg1 %s;
+- (void)@;
+- (void)0;
+- (void)ssageServices-
+;
+- (void);
+- (void);
+- (void);
 @end
 

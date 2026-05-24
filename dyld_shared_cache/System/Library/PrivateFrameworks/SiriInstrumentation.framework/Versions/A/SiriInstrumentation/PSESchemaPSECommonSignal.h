@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PSESchemaPSECommonSignal : SISchemaInstrumentationMessage
 {
     double _eventDonationTimeInSecondsSince2001;
-    NSString *_domain;
-    NSString *_action;
-    int _isDonatedBySiri;
-    _Bool _hasUserInitiatedFollowup;
-    int _appFollowup;
-    double _appLaunchTimeInSecondsSince2001;
-    int _appLaunchReason;
-    struct {
-        unsigned int eventDonationTimeInSecondsSince2001:1;
-        unsigned int isDonatedBySiri:1;
-        unsigned int hasUserInitiatedFollowup:1;
-        unsigned int appFollowup:1;
-        unsigned int appLaunchTimeInSecondsSince2001:1;
-        unsigned int appLaunchReason:1;
-    } _has;
-    _Bool _hasDomain;
-    _Bool _hasAction;
 }
 
 - (void);
@@ -65,41 +46,25 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)startImageServiceRequest:(id)arg1 auditToken:throttleToken:queue:finished:networkActivity:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)reDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:40 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)feature flag disabled.;
 - (id);
 - (id);
 - (id)ArÐ!CùñÝÐ1Â0@ù
 × ;
-- (void)ollmentPitchEstimation: /* Error: Ran out of types for this method. */;
-- (id)subSystemName;
+- (void)setEnrollmentPitchEstimation: /* Error: Ran out of types for this method. */;
+- (id)_subSystemName;
 - (id)N,V_firstPassMasterChannelScoreBoost;
 - (id)onKeyboards;
 - (void)hasVoiceFallbackOccurred;
-- (void)OME_ASK_WHICH_ACCESSORIES_FAILED;
+- (void)FLOWSTATETYPE_HOME_ASK_WHICH_ACCESSORIES_FAILED;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(nonatomic) int appFollowup; // @synthesize appFollowup=_appFollowup;
-@property(nonatomic) int appLaunchReason; // @synthesize appLaunchReason=_appLaunchReason;
-@property(nonatomic) double appLaunchTimeInSecondsSince2001; // @synthesize appLaunchTimeInSecondsSince2001=_appLaunchTimeInSecondsSince2001;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(nonatomic) double eventDonationTimeInSecondsSince2001; // @synthesize eventDonationTimeInSecondsSince2001=_eventDonationTimeInSecondsSince2001;
-@property(nonatomic) _Bool hasAction; // @synthesize hasAction=_hasAction;
-@property(nonatomic) _Bool hasAppFollowup;
-@property(nonatomic) _Bool hasAppLaunchReason;
-@property(nonatomic) _Bool hasAppLaunchTimeInSecondsSince2001;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(nonatomic) _Bool hasEventDonationTimeInSecondsSince2001;
-@property(nonatomic) _Bool hasHasUserInitiatedFollowup;
-@property(nonatomic) _Bool hasIsDonatedBySiri;
-@property(nonatomic) _Bool hasUserInitiatedFollowup; // @synthesize hasUserInitiatedFollowup=_hasUserInitiatedFollowup;
-@property(nonatomic) int isDonatedBySiri; // @synthesize isDonatedBySiri=_isDonatedBySiri;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -11,34 +11,28 @@
 @interface _UISliderFluidColorConfiguration : _UISliderFluidTickConfiguration
 {
     id _colors;
-    id _locations;
-    double maxGain;
-    _Bool showCheckerboard;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)through.;
+- (void)SSFirstPartyTextMessageFilterAvailableNotification;
+- (id)c;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (double);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ntsForDisplayItems:layoutGuides:inContainerItem:axis: /* Error: Ran out of types for this method. */;
-- (_Bool)elivery:(id)arg1 matchingInitialDeliveries: /* Error: Ran out of types for this method. */;
+- (id)constraintsForDisplayItems:layoutGuides:inContainerItem:axis: /* Error: Ran out of types for this method. */;
+- (_Bool)assembledRewrittenTextToDelivery:(id)arg1 matchingInitialDeliveries: /* Error: Ran out of types for this method. */;
 - (id)ÀM;
 - (id)UIKit29UILayoutRuleEvaluationContextP;
 - (void)Ð»l;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *colors;
-@property(nonatomic, readonly) NSArray *locations;
-@property(nonatomic) double maxGain; // @synthesize maxGain;
-@property(nonatomic) _Bool showCheckerboard; // @synthesize showCheckerboard;
 
 @end
 

@@ -11,22 +11,22 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)eypressStatus:(id)arg1;
-- (void);
++ (_Bool)setKeypressStatus:(id)arg1;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)hotoInfo>"36@0:(struct _NSZone *)arg1 8{CGSize=dd}16B32;
 - (id)availableNumberOfChargers;
 - (id) pPÌ;
-- (id)enText;
+- (id)localizedIncidentSpokenText;
 - (void)£dVïN@;
 
 // Remaining properties

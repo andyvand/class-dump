@@ -9,29 +9,22 @@
 @interface _UIArchiveExtractionController
 {
     NSArray *_extractedContentAbsolutePaths;
-    NSString *_sourceArchivePath;
-    NSString *_destinationExtractionRootPath;
-    NSString *_destinationContentProtectionType;
-    NSString *_sourceArchiveExtractionRootPath;
 }
 
+- (id)updateProperties:shouldBroadcast: /* Error: Ran out of types for this method. */;
+- (void)sendDataToPeers:(id)arg1 guid:forcedCallerID:shouldFilterRecepients:requestProxySend:dontSendTo:sentToDevices: /* Error: Ran out of types for this method. */;
+- (void)handleMessageReadReceiptWithPipeline:(id)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)handleMessagePlayedReceiptWithPipeline:(id)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)IMUserNotificationListener;
+- (id)e;
+- (_Bool)\;
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)|4×dÂ^;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destinationContentProtectionType; // @synthesize destinationContentProtectionType=_destinationContentProtectionType;
-@property(retain, nonatomic) NSString *destinationExtractionRootPath; // @synthesize destinationExtractionRootPath=_destinationExtractionRootPath;
-@property(retain, nonatomic) NSString *sourceArchiveExtractionRootPath; // @synthesize sourceArchiveExtractionRootPath=_sourceArchiveExtractionRootPath;
 @property(readonly, nonatomic) NSString *sourceArchivePath; // @synthesize sourceArchivePath=_sourceArchivePath;
 
 @end

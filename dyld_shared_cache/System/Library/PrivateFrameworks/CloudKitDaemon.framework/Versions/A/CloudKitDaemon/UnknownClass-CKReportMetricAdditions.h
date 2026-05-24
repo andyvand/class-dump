@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CKReportMetricAdditions)
-+ (void);
++ (void);
 @end
 

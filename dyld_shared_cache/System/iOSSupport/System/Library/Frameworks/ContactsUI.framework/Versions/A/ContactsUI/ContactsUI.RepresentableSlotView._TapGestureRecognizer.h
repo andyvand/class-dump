@@ -7,8 +7,6 @@
 @interface ContactsUI.RepresentableSlotView._TapGestureRecognizer
 {
     id slotContainer;
-    id _showLibraryUI;
-    id approvalCallback;
 }
 
 - (id);

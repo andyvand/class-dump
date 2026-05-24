@@ -6,14 +6,10 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNEmailAddressContactPredicate : CNPredicate
 {
     _Bool _returnsMultipleResults;
-    NSArray *_emailAddresses;
-    NSArray *_groupIdentifiers;
 }
 
 + (_Bool);
@@ -27,29 +23,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)_signalUpdateGroup;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)iMessage devices for %s;
 - (void)!BùQ*1Â0@ù
 × ;
 - (id)0¤T¤;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, copy, nonatomic) NSArray *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool returnsMultipleResults; // @synthesize returnsMultipleResults=_returnsMultipleResults;
-@property(readonly) Class superclass;
 
 @end
 

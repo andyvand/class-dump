@@ -6,25 +6,17 @@
 
 #import <PhotosUICore/PXCMMInvitationsDataSourceManager.h>
 
-@class NSMutableOrderedSet, NSObject, NSString, PHPhotoLibrary, PXCMMMomentShareInvitationsDataSource, PXCMMMomentShareInvitationsDataSourceState;
-@protocol OS_dispatch_queue;
+@class PHPhotoLibrary, PXCMMMomentShareInvitationsDataSource;
 
 @interface PXCMMMomentShareInvitationsDataSourceManager : PXCMMInvitationsDataSourceManager
 {
     PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_dispatch_queue> *_workerQueue;
-    _Bool _isLoading;
-    _Bool _hasCreatedInitialDataSource;
-    PXCMMMomentShareInvitationsDataSourceState *_state;
-    NSMutableOrderedSet *_remainingMomentShareObjectIDsToFetch;
-    long long _filter;
-    long long _fetchLimit;
 }
 
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -39,14 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMMomentShareInvitationsDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

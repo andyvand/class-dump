@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSData, NSNumber;
+@class CIImage;
 
 @interface DGCurvesFilter
 {
     CIImage *inputImage;
-    NSData *inputRGBData;
-    NSData *inputRedData;
-    NSData *inputGreenData;
-    NSData *inputBlueData;
-    NSNumber *inputGrayChoice;
 }
 
 + (id);

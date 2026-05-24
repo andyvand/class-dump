@@ -9,7 +9,6 @@
 @interface MPSNDArrayInitializationGlorotNormal : MPSNDArrayInitialization
 {
     unsigned long long _FanIn;
-    unsigned long long _FanOut;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long FanIn; // @synthesize FanIn=_FanIn;
-@property(nonatomic) unsigned long long FanOut; // @synthesize FanOut=_FanOut;
 
 @end
 

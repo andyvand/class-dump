@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, PKPassEntitlementsComposer, PKPassShareTimeConfiguration;
+@class PKPassEntitlementsComposer;
 @protocol NSCopying;
 
 @interface PKPassEntitlementsComposerEntryNode
 {
     PKPassEntitlementsComposer *_parentEntitlementComposer;
-    NSMutableDictionary *_properties;
-    _Bool _editable;
-    id <NSCopying> _identifier;
-    PKPassEntitlementsComposerEntryNode *_parent;
-    NSMutableArray *_children;
 }
 
 - (void);
@@ -25,71 +20,50 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)qa;
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long)ryptedContentsLocalURL;
-- (_Bool)daryColor;
+- (unsigned long long)_encryptedContentsLocalURL;
+- (_Bool)_secondaryColor;
 - (void)"8@"NSError"16;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allPossibleCapabilitySets;
-@property(readonly, nonatomic) NSArray *allPossibleManageability;
-@property(readonly, nonatomic) NSArray *allPossibleShareability;
-@property(readonly, nonatomic) NSArray *allPossibleVisibility;
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
-@property(nonatomic) _Bool editable; // @synthesize editable=_editable;
-@property(nonatomic) _Bool enabled;
 @property(readonly, nonatomic) id <NSCopying> identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool intraAccountSharingEnabled;
-@property(nonatomic) _Bool isManagingEntitlementConfiguration;
-@property(nonatomic) _Bool isManagingTimeConfiguration;
-@property(nonatomic) unsigned long long manageability;
-@property(readonly, nonatomic) unsigned long long maxSelectionCount;
-@property(nonatomic) __weak PKPassEntitlementsComposerEntryNode *parent; // @synthesize parent=_parent;
-@property(readonly, nonatomic) _Bool possibleIntraAccountSharing;
-@property(readonly, nonatomic) unsigned long long possibleManageability;
-@property(readonly, nonatomic) unsigned long long possibleShareability;
-@property(readonly, nonatomic) PKPassShareTimeConfiguration *possibleTimeConfiguration;
-@property(readonly, nonatomic) unsigned long long possibleVisibility;
-@property(nonatomic) unsigned long long shareability;
-@property(retain, nonatomic) PKPassShareTimeConfiguration *timeConfiguration;
-@property(nonatomic) unsigned long long visibility;
 
 @end
 

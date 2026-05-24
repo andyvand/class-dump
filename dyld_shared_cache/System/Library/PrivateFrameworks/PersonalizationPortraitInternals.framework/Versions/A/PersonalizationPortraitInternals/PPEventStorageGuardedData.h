@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKTimedEventStorePurger, NSSet;
+@class EKTimedEventStorePurger;
 
 @interface PPEventStorageGuardedData
 {
     EKTimedEventStorePurger *_ekStorePurger;
-    NSSet *_calendarIdentifiers;
-    NSSet *_invisibleCalendarIdentifiers;
-    NSSet *_calendarObjectIDs;
-    unsigned long long _activeNoPurgeSessions;
 }
 
 - (id);

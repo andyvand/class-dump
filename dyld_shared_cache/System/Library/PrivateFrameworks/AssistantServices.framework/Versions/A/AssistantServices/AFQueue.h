@@ -5,25 +5,21 @@
 //
 
 @class AFLinkedListItem;
-@protocol AFQueueDelegate;
 
 @interface AFQueue
 {
     AFLinkedListItem *_head;
-    AFLinkedListItem *_tail;
-    unsigned long long _count;
-    id <AFQueueDelegate> _delegate;
 }
 
+- (id),N,V_ageCategory;
+- (void)le.passbook.payment.contactlessinterface.presentation.pearl.field-detect;
+- (id)!;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -31,8 +27,6 @@
 - (unsigned long long)_connectionPolicyFirstFailureDate;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) __weak id <AFQueueDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) id frontObject;
 
 @end

@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCloudContext, NSMutableOrderedSet, NSString, SFMoreResults, SFRankingFeedback;
-
 @interface FCArticleSearchStream
 {
     _Bool _fetching;
-    _Bool _finished;
-    NSString *_keyboardInputMode;
-    double _scale;
-    NSString *_query;
-    SFMoreResults *_moreResults;
-    SFRankingFeedback *_rankingFeedback;
-    FCCloudContext *_cloudContext;
-    unsigned long long _parsecQueryID;
-    NSMutableOrderedSet *_articleSearchResults;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)4;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (double);
-- (_Bool);
+- (double)A;
+- (_Bool)timeMachineSession;
 - (void);
 - (id)!`Dù±)	°1Â0@ù
 × ;
@@ -46,23 +35,7 @@
 - (void)xQ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableOrderedSet *articleSearchResults; // @synthesize articleSearchResults=_articleSearchResults;
-@property(retain, nonatomic) FCCloudContext *cloudContext; // @synthesize cloudContext=_cloudContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool fetching; // @synthesize fetching=_fetching;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) NSString *keyboardInputMode; // @synthesize keyboardInputMode=_keyboardInputMode;
-@property(retain, nonatomic) SFMoreResults *moreResults; // @synthesize moreResults=_moreResults;
-@property(nonatomic) unsigned long long parsecQueryID; // @synthesize parsecQueryID=_parsecQueryID;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) SFRankingFeedback *rankingFeedback; // @synthesize rankingFeedback=_rankingFeedback;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
 
 @end
 

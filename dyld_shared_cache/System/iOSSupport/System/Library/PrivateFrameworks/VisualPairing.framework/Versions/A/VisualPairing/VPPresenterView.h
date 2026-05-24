@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, CALayer, NSArray, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class AVPlayer, NSString;
 
 @interface VPPresenterView
 {
     AVPlayer *_moviePlayer;
     _Bool _started;
-    CALayer *_watermarkLayer;
-    NSArray *_watermarkPixelBuffers;
-    unsigned long long _watermarkStepIndex;
-    NSObject<OS_dispatch_source> *_watermarkStepTimer;
-    unsigned int _flags;
-    float _watermarkOpacityMultiplier;
-    NSString *_verificationCode;
-    unsigned long long _watermarkScaleFactor;
 }
 
-- (unsigned long long);
+- (unsigned long long)!;
 - (float);
 - (void);
-- (void);
-- (void);
+- (void)ka;
+- (void)�#;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ference. The second argument is the difference.;
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)omains:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
 @property(copy, nonatomic) NSString *verificationCode; // @synthesize verificationCode=_verificationCode;
-// Error: Property attributes should begin with the type ('T') attribute, property name: watermarkOpacityMultiplier
-// Property attributes: (null)
-
-@property(nonatomic) unsigned long long watermarkScaleFactor; // @synthesize watermarkScaleFactor=_watermarkScaleFactor;
 
 @end
 

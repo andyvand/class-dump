@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface KTVaudenaySASConfiguration
 {
     int _shortCodeLength;
-    NSString *_name;
-    const struct ccdigest_info *_di;
-    NSData *_digestPrefix;
-    unsigned long long _shortCodeMod10;
 }
 
 + (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (void)[;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (const struct ccdigest_info *);
 - (int);
 - (id);
@@ -31,10 +25,6 @@
 
 // Remaining properties
 @property const struct ccdigest_info *di; // @synthesize di=_di;
-@property(retain) NSData *digestPrefix; // @synthesize digestPrefix=_digestPrefix;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property int shortCodeLength; // @synthesize shortCodeLength=_shortCodeLength;
-@property unsigned long long shortCodeMod10; // @synthesize shortCodeMod10=_shortCodeMod10;
 
 @end
 

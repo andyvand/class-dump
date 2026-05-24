@@ -4,44 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTFingerprintManager, RTLocationManager, RTMotionActivityManager, RTPOIHarvestParameters;
+@class RTFingerprintManager;
 
 @interface RTPOIHarvester
 {
     RTFingerprintManager *_fingerprintManager;
-    RTLocationManager *_locationManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTPOIHarvestParameters *_parameters;
 }
 
-+ (id);
-+ (int);
++ (id)ozone;
++ (int)oval;
 - (id);
-- (id);
+- (id)mework/Versions/A/CoreServices;
 - (_Bool);
-- (_Bool);
+- (_Bool)d/or viewhint for service %@;
+- (id)rigid;
+- (id)inquiry;
+- (_Bool)alter;
+- (id)* _Nullable);
+- (id)CSKeyEnvelopeCreate(PCSShareProtectionRef _Nonnull, CFDataRef _Nonnull, CFErrorRef * _Nullable);
+- (id)udStorage/Backup;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)ProviderID;
+- (void)resultProviderID;
 - (void), %@, deviceModel, %{sensitive}@, idx, %lu, carrying count, %lu, journey count, %lu;
 - (id), %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTFingerprintManager *fingerprintManager; // @synthesize fingerprintManager=_fingerprintManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(readonly, copy, nonatomic) RTPOIHarvestParameters *parameters; // @synthesize parameters=_parameters;
 
 @end
 

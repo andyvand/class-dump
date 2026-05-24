@@ -5,5 +5,6 @@
 //
 
 @protocol CNAsynchronousCacheEntryDelegate
+- (void);
 @end
 

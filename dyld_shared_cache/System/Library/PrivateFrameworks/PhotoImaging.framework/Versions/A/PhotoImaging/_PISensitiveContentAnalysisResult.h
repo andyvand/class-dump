@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SCMLImageSanitization;
-@protocol NURenderStatistics;
+@class SCMLImageSanitization;
 
 @interface _PISensitiveContentAnalysisResult
 {
@@ -17,21 +16,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (void)36@0:8@16B24@?28 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSafe;
 @property(retain, nonatomic) SCMLImageSanitization *sanitization; // @synthesize sanitization=_sanitization;
-@property(readonly, nonatomic) double sensitivityScore;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

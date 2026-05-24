@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PRSiriSchemaPRJointResolverCallFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)H;
+- (unsigned long long)tored.ASDRepairBundleID;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id)Agent;
+- (id)=;
+- (id)_settingsAgent;
 - (id)imulator;
-- (_Bool)_RESPONSE_GENERATION;
+- (_Bool)CDMSERVICETYPE_RESPONSE_GENERATION;
 - (_Bool).internalSpanData.siriVocabularySpanData.priorOrdinality;
 - (void)¹¬P#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

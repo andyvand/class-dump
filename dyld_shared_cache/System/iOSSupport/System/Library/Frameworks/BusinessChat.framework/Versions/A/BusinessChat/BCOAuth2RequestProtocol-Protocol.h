@@ -8,6 +8,8 @@
 @protocol BCBaseOAuth2Protocol;
 
 @protocol BCOAuth2RequestProtocol
+- (id <BCBaseOAuth2Protocol>)removeAllNodes;
+- (NSString *)previewController:didSaveEditedCopyOfPreviewItem:atURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *businessIdentifier;

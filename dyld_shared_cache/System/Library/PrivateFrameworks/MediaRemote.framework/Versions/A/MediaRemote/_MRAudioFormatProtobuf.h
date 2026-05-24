@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRAudioFormatProtobuf
 {
     long long _bitDepth;
-    long long _bitrate;
-    long long _sampleRate;
-    NSString *_audioChannelLayoutDescription;
-    unsigned int _channelLayout;
-    unsigned int _codec;
-    NSString *_groupID;
-    int _renderingMode;
-    NSString *_stableVariantID;
-    int _tier;
-    _Bool _multiChannel;
-    _Bool _spatialized;
-    struct {
-        unsigned int bitDepth:1;
-        unsigned int bitrate:1;
-        unsigned int sampleRate:1;
-        unsigned int channelLayout:1;
-        unsigned int codec:1;
-        unsigned int renderingMode:1;
-        unsigned int tier:1;
-        unsigned int multiChannel:1;
-        unsigned int spatialized:1;
-    } _has;
 }
 
 - (void);
@@ -46,7 +22,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -58,7 +34,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void).;
 - (void);
 - (long long);
 - (int);
@@ -72,52 +48,29 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (_Bool);
-- (int);
+- (_Bool)wrappingLabelWithString:(id)arg1;
+- (int)eted (imagentIncomingAttachment);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)(;
+- (void),N,V_continuousListening;
+- (void)ke;
+- (id)FPreferences appendToSiriDataSharingOptInStatusHistory:previousOptInStatus:statusChangeSource:reason:] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (_Bool);
 - (long long);
 - (id);
-- (void)rOutputDeviceUIDs;
+- (void)clearOutputDeviceUIDs;
 - (void),V_numAvailableSkips;
 - (_Bool),l;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *audioChannelLayoutDescription; // @synthesize audioChannelLayoutDescription=_audioChannelLayoutDescription;
-@property(nonatomic) long long bitDepth; // @synthesize bitDepth=_bitDepth;
-@property(nonatomic) long long bitrate; // @synthesize bitrate=_bitrate;
-@property(nonatomic) unsigned int channelLayout; // @synthesize channelLayout=_channelLayout;
-@property(nonatomic) unsigned int codec; // @synthesize codec=_codec;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) _Bool hasAudioChannelLayoutDescription;
-@property(nonatomic) _Bool hasBitDepth;
-@property(nonatomic) _Bool hasBitrate;
-@property(nonatomic) _Bool hasChannelLayout;
-@property(nonatomic) _Bool hasCodec;
-@property(readonly, nonatomic) _Bool hasGroupID;
-@property(nonatomic) _Bool hasMultiChannel;
-@property(nonatomic) _Bool hasRenderingMode;
-@property(nonatomic) _Bool hasSampleRate;
-@property(nonatomic) _Bool hasSpatialized;
-@property(readonly, nonatomic) _Bool hasStableVariantID;
 @property(nonatomic) _Bool hasTier;
-@property(nonatomic) _Bool multiChannel; // @synthesize multiChannel=_multiChannel;
-@property(nonatomic) int renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) long long sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(nonatomic) _Bool spatialized; // @synthesize spatialized=_spatialized;
-@property(retain, nonatomic) NSString *stableVariantID; // @synthesize stableVariantID=_stableVariantID;
-@property(nonatomic) int tier; // @synthesize tier=_tier;
 
 @end
 

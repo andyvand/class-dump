@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CDDCloudKitServerConfiguration
 {
     NSString *_storeDirectoryPath;
-    NSString *_machServiceName;
 }
 
 + (_Bool);

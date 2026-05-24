@@ -9,13 +9,6 @@
 @interface ChatKit.TapbackPickerBalloonView : ChatKit.TapbackPickerContainerView
 {
     id pickerPill;
-    id emojiTail;
-    id mediumTail;
-    id smallTail;
-    id platterContentContainer;
-    id activeLayout;
-    id gyroSpring;
-    id hasPresented;
 }
 
 - (void)ß;

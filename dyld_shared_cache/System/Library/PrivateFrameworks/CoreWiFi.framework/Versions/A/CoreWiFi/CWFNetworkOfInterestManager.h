@@ -4,56 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSArray, NSDate, NSMutableSet, NSObject, NSString, NWNetworkOfInterestManager;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CWFNetworkOfInterestManager
 {
     NSObject<OS_dispatch_queue> *_noiQueue;
-    NSObject<OS_dispatch_semaphore> *_noiWaiter;
-    NWNetworkOfInterestManager *_noiManager;
-    HMHomeManager *_homeManager;
-    NSArray *_trackedHomeNetworks;
-    NSArray *_trackedWorkNetworks;
-    NSMutableSet *_homekitHomeNetworks;
-    NSDate *_lastHomeKitWiFiFetchTimestamp;
-    NSObject<OS_dispatch_source> *_homeKitFetchTimer;
-    CDUnknownBlockType _homeNetworkDeterminationChangedHandler;
-    CDUnknownBlockType _workNetworkDeterminationChangedHandler;
 }
 
++ (id);
 + (id);
-+ (id);
-- (long long);
+- (long long);
 - (long long);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (long long);
+- (void)9h;
+- (long long);
 - (long long);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)}	�`;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void)ointScanResults;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) CDUnknownBlockType homeNetworkDeterminationChangedHandler; // @synthesize homeNetworkDeterminationChangedHandler=_homeNetworkDeterminationChangedHandler;
-@property(readonly) Class superclass;
-@property(copy) CDUnknownBlockType workNetworkDeterminationChangedHandler; // @synthesize workNetworkDeterminationChangedHandler=_workNetworkDeterminationChangedHandler;
 
 @end
 

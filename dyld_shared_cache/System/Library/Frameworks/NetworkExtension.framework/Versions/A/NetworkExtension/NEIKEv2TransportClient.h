@@ -5,17 +5,14 @@
 //
 
 @class NEIKEv2IKESPI;
-@protocol NEIKEv2TransportDelegate;
 
 @interface NEIKEv2TransportClient
 {
     NEIKEv2IKESPI *_clientSPI;
-    NEIKEv2IKESPI *_remoteSPI;
-    id <NEIKEv2TransportDelegate> _delegate;
 }
 
 - (id);
-- (void)nfiguration;
+- (void)updateDefaultAfterDeletingConfiguration;
 
 @end
 

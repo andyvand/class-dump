@@ -6,15 +6,11 @@
 
 #import <RunningBoardServices/RBSGrant.h>
 
-@class NSArray, NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface RBSHereditaryGrant : RBSGrant
 {
     NSString *_endowmentNamespace;
-    NSString *_sourceEnvironment;
-    NSObject<OS_xpc_object> *_encodedEndowment;
-    NSArray *_attributes;
 }
 
 + (id);
@@ -22,10 +18,7 @@
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *encodedEndowment; // @synthesize encodedEndowment=_encodedEndowment;
 @property(readonly, copy, nonatomic) NSString *endowmentNamespace; // @synthesize endowmentNamespace=_endowmentNamespace;
-@property(readonly, copy, nonatomic) NSString *sourceEnvironment; // @synthesize sourceEnvironment=_sourceEnvironment;
 
 @end
 

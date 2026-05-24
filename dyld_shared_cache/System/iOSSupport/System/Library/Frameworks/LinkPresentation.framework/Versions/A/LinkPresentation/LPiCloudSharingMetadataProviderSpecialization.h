@@ -6,30 +6,25 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class CKContainer, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiCloudSharingMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     NSString *_applicationFromURL;
-    NSString *_kindFromURL;
-    NSString *_titleFromURL;
-    CKContainer *_baseContainer;
-    CKContainer *_applicationContainer;
-    _Bool _canceled;
 }
 
-+ (id);
-+ (id);
++ (id)supportsAlignmentWithOriginationSubAvatarFrame;
++ (id)stateRestorationActivity;
 + (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)tintableMessageBalloon;
+- (id)timeLabelColorFor:(id)arg1 idiom: /* Error: Ran out of types for this method. */;
+- (void)textStyleCommandsWithAction:(id)arg1 configureImages:(id)arg2 configureAttributedTitles:selectedText: /* Error: Ran out of types for this method. */;
+- (void)textStyleCommandsWithAction:(id)arg1 configureImages:(id)arg2 configureAttributedTitles:(id)arg3 activeTextStyles:(id)arg4 selectedText:(id)arg5;
+- (void)textStorage:(id)arg1 willProcessEditing:(id)arg2 range:(id)arg3 changeInLength:(id)arg4;
+- (_Bool)textPasteConfigurationSupporting:transformPasteItem: /* Error: Ran out of types for this method. */;
+- (_Bool)textPasteConfigurationSupporting:(id)arg1 shouldAnimatePasteOfAttributedString:toRange: /* Error: Ran out of types for this method. */;
+- (id)textEffectCoordinator:(id)arg1 textViewForTextViewIdentifier:(id)arg2;
 - (void);
 - (void);
 - (void);

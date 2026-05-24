@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NSPrintInfoDictionaryProxy
 {
     NSPrintInfo *_printInfo;
-    int _purpose;
 }
 
 + (id);
-+ (id);
++ (id)@;
 - (id);
 - (void);
 - (oneway void);
-- (id);
+- (id)protocol;
 - (void);
-- (id);
-- (void);
+- (id)`;
+- (void);
 - (id)1Â0@ù
 × ;
 - (unsigned long long)edDuringMouseDrag ;

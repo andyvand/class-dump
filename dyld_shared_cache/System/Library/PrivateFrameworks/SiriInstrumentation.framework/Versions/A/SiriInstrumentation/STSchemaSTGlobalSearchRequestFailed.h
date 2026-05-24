@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTFailureError;
-
 @interface STSchemaSTGlobalSearchRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    STSchemaSTFailureError *_stError;
-    CDStruct_6555f803 _has;
-    _Bool _hasStError;
 }
 
 - (void);
@@ -21,29 +16,25 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (int);
+- (id);
+- (int)_userIncidentReportsIsolater;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setSupportsIPhone: /* Error: Ran out of types for this method. */;
+- (_Bool)AKCardViewImageDataSource;
+- (_Bool)ed column content_id.;
 - (void);
 - (id);
 - (id);
-- (id)requencyCount156Kilometers;
-- (id)tion;
+- (id)deleteLocationFrequencyCount156Kilometers;
+- (id)_hasRemovedSuggestion;
 - (void)ml.siri.rf.RFClientEvent.RFPatternExecuted;
-- (void)DEVENTORIGIN_SIRI_ATTENTION_AND_INVOCATION;
+- (void)ODDEVENTORIGIN_SIRI_ATTENTION_AND_INVOCATION;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStError; // @synthesize hasStError=_hasStError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) STSchemaSTFailureError *stError; // @synthesize stError=_stError;
 
 @end
 

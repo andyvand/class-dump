@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSFont, NSString;
+@class NSString;
 
 @interface TTRMUIPopUpButton
 {
     NSString *_deemphasizedString;
-    NSDictionary *_abbreviatedTitles;
-    double _targetWidth;
-    NSFont *_titleFont;
 }
 
 + (void);
@@ -23,7 +20,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)iltin_float.dylib;
 - (struct CGSize);
 - (id);
 - (_Bool);
@@ -34,10 +31,7 @@
 - (void)ÿÿÿTJùÿ<âlÿ¼ ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *abbreviatedTitles; // @synthesize abbreviatedTitles=_abbreviatedTitles;
 @property(copy, nonatomic) NSString *deemphasizedString; // @synthesize deemphasizedString=_deemphasizedString;
-@property(nonatomic) double targetWidth; // @synthesize targetWidth=_targetWidth;
-@property(retain, nonatomic) NSFont *titleFont; // @synthesize titleFont=_titleFont;
 
 @end
 

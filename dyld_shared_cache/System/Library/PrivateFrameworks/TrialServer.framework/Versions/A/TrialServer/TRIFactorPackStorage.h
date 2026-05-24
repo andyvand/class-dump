@@ -4,41 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIAssetExtracting, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRIFactorPackStorage
 {
     id <TRIPaths> _paths;
-    id <TRIAssetExtracting> _extractor;
 }
 
-+ (id);
++ (id)3;
 - (_Bool);
-- (id);
-- (id);
+- (id)c after receiving Notification Update confirmation;
+- (id)HAPUpdateNotReadyReasonLowBattery;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)NUAuxiliaryImageRenderJob;
+- (_Bool)%;
+- (id)`k;
+- (id);
+- (id);
+- (_Bool)`
+;
+- (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);

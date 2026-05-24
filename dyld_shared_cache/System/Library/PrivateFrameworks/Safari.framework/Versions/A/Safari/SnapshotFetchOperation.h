@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SnapshotFetchOperation
 {
     CDUnknownBlockType _completionHandler;
-    struct RefPtr<Safari::SiteMetadataFetcher, WTF::RawPtrTraits<Safari::SiteMetadataFetcher>, WTF::DefaultRefDerefTraits<Safari::SiteMetadataFetcher>> _fetcher;
 }
 
 - (void);
@@ -18,19 +15,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id)video;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

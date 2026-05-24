@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSString *_string;
 }
 
-- (id);
+- (id)suggestedTranslationLanguageCodes;
 - (id);
 - (void);
 

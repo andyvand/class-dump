@@ -7,11 +7,10 @@
 @class NSData;
 
 @protocol _SFPBCollectionStyleGrid
+- (NSData *)PHAssetPhotosSmartStyleExtendedProperties;
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) int gridStyle;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long numberOfColumns;
 @end
 

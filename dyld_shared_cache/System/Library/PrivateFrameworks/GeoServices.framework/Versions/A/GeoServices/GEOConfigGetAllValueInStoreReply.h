@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface GEOConfigGetAllValueInStoreReply : GEOXPCReply
 {
@@ -15,20 +15,13 @@
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void)ivityJunction;
+- (id)`;
+- (_Bool)initWithOAuth2Token:refreshToken:expiryDate: /* Error: Ran out of types for this method. */;
+- (void)_connectivityJunction;
 - (void)5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDictionary *keyStringsAndValues; // @synthesize keyStringsAndValues=_keyStringsAndValues;
-@property(readonly) Class superclass;
 
 @end
 

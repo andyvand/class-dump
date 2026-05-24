@@ -4,44 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUSystemMonitor, NSArray, NSData, NSMutableDictionary, NSObject, NSString, NSURL, SFDeviceDiscovery, SFService, SFSession;
-@protocol OS_dispatch_queue;
-
 @interface SFRemoteAutoFillService
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateCompletion;
-    SFDeviceDiscovery *_discovery;
-    int _discoveryState;
-    NSMutableDictionary *_devices;
-    _Bool _invalidateCalled;
-    NSString *_receivedPassword;
-    NSString *_receivedUsername;
-    _Bool _requestingAutoFill;
-    SFService *_service;
-    int _serviceState;
-    SFSession *_session;
-    NSData *_systemBTAddress;
-    CUSystemMonitor *_systemMonitor;
-    int _systemMonitorState;
-    NSURL *_urlForVisualScanning;
-    _Bool _unitTesting;
-    NSData *_appIconData;
-    NSArray *_associatedDomains;
-    NSString *_bundleID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_fixedPIN;
-    NSString *_localizedAppName;
-    NSString *_unlocalizedAppName;
-    NSString *_urlString;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _hidePINHandler;
-    CDUnknownBlockType _receivedCredentialsHandler;
-    CDUnknownBlockType _sessionStartedHandler;
-    CDUnknownBlockType _sessionEndedHandler;
-    CDUnknownBlockType _showPINHandlerEx;
-    CDUnknownBlockType _discoveredDevicesChanged;
-    CDUnknownBlockType _urlForVisualScanningChanged;
 }
 
 - (CDUnknownBlockType);
@@ -76,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -84,8 +49,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (CDUnknownBlockType);
+- (void){;
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
@@ -103,32 +68,14 @@
 - (CDUnknownBlockType)<;
 - (void)¥ÿÿ;
 - (id)FAppleIDClient/statusInfoWithCompletion;
-- (void)dCodingKeys;
+- (void)ConnectionInterruptedCodingKeys;
 - (_Bool);
-- (_Bool)ctivitySubjectMain;
+- (_Bool)SFAirDropActivitySubjectMain;
 - (id)ke;
-- (unsigned long long)deNetworkNotConnected;
+- (unsigned long long)SFAuthenticationErrorCodeNetworkNotConnected;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *appIconData; // @synthesize appIconData=_appIconData;
-@property(copy, nonatomic) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) unsigned long long discoveredDevices;
-@property(copy, nonatomic) CDUnknownBlockType discoveredDevicesChanged; // @synthesize discoveredDevicesChanged=_discoveredDevicesChanged;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) NSString *fixedPIN; // @synthesize fixedPIN=_fixedPIN;
-@property(copy, nonatomic) CDUnknownBlockType hidePINHandler; // @synthesize hidePINHandler=_hidePINHandler;
-@property(copy, nonatomic) NSString *localizedAppName; // @synthesize localizedAppName=_localizedAppName;
 @property(readonly, nonatomic) _Bool needsSetup;
-@property(copy, nonatomic) CDUnknownBlockType receivedCredentialsHandler; // @synthesize receivedCredentialsHandler=_receivedCredentialsHandler;
-@property(copy, nonatomic) CDUnknownBlockType sessionEndedHandler; // @synthesize sessionEndedHandler=_sessionEndedHandler;
-@property(copy, nonatomic) CDUnknownBlockType sessionStartedHandler; // @synthesize sessionStartedHandler=_sessionStartedHandler;
-@property(copy, nonatomic) CDUnknownBlockType showPINHandlerEx; // @synthesize showPINHandlerEx=_showPINHandlerEx;
-@property(nonatomic) _Bool unitTesting; // @synthesize unitTesting=_unitTesting;
-@property(copy, nonatomic) NSString *unlocalizedAppName; // @synthesize unlocalizedAppName=_unlocalizedAppName;
-@property(copy, nonatomic) CDUnknownBlockType urlForVisualScanningChanged; // @synthesize urlForVisualScanningChanged=_urlForVisualScanningChanged;
-@property(copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

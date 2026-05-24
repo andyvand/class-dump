@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NSPConfigurationSignatureInfo
 {
     NSArray *_certificates;
-    NSData *_signature;
-    unsigned long long _signatureAlgorithm;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)fingerprintSchemeForSignature: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(nonatomic) unsigned long long signatureAlgorithm; // @synthesize signatureAlgorithm=_signatureAlgorithm;
 
 @end
 

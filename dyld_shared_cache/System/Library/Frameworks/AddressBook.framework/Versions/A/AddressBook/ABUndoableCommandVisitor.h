@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABUndoableCommandVisitor
 {
     CDUnknownBlockType _didExecuteCommandWithSaveRequest;
-    CDUnknownBlockType _didExecuteCommandWithCNSaveRequest;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -24,7 +21,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,15 +30,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didExecuteCommandWithCNSaveRequest; // @synthesize didExecuteCommandWithCNSaveRequest=_didExecuteCommandWithCNSaveRequest;
 @property(copy, nonatomic) CDUnknownBlockType didExecuteCommandWithSaveRequest; // @synthesize didExecuteCommandWithSaveRequest=_didExecuteCommandWithSaveRequest;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

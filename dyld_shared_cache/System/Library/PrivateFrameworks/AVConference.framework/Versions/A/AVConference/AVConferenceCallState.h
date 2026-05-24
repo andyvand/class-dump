@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCCapabilities;
-
 __attribute__((visibility("hidden")))
 @interface AVConferenceCallState
 {
     _Bool _audioIsPaused;
-    VCCapabilities *_capabilities;
-    _Bool _isVideoPaused;
-    _Bool _isAudioSending;
-    unsigned char _relayedCallType;
 }
 
 - (void);
@@ -23,17 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned char);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic, getter=isAudioPaused) _Bool audioIsPaused; // @synthesize audioIsPaused=_audioIsPaused;
-@property(retain, nonatomic) VCCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic, getter=isAudioSending) _Bool isAudioSending; // @synthesize isAudioSending=_isAudioSending;
-@property(nonatomic, getter=isVideoPaused) _Bool isVideoPaused; // @synthesize isVideoPaused=_isVideoPaused;
-@property(nonatomic) unsigned char relayedCallType; // @synthesize relayedCallType=_relayedCallType;
 
 @end
 

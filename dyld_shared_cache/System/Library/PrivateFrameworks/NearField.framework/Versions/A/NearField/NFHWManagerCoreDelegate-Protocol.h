@@ -5,5 +5,7 @@
 //
 
 @protocol NFHWManagerCoreDelegate
+- (void);
+- (void)tV;
 @end
 

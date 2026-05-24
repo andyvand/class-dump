@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSColor, NSImage, NSString;
-@protocol FavoritesPickerCellViewAccessibilityDelegate;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerCellView
 {
     NSButton *_button;
-    NSString *_label;
-    int _style;
-    id <FavoritesPickerCellViewAccessibilityDelegate> _accessibilityDelegate;
 }
 
 - (void);
@@ -25,23 +21,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)pen?groupid=%@;
 - (void);
 - (void);
 - (id);
-- (void)atingViaBackForwardList;
+- (void)_navigatingViaBackForwardList;
 - (id)¸±;
 - (void);
-- (id)ame;
+- (id)didReceiveServerRedirectForProvisionalLoadForFrame;
 - (void);
 - (void);
 - (id)¼´;
 
 // Remaining properties
-@property(nonatomic) __weak id <FavoritesPickerCellViewAccessibilityDelegate> accessibilityDelegate; // @synthesize accessibilityDelegate=_accessibilityDelegate;
-@property(retain, nonatomic) NSColor *backgroundColor;
-@property(retain, nonatomic) NSImage *image;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) int style; // @synthesize style=_style;
 
 @end

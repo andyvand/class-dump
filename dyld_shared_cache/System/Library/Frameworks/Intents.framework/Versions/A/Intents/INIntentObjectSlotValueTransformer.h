@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)yloadNumericSettingValues: /* Error: Ran out of types for this method. */;
++ (long long)setPayloadNumericSettingValues: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ring",C,N,V_flightNumber;
 

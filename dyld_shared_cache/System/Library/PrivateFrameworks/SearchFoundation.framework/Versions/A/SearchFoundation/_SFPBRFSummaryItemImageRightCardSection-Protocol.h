@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemImageRightCardSection
+- (_SFPBRFTextProperty *);
+- (void);
+- (void);
+- (_SFPBRFTextProperty *){CGRect={CGPoint=dd}{CGSize=dd}}36@0:8@16@24B32 /* Error: Ran out of types for this method. */;
+- (NSData *)"NSNumber",R,N,V_invitationState;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2s;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_2;
 @end
 

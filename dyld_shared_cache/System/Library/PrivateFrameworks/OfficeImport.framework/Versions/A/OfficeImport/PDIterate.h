@@ -8,15 +8,12 @@ __attribute__((visibility("hidden")))
 @interface PDIterate
 {
     int mType;
-    _Bool mIsBackwards;
-    _Bool mIsPercentage;
-    double mValue;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)$;
 - (void);
 - (unsigned long long);
 - (int);

@@ -5,6 +5,7 @@
 //
 
 @protocol MPMusicKitIdentifiers
+- (long long)o;
 
 // Remaining properties
 @property(readonly, nonatomic) long long musicKit_possibleLibraryPersistentID;

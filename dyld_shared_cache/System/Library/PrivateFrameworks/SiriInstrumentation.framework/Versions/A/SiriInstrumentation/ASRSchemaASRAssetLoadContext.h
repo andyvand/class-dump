@@ -6,47 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRAssetLoadEnded, ASRSchemaASRAssetLoadStarted, NSData;
+@class ASRSchemaASRAssetLoadStarted;
 
 @interface ASRSchemaASRAssetLoadContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRAssetLoadStarted *_startedOrChanged;
-    ASRSchemaASRAssetLoadEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)Х;
+- (void)0:(id)arg1 8@16@24@?32;
+- (void)thirdActionRadionButton;
 - (id);
+- (id)SString",C,V_serialNumber;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)tmRequestContext: /* Error: Ran out of types for this method. */;
+- (id)setTtmRequestContext: /* Error: Ran out of types for this method. */;
 - (id)Hà$0;
 - (id);
 - (void)$V¬W1';
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRAssetLoadEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRAssetLoadStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

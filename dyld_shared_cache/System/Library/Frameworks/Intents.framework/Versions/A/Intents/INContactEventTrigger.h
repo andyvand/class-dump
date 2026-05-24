@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSString;
+@class INPerson;
 
 @interface INContactEventTrigger
 {
@@ -15,28 +15,21 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_GCMotionEventImpl;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__configureScanManagerChannels:(id)arg1 forInterface: /* Error: Ran out of types for this method. */;
+- (void)Telecom_hk.5532f0e2-d474-11eb-a447-f45c89abb0d9;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)rs;
-- (void)arm:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_pausedTimers;
+- (void)provideAlarmOptionsForUpdateAlarm:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ùO=0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) INPerson *triggerContact; // @synthesize triggerContact=_triggerContact;
 
 @end
 

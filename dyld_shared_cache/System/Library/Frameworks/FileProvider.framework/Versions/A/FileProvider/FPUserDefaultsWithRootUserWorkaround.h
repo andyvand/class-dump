@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUserDefaults;
+@class NSUserDefaults;
 
 __attribute__((visibility("hidden")))
 @interface FPUserDefaultsWithRootUserWorkaround
 {
     NSUserDefaults *_userDefaults;
-    NSDictionary *_localUserDefaults;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

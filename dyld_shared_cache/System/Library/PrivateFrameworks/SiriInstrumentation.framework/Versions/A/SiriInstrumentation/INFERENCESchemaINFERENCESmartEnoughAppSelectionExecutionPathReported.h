@@ -6,23 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCESmartEnoughAppSelectionExecutionPathReported : SISchemaInstrumentationMessage
 {
     int _executionPath;
-    int _projectIntent;
-    struct {
-        unsigned int executionPath:1;
-        unsigned int projectIntent:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (int);
@@ -37,14 +30,10 @@
 - (id)ÑßÐ1Â0@ù
 × ;
 - (id)planResolutions;
-- (id)hemaPNRODExecutor;
+- (id)PNRODSchemaPNRODExecutor;
 
 // Remaining properties
 @property(nonatomic) int executionPath; // @synthesize executionPath=_executionPath;
-@property(nonatomic) _Bool hasExecutionPath;
-@property(nonatomic) _Bool hasProjectIntent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int projectIntent; // @synthesize projectIntent=_projectIntent;
 
 @end
 

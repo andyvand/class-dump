@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableData;
+@class NSMutableData;
 
 @interface SGCNContactIdentifierCollection
 {
     NSMutableData *_optimizedBuffer;
-    NSMutableArray *_unoptimizedIdentifiers;
 }
 
 - (id);
-- (void);
-- (_Bool);
+- (void)showCertificatePanelInWindow:(id)arg1 isSetup:withAccount:saveHandler:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)saveAccount:(id)arg1 withDataclassActions:doVerify:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

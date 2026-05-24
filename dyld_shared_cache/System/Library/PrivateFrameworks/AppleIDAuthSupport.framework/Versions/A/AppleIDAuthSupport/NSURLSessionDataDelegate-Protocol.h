@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)DiskIOR=0x%x;
 @end
 

@@ -9,22 +9,18 @@
 @interface CHTriangleRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _vertex1;
-    struct CGPoint _vertex2;
-    struct CGPoint _vertex3;
 }
 
-+ (_Bool);
++ (_Bool)_isOpaque;
 - (id);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)Q;
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)CKEphemeralEventSequence;
 
 // Remaining properties
 @property(readonly) struct CGPoint vertex1; // @synthesize vertex1=_vertex1;
-@property(readonly) struct CGPoint vertex2; // @synthesize vertex2=_vertex2;
-@property(readonly) struct CGPoint vertex3; // @synthesize vertex3=_vertex3;
 
 @end
 

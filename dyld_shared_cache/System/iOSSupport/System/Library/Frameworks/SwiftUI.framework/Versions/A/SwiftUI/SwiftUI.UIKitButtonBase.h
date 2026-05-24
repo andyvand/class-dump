@@ -12,7 +12,7 @@
 - (id);
 - (id);
 - (void)aDÌØÁÀþ;
-- (void)lPlatformItemListFlags;
+- (void)LabelPlatformItemListFlags;
 - (void);
 
 @end

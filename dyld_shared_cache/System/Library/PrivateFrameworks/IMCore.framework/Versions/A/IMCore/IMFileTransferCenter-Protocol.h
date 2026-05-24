@@ -5,5 +5,8 @@
 //
 
 @protocol IMFileTransferCenter
+- (void)interface for NW Endpoint=%s;
+- (void)t=%s;
+- (void)hu;
 @end
 

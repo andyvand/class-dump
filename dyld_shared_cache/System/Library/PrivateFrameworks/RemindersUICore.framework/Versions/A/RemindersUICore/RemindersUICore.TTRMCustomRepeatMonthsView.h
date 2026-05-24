@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSView;
+@class NSButton;
 
 @interface RemindersUICore.TTRMCustomRepeatMonthsView
 {
     void eachToggleButton;
-    void daysOfTheMonthContainerView;
-    void onTheToggleButton;
-    void weekAndDayContainerView;
-    id customRepeatMonths;
-    id daysOfTheMonthGridView;
-    id weekAndDayView;
 }
 
 - (id);
@@ -24,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -34,10 +28,7 @@
 - (void)DataModelSource:fetch Assigned tree /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak NSView *daysOfTheMonthContainerView; // @synthesize daysOfTheMonthContainerView;
 @property(nonatomic) __weak NSButton *eachToggleButton; // @synthesize eachToggleButton;
-@property(nonatomic) __weak NSButton *onTheToggleButton; // @synthesize onTheToggleButton;
-@property(nonatomic) __weak NSView *weekAndDayContainerView; // @synthesize weekAndDayContainerView;
 
 @end
 

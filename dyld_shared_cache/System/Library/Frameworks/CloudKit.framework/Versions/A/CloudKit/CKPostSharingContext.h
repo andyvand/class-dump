@@ -6,8 +6,6 @@
 
 #import <CloudKit/CKSharingContext.h>
 
-@class NSArray, NSString;
-
 @interface CKPostSharingContext : CKSharingContext
 {
 }
@@ -23,17 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CoreHAP/HAP2EncodedResponseThread.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface HAP2EncodedListPairingsResponseThread : HAP2EncodedResponseThread
 {
@@ -15,18 +15,10 @@
 
 - (id);
 - (id);
-- (void)etBrowser:operationQueue: /* Error: Ran out of types for this method. */;
+- (void)setBrowser:operationQueue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *pairings; // @synthesize pairings=_pairings;
-@property(readonly) Class superclass;
 
 @end
 

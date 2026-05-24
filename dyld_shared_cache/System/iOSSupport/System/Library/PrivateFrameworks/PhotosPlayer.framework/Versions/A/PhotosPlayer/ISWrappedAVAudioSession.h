@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, NSHashTable, NSString;
+@class AVAudioSession;
 
 @interface ISWrappedAVAudioSession
 {
     _Bool _didBeginObservingOutputVolume;
-    NSString *_expectedCategory;
-    NSString *_expectedMode;
-    NSHashTable *_main_volumeObservers;
-    AVAudioSession *_audioSession;
 }
 
-+ (void);
++ (void)_accessibilityCaptions;
++ (id)_accessibilityBoundsForRange: /* Error: Ran out of types for this method. */;
++ (void)_aboveRepsLayerHost;
++ (id)_aStylesheet;
++ (void)_URLActionFactory;
++ (id)_STAXColumnForStorageRelativeCharIndex: /* Error: Ran out of types for this method. */;
++ (void)_DOMObjectProviderFactory;
++ (id)_DOMFactory;
++ (void)URLWithString:(CDUnknownBlockType)arg1;
++ (id)URLQueryAllowedCharacterSet;
 + (id);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)_pageDecelerationTarget;
+- (_Bool)_lastObservedVisibilityState;
+- (void)_inversionBehavior;
+- (id)_executing;
+- (void)_accessibilityTextOperations;
+- (void)ConvertibleValue=dQ},R,N,V_left;
+- (void){_NSRange=QQ},N,V_actualRange;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -47,8 +43,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AVAudioSession *audioSession; // @synthesize audioSession=_audioSession;
-@property(readonly, nonatomic) NSString *category;
-@property(readonly, nonatomic) NSString *mode;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface _PXStoryPrecomposedTimelineSegment
 {
     BOOL _transitionKind;
-    id <PXStoryClipComposition> _clipComposition;
 }
 
 - (BOOL);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStoryClipComposition> clipComposition; // @synthesize clipComposition=_clipComposition;
-@property(nonatomic) BOOL transitionKind; // @synthesize transitionKind=_transitionKind;
 
 @end
 

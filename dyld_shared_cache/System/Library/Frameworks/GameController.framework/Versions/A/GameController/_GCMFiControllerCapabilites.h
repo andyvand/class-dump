@@ -8,22 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _GCMFiControllerCapabilites
 {
     unsigned int _type;
-    unsigned int _buttonPresent;
-    unsigned int _buttonDigital;
-    unsigned int _dpadPresent:4;
-    unsigned int _dpadDigital:4;
-    unsigned char _thumbstickPresent;
-    unsigned char _thumbstickDigital;
-    unsigned int _homePresent:1;
-    unsigned int _homeDigital:1;
-    unsigned int _menuPresent:1;
-    unsigned int _menuDigital:1;
-    unsigned int _optionsPresent:1;
-    unsigned int _optionsDigital:1;
-    unsigned int _recordPresent:1;
-    unsigned int _recordDigital:1;
-    unsigned int _snapshotPresent:1;
-    unsigned int _snapshotDigital:1;
 }
 
 + (_Bool);

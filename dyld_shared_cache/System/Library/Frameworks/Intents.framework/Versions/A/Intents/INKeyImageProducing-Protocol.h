@@ -8,7 +8,10 @@
 @protocol INKeyImageProducing;
 
 @protocol INKeyImageProducing
-- (long long)type:(id <INKeyImageProducing>)arg1 artwork:(id <INKeyImageProducing>)arg2 artist: /* Error: Ran out of types for this method. */;
+- (long long)initWithIdentifier:(id <INKeyImageProducing>)arg1 title:(id <INKeyImageProducing>)arg2 type:artwork:artist: /* Error: Ran out of types for this method. */;
+
+@optional
+- (_Bool);
 
 // Remaining properties
 @property(readonly) INImage *_keyImage;

@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray;
+@class NSDate;
 
 @interface RTLearnedLocationEngineTrainingMetrics
 {
     _Bool _trainedVisits;
-    NSDate *_trainVisitsStart;
-    NSDate *_trainVisitsStop;
-    double _intervalSinceLastAttempt;
-    unsigned long long _visitCountDevice;
-    unsigned long long _visitCountTotal;
-    unsigned long long _placeCountDevice;
-    unsigned long long _placeCountTotal;
-    unsigned long long _mode;
-    unsigned long long _reason;
-    unsigned long long _locationsProcessed;
-    double _maxIntervalBetweenLocations;
-    NSMutableArray *_awdVisits;
-    NSMutableArray *_awdPlaces;
-    NSMutableArray *_visits;
-    NSMutableArray *_places;
-    unsigned long long _visitCountUnlabeled;
-    unsigned long long _wasDeferred;
 }
 
 - (unsigned long long);
@@ -33,6 +16,7 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,8 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,20 +34,20 @@
 - (double);
 - (unsigned long long);
 - (double);
-- (id);
-- (id);
-- (id);
+- (id)tites requested; creating empty set;
+- (id)sick;
+- (id)shuffle;
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)s:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (id)(error:%d) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)?kA;
 - (void);
 - (void);
 - (double);
@@ -72,24 +55,7 @@
 - (unsigned long long), %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *awdPlaces; // @synthesize awdPlaces=_awdPlaces;
-@property(readonly, nonatomic) NSMutableArray *awdVisits; // @synthesize awdVisits=_awdVisits;
-@property(nonatomic) double intervalSinceLastAttempt; // @synthesize intervalSinceLastAttempt=_intervalSinceLastAttempt;
-@property(nonatomic) unsigned long long locationsProcessed; // @synthesize locationsProcessed=_locationsProcessed;
-@property(nonatomic) double maxIntervalBetweenLocations; // @synthesize maxIntervalBetweenLocations=_maxIntervalBetweenLocations;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(nonatomic) unsigned long long placeCountDevice; // @synthesize placeCountDevice=_placeCountDevice;
-@property(nonatomic) unsigned long long placeCountTotal; // @synthesize placeCountTotal=_placeCountTotal;
-@property(retain) NSMutableArray *places; // @synthesize places=_places;
-@property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 @property(readonly, nonatomic) NSDate *trainVisitsStart; // @synthesize trainVisitsStart=_trainVisitsStart;
-@property(readonly, nonatomic) NSDate *trainVisitsStop; // @synthesize trainVisitsStop=_trainVisitsStop;
-@property(nonatomic) _Bool trainedVisits; // @synthesize trainedVisits=_trainedVisits;
-@property(nonatomic) unsigned long long visitCountDevice; // @synthesize visitCountDevice=_visitCountDevice;
-@property(nonatomic) unsigned long long visitCountTotal; // @synthesize visitCountTotal=_visitCountTotal;
-@property(nonatomic) unsigned long long visitCountUnlabeled; // @synthesize visitCountUnlabeled=_visitCountUnlabeled;
-@property(retain) NSMutableArray *visits; // @synthesize visits=_visits;
-@property(nonatomic) unsigned long long wasDeferred; // @synthesize wasDeferred=_wasDeferred;
 
 @end
 

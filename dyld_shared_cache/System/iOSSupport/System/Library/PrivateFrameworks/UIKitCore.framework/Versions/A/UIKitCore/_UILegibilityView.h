@@ -6,18 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImage, UIImageView, _UILegibilitySettings;
+@class _UILegibilitySettings;
 
 @interface _UILegibilityView : UIView
 {
     _Bool _hidesImage;
-    _UILegibilitySettings *_settings;
-    UIImage *_image;
-    UIImage *_shadowImage;
-    double _strength;
-    UIImageView *_imageView;
-    UIImageView *_shadowImageView;
-    long long _options;
 }
 
 - (_Bool);
@@ -28,19 +21,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)setUnformattedID:(long long)arg1;
+- (id)setUnattributed:(long long)arg1;
+- (id)setSyncJobState:(id)arg1;
+- (id)setSyncControllerSyncType:(id)arg1;
+- (id)setSyncControllerSyncState:(id)arg1 withRecordType:(double)arg2;
+- (_Bool)relayMessage:chat:didSendSMS:attemptingReplication:forceReflection:relayToWatchOnly:shouldDisableScreenTimeRestrictions:callerID:iMessageCapability:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (id)isAttachmentReferencedByMessage: /* Error: Ran out of types for this method. */;
+- (id)ssageProcessingPipelineComponent> Rejecting message with GUID:%@ /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (double);
+- (double)u;
 - (void);
 - (void);
 - (void);
@@ -59,16 +52,7 @@
 - (void)FÓÈ=_;
 
 // Remaining properties
-@property(nonatomic) _Bool hidesImage; // @synthesize hidesImage=_hidesImage;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) long long options; // @synthesize options=_options;
 @property(retain, nonatomic) _UILegibilitySettings *settings; // @synthesize settings=_settings;
-@property(retain, nonatomic) UIImage *shadowImage; // @synthesize shadowImage=_shadowImage;
-@property(retain, nonatomic) UIImageView *shadowImageView; // @synthesize shadowImageView=_shadowImageView;
-@property(nonatomic) double strength; // @synthesize strength=_strength;
-@property(readonly, nonatomic) long long style; // @dynamic style;
-@property(readonly, nonatomic) _Bool usesColorFilters;
 
 @end
 

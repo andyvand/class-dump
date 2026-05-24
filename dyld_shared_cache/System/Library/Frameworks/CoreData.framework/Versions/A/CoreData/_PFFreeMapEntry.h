@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface _PFFreeMapEntry
 {
     int _retainCount;
-    NSMutableSet *_owners;
 }
 
 - (void);

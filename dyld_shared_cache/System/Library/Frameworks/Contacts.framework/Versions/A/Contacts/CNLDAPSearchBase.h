@@ -9,7 +9,6 @@
 @interface CNLDAPSearchBase
 {
     NSString *_distinguishedName;
-    unsigned long long _scope;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(copy) NSString *distinguishedName; // @synthesize distinguishedName=_distinguishedName;
-@property unsigned long long scope; // @synthesize scope=_scope;
 
 @end
 

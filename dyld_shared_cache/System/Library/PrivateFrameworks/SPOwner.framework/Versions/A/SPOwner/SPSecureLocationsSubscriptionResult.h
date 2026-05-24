@@ -9,7 +9,6 @@
 @interface SPSecureLocationsSubscriptionResult
 {
     NSArray *_locations;
-    double _expiresIn;
 }
 
 + (_Bool);
@@ -21,11 +20,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)previewGenerationSizeHeight;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double expiresIn; // @synthesize expiresIn=_expiresIn;
 @property(copy, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 
 @end

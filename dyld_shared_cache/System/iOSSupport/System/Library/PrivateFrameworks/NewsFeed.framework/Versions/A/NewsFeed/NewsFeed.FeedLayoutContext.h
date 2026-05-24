@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedLayoutContext
 {
     id stylerFactory;
-    id layoutAttributesFactoryProvider;
 }
 
 @end

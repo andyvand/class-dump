@@ -10,20 +10,15 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarDataNetworkItemView : UIStatusBarItemView
 {
     int _dataNetworkType;
-    int _wifiStrengthRaw;
-    int _wifiStrengthBars;
-    _Bool _wifiLinkWarning;
-    _Bool _enableRSSI;
-    _Bool _showRSSI;
 }
 
-- (_Bool);
+- (_Bool)_strictlyUnarchivedObjectOfClasses:(id)arg1 fromData:(int)arg2 error: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double);
-- (id);
-- (_Bool);
-- (id);
+- (double)th ID %@ - will piggyback off of existing request instead of starting a new one.;
+- (double)d to calculate reachability for %@ with ID %@, found similar in-progress request with ID %@ - will piggyback off of existing request instead of starting a new one.;
+- (id)was on the write path;
+- (_Bool)%@, creating;
+- (id)e_overwrite;
 - (id);
 - (id);
 - (void);

@@ -9,19 +9,17 @@
 @interface MNNavigationTraceInfo
 {
     NSString *_pedestrianTracePath;
-    double _pedestrianTraceStartRelativeTimestamp;
 }
 
 - (void);
 - (void);
-- (double);
+- (double)FormRowHoverableAccessorySecond;
 - (id);
 - (void)q1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *pedestrianTracePath; // @synthesize pedestrianTracePath=_pedestrianTracePath;
-@property(nonatomic) double pedestrianTraceStartRelativeTimestamp; // @synthesize pedestrianTraceStartRelativeTimestamp=_pedestrianTraceStartRelativeTimestamp;
 
 @end
 

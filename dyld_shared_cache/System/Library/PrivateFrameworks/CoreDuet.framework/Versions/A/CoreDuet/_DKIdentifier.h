@@ -6,20 +6,19 @@
 
 #import <CoreDuet/_DKObject.h>
 
-@class NSString, _DKIdentifierType;
+@class NSString;
 
 @interface _DKIdentifier : _DKObject
 {
     NSString *_stringValue;
-    _DKIdentifierType *_identifierType;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)a;
 + (id);
 + (_Bool);
 + (id);
-+ (id)atestTombstoneDate;
++ (id)latestTombstoneDate;
 - (id);
 - (id);
 - (void);
@@ -30,8 +29,8 @@
 - (long long);
 - (id);
 - (_Bool);
-- (double);
-- (void);
+- (double)kTCCServiceMediaLibrary;
+- (void)";
 - (_Bool);
 - (id);
 - (id);
@@ -41,15 +40,7 @@
 - (id)$í;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) _DKIdentifierType *identifierType; // @synthesize identifierType=_identifierType;
 @property(retain) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
 
 @end
 

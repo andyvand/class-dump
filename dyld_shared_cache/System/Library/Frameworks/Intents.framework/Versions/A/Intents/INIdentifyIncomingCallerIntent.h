@@ -6,34 +6,26 @@
 
 #import <Intents/INIntent.h>
 
-@class NSString;
-
 @interface INIdentifyIncomingCallerIntent : INIntent
 {
 }
 
-+ (_Bool);
-- (void);
++ (_Bool);
+- (void)b;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ectionhandler.generation;
+- (id)e) VALUES('%q', %d);;
 - (void);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

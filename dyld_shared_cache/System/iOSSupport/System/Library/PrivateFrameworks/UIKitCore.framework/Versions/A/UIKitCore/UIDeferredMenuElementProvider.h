@@ -10,7 +10,7 @@
 }
 
 + (id);
-- (void);
+- (void)g sync token %@ for zone %@ limit %@;
 - (CDUnknownBlockType);
 - (id);
 - (void)ì­ÌÿG;

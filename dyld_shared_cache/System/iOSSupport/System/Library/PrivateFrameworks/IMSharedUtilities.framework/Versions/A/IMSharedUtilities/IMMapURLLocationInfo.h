@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSString, NSURL;
+@class CLLocation;
 
 @interface IMMapURLLocationInfo
 {
     CLLocation *_location;
-    NSURL *_url;
-    NSString *_query;
-    NSString *_address;
 }
 
-+ (id);
-- (void)ø&il«-È;
++ (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -23,15 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (id)ndleIDToCNIDMap;
-- (void)istentIdentifier;
+- (id)getHandleIDToCNIDMap;
+- (void)persistentIdentifier;
 - (void)¨;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
 @property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

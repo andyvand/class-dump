@@ -4,51 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKInheritanceAccessKey, NSString, NSUUID;
+@class NSUUID;
 
 @interface AABenefactorInfo
 {
     NSUUID *_beneficiaryID;
-    NSString *_benefactorAltDSID;
-    AKInheritanceAccessKey *_accessKey;
-    NSString *_handle;
-    long long _status;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)s found;
+- (id)ror converting OD data to property list:(id)arg1 %@;
+- (id)ion caught converting OD data to property list:(id)arg1 %@;
+- (id)ic}@ because no eligible provisioning profiles found;
+- (void)with dynamic ports (yet).;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)Dictionary",&,N,V_delayedStartTasks;
 - (long long);
-- (void)ache;
+- (void)flushCache;
 
 // Remaining properties
-@property(retain, nonatomic) AKInheritanceAccessKey *accessKey; // @synthesize accessKey=_accessKey;
-@property(readonly, nonatomic) NSString *benefactorAltDSID; // @synthesize benefactorAltDSID=_benefactorAltDSID;
-@property(readonly, nonatomic) NSUUID *beneficiaryID; // @synthesize beneficiaryID=_beneficiaryID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *otPeerID;
-@property(readonly, nonatomic) NSString *recordBuildVersion;
-@property(readonly, nonatomic) unsigned long long repairCount;
-@property(readonly, nonatomic) NSString *repairDate;
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

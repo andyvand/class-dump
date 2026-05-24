@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView;
+
 @protocol UIScrollViewDelegate
+
+@optional
+- (void)for argument %zu;
+- (void);
+- (void);
+- (void)_notifyPlayerDidPrepareAudioURL:(UIScrollView *)arg1 successfully: /* Error: Ran out of types for this method. */;
 @end
 

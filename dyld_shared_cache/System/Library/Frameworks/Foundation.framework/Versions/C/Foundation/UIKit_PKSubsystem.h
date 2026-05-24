@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UIKit_PKSubsystem
 {
     _Bool _initialized;
-    _Bool _plugInKitProcess;
-    NSDictionary *_infoDictionary;
 }
 
 + (id);
@@ -26,15 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *infoDictionary; // @synthesize infoDictionary=_infoDictionary;
-@property(nonatomic, getter=isPlugInKitProcess) _Bool plugInKitProcess; // @synthesize plugInKitProcess=_plugInKitProcess;
-@property(readonly) Class superclass;
 
 @end
 

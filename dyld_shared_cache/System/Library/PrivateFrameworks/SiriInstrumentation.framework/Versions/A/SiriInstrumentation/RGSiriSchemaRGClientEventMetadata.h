@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RGSiriSchemaRGClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifRequestId;
-    unsigned long long _postingSpanId;
-    SISchemaUUID *_rgId;
-    CDStruct_b8d36928 _has;
-    _Bool _hasIfRequestId;
-    _Bool _hasRgId;
 }
 
 - (void);
@@ -36,23 +31,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDDebug_macOS.m:36 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)INTEGER NOT NULL, reason_priority INTEGER NOT NULL, user_info BLOB, retry_count INTEGER DEFAULT 0, UNIQUE(guid, flag) ;
+- (id);
 - (id);
-- (id);
-- (id)dIsLongMessageList:(id)arg1;
+- (id)addIsLongMessageList:(id)arg1;
 - (id)Q,R,N,V_whichOneof_Primitivevalue;
-- (void)ureCount;
+- (void)consecutiveFailureCount;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfRequestId; // @synthesize hasIfRequestId=_hasIfRequestId;
-@property(nonatomic) _Bool hasPostingSpanId;
-@property(nonatomic) _Bool hasRgId; // @synthesize hasRgId=_hasRgId;
 @property(retain, nonatomic) SISchemaUUID *ifRequestId; // @synthesize ifRequestId=_ifRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long postingSpanId; // @synthesize postingSpanId=_postingSpanId;
-@property(retain, nonatomic) SISchemaUUID *rgId; // @synthesize rgId=_rgId;
 
 @end
 

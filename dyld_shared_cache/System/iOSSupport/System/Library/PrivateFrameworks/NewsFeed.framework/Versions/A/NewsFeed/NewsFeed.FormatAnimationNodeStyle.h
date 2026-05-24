@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatAnimationNodeStyle
 {
     id _identifier;
-    id class;
-    id anchorPoint;
-    id _animations;
-    id runMode;
-    id _selectors;
 }
 
 @end

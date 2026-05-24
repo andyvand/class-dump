@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UnitInfo;
-
 __attribute__((visibility("hidden")))
 @interface UnitTypeInfo
 {
     _Bool _isDecomposable;
-    _Bool _isTemperature;
-    _Bool _isCurrency;
-    _Bool _isVolume;
-    int _unitType;
-    NSString *_name;
-    NSArray *_units;
-    UnitInfo *_baseUnit;
-    CDStruct_bc361aee _decompositionCoefficient;
-    struct UnitCounts _decomposition;
 }
 
 - (void);
@@ -28,32 +17,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)t;
 - (_Bool);
-- (_Bool);
-- (CDStruct_bc361aee);
+- (CDStruct_492b6082);
 - (struct UnitCounts);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void)P$·@;
 - (void)$*±n®;
 
 // Remaining properties
-@property(nonatomic) __weak UnitInfo *baseUnit; // @synthesize baseUnit=_baseUnit;
-@property(nonatomic) struct UnitCounts decomposition; // @synthesize decomposition=_decomposition;
-@property(nonatomic) CDStruct_bc361aee decompositionCoefficient; // @synthesize decompositionCoefficient=_decompositionCoefficient;
-@property(nonatomic) _Bool isCurrency; // @synthesize isCurrency=_isCurrency;
-@property(nonatomic) _Bool isDecomposable; // @synthesize isDecomposable=_isDecomposable;
-@property(nonatomic) _Bool isTemperature; // @synthesize isTemperature=_isTemperature;
-@property(nonatomic) _Bool isVolume; // @synthesize isVolume=_isVolume;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) int unitType; // @synthesize unitType=_unitType;
-@property(retain, nonatomic) NSArray *units; // @synthesize units=_units;
 
 @end
 

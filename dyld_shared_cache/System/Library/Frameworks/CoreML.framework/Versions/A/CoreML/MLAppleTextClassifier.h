@@ -6,31 +6,23 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLAppleTextClassifierParameters, NSString;
+@class MLAppleTextClassifierParameters;
 
 @interface MLAppleTextClassifier : MLModel
 {
     void *textClassifierModel;
-    MLAppleTextClassifierParameters *_parameters;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)king MLMultiArray's shape (shape.count = %zu) doesn't match to expected output shape (shape.count = %zu) even after squeezed. This is most likely a framework programming error.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) MLAppleTextClassifierParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

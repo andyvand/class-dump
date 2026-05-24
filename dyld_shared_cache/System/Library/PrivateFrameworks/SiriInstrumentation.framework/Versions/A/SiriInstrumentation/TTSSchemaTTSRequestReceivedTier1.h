@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaFreeFormText, SISchemaUUID;
+@class NSString;
 
 @interface TTSSchemaTTSRequestReceivedTier1 : SISchemaInstrumentationMessage
 {
     NSString *_textToSynthesize;
-    SISchemaUUID *_linkId;
-    SISchemaUUID *_contextId;
-    SISchemaFreeFormText *_textToSpeak;
-    _Bool _hasTextToSynthesize;
-    _Bool _hasLinkId;
-    _Bool _hasContextId;
-    _Bool _hasTextToSpeak;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -34,33 +27,25 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)KitViewController";
+- (void)@16@24Q32@40@48;
+- (id)tableViewSelectionDidChange: /* Error: Ran out of types for this method. */;
+- (_Bool)setMask: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ler;
+- (_Bool)m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join j ON   m.ROWID = j.message_id INNER JOIN chat c ON   c.ROWID = j.chat_id WHERE   c.room_name = ?   AND c.service_name = ? ORDER BY   m.ROWID DESC LIMIT ?;
 - (id);
-- (id);
-- (id)teReliabilityRequestCount;
-- (id)tiveSelection;
-- (void)L_NO_REWRITE;
+- (id);
+- (id)deleteReliabilityRequestCount;
+- (id)_isUndoTapAlternativeSelection;
+- (void)SUBREQUESTTYPE_SEARCHTOOL_NO_REWRITE;
 - (void)/:(id)arg1 ;
-- (id)VolumeUserIntent;
+- (id)ODDSiriSchemaODDAdaptiveVolumeUserIntent;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasTextToSpeak; // @synthesize hasTextToSpeak=_hasTextToSpeak;
-@property(nonatomic) _Bool hasTextToSynthesize; // @synthesize hasTextToSynthesize=_hasTextToSynthesize;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) SISchemaFreeFormText *textToSpeak; // @synthesize textToSpeak=_textToSpeak;
 @property(copy, nonatomic) NSString *textToSynthesize; // @synthesize textToSynthesize=_textToSynthesize;
 
 @end

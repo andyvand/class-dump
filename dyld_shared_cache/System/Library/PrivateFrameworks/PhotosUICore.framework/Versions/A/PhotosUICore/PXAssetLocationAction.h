@@ -11,9 +11,6 @@
 @interface PXAssetLocationAction : PXAssetsAction
 {
     NSDictionary *_originalLocations;
-    CDUnknownBlockType _onUnitChange;
-    NSString *_analyticsActionString;
-    NSString *_analyticsPlaceLevelString;
 }
 
 + (_Bool);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *analyticsActionString; // @synthesize analyticsActionString=_analyticsActionString;
-@property(readonly, nonatomic) NSString *analyticsPlaceLevelString; // @synthesize analyticsPlaceLevelString=_analyticsPlaceLevelString;
-@property(copy, nonatomic) CDUnknownBlockType onUnitChange; // @synthesize onUnitChange=_onUnitChange;
 
 @end
 

@@ -6,18 +6,12 @@
 
 #import <Safari/Banner.h>
 
-@class NSButton, NSImageView, NSTextField, RolloverImageButton;
-@protocol PrivateBrowsingPrivacyProtectionsBannerDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface PrivateBrowsingPrivacyProtectionsBanner : Banner
 {
     _Bool _effectiveAppearanceObservationEnabled;
-    RolloverImageButton *_removeBannerButton;
-    NSTextField *_bannerText;
-    NSImageView *_bannerIcon;
-    NSButton *_dismissBannerButton;
-    NSButton *_reducePrivacyProtectionsButton;
 }
 
 + (int);
@@ -36,18 +30,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)´;
 
 // Remaining properties
-@property(retain, nonatomic) NSImageView *bannerIcon; // @synthesize bannerIcon=_bannerIcon;
 @property(retain, nonatomic) NSTextField *bannerText; // @synthesize bannerText=_bannerText;
-@property(nonatomic) __weak id <PrivateBrowsingPrivacyProtectionsBannerDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSButton *dismissBannerButton; // @synthesize dismissBannerButton=_dismissBannerButton;
-@property(retain, nonatomic) NSButton *reducePrivacyProtectionsButton; // @synthesize reducePrivacyProtectionsButton=_reducePrivacyProtectionsButton;
-@property(nonatomic) __weak RolloverImageButton *removeBannerButton; // @synthesize removeBannerButton=_removeBannerButton;
 
 @end
 

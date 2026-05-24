@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, _UIStickerRepresentation;
+@class NSString;
 
 @interface _UISticker
 {
     NSString *_identifier;
-    NSArray *_representations;
-    _UIStickerRepresentation *_bakedInRep;
-    long long _effectType;
-    NSString *_name;
-    NSString *_externalURI;
-    NSString *_searchText;
-    NSString *_sanitizedPrompt;
-    NSString *_accessibilityName;
-    NSString *_accessibilityLabel;
-    NSData *_metadata;
-    NSDictionary *_attributionInfo;
 }
 
-+ (_Bool)y;
++ (_Bool)readonly;
 
 @end
 

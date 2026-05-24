@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRemoteStreamTracker, HMDCameraStreamSessionInfo;
+@class HMDCameraRemoteStreamTracker;
 
 __attribute__((visibility("hidden")))
 @interface _HMDCameraRemoteStreamTrackerAssertion
 {
     HMDCameraRemoteStreamTracker *_streamTracker;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
 }
 
 - (id);
@@ -18,10 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)onDenied;
+- (void)kPermissionDenied;
 
 // Remaining properties
-@property(readonly) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
 @property __weak HMDCameraRemoteStreamTracker *streamTracker; // @synthesize streamTracker=_streamTracker;
 
 @end

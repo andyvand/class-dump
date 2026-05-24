@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CMIOExtensionPropertyAttributes
 {
     NSString *_description;
-    id _sharedStreamDefaultValue;
-    _Bool _readOnly;
-    id _minValue;
-    id _maxValue;
-    NSArray *_validValues;
-    long long _objectType;
 }
 
-+ (id);
++ (id)jh8i;
 + (id);
 + (id);
 + (_Bool);
@@ -27,23 +21,19 @@
 - (id);
 - (void);
 - (id);
+- (id)B,V_isLocationRequestedPeriodically;
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (_Bool);
 - (void);
-- (long long);
-- (id);
+- (long long)while parsing package metadata for product %@ and URL %@.  This package requires PKM data and thus will be invalidated;
+- (id)m;
 - (_Bool);
 - (id)false;
 
 // Remaining properties
-@property(readonly, copy) id maxValue; // @synthesize maxValue=_maxValue;
-@property(readonly, copy) id minValue; // @synthesize minValue=_minValue;
 @property(readonly, nonatomic) long long objectType; // @synthesize objectType=_objectType;
-@property(readonly, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly, copy) NSArray *validValues; // @synthesize validValues=_validValues;
 
 @end
 

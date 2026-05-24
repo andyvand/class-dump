@@ -4,60 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOMapRegion, GEOPlaceSearchRequest, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapQuery
 {
     PBDataReader *_reader;
-    struct GEOSessionID _sessionID;
-    GEOMapRegion *_mapRegion;
-    GEOPlaceSearchRequest *_placeSearchRequest;
-    NSString *_query;
-    GEOLocation *_userLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _clientImgFmt;
-    int _clientImgMaxHeight;
-    int _clientImgMaxWidth;
-    int _mapCenterX;
-    int _mapCenterY;
-    int _mapSpanX;
-    int _mapSpanY;
-    int _requestType;
-    int _tilesizeX;
-    int _tilesizeY;
-    int _zoomlevel;
-    struct {
-        unsigned int has_sessionID:1;
-        unsigned int has_clientImgFmt:1;
-        unsigned int has_clientImgMaxHeight:1;
-        unsigned int has_clientImgMaxWidth:1;
-        unsigned int has_mapCenterX:1;
-        unsigned int has_mapCenterY:1;
-        unsigned int has_mapSpanX:1;
-        unsigned int has_mapSpanY:1;
-        unsigned int has_requestType:1;
-        unsigned int has_tilesizeX:1;
-        unsigned int has_tilesizeY:1;
-        unsigned int has_zoomlevel:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_placeSearchRequest:1;
-        unsigned int read_query:1;
-        unsigned int read_userLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id)notification;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id)ount;
+- (id)vertexE7sCount;
 - (id),N;
 - (id)<¥C;
 - (void);

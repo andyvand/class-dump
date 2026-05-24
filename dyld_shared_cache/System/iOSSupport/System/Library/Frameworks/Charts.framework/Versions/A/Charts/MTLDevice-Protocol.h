@@ -4,68 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, NSArray, NSString;
-@protocol MTL4CommandAllocator, MTLAccelerationStructure, MTLLibrary;
+@class MTL4CounterHeapDescriptor, MTLMeshRenderPipelineDescriptor, NSString;
+@protocol MTL4CounterHeap, MTLAccelerationStructure, MTLArgumentEncoder, MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLFunctionHandle, MTLIOFileHandle, MTLLibrary, MTLRenderPipelineState, MTLSamplerState, MTLTexture, MTLTextureViewPool;
 
 @protocol MTLDevice
+- (CDStruct_14f26992)k;
+- (CDStruct_14f26992);
+- (id <MTLTexture>)mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm;
+- (id <MTLTexture>)mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm;
+- (id <MTLSamplerState>)kkktkkkkkmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmooooookukkmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmooommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmooommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmooommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmooommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm;
+- (id <MTLBuffer>)	;
+- (CDStruct_14f26992)Q;
+- (CDStruct_4bcfbbae);
+- (unsigned long long)encodeWithCoder: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id <MTLLibrary>)(	h;
+- (void)96;
+- (id <MTLCommandQueue>)n with error:(unsigned long long)arg1 %@;
+- (unsigned long long)dateRemoved;
+- (id <MTLRenderPipelineState>)accessory:(MTLMeshRenderPipelineDescriptor *)arg1 didAddControlTarget:(unsigned long long)arg2;
+- (_Bool)icted;
+- (unsigned long long)iEnabled,V_lightWhenUsingSiriEnabled;
+- (id <MTLArgumentEncoder>)A;
+- (id <MTLIOFileHandle>)aj ;
+- (_Bool)__objc_classlist__DATA_CONST;
+- (id <MTL4CounterHeap>)l, float>=Bf}28@0:(MTL4CounterHeapDescriptor *)arg1 8I16@20;
+- (id <MTLTextureViewPool>)_maximumValue;
+- (id <MTLRenderPipelineState>);
+- (id <MTLComputePipelineState>)CoreImage;
+- (void)didSelectCallback;
+- (_Bool);
 - (id <MTLAccelerationStructure>)ð=ÿÿüaÿÿ;
 - (unsigned long long)§ôÂðÿ;
-- (_Bool);
-- (id <MTL4CommandAllocator>);
 - (void)Óÿÿÿÿÿ;
 - (_Bool);
+- (id <MTLFunctionHandle>)CategoriesView;
 - (_Bool)äÿ=µ äÿEµ\äÿEµXäÿµTäÿ;
 - (_Bool);
 - (unsigned long long)éÛÿÿÿÿÿ;
-- (_Bool)ontainerWith3DChildID;
+- (_Bool)ContainerWith3DChildID;
 - (_Bool);
-- (unsigned long long)undStyle;
+- (unsigned long long)PartiallyResolvedForegroundStyle;
 - (void)ÑîU;
 - (id <MTLLibrary>);
 
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) struct maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
 @property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

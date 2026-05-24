@@ -6,29 +6,28 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSNumber, NSString, SAIntentGroupProtobufMessage;
-@protocol SAServerBoundCommand;
+@class NSString;
 
 @interface SAIntentGroupSnippet : SAUISnippet
 {
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
+- (void)9r;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -36,19 +35,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)not have a leading zero;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appId;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *intent;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *intentResponse;
-@property(copy, nonatomic) NSString *jsonEncodedIntent;
-@property(copy, nonatomic) NSString *jsonEncodedIntentResponse;
-@property(retain, nonatomic) id <SAServerBoundCommand> processSynapseFlowCommand;
-@property(copy, nonatomic) NSArray *snippetTemplates;
-@property(nonatomic) _Bool widgetAllowed;
-@property(copy, nonatomic) NSNumber *widgetIndex;
 
 @end
 

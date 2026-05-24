@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface FCSubscription
 {
     _Bool _notificationsEnabled;
-    _Bool _canRetry;
-    NSString *_subscriptionID;
-    unsigned long long _subscriptionType;
-    NSNumber *_order;
-    NSDate *_dateAdded;
-    unsigned long long _zone;
-    NSData *_localData;
-    unsigned long long _subscriptionOrigin;
-    NSString *_tagID;
-    NSString *_groupID;
-    NSURL *_url;
-    NSString *_title;
-    NSURL *_pollingURL;
-    NSString *_errorMessage;
 }
 
-+ (id);
-+ (id);
++ (id)!;
++ (id);
 + (id);
 - (id);
 - (id);
@@ -46,39 +32,25 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)letion:(struct _NSZone *)arg1 ]_block_invoke;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setCollectDataForBackgroundMigrations: /* Error: Ran out of types for this method. */;
+- (id)emoteFile:exists:makeAvailable:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id)egrityChecker>";
-- (id)tedZoneIDs;
-- (id)itWithConditions: /* Error: Ran out of types for this method. */;
+- (id)resultDeletedZoneIDs;
+- (id)initWithConditions: /* Error: Ran out of types for this method. */;
 - (id)etRatio;
 - (_Bool)p¼;
-- (void)ringConfig;
+- (void)introToSportsGroupForYouScoringConfig;
 - (id)fetch global ESL feed items from Smarter Fetch, count=%{public}ld, time=%{public}lldms;
 - (unsigned long long);
 - (unsigned long long){ëh;
 - (_Bool)kµÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canRetry; // @synthesize canRetry=_canRetry;
-@property(readonly, copy, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(readonly, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(readonly, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) NSData *localData; // @synthesize localData=_localData;
-@property(readonly, nonatomic) _Bool notificationsEnabled; // @synthesize notificationsEnabled=_notificationsEnabled;
-@property(readonly, copy, nonatomic) NSNumber *order; // @synthesize order=_order;
-@property(readonly, nonatomic) NSURL *pollingURL; // @synthesize pollingURL=_pollingURL;
 @property(readonly, copy, nonatomic) NSString *subscriptionID; // @synthesize subscriptionID=_subscriptionID;
-@property(readonly, nonatomic) unsigned long long subscriptionOrigin; // @synthesize subscriptionOrigin=_subscriptionOrigin;
-@property(readonly, nonatomic) unsigned long long subscriptionType; // @synthesize subscriptionType=_subscriptionType;
-@property(readonly, nonatomic) NSString *tagID; // @synthesize tagID=_tagID;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) unsigned long long zone; // @synthesize zone=_zone;
 
 @end
 

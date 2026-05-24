@@ -7,15 +7,6 @@
 @interface UIKit._UICornerProvider
 {
     id id;
-    id _coordinateSpace;
-    id configuration;
-    id parent;
-    id _insets;
-    id _topLeftRadius;
-    id _topRightRadius;
-    id _bottomLeftRadius;
-    id _bottomRightRadius;
-    id _$observationRegistrar;
 }
 
 @end

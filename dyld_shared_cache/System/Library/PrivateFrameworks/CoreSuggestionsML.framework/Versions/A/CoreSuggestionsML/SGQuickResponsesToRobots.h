@@ -10,11 +10,11 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (float);
-+ (void);
-+ (id)lectedPseudocounts;
++ (void)scaleWithVectorNormalization: /* Error: Ran out of types for this method. */;
++ (id)selectedPseudocounts;
 
 @end
 

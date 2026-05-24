@@ -13,44 +13,16 @@
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (int)utive;
+- (int)executive;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool featureAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned long long featureCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool featureComplete;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double incrementalWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double period;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long version;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 
 @end
 

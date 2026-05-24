@@ -7,8 +7,6 @@
 @interface NewsAds.DebugNativeAdProvider
 {
     id _loadingDelay;
-    id _articleIdentifier;
-    id contextWrapper;
 }
 
 @end

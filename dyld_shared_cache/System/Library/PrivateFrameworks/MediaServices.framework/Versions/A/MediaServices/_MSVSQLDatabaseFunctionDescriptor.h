@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MSVSQLDatabaseFunctionDescriptor
 {
     NSString *_name;
-    long long _numberOfArguments;
-    unsigned long long _options;
 }
 
 - (void);

@@ -16,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)fetchLastClientStateWithCompletionHandler:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);

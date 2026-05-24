@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSObject;
-@protocol OS_xpc_object;
-
 @interface NEFileHandle
 {
     _Bool _launchOwnerWhenReadable;
-    NSFileHandle *_handle;
 }
 
-- (id);
+- (id)4;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setAllowCaptiveWebSheet: /* Error: Ran out of types for this method. */;
 - (id)settings);
 
 // Remaining properties
-@property(readonly) NSObject<OS_xpc_object> *dictionary;
-@property(readonly) NSFileHandle *handle; // @synthesize handle=_handle;
-@property(readonly) _Bool launchOwnerWhenReadable; // @synthesize launchOwnerWhenReadable=_launchOwnerWhenReadable;
 @property(readonly) unsigned long long type;
 
 @end

@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol PXStoryMusicCurationProvider
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *recentlyUsedAppleMusicSongIDs;
 @property(retain, nonatomic) NSArray *recentlyUsedFlexSongIDs;
 @end
 

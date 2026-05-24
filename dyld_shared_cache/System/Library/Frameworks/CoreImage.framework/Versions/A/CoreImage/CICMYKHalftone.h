@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICMYKHalftone : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputWidth;
-    NSNumber *inputAngle;
-    NSNumber *inputSharpness;
-    NSNumber *inputGCR;
-    NSNumber *inputUCR;
 }
 
 + (id);
@@ -37,20 +31,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)^;
 - (void);
 - (id);
 - (void);
 - (id)~~~~[gbkjjjjjrrrZtr{wf{xesnxG`Um=WIjTjbwsUc[oBZOiWnkwprrnvWaXj[keo~¦©«¯²²««««jibrH_Vjvvvvn{{v}Uf`m\VI\AL<UYZN\\gagMe_kllilPganNe_qrrqrppmposov\nhtppmpeqpqQf]oKg^w««««£­xxxxllll]icjsvtvo\up|hpktnzzz^mhz]mhw{{{{hqmtAVJgLZPb``Y`;PC[?QCZdcYek|y¡¡mzuo{`i_p`iavh||~~~~ivtv~~~~~h}}pywzgoktUjdutvu{uz{}auvxqqqqiiiiddddQc\d]f_iYjcnkpjv_og}zu}n|yoonoO`Xhttttvhut{VpmxuuszhzyvvtvR]Qiemfszx|}XheoSTKT-@0D7C4KJ]VisNkf{Se^s||||{{{{bjcoff_fPaVgajaujpitvvvvuuuuRdZmLbXowzw~{¥¥¥¥H\Qitrmt;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) NSNumber *inputGCR; // @synthesize inputGCR;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputSharpness; // @synthesize inputSharpness;
-@property(retain, nonatomic) NSNumber *inputUCR; // @synthesize inputUCR;
-@property(retain, nonatomic) NSNumber *inputWidth; // @synthesize inputWidth;
 
 @end
 

@@ -6,72 +6,52 @@
 
 #import <UIKitCore/UIInputView.h>
 
-@class UIBarButtonItem, UIBarButtonItemGroup, UISegmentedControl, UIToolbar;
-@protocol UIWebFormAccessoryDelegate;
+@class UISegmentedControl, UIToolbar;
 
 @interface UIWebFormAccessory : UIInputView
 {
     UIToolbar *_leftToolbar;
-    UIToolbar *_rightToolbar;
-    UIBarButtonItem *_doneButton;
-    UIBarButtonItem *_flexibleSpaceItem;
-    UIBarButtonItem *_previousItem;
-    UIBarButtonItem *_nextItem;
-    UIBarButtonItem *_nextPreviousSpacer;
-    UIBarButtonItem *_autofillSpacer;
-    UIBarButtonItemGroup *_buttonGroupAutoFill;
-    UIBarButtonItemGroup *_buttonGroupNavigation;
-    _Bool _usesUCB;
-    UISegmentedControl *_tab;
-    UIBarButtonItem *_autofill;
-    UIBarButtonItem *_clearButton;
-    id <UIWebFormAccessoryDelegate> delegate;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)ile to CloudKit;
+- (void)removeBuildObjectsFromDict:(id)arg1;
+- (void)removeAttribute:range: /* Error: Ran out of types for this method. */;
+- (void)populateIMMessageItemWithProtobufFields:(id)arg1 withProtobufDataP4: /* Error: Ran out of types for this method. */;
+- (void)originalSenderForCollaborationHighlight:(id)arg1;
+- (void)onboardDeleteVerificationCodesIfNeededWithReply:(id)arg1;
+- (void)handler:(_Bool)arg1 receivedJunkChatCommand:fromIdentifier:toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
+- (void)fetchChatRecordsWithPinningIdentifier:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_updateChat:(_Bool)arg1 usingSyncData: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (id)age was already marked as delivered, ignoring;
+- (void)lay group mutation from failed chat validation:No device found from push token:%@ /* Error: Ran out of types for this method. */;
+- (void)rkMonitor:(id)arg1 %@;
+- (void);
+- (void)d-size-override;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)SSL_UNDEFINED_FUNCTION;
 - (void);
 - (id);
 - (void)!
 °!°@ùf°1Â0@ù
 × ;
-- (void)e;
+- (void)KBCachedKeyboardType;
 - (void)VB;
 - (void)Å_;
 - (void)F£ ¨åf;
 
 // Remaining properties
-@property(retain, nonatomic) UIBarButtonItem *_autofill; // @synthesize _autofill;
-@property(retain, nonatomic) UIBarButtonItem *_clearButton; // @synthesize _clearButton;
 @property(retain, nonatomic) UISegmentedControl *_tab; // @synthesize _tab;
-@property(nonatomic) __weak id <UIWebFormAccessoryDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, getter=isNextEnabled) _Bool nextEnabled;
-@property(nonatomic, getter=isPreviousEnabled) _Bool previousEnabled;
 
 @end
 

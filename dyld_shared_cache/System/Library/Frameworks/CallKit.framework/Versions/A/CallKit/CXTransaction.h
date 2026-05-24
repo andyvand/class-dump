@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface CXTransaction
 {
     NSUUID *_UUID;
-    NSMutableOrderedSet *_mutableActions;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)B�;
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)nged;
+- (id);
+- (void)downloading;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)=;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy, nonatomic) NSArray *actions;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableOrderedSet *mutableActions; // @synthesize mutableActions=_mutableActions;
-@property(readonly) Class superclass;
 
 @end
 

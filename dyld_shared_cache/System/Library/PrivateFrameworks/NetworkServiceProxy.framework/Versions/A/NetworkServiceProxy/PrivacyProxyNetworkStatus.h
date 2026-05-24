@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PrivacyProxyNetworkStatus
 {
     int _networkType;
-    unsigned long long _networkStatus;
-    NSString *_networkName;
 }
 
-+ (_Bool);
++ (_Bool)dChangeType:includePosterFrameForVideo:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)¥úÿBOîj;
+- (void);
 - (int);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)setEdgeType:(int)arg1;
 
 // Remaining properties
-@property(retain) NSString *networkName; // @synthesize networkName=_networkName;
 @property unsigned long long networkStatus; // @synthesize networkStatus=_networkStatus;
-@property int networkType; // @synthesize networkType=_networkType;
 
 @end
 

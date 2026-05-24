@@ -6,28 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UIAlertController, UIViewController, _UIAlertControllerShimPresenter;
+@class UIAlertController;
 
 @interface UIAlertView : UIView
 {
     UIAlertController *_alertController;
-    _UIAlertControllerShimPresenter *_presenter;
-    id _retainedSelf;
-    NSMutableArray *_actions;
-    long long _cancelIndex;
-    long long _defaultButtonIndex;
-    long long _firstOtherButtonIndex;
-    NSString *_message;
-    NSString *_subtitle;
-    long long _alertViewStyle;
-    _Bool _hasPreparedAlertActions;
-    _Bool _isPresented;
-    _Bool _alertControllerShouldDismiss;
-    _Bool _handlingAlertActionShouldDismiss;
-    _Bool _dismissingAlertController;
-    id _delegate;
-    id _context;
-    UIViewController *_externalViewControllerForPresentation;
 }
 
 + (id);
@@ -35,21 +18,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) long long alertViewStyle;
-@property(retain, nonatomic) NSString *bodyText;
-@property(nonatomic) long long cancelButtonIndex;
 @property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(nonatomic) long long defaultButtonIndex;
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic, getter=_externalViewControllerForPresentation, setter=_setExternalViewControllerForPresentation:) UIViewController *externalViewControllerForPresentation; // @synthesize externalViewControllerForPresentation=_externalViewControllerForPresentation;
-@property(readonly, nonatomic) long long firstOtherButtonIndex;
-@property(nonatomic) _Bool groupsTextFields;
-@property(copy, nonatomic) NSString *message;
-@property(readonly, nonatomic) long long numberOfButtons;
-@property(nonatomic) long long numberOfRows;
-@property(retain, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
 
 @end
 

@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPXPCServerPipelinedBatchQueryManager, _PASBundleIdResolver;
+@class NSString;
 @protocol PPLocationClientProtocol;
 
 @interface PPLocationReadOnlyServerRequestHandler
 {
     id <PPLocationClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    NSString *_clientProcessName;
-    _PASBundleIdResolver *_bundleIdResolver;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)URLByAppendingPathComponent:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void)ChangeHistoryDropEverythingEvent"16;
-- (void)mestamp;
-- (void)Object;
+- (void)entityBackfillTimestamp;
+- (void)plpObject;
 - (void)j-;
 - (id)ÿq;
 
 // Remaining properties
-@property(retain, nonatomic) _PASBundleIdResolver *bundleIdResolver; // @synthesize bundleIdResolver=_bundleIdResolver;
 @property(copy, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
 
 @end

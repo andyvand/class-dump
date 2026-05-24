@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDResources, NSMutableArray, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDConditionalFormattingRule
 {
     EDResources *mResources;
-    int mType;
-    int mOperator;
-    NSMutableArray *mFormulas;
-    unsigned long long mDifferentialStyleIndex;
-    _Bool mStopIfTrue;
-    _Bool mAppliesToDateOnly;
-    long long mPriority;
-    _Bool mAboveAverage;
-    _Bool mBottom;
-    _Bool mEqualAverage;
-    _Bool mPercent;
-    unsigned long long mRank;
-    long long mStdDev;
-    NSString *mText;
-    int mTimePeriod;
 }
 
 + (id);
@@ -48,12 +33,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)8;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)QAppsSyncingToDrive"@"NSError">24;
 - (id);
 - (id);
 - (void);
@@ -61,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)newComputePipelineStateWithFunction:(id)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ðµ;
 - (void)¼Ð	;
 - (long long)L¡çÿvkÍ;

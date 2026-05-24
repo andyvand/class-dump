@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSURL;
+@class NSURL;
 
 @interface SADomainCommand : SABaseClientBoundCommand
 {
@@ -15,19 +15,17 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)x;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *targetAppId;
-@property(copy, nonatomic) NSURL *targetPluginId;
-@property(copy, nonatomic) NSNumber *timeout;
 
 @end
 

@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccount, BMPruningPolicy, NSString;
+@class NSString;
 
 @interface BMStreamMetadata
 {
     NSString *_streamId;
-    Class _eventDataClass;
-    BMPruningPolicy *_pruningPolicy;
-    NSString *_remoteStreamName;
-    BMAccount *_account;
 }
 
-+ (_Bool);
++ (_Bool)PS;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_ignoreSafeAreaInset;
 - (void);
-- (id);
+- (id)ryMonitor",R,N,V_memoryMonitor;
 - (_Bool);
-- (void);
+- (void)c}@;
 - (Class);
 - (void);
 - (void);
@@ -34,12 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) BMAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) Class eventDataClass; // @synthesize eventDataClass=_eventDataClass;
-@property(readonly, nonatomic) _Bool isRemote;
-@property(readonly, nonatomic) BMPruningPolicy *pruningPolicy; // @synthesize pruningPolicy=_pruningPolicy;
 @property(copy, nonatomic) NSString *remoteStreamName; // @synthesize remoteStreamName=_remoteStreamName;
-@property(readonly, nonatomic) NSString *streamId; // @synthesize streamId=_streamId;
 
 @end
 

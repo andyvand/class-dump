@@ -5,5 +5,6 @@
 //
 
 @protocol SSInputEventConsumer
+- (_Bool);
 @end
 

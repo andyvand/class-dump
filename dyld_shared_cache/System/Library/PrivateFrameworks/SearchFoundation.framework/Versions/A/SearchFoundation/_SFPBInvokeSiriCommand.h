@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBInvokeSiriCommand
 {
     int _serviceProvider;
-    NSString *_utteranceText;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)N30domCg_surface_type_complexType12domGeneratorE;
 - (int);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id)nextItem;
+- (id)D:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)urrencyConversionProvider;
+- (void)shouldOpenCurrencyConversionProvider;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int serviceProvider; // @synthesize serviceProvider=_serviceProvider;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *utteranceText; // @synthesize utteranceText=_utteranceText;
 
 @end

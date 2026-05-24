@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDispatchTimer, NSDate, NSMeasurement, NSString;
+@class NSMeasurement;
 @protocol MNEVChargingStateMonitorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNEVChargingStateMonitor
 {
     id <MNEVChargingStateMonitorDelegate> _delegate;
-    _Bool _isCharging;
-    _Bool _shouldShowChargingInfo;
-    NSDate *_arrivalDate;
-    MNDispatchTimer *_timer;
-    NSMeasurement *_targetBatteryCharge;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)G4;
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -32,14 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)ue>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MNEVChargingStateMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMeasurement *targetBatteryCharge; // @synthesize targetBatteryCharge=_targetBatteryCharge;
 
 @end

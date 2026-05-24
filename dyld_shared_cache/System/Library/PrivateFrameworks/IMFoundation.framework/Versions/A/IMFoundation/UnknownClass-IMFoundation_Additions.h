@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (IMFoundation_Additions)
-+ (id);
-+ (id);
-+ (id);
++ (id)6@24d32@40;
++ (id)"16{?=dd}24;
++ (id)y"24;
 @end
 

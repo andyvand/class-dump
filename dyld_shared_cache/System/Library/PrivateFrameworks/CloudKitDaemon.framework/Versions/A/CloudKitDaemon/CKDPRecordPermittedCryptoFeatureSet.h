@@ -7,26 +7,25 @@
 @interface CKDPRecordPermittedCryptoFeatureSet
 {
     int _minimumSchemaVersion;
-    CDStruct_fe6a063f _has;
 }
 
 - (void);
-- (void);
+- (void)?|;
 - (int);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)on %1.3f seconds, Timestamp = %1.6f (%lld/%d)
+;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasMinimumSchemaVersion;
-@property(nonatomic) int minimumSchemaVersion; // @synthesize minimumSchemaVersion=_minimumSchemaVersion;
 
 @end
 

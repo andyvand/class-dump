@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMCNAvatarView
 {
     id mouseAction;
-    id contact;
-    id isSelected;
-    id internalAvatarViewController;
 }
 
 - (id);

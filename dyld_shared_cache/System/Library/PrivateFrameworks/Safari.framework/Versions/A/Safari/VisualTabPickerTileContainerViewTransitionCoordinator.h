@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, VisualTabPickerShadowTileView;
+@class NSView;
 @protocol VisualTabPickerTileContainerViewTransitionCoordinatorDataSource;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerTileContainerViewTransitionCoordinator
 {
     NSView *_lowResolutionThumbnailOverlayView;
-    VisualTabPickerShadowTileView *_thumbnailView;
-    id <VisualTabPickerTileContainerViewTransitionCoordinatorDataSource> _dataSource;
 }
 
 - (void);
@@ -26,13 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <VisualTabPickerTileContainerViewTransitionCoordinatorDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFPunchout;
+@class NSString;
 
 @interface SFUserReportRequest
 {
     struct {
         unsigned int reportType:1;
     } _has;
-    int _reportType;
-    NSString *_affordanceText;
-    NSString *_title;
-    NSString *_dismissText;
-    NSArray *_userReportOptions;
-    NSString *_reportOptionsSectionTitle;
-    NSString *_disclaimerText;
-    SFPunchout *_disclaimerLearnMorePunchout;
-    NSString *_attachmentSectionTitle;
 }
 
 + (_Bool);
@@ -30,47 +21,30 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)R&;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)iptionStatus";
 - (void);
 - (unsigned long long);
 - (int);
 - (_Bool);
-- (void);
+- (void)sharedContentProtectionStateObserver;
 - (id);
-- (void);
+- (void)0:(id)arg1 8@16;
+- (id)create output directory:%@ /* Error: Ran out of types for this method. */;
+- (id)PHResourceLocalAvailabilityRequestAdjustmentBaseFullSizePhotoUTIKey;
 - (id);
+- (void)`;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)foTuplesAtIndex: /* Error: Ran out of types for this method. */;
+- (void)infoTuplesAtIndex: /* Error: Ran out of types for this method. */;
 - (id)tonItem",&,N,V_sportsFollowButtonItem;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceText; // @synthesize affordanceText=_affordanceText;
-@property(copy, nonatomic) NSString *attachmentSectionTitle; // @synthesize attachmentSectionTitle=_attachmentSectionTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFPunchout *disclaimerLearnMorePunchout; // @synthesize disclaimerLearnMorePunchout=_disclaimerLearnMorePunchout;
-@property(copy, nonatomic) NSString *disclaimerText; // @synthesize disclaimerText=_disclaimerText;
-@property(copy, nonatomic) NSString *dismissText; // @synthesize dismissText=_dismissText;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *reportOptionsSectionTitle; // @synthesize reportOptionsSectionTitle=_reportOptionsSectionTitle;
-@property(nonatomic) int reportType; // @synthesize reportType=_reportType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSArray *userReportOptions; // @synthesize userReportOptions=_userReportOptions;
 
 @end
 

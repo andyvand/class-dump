@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)J;
 - (int);
 - (void)DragSession>"24;
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemElementIdentifierKey;
 + (id);
 - (id);
 

@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIKUpdatedEventProperties
 {
     id updatedEventProperties;
 }
 
-- (void);
-- (void);
+- (void)ModificationDate:(id)arg1 %@
+;
+- (void)en;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)SYSTEM_SYDNEY_Symes_Coaches;
 - (void);
 - (id);
-- (void)tIsSubscribedCalendarJunk: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)setIsSubscribedCalendarJunk: /* Error: Ran out of types for this method. */;
 - (void)NSError"24;
 - (void)p»;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *title;
 @property(nonatomic, readonly) _Bool titleChanged;
 
 @end

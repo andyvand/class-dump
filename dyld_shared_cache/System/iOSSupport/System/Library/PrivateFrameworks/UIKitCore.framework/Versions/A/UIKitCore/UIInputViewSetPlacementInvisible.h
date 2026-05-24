@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGAffineTransform);
 - (_Bool);
-- (_Bool)WithID:options:documentTraits:initialDocumentState: /* Error: Ran out of types for this method. */;
+- (_Bool)beginRemoteTextInputSessionWithID:options:documentTraits:initialDocumentState: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool)dv¼ÿq;
 - (_Bool)ÿ;

@@ -6,14 +6,12 @@
 
 #import <NetworkExtension/NEExtensionProviderHostContext.h>
 
-@class NSString;
-
 @interface NEExtensionAppPushProviderHostContext : NEExtensionProviderHostContext
 {
 }
 
 + (id);
-+ (id);
++ (id):8@"SFRemoteInteractionSession"16@?<v@?@"NSError">24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -25,13 +23,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

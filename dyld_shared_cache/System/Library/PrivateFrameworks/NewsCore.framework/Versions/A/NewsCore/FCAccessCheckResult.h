@@ -7,17 +7,15 @@
 @interface FCAccessCheckResult
 {
     _Bool _canAccess;
-    unsigned long long _blockedReason;
 }
 
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long blockedReason; // @synthesize blockedReason=_blockedReason;
 @property(readonly, nonatomic) _Bool canAccess; // @synthesize canAccess=_canAccess;
 
 @end

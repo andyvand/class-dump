@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMSiriVocabularySpanData, NLXSchemaContextualSpanData, NLXSchemaMentionDetectorSpanData, NLXSchemaMentionResolverSpanData, NLXSchemaPLUMSpanData, NSData;
+@class NLXSchemaCDMSiriVocabularySpanData;
 
 @interface NLXSchemaCDMInternalSpanData : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMSiriVocabularySpanData *_siriVocabularySpanData;
-    NLXSchemaPLUMSpanData *_plumSpanData;
-    NLXSchemaMentionDetectorSpanData *_mentionDetectorSpanData;
-    NLXSchemaMentionResolverSpanData *_mentionResolverSpanData;
-    NLXSchemaContextualSpanData *_contextualSpanData;
-    _Bool _hasSiriVocabularySpanData;
-    _Bool _hasPlumSpanData;
-    _Bool _hasMentionDetectorSpanData;
-    _Bool _hasMentionResolverSpanData;
-    _Bool _hasContextualSpanData;
 }
 
 - (id);
@@ -28,18 +19,18 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
+- (_Bool)(x;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -49,7 +40,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_crpt.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -57,20 +48,10 @@
 - (id)!BùÑÞð1Â0@ù
 × ;
 - (id)ialogIdentifier;
-- (id)tHasMultistepGatingExecution: /* Error: Ran out of types for this method. */;
+- (id)setHasMultistepGatingExecution: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaContextualSpanData *contextualSpanData; // @synthesize contextualSpanData=_contextualSpanData;
-@property(nonatomic) _Bool hasContextualSpanData; // @synthesize hasContextualSpanData=_hasContextualSpanData;
-@property(nonatomic) _Bool hasMentionDetectorSpanData; // @synthesize hasMentionDetectorSpanData=_hasMentionDetectorSpanData;
-@property(nonatomic) _Bool hasMentionResolverSpanData; // @synthesize hasMentionResolverSpanData=_hasMentionResolverSpanData;
-@property(nonatomic) _Bool hasPlumSpanData; // @synthesize hasPlumSpanData=_hasPlumSpanData;
-@property(nonatomic) _Bool hasSiriVocabularySpanData; // @synthesize hasSiriVocabularySpanData=_hasSiriVocabularySpanData;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaMentionDetectorSpanData *mentionDetectorSpanData; // @synthesize mentionDetectorSpanData=_mentionDetectorSpanData;
-@property(retain, nonatomic) NLXSchemaMentionResolverSpanData *mentionResolverSpanData; // @synthesize mentionResolverSpanData=_mentionResolverSpanData;
-@property(retain, nonatomic) NLXSchemaPLUMSpanData *plumSpanData; // @synthesize plumSpanData=_plumSpanData;
 @property(retain, nonatomic) NLXSchemaCDMSiriVocabularySpanData *siriVocabularySpanData; // @synthesize siriVocabularySpanData=_siriVocabularySpanData;
 
 @end

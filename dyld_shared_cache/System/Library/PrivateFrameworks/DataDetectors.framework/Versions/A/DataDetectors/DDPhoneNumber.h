@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface DDPhoneNumber
 {
     NSMutableArray *_phoneNumbers;
-    NSMutableArray *_displayNumbers;
-    NSMutableArray *_emailAddresses;
-    NSMutableArray *_facetimePhoneNumbers;
-    NSMutableArray *_facetimeEmailAddresses;
-    NSMutableArray *_unkownPhoneNumbers;
-    NSMutableArray *_unkownEmailAddresses;
-    unsigned long long _reachabilityTestsPending;
-    _Bool _reachabilityTestsLaunched;
-    unsigned long long _reachabilityTestsRetries;
-    NSString *_IDSUUID;
-    NSMenuItem *_menuItem;
-    SEL _actionSelector;
 }
 
 - (void);
@@ -44,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 

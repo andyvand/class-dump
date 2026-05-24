@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TDTextureFace, TDTextureImageRenditionSpec, TDTextureRenditionSpec;
-
 @interface TDTextureMipLevel
 {
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) TDTextureFace *face; // @dynamic face;
 @property(nonatomic) short level; // @dynamic level;
-@property(retain, nonatomic) TDTextureRenditionSpec *texture; // @dynamic texture;
-@property(retain, nonatomic) TDTextureImageRenditionSpec *textureImage; // @dynamic textureImage;
 @end
 

@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol AFHearablesGestureObserver, OS_dispatch_queue;
+@protocol AFHearablesGestureObserver;
 
 @interface AFHearablesClientRegistration
 {
     id <AFHearablesGestureObserver> _observer;
-    unsigned long long _contexts;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    NSString *_clientKey;
 }
 
 - (_Bool);
-- (void);
+- (void):(id)arg1 A;
+- (id);
+- (void)q;
+- (unsigned long long)PKSharedCacheDismissedParticipantCardSharingEducationPrompt;
+- (id)+;
 - (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void)putVolume;
+- (void)getOutputVolume;
 - (id)my voice setting is dirty;
 - (id)tMyriadDecisionResult:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *clientKey; // @synthesize clientKey=_clientKey;
-@property(readonly, nonatomic) unsigned long long contexts; // @synthesize contexts=_contexts;
 @property(readonly, nonatomic) __weak id <AFHearablesGestureObserver> observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *observerQueue; // @synthesize observerQueue=_observerQueue;
 
 @end
 

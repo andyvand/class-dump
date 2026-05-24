@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TICandidateSorter, TIKeyboardCandidate, TIWordSearch;
+@class NSString, TICandidateSorter;
 
 @interface TIKeyboardInputManager_ja_Candidates
 {
     _Bool _showsPartialCandidate;
     _Bool _autoSelectFirstCandidate;
-    _Bool _hardwareKeyboardMode;
-    TIWordSearch *_wordSearch;
-    NSString *_autoSelectCandidate;
-    long long _autoSelectTransliterateCandidate;
-    TICandidateSorter *_candidateSorter;
-    NSString *_inputString;
-    TIKeyboardCandidate *_defaultCandidate;
-    NSString *_autoCommitString;
 }
 
 + (id);
-+ (unsigned long long);
++ (unsigned long long);
 - (long long);
 - (id);
 - (_Bool);
@@ -33,29 +25,22 @@
 - (_Bool);
 - (id);
 - (long long);
-- (long long);
+- (long long)!;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -63,19 +48,19 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void)ing_unbiased;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *autoCommitString; // @synthesize autoCommitString=_autoCommitString;
-@property(nonatomic) NSString *autoSelectCandidate; // @synthesize autoSelectCandidate=_autoSelectCandidate;
-@property(nonatomic) _Bool autoSelectFirstCandidate; // @synthesize autoSelectFirstCandidate=_autoSelectFirstCandidate;
-@property(nonatomic) long long autoSelectTransliterateCandidate; // @synthesize autoSelectTransliterateCandidate=_autoSelectTransliterateCandidate;
 @property(copy, nonatomic) TICandidateSorter *candidateSorter; // @synthesize candidateSorter=_candidateSorter;
-@property(copy, nonatomic) TIKeyboardCandidate *defaultCandidate; // @synthesize defaultCandidate=_defaultCandidate;
-@property(nonatomic) _Bool hardwareKeyboardMode; // @synthesize hardwareKeyboardMode=_hardwareKeyboardMode;
 @property(copy, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(nonatomic) _Bool showsPartialCandidate; // @synthesize showsPartialCandidate=_showsPartialCandidate;
 
 @end
 

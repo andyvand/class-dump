@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFMailbox;
-
 @interface MFCachedMailboxInfo
 {
     int _mailboxType;
-    long long _mailboxID;
-    MFMailbox *_mailbox;
 }
 
-- (void);
+- (void);
 - (int);
 - (void);
+- (void)@9;
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (long long);
 - (id);
-- (id);
+- (id)@L;
 
 // Remaining properties
-@property(retain, nonatomic) MFMailbox *mailbox; // @synthesize mailbox=_mailbox;
 @property(nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
-@property(nonatomic) int mailboxType; // @synthesize mailboxType=_mailboxType;
 
 @end
 

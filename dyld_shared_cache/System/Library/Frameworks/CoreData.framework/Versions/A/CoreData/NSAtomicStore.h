@@ -11,39 +11,34 @@
 @interface NSAtomicStore : NSPersistentStore
 {
     NSMutableDictionary *_nodeCache;
-    NSMutableDictionary *_entityCache;
-    NSMutableDictionary *_storeMetadata;
-    long long _nextReference;
-    void *_reserved4;
-    void *_reserved5;
 }
 
 + (void)ials. The user will need to enter their password in settings, or via a password prompt.;
 + (id)d7;
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)9(\;
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
-- (id);
+- (_Bool);
+- (id)_invalid;
+- (void);
+- (void)ϱ;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (void)(;
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id)ge:(id)arg1 reply:(id)arg2;
+- (id)handleMessage:(id)arg1 reply:(id)arg2;
 - (id)/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCKMetadataEntry.m;
 
 @end

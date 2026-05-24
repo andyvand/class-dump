@@ -9,8 +9,6 @@
 @interface MDLNormalMapTexture : MDLTexture
 {
     float _smoothness;
-    float _contrast;
-    MDLTexture *_sourceTexture;
 }
 
 - (id);

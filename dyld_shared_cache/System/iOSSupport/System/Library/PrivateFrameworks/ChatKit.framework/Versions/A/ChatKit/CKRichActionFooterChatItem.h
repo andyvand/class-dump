@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (BOOL);
+- (BOOL)sendMentionNotificationToParticipant:inlineAttachmentRecordName:shareRecordName:shareOwnerUserId:accountId:noteRecordName:senderName:noteTitle:mentionSnippet:callback: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (id);
 - (struct UIEdgeInsets);

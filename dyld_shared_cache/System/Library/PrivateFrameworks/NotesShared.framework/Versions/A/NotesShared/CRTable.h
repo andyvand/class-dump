@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCRObject.h>
 
-@class ICCRDictionary, ICCRTombstoneOrderedSet, NSObject, NSString;
+@class NSObject, NSString;
 @protocol ICCRUndoDelegate;
 
 @interface CRTable : ICCRObject
@@ -14,29 +14,29 @@
     NSObject<ICCRUndoDelegate> *_delegate;
 }
 
-+ (void);
++ (void)ection invalidated;
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)(%u);
+- (void)s:(id)arg1;
+- (void)iled:(id)arg1 %@ (%d);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)packageDownloader:(unsigned long long)arg1 didDownloadInvalidDataForPackageReference:(unsigned long long)arg2;
+- (id)packageDownloader:(id)arg1 didChangeProgress:(id)arg2;
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -60,38 +60,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)i;
 - (void);
 - (unsigned long long);
 - (void)Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) ICCRDictionary *cellColumns;
-@property(readonly, nonatomic) unsigned long long columnCount;
 @property(retain, nonatomic) NSString *columnDirection;
-@property(readonly, nonatomic) ICCRTombstoneOrderedSet *crColumns;
-@property(readonly, nonatomic) ICCRTombstoneOrderedSet *crRows;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<ICCRUndoDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLeftToRight;
-@property(readonly, nonatomic) _Bool isRightToLeft;
-@property(readonly, nonatomic) unsigned long long rowCount;
-@property(readonly) Class superclass;
 
 @end
 

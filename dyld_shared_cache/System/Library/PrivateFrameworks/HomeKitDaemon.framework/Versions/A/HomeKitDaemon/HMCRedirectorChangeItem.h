@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFObjectDatabaseID, NSSet, NSUUID, Protocol;
+@class Protocol;
 
 __attribute__((visibility("hidden")))
 @interface HMCRedirectorChangeItem
 {
     Protocol *_modelType;
-    NSUUID *_modelID;
-    MKFObjectDatabaseID *_databaseID;
-    NSSet *_changedProperties;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,9 +21,6 @@ __attribute__((visibility("hidden")))
 - (id)É¼¨D;
 
 // Remaining properties
-@property(readonly) NSSet *changedProperties; // @synthesize changedProperties=_changedProperties;
-@property(readonly) MKFObjectDatabaseID *databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly) NSUUID *modelID; // @synthesize modelID=_modelID;
 @property(readonly) Protocol *modelType; // @synthesize modelType=_modelType;
 
 @end

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSCollectionViewReusable
+- (NSString *);
 
 // Remaining properties
 @property(readonly) NSString *reuseIdentifier;

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface GEOPBOfflineDataLayerKeys
 {
     struct GEOPBOfflineDataLayerVersion _layerVersion;
-    NSMutableArray *_keyValueReferences;
-    CDStruct_4b81633f _flags;
 }
 
 - (id);

@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PKWebServiceRequestMetadata
 {
     _Bool _authHandling;
-    _Bool _cacheResponse;
-    long long _retries;
-    NSData *_originalBody;
-    CDUnknownBlockType _completion;
-    NSData *_responseData;
 }
 
 - (void);
-- (void);
+- (void)@y?;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (long long);
 - (id)´X1;
-- (void)ngIdentifier;
+- (void)sharingIdentifier;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool authHandling; // @synthesize authHandling=_authHandling;
-@property(nonatomic) _Bool cacheResponse; // @synthesize cacheResponse=_cacheResponse;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSData *originalBody; // @synthesize originalBody=_originalBody;
-@property(retain, nonatomic) NSData *responseData; // @synthesize responseData=_responseData;
 @property(nonatomic) long long retries; // @synthesize retries=_retries;
 
 @end

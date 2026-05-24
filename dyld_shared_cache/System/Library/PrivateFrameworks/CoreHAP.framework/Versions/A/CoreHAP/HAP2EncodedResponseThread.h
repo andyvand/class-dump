@@ -6,7 +6,7 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAPBTLEResponse, NSString;
+@class HAPBTLEResponse;
 
 @interface HAP2EncodedResponseThread : HAP2LoggingObject
 {
@@ -16,18 +16,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ceToHAPServiceMap: /* Error: Ran out of types for this method. */;
+- (void)setBtleServiceToHAPServiceMap: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HAPBTLEResponse *btleResponse; // @synthesize btleResponse=_btleResponse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

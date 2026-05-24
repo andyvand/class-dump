@@ -8,9 +8,9 @@
 {
 }
 
++ (void)!;
 + (void);
-+ (void);
-- (id);
+- (id)Z;
 
 @end
 

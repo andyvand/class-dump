@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCError, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface BCInternalAuthenticationResponse
 {
     NSString *_status;
     NSString *_businessIdentifier;
-    NSString *_groupIdentifier;
-    NSString *_credentials;
-    NSArray *_errors;
 }
 
+- (void)popoverPresentationController:(id)arg1 willRepositionPopoverToRect:inView: /* Error: Ran out of types for this method. */;
+- (id)placeholderTextColor;
+- (id)navigationControllerPreferredInterfaceOrientationForPresentation:(id)arg1;
+- (id)modal;
+- (void);
+- (void);
+- (id)eived error from remote object proxy:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)TravelEstimates",&,N,V_travelEstimates;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *businessIdentifier; // @synthesize businessIdentifier=_businessIdentifier;
-@property(retain, nonatomic) NSString *credentials; // @synthesize credentials=_credentials;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) BCError *error;
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(nonatomic) NSString *status; // @synthesize status=_status;
 
 @end

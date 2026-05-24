@@ -5,14 +5,10 @@
 //
 
 @class NSMutableIndexSet;
-@protocol PXDisplayAssetFetchResult;
 
 @interface PXPreheatInfo
 {
     NSMutableIndexSet *_preheatedIndexes;
-    id <PXDisplayAssetFetchResult> _fetchResult;
-    long long _preheatOrigin;
-    long long _cachedBytes;
 }
 
 - (id);
@@ -23,13 +19,9 @@
 - (_Bool);
 - (id)v;
 - (void)Core.LemonadeInlineStoryPlayerUIView;
-- (void)iewHeaderImplementation;
+- (void)detailsViewHeaderImplementation;
 
 // Remaining properties
-@property(nonatomic) long long cachedBytes; // @synthesize cachedBytes=_cachedBytes;
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(readonly, nonatomic) _Bool finished;
-@property(readonly, nonatomic) long long preheatOrigin; // @synthesize preheatOrigin=_preheatOrigin;
 @property(readonly, nonatomic) NSMutableIndexSet *preheatedIndexes; // @synthesize preheatedIndexes=_preheatedIndexes;
 
 @end

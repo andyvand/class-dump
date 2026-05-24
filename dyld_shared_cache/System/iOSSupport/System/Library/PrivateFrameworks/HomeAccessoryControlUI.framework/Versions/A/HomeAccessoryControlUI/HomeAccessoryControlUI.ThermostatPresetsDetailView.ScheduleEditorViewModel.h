@@ -8,14 +8,6 @@
 {
     id _identifier;
     id _rule;
-    id _updateScheduleAction;
-    id _startTime;
-    id _endTime;
-    id _startDate;
-    id _endDate;
-    id _daysOfWeek;
-    id _days;
-    id _$observationRegistrar;
 }
 
 @end

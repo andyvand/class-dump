@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> firstObject;
-@property(readonly, nonatomic) id <PXDisplayAsset> lastObject;
 @end
 

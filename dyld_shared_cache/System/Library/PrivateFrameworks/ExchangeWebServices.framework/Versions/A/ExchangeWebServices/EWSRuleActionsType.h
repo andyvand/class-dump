@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSItemIdType, EWSTargetFolderIdType, NSArray, NSString;
+@class NSArray;
 
 @interface EWSRuleActionsType
 {
     _Bool _Delete;
-    _Bool _MarkAsRead;
-    _Bool _PermanentDelete;
-    _Bool _StopProcessingRules;
-    NSArray *_AssignCategories;
-    EWSTargetFolderIdType *_CopyToFolder;
-    NSArray *_ForwardAsAttachmentToRecipients;
-    NSArray *_ForwardToRecipients;
-    long long _MarkImportance;
-    EWSTargetFolderIdType *_MoveToFolder;
-    NSArray *_RedirectToRecipients;
-    NSArray *_SendSMSAlertToRecipients;
-    EWSItemIdType *_ServerReplyWithMessage;
 }
 
 + (id);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,25 +42,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *AssignCategories; // @synthesize AssignCategories=_AssignCategories;
-@property(retain, nonatomic) EWSTargetFolderIdType *CopyToFolder; // @synthesize CopyToFolder=_CopyToFolder;
-@property(nonatomic) _Bool Delete; // @synthesize Delete=_Delete;
-@property(copy, nonatomic) NSArray *ForwardAsAttachmentToRecipients; // @synthesize ForwardAsAttachmentToRecipients=_ForwardAsAttachmentToRecipients;
-@property(copy, nonatomic) NSArray *ForwardToRecipients; // @synthesize ForwardToRecipients=_ForwardToRecipients;
-@property(nonatomic) _Bool MarkAsRead; // @synthesize MarkAsRead=_MarkAsRead;
-@property(nonatomic) long long MarkImportance; // @synthesize MarkImportance=_MarkImportance;
-@property(retain, nonatomic) EWSTargetFolderIdType *MoveToFolder; // @synthesize MoveToFolder=_MoveToFolder;
-@property(nonatomic) _Bool PermanentDelete; // @synthesize PermanentDelete=_PermanentDelete;
-@property(copy, nonatomic) NSArray *RedirectToRecipients; // @synthesize RedirectToRecipients=_RedirectToRecipients;
-@property(copy, nonatomic) NSArray *SendSMSAlertToRecipients; // @synthesize SendSMSAlertToRecipients=_SendSMSAlertToRecipients;
-@property(retain, nonatomic) EWSItemIdType *ServerReplyWithMessage; // @synthesize ServerReplyWithMessage=_ServerReplyWithMessage;
-@property(nonatomic) _Bool StopProcessingRules; // @synthesize StopProcessingRules=_StopProcessingRules;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

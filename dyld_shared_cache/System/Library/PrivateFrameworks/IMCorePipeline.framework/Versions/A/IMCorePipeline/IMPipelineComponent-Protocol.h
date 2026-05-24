@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol IMPipelineComponent;
+
 @protocol IMPipelineComponent
+- (id <IMPipelineComponent>)rt token:(id <IMPipelineComponent>)arg1 %lld
+;
 @end
 

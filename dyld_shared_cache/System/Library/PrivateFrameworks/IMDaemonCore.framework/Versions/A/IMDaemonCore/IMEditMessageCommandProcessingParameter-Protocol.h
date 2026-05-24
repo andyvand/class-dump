@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDiMessageIDSTrustedData, NSArray, NSAttributedString, NSNumber, NSString;
+@class IMDiMessageIDSTrustedData, NSAttributedString, NSString;
 
 @protocol IMEditMessageCommandProcessingParameter
+- (void)K;
+- (NSAttributedString *).;
+- (NSString *)h;
+- (_Bool)sendBasebandCodecMessage];
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *editCommandGUID;
-@property(readonly, nonatomic) unsigned long long editType;
-@property(readonly, nonatomic) NSString *editedMessageGUID;
-@property(readonly, nonatomic) NSAttributedString *editedMessagePartBody;
-@property(readonly, nonatomic) NSArray *editedMessagePartFileTransferGUIDs;
-@property(readonly, nonatomic) long long editedMessagePartIndex;
-@property(readonly, nonatomic) NSAttributedString *editedMessagePartTranslation;
-@property(readonly, nonatomic) _Bool hasEditTypeAndPartIndex;
 @property(readonly, nonatomic) IMDiMessageIDSTrustedData *idsTrustedData;
-@property(readonly, nonatomic) _Bool isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage;
-@property(readonly, nonatomic) _Bool shouldRetractMessageSubject;
-@property(readonly, nonatomic) NSNumber *timestamp;
 @end
 

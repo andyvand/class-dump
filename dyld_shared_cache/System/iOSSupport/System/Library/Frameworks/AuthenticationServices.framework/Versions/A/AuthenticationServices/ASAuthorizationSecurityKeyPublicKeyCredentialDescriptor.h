@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCPublicKeyCredentialDescriptor, NSArray, NSData, NSString;
+@class ASCPublicKeyCredentialDescriptor, NSArray;
 
 @interface ASAuthorizationSecurityKeyPublicKeyCredentialDescriptor
 {
     NSArray *_transports;
-    struct os_unfair_lock_s _internalLock;
-    NSData *_credentialID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)I4;
+- (void)celerationStructure>"24@0:(id)arg1 8@"MTLAccelerationStructureDescriptor"16;
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ASCPublicKeyCredentialDescriptor *coreDescriptor;
-@property(copy, nonatomic) NSData *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *transports;
 
 @end
 

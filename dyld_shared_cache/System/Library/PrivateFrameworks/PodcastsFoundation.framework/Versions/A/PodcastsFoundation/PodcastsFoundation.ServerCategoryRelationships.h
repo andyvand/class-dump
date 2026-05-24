@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.ServerCategoryRelationships
 {
     id parent;
-    id children;
 }
 
 @end

@@ -11,7 +11,6 @@
 @interface ABPostalAddressCollectionViewItem : ABCollectionViewItem
 {
     NSArray *_countryMenuItems;
-    unsigned long long _updateViewCallDepth;
 }
 
 + (unsigned long long);

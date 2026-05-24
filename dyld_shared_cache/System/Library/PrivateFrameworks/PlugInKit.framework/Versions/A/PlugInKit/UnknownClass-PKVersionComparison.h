@@ -6,6 +6,6 @@
 
 @interface UnknownClass (PKVersionComparison)
 - (long long);
-- (id);
+- (id);
 @end
 

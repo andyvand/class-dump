@@ -7,7 +7,6 @@
 @interface TeaUI.KeyCommandUnownedProvider
 {
     id invalidator;
-    id provider;
 }
 
 @end

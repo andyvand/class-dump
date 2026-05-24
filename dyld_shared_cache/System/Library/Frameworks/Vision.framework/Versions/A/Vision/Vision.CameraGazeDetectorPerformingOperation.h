@@ -7,8 +7,6 @@
 @interface Vision.CameraGazeDetectorPerformingOperation
 {
     id requests;
-    id faceObservations;
-    id options;
 }
 
 @end

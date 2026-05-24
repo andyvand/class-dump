@@ -7,9 +7,6 @@
 @interface FamilyCircleUI.SubscriptionServicesDataLoader
 {
     id locationAllowed;
-    id services;
-    id dataProvider;
-    id account;
 }
 
 - (id);

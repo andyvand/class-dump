@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents;
-
 @interface CalDAVCalendarQueryTask
 {
     _Bool _syncEvents;
-    _Bool _syncTodos;
-    NSDateComponents *_eventFilterStartDate;
-    NSDateComponents *_eventFilterEndDate;
 }
 
 - (id);
@@ -20,21 +15,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)
+;
+- (id)L!;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)_totalOccurrencesInSeries;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *eventFilterEndDate; // @synthesize eventFilterEndDate=_eventFilterEndDate;
-@property(retain, nonatomic) NSDateComponents *eventFilterStartDate; // @synthesize eventFilterStartDate=_eventFilterStartDate;
 @property(nonatomic) _Bool syncEvents; // @synthesize syncEvents=_syncEvents;
-@property(nonatomic) _Bool syncTodos; // @synthesize syncTodos=_syncTodos;
 
 @end
 

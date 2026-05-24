@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
+- (_Bool)ing url %@ as dictionary:(id)arg1 %@.;
 
 @end
 

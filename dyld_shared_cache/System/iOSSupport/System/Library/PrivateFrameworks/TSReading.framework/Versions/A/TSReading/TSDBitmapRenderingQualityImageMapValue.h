@@ -7,7 +7,6 @@
 @interface TSDBitmapRenderingQualityImageMapValue
 {
     struct CGSize mMaxSize;
-    struct CGImage *mDegradedImageRef;
 }
 
 - (struct CGImage *);

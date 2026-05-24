@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSSet;
+@class NSMutableDictionary;
 
 @interface CRKAnnotatedCredentialManifest
 {
     _Bool _modified;
-    NSMutableDictionary *_annotationsByPersistentID;
 }
 
 + (id);
@@ -18,11 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)aks_keybag_persona_create;
 - (void);
 - (id);
 - (id);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *annotationsByPersistentID; // @synthesize annotationsByPersistentID=_annotationsByPersistentID;
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
-@property(nonatomic) _Bool modified; // @synthesize modified=_modified;
-@property(readonly, copy, nonatomic) NSSet *persistentIDs;
 
 @end
 

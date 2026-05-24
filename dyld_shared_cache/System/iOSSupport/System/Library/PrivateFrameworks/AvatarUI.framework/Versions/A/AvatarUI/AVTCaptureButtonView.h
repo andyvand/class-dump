@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)mitBlock: /* Error: Ran out of types for this method. */;
+- (id)setPreCommitBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_os_transaction;
-
 __attribute__((visibility("hidden")))
 @interface BWDeferredTransactionBroker
 {
     struct os_unfair_lock_s _lock;
-    struct _recursiveTransaction {
-        NSObject<OS_os_transaction> *transaction;
-        unsigned int opens;
-    } _openTransactions[5];
 }
 
 + (id);
-- (void);
-- (void);
+- (void)RY];
+- (void);
 - (void);
 - (void);
 - (void);

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)__VKImageAnalysisButtonAccessibility_super;
 + (void);
-- (struct CGPoint);
+- (struct CGPoint)O;
 - (_Bool);
 - (id);
 - (unsigned long long);

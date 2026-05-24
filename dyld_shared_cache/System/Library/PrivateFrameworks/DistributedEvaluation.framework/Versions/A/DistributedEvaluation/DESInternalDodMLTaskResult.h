@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSURL;
+@class NSDictionary;
 
 @interface DESInternalDodMLTaskResult
 {
     _Bool _deferred;
-    NSDictionary *_JSONResult;
-    NSData *_binaryResult;
-    NSURL *_deferralURL;
-    double _duration;
 }
 
-- (id);
-- (id);
-- (id);
+- (id).linkAction.bundleId;
+- (id)dentifier.custom.bundleId;
+- (id)didate.value.collection.values.entity.typeIdentifier.custom.bundleId;
 - (id);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *JSONResult; // @synthesize JSONResult=_JSONResult;
-@property(readonly, nonatomic) NSData *binaryResult; // @synthesize binaryResult=_binaryResult;
-@property(readonly, nonatomic) NSURL *deferralURL; // @synthesize deferralURL=_deferralURL;
-@property(readonly, nonatomic) _Bool deferred; // @synthesize deferred=_deferred;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 
 @end
 

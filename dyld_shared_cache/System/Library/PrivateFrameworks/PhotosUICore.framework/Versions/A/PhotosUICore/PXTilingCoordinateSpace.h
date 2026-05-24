@@ -7,21 +7,18 @@
 @interface PXTilingCoordinateSpace
 {
     PXTilingCoordinateSpace *_parentSpace;
-    struct CGAffineTransform _transform;
 }
 
 - (id);
 - (void);
 - (struct CGAffineTransform);
 - (id);
-- (void)bActions:(struct CGAffineTransform)arg1;
+- (void)initWithSubActions:(struct CGAffineTransform)arg1;
 - (void *)usicID;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) void *identifier;
-@property(nonatomic) __weak PXTilingCoordinateSpace *parentSpace; // @synthesize parentSpace=_parentSpace;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

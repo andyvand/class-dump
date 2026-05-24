@@ -11,7 +11,7 @@
     id *_outInvocation;
 }
 
-- (id);
+- (id)24@32q40q48@56;
 - (void);
 
 @end

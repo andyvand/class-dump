@@ -6,14 +6,9 @@
 
 #import <Photos/PHAssetExportRequest.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PHCloudSharedAssetExportRequest : PHAssetExportRequest
 {
     int _imageManagerImageRequestId;
-    int _imageManagerVideoRequestId;
-    NSObject<OS_dispatch_queue> *_imageManagerResultHandlerQueue;
 }
 
 + (id);

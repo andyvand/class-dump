@@ -6,16 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHAsset, PHAssetCollection, PHFetchResult;
-@protocol PXFastEnumeration;
+@class PHAssetCollection, PHFetchResult;
 
 @interface PXRearrangeAssetCollectionAction : PXPhotosAction
 {
     PHFetchResult *_beforeFetchResult;
-    PHFetchResult *_afterFetchResult;
-    PHAssetCollection *_assetCollection;
-    id <PXFastEnumeration> _movedAssets;
-    PHAsset *_targetAsset;
 }
 
 + (_Bool);
@@ -33,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) id <PXFastEnumeration> movedAssets; // @synthesize movedAssets=_movedAssets;
-@property(readonly, nonatomic) PHAsset *targetAsset; // @synthesize targetAsset=_targetAsset;
 
 @end
 

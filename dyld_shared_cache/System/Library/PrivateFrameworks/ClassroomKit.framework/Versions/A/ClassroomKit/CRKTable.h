@@ -12,11 +12,11 @@
     id <CRKTableEntries> mEntries;
 }
 
-+ (id);
++ (id);
 + (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)t:(id)arg1 readStageNumOfFails100(4196):Error adding 1 elements to context /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

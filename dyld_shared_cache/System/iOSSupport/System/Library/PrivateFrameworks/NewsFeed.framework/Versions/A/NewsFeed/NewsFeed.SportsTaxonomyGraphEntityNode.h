@@ -7,11 +7,6 @@
 @interface NewsFeed.SportsTaxonomyGraphEntityNode
 {
     id tagId;
-    id umcId;
-    id isHidden;
-    id isChildrenOrderCurated;
-    id privateChildren;
-    id weakParents;
 }
 
 @end

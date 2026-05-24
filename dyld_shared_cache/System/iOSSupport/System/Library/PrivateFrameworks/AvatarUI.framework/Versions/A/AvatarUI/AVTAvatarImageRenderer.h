@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarRemoteImageRenderer, AVTSnapshotBuilder, NSObject;
-@protocol AVTUILogger, OS_dispatch_queue;
+@class AVTSnapshotBuilder;
 
 @interface AVTAvatarImageRenderer
 {
     AVTSnapshotBuilder *_snapshotBuilder;
-    AVTAvatarRemoteImageRenderer *_remoteImageRenderer;
-    id <AVTUILogger> _logger;
-    NSObject<OS_dispatch_queue> *_snapshotBuilderQueue;
 }
 
 - (void);
@@ -35,10 +31,7 @@
 - (id)2;
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) AVTAvatarRemoteImageRenderer *remoteImageRenderer; // @synthesize remoteImageRenderer=_remoteImageRenderer;
 @property(retain, nonatomic) AVTSnapshotBuilder *snapshotBuilder; // @synthesize snapshotBuilder=_snapshotBuilder;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *snapshotBuilderQueue; // @synthesize snapshotBuilderQueue=_snapshotBuilderQueue;
 
 @end
 

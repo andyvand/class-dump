@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSUUID;
+@class NSUUID;
 
 @interface SPIndexInformation
 {
     unsigned char _sequence;
-    NSUUID *_beaconIdentifier;
-    unsigned long long _index;
 }
 
 + (_Bool);
@@ -21,18 +19,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)Aux_;
+- (unsigned long long)y;
 - (unsigned char);
 - (id);
 - (void);
-- (void)nAllowed;
+- (void)timeIntervalUntilOperationAllowed;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(readonly, copy, nonatomic) NSDateInterval *dateInterval;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) unsigned char sequence; // @synthesize sequence=_sequence;
 
 @end
 

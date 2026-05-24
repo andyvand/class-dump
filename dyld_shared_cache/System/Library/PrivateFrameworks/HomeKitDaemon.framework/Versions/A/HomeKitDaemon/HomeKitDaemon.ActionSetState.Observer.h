@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @interface HomeKitDaemon.ActionSetState.Observer
 {
     id $defaultActor;
-    id monitoredCharacteristics;
-    id monitoredCharacteristicsToRetry;
-    id matterDeviceController;
-    id monitoredAttributes;
-    id monitoredDevicesByNodeID;
-    id characteristicsRetryTimer;
-    id monitoredMediaAccessoryUUIDs;
-    id monitoredNaturalLightingProfiles;
-    id notificationCenter;
-    id notificationRegistry;
-    id dataSource;
-    id monitoredActionSets;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithMaximumNumberOfNotifications:(id)arg1 minimumNotificationInterval: /* Error: Ran out of types for this method. */;
+- (void)cancelFetchCapabilitiesForContacts:(id)arg1;
+- (void)artworkDataSource;
+- (void)_joinLiveModeFromHandle:(id)arg1 fromAccountID:error: /* Error: Ran out of types for this method. */;
+- (void)_isUserVisibleDuplicateOfSameClassObject:(id)arg1;
+- (void)count:(NSArray *)arg1 %@, handle:(void (^)(NSArray *))arg2 %@);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void)tic updated to Active:(id)arg1 %@ -> %@;
 
 @end

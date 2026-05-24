@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSStackView, NSTextField, NSView;
+@class NSTextField;
 
 @interface RemindersUICore.TTRMComponentViewSectionView
 {
     void titleLabel;
-    void titleContainerView;
-    void childrenStackView;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 - (id)ssion;
 
 // Remaining properties
-@property(nonatomic) __weak NSStackView *childrenStackView; // @synthesize childrenStackView;
-@property(nonatomic) __weak NSView *titleContainerView; // @synthesize titleContainerView;
 @property(nonatomic) __weak NSTextField *titleLabel; // @synthesize titleLabel;
 
 @end

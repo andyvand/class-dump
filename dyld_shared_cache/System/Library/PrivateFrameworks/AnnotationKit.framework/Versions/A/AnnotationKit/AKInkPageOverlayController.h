@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKInkOverlayView, AKPageController, AKShapeDetectionController, NSString;
+@class AKPageController;
 
 @interface AKInkPageOverlayController
 {
     _Bool _ignoreAnnotationAndSelectionKVO;
-    _Bool _onlyPencilDraws;
-    AKInkOverlayView *_inkOverlayView;
-    AKPageController *_pageController;
-    AKShapeDetectionController *_shapeDetectionController;
-    CDUnknownBlockType _delayedShapeDetectionBlock;
-    double _lastStrokeEndTime;
 }
 
 + (id);
@@ -36,14 +30,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,27 +51,14 @@
 - (struct CGRect);
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void)annotationSubclassForType: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)ationToAllSelectedAnnotations: /* Error: Ran out of types for this method. */;
+- (void)applyTranslationToAllSelectedAnnotations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) CDUnknownBlockType delayedShapeDetectionBlock; // @synthesize delayedShapeDetectionBlock=_delayedShapeDetectionBlock;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreAnnotationAndSelectionKVO; // @synthesize ignoreAnnotationAndSelectionKVO=_ignoreAnnotationAndSelectionKVO;
-@property(retain) AKInkOverlayView *inkOverlayView; // @synthesize inkOverlayView=_inkOverlayView;
-@property double lastStrokeEndTime; // @synthesize lastStrokeEndTime=_lastStrokeEndTime;
-@property _Bool onlyPencilDraws; // @synthesize onlyPencilDraws=_onlyPencilDraws;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(retain) AKShapeDetectionController *shapeDetectionController; // @synthesize shapeDetectionController=_shapeDetectionController;
-@property(readonly) Class superclass;
 
 @end
 

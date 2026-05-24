@@ -6,17 +6,16 @@
 
 #import <CoreHandwriting/CHRemoteRecognitionRequest.h>
 
-@class NSArray, NSSet;
+@class NSSet;
 
 @interface CHRemoteRecognitionMathRequest : CHRemoteRecognitionRequest
 {
     NSSet *_declaredVariables;
-    NSArray *_locales;
 }
 
 + (id);
-+ (_Bool);
-+ (Class)shold;
++ (_Bool)_highlighted;
++ (Class)HWRLineAlignToAxisThreshold;
 - (void);
 - (_Bool);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *declaredVariables; // @synthesize declaredVariables=_declaredVariables;
-@property(copy, nonatomic) NSArray *locales; // @synthesize locales=_locales;
 
 @end
 

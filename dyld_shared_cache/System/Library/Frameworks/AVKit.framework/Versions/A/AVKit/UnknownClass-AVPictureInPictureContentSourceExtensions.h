@@ -11,14 +11,12 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(getter=_usesPanoramicStretch, setter=_setUsesPanoramicStretch:) _Bool _usesPanoramicStretch; // @dynamic _usesPanoramicStretch;
-@property struct CGSize naturalSizeForPanoramicStretch; // @dynamic naturalSizeForPanoramicStretch;
-@property _Bool usesPanoramicStretch;
 @end
 

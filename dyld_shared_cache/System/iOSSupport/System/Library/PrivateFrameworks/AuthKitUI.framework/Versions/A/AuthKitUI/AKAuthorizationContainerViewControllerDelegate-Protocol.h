@@ -5,5 +5,8 @@
 //
 
 @protocol AKAuthorizationContainerViewControllerDelegate
+
+@optional
+- (_Bool);
 @end
 

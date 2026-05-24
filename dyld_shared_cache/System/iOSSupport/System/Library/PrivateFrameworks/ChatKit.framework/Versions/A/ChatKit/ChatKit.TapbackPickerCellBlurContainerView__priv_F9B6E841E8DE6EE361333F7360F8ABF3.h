@@ -7,8 +7,6 @@
 @interface ChatKit.TapbackPickerCellBlurContainerView__priv_F9B6E841E8DE6EE361333F7360F8ABF3
 {
     id hasActiveBlurFilter;
-    id $__lazy_storage_$_blurFilter;
-    id activeAnimationCount;
 }
 
 - (id);

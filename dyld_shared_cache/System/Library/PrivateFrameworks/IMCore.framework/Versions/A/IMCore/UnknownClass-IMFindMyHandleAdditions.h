@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (IMFindMyHandleAdditions)
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)vingAverage=%f;
++ (id)%ld, %ld] internalThreading=%d, outputPowerMovingAverage=%f;
++ (id)%d packetsStored=%ld packetsDropped=[%ld, %ld, %ld, %ld] internalThreading=%d, outputPowerMovingAverage=%f;
+- (id)d component;
+- (id)tRequest %s;
 @end
 

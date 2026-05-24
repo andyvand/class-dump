@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, HMFTimer, NSObject, NSString, NSUUID;
-@protocol HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeThreadExperiment
 {
     unsigned int _currentSequence;
-    long long _mode;
-    long long _expectedNotificationCount;
-    long long _receivedNotificationCount;
-    long long _readCharacteristicCount;
-    long long _expectedReachableCount;
-    long long _reachableCount;
-    NSUUID *_homeUUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_hapAccessory;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMFTimer *_reachabilityTimer;
 }
 
 + (id)%ÿq;
@@ -34,22 +22,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
+- (void)setWithObject: /* Error: Ran out of types for this method. */;
+- (long long)_restoreLastSession;
+- (long long)_notifyPeersForIDSHandlesIfNeeded: /* Error: Ran out of types for this method. */;
+- (long long)_msp_accountFromIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_messagesBatchController;
+- (void)ializing new MSPSharedTripStorageController;
+- (void)fy delegate, %lfs remaining until permitted;
+- (id);
+- (id)ʬ;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (long long);
-- (long long);
+- (long long);
 - (void);
 - (unsigned int);
 - (void);
-- (long long);
+- (long long)RFBSetReceiveTimeoutCore;
 - (id);
 - (id);
 - (void);
@@ -58,25 +46,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int currentSequence; // @synthesize currentSequence=_currentSequence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long expectedNotificationCount; // @synthesize expectedNotificationCount=_expectedNotificationCount;
-@property(nonatomic) long long expectedReachableCount; // @synthesize expectedReachableCount=_expectedReachableCount;
-@property __weak HMDHAPAccessory *hapAccessory; // @synthesize hapAccessory=_hapAccessory;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
 @property(retain, nonatomic) HMFTimer *reachabilityTimer; // @synthesize reachabilityTimer=_reachabilityTimer;
-@property(nonatomic) long long reachableCount; // @synthesize reachableCount=_reachableCount;
-@property(nonatomic) long long readCharacteristicCount; // @synthesize readCharacteristicCount=_readCharacteristicCount;
-@property(nonatomic) long long receivedNotificationCount; // @synthesize receivedNotificationCount=_receivedNotificationCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

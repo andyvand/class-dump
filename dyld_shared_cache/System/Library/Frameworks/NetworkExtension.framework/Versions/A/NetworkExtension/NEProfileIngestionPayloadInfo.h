@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface NEProfileIngestionPayloadInfo
 {
     _Bool _isSetAside;
-    NSString *_payloadProtocolType;
-    NSString *_payloadUUID;
-    NSString *_payloadOrganization;
-    NSString *_profileOrganization;
-    NSString *_profileIdentifier;
-    NSString *_profileUUID;
-    NSDate *_profileIngestionDate;
-    NSString *_systemVersion;
-    long long _profileSource;
 }
 
-+ (_Bool);
++ (_Bool)setSessionID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -37,12 +28,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)|;
 - (id);
+- (id)nt _invalidate];
+- (id)o;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)=;
 - (id);
 - (id);
 - (id);
@@ -51,16 +42,7 @@
 - (id)d to create a new transport for IKE SA;
 
 // Remaining properties
-@property _Bool isSetAside; // @synthesize isSetAside=_isSetAside;
-@property(copy) NSString *payloadOrganization; // @synthesize payloadOrganization=_payloadOrganization;
 @property(copy) NSString *payloadProtocolType; // @synthesize payloadProtocolType=_payloadProtocolType;
-@property(copy) NSString *payloadUUID; // @synthesize payloadUUID=_payloadUUID;
-@property(copy) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(copy) NSDate *profileIngestionDate; // @synthesize profileIngestionDate=_profileIngestionDate;
-@property(copy) NSString *profileOrganization; // @synthesize profileOrganization=_profileOrganization;
-@property long long profileSource; // @synthesize profileSource=_profileSource;
-@property(copy) NSString *profileUUID; // @synthesize profileUUID=_profileUUID;
-@property(copy) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
 
 @end
 

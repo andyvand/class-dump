@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol PAPerfLoggingResult
+- (double);
 
 // Remaining properties
-@property(readonly) double averageIntervalDurationInMs;
-@property(readonly) unsigned long long intervalCount;
-@property(readonly) double *intervalDurationInMsArray;
-@property(readonly) double intervalRateOverOperationIgnoringDelayInIntervalsPerSec;
-@property(readonly) double intervalRateOverOperationInIntervalsPerSec;
-@property(readonly) const double *intervalStartTimeInSecArray;
 @property(readonly, nonatomic) NSString *intervalType;
-@property(readonly) double normalizedStandardDeviation;
-@property(readonly) unsigned long long numUnpairedIntervalEndsOrStarts;
-@property(readonly) NSString *operationCategory;
-@property(readonly) double operationEndTimeInSec;
-@property(readonly) NSString *operationName;
-@property(readonly) double operationStartTimeInSec;
-@property(readonly) NSString *processName;
-@property(readonly) NSArray *processedContextDataArray;
-@property(readonly) double standardDeviationIntervalDurationInMs;
-@property(readonly) double timeBetweenOperationStartAndFirstIntervalInMs;
-@property(readonly) double totalOperationDurationInMs;
 @end
 

@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface FaceCoreLandmark
 {
     NSString *type;
-    unsigned long long pointCount;
-    struct CGPoint *points;
 }
 
 + (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void)hÕ?Ë¡E¶óýÔ?7A`åÐÒ?ï§ÆK7É?òÒMbXÉ?î|?5^ºÉ?ClÇ?#Ûù~j¼Ä?ÓMbX9Ä?Év¾/½?ÇK7A`Å?ú~j¼tØ?V-²ã?ÀÊ¡E¶ã?Clçã?ÁÊ¡E¶óá?PnØ?bX9´ÈÆ?ÀÊ¡EÆ?7A`åÐÂ?;
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 ×£Ð?ÀÊ¡E¶?ú~j¼th?ü©ñÒMb`?ü©ñÒMb`?ü©ñÒMbp?ü©ñÒMbp?ü©ñÒMbp?ü©ñÒMbp?9´Èv¾?{®Gáz?ú~j¼t?;ßOn?/Ý$?333333³?Év¾/Í?!°rhíÔ?Ãõ(\ÂÕ?X9´ÈvÖ?åÐ"Ûù~Ò?Ä °rhÁ?;ßOn¢?Ä °rh?{®Gáz?{®Gáz?{®Gáz?{®Gáz?Ûù~j¼t?Ä °rh?;ßOn¢? /Ý$Á?{®Gázà?ìQ¸ëå?Ãõ(\Âí?ÀÊ¡Eð?ÙÎ÷Sãí?¾/Ý$â?¢E¶óýÔØ?V-Â?ìQ¸ë¡?{®Gáz?Ûù~j¼t?{®Gáz?;
 
 // Remaining properties
-@property(readonly) unsigned long long pointCount; // @synthesize pointCount;
-@property(readonly) struct CGPoint *points; // @synthesize points;
 @property(readonly) NSString *type; // @synthesize type;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIAnimatingImageView, NSUUID, UIView;
+@class UIView;
 
 @interface AVTSimpleAvatarPickerCollectionViewCell
 {
     _Bool _showSelectedState;
-    NSUUID *_displaySessionUUID;
-    unsigned long long _imageInsetSize;
-    UIView *_selectionLayer;
-    AVTUIAnimatingImageView *_imageView;
 }
 
 + (struct CGPath *);
@@ -29,20 +25,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)wcacheDS_SectorsCur;
 - (void);
 - (id);
-- (id);
+- (id)vV;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;
-@property(nonatomic) unsigned long long imageInsetSize; // @synthesize imageInsetSize=_imageInsetSize;
-@property(readonly, nonatomic) AVTUIAnimatingImageView *imageView; // @synthesize imageView=_imageView;
 @property(readonly, nonatomic) UIView *selectionLayer; // @synthesize selectionLayer=_selectionLayer;
-@property(nonatomic) _Bool showSelectedState; // @synthesize showSelectedState=_showSelectedState;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WKWebView;
+
 @protocol WKNavigationDelegate
+
+@optional
+- (void)Failed to find accessory for uniqueIdentifier:(WKWebView *)arg1 %@;
 @end
 

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HMDNetworkRouterIPAddress, HMDNetworkRouterLANIdentifierList, HMDNetworkRouterProtocol, HMDNetworkRouterRuleDirection, NSString;
+@class HMDNetworkRouterRuleDirection;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterStaticPortRule
 {
     HMDNetworkRouterRuleDirection *_direction;
-    HMDNetworkRouterLANIdentifierList *_lanIdentifierList;
-    HMDNetworkRouterProtocol *_protocol;
-    HMDNetworkRouterIPAddress *_destinationIPAddress;
-    HAPTLVUnsignedNumberValue *_destinationPortStart;
-    HAPTLVUnsignedNumberValue *_destinationPortEnd;
 }
 
 + (id);
-+ (id);
++ (id)momentOfReliableScene;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)_identifierToTextMessageStatus;
+- (id)ithCompletionQueue:(id)arg1 completion:(id)arg2 ]_block_invoke_3;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,27 +29,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)veAtAnyTimeAfterOffset:(struct _NSZone *)arg1 forDuration: /* Error: Ran out of types for this method. */;
+- (id)isMotionTriggerActiveAtAnyTimeAfterOffset:(struct _NSZone *)arg1 forDuration: /* Error: Ran out of types for this method. */;
 - (id)Xßá;
 - (void)strations;
-- (void)taError;
+- (void)HomeQuotaError;
 - (id)L¾;
 - (void)b&øæþb&0æþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDNetworkRouterIPAddress *destinationIPAddress; // @synthesize destinationIPAddress=_destinationIPAddress;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *destinationPortEnd; // @synthesize destinationPortEnd=_destinationPortEnd;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *destinationPortStart; // @synthesize destinationPortStart=_destinationPortStart;
-@property(retain, nonatomic) HMDNetworkRouterRuleDirection *direction; // @synthesize direction=_direction;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterLANIdentifierList *lanIdentifierList; // @synthesize lanIdentifierList=_lanIdentifierList;
-@property(retain, nonatomic) HMDNetworkRouterProtocol *protocol; // @synthesize protocol=_protocol;
-@property(readonly) Class superclass;
 
 @end
 

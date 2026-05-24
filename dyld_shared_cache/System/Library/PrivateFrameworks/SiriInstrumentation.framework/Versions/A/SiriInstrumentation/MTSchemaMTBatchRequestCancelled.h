@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MTSchemaMTBatchRequestCancelled : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void):(_Bool)arg1 %{public}@;
 - (id);
 - (void);
-- (void);
+- (void)p_key.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

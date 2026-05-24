@@ -12,14 +12,16 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_layerBatchs;
 }
 
-+ (Class);
-+ (_Bool)tValue:(id)arg1;
++ (Class)te
+Country
+ZIP;
++ (_Bool)setHasUserCohortValue:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ayOperator";
 - (void);
 - (id);
 - (id);

@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIMutableCommonAssetStorage, CoreThemeDocument, NSArray, NSMutableArray, NSString, NSThread, NSUUID, TDLogger;
+@class CoreThemeDocument;
 
 @interface TDDistiller
 {
     CoreThemeDocument *_document;
-    CUIMutableCommonAssetStorage *_assetStore;
-    NSMutableArray *_renditionEntries;
-    NSArray *_changedProductions;
-    NSArray *_mainThreadPerformRunLoopModes;
-    int _fileCompression;
-    _Bool _dontPackRenditionsBeforeDistilling;
-    _Bool _incremental;
-    _Bool _cancelled;
-    _Bool _successful;
-    _Bool _finished;
-    NSString *_assetStoreVersionString;
-    long long _assetStoreVersionNumber;
-    TDLogger *_logger;
-    NSString *_accumulatedErrorDescription;
-    NSThread *_callbackThread;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +34,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -75,13 +59,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -91,8 +75,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)#;
+- (void)A;
 - (void);
 - (_Bool);
 - (void);
@@ -101,34 +85,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
-- (void);
+- (void)mediaPlaybackControlsView;
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)VehicleDisconnect;
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
-- (_Bool);
+- (_Bool)perationStageBegin is not any stage's next stage.  How did we get here?;
 - (void);
 - (id)0îhî´ïÄïüïlñ|ñxò°ò¸òtó;
 - (void)ÆYâª;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accumulatedErrorDescription; // @synthesize accumulatedErrorDescription=_accumulatedErrorDescription;
-@property long long assetStoreVersionNumber; // @synthesize assetStoreVersionNumber=_assetStoreVersionNumber;
-@property(copy) NSString *assetStoreVersionString; // @synthesize assetStoreVersionString=_assetStoreVersionString;
-@property(retain) NSThread *callbackThread; // @synthesize callbackThread=_callbackThread;
-@property(getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) _Bool dontPackRenditionsBeforeDistilling; // @synthesize dontPackRenditionsBeforeDistilling=_dontPackRenditionsBeforeDistilling;
-@property int fileCompression;
-@property(getter=isFinished) _Bool finished; // @synthesize finished=_finished;
 @property(getter=isIncremental) _Bool incremental; // @synthesize incremental=_incremental;
-@property(retain) TDLogger *logger; // @synthesize logger=_logger;
-@property(getter=isSuccessful) _Bool successful; // @synthesize successful=_successful;
-@property(readonly, nonatomic) NSUUID *uuid;
 
 @end
 

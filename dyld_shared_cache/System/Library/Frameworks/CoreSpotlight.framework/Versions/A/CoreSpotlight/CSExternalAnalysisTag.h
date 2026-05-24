@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CSExternalAnalysisTag
 {
     NSString *_label;
-    NSArray *_synonyms;
-    double _confidence;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)9;
 - (void);
 - (id);
 - (_Bool);
@@ -25,15 +23,13 @@
 - (void);
 - (id);
 - (double);
+- (void)-;
 - (void);
 - (void);
-- (void);
-- (id)_alarmEnabled;
+- (id)Clock_alarmEnabled;
 
 // Remaining properties
-@property double confidence; // @synthesize confidence=_confidence;
 @property(copy) NSString *label; // @synthesize label=_label;
-@property(copy) NSArray *synonyms; // @synthesize synonyms=_synonyms;
 
 @end
 

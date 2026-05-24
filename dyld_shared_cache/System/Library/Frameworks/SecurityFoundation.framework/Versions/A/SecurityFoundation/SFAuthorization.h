@@ -7,10 +7,9 @@
 @interface SFAuthorization
 {
     struct AuthorizationOpaqueRef *_authorization;
-    id _reserved;
 }
 
-+ (id);
++ (id)T;
 + (_Bool);
 + (id);
 

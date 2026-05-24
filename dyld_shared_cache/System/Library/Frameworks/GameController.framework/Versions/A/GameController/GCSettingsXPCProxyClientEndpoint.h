@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, GCSProfile, NSString;
-@protocol GCSettingsXPCProxyRemoteServerEndpointInterface, NSObject><NSCopying><NSSecureCoding;
+@class GCController;
+@protocol NSObject><NSCopying><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface GCSettingsXPCProxyClientEndpoint
 {
     GCController *_controller;
-    id <GCSettingsXPCProxyRemoteServerEndpointInterface> _serverEndpoint;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    GCSProfile *_settingsProfile;
-    CDUnknownBlockType _changedHandler;
 }
 
-- (void);
+- (void)d;
 - (void);
 - (void);
 - (id);
@@ -31,20 +25,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType changedHandler; // @synthesize changedHandler=_changedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) GCSProfile *settingsProfile; // @synthesize settingsProfile=_settingsProfile;
-@property(readonly) Class superclass;
 
 @end
 

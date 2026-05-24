@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)nnerTip;
-- (struct UIEdgeInsets)7UIImageCSgIegg_;
+- (void)tipManagerDidDismissTranscriptBannerTip;
+- (struct UIEdgeInsets)So7UIImageCSgIegg_;
 - (void)sì;
 - (struct UIEdgeInsets);
 

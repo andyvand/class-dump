@@ -8,25 +8,6 @@
 {
     id _currentLLM;
     id _signInStatus;
-    id _deepLinkParams;
-    id _showingSignInFailureAlert;
-    id _showSignInFailedDueToWorkspaceRestriction;
-    id _showingSignOutDialog;
-    id _legacyEnableToggleState;
-    id _legacySetupPromptsOn;
-    id _legacyConfirmationPromptsOn;
-    id _subscriptionInfo;
-    id _showManageSubscription;
-    id _adamID;
-    id _showRateLimitStatus;
-    id rateLimitCategories;
-    id _latestRateLimitStates;
-    id _userAccountStatus;
-    id _billingInfo;
-    id _lastRateLimitResponseDate;
-    id _pendingRateLimitFetchStart;
-    id observer;
-    id _$observationRegistrar;
 }
 
 @end

@@ -7,6 +7,7 @@
 @protocol PXAssetCollectionActionPerformerDelegate
 
 @optional
+- (void);
 - (long long);
 @end
 

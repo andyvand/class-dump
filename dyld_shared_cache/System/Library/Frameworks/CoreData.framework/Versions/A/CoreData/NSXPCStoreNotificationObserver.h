@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPersistentStoreCoordinator, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NSXPCStoreNotificationObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _token;
-    NSPersistentStoreCoordinator *_psc;
-    NSString *_storeID;
 }
 
 - (void);

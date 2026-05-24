@@ -7,7 +7,6 @@
 @interface Foundation.XMLPlistMap
 {
     id mapBuffer;
-    id dataLock;
 }
 
 @end

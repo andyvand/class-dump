@@ -7,14 +7,6 @@
 @interface NewsUI2.MyMagazinesGridModelLoader
 {
     id delegate;
-    id activity;
-    id store;
-    id issueService;
-    id issueModelFactory;
-    id tagService;
-    id _sort;
-    id $__lazy_storage_$_lazyInitializingPromise;
-    id lastKnownState;
 }
 
 @end

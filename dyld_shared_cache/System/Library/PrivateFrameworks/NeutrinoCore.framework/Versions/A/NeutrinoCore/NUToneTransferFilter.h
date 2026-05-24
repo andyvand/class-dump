@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface NUToneTransferFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputSourceImage;
-    CIImage *_inputTargetImage;
-    NSNumber *_inputStrength;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)xternal_id, external_data, model_encoding, model_data FROM transaction_v2 WHERE  block_id=?1;
+- (void)ion_v2 WHERE id=?1;
 - (id);
 - (id);
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain) CIImage *inputSourceImage; // @synthesize inputSourceImage=_inputSourceImage;
-@property(retain) NSNumber *inputStrength; // @synthesize inputStrength=_inputStrength;
-@property(retain) CIImage *inputTargetImage; // @synthesize inputTargetImage=_inputTargetImage;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PXPhotosViewModel;
-@protocol PXPhotosLensControlItem, PXPhotosOverlayControllerDelegate;
-
 @interface PXPhotosHighlightsOverlayController
 {
     id photoLibrary;
-    id $__lazy_storage_$_rootLayout;
-    id <PXPhotosLensControlItem> currentLens;
-    PXPhotosViewModel *photosViewModel;
-    void delegate;
-    id isSwitchingLens;
 }
 
 - (void);
@@ -28,15 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)wb;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *availableLenses;
-@property(nonatomic, retain) id <PXPhotosLensControlItem> currentLens; // @synthesize currentLens;
-@property(nonatomic) __weak id <PXPhotosOverlayControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) CDUnknownBlockType overlayLayoutProvider;
-@property(nonatomic, retain) PXPhotosViewModel *photosViewModel; // @synthesize photosViewModel;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface ChatKit.CKUnborderedBackdropMaterialView
 {
     id enableBlur;
-    id color;
 }
 
 + (Class);

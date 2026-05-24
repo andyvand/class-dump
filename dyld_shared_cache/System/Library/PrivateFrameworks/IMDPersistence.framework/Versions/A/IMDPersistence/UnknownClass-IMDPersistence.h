@@ -6,6 +6,6 @@
 
 @interface UnknownClass (IMDPersistence)
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)A;
 @end
 

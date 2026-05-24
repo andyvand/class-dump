@@ -9,39 +9,33 @@
 @interface MPTransition
 {
     NSMutableDictionary *_attributes;
-    id _parent;
-    NSString *_transitionID;
-    NSString *_presetID;
-    double _duration;
-    _Bool _isRandom;
-    long long _randomSeed;
 }
 
 + (id);
 + (_Bool);
+- (id)initWithEndpointConnection: /* Error: Ran out of types for this method. */;
+- (id)initWithContentsOfURL: /* Error: Ran out of types for this method. */;
+- (id)init;
+- (id)hour;
+- (void)nfigurationManager>",&,N,V_appConfigurationManager;
+- (void)kgroundSessionLaunchEventCounter;
+- (void)NDAnalyticsTelemetryUploader;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)KqYSgXw;
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
@@ -57,8 +51,6 @@
 ×£p=æ?R¸ëQÐ¿{®Gáz¤¿333333³¿;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSString *presetID; // @synthesize presetID=_presetID;
 @property(copy, nonatomic) NSString *transitionID; // @synthesize transitionID=_transitionID;
 
 @end

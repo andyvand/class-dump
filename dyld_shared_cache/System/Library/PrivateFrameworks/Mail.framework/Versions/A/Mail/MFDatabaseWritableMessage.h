@@ -4,46 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAngleBracketIDHash, ECSubject, MCMessageHeaders, MFMessageWritePreparedStatements, NSArray, NSString, NSUUID;
+@class MFMessageWritePreparedStatements;
 
 @interface MFDatabaseWritableMessage
 {
     char *_color;
-    BOOL _messageType;
-    int _automatedConversationType;
-    int _rootStatus;
-    int _conversationPosition;
-    int _dateReceived;
-    int _dateSent;
-    int _dateViewed;
-    long long _globalMessageID;
-    long long _subjectID;
-    long long _senderID;
-    long long _businessID;
-    long long _conversationID;
-    long long _mailboxID;
-    long long _fuzzyAncestor;
-    long long _authenticationState;
-    unsigned long long _conversationFlags;
-    unsigned long long _size;
-    long long _flags;
-    NSString *_sender;
-    ECSubject *_subject;
-    ECAngleBracketIDHash *_messageIDHeaderHash;
-    NSString *_remoteMailboxIDString;
-    NSArray *_toRecipients;
-    NSUUID *_documentID;
-    MCMessageHeaders *_headers;
-    NSArray *_referencesHashes;
-    ECAngleBracketIDHash *_listIDHash;
-    NSString *_messageIDHeader;
-    MFMessageWritePreparedStatements *_preparedStatements;
 }
 
 - (_Bool);
 - (void);
 - (long long);
 - (void);
+- (void)qA;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,24 +26,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void))!;
 - (int);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (int);
-- (void);
+- (void);
 - (int);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (_Bool);
@@ -80,21 +51,21 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (id)4;
+- (long long)!;
 - (id);
-- (long long);
-- (id);
+- (void);
+- (int);
+- (void);
+- (int);
+- (void);
 - (void);
 - (int);
 - (void);
-- (int);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (void)(;
+- (id)d;
+- (void);
 - (long long);
 - (long long);
 - (id);
@@ -103,12 +74,12 @@
 - (long long);
 - (unsigned long long);
 - (void);
-- (char *);
-- (id);
+- (char *)excludeMarkup: /* Error: Ran out of types for this method. */;
+- (id)rangeOfString:options: /* Error: Ran out of types for this method. */;
 - (BOOL);
-- (id);
-- (long long);
-- (void);
+- (id)setEmbeddingState: /* Error: Ran out of types for this method. */;
+- (long long)MutableSet",&,N,V_recentSearches;
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -120,36 +91,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long authenticationState; // @synthesize authenticationState=_authenticationState;
-@property(nonatomic) int automatedConversationType; // @synthesize automatedConversationType=_automatedConversationType;
-@property(nonatomic) long long businessID; // @synthesize businessID=_businessID;
-@property(nonatomic) char *color;
-@property(nonatomic) unsigned long long conversationFlags; // @synthesize conversationFlags=_conversationFlags;
-@property(nonatomic) long long conversationID; // @synthesize conversationID=_conversationID;
-@property(nonatomic) int conversationPosition; // @synthesize conversationPosition=_conversationPosition;
-@property(nonatomic) int dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(nonatomic) int dateSent; // @synthesize dateSent=_dateSent;
-@property(nonatomic) int dateViewed; // @synthesize dateViewed=_dateViewed;
-@property(retain, nonatomic) NSUUID *documentID; // @synthesize documentID=_documentID;
-@property(nonatomic) long long flags; // @synthesize flags=_flags;
-@property(nonatomic) long long fuzzyAncestor; // @synthesize fuzzyAncestor=_fuzzyAncestor;
-@property(nonatomic) long long globalMessageID; // @synthesize globalMessageID=_globalMessageID;
-@property(retain, nonatomic) MCMessageHeaders *headers; // @synthesize headers=_headers;
-@property(retain, nonatomic) ECAngleBracketIDHash *listIDHash; // @synthesize listIDHash=_listIDHash;
-@property(nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
-@property(copy, nonatomic) NSString *messageIDHeader; // @synthesize messageIDHeader=_messageIDHeader;
-@property(copy, nonatomic) ECAngleBracketIDHash *messageIDHeaderHash; // @synthesize messageIDHeaderHash=_messageIDHeaderHash;
-@property(nonatomic) BOOL messageType; // @synthesize messageType=_messageType;
 @property(readonly, nonatomic) MFMessageWritePreparedStatements *preparedStatements; // @synthesize preparedStatements=_preparedStatements;
-@property(copy, nonatomic) NSArray *referencesHashes; // @synthesize referencesHashes=_referencesHashes;
-@property(copy, nonatomic) NSString *remoteMailboxIDString; // @synthesize remoteMailboxIDString=_remoteMailboxIDString;
-@property(nonatomic) int rootStatus; // @synthesize rootStatus=_rootStatus;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(nonatomic) long long senderID; // @synthesize senderID=_senderID;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(copy, nonatomic) ECSubject *subject; // @synthesize subject=_subject;
-@property(nonatomic) long long subjectID; // @synthesize subjectID=_subjectID;
-@property(copy, nonatomic) NSArray *toRecipients; // @synthesize toRecipients=_toRecipients;
 
 @end
 

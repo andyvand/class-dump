@@ -11,11 +11,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)P;
+- (_Bool)ed to initialize mutex
+;
 
 @end
 

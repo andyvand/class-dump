@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL;
-@protocol OS_nw_connection, OS_nw_http_fields, OS_sec_trust;
+@class NSString, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NWURLLoaderAbout
@@ -23,26 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *multipartMixedReplaceBoundary;
-@property(readonly, nonatomic) NSObject<OS_sec_trust> *peerTrust;
-@property(readonly, nonatomic) _Bool requestComplete;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_nw_http_fields> *trailerFields;
-@property(readonly, nonatomic) NSObject<OS_nw_connection> *underlyingConnection;
 
 @end
 

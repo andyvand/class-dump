@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INCalendarEvent, NSArray, NSString;
-
 @interface INCreateEventIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_externalThumbnailGeneratorDataHash;
 + (int);
 + (long long);
 + (_Bool);
@@ -21,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -29,25 +27,15 @@
 - (long long);
 - (void);
 - (id);
+- (id)_GCControllerRemoteSpatialComponent;
+- (id);
+- (void)86cf-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)port;
+- (long long)INUpdateEventIntentResponseExport;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long confirmationReason;
-@property(copy) NSArray *conflictingEventIdentifiers;
-@property(copy) INCalendarEvent *createdEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SXExperimentationStore;
 
 @interface SXExperimentationManager
@@ -12,7 +11,7 @@
     id <SXExperimentationStore> _store;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void):8@"SVVideoPlayerViewController"16 /* Error: Ran out of types for this method. */;
@@ -20,14 +19,7 @@
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXExperimentationStore> store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

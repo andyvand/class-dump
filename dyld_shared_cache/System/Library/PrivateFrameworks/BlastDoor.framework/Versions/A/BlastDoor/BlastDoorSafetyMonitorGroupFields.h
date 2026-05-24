@@ -22,11 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) unsigned long long index;
-@property(nonatomic, readonly) NSString *participantID;
-@property(nonatomic, readonly) NSString *receiverHandle;
-@property(nonatomic, readonly) NSString *shareURL;
-@property(nonatomic, readonly) NSString *sharingInvitationData;
 
 @end
 

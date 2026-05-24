@@ -5,5 +5,6 @@
 //
 
 @protocol CalendarUIKit.FAProfilePictureStoreProtocol
+- (id)B60@64q72@?80;
 @end
 

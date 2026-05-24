@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSObject;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeObjectChangeHandler
 {
     HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)pleInternal/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICropStraightenPipeline.m;
 - (id);
 - (id)
 × ;
-- (void)yIsCurrentlyExpensiveKey;
+- (void)HMDAccessoryMatterEventMessageHomeEnergyIsCurrentlyExpensiveKey;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

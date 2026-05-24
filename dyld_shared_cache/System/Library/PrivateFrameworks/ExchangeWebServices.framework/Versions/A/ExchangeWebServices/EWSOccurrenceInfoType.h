@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSItemIdType, NSDateComponents, NSString;
+@class EWSItemIdType;
 
 @interface EWSOccurrenceInfoType
 {
     EWSItemIdType *_ItemId;
-    NSDateComponents *_Start;
-    NSDateComponents *_End;
-    NSDateComponents *_OriginalStart;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
+- (id)kB;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)] <%p> Connection state .ready;
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *End; // @synthesize End=_End;
 @property(retain, nonatomic) EWSItemIdType *ItemId; // @synthesize ItemId=_ItemId;
-@property(retain, nonatomic) NSDateComponents *OriginalStart; // @synthesize OriginalStart=_OriginalStart;
-@property(retain, nonatomic) NSDateComponents *Start; // @synthesize Start=_Start;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

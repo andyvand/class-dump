@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSError, NSString;
+@class CKRecord;
 
 @interface CKSyncEngineFailedRecordSave
 {
     CKRecord *_record;
-    NSError *_error;
 }
 
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)8@16@24@32^@40;
 - (void)CKThrottleManager;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(readonly) Class superclass;
 
 @end
 

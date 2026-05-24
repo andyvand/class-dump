@@ -5,5 +5,6 @@
 //
 
 @protocol ScreenTimeUI.CommunicationLimitsBlockingViewDelegate
+- (void);
 @end
 

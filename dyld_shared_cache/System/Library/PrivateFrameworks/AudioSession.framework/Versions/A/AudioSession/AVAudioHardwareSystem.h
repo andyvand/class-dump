@@ -12,37 +12,31 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id)NEContentFilterNetworkAgent;
++ (id)NEPrettyDescription;
++ (id)H;
+- (_Bool)oxyProviderProtocol",&;
+- (_Bool),C,V_contentFilter;
+- (_Bool)face>",R;
+- (_Bool)NEVirtualInterfaceParameters;
+- (_Bool)NEIKEv2MOBIKE;
+- (id)NEExtensionPacketTunnelProviderHostContext;
+- (_Bool)NEFlowDivertPluginDriver;
+- (void)NEExtensionAppProxyProviderHostContext;
+- (id)NEProfileIngestionMethods;
+- (long long)NEConfigurationLegacySupport;
+- (id)NETransparentProxyManager;
+- (id)NENetworkRule;
+- (id)_TtC16NetworkExtension49NEHotspotAuthenticationProviderHostExportedObject;
+- (long long)_TtP16NetworkExtension38NEHotspotEvaluationProviderXPCProtocol_;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
+- (void)_TtC16NetworkExtensionP33_8A6EAEC7B0CD28E3C1D36D746A66647F38NEIKEv2KeyExchangeHandlerCryptoKitX448;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *audioDevices;
-@property(readonly, nonatomic) NSArray *boxes;
-@property(readonly, nonatomic) NSArray *clockDevices;
-@property(readonly, nonatomic) NSArray *drivers;
-@property(readonly, nonatomic) NSArray *inputPorts;
-@property(readonly, nonatomic) NSArray *outputPorts;
-@property(readonly, nonatomic) NSArray *publishedRoutes;
 
 @end
 

@@ -5,13 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_nw_path_monitor;
+@protocol OS_nw_path_monitor;
 
 @interface SMNetworkReachabilityObserver
 {
     NSObject<OS_nw_path_monitor> *_pathMonitor;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    _Bool _isNetworkReachable;
 }
 
 + (id);

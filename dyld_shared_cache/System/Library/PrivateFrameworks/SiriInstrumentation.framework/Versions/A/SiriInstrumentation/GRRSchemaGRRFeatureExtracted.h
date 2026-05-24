@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GRRSchemaGRRSource, NSArray, NSData;
+@class GRRSchemaGRRSource;
 
 @interface GRRSchemaGRRFeatureExtracted : SISchemaInstrumentationMessage
 {
     GRRSchemaGRRSource *_source;
-    NSArray *_featureNames;
-    NSArray *_features;
-    _Bool _hasSource;
 }
 
 - (unsigned long long);
@@ -28,7 +25,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -36,22 +33,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)able %d;
+- (id)CLLocationCoordinate2D;
 - (id)text";
-- (id)eNodeIndex;
+- (id)deleteNodeIndex;
 - (id)·ä¸;
 - (void)|ù;
-- (id)Context;
+- (id)assistantDaemonAudioFetchRouteContext;
 - (_Bool)`³Å©#;
 - (void)D7Çÿ;
 - (void)D÷ÃÿøÒ¯ë}$;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *featureNames; // @synthesize featureNames=_featureNames;
-@property(copy, nonatomic) NSArray *features; // @synthesize features=_features;
-@property(nonatomic) _Bool hasSource; // @synthesize hasSource=_hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GRRSchemaGRRSource *source; // @synthesize source=_source;
 
 @end

@@ -7,16 +7,11 @@
 #import <Safari/StartPageViewItem.h>
 
 @class NSView;
-@protocol StartPageViewItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SingleLineStartPageViewItem : StartPageViewItem
 {
     NSView *_cardView;
-    id _target;
-    SEL _action;
-    id <StartPageViewItemDelegate> _delegate;
-    long long _section;
 }
 
 - (_Bool);
@@ -24,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)fetchProtocolVersionData:(long long)arg1 completion: /* Error: Ran out of types for this method. */;
 - (long long);
 - (SEL)Ôèÿÿÿÿ;
 - (void)i;
@@ -37,9 +32,6 @@ __attribute__((visibility("hidden")))
 - (void)lP.;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic) __weak id <StartPageViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long section; // @synthesize section=_section;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

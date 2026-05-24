@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString;
+@class NSButton;
 
 @interface ASBarButtonItem
 {
@@ -21,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSButton *button; // @synthesize button=_button;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

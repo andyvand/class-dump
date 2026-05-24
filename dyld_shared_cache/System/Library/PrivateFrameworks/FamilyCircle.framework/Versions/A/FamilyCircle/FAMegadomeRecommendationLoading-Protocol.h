@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GDRankedEntityTagPersons, NSArray, NSSet;
+@protocol GDVisualIdentifierView;
+
 @protocol FAMegadomeRecommendationLoading
+- (id <GDVisualIdentifierView>)lastPreItnTokenIndex;
+- (GDRankedEntityTagPersons *)Composer;
+- (NSArray *)routeResponse;
+- (NSSet *)rary/BuildRoots/4~CNqTugD911MZ_AalpCSond_MjVljuascLC_MzwI/Library/Caches/com.apple.xbs/TemporaryDirectory.oMr8nu/Sources/AVFoundationCF/Fig/AVCFMediaComputeByteStream.c %s:[%{public}s] finalizing %p /* Error: Ran out of types for this method. */;
 @end
 

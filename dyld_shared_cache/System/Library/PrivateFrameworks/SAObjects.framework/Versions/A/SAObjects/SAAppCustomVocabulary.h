@@ -7,7 +7,6 @@
 #import <SAObjects/SADomainObject.h>
 
 @class NSString;
-@protocol SAIntentGroupCustomVocabularyEntity;
 
 @interface SAAppCustomVocabulary : SADomainObject
 {
@@ -20,14 +19,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id),@�?;
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *intentSlotValue;
-@property(retain, nonatomic) id <SAIntentGroupCustomVocabularyEntity> vocabularyEntity;
-@property(copy, nonatomic) NSString *vocabularyIdentifier;
 
 @end
 

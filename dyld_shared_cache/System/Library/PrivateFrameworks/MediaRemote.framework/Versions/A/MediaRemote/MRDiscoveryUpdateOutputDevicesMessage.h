@@ -6,23 +6,25 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRAVRoutingDiscoverySessionConfiguration, NSArray;
+@class NSArray;
 
 @interface MRDiscoveryUpdateOutputDevicesMessage : MRProtocolMessage
 {
     NSArray *_outputDevices;
-    MRAVRoutingDiscoverySessionConfiguration *_configuration;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)p:recordID:%@
+  sender:%@
+  handles:%@
+  date:%@
+> /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Controller",R,N,V_subscriptionController;
 
 // Remaining properties
-@property(readonly, nonatomic) MRAVRoutingDiscoverySessionConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSArray *outputDevices; // @synthesize outputDevices=_outputDevices;
 
 @end

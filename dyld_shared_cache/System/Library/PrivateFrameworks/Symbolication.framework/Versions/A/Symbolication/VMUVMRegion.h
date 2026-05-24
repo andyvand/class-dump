@@ -4,53 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VMUVMRegion
 {
     struct _VMURange range;
-    unsigned int prot;
-    unsigned int maxProt;
-    NSString *type;
-    NSString *path;
-    _Bool summarized;
-    unsigned char external_pager;
-    unsigned char share_mode;
-    int purgeable;
-    unsigned long long virtual_pages;
-    unsigned long long pages_resident;
-    unsigned long long pages_shared_now_private;
-    unsigned long long pages_swapped_out;
-    unsigned long long pages_dirtied;
-    unsigned long long ref_count;
-    unsigned int user_tag;
-    unsigned long long object_id;
-    unsigned long long offset;
-    unsigned int nesting_depth;
-    unsigned int is_submap:1;
-    unsigned int is_macho_region:1;
-    unsigned int is_unused_data_region:1;
-    unsigned int is_unused_data_page_shared_with_active_content:1;
-    unsigned int is_wired:1;
-    unsigned int is_tpro:1;
-    unsigned int is_jit:1;
-    unsigned int is_extra_bits:1;
-    unsigned int reserved_flags:24;
-    unsigned long long mallocBlockCount;
-    unsigned int mallocTypeFlag;
-    unsigned int zone_index;
-    unsigned int coalesced_region_count;
-    unsigned long long resident_size;
-    unsigned long long shared_now_private_size;
-    unsigned long long swapped_out_size;
-    unsigned long long dirty_size;
-    unsigned long long purgable_vol_size;
-    unsigned long long purgable_non_vol_size;
-    unsigned long long purgable_empty_size;
-    unsigned long long reusable_size;
-    unsigned long long object_id_full;
-    _Bool isExclaveRegion;
-    unsigned int exclaveFlags;
 }
 
 + (id);
@@ -61,7 +17,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,35 +29,35 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)_stackViewTopConstraint;
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)y;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (struct _VMURange);
-- (void);
+- (_Bool)timerWithTimeInterval:repeats:block: /* Error: Ran out of types for this method. */;
+- (struct _VMURange)predicateForEpisodesToPreserveForUser:episodeLimit: /* Error: Ran out of types for this method. */;
+- (void)MTSeasonFeedRequest;
 - (unsigned int);
 - (_Bool);
+- (_Bool)\2;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)A;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -109,7 +65,7 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_updateAppearanceForAskPending;
 
 @end
 

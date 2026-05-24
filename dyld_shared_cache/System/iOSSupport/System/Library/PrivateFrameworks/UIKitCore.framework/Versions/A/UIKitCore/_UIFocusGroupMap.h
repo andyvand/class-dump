@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, _UIFocusGroup;
+@class NSMapTable;
 @protocol UICoordinateSpace;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusGroupMap
 {
     NSMapTable *_environmentToGroupMap;
-    NSMapTable *_identifierToGroupMap;
-    NSMapTable *_identifierToPrimaryItemMap;
-    _UIFocusGroup *_nullGroup;
-    NSMapTable *_standInItemsMap;
-    NSArray *_focusGroups;
-    id <UICoordinateSpace> _coordinateSpace;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)handledNicknamesKVStore;
+- (id)OneTimeCode:(id)arg1 fileTransferGUIDs:(id)arg2 foundChat:fallbackFilterCategory:fallbackFilterSubCategory:filteringProcessingBlock:processDictCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)calculateFallbackHashFragmentFor: /* Error: Ran out of types for this method. */;
+- (id)cachedOffGridModeAndLastPublisherForHandle:completion: /* Error: Ran out of types for this method. */;
+- (id)cachedGroupChatsContainingHandles:(id)arg1;
+- (void)r default.;
+- (id)ats with unread messages that would have been cutoff by a count of %ld of out %ld total cutoff chat groups;
 - (id);
 - (id);
 - (id)UpdatingSize;
@@ -33,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(readonly, nonatomic) NSArray *focusGroups; // @synthesize focusGroups=_focusGroups;
-@property(readonly, nonatomic) NSArray *focusItems;
 
 @end
 

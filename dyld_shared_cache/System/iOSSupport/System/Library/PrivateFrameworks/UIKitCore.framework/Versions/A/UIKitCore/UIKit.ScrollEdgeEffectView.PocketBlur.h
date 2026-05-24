@@ -9,15 +9,12 @@
 @interface UIKit.ScrollEdgeEffectView.PocketBlur : UIKit.ScrollEdgeEffectView.BackdropView
 {
     id useHardEdges;
-    id pocketMaskPortal;
-    id blurAttenuation;
-    id blurEnabled;
 }
 
 - (id);
 - (void);
-- (id)rDataAggregator;
-- (void)CTFontTextStyleSubhead;
+- (id)_UIStatusBarDataAggregator;
+- (void)UICTFontTextStyleSubhead;
 - (void)h	ÿLÊÍ zl;
 
 @end

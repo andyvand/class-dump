@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface CUWiFiScanner
 {
     _Bool _activateCalled;
-    NSMutableDictionary *_devices;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    _Bool _scanning;
-    NSObject<OS_dispatch_source> *_scanTimer;
-    _Bool _suspended;
-    struct LogCategory *_ucat;
-    unsigned int _changeFlags;
-    unsigned int _scanFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_label;
-    NSString *_ssid;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _deviceChangedHandler;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
@@ -46,33 +26,25 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)to the MPSNNConcatenationNode;
+- (void)ronDescriptor:(CDUnknownBlockType)arg1 or one of the sub-classes of MPSCNNNeuron
+;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
+- (void);
+- (CDUnknownBlockType)`";
+- (void);
+- (void)myCertificateData;
 - (id)us *);
-- (void);
+- (void)ssid;
 
 // Remaining properties
 @property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler; // @synthesize deviceChangedHandler=_deviceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned int scanFlags; // @synthesize scanFlags=_scanFlags;
-@property(copy, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end
 

@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncDataDonationFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ary/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurchaseRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)rRef, IMDAttachmentRecordRef);
 - (void);
 - (id);
 - (id);
 - (id)assetSetsReported;
 - (id)actFreqForMessages28Day;
-- (void)E_UNKNOWN;
+- (void)ORCHSIRIASRMODE_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

@@ -6,26 +6,12 @@
 
 #import <ApplePushService/APSMessage.h>
 
-@class NSData, NSDate, NSString;
-
 @interface APSIncomingMessage : APSMessage
 {
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelID;
-@property(retain, nonatomic) NSDate *expirationDate;
-@property(nonatomic, getter=wasFromStorage) _Bool fromStorage;
 @property(nonatomic) long long incomingInterface;
-@property(nonatomic, getter=wasLastMessageFromStorage) _Bool lastMessageFromStorage;
-@property(copy, nonatomic) NSData *perAppToken;
-@property(nonatomic) long long priority;
-@property(nonatomic) unsigned int pushFlags;
-@property(nonatomic) unsigned long long pushType;
-@property(copy, nonatomic) NSDate *timestamp;
-@property(copy, nonatomic) NSData *token;
-@property(nonatomic, getter=isTracingEnabled) _Bool tracingEnabled;
-@property(copy, nonatomic) NSData *tracingUUID;
 @end
 

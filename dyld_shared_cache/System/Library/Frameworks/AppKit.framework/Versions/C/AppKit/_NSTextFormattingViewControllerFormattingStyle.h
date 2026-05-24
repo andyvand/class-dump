@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface _NSTextFormattingViewControllerFormattingStyle
 {
     void styleKey;
-    void title;
-    void attributes;
 }
 
 + (_Bool);
-- (id);
+- (id)uploadTaskWithRequest:fromFile:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -22,14 +20,12 @@
 - (_Bool)qß3°1Â0@ù
 × ;
 - (void);
-- (id)t;
+- (id)_buttonCount;
 - (id)(0.0-1.0);
 - (void)Î¤xE;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *attributes;
 @property(nonatomic, readonly) NSString *styleKey;
-@property(nonatomic, readonly) NSString *title;
 
 @end
 

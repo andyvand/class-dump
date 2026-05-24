@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)ger";
 - (id)"b1"delegateImplementsDynamicAnimatorWillResume"b1"physicsKitImplements109159385"b1};
-- (_Bool)PredictionEnabled:(id)arg1;
+- (_Bool)setPredictionEnabled:(id)arg1;
 - (_Bool)on;
-- (_Bool)Text;
+- (_Bool)UIAttributedText;
 - (void)DiffableDataSourceSectionSnapshotRebaser.m;
 - (void)tCore/_UIDirectionalMaskView.swift;
 - (void)÷ìÕ¬_;

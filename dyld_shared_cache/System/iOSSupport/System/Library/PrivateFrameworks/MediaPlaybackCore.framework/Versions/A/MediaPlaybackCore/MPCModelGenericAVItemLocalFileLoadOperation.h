@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCAssetLoadPropertiesLocalFileEvaluation, MPCModelGenericAVItemAssetLoadProperties;
+@class MPCModelGenericAVItemAssetLoadProperties;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemLocalFileLoadOperation
 {
     _Bool _requirePreferredAssetQuality;
-    MPCModelGenericAVItemAssetLoadProperties *_assetLoadProperties;
-    MPCAssetLoadPropertiesLocalFileEvaluation *_fileAssetEvaluation;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (void);
 - (_Bool);
+- (id)setCloudPhotoLibraryEnabled:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)H;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) MPCModelGenericAVItemAssetLoadProperties *assetLoadProperties; // @synthesize assetLoadProperties=_assetLoadProperties;
-@property(readonly, nonatomic) MPCAssetLoadPropertiesLocalFileEvaluation *fileAssetEvaluation; // @synthesize fileAssetEvaluation=_fileAssetEvaluation;
-@property(nonatomic) _Bool requirePreferredAssetQuality; // @synthesize requirePreferredAssetQuality=_requirePreferredAssetQuality;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

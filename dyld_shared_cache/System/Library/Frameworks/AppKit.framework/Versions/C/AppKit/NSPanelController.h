@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSPanelController
 {
     id alertPanel;
-    id iconView;
-    id okButton;
-    id renameLabel;
-    id renameTextField;
-    id target;
-    SEL action;
-    _Bool gotString;
-    NSString *textFieldStringValue;
 }
 
 - (_Bool);
 - (_Bool);
+- (void)checked__sessionOpenFileAtPath;
+- (void)partition (%@) to the select statement;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)Indexes:inColumn:withEvent:pasteboard:source:slideBack: /* Error: Ran out of types for this method. */;
+- (id)_dragRowIndexes:inColumn:withEvent:pasteboard:source:slideBack: /* Error: Ran out of types for this method. */;
 - (_Bool)³	0£C;
 - (void)D;
 

@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, UnitInfo, UnitTypeInfo;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UnitsInfo
 {
     int _unitCount;
-    int _unitTypeCount;
-    NSArray *_unitNames;
-    NSMutableDictionary *_unitNameToInfo;
-    NSMutableArray *_unitIDToInfo;
-    NSMutableDictionary *_unitTypeNameToInfo;
-    NSMutableArray *_unitTypeToInfo;
-    UnitTypeInfo *_angleInfo;
-    UnitInfo *_degreesInfo;
-    UnitInfo *_radiansInfo;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -47,9 +38,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (int);
-- (id);
+- (id);
 - (id);
 - (void)?t;
 - (id)Ïp¢	Þö*öäê·r>zGó,÷h`ÄpJª{£Æ
@@ -61,16 +52,7 @@ __attribute__((visibility("hidden")))
 òkPKtÅ% /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak UnitTypeInfo *angleInfo; // @synthesize angleInfo=_angleInfo;
-@property(nonatomic) __weak UnitInfo *degreesInfo; // @synthesize degreesInfo=_degreesInfo;
-@property(nonatomic) __weak UnitInfo *radiansInfo; // @synthesize radiansInfo=_radiansInfo;
-@property(readonly, nonatomic) int unitCount; // @synthesize unitCount=_unitCount;
-@property(retain, nonatomic) NSMutableArray *unitIDToInfo; // @synthesize unitIDToInfo=_unitIDToInfo;
 @property(retain, nonatomic) NSMutableDictionary *unitNameToInfo; // @synthesize unitNameToInfo=_unitNameToInfo;
-@property(readonly, nonatomic) NSArray *unitNames; // @synthesize unitNames=_unitNames;
-@property(readonly, nonatomic) int unitTypeCount; // @synthesize unitTypeCount=_unitTypeCount;
-@property(retain, nonatomic) NSMutableDictionary *unitTypeNameToInfo; // @synthesize unitTypeNameToInfo=_unitTypeNameToInfo;
-@property(retain, nonatomic) NSMutableArray *unitTypeToInfo; // @synthesize unitTypeToInfo=_unitTypeToInfo;
 
 @end
 

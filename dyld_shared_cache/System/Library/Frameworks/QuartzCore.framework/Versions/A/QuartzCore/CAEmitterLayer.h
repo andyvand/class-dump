@@ -6,15 +6,13 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSArray, NSString;
-
 @interface CAEmitterLayer : CALayer
 {
 }
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)16TFontRegistryImp;
 + (_Bool);
 - (void);
 - (void);
@@ -27,15 +25,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)setObjResult:(double)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)br_typeIdentifierWithError: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (void);
+- (struct CGRect)preferAnonymousRequests;
+- (_Bool)fakeMissingUploadReceipt;
+- (void)_isServiceManatee;
 - (float);
-- (void);
-- (void);
+- (void);
+- (void)y_V=c5valuet;
 - (struct CGSize);
 - (struct CGPoint);
 - (void);
@@ -49,55 +47,32 @@
 - (float);
 - (id);
 - (float);
-- (id);
-- (unsigned int);
+- (id)sona found with unique string %@;
+- (unsigned int);
 - (float);
 - (float);
+- (double)engineScalingCoefficients;
+- (void);
 - (double);
 - (void);
-- (double);
-- (void);
-- (void);
+- (void)sk:(id)arg1 ];
 - (id);
 - (id);
 - (void);
+- (void)setColor:(struct CGSize)arg1;
+- (void)Spinner - Determinate Track;
 - (void);
 - (void);
 - (void);
+- (float);
 - (void);
-- (void);
-- (float);
-- (void);
-- (void);
+- (void);
 - (double);
 - (unsigned int);
 - (void)öÿõ9;
 
 // Remaining properties
-@property float birthRate;
-@property double cullMaxZ;
-@property double cullMinZ;
-@property struct CGRect cullRect;
-@property(copy) NSArray *emitterBehaviors;
-@property(copy) NSArray *emitterCells;
-@property double emitterDepth;
-@property float emitterDuration;
-@property(copy) NSString *emitterMode;
 @property struct CGPath *emitterPath;
-@property struct CGPoint emitterPosition;
-@property(copy) NSArray *emitterRects;
-@property(copy) NSString *emitterShape;
-@property struct CGSize emitterSize;
-@property double emitterZPosition;
-@property float lifetime;
-@property _Bool preservesDepth;
-@property(copy) NSString *renderMode;
-@property float scale;
-@property unsigned int seed;
-@property float spin;
-@property float spinBias;
-@property double updateInterval;
-@property float velocity;
 
 @end
 

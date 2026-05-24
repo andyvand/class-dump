@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol TSMicaPlayerType
+- (void)MapsSuggestionsHideSuppressionTimeIntervalForCalendarEventKey;
 - (void)lue.;
 
 // Remaining properties

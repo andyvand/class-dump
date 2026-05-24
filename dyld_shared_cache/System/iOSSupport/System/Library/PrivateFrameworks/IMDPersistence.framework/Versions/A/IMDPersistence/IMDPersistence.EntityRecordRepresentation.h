@@ -7,9 +7,6 @@
 @interface IMDPersistence.EntityRecordRepresentation
 {
     id recordDescriptor;
-    id propertyDescriptors;
-    id propertyIndexByName;
-    id sqlEntitySchema;
 }
 
 @end

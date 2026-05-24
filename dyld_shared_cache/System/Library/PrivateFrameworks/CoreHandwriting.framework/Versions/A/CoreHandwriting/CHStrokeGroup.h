@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHEncodedStrokeIdentifier, CRNormalizedQuad, NSSet, NSString;
-
 @interface CHStrokeGroup
 {
     struct CGSize _normalizedSize;
-    long long _uniqueIdentifier;
-    long long _ancestorIdentifier;
-    NSSet *_strokeIdentifiers;
-    CHEncodedStrokeIdentifier *_firstStrokeIdentifier;
-    CHEncodedStrokeIdentifier *_lastStrokeIdentifier;
-    long long _classification;
-    double _groupingConfidence;
-    NSString *_strategyIdentifier;
-    struct CGPoint _firstStrokeOrigin;
-    struct CGRect _bounds;
 }
 
 + (id);
@@ -27,12 +15,13 @@
 + (id);
 + (id);
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)J+
+;
 + (_Bool);
-+ (_Bool);
++ (_Bool)_iconSizeControl;
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (void);
 - (struct CGSize);
 - (struct CGPath *);
@@ -49,11 +38,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long).;
 - (id);
 - (long long);
-- (unsigned long long);
-- (struct CGRect);
+- (unsigned long long)@;
+- (struct CGRect)`d;
 - (_Bool);
 - (void);
 - (long long);
@@ -61,25 +50,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long ancestorIdentifier; // @synthesize ancestorIdentifier=_ancestorIdentifier;
-@property(readonly, nonatomic) struct CGVector averageWritingOrientation;
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) long long classification; // @synthesize classification=_classification;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CHEncodedStrokeIdentifier *firstStrokeIdentifier; // @synthesize firstStrokeIdentifier=_firstStrokeIdentifier;
-@property(readonly, nonatomic) struct CGPoint firstStrokeOrigin; // @synthesize firstStrokeOrigin=_firstStrokeOrigin;
-@property(readonly, nonatomic) double groupingConfidence; // @synthesize groupingConfidence=_groupingConfidence;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CHEncodedStrokeIdentifier *lastStrokeIdentifier; // @synthesize lastStrokeIdentifier=_lastStrokeIdentifier;
-@property(readonly) unsigned long long layoutDirection;
-@property(readonly, nonatomic) NSString *strategyIdentifier; // @synthesize strategyIdentifier=_strategyIdentifier;
-@property(readonly, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

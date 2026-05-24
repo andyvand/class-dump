@@ -15,7 +15,18 @@
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)Vertex; 
+		DeclareForeColor; 
+		DeclareTextureCoordinates0; 
+		DeclareInSpriteCoordinates; 
+		void main() 
+		{ 
+			ComputeVertex; 
+			ComputeForeColor; 
+			ComputeTextureCoordinates0; 
+			ComputeInSpriteCoordinates; 
+		} 
+		;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect overrideFullScreenReferenceRect; // @synthesize overrideFullScreenReferenceRect=_overrideFullScreenReferenceRect;

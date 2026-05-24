@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol ACCExternalAccessoryXPCClientProtocol
+- (void);
+- (void)er>, WTF:(NSDictionary *)arg1:(NSString *)arg2 IdentityExtractor, WTF::DefaultHash<WTF::RefPtr<WebCore::ResourceLoader>>, WTF::HashTraits<WTF::RefPtr<WebCore::ResourceLoader>>, WTF::HashTraits<WTF::RefPtr<WebCore::ResourceLoader>>>::validateKey(const ValueType &) [Key = WTF::RefPtr<WebCore::ResourceLoader>, Value = WTF::RefPtr<WebCore::ResourceLoader>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::RefPtr<WebCore::ResourceLoader>>, Traits = WTF::HashTraits<WTF::RefPtr<WebCore::ResourceLoader>>, KeyTraits = WTF::HashTraits<WTF::RefPtr<WebCore::ResourceLoader>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

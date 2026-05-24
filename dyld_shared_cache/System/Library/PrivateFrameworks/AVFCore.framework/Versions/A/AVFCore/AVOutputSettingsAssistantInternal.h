@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-@protocol AVOutputSettingsAssistantBaseSettingsProvider, AVOutputSettingsAssistantVideoSettingsAdjuster;
+@protocol AVOutputSettingsAssistantBaseSettingsProvider;
 
 __attribute__((visibility("hidden")))
 @interface AVOutputSettingsAssistantInternal
 {
     id <AVOutputSettingsAssistantBaseSettingsProvider> baseSettingsProvider;
-    id <AVOutputSettingsAssistantVideoSettingsAdjuster> videoSettingsAdjuster;
-    struct opaqueCMFormatDescription *sourceVideoFormat;
-    struct opaqueCMFormatDescription *sourceAudioFormat;
-    NSDictionary *videoEncoderSpecification;
-    CDStruct_1b6d18a9 sourceVideoAverageFrameDuration;
-    CDStruct_1b6d18a9 sourceVideoMinFrameDuration;
 }
 
 @end

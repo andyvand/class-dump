@@ -5,8 +5,13 @@
 //
 
 @protocol CNKAnsweringMachine
+- (void);
+- (void);
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: B16@0:8
+// Property attributes: v32@0:8@"NSURL"16@?<v@?@"NSString">24
+
 @property(readonly, nonatomic) _Bool isEnabled;
 @end
 

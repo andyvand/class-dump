@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButton, SCNRenderTargetView, SCNTechniquePanel, SCNView;
+@class SCNView;
 
 __attribute__((visibility("hidden")))
 @interface SCNTechniquePanelController
 {
     SCNView *_3dView;
-    SCNTechniquePanel *_panel;
-    NSPopUpButton *_passes;
-    NSPopUpButton *_target;
-    SCNRenderTargetView *_targetView;
 }
 
 - (void);
@@ -23,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (struct __C3DFXContext *);
 - (struct __C3DTexture *);
 - (struct __C3DRendererContext *);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)H,' ;
 - (void);
 - (id);
 - (void);
-- (struct __C3DEngineContext *);
+- (id);
+- (void);
+- (struct __C3DEngineContext *);
 - (id);
 - (void)defined(NEED_IN_TEXCOORD5) && (OSD_TEXCOORD5_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
     geometry.texcoords[5] = float2(0.0);

@@ -7,19 +7,16 @@
 @interface AWDWiFiMetricsManagerSoftErrorUserFeedback
 {
     CDStruct_95bda58d _softErrorInstanceCounters;
-    CDStruct_95bda58d _softErrorUserConfirmationCounters;
-    unsigned long long _timestamp;
-    CDStruct_b5306035 _has;
 }
 
-- (unsigned long long);
+- (unsigned long long)(;
 - (int);
 - (int *);
 - (unsigned long long);
 - (int);
-- (int *);
+- (int *)H;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,22 +27,17 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) int *softErrorInstanceCounters;
-@property(readonly, nonatomic) unsigned long long softErrorInstanceCountersCount;
-@property(readonly, nonatomic) int *softErrorUserConfirmationCounters;
-@property(readonly, nonatomic) unsigned long long softErrorUserConfirmationCountersCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

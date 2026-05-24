@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIAssetExtracting, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRIClientTreatmentStorage
 {
     id <TRIPaths> _paths;
-    id <TRIAssetExtracting> _extractor;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)tss_submit_non_block;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -25,15 +24,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (_Bool);
+- (id)P;
+- (_Bool)no inputs;
+- (id)ernal/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Adjustments/NUSource.m;
 - (id);
 - (_Bool);
 - (id);

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, CIVector, NSNumber, NSString;
+@class CIImage;
 
 @interface PISpillSuppression
 {
     CIImage *_inputImage;
-    CIImage *_inputMatteImage;
-    CIImage *_inputTargetBackgroundImage;
-    CIVector *_inputExtent;
-    NSNumber *_inputRadius;
-    NSNumber *_inputIterations;
-    NSNumber *_inputConstrainToAlpha;
-    NSNumber *_inputAlphaThresholdLog10;
-    NSNumber *_inputEpsilonLog10;
-    NSNumber *_inputErosionRadius;
-    NSNumber *_inputAlphaEdge;
-    NSNumber *_inputEdgeRadius;
-    NSString *_inputDebugChannels;
-    NSNumber *_inputDebugSpillOnly;
 }
 
 + (id);
@@ -39,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,27 +40,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)3;
 - (id);
 - (void);
 - (id);
-- (void)oSourceWithVideoData:orientation: /* Error: Ran out of types for this method. */;
+- (void)videoSourceWithVideoData:orientation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAlphaEdge; // @synthesize inputAlphaEdge=_inputAlphaEdge;
-@property(retain, nonatomic) NSNumber *inputAlphaThresholdLog10; // @synthesize inputAlphaThresholdLog10=_inputAlphaThresholdLog10;
-@property(retain, nonatomic) NSNumber *inputConstrainToAlpha; // @synthesize inputConstrainToAlpha=_inputConstrainToAlpha;
-@property(retain, nonatomic) NSString *inputDebugChannels; // @synthesize inputDebugChannels=_inputDebugChannels;
-@property(retain, nonatomic) NSNumber *inputDebugSpillOnly; // @synthesize inputDebugSpillOnly=_inputDebugSpillOnly;
-@property(retain, nonatomic) NSNumber *inputEdgeRadius; // @synthesize inputEdgeRadius=_inputEdgeRadius;
-@property(retain, nonatomic) NSNumber *inputEpsilonLog10; // @synthesize inputEpsilonLog10=_inputEpsilonLog10;
-@property(retain, nonatomic) NSNumber *inputErosionRadius; // @synthesize inputErosionRadius=_inputErosionRadius;
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent=_inputExtent;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputIterations; // @synthesize inputIterations=_inputIterations;
-@property(retain, nonatomic) CIImage *inputMatteImage; // @synthesize inputMatteImage=_inputMatteImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
-@property(retain, nonatomic) CIImage *inputTargetBackgroundImage; // @synthesize inputTargetBackgroundImage=_inputTargetBackgroundImage;
 
 @end
 

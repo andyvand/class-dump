@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, VGExternalAccessoryModelFilter, VGExternalAccessoryState, VGVehicle, VGVehicleState;
+@class NSObject;
 @protocol OS_dispatch_queue, VGExternalAccessoryUpdating;
 
 __attribute__((visibility("hidden")))
 @interface VGExternalAccessory
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSMutableDictionary *_trackedAccessoriesByConnectionId;
-    VGExternalAccessoryState *_accessoryState;
-    VGVehicleState *_currentVehicleState;
-    VGVehicle *_currentVehicle;
-    VGExternalAccessoryModelFilter *_modelFilter;
-    id <VGExternalAccessoryUpdating> _accessoryUpdateDelegate;
 }
 
 - (_Bool);
@@ -27,30 +20,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)kRequestTypeSoft;
 - (id);
+- (void)Details section;
+- (_Bool);
+- (_Bool)hasPrimaryMailHost: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void);
+- (_Bool);
+- (void)setSelectionLimit:(id)arg1;
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)valueWithRange: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <VGExternalAccessoryUpdating> accessoryUpdateDelegate; // @synthesize accessoryUpdateDelegate=_accessoryUpdateDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

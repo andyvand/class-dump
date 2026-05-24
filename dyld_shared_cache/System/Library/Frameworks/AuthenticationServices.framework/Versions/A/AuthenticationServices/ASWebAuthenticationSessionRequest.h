@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASWebAuthenticationSessionCallback, ASWebAuthenticationSessionController, NSArray, NSData, NSDictionary, NSSet, NSString, NSURL, NSUUID;
-@protocol ASWebAuthenticationSessionRequestDelegate;
+@class ASWebAuthenticationSessionController;
 
 @interface ASWebAuthenticationSessionRequest
 {
     _Bool _shouldUseEphemeralSession;
-    _Bool _shouldForceiOSUserAgent;
-    _Bool _jitEnabled;
-    _Bool _shouldFailOnMDMProfileErrorResponse;
-    NSUUID *_UUID;
-    NSURL *_URL;
-    NSString *_callbackURLScheme;
-    id <ASWebAuthenticationSessionRequestDelegate> _delegate;
-    NSDictionary *_additionalHeaderFields;
-    ASWebAuthenticationSessionCallback *_callback;
-    ASWebAuthenticationSessionController *_controller;
-    NSSet *_requestingAppSupportedSchemes;
-    NSData *_callerAuditTokenData;
-    NSArray *_customAnchorCertificatesData;
-    NSString *_webBrowserApplicationIdentifier;
 }
 
 + (_Bool);
@@ -48,7 +33,7 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)setHighlightedFeaturesGridView: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -61,21 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) NSDictionary *additionalHeaderFields; // @synthesize additionalHeaderFields=_additionalHeaderFields;
-@property(readonly, nonatomic) ASWebAuthenticationSessionCallback *callback; // @synthesize callback=_callback;
-@property(readonly, copy, nonatomic) NSString *callbackURLScheme; // @synthesize callbackURLScheme=_callbackURLScheme;
-@property(retain, nonatomic) NSData *callerAuditTokenData; // @synthesize callerAuditTokenData=_callerAuditTokenData;
 @property(nonatomic) __weak ASWebAuthenticationSessionController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) NSArray *customAnchorCertificatesData; // @synthesize customAnchorCertificatesData=_customAnchorCertificatesData;
-@property(nonatomic) __weak id <ASWebAuthenticationSessionRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool jitEnabled; // @synthesize jitEnabled=_jitEnabled;
-@property(readonly, nonatomic) NSSet *requestingAppSupportedSchemes; // @synthesize requestingAppSupportedSchemes=_requestingAppSupportedSchemes;
-@property(nonatomic) _Bool shouldFailOnMDMProfileErrorResponse; // @synthesize shouldFailOnMDMProfileErrorResponse=_shouldFailOnMDMProfileErrorResponse;
-@property(nonatomic) _Bool shouldForceiOSUserAgent; // @synthesize shouldForceiOSUserAgent=_shouldForceiOSUserAgent;
-@property(readonly, nonatomic) _Bool shouldUseEphemeralSession; // @synthesize shouldUseEphemeralSession=_shouldUseEphemeralSession;
-@property(retain, nonatomic) NSString *webBrowserApplicationIdentifier; // @synthesize webBrowserApplicationIdentifier=_webBrowserApplicationIdentifier;
 
 @end
 

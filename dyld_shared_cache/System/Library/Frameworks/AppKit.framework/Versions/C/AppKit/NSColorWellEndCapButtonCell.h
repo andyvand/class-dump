@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGRect);
+- (struct CGRect)NSMutableArray",R,N;
 
 @end
 

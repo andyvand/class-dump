@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VSPersistentSubscription
@@ -15,38 +15,28 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void)�;
+- (void)s:(id)arg1 ]E4$_10FvP22FI_TCollectionViewItemRbEEE;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)shouldBlur;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *accessLevel; // @dynamic accessLevel;
-@property(copy, nonatomic) NSString *billingIdentifier; // @dynamic billingIdentifier;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
 @property(copy, nonatomic) NSString *derivedSubscriptionInfo; // @dynamic derivedSubscriptionInfo;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(copy, nonatomic) NSDate *mostRecentSaveDate; // @dynamic mostRecentSaveDate;
-@property(copy, nonatomic) NSString *providedSubscriptionInfo; // @dynamic providedSubscriptionInfo;
-@property(copy, nonatomic) NSString *sourceIdentifier; // @dynamic sourceIdentifier;
-@property(copy, nonatomic) NSNumber *sourceKind; // @dynamic sourceKind;
-@property(copy, nonatomic) NSString *subscriberIdentifierHash; // @dynamic subscriberIdentifierHash;
-@property(copy, nonatomic) NSArray *tierIdentifiers; // @dynamic tierIdentifiers;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface AppStoreKit.TodayCardMediaAppEvent : AppStoreKit.TodayCardMedia
 {
     id formattedDates;
-    id tintColor;
-    id blurStyle;
-    id artworks;
-    id videos;
-    id artworkLayoutsWithMetrics;
 }
 
 @end

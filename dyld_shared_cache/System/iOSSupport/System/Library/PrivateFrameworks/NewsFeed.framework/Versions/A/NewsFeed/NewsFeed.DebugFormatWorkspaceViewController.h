@@ -7,13 +7,9 @@
 @interface NewsFeed.DebugFormatWorkspaceViewController
 {
     id editor;
-    id workspaceListViewController;
-    id workspaceListNavigationController;
-    id workspaceCanvasViewController;
-    id workspaceCanvasNavigationController;
 }
 
-- (id);
+- (id)ArticleFeedbackEvent;
 - (id);
 - (void)íD:¹ï /* Error: Ran out of types for this method. */;
 - (id)I:(long long)arg1 L;

@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLogMsgEventDailyUseSummary
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_aggregationSummaryDate;
-    double _firstEventDate;
-    unsigned long long _firstEventTimeRoundedToHour;
-    NSString *_summaryDate;
-    NSMutableArray *_useEvents;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _summaryPeriod;
-    struct {
-        unsigned int has_firstEventDate:1;
-        unsigned int has_firstEventTimeRoundedToHour:1;
-        unsigned int has_summaryPeriod:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_aggregationSummaryDate:1;
-        unsigned int read_summaryDate:1;
-        unsigned int read_useEvents:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setHasSiriSuggestionsEnabled:(id)arg1;
 - (unsigned long long);
-- (id);
-- (id);
+- (id);;
+- (id)4H;
 - (id);
 - (int);
 - (id);
@@ -50,46 +30,35 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)24;
+- (unsigned long long)tokensFromString:nameOrder: /* Error: Ran out of types for this method. */;
+- (double)tokensByAdjustingForNobiliaryParticles: /* Error: Ran out of types for this method. */;
+- (void)firstCharacterAfterLanguage;
+- (id)GreenTeaDevice;
+- (void)NSString",C,V_domainVersion;
+- (void);
+- (int)ForDefaultAppCategory, %@;
+- (void)forming on the main thread;
+- (void);
+- (id)L;
+- (id);
+- (void);
+- (void);
+- (id)Not valid firstPass source for Exclave :%{public}lu /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (unsigned long long);
-- (double);
-- (void);
-- (id);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)ex:(struct _NSZone *)arg1;
+- (id)setRouteIndex:(struct _NSZone *)arg1;
 - (id)",&,N;
 - (id)d request %@ for key %#x / "%@";
 - (id);
 - (void)P4;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *aggregationSummaryDate;
-@property(nonatomic) double firstEventDate;
-@property(nonatomic) unsigned long long firstEventTimeRoundedToHour;
-@property(readonly, nonatomic) _Bool hasAggregationSummaryDate;
-@property(nonatomic) _Bool hasFirstEventDate;
-@property(nonatomic) _Bool hasFirstEventTimeRoundedToHour;
-@property(readonly, nonatomic) _Bool hasSummaryDate;
-@property(nonatomic) _Bool hasSummaryPeriod;
-@property(retain, nonatomic) NSString *summaryDate;
-@property(nonatomic) int summaryPeriod;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 @property(retain, nonatomic) NSMutableArray *useEvents;
 
 @end

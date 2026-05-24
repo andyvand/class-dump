@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)kACAccountChangeTypeSaveFailed;
 - (void)!U°!¨@ùÑ^1Â0@ù
 × ;
 

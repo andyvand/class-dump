@@ -7,16 +7,6 @@
 @interface PKDrawingPowerSavingController
 {
     vector_3f2cadd7 _movementDistanceHistoryBuffer;
-    struct CGPoint _previousDrawingLocation;
-    double _currentMovement;
-    double _accumulatedMovement;
-    double _previousRenderTimestamp;
-    _Bool _valid;
-    double _minimumMovementDistancePencil;
-    double _minimumMovementDistanceFinger;
-    double _minimumMovementDistanceTimeout;
-    _Bool _isDrawingWithPencil;
-    _Bool _isDrawingWithMarkerOrEraser;
 }
 
 - (_Bool);
@@ -36,7 +26,6 @@
 - (void)pi;
 
 // Remaining properties
-@property(nonatomic) _Bool isDrawingWithMarkerOrEraser; // @synthesize isDrawingWithMarkerOrEraser=_isDrawingWithMarkerOrEraser;
 @property(nonatomic) _Bool isDrawingWithPencil; // @synthesize isDrawingWithPencil=_isDrawingWithPencil;
 
 @end

@@ -13,7 +13,7 @@
 + (Class);
 + (long long)adTasks;
 - (id);
-- (id)ctReferenceIntent;
+- (id)INResolveObjectReferenceIntent;
 
 @end
 

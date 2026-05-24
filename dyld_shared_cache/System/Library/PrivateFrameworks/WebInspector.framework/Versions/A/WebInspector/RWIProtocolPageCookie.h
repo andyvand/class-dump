@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)qA;
 - (void);
 - (long long);
 - (_Bool);
@@ -25,26 +25,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)hA9;
 - (void);
-- (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
 - (void)ountedBase:(_Bool)arg1:~RefCountedBase() /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *domain;
-@property(nonatomic) double expires;
-@property(nonatomic) _Bool httpOnly;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *partitionKey;
-@property(copy, nonatomic) NSString *path;
-@property(nonatomic) long long sameSite;
-@property(nonatomic) _Bool secure;
-@property(nonatomic) _Bool session;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

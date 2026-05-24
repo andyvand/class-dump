@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MPAbstractNetworkArtworkDataSourceVisualIdenticalityIdentifier
 {
     NSString *_imageArtworkIdentifier;
-    NSString *_videoArtworkIdentifier;
 }
 
 - (id);
@@ -20,18 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void)pletedTransactions;
+- (void)_completedTransactions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *imageArtworkIdentifier; // @synthesize imageArtworkIdentifier=_imageArtworkIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *videoArtworkIdentifier; // @synthesize videoArtworkIdentifier=_videoArtworkIdentifier;
 
 @end
 

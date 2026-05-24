@@ -4,80 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFKeychainManager, CDPContext, CDPDCircleController, CDPDSecureBackupController;
-@protocol CDPDCircleProxy, CDPDOctagonTrustProxy, CDPDSecureBackupProxy;
+@class AAFKeychainManager, CDPContext;
 
 @interface CDPDEscrowRecordController
 {
     CDPContext *_context;
-    id <CDPDCircleProxy> _circleProxy;
-    id <CDPDOctagonTrustProxy> _octagonTrustProxy;
-    id <CDPDSecureBackupProxy> _secureBackupProxy;
-    AAFKeychainManager *_keychainManager;
-    CDPDCircleController *_circleController;
-    CDPDSecureBackupController *_secureBackupController;
 }
 
+- (_Bool)TabBarEmptyRegionPlaceholderButton;
+- (id)StartPageFeatureAvailabilityCollectionViewItemSection;
+- (id)StartPageFeatureAvailabilityBrowseInSafariCollectionViewItem;
+- (void)ServicesProvider;
+- (void)SecureWindowLockPolicyEnforcer;
+- (id)SafariNSBezierPathExtras;
+- (void)SafariAppExtensionData;
+- (void)RolloverTrackingButton;
+- (id)WindowReopener;
+- (id)RemoteNotificationController;
+- (id)SafariNotificationAgent;
+- (void)RemoteNotificationCenterRequest;
+- (id)RemoteNotificationCenterRequest;
+- (void)ReaderFontTableView;
+- (_Bool)PrivateBrowsingPrivacyProtectionsBanner;
+- (void)PrivateBrowsingController;
+- (_Bool)PrivacyReportView;
+- (void)PagePreviewViewControllerDelegate;
+- (void)MediaPlaybackControlsHostViewController;
+- (id)InjectedJavaScriptFormAutoFiller;
+- (id)ImportedFirefoxCredential;
+- (_Bool)HideMyEmailCreationAutoFillCellView;
+- (_Bool)StartPageCollectionSectionProvider;
+- (id)CompletionUIPresentationControllerDelegate;
+- (id)MenuTableViewDelegate;
+- (id)AutoFillLocalAuthenticationOperationDelegate;
+- (void)PMSafariAutoFillEditingStrongPasswordInformationViewControllerDelegate;
+- (void)FormAddressBookAutoFillCompletionControllerObjCAdapter;
+- (id)FirefoxImportingNSDateExtras;
+- (void)ClippedItemsIndicatorDelegate;
+- (void)FavoriteButton;
+- (void)FaviconProviderHistoryBookmarkAdapterDelegate;
+- (void)ExternalURLNavigationHandler;
+- (void)WKScriptMessageHandlerWithReply;
+- (unsigned long long)DownloadTableCellView;
+- (_Bool)WBSPerSitePreferenceManagerStorageDelegate;
+- (void)PassFileDownloadDelegate;
+- (void)WalletOrderFileDownloadDelegate;
+- (id)DownloadsDialogConfiguration;
+- (void)DownloadLocationServiceSaveFileDataProviderProxy;
+- (_Bool)CreditCardPreferencesViewController;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)E5;
 
 // Remaining properties
-@property(readonly, nonatomic) CDPDCircleController *circleController; // @synthesize circleController=_circleController;
-@property(readonly, nonatomic) id <CDPDCircleProxy> circleProxy; // @synthesize circleProxy=_circleProxy;
-@property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
 @property(readonly, nonatomic) AAFKeychainManager *keychainManager; // @synthesize keychainManager=_keychainManager;
-@property(readonly, nonatomic) id <CDPDOctagonTrustProxy> octagonTrustProxy; // @synthesize octagonTrustProxy=_octagonTrustProxy;
-@property(readonly, nonatomic) CDPDSecureBackupController *secureBackupController; // @synthesize secureBackupController=_secureBackupController;
-@property(readonly, nonatomic) id <CDPDSecureBackupProxy> secureBackupProxy; // @synthesize secureBackupProxy=_secureBackupProxy;
 
 @end
 

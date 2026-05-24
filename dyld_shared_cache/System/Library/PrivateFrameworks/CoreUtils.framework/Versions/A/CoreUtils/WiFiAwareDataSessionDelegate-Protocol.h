@@ -5,5 +5,9 @@
 //
 
 @protocol WiFiAwareDataSessionDelegate
+
+@optional
+- (void);
+- (void)Q;
 @end
 

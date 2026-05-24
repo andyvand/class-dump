@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)q16@0:8 /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 

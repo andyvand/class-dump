@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISPropertyListProvider, NSDictionary, NSString, NSURL;
+@class ISPropertyListProvider;
 
 @interface ISProcessPropertyListOperation
 {
     ISPropertyListProvider *_dataProvider;
-    NSDictionary *_propertyList;
-    NSURL *_propertyListURL;
-    CDUnknownBlockType _preParserBlock;
 }
 
 - (void);
@@ -22,17 +19,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)after %.1f s;
 
 // Remaining properties
 @property(retain) ISPropertyListProvider *dataProvider; // @synthesize dataProvider=_dataProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

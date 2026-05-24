@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSKeyValueObjectBox
 {
     id _object;
-    unsigned long long _objectPointer;
-    Class _objectClass;
 }
 
 - (void);

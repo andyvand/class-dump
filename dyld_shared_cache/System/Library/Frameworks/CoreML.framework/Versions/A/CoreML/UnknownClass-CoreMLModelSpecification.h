@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CoreMLModelSpecification)
-+ (id);
++ (id)p;
 @end
 

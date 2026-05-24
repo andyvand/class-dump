@@ -7,9 +7,6 @@
 @interface NewsUI2.OfflineFeedsOfflineContentContributor
 {
     id offlineContentRequests;
-    id offlineFeedsSupervisor;
-    id offlineFeatures;
-    id appConfigManager;
 }
 
 @end

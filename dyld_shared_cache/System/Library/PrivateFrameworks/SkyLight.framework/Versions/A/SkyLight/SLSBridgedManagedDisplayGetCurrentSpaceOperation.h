@@ -13,10 +13,10 @@
     NSString *_displayIdentifier;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (id);
++ (_Bool)K@9%;
+- (id).aggregate = TRUE;
+- (id)known reason;
+- (id)etching maximum primary key failed;
 - (id);
 - (id);
 - (void);

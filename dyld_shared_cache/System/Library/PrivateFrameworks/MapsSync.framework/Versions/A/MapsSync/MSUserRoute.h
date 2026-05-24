@@ -6,27 +6,11 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class NSData, NSNumber, NSString;
+@class NSData;
 
 @interface MSUserRoute : MapsSync.MapsSyncObject
 {
     id _addressObject;
-    id _customName;
-    id _customNote;
-    id _eastLongitude;
-    id _hikeType;
-    id _length;
-    id _northLatitude;
-    id _originLatitude;
-    id _originLongitude;
-    id _positionIndex;
-    id _routeGeometry;
-    id _southLatitude;
-    id _totalAscent;
-    id _totalDescent;
-    id _tourIdentifier;
-    id _transportType;
-    id _westLongitude;
 }
 
 + (Class);
@@ -34,20 +18,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (long long);
 - (id);
 - (id);
@@ -55,6 +30,15 @@
 - (void);
 - (void);
 - (void);
+- (id)N;
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -63,31 +47,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)lback for remote mediaType=%@ change to mediaState=%@;
 - (id);
 - (void);
-- (void);
+- (void)>32;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSData *addressObject;
-@property(nonatomic, copy) NSString *customName;
-@property(nonatomic, copy) NSString *customNote;
-@property(nonatomic, retain) NSNumber *eastLongitude;
-@property(nonatomic) long long hikeType;
-@property(nonatomic, retain) NSNumber *length;
-@property(nonatomic, retain) NSNumber *northLatitude;
-@property(nonatomic, retain) NSNumber *originLatitude;
-@property(nonatomic, retain) NSNumber *originLongitude;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic, copy) NSData *routeGeometry;
-@property(nonatomic, retain) NSNumber *southLatitude;
-@property(nonatomic, retain) NSNumber *totalAscent;
-@property(nonatomic, retain) NSNumber *totalDescent;
-@property(nonatomic) long long tourIdentifier;
-@property(nonatomic, retain) NSNumber *transportType;
-@property(nonatomic, retain) NSNumber *westLongitude;
 
 @end
 

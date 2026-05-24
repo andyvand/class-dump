@@ -7,22 +7,18 @@
 @interface CSVTUITrainingResult
 {
     int _sessionStatus;
-    int _audioStatus;
-    long long _sessionId;
 }
 
 + (_Bool);
 - (id);
 - (int);
 - (int);
-- (id);
+- (id)o;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) int audioStatus; // @synthesize audioStatus=_audioStatus;
 @property(readonly, nonatomic) long long sessionId; // @synthesize sessionId=_sessionId;
-@property(readonly, nonatomic) int sessionStatus; // @synthesize sessionStatus=_sessionStatus;
 
 @end
 

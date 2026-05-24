@@ -6,7 +6,6 @@
 
 #import <CalendarUI/EKUIResizingTextField.h>
 
-@class NSString;
 @protocol EKUISummary;
 
 @interface EKUISummaryTextButton : EKUIResizingTextField
@@ -15,24 +14,17 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)trationDigestsWithError:] /* Error: Ran out of types for this method. */;
 - (id)DùÑÃ#1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak id <EKUISummary> gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

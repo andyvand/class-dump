@@ -17,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double footerHeight;
 @property(readonly, nonatomic) double headerHeight;
 
 @end

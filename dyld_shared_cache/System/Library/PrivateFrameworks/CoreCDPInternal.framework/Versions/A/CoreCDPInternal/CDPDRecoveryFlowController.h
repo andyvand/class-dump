@@ -4,41 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPDPDPRecoveryController, CDPDSecureBackupController, CDPRecoveryFlowContext, NSString;
-@protocol CDPDCircleControl, CDPRemoteDeviceSecretValidatorProtocol, CDPStateUIProviderInternal;
+@class CDPRecoveryFlowContext;
+@protocol CDPRemoteDeviceSecretValidatorProtocol;
 
 @interface CDPDRecoveryFlowController
 {
     id <CDPRemoteDeviceSecretValidatorProtocol> _validator;
-    CDPDPDPRecoveryController *_pdpController;
-    CDPRecoveryFlowContext *_recoveryContext;
-    id <CDPDCircleControl> _circleController;
-    CDPDSecureBackupController *_secureBackupController;
-    id <CDPStateUIProviderInternal> _uiProvider;
 }
 
-- (void);
-- (void);
+- (void)FrequentlyVisitedSite;
+- (void)ExtensionIconTintedImageRep;
+- (void)TabSnapshotSensitiveDataPurging;
+- (id)TabSearchGroupItem;
+- (_Bool)TabPreviewWindowControllerDelegate;
+- (void)TabGroupActivityNoticeView;
+- (void)TabDialogSecureTextField;
+- (void)TabButtonDelegate;
+- (void)StartPagePopoverViewController;
+- (id)StartPageFeatureAvailabilityBrowseInSafariCollectionViewItemDelegate;
+- (id)SpotlightBookmarksWriter;
+- (id)StartPageSoftwareUpdateAwarenessItem;
+- (id)_SandboxDownloadEntry;
+- (void)NSPasteboardTypeOwner;
+- (void)SafariAccessibilityExtras;
+- (void)SafariNotificationAgentPrivate;
+- (void)SafariLaunchAgentServiceDelegate;
+- (unsigned long long)NSTearOffTabWindowDelegate;
+- (void)FormAutoFillCompletionControllerObjCAdapter;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)inputHighlightCutoff;
 - (void);
 - (id);
 - (void);
@@ -46,19 +41,7 @@
 - (id)iforgot_recovery_verify_smscode;
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPDCircleControl> circleController; // @synthesize circleController=_circleController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CDPDPDPRecoveryController *pdpController; // @synthesize pdpController=_pdpController;
 @property(retain, nonatomic) CDPRecoveryFlowContext *recoveryContext; // @synthesize recoveryContext=_recoveryContext;
-@property(retain, nonatomic) CDPDSecureBackupController *secureBackupController; // @synthesize secureBackupController=_secureBackupController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
-@property(retain, nonatomic) id <CDPRemoteDeviceSecretValidatorProtocol> validator; // @synthesize validator=_validator;
 
 @end
 

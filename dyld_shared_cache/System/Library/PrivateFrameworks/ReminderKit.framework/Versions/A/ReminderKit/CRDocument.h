@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRVectorTimestamp, NSMutableDictionary, NSString, NSUUID;
+@class CRVectorTimestamp;
 
 @interface CRDocument
 {
     CRVectorTimestamp *_version;
-    CRVectorTimestamp *_startVersion;
-    NSUUID *_replica;
-    id _rootObject;
-    NSMutableDictionary *_objects;
-    long long _replicaClock;
-    long long _unserializedReplicaClock;
 }
 
 + (id);
@@ -42,31 +36,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`h;
 - (void);
-- (void)ullifiedAssignmentOriginatorID;
+- (void)nullifiedAssignmentOriginatorID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) NSUUID *replica; // @synthesize replica=_replica;
-@property(readonly, nonatomic) long long replicaClock; // @synthesize replicaClock=_replicaClock;
-@property(retain, nonatomic) id rootObject; // @synthesize rootObject=_rootObject;
-@property(readonly, nonatomic) CRVectorTimestamp *startVersion; // @synthesize startVersion=_startVersion;
-@property(readonly) Class superclass;
-@property(nonatomic) long long unserializedReplicaClock; // @synthesize unserializedReplicaClock=_unserializedReplicaClock;
-@property(readonly, nonatomic) CRVectorTimestamp *version; // @synthesize version=_version;
 
 @end
 

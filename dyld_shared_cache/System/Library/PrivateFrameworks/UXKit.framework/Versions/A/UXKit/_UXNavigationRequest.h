@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UXViewController;
+@class NSMutableArray;
 
 @interface _UXNavigationRequest
 {
     NSMutableArray *_addedViewControllers;
-    _Bool _animated;
-    long long _operation;
-    NSArray *_viewControllers;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)�;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)(a;
 - (_Bool);
 - (id);
 - (void);
 - (long long)Ô ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool animated; // @synthesize animated=_animated;
 @property(readonly, nonatomic) long long operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) UXViewController *viewController;
-@property(readonly, nonatomic) NSArray *viewControllers; // @synthesize viewControllers=_viewControllers;
 
 @end
 

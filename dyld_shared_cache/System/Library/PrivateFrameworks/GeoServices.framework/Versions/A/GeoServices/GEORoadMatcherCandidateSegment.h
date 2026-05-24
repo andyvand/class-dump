@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapFeatureJunction, GEOMapFeatureRoad;
-
 __attribute__((visibility("hidden")))
 @interface GEORoadMatcherCandidateSegment
 {
     double _score;
-    GEOMapFeatureRoad *_road;
-    CDStruct_071ac149 _coordinateOnSegment;
-    double _distanceFromSegment;
-    double _segmentAngle;
-    GEOMapFeatureJunction *_junction;
-    double _distanceInMetersFromJunction;
 }
 
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)returnsDistinctResults;
+- (id)_containerIdentifierSet;
 - (double);
 - (double);
 - (CDStruct_39925896);
 - (id);
-- (double)estionsTouristInfo;
+- (double)GEOPDMapsSuggestionsTouristInfo;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_39925896 coordinateOnSegment; // @synthesize coordinateOnSegment=_coordinateOnSegment;
-@property(readonly, nonatomic) double distanceFromJunction; // @synthesize distanceFromJunction=_distanceInMetersFromJunction;
-@property(readonly, nonatomic) double distanceFromSegment; // @synthesize distanceFromSegment=_distanceFromSegment;
-@property(readonly, nonatomic) GEOMapFeatureJunction *junction; // @synthesize junction=_junction;
-@property(readonly, nonatomic) GEOMapFeatureRoad *road; // @synthesize road=_road;
 @property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly, nonatomic) double segmentAngle; // @synthesize segmentAngle=_segmentAngle;
 
 @end
 

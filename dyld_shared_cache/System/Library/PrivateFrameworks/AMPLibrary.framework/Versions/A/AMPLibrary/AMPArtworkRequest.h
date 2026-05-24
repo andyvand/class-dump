@@ -9,21 +9,19 @@
 @interface AMPArtworkRequest
 {
     NSString *_uuid;
-    struct CGSize _size;
 }
 
 + (_Bool);
 - (id);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

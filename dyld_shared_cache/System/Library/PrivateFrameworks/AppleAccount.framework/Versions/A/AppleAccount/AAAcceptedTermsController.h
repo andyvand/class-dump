@@ -8,10 +8,10 @@
 {
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)Path:(id)arg1 %@;
+- (void)iled to parse CMS message (%d);
+- (void)onariesWithFilter returned count = %ld;
+- (void)uginController.importCertsToKeychain SecKeychainUnlock returned %d (uid %d) (kcdomain %d);
 - (void);
 
 @end

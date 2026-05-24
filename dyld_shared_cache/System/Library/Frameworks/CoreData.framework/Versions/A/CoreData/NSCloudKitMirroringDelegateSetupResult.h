@@ -6,13 +6,12 @@
 
 #import <CoreData/NSCloudKitMirroringResult.h>
 
-@class CKContainer, CKDatabase;
+@class CKContainer;
 
 __attribute__((visibility("hidden")))
 @interface NSCloudKitMirroringDelegateSetupResult : NSCloudKitMirroringResult
 {
     CKContainer *_container;
-    CKDatabase *_database;
 }
 
 - (void);

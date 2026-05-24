@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_nw_context;
-
 @interface NELoopbackConnection
 {
     unsigned long long _blobSizes[4];
-    struct nw_protocol _protocol;
-    struct nw_frame_array_s _currentInputFrames;
-    NSObject<OS_nw_context> *_context;
-    unsigned long long _currentBlobSizeIndex;
-    unsigned long long _totalBytesReceived;
 }
 
-- (void);
+- (void)P;
 - (void)ictionary";
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol UINavigationBarDelegate
+
+@optional
+- (void);
 @end
 

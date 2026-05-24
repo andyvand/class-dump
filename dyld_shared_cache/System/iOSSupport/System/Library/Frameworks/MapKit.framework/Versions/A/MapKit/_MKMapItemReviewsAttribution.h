@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ustomIconID: /* Error: Ran out of types for this method. */;
+- (void)imageForStyle:size:forScale:format:customIconID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addReviewURLs;

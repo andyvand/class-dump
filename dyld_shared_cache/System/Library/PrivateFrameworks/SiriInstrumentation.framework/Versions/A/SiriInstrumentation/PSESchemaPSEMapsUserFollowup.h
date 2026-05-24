@@ -6,54 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PSESchemaPSEMapsUserFollowup : SISchemaInstrumentationMessage
 {
     int _followupType;
-    int _mapsAction;
-    NSString *_mapsActionType;
-    struct {
-        unsigned int followupType:1;
-        unsigned int mapsAction:1;
-    } _has;
-    _Bool _hasMapsActionType;
 }
 
 - (void);
 - (void);
+- (void)5˿;
 - (void);
-- (void);
-- (void);
+- (void)&;
 - (void);
 - (id);
 - (int);
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
+- (void)5|;
 - (void);
 - (void);
 - (_Bool);
+- (id)۷;
+- (void)T;
+- (unsigned long long)raryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:76 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)B
+;
+- (_Bool)w count:(id)arg1 %@;
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)taskAbandonCountForEntityInUsingApp7Days;
+- (id)h;
+- (id)_taskAbandonCountForEntityInUsingApp7Days;
 - (id)TI,N,V_daysWithTwoAssistantSpeechRequestsPerWeek;
-- (void)_ERROR;
+- (void)FLOWSTATUSREASON_GENERRIC_ERROR;
 
 // Remaining properties
 @property(nonatomic) int followupType; // @synthesize followupType=_followupType;
-@property(nonatomic) _Bool hasFollowupType;
-@property(nonatomic) _Bool hasMapsAction;
-@property(nonatomic) _Bool hasMapsActionType; // @synthesize hasMapsActionType=_hasMapsActionType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mapsAction; // @synthesize mapsAction=_mapsAction;
-@property(copy, nonatomic) NSString *mapsActionType; // @synthesize mapsActionType=_mapsActionType;
 
 @end
 

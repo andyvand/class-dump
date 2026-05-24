@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSButton *_flashForAlertsTestButton;
 }
 
+- (void)riSessionDurationInSeconds"b1"generativeRequestDurationInSeconds"b1"loadScreenContentDurationInSeconds"b1"imageResizingDurationInSeconds"b1"registerMediaDurationInSeconds"b1"loadScreenContentRateKBsPerSecond"b1"registerMediaRateKBsPerSecond"b1"generativeResultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
+- (void)onationContext";
+- (id)tionContext";
+- (void)eHouseAudioDestinationContext";
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property __weak NSButton *flashForAlertsTestButton; // @synthesize flashForAlertsTestButton=_flashForAlertsTestButton;

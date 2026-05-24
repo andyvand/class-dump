@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @protocol IMScheduledMessageUpdateProcessingPipelineParameter
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *GUID;
-@property(readonly, copy, nonatomic) NSString *fromIdentifier;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, copy, nonatomic) NSNumber *scheduleState;
 @end
 

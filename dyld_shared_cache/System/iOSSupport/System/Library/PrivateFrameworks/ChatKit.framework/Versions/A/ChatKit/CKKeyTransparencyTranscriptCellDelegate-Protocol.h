@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKKeyTransparencyTranscriptCell;
+
 @protocol CKKeyTransparencyTranscriptCellDelegate
+- (void)_webView:(CKKeyTransparencyTranscriptCell *)arg1 requestStorageAccessPanelForDomain:underCurrentDomain:forQuirkDomains:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(CKKeyTransparencyTranscriptCell *)arg1 requestStorageAccessPanelForDomain:underCurrentDomain:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(CKKeyTransparencyTranscriptCell *)arg1 requestSpeechRecognitionPermissionForOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)eaturesRequested:(CKKeyTransparencyTranscriptCell *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 @end
 

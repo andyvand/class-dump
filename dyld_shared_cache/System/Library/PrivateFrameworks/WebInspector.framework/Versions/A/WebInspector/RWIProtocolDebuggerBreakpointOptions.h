@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RWIProtocolDebuggerBreakpointOptions : RWIProtocolJSONObject
 {
@@ -22,10 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions;
-@property(nonatomic) _Bool autoContinue;
 @property(copy, nonatomic) NSString *condition;
-@property(nonatomic) int ignoreCount;
 
 @end
 

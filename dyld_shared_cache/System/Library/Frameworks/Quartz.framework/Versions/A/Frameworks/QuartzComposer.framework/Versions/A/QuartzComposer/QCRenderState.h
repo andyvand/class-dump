@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class QCContext, QCPatch;
+@class QCPatch;
 
 @interface QCRenderState
 {
     QCPatch *_patch;
-    QCContext *_context;
-    void *_unused[4];
 }
 
 - (id);

@@ -5,5 +5,9 @@
 //
 
 @protocol LAContextServerEvaluationProt
+- (void);
+- (void);
+- (void)!;
+- (void)CapabilityRequirement;
 @end
 

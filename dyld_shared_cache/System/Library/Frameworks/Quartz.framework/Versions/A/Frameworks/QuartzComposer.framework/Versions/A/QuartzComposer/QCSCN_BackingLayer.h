@@ -9,7 +9,6 @@
 @interface QCSCN_BackingLayer
 {
     QCSCN_View *_parentView;
-    _Bool _needsRedrawForJittering;
 }
 
 - (void);

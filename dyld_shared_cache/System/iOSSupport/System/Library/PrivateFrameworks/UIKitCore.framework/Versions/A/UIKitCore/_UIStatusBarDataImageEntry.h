@@ -14,15 +14,15 @@
 }
 
 + (id);
-+ (_Bool)rol;
++ (_Bool)control;
 - (id);
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
 - (_Bool)CGPoint=dd}16{CGPoint=dd}32B48;
 - (void)sizeMightAllowMultipleColumns:(id)arg1;
-- (id)hFont:lineBreakMode: /* Error: Ran out of types for this method. */;
-- (id)rflowForIntrinsicSizeCalculation;
+- (id)drawInRect:withFont:lineBreakMode: /* Error: Ran out of types for this method. */;
+- (id)_allowsOverflowForIntrinsicSizeCalculation;
 - (id)ronment,V_interactiveHighlightEnvironment;
 - (void)ôñpòðóÜõ;
 - (void)ýÝ;jL¹?ü8#+¿¸?Uq7¶?}éíÏE³?mFAðø®?óWya§?©'ôú ?;

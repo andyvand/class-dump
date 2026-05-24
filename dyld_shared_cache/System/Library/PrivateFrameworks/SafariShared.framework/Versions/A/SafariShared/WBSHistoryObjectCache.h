@@ -7,7 +7,6 @@
 @interface WBSHistoryObjectCache
 {
     struct unordered_map<long long, WBSHistoryItem *, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryItem *>>> _itemsByDatabaseID;
-    struct unordered_map<long long, WBSHistoryVisit *__weak, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryVisit *__weak>>> _weakVisitsByDatabaseID;
 }
 
 - (id);
@@ -22,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 @end

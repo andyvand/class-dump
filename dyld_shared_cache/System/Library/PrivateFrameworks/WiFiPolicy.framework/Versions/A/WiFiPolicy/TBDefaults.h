@@ -10,8 +10,8 @@
 
 + (void);
 + (double);
-+ (unsigned char)onManagement: /* Error: Ran out of types for this method. */;
-+ (double)unt;
++ (unsigned char)setSupportsBssTransitionManagement: /* Error: Ran out of types for this method. */;
++ (double)roamReasonBetterCandidateCount;
 
 @end
 

@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)ne being added first;
 - (id);
-- (id);
-- (unsigned long long);
+- (id)4;
+- (unsigned long long)T;
 - (id)1Â0@ù
 × ;
-- (_Bool)iguration;
+- (_Bool)focusingConfiguration;
 - (void)etion:(id)arg1;
 - (id)ÿÿÿÿD;
 - (id)e=Úðc_;

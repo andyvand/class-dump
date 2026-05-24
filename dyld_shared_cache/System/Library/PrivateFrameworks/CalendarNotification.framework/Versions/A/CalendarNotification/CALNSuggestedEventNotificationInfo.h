@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarSuggestionNotification, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface CALNSuggestedEventNotificationInfo
 {
     NSString *_sourceClientIdentifier;
-    NSURL *_launchURL;
-    NSDate *_expirationDate;
-    EKCalendarSuggestionNotification *_suggestionNotification;
 }
 
 - (id);
@@ -23,10 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSURL *launchURL; // @synthesize launchURL=_launchURL;
 @property(readonly, copy, nonatomic) NSString *sourceClientIdentifier; // @synthesize sourceClientIdentifier=_sourceClientIdentifier;
-@property(readonly, nonatomic) EKCalendarSuggestionNotification *suggestionNotification; // @synthesize suggestionNotification=_suggestionNotification;
 
 @end
 

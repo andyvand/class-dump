@@ -9,7 +9,6 @@
 @interface _MRRemoveOutputDevicesMessageProtobuf
 {
     NSString *_endpointUID;
-    NSMutableArray *_outputDeviceUIDs;
 }
 
 + (Class);
@@ -24,18 +23,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)$;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)?;
 - (id);
+- (id)AFAssertionContext::expirationDuration /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)veFormatJustificationAsString: /* Error: Ran out of types for this method. */;
+- (void)activeFormatJustificationAsString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *endpointUID; // @synthesize endpointUID=_endpointUID;
-@property(readonly, nonatomic) _Bool hasEndpointUID;
 @property(retain, nonatomic) NSMutableArray *outputDeviceUIDs; // @synthesize outputDeviceUIDs=_outputDeviceUIDs;
 
 @end

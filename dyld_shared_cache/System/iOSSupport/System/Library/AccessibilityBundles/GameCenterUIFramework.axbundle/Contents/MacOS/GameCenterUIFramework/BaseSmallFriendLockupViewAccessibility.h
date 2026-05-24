@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)setAccessibilityLabel: /* Error: Ran out of types for this method. */;
 
 @end
 

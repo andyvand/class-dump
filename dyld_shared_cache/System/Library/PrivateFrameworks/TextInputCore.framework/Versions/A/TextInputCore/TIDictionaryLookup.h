@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLocale;
+@class NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface TIDictionaryLookup
 {
     NSLocale *_sourceLocale;
-    NSLocale *_targetLocale;
-    NSDictionary *_translationPairs;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)again;
+- (id)ient for device %@ and setup again;
+- (id)text %@, %@;
+- (void)ranscription failed with error %@;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)_delegateRespondsToSelector: /* Error: Ran out of types for this method. */;
+- (id)_codecParameters;
+- (id)HAPAddRemovePairingOperation;
 - (void)Ð!dBùi1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain) NSLocale *sourceLocale; // @synthesize sourceLocale=_sourceLocale;
-@property(retain) NSLocale *targetLocale; // @synthesize targetLocale=_targetLocale;
-@property(retain) NSDictionary *translationPairs; // @synthesize translationPairs=_translationPairs;
 
 @end
 

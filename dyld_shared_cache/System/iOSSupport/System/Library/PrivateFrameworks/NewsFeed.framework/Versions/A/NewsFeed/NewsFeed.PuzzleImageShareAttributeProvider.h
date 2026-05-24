@@ -7,10 +7,6 @@
 @interface NewsFeed.PuzzleImageShareAttributeProvider
 {
     id puzzleHistoryService;
-    id puzzleStatsService;
-    id puzzleRankProvider;
-    id themeProvider;
-    id $__lazy_storage_$_timeFormatter;
 }
 
 @end

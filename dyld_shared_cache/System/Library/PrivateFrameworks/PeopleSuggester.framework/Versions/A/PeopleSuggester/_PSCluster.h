@@ -9,18 +9,17 @@
 @interface _PSCluster
 {
     NSMutableArray *_points;
-    NSMutableArray *_convexHull;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
++ (_Bool);
+- (void)_expensiveCellularDownloadRequested;
+- (void)_debugNetworkConnectionStateReadySnapshotCaptured;
+- (int)_connectedBtDevices;
+- (id)_candidateHistoryCounts;
+- (void)meSinceLastForegroundAppEndInSec;
+- (long long)utcome;
+- (void)_taskAbandonCountInUsingApp1Hr;
+- (void)tionSource;
 - (id);
 - (void);
 - (_Bool);
@@ -34,7 +33,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *convexHull; // @synthesize convexHull=_convexHull;
 @property(retain, nonatomic) NSMutableArray *points; // @synthesize points=_points;
 
 @end

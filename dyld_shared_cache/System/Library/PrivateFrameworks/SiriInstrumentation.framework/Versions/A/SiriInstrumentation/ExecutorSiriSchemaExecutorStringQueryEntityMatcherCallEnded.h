@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)_iaptransportdIsRunning;
+- (void)EugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs12/p12_kiss.c;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"b1};
-- (id)maUUFRShownTier1;
+- (id)SISchemaUUFRShownTier1;
 - (id)<ë;
 - (_Bool)p_#;
 - (_Bool)¸';
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

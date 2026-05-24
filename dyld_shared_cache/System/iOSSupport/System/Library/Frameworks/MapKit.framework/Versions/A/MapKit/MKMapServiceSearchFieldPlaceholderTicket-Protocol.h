@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceSearchFieldPlaceholderTicket
+- (void)v;
+- (void)_chat:(void (^)(NSString *, NSError *))arg1 setPlayedExpressiveSendForMessage:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

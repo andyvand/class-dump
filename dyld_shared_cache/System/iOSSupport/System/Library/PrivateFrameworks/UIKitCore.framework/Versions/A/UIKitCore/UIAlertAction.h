@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAlertController, UIColor, UIImage, UIInterfaceAction, UIViewController;
-@protocol _UIAlertActionMutablePropertyObservering, _UIAlertActionViewRepresentation;
+@class NSString;
 
 @interface UIAlertAction
 {
     NSString *_title;
-    long long _titleTextAlignment;
-    _Bool _enabled;
-    _Bool _checked;
-    _Bool _isPreferred;
-    UIColor *_imageTintColor;
-    UIColor *_titleTextColor;
-    long long _style;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _simpleHandler;
-    UIImage *_image;
-    CDUnknownBlockType _shouldDismissHandler;
-    NSString *__descriptiveText;
-    UIViewController *_contentViewController;
-    NSString *_keyCommandInput;
-    long long _keyCommandModifierFlags;
-    UIInterfaceAction<_UIAlertActionMutablePropertyObservering> *__interfaceActionRepresentation;
-    UIAlertController *__alertController;
-    id <_UIAlertActionViewRepresentation> __representer;
 }
 
 + (id);
@@ -35,19 +16,19 @@
 + (id);
 + (id);
 + (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (CDUnknownBlockType)Sender sees us as off grid;
+- (CDUnknownBlockType)came from user with nickname cloudKitRecord  %@;
+- (void)k encountered an error.  Will try this record again on next sync. %@;
+- (void)id for transfer old guid:(CDUnknownBlockType)arg1 %@ new guid:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (void);
+- (void)	@9{S;3;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)�,;
 - (void);
 - (void);
 - (void);
@@ -58,7 +39,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (void);
 - (id);
@@ -74,7 +55,7 @@
 × ;
 - (_Bool);
 - (void)16@?32;
-- (void)ID;
+- (void)_hiddenAncestorSheetID;
 - (void)eyInput>",R,N,V_responder;
 - (CDUnknownBlockType)4YðZ	[è[D\ \;
 - (id)Ú;
@@ -82,21 +63,7 @@
 - (void)*4Ô¯Kk;
 
 // Remaining properties
-@property(nonatomic, setter=_setAlertController:) UIAlertController *_alertController; // @synthesize _alertController=__alertController;
-@property(copy, nonatomic, setter=_setDescriptiveText:) NSString *_descriptiveText; // @synthesize _descriptiveText=__descriptiveText;
-@property(setter=_setInterfaceActionRepresentation:) UIInterfaceAction<_UIAlertActionMutablePropertyObservering> *_interfaceActionRepresentation; // @synthesize _interfaceActionRepresentation=__interfaceActionRepresentation;
-@property(setter=_setIsPreferred:) _Bool _isPreferred;
-@property(setter=_setRepresenter:) id <_UIAlertActionViewRepresentation> _representer; // @synthesize _representer=__representer;
-@property(retain, nonatomic, getter=_contentViewController, setter=_setContentViewController:) UIViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(copy, nonatomic, getter=_keyCommandInput, setter=_setKeyCommandInput:) NSString *keyCommandInput; // @synthesize keyCommandInput=_keyCommandInput;
-@property(nonatomic, getter=_keyCommandModifierFlags, setter=_setKeyCommandModifierFlags:) long long keyCommandModifierFlags; // @synthesize keyCommandModifierFlags=_keyCommandModifierFlags;
-@property(copy, nonatomic) CDUnknownBlockType shouldDismissHandler; // @synthesize shouldDismissHandler=_shouldDismissHandler;
-@property(copy, nonatomic) CDUnknownBlockType simpleHandler; // @synthesize simpleHandler=_simpleHandler;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

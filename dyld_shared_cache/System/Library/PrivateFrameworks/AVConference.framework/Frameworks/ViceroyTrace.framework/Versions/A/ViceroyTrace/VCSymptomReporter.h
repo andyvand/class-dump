@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SDRDiagnosticReporter;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VCSymptomReporter
 {
     unsigned int _callID;
-    NSString *_loggingDirectory;
-    SDRDiagnosticReporter *_diagnosticReporter;
-    NSObject<OS_os_log> *_osLogNetworkingHandle;
-    NSObject<OS_dispatch_queue> *_reportingQueue;
-    CDUnknownFunctionPointerType _symptomReporterCallback;
-    id _symptomReporterContext;
-    _Bool _didSubmitABCSymptom[82];
-    _Bool _didShowAlreadyExistFailure[82];
-    _Bool _isSymptomReportingEnabled;
-    NSString *_procName;
 }
 
 - (id);
@@ -50,16 +39,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int)`@9;
+- (void);
 - (int);
-- (void);
-- (int);
-- (int);
-- (int);
-- (int);
+- (int)b;
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)C;
 - (int);
 - (int);
 - (int);
@@ -79,25 +66,27 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
+- (int)h;
 - (int);
 - (int);
-- (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (int);
-- (int);
+- (int)B;
 - (int);
 - (void);
 - (int);

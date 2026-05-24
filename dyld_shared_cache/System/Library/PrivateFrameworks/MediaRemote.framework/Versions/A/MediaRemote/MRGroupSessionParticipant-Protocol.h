@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRUserIdentity, NSString;
+@class NSString;
 
 @protocol MRGroupSessionParticipant
-- (_Bool)ated: /* Error: Ran out of types for this method. */;
+- (_Bool)setUserInitiated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isGuest) _Bool guest;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) MRUserIdentity *identity;
-@property(readonly, nonatomic, getter=isPending) _Bool pending;
 @end
 

@@ -9,25 +9,22 @@
 @interface TRIPBBoolArray
 {
     TRIPBMessage *_autocreator;
-    _Bool *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
++ (id)(q;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)remotePersistentStoreDidChange:(CDUnknownBlockType)arg1;
 - (id);
-- (id);
+- (id)(K;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)PHMediaRequestContext",&,N,V_supplementaryRequestContext;
 - (void);
 - (void);
 - (void);
@@ -37,9 +34,9 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void)sRegionCode;
+- (void)userSettingsRegionCode;
 - (_Bool)tId;
-- (void)iProactiveSuggestions;
+- (void)SiriProactiveSuggestions;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

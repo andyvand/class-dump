@@ -16,9 +16,9 @@
 + (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool),@�?;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *hashedRouteId;

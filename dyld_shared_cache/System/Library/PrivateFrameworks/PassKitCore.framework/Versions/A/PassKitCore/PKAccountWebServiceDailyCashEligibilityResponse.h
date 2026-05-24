@@ -13,7 +13,7 @@
     PKAccountDailyCashDestinationsSummary *_summary;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)ectable(;
 

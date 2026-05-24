@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDiscoveredGroupSession, MRGroupSessionHostInfo, NSData, NSNumber, NSString, _MRGroupSessionTokenProtobuf;
+@class NSString;
 
 @interface MRGroupSessionToken
 {
     _Bool _autoConnect;
-    MRGroupSessionHostInfo *_hostInfo;
-    NSNumber *_version;
-    NSString *_sessionIdentifier;
-    NSString *_equivalentMediaIdentifier;
-    NSString *_storefrontCountryCode;
-    NSString *_sharedSecret;
-    MRDiscoveredGroupSession *_discoveredSession;
-    NSData *_invitationData;
 }
 
 + (id);
@@ -27,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(869;
 - (id);
 - (id);
 - (id);
@@ -37,9 +29,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned char);
+- (id)provisionAccountPassToWatchAsDefault: /* Error: Ran out of types for this method. */;
+- (id)contactlessInterfaceDidPresentFromSource: /* Error: Ran out of types for this method. */;
+- (unsigned char)SharedService,V_sharedService;
 - (id);
 - (id);
 - (id);
@@ -52,25 +44,10 @@
 - (id);
 - (id);
 - (void),&,N,V_endpoints;
-- (id)WaitForUpdatedOutputDevices;
+- (id)shouldWaitForUpdatedOutputDevices;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool autoConnect; // @synthesize autoConnect=_autoConnect;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) MRDiscoveredGroupSession *discoveredSession; // @synthesize discoveredSession=_discoveredSession;
-@property(readonly, nonatomic) NSString *effectiveIdentifier;
-@property(readonly, nonatomic) NSString *equivalentMediaIdentifier; // @synthesize equivalentMediaIdentifier=_equivalentMediaIdentifier;
-@property(readonly, nonatomic) NSString *hostDisplayName;
-@property(readonly, nonatomic) MRGroupSessionHostInfo *hostInfo; // @synthesize hostInfo=_hostInfo;
-@property(readonly, nonatomic) NSData *invitationData; // @synthesize invitationData=_invitationData;
-@property(readonly, nonatomic) NSString *joinContinuitySingURLString;
-@property(readonly, nonatomic) NSString *joinURLString;
-@property(readonly, nonatomic) NSString *localizedSessionName;
-@property(readonly, nonatomic) _MRGroupSessionTokenProtobuf *protobuf;
 @property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) NSString *sharedSecret; // @synthesize sharedSecret=_sharedSecret;
-@property(retain, nonatomic) NSString *storefrontCountryCode; // @synthesize storefrontCountryCode=_storefrontCountryCode;
-@property(readonly, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

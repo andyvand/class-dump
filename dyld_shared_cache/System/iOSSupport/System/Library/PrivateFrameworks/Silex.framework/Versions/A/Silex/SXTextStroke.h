@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @dynamic color;
-@property(readonly, nonatomic) double width; // @dynamic width;
 @end
 

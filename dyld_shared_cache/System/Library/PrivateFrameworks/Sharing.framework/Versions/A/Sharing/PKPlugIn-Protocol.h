@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSString, NSURL, NSUUID;
-@protocol PKPlugIn;
+@class NSDictionary, NSString, NSURL;
 
 @protocol PKPlugIn
-- (id)face;
-- (_Bool)uest;
+- (void)@;
+- (NSDictionary *));
+- (void)6;
+- (NSString *)q__q0_q1_t;
+- (NSURL *)tr} created
+;
+- (_Bool);
+- (NSDictionary *)t State:%li /* Error: Ran out of types for this method. */;
+- (void (^)(id <PKPlugIn>, unsigned long long));
+- (id)interface;
+- (_Bool)currentRequest;
 - (_Bool)cel called on nil connection;
-- (NSDictionary *);
 - (_Bool)eHomeKit;
 - (_Bool)oke;
 - (void)t%@;
 
 // Remaining properties
-@property(readonly) _Bool active;
-@property(readonly) NSDictionary *attributes;
-@property(readonly) NSDictionary *bundleInfoDictionary;
-@property(readonly) NSURL *containingUrl;
-@property(readonly) NSBundle *embeddedBundle;
-@property(readonly) id embeddedPrincipal;
-@property(readonly) NSDictionary *entitlements;
 @property(readonly) NSString *identifier;
-@property(readonly) NSString *localizedContainingName;
-@property(readonly) NSDictionary *localizedFileProviderActionNames;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *localizedShortName;
-@property(readonly) NSUUID *multipleInstanceUUID;
-@property(copy) CDUnknownBlockType notificationBlock;
-@property(readonly) _Bool onSystemVolume;
-@property(readonly) NSDictionary *plugInDictionary;
-@property(readonly) id plugInPrincipal;
-@property(readonly) _Bool spent;
-@property(readonly) id <PKPlugIn> supersededBy;
-@property(readonly) NSURL *url;
-@property long long userElection;
-@property(readonly) NSString *version;
 @end
 

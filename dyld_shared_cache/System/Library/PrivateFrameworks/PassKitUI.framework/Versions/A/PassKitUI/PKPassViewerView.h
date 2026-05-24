@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(retain) PKPassViewController *accessibilityPass; // @synthesize accessibilityPass=_accessibilityPass;

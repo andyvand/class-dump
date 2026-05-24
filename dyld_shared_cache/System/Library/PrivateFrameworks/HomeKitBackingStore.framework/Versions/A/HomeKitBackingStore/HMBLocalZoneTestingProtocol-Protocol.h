@@ -5,5 +5,8 @@
 //
 
 @protocol HMBLocalZoneTestingProtocol
+
+@optional
+- (void);
 @end
 

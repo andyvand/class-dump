@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface _AXFComposedCharacterEnumerator
 {
     _Bool __done;
-    NSString *__string;
-    unsigned long long __indexOfCurrentComposedCharacter;
 }
 
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
+- (id)thMedia:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_natType;
 
 // Remaining properties
-@property(nonatomic) _Bool _done; // @synthesize _done=__done;
-@property(nonatomic) unsigned long long _indexOfCurrentComposedCharacter; // @synthesize _indexOfCurrentComposedCharacter=__indexOfCurrentComposedCharacter;
 @property(copy, nonatomic) NSString *_string; // @synthesize _string=__string;
 
 @end

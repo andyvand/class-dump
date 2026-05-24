@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCalendarEvent;
-
 @interface _INPBUpdateEventIntentResponse
 {
     CDStruct_efdd21f4 _has;
-    int _confirmationReason;
-    NSArray *_conflictingEventIdentifiers;
-    _INPBCalendarEvent *_updatedEvent;
 }
 
 + (_Bool);
@@ -32,28 +27,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long));
+- (_Bool)E;
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)r;
+- (void)INSetBinarySettingIntentResponseCodeFailureInvalidTrigger;
 
 // Remaining properties
 @property(nonatomic) int confirmationReason; // @synthesize confirmationReason=_confirmationReason;
-@property(copy, nonatomic) NSArray *conflictingEventIdentifiers; // @synthesize conflictingEventIdentifiers=_conflictingEventIdentifiers;
-@property(readonly, nonatomic) unsigned long long conflictingEventIdentifiersCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConfirmationReason;
-@property(readonly, nonatomic) _Bool hasUpdatedEvent;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBCalendarEvent *updatedEvent; // @synthesize updatedEvent=_updatedEvent;
 
 @end
 

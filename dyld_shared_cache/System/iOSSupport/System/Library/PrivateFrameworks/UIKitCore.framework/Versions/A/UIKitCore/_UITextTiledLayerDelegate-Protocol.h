@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol _UITextTiledLayerDelegate
+
+@optional
+- (NSArray *)40@"NSNumber"48@"NSNumber"56;
 @end
 

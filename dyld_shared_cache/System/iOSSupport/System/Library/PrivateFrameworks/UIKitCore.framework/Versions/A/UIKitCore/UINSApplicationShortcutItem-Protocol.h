@@ -15,7 +15,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(readonly) id representedObjectForMenuItem;
-@property(readonly, nonatomic, getter=isSectionHeader) _Bool sectionHeader;
 @end
 

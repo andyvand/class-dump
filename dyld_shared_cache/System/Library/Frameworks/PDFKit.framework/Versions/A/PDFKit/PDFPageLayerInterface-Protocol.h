@@ -5,6 +5,10 @@
 //
 
 @protocol PDFPageLayerInterface
+- (void);
+- (void);
+- (void);
+- (void)+;
 - (_Bool)0@ù
 × ;
 @end

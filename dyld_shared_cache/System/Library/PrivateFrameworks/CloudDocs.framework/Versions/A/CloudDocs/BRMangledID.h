@@ -12,17 +12,17 @@
 }
 
 + (id);
++ (id)!;
 + (id);
++ (_Bool);
++ (id);
++ (id)+;
 + (id);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (_Bool)ray";
++ (id)initWithLossType:(id)arg1 optimizerType:(_Bool)arg2 optimizerParameters:lossParameters:trainableLayerNames:updateParameters: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (_Bool);
@@ -36,16 +36,16 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)_coreMLToEspressoParamsMap;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (_Bool);
@@ -56,21 +56,10 @@
 - (void);
 - (_Bool)ae-°!Eùq@1°1Â0@ù
 × ;
-- (id)erForID_block_invoke;
+- (id)BRGetProcessMobileContainerForID_block_invoke;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *aliasTargetContainerString;
-@property(readonly, nonatomic) NSString *appLibraryOrZoneName;
-@property(readonly, nonatomic) _Bool isCloudDocsMangledID;
-@property(readonly, nonatomic) _Bool isCorporateMangledID;
-@property(readonly, nonatomic) _Bool isDesktopMangledID;
-@property(readonly, nonatomic) _Bool isDocumentsMangledID;
-@property(readonly, nonatomic) _Bool isPassbookMangledID;
-@property(readonly, nonatomic) _Bool isPrivate;
-@property(readonly, nonatomic) _Bool isReservedMangedID;
 @property(readonly, nonatomic) _Bool isShared;
-@property(readonly, nonatomic) NSString *mangledIDString; // @synthesize mangledIDString=_mangledIDString;
-@property(readonly, nonatomic) NSString *ownerName;
 
 @end
 

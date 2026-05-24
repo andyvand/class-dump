@@ -6,19 +6,16 @@
 
 #import <PassKitCore/PKPaymentAuthorizationStateParam.h>
 
-@class CNContact, NSString, PKAccountServicePaymentMethod, PKApplePayTrustSignature, PKAuthorizedPeerPaymentQuote, PKPayment, PKPaymentMethod, PKServiceProviderPurchase, PKShippingMethod;
-
 @interface PKPaymentAuthorizationClientCallbackStateParam : PKPaymentAuthorizationStateParam
 {
     long long _kind;
-    id _object;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)͗;
 - (id);
 - (id);
 - (id);
@@ -27,22 +24,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setWiFiRxRetry: /* Error: Ran out of types for this method. */;
 - (long long)FirstName;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PKAccountServicePaymentMethod *accountServicePaymentMethod;
-@property(readonly, nonatomic) PKApplePayTrustSignature *applePayTrustSignature;
-@property(readonly, nonatomic) PKAuthorizedPeerPaymentQuote *authorizedPeerPaymentQuote;
-@property(readonly, nonatomic) NSString *couponCode;
-@property(nonatomic) long long kind; // @synthesize kind=_kind;
 @property(retain, nonatomic) id object; // @synthesize object=_object;
-@property(readonly, nonatomic) PKPayment *payment;
-@property(readonly, nonatomic) PKPaymentMethod *paymentMethod;
-@property(readonly, nonatomic) PKServiceProviderPurchase *purchase;
-@property(readonly, nonatomic) CNContact *shippingContact;
-@property(readonly, nonatomic) PKShippingMethod *shippingMethod;
 
 @end
 

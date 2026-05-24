@@ -9,7 +9,7 @@
     long long _discoverable;
 }
 
-- (void);
+- (void)setTextColor:(long long)arg1;
 - (long long);
 - (id);
 

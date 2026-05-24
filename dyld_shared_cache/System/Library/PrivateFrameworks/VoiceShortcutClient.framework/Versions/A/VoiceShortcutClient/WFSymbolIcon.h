@@ -6,31 +6,28 @@
 
 #import <VoiceShortcutClient/WFIcon.h>
 
-@class NSArray, NSString, WFColor, WFIconBackground;
+@class NSString;
 
 @interface WFSymbolIcon : WFIcon
 {
     NSString *_symbolName;
-    NSString *_renderingMode;
-    NSArray *_symbolColors;
-    WFIconBackground *_background;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)__DATA;
+- (id){;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)3|;
+- (_Bool)_#3|;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -40,10 +37,6 @@
 - (id)y iPod;
 
 // Remaining properties
-@property(readonly, nonatomic) WFIconBackground *background; // @synthesize background=_background;
-@property(readonly, nonatomic) NSString *renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(readonly, nonatomic) WFColor *symbolColor;
-@property(readonly, nonatomic) NSArray *symbolColors; // @synthesize symbolColors=_symbolColors;
 @property(readonly, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end

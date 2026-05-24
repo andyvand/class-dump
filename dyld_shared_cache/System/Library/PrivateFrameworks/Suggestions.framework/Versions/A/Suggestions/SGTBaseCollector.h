@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SGTBaseCollectorReserved;
-@protocol OS_dispatch_queue, SGTSearchQueryCollectorDelegate;
+@class SGTBaseCollectorReserved;
+@protocol SGTSearchQueryCollectorDelegate;
 
 @interface SGTBaseCollector
 {
@@ -13,7 +13,7 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -24,16 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <SGTSearchQueryCollectorDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isQuerying;
-@property(readonly) NSObject<OS_dispatch_queue> *queryQueue;
-@property(readonly) Class superclass;
 
 @end
 

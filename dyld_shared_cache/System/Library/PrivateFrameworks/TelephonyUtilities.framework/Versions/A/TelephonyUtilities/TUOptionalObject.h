@@ -9,9 +9,9 @@
     id _value;
 }
 
+- (id)(;
 - (id);
-- (id);
-- (void)D:addressBookUID: /* Error: Ran out of types for this method. */;
+- (void)telephonyURLWithDestinationID:addressBookUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id value; // @synthesize value=_value;

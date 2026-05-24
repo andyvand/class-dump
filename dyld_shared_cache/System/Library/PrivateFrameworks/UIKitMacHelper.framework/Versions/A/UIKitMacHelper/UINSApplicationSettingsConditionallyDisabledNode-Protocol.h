@@ -9,8 +9,6 @@
 @protocol UINSApplicationSettingsConditionallyDisabledNode
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *disabledStateKey;
 @property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSString *localizedDisabledDescription;
 @end
 

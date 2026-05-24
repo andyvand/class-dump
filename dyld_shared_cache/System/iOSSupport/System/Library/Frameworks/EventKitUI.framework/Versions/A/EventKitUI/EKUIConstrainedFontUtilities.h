@@ -8,13 +8,13 @@
 {
 }
 
-+ (long long);
++ (long long)%s;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (void),4	T;

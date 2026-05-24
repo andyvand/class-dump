@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFDocumentViewControllerPrivate;
+@class PDFDocumentViewControllerPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFDocumentViewController
@@ -32,12 +32,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)QI}S);
 - (id);
 - (double);
 - (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -52,8 +52,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (double);
+- (void)outputImage;
+- (double)ed to Recently Deleted. After %@ days, they will be permanently deleted.;
 - (id);
 - (void);
 - (void);
@@ -63,13 +63,7 @@ __attribute__((visibility("hidden")))
 - (void)pmõÿæ¿Éà;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

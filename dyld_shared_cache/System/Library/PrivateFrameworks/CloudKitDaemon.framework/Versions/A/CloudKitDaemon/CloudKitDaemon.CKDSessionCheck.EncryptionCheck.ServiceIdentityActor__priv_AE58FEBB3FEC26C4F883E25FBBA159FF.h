@@ -7,17 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.EncryptionCheck.ServiceIdentityActor__priv_AE58FEBB3FEC26C4F883E25FBBA159FF
 {
     id $defaultActor;
-    id serviceName;
-    id account;
-    id bundleID;
-    id readinessSink;
-    id systemInteraction;
-    id keySyncRequest;
-    id completionCallback;
-    id currentIdentityPublicKeyID;
-    id identityWatcher;
-    id keySyncRequestIdentityPublicKeyID;
-    id state;
 }
 
 @end

@@ -9,9 +9,6 @@
 @interface MRColorComponents
 {
     float _red;
-    float _green;
-    float _blue;
-    float _alpha;
 }
 
 - (void);
@@ -21,19 +18,15 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)hh8h;
 - (id);
-- (id);
+- (float)setExplicitRequestContext: /* Error: Ran out of types for this method. */;
+- (float)utteranceSource;
 - (float);
-- (float);
-- (float);
-- (float);
+- (float);
 
 // Remaining properties
-@property(nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float blue; // @synthesize blue=_blue;
-@property(nonatomic) float green; // @synthesize green=_green;
 @property(readonly, nonatomic) _MRColorProtobuf *protobuf;
-@property(nonatomic) float red; // @synthesize red=_red;
 
 @end
 

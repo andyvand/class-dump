@@ -6,7 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUIWebViewController.h>
 
-@class AMSUIWebClientContext, NSString;
+@class AMSUIWebClientContext;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebWrapperViewController : AMSUIWebViewController
@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     AMSUIWebClientContext *_wrapperContext;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)er;
+- (void)XPCConnection",&,N,V_remoteServer;
+- (void)ing",R,N,V_uniqueIdentifier;
+- (void)e;
+- (void)SAssetProvidingDelegate>",&,N;
 - (id);
 - (void);
 - (void);
@@ -26,13 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)ulatoryAgeVerificationResult"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) AMSUIWebClientContext *wrapperContext; // @synthesize wrapperContext=_wrapperContext;
 
 @end

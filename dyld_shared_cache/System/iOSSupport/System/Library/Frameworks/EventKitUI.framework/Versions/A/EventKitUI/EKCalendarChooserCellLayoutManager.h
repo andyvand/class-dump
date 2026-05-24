@@ -11,16 +11,16 @@
 
 + (id);
 - (_Bool);
-- (id);
+- (id)N*s;
 - (struct CGRect);
 - (id);
-- (double);
-- (double);
+- (double)Y^{;
+- (double)<GKProfileServicePrivate>";
 - (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (void)nfoForSuggestedEventWithUniqueIdentifier:sourceURL:clientLocale:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)launchInfoForSuggestedEventWithUniqueIdentifier:sourceURL:clientLocale:withCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

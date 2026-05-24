@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.FFIFFeatureAbilitySource
 {
     id ffifSource;
-    id candidateSource;
 }
 
 @end

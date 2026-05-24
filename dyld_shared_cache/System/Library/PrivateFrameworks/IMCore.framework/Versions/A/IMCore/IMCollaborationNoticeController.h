@@ -9,10 +9,10 @@
 }
 
 + (id)ÿÿÿR;
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)ms;
+- (void)CurrentFrameSize(Mbps)=%.f, bitrateTrendCoefficient(Mbps)=%.2f, largeFrameInWindow=%d, consecutiveLargeFrames=%d, isIDR=%d, lowBitrateWithRespectToTarget=%d, elapsedTime(s)=%.2f, currentTargetBitrate(Mbps)=%.2f, measuredBitrate(Mbps)=%.2f;
+- (void)orted packet type:(id)arg1 %d;
+- (void)"r;
 - (void);
 - (id);
 - (id);

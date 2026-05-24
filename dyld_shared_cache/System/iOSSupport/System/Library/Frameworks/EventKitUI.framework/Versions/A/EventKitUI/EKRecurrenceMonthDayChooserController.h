@@ -11,22 +11,21 @@
 @interface EKRecurrenceMonthDayChooserController : EKRecurrenceGridChooserController
 {
     NSMutableSet *_daysOfTheMonthSet;
-    _Bool _prohibitsMultipleDaysInMonthlyRecurrence;
 }
 
+- (void)&s;
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)a;
+- (void);
 - (_Bool);
 - (id);
-- (void)thCapacity: /* Error: Ran out of types for this method. */;
+- (void)setWithCapacity: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties

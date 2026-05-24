@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLCredentialInternal;
+@class NSURLCredentialInternal;
 
 @interface NSURLCredential
 {
@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void);
+- (void)Blinebelow;
 - (_Bool);
 - (void);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (struct __SecIdentity *);
@@ -38,14 +38,7 @@
 - (unsigned long long).03;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long persistence;
-@property(readonly) Class superclass;
 
 @end
 

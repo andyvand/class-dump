@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SCNOrderedDictionary
 {
     NSMutableArray *_keys;
-    NSMutableDictionary *_keyValues;
 }
 
 - (void);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)letionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -28,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ate JSON version of %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long)!ÐEù1§Ð1Â0@ù
 × ;
 - (id)SCNChamferModeFront;

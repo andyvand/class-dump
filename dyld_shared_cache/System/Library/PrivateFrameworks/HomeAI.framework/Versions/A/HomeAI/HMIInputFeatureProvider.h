@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface HMIInputFeatureProvider
 {
     struct __CVBuffer *_pixelBuffer;
-    NSString *_inputName;
 }
 
-- (id);
+- (id)B9;
 - (id);
 - (void);
 - (id);
@@ -21,8 +18,6 @@
 - (id)format should not change.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly) NSString *inputName; // @synthesize inputName=_inputName;
 @property(readonly) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
 
 @end

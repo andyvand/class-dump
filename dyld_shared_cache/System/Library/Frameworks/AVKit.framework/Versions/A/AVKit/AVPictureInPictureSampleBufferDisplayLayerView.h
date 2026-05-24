@@ -6,22 +6,12 @@
 
 #import <AVKit/AVPictureInPicturePlayerLayerView.h>
 
-@class AVObservationController, AVPictureInPictureIndicatorLayer, AVPictureInPictureSampleBufferDisplayLayerHostView, AVSampleBufferDisplayLayer, AVSampleBufferDisplayLayerPlayerController, CALayer, CALayerHost;
+@class AVObservationController;
 
 __attribute__((visibility("hidden")))
 @interface AVPictureInPictureSampleBufferDisplayLayerView : AVPictureInPicturePlayerLayerView
 {
     _Bool _PIPModeEnabled;
-    unsigned int _sourceContextId;
-    AVSampleBufferDisplayLayer *_sourceLayer;
-    AVObservationController *_observationController;
-    AVSampleBufferDisplayLayerPlayerController *_playerController;
-    AVPictureInPictureIndicatorLayer *_placeholderLayer;
-    AVPictureInPictureSampleBufferDisplayLayerHostView *_sbdlHostView;
-    CALayerHost *_sourceLayerHost;
-    CALayer *_sourceContentLayer;
-    struct CGSize _lastKnownRenderSize;
-    struct CGSize _imageQueueSize;
 }
 
 - (id);
@@ -40,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_allowsSlowMotion;
 - (void);
 - (_Bool);
 - (void);
@@ -54,17 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isPIPModeEnabled) _Bool PIPModeEnabled; // @synthesize PIPModeEnabled=_PIPModeEnabled;
-@property(nonatomic) struct CGSize imageQueueSize; // @synthesize imageQueueSize=_imageQueueSize;
-@property(nonatomic) struct CGSize lastKnownRenderSize; // @synthesize lastKnownRenderSize=_lastKnownRenderSize;
 @property(retain, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(retain, nonatomic) AVPictureInPictureIndicatorLayer *placeholderLayer; // @synthesize placeholderLayer=_placeholderLayer;
-@property(retain, nonatomic) AVSampleBufferDisplayLayerPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(retain, nonatomic) AVPictureInPictureSampleBufferDisplayLayerHostView *sbdlHostView; // @synthesize sbdlHostView=_sbdlHostView;
-@property(retain, nonatomic) CALayer *sourceContentLayer; // @synthesize sourceContentLayer=_sourceContentLayer;
-@property(nonatomic) unsigned int sourceContextId; // @synthesize sourceContextId=_sourceContextId;
-@property(readonly, nonatomic) AVSampleBufferDisplayLayer *sourceLayer; // @synthesize sourceLayer=_sourceLayer;
-@property(retain, nonatomic) CALayerHost *sourceLayerHost; // @synthesize sourceLayerHost=_sourceLayerHost;
 
 @end
 

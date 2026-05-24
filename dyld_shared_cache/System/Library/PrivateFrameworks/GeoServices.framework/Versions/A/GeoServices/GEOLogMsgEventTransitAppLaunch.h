@@ -4,56 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventTransitAppLaunch
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_bundleIdentifier;
-    GEOLatLng *_destination;
-    GEOLatLng *_source;
-    double _timestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_bundleIdentifier:1;
-        unsigned int read_destination:1;
-        unsigned int read_source:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HasStyleSupported:(id)arg1;
++ (_Bool)setHasStyleSupported:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool){;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)set with version:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (double);
+- (_Bool)CCCSC}{IOUSBSuperSpeedEndpointCompanionDescriptor=CCCCS}{IOUSBSuperSpeedPlusIsochronousEndpointCompanionDescriptor=CCSI}}24@0:(id)arg1 8Q16;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)ationString;
 - (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void)irectedSearchParameters"b1"read_mapsHomeParameters"b1"read_mapsIdentifierPlaceLookupParameters"b1"read_mapsSearchHomeParameters"b1"read_merchantLookupParameters"b1"read_nearbySearchParameters"b1"read_offlineRegionNameParameters"b1"read_placeCollectionLookupParameter"b1"read_placeDescriptorResolutionParameters"b1"read_placeLookupParameters"b1"read_placeQuestionnaireLookupParameters"b1"read_placeRefinementParameters"b1"read_placecardEnrichmentParameters"b1"read_poiAtAddressLookupParameters"b1"read_popularNearbySearchParameters"b1"read_publisherViewParameters"b1"read_queryUnderstandingParameters"b1"read_refreshIdLookUpParameters"b1"read_reverseGeocodingParameters"b1"read_searchCapabilitiesParameters"b1"read_searchFieldPlaceholderParameters"b1"read_searchParameters"b1"read_searchZeroKeywordCategorySuggestionParameters"b1"read_searchZeroKeywordWithSearchResultsSuggestionParameters"b1"read_siriSearchParameters"b1"read_territoryLookupParameters"b1"read_transitNearbyPaymentMethodLookupParameters"b1"read_transitNearbyScheduleLookupParameters"b1"read_transitScheduleLookupParameter"b1"read_transitVehiclePositionParameters"b1"read_vendorSpecificPlaceRefinementParameters"b1"read_wifiFingerprintParameters"b1"wrote_anyField"b1};
-- (id)tLng:(struct _NSZone *)arg1 accuracy:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)shiftLatLng:(struct _NSZone *)arg1 accuracy:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)setHasBusinessUID: /* Error: Ran out of types for this method. */;
-- (id)ithString:roundedDistance: /* Error: Ran out of types for this method. */;
+- (id)initWithString:roundedDistance: /* Error: Ran out of types for this method. */;
 - (void)`|à|;
 - (id)ints:%@ /* Error: Ran out of types for this method. */;
 - (id);
@@ -62,15 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier;
-@property(retain, nonatomic) GEOLatLng *destination;
 @property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasDestination;
-@property(readonly, nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) GEOLatLng *source;
-@property(nonatomic) double timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

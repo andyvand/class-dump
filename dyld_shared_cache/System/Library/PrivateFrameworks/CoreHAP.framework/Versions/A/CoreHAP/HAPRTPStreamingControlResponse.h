@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPRTPStreamingControlStatusWrapper, NSData, NSString;
+@class NSData;
 
 @interface HAPRTPStreamingControlResponse
 {
     NSData *_sessionIdentifier;
-    HAPRTPStreamingControlStatusWrapper *_status;
 }
 
 + (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void);
@@ -27,15 +26,7 @@
 - (id)ork SSID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) HAPRTPStreamingControlStatusWrapper *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

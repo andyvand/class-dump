@@ -11,15 +11,15 @@
     HMImmutableSettingsProtoLanguageValueEvent *_value;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)M	0	$	?	5	>	&	@	;
+- (_Bool)lemonade;
+- (void)_SwiftDataNoType;
 - (id);
 - (id);
 - (id);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) HMImmutableSettingsProtoLanguageValueEvent *value; // @synthesize value=_value;
 
 @end
 

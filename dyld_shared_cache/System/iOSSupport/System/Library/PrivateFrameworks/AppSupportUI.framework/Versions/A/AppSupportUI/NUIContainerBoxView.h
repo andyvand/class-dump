@@ -6,22 +6,19 @@
 
 #import <AppSupportUI/NUIContainerView.h>
 
-@class NSString;
-
 @interface NUIContainerBoxView : NUIContainerView
 {
     struct _NUIBoxArrangement _arrangement;
-    CDStruct_e0b918f9 _boxFlags;
 }
 
 + (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)C;
 - (void);
 - (id);
-- (id);
+- (id);
 - (struct CGSize);
-- (id);
+- (id)q;
 - (void);
 - (long long);
 - (void);
@@ -30,20 +27,12 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long horizontalAlignment;
-@property(readonly) Class superclass;
-@property(nonatomic) long long verticalAlignment;
 
 @end
 

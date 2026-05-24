@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSControl, NSString, NSWindow, SPAutoFillAuthorizationRemoteViewController, SPCompletionListRemoteViewController, SPOtherPasswordsRemoteViewController;
-@protocol SPSafariPlatformSupportDeliveredOneTimeCodeAvailabilityObserver;
-
 @interface SPSafariPlatformSupport
 {
     CDUnknownBlockType _completionListCompletionHandler;
-    CDUnknownBlockType _oneTimeCodeCompletionHandler;
-    NSWindow *_completionListWindow;
-    NSControl *_controlForEnsuringDismissalOfAutoFillWindowOnceDisabled;
-    _Bool _isObservingEditablePropertyOfControl;
-    id _textDidEndEditingObserver;
-    id _textDidChangeObserver;
-    id _windowDidResignKeyObserver;
-    NSWindow *_parentWindow;
-    _Bool _isObservingParentWindowVisibility;
-    id _windowVisibleObserver;
-    SPCompletionListRemoteViewController *_completionListViewController;
-    SPOtherPasswordsRemoteViewController *_otherPasswordsViewController;
-    SPAutoFillAuthorizationRemoteViewController *_autoFillAuthorizationViewController;
-    NSString *_partialUsername;
-    NSWindow *_currentSheetWindow;
-    _Bool _isDisplayingForSecureTextField;
-    struct CGRect _positioningRect;
-    id _positioningView;
-    long long _positioningViewTextAlignment;
-    id <SPSafariPlatformSupportDeliveredOneTimeCodeAvailabilityObserver> _deliveredOneTimeCodeAvailabilityObserver;
-    _Bool _hasDeliveredOneTimeCodes;
 }
 
 + (id);
@@ -46,7 +22,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)};
 - (void);
 - (void);
 - (void);
@@ -54,41 +30,39 @@
 - (void);
 - (struct CGPoint);
 - (long long);
+- (void)a;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)safari_imageByRoundingCornersWithRadius: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SPSafariPlatformSupportDeliveredOneTimeCodeAvailabilityObserver> deliveredOneTimeCodeAvailabilityObserver;
 @property(nonatomic) _Bool hasDeliveredOneTimeCodes;
-@property(readonly, nonatomic) _Bool isSecurityCodeAutoFillOfDeliveredCodesInUnannotatedContextsAvailable;
 
 @end
 

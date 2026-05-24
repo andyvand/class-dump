@@ -9,8 +9,8 @@
 @protocol UICollectionViewDelegate_Private
 
 @optional
-- (NSIndexPath *)n;
-- (_Bool)faultTighteningFactor;
+- (NSIndexPath *)childViewControllerForHomeIndicatorAutoHidden;
+- (_Bool)_defaultTighteningFactor;
 - (NSIndexPath *)
 ;
 - (void)´2;

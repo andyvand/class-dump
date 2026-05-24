@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface RFHighlightedSubstring
 {
@@ -13,28 +13,19 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id)isGeniusAvailable;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)shouldStripLocation;
+- (id)sion;
 - (id);
 - (id);
 - (void)mmand",&,N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *substring; // @synthesize substring=_substring;
-@property(readonly) Class superclass;
 
 @end
 

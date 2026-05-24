@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLEmbedding, NLGazetteer, NLModelConfiguration, NSData, NSDictionary;
+@class NLModelConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface NLModelImpl
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)MultipleInputSourcesSelected;
+- (id)racters.;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)addImportSourceForUrls:(id)arg1;
+- (id)_overridenFetchResultClass;
+- (id);
+- (id);
+- (unsigned long long);
+- (id)_clientExternalizedLAContext;
 
 // Remaining properties
 @property(readonly, copy) NLModelConfiguration *configuration;
-@property(readonly, copy) NSData *customEmbeddingData;
-@property(readonly, copy) NSDictionary *documentFrequencyMap;
-@property(readonly, copy) NLEmbedding *embedding;
-@property(readonly, copy) NSData *embeddingData;
-@property(readonly, copy) NLGazetteer *gazetteer;
-@property(readonly, copy) NSDictionary *labelMap;
-@property(readonly) unsigned long long numberOfTrainingInstances;
-@property(readonly) unsigned long long systemVersion;
-@property(readonly, copy) NSDictionary *trainingInfo;
-@property(readonly, copy) NSDictionary *vocabularyMap;
 
 @end
 

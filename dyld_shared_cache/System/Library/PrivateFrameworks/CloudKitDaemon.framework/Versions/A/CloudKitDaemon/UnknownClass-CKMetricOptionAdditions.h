@@ -7,7 +7,7 @@
 @interface UnknownClass (CKMetricOptionAdditions)
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 @end

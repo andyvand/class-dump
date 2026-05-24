@@ -11,7 +11,7 @@
     unsigned long long _selectionType;
 }
 
-- (id);
+- (id)�(;
 - (_Bool);
 - (id);
 - (id);
@@ -20,7 +20,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)a;
 - (long long);
 - (id);
 

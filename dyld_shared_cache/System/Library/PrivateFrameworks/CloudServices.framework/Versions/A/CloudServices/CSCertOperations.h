@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (void);
-+ (struct __SecCertificate *);
++ (struct __SecCertificate *);
 + (id);
 + (id);
 

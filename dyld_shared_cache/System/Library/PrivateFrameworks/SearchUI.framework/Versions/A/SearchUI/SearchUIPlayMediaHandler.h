@@ -14,13 +14,13 @@
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
+- (id)outfit_kurta;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)AXAttributedStringForTextMarkerRange;
 
 // Remaining properties
 @property(retain) SFPlayMediaCommand *command; // @dynamic command;

@@ -9,67 +9,49 @@
 @interface AVCaptureResolvedPhotoSettings
 {
     AVCaptureResolvedPhotoSettingsInternal *_internal;
-    _Bool _fastCapturePrioritizationEnabled;
 }
 
 + (id);
 + (void);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
-- (CDStruct_e83c9415);
+- (CDStruct_1ef3fb1f)_package;
+- (CDStruct_1ef3fb1f)"NSOperationQueue",&,N,V_serviceThrottlingOperationQueue;
+- (CDStruct_1ef3fb1f)removeCallback: /* Error: Ran out of types for this method. */;
+- (CDStruct_1ef3fb1f)dataWithLength: /* Error: Ran out of types for this method. */;
+- (CDStruct_5c5366e1)ines;
+- (_Bool)MSVFileBufferedPipe;
+- (_Bool)NSSecureCoding;
+- (_Bool);
+- (_Bool),;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (CDStruct_79c71658);
-- (CDStruct_79c71658);
-- (id);
+- (CDStruct_1ef3fb1f)This is a client-issue. Check the crash report for the process. PID:%lld. /* Error: Ran out of types for this method. */;
+- (CDStruct_1ef3fb1f)for client process for the purposes of deriving its bundle identifier with error code %ld. This typically indicates that the process is not properly code-signed. This is a client-issue. Check the crash report for the process. PID:(id)arg1 %lld.;
+- (id)undleID=%{public}@;
+- (unsigned long long)D from %{public}@:teamIDIsValid=%{BOOL}u bundleID=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)icationID=%{public}@;
+- (id)n.framework/MediaFoundation;
+- (CDStruct_1ef3fb1f);
+- (void)service:account:incomingPendingMessageOfType:fromID:context: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
+- (CDStruct_1ef3fb1f);
 - (id);
-- (CDStruct_79c71658);
-- (void);
-- (unsigned long long);
-- (id);
-- (CDStruct_79c71658);
-- (id);
-- (CDStruct_79c71658);
+- (CDStruct_1ef3fb1f);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (CDStruct_79c71658);
+- (CDStruct_1ef3fb1f);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isContentAwareDistortionCorrectionEnabled) _Bool contentAwareDistortionCorrectionEnabled;
-@property(readonly) CDStruct_79c71658 deferredPhotoProxyDimensions;
-@property(readonly, getter=isDualCameraFusionEnabled) _Bool dualCameraFusionEnabled;
-@property(readonly) CDStruct_79c71658 embeddedThumbnailDimensions;
-@property(readonly) unsigned long long expectedPhotoCount;
-@property(readonly, getter=isFastCapturePrioritizationEnabled) _Bool fastCapturePrioritizationEnabled; // @synthesize fastCapturePrioritizationEnabled=_fastCapturePrioritizationEnabled;
-@property(readonly, getter=isFlashEnabled) _Bool flashEnabled;
-@property(readonly) CDStruct_79c71658 livePhotoMovieDimensions;
-@property(readonly) CDStruct_79c71658 photoDimensions;
-@property(readonly) CDStruct_e83c9415 photoProcessingTimeRange;
-@property(readonly) CDStruct_79c71658 portraitEffectsMatteDimensions;
-@property(readonly) CDStruct_79c71658 previewDimensions;
-@property(readonly) CDStruct_79c71658 rawEmbeddedThumbnailDimensions;
-@property(readonly) CDStruct_79c71658 rawPhotoDimensions;
-@property(readonly, getter=isRedEyeReductionEnabled) _Bool redEyeReductionEnabled;
-@property(readonly, getter=isStillImageStabilizationEnabled) _Bool stillImageStabilizationEnabled;
 @property(readonly) long long uniqueID;
-@property(readonly, getter=isVirtualDeviceFusionEnabled) _Bool virtualDeviceFusionEnabled;
 
 @end
 

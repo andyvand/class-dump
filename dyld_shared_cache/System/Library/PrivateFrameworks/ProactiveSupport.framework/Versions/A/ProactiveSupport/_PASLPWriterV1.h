@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)supportedCalendarComponentSets;
 + (id);
 + (id);
 - (id);

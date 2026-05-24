@@ -9,7 +9,6 @@
 @interface AVTUIStickerPlaceholderProviderFactory
 {
     NSMutableArray *_queuedHandlers;
-    CDUnknownBlockType _imageProvider;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;
 @property(retain, nonatomic) NSMutableArray *queuedHandlers; // @synthesize queuedHandlers=_queuedHandlers;
 
 @end

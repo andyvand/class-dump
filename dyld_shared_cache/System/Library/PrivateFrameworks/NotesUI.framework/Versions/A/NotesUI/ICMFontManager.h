@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICMFontManager
 {
     _Bool _isTogglingBoldface;
-    _Bool _isTogglingItalics;
 }
 
 + (_Bool);
@@ -24,15 +21,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isTogglingBoldface; // @synthesize isTogglingBoldface=_isTogglingBoldface;
-@property(nonatomic) _Bool isTogglingItalics; // @synthesize isTogglingItalics=_isTogglingItalics;
-@property(readonly) Class superclass;
 
 @end
 

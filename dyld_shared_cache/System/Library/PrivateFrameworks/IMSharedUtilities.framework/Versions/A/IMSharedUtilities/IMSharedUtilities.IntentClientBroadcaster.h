@@ -7,18 +7,21 @@
 @interface IMSharedUtilities.IntentClientBroadcaster
 {
     id safeRenderProvider;
-    id chatContactsProvider;
 }
 
 - (void);
+- (void)
+;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)k`;
 - (void);
 - (void);
 - (void);
@@ -37,8 +40,10 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,6 +55,8 @@
 - (void);
 - (void);
 - (void);
+- (void)߈	;
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -73,18 +80,24 @@
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -105,6 +118,7 @@
 - (void);
 - (void);
 - (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -125,6 +139,7 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -143,6 +158,8 @@
 - (void);
 - (void);
 - (void);
+- (id)nContext"8;
+- (void)ԕ;
 - (void);
 - (void);
 - (void);
@@ -153,28 +170,11 @@
 - (void);
 - (void);
 - (void);
+- (void)(9;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
+- (void)AppleTextInputMenuDidChangeTitleIconNotification;
 - (void);
 - (void);
 - (void)*ôùÿtVëÿ@_;

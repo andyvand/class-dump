@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETLossDefinition, ETOptimizerDefinition, NSArray, NSString, NSURL;
 @protocol ETDataProvider;
 
 @interface PHAPrivateFederatedLearningModelTrainer
 {
     id <ETDataProvider> _trainingData;
-    NSURL *_espressoFileURL;
-    NSArray *_layersToTrain;
-    NSString *_inputName;
-    NSString *_modelOutputName;
-    NSString *_modelInferenceOutputName;
-    NSString *_labelName;
-    NSString *_lossName;
-    NSString *_optimizerName;
-    ETLossDefinition *_lossDefinition;
-    ETOptimizerDefinition *_optimizerDefinition;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_ց;
 - (id);
 - (id);
 - (id);
@@ -42,25 +31,15 @@
 - (id);
 - (id);
 - (int);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)stAssetsForFeeder:options:debugInfo:progressBlock: /* Error: Ran out of types for this method. */;
+- (void)bestAssetsForFeeder:options:debugInfo:progressBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *espressoFileURL; // @synthesize espressoFileURL=_espressoFileURL;
-@property(retain, nonatomic) NSString *inputName; // @synthesize inputName=_inputName;
-@property(retain, nonatomic) NSString *labelName; // @synthesize labelName=_labelName;
-@property(readonly, nonatomic) NSArray *layersToTrain; // @synthesize layersToTrain=_layersToTrain;
-@property(retain, nonatomic) ETLossDefinition *lossDefinition; // @synthesize lossDefinition=_lossDefinition;
-@property(retain, nonatomic) NSString *lossName; // @synthesize lossName=_lossName;
-@property(retain, nonatomic) NSString *modelInferenceOutputName; // @synthesize modelInferenceOutputName=_modelInferenceOutputName;
-@property(retain, nonatomic) NSString *modelOutputName; // @synthesize modelOutputName=_modelOutputName;
-@property(retain, nonatomic) ETOptimizerDefinition *optimizerDefinition; // @synthesize optimizerDefinition=_optimizerDefinition;
-@property(retain, nonatomic) NSString *optimizerName; // @synthesize optimizerName=_optimizerName;
 @property(readonly, nonatomic) id <ETDataProvider> trainingData; // @synthesize trainingData=_trainingData;
 
 @end

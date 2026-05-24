@@ -7,7 +7,6 @@
 @interface NewsSubscription.DisposablePurchaseObserver__priv_D15DC27198AA3F47C5339769DD630072
 {
     id observer;
-    id keepAliveObject;
 }
 
 @end

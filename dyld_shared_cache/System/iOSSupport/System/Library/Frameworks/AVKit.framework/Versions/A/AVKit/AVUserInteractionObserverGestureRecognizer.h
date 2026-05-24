@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (id)hotosFormats/PhotosFormats/PFParallaxLayerStack.m;
 - (_Bool);
 - (void);
+- (_Bool);
+- (void)�;
 - (void);
 - (void);
 - (void);

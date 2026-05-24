@@ -9,7 +9,7 @@
     double _height;
 }
 
-- (struct CGRect);
+- (struct CGRect)6@24@32;
 - (double);
 - (void);
 

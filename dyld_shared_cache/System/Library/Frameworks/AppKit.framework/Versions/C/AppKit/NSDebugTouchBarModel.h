@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, NSTouchBar;
-
 __attribute__((visibility("hidden")))
 @interface NSDebugTouchBarModel
 {
     void *_address;
-    NSString *_className;
-    NSString *_responderDescription;
-    NSTouchBar *_touchBar;
-    NSMutableArray *_warnings;
-    _Bool _isSuppressed;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)/var/tmp/com.apple.neutil.necp_drop_dest.plist;
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (void)st evaluation failed(%d);
+- (void);
+- (void)referredSymmAlg;
+- (id);
+- (unsigned long long)InternalClientNotifier;
 - (_Bool);
 - (_Bool);
-- (id)ry: /* Error: Ran out of types for this method. */;
+- (id)_pauseSpeakingAtBoundary: /* Error: Ran out of types for this method. */;
 - (void)è4;
 - (void *)eViewRepresentable.swift;
 - (id)Ó Æ-H;
@@ -37,12 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property void *address; // @synthesize address=_address;
-@property(copy) NSString *className; // @synthesize className=_className;
-@property _Bool isSuppressed; // @synthesize isSuppressed=_isSuppressed;
-@property(readonly) NSString *prettyDescription;
-@property(copy) NSString *responderDescription; // @synthesize responderDescription=_responderDescription;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
-@property(readonly) NSArray *warnings; // @synthesize warnings=_warnings;
 
 @end
 

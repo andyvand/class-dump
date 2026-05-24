@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, SFPunchout, SearchUIButton, SearchUITrailersCardSectionView, TLKLabel;
+@class SearchUITrailersCardSectionView;
 
 @interface SearchUITrailerView
 {
     SearchUITrailersCardSectionView *_cardSectionView;
-    SearchUIButton *_playButton;
-    TLKLabel *_titleLabel;
-    SFPunchout *_punchout;
-    NSView *_centeredBoxView;
 }
 
 - (void);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak SearchUITrailersCardSectionView *cardSectionView; // @synthesize cardSectionView=_cardSectionView;
-@property(retain, nonatomic) NSView *centeredBoxView; // @synthesize centeredBoxView=_centeredBoxView;
-@property(retain, nonatomic) SearchUIButton *playButton; // @synthesize playButton=_playButton;
-@property(retain, nonatomic) SFPunchout *punchout; // @synthesize punchout=_punchout;
-@property(retain, nonatomic) TLKLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

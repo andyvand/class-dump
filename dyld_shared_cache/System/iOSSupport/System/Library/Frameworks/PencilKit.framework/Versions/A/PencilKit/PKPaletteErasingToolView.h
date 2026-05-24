@@ -6,13 +6,9 @@
 
 #import <PencilKit/PKPaletteToolView.h>
 
-@class NSString, PKPaletteAttributeViewController, PKToolConfiguration;
-@protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool;
-
 @interface PKPaletteErasingToolView : PKPaletteToolView
 {
     _Bool _bitmapEraser;
-    PKPaletteAttributeViewController *_attributeViewController;
 }
 
 - (void);
@@ -27,24 +23,9 @@
 - (void);
 - (id);
 - (double);
-- (void)eSelectionController;
+- (void)PKTextInputLanguageSelectionController;
 
 // Remaining properties
-@property(nonatomic, getter=isBitmapEraser) _Bool bitmapEraser; // @synthesize bitmapEraser=_bitmapEraser;
-@property(readonly, nonatomic) PKToolConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PKPaletteErasingTool> erasingTool;
-@property(readonly, nonatomic) id <PKPaletteHandwritingTool> handwritingTool;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PKPaletteInkingTool> inkingTool;
-@property(readonly, nonatomic) NSString *itemIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *toolIdentifier;
-@property(readonly, nonatomic) NSString *toolVariant;
 @property(readonly, nonatomic) double weight;
 
 @end

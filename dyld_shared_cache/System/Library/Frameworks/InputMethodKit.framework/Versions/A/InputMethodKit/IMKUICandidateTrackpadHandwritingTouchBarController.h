@@ -10,10 +10,10 @@
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)bi;
 - (double);
 - (double);
-- (id);
+- (id)avcPositionalInfo;
 
 @end
 

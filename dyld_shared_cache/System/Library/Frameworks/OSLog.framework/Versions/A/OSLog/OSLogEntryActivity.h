@@ -6,37 +6,25 @@
 
 #import <OSLog/OSLogEntry.h>
 
-@class NSString;
-
 @interface OSLogEntryActivity : OSLogEntry
 {
     int _processIdentifier;
-    unsigned long long _activityIdentifier;
-    NSString *_process;
-    NSString *_sender;
-    unsigned long long _threadIdentifier;
-    unsigned long long _parentActivityIdentifier;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)nHandler:] /* Error: Ran out of types for this method. */;
 - (int);
-- (id);
-- (void);
+- (id)y;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
 @property(readonly, nonatomic) unsigned long long parentActivityIdentifier; // @synthesize parentActivityIdentifier=_parentActivityIdentifier;
-@property(readonly, nonatomic) NSString *process; // @synthesize process=_process;
-@property(readonly, nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) unsigned long long threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 
 @end
 

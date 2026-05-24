@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 @interface MPSCNNConvolutionWeightsAndBiasesState
 {
     unsigned long long _numberOfWeights;
-    unsigned long long _numberOfBiases;
-    unsigned int _weightsDataType;
-    unsigned int _weightsLayout;
-    unsigned long long _weightsOffset;
-    unsigned long long _biasesOffset;
 }
 
 + (id);
@@ -30,22 +23,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)To;
 - (id);
 - (unsigned int);
+- (id)7;
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBuffer> biases;
-@property(readonly, nonatomic) unsigned long long biasesOffset;
-@property(readonly, nonatomic) unsigned long long numberOfBiases;
 @property(readonly, nonatomic) unsigned long long numberOfWeights;
-@property(readonly, nonatomic) id <MTLBuffer> weights;
-@property(readonly, nonatomic) unsigned int weightsDataType;
-@property(readonly, nonatomic) unsigned int weightsLayout;
-@property(readonly, nonatomic) unsigned long long weightsOffset;
 
 @end
 

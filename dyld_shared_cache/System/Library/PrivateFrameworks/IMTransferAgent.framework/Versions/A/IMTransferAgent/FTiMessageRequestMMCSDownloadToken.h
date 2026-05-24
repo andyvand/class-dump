@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FTiMessageRequestMMCSDownloadToken
 {
     NSString *_owner;
-    NSString *_responseAuthToken;
-    NSData *_signature;
-    NSString *_responseRequestorID;
-    long long _contentVersion;
-    NSString *_contentHeaders;
-    NSString *_authURLString;
-    NSData *_responseContentBody;
-    long long _responseContentVersion;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,27 +28,19 @@
 - (void);
 - (id);
 - (id);
+- (id)iQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/paimaging/PhotoApps/PAImageItemView.m;
+- (long long);
 - (id);
+- (void)eLabel;
+- (long long)MapsSuggestionsSignalTypeHasRecentTransitRoute;
 - (long long);
 - (id);
 - (void);
-- (long long);
-- (long long);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(copy) NSString *authURLString; // @synthesize authURLString=_authURLString;
-@property(copy) NSString *contentHeaders; // @synthesize contentHeaders=_contentHeaders;
-@property long long contentVersion; // @synthesize contentVersion=_contentVersion;
 @property(copy) NSString *owner; // @synthesize owner=_owner;
-@property(copy) NSString *responseAuthToken; // @synthesize responseAuthToken=_responseAuthToken;
-@property(copy) NSData *responseContentBody; // @synthesize responseContentBody=_responseContentBody;
-@property long long responseContentVersion; // @synthesize responseContentVersion=_responseContentVersion;
-@property(copy) NSString *responseRequestorID; // @synthesize responseRequestorID=_responseRequestorID;
-@property(copy) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

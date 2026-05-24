@@ -6,55 +6,41 @@
 
 #import <UIKitCore/UIPresentationController.h>
 
-@class NSString, UILongPressGestureRecognizer, UITapGestureRecognizer, UIView, _UIAnimationCoordinator, _UIDimmingKnockoutBackdropView;
-@protocol UIActionSheetPresentationControllerDismissActionView, UIActionSheetPresentationControllerVisualStyle, _UIActionSheetCompactPresentationControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIActionSheetCompactPresentationController : UIPresentationController
 {
     _Bool _avoidsKeyboardDisabled;
-    _Bool _shouldAdoptPresentedAppearance;
-    _Bool _hasPendingAnimatedLayout;
-    id <_UIActionSheetCompactPresentationControllerDelegate> _actionSheetDelegate;
-    UIView<UIActionSheetPresentationControllerDismissActionView> *_dismissActionView;
-    UILongPressGestureRecognizer *_dismissActionViewGestureRecognizer;
-    UITapGestureRecognizer *_dimmingViewDismissTapGestureRecognizer;
-    UIView *_dimmingView;
-    _UIDimmingKnockoutBackdropView *_backdropView;
-    _UIAnimationCoordinator *_animationCoordinator;
-    id <UIActionSheetPresentationControllerVisualStyle> _visualStyle;
-    double _pseudoAlertPreferredTop;
 }
 
+- (_Bool)setMutableProperties: /* Error: Ran out of types for this method. */;
+- (void)proxyHost;
+- (void)networkMonitor;
+- (void)handleAcceptChatCommandWithPipeline:(_Bool)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)errorIndicatesDeviceDoesNotHaveKeysToSync:(id)arg1;
+- (void)errorIndicatesDeviceDoesNotHaveKeysToSync:(id)arg1;
+- (void)encodeSystemFieldsWithCoder:(id)arg1;
+- (void)checkBlackholedChatsExistAfterUpdatingChatWithAdd:(id)arg1;
+- (double)_notificationCenter;
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (_Bool);
 - (id);
 - (id);
+- (id)prefix;
 - (id);
-- (id);
+- (void)d;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (struct CGSize);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)etadata dictionary %s;
+- (void)e preferred groupPhotoGuid is %@. Transfer:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)for RCS Encryption test messages.;
+- (double)ceipt fromID:%@,  /* Error: Ran out of types for this method. */;
+- (struct CGSize)rigger fallback logic.;
+- (void)TrustKitDecisioning;
+- (void)rted truncating quick switch DB;
+- (struct CGRect)taskReports;
 - (CDStruct_758ece87);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,12 +57,12 @@ __attribute__((visibility("hidden")))
 - (_Bool)voke;
 - (void)iguration(UIView * _Nonnull __strong, UILabel * _Nullable __strong * _Nonnull, UIListContentTextProperties * _Nonnull __strong);
 - (void)@"NSAdaptiveImageGlyph"8Q16^B24;
-- (void);
+- (void)viewMatching;
 - (_Bool)before deallocating;
 - (id)3_yptG;
 - (struct UIEdgeInsets);
-- (void)er;
-- (void)eyValueStorage;
+- (void)_UITabAccessoryContainer;
+- (void)UISceneKeyValueStorage;
 - (struct CGRect);
 - (void)gÿ;
 - (id)Ï¼¼];
@@ -87,20 +73,7 @@ __attribute__((visibility("hidden")))
 - (void)cöþ;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIActionSheetCompactPresentationControllerDelegate> actionSheetDelegate; // @synthesize actionSheetDelegate=_actionSheetDelegate;
-@property(retain, nonatomic) _UIAnimationCoordinator *animationCoordinator; // @synthesize animationCoordinator=_animationCoordinator;
-@property(nonatomic) _Bool avoidsKeyboardDisabled; // @synthesize avoidsKeyboardDisabled=_avoidsKeyboardDisabled;
-@property(retain, nonatomic) _UIDimmingKnockoutBackdropView *backdropView; // @synthesize backdropView=_backdropView;
-@property(retain, nonatomic) UIView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(retain, nonatomic) UITapGestureRecognizer *dimmingViewDismissTapGestureRecognizer; // @synthesize dimmingViewDismissTapGestureRecognizer=_dimmingViewDismissTapGestureRecognizer;
-@property(copy, nonatomic) NSString *dismissActionTitle;
-@property(nonatomic) _Bool dismissActionUsesShorterHeightWhenCompactVertically;
-@property(retain, nonatomic) UIView<UIActionSheetPresentationControllerDismissActionView> *dismissActionView; // @synthesize dismissActionView=_dismissActionView;
-@property(retain, nonatomic) UILongPressGestureRecognizer *dismissActionViewGestureRecognizer; // @synthesize dismissActionViewGestureRecognizer=_dismissActionViewGestureRecognizer;
-@property(nonatomic) _Bool hasPendingAnimatedLayout; // @synthesize hasPendingAnimatedLayout=_hasPendingAnimatedLayout;
-@property(nonatomic) double pseudoAlertPreferredTop; // @synthesize pseudoAlertPreferredTop=_pseudoAlertPreferredTop;
 @property(nonatomic) _Bool shouldAdoptPresentedAppearance; // @synthesize shouldAdoptPresentedAppearance=_shouldAdoptPresentedAppearance;
-@property(retain, nonatomic) id <UIActionSheetPresentationControllerVisualStyle> visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end
 

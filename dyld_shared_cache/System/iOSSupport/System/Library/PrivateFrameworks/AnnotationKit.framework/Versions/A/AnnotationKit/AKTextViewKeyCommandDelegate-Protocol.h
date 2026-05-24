@@ -5,5 +5,8 @@
 //
 
 @protocol AKTextViewKeyCommandDelegate
+
+@optional
+- (void)@;
 @end
 

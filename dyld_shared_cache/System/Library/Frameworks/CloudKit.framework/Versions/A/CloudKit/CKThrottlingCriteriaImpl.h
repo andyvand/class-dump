@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, NSNumber, NSObject, NSString;
-@protocol NSFastEnumeration;
+@class CKContainerID;
 
 @interface CKThrottlingCriteriaImpl
 {
     CKContainerID *_containerID;
-    long long _databaseScope;
-    NSObject<NSFastEnumeration> *_relevantZoneIDs;
-    NSNumber *_operationType;
-    NSString *_operationGroupName;
 }
 
-- (void);
+- (void)|!|S;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (void)ct:(long long)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (void)UploadRequestPersistentStore;
+- (void)_setObject:(long long)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)CKUploadRequestPersistentStore;
 - (void)T< >T?4B@CLD;
 - (void)§;
 - (_Bool)V=cG;
@@ -32,17 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *operationGroupName; // @synthesize operationGroupName=_operationGroupName;
-@property(retain, nonatomic) NSNumber *operationType; // @synthesize operationType=_operationType;
-@property(retain, nonatomic) NSObject<NSFastEnumeration> *relevantZoneIDs; // @synthesize relevantZoneIDs=_relevantZoneIDs;
-@property(readonly) Class superclass;
 
 @end
 

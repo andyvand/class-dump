@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSliderRGBArtworkProvider : NSTouchBarColorPickerSliderArtworkProvider
 {
     long long _rgbComponent;
-    long long _entryMode;
 }
 
++ (id)tRequest;
 + (id);
-+ (id);
-+ (id);
++ (id)_NSDataType;
+- (double)KeyboardMutePreservesRegionalShutterClickBehavior;
+- (void)DevicePrefersCheapTrafficShaders;
+- (id)m4alZgBFhxNuTZyrEM2nbA;
 - (double);
-- (void);
-- (id);
-- (double);
 - (id);
 - (id);
-- (id);
+- (id)kReachability;
 - (_Bool);
 
 @end

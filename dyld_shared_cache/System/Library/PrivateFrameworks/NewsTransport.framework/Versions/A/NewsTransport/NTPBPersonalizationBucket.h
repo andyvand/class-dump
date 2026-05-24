@@ -7,19 +7,12 @@
 @interface NTPBPersonalizationBucket
 {
     long long _maximum;
-    long long _minimum;
-    long long _treatmentId;
-    struct {
-        unsigned int maximum:1;
-        unsigned int minimum:1;
-        unsigned int treatmentId:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)defaultStore;
+- (void)defaultIntensity;
+- (_Bool)bookmarks;
+- (_Bool)blackOverlayForFirstThumbnail;
 - (void);
 - (_Bool);
 - (void);
@@ -27,23 +20,18 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (_Bool);
+- (void)recursivelyFindAndUpdateSize:(long long)arg1 forComponentWithIdentifier:fromNode:sizeIsFinal: /* Error: Ran out of types for this method. */;
+- (_Bool)opySizingQueueWithPather:(id)arg1 ];
+- (void)fc_safelyIntersectSet:(long long)arg1;
+- (long long)ts/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKPrivateBatchedSaveRecordsOperation.m;
+- (_Bool)SayypGSg;
 - (long long);
 - (id);
 - (id);
-- (long long)itionedAutoFavoritesEmitterLimit;
+- (long long)hasAuditionedAutoFavoritesEmitterLimit;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaximum;
 @property(nonatomic) _Bool hasMinimum;
-@property(nonatomic) _Bool hasTreatmentId;
-@property(nonatomic) long long maximum; // @synthesize maximum=_maximum;
-@property(nonatomic) long long minimum; // @synthesize minimum=_minimum;
-@property(nonatomic) long long treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

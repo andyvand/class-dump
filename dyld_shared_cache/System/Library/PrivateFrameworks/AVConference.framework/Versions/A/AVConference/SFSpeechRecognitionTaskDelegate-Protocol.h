@@ -5,5 +5,10 @@
 //
 
 @protocol SFSpeechRecognitionTaskDelegate
+
+@optional
+- (void)l;
+- (void);
+- (void);
 @end
 

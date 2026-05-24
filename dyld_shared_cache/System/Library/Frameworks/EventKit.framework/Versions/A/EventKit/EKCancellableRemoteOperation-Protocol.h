@@ -5,5 +5,9 @@
 //
 
 @protocol EKCancellableRemoteOperation
+- (void);
+
+@optional
+- (void)ȱ;
 @end
 

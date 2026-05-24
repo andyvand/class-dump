@@ -13,7 +13,7 @@
 - (long long);
 - (long long);
 - (long long);
-- (id)ion:(struct _NSZone *)arg1;
+- (id)setNextViewDidAppearExpectation:(struct _NSZone *)arg1;
 
 @end
 

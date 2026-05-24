@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, NWURLError;
+@class NWURLError;
 
 __attribute__((visibility("hidden")))
 @interface NWURLErrorUserInfoDictionaryEnumerator
 {
     NWURLError *_error;
-    NSEnumerator *_userInfoKeyEnumerator;
 }
 
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)owKeynessChangeInProgress:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id)V=þÿd4ÿÿ;
 - (void)@;
 
 // Remaining properties
 @property(retain, nonatomic) NWURLError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSEnumerator *userInfoKeyEnumerator; // @synthesize userInfoKeyEnumerator=_userInfoKeyEnumerator;
 
 @end
 

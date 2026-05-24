@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADTableStyleCollection
 {
     NSMutableArray *_styles;
-    NSMutableDictionary *_styleMap;
-    NSString *_defaultTableStyleId;
 }
 
 - (id);

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _BlastDoorLPLyricExcerptMetadata
 {
     NSString *_lyrics;
-    NSString *_language;
-    NSNumber *_startTime;
-    NSNumber *_endTime;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)coalescingDelay;
 - (id);
-- (id);
-- (id);
+- (id)!b<;
+- (id);
 - (void)Ý0ªÃÿýÄøÈÿýÀøÈÿÝgyÿ­lÁËÿ|ÁËÿíì©ÃÿÁËÿ;
 - (void);
 - (id);
 - (void)ôÞx¤pk;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *endTime; // @synthesize endTime=_endTime;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
 @property(copy, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(retain, nonatomic) NSNumber *startTime; // @synthesize startTime=_startTime;
 
 @end
 

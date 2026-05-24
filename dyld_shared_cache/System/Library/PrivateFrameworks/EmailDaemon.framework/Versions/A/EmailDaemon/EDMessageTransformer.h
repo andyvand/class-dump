@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMailboxProvider, EMBlockedSenderManager, NSString;
-@protocol EMUserProfileProvider, EMVIPReader;
+@class EDMailboxProvider;
 
 @interface EDMessageTransformer
 {
     EDMailboxProvider *_mailboxProvider;
-    id <EMUserProfileProvider> _userProfileProvider;
-    EMBlockedSenderManager *_blockedSenderManager;
-    id <EMVIPReader> _vipReader;
 }
 
 + (id);
@@ -25,21 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)t(PLClientID, CFStringRef, CFDictionaryRef, CFArrayRef);
 
 // Remaining properties
-@property(readonly, nonatomic) EMBlockedSenderManager *blockedSenderManager; // @synthesize blockedSenderManager=_blockedSenderManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EDMailboxProvider *mailboxProvider; // @synthesize mailboxProvider=_mailboxProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <EMUserProfileProvider> userProfileProvider; // @synthesize userProfileProvider=_userProfileProvider;
-@property(readonly, nonatomic) id <EMVIPReader> vipReader; // @synthesize vipReader=_vipReader;
 
 @end
 

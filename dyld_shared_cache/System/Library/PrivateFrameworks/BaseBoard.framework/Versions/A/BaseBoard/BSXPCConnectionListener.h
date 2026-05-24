@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol BSXPCConnectionListenerHandler, OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface BSXPCConnectionListener
 {
     NSObject<OS_xpc_object> *_connection;
-    id <BSXPCConnectionListenerHandler> _handler;
-    NSString *_service;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

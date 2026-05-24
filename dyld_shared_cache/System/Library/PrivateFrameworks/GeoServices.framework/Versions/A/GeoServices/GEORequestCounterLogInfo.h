@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface GEORequestCounterLogInfo
 {
@@ -15,9 +15,9 @@
 + (_Bool)lder at "%@":%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)RL"16@"NSArray"24Q32;
+- (id)B24;
+- (unsigned long long)updateWithPropertyKey:value: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -26,27 +26,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)iSelected;
-- (id)ansit_schedule;
+- (id)displayNameForMultiSelected;
+- (id)transit_schedule;
 - (unsigned char);
 - (id)Â/õó¦5P@;
 - (void)#P@;
-- (CDStruct_d1a7ebee)k| ñíèãÝØÒÌ
+- (CDStruct_026435ec)k| ñíèãÝØÒÌ
 ýúö²Ä×éü!4GZm¨»Ïã÷4H]q°ÅÚð
 éíñõøüÿ0F\q´Êà÷$;RiÁÇÌÑÖÛàå£©°¶¼;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appID;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSDate *end;
-@property(readonly, nonatomic) unsigned long long recvBytes;
-@property(readonly, nonatomic) CDStruct_d1a7ebee requestType;
-@property(readonly, nonatomic) NSString *requestTypeString;
-@property(readonly, nonatomic) unsigned char result;
-@property(readonly, nonatomic) NSString *resultString;
-@property(readonly, nonatomic) NSDate *start;
-@property(readonly, nonatomic) unsigned long long usedInterfaceTypes;
-@property(readonly, nonatomic) unsigned long long xmitBytes;
 
 @end
 

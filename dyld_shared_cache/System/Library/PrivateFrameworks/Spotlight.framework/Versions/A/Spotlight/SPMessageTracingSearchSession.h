@@ -4,42 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSearchResult_SpotlightExtras;
-
 @interface SPMessageTracingSearchSession
 {
     _Bool _hadQuery;
-    _Bool _searchWindowDidExpand;
-    _Bool _didEndByClearing;
-    _Bool _didEnd;
-    double _started;
-    double _timeBeganPreviewingCurrentResult;
-    NSString *_openMethod;
-    SFSearchResult_SpotlightExtras *_selectedResult;
-    SFSearchResult_SpotlightExtras *_previewedResult;
-    SFSearchResult_SpotlightExtras *_engagedResult;
-    NSString *_topHitCategory;
-    NSString *_NLPQueryCategory;
-    NSString *_NLPQueryParseConfidence;
-    NSString *_query;
-    double _parsecQueryDuration;
-    unsigned long long _parsecQueryResultCount;
-    unsigned long long _parsecQuerySectionCount;
-    unsigned long long _countOfQueries;
-    long long _parsecQueriesCompleted;
-    long long _parsecQueriesLongerThan3CharactersCompleted;
-    long long _parsecQueriesWithResults;
-    long long _parsecQueriesErrored;
-    double _startTimeStamp;
-    double _endTimeStamp;
 }
 
 - (id);
-- (double);
-- (double);
+- (double);
+- (double);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -63,7 +38,7 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (double);
+- (double);
 - (void);
 - (long long);
 - (long long);
@@ -77,41 +52,18 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)e changeset from diff:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *NLPQueryCategory; // @synthesize NLPQueryCategory=_NLPQueryCategory;
-@property(retain, nonatomic) NSString *NLPQueryParseConfidence; // @synthesize NLPQueryParseConfidence=_NLPQueryParseConfidence;
-@property(nonatomic) unsigned long long countOfQueries; // @synthesize countOfQueries=_countOfQueries;
-@property(nonatomic) _Bool didEnd; // @synthesize didEnd=_didEnd;
-@property(nonatomic) _Bool didEndByClearing; // @synthesize didEndByClearing=_didEndByClearing;
-@property(nonatomic) double endTimeStamp; // @synthesize endTimeStamp=_endTimeStamp;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *engagedResult; // @synthesize engagedResult=_engagedResult;
-@property(nonatomic) _Bool hadQuery; // @synthesize hadQuery=_hadQuery;
-@property(retain, nonatomic) NSString *openMethod; // @synthesize openMethod=_openMethod;
-@property(nonatomic) long long parsecQueriesCompleted; // @synthesize parsecQueriesCompleted=_parsecQueriesCompleted;
-@property(nonatomic) long long parsecQueriesErrored; // @synthesize parsecQueriesErrored=_parsecQueriesErrored;
-@property(nonatomic) long long parsecQueriesLongerThan3CharactersCompleted; // @synthesize parsecQueriesLongerThan3CharactersCompleted=_parsecQueriesLongerThan3CharactersCompleted;
-@property(nonatomic) long long parsecQueriesWithResults; // @synthesize parsecQueriesWithResults=_parsecQueriesWithResults;
-@property(nonatomic) double parsecQueryDuration; // @synthesize parsecQueryDuration=_parsecQueryDuration;
-@property(nonatomic) unsigned long long parsecQueryResultCount; // @synthesize parsecQueryResultCount=_parsecQueryResultCount;
-@property(nonatomic) unsigned long long parsecQuerySectionCount; // @synthesize parsecQuerySectionCount=_parsecQuerySectionCount;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *previewedResult; // @synthesize previewedResult=_previewedResult;
-@property(retain, nonatomic) NSString *query; // @synthesize query=_query;
-@property(nonatomic) _Bool searchWindowDidExpand; // @synthesize searchWindowDidExpand=_searchWindowDidExpand;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *selectedResult; // @synthesize selectedResult=_selectedResult;
 @property(nonatomic) double startTimeStamp; // @synthesize startTimeStamp=_startTimeStamp;
-@property(nonatomic) double started; // @synthesize started=_started;
-@property(nonatomic) double timeBeganPreviewingCurrentResult; // @synthesize timeBeganPreviewingCurrentResult=_timeBeganPreviewingCurrentResult;
-@property(retain, nonatomic) NSString *topHitCategory; // @synthesize topHitCategory=_topHitCategory;
 
 @end
 

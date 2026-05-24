@@ -12,9 +12,10 @@
 × ;
 
 @optional
+- (_Bool)ectionViewDiffableDataSource",&,N,V_diffableDataSource;
 - (void)±°1Â0@ù
 × ;
-- (UIDragPreviewParameters *)yDictionary:(UICollectionView *)arg1;
+- (UIDragPreviewParameters *)setEntityDictionary:(UICollectionView *)arg1;
 - (void):(UICollectionView *)arg1 style:(id <UIDragSession>)arg2;
 - (NSArray *)¨ùÿæøÿ;
 - (_Bool)Ð;

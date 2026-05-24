@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface VCIDRSchedulerItem
 {
     unsigned int _framePosition;
-    unsigned int _budgetInCaptureFrames;
-    unsigned int _weightFactor;
-    NSMutableArray *_streams;
 }
 
 - (unsigned int);
@@ -23,16 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void);
+- (id)$;
 - (id);
-- (id);
-- (id)_AES_256_AUTH_SHA2_32_RCCM2_DEFERRED;
+- (id)SRTP_CIPHER_AES_256_AUTH_SHA2_32_RCCM2_DEFERRED;
 
 // Remaining properties
-@property(nonatomic) unsigned int budgetInCaptureFrames; // @synthesize budgetInCaptureFrames=_budgetInCaptureFrames;
 @property(nonatomic) unsigned int framePosition; // @synthesize framePosition=_framePosition;
-@property(readonly, nonatomic) NSArray *streams; // @synthesize streams=_streams;
-@property(nonatomic) unsigned int weightFactor; // @synthesize weightFactor=_weightFactor;
 
 @end
 

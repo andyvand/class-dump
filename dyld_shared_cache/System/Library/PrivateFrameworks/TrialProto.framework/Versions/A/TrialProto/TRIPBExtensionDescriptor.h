@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPBEnumDescriptor;
-
 @interface TRIPBExtensionDescriptor
 {
     struct TRIPBExtensionDescription *description_;
-    CDUnion_a49d1a5a defaultValue_;
-    Class containingMessageClass_;
 }
 
 - (int);
@@ -28,19 +24,9 @@
 - (Class);
 - (id);
 - (unsigned char);
-- (id);
+- (id)asFactorsState;
 
 // Remaining properties
-@property(readonly, nonatomic) int alternateWireType;
-@property(readonly, nonatomic) Class containingMessageClass; // @synthesize containingMessageClass=containingMessageClass_;
-@property(readonly, nonatomic) unsigned char dataType;
-@property(readonly, nonatomic) id defaultValue;
-@property(readonly, nonatomic) TRIPBEnumDescriptor *enumDescriptor;
-@property(readonly, nonatomic) unsigned int fieldNumber;
-@property(readonly, nonatomic) Class msgClass;
-@property(readonly, nonatomic, getter=isPackable) _Bool packable;
-@property(readonly, nonatomic, getter=isRepeated) _Bool repeated;
-@property(readonly, nonatomic) NSString *singletonName;
 @property(readonly, nonatomic) int wireType;
 
 @end

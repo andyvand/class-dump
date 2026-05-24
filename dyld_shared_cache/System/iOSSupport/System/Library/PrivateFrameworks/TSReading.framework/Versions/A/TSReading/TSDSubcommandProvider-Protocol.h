@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSPObject;
+
 @protocol TSDSubcommandProvider
+- (TSPObject *)te [waiting for a setQueue to play] - identifier: /* Error: Ran out of types for this method. */;
 @end
 

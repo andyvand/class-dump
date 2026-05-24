@@ -11,16 +11,16 @@
     MLModel *_model;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
+- (id)_wasLaunchedByAuthenticationServices;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)dsForTextRegionBlock;
+- (id);
+- (void)thresholdsForTextRegionBlock;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

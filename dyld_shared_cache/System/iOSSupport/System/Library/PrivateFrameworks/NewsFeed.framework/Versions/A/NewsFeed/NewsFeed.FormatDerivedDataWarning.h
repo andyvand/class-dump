@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatDerivedDataWarning
 {
     id file;
-    id errors;
 }
 
 @end

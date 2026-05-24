@@ -7,30 +7,12 @@
 @interface NewsUI2.FollowingDataManager
 {
     id delegate;
-    id notificationPrompter;
-    id subscriptionService;
-    id tagService;
-    id favoritedShortcutService;
-    id contentShortcutsService;
-    id tagReorderService;
-    id followingBadgingCoordinator;
-    id magazinesBadgingCoordinator;
-    id puzzleBadgingCoordinator;
-    id userNotificationCenter;
-    id purchaseController;
-    id contentShortcutsStorageManager;
-    id familySharingStatusManager;
-    id sportsOnboardingManager;
-    id shortcutsOnboardingManager;
-    id offlineManager;
-    id bundleSubscriptionManager;
-    id contentAvailabilityValidator;
 }
 
-- (void);
-- (void);
+- (void)AccessibilityIdentifiers;
+- (void);
 - (id);
-- (void)verterType;
+- (void)AudioHeadlineConverterType;
 
 @end
 

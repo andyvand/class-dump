@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADDrawable;
-
 __attribute__((visibility("hidden")))
 @interface PDBuild
 {
     _Bool mIsAnimateBackground;
-    OADDrawable *mDrawable;
 }
 
 - (void);

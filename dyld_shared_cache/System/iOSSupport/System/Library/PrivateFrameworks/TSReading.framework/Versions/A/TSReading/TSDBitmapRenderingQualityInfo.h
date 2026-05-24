@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface TSDBitmapRenderingQualityInfo
 {
     int mQuality;
-    float mCanvasScale;
-    NSMutableDictionary *mImageMap;
 }
 
 - (id);

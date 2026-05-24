@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSOperationQueue, NSSet, NSString, NSWorkflowsBar, _NSQuickActionProvider, _NSQuickActionTouchBarPicker;
 @protocol _NSQuickActionTouchBarControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarController
 {
     id <_NSQuickActionTouchBarControllerDelegate> _delegate;
-    NSWorkflowsBar *_workflowsBar;
-    _NSQuickActionTouchBarPicker *_mainPicker;
-    _NSQuickActionTouchBarPicker *_popoverPicker;
-    _NSQuickActionProvider *_provider;
-    NSDictionary *_dataSourcesByQuickActionIdentifier;
-    NSSet *_enabledQuickActionIdentifiers;
-    NSOperationQueue *_backgroundLoadingQueue;
-    void *_observationInfo;
-    _Bool _isObservingWorkflowsBar;
 }
 
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool)J;
++ (_Bool)ClientKeyExchange;
++ (_Bool)nsion;
++ (_Bool)allowOnlyPartitionedCookies;
++ (_Bool)4tJ;
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)ist of power sources;
+- (void)dW6ROVcD3o5ACa4jvALJ6A;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id)isKeyed"b1"_inheritsDecodeTimeBundle"b1"_inheritsDecodeTimePath"b1"_reserved"b29};
 - (void)$I¸I(J4K;
@@ -45,13 +35,6 @@ __attribute__((visibility("hidden")))
 - (void)ed NSCustomImageRep cannot be archived;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) _Bool touchBarIsShowing;
 
 @end

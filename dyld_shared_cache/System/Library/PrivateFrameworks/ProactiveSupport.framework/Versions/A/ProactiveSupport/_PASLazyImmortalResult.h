@@ -12,7 +12,8 @@
 }
 
 - (id);
-- (id);
+- (id)d control setting V3
+;
 - (id);
 - (id);
 

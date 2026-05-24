@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSURL *URL;
 }
 
-- (void)eneEvent;
+- (void)lastWindowSceneEvent;
 
 @end
 

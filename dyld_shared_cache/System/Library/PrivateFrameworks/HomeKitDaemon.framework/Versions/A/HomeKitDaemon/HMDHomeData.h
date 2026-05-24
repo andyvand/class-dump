@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccount, HMDAccountHandle, HMDApplicationData, NSArray, NSString, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeData
 {
     _Bool _accessAllowedWhenLocked;
-    NSArray *_homes;
-    NSArray *_accessories;
-    NSUUID *_primaryHomeUUID;
-    NSUUID *_lastCurrentHomeUUID;
-    long long _dataVersion;
-    long long _schemaVersion;
-    long long _recoveryVersion;
-    NSUUID *_dataTag;
-    NSArray *_UUIDsOfRemovedHomes;
-    NSArray *_cloudZones;
-    NSArray *_incomingInvitations;
-    NSString *_currentDevice;
-    NSArray *_pendingReasonSaved;
-    NSArray *_pendingUserManagementOperations;
-    NSArray *_unprocessedOperationIdentifiers;
-    HMDApplicationData *_applicationData;
-    long long _residentEnabledState;
-    HMDAccount *_account;
-    NSArray *_remoteAccounts;
-    HMDAccountHandle *_primaryAccountHandle;
 }
 
 + (void);
@@ -39,24 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)@"NSMutableDictionary";
+- (id)setTdmUserInfo: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (id)e] Network reachability changed:%{public}@ -> %{public}@, notifying sending observers /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)4B112@116d124@132@140d148d156d164d172d180d188d196d204d212Q220;
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)ToolbarItem",V_zoomControlToolbarItem;
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (void);
@@ -65,14 +45,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)r:(struct _NSZone *)arg1 logEventSubmitter:dailyScheduler: /* Error: Ran out of types for this method. */;
+- (id)initWithEventCountersManager:(struct _NSZone *)arg1 logEventSubmitter:dailyScheduler: /* Error: Ran out of types for this method. */;
 - (id)MDNetworkRouterLANFirewall",&,N,V_type;
 - (void)c}@[Flow:(long long)arg1 %@] Processing attribute report for bleUWBSupportedVersions. Current value bleUWBSupportedVersions:%@, value from attribute report:%@ /* Error: Ran out of types for this method. */;
 - (void)HomeKit | New Bugs *** :(id)arg1 Service ID cannot be null for accessory :%@Assigning a default instance ID :%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)tingConstraint"8;
 - (void)g accessories;
-- (long long)eCapability;
+- (long long)HomeCapability;
 - (void)ª?;
 - (id);
 - (id)çôm@;
@@ -81,27 +61,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *UUIDsOfRemovedHomes; // @synthesize UUIDsOfRemovedHomes=_UUIDsOfRemovedHomes;
-@property(nonatomic) _Bool accessAllowedWhenLocked; // @synthesize accessAllowedWhenLocked=_accessAllowedWhenLocked;
-@property(copy, nonatomic) NSArray *accessories; // @synthesize accessories=_accessories;
-@property(retain, nonatomic) HMDAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) HMDApplicationData *applicationData; // @synthesize applicationData=_applicationData;
-@property(copy, nonatomic) NSArray *cloudZones; // @synthesize cloudZones=_cloudZones;
-@property(copy, nonatomic) NSString *currentDevice; // @synthesize currentDevice=_currentDevice;
-@property(copy, nonatomic) NSUUID *dataTag; // @synthesize dataTag=_dataTag;
-@property(nonatomic) long long dataVersion; // @synthesize dataVersion=_dataVersion;
 @property(copy, nonatomic) NSArray *homes; // @synthesize homes=_homes;
-@property(copy, nonatomic) NSArray *incomingInvitations; // @synthesize incomingInvitations=_incomingInvitations;
-@property(copy, nonatomic) NSUUID *lastCurrentHomeUUID; // @synthesize lastCurrentHomeUUID=_lastCurrentHomeUUID;
-@property(copy, nonatomic) NSArray *pendingReasonSaved; // @synthesize pendingReasonSaved=_pendingReasonSaved;
-@property(copy, nonatomic) NSArray *pendingUserManagementOperations; // @synthesize pendingUserManagementOperations=_pendingUserManagementOperations;
-@property(copy, nonatomic) HMDAccountHandle *primaryAccountHandle; // @synthesize primaryAccountHandle=_primaryAccountHandle;
-@property(copy, nonatomic) NSUUID *primaryHomeUUID; // @synthesize primaryHomeUUID=_primaryHomeUUID;
-@property(nonatomic) long long recoveryVersion; // @synthesize recoveryVersion=_recoveryVersion;
-@property(copy, nonatomic) NSArray *remoteAccounts; // @synthesize remoteAccounts=_remoteAccounts;
-@property(nonatomic) long long residentEnabledState; // @synthesize residentEnabledState=_residentEnabledState;
-@property(nonatomic) long long schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(copy, nonatomic) NSArray *unprocessedOperationIdentifiers; // @synthesize unprocessedOperationIdentifiers=_unprocessedOperationIdentifiers;
 
 @end
 

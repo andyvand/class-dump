@@ -10,12 +10,12 @@
 }
 
 - (unsigned long long);
+- (id)originalAppBundleIdentifier;
+- (id)-protection;
+- (id)getAllDescriptors;
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (unsigned long long);
+- (unsigned int)up;
+- (unsigned long long)opackRepresentation;
 - (id);
 - (void);
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSOnDeviceCachedIrPurgingHandler
@@ -13,25 +13,19 @@
 }
 
 + (id);
+- (void)#k;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void)dioDevice:duckedLevel:rampDuration: /* Error: Ran out of types for this method. */;
+- (void)duckAudioDevice:duckedLevel:rampDuration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

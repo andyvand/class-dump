@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface TBFetchedTile
 {
     unsigned long long _key;
-    NSString *_etag;
-    NSDate *_created;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ntData length %u;
 - (void);
 - (void);
 - (void)
@@ -30,23 +26,7 @@
 - (id),N,V_scanningActiveTime;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *created; // @synthesize created=_created;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N,V_etag
-
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long key; // @synthesize key=_key;
-@property(readonly, nonatomic) unsigned long long networkCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

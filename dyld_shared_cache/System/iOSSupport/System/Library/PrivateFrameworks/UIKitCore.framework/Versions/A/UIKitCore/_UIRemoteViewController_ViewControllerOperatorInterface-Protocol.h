@@ -5,5 +5,33 @@
 //
 
 @protocol _UIRemoteViewController_ViewControllerOperatorInterface
+- (void)So21IMDReparentingMonitorC;
+- (void)vidingP;
+- (void)So30IMDScheduledMessageCoordinatorC;
+- (void)GAC_ACtG;
+- (void);
+- (void)geRecordCG;
+- (void)12IMDaemonCore25ScheduledMessageBlocklistP;
+- (void)SaySo19IMSimulatedNicknameCG;
+- (void)So18IMDIndexingQueries_p;
+- (void)S;
+- (void)So29IMSimulatedEntryConfigurationC;
+- (void)SaySo8CKRecordCG;
+- (void)So15IMDChatRegistryC;
+- (void)So20IMDiagnosticNotifierCSg;
+- (void)j1;
+- (void)So28IMDKeyTransparencyControllerC;
+- (void)So8NSStringCSgSo7IMDChatCSgIeyBya_;
+- (void)So25IMDMutedChatListRebuilderC;
+- (void)So7IMDChatC;
+- (void)t;
+- (void)ributedStringC_QAi1tSg;
+- (void)6G;
+- (void)1;
+- (void)_GG;
+- (void)Si_So18NSAttributedStringCt;
+- (void)gP;
+- (void)So22IMDSpamFilteringHelperC;
+- (void)I;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol CHHapticAdvancedPatternPlayerExtended
+- (float);
 
 // Remaining properties
 @property float volume;

@@ -4,45 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSearchQuery, NSArray, NSError, NSMutableArray, NSMutableDictionary, NSString;
 @protocol ICSearchSuggestionsResponder;
 
 @interface ICSearchQueryOperation
 {
     _Bool _modernResultsOnly;
-    _Bool _performNLSearch;
-    _Bool _allowEmptySearchString;
-    CDUnknownBlockType _foundItemsHandler;
-    NSMutableArray *_results;
-    NSError *_error;
-    long long _requestIndex;
-    NSString *_searchString;
-    NSArray *_searchTokens;
-    id <ICSearchSuggestionsResponder> _searchSuggestionsResponder;
-    ICSearchQuery *_defaultQuery;
-    ICSearchQuery *_fuzzyQuery;
-    ICSearchQuery *_substringQuery;
-    ICSearchQuery *_nlQuery;
-    ICSearchQuery *_spellingQuery;
-    NSMutableArray *_relatedWordQueries;
-    NSMutableDictionary *_resultsDictionary;
-    NSMutableDictionary *_uniqueIdentifiersOfAttachmentsFoundInNotes;
-    NSString *_tokensQueryString;
-    NSString *_keyboardLanguage;
-    unsigned long long _rankingStrategy;
 }
 
 + (id);
 + (void);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void *);
-+ (void);
-+ (id);
++ (id)oduct with no post date (%@);
++ (void *)t (%@);
++ (void)alog"8@"NSError"16;
++ (id)otherButtonIsActionButton;
 + (id);
 + (id);
 + (id);
@@ -50,27 +29,7 @@
 + (void)%@ for subscription %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowEmptySearchString; // @synthesize allowEmptySearchString=_allowEmptySearchString;
-@property(retain, nonatomic) ICSearchQuery *defaultQuery; // @synthesize defaultQuery=_defaultQuery;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) CDUnknownBlockType foundItemsHandler; // @synthesize foundItemsHandler=_foundItemsHandler;
-@property(retain, nonatomic) ICSearchQuery *fuzzyQuery; // @synthesize fuzzyQuery=_fuzzyQuery;
-@property(copy, nonatomic) NSString *keyboardLanguage; // @synthesize keyboardLanguage=_keyboardLanguage;
-@property(nonatomic) _Bool modernResultsOnly; // @synthesize modernResultsOnly=_modernResultsOnly;
-@property(retain, nonatomic) ICSearchQuery *nlQuery; // @synthesize nlQuery=_nlQuery;
-@property(nonatomic) _Bool performNLSearch; // @synthesize performNLSearch=_performNLSearch;
-@property(nonatomic) unsigned long long rankingStrategy; // @synthesize rankingStrategy=_rankingStrategy;
-@property(retain, nonatomic) NSMutableArray *relatedWordQueries; // @synthesize relatedWordQueries=_relatedWordQueries;
-@property(nonatomic) long long requestIndex; // @synthesize requestIndex=_requestIndex;
-@property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(retain, nonatomic) NSMutableDictionary *resultsDictionary; // @synthesize resultsDictionary=_resultsDictionary;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 @property(retain, nonatomic) id <ICSearchSuggestionsResponder> searchSuggestionsResponder; // @synthesize searchSuggestionsResponder=_searchSuggestionsResponder;
-@property(readonly, nonatomic) NSArray *searchTokens; // @synthesize searchTokens=_searchTokens;
-@property(retain, nonatomic) ICSearchQuery *spellingQuery; // @synthesize spellingQuery=_spellingQuery;
-@property(retain, nonatomic) ICSearchQuery *substringQuery; // @synthesize substringQuery=_substringQuery;
-@property(copy, nonatomic) NSString *tokensQueryString; // @synthesize tokensQueryString=_tokensQueryString;
-@property(retain, nonatomic) NSMutableDictionary *uniqueIdentifiersOfAttachmentsFoundInNotes; // @synthesize uniqueIdentifiersOfAttachmentsFoundInNotes=_uniqueIdentifiersOfAttachmentsFoundInNotes;
 
 @end
 

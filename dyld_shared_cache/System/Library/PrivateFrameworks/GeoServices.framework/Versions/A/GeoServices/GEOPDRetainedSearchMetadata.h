@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRetainedSearchMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_query;
-    NSString *_sourceAppId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _source;
-    struct {
-        unsigned int has_source:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_query:1;
-        unsigned int read_sourceAppId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)activationEventNotificationHandler:event:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1"read_buttonTwoAppURI"b1"read_buttonTwoMessage"b1"read_flyoverInfo"b1"read_mapRegion"b1"read_title"b1"read_userMessage"b1"wrote_anyField"b1};
-- (id)ction;
+- (id)_openNavdConnection;
 - (id)¤¯@°È°;
 - (void)Tã¥ÄjG@;
 

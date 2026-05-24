@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSView, RPBroadcastActivityHostRemoteNSViewController, RPRemoteViewContainerWindow, RPRemoteWindowController;
+@class NSMutableDictionary;
 @protocol RPBroadcastActivityViewControllerDelegate;
 
 @interface RPBroadcastActivityViewController
 {
     id <RPBroadcastActivityViewControllerDelegate> _delegate;
-    CDUnknownBlockType _didFinishHandler;
-    NSMutableDictionary *_hostInfo;
-    RPBroadcastActivityHostRemoteNSViewController *_hostViewController;
-    RPRemoteWindowController *_controller;
-    RPRemoteViewContainerWindow *_remoteWindow;
-    double _pickerSourceX;
-    double _pickerSourcey;
 }
 
 + (void);
@@ -38,24 +31,16 @@
 - (struct CGRect);
 - (id);
 - (void);
+- (id)";
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)#;
+- (void)rom %{sensitive, mask.hash}@ failed.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RPRemoteWindowController *controller; // @synthesize controller=_controller;
-@property(nonatomic) __weak id <RPBroadcastActivityViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CDUnknownBlockType didFinishHandler; // @synthesize didFinishHandler=_didFinishHandler;
 @property(retain, nonatomic) NSMutableDictionary *hostInfo; // @synthesize hostInfo=_hostInfo;
-@property(retain, nonatomic) RPBroadcastActivityHostRemoteNSViewController *hostViewController; // @synthesize hostViewController=_hostViewController;
-@property double pickerSourceX; // @synthesize pickerSourceX=_pickerSourceX;
-@property double pickerSourcey; // @synthesize pickerSourcey=_pickerSourcey;
-@property(retain, nonatomic) RPRemoteViewContainerWindow *remoteWindow; // @synthesize remoteWindow=_remoteWindow;
-@property(nonatomic) NSView *view; // @dynamic view;
 
 @end
 

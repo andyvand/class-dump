@@ -6,46 +6,32 @@
 
 #import <AVFCapture/AVCaptureControl.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface AVCaptureToggle : AVCaptureControl
 {
     NSString *_localizedTitle;
-    NSString *_onSymbolName;
-    NSString *_offSymbolName;
-    _Bool _on;
-    NSString *_accessibilityIdentifier;
-    struct os_unfair_lock_s _actionLock;
-    NSObject<OS_dispatch_queue> *_actionQueue;
-    CDUnknownBlockType _action;
 }
 
 + (void)¥âìÃgØ5¿;
+- (void)_outputStream;
+- (id),N;
+- (id)rimaryTextColorLight,V_primaryTextColorLight;
+- (id)objects;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)viceProxy";
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (id)duration range for Cinematic Video (%lld / %d - %lld / %d);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *actionQueue; // @synthesize actionQueue=_actionQueue;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, copy, nonatomic) NSString *offSymbolName; // @synthesize offSymbolName=_offSymbolName;
-@property(nonatomic, getter=isOn) _Bool on; // @synthesize on=_on;
-@property(readonly, copy, nonatomic) NSString *onSymbolName; // @synthesize onSymbolName=_onSymbolName;
 
 @end
 

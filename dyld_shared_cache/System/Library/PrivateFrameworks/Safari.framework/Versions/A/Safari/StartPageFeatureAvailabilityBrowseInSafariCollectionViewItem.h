@@ -4,34 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSGridCell, NSGridView, NSImageView, NSStackView, NSTextField;
+@class NSTextField;
 @protocol StartPageFeatureAvailabilityBrowseInSafariCollectionViewItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface StartPageFeatureAvailabilityBrowseInSafariCollectionViewItem
 {
     id <StartPageFeatureAvailabilityBrowseInSafariCollectionViewItemDelegate> _delegate;
-    NSTextField *_topLeadingTitleLabel;
-    NSTextField *_bottomLeadingTitleLabel;
-    NSTextField *_topTrailingTitleLabel;
-    NSTextField *_bottomTrailingTitleLabel;
-    NSTextField *_topLeadingSubtitleLabel;
-    NSTextField *_bottomLeadingSubtitleLabel;
-    NSTextField *_topTrailingSubtitleLabel;
-    NSTextField *_bottomTrailingSubtitleLabel;
-    NSImageView *_topLeadingIcon;
-    NSImageView *_bottomTrailingIcon;
-    NSImageView *_topTrailingIcon;
-    NSImageView *_bottomLeadingIcon;
-    NSTextField *_descriptionForSetSafariButton;
-    NSGridView *_highlightedFeaturesGridView;
-    NSStackView *_overarchingStackView;
-    NSGridCell *_topLeadingTextCell;
-    NSGridCell *_topTrailingTextCell;
-    NSGridCell *_bottomLeadingTextCell;
-    NSGridCell *_bottomTrailingTextCell;
-    NSButton *_closeButton;
-    NSButton *_makeSafariDefaultBrowserButton;
 }
 
 - (id);
@@ -64,6 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -72,45 +52,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)u;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)@;
+- (void);
+- (void);
+- (id);
+- (void)darwin.errno}d;
 - (void);
 - (void);
 - (void)¨;
 
 // Remaining properties
-@property(nonatomic) __weak NSImageView *bottomLeadingIcon; // @synthesize bottomLeadingIcon=_bottomLeadingIcon;
-@property(nonatomic) __weak NSTextField *bottomLeadingSubtitleLabel; // @synthesize bottomLeadingSubtitleLabel=_bottomLeadingSubtitleLabel;
-@property(nonatomic) __weak NSGridCell *bottomLeadingTextCell; // @synthesize bottomLeadingTextCell=_bottomLeadingTextCell;
-@property(nonatomic) __weak NSTextField *bottomLeadingTitleLabel; // @synthesize bottomLeadingTitleLabel=_bottomLeadingTitleLabel;
-@property(nonatomic) __weak NSImageView *bottomTrailingIcon; // @synthesize bottomTrailingIcon=_bottomTrailingIcon;
-@property(nonatomic) __weak NSTextField *bottomTrailingSubtitleLabel; // @synthesize bottomTrailingSubtitleLabel=_bottomTrailingSubtitleLabel;
-@property(nonatomic) __weak NSGridCell *bottomTrailingTextCell; // @synthesize bottomTrailingTextCell=_bottomTrailingTextCell;
-@property(nonatomic) __weak NSTextField *bottomTrailingTitleLabel; // @synthesize bottomTrailingTitleLabel=_bottomTrailingTitleLabel;
-@property(nonatomic) __weak NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property __weak id <StartPageFeatureAvailabilityBrowseInSafariCollectionViewItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSTextField *descriptionForSetSafariButton; // @synthesize descriptionForSetSafariButton=_descriptionForSetSafariButton;
-@property(nonatomic) __weak NSGridView *highlightedFeaturesGridView; // @synthesize highlightedFeaturesGridView=_highlightedFeaturesGridView;
-@property(nonatomic) __weak NSButton *makeSafariDefaultBrowserButton; // @synthesize makeSafariDefaultBrowserButton=_makeSafariDefaultBrowserButton;
-@property(nonatomic) __weak NSStackView *overarchingStackView; // @synthesize overarchingStackView=_overarchingStackView;
-@property(nonatomic) __weak NSImageView *topLeadingIcon; // @synthesize topLeadingIcon=_topLeadingIcon;
-@property(nonatomic) __weak NSTextField *topLeadingSubtitleLabel; // @synthesize topLeadingSubtitleLabel=_topLeadingSubtitleLabel;
-@property(nonatomic) __weak NSGridCell *topLeadingTextCell; // @synthesize topLeadingTextCell=_topLeadingTextCell;
 @property(nonatomic) __weak NSTextField *topLeadingTitleLabel; // @synthesize topLeadingTitleLabel=_topLeadingTitleLabel;
-@property(nonatomic) __weak NSImageView *topTrailingIcon; // @synthesize topTrailingIcon=_topTrailingIcon;
-@property(nonatomic) __weak NSTextField *topTrailingSubtitleLabel; // @synthesize topTrailingSubtitleLabel=_topTrailingSubtitleLabel;
-@property(nonatomic) __weak NSGridCell *topTrailingTextCell; // @synthesize topTrailingTextCell=_topTrailingTextCell;
-@property(nonatomic) __weak NSTextField *topTrailingTitleLabel; // @synthesize topTrailingTitleLabel=_topTrailingTitleLabel;
 
 @end
 

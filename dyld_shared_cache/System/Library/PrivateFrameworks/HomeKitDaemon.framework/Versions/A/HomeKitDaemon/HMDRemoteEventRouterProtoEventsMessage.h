@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoEventsMessage
 {
     NSMutableArray *_cachedEvents;
-    NSMutableArray *_events;
 }
 
-+ (Class);
-+ (Class);
++ (Class)ingestLoggingConnection;
++ (Class)P;
 - (void);
 - (void);
 - (unsigned long long);
@@ -36,12 +35,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (id)ntSubmitterForTimelineRefresher:(struct _NSZone *)arg1;
+- (id)logEventSubmitterForTimelineRefresher:(struct _NSZone *)arg1;
 - (id);
-- (void)Period;
+- (void)GracePeriod;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cachedEvents; // @synthesize cachedEvents=_cachedEvents;
 @property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
 
 @end

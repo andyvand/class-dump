@@ -11,7 +11,7 @@
     NSUUID *_uuid;
 }
 
-- (_Bool);
+- (_Bool)uartzCore.dylib;
 - (id);
 - (id);
 - (void);

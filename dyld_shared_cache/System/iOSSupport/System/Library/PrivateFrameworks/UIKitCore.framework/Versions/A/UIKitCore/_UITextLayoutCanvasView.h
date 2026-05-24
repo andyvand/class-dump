@@ -6,40 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMapTable, NSMutableSet, NSString, NSTextContainer, NSTextLayoutManager, NSTextParagraphAnchoredAttachment, NSTextViewportLayoutController, _UIAnimatedTextLayoutInfo, _UITextEmphasisBackgroundView, _UITextLayoutCanvasViewHoverEffectContainerLayer;
-@protocol NSCustomTextRendering, UITraitChangeRegistration, _UITextCanvasContext;
+@class NSTextLayoutManager, NSTextViewportLayoutController;
 
 __attribute__((visibility("hidden")))
 @interface _UITextLayoutCanvasView : UIView
 {
     NSTextViewportLayoutController *_viewportLayoutController;
-    NSMutableSet *_viewportElementsToRemove;
-    NSMapTable *_textViewportViews;
-    NSMutableSet *_textAttachmentViews;
-    NSMutableSet *_newTextAttachmentViews;
-    NSMutableSet *_currentClientAuxiliaryViews;
-    NSMutableSet *_oldClientAuxiliaryViews;
-    NSTextParagraphAnchoredAttachment *_incomingAnchoredAttachment;
-    unsigned long long _textContainerIndex;
-    struct CGSize _contentSize;
-    _Bool _inLayout;
-    _UITextLayoutCanvasViewHoverEffectContainerLayer *_hoverEffectsLayer;
-    _Bool _isTextViewScrolling;
-    id <NSCustomTextRendering> _lastCustomRenderController;
-    id <UITraitChangeRegistration> _traitChangeToken;
-    struct {
-        unsigned int customRenderControllerSupportsSetContentsScale:1;
-        unsigned int customRenderControllerSupportsSetNeedsDisplay:1;
-        unsigned int customRenderControllerSupportsInvalidateTemporaryAttributes:1;
-        unsigned int customRenderControllerSupportPrePostNotify:1;
-    } _canvasViewFlags;
-    _Bool _layoutFragmentViewsNeedDisplay;
-    NSTextLayoutManager *_textLayoutManager;
-    id <_UITextCanvasContext> _context;
-    NSTextContainer *_textContainer;
-    UIView *_selectionContainerView;
-    _UITextEmphasisBackgroundView *_textEmphasisBackgroundView;
-    _UIAnimatedTextLayoutInfo *_uniqueWritingToolsAnimatedLayoutInfo;
 }
 
 - (void);
@@ -47,19 +19,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)%ld.%ld;
 - (void);
 - (id);
-- (void);
+- (void)ter";
+- (void)_;
+- (id);
+- (void)(;
 - (void);
 - (void);
 - (_Bool);
@@ -77,17 +49,17 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ð!;
 - (_Bool)ode>"16;
 - (id)textField:(struct CGRect)arg1 willDismissEditMenuWithAnimator:(_Bool)arg2;
-- (void)rlinedRanges: /* Error: Ran out of types for this method. */;
-- (id)ler: /* Error: Ran out of types for this method. */;
-- (void)usItem:(id)arg1;
-- (void)ftConstraint;
-- (void)soryTintColor:(id)arg1;
-- (void)idTransitionMenuForConfiguration:(id)arg1;
+- (void)setUnderlinedRanges: /* Error: Ran out of types for this method. */;
+- (id)setTabBarController: /* Error: Ran out of types for this method. */;
+- (void)removeRingFromFocusItem:(id)arg1;
+- (void)disambiguatingLeftConstraint;
+- (void)_setAccessoryTintColor:(id)arg1;
+- (void)_editMenuPresentation:(id)arg1 didTransitionMenuForConfiguration: /* Error: Ran out of types for this method. */;
 - (void)etPaddingTop:,Vm_paddingTop /* Error: Ran out of types for this method. */;
 - (void)nWidget>",R,N,V_selectionWidget;
-- (void)ate;
+- (void)UIPreviewInteractionControllerDelegate;
 - (id);
-- (void)eftArrow;
+- (void)UIKBKeyInteractionTypeLeftArrow;
 - (void)SgG;
 - (void)UILayoutGuideCSg_B;
 - (void)<=0@®Gáz®÷?ÊÃB­iÞú?;
@@ -102,21 +74,7 @@ __attribute__((visibility("hidden")))
 - (id)^;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UITextCanvasContext> context; // @synthesize context=_context;
-@property(readonly, nonatomic) id <NSCustomTextRendering> customRenderController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool layoutFragmentViewsNeedDisplay; // @synthesize layoutFragmentViewsNeedDisplay=_layoutFragmentViewsNeedDisplay;
-@property(retain, nonatomic) UIView *selectionContainerView; // @synthesize selectionContainerView=_selectionContainerView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTextContainer *textContainer; // @synthesize textContainer=_textContainer;
-@property(readonly, nonatomic) _UITextEmphasisBackgroundView *textEmphasisBackgroundView; // @synthesize textEmphasisBackgroundView=_textEmphasisBackgroundView;
 @property(readonly, nonatomic) NSTextLayoutManager *textLayoutManager; // @synthesize textLayoutManager=_textLayoutManager;
-@property(retain, nonatomic) _UIAnimatedTextLayoutInfo *uniqueWritingToolsAnimatedLayoutInfo; // @synthesize uniqueWritingToolsAnimatedLayoutInfo=_uniqueWritingToolsAnimatedLayoutInfo;
 
 @end
 

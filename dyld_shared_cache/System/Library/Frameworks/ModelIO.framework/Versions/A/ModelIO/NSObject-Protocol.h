@@ -4,18 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)H;
+- (id)Audio.dylib;
+- (id)iftCore.dylib;
+- (id)@;
+- (id)Compression.dylib;
+- (Class)t/libswiftAccelerate.dylib;
+- (unsigned long long);
+- (_Bool)T;
+- (oneway void);
+- (_Bool);
+- (_Bool)a;
 - (struct _NSZone *), UsdTimeCode) const [ScalarType = float];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

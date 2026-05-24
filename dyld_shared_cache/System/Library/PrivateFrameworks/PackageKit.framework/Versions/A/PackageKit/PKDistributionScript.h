@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXMLElement, NSXMLNode;
+@class NSXMLNode;
 
 @interface PKDistributionScript
 {
     NSXMLNode *_node;
-    NSXMLElement *_addToParent;
-    _Bool _useParentAsScriptParent;
 }
 
 - (id);

@@ -7,8 +7,6 @@
 @interface BMResourceSyncPlatformPolicy
 {
     long long _platform;
-    unsigned long long _transportType;
-    unsigned long long _direction;
 }
 
 - (id);
@@ -17,9 +15,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long direction; // @synthesize direction=_direction;
 @property(readonly, nonatomic) long long platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) unsigned long long transportType; // @synthesize transportType=_transportType;
 
 @end
 

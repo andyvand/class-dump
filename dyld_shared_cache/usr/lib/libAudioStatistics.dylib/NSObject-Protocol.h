@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (unsigned long long)cesConfidence;
+- (_Bool);
+- (_Bool);
+- (id)I;
+- (_Bool)@;
+
+@optional
+- (NSString *)@0:8^{__SecPolicy=}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

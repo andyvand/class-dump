@@ -14,7 +14,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)_playingAlertCompletionHandler;
 - (id);
 - (void);
 

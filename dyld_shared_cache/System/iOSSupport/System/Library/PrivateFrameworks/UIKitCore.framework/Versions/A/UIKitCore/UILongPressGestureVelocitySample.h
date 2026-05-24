@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface UILongPressGestureVelocitySample
 {
     struct CGPoint start;
-    struct CGPoint end;
-    double dt;
 }
 
 @end

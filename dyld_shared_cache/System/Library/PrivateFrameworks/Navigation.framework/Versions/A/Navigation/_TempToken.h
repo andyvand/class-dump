@@ -4,30 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOGenericCombinations, NSArray, NSString;
-@protocol GEOServerFormatTokenCountdownValue, GEOServerFormatTokenManeuverValue, GEOServerFormatTokenNumberData, GEOServerFormatTokenPriceValue, GEOServerFormatTokenUrlValue, GEOTransitArtworkDataSource;
-
 __attribute__((visibility("hidden")))
 @interface _TempToken
 {
     _Bool _shouldScaleUnits;
-    unsigned int _value1;
-    unsigned int _value2;
-    float _percentageValue;
-    int _waypointIndex;
-    long long _type;
-    NSString *_token;
-    NSArray *_value3s;
-    NSString *_stringValue;
-    NSString *_accessibilityLabel;
-    id <GEOServerFormatTokenPriceValue> _priceValue;
-    id <GEOTransitArtworkDataSource> _artworkValue;
-    NSArray *_timeStampValues;
-    id <GEOServerFormatTokenCountdownValue> _countdownValue;
-    id <GEOServerFormatTokenUrlValue> _urlValue;
-    id <GEOServerFormatTokenManeuverValue> _maneuverValue;
-    id <GEOServerFormatTokenNumberData> _numberData;
-    GEOGenericCombinations *_genericCombinations;
 }
 
 - (void);
@@ -35,9 +15,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)t0
+;
+- (void)ResolvedUISceneAdaptor;
 - (void);
 - (int);
 - (unsigned int);
@@ -48,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (id);
@@ -57,10 +38,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (void);
+- (void)_enableButton;
 - (id);
 - (void);
 - (id);
@@ -68,34 +49,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)
 × ;
-- (id)evel;
+- (id)preferredGuidanceLevel;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(retain, nonatomic) id <GEOTransitArtworkDataSource> artworkValue; // @synthesize artworkValue=_artworkValue;
-@property(retain, nonatomic) id <GEOServerFormatTokenCountdownValue> countdownValue; // @synthesize countdownValue=_countdownValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOGenericCombinations *genericCombinations; // @synthesize genericCombinations=_genericCombinations;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <GEOServerFormatTokenManeuverValue> maneuverValue; // @synthesize maneuverValue=_maneuverValue;
-@property(retain, nonatomic) id <GEOServerFormatTokenNumberData> numberData; // @synthesize numberData=_numberData;
-@property(nonatomic) float percentageValue; // @synthesize percentageValue=_percentageValue;
-@property(retain, nonatomic) id <GEOServerFormatTokenPriceValue> priceValue; // @synthesize priceValue=_priceValue;
-@property(readonly, nonatomic) _Bool shouldScaleUnits; // @synthesize shouldScaleUnits=_shouldScaleUnits;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *timeStampValues; // @synthesize timeStampValues=_timeStampValues;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) id <GEOServerFormatTokenUrlValue> urlValue; // @synthesize urlValue=_urlValue;
-@property(nonatomic) unsigned int value1; // @synthesize value1=_value1;
-@property(nonatomic) unsigned int value2; // @synthesize value2=_value2;
-@property(retain, nonatomic) NSArray *value3s; // @synthesize value3s=_value3s;
-@property(nonatomic) int waypointIndex; // @synthesize waypointIndex=_waypointIndex;
 
 @end
 

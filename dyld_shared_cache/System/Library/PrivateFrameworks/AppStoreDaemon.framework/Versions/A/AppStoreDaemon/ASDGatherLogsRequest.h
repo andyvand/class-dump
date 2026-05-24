@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDGatherLogsRequestOptions, NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ASDGatherLogsRequest
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSXPCConnection *_connection;
-    ASDGatherLogsRequestOptions *_options;
 }
 
 + (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)MMMobileDocumentsTable;
+- (void);
 
 @end
 

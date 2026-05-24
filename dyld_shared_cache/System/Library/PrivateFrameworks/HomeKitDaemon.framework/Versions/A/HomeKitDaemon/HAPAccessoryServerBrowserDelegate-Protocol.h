@@ -7,6 +7,8 @@
 @class NSUUID;
 
 @protocol HAPAccessoryServerBrowserDelegate
+- (_Bool)performSelector:(long long)arg1 onThread:withObject:waitUntilDone: /* Error: Ran out of types for this method. */;
+- (void)PIParallaxColorParameterStyle;
 - (void);
 - (void)1Â0@ù
 × ;
@@ -15,6 +17,7 @@
 - (void)ications for %@ as we are the primary resident;
 
 @optional
+- (void);
 - (_Bool)response TLV %@ invalid:(NSUUID *)arg1 %@;
 - (void)HMDUserModel"8;
 @end

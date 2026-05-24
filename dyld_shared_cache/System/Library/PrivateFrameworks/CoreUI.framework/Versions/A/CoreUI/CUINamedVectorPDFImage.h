@@ -11,7 +11,8 @@
 }
 
 - (struct CGImage *);
-- (struct CGPDFDocument *);
+- (struct CGPDFDocument *)
+ 0;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPDFDocument *pdfDocument;

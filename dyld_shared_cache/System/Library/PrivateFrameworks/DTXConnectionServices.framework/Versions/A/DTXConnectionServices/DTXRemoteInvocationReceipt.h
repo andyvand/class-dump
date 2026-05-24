@@ -7,12 +7,6 @@
 @interface DTXRemoteInvocationReceipt
 {
     id _returnValue;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _waiterChain;
-    struct os_unfair_lock_s _guard;
-    unsigned int _valueState:2;
-    unsigned int _completionState:2;
-    unsigned int _reserved:28;
 }
 
 - (void);
@@ -20,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rط;
 
 @end
 

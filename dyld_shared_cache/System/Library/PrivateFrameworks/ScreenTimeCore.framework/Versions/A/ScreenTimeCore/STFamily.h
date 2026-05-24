@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, STFamilyMember;
+@class NSArray, NSString;
 
 @interface STFamily
 {
     NSArray *_members;
-    STFamilyMember *_me;
-    NSString *_dataSource;
 }
 
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)ndler:(id)arg1 errorHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id)estMatchingUmanagedRemoteAdults;
-- (void)ionLockC;
+- (id);
+- (id);
+- (void);
+- (id)fetchRequestMatchingUmanagedRemoteAdults;
+- (void)So15NSConditionLockC;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) STFamilyMember *me; // @synthesize me=_me;
-@property(copy, nonatomic) NSArray *members; // @synthesize members=_members;
 
 @end
 

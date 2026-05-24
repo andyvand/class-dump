@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, MapsSuggestionsEntry;
+@class MapsSuggestionsEntry;
 
 @interface MapsSuggestionsRouteGeniusEntry
 {
     MapsSuggestionsEntry *_entry;
-    GEOComposedRoute *_route;
-    long long _entryCount;
-    long long _rankBeforeScoring;
-    long long _routeGeniusScore;
-    long long _rankAfterScoring;
 }
 
 + (id);
@@ -21,17 +16,17 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)qA;
 - (long long);
 - (long long);
 - (id);
 - (double);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)@C;
 - (long long);
 - (void);
 - (id);
@@ -40,11 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MapsSuggestionsEntry *entry; // @synthesize entry=_entry;
-@property(nonatomic) long long entryCount; // @synthesize entryCount=_entryCount;
-@property(nonatomic) long long rankAfterScoring; // @synthesize rankAfterScoring=_rankAfterScoring;
-@property(nonatomic) long long rankBeforeScoring; // @synthesize rankBeforeScoring=_rankBeforeScoring;
-@property(retain, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
-@property(nonatomic) long long routeGeniusScore; // @synthesize routeGeniusScore=_routeGeniusScore;
 
 @end
 

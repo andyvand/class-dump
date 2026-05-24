@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NUPriority, NURenderContext;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface NURenderClient
 {
     _Bool _shouldCoalesceUpdates;
-    NSString *_name;
-    NUPriority *_priority;
-    NSObject<OS_dispatch_queue> *_responseQueue;
-    NURenderContext *_renderContext;
-    CDUnknownBlockType _genericCompletionBlock;
 }
 
 - (void);
@@ -22,16 +16,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)|;
+- (id)0N;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)findPairedPeerDelegateCallback;
 - (id);
 - (void);
 - (void)!hAùâð1Â0@ù
@@ -39,12 +33,7 @@
 - (id)L;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType genericCompletionBlock; // @synthesize genericCompletionBlock=_genericCompletionBlock;
 @property(copy) NSString *name; // @synthesize name=_name;
-@property(retain) NUPriority *priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NURenderContext *renderContext; // @synthesize renderContext=_renderContext;
-@property(readonly) NSObject<OS_dispatch_queue> *responseQueue; // @synthesize responseQueue=_responseQueue;
-@property(nonatomic) _Bool shouldCoalesceUpdates; // @synthesize shouldCoalesceUpdates=_shouldCoalesceUpdates;
 
 @end
 

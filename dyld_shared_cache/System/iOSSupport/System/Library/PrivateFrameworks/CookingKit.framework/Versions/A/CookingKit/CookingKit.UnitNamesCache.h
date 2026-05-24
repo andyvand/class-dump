@@ -7,6 +7,7 @@
 @interface CookingKit.UnitNamesCache
 {
     id lock;
+    id;
 }
 
 @end

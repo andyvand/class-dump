@@ -5,5 +5,7 @@
 //
 
 @protocol CKDetailsGroupNameCellDelegate
+- (void)tesWithCoalescingAndDelay;
+- (void);
 @end
 

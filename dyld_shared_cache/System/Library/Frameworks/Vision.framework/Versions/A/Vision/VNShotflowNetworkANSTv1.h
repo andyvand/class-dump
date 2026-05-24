@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (id);
-+ (tuple_8dc74180);
++ (tuple_8dc74180);
 + (_Bool);
 + (const void *);
 + (_Bool);

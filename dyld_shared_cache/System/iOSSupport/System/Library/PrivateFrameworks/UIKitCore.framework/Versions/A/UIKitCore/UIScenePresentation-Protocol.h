@@ -9,7 +9,7 @@
 
 @protocol UIScenePresentation
 - (UIView *)@"RTISupplementalItemIcon"16@?0Q8;
-- (id <UIScenePresenter>)e;
+- (id <UIScenePresenter>)_UIFocusGesturePageButtonName;
 - (void)Q!13Ì0;
 
 // Remaining properties

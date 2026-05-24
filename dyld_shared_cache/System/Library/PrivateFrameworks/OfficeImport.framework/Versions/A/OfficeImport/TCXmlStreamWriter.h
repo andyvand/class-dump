@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, TCXmlTextWriterProvider;
+@class TCXmlTextWriterProvider;
 
 __attribute__((visibility("hidden")))
 @interface TCXmlStreamWriter
 {
     TCXmlTextWriterProvider *mTextWriterProvider;
-    unsigned int mCurrentDepth;
-    _Bool mContentAddedToTopElement;
-    NSMutableSet *mAddedIds;
 }
 
++ (_Bool)";
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id)C;
 + (_Bool);
 + (_Bool);
 + (void);
@@ -31,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void)l format string while creating a custom format!;

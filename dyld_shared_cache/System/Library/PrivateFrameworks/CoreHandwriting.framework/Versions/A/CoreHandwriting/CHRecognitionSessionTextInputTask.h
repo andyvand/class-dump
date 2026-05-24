@@ -6,19 +6,18 @@
 
 #import <CoreHandwriting/CHRecognitionSessionTask.h>
 
-@class CHTextInputQuery, NSArray;
+@class NSArray;
 @protocol CHRecognitionSessionTextInputTaskDelegate;
 
 @interface CHRecognitionSessionTextInputTask : CHRecognitionSessionTask
 {
     NSArray *_initialTextInputTargets;
-    CHTextInputQuery *_activeTextInputQuery;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,9 +29,7 @@
 - (void)è;
 
 // Remaining properties
-@property(retain, nonatomic) CHTextInputQuery *activeTextInputQuery; // @synthesize activeTextInputQuery=_activeTextInputQuery;
 @property(nonatomic) id <CHRecognitionSessionTextInputTaskDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) NSArray *initialTextInputTargets; // @synthesize initialTextInputTargets=_initialTextInputTargets;
 
 @end
 

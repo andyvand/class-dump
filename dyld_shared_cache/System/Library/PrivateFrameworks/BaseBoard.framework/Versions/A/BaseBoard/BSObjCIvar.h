@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSObjCValue, NSArray, NSString;
-
 @interface BSObjCIvar
 {
     struct objc_ivar *_ivar;
-    NSString *_name;
-    BSObjCValue *_value;
-    long long _offset;
-    NSArray *_alternateNames;
 }
 
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)G;
 
 @end
 

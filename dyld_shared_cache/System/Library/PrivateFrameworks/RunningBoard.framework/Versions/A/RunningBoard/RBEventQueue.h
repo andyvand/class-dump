@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, RBEventQueueEvent;
-@protocol OS_dispatch_queue, RBTimeProviding, RBTimeProvidingEvent;
+@class NSArray, NSMutableArray;
 
 @interface RBEventQueue
 {
     NSMutableArray *_eventQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <RBTimeProviding> _timeProvider;
-    double _nextFireTime;
-    id <RBTimeProvidingEvent> _pendingEvent;
-    _Bool _isProcessingEvents;
-    _Bool _inModifyBlock;
-    _Bool _dirtyDuringModify;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)GfVec2f>:(CDUnknownBlockType)arg1:_DetachIfNotUnique() [T = pxrInternal__aapl__pxrReserved__::GfVec2f] /* Error: Ran out of types for this method. */;
+- (id)e>",R,N,V_waitForGlassWalltimeInterval;
+- (void)SEARCH_RESULTS_SHOW_MORE_BUTTON_TITLE;
 - (id);
 - (id);
 - (id);
@@ -32,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSArray *events; // @synthesize events=_eventQueue;
-@property(readonly, nonatomic) RBEventQueueEvent *nextEvent;
 
 @end
 

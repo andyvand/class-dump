@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface EKAvailabilityCache
 {
     _Bool _sourceIsInvalid;
-    NSString *_accountID;
-    _Bool _sourceSupportsAvailabilityRequests;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_addressesToCachedSpanRanges;
-    NSMutableDictionary *_ignoredEventIDsToAddressBasedCaches;
-    unsigned long long _nextRequestID;
-    unsigned long long _cancelledID;
 }
 
-+ (void);
-+ (_Bool);
-+ (id);
-+ (long long);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
++ (void)@ (%lf seconds ago)
+   lastErrorDate=      %@ (%lf seconds ago)
+   lastError=          %@
+   impl=               %@
+   response=           %@
+}>
+;
++ (_Bool)[MRNowPlayingPlayerResponse deviceLastPlayingDate];
++ (id)ce(CFStringRef);
++ (long long)t.createEndpointWithOutputDeviceUIDs;
+- (id)ntroller] %@ NotifyError %@ %@;
+- (void)o:(id)arg1 %@;
+- (id)ffle mode changes;
+- (_Bool)ForGroup:(id)arg1 Found acceptable leader;
+- (void)uestGetIncludeInfo(MRPlaybackQueueRequestRef);
+- (id)!= self->_data;
+- (id)o obtain dimensions.;
+- (void)RPlayerPath"8@"MRPlayerPath"16@"NSError"24;
 - (id);
 - (id);
 - (void)
 × ;
-- (id)tactsWithFetchRequest:(id)arg1 error:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)enumerateContactsWithFetchRequest:(id)arg1 error:usingBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

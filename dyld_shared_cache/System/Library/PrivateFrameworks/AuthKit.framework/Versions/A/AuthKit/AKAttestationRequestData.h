@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKClient, NSData, NSDictionary, NSURL;
+@class AKClient;
 
 @interface AKAttestationRequestData
 {
     _Bool _provisionAnisetteIfNeeded;
-    NSURL *_requestURL;
-    NSData *_signingDataHash;
-    NSDictionary *_headers;
-    AKClient *_client;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)!!  (H;
 - (id);
 - (id);
 - (id);
@@ -29,16 +25,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void)Ôtà;
 
 // Remaining properties
 @property(retain, nonatomic) AKClient *client; // @synthesize client=_client;
-@property(readonly, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
-@property(nonatomic) _Bool provisionAnisetteIfNeeded; // @synthesize provisionAnisetteIfNeeded=_provisionAnisetteIfNeeded;
-@property(readonly, nonatomic) NSURL *requestURL; // @synthesize requestURL=_requestURL;
-@property(readonly, nonatomic) NSData *signingDataHash; // @synthesize signingDataHash=_signingDataHash;
 
 @end
 

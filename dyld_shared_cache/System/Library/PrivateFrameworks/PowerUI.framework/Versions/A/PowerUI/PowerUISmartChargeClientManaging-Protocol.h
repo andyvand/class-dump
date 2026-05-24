@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDate, NSDictionary, NSNumber;
+
 @protocol PowerUISmartChargeClientManaging
+- (_Bool);
+- (NSNumber *);
+- (void)H;
+- (_Bool)˟;
+- (void)R;
+- (NSDate *)h;
+- (id);
+- (void)ll be added.;
+- (NSDictionary *);
+- (void)|;
+- (void)";
 @end
 

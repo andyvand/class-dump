@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RBSProcessExitStatus
 {
     unsigned int _domain;
-    unsigned long long _code;
 }
 
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)*;
 - (id);
 - (unsigned long long);
 - (id);
@@ -31,20 +28,12 @@
 - (id);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long code; // @synthesize code=_code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned int domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

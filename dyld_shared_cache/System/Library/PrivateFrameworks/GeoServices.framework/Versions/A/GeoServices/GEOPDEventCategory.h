@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDEventCategory
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_localizedCategorys;
-    int _eventLookupCategory;
-    struct {
-        unsigned int has_eventLookupCategory:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ploreGuidesMetadata"b1"wrote_anyField"b1};
-- (id)elegate;
+- (id)_delegate;
 - (id)äpì;
 - (void);
 

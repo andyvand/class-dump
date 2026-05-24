@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface VGDenylistEntry
 {
     NSNumber *_modelId;
-    NSArray *_firmwareIds;
-    NSArray *_years;
-    NSArray *_models;
 }
 
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (id);
 - (_Bool);

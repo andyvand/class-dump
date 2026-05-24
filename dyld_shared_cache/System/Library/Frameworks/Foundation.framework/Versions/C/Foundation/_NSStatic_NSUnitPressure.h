@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)A%;
+- (void);
 - (oneway void);
 - (Class);
 - (Class);

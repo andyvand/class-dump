@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (long long);
-- (id);
+- (id)processConversionOptionKey:(id)arg1 valueString: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

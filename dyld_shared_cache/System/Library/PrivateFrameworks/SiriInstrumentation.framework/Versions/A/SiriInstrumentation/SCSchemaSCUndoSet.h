@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SCSchemaSCSetUndoArgs;
+@class SCSchemaSCSetUndoArgs;
 
 @interface SCSchemaSCUndoSet : SISchemaInstrumentationMessage
 {
     SCSchemaSCSetUndoArgs *_setUndoArgs;
-    _Bool _hasSetUndoArgs;
 }
 
 - (id);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)llation request for %lu app(s) failed with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END;
 - (id);
-- (id);
-- (id)cutorAppIntentSegments;
+- (id);
+- (id)clearExecutorAppIntentSegments;
 - (id)ate;
-- (void)equestedApp;
+- (void)isRequestedApp;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSetUndoArgs; // @synthesize hasSetUndoArgs=_hasSetUndoArgs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SCSchemaSCSetUndoArgs *setUndoArgs; // @synthesize setUndoArgs=_setUndoArgs;
 
 @end

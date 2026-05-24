@@ -6,44 +6,29 @@
 
 #import <UIKitCore/UIKeyboardSplitTransitionView.h>
 
-@class CALayer, NSMutableDictionary, UIKBCacheToken;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardFlipTransitionView : UIKeyboardSplitTransitionView
 {
     CALayer *_container;
-    CALayer *_frontFace;
-    CALayer *_backFace;
-    CALayer *_frontDarkening;
-    CALayer *_backDarkening;
-    CALayer *_backDarkeningLeft;
-    CALayer *_backDarkeningRight;
-    _Bool _showingFrontFace;
-    UIKBCacheToken *_startKeyplaneToken;
-    UIKBCacheToken *_endKeyplaneToken;
-    NSMutableDictionary *_controlKeys;
-    struct {
-        unsigned int shiftKeys:1;
-        unsigned int returnKeys:1;
-        unsigned int moreIntlKeys:1;
-    } _rebuildFlags;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)1;
 - (struct CGImage *);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGImage *);
+- (void)ionController | Expected to blocklist chat for chatDict:(id)arg1 %@ but groupID nil;
+- (void)@ on services:%@ /* Error: Ran out of types for this method. */;
+- (void)%ld;
+- (void)to mismatching participants chat %ld received %ld;
+- (void)names;
+- (void)data %@;
+- (void)not find any chats for chat metadata %@;
+- (void)RelayDeletionController | Recovery:did not find any chats for chat metadata %@ /* Error: Ran out of types for this method. */;
+- (_Bool)all unknown senders.;
+- (struct CGImage *)/FamilyCircle.framework/Contents/MacOS/FamilyCircle;
 - (void);
 - (void);
 - (void);

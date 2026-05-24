@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField, NSViewController, NSWindow;
+@class NSWindow;
 
 @interface PKWindowController
 {
     NSWindow *_clientWindow;
-    NSWindow *_backgroundMaskWindow;
-    NSWindow *_passChildWindow;
-    _Bool _clientWindowIsResizable;
-    _Bool _active;
-    _Bool _attachedToParentWindow;
-    _Bool _hasFocus;
-    struct CGRect _serviceWindowFrameBeforeAnimation;
-    struct CGRect _serviceWindowFrameAfterAnimation;
-    NSTextField *_titleTextField;
-    NSTextField *_moreInfoTextField;
-    NSButton *_cancelButton;
-    NSButton *_addToPassbookButton;
-    double _slideUpYDelta;
-    _Bool _attachToHostWindow;
-    NSViewController *_childViewController;
-    NSButton *_closeButton;
-    long long _openAnimationStyle;
-    long long _closeAnimationStyle;
-    struct CGRect _positionRelativeToRect;
 }
 
 - (void);
@@ -47,7 +28,7 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)˿;
 - (_Bool);
 - (struct CGSize);
 - (_Bool);
@@ -66,23 +47,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)l;
+- (void);
+- (_Bool)o;
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGSize);
+- (struct CGSize)setAccessibilityRole: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property _Bool attachToHostWindow; // @synthesize attachToHostWindow=_attachToHostWindow;
-@property(readonly) NSViewController *childViewController; // @synthesize childViewController=_childViewController;
-@property(retain) NSWindow *clientWindow; // @synthesize clientWindow=_clientWindow;
-@property long long closeAnimationStyle; // @synthesize closeAnimationStyle=_closeAnimationStyle;
-@property(readonly) NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property long long openAnimationStyle; // @synthesize openAnimationStyle=_openAnimationStyle;
-@property struct CGRect positionRelativeToRect; // @synthesize positionRelativeToRect=_positionRelativeToRect;
 
 @end
 

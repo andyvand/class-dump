@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void)_UIDataSourceSnapshotTranslating>"16@0:(id)arg1 8;
-- (id)ame: /* Error: Ran out of types for this method. */;
+- (id)addKeyWithString:frame: /* Error: Ran out of types for this method. */;
 - (void)-[NSUIImageAssetImage initWithCoder:(id)arg1 ] is unavailable.;
 - (void);
 - (id);

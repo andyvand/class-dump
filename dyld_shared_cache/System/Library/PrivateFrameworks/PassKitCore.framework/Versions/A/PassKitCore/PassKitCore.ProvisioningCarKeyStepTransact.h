@@ -7,12 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepTransact
 {
     id context;
-    id credential;
-    id sharedState;
-    id commonCompletion;
-    id sessionHandle;
-    id session;
-    id timeout;
 }
 
 - (void);

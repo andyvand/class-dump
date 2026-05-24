@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPCollectionStorage
 {
     PBUnknownFields *_unknownFields;
-    NSString *_collectionDescription;
-    NSData *_image;
-    NSString *_imageURL;
-    NSData *_itemData;
-    NSString *_title;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -31,30 +26,20 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool)Contents:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *collectionDescription; // @synthesize collectionDescription=_collectionDescription;
-@property(readonly, nonatomic) _Bool hasCollectionDescription;
-@property(readonly, nonatomic) _Bool hasImage;
-@property(readonly, nonatomic) _Bool hasImageURL;
-@property(readonly, nonatomic) _Bool hasItemData;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) NSData *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *imageURL; // @synthesize imageURL=_imageURL;
-@property(retain, nonatomic) NSData *itemData; // @synthesize itemData=_itemData;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

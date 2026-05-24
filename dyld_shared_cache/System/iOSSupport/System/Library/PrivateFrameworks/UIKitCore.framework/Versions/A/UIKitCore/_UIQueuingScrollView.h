@@ -6,34 +6,13 @@
 
 #import <UIKitCore/UIScrollView.h>
 
-@class NSArray, NSMutableArray, UIView;
-@protocol _UIQueuingScrollViewDataSource, _UIQueuingScrollViewDelegate;
+@class UIView;
+@protocol _UIQueuingScrollViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIQueuingScrollView : UIScrollView
 {
     id <_UIQueuingScrollViewDelegate> _qDelegate;
-    id <_UIQueuingScrollViewDataSource> _qDataSource;
-    long long _navigationOrientation;
-    NSArray *_views;
-    NSArray *_wrapperViews;
-    UIView *_pendingVisibleView;
-    double _pageSpacing;
-    NSMutableArray *_viewStateQueue;
-    NSMutableArray *_completionStateQueue;
-    _Bool _manualScrollInProgress;
-    struct {
-        unsigned int delegateInterestedInPendingScrolls:1;
-        unsigned int delegateInterestedInCommittedScrolls:1;
-        unsigned int delegateInterestedInCompletedScrolls:1;
-        unsigned int delegateInterestedInBailedOutScrolls:1;
-        unsigned int delegateInterestedFinishedScrolling:1;
-        unsigned int delegateCanVetoSubviewLayout:1;
-        unsigned int dataSourceSuppliesBeforeView:1;
-        unsigned int dataSourceSuppliesAfterView:1;
-        unsigned int dataSourceInterestedInFlushedViews:1;
-    } _delegateFlags;
-    struct CGRect _disabledScrollingRegion;
 }
 
 - (void);
@@ -44,16 +23,16 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (_Bool);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)64B72B76@"NSNumber"80;
+- (struct CGRect)setNetworkDataAvailable: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:remoteMembersChangedForConversation: /* Error: Ran out of types for this method. */;
+- (id)connection:(id)arg1 didChangeConnectedStatus: /* Error: Ran out of types for this method. */;
+- (id)connection:(_Bool)arg1 channelSubscriptionsFailedWithFailures:(id)arg2;
+- (id)connectingAccounts;
+- (void),V_availabilityOffGridRecipientEncryptionValidationToken;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)hX;
 - (id);
 - (void);
 - (void);
@@ -68,38 +47,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)%s;
+- (void)%s;
+- (void)uldn't upgrade 1:(_Bool)arg1 1 chat to Group chat for conversation %@;
+- (void)tamp %lld, server record last read timestamp %@;
+- (void)! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@;
+- (void)sset to disk because of nil path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@;
+- (void)il path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@;
+- (id)setting value Key %@ value %@;
+- (_Bool)rror creating update zone %@;
+- (void)gged isSOS, discarding incoming message; existingMessage:(id)arg1 %@;
+- (void)%@ lastAddressedHandle %@ lastAddressedSIMID %@;
+- (void)coverableMessageSyncController | Recently Deleted:(struct CGSize)arg1 returning nil record. recordID nil for metadata:%@ /* Error: Ran out of types for this method. */;
+- (void)at:%@  to account:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)lculateUnreadCount %{BOOL}d;
+- (id)d getting recover junk command blastdoor object from result:(id)arg1 <%@ %p>, ;
+- (void)error back from CloudKit trying to fetch recordID:(id)arg1 %@ with error:%@ transfer:%@ /* Error: Ran out of types for this method. */;
+- (void)fully fetched and validated that we can delete the transfer with guid:(double)arg1 %@;
 - (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void)y:(struct CGRect)arg1;
-- (void)nteraction;
-- (void)hot;
-- (void)eetLayoutInfo;
+- (void)decodeObjectOfClass:(struct CGRect)arg1 forKey:(_Bool)arg2;
+- (void)_tooltipInteraction;
+- (void)_updatedTabsDuringApplySnapshot;
+- (void)SheetLayoutInfo;
 
 // Remaining properties
-@property(nonatomic) struct CGRect disabledScrollingRegion; // @synthesize disabledScrollingRegion=_disabledScrollingRegion;
-@property(nonatomic) double pageSpacing; // @synthesize pageSpacing=_pageSpacing;
-@property(nonatomic) __weak id <_UIQueuingScrollViewDataSource> qDataSource; // @synthesize qDataSource=_qDataSource;
-@property(nonatomic) __weak id <_UIQueuingScrollViewDelegate> qDelegate; // @synthesize qDelegate=_qDelegate;
 @property(readonly, nonatomic) UIView *visibleView;
 
 @end

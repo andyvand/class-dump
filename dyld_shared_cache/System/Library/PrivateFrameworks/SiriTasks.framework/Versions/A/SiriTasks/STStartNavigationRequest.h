@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, STSiriLocation;
+@class STSiriLocation;
 
 @interface STStartNavigationRequest
 {
     STSiriLocation *_startLocation;
-    STSiriLocation *_destinationLocation;
-    long long _directionsType;
-    NSDate *_arrivalDate;
-    NSDate *_departureDate;
-    NSString *_extSessionGuid;
-    NSDate *_extSessionGuidCreatedTimestamp;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long);
 - (id);
 - (id);
 - (id);

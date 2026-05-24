@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface CTLazuliSuggestedActionOpenUrlInWebView
 {
     long long _mode;
-    NSURL *_url;
-    NSString *_parameters;
 }
 
-+ (_Bool);
++ (_Bool)mediaResourceRequestCount:%ld bytesDownloadedCount:%ld downloadDuration:%f variants:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (long long);
@@ -22,18 +18,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)authenticateUser:(id)arg1 domain:targetDisk:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)assetReaderOutputAnnotationAdaptorWithAssetReaderTrackOutput: /* Error: Ran out of types for this method. */;
 - (void)&°!8Cùª)1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) NSString *parameters; // @synthesize parameters=_parameters;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

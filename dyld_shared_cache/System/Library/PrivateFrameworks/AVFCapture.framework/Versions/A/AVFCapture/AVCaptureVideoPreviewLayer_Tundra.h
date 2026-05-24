@@ -4,55 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureConnection_Tundra, AVCaptureSession_Tundra, AVCaptureVideoPreviewLayerInternal_Tundra, NSString;
+@class AVCaptureSession_Tundra, AVCaptureVideoPreviewLayerInternal_Tundra;
 
 @interface AVCaptureVideoPreviewLayer_Tundra
 {
     AVCaptureVideoPreviewLayerInternal_Tundra *_internal;
-    _Bool _orientationSupported;
-    _Bool _mirroringSupported;
-    _Bool _automaticallyAdjustsMirroring;
-    _Bool _mirrored;
-    _Bool _deferredStartSupported;
-    _Bool _deferredStartEnabled;
-    long long _orientation;
 }
 
 + (id);
 + (id);
 + (void)9ÖÅm4Ó¿;
+- (id)msv_reduceIntoBool:(id)arg1 enumeratedBy: /* Error: Ran out of types for this method. */;
+- (int)msv_prefixUpToIndex:(id)arg1;
+- (_Bool)longLongValue;
+- (_Bool)localeWithLocaleIdentifier:(id)arg1;
+- (_Bool)linesAreSortedByStartTime;
+- (_Bool)letterCharacterSet;
+- (_Bool)lastSection;
+- (id)isBackgroundVocal;
+- (_Bool)initWithListenerEndpoint:(id)arg1;
+- (_Bool)enumerateDestinationsUsingBlock:(_Bool)arg1;
+- (_Bool)_writeSource;
+- (void)_terminateWithError:(id)arg1;
+- (void)_startArray;
+- (void)_locked_acquireAssertion;
+- (_Bool)_encodeString:(id)arg1;
+- (void)efinition>",R,N,V_framerDefinition;
+- (void);
+- (long long)E;
+- (_Bool)2;
+- (long long)%;
+- (unsigned int)H;
+- (int)4;
+- (_Bool)_zstreamp;
+- (_Bool)cess assertion [database transaction] assertion=%{public}@;
+- (id)ataIntoFileHandle failed with exception %{public}@;
+- (void)raceID:(id)arg1 %{public}@;
 - (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)32@40B48@?52;
+- (_Bool)ar.";
+- (id)c;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (long long);
-- (unsigned int);
-- (int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)nable to copy non-email snippets during content migration;
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -62,42 +55,32 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint)B8!A;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)OIHeatMap;
+- (id),;
 - (struct CGPoint);
 - (void);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
+- (void)MRCDecoderOptionMaximum1DSymbologyDecodingScanlineCount;
+- (void)bmmmEEE;
 - (id);
-- (id)erenceDelegate;
-- (id)deRingBufferFull;
+- (id)weakReferenceDelegate;
+- (id)_isTimecodeRingBufferFull;
 - (void)o include depth data;
-- (id)egmentationMatteTypeSkin;
+- (id)AVSemanticSegmentationMatteTypeSkin;
 - (void)phConnectNodeInput for video input sync to fan-out;
 - (id)ÿbí;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyAdjustsMirroring; // @synthesize automaticallyAdjustsMirroring=_automaticallyAdjustsMirroring;
-@property(readonly, nonatomic) AVCaptureConnection_Tundra *connection;
-@property(nonatomic, getter=isDeferredStartEnabled) _Bool deferredStartEnabled; // @synthesize deferredStartEnabled=_deferredStartEnabled;
-@property(readonly, nonatomic, getter=isDeferredStartSupported) _Bool deferredStartSupported; // @synthesize deferredStartSupported=_deferredStartSupported;
-@property(nonatomic, getter=isMirrored) _Bool mirrored; // @synthesize mirrored=_mirrored;
-@property(readonly, nonatomic, getter=isMirroringSupported) _Bool mirroringSupported; // @synthesize mirroringSupported=_mirroringSupported;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic, getter=isOrientationSupported) _Bool orientationSupported; // @synthesize orientationSupported=_orientationSupported;
-@property(readonly, nonatomic, getter=isPreviewing) _Bool previewing;
 @property(retain, nonatomic) AVCaptureSession_Tundra *session;
-@property(copy) NSString *videoGravity;
 
 @end
 

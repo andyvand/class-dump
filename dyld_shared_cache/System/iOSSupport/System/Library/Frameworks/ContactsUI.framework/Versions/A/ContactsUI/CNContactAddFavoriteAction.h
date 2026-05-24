@@ -6,14 +6,12 @@
 
 #import <ContactsUI/CNPropertyAction.h>
 
-@class CNFavorites, CNUIFavoritesEntryPicker, CNUIUserActionListDataSource, NSString;
+@class CNUIFavoritesEntryPicker, CNUIUserActionListDataSource;
 
 __attribute__((visibility("hidden")))
 @interface CNContactAddFavoriteAction : CNPropertyAction
 {
     CNUIUserActionListDataSource *_actionsDataSource;
-    CNUIFavoritesEntryPicker *_favoritesEntryPicker;
-    CNFavorites *_favorites;
 }
 
 - (void);
@@ -29,19 +27,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)ctionGroupItem;
+- (void)actionGroupItem;
 
 // Remaining properties
-@property(readonly, nonatomic) CNUIUserActionListDataSource *actionsDataSource; // @synthesize actionsDataSource=_actionsDataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNFavorites *favorites; // @synthesize favorites=_favorites;
 @property(retain, nonatomic) CNUIFavoritesEntryPicker *favoritesEntryPicker; // @synthesize favoritesEntryPicker=_favoritesEntryPicker;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

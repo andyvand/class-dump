@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *queues;
 }
 
-- (id);
+- (id)Will fire external post-checkin block, checkin is not in progress;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (int);
 - (void);
 - (_Bool);
-- (void);
+- (void)_evaluateImageWithFilterDefinitions:(id)arg1 inputImage: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

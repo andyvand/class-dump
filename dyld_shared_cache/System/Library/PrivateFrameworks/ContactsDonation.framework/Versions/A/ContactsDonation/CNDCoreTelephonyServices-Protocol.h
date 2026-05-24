@@ -5,5 +5,6 @@
 //
 
 @protocol CNDCoreTelephonyServices
+- (void)_warmupPersistentFactorLevelCache;
 @end
 

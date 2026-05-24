@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOComposedEnrouteNotice.h>
 
-@class GEOTrafficCamera, NSString;
+@class GEOTrafficCamera;
 
 @interface GEOComposedTrafficCamera : GEOComposedEnrouteNotice
 {
@@ -16,31 +16,22 @@
 + (_Bool)remove old swap path "%@" - %@;
 - (double);
 - (id);
-- (id);
+- (id)initWithAccounts:(id)arg1;
+- (unsigned int)addIndexes: /* Error: Ran out of types for this method. */;
+- (_Bool)_address;
+- (_Bool)_activityTypes;
+- (_Bool);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
 - (id);
 - (id);
-- (int);
+- (int)_setRotationRadians:withAnimation: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (unsigned int)RD;
+- (unsigned int)RECOMMENDATION_CARD;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int cameraPriority;
-@property(readonly, nonatomic) unsigned int countryCode;
-@property(readonly, nonatomic) _Bool hasCameraPriority;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(readonly, nonatomic) _Bool hasSpeedLimitText;
-@property(readonly, nonatomic) _Bool hasSpeedThreshold;
-@property(readonly, nonatomic) unsigned int highlightDistance;
-@property(readonly, nonatomic) NSString *speedLimitText;
-@property(readonly, nonatomic) double speedThreshold;
 @property(readonly, nonatomic) int type;
 
 @end

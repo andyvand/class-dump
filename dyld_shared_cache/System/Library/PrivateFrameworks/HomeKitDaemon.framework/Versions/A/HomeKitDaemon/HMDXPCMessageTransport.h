@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDProcessMonitor, HMXPCMessageTransportConfiguration, NSArray, NSDictionary, NSMutableSet, NSObject, NSString, NSXPCInterface;
-@protocol HMDAppProtectionGuard, HMDXPCListener, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDXPCMessageTransport
 {
     struct os_unfair_lock_s _lock;
-    HMDProcessMonitor *_processMonitor;
-    HMXPCMessageTransportConfiguration *_configuration;
-    id <HMDXPCListener> _listener;
-    id <HMDAppProtectionGuard> _appProtectionGuard;
-    NSMutableSet *_mutableConnections;
-    NSXPCInterface *_exportedInterface;
-    NSXPCInterface *_remoteObjectInterface;
-    CDUnknownBlockType _clientConnectionFactory;
 }
 
-+ (id);
++ (id)ab;
 + (id)ble",R,V_subscribedClientConnections;
 + (id)8B;
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)ryDirectory.nEUAsL/Sources/ScreenSharing/common/RDSemaphore.c;
+- (CDUnknownBlockType)1;
 - (id);
 - (void);
-- (void);
+- (void)12CGrNavigator;
 - (void);
 - (id);
 - (void);
@@ -38,27 +27,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1Â0@ù
 × ;
-- (_Bool)UIDString;
+- (_Bool)_mediaSystemUUIDString;
 - (id)ledEndTime;
 - (id)vice setup required;
 - (void));
-- (void)nControllerDevice;
+- (void)isTriggeredOnControllerDevice;
 - (id)nfigureDevice];
 - (id)reUpdate];
 
 // Remaining properties
 @property(copy) CDUnknownBlockType clientConnectionFactory; // @synthesize clientConnectionFactory=_clientConnectionFactory;
-@property(readonly, copy) NSArray *connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDProcessMonitor *processMonitor; // @synthesize processMonitor=_processMonitor;
-@property(readonly) NSObject<OS_dispatch_queue> *queue;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) Class superclass;
 
 @end
 

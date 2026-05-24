@@ -7,11 +7,9 @@
 @interface PassKitCore.ProvisioningStepSetupAccount
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
-- (id);
+- (id)k;
 - (void)ìîÿÍL@ò{ÿÍL4Óÿ;
 
 @end

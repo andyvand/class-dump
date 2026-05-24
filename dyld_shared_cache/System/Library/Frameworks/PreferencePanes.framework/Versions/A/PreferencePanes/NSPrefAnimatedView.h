@@ -7,8 +7,6 @@
 @interface NSPrefAnimatedView
 {
     double mPercent;
-    unsigned long long mAnimationEffect;
-    struct CGImage *mSourceImage;
 }
 
 + (struct CGImage *);
@@ -20,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ountSnapshot version;
 - (id);
 
 @end

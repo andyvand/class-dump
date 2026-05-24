@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, SECSFAVersion;
-@protocol OS_dispatch_queue, SFAnalyticsCollectionAction;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SFAnalyticsCollection
 {
     _Bool _excludedVersion;
-    NSMutableDictionary *_matchingRules;
-    NSString *_processName;
-    NSMutableDictionary *_allowedEvents;
-    CDUnknownBlockType _tearDownMetricsHook;
-    id <SFAnalyticsCollectionAction> _actions;
-    NSObject<OS_dispatch_queue> *_queue;
-    SECSFAVersion *_selfVersion;
 }
 
 + (id);
 + (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
@@ -35,16 +27,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -53,14 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) id <SFAnalyticsCollectionAction> actions; // @synthesize actions=_actions;
-@property(retain) NSMutableDictionary *allowedEvents; // @synthesize allowedEvents=_allowedEvents;
-@property _Bool excludedVersion; // @synthesize excludedVersion=_excludedVersion;
 @property(retain) NSMutableDictionary *matchingRules; // @synthesize matchingRules=_matchingRules;
-@property(retain) NSString *processName; // @synthesize processName=_processName;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) SECSFAVersion *selfVersion; // @synthesize selfVersion=_selfVersion;
-@property(copy) CDUnknownBlockType tearDownMetricsHook; // @synthesize tearDownMetricsHook=_tearDownMetricsHook;
 
 @end
 

@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface UIAssistantBarRoundedButtonView : UIView
 {
     UIView *_shadowView;
-    _Bool _dropShadow;
-    UIAssistantBarRoundedButtonViewButton *_button;
 }
 
-- (void);
+- (void)ging it from %@ to %@. Are we in exit state ? %@;
 - (_Bool);
 - (struct CGSize);
 - (void);
-- (id)ens;
+- (id)_tokens;
 - (void)\Ñyþ|]ÚLíi;
 - (id)Ð­m;
 

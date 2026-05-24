@@ -10,7 +10,7 @@
 
 + (id);
 + (_Bool);
-+ (void);
++ (void)setStatusIsCloudBackupEnabled: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -29,15 +29,15 @@
 × ;
 + (id)Ð!|Aùñf°1Â0@ù
 × ;
-+ (id)edSegmentTintColor:(id)arg1;
-+ (id)AllCombinationsOfModifiers:(id)arg1 translator: /* Error: Ran out of types for this method. */;
-+ (id)aint;
-+ (id);
-+ (_Bool)ithDestinationViewController:sender: /* Error: Ran out of types for this method. */;
-+ (_Bool)eceiveEvent: /* Error: Ran out of types for this method. */;
-+ (_Bool)ng:editable:selectable:draggable:textLayoutManagerEnabled: /* Error: Ran out of types for this method. */;
++ (id)setSelectedSegmentTintColor:(id)arg1;
++ (id)populateAllCombinationsOfModifiers:(id)arg1 translator: /* Error: Ran out of types for this method. */;
++ (id)foregroundViewWidthConstraint;
++ (id)addObserverForName:(id)arg1 object:queue:usingBlock: /* Error: Ran out of types for this method. */;
++ (_Bool)_performWithDestinationViewController:sender: /* Error: Ran out of types for this method. */;
++ (_Bool)_delegateShouldReceiveEvent: /* Error: Ran out of types for this method. */;
++ (_Bool)_commonInitWithTextContainer:decoding:editable:selectable:draggable:textLayoutManagerEnabled: /* Error: Ran out of types for this method. */;
 + (void)@"UIImage",&,N,V_imageBeingSetByLoader;
-+ (id)eCommandManagerP33_027C523F92F121A6DBA25987CE370D9F24IntelligenceCommandCache;
++ (id)_TtCC5UIKit29_UIIntelligenceCommandManagerP33_027C523F92F121A6DBA25987CE370D9F24IntelligenceCommandCache;
 + (void) ¿;
 + (id)etched for %@ already stored for %@. Cell:(long long)arg1 %@; Prefetched Cells:(id)arg2 %@;
 + (id)erface orientation change (orientation %lu->%lu);

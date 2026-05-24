@@ -11,15 +11,15 @@
     NSArray *_sequence;
 }
 
-+ (id);
++ (id)K;
 + (_Bool);
 + (unique_ptr_6dc90793);
 + (id);
 - (id);
-- (id);
+- (id)_timeRequested;
 - (void);
-- (id);
-- (id);
+- (id)ge request %{public}@ %@ with isNew = NO and objectID = nil;
+- (id);
 - (id);
 - (void)Ä';
 

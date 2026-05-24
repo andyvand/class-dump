@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModule
 {
     _Bool _enabled;
-    UINSGameEventTranslator *_gameEventTranslator;
 }
 
 + (id);
@@ -23,16 +22,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -41,17 +40,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void)icShortcutItems;
+- (void)_staticShortcutItems;
 - (void)ÿZ-X¥8;
 
 // Remaining properties
-@property _Bool enabled; // @synthesize enabled=_enabled;
 @property __weak UINSGameEventTranslator *gameEventTranslator; // @synthesize gameEventTranslator=_gameEventTranslator;
 
 @end

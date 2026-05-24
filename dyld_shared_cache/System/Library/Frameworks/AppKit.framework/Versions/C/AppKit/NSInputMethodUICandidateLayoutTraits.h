@@ -7,7 +7,6 @@
 @interface NSInputMethodUICandidateLayoutTraits
 {
     double _maxLengthOfLine;
-    double _spaceBetweenCandidates;
 }
 
 - (double);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) double maxLengthOfLine; // @synthesize maxLengthOfLine=_maxLengthOfLine;
-@property(nonatomic) double spaceBetweenCandidates; // @synthesize spaceBetweenCandidates=_spaceBetweenCandidates;
 
 @end
 

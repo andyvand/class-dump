@@ -13,18 +13,18 @@
     VNGenerateAttentionBasedSaliencyImageRequest *__imageSaliencyRequest;
 }
 
-+ (_Bool);
++ (_Bool)setSender: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)[|;
 - (void);
-- (void);
+- (void)\|;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VNGenerateAttentionBasedSaliencyImageRequest *_imageSaliencyRequest; // @synthesize _imageSaliencyRequest=__imageSaliencyRequest;

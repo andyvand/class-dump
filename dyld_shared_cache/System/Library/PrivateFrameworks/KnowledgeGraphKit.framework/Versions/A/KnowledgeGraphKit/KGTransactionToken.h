@@ -9,7 +9,6 @@
 @interface KGTransactionToken
 {
     NSString *_stringRepresentation;
-    unsigned long long _transactionSequenceNumber;
 }
 
 - (unsigned long long);
@@ -18,11 +17,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)login list and item (isAllowed = %{bool}d);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
-@property(readonly, nonatomic) unsigned long long transactionSequenceNumber; // @synthesize transactionSequenceNumber=_transactionSequenceNumber;
 
 @end
 

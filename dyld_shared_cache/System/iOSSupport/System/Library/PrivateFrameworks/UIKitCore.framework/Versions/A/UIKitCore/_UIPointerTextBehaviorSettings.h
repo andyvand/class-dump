@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (void)OriginalShouldSkipCandidateSelection: /* Error: Ran out of types for this method. */;
+- (void)setOriginalShouldSkipCandidateSelection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double regionCaptureMultiplier; // @synthesize regionCaptureMultiplier=_regionCaptureMultiplier;

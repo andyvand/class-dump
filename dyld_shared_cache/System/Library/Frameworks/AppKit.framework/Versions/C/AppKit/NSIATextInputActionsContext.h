@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IATextInputActionsInputMode, NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSIATextInputActionsContext
 {
     long long flagOptions;
-    NSUUID *sessionIdentifier;
-    long long source;
-    NSString *appBundleId;
-    NSDictionary *keyboardTrialParameters;
-    NSString *processBundleId;
-    IATextInputActionsInputMode *inputMode;
-    NSString *_internalProcId;
 }
 
 - (void);
-- (void);
+- (void){public}u sub_activation_id = %{public}lu;
 - (_Bool);
 - (id);
-- (long long);
+- (long long)tle:assetArtworkData:options:taskIdentifier:uniqueIdentifier:bundleID:sessionID: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (long long)idAnimation: /* Error: Ran out of types for this method. */;
+- (long long)_getTitleOpacityAnimationDuration:timeOffset:gridAnimation: /* Error: Ran out of types for this method. */;
 - (void)¸ëìì;
 - (id)Å;
 - (id);
@@ -42,21 +35,7 @@ __attribute__((visibility("hidden")))
 - (id)E;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long flagOptions; // @synthesize flagOptions;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IATextInputActionsInputMode *inputMode; // @synthesize inputMode;
 @property(copy, nonatomic) NSString *internalProcId; // @synthesize internalProcId=_internalProcId;
-@property(copy, nonatomic) NSDictionary *keyboardTrialParameters; // @synthesize keyboardTrialParameters;
-@property(copy, nonatomic) NSString *processBundleId; // @synthesize processBundleId;
-@property(retain, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier;
-@property(nonatomic) long long source; // @synthesize source;
-@property(readonly) Class superclass;
 
 @end
 

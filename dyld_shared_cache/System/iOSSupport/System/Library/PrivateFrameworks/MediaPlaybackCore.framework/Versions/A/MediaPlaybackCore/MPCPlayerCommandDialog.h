@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPRemoteCommandHandlerDialog, NSArray, NSString;
+@class MPRemoteCommandHandlerDialog, NSString;
 
 @interface MPCPlayerCommandDialog
 {
     MPRemoteCommandHandlerDialog *_dialog;
-    NSArray *_actions;
 }
 
 - (id);
@@ -20,8 +19,6 @@
 - (id)gressiveResult"8q16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy, nonatomic) NSString *localizedMessage;
 @property(readonly, copy, nonatomic) NSString *localizedTitle;
 
 @end

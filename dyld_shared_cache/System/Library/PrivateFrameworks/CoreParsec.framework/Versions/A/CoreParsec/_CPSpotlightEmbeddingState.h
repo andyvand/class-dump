@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPSpotlightEmbeddingState
 {
     int _embeddedPhotosAssetsCount;
-    int _totalPhotosAssetsCount;
-    int _embeddedPhotosAssetsPercentage;
 }
 
-- (int);
+- (int)nsigned char, TExtent = 18446744073709551615UL, U = const unsigned char, UExtent = 18446744073709551615UL];
+- (void)WebKit:(int)arg1:InspectorTargetProxy>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, std::unique_ptr<WebKit::InspectorTargetProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)s);
+- (void)GPUProcessProxy:(int)arg1:KeepProcessAliveTemporarily::ReleaseGPUProcessTimer /* Error: Ran out of types for this method. */;
+- (int)loc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (int)ned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (void);
-- (unsigned long long);
+- (unsigned long long)H;
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int embeddedPhotosAssetsCount; // @synthesize embeddedPhotosAssetsCount=_embeddedPhotosAssetsCount;
-@property(nonatomic) int embeddedPhotosAssetsPercentage; // @synthesize embeddedPhotosAssetsPercentage=_embeddedPhotosAssetsPercentage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) int totalPhotosAssetsCount; // @synthesize totalPhotosAssetsCount=_totalPhotosAssetsCount;
 
 @end
 

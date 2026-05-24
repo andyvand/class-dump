@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAccount, NSMutableArray, NSMutableDictionary, NSMutableOrderedSet;
+@class IMAccount, NSMutableOrderedSet;
 
 @interface SOAccountAliasController
 {
     IMAccount *_account;
-    NSMutableOrderedSet *_aliasSet;
-    NSMutableArray *_aliasTimers;
-    NSMutableDictionary *_aliasLookup;
 }
 
 + (id);
@@ -38,31 +35,28 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(=;
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setSuppressMask: /* Error: Ran out of types for this method. */;
+- (id)WhatsNew_Memoji;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
+- (id) `a;
+- (void)setContentViewController: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) __weak IMAccount *account; // @synthesize account=_account;
-@property(retain) NSMutableDictionary *aliasLookup; // @synthesize aliasLookup=_aliasLookup;
 @property(retain) NSMutableOrderedSet *aliasSet; // @synthesize aliasSet=_aliasSet;
-@property(retain) NSMutableArray *aliasTimers; // @synthesize aliasTimers=_aliasTimers;
 
 @end
 

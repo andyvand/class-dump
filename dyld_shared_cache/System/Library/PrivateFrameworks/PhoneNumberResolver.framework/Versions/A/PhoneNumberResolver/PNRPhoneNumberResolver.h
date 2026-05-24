@@ -16,11 +16,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)A@;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void):8@16 /* Error: Ran out of types for this method. */;
 
 @end
 

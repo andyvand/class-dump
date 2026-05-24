@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSDate;
 
 @interface ICDelegationProviderServiceAssertion
 {
     NSDate *_expirationDate;
-    NSString *_name;
-    NSUUID *_uniqueIdentifier;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)k2F)j
+	);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (id);
 - (id);
@@ -29,8 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

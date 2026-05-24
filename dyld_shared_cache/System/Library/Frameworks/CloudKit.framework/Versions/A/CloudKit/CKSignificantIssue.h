@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSourceCodeLocation, NSArray, NSString;
+@class NSString;
 
 @interface CKSignificantIssue
 {
     int _processIdentifier;
-    CKSourceCodeLocation *_sourceCodeLocation;
-    NSArray *_callStackSymbols;
-    NSString *_reason;
-    NSString *_processName;
 }
 
 + (_Bool);
@@ -21,33 +17,22 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)n_stream=}16@0:8 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
-- (void);
+- (void)2@0:(id)arg1 8@"NSString"16@?<v@?@"CKShare"@"NSError">24;
 - (void)_TtCC8CloudKit10SyncEngine22DefaultAccountProvider;
 
 // Remaining properties
-@property(readonly, copy) NSArray *callStackSymbols; // @synthesize callStackSymbols=_callStackSymbols;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
 @property(readonly, copy) NSString *processName; // @synthesize processName=_processName;
-@property(readonly, copy) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, copy) CKSourceCodeLocation *sourceCodeLocation; // @synthesize sourceCodeLocation=_sourceCodeLocation;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUISearchRequestID, MUISearchSuggestionPhraseManager, MUISearchSuggestionsGenerator, NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface _MUISearchSuggestionsOperation
 {
     _Atomic _Bool _isCancelled;
-    MUISearchSuggestionsGenerator *_generator;
-    MUISearchRequestID *_requestID;
-    MUISearchSuggestionPhraseManager *_phraseManager;
-    NSArray *_suggesters;
-    NSMutableArray *_runningSuggesters;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void):forURLScheme: /* Error: Ran out of types for this method. */;
+- (void)setURLSchemeHandler:forURLScheme: /* Error: Ran out of types for this method. */;
 
 @end
 

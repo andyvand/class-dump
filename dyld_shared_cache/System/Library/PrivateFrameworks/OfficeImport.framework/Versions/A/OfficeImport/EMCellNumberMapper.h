@@ -6,18 +6,13 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class EDStyle, EDWorkbook;
-
 __attribute__((visibility("hidden")))
 @interface EMCellNumberMapper : CMMapper
 {
     double edValue;
-    EDStyle *edStyle;
-    EDWorkbook *workbook;
-    double _columnWidth;
 }
 
-- (void);
+- (void)Ҩ;
 - (id);
 - (id);
 - (id);

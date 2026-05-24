@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface IMRemoteObject
 {
@@ -14,7 +13,7 @@
 
 + (id);
 + (void);
-+ (void);
++ (void)_setInternalBundleVersionChecking:(id)arg1;
 + (void);
 - (void);
 - (void);
@@ -25,28 +24,24 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)errorWithCoreCryptoStatus:userInfo: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id);
+- (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)e-supplied;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)%;
 - (id);
-- (id)ed;
+- (id)_screenLocked;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *connection;
-@property(readonly, nonatomic) _Bool isValid;
-@property(nonatomic) int pid;
 @property(readonly, nonatomic) NSString *portName;
-@property(retain, nonatomic) NSString *processName;
 
 @end
 

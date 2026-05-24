@@ -9,9 +9,6 @@
 @interface TUContinuityHandleAnonym
 {
     NSString *_localizedDisplayName;
-    NSString *_identifier;
-    NSString *_label;
-    long long _type;
 }
 
 + (_Bool);
@@ -22,14 +19,11 @@
 - (long long);
 - (void);
 - (id);
-- (id);
-- (void)ckgroundLaunch: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setBackgroundLaunch: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *localizedDisplayName;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

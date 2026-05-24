@@ -9,8 +9,6 @@
 @interface NSPPrivacyProxyBAAValidation
 {
     NSData *_baaSignature;
-    NSData *_intermediateCertificate;
-    NSData *_leafCertificate;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)p;
 - (id);
 - (void);
 - (void);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *baaSignature; // @synthesize baaSignature=_baaSignature;
-@property(retain, nonatomic) NSData *intermediateCertificate; // @synthesize intermediateCertificate=_intermediateCertificate;
-@property(retain, nonatomic) NSData *leafCertificate; // @synthesize leafCertificate=_leafCertificate;
 
 @end
 

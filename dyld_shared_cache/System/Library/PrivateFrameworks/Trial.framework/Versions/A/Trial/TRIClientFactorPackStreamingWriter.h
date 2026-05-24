@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSOutputStream, TRIPBCodedOutputStream;
+@class NSOutputStream;
 
 @interface TRIClientFactorPackStreamingWriter
 {
     NSOutputStream *_underlying;
-    TRIPBCodedOutputStream *_stream;
-    NSError *_firstError;
-    _Bool _hasFactorPackId;
-    _Bool _hasSelectedNamespace;
 }
 
 + (_Bool);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableString, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface IIO_CXMLParser
 {
     NSMutableArray *_dictionaryStack;
-    NSMutableString *_textInProgress;
-    id *_errorPointer;
 }
 
 + (id);
@@ -23,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

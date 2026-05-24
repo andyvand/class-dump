@@ -11,7 +11,6 @@
 @interface SXTextComponentLayoutAttributeDescriptor : SXComponentLayoutAttributeDescriptor
 {
     SXTextExclusionPath *_resultingExclusionPath;
-    struct _NSRange _range;
 }
 
 - (void)0@ù

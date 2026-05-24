@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, UITextRange;
-@protocol NSObject;
+@class NSUUID;
 
 @interface UIAccessibilityCustomRotorItemResult
 {
     NSUUID *uuid;
-    id <NSObject> _targetElement;
-    UITextRange *_targetRange;
 }
 
 @end

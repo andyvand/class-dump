@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MNLocation;
+
 @protocol MNSessionUpdateManagerDelegate
+- (MNLocation *);
+- (void)NavigationStackProxy;
 
 // Remaining properties
-@property(readonly, nonatomic) int state;
 @property(readonly, nonatomic) unsigned long long targetLegIndex;
 @end
 

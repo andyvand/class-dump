@@ -7,7 +7,6 @@
 @interface WidgetKit.PreferredLanguageObserver__priv_F25834A5110A642184069A8971B03B5A
 {
     id lock;
-    id cached;
 }
 
 @end

@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface MLAppleGazetteerParameters
 {
     unsigned long long _revision;
-    NSString *_language;
-    NSString *_inputFeatureName;
-    NSString *_outputFeatureName;
-    NSData *_modelParameterData;
-    NSArray *_labelNames;
-    NSDictionary *_metadata;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)D;
 - (void);
 - (id);
 - (id);
@@ -37,12 +29,6 @@
 (½O	¹ÏjµOK±Ï¬­O©Ïî¥OÏ¡Ï OÏbO;
 
 // Remaining properties
-@property(retain) NSString *inputFeatureName; // @synthesize inputFeatureName=_inputFeatureName;
-@property(retain) NSArray *labelNames; // @synthesize labelNames=_labelNames;
-@property(retain) NSString *language; // @synthesize language=_language;
-@property(retain) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain) NSData *modelParameterData; // @synthesize modelParameterData=_modelParameterData;
-@property(retain) NSString *outputFeatureName; // @synthesize outputFeatureName=_outputFeatureName;
 @property unsigned long long revision; // @synthesize revision=_revision;
 
 @end

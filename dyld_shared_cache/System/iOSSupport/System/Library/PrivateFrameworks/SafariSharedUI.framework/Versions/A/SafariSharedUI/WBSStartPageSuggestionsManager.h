@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSSet, NSString, WBSStartPageSectionManager;
+@class NSMutableArray, WBSStartPageSectionManager;
 
 @interface WBSStartPageSuggestionsManager
 {
     NSMutableArray *_providers;
-    NSMapTable *_providersToCachedSuggestions;
-    NSMapTable *_cachedSuggestionsToProviders;
-    NSSet *_defaultStartPageVisibleProviders;
-    WBSStartPageSectionManager *_sectionManager;
-    NSArray *_suggestions;
-    NSArray *_highlights;
 }
 
 - (void);
@@ -27,7 +21,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -35,16 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *highlights; // @synthesize highlights=_highlights;
 @property(readonly, copy, nonatomic) WBSStartPageSectionManager *sectionManager; // @synthesize sectionManager=_sectionManager;
-@property(readonly, copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
-@property(readonly) Class superclass;
 
 @end
 

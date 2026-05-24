@@ -5,5 +5,7 @@
 //
 
 @protocol SKClientProtocol
+- (void);
+- (void)4;
 @end
 

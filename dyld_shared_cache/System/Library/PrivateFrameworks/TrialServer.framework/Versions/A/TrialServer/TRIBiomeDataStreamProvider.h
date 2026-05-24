@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TRIBiomeDataStreamProvider
 {
     NSObject<OS_dispatch_queue> *_providerQueue;
-    NSMutableDictionary *_streamIdentifierstoSubscribedSinks;
-    _Bool _shouldSubscribeWithWaking;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)layerStackByUpdatingLayout: /* Error: Ran out of types for this method. */;
+- (void)isFrontAndRearComposition;
+- (void)isDecodable;
+- (void)oomFeasible:(id)arg1 hasTopEdgeContact:(CDUnknownBlockType)arg2 computeSpatial:(CDUnknownBlockType)arg3 spatialPadding:layoutType:allowedLayoutStrategies:layoutConfiguration: /* Error: Ran out of types for this method. */;
+- (void)initWithPosterClassification:(id)arg1 initialRect:(CDUnknownBlockType)arg2 imageSize:effectiveAcceptableRect:effectivePreferredRect:validBoundsNormalized:headroomFeasible:hasTopEdgeContact:computeSpatial:spatialPadding:layoutType:allowedLayoutStrategies:layoutConfiguration: /* Error: Ran out of types for this method. */;
+- (void)descriptorIdentifierForDescriptorType:uuids: /* Error: Ran out of types for this method. */;
+- (void)dataWithContentsOfURL:(id)arg1;
+- (id)dataRepresentation;
+- (void)YZabcdefghijklmnopqrstuvwxyz0123456789+/;
 - (id);
 - (void);
 

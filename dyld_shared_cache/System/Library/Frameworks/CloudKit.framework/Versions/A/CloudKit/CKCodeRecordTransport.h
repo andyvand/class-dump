@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface CKCodeRecordTransport
 {
     int _contents;
-    NSData *_encryptedMasterKey;
-    NSData *_localSerialization;
-    NSData *_wireSerialization;
-    CDStruct_7e0a6dcb _has;
 }
 
-- (id);
+- (id))K	?;
 - (void);
 - (void);
 - (void);
@@ -32,7 +26,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)populateOutputs:outputBackings:directlyBoundOutputFeatureNames:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -44,14 +38,7 @@
 - (void)Ð¿;
 
 // Remaining properties
-@property(nonatomic) int contents; // @synthesize contents=_contents;
-@property(retain, nonatomic) NSData *encryptedMasterKey; // @synthesize encryptedMasterKey=_encryptedMasterKey;
-@property(nonatomic) _Bool hasContents;
-@property(readonly, nonatomic) _Bool hasEncryptedMasterKey;
 @property(readonly, nonatomic) _Bool hasLocalSerialization;
-@property(readonly, nonatomic) _Bool hasWireSerialization;
-@property(retain, nonatomic) NSData *localSerialization; // @synthesize localSerialization=_localSerialization;
-@property(retain, nonatomic) NSData *wireSerialization; // @synthesize wireSerialization=_wireSerialization;
 
 @end
 

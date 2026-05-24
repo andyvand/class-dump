@@ -7,10 +7,6 @@
 @interface NewsFeed.GroupLayoutKey
 {
     id name;
-    id bindings;
-    id identifier;
-    id factory;
-    id layoutContext;
 }
 
 @end

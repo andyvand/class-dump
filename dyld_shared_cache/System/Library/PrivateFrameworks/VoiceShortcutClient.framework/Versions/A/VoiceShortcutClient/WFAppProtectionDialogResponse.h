@@ -12,13 +12,13 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)__objc_classname__TEXT;
 - (unsigned long long);
 - (id);
+- (id)h:(id)arg1 y;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)24@32@40@48@56@64;
 - (void);
 
 // Remaining properties

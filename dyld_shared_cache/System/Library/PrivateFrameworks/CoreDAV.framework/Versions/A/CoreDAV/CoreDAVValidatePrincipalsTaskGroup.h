@@ -6,14 +6,11 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSMutableSet, NSSet, NSString, NSURL;
+@class NSMutableSet;
 
 @interface CoreDAVValidatePrincipalsTaskGroup : CoreDAVTaskGroup
 {
     NSMutableSet *_urlsToExamine;
-    NSMutableSet *_principalURLs;
-    NSURL *_urlBeingExamined;
-    _Bool _authError;
 }
 
 - (id);
@@ -26,24 +23,13 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)EWSExcludesType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didReceiveAuthenticationError; // @synthesize didReceiveAuthenticationError=_authError;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *principalURLs; // @synthesize principalURLs=_principalURLs;
-@property(readonly, nonatomic) NSSet *resultPrincipalURLs;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *urlBeingExamined; // @synthesize urlBeingExamined=_urlBeingExamined;
 @property(retain, nonatomic) NSMutableSet *urlsToExamine; // @synthesize urlsToExamine=_urlsToExamine;
 
 @end

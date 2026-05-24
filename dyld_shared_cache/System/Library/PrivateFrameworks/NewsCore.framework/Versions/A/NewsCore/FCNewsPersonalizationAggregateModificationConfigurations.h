@@ -9,26 +9,6 @@
 @interface FCNewsPersonalizationAggregateModificationConfigurations
 {
     FCNewsPersonalizationAggregateModificationConfiguration *_articleSeenAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_articleVisitedAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_articleReadAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_dislikeAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_undislikeAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_likeAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_unlikeAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_shareAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_muteAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_savedAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_unsavedAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_unmuteAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_followAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_unfollowAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_deprecatedFeedViewAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_feedViewAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_tagIgnoreAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_trackVisitedAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_trackListenedAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_trackFinishedAggregateModificationConfiguration;
-    FCNewsPersonalizationAggregateModificationConfiguration *_sportsTagSeenAggregateModificationConfiguration;
 }
 
 - (id);
@@ -44,62 +24,163 @@
 - (void);
 - (id);
 - (void);
+- (id)PAOperationFactory;
+- (id)erDebug_propertyListRepresentation];
+- (void);
+- (void)eturnVal = min(t.r, t.g); 
+			return min(t.b, returnVal); 
+}  
+
+
+vec4 darken (vec4 t, float p, float lambda) __attribute__ ((preserves_opacity))
+{ 
+	vec4 p1 = p + vec4(1.0, 1.0, 1.0, 1.0); 
+		vec4 tPart = lambda*p*t*( 1.0 - t*t)/(p1.x*p1.x); 
+			vec4 s; 
+				s.rgb = pow(t,p1).rgb + tPart.rgb; 
+					s.a = t.a; 
+						return s; 
+} 
+
+
+vec4 lightenMax (vec4 t, float p, float lambda) __attribute__ ((preserves_opacity))  
+{ 
+	//lambda is a constant that adjusts slope at max brightness; .6 is about right.  
+	float p1 = p + 1.0; 
+		float maxval = 1.001 - maxComponent( t ) ;  
+			
+			vec4 s=t; 
+				float scale, tPart; 
+					
+					tPart= lambda*p*maxval *( 1.0 - maxval*maxval)/(p1*p1); 
+					scale = (1.0 - pow(maxval, p1) - tPart)/(.01 + maxComponent(t)); 
+					s.rgb = (scale*t) .rgb; 
+					return s; 
+} 
+
+vec4 darken2 (vec4 t, float p, float lambda)  __attribute__ ((preserves_opacity)) 
+{ 
+	//lambda is a constant that adjusts slope at max brightness; .6 is about right.  
+	float p1 = p + 1.0; 
+		float minval = minComponent(t) ;  
+			
+			minval = .6 * min( minval, minComponent(1.0-t) ); 
+				
+				vec4 s; 
+					
+					float offset, tPart; 
+						
+						tPart= lambda*p*minval *( 1.0 - minval*minval)/(p1*p1); 
+							
+							offset = minval - ( pow(minval, p1) + tPart) ; 
+								s.rgb = t.rgb - offset ; 
+									s.a = t.a; 
+										return s; 
+} 
+vec4 lightenAll (vec4 t, float p, float lambda) __attribute__ ((preserves_opacity))  
+{ 
+	//lambda is a constant that adjusts slope at max brightness; .6 is about right.  
+	vec4 p1 = p + vec4(1.0,1.0,1.0,1.0); 
+		vec4 oneMinusT = 1.0 - t; 
+			vec4 s; 
+				
+				vec4 tPart; 
+					
+					tPart= lambda*p*oneMinusT *( 1.0 - oneMinusT*oneMinusT)/(p1*p1); 
+						
+						//s.rgb = (1.0 - pow(oneMinusT, p1).rgb - tPart.rgb); 
+						s = (1.0 - pow(oneMinusT, p1) - tPart); 
+							s.a = t.a; 
+								
+								return s; 
+} 
+
+//kernel 0 
+kernel vec4 rebalanceBrighter (sampler src, float p) __attribute__ ((preserves_opacity)) 
+{ 
+	vec4 s; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ) ; 
+			s = clamp( s, 0.0, 1.0); 
+				float alpha = s.a; 
+					//s.rgb  = sqrt(max( s.rgb, vec3(0.0))); 
+					//s = clamp( lightenMax(s, p, .6), 0.0, 1.0 ); 
+					s = lightenMax( s, p, .6); 
+						//s = clamp(s, 0.0, 1.0 ); 
+						//s = s*s; 
+						s.a = alpha; 
+							return s; 
+} 
+
+//kernel 1 
+kernel vec4 rebalanceBrighter2 (sampler src, float p) 
+{ 
+	vec4 s; 
+		s = sample (src, samplerCoord (src)); 
+			s = sqrt(max( s.rgba, vec4(0.0))); 
+				//s = clamp( lightenAll( s , p ,.6), 0.0, 1.0); 
+				s = lightenAll( s , p ,.6) ; 
+					s = s*s; 
+						return s; 
+} 
+
+//kernel 2 
+kernel vec4 rebalanceDarker (sampler src, float p) __attribute__ ((preserves_opacity)) 
+{ 
+	vec4 s; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ) ; 
+			float alpha = s.a; 
+				//s.rgb = sqrt( max( s.argb, vec4(0.0)) ); 
+				//s = clamp( darken( s , -p, .6), 0.0, 1.0); 
+				s = darken( s , -p, .6) ; 
+					//s = s*s; 
+					s.a = alpha; 
+						return s; 
+} 
+
+//kernel 3 
+kernel vec4 rebalanceDarker2 (sampler src, float p) 
+{ 
+	vec4 s; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ); 
+			//s = sqrt(s); 
+			//s =	clamp( darken2( s ,-p,.6), 0.0, 1.0 ); 
+			s	=	darken2( s , -p, .6) ; 
+				//s = s*s; 
+				return s; 
+} 
+;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)!	;
+- (id);
+- (void);
+- (id)/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id)_videoVolume;
 - (id);
 - (void);
-- (void);
+- (id)filteredArrayUsingPredicate: /* Error: Ran out of types for this method. */;
+- (id)but the current request is not an update.;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)ItemFactory;
+- (void)feedItemFactory;
 - (void)b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCRecordFieldURLProtocol.m;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *articleReadAggregateModificationConfiguration; // @synthesize articleReadAggregateModificationConfiguration=_articleReadAggregateModificationConfiguration;
 @property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *articleSeenAggregateModificationConfiguration; // @synthesize articleSeenAggregateModificationConfiguration=_articleSeenAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *articleVisitedAggregateModificationConfiguration; // @synthesize articleVisitedAggregateModificationConfiguration=_articleVisitedAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *deprecatedFeedViewAggregateModificationConfiguration; // @synthesize deprecatedFeedViewAggregateModificationConfiguration=_deprecatedFeedViewAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *dislikeAggregateModificationConfiguration; // @synthesize dislikeAggregateModificationConfiguration=_dislikeAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *feedViewAggregateModificationConfiguration; // @synthesize feedViewAggregateModificationConfiguration=_feedViewAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *followAggregateModificationConfiguration; // @synthesize followAggregateModificationConfiguration=_followAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *likeAggregateModificationConfiguration; // @synthesize likeAggregateModificationConfiguration=_likeAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *muteAggregateModificationConfiguration; // @synthesize muteAggregateModificationConfiguration=_muteAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *savedAggregateModificationConfiguration; // @synthesize savedAggregateModificationConfiguration=_savedAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *shareAggregateModificationConfiguration; // @synthesize shareAggregateModificationConfiguration=_shareAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *sportsTagSeenAggregateModificationConfiguration; // @synthesize sportsTagSeenAggregateModificationConfiguration=_sportsTagSeenAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *tagIgnoreAggregateModificationConfiguration; // @synthesize tagIgnoreAggregateModificationConfiguration=_tagIgnoreAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *trackFinishedAggregateModificationConfiguration; // @synthesize trackFinishedAggregateModificationConfiguration=_trackFinishedAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *trackListenedAggregateModificationConfiguration; // @synthesize trackListenedAggregateModificationConfiguration=_trackListenedAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *trackVisitedAggregateModificationConfiguration; // @synthesize trackVisitedAggregateModificationConfiguration=_trackVisitedAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *undislikeAggregateModificationConfiguration; // @synthesize undislikeAggregateModificationConfiguration=_undislikeAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *unfollowAggregateModificationConfiguration; // @synthesize unfollowAggregateModificationConfiguration=_unfollowAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *unlikeAggregateModificationConfiguration; // @synthesize unlikeAggregateModificationConfiguration=_unlikeAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *unmuteAggregateModificationConfiguration; // @synthesize unmuteAggregateModificationConfiguration=_unmuteAggregateModificationConfiguration;
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationConfiguration *unsavedAggregateModificationConfiguration; // @synthesize unsavedAggregateModificationConfiguration=_unsavedAggregateModificationConfiguration;
 
 @end
 

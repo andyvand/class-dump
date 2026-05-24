@@ -8,10 +8,6 @@
 {
     id upsellRequestFactory;
     id debugRequestFactory;
-    id featureSettings;
-    id newsServiceType;
-    id $__lazy_storage_$_smarterMessagingEnabled;
-    id isUpsellDialogRequestFactoryReady;
 }
 
 @end

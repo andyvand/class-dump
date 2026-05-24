@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface MROriginClientPropertiesMessage : MRProtocolMessage
 {
@@ -15,10 +15,9 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)parentPreviewWidth;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *devicePlaybackSessionID;
 @property(readonly, nonatomic) NSDate *lastPlayingDate;
 
 @end

@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCell, NSIndexSet, NSTableRowView;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (void)ʥ;
+- (_Bool)ngth;
+- (_Bool)gle, SysConfigData *__single);
+- (NSIndexSet *)s zero length;
+- (NSTableRowView *)e __terminated_by(0), size_t);
+- (id)ig3 *__single, struct __SysConfig3ManifestEntry *__single);
+- (void)etadataEntry *__single);
+- (_Bool)try cannot be NULL;
+- (double)sConfig3PayloadEntry *__single);
+- (void)ument. sysconfig and key cannot be NULL;
+- (void)yloadEntryForKey(struct __SysConfig3 *__single, uint32_t);
+- (void)onfig cannot be NULL;
+- (NSCell *)lid version provided 0x%08X;
+- (void)licitly;
+- (void)skProperty;
 @end
 

@@ -7,11 +7,12 @@
 @class NSError;
 
 @protocol CLSAssetUploadObservable
-- (NSError *)eOfPublication;
+- (double);
+- (void)uffers > kANEMaxBuffers numOutputBuffers = %d
+;
+- (NSError *)_dateOfPublication;
 
 // Remaining properties
 @property(readonly, nonatomic) double fractionUploaded;
-@property(readonly, copy, nonatomic) NSError *uploadError;
-@property(readonly, nonatomic, getter=isUploaded) _Bool uploaded;
 @end
 

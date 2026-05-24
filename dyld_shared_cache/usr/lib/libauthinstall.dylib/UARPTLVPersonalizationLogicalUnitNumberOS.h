@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)startObserving:keyPath:includeInitialValue:observationHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned int logicalUnitNumber; // @synthesize logicalUnitNumber=_logicalUnitNumber;

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFLongItemStandardCardSection, RFReferenceFootnoteCardSection;
+@class RFLongItemStandardCardSection;
 
 @protocol RFExpandingComponentContent
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFLongItemStandardCardSection *long_item_standard_card_section;
-@property(retain, nonatomic) RFReferenceFootnoteCardSection *reference_footnote_card_section;
 @end
 

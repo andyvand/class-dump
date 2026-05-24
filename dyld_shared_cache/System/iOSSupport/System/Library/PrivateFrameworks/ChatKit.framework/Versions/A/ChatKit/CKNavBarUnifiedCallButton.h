@@ -4,76 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIAction, UIBarButtonItem;
-@protocol CKNavBarUnifiedCallButtonDelegate;
-
 @interface CKNavBarUnifiedCallButton
 {
     _Bool _faceTimeVideoAvailable;
-    _Bool _faceTimeAudioAvailable;
-    _Bool _telephonyCallAvailable;
-    _Bool _screenSharingAvailable;
-    _Bool _joinPillShouldDisableLabel;
-    id <CKNavBarUnifiedCallButtonDelegate> _delegate;
-    UIBarButtonItem *_parentBarButtonItem;
-    long long _buttonStyle;
-    NSArray *_overrideAudioCallActions;
-    UIAction *_faceTimeVideoAction;
-    UIAction *_faceTimeJoinWithVideoAction;
-    UIAction *_faceTimeAudioAction;
-    UIAction *_faceTimeJoinWithAudioAction;
-    UIAction *_faceTimeShareMyScreenAction;
-    UIAction *_faceTimeInviteToShareTheirScreenAction;
-    UIAction *_telephonyCallAction;
-    UIAction *_openJoinedCallAction;
-    UIAction *_leaveJoinedCallAction;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)processPendingChanges;
+- (id)identifierURIPathComponent;
+- (_Bool)endPreventEditingUpdates;
+- (void)cached;
+- (void)cacheKey;
+- (void)_urlSchemeHandler;
+- (void)_unsupportedObjectsInSource;
+- (void)_titleAttributedString;
+- (void)_modernNoteContext;
+- (void)_isDroppingLastChecklistItem;
+- (void)rchStringLength;
+- (id)ti;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (id)g;
+- (id)u;
+- (id)r;
+- (id);
+- (_Bool)er) != nil);
+- (void)ificationController senderNameForMentions:] /* Error: Ran out of types for this method. */;
+- (void)eight);
+- (double)ICSystemPaperTextAttachmentDidAppearNotification;
+- (double)e/SharedUI/Views/ICLoadingPieLayer.m;
+- (id)lback PDF and preview images;
+- (id)"16@?0@"CKShareParticipant"8;
+- (id)to ICThumbnailConfiguration;
+- (id)lor:hasBorder:] /* Error: Ran out of types for this method. */;
+- (id)"NSArray"8;
+- (id)ter migrating notes;
+- (id)aved Videos;
+- (id)oto;
+- (_Bool)ICFolderListSectionTypeCloudKitPrimary;
 - (double);
 - (double);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (double);
 - (double);
-- (id);
-- (_Bool);
-- (_Bool);
 - (double);
-- (double);
-- (double);
-- (void);
-- (void);
+- (void);
+- (void)ParagraphView;
 - (void);
 - (double);
 - (id);
@@ -81,7 +61,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)l
+;
 - (id);
 - (void);
 - (void);
@@ -94,41 +75,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void)brancyFilter;
+- (void)lightBalloonOutlineVibrancyFilter;
 - (void)reloadRecoverableMetadataForNotification:(_Bool)arg1;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long buttonStyle; // @synthesize buttonStyle=_buttonStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKNavBarUnifiedCallButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIAction *faceTimeAudioAction; // @synthesize faceTimeAudioAction=_faceTimeAudioAction;
-@property(nonatomic, getter=isFaceTimeAudioAvailable) _Bool faceTimeAudioAvailable; // @synthesize faceTimeAudioAvailable=_faceTimeAudioAvailable;
-@property(retain, nonatomic) UIAction *faceTimeInviteToShareTheirScreenAction; // @synthesize faceTimeInviteToShareTheirScreenAction=_faceTimeInviteToShareTheirScreenAction;
-@property(retain, nonatomic) UIAction *faceTimeJoinWithAudioAction; // @synthesize faceTimeJoinWithAudioAction=_faceTimeJoinWithAudioAction;
-@property(retain, nonatomic) UIAction *faceTimeJoinWithVideoAction; // @synthesize faceTimeJoinWithVideoAction=_faceTimeJoinWithVideoAction;
-@property(retain, nonatomic) UIAction *faceTimeShareMyScreenAction; // @synthesize faceTimeShareMyScreenAction=_faceTimeShareMyScreenAction;
-@property(retain, nonatomic) UIAction *faceTimeVideoAction; // @synthesize faceTimeVideoAction=_faceTimeVideoAction;
-@property(nonatomic, getter=isFaceTimeVideoAvailable) _Bool faceTimeVideoAvailable; // @synthesize faceTimeVideoAvailable=_faceTimeVideoAvailable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool joinPillShouldDisableLabel; // @synthesize joinPillShouldDisableLabel=_joinPillShouldDisableLabel;
-@property(retain, nonatomic) UIAction *leaveJoinedCallAction; // @synthesize leaveJoinedCallAction=_leaveJoinedCallAction;
-@property(retain, nonatomic) UIAction *openJoinedCallAction; // @synthesize openJoinedCallAction=_openJoinedCallAction;
-@property(retain, nonatomic) NSArray *overrideAudioCallActions; // @synthesize overrideAudioCallActions=_overrideAudioCallActions;
-@property(nonatomic) __weak UIBarButtonItem *parentBarButtonItem; // @synthesize parentBarButtonItem=_parentBarButtonItem;
-@property(nonatomic, getter=isScreenSharingAvailable) _Bool screenSharingAvailable; // @synthesize screenSharingAvailable=_screenSharingAvailable;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIAction *telephonyCallAction; // @synthesize telephonyCallAction=_telephonyCallAction;
-@property(nonatomic, getter=isTelephonyAvailable) _Bool telephonyCallAvailable; // @synthesize telephonyCallAvailable=_telephonyCallAvailable;
 
 @end
 

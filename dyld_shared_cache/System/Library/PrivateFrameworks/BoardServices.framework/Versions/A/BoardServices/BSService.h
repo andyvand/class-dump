@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceDomainSpecification, BSServiceSpecification, BSZeroingWeakReference, NSMutableArray, NSMutableDictionary;
+@class BSServiceSpecification;
 
 @interface BSService
 {
     BSServiceSpecification *_specification;
-    BSServiceDomainSpecification *_domainSpecification;
-    BSZeroingWeakReference *_lock_globalListener;
-    NSMutableDictionary *_lock_instanceToListener;
-    NSMutableArray *_lock_pendedConnections;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_invalidated;
 }
 
-- (id);
+- (id)bootstrapSessionForVerifierWithIdentifier:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

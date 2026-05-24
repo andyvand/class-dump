@@ -15,8 +15,5 @@
 
 // Remaining properties
 @property(readonly, getter=avkit_isBuiltIn) _Bool avkit_builtIn;
-@property(readonly, getter=avkit_isExternal) _Bool avkit_external;
-@property(readonly, getter=avkit_isExternalWireless) _Bool avkit_externalWireless;
-@property(readonly, getter=avkit_isScreenCaptureDevice) _Bool avkit_screenCaptureDevice;
 @end
 

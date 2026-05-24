@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSObject, SCNMTLLibrary;
-@protocol MTLDevice, MTLLibrary, OS_dispatch_group, OS_dispatch_queue;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface SCNMTLLibraryManager
 {
     id <MTLDevice> _device;
-    SCNMTLLibrary *_frameworkLibrary;
-    SCNMTLLibrary *_defaultLibrary;
-    struct __C3DEngineStats *__engineStats;
-    NSObject<OS_dispatch_queue> *_deviceQueue;
-    NSObject<OS_dispatch_group> *_shaderCompilationGroup;
-    id <MTLLibrary> _commonProfileCacheLibrary;
-    CDUnknownBlockType _commonProfileCacheLibraryHasherBlock;
-    CDUnknownBlockType _commonProfileCacheLibraryProviderBlock;
-    NSDictionary *_commonProfilePrecompiledFunctions;
-    NSMapTable *_availableLibraries;
-    struct __CFDictionary *_availableCompiledLibraries;
-    struct os_unfair_lock_s _availableCompiledLibrariesLock;
 }
 
 + (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);

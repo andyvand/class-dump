@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface SLSWMBridgedWindowChildInfo
 {
     int op;
-    SLSWMBridgedWindow *window;
 }
 
-- (void);
-- (int);
+- (void)rror"24;
+- (int)NSCloudKitMirroringDelegateIgnoredPropertyKey;
 - (id);
-- (void);
+- (void)@;
 - (void)ä	;
 
 // Remaining properties
-@property int op; // @synthesize op;
 @property(retain) SLSWMBridgedWindow *window; // @synthesize window;
 
 @end

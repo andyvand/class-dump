@@ -8,6 +8,9 @@
 
 @protocol WBSPerSitePreferenceManagerDefaultsDelegate
 
+@optional
+- (void);
+
 // Remaining properties
 @property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore;
 @end

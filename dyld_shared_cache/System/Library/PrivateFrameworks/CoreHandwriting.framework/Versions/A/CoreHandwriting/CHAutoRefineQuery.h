@@ -6,14 +6,14 @@
 
 #import <CoreHandwriting/CHQuery.h>
 
-@class CHAutoRefineQueryItem, NSArray, NSMutableArray;
+@class CHAutoRefineQueryItem, NSMutableArray;
 
 @interface CHAutoRefineQuery : CHQuery
 {
     NSMutableArray *_autoRefinedItems;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CHAutoRefineQueryItem *autoRefinedItem;
-@property(readonly, copy, nonatomic) NSArray *autoRefinedItems; // @synthesize autoRefinedItems=_autoRefinedItems;
 
 @end
 

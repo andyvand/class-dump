@@ -5,5 +5,6 @@
 //
 
 @protocol STPasscodeReceiverProtocol
+- (void)download_params TEXT NOT NULL DEFAULT '');
 @end
 

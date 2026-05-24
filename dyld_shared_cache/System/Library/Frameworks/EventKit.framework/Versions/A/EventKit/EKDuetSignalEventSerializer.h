@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
++ (id)tContext] Removed Fields:(id)arg1 %{public}@;
++ (id)rray<id> *__strong, __strong dispatch_queue_t, void (^__strong)(NSError *__strong));
 
 @end
 

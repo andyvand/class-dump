@@ -9,7 +9,7 @@
 - (void)at %s:(unsigned long long)arg1 %{errno}d;
 - (void);
 - (void)¬;
-- (void)truct;
+- (void)logStruct;
 - (void)m error { %ld, %d };
 - (void)s;
 - (void)@;
@@ -18,7 +18,7 @@
 - (void);
 - (void)îý;
 - (void)6z6;
-- (void)0;
+- (void)2Y0;
 - (void)6uL;
 - (void)i;
 - (void)6gq;
@@ -28,6 +28,6 @@
 - (void)Cort.or;
 - (void)?eea?eea?eec?eec?eee?eee?eei?eei?eeo?eeo?ees?ees?eet?eetCee Cee%Cee-Cee.Cee/Cee3Cee4Cee5Cee6Cee7Cee8Cee9Cee=CeeACee_CeebCeedCeefCeegCeehCeelCeemCeenCeepCeerCeeu*ee;
 - (void)C0.oC0.sC0.t.0.;
-- (void)PInfo;
+- (void)_kCFStreamPropertyTCPInfo;
 @end
 

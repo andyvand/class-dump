@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface CNUIVCardSharingItem
 {
     NSArray *_contacts;
-    NSURL *_url;
 }
 
 + (id);
@@ -27,14 +26,6 @@
 
 // Remaining properties
 @property(retain) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSURL *url; // @synthesize url=_url;
 
 @end
 

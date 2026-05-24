@@ -20,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsRichText;
 @property(readonly, copy, nonatomic) NSString *enrichedString;
 @end
 

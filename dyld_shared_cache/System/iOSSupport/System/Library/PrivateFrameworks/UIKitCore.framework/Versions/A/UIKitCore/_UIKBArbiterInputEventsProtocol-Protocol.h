@@ -5,5 +5,7 @@
 //
 
 @protocol _UIKBArbiterInputEventsProtocol
+- (void);
+- (void)B;
 @end
 

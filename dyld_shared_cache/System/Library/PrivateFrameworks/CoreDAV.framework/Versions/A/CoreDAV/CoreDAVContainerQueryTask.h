@@ -6,17 +6,12 @@
 
 #import <CoreDAV/CoreDAVTask.h>
 
-@class NSSet, NSString;
+@class NSSet;
 @protocol CoreDAVContainerQueryTaskDelegate;
 
 @interface CoreDAVContainerQueryTask : CoreDAVTask
 {
     NSSet *_searchTerms;
-    unsigned long long _searchLimit;
-    NSString *_appSpecificNamespace;
-    NSString *_appSpecificQueryCommand;
-    NSString *_appSpecificDataProp;
-    Class _appSpecificDataItemClass;
 }
 
 + (id);
@@ -28,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)e for %@ is nil;
 
 // Remaining properties
 @property(nonatomic) __weak id <CoreDAVContainerQueryTaskDelegate> delegate; // @dynamic delegate;

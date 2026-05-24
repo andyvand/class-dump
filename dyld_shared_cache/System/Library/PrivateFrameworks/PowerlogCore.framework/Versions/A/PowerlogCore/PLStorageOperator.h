@@ -13,6 +13,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -20,30 +21,30 @@
 + (id);
 + (id);
 + (id);
++ (id)y:(id)arg1 %@;
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id)'5D*J
+;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)accountKind;
 - (void);
-- (void);
-- (void)tricsService_Aggregate_AwdBT;
+- (void)PLAWDMetricsService_Aggregate_AwdBT;
 
 @end
 

@@ -4,38 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface UIItemProvider
 {
     NSDictionary *_teamMetadata;
 }
 
+- (id);
+- (void)ished;
+- (void)r incoming message:(struct CGSize)arg1 %@ in chat:%@ was determined to be %@ /* Error: Ran out of types for this method. */;
+- (void)d played:(Class)arg1 %{BOOL}d from-me:(id)arg2 %{BOOL}d DD results:(CDUnknownBlockType)arg3 %{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)OL}d read:(id)arg1 %{BOOL}d delivered:(id)arg2 %{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)many for one message;
+- (void)aved transfer from DB:(id)arg1 %@;
+- (void)imit %d fallbackGUID %@ recordStoreRecords:(id)arg1 %@;
+- (void)cordStoreRecords:(id)arg1 %@;
+- (id)for submittion metric operation with ID %@. ignoreZoneNotFoundError %@ OperationError %@;
+- (void)ing to submit CK metric operation with ID %@;
+- (id)eCommandPipelineParameter %p; GUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; isFromMe = %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
+- (void)dData:(id)arg1 ];
+- (id)itMockStore/;
+- (id)ges.memoji;
+- (struct CGSize)__kIMDFileTransferUpdatedNotification;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)0;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -54,10 +54,6 @@
 - (id)0;
 
 // Remaining properties
-@property(nonatomic) struct CGSize estimatedDisplayedSize;
-@property(copy, nonatomic) NSDate *modificationDate;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSNumber *size;
 @property(copy, nonatomic) NSDictionary *teamMetadata; // @synthesize teamMetadata=_teamMetadata;
 
 @end

@@ -4,53 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntryViewPlusButton, CKSendMenuPopoverBlurContentsView, CKSendMenuPresentationPopoverBackdropView, UIView, UIVisualEffectView;
+@class UIVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPresentationPopoverView
 {
     _Bool _layoutSubviewsEnabled;
-    UIView *_appView;
-    UIView *_sendMenuView;
-    UIVisualEffectView *_blurBackgroundView;
-    CKSendMenuPresentationPopoverBackdropView *_backdropView;
-    CKSendMenuPopoverBlurContentsView *_blurContentsView;
-    CKEntryViewPlusButton *_plusButton;
 }
 
 + (struct CGAffineTransform);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ic_fontConvertedToSize:(id)arg1;
+- (void)enumerateCellObjectsInCellSelectionContainingColumnIndices:(_Bool)arg1 rowIndices:copyItems:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)alwaysEnumerateTrailingParagraph;
+- (id)_webViewDidRequestPointerLock:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)m;
+- (id)o;
+- (id)e;
+- (id)h;
+- (id)s;
+- (id)elayTime > 0;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id)!;
 - (void);
 - (id)reating IntentPerson from handle;
 - (void)ckedConversationChatItem;
 - (void)¼¸;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *appView; // @synthesize appView=_appView;
-@property(retain, nonatomic) CKSendMenuPresentationPopoverBackdropView *backdropView; // @synthesize backdropView=_backdropView;
 @property(retain, nonatomic) UIVisualEffectView *blurBackgroundView; // @synthesize blurBackgroundView=_blurBackgroundView;
-@property(readonly, nonatomic) CKSendMenuPopoverBlurContentsView *blurContentsView; // @synthesize blurContentsView=_blurContentsView;
-@property(nonatomic, getter=isLayoutSubviewsEnabled) _Bool layoutSubviewsEnabled; // @synthesize layoutSubviewsEnabled=_layoutSubviewsEnabled;
-@property(retain, nonatomic) CKEntryViewPlusButton *plusButton; // @synthesize plusButton=_plusButton;
-@property(retain, nonatomic) UIView *sendMenuView; // @synthesize sendMenuView=_sendMenuView;
 
 @end
 

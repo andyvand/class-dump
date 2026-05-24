@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMAccessorySettings;
+@protocol HMMediaObject;
+
 @protocol HMMediaObjectDelegate
+
+@optional
+- (void)_updateRestoredAssetWithUUID:(id <HMMediaObject>)arg1 paths:(HMAccessorySettings *)arg2 fixAddedDate: /* Error: Ran out of types for this method. */;
+- (void)_updateProgressWithFractionCompleted:(id <HMMediaObject>)arg1;
 @end
 

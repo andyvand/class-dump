@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDPromiseResult, NSMutableArray, NSRecursiveLock;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ASDPromise
 {
     NSMutableArray *_observers;
-    long long _state;
-    NSRecursiveLock *_stateLock;
-    ASDPromiseResult *_result;
 }
 
 + (id);
@@ -23,13 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)sContextualMenu;
 - (id);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ddd}16{?=ddd}40d64o^d72o^d80;
 - (id);
-- (id);
+- (id)re verified with Identity:(CDUnknownBlockType)arg1 %@
+;
 - (id);
 - (id);
 - (id);
@@ -37,7 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, getter=isResolved) _Bool resolved;
-@property(readonly) ASDPromiseResult *result; // @synthesize result=_result;
 
 @end
 

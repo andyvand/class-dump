@@ -6,26 +6,15 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDate, NSDictionary, NSMutableDictionary, NSMutableSet;
+@class NSArray;
 
 @interface CKDModifyRecordZonesURLRequest : CKDURLRequest
 {
     _Bool _markZonesAsUserPurged;
-    _Bool _oplock;
-    NSDate *_lastMissingManateeIdentityErrorDate;
-    CDUnknownBlockType _recordZoneModifiedBlock;
-    NSArray *_recordZonesToSave;
-    NSArray *_recordZoneIDsToDelete;
-    NSArray *_recordsToSave;
-    NSDictionary *_saveAncestryByZoneID;
-    NSDictionary *_deleteAncestryByZoneID;
-    NSArray *_generatedRequestOperations;
-    NSMutableDictionary *_recordZoneIDByRequestID;
-    NSMutableSet *_shareRequestIDs;
 }
 
-- (void);
-- (_Bool);
+- (void)hangup;
+- (_Bool)UsoTask_CodegenConverter;
 - (id);
 - (void);
 - (id);
@@ -37,18 +26,18 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_queryCountDict;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (void);
 - (void);
 - (id)nil;
-- (void)ordType;
-- (void)eterminate;
-- (id)DeleteType;
+- (void)affectedRecordType;
+- (void)indeterminate;
+- (id)recordDeleteType;
 - (void)h for item %@ :(id)arg1 %@ > %@;
 - (id)eq:%{public}@, "Successfully parsed plist object" /* Error: Ran out of types for this method. */;
 - (id)iatedMergeableDeltas (%lu deltas);
@@ -62,18 +51,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *deleteAncestryByZoneID; // @synthesize deleteAncestryByZoneID=_deleteAncestryByZoneID;
-@property(retain, nonatomic) NSArray *generatedRequestOperations; // @synthesize generatedRequestOperations=_generatedRequestOperations;
-@property(retain, nonatomic) NSDate *lastMissingManateeIdentityErrorDate; // @synthesize lastMissingManateeIdentityErrorDate=_lastMissingManateeIdentityErrorDate;
-@property(nonatomic) _Bool markZonesAsUserPurged; // @synthesize markZonesAsUserPurged=_markZonesAsUserPurged;
-@property(nonatomic) _Bool oplock; // @synthesize oplock=_oplock;
-@property(retain, nonatomic) NSMutableDictionary *recordZoneIDByRequestID; // @synthesize recordZoneIDByRequestID=_recordZoneIDByRequestID;
-@property(retain, nonatomic) NSArray *recordZoneIDsToDelete; // @synthesize recordZoneIDsToDelete=_recordZoneIDsToDelete;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneModifiedBlock; // @synthesize recordZoneModifiedBlock=_recordZoneModifiedBlock;
 @property(retain, nonatomic) NSArray *recordZonesToSave; // @synthesize recordZonesToSave=_recordZonesToSave;
-@property(retain, nonatomic) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
-@property(retain, nonatomic) NSDictionary *saveAncestryByZoneID; // @synthesize saveAncestryByZoneID=_saveAncestryByZoneID;
-@property(retain, nonatomic) NSMutableSet *shareRequestIDs; // @synthesize shareRequestIDs=_shareRequestIDs;
 
 @end
 

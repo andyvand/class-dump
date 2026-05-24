@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.TranscriptAlignmentController.Unimplemented
 {
     id currentItem;
-    id isEnabled;
 }
 
 + (unsigned int);

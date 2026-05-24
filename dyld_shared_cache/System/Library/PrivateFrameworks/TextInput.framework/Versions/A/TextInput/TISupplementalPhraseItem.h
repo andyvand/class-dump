@@ -11,13 +11,12 @@
 @interface TISupplementalPhraseItem : TISupplementalItem
 {
     NSString *_title;
-    NSString *_phoneticTitle;
 }
 
-+ (_Bool);
++ (_Bool)j
+CC;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *phoneticTitle; // @synthesize phoneticTitle=_phoneticTitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSArray *_containers;
 }
 
-- (id);
-- (id)pletion: /* Error: Ran out of types for this method. */;
-- (void)ationName;
+- (id);
+- (id)thumbnailViewWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)organizationName;
 - (void)ition;
 
 // Remaining properties

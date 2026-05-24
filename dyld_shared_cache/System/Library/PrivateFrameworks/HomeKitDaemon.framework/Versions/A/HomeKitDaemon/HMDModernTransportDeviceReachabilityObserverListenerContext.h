@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDeviceAddress, NSHashTable, NSNumber;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernTransportDeviceReachabilityObserverListenerContext
 {
     NSHashTable *_listeners;
-    NSNumber *_reachability;
-    HMDDeviceAddress *_address;
-    double _unreachableStartTime;
 }
 
 - (double);
 - (void);
-- (void);
+- (void)sonID:(id)arg1 inDirection:] /* Error: Ran out of types for this method. */;
 - (void)Ð1Â0@ù
 × ;
 - (id)0;
-- (id)DSFirewallManager;
+- (id)HMDIDSFirewallManager;
 - (id)	
 ;
 - (id)P;
 - (void)sactionItem"16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) HMDDeviceAddress *address; // @synthesize address=_address;
 @property(readonly, nonatomic) NSHashTable *listeners; // @synthesize listeners=_listeners;
-@property(retain, nonatomic) NSNumber *reachability; // @synthesize reachability=_reachability;
-@property(nonatomic) double unreachableStartTime; // @synthesize unreachableStartTime=_unreachableStartTime;
 
 @end
 

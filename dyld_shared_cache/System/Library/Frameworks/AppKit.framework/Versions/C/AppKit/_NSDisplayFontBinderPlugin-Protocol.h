@@ -5,5 +5,6 @@
 //
 
 @protocol _NSDisplayFontBinderPlugin
+- (id);
 @end
 

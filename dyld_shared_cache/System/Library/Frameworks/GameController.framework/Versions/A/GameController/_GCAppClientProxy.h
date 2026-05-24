@@ -4,58 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceSessionConfiguration, NSArray, NSMapTable, NSObject, NSString, _GCControllerManagerServer;
-@protocol GCControllerServiceRemoteClientInterface, OS_os_transaction, _GCIPCIncomingConnection, _GCIPCObjectRegistry, _GCIPCServiceRegistry;
+@class _GCControllerManagerServer;
 
 @interface _GCAppClientProxy
 {
     _GCControllerManagerServer *_server;
-    _Atomic _Bool _invalid;
-    id <_GCIPCIncomingConnection> _connection;
-    id _connectionInvalidationRegistration;
-    id _connectionInterruptedRegistration;
-    GCDeviceSessionConfiguration *_configuration;
-    id <GCControllerServiceRemoteClientInterface> _controllerServiceClient;
-    unsigned long long _controllerServiceClientPendingUpdates;
-    NSMapTable *_publishedControllerDescriptions;
-    NSObject<OS_os_transaction> *_keyboardMouseTransaction;
-    NSArray *_invalidationHandlers;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (_Bool);
 - (void);
+- (void)r;
+- (void)u;
+- (void);
+- (void)T;
+- (id);
+- (void);
+- (void);
+- (void)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id));
+- (id));
 - (id);
 - (void);
 - (void);
@@ -63,22 +52,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)interval;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) id <_GCIPCObjectRegistry> IPCObjectRegistry;
-@property(readonly) id <_GCIPCServiceRegistry> IPCServiceRegistry;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly) GCDeviceSessionConfiguration *configuration;
 @property(readonly, nonatomic, getter=isInvalid) _Bool invalid;
-@property(copy) NSArray *invalidationHandlers; // @synthesize invalidationHandlers=_invalidationHandlers;
-@property(readonly, nonatomic) int processIdentifier;
 
 @end
 

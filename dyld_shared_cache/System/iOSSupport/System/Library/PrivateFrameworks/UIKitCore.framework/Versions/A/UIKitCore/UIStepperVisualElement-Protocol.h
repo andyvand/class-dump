@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIStepperControl;
+@class UIImage;
 
 @protocol UIStepperVisualElement
++ (struct CGSize);
+- (struct CGSize);
+- (struct CGSize)!;
+- (UIImage *);
+- (void),X;
+- (id)SSet",R,C,N,V_values;
 - (_Bool)Ô ;
-- (void)epresentedElementCategory;
-- (void)iew;
+- (void)_representedElementCategory;
+- (void)__suggestionContainerView;
 - (double),G_contentOffset,S_setContentOffset:,V_contentOffset /* Error: Ran out of types for this method. */;
 - (double)esetClient>",W,N,V_client;
 - (void)À´;
-- (double);
 - (void)TÎîÿ;
-- (void)ngErrorDomain;
+- (_Bool)lifting;
+- (void)_UISceneMaskingErrorDomain;
 - (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 - (double)F;
 
 // Remaining properties
-@property(nonatomic) _Bool autorepeat;
-@property(nonatomic, getter=isContinuous) _Bool continuous;
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) double maximumValue;
-@property(nonatomic) double minimumValue;
-@property(nonatomic) double stepValue;
-@property(nonatomic) __weak id <UIStepperControl> stepperControl;
-@property(nonatomic) double value;
-@property(nonatomic) _Bool wraps;
 @end
 

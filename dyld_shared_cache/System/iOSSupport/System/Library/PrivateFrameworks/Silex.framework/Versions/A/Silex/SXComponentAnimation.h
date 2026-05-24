@@ -11,10 +11,9 @@
 }
 
 - (int);
-- (Class);
+- (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) int transitionBehavior;
 @property(readonly, nonatomic) _Bool userControllable; // @dynamic userControllable;
 
 @end

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMCSSStyleDeclaration, DOMDocument, DOMRange, NSArray, NSData, NSImage, NSString, NSTouchBar, NSUndoManager, NSWindow, WebBackForwardList, WebFrame, WebPreferences, WebScriptObject, WebViewPrivate;
-@protocol WebDownloadDelegate, WebEditingDelegate, WebFrameLoadDelegate, WebPolicyDelegate, WebResourceLoadDelegate, WebUIDelegate;
+@class WebViewPrivate;
 
 @interface WebView
 {
@@ -13,7 +12,7 @@
 }
 
 + (id);
-+ (void);
++ (void)eO;
 + (void);
 + (void);
 + (void);
@@ -29,19 +28,19 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (_Bool)P;
++ (_Bool);
 + (_Bool);
 + (void);
 + (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (_Bool);
++ (void);
++ (void)	;
 + (void);
 + (void);
 + (void);
@@ -59,7 +58,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)s;
 + (void);
 + (void);
 + (_Bool);
@@ -71,86 +70,29 @@
 + (void);
 + (void);
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (_Bool);
++ (void)c ;
 + (void);
 + (void);
 + (id);
 + (_Bool);
++ (void);
++ (void);
++ (id);
++ (_Bool);
 + (id);
 + (_Bool);
 + (void);
 + (void);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool));
 + (id);
 + (void);
 + (void)en Time;
 + (_Bool)ted;
 
 // Remaining properties
-@property(nonatomic) id <WebUIDelegate> UIDelegate;
-@property(nonatomic, setter=_setAllowsLinkPreview:) _Bool _allowsLinkPreview;
-@property(nonatomic, setter=_setUnobscuredSafeAreaInsets:) struct WebEdgeInsets _unobscuredSafeAreaInsets;
 @property(nonatomic, setter=_setUseDarkAppearance:) _Bool _useDarkAppearance;
-@property(nonatomic, setter=_setUseElevatedUserInterfaceLevel:) _Bool _useElevatedUserInterfaceLevel;
-@property(nonatomic, setter=_setUseSystemAppearance:) _Bool _useSystemAppearance;
-@property(copy, nonatomic) NSString *applicationNameForUserAgent;
-@property(readonly, nonatomic) WebBackForwardList *backForwardList;
-@property(readonly, nonatomic) _Bool canGoBack;
-@property(readonly, nonatomic) _Bool canGoForward;
-@property(readonly, nonatomic) _Bool canMakeTextLarger;
-@property(readonly, nonatomic) _Bool canMakeTextSmaller;
-@property(readonly, nonatomic) _Bool canMakeTextStandardSize;
-@property(nonatomic, getter=isContinuousSpellCheckingEnabled) _Bool continuousSpellCheckingEnabled;
-@property(copy, nonatomic) NSString *customTextEncodingName;
-@property(copy, nonatomic) NSString *customUserAgent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) id <WebDownloadDelegate> downloadDelegate;
-@property(nonatomic) _Bool drawsBackground;
-@property(nonatomic, getter=isEditable) _Bool editable;
-@property(nonatomic) id <WebEditingDelegate> editingDelegate;
-@property(readonly, nonatomic) double estimatedProgress;
-@property(nonatomic) id <WebFrameLoadDelegate> frameLoadDelegate;
-@property(copy, nonatomic) NSString *groupName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSWindow *hostWindow;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(readonly, nonatomic) WebFrame *mainFrame;
-@property(readonly, nonatomic) DOMDocument *mainFrameDocument;
-@property(readonly, nonatomic) NSImage *mainFrameIcon;
-@property(readonly, copy, nonatomic) NSString *mainFrameTitle;
-@property(copy, nonatomic) NSString *mainFrameURL;
-@property(readonly, nonatomic) _Bool maintainsInactiveSelection;
-@property(copy, nonatomic) NSString *mediaStyle;
-@property(readonly, copy, nonatomic) NSArray *pasteboardTypesForSelection;
-@property(nonatomic) id <WebPolicyDelegate> policyDelegate;
-@property(retain, nonatomic) WebPreferences *preferences;
-@property(copy, nonatomic) NSString *preferencesIdentifier;
-@property(nonatomic) id <WebResourceLoadDelegate> resourceLoadDelegate;
-@property(readonly, nonatomic) DOMRange *selectedDOMRange;
-@property(readonly, nonatomic) WebFrame *selectedFrame;
-@property(readonly, nonatomic) unsigned long long selectionAffinity;
-@property(nonatomic) _Bool shouldCloseWithWindow;
-@property(nonatomic) _Bool shouldUpdateWhileOffscreen;
-@property(nonatomic) _Bool smartInsertDeleteEnabled;
-@property(copy, nonatomic, getter=_sourceApplicationAuditData, setter=_setSourceApplicationAuditData:) NSData *sourceApplicationAuditData;
-@property(readonly, nonatomic) long long spellCheckerDocumentTag;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsTextEncoding;
-@property(nonatomic) float textSizeMultiplier;
-@property(readonly) NSTouchBar *touchBar; // @dynamic touchBar;
-@property(retain, nonatomic) DOMCSSStyleDeclaration *typingStyle;
-@property(readonly, nonatomic) NSUndoManager *undoManager;
-@property(readonly, nonatomic) WebScriptObject *windowScriptObject;
 
 @end
 

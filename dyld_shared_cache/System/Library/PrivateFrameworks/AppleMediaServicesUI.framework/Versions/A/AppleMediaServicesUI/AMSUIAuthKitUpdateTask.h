@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSViewController, NSWindow;
+@class NSViewController;
 
 @interface AMSUIAuthKitUpdateTask
 {
     NSViewController *_presentingViewController;
-    NSWindow *_presentingWindow;
 }
 
+- (id)Q;
+- (id)z;
 - (id);
 - (id);
+- (id)iedType = %d AND rejectedFaces.@count == 0;
+- (id)grator _fixRejectedKeyFace:] /* Error: Ran out of types for this method. */;
+- (void)lpaperRemnantsInStore:(id)arg1 ];
+- (unsigned long long)sGroupInStagedStore:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void)terruption: /* Error: Ran out of types for this method. */;
+- (void)setEventInlineInterruption: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, getter=getPresentingViewController) NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(readonly) NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
 
 @end
 

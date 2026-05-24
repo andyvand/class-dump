@@ -6,39 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PETSchemaPETRawMessage;
-
 @interface PETSchemaPETAggregationKey : SISchemaInstrumentationMessage
 {
     int _type;
-    unsigned int _datestamp;
-    double _bucket;
-    PETSchemaPETRawMessage *_raw_message;
-    struct {
-        unsigned int type:1;
-        unsigned int datestamp:1;
-        unsigned int bucket:1;
-    } _has;
-    _Bool _hasRaw_message;
 }
 
 - (void);
-- (id);
+- (id)";
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)J;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)oreSpotlight;
 - (double);
 - (void);
 - (void);
@@ -49,21 +38,13 @@
 × ;
 - (id);
 - (void)PlayingApp"b1"nowPlayingAbsoluteCount2Min"b1"nowPlayingAbsoluteCount10Min"b1"nowPlayingAbsoluteCount1Hr"b1"nowPlayingAbsoluteCount6Hr"b1"nowPlayingAbsoluteCount1Day"b1"nowPlayingAbsoluteCount7Day"b1"nowPlayingAbsoluteCount14Day"b1"nowPlayingAbsoluteCount28Day"b1"isNowPlayingApp"b1"isSelectedApp"b1"timeSinceLastForegroundAppStartInSec"b1"timeSinceLastForegroundAppEndInSec"b1"timeSinceLastNowPlayingAppStartInSec"b1"timeSinceLastNowPlayingAppEndInSec"b1"spotlightRelativeCount"b1"supportedMediaCategories"b1"isForegroundApp"b1"entityPartialSiriCount2Min"b1"entityPartialSiriCount10Min"b1"entityPartialSiriCount1Hr"b1"entityPartialSiriCount6Hr"b1"entityPartialSiriCount1Day"b1"entityPartialSiriCount7Day"b1"entityPartialSiriCount28Day"b1"entityPartialAppCount2Min"b1"entityPartialAppCount10Min"b1"entityPartialAppCount1Hr"b1"entityPartialAppCount6Hr"b1"entityPartialAppCount1Day"b1"entityPartialAppCount7Day"b1"entityPartialAppCount28Day"b1};
-- (id)omationCommand;
+- (id)_hasHomeAutomationCommand;
 - (id);
-- (_Bool)TERTRIGGEREDHEURISTICRULE_TIMERRULE;
-- (void)ndleApp;
-- (void)FULLPAYLOADCORRECTIONERRORTYPE_CANCELLATION;
+- (_Bool)NLROUTERTRIGGEREDHEURISTICRULE_TIMERRULE;
+- (void)commonForegroundBundleApp;
+- (void)ASRFULLPAYLOADCORRECTIONERRORTYPE_CANCELLATION;
 
 // Remaining properties
-@property(nonatomic) double bucket; // @synthesize bucket=_bucket;
-@property(nonatomic) unsigned int datestamp; // @synthesize datestamp=_datestamp;
-@property(nonatomic) _Bool hasBucket;
-@property(nonatomic) _Bool hasDatestamp;
-@property(nonatomic) _Bool hasRaw_message; // @synthesize hasRaw_message=_hasRaw_message;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PETSchemaPETRawMessage *raw_message; // @synthesize raw_message=_raw_message;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

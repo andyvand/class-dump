@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng, _SFPBRFTextProperty;
+@class NSData, _SFPBLatLng;
 
 @protocol _SFPBRFMapMarkerText
+- (NSData *)_keyIsHintBased;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBLatLng *coordinate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFTextProperty *monogram;
-@property(copy, nonatomic) NSString *title;
 @end
 

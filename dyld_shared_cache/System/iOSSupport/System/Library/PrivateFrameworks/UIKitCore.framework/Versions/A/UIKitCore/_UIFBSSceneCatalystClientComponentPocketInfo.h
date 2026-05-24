@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSValue, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFBSSceneCatalystClientComponentPocketInfo
 {
     float _luma;
-    UIView *_view;
-    NSValue *_pocket;
-    long long _floatingUserInterfaceStyle;
-    long long _glassFrost;
-    id _pocketContainer;
-    struct CGRect _pocketRectInNSWindow;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void):(long long)arg1 8@"NSURL"16@"NSError"24;
+- (void)emonListenerNotificationsProtocol>"24@0:(long long)arg1 8@"IMDService"16;
+- (struct CGRect)reindexRecentMessagesWithHandles:batchDeferralTime:messageAge:reason: /* Error: Ran out of types for this method. */;
+- (id)reindexRecentMessagesWithHandles:batchDeferralTime:messageAge:reason: /* Error: Ran out of types for this method. */;
+- (long long)_sortedParticipantIDHashForParticipants:usesPersonCentricID: /* Error: Ran out of types for this method. */;
+- (long long)_relayMessageToPairedDevice:messageID:hasAttachments: /* Error: Ran out of types for this method. */;
+- (long long)SNumber",R,N;
 - (id);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (float);
+- (float);
 - (void);
 - (id)eItemScrollView;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long floatingUserInterfaceStyle; // @synthesize floatingUserInterfaceStyle=_floatingUserInterfaceStyle;
-@property(nonatomic) long long glassFrost; // @synthesize glassFrost=_glassFrost;
-@property(nonatomic) float luma; // @synthesize luma=_luma;
-@property(retain, nonatomic) NSValue *pocket; // @synthesize pocket=_pocket;
-@property(retain, nonatomic) id pocketContainer; // @synthesize pocketContainer=_pocketContainer;
-@property(nonatomic) struct CGRect pocketRectInNSWindow; // @synthesize pocketRectInNSWindow=_pocketRectInNSWindow;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

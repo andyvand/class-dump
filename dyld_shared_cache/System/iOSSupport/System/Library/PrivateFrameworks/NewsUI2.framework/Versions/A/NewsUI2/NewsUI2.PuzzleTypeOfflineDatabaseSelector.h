@@ -7,8 +7,6 @@
 @interface NewsUI2.PuzzleTypeOfflineDatabaseSelector
 {
     id userDefaults;
-    id puzzleTypesDefaultsKey;
-    id _puzzleTypes;
 }
 
 @end

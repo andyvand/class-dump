@@ -7,14 +7,9 @@
 @protocol MTLBuffer, MTLComputeCommandEncoder;
 
 @protocol SCNGeometryDeformerUpdateComputeContext
+- (id <MTLBuffer>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLComputeCommandEncoder> currentComputeEncoder;
-@property(readonly, nonatomic) id <MTLBuffer> dstNormalBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> dstPositionBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> dstTangentBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> srcNormalBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> srcPositionBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> srcTangentBuffer;
 @end
 

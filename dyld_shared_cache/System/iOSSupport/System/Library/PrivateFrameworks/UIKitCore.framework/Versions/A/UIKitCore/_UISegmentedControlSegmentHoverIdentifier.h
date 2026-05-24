@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool)eft"d"right"d};
 - (_Bool):(id)arg1 8@"UITextRange"16@"NSAttributedString"24;
-- (id)NextResponder;
-- (long long)set;
+- (id)_accessorControllerNextResponder;
+- (long long)_offset;
 - (_Bool);
 
 // Remaining properties

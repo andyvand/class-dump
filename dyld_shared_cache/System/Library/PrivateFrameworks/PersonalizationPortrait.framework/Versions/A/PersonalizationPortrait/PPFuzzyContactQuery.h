@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
+@class NSSet;
 
 @interface PPFuzzyContactQuery
 {
     _Bool _onlyAddressBook;
-    NSSet *_sourceBundleIds;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (_Bool);
@@ -20,23 +17,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)addNewRenderedStrokes:(id)arg1 wasAddedEarly:hidden:preDrawingChangedBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)__objc_arrayobj;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool onlyAddressBook; // @synthesize onlyAddressBook=_onlyAddressBook;
 @property(retain, nonatomic) NSSet *sourceBundleIds; // @synthesize sourceBundleIds=_sourceBundleIds;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

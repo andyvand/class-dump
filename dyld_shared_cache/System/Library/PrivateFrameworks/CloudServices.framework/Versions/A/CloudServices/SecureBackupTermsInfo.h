@@ -9,49 +9,36 @@
 @interface SecureBackupTermsInfo
 {
     NSString *_altDSID;
-    NSString *_countryCode;
-    NSString *_icloudVersion;
-    NSString *_metadata;
-    NSString *_version;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)r sourceClientIdentifier (%{public}@);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)؜;
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)@;
+- (id)d;
 - (void);
 - (_Bool);
+- (void)initWithAccountInfoProvider:(id)arg1 taskManager:homeURL:cardURL: /* Error: Ran out of types for this method. */;
+- (_Bool)';
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, nonatomic) _Bool hasAltDSID;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(readonly, nonatomic) _Bool hasIcloudVersion;
-@property(readonly, nonatomic) _Bool hasMetadata;
 @property(readonly, nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *icloudVersion; // @synthesize icloudVersion=_icloudVersion;
-@property(retain, nonatomic) NSString *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

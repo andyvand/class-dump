@@ -6,37 +6,19 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectShatter : MREffect
 {
     NSMutableDictionary *mSprites;
-    _Bool mIsLoaded;
-    _Bool mSkipPanorama;
-    MRCAMLBezierData *mZCurves[2];
-    MRCAMLBezierData *mXRotCurves[2];
-    MRCAMLBezierData *mPosCurves[2];
-    MRCAMLBezierData *mYRotCurves[2];
-    MRCAMLBezierData *mLayerZCurves[6][2];
-    double mZKeyTimes[3];
-    double mZValues[3];
-    double mXRotKeyTimes[3];
-    double mXRotValues[3];
-    double mPosKeyTimes[3];
-    double mPosXValues[3];
-    double mPosYValues[3];
-    double mYRotKeyTimes[3];
-    double mYRotValues[3];
-    double mLayerZKeyTimes[6][3];
-    double mLayerZValues[6][3];
 }
 
-- (void);
+- (void)_TtC19NewsAnalyticsUpload15DynamicEndpoint;
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)iCloudAccountState;
+- (_Bool)tation:(double)arg1 ];
+- (id)ler.m;
+- (_Bool)ory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeManager.m;
 - (id);
 - (void);
 - (void);

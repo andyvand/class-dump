@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ISObservable
 {
     long long _nestedChanges;
-    NSMutableArray *_pendingChangesQueue_pendingChangeBlocks;
-    long long _numAppliedPendingChanges;
-    unsigned long long _currentChange;
-    _Bool _isEnumeratingObservers;
-    NSObject<OS_dispatch_queue> *_observersQueue;
-    NSObject<OS_dispatch_queue> *_pendingChangesQueue;
-    _Bool _observersQueue_shouldCopyChangeObserversOnWrite;
-    NSMapTable *_observersQueue_changeObserversWithContexts;
-    _Bool _hasObservers;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_gradientFactory;
+- (id)_componentLayoutResolver;
+- (_Bool)_cachedDirection;
+- (void)_activityIndicatorView;
+- (void)_accessibilityTextRectsForSpeakThisStringRange:(CDUnknownBlockType)arg1;
+- (unsigned long long)_accessibilityNextElementsForSpeakThis;
+- (void)_originalCenter;
+- (void)ckCount;
+- (void)V_numberOfFrames;
+- (void)n;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)u;
 - (_Bool);
 - (void);
 - (id);

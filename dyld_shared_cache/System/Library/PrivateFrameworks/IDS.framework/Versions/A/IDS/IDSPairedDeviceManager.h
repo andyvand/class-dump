@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSXPCDaemonController, NSSet, NSString, _IDSCompletionHandler;
+@class IDSXPCDaemonController, _IDSCompletionHandler;
 
 @interface IDSPairedDeviceManager
 {
     _IDSCompletionHandler *_deleteCompletion;
-    _IDSCompletionHandler *_localCompletion;
-    _IDSCompletionHandler *_pairedCompletion;
-    _IDSCompletionHandler *_deliveryStatsCompletion;
-    IDSXPCDaemonController *_xpcDaemonController;
-    NSSet *_allowedTrafficClassifiers;
 }
 
 + (id)ssion"16I24;
@@ -29,21 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id),V_rssiEnter;
 - (void),°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allowedTrafficClassifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) IDSXPCDaemonController *xpcDaemonController; // @synthesize xpcDaemonController=_xpcDaemonController;
 
 @end

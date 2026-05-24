@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface TILanguageModelAdaptationContext
 {
     _Bool _isOnline;
-    NSString *_appContext;
-    NSString *_recipientNameDigest;
-    NSDictionary *_recipientContext;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)array;
+- (id)RTTSettings;
+- (id)AXRTTSettingsListenerHelper;
+- (id)axtty_local_locale;
+- (id)axtty_reset_cloud_support_store_action;
+- (id)lityUtilities;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)Qið1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appContext; // @synthesize appContext=_appContext;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *identifierForResponseKit;
-@property(nonatomic) _Bool isOnline; // @synthesize isOnline=_isOnline;
-@property(readonly, nonatomic) NSDictionary *recipientContext; // @synthesize recipientContext=_recipientContext;
-@property(readonly, nonatomic) NSString *recipientNameDigest; // @synthesize recipientNameDigest=_recipientNameDigest;
 
 @end
 

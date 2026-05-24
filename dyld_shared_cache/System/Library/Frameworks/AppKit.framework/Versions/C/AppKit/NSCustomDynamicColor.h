@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _dynamicProvider;
 }
 
-- (id);
-- (id);
+- (id)_skip_download_unlink;
+- (id)previousFailureCount:(id)arg1 failureResponse:(id)arg2 error:(id)arg3 sender: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (Class);

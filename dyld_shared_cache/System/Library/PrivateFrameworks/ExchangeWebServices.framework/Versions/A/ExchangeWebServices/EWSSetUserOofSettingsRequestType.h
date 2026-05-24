@@ -6,24 +6,22 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSEmailAddress, EWSUserOofSettingsType;
+@class EWSEmailAddress;
 
 @interface EWSSetUserOofSettingsRequestType : EWSBaseRequestType
 {
     EWSEmailAddress *_Mailbox;
-    EWSUserOofSettingsType *_UserOofSettings;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)@9;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSEmailAddress *Mailbox; // @synthesize Mailbox=_Mailbox;
-@property(retain, nonatomic) EWSUserOofSettingsType *UserOofSettings; // @synthesize UserOofSettings=_UserOofSettings;
 
 @end
 

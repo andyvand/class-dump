@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable;
-
 __attribute__((visibility("hidden")))
 @interface _UIUnsafeUnretainedCleanupHelper
 {
     CDUnknownBlockType _deallocationHandler;
-    id _parent;
-    NSHashTable *_children;
 }
 
 - (id);

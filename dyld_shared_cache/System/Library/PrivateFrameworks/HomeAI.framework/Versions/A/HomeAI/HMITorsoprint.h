@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface HMITorsoprint
 {
     _Bool _lowQuality;
-    _Bool _unrecognizable;
-    NSUUID *_UUID;
-    NSData *_data;
 }
 
 + (_Bool);
@@ -19,10 +16,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)@@y	?%@qa;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly) _Bool lowQuality; // @synthesize lowQuality=_lowQuality;
-@property(readonly) _Bool unrecognizable; // @synthesize unrecognizable=_unrecognizable;
 
 @end
 

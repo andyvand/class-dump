@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDCanvasLayer, TSDCanvasView, TSDInteractiveCanvasController, UIScrollView;
-@protocol TSDPanGuide;
+@class TSDInteractiveCanvasController;
 
 @interface TSDGuidedPanController
 {
     TSDInteractiveCanvasController *_interactiveCanvasController;
-    TSDCanvasView *_canvasView;
-    TSDCanvasLayer *_canvasLayer;
-    UIScrollView *_canvasScrollView;
-    id <TSDPanGuide> _guide;
-    struct CGPoint _startPoint;
-    struct CGPoint _movement;
-    struct CGPoint _velocity;
 }
 
 - (CDStruct_499be82c);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CATransform3D);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (struct CGPoint);
@@ -33,33 +25,24 @@
 - (CDStruct_499be82c);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)8;
 - (void);
 - (void)ableInfo",R,N,VmTableInfo;
 
 // Remaining properties
-@property(nonatomic) TSDCanvasLayer *canvasLayer; // @synthesize canvasLayer=_canvasLayer;
-@property(nonatomic) UIScrollView *canvasScrollView; // @synthesize canvasScrollView=_canvasScrollView;
-@property(nonatomic) TSDCanvasView *canvasView; // @synthesize canvasView=_canvasView;
-@property(readonly, nonatomic) CDStruct_499be82c centerPlusMovementContentPlacement;
-@property(retain, nonatomic) id <TSDPanGuide> guide; // @synthesize guide=_guide;
 @property(nonatomic) TSDInteractiveCanvasController *interactiveCanvasController; // @synthesize interactiveCanvasController=_interactiveCanvasController;
-@property(nonatomic) struct CGPoint movement; // @synthesize movement=_movement;
-@property(nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
-@property(readonly, nonatomic) CDStruct_499be82c touchContentPlacement;
-@property(nonatomic) struct CGPoint velocity; // @synthesize velocity=_velocity;
 
 @end
 

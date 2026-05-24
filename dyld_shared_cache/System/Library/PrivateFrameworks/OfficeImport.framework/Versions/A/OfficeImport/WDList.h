@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, WDDocument;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDList
 {
     WDDocument *mDocument;
-    int mListId;
-    int mListDefinitionId;
-    NSMutableArray *mLevelOverrides;
 }
 
 - (void);
 - (int);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)qBw;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
 - (void)on inputStream];
 
 // Remaining properties
-@property(readonly, nonatomic) int listDefinitionId; // @synthesize listDefinitionId=mListDefinitionId;
 @property(readonly, nonatomic) int listId; // @synthesize listId=mListId;
 
 @end

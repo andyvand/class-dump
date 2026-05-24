@@ -9,23 +9,19 @@
 @interface WFSpringBoardWebClipMetadata
 {
     _Bool _appIsInstalled;
-    NSString *_shortcutIdentifier;
-    NSString *_applicationIdentifier;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)|;
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)performSelector:(id)arg1;
+- (id);
 - (void)Ñ^1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appIsInstalled; // @synthesize appIsInstalled=_appIsInstalled;
-@property(readonly, copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
 @property(readonly, copy, nonatomic) NSString *shortcutIdentifier; // @synthesize shortcutIdentifier=_shortcutIdentifier;
 
 @end

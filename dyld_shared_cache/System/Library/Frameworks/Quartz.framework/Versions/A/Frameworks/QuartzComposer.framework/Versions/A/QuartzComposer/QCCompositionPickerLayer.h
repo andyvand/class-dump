@@ -11,13 +11,13 @@
     QCCompositionPickerController *_controller;
 }
 
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)}@Removed accessory via merge:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void);
 - (void);

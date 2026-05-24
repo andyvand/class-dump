@@ -6,21 +6,18 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class OIXMLElement, WDParagraph;
+@class WDParagraph;
 
 __attribute__((visibility("hidden")))
 @interface WMParagraphMapper : CMMapper
 {
     WDParagraph *wdParagraph;
-    OIXMLElement *mActiveNode;
-    _Bool mIsDeleted;
-    _Bool mIsEmptyStylingParagraph;
 }
 
-+ (void);
++ (void)!;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

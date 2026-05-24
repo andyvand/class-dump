@@ -7,10 +7,11 @@
 @interface HomeEnergyDaemon.HomeEnergyListener
 {
     id xpcListener;
+    id _TtP16HomeEnergyDaemon21HomeEnergyXPCProtocol_;
 }
 
 - (void);
-- (id);
+- (id)HUQuickControlAuxiliaryView;
 - (_Bool);
 - (void);
 

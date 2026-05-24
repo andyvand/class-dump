@@ -6,8 +6,6 @@
 
 #import <AppKit/NSScrollingBehavior.h>
 
-@class CADisplayLink, NSScrollView, NSTimer, _NSScrollingMomentumCalculator, _NSScrollingPerfLogger, _NSScrollingPredominantAxisFilter, _NSScrollingRubberbandFilter;
-
 __attribute__((visibility("hidden")))
 @interface NSScrollingBehaviorLegacy : NSScrollingBehavior
 {
@@ -22,26 +20,11 @@ __attribute__((visibility("hidden")))
         unsigned int ongoingSnapBackAnimation:1;
         unsigned int :24;
     } _flags;
-    struct CGSize _overflowScrollDelta;
-    struct CGSize _stretchScrollForce;
-    struct CGSize _momentumVelocity;
-    double _lastMomentumScrollTimeStamp;
-    id _endGestureMonitor;
-    id _mouseDownMonitor;
-    NSScrollView *_scrollViewRefForCarbonApps;
-    NSTimer *_momentumTimer;
-    CADisplayLink *_snapBackAnimator;
-    _NSScrollingPredominantAxisFilter *_predominantAxisFilter;
-    _NSScrollingRubberbandFilter *_rubberbandFilter;
-    _NSScrollingMomentumCalculator *_momentumCalculator;
-    struct CGPoint _lastPanVelocity;
-    NSTimer *_panAnimationTimer;
-    _NSScrollingPerfLogger *_perfLogger;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)4 ;
 - (id);
 - (void);
 - (id);
@@ -51,24 +34,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)r the UUID cache;
 - (id);
 - (void);
 - (void);
+- (void)ublic}@> Already invalidating %@;
+- (void)@> Already invalidating %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)6@?0{FrameMetadata=QQQ}8@"NSObject<OS_dispatch_data>"32{?=qi}40;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property id endGestureMonitor; // @synthesize endGestureMonitor=_endGestureMonitor;
-@property(retain) NSScrollView *scrollViewRefForCarbonApps; // @synthesize scrollViewRefForCarbonApps=_scrollViewRefForCarbonApps;
 
 @end
 

@@ -9,30 +9,27 @@
 @interface QCNumberPort : QCPort
 {
     double _value;
-    double _min;
-    double _max;
-    void *_unused3[4];
 }
 
-+ (Class);
++ (Class)k)-;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (double);
-- (CDStruct_bdcb2b0d);
-- (double);
-- (id);
+- (void);
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (CDStruct_60067b7e);
 - (double);
 - (id);
+- (void);
+- (double);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)dle;
+- (double);
+- (id)	;
 - (id);
 - (Class);
 

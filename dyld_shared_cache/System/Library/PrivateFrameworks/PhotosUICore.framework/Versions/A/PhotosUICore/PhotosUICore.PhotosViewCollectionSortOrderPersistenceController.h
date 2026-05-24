@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosViewCollectionSortOrderPersistenceController
 {
     id reverseSortOrder;
-    id container;
-    id collectionKind;
-    id userDefaults;
 }
 
 @end

@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
 @interface CKLocationAttachmentItem : CKAttachmentItem
 {
     NSString *_locationTitle;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 + (id);
-- (id);
+- (id)informCloudAnalyticsDelegateForOperationDidEnd:recordsByRecordID:operationError: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)a;
+- (void)m;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)!Ț?;
 - (id);
 - (void);
 - (struct CLLocationCoordinate2D);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(copy, nonatomic) NSString *locationTitle; // @synthesize locationTitle=_locationTitle;
 
 @end
 

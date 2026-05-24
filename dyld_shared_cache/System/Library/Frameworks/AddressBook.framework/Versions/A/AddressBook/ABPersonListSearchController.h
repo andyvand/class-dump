@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABPersonListSearchControllerUsageStatisticsHelper, ABPersonSearchConfiguration, NSArray, NSSearchField, NSString;
-@protocol ABPersonListControllerProtocol, ABPersonListHeadlining, ABPersonSearchControllerDelegate;
+@class NSString;
+@protocol ABPersonListControllerProtocol;
 
 @interface ABPersonListSearchController
 {
     NSString *_previousSearchString;
-    ABPersonSearchConfiguration *_currentConfiguration;
-    id <ABPersonListHeadlining> _browsingHeadliner;
-    ABAddressBook *_browsingAddressBook;
-    ABPersonListSearchControllerUsageStatisticsHelper *_usageStatisticsHelper;
-    unsigned long long _countOfLocalSearchesPerformed;
-    unsigned long long _countOfServerSearchesPerformed;
-    _Bool _shouldSelectBestEntry;
-    id <ABPersonSearchControllerDelegate> _delegate;
-    id <ABPersonListControllerProtocol> _personListController;
-    NSSearchField *_searchField;
 }
 
 - (id);
@@ -35,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -46,14 +36,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_threadSafe_fileManager;
 - (void);
-- (void);
+- (void)enableWithStartAddress:(id)arg1 endAddress:cachingServerInfo:callback: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¡@Ð!AùÑ©ð1Â0@ù
 × ;
@@ -61,30 +51,12 @@
 × ;
 - (void);
 - (void)v@?>32;
-- (void)outRolloverHighlight;
-- (_Bool)dateCommandForUpdatedContacts:(id)arg1;
-- (id)ndColor;
+- (void)prepareForDrawingWithoutRolloverHighlight;
+- (_Bool)makeUpdateCommandForUpdatedContacts:(id)arg1;
+- (id)_foregroundColor;
 
 // Remaining properties
-@property(retain) ABAddressBook *browsingAddressBook; // @synthesize browsingAddressBook=_browsingAddressBook;
-@property(retain) id <ABPersonListHeadlining> browsingHeadliner; // @synthesize browsingHeadliner=_browsingHeadliner;
-@property(readonly) unsigned long long countOfLocalSearchesPerformed;
-@property(readonly) unsigned long long countOfServerSearchesPerformed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <ABPersonSearchControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak id <ABPersonListControllerProtocol> personListController; // @synthesize personListController=_personListController;
-@property(copy) NSString *previousSearchString; // @synthesize previousSearchString=_previousSearchString;
-@property(nonatomic) __weak NSSearchField *searchField; // @synthesize searchField=_searchField;
-@property(copy) NSString *searchString;
-@property(readonly, copy) NSArray *searchTerms;
-@property(nonatomic) _Bool shouldSelectBestEntry; // @synthesize shouldSelectBestEntry=_shouldSelectBestEntry;
-@property(readonly) Class superclass;
-@property(retain) ABPersonListSearchControllerUsageStatisticsHelper *usageStatisticsHelper; // @synthesize usageStatisticsHelper=_usageStatisticsHelper;
 
 @end
 

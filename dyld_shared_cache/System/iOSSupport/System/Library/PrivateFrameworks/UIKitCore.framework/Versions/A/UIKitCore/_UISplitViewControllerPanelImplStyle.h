@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (double);
-- (_Bool);
+- (double)tring"24C32@"NSDictionary"36@"NSString"44@"NSString"52@"IMMessageItem"60;
+- (_Bool)sendPersonalNicknameToRecipients:chatGUID:fromHandle:onlyUseNicknameSendingService:onlySendToThoseLoggedOutOfIMessage: /* Error: Ran out of types for this method. */;
 - (id)6@0:8@16i24B28B32 /* Error: Ran out of types for this method. */;
 - (long long)rState"24{CGSize=dd}32;
 - (id)have a valid container.;

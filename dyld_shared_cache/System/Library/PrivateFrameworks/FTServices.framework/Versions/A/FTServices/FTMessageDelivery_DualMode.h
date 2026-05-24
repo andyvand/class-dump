@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTMessageDelivery, FTMessageQueue, IDSBaseMessage, NSArray, NSString;
+@class FTMessageDelivery, NSString;
 
 @interface FTMessageDelivery_DualMode
 {
     FTMessageDelivery *_httpDelivery;
-    FTMessageDelivery *_apsDelivery;
-    FTMessageQueue *_dualModeQueue;
-    NSString *_userAgentString;
 }
 
-- (void);
+- (void)@9;
 - (long long);
-- (void);
+- (void)Error"16;
 - (id);
-- (void);
+- (void)t be initialized with at least one token path.;
 - (void);
 - (void);
 - (_Bool);
+- (void)";
+- (_Bool);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)sending metrics logging feedback to server;
 - (id);
 - (void);
 - (void);
@@ -35,53 +32,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSArray *allMessages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) _Bool busy;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) IDSBaseMessage *currentMessage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IDSBaseMessage",?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasQueuedItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long hash;
-@property _Bool logToRegistration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
-@property unsigned long long maxConcurrentMessages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(readonly) long long maxLargeMessageSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) long long maxMessageSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) NSArray *queuedMessages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property _Bool retryInAirplaneMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *userAgent;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,C,N

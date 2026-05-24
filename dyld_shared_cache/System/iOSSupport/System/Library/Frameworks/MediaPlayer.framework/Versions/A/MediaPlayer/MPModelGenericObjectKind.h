@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
+- (id)B24;
+- (unsigned long long)localNonWakingRegistrationWithIdentifier:contextualPredicate:clientIdentifier:callback: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void)lable;
 

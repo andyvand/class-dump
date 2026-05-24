@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSError;
 
 @interface PKPeerPaymentFailureDiagnostic
 {
     NSError *_error;
-    unsigned long long _flowType;
-    long long _reasonCode;
-    unsigned long long _role;
-    NSString *_transactionIdentifier;
 }
 
 + (_Bool)0@ù
@@ -21,22 +17,18 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id);
+- (void)A;
 - (id);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (long long)J;
+- (void)";
+- (void)setSample1Rssi:(id)arg1;
 - (unsigned long long)¼°;
-- (void)Count;
-- (void)der;
+- (void)maxViewCount;
+- (void)localizedPlaceholder;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long flowType; // @synthesize flowType=_flowType;
-@property(nonatomic) long long reasonCode; // @synthesize reasonCode=_reasonCode;
-@property(nonatomic) unsigned long long role; // @synthesize role=_role;
-@property(retain, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol CRKOSTransactionPrimitives
+- (long long)A;
 
 // Remaining properties
 @property(readonly, nonatomic) long long transactionCount;

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, SPSearchResultMarker;
+@class NSArray, NSError;
 
 @interface SPBeaconPayloadCacheSearchResult
 {
     NSError *_error;
-    NSArray *_fileURLs;
-    SPSearchResultMarker *_searchResultMarker;
 }
 
 + (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
@@ -26,9 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
 @property(copy, nonatomic) NSArray *fileURLs; // @synthesize fileURLs=_fileURLs;
-@property(retain, nonatomic) SPSearchResultMarker *searchResultMarker; // @synthesize searchResultMarker=_searchResultMarker;
 
 @end
 

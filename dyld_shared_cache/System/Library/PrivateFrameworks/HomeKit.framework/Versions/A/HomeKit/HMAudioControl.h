@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMediaSession, NSString, NSUUID, _HMAudioControl;
+@class _HMAudioControl;
 @protocol HMAudioControlDelegate;
 
 @interface HMAudioControl
 {
     id <HMAudioControlDelegate> _delegate;
-    HMMediaSession *_mediaSession;
-    _HMAudioControl *_audioControl;
 }
 
 - (void);
@@ -27,28 +25,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)_shouldInsertSpaceAfterSelection;
 - (float);
 - (id);
 - (void);
-- (_Bool)er: /* Error: Ran out of types for this method. */;
+- (_Bool)contextForMediaSystemStageManager: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _HMAudioControl *audioControl; // @synthesize audioControl=_audioControl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMAudioControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMMediaSession *mediaSession; // @synthesize mediaSession=_mediaSession;
-@property(getter=isMuted) _Bool muted;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
-@property float volume;
 
 @end
 

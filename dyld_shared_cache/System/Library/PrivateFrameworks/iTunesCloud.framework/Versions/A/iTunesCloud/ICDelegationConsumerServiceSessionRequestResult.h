@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegateToken, NSError, NSString;
+@class ICDelegateToken;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationConsumerServiceSessionRequestResult
 {
     ICDelegateToken *_delegateToken;
-    NSError *_resultError;
-    NSString *_storefrontIdentifier;
 }
 
 - (id);
@@ -22,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ICDelegateToken *delegateToken; // @synthesize delegateToken=_delegateToken;
-@property(readonly, copy, nonatomic) NSError *resultError; // @synthesize resultError=_resultError;
-@property(readonly, copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 
 @end
 

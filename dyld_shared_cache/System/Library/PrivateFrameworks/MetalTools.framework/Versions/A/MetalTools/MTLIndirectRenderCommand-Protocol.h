@@ -5,5 +5,8 @@
 //
 
 @protocol MTLIndirectRenderCommand
+- (void);
+- (void);
+- (void);
 @end
 

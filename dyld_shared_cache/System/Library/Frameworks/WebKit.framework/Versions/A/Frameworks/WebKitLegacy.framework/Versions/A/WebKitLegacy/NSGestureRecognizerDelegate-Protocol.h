@@ -7,6 +7,7 @@
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool)%@/;
 - (_Bool);
 @end
 

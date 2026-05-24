@@ -9,14 +9,6 @@
 @interface PKLocation
 {
     _Bool _hasAltitude;
-    _Atomic _Bool _hashComputed;
-    _Atomic unsigned long long _hash;
-    NSString *_name;
-    NSString *_relevantText;
-    double _latitude;
-    double _longitude;
-    double _altitude;
-    double _maxDistance;
 }
 
 + (_Bool)X"°!@ùî%1Â0@ù
@@ -30,16 +22,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
-- (_Bool);
-- (void);
+- (_Bool)setBrowseAddTotalCount:(id)arg1;
+- (void)bandwidth;
 - (struct CLLocationCoordinate2D);
-- (void);
+- (void)b;
 - (double);
 - (void);
-- (id)NetworkIdentifiers:(id)arg1 merchantCapabilities:merchantCountryCode:paymentApplicationStates:paymentRequestType:isMultiTokensRequest:webService: /* Error: Ran out of types for this method. */;
+- (id)acceptedForNonWebPaymentWithSupportedNetworkIdentifiers:(id)arg1 merchantCapabilities:merchantCountryCode:paymentApplicationStates:paymentRequestType:isMultiTokensRequest:webService: /* Error: Ran out of types for this method. */;
 - (double)ialState;
 - (void)DW;
 - (void)wn:%i) /* Error: Ran out of types for this method. */;
@@ -47,14 +39,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, nonatomic) _Bool hasAltitude; // @synthesize hasAltitude=_hasAltitude;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(nonatomic) double maxDistance; // @synthesize maxDistance=_maxDistance;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *relevantText; // @synthesize relevantText=_relevantText;
 
 @end
 

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface ASAuthorizationPublicKeyCredentialPRFRegistrationOutput
 {
     _Bool isSupported;
-    void first;
-    void second;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)tableView:(id)arg1 canMoveRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)unt, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
 - (id);
 - (_Bool);
 - (void);
 - (void)ÿÿÿÿþÿÿ;
 
 // Remaining properties
-@property(nonatomic, copy) NSData *first;
 @property(nonatomic) _Bool isSupported; // @synthesize isSupported;
-@property(nonatomic, copy) NSData *second;
 
 @end
 

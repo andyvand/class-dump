@@ -6,22 +6,12 @@
 
 #import <AppKit/NSCollectionViewLayout.h>
 
-@class NSArray;
-
 @interface NSCollectionViewGridLayout : NSCollectionViewLayout
 {
     unsigned long long _maxGridRows;
-    unsigned long long _maxGridColumns;
-    struct CGSize _minItemSize;
-    struct CGSize _maxItemSize;
-    struct NSEdgeInsets _margins;
-    double _minimumInteritemSpacing;
-    double _minimumLineSpacing;
-    NSArray *_backgroundColors;
-    id _glReserved[22];
 }
 
-+ (_Bool);
++ (_Bool)l recovery;
 - (void);
 - (void);
 - (void);
@@ -29,22 +19,22 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (unsigned long long);
-- (unsigned long long);
+- (double)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (double)dictionaryWithContentsOfURL: /* Error: Ran out of types for this method. */;
+- (unsigned long long)connection:willSendRequestForEstablishedConnection:properties: /* Error: Ran out of types for this method. */;
+- (unsigned long long)connection:willSendRequestForEstablishedConnection:properties: /* Error: Ran out of types for this method. */;
+- (id)_timeoutIntervalForResource;
+- (id)_tcpInfoBegin;
 - (id);
-- (id);
-- (id);
+- (void)];
+- (_Bool)dataIsEncoded;
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
 - (CDStruct_22276b4c);
 - (CDStruct_22276b4c);
 - (CDStruct_22276b4c);
 - (CDStruct_22276b4c);
-- (CDStruct_22276b4c);
+- (CDStruct_22276b4c)z: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (struct CGSize);
 - (void);
@@ -54,23 +44,16 @@
 - (struct NSEdgeInsets);
 - (void)0@ù
 × ;
-- (long long)hlightAttributesDict;
+- (long long)_textHighlightAttributesDict;
 - (struct CGSize)*Ð*+;
-- (_Bool)w;
+- (_Bool)SgXw;
 - (id)sistentUIRemoteStorageClient writeRecords:(struct CGRect)arg1 withWindowInfos:flushingStaleData:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void)arColorPickerViewController.colorList;
 - (id)D^^ÿ|²
 âI;
 
 // Remaining properties
-@property(copy) NSArray *backgroundColors;
 @property struct NSEdgeInsets margins;
-@property struct CGSize maximumItemSize;
-@property unsigned long long maximumNumberOfColumns;
-@property unsigned long long maximumNumberOfRows;
-@property double minimumInteritemSpacing;
-@property struct CGSize minimumItemSize;
-@property double minimumLineSpacing;
 
 @end
 

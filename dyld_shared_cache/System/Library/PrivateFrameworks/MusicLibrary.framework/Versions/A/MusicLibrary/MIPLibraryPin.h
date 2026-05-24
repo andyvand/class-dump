@@ -4,70 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MIPLibraryPin
 {
     long long _cloudItemID;
-    long long _defaultAction;
-    long long _entityType;
-    long long _position;
-    NSString *_cloudLibraryID;
-    NSString *_positionUUID;
-    struct {
-        unsigned int cloudItemID:1;
-        unsigned int defaultAction:1;
-        unsigned int entityType:1;
-        unsigned int position:1;
-    } _has;
 }
 
+- (void)vuObservationID;
+- (void)TypeIdentifier;
+- (void)setFacesAdjustmentsFingerprint:(id)arg1;
+- (id)er",R;
+- (_Bool)xSet",R,N;
+- (_Bool)t",R,&,N;
+- (id)uteKey",R,N,V_photosThumbnailMapKey;
+- (long long)tionDataIsValidKey;
+- (_Bool)t;
+- (void)NSURL",R,N,V_libraryURL;
 - (void);
 - (void);
 - (void);
-- (id);
 - (_Bool);
+- (void);
 - (_Bool);
-- (id);
+- (long long);
+- (_Bool);
+- (id)v^C�`b;
+- (void);
+- (long long);
+- (void);
+- (unsigned long long)*;
+- (_Bool)initWithNamespace:(id)arg1 data: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
+- (id)_cacheAllChoiceItemsIfNeeded;
 - (id);
-- (void);
-- (long long);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void)album.representative_item_pid == album_item_extra.ROWID);
 
 // Remaining properties
-@property(nonatomic) long long cloudItemID; // @synthesize cloudItemID=_cloudItemID;
-@property(retain, nonatomic) NSString *cloudLibraryID; // @synthesize cloudLibraryID=_cloudLibraryID;
-@property(nonatomic) long long defaultAction; // @synthesize defaultAction=_defaultAction;
-@property(nonatomic) long long entityType; // @synthesize entityType=_entityType;
-@property(nonatomic) _Bool hasCloudItemID;
-@property(readonly, nonatomic) _Bool hasCloudLibraryID;
-@property(nonatomic) _Bool hasDefaultAction;
 @property(nonatomic) _Bool hasEntityType;
-@property(nonatomic) _Bool hasPosition;
-@property(readonly, nonatomic) _Bool hasPositionUUID;
-@property(nonatomic) long long position; // @synthesize position=_position;
-@property(retain, nonatomic) NSString *positionUUID; // @synthesize positionUUID=_positionUUID;
 
 @end
 

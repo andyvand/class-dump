@@ -9,11 +9,11 @@
     unsigned long long _mach_time;
 }
 
-+ (_Bool);
++ (_Bool)_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)(;
 - (void);
 
 // Remaining properties

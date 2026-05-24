@@ -9,18 +9,11 @@
 @interface XCTApplicationStateSnapshot
 {
     _Bool _trackingPID;
-    int _processID;
-    NSString *_bundleID;
-    NSString *_path;
-    NSString *_processName;
-    unsigned long long _runState;
-    unsigned long long _activationPolicy;
-    unsigned long long _eventID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (unsigned long long);
@@ -30,20 +23,13 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@@?;
 - (void);
 - (int);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long activationPolicy; // @synthesize activationPolicy=_activationPolicy;
 @property(readonly, copy) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly) unsigned long long eventID; // @synthesize eventID=_eventID;
-@property(readonly, copy) NSString *path; // @synthesize path=_path;
-@property(readonly) int processID; // @synthesize processID=_processID;
-@property(readonly, copy) NSString *processName; // @synthesize processName=_processName;
-@property(readonly) unsigned long long runState; // @synthesize runState=_runState;
-@property(getter=isTrackingPID) _Bool trackingPID; // @synthesize trackingPID=_trackingPID;
 
 @end
 

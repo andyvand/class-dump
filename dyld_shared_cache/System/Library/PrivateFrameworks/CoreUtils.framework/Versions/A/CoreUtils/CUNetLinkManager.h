@@ -4,41 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableSet, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CUNetLinkManager
 {
     NSMutableSet *_endpoints;
-    unsigned int _endpointChanges;
-    _Bool _hasIPv4Endpoint;
-    _Bool _hasIPv6Endpoint;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSObject<OS_dispatch_source> *_pollTimer;
-    int _probeSocketV4;
-    NSObject<OS_dispatch_source> *_probeSourceV4;
-    int _probeSocketV6;
-    NSObject<OS_dispatch_source> *_probeSourceV6;
-    unsigned int _reReachableCount;
-    unsigned int _rxCount;
-    unsigned int _txCount;
-    unsigned int _txErrors;
-    struct LogCategory *_ucat;
-    unsigned int _unreachableCount;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)&'!';
+- (id)_kMDItemRenderValues;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)c;
+- (id)numberWithInteger: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -57,12 +38,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ic}@ doesn't have host;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

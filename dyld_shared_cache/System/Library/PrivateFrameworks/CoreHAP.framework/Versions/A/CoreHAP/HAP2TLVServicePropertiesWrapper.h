@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HAP2TLVServicePropertiesWrapper
 {
@@ -13,24 +11,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id);
+- (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ead data from offset:(id)arg1 %lld with length:%lld. Size (%lld) too small /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end

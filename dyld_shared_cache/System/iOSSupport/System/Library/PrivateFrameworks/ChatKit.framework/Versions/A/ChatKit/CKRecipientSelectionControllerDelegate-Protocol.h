@@ -4,6 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKRecipientSelectionController, NSString, UIScrollView, UIView;
+
 @protocol CKRecipientSelectionControllerDelegate
+- (_Bool)lineFragmentRectForProposedRect:(CKRecipientSelectionController *)arg1 atIndex:writingDirection:remainingRect: /* Error: Ran out of types for this method. */;
+- (void)legacySortDescriptorsForType:(CKRecipientSelectionController *)arg1;
+- (void)legacyNoteFetchedResultsController;
+- (void)legacyFetchedResultsController;
+- (void)legacyAccountManagedObjectIDs;
+- (void)legacyAccountForLocalAccountWithContext:(CKRecipientSelectionController *)arg1;
+- (void)legacyAccountForEmailAddress:(CKRecipientSelectionController *)arg1;
+- (void)leadingConstraint;
+- (void)layoutSubtreeIfNeeded;
+- (void)latestDrawing;
+- (void)lastOperationForAttachmentID;
+- (void)lastAnnouncement;
+- (void)keychainItemMissingInfoAlert;
+- (struct UIEdgeInsets)fixFontAttributeInRange:(CKRecipientSelectionController *)arg1;
+
+@optional
+- (_Bool)postAlertForMovingFolderWithSharedNotes:(CKRecipientSelectionController *)arg1 sharedSubfolders:destination:shareHandler:cancelHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)postAlertForFolderDepthLimitWithCompletionHandler:(CKRecipientSelectionController *)arg1;
+- (void)pinnedTimelineSectionIdentifierWithTitle:(NSString *)arg1 referenceDate: /* Error: Ran out of types for this method. */;
+- (UIView *)URLWithSchemeForString:(CKRecipientSelectionController *)arg1;
+- (UIScrollView *);
+- (struct UIEdgeInsets);
 @end
 

@@ -5,12 +5,10 @@
 //
 
 @class VTUITrainingViewController;
-@protocol SiriUISAEVoiceTrainingControllerDelegate;
 
 @interface SAEVoiceTrainingController
 {
     void trainingController;
-    void delegate;
 }
 
 - (id);
@@ -28,10 +26,9 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)antConnectionAudioSessionDidBeginInterruption:userInfo: /* Error: Ran out of types for this method. */;
+- (void)assistantConnectionAudioSessionDidBeginInterruption:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <SiriUISAEVoiceTrainingControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic) __weak VTUITrainingViewController *trainingController; // @synthesize trainingController;
 
 @end

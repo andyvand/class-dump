@@ -92,14 +92,6 @@ struct sockaddr_in {
     char _field5[8];
 };
 
-struct vector<std::shared_ptr<TSUStringChunk>, std::allocator<std::shared_ptr<TSUStringChunk>>> {
-    void *__begin_;
-    void *__end_;
-    struct {
-        void *__cap_;
-    } ;
-};
-
 struct z_stream_s {
     char *next_in;
     unsigned int avail_in;

@@ -6,24 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCOfflineDownloadsConfiguration, FCThreadSafeMutableArray, NSObject, NSString;
-@protocol FCContentContext, OS_dispatch_queue;
-
 @interface FCOfflinePuzzleFetchOperation : FCOperation
 {
     _Bool cachedOnly;
-    CDUnknownBlockType archiveHandler;
-    NSObject<OS_dispatch_queue> *archiveQueue;
-    CDUnknownBlockType fetchCompletionHandler;
-    NSObject<OS_dispatch_queue> *fetchCompletionQueue;
-    CDUnknownBlockType progressHandler;
-    NSObject<OS_dispatch_queue> *progressQueue;
-    id <FCContentContext> _context;
-    NSString *_puzzleID;
-    FCOfflineDownloadsConfiguration *_config;
-    FCThreadSafeMutableArray *_resultInterestTokens;
-    double _progress;
-    FCCachePolicy *_puzzleRecordCachePolicy;
 }
 
 - (id);
@@ -32,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)LevelImageDrawer _recordDrawImage:level:region:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -50,13 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *archiveQueue; // @synthesize archiveQueue;
 @property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fetchCompletionQueue; // @synthesize fetchCompletionQueue;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressQueue; // @synthesize progressQueue;
 
 @end
 

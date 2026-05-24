@@ -11,7 +11,6 @@
 @interface CRKPersonaMatchEnforcingClassKitFacade : CRKClassKitFacadeDecoratorBase
 {
     CRKClassKitCurrentUserProvider *_currentUserProvider;
-    long long _modifiedAccountState;
 }
 
 + (id);
@@ -24,14 +23,13 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)an account identifier! {acAccount:(id)arg1 %@}.;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CRKClassKitCurrentUserProvider *currentUserProvider; // @synthesize currentUserProvider=_currentUserProvider;
-@property(nonatomic) long long modifiedAccountState; // @synthesize modifiedAccountState=_modifiedAccountState;
 
 @end
 

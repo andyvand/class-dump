@@ -12,29 +12,27 @@ __attribute__((visibility("hidden")))
 @interface _GCControllerAxisButtonInput : GCControllerButtonInput
 {
     _Bool _positive;
-    GCControllerAxisInput *_axis;
 }
 
 - (id);
+- (_Bool);
+- (_Bool);
+- (id)";
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
 - (id);
-- (id);
+- (id)8;
 - (float);
 - (void);
-- (id);
+- (id)setSigningInfo: /* Error: Ran out of types for this method. */;
 - (_Bool)Ô ;
 
 // Remaining properties
 @property(nonatomic) __weak GCControllerAxisInput *axis; // @synthesize axis=_axis;
-@property(readonly, nonatomic, getter=isPositive) _Bool positive; // @synthesize positive=_positive;
 
 @end
 

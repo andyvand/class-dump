@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactListController, CNContactListHelperScope, NSString;
-@protocol CNContactPickerInternalResponseDelegate;
+@class CNContactListController;
 
 @interface CNContactListSelectHelper
 {
     CNContactListController *_contactListController;
-    id <CNContactPickerInternalResponseDelegate> _delegate;
-    CNContactListHelperScope *_scope;
 }
 
 - (void);
@@ -19,21 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hed app;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactListController *contactListController; // @synthesize contactListController=_contactListController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <CNContactPickerInternalResponseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CNContactListHelperScope *scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
 
 @end
 

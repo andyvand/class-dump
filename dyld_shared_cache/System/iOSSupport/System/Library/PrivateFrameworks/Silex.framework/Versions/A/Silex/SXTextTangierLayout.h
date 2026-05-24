@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXTextTangierTextWrapper, TSWPPadding;
+@class SXTextTangierTextWrapper;
 
 @interface SXTextTangierLayout
 {
@@ -17,7 +17,7 @@
 - (_Bool);
 - (Class);
 - (double);
-- (void);
+- (void)R;
 - (double);
 - (id);
 - (_Bool);
@@ -31,23 +31,13 @@
 - (unsigned int);
 - (_Bool);
 - (struct CGRect);
-- (unsigned long long);
+- (unsigned long long)@;
 - (void);
 - (void)!LDùï°1Â0@ù
 × ;
-- (id)ost;
+- (id)underRepsHost;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize adjustedInsets;
-@property(readonly, nonatomic) _Bool alwaysStartsNewTarget;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(readonly, nonatomic) _Bool columnsAreLeftToRight;
-@property(readonly, nonatomic) TSWPPadding *layoutMargins;
-@property(readonly, nonatomic) _Bool shrinkTextToFit;
-@property(readonly, nonatomic) double textScaleFactor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @property(retain, nonatomic) SXTextTangierTextWrapper *textWrapper; // @synthesize textWrapper=_textWrapper;
 
 @end

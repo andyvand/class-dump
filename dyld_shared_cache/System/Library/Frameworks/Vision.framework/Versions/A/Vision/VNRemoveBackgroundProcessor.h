@@ -6,21 +6,10 @@
 
 #import <Vision/VNEspressoModelFileBasedDetector.h>
 
-@class MPSImageSpatioTemporalGuidedFilter, NSObject;
-@protocol MTLComputePipelineState, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface VNRemoveBackgroundProcessor : VNEspressoModelFileBasedDetector
 {
     unsigned long long _networkWidth;
-    unsigned long long _networkHeight;
-    CDStruct_0a65202a _outputMaskEspressoBuffer;
-    CDStruct_0a65202a _outputConfidenceEspressoBuffer;
-    MPSImageSpatioTemporalGuidedFilter *_guidedFilter;
-    id <MTLComputePipelineState> _assembleConstraintsState;
-    id <MTLComputePipelineState> _applyMaskComputeState;
-    id <MTLComputePipelineState> _copyCropComputeState;
-    NSObject<OS_dispatch_semaphore> *_removeBackgroundSemaphore;
 }
 
 + (id);

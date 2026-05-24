@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBGraphicalFloat
+- (NSData *)_cloudIsMyAsset;
 
 // Remaining properties
 @property(nonatomic) double doubleValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

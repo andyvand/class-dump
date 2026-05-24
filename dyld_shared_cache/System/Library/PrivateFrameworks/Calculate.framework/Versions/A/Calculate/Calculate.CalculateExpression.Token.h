@@ -7,12 +7,6 @@
 @interface Calculate.CalculateExpression.Token
 {
     id text;
-    id normalizedText;
-    id type;
-    id parent;
-    id internalErrors;
-    id formattedText;
-    id preformattedText;
 }
 
 @end

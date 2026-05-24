@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (void);
-+ (void)asAnyCleanTracks;
++ (void)MPModelPropertyPlaylistHasAnyCleanTracks;
+- (void);
+- (id);
+- (void)RK;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)oviderID_KEY;
+- (id)theme;
+- (id)ailed to parse the legacy bag response. body=%{public}@;
+- (void)__providerID_KEY;
 
 @end
 

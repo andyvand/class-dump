@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void)upSpecificBackgroundImageFromDisk: /* Error: Ran out of types for this method. */;
+- (id)4@32;
+- (void)reloadTabGroupSpecificBackgroundImageFromDisk: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;

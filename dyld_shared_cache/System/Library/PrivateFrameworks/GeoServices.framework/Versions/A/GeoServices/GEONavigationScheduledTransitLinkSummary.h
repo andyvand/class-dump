@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavigationTransitStopSummary, PBDataReader;
+@class PBDataReader;
 
 @interface GEONavigationScheduledTransitLinkSummary
 {
     PBDataReader *_reader;
-    unsigned long long _lineID;
-    double _scheduledArrival;
-    double _scheduledDeparture;
-    GEONavigationTransitStopSummary *_stopFrom;
-    GEONavigationTransitStopSummary *_stopTo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_lineID:1;
-        unsigned int has_scheduledArrival:1;
-        unsigned int has_scheduledDeparture:1;
-        unsigned int read_stopFrom:1;
-        unsigned int read_stopTo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tamp:(id)arg1;
-- (id);
++ (_Bool)setHasTriggeredTimestamp:(id)arg1;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -40,7 +24,7 @@
 - (void);
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long)RE;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -52,8 +36,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)able :%d /* Error: Ran out of types for this method. */;
+- (void)ointerXPCClient endpointerModelVersion]_block_invoke_2;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -67,15 +51,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasLineID;
-@property(nonatomic) _Bool hasScheduledArrival;
-@property(nonatomic) _Bool hasScheduledDeparture;
-@property(readonly, nonatomic) _Bool hasStopFrom;
-@property(readonly, nonatomic) _Bool hasStopTo;
-@property(nonatomic) unsigned long long lineID;
-@property(nonatomic) double scheduledArrival;
-@property(nonatomic) double scheduledDeparture;
-@property(retain, nonatomic) GEONavigationTransitStopSummary *stopFrom;
-@property(retain, nonatomic) GEONavigationTransitStopSummary *stopTo;
 
 @end
 

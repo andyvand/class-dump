@@ -10,8 +10,9 @@
 {
 }
 
-- (id);
-- (id);
+- (id)st_score:(id)arg1 %.3f
+;
+- (id)itialize() can only be called after create();
 
 @end
 

@@ -9,29 +9,21 @@
 @interface SUCoreProgress
 {
     _Bool _isStalled;
-    _Bool _disableVerboseLogging;
-    float _portionComplete;
-    NSString *_phase;
-    long long _totalWrittenBytes;
-    long long _totalExpectedBytes;
-    double _estimatedTimeRemaining;
-    NSString *_actionText;
-    NSString *_taskDescription;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)saveDocumentToPDF:(id)arg1;
+- (_Bool)runningSheets;
+- (_Bool)runloopObserverAdded;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)restorationCompletionHandlers;
+- (id)respondsToSelector:(id)arg1;
+- (id)removeChildWindow: /* Error: Ran out of types for this method. */;
+- (void)outlineView:(_Bool)arg1 itemForPersistentObject: /* Error: Ran out of types for this method. */;
+- (id)isDrawingToScreen;
+- (id)isDragEnabled;
+- (_Bool)initImageCell: /* Error: Ran out of types for this method. */;
 - (float);
 - (long long);
 - (void);
@@ -54,15 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionText; // @synthesize actionText=_actionText;
-@property(nonatomic) _Bool disableVerboseLogging; // @synthesize disableVerboseLogging=_disableVerboseLogging;
-@property(nonatomic) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property(nonatomic) _Bool isStalled; // @synthesize isStalled=_isStalled;
 @property(retain, nonatomic) NSString *phase; // @synthesize phase=_phase;
-@property(nonatomic) float portionComplete; // @synthesize portionComplete=_portionComplete;
-@property(retain, nonatomic) NSString *taskDescription; // @synthesize taskDescription=_taskDescription;
-@property(nonatomic) long long totalExpectedBytes; // @synthesize totalExpectedBytes=_totalExpectedBytes;
-@property(nonatomic) long long totalWrittenBytes; // @synthesize totalWrittenBytes=_totalWrittenBytes;
 
 @end
 

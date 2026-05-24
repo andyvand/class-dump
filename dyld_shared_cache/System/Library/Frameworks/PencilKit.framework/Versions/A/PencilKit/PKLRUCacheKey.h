@@ -10,7 +10,6 @@
 @interface PKLRUCacheKey
 {
     NSObject<NSCopying> *_key;
-    long long _scaleFactor;
 }
 
 - (unsigned long long);
@@ -20,11 +19,10 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)eGraphics;
 
 // Remaining properties
 @property(copy, nonatomic) NSObject<NSCopying> *key; // @synthesize key=_key;
-@property(nonatomic) long long scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end
 

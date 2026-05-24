@@ -7,9 +7,6 @@
 @interface AMSUIWebPageRenderMetricsPresenterWrapper
 {
     id metricsFields;
-    id primaryDataFetchComplete;
-    id presenter;
-    id bag;
 }
 
 - (void);
@@ -22,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2	M	9	G	5	>		;
 - (id);
 - (void);
 - (void);
-- (void)e;
+- (void)rawAccountType;
 
 @end
 

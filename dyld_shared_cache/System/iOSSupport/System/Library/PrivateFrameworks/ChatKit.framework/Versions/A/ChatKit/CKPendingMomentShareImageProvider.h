@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)invitationsTimelineSectionIdentifierWithTitle:(id)arg1 referenceDate:(struct CGSize)arg2;
 - (long long);
 - (void);
 

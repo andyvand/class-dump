@@ -7,7 +7,6 @@
 @interface AdminAuthenticator
 {
     _Bool _syncWaitDone;
-    _Bool _wantsClearTextAuthentication;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)^v{DRRefConCallbacks=Q^?^?}^{__CFDictionary}^{__DRType}^vI^{__CFString}^{__CFDictionary}^{__CFDictionary}^{__CFDictionary}^{MinimalFSRef}^{DRFolderObject}I{DRFSIDList=^v^v^v^v}^?^v**}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

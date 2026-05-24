@@ -11,10 +11,10 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct MLPModelOptimizerOptions {
-    float adamBeta1;
-    float adamBeta2;
-    float adamEpsilon;
-    float learningRate;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
 };
 
 struct map<unsigned int, std::map<unsigned int, unsigned int>, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, std::map<unsigned int, unsigned int>>>> {
@@ -36,14 +36,6 @@ struct mersenne_twister_engine<unsigned int, 32UL, 624UL, 397UL, 31UL, 256748361
     unsigned long long __i_;
 };
 
-struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
-    struct {
-        float *__cap_;
-    } ;
-};
-
 struct vector<std::map<unsigned int, std::vector<unsigned int>>, std::allocator<std::map<unsigned int, std::vector<unsigned int>>>> {
     void *__begin_;
     void *__end_;
@@ -55,20 +47,20 @@ struct vector<std::map<unsigned int, std::vector<unsigned int>>, std::allocator<
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    long long nodeType;
-    long long engineType;
-    long long inputDataType;
-    long long outputDataType;
-    long long weightDataType;
-    long long kernelDataType;
-    long long inputEncoding;
-    long long activations[8];
-    unsigned long long weightAttributes;
-    int inputDimensions[8][4];
-    int outputDimensions[4][4];
-    int integers[16];
-    float floats[16];
-    void *weights[16];
-    void *biases[16];
-} CDStruct_96916c69;
+    long long _field1;
+    long long _field2;
+    long long _field3;
+    long long _field4;
+    long long _field5;
+    long long _field6;
+    long long _field7;
+    long long _field8[8];
+    unsigned long long _field9;
+    int _field10[8][4];
+    int _field11[4][4];
+    int _field12[16];
+    float _field13[16];
+    void *_field14[16];
+    void *_field15[16];
+} CDStruct_7136673c;
 

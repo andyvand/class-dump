@@ -4,64 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, _CPUsageEnvelope, _CPUsageSinceLookback;
+@class NSString;
 
 @interface _CPClientSession
 {
     _Bool _removeTimestamps;
-    _Bool _duEnabled;
-    _Bool _isInternalCarry;
-    _Bool _searchOptOut;
-    int _previousSessionEndReason;
-    unsigned int _devicePersistentD20;
-    int _privateRelayStatus;
-    NSString *_agent;
-    NSString *_userGuidString;
-    NSDictionary *_resourceVersions;
-    double _sessionStart;
-    NSString *_parsecDeveloperID;
-    NSString *_countryCode;
-    NSString *_locale;
-    _CPUsageSinceLookback *_usageSinceLookback;
-    _CPUsageEnvelope *_cohortsFeedback;
-    NSArray *_experimentInfos;
-    NSData *_jsonFeedback;
-    NSArray *_feedbacks;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)&;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (int)!;
+- (unsigned long long);
+- (void);
+- (void)T;
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (int);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (int);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)	;
 - (void);
 - (_Bool);
 - (void);
@@ -73,9 +55,9 @@
 - (unsigned int);
 - (double);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)uPlusOneScreenSharing;
+- (void)DTMF=%d;
+- (id)0};
 - (void);
 - (id);
 - (void);
@@ -87,32 +69,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *agent; // @synthesize agent=_agent;
-@property(retain, nonatomic) _CPUsageEnvelope *cohortsFeedback; // @synthesize cohortsFeedback=_cohortsFeedback;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int devicePersistentD20; // @synthesize devicePersistentD20=_devicePersistentD20;
-@property(nonatomic) _Bool duEnabled; // @synthesize duEnabled=_duEnabled;
-@property(copy, nonatomic) NSArray *experimentInfos; // @synthesize experimentInfos=_experimentInfos;
-@property(copy, nonatomic) NSArray *feedbacks; // @synthesize feedbacks=_feedbacks;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInternalCarry; // @synthesize isInternalCarry=_isInternalCarry;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSData *jsonFeedback; // @synthesize jsonFeedback=_jsonFeedback;
-@property(copy, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSString *parsecDeveloperID; // @synthesize parsecDeveloperID=_parsecDeveloperID;
-@property(nonatomic) int previousSessionEndReason; // @synthesize previousSessionEndReason=_previousSessionEndReason;
-@property(nonatomic) int privateRelayStatus; // @synthesize privateRelayStatus=_privateRelayStatus;
-@property(nonatomic) _Bool removeTimestamps; // @synthesize removeTimestamps=_removeTimestamps;
-@property(copy, nonatomic) NSDictionary *resourceVersions; // @synthesize resourceVersions=_resourceVersions;
-@property(nonatomic) _Bool searchOptOut; // @synthesize searchOptOut=_searchOptOut;
-@property(nonatomic) double sessionStart; // @synthesize sessionStart=_sessionStart;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _CPUsageSinceLookback *usageSinceLookback; // @synthesize usageSinceLookback=_usageSinceLookback;
-@property(copy, nonatomic) NSString *userGuidString; // @synthesize userGuidString=_userGuidString;
 
 @end
 

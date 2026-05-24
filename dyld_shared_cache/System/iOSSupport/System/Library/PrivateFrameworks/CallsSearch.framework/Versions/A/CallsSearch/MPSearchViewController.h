@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CallsSearch.ContactAvatarCardController, CallsSearch.SearchFooterCell, NSArray, NSString, UINavigationController, UITableView;
+@class UITableView;
 @protocol MPSearchViewControllerDelegate;
 
 @interface MPSearchViewController
 {
     void delegate;
     id detailsPresenter;
-    UITableView *tableView;
-    id $__lazy_storage_$_footerView;
-    void hostingNavigationController;
-    id $__lazy_storage_$_contactAvatarCardController;
-    id $__lazy_storage_$_datasource;
-    void searchText;
-    void searchTokens;
-    id throttle;
-    void searchControllerProvider;
 }
 
 - (void);
@@ -44,14 +35,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
 - (double);
 - (void);
-- (double);
-- (long long);
+- (double)requireGestureRecognizerToFail:(id)arg1;
+- (long long)r@;
 - (void);
 - (id);
 - (void);
@@ -74,16 +65,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *compositeSearchText;
-@property(nonatomic, retain) CallsSearch.ContactAvatarCardController *contactAvatarCardController;
-@property(nonatomic) long long contentInsetAdjustmentBehavior;
 @property(nonatomic) __weak id <MPSearchViewControllerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, retain) CallsSearch.SearchFooterCell *footerView;
-@property(nonatomic) __weak UINavigationController *hostingNavigationController; // @synthesize hostingNavigationController;
-@property(nonatomic, copy) CDUnknownBlockType searchControllerProvider;
-@property(nonatomic, copy) NSArray *searchControllers;
-@property(nonatomic, copy) NSString *searchText;
-@property(nonatomic, copy) NSArray *searchTokens;
 @property(nonatomic, readonly) UITableView *tableView; // @synthesize tableView;
 
 @end

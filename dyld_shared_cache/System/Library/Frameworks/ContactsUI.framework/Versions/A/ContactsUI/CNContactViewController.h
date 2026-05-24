@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAPIAdapter, CNContact, CNContainer;
-@protocol ABPersonViewProtocol, CNContactViewControllerDelegate;
+@class ABAPIAdapter, CNContact;
+@protocol ABPersonViewProtocol;
 
 @interface CNContactViewController
 {
     ABAPIAdapter<ABPersonViewProtocol> *_apiAdapter;
-    CNContact *_contactStorage;
-    id <CNContactViewControllerDelegate> _contactViewControllerDelegate;
-    double _desiredHeight;
-    unsigned long long _mode;
-    unsigned long long _authorizedMode;
-    CNContainer *_parentContainer;
 }
 
 + (id);
@@ -28,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9_;
 - (void);
 - (double);
 - (id);
@@ -36,9 +30,9 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -47,13 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long authorizedMode; // @synthesize authorizedMode=_authorizedMode;
-@property(copy) CNContact *contact;
 @property(retain) CNContact *contactStorage; // @synthesize contactStorage=_contactStorage;
-@property(nonatomic) __weak id <CNContactViewControllerDelegate> contactViewControllerDelegate; // @synthesize contactViewControllerDelegate=_contactViewControllerDelegate;
-@property(nonatomic) double desiredHeight; // @synthesize desiredHeight=_desiredHeight;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) CNContainer *parentContainer; // @synthesize parentContainer=_parentContainer;
 
 @end
 

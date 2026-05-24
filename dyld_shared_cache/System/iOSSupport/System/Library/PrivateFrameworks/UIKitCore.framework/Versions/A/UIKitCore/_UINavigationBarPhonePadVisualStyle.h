@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (double);
 - (double);
-- (double);
+- (double)setLoader: /* Error: Ran out of types for this method. */;
 - (id);
 - (double)±Y°1Â0@ù
 × ;
-- (double)ionViewLayout:animated: /* Error: Ran out of types for this method. */;
-- (double)fo;
-- (double)missHostedSearchWithTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (double)setCollectionViewLayout:animated: /* Error: Ran out of types for this method. */;
+- (double)placementInfo;
+- (double)dismissHostedSearchWithTransitionCoordinator: /* Error: Ran out of types for this method. */;
 - (double)´;
-- (double)ionStateReadonlyCoreListMetricsState;
+- (double)_UICellConfigurationStateReadonlyCoreListMetricsState;
 - (double)¼;
 - (double)wÝÿ¶5;
 

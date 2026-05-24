@@ -7,7 +7,6 @@
 @interface NewsAnalytics.PrivacyValidationDebugGroupProvider
 {
     id appConfigurationManager;
-    id privacyValidationProvider;
 }
 
 @end

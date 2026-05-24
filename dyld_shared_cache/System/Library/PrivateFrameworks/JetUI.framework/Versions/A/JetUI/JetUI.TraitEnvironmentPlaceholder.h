@@ -11,9 +11,9 @@
     JUTraitCollection *traitCollection;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)z;
+- (id)z;
+- (id)iPhoto;
 - (void);
 
 // Remaining properties

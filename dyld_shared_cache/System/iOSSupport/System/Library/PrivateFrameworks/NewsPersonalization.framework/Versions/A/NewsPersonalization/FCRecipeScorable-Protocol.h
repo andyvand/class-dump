@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString;
+@class NSArray, NSData, NSString;
 
 @protocol FCRecipeScorable
+- (NSData *);
+- (NSString *)setDisconnectBlock: /* Error: Ran out of types for this method. */;
 - (NSArray *)¬ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *articleIDs;
-@property(readonly, nonatomic) NSData *eventAggregationPersonalizationData;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSDate *lastReferenceDate;
-@property(readonly, nonatomic) NSData *personalizationData;
-@property(readonly, nonatomic) NSData *rapidUpdatePersonalizationData;
 @end
 

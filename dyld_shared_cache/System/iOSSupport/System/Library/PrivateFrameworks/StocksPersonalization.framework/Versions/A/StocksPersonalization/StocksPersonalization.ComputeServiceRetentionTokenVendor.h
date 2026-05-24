@@ -7,6 +7,7 @@
 @interface StocksPersonalization.ComputeServiceRetentionTokenVendor
 {
     id appProcessIdentifier;
+    id;
 }
 
 @end

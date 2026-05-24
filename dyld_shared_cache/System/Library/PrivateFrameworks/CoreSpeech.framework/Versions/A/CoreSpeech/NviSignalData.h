@@ -7,22 +7,20 @@
 @interface NviSignalData
 {
     unsigned long long _sigType;
-    unsigned long long _sigGenTs;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)(;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)__objc_const;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long sigGenTs; // @synthesize sigGenTs=_sigGenTs;
 @property(nonatomic) unsigned long long sigType; // @synthesize sigType=_sigType;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent;
-@protocol CUIKEditor, EKAutocompleteSearchPasteboardItemProvider;
-
 @protocol CUIKEventEditViewControllerManagerDelegate
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool disregardInitialDateTimeOfEvent;
-@property(readonly, nonatomic) id <CUIKEditor> editorForViewControllerManager;
-@property(readonly, nonatomic) EKEvent *eventForViewControllerManager;
-@property(readonly, nonatomic) id <EKAutocompleteSearchPasteboardItemProvider> pasteboardItemProvider;
 @end
 

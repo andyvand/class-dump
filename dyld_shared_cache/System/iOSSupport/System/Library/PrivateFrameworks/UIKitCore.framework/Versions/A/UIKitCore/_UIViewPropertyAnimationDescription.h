@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (id);
-- (id);
-- (id)DisplayingPopover: /* Error: Ran out of types for this method. */;
+- (id)_MPServerObjectDatabaseProgressiveContext;
+- (id)So22MPPlaybackUserDefaultsC;
+- (id)__setViewServiceIsDisplayingPopover: /* Error: Ran out of types for this method. */;
 - (void)°;
 - (id);
 

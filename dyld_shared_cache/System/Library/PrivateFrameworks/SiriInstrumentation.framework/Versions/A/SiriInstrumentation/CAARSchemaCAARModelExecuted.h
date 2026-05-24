@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CAARSchemaCAARModelOutput, CAARSchemaCAARTrialEnrollment, NSData, SISchemaAsset;
+@class SISchemaAsset;
 
 @interface CAARSchemaCAARModelExecuted : SISchemaInstrumentationMessage
 {
     SISchemaAsset *_asset;
-    _Bool _isShadowLog;
-    CAARSchemaCAARModelOutput *_modelOutput;
-    CAARSchemaCAARTrialEnrollment *_trialEnrollment;
-    struct {
-        unsigned int isShadowLog:1;
-    } _has;
-    _Bool _hasAsset;
-    _Bool _hasModelOutput;
-    _Bool _hasTrialEnrollment;
 }
 
 - (void);
@@ -36,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (id);
@@ -44,26 +35,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)adminNotNeeded;
 - (_Bool);
 - (id);
 - (id)SRSchemaASRFailed";
 - (id)ä;
 - (id);
-- (void)ntDaemonAudioStartRecordingContext;
-- (id)FFERNOTSHOWNREASON_TOO_MANY_OFFERS;
+- (void)assistantDaemonAudioStartRecordingContext;
+- (id)FLOWAPPLEMUSICVOICEPREVIEWOFFERNOTSHOWNREASON_TOO_MANY_OFFERS;
 - (void)&;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) _Bool hasAsset; // @synthesize hasAsset=_hasAsset;
-@property(nonatomic) _Bool hasIsShadowLog;
-@property(nonatomic) _Bool hasModelOutput; // @synthesize hasModelOutput=_hasModelOutput;
-@property(nonatomic) _Bool hasTrialEnrollment; // @synthesize hasTrialEnrollment=_hasTrialEnrollment;
-@property(nonatomic) _Bool isShadowLog; // @synthesize isShadowLog=_isShadowLog;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CAARSchemaCAARModelOutput *modelOutput; // @synthesize modelOutput=_modelOutput;
-@property(retain, nonatomic) CAARSchemaCAARTrialEnrollment *trialEnrollment; // @synthesize trialEnrollment=_trialEnrollment;
 
 @end
 

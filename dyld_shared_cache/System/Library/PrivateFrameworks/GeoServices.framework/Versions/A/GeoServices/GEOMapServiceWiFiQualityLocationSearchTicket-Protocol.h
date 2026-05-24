@@ -5,5 +5,6 @@
 //
 
 @protocol GEOMapServiceWiFiQualityLocationSearchTicket
+- (void);
 @end
 

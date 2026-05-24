@@ -14,7 +14,7 @@
 × ;
 - (id);
 - (id);
-- (id)ingFeatureBlocked;
+- (id)_platformSharingFeatureBlocked;
 
 @end
 

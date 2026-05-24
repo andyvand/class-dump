@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface EspressoDataFrameStorage
 {
     NSMutableArray *_dataFrames;
-    NSMutableDictionary *_mappedFiles;
-    NSString *_baseFilename;
 }
 
 + (id);
@@ -19,15 +17,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *baseFilename; // @synthesize baseFilename=_baseFilename;
 @property(retain) NSMutableArray *dataFrames; // @synthesize dataFrames=_dataFrames;
-@property(retain) NSMutableDictionary *mappedFiles; // @synthesize mappedFiles=_mappedFiles;
 
 @end
 

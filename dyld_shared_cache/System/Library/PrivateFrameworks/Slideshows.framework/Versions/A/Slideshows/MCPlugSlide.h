@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void);
+- (void)K;
 
 // Remaining properties
 @property MCSlide *parentSlide; // @synthesize parentSlide=_parentSlide;

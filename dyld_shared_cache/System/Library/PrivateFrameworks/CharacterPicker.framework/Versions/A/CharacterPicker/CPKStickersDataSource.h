@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, STKImageGlyphDataSource;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface CPKStickersDataSource
 {
     NSLock *_cachedLengthVariablesLock;
-    unsigned long long _cachedLength;
-    unsigned long long _previousCachedLength;
-    STKImageGlyphDataSource *_imageDataSource;
 }
 
-+ (id);
++ (id)5;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)T;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -30,18 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)c;
+- (unsigned long long)ѧ;
 - (id);
 - (void);
 
 // Remaining properties
-@property unsigned long long cachedLength; // @synthesize cachedLength=_cachedLength;
-@property(readonly) _Bool hasStickers;
-@property(retain) STKImageGlyphDataSource *imageDataSource; // @synthesize imageDataSource=_imageDataSource;
-@property(readonly) unsigned long long numberOfItems;
 @property unsigned long long previousCachedLength; // @synthesize previousCachedLength=_previousCachedLength;
-@property(readonly) _Bool stickerCountDidChange;
 
 @end
 

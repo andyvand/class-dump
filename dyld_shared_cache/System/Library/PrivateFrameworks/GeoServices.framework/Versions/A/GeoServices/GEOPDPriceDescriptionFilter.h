@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PBUnknownFields *_unknownFields;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)OS_dispatch_queue>"32;
-- (id)omLevel;
+- (id)_mapViewZoomLevel;
 - (id);
 - (void)ep¼:YF@ /* Error: Ran out of types for this method. */;
 

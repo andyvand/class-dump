@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CNUIContactCardPropertyViewConfiguration
 {
     _Bool _isMailVIP;
-    _Bool _shouldColorEmphasizeHighlightedProperties;
-    NSArray *_highlightedLabeledValueIdentifiers;
-    NSArray *_displayedProperties;
 }
 
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@9	;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void)s:style: /* Error: Ran out of types for this method. */;
+- (void)stringFromPostalAddress:style: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *displayedProperties; // @synthesize displayedProperties=_displayedProperties;
-@property(copy, nonatomic) NSArray *highlightedLabeledValueIdentifiers; // @synthesize highlightedLabeledValueIdentifiers=_highlightedLabeledValueIdentifiers;
 @property(nonatomic) _Bool isMailVIP; // @synthesize isMailVIP=_isMailVIP;
-@property(nonatomic) _Bool shouldColorEmphasizeHighlightedProperties; // @synthesize shouldColorEmphasizeHighlightedProperties=_shouldColorEmphasizeHighlightedProperties;
 
 @end
 

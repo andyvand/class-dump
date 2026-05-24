@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TrackedFace
 {
     NSString *_faceGroupID;
-    NSMutableArray *_faceRects;
-    NSMutableArray *_faceSizes;
-    NSMutableArray *_gazeScores;
-    NSMutableArray *_gazeConfidences;
-    float _faceSizeScoreFiltered;
-    CDStruct_1b6d18a9 _firstSignificantTimeStamp;
-    _Bool _isSignificant;
-    _Bool _isPersistentlySignificant;
-    float _significanceDetectionThreshold;
 }
 
 - (void);
@@ -27,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (float);
 - (void);
-- (void);
+- (void)V_symbolFont;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPersistentlySignificant; // @synthesize isPersistentlySignificant=_isPersistentlySignificant;

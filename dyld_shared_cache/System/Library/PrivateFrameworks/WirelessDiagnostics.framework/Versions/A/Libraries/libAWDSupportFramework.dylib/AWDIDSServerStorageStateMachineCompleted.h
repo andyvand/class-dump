@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSServerStorageStateMachineCompleted
 {
     unsigned long long _linkType;
-    unsigned long long _timeTaken;
-    unsigned long long _timestamp;
-    unsigned long long _totalMessages;
-    NSString *_serviceIdentifier;
-    _Bool _wasPrimary;
-    struct {
-        unsigned int linkType:1;
-        unsigned int timeTaken:1;
-        unsigned int timestamp:1;
-        unsigned int totalMessages:1;
-        unsigned int wasPrimary:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -28,12 +14,12 @@
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -49,27 +35,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool)l;
+- (_Bool)_csaToDfsChannel;
 - (unsigned long long)réÿÕn©;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkType;
-@property(readonly, nonatomic) _Bool hasServiceIdentifier;
-@property(nonatomic) _Bool hasTimeTaken;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTotalMessages;
-@property(nonatomic) _Bool hasWasPrimary;
-@property(nonatomic) unsigned long long linkType; // @synthesize linkType=_linkType;
-@property(retain, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(nonatomic) unsigned long long timeTaken; // @synthesize timeTaken=_timeTaken;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long totalMessages; // @synthesize totalMessages=_totalMessages;
-@property(nonatomic) _Bool wasPrimary; // @synthesize wasPrimary=_wasPrimary;
 
 @end
 

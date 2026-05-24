@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILongPressGestureRecognizer, UIView;
+@class UILongPressGestureRecognizer, UIView;
 
 __attribute__((visibility("hidden")))
 @interface UITextTouchObservingInteraction
@@ -13,28 +13,20 @@ __attribute__((visibility("hidden")))
     UILongPressGestureRecognizer *_longPressGesture;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)O;
+- (void)eTag %@>;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void)1ZÐ1Â0@ù
 × ;
-- (id)DismissDetentOffset;
+- (id)_smallestNonDismissDetentOffset;
 - (void)r index %ld.;
 - (void)es length (%ld) does not equal expected length (%ld);
 - (void)¨ì`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILongPressGestureRecognizer *longPressGesture; // @synthesize longPressGesture=_longPressGesture;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

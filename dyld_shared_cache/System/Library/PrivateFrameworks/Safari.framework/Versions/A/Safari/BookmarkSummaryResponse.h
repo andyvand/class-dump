@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSURL, ReadingListFetcherInfo;
+@class ReadingListFetcherInfo;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkSummaryResponse
 {
     ReadingListFetcherInfo *_readingListFetcherInfo;
-    int _pageFetchResult;
 }
 
 - (id);
+- (id)2;
+- (id);
+- (int);
 - (id);
 - (id);
-- (int);
-- (id);
-- (id);
-- (id);
+- (id)configuredDescriptors;
 - (id)BookmarksSidebarViewControllerV2;
 - (void)$à;
 - (_Bool)´;
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *mainImage;
-@property(readonly, nonatomic) NSURL *mainImageURL;
 @property(readonly, nonatomic) int pageFetchResult; // @synthesize pageFetchResult=_pageFetchResult;
-@property(readonly, copy, nonatomic) NSString *previewText;
-@property(readonly, nonatomic, getter=isReaderAvailable) _Bool readerAvailable;
-@property(readonly, copy, nonatomic) NSString *siteName;
-@property(readonly, copy, nonatomic) NSString *title;
 
 @end
 

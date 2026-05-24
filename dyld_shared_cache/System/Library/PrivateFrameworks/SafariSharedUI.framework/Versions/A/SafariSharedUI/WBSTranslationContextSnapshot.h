@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface WBSTranslationContextSnapshot
 {
     unsigned long long _state;
-    NSString *_targetLocale;
-    NSString *_webpageLocale;
-    NSURL *_webpageURL;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)andPredicateWithSubpredicates: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (unsigned long long)listViewUseRelativeDates;
 - (void);
 - (id);
 - (void)ialPosition;
 
 // Remaining properties
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *targetLocale; // @synthesize targetLocale=_targetLocale;
-@property(retain, nonatomic) NSString *webpageLocale; // @synthesize webpageLocale=_webpageLocale;
-@property(retain, nonatomic) NSURL *webpageURL; // @synthesize webpageURL=_webpageURL;
 
 @end
 

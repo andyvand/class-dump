@@ -9,7 +9,6 @@
 @interface PromotedContentUI.RankedAppleAppAd : PromotedContentUI.RankableAppleAppAd
 {
     id adsClientDecisions;
-    id curationFailureReason;
 }
 
 @end

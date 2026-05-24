@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface PKAuxiliaryCapabilityRequirementKeyMaterialContent
 {
     NSData *_publicKey;
-    NSString *_publicKeyIdentifier;
-    NSArray *_attestation;
-    NSArray *_secondaryAttestation;
-    NSData *_authorization;
-    NSData *_signature;
-    NSArray *_certificateChain;
-    NSString *_keyReferenceIdentifier;
-    NSData *_applicationIdentifier;
-    NSData *_securityAccessControl;
 }
 
 + (_Bool);
@@ -25,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);
@@ -35,14 +26,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)hasConnectionDuration;
 - (void);
 - (void);
 - (id);
-- (id)untInformation:webService:completion: /* Error: Ran out of types for this method. */;
+- (id)_urlRequestWithServiceURL:secureElementID:appleAccountInformation:webService:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)onInterstitial:(id)arg1 '%@';
 - (void)ted;
@@ -51,16 +42,7 @@
 - (void)å½lTÆ!;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(retain, nonatomic) NSArray *attestation; // @synthesize attestation=_attestation;
-@property(retain, nonatomic) NSData *authorization; // @synthesize authorization=_authorization;
-@property(retain, nonatomic) NSArray *certificateChain; // @synthesize certificateChain=_certificateChain;
-@property(retain, nonatomic) NSString *keyReferenceIdentifier; // @synthesize keyReferenceIdentifier=_keyReferenceIdentifier;
 @property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(retain, nonatomic) NSString *publicKeyIdentifier; // @synthesize publicKeyIdentifier=_publicKeyIdentifier;
-@property(retain, nonatomic) NSArray *secondaryAttestation; // @synthesize secondaryAttestation=_secondaryAttestation;
-@property(retain, nonatomic) NSData *securityAccessControl; // @synthesize securityAccessControl=_securityAccessControl;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

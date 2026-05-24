@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScreen, NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface DetachedTabDraggingImageToWindowTransitionController
 {
     CDUnknownBlockType _completionHandler;
-    NSWindow *_sourceMiniWindow;
-    NSWindow *_destinationWindow;
-    struct CGPoint _dropLocation;
-    NSScreen *_destinationScreen;
-    struct CGRect _windowAnimationStartFrame;
-    struct CGRect _windowAnimationEndFrame;
-    struct CGAffineTransform _windowAnimationEndTransform;
-    _Bool _destinationWindowWillMoveToFullScreen;
-    _Bool _animationCancelled;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)h8h;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);

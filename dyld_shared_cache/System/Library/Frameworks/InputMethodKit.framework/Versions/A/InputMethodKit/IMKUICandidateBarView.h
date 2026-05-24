@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUICandidateLayoutTraits, IMKUIDelimiter, NSArray, NSMutableDictionary, NSString;
-@protocol IMKUICandidateAccessibilityDelegate, IMKUICandidateItemViewHandling;
+@class NSArray;
+@protocol IMKUICandidateAccessibilityDelegate;
 
 @interface IMKUICandidateBarView
 {
     id <IMKUICandidateAccessibilityDelegate> _accessibilityController;
-    double _candidateItemMargin;
-    NSArray *_candidateItems;
-    id <IMKUICandidateItemViewHandling> _delegate;
-    _Bool _drawsBackground;
-    _Bool _highlighted;
-    unsigned long long _index;
-    IMKUICandidateLayoutTraits *_layoutTraits;
-    NSMutableDictionary *_itemToViewMapping;
-    _Bool _showsBottomLine;
-    IMKUIDelimiter *_bottomLine;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (struct CGRect);
 - (double);
 - (id);
-- (id);
+- (id)	;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -48,7 +38,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ndAudioTapRegistrationResult init];
 - (id);
 - (id);
 - (_Bool);
@@ -56,33 +46,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (void);
-- (id);
+- (id)@0:8@16@24@32@40@48 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (void)earancesWithNames:(unsigned long long)arg1;
+- (void)bestMatchFromAppearancesWithNames:(unsigned long long)arg1;
 
 // Remaining properties
-@property(nonatomic) __weak id <IMKUICandidateAccessibilityDelegate> accessibilityController; // @synthesize accessibilityController=_accessibilityController;
-@property(retain, nonatomic) IMKUIDelimiter *bottomLine; // @synthesize bottomLine=_bottomLine;
-@property(nonatomic) double candidateItemMargin; // @synthesize candidateItemMargin=_candidateItemMargin;
 @property(retain, nonatomic) NSArray *candidateItems; // @synthesize candidateItems=_candidateItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMKUICandidateItemViewHandling> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsBackground; // @synthesize drawsBackground=_drawsBackground;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(retain, nonatomic) NSMutableDictionary *itemToViewMapping; // @synthesize itemToViewMapping=_itemToViewMapping;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(nonatomic) _Bool showsBottomLine; // @synthesize showsBottomLine=_showsBottomLine;
-@property(readonly) Class superclass;
 
 @end
 

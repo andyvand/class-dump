@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, TUCallCenter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TURTCCallReporter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_callUUIDToConversation;
-    TUCallCenter *_callCenter;
 }
 
 - (id);
@@ -23,12 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)scriptorsWithPublicKey: /* Error: Ran out of types for this method. */;
+- (void)9;
+- (void)tu_predicateForConversationLinkDescriptorsWithPublicKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) TUCallCenter *callCenter; // @synthesize callCenter=_callCenter;
-@property(readonly, nonatomic) NSMutableDictionary *callUUIDToConversation; // @synthesize callUUIDToConversation=_callUUIDToConversation;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

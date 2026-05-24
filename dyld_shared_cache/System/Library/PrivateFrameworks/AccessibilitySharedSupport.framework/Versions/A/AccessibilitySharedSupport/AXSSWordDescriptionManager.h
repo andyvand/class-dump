@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator, NSString;
+@class NSManagedObjectContext;
 
 @interface AXSSWordDescriptionManager
 {
     NSManagedObjectContext *_managedObjectContext;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSManagedObjectModel *_managedObjectModel;
-    NSString *languageDialectCode;
 }
 
 + (id);
@@ -19,17 +16,14 @@
 - (id);
 - (id);
 - (id);
+- (id)t;
+- (id)ISOCountryCode;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)__TEXT;
 - (id)=UâA\;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *languageDialectCode; // @synthesize languageDialectCode;
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(readonly, nonatomic) NSManagedObjectModel *managedObjectModel; // @synthesize managedObjectModel=_managedObjectModel;
-@property(readonly, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
 
 @end
 

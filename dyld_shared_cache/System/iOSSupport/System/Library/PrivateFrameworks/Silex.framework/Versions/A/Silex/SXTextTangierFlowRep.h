@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXAXCustomRotor, SXTextTangierInteractiveCanvasController;
+@class SXAXCustomRotor;
 @protocol SXTextTangierRepAccessibilityDataSource;
 
 @interface SXTextTangierFlowRep
 {
     id <SXTextTangierRepAccessibilityDataSource> accessibilityDataSource;
-    SXAXCustomRotor *_linkRotor;
-    SXAXCustomRotor *_headingsRotor;
-    SXTextTangierInteractiveCanvasController *_icc;
-    struct CGRect _frameInCanvas;
 }
 
 - (Class);
@@ -28,7 +24,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (id);
 - (id);
 - (id);
@@ -36,13 +32,13 @@
 - (struct CGRect);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id)#;
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)getCharacters: /* Error: Ran out of types for this method. */;
+- (struct CGRect)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct _NSRange);
 - (id);
@@ -51,25 +47,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)0a;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SXTextTangierRepAccessibilityDataSource> accessibilityDataSource; // @synthesize accessibilityDataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect frameInCanvas; // @synthesize frameInCanvas=_frameInCanvas;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXAXCustomRotor *headingsRotor; // @synthesize headingsRotor=_headingsRotor;
-@property(nonatomic) __weak SXTextTangierInteractiveCanvasController *icc; // @synthesize icc=_icc;
 @property(retain, nonatomic) SXAXCustomRotor *linkRotor; // @synthesize linkRotor=_linkRotor;
-@property(readonly) Class superclass;
 
 @end
 

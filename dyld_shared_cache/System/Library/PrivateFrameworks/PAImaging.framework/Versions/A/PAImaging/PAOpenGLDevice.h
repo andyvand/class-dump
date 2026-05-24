@@ -6,20 +6,11 @@
 
 #import <PAImaging/PADevice.h>
 
-@class NSDictionary, NSObject, NSString, PAOpenGLContextPool, _PALowPriorityOpenGLDevice;
-@protocol OS_dispatch_queue;
+@class PAOpenGLContextPool;
 
 @interface PAOpenGLDevice : PADevice
 {
     int _virtualScreen;
-    NSString *_identifier;
-    unsigned long long _rendererID;
-    NSDictionary *_properties;
-    PAOpenGLContextPool *_pool;
-    NSObject<OS_dispatch_queue> *_initializationQueue;
-    _Bool _initialized;
-    NSObject<OS_dispatch_queue> *_deallocQueue;
-    _PALowPriorityOpenGLDevice *_lowPriorityDevice;
 }
 
 + (struct _CGLPixelFormatObject *);
@@ -40,11 +31,11 @@
 - (id);
 - (id);
 - (id);
+- (id)x;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -55,7 +46,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -66,10 +57,10 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)initWithDataSourceManagerPromise:specManagerPromise:itemLayoutFactory: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)L@9;
 - (id);
 - (int);
 - (unsigned int);
@@ -78,10 +69,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PAOpenGLContextPool *contextPool;
-@property(readonly, nonatomic) unsigned int displayMask;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long rendererID; // @synthesize rendererID=_rendererID;
-@property(readonly, nonatomic) int virtualScreen; // @synthesize virtualScreen=_virtualScreen;
 
 @end
 

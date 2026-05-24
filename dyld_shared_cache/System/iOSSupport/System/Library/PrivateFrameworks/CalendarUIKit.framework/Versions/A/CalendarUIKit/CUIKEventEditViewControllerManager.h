@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,7 +40,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)wHourScale: /* Error: Ran out of types for this method. */;
+- (void)setDayViewHourScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *viewController;

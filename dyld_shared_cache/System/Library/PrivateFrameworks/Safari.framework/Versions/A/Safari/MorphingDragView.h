@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface MorphingDragView
 {
     NSMapTable *_disappearingViewsToRemovalIdentifiers;
-    NSView *_contentView;
 }
 
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMSingleServiceWarmupAttemptEnded, NLXSchemaCDMSingleServiceWarmupAttemptStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSingleServiceWarmupAttemptContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLXSchemaCDMSingleServiceWarmupAttemptStarted *_startedOrChanged;
-    NLXSchemaCDMSingleServiceWarmupAttemptEnded *_ended;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -30,12 +24,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)contentDescriptor;
+- (void)h4;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)es/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ts/ts_rsp_utils.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -50,13 +44,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLXSchemaCDMSingleServiceWarmupAttemptEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMSingleServiceWarmupAttemptStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

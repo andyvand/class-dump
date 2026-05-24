@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVItem, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCAVItemTrace
 {
     unsigned int _endEvent;
-    MPAVItem *_item;
-    NSString *_name;
-    double _started;
-    double _ended;
 }
 
 + (void);
-+ (id);
++ (id)classEnableNotificationPlugin;
 - (void);
-- (void);
-- (double);
+- (void)P� ;
+- (double)postProcessProgress;
 - (void);
 - (void);
 - (unsigned int);
@@ -35,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (double)e=%f, uncertainty=%f, reliability=%d;
 
 // Remaining properties
-@property(nonatomic) unsigned int endEvent; // @synthesize endEvent=_endEvent;
-@property(nonatomic) double ended; // @synthesize ended=_ended;
-@property(nonatomic) __weak MPAVItem *item; // @synthesize item=_item;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double started; // @synthesize started=_started;
 
 @end
 

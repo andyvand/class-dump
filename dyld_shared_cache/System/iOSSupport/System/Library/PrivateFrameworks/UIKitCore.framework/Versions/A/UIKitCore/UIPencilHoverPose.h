@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UIPencilHoverPose
 {
     double _zOffset;
-    double _azimuthAngle;
-    double _altitudeAngle;
-    double _rollAngle;
-    struct CGVector _azimuthUnitVector;
-    struct CAPoint3D _location3D;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGVector);
+- (struct CGVector)transcode to go to watch - we will relay a low-quality transcoded result to the watch;
 - (double);
-- (double);
+- (double)nent> Started processing recover junk command for message GUID:%@ /* Error: Ran out of types for this method. */;
 - (struct CAPoint3D);
 - (void);
 - (double);
 - (void);
 - (double);
-- (id);
+- (id)updateAttributedTitle;
 - (id);
 - (id);
 - (id);
@@ -36,24 +29,11 @@
 - (id);
 - (id){CGPoint=dd}32;
 - (id)ollection;
-- (id)SheetPresentationControllerDetentResolutionContext_p;
+- (id)So52UISheetPresentationControllerDetentResolutionContext_p;
 - (struct CGPoint)23ð|;
 
 // Remaining properties
 @property(nonatomic) struct CAPoint3D _location3D; // @synthesize _location3D;
-@property(nonatomic) double altitudeAngle; // @synthesize altitudeAngle=_altitudeAngle;
-@property(nonatomic) double azimuthAngle; // @synthesize azimuthAngle=_azimuthAngle;
-@property(nonatomic) struct CGVector azimuthUnitVector; // @synthesize azimuthUnitVector=_azimuthUnitVector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGPoint location;
-@property(nonatomic) double rollAngle; // @synthesize rollAngle=_rollAngle;
-@property(readonly) Class superclass;
-@property(nonatomic) double zOffset; // @synthesize zOffset=_zOffset;
 
 @end
 

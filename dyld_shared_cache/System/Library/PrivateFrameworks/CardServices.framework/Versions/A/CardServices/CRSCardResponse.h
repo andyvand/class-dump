@@ -7,12 +7,10 @@
 #import <CardServices/CRSResponse.h>
 
 @class CRSCardRequest;
-@protocol CRCard;
 
 @interface CRSCardResponse : CRSResponse
 {
     CRSCardRequest *_request;
-    id <CRCard> _card;
 }
 
 - (id);
@@ -22,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CRCard> card; // @synthesize card=_card;
 @property(retain, nonatomic) CRSCardRequest *request; // @synthesize request=_request;
 
 @end

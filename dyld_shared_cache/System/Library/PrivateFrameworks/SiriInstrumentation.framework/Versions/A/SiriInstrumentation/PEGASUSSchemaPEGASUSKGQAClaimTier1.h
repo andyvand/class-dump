@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSKGQAClaimTier1 : SISchemaInstrumentationMessage
 {
     NSString *_entityId;
-    NSString *_propId;
-    NSString *_value;
-    NSArray *_qualifiers;
-    NSArray *_references;
-    _Bool _hasEntityId;
-    _Bool _hasPropId;
-    _Bool _hasValue;
 }
 
 - (void);
@@ -25,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,33 +38,25 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void); not loading from persisted state;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)A;
+- (_Bool)initWithDisplayName:handles:handleIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)when trying to set property:(id)arg1 %ld  (value:%d) /* Error: Ran out of types for this method. */;
+- (id)4M;
 - (void);
 - (id);
 - (id)!¬EùÑÝ°1Â0@ù
 × ;
-- (id)sAssistantDeviceDigestReported;
+- (id)_hasAssistantDeviceDigestReported;
 - (id)ed;
 - (void)t.uufrShown.dialogIdentifier;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *entityId; // @synthesize entityId=_entityId;
-@property(nonatomic) _Bool hasEntityId; // @synthesize hasEntityId=_hasEntityId;
-@property(nonatomic) _Bool hasPropId; // @synthesize hasPropId=_hasPropId;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *propId; // @synthesize propId=_propId;
-@property(copy, nonatomic) NSArray *qualifiers; // @synthesize qualifiers=_qualifiers;
-@property(copy, nonatomic) NSArray *references; // @synthesize references=_references;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

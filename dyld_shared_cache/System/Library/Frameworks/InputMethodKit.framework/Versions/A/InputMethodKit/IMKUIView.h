@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUIProperties, NSTimer, NSTrackingArea;
-
 @interface IMKUIView
 {
     _Bool _inScrubbingMode;
-    _Bool _trackingMouseMovement;
-    NSTimer *_pressingTimer;
-    IMKUIProperties *_properties;
-    NSTrackingArea *_trackingArea;
-    double _intervalSinceLastTouchBegan;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)*!";
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -29,7 +22,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)or.m:(id)arg1 Unable to activate device discovery, original _DKUserNearbyMonitor deallocated.  Activation error %@;
 - (id);
 - (void);
 - (void);
@@ -42,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool inScrubbingMode; // @synthesize inScrubbingMode=_inScrubbingMode;
-@property(retain, nonatomic) NSTimer *pressingTimer; // @synthesize pressingTimer=_pressingTimer;
-@property(readonly, nonatomic) IMKUIProperties *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
-@property(nonatomic, getter=isTrackingMouseMovement) _Bool trackingMouseMovement; // @synthesize trackingMouseMovement=_trackingMouseMovement;
 
 @end
 

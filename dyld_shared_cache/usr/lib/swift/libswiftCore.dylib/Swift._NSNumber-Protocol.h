@@ -5,13 +5,11 @@
 //
 
 @protocol Swift._NSNumber
+- (unsigned long long);
+- (const char *)up;
 - (long long)ïÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) double doubleValue;
-@property(nonatomic, readonly) float floatValue;
-@property(nonatomic, readonly) long long longLongValue;
-@property(nonatomic, readonly) const char *objCType;
-@property(nonatomic, readonly) unsigned long long unsignedLongLongValue;
 @end
 

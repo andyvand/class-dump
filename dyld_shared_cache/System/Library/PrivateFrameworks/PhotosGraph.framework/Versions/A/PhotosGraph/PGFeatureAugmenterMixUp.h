@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGFeatureAugmenterMixUp
 {
     float _alpha;
-    unsigned long long _count;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)displayP3ColorSpace;
 - (id);
 - (id);
 - (id);
 - (id);
-- (float)o;
-- (unsigned long long)ingLog: /* Error: Ran out of types for this method. */;
+- (float)internalAdditionalInfo;
+- (unsigned long long)addSuggestionFilteringLog: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) float alpha; // @synthesize alpha=_alpha;
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSArray, NSOperationQueue, NSString, NSTableView, NSTextField;
-@protocol ACUIAccountsTableViewControllerDelegate;
+@class NSArray;
 
 @interface ACUIAccountsTableViewController
 {
     unsigned long long _filteringOption;
-    id <ACUIAccountsTableViewControllerDelegate> _delegate;
-    ACAccount *_selectedAccount;
-    NSArray *_accountRowItems;
-    NSOperationQueue *_operationQueue;
-    ACAccountStore *_store;
-    NSTableView *_tableview;
-    NSTextField *_noAccountsLabel;
-    ACAccount *_autoSelectAccount;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,17 +28,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ѨѠ";
 - (id);
 - (_Bool);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -55,22 +46,6 @@
 
 // Remaining properties
 @property(retain) NSArray *accountRowItems; // @synthesize accountRowItems=_accountRowItems;
-@property(readonly) NSArray *accounts;
-@property(retain, nonatomic) ACAccount *autoSelectAccount; // @synthesize autoSelectAccount=_autoSelectAccount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <ACUIAccountsTableViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long filteringOption; // @synthesize filteringOption=_filteringOption;
-@property(readonly) unsigned long long hash;
-@property(retain) NSTextField *noAccountsLabel; // @synthesize noAccountsLabel=_noAccountsLabel;
-@property(retain) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain, nonatomic) ACAccount *selectedAccount; // @synthesize selectedAccount=_selectedAccount;
-@property(retain) ACAccountStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(retain) NSTableView *tableview; // @synthesize tableview=_tableview;
 
 @end
 

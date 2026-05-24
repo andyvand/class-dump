@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString, NSURLConnection, NSURLRequest, _PKURLConnectionDelegate;
+@class NSLock;
 
 @interface PKURLConnection
 {
     CDUnknownBlockType _challengeBlock;
-    CDUnknownBlockType _redirectResponseBlock;
-    NSLock *_connectionLock;
-    NSURLConnection *_urlConnection;
-    _PKURLConnectionDelegate *_pkConnectionDelegate;
-    NSURLRequest *_urlRequest;
-    NSString *_destinationDirectory;
 }
 
-- (id);
+- (id)9;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)9;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -43,10 +37,6 @@
 
 // Remaining properties
 @property(retain) NSLock *connectionLock; // @synthesize connectionLock=_connectionLock;
-@property(retain, nonatomic) NSString *destinationDirectory; // @synthesize destinationDirectory=_destinationDirectory;
-@property(retain) _PKURLConnectionDelegate *pkConnectionDelegate; // @synthesize pkConnectionDelegate=_pkConnectionDelegate;
-@property(retain) NSURLConnection *urlConnection; // @synthesize urlConnection=_urlConnection;
-@property(retain, nonatomic) NSURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
 
 @end
 

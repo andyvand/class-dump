@@ -5,5 +5,6 @@
 //
 
 @protocol SCKDatabaseStoreCoordinatorObserver
+- (void)ing";
 @end
 

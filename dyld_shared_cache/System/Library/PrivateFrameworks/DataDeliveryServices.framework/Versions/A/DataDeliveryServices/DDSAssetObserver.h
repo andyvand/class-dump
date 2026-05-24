@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString;
-@protocol DDSAssetObservingDelegate;
+@class NSMutableSet;
 
 @interface DDSAssetObserver
 {
     struct os_unfair_lock_s _lock;
-    id <DDSAssetObservingDelegate> _delegate;
-    NSMutableSet *_typesToObserve;
-    NSSet *_autoAssetTypes;
 }
 
 - (void);
@@ -21,22 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *autoAssetTypes; // @synthesize autoAssetTypes=_autoAssetTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <DDSAssetObservingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableSet *typesToObserve; // @synthesize typesToObserve=_typesToObserve;
 
 @end

@@ -4,63 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, SCNGeometry, SCNManipulator, SCNNode, SCNRenderer, UIColor;
+@class NSMutableSet, SCNNode;
 
 @interface SCNAuthoringEnvironment2
 {
     NSMutableSet *_selection;
-    struct __C3DScene *_scene;
-    SCNNode *_layerRoot;
-    SCNNode *_overlayLayerRoot;
-    SCNNode *_lightRoot;
-    SCNNode *_cameraRoot;
-    SCNNode *_particlesRoot;
-    SCNNode *_physicsFieldsRoot;
-    SCNNode *_cameraTarget;
-    SCNNode *_pointsOfViewRoot;
-    struct __CFDictionary *_lightsDictionary;
-    struct __CFDictionary *_camerasDictionary;
-    struct __CFDictionary *_particlesDictionary;
-    struct __CFDictionary *_physicsFieldsDictionary;
-    SCNRenderer *_renderer;
-    SCNGeometry *_lightGeometry;
-    SCNGeometry *_cameraFrustumGeometry;
-    SCNGeometry *_cameraOrthographicFrustumGeometry;
-    SCNGeometry *_cameraGeometry;
-    SCNGeometry *_cameraNearPlaneGeometry;
-    SCNGeometry *_particlesGeometry;
-    SCNGeometry *_fieldGeometry;
-    long long _displayMask;
-    UIColor *_paleGreen;
-    UIColor *_paleBlue;
-    UIColor *_red;
-    UIColor *_green;
-    UIColor *_blue;
-    UIColor *_cyan;
-    UIColor *_yellow;
-    UIColor *_orange;
-    UIColor *_pink;
-    UIColor *_grayLight;
-    UIColor *_grayMedium;
-    UIColor *_grayDark;
-    UIColor *_white;
-    SCNManipulator *_manipulator;
 }
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)clickOutsideContentDelegate;
+- (void);
+- (void);
+- (void).c;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`
+;
 - (void);
 - (void);
 - (id);
@@ -1386,9 +1351,6 @@ fragment SCNOutput commonprofile_frag(commonprofile_io                   in     
 
 // Remaining properties
 @property(readonly, nonatomic) SCNNode *authoringLayer;
-@property(readonly, nonatomic) SCNNode *authoringOverlayLayer;
-@property long long displayMask;
-@property(readonly, nonatomic) SCNManipulator *manipulator;
 
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RDSemaphore;
+@class NSObject;
 @protocol SSInputEventConsumer;
 
 @interface SSEventHelperManager
 {
     NSObject<SSInputEventConsumer> *mInputEventConsumer;
-    unsigned int mServerPort;
-    unsigned int mClientPort;
-    struct __CFRunLoopSource *mRunLoopSource;
-    struct __CFMachPort *mCFMachPort;
-    unsigned long long mLastModifierFlags;
-    RDSemaphore *mRFBEventHelperdLaunchSemaphore;
 }
 
-+ (id);
++ (id)RK;
 - (void);
 - (void);
 - (void);
@@ -31,7 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<SSInputEventConsumer> *inputEventConsumer; // @synthesize inputEventConsumer=mInputEventConsumer;
 @property unsigned long long lastModifierFlags; // @synthesize lastModifierFlags=mLastModifierFlags;
 
 @end

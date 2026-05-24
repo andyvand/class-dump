@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLocale, NSString, NSUUID;
+@class NSDictionary;
 
 @interface WBSWebExtensionLocalization
 {
     NSDictionary *_localizationDictionary;
-    NSString *_localeString;
-    NSLocale *_locale;
-    NSUUID *_uniqueIdentifier;
 }
 
 + (_Bool);
@@ -21,12 +18,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)damIDToRequestedOrderMap;
+- (void)ctionIFvvEEENS_9allocatorIS6_EEEERK13TFENodeVectorRKNS3_I7TStringNS7_ISE_EEEEbbP6NSData16VerifyAuditTokenbP19FI_TRenameOperationE3$_0FvRK7TFENodeSR_EEE;
+- (void)_adamIDToRequestedOrderMap;
 
 @end
 

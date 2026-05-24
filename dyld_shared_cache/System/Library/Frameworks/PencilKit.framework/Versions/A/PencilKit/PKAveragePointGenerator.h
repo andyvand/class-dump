@@ -7,22 +7,6 @@
 @interface PKAveragePointGenerator
 {
     struct PKRunningStat _locationX;
-    struct PKRunningStat _locationY;
-    struct PKRunningStat _force;
-    struct PKRunningStat _azimuth;
-    struct PKRunningStat _altitude;
-    struct PKRunningStat _velocity;
-    struct PKRunningStat _directionAngle;
-    struct PKRunningStat _zPosition;
-    struct PKRunningStat _timestamp;
-    struct PKRunningStat _length;
-    struct PKRunningStat _rollAngle;
-    struct PKRunningStat _radius;
-    struct PKRunningStat _edgeWidth;
-    struct PKRunningStat _aspectRatio;
-    struct PKRunningStat _opacity;
-    struct PKRunningStat _radius2;
-    struct PKRunningStat _threshold;
 }
 
 - (struct _PKStrokePoint);
@@ -31,10 +15,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)|| %@
+;
 - (id);
-- (void);
-- (id);
+- (void):(struct _PKStrokePoint)arg1 %@, ;
+- (id)ign;
 
 @end
 

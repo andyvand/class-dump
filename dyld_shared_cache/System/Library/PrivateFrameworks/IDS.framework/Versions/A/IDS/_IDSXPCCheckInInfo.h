@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol IDSXPCConnectionProtocol, OS_xpc_object;
+@protocol IDSXPCConnectionProtocol;
 
 @interface _IDSXPCCheckInInfo
 {
     _Bool _finishedTransaction;
-    id <IDSXPCConnectionProtocol> _connection;
-    NSObject<OS_xpc_object> *_tempObject;
 }
 
-- (id);
+- (id)SchedulerTimeType;
 - (void);
-- (id);
+- (id)!;
 - (_Bool);
 - (void);
 - (void);
@@ -24,8 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <IDSXPCConnectionProtocol> connection; // @synthesize connection=_connection;
-@property(nonatomic) _Bool finishedTransaction; // @synthesize finishedTransaction=_finishedTransaction;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *tempObject; // @synthesize tempObject=_tempObject;
 
 @end
 

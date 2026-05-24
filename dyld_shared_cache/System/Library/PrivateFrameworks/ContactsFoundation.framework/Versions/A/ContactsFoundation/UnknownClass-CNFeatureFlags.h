@@ -11,7 +11,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double _cn_timeIntervalValue;
 @property(readonly) unsigned long long cnFeatureFlagValue;
 @end
 

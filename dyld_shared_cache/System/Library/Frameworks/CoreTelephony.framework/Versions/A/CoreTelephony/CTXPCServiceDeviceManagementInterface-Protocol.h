@@ -5,5 +5,7 @@
 //
 
 @protocol CTXPCServiceDeviceManagementInterface
+- (void);
+- (void);
 @end
 

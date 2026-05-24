@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBCloudChannelsRequestItem
 {
     NSString *_channelIdentifier;
-    NSString *_pushTopic;
-    NSString *_subscribedEntityIdentifier;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)1k ;
+- (id)emails:(id)arg1 phones:inLibrary: /* Error: Ran out of types for this method. */;
+- (id)vityAnalyzer shouldAnalyzeMedia:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setContainsPersonalResult: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pushTopic; // @synthesize pushTopic=_pushTopic;
-@property(copy, nonatomic) NSString *subscribedEntityIdentifier; // @synthesize subscribedEntityIdentifier=_subscribedEntityIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

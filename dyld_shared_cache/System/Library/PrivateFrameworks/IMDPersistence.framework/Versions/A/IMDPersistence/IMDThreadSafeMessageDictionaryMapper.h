@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDMessageRecordBatchFetcher, IMTimingCollection, NSCache, NSMutableArray;
+@class IMDMessageRecordBatchFetcher;
 
 @interface IMDThreadSafeMessageDictionaryMapper
 {
     _Bool _requiresAttachments;
-    unsigned long long _processedMessageCount;
-    IMDMessageRecordBatchFetcher *_batchFetcher;
-    IMTimingCollection *_timingCollection;
-    NSCache *_chatDictionaries;
-    NSMutableArray *_indexableDictionaries;
-    unsigned long long _lastIndexedRowID;
-    unsigned long long _maxMessagesToProcess;
-    unsigned long long _databaseBatchSize;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -50,14 +42,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IMDMessageRecordBatchFetcher *batchFetcher; // @synthesize batchFetcher=_batchFetcher;
-@property(readonly, nonatomic) NSCache *chatDictionaries; // @synthesize chatDictionaries=_chatDictionaries;
-@property(nonatomic) unsigned long long databaseBatchSize; // @synthesize databaseBatchSize=_databaseBatchSize;
-@property(retain, nonatomic) NSMutableArray *indexableDictionaries; // @synthesize indexableDictionaries=_indexableDictionaries;
-@property(nonatomic) unsigned long long lastIndexedRowID; // @synthesize lastIndexedRowID=_lastIndexedRowID;
-@property(nonatomic) unsigned long long maxMessagesToProcess; // @synthesize maxMessagesToProcess=_maxMessagesToProcess;
-@property(nonatomic) unsigned long long processedMessageCount; // @synthesize processedMessageCount=_processedMessageCount;
-@property(nonatomic) _Bool requiresAttachments; // @synthesize requiresAttachments=_requiresAttachments;
-@property(readonly, nonatomic) IMTimingCollection *timingCollection; // @synthesize timingCollection=_timingCollection;
 
 @end
 

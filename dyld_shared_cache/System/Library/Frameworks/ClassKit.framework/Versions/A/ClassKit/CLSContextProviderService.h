@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSContextProviderExtensionContext, CLSContextProviderExtensionHostContext, NSArray, NSExtension, NSObject, NSString, NSUUID;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface CLSContextProviderService
 {
     NSObject<OS_dispatch_queue> *_serviceConnectionQueue;
-    NSExtension *_extension;
-    NSUUID *_sessionUUID;
-    CLSContextProviderExtensionHostContext *_extensionHostContext;
-    CLSContextProviderExtensionContext *_extensionContext;
-    NSArray *_mainAppContextPath;
-    _Atomic int _connectionCount;
-    NSString *_extensionIdentifier;
-    NSString *_appIdentifier;
-    NSString *_appName;
-    NSString *_localizedAppName;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)#;
+- (void)%d.%d.%d;
+- (void)H;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
-@property(readonly, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(readonly, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(readonly, nonatomic) NSString *localizedAppName; // @synthesize localizedAppName=_localizedAppName;
 
 @end
 

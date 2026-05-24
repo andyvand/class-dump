@@ -9,11 +9,6 @@
 @interface DGBrushCursorCacheItem
 {
     NSCursor *_cursor;
-    float _radius;
-    float _softness;
-    _Bool _showSoftness;
-    int _style;
-    float _scale;
 }
 
 + (id);

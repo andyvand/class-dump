@@ -5,5 +5,12 @@
 //
 
 @protocol WKNavigationDelegatePrivate
+
+@optional
+- (void)O;
+- (void)	;
+- (void)=;
+- (void);
+- (void)kU;
 @end
 

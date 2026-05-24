@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, PKPass, PKPaymentService, UNUserNotificationCenter;
+@class PKPass, UNUserNotificationCenter;
 
 @interface PKUserNotificationAuthorizationController
 {
     UNUserNotificationCenter *_center;
-    PKPaymentService *_paymentService;
-    NSHashTable *_delegates;
-    struct os_unfair_lock_s _delegatesLock;
-    unsigned long long _previouslyCheckedContentType;
-    PKPass *_relevantPass;
 }
 
 + (id)======í?Ý?Zd;ßOÕ?;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)RuB;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void); ;
-- (void)eporting;
+- (void)reporting;
 - (void)pple.Passbook.QuicklookPreviewExtension;
 
 // Remaining properties

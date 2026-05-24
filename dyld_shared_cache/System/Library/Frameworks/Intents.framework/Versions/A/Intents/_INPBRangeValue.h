@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
-
 @interface _INPBRangeValue
 {
     struct {
         unsigned int length:1;
         unsigned int location:1;
     } _has;
-    unsigned long long _length;
-    unsigned long long _location;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -27,33 +22,21 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
+- (id)*A;
+- (void));
 - (unsigned long long)1¿(1Â0@ù
 × ;
-- (_Bool)CodableAttributeINIntentParameterName;
-- (void)pPhoto;
-- (_Bool)sedTimers;
+- (_Bool)__INCodableAttributeINIntentParameterName;
+- (void)loopPhoto;
+- (_Bool)pausedTimers;
 - (void);
 - (id)#ÃM;
 - (void)E;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasLength;
-@property(nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(nonatomic) unsigned long long location; // @synthesize location=_location;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

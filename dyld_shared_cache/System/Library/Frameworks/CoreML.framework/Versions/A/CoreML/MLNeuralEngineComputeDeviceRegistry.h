@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLNeuralEngineComputeDevice, NSArray, NSString;
+@class MLNeuralEngineComputeDevice;
 
 __attribute__((visibility("hidden")))
 @interface MLNeuralEngineComputeDeviceRegistry
@@ -12,22 +12,14 @@ __attribute__((visibility("hidden")))
     MLNeuralEngineComputeDevice *_neuralEngineDevice;
 }
 
-+ (id)ion:options:reflection:error: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
++ (id)newComputePipelineStateWithFunction:options:reflection:error: /* Error: Ran out of types for this method. */;
+- (id)haToCoverageEnabled =;
+- (id);
 - (id);
 - (void)s for loading model type %s;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MLNeuralEngineComputeDevice *neuralEngineDevice; // @synthesize neuralEngineDevice=_neuralEngineDevice;
-@property(readonly, copy, nonatomic) NSArray *registeredComputeDevices;
-@property(readonly) Class superclass;
 
 @end
 

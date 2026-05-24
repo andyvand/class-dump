@@ -6,49 +6,11 @@
 
 #import <Photos/PHAssetCollection.h>
 
-@class NSData, NSDate, NSDictionary, NSString, PHMemoryFeature;
+@class NSString;
 
 @interface PHMemory : PHAssetCollection
 {
     NSString *_title;
-    NSString *_localizedSubtitle;
-    NSData *_photosGraphData;
-    long long _photosGraphVersion;
-    NSDictionary *_transientMemoryProperties;
-    NSDate *_creationDate;
-    unsigned long long _category;
-    unsigned long long _subcategory;
-    unsigned long long _notificationState;
-    long long _featuredState;
-    _Bool _rejected;
-    _Bool _favorite;
-    unsigned short _pendingState;
-    unsigned short _creationType;
-    unsigned short _syndicatedContentState;
-    _Bool _userCreated;
-    NSDictionary *_movieAssetState;
-    NSData *_movieData;
-    double _score;
-    NSDate *_lastViewedDate;
-    NSDate *_lastMoviePlayedDate;
-    NSDate *_lastEnrichmentDate;
-    NSString *_graphMemoryIdentifier;
-    long long _storyColorGradeKind;
-    NSString *_storyTitleCategory;
-    NSString *_titleFontName;
-    NSData *_assetListPredicate;
-    PHMemoryFeature *_blacklistedFeature;
-    long long _syncedPlayCount;
-    long long _syncedShareCount;
-    long long _syncedViewCount;
-    long long _pendingPlayCount;
-    long long _pendingShareCount;
-    long long _pendingViewCount;
-    _Bool _didLoadPhotosGraphProperties;
-    long long _titleCategory;
-    unsigned short _sharingComposition;
-    unsigned short _userActionOptions;
-    NSDictionary *_photosGraphProperties;
 }
 
 @end

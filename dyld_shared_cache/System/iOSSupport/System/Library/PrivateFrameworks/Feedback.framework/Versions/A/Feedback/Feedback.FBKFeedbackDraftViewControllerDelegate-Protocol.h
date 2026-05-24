@@ -5,5 +5,9 @@
 //
 
 @protocol Feedback.FBKFeedbackDraftViewControllerDelegate
+- (void);
+
+@optional
+- (void);
 @end
 

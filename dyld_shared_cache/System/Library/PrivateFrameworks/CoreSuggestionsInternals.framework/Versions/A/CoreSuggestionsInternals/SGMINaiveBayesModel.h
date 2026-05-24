@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SGMITokenCounts;
+@class SGMITokenCounts;
 
 @interface SGMINaiveBayesModel
 {
     SGMITokenCounts *_mailCount;
-    SGMITokenCounts *_unigramTokenCounts;
-    SGMITokenCounts *_bigramTokenCounts;
-    NSMutableDictionary *_unigramTokensCount;
-    NSMutableDictionary *_bigramTokensCount;
 }
 
 - (id);
@@ -26,11 +22,7 @@
 - (void)ÐIèI;
 
 // Remaining properties
-@property(readonly) SGMITokenCounts *bigramTokenCounts; // @synthesize bigramTokenCounts=_bigramTokenCounts;
-@property(readonly) NSMutableDictionary *bigramTokensCount; // @synthesize bigramTokensCount=_bigramTokensCount;
 @property(readonly) SGMITokenCounts *mailCount; // @synthesize mailCount=_mailCount;
-@property(readonly) SGMITokenCounts *unigramTokenCounts; // @synthesize unigramTokenCounts=_unigramTokenCounts;
-@property(readonly) NSMutableDictionary *unigramTokensCount; // @synthesize unigramTokensCount=_unigramTokensCount;
 
 @end
 

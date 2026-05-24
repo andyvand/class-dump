@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
+- (id)z;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 

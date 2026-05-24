@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface TMSnapshot
 {
     int _flags;
-    NSURL *_liveVolumeMountPoint;
-    NSString *_snapshotName;
-    unsigned long long _xid;
-    unsigned long long _fileID;
 }
 
 + (id);
@@ -34,17 +28,12 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)~O;
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long fileID; // @synthesize fileID=_fileID;
-@property(readonly) int flags; // @synthesize flags=_flags;
 @property(readonly) _Bool isLocalSnapshot;
-@property(readonly, copy) NSURL *liveVolumeMountPoint; // @synthesize liveVolumeMountPoint=_liveVolumeMountPoint;
-@property(readonly, copy) NSString *snapshotName; // @synthesize snapshotName=_snapshotName;
-@property(readonly) unsigned long long xid; // @synthesize xid=_xid;
 
 @end
 

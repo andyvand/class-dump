@@ -7,10 +7,6 @@
 @interface UIKit.ScrollEdgeEffectView.PocketElementModel
 {
     id alignment;
-    id hardEdges;
-    id disableFloatingElements;
-    id elementDescriptors;
-    id cachedRegion;
 }
 
 @end

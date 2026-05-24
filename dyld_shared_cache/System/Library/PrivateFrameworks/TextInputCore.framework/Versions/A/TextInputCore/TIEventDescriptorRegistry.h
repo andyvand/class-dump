@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSMutableDictionary;
+@class NSDictionary, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TIEventDescriptorRegistry
 {
     NSMutableDictionary *_eventDescriptors;
-    NSMutableDictionary *_eventSpecs;
-    NSLock *_lock;
-    _Bool _loaded;
-    NSDictionary *_config;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ActiveDictationLocales;
 - (id);
 - (void);
 - (id);
@@ -35,13 +31,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)naryString: /* Error: Ran out of types for this method. */;
+- (id)externalStringForDictionaryString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *config; // @synthesize config=_config;
-@property(readonly, nonatomic) NSDictionary *eventDescriptors;
-@property(readonly, nonatomic) NSDictionary *eventSpecs;
-@property(nonatomic) _Bool loaded; // @synthesize loaded=_loaded;
 
 @end
 

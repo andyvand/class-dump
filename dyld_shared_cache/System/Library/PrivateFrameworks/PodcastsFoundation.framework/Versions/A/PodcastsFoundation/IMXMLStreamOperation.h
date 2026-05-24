@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInputStream, NSMutableData, NSOutputStream, NSString, NSThread, NSURL, NSURLConnection;
 @protocol NSXMLParserDelegate;
 
 @interface IMXMLStreamOperation
 {
     _Bool _isExecuting;
-    _Bool _isFinished;
-    _Bool _isCancelled;
-    NSThread *_runloopThread;
-    NSInputStream *_readStream;
-    NSOutputStream *_writeStream;
-    NSMutableData *_dataBuffer;
-    _Bool _finishedDownloadingData;
-    NSURL *_url;
-    NSURLConnection *_urlConnection;
-    id <NSXMLParserDelegate> _delegate;
 }
 
 + (id);
@@ -27,29 +16,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	k&;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)J;
 - (_Bool);
 - (void);
-- (void);
+- (void)MTCoreMaterialDefaultPlatformConfiguration;
 - (_Bool)	
 ;
 - (_Bool);
 - (_Bool)ôÑ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <NSXMLParserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

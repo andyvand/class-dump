@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol VSBackgroundTaskDelegate;
 
 @interface VSBackgroundTask
 {
     NSString *_name;
-    id <VSBackgroundTaskDelegate> _delegate;
 }
 
 - (id);
@@ -18,12 +16,11 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)MSPContainerErrorUnkownStorageIdentifierKey;
 - (void);
-- (void);
+- (void)b;
 
 // Remaining properties
-@property(nonatomic) __weak id <VSBackgroundTaskDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

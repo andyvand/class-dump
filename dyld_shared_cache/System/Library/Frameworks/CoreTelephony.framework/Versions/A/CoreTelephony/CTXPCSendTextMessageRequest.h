@@ -6,32 +6,28 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliGroupChatUri, CTLazuliMessageID, CTLazuliMessageText, CTLazuliSecurity;
+@class CTLazuliMessageID;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendTextMessageRequest : CTXPCSubscriptionContextRequest
 {
 }
 
-+ (_Bool);
++ (_Bool)~;
 + (id);
 - (void);
 - (id);
 - (id);
+- (id)Q;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)NSAdvertisingAttributionReportEndpoint;
 - (id);
 - (int);
-- (id)dLineIdRestrictionValue;
+- (id)kSettingsModelFetchConnectedLineIdRestrictionValue;
 
 // Remaining properties
-@property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliGroupChatUri *groupChatURI;
-@property(readonly, nonatomic) CTLazuliMessageText *message;
 @property(readonly, nonatomic) CTLazuliMessageID *messageID;
-@property(readonly, nonatomic) CTLazuliSecurity *security;
 
 @end
 

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDPredicateUtilities
 {
     unsigned long long _cameraSignificantEvent;
-    unsigned long long _personFamiliarityOptions;
-    HMDHome *_home;
-    CDUnknownBlockType _homePresenceProvider;
-    NSString *_logIdentifier;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id)6Nÿòâ;
 - (id);
 - (id);
@@ -32,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (id)t index %lu, sourced from route + latlng;
+- (id)(%lu);
+- (CDUnknownBlockType)ler:didUpdateRouteForSharedTrip:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -46,25 +40,14 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)specificGeoHashGivenCallWithEntity;
 - (void);
 - (id);
 - (id);
 - (void)on UUID;
 
 // Remaining properties
-@property unsigned long long cameraSignificantEvent; // @synthesize cameraSignificantEvent=_cameraSignificantEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
 @property(readonly, nonatomic) CDUnknownBlockType homePresenceProvider; // @synthesize homePresenceProvider=_homePresenceProvider;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property unsigned long long personFamiliarityOptions; // @synthesize personFamiliarityOptions=_personFamiliarityOptions;
-@property(readonly) Class superclass;
 
 @end
 

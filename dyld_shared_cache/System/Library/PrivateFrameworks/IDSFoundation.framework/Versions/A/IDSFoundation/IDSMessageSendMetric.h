@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface IDSMessageSendMetric
 {
     NSMutableDictionary *_metrics;
-    NSString *_service;
-    NSString *_guid;
-    long long _type;
-    NSString *_samplingID;
 }
 
 + (_Bool);
@@ -24,22 +20,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)DisplayStateContentsEDRStrength;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)TryAgain;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
 @property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
-@property(retain) NSString *samplingID; // @synthesize samplingID=_samplingID;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

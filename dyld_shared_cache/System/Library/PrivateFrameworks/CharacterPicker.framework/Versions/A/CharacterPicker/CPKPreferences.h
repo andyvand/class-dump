@@ -4,29 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKDefaultDataSource, EMFEmojiPreferences;
+@class CPKDefaultDataSource;
 
 __attribute__((visibility("hidden")))
 @interface CPKPreferences
 {
     CPKDefaultDataSource *_defaultSource;
-    EMFEmojiPreferences *_emojiPreference;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id);
+- (void)h;
+- (id)q!;
+- (void);
 - (id);
 - (void);
 - (void);

@@ -11,9 +11,9 @@
 + (id);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (id);
-+ (id);
++ (id)2;
 - (void);
 - (id);
 - (id);
@@ -21,12 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)nt:(id)arg1 "%@");
+- (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (id)CGSSetWindowTags;
+- (void);
 - (_Bool);
 
 @end

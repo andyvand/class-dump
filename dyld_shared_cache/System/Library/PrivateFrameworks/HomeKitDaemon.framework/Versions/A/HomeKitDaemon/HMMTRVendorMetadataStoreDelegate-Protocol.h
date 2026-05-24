@@ -5,5 +5,6 @@
 //
 
 @protocol HMMTRVendorMetadataStoreDelegate
+- (void)setAccessibilityText:(void (^)(NSNumber *, NSNumber *))arg1;
 @end
 

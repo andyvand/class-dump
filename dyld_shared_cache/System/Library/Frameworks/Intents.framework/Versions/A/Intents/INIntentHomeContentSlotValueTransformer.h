@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)dCalendar: /* Error: Ran out of types for this method. */;
++ (long long)setEndCalendar: /* Error: Ran out of types for this method. */;
 - (id);
-- (id):(id)arg1;
+- (id)StringAsConditionalOperator:(id)arg1;
 
 @end
 

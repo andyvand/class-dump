@@ -11,18 +11,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CSAttributeEvaluatorContext {
@@ -51,41 +51,15 @@ struct CSUnpackInfo {
     short _field7;
 };
 
-struct WorkItem;
-
-struct WorkItemComparator;
-
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct _opaque_pthread_rwlock_t {
-    long long __sig;
-    char __opaque[192];
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct atomic<unsigned int> {
     struct __cxx_atomic_impl<unsigned int, std::__cxx_atomic_base_impl<unsigned int>> {
         _Atomic unsigned int __a_value;
     } __a_;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
-struct priority_queue<(anonymous namespace)::WorkItem, std::vector<(anonymous namespace)::WorkItem>, (anonymous namespace)::WorkItemComparator> {
-    struct vector<(anonymous namespace)::WorkItem, std::allocator<(anonymous namespace)::WorkItem>> c;
-    struct WorkItemComparator comp;
-};
-
-struct vector<(anonymous namespace)::WorkItem, std::allocator<(anonymous namespace)::WorkItem>> {
-    struct WorkItem *__begin_;
-    struct WorkItem *__end_;
-    struct {
-        struct WorkItem *__cap_;
-    } ;
 };
 
 #pragma mark Typedef'd Structures
@@ -98,11 +72,11 @@ typedef struct {
 typedef struct CDStruct_183601bc;
 
 typedef struct {
-    char *containerBytes;
-    unsigned long long containerLength;
+    char *_field1;
+    unsigned long long _field2;
     struct {
-        unsigned int embeddedReference;
-        unsigned char type;
-    } reference;
-} CDStruct_ab85f6a0;
+        unsigned int _field1;
+        unsigned char _field2;
+    } _field3;
+} CDStruct_04aed232;
 

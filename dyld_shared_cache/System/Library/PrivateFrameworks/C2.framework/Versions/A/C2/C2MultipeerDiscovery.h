@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2Multipeer, NSObject, NSUUID;
-@protocol OS_dispatch_source, OS_nw_browser, OS_nw_listener;
+@class C2Multipeer;
 
 __attribute__((visibility("hidden")))
 @interface C2MultipeerDiscovery
 {
     C2Multipeer *_parent;
-    NSUUID *_myPeerID;
-    NSObject<OS_nw_listener> *_listener;
-    NSObject<OS_nw_browser> *_browser;
-    NSObject<OS_dispatch_source> *_browserTimer;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id)!;
+- (void);
+- (id);
+- (void);
+- (void)_fileProviderFileIdentifier;
 - (void);
 - (void)%(1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_nw_browser> *browser; // @synthesize browser=_browser;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *browserTimer; // @synthesize browserTimer=_browserTimer;
-@property(retain, nonatomic) NSObject<OS_nw_listener> *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) NSUUID *myPeerID; // @synthesize myPeerID=_myPeerID;
 @property(nonatomic) __weak C2Multipeer *parent; // @synthesize parent=_parent;
 
 @end

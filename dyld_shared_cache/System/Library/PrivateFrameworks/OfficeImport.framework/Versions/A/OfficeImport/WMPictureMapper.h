@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)q ;
 - (id);
 - (void)condition type in conditional number format!;
 

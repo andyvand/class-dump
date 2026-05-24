@@ -11,7 +11,6 @@
 @interface PKPaymentVehicleManufacturerRequest : PKPaymentWebServiceRequest
 {
     NSDictionary *_encryptedVehicleDataRequest;
-    NSDictionary *_metadata;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ndaryInvitationKey;
+- (void)PKSharingCarKeySkipSecondaryInvitationKey;
 
 @end
 

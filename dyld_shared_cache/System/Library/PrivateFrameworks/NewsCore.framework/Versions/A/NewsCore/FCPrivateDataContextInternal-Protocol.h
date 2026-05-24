@@ -8,20 +8,13 @@
 @protocol FCAppActivityMonitor;
 
 @protocol FCPrivateDataContextInternal
+- (FCCKRecordZone *)bserver _client_coordinatorShouldResumeWithSeed:] /* Error: Ran out of types for this method. */;
+- (FCCKRecordZone *)commit;
+- (id <FCAppActivityMonitor>)PCListener",&,V_networkEventsListener;
 - (FCCKRecordZone *)urces/FeldsparServices/feldsparcore/Classes/FCPurchaseAccessChecker.m;
 - (FCCKRecordZone *)%{public}@ with operation %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCAppActivityMonitor> appActivityMonitor;
-@property(readonly, nonatomic) FCCKRecordZone *channelMembershipsRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *issueReadingHistoryRecordZone;
 @property(readonly, nonatomic) FCCKPrivateDatabase *privateDatabase;
-@property(readonly, nonatomic) FCCKRecordZone *puzzleHistoryRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *readingHistoryRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *readingListRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *sensitiveSubscriptionsRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *shortcutsRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *subscriptionsRecordZone;
-@property(readonly, nonatomic) FCCKRecordZone *userInfoRecordZone;
 @end
 

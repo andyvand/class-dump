@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PXStackedDataSourceManager
 {
     _Bool _initialDataSourceCreated;
-    NSArray *_dataSectionManagers;
 }
 
+- (void)u;
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)(;
+- (id)";
 - (id);
 - (void);
 - (void);
@@ -26,15 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *dataSectionManagers; // @synthesize dataSectionManagers=_dataSectionManagers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool initialDataSourceCreated; // @synthesize initialDataSourceCreated=_initialDataSourceCreated;
-@property(readonly) Class superclass;
 
 @end
 

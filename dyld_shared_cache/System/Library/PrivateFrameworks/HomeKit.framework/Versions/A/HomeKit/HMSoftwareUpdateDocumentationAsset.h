@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSoftwareUpdateDocumentation, HMSoftwareUpdateDocumentationMetadata, NSArray, NSError, NSInputStream, NSObject, NSString, NSURL, NSUUID;
-@protocol HMSoftwareUpdateDocumentationAssetDelegate, HMSoftwareUpdateDocumentationAssetExtractor, HMSoftwareUpdateUrlSession, OS_dispatch_queue;
+@protocol HMSoftwareUpdateUrlSession;
 
 @interface HMSoftwareUpdateDocumentationAsset
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _shouldAutomaticallyCache;
-    long long _state;
-    id <HMSoftwareUpdateDocumentationAssetExtractor> _extractor;
-    NSError *_error;
-    NSUUID *_identifier;
-    HMSoftwareUpdateDocumentationMetadata *_metadata;
-    id <HMSoftwareUpdateDocumentationAssetDelegate> _delegate;
-    id <HMSoftwareUpdateUrlSession> _URLSession;
-    NSInputStream *_archivedFileStream;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id)t.siri.identifyVoice;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)(;
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)B1(J
+;
 - (void);
 - (id);
 - (_Bool);
@@ -58,49 +48,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)v@?@"NSError">24;
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)dainty;
 - (id);
+- (void);
+- (id);
+- (id)1	;
+- (id)EEEEE;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)orySettingsControllerDataSource;
+- (void)AccessorySettingsControllerDataSource;
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL;
 @property(retain, nonatomic) id <HMSoftwareUpdateUrlSession> URLSession; // @synthesize URLSession=_URLSession;
-@property(retain, nonatomic) NSInputStream *archivedFileStream; // @synthesize archivedFileStream=_archivedFileStream;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMSoftwareUpdateDocumentationAssetDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMSoftwareUpdateDocumentation *documentation;
-@property(readonly, copy) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) id <HMSoftwareUpdateDocumentationAssetExtractor> extractor; // @synthesize extractor=_extractor;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) HMSoftwareUpdateDocumentationMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) _Bool shouldAutomaticallyCache; // @synthesize shouldAutomaticallyCache=_shouldAutomaticallyCache;
-@property(readonly) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

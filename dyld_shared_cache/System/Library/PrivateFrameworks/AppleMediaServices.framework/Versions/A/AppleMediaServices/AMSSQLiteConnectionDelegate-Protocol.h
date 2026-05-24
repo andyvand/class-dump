@@ -5,5 +5,8 @@
 //
 
 @protocol AMSSQLiteConnectionDelegate
+
+@optional
+- (_Bool)_peerLanguageCode;
 @end
 

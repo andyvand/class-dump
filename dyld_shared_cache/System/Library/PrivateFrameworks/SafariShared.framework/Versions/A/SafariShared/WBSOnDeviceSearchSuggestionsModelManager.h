@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, WBSCoalescedAsynchronousWriter;
+@class NSMutableDictionary;
 
 @interface WBSOnDeviceSearchSuggestionsModelManager
 {
     NSMutableDictionary *_localeIdentifiersToChecksums;
-    WBSCoalescedAsynchronousWriter *_asyncWriter;
-    NSSet *_supportedLocaleIdentifiers;
-    struct os_unfair_lock_s _modelDataLock;
 }
 
-+ (id);
++ (id)onse>"8;
 - (void);
 - (_Bool);
 - (_Bool);

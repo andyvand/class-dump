@@ -6,24 +6,23 @@
 
 #import <SAObjects/SAUITemplateBaseItem.h>
 
-@class NSDictionary, SAUITemplateAttributedString;
+@class NSDictionary;
 
 @interface SAUITemplateLabel : SAUITemplateBaseItem
 {
 }
 
 + (id);
-+ (id);
-- (void);
++ (id);
+- (void)4;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)Q;
+- (void)6;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *attributedTexts;
-@property(retain, nonatomic) SAUITemplateAttributedString *text;
 
 @end
 

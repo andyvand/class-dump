@@ -7,30 +7,22 @@
 @interface TUNearbyDeviceHandleCapabilities
 {
     _Bool _avLessCapable;
-    _Bool _lagunaCapable;
-    _Bool _audioCallCapable;
-    _Bool _telephonyRelayCapable;
-    _Bool _greenTea;
 }
 
-+ (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
++ (_Bool)z;
+- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)	k;
 - (id);
-- (void);
+- (void)qa;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAudioCallCapable) _Bool audioCallCapable; // @synthesize audioCallCapable=_audioCallCapable;
 @property(readonly, nonatomic, getter=isAVLessCapable) _Bool avLessCapable; // @synthesize avLessCapable=_avLessCapable;
-@property(readonly, nonatomic, getter=isGreenTea) _Bool greenTea; // @synthesize greenTea=_greenTea;
-@property(readonly, nonatomic, getter=isLagunaCapable) _Bool lagunaCapable; // @synthesize lagunaCapable=_lagunaCapable;
-@property(readonly, nonatomic, getter=isTelephonyRelayCapable) _Bool telephonyRelayCapable; // @synthesize telephonyRelayCapable=_telephonyRelayCapable;
 
 @end
 

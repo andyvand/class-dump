@@ -10,9 +10,9 @@
 }
 
 + (Class);
-- (id);
-- (id);
-- (void);
+- (id)B;
+- (id)_;
+- (void)magazinesConfigRecordID;
 - (void);
 
 @end

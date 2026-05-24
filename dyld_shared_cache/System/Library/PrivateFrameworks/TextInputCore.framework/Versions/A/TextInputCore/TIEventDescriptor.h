@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TIEventDescriptor
 {
     _Bool _includeTestingParameters;
-    NSString *_eventName;
-    NSString *_eventDescription;
-    NSArray *_fieldDescriptors;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)o remove pairing with identifier:%@ /* Error: Ran out of types for this method. */;
+- (id)enum_kMDItemPhotosDescription_ordered_prefix_first_term_position;
 - (void)i1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *eventDescription; // @synthesize eventDescription=_eventDescription;
 @property(readonly, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(readonly, nonatomic) NSArray *fieldDescriptors; // @synthesize fieldDescriptors=_fieldDescriptors;
-@property(readonly, nonatomic) _Bool includeTestingParameters; // @synthesize includeTestingParameters=_includeTestingParameters;
 
 @end
 

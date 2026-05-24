@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKImageEffectsView, NSTextField;
+@class IKImageEffectsView;
 
 @interface IKSingleImageEffect
 {
     IKImageEffectsView *_effectsView;
-    NSTextField *_label;
-    CALayer *_mylayer;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)ÿ[ù×;

@@ -5,5 +5,6 @@
 //
 
 @protocol ASDTaskScheduler
+- (void);
 @end
 

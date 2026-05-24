@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSDate;
+@class NSDate;
 
 @interface MPServerObjectDatabaseImportRequest
 {
     id _payload;
-    ICUserIdentity *_userIdentity;
-    NSDate *_expirationDate;
-    NSDate *_assetURLExpirationDate;
 }
 
 - (id);
@@ -20,15 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void)er;
-- (id)ibraryID;
-- (void)rRepresentativeItemPersistentID;
+- (void)_queueIdentifier;
+- (id)_libraryID;
+- (void)composerRepresentativeItemPersistentID;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *assetURLExpirationDate; // @synthesize assetURLExpirationDate=_assetURLExpirationDate;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) id payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

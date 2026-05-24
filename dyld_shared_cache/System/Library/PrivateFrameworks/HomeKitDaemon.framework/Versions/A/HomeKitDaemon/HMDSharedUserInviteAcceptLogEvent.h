@@ -10,18 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteAcceptLogEvent : HMDSharedUserInviteLogEvent
 {
     long long _joinOwnerShareMS;
-    long long _createMKFCKSharedUserDataRootMS;
-    long long _createReverseShareMS;
-    long long _addUserToShareMS;
-    long long _sendAcceptanceToOwnerMS;
-    long long _totalInvitationAcceptanceMS;
-    long long _MKFCKSharedHomeLandMS;
-    long long _processSharedHomeRecordMS;
-    long long _createHomeMS;
-    long long _discoverPrimaryResidentMS;
-    long long _residentSyncRequestMS;
-    long long _residentSyncDataReceivedMS;
-    long long _sharedUserTotalMS;
 }
 
 - (long long);
@@ -42,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
-- (long long);
-- (id);
+- (long long)ession"16@"NSString"24;
+- (id)I,N,V_cartoID;
 - (long long);
 - (long long);
 - (long long);
@@ -52,23 +40,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)RemoteAccessDeniedFormat;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long MKFCKSharedHomeLandMS; // @synthesize MKFCKSharedHomeLandMS=_MKFCKSharedHomeLandMS;
-@property(nonatomic) long long addUserToShareMS; // @synthesize addUserToShareMS=_addUserToShareMS;
-@property(nonatomic) long long createHomeMS; // @synthesize createHomeMS=_createHomeMS;
-@property(nonatomic) long long createMKFCKSharedUserDataRootMS; // @synthesize createMKFCKSharedUserDataRootMS=_createMKFCKSharedUserDataRootMS;
-@property(nonatomic) long long createReverseShareMS; // @synthesize createReverseShareMS=_createReverseShareMS;
-@property(nonatomic) long long discoverPrimaryResidentMS; // @synthesize discoverPrimaryResidentMS=_discoverPrimaryResidentMS;
 @property(nonatomic) long long joinOwnerShareMS; // @synthesize joinOwnerShareMS=_joinOwnerShareMS;
-@property(nonatomic) long long processSharedHomeRecordMS; // @synthesize processSharedHomeRecordMS=_processSharedHomeRecordMS;
-@property(nonatomic) long long residentSyncDataReceivedMS; // @synthesize residentSyncDataReceivedMS=_residentSyncDataReceivedMS;
-@property(nonatomic) long long residentSyncRequestMS; // @synthesize residentSyncRequestMS=_residentSyncRequestMS;
-@property(nonatomic) long long sendAcceptanceToOwnerMS; // @synthesize sendAcceptanceToOwnerMS=_sendAcceptanceToOwnerMS;
-@property(nonatomic) long long sharedUserTotalMS; // @synthesize sharedUserTotalMS=_sharedUserTotalMS;
-@property(nonatomic) long long totalInvitationAcceptanceMS; // @synthesize totalInvitationAcceptanceMS=_totalInvitationAcceptanceMS;
 
 @end
 

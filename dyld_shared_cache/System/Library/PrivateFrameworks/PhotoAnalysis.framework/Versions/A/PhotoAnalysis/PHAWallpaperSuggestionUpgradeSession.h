@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, VCPMediaAnalysisService;
-@protocol OS_dispatch_queue, OS_os_log;
+@class VCPMediaAnalysisService;
 
 @interface PHAWallpaperSuggestionUpgradeSession
 {
     VCPMediaAnalysisService *_mediaAnalysisService;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_upgradeSessions;
 }
 
 - (void);
 - (id);
-- (void)ntPast;
+- (void)distantPast;
 
 @end
 

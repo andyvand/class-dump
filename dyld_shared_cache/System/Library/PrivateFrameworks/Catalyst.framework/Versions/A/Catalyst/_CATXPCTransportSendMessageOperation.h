@@ -6,27 +6,25 @@
 
 #import <Catalyst/CATOperation.h>
 
-@class CATMessage, CATXPCTransport;
+@class CATXPCTransport;
 
 __attribute__((visibility("hidden")))
 @interface _CATXPCTransportSendMessageOperation : CATOperation
 {
     CATXPCTransport *_transport;
-    CATMessage *_message;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_;
+- (id)]Si*;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) CATMessage *message; // @synthesize message=_message;
 @property(nonatomic) __weak CATXPCTransport *transport; // @synthesize transport=_transport;
 
 @end

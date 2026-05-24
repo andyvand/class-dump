@@ -6,18 +6,15 @@
 
 #import <UIKitCore/_UISEGestureFeature.h>
 
-@protocol _UISEGestureFeatureSettings, _UISETouchedEdgesProvider;
+@protocol _UISEGestureFeatureSettings;
 
 __attribute__((visibility("hidden")))
 @interface _UISEOrthogonalHysteresisGestureFeature : _UISEGestureFeature
 {
     id <_UISEGestureFeatureSettings> _settings;
-    id <_UISETouchedEdgesProvider> _provider;
-    struct CGPoint _initialLocation;
-    double _initialTimestamp;
 }
 
-- (void)OrientationLockState:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)setInterfaceOrientationLockState:(const struct _UISEGestureFeatureSample *)arg1;
 - (id)anslit;
 - (void)@;
 

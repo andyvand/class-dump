@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ead_queryHints"b1"read_resultHints"b1"read_tappedResultHint"b1"wrote_anyField"b1};
-- (id)ionHandler:errorHandler:mustGoToNetworkCallback: /* Error: Ran out of types for this method. */;
+- (id)_initWithLatLng:accuracy:callbackQueue:completionHandler:errorHandler:mustGoToNetworkCallback: /* Error: Ran out of types for this method. */;
 - (id)è{|;
 - (void);
 

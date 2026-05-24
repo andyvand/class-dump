@@ -9,12 +9,6 @@
 @interface NFSignatureInfo
 {
     NSString *_rsaCert;
-    NSString *_eccCert;
-    NSString *_eckaCert;
-    NSString *_seid;
-    NSString *_platformId;
-    NSString *_jsblCounter;
-    unsigned long long _certificateVersion;
 }
 
 + (_Bool);
@@ -23,22 +17,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)agedClient.app/Contents/MacOS/ManagedClient;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long certificateVersion; // @synthesize certificateVersion=_certificateVersion;
-@property(readonly, retain, nonatomic) NSString *eccCert; // @synthesize eccCert=_eccCert;
-@property(readonly, retain, nonatomic) NSString *eckaCert; // @synthesize eckaCert=_eckaCert;
-@property(readonly, retain, nonatomic) NSString *jsblCounter; // @synthesize jsblCounter=_jsblCounter;
-@property(readonly, retain, nonatomic) NSString *platformId; // @synthesize platformId=_platformId;
 @property(readonly, retain, nonatomic) NSString *rsaCert; // @synthesize rsaCert=_rsaCert;
-@property(readonly, retain, nonatomic) NSString *seid; // @synthesize seid=_seid;
 
 @end
 

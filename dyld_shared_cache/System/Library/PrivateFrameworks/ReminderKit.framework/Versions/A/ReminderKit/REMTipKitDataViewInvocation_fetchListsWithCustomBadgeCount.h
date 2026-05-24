@@ -13,8 +13,8 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)3;
+- (_Bool)] is not valid for this language model;
 - (void);
 - (id);
 

@@ -9,11 +9,10 @@
 @interface WFSandboxExtensionManager
 {
     NSSet *_extensionResourcesClassNames;
-    NSDictionary *_extensionClassesPerResource;
 }
 
 + (_Bool);
-+ (id);
++ (id)z;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *extensionClassesPerResource; // @synthesize extensionClassesPerResource=_extensionClassesPerResource;
-@property(readonly, copy, nonatomic) NSSet *extensionResourcesClassNames; // @synthesize extensionResourcesClassNames=_extensionResourcesClassNames;
 
 @end
 

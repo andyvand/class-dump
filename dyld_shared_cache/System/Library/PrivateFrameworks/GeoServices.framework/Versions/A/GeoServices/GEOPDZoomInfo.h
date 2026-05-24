@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDZoomInfo
 {
     PBUnknownFields *_unknownFields;
-    double _maxZoom;
-    double _minZoom;
-    struct {
-        unsigned int has_maxZoom:1;
-        unsigned int has_minZoom:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)read_proximityIntent"b1"read_searchFilterIntent"b1"read_transitIntent"b1"wrote_anyField"b1};
-- (id);
+- (id)_startMonotonicTimestamp;
 - (id)Å\Æ	tÉËøÍ;
 - (void);
 

@@ -4,94 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableDictionary, NSTimeZone, Stock;
+@class NSMutableDictionary, Stock;
 
 @interface StockChartData
 {
     NSMutableDictionary *_imageSetCache;
-    NSMutableDictionary *_yAxisLabelInfoCache;
-    NSMutableDictionary *_xAxisLabelInfoCache;
-    NSMutableDictionary *_labelPlacementCache;
-    _Bool _isUnavailable;
-    _Bool _hasVolume;
-    unsigned int _stockValueCount;
-    float _previousClosePrice;
-    int _yAxisFractionDigits;
-    Stock *_stock;
-    long long _chartInterval;
-    CDStruct_d4d9707c *_stockValues;
-    NSArray *_interestingIndexes;
-    NSDate *_marketOpenDate;
-    NSDate *_marketCloseDate;
-    NSTimeZone *_marketTimeZone;
-    CDStruct_d4d9707c *_minValue;
-    CDStruct_d4d9707c *_maxValue;
-    double _expirationTime;
-    NSDictionary *_dataSeriesDict;
 }
 
 - (id);
 - (int);
 - (id);
-- (CDStruct_d4d9707c *);
+- (CDStruct_8cc9ba3e *)|;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)m|;
+- (void);
+- (void)|;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)p|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (id);
-- (id);
+- (float)5o|;
+- (id);
+- (id)l;
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (void);
-- (long long);
-- (CDStruct_d4d9707c *);
+- (long long);
+- (CDStruct_8cc9ba3e *);
 - (id);
 - (unsigned int);
 - (void);
 - (void);
 - (id);
 - (double);
-- (CDStruct_d4d9707c *);
+- (CDStruct_8cc9ba3e *);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (CDStruct_d4d9707c *)mLine: /* Error: Ran out of types for this method. */;
+- (void)SCRCUserDefaultsPortablePreferences;
+- (CDStruct_8cc9ba3e *)setNewsViewHasBottomLine: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long chartInterval; // @synthesize chartInterval=_chartInterval;
-@property(retain, nonatomic) NSDictionary *dataSeriesDict; // @synthesize dataSeriesDict=_dataSeriesDict;
-@property(nonatomic) double expirationTime; // @synthesize expirationTime=_expirationTime;
-@property(nonatomic) _Bool hasVolume; // @synthesize hasVolume=_hasVolume;
-@property(retain, nonatomic) NSArray *interestingIndexes; // @synthesize interestingIndexes=_interestingIndexes;
-@property(nonatomic) _Bool isUnavailable; // @synthesize isUnavailable=_isUnavailable;
-@property(retain, nonatomic) NSDate *marketCloseDate; // @synthesize marketCloseDate=_marketCloseDate;
-@property(retain, nonatomic) NSDate *marketOpenDate; // @synthesize marketOpenDate=_marketOpenDate;
-@property(retain, nonatomic) NSTimeZone *marketTimeZone; // @synthesize marketTimeZone=_marketTimeZone;
-@property(nonatomic) CDStruct_d4d9707c *maxValue; // @synthesize maxValue=_maxValue;
-@property(nonatomic) CDStruct_d4d9707c *minValue; // @synthesize minValue=_minValue;
-@property(nonatomic) float previousClosePrice; // @synthesize previousClosePrice=_previousClosePrice;
 @property(nonatomic) __weak Stock *stock; // @synthesize stock=_stock;
-@property(readonly) unsigned int stockValueCount; // @synthesize stockValueCount=_stockValueCount;
-@property(readonly) CDStruct_d4d9707c *stockValues; // @synthesize stockValues=_stockValues;
-@property(nonatomic) int yAxisFractionDigits; // @synthesize yAxisFractionDigits=_yAxisFractionDigits;
 
 @end
 

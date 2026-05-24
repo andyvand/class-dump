@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSString;
 
 @interface FPSearchOnServerEnumerator
 {
     NSString *_query;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_waitGroup;
-    _Bool _finished;
-    NSMutableDictionary *_inflightRequests;
-    NSMutableSet *_initialRequests;
-    NSMutableDictionary *_nextPages;
-    NSMutableDictionary *_prefetchedResults;
-    NSMutableDictionary *_extensionLifetimeExtenders;
 }
 
 + (void);
-- (void);
+- (void)AM;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAddAttachmentsManagerAttachmentInfo, ICAttachment, ICSearchResultRegexMatchFinder, LPLinkView, NSColor, NSHashTable, NSLayoutConstraint, NSString;
+@class NSHashTable;
 
 @interface ICAttachmentBrickView
 {
     _Bool _selected;
-    _Bool _insideSystemPaper;
-    _Bool _waitingForMetadata;
-    _Bool _hasPerformedInitialLayout;
-    _Bool _inDidFailFetchingMetadataNotification;
-    float _playbackProgress;
-    ICSearchResultRegexMatchFinder *_highlightPatternRegexFinder;
-    ICAttachment *_attachment;
-    ICAddAttachmentsManagerAttachmentInfo *_shareExtensionAttachmentInfo;
-    NSColor *_highlightColor;
-    NSHashTable *_audioPlayerClients;
-    unsigned long long _playerState;
-    LPLinkView *_linkView;
-    unsigned long long _type;
-    NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
 }
 
 + (struct CGSize);
 + (struct CGSize);
 + (_Bool);
-+ (id);
++ (id)sportsTagSeenImpressionValue;
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -43,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (void);
@@ -61,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,30 +54,30 @@
 - (id);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)_txNoACKCount;
+- (void)Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCModifyIssueHistoryCommand.m;
+- (void)PurchaseLookUpEntryLastVerificationFailureTime;
+- (void)rvices/feldsparcore/Classes/FCNotificationPoolOperation.m;
+- (void)raryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNotificationPoolOperation.m;
+- (id)s/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNotificationPoolOperation.m;
+- (_Bool)sparServices/feldsparcore/Classes/FCPaywallTopOffsetConfiguration.m;
+- (id);
+- (void);
+- (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -102,7 +87,7 @@
 - (void);
 - (id);
 - (id);
-- (float);
+- (float)timeZoneForSecondsFromGMT: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)
@@ -122,35 +107,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) __weak ICAttachment *attachment; // @synthesize attachment=_attachment;
 @property(retain, nonatomic) NSHashTable *audioPlayerClients; // @synthesize audioPlayerClients=_audioPlayerClients;
-@property(readonly, nonatomic) struct CGSize computedSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double effectiveLayoutCornerRadius;
-@property(nonatomic) _Bool hasPerformedInitialLayout; // @synthesize hasPerformedInitialLayout=_hasPerformedInitialLayout;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(copy, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(retain, nonatomic) ICSearchResultRegexMatchFinder *highlightPatternRegexFinder; // @synthesize highlightPatternRegexFinder=_highlightPatternRegexFinder;
-@property(nonatomic) _Bool inDidFailFetchingMetadataNotification; // @synthesize inDidFailFetchingMetadataNotification=_inDidFailFetchingMetadataNotification;
-@property(nonatomic, getter=isInsideSystemPaper) _Bool insideSystemPaper; // @synthesize insideSystemPaper=_insideSystemPaper;
-@property(readonly, nonatomic) _Bool isMetadataComplete;
-@property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(nonatomic) float playbackProgress; // @synthesize playbackProgress=_playbackProgress;
-@property(nonatomic) unsigned long long playerState; // @synthesize playerState=_playerState;
-@property(readonly, nonatomic) float progress;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) __weak ICAddAttachmentsManagerAttachmentInfo *shareExtensionAttachmentInfo; // @synthesize shareExtensionAttachmentInfo=_shareExtensionAttachmentInfo;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *typeDescriptionForAccessibility;
-@property(nonatomic) _Bool waitingForMetadata; // @synthesize waitingForMetadata=_waitingForMetadata;
-@property(retain, nonatomic) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end
 

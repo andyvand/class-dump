@@ -6,26 +6,16 @@
 
 #import <CFNetwork/__NSCFURLLocalStreamTask.h>
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalStreamTaskFromDataTask : __NSCFURLLocalStreamTask
 {
     struct __CFReadStream *_myReadToHisWrite;
-    _Bool _myReadToHisWriteEOF;
-    _Bool _myReadToHisWriteSignaled;
-    CDStruct_59046461 _myReadToHisWriteError;
-    struct __CFWriteStream *_myWriteToHisRead;
-    _Bool _myWriteToHisReadEOF;
-    _Bool _myWriteToHisReadSignaled;
-    CDStruct_59046461 _myWriteToHisReadError;
-    NSMutableArray *_myWriteToHisReadWork;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)glottalstopreversedsuperior;
 - (id);
 - (void)sion <%{public}@> attempted to create an AVAssetDownloadTask in a session that has been invalidated;
 - (void)ublic}@;
@@ -47,13 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)20R;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

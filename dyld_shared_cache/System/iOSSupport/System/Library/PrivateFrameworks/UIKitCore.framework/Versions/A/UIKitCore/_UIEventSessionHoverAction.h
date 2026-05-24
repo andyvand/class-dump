@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (long long);
-- (long long);
+- (long long)normalizedID;
+- (long long)lastSentDowngradeRequestSinceLoadSessionIndex;
 - (id);
 - (long long)
 × ;

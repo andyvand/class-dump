@@ -5,9 +5,10 @@
 //
 
 @protocol _UIClickInteractionDriverDelegate
+- (void)MPModelLibraryRequestContentRangeLocation;
 
 @optional
-- (_Bool);
-- (void)atteryLevelDidChangeMessage;
+- (_Bool)_createLabelStackViewIfNeeded;
+- (void)BatteryLevelDidChangeMessage;
 @end
 

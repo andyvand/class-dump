@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCompositeSettingsOwnerToDatabaseAdapterRegistry, NSArray, NSMapTable, NSObject, NSString;
-@protocol HMDCompositeSettingControllerManagerStateManager, HMDCompositeSettingsControllerManagerDataSource, HMMLogEventSubmitting, OS_dispatch_queue;
+@protocol HMDCompositeSettingsControllerManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingsControllerManager
 {
     id <HMDCompositeSettingsControllerManagerDataSource> _dataSource;
-    HMDCompositeSettingsOwnerToDatabaseAdapterRegistry *_registry;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    CDUnknownBlockType _compositeSettingsControllerFactory;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSMapTable *_stringToCompositeSettingsController;
-    id <HMDCompositeSettingControllerManagerStateManager> _stateManager;
 }
 
 + (id);
@@ -24,41 +17,30 @@ __attribute__((visibility("hidden")))
 + (id)tÿa¼B;
 - (void);
 - (void);
-- (id);
+- (id)lastDragMousePosition;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)OS_dispatch_queue>"24Q32;
-- (void)elCHIPPropertiesForAddedHAPAccessoryServer:(id)arg1;
+- (void)updatedHomeModelCHIPPropertiesForAddedHAPAccessoryServer:(id)arg1;
 - (void);
 - (void);
 - (void)@Unexpected, operational dataset validation failed. Error:(id)arg1 %@, credentials:(id)arg2 %@;
 - (id)consent. Delegating consent to requestor;
-- (id)ClientConnectMessageErrorCode;
+- (id)hmd_primaryClientConnectMessageErrorCode;
 - (void).Observer;
 - (id)×;
 - (id);
 
 // Remaining properties
-@property(readonly) __weak id <HMDCompositeSettingsControllerManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *homes;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) id <HMDCompositeSettingControllerManagerStateManager> stateManager; // @synthesize stateManager=_stateManager;
-@property(readonly, copy) NSMapTable *stringToCompositeSettingsController; // @synthesize stringToCompositeSettingsController=_stringToCompositeSettingsController;
-@property(readonly) Class superclass;
 
 @end
 

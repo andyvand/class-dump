@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineSectionBarModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

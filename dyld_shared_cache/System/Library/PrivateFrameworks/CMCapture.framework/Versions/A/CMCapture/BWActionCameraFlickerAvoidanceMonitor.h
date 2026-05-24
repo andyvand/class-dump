@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface BWActionCameraFlickerAvoidanceMonitor
 {
     int _flickerFrequency;
-    int _frameRateCompatibleFlickerFrequency;
-    int _confidenceThreshold;
-    int _confidenceHysteresis;
-    _Bool _frameRateAware;
-    float _currentFrameRate;
-    int _frameRateUpdateCounter;
-    NSDictionary *_defaultMaxExposureDurationFrameworkOverrideByPortType;
 }
 
-+ (void)ientNotification;
++ (void)fcs_handleStreamControlRelinquishedByAnotherClientNotification;
 - (void);
 - (id);
-- (int);
+- (int);
 - (_Bool);
-- (void);
+- (void)@#L&;
 
 // Remaining properties
 @property(nonatomic) int flickerFrequency; // @synthesize flickerFrequency=_flickerFrequency;

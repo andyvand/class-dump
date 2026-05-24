@@ -5,5 +5,7 @@
 //
 
 @protocol CKTranscriptOverlayTransitionDelegate
+- (void);
+- (void);
 @end
 

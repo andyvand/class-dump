@@ -18,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSData *endWaypoint; // @dynamic endWaypoint;
-@property(nonatomic, copy) NSData *startWaypoint; // @dynamic startWaypoint;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface ChatKit.TranscriptNavigationBarOrnamentView.TitleRowView
 {
     id titleLabel;
-    id chevronImageView;
-    id leadingTitleIconViews;
-    id conversationTitle;
-    id leadingTitleIcons;
-    id wantsChevron;
 }
 
 - (struct CGSize);

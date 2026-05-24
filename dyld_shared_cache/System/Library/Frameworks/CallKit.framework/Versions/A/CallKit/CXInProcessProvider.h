@@ -6,26 +6,24 @@
 
 #import <CallKit/CXProvider.h>
 
-@class CXInProcessCallSource, NSString;
+@class CXInProcessCallSource;
 
 @interface CXInProcessProvider : CXProvider
 {
     CXInProcessCallSource *_callSource;
-    NSString *_identifier;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)te passkey.;
 - (id);
 - (id);
-- (void);
+- (void)updateWithDictionaryRepresentation:(id)arg1;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak CXInProcessCallSource *callSource; // @synthesize callSource=_callSource;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

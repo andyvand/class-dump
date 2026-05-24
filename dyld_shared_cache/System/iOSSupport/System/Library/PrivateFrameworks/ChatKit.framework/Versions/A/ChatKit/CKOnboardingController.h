@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerLooper, AVTAvatarStore, CKCNSharedProfileOnboardingController, CKCNSharingProfileOnboardingFlowManager, CKPreferencesPresentationController, CNSharingProfileAvatarItemProviderConfiguration, IMCloudKitSyncState, NSString, OBButtonTray, OBPrivacySplashController, OBWelcomeController, OBWelcomeFullCenterContentController, UINavigationController, UIWindow;
-@protocol AVTAvatarRecord, CKOnboardingControllerDelegate, IMCNMeCardSharingResult;
+@class UINavigationController;
 
 @interface CKOnboardingController
 {
     _Bool _presentingFromPrefs;
-    _Bool _isUserInitiatedEditNameAndPhoto;
-    int _micLayout;
-    id <CKOnboardingControllerDelegate> _delegate;
-    IMCloudKitSyncState *_syncState;
-    UINavigationController *_navigationController;
-    OBWelcomeController *_appleIntelligenceOnboardingController;
-    OBWelcomeFullCenterContentController *_memojiCreationController;
-    AVPlayer *_memojiVideoPlayer;
-    AVPlayerLooper *_memojiVideoPlayerLooper;
-    AVTAvatarStore *_avatarStore;
-    id <AVTAvatarRecord> _avatarRecord;
-    id <IMCNMeCardSharingResult> _pendingMeCardSharingResult;
-    CKCNSharingProfileOnboardingFlowManager *_nicknameFlowManager;
-    CNSharingProfileAvatarItemProviderConfiguration *_avatarItemProviderConfiguration;
-    CKCNSharedProfileOnboardingController *_sharedProfileOnboardingController;
-    OBWelcomeController *_syndicationIntroController;
-    OBButtonTray *_buttonTray;
-    CKPreferencesPresentationController *_prefsPresentationController;
-    UIWindow *_macOnboardingWindow;
-    OBPrivacySplashController *_privacySplashController;
 }
 
 + (unsigned long long);
@@ -45,36 +24,36 @@
 + (_Bool);
 + (long long);
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)indentForHeadIndent;
+- (void)fixAttachmentForAttributedString:range:forPlainText:forStandardizedText: /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithObject:(id)arg1 forKey:(unsigned long long)arg2;
+- (id)deviceManagementRestrictionsManager;
+- (void)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (void)collaborationController:(id)arg1 presentExportViewForAttachment:window: /* Error: Ran out of types for this method. */;
+- (void)authenticateDevicePasswordWithPrompt:(id)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)appearanceNamed:(id)arg1;
+- (void)allowsAnimations;
+- (void)accountSectionTypeForModernAccount:(id)arg1;
+- (void)_webView:(id)arg1 requestWebAuthenticationConditionalMediationRegistrationForUser:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(int)arg1 didInsertAttachment:withSource: /* Error: Ran out of types for this method. */;
+- (void)_viewportShouldSnapToAttachmentView;
+- (void)_viewContext;
+- (void)_value;
+- (void)_trackedToDoParagraphs;
+- (void)_receivedSince;
+- (void)&,N,V_buttonIdentifiers;
+- (void)ICMentionUIModel;
+- (void)ICButtonItemIdentifier;
+- (void)ICCollapsibleThumbnailView;
+- (void)ICAvailableTableWidthProviding;
+- (void)AirDropDocumentUI;
+- (void)NSTouchBarProvider;
+- (void)NSControlTextEditingDelegate;
+- (id)ICTTMergeableStringDelegate;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -94,54 +73,57 @@
 - (id);
 - (id);
 - (void);
+- (id)GAJGSgt;
+- (void)i;
+- (void);
+- (id);
+- (void);
+- (void)n;
+- (_Bool)ICImageOCRDisabledDefaultsKey;
+- (void):%p, shouldPresent:%@, title:%@, message:%@> /* Error: Ran out of types for this method. */;
+- (void)tings to use your login password for locked notes.;
+- (void)hain;
+- (void)pleIDSettings*AppleIDSettings?iCloud;
+- (void)ICCloudSyncingObjectDidUpdateShare;
+- (_Bool)aURL:(_Bool)arg1 configuration:completion:] /* Error: Ran out of types for this method. */;
+- (_Bool)ilGeneratorAttachment generateThumbnailForMediaURL:configuration:completion:] /* Error: Ran out of types for this method. */;
+- (id)8Q16^B24;
+- (void)tringDelegates[rowID];
+- (void)attachment_brick_weblink_generic_thumb;
+- (id)lineColor:forEdges:] /* Error: Ran out of types for this method. */;
+- (id)g:inFolder:error:] /* Error: Ran out of types for this method. */;
+- (id)Managed;
+- (unsigned long long)UnsupportedAttachments;
+- (_Bool)SavedSelections;
+- (unsigned long long)ICNoteDidChangeCalculatePreviewBehavior;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)d%
+;
+- (void);
+- (_Bool)`
+;
+- (_Bool)b
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)rIDs;
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (void);
 - (id);
 - (id);
@@ -153,41 +135,14 @@
 - (void);
 - (void);
 - (id);
-- (id)nter: /* Error: Ran out of types for this method. */;
+- (id)setStandardSuggestionPresenter: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, getter=_appleIntelligenceOnboardingController) OBWelcomeController *appleIntelligenceOnboardingController; // @synthesize appleIntelligenceOnboardingController=_appleIntelligenceOnboardingController;
-@property(retain, nonatomic) CNSharingProfileAvatarItemProviderConfiguration *avatarItemProviderConfiguration; // @synthesize avatarItemProviderConfiguration=_avatarItemProviderConfiguration;
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) AVTAvatarStore *avatarStore; // @synthesize avatarStore=_avatarStore;
-@property(retain, nonatomic) OBButtonTray *buttonTray; // @synthesize buttonTray=_buttonTray;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKOnboardingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isUserInitiatedEditNameAndPhoto; // @synthesize isUserInitiatedEditNameAndPhoto=_isUserInitiatedEditNameAndPhoto;
-@property(retain, nonatomic) UIWindow *macOnboardingWindow; // @synthesize macOnboardingWindow=_macOnboardingWindow;
-@property(retain, nonatomic, getter=_memojiCreationController) OBWelcomeFullCenterContentController *memojiCreationController; // @synthesize memojiCreationController=_memojiCreationController;
-@property(retain, nonatomic) AVPlayer *memojiVideoPlayer; // @synthesize memojiVideoPlayer=_memojiVideoPlayer;
-@property(retain, nonatomic) AVPlayerLooper *memojiVideoPlayerLooper; // @synthesize memojiVideoPlayerLooper=_memojiVideoPlayerLooper;
-@property(nonatomic) int micLayout; // @synthesize micLayout=_micLayout;
 @property(retain, nonatomic) UINavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(retain, nonatomic) CKCNSharingProfileOnboardingFlowManager *nicknameFlowManager; // @synthesize nicknameFlowManager=_nicknameFlowManager;
-@property(retain, nonatomic) id <IMCNMeCardSharingResult> pendingMeCardSharingResult; // @synthesize pendingMeCardSharingResult=_pendingMeCardSharingResult;
-@property(retain, nonatomic) CKPreferencesPresentationController *prefsPresentationController; // @synthesize prefsPresentationController=_prefsPresentationController;
-@property(nonatomic) _Bool presentingFromPrefs; // @synthesize presentingFromPrefs=_presentingFromPrefs;
-@property(retain, nonatomic) OBPrivacySplashController *privacySplashController; // @synthesize privacySplashController=_privacySplashController;
-@property(retain, nonatomic) CKCNSharedProfileOnboardingController *sharedProfileOnboardingController; // @synthesize sharedProfileOnboardingController=_sharedProfileOnboardingController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) IMCloudKitSyncState *syncState; // @synthesize syncState=_syncState;
-@property(retain, nonatomic) OBWelcomeController *syndicationIntroController; // @synthesize syndicationIntroController=_syndicationIntroController;
 
 @end
 

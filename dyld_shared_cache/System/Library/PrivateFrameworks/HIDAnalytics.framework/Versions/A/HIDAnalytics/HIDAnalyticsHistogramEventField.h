@@ -9,29 +9,19 @@
 @interface HIDAnalyticsHistogramEventField
 {
     unsigned char _segmentCount;
-    struct _HIDAnalyticsHistogramSegment *_segments;
-    NSString *_fieldName;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_deploymentIdForExperiment:(unsigned long long)arg1 fromResolverList: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property __weak id value;
 
 @end
 

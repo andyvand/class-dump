@@ -12,11 +12,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
-- (void)dnessScoreEvaluator;
+- (void)AFMyriadGoodnessScoreEvaluator;
 
 @end
 

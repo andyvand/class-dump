@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, REMReminder;
+@class REMReminder;
 
 @interface REMReminderHashtagContext
 {
@@ -14,12 +14,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)tion subscription;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *hashtags;
 @property(nonatomic) __weak REMReminder *reminder; // @synthesize reminder=_reminder;
 
 @end

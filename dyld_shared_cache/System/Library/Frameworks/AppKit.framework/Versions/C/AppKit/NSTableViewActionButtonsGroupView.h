@@ -12,11 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSTableViewActionButtonsGroupView : NSView
 {
     NSTableViewStyleData *_tableViewStyleData;
-    unsigned long long _rowActionEdge;
-    double _intrinsicWidth;
-    double _buttonWidthRatio;
-    double _consumeButtonWidthRatio;
-    double _maxLabelHeight;
 }
 
 - (void);

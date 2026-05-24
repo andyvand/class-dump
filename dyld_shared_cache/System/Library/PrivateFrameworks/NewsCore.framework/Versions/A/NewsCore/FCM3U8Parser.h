@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSMutableData, NSString;
-@protocol FCM3U8ParserDelegate;
-
 @interface FCM3U8Parser
 {
     _Bool _collectForRewrite;
-    id <FCM3U8ParserDelegate> _delegate;
-    NSData *_data;
-    NSMutableData *_bytes;
-    NSError *_error;
-    NSMutableData *_collectedData;
 }
 
-- (void)ecure;
+- (void)PersonalizationProfileSecure;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

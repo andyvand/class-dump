@@ -7,10 +7,6 @@
 @interface MediaPlaybackCore.TransitionController
 {
     id reporter;
-    id delegate;
-    id transitionProvider;
-    id smartTransitionOutroItemReference;
-    id currentTransitionTask;
 }
 
 @end

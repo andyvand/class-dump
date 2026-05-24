@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 @interface HMCharacteristicMetadata
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_minimumValue;
-    NSNumber *_maximumValue;
-    NSNumber *_stepValue;
-    NSNumber *_maxLength;
-    NSString *_format;
-    NSString *_units;
-    NSString *_manufacturerDescription;
-    NSArray *_validValues;
 }
 
 + (_Bool);
@@ -28,42 +20,27 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)paronomasia;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)/A/ArgumentParserInternal;
+- (id)xz;
+- (id)handleDarwinNotificationsWithHandlers: /* Error: Ran out of types for this method. */;
+- (void)8+;
 - (void)ººäºd»¸»H¼P½¿tÀ@ÁÁ°Ä;
 - (void);
-- (id)ntEventOffsetKey;
+- (id)kTimerTriggerResetSignificantEventOffsetKey;
 - (id)deWithCompletion:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *manufacturerDescription; // @synthesize manufacturerDescription=_manufacturerDescription;
-@property(retain, nonatomic) NSNumber *maxLength; // @synthesize maxLength=_maxLength;
-@property(retain, nonatomic) NSNumber *maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(retain, nonatomic) NSNumber *minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(retain, nonatomic) NSNumber *stepValue; // @synthesize stepValue=_stepValue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
-@property(copy, nonatomic) NSString *units; // @synthesize units=_units;
-@property(copy, nonatomic) NSArray *validValues; // @synthesize validValues=_validValues;
 
 @end
 

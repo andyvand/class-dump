@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface TPPBPolicyCategoriesByView
 {
     NSMutableArray *_categories;
-    NSString *_view;
 }
 
 + (Class);
 + (id);
 - (id);
-- (void);
+- (void)flights api] error when calling coreparsec :(id)arg1 %@;
 - (id);
 - (void);
 - (void);
@@ -25,19 +24,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
+- (void)ity Timeout got vers %u exp %u;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)s
+;
+- (id)s:callback [%{ptr}], context [%{ptr}], updated streaming key info  [%@]
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *categories; // @synthesize categories=_categories;
 @property(readonly, nonatomic) _Bool hasView;
-@property(retain, nonatomic) NSString *view; // @synthesize view=_view;
 
 @end
 

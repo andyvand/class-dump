@@ -6,23 +6,20 @@
 
 #import <LoginUIKit/LUI2VisualEffectView.h>
 
-@class NSImage, NSImageView;
+@class NSImageView;
 
 @interface LUI2UserPictureView : LUI2VisualEffectView
 {
     _Bool _enabled;
-    id _target;
-    SEL _action;
-    NSImageView *_imageView;
 }
 
-- (void);
+- (void)t;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (_Bool);
@@ -38,11 +35,7 @@
 - (id);
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain) NSImage *image;
 @property(retain) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property id target; // @synthesize target=_target;
 
 @end
 

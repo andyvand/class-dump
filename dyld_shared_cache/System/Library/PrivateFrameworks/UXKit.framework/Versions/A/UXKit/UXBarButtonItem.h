@@ -6,36 +6,11 @@
 
 #import <UXKit/UXBarItem.h>
 
-@class NSColor, NSLayoutAnchor, NSMenu, NSString, NSToolbarItem, NSView, UXViewController;
+@class NSView, UXViewController;
 
 @interface UXBarButtonItem : UXBarItem
 {
     NSView *__view;
-    _Bool _wantsToUseCustomWidth;
-    _Bool _ignoresMultiClick;
-    _Bool _hidden;
-    _Bool _isSystemItem;
-    _Bool _condensed;
-    _Bool _navigational;
-    float _visibilityPriority;
-    SEL _action;
-    id _target;
-    NSString *_toolTip;
-    NSString *_identifier;
-    NSString *_keyEquivalent;
-    unsigned long long _keyEquivalentModifierMask;
-    long long _buttonState;
-    long long _style;
-    double _width;
-    NSView *_customView;
-    NSMenu *_menu;
-    NSLayoutAnchor *_baselineAnchor;
-    UXViewController *_contentViewController;
-    long long _systemItem;
-    NSColor *_backgroundColor;
-    NSString *_label;
-    NSToolbarItem *_toolbarItem;
-    UXBarButtonItem *__widthConstrainingItem;
 }
 
 - (void);
@@ -44,17 +19,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id)5˿;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long);
+- (long long)!`臟;
 - (void);
 - (id);
 - (float);
@@ -72,7 +47,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)r;
 - (long long);
 - (void);
 - (void);
@@ -93,42 +68,18 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)PACompositionEditController;
 - (void);
 - (id);
 - (SEL);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSView *_view;
-@property(nonatomic, setter=_setWidthConstrainingItem:) __weak UXBarButtonItem *_widthConstrainingItem; // @synthesize _widthConstrainingItem=__widthConstrainingItem;
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(copy, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) NSLayoutAnchor *baselineAnchor; // @synthesize baselineAnchor=_baselineAnchor;
-@property(nonatomic) long long buttonState; // @synthesize buttonState=_buttonState;
-@property(nonatomic, getter=isCondensed) _Bool condensed; // @synthesize condensed=_condensed;
 @property(readonly, nonatomic) UXViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(retain, nonatomic) NSView *customView; // @synthesize customView=_customView;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool ignoresMultiClick; // @synthesize ignoresMultiClick=_ignoresMultiClick;
-@property(readonly, nonatomic) _Bool isSystemItem; // @synthesize isSystemItem=_isSystemItem;
-@property(retain, nonatomic) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
-@property(nonatomic) unsigned long long keyEquivalentModifierMask; // @synthesize keyEquivalentModifierMask=_keyEquivalentModifierMask;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSMenu *menu; // @synthesize menu=_menu;
-@property(nonatomic, getter=isNavigational) _Bool navigational; // @synthesize navigational=_navigational;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly, nonatomic) long long systemItem; // @synthesize systemItem=_systemItem;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(retain, nonatomic) NSString *toolTip; // @synthesize toolTip=_toolTip;
-@property(nonatomic) __weak NSToolbarItem *toolbarItem; // @synthesize toolbarItem=_toolbarItem;
-@property(nonatomic) float visibilityPriority; // @synthesize visibilityPriority=_visibilityPriority;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

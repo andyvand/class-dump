@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSMutableArray, NSMutableSet, NSObject, NSString, NSURL, WBSHistoryCrypto, WBSHistoryServiceURLCompletion, WBSHistoryTagDatabaseController, WBSSQLiteDatabase, WBSSQLiteStatementCache;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface WBSHistoryServiceDatabase
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_fileOperationGroup;
-    unsigned long long _currentRangeForTemporaryID;
-    WBSHistoryCrypto *_crypto;
-    WBSSQLiteDatabase *_database;
-    NSDictionary *_databaseOptions;
-    WBSSQLiteStatementCache *_statements;
-    NSMapTable *_delegates;
-    NSMapTable *_listeners;
-    NSMutableSet *_registeredListeners;
-    struct LatestVisitInformationMap _latestVisitMap;
-    _Bool _hasComputedLatestVisit;
-    unordered_map_535bcc7c _temporaryIDToItem;
-    unordered_map_535bcc7c _visitForTemporaryID;
-    NSMutableArray *_pendingVisits;
-    struct atomic<bool> _integrityCheckPending;
-    NSURL *_clearHistoryInProgressFileURL;
-    CDUnknownBlockType _pendingVisitsTimeout;
-    WBSHistoryTagDatabaseController *_tagController;
-    NSString *_databaseID;
-    NSURL *_databaseURL;
-    WBSHistoryServiceURLCompletion *_urlCompletion;
 }
 
 - (id);
@@ -47,6 +26,7 @@
 - (void);
 - (void);
 - (void);
+- (void)>;
 - (void);
 - (void);
 - (void);
@@ -61,6 +41,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)W;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,6 +57,7 @@
 - (void);
 - (void);
 - (void);
+- (void)^;
 - (void);
 - (void);
 - (void);
@@ -77,16 +65,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (long long)>;
 - (void);
 - (void);
 - (long long);
@@ -120,7 +99,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (id);
@@ -132,7 +111,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -142,7 +121,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -165,7 +144,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)sync_state = 0  AND (m.balloon_bundle_id IS NULL OR m.balloon_bundle_id != 'com.apple.messages.chatbot')  UNION ALL SELECT c.guid, rmp.message_id, m.guid, rmp.delete_date, rmp.part_index, rmp.part_text  FROM recoverable_message_part AS rmp  JOIN chat AS c   ON c.ROWID = rmp.chat_id  JOIN message AS m   ON m.ROWID = rmp.message_id  WHERE rmp.ck_sync_state = 0  AND (m.balloon_bundle_id IS NULL OR m.balloon_bundle_id != 'com.apple.messages.chatbot') LIMIT ?;;
 - (id);
 - (void);
 - (id);
@@ -173,20 +152,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WBSHistoryServiceURLCompletion *urlCompletion; // @synthesize urlCompletion=_urlCompletion;
 
 @end
 

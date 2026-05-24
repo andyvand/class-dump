@@ -6,40 +6,29 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString, NSURL, SALocalSearchRating;
+@class NSURL;
 
 @interface SALocalSearchReviewList : AceObject
 {
 }
 
 + (id);
-+ (id);
-- (id);
++ (id);
+- (id)[;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)H;
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id)RN;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSURL *providerId;
-@property(copy, nonatomic) NSString *providerId2;
-@property(retain, nonatomic) SALocalSearchRating *rating;
-@property(copy, nonatomic) NSArray *selectReviews;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *totalReviewCount;
 
 @end
 

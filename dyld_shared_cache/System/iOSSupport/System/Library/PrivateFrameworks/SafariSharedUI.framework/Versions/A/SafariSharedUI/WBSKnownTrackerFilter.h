@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)P;
 - (id);
 
 @end

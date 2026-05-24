@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECLocalMessageActionID, EDGmailLabelPersistence, EDPersistenceDatabase, NSString;
+@class EDPersistenceDatabase;
 
 @interface EDLocalActionPersistence
 {
     EDPersistenceDatabase *_database;
-    EDGmailLabelPersistence *_gmailLabelPersistence;
 }
 
 + (id);
@@ -29,16 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -46,26 +36,26 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Siri_Nl_Core_Protocol_DelegatedUserDialogAct;
 - (id);
 - (void)indexing of attachment types. Will need to be implemented if needed.;
 
 // Remaining properties
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) EDGmailLabelPersistence *gmailLabelPersistence; // @synthesize gmailLabelPersistence=_gmailLabelPersistence;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) ECLocalMessageActionID *latestActionID;
-@property(readonly) Class superclass;
 
 @end
 

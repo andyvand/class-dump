@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOMapFeatureAccess, GEORoadMatcherCandidateSegment;
+@class GEOMapFeatureAccess, GEORoadMatcherCandidateSegment;
 
 @interface GEORoadMatcher
 {
     GEOMapFeatureAccess *_mapFeatureAccess;
-    _Bool _useRawLocations;
-    double _searchRadius;
-    GEORoadMatcherCandidateSegment *_previousMatch;
 }
 
 - (void);
@@ -29,10 +26,7 @@
 - (void).IIXP@;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOApplicationAuditToken *auditToken;
 @property(retain, nonatomic) GEORoadMatcherCandidateSegment *previousMatch; // @synthesize previousMatch=_previousMatch;
-@property(nonatomic) double searchRadius; // @synthesize searchRadius=_searchRadius;
-@property(nonatomic) _Bool useRawLocations; // @synthesize useRawLocations=_useRawLocations;
 
 @end
 

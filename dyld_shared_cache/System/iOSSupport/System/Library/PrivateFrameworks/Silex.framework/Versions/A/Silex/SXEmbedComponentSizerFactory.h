@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDOMObjectProviding, SXEmbedDataProvider;
+@protocol SXDOMObjectProviding;
 
 @interface SXEmbedComponentSizerFactory
 {
     id <SXDOMObjectProviding> _DOMObjectProvider;
-    id <SXEmbedDataProvider> _embedDataProvider;
 }
 
 - (id);
@@ -23,16 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXEmbedDataProvider> embedDataProvider; // @synthesize embedDataProvider=_embedDataProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int role;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

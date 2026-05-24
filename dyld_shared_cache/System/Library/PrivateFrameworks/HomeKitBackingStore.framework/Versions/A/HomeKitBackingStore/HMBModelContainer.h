@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, HMFVersion, NSMapTable, NSString;
-@protocol HMBMirrorProtocol;
+@class NSMapTable;
 
 @interface HMBModelContainer
 {
     struct os_unfair_lock_s _propertyLock;
-    HMFVersion *_legacyDataVersion;
-    HMFVersion *_dataVersion;
-    NSMapTable *_queryFieldsCache;
-    HMBLocalZone *_localZone;
-    id <HMBMirrorProtocol> _mirror;
-    NSMapTable *_classToNameTransform;
-    NSMapTable *_nameToClassTransform;
-    NSMapTable *_objectPropertyHashLookup;
-    NSMapTable *_classReadOnlyVersionCache;
-    NSMapTable *_classUnavailableVersionCache;
 }
 
-+ (id);
++ (id)rSource;
 + (id);
 + (id);
 + (id);
@@ -39,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)5;
 - (id);
 - (void);
 - (id);
@@ -49,16 +38,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)o;
 - (Class);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)ffer.framework/Versions/A/ProtocolBuffer;
 - (id);
-- (id);
-- (id);
+- (id)get_session_state;
 - (void);
 - (id);
 - (id);
@@ -66,23 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *classReadOnlyVersionCache; // @synthesize classReadOnlyVersionCache=_classReadOnlyVersionCache;
-@property(copy, nonatomic) NSMapTable *classToNameTransform; // @synthesize classToNameTransform=_classToNameTransform;
-@property(retain, nonatomic) NSMapTable *classUnavailableVersionCache; // @synthesize classUnavailableVersionCache=_classUnavailableVersionCache;
-@property(readonly, copy, nonatomic) HMFVersion *dataVersion; // @synthesize dataVersion=_dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) HMFVersion *legacyDataVersion; // @synthesize legacyDataVersion=_legacyDataVersion;
-@property(readonly, nonatomic) __weak HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly, nonatomic) __weak id <HMBMirrorProtocol> mirror; // @synthesize mirror=_mirror;
-@property(copy, nonatomic) NSMapTable *nameToClassTransform; // @synthesize nameToClassTransform=_nameToClassTransform;
-@property(retain, nonatomic) NSMapTable *objectPropertyHashLookup; // @synthesize objectPropertyHashLookup=_objectPropertyHashLookup;
 @property(readonly, nonatomic) NSMapTable *queryFieldsCache; // @synthesize queryFieldsCache=_queryFieldsCache;
-@property(readonly) Class superclass;
 
 @end
 

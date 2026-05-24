@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface MNArrivalRegionContainmentParameters
 {
     double _includeDistancePadding;
-    double _excludeDistancePadding;
 }
 
 - (void);
-- (void);
+- (void)TableRowProvider;
 - (double);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double excludeDistancePadding; // @synthesize excludeDistancePadding=_excludeDistancePadding;
 @property(nonatomic) double includeDistancePadding; // @synthesize includeDistancePadding=_includeDistancePadding;
 
 @end

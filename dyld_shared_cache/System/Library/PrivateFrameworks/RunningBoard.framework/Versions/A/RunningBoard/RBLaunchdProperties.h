@@ -4,36 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID, RBSProcessIdentity;
-
 @interface RBLaunchdProperties
 {
     long long _type;
-    NSString *_path;
-    int _hostPid;
-    _Bool _multiInstance;
-    _Bool _variableEUID;
-    unsigned char _overrideManageFlags;
-    NSString *_jobLabel;
-    NSString *_executablePath;
-    _Bool _doesOverrideManagement;
-    NSString *_underlyingAssertion;
-    RBSProcessIdentity *_specifiedIdentity;
-    _Bool _explicitAngelFlag;
-    _Bool _doesOverrideHasBackoff;
-    _Bool _hasBackoff;
-    NSString *_beforeTranslocationBundlePath;
-    NSString *_homeDirectory;
-    NSString *_tmpDirectory;
-    NSUUID *_uuid;
-    NSDictionary *_managedEndpointByLaunchIdentifier;
-    NSDictionary *_clientRestriction;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)gate>"16@0:(id)arg1 8;
++ (id)64;
 + (id);
 - (id);
 - (void);
@@ -45,47 +24,29 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ments;
 - (id);
 - (int);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (_Bool)_indicator;
+- (id)rialize trust when decoding:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned char)mAddRemoveControl;
+- (void);
+- (id);
+- (id)@"TIWordSearch",R,N,V_wordSearch;
+- (id);
+- (id)h;
 - (_Bool);
-- (id);
-- (void);
-- (unsigned char);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isXPCService) _Bool XPCService;
-@property(readonly, nonatomic, getter=isAngel) _Bool angel;
-@property(readonly, nonatomic) NSString *beforeTranslocationBundlePath; // @synthesize beforeTranslocationBundlePath=_beforeTranslocationBundlePath;
-@property(readonly, copy, nonatomic) NSDictionary *clientRestriction; // @synthesize clientRestriction=_clientRestriction;
-@property(readonly, nonatomic, getter=isDaemon) _Bool daemon;
-@property(readonly, nonatomic) _Bool doesOverrideManagement; // @synthesize doesOverrideManagement=_doesOverrideManagement;
-@property(readonly, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, nonatomic) _Bool hasBackoff; // @synthesize hasBackoff=_hasBackoff;
-@property(readonly, copy, nonatomic) NSString *homeDirectory; // @synthesize homeDirectory=_homeDirectory;
-@property(readonly, nonatomic) int hostPid; // @synthesize hostPid=_hostPid;
-@property(readonly, nonatomic) NSString *jobLabel; // @synthesize jobLabel=_jobLabel;
-@property(readonly, copy, nonatomic) NSDictionary *managedEndpointByLaunchIdentifier; // @synthesize managedEndpointByLaunchIdentifier=_managedEndpointByLaunchIdentifier;
-@property(readonly, nonatomic, getter=isMultiInstance) _Bool multiInstance; // @synthesize multiInstance=_multiInstance;
-@property(readonly, nonatomic) unsigned char overrideManageFlags; // @synthesize overrideManageFlags=_overrideManageFlags;
-@property(readonly, copy, nonatomic) RBSProcessIdentity *specifiedIdentity; // @synthesize specifiedIdentity=_specifiedIdentity;
-@property(readonly, copy, nonatomic) NSString *tmpDirectory; // @synthesize tmpDirectory=_tmpDirectory;
-@property(readonly, nonatomic) NSString *underlyingAssertion; // @synthesize underlyingAssertion=_underlyingAssertion;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic, getter=hasVariableEUID) _Bool variableEUID; // @synthesize variableEUID=_variableEUID;
 
 @end
 

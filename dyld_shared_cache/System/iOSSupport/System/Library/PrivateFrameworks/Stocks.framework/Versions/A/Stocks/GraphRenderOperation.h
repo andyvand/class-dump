@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, StockChartDisplayMode, StockGraphImageSet;
-@protocol GraphRenderOperationDelegate;
-
 @interface GraphRenderOperation
 {
     _Bool _cancelled;
-    _Bool _roundLineCaps;
-    unsigned int _volumeCount;
-    struct CGPoint *_points;
-    NSArray *_linePointCounts;
-    NSArray *_dottedLinePositions;
-    NSArray *_dottedLinePositionsForStyleOnly;
-    CDStruct_b5bb7d6f *_volumeBars;
-    double _volumeBarWidth;
-    unsigned long long _maxVolume;
-    id <GraphRenderOperationDelegate> _delegate;
-    StockGraphImageSet *_graphImageSet;
-    StockChartDisplayMode *_displayMode;
-    struct CGSize _graphSize;
-    struct CGSize _volumeGraphSize;
-    struct UIEdgeInsets _graphInsets;
 }
 
 - (unsigned int);
-- (CDStruct_b5bb7d6f *);
-- (double);
+- (CDStruct_b5bb7d6f *);
+- (double)l;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)m;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)m;
 - (_Bool);
 - (void);
 - (void);
@@ -47,42 +29,27 @@
 - (struct CGSize);
 - (struct CGSize);
 - (struct UIEdgeInsets);
-- (id);
-- (id);
+- (id)@;
+- (id)(;
 - (void);
-- (void);
+- (void)(i&u;
 - (id);
 - (id);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void){;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)SString";
 - (_Bool);
-- (void);
-- (struct CGPoint *);
+- (void);
+- (struct CGPoint *)SCRCUserDefaultsHasPronunciations;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic) __weak id <GraphRenderOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) StockChartDisplayMode *displayMode; // @synthesize displayMode=_displayMode;
-@property(retain, nonatomic) NSArray *dottedLinePositions; // @synthesize dottedLinePositions=_dottedLinePositions;
-@property(retain, nonatomic) NSArray *dottedLinePositionsForStyleOnly; // @synthesize dottedLinePositionsForStyleOnly=_dottedLinePositionsForStyleOnly;
-@property(retain, nonatomic) StockGraphImageSet *graphImageSet; // @synthesize graphImageSet=_graphImageSet;
-@property(nonatomic) struct UIEdgeInsets graphInsets; // @synthesize graphInsets=_graphInsets;
-@property(nonatomic) struct CGSize graphSize; // @synthesize graphSize=_graphSize;
-@property(retain, nonatomic) NSArray *linePointCounts; // @synthesize linePointCounts=_linePointCounts;
-@property(nonatomic) unsigned long long maxVolume; // @synthesize maxVolume=_maxVolume;
-@property(nonatomic) struct CGPoint *points; // @synthesize points=_points;
-@property(nonatomic) _Bool roundLineCaps; // @synthesize roundLineCaps=_roundLineCaps;
-@property(nonatomic) double volumeBarWidth; // @synthesize volumeBarWidth=_volumeBarWidth;
-@property(nonatomic) CDStruct_b5bb7d6f *volumeBars; // @synthesize volumeBars=_volumeBars;
-@property(nonatomic) unsigned int volumeCount; // @synthesize volumeCount=_volumeCount;
-@property(nonatomic) struct CGSize volumeGraphSize; // @synthesize volumeGraphSize=_volumeGraphSize;
 
 @end
 

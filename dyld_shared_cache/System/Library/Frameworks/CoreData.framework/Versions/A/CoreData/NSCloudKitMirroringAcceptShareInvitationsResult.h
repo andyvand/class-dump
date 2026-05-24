@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSCloudKitMirroringAcceptShareInvitationsResult : NSCloudKitMirroringResult
 {
     NSArray *_acceptedShares;
-    NSArray *_acceptedShareMetadatas;
 }
 
 - (void);
@@ -20,10 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rameworks/QuartzCore.framework/QuartzCore;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *acceptedShareMetadatas; // @synthesize acceptedShareMetadatas=_acceptedShareMetadatas;
 @property(retain, nonatomic) NSArray *acceptedShares; // @synthesize acceptedShares=_acceptedShares;
 
 @end

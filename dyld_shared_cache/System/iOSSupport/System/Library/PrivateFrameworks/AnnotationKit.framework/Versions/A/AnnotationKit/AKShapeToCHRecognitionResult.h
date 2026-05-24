@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, CHRecognitionResult, PKDrawing, UIBezierPath;
-
 @interface AKShapeToCHRecognitionResult
 {
     _Bool _doodlePathIsPrestroked;
-    long long _tag;
-    CHRecognitionResult *_result;
-    UIBezierPath *_doodlePath;
-    PKDrawing *_inkDrawing;
-    AKAnnotation *_annotation;
-    struct CGRect _doodlePathBoundsInInputView;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)$;
 - (id);
 - (_Bool);
 - (struct CGRect);
@@ -29,19 +21,13 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)';
 - (void);
 - (void);
 - (void)êð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) AKAnnotation *annotation; // @synthesize annotation=_annotation;
-@property(retain) UIBezierPath *doodlePath; // @synthesize doodlePath=_doodlePath;
-@property struct CGRect doodlePathBoundsInInputView; // @synthesize doodlePathBoundsInInputView=_doodlePathBoundsInInputView;
-@property _Bool doodlePathIsPrestroked; // @synthesize doodlePathIsPrestroked=_doodlePathIsPrestroked;
-@property(retain) PKDrawing *inkDrawing; // @synthesize inkDrawing=_inkDrawing;
-@property(retain) CHRecognitionResult *result; // @synthesize result=_result;
 @property long long tag; // @synthesize tag=_tag;
 
 @end

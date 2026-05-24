@@ -7,16 +7,6 @@
 @interface _PKProvisioningBackgroundCoordinator
 {
     id context;
-    id configuration;
-    id previouslyAcceptedTerms;
-    id reporter;
-    id completion;
-    id preflightCompletion;
-    void onRecoverableCheckpointReached;
-    id composer;
-    id fieldsModel;
-    id provisionedPasses;
-    id passcodeAssertion;
 }
 
 - (void);
@@ -24,12 +14,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (void)T&;
 - (void);
-- (void);
-- (void)odingKeys;
+- (void)SuccessCodingKeys;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType onRecoverableCheckpointReached;

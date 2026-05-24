@@ -11,21 +11,17 @@
 @interface PhotosUICore.SocialGroupReorderAction : PXPhotosAction
 {
     id sourceGroup;
-    id destinationGroups;
-    id destinationIndex;
-    id modifiedGroups;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)_3;
 - (id);
 - (id);
 - (void)@: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;
-@property(nonatomic, readonly) NSString *localizedActionName;
 
 @end
 

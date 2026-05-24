@@ -6,23 +6,15 @@
 
 #import <UXKit/UXView.h>
 
-@class NSColor, NSImage, NSString;
+@class NSString;
 
 @interface UXImageView : UXView
 {
     double _backingScaleFactor;
-    struct CGSize _proposedSize;
-    _Bool _allowsVibrancy;
-    _Bool _highlighted;
-    NSString *accessibilityLabel;
-    NSImage *_image;
-    NSImage *_highlightedImage;
-    NSColor *_tintColor;
-    long long _preferredImageDynamicRange;
 }
 
 - (void);
-- (void);
+- (void)d;
 - (void);
 - (void);
 - (void);
@@ -32,16 +24,16 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -51,26 +43,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (struct CGSize)ccessibilityLabel;
-- (void)oller: /* Error: Ran out of types for this method. */;
-- (void)¤Á;
-
-// Remaining properties
-@property(readonly, nonatomic) NSImage *_currentImage;
 @property(retain, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel;
-@property(nonatomic) _Bool allowsVibrancy; // @synthesize allowsVibrancy=_allowsVibrancy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) NSImage *highlightedImage; // @synthesize highlightedImage=_highlightedImage;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) long long preferredImageDynamicRange; // @synthesize preferredImageDynamicRange=_preferredImageDynamicRange;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
+- (void)_toolbarLayoutInsetsForChildViewController: /* Error: Ran out of types for this method. */;
+- (void)¤Á;
 
 @end
 

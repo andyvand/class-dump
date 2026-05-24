@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.EitherAppStore
 {
     id selectionStorage;
-    id primaryAppStore;
-    id alternativeAppStore;
 }
 
 @end

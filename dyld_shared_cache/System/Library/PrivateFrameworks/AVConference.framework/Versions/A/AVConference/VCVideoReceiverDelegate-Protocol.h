@@ -5,5 +5,8 @@
 //
 
 @protocol VCVideoReceiverDelegate
+
+@optional
+- (void);
 @end
 

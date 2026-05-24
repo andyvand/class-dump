@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CPAnalyticsMetricEventRoute
 {
     _Bool _includeEventProperties;
-    NSString *_destination;
-    NSString *_destinationEventKey;
-    NSArray *_propertiesToInclude;
 }
 
 - (_Bool);
-- (id);
+- (id)P@;
 - (id);
 - (id);
 - (id);
@@ -24,9 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) NSString *destinationEventKey; // @synthesize destinationEventKey=_destinationEventKey;
-@property(readonly, nonatomic) _Bool includeEventProperties; // @synthesize includeEventProperties=_includeEventProperties;
-@property(readonly, nonatomic) NSArray *propertiesToInclude; // @synthesize propertiesToInclude=_propertiesToInclude;
 
 @end
 

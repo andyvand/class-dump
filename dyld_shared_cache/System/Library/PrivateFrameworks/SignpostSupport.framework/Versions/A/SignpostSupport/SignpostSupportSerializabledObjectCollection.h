@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface SignpostSupportSerializabledObjectCollection
 {
     NSArray *_objectArray;
-    NSNumber *_formatVersion;
-    unsigned long long _machContinuousTimeFirst;
-    unsigned long long _machContinuousTimeLast;
 }
 
 + (_Bool);
@@ -23,15 +20,12 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *formatVersion; // @synthesize formatVersion=_formatVersion;
-@property(readonly, nonatomic) unsigned long long machContinuousTimeFirst; // @synthesize machContinuousTimeFirst=_machContinuousTimeFirst;
-@property(readonly, nonatomic) unsigned long long machContinuousTimeLast; // @synthesize machContinuousTimeLast=_machContinuousTimeLast;
 @property(readonly, nonatomic) NSArray *objectArray; // @synthesize objectArray=_objectArray;
 
 @end

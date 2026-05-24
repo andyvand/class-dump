@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSObject, NSOperationQueue, NSString, NSURL, QLCacheCleanUpDatabaseThread, QLDiskCache, QLDiskCacheQueryOperation, QLMemoryCache, QLServerThread;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
+@class NSObject, QLCacheCleanUpDatabaseThread;
+@protocol OS_dispatch_source;
 
 @interface _QLCacheThread
 {
     QLCacheCleanUpDatabaseThread *_cleanUpDatabaseThread;
-    NSOperationQueue *_diskCacheQueryOperationQueue;
-    NSOperationQueue *_memoryCacheQueryOperationQueue;
-    QLDiskCacheQueryOperation *_currentDiskCacheQueryOperation;
-    QLDiskCache *_diskCache;
-    QLMemoryCache *_memoryCache;
-    NSLock *_modeLock;
-    _Bool _serverThreadIsIdle;
-    unsigned long long _currentMode;
-    unsigned long long _missedCount;
-    unsigned long long _hitCount;
-    NSObject<OS_dispatch_source> *_lowDiskSpaceSource;
-    NSObject<OS_dispatch_queue> *_lowDiskSpaceSourceQueue;
-    _Bool _lowDiskSpace;
-    _Bool _waitingForCleanup;
-    NSObject<OS_dispatch_queue> *_writeQueue;
-    NSObject<OS_dispatch_queue> *_writeCoalesceQueue;
-    CDUnknownBlockType _writeBlocks[10];
-    CDUnknownBlockType _cleanupBlocks[10];
-    NSObject<OS_dispatch_source> *_drainTimer;
-    NSObject<OS_os_transaction> *_writeTransaction;
-    QLServerThread *_serverThread;
-    NSURL *_diskCacheURL;
 }
 
 + (long long);
@@ -44,11 +22,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)Q	;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (void);
@@ -85,14 +63,14 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)Z;
 - (id);
 - (_Bool);
-- (void);
+- (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -108,24 +86,24 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)j&�v&;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)Rd;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
+- (void)yConnection];
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -138,24 +116,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain) QLCacheCleanUpDatabaseThread *cleanUpDatabaseThread; // @synthesize cleanUpDatabaseThread=_cleanUpDatabaseThread;
-@property(retain) QLDiskCacheQueryOperation *currentDiskCacheQueryOperation; // @synthesize currentDiskCacheQueryOperation=_currentDiskCacheQueryOperation;
-@property(readonly) unsigned long long currentMode; // @synthesize currentMode=_currentMode;
-@property(readonly) QLDiskCache *diskCache; // @synthesize diskCache=_diskCache;
-@property(retain) NSOperationQueue *diskCacheQueryOperationQueue; // @synthesize diskCacheQueryOperationQueue=_diskCacheQueryOperationQueue;
-@property(retain) NSURL *diskCacheURL; // @synthesize diskCacheURL=_diskCacheURL;
-@property unsigned long long hitCount; // @synthesize hitCount=_hitCount;
-@property(readonly) _Bool lowDiskSpace; // @synthesize lowDiskSpace=_lowDiskSpace;
 @property(retain) NSObject<OS_dispatch_source> *lowDiskSpaceSource; // @synthesize lowDiskSpaceSource=_lowDiskSpaceSource;
-@property(retain) NSObject<OS_dispatch_queue> *lowDiskSpaceSourceQueue; // @synthesize lowDiskSpaceSourceQueue=_lowDiskSpaceSourceQueue;
-@property(readonly) QLMemoryCache *memoryCache; // @synthesize memoryCache=_memoryCache;
-@property unsigned long long missedCount; // @synthesize missedCount=_missedCount;
-@property(readonly) NSString *modeDescription;
-@property(retain) NSLock *modeLock; // @synthesize modeLock=_modeLock;
-@property __weak QLServerThread *serverThread; // @synthesize serverThread=_serverThread;
-@property _Bool serverThreadIsIdle; // @synthesize serverThreadIsIdle=_serverThreadIsIdle;
-@property(nonatomic) _Bool shouldRemoveThumbnailsForDeletedFiles;
-@property _Bool waitingForCleanup; // @synthesize waitingForCleanup=_waitingForCleanup;
 
 @end
 

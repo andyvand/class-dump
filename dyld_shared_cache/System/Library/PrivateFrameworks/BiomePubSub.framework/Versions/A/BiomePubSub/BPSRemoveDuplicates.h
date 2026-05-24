@@ -11,18 +11,16 @@
 @interface BPSRemoveDuplicates : BPSPublisher
 {
     id <BPSPublisher> _upstream;
-    CDUnknownBlockType _isDuplicate;
-    id _last;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)setPriority: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (void);
@@ -30,9 +28,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType isDuplicate; // @synthesize isDuplicate=_isDuplicate;
 @property(retain, nonatomic) id last; // @synthesize last=_last;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

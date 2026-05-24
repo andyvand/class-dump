@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSColor, NSString, NSTimer, SSFrameBuffer, SSScreenInfo;
+@class SSScreenInfo;
 
 @interface SSFrameBufferRenderView
 {
     unsigned long long mScreenIdentifier;
-    SSFrameBuffer *mFrameBuffer;
-    _Bool _showFeedbackLayer;
-    _Bool _feedbackLayerNeedsTimedDisplay;
-    _Bool _feedbackLayerNeedsCartesianCoordinates;
-    unsigned int _currentViewRotation;
-    NSColor *_cursorColor;
-    CALayer *_feedbackLayer;
-    NSTimer *_feedbackLayerTimer;
-    NSArray *_touchEventArray;
 }
 
 - (struct CGPoint);
-- (_Bool);
+- (_Bool))0;
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (int);
@@ -44,36 +35,19 @@
 - (void);
 - (id);
 - (void);
+- (_Bool)B;
+- (void);
+- (void);
+- (void);
+- (void)requestMaestroSongsWithOptions:(struct CGRect)arg1 graphManager:progressReporter:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id)sion handleKeyboardInputSourceEncoding:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned int currentViewRotation; // @synthesize currentViewRotation=_currentViewRotation;
-@property(retain) NSColor *cursorColor; // @synthesize cursorColor=_cursorColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) CALayer *feedbackLayer; // @synthesize feedbackLayer=_feedbackLayer;
-@property(nonatomic) _Bool feedbackLayerNeedsCartesianCoordinates; // @synthesize feedbackLayerNeedsCartesianCoordinates=_feedbackLayerNeedsCartesianCoordinates;
-@property _Bool feedbackLayerNeedsTimedDisplay; // @synthesize feedbackLayerNeedsTimedDisplay=_feedbackLayerNeedsTimedDisplay;
-@property(retain) NSTimer *feedbackLayerTimer; // @synthesize feedbackLayerTimer=_feedbackLayerTimer;
-@property(retain) SSFrameBuffer *frameBuffer; // @synthesize frameBuffer=mFrameBuffer;
-@property(readonly) unsigned long long hash;
 @property(readonly) SSScreenInfo *screen;
-@property unsigned long long screenIdentifier; // @synthesize screenIdentifier=mScreenIdentifier;
-@property _Bool showFeedbackLayer; // @synthesize showFeedbackLayer=_showFeedbackLayer;
-@property(readonly) Class superclass;
-@property(retain) NSArray *touchEventArray; // @synthesize touchEventArray=_touchEventArray;
 
 @end
 

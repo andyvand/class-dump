@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
-@protocol CMIOExtensionSessionDelegate, OS_xpc_object;
+@protocol CMIOExtensionSessionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionSession
 {
     struct os_unfair_lock_s _lock;
-    id <CMIOExtensionSessionDelegate> _delegate;
-    NSMutableDictionary *_extensions;
-    NSObject<OS_xpc_object> *_registerExtensionServiceConnection;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)\7;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CMIOExtensionSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSDictionary *extensions;
 
 @end
 

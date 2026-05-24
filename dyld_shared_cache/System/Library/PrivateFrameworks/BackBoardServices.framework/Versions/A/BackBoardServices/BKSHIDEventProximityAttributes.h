@@ -15,7 +15,7 @@
 + (unsigned char);
 - (void);
 - (int);
-- (void);
+- (void)h;
 - (_Bool);
 - (id);
 

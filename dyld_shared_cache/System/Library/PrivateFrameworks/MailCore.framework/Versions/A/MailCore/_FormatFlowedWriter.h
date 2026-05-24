@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSMutableAttributedString, NSMutableString, NSString;
+@class NSAttributedString, NSMutableString;
 
 @interface _FormatFlowedWriter
 {
     NSMutableString *_outputString;
-    NSMutableString *_quotedString;
-    NSMutableString *_lineString;
-    NSMutableAttributedString *_attributedString;
-    _Bool _addedTrailingSpaces;
-    NSAttributedString *_inputAttributedString;
-    unsigned long long _encoding;
-    NSString *_inputString;
-    unsigned long long _quoteLevel;
-    struct _NSRange _paragraphRange;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)y(;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)valueForKeyPath: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct _NSRange);
 - (void);
@@ -39,14 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool addedTrailingSpaces; // @synthesize addedTrailingSpaces=_addedTrailingSpaces;
-@property(readonly, nonatomic) unsigned long long encoding; // @synthesize encoding=_encoding;
 @property(readonly, copy, nonatomic) NSAttributedString *inputAttributedString; // @synthesize inputAttributedString=_inputAttributedString;
-@property(copy, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(readonly, copy, nonatomic) NSString *outputString;
-@property(nonatomic) struct _NSRange paragraphRange; // @synthesize paragraphRange=_paragraphRange;
-@property(nonatomic) unsigned long long quoteLevel; // @synthesize quoteLevel=_quoteLevel;
-@property(readonly, copy, nonatomic) NSString *quotedString;
 
 @end
 

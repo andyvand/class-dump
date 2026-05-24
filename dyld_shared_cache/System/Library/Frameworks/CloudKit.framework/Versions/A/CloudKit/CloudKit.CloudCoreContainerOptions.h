@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKContainerOptions.h>
 
-@class CKAccountOverrideInfo, CKPersona, NSString;
-
 @interface CloudKit.CloudCoreContainerOptions : CKContainerOptions
 {
 }
 
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (id);
@@ -33,19 +31,10 @@
 - (id);
 - (void);
 - (id);
-- (id)g;
+- (id)recordETag;
 
 // Remaining properties
-@property(nonatomic, retain) CKAccountOverrideInfo *accountOverrideInfo;
-@property(nonatomic, copy) NSString *applicationBundleIdentifierOverrideForContainerAccess;
-@property(nonatomic, copy) NSString *applicationBundleIdentifierOverrideForNetworkAttribution;
-@property(nonatomic, copy) NSString *applicationBundleIdentifierOverrideForPushTopicGeneration;
-@property(nonatomic, copy) NSString *applicationBundleIdentifierOverrideForTCC;
-@property(nonatomic) _Bool bypassPCSEncryption;
 @property(nonatomic, readonly) Class classForCoder;
-@property(nonatomic, copy) NSString *encryptionServiceName;
-@property(nonatomic) _Bool isServiceManatee;
-@property(nonatomic, retain) CKPersona *persona;
 
 @end
 

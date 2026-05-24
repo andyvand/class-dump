@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)xecuting task for %s in %fs;
 
 @end
 

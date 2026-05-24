@@ -7,9 +7,15 @@
 @protocol RTIInputSystemSessionDelegate
 
 @optional
+- (void)-compression;
+- (void)on;
+- (void)2l9;
+- (void)Ca_0Ca_1Ca_2Ca_aCa_cCa_eCa_iCa_oCa_sCa_t.a_;
+- (void)!;
 - (void)ÔAï/ð!Eùqå3ð1Â0@ù
 × ;
 - (void)À(Á(ÂÔÂÃÄ,Å;
+- (void)TH;
 - (void);
 - (void)- Item layout complete ---;
 @end

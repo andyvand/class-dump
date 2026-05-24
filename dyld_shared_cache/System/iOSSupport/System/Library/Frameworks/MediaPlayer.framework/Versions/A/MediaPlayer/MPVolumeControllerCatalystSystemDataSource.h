@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputContext, NSObject, NSString;
-@protocol MPVolumeControllerDataSourceDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPVolumeControllerCatalystSystemDataSource
 {
     _Bool _applicationShouldOverrideHardwareVolumeBehavior;
-    float _volume;
-    NSString *_volumeControlLabel;
-    NSString *_volumeAudioCategory;
-    id <MPVolumeControllerDataSourceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    CDUnknownBlockType _volumeListenerBlock;
-    CDUnknownBlockType _resetListenerBlock;
-    AVOutputContext *_outputContext;
 }
 
+- (_Bool)%;
 - (_Bool);
-- (_Bool);
+- (struct AudioObjectPropertyAddress)�#;
 - (struct AudioObjectPropertyAddress);
-- (struct AudioObjectPropertyAddress);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)��#x�	 �;
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)kr�	Q;
+- (void)];
 - (void);
 - (_Bool);
 - (void);
@@ -44,24 +36,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)s;
 - (id);
-- (void);
-- (void);
+- (void)L;
+- (void)overflowBuffer;
 - (unsigned int);
 - (float);
-- (id);
+- (id);
 - (float);
-- (void);
+- (void)B;
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)V_imageCache;
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)g to validate the contents of item %llu;
 - (_Bool)24;
-- (void)nForView:withKeyPath: /* Error: Ran out of types for this method. */;
+- (void)_basicAnimationForView:withKeyPath: /* Error: Ran out of types for this method. */;
 - (void)ranslator was missing mapping for MPModelPropertySongDateFavorited;
 - (id)missing mapping for MPModelPropertyAlbumDiscCount;
 - (void)(
@@ -70,28 +62,7 @@ __attribute__((visibility("hidden")))
 ) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) float EUVolumeLimit;
-@property(readonly, nonatomic) _Bool applicationShouldOverrideHardwareVolumeBehavior; // @synthesize applicationShouldOverrideHardwareVolumeBehavior=_applicationShouldOverrideHardwareVolumeBehavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPVolumeControllerDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMuted) _Bool muted;
-@property(retain, nonatomic) AVOutputContext *outputContext; // @synthesize outputContext=_outputContext;
-@property(copy, nonatomic) CDUnknownBlockType resetListenerBlock; // @synthesize resetListenerBlock=_resetListenerBlock;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
-@property(readonly, copy, nonatomic) NSString *volumeAudioCategory; // @synthesize volumeAudioCategory=_volumeAudioCategory;
-@property(readonly, nonatomic, getter=isVolumeControlAvailable) _Bool volumeControlAvailable;
-@property(readonly, nonatomic) unsigned int volumeControlCapabilities;
-@property(readonly, copy, nonatomic) NSString *volumeControlLabel; // @synthesize volumeControlLabel=_volumeControlLabel;
-@property(copy, nonatomic) CDUnknownBlockType volumeListenerBlock; // @synthesize volumeListenerBlock=_volumeListenerBlock;
-@property(readonly, nonatomic) _Bool volumeWarningEnabled;
-@property(readonly, nonatomic) long long volumeWarningState;
 
 @end
 

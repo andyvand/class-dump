@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)sendEncryptedEventID:data:xid:options:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties

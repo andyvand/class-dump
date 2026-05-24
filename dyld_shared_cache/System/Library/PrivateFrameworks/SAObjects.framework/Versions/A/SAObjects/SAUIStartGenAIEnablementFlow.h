@@ -6,23 +6,21 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString;
-
 @interface SAUIStartGenAIEnablementFlow : SABaseClientBoundCommand
 {
 }
 
-- (void);
+- (void)P;
 - (_Bool);
+- (id)(;
 - (id);
-- (id);
-- (void);
+- (void)
+;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool explicitRequest;
-@property(copy, nonatomic) NSString *source;
 
 @end
 

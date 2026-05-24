@@ -6,20 +6,19 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSColor, NSColorWell;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugCustomAccentColorViewController : NSViewController
 {
     NSColor *_originalColor;
-    NSColorWell *_colorWell;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)ConstraintsPassCounter;
+- (void)_resetUpdateConstraintsPassCounter;
 
 @end
 

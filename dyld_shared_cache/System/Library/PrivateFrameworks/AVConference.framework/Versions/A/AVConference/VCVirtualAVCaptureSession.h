@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCVirtualAVCaptureSession
 {
     _Bool _isRunning;
-    NSMutableSet *_inputs;
-    NSMutableSet *_outputs;
-    NSMutableSet *_connections;
-    NSMutableArray *_batchedConfigurations;
-    unsigned int _configurationCount;
-    NSObject<OS_dispatch_queue> *_stateQueue;
 }
 
 - (_Bool);
@@ -34,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)L;
 - (void);
 - (void);
 - (id)t be nil;

@@ -7,14 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceTreeViewController
 {
     id editor;
-    id styler;
-    id $__lazy_storage_$_workspaceTreeViewController;
-    id $__lazy_storage_$_model;
-    id $__lazy_storage_$_uploadPresenter;
-    id $__lazy_storage_$_uploadPackageBarButtonItem;
-    id $__lazy_storage_$_createWorkspaceBarButtonItem;
-    id $__lazy_storage_$_exportWorkspaceBarButtonItem;
-    id $__lazy_storage_$_configureWorkspaceBarButtonItem;
 }
 
 - (void);

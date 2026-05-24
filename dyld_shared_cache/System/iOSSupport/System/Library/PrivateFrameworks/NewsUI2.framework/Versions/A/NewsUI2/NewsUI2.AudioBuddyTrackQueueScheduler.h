@@ -7,14 +7,6 @@
 @interface NewsUI2.AudioBuddyTrackQueueScheduler
 {
     id completedListeningProcessor;
-    id headlineService;
-    id headlineConverter;
-    id commandCenter;
-    id playbackState;
-    id ephemeralQueue;
-    id bundleSubscriptionManager;
-    id currentTrack;
-    id scheduleDeduper;
 }
 
 @end

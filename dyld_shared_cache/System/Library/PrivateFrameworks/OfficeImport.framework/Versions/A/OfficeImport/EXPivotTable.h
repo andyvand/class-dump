@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)";
 + (void);
 + (void);
 + (void);
@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 + (int);
++ (int)A;
 + (int);
 + (int);
 + (int);
-+ (int);
-+ (int);
++ (int)(;
 + (void);
 
 @end

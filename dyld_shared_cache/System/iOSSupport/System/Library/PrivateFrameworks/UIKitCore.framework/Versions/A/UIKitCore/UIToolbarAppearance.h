@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIBarAppearance.h>
 
-@class NSString, UIBarButtonItemAppearance;
+@class UIBarButtonItemAppearance;
 
 @interface UIToolbarAppearance : UIBarAppearance
 {
@@ -14,22 +14,22 @@
     UIBarButtonItemAppearance *_prominentButtonAppearance;
 }
 
-+ (_Bool)extEffectsWindow_fromOrientation;
++ (_Bool)UITextEffectsWindow_fromOrientation;
 - (id);
-- (void);
+- (void)d;
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (void)Ð!@Dùbð1Â0@ù
 × ;
 - (id)0@ù
 × ;
 - (void)!¸Fù1cÐ1Â0@ù
 × ;
-- (void)gItems:(id)arg1 withTargetPosition:previousIndexPaths:previousPosition: /* Error: Ran out of types for this method. */;
+- (void)invalidationContextForInteractivelyMovingItems:(id)arg1 withTargetPosition:previousIndexPaths:previousPosition: /* Error: Ran out of types for this method. */;
 - (void)ttributes;
-- (_Bool)stureRecognizer;
-- (unsigned long long)ableView;
+- (_Bool)_UIFlexInteractionPanGestureRecognizer;
+- (unsigned long long)UIKeyboardEmojiDraggableView;
 - (void)¼&;
 - (void)¶ÑîÿþÿºÑîÿ;
 - (id)ith %@;
@@ -42,15 +42,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) UIBarButtonItemAppearance *buttonAppearance; // @synthesize buttonAppearance=_buttonAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) UIBarButtonItemAppearance *doneButtonAppearance;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIBarButtonItemAppearance *prominentButtonAppearance; // @synthesize prominentButtonAppearance=_prominentButtonAppearance;
-@property(readonly) Class superclass;
 
 @end
 

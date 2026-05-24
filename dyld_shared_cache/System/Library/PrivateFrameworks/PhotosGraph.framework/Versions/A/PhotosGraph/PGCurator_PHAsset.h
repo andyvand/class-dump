@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (id);
-- (void);
+- (id)ACMContextRemoveCredentialsByTypeAndScope;
+- (id)ACMGlobalContextAddCredential;
+- (void)73;
 - (void);
 - (id);
 

@@ -7,7 +7,7 @@
 @protocol _UIPreviewInteractionTouchForceProviding
 - (_Bool)!°!`Fù^Ð1Â0@ù
 × ;
-- (double)ysisSceneComponentKey;
+- (double)_UISuperlayerSecurityAnalysisSceneComponentKey;
 - (void)IKitCore/_UISplitViewControllerAdaptiveColumnView.swift;
 
 // Remaining properties

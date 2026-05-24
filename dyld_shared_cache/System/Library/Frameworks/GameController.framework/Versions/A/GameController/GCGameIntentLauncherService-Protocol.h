@@ -5,5 +5,7 @@
 //
 
 @protocol GCGameIntentLauncherService
+- (void);
+- (void);
 @end
 

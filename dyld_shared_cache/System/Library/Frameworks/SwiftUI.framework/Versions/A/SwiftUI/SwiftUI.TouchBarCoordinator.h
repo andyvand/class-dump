@@ -7,12 +7,9 @@
 @interface SwiftUI.TouchBarCoordinator
 {
     id nsTouchBar;
-    id itemIDs;
-    id vendedItems;
-    id itemContent;
 }
 
-- (id);
+- (id)@"SFExternalCredentialIdentityStoreIdentifier",R,C,N,V_credentialIdentityStoreIdentifier;
 - (id);
 - (void)(G4EY7o
 ;

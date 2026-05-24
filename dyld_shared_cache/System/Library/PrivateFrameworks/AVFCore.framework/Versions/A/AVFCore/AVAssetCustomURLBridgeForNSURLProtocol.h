@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetCustomURLBridgeForNSURLProtocol
 {
     NSMutableDictionary *_requestIDToDownload;
-    struct OpaqueFigCustomURLHandler *_handler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)GetUnspeakableRangeOfTextCompleted;
 - (_Bool);
 - (void);
 

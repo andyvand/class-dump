@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, NSURL;
 
 @interface XPEvaluation
 {
     NSURL *_pathURL;
-    NSData *_data;
-    int _result;
-    NSObject<OS_dispatch_queue> *_evaluationQueue;
-    int _assessmentClass;
-    NSMutableArray *_errors;
 }
 
 - (id);
 - (id);
 - (int);
 - (int);
-- (int);
+- (int);
 - (id);
-- (id);
+- (id)?	;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) int assessmentClass; // @synthesize assessmentClass=_assessmentClass;
-@property(readonly) int assessmentResult;
 @property(readonly) NSMutableArray *errors; // @synthesize errors=_errors;
 
 @end

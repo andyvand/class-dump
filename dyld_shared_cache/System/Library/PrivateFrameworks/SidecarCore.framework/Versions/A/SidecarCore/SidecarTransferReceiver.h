@@ -6,18 +6,17 @@
 
 #import <SidecarCore/SidecarTransfer.h>
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SidecarTransferReceiver : SidecarTransfer
 {
     NSMutableDictionary *_groups;
-    NSMutableArray *_orderedGroups;
 }
 
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)objectForKeyedSubscript:(id)arg1;
 - (void);
 
 @end

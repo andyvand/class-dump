@@ -7,13 +7,6 @@
 @interface NewsUI2.EngagementFeatureSettings
 {
     id $__lazy_storage_$_isSmarterMessagingEnabled;
-    id $__lazy_storage_$_disableOverlayPlacements;
-    id $__lazy_storage_$_blockedPlacements;
-    id $__lazy_storage_$_engagementUpsellConfig;
-    id appConfiguration;
-    id observers;
-    id lock;
-    id store;
 }
 
 @end

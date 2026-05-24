@@ -7,14 +7,10 @@
 @interface CUILayoutInformation
 {
     CDStruct_3c058996 _alignmentRectInsets;
-    double _baselineOffsetFromBottom;
-    CDStruct_3c058996 _contentRectInsets;
-    _Bool _canStretchHorizontally;
-    _Bool _canStretchVertically;
 }
 
-+ (id);
-- (void);
++ (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,19 +20,15 @@
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)to archive entire spec.;
 - (id);
 - (id);
 - (double);
-- (CDStruct_3c058996)ShapeEffectOfImage:withInteriorFill: /* Error: Ran out of types for this method. */;
-- (void)municationAudio;
+- (CDStruct_3c058996)imageWithSingleBlurShapeEffectOfImage:withInteriorFill: /* Error: Ran out of types for this method. */;
+- (void)CommunicationAudio;
 
 // Remaining properties
 @property(nonatomic) CDStruct_3c058996 alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(nonatomic) double baselineOffsetFromBottom; // @synthesize baselineOffsetFromBottom=_baselineOffsetFromBottom;
-@property(nonatomic) _Bool canStretchHorizontally; // @synthesize canStretchHorizontally=_canStretchHorizontally;
-@property(nonatomic) _Bool canStretchVertically; // @synthesize canStretchVertically=_canStretchVertically;
-@property(nonatomic) CDStruct_3c058996 contentRectInsets; // @synthesize contentRectInsets=_contentRectInsets;
 
 @end
 

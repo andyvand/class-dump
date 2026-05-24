@@ -4,60 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface BCServerSideOAuth2URLProvider
 {
     NSURL *_redirectURI;
     NSURL *_authorizationURL;
-    NSString *_clientIdentifier;
-    NSArray *_scope;
-    NSString *_state;
-    NSString *_responseType;
-    NSString *_additionalParameters;
 }
 
-+ (id);
++ (id)initWithURL:(id)arg1 configuration: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (_Bool)releaseNode:(id)arg1;
+- (id)naged: /* Error: Ran out of types for this method. */;
+- (id)presentAlert:(id)arg1;
+- (void)preferredFontForTextStyle:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id)bView:navigationAction:didBecomeDownload: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id)ActiveCodingKeys;
+- (void);
+- (id);
+- (id);
+- (void)CPInstrumentClusterProviding>",&,N,V_instrumentClusterProvider;
+- (id)webView:navigationAction:didBecomeDownload: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *additionalParameters; // @synthesize additionalParameters=_additionalParameters;
 @property(retain, nonatomic) NSURL *authorizationURL; // @synthesize authorizationURL=_authorizationURL;
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURL *redirectURI; // @synthesize redirectURI=_redirectURI;
-@property(retain, nonatomic) NSString *responseType; // @synthesize responseType=_responseType;
-@property(retain, nonatomic) NSArray *scope; // @synthesize scope=_scope;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

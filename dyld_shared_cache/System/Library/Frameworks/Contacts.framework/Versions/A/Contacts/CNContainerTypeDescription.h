@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)eventStreamWithName:valueType: /* Error: Ran out of types for this method. */;
+- (_Bool)nt"16^B24;
 - (Class)0@ù
 × ;
 

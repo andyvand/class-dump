@@ -6,23 +6,19 @@
 
 #import <PhotosGraph/PGAssetFeatureExtractor.h>
 
-@class NSArray, NSString;
-
 @interface PGFeatureExtractorStoredCLIP : PGAssetFeatureExtractor
 {
 }
 
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)@;
+- (id)contextForPageURL:content:contentType:metadata:isPrivate:isReaderAvailable:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)	
 ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long featureLength;
-@property(nonatomic, readonly) NSArray *featureNames;
-@property(nonatomic, readonly) NSString *name;
 
 @end
 

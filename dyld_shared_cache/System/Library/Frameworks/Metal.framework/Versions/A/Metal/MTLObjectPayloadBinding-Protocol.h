@@ -5,9 +5,9 @@
 //
 
 @protocol MTLObjectPayloadBinding
+- (unsigned long long)`;
 
 // Remaining properties
 @property(readonly) unsigned long long objectPayloadAlignment;
-@property(readonly) unsigned long long objectPayloadDataSize;
 @end
 

@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, _INPBTask;
 
 @protocol _INPBSnoozeTasksIntentResponse
+- (_INPBTask *);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *snoozedTasks;
-@property(readonly, nonatomic) unsigned long long snoozedTasksCount;
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIColor, UIFont;
+@class NSString;
 
 @interface UIListContentTextProperties
 {
@@ -24,42 +24,25 @@
         unsigned int hasCustomizedMarqueeWhenAncestorFocused:1;
         unsigned int hasCustomizedMonochromaticTreatment:1;
     } _textFlags;
-    _Bool _adjustsFontSizeToFitWidth;
-    _Bool _allowsDefaultTighteningForTruncation;
-    _Bool _adjustsFontForContentSizeCategory;
-    _Bool _showsExpansionTextWhenTruncated;
-    _Bool __enablesMarqueeWhenAncestorFocused;
-    NSString *_text;
-    UIFont *_font;
-    UIColor *_color;
-    CDUnknownBlockType _colorTransformer;
-    long long _alignment;
-    long long _lineBreakMode;
-    NSAttributedString *_attributedText;
-    long long _numberOfLines;
-    double _minimumScaleFactor;
-    long long _transform;
-    long long __monochromaticTreatment;
-    long long _colorTransformerIdentifier;
 }
 
 + (_Bool)om.apple.UIKit.BridgedNSToolbar.%p;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)grid;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)appendObjects:completion: /* Error: Ran out of types for this method. */;
+- (id)_mediaLibraryWithUniqueIdentifier:userDSID: /* Error: Ran out of types for this method. */;
+- (long long);
+- (_Bool);
 - (long long);
 - (_Bool);
-- (long long);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -80,19 +63,19 @@
 × ;
 - (long long)c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16B24B28B32r*36r*44r*52I60I64i68i72i76B80;
 - (_Bool)egate>";
-- (void)ctActive;
-- (id)n: /* Error: Ran out of types for this method. */;
-- (long long)tationButton: /* Error: Ran out of types for this method. */;
+- (void)typeSelectActive;
+- (id)textStylingAtPosition:inDirection: /* Error: Ran out of types for this method. */;
+- (long long)setDisableDictationButton: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)uousDisplayedPage;
-- (_Bool)eviceInputSettingForWindow:(id)arg1;
-- (CDUnknownBlockType)tartingWithVersion;
-- (void)temsUpdates;
-- (void):(id)arg1;
+- (void)continuousDisplayedPage;
+- (_Bool)_updateExternalDeviceInputSettingForWindow:(id)arg1;
+- (CDUnknownBlockType)_uiRequiresFullScreenIgnoredStartingWithVersion;
+- (void)_collapsedItemsUpdates;
+- (void)setProportionalFillDenominator:(id)arg1;
 - (void)er;
 - (_Bool)uration",C,N,V_pageButtonConfiguration;
-- (id)Attributes;
-- (void)IGestureGraphElement;
+- (id)_UIStatusBarStyleAttributes;
+- (void)UIGestureGraphElement;
 - (void);
 - (_Bool)ìL;
 - (void)Ä;
@@ -104,23 +87,23 @@
 - (void)ects tables for unknown view type %ld;
 - (void)ve]=%p;
 - (void);
-- (void)ey;
-- (void)d;
+- (void)UIBezierPathLineJoinStyleKey;
+- (void)reachabilitySupported;
 - (void)=%p;
 - (void)ionState.bookmarks.count;
-- (void)cheAccessQueue;
+- (void)unassociationCacheAccessQueue;
 - (void)izingGuide=%p
 ;
-- (long long)e;
-- (long long)ityShortcut;
+- (long long)UIVibrancyEffectColorMatrixLightClampPreserveHue;
+- (long long)AllowsAccessibilityShortcut;
 - (id)found duplicate parentMenus. This is a UIKit internal bug.;
 - (long long)/3y§/3yé`üÿ_pGG;
 - (id)(iþ;
 - (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 - (id);
 - (void)n¦þ¨oþ¨oþØkR0;
-- (CDUnknownBlockType)ation;
-- (_Bool)etionContext;
+- (CDUnknownBlockType)MaterializeAnimation;
+- (_Bool)RunCompletionContext;
 - (void);
 - (void)GíÑ¬¶[;
 - (void);
@@ -139,41 +122,7 @@
 - (long long)àåËäºj;
 
 // Remaining properties
-@property(nonatomic, setter=__setEnablesMarqueeWhenAncestorFocused:) _Bool __enablesMarqueeWhenAncestorFocused; // @synthesize __enablesMarqueeWhenAncestorFocused;
-@property(nonatomic, setter=__setMonochromaticTreatment:) long long __monochromaticTreatment; // @synthesize __monochromaticTreatment;
-@property(nonatomic, setter=_setAdjustsFontForContentSizeCategory:) _Bool _adjustsFontForContentSizeCategory; // @synthesize _adjustsFontForContentSizeCategory;
-@property(nonatomic, setter=_setAdjustsFontSizeToFitWidth:) _Bool _adjustsFontSizeToFitWidth; // @synthesize _adjustsFontSizeToFitWidth;
-@property(nonatomic, setter=_setAlignment:) long long _alignment; // @synthesize _alignment;
-@property(nonatomic, setter=_setAllowsDefaultTighteningForTruncation:) _Bool _allowsDefaultTighteningForTruncation; // @synthesize _allowsDefaultTighteningForTruncation;
-@property(copy, nonatomic, setter=_setAttributedText:) NSAttributedString *_attributedText; // @synthesize _attributedText;
-@property(retain, nonatomic, setter=_setColor:) UIColor *_color; // @synthesize _color;
-@property(copy, nonatomic, setter=_setColorTransformer:) CDUnknownBlockType _colorTransformer; // @synthesize _colorTransformer;
-@property(nonatomic, setter=_setColorTransformerIdentifier:) long long _colorTransformerIdentifier; // @synthesize _colorTransformerIdentifier;
-@property(readonly, nonatomic) long long _effectiveTextAlignment;
-@property(nonatomic, setter=_setEnablesMarqueeWhenAncestorFocused:) _Bool _enablesMarqueeWhenAncestorFocused;
-@property(retain, nonatomic, setter=_setFont:) UIFont *_font; // @synthesize _font;
-@property(readonly, nonatomic) _Bool _hasNonEmptyPlainTextOnly;
-@property(nonatomic, setter=_setLineBreakMode:) long long _lineBreakMode; // @synthesize _lineBreakMode;
-@property(nonatomic, setter=_setMinimumScaleFactor:) double _minimumScaleFactor; // @synthesize _minimumScaleFactor;
-@property(nonatomic, setter=_setMonochromaticTreatment:) long long _monochromaticTreatment;
-@property(nonatomic, setter=_setNumberOfLines:) long long _numberOfLines; // @synthesize _numberOfLines;
-@property(nonatomic, setter=_setShowsExpansionTextWhenTruncated:) _Bool _showsExpansionTextWhenTruncated; // @synthesize _showsExpansionTextWhenTruncated;
-@property(copy, nonatomic, setter=_setText:) NSString *_text; // @synthesize _text;
-@property(nonatomic, setter=_setTransform:) long long _transform; // @synthesize _transform;
-@property(nonatomic) _Bool adjustsFontForContentSizeCategory;
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(nonatomic) long long alignment;
-@property(nonatomic) _Bool allowsDefaultTighteningForTruncation;
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(retain, nonatomic) UIColor *color;
-@property(copy, nonatomic) CDUnknownBlockType colorTransformer;
-@property(retain, nonatomic) UIFont *font;
-@property(nonatomic) long long lineBreakMode;
-@property(nonatomic) double minimumScaleFactor;
-@property(nonatomic) long long numberOfLines;
-@property(nonatomic) _Bool showsExpansionTextWhenTruncated;
 @property(copy, nonatomic) NSString *text;
-@property(nonatomic) long long transform;
 
 @end
 

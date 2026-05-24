@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_tcp_listener;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BridgeXPCListener
 {
     NSObject<OS_dispatch_queue> *internal_queue;
-    NSObject<OS_tcp_listener> *listener;
-    unsigned long long BridgeXPCListenerState;
-    unsigned long long state;
-    unsigned long long BridgeXPCListenerType;
-    unsigned long long listener_type;
-    NSString *remote_service_name;
-    _Bool eos_notifications_registered;
-    CDUnknownBlockType eventHandler;
-    NSObject<OS_dispatch_queue> *targetQueue;
 }
 
 - (void);
@@ -29,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)highlight titles/subtitles for %zu year highlights.;
 - (void);
 - (void);
 - (void);
@@ -41,7 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue;
 
 @end

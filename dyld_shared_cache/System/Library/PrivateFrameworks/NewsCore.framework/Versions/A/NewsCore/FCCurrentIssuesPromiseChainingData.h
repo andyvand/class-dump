@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCurrentIssuesCheckerResult, NSArray, NSOrderedSet;
+@class NSArray;
 
 @interface FCCurrentIssuesPromiseChainingData
 {
     NSArray *_resultingIssues;
-    NSOrderedSet *_bundleChannelIDs;
-    NSArray *_followedChannelIDs;
-    NSArray *_autoFavoriteTagIDs;
-    FCCurrentIssuesCheckerResult *_partialResult;
 }
 
 - (void)alData:forTagID:error:] /* Error: Ran out of types for this method. */;

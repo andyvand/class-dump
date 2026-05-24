@@ -6,17 +6,9 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class NSArray, QCRegion;
-
 @interface QCProvider_SceneKit : QCImageProvider
 {
     struct __C3DImage *_image;
-    struct __C3DTextureSampler *_sampler;
-    struct CGColorSpace *_colorSpace;
-    struct CGSize _size;
-    QCRegion *_domainOfDefinition;
-    NSArray *_pixelFormats;
-    NSArray *_targets;
 }
 
 + (_Bool);
@@ -27,9 +19,9 @@
 - (id);
 - (id);
 - (unsigned int);
+- (id)RE;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);

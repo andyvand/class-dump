@@ -6,16 +6,11 @@
 
 #import <Contacts/CNContactPosterDataItem.h>
 
-@class CNContactImage, NSData, NSString;
+@class NSString;
 
 @interface CNContactPoster : CNContactPosterDataItem
 {
     _Bool _contentIsSensitive;
-    NSString *_identifier;
-    NSData *_posterData;
-    NSData *_posterMetadata;
-    NSData *_watchPosterImageData;
-    CNContactImage *_pairedImage;
 }
 
 + (_Bool);
@@ -35,19 +30,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)t<OS_ldap_operation>"80@0:8@"NSObject<OS_ldap_connection>"16i24i28@"NSString"32@"NSString"40@"NSArray"48I56B60@?<v@?@"NSObject<OS_ldap_operation>"^{__CFDictionary=}>64@?<v@?@"NSObject<OS_ldap_operation>"i>72 /* Error: Ran out of types for this method. */;
-- (void)llpaperImageData:(id)arg1 contactIdentifier:posterIdentifier:ignoredForRevertBool:hasIgnoredValue: /* Error: Ran out of types for this method. */;
+- (void)initWithWatchWallpaperImageData:(id)arg1 contactIdentifier:posterIdentifier:ignoredForRevertBool:hasIgnoredValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool contentIsSensitive; // @synthesize contentIsSensitive=_contentIsSensitive;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak CNContactImage *pairedImage; // @synthesize pairedImage=_pairedImage;
-@property(readonly, nonatomic) NSData *posterData; // @synthesize posterData=_posterData;
-@property(readonly, nonatomic) NSData *posterMetadata; // @synthesize posterMetadata=_posterMetadata;
-@property(retain, nonatomic) NSData *watchPosterImageData; // @synthesize watchPosterImageData=_watchPosterImageData;
 
 @end
 

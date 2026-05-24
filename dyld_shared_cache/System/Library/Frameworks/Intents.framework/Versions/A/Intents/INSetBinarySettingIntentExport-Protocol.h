@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSettingMetadata, INTemporalEventTrigger;
+@class INSettingMetadata;
 
 @protocol INSetBinarySettingIntentExport
+- (void);
 
 // Remaining properties
-@property long long binaryValue;
 @property(copy) INSettingMetadata *settingMetadata;
-@property(copy) INTemporalEventTrigger *temporalEventTrigger;
 @end
 

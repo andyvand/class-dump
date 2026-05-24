@@ -7,8 +7,6 @@
 @interface SiriInference.OngoingLearning
 {
     id useCase;
-    id presented;
-    id choiceByID;
 }
 
 @end

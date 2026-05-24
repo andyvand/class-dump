@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFPlusPlayer, MFGraphicsDevice;
+@class MFGraphicsDevice;
 
 __attribute__((visibility("hidden")))
 @interface EMFPlayer
 {
     MFGraphicsDevice *m_gdi;
-    _Bool m_headerDone;
-    EMFPlusPlayer *m_emfPlusPlayer;
-    _Bool m_ignoreEMFRecords;
-    _Bool m_ignoreEMFPlusRecords;
 }
 
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect);
 - (void);
 - (void);
 - (int);
@@ -35,6 +31,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int)P;
+- (int);
+- (int);
+- (int)P;
 - (int);
 - (int);
 - (int);
@@ -47,11 +47,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
+- (int)p;
 - (int);
 - (int);
 - (int);

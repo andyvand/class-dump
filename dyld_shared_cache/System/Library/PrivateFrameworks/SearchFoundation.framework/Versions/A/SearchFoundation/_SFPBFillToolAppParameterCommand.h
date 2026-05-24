@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _SFPBFillToolAppParameterCommand
 {
     NSData *_encodedTypedValue;
-    NSString *_bundleIdentifier;
-    NSString *_applicationPath;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)localizedSharedByLabelAllowsEmail:(id)arg1;
+- (id)HResourceLocalAvailabilityRequest] Found no video complement resource to share for asset (uuid:%{public}@):%@, resources:%@, options:%@, useOriginalResources:%d, knownUnsupported:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)setQtype: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationPath; // @synthesize applicationPath=_applicationPath;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSData *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

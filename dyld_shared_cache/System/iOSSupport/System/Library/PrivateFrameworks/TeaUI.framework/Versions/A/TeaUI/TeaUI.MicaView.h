@@ -7,13 +7,11 @@
 @interface TeaUI.MicaView
 {
     id onScreenClosure;
-    id packageLayer;
-    id packageSize;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)OpenInNews;
+- (id)sportsEventIDs;
 - (void);
 
 @end

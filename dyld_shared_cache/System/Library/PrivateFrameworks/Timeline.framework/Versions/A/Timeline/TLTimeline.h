@@ -4,70 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimer, TLTimelineEntryNode, TLTimelineWindow;
-@protocol TLTimelineDelegate, TLTimelineEntry;
+@class TLTimelineEntryNode;
 
 @interface TLTimeline
 {
     TLTimelineEntryNode *_leftmostNode;
-    TLTimelineEntryNode *_rightmostNode;
-    TLTimelineWindow *_nowWindow;
-    NSTimer *_timer;
-    id <TLTimelineDelegate> _delegate;
-    _Bool _delegateRespondsToTimerFired;
-    _Bool _updatesNowNodeOnSignificantTimeChange;
-    int _notifyToken;
-    _Bool _paused;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)8;
 - (id);
+- (void)D;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)@0:8@16^@24 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
-- (void);
+- (id)nnotationController: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
+- (void);
 - (void);
+- (id)0;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)E;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateOfLastEntryInTimeline;
-@property(nonatomic) __weak id <TLTimelineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSDate *endOfVisibilityForNowEntry;
-@property(readonly, nonatomic) id <TLTimelineEntry> lastEntry;
-@property(readonly, nonatomic) unsigned long long nodeCapacity;
-@property(readonly, nonatomic) id <TLTimelineEntry> nowEntry;
 @property(nonatomic) _Bool paused; // @synthesize paused=_paused;
-@property(nonatomic) _Bool updatesNowNodeOnSignificantTimeChange;
 
 @end
 

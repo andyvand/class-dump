@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriActivationConnection, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFSiriActivationHandlerFrontendProcess
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFSiriActivationConnection *_connection;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (void)ccessoryId;
+- (void)_accessoryId;
 - (void)_residentMemorySizeInBytes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

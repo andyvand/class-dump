@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, PGGraphFeatureNodeCollection, PGGraphMeaningNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PGGraphSceneNodeCollection;
+@class NSString, PGGraphMomentNodeCollection;
 
 @protocol PGUpNextMatchingInfo
-- (PGGraphMomentNodeCollection *)ane;
+- (NSString *);
+- (PGGraphMomentNodeCollection *)Plane;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *debugInfo;
-@property(readonly, nonatomic) _Bool isTripMemory;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *meaningNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) NSDate *representativeDate;
-@property(readonly, nonatomic) CLLocation *representativeLocation;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *sceneNodes;
 @end
 

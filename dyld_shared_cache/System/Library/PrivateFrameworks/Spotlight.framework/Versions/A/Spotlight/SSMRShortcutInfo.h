@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFSearchResult_SpotlightExtras;
-
 @interface SSMRShortcutInfo
 {
     _Bool isCoreSpotlightResult;
-    _Bool isMetadataResult;
-    _Bool _isValid;
-    _Bool _shortcutMapped;
-    _Bool _hasSafariShortcutResult;
-    SFSearchResult_SpotlightExtras *_result;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)@9(!*;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSafariShortcutResult; // @synthesize hasSafariShortcutResult=_hasSafariShortcutResult;
 @property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(retain, nonatomic) SFSearchResult_SpotlightExtras *result; // @synthesize result=_result;
-@property(nonatomic) _Bool shortcutMapped; // @synthesize shortcutMapped=_shortcutMapped;
 
 @end
 

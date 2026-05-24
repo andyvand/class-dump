@@ -5,7 +5,7 @@
 //
 
 @protocol INScanVisualCodeIntentResponseExport
-- (long long)archResultsCount;
+- (long long)hasSearchResultsCount;
 
 // Remaining properties
 @property(readonly) long long code;

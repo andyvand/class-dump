@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, SSCAMetalLayerClientResourceUsageInterval, SSCAMetalLayerClientResourceUsageSnapshot, SSGameSessionInterval;
+@class NSString;
 
 @interface SSCAMetalLayerClientSession
 {
     _Bool _includeTimelines;
-    int _processID;
-    NSString *_processName;
-    NSString *_bundleID;
-    NSString *_bundleVersion;
-    NSString *_bundleShortVersion;
-    NSMutableArray *_mutableResourceSnapshotTimeline;
-    SSGameSessionInterval *_gameSession;
-    NSMutableDictionary *_mutableLayerIDToLayerSession;
-    SSCAMetalLayerClientResourceUsageSnapshot *_earliestSnapshot;
-    SSCAMetalLayerClientResourceUsageSnapshot *_latestSnapshot;
-    double _timebaseRatio;
 }
 
 - (double);
 - (double);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (id)<;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)*%;
 - (id);
 - (_Bool);
 - (id);
-- (double);
+- (double)Th;
 - (unsigned long long);
 - (double);
 - (id);
@@ -47,16 +36,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`2;
 - (id);
 - (double);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (float);
 - (id);
-- (void);
+- (void)ProvisioningPopulateRequestDict failed status=%d;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -66,8 +55,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)__kIMAVChatParticipantsToBeRemovedKey;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -75,32 +64,7 @@
 - (int)ts",R,N,V_gpuDoneToCompletedWalltimeStats;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *bundleShortVersion; // @synthesize bundleShortVersion=_bundleShortVersion;
-@property(retain, nonatomic) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly, nonatomic) NSDictionary *coreAnalyticsEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SSCAMetalLayerClientResourceUsageSnapshot *earliestSnapshot; // @synthesize earliestSnapshot=_earliestSnapshot;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(retain, nonatomic) SSGameSessionInterval *gameSession; // @synthesize gameSession=_gameSession;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeTimelines; // @synthesize includeTimelines=_includeTimelines;
-@property(retain, nonatomic) SSCAMetalLayerClientResourceUsageSnapshot *latestSnapshot; // @synthesize latestSnapshot=_latestSnapshot;
-@property(readonly, nonatomic) NSDictionary *layerIDToLayerSession;
-@property(readonly, nonatomic) NSMutableDictionary *mutableLayerIDToLayerSession; // @synthesize mutableLayerIDToLayerSession=_mutableLayerIDToLayerSession;
-@property(retain, nonatomic) NSMutableArray *mutableResourceSnapshotTimeline; // @synthesize mutableResourceSnapshotTimeline=_mutableResourceSnapshotTimeline;
-@property(readonly, nonatomic) SSCAMetalLayerClientResourceUsageInterval *overallResourceUsageInterval;
-@property(nonatomic) int processID; // @synthesize processID=_processID;
 @property(retain, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(readonly, nonatomic) NSArray *resourceSnapshotTimeline;
-@property(readonly, nonatomic) NSArray *resourceUsageIntervalTimeline;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
 
 @end
 

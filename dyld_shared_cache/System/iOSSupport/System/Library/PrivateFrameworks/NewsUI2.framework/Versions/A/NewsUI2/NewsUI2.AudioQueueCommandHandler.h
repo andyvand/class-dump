@@ -7,17 +7,6 @@
 @interface NewsUI2.AudioQueueCommandHandler
 {
     id dataManager;
-    id playbackConductor;
-    id ephemeralQueue;
-    id headlineConverter;
-    id offlineManager;
-    id offlineArticleManager;
-    id offlineAlertControllerFactory;
-    id audioPlaybackTracker;
-    id bundleSubscriptionManager;
-    id sceneProvider;
-    id readingHistory;
-    id audioPlaylist;
 }
 
 @end

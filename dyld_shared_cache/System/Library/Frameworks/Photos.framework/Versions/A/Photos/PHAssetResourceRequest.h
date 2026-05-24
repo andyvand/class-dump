@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSProgress, NSString, PHAssetResource, PHAssetResourceRequestOptions, PHProgressContainerForRetryableRequest, PLProgressFollower;
-@protocol PHAssetResourceRequestDelegate;
-
 @interface PHAssetResourceRequest
 {
     struct os_unfair_lock_s _lock;
-    _Bool _cancelled;
-    PHProgressContainerForRetryableRequest *_availabilityRequestProgressContainer;
-    long long _availabilityPendingCount;
-    NSProgress *_fileStreamProgress;
-    long long _fileStreamPendingCount;
-    NSProgress *_totalProgress;
-    PLProgressFollower *_progressFollower;
-    NSError *_configuredError;
-    _Atomic unsigned int _retryAttemptCount;
-    double _retryInterval;
-    _Bool _loadURLOnly;
-    _Bool _synchronous;
-    int _requestID;
-    PHAssetResource *_assetResource;
-    PHAssetResourceRequestOptions *_options;
-    unsigned long long _managerID;
-    id <PHAssetResourceRequestDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    NSDictionary *_info;
-    NSString *_taskIdentifier;
-    CDUnknownBlockType _urlReceivedHandler;
-    CDUnknownBlockType _dataHandler;
 }
 
 + (id);
@@ -55,12 +30,12 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (int);
 - (_Bool);
-- (void);
+- (void)chedValue=%{BOOL}u newValue=%{BOOL}u;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -70,31 +45,11 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)rManagedAssetObjectUUID:library:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)e;
+- (_Bool)requestRequiredResourcesForManagedAssetObjectUUID:library:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)creationDateAdjustedForTimeZone;
 - (id)isFavorite;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetResource *assetResource; // @synthesize assetResource=_assetResource;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) CDUnknownBlockType dataHandler; // @synthesize dataHandler=_dataHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <PHAssetResourceRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *info; // @synthesize info=_info;
-@property(nonatomic) _Bool loadURLOnly; // @synthesize loadURLOnly=_loadURLOnly;
-@property(readonly, nonatomic) unsigned long long managerID; // @synthesize managerID=_managerID;
-@property(readonly, nonatomic) PHAssetResourceRequestOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) int requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) double retryInterval;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
-@property(copy, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 @property(copy, nonatomic) CDUnknownBlockType urlReceivedHandler; // @synthesize urlReceivedHandler=_urlReceivedHandler;
 
 @end

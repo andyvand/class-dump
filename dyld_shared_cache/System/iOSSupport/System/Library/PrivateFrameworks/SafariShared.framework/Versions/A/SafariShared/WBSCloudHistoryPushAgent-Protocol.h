@@ -5,5 +5,6 @@
 //
 
 @protocol WBSCloudHistoryPushAgent
+- (void);
 @end
 

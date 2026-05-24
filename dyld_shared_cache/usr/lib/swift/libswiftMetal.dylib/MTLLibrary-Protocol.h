@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol MTLDevice;
+@class NSString;
 
 @protocol MTLLibrary
+- (void);
+- (void)_requestNetworkDataAvailability;
+- (void)%@;
+- (long long)";
+- (NSString *);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *functionNames;
-@property(readonly) NSString *installName;
 @property(copy) NSString *label;
-@property(readonly) long long type;
 @end
 

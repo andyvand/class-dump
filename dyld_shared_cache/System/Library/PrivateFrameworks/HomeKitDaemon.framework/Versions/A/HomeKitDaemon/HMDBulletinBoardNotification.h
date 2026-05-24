@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinBoardNotificationServiceGroup, HMDHome, HMDService, HMFMessageDispatcher, NSObject, NSPredicate, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinBoardNotification
 {
     struct os_unfair_lock_s _lock;
-    _Bool _enabled;
-    NSPredicate *_condition;
-    HMDBulletinBoardNotificationServiceGroup *_notificationServiceGroup;
-    NSUUID *_messageTargetUUID;
-    HMDService *_service;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
 }
 
 + (_Bool);
 + (_Bool)¤¤;
 + (id)Ê­;
+- (void)_checkinWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)MSPMaximumNumberNotificationsMessageStrategyKey;
+- (void)GEOTransitArtworkUseTypeTripRoutePlanning;
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)requestScreenObserve;
 - (id);
 - (id);
 - (id);
@@ -50,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (id)!,AùQ1Â0@ù
 × ;
 - (id);
-- (void)ioState:(id)arg1;
+- (void)_handleSetAudioState:(id)arg1;
 - (id)nd metadata:%@ /* Error: Ran out of types for this method. */;
 - (id):%lu /* Error: Ran out of types for this method. */;
 - (void)´nÿ×~&Loÿu×~&Ìoÿ;
@@ -58,24 +51,6 @@ __attribute__((visibility("hidden")))
 - (void)`;
 
 // Remaining properties
-@property(retain, nonatomic) NSPredicate *condition; // @synthesize condition=_condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDHome *home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(retain) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(retain, nonatomic) HMDBulletinBoardNotificationServiceGroup *notificationServiceGroup; // @synthesize notificationServiceGroup=_notificationServiceGroup;
-@property(nonatomic) __weak HMDService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 @property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

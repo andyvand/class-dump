@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDSimpleArtworkRenditionSpec.h>
 
-@class TDMultisizeImageSetRenditionSpec, TDMultisizeImageSetSizeIndex;
+@class TDMultisizeImageSetSizeIndex;
 
 @interface TDMultisizeImageRenditionSpec : TDSimpleArtworkRenditionSpec
 {
@@ -14,7 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) TDMultisizeImageSetRenditionSpec *multisizeImageSetRendition; // @dynamic multisizeImageSetRendition;
 @property(retain, nonatomic) TDMultisizeImageSetSizeIndex *sizeIndex; // @dynamic sizeIndex;
 @end
 

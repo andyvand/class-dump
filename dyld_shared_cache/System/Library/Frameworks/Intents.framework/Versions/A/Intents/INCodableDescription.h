@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableLocalizationTable, INSchema, NSArray, NSDictionary, NSMutableDictionary, NSOrderedSet, NSString;
+@class INCodableLocalizationTable, NSMutableDictionary;
 
 @interface INCodableDescription
 {
     NSMutableDictionary *_attributesByName;
-    struct os_unfair_lock_s _displayOrderedAttributesLock;
-    INCodableLocalizationTable *_localizationTable;
-    INCodableLocalizationTable *_customLocalizationTable;
-    NSString *_mainBundleIdentifier;
-    INSchema *_schema;
-    NSString *_intentDefinitionNamespace;
-    NSString *_className;
-    NSString *_typeName;
-    NSDictionary *_attributes;
-    NSOrderedSet *_displayOrderedAttributes;
-    NSString *_semanticRoot;
 }
 
++ (id));
 + (id);
 + (id);
 + (id);
@@ -37,22 +27,21 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -68,6 +57,22 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -76,23 +81,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)(;
 + (id);
 + (id);
 + (id);
@@ -107,32 +96,32 @@
 × ;
 + (id)>24;
 + (id);
-+ (id)adLocationSearchTypes:count: /* Error: Ran out of types for this method. */;
-+ (id)ilableRestaurantReservationBookingDefaults:withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)tactsForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)Index: /* Error: Ran out of types for this method. */;
-+ (id)nitWithExtensionBundleIdentifier:(id)arg1 kind:(id *)arg2 intentClassName:actionIntentType: /* Error: Ran out of types for this method. */;
-+ (id)asArtistGenre;
-+ (id)MethodList: /* Error: Ran out of types for this method. */;
-+ (id);
-+ (id)utionResult:slotDescription: /* Error: Ran out of types for this method. */;
++ (id)setPayloadLocationSearchTypes:count: /* Error: Ran out of types for this method. */;
++ (id)resolveRestaurantForGetAvailableRestaurantReservationBookingDefaults:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)resolveContactsForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)payloadCarAirCirculationModeAtIndex: /* Error: Ran out of types for this method. */;
++ (id)initWithExtensionBundleIdentifier:(id)arg1 kind:(id *)arg2 intentClassName:actionIntentType: /* Error: Ran out of types for this method. */;
++ (id)hasArtistGenre;
++ (id)addPayloadPaymentMethodList: /* Error: Ran out of types for this method. */;
++ (id)_payloadFilePropertyQualifiers;
++ (id)_initWithIntentSlotResolutionResult:slotDescription: /* Error: Ran out of types for this method. */;
 + (id)eTimeRange",&,N,V_releaseDate;
 + (id)ting;
 + (id)Response:,V_intentResponse /* Error: Ran out of types for this method. */;
-+ (id)tion: /* Error: Ran out of types for this method. */;
-+ (id);
-+ (id)tionIntentResponseExport;
++ (id)_intents_matchExtensionsForIntent:requireTrustCheck:completion: /* Error: Ran out of types for this method. */;
++ (id)INIntentContactEventTriggerSlotValueTransformer;
++ (id)INSetRadioStationIntentResponseExport;
 + (id)4Ì;
 + (id)ÌÐ¬;
-+ (id)ngIntentResponseCodeFailureOtherWithReason;
-+ (id);
++ (id)INSetNumericSettingIntentResponseCodeFailureOtherWithReason;
++ (id)INDateComponentsResolutionResult;
 + (id)tents that could use that type of vocabulary;
 + (id)i-app;
-+ (id)oCallIntentResponseCodeFailureCallingServiceNotAvailable;
-+ (id)TCUT_VIA_CLOUD_RELAY;
-+ (id)tionForPayBill:withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)argetTaskListMembersForAddTasks: /* Error: Ran out of types for this method. */;
-+ (id)eLevelSettingForSetSeatSettingsInCar: /* Error: Ran out of types for this method. */;
++ (id)INStartAudioCallIntentResponseCodeFailureCallingServiceNotAvailable;
++ (id)ASSISTANT_VOICE_SHORTCUT_VIA_CLOUD_RELAY;
++ (id)provideTransactionAmountOptionsCollectionForPayBill:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)defaultTargetTaskListMembersForAddTasks: /* Error: Ran out of types for this method. */;
++ (id)defaultRelativeLevelSettingForSetSeatSettingsInCar: /* Error: Ran out of types for this method. */;
 + (id)kit.intent.notes.SnoozeTasksIntent;
 + (id);
 + (id)Ñ\K;
@@ -151,28 +140,7 @@
 + (id)³[;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *_attributeKey;
-@property(readonly, copy, nonatomic) NSString *_attributesKey;
-@property(copy, nonatomic, setter=_setCustomLocalizationTable:) INCodableLocalizationTable *_customLocalizationTable; // @synthesize _customLocalizationTable;
 @property(copy, nonatomic, setter=_setLocalizationTable:) INCodableLocalizationTable *_localizationTable; // @synthesize _localizationTable;
-@property(copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(copy, nonatomic) NSString *className; // @synthesize className=_className;
-@property(readonly, nonatomic) long long codableDescriptionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSOrderedSet *displayOrderedAttributes; // @synthesize displayOrderedAttributes=_displayOrderedAttributes;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *intentDefinitionNamespace; // @synthesize intentDefinitionNamespace=_intentDefinitionNamespace;
-@property(readonly, copy, nonatomic) NSString *localizationBundleIdentifier;
-@property(copy, nonatomic) NSString *mainBundleIdentifier; // @synthesize mainBundleIdentifier=_mainBundleIdentifier;
-@property(readonly, nonatomic) NSArray *referencedCodableEnums;
-@property(nonatomic) __weak INSchema *schema; // @synthesize schema=_schema;
-@property(copy, nonatomic) NSString *semanticRoot; // @synthesize semanticRoot=_semanticRoot;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *typeName; // @synthesize typeName=_typeName;
 
 @end
 

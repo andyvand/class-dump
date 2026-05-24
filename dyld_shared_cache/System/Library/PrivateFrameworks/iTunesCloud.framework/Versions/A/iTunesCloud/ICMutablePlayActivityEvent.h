@@ -6,8 +6,6 @@
 
 #import <iTunesCloud/ICPlayActivityEvent.h>
 
-@class ICPlayActivityAudioQualityProperties, ICPlayActivityEnqueuerProperties, ICPlayActivityEventContainerIDs, ICPlayActivityEventItemIDs, NSArray, NSData, NSDate, NSNumber, NSString, NSTimeZone;
-
 @interface ICMutablePlayActivityEvent : ICPlayActivityEvent
 {
 }
@@ -60,9 +58,351 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)coord_io_index];
+    
+    if (is_function_constant_defined(normal_texcoord_io_index))
+        _surface.normalTexcoord = uv[normal_texcoord_io_index];
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index))
+        _surface.transparentTexcoord = uv[transparent_texcoord_io_index];
+    
+    if (is_function_constant_defined(emission_texcoord_io_index))
+        _surface.emissionTexcoord = uv[emission_texcoord_io_index];
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index))
+        _surface.ambientTexcoord = uv[ambient_texcoord_io_index];
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index))
+        _surface.multiplyTexcoord = uv[multiply_texcoord_io_index];
+    
+    if (is_function_constant_defined(specular_texcoord_io_index))
+        _surface.specularTexcoord = uv[specular_texcoord_io_index];
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index))
+        _surface.roughnessTexcoord = uv[roughness_texcoord_io_index];
+
+    if (is_function_constant_defined(metalness_texcoord_io_index))
+        _surface.metalnessTexcoord = uv[metalness_texcoord_io_index];
+
+    _surface.ambientOcclusion = 1.f; 
+    if (use_ambient_map) {
+        float4 c = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord);
+        if (is_function_constant_defined(ambient_texture_component)) {
+            c = c[ambient_texture_component];
+        }
+        
+        if (use_ambient_as_ambientOcclusion) {
+            _surface.ambientOcclusion = c.r;
+            if (use_ambient_intensity)
+                _surface.ambientOcclusion = saturate(mix(1.f, _surface.ambientOcclusion, scn_commonprofile.ambientIntensity));
+        } else {
+            _surface.ambient = c;
+            if (use_ambient_intensity)
+                _surface.ambient *= scn_commonprofile.ambientIntensity;
+        }
+    } else {
+        _surface.ambient = scn_commonprofile.ambientColor;
+    }
+    if (use_ambient && use_io_vertex_color)
+        _surface.ambient *= in.vertexColor;
+    if (use_ssao)
+        _surface.ambientOcclusion *= u_ssaoTexture.sample( linearSampler, in.fragmentPosition.xy * scn_frame.inverseResolution.xy ).x;
+    
+    if (use_diffuse_map) {
+        _surface.diffuse = u_diffuseTexture.sample(u_diffuseTextureSampler, _surface.diffuseTexcoord);
+        if (is_function_constant_defined(diffuse_texture_component))
+            _surface.diffuse = _surface.diffuse[diffuse_texture_component];
+        if (use_diffuse_intensity)
+            _surface.diffuse.rgb *= scn_commonprofile.diffuseIntensity;
+    } else {
+        _surface.diffuse = scn_commonprofile.diffuseColor;
+    }
+    if (use_diffuse && use_io_vertex_color) {
+        _surface.diffuse *= in.vertexColor;
+    }
+    
+    if (use_specular_map) {
+        _surface.specular = u_specularTexture.sample(u_specularTextureSampler, _surface.specularTexcoord);
+        if (is_function_constant_defined(specular_texture_component))
+            _surface.specular = _surface.specular[specular_texture_component];
+        if (use_specular_intensity)
+            _surface.specular *= scn_commonprofile.specularIntensity;
+    } else {
+        _surface.specular = scn_commonprofile.specularColor;
+    }
+
+    if (use_emission_map) {
+        _surface.emission = u_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+        if (is_function_constant_defined(emission_texture_component))
+            _surface.emission = float4(_surface.emission[emission_texture_component]);
+        if (use_emission_intensity)
+            _surface.emission *= scn_commonprofile.emissionIntensity;
+    } else {
+        _surface.emission = scn_commonprofile.emissionColor;
+    }
+
+    if (use_multiply_map) {
+        _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+        if (is_function_constant_defined(multiply_texture_component))
+            _surface.multiply = float4(_surface.multiply[multiply_texture_component]);
+        if (use_multiply_intensity)
+            _surface.multiply = mix(float4(1.f), _surface.multiply, scn_commonprofile.multiplyIntensity);
+    } else {
+        _surface.multiply = scn_commonprofile.multiplyColor;
+    }
+    
+    if (use_transparent_map) {
+        _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+        if (is_function_constant_defined(transparent_texture_component))
+            _surface.transparent = float4(_surface.transparent[transparent_texture_component]);
+        if (use_transparent_intensity)
+            _surface.transparent *= scn_commonprofile.transparentIntensity;
+    } else {
+        _surface.transparent = scn_commonprofile.transparentColor;
+    }
+
+    if (use_metalness_map) {
+        float4 c = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord);
+        if (is_function_constant_defined(metalness_texture_component))
+            _surface.metalness = c[metalness_texture_component];
+        else 
+            _surface.metalness = c.r;
+        if (use_metalness_intensity)
+            _surface.metalness *= scn_commonprofile.metalnessIntensity;
+    } else {
+        _surface.metalness = scn_commonprofile.metalness;
+    }
+    
+    if (use_roughness_map) {
+        float4 c = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+        if (is_function_constant_defined(roughness_texture_component))
+            _surface.roughness = c[roughness_texture_component];
+        else 
+            _surface.roughness = c.r;
+        if (use_roughness_intensity)
+            _surface.roughness *= scn_commonprofile.roughnessIntensity;
+    } else {
+        _surface.roughness = scn_commonprofile.roughness;
+    }
+    
+    
+    if (use_io_normal) {
+        if (use_double_sided)
+            _surface.geometryNormal = normalize(in.normal.xyz) * (in.normal.z >= 0.f ? 1.f :(long long)arg1 -1.f );
+        else
+            _surface.geometryNormal = normalize(in.normal.xyz);
+        _surface.normal = _surface.geometryNormal;
+    }
+    if (need_tangent) {
+        _surface.tangent = in.tangent;
+        _surface.bitangent = in.bitangent;
+    }
+    if (use_io_position)
+        _surface.position = in.position;
+    if (use_io_view)
+        _surface.view = normalize(-in.position);
+
+    if (use_normal_map) {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        if (is_function_constant_defined(normal_texture_component)) { 
+            _surface._normalTS.xy = _surface._normalTS.xy * 2.f - 1.f;
+            _surface._normalTS.z = sqrt(1 - length_squared(_surface._normalTS.xy));
+        } else {
+            _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+        }
+        if (use_normal_intensity)
+            _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+        
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+    } else {
+        _surface._normalTS = float3(0.f);
+    }
+    
+    if (use_reflective_map) {
+        
+        float3 refl = reflect( -_surface.view, _surface.normal );
+        float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + scn::sq(refl.z + 1.f));
+        _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else if (use_reflectivecube_map) {
+    
+        float3 refl = reflect( _surface.position, _surface.normal );
+        _surface.reflective = u_reflectiveCubeTexture.sample(u_reflectiveCubeTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else {
+        _surface.reflective = scn_commonprofile.reflectiveColor;
+    }
+    
+    if (use_fresnel) {
+        _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+        _surface.reflective *= _surface.fresnel;
+    }
+    _surface.shininess = scn_commonprofile.materialShininess;
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+
+    SCNShaderLightingContribution _lightingContribution = {0};
+    if (use_ambient_lighting)
+        _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+    
+    if (use_lighting) {
+        if (use_per_pixel_lighting) {
+            _lightingContribution.diffuse = float3(0.f);
+            if (use_modulate_lighting)
+                _lightingContribution.modulate = float3(1.f);
+            if (use_specular)
+                _lightingContribution.specular = float3(0.f);
+            
+            if (is_function_constant_defined(use_light0)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light0;
+                params.lightData = scn_lights[ in_node.lightIndices[0] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow0) scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+ /* Error: Ran out of types for this method. */;
+- (void)ragma declaration;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,74 +415,12 @@
 - (void)stop nonce request for key identifier '%{public}@';
 - (void)lic}@ Failed to read message store data. err=%{public}@;
 - (void)y failed with error:(id)arg1 %{public}@;
-- (void)tamp;
+- (void)eventDateTimestamp;
 - (void)v©DcQ¼Ö;	ä­@rõ*Ç¹Tfá>ÓwE¨Â/ð
 çÕ8R¿`)Äöq®C=ÐâeºWóÁ,F«to°]7ÚèL¡~ùË&Xµj;
 
 // Remaining properties
-@property(nonatomic, getter=isSBEnabled) _Bool SBEnabled; // @dynamic SBEnabled;
-@property(nonatomic) long long audioQualityPreference; // @dynamic audioQualityPreference;
-@property(nonatomic) long long autoPlayMode; // @dynamic autoPlayMode;
-@property(copy, nonatomic) NSArray *buildFeatures; // @dynamic buildFeatures;
-@property(copy, nonatomic) NSString *buildVersion; // @dynamic buildVersion;
-@property(nonatomic, getter=isCollaborativePlaylist) _Bool collaborativePlaylist; // @dynamic collaborativePlaylist;
-@property(copy, nonatomic) NSString *containerID; // @dynamic containerID;
-@property(copy, nonatomic) ICPlayActivityEventContainerIDs *containerIDs; // @dynamic containerIDs;
-@property(nonatomic) long long containerType; // @dynamic containerType;
-@property(nonatomic, getter=isContinuityCameraUsed) _Bool continuityCameraUsed; // @dynamic continuityCameraUsed;
-@property(nonatomic, getter=isContinuityMicrophoneUsed) _Bool continuityMicrophoneUsed; // @dynamic continuityMicrophoneUsed;
-@property(copy, nonatomic) NSString *deviceName; // @dynamic deviceName;
-@property(nonatomic, getter=isDisplayTranslationEnabled) _Bool displayTranslationEnabled; // @dynamic displayTranslationEnabled;
-@property(nonatomic, getter=isDisplayTransliterationEnabled) _Bool displayTransliterationEnabled; // @dynamic displayTransliterationEnabled;
-@property(nonatomic) long long displayType; // @dynamic displayType;
-@property(nonatomic) long long endReasonType; // @dynamic endReasonType;
-@property(copy, nonatomic) ICPlayActivityEnqueuerProperties *enqueuerProperties; // @dynamic enqueuerProperties;
-@property(copy, nonatomic) NSDate *eventDate; // @dynamic eventDate;
-@property(copy, nonatomic) NSTimeZone *eventTimeZone; // @dynamic eventTimeZone;
-@property(nonatomic) long long eventType; // @dynamic eventType;
-@property(copy, nonatomic) NSString *externalID; // @dynamic externalID;
-@property(copy, nonatomic) NSString *featureName; // @dynamic featureName;
-@property(copy, nonatomic) NSString *householdID; // @dynamic householdID;
-@property(nonatomic, getter=isInternalBuild) _Bool internalBuild; // @dynamic internalBuild;
-@property(nonatomic) double itemDuration; // @dynamic itemDuration;
-@property(nonatomic) double itemEndTime; // @dynamic itemEndTime;
-@property(copy, nonatomic) ICPlayActivityEventItemIDs *itemIDs; // @dynamic itemIDs;
-@property(nonatomic) double itemStartTime; // @dynamic itemStartTime;
-@property(nonatomic) long long itemType; // @dynamic itemType;
-@property(nonatomic) unsigned long long lyricsDisplayedCharacterCount; // @dynamic lyricsDisplayedCharacterCount;
-@property(copy, nonatomic) NSString *lyricsLanguage; // @dynamic lyricsLanguage;
-@property(nonatomic) long long mediaType; // @dynamic mediaType;
-@property(nonatomic, getter=isOffline) _Bool offline; // @dynamic offline;
 @property(nonatomic) long long persistentID; // @dynamic persistentID;
-@property(copy, nonatomic) NSString *personalizedContainerID; // @dynamic personalizedContainerID;
-@property(nonatomic) long long playbackFormatPreference; // @dynamic playbackFormatPreference;
-@property(copy, nonatomic, getter=isPrivateListeningEnabled) NSNumber *privateListeningEnabled; // @dynamic privateListeningEnabled;
-@property(copy, nonatomic) ICPlayActivityAudioQualityProperties *providedAudioQuality; // @dynamic providedAudioQuality;
-@property(copy, nonatomic) NSString *queueGroupingID; // @dynamic queueGroupingID;
-@property(nonatomic) long long reasonHintType; // @dynamic reasonHintType;
-@property(copy, nonatomic) NSData *recommendationData; // @dynamic recommendationData;
-@property(nonatomic) long long repeatPlayMode; // @dynamic repeatPlayMode;
-@property(copy, nonatomic) NSString *requestingBundleIdentifier; // @dynamic requestingBundleIdentifier;
-@property(copy, nonatomic) NSString *requestingBundleVersion; // @dynamic requestingBundleVersion;
-@property(nonatomic) unsigned long long sharedActivityGroupSizeCurrent; // @dynamic sharedActivityGroupSizeCurrent;
-@property(nonatomic) unsigned long long sharedActivityGroupSizeMax; // @dynamic sharedActivityGroupSizeMax;
-@property(nonatomic) long long sharedActivityType; // @dynamic sharedActivityType;
-@property(nonatomic) long long shufflePlayMode; // @dynamic shufflePlayMode;
-@property(copy, nonatomic, getter=isSiriInitiated) NSNumber *siriInitiated; // @dynamic siriInitiated;
-@property(nonatomic) long long sourceType; // @dynamic sourceType;
-@property(nonatomic) unsigned long long storeAccountID; // @dynamic storeAccountID;
-@property(copy, nonatomic) NSString *storeFrontID; // @dynamic storeFrontID;
-@property(copy, nonatomic) NSString *storeID; // @dynamic storeID;
-@property(nonatomic) long long systemReleaseType; // @dynamic systemReleaseType;
-@property(copy, nonatomic) ICPlayActivityAudioQualityProperties *targetedAudioQuality; // @dynamic targetedAudioQuality;
-@property(copy, nonatomic) NSData *timedMetadata; // @dynamic timedMetadata;
-@property(copy, nonatomic) NSData *trackInfo; // @dynamic trackInfo;
-@property(nonatomic) long long transitionTypeProvided; // @dynamic transitionTypeProvided;
-@property(nonatomic) long long userTransitionTypePreference; // @dynamic userTransitionTypePreference;
-@property(nonatomic) long long version; // @dynamic version;
-@property(nonatomic) long long vocalAttenuationAvailability; // @dynamic vocalAttenuationAvailability;
-@property(nonatomic) double vocalAttenuationDuration; // @dynamic vocalAttenuationDuration;
-@property(nonatomic) double wallClockPlayDuration; // @dynamic wallClockPlayDuration;
 
 @end
 

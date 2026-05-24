@@ -5,6 +5,7 @@
 //
 
 @protocol AFAudioSessionCoordinationSystemInfoMutating
+- (void);
 - (void)ing"16@?<v@?B>24;
 @end
 

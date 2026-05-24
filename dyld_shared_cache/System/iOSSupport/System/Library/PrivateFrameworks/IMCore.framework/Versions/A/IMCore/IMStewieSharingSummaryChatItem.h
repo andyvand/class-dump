@@ -11,7 +11,6 @@
 @interface IMStewieSharingSummaryChatItem : IMTranscriptChatItem
 {
     IMHandle *_handle;
-    IMChat *_chat;
 }
 
 

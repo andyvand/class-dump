@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, HMDCameraVideoTier, NSArray, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraVideoTierParameters
 {
     NSDictionary *_videoTierCombinations;
-    NSArray *_tierOrder;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    HMDCameraVideoTier *_currentPickedTier;
-    long long _maximumQuality;
-    unsigned long long _streamingTierType;
 }
 
 + (_Bool)¬#á;
 + (id)q;
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)SPSharedTripRelay"16@"NSData"24@"NSDictionary"32@"NSString"40;
+- (void)sharedFetcher;
+- (void)shareWithContactValue:(id)arg1 queue:completion: /* Error: Ran out of types for this method. */;
+- (id)initWithIDSService:capabilityType:delegate:queue:label: /* Error: Ran out of types for this method. */;
+- (unsigned long long)contactsFromVirtualReceiverHandles: /* Error: Ran out of types for this method. */;
+- (id)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
+- (void)ay",&,N,V_liveStrategyIdentifiers;
+- (void)tify delegate, %lfs remaining until permitted;
+- (void)?0@"NSNotification"8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
+- (void)C;
 - (void);
-- (void);
-- (long long);
+- (long long)@0:8AQ16 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)
 × ;
-- (void)LEEP_SCHEDULE_END;
+- (void)CLIMATE_BULLETIN_TITLE_SLEEP_SCHEDULE_END;
 
 // Remaining properties
-@property(retain, nonatomic) HMDCameraVideoTier *currentPickedTier; // @synthesize currentPickedTier=_currentPickedTier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long maximumQuality; // @synthesize maximumQuality=_maximumQuality;
-@property(readonly, nonatomic) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly, nonatomic) unsigned long long streamingTierType; // @synthesize streamingTierType=_streamingTierType;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSArray *tierOrder; // @synthesize tierOrder=_tierOrder;
-@property(readonly, nonatomic) NSDictionary *videoTierCombinations; // @synthesize videoTierCombinations=_videoTierCombinations;
 
 @end
 

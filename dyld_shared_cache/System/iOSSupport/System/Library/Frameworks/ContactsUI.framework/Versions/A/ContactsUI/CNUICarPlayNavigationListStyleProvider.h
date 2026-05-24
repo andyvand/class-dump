@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (double);
@@ -22,18 +22,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double);
-- (id);
-- (id);
-- (double);
-- (id);
+- (id);
 - (id);
 - (double);
+- (id);
+- (id);
+- (double));
+- (id)Q1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)EB640D5F51DAD6AB600DEB05B645CNContactHeaderQuickActionsControllerObserver;
+- (id)_TtC10ContactsUIP33_3062C0EB640D5F51DAD6AB600DEB05B645CNContactHeaderQuickActionsControllerObserver;
 
 @end
 

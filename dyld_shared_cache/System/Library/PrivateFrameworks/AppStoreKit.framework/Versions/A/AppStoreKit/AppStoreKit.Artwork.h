@@ -7,18 +7,6 @@
 @interface AppStoreKit.Artwork
 {
     id template;
-    id size;
-    id backgroundColor;
-    id backgroundGradientColor;
-    id style;
-    id crop;
-    id cropAspectRatio;
-    id contentMode;
-    id imageScale;
-    id variants;
-    id id;
-    id segue;
-    id impressionMetrics;
 }
 
 @end

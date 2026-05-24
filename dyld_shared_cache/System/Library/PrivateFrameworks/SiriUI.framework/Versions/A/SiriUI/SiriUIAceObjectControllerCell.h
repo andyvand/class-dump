@@ -6,15 +6,11 @@
 
 #import <SiriUI/SiriUIClearBackgroundCell.h>
 
-@class NSString, NSView, SiriUIAceObjectViewController;
+@class NSView, SiriUIAceObjectViewController;
 
 @interface SiriUIAceObjectControllerCell : SiriUIClearBackgroundCell
 {
     NSView *_animationView;
-    SiriUIAceObjectViewController *_aceViewController;
-    long long _insertionAnimationType;
-    long long _replacementAnimationType;
-    NSView *_replacedView;
 }
 
 + (id);
@@ -46,16 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SiriUIAceObjectViewController *aceViewController; // @synthesize aceViewController=_aceViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long insertionAnimationType; // @synthesize insertionAnimationType=_insertionAnimationType;
-@property(retain, nonatomic) NSView *replacedView; // @synthesize replacedView=_replacedView;
-@property(nonatomic) long long replacementAnimationType; // @synthesize replacementAnimationType=_replacementAnimationType;
-@property(readonly) Class superclass;
 
 @end
 

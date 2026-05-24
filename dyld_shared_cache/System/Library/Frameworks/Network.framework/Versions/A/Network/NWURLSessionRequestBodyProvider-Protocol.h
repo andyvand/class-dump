@@ -5,6 +5,7 @@
 //
 
 @protocol NWURLSessionRequestBodyProvider
+- (void);
 - (long long).Aa;
 
 // Remaining properties

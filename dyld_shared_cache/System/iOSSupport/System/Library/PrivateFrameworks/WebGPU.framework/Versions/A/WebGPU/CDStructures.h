@@ -31,23 +31,23 @@ struct OptionSet<WebGPU::BindGroupEntryUsage, WTF::ConcurrencyTag::None> {
 };
 
 struct RefPtr<WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>, WTF::DefaultRefDerefTraits<WTF::DefaultWeakPtrImpl>> {
-    struct DefaultWeakPtrImpl *m_ptr;
+    struct DefaultWeakPtrImpl *_field1;
 };
 
 struct RefPtr<WebGPU::Buffer, WTF::RawPtrTraits<WebGPU::Buffer>, WTF::DefaultRefDerefTraits<WebGPU::Buffer>> {
-    struct Buffer *m_ptr;
+    struct Buffer *_field1;
 };
 
 struct RefPtr<const WebGPU::ExternalTexture, WTF::RawPtrTraits<const WebGPU::ExternalTexture>, WTF::DefaultRefDerefTraits<const WebGPU::ExternalTexture>> {
-    struct ExternalTexture *m_ptr;
+    struct ExternalTexture *_field1;
 };
 
 struct RefPtr<const WebGPU::Texture, WTF::RawPtrTraits<const WebGPU::Texture>, WTF::DefaultRefDerefTraits<const WebGPU::Texture>> {
-    struct Texture *m_ptr;
+    struct Texture *_field1;
 };
 
 struct RefPtr<const WebGPU::TextureView, WTF::RawPtrTraits<const WebGPU::TextureView>, WTF::DefaultRefDerefTraits<const WebGPU::TextureView>> {
-    struct TextureView *m_ptr;
+    struct TextureView *_field1;
 };
 
 struct Texture;
@@ -61,32 +61,37 @@ struct Vector<WebGPU::BindableResources, 0UL, WTF::CrashOnOverflow, 16UL, WTF::F
 };
 
 struct WeakPtr<WebGPU::RenderPipeline, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> {
-    struct RefPtr<WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>, WTF::DefaultRefDerefTraits<WTF::DefaultWeakPtrImpl>> m_impl;
+    struct RefPtr<WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>, WTF::DefaultRefDerefTraits<WTF::DefaultWeakPtrImpl>> _field1;
+};
+
+struct _NSRange {
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct alt<0UL, WTF::RefPtr<WebGPU::Buffer>> {
-    struct RefPtr<WebGPU::Buffer, WTF::RawPtrTraits<WebGPU::Buffer>, WTF::DefaultRefDerefTraits<WebGPU::Buffer>> value;
+    struct RefPtr<WebGPU::Buffer, WTF::RawPtrTraits<WebGPU::Buffer>, WTF::DefaultRefDerefTraits<WebGPU::Buffer>> _field1;
 };
 
 struct alt<1UL, WTF::RefPtr<const WebGPU::Texture>> {
-    struct RefPtr<const WebGPU::Texture, WTF::RawPtrTraits<const WebGPU::Texture>, WTF::DefaultRefDerefTraits<const WebGPU::Texture>> value;
+    struct RefPtr<const WebGPU::Texture, WTF::RawPtrTraits<const WebGPU::Texture>, WTF::DefaultRefDerefTraits<const WebGPU::Texture>> _field1;
 };
 
 struct alt<2UL, WTF::RefPtr<const WebGPU::TextureView>> {
-    struct RefPtr<const WebGPU::TextureView, WTF::RawPtrTraits<const WebGPU::TextureView>, WTF::DefaultRefDerefTraits<const WebGPU::TextureView>> value;
+    struct RefPtr<const WebGPU::TextureView, WTF::RawPtrTraits<const WebGPU::TextureView>, WTF::DefaultRefDerefTraits<const WebGPU::TextureView>> _field1;
 };
 
 struct alt<3UL, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    struct RefPtr<const WebGPU::ExternalTexture, WTF::RawPtrTraits<const WebGPU::ExternalTexture>, WTF::DefaultRefDerefTraits<const WebGPU::ExternalTexture>> value;
+    struct RefPtr<const WebGPU::ExternalTexture, WTF::RawPtrTraits<const WebGPU::ExternalTexture>, WTF::DefaultRefDerefTraits<const WebGPU::ExternalTexture>> _field1;
 };
 
 struct impl<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    union recursive_union<mpark::detail::Trait::Available, 0UL, WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> data_;
-    unsigned char index_;
+    union recursive_union<mpark::detail::Trait::Available, 0UL, WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> _field1;
+    unsigned char _field2;
 };
 
 struct variant<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    struct impl<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> impl_;
+    struct impl<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> _field1;
 };
 
 #pragma mark Typedef'd Structures
@@ -103,11 +108,11 @@ typedef struct {
 } CDStruct_34f00414;
 
 typedef struct {
-    double red;
-    double green;
-    double blue;
-    double alpha;
-} CDStruct_3ead2808;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_d2b197d1;
 
 // Template types
 typedef struct OptionSet<WebGPU::BindGroupEntryUsage, WTF::ConcurrencyTag::None> {
@@ -115,37 +120,37 @@ typedef struct OptionSet<WebGPU::BindGroupEntryUsage, WTF::ConcurrencyTag::None>
 } OptionSet_5fe9ad94;
 
 typedef struct WeakPtr<WebGPU::RenderPipeline, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> {
-    struct RefPtr<WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>, WTF::DefaultRefDerefTraits<WTF::DefaultWeakPtrImpl>> m_impl;
-} WeakPtr_feba35c9;
+    struct RefPtr<WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>, WTF::DefaultRefDerefTraits<WTF::DefaultWeakPtrImpl>> _field1;
+} WeakPtr_655d8171;
 
 typedef struct variant<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    struct impl<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> impl_;
-} variant_7329a776;
+    struct impl<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> _field1;
+} variant_0ee71da9;
 
 #pragma mark Named Unions
 
 union recursive_union<mpark::detail::Trait::Available, 0UL, WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    char dummy_;
-    struct alt<0UL, WTF::RefPtr<WebGPU::Buffer>> head_;
-    union recursive_union<mpark::detail::Trait::Available, 1UL, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> tail_;
+    char _field1;
+    struct alt<0UL, WTF::RefPtr<WebGPU::Buffer>> _field2;
+    union recursive_union<mpark::detail::Trait::Available, 1UL, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> _field3;
 };
 
 union recursive_union<mpark::detail::Trait::Available, 1UL, WTF::RefPtr<const WebGPU::Texture>, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    char dummy_;
-    struct alt<1UL, WTF::RefPtr<const WebGPU::Texture>> head_;
-    union recursive_union<mpark::detail::Trait::Available, 2UL, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> tail_;
+    char _field1;
+    struct alt<1UL, WTF::RefPtr<const WebGPU::Texture>> _field2;
+    union recursive_union<mpark::detail::Trait::Available, 2UL, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> _field3;
 };
 
 union recursive_union<mpark::detail::Trait::Available, 2UL, WTF::RefPtr<const WebGPU::TextureView>, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    char dummy_;
-    struct alt<2UL, WTF::RefPtr<const WebGPU::TextureView>> head_;
-    union recursive_union<mpark::detail::Trait::Available, 3UL, WTF::RefPtr<const WebGPU::ExternalTexture>> tail_;
+    char _field1;
+    struct alt<2UL, WTF::RefPtr<const WebGPU::TextureView>> _field2;
+    union recursive_union<mpark::detail::Trait::Available, 3UL, WTF::RefPtr<const WebGPU::ExternalTexture>> _field3;
 };
 
 union recursive_union<mpark::detail::Trait::Available, 3UL, WTF::RefPtr<const WebGPU::ExternalTexture>> {
-    char dummy_;
-    struct alt<3UL, WTF::RefPtr<const WebGPU::ExternalTexture>> head_;
-    union recursive_union<mpark::detail::Trait::Available, 4UL> tail_;
+    char _field1;
+    struct alt<3UL, WTF::RefPtr<const WebGPU::ExternalTexture>> _field2;
+    union recursive_union<mpark::detail::Trait::Available, 4UL> _field3;
 };
 
 union recursive_union<mpark::detail::Trait::Available, 4UL>;

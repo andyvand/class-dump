@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void)indexDependentTokenRewritesWithMatchInfo:(id)arg1 topK:setOfTokensToCorrect:queryID:bundleIds:clientBundleId: /* Error: Ran out of types for this method. */;
+- (void)_indexDependentTokenRewritesWithMatchInfo:(id)arg1 topK:setOfTokensToCorrect:queryID:bundleIds:clientBundleId: /* Error: Ran out of types for this method. */;
 - (id)resImport missing:ContentType:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -18,10 +18,11 @@
 + (id);
 + (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)nameWithoutQuality;
+- (void)stant
+;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *eventmessageEcho; // @synthesize eventmessageEcho=_eventmessageEcho;

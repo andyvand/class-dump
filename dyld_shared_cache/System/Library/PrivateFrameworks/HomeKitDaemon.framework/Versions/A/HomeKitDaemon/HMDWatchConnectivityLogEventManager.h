@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDWatchConnectivityLogEventManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasCompleteReport;
-    unsigned long long _watchAddedNotificationCountForCurrentIncompleteReport;
-    unsigned long long _watchRemovedNotificationCountForCurrentIncompleteReport;
-    unsigned long long _watchAddedNotificationCountForLastCompleteReport;
-    unsigned long long _watchRemovedNotificationCountForLastCompleteReport;
-    HMFTimer *_watchConnectivityLogEventManagerTimer;
 }
 
 + (id)wÝ<ã=;
@@ -30,29 +22,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct HMDWatchConnectivityLogEventManagerSnapshot);
-- (void);
+- (void)_userInfo;
+- (void)_updatedObject;
+- (_Bool)_endCoalescingEditsForContext: /* Error: Ran out of types for this method. */;
+- (struct HMDWatchConnectivityLogEventManagerSnapshot)handleValue;
+- (void)Lp;
 - (id);
 - (void)ublic key :(id)arg1 [%@ / %@];
 - (void)dioSampleRateType %tu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasCompleteReport; // @synthesize hasCompleteReport=_hasCompleteReport;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long watchAddedNotificationCountForCurrentIncompleteReport; // @synthesize watchAddedNotificationCountForCurrentIncompleteReport=_watchAddedNotificationCountForCurrentIncompleteReport;
-@property(nonatomic) unsigned long long watchAddedNotificationCountForLastCompleteReport; // @synthesize watchAddedNotificationCountForLastCompleteReport=_watchAddedNotificationCountForLastCompleteReport;
-@property(retain, nonatomic) HMFTimer *watchConnectivityLogEventManagerTimer; // @synthesize watchConnectivityLogEventManagerTimer=_watchConnectivityLogEventManagerTimer;
-@property(nonatomic) unsigned long long watchRemovedNotificationCountForCurrentIncompleteReport; // @synthesize watchRemovedNotificationCountForCurrentIncompleteReport=_watchRemovedNotificationCountForCurrentIncompleteReport;
-@property(nonatomic) unsigned long long watchRemovedNotificationCountForLastCompleteReport; // @synthesize watchRemovedNotificationCountForLastCompleteReport=_watchRemovedNotificationCountForLastCompleteReport;
 
 @end
 

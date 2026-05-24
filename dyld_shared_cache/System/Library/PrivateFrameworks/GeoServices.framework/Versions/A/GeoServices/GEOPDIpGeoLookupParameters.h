@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDIpGeoLookupParameters
 {
     PBUnknownFields *_unknownFields;
-    NSString *_ipAddress;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)tchMerchantLookupBrandParameters";
-- (id)d;
+- (id)_everExpanded;
 - (id)Ôó;
 - (void)q=
 ×£p	@Ház®7z@;

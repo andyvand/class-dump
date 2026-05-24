@@ -7,9 +7,6 @@
 @interface NewsFeed.WebEmbedDataSourceService
 {
     id appConfigurationManager;
-    id resourceService;
-    id fetchDeduper;
-    id _cache;
 }
 
 @end

@@ -9,31 +9,6 @@
 @interface SwiftUI.AppKitOutlineTableCoordinator : SwiftUI.PlatformViewCoordinator
 {
     id dataSource;
-    id selection;
-    id sortOrder;
-    id columnCustomization;
-    id transaction;
-    id lastEnvironment;
-    id acceptedDragTypes;
-    id selectionStorage;
-    id preferenceBridge;
-    id clientBackgroundColor;
-    id headersVisibility;
-    id headerBezelVisibility;
-    id defaultMinRowHeight;
-    id installObservation;
-    id dragConfiguration;
-    id supplementaryDragConfiguration;
-    id dropController;
-    id tableView;
-    id selectionGuardReason;
-    id subviewSizingOptions;
-    id subviewUniformHeight;
-    id isUpdatingTableColumns;
-    id rootItem;
-    id isDragSource;
-    id typeSelectHosts;
-    id appIntentsDataSourcePayloadProvider;
 }
 
 - (void);
@@ -50,17 +25,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)s;
 - (id);
 - (id);
-- (long long);
+- (long long);
+- (_Bool)!q!;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)	kA;
 - (_Bool);
 - (id);
 - (void);

@@ -7,6 +7,8 @@
 @class UIImage;
 
 @protocol TSSharedImageCacheType
+- (void)getAllServerRecs;
+- (void)r saving reference-to-membership zone:(double)arg1 %@;
 - (UIImage *)eP;
 @end
 

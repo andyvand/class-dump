@@ -7,7 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.FaceTimeSection.ActionHandlers
 {
     id joinButtonPressed;
-    id leaveButtonPressed;
 }
 
 - (id);

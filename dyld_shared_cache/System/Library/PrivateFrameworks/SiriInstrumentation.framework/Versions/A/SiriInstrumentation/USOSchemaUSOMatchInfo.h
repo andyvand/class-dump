@@ -6,31 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface USOSchemaUSOMatchInfo : SISchemaInstrumentationMessage
 {
     unsigned int _matchSignalBitset;
-    float _matchScore;
-    unsigned int _maxTokenCount;
-    unsigned int _matchedTokenCount;
-    unsigned int _maxStopWordCount;
-    unsigned int _matchedStopWordCount;
-    unsigned int _editDistance;
-    unsigned int _maxAliasCount;
-    unsigned int _matchedAliasCount;
-    NSArray *_matchedAliasTypes;
-    struct {
-        unsigned int matchSignalBitset:1;
-        unsigned int matchScore:1;
-        unsigned int maxTokenCount:1;
-        unsigned int matchedTokenCount:1;
-        unsigned int maxStopWordCount:1;
-        unsigned int matchedStopWordCount:1;
-        unsigned int editDistance:1;
-        unsigned int maxAliasCount:1;
-        unsigned int matchedAliasCount:1;
-    } _has;
 }
 
 - (void);
@@ -42,11 +20,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +34,7 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
 - (int);
 - (id);
@@ -69,7 +47,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (unsigned int);
 - (void);
 - (void);
@@ -88,35 +66,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_mergeAndLinkCommand;
+- (_Bool)ID) FROM   message m INNER JOIN chat_message_join   cm ON m.ROWID = cm.message_id WHERE   cm.chat_id = ?   AND m.item_type == 0   AND m.is_read == 0   AND m.is_from_me == 0 ;
 - (id);
 - (id);
-- (id)se;
-- (id);
-- (void)IENT_EVENT;
+- (id)deleteSportsUsecase;
+- (id)_numberOfContactSuggestionsGenerated;
+- (void)SR_CLIENT_EVENT;
 
 // Remaining properties
-@property(nonatomic) unsigned int editDistance; // @synthesize editDistance=_editDistance;
-@property(nonatomic) _Bool hasEditDistance;
-@property(nonatomic) _Bool hasMatchScore;
-@property(nonatomic) _Bool hasMatchSignalBitset;
-@property(nonatomic) _Bool hasMatchedAliasCount;
-@property(nonatomic) _Bool hasMatchedStopWordCount;
-@property(nonatomic) _Bool hasMatchedTokenCount;
-@property(nonatomic) _Bool hasMaxAliasCount;
-@property(nonatomic) _Bool hasMaxStopWordCount;
-@property(nonatomic) _Bool hasMaxTokenCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float matchScore; // @synthesize matchScore=_matchScore;
 @property(nonatomic) unsigned int matchSignalBitset; // @synthesize matchSignalBitset=_matchSignalBitset;
-@property(nonatomic) unsigned int matchedAliasCount; // @synthesize matchedAliasCount=_matchedAliasCount;
-@property(copy, nonatomic) NSArray *matchedAliasTypes; // @synthesize matchedAliasTypes=_matchedAliasTypes;
-@property(nonatomic) unsigned int matchedStopWordCount; // @synthesize matchedStopWordCount=_matchedStopWordCount;
-@property(nonatomic) unsigned int matchedTokenCount; // @synthesize matchedTokenCount=_matchedTokenCount;
-@property(nonatomic) unsigned int maxAliasCount; // @synthesize maxAliasCount=_maxAliasCount;
-@property(nonatomic) unsigned int maxStopWordCount; // @synthesize maxStopWordCount=_maxStopWordCount;
-@property(nonatomic) unsigned int maxTokenCount; // @synthesize maxTokenCount=_maxTokenCount;
 
 @end
 

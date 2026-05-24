@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (void);
-- (void)a;
+- (void)WBSPrivacyReportData;
 
 @end
 

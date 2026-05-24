@@ -10,7 +10,6 @@
 @interface SIRINLUSystemOffered
 {
     NSString *renderedText;
-    id <SIRINLUUserDialogAct> _offeredAct;
 }
 
 + (_Bool);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <SIRINLUUserDialogAct> offeredAct; // @synthesize offeredAct=_offeredAct;
-@property(retain, nonatomic) NSString *renderedText; // @synthesize renderedText;
 
 @end
 

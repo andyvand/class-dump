@@ -7,13 +7,9 @@
 @interface MPSCPUAccelerationStructure
 {
     void *_bvh;
-    unsigned long long _branchingFactor;
-    struct _MPSAxisAlignedBoundingBox _boundingBox;
-    _Bool _instancing;
-    _Bool _identityTransforms;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -21,7 +17,7 @@
 - (unsigned long long);
 - (void);
 - (struct _MPSAxisAlignedBoundingBox);
-- (id);
+- (id)h;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _MPSAxisAlignedBoundingBox boundingBox;

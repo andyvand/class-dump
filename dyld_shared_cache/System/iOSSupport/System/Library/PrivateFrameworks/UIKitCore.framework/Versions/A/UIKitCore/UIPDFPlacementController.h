@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface UIPDFPlacementController
 {
     NSMutableArray *_popups;
-    struct CGSize _viewSize;
-    UIPDFPageView *pageView;
 }
 
-- (double);
+- (double)ring",&,N,V_handleID;
 - (void);
 - (void);
-- (void);
+- (void)tate:(double)arg1 %@;
+- (id)domain %@ to chat with guid %@ as a historical identifier;
+- (struct CGRect)IDS Devices changed:(unsigned long long)arg1 %@ on Service:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGRect);
 - (id);
-- (id);
-- (void);
+- (void)_payloadAllowUIAppInstallation;
 
 // Remaining properties
 @property(nonatomic) UIPDFPageView *pageView; // @synthesize pageView;

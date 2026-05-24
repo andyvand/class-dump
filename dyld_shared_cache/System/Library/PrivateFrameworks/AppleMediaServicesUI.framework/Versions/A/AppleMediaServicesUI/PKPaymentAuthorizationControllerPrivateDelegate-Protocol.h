@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, PKAuthorizedPeerPaymentQuote, PKPaymentAuthorizationController;
+
 @protocol PKPaymentAuthorizationControllerPrivateDelegate
+
+@optional
+- (NSString *)ry;
+- (NSString *)PLStickerSuggestionPeopleDistractorDominantSceneAreaMaxThreshold;
+- (void)%K != %d;
+- (void)designatedRequirement;
+- (void)PLLimitedLibraryFetchFiltersUpdatedNotificationApplicationIdentifier;
+- (void)SDictionary"16;
+- (void)cePruneManager _localResourcesSize];
+- (void)esourcesForPruningWithBudget:(PKPaymentAuthorizationController *)arg1 urgency:(PKAuthorizedPeerPaymentQuote *)arg2 batchHandler:(void (^)(PKPaymentAuthorizationResult *))arg3 ];
+- (void)get:(PKPaymentAuthorizationController *)arg1 urgency:(void (^)(PKPaymentAuthorizationResult *))arg2 completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)CACHE_DELETE_URGENCY;
+- (void)Current state of _bundlesToProcessByCriteriaShortCode:(PKPaymentAuthorizationController *)arg1;
 @end
 

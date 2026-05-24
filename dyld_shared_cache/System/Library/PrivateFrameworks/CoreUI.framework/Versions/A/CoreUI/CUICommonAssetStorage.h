@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSSet;
-
 @interface CUICommonAssetStorage
 {
     struct _carheader *_header;
-    struct _carextendedMetadata *_extendedMetadata;
-    struct _renditionkeyfmt *_keyfmt;
-    void *_imagedb;
-    void *_colordb;
-    void *_fontdb;
-    void *_fontsizedb;
-    void *_facetKeysdb;
-    void *_bitmapKeydb;
-    void *_appearancedb;
-    void *_localizationdb;
-    NSData *_globals;
-    unsigned int _thinnedWithCoreUIVersion;
-    unsigned int _swap:1;
-    unsigned int _isMemoryMapped:1;
-    unsigned int _hasAppearanceKey:1;
-    unsigned int _hasLocalizationKey:1;
-    unsigned int _reserved:28;
-    NSSet *_externalTags;
-    unsigned short _renditionInfoCacheLookup[20];
-    id _renditionInfoCache[20];
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _renditionInfoCacheLock;
-    struct _renditionkeyattributeindex _keyfmtindex;
-    NSDictionary *_appearances;
-    NSDictionary *_facetValueNameDict;
 }
 
 + (_Bool);
@@ -44,12 +17,12 @@
 - (id);
 - (id);
 - (void);
-- (struct os_unfair_lock_s *);
+- (struct os_unfair_lock_s *)H;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (unsigned int);
+- (unsigned int),;
 - (void);
 - (id);
 - (void);
@@ -65,7 +38,7 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (int);
@@ -81,28 +54,45 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)unboostFilePresenterForItemIdentifiers:reply: /* Error: Ran out of types for this method. */;
+- (void)0a,bxc;
 - (void);
 - (_Bool);
 - (id);
 - (const struct FontValue *);
 - (void *);
 - (id);
-- (void *);
+- (void *)deltaMetadataVectorsFromPDistributedTimestamps:error: /* Error: Ran out of types for this method. */;
+- (void)ntPropertyOverrides;
+- (void *)tributedTimestampsVersionVector",&,N,V_previousVector;
+- (id)CKAssetUploadRequestMetadata;
+- (id);
 - (void);
-- (void *);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)tLocalizationKey -> "%@
+	alertLocalizationArgs -> %@
+	title -> %@
+	titleLocalizationKey -> "%@
+	titleLocalizationArgs -> %@
+	subtitle -> %@
+	subtitleLocalizationKey -> "%@
+	subtitleLocalizationArgs -> %@
+	alertActionLocalizationKey -> %@
+	alertLaunchImage -> %@
+	soundName -> %@
+	desiredKeys -> %@
+	shouldBadge -> %@
+	shouldSendContentAvailable -> %@
+	shouldSendMutableContent -> %@
+	category -> %@
+	collapseIDKey -> %@
+;
+- (_Bool)governingShare;
 - (long long);
 - (struct _renditionkeyfmt *);
-- (void *);
+- (void *)@;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -119,27 +109,42 @@
 - (void);
 - (const struct _renditionkeyfmt *);
 - (id);
-- (void);
+- (void)MAD weightTB.y, side.w, weightsCb.w, weightTB;
+TEX sample00, fragment.texcoord[1], texture[0], RECT;
+TEX sample10, fragment.texcoord[2], texture[0], RECT;
+TEX sampleY0, fragment.texcoord[0], texture[0], RECT;
+TEX sample01, fragment.texcoord[3], texture[0], RECT;
+TEX sample11, fragment.texcoord[4], texture[0], RECT;
+LRP sampleY0, side.xxxx, sampleY0.xxxx, sampleY0.zzzz;
+LRP midSampleT, weightLR, sample10.yyww, sample00.yyww;
+LRP midSampleB, weightLR, sample11.yyww, sample01.yyww;
+LRP sampleY0.yz, weightTB, midSampleB, midSampleT;
+MOV sampleY0.x, 0.25;
+DPH result.color.r, sampleY0, program.local[0];
+DPH result.color.g, sampleY0, program.local[1];
+DPH result.color.b, sampleY0, program.local[2];
+MOV result.color.a, 1.0;
+END;
 - (id);
 - (const struct _renditionkeytoken *);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ctionaryOfVariableBindings failed because either one of the values is nil, or there's something wrong with the way the macro is being invoked.  Cannot assign value nil for key "%@". Keys:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (float);
-- (void);
-- (struct _renditionkeytoken);
+- (void)customWindowsToExitFullScreenForWindow:(void *)arg1;
+- (struct _renditionkeytoken)Marshal addChildWindow:(struct _renditionkeytoken)arg1 ordered:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (struct os_unfair_lock_s *);
-- (const char *);
+- (const char *)A;
 - (const char *);
 - (void)× ;
 - (id)ons=[4d]dddddddddd}40@0:8^{CGColor=}16d24d32 /* Error: Ran out of types for this method. */;
 - (int)6d32;
-- (unsigned int)meLayer: /* Error: Ran out of types for this method. */;
-- (void *)r: /* Error: Ran out of types for this method. */;
+- (unsigned int)setThemeLayer: /* Error: Ran out of types for this method. */;
+- (void *)initWithLocation:leadInColor:leadOutColor: /* Error: Ran out of types for this method. */;
 - (id)Views;
 - (struct _carheader *);
 - (id);
@@ -147,20 +152,7 @@
 - (int)ÿ;
 
 // Remaining properties
-@property(nonatomic) void *appearancedb; // @synthesize appearancedb=_appearancedb;
-@property(readonly, nonatomic) NSDictionary *appearances; // @synthesize appearances=_appearances;
-@property(nonatomic) void *bitmapKeydb; // @synthesize bitmapKeydb=_bitmapKeydb;
-@property(nonatomic) void *colordb; // @synthesize colordb=_colordb;
-@property(nonatomic) struct _carextendedMetadata *extendedMetadata; // @synthesize extendedMetadata=_extendedMetadata;
-@property(nonatomic) void *facetKeysdb; // @synthesize facetKeysdb=_facetKeysdb;
-@property(nonatomic) NSDictionary *facetValueNameDict; // @synthesize facetValueNameDict=_facetValueNameDict;
-@property(nonatomic) void *fontdb; // @synthesize fontdb=_fontdb;
-@property(nonatomic) void *fontsizedb; // @synthesize fontsizedb=_fontsizedb;
-@property(retain, nonatomic) NSData *globals; // @synthesize globals=_globals;
 @property(nonatomic) struct _carheader *header; // @synthesize header=_header;
-@property(nonatomic) void *imagedb; // @synthesize imagedb=_imagedb;
-@property(nonatomic) struct _renditionkeyfmt *keyfmt; // @synthesize keyfmt=_keyfmt;
-@property(nonatomic) void *localizationdb; // @synthesize localizationdb=_localizationdb;
 
 @end
 

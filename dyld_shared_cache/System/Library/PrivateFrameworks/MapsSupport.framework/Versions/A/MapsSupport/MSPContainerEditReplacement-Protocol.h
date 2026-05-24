@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet;
+@class NSArray;
 
 @protocol MSPContainerEditReplacement
+- (NSArray *);
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *indexesOfReplacedObjects;
 @property(readonly, nonatomic) NSArray *originalImmutableObjects;
-@property(readonly, nonatomic) NSArray *replacementImmutableObjects;
 @end
 

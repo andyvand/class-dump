@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     CSSearchQuery *currentQuery;
 }
 
-- (void);
+- (void)PDFViewOpenPDF:forRemoteGoToAction: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ate album %{public}@;
 - (id);
 - (void);
 - (void);

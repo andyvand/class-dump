@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet;
-
 @interface BMDataProtection
 {
     struct os_unfair_lock_s _lock;
-    NSMutableOrderedSet *_callbacks;
-    void *_aks;
 }
 
-+ (_Bool);
++ (_Bool)c;
 + (id);
 + (_Bool);
 + (void);
 + (_Bool);
++ (_Bool)IMMetricsCollectorEventCarrierReportJunkTotalMessagesInJunkThreadKey;
 + (_Bool);
-+ (_Bool);
-+ (int);
++ (int);
 + (id);
 - (void);
 - (void);

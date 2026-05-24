@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id);
+- (id)6;
+- (id): /* Error: Ran out of types for this method. */;
 - (void)LL LIMIT 1;
 
 // Remaining properties

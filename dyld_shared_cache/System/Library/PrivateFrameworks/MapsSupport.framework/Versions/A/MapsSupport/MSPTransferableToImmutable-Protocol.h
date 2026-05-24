@@ -5,5 +5,7 @@
 //
 
 @protocol MSPTransferableToImmutable
+- (id)X;
+- (id);
 @end
 

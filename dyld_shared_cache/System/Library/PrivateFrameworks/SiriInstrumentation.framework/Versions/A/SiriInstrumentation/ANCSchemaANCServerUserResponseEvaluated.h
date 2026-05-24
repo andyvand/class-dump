@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ANCSchemaANCServerUserResponseEvaluated : SISchemaInstrumentationMessage
 {
     int _userResponseCategory;
-    CDStruct_de58dd69 _has;
 }
 
 - (int);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -25,13 +22,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)TimeToFirstPartialMs: /* Error: Ran out of types for this method. */;
+- (id)setTimeToFirstPartialMs: /* Error: Ran out of types for this method. */;
 - (id)à;
-- (id)es;
+- (id)alternatives;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUserResponseCategory;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int userResponseCategory; // @synthesize userResponseCategory=_userResponseCategory;
 
 @end

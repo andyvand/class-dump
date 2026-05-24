@@ -7,17 +7,16 @@
 @interface _EARLmEvaluator
 {
     struct shared_ptr<quasar::LmEvaluator> _evaluator;
-    _Bool _roundingEnabled;
 }
 
 + (void)ø;
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)__text;
 - (id);
 - (void)8;
 

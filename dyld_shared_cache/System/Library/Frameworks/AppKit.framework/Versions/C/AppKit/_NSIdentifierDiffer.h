@@ -4,48 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSOrderedSet, NSSet, NSString;
+@class NSOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSIdentifierDiffer
 {
     NSOrderedSet *_beforeIdentifiers;
-    NSOrderedSet *_afterIdentifiers;
-    NSIndexSet *_insertedIndexes;
-    NSIndexSet *_deletedIndexes;
-    NSSet *_movePairs;
-    _Bool _identifiersAreUnique;
 }
 
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)P;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void)earanceInToolbar;
+- (void)_usesTextAppearanceInToolbar;
 - (id)K;
-- (void)raint;
+- (void)NSHideAlphaConstraint;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *afterIdentifiers;
 @property(readonly, nonatomic) NSOrderedSet *beforeIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSIndexSet *deletedIndexes;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSIndexSet *insertedIndexes;
-@property(readonly, nonatomic) NSSet *movePairs;
-@property(readonly) Class superclass;
 
 @end
 

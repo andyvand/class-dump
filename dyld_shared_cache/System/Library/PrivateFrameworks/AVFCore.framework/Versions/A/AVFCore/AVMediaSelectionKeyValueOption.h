@@ -6,22 +6,15 @@
 
 #import <AVFCore/AVMediaSelectionOption.h>
 
-@class AVWeakReference, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVMediaSelectionKeyValueOption : AVMediaSelectionOption
 {
     id _groupID;
-    id _groupMediaType;
-    NSString *_optionMediaType;
-    NSDictionary *_dictionary;
-    NSDictionary *_localizedMediaSelectionOptionDisplayNames;
-    AVWeakReference *_weakReferenceToGroup;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -30,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)nil :%@ /* Error: Ran out of types for this method. */;
 - (id)0;
-- (_Bool)easonCurrentSegmentChanged;
+- (_Bool)AVPlayerIntegratedTimelineSnapshotsOutOfSyncReasonCurrentSegmentChanged;
 
 @end
 

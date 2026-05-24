@@ -6,16 +6,11 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class AVOutputContext, BMSource, NSDictionary, _DKEvent;
+@class _DKEvent;
 
 @interface _DKNowPlayingMonitor : _DKMonitor
 {
     _DKEvent *_previousEvent;
-    NSDictionary *_previousBiomeEventMetadata;
-    unsigned int _bmSaveState;
-    BMSource *_nowPlayingSource;
-    unsigned int _lastPlaybackState;
-    AVOutputContext *_outputContext;
 }
 
 + (_Bool);
@@ -25,27 +20,26 @@
 + (CDUnknownBlockType);
 + (void);
 + (id);
+- (void)isTFOProbeSucceeded;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)9;
+- (unsigned int)9h;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)rack:(id)arg1 outputDeviceIDs:mediaType:iTunesStoreIdentifier:iTunesSubscriptionIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setPlaybackState:(id)arg1 bundleId:track:outputDeviceIDs:mediaType:iTunesStoreIdentifier:iTunesSubscriptionIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned int lastPlaybackState; // @synthesize lastPlaybackState=_lastPlaybackState;
-@property(retain, nonatomic) AVOutputContext *outputContext; // @synthesize outputContext=_outputContext;
 
 @end
 

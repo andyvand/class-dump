@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputCapacitiveDirectionPadElement : _GCDevicePhysicalInputClickableDirectionPadElement
 {
     unsigned long long _touchedValueFieldSlot;
-    unsigned long long _touchedInputSlot;
 }
 
 + (unsigned short);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);

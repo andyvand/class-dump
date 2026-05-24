@@ -6,47 +6,33 @@
 
 #import <CardServices/CRSRequest.h>
 
-@class NSObject, NSSet, NSString;
-@protocol CRContent, OS_dispatch_queue;
+@class NSObject, NSSet;
+@protocol OS_dispatch_queue;
 
 @interface CRSCardRequest : CRSRequest
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _loadsBundleServices;
-    id <CRContent> _content;
-    unsigned long long _format;
-    NSSet *_excludedServiceIdentifiers;
 }
 
 + (void);
-+ (void);
-- (void);
++ (void)B;
+- (void)J;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (void)Sections;
+- (void);
+- (void)resolvedCardSections;
 
 // Remaining properties
-@property(retain, nonatomic) id <CRContent> content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic, getter=_excludedServiceIdentifiers, setter=_setExcludedServiceIdentifiers:) NSSet *excludedServiceIdentifiers; // @synthesize excludedServiceIdentifiers=_excludedServiceIdentifiers;
-@property(nonatomic) unsigned long long format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool loadsBundleServices; // @synthesize loadsBundleServices=_loadsBundleServices;
-@property(readonly) Class superclass;
 
 @end
 

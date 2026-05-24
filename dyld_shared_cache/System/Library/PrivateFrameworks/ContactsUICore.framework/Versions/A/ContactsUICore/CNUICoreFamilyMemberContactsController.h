@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFuture, FAFamilyMember, NSNumber, NSString;
-@protocol CNCancelable, CNSchedulerProvider, CNUICoreFamilyMemberContactsModelFetching, CNUICoreFamilyMemberContactsObserver, CNUICoreFamilyMemberContactsUpdating;
+@class FAFamilyMember, NSNumber;
 
 @interface CNUICoreFamilyMemberContactsController
 {
     NSNumber *_countOfFamilyMemberContacts;
-    id <CNUICoreFamilyMemberContactsObserver> _observer;
-    FAFamilyMember *_familyMember;
-    id <CNUICoreFamilyMemberContactsModelFetching> _modelFetcher;
-    id <CNUICoreFamilyMemberContactsUpdating> _familyMemberContactsUpdator;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNFuture *_countOfFamilyMemberContactsFuture;
-    CNFuture *_updateContactListByAddingContactsFuture;
-    CNFuture *_updateContactListByRemovingContactsFuture;
-    id <CNCancelable> _contactStoreDidChangeToken;
 }
 
 + (id);
@@ -30,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qc;
 - (void);
 - (id);
 - (id);
@@ -46,31 +36,14 @@
 - (void);
 - (id);
 - (void);
+- (id)W;
 - (id);
-- (id);
-- (void)andidateAtIndex: /* Error: Ran out of types for this method. */;
+- (void)textView:shouldSelectCandidateAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (id){private}@;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNCancelable> contactStoreDidChangeToken; // @synthesize contactStoreDidChangeToken=_contactStoreDidChangeToken;
-@property(retain, nonatomic) NSNumber *countOfFamilyMemberContacts; // @synthesize countOfFamilyMemberContacts=_countOfFamilyMemberContacts;
-@property(retain, nonatomic) CNFuture *countOfFamilyMemberContactsFuture; // @synthesize countOfFamilyMemberContactsFuture=_countOfFamilyMemberContactsFuture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
-@property(readonly, nonatomic) id <CNUICoreFamilyMemberContactsUpdating> familyMemberContactsUpdator; // @synthesize familyMemberContactsUpdator=_familyMemberContactsUpdator;
-@property(readonly, nonatomic) long long fetchStatus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNUICoreFamilyMemberContactsModelFetching> modelFetcher; // @synthesize modelFetcher=_modelFetcher;
-@property(nonatomic) __weak id <CNUICoreFamilyMemberContactsObserver> observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNFuture *updateContactListByAddingContactsFuture; // @synthesize updateContactListByAddingContactsFuture=_updateContactListByAddingContactsFuture;
-@property(retain, nonatomic) CNFuture *updateContactListByRemovingContactsFuture; // @synthesize updateContactListByRemovingContactsFuture=_updateContactListByRemovingContactsFuture;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)ersion: /* Error: Ran out of types for this method. */;
+- (void)registerBagKeySet:forProfile:profileVersion: /* Error: Ran out of types for this method. */;
 
 @end
 

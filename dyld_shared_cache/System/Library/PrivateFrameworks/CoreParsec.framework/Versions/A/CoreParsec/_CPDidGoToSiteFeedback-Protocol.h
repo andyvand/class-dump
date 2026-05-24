@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @protocol _CPDidGoToSiteFeedback
+- (unsigned long long)@;
+- (void)_;
+- (void)fr;
 - (void)8@16@24@32q40@48;
 - (int)_iso3166SubdivisionCode;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
 @end
 

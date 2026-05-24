@@ -7,14 +7,12 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (NSString *);
+- (id)33TDwarfSkipConstantAttributeActionI5DwarfI7Dwarf329Pointer6412LittleEndianEE;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

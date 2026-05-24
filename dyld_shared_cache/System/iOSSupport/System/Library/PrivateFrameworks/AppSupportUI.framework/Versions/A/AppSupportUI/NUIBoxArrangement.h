@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NUIArrangementContainer, NUIBoxArrangementDataSource;
+@protocol NUIArrangementContainer;
 
 @interface NUIBoxArrangement
 {
     struct _NUIBoxArrangement _arrangement;
-    id <NUIArrangementContainer> _container;
-    id <NUIBoxArrangementDataSource> _dataSource;
-    struct {
-        unsigned int containerDirection:1;
-    } _flags;
-    double _scale;
-    struct CGRect _bounds;
 }
 
-- (void);
+- (void)h;
 - (void);
 - (struct CGSize);
 - (struct CGRect);
@@ -30,18 +22,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_fontInfoForBaselineSpacing;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <NUIArrangementContainer> container;
-@property(readonly, nonatomic) __weak id <NUIBoxArrangementDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

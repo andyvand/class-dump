@@ -11,15 +11,14 @@
     NSString *_baseString;
 }
 
-+ (id);
++ (id)	;
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (void)ta: /* Error: Ran out of types for this method. */;
++ (void)appendData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *baseString;
 @property(readonly) unsigned short glyphID;
 
 @end

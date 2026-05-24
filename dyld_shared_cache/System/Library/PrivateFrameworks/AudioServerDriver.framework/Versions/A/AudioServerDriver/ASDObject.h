@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDPlugin, NSMutableArray, NSObject;
-@protocol ASDPropertyChangedDelegate, OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface ASDObject
 {
     NSMutableArray *_customProperties;
-    NSObject<OS_dispatch_queue> *_customPropertyQueue;
-    unsigned long long _stateDumpHandler;
-    unsigned int _objectID;
-    ASDObject *_owner;
-    ASDPlugin *_plugin;
-    id <ASDPropertyChangedDelegate> _propertyChangedDelegate;
 }
 
 @end

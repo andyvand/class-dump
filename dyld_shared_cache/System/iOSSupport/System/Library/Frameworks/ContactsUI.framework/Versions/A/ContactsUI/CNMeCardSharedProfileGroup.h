@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
-- (void)nsMonogram;
+- (id)build call tree by iterating the uniqueBacktraceToObjectsMap;
+- (void)_containsMonogram;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactSharedProfileSettingsAction *sharedProfileSettingsAction; // @synthesize sharedProfileSettingsAction=_sharedProfileSettingsAction;

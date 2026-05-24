@@ -6,19 +6,16 @@
 
 #import <SystemMigration/SMCopyEngineCopier.h>
 
-@class NSSet, SMMacUser_Daemon;
+@class SMMacUser_Daemon;
 
 @interface SMCopyEngineFileCopier : SMCopyEngineCopier
 {
     _Bool _copyAsMove;
-    _Bool _ignoreBundleVersion;
-    SMMacUser_Daemon *_remoteUser;
-    NSSet *_relativeExcludedPaths;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (id);
@@ -33,10 +30,6 @@
 × ;
 
 // Remaining properties
-@property _Bool copyAsMove; // @synthesize copyAsMove=_copyAsMove;
-@property(readonly) NSSet *excludedPaths;
-@property _Bool ignoreBundleVersion; // @synthesize ignoreBundleVersion=_ignoreBundleVersion;
-@property(retain) NSSet *relativeExcludedPaths; // @synthesize relativeExcludedPaths=_relativeExcludedPaths;
 @property __weak SMMacUser_Daemon *remoteUser; // @synthesize remoteUser=_remoteUser;
 
 @end

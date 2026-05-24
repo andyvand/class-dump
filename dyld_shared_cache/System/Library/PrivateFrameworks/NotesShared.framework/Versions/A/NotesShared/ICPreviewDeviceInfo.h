@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAppearanceInfo;
-
 @interface ICPreviewDeviceInfo
 {
     unsigned long long _hash;
-    double _imageSize;
-    double _scale;
-    ICAppearanceInfo *_appearanceInfo;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (id);
 - (id);
@@ -32,9 +27,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) ICAppearanceInfo *appearanceInfo; // @synthesize appearanceInfo=_appearanceInfo;
 @property(nonatomic) double imageSize; // @synthesize imageSize=_imageSize;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

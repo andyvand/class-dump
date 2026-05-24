@@ -5,5 +5,6 @@
 //
 
 @protocol TSPDataCullingListener
+- (void);
 @end
 

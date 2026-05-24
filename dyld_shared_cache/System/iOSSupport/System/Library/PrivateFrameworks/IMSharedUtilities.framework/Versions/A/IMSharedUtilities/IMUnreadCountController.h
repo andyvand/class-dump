@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMUnreadCountReportDelta, NSArray;
-
 @interface IMUnreadCountController
 {
     id filteringControllerLock;
-    id state;
 }
 
 - (_Bool);
@@ -31,8 +28,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -46,11 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *cachedUnreadReports;
 @property(nonatomic, readonly) long long cachedUnreadReportsCount;
-@property(nonatomic, readonly) IMUnreadCountReportDelta *fullReplacementDelta;
-@property(nonatomic, readonly) long long pendingReviewCount;
-@property(nonatomic, readonly) long long unreadCount;
 
 @end
 

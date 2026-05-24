@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)] %s:(id)arg1 %d LinkProbing:(id)arg2 Stop active probing because duplication did not start in %f seconds after starting probing.;
 - (id);
 
 // Remaining properties

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKDetailsSearchResultsTitleHeaderCell;
+
 @protocol CKDetailsSearchResultsTitleHeaderCellDelegate
+- (void)performAndWaitForFetchedResultsControllers:(CKDetailsSearchResultsTitleHeaderCell *)arg1 block: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CCSetChangeRegistry, KVDictionaryLog, NSDate, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class KVDictionaryLog, NSURL;
 
 @interface CKVTaskManagerInfo
 {
     KVDictionaryLog *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_migrationStartTime;
-    NSURL *_donateDirectory;
-    CCSetChangeRegistry *_changeRegistry;
 }
 
 - (_Bool);
@@ -21,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -33,7 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CCSetChangeRegistry *changeRegistry; // @synthesize changeRegistry=_changeRegistry;
 @property(readonly, nonatomic) NSURL *donateDirectory; // @synthesize donateDirectory=_donateDirectory;
 
 @end

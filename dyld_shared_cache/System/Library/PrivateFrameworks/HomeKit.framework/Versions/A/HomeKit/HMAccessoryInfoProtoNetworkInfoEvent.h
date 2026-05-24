@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryInfoProtoAirportInfoEvent, NSMutableArray, NSString;
+@class NSString;
 
 @interface HMAccessoryInfoProtoNetworkInfoEvent
 {
     NSString *_ifaceName;
-    NSMutableArray *_ipv4Addresses;
-    NSMutableArray *_ipv6Addresses;
-    NSString *_macAddress;
-    NSString *_type;
-    HMAccessoryInfoProtoAirportInfoEvent *_wifiInfo;
 }
 
 + (Class);
@@ -22,11 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,8 +29,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)_deleteNotificationsForAssetWithUUID:shouldDeleteCommentsOrLikeNotifications:shouldDeletePhotosAddedToAlbumNotifications: /* Error: Ran out of types for this method. */;
+- (id)_deleteLabelWithCode1300InContext:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -43,27 +38,18 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)denunciative;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
 - (id);
-- (_Bool)CompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_commitWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)update playback state due to no delegate caller from media session:%@ context:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIfaceName;
-@property(readonly, nonatomic) _Bool hasMacAddress;
-@property(readonly, nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasWifiInfo;
-@property(retain, nonatomic) NSString *ifaceName; // @synthesize ifaceName=_ifaceName;
-@property(retain, nonatomic) NSMutableArray *ipv4Addresses; // @synthesize ipv4Addresses=_ipv4Addresses;
-@property(retain, nonatomic) NSMutableArray *ipv6Addresses; // @synthesize ipv6Addresses=_ipv6Addresses;
-@property(retain, nonatomic) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) HMAccessoryInfoProtoAirportInfoEvent *wifiInfo; // @synthesize wifiInfo=_wifiInfo;
 
 @end
 

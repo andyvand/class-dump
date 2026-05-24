@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMDSyncDeletedChatRecord
 {
     void guid;
-    void ckRecordID;
-    long long rawDate;
 }
 
 + (_Bool);
@@ -20,18 +18,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (id);
-- (id)sFilteringSettingForPreferedSubscription;
+- (id);
+- (id)IMMessagesFilteringSettingForPreferedSubscription;
 - (void)get initialized!;
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *ckRecordID;
-@property(nonatomic, readonly) NSDate *date;
 @property(nonatomic, copy) NSString *guid;
-@property(nonatomic) long long rawDate; // @synthesize rawDate;
 
 @end
 

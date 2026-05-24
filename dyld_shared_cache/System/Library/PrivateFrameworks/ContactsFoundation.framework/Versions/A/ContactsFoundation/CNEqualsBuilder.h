@@ -8,12 +8,12 @@
 {
 }
 
++ (_Bool)(\@9	;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)Unable to find the APFS Volume Group;
++ (_Bool)setDistributedLoggingStatus:(CDUnknownBlockType)arg1 completion:(char *)arg2;
 + (_Bool);
 + (_Bool);
 + (_Bool);

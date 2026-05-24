@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSOperationQueue, NSString, NSURLSession, NSURLSessionConfiguration;
+@class NSObject, NSURLSessionConfiguration;
 @protocol OS_dispatch_queue;
 
 @interface FMServerInteractionController
 {
     NSObject<OS_dispatch_queue> *dq_inFlightCommands;
-    NSMutableSet *inFlightCommands;
-    NSOperationQueue *_queue;
-    NSURLSession *_session;
-    NSURLSessionConfiguration *_sessionConfiguration;
 }
 
 - (void);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,16 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
 @property(retain, nonatomic) NSURLSessionConfiguration *sessionConfiguration; // @synthesize sessionConfiguration=_sessionConfiguration;
-@property(readonly) Class superclass;
 
 @end
 

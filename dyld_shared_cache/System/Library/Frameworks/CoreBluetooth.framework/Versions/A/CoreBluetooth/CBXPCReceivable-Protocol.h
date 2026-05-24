@@ -5,5 +5,6 @@
 //
 
 @protocol CBXPCReceivable
+- (void)AuthInfo doesn't have a Digest auth scheme;
 @end
 

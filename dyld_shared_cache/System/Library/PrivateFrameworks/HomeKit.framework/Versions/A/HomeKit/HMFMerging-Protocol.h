@@ -5,6 +5,6 @@
 //
 
 @protocol HMFMerging
-- (_Bool)tinations;
+- (_Bool)destinations;
 @end
 

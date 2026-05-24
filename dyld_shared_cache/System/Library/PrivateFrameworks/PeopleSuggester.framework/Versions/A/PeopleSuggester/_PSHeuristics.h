@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _CDInteractionCache, _CDInteractionStore, _PSContactResolver;
-@protocol _DKKnowledgeQuerying;
+@class NSDictionary, _CDInteractionCache;
 
 @interface _PSHeuristics
 {
     NSDictionary *_config;
-    NSDictionary *_configOverrides;
-    id <_DKKnowledgeQuerying> _knowledgeStore;
-    _CDInteractionStore *_interactionStore;
-    _PSContactResolver *_contactResolver;
-    _CDInteractionCache *_messageInteractionCache;
-    _CDInteractionCache *_recencyCache;
-    double _pslRecencyMargin;
-    NSDictionary *_recencyHeuristicLimitNumberOfProxiesByReason;
 }
 
 + (id);
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,12 +25,13 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)-
+Jj;
 - (void);
 - (id);
 - (id);
@@ -48,22 +40,25 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)Frameworks/Carbon.framework/Versions/A/Carbon;
+- (id);
+- (id)'K
+;
+- (id)*14/J
+;
+- (id)K
+;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)%@);
+- (void)\m;
+- (id)x;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)FaceDetected;
+- (id)Key80;
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -74,13 +69,7 @@
 - (id)n-Call;
 
 // Remaining properties
-@property(readonly, nonatomic) _PSContactResolver *contactResolver; // @synthesize contactResolver=_contactResolver;
-@property(readonly, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
-@property(readonly, nonatomic) id <_DKKnowledgeQuerying> knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
-@property(readonly, nonatomic) _CDInteractionCache *messageInteractionCache; // @synthesize messageInteractionCache=_messageInteractionCache;
-@property(nonatomic) double pslRecencyMargin; // @synthesize pslRecencyMargin=_pslRecencyMargin;
 @property(retain, nonatomic) _CDInteractionCache *recencyCache; // @synthesize recencyCache=_recencyCache;
-@property(retain, nonatomic) NSDictionary *recencyHeuristicLimitNumberOfProxiesByReason; // @synthesize recencyHeuristicLimitNumberOfProxiesByReason=_recencyHeuristicLimitNumberOfProxiesByReason;
 
 @end
 

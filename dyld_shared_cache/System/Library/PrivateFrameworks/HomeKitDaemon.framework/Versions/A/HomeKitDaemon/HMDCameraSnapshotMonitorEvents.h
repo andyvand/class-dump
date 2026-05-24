@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraSnapshotManager, HMDCharacteristicsAvailabilityListener, HMDHAPAccessory, HMDNotificationRegistration, HMFMessageDispatcher, NSMutableSet, NSNotificationCenter, NSObject, NSSet, NSString, NSUUID;
-@protocol HMDCameraBulletinBoard, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotMonitorEvents
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    HMDCameraSnapshotManager *_snapshotManager;
-    NSMutableSet *_snapShotNotificationResponseTimers;
-    HMDHAPAccessory *_accessory;
-    NSString *_bulletinImagesDirectory;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDCameraBulletinBoard> _bulletinBoard;
-    HMDNotificationRegistration *_notificationRegistration;
-    NSString *_logIdentifier;
-    NSUUID *_uniqueIdentifier;
-    NSSet *_bulletinSnapshotCharacteristics;
-    HMDCharacteristicsAvailabilityListener *_characteristicsAvailabilityListener;
-    NSString *_clientIdentifier;
 }
 
 + (id)lÆB;
+- (void)r] Checking in on %@ (identity:(id)arg1 %{private}@, %{private}@%s, %lu%s trips;
+- (void)aredTripDidBecomeAvailable:(id)arg1 ];
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id),N,V_includeMergeCandidates;
 - (id)ÁßÐ!àCùñð1Â0@ù
 × ;
 - (id)@"NSUUID"16^B24;
@@ -49,23 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)(äA;
 
 // Remaining properties
-@property(copy) NSSet *bulletinSnapshotCharacteristics; // @synthesize bulletinSnapshotCharacteristics=_bulletinSnapshotCharacteristics;
-@property(retain) HMDCharacteristicsAvailabilityListener *characteristicsAvailabilityListener; // @synthesize characteristicsAvailabilityListener=_characteristicsAvailabilityListener;
-@property(readonly, copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(readonly) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

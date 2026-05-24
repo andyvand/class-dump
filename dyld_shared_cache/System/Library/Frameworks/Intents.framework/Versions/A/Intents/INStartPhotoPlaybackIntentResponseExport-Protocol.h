@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @protocol INStartPhotoPlaybackIntentResponseExport
-- (long long)ActionMetadata: /* Error: Ran out of types for this method. */;
+- (long long)initWithAppBundleIdentifier:linkAction:linkActionMetadata: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *searchResultsCount;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface NewsFeed.FormatArticleOverridesMetadata__priv_956832B3628B6135B83D78176B8866FE
 {
     void title;
-    void displayDate;
-    void storyType;
-    void shortExcerpt;
-    FCHeadlineThumbnailMetadata *formatThumbnail;
-    void routeURL;
 }
 
 - (id);
@@ -26,11 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *displayDate;
-@property(nonatomic, readonly) FCHeadlineThumbnailMetadata *formatThumbnail; // @synthesize formatThumbnail;
-@property(nonatomic, readonly) NSURL *routeURL;
-@property(nonatomic, readonly) NSString *shortExcerpt;
-@property(nonatomic, readonly) NSString *storyType;
 @property(nonatomic, readonly) NSString *title;
 
 @end

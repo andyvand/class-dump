@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSOrderedCollectionDifferenceMoves
 {
     NSMutableDictionary *_removeDict;
-    NSMutableDictionary *_insertDict;
-    unsigned long long _firstRemove;
 }
 
 - (void);

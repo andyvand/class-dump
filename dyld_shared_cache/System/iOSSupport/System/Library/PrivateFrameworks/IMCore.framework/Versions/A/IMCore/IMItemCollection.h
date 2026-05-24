@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface IMItemCollection
 {
     _Bool _isReversed;
-    NSArray *_chatItems;
-    NSMutableArray *_extraItems;
 }
 
 - (id);
@@ -23,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)0¾ÁÈÁ`ÅÆ`ÆÉXÉ
 |ÊØÊ
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *chatItems; // @synthesize chatItems=_chatItems;
-@property(readonly, nonatomic) NSMutableArray *extraItems; // @synthesize extraItems=_extraItems;
-@property(readonly, nonatomic) _Bool isReversed; // @synthesize isReversed=_isReversed;
 
 @end
 

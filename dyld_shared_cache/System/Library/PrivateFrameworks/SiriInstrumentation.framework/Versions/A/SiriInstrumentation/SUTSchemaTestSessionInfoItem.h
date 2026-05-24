@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SUTSchemaTestSessionInfoItem : SISchemaInstrumentationMessage
 {
     NSString *_name;
-    NSString *_value;
-    _Bool _hasName;
-    _Bool _hasValue;
 }
 
 - (void);
@@ -25,24 +22,20 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)eoplePickerTableView",W,V_tableView;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)dule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join j ON m.ROWID = j.message_id INNER JOIN chat c ON c.ROWID = j.chat_id WHERE c.chat_identifier = ? AND m.item_type = 0 AND m.is_system_message = 0 AND m.is_read == 1 AND is_from_me == 0 AND is_finished == 1 ORDER BY m.date DESC LIMIT 1;
+- (id)i;
 - (void);
 - (id);
-- (id);
-- (id)eedback;
-- (id)sAlwaysOnMicAudioUsed;
+- (id)1;
+- (id)deletePlayUserFeedback;
+- (id)_isAlwaysOnMicAudioUsed;
 - (void),N,V_startedOrChanged;
 - (void)e.aiml.siri.orch.ORCHClientEvent.ORCHRequestMitigated;
 
 // Remaining properties
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

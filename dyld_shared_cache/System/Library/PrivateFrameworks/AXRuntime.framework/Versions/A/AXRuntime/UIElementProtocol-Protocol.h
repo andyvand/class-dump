@@ -4,16 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSArray, NSDictionary;
 
 @protocol UIElementProtocol
++ (void)@;
++ (id)Qh_;
+- (void)8;
+- (_Bool);
+- (void);
+- (void)hOI)k!;
+- (NSDictionary *);
+- (void)l!@�;
+
+@optional
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) struct __AXUIElement *axElement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__AXUIElement=},?,R,N
-
 @property(readonly, nonatomic) NSDictionary *cachedAttributes;
-@property(readonly, nonatomic) NSMutableDictionary *copyCachedAttributes;
 @end
 

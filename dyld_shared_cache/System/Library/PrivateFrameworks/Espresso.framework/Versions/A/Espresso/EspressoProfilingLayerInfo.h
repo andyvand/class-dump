@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EspressoProfilingLayerSupportInfo, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface EspressoProfilingLayerInfo
 {
     int _selected_runtime_engine;
-    NSString *_name;
-    NSString *_debug_name;
-    EspressoProfilingLayerSupportInfo *_main_engine_support;
-    NSDictionary *_per_platform_support;
-    NSArray *_runtimes;
-    double _average_runtime;
 }
 
 - (void);
@@ -26,21 +20,15 @@
 - (id);
 - (double);
 - (int);
+- (id)umping early event cache buffer - too large;
 - (id);
-- (id);
-- (id);
+- (id)V;
 - (id);
 - (void)Q;
 - (void);
 
 // Remaining properties
-@property double average_runtime; // @synthesize average_runtime=_average_runtime;
-@property(retain) NSString *debug_name; // @synthesize debug_name=_debug_name;
-@property(retain) EspressoProfilingLayerSupportInfo *main_engine_support; // @synthesize main_engine_support=_main_engine_support;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSDictionary *per_platform_support; // @synthesize per_platform_support=_per_platform_support;
-@property(retain) NSArray *runtimes; // @synthesize runtimes=_runtimes;
-@property int selected_runtime_engine; // @synthesize selected_runtime_engine=_selected_runtime_engine;
 
 @end
 

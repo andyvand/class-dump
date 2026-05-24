@@ -11,7 +11,7 @@
 }
 
 + (Class)cs:nextSuggestion /* Error: Ran out of types for this method. */;
-- (id);
+- (id)t;
 - (id);
 - (id);
 

@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, TRIFBFastFactorLevels, TRIReferenceManagedDirReaderLock;
-@protocol TRIFactorLevelCaching, TRIPaths;
+@class NSString;
 
 @interface TRINamespaceFactorProvider
 {
     NSString *_namespaceName;
-    NSString *_treatmentId;
-    unsigned int _namespaceCompatibilityVersion;
-    id <TRIFactorLevelCaching> _factorLevels;
-    TRIReferenceManagedDirReaderLock *_factorDirectoryLock;
-    id <TRIPaths> _paths;
-    NSMutableDictionary *_warmupPersistentFactorLevelCache;
-    _Bool _isFBFilePresent;
-    TRIFBFastFactorLevels *_fastFactorLevels;
-    NSString *_referencePath;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)fetchMomentUUIDsByPersonUUIDForPersonsWithUUIDs:(id)arg1 photoLibrary:(id)arg2;
 + (id);
 + (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)CIPortraitEffectStageV2;
 - (id);
 - (id);
 - (id);
@@ -40,8 +30,8 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
-- (_Bool);
+- (unsigned int)m",&,N,V_copyableItems;
+- (_Bool)|;
 - (unsigned int);
 - (id);
 - (id);
@@ -50,15 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int namespaceCompatibilityVersion;
 @property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(readonly) Class superclass;
 
 @end
 

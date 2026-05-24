@@ -8,17 +8,16 @@ __attribute__((visibility("hidden")))
 @interface OTSupportSOSMessage
 {
     int _supported;
-    CDStruct_495da94c _has;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (void)P;
+- (unsigned long long)<;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool hasSupported;
-@property(nonatomic) int supported; // @synthesize supported=_supported;
 
 @end
 

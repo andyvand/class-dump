@@ -8,17 +8,11 @@ __attribute__((visibility("hidden")))
 @interface PXSharedAlbumsActivityEntryItemList
 {
     id items;
-    id activityEntries;
-    id representedValue;
-    id itemIdentifiers;
-    id numberOfItems;
-    id loadingStatus;
-    id version;
 }
 
 - (id);
 - (id);
-- (long long)ings;
+- (long long)tutorialsSettings;
 - (id);
 - (void),5ñt: /* Error: Ran out of types for this method. */;
 

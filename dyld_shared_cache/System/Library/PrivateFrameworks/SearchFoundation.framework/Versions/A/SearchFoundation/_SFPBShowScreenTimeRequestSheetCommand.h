@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBShowScreenTimeRequestSheetCommand
 {
@@ -16,24 +16,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)iteralP;
 - (_Bool);
-- (id);
-- (id);
+- (id)setAssociatedObjectIfNotSet:(id)arg1 onObject:forKey: /* Error: Ran out of types for this method. */;
+- (id)ideo %@;
 - (id);
 - (id);
 - (void)ineCommand"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

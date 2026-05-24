@@ -7,7 +7,6 @@
 @interface ChronoKit._ReloadStateKey
 {
     id extensionBundleIdentifier;
-    id kind;
 }
 
 @end

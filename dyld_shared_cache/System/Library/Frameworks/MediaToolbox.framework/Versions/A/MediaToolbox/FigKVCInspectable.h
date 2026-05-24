@@ -9,7 +9,7 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)v36@0:(inout id *)arg1 8i16@"NSDictionary"20@?<v@?@"NSDictionary">28;
 - (id);
 
 @end

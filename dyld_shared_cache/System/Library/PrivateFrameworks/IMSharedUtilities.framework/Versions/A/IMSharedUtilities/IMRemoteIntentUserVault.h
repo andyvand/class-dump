@@ -14,9 +14,9 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)ook.payment.continuity.sent.payment;
 - (id);
 - (void)ConfigurationProvidingP;
 

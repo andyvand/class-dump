@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface SAUUIDToSymbolicate
 {
     _Bool _isInExclave;
-    int _livePid;
-    NSMutableArray *_binaries;
-    unsigned long long _dataGatheringOptions;
 }
 
 - (id);

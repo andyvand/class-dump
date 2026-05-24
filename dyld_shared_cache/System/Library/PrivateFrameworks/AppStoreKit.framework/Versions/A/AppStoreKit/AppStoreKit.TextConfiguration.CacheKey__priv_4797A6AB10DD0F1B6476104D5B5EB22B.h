@@ -7,8 +7,6 @@
 @interface AppStoreKit.TextConfiguration.CacheKey__priv_4797A6AB10DD0F1B6476104D5B5EB22B
 {
     id fontSource;
-    id text;
-    id contentSizeCategory;
 }
 
 - (id);

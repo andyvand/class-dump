@@ -7,15 +7,9 @@
 @interface NewsSubscription.PaidBundleViaOfferSettings
 {
     id allowPaywalls;
-    id allowSubscriptionsDeeplink;
-    id allowMastheadBanner;
-    id allowIconBadgeMercury;
-    id allowLocalNotification;
-    id allowUpsell;
-    id allowAppLaunchUpsell;
 }
 
-- (id);
+- (id)r:] /* Error: Ran out of types for this method. */;
 
 @end
 

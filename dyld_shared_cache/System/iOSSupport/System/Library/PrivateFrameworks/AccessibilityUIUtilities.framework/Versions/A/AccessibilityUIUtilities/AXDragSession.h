@@ -5,22 +5,18 @@
 //
 
 @class NSXPCConnection;
-@protocol AXDragSessionDelegate, AXDragSessionDragManager;
+@protocol AXDragSessionDelegate;
 
 @interface AXDragSession
 {
     NSXPCConnection *_connection;
-    id <AXDragSessionDragManager> _manager;
-    _Bool _resumed;
-    _Bool _aborted;
-    id <AXDragSessionDelegate> _delegate;
 }
 
 - (void);
 - (id);
 - (oneway void);
-- (oneway void);
-- (oneway void);
+- (oneway void);
+- (oneway void)z;
 - (id);
 - (id);
 - (id);
@@ -30,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void)gressView;
+- (void)ASTBiggerProgressView;
 
 // Remaining properties
 @property(nonatomic) __weak id <AXDragSessionDelegate> delegate; // @synthesize delegate=_delegate;

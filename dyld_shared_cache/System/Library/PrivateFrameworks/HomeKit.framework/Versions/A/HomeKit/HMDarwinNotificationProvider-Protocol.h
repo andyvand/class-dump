@@ -5,5 +5,6 @@
 //
 
 @protocol HMDarwinNotificationProvider
+- (unsigned int);
 @end
 

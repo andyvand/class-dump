@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SidebarContentFilter;
+@class NSString, SidebarContentFilter;
 
 @protocol ReadingListTableViewContentProvider
+- (NSString *);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) SidebarContentFilter *contentFilter;
-@property(nonatomic) unsigned long long maximumNumberOfItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) _Bool showsOnlyUnreadItems;
 @end
 

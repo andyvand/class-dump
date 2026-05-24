@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAllowedSharingOptions, CKContainerSetupInfo, CKShare;
-
 @protocol SFCollaborationCKShareItem
 
 // Remaining properties
-@property(retain, nonatomic) CKAllowedSharingOptions *ckOptions;
-@property(retain, nonatomic) CKContainerSetupInfo *containerSetupInfo;
 @property(readonly, nonatomic) _Bool isServiceManatee;
-@property(retain, nonatomic) CKShare *updatedShare;
 @end
 

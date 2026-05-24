@@ -9,29 +9,27 @@
 @interface PKPaymentOfferDynamicContentIconVariant
 {
     NSURL *_url2x;
-    NSURL *_url3x;
 }
 
 + (_Bool)áW"ð!ØCùqî%Ð1Â0@ù
 × ;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)V;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setLinkLatency64ms:(id)arg1;
+- (void)AWDCoreRoutineMagicalMomentsRecommendedAppsHistogramInstance;
 - (id);
-- (id);
-- (id)aultPaymentApplicationForPassUniqueIdentifier:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (id)Z;
+- (id)defaultPaymentApplicationForPassUniqueIdentifier:(id)arg1 handler: /* Error: Ran out of types for this method. */;
 - (void)ry;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *url2x; // @synthesize url2x=_url2x;
-@property(retain, nonatomic) NSURL *url3x; // @synthesize url3x=_url3x;
 
 @end
 

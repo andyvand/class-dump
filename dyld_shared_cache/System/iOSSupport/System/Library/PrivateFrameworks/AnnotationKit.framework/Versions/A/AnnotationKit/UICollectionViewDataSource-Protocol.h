@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionReusableView, UICollectionView, UICollectionViewCell;
+@class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)egment:(UICollectionView *)arg1;
+- (UICollectionViewCell *)setTag:(UICollectionView *)arg1 forSegment:(NSIndexPath *)arg2;
 
 @optional
-- (void)zer:(UICollectionView *)arg1;
-- (UICollectionReusableView *);
+- (long long)st_visit;
+- (void)addGestureRecognizer:(UICollectionView *)arg1;
+- (UICollectionReusableView *)_doubleTapRecognizerCanBeginAtPoint:(UICollectionView *)arg1;
 @end
 

@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)oneContext populateUnresolvedIDsInStore:(struct CGRect)arg1 withManagedObjectContext:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)%s;
 - (id);
 - (unsigned long long);
 - (id);

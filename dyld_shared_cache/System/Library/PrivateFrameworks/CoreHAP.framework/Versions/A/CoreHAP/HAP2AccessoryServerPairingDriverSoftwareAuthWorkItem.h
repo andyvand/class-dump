@@ -6,23 +6,16 @@
 
 #import <CoreHAP/HAP2AccessoryServerPairingDriverWorkItem.h>
 
-@class HAPAccessoryProtocolInfo, HAPAuthSession, HAPSRPPairSetupSession, NSError, NSString;
-@protocol HAP2AccessoryServerEncoding, HAP2AccessoryServerSecureTransport;
+@protocol HAP2AccessoryServerSecureTransport;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerPairingDriverSoftwareAuthWorkItem : HAP2AccessoryServerPairingDriverWorkItem
 {
     _Bool _sendPDUHeader;
-    id <HAP2AccessoryServerSecureTransport> _transport;
-    id <HAP2AccessoryServerEncoding> _encoding;
-    HAPSRPPairSetupSession *_pairingSession;
-    HAPAccessoryProtocolInfo *_authenticatedProtocolInfo;
-    NSError *_cancelError;
-    HAPAuthSession *_authSession;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -39,27 +32,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)ntextEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_18RavenSolutionEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id)tBaseERKNS_12GenericEventEE_;
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)ier:stateNumber:isReachable:linkQuality:lastSeen: /* Error: Ran out of types for this method. */;
+- (void)retrieveCurrentStateForIdentifier:stateNumber:isReachable:linkQuality:lastSeen: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HAPAuthSession *authSession; // @synthesize authSession=_authSession;
-@property(retain, nonatomic) HAPAccessoryProtocolInfo *authenticatedProtocolInfo; // @synthesize authenticatedProtocolInfo=_authenticatedProtocolInfo;
-@property(retain, nonatomic) NSError *cancelError; // @synthesize cancelError=_cancelError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HAP2AccessoryServerEncoding> encoding; // @synthesize encoding=_encoding;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPSRPPairSetupSession *pairingSession; // @synthesize pairingSession=_pairingSession;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <HAP2AccessoryServerSecureTransport> transport; // @synthesize transport=_transport;
 
 @end

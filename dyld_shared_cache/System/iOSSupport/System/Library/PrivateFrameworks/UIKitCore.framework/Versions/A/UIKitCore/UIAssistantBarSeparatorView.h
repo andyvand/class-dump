@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     UIView *_innerSeparatorView;
 }
 
-+ (double)rtText: /* Error: Ran out of types for this method. */;
-- (void);
++ (double)insertText: /* Error: Ran out of types for this method. */;
+- (void)yxq_G;
 - (id);
 - (void);
-- (_Bool)dInset;
+- (_Bool)trackEndInset;
 - (id)e;
 - (void)ths not supported for allowTotalWidthGreaterThanParent. Configuration = %@;
-- (void)ed;
-- (void)honePad;
+- (void)_indexOfCurrentActiveOrDismissDetentWasInvalidated;
+- (void)UIKeyboardTypeNamePhonePad;
 - (void)Höi;
 
 // Remaining properties

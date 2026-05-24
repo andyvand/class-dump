@@ -9,20 +9,16 @@
 @interface EMFQueryResultOverride
 {
     unsigned long long _overrideSearchType;
-    unsigned long long _overrideBehavior;
-    NSArray *_results;
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)8@?0;
+- (unsigned long long)ri Menu (Clear History);
+- (id)appleEventSaysPreserveState;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long overrideBehavior; // @synthesize overrideBehavior=_overrideBehavior;
-@property(readonly, nonatomic) unsigned long long overrideSearchType; // @synthesize overrideSearchType=_overrideSearchType;
 @property(readonly, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

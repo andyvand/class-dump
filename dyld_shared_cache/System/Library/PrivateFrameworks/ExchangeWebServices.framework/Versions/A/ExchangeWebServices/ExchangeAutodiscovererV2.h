@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ExchangeAutodiscovererV2
 {
     _Bool _isOnPrem;
-    ExchangeAutodiscovererV2 *_me;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -19,22 +15,13 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)`;
 - (void);
 - (id);
-- (void);
+- (void)hasCredentialForHost:(id)arg1 user: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isOnPrem; // @synthesize isOnPrem=_isOnPrem;
 @property(retain, nonatomic) ExchangeAutodiscovererV2 *me; // @synthesize me=_me;
-@property(readonly) Class superclass;
 
 @end
 

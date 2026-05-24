@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDShardedId, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDMapsIdentifier
 {
     PBUnknownFields *_unknownFields;
-    GEOPDShardedId *_shardedId;
 }
 
-+ (_Bool)yperlinkMetadata:(id)arg1;
++ (_Bool)setHyperlinkMetadata:(id)arg1;
 - (void);
-- (id);
+- (id)?;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)];
+- (void)prepareSpeechControllerWithOptions:(id)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,16 +29,14 @@
 - (void);
 - (void);
 - (id)arameters"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)Error: /* Error: Ran out of types for this method. */;
+- (id)_finishWithError: /* Error: Ran out of types for this method. */;
 - (_Bool)$(4ÔFØp;
 - (id)Üì©ìª;
-- (id)N_PRIVACY_ISSUE;
+- (id)POI_IMAGE_CORRECTION_PRIVACY_ISSUE;
 - (void)¨ÆK7A@Zd;«@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasShardedId;
-@property(retain, nonatomic) GEOPDShardedId *shardedId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

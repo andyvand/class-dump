@@ -11,9 +11,9 @@
     long long _bodyID;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)=QQ},N,V_characterRange;
+- (id)lock;
+- (id)ect<OS_dispatch_queue>",&,N,V_dispatchQueue;
 - (long long);
 - (id);
 

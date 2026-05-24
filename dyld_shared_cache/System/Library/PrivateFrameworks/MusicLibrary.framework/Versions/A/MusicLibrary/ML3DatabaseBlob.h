@@ -9,13 +9,13 @@
     struct sqlite3_blob *_sqliteHandle;
 }
 
-- (int);
-- (id);
-- (int);
+- (int)V_minCloudStorageTier;
+- (id)unusedPageCount;
+- (int)T@"CPLStatus",R,N,V_syncStatus;
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 
 @end
 

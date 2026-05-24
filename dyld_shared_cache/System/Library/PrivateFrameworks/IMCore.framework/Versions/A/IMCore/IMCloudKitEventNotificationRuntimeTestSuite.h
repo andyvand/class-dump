@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitHookTestSingleton, NSString;
-
 @interface IMCloudKitEventNotificationRuntimeTestSuite
 {
     _Bool _shouldTearDown;
-    IMCloudKitHookTestSingleton *_cloudKitHooks;
 }
 
-+ (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
++ (void)esDidChange:%@, streamToken=%d (streamToken=%u) /* Error: Ran out of types for this method. */;
+- (_Bool)cipantDidSucceed %d, participantID %@;
+- (void)oc (%p);
+- (void)callback is null;
+- (id)videoLayer=%@, mode=%d;
+- (void)for streamToken=%u doesn't exist;
 - (id);
 - (void)l¡;
 - (void)es not have history capability;
-- (void)geContentIdentifier;
+- (void)emojiImageContentIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) IMCloudKitHookTestSingleton *cloudKitHooks; // @synthesize cloudKitHooks=_cloudKitHooks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool shouldTearDown; // @synthesize shouldTearDown=_shouldTearDown;
-@property(readonly) Class superclass;
 
 @end
 

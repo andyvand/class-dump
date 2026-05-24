@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMVisionFeature, NSMutableArray;
+@class AXMVisionFeature;
 
 @interface AXMMLElementGroup
 {
     _Bool _topLevel;
-    _Bool _includeChildren;
-    AXMVisionFeature *_feature;
-    NSMutableArray *_subfeatures;
-    double _confidence;
-    struct CGRect _frame;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)۸{;
 - (_Bool);
 - (id);
 - (id);
@@ -29,19 +24,14 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (double);
+- (double)Vault directory is %{public}@;
 - (void);
 - (void);
-- (void)tor;
+- (void)_significantEventDetector;
 - (id)`;
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
 @property(retain, nonatomic) AXMVisionFeature *feature; // @synthesize feature=_feature;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) _Bool includeChildren; // @synthesize includeChildren=_includeChildren;
-@property(retain, nonatomic) NSMutableArray *subfeatures; // @synthesize subfeatures=_subfeatures;
-@property(nonatomic) _Bool topLevel; // @synthesize topLevel=_topLevel;
 
 @end
 

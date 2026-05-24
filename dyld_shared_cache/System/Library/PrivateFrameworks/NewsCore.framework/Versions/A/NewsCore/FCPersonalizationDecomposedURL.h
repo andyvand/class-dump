@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCPersonalizationDecomposedURL
 {
     NSString *_domain;
-    NSArray *_paths;
 }
 
 - (id);
@@ -17,12 +16,11 @@
 - (id);
 - (id);
 - (void)m;
-- (void)LeagueHighlightsTagId;
+- (void)sportLeagueHighlightsTagId;
 - (id)in production environment.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSArray *paths; // @synthesize paths=_paths;
 
 @end
 

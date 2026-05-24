@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CRKOpenFileRequestItem
 {
     NSData *_fileData;
-    NSString *_fileName;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *fileData; // @synthesize fileData=_fileData;
-@property(copy, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
 
 @end
 

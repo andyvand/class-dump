@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAGKDomainObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAGKEncyclopediaDomainObject : SAGKDomainObject
 {
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *linkedAnswerGroups;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *nameAnnotation;
-@property(copy, nonatomic) NSArray *structuredAnswers;
 
 @end
 

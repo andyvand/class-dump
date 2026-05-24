@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTimer, PKTextInputDebugLogController, PKTextInputDebugStateIntrospector, PKTextInputDebugTargetsView, PKTextInputElementsController, UITableView, UIToolbar, UIView;
-@protocol PKTextInputDebugViewControllerDelegate;
+@class UIView;
 
 @interface PKTextInputDebugViewController
 {
     _Bool __visualizeTargets;
-    _Bool __needsReloadData;
-    _Bool __needsReloadTargetsVisualization;
-    PKTextInputDebugStateIntrospector *_introspectorDataSource;
-    id <PKTextInputDebugViewControllerDelegate> _delegate;
-    PKTextInputDebugLogController *_debugLogController;
-    PKTextInputElementsController *_elementsController;
-    unsigned long long _statusViewAnchorCorner;
-    UIView *__statusContainerView;
-    UITableView *__statusTableView;
-    UIToolbar *__statusViewToolbar;
-    PKTextInputDebugTargetsView *__targetsContainerView;
-    NSArray *__statusViewPositionConstraints;
-    NSTimer *__autoreloadTimer;
 }
 
 - (unsigned long long);
@@ -66,40 +52,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (long long);
+- (id)dateSinceEpoch;
+- (long long);
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (void);
 - (void)gSpaceBoundsPath;
 - (void)Óÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *_autoreloadTimer; // @synthesize _autoreloadTimer=__autoreloadTimer;
-@property(nonatomic) _Bool _needsReloadData; // @synthesize _needsReloadData=__needsReloadData;
-@property(nonatomic) _Bool _needsReloadTargetsVisualization; // @synthesize _needsReloadTargetsVisualization=__needsReloadTargetsVisualization;
 @property(retain, nonatomic) UIView *_statusContainerView; // @synthesize _statusContainerView=__statusContainerView;
-@property(retain, nonatomic) UITableView *_statusTableView; // @synthesize _statusTableView=__statusTableView;
-@property(retain, nonatomic) NSArray *_statusViewPositionConstraints; // @synthesize _statusViewPositionConstraints=__statusViewPositionConstraints;
-@property(retain, nonatomic) UIToolbar *_statusViewToolbar; // @synthesize _statusViewToolbar=__statusViewToolbar;
-@property(retain, nonatomic) PKTextInputDebugTargetsView *_targetsContainerView; // @synthesize _targetsContainerView=__targetsContainerView;
-@property(nonatomic, setter=_setVisualizeTargets:) _Bool _visualizeTargets; // @synthesize _visualizeTargets=__visualizeTargets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) PKTextInputDebugLogController *debugLogController; // @synthesize debugLogController=_debugLogController;
-@property(nonatomic) __weak id <PKTextInputDebugViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKTextInputElementsController *elementsController; // @synthesize elementsController=_elementsController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKTextInputDebugStateIntrospector *introspectorDataSource; // @synthesize introspectorDataSource=_introspectorDataSource;
-@property(nonatomic) unsigned long long statusViewAnchorCorner; // @synthesize statusViewAnchorCorner=_statusViewAnchorCorner;
-@property(readonly) Class superclass;
 
 @end
 

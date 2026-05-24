@@ -9,10 +9,9 @@
 @interface CLSBinaryReportItem : CLSActivityReportItem
 {
     _Bool _value;
-    long long _valueType;
 }
 
-+ (_Bool);
++ (_Bool)_canAddMembers;
 - (id);
 - (void);
 - (void);
@@ -22,14 +21,13 @@
 - (long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)sumOfXX;
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
 @property(nonatomic) _Bool value; // @synthesize value=_value;
-@property(nonatomic) long long valueType; // @synthesize valueType=_valueType;
 
 @end
 

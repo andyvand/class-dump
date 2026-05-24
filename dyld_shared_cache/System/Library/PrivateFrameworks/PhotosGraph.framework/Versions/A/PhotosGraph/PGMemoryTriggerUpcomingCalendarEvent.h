@@ -6,18 +6,17 @@
 
 #import <PhotosGraph/PGMemoryTrigger.h>
 
-@class CLSLocationCache, CLSServiceManager;
+@class CLSServiceManager;
 
 @interface PGMemoryTriggerUpcomingCalendarEvent : PGMemoryTrigger
 {
     CLSServiceManager *_serviceManager;
-    CLSLocationCache *_locationCache;
 }
 
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)m/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/Frameworks/AccessibilityFoundation.framework/Versions/A/AccessibilityFoundation;
+- (id)__dlopen_cstrs;
+- (id)inputMarkingSession:(id)arg1 contentDeleted:(id)arg2;
+- (unsigned long long)anager.internalQueue;
 - (void)ed with alternative meanings:%lu
  /* Error: Ran out of types for this method. */;
 

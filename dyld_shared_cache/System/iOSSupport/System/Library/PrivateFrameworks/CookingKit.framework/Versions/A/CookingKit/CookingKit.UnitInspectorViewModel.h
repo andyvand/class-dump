@@ -8,13 +8,6 @@
 {
     id _$scope;
     id _conversionEnabled;
-    id _unitSystem;
-    id _temperatureUnit;
-    id _abbreviatedUnits;
-    id _useCups;
-    id _inlineWeights;
-    id _inlineWeightsUnitSystem;
-    id _$observationRegistrar;
 }
 
 @end

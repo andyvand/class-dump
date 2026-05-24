@@ -5,5 +5,9 @@
 //
 
 @protocol _HMSiriEndpointProfileDelegate
+- (void)Errors;
+- (void)QuickLookThumbnailingDaemon;
+- (void);
+- (void)NQLThumbnailError;
 @end
 

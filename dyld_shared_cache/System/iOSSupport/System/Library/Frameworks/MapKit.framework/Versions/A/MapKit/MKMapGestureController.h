@@ -4,97 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKBasicMapView, MKCompassView, MKRotationFilter, MKScaleView, MKVariableDelayTapRecognizer, NSString, UIGestureRecognizer, UILongPressGestureRecognizer, UIPanGestureRecognizer, UIPinchGestureRecognizer, UIRotationGestureRecognizer, UITapGestureRecognizer, UITraitCollection, VKCompoundAnimation, VKDynamicAnimation, VKTimedAnimation, _MKConditionalPanRotationGestureRecognizer, _MKConditionalPanTiltGestureRecognizer, _MKConditionalPanZoomGestureRecognizer, _MKDirectionalArrowRecognizer, _MKOneHandedZoomGestureRecognizer, _MKUserInteractionGestureRecognizer, _MKZoomingGestureControlConfiguration, _UIInterruptScrollDecelerationGestureRecognizer;
-@protocol MKMapGestureControllerDelegate;
+@class MKBasicMapView;
 
 __attribute__((visibility("hidden")))
 @interface MKMapGestureController
 {
     MKBasicMapView *_mapView;
-    id <MKMapGestureControllerDelegate> _delegate;
-    MKScaleView *_scaleView;
-    MKCompassView *_compassView;
-    MKRotationFilter *_rotationFilter;
-    _Bool _rotationSnappingEnabled;
-    MKVariableDelayTapRecognizer *_doubleTapGestureRecognizer;
-    UITapGestureRecognizer *_twoFingerTapGestureRecognizer;
-    UILongPressGestureRecognizer *_twoFingerLongPressGestureRecognizer;
-    UIPinchGestureRecognizer *_pinchGestureRecognizer;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    _MKOneHandedZoomGestureRecognizer *_oneHandedZoomGestureRecognizer;
-    _MKZoomingGestureControlConfiguration *_zoomConfiguration;
-    struct CGPoint _panRotateStartPoint;
-    struct CGPoint _panZoomStartPoint;
-    UIPanGestureRecognizer *_scaleDragGestureRecognizer;
-    _MKConditionalPanRotationGestureRecognizer *_conditionalPanRotationGestureRecognizer;
-    _MKConditionalPanZoomGestureRecognizer *_conditionalPanZoomGestureRecognizer;
-    _MKConditionalPanTiltGestureRecognizer *_conditionalPanTiltGestureRecognizer;
-    _UIInterruptScrollDecelerationGestureRecognizer *_gestureInterruptionRecognizer;
-    UIPanGestureRecognizer *_panZoomGestureRecognizer;
-    UIPanGestureRecognizer *_compassRotationGestureRecognizer;
-    double _compassRotationInitialOffset;
-    UIPanGestureRecognizer *_compassTiltGestureRecognizer;
-    struct CGPoint _pinchStartPoint;
-    _MKDirectionalArrowRecognizer *_activeArrowGestureRecognizer;
-    _MKDirectionalArrowRecognizer *_arrowZoomGestureRecognizer;
-    _MKDirectionalArrowRecognizer *_arrowRotateGestureRecognizer;
-    _MKDirectionalArrowRecognizer *_arrowPanGestureRecognizer;
-    VKTimedAnimation *_currentArrowAnimation;
-    double _arrowZoomSpeed;
-    double _arrowZoomStartTimestamp;
-    double _pinchFactorAverageInGesture;
-    double _lastPinchUpdateTimestamp;
-    double _lastScale;
-    VKDynamicAnimation *_pinchDecelerationAnimation;
-    VKCompoundAnimation *_panDecelerationAnimationGroup;
-    long long _gestureCount;
-    _Bool _panWithMomentum;
-    _MKUserInteractionGestureRecognizer *_touchGestureRecognizer;
-    UIRotationGestureRecognizer *_rotationGestureRecognizer;
-    VKDynamicAnimation *_rotationDecelerationAnimation;
-    VKDynamicAnimation *_tiltDecelerationAnimation;
-    _Bool _didStartLongPress;
-    _Bool _isPanning;
-    _Bool _isPinching;
-    UITraitCollection *_traitCollection;
-    double _lastZoomPanTranslation;
-    struct CGPoint _scrollTranslation;
-    struct CGPoint _lastArrowScrollTranslationDelta;
-    _Bool _isFullRotatingFromArrows;
-    double _lastRotationInGestureDelta;
-    double _lastRotation;
 }
 
 - (double);
-- (id);
+- (id)˩#;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id)=;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -108,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_kB;
 - (void);
 - (void);
 - (void);
@@ -119,54 +66,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (void)h;
+- (void);
+- (void);
+- (_Bool)_calculateBestAccount;
+- (void)vices;
+- (_Bool)#;
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void)nInfo;
-- (id)spatchOnManThread: /* Error: Ran out of types for this method. */;
+- (void)_storefrontPresentationInfo;
+- (id)_dispatchOnManThread: /* Error: Ran out of types for this method. */;
 - (void)4;
 
 // Remaining properties
-@property(retain, nonatomic) MKCompassView *compassView; // @synthesize compassView=_compassView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKMapGestureControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UITapGestureRecognizer *doubleTapGestureRecognizer; // @synthesize doubleTapGestureRecognizer=_doubleTapGestureRecognizer;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MKBasicMapView *mapView; // @synthesize mapView=_mapView;
-@property(readonly, nonatomic) UIGestureRecognizer *oneHandedZoomGestureRecognizer;
-@property(readonly, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(nonatomic) _Bool panWithMomentum; // @synthesize panWithMomentum=_panWithMomentum;
-@property(readonly, nonatomic) UIPinchGestureRecognizer *pinchGestureRecognizer; // @synthesize pinchGestureRecognizer=_pinchGestureRecognizer;
-@property(nonatomic, getter=isRotationEnabled) _Bool rotationEnabled;
-@property(retain, nonatomic) MKRotationFilter *rotationFilter; // @synthesize rotationFilter=_rotationFilter;
-@property(readonly, nonatomic) UIRotationGestureRecognizer *rotationGestureRecognizer; // @synthesize rotationGestureRecognizer=_rotationGestureRecognizer;
-@property(nonatomic) _Bool rotationSnappingEnabled; // @synthesize rotationSnappingEnabled=_rotationSnappingEnabled;
-@property(retain, nonatomic) MKScaleView *scaleView; // @synthesize scaleView=_scaleView;
-@property(nonatomic, getter=isScrollEnabled) _Bool scrollEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTiltEnabled) _Bool tiltEnabled;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *twoFingerLongPressGestureRecognizer; // @synthesize twoFingerLongPressGestureRecognizer=_twoFingerLongPressGestureRecognizer;
-@property(readonly, nonatomic) UITapGestureRecognizer *twoFingerTapGestureRecognizer; // @synthesize twoFingerTapGestureRecognizer=_twoFingerTapGestureRecognizer;
-@property(nonatomic, getter=isZoomEnabled) _Bool zoomEnabled;
 
 @end
 

@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSUUID;
+@class NSString;
 
 @interface SOKerberosHeimdalPluginSettings
 {
     _Bool _defaultRealm;
-    NSString *_realm;
-    NSDictionary *_domainRealmMapping;
-    NSArray *_hosts;
-    NSArray *_kdcs;
-    long long _credentialUseMode;
 }
 
-+ (id);
++ (id)hasModel;
 + (struct HeimCred_s *);
 + (void);
-+ (id);
++ (id)P;
 + (struct HeimCred_s *);
 + (struct HeimCred_s *);
 + (struct HeimCred_s *);
 + (id);
 + (id);
 + (_Bool);
-+ (void);
-+ (_Bool);
++ (void),N,GisVideoMaxFrameDurationSupported;
++ (_Bool)ut >>>> %s:Auto white balance is not locked for ProRes Raw capture. /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
 - (void);
@@ -42,12 +37,12 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (_Bool);
+- (void)isAxisElement:(id)arg1 state: /* Error: Ran out of types for this method. */;
+- (_Bool)lowing is nil. isNil_snippet:(id *)arg1 %@, isNil_signature:%@, isNil_detectedLanguage:%@, isNil_startDate:%@ /* Error: Ran out of types for this method. */;
+- (id)XT PRIMARY KEY NOT NULL, value) WITHOUT ROWID;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)beginCGContextWithAlpha: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -55,14 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long credentialUseMode; // @synthesize credentialUseMode=_credentialUseMode;
-@property(retain, nonatomic) NSUUID *currentCredential;
-@property(nonatomic, getter=isDefaultRealm) _Bool defaultRealm; // @synthesize defaultRealm=_defaultRealm;
-@property(retain, nonatomic) NSDictionary *domainRealmMapping; // @synthesize domainRealmMapping=_domainRealmMapping;
-@property(retain, nonatomic) NSArray *hosts; // @synthesize hosts=_hosts;
-@property(retain, nonatomic) NSArray *kdcs; // @synthesize kdcs=_kdcs;
 @property(readonly, nonatomic) NSString *realm; // @synthesize realm=_realm;
-@property(retain, nonatomic) NSString *siteCode;
 
 @end
 

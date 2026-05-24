@@ -6,25 +6,15 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSDictionary, NSIndexSet, NSMutableIndexSet, PXStoryModel;
+@class PXStoryModel;
 
 @interface PXStoryBufferingController : PXStoryController
 {
     unsigned long long _activatedTime;
-    CDStruct_2e59876b _overallBufferingDuration;
-    CDStruct_2e59876b _lastNoncriticalBufferingDurationStore;
-    CDStruct_2e59876b _lastCriticalBufferingDurationStore;
-    CDStruct_2e59876b *_bufferingDurationsPerReason;
-    _Bool _isActive;
-    _Bool _isBuffering;
-    PXStoryModel *_model;
-    CDUnknownBlockType _onBufferingEnd;
-    long long _overallReadinessStatus;
-    NSMutableIndexSet *_bufferingReasonsStore;
 }
 
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (long long);
@@ -45,26 +35,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id)on;
+- (void)currentEvents;
+- (_Bool)localizedNameForStyleID:withLanguage: /* Error: Ran out of types for this method. */;
+- (id)presentedScrollPosition;
 - (id)InlinePlayback;
 - (void)P;
 - (void)ÝÿÈ _;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *bufferingReasons;
-@property(readonly, nonatomic) NSMutableIndexSet *bufferingReasonsStore; // @synthesize bufferingReasonsStore=_bufferingReasonsStore;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) _Bool isBuffering; // @synthesize isBuffering=_isBuffering;
-@property(readonly, nonatomic) double lastCriticalBufferingDuration;
-@property(readonly, nonatomic) double lastNoncriticalBufferingDuration;
 @property(nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) double noncriticalBufferingTimeout;
-@property(copy, nonatomic) CDUnknownBlockType onBufferingEnd; // @synthesize onBufferingEnd=_onBufferingEnd;
-@property(nonatomic) long long overallReadinessStatus; // @synthesize overallReadinessStatus=_overallReadinessStatus;
-@property(readonly, nonatomic) double totalBufferingTimeInterval;
-@property(readonly, nonatomic) NSDictionary *totalBufferingTimeIntervalsPerReason;
 
 @end
 

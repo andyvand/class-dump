@@ -7,27 +7,21 @@
 @interface CTGlyphStorageInterface
 {
     long long _glyphCount;
-    unsigned short *_glyphs;
-    struct CGSize *_advances;
-    unsigned int *_props;
-    long long *_stringIndexes;
-    long long *_absorbedCounts;
-    struct CGPoint *_origins;
 }
 
 - (void);
-- (void);
+- (void)#;
 - (struct __CTGlyphStorage *);
 - (void);
 - (void);
+- (void)g threadLocalClient access groups;
 - (void);
 - (void);
+- (void)3;
+- (void)Audio;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)59;
 - (void);
 
 @end

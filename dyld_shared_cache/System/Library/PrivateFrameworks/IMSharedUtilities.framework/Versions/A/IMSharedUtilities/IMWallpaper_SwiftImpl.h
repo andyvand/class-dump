@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMWallpaperMetadata, NSDictionary, NSString;
+@class NSString;
 
 @interface IMWallpaper_SwiftImpl
 {
     id filePathKey;
-    id fileNameKey;
-    id lowResFilePathKey;
-    id lowResFileNameKey;
-    id dataVersionKey;
-    id highResKey;
-    id metadataKey;
-    id contentIsSensitiveKey;
-    void fileName;
-    void filePath;
-    void lowResFileName;
-    void lowResFilePath;
-    long long dataVersion;
-    IMWallpaperMetadata *metadata;
-    _Bool contentIsSensitive;
 }
 
 + (_Bool);
-- (id);
+- (id)˚B;
 - (_Bool);
 - (id);
 - (id);
@@ -38,7 +24,7 @@
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)passbook.peerpayment.pass.transaction-details;
 - (_Bool);
 - (id);
 - (void);
@@ -46,20 +32,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)G;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool contentIsSensitive; // @synthesize contentIsSensitive;
-@property(nonatomic, readonly) long long dataVersion; // @synthesize dataVersion;
-@property(nonatomic, readonly) NSDictionary *dictionaryRepresentation;
 @property(nonatomic, readonly) NSString *fileName;
-@property(nonatomic, readonly) NSString *filePath;
-@property(nonatomic, readonly) NSString *lowResFileName;
-@property(nonatomic, readonly) NSString *lowResFilePath;
-@property(nonatomic, readonly) _Bool lowResWallpaperExists;
-@property(nonatomic, readonly) IMWallpaperMetadata *metadata; // @synthesize metadata;
-@property(nonatomic, readonly) NSDictionary *publicDictionaryRepresentation;
-@property(nonatomic, readonly) _Bool wallpaperExists;
 
 @end
 

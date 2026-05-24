@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRemoteStreamTracker
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableSet *_currentStreamIdentifiers;
 }
 
 + (id);
 + (id)ÿÓ]nD;
-- (void);
-- (_Bool);
-- (id);
+- (void)_msp_currentAccount;
+- (_Bool)_handleValue;
+- (id);
 - (id);
 - (id);
 - (void)°äÿ@;
 
 // Remaining properties
-@property(readonly) NSMutableSet *currentStreamIdentifiers; // @synthesize currentStreamIdentifiers=_currentStreamIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

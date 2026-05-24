@@ -6,28 +6,25 @@
 
 #import <HomeKitDaemon/HMDMediaAccessory.h>
 
-@class HMFExponentialBackoffTimer, HMFPairingIdentity, NSString;
+@class HMFExponentialBackoffTimer, HMFPairingIdentity;
 
 __attribute__((visibility("hidden")))
 @interface HMDAirPlayAccessory : HMDMediaAccessory
 {
     HMFPairingIdentity *_pairingIdentity;
-    NSString *_password;
-    long long _minimumUserPriviledge;
-    HMFExponentialBackoffTimer *_configurationRetryTimer;
 }
 
 + (_Bool)0:Hp /* Error: Ran out of types for this method. */;
 + (void)B;
 + (id)IC;
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)ilityLevelFetcher unregisterObserver %@;
+- (_Bool)_saveStoredSessions;
+- (_Bool)ules %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (long long);
 - (id);
 - (id);
@@ -40,35 +37,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)targetsForSources:(id)arg1;
+- (void)setRatioOfProcessedScenes:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id)
 × ;
-- (id)iles;
+- (id)h264Profiles;
 - (id)_handleEventLogSetDurationMessage: /* Error: Ran out of types for this method. */;
-- (id)yOnboardingSetupPayloadStrings;
+- (id)_addPendingAccessoryOnboardingSetupPayloadStrings;
 - (void)x ÿÿ,ÿÿ;
 - (void)Ó;
 - (void), Accessories not connect to primary:(id)arg1 %@;
-- (void)resencePayloadContainer;
+- (void)PresencePayloadPresencePayloadContainer;
 
 // Remaining properties
 @property(readonly, nonatomic) HMFExponentialBackoffTimer *configurationRetryTimer; // @synthesize configurationRetryTimer=_configurationRetryTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long minimumUserPriviledge; // @synthesize minimumUserPriviledge=_minimumUserPriviledge;
-@property(readonly, copy) HMFPairingIdentity *pairingIdentity; // @synthesize pairingIdentity=_pairingIdentity;
-@property(readonly, copy) NSString *password; // @synthesize password=_password;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsUserManagement;
 
 @end
 

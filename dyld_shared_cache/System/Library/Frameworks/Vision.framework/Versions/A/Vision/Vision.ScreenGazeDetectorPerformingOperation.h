@@ -7,8 +7,6 @@
 @interface Vision.ScreenGazeDetectorPerformingOperation
 {
     id requests;
-    id faceObservations;
-    id options;
 }
 
 @end

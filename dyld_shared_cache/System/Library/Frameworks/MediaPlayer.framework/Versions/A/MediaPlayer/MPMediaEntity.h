@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPMultiverseIdentifier, MPMediaItem, MPMediaLibrary, NSString;
+@class MIPMultiverseIdentifier, MPMediaLibrary;
 
 @interface MPMediaEntity
 {
     MIPMultiverseIdentifier *_multiverseIdentifier;
-    NSString *__tokenBinaryIdentifierAsString;
 }
 
 + (_Bool);
@@ -19,26 +18,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (id);
+- (id);
+- (id)_namespace;
+- (unsigned long long);
+- (_Bool)_dashed;
 - (void);
 - (id);
 - (id);
-- (void)_;
+- (void)__MPModelRelationshipGenericPodcastEpisode__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_tokenBinaryIdentifierAsString; // @synthesize _tokenBinaryIdentifierAsString=__tokenBinaryIdentifierAsString;
 @property(readonly, nonatomic) MPMediaLibrary *mediaLibrary;
-@property(readonly, nonatomic) MIPMultiverseIdentifier *multiverseIdentifier; // @synthesize multiverseIdentifier=_multiverseIdentifier;
-@property(readonly, nonatomic) unsigned long long persistentID;
-@property(readonly, nonatomic) MPMediaItem *representativeItem;
 
 @end
 

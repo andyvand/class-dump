@@ -9,7 +9,6 @@
 @interface RKNLEventTokenizer
 {
     NSString *_languageID;
-    struct __CFStringTokenizer *_tokenizer;
 }
 
 + (_Bool);
@@ -30,7 +29,6 @@
 - (struct __CFStringTokenizer *);
 
 // Remaining properties
-@property(readonly) NSString *languageID; // @synthesize languageID=_languageID;
 @property struct __CFStringTokenizer *tokenizer; // @synthesize tokenizer=_tokenizer;
 
 @end

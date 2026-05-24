@@ -5,5 +5,6 @@
 //
 
 @protocol CoreIDVShared.IdentityDocumentProviderExtensionInterface
+- (void);
 @end
 

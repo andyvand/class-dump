@@ -4,98 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientMetrics, GEOCommonResponseAttributes, GEOETATrafficUpdateWaypointRoute, GEOPDDatasetABStatus, GEOUUID, NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOETATrafficUpdateResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOProblemDetail *_problemDetails;
-    unsigned long long _problemDetailsCount;
-    unsigned long long _problemDetailsSpace;
-    NSMutableArray *_arrivalParameters;
-    NSMutableArray *_cameras;
-    GEOClientMetrics *_clientMetrics;
-    GEOPDDatasetABStatus *_datasetAbStatus;
-    NSString *_debugData;
-    NSMutableArray *_internalErrors;
-    GEOCommonResponseAttributes *_responseAttributes;
-    NSData *_responseId;
-    NSMutableArray *_routes;
-    NSData *_sessionState;
-    NSMutableArray *_trafficSignals;
-    GEOUUID *_tripId;
-    GEOETATrafficUpdateWaypointRoute *_waypointRoute;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _displayedEta;
-    int _status;
-    struct {
-        unsigned int has_displayedEta:1;
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_problemDetails:1;
-        unsigned int read_arrivalParameters:1;
-        unsigned int read_cameras:1;
-        unsigned int read_clientMetrics:1;
-        unsigned int read_datasetAbStatus:1;
-        unsigned int read_debugData:1;
-        unsigned int read_internalErrors:1;
-        unsigned int read_responseAttributes:1;
-        unsigned int read_responseId:1;
-        unsigned int read_routes:1;
-        unsigned int read_sessionState:1;
-        unsigned int read_trafficSignals:1;
-        unsigned int read_tripId:1;
-        unsigned int read_waypointRoute:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class)applicableRevisionForDependentRequestOfClass:beingPerformedByRevision: /* Error: Ran out of types for this method. */;
++ (Class);
++ (Class)eRecordedAudioForVoiceIdentificationTrainingWithCompletion:]_block_invoke /* Error: Ran out of types for this method. */;
 + (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)ReferenceTripId:(id)arg1;
++ (_Bool)setHasReferenceTripId:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *arrivalParameters;
-@property(retain, nonatomic) NSMutableArray *cameras;
-@property(retain, nonatomic) GEOClientMetrics *clientMetrics;
-@property(retain, nonatomic) GEOPDDatasetABStatus *datasetAbStatus;
-@property(retain, nonatomic) NSString *debugData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int displayedEta;
-@property(readonly, nonatomic) _Bool hasClientMetrics;
-@property(readonly, nonatomic) _Bool hasDatasetAbStatus;
-@property(readonly, nonatomic) _Bool hasDebugData;
-@property(nonatomic) _Bool hasDisplayedEta;
-@property(readonly, nonatomic) _Bool hasResponseAttributes;
-@property(readonly, nonatomic) _Bool hasResponseId;
-@property(readonly, nonatomic) _Bool hasSessionState;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasTripId;
-@property(readonly, nonatomic) _Bool hasWaypointRoute;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *internalErrors;
-@property(readonly, nonatomic) struct GEOProblemDetail *problemDetails;
-@property(readonly, nonatomic) unsigned long long problemDetailsCount;
-@property(retain, nonatomic) GEOCommonResponseAttributes *responseAttributes;
-@property(retain, nonatomic) NSData *responseId;
-@property(retain, nonatomic) NSMutableArray *routes;
-@property(retain, nonatomic) NSData *sessionState;
-@property(nonatomic) int status;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *trafficSignals;
-@property(retain, nonatomic) GEOUUID *tripId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOETATrafficUpdateWaypointRoute *waypointRoute;
 
 @end
 

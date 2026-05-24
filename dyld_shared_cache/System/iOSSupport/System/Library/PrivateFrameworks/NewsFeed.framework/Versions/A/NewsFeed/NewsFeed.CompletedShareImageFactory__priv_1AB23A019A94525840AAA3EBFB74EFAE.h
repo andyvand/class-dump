@@ -7,27 +7,6 @@
 @interface NewsFeed.CompletedShareImageFactory__priv_1AB23A019A94525840AAA3EBFB74EFAE
 {
     id puzzle;
-    id themeProvider;
-    id containerView;
-    id stackView;
-    id scoreStackView;
-    id unitScoreStackView;
-    id emojiButtonsStackView;
-    id emojiElementsStackView;
-    id titleLabel;
-    id unitLabel;
-    id scoreLabel;
-    id scoreEmojiView;
-    id fastestButton;
-    id fastestButtonConfig;
-    id emojiTopButton;
-    id emojiTopButtonConfig;
-    id emojiBottomButton;
-    id emojiBottomButtonConfig;
-    id width;
-    id widthConstraint;
-    id textInsets;
-    id emojiIconSize;
 }
 
 @end

@@ -13,16 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)q;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool)ð;
 - (void)ectOfClasses:forKey:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, getter=isEmpty) _Bool empty;
 @property(readonly) NSArray *windows;
 
 @end

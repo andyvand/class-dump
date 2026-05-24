@@ -5,23 +5,20 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, TRITaskQueuing;
+@protocol OS_dispatch_queue, TRITaskQueuing;
 
 @interface TRIEagerExitManager
 {
     NSObject<OS_dispatch_queue> *_eagerExitQueue;
-    NSObject<OS_dispatch_source> *_eagerExitSource;
-    int _token;
-    id <TRITaskQueuing> _taskQueue;
 }
 
+- (id)initWithPathToVideo:(double)arg1 pathToImage:(id)arg2 imageDisplayTime:pairingIdentifier: /* Error: Ran out of types for this method. */;
+- (void)tureFolderPath:(double)arg1 semanticDevelopmentGatingObservations:faceObservations:torsoprints:foodAndDrinkObservations:semanticEnhanceScene:contactIDsInProximity:sharedLibraryMode: /* Error: Ran out of types for this method. */;
+- (void)initWithImageSize:deviceResolution:parallaxPadding:visibleFrame:adaptiveVisibleFrame:inactiveFrame:adaptiveInactiveTopFrame:spatialVisibleFrame:spatialAdaptiveFrame:timeFrame:adaptiveTimeFrame:salientContentFrame:clockLayerOrder:clockIntersection:layoutVariant:hasTopEdgeContact:maxClockShift:debugLayouts: /* Error: Ran out of types for this method. */;
+- (void)eer;
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)toSrcDir:(id)arg1 srcDirExtension:writingToDestDir:destDirExtension:postPatchCompression:completion: /* Error: Ran out of types for this method. */;
+- (void)applyPatchWithFilename:(id)arg1 patchExtension:toSrcDir:srcDirExtension:writingToDestDir:destDirExtension:postPatchCompression:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <TRITaskQueuing> taskQueue; // @synthesize taskQueue=_taskQueue;

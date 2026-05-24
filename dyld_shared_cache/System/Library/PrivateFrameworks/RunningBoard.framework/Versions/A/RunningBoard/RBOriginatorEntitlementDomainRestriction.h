@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)tionary",R,N,V_queueIDToSurfaceIDToClientDrawableIntervalDict;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)language %@;
 - (id);
 - (id);
 - (void);

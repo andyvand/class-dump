@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferUploadCommandResponse
 {
@@ -18,20 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)frameCountV2;
 - (_Bool);
 - (id);
 - (void)HAP2EncodedResponse>"40@0:8@"<HAP2EncodedRequest>"16@"NSData"24^@32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *clipID; // @synthesize clipID=_clipID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
-@protocol AssetCacheServicesReporterDelegate, OS_dispatch_queue, OS_os_log;
+@protocol AssetCacheServicesReporterDelegate;
 
 @interface AssetCacheServicesReporter
 {
     id <AssetCacheServicesReporterDelegate> _weakDelegate;
-    NSObject<OS_dispatch_queue> *_weakDelegateQueue;
-    NSObject<OS_os_log> *_logHandle;
-    NSMutableDictionary *_results;
-    NSMutableSet *_allServerHostPorts;
 }
 
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
+- (void);
+- (void);
+- (void)h;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)#;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)o;
 - (id);
 - (_Bool);
 - (void);
@@ -46,15 +41,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)k;
+- (void)unam;
+- (id)rank;
 
 // Remaining properties
-@property(retain) NSMutableSet *allServerHostPorts; // @synthesize allServerHostPorts=_allServerHostPorts;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(retain) NSMutableDictionary *results; // @synthesize results=_results;
 @property __weak id <AssetCacheServicesReporterDelegate> weakDelegate; // @synthesize weakDelegate=_weakDelegate;
-@property __weak NSObject<OS_dispatch_queue> *weakDelegateQueue; // @synthesize weakDelegateQueue=_weakDelegateQueue;
 
 @end
 

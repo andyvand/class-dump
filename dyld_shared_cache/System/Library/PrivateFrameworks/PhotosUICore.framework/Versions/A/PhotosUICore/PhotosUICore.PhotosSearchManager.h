@@ -7,10 +7,6 @@
 @interface PhotosUICore.PhotosSearchManager
 {
     id searchQueryManager;
-    id allowsCollectionResults;
-    id backgroundQueue_queryID;
-    id backgroundQueue_cache;
-    id mostRecentSearchResult;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface PhotosFeatureHittingSet
 {
     NSMutableArray *_matchedTokenAttributes;
-    NSMutableArray *_matchedPhotoAttributes;
-    NSMutableArray *_matchedFeaturesAll;
-    NSMutableSet *_hittingSet;
 }
 
 - (void);
@@ -21,18 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)ulateTopicalityForL1ScoringV2:queryContext:name:eventSearchIntent: /* Error: Ran out of types for this method. */;
+- (id)trailingIconProperties;
+- (id)trailingAccessoryType;
+- (id)trailingAccessory;
+- (id)setContentInset:(id)arg1;
+- (id)setAddFullWidthLineForButton: /* Error: Ran out of types for this method. */;
+- (void)librarySpecificFetchOptions;
+- (void)calculateTopicalityForL1ScoringV2:queryContext:name:eventSearchIntent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *hittingSet; // @synthesize hittingSet=_hittingSet;
-@property(retain, nonatomic) NSMutableArray *matchedFeaturesAll; // @synthesize matchedFeaturesAll=_matchedFeaturesAll;
-@property(retain, nonatomic) NSMutableArray *matchedPhotoAttributes; // @synthesize matchedPhotoAttributes=_matchedPhotoAttributes;
 @property(retain, nonatomic) NSMutableArray *matchedTokenAttributes; // @synthesize matchedTokenAttributes=_matchedTokenAttributes;
 
 @end

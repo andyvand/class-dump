@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFFlight;
+@class NSData, NSString, SFFlight;
 
 @protocol SFFlightCardSection
+- (SFFlight *);
+- (NSData *)L7;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFFlight *flight;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long selectedLegIndex;
 @property(copy, nonatomic) NSString *type;
 @end
 

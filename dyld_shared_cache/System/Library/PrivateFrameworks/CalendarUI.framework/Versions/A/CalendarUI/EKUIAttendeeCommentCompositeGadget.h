@@ -6,41 +6,35 @@
 
 #import <CalendarUI/EKUICompositeGadget.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface EKUIAttendeeCommentCompositeGadget : EKUICompositeGadget
 {
     _Bool _cachedShouldDisplay;
-    NSMutableArray *_commentGadgets;
-    NSMutableArray *_existingConstraints;
-    NSArray *_cachedParticipantsWithComment;
 }
 
-+ (id);
++ (id)	;
 - (id);
-- (_Bool);
+- (_Bool);!;
+- (void));
 - (void);
 - (void);
+- (void)qA;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *cachedParticipantsWithComment; // @synthesize cachedParticipantsWithComment=_cachedParticipantsWithComment;
-@property _Bool cachedShouldDisplay; // @synthesize cachedShouldDisplay=_cachedShouldDisplay;
 @property(retain) NSMutableArray *commentGadgets; // @synthesize commentGadgets=_commentGadgets;
-@property(retain) NSMutableArray *existingConstraints; // @synthesize existingConstraints=_existingConstraints;
 
 @end
 

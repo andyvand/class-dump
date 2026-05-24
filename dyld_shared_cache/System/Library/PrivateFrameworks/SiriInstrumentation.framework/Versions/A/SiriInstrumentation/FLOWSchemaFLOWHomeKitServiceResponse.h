@@ -6,27 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWHomeKitServiceResponse : SISchemaInstrumentationMessage
 {
     int _homeKitServiceType;
-    int _numServicesCompleted;
-    int _numServicesFailed;
-    struct {
-        unsigned int homeKitServiceType:1;
-        unsigned int numServicesCompleted:1;
-        unsigned int numServicesFailed:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (int);
+- (int)|8(	;
 - (int);
 - (int);
 - (_Bool);
@@ -38,7 +29,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)edSiriTaskCount"b1"cancelledSiriTaskCount"b1"completedUITaskCount"b1};
@@ -46,13 +37,7 @@
 - (id)D.	ô/¬0;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeKitServiceType;
-@property(nonatomic) _Bool hasNumServicesCompleted;
-@property(nonatomic) _Bool hasNumServicesFailed;
 @property(nonatomic) int homeKitServiceType; // @synthesize homeKitServiceType=_homeKitServiceType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int numServicesCompleted; // @synthesize numServicesCompleted=_numServicesCompleted;
-@property(nonatomic) int numServicesFailed; // @synthesize numServicesFailed=_numServicesFailed;
 
 @end
 

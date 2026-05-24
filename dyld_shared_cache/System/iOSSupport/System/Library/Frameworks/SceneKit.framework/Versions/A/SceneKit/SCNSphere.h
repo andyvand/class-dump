@@ -9,20 +9,15 @@
 @interface SCNSphere : SCNGeometry
 {
     double _sphereradius;
-    double _sphereradialSpan;
-    long long _spheresegmentCount;
-    long long _sphereprimitiveType;
-    _Bool _spheregeodesic;
-    _Bool _spherehemispheric;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ScriptInjectionController selectRange:inControl:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -30,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (struct __C3DGeometry *);
+- (struct __C3DGeometry *);
 - (void);
 - (id);
 - (_Bool);
@@ -38,12 +33,12 @@
 - (void);
 - (long long);
 - (void);
-- (long long);
+- (long long)Submit;
 - (id);
-- (id);
+- (id)comparePTaskReasonsForFlag:reason1:reason2: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)EventConferenceRoomModelObject;
 - (id);
 - (double);
 - (id)MINATION)
@@ -313,9 +308,7 @@ __DoFragmentModifier__
 ;
 
 // Remaining properties
-@property(nonatomic, getter=isGeodesic) _Bool geodesic;
 @property(nonatomic) double radius;
-@property(nonatomic) long long segmentCount;
 
 @end
 

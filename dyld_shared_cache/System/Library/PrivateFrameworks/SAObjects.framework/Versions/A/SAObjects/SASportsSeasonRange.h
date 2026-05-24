@@ -6,13 +6,13 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SASportsSeasonRange : AceObject
 {
 }
 
-+ (id);
++ (id)2;
 + (id);
 - (void);
 - (id);
@@ -24,16 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSDate *end;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *seasonType;
-@property(copy, nonatomic) NSDate *start;
-@property(readonly) Class superclass;
 
 @end
 

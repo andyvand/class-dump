@@ -11,22 +11,20 @@
 @interface AFSetSettingsRequest : AFSiriRequest
 {
     NSArray *_settings;
-    _Bool _applyChanges;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (void);
 - (void),N,GisClarificationDialogPhase;
 
 // Remaining properties
-@property(nonatomic, setter=_setApplyChanges:) _Bool applyChanges; // @synthesize applyChanges=_applyChanges;
 @property(copy, nonatomic, setter=_setSettings:) NSArray *settings; // @synthesize settings=_settings;
 
 @end

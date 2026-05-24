@@ -4,50 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIStoryboardSegueTemplate
 {
     NSString *_identifier;
-    NSString *_segueClassName;
-    UIViewController *_viewController;
-    NSString *_destinationViewControllerIdentifier;
-    SEL _prepareForChildViewControllerSelector;
-    _Bool _performOnViewLoad;
-    _Bool _animates;
 }
 
 - (void);
 - (SEL);
 - (id);
-- (id);
-- (id);
+- (id)age part matching message part index, possibly retracted part or malformed;
+- (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)_suppressResponseMap_metal:(id)arg1 unsuppressedTexture:suppressedTexture:garbagePixelCount: /* Error: Ran out of types for this method. */;
+- (id)9;
 - (void)!øBùQZ1Â0@ù
 × ;
-- (void)ibleForInterval:(id)arg1;
+- (void)hasEnoughTimeElapsedSizeReorderingBecamePossibleForInterval:(id)arg1;
 - (id)n.;
 - (id)turned a value of class %@, that is not a subclass of NSString. This is an illegal override. overrideImplementation=%p;
 - (void)1±ÔXºb;
 - (id)Jÿ§¼Ð4èd;
 
 // Remaining properties
-@property(nonatomic) _Bool animates; // @synthesize animates=_animates;
-@property(retain, nonatomic) NSString *customPrepareForChildViewControllerSelectorName;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) _Bool performOnViewLoad; // @synthesize performOnViewLoad=_performOnViewLoad;
-@property(readonly, nonatomic) SEL prepareForChildViewControllerSelector;
-@property(nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

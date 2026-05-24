@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AnalyticsWorkspace, NSString;
+@class AnalyticsWorkspace;
 
 @interface ObjectAnalytics
 {
     AnalyticsWorkspace *wspace;
-    NSString *entityName;
-    _Bool managedCache;
 }
 
 - (unsigned long long);
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -35,7 +33,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)__oslogstring;
 - (void);
 - (void);
 

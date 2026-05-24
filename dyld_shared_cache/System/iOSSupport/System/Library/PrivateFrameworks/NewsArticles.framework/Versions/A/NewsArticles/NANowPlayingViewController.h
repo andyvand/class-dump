@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NANowPlayingArtworkView, NANowPlayingBottomControls, NANowPlayingPlaybackControls, NANowPlayingTimeControl, NANowPlayingTitleView, NANowPlayingVolumeSlider, UIButton, UIView, _UIGrabber;
-@protocol NANowPlayingViewControllerDelegate;
+@class UIView;
 
 @interface NANowPlayingViewController
 {
     UIView *_contentView;
-    NANowPlayingArtworkView *_artworkView;
-    NANowPlayingTitleView *_titleView;
-    NANowPlayingTimeControl *_timeControl;
-    NANowPlayingPlaybackControls *_playbackControls;
-    NANowPlayingVolumeSlider *_volumeControl;
-    NANowPlayingBottomControls *_bottomControls;
-    _UIGrabber *_grabberView;
-    UIButton *_dismissButton;
-    id <NANowPlayingViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -26,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,58 +28,47 @@
 - (id);
 - (double);
 - (void);
+- (void)9;
+- (void)ԙ/;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void).;
 - (void);
 - (id);
 - (double);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)ч;
+- (id)#;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)ailed;
+- (void)downloadFailed;
 - (id)pûÓÿDÐ;
 - (id)EndOfArticleFeedConfigManagerType;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NANowPlayingArtworkView *artworkView; // @synthesize artworkView=_artworkView;
-@property(retain, nonatomic) NANowPlayingBottomControls *bottomControls; // @synthesize bottomControls=_bottomControls;
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) __weak id <NANowPlayingViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIButton *dismissButton; // @synthesize dismissButton=_dismissButton;
-@property(readonly, nonatomic) UIButton *ellipsisButton;
-@property(retain, nonatomic) _UIGrabber *grabberView; // @synthesize grabberView=_grabberView;
-@property(retain, nonatomic) NANowPlayingPlaybackControls *playbackControls; // @synthesize playbackControls=_playbackControls;
-@property(readonly, nonatomic) double publisherLogoHeight;
-@property(retain, nonatomic) NANowPlayingTimeControl *timeControl; // @synthesize timeControl=_timeControl;
-@property(retain, nonatomic) NANowPlayingTitleView *titleView; // @synthesize titleView=_titleView;
-@property(retain, nonatomic) NANowPlayingVolumeSlider *volumeControl; // @synthesize volumeControl=_volumeControl;
 
 @end
 

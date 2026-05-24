@@ -11,40 +11,29 @@
 @interface MPMediaPropertyPredicate : MPMediaPredicate
 {
     NSString *_property;
-    id _value;
-    long long _comparisonType;
 }
 
-+ (id);
-+ (id);
++ (id)_missingOk;
++ (id)nrichmentLocation:(id)arg1 Unable to create json from object:(id)arg2 %@;
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)ion"8;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)isClientEntitledForItem:client:applicationIdentifiers:blockedHosts: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)ProxyPACURL;
 - (long long);
-- (id);
+- (id)v;
 - (void)wsCloudItems;
 - (void)MPAVErrorResolverAdditions;
 
 // Remaining properties
-@property(nonatomic) long long comparisonType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *property;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) id value;
 
 @end
 

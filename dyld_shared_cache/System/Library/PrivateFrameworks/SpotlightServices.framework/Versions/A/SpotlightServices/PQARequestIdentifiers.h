@@ -9,16 +9,14 @@
 @interface PQARequestIdentifiers
 {
     NSString *_queryEventId;
-    NSString *_sessionId;
-    NSString *_userTurnId;
 }
 
 - (id);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)Size=dd}24Q40^@48;
+- (id)sourceApplicationMetadataForTransformer: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithIdentifier:storefrontCountryCode:withContext: /* Error: Ran out of types for this method. */;
+- (_Bool)_remoteURLsForEmailCompatibleOutput;
 - (id);
 - (void);
 - (void);
@@ -31,16 +29,11 @@
 - (void)1Â0@ù
 × ;
 - (_Bool)backListener";
-- (id)nResultsSinceLastResponse: /* Error: Ran out of types for this method. */;
-- (void)Logging;
+- (id)setNoChangeInResultsSinceLastResponse: /* Error: Ran out of types for this method. */;
+- (void)_redactLogging;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasQueryEventId;
-@property(readonly, nonatomic) _Bool hasSessionId;
-@property(readonly, nonatomic) _Bool hasUserTurnId;
-@property(retain, nonatomic) NSString *queryEventId; // @synthesize queryEventId=_queryEventId;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(retain, nonatomic) NSString *userTurnId; // @synthesize userTurnId=_userTurnId;
 
 @end
 

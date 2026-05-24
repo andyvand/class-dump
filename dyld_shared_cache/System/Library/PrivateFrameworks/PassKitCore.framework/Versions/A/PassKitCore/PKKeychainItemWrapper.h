@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface PKKeychainItemWrapper
 {
     NSMutableDictionary *keychainItemData;
-    NSMutableDictionary *genericPasswordQuery;
-    _Bool _invisible;
-    unsigned long long type;
-    NSString *_label;
-    unsigned long long _accessibility;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)R(!
+A;
 - (int);
 - (int);
 - (id);
@@ -31,21 +27,17 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)kn;
 - (void);
 - (unsigned long long);
 - (void)org.iso.18013.5.1;
 - (void)le;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accessibility; // @synthesize accessibility=_accessibility;
-@property(retain, nonatomic) NSMutableDictionary *genericPasswordQuery; // @synthesize genericPasswordQuery;
-@property(retain, nonatomic) NSMutableDictionary *keychainItemData; // @synthesize keychainItemData;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) unsigned long long type; // @synthesize type;
 
 @end

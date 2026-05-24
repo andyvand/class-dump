@@ -5,5 +5,8 @@
 //
 
 @protocol UAShortcutPickerViewControllerDelegate
+
+@optional
+- (void)ured";
 @end
 

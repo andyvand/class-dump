@@ -6,51 +6,18 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, NSView;
-@protocol NSPageControllerDelegate;
+@class NSString, NSView;
 
 @interface NSPageController : NSViewController
 {
     NSView *_contentView;
-    NSViewController *_selectedViewController;
-    NSString *_currentIdentifier;
-    long long _transitionStyle;
-    id <NSPageControllerDelegate> _delegate;
-    long long _selectedIndex;
-    NSMutableArray *_arrangedObjects;
-    NSMutableArray *_snapshots;
-    struct __pcDelegateFlags {
-        unsigned int delegateRespondsToIdentifierForRepresentedObject:1;
-        unsigned int delegateRespondsToViewControllerForIdentifier:1;
-        unsigned int delegateRespondsToFrameForRepresentedObject:1;
-        unsigned int delegateRespondsToPrepareView:1;
-        unsigned int delegateRespondsToDidTransition:1;
-        unsigned int delegateRespondsToWillLiveTransition:1;
-        unsigned int delegateRespondsToDidLiveTransition:1;
-        unsigned int delegateRespondsToReserved1:1;
-        unsigned int reserved:24;
-    } _pcDelegateFlags;
-    struct __pcFlags {
-        unsigned int templateCacheIsInvalid:1;
-        unsigned int private1:1;
-        unsigned int private2:1;
-        unsigned int inSwipeGesture:1;
-        unsigned int reserved:28;
-    } _pcFlags;
-    _Bool *_cancelAnimation;
-    NSMutableDictionary *_reuseQueue;
-    NSMutableDictionary *_templateCache;
-    NSView *_transitionView;
-    id _animator;
-    NSDictionary *_animationsDictionary;
-    id _private;
 }
 
-+ (id);
++ (id)m/Library/PrivateFrameworks/NetworkScore.framework/Versions/A/NetworkScore;
 + (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,28 +29,28 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (id)OS_tcp_listener>";
+- (void)set_TLSMaximumSupportedProtocolVersion: /* Error: Ran out of types for this method. */;
+- (id)_onqueue_tlsDisabled;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)esume;
+- (void)g duplicate cookie from the store;
+- (void)threshold to %ld;
+- (void)creds;
+- (id)alid name %@;
+- (id)ropping HTTP field due to invalid name %@;
+- (_Bool)n <%{public}@> no connection to background transfer daemon, and will not try to reconnect;
+- (void)d by ATS;
+- (void)on_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void)L|;
+- (void):(id)arg1 reached maximum of %u;
+- (void)atic const char *_PNAME<CFNAccount>:(long long)arg1:(struct CGRect)arg2 GET() [OBJTYPE = CFNAccount];
+- (void)_TLSMinimumSupportedProtocolVersion;
+- (id)etry - nil statement, nothing to step.;
+- (_Bool)_kCFHTTPCookiePolicyPropertyIsSafeRequest;
+- (void)NSURLDownloadBinHexEncodedData;
 - (struct CGRect);
 - (id);
 - (struct CGRect);
@@ -97,9 +64,9 @@
 - (void);
 - (Class);
 - (void);
-- (void);
+- (void)?;
 - (id);
-- (void);
+- (void):QT /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -111,7 +78,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)itingTracker;
 - (void);
 - (void)0@ù
 × ;
@@ -125,14 +92,7 @@
 - (id)'Ö¨H;
 
 // Remaining properties
-@property(copy) NSDictionary *animations;
-@property(copy) NSArray *arrangedObjects;
-@property NSView *contentView; // @synthesize contentView=_contentView;
 @property(retain) NSString *currentIdentifier; // @synthesize currentIdentifier=_currentIdentifier;
-@property __weak id <NSPageControllerDelegate> delegate;
-@property long long selectedIndex;
-@property(retain) NSViewController *selectedViewController; // @synthesize selectedViewController=_selectedViewController;
-@property long long transitionStyle; // @synthesize transitionStyle=_transitionStyle;
 
 @end
 

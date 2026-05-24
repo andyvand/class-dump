@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
 @protocol AMSBagProtocol;
 
 __attribute__((visibility("hidden")))
 @interface AMSClipMediaURLBuilder
 {
     id <AMSBagProtocol> _bag;
-    NSString *_bundleID;
-    NSNumber *_externalVersionID;
 }
 
 - (void);
@@ -34,8 +31,6 @@ EÊ<Æu¸Õ+6j-0×f}Ó­ãCi`Â?®RNï3Xºøº?"òU`[�
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSNumber *externalVersionID; // @synthesize externalVersionID=_externalVersionID;
 
 @end
 

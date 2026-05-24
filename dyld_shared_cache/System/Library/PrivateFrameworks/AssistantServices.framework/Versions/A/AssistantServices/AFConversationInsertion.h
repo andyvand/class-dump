@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AceObject, NSIndexPath, NSString;
-
 @interface AFConversationInsertion
 {
     _Bool _transient;
-    _Bool _supplemental;
-    _Bool _immersiveExperience;
-    _Bool _persistentAcrossInvocations;
-    long long _conversationItemType;
-    AceObject *_aceObject;
-    NSString *_aceCommandIdentifier;
-    NSIndexPath *_indexPath;
 }
 
 - (_Bool);
@@ -23,21 +14,14 @@
 - (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (_Bool);
-- (void)FSiriTask;
+- (void)AFSiriTask;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *aceCommandIdentifier; // @synthesize aceCommandIdentifier=_aceCommandIdentifier;
-@property(readonly, nonatomic) AceObject *aceObject; // @synthesize aceObject=_aceObject;
 @property(readonly, nonatomic) long long conversationItemType; // @synthesize conversationItemType=_conversationItemType;
-@property(readonly, nonatomic, getter=isImmersiveExperience) _Bool immersiveExperience; // @synthesize immersiveExperience=_immersiveExperience;
-@property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic, getter=isPersistentAcrossInvocations) _Bool persistentAcrossInvocations; // @synthesize persistentAcrossInvocations=_persistentAcrossInvocations;
-@property(readonly, nonatomic, getter=isSupplemental) _Bool supplemental; // @synthesize supplemental=_supplemental;
-@property(readonly, nonatomic, getter=isTransient) _Bool transient; // @synthesize transient=_transient;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServerBagCacheLoader, IDSServerBagConfig, IDSServerBagNetworkLoader, IDSServerBagRawContents, IDSServerBagValidator, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class IDSServerBagRawContents;
 
 @interface IDSServerBagInProcessContentProvider
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _contentsUpdatedBlock;
-    IDSServerBagRawContents *_loadedRawContents;
-    NSMutableDictionary *_overrideValues;
-    NSObject<OS_dispatch_queue> *_queue;
-    IDSServerBagConfig *_config;
-    IDSServerBagNetworkLoader *_networkLoader;
-    IDSServerBagCacheLoader *_cacheLoader;
-    IDSServerBagValidator *_validator;
 }
 
 - (id);
@@ -25,10 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)>;
 - (id);
 - (_Bool);
 - (id);
@@ -44,31 +35,14 @@
 - (void);
 - (void);
 - (id);
-- (id)tLevelEncryptionDisabled;
+- (id)transportLevelEncryptionDisabled;
 - (struct os_unfair_lock_s)¿G;
 - (void):%{public}@} /* Error: Ran out of types for this method. */;
 - (void)s):(struct os_unfair_lock_s)arg1 logging connection tree after retry;
 - (_Bool)rials;
 
 // Remaining properties
-@property(retain, nonatomic) IDSServerBagCacheLoader *cacheLoader; // @synthesize cacheLoader=_cacheLoader;
-@property(retain, nonatomic) IDSServerBagConfig *config; // @synthesize config=_config;
-@property(copy, nonatomic) CDUnknownBlockType contentsUpdatedBlock; // @synthesize contentsUpdatedBlock=_contentsUpdatedBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLoading;
-@property(readonly, nonatomic) _Bool isServerAvailable;
 @property(retain, nonatomic) IDSServerBagRawContents *loadedRawContents; // @synthesize loadedRawContents=_loadedRawContents;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) IDSServerBagNetworkLoader *networkLoader; // @synthesize networkLoader=_networkLoader;
-@property(retain, nonatomic) NSMutableDictionary *overrideValues; // @synthesize overrideValues=_overrideValues;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) IDSServerBagValidator *validator; // @synthesize validator=_validator;
 
 @end
 

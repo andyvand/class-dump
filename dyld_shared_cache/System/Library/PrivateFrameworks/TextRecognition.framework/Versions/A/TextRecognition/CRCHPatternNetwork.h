@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CRCHPatternNetwork
 {
     void *_network;
-    NSDictionary *_symbols;
-    NSDictionary *_startEdges;
-    NSDictionary *_startCursorForContentTypes;
 }
 
 + (id);
-+ (id);
++ (id)R(;
 + (id);
 + (id);
 + (id);

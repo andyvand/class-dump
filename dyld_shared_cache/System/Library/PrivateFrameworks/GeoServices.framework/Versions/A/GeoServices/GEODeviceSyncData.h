@@ -9,21 +9,15 @@
 @interface GEODeviceSyncData
 {
     PBUnknownFields *_unknownFields;
-    struct GEOSessionID _sessionId;
-    double _createTime;
-    struct {
-        unsigned int has_sessionId:1;
-        unsigned int has_createTime:1;
-    } _flags;
 }
 
-+ (_Bool)etHasPreferredTransportMode:(id)arg1;
-- (void);
++ (_Bool)setHasPreferredTransportMode:(id)arg1;
+- (void)B;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)setHasReceivedNDEAPIResult:(id)arg1;
+- (void)xpected zero or negative component values:(_Bool)arg1 _stopRecordingHostTime:%{public}llu, _userSpeakingEndedHostTime:%{public}llu, _userSpeakingEndedTimeInMs:%{public}f, _endpointTimeInMs:%{public}f /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -31,10 +25,10 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (void);
-- (id)ointIndex:(struct _NSZone *)arg1;
-- (id)OMapURLBuilder;
-- (id)ETWORK_CONNECTIVITY_WIFI;
+- (void);
+- (id)setHasCurrentWaypointIndex:(struct _NSZone *)arg1;
+- (id)GEOMapURLBuilder;
+- (id)DEVICE_NETWORK_CONNECTIVITY_WIFI;
 - (id)ÿÿ=;
 - (void);
 - (void)Ü×sFt@;
@@ -44,11 +38,7 @@
 - (void)e5;
 
 // Remaining properties
-@property(nonatomic) double createTime;
-@property(nonatomic) _Bool hasCreateTime;
 @property(nonatomic) _Bool hasSessionId;
-@property(nonatomic) struct GEOSessionID sessionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

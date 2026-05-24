@@ -4,30 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface HMFMutableThreadSafeDictionary
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_dictionary;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
+- (id)defaultCenter;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)__TEXT;
+- (id)Handler:(struct _NSZone *)arg1 ];
 - (void);
 - (id);
 - (unsigned long long);
@@ -35,9 +34,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allKeys;
-@property(readonly, copy) NSArray *allValues;
-@property(readonly) unsigned long long count;
 @property(readonly, copy) NSDictionary *rawDictionarySnapshot;
 
 @end

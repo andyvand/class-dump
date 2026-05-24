@@ -9,7 +9,6 @@
 @interface IDSPopupPrompt
 {
     NSString *_title;
-    NSString *_message;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (id)tionHandler: /* Error: Ran out of types for this method. */;
+- (id)openURL:configuration:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)ption but encrypting container is missing NGMPublicDeviceIdentity;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

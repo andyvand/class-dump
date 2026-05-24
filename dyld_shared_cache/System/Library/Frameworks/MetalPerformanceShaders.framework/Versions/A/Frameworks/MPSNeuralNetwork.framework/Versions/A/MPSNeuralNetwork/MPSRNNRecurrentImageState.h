@@ -7,16 +7,14 @@
 @interface MPSRNNRecurrentImageState
 {
     id *recurrentImages;
-    id *cellImages;
-    int nLayers;
-    _Bool _isTemporary;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)lu items (%ld items are L1 topHit candidates, %ld items are L2 topHit candidates)
+;
 - (_Bool);
 
 @end

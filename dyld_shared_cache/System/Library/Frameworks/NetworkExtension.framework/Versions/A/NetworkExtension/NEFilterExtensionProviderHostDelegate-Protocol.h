@@ -5,5 +5,6 @@
 //
 
 @protocol NEFilterExtensionProviderHostDelegate
+- (void)&;
 @end
 

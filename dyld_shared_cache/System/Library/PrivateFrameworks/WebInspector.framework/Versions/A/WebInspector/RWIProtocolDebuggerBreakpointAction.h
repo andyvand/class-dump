@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString;
-
 @interface RWIProtocolDebuggerBreakpointAction : RWIProtocolJSONObject
 {
 }
@@ -23,9 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *data;
-@property(nonatomic) _Bool emulateUserGesture;
-@property(nonatomic) int identifier;
 @property(nonatomic) long long type;
 
 @end

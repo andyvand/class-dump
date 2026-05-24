@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
 @interface _NSObservableKVO1Adaptor : _NSObservableObservation
 {
     NSObservableKeyPath *kp;
-    _Bool emitsChanges;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

@@ -11,21 +11,17 @@
     NSString *_customAttributeName;
 }
 
-- (_Bool);
+- (_Bool)7;
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (unsigned long long);
 - (unsigned long long);
-- (void)luginType: /* Error: Ran out of types for this method. */;
-- (id)ESGCM16;
+- (void)setPluginType: /* Error: Ran out of types for this method. */;
+- (id)AESGCM16;
 
 // Remaining properties
-@property(readonly) NSString *attributeName;
 @property(readonly) unsigned long long attributeType;
-@property(readonly) NSString *typeDescription;
-@property(readonly) _Bool validForChildlessSA;
-@property(readonly) unsigned long long valueType;
 
 @end
 

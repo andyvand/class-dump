@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIVisualEffectViewEntry.h>
 
-@class CALayer, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface _UICoreUIEffectViewEntry : _UIVisualEffectViewEntry
@@ -14,26 +14,19 @@ __attribute__((visibility("hidden")))
     CALayer *_materialLayer;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)Vocabulary";
+- (void)sharedInstanceForBagType:(id)arg1;
+- (id)deleteAllNoticesWithCollaborationIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)estHoverEventsByContextID;
+- (void)_latestHoverEventsByContextID;
 - (_Bool)ÏÐL³Ù;
 - (void)"Ô¢`;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CALayer *materialLayer; // @synthesize materialLayer=_materialLayer;
-@property(readonly) Class superclass;
 
 @end
 

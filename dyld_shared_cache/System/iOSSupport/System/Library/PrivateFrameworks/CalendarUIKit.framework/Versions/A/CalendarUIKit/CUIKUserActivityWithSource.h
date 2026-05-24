@@ -6,13 +6,9 @@
 
 #import <CalendarUIKit/CUIKUserActivity.h>
 
-@class NSString;
-
 @interface CUIKUserActivityWithSource : CUIKUserActivity
 {
     long long _sourceType;
-    NSString *_sourceHost;
-    NSString *_sourceOwner;
 }
 
 - (unsigned long long);
@@ -21,9 +17,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)_isCritical;
 - (id);
-- (id);
-- (void)ment: /* Error: Ran out of types for this method. */;
+- (void)stringWithOnlyAutoComment: /* Error: Ran out of types for this method. */;
 
 @end
 

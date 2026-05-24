@@ -7,11 +7,6 @@
 @interface CKElasticFunction
 {
     double _currentValue;
-    double _elastic;
-    double _oldForce;
-    double _velocity;
-    double _friction;
-    double _tension;
 }
 
 + (id);
@@ -28,10 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) double friction; // @synthesize friction=_friction;
-@property(nonatomic) double input; // @synthesize input=_currentValue;
-@property(readonly, nonatomic) double output;
-@property(nonatomic) double tension; // @synthesize tension=_tension;
-@property(readonly, nonatomic) double velocity;
 
 @end
 

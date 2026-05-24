@@ -7,19 +7,15 @@
 @interface NewsArticles.ArticleNavigationBarMessageContainer
 {
     id textForArticleMessage;
-    id defaultView;
-    id messageLabel;
-    id clipView;
-    id state;
 }
 
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (void)er;
+- (void)layoutProvider;
 
 @end
 

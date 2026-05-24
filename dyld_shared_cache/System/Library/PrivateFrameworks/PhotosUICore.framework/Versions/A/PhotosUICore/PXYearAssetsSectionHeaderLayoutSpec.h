@@ -11,7 +11,7 @@
     struct NSEdgeInsets padding;
 }
 
-- (id);
+- (id);
 - (id);
 - (struct NSEdgeInsets)KÊ;
 - (void)¯b;

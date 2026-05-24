@@ -6,38 +6,10 @@
 
 #import <UIKitCore/_UINavigationBarVisualProvider.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIColor, UIFocusContainerGuide, UIImageSymbolConfiguration, UIView, UIVisualEffectView, _UIBarButtonItemAppearanceStorage, _UIButtonBarButton, _UICarTitleView, _UINavigationButtonBarWrapperView, _UIScrollPocketInteraction;
-
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarVisualProviderCarPlaySolarium : _UINavigationBarVisualProvider
 {
     struct UIEdgeInsets _desiredLayoutMargins;
-    _Bool _compactMetrics;
-    _Bool _havePrepared;
-    _UIBarButtonItemAppearanceStorage *_appearanceStorage;
-    _UIScrollPocketInteraction *_scrollPocketInteraction;
-    UIView *_contentView;
-    _UICarTitleView *_titleView;
-    _UINavigationButtonBarWrapperView *_leadingBarView;
-    _UINavigationButtonBarWrapperView *_trailingBarView;
-    _UIButtonBarButton *_backBarButton;
-    NSLayoutConstraint *_leadingBarConstraint;
-    NSLayoutConstraint *_leadingBarNoItemsConstraint;
-    NSLayoutConstraint *_trailingBarConstraint;
-    NSLayoutConstraint *_trailingBarNoItemsConstraint;
-    NSLayoutConstraint *_backButtonLeadingConstraint;
-    NSLayoutConstraint *_backButtonTrailingConstraint;
-    NSLayoutConstraint *_leadingBarAfterBackButtonConstraint;
-    NSLayoutConstraint *_largeTitleLeadingConstraint;
-    NSLayoutConstraint *_largeTitleTrailingConstraint;
-    NSLayoutConstraint *_regularTitleConstraint;
-    NSLayoutConstraint *_leadingBarWithTitleTrailingConstraint;
-    NSLayoutConstraint *_leadingBarWithNoTitleTrailingConstraint;
-    NSLayoutConstraint *_trailingBarWithTitleLeadingConstraint;
-    NSLayoutConstraint *_trailingBarWithNoTitleLeadingConstraint;
-    UIVisualEffectView *_backgroundView;
-    UIFocusContainerGuide *_focusContainerGuide;
-    NSArray *_debugViews;
 }
 
 - (void);
@@ -47,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)on: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:kickedMembersChangedForConversation: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)ial sync device conditions check if CloudKit sync is enabled:%@, hasAccounts %@ /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (id)* Timed out creating salt zone *******;
+- (struct CGSize)W.;
 - (id);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
+- (id)em reader writer failed.;
 - (id);
 - (id);
 - (struct CGSize);
@@ -97,41 +69,41 @@ __attribute__((visibility("hidden")))
 - (void)Controller"24@0:8@"UIViewController"16 /* Error: Ran out of types for this method. */;
 - (void)avigationBarGestureHandler"16{CGPoint=dd}24;
 - (void)_UICGFloatTraitTokenProtocol>"16;
-- (void)HomeDirectory;
-- (id)dTaskForTouchState: /* Error: Ran out of types for this method. */;
-- (void)ControllerForDismissal;
-- (unsigned long long)edHeight:(id)arg1;
-- (void)ionsDidChange:(_Bool)arg1;
-- (void)Events:(id)arg1;
-- (id)pTimestamp: /* Error: Ran out of types for this method. */;
-- (void)teWordLastDelete:(id)arg1;
-- (void)deDragWindowToPoint:(id)arg1;
-- (void)enterX;
-- (id)WithArray: /* Error: Ran out of types for this method. */;
-- (void)opAtIndexPath:(id)arg1;
-- (void)ect:(id)arg1 namesAndObjects: /* Error: Ran out of types for this method. */;
-- (void)on;
-- (_Bool)Document;
+- (void)userHomeDirectory;
+- (id)touchDraggedTaskForTouchState: /* Error: Ran out of types for this method. */;
+- (void)shouldUseVisualStyleAnimationControllerForDismissal;
+- (unsigned long long)setUnobstructedHeight:(id)arg1;
+- (void)setSwipeActionsDidChange:(_Bool)arg1;
+- (void)setPaused:(id)arg1 withEvents:(id)arg2;
+- (id)setLastTwoFingerTapTimestamp: /* Error: Ran out of types for this method. */;
+- (void)setDeleteWordLastDelete:(id)arg1;
+- (void)overrideDragWindowToPoint:(id)arg1;
+- (void)labelStackViewTrailingToIconViewCenterX;
+- (id)initWithArray: /* Error: Ran out of types for this method. */;
+- (void)dragDestinationController:(id)arg1 didPerformDropAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)descriptionForObject:(id)arg1 namesAndObjects: /* Error: Ran out of types for this method. */;
+- (void)clearStashedSelection;
+- (_Bool)cgPDFDocument;
 - (_Bool)alignCenter: /* Error: Ran out of types for this method. */;
-- (void)bleCellsForRanges:(id)arg1 createIfNecessary:(id)arg2;
-- (void)ngByRemovingFirstMatchFromPrefixes:(id)arg1;
-- (void)ction:(id)arg1;
-- (_Bool)rollInDirection:(id)arg1;
-- (void):(_Bool)arg1 animation:(CDUnknownBlockType)arg2;
-- (void)sesForEvent:(id)arg1 inPhase: /* Error: Ran out of types for this method. */;
-- (double)ewController:contentScrollView:gettingNavBarFrame:topPaletteFrame: /* Error: Ran out of types for this method. */;
+- (void)_updateVisibleCellsForRanges:(id)arg1 createIfNecessary:(id)arg2;
+- (void)_uikit_stringByRemovingFirstMatchFromPrefixes:(id)arg1;
+- (void)_setAllowUserInteraction:(id)arg1;
+- (_Bool)_lowFidelityScrollInDirection:(id)arg1;
+- (void)_finishedSettingStyleWithOldHeight:(_Bool)arg1 newHeight:(CDUnknownBlockType)arg2 animation:(unsigned long long)arg3;
+- (void)_delayPressesForEvent:(id)arg1 inPhase: /* Error: Ran out of types for this method. */;
+- (double)_calculateTopViewFramesForExpandedLayoutWithViewController:contentScrollView:gettingNavBarFrame:topPaletteFrame: /* Error: Ran out of types for this method. */;
 - (void)hing:targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
-- (void)ewForAction: /* Error: Ran out of types for this method. */;
+- (void)_actionRepresentationViewForAction: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)tion;
 - (id)ack;
-- (void)rgetKeyIndexAtOffset:(id)arg1 fromKey: /* Error: Ran out of types for this method. */;
+- (void)targetKeyIndexAtOffset:(id)arg1 fromKey: /* Error: Ran out of types for this method. */;
 - (void)tashedDismissalPreview;
 - (void)sAnimationCoordinator;
 - (id)@"UITabGroup",R,W,N,V_parent;
-- (void)stParentStackAlignmentFrame;
-- (id)TKeyboardTouchObserver;
-- (_Bool)lerDelegate;
+- (void)__hostParentStackAlignmentFrame;
+- (id)_UIKBRTKeyboardTouchObserver;
+- (_Bool)STKEmojiAndStickerCollectionViewControllerDelegate;
 - (void)ð;
 - (void)dµp·;
 - (void)°Ý;
@@ -146,18 +118,18 @@ __attribute__((visibility("hidden")))
 - (void)Ôéÿ´Äaþà¸þÿ;
 - (void)TþÿÄËîÿ;
 - (_Bool)ofreadingDecorationInfo.m;
-- (double)tes;
+- (double)SystemAppInProcessAnimationsFlushUpdates;
 - (_Bool));
-- (void)rideScreenSharing;
-- (void)ingNotification;
-- (id)VisibilityNotification;
+- (void)UIStatusBarStyleOverrideScreenSharing;
+- (void)UIApplicationDidFinishLaunchingNotification;
+- (id)UIKeyboardNeedsUpdatingKeyboardDockViewVisibilityNotification;
 - (long long)ndex *);
 - (void)ed by the system.;
 - (long long)equest"24@?0@"NSArray"8^B16;
 - (id)efore the update;
 - (void)4þÿ~ýýÿ&þÿ;
-- (double)ate_p;
-- (id)TextView;
+- (double)So31_UIFloatingBarContainerDelegate_p;
+- (id)PromptEntryTextView;
 - (void);
 - (void)_UILayoutRuleEvaluationContext;
 - (id)<¬\;
@@ -166,55 +138,7 @@ __attribute__((visibility("hidden")))
 - (id)ëÝü_;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _UIBarButtonItemAppearanceStorage *appearanceStorage; // @synthesize appearanceStorage=_appearanceStorage;
-@property(retain, nonatomic) _UIButtonBarButton *backBarButton; // @synthesize backBarButton=_backBarButton;
-@property(retain, nonatomic) NSLayoutConstraint *backButtonLeadingConstraint; // @synthesize backButtonLeadingConstraint=_backButtonLeadingConstraint;
-@property(readonly, nonatomic) double backButtonMargin;
-@property(readonly, nonatomic) double backButtonMaximumWidth;
-@property(retain, nonatomic) NSLayoutConstraint *backButtonTrailingConstraint; // @synthesize backButtonTrailingConstraint=_backButtonTrailingConstraint;
-@property(retain, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) long long barType;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) _Bool centerTextButtons;
-@property(readonly, nonatomic) _Bool compactMetrics; // @synthesize compactMetrics=_compactMetrics;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSArray *debugViews; // @synthesize debugViews=_debugViews;
-@property(readonly, nonatomic) double defaultEdgeSpacing;
-@property(readonly, nonatomic) double defaultTextPadding;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIFocusContainerGuide *focusContainerGuide; // @synthesize focusContainerGuide=_focusContainerGuide;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool havePrepared; // @synthesize havePrepared=_havePrepared;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *imageSymbolConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImageSymbolConfiguration",?,R,N
-
-@property(retain, nonatomic) NSLayoutConstraint *largeTitleLeadingConstraint; // @synthesize largeTitleLeadingConstraint=_largeTitleLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *largeTitleTrailingConstraint; // @synthesize largeTitleTrailingConstraint=_largeTitleTrailingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarAfterBackButtonConstraint; // @synthesize leadingBarAfterBackButtonConstraint=_leadingBarAfterBackButtonConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarConstraint; // @synthesize leadingBarConstraint=_leadingBarConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarNoItemsConstraint; // @synthesize leadingBarNoItemsConstraint=_leadingBarNoItemsConstraint;
-@property(retain, nonatomic) _UINavigationButtonBarWrapperView *leadingBarView; // @synthesize leadingBarView=_leadingBarView;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarWithNoTitleTrailingConstraint; // @synthesize leadingBarWithNoTitleTrailingConstraint=_leadingBarWithNoTitleTrailingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leadingBarWithTitleTrailingConstraint; // @synthesize leadingBarWithTitleTrailingConstraint=_leadingBarWithTitleTrailingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *regularTitleConstraint; // @synthesize regularTitleConstraint=_regularTitleConstraint;
-@property(retain, nonatomic) _UIScrollPocketInteraction *scrollPocketInteraction; // @synthesize scrollPocketInteraction=_scrollPocketInteraction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIColor *tintColor;
-@property(retain, nonatomic) _UICarTitleView *titleView; // @synthesize titleView=_titleView;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarConstraint; // @synthesize trailingBarConstraint=_trailingBarConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarNoItemsConstraint; // @synthesize trailingBarNoItemsConstraint=_trailingBarNoItemsConstraint;
-@property(retain, nonatomic) _UINavigationButtonBarWrapperView *trailingBarView; // @synthesize trailingBarView=_trailingBarView;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarWithNoTitleLeadingConstraint; // @synthesize trailingBarWithNoTitleLeadingConstraint=_trailingBarWithNoTitleLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *trailingBarWithTitleLeadingConstraint; // @synthesize trailingBarWithTitleLeadingConstraint=_trailingBarWithTitleLeadingConstraint;
 
 @end
 

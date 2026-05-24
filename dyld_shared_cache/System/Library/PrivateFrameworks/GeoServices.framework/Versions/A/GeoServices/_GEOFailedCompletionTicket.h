@@ -6,13 +6,12 @@
 
 #import <GeoServices/_GEOFailedTicket.h>
 
-@class GEOMapServiceTraits, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOFailedCompletionTicket : _GEOFailedTicket
 {
     NSString *searchQuery;
-    NSString *_searchQuery;
 }
 
 - (void);
@@ -26,32 +25,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)A;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (_Bool)syncWithRequests:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)setRequestedInfoIdentifierCount:(id)arg1;
+- (void)setRequestedContainerIdentifierCount:(id)arg1;
+- (id)enabledPersistentAccounts;
 - (id);
 - (void);
-- (void);
+- (void)ime:(id)arg1 eventType:withMetrics:usesAutomaticEndpointing:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) CDStruct_d1a7ebee dataRequestKind;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=_searchQuery) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end
 

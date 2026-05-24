@@ -8,17 +8,10 @@
 {
     id _calloutQueue;
     id _queue;
-    id _queue_connection;
-    id _queue_iconSandboxExtensions;
-    id _queue_archiveSandboxExtension;
-    id _accessoryID;
-    id _logIdentifier;
-    id _logger;
-    id _calloutQueue_delegate;
 }
 
-- (void);
-- (void);
+- (void)(�	;
+- (void)I;
 - (void);
 - (id);
 - (void);

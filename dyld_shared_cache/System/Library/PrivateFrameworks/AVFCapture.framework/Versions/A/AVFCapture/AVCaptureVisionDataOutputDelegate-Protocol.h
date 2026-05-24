@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVCaptureVisionDataOutput;
+
 @protocol AVCaptureVisionDataOutputDelegate
+
+@optional
+- (void)writeToURL:(AVCaptureVisionDataOutput *)arg1 options:(struct __CVBuffer *)arg2 error:(CDStruct_1b6d18a9)arg3;
+- (void)writeAllData:(AVCaptureVisionDataOutput *)arg1 withCompletion:(CDStruct_1b6d18a9)arg2;
 @end
 

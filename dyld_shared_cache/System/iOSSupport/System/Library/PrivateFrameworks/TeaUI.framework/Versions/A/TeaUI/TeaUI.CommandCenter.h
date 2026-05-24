@@ -7,9 +7,6 @@
 @interface TeaUI.CommandCenter
 {
     id handlers;
-    id stateObserverStore;
-    id executionObserverStore;
-    id contextStore;
 }
 
 @end

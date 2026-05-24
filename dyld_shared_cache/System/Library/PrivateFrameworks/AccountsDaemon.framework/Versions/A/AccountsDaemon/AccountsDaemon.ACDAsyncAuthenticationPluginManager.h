@@ -7,9 +7,6 @@
 @interface AccountsDaemon.ACDAsyncAuthenticationPluginManager
 {
     id $defaultActor;
-    id authPluginLoader;
-    id authPluginsByType;
-    id renewalTasksByKey;
 }
 
 - (void);

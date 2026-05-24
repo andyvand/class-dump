@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSTextSmartReplyMessagesController
 {
@@ -14,19 +12,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGRect);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)_kCFStreamPropertyFTPLogInOnly;
+- (_Bool)MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

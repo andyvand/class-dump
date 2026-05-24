@@ -5,5 +5,6 @@
 //
 
 @protocol MXMSProxyPerformanceTrace_Internal
+- (void);
 @end
 

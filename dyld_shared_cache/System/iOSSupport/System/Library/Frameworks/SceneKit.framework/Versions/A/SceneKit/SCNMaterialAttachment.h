@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface SCNMaterialAttachment
 {
     unsigned int glID;
-    unsigned int target;
-    void *context;
-    struct CGSize size;
-    NSDictionary *options;
 }
 
 + (id);
@@ -22,19 +16,15 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (struct CGSize);
-- (id);
-- (void);
+- (id)yout"32;
+- (void)weakObjectValue;
 - (void *);
 - (void);
 
 // Remaining properties
-@property(nonatomic) void *context; // @synthesize context;
 @property(nonatomic) unsigned int glID; // @synthesize glID;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options;
-@property(nonatomic) struct CGSize size; // @synthesize size;
-@property(nonatomic) unsigned int target; // @synthesize target;
 
 @end
 

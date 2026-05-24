@@ -7,13 +7,6 @@
 @interface ChronoKit.WidgetExtension
 {
     id info;
-    id disablesImplicitDescriptorDiscovery;
-    id exExtensionIdentity;
-    id preferredLanguages;
-    id hasConfigurationColorAssets;
-    id _preferredLanguageChangeLock;
-    id _preferredLanguageChangeUpdateInitial;
-    id _preferredLanguageChangeUpdateRequired;
 }
 
 @end

@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSDate, NSString;
-
 @interface INListRideOptionsIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)associateThumbnailImagesDictionary:(long long)arg1 serializedQuickLookMetadata:withImmutableDocument:atURL:error: /* Error: Ran out of types for this method. */;
++ (long long)_thumbnailRequestGenerationWillStartBlock;
++ (_Bool)_removeAdditionsOnURLDirectly:(long long)arg1 error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
@@ -26,28 +24,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)predicted column.;
+- (id)_onqueue_registerPhysicalDevice:(id)arg1 serviceInfo:checkForDuplicateDevice: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)e.log('check4'); let value = '%@'; if (element.type.toLowerCase() == 'checkbox'){ element.value = value; element.checked = true; element.dispatchEvent(new Event('change', { bubbles:(id)arg1 true, composed:true, cancelable:true } )); element.dispatchEvent(new Event('click', { bubbles:true, composed:true, cancelable:true } )); } else { element.value = value; element.dispatchEvent(new Event('input', { bubbles:true, composed:true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (long long)esponseExport;
+- (long long)INSaveParkingLocationIntentResponseExport;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDate *expirationDate;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *paymentMethods;
-@property(copy) NSArray *rideOptions;
-@property(readonly) Class superclass;
 
 @end
 

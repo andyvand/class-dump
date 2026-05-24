@@ -11,9 +11,9 @@
 }
 
 + (id);
-+ (unsigned short);
-+ (unsigned short);
-- (id);
++ (unsigned short);
++ (unsigned short)!(cAa	\a;
+- (id)AMSPushParsableRichNotification;
 
 @end
 

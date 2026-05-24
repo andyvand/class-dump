@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSButton, NSPopUpButton, NSStackView, NSString, NSTextField, NSWindow;
+@class NSAlert;
 
 __attribute__((visibility("hidden")))
 @interface AutoFillInternalFeedbackAlertController
 {
     NSAlert *_alert;
-    NSWindow *_sheetWindow;
-    NSButton *_cancelButton;
-    NSButton *_continueInTapToRadarButton;
-    double _stackViewWidth;
-    NSStackView *_accessoryStackView;
-    NSPopUpButton *_feedbackCategoryPopupButton;
-    NSStackView *_detailsStackView;
-    NSButton *_regressionCheckBox;
-    NSTextField *_knownWorkingBuildTextField;
 }
 
 - (void);
@@ -36,13 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface MSASEnqueuedCommand
 {
     NSString *_command;
-    NSDictionary *_variantParam;
-    NSDictionary *_invariantParam;
 }
 
++ (id)nabled for non-doorbell, non-motion characteristic;
 + (id);
-+ (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)tion;
+- (void)tion specified for home %@ awaiting auto accept;
+- (void)lback. regionState:(id)arg1 %@, vacationState:%@ /* Error: Ran out of types for this method. */;
+- (id)to decode person links:%@ /* Error: Ran out of types for this method. */;
+- (id)xpected attribute '%{public}@' for %{public}@;
+- (_Bool)Updating associated group identifier:(id)arg1 %@ for group identifier:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *command; // @synthesize command=_command;
-@property(retain, nonatomic) NSDictionary *invariantParam; // @synthesize invariantParam=_invariantParam;
-@property(retain, nonatomic) NSDictionary *variantParam; // @synthesize variantParam=_variantParam;
 
 @end
 

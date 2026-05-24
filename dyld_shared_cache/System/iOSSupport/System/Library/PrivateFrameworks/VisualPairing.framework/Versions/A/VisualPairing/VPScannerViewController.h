@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIButton, UILabel, UIView, VPScannerView;
+@class UIButton, UIView;
 
 @interface VPScannerViewController
 {
     CDUnknownBlockType _eventHandler;
     CDUnknownBlockType _scannedCodeHandler;
-    NSString *_titleMessage;
-    UIView *_containerView;
-    UIButton *_cancelButton;
-    UIButton *_pairManuallyButton;
-    VPScannerView *_scannerView;
-    UILabel *_subtitleLabel;
-    UILabel *_titleLabel;
-    UIView *_viewfinderView;
 }
 
 + (id);
@@ -35,15 +27,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Internal/Library/BuildRoots/4~CN9SugDQ7XfdI6wkt5BVrjTZQAbhvWn9-4IHbbI/Library/Caches/com.apple.xbs/TemporaryDirectory.l1tWzK/Sources/WebGPU_iosmac/Source/WebGPU/WebGPU/Pipeline.mm;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)8;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)flushPendingCapturedSampleBuffers;
 - (void);
 - (id);
 - (void);
@@ -53,14 +45,6 @@
 // Remaining properties
 @property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(retain, nonatomic) UIButton *pairManuallyButton; // @synthesize pairManuallyButton=_pairManuallyButton;
-@property(copy, nonatomic) CDUnknownBlockType scannedCodeHandler; // @synthesize scannedCodeHandler=_scannedCodeHandler;
-@property(retain, nonatomic) VPScannerView *scannerView; // @synthesize scannerView=_scannerView;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(copy, nonatomic) NSString *titleMessage; // @synthesize titleMessage=_titleMessage;
-@property(retain, nonatomic) UIView *viewfinderView; // @synthesize viewfinderView=_viewfinderView;
 
 @end
 

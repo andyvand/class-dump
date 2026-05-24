@@ -9,7 +9,6 @@
 @interface IMTapbackSummaryActionStringFormat
 {
     _Bool _requiresReactionReplacment;
-    NSString *_actionStringFormat;
 }
 
 - (_Bool);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionStringFormat; // @synthesize actionStringFormat=_actionStringFormat;
-@property(readonly, nonatomic) _Bool requiresReactionReplacment; // @synthesize requiresReactionReplacment=_requiresReactionReplacment;
 
 @end
 

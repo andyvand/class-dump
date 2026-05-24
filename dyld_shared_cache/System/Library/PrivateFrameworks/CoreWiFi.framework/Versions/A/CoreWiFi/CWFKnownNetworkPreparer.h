@@ -10,31 +10,29 @@ __attribute__((visibility("hidden")))
 @interface CWFKnownNetworkPreparer
 {
     unsigned long long _maxResults;
-    NSArray *_profiles;
 }
 
 - (void);
 - (_Bool);
+- (id)@;
 - (id);
 - (id);
+- (CDUnknownBlockType);
 - (id);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (void),N,V_AssetVersion;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxResults; // @synthesize maxResults=_maxResults;
 @property(retain, nonatomic) NSArray *profiles; // @synthesize profiles=_profiles;
 
 @end

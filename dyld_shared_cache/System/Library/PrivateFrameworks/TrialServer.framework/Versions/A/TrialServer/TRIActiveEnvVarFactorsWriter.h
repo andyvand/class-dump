@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASXPCClientHelper;
 @protocol TRIPaths;
 
 @interface TRIActiveEnvVarFactorsWriter
 {
     id <TRIPaths> _paths;
-    _PASXPCClientHelper *_internalHelper;
 }
 
-- (void);
-- (_Bool);
-- (id);
+- (void)isEqualToRecipe:(id)arg1;
+- (_Bool)closeupZoomPercentWithLayoutType:(id)arg1;
+- (id)auxiliaryImagesToPreserveForDerivativesFromImageSource:(id)arg1 imageIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)"NSString"28@0:8@"NSData"16B24 /* Error: Ran out of types for this method. */;
 

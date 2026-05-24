@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAIntentGroupSiriKitParameterMetadata : AceObject
 {
@@ -20,20 +20,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *confirmationStates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *parameterName;
-@property(nonatomic) _Bool shouldResolve;
-@property(readonly) Class superclass;
 
 @end
 

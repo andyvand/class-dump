@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface LPSize
 {
     LPPointUnit *_width;
-    LPPointUnit *_height;
 }
 
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
+- (id)titleAttributedString;
+- (id)textField:(double)arg1 shouldChangeCharactersInRanges:replacementString: /* Error: Ran out of types for this method. */;
+- (id)textField:(id)arg1 shouldChangeCharactersInRange:replacementString: /* Error: Ran out of types for this method. */;
+- (struct CGSize)tableView:heightForFooterInSection: /* Error: Ran out of types for this method. */;
+- (id)ReceiverBusy;
 - (id);
 - (id);
 - (id);
@@ -27,9 +26,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize asSize;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, retain, nonatomic) LPPointUnit *height; // @synthesize height=_height;
 @property(readonly, retain, nonatomic) LPPointUnit *width; // @synthesize width=_width;
 
 @end

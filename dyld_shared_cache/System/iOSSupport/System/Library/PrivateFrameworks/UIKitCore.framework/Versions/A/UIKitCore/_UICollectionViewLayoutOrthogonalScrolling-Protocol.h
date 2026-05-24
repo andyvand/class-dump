@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
+@class NSArray, NSIndexPath;
 
 @protocol _UICollectionViewLayoutOrthogonalScrolling
+- (struct CGRect)ommunicationServiceRules;
+- (NSArray *);
 - (void)proximityStateChanged:(struct CGPoint)arg1;
-- (struct CGRect)entityContainerView;
-- (struct CGRect)signActive;
+- (struct CGRect)_identityContainerView;
+- (struct CGRect)didResignActive;
 - (_Bool)nstraints:(NSIndexPath *)arg1 ,V_infoConstraints;
 - (_Bool)îÿÿô¤éÿ w]þ;
 @end

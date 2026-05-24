@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface SCNBufferBinding
 {
     NSString *_name;
-    long long _frequency;
-    CDUnknownBlockType _block;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (void)count:(id)arg1 atTime: /* Error: Ran out of types for this method. */;
+- (void)setQuatfArray:(id)arg1 count:atTime: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) long long frequency; // @synthesize frequency=_frequency;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SCNTextureDelegateSource : SCNTextureOffscreenRenderingSource
 {
     id _delegate;
-    double _lastUpdate;
-    double _nextUpdateDate;
 }
 
 - (void);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)c	;
 
 // Remaining properties
 @property(retain, nonatomic) id delegate; // @synthesize delegate=_delegate;

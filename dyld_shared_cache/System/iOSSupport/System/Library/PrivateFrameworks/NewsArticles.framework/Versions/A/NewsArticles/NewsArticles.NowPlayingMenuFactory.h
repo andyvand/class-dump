@@ -7,7 +7,6 @@
 @interface NewsArticles.NowPlayingMenuFactory
 {
     id commandCenter;
-    id tracker;
 }
 
 @end

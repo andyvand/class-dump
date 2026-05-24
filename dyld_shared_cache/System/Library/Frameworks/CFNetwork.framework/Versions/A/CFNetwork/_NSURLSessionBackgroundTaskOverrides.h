@@ -7,9 +7,6 @@
 @interface _NSURLSessionBackgroundTaskOverrides
 {
     unsigned char __allowsCellularAccess;
-    unsigned char __allowsExpensiveNetworkAccess;
-    unsigned char __allowsConstrainedNetworkAccess;
-    unsigned char __requiresPowerPluggedIn;
 }
 
 + (_Bool);
@@ -23,7 +20,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
 - (void);
@@ -31,17 +28,10 @@
 - (_Bool)g;
 - (void)ü_ÿÿ@;
 - (void)cCfteCftiCftoCftsCftt.ft;
-- (_Bool)PServerResponseRequest;
+- (_Bool)kCFHTTPServerResponseRequest;
 
 // Remaining properties
 @property unsigned char _allowsCellularAccess; // @synthesize _allowsCellularAccess=__allowsCellularAccess;
-@property unsigned char _allowsConstrainedNetworkAccess; // @synthesize _allowsConstrainedNetworkAccess=__allowsConstrainedNetworkAccess;
-@property unsigned char _allowsExpensiveNetworkAccess; // @synthesize _allowsExpensiveNetworkAccess=__allowsExpensiveNetworkAccess;
-@property unsigned char _requiresPowerPluggedIn; // @synthesize _requiresPowerPluggedIn=__requiresPowerPluggedIn;
-@property _Bool allowsCellularAccess;
-@property _Bool allowsConstrainedNetworkAccess;
-@property _Bool allowsExpensiveNetworkAccess;
-@property _Bool requiresPowerPluggedIn;
 
 @end
 

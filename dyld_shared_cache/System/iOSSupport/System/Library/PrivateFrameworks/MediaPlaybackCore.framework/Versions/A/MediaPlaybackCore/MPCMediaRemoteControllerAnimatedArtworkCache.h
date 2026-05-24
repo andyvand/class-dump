@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCMediaRemoteControllerAnimatedArtworkCache
 {
     NSString *_artworkID;
-    NSMutableDictionary *_assets;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)rary bundle;
 - (id);
 - (id);
 - (void)%p - Unable to update PAF event [missing account identifier] - event:%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;

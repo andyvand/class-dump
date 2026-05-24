@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDServiceSession, NSMutableDictionary, NSMutableSet;
+@class IMDServiceSession, NSMutableDictionary;
 
 @interface IMDRelayAttachmentController
 {
     IMDServiceSession *_session;
-    NSMutableDictionary *_peerCompletionBlocks;
-    NSMutableSet *_pendingRemoteFileRequests;
 }
 
 - (long long);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)V;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)(;
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)*;
 - (void);
 - (id);
 - (id);
@@ -35,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *peerCompletionBlocks; // @synthesize peerCompletionBlocks=_peerCompletionBlocks;
-@property(retain, nonatomic) NSMutableSet *pendingRemoteFileRequests; // @synthesize pendingRemoteFileRequests=_pendingRemoteFileRequests;
-@property(readonly, nonatomic) IMDServiceSession *session; // @synthesize session=_session;
 
 @end
 

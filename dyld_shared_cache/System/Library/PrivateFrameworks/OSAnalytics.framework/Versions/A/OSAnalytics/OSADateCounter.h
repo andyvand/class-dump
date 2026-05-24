@@ -9,10 +9,9 @@
 @interface OSADateCounter
 {
     NSString *_dayKey;
-    NSString *_countKey;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);

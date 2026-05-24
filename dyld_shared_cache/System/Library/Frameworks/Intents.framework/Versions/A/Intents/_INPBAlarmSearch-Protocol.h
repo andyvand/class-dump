@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBDateTimeRangeValue;
+@class NSString, _INPBDateTimeRangeValue;
 
 @protocol _INPBAlarmSearch
-- (void)bilities;
+- (void);
+- (void);
+- (NSString *)A;
+- (void);
+- (_INPBDateTimeRangeValue *)a;
+- (void)clearShortcutAvailabilities;
 - (void)rovider;
 - (_Bool):] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int alarmReferenceType;
-@property(nonatomic) int alarmSearchStatus;
-@property(nonatomic) _Bool hasAlarmReferenceType;
-@property(nonatomic) _Bool hasAlarmSearchStatus;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIncludeSleepAlarm;
-@property(nonatomic) _Bool hasIsMeridianInferred;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasPeriod;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) _Bool includeSleepAlarm;
-@property(nonatomic) _Bool isMeridianInferred;
-@property(retain, nonatomic) _INPBDataString *label;
-@property(nonatomic) int period;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *time;
 @end
 

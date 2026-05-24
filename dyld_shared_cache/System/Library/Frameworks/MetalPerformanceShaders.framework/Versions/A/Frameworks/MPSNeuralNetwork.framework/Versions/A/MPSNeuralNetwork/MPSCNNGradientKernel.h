@@ -9,7 +9,6 @@
 @interface MPSCNNGradientKernel : MPSCNNBinaryKernel
 {
     long long _kernelOffsetX;
-    long long _kernelOffsetY;
 }
 
 - (id);
@@ -27,10 +26,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)19IAMemoryOutputBlock;
 - (id);
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id)on feature channel offset for rehape must be 0 %lu
@@ -38,7 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) long long kernelOffsetX; // @synthesize kernelOffsetX=_kernelOffsetX;
-@property(nonatomic) long long kernelOffsetY; // @synthesize kernelOffsetY=_kernelOffsetY;
 
 @end
 

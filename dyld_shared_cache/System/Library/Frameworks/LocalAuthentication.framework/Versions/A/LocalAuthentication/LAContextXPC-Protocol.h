@@ -5,5 +5,7 @@
 //
 
 @protocol LAContextXPC
+- (void);
+- (void)setFloatPreference;
 @end
 

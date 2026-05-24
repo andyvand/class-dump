@@ -5,5 +5,6 @@
 //
 
 @protocol CNAutocompleteSuggestionsProbe
+- (void);
 @end
 

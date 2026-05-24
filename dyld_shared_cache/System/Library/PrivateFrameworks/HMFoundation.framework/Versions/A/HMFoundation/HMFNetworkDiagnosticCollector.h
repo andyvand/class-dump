@@ -6,19 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetworkBrowser, NSArray, NSMutableDictionary, NSObject, NSString;
+@class HMFNetworkBrowser, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HMFNetworkDiagnosticCollector : HMFObject
 {
     HMFNetworkBrowser *_browser;
-    NSArray *_currentDiagnostics;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSArray *_serviceTypes;
-    NSMutableDictionary *_devicesMap;
-    double _discoveryTimeout;
-    double _resolveTimeout;
-    double _diagnosticTimeout;
 }
 
 + (id)ý°!Eù{Ð1Â0@ù
@@ -30,11 +23,11 @@
 - (void);
 - (double);
 - (id);
+- (id)#;
 - (id);
+- (double)#;
 - (id);
 - (double);
-- (id);
-- (double);
 - (void);
 - (void);
 - (id);
@@ -44,9 +37,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)has been over %ld days since the previous delete sync;
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (void);
@@ -60,20 +53,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) HMFNetworkBrowser *browser; // @synthesize browser=_browser;
-@property(readonly, nonatomic) NSArray *currentDiagnostics; // @synthesize currentDiagnostics=_currentDiagnostics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *devicesMap; // @synthesize devicesMap=_devicesMap;
-@property(nonatomic) double diagnosticTimeout; // @synthesize diagnosticTimeout=_diagnosticTimeout;
-@property(nonatomic) double discoveryTimeout; // @synthesize discoveryTimeout=_discoveryTimeout;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double resolveTimeout; // @synthesize resolveTimeout=_resolveTimeout;
-@property(retain, nonatomic) NSArray *serviceTypes; // @synthesize serviceTypes=_serviceTypes;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

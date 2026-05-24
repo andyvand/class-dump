@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)oraryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRestoreDemotedApplicationsRequest_macOS.m:20 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)n;
+- (_Bool)te;
 - (id);
 - (id);
-- (id)ances;
+- (id)_rewrittenUtterances;
 - (id)bscriber;
-- (_Bool)AILURECODE_GRAPH_NOT_SPECIFIED;
+- (_Bool)CDMREQUESTFAILURECODE_GRAPH_NOT_SPECIFIED;
 - (_Bool)rderedMessages.siriEventTypeUnion.nlxClientEvent.cdmUsoGraphTier1.usoGraphTier1.linkedUsoNodeDatas.normalizedStringPayloads;
 - (void)P<;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

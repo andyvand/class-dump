@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FigDisplayConfiguration
 {
     struct __CFDictionary *_fvdOptions;
-    struct OpaqueFigSimpleMutex *_lock;
-    unsigned long long _preset;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (long long);
+- (long long)a;
 - (struct __CFDictionary *);
 - (id);
 - (long long);
 - (struct OpaqueFigSimpleMutex *);
+- (void)SUScanMacBuddyEligibleUpdateErrorDomain;
+- (void)dated;
 - (void);
-- (void);
+- (id)P;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (long long);
-- (void);
+- (long long);
+- (void);
 - (unsigned int);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) NSString *chromaLocation;
-@property(nonatomic) NSString *clientName;
-@property(nonatomic) long long clientPID;
-@property(nonatomic) long long imagePoolSize;
 @property(nonatomic) struct CGSize maxDisplaySize;
-@property(nonatomic) long long numOfIdleFrames;
-@property(nonatomic) unsigned long long preset;
-@property(nonatomic) unsigned int refreshRate;
 
 @end
 

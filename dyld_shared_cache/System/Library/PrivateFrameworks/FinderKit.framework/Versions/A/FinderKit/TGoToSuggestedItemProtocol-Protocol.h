@@ -7,14 +7,12 @@
 @class NSString;
 
 @protocol TGoToSuggestedItemProtocol
+- (_Bool)	;
+- (_Bool);
 - (void)Ø0A;
 - (NSString *)NodeRK7TFENodeE3$_0vJEEE;
 
 // Remaining properties
-@property(nonatomic) _Bool isParent;
-@property(nonatomic) _Bool isPerfectMatch;
 @property(nonatomic) _Bool isPrefixMatch;
-@property(retain, nonatomic) NSString *searchString;
-@property(nonatomic) long long source;
 @end
 

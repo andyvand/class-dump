@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSClientProcessReceivedMessage
 {
     unsigned long long _deltaTime;
-    unsigned long long _payloadSize;
-    unsigned long long _priority;
-    unsigned long long _qos;
-    unsigned long long _threadPriority;
-    unsigned long long _timestamp;
-    NSString *_service;
-    struct {
-        unsigned int deltaTime:1;
-        unsigned int payloadSize:1;
-        unsigned int priority:1;
-        unsigned int qos:1;
-        unsigned int threadPriority:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)J)JJJ
+JJJ)-
+JI	)AIJ)%;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -49,35 +35,22 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool));
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)error -- Collect {suberror:(unsigned long long)arg1 %{public}@};
+- (unsigned long long)isEqualToString: /* Error: Ran out of types for this method. */;
 - (unsigned long long)4qéÿ(o¨;
 - (void)ºÙÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long deltaTime; // @synthesize deltaTime=_deltaTime;
-@property(nonatomic) _Bool hasDeltaTime;
-@property(nonatomic) _Bool hasPayloadSize;
-@property(nonatomic) _Bool hasPriority;
-@property(nonatomic) _Bool hasQos;
-@property(readonly, nonatomic) _Bool hasService;
-@property(nonatomic) _Bool hasThreadPriority;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long payloadSize; // @synthesize payloadSize=_payloadSize;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned long long qos; // @synthesize qos=_qos;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic) unsigned long long threadPriority; // @synthesize threadPriority=_threadPriority;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

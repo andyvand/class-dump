@@ -13,7 +13,7 @@
 + (Class);
 + (long long)dSpeedValues;
 - (id);
-- (id)tIntentExport;
+- (id)INReportIncidentIntentExport;
 
 @end
 

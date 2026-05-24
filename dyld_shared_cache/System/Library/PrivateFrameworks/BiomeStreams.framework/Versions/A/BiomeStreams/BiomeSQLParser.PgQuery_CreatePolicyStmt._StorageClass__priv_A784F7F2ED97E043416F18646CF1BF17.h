@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CreatePolicyStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _policyName;
-    id _table;
-    id _cmdName;
-    id _permissive;
-    id _roles;
-    id _qual;
-    id _withCheck;
 }
 
 @end

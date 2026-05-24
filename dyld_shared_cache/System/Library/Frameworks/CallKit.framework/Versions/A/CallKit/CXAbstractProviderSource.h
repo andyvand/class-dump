@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL;
-@protocol CXAbstractProviderSourceDelegate, CXAbstractProviderSourceDelegateInternal, CXAbstractProviderVendorProtocol, OS_dispatch_queue;
-
 @interface CXAbstractProviderSource
 {
     _Bool _connected;
-    id <CXAbstractProviderSourceDelegate> _delegate;
-    NSString *_identifier;
-    id <CXAbstractProviderSourceDelegateInternal> _internalDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (oneway void);
@@ -41,30 +34,10 @@
 - (void);
 - (id);
 - (void);
-- (void)ng;
+- (void)_supportsScreening;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_6ad76789 auditToken;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, copy, nonatomic) NSURL *bundleURL;
 @property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXAbstractProviderSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <CXAbstractProviderSourceDelegateInternal> internalDelegate; // @synthesize internalDelegate=_internalDelegate;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic, getter=isPermittedToUseBluetoothAccessories) _Bool permittedToUseBluetoothAccessories;
-@property(readonly, nonatomic, getter=isPermittedToUsePrivateAPI) _Bool permittedToUsePrivateAPI;
-@property(readonly, nonatomic, getter=isPermittedToUsePublicAPI) _Bool permittedToUsePublicAPI;
-@property(readonly, nonatomic) int processIdentifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CXAbstractProviderVendorProtocol> vendorProtocolDelegate;
 
 @end
 

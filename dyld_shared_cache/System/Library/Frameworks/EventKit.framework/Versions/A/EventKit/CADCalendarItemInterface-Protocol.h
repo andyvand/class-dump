@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSPredicate, NSString;
+
 @protocol CADCalendarItemInterface
+- (void)@ Discovered sessions changed:(unsigned int)arg1 %@;
+- (void)the message was not expecting a reply:(NSPredicate *)arg1 %{public}@ ;
+- (void)%@;
+- (void)LT:(NSString *)arg1 No type for animated artwork preview frame protobuf %@ in content item %@;
+- (void)tentItemChange for path %{public}@ %@;
+- (void)notification %@ for %{public}@ %@;
+- (void)alues:(unsigned int)arg1 %{public}@;
+- (void)blic}@;
+- (void)agerDataSource] [MRNowPlayingSessionManager] Got command preview that will cause a hijack (%{public}@) playerPath %{public}@. Posting MRNowPlayingSessionManagerActiveSessionWillBeHijackedByNativePlayback;
+- (void)fully derived encryption keys.;
+- (void)nput key (OSStatus = %d);
+- (void)change. %@;
 @end
 

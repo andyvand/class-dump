@@ -14,17 +14,16 @@
 
 + (id);
 + (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)nary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)restartRequestWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *pane;
-@property(copy, nonatomic) NSString *tag;
 
 @end
 

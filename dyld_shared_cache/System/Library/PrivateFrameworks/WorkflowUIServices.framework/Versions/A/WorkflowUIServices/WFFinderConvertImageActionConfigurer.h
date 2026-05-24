@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSWindow, WFFinderConvertImageActionConfigurationViewController, WFFinderImageResizeDescriptor;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface WFFinderConvertImageActionConfigurer
 {
     CDUnknownBlockType _descriptorSelectedBlock;
-    CDUnknownBlockType _failureBlock;
-    NSArray *_images;
-    unsigned long long _currentFormat;
-    WFFinderImageResizeDescriptor *_selectedDescriptor;
-    NSWindow *_window;
-    WFFinderConvertImageActionConfigurationViewController *_viewController;
 }
 
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)g;
 - (void);
 - (id);
 - (unsigned long long);
@@ -36,24 +30,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)C;
 - (void)8Q56Q64{CGSize=dd}72{CGRect={CGPoint=dd}{CGSize=dd}}88@120@128@136@144B152@156@164@172;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentFormat; // @synthesize currentFormat=_currentFormat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType descriptorSelectedBlock; // @synthesize descriptorSelectedBlock=_descriptorSelectedBlock;
-@property(copy, nonatomic) CDUnknownBlockType failureBlock; // @synthesize failureBlock=_failureBlock;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(retain, nonatomic) WFFinderImageResizeDescriptor *selectedDescriptor; // @synthesize selectedDescriptor=_selectedDescriptor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) WFFinderConvertImageActionConfigurationViewController *viewController; // @synthesize viewController=_viewController;
-@property(retain, nonatomic) NSWindow *window; // @synthesize window=_window;
 
 @end
 

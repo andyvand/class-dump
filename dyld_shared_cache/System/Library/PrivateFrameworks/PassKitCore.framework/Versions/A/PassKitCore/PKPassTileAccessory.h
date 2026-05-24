@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPassTileAccessoryButton, PKPassTileAccessoryImage, PKPassTileAccessorySpinner;
+@class PKPassTileAccessoryImage;
 
 @interface PKPassTileAccessory
 {
     _Bool _resolved;
-    long long _type;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (_Bool);
+- (id)@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)bH;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setHasIsNetworkReachable:(id)arg1;
+- (void)wifiScoTxBytes;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPassTileAccessoryButton *accessoryTypeButton;
 @property(readonly, nonatomic) PKPassTileAccessoryImage *accessoryTypeImage;
-@property(readonly, nonatomic) PKPassTileAccessorySpinner *accessoryTypeSpinner;
-@property(readonly, nonatomic, getter=isResolved) _Bool resolved; // @synthesize resolved=_resolved;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

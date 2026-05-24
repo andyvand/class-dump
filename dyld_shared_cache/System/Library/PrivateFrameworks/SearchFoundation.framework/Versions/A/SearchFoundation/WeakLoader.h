@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)ry: /* Error: Ran out of types for this method. */;
+- (void)initWithType:query: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SFResourceLoader> strongloader;

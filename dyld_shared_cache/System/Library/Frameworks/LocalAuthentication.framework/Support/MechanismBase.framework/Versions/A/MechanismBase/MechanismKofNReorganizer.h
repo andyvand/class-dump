@@ -6,28 +6,21 @@
 
 #import <MechanismBase/MechanismBase.h>
 
-@class NSNumber;
-
 @interface MechanismKofNReorganizer : MechanismBase
 {
     CDUnknownBlockType _apply;
-    long long _min;
-    long long _max;
-    NSNumber *_k;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)plemented yet() - not supported for this distribution type;
+- (void)of image:(id)arg1;
+- (id)t = 0x%.6X%.8X, available = 0x%.6X%.8X);
+- (id)ected place.;
 - (id);
 - (long long);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *k; // @synthesize k=_k;
-@property(readonly, nonatomic) long long max; // @synthesize max=_max;
 @property(readonly, nonatomic) long long min; // @synthesize min=_min;
 
 @end

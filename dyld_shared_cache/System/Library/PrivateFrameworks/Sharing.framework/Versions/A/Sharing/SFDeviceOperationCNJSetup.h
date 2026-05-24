@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, SFSession, SKEventCaptiveNetworkPresent, SKSetupCaptiveNetworkJoinClient;
-@protocol OS_dispatch_queue;
+@class SFSession, SKSetupCaptiveNetworkJoinClient;
 
 @interface SFDeviceOperationCNJSetup
 {
     SKSetupCaptiveNetworkJoinClient *_cnjClient;
-    SKEventCaptiveNetworkPresent *_cnjEvent;
-    _Bool _isShowingWebSheet;
-    unsigned long long _startTicks;
-    _Bool _invalidateCalled;
-    NSError *_captivePathError;
-    _Bool _isSetup;
-    _Bool _homePodHasCaptiveNetwork;
-    SFSession *_sfSession;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _promptForConfirmationHandler;
-    CDUnknownBlockType _completionHandler;
-    NSError *_reachabilityError;
-    double _metricTotalSeconds;
 }
 
 - (void);
@@ -32,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (double);
 - (_Bool);
 - (void);
@@ -40,23 +26,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)q;
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (void)å¾ÿÿîþÿ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) _Bool homePodHasCaptiveNetwork; // @synthesize homePodHasCaptiveNetwork=_homePodHasCaptiveNetwork;
-@property(nonatomic) _Bool isSetup; // @synthesize isSetup=_isSetup;
-@property(readonly, nonatomic) double metricTotalSeconds; // @synthesize metricTotalSeconds=_metricTotalSeconds;
-@property(copy, nonatomic) CDUnknownBlockType promptForConfirmationHandler; // @synthesize promptForConfirmationHandler=_promptForConfirmationHandler;
-@property(readonly, nonatomic) NSError *reachabilityError; // @synthesize reachabilityError=_reachabilityError;
 @property(retain, nonatomic) SFSession *sfSession; // @synthesize sfSession=_sfSession;
 
 @end

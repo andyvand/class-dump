@@ -6,31 +6,12 @@
 
 #import <AVKit/AVPlayerControlsViewController.h>
 
-@class AVAuxiliaryControlsView, AVObservationController, AVVolumeControlSlider, NSButton, NSLayoutAnchor, NSLayoutConstraint, NSStackView, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface AVFloatingPlaybackControlsViewController : AVPlayerControlsViewController
 {
     NSView *_initialFirstResponder;
-    AVObservationController *_observationController;
-    NSLayoutConstraint *_auxiliaryControlsContainerViewWidthConstraint;
-    NSView *_controlsCenterLineView;
-    NSView *_controlsBaselineView;
-    NSView *_playButtonBaselineView;
-    _Bool _showsGlassControls;
-    _Bool _canUpdateControlsState;
-    double _animationDuration;
-    NSLayoutAnchor *_upperControlsBaseAnchor;
-    NSLayoutAnchor *_upperControlsCenterYAnchor;
-    NSView *_upperControlsContainerView;
-    NSView *_volumeControlContainerView;
-    NSView *_playbackControlsContainerView;
-    AVAuxiliaryControlsView *_auxiliaryControlsView;
-    NSView *_backwardScanRateTextContainerView;
-    NSView *_forwardScanRateTextContainerView;
-    NSButton *_goToEndOfSeekableRangesButton;
-    AVVolumeControlSlider *_volumeControl;
-    NSStackView *_timelineControl;
 }
 
 + (id);
@@ -43,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)˟;
 - (struct CGSize);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (CDStruct_83cd8af5);
+- (CDStruct_d2b197d1);
 - (id);
 - (void);
 - (_Bool);
@@ -81,30 +62,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)y">28;
 - (void);
 - (long long);
-- (id);
+- (id)]=this.uniqueIDAndScrollRatioOfElementPinnedToTop();t&&e.scrollToElementWithUniqueID(t,n)},applyScrollPositionFromOriginalPage:async function(){let e=ReaderJSController.originalArticleFinder().uniqueIDAndScrollRatioOfElementPinnedToTop();e instanceof Promise&&(e=await e);const[t,n]=e;t&&this.tryToScrollToUniqueIDAndRatio(t,n)},_checkForUpdatedContentNow:async function(){await ReaderJS.reloadArticlePreservingScrollPositionIfArticleNodeContentHasChanged()},restorePosition:function(){if(!this.elementTouchingTopOfViewport)return;let e=this.elementTouchingTopOfViewport.getBoundingClientRect(),t=document.scrollingElement.scrollTop+e.top-e.height*this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio;t>0&&(document.scrollingElement.scrollTop=t),this._updatePosition()},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){if(!this.elementTouchingTopOfViewport)return[null,null];return[this.elementTouchingTopOfViewport.getAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY),this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio]},tryToScrollToUniqueIDAndRatio:function(e,t){const n=document.querySelector("["+READER_UNIQUE_ID_ATTRIBUTE_KEY+"='"+e+"']");if(!n)return!1;const i=n.getBoundingClientRect();return!!i.height&&(document.scrollingElement.scrollTop=i.top-t*i.height+window.scrollY,this._updatePosition(!1),!0)},_originalPageScrollSyncAndContentRefreshIsAllowed:function(){return!document.body.classList.contains("watch")}},document.addEventListener("visibilitychange",handleVisibilityChange,!1);var ContentAwareScrollerJS=new ContentAwareScroller,ReaderAppearanceJS=new ReaderAppearanceController,ReadingPositionStabilizerJS=new ReadingPositionStabilizer,ReaderJS=new ReaderController;window.addEventListener("load",(async function(){function e(){window.dispatchEvent(new CustomEvent("readerLoaded"))}if(!isReaderViewInSeparateProcess)return ReaderJS.loaded(),void e();ReaderJS.setOriginalURL(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
-- (void);
+- (void)kA;
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(readonly, nonatomic) AVAuxiliaryControlsView *auxiliaryControlsView; // @synthesize auxiliaryControlsView=_auxiliaryControlsView;
-@property(readonly, nonatomic) NSView *backwardScanRateTextContainerView; // @synthesize backwardScanRateTextContainerView=_backwardScanRateTextContainerView;
 @property(nonatomic) _Bool canUpdateControlsState; // @synthesize canUpdateControlsState=_canUpdateControlsState;
-@property(readonly, nonatomic) NSView *forwardScanRateTextContainerView; // @synthesize forwardScanRateTextContainerView=_forwardScanRateTextContainerView;
-@property(readonly, nonatomic) NSButton *goToEndOfSeekableRangesButton; // @synthesize goToEndOfSeekableRangesButton=_goToEndOfSeekableRangesButton;
-@property(readonly, nonatomic) NSView *playbackControlsContainerView; // @synthesize playbackControlsContainerView=_playbackControlsContainerView;
-@property(readonly, nonatomic) NSStackView *timelineControl; // @synthesize timelineControl=_timelineControl;
-@property(readonly, nonatomic) NSLayoutAnchor *upperControlsBaseAnchor; // @synthesize upperControlsBaseAnchor=_upperControlsBaseAnchor;
-@property(readonly, nonatomic) NSLayoutAnchor *upperControlsCenterYAnchor; // @synthesize upperControlsCenterYAnchor=_upperControlsCenterYAnchor;
-@property(readonly, nonatomic) NSView *upperControlsContainerView; // @synthesize upperControlsContainerView=_upperControlsContainerView;
-@property(readonly, nonatomic) AVVolumeControlSlider *volumeControl; // @synthesize volumeControl=_volumeControl;
-@property(readonly, nonatomic) NSView *volumeControlContainerView; // @synthesize volumeControlContainerView=_volumeControlContainerView;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PFZlibDataCompressionOptions
 {
     int _compressionLevel;
-    int _strategy;
-    int _windowBits;
-    int _memoryLevel;
-    int _chunkSize;
 }
 
 + (id);
@@ -18,8 +14,8 @@
 - (void);
 - (void);
 - (void);
-- (int);
-- (int);
+- (int);
+- (int)D;
 - (void);
 - (void);
 - (int);
@@ -27,11 +23,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) int chunkSize; // @synthesize chunkSize=_chunkSize;
 @property(nonatomic) int compressionLevel; // @synthesize compressionLevel=_compressionLevel;
-@property(nonatomic) int memoryLevel; // @synthesize memoryLevel=_memoryLevel;
-@property(nonatomic) int strategy; // @synthesize strategy=_strategy;
-@property(nonatomic) int windowBits; // @synthesize windowBits=_windowBits;
 
 @end
 

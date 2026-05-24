@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDManager, NSArray, NSMutableArray, NSObject;
-@protocol AXSSMotionTrackingHIDManagerDelegate, OS_dispatch_queue;
-
 @interface AXSSMotionTrackingHIDManager
 {
     _Bool __monitoring;
-    id <AXSSMotionTrackingHIDManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *__hidManagerDispatchQueue;
-    HIDManager *__hidManager;
-    NSMutableArray *__devices;
 }
 
 - (id);
@@ -23,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)U<;
 - (void);
 - (id);
 - (id);
@@ -32,15 +25,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)observedPresentedItemUbiquityAttributes;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_devices; // @synthesize _devices=__devices;
-@property(retain, nonatomic) HIDManager *_hidManager; // @synthesize _hidManager=__hidManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_hidManagerDispatchQueue; // @synthesize _hidManagerDispatchQueue=__hidManagerDispatchQueue;
 @property(nonatomic) _Bool _monitoring; // @synthesize _monitoring=__monitoring;
-@property(nonatomic) __weak id <AXSSMotionTrackingHIDManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *devices;
 
 @end
 

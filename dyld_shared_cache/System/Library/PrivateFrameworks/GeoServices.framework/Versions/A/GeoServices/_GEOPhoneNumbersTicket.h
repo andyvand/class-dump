@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _GEOPhoneNumbersTicket : GEOAbstractMapServiceTicket
 {
     NSArray *_phoneNumbers;
-    _Bool _allowCellularDataForLookup;
 }
 
 - (id);
 - (id);
 - (void);
 - (void)þÿÿÿ;
-- (CDStruct_d1a7ebee)2;
+- (CDStruct_026435ec)2;
 
 @end
 

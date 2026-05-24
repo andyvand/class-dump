@@ -7,16 +7,10 @@
 @interface EventKitUI.EKEventEditOOPHostViewModel
 {
     id remoteUIConfigured;
-    id _configuration;
-    id event;
-    id eventStore;
-    id layoutDirection;
-    id sizeCategory;
-    id viewHierarchy;
 }
 
 - (id);
-- (void)wBlock:configureUIActionBlock:actionBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithAction:showsInEditMenu:group:positionInGroup:shouldShowBlock:configureUIActionBlock:actionBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

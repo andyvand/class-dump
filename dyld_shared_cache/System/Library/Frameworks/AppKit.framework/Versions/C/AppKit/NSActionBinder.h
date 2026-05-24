@@ -10,33 +10,30 @@ __attribute__((visibility("hidden")))
 @interface NSActionBinder : NSEditorBinder
 {
     SEL _selector;
-    struct __actionBinderFlags {
-        unsigned int _allSeparateArrayArgumentsBoundToIdenticalController:1;
-        unsigned int _reservedActionBinder:31;
-    } _actionBinderFlags;
 }
 
++ (id)NDBackgroundSessionManagerRestoredStateKeyTLSSessionCachePrefix;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
++ (id)2Wc;
+- (void)8;
 - (void);
 - (_Bool);
-- (void);
+- (_Bool)D9JS
+;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void):(_Bool)arg1 8Q16Q24d32@?40;
+- (void)parentTask;
+- (_Bool)downloadShouldUseCredentialStorage: /* Error: Ran out of types for this method. */;
+- (void)_httpProtocol;
+- (_Bool)___ZN12SocketStream18startTCPConnectionEh_block_invoke;
+- (_Bool)DOF;
+- (_Bool)mework/Versions/A/AppSSOCore;
+- (_Bool)_multipathAlternatePort;
+- (id)t();
+- (_Bool)NSURLSessionDelegateImplementsWillBeginDelayedRequestKey;
 - (_Bool);
 - (_Bool);
 - (void);

@@ -7,7 +7,6 @@
 @interface IDSLogOperationPublisher
 {
     id logger;
-    id separateLogLines;
 }
 
 - (id);

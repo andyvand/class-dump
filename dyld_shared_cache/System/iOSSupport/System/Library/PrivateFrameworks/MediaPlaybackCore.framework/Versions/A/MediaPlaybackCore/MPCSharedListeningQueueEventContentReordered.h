@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)(=;
 - (void)[no other datasources triggered load] triggered=YES;
 - (id)ontroller.player.currentItem.presentationSize;
 

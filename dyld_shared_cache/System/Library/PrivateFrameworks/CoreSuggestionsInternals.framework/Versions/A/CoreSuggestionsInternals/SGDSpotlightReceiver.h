@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PSUSummarizationPipeline, SGCoalescingDropBox, SGDSuggestManager;
-@protocol SpotlightReceiver;
+@class SGCoalescingDropBox, SGDSuggestManager;
 
 @interface SGDSpotlightReceiver
 {
     SGCoalescingDropBox *_deleteInteractionBundleIdDropbox;
-    SGCoalescingDropBox *_deleteInteractionIdDropbox;
-    SGCoalescingDropBox *_deleteInteractionGroupIdDropbox;
-    id <SpotlightReceiver> _duReceiver;
-    PSUSummarizationPipeline *_summarizationPipeline;
-    SGDSuggestManager *_suggestManager;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
+- (_Bool)GPUResource={__CFRuntimeBase=QAQ}^{__IOGPUDevice}^vQQIIQQ^{IOGPUClientSharedRO}QQQQ^v[0Q]},R;
+- (void);
+- (id);
 - (void);
 - (void);
+- (void)vmlShapeIdForDrawableId:(id)arg1;
+- (void)lineOrFill;
 - (void);
-- (void);
-- (void);
+- (void)14PptExEmbedAtom;
 - (void);
 - (void);
 - (id);
@@ -38,14 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) SGDSuggestManager *suggestManager; // @synthesize suggestManager=_suggestManager;
-@property(readonly) Class superclass;
 
 @end
 

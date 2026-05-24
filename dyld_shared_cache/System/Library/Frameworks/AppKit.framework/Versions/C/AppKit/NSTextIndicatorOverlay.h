@@ -12,19 +12,16 @@
 @interface NSTextIndicatorOverlay : NSView
 {
     id <_NSViewGeometryInWindowObservation> _geometryObserver;
-    NSView *_maskProviderView;
-    NSView *_maskReferenceView;
-    NSClipView *_observedClipView;
 }
 
-+ (void);
++ (void)set_TLSMaximumSupportedProtocolVersion:(id)arg1;
 + (id);
 + (_Bool)!í/!|Cùâ31Â0@ù
 × ;
 - (void);
 - (id);
-- (struct CGRect);
-- (id)geGlyphs;
+- (struct CGRect)t create upload task without request or resume data;
+- (id)selectionContainsOnlyAdaptiveImageGlyphs;
 - (void)ment cannot be exported to the "%@" format.;
 - (void)ÆÆÆ;
 

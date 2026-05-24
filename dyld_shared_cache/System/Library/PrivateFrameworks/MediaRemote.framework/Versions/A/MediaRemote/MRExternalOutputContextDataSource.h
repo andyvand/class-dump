@@ -6,36 +6,32 @@
 
 #import <MediaRemote/MROutputContextDataSource.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface MRExternalOutputContextDataSource : MROutputContextDataSource
 {
     NSString *_uniqueIdentifier;
-    NSMutableArray *_outputDevices;
-    float _masterVolume;
-    unsigned int _masterVolumeControlCapabilities;
-    _Bool _groupVolumeMuted;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned int);
-- (void);
-- (void);
+- (void);
+- (void)v;
 - (float);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ady;
 - (void)ôFù1&Ð1Â0@ù
 × ;
-- (void)llerID;
+- (void)hasControllerID;
 - (void)¾¿ôÁàÃ;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol NSCopying;
+@class NSArray;
 
 @interface PKApplyActionContentActionItem
 {
     NSArray *_items;
-    NSString *_contextPrimaryActionIdentifier;
 }
 
 - (id);
@@ -19,20 +17,11 @@
 - (id);
 - (id)Ñî%°1Â0@ù
 × ;
-- (id)xForItem:(id)arg1;
-- (void)LITY_LEARN_MORE_BUTTON_TITLE;
+- (id)_insertionIndexForItem:(id)arg1;
+- (void)ELIGIBILITY_LEARN_MORE_BUTTON_TITLE;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *contextPrimaryActionIdentifier; // @synthesize contextPrimaryActionIdentifier=_contextPrimaryActionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NSCopying> identifier;
 @property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly) Class superclass;
 
 @end
 

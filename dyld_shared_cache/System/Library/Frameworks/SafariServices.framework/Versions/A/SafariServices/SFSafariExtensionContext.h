@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SFSafariExtensionViewController;
+@class SFSafariExtensionViewController;
 
 __attribute__((visibility("hidden")))
 @interface SFSafariExtensionContext
@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -33,15 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) SFSafariExtensionViewController *extensionViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *profileIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

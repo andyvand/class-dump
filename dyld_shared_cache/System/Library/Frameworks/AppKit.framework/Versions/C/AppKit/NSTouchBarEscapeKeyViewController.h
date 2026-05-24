@@ -6,7 +6,7 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSTouchBarEscapeKeyView, NSTouchBarItem;
+@class NSTouchBarItem;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarEscapeKeyViewController : NSViewController
@@ -14,22 +14,20 @@ __attribute__((visibility("hidden")))
     NSTouchBarItem *_touchBarItem;
 }
 
-+ (id);
-- (id);
++ (id)er overrun;
+- (id)(CFDataRef, const Img4DecodeImplementation *);
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (void);
-- (void);
+- (void)_finishProgressReporting;
+- (void)nection in progress;
 - (void);
 - (id);
-- (void);
-- (void)gFullScreen;
+- (void);
+- (void)fullScreenSpaceEnteringFullScreen;
 
 // Remaining properties
-@property(readonly) struct CGSize preferredSize;
 @property(retain) NSTouchBarItem *touchBarItem;
-@property(retain) NSTouchBarEscapeKeyView *view; // @dynamic view;
 
 @end
 

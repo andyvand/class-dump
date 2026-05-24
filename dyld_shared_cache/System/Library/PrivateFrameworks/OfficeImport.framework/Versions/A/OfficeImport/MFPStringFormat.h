@@ -8,19 +8,10 @@ __attribute__((visibility("hidden")))
 @interface MFPStringFormat
 {
     int mAlignment;
-    unsigned short mDigitSubstitutionLanguage;
-    int mDigitSubstitutionMethod;
-    unsigned int mFormatFlags;
-    int mHotkeyPrefix;
-    int mLineAlignment;
-    float mFirstTabOffset;
-    int mTabStopCount;
-    float *mTabStops;
-    int mTrimming;
 }
 
 - (int);
-- (int);
+- (int)";
 - (void);
 - (void);
 - (void);
@@ -35,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (unsigned short);
 - (unsigned int);
 - (void);
-- (const float *);
+- (const float *);
 - (void);
-- (id);
+- (id)raise:format: /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 

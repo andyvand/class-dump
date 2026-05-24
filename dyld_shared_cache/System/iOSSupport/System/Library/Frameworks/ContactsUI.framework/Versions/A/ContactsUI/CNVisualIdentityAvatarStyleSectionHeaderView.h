@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 + (struct CGSize);
 + (id);
-+ (id);
++ (id)ime with SecCMS:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)yle;
+- (void)avatarStyle;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;

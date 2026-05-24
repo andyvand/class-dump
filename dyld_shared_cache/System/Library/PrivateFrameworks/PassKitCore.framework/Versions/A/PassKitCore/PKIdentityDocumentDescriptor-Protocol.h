@@ -7,7 +7,8 @@
 @class NSArray;
 
 @protocol PKIdentityDocumentDescriptor
-- (NSArray *)eData;
+- (void);
+- (NSArray *)placeholderImageData;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *elements;

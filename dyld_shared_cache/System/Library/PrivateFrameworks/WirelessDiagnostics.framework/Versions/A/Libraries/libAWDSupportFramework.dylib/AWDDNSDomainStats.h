@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDDNSDomainStats
 {
     CDStruct_9f2792e4 _answeredQuerySendCounts;
-    CDStruct_9f2792e4 _dnsOverTCPStates;
-    CDStruct_9f2792e4 _expiredAnswerStates;
-    CDStruct_9f2792e4 _negAnsweredQuerySendCounts;
-    CDStruct_9f2792e4 _negResponseLatencyMs;
-    CDStruct_9f2792e4 _responseLatencyMs;
-    CDStruct_9f2792e4 _unansweredQueryDurationMs;
-    CDStruct_9f2792e4 _unansweredQuerySendCounts;
-    NSString *_domain;
-    int _networkType;
-    int _recordType;
-    struct {
-        unsigned int networkType:1;
-        unsigned int recordType:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -33,7 +17,7 @@
 - (unsigned int *);
 - (void);
 - (void);
-- (void);
+- (void)Rm;
 - (void);
 - (void);
 - (void);
@@ -44,11 +28,11 @@
 - (unsigned int);
 - (unsigned int *);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (unsigned int *);
 - (unsigned int *);
-- (unsigned int);
+- (unsigned int)|;
 - (_Bool);
 - (unsigned long long);
 - (unsigned int *);
@@ -61,10 +45,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned int *);
+- (unsigned long long)qKDT;
+- (unsigned int *)T;
 - (unsigned int);
 - (void);
 - (void);
@@ -72,7 +56,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (int);
@@ -83,7 +67,7 @@
 - (int);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -91,37 +75,16 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (int);
+- (int)h6;
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *answeredQuerySendCounts;
-@property(readonly, nonatomic) unsigned long long answeredQuerySendCountsCount;
-@property(readonly, nonatomic) unsigned int *dnsOverTCPStates;
-@property(readonly, nonatomic) unsigned long long dnsOverTCPStatesCount;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) unsigned int *expiredAnswerStates;
-@property(readonly, nonatomic) unsigned long long expiredAnswerStatesCount;
-@property(readonly, nonatomic) _Bool hasDomain;
 @property(nonatomic) _Bool hasNetworkType;
-@property(nonatomic) _Bool hasRecordType;
-@property(readonly, nonatomic) unsigned int *negAnsweredQuerySendCounts;
-@property(readonly, nonatomic) unsigned long long negAnsweredQuerySendCountsCount;
-@property(readonly, nonatomic) unsigned int *negResponseLatencyMs;
-@property(readonly, nonatomic) unsigned long long negResponseLatencyMsCount;
-@property(nonatomic) int networkType; // @synthesize networkType=_networkType;
-@property(nonatomic) int recordType; // @synthesize recordType=_recordType;
-@property(readonly, nonatomic) unsigned int *responseLatencyMs;
-@property(readonly, nonatomic) unsigned long long responseLatencyMsCount;
-@property(readonly, nonatomic) unsigned int *unansweredQueryDurationMs;
-@property(readonly, nonatomic) unsigned long long unansweredQueryDurationMsCount;
-@property(readonly, nonatomic) unsigned int *unansweredQuerySendCounts;
-@property(readonly, nonatomic) unsigned long long unansweredQuerySendCountsCount;
 
 @end
 

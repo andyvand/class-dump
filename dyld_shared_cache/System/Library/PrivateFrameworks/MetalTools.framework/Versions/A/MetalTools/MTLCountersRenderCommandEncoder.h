@@ -6,12 +6,9 @@
 
 #import <MetalTools/MTLToolsRenderCommandEncoder.h>
 
-@class MTLCountersTraceRenderCommandEncoder;
-
 @interface MTLCountersRenderCommandEncoder : MTLToolsRenderCommandEncoder
 {
     _Bool _APITimingEnabled;
-    MTLCountersTraceRenderCommandEncoder *_traceEncoder;
 }
 
 - (void);
@@ -32,14 +29,14 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -75,6 +72,7 @@
 - (void);
 - (void);
 - (void);
+- (void)N;
 - (void);
 - (void);
 - (void);
@@ -92,6 +90,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -104,9 +103,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);

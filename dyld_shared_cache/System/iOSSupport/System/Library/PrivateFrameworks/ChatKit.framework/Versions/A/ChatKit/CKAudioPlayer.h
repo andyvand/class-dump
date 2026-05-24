@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, CKInternalAudioPlayer, CKMediaObject, NSString;
-@protocol CKAudioPlayerDelegate;
+@class CKMediaObject;
 
 @interface CKAudioPlayer
 {
     CKMediaObject *_mediaObject;
-    id <CKAudioPlayerDelegate> _delegate;
-    CKInternalAudioPlayer *_audioPlayer;
-    CADisplayLink *_displayLink;
-    double _prevCurrentTime;
-    CDUnknownBlockType _block;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)erating PDF URL for pasteboard image gallery attachment;
+- (id)ethod;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void);
+- (double)=;
 - (id);
 - (void);
 - (void);
@@ -54,25 +48,7 @@
 - (id)pg0Ø3;
 
 // Remaining properties
-@property(retain, nonatomic) CKInternalAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKAudioPlayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(readonly, nonatomic) double duration;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(readonly, nonatomic) double playbackSpeed;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(nonatomic) double prevCurrentTime; // @synthesize prevCurrentTime=_prevCurrentTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesAVPlayer;
-@property(nonatomic) float volume;
 
 @end
 

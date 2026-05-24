@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface USVideoUsage
 {
     long long _currentState;
-    NSObject *_stateLock;
-    _Bool _usageTrusted;
-    NSString *_bundleIdentifier;
-    NSString *_profileIdentifier;
-    NSString *_uniqueIdentifier;
-    NSURL *_URL;
-    NSURL *_mediaURL;
-    NSDictionary *_videoMetadata;
-    NSXPCConnection *_xpcConnection;
 }
 
 - (id);
@@ -30,20 +21,20 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
+- (_Bool)H/;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
+- (id)NSP configuration:%@ /* Error: Ran out of types for this method. */;
+- (void)`";
+- (id)SYSTEM_SF_Monterey_Salinas_Transit;
 - (id);
-- (void);
+- (void)b;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void){;
 - (id);
 - (id);
 - (id);
@@ -52,13 +43,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSURL *mediaURL; // @synthesize mediaURL=_mediaURL;
-@property(readonly, copy) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly, copy) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly) _Bool usageTrusted; // @synthesize usageTrusted=_usageTrusted;
-@property(copy) NSDictionary *videoMetadata; // @synthesize videoMetadata=_videoMetadata;
 @property(readonly) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

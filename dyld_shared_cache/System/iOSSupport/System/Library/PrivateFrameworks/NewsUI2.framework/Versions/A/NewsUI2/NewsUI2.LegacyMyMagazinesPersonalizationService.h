@@ -7,8 +7,6 @@
 @interface NewsUI2.LegacyMyMagazinesPersonalizationService
 {
     id configManager;
-    id personalizationService;
-    id aggregateStoreProvider;
 }
 
 @end

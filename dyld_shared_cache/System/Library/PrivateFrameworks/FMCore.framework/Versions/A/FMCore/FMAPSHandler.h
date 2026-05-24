@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSMutableArray, NSString;
+@class APSConnection;
 
 @interface FMAPSHandler
 {
     _Bool _registerForDarkWake;
-    _Bool _registrationsSuspended;
-    APSConnection *_apsConnection;
-    NSMutableArray *_registeredDelegates;
-    NSMutableArray *_pendingPushes;
-    NSString *_environmentName;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
@@ -33,34 +28,21 @@
 - (void);
 - (id);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (id);
+- (id)ar;
 - (_Bool);
 - (void);
-- (id);
+- (id)gle curly quotes around the selected text.;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)8;
 
 // Remaining properties
 @property(retain, nonatomic) APSConnection *apsConnection; // @synthesize apsConnection=_apsConnection;
-@property(readonly, nonatomic) NSString *apsToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *environmentName; // @synthesize environmentName=_environmentName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *pendingPushes; // @synthesize pendingPushes=_pendingPushes;
-@property(nonatomic) _Bool registerForDarkWake; // @synthesize registerForDarkWake=_registerForDarkWake;
-@property(retain, nonatomic) NSMutableArray *registeredDelegates; // @synthesize registeredDelegates=_registeredDelegates;
-@property(nonatomic) _Bool registrationsSuspended; // @synthesize registrationsSuspended=_registrationsSuspended;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBox, NSButton, NSFileVersion, NSImageView, NSOperationQueue, NSPanel, NSSet, NSString, NSTableView, NSURL, _NSDocumentConflictNonTableView;
+@class NSArray, NSPanel;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentConflictPanelController
 {
     NSPanel *_panel;
-    NSTableView *_tableView;
-    NSButton *_keepButton;
-    NSButton *_cancelButton;
-    NSBox *_nonTableViewContainer;
-    _NSDocumentConflictNonTableView *_nonTableView;
-    NSURL *_url;
-    _Bool _documentIsShared;
-    NSImageView *_clickedImageView;
-    id _clickedConflict;
-    _Bool _forceTableView;
-    double _fullPanelHeight;
-    double _staticHeight;
-    NSArray *_conflicts;
 }
 
 - (id);
@@ -33,22 +20,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (long long);
-- (void);
+- (void)tion"16q24;
 - (id);
+- (void)t set before response is received, failing task;
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)-;
+- (void)Versions/A/BackgroundSystemTasks;
+- (_Bool)ID() == CFGetTypeID(fSet);
+- (void)mation at risk.;
+- (id)uld put your confidential information at risk.;
+- (void)	(	(
+)8
+)8
+)8
+)8;
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (double);
 - (id);
@@ -59,13 +50,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)B;
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect).0.4;
 - (_Bool);
 - (long long)_rootWidth;
 - (id)¬;
-- (void)useTemplate;
+- (void)NSTouchBarPlayPauseTemplate;
 - (id)ÅSh =ÿµShè =ÿ;
 - (void)X;êÿîHßA;
 - (void)F;
@@ -73,26 +64,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSArray *conflicts;
-@property(readonly) NSFileVersion *currentVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) NSArray *selectedVersions;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *unselectedVersions;
 
 @end
 

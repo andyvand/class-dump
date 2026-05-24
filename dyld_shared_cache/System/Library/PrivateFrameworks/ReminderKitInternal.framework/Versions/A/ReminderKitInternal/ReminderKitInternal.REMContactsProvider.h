@@ -7,10 +7,6 @@
 @interface ReminderKitInternal.REMContactsProvider
 {
     id contactStoreCreator;
-    id $__lazy_storage_$_contactStore;
-    id queue;
-    id backgroundQueue;
-    id contactFetchOperationManager;
 }
 
 @end

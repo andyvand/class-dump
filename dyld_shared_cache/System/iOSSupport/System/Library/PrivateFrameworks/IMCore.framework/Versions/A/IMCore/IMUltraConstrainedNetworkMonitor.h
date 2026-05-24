@@ -9,8 +9,8 @@
     id isUltraConstrained;
 }
 
-+ (id);
-- (id);
++ (id)BD;
+- (id);
 - (void);
 - (void);
 

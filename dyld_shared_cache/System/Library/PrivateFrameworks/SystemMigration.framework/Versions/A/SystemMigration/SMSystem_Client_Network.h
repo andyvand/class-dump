@@ -6,23 +6,11 @@
 
 #import <SystemMigration/SMSystem_Client.h>
 
-@class NSDictionary, NSImage, NSNumber, NSOrderedSet, NSString;
+@class NSImage;
 
 @interface SMSystem_Client_Network : SMSystem_Client
 {
     _Bool connected;
-    _Bool availableInSystemLists;
-    _Bool _sourceKnowsPasscode;
-    _Bool _isAttemptingWirelessSwitch;
-    NSString *model;
-    NSImage *icon;
-    NSNumber *passcode;
-    NSString *handoffHint;
-    unsigned long long _networkState;
-    NSOrderedSet *_fasterInterfaceRecommendations;
-    unsigned long long _effectiveConnectionMethod;
-    NSOrderedSet *_connectionFamilies;
-    NSDictionary *_allEstablishedConnections;
 }
 
 + (id);
@@ -33,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -46,7 +34,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)trackGestureTranslation:(unsigned long long)arg1 velocity: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -62,20 +50,7 @@
 - (_Bool)üôÿ";
 
 // Remaining properties
-@property(retain) NSDictionary *allEstablishedConnections; // @synthesize allEstablishedConnections=_allEstablishedConnections;
-@property _Bool availableInSystemLists; // @synthesize availableInSystemLists;
-@property _Bool connected; // @synthesize connected;
-@property(readonly) NSOrderedSet *connectionFamilies; // @synthesize connectionFamilies=_connectionFamilies;
-@property(readonly) unsigned long long effectiveConnectionMethod; // @synthesize effectiveConnectionMethod=_effectiveConnectionMethod;
-@property(readonly) NSString *fasterInterfaceRecommendation;
-@property(retain) NSOrderedSet *fasterInterfaceRecommendations; // @synthesize fasterInterfaceRecommendations=_fasterInterfaceRecommendations;
-@property(retain) NSString *handoffHint; // @synthesize handoffHint;
 @property(retain) NSImage *icon; // @synthesize icon;
-@property _Bool isAttemptingWirelessSwitch; // @synthesize isAttemptingWirelessSwitch=_isAttemptingWirelessSwitch;
-@property(readonly) NSString *model; // @synthesize model;
-@property unsigned long long networkState; // @synthesize networkState=_networkState;
-@property(retain) NSNumber *passcode; // @synthesize passcode;
-@property(readonly) _Bool sourceKnowsPasscode; // @synthesize sourceKnowsPasscode=_sourceKnowsPasscode;
 
 @end
 

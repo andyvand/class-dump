@@ -7,18 +7,16 @@
 @interface SiriCoreSQLiteQueryRange
 {
     unsigned long long _limit;
-    unsigned long long _offset;
 }
 
-- (id);
+- (id):(unsigned long long)arg1 userInteraction type:(unsigned long long)arg2 %ld;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)has no entitlement:(unsigned long long)arg1 %@;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 
 @end
 

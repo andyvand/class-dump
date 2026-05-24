@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFSoftwareVersion, HMSoftwareUpdateDocumentationMetadata, NSError, NSNumber, NSString;
-
 @interface HMSoftwareUpdateDescriptor
 {
     long long _status;
-    NSError *_error;
-    HMSoftwareUpdateDocumentationMetadata *_documentationMetadata;
-    HMFSoftwareVersion *_version;
-    NSNumber *_downloadSize;
-    NSString *_humanReadableUpdateName;
-    NSNumber *_rampFeatureEnabledOnServer;
 }
 
 + (id);
@@ -25,30 +17,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)k:� /* Error: Ran out of types for this method. */;
+- (id)#F7'CH
+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)cirrostratus;
+- (id)bougainvillaea;
+- (id)^;
 - (long long);
 - (id);
-- (void)alyticsMetricEvent;
-- (id)NED_ADDING_USER;
+- (void)HMCoreAnalyticsMetricEvent;
+- (id)USER_DECLINED_ADDING_USER;
 
 // Remaining properties
-@property(readonly) HMSoftwareUpdateDocumentationMetadata *documentationMetadata; // @synthesize documentationMetadata=_documentationMetadata;
-@property(readonly) NSNumber *downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly, copy) NSString *humanReadableUpdateName; // @synthesize humanReadableUpdateName=_humanReadableUpdateName;
-@property(retain) NSNumber *rampFeatureEnabledOnServer; // @synthesize rampFeatureEnabledOnServer=_rampFeatureEnabledOnServer;
 @property long long status; // @synthesize status=_status;
-@property(readonly) HMFSoftwareVersion *version; // @synthesize version=_version;
 
 @end
 

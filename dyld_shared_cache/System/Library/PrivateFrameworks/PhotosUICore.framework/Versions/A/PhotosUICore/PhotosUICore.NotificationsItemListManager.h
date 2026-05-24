@@ -7,13 +7,6 @@
 @interface PhotosUICore.NotificationsItemListManager
 {
     id currentCombinedNotifications;
-    id photoLibrary;
-    id dismissalController;
-    id filter;
-    id dismissalObservation;
-    id cloudQuotaNotificationInfo;
-    id underlyingItemListManager;
-    id composedItemListManagers;
 }
 
 - (void);

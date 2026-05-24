@@ -12,27 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UIStepperDesignLibraryVisualElement : UIView
 {
     id <UIStepperControl> stepperControl;
-    _Bool isEnabled;
-    double value;
-    double minimumValue;
-    double maximumValue;
-    double stepValue;
-    _Bool isContinuous;
-    _Bool wraps;
-    _Bool autorepeat;
-    id isRTL;
-    id coreHostingView;
-    id minusPressed;
-    id plusPressed;
-    id minusEnabled;
-    id plusEnabled;
-    id repeatTimer;
-    id timerDelay;
-    id fastTimerDelay;
-    id superFastTimerDelay;
-    id fastStartRepeatCount;
-    id superFastStartRepeatCount;
-    id repeatCount;
 }
 
 + (void);
@@ -40,10 +19,10 @@ __attribute__((visibility("hidden")))
 + (struct CGSize);
 + (struct UIEdgeInsets);
 + (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
+- (void)age request from %@;
+- (id)ords.chatManateeZone;
+- (struct CGSize)incomingMessageProcessedByDaemon;
+- (void)allAliases;
 - (void);
 - (void);
 - (void);
@@ -56,18 +35,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)9;
 - (void);
 - (id);
+- (void)initializeVolume - Error getting output device mute:(double)arg1 %{public}@;
+- (id);
 - (void);
 - (_Bool)Ñ`ð1Â0@ù
 × ;
 - (id);
 - (_Bool)yEnded"b1"automaticallyAdjustsWritingDirection"b1};
-- (void)ckerOverlayPresentationDelegate;
-- (id)lightViewRecord;
+- (void)_UIDatePickerOverlayPresentationDelegate;
+- (id)_UIInteractiveHighlightViewRecord;
 - (void);
 - (double)dô;
 - (double)ÿ.÷îÿ&ùîÿ;
@@ -82,15 +61,7 @@ __attribute__((visibility("hidden")))
 - (double)(ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool autorepeat; // @synthesize autorepeat;
-@property(nonatomic) _Bool continuous; // @synthesize continuous=isContinuous;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=isEnabled;
-@property(nonatomic) double maximumValue; // @synthesize maximumValue;
-@property(nonatomic) double minimumValue; // @synthesize minimumValue;
-@property(nonatomic) double stepValue; // @synthesize stepValue;
 @property(nonatomic, retain) id <UIStepperControl> stepperControl; // @synthesize stepperControl;
-@property(nonatomic) double value; // @synthesize value;
-@property(nonatomic) _Bool wraps; // @synthesize wraps;
 
 @end
 

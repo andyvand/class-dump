@@ -6,7 +6,7 @@
 
 #import <AVFCapture/AVCaptureFileOutput.h>
 
-@class AVCaptureAudioFileOutputInternal, NSArray, NSDictionary;
+@class AVCaptureAudioFileOutputInternal, NSArray;
 
 @interface AVCaptureAudioFileOutput : AVCaptureFileOutput
 {
@@ -17,10 +17,10 @@
 + (id);
 + (long long);
 + (void).2f | %.2f %.2f %.2f], extrinsicMatrix:[%.2f %.2f %.2f %.2f | %.2f %.2f %.2f %.2f | %.2f %.2f %.2f %.2f] pixelSize:%.3f mm%@, ref:{%.0fx%.0f} /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)VXPCTransaction endTransaction];
+- (void)rMaps() - Failed to create CG Image;
+- (_Bool);
+- (id)N13ImageAnalyzer20image_analyzer_errorE;
 - (_Bool);
 - (void);
 - (void);
@@ -31,24 +31,23 @@
 - (id);
 - (void);
 - (int);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)equest",R,V_humanTrackingRequest;
+- (id)panoramaAEGainThresholdForFlickerZoneIntegrationTimeTransition;
 - (id);
 - (void);
-- (void);
-- (void)_Tundra;
-- (id)ptureAutoExposureBracketedStillImageSettings;
+- (void)====;
+- (void)AVCaptureDeviceInputInternal_Tundra;
+- (id)AVCaptureAutoExposureBracketedStillImageSettings;
 - (void)rrideHistory because it is a member of devicesWithMediaType that is not suspended:(struct OpaqueFigCaptureSession *)arg1 %@[%c];
 - (_Bool)p:%@ soc:%d /* Error: Ran out of types for this method. */;
 - (_Bool)e.;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *audioSettings;
 @property(copy, nonatomic) NSArray *metadata;
 
 @end

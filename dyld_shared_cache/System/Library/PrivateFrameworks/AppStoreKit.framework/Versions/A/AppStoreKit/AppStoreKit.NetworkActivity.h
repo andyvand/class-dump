@@ -7,9 +7,6 @@
 @interface AppStoreKit.NetworkActivity
 {
     id stateLock;
-    id delegate;
-    id delegateScheduler;
-    id count;
 }
 
 @end

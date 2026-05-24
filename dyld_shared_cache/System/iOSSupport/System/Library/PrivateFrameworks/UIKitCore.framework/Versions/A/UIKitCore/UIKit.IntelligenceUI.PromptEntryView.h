@@ -9,56 +9,18 @@
 @interface UIKit.IntelligenceUI.PromptEntryView : UIView
 {
     id placeholder;
-    id placeholderConfiguration;
-    id delegate;
-    id textView;
-    id accessoryView;
-    id returnBehavior;
-    id visibleLineLimit;
-    id characterLimit;
-    id leadingButton;
-    id isLeadingButtonVisible;
-    id trailingButton;
-    id isTrailingButtonVisible;
-    id trailingButtonHiddenWhenEmpty;
-    id trailingButtonShowsClearButtonWhenNotEmpty;
-    id isLeadingButtonConfiguredAsToggle;
-    id leadingButtonToggleState;
-    id $__lazy_storage_$_backgroundView;
-    id textViewPadding;
-    id isPonderingEffectEnabled;
-    id styleAttributesForAmbiguity;
-    id styleAttributesForResolvedAmbiguity;
-    id _privatePressGestureRecognizerDelegate;
-    id placeholderLabel;
-    id accessorySeparatorView;
-    id containerScrollView;
-    id buttonContainerView;
-    id placeholderEffectView;
-    id $__lazy_storage_$_ponderingEffectView;
-    id nonPonderingBackgroundStyle;
-    id activePonderEffect;
-    id $__lazy_storage_$_accessoryContainerView;
-    id $__lazy_storage_$_accessoryContainerMaskView;
-    id _trailingButtonActivatesDictationWhenEmpty;
-    id ambiguitiesByID;
-    id imageAttributeStates;
-    id customConfigurations;
-    id needsStyleUpdate;
-    id modifierKeyRecognizer;
-    id backgroundCornerRadius;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void)6q44;
+- (void)2;
+- (_Bool)nhancedStorageMetrics";
+- (id)ttachmentInfo";
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)_messageReplayObjectWithService:(id)arg1 account:incomingTopLevelMessage:fromID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -67,12 +29,12 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (void);
+- (void)_handleMediaServicesLost:(id)arg1;
+- (void);
 - (struct CGSize);
 - (id)a°!|GùaÐ1Â0@ù
 × ;
-- (id)Image;
+- (id)_accessibilityHUDImage;
 - (void)(þÞÿÕ@_;
 
 // Remaining properties

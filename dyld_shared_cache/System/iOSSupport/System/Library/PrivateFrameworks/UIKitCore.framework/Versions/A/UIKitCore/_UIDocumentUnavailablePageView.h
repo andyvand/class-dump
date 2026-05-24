@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ransitionContext:(struct CGRect)arg1;
+- (id)_configureBrowserTransitionWithTransitionContext:(struct CGRect)arg1;
 
 @end
 

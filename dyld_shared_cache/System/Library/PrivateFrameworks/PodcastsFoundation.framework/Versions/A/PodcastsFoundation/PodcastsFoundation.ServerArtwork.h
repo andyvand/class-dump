@@ -7,13 +7,6 @@
 @interface PodcastsFoundation.ServerArtwork
 {
     id width;
-    id height;
-    id url;
-    id bgColor;
-    id textColor1;
-    id textColor2;
-    id textColor3;
-    id textColor4;
 }
 
 @end

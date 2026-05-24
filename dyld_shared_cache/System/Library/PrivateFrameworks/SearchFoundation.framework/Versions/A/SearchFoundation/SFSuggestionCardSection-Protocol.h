@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFFormattedText, SFImage, SFRichText;
+@class NSDictionary, NSString, SFRichText;
 
 @protocol SFSuggestionCardSection
+- (_Bool);
+- (SFRichText *)_dictionaryRepresentationWithDSID: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)P;
 - (int)V_metadata;
 
 // Remaining properties
-@property(retain, nonatomic) SFRichText *detailText;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isContact;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *scopedSearchSectionBundleIdentifier;
-@property(retain, nonatomic) SFRichText *suggestionText;
-@property(nonatomic) int suggestionType;
-@property(retain, nonatomic) SFImage *thumbnail;
-@property(retain, nonatomic) SFFormattedText *trailingBottomText;
-@property(retain, nonatomic) SFFormattedText *trailingMiddleText;
 @property(copy, nonatomic) NSString *type;
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, LPFileMetadata, LPLinkMetadata, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNShareContactActivityItem
 {
     _Bool _canSharePronouns;
-    _Bool _canShareMeCardOnlySharingProperties;
-    NSArray *_contacts;
-    NSString *_groupName;
-    LPLinkMetadata *_linkMetadata;
-    LPFileMetadata *_fileMetadata;
-    CNContactFormatter *_contactFormatter;
 }
 
 - (void);
@@ -27,39 +21,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id)y;
+- (id);
+- (id);
+- (void)4;
 - (id);
 - (id);
 - (id);
+- (id)9To;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)ntact:withMissingKeysFromRequiredKeys: /* Error: Ran out of types for this method. */;
+- (id)Documents;
+- (void)_updateContact:withMissingKeysFromRequiredKeys: /* Error: Ran out of types for this method. */;
 - (id)ustomItems;
 - (id);
 - (void);
 - (void)¤;
 
 // Remaining properties
-@property(nonatomic) _Bool canShareMeCardOnlySharingProperties; // @synthesize canShareMeCardOnlySharingProperties=_canShareMeCardOnlySharingProperties;
-@property(nonatomic) _Bool canSharePronouns; // @synthesize canSharePronouns=_canSharePronouns;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) LPFileMetadata *fileMetadata; // @synthesize fileMetadata=_fileMetadata;
-@property(retain, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
-@property(readonly) Class superclass;
 
 @end
 

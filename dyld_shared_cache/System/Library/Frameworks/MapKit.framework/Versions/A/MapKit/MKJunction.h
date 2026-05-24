@@ -7,31 +7,26 @@
 @interface MKJunction
 {
     struct GEOJunctionElement *_elements;
-    unsigned long long _count;
-    int _type;
-    int _maneuver;
-    int _drivingSide;
-    struct GEOJunctionElement *_snapped[8];
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_;
+- (_Bool)4H;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (unsigned long long);
 - (int);
-- (_Bool);
+- (_Bool)`;
 - (void);
 
 // Remaining properties

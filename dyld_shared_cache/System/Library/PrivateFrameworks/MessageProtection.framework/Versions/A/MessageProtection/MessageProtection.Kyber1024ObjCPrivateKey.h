@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MessageProtection.Kyber1024ObjCPublicKey, NSData;
+@class NSData;
 
 @interface MessageProtection.Kyber1024ObjCPrivateKey
 {
     id privKey;
 }
 
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *protobufData;
-@property(nonatomic, readonly) MessageProtection.Kyber1024ObjCPublicKey *publicKey;
 
 @end
 

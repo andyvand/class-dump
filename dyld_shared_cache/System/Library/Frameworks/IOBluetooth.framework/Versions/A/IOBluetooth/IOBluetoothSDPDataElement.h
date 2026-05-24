@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 @interface IOBluetoothSDPDataElement
 {
     unsigned char mTypeDescriptor;
-    unsigned char mSizeDescriptor;
-    unsigned int mSize;
-    NSObject *mValue;
-    void *_mReserved;
 }
 
 + (id);
@@ -24,7 +18,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned char);
+- (unsigned char)RN;
 - (id);
 - (id);
 - (id);
@@ -32,7 +26,7 @@
 - (id);
 - (id);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char)486Z;
 - (struct OpaqueIOBluetoothObjectRef *);
 - (id);
 - (unsigned char);
@@ -43,7 +37,7 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);

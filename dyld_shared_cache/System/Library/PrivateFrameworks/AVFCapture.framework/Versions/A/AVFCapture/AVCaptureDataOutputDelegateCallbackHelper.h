@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReferencingDelegateStorage, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDataOutputDelegateCallbackHelper
 {
     NSString *_defaultCallbackQueueName;
-    NSObject<OS_dispatch_queue> *_defaultCallbackQueue;
-    struct OpaqueFigSimpleMutex *_stateMutex;
-    AVWeakReferencingDelegateStorage *_delegateStorage;
-    AVWeakReferencingDelegateStorage *_delegateOverrideStorage;
-    struct localQueueOpaque *_localQueue;
-    CDUnknownBlockType _localQueueHandler;
-    _Bool _canSetClientDelegateCallbackQueueWhenRunningInsideMediaserverd;
 }
 
 + (void)ing in an IOSMac (Catalyst) environment.;
 - (void);
 - (id);
 - (id);
+- (_Bool)_depthDataDeliveryZoomLock;
 - (_Bool);
+- (id)ts[curMovieFileTrackIndex] pipelineStage:tailPipelineConfiguration.movieFilePipelineStage] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id)@ù
 × ;
-- (id)llbackDataWithOutput:connection: /* Error: Ran out of types for this method. */;
+- (id)callbackDataWithOutput:connection: /* Error: Ran out of types for this method. */;
 - (id)ngs array exceeds -maxBracketedCaptureStillImageCount;
 
 // Remaining properties
-@property(readonly) NSObject<OS_dispatch_queue> *activeCallbackQueue;
 @property(readonly) id activeDelegate;
-@property(readonly) NSObject<OS_dispatch_queue> *clientCallbackQueue;
-@property(readonly) id clientDelegate;
-@property(readonly) id delegateOverride;
-@property(readonly) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
 
 @end
 

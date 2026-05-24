@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (Class);
-- (id)sUICoreSharedLibrary;
++ (Class)distanceFromBottomChromeTextToGrid;
+- (id)PhotosUICoreSharedLibrary;
 
 @end
 

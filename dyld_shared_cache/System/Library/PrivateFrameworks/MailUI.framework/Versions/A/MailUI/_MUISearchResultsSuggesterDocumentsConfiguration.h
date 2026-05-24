@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _MUISearchResultsSuggesterDocumentsConfiguration
 {
 }
 
-+ (id);
++ (id)Z;
+- (id)@9;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)a~;
+- (unsigned long long)B;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *fetchAttributes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logIdentifier;
-@property(readonly, nonatomic) unsigned long long maxItemCount;
-@property(readonly) Class superclass;
 
 @end
 

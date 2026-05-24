@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSString;
 
 @protocol MTLBinaryArchiveSPI
+- (_Bool)?;
+- (_Bool)(a;
+- (NSString *);
 
 // Remaining properties
-@property(readonly) NSArray *keys;
 @property(readonly) unsigned long long options;
 @end
 

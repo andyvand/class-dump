@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSFont;
+@class NSDictionary, NSFont;
 
 @protocol SOTranscriptTheme
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSFont *balloonTextFont;
-@property(readonly, nonatomic) NSColor *defaultCollectionViewItemBackgroundColor;
-@property(readonly, nonatomic) struct CGSize defaultCollectionViewItemSize;
-@property(readonly, nonatomic) NSDictionary *defaultStatusItemStringAttributes;
-@property(readonly, nonatomic) NSDictionary *effectControlItemStringAttributes;
 @end
 

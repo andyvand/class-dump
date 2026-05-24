@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (_Bool);
-- (id);
+- (id)off another asset download batch in %f seconds;
 - (id);
 - (double);
 

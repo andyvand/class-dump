@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContactViewController;
+
 @protocol CNContactViewControllerPrivateDelegate
+
+@optional
+- (void)setEventTouchValueField:(CNContactViewController *)arg1;
 @end
 

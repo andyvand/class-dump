@@ -4,49 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, CLSBusinessItem, CLSLocationOfInterestVisit, NSArray, NSDateInterval, NSString;
+@class CLSBusinessItem;
 
 @interface PGGraphIngestBusinessItemContainer
 {
     CLSBusinessItem *_businessItem;
-    CLSLocationOfInterestVisit *_visit;
-    NSDateInterval *_dateInterval;
 }
 
 - (void);
-- (double);
+- (double)setDialogHasEverBeenDisplayed: /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 ;
 - (id);
-- (id);
-- (id);
+- (id)[a:(id)arg1 ;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setCompletionBlock: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (long long)ay;
-- (void)PlayedDate;
+- (void)lastMoviePlayedDate;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *businessCategories;
 @property(readonly, nonatomic) CLSBusinessItem *businessItem; // @synthesize businessItem=_businessItem;
-@property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasRoutineVisit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) CLCircularRegion *region;
-@property(readonly, nonatomic) double routineVisitConfidence;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long venueCapacity;
-@property(readonly, nonatomic) CLSLocationOfInterestVisit *visit; // @synthesize visit=_visit;
 
 @end
 

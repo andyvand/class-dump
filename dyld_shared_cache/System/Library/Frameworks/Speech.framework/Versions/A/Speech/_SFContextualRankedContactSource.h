@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface _SFContextualRankedContactSource
 {
     _Bool _contactOnly;
-    NSString *_sourceApplication;
-    NSDate *_rankDate;
-    long long _limit;
 }
 
-+ (_Bool);
++ (_Bool)?;
 - (id);
 - (id);
 - (_Bool);
@@ -26,9 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool contactOnly; // @synthesize contactOnly=_contactOnly;
-@property(readonly, nonatomic) long long limit; // @synthesize limit=_limit;
-@property(readonly, copy, nonatomic) NSDate *rankDate; // @synthesize rankDate=_rankDate;
 @property(readonly, copy, nonatomic) NSString *sourceApplication; // @synthesize sourceApplication=_sourceApplication;
 
 @end

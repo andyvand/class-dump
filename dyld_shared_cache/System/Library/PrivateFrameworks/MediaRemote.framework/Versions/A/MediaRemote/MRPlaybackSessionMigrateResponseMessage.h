@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)TimeSensitiveRequestsMigrationVersion;
 - (id);
 
 // Remaining properties

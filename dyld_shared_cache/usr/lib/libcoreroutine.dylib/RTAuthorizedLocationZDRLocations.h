@@ -4,54 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface RTAuthorizedLocationZDRLocations
 {
     NSUUID *_zdrLocationUUID;
-    NSDate *_zdrLocationDbEntryTimeCfatSec;
-    double _zdrLocationLatitudeDeg;
-    double _zdrLocationLongitudeDeg;
-    unsigned long long _zdrLocationType;
-    NSDate *_zdrLocationLastSeenTimeCfatSec;
 }
 
-+ (id);
++ (id)%@
+;
 + (id);
 + (_Bool);
 - (double);
 - (double);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void)C;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)setTriggerUpdate:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)v32@0:(id)arg1 8B16B20@?<v@?>24;
+- (id)nnecting candidate pairs:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)tion with name received, %@ (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *zdrLocationDbEntryTimeCfatSec; // @synthesize zdrLocationDbEntryTimeCfatSec=_zdrLocationDbEntryTimeCfatSec;
-@property(retain, nonatomic) NSDate *zdrLocationLastSeenTimeCfatSec; // @synthesize zdrLocationLastSeenTimeCfatSec=_zdrLocationLastSeenTimeCfatSec;
-@property(nonatomic) double zdrLocationLatitudeDeg; // @synthesize zdrLocationLatitudeDeg=_zdrLocationLatitudeDeg;
-@property(nonatomic) double zdrLocationLongitudeDeg; // @synthesize zdrLocationLongitudeDeg=_zdrLocationLongitudeDeg;
-@property(nonatomic) unsigned long long zdrLocationType; // @synthesize zdrLocationType=_zdrLocationType;
-@property(readonly, nonatomic) NSUUID *zdrLocationUUID; // @synthesize zdrLocationUUID=_zdrLocationUUID;
 
 @end
 

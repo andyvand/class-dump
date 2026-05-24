@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, PARSession;
+
 @protocol PARSessionDelegate
+
+@optional
+- (void)ValuePairKeyExtractor<WTF:(PARSession *)arg1:(NSString *)arg2 KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebPageProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void):(PARSession *)arg1 WebPageProxy>, unsigned int>, WTF:(NSString *)arg2:KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebPageProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

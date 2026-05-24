@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVURLAsset;
+
 @protocol FCAVAssetKeyManagerType
+- (void)etionBlock:(AVURLAsset *)arg1 called after promise was complete :%@ /* Error: Ran out of types for this method. */;
 - (void)× ;
 @end
 

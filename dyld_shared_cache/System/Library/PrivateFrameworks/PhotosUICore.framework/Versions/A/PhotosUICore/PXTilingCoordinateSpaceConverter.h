@@ -17,9 +17,9 @@
 - (struct CGPoint);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
+- (void);
 - (void);
-- (void);
-- (_Bool)Budget;
+- (_Bool)PXCPLStatusPauseReasonCellularBudget;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldCache; // @synthesize shouldCache=_shouldCache;

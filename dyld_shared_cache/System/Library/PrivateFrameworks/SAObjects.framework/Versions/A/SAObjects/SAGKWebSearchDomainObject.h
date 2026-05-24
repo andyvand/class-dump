@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAGKDomainObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAGKWebSearchDomainObject : SAGKDomainObject
 {
@@ -14,19 +14,17 @@
 
 + (id);
 + (id);
-- (void);
+- (void)_;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *image;
-@property(copy, nonatomic) NSArray *linkedAnswerGroups;
-@property(copy, nonatomic) NSString *query;
 
 @end
 

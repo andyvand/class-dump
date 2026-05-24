@@ -4,43 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSDictionary;
 
 @interface USUsageAccumulator
 {
     _Bool _standByEnabled;
-    _Bool _deviceBacklit;
-    int _quickLookVideoNowPlayingState;
-    NSDictionary *_applicationCategories;
-    NSDictionary *_webCategories;
-    NSDate *_backlightStartDate;
-    NSMutableDictionary *_applicationUsageStartDates;
-    NSMutableDictionary *_webUsageStartDatesByWebBrowser;
-    NSDate *_mediaNowPlayingStartDate;
-    NSMutableDictionary *_webUsageStateByUniqueID;
-    NSMutableDictionary *_mediaUsageByUniqueID;
-    NSMutableArray *_backlightIntervals;
-    NSMutableDictionary *_applicationUsageIntervals;
-    NSMutableDictionary *_webUsageIntervals;
-    NSMutableDictionary *_categoryUsageIntervals;
-    NSMutableDictionary *_canonicalApplicationUsageIntervals;
-    NSMutableDictionary *_primaryWebUsageIntervals;
-    NSMutableDictionary *_notifications;
-    NSDate *_lastEventDate;
 }
 
+- (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (int);
+- (int)!;
 - (id);
 - (id);
 - (id);
@@ -57,21 +39,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)RG;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -83,24 +65,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *applicationCategories; // @synthesize applicationCategories=_applicationCategories;
-@property(readonly) NSMutableDictionary *applicationUsageIntervals; // @synthesize applicationUsageIntervals=_applicationUsageIntervals;
-@property(readonly) NSMutableDictionary *applicationUsageStartDates; // @synthesize applicationUsageStartDates=_applicationUsageStartDates;
-@property(readonly) NSMutableArray *backlightIntervals; // @synthesize backlightIntervals=_backlightIntervals;
-@property(copy) NSDate *backlightStartDate; // @synthesize backlightStartDate=_backlightStartDate;
-@property(readonly) NSMutableDictionary *canonicalApplicationUsageIntervals; // @synthesize canonicalApplicationUsageIntervals=_canonicalApplicationUsageIntervals;
-@property(readonly) NSMutableDictionary *categoryUsageIntervals; // @synthesize categoryUsageIntervals=_categoryUsageIntervals;
-@property(getter=isDeviceBacklit) _Bool deviceBacklit; // @synthesize deviceBacklit=_deviceBacklit;
-@property(copy) NSDate *lastEventDate; // @synthesize lastEventDate=_lastEventDate;
-@property(copy) NSDate *mediaNowPlayingStartDate; // @synthesize mediaNowPlayingStartDate=_mediaNowPlayingStartDate;
-@property(retain) NSMutableDictionary *mediaUsageByUniqueID; // @synthesize mediaUsageByUniqueID=_mediaUsageByUniqueID;
-@property(readonly) NSMutableDictionary *notifications; // @synthesize notifications=_notifications;
-@property(readonly) NSMutableDictionary *primaryWebUsageIntervals; // @synthesize primaryWebUsageIntervals=_primaryWebUsageIntervals;
-@property int quickLookVideoNowPlayingState; // @synthesize quickLookVideoNowPlayingState=_quickLookVideoNowPlayingState;
-@property(getter=isStandByEnabled) _Bool standByEnabled; // @synthesize standByEnabled=_standByEnabled;
-@property(readonly, copy) NSDictionary *webCategories; // @synthesize webCategories=_webCategories;
-@property(readonly) NSMutableDictionary *webUsageIntervals; // @synthesize webUsageIntervals=_webUsageIntervals;
-@property(readonly) NSMutableDictionary *webUsageStartDatesByWebBrowser; // @synthesize webUsageStartDatesByWebBrowser=_webUsageStartDatesByWebBrowser;
-@property(readonly) NSMutableDictionary *webUsageStateByUniqueID; // @synthesize webUsageStateByUniqueID=_webUsageStateByUniqueID;
 
 @end
 

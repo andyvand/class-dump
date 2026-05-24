@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @protocol _INPBSetCarLockStatusIntent
+- (void)setMotionState:(_INPBDataString *)arg1;
+- (_Bool);
 - (_Bool)cludeSleepAlarm:period:isMeridianInferred: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasLocked;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool locked;
 @end
 

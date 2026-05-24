@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAEmailAddressSet, NSArray, NSMutableDictionary, NSOperationQueue, NSString;
-@protocol EMVIPManager;
+@class NSMutableDictionary, NSOperationQueue;
 
 @interface MFVIPSendersController
 {
     NSMutableDictionary *_VIPSendersMailboxesByIdentifier;
-    id <EMVIPManager> _vipManager;
-    NSOperationQueue *_operationQueue;
 }
 
 + (void);
@@ -35,30 +32,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)ocal cancel caught
+;
 - (id)­#°E¾ÿQ;
 - (void)ger. Flag changes:%{public}@ messages:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *VIPSendersMailboxes;
-@property(readonly, copy) EAEmailAddressSet *addressesForVIPSenders;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool filterByInboxOnly;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <EMVIPManager> vipManager; // @synthesize vipManager=_vipManager;
 
 @end
 

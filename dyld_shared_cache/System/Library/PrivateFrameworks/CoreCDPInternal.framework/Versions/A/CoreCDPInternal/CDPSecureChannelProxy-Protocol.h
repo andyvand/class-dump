@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol CDPSecureChannelProxy
+- (void)JSONObjectWithStream:(NSData *)arg1 options:(void (^)(NSData *, NSError *))arg2 error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)CABackdropLayerDelegate;
+- (_Bool)ViewActionForwardingLayerDelegate;
 @end
 

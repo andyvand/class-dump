@@ -9,7 +9,6 @@
 @interface MKPlaceSectionRowView : MKPlaceSectionItemView
 {
     _Bool _selected;
-    _Bool _highlighted;
 }
 
 - (void);
@@ -18,10 +17,9 @@
 - (void);
 - (void);
 - (_Bool)_inactiveLinesForSystem: /* Error: Ran out of types for this method. */;
-- (_Bool)mated: /* Error: Ran out of types for this method. */;
+- (_Bool)_dropDraggingAnnotationViewAnimated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
 
 @end

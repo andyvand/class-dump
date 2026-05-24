@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PSGInputSuggesterClient, PSGInputSuggestionsRequest, _PASTuple2;
-@protocol OS_dispatch_queue;
+@class PSGInputSuggesterClient;
 
 @interface PSGInputSuggester
 {
     PSGInputSuggesterClient *_client;
-    NSObject<OS_dispatch_queue> *_lastPredictionQueue;
-    PSGInputSuggestionsRequest *_lastRequest;
-    _PASTuple2 *_lastPrediction;
-    _PASTuple2 *_lastImpression;
 }
 
-+ (id);
++ (id)6\;
+- (void)@;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

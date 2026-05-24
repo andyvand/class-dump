@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (CDStruct_1ef3fb1f);
 

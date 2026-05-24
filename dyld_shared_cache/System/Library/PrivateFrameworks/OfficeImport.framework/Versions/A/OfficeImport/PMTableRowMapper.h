@@ -6,21 +6,19 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class OADTable, OADTableRow;
+@class OADTable;
 
 __attribute__((visibility("hidden")))
 @interface PMTableRowMapper : CMMapper
 {
     OADTable *mTable;
-    OADTableRow *mRow;
-    unsigned long long mRowIndex;
 }
 
 - (void);
-- (id);
+- (id)Y;
 - (unsigned long long);
 - (float);
-- (void)ats;
+- (void)DateTimeFormats;
 
 @end
 

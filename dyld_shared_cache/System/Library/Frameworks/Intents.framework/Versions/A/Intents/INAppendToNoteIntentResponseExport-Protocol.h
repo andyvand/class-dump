@@ -7,10 +7,11 @@
 @class INNote;
 
 @protocol INAppendToNoteIntentResponseExport
-- (long long)rator;
+- (void)troller.simulatedbatteryalert;
+- (INNote *);
+- (long long)groupNamesOperator;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INNote *note;
 @end
 

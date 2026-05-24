@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)eter120(4247):Error adding 1 elements to context /* Error: Ran out of types for this method. */;
+- (void)/usr/lib/swift/libswiftObjectiveC.dylib;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *colorPresets; // @synthesize colorPresets=_colorPresets;

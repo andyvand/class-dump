@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFManualCancelationToken, EFPair, EMMailboxScope, EMMessageRepository, EMQuery, NSString;
-@protocol EMMessageRepositoryCountQueryObserver;
+@class EFPair, EMMessageRepository;
 
 __attribute__((visibility("hidden")))
 @interface _EMMessageRepositoryCountingQueryObserver
 {
     EMMessageRepository *_repository;
-    EMQuery *_query;
-    EMMailboxScope *_serverCountMailboxScope;
-    id <EMMessageRepositoryCountQueryObserver> _observer;
-    EFManualCancelationToken *_token;
-    EFPair *_queryIdentifier;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void):; /* Error: Ran out of types for this method. */;
+- (void)inking;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) EFPair *queryIdentifier; // @synthesize queryIdentifier=_queryIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

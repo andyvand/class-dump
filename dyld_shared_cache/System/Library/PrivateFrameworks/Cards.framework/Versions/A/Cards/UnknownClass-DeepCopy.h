@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (DeepCopy)
-- (id);
+- (id)R;
 @end
 

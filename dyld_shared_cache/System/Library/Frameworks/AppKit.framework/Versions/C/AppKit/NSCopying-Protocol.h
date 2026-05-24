@@ -5,6 +5,6 @@
 //
 
 @protocol NSCopying
-- (id)nlinePredictionActive;
+- (id)inlinePredictionActive;
 @end
 

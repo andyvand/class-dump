@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)maximumNumberOfTrackedFaces;
 + (void);
-- (_Bool);
+- (_Bool)(;
 - (id);
 
 @end

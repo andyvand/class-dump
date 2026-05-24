@@ -6,50 +6,10 @@
 
 #import <AVConference/VCVideoCapture.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface TundraVideoCapture : VCVideoCapture
 {
     struct OpaqueCMIOGraph *_graph;
-    struct {
-        struct __sFILE *stuff;
-        CDUnknownFunctionPointerType requestRenderCallback;
-        void *requestRenderCallbackRefcon;
-        struct opaqueCMFormatDescription *formatDesc;
-        void *func_arg;
-        CDUnknownFunctionPointerType func_video;
-        void *clockOrTimebase;
-        struct OpaqueCMIOGraph *theGraph;
-    } _videoStore;
-    unsigned int _selectedCameraID;
-    struct OpaqueCMClock *_clockForDevice;
-    struct _VCVideoSourceToken _sourceToken;
-    _Bool _quit;
-    _Bool _frameAvailable;
-    _Bool _capturing;
-    _Bool _previewing;
-    struct OpaqueFigThread *_tidFrame;
-    int _lastRequestedWidth;
-    int _lastRequestedHeight;
-    int _lastRequestedFrameRate;
-    int _conferenceFrameRate;
-    _Bool _enableLocalRecording;
-    int _sensorFrameRate;
-    int _frameCounterForDrop;
-    int _frameCounterForRate;
-    int _frameCounterDiscard;
-    double _referenceTimestamp;
-    double _lastPreviewFrameTime;
-    double _lastCaptureFrameTime;
-    NSObject<OS_dispatch_queue> *_captureSessionQueue;
-    struct _opaque_pthread_mutex_t _xLiveSource;
-    struct opaqueCMBufferQueue *_previewQueue;
-    int _frameCount;
-    NSObject<OS_dispatch_semaphore> *_frameAvailableSemaphore;
-    struct __CVPixelBufferPool *_captureBufferPool;
-    struct OpaqueVTPixelTransferSession *_captureTransferSession;
 }
 
 - (void);
@@ -58,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (void);
+- (void)a;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -85,13 +45,7 @@ __attribute__((visibility("hidden")))
 - (int)ecoding order %u;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

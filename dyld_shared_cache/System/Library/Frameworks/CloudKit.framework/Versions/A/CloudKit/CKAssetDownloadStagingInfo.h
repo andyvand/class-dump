@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSNumber;
 
 @interface CKAssetDownloadStagingInfo
 {
     NSNumber *_itemID;
-    NSString *_trackingUUID;
-    NSData *_signature;
 }
 
 + (_Bool);
@@ -26,16 +24,7 @@
 - (void)x+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(readonly, copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *trackingUUID; // @synthesize trackingUUID=_trackingUUID;
 
 @end
 

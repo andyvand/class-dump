@@ -7,16 +7,6 @@
 @interface ScreenTimeUI.CommunicationLimitsBlockingViewModel
 {
     id askToController;
-    id contactNameByHandle;
-    id _delegate;
-    id handles;
-    id managementState;
-    id telephonyUtilities;
-    id logger;
-    id _isLocalUserManaged;
-    id _isLocalUserPasscodeRestricted;
-    long long _blockingViewType;
-    id _$observationRegistrar;
 }
 
 - (void);
@@ -24,11 +14,10 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)_scheduleFetchEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long _blockingViewType; // @synthesize _blockingViewType;
-@property(nonatomic) long long blockingViewType;
 
 @end
 

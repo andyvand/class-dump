@@ -5,5 +5,6 @@
 //
 
 @protocol AAAgeMigrationFlowPresenterProtocol
+- (void)count = %ld;
 @end
 

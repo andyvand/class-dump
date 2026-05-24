@@ -6,27 +6,25 @@
 
 #import <ChatKit/CKTypingChatItem.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKTypingPluginChatItem : CKTypingChatItem
 {
     NSString *_plugInBundleID;
-    NSData *_typingIndicatorData;
 }
 
-+ (id);
++ (id)ilView hairlineLayerForEdge:(id)arg1 ];
+- (id)ddddd}76;
+- (void)nonPersistentDataStore;
+- (id)_updateContentDelayer;
+- (struct CGSize)setIsEphemeral:(struct CGSize)arg1;
 - (id);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
+- (id)d;
 - (Class);
 - (void)e image for balloon view %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *plugInBundleID; // @synthesize plugInBundleID=_plugInBundleID;
-@property(readonly, nonatomic) NSData *typingIndicatorData; // @synthesize typingIndicatorData=_typingIndicatorData;
 
 @end
 

@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)IMDSafetyMonitorLogDomain;
 + (id);
-+ (id);
-- (void)raction;
+- (void)wantsScrollPocketContainerInteraction;
 
 @end
 

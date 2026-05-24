@@ -9,7 +9,6 @@
 @interface PKDateComponentsRange
 {
     NSDateComponents *_startDateComponents;
-    NSDateComponents *_endDateComponents;
 }
 
 + (_Bool);
@@ -19,15 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasSlowWiFiNotificationReceivedDuringStudy;
 - (void);
 - (id);
-- (void)tus;
+- (void)autopayStatus;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDateComponents *endDateComponents; // @synthesize endDateComponents=_endDateComponents;
 @property(readonly, copy, nonatomic) NSDateComponents *startDateComponents; // @synthesize startDateComponents=_startDateComponents;
 
 @end

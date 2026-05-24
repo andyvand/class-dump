@@ -11,7 +11,6 @@
 @interface NUFilterNode : NURenderNode
 {
     NSString *_filterName;
-    long long _gainMapMode;
 }
 
 - (_Bool);
@@ -37,7 +36,6 @@
 - (id)NUSchemaRegistry schemaWithIdentifier:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *filterName; // @synthesize filterName=_filterName;
 @property(readonly, nonatomic) long long gainMapMode; // @synthesize gainMapMode=_gainMapMode;
 
 @end

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, INWorkoutCustomization, NSArray, NSNumber;
+@class INSpeakableString;
 
 @protocol INStartWorkoutIntentExport
+- (INSpeakableString *);
 
 // Remaining properties
-@property(copy) NSArray *associatedItems;
-@property(copy) INWorkoutCustomization *customization;
-@property(copy) NSNumber *goalValue;
-@property(copy) NSNumber *isBuiltInWorkoutType;
-@property(copy) NSNumber *isOpenEnded;
-@property(copy) NSNumber *isVoiceOnly;
-@property long long sequenceLabel;
-@property long long workoutGoalUnitType;
-@property long long workoutLocationType;
 @property(copy) INSpeakableString *workoutName;
 @end
 

@@ -4,71 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLOptimizationHints, NSDictionary, NSString, NSURL;
-@protocol MTLDevice;
-
 @interface MLModelConfiguration
 {
     long long _experimentalMLE5EngineUsage;
-    _Bool _usePrecompiledE5Bundle;
-    long long _experimentalMLE5BNNSGraphBackendUsage;
-    long long _experimentalMLE5BNNSGraphBackendUsageMultiSegment;
-    NSDictionary *_e5rtDynamicCallableFunctions;
-    NSDictionary *_e5rtMutableMILWeightURLs;
-    unsigned long long _e5rtComputeDeviceTypeMask;
-    NSString *_e5rtCustomANECompilerOptions;
-    _Bool _serializesMILTextForDebugging;
-    _Bool _specializationUsesMPSGraphExecutable;
-    long long _experimentalMLProgramEncryptedCacheUsage;
-    _Bool _allowBackgroundGPUComputeSetting;
-    _Bool _trainWithMLCompute;
-    _Bool _useWatchSPIForScribble;
-    _Bool _allowLowPrecisionAccumulationOnGPU;
-    _Bool _enableTestVectorMode;
-    _Bool _usePreloadedKey;
-    _Bool _allowsInstrumentation;
-    _Bool _preparesLazily;
-    NSString *_modelDisplayName;
-    long long _computeUnits;
-    MLOptimizationHints *_optimizationHints;
-    NSString *_functionName;
-    long long _predictionConcurrencyHint;
-    id <MTLDevice> _preferredMetalDevice;
-    NSDictionary *_parameters;
-    NSURL *_rootModelURL;
-    long long _profilingOptions;
-    NSString *_parentModelName;
 }
 
 + (_Bool);
 + (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)d Descriptor Creation;
+- (_Bool)newSerializedDescriptor];
+- (_Bool)LStageInputOutputDescriptorInternal newSerializedDescriptor];
+- (_Bool)setTileFunction:] /* Error: Ran out of types for this method. */;
+- (void)edSubscript:(_Bool)arg1 ];
+- (void)iptorArrayInternal objectAtIndexedSubscript:(_Bool)arg1 ];
+- (void)LTileRenderPipelineColorAttachmentDescriptorArrayInternal objectAtIndexedSubscript:(_Bool)arg1 ];
+- (void)lu) must be less than or equal to %lu;
+- (void)Binary linked functions are not supported for object and mesh shaders;
+- (void)validateWithDevice;
+- (void)t a MTLFunctionTypeFragment.;
+- (void)mentFunction functionType is not a MTLFunctionTypeFragment.;
+- (void)ntFunction is not a MTLFunction.;
+- (void)riptor setFragmentFunction:(id)arg1 ];
+- (void)n.;
+- (void);
+- (void)tions:(id)arg1 ];
+- (void)epthAttachmentPixelFormat =;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
@@ -77,38 +46,39 @@
 - (id);
 - (long long);
 - (_Bool);
+- (id)<\;
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (id);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)$;
 - (_Bool);
+- (_Bool)$t;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)x;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)d0;
 - (void);
-- (id);
-- (id);
+- (id)H;
+- (id)st system error:%u
+# Check failed:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -124,38 +94,7 @@
 - (id)ust be escaped to \u0005;
 
 // Remaining properties
-@property(nonatomic) _Bool allowBackgroundGPUCompute;
-@property _Bool allowBackgroundGPUComputeSetting; // @synthesize allowBackgroundGPUComputeSetting=_allowBackgroundGPUComputeSetting;
-@property(nonatomic) _Bool allowFloat16AccumulationOnGPU;
-@property _Bool allowLowPrecisionAccumulationOnGPU; // @synthesize allowLowPrecisionAccumulationOnGPU=_allowLowPrecisionAccumulationOnGPU;
-@property(nonatomic) _Bool allowsInstrumentation; // @synthesize allowsInstrumentation=_allowsInstrumentation;
-@property long long computeUnits; // @synthesize computeUnits=_computeUnits;
-@property(nonatomic) unsigned long long e5rtComputeDeviceTypeMask;
-@property(copy, nonatomic) NSString *e5rtCustomANECompilerOptions;
-@property(copy, nonatomic) NSDictionary *e5rtDynamicCallableFunctions;
-@property(copy, nonatomic) NSDictionary *e5rtMutableMILWeightURLs;
-@property(nonatomic) _Bool enableTestVectorMode; // @synthesize enableTestVectorMode=_enableTestVectorMode;
-@property(nonatomic) long long experimentalMLE5BNNSGraphBackendUsage;
-@property(nonatomic) long long experimentalMLE5BNNSGraphBackendUsageMultiSegment;
 @property(nonatomic) long long experimentalMLE5EngineUsage;
-@property(nonatomic) long long experimentalMLProgramEncryptedCacheUsage;
-@property(copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(copy) NSString *modelDisplayName; // @synthesize modelDisplayName=_modelDisplayName;
-@property(copy, nonatomic) MLOptimizationHints *optimizationHints; // @synthesize optimizationHints=_optimizationHints;
-@property(retain) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(retain, nonatomic) NSString *parentModelName; // @synthesize parentModelName=_parentModelName;
-@property(nonatomic) long long predictionConcurrencyHint; // @synthesize predictionConcurrencyHint=_predictionConcurrencyHint;
-@property(retain, nonatomic) id <MTLDevice> preferredMTLDevice;
-@property(retain, nonatomic) id <MTLDevice> preferredMetalDevice; // @synthesize preferredMetalDevice=_preferredMetalDevice;
-@property(nonatomic) _Bool preparesLazily; // @synthesize preparesLazily=_preparesLazily;
-@property(nonatomic) long long profilingOptions; // @synthesize profilingOptions=_profilingOptions;
-@property(retain) NSURL *rootModelURL; // @synthesize rootModelURL=_rootModelURL;
-@property(nonatomic) _Bool serializesMILTextForDebugging;
-@property(nonatomic) _Bool specializationUsesMPSGraphExecutable;
-@property _Bool trainWithMLCompute; // @synthesize trainWithMLCompute=_trainWithMLCompute;
-@property(nonatomic) _Bool usePrecompiledE5Bundle;
-@property(nonatomic) _Bool usePreloadedKey; // @synthesize usePreloadedKey=_usePreloadedKey;
-@property(nonatomic) _Bool useWatchSPIForScribble; // @synthesize useWatchSPIForScribble=_useWatchSPIForScribble;
 
 @end
 

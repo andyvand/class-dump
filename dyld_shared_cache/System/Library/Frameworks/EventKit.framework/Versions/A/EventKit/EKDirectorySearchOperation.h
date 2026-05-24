@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKDirectorySearchQuery, NSError, NSString;
-
 @interface EKDirectorySearchOperation
 {
     _Bool _isFinished;
-    _Bool _isExecuting;
-    NSString *_accountID;
-    EKDirectorySearchQuery *_query;
-    CDUnknownBlockType _resultsBlock;
-    id _searchID;
-    _Bool _numberOfMatchesExceededLimit;
-    NSError *_error;
 }
 
-+ (_Bool);
++ (_Bool)J;
 - (void);
+- (_Bool)ved nil XPC endpoint. Failing.;
+- (id)ceived interrupted/invalid connection to query;
+- (id)ce changed.;
+- (id)coverySessionWrapper] <%p> Notifying existing observers from %lu to %lu endpoints and from %lu to %lu output devices;
+- (void)Transferring callbacks from:(id)arg1 %{public}@ to:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)charge_duration_p_0_00_at_charge_start_secs_curr_dynamic_bin_8;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)WebKitAllowAnimatedImageLoopingPreferenceKey;
 - (_Bool)¡#ð!ÐCùq2'1Â0@ù
 × ;
 - (void)!ðDù2'ð1Â0@ù
 × ;
-- (_Bool)TheYear;
+- (_Bool)weeksOfTheYear;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(nonatomic) _Bool numberOfMatchesExceededLimit; // @synthesize numberOfMatchesExceededLimit=_numberOfMatchesExceededLimit;
 
 @end

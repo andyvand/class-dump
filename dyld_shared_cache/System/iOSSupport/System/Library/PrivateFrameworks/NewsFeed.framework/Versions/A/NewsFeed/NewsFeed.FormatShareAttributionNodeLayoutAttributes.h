@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatShareAttributionNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id reuseIdentifier;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id accessibilityRole;
-    id auxViewRequirements;
 }
 
 @end

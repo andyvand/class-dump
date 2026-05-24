@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.ConversationExportIterator
 {
     id exportOptions;
-    id exportStatistics;
 }
 
 @end

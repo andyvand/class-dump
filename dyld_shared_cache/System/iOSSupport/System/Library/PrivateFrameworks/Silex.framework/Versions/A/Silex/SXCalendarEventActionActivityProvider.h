@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXCalendarPresenter, SXHost;
+@protocol SXCalendarPresenter;
 
 @interface SXCalendarEventActionActivityProvider
 {
     id <SXCalendarPresenter> _calendarPresenter;
-    id <SXHost> _host;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -23,14 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXCalendarPresenter> calendarPresenter; // @synthesize calendarPresenter=_calendarPresenter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly) Class superclass;
 
 @end
 

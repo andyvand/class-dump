@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraBufferInterval
 {
     HAPTLVUnsignedNumberValue *_sequenceNumber;
-    HAPTLVUnsignedNumberValue *_count;
 }
 
 + (id);
@@ -18,24 +17,16 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)fileHandleForFileAtPath:(id)arg1 flags:protection:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)AMAuthInstallBundleCreateURLForKeyEntryInBuildIdentity;
 - (id);
 - (void)haracteristicEncodedData>"16Q24^@32;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly) Class superclass;
 
 @end
 

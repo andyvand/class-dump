@@ -7,27 +7,21 @@
 @interface MPSVectorDescriptor
 {
     unsigned long long _length;
-    unsigned long long _vectors;
-    unsigned long long _vectorBytes;
-    unsigned int _dataType;
 }
 
 + (id);
-+ (id);
-+ (unsigned long long);
++ (id)owned by block;
++ (unsigned long long)y not have predecessors;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned int);
-- (void);
+- (unsigned int);
+- (void)C;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int dataType; // @synthesize dataType=_dataType;
 @property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) unsigned long long vectorBytes; // @synthesize vectorBytes=_vectorBytes;
-@property(readonly, nonatomic) unsigned long long vectors; // @synthesize vectors=_vectors;
 
 @end
 

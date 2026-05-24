@@ -7,17 +7,15 @@
 @interface CKReportSpamReasonContoller
 {
     id conversations;
-    id didReportBlock;
-    id reportSpamReson;
 }
 
-- (void);
+- (void)mention notification state to failed because the note is no longer shared or the recipient is invalid;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)ation;
+- (void)Configuration;
 
 @end
 

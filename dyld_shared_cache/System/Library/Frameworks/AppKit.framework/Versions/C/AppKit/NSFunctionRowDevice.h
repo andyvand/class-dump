@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTouchDevice;
-
 __attribute__((visibility("hidden")))
 @interface NSFunctionRowDevice
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
++ (id);
++ (_Bool)gin;
++ (id)_kCFNTimingDataSecureConnectionStart;
 + (void)Ö¦H;
 - (id);
 - (struct CGRect);
 
 // Remaining properties
 @property(readonly) struct CGRect frame;
-@property(readonly) NSTouchDevice *touchDevice;
 
 @end
 

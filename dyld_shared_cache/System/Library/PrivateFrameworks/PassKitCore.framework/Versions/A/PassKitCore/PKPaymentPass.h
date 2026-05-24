@@ -14,7 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activationState;
 @property(readonly, nonatomic) FKPaymentPass *fkPaymentPass;
 @end
 

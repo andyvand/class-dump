@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABPeoplePickerSubrowGroupElement, CNDateComponentsFormatter, NSDateFormatter, NSString;
+@class NSString;
 
 @interface ABPeoplePickerSubrowObject
 {
     id _value;
-    NSString *_displayValue;
-    NSString *_label;
-    NSString *_property;
-    NSString *_propertyIdentifier;
-    NSString *_recordIdentifier;
-    long long _propertyType;
-    _Bool _drawsSpecialSelection;
-    _Bool _multiSubrow;
-    long long _rows;
-    NSDateFormatter *_dateFormatter;
-    CNDateComponentsFormatter *_dateComponentsFormatter;
-    ABAddressBook *_addressBook;
-    ABPeoplePickerSubrowGroupElement *_parent;
 }
 
 - (void);
@@ -34,11 +21,11 @@
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)(#;
 - (id);
 - (id);
 - (id);
@@ -58,7 +45,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)32;
 - (void);
 - (void)!¼Eùñ©°1Â0@ù
 × ;
@@ -67,14 +54,7 @@
 - (id)­Þ;
 
 // Remaining properties
-@property(nonatomic) _Bool drawsSpecialSelection; // @synthesize drawsSpecialSelection=_drawsSpecialSelection;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) __weak ABPeoplePickerSubrowGroupElement *parent; // @synthesize parent=_parent;
-@property(retain, nonatomic) NSString *property; // @synthesize property=_property;
-@property(retain, nonatomic) NSString *propertyIdentifier; // @synthesize propertyIdentifier=_propertyIdentifier;
-@property(nonatomic) long long propertyType; // @synthesize propertyType=_propertyType;
 @property(retain, nonatomic) NSString *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

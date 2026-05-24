@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
++ (Class)8;
 + (id);
-+ (void);
-- (void);
++ (void)(;
+- (void);
 - (id);
 
 @end

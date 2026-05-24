@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TPrefsObserverBridge
 {
     struct IPrefsObserver *_observer;
-    struct map<TString, TNotificationCenterObserver, std::less<TString>, std::allocator<std::pair<const TString, TNotificationCenterObserver>>> _globalKeysToObserverMap;
-    struct map<UDefaults::RegistryID, TNotificationCenterObserver, std::less<UDefaults::RegistryID>, std::allocator<std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>>> _regIDsToObserverMap;
-    struct TNotificationCenterObserver _finderPrefsResetObserver;
-    _Bool _isTornDown;
 }
 
 - (void);
@@ -28,18 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id)¤;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
 
 @end

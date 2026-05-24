@@ -19,7 +19,7 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
+- (void)K;
 - (void);
 - (id);
 - (void);

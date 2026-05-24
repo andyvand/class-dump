@@ -5,5 +5,9 @@
 //
 
 @protocol NSScrollerImpPairDelegate
+- (struct CGPoint)6	;
+
+@optional
+- (_Bool);
 @end
 

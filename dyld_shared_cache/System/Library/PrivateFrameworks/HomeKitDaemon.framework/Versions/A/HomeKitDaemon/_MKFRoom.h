@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFRoomDatabaseID, NSArray, NSDate, NSSet, NSString, NSUUID;
-@protocol MKFApplicationData, MKFHome, MKFRoomPresence;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFRoom : _MKFModel
@@ -17,47 +16,20 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (Class);
++ (id);
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)spatch_queue>",R,N,V_changeHandlerQueue;
+- (id)<;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *accessories;
-@property(retain, nonatomic) NSSet *accessories_; // @dynamic accessories_;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData; // @dynamic applicationData;
-@property(readonly, copy, nonatomic) MKFRoomDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(readonly, retain, nonatomic) id <MKFHome> homeDefault; // @dynamic homeDefault;
-@property(retain, nonatomic) id <MKFRoomPresence> localPresence; // @dynamic localPresence;
-@property(readonly, retain, nonatomic) NSArray *localPresenceAccessories;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *zones;
-@property(retain, nonatomic) NSSet *zones_; // @dynamic zones_;
+@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
 
 @end
 

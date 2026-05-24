@@ -6,22 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIImageView, UILabel;
+@class NSString, UIImageView;
 
 @interface _UIAccessDeniedView : UIView
 {
     UIImageView *_lockView;
-    UILabel *_titleLabel;
-    UILabel *_messageLabel;
-    NSString *_title;
-    NSString *_message;
 }
 
 - (id);
+- (void)d." && (!supportsInlinePutComplete || !useProxy);
 - (void);
-- (void);
-- (void)skedCorners:(id)arg1 ignoreLiftScale: /* Error: Ran out of types for this method. */;
-- (id)seSpeaking:(struct CGRect)arg1;
+- (void)_expandedCornerRadius:(id)arg1 maskedCorners:ignoreLiftScale: /* Error: Ran out of types for this method. */;
+- (id)_accessibilityPauseSpeaking:(struct CGRect)arg1;
 - (id)main thread.;
 - (id)ViewParticipating>"8;
 - (void)ó b;

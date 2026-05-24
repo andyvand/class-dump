@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, NSString;
+@class NSString;
 
 @interface SNDetectSoundRequest
 {
@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)Failed to read ArchivedConversation from:(id)arg1 %s with error:(id *)arg2 %@;
 - (_Bool);
 - (void);
 - (id);
@@ -34,9 +34,6 @@
 - (void)<[üÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, retain) MLModelConfiguration *modelConfiguration;
 @property(nonatomic, copy) NSString *soundIdentifier;
 
 @end

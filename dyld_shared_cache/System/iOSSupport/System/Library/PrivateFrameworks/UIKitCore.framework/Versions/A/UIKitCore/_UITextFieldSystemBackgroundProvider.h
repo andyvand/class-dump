@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)earchHosting;
-- (id);
+- (id)allowOpenFromUnmanagedToManaged;
 - (Class);
 - (id);
 - (void)rrow;

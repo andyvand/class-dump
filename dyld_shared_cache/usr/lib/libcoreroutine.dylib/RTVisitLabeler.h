@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, RTDefaultsManager, RTLocationManager, RTPlaceInferenceManager, RTTimer, RTTimerManager, RTWiFiManager;
-@protocol OS_dispatch_queue;
+@class RTDefaultsManager;
 
 @interface RTVisitLabeler
 {
     _Bool _registeredForWifiScan;
-    _Bool _collectingWiFiScans;
-    RTDefaultsManager *_defaultsManager;
-    RTPlaceInferenceManager *_placeInferenceManager;
-    RTLocationManager *_locationManager;
-    RTWiFiManager *_wifiManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_accessPoints;
-    RTTimer *_wifiScanTimer;
-    unsigned long long _wifiScanTimerFireCount;
-    RTTimerManager *_timerManager;
-    RTTimer *_wifiScanDelayTimer;
 }
 
 - (void);
@@ -30,13 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ate state (%s->%s).;
+- (void)/;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id),;
 - (void);
 - (void);
 - (_Bool);
@@ -63,18 +51,7 @@
 - (void)abelerPersister with learnedPlaceParameters, %{sensitive}@, relabelerPersisterParameters, %{sensitive}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessPoints; // @synthesize accessPoints=_accessPoints;
-@property(nonatomic) _Bool collectingWiFiScans; // @synthesize collectingWiFiScans=_collectingWiFiScans;
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTPlaceInferenceManager *placeInferenceManager; // @synthesize placeInferenceManager=_placeInferenceManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool registeredForWifiScan; // @synthesize registeredForWifiScan=_registeredForWifiScan;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(retain, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(retain, nonatomic) RTTimer *wifiScanDelayTimer; // @synthesize wifiScanDelayTimer=_wifiScanDelayTimer;
-@property(retain, nonatomic) RTTimer *wifiScanTimer; // @synthesize wifiScanTimer=_wifiScanTimer;
-@property(nonatomic) unsigned long long wifiScanTimerFireCount; // @synthesize wifiScanTimerFireCount=_wifiScanTimerFireCount;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIFileManager
 {
     NSURL *_persistentStateDirectoryURL;
-    int _stateFileFD;
-    int _publicPlistFD;
-    NSMutableDictionary *_snapshotFilesByWindowID;
-    _Bool _attemptedPersistentStateDirectoryCreation;
-    _Bool _elideAllFileWrites;
 }
 
 - (_Bool);
@@ -22,18 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)__objc_data;
+- (id)EnTr_Activation_Modify;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)RL"32@"NSURL"40@"NSString"48@"NSData"56@"NSDictionary"64@"NSDictionary"72Q80@"NSUUID"88Q96B104@?<v@?B>108;
+- (void)set_cfCreds: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (int);
+- (id)of stream %llu;
+- (int)Structured;
 - (void);
 - (void);
 - (void);

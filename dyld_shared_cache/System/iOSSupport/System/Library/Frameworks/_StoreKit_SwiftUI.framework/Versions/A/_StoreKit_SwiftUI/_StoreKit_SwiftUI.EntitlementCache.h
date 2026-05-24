@@ -8,8 +8,6 @@
 {
     id $defaultActor;
     id cachedCurrentEntitlements;
-    id cachedSubscriptionStatus;
-    id cachedIntroOfferEligibility;
 }
 
 @end

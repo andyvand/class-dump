@@ -5,15 +5,10 @@
 //
 
 @class NSMutableSet;
-@protocol FMCancelable, FMScheduler;
 
 @interface FMValueThrottler
 {
     double _throttleInterval;
-    id <FMScheduler> _updateScheduler;
-    id _value;
-    NSMutableSet *_observerBlocks;
-    id <FMCancelable> _valueUpdateCancelationToken;
 }
 
 - (id);
@@ -30,18 +25,13 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPendingValueChange;
 @property(readonly, nonatomic) NSMutableSet *observerBlocks; // @synthesize observerBlocks=_observerBlocks;
-@property(readonly, nonatomic) double throttleInterval; // @synthesize throttleInterval=_throttleInterval;
-@property(retain, nonatomic) id <FMScheduler> updateScheduler; // @synthesize updateScheduler=_updateScheduler;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
-@property(retain, nonatomic) id <FMCancelable> valueUpdateCancelationToken; // @synthesize valueUpdateCancelationToken=_valueUpdateCancelationToken;
 
 @end
 

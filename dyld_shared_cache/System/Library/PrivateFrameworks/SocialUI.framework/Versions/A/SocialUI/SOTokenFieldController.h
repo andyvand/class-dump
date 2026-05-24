@@ -6,18 +6,11 @@
 
 #import <SocialUI/SOAddRecipientFieldViewController.h>
 
-@class NSHashTable, NSMutableDictionary, NSString, SOHandleMenuController, SOTokenField;
+@class SOHandleMenuController;
 
 @interface SOTokenFieldController : SOAddRecipientFieldViewController
 {
     _Bool _wroteToPasteboard;
-    _Bool _addTokensFromDrag;
-    SOTokenField *_layoutTestTokenField;
-    NSMutableDictionary *_cachedTokenFieldHeights;
-    NSHashTable *_tokenAttachmentCells;
-    _Bool _changingFirstResponder;
-    _Bool _suppressErrorDisplay;
-    SOHandleMenuController *_handleMenuController;
 }
 
 - (unsigned long long);
@@ -34,12 +27,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct _NSRange);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
 - (id);
@@ -53,7 +46,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)`B;
 - (void);
 - (void);
 - (id);
@@ -69,7 +62,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)H;
 - (void);
 - (void);
 - (void);
@@ -77,21 +70,10 @@
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (_Bool)ileStringForKey:(id)arg1;
+- (_Bool)profileStringForKey:(id)arg1;
 
 // Remaining properties
-@property(getter=isChangingFirstResponder) _Bool changingFirstResponder; // @synthesize changingFirstResponder=_changingFirstResponder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) SOHandleMenuController *handleMenuController; // @synthesize handleMenuController=_handleMenuController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property _Bool suppressErrorDisplay; // @synthesize suppressErrorDisplay=_suppressErrorDisplay;
-@property(readonly, nonatomic) SOTokenField *tokenField; // @dynamic tokenField;
-@property(nonatomic) double tokenFontSize; // @dynamic tokenFontSize;
 
 @end
 

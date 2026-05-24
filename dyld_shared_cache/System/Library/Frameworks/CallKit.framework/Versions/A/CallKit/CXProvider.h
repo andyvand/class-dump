@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXAbstractProvider, CXFeatures, CXProviderConfiguration, NSArray, NSObject, NSString;
-@protocol CXAbstractProviderDelegate><CXProviderDelegate, CXProviderDelegatePrivate, OS_dispatch_queue;
+@class CXAbstractProvider, CXProviderConfiguration;
 
 @interface CXProvider
 {
     CXProviderConfiguration *_configuration;
-    CXFeatures *_featureFlags;
-    CXAbstractProvider *_abstractProvider;
-    id <CXAbstractProviderDelegate><CXProviderDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_completionQueue;
 }
 
 + (void);
-+ (id)pportsAudioOnly;
++ (id)supportsAudioOnly;
 - (_Bool);
 - (void);
 - (void);
@@ -47,7 +42,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (void);
@@ -55,7 +50,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)k/DesktopServicesPriv;
 - (id);
 - (id);
 - (id);
@@ -64,20 +59,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CXAbstractProvider *abstractProvider; // @synthesize abstractProvider=_abstractProvider;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(copy, nonatomic) CXProviderConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXAbstractProviderDelegate><CXProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CXFeatures *featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *pendingTransactions;
-@property(readonly, nonatomic) id <CXProviderDelegatePrivate> privateDelegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) Class superclass;
 
 @end
 

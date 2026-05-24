@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TPPolicyVersion
 {
     unsigned long long _versionNumber;
-    NSString *_policyHash;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)0;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)a;
 - (id);
-- (id);
+- (id)wPlayingInfoTypeAudio(void);
 - (void);
 
 // Remaining properties
-@property(readonly, retain) NSString *policyHash; // @synthesize policyHash=_policyHash;
 @property(readonly) unsigned long long versionNumber; // @synthesize versionNumber=_versionNumber;
 
 @end

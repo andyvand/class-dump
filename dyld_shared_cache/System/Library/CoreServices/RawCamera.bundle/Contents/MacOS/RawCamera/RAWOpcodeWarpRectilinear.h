@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSDictionary;
+@class CIImage;
 
 @interface RAWOpcodeWarpRectilinear
 {
     CIImage *inputImage;
-    NSDictionary *arguments;
 }
 
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
@@ -21,7 +20,6 @@
 - (void)ô;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *arguments; // @synthesize arguments;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
 
 @end

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUnfairLock;
-@protocol CNCancelable, CNScheduler;
+@protocol CNCancelable;
 
 @interface CNCoalescingTimer
 {
     _Bool _open;
-    _Bool _someoneWaiting;
-    id <CNCancelable> _scheduledToken;
-    CNUnfairLock *_resourceLock;
-    id <CNScheduler> _delayScheduler;
-    id <CNScheduler> _downstreamScheduler;
-    CDUnknownBlockType _block;
-    double _delay;
-    unsigned long long _options;
 }
 
 + (id);
@@ -35,8 +26,8 @@
 - (id);
 - (double);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)_batchedTaskCache;
+- (unsigned long long)erlog.plxpclogger.xpc;
 - (void);
 - (void);
 - (void);
@@ -45,15 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) double delay; // @synthesize delay=_delay;
-@property(readonly, nonatomic) id <CNScheduler> delayScheduler; // @synthesize delayScheduler=_delayScheduler;
-@property(readonly, nonatomic) id <CNScheduler> downstreamScheduler; // @synthesize downstreamScheduler=_downstreamScheduler;
-@property(nonatomic) _Bool open; // @synthesize open=_open;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) CNUnfairLock *resourceLock; // @synthesize resourceLock=_resourceLock;
 @property(retain, nonatomic) id <CNCancelable> scheduledToken; // @synthesize scheduledToken=_scheduledToken;
-@property(nonatomic, getter=isSomeoneWaiting) _Bool someoneWaiting; // @synthesize someoneWaiting=_someoneWaiting;
 
 @end
 

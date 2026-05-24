@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (void);
++ (id)ailed to bind cookie domain to the deleteStmt;
+- (void)__NSCFURLLocalStreamTaskWorkRead;
 - (struct CGColor *);
 - (id);
 - (void);

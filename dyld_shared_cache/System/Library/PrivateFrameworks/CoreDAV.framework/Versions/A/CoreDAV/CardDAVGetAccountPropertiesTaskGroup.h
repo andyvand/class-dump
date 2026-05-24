@@ -11,21 +11,19 @@
 @interface CardDAVGetAccountPropertiesTaskGroup : CoreDAVGetAccountPropertiesTaskGroup
 {
     NSSet *_addressBookHomes;
-    NSSet *_directoryGatewayURLs;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)setDeleteAction:(id)arg1;
+- (id)_proposedTimeDateTimeGadget;
 - (id);
-- (id);
-- (void);
+- (void)GetAttachmentResponse;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *addressBookHomes; // @synthesize addressBookHomes=_addressBookHomes;
-@property(readonly, nonatomic) NSSet *directoryGatewayURLs; // @synthesize directoryGatewayURLs=_directoryGatewayURLs;
 
 @end
 

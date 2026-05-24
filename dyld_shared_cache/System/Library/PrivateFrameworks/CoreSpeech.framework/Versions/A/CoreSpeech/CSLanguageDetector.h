@@ -11,17 +11,17 @@
     id <CSLanguageDetectorDelegate> _delegate;
 }
 
+- (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)WithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSLanguageDetectorDelegate> delegate; // @synthesize delegate=_delegate;

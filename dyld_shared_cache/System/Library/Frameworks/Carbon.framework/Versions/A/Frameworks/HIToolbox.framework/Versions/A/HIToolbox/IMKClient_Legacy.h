@@ -4,50 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKInputSession, NSArray, NSBundle, NSConnection, NSDate, NSDictionary, NSRecursiveLock, NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class IMKInputSession;
 
 __attribute__((visibility("hidden")))
 @interface IMKClient_Legacy
 {
     IMKInputSession *_currentSession;
-    NSString *_bundleIdentifier;
-    NSBundle *_bundle;
-    NSDictionary *_modes;
-    NSDictionary *_inputMethodInfoDictionary;
-    NSArray *localizedStrings;
-    NSDictionary *_selectorDictionary;
-    NSDictionary *_modeMenuKeys;
-    _Bool _lookedForMenuKeys;
-    struct OpaqueEventHandlerRef *_eventHandlerRef;
-    struct __CFMessagePort *_launchPort;
-    _Bool _isServerStarted;
-    _Bool _clientHasDied;
-    _Bool _cleanTermination;
-    _Bool _serverDiedBadly;
-    _Bool _getServerRetryPending;
-    SEL _getServerRetryNotificationSel;
-    id _getServerRetryNotificationTarget;
-    unsigned long long _xpcConsecutiveFailures;
-    NSDate *_xpcLastFailureTime;
-    long long _getServerRetryCount;
-    _Bool _getServerGetMenuWasCalledDuringRetry;
-    CDUnknownBlockType _tisSelectInputSourceCompletionBlock;
-    id _serverDOProxy;
-    NSString *_connection;
-    NSString *_serverName;
-    NSConnection *_serverConnection;
-    NSXPCConnection *_launcherXPCConnection;
-    NSXPCListenerEndpoint *_inputMethodXPCEndpoint;
-    _Bool _isIMKExtension;
-    long long _exceptionTimeoutBumpCount;
-    double _timeout;
-    _Bool _waitingForMenu;
-    CDUnknownBlockType completionBlock;
-    NSRecursiveLock *_remoteProxyLock;
 }
 
 + (void);
-+ (void);
++ (void)^;
 + (void);
 + (int);
 + (void);
@@ -67,7 +33,7 @@ __attribute__((visibility("hidden")))
 + (struct __CFString *);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -97,8 +63,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)A;
+- (void)N;
 - (void);
 - (id);
 - (void);
@@ -106,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)?-;
 - (void);
 - (struct __TISInputSource *);
 - (int);
@@ -131,26 +97,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)R+;
 - (id);
 - (void);
-- (id);
+- (id)	?֓;
 - (id);
 - (void);
-- (void);
+- (void)|;
 - (double);
 - (id);
 - (CDUnknownBlockType);
 - (struct OpaqueMenuRef *)
 l®ì±D´;
 - (void)x´;
-- (id)up;
+- (id)kEventWindowFocusRelinquishedByGroup;
 
 // Remaining properties
-@property _Bool _waitingForMenu; // @synthesize _waitingForMenu;
 @property _Bool cleanTermination; // @synthesize cleanTermination=_cleanTermination;
-@property(readonly, nonatomic, getter=isIMKExtension) _Bool isIMKExtension; // @synthesize isIMKExtension=_isIMKExtension;
-@property _Bool serverDiedBadly; // @synthesize serverDiedBadly=_serverDiedBadly;
 
 @end
 

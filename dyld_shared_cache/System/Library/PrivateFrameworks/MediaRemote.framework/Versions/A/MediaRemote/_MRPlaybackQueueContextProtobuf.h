@@ -21,13 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)n: /* Error: Ran out of types for this method. */;
-- (id)IDToCallbackMap;
+- (id)ersation Hearst;
+- (void)_requestContentItemArtwork:forPlayerPath:queue:completion: /* Error: Ran out of types for this method. */;
+- (id)_deviceIDToCallbackMap;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRevision;
-@property(retain, nonatomic) NSString *revision; // @synthesize revision=_revision;
 
 @end
 

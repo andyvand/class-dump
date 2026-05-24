@@ -5,5 +5,6 @@
 //
 
 @protocol FCAssetKeyManagerDelegate
+- (_Bool);
 @end
 

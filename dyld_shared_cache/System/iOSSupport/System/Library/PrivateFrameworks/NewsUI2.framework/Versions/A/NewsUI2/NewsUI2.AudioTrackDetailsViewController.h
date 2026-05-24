@@ -7,13 +7,6 @@
 @interface NewsUI2.AudioTrackDetailsViewController
 {
     id styler;
-    id eventHandler;
-    id trackView;
-    id track;
-    id playbackState;
-    id listeningProgressManager;
-    id logoCache;
-    id artworkCache;
 }
 
 - (void);

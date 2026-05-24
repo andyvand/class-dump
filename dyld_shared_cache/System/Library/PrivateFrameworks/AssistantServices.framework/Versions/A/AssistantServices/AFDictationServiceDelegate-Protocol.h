@@ -5,5 +5,12 @@
 //
 
 @protocol AFDictationServiceDelegate
+- (oneway void)T(;
+- (oneway void),;
+- (oneway void);
+- (oneway void)j;
+- (oneway void)=;
+- (oneway void);
+- (oneway void)-;
 @end
 

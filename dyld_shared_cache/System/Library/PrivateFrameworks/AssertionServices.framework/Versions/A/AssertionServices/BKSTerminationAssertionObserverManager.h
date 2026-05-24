@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, RBSProcessMonitor;
-@protocol OS_dispatch_queue;
+@class RBSProcessMonitor;
 
 @interface BKSTerminationAssertionObserverManager
 {
     RBSProcessMonitor *_monitor;
-    _Bool _monitorIsReady;
-    NSMutableSet *_observers;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSMutableSet *_launchPreventedBundleIDs;
 }
 
 - (_Bool);

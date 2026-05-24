@@ -11,8 +11,6 @@
 @interface CKSyncEngineFetchedRecordZoneChangesEvent : CKSyncEngineEvent
 {
     NSArray *_modifications;
-    NSArray *_deletions;
-    NSArray *_zoneAttributesModifications;
 }
 
 - (id);
@@ -20,12 +18,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void)Callbacks;
+- (void)ay"16@"NSArray"24;
+- (void)CKReplaceMergeableDeltasOperationCallbacks;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *deletions; // @synthesize deletions=_deletions;
-@property(readonly, copy, nonatomic) NSArray *modifications; // @synthesize modifications=_modifications;
 @property(readonly, copy, nonatomic) NSArray *zoneAttributesModifications; // @synthesize zoneAttributesModifications=_zoneAttributesModifications;
 
 @end

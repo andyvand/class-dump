@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEnvironmentMonitor, NSObject, NSString;
-@protocol MPCVocalAttenuationPolicyDelegate, OS_dispatch_queue;
+@class ICEnvironmentMonitor;
 
 __attribute__((visibility("hidden")))
 @interface MPCVocalAttenuationThermalPressurePolicy
 {
     _Bool _disableVocalAttenuation;
-    struct os_unfair_lock_s _dataLock;
-    id <MPCVocalAttenuationPolicyDelegate> _delegate;
-    long long _type;
-    ICEnvironmentMonitor *_thermalMonitor;
-    long long _currentThermalLevel;
-    long long _cutoffThermalLevel;
-    long long _reenablementThermalLevel;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)24;
+- (id)@0:8 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)_processIMAPMailAccount:(_Bool)arg1 didChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (void)_isRestrictedForDataclass:(long long)arg1 account: /* Error: Ran out of types for this method. */;
+- (long long)dataclasses;
 - (id);
 - (id);
-- (long long);
+- (long long)__AUTH_CONST;
 - (_Bool);
 - (void);
 - (id);
@@ -47,23 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)d state transition %@ -> %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, nonatomic) _Bool canBeReset;
-@property(nonatomic) long long currentThermalLevel; // @synthesize currentThermalLevel=_currentThermalLevel;
-@property(nonatomic) long long cutoffThermalLevel; // @synthesize cutoffThermalLevel=_cutoffThermalLevel;
-@property(readonly, nonatomic) struct os_unfair_lock_s dataLock; // @synthesize dataLock=_dataLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <MPCVocalAttenuationPolicyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=shouldDisableVocalAttenuation) _Bool disableVocalAttenuation; // @synthesize disableVocalAttenuation=_disableVocalAttenuation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long reenablementThermalLevel; // @synthesize reenablementThermalLevel=_reenablementThermalLevel;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ICEnvironmentMonitor *thermalMonitor; // @synthesize thermalMonitor=_thermalMonitor;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

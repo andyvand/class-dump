@@ -9,7 +9,6 @@
 @interface IMIDStatusController
 {
     NSRecursiveLock *_servicesLock;
-    NSMutableSet *_servicesRegistered;
 }
 
 + (id)öÇÿÿ;
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)U;
 - (long long);
 - (id);
 - (id);
@@ -30,7 +29,6 @@
 - (void)|°;
 
 // Remaining properties
-@property(retain, nonatomic) NSRecursiveLock *_servicesLock; // @synthesize _servicesLock;
 @property(retain, nonatomic) NSMutableSet *_servicesRegistered; // @synthesize _servicesRegistered;
 
 @end

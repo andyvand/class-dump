@@ -16,12 +16,8 @@ struct _HMFFutureBlockOutcome {
 };
 
 struct _HMFRate {
-    unsigned long long value;
-    double period;
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
+    unsigned long long _field1;
+    double _field2;
 };
 
 struct hmf_unfair_data_lock_s {
@@ -82,6 +78,6 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 

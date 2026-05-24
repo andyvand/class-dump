@@ -10,9 +10,9 @@
 {
 }
 
-- (void);
+- (void)CFNETWORK_BOGUS_URL;
 - (id);
-- (id);
+- (id)_standardAutoFillMenuItem;
 
 @end
 

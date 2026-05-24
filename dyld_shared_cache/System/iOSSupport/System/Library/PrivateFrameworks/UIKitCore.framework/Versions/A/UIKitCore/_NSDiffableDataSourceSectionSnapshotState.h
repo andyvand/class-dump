@@ -10,21 +10,18 @@
 @interface _NSDiffableDataSourceSectionSnapshotState
 {
     _UITreeDataSourceSnapshotter *_snapshotter;
-    NSOrderedSet *_guaranteedPerformanceIdentifiers;
-    unsigned long long _identifierLookupCount;
-    NSOrderedSet *_identifiers;
 }
 
-- (id);
-- (id);
+- (id)setShareDirection: /* Error: Ran out of types for this method. */;
+- (id)setServices: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)nce signature, expected size:%d, got:%lu. /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool)ð1Â0@ù
 × ;
-- (_Bool)erOrientation;
+- (_Bool)setMagnifierOrientation;
 - (id)T@"UIButton",R,N,V_backgroundView;
 - (void)×°ã\;
 - (void)tK_;

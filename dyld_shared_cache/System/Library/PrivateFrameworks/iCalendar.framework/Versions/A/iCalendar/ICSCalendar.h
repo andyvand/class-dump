@@ -6,90 +6,73 @@
 
 #import <iCalendar/ICSComponent.h>
 
-@class ICSColor, ICSDuration, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableSet, NSString;
 
 @interface ICSCalendar : ICSComponent
 {
     NSMutableSet *_keys;
-    NSMutableDictionary *_masters;
-    NSMutableDictionary *_occurrences;
-    NSMutableDictionary *_timezones;
-    NSMutableArray *_parsingErrors;
 }
 
 + (void);
++ (int)@;
++ (id);
++ (long long)C;
++ (id);
 + (int);
-+ (id);
-+ (long long);
-+ (id);
-+ (int);
-+ (id);
++ (id)iftXPC.dylib;
 + (id);
 + (id);
 - (id);
 - (id);
 - (id);
+- (id)6;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)*;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id));
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
+- (void)_֥+;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (int);
+- (void);
+- (id);
+- (int)E;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *calscale;
-@property(nonatomic) int method;
-@property(retain, nonatomic) NSString *prodid;
-@property(retain, nonatomic) NSString *version;
-@property(retain, nonatomic) ICSDuration *x_apple_auto_refresh;
-@property(retain, nonatomic) ICSColor *x_apple_calendar_color;
-@property _Bool x_apple_ignore_on_restore; // @dynamic x_apple_ignore_on_restore;
-@property(retain, nonatomic) NSString *x_apple_language;
-@property(retain, nonatomic) NSString *x_apple_region;
-@property int x_calendarserver_access; // @dynamic x_calendarserver_access;
-@property(retain, nonatomic) NSString *x_wr_caldesc;
-@property(retain, nonatomic) NSString *x_wr_calname;
-@property(retain, nonatomic) NSString *x_wr_relcalid;
-@property(retain, nonatomic) NSString *x_wr_timezone;
 
 @end
 

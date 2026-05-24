@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRJitLanguageModelEnrollmentEnded, ASRSchemaASRJitLanguageModelEnrollmentStarted, NSData;
+@class ASRSchemaASRJitLanguageModelEnrollmentStarted;
 
 @interface ASRSchemaASRJitLanguageModelEnrollmentContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRJitLanguageModelEnrollmentStarted *_startedOrChanged;
-    ASRSchemaASRJitLanguageModelEnrollmentEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -25,8 +21,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)CRecoveryControllerDelegate>";
+- (void)ng"24@"NSString"32@"NSString"40@"NSString"48@"NSString"56B64B68@"JSValue"72@80;
 - (id);
 - (id);
 - (id);
@@ -34,19 +30,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)ubscriberName;
+- (id)__DATA_CONST;
+- (id)subscriberName;
 - (id)HI;
 - (id);
 - (void)4©ÿ\Q³1õ&;
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRJitLanguageModelEnrollmentEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRJitLanguageModelEnrollmentStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _MNJunctionViewPreloadEvent
 {
     _Bool _needsPreload;
-    GEOComposedGuidanceEvent *_junctionViewEvent;
 }
 
 - (void);
-- (void);
+- (void)MatchedTransitionSourceModifier;
 - (_Bool);
-- (id);
+- (id)]
+;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) GEOComposedGuidanceEvent *junctionViewEvent; // @synthesize junctionViewEvent=_junctionViewEvent;
-@property(nonatomic) _Bool needsPreload; // @synthesize needsPreload=_needsPreload;
 
 @end
 

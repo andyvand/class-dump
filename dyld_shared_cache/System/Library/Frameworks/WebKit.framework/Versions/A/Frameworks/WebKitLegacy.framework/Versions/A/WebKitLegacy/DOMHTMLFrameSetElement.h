@@ -13,13 +13,12 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy) NSString *cols;
-@property(copy) NSString *rows;
 
 @end
 

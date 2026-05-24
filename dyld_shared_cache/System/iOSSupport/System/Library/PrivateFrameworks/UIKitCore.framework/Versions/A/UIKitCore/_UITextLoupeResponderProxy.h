@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
     id <_UITextLoupeResponderProxyDelegate> _delegate;
 }
 
-+ (id)lerHiding:(id)arg1;
-- (id);
++ (id)_viewControllerHiding:(id)arg1;
+- (id)setArtworkData: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool)inuationManager handleActivityContinuation:(SEL)arg1 isSuspended:(id)arg2 ]_block_invoke_3;

@@ -6,63 +6,34 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSArray, NSButton, NSCFRunLoopSemaphore, NSDictionary, NSTextField, NSURL, UTType;
-@protocol NSOpenSavePanelDelegate;
+@class NSTextField;
 
 @interface NSSavePanel : NSPanel
 {
     NSTextField *_nameField;
-    NSButton *_newFolderButton;
-    NSButton *_okButton;
-    NSButton *_cancelButton;
-    NSArray *_allowedContentTypes;
-    NSDictionary *_preferredExtensions;
-    UTType *_currentContentType;
-    _Bool _showsContentTypes;
-    _Bool _showsContentTypesExclusive;
-    int _extensionHiddenState;
-    _Bool _observingBridge;
-    _Bool _attachSandboxExtensionsToFinalURLDone;
-    _Bool _attachSandboxExtensionsToFinalURLsDone;
-    _Bool _panelCompleted;
-    _Bool _nsAppObservers;
-    _Bool _didPrepareToRun;
-    _Bool _didBeginServicePanel;
-    _Bool __shouldSendRunModal;
-    _Bool _becameAppModalWindow;
-    _Bool _panelIsNowUseless;
-    NSCFRunLoopSemaphore *_advanceToRunPhaseIfNeededSemaphore;
-    CDUnknownBlockType _completionHandler;
-    id <NSOpenSavePanelDelegate> _openSaveDelegate;
-    NSSavePanel *_retainedSelf;
-    NSURL *_finalURL;
-    NSArray *_finalURLs;
-    long long _runMode;
-    NSArray *_customActions;
-    struct CGSize _lastReportedAccessorySize;
 }
 
 + (unsigned long long);
-+ (id);
++ (id)TLSMinimumSupportedProtocol;
 + (void);
-+ (void);
-+ (id);
++ (void)|o;
++ (id)new request %@;
 + (_Bool);
 + (id);
-+ (id);
++ (id)l;
 + (Class);
-+ (Class);
-+ (_Bool);
++ (Class);
++ (_Bool)H;
 + (void *);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id).;
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (id);
++ (_Bool)@;
++ (id)@;
++ (void)@;
++ (id);
 + (_Bool)ÿ;
 
 @end

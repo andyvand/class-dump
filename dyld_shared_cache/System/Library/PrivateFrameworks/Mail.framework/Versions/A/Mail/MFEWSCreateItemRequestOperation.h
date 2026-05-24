@@ -6,35 +6,31 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class MFEWSCreateItemResponseOperation, NSString;
+@class NSString;
 
 @interface MFEWSCreateItemRequestOperation : MFEWSRequestOperation
 {
     BOOL _messageType;
-    _Bool _wroteOfflineData;
-    NSString *_EWSFolderIdString;
-    long long _disposition;
-    NSString *_offlineCreatedEWSItemIdString;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)R	@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)D;
 - (id);
 - (id);
-- (void);
+- (void)d;
 - (BOOL);
 - (void);
 - (long long)5øT;
@@ -42,11 +38,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *EWSFolderIdString; // @synthesize EWSFolderIdString=_EWSFolderIdString;
-@property(readonly, nonatomic) long long disposition; // @synthesize disposition=_disposition;
-@property(readonly, nonatomic) BOOL messageType; // @synthesize messageType=_messageType;
-@property(retain) NSString *offlineCreatedEWSItemIdString; // @synthesize offlineCreatedEWSItemIdString=_offlineCreatedEWSItemIdString;
-@property(retain, nonatomic) MFEWSCreateItemResponseOperation *responseOperation;
-@property _Bool wroteOfflineData; // @synthesize wroteOfflineData=_wroteOfflineData;
 
 @end
 

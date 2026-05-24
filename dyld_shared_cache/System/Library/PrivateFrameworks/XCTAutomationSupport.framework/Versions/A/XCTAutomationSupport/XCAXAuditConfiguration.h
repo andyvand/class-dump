@@ -9,12 +9,10 @@
 @interface XCAXAuditConfiguration
 {
     NSArray *_auditTypes;
-    NSArray *_ignoredIdentifiers;
-    double _timeout;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -22,16 +20,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)c;
 - (void);
-- (id);
+- (id);
 - (double);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *auditTypes; // @synthesize auditTypes=_auditTypes;
-@property(copy, nonatomic) NSArray *ignoredIdentifiers; // @synthesize ignoredIdentifiers=_ignoredIdentifiers;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

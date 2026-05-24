@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSWidgetView *_relevancyWidgetView;
 }
 
-- (id);
-- (void);
+- (id)maps;
+- (void)r5;
 - (struct CGSize);
-- (void);
+- (void);
 - (struct NSEdgeInsets);
-- (id);
+- (id)ferSize;
 - (void);
 - (void)ild pane (unable to find %@.plist;
 

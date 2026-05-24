@@ -6,31 +6,11 @@
 
 #import <IOBluetooth/IOBluetoothObject.h>
 
-@class CBClassicPeer, CBL2CAPChannel, CBUUID, IOBluetoothDevice, NSObject, NSPort, NSString;
-@protocol IOBluetoothL2CAPChannelDelegate;
+@class CBClassicPeer, NSPort;
 
 @interface IOBluetoothL2CAPChannel : IOBluetoothObject
 {
     NSPort *mDataAvailablePort;
-    struct _IODataQueueMemory *mIncomingDataQueue;
-    IOBluetoothDevice *mDevice;
-    _Bool mIncomingChannel;
-    id mL2CAPChannelConnectionHandler;
-    CDUnknownFunctionPointerType mIncomingDataListener;
-    void *mIncomingDataListenerRefCon;
-    CDUnknownFunctionPointerType mEventDataListener;
-    void *mEventDataListenerRefCon;
-    unsigned short mChannelPSM;
-    unsigned short mLocalChannelID;
-    unsigned short mRemoteChannelID;
-    _Bool mIsClosed;
-    unsigned long long mObjectID;
-    id _mReserved;
-    _Bool _isOpeningL2CAP;
-    CBClassicPeer *_classicPeer;
-    CBL2CAPChannel *_cbChannel;
-    NSObject<IOBluetoothL2CAPChannelDelegate> *_channelDelegate;
-    CBUUID *_serviceUUID;
 }
 
 + (id);
@@ -64,7 +44,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
@@ -74,9 +54,10 @@
 - (struct OpaqueIOBluetoothObjectRef *);
 - (unsigned short);
 - (id);
+- (int)7
+;
 - (int);
-- (int);
-- (int);
+- (int)8);
 - (int);
 - (id);
 - (_Bool);
@@ -91,7 +72,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (int);
 - (id);
@@ -103,25 +84,7 @@
 - (id)Completed:withError:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned short PSM; // @synthesize PSM=mChannelPSM;
-@property(retain, nonatomic) CBL2CAPChannel *cbChannel; // @synthesize cbChannel=_cbChannel;
-@property(nonatomic) __weak NSObject<IOBluetoothL2CAPChannelDelegate> *channelDelegate; // @synthesize channelDelegate=_channelDelegate;
 @property(retain, nonatomic) CBClassicPeer *classicPeer; // @synthesize classicPeer=_classicPeer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) IOBluetoothDevice *device; // @synthesize device=mDevice;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned short incomingMTU;
-@property(nonatomic) _Bool isOpeningL2CAP; // @synthesize isOpeningL2CAP=_isOpeningL2CAP;
-@property(readonly) unsigned short localChannelID; // @synthesize localChannelID=mLocalChannelID;
-@property unsigned long long objectID; // @synthesize objectID=mObjectID;
-@property(readonly) unsigned short outgoingMTU;
-@property(readonly) unsigned short remoteChannelID;
-@property(retain) CBUUID *serviceUUID; // @synthesize serviceUUID=_serviceUUID;
-@property(readonly) Class superclass;
 
 @end
 

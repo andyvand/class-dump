@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFHighlighter
 {
     NSMutableArray *_highLightLayers;
-    struct CGColor *_highlightColor;
-    struct CGColor *_borderColor;
-    struct CGColor *_whiteColor;
-    struct CGPDFPage *_page;
-    double _enlargeFactor;
-    double _pdfToViewScale;
-    double inset;
 }
 
+- (void)ted read of:(id)arg1 %@  (Error:(id)arg2 %@);
+- (void)one url set for:(id)arg1 %@   success:(id)arg2 %{BOOL}d;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)d;
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)_payloadAllowAirPlayIncomingRequests;
 - (id);
 - (void)dSliderDiscreteButtonDriverSettings",&,N,V_discreteButtonDriverSettings;
 - (void)SS^.3So0a8ReusableB0CSgIegnnnr_;
@@ -35,14 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)l;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double inset; // @synthesize inset;
-@property(readonly) Class superclass;
 
 @end
 

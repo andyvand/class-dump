@@ -9,10 +9,10 @@
     struct __CFDictionary *_registry;
 }
 
-+ (id)FrameCount: /* Error: Ran out of types for this method. */;
++ (id)setFrameCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 
 @end

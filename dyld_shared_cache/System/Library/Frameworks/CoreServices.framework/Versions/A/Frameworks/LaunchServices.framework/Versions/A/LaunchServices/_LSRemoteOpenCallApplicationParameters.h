@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSArray, NSDictionary, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _LSRemoteOpenCallApplicationParameters
 {
     unsigned int _flags;
-    void *_asyncLaunchRefCon;
-    NSDictionary *_environment;
-    NSArray *_args;
-    NSAppleEventDescriptor *_initialEvent;
-    NSArray *_architectures;
-    NSURL *_applicationURL;
-    struct ProcessSerialNumber _applicationPSN;
-    _Bool _hasApplicationPSN;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)16;
+- (id);
 - (const struct LSApplicationParameters_V1 *);
+- (id);;
 - (id);
-- (id);
-- (void);
+- (void)_ ;
 - (void)$ø;
 
 // Remaining properties

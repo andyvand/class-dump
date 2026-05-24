@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBackgroundActivityScheduler, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WBSPeriodicActivityScheduler
 {
     CDUnknownBlockType _block;
-    _Bool _invalidated;
-    double _interval;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSBackgroundActivityScheduler *_backgroundActivityScheduler;
 }
 
 - (id);

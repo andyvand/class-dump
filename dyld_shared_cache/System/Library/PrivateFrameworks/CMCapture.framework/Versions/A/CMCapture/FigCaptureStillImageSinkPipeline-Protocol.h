@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWCompressedShotBufferNode, BWPortraitHDRStagingNode, BWStillImageCoordinatorNode, BWStillImageSampleBufferSinkNode, NSArray, NSString;
+@class BWCompressedShotBufferNode, BWStillImageCoordinatorNode, BWStillImageSampleBufferSinkNode, NSArray, NSString;
 
 @protocol FigCaptureStillImageSinkPipeline
++ (NSString *);
+- (BWStillImageCoordinatorNode *)dictionaryWithPath:error: /* Error: Ran out of types for this method. */;
+- (BWStillImageSampleBufferSinkNode *)ifier is nil.;
+- (BWCompressedShotBufferNode *)addFilterWithShader:border:bounds:flags: /* Error: Ran out of types for this method. */;
 - (NSString *)8@16@24B32B36;
 
 // Remaining properties
-@property(readonly, nonatomic) BWCompressedShotBufferNode *compressedShotBufferNode;
 @property(readonly, nonatomic) NSArray *nodes;
-@property(readonly, nonatomic) BWPortraitHDRStagingNode *portraitHDRStagingNode;
-@property(readonly, nonatomic) NSString *sinkID;
-@property(readonly, nonatomic) BWStillImageCoordinatorNode *stillImageCoordinatorNode;
-@property(readonly, nonatomic) BWStillImageSampleBufferSinkNode *stillImageSinkNode;
 @end
 

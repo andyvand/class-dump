@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface _INVocabularyItem
 {
     _Bool _requiresUserIdentification;
-    NSString *_string;
-    NSString *_vocabularyIdentifier;
-    NSUUID *__siriID;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)a;
 - (_Bool);
 - (id);
 - (id);
@@ -30,17 +27,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)t@0L;
 - (id);
 - (id);
-- (void)oozed;
+- (void)snoozed;
 - (unsigned long long)IntegerField;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setSiriID:) NSUUID *_siriID; // @synthesize _siriID=__siriID;
-@property(readonly, nonatomic) _Bool requiresUserIdentification; // @synthesize requiresUserIdentification=_requiresUserIdentification;
-@property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) NSString *vocabularyIdentifier; // @synthesize vocabularyIdentifier=_vocabularyIdentifier;
 
 @end
 

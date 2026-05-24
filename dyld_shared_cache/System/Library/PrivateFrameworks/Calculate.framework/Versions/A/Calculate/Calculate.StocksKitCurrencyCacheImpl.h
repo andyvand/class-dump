@@ -6,12 +6,9 @@
 
 #import <Calculate/Calculate.StocksKitCurrencyCache.h>
 
-@class NSDictionary;
-
 @interface Calculate.StocksKitCurrencyCacheImpl : Calculate.StocksKitCurrencyCache
 {
     id currencyDataLock;
-    id lastRefreshDateLock;
 }
 
 - (void);
@@ -20,12 +17,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void)\£@0)¡GoPãÑ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *currencyData;
 @property(nonatomic, readonly) _Bool needsRefresh;
 
 @end

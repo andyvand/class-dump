@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)initWithImageName:(struct CGRect)arg1 imageFilePath:(id)arg2 contentIsSensitive:(double)arg3;
 - (void)[;
 
 @end

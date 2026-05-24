@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface STMapViewport
 {
     double _northLatitude;
-    double _southLatitude;
-    double _eastLongitude;
-    double _westLongitude;
-    double _timeSinceViewportChanged;
-    double _timeSinceViewportEnteredForeground;
-    NSArray *_viewportVertices;
 }
 
 + (_Bool);
@@ -25,10 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double),;
 - (double);
 - (void);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (double);
@@ -38,13 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double eastLongitude; // @synthesize eastLongitude=_eastLongitude;
 @property(nonatomic) double northLatitude; // @synthesize northLatitude=_northLatitude;
-@property(nonatomic) double southLatitude; // @synthesize southLatitude=_southLatitude;
-@property(nonatomic) double timeSinceViewportChanged; // @synthesize timeSinceViewportChanged=_timeSinceViewportChanged;
-@property(nonatomic) double timeSinceViewportEnteredForeground; // @synthesize timeSinceViewportEnteredForeground=_timeSinceViewportEnteredForeground;
-@property(copy, nonatomic) NSArray *viewportVertices; // @synthesize viewportVertices=_viewportVertices;
-@property(nonatomic) double westLongitude; // @synthesize westLongitude=_westLongitude;
 
 @end
 

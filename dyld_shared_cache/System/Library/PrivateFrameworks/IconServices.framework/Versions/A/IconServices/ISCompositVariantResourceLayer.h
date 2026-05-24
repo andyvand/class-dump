@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol ISVariantResourceProviderProtocol;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ISCompositVariantResourceLayer
 {
     NSDictionary *_layerInfo;
-    id <ISVariantResourceProviderProtocol> _resourceProvider;
 }
 
 - (void);
@@ -19,25 +17,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (struct CGRect):(struct CGSize)arg1 8;
+- (void)e="location"Q"length"Q};
+- (_Bool)NSRange=QQ}16@0:(id)arg1 8;
+- (_Bool)scanString:(struct CGContext *)arg1 range:(unsigned long long)arg2 configuration:(unsigned long long)arg3 completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)DDMLResult;
+- (id)nSession];
+- (id)porting %.2fs HID response delay %llu-%llu with start time capped to %llu (%.2fs original);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSDictionary *layerInfo; // @synthesize layerInfo=_layerInfo;
-@property __weak id <ISVariantResourceProviderProtocol> resourceProvider; // @synthesize resourceProvider=_resourceProvider;
-@property(readonly) Class superclass;
 
 @end
 

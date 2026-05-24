@@ -15,7 +15,7 @@
 + (long long);
 + (long long);
 + (unsigned short);
-- (id);
+- (id)AMSServerDataCacheMigrator;
 
 @end
 

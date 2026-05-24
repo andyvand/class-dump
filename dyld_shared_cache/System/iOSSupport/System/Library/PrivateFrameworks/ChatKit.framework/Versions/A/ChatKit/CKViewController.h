@@ -7,26 +7,23 @@
 @interface CKViewController
 {
     _Bool _appeared;
-    _Bool _deferredAppeared;
-    _Bool _appearing;
-    _Bool _dissapearing;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)privateModernNoteWithAttachmentsInSource;
+- (void)presentBackwardsCompatibilityAlertIfNeededForAccount:(_Bool)arg1 mode:window:confirmHandler:cancelHandler: /* Error: Ran out of types for this method. */;
+- (void)newSnapshotFromIndexWithLegacyManagedObjectContext:(_Bool)arg1 modernManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)newSnapshotFromIndex;
+- (void):fixAttachments:insertListMarkers: /* Error: Ran out of types for this method. */;
+- (void)filteredAttributedSubstring:fromRange:forPlainText:forStandardizedText:fixAttachments:insertListMarkers: /* Error: Ran out of types for this method. */;
+- (void)currentTime;
+- (void)convertFontSizeArrayToMultipliersFromArray:(_Bool)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)So11AVAudioFileC;
+- (void)ICEditingTextViewWillSetMarkedTextNotificationMarkedTextKey;
+- (_Bool)resultsDictionary;
 - (void);
 - (void);
 - (void);
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool appeared; // @synthesize appeared=_appeared;
-@property(nonatomic) _Bool appearing; // @synthesize appearing=_appearing;
-@property(nonatomic) _Bool deferredAppeared; // @synthesize deferredAppeared=_deferredAppeared;
-@property(nonatomic) _Bool dissapearing; // @synthesize dissapearing=_dissapearing;
 
 @end
 

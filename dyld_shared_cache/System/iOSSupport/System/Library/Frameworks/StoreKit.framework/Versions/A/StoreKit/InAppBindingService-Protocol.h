@@ -5,5 +5,6 @@
 //
 
 @protocol InAppBindingService
+- (void)";
 @end
 

@@ -6,18 +6,11 @@
 
 #import <PassKitUIFoundation/PKRenderLoop.h>
 
-@class CALayer, CAMetalLayer;
-@protocol CAMetalDrawable, MTLDevice, PKMetalRenderLoopDelegate;
+@class CAMetalLayer;
 
 @interface PKMetalRenderLoop : PKRenderLoop
 {
     CAMetalLayer *_layer;
-    _Bool _drawableSizeDirty;
-    id <CAMetalDrawable> _currentDrawable;
-    unsigned long long _pixelFormat;
-    id <MTLDevice> _device;
-    struct CGColorSpace *_colorSpace;
-    struct CGSize _drawableSize;
 }
 
 - (id);
@@ -26,7 +19,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)v52@0:8@16{CGPoint=dd}24@40B48 /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGColorSpace *);
 - (id);
@@ -34,19 +27,13 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
+- (void)handleHostApplicationDidCancel;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (struct CGSize);
 
 // Remaining properties
-@property(nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(nonatomic) __weak id <PKMetalRenderLoopDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(nonatomic) struct CGSize drawableSize; // @synthesize drawableSize=_drawableSize;
-@property(nonatomic) _Bool framebufferOnly; // @dynamic framebufferOnly;
-@property(readonly, nonatomic) CALayer *layer; // @dynamic layer;
 @property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end

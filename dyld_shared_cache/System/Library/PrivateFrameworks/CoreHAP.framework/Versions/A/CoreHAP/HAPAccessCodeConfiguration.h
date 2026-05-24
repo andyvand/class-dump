@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessCodeCharacterSetWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPAccessCodeCharacterSetWrapper;
 
 @interface HAPAccessCodeConfiguration
 {
     HAPAccessCodeCharacterSetWrapper *_characterSet;
-    HAPTLVUnsignedNumberValue *_minimumValueLength;
-    HAPTLVUnsignedNumberValue *_maximumValueLength;
-    HAPTLVUnsignedNumberValue *_maximumAccessCodes;
 }
 
 + (id);
@@ -26,24 +23,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)o far in the past, for frame %d in segment:(id)arg1 %@;
+- (_Bool);
 - (id);
 - (id);
-- (void)thDataSetOffset: /* Error: Ran out of types for this method. */;
+- (void)setHapSupportsAuthDataSetOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HAPAccessCodeCharacterSetWrapper *characterSet; // @synthesize characterSet=_characterSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *maximumAccessCodes; // @synthesize maximumAccessCodes=_maximumAccessCodes;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *maximumValueLength; // @synthesize maximumValueLength=_maximumValueLength;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *minimumValueLength; // @synthesize minimumValueLength=_minimumValueLength;
-@property(readonly) Class superclass;
 
 @end
 

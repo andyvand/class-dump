@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAInheritanceContactController, AALocalContactInfo, ACAccount, NSButton, NSImageView, NSTextField;
+@class AAInheritanceContactController, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIAccountContactsAccessKeyViewController
 {
     AAInheritanceContactController *_inheritanceContactController;
-    AALocalContactInfo *_contactInfo;
-    ACAccount *_appleAccount;
-    NSTextField *_descriptionContainerTitle;
-    NSTextField *_descriptionContainerSubTitle;
-    NSImageView *_accessKeyImageView;
-    NSTextField *_accessKeyLabel;
-    NSButton *_accessKeyPrintButton;
-    NSButton *_accessKeyCopyButton;
-    NSButton *_doneButton;
 }
 
 - (void);
-- (void);
+- (void)1)3;
 - (void);
 - (void);
 - (void);
@@ -47,13 +38,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property __weak NSButton *accessKeyCopyButton; // @synthesize accessKeyCopyButton=_accessKeyCopyButton;
-@property __weak NSImageView *accessKeyImageView; // @synthesize accessKeyImageView=_accessKeyImageView;
-@property __weak NSTextField *accessKeyLabel; // @synthesize accessKeyLabel=_accessKeyLabel;
-@property __weak NSButton *accessKeyPrintButton; // @synthesize accessKeyPrintButton=_accessKeyPrintButton;
-@property __weak NSTextField *descriptionContainerSubTitle; // @synthesize descriptionContainerSubTitle=_descriptionContainerSubTitle;
 @property __weak NSTextField *descriptionContainerTitle; // @synthesize descriptionContainerTitle=_descriptionContainerTitle;
-@property __weak NSButton *doneButton; // @synthesize doneButton=_doneButton;
 
 @end
 

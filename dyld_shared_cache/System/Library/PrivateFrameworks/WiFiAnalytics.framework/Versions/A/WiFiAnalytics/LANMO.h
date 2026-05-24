@@ -6,41 +6,20 @@
 
 #import <WiFiAnalytics/UniqueMO.h>
 
-@class NSOrderedSet, NSSet, NSString;
-
 @interface LANMO : UniqueMO
 {
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)!;
 + (id);
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 
 // Remaining properties
 @property(readonly, nonatomic) int bssCount; // @dynamic bssCount;
-@property(retain, nonatomic) NSSet *bsses; // @dynamic bsses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSOrderedSet *events; // @dynamic events;
-@property(nonatomic) _Bool has2GHz; // @dynamic has2GHz;
-@property(nonatomic) _Bool has5GHz; // @dynamic has5GHz;
-@property(nonatomic) _Bool has6GHz; // @dynamic has6GHz;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *ipv4NetworkSignature; // @dynamic ipv4NetworkSignature;
-@property(copy, nonatomic) NSString *ipv6NetworkSignature; // @dynamic ipv6NetworkSignature;
-@property(nonatomic) short latestCompleteWeekUsageCumulativePercentage; // @dynamic latestCompleteWeekUsageCumulativePercentage;
-@property(nonatomic) long long latestCompleteWeekUsageCumulativeSeconds; // @dynamic latestCompleteWeekUsageCumulativeSeconds;
-@property(nonatomic) short latestCompleteWeekUsagePercentage; // @dynamic latestCompleteWeekUsagePercentage;
-@property(nonatomic) long long latestCompleteWeekUsageSeconds; // @dynamic latestCompleteWeekUsageSeconds;
-@property(readonly) Class superclass;
-@property(nonatomic) int t_networksCount; // @dynamic t_networksCount;
 
 @end
 

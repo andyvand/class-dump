@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface LSApplicationWorkspaceObserver
 {
@@ -12,26 +12,27 @@
 }
 
 + (_Bool);
-+ (_Bool);
-- (void);
-- (void);
-- (void);
++ (_Bool)scriptor"16^{__IOSurface=}24Q32Q40;
+- (void);
+- (void)i
+;
+- (void)^q;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (id);
@@ -40,13 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

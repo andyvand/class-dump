@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKDatabaseImplementation;
+@class CKContainer;
 
 @interface CKDatabase
 {
     CKContainer *_container;
-    CKDatabaseImplementation *_implementation;
 }
 
 @end

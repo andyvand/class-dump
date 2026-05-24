@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSSPropertyMap;
-
 @interface TSWPLineStyling
 {
     long long _lineCount;
-    unsigned long long _options;
-    TSSPropertyMap *_additionalCharacterStylePropertyMap;
-    TSSPropertyMap *_overrideCharacterStylePropertyMap;
 }
 
-+ (id);
++ (id)]tO;
+- (id)castsDefaultsHelper.SkipForwardInterval;
 - (id);
-- (id);
-- (id);
+- (id)Z;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ic}@:(id)arg1 Error in remote proxy while pausing downloads:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) TSSPropertyMap *additionalCharacterStylePropertyMap; // @synthesize additionalCharacterStylePropertyMap=_additionalCharacterStylePropertyMap;
 @property(readonly, nonatomic) long long lineCount; // @synthesize lineCount=_lineCount;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, retain, nonatomic) TSSPropertyMap *overrideCharacterStylePropertyMap; // @synthesize overrideCharacterStylePropertyMap=_overrideCharacterStylePropertyMap;
 
 @end
 

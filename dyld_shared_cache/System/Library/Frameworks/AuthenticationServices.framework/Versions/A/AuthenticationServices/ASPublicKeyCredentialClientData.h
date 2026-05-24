@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface ASPublicKeyCredentialClientData
 {
     NSData *_challenge;
-    NSString *_origin;
-    NSString *_topOrigin;
-    long long _crossOrigin;
 }
 
+- (id)R;
 - (id);
-- (id);
-- (void);
+- (void)9?;
 - (id);
 - (long long);
 - (void);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(nonatomic) long long crossOrigin; // @synthesize crossOrigin=_crossOrigin;
-@property(retain, nonatomic) NSString *origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) NSString *topOrigin; // @synthesize topOrigin=_topOrigin;
 
 @end
 

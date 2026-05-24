@@ -11,28 +11,28 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CLLocationCoordinate2D {
-    double latitude;
-    double longitude;
+    double _field1;
+    double _field2;
 };
 
 struct LineSegment<double, 2> {
-    Matrix_2bdd42a3 _origin;
-    Matrix_2bdd42a3 _direction;
+    Matrix_c5a6041f _field1;
+    Matrix_c5a6041f _field2;
 };
 
 struct Matrix<double, 2, 1> {
-    double _e[2];
+    double _field1[2];
 };
 
 struct PolylineCoordinate {
-    unsigned int index;
-    float offset;
+    unsigned int _field1;
+    float _field2;
 };
 
 struct _MNRouteConvergencePoint {
-    CDStruct_071ac149 _field1;
-    CDStruct_071ac149 _field2;
-    CDStruct_071ac149 _field3;
+    CDStruct_39925896 _field1;
+    CDStruct_39925896 _field2;
+    CDStruct_39925896 _field3;
     struct PolylineCoordinate _field4;
     struct PolylineCoordinate _field5;
     _Bool _field6;
@@ -56,12 +56,7 @@ typedef struct {
 typedef struct {
     struct PolylineCoordinate _field1;
     struct PolylineCoordinate _field2;
-} GEOPolylineCoordinateRange_3ad5eabb;
-
-typedef struct {
-    struct PolylineCoordinate start;
-    struct PolylineCoordinate end;
-} GEOPolylineCoordinateRange_1706676a;
+} GEOPolylineCoordinateRange_e9365640;
 
 #endif
 
@@ -87,17 +82,19 @@ typedef struct {
 } CDStruct_3f2a7a20;
 
 typedef struct {
-    double latitude;
-    double longitude;
-    double altitude;
-} CDStruct_071ac149;
+    double _field1;
+    double _field2;
+    double _field3;
+} CDStruct_39925896;
+
+typedef struct {
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
     int _field1;
-    struct {
-        double _field1;
-        double _field2;
-    } _field2;
+    CDStruct_c3b9c2ee _field2;
     double _field3;
     double _field4;
     double _field5;
@@ -109,10 +106,7 @@ typedef struct {
     int _field11;
     double _field12;
     int _field13;
-    struct {
-        double _field1;
-        double _field2;
-    } _field14;
+    CDStruct_c3b9c2ee _field14;
     double _field15;
     int _field16;
     unsigned int _field17;
@@ -124,33 +118,17 @@ typedef struct {
 } CDStruct_da0cd237;
 
 typedef struct {
-    struct {
-        double x;
-        double y;
-    } origin;
-    struct {
-        double width;
-        double height;
-    } size;
-} CDStruct_02837cd9;
+    CDStruct_c3b9c2ee _field1;
+    CDStruct_c3b9c2ee _field2;
+} CDStruct_90e2a262;
 
-// Ambiguous groups
-typedef struct {
-    double _field1;
-    double _field2;
-} CDStruct_c3b9c2ee;
-
-typedef struct {
-    double latitude;
-    double longitude;
-} CDStruct_2c43369c;
-
+// Template types
 typedef struct LineSegment<double, 2> {
-    Matrix_2bdd42a3 _origin;
-    Matrix_2bdd42a3 _direction;
-} LineSegment_ede69d4d;
+    Matrix_c5a6041f _field1;
+    Matrix_c5a6041f _field2;
+} LineSegment_dd02afb9;
 
 typedef struct Matrix<double, 2, 1> {
-    double _e[2];
-} Matrix_2bdd42a3;
+    double _field1[2];
+} Matrix_c5a6041f;
 

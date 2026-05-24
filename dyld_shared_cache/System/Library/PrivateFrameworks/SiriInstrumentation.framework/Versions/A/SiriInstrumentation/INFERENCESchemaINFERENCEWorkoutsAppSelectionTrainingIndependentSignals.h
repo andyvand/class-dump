@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCECommonAppIndependentSignals, NSData;
+@class INFERENCESchemaINFERENCECommonAppIndependentSignals;
 
 @interface INFERENCESchemaINFERENCEWorkoutsAppSelectionTrainingIndependentSignals : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCECommonAppIndependentSignals *_commonIndependent;
-    int _nowPlayingState;
-    int _deviceMotionState;
-    _Bool _isDeviceLockStatus;
-    _Bool _isMobileDataOn;
-    _Bool _isWifiOn;
-    int _workoutType;
-    _Bool _isIndoorWorkout;
-    struct {
-        unsigned int nowPlayingState:1;
-        unsigned int deviceMotionState:1;
-        unsigned int isDeviceLockStatus:1;
-        unsigned int isMobileDataOn:1;
-        unsigned int isWifiOn:1;
-        unsigned int workoutType:1;
-        unsigned int isIndoorWorkout:1;
-    } _has;
-    _Bool _hasCommonIndependent;
 }
 
 - (void);
@@ -44,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -75,32 +58,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ytesUnacked;
-- (id)SiriSchemaRGInferenceContext;
+- (id)hasBytesUnacked;
+- (id)RGSiriSchemaRGInferenceContext;
 - (void)%L¯Þ/";
 
 // Remaining properties
 @property(retain, nonatomic) INFERENCESchemaINFERENCECommonAppIndependentSignals *commonIndependent; // @synthesize commonIndependent=_commonIndependent;
-@property(nonatomic) int deviceMotionState; // @synthesize deviceMotionState=_deviceMotionState;
-@property(nonatomic) _Bool hasCommonIndependent; // @synthesize hasCommonIndependent=_hasCommonIndependent;
-@property(nonatomic) _Bool hasDeviceMotionState;
-@property(nonatomic) _Bool hasIsDeviceLockStatus;
-@property(nonatomic) _Bool hasIsIndoorWorkout;
-@property(nonatomic) _Bool hasIsMobileDataOn;
-@property(nonatomic) _Bool hasIsWifiOn;
-@property(nonatomic) _Bool hasNowPlayingState;
-@property(nonatomic) _Bool hasWorkoutType;
-@property(nonatomic) _Bool isDeviceLockStatus; // @synthesize isDeviceLockStatus=_isDeviceLockStatus;
-@property(nonatomic) _Bool isIndoorWorkout; // @synthesize isIndoorWorkout=_isIndoorWorkout;
-@property(nonatomic) _Bool isMobileDataOn; // @synthesize isMobileDataOn=_isMobileDataOn;
-@property(nonatomic) _Bool isWifiOn; // @synthesize isWifiOn=_isWifiOn;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int nowPlayingState; // @synthesize nowPlayingState=_nowPlayingState;
-@property(nonatomic) int workoutType; // @synthesize workoutType=_workoutType;
 
 @end
 

@@ -7,14 +7,6 @@
 @interface AppStoreKit.WidgetTodayCardTemplate
 {
     id storyId;
-    id heading;
-    id title;
-    id isDark;
-    id iconArtwork;
-    id editorialArtwork;
-    id backgroundColor;
-    id url;
-    id eventStartDate;
 }
 
 @end

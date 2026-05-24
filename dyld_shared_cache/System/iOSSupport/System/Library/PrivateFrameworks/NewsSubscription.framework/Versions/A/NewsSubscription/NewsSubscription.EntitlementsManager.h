@@ -7,14 +7,6 @@
 @interface NewsSubscription.EntitlementsManager
 {
     id purchaseController;
-    id bundleSubscriptionManager;
-    id configurationManager;
-    id subscriptionExpiryManager;
-    id purchaseAdContextEntriesManager;
-    id router;
-    id sceneProvider;
-    id networkReachability;
-    id entitlementService;
 }
 
 @end

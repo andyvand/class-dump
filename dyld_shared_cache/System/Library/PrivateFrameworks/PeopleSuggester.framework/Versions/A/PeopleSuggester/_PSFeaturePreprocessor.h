@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_appUsageCount7Days;
++ (id)_anyEvents;
++ (id)eCount14Day;
++ (id)N,V_gender;
 
 @end
 

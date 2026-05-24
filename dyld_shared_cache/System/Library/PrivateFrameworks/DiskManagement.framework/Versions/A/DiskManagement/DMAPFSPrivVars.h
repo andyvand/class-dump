@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMManager, NSMutableDictionary;
+@class DMManager;
 
 __attribute__((visibility("hidden")))
 @interface DMAPFSPrivVars
 {
     DMManager *_dmManager;
-    _Bool _inquiryCache_Enable;
-    NSMutableDictionary *_inquiryCache_MDict;
 }
 
 @end

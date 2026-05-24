@@ -9,15 +9,13 @@
 @interface EQKitMathMLTernaryNode : EQKitMathMLNode
 {
     EQKitMathMLNode *mFirst;
-    EQKitMathMLNode *mSecond;
-    EQKitMathMLNode *mThird;
 }
 
 - (const void *);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 
 @end

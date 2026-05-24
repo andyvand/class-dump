@@ -7,7 +7,6 @@
 @interface TSTDEVValue
 {
     double _observationInterval;
-    double _tdev;
 }
 
 - (double);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double observationInterval; // @synthesize observationInterval=_observationInterval;
-@property(readonly, nonatomic) double tdev; // @synthesize tdev=_tdev;
 
 @end
 

@@ -13,18 +13,18 @@
     NSArray *_connectionRules;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)setQrExperiments: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)rifyCompleted:(id)arg1 ];
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)der";
-- (_Bool)ins;
+- (_Bool)safariDomains;
 - (id)xpected (%@ != %@) (responder rekey child followup KE);
 
 // Remaining properties

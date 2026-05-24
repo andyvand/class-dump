@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableSet;
+@class NSCountedSet;
 @protocol WBSTranslationErrorControllerDelegate;
 
 @interface WBSTranslationErrorController
 {
     NSCountedSet *_errorCounter;
-    NSMutableSet *_errorKeysReachingThreshold;
-    id <WBSTranslationErrorControllerDelegate> _delegate;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (id);
 - (void);
 - (void)ilIconInnerMarginScaleFactor;

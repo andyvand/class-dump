@@ -6,7 +6,7 @@
 
 @interface UnknownClass (Encryption)
 + (id);
-+ (id);
++ (id)";
 + (id);
 - (void);
 - (id);

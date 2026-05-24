@@ -10,21 +10,14 @@
 {
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)setHasDeleteTimestampMs:(id)arg1;
+- (_Bool)setHasDecodingMetrics:(id)arg1;
+- (id)setHasCountAttributeBigramMatch: /* Error: Ran out of types for this method. */;
+- (id)setHasConvertTool: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetSetName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

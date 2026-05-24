@@ -6,16 +6,11 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVDenyItem, CoreDAVGrantItem, CoreDAVInvertItem, CoreDAVItemWithHrefChildItem, CoreDAVItemWithNoChildren, CoreDAVPrincipalItem;
+@class CoreDAVPrincipalItem;
 
 @interface CoreDAVACEItem : CoreDAVItem
 {
     CoreDAVPrincipalItem *_principal;
-    CoreDAVInvertItem *_invert;
-    CoreDAVGrantItem *_grant;
-    CoreDAVDenyItem *_deny;
-    CoreDAVItemWithNoChildren *_protectedItem;
-    CoreDAVItemWithHrefChildItem *_inherited;
 }
 
 + (id);
@@ -28,23 +23,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_recentlyShowedPasswordPanelForAccount: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)GetUserAvailabilityRequest;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVDenyItem *deny; // @synthesize deny=_deny;
-@property(retain, nonatomic) CoreDAVGrantItem *grant; // @synthesize grant=_grant;
-@property(retain, nonatomic) CoreDAVItemWithHrefChildItem *inherited; // @synthesize inherited=_inherited;
-@property(retain, nonatomic) CoreDAVInvertItem *invert; // @synthesize invert=_invert;
 @property(retain, nonatomic) CoreDAVPrincipalItem *principal; // @synthesize principal=_principal;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *protectedItem; // @synthesize protectedItem=_protectedItem;
 
 @end
 

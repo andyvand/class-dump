@@ -7,28 +7,6 @@
 @interface IDSFoundation.H3_AllocBind.Response._StorageClass__priv_8B0E16784F004DAD1F473F6E14CD0257
 {
     id _clientAddress;
-    id _channelID;
-    id _software;
-    id _peerPublishedStreams;
-    id _peerSubscribedStreamIds;
-    id _linkID;
-    id _channelSettings;
-    id _reportingDataBlob;
-    id _lightweightParticipantIDList;
-    id _quicConnectionInfo;
-    id _participantType;
-    id _materials;
-    id _generationCounter;
-    id _sessionStateCounter;
-    id _cookie;
-    id _isServerInResign;
-    id _ackedStaleLinkIds;
-    id _activeExperiments;
-    id _pqGroupRoles;
-    id _joinedParticipants;
-    id _leftParticipants;
-    id _updatedParticipants;
-    id _isNewlyJoined;
 }
 
 @end

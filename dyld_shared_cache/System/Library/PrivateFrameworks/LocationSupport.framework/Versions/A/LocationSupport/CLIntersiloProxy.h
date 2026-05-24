@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSilo;
 @protocol CLIntersiloProxyDelegateProtocol;
 
 @interface CLIntersiloProxy
 {
     id <CLIntersiloProxyDelegateProtocol> _delegate;
-    CLSilo *_delegateSilo;
 }
 
 + (Class);
@@ -26,13 +24,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)ue:(SEL)arg1 AQIONodeClient %p is a ZenAQIONodeClient;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CLIntersiloProxyDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) __weak CLSilo *delegateSilo; // @synthesize delegateSilo=_delegateSilo;
 
 @end
 

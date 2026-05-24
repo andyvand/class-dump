@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKAccountDailyCashDestination
 {
     _Bool _current;
-    unsigned long long _destination;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id)ð%1Â0@ù
 × ;
-- (void)rrorCGIegg_;
+- (void)So19PKProvisioningErrorCGIegg_;
 - (id)j$ê;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCurrent) _Bool current; // @synthesize current=_current;
 @property(readonly, nonatomic) unsigned long long destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

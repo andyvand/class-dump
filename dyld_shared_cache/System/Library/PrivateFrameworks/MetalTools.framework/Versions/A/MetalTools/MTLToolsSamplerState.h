@@ -7,7 +7,6 @@
 #import <MetalTools/MTLToolsObject.h>
 
 @class NSString;
-@protocol MTLDevice;
 
 @interface MTLToolsSamplerState : MTLToolsObject
 {
@@ -18,40 +17,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)e;
+- (unsigned long long)) ;
 - (struct MTLResourceID);
 - (unsigned long long);
-- (unsigned long long)e: /* Error: Ran out of types for this method. */;
+- (unsigned long long)newFunctionWithPluginData:bitcodeType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *label;
-@property(readonly, nonatomic) unsigned long long pixelFormat;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
 
 @end
 

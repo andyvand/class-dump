@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TabPreviewWindowController, WBSDispatchSourceTimer;
 @protocol TabPreviewControllerDelegate, TabPreviewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface TabPreviewController
 {
     id <TabPreviewDataSource> _tabPreviewDataSource;
-    WBSDispatchSourceTimer *_tabPreviewWindowShowTimer;
-    WBSDispatchSourceTimer *_tabPreviewWindowCleanUpTimer;
-    TabPreviewWindowController *_tabPreviewWindowController;
-    _Bool _previewsVerticalTab;
-    id <TabPreviewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)[;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,15 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <TabPreviewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool previewsVerticalTab; // @synthesize previewsVerticalTab=_previewsVerticalTab;
-@property(readonly) Class superclass;
 
 @end
 

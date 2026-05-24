@@ -7,7 +7,6 @@
 @interface AppStoreKit.Placeholder
 {
     id id;
-    id automationMetadata;
 }
 
 @end

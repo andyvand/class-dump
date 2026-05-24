@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MLPMRContextImpl
 {
     NSMutableDictionary *mInstruments;
-    NSString *mAppName;
-    NSString *mLogPath;
-    NSString *mDefaultInstrumentType;
 }
 
 - (struct MLPMRInstrument *);

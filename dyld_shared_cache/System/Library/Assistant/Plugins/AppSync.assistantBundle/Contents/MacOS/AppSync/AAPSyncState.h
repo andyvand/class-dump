@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAPSyncAnchor, AAPSyncPrimitiveAnchor, NSArray, NSSet, NSString;
+@class NSString;
 
 @interface AAPSyncState
 {
     NSString *_validity;
-    long long _version;
-    AAPSyncPrimitiveAnchor *_keyAnchor;
-    AAPSyncAnchor *_startAnchor;
-    AAPSyncAnchor *_stopAnchor;
-    NSSet *_apps;
-    NSArray *_deletes;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id){;
+- (id){;
+- (id){;
 - (id);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
+- (id)@?;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)UICollectionViewTableCell;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *apps; // @synthesize apps=_apps;
-@property(readonly, copy, nonatomic) NSArray *deletes; // @synthesize deletes=_deletes;
-@property(readonly, copy, nonatomic) AAPSyncPrimitiveAnchor *keyAnchor; // @synthesize keyAnchor=_keyAnchor;
-@property(readonly, copy, nonatomic) AAPSyncAnchor *startAnchor; // @synthesize startAnchor=_startAnchor;
-@property(readonly, copy, nonatomic) AAPSyncAnchor *stopAnchor; // @synthesize stopAnchor=_stopAnchor;
 @property(readonly, copy, nonatomic) NSString *validity; // @synthesize validity=_validity;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

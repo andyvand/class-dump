@@ -9,18 +9,16 @@
 @interface QLTRenderedIcon
 {
     QLTBitmapImage *_image;
-    struct CGRect _contentRect;
 }
 
-- (id);
+- (id)autoFeedbackAssistantEnable;
 - (void);
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)~;
 
 // Remaining properties
-@property(nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;
 @property(retain, nonatomic) QLTBitmapImage *image; // @synthesize image=_image;
 
 @end

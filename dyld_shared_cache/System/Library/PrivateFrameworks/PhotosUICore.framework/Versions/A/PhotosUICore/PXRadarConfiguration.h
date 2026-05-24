@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface PXRadarConfiguration
 {
     _Bool _attachmentsIncludeAnyUserAsset;
-    _Bool _wantsSystemDiagnostics;
-    _Bool _wantsPhotosDiagnostics;
-    _Bool _isProgressUIAllowed;
-    NSString *_description;
-    NSString *_title;
-    long long _component;
-    long long _classification;
-    NSArray *_keywordIDs;
-    NSArray *_additionalExtensionIdentifiers;
-    CDUnknownBlockType _completionHandler;
-    NSMutableArray *_diagnosticProviders;
-    NSMutableArray *_legacyTapToRadars;
-    NSMutableArray *_screenshots;
-    NSMutableArray *_attachments;
-    NSMutableArray *_diagnosticContainers;
 }
 
 - (_Bool);
@@ -36,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(=;
 - (id);
 - (id);
 - (void);
@@ -46,7 +31,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
@@ -56,7 +41,7 @@
 - (CDUnknownBlockType);
 - (void)0@ù
 × ;
-- (id)dexPaths;
+- (id)selectionIndexPaths;
 - (id)ter;
 - (void)bilitiesProvider.m;
 - (void)_stringWithFormat cannot take more than 10 input args;
@@ -64,22 +49,7 @@
 - (id)d0;;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalExtensionIdentifiers; // @synthesize additionalExtensionIdentifiers=_additionalExtensionIdentifiers;
-@property(readonly, nonatomic) NSMutableArray *attachments; // @synthesize attachments=_attachments;
-@property(nonatomic) _Bool attachmentsIncludeAnyUserAsset; // @synthesize attachmentsIncludeAnyUserAsset=_attachmentsIncludeAnyUserAsset;
-@property(nonatomic) long long classification; // @synthesize classification=_classification;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) long long component; // @synthesize component=_component;
-@property(copy, nonatomic) NSString *description; // @synthesize description=_description;
-@property(readonly, nonatomic) NSMutableArray *diagnosticContainers; // @synthesize diagnosticContainers=_diagnosticContainers;
 @property(readonly, nonatomic) NSMutableArray *diagnosticProviders; // @synthesize diagnosticProviders=_diagnosticProviders;
-@property(nonatomic) _Bool isProgressUIAllowed; // @synthesize isProgressUIAllowed=_isProgressUIAllowed;
-@property(copy, nonatomic) NSArray *keywordIDs; // @synthesize keywordIDs=_keywordIDs;
-@property(readonly, nonatomic) NSMutableArray *legacyTapToRadars; // @synthesize legacyTapToRadars=_legacyTapToRadars;
-@property(readonly, nonatomic) NSMutableArray *screenshots; // @synthesize screenshots=_screenshots;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) _Bool wantsPhotosDiagnostics; // @synthesize wantsPhotosDiagnostics=_wantsPhotosDiagnostics;
-@property(nonatomic) _Bool wantsSystemDiagnostics; // @synthesize wantsSystemDiagnostics=_wantsSystemDiagnostics;
 
 @end
 

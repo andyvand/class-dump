@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSyncManagedMixinMapItem, NSDate, NSNumber, NSSet, NSString, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedFavoriteItem
@@ -15,26 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) NSSet *contactHandles; // @dynamic contactHandles;
 @property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic, copy) NSString *customName; // @dynamic customName;
-@property(nonatomic) _Bool hidden; // @dynamic hidden;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, retain) NSNumber *latitude; // @dynamic latitude;
-@property(nonatomic, retain) NSNumber *longitude; // @dynamic longitude;
-@property(nonatomic, retain) MapsSyncManagedMixinMapItem *mapItem; // @dynamic mapItem;
-@property(nonatomic, copy) NSString *mapItemAddress; // @dynamic mapItemAddress;
-@property(nonatomic, copy) NSString *mapItemCategory; // @dynamic mapItemCategory;
-@property(nonatomic, copy) NSDate *mapItemLastRefreshed; // @dynamic mapItemLastRefreshed;
-@property(nonatomic, copy) NSString *mapItemName; // @dynamic mapItemName;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic, retain) NSNumber *muid; // @dynamic muid;
-@property(nonatomic, copy) NSString *originatingAddressString; // @dynamic originatingAddressString;
-@property(nonatomic) long long positionIndex; // @dynamic positionIndex;
-@property(nonatomic, copy) NSString *shortcutIdentifier; // @dynamic shortcutIdentifier;
-@property(nonatomic) short source; // @dynamic source;
-@property(nonatomic) short type; // @dynamic type;
-@property(nonatomic) short version; // @dynamic version;
 
 @end
 

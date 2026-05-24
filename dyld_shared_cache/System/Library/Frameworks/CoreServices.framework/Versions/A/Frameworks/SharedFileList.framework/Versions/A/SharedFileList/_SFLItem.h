@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface _SFLItem
 {
     NSUUID *_identifier;
-    NSString *_name;
-    NSData *_bookmark;
-    NSDictionary *_properties;
-    unsigned long long _seed;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)isionSupportedImpl;
 - (void);
 - (id);
 - (id);
@@ -29,22 +25,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)led at path:(id)arg1 %@. error = %s;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)ty;
 - (void);
 - (id);
 - (unsigned long long)runloop;
 
 // Remaining properties
-@property(copy) NSData *bookmark; // @synthesize bookmark=_bookmark;
 @property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) NSDictionary *properties; // @synthesize properties=_properties;
-@property unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

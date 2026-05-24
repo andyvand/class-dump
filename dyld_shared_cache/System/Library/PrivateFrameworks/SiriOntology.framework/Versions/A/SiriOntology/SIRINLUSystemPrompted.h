@@ -9,7 +9,6 @@
 @interface SIRINLUSystemPrompted
 {
     NSString *renderedText;
-    USOSerializedGraph *_reference;
 }
 
 + (_Bool);
@@ -20,12 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (id)n_SiriAlias;
+- (id)_TtC12SiriOntology31UsoTask_create_common_SiriAlias;
 - (void)bute;
 
 // Remaining properties
 @property(retain, nonatomic) USOSerializedGraph *reference; // @synthesize reference=_reference;
-@property(retain, nonatomic) NSString *renderedText; // @synthesize renderedText;
 
 @end
 

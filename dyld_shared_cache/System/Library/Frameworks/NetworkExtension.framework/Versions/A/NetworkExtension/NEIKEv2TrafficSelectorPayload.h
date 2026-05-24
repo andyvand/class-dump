@@ -13,11 +13,11 @@
     NSArray *_trafficSelectors;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)ules: /* Error: Ran out of types for this method. */;
+- (void)updateAppLayerVPNMappingRules: /* Error: Ran out of types for this method. */;
 - (id)o receive IKE SA Init retry reply (connect retry KE);
 
 @end

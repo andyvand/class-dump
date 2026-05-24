@@ -7,8 +7,6 @@
 @interface AppKit.ReplacementAnimationCapableSingleLineLabel.TextSegmentLayout__priv_CBBF89358F961DC662EFF89579A8C308
 {
     id attributedString;
-    id $__lazy_storage_$_views;
-    id calculator;
 }
 
 @end

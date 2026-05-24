@@ -15,7 +15,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void)Interface: /* Error: Ran out of types for this method. */;
+- (void)setDelegateInterface: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType packetHandler; // @synthesize packetHandler=_packetHandler;

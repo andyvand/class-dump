@@ -10,8 +10,8 @@
 }
 
 + (_Bool);
-- (id);
-- (long long);
+- (id)_atypicalSpeechEnabled;
+- (long long)startTimestamp;
 - (id);
 - (void);
 

@@ -9,43 +9,36 @@
 @interface GEOImpressionObjectId
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _high;
-    unsigned long long _low;
-    CDStruct_583788c5 _flags;
 }
 
-+ (_Bool)reenPresented:(id)arg1;
++ (_Bool)setHasRoutePlanningScreenPresented:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)createGroupWithName:realName:gid:inNode: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)FClientConfiguration";
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long)"b1"has_regionTilesWereResized"b1};
-- (id):(struct _NSZone *)arg1;
-- (id)EORegionStoreSearchManager;
+- (id)setLabelText:(struct _NSZone *)arg1;
+- (id)_GEORegionStoreSearchManager;
 - (id)ionary;
 - (id) Ô;
 - (void)ðÝ³ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasHigh;
-@property(nonatomic) _Bool hasLow;
-@property(nonatomic) unsigned long long high;
-@property(nonatomic) unsigned long long low;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

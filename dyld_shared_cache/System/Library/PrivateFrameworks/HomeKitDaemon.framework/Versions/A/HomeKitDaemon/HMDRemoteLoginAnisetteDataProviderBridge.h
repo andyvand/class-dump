@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteLoginMessageSender, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginAnisetteDataProviderBridge
 {
     NSUUID *_uuid;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    HMDRemoteLoginMessageSender *_remoteMessageSender;
 }
 
 + (_Bool)\;
@@ -25,35 +21,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/common/EOSReporter.m;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id):%@ /* Error: Ran out of types for this method. */;
 - (id)Matter reachability.;
 - (id)@] HMDHomeAccessCodeModel was removed. Removing value with label on HMDHome:(id)arg1 %@;
 - (void)on;
-- (void)O_TITLE;
+- (void)ACCESSORY_CONFIRM_UNCERTIFIED_PPID_INFO_TITLE;
 - (id)ÀÏÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(retain, nonatomic) HMDRemoteLoginMessageSender *remoteMessageSender; // @synthesize remoteMessageSender=_remoteMessageSender;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraStreamSessionInfo, NSObject, NSString;
-@protocol HMDCameraRemoteStreamProtocol, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDStreamInterface
 {
     struct os_unfair_lock_s _lock;
-    int _localRTPSocket;
-    unsigned long long _state;
-    HMDCameraStreamSessionInfo *_streamSessionInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDCameraRemoteStreamProtocol> _sessionHandler;
-    CDUnknownBlockType _socketCloseHandler;
 }
 
 + (int);
@@ -26,30 +17,18 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (int);
-- (id);
+- (id)setLabeledValueIdentifier:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)=;
 - (id);
-- (void)file;
+- (void)NoProfile;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int localRTPSocket; // @synthesize localRTPSocket=_localRTPSocket;
-@property(readonly) id <HMDCameraRemoteStreamProtocol> sessionHandler; // @synthesize sessionHandler=_sessionHandler;
 @property(copy) CDUnknownBlockType socketCloseHandler; // @synthesize socketCloseHandler=_socketCloseHandler;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) HMDCameraStreamSessionInfo *streamSessionInfo; // @synthesize streamSessionInfo=_streamSessionInfo;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

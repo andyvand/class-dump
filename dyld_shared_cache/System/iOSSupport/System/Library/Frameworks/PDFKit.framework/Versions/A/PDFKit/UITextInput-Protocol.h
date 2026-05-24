@@ -4,27 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPosition, UITextRange, UIView;
+@class NSArray, NSAttributedString, NSDictionary, NSString, UITextPosition, UITextRange;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
+- (void)updateLiveSelectionForStrokesInLayer:(NSString *)arg1 inDrawing:(struct _NSRange)arg2;
+- (NSDictionary *);
+- (long long);
+- (UITextRange *)actionForLayer:forKey: /* Error: Ran out of types for this method. */;
 - (UITextPosition *)1Â0@ù
 × ;
 - (UITextPosition *)!Q	°!Fù1v1Â0@ù
 × ;
 - (id <UITextInputDelegate>)NSIndexPath"24;
-- (id <UITextInputTokenizer>)de;
-- (void)alysisEnabled;
-- (struct CGRect)uWithConfiguration:(UITextRange *)arg1 animator: /* Error: Ran out of types for this method. */;
-- (void)tContainer: /* Error: Ran out of types for this method. */;
-- (UITextRange *)PDFScrollViewMinimumNumberOfTouches;
-- (UITextRange *)ent:(UITextPosition *)arg1 forPage:(UITextPosition *)arg2;
-- (UITextPosition *)ormField:(UITextRange *)arg1;
+- (id <UITextInputTokenizer>)gutterWide;
+- (void)documentAnalysisEnabled;
+- (struct CGRect)contextMenuInteraction:(UITextRange *)arg1 willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (void)addTextContainer: /* Error: Ran out of types for this method. */;
+- (UITextRange *)_updatePDFScrollViewMinimumNumberOfTouches;
+- (UITextRange *)_setNextAction:(UITextPosition *)arg1 forDocument:(UITextPosition *)arg2 forPage: /* Error: Ran out of types for this method. */;
+- (UITextPosition *)setIsFormField:(UITextRange *)arg1;
 - (UITextPosition *)"UIButton",&,N,V_actionsButton;
-- (void);
+- (void)PDFPanGestureRecognizer;
 - (void)syncContentsForAnnotation:(UITextRange *)arg1 withKey:andNewValue:] /* Error: Ran out of types for this method. */;
 
 @optional
+- (void)window:(long long)arg1 willPositionSheet:usingRect: /* Error: Ran out of types for this method. */;
+- (NSAttributedString *)CreateSecurityCertificateReference(kiPodAccessoryTestAuth3CA) pSecCertRef:(UITextRange *)arg1 NULL
+;
+- (id)mrod:%s /* Error: Ran out of types for this method. */;
+- (long long);
+- (NSDictionary *)dited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0 ;
+- (void)skipPresentationAnchorCheck;
+- (void);
+- (void)getDataForArrayElement:(NSString *)arg1 face:(NSArray *)arg2 level:(long long)arg3 depthPlane:bytesPerRow:bytesPerImage: /* Error: Ran out of types for this method. */;
+- (_Bool)t ;
 - (UITextPosition *)
 × ;
 - (struct CGRect)è;
@@ -32,36 +46,6 @@
 - (_Bool)w Range;
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisEditable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
 @property(copy) UITextRange *selectedTextRange;
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
 @end
 

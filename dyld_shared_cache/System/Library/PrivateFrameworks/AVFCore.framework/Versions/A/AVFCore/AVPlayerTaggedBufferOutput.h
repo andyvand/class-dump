@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (id);
+- (id)age;
 - (id);
 - (_Bool);
-- (struct OpaqueCMTaggedBufferGroup *);
+- (struct OpaqueCMTaggedBufferGroup *)$T;
 - (void);
 - (void);
 - (_Bool);

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSNumber;
+@class NSNumber;
 
 @interface SPCommandKeysCriteria
 {
     NSNumber *_sequence;
-    NSDateInterval *_dateInterval;
-    NSArray *_indices;
-    NSNumber *_index;
-    NSNumber *_hint;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id));
 + (id);
 + (id);
 + (_Bool);
@@ -27,21 +23,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)hjh8;
 - (void);
 - (void);
-- (id);
+- (id)com_apple_mobilesms_check_priority;
 - (id);
 - (id);
 - (void);
-- (void)hBlock:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)startRefreshingSharesWithBlock:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(copy, nonatomic) NSNumber *hint; // @synthesize hint=_hint;
-@property(copy, nonatomic) NSNumber *index; // @synthesize index=_index;
-@property(copy, nonatomic) NSArray *indices; // @synthesize indices=_indices;
 @property(copy, nonatomic) NSNumber *sequence; // @synthesize sequence=_sequence;
 
 @end

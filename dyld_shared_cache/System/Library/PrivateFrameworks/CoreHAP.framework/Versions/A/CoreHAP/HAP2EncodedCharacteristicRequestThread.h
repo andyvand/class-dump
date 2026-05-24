@@ -6,36 +6,24 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HAP2EncodedCharacteristicRequestThread : HAP2LoggingObject
 {
     _Bool _enforcePDUBodyLength;
-    NSArray *_internalCharacteristics;
-    unsigned long long _requestType;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)U;
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void)er: /* Error: Ran out of types for this method. */;
+- (void)setBackoffTimer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *btleRequests;
-@property(readonly, nonatomic) NSArray *characteristics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

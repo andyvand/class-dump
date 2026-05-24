@@ -7,24 +7,6 @@
 @interface RemindersUICore.TTRAccountsListsInteractor
 {
     id delegate;
-    id store;
-    id isSettingSmartListsDisplayOrderInUserDefaults;
-    id isSettingSmartListsVisibilityInUserDefaults;
-    id committer;
-    id cloudKitMigrationManager;
-    id cloudKitNetworkActivityMonitor;
-    id perWindowLastSelectedListStorage;
-    id userDefaults;
-    id smartListsDisplayOrderObservationToken;
-    id smartListsVisibilityObservationToken;
-    id migrationPollingTimer;
-    id accountsEligibleForMigration_cached;
-    id cloudKitNetworkActivity;
-    id dataViewMonitor;
-    id modelCachablePropertyFetchInitiator;
-    id modelCachablePropertyFetchSubscription;
-    id suggestGroceriesDismissed;
-    id grocerySupportedInLanguage;
 }
 
 - (id);

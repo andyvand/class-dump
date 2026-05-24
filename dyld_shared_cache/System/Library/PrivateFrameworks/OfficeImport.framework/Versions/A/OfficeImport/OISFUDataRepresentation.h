@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface OISFUDataRepresentation
 {
     _Bool mHasHash;
-    unsigned int mHash;
-    _Bool mHasSha1Hash;
-    NSData *mSha1Hash;
 }
 
 - (struct _xmlTextReader *);
@@ -26,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGDataProvider *);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (long long);
 - (long long);

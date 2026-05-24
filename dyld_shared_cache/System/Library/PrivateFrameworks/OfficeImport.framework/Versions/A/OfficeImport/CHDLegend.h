@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection, EDResources, NSArray, OADGraphicProperties;
-
 __attribute__((visibility("hidden")))
 @interface CHDLegend
 {
     int mLegendPosition;
-    OADGraphicProperties *mGraphicProperties;
-    unsigned long long mFontIndex;
-    EDCollection *mLegendEntries;
-    EDResources *mResources;
-    _Bool mIsVertical;
-    _Bool mIsOverlay;
-    NSArray *mLabelEffects;
 }
 
 - (void);
@@ -24,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -35,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)1Â0@ù
 × ;
 - (void);

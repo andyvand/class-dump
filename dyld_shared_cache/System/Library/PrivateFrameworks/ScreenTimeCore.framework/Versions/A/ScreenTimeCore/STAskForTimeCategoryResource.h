@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)id, sync_artwork_token) SELECT item_pid, artwork_cache_id FROM item_extra JOIN item_store USING (item_pid) WHERE artwork_cache_id IS NOT NULL AND artwork_cache_id != 0 AND store_saga_id = 0 AND sync_id != 0 AND artwork_cache_id < 10001;
 
 @end
 

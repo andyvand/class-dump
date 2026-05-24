@@ -17,11 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool hasAppProtectionReadEntitlement;
-@property(readonly) _Bool hasCloudSyncEntitlement;
 @property(readonly) _Bool hasDataStoreReadOnlyEntitlement;
-@property(readonly) _Bool hasDataStoreReadWriteEntitlement;
-@property(readonly) _Bool hasDataVaultEntitlement;
 
 @end
 

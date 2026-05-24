@@ -14,13 +14,13 @@
 
 + (id);
 + (id);
++ (id)D^;
 + (id);
++ (int)g);
 + (id);
-+ (int);
-+ (id);
-- (id);
-- (SEL);
-- (id);
+- (id)checkpointRateZero;
+- (SEL)networkUnreachableDuration;
+- (id)MPAVItemPlaybackErrorResolutionType;
 - (void).;
 - (id)À%àP;
 

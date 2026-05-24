@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface SUCoreRollbackDescriptor
 {
     _Bool _rollbackEligible;
-    NSString *_restoreVersion;
-    NSString *_productVersion;
-    NSString *_productBuildVersion;
-    NSString *_releaseType;
-    NSDate *_rollbackDate;
-    NSDate *_splatRollbackDate;
 }
 
 + (_Bool);
@@ -23,13 +15,13 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void)preview response received:(id)arg1 %@ for sourceURL:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ine";
+- (id)_makeToolbarItemForShowWebInspector;
 - (id);
 - (void);
 - (id);
@@ -41,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *productBuildVersion; // @synthesize productBuildVersion=_productBuildVersion;
-@property(retain, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(retain, nonatomic) NSString *releaseType; // @synthesize releaseType=_releaseType;
-@property(retain, nonatomic) NSString *restoreVersion; // @synthesize restoreVersion=_restoreVersion;
-@property(retain, nonatomic) NSDate *rollbackDate; // @synthesize rollbackDate=_rollbackDate;
 @property(nonatomic) _Bool rollbackEligible; // @synthesize rollbackEligible=_rollbackEligible;
-@property(retain, nonatomic) NSDate *splatRollbackDate; // @synthesize splatRollbackDate=_splatRollbackDate;
 
 @end
 

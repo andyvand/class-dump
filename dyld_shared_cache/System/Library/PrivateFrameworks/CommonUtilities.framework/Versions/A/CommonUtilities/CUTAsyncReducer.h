@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTResult, NSArray;
+@class NSArray;
 
 @interface CUTAsyncReducer
 {
     NSArray *_input;
-    CUTResult *_result;
-    CDUnknownBlockType _reducerBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
@@ -22,17 +19,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (CDUnknownBlockType);
+- (id)P;
+- (CDUnknownBlockType)setService:forAlias: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(retain, nonatomic) NSArray *input; // @synthesize input=_input;
-@property(copy, nonatomic) CDUnknownBlockType reducerBlock; // @synthesize reducerBlock=_reducerBlock;
-@property(retain, nonatomic) CUTResult *result; // @synthesize result=_result;
 
 @end
 

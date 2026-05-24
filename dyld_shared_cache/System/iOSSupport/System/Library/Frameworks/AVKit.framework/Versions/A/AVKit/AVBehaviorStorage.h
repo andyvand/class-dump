@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface AVBehaviorStorage
 {
     id _AVKitOwner;
-    NSMapTable *_behaviorsAndBehaviorContexts;
 }
 
 - (void);
@@ -25,13 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4(;
 - (id);
 - (void)VolumeControlsControllerDelegate>";
 
 // Remaining properties
 @property(nonatomic) __weak id AVKitOwner; // @synthesize AVKitOwner=_AVKitOwner;
-@property(readonly, nonatomic) NSMapTable *behaviorsAndBehaviorContexts; // @synthesize behaviorsAndBehaviorContexts=_behaviorsAndBehaviorContexts;
 
 @end
 

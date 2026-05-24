@@ -9,8 +9,6 @@
 @interface IDSQRProtoMessage
 {
     IDSQRProtoH3Message *_message;
-    unsigned long long _transactionID;
-    double _startTime;
 }
 
 + (id);
@@ -20,6 +18,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,11 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,15 +51,14 @@
 - (double);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (int);
-- (id);
+- (void)fallbackRecordAttemptsRemaining;
+- (id)unregisterForIncomingChannelNotifications;
+- (int)ession][addIncompletePacketData] received:0x%x. Total:0x%x/0x%x.
+ /* Error: Ran out of types for this method. */;
+- (id)ed to cast value or get string from stored UserDefault. Returning default value {key:(id)arg1 %s};
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int messageType;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(nonatomic) unsigned long long transactionID; // @synthesize transactionID=_transactionID;
 
 @end

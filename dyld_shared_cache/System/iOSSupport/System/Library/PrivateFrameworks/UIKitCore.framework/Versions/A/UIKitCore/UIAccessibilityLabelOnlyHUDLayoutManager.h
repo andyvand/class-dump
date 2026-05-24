@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)e has a callerID set to a phone number, That phone number is SMS Relay enabled, we should use that ;
 - (struct CGSize);
 - (id);
 - (_Bool);

@@ -11,23 +11,17 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureSystemStatus
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct IONotificationPort *_ioNotificationPort;
-    unsigned int _serviceNotification;
-    _Atomic unsigned long long _systemState;
-    struct IONotificationPort *_powerNotificationPort;
-    unsigned int _powerNotifier;
-    unsigned int _powerNotifierConnect;
 }
 
 + (_Bool);
 + (id)ySourceDeviceType[sourceDeviceType] toInput:smartStyleMetadataSynchronizerNode.inputs[0] pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
-+ (void)rs;
++ (void)BravoSwitchOverVideoZoomFactors;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)cachedCssString;
+- (id)c ;
 - (unsigned long long)ÿ;
 
 // Remaining properties

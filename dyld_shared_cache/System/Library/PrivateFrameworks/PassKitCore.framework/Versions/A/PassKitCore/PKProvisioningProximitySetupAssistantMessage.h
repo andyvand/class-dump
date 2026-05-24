@@ -6,17 +6,14 @@
 
 #import <PassKitCore/PKSharingGenericMessage.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKProvisioningProximitySetupAssistantMessage : PKSharingGenericMessage
 {
     _Bool _isReply;
-    NSString *_requestIdentifier;
-    NSDictionary *_message;
-    NSString *_conversationIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)__auth_stubs;
 - (id);
 - (_Bool);
 - (id);
@@ -26,12 +23,9 @@
 - (id);
 - (_Bool)lecting cached selected offer since suppressPayInFull is true %@;
 - (void)payWithRewardsIneligibleReason;
-- (id)sAssetCache;
+- (id)PassAssetCache;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(readonly, nonatomic) _Bool isReply; // @synthesize isReply=_isReply;
-@property(readonly, nonatomic) NSDictionary *message; // @synthesize message=_message;
 @property(readonly, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end

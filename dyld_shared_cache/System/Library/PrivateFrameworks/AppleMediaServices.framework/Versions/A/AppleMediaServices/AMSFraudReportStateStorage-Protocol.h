@@ -7,9 +7,10 @@
 @class NSArray, NSDate;
 
 @protocol AMSFraudReportStateStorage
+- (void);
+- (NSArray *)numberOfAppsUsingBackgroundMessaging;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeys;
 @property(retain, nonatomic) NSDate *lastCleanupDate;
 @end
 

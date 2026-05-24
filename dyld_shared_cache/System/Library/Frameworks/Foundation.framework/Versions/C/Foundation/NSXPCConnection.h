@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCInterface, NSXPCListenerEndpoint, _NSXPCConnectionClassCache, _NSXPCConnectionExpectedReplies, _NSXPCConnectionExportedObjectTable, _NSXPCConnectionImportInfo, _NSXPCConnectionRequestedReplies;
-@protocol NSObject, OS_dispatch_queue, OS_xpc_object, _NSXPCTransport;
-
 @interface NSXPCConnection
 {
     CDUnion_09baf859 _connection;
-    _NSXPCConnectionExpectedReplies *_repliesExpected;
-    NSObject<OS_dispatch_queue> *_userQueue;
-    unsigned int _state;
-    _Atomic unsigned int _state2;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    _NSXPCConnectionExportedObjectTable *_exportInfo;
-    _NSXPCConnectionRequestedReplies *_repliesRequested;
-    _NSXPCConnectionImportInfo *_importInfo;
-    id <NSObject> _otherInfo;
-    _Atomic id _delegate;
-    NSXPCInterface *_remoteObjectInterface;
-    NSString *_serviceName;
-    NSXPCListenerEndpoint *_endpoint;
-    _NSXPCConnectionClassCache *_eCache;
-    _NSXPCConnectionClassCache *_dCache;
-    NSObject<OS_xpc_object> *_bootstrap;
-    struct os_unfair_lock_s _lock;
-    id <_NSXPCTransport> _transport;
 }
 
 @end

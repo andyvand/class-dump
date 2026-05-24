@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.SecureSubmitter
 {
     id eventStream;
-    id backend;
-    id streamTask;
 }
 
 @end

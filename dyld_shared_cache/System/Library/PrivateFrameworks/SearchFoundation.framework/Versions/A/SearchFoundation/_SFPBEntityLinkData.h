@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommand;
+@class _SFPBCommand;
 
 @interface _SFPBEntityLinkData
 {
@@ -12,28 +12,20 @@
 }
 
 - (id);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)loadPhotoEditData:(id)arg1 formatIdentifier:formatVersion:importProperties:error: /* Error: Ran out of types for this method. */;
+- (id)OL}d, isRAW:%{BOOL}d, dontAllowRAW:%{BOOL}d, should use unmodified original:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)ands: /* Error: Ran out of types for this method. */;
+- (void)setPlayCommands: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCommand *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

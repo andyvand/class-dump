@@ -5,5 +5,6 @@
 //
 
 @protocol EFCacheable
+- (id)LPMedia isReadOnly];
 @end
 

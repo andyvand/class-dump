@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRRecentContactsLibrary, NSString;
-@protocol CNUIDefaultUserActionRecorderEventFactory;
+@class CRRecentContactsLibrary;
 
 @interface CNUIDefaultUserActionRecorder
 {
     CRRecentContactsLibrary *_library;
-    id <CNUIDefaultUserActionRecorderEventFactory> _eventFactory;
 }
 
 - (void);
@@ -18,18 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void)ntainer: /* Error: Ran out of types for this method. */;
+- (void)usedRectForTextContainer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CNUIDefaultUserActionRecorderEventFactory> eventFactory; // @synthesize eventFactory=_eventFactory;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CRRecentContactsLibrary *library; // @synthesize library=_library;
-@property(readonly) Class superclass;
 
 @end
 

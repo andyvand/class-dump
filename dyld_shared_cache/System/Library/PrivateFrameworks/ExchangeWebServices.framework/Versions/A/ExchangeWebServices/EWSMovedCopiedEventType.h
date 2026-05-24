@@ -6,12 +6,9 @@
 
 #import <ExchangeWebServices/EWSBaseObjectChangedEventType.h>
 
-@class EWSFolderIdType;
-
 @interface EWSMovedCopiedEventType : EWSBaseObjectChangedEventType
 {
     id _OldItemOrFolderId;
-    EWSFolderIdType *_OldParentFolderId;
 }
 
 + (id);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id OldItemOrFolderId; // @synthesize OldItemOrFolderId=_OldItemOrFolderId;
-@property(retain, nonatomic) EWSFolderIdType *OldParentFolderId; // @synthesize OldParentFolderId=_OldParentFolderId;
 
 @end
 

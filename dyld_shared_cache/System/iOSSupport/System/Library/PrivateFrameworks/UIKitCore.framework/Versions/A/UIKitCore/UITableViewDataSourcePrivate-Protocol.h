@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSIndexPath;
+
 @protocol UITableViewDataSourcePrivate
+
+@optional
+- (NSIndexPath *);
+- (NSArray *)storageTimerFiredNotificationObserver;
 @end
 

@@ -6,12 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSFolderResponseShapeType, NSArray;
+@class EWSFolderResponseShapeType;
 
 @interface EWSGetFolderType : EWSBaseRequestType
 {
     EWSFolderResponseShapeType *_FolderShape;
-    NSArray *_FolderIds;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *FolderIds; // @synthesize FolderIds=_FolderIds;
 @property(retain, nonatomic) EWSFolderResponseShapeType *FolderShape; // @synthesize FolderShape=_FolderShape;
 
 @end

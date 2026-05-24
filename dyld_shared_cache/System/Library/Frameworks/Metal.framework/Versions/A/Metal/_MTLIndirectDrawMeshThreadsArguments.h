@@ -7,14 +7,9 @@
 @interface _MTLIndirectDrawMeshThreadsArguments
 {
     CDStruct_da2e99ad threadsPerGrid;
-    CDStruct_da2e99ad threadsPerObjectThreadgroup;
-    CDStruct_da2e99ad threadsPerMeshThreadgroup;
-    CDStruct_da2e99ad _threadsPerGrid;
-    CDStruct_da2e99ad _threadsPerObjectThreadgroup;
-    CDStruct_da2e99ad _threadsPerMeshThreadgroup;
 }
 
-- (CDStruct_da2e99ad);
+- (CDStruct_da2e99ad);
 - (CDStruct_da2e99ad);
 - (CDStruct_da2e99ad);
 - (void);
@@ -23,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) CDStruct_da2e99ad threadsPerGrid; // @synthesize threadsPerGrid=_threadsPerGrid;
-@property(nonatomic) CDStruct_da2e99ad threadsPerMeshThreadgroup; // @synthesize threadsPerMeshThreadgroup=_threadsPerMeshThreadgroup;
-@property(nonatomic) CDStruct_da2e99ad threadsPerObjectThreadgroup; // @synthesize threadsPerObjectThreadgroup=_threadsPerObjectThreadgroup;
 
 @end
 

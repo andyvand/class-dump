@@ -10,10 +10,12 @@
 @protocol NSCollectionViewDelegate
 
 @optional
+- (void);
+- (_Bool)";
 - (NSSet *)rProviderContainer>";
-- (void)eeded;
-- (NSCollectionViewTransitionLayout *)RootDidChange;
-- (void)setView:(NSCollectionView *)arg1 fromCoder:(NSView *)arg2;
+- (void)_updateContentSizeIfNeeded;
+- (NSCollectionViewTransitionLayout *)_trackingAreaRootDidChange;
+- (void)_setView:(NSCollectionView *)arg1 fromCoder:(NSView *)arg2;
 - (id <NSPasteboardWriting>)Q\Q;
 - (void);
 - (_Bool)ÿÿN©ýÿ;

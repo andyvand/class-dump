@@ -9,12 +9,10 @@
 @interface TIStatisticKey
 {
     NSString *_counterName;
-    NSString *_aggdName;
-    NSString *_inputMode;
 }
 
-+ (id);
-- (id);
++ (id)et to the Running state;
+- (id)setCoalescerWithLabel:queue:action: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ª
@@ -24,12 +22,10 @@
 
 À
 ;
-- (id)d;
+- (id)scold;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *aggdName; // @synthesize aggdName=_aggdName;
 @property(readonly, nonatomic) NSString *counterName; // @synthesize counterName=_counterName;
-@property(readonly, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
 
 @end
 

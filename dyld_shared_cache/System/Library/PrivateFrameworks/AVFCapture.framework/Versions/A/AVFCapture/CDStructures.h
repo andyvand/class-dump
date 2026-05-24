@@ -11,14 +11,14 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct AVCapturePhotoOutputCaptureReadinessState {
-    _Bool sessionIsRunning;
-    _Bool autoDeferredPhotoDeliveryEnabled;
-    _Bool responsiveCaptureEnabled;
-    int numberOfPhotoCapturesInflight;
-    long long latestCaptureUniqueID;
-    long long inflightNonOverlappingCaptureUniqueID;
-    long long inflightUniqueIDWaitingForCapture;
-    long long inflightUniqueIDWaitingForProcessing;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
+    int _field4;
+    long long _field5;
+    long long _field6;
+    long long _field7;
+    long long _field8;
 };
 
 struct AudioStreamBasicDescription {
@@ -39,12 +39,12 @@ struct AudioValueRange {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -81,11 +81,6 @@ struct FigLocalQueueMessage {
     } _field2;
 };
 
-struct mach_timebase_info {
-    unsigned int numer;
-    unsigned int denom;
-};
-
 struct opaqueCMFormatDescription;
 
 struct opaqueCMSampleBuffer;
@@ -108,10 +103,10 @@ typedef struct {
 } CDStruct_6ad76789;
 
 typedef struct {
-    float redGain;
-    float greenGain;
-    float blueGain;
-} CDStruct_d6531dd4;
+    float _field1;
+    float _field2;
+    float _field3;
+} CDStruct_869f9c67;
 
 typedef struct {
     float _field1;
@@ -119,9 +114,9 @@ typedef struct {
 } CDStruct_b2fbf00d;
 
 typedef struct {
-    int width;
-    int height;
-} CDStruct_79c71658;
+    int _field1;
+    int _field2;
+} CDStruct_1ef3fb1f;
 
 typedef struct {
     long long _field1;
@@ -147,9 +142,9 @@ typedef struct {
 } CDStruct_a6ced087;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_1b6d18a9 _field1;
+    CDStruct_1b6d18a9 _field2;
+} CDStruct_5c5366e1;
 
 typedef struct {
     CDStruct_a6ced087 _field1;

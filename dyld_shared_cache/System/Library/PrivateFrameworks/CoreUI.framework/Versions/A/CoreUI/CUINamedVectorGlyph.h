@@ -6,45 +6,13 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class CUICatalog, CUIVectorGlyphDrawAttachmentDataStore, CUIVectorGlyphHierarchicalLayer, CUIVectorGlyphLayer, CUIVectorGlyphMulticolorLayer, NSDictionary, NSLocale, NSValue;
-
 @interface CUINamedVectorGlyph : CUINamedLookup
 {
     double _pointSize;
-    double _lookedupScaleFactor;
-    NSLocale *_lookedupLocale;
-    struct CGImage *_cgImageRef;
-    double _fontMatchingScaleFactor;
-    CUICatalog *_catalog;
-    long long _layoutDirection;
-    unsigned int _generatedImage:1;
-    unsigned int _flippable:1;
-    unsigned int _canUsePathConcatenation:1;
-    short _containsNamedColorStyles;
-    double _glyphSize;
-    double _glyphWeight;
-    CUINamedLookup *_ultralightInterpolationSource;
-    CUINamedLookup *_blackInterpolationSource;
-    CUIVectorGlyphLayer *_monochromeLayerGroup;
-    CUIVectorGlyphMulticolorLayer *_multicolorLayerGroup;
-    CUIVectorGlyphHierarchicalLayer *_hierarchicalLayerGroup;
-    NSValue *_rotationAnchor;
-    CUIVectorGlyphDrawAttachmentDataStore *_drawAttachmentData;
-    NSValue *_metricCenter;
-    NSDictionary *_symbolDefaults;
-    double _variableMinValue;
-    double _variableMaxValue;
-    struct {
-        id _field1;
-        id _field2;
-        id _field3;
-    } *_lockedRenditions;
-    long long _variableMode;
-    long long _fillStyle;
 }
 
 + (struct CGPath *);
-+ (unsigned int);
++ (unsigned int)(\@9	;
 + (id);
 + (struct CGColor *);
 + (unsigned int);
@@ -52,7 +20,7 @@
 + (id);
 + (unsigned int);
 + (struct CGGradient *);
-+ (unsigned int);
++ (unsigned int)_useTemporaryTables;
 + (unsigned int);
 + (id);
 + (unsigned int);
@@ -62,27 +30,7 @@
 + (id)UI:%s can't find edgeTexture /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect alignmentRect;
-@property(readonly, nonatomic) struct CGRect alignmentRectUnrounded;
-@property(readonly, nonatomic) double baselineOffset;
-@property(readonly, nonatomic) double baselineOffsetUnrounded;
-@property(readonly, nonatomic) double capHeight;
-@property(readonly, nonatomic) double capHeightUnrounded;
-@property(readonly, nonatomic) struct CGRect contentBounds;
-@property(readonly, nonatomic) struct CGRect contentBoundsUnrounded;
-@property long long fillStyle; // @synthesize fillStyle=_fillStyle;
 @property(nonatomic) double fontMatchingScaleFactor;
-@property(readonly, nonatomic) struct CGRect interiorAlignmentRect;
-@property(readonly, nonatomic) struct CGRect interiorAlignmentRectUnrounded;
-@property(readonly, nonatomic, getter=isInterpolatable) _Bool interpolatable;
-@property(readonly, nonatomic) _Bool isFlippable;
-@property(readonly, nonatomic) struct CGPoint metricCenter;
-@property(readonly, nonatomic) long long preferredRenderingMode;
-@property(readonly, nonatomic) struct CGPoint rotationAnchor;
-@property(readonly, nonatomic) float templateVersion;
-@property double variableMaxValue; // @synthesize variableMaxValue=_variableMaxValue;
-@property double variableMinValue; // @synthesize variableMinValue=_variableMinValue;
-@property long long variableMode; // @synthesize variableMode=_variableMode;
 
 @end
 

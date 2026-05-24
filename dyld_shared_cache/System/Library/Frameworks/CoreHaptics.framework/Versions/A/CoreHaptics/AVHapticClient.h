@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AVHapticClient
 {
     NSXPCConnection *_connection;
-    void *_commandWriter;
-    unsigned long long _uniqueID;
-    CDUnknownBlockType _completionCallback;
-    CDUnknownBlockType _connectionCallback;
-    struct mutex _mapMutex;
-    struct map<unsigned long, AVHapticSequenceEntry *, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, AVHapticSequenceEntry *>>> _sequenceEntryMap;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    int _state;
-    _Bool _disconnecting;
-    struct reply_watchdog_factory _configurationReplyWatchdogFactory;
-    _Bool _prewarmed;
-    _Bool _connected;
-    int _serverProcessID;
-    unsigned long long _clientID;
-    NSArray *_channelKeys;
-    CDUnknownBlockType _asyncStopCallback;
 }
 
 - (void);
@@ -58,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -67,14 +50,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)(	?ד;
 - (_Bool);
 - (double);
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -103,40 +86,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)rcIS4_LNS_10GallicTypeE4EEENS_14ToGallicMapperIS4_LS6_4EEEEE;
 - (_Bool);
 - (void);
-- (id);
+- (id)A$;
 - (int);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void)onary;
+- (void);
+- (void)dictionary;
 - (_Bool);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType asyncStopCallback; // @synthesize asyncStopCallback=_asyncStopCallback;
-@property(readonly) NSArray *channelKeys; // @synthesize channelKeys=_channelKeys;
-@property(readonly) unsigned long long clientID; // @synthesize clientID=_clientID;
-@property(copy) CDUnknownBlockType completionCallback; // @synthesize completionCallback=_completionCallback;
 @property _Bool connected; // @synthesize connected=_connected;
-@property(copy) CDUnknownBlockType connectionCallback; // @synthesize connectionCallback=_connectionCallback;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool disconnecting; // @synthesize disconnecting=_disconnecting;
-@property(readonly) double hapticLatency;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool prewarmed; // @synthesize prewarmed=_prewarmed;
-@property(readonly) _Bool running;
-@property int serverProcessID; // @synthesize serverProcessID=_serverProcessID;
-@property(readonly) int state;
-@property(readonly) Class superclass;
 
 @end
 

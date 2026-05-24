@@ -19,14 +19,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (id)`";
 - (id);
-- (id);
-- (id);
+- (id)thumbnailImageWithMinSize:scale:appearanceType:requireAppearance:imageScaling:showAsFileIcon:isMovie:movieDuration: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ssionStrategy:(long long)arg1 %@;
 - (void)¬Ò÷ÿ;
 - (void);
 

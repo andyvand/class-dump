@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTextField, NSView;
+@class NSTextField;
 
 @interface CNContactListHeaderCellView
 {
     NSTextField *_headerTextField;
-    NSView *_separatorView;
-    NSArray *_customConstraints;
 }
 
 - (void);
@@ -19,17 +17,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)H;
+- (void)9	@@9;
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)l;
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *customConstraints; // @synthesize customConstraints=_customConstraints;
 @property(retain) NSTextField *headerTextField; // @synthesize headerTextField=_headerTextField;
-@property(retain, nonatomic) NSView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end
 

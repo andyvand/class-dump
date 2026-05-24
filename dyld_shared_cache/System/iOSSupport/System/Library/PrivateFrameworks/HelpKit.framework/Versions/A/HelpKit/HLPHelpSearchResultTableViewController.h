@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView;
+@class UIView;
 
 @interface HLPHelpSearchResultTableViewController
 {
     double _separatorValue;
     _Bool _fullBookView;
-    NSArray *_searchResults;
-    UIView *_footerView;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)y;
+- (void)y@;
 - (id);
-- (_Bool);
+- (_Bool)n;
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
@@ -32,7 +30,6 @@
 // Remaining properties
 @property(retain, nonatomic) UIView *footerView; // @synthesize footerView=_footerView;
 @property(nonatomic) _Bool fullBookView; // @synthesize fullBookView=_fullBookView;
-@property(retain, nonatomic) NSArray *searchResults; // @synthesize searchResults=_searchResults;
 
 @end
 

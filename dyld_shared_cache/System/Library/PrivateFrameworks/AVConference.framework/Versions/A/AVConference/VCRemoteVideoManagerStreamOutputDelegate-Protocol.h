@@ -5,7 +5,7 @@
 //
 
 @protocol VCRemoteVideoManagerStreamOutputDelegate
-- (void)reamFillMediaControlInfoCallback;
+- (void)VCMediaStreamFillMediaControlInfoCallback;
 - (int)gk-commnat-cohort-name;
 @end
 

@@ -9,30 +9,24 @@
 @interface OBAnimationState
 {
     NSString *_name;
-    NSString *_darkName;
-    double _transitionDuration;
-    double _transitionSpeed;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (double);
-- (id);
+- (id)ntPerSuggestion:suggestionStyleType:suggestionsHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
+- (double)_TtC13CoreKnowledge22CKDeviceKnowledgeStore;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *darkName; // @synthesize darkName=_darkName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double transitionDuration; // @synthesize transitionDuration=_transitionDuration;
-@property(nonatomic) double transitionSpeed; // @synthesize transitionSpeed=_transitionSpeed;
 
 @end
 

@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface SFCoordinatedAlertRequest
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    _Bool _started;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    NSXPCConnection *_xpcCnx;
-    _Bool _bestIsMe;
-    CDUnknownBlockType _completionHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _updateHandler;
-    CDUnknownBlockType _invalidationHandler;
-    double _timeout;
-    long long _type;
-    NSXPCConnection *_xpcConnection;
 }
 
 + (_Bool);
@@ -32,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -59,13 +44,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool bestIsMe; // @synthesize bestIsMe=_bestIsMe;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) CDUnknownBlockType updateHandler; // @synthesize updateHandler=_updateHandler;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

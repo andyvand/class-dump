@@ -6,13 +6,12 @@
 
 #import <FinderKit/FI_TTableViewItem.h>
 
-@class NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTagColumnTableViewItem : FI_TTableViewItem
 {
     struct TFENode _node;
-    _Bool _drawSelected;
 }
 
 + (id);
@@ -28,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (struct TFENode)itViewController updateSidebarVisibility]E3$_1vJEEE;
 
 // Remaining properties
-@property(nonatomic) _Bool drawSelected; // @synthesize drawSelected=_drawSelected;
 @property(readonly, retain, nonatomic) NSImage *image;
-@property(readonly, retain, nonatomic) NSString *name;
 
 @end
 

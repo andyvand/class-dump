@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface GEOPBTransitIncidentEntityFilter
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _nextStopMuids;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

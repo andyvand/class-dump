@@ -11,7 +11,7 @@
     unsigned long long _sharingStatus;
 }
 
-- (unsigned long long);
+- (unsigned long long)0h;
 - (id);
 
 // Remaining properties

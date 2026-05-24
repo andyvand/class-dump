@@ -16,13 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
+- (id)_alwaysTreatAsLink;
 - (void);
 - (_Bool);
 - (void)ation.;
 
 // Remaining properties
-@property(readonly, getter=isHidden) _Bool hidden;
 @property(retain) WDCharacterProperties *properties; // @synthesize properties=mProperties;
 
 @end

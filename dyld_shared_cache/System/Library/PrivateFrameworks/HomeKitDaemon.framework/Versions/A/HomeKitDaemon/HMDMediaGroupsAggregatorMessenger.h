@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol HMDMediaGroupsAggregatorMessengerDataSource, HMDMediaGroupsAggregatorMessengerDelegate, OS_dispatch_queue;
+@class NSUUID;
+@protocol HMDMediaGroupsAggregatorMessengerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsAggregatorMessenger
 {
     id <HMDMediaGroupsAggregatorMessengerDataSource> _dataSource;
-    id <HMDMediaGroupsAggregatorMessengerDelegate> _delegate;
-    NSUUID *_identifier;
 }
 
 + (id)eÿî¶HÀB;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)touchedRules;
+- (void)addLiveStrategyIdentifier:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)requestAnalysisTypes:forAssetWithResourceURLs:withOptions:progressHandler:andCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -37,21 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)ger:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak id <HMDMediaGroupsAggregatorMessengerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaGroupsAggregatorMessengerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

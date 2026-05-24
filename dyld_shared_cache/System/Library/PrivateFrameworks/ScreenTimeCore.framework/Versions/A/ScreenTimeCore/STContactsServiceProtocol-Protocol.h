@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol STContactsServiceProtocol
+- (void)ve_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT album_artist_pid, album_artist, sort_album_artist, grouping_key, cloud_status, artist_artwork_token,representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM album_artist;
+- (void)NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (void)decodeBoolForKey:(NSString *)arg1;
 @end
 

@@ -7,6 +7,7 @@
 @class UIDragItem;
 
 @protocol UITableViewDropPlaceholderContext
+- (UIDragItem *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIDragItem *dragItem;

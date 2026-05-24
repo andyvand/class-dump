@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCarbonMenuWindowTrackingAreaReference
 {
     struct CGRect rect;
-    void *userData;
-    struct OpaqueHIViewTrackingAreaRef *trackingRef;
-    long long trackingNum;
-    struct {
-        unsigned int inside:1;
-        unsigned int enabledDuringMouseDrag:1;
-        unsigned int isCursorRect:1;
-        unsigned int reserved:29;
-    } f;
 }
 
 @end

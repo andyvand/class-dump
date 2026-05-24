@@ -7,18 +7,6 @@
 @interface SwiftUI.UpdateCoalescingCollectionView
 {
     id safeAreaTransitionState;
-    id helper;
-    id isLazyStackBehaviorEnabled;
-    id visibleCellsUpdate;
-    id postUpdateInvalidations;
-    id ignoreGraphUpdates;
-    id pendingGraphUpdate;
-    id pendingScrollTarget;
-    id pendingDeselectedItem;
-    id lastUpdateSeed;
-    id bridgedState;
-    id phaseState;
-    id _layoutContainer;
 }
 
 + (_Bool);
@@ -27,7 +15,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)filteredSetUsingPredicate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -38,10 +26,7 @@
 - (struct CGSize)t;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _wantsConstraintBasedLayout;
 @property(nonatomic) struct CGRect bounds;
-@property(nonatomic, readonly) _Bool canBecomeFirstResponder;
-@property(nonatomic) struct CGSize contentSize;
 
 @end
 

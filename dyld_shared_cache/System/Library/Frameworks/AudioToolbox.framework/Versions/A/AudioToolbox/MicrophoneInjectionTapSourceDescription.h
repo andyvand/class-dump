@@ -7,9 +7,6 @@
 @interface MicrophoneInjectionTapSourceDescription
 {
     struct unique_ptr<audit_token_t, std::default_delete<audit_token_t>> mAuditToken;
-    int mPid;
-    int mPidVersion;
-    long long mMicrophoneInjectionMode;
 }
 
 - (int);
@@ -18,15 +15,12 @@
 - (id);
 - (int);
 - (const CDStruct_6ad76789 *);
-- (id);
+- (id)L]_);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) const CDStruct_6ad76789 *auditToken;
-@property(readonly, nonatomic) long long microphoneInjectionMode;
-@property(readonly, nonatomic) int pid;
-@property(readonly, nonatomic) int pidVersion;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <HomeKit/HMAction.h>
 
-@class NSData, WFHomeWorkflow;
+@class WFHomeWorkflow;
 
 @interface HMShortcutAction : HMAction
 {
     struct os_unfair_lock_s _lock;
-    WFHomeWorkflow *_shortcut;
-    NSData *_shortcutData;
 }
 
 + (_Bool);
@@ -22,17 +20,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@"DDSTrialQuery"16@?<v@?@"DDSTrialAsset"@"NSError">24;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)sniff;
 - (id);
 - (id);
 - (_Bool)0@ù
 × ;
-- (void)onseValue;
+- (void)HMAccessCodeModificationResponseValue;
 
 // Remaining properties
 @property(readonly) WFHomeWorkflow *shortcut;

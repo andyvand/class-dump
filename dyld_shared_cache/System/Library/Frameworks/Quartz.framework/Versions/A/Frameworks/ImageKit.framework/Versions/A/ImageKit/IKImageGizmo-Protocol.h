@@ -5,5 +5,7 @@
 //
 
 @protocol IKImageGizmo
+- (_Bool);
+- (_Bool)figuration for user:(struct CGPoint)arg1 %{public}@;
 @end
 

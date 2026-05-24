@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, UIWindowScene;
+@class UIScene;
 @protocol UIScreenshotServiceDelegate;
 
 @interface UIScreenshotService
 {
     UIScene *_scene;
-    id <UIScreenshotServiceDelegate> _delegate;
-    id <UIScreenshotServiceDelegate> _privateDelegate;
 }
 
 - (id)!Ð!äCùZð1Â0@ù
@@ -26,17 +24,7 @@
 - (void)`;>i;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIScreenshotServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <UIScreenshotServiceDelegate> privateDelegate; // @synthesize privateDelegate=_privateDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIWindowScene *windowScene;
 
 @end
 

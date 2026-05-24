@@ -9,22 +9,6 @@
 @interface MapsSuggestionsMeCard
 {
     NSDictionary *_perCNPostalAddress;
-    _Bool _hasCorrected;
-    _Bool _hasGeocoded;
-    _Bool _hasHomeOrWork;
-    _Bool _hasHomeOrWorkOrSchool;
-    NSArray *_shortcutsForHome;
-    NSArray *_shortcutsForWork;
-    NSArray *_shortcutsForSchool;
-    NSArray *_hiddenShortcutsForHome;
-    NSArray *_hiddenShortcutsForWork;
-    NSArray *_hiddenShortcutsForSchool;
-    NSArray *_shortcutsForAll;
-    NSArray *_shortcutsForAllIncludingHidden;
-    NSArray *_mapItemsForHome;
-    NSArray *_mapItemsForWork;
-    NSArray *_mapItemsForSchool;
-    NSArray *_mapItemsForAll;
 }
 
 - (id);
@@ -38,14 +22,14 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (id);
@@ -54,22 +38,7 @@
 - (void)td::__unordered_map_hasher<MapsSuggestionsSignalType, std::pair<const MapsSuggestionsSignalType, MSg::Signal>, std::hash<MapsSuggestionsSignalType>, std::equal_to<MapsSuggestionsSignalType>>, std::__unordered_map_equal<MapsSuggestionsSignalType, std::pair<const MapsSuggestionsSignalType, MSg::Signal>, std::equal_to<MapsSuggestionsSignalType>, std::hash<MapsSuggestionsSignalType>>, std::allocator<std::pair<const MapsSuggestionsSignalType, MSg::Signal>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MapsSuggestionsSignalType, MSg::Signal>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MapsSuggestionsSignalType, MSg::Signal>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MapsSuggestionsSignalType, MSg::Signal>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<MapsSuggestionsSignalType, MSg::Signal>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCorrected; // @synthesize hasCorrected=_hasCorrected;
-@property(readonly, nonatomic) _Bool hasGeocoded; // @synthesize hasGeocoded=_hasGeocoded;
-@property(readonly, nonatomic) _Bool hasHomeOrWork; // @synthesize hasHomeOrWork=_hasHomeOrWork;
-@property(readonly, nonatomic) _Bool hasHomeOrWorkOrSchool; // @synthesize hasHomeOrWorkOrSchool=_hasHomeOrWorkOrSchool;
-@property(readonly, nonatomic) NSArray *hiddenShortcutsForHome; // @synthesize hiddenShortcutsForHome=_hiddenShortcutsForHome;
-@property(readonly, nonatomic) NSArray *hiddenShortcutsForSchool; // @synthesize hiddenShortcutsForSchool=_hiddenShortcutsForSchool;
-@property(readonly, nonatomic) NSArray *hiddenShortcutsForWork; // @synthesize hiddenShortcutsForWork=_hiddenShortcutsForWork;
-@property(readonly, nonatomic) NSArray *mapItemsForAll; // @synthesize mapItemsForAll=_mapItemsForAll;
-@property(readonly, nonatomic) NSArray *mapItemsForHome; // @synthesize mapItemsForHome=_mapItemsForHome;
-@property(readonly, nonatomic) NSArray *mapItemsForSchool; // @synthesize mapItemsForSchool=_mapItemsForSchool;
-@property(readonly, nonatomic) NSArray *mapItemsForWork; // @synthesize mapItemsForWork=_mapItemsForWork;
-@property(readonly, nonatomic) NSArray *shortcutsForAll; // @synthesize shortcutsForAll=_shortcutsForAll;
-@property(readonly, nonatomic) NSArray *shortcutsForAllIncludingHidden; // @synthesize shortcutsForAllIncludingHidden=_shortcutsForAllIncludingHidden;
 @property(readonly, nonatomic) NSArray *shortcutsForHome; // @synthesize shortcutsForHome=_shortcutsForHome;
-@property(readonly, nonatomic) NSArray *shortcutsForSchool; // @synthesize shortcutsForSchool=_shortcutsForSchool;
-@property(readonly, nonatomic) NSArray *shortcutsForWork; // @synthesize shortcutsForWork=_shortcutsForWork;
 
 @end
 

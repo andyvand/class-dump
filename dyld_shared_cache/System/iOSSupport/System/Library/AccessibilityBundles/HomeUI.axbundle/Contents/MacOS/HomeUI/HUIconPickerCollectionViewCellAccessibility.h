@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)4;
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)__MUPlaceHeaderViewAccessibility_super;
 
 @end
 

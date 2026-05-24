@@ -7,15 +7,9 @@
 @interface PassKitCore.ProvisioningStepReadCard
 {
     id context;
-    id credential;
-    id sharedState;
-    id commonCompletion;
-    id onDidStartPolling;
-    id onDidFindCard;
-    id onFailedToReadCard;
 }
 
-- (id);
+- (id);
 - (void)c¥;
 
 @end

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface SOPerfCounter
 {
     _Bool _isActive;
-    double _lastStartTime;
-    NSMutableArray *_times;
-    NSString *_name;
-    double _longestTime;
-    double _timeTally;
 }
 
 + (void);
@@ -38,16 +31,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)sheetWithPassesContainer:hostWindow: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 @property(nonatomic) double lastStartTime; // @synthesize lastStartTime=_lastStartTime;
-@property(nonatomic) double longestTime; // @synthesize longestTime=_longestTime;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double timeTally; // @synthesize timeTally=_timeTally;
-@property(retain, nonatomic) NSMutableArray *times; // @synthesize times=_times;
 
 @end
 

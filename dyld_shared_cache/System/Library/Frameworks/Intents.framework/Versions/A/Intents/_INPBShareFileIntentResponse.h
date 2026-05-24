@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _INPBShareFileIntentResponse
 {
     struct {
@@ -13,15 +11,11 @@
         unsigned int shareMode:1;
         unsigned int success:1;
     } _has;
-    _Bool _confirm;
-    _Bool _success;
-    int _shareMode;
-    NSArray *_recipients;
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -29,44 +23,30 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (int)T;
 - (int);
-- (int);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)V;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)GG;
 - (void);
 - (id);
 - (id);
-- (_Bool)irUrlValues;
+- (_Bool)pairUrlValues;
 - (id)SString",R,N,V_iOSBundleIdentifier;
-- (void)e;
-- (void)dWorkout;
+- (void)departureAirportGate;
+- (void)EndWorkout;
 
 // Remaining properties
 @property(nonatomic) _Bool confirm; // @synthesize confirm=_confirm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConfirm;
-@property(nonatomic) _Bool hasShareMode;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(nonatomic) int shareMode; // @synthesize shareMode=_shareMode;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

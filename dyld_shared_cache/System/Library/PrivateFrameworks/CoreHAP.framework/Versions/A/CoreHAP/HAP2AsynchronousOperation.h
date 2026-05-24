@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2PropertyLock, HMFActivity, NSError;
-
 __attribute__((visibility("hidden")))
 @interface HAP2AsynchronousOperation
 {
     _Bool _executing;
-    _Bool _finished;
-    _Bool _cancelled;
-    NSError *_error;
-    HMFActivity *_activity;
-    HAP2PropertyLock *_propertyLock;
 }
 
 + (_Bool)is not HH2 key type;
@@ -22,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_targetViewForSecondaryMaterialOverlayView;
 - (id);
 - (void);
 - (id);
@@ -32,16 +25,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)Certificate;
+- (void)serverCertificate;
 - (_Bool);
 - (_Bool)íÿm8o;
 
 // Remaining properties
-@property(readonly, nonatomic) HMFActivity *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic, getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
 
 @end
 

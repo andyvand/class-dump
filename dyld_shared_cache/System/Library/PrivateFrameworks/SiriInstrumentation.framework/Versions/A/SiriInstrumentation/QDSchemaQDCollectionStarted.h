@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface QDSchemaQDCollectionStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSArray *_callers;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -21,28 +17,25 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (int);
+- (int);
 - (void);
 - (id);
+- (void)v;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ibrary/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDInstallManifestRequestResponse_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)lastAddressedHandles;
 - (id);
-- (id);
-- (id)entId;
+- (id)b;
+- (id)_treatmentId;
 - (id)V_numAppDisambiguationsLastInfinity;
-- (_Bool)D_DICTATION;
-- (void)LUSERALIGNMENTCATEGORY_TRANSIENT_DEVICE_CONFIGURATION_FAILURE;
+- (_Bool)INVOCATIONSOURCE_STRUCTURED_DICTATION;
+- (void)FLUSERALIGNMENTCATEGORY_TRANSIENT_DEVICE_CONFIGURATION_FAILURE;
 - (_Bool)AppBundleId;
 - (void)ÒÿHÖmW#;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *callers; // @synthesize callers=_callers;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

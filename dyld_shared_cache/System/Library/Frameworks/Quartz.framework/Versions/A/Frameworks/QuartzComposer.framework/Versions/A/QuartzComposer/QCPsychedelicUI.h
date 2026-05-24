@@ -15,7 +15,7 @@
 
 + (id);
 - (void);
-- (void)imeBasedAnimationStarted;
+- (void)systemTimeBasedAnimationStarted;
 
 @end
 

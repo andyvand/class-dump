@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBDuration
 {
     CDStruct_85a1ec51 _has;
-    int _nanos;
-    long long _seconds;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -24,25 +20,15 @@
 - (long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)etwork-sharing] Sending ask-to-share networks list change (clientID=%{public}@, networks=%{public}@);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasNanos;
-@property(nonatomic) _Bool hasSeconds;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int nanos; // @synthesize nanos=_nanos;
-@property(nonatomic) long long seconds; // @synthesize seconds=_seconds;
-@property(readonly) Class superclass;
 
 @end
 

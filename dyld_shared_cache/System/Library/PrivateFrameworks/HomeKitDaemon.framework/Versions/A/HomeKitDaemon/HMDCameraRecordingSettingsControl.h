@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingGeneralConfiguration, HMDCameraRecordingSelectedConfiguration, HMDCameraRecordingSupportedAudioConfiguration, HMDCameraRecordingSupportedVideoConfiguration, HMDCharacteristic, HMDHAPAccessory, HMDService, NSArray, NSDictionary, NSMutableArray, NSNotificationCenter, NSObject, NSString;
-@protocol HMDCameraRecordingSettingsControlDelegate, HMDFeaturesDataSource, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSettingsControl
 {
     _Bool _canUseCachedCharacteristicValues;
-    id <HMDCameraRecordingSettingsControlDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDService *_recordingService;
-    HMDHAPAccessory *_accessory;
-    NSNotificationCenter *_notificationCenter;
-    NSString *_clientIdentifier;
-    NSMutableArray *_pendingConfigureCompletionHandlers;
-    HMDCameraRecordingGeneralConfiguration *_supportedRecordingConfiguration;
-    HMDCameraRecordingSupportedVideoConfiguration *_supportedVideoConfiguration;
-    HMDCameraRecordingSupportedAudioConfiguration *_supportedAudioConfiguration;
-    HMDCameraRecordingSelectedConfiguration *_currentSelectedConfiguration;
-    NSDictionary *_recordingConfigurationOverrides;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
 + (id);
@@ -35,110 +22,81 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id)*[ÿbí;
+- (id)setHasHidden: /* Error: Ran out of types for this method. */;
+- (id)_sendStoppedUpdate:to: /* Error: Ran out of types for this method. */;
+- (id)_saveSendingRules;
+- (void);
+- (void)tified trip became unavailable but passed nil;
+- (void)shot:(id)arg1 mergeOptions:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)e;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)ationAuditToken"16@?<v@?@"NSError">24;
+- (_Bool);
+- (void)PhotoAnalysisLighthousePlugin;
+- (id)ion",&,N,V_location;
+- (id);
+- (void);
+- (id)P;
 - (void);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)identFirstEnabledAnyHome;
+- (id)_isResidentFirstEnabledAnyHome;
 - (void)âÿ;
 - (id)¸ÿdà<¹@;
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, getter=isCameraConfiguredForRecording) _Bool cameraConfiguredForRecording;
-@property _Bool canUseCachedCharacteristicValues; // @synthesize canUseCachedCharacteristicValues=_canUseCachedCharacteristicValues;
-@property(readonly, copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, getter=isConfigurable) _Bool configurable;
-@property(retain) HMDCameraRecordingSelectedConfiguration *currentSelectedConfiguration; // @synthesize currentSelectedConfiguration=_currentSelectedConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraRecordingSettingsControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) NSMutableArray *pendingConfigureCompletionHandlers; // @synthesize pendingConfigureCompletionHandlers=_pendingConfigureCompletionHandlers;
-@property(readonly, getter=isPrimaryResident) _Bool primaryResident;
-@property(readonly) HMDCharacteristic *recordingActiveCharacteristic;
-@property(retain) NSDictionary *recordingConfigurationOverrides; // @synthesize recordingConfigurationOverrides=_recordingConfigurationOverrides;
-@property(readonly) HMDCharacteristic *recordingSelectedConfigurationCharacteristic;
-@property(readonly) HMDService *recordingService; // @synthesize recordingService=_recordingService;
-@property(readonly) HMDCharacteristic *recordingSupportedAudioConfigurationCharacteristic;
-@property(readonly) HMDCharacteristic *recordingSupportedGeneralConfigurationCharacteristic;
-@property(readonly) HMDCharacteristic *recordingSupportedVideoConfigurationCharacteristic;
-@property(readonly) Class superclass;
-@property(retain) HMDCameraRecordingSupportedAudioConfiguration *supportedAudioConfiguration; // @synthesize supportedAudioConfiguration=_supportedAudioConfiguration;
-@property(retain) HMDCameraRecordingGeneralConfiguration *supportedRecordingConfiguration; // @synthesize supportedRecordingConfiguration=_supportedRecordingConfiguration;
-@property(retain) HMDCameraRecordingSupportedVideoConfiguration *supportedVideoConfiguration; // @synthesize supportedVideoConfiguration=_supportedVideoConfiguration;
-@property(readonly, copy) NSArray *videoConfigurationsByPreferenceOrder;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

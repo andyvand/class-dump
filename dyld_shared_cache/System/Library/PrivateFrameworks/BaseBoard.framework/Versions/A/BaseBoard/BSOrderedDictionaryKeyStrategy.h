@@ -7,7 +7,6 @@
 @interface BSOrderedDictionaryKeyStrategy
 {
     long long _limitCount;
-    CDUnknownBlockType _keyComparator;
 }
 
 + (id);
@@ -20,10 +19,9 @@
 - (id);
 - (long long);
 - (void);
-- (void)derlying;
+- (void)_lock_underlying;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType keyComparator; // @synthesize keyComparator=_keyComparator;
 @property(nonatomic) long long limitCount; // @synthesize limitCount=_limitCount;
 
 @end

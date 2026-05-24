@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMenu;
+
 @protocol NSMenuDelegate
 
 @optional
+- (long long)s:(NSMenu *)arg1 asid subCC length != fdrDecode->asidSubCCID.length;
+- (void)MicrophoneCount;
+- (void)HasInternalSettingsBundle;
+- (void)FrontFacingCameraSingleCameraPortrait;
+- (_Bool)FrontFacingCameraMaxVideoZoomFactor;
+- (struct CGRect);
 - (_Bool)OOL, CGFloat, NSView *(^)(void));
 @end
 

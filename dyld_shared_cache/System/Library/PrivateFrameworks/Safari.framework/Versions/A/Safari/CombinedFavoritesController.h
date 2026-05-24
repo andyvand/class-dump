@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSSet, NSString, SafariWebBookmarkList, TopSitesController, TouchIconCache;
-@protocol OS_dispatch_queue, WBSStartPageSuggestionsProviderDelegate;
+@class NSSet, NSString;
 
 __attribute__((visibility("hidden")))
 @interface CombinedFavoritesController
 {
     NSSet *_canonicalURLsOfAllFavorites;
-    TouchIconCache *_touchIconCache;
-    NSArray *_lastSeenFrequentlyVisitedSites;
-    _Bool _shouldSendNumberOfFrequentlyVisitedSitesTelemetry;
-    NSObject<OS_dispatch_queue> *_analyticsQueue;
-    id <WBSStartPageSuggestionsProviderDelegate> _suggestionsProviderDelegate;
-    TopSitesController *_topSitesController;
-    NSArray *_frequentlyVisitedSites;
-    NSString *_UUIDOfRootBookmarkList;
 }
 
 - (id);
@@ -29,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)t;
 - (id);
 - (id);
 - (void);
@@ -50,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id)suggestions from the web, nearby locations, and more.
 
@@ -60,19 +51,6 @@ You can adjust this in Settings.
 
 // Remaining properties
 @property(copy, nonatomic) NSString *UUIDOfRootBookmarkList; // @synthesize UUIDOfRootBookmarkList=_UUIDOfRootBookmarkList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *frequentlyVisitedSites; // @synthesize frequentlyVisitedSites=_frequentlyVisitedSites;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *providerSectionIdentifier;
-@property(retain, nonatomic) SafariWebBookmarkList *rootBookmarkListForFavorites;
-@property(readonly, copy, nonatomic) NSArray *suggestions;
-@property(nonatomic) __weak id <WBSStartPageSuggestionsProviderDelegate> suggestionsProviderDelegate; // @synthesize suggestionsProviderDelegate=_suggestionsProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TopSitesController *topSitesController; // @synthesize topSitesController=_topSitesController;
 
 @end
 

@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface UIPeripheralHostState
 {
     struct UIPeripheralAnimationGeometry _geometry;
-    NSDictionary *_screenGeometry;
-    _Bool _inPositionIsDestination;
 }
 
-+ (id);
++ (id)e last storage timer;
 - (void);
-- (void);
+- (void)E8;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)message from:{handles:%@ serviceName:%@} /* Error: Ran out of types for this method. */;
+- (void)_payloadWindowtabbingImmutable;
 - (void)Þ;
 - (struct UIPeripheralAnimationGeometry),f^;
 - (void)È~d;
 
 // Remaining properties
 @property(nonatomic) struct UIPeripheralAnimationGeometry geometry; // @synthesize geometry=_geometry;
-@property(nonatomic) _Bool inPositionIsDestination; // @synthesize inPositionIsDestination=_inPositionIsDestination;
-@property(retain, nonatomic) NSDictionary *screenGeometry; // @synthesize screenGeometry=_screenGeometry;
 
 @end
 

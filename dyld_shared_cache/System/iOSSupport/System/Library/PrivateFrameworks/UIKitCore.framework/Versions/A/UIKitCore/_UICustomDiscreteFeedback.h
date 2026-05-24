@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 + (id)MetricsImageMetrics=@}{_UIListMetricsLabelMetrics=@@}{_UIListMetricsLabelMetrics=@@}}56@0:8q16q24q32@40@48 /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)sharedFactory;
 - (id)V_currentDismissTransition;
 - (id)$?
 @Ô@¨D3¼F¼G`H(J¸J;
-- (id)cPowerUsage;
+- (id)HapticPowerUsage;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;

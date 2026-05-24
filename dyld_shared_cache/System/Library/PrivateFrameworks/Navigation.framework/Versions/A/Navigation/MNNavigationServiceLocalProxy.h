@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPerformanceEventLogger, NSObject, NSString, geo_isolater;
-@protocol MNNavigationServiceClientInterface, OS_dispatch_source;
+@protocol MNNavigationServiceClientInterface;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationServiceLocalProxy
 {
     id <MNNavigationServiceClientInterface> _delegate;
-    unsigned long long _navigationServiceState;
-    CDUnknownBlockType _navigationServiceActiveBlock;
-    NSObject<OS_dispatch_source> *_startNavigationTimer;
-    geo_isolater *_startNavigationTimerIsolater;
-    GEOPerformanceEventLogger *_performanceEventLogger;
 }
 
 - (void);
@@ -36,15 +30,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)tableView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:(unsigned long long)arg2 forDraggedRowsWithIndexes:(unsigned long long)arg3;
+- (void)setPreventsApplicationTerminationWhenModal:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -55,6 +62,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)g;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)registeredCallback;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -63,42 +83,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)isEqual:(double)arg1;
+- (void)ory created:(double)arg1 %@;
+- (void)IAPBluetoothDevicePairingData;
+- (void)`;
 - (void);
 - (void);
+- (void)closeExternalAccessorySession:(unsigned long long)arg1;
+- (void)cessories list;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void)0@ù
 × ;
@@ -113,18 +107,18 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)@"MNGuidanceManager"16@"MNGuidanceSignInfo"24;
 - (void)tring"44i52Q56B64;
-- (void)cleIdentifier:(_Bool)arg1;
-- (void)Reroute:(_Bool)arg1;
-- (void)ithBase64EncodedString:(id)arg1 options:(id)arg2;
-- (void);
-- (void)erPoints:(unsigned long long)arg1 pointCount:tolerance:outCoordinatesA:outCoordinatesB: /* Error: Ran out of types for this method. */;
-- (void)ment:(id)arg1;
+- (void)setActiveVehicleIdentifier:(_Bool)arg1;
+- (void)navigationServiceDidCancelReroute:(_Bool)arg1;
+- (void)initWithBase64EncodedString:(id)arg1 options:(id)arg2;
+- (void)_routeCoordinateForLocationCoordinate:(_Bool)arg1 route:startIndex: /* Error: Ran out of types for this method. */;
+- (void)_pointsConverge:(unsigned long long)arg1 pointCount:otherPoints:pointCount:tolerance:outCoordinatesA:outCoordinatesB: /* Error: Ran out of types for this method. */;
+- (void)hasEntitlement:(id)arg1;
 - (void)sionState;
 - (void);
 - (void)server. identifier:(id)arg1 %@;
 - (void)rted;
 - (void)nternal/Library/BuildRoots/4~CNqZugCSb0I5z409lbGlNTiCYB0uPioBY9TDbg0/Library/Caches/com.apple.xbs/TemporaryDirectory.aCINrX/Sources/Navigation/Session/MNSessionUpdateManager.m;
-- (void);
+- (void)TracePlayback_NavigationUpdates_DepartWaypoint;
 - (void)ta) AS request,
         LENGTH(response_data) AS response,
         LENGTH(response_error_data) AS error,
@@ -205,14 +199,7 @@ CREATE VIEW route_creation_actions_view AS
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNNavigationServiceClientInterface> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

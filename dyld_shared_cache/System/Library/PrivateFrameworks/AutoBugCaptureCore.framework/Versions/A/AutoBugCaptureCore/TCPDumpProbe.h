@@ -6,38 +6,32 @@
 
 #import <AutoBugCaptureCore/NetDiagnosticProbe.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface TCPDumpProbe : NetDiagnosticProbe
 {
     NSObject<OS_dispatch_source> *_tcpDumpTimer;
-    CDUnknownBlockType _tcpDumpCompletedBlock;
-    double _duration;
-    NSString *_destinationPath;
 }
 
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)!;
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)setPlaceholderString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;
-@property double duration; // @synthesize duration=_duration;
-@property(nonatomic) CDUnknownBlockType tcpDumpCompletedBlock; // @synthesize tcpDumpCompletedBlock=_tcpDumpCompletedBlock;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *tcpDumpTimer; // @synthesize tcpDumpTimer=_tcpDumpTimer;
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PHAssetCreationRequest, PHExternalAssetResource;
+@class NSArray, PHAssetCreationRequest;
 
 @interface PHAssetResourceBag
 {
     NSArray *_assetResourceContexts;
-    _Bool _didValidateForInsertion;
-    _Bool _valid;
-    _Bool _hasCurrentAdjustment;
-    _Bool _hasOriginalAdjustment;
-    _Bool _hasRAW;
-    _Bool _hasSpatialOverCapture;
-    PHAssetCreationRequest *_assetCreationRequest;
-    NSArray *_assetResources;
-    long long _mediaType;
-    unsigned long long _mediaSubtype;
-    PHExternalAssetResource *_primaryResource;
 }
 
 + (_Bool);
@@ -29,41 +18,30 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (long long)`;
 - (_Bool);
 - (void)ignments;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PHAssetCreationRequest *assetCreationRequest; // @synthesize assetCreationRequest=_assetCreationRequest;
-@property(readonly, nonatomic) NSArray *assetResources; // @synthesize assetResources=_assetResources;
-@property(readonly, nonatomic) _Bool didValidateForInsertion; // @synthesize didValidateForInsertion=_didValidateForInsertion;
-@property(readonly, nonatomic) _Bool hasAdjustments;
-@property(readonly, nonatomic) _Bool hasCurrentAdjustment; // @synthesize hasCurrentAdjustment=_hasCurrentAdjustment;
-@property(readonly, nonatomic) _Bool hasOriginalAdjustment; // @synthesize hasOriginalAdjustment=_hasOriginalAdjustment;
-@property(readonly, nonatomic) _Bool hasRAW; // @synthesize hasRAW=_hasRAW;
-@property(readonly, nonatomic) _Bool hasSpatialOverCapture; // @synthesize hasSpatialOverCapture=_hasSpatialOverCapture;
-@property(readonly, nonatomic) unsigned long long mediaSubtype; // @synthesize mediaSubtype=_mediaSubtype;
-@property(readonly, nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) PHExternalAssetResource *primaryResource; // @synthesize primaryResource=_primaryResource;
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

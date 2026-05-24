@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFPlatformRequestSchemaIFPlatformRequestInvoked : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifSessionId;
-    SISchemaUUID *_clientTraceId;
-    _Bool _hasIfSessionId;
-    _Bool _hasClientTraceId;
 }
 
 - (void);
@@ -23,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (id);
@@ -32,18 +29,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)mapImageForLocation:altitude:pitch:screenRatio:andCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)d",&,N,V_ended;
 - (id),»;
 - (void)Ï#;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *clientTraceId; // @synthesize clientTraceId=_clientTraceId;
-@property(nonatomic) _Bool hasClientTraceId; // @synthesize hasClientTraceId=_hasClientTraceId;
-@property(nonatomic) _Bool hasIfSessionId; // @synthesize hasIfSessionId=_hasIfSessionId;
 @property(retain, nonatomic) SISchemaUUID *ifSessionId; // @synthesize ifSessionId=_ifSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -11,18 +11,16 @@
 @interface PHAssetGridMetadataProperties : PHAssetPropertySet
 {
     NSString *_title;
-    NSString *_originalFilename;
 }
 
 + (id);
 + (id)rtDescriptor"8;
 - (id);
 - (id);
-- (void)tsFromResults:maxResults:query: /* Error: Ran out of types for this method. */;
+- (void)_rankSortedCollectionSearchResultsFromResults:maxResults:query: /* Error: Ran out of types for this method. */;
 - (id)Ô´+;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *originalFilename; // @synthesize originalFilename=_originalFilename;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

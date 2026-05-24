@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUImageGeometry, NURegion;
+@class NURegion;
 
 @protocol NUImageRenderResult
 - (NURegion *)Mixed resolutions not currently supported;
 
 // Remaining properties
-@property(readonly) NUImageGeometry *geometry;
 @property(readonly) NURegion *region;
 @end
 

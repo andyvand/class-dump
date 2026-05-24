@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIAsset;
+@class TRIAsset;
 
 @interface TRIFile : TRIPBMessage
 {
@@ -17,11 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TRIAsset *asset; // @dynamic asset;
-@property(nonatomic) _Bool hasAsset; // @dynamic hasAsset;
-@property(nonatomic) _Bool hasIsOnDemand; // @dynamic hasIsOnDemand;
-@property(nonatomic) _Bool hasPath; // @dynamic hasPath;
-@property(nonatomic) _Bool isOnDemand; // @dynamic isOnDemand;
-@property(copy, nonatomic) NSString *path; // @dynamic path;
 
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SCNNode;
+@class NSString;
 
 @interface PKPeerPayment3DCharacter
 {
     NSString *_character;
-    SCNNode *_node;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)nfiguration/Categories/NSEnumerator+RCAdditions.m;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *character; // @synthesize character=_character;
-@property(retain, nonatomic) SCNNode *node; // @synthesize node=_node;
 
 @end
 

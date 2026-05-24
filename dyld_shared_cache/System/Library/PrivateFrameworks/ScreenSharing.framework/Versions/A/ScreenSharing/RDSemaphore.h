@@ -10,13 +10,12 @@
 @interface RDSemaphore
 {
     NSObject<OS_dispatch_semaphore> *semaphore;
-    int oneShotState;
 }
 
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)_resolvedLocationNodes;
 - (id);
 - (long long);
 

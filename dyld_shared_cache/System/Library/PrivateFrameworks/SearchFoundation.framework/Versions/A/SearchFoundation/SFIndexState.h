@@ -4,61 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SFIndexState
 {
     NSNumber *_percentMessagesIndexed;
-    NSNumber *_percentAttachmentsIndexed;
-    NSNumber *_searchIndex;
-    NSNumber *_totalMessageCount;
-    NSNumber *_indexedMessageCount;
-    NSNumber *_embeddedMessageCount;
-    NSNumber *_embeddedMessagePercentage;
 }
 
 + (_Bool);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)jh8h;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)setEndTime:(id)arg1 forItemWithPlayParameters: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)nd file path:(id)arg1 %{public}@.;
+- (id):(id)arg1 8i16Q20@28@36{CGSize=dd}44@?60;
+- (id)ning.;
+- (id)monthKeyAssetPrivate;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)actCommand;
+- (void)_createContactCommand;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *embeddedMessageCount; // @synthesize embeddedMessageCount=_embeddedMessageCount;
-@property(copy, nonatomic) NSNumber *embeddedMessagePercentage; // @synthesize embeddedMessagePercentage=_embeddedMessagePercentage;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *indexedMessageCount; // @synthesize indexedMessageCount=_indexedMessageCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *percentAttachmentsIndexed; // @synthesize percentAttachmentsIndexed=_percentAttachmentsIndexed;
 @property(copy, nonatomic) NSNumber *percentMessagesIndexed; // @synthesize percentMessagesIndexed=_percentMessagesIndexed;
-@property(copy, nonatomic) NSNumber *searchIndex; // @synthesize searchIndex=_searchIndex;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *totalMessageCount; // @synthesize totalMessageCount=_totalMessageCount;
 
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaOffer
 {
     _Bool _hasAudio;
-    _Bool _hasVideo;
-    NSURL *_previewURL;
-    NSString *_type;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-- (id);
++ (id)supportsResumablePayload;
++ (id)stickerDetailsItemType;
++ (_Bool)sortedArrayUsingSelector:(id)arg1;
++ (_Bool)snapshotViewForOptions:(id)arg1;
+- (id)e;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)Q;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;
-@property(readonly, nonatomic) _Bool hasVideo; // @synthesize hasVideo=_hasVideo;
 @property(readonly, copy, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

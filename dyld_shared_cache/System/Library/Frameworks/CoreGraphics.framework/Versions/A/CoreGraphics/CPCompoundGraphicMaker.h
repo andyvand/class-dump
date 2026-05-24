@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPChunk, CPCluster;
+@class CPChunk;
 
 __attribute__((visibility("hidden")))
 @interface CPCompoundGraphicMaker
 {
     CPChunk *parentChunk;
-    _Bool shapesAreVectorGraphics;
-    unsigned int shapeCount;
-    id *shapes;
-    double pageSpread;
-    CPCluster *cluster;
-    unsigned int groupInfoCount;
-    struct {
-        unsigned int _field1;
-        struct CGRect _field2;
-    } *groupInfoArray;
-    _Bool disposed;
 }
 
 + (_Bool);
@@ -34,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)aM;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.RibbonBarItemCellLayout
 {
     id metrics;
-    id artwork;
-    id titleLabel;
 }
 
 @end

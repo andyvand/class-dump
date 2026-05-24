@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)ded task. Currently suspended count:%ld /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)ionary",R,V_dictionary;
 
 // Remaining properties
 @property(readonly) unsigned int tssOption; // @synthesize tssOption=_tssOption;

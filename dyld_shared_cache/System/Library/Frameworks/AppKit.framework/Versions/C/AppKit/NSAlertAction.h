@@ -9,41 +9,31 @@
 @interface NSAlertAction
 {
     _Bool _enabled;
-    NSString *_title;
-    long long _style;
-    NSString *_keyEquivalent;
-    unsigned long long _keyEquivalentModifierMask;
-    CDUnknownBlockType _handler;
 }
 
-+ (id);
++ (id)h;
 + (void);
-- (void);
-- (void);
+- (void)"^v""{?="__end_node_"{__tree_end_node<std:(unsigned long long)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)m;
+- (id).2m;
 - (long long);
 - (void);
-- (id);
+- (id)initWithIdentifier:type:customIdentifier:displayName:displayType:personId:personIdType: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)mut;
-- (CDUnknownBlockType)stem;
-- (id)gedKeys:(struct _NSZone *)arg1 objectKeys:indexPathKeys: /* Error: Ran out of types for this method. */;
-- (id)Template;
+- (void)isWideGamut;
+- (CDUnknownBlockType)_focusSystem;
+- (id)_didChangeValuesForArrangedKeys:(struct _NSZone *)arg1 objectKeys:indexPathKeys: /* Error: Ran out of types for this method. */;
+- (id)NSTouchBarControlStripKeyboardBacklightUpTemplate;
 - (void)àLÿ;
 
 // Remaining properties
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
-@property unsigned long long keyEquivalentModifierMask; // @synthesize keyEquivalentModifierMask=_keyEquivalentModifierMask;
-@property long long style; // @synthesize style=_style;
 @property(copy) NSString *title; // @synthesize title=_title;
 
 @end

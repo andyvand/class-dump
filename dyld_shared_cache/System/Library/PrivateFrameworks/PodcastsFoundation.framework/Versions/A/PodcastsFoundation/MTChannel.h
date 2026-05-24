@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTInterest, NSSet, NSString;
-
 @interface MTChannel
 {
 }
@@ -14,7 +12,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -26,32 +24,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *artworkURL; // @dynamic artworkURL;
-@property(nonatomic) long long availableShowCount; // @dynamic availableShowCount;
-@property(retain, nonatomic) NSString *backgroundColor; // @dynamic backgroundColor;
-@property(retain, nonatomic) NSString *connectedSubscriptionType; // @dynamic connectedSubscriptionType;
-@property(retain, nonatomic) NSString *displayType; // @dynamic displayType;
-@property(readonly, nonatomic) long long followedShowCount; // @dynamic followedShowCount;
-@property(retain, nonatomic) MTInterest *interest; // @dynamic interest;
-@property(readonly, nonatomic) _Bool isMultiShow;
-@property(readonly, nonatomic) _Bool isSingleShow;
-@property(nonatomic) double lastPersonalizedRequestDate; // @dynamic lastPersonalizedRequestDate;
-@property(nonatomic) float logoImageHeight; // @dynamic logoImageHeight;
-@property(retain, nonatomic) NSString *logoImageURL; // @dynamic logoImageURL;
-@property(nonatomic) float logoImageWidth; // @dynamic logoImageWidth;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSSet *podcastUuids; // @dynamic podcastUuids;
-@property(retain, nonatomic) NSSet *podcasts; // @dynamic podcasts;
-@property(readonly, nonatomic) long long resolvedShowCount;
-@property(nonatomic) long long showCount; // @dynamic showCount;
 @property(nonatomic) long long storeId; // @dynamic storeId;
-@property(nonatomic) _Bool subscriptionActive; // @dynamic subscriptionActive;
-@property(nonatomic) double subscriptionEnabledDate; // @dynamic subscriptionEnabledDate;
-@property(retain, nonatomic) NSString *subscriptionName; // @dynamic subscriptionName;
-@property(retain, nonatomic) NSString *subscriptionOfferAppType; // @dynamic subscriptionOfferAppType;
-@property(retain, nonatomic) NSString *uberBackgroundImageURL; // @dynamic uberBackgroundImageURL;
-@property(retain, nonatomic) NSString *uberBackgroundJoeColor; // @dynamic uberBackgroundJoeColor;
-@property(retain, nonatomic) NSString *url; // @dynamic url;
 
 @end
 

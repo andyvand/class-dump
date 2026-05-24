@@ -6,23 +6,15 @@
 
 #import <Slideshows/MCAnimationKeyframe.h>
 
-@class NSDictionary, NSString;
-
 @interface MCAnimationKeyframeFunction : MCAnimationKeyframe
 {
     float mInnerEaseInControl;
-    float mInnerEaseOutControl;
-    double mDuration;
-    NSString *mFunction;
-    NSDictionary *mFunctionParameters;
-    double mFunctionTimeOffset;
-    double mFunctionTimeFactor;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
@@ -33,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -44,12 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=mDuration;
-@property(copy, nonatomic) NSString *function; // @synthesize function=mFunction;
-@property(retain, nonatomic) NSDictionary *functionParameters; // @synthesize functionParameters=mFunctionParameters;
-@property(nonatomic) double functionTimeFactor; // @synthesize functionTimeFactor=mFunctionTimeFactor;
-@property(nonatomic) double functionTimeOffset; // @synthesize functionTimeOffset=mFunctionTimeOffset;
-@property(nonatomic) float innerEaseInControl; // @synthesize innerEaseInControl=mInnerEaseInControl;
-@property(nonatomic) float innerEaseOutControl; // @synthesize innerEaseOutControl=mInnerEaseOutControl;
 
 @end
 

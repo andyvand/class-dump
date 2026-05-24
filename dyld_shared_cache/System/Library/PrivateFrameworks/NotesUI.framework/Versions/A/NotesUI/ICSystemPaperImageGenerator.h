@@ -24,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasDeepLink;
-@property(readonly, nonatomic) struct CGRect paperContentBounds;
 @property(nonatomic, getter=isSixChannelBlendingEnabled) _Bool sixChannelBlendingEnabled; // @synthesize sixChannelBlendingEnabled=_sixChannelBlendingEnabled;
 
 @end

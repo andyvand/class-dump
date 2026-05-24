@@ -4,48 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAccountPaymentFundingDetails;
+@class NSString;
 
 @interface PKAccountPaymentFundingSource
 {
     NSString *_identifier;
-    long long _type;
-    NSString *_accountSuffix;
-    PKAccountPaymentFundingDetails *_fundingDetails;
 }
 
 + (Class);
 + (_Bool)0@ù
 × ;
+- (void)@@9;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)x;
+- (long long)P;
+- (_Bool)_tcpECNIntOnSACKE;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)$;
 - (id)1Â0@ù
 × ;
-- (id):(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)egate;
+- (id)_credentialWithIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)NFLoyaltyAndPaymentSessionDelegate;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountSuffix; // @synthesize accountSuffix=_accountSuffix;
-@property(copy, nonatomic) PKAccountPaymentFundingDetails *fundingDetails; // @synthesize fundingDetails=_fundingDetails;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

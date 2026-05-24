@@ -17,16 +17,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)t;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)nInfo;
+- (id)ooth.WirelessSplitterOn;
+- (void)confidence;
+- (void)_groupSessionInfo;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *groupUID; // @synthesize groupUID=_groupUID;
 @property(readonly, nonatomic) _Bool hasGroupUID;
 
 @end

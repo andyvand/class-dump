@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
+@class NSDictionary, NSError;
 
 @interface Feedback.FBKSubmissionError
 {
@@ -13,19 +13,18 @@
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)setUnmodifiedAlarms:(id)arg1;
+- (id)tion language %@ not available. Using default;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, copy) NSDictionary *serverErrorDetails;
 @property(nonatomic, retain) NSError *underlyingError; // @synthesize underlyingError;
 

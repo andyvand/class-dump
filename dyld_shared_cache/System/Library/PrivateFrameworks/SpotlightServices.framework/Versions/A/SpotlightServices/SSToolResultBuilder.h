@@ -6,15 +6,11 @@
 
 #import <SpotlightServices/SSShortcutResultBuilder.h>
 
-@class NSData, NSString, SFRichText;
+@class NSString;
 
 @interface SSToolResultBuilder : SSShortcutResultBuilder
 {
     NSString *_toolIdentifier;
-    SFRichText *_parameterizedTitle;
-    NSData *_toolInvocationData;
-    NSData *_toolIconData;
-    NSString *_toolType;
 }
 
 + (_Bool);
@@ -22,28 +18,24 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)userAgentForURL: /* Error: Ran out of types for this method. */;
+- (id)useSpecializedProviders;
+- (id)useOnGlassShareSheetAppearance;
+- (id)trailingBottomCaption;
+- (id)setMediaBottomCaption:(id)arg1;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)hString:userQueryString:queryID:language:currentTime: /* Error: Ran out of types for this method. */;
+- (void)initWithSearchString:userQueryString:queryID:language:currentTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) SFRichText *parameterizedTitle; // @synthesize parameterizedTitle=_parameterizedTitle;
-@property(retain) NSData *toolIconData; // @synthesize toolIconData=_toolIconData;
 @property(retain) NSString *toolIdentifier; // @synthesize toolIdentifier=_toolIdentifier;
-@property(retain) NSData *toolInvocationData; // @synthesize toolInvocationData=_toolInvocationData;
-@property(retain, nonatomic) NSString *toolType; // @synthesize toolType=_toolType;
 
 @end
 

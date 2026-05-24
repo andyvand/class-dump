@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSSet, NSString;
-
 @interface RBEntitlementManager
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_entitlementsByIdentifier;
-    NSSet *_availableEntitlements;
-    NSDictionary *_restrictedEntitlements;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)letion --> %s was found but was suppressed or blocked by negative learning;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

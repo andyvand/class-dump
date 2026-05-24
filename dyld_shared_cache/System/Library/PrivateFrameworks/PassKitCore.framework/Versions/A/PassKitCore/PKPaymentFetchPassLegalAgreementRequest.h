@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, PKUserLegalAgreementConsent;
+@class NSString;
 
 @interface PKPaymentFetchPassLegalAgreementRequest : PKPaymentWebServiceRequest
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    PKUserLegalAgreementConsent *_agreement;
 }
 
 - (id);

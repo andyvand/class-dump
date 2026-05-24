@@ -7,8 +7,6 @@
 @interface NewsSubscription.OfferOverrideProvider
 {
     id configurationManager;
-    id offerManager;
-    id paidBundleViaOfferFeatureAvailability;
 }
 
 @end

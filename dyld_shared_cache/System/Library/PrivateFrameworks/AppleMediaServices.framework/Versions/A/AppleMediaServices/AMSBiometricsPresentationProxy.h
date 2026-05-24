@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSURLSession, NSObject, NSString, NSURLSessionTask;
+@class AMSURLSession, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AMSBiometricsPresentationProxy
 {
     AMSURLSession *_session;
-    NSURLSessionTask *_task;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (void);
@@ -28,16 +26,7 @@ __attribute__((visibility("hidden")))
 Hxn£tWàj¹Ã@ßdØ&vXs¡×hÚX®Æ|Èo@9F¦w ±øæP¶ºlÿ|Ê±}Õö>»ÉpÝ`+_S©æ5 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(readonly) NSURLSessionTask *task; // @synthesize task=_task;
 
 @end
 

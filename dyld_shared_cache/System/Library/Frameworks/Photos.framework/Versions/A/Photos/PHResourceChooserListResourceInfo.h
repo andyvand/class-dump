@@ -4,72 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PLUniformTypeIdentifier;
-@protocol PLResourceDataStore, PLResourceDataStoreKey;
-
 @interface PHResourceChooserListResourceInfo
 {
     _Bool _isDerivative;
-    _Bool _isPrimaryFormat;
-    _Bool _canDownload;
-    _Bool _isHintBased;
-    short _localAvailabilityTarget;
-    unsigned int _recipeID;
-    unsigned int _resourceType;
-    unsigned int _version;
-    float _resourceScale;
-    int _qualitySortValue;
-    PLUniformTypeIdentifier *_uniformTypeIdentifier;
-    NSObject<PLResourceDataStore> *_store;
-    NSObject<PLResourceDataStoreKey> *_dataStoreKey;
 }
 
-- (id);
-- (float);
-- (unsigned int);
+- (id)_hasBeenPlayed;
+- (float);
+- (unsigned int)ontent request. err= %{public}@;
 - (struct CGSize);
 - (unsigned long long);
 - (short);
 - (_Bool);
+- (id)roller";
+- (_Bool)cyNotifyToken;
+- (short);
+- (_Bool);
 - (id);
-- (_Bool);
-- (short);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)migrateVoiceProfileToVersion:(id)arg1 forLanguageCode: /* Error: Ran out of types for this method. */;
 - (int);
 - (unsigned int);
 - (_Bool);
 - (id);
-- (id)Handler: /* Error: Ran out of types for this method. */;
-- (_Bool)ectedFromLibraryScope;
+- (id)performSearch:queryQueue:resultsHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)assetUUIDsPhotosSuggestedRejectedFromLibraryScope;
 - (void)R,N,V_sourceHeight;
 - (_Bool);
 - (unsigned int)moment = %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canDownload; // @synthesize canDownload=_canDownload;
-@property(readonly, nonatomic) NSObject<PLResourceDataStoreKey> *dataStoreKey; // @synthesize dataStoreKey=_dataStoreKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDerivative; // @synthesize isDerivative=_isDerivative;
-@property(readonly, nonatomic) _Bool isHintBased; // @synthesize isHintBased=_isHintBased;
-@property(readonly, nonatomic) _Bool isOriginalResource;
-@property(readonly, nonatomic) _Bool isPrimaryFormat; // @synthesize isPrimaryFormat=_isPrimaryFormat;
-@property(readonly, nonatomic) short localAvailability;
-@property(readonly, nonatomic) short localAvailabilityTarget; // @synthesize localAvailabilityTarget=_localAvailabilityTarget;
-@property(readonly, nonatomic) int qualitySortValue; // @synthesize qualitySortValue=_qualitySortValue;
 @property(readonly, nonatomic) unsigned int recipeID; // @synthesize recipeID=_recipeID;
-@property(readonly, nonatomic) float resourceScale; // @synthesize resourceScale=_resourceScale;
-@property(readonly, nonatomic) unsigned int resourceType; // @synthesize resourceType=_resourceType;
-@property(readonly, nonatomic) NSObject<PLResourceDataStore> *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PLUniformTypeIdentifier *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
-@property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface SOPowerSavvyTimer
 {
     NSTimer *_timer;
-    _Bool _repeats;
-    id _target;
-    SEL _selector;
 }
 
 + (void);
@@ -24,20 +21,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@"IMCloudKitSyncStatistics";
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (SEL);
 - (double);
 - (void)¯n(\°;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool repeats; // @synthesize repeats=_repeats;
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(retain, nonatomic) id target; // @synthesize target=_target;
 @property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end

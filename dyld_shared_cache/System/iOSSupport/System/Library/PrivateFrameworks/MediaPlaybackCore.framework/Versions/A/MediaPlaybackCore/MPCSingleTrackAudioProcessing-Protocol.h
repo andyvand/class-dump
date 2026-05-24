@@ -7,6 +7,9 @@
 @protocol MPCSingleTrackAudioProcessing;
 
 @protocol MPCSingleTrackAudioProcessing
+- (void)__DATA;
+- (void);
+- (void)oudKitAuthenticationPlugin.bundle/Contents/MacOS/CloudKitAuthenticationPlugin;
 
 // Remaining properties
 @property(retain, nonatomic) id <MPCSingleTrackAudioProcessing> selfRef;

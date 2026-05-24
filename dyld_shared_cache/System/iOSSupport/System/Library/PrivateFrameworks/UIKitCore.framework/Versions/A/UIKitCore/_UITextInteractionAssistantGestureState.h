@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UITextInteractionAssistantGestureState
 {
     _Bool _hasExternalInteractions;
-    _Bool _viewIsEditable;
-    _Bool _viewCanBecomeEditable;
-    _Bool _isFirstResponder;
-    long long _mode;
 }
 
 - (long long);
@@ -31,10 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool hasExternalInteractions; // @synthesize hasExternalInteractions=_hasExternalInteractions;
-@property(nonatomic) _Bool isFirstResponder; // @synthesize isFirstResponder=_isFirstResponder;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) _Bool viewCanBecomeEditable; // @synthesize viewCanBecomeEditable=_viewCanBecomeEditable;
-@property(nonatomic) _Bool viewIsEditable; // @synthesize viewIsEditable=_viewIsEditable;
 
 @end
 

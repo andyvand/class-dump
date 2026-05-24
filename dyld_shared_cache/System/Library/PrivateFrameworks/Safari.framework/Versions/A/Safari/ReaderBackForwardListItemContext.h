@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, ReaderViewController;
+@class ReaderViewController;
 
 __attribute__((visibility("hidden")))
 @interface ReaderBackForwardListItemContext
 {
     _Bool _active;
-    ReaderViewController *_readerViewController;
-    NSURL *_urlOfUnderlyingContent;
 }
 
 - (id);
@@ -24,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
 @property(readonly, nonatomic) ReaderViewController *readerViewController; // @synthesize readerViewController=_readerViewController;
-@property(readonly, nonatomic) NSURL *urlOfUnderlyingContent; // @synthesize urlOfUnderlyingContent=_urlOfUnderlyingContent;
 
 @end
 

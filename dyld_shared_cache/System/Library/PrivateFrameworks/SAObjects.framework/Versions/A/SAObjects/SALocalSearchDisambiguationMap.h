@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)k;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *items;

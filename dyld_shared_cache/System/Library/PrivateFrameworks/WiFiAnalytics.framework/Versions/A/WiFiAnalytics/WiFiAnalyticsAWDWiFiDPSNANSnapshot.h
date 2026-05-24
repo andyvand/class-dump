@@ -7,17 +7,6 @@
 @interface WiFiAnalyticsAWDWiFiDPSNANSnapshot
 {
     unsigned long long _ts;
-    unsigned int _duration;
-    unsigned int _nanInfraImpact;
-    unsigned int _sdb;
-    unsigned int _use;
-    struct {
-        unsigned int ts:1;
-        unsigned int duration:1;
-        unsigned int nanInfraImpact:1;
-        unsigned int sdb:1;
-        unsigned int use:1;
-    } _has;
 }
 
 - (void);
@@ -35,8 +24,8 @@
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
-- (id);
+- (unsigned int),V_supportsCellularData;
+- (id)sInChange as given change has nil changedObjectID {modelClass:%{public}@, clientID:%{public}@, changeID:%lld} /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (void);
@@ -45,22 +34,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)t) const [T = float, N = 3];
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasNanInfraImpact;
-@property(nonatomic) _Bool hasSdb;
 @property(nonatomic) _Bool hasTs;
-@property(nonatomic) _Bool hasUse;
-@property(nonatomic) unsigned int nanInfraImpact; // @synthesize nanInfraImpact=_nanInfraImpact;
-@property(nonatomic) unsigned int sdb; // @synthesize sdb=_sdb;
-@property(nonatomic) unsigned long long ts; // @synthesize ts=_ts;
-@property(nonatomic) unsigned int use; // @synthesize use=_use;
 
 @end
 

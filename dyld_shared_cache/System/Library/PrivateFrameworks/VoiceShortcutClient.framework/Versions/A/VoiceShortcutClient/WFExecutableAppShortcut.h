@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNAutoShortcut, LNAutoShortcutLocalizedPhrase, LNFullyQualifiedActionIdentifier, NSArray, NSString, WFAppShortcutNamedQueryInfo, WFAutoShortcutEntityInfo;
+@class LNAutoShortcut, NSString;
 
 @interface WFExecutableAppShortcut
 {
     LNAutoShortcut *_underlyingAutoShortcut;
-    LNAutoShortcutLocalizedPhrase *_phrase;
-    NSArray *_alternatePhrases;
-    WFAutoShortcutEntityInfo *_entityInfo;
-    unsigned long long _chicletColor;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)3|;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id)m;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id) {;
 - (id);
 - (void);
 - (id);
@@ -39,21 +35,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternatePhrases; // @synthesize alternatePhrases=_alternatePhrases;
-@property(readonly, nonatomic) NSString *attributionBundleIdentifier;
-@property(readonly, nonatomic) NSString *base64ArchivedData;
 @property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) unsigned long long chicletColor; // @synthesize chicletColor=_chicletColor;
-@property(readonly, nonatomic) WFAutoShortcutEntityInfo *entityInfo; // @synthesize entityInfo=_entityInfo;
-@property(readonly, nonatomic) LNFullyQualifiedActionIdentifier *fullyQualifiedIdentifier;
-@property(readonly, nonatomic) NSString *id;
-@property(readonly, nonatomic) _Bool isDeprecatedStyle;
-@property(readonly, nonatomic) WFAppShortcutNamedQueryInfo *namedQueryInfo;
-@property(readonly, nonatomic) LNAutoShortcutLocalizedPhrase *phrase; // @synthesize phrase=_phrase;
-@property(readonly, nonatomic) NSString *shortTitle;
-@property(readonly, nonatomic) NSString *shortcutDescription;
-@property(readonly, nonatomic) NSString *triggerPhrase;
-@property(readonly, nonatomic) LNAutoShortcut *underlyingAutoShortcut; // @synthesize underlyingAutoShortcut=_underlyingAutoShortcut;
 
 @end
 

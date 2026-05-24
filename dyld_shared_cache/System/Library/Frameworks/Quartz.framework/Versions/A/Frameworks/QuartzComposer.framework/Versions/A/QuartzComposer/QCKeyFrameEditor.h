@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSView, QCKeyFrameEditorWindow;
+@class NSView;
 
 @interface QCKeyFrameEditor
 {
     NSView *view;
-    NSTextField *tField;
-    NSTextField *vField;
-    QCKeyFrameEditorWindow *_window;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)bleCLAsynchronousExecution;
+- (void)QCDisableCLAsynchronousExecution;
 
 @end
 

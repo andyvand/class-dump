@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _INPBResolveObjectReferenceIntentResponse
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasResolvedReferences;
 @property(copy, nonatomic) NSData *resolvedReferences;
 @end
 

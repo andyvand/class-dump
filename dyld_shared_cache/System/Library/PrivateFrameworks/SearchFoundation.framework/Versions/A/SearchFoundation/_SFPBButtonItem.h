@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAppAutoShortcutsButtonItem, _SFPBButtonItemAppearance, _SFPBCommandButtonItem, _SFPBContactButtonItem, _SFPBCoreSpotlightButtonItem, _SFPBPlayAudioButtonItem, _SFPBPlayWatchListItemButtonItem, _SFPBSportsFollowButtonItem, _SFPBStoreButtonItem, _SFPBWatchListButtonItem;
+@class _SFPBCommandButtonItem;
 
 @interface _SFPBButtonItem
 {
     _SFPBCommandButtonItem *_commandButtonItem;
-    _SFPBContactButtonItem *_contactButtonItem;
-    _SFPBCoreSpotlightButtonItem *_coreSpotlightButtonItem;
-    _SFPBWatchListButtonItem *_watchListButtonItem;
-    _SFPBAppAutoShortcutsButtonItem *_appActionsButtonItem;
-    _SFPBSportsFollowButtonItem *_sportsFollowButtonItem;
-    _SFPBPlayWatchListItemButtonItem *_playWatchListItemButtonItem;
-    _SFPBPlayAudioButtonItem *_playAudioButtonItem;
-    _SFPBStoreButtonItem *_storeButtonItem;
-    _SFPBButtonItemAppearance *_buttonAppearance;
-    unsigned long long _uniqueId;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
+- (void)R$;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,34 +38,15 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)initWithRequestID:(id)arg1 managerID:asset:displaySpec:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)AssetExportRequest] Asset %{public}@ is an HDR screenshot in the HEIC format. Using PNG as compatible variant instead of JPG;
 - (id);
 - (id);
 - (void)SFPBSuggestionCardSection"16;
-- (void);
+- (void)punchThroughBackground;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBAppAutoShortcutsButtonItem *appActionsButtonItem; // @synthesize appActionsButtonItem=_appActionsButtonItem;
-@property(retain, nonatomic) _SFPBButtonItemAppearance *buttonAppearance; // @synthesize buttonAppearance=_buttonAppearance;
 @property(retain, nonatomic) _SFPBCommandButtonItem *commandButtonItem; // @synthesize commandButtonItem=_commandButtonItem;
-@property(retain, nonatomic) _SFPBContactButtonItem *contactButtonItem; // @synthesize contactButtonItem=_contactButtonItem;
-@property(retain, nonatomic) _SFPBCoreSpotlightButtonItem *coreSpotlightButtonItem; // @synthesize coreSpotlightButtonItem=_coreSpotlightButtonItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPlayAudioButtonItem *playAudioButtonItem; // @synthesize playAudioButtonItem=_playAudioButtonItem;
-@property(retain, nonatomic) _SFPBPlayWatchListItemButtonItem *playWatchListItemButtonItem; // @synthesize playWatchListItemButtonItem=_playWatchListItemButtonItem;
-@property(retain, nonatomic) _SFPBSportsFollowButtonItem *sportsFollowButtonItem; // @synthesize sportsFollowButtonItem=_sportsFollowButtonItem;
-@property(retain, nonatomic) _SFPBStoreButtonItem *storeButtonItem; // @synthesize storeButtonItem=_storeButtonItem;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
-@property(retain, nonatomic) _SFPBWatchListButtonItem *watchListButtonItem; // @synthesize watchListButtonItem=_watchListButtonItem;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSIndexSet, NSString;
-
 @interface MSTriageChangeAction
 {
     _Bool _flagState;
-    long long _action;
-    NSIndexSet *_flagColors;
-    NSDate *_readLaterDate;
 }
 
 - (id);
@@ -20,29 +15,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@9)	;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)s(PrintKitPrivate) absoluteSpoolDirectory];
 
 // Remaining properties
 @property(readonly, nonatomic) long long action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSIndexSet *flagColors; // @synthesize flagColors=_flagColors;
-@property(readonly, nonatomic) _Bool flagState; // @synthesize flagState=_flagState;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *readLaterDate; // @synthesize readLaterDate=_readLaterDate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol TSDRepDragTrackerDelegate, TSDRepTrackerDelegate;
+
 @protocol TSDRepTrackerDelegateCreation
+
+@optional
+- (id <TSDRepTrackerDelegate>)or;
+- (id <TSDRepDragTrackerDelegate>)is not available in the queue.;
 @end
 

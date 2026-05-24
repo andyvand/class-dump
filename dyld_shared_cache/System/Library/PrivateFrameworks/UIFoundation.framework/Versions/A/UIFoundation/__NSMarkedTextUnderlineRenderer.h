@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSTextLineFragment, NSTextRange;
-@protocol NSTextGraphicsContext;
+@class NSTextLineFragment;
 
 __attribute__((visibility("hidden")))
 @interface __NSMarkedTextUnderlineRenderer
 {
     NSTextLineFragment *_textLineFragment;
-    id <NSTextGraphicsContext> _graphicsContext;
-    struct CGPoint _origin;
-    double _underlineThickness;
-    unsigned long long _underlineStyle;
-    NSColor *_underlineColor;
-    NSTextRange *_textRange;
-    NSTextRange *_selectedTextRange;
 }
 
 - (void);

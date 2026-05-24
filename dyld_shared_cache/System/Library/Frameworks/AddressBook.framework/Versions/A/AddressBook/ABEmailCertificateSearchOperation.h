@@ -9,20 +9,18 @@
 @interface ABEmailCertificateSearchOperation
 {
     NSString *_emailAddress;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)H;
 - (void);
-- (void);
+- (void)serviceBeginsTimestamp;
 - (void)Á@Ð! Eùª°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 
 @end

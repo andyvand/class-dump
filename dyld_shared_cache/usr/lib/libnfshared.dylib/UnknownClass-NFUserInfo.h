@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface UnknownClass (NFUserInfo)
 - (id);
@@ -23,6 +23,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *NF_clientName;
-@property(readonly, nonatomic) NSNumber *NF_serviceType;
 @end
 

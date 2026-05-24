@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (CUIKCalendarListSorter)
-- (id);
 - (id);
-- (id);
+- (id)hes/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLFeature.m;
+- (id)ZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLFeature.m;
 @end
 

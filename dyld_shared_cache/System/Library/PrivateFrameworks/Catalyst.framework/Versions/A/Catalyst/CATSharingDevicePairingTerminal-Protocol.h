@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CATSharingDevice *device;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
 @end
 

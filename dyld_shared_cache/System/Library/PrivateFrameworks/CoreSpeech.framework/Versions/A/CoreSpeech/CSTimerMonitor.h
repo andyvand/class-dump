@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CSTimerMonitor
 {
     long long _timerFiringState;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)actions;
++ (id)_numberOfTransactions;
 - (long long);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
-- (void)eUpdateMonitor:uafAssetDownloadMonitor:assetManager:uafAssetManager:disableOnDeviceCompilation: /* Error: Ran out of types for this method. */;
+- (void)initWithVoiceTriggerAssetDownloadMonitor:languageCodeUpdateMonitor:uafAssetDownloadMonitor:assetManager:uafAssetManager:disableOnDeviceCompilation: /* Error: Ran out of types for this method. */;
 
 @end
 

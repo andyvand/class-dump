@@ -9,10 +9,6 @@
 @interface SGDatabaseJournalFile
 {
     NSString *_path;
-    unsigned long long _len;
-    int _fd;
-    _Bool _written;
-    _Bool _dead;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)hes/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/NSData_Base64Additions.mm;
 - (void);
 - (void)Ô;
 - (id);

@@ -5,16 +5,14 @@
 //
 
 @class CNAvatarImageRenderer;
-@protocol CNAvatarImageRenderingScope;
 
 @interface CNAvatarPickerMonogramImageProvider
 {
     CNAvatarImageRenderer *_avatarRenderer;
-    id <CNAvatarImageRenderingScope> _renderingScope;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarImageRenderer *avatarRenderer; // @synthesize avatarRenderer=_avatarRenderer;
-@property(retain, nonatomic) id <CNAvatarImageRenderingScope> renderingScope; // @synthesize renderingScope=_renderingScope;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol MSPSharedTripXPCCapabilityFetching
+- (void);
+- (void)T;
 @end
 

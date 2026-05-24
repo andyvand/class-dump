@@ -7,12 +7,6 @@
 @interface CoreUtilsSwift.CUXPCActorSystem
 {
     id _clientMode;
-    id _entitlement;
-    id _environment;
-    id _label;
-    id _state;
-    id _xpcEndpoint;
-    id _xpcServiceName;
 }
 
 @end

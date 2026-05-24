@@ -9,16 +9,13 @@
 @interface MTLDebugResourceStateCommandEncoder : MTLToolsResourceStateCommandEncoder
 {
     _Bool canDealloc;
-    _Bool canEndEncoding;
-    _Bool hasEndedEncoding;
-    struct deque<id, std::allocator<id>> updatedFences;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Rd;
 - (id);
 - (void);
 - (_Bool);

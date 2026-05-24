@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface RTSettledStateTransition
 {
     NSDate *_date;
-    long long _transitionFromType;
-    long long _transitionToType;
 }
 
-+ (id);
++ (id)ut missing DSID;
 + (id);
 - (long long);
 - (long long);
@@ -24,16 +22,7 @@
 - (void)r, forwarding to the Helper Service;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long transitionFromType; // @synthesize transitionFromType=_transitionFromType;
-@property(readonly, nonatomic) long long transitionToType; // @synthesize transitionToType=_transitionToType;
 
 @end
 

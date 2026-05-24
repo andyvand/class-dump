@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void)llCheckingEnabled;
+- (id)_bytesPerSecondLimit;
+- (void)NSContinuousSpellCheckingEnabled;
 
 @end
 

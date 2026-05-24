@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (Weather)
-- (id);
+- (id)h";
 - (id);
 
 // Remaining properties

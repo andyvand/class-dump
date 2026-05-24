@@ -6,17 +6,11 @@
 
 #import <Montreal/MontrealNNDescription.h>
 
-@class MontrealNNModelQuantization, NSArray, NSData, NSNumber, NSString;
+@class NSString;
 
 @interface MontrealNNModelWeight : MontrealNNDescription
 {
     NSString *_name;
-    NSNumber *_index;
-    NSArray *_dimension;
-    NSArray *_weightValues;
-    NSData *_weightData;
-    MontrealNNModelQuantization *_quantization;
-    NSString *_jsonDir;
 }
 
 - (id);
@@ -37,24 +31,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *dimension; // @synthesize dimension=_dimension;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSNumber *index; // @synthesize index=_index;
-@property(readonly) NSString *jsonDir; // @synthesize jsonDir=_jsonDir;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) MontrealNNModelQuantization *quantization; // @synthesize quantization=_quantization;
-@property(readonly) Class superclass;
-@property(readonly) NSData *weightData; // @synthesize weightData=_weightData;
-@property(readonly) NSArray *weightValues; // @synthesize weightValues=_weightValues;
 
 @end
 

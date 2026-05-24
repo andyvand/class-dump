@@ -6,32 +6,26 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FIContainerController;
-
 __attribute__((visibility("hidden")))
 @interface FIViewOptionsPopUpController : FI_TViewController
 {
     struct TNSWeakPtr<FIContainerController> _weakContainerController;
-    _Bool _inSavePanel;
-    int _viewStyle;
 }
 
 + (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@9;
 - (void);
 - (void);
-- (void);
+- (void)respondsToSelector: /* Error: Ran out of types for this method. */;
 - (int);
-- (void);
+- (void)&,N,V_coreAnalytics;
 - (id);
 - (void)8´;
 
 // Remaining properties
-@property __weak FIContainerController *containerController;
-@property(nonatomic) _Bool inSavePanel; // @synthesize inSavePanel=_inSavePanel;
 @property(nonatomic) int viewStyle; // @synthesize viewStyle=_viewStyle;
 
 @end

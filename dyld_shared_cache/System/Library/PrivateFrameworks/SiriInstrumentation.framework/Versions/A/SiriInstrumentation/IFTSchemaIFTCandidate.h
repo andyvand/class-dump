@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTCandidatePromptStatus, IFTSchemaIFTStatementId, IFTSchemaIFTTypedValue, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTCandidate : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    int _source;
-    IFTSchemaIFTCandidatePromptStatus *_promptStatus;
-    IFTSchemaIFTTypedValue *_value;
-    CDStruct_dbbab10b _has;
-    _Bool _hasStatementId;
-    _Bool _hasPromptStatus;
-    _Bool _hasValue;
 }
 
 - (id);
@@ -38,12 +31,12 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ND m.ROWID >= ? AND m.item_type == 0  AND m.is_read == 0 ORDER BY cm.chat_id, cm.message_id DESC LIMIT ?;;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (int);
+- (void)N,V_daysOfWeek;
+- (int);
 - (id);
 - (id)1Â0@ù
 × ;
@@ -54,15 +47,7 @@
 - (void)!ÊÿâÝ´Iä#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPromptStatus; // @synthesize hasPromptStatus=_hasPromptStatus;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTCandidatePromptStatus *promptStatus; // @synthesize promptStatus=_promptStatus;
-@property(nonatomic) int source; // @synthesize source=_source;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(retain, nonatomic) IFTSchemaIFTTypedValue *value; // @synthesize value=_value;
 
 @end
 

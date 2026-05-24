@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)extStartsWithListItem: /* Error: Ran out of types for this method. */;
+- (void)textStartsWithListItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CRFormAnalyzerConfiguration *configuration; // @synthesize configuration=_configuration;

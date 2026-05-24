@@ -9,8 +9,6 @@
 @interface TSUDateFormatter_NSFormatter
 {
     NSString *mPreferredFormat;
-    _Bool isDateOnly;
-    _Bool isTimeOnly;
 }
 
 - (void);
@@ -18,15 +16,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)mn;
 - (id)À°!DùÏð1Â0@ù
 × ;
 - (void)CFString=}16^d24;
 - (id)h:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool isDateOnly; // @synthesize isDateOnly;
-@property(nonatomic) _Bool isTimeOnly; // @synthesize isTimeOnly;
 @property(retain, nonatomic) NSString *preferredFormat; // @synthesize preferredFormat=mPreferredFormat;
 
 @end

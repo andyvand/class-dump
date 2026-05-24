@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol BookmarksTableCellViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksTableCellView
 {
     id <BookmarksTableCellViewDelegate> _delegate;
-    NSArray *_requestTokens;
 }
 
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)k;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)or using AVDataAsset for pasted item size:%lu limit:%lu /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)ssionsChangedNotification;
+- (id)RemoteNotificationPermissionsChangedNotification;
 - (void)8¨;
-- (id);
+- (id)44;
 - (void)Ô\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <BookmarksTableCellViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *requestTokens; // @synthesize requestTokens=_requestTokens;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIFluidSliderFeedbackConductor
 {
     double _epsilon;
-    id <_UIFluidSliderFeedbackPlayer> __directFeedbackPlayer;
-    id <_UIFluidSliderFeedbackPlayer> __indirectFeedbackPlayer;
-    double __lastValue;
-    double __lastSnappingTarget;
-    unsigned long long __detentCount;
-    long long __currentRegion;
 }
 
 - (void);
@@ -24,27 +18,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (double);
-- (double);
-- (id);
-- (id);
-- (unsigned long long);
-- (long long);
+- (void)recordZoneManager;
+- (id)didReceiveMessageEditingUnsupportedHandleIDs:(unsigned long long)arg1 forMessageGUID:(id)arg2 partIndex:(id)arg3 previousMessage:backwardCompatibilityMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)ectTimer]:(long long)arg1 %@;
+- (double)equest from a device that we do not recognize;
+- (double)SMS Relay from:%@ to:%@, micIsOn:%@ /* Error: Ran out of types for this method. */;
+- (id)es to see if it's time to jettison state;
+- (id)il, not updating iMessage to nil last addressed handle;
+- (unsigned long long)ng.;
+- (long long)eceiveIncomingMessage pushPayload:%@ ckNotification:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long _currentRegion; // @synthesize _currentRegion=__currentRegion;
-@property(nonatomic) unsigned long long _detentCount; // @synthesize _detentCount=__detentCount;
 @property(retain, nonatomic) id <_UIFluidSliderFeedbackPlayer> _directFeedbackPlayer; // @synthesize _directFeedbackPlayer=__directFeedbackPlayer;
-@property(retain, nonatomic) id <_UIFluidSliderFeedbackPlayer> _indirectFeedbackPlayer; // @synthesize _indirectFeedbackPlayer=__indirectFeedbackPlayer;
-@property(nonatomic) double _lastSnappingTarget; // @synthesize _lastSnappingTarget=__lastSnappingTarget;
-@property(nonatomic) double _lastValue; // @synthesize _lastValue=__lastValue;
-@property(nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
 
 @end
 

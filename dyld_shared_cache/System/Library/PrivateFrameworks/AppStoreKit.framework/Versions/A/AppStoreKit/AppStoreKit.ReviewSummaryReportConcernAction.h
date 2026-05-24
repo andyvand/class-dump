@@ -9,8 +9,6 @@
 @interface AppStoreKit.ReviewSummaryReportConcernAction : AppStoreKit.Action
 {
     id concerns;
-    id comment;
-    id sendAction;
 }
 
 @end

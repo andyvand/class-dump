@@ -6,15 +6,11 @@
 
 #import <MusicLibrary/ML3DatabaseResult.h>
 
-@class ML3DatabaseDistantConnection, NSArray, NSDictionary, NSString;
+@class ML3DatabaseDistantConnection, NSArray;
 
 @interface ML3DatabaseDistantResult : ML3DatabaseResult
 {
     NSArray *_cachedRows;
-    NSDictionary *_cachedColumnNameIndexMap;
-    ML3DatabaseDistantConnection *_distantConnection;
-    NSString *_sql;
-    NSArray *_parameters;
 }
 
 - (id);
@@ -35,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ML3DatabaseDistantConnection *distantConnection; // @synthesize distantConnection=_distantConnection;
-@property(readonly, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) NSString *sql; // @synthesize sql=_sql;
 
 @end
 

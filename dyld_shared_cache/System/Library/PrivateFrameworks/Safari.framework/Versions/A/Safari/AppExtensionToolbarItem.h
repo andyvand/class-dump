@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, NSArray, NSImage, NSMapTable, NSPopover, NSString, NSUUID, SFSafariExtensionRemoteViewController, SafariAppExtensionsController;
+@class NSMapTable, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AppExtensionToolbarItem
 {
     NSMapTable *_browserWindowControllerToToolbarItemMap;
-    NSPopover *_visiblePopover;
-    id _queuedSender;
-    BrowserWindowController *_queuedBrowserWindowController;
-    NSPopover *_perSiteAccessPopup;
-    SafariAppExtensionsController *_appExtensionsController;
-    NSString *_toolbarIdentifier;
-    NSString *_toolbarItemUniqueIdentifier;
-    NSUUID *_extensionUUID;
-    NSString *_label;
-    NSImage *_image;
-    NSString *_action;
-    SFSafariExtensionRemoteViewController *_remotePopoverViewController;
 }
 
 + (id);
@@ -32,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (_Bool);
@@ -44,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,22 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)(4;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) NSArray *allToolbarItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSUUID *extensionUUID; // @synthesize extensionUUID=_extensionUUID;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isShowingPerSiteAccessPopup;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) SFSafariExtensionRemoteViewController *remotePopoverViewController; // @synthesize remotePopoverViewController=_remotePopoverViewController;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *toolbarIdentifier; // @synthesize toolbarIdentifier=_toolbarIdentifier;
-@property(readonly, copy, nonatomic) NSString *toolbarItemUniqueIdentifier; // @synthesize toolbarItemUniqueIdentifier=_toolbarItemUniqueIdentifier;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServerBagConfig, IMConnectionMonitor, IMURLRequestSession, NSObject;
-@protocol OS_dispatch_queue;
+@class IDSServerBagConfig;
 
 @interface IDSServerBagNetworkLoader
 {
     struct os_unfair_lock_s _lock;
-    IDSServerBagConfig *_config;
-    CDUnknownBlockType _connectionMonitorBlock;
-    CDUnknownBlockType _URLSessionCreationBlock;
-    NSObject<OS_dispatch_queue> *_queue;
-    IMConnectionMonitor *_connectionMonitor;
-    IMURLRequestSession *_URLRequestSession;
-    unsigned long long _loaderState;
-    CDUnknownBlockType _storedCompletion;
 }
 
 - (CDUnknownBlockType);
@@ -30,7 +21,7 @@
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
@@ -40,24 +31,14 @@
 - (id);
 - (void);
 - (id);
-- (id)tion;
+- (id)wildcardSubscription;
 - (struct os_unfair_lock_s)F;
 - (void)ssage missing source paylaod {message:%{private}@ /* Error: Ran out of types for this method. */;
 - (void)connection;
 - (_Bool)configs;
 
 // Remaining properties
-@property(retain, nonatomic) IMURLRequestSession *URLRequestSession; // @synthesize URLRequestSession=_URLRequestSession;
-@property(copy, nonatomic) CDUnknownBlockType URLSessionCreationBlock; // @synthesize URLSessionCreationBlock=_URLSessionCreationBlock;
 @property(retain, nonatomic) IDSServerBagConfig *config; // @synthesize config=_config;
-@property(retain, nonatomic) IMConnectionMonitor *connectionMonitor; // @synthesize connectionMonitor=_connectionMonitor;
-@property(copy, nonatomic) CDUnknownBlockType connectionMonitorBlock; // @synthesize connectionMonitorBlock=_connectionMonitorBlock;
-@property(readonly, nonatomic) _Bool isLoading;
-@property(readonly, nonatomic) _Bool isServerAvailable;
-@property(nonatomic) unsigned long long loaderState; // @synthesize loaderState=_loaderState;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) CDUnknownBlockType storedCompletion; // @synthesize storedCompletion=_storedCompletion;
 
 @end
 

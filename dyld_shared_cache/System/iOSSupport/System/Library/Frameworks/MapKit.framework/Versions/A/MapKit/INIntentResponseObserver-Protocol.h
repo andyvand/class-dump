@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class INIntentResponse;
+
 @protocol INIntentResponseObserver
+- (void)-registered timeline.;
+
+@optional
+- (void)idateKey = WTF:(INIntentResponse *)arg1:ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

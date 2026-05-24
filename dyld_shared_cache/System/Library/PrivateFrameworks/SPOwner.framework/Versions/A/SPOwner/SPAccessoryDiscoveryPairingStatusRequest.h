@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface SPAccessoryDiscoveryPairingStatusRequest
 {
     _Bool _wantsLostModeInfo;
-    _Bool _checkSerialNumber;
-    _Bool _verifyFMNID;
-    _Bool _verifyWithServer;
-    NSUUID *_identifier;
 }
 
 + (id);
@@ -26,19 +20,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)IMMetricsCollectorEventInputImageDimensionHeight;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool checkSerialNumber; // @synthesize checkSerialNumber=_checkSerialNumber;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool verifyFMNID; // @synthesize verifyFMNID=_verifyFMNID;
-@property(nonatomic) _Bool verifyWithServer; // @synthesize verifyWithServer=_verifyWithServer;
-@property(nonatomic) _Bool wantsLostModeInfo; // @synthesize wantsLostModeInfo=_wantsLostModeInfo;
 
 @end
 

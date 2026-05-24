@@ -7,6 +7,6 @@
 @protocol NSValidatedUserInterfaceItem;
 
 @protocol NSUserInterfaceValidations
-- (_Bool)torageKey:(id <NSValidatedUserInterfaceItem>)arg1;
+- (_Bool)setValue:(id <NSValidatedUserInterfaceItem>)arg1 forViewConfigurationStorageKey: /* Error: Ran out of types for this method. */;
 @end
 

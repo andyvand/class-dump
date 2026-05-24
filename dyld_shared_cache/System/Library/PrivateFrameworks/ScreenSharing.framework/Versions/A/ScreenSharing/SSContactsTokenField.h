@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SSContactsTokenFieldDelegate;
+@class SSContactsTokenFieldDelegate;
 
 @interface SSContactsTokenField
 {
     _Bool _completionWindowShowing;
-    SSContactsTokenFieldDelegate *_contactsTokenFieldDelegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)e;
 - (void);
 
 // Remaining properties
-@property _Bool completionWindowShowing; // @synthesize completionWindowShowing=_completionWindowShowing;
 @property(retain) SSContactsTokenFieldDelegate *contactsTokenFieldDelegate; // @synthesize contactsTokenFieldDelegate=_contactsTokenFieldDelegate;
-@property(readonly) NSString *identifierString;
 
 @end
 

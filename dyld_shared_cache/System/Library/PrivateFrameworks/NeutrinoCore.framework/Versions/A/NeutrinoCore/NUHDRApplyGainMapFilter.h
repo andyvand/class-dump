@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber, NUColorSpace;
-@protocol NUFlexRangeProperties;
+@class CIImage;
 
 @interface NUHDRApplyGainMapFilter
 {
     CIImage *_inputImage;
-    CIImage *_inputGainMap;
-    NSNumber *_inputHeadroom;
-    NUColorSpace *_inputColorSpace;
-    id <NUFlexRangeProperties> _flexRangeProperties;
 }
 
 + (id);
@@ -33,10 +28,6 @@
 - (void)qq}16;
 
 // Remaining properties
-@property(copy, nonatomic) id <NUFlexRangeProperties> flexRangeProperties; // @synthesize flexRangeProperties=_flexRangeProperties;
-@property(retain, nonatomic) NUColorSpace *inputColorSpace; // @synthesize inputColorSpace=_inputColorSpace;
-@property(retain, nonatomic) CIImage *inputGainMap; // @synthesize inputGainMap=_inputGainMap;
-@property(retain, nonatomic) NSNumber *inputHeadroom; // @synthesize inputHeadroom=_inputHeadroom;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 
 @end

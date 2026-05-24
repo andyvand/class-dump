@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString, NSTimeZone, NSURL, SFStructuredLocation;
+@class NSData, NSDate, NSString;
 
 @protocol SFCalendarEvent
+- (void);
+- (NSDate *);
+- (NSString *)(;
+- (void)observedPresentedItemUbiquityAttributes;
+- (NSData *);
 - (_Bool)CardSection",&,N;
 - (void)­;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSDate *endDate;
-@property(retain, nonatomic) SFStructuredLocation *endLocation;
-@property(copy, nonatomic) NSTimeZone *endTimeZone;
-@property(nonatomic) _Bool isAllDay;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFStructuredLocation *location;
-@property(copy, nonatomic) NSString *notes;
-@property(copy, nonatomic) NSDate *startDate;
-@property(copy, nonatomic) NSTimeZone *startTimeZone;
 @property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSURL *url;
 @end
 

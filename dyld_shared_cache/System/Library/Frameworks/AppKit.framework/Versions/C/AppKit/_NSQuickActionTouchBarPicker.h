@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTouchBar, _NSQuickActionTouchBarCollectionViewController;
+@class NSTouchBar;
 @protocol _NSQuickActionTouchBarPickerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarPicker
 {
     id <_NSQuickActionTouchBarPickerDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    _NSQuickActionTouchBarCollectionViewController *_collectionViewController;
-    void *_observationInfo;
-    _Bool _hasCloseButton;
-    _Bool _dismissAfterInvoking;
 }
 
-+ (_Bool);
++ (_Bool)^B24;
 + (_Bool)J;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)tor does not have status codes, skipping callback;
+- (void)onse;
 - (void);
 - (id);
 - (void)`â;
 - (void *);
-- (void)derColor;
+- (void)_NSTabBarSemitransparentDividerColor;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSTouchBar *touchBar;
 
 @end

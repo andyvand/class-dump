@@ -7,12 +7,11 @@
 @interface ConversationKit.ParticipantAlertView
 {
     id visualEffectView;
-    id titleLabel;
 }
 
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)dictionaryWithContentsOfURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

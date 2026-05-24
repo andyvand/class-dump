@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface MDLObjectContainer
 {
     NSMutableArray *_objects;
 }
 
-- (id);
+- (id)ing unpaired identify;
 - (id);
 - (void);
 - (void);
@@ -22,14 +22,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSArray *objects;
-@property(readonly) Class superclass;
 
 @end
 

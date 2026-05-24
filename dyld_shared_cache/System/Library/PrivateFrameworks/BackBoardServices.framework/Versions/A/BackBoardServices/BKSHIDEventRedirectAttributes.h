@@ -16,7 +16,7 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void):(int)arg1;
 
 // Remaining properties
 @property(nonatomic) int pid; // @synthesize pid=_pid;

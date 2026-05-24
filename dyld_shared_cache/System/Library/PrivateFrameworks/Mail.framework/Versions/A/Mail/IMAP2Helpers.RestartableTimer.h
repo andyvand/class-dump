@@ -7,8 +7,6 @@
 @interface IMAP2Helpers.RestartableTimer
 {
     id underlying;
-    id state;
-    id queue;
 }
 
 @end

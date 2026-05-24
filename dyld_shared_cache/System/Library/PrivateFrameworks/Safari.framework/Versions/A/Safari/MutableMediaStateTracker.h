@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSStatusItem;
-@protocol MutableMediaStateTrackerDataSource, MutableMediaStateTrackerDelegate;
+@protocol MutableMediaStateTrackerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface MutableMediaStateTracker
 {
     unsigned long long _mutableMediaState;
-    NSStatusItem *_mediaCaptureStatusItem;
-    _Bool _allPagesPlayingMutableMediaAreMuted;
-    id <MutableMediaStateTrackerDataSource> _dataSource;
-    id <MutableMediaStateTrackerDelegate> _delegate;
 }
 
 - (void);
@@ -35,27 +30,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)So27IMServiceReachabilityResultCSg;
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allPagesPlayingMutableMediaAreMuted; // @synthesize allPagesPlayingMutableMediaAreMuted=_allPagesPlayingMutableMediaAreMuted;
-@property(readonly, nonatomic, getter=isAnyPagePlayingAudio) _Bool anyPagePlayingAudio;
-@property(readonly, nonatomic, getter=isAnyPageUsingCamera) _Bool anyPageUsingCamera;
-@property(readonly, nonatomic, getter=isAnyPageUsingCameraOnly) _Bool anyPageUsingCameraOnly;
-@property(readonly, nonatomic, getter=isAnyPageUsingMicrophone) _Bool anyPageUsingMicrophone;
-@property(readonly, nonatomic, getter=isAnyPageUsingMicrophoneOnly) _Bool anyPageUsingMicrophoneOnly;
-@property(readonly, nonatomic, getter=isAnyPageUsingScreenCapture) _Bool anyPageUsingScreenCapture;
 @property(nonatomic) __weak id <MutableMediaStateTrackerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <MutableMediaStateTrackerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool doesAnyPageHaveActiveCamera;
-@property(readonly, nonatomic) _Bool doesAnyPageHaveActiveMediaCaptureDevice;
-@property(readonly, nonatomic) _Bool doesAnyPageHaveActiveMicrophone;
-@property(readonly, nonatomic) _Bool doesAnyPageHaveMediaCaptureDevice;
-@property(readonly, nonatomic) _Bool doesAnyPageHaveMutedMediaCaptureDevice;
-@property(readonly, nonatomic) long long muteButtonStateForOverallMediaState;
 
 @end
 

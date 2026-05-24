@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface NSConcretePipe : NSPipe
 {
     NSFileHandle *_readHandle;
-    NSFileHandle *_writeHandle;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)tringEditedInRange:(struct _NSZone *)arg1 changeInLength: /* Error: Ran out of types for this method. */;
+- (id)stringEditedInRange:(struct _NSZone *)arg1 changeInLength: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

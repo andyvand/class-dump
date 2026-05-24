@@ -9,8 +9,6 @@
 @interface ICPreviewDeviceContext
 {
     NSArray *_deviceScales;
-    NSArray *_scalableDeviceInfo;
-    NSArray *_nonScalableDeviceInfo;
 }
 
 + (id);
@@ -25,12 +23,9 @@
 - (double);
 - (void);
 - (id);
-- (void)ct:submissionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:willSubmitFormValues:userObject:submissionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *deviceScales;
-@property(readonly) double maxDeviceScale;
-@property(copy) NSArray *nonScalableDeviceInfo; // @synthesize nonScalableDeviceInfo=_nonScalableDeviceInfo;
 @property(copy) NSArray *scalableDeviceInfo; // @synthesize scalableDeviceInfo=_scalableDeviceInfo;
 
 @end

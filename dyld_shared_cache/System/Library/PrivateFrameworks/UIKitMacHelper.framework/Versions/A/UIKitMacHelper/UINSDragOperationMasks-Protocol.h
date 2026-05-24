@@ -5,9 +5,9 @@
 //
 
 @protocol UINSDragOperationMasks
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long insideAppMask;
-@property(readonly, nonatomic) unsigned long long outsideAppMask;
 @end
 

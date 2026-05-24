@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)e with length %ld and totalPartCount %ld;
 
 @end
 

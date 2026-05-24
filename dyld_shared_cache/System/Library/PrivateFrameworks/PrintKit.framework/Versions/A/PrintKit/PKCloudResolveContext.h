@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSEnumerator, NSObject, NSString, PKiCloudPrinter;
-@protocol OS_dispatch_queue;
+@class PKiCloudPrinter;
 
 __attribute__((visibility("hidden")))
 @interface PKCloudResolveContext
 {
     CDUnknownBlockType _completionHandler;
-    PKiCloudPrinter *_icloudPrinter;
-    NSEnumerator *_enumerator;
-    NSDate *_startTime;
-    NSString *_tag;
-    double _timeout;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
+- (void)hB;
 - (id);
 - (id);
 - (void);
@@ -31,22 +24,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
+- (void)?;
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (double);
+- (double)closeButtonPressedForCaptionWindow: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSEnumerator *enumerator; // @synthesize enumerator=_enumerator;
 @property(retain) PKiCloudPrinter *icloudPrinter; // @synthesize icloudPrinter=_icloudPrinter;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(retain) NSString *tag; // @synthesize tag=_tag;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

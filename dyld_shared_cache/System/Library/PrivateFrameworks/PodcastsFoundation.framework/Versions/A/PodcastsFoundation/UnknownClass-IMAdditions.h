@@ -24,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic, setter=im_setContentIdentifier:) id im_contentIdentifier;
 @property(retain, nonatomic, setter=im_setName:) NSString *im_name;
-@property(retain, nonatomic, setter=im_setToken:) NSString *im_token;
 @end
 

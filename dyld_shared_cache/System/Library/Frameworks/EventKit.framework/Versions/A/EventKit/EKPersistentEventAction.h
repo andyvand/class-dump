@@ -11,20 +11,20 @@
 }
 
 + (Class);
-+ (id);
++ (id)A;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (int);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)ting item from %@;
+- (id)V_prev_3_charge_duration;
+- (id)DOMHTMLHeadingElement;
+- (void);
 
 @end
 

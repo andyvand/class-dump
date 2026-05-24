@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, CLLocation, CLSLitePlacemark, NSArray, NSMutableArray, NSUUID;
+@class NSMutableArray, NSUUID;
 
 @interface CLSLocationOfInterest
 {
     NSMutableArray *_visits;
-    CLSLitePlacemark *_placemark;
-    NSUUID *_identifier;
-    long long _type;
-    CLLocation *_location;
-    CLCircularRegion *_placemarkRegion;
-    double _radius;
-    unsigned long long _businessItemMuid;
 }
 
 + (_Bool);
@@ -24,29 +17,23 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)<;
+- (void)_qlPreviewView;
 - (void);
-- (void);
-- (id);
+- (id)committedValueForKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)c;
 - (_Bool);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long businessItemMuid; // @synthesize businessItemMuid=_businessItemMuid;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) CLCircularRegion *placemarkRegion; // @synthesize placemarkRegion=_placemarkRegion;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSArray *visits; // @synthesize visits=_visits;
 
 @end
 

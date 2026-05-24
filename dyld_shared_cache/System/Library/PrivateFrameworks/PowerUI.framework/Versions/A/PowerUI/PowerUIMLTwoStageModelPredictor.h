@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSDate, NSNumber, NSObject, NSString, NSURL, PowerUITrialManager;
-@protocol OS_os_log, _CDLocalContext;
+@class NSString;
 
 @interface PowerUIMLTwoStageModelPredictor
 {
     struct os_unfair_lock_s _loadModelLock;
-    MLModel *_engageModel;
-    MLModel *_durationModel;
-    NSDate *_pluginDate;
-    double _pluginBatteryLevel;
-    double _lastEngagementResult;
-    double _lastDurationResult;
-    double _adjustedDuration;
-    double _threshold;
-    double _minInputChargeDuration;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_os_log> *_statusLog;
-    NSNumber *_confidenceOverride;
-    NSNumber *_durationOverride;
-    NSString *_defaultsDomain;
-    id <_CDLocalContext> _context;
-    PowerUITrialManager *_trialManager;
-    NSDate *_deadline;
-    NSURL *_compiledClassifier;
-    NSURL *_compiledRegressor;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
@@ -54,9 +34,9 @@
 - (double);
 - (void);
 - (void);
+- (double);
 - (double);
-- (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (double);
@@ -66,7 +46,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -85,7 +65,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ja8B;
 - (id);
 - (void);
 - (unsigned long long);
@@ -97,26 +77,7 @@
 - (double)eginning of engageModel;
 
 // Remaining properties
-@property(nonatomic) double adjustedDuration; // @synthesize adjustedDuration=_adjustedDuration;
-@property(retain, nonatomic) NSURL *compiledClassifier; // @synthesize compiledClassifier=_compiledClassifier;
-@property(retain, nonatomic) NSURL *compiledRegressor; // @synthesize compiledRegressor=_compiledRegressor;
-@property(retain, nonatomic) NSNumber *confidenceOverride; // @synthesize confidenceOverride=_confidenceOverride;
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) NSDate *deadline; // @synthesize deadline=_deadline;
 @property(retain, nonatomic) NSString *defaultsDomain; // @synthesize defaultsDomain=_defaultsDomain;
-@property(readonly, retain, nonatomic) MLModel *durationModel; // @synthesize durationModel=_durationModel;
-@property(retain, nonatomic) NSNumber *durationOverride; // @synthesize durationOverride=_durationOverride;
-@property(readonly, retain, nonatomic) MLModel *engageModel; // @synthesize engageModel=_engageModel;
-@property(nonatomic) double lastDurationResult; // @synthesize lastDurationResult=_lastDurationResult;
-@property(nonatomic) double lastEngagementResult; // @synthesize lastEngagementResult=_lastEngagementResult;
-@property(nonatomic) struct os_unfair_lock_s loadModelLock; // @synthesize loadModelLock=_loadModelLock;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) double minInputChargeDuration; // @synthesize minInputChargeDuration=_minInputChargeDuration;
-@property(nonatomic) double pluginBatteryLevel; // @synthesize pluginBatteryLevel=_pluginBatteryLevel;
-@property(retain, nonatomic) NSDate *pluginDate; // @synthesize pluginDate=_pluginDate;
-@property(retain, nonatomic) NSObject<OS_os_log> *statusLog; // @synthesize statusLog=_statusLog;
-@property(nonatomic) double threshold; // @synthesize threshold=_threshold;
-@property(retain, nonatomic) PowerUITrialManager *trialManager; // @synthesize trialManager=_trialManager;
 
 @end
 

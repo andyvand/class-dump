@@ -7,15 +7,13 @@
 @interface ContentKit.WFAskLLMUserPrompt
 {
     id textComponents;
-    id documents;
-    id images;
 }
 
 + (void);
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)3;
 - (void)Áõ	ð!ÀDùÐ1Â0@ù
 × ;
 

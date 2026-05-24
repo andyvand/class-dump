@@ -6,8 +6,6 @@
 
 #import <Catalyst/CATTaskProgress.h>
 
-@class NSDictionary, NSError;
-
 @interface CATMutableTaskProgress : CATTaskProgress
 {
 }
@@ -19,14 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long completedUnitCount; // @dynamic completedUnitCount;
-@property(retain, nonatomic) NSError *error; // @dynamic error;
-@property(nonatomic) _Bool isCancelable; // @dynamic isCancelable;
-@property(nonatomic) _Bool isCanceled; // @dynamic isCanceled;
 @property(nonatomic) unsigned long long phase; // @dynamic phase;
-@property(retain, nonatomic) id resultObject; // @dynamic resultObject;
-@property(nonatomic) long long totalUnitCount; // @dynamic totalUnitCount;
-@property(retain, nonatomic) NSDictionary *userInfo; // @dynamic userInfo;
 
 @end
 

@@ -12,21 +12,18 @@
 @interface IMKCandidateStepperView : IMKUIView
 {
     id <IMKCandidateStepperViewDelegate> _delegate;
-    IMKCandidateStepperAccessoryImageView *_topArrowView;
-    IMKCandidateStepperAccessoryImageView *_bottomArrowView;
-    _Bool _initialized;
 }
 
 - (struct CGRect);
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect)%;
 - (id);
 - (id);
 - (void);
@@ -35,13 +32,10 @@
 - (void);
 - (_Bool)0@ù
 × ;
-- (void)itlebarAccessoryViewController:(id)arg1;
-- (void)ontroller;
+- (void)addTitlebarAccessoryViewController:(id)arg1;
+- (void)IMKCandidateNavigationController;
 
 // Remaining properties
-@property(retain, nonatomic) IMKCandidateStepperAccessoryImageView *bottomArrowView; // @synthesize bottomArrowView=_bottomArrowView;
-@property(nonatomic) id <IMKCandidateStepperViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
 @property(retain, nonatomic) IMKCandidateStepperAccessoryImageView *topArrowView; // @synthesize topArrowView=_topArrowView;
 
 @end

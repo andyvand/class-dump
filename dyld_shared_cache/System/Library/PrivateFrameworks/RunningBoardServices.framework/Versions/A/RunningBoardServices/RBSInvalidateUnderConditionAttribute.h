@@ -11,14 +11,12 @@
 @interface RBSInvalidateUnderConditionAttribute : RBSAttribute
 {
     NSString *_condition;
-    long long _minValue;
 }
 
 + (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *condition; // @synthesize condition=_condition;
-@property(readonly, nonatomic) long long minValue; // @synthesize minValue=_minValue;
 
 @end
 

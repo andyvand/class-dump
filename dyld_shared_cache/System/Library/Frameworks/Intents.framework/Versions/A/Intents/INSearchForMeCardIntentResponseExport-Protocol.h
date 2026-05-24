@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INContactCard;
-
 @protocol INSearchForMeCardIntentResponseExport
-- (long long)supportedReason;
+- (void)SEEKFUNCTION;
+- (long long)hasSnoozeAlarmIntentAlarmsUnsupportedReason;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INContactCard *meCard;
 @end
 

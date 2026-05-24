@@ -7,7 +7,6 @@
 @interface NewsFeed.RecipeAccessProvider
 {
     id bundleSubscriptionManager;
-    id paidAccessChecker;
 }
 
 @end

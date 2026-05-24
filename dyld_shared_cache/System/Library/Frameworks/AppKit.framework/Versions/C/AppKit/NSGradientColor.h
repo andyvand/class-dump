@@ -12,19 +12,16 @@ __attribute__((visibility("hidden")))
 @interface NSGradientColor : NSColor
 {
     NSGradient *_gradient;
-    struct CGImage *_patternImageRef;
-    struct CGRect _destRect;
-    struct CGColor *_patternColor;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)__CFString}"fTextEncodingName"^{__CFString}"fExpectedContentLength"q"fExpiration"d"fCreationTime"d"fDownloadAssessment"^{__CFDictionary}"fSSLCertContext"^{__CFDictionary}"fRecommendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (id)_NSHTTPAlternativeServicesStorage;
+- (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (void);
+- (id);
+- (unsigned long long)pK!;
 - (long long);
 - (_Bool);
 - (struct CGColor *)ogrammatically?;

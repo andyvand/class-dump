@@ -6,97 +6,103 @@
 
 #import <AppKit/NSButtonCell.h>
 
-@class NSMenuItem, NSMenuKEUniquer;
+@class NSMenuItem;
 
 @interface NSMenuItemCell : NSButtonCell
 {
     NSMenuItem *_item;
-    NSMenuKEUniquer *_keUniquer;
-    struct __micFlags {
-        unsigned int needsSizing:1;
-        unsigned int reserved:1;
-        unsigned int needsDisplay:1;
-    } _micFlags;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 + (void)<H;
-- (double);
+- (double);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)sponse;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (double);
+- (double)G;
 - (struct CGRect);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
 - (struct CGRect);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (struct CGSize);
-- (unsigned long long);
-- (id);
+- (void)RequiredForLoader}@^^?^^?@@q^{RedirectionRecorder}CCC@CddC^{URLProtocol}@C^{CoreSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1b1}CCCCQICB};
+- (void)allenge"16;
+- (void)scription"^?"wasRedirected"^?"cacheResponseIsValid"^?"didReceiveResponse"^?"didLoadData"^?"didFinishLoading"^?"didFail"^?"didReceiveAuthenticationChallenge"^?};
+- (void)AuthenticationChallengeInternal";
+- (void)LCredential";
+- (void):(struct CGRect)arg1 8q16q24q32;
+- (void)32@?<v@?@"NSInputStream">40;
+- (struct CGSize)_sqlDeleteStmtBlobData;
+- (void)_personaUniqueString;
+- (struct CGSize)URLSessionStreamTask after task has completed;
+- (unsigned long long)nection requesting pending callbacks for the background session:%@ /* Error: Ran out of types for this method. */;
+- (id)alt_services;
 - (struct CGRect);
-- (CDStruct_60d9add8);
-- (_Bool);
-- (id);
+- (CDStruct_60d9add8)xy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (_Bool)dResponse:forRequest:subclass should implement /* Error: Ran out of types for this method. */;
+- (id)Host:(_Bool)arg1 %@, Server:%@, Auth-Scheme:%@, Realm:%@, Port:%ld, Proxy:%@, Proxy-Type:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (struct _NSRange);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)@;
 - (double);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)s ;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)e key from the leaf certificate;
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)};
 - (long long);
 - (void);
-- (id)dgetMetrics:(struct _NSZone *)arg1;
+- (id)_queryWidgetMetrics:(struct _NSZone *)arg1;
 - (id)iver.m;
 - (void)+Hf@;
 - (void)¹Tÿ;
 
 // Remaining properties
-@property(readonly) double imageWidth;
-@property(readonly) double keyEquivalentWidth;
 @property(retain) NSMenuItem *menuItem;
-@property _Bool needsDisplay;
-@property _Bool needsSizing;
-@property(readonly) double stateImageWidth;
-@property long long tag; // @dynamic tag;
-@property(readonly) double titleWidth;
 
 @end
 

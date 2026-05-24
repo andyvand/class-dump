@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)nceAngle;
+- (void)SystemReferenceAngle;
 - (void);
 
 // Remaining properties

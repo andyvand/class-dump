@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, PREResponsesGeneratedEvent;
+@class PREResponsesGeneratedEvent;
 
 @interface PREResponseTappedEvent
 {
     _Bool _hasQuestionMark;
-    int _inputMethod;
-    PREResponsesGeneratedEvent *_responsesGeneratedEvent;
-    NSString *_selectedResponse;
-    NSNumber *_selectedPosition;
-    unsigned long long _timeToTap;
 }
 
 - (unsigned long long);
@@ -31,12 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasQuestionMark; // @synthesize hasQuestionMark=_hasQuestionMark;
-@property(nonatomic) int inputMethod; // @synthesize inputMethod=_inputMethod;
 @property(retain, nonatomic) PREResponsesGeneratedEvent *responsesGeneratedEvent; // @synthesize responsesGeneratedEvent=_responsesGeneratedEvent;
-@property(retain, nonatomic) NSNumber *selectedPosition; // @synthesize selectedPosition=_selectedPosition;
-@property(retain, nonatomic) NSString *selectedResponse; // @synthesize selectedResponse=_selectedResponse;
-@property(nonatomic) unsigned long long timeToTap; // @synthesize timeToTap=_timeToTap;
 
 @end
 

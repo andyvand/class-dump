@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLFollowUpAction, NSDate, NSSet, NSString;
+@class NSString;
 
 @interface FLFollowUpNotification
 {
     NSString *_title;
-    NSString *_informativeText;
-    NSString *_subtitleText;
-    NSDate *_creationDate;
-    FLFollowUpAction *_activateAction;
-    FLFollowUpAction *_clearAction;
-    NSString *_unlockActionLabel;
-    double _frequency;
-    double _firstNotificationDelay;
-    NSSet *_options;
-    unsigned long long _sqlID;
-    NSDate *_previousNotificationActionDate;
-    FLFollowUpAction *_dismissAction;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)3;
 - (void);
 - (void);
+- (void)setUnderageAccount:(id)arg1;
+- (id)initWithSessionManagerState:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void),V_harvestSubmissionCount;
+- (id);
+- (id){public}lu,stop,%@,next start,%@;
+- (id)}@,timeSinceLastPeriodicLocRequest,%{public}.3lf;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)P;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -45,15 +33,15 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setMaxManagedDoItLaterDeferralCount:(id)arg1;
+- (void)managedDeferralTimespanInDays;
+- (void)/swscan.apple.com/content/catalogs/others/index-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog;
 - (void);
 - (double);
+- (void)"24@"NSHTTPURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)setSuspendResumeStatusForSoftwareUpdate: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -65,23 +53,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (double)iers;
+- (double)stressBundleIdentifiers;
 
 // Remaining properties
-@property(retain, nonatomic) FLFollowUpAction *activateAction; // @synthesize activateAction=_activateAction;
-@property(retain, nonatomic) FLFollowUpAction *clearAction; // @synthesize clearAction=_clearAction;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) FLFollowUpAction *dismissAction; // @synthesize dismissAction=_dismissAction;
-@property(nonatomic) double firstNotificationDelay; // @synthesize firstNotificationDelay=_firstNotificationDelay;
-@property(nonatomic) _Bool forceDelivery;
-@property(nonatomic) double frequency; // @synthesize frequency=_frequency;
-@property(copy, nonatomic) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(copy, nonatomic) NSSet *options; // @synthesize options=_options;
-@property(retain, nonatomic) NSDate *previousNotificationActionDate; // @synthesize previousNotificationActionDate=_previousNotificationActionDate;
 @property(nonatomic) unsigned long long sqlID; // @synthesize sqlID=_sqlID;
-@property(copy, nonatomic) NSString *subtitleText; // @synthesize subtitleText=_subtitleText;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *unlockActionLabel; // @synthesize unlockActionLabel=_unlockActionLabel;
 
 @end
 

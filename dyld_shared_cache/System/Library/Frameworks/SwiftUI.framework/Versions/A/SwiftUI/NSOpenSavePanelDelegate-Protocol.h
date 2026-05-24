@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSURL;
+
 @protocol NSOpenSavePanelDelegate
+
+@optional
+- (NSString *)?ֈ;
+- (void)l;
+- (void)bitValueRandomizerWithDimensionality:(id)arg1 epsilon: /* Error: Ran out of types for this method. */;
+- (_Bool)bitValueMapForKey:(id)arg1 fromConfigurationsFile:(NSURL *)arg2;
 @end
 

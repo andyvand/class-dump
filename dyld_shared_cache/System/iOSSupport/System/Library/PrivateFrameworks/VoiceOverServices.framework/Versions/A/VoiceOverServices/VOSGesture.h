@@ -11,6 +11,7 @@
     NSString *_rawValue;
 }
 
++ (id)V;
 + (id);
 + (id);
 + (id);
@@ -23,22 +24,31 @@
 + (id);
 + (id);
 + (id);
++ (id){;
 + (id);
++ (id):m /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)m;
 + (id);
 + (id);
 + (id);
++ (id)<v@?@"SUCoreDDMDeclaration"@"NSError">;
 + (id);
++ (id);
++ (id)(;
++ (id)Concept";
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -49,39 +59,29 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)8;
 + (id);
++ (id)/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts;
++ (id)setQueue: /* Error: Ran out of types for this method. */;
++ (id)%@, didSignIn:%@, isInGoodStateForRepair:%@, didSignOut:%@ } /* Error: Ran out of types for this method. */;
 + (id);
++ (id)R;
 + (id);
++ (_Bool);
++ (id)24@32;
 + (id);
 + (id);
 + (id);
++ (id)s/A/VoiceOverServices;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -90,14 +90,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)Assertion__>";
 - (id);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedName;
 @property(readonly, nonatomic) NSString *rawValue;
 
 @end

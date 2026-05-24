@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSString, NSURL, NSView, QLMarkupViewController;
-@protocol QLMarkupControllerDelegate;
+@class NSOperationQueue;
 
 @interface QLMarkupController
 {
     _Bool _saveInPlace;
-    QLMarkupViewController *_markupViewController;
-    id <QLMarkupControllerDelegate> _delegate;
-    NSURL *_shareItemURL;
-    NSView *_toolbarParentViewNeedingUpdate;
-    NSOperationQueue *_presentedItemOperationQueue;
 }
 
 - (id);
@@ -38,35 +32,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)3;
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <QLMarkupControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) QLMarkupViewController *markupViewController; // @synthesize markupViewController=_markupViewController;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
 @property(retain) NSOperationQueue *presentedItemOperationQueue; // @synthesize presentedItemOperationQueue=_presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property _Bool saveInPlace; // @synthesize saveInPlace=_saveInPlace;
-@property(retain) NSURL *shareItemURL; // @synthesize shareItemURL=_shareItemURL;
-@property(readonly) Class superclass;
-@property(retain) NSView *toolbarParentViewNeedingUpdate; // @synthesize toolbarParentViewNeedingUpdate=_toolbarParentViewNeedingUpdate;
 
 @end
 

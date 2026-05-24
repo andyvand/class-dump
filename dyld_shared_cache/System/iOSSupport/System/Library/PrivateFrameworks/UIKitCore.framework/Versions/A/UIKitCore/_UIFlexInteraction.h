@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-@protocol _UIFlexInteractionDelegate;
-
 @interface _UIFlexInteraction
 {
     unsigned long long preferredActivationMode;
-    unsigned long long preferredFlexSources;
-    long long preferredVariant;
-    id glassInfo;
-    void delegate;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)@ , lastSyncDate %@ lastCompleteSyncedDBDate %@;
+- (void)MD-IDS-Aliases;
+- (void)moji;
 - (long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id)0@ù
 × ;
-- (void)rOrientationAnimationDuration;
+- (void)statusBarOrientationAnimationDuration;
 - (id)¬4;
 - (void)ÄÃþÿ;
-- (void)lProviding;
+- (void)ObjCMaterialProviding;
 - (void)×þ4¥Ê\$^;
 - (void)ËDml;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIFlexInteractionDelegate> delegate; // @synthesize delegate;
 @property(nonatomic) unsigned long long preferredActivationMode; // @synthesize preferredActivationMode;
-@property(nonatomic) unsigned long long preferredFlexSources; // @synthesize preferredFlexSources;
-@property(nonatomic) long long preferredVariant; // @synthesize preferredVariant;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

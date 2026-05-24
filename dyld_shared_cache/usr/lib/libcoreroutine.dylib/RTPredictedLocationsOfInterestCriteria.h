@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, RTDistanceCalculator, RTLocation;
+@class NSDate, RTDistanceCalculator;
 
 @interface RTPredictedLocationsOfInterestCriteria
 {
     RTDistanceCalculator *_distanceCalculator;
-    NSDate *_referenceDate;
-    double _windowDuration;
-    RTLocation *_referenceLocation;
-    double _minimumDistance;
-    double _maximumDistance;
-    double _minimumConfidence;
-    NSString *_clientIdentifier;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)_purgeTimer;
+- (void)CLIENT_REINITIATE;
 - (id);
 - (id);
 - (void);
@@ -39,13 +32,7 @@
 - (void)ublic}u;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(nonatomic) double maximumDistance; // @synthesize maximumDistance=_maximumDistance;
-@property(nonatomic) double minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
-@property(nonatomic) double minimumDistance; // @synthesize minimumDistance=_minimumDistance;
 @property(retain, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
-@property(retain, nonatomic) RTLocation *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(nonatomic) double windowDuration; // @synthesize windowDuration=_windowDuration;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PhotosUICore.PHMemoryColorGradeModel__priv_2060C365CACF8C7B1973E4BB84E18913
 {
     id canHaveColorGrade;
-    id _colorGradeKind;
-    id memory;
-    id observation;
-    id _$observationRegistrar;
 }
 
 @end

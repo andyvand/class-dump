@@ -6,8 +6,7 @@
 
 #import <UIKitCore/_UIDatePickerCalendarTimeLabel.h>
 
-@class NSDateFormatter, NSDictionary, NSString, NSTextContentStorage, UIButton, UILabel, UIPointerInteraction, UIView, _UIDatePickerCalendarTime, _UIDatePickerOverlayPresentation, _UIDatePickerStyle, _UIPassthroughScrollInteraction, _UITextLayoutControllerBase;
-@protocol _UIDatePickerCompactTimeLabelDelegate, _UITextLayoutController;
+@class UIPointerInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCompactTimeLabel : _UIDatePickerCalendarTimeLabel
@@ -17,30 +16,6 @@ __attribute__((visibility("hidden")))
         unsigned int deferringHoverStateUpdate:1;
         unsigned int highlightedForTouch:1;
     } _flags;
-    struct CGRect _hourRect;
-    struct CGRect _minuteRect;
-    struct CGRect _timeOfDayRect;
-    NSDateFormatter *_formatter;
-    _UITextLayoutControllerBase<_UITextLayoutController> *_textLayoutController;
-    NSTextContentStorage *_textContentStorage;
-    long long _highlightedScope;
-    UIView *_touchHighlightedView;
-    _Bool _enabled;
-    _Bool _tapInteractionControlledExternally;
-    id <_UIDatePickerCompactTimeLabelDelegate> _selectionDelegate;
-    _UIDatePickerOverlayPresentation *_overlayPresentation;
-    _UIDatePickerCalendarTime *_selectedTime;
-    NSDictionary *_overrideAttributes;
-    UIPointerInteraction *_pointerInteraction;
-    UILabel *_label;
-    UILabel *_hourLabel;
-    UILabel *_minuteLabel;
-    UILabel *_timeOfDayLabel;
-    UIButton *_backgroundView;
-    UIView *_inputBackgroundView;
-    unsigned long long _currentState;
-    _UIPassthroughScrollInteraction *_passthroughInteraction;
-    _UIDatePickerStyle *_datePickerStyle;
 }
 
 - (void);
@@ -60,43 +35,43 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)tring"16@"NSString"24@"NSString"32@"NSAttributedString"40@"NSNumber"48;
+- (void)ray">52;
+- (void)0@0:(id)arg1 8@"NSString"16@"NSArray"24C32@"NSArray"36q44@?<v@?@"NSArray">52;
+- (void)lastDoorTranscriptBackgroundCommand"16@0:(_Bool)arg1 8;
+- (id)sendEditedScheduledMessage:previousMessage:retractingPartIndexes:toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
+- (void)parserDidStart:(id)arg1 bodyAttributes:(id)arg2;
+- (void)messageDelivered: /* Error: Ran out of types for this method. */;
+- (id)initWithSubscriptionValidationToken:encryptionValidationToken: /* Error: Ran out of types for this method. */;
+- (id)initWithChatStatus:chat:style:displayName:groupID:handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
+- (id)idsTransportLogNeedsSync;
+- (id)idsAccountForURI:IDSServiceName: /* Error: Ran out of types for this method. */;
+- (struct CGRect)fetchChatCKOperationUsingRecordIDs: /* Error: Ran out of types for this method. */;
+- (id)fetchChatCKOperationUsingRecordIDs: /* Error: Ran out of types for this method. */;
+- (long long)createCKRecordForUpdateT1:(id)arg1 zoneID:salt: /* Error: Ran out of types for this method. */;
+- (id)assistiveAccessCommunicationLimitManager:cnIDForHandleID: /* Error: Ran out of types for this method. */;
+- (id)account:(id)arg1 chat:(long long)arg2 style:notifySentMessage:sendTime:isReplicating: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_isDeviceRegisteredForAccount: /* Error: Ran out of types for this method. */;
+- (id)_isDeviceRegisteredForAccount: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)?;
 - (id);
+- (void)yxq_GG;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)Si_So18NSAttributedStringCt;
+- (void)h;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (void);
+- (void)ing grace period to %ld minutes.;
+- (long long)%@ because there are no asset UUIDs moment share with count %@:(struct CGPoint)arg1 %@;
+- (void)date ignoring request;
+- (id)'%@' in %s at %s:%d. %@ /* Error: Ran out of types for this method. */;
+- (void)3;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -106,12 +81,12 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (_Bool)1Â0@ù
 × ;
-- (void)eRecognizer;
+- (void)_swipeGestureRecognizer;
 - (id)ected to have alignmnetRectInsets.;
 - (void)ä³îÿcþÿ2Ñîÿ;
 - (id)ng share.;
-- (unsigned long long)aryEdgeBarButtonItemEnabled;
-- (void);
+- (unsigned long long)SplitViewControllerSecondaryEdgeBarButtonItemEnabled;
+- (void)kCGColorSpaceModelPattern;
 - (void)iTouchUpCoordsX(void);
 - (id)mnView.swift;
 - (id)ºÎþÿFÏþÿ;
@@ -125,32 +100,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)LKÝþ;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(readonly, nonatomic) UIButton *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) _UIDatePickerStyle *datePickerStyle; // @synthesize datePickerStyle=_datePickerStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UILabel *hourLabel; // @synthesize hourLabel=_hourLabel;
-@property(readonly, nonatomic) UIView *inputBackgroundView; // @synthesize inputBackgroundView=_inputBackgroundView;
-@property(readonly, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(nonatomic) double minimumScaleFactor;
-@property(readonly, nonatomic) UILabel *minuteLabel; // @synthesize minuteLabel=_minuteLabel;
-@property(retain, nonatomic) _UIDatePickerOverlayPresentation *overlayPresentation; // @synthesize overlayPresentation=_overlayPresentation;
-@property(retain, nonatomic) NSDictionary *overrideAttributes; // @synthesize overrideAttributes=_overrideAttributes;
-@property(readonly, nonatomic) _UIPassthroughScrollInteraction *passthroughInteraction; // @synthesize passthroughInteraction=_passthroughInteraction;
-@property(nonatomic, getter=isPassthroughInteractionEnabled) _Bool passthroughInteractionEnabled;
 @property(readonly, nonatomic) UIPointerInteraction *pointerInteraction; // @synthesize pointerInteraction=_pointerInteraction;
-@property(readonly, nonatomic) _UIDatePickerCalendarTime *selectedTime; // @synthesize selectedTime=_selectedTime;
-@property(nonatomic) __weak id <_UIDatePickerCompactTimeLabelDelegate> selectionDelegate; // @synthesize selectionDelegate=_selectionDelegate;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tapInteractionControlledExternally; // @synthesize tapInteractionControlledExternally=_tapInteractionControlledExternally;
-@property(readonly, nonatomic) UILabel *timeOfDayLabel; // @synthesize timeOfDayLabel=_timeOfDayLabel;
 
 @end
 

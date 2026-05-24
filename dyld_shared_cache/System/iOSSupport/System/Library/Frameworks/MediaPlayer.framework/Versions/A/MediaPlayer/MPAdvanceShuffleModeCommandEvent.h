@@ -11,7 +11,7 @@
     _Bool _preservesShuffleMode;
 }
 
-- (id);
+- (id)varying;
 - (_Bool);
 
 // Remaining properties

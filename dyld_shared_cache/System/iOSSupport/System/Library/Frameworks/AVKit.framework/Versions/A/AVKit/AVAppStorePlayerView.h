@@ -4,69 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAppStorePlayerLayerView, AVButton, AVLayoutView, AVMobileChromeControlsStyleSheet, AVObservationController, AVPlayer, AVPlayerViewController, NSMutableDictionary, NSString, UIView;
-@protocol AVPlayerViewControllerDelegate;
+@class AVButton;
 
 @interface AVAppStorePlayerView
 {
     _Bool _showsPlaybackControls;
-    _Bool _updatesNowPlayingInfoCenter;
-    _Bool _showsMinimalPlaybackControlsWhenEmbeddedInline;
-    _Bool _canPausePlaybackWhenExitingFullScreen;
-    _Bool _allowsEnteringFullScreen;
-    NSString *_videoGravity;
-    UIView *_contentOverlayView;
-    AVPlayer *_player;
-    CDUnknownBlockType _playButtonHandlerForLazyPlayerLoading;
-    id <AVPlayerViewControllerDelegate> _playerViewControllerDelegate;
-    AVPlayerViewController *_playerViewController;
-    long long _preferredUnobscuredArea;
-    AVButton *_prominentPlayButton;
-    AVLayoutView *_prominentPlayButtonLayoutView;
-    AVMobileChromeControlsStyleSheet *_styleSheet;
-    AVAppStorePlayerLayerView *_playerLayerView;
-    NSMutableDictionary *_videoGravityForLayoutClassDictionary;
-    AVObservationController *_observationController;
 }
 
 - (id);
 - (_Bool);
+- (void).;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (CDUnknownBlockType);
 - (void);
-- (_Bool);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)serialize response;
+- (void)we didn't try to move that record.;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
+- (id)setPriorClientTransportType: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)u AND sessions.id in (SELECT sessionId from sessionsItemIds WHERE lastUsed < %f AND timesAccessed < %lu) ;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void)ntrolsLayoutConfiguration="includedControls"Q"excludedControls"Q"expanded"B"controlsPadding"d"auxiliaryControlsPlacement"Q"pinnedAuxiliaryControls"@"NSArray""contentTabPresented"B"contentTabsDismissing"B"contentTabTransitioning"B"timelineSliderInsets"{UIEdgeInsets="top"d"left"d"bottom"d"right"d}"volumeSliderInsets"{UIEdgeInsets="top"d"left"d"bottom"d"right"d}"contentTabsPresentationLayout"Q"contentTabsLayout"Q"contentTabPresentationHeight"d};
@@ -76,24 +58,7 @@
 - (void)M;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEnteringFullScreen; // @synthesize allowsEnteringFullScreen=_allowsEnteringFullScreen;
-@property(nonatomic) _Bool canPausePlaybackWhenExitingFullScreen; // @synthesize canPausePlaybackWhenExitingFullScreen=_canPausePlaybackWhenExitingFullScreen;
-@property(readonly, nonatomic) UIView *contentOverlayView; // @synthesize contentOverlayView=_contentOverlayView;
-@property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(copy, nonatomic) CDUnknownBlockType playButtonHandlerForLazyPlayerLoading; // @synthesize playButtonHandlerForLazyPlayerLoading=_playButtonHandlerForLazyPlayerLoading;
-@property(retain, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(retain, nonatomic) AVAppStorePlayerLayerView *playerLayerView; // @synthesize playerLayerView=_playerLayerView;
-@property(retain, nonatomic) AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(nonatomic) __weak id <AVPlayerViewControllerDelegate> playerViewControllerDelegate; // @synthesize playerViewControllerDelegate=_playerViewControllerDelegate;
-@property(nonatomic) long long preferredUnobscuredArea; // @synthesize preferredUnobscuredArea=_preferredUnobscuredArea;
 @property(retain, nonatomic) AVButton *prominentPlayButton; // @synthesize prominentPlayButton=_prominentPlayButton;
-@property(retain, nonatomic) AVLayoutView *prominentPlayButtonLayoutView; // @synthesize prominentPlayButtonLayoutView=_prominentPlayButtonLayoutView;
-@property(nonatomic) _Bool showsMinimalPlaybackControlsWhenEmbeddedInline; // @synthesize showsMinimalPlaybackControlsWhenEmbeddedInline=_showsMinimalPlaybackControlsWhenEmbeddedInline;
-@property(nonatomic) _Bool showsPlaybackControls; // @synthesize showsPlaybackControls=_showsPlaybackControls;
-@property(retain, nonatomic) AVMobileChromeControlsStyleSheet *styleSheet; // @synthesize styleSheet=_styleSheet;
-@property(nonatomic) _Bool updatesNowPlayingInfoCenter; // @synthesize updatesNowPlayingInfoCenter=_updatesNowPlayingInfoCenter;
-@property(copy, nonatomic) NSString *videoGravity; // @synthesize videoGravity=_videoGravity;
-@property(retain, nonatomic) NSMutableDictionary *videoGravityForLayoutClassDictionary; // @synthesize videoGravityForLayoutClassDictionary=_videoGravityForLayoutClassDictionary;
 
 @end
 

@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface PKAccountCardAvailabilityInfo
 {
     unsigned long long _accountState;
-    unsigned long long _accountType;
-    NSSet *_supportedFeatures;
-    unsigned long long _minimumOSStatus;
 }
 
-- (id);
+- (id)(;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)t;
 - (unsigned long long);
 - (id)om.apple.PassKit.in-app-payment-ui;
-- (void)C7message_t;
+- (void)So16PKSharingMessageC7message_t;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accountState; // @synthesize accountState=_accountState;
-@property(readonly, nonatomic) unsigned long long accountType; // @synthesize accountType=_accountType;
-@property(readonly, nonatomic) unsigned long long minimumOSStatus; // @synthesize minimumOSStatus=_minimumOSStatus;
-@property(readonly, nonatomic) NSSet *supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
 
 @end
 

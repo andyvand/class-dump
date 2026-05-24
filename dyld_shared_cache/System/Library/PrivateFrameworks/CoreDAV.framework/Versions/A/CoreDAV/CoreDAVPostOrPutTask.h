@@ -6,22 +6,16 @@
 
 #import <CoreDAV/CoreDAVActionBackedTask.h>
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @interface CoreDAVPostOrPutTask : CoreDAVActionBackedTask
 {
     _Bool _forceToServer;
-    NSString *_previousETag;
-    NSString *_requestDataContentType;
-    NSData *_requestDataPayload;
-    _Bool _sendOrder;
-    int _absoluteOrder;
-    NSURL *_priorOrderedURL;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
@@ -29,8 +23,8 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)d;
+- (id)accessibilityIsAttributeSettable: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -39,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int absoluteOrder; // @synthesize absoluteOrder=_absoluteOrder;
-@property(nonatomic) _Bool forceToServer; // @synthesize forceToServer=_forceToServer;
-@property(retain, nonatomic) NSString *previousETag; // @synthesize previousETag=_previousETag;
-@property(retain, nonatomic) NSURL *priorOrderedURL; // @synthesize priorOrderedURL=_priorOrderedURL;
 @property(retain, nonatomic) NSString *requestDataContentType; // @synthesize requestDataContentType=_requestDataContentType;
-@property(retain, nonatomic) NSData *requestDataPayload; // @synthesize requestDataPayload=_requestDataPayload;
 
 @end
 

@@ -7,16 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (Class);
+- (_Bool)`;
+- (_Bool);
+- (_Bool);
+- (id)2;
 - (_Bool)ÐÚ;
 - (struct _NSZone *)À§`§À§`§À§`§§ §À§`§À§`§`§À§`§À§`§`§À§`§À§`§À§`§À§`§À§` §À¡§`¢§À£§`¤§À¥§`¦§À§§`¨§À©§`ª§À¯§`°§Àµ§`¶§À·§`¸§À¹§`º§À»§`¼§À½§`¾§À¿§`À§ÀÁ§`Â§ÀÃ§`Ä§ÀÈ§`É§ÀÊ§`Ë§ÀÍ§`Î§ÀÏ§`Ð§ÀÑ§`Ò§ÀÓ§`Ô§ÀÕ§`Ö§À×§`Ø§ÀÙ§`Ú§ÀÛ§`Ü§ÀÝ§@;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

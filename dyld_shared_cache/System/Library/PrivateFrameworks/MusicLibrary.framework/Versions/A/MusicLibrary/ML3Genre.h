@@ -10,23 +10,23 @@
 {
 }
 
-+ (id);
-+ (long long);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)eDiffs: /* Error: Ran out of types for this method. */;
++ (long long)ID;
++ (id),C,N,V_assetCloudGUID;
++ (_Bool)SString",C,D,N;
++ (id)T@"NSString",?,&,N;
++ (id),V_assetCloudScopedIdentifier;
++ (id)_computeSyncAttributesForAsset:(id)arg1;
++ (id)ate>",W;
++ (id)NSURL",&,D,N;
++ (id)P.ck.setupPayloadString;
 + (id)q°1Â0@ù
 × ;
 + (void)EXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 + (id)Àªßÿä 6;
-- (void);
-- (id);
-- (id);
+- (void)_archivePrepareDirectoryWithError:(id)arg1;
+- (id)acterRecognitionVersion;
+- (id)for inserted asset for payload ID %{public}@ %@;
 
 @end
 

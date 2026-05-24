@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWTextMessageLength : SISchemaInstrumentationMessage
 {
     unsigned int _messageCharLength;
-    unsigned int _messageWordLength;
-    struct {
-        unsigned int messageCharLength:1;
-        unsigned int messageWordLength:1;
-    } _has;
 }
 
 - (void);
@@ -30,20 +23,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)row;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)?="executorSearchToolQueryType"b1};
-- (id)nIndexSelected;
+- (id)_hasDisambiguationIndexSelected;
 - (id)¬8;;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMessageCharLength;
-@property(nonatomic) _Bool hasMessageWordLength;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int messageCharLength; // @synthesize messageCharLength=_messageCharLength;
-@property(nonatomic) unsigned int messageWordLength; // @synthesize messageWordLength=_messageWordLength;
 
 @end
 

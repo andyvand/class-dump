@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBContactCopyItem, _SFPBCoreSpotlightCopyItem, _SFPBImageCopyItem, _SFPBTextCopyItem, _SFPBURLCopyItem;
+@class NSData, _SFPBTextCopyItem;
 
 @protocol _SFPBCopyItem
+- (NSData *)PHCollectionShareChangeRequest;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBContactCopyItem *contactCopyItem;
-@property(retain, nonatomic) _SFPBImageCopyItem *imageCopyItem;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBCoreSpotlightCopyItem *spotlightCopyItem;
 @property(retain, nonatomic) _SFPBTextCopyItem *textCopyItem;
-@property(retain, nonatomic) _SFPBURLCopyItem *urlCopyItem;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeWallpaperManager
 {
     id _isFeatureAvailable;
-    id _$observationRegistrar;
 }
 
 - (void);

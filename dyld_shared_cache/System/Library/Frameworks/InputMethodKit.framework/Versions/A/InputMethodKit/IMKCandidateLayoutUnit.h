@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateController, IMKCandidateDefinitionUnit, IMKCandidateDisplayArray, IMKCandidateUIProperties, NSString;
+@class IMKCandidateController;
 
 @interface IMKCandidateLayoutUnit
 {
     IMKCandidateController *_candidateController;
-    IMKCandidateDefinitionUnit *_definitionUnit;
-    IMKCandidateDisplayArray *_displayArray;
-    struct CGRect _frame;
-    NSString *_groupName;
-    struct CGRect _originalFrame;
-    unsigned long long _state;
-    _Bool _surfaceTruncated;
-    IMKCandidateUIProperties *_UIProperties;
-    _Bool _verticallyAligned;
 }
 
 + (double);
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)8h;
 - (void);
 - (void);
 - (void);
@@ -38,11 +29,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
-- (void);
-- (struct CGRect);
+- (void)';
+- (struct CGRect)6;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -54,24 +45,7 @@
 - (id)¿åô|;
 
 // Remaining properties
-@property(retain, nonatomic) IMKCandidateUIProperties *UIProperties; // @synthesize UIProperties=_UIProperties;
 @property(nonatomic) IMKCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) IMKCandidateDefinitionUnit *definitionUnit; // @synthesize definitionUnit=_definitionUnit;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IMKCandidateDisplayArray *displayArray; // @synthesize displayArray=_displayArray;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect originalFrame; // @synthesize originalFrame=_originalFrame;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool surfaceTruncated; // @synthesize surfaceTruncated=_surfaceTruncated;
-@property(readonly, nonatomic) NSString *uniqueKey;
-@property(nonatomic, getter=isVerticallyAligned) _Bool verticallyAligned; // @synthesize verticallyAligned=_verticallyAligned;
 
 @end
 

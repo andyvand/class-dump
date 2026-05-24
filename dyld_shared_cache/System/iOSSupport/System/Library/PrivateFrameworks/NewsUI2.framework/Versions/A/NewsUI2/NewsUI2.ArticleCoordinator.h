@@ -7,22 +7,6 @@
 @interface NewsUI2.ArticleCoordinator
 {
     id delegate;
-    id tracker;
-    id audioPlaybackContext;
-    id issueSessionManager;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id newsActivityManager;
-    id articleModel;
-    id issue;
-    id commandCenter;
-    id contentSizeManager;
-    id articleDataFactory;
-    id startContentSizeCategory;
-    id activeIssueViewingSession;
-    id urlReferralData;
-    id lastScrollPosition;
-    id activeExperiment;
 }
 
 @end

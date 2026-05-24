@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechParameters, CLLocation, NSArray, NSData, NSDictionary, NSString, NSURL;
+@class AFSpeechParameters;
 
 @interface _AFSpeechParametersMutation
 {
     AFSpeechParameters *_base;
-    NSString *_language;
-    NSString *_interactionIdentifier;
-    NSString *_task;
-    NSArray *_loggingContext;
-    NSString *_applicationName;
-    NSData *_profile;
-    NSDictionary *_overrides;
-    NSURL *_modelOverrideURL;
-    NSURL *_originalAudioFileURL;
-    _Bool _narrowband;
-    _Bool _detectUtterances;
-    _Bool _censorSpeech;
-    _Bool _farField;
-    _Bool _secureOfflineOnly;
-    _Bool _shouldStoreAudioOnDevice;
-    double _maximumRecognitionDuration;
-    NSString *_inputOrigin;
-    CLLocation *_location;
-    NSArray *_jitGrammar;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasLanguage:1;
-        unsigned int hasInteractionIdentifier:1;
-        unsigned int hasTask:1;
-        unsigned int hasLoggingContext:1;
-        unsigned int hasApplicationName:1;
-        unsigned int hasProfile:1;
-        unsigned int hasOverrides:1;
-        unsigned int hasModelOverrideURL:1;
-        unsigned int hasOriginalAudioFileURL:1;
-        unsigned int hasNarrowband:1;
-        unsigned int hasDetectUtterances:1;
-        unsigned int hasCensorSpeech:1;
-        unsigned int hasFarField:1;
-        unsigned int hasSecureOfflineOnly:1;
-        unsigned int hasShouldStoreAudioOnDevice:1;
-        unsigned int hasMaximumRecognitionDuration:1;
-        unsigned int hasInputOrigin:1;
-        unsigned int hasLocation:1;
-        unsigned int hasJitGrammar:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -62,10 +21,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)H;
+- (id);
 - (double);
 - (id);
 - (id);
@@ -82,27 +41,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)PKAuxiliaryCapabilityRequirementKeyMaterial;
+- (void)lastProcessedDate;
 - (void);
 - (_Bool);
 - (void);
 - (void)!D@ù±n&ð1Â0@ù
 × ;
-- (id)on;
-- (void)essIdentifier;
+- (id)supportsSpokenNotification;
+- (void)_processIdentifier;
 - (void)rd an emergency declaration:(_Bool)arg1 %@ data= %@;
 - (void)n:(id)arg1 timestamp = %llu, context = %@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

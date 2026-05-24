@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScriptClassDescription, NSScriptObjectSpecifier, NSString;
+@class NSScriptObjectSpecifier;
 
 @interface NSPositionalSpecifier
 {
     NSScriptObjectSpecifier *_specifier;
-    unsigned long long _unadjustedPosition;
-    NSScriptClassDescription *_insertionClassDescription;
-    id _moreVars;
-    void *_reserved0;
 }
 
-+ (id);
++ (id)H;
 + (id);
 + (_Bool);
 - (void);
@@ -26,14 +22,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id)h;
 - (id);
-- (id);
-- (void);
+- (void)l;
 - (id);
 - (id);
 - (void);
@@ -41,11 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain) id insertionContainer;
-@property(readonly) long long insertionIndex;
-@property(readonly, copy) NSString *insertionKey;
-@property(readonly) _Bool insertionReplaces;
-@property(readonly, retain) NSScriptObjectSpecifier *objectSpecifier;
 @property(readonly) unsigned long long position;
 
 @end

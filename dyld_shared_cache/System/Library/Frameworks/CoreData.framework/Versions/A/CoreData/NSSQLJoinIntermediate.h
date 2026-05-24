@@ -6,17 +6,12 @@
 
 #import <CoreData/NSSQLIntermediate.h>
 
-@class NSSQLRelationship, NSString;
+@class NSSQLRelationship;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLJoinIntermediate : NSSQLIntermediate
 {
     NSSQLRelationship *_relationship;
-    NSString *_sourceAlias;
-    NSString *_destinationAlias;
-    NSString *_correlationAlias;
-    unsigned long long _type;
-    _Bool _direct;
 }
 
 - (void);

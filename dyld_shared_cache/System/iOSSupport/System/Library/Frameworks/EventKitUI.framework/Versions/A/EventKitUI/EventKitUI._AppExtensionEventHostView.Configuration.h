@@ -7,17 +7,6 @@
 @interface EventKitUI._AppExtensionEventHostView.Configuration
 {
     id identity;
-    id sceneID;
-    id event;
-    id layoutDirection;
-    id sizeCategory;
-    id viewHierarchy;
-    id hasInProcessNavBar;
-    id changedCustomViewConfigurationDictionary;
-    id _customViewConfigurationChangedPublisher;
-    id navigationDoneButtonTappedCallback;
-    id eventEditViewCompletedCallback;
-    id eventEditViewPresentedCallback;
 }
 
 @end

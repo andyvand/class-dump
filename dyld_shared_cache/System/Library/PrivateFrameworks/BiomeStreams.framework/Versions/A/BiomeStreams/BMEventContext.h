@@ -11,8 +11,8 @@
     NSObject *_previousEvent;
 }
 
-- (void);
-- (id);
+- (void)P;
+- (id)ediaBlob:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

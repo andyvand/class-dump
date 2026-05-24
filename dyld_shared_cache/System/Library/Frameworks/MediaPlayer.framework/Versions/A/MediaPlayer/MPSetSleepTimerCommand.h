@@ -9,8 +9,6 @@
 @interface MPSetSleepTimerCommand : MPRemoteCommand
 {
     double _time;
-    double _fireDate;
-    long long _stopMode;
 }
 
 - (long long);
@@ -23,8 +21,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double fireDate; // @synthesize fireDate=_fireDate;
-@property(nonatomic) long long stopMode; // @synthesize stopMode=_stopMode;
 @property(nonatomic) double time; // @synthesize time=_time;
 
 @end

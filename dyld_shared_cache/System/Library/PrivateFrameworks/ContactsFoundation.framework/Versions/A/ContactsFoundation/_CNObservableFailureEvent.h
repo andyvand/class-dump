@@ -13,7 +13,7 @@
     NSError *_error;
 }
 
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);

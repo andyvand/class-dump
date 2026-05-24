@@ -7,8 +7,9 @@
 @class NSString;
 
 @protocol _SGSuggestionsServiceMetricsProtocol
+- (void);
+- (void)_TtCV19VoiceShortcutClient22LaunchServicesSnapshotP33_2DE8BE4BDEA9300B3DAFA689E06A50638Observer;
 - (void)apped:(NSString *)arg1 %s;
 - (void)ld Configured for %s with userSharedDuringVideoCall kind;
-- (void);
 @end
 

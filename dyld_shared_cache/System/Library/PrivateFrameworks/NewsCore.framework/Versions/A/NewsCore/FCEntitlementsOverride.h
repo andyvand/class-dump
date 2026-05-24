@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSArray;
 
 @interface FCEntitlementsOverride
 {
     NSArray *_entitlements;
-    NSError *_error;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)w;
+- (void)0:(id)arg1 8^{__CFDictionary=}16^B24;
 - (id);
 - (void)e;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entitlements; // @synthesize entitlements=_entitlements;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

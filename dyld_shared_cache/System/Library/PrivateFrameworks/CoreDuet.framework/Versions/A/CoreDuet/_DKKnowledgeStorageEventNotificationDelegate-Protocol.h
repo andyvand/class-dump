@@ -5,5 +5,9 @@
 //
 
 @protocol _DKKnowledgeStorageEventNotificationDelegate
+
+@optional
+- (void);
+- (void)session;
 @end
 

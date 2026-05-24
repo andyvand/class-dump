@@ -5,5 +5,8 @@
 //
 
 @protocol WFSlotTemplateLayoutManagerDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISSlotLocalContent
 {
     unsigned char _contentScale;
-    struct CGSize _contentSize;
-    struct CGImage *_localImage;
 }
 
-+ (id);
++ (id)B;
 + (id);
 + (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/hkdf/hkdf.c;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned char);
 - (struct CGSize)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char contentScale;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRemote;
-@property(readonly, nonatomic) _Bool shouldReplaceExistingContent;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,7 @@
 
 + (void);
 + (id);
-+ (id);
++ (id)initWithHardwareID:(id)arg1 capabilities:(id)arg2;
 + (id);
 
 @end

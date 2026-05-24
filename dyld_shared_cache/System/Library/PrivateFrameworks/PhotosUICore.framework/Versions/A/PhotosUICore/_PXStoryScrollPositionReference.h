@@ -9,17 +9,15 @@
 @interface _PXStoryScrollPositionReference
 {
     id <PXStoryTimeline> _timeline;
-    CDStruct_982265da _scrollPosition;
 }
 
 - (id);
-- (CDStruct_982265da);
+- (CDStruct_48d5200d);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_982265da scrollPosition; // @synthesize scrollPosition=_scrollPosition;
 @property(readonly, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
 
 @end

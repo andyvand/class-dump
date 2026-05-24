@@ -9,13 +9,12 @@
 @interface EAREuclidCascadeItemPayload
 {
     NSString *_displayName;
-    NSString *_itemType;
 }
 
-+ (_Bool);
++ (_Bool)c;
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *itemType; // @synthesize itemType=_itemType;
 
 @end
 

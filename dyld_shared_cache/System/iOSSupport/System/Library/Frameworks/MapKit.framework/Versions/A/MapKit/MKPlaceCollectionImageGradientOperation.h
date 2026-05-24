@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString, NSURL, UIImage;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceCollectionImageGradientOperation
 {
     _Bool _isRTL;
-    UIImage *_sourceImage;
-    UIImage *_blurredImage;
-    NSURL *_url;
-    NSString *_debugName;
-    double _screenScale;
-    NSString *_contentSizeCategory;
-    NSString *_cacheId;
-    NSCache *_downloadCache;
-    NSCache *_blurCache;
-    struct CGSize _desiredSize;
 }
 
 - (void);
@@ -30,34 +20,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)t64_t>, unsigned long long>, WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (struct CGSize);
-- (double);
+- (struct CGSize)`;
+- (double)a;
 - (void);
-- (void);
-- (void);
+- (void)markPlayedExpressiveSendForIDs:(id)arg1 style:onServices:message: /* Error: Ran out of types for this method. */;
+- (void)DomainIdentifiers",&,N,V_domainIdentifiers;
 - (id);
 - (_Bool);
 - (id);
 - (void)cription: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak NSCache *blurCache; // @synthesize blurCache=_blurCache;
-@property(readonly, nonatomic) UIImage *blurredImage; // @synthesize blurredImage=_blurredImage;
-@property(retain, nonatomic) NSString *cacheId; // @synthesize cacheId=_cacheId;
-@property(retain, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(retain, nonatomic) NSString *debugName; // @synthesize debugName=_debugName;
-@property(nonatomic) struct CGSize desiredSize; // @synthesize desiredSize=_desiredSize;
-@property(nonatomic) __weak NSCache *downloadCache; // @synthesize downloadCache=_downloadCache;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
-@property(retain, nonatomic) UIImage *sourceImage; // @synthesize sourceImage=_sourceImage;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

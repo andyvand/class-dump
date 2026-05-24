@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TIDocumentState;
+@class NSUUID;
 
 @interface TICandidateRequestToken
 {
     int _shiftState;
-    NSUUID *_UUID;
-    TIDocumentState *_documentState;
 }
 
 + (id);
@@ -18,11 +16,12 @@
 + (_Bool);
 - (_Bool);
 - (id);
+- (id)SumField2;
 - (id);
-- (id);
-- (id);
-- (id);
-- (int);
+- (id)photoIrisPairingDidSucceed:fileIndicatorPath:photoAsset:photoLibrary: /* Error: Ran out of types for this method. */;
+- (id)oP
+;
+- (int)";
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -35,13 +34,10 @@
 °
 À
 ;
-- (id)avigation;
+- (id)circumnavigation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) TIDocumentState *documentState; // @synthesize documentState=_documentState;
-@property(readonly, copy, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) int shiftState; // @synthesize shiftState=_shiftState;
 
 @end
 

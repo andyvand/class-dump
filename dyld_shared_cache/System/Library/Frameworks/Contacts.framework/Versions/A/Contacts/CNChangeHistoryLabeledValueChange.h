@@ -9,9 +9,6 @@
 @interface CNChangeHistoryLabeledValueChange
 {
     NSString *_contactIdentifier;
-    NSString *_propertyKey;
-    NSString *_labeledValueIdentifier;
-    long long _changeType;
 }
 
 + (_Bool);
@@ -19,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)deactivating media session (;
 - (_Bool);
 - (id);
 - (void);
@@ -27,10 +24,7 @@
 - (void)rray"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long changeType; // @synthesize changeType=_changeType;
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSString *labeledValueIdentifier; // @synthesize labeledValueIdentifier=_labeledValueIdentifier;
-@property(readonly, copy) NSString *propertyKey; // @synthesize propertyKey=_propertyKey;
 
 @end
 

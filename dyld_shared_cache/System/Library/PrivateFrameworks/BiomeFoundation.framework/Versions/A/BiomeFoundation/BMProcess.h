@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSSet, NSString;
-
 @interface BMProcess
 {
     CDStruct_4c969caf _auditToken;
-    NSString *_executablePath;
-    struct os_unfair_lock_s _entitlementCacheLock;
-    NSMutableDictionary *_entitlementCache;
-    struct os_unfair_lock_s _reliesOnCoreDuetAccessLock;
-    NSNumber *_reliesOnCoreDuetAccess;
-    struct os_unfair_lock_s _machLookupCacheLock;
-    NSMutableDictionary *_machLookupCache;
-    int _pid;
-    unsigned int _uid;
-    unsigned long long _processType;
-    NSString *_identifier;
 }
 
 + (id);
@@ -39,33 +26,25 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool)`;
+- (id);
+- (id);
+- (void)`;
+- (id);
+- (id);
+- (_Bool)g completed;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)kDeviceName;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) NSString *executableName;
-@property(readonly, nonatomic) NSString *executablePath;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isSandboxed;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 @property(readonly, nonatomic) unsigned long long processType; // @synthesize processType=_processType;
-@property(readonly, nonatomic) unsigned int uid; // @synthesize uid=_uid;
-@property(readonly, nonatomic) NSSet *useCases;
 
 @end
 

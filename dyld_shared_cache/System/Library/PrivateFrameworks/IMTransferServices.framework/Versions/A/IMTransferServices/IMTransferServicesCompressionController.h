@@ -16,8 +16,8 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)blueprintProvider;
+- (void)layoutOptionsProvider;
 
 @end
 

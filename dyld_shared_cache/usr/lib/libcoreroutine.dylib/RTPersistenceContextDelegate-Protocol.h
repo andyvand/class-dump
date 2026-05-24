@@ -5,5 +5,6 @@
 //
 
 @protocol RTPersistenceContextDelegate
+- (_Bool)P;
 @end
 

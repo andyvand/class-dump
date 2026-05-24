@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, HMFFuture, HMFPromise, NSString;
+@class CLLocation, HMFPromise;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentLocationProvider
 {
     CLLocation *_location;
-    HMFFuture *_locationUpdatedFuture;
-    HMFPromise *_residentLocationUpdatedPromise;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)simulateRAPStatusChangeNotification;
 - (void);
 - (id)eneration task fired.;
-- (void)se;
+- (void)ResetDatabase;
 - (void)¸Zÿ/x	?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) CLLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) HMFFuture *locationUpdatedFuture; // @synthesize locationUpdatedFuture=_locationUpdatedFuture;
 @property(readonly, nonatomic) HMFPromise *residentLocationUpdatedPromise; // @synthesize residentLocationUpdatedPromise=_residentLocationUpdatedPromise;
-@property(readonly) Class superclass;
 
 @end
 

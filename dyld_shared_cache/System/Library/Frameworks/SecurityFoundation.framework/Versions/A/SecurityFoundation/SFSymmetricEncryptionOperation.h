@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFSymmetricKeySpecifier;
-
 __attribute__((visibility("hidden")))
 @interface SFSymmetricEncryptionOperation
 {
     id _symmetricEncryptionOperationInternal;
 }
 
-+ (long long);
++ (long long)( ;
 + (_Bool);
 + (id);
-- (id);
+- (id)i ;
 - (id);
 - (long long);
+- (id)localCompletionAttributes;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -31,15 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) _SFSymmetricKeySpecifier *encryptionKeySpecifier;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long mode;
-@property(readonly) Class superclass;
 
 @end
 

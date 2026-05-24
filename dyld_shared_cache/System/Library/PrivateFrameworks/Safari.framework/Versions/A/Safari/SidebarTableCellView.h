@@ -21,22 +21,20 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)animatedImageCacheURLFromExtension;
+- (id);
+- (id)i;
+- (id)D;
 
 // Remaining properties
-@property(readonly, nonatomic) double calculatedHeightOfRow;
 @property(nonatomic) __weak id <SidebarTableCellViewDelegate> delegate; // @dynamic delegate;
-@property(nonatomic, getter=isOffscreenCellForMeasurements) _Bool offscreenCellForMeasurements; // @synthesize offscreenCellForMeasurements=_offscreenCellForMeasurements;
 
 @end
 

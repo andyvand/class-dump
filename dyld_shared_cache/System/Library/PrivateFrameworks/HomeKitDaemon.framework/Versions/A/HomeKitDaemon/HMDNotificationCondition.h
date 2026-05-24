@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (_Bool)øu;
-- (id);
-- (id);
+- (id)/A/ExtensionKit;
+- (id)ream:(id)arg1 updateOutputFrequencyLevel:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)ybackActionValidWithProfiles:(struct _NSZone *)arg1 state:volume: /* Error: Ran out of types for this method. */;
+- (id)isPlaybackActionValidWithProfiles:(struct _NSZone *)arg1 state:volume: /* Error: Ran out of types for this method. */;
 - (id)}@Failed to update account, there is no account;
 
 @end

@@ -7,25 +7,6 @@
 @interface NewsSubscription.AppLaunchUpsellManager
 {
     id configurationManager;
-    id paidBundleConfiguration;
-    id bundleSubscriptionManager;
-    id offerManager;
-    id dataStore;
-    id router;
-    id networkReachability;
-    id appLaunchMethodChecker;
-    id deferredPromise;
-    id lock;
-    id sealed;
-    id completionEventManager;
-    id articlePrefetcher;
-    id appLaunchUpsellTracker;
-    id offlineProvider;
-    id articleURLHandlerPatternProvider;
-    id articleURLHandlerMatchIDProvider;
-    id headlineService;
-    id featureAvailability;
-    id widgetHeadline;
 }
 
 - (void);

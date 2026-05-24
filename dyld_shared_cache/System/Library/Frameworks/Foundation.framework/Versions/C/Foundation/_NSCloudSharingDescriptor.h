@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _NSCloudSharingDescriptor
 {
     long long _operation;
-    NSString *_sharedContentType;
-    long long _numberOfInvitations;
-    _Bool _invitationsSentViaThirdPartyService;
-    _Bool _publicShare;
 }
 
 + (_Bool)'%s' conn:%p sequence %d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)<;
 - (void);
 - (_Bool);
 - (long long);
@@ -32,11 +26,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property _Bool invitationsSentViaThirdPartyService; // @synthesize invitationsSentViaThirdPartyService=_invitationsSentViaThirdPartyService;
-@property long long numberOfInvitations; // @synthesize numberOfInvitations=_numberOfInvitations;
 @property long long operation; // @synthesize operation=_operation;
-@property _Bool publicShare; // @synthesize publicShare=_publicShare;
-@property(copy) NSString *sharedContentType; // @synthesize sharedContentType=_sharedContentType;
 
 @end
 

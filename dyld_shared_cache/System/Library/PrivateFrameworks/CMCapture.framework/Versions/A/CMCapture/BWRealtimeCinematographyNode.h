@@ -6,18 +6,12 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWNodeOutput, NSData, NSString;
+@class BWNodeOutput;
 
 __attribute__((visibility("hidden")))
 @interface BWRealtimeCinematographyNode : BWNode
 {
     _Bool _transformCinematographyDetectionsForMovieFileOutput;
-    float _simulatedAperture;
-    BWNodeOutput *_detectedObjectsOutput;
-    NSString *_cinematographyModelVersionString;
-    BWNodeOutput *_movieFileOutput;
-    BWNodeOutput *_previewOutput;
-    NSData *_globalMetadata;
 }
 
 + (void)cess metadata;
@@ -32,20 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)8Ïÿö;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cinematographyModelVersionString; // @synthesize cinematographyModelVersionString=_cinematographyModelVersionString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) BWNodeOutput *detectedObjectsOutput; // @synthesize detectedObjectsOutput=_detectedObjectsOutput;
-@property(readonly, nonatomic) NSData *globalMetadata; // @synthesize globalMetadata=_globalMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) BWNodeOutput *movieFileOutput; // @synthesize movieFileOutput=_movieFileOutput;
-@property(readonly, nonatomic) BWNodeOutput *previewOutput; // @synthesize previewOutput=_previewOutput;
-@property(nonatomic) float simulatedAperture; // @synthesize simulatedAperture=_simulatedAperture;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool transformCinematographyDetectionsForMovieFileOutput; // @synthesize transformCinematographyDetectionsForMovieFileOutput=_transformCinematographyDetectionsForMovieFileOutput;
 
 @end
 

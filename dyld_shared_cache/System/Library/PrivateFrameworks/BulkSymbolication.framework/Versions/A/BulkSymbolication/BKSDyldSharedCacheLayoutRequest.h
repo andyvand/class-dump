@@ -11,7 +11,7 @@
     NSUUID *_dyldSharedCacheUUID;
 }
 
-- (id);
+- (id)T;
 - (id);
 - (void);
 

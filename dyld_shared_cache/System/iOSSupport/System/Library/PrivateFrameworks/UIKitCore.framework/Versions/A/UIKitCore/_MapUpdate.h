@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 __attribute__((visibility("hidden")))
 @interface _MapUpdate
 {
     _Bool _isSectionUpdate;
-    _Bool _isInsert;
-    _Bool _isDelete;
-    _Bool _isMove;
-    NSIndexPath *_indexPath;
-    NSIndexPath *_moveFromIndexPath;
-    NSIndexPath *_moveToIndexPath;
-    long long _index;
-    long long _section;
-    long long _moveFromSection;
-    long long _moveToSection;
-    struct _NSRange _insertRange;
-    struct _NSRange _deleteRange;
-    struct _NSRange _moveFromRange;
-    struct _NSRange _moveToRange;
 }
 
 + (id);
@@ -32,34 +16,34 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
+- (void)initWithMemberStatusChanges:(long long)arg1 chatStatusChanges: /* Error: Ran out of types for this method. */;
+- (void)t:(id)arg1 style: /* Error: Ran out of types for this method. */;
+- (void)initWithMemberStatus:(long long)arg1 forHandle:unformattedNumber:countryCode:forChat:style: /* Error: Ran out of types for this method. */;
+- (void)initWithMemberStatus:(struct _NSRange)arg1 forHandle:unformattedNumber:countryCode:forChat:style: /* Error: Ran out of types for this method. */;
+- (void)llerID:(id)arg1 messageTime:silently: /* Error: Ran out of types for this method. */;
+- (void)ID:(_Bool)arg1 incomingEngroup:needsDeliveryReceipt:deliveryContext:storageContext:batchContext:messageContext:isBeingReplayed:mergeID:wantsCheckpointing:isSnapTrustedUser: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
+- (void)ryReceipt:(_Bool)arg1 deliveryContext:storageContext: /* Error: Ran out of types for this method. */;
+- (id)_service:account:incomingData:fromID:context:isBeingReplayed: /* Error: Ran out of types for this method. */;
+- (long long),V_peerCompletionBlocks;
+- (struct _NSRange)parser:context:foundCharacters: /* Error: Ran out of types for this method. */;
+- (struct _NSRange),C,N,V_error;
+- (id)moveMessageRecordsToRecoveryForChatRecordsWithGUIDs:deleteDate: /* Error: Ran out of types for this method. */;
+- (struct _NSRange);
 - (struct _NSRange);
-- (struct _NSRange);
-- (id);
-- (struct _NSRange);
-- (struct _NSRange);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id)rom content server;
 - (_Bool)!\CùñX1Â0@ù
 × ;
 - (id);
-- (void)pdateContentFitDisableScrolling;
-- (long long)utViews;
+- (void)_updateContentFitDisableScrolling;
+- (long long)_restoringInputViews;
 - (void)@"NSArray",&,VsuggestedInputModesForSiriLanguage;
 - (long long)UIKBColorBlack_Alpha65;
 - (_Bool);
@@ -68,21 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange deleteRange; // @synthesize deleteRange=_deleteRange;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(nonatomic) struct _NSRange insertRange; // @synthesize insertRange=_insertRange;
-@property(nonatomic) _Bool isDelete; // @synthesize isDelete=_isDelete;
-@property(nonatomic) _Bool isInsert; // @synthesize isInsert=_isInsert;
-@property(nonatomic) _Bool isMove; // @synthesize isMove=_isMove;
 @property(nonatomic) _Bool isSectionUpdate; // @synthesize isSectionUpdate=_isSectionUpdate;
-@property(retain, nonatomic) NSIndexPath *moveFromIndexPath; // @synthesize moveFromIndexPath=_moveFromIndexPath;
-@property(nonatomic) struct _NSRange moveFromRange; // @synthesize moveFromRange=_moveFromRange;
-@property(nonatomic) long long moveFromSection; // @synthesize moveFromSection=_moveFromSection;
-@property(retain, nonatomic) NSIndexPath *moveToIndexPath; // @synthesize moveToIndexPath=_moveToIndexPath;
-@property(nonatomic) struct _NSRange moveToRange; // @synthesize moveToRange=_moveToRange;
-@property(nonatomic) long long moveToSection; // @synthesize moveToSection=_moveToSection;
-@property(nonatomic) long long section; // @synthesize section=_section;
 
 @end
 

@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMFMessageDispatcher, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDZone
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_roomUUIDs;
-    NSMutableDictionary *_currentRooms;
-    NSString *_name;
-    NSUUID *_uuid;
-    NSUUID *_spiClientIdentifier;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHome *_home;
-    HMFMessageDispatcher *_msgDispatcher;
 }
 
-+ (id);
++ (id)exposureScore;
 + (_Bool)V;
 - (_Bool);
 - (id);
@@ -38,10 +29,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (id);
-- (id);
-- (id);
+- (id)isAutoPasteboardEnabled;
+- (id)ry;
 - (id);
 - (id);
 - (void);
@@ -49,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)0@ù
 × ;
-- (id)ure:(long long)arg1;
+- (id)setAccessoryMaxColorTemperature:(long long)arg1;
 - (void)üUÀVDZ´Z[p[Ð[p`a(b;
 - (id);
 - (id)te characteristic for Natural Lighting enabled:%{public}@ error:%{public}@ /* Error: Ran out of types for this method. */;
@@ -63,28 +54,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *assistantObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSArray *roomUUIDs;
-@property(readonly, copy) NSArray *rooms;
-@property(readonly, copy) NSUUID *spiClientIdentifier; // @synthesize spiClientIdentifier=_spiClientIdentifier;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *urlString;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

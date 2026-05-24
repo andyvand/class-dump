@@ -7,10 +7,6 @@
 @interface ConversationKit.CaptionsViewDragController
 {
     id dragEnabled;
-    id delegate;
-    id captionsView;
-    id panOffset;
-    id isDragging;
 }
 
 @end

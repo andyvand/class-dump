@@ -4,36 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPLayerGroup, NSLock, NSMutableDictionary, NSRecursiveLock, NSString, NSURL, NSUndoManager;
+@class NSString;
 
 @interface MPDocumentInternal
 {
     NSString *uuid;
-    NSString *lastRandomTransition;
-    NSMutableDictionary *orderedRandomTransitions;
-    NSRecursiveLock *propertiesLock;
-    MPLayerGroup *documentLayerGroup;
-    _Bool savesPathsAsAbsolute;
-    _Bool assetLogging;
-    NSMutableDictionary *cachedAbsolutePaths;
-    NSMutableDictionary *cachedAbsoluteStillPaths;
-    NSLock *cachedPathLock;
-    NSUndoManager *undoManager;
-    NSURL *fileURL;
-    long long batchModifyCount;
-    _Bool isInBatchModify;
-    _Bool needsActionConfigure;
-    NSMutableDictionary *cachedActionableLayers;
-    _Bool cacheAbsolutePathOverride;
-    _Bool alwaysLookupAbsolutePaths;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)alyticsEnvelopeTracker.m;
+- (void)eEntry>"16;
+- (void)assemblePayloadsWithEntries:(_Bool)arg1 lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:] /* Error: Ran out of types for this method. */;
+- (void)DAnalyticsPayloadUploader initWithAppConfigurationManager:(id)arg1 ];
+- (void)onIfNeeded:(_Bool)arg1 ];
+- (void)ventForBackgroundSessionWithIdentifier:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -60,31 +43,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)articleDiversificationUniquePublisherExpectationYIntercept;
+- (id)(;
 - (void);
 - (void);
 - (id),G`G;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysLookupAbsolutePaths; // @synthesize alwaysLookupAbsolutePaths;
-@property(nonatomic) _Bool assetLogging; // @synthesize assetLogging;
-@property(nonatomic) long long batchModifyCount; // @synthesize batchModifyCount;
-@property(nonatomic) _Bool cacheAbsolutePathOverride; // @synthesize cacheAbsolutePathOverride;
-@property(retain, nonatomic) NSMutableDictionary *cachedAbsolutePaths; // @synthesize cachedAbsolutePaths;
-@property(retain, nonatomic) NSMutableDictionary *cachedAbsoluteStillPaths; // @synthesize cachedAbsoluteStillPaths;
-@property(retain, nonatomic) NSMutableDictionary *cachedActionableLayers; // @synthesize cachedActionableLayers;
-@property(retain, nonatomic) NSLock *cachedPathLock; // @synthesize cachedPathLock;
-@property(retain, nonatomic) MPLayerGroup *documentLayerGroup; // @synthesize documentLayerGroup;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL;
-@property(nonatomic) _Bool isInBatchModify; // @synthesize isInBatchModify;
 @property(retain, nonatomic) NSString *lastRandomTransition; // @synthesize lastRandomTransition;
-@property(nonatomic) _Bool needsActionConfigure; // @synthesize needsActionConfigure;
-@property(retain, nonatomic) NSMutableDictionary *orderedRandomTransitions; // @synthesize orderedRandomTransitions;
-@property(retain, nonatomic) NSRecursiveLock *propertiesLock; // @synthesize propertiesLock;
-@property(nonatomic) _Bool savesPathsAsAbsolute; // @synthesize savesPathsAsAbsolute;
-@property(retain, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager;
-@property(copy, nonatomic) NSString *uuid; // @synthesize uuid;
 
 @end
 

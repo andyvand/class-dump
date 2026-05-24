@@ -11,14 +11,12 @@
 @interface RBSSavedEndowmentGrant : RBSGrant
 {
     NSString *_endowmentNamespace;
-    NSString *_key;
 }
 
 + (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *endowmentNamespace; // @synthesize endowmentNamespace=_endowmentNamespace;
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

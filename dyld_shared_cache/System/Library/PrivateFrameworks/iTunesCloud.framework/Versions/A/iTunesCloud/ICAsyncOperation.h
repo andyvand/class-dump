@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSOperationQueue;
+@class NSError;
 
 @interface ICAsyncOperation
 {
     struct os_unfair_lock_s _asyncOperationLock;
-    NSOperationQueue *_childOperationQueue;
-    long long _qualityOfServiceForChildOperationQueue;
-    _Bool _isExecuting;
-    _Bool _isFinished;
-    NSError *_error;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)loadDelegate;
+- (_Bool)AVAssetDownloadDelegate;
 - (void)LIôI,JL;
 - (_Bool);
 - (_Bool)ù

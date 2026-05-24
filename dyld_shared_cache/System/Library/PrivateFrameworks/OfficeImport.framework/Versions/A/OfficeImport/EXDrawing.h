@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (struct EDCellAnchorMarker);
++ (struct EDCellAnchorMarker)L;
 + (void);
 
 @end

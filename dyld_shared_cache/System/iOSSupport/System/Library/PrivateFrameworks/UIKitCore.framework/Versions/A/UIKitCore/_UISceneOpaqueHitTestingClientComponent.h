@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     UIWindow *_backgroundHitTestWindow;
 }
 
-- (void);
+- (void)tatus;
 - (void);
 - (void);
 - (void);

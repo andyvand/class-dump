@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _UICascadingTextStorage;
-
 __attribute__((visibility("hidden")))
 @interface _UITextFieldEditingToken
 {
@@ -14,11 +12,9 @@ __attribute__((visibility("hidden")))
         unsigned int restoreDefaultAttributes:1;
         unsigned int ended:1;
     } _flags;
-    _UICascadingTextStorage *_textStorage;
-    NSArray *_attributeNames;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -29,17 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)extureController33_FDF62CE22547DB2BF49759240B89F9C1LLC8DelegateP;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attributeNames; // @synthesize attributeNames=_attributeNames;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool restoreDefaultAttributes;
 @property(nonatomic) _Bool restoreTextAttributes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak _UICascadingTextStorage *textStorage; // @synthesize textStorage=_textStorage;
 
 @end
 

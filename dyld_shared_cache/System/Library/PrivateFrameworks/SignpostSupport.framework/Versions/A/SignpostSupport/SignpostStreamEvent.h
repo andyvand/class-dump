@@ -6,22 +6,15 @@
 
 #import <SignpostSupport/SignpostEvent.h>
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 @interface SignpostStreamEvent : SignpostEvent
 {
     unsigned long long _totalFrameCount;
-    NSObject<OS_dispatch_source> *_timeoutSource;
-    unsigned long long _serialNumber;
 }
 
 + (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long _totalFrameCount; // @synthesize _totalFrameCount;
-@property(nonatomic) unsigned long long serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timeoutSource; // @synthesize timeoutSource=_timeoutSource;
 
 @end
 

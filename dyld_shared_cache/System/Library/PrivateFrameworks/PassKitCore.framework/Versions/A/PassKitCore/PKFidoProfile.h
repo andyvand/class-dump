@@ -9,8 +9,6 @@
 @interface PKFidoProfile
 {
     NSString *_relyingPartyIdentifier;
-    NSString *_accountHash;
-    NSString *_keyHash;
 }
 
 + (_Bool)X"°!Gùî%°1Â0@ù
@@ -24,17 +22,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)º;
+- (_Bool)pkgLifeTimeVO;
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)yWithErrorHandler:(id)arg1;
+- (id)_synchronousExtendedRemoteObjectProxyWithErrorHandler:(id)arg1;
 - (void)ails:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountHash; // @synthesize accountHash=_accountHash;
-@property(retain, nonatomic) NSString *keyHash; // @synthesize keyHash=_keyHash;
 @property(retain, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
 
 @end

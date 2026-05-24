@@ -7,19 +7,17 @@
 @interface PAExposureAutoSettings
 {
     _Bool _isNoOp;
-    double _EV;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)LemonadeMapConfiguration;
 - (double);
 
 // Remaining properties
 @property(nonatomic) double EV; // @synthesize EV=_EV;
-@property(nonatomic) _Bool isNoOp; // @synthesize isNoOp=_isNoOp;
 
 @end
 

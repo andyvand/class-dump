@@ -12,9 +12,9 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct IOTS_U128 {
-    unsigned long long lo;
-    unsigned long long hi;
+struct ScalarArgsArray {
+    unsigned long long _field1[16];
+    unsigned int _field2;
 };
 
 struct ScalarArgsArrayUserReference {
@@ -32,13 +32,8 @@ struct TSReplayTimestampsHeader {
 
 struct TSReplayTimestampsTimestamp;
 
-struct mach_timebase_info {
-    unsigned int numer;
-    unsigned int denom;
-};
-
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned int _field1;
 };
 
 #pragma mark Typedef'd Structures
@@ -59,9 +54,9 @@ typedef struct {
 } CDStruct_95f7bff7;
 
 typedef struct {
-    unsigned long long numerator;
-    unsigned long long denominator;
-} CDStruct_4e4c37a4;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     unsigned short _field1;
@@ -98,13 +93,13 @@ typedef struct {
 typedef struct {
     unsigned int _field1;
     unsigned int _field2;
-    CDStruct_4e4c37a4 _field3;
-    CDStruct_4e4c37a4 _field4;
+    CDStruct_4bcfbbae _field3;
+    CDStruct_4bcfbbae _field4;
     unsigned long long _field5;
     unsigned long long _field6;
     unsigned long long _field7;
     char *_field8;
-} CDStruct_07a8feab;
+} CDStruct_9368a754;
 
 typedef struct {
     struct TSReplayTimestampsHeader _field1;
@@ -112,10 +107,10 @@ typedef struct {
 } CDStruct_66f8652e;
 
 typedef struct {
-    CDStruct_07a8feab _field1;
+    CDStruct_9368a754 _field1;
     CDUnknownFunctionPointerType _field2;
     CDUnknownFunctionPointerType _field3;
     CDUnknownFunctionPointerType _field4;
     CDUnknownFunctionPointerType _field5;
-} CDStruct_38929c87;
+} CDStruct_57a9bbf6;
 

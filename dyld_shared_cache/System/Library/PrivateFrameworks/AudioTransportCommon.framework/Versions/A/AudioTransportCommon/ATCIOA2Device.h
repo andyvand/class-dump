@@ -4,59 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ATCIOA2Device
 {
     unsigned int _clockDomain;
-    unsigned int _inputSafetyOffset;
-    unsigned int _inputLatency;
-    unsigned int _outputSafetyOffset;
-    unsigned int _outputLatency;
-    unsigned int _ioBufferSize;
-    NSString *_name;
-    NSString *_uid;
-    double _sampleRate;
-    NSArray *_availableSampleRates;
-    NSArray *_inputStreams;
-    NSArray *_outputStreams;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (_Bool);
+- (id)3;
+- (unsigned int);
+- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
+- (id)P;
 - (double);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void)listAccessTokenKeysWithUserUuid:withReply: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *availableSampleRates; // @synthesize availableSampleRates=_availableSampleRates;
-@property(readonly, nonatomic) unsigned int clockDomain; // @synthesize clockDomain=_clockDomain;
-@property(readonly, nonatomic) unsigned int inputLatency; // @synthesize inputLatency=_inputLatency;
-@property(readonly, nonatomic) unsigned int inputSafetyOffset; // @synthesize inputSafetyOffset=_inputSafetyOffset;
 @property(copy, nonatomic) NSArray *inputStreams; // @synthesize inputStreams=_inputStreams;
-@property(readonly, nonatomic) unsigned int ioBufferSize; // @synthesize ioBufferSize=_ioBufferSize;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned int outputLatency; // @synthesize outputLatency=_outputLatency;
-@property(readonly, nonatomic) unsigned int outputSafetyOffset; // @synthesize outputSafetyOffset=_outputSafetyOffset;
-@property(copy, nonatomic) NSArray *outputStreams; // @synthesize outputStreams=_outputStreams;
-@property(readonly, nonatomic) double sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(readonly, copy, nonatomic) NSString *uid; // @synthesize uid=_uid;
 
 @end
 

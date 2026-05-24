@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRContent> content;
-@property(readonly, nonatomic) unsigned long long format;
 @end
 

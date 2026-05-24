@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGStructuredEventClassification
 {
     unsigned char _category;
-    unsigned char _useCase;
-    NSString *_locale;
-    NSString *_providerName;
 }
 
-+ (id);
-+ (id);
++ (id)40;
++ (id)tableView:(id)arg1 sortDescriptorsDidChange: /* Error: Ran out of types for this method. */;
 + (id);
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char)firstLineIndent;
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
 - (unsigned char);
 - (void)_conservativeRecipientDetection;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
-@property(readonly, nonatomic) unsigned char useCase; // @synthesize useCase=_useCase;
 
 @end
 

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _SFPBCalendarColor
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *eventIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

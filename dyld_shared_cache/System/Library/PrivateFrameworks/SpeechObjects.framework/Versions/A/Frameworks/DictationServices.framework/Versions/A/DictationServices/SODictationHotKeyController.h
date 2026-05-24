@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPopUpButton, NSTextField;
+@class NSPopUpButton;
 
 @interface SODictationHotKeyController
 {
     NSPopUpButton *_popUpButton;
-    NSTextField *_hotKeyField;
-    NSButton *_conflictButton;
-    NSTextField *_conflictLabel;
-    unsigned long long _previousTag;
-    id _clickEventMonitor;
 }
 
 + (_Bool);
@@ -22,11 +17,11 @@
 - (void);
 - (id);
 - (_Bool);
+- (void);
 - (void);
+- (_Bool)!;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)NSDictionary"32@"_DKSyncPeer"40;
 - (void);
 - (void);
 - (void);

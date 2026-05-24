@@ -6,7 +6,7 @@
 
 #import <AppKit/NSAnimation.h>
 
-@class CAMediaTimingFunction, CASpringAnimation;
+@class CASpringAnimation;
 
 __attribute__((visibility("hidden")))
 @interface NSSpringAnimation : NSAnimation
@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     CASpringAnimation *_animation;
 }
 
-- (void);
+- (void);
 - (double);
 - (double);
-- (id);
+- (id)b;
 - (double);
 - (double)í/Ð!¼Gùqâ3Ð1Â0@ù
 × ;
@@ -34,11 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)ØE;
 
 // Remaining properties
-@property double damping;
 @property double mass;
-@property double stiffness;
-@property(retain) CAMediaTimingFunction *timingFunction;
-@property double velocity;
 
 @end
 

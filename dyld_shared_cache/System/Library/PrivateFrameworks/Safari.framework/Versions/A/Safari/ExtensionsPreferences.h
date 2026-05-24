@@ -6,53 +6,12 @@
 
 #import <Safari/SecurePreferencesModule.h>
 
-@class AuthorizationRequest, ExtensionDropView, ExtensionWrapper, NSArray, NSBox, NSButton, NSImageView, NSLayoutConstraint, NSMapTable, NSMutableArray, NSStackView, NSString, NSTableView, NSTextField, NSView, SFContentBlockerManager, SafariAppExtensionsController, SafariWebExtensionsController, WKWebView, WebExtensionWebsitePermissionsEditor;
+@class NSBox, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface ExtensionsPreferences : SecurePreferencesModule
 {
     NSBox *_listBox;
-    NSTableView *_listTableView;
-    NSBox *_detailsBox;
-    NSBox *_emptyBox;
-    NSBox *_detailsSeperator;
-    NSImageView *_detailsIconView;
-    NSTextField *_detailsNameLabel;
-    NSTextField *_detailsDescriptionLabel;
-    NSButton *_uninstallButton;
-    NSButton *_preferencesButton;
-    NSView *_permissionsContainer;
-    NSButton *_moreExtensionsButton;
-    NSView *_extensionsEnabledView;
-    NSButton *_extensionsOptionCheckbox;
-    NSTextField *_noExtensionsLabel;
-    ExtensionDropView *_extensionDropView;
-    NSButton *_reloadButton;
-    NSButton *_showInFinderButton;
-    NSMutableArray *_orderedUnpackedExtensions;
-    WKWebView *_permissionsWebView;
-    _Bool _permissionsWebViewLoaded;
-    NSButton *_manageStorageButton;
-    _Bool _failedToCalculateAllExtensionStorage;
-    _Bool _updatingManageStorageVisibility;
-    double _storageSize;
-    NSMapTable *_dataRecords;
-    NSMutableArray *_orderedExtensions;
-    _Bool _waitingForLockupViews;
-    NSArray *_orderedCloudExtensionAppLockupViews;
-    _Bool _didAwakeFromNib;
-    _Bool _dontRememberExtensionSelectionChanges;
-    double _previousEnabledHeight;
-    NSLayoutConstraint *_heightConstraint;
-    AuthorizationRequest *_authorizationRequestToEnableExtensionInPrivateBrowsing;
-    ExtensionWrapper *_extensionShownInAuthorizationRequest;
-    WebExtensionWebsitePermissionsEditor *_websitePermissionsEditor;
-    SafariAppExtensionsController *_appExtensionsController;
-    SafariWebExtensionsController *_webExtensionsController;
-    SFContentBlockerManager *_contentBlockerManager;
-    NSView *_onboardingView;
-    NSStackView *_extensionDetailsButtonsStackView;
-    NSLayoutConstraint *_extensionListWidthConstraint;
 }
 
 - (void);
@@ -66,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -93,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -103,14 +62,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -122,11 +75,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -142,15 +101,7 @@ __attribute__((visibility("hidden")))
 - (void)¨;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak NSStackView *extensionDetailsButtonsStackView; // @synthesize extensionDetailsButtonsStackView=_extensionDetailsButtonsStackView;
-@property(nonatomic) __weak NSLayoutConstraint *extensionListWidthConstraint; // @synthesize extensionListWidthConstraint=_extensionListWidthConstraint;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -18,15 +18,15 @@
 - (unsigned int);
 - (void *);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (struct __CFData *);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)dition (CoreML.framework's logic error). Error:(id)arg1 %@.;
 - (_Bool);
 - (void);
 

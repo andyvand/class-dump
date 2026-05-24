@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFMediaPlayerCardSection
+- (void)statement;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *mediaItems;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
 @property(copy, nonatomic) NSString *type;
 @end
 

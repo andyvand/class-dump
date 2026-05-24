@@ -6,34 +6,27 @@
 
 #import <UIKitCore/_UIDatePickerMode.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerMode_Date : _UIDatePickerMode
 {
     double _dateYearWidth;
-    double _dateMonthWidth;
-    double _dateDayWidth;
-    NSString *_yearFormat;
-    NSString *_monthFormat;
-    NSString *_dayFormat;
 }
 
 + (unsigned long long);
 + (long long);
 - (double);
-- (long long);
+- (long long)resetTransfer:(id)arg1 andPostReason:(id)arg2;
+- (void)remoteMembers;
+- (long long)incrementRetryCountForTasksWithRowIDs:(unsigned long long)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)identifier;
+- (unsigned long long)hasValidCredentials;
+- (unsigned long long)hasTimeRecovered;
+- (long long)utableArray",&,N,V_participants;
+- (id)_containsHandlesForTrustedData:(unsigned long long)arg1;
 - (void);
-- (long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (long long);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (void)Àç\;
 
 @end

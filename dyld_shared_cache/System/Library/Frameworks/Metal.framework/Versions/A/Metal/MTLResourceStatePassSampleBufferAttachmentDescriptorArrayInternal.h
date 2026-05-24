@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)rtsNorm16BCubicFiltering;
+- (void)_familySupportsNorm16BCubicFiltering;
 - (id)ÀÒÿÿ;
 
 @end

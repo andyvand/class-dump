@@ -6,27 +6,16 @@
 
 #import <UIKitCore/UIPopoverBackgroundView.h>
 
-@class UIColor, UIView, UIVisualEffect;
-
 __attribute__((visibility("hidden")))
 @interface _UIPopoverStandardChromeView : UIPopoverBackgroundView
 {
     _Bool useShortMode;
-    _Bool _debugMode;
-    UIView *viewToMaskWhenContentExtendsOverArrow;
-    unsigned long long _arrowDirection;
-    double _arrowOffset;
-    UIColor *_arrowBackgroundColor;
-    UIColor *_popoverBackgroundColor;
-    UIVisualEffect *_backgroundEffect;
-    long long _backgroundStyle;
-    UIColor *_contentBlendingColor;
 }
 
-+ (Class);
++ (Class)or object from result:<%@ %p>,  /* Error: Ran out of types for this method. */;
 + (Class);
 + (struct UIEdgeInsets);
-+ (double);
++ (double)setPayloadDisableSoftwareUpdateNotifications: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -36,19 +25,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (id)markChatGUIDsAsReviewedAndReflectToPeers: /* Error: Ran out of types for this method. */;
+- (void)_isMessageSWYSpamMessage:inChat: /* Error: Ran out of types for this method. */;
+- (_Bool)CKPartialError:hasErrorCode: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (long long);
 - (id);
-- (void);
+- (void)lter using the %@ property.;
 - (struct UIEdgeInsets);
-- (double)ResponderCapabilitiesChangedNotificationWithOutput:selectionChanged: /* Error: Ran out of types for this method. */;
-- (id)oadedContents;
-- (_Bool)orPortalInteraction;
-- (double)raction;
+- (double)_postInputResponderCapabilitiesChangedNotificationWithOutput:selectionChanged: /* Error: Ran out of types for this method. */;
+- (id)_hasLoadedContents;
+- (_Bool)_cursorPortalInteraction;
+- (double)_bottomTabBarPocketContainerInteraction;
 - (void)OfTouchesRequired;
 - (_Bool)`µ;
 - (id)Äþÿ;
@@ -58,19 +47,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)ar;
 - (void)_h=¾7tc;
 - (id)ius_&¿70A5Curve:"¿713maskedCornerst /* Error: Ran out of types for this method. */;
-- (void)s;
+- (void)Margins;
 - (void)assFlexInteraction;
 - (long long)0,tþ°43;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *arrowBackgroundColor; // @synthesize arrowBackgroundColor=_arrowBackgroundColor;
-@property(copy, nonatomic) UIVisualEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;
 @property(nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(readonly, nonatomic) UIColor *contentBlendingColor; // @synthesize contentBlendingColor=_contentBlendingColor;
-@property(nonatomic, getter=isDebugModeEnabled) _Bool debugModeEnabled; // @synthesize debugModeEnabled=_debugMode;
-@property(copy, nonatomic) UIColor *popoverBackgroundColor; // @synthesize popoverBackgroundColor=_popoverBackgroundColor;
-@property(nonatomic) _Bool useShortMode; // @synthesize useShortMode;
-@property(nonatomic) __weak UIView *viewToMaskWhenContentExtendsOverArrow; // @synthesize viewToMaskWhenContentExtendsOverArrow;
 
 @end
 

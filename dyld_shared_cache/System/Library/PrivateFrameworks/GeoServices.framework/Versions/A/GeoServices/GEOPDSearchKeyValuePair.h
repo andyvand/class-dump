@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeyValuePair
 {
     PBDataReader *_reader;
-    NSString *_key;
-    NSString *_value;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_d2d52b7f _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)PTDomainServerActiveTestRecipeChangedNotification;
+- (id)constructVTEIFromExclaveKeywordResult:speakerDetectionResult:phraseId:triggerTimestamp:triggerStartSampleCount:triggerEndSampleCount: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)kenInstruction";
-- (id)preferredDistanceUnit;
+- (id)_preferredDistanceUnit;
 - (id)Üs;
 - (void);
 

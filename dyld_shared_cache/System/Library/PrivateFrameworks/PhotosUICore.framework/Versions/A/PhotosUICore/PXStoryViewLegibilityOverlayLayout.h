@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, PXStoryViewModel;
+@class NSNumber;
 
 @interface PXStoryViewLegibilityOverlayLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    unsigned int _solidDimmingSpriteIndex;
-    unsigned int _topGradientDimmingSpriteIndex;
-    unsigned int _bottomGradientDimmingSpriteIndex;
-    unsigned short _gradientResizableCapInsetsIndex;
-    PXStoryViewModel *_viewModel;
-    NSNumber *_alphaOverride;
 }
 
 - (void);
@@ -27,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (void);
 - (void)d-library;
@@ -36,14 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *alphaOverride; // @synthesize alphaOverride=_alphaOverride;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

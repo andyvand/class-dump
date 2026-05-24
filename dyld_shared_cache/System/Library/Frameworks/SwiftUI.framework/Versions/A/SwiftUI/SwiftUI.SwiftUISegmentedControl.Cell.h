@@ -9,7 +9,7 @@
     id noDelaySegments;
 }
 
-- (id);
+- (id)j;
 - (id);
 - (double);
 - (id);

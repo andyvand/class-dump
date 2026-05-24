@@ -20,10 +20,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (id);
+- (id)ed;
 - (id);
 - (void)ContactFetchRequest"16;
 

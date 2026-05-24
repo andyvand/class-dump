@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ICCertificateCacheEntry
 {
     NSData *_data;
-    NSDate *_expirationDate;
 }
 
 - (id);
@@ -21,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool isExpired;
 
 @end
 

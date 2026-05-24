@@ -5,15 +5,10 @@
 //
 
 @class NSDictionary, _DPApproximateDP;
-@protocol _DPPrivacyBudgetAnalysis;
 
 @interface _DPBudgetAuditor
 {
     NSDictionary *_metadata;
-    NSDictionary *_plistParameters;
-    id <_DPPrivacyBudgetAnalysis> _analysis;
-    _DPApproximateDP *_targetADP;
-    _DPApproximateDP *_maxADP;
 }
 
 + (id);
@@ -31,13 +26,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)bool}d after control enableness changed; control is enabled:%{bool}d; completion list has content to show:%{bool}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_DPPrivacyBudgetAnalysis> analysis; // @synthesize analysis=_analysis;
-@property(readonly, nonatomic) _DPApproximateDP *maxADP; // @synthesize maxADP=_maxADP;
-@property(readonly, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSDictionary *plistParameters; // @synthesize plistParameters=_plistParameters;
 @property(readonly, nonatomic) _DPApproximateDP *targetADP; // @synthesize targetADP=_targetADP;
 
 @end

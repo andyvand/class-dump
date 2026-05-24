@@ -5,5 +5,11 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void)P;
+- (void)e;
+- (void)endorName;
 @end
 

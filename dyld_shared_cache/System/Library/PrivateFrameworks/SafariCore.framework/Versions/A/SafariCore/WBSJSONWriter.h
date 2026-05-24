@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSMutableArray, NSOutputStream;
+@class NSOutputStream;
 
 @interface WBSJSONWriter
 {
     NSOutputStream *_outputStream;
-    NSFileHandle *_fileHandle;
-    NSMutableArray *_stateStack;
-    unsigned long long _options;
 }
 
 + (void)¬*;
@@ -24,6 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,28 +30,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id)@;
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)available INTEGER NOT NULL DEFAULT 0;
 - (long long);
+- (id)3u;
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)uniqueIdentifier;
 - (void)
 × ;
-- (id)udeSavedAccountsWithDoNotSaveMarkers;
+- (id)queryShouldIncludeSavedAccountsWithDoNotSaveMarkers;
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentDepth;
-@property(readonly, nonatomic) long long currentEntryKind;
-@property(readonly, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface ICDelegateToken
 {
     NSData *_data;
-    long long _type;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
@@ -18,8 +16,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)J;
+- (unsigned long long);
 - (long long);
 - (_Bool);
 - (id);
@@ -31,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

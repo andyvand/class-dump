@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, SecKeyProxy;
-
 __attribute__((visibility("hidden")))
 @interface SecKeyProxyTarget
 {
     id _key;
-    NSData *_certificate;
-    SecKeyProxy *_publicKeyProxy;
 }
 
-- (void);
-- (void);
+- (void)�;
+- (void)#;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

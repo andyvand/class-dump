@@ -9,34 +9,27 @@
 @interface NTPBColorStop
 {
     NSString *_color;
-    int _location;
-    struct {
-        unsigned int location:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
+- (id)Z;
 - (id);
-- (id);
-- (int);
+- (int)_accessibilityKeyboardKeyCanStartContinuousPath;
 - (_Bool)opStoriesCutoffTime;
 - (void)ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *color; // @synthesize color=_color;
 @property(readonly, nonatomic) _Bool hasColor;
-@property(nonatomic) _Bool hasLocation;
-@property(nonatomic) int location; // @synthesize location=_location;
 
 @end
 

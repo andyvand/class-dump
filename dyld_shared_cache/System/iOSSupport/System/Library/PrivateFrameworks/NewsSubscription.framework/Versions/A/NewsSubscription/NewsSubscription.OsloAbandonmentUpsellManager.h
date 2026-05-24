@@ -7,8 +7,6 @@
 @interface NewsSubscription.OsloAbandonmentUpsellManager
 {
     id configurationManager;
-    id router;
-    id configVersionParser;
 }
 
 @end

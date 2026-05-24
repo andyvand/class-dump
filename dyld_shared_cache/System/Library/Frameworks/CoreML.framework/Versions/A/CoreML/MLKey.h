@@ -9,7 +9,6 @@
 @interface MLKey
 {
     NSString *_name;
-    NSString *_scope;
 }
 
 + (_Bool);
@@ -17,10 +16,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)<;
+- (id)seUnc,%{public}.1lf,deweightUnc,%{public}.1lf;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_coding/chain_diff_calculator.cc;
 - (id);
 - (unsigned long long);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *scope; // @synthesize scope=_scope;
 
 @end
 

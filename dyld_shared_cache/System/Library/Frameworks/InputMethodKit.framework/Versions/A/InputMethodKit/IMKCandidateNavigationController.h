@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKLayout, NSString;
-
 @interface IMKCandidateNavigationController
 {
     unsigned long long _lineCount;
-    unsigned long long _numberOfVisibleLines;
-    _Bool _respondsToMovement;
-    _Bool _shouldLoop;
-    _Bool _verticallyAligned;
-    double _numberOfLinesInWindow;
-    long long _topVisibleLine;
-    IMKLayout *_layout;
-    NSString *_selectedIndex;
 }
 
 - (void);
@@ -36,7 +26,7 @@
 - (long long);
 - (unsigned long long);
 - (CDStruct_912cb5d2);
-- (void);
+- (void)!";
 - (void);
 - (unsigned long long);
 - (double);
@@ -44,42 +34,34 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (CDStruct_912cb5d2);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
+- (id);
+- (id)Stream [%s] %s:%d videoStream is NULL /* Error: Ran out of types for this method. */;
+- (unsigned long long)didUpdateVideoConfiguration=%d, error=%s, configDict=%s;
 - (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) IMKLayout *layout; // @synthesize layout=_layout;
 @property(readonly, nonatomic) unsigned long long lineCount; // @synthesize lineCount=_lineCount;
-@property(nonatomic) double numberOfLinesInWindow; // @synthesize numberOfLinesInWindow=_numberOfLinesInWindow;
-@property(nonatomic) unsigned long long numberOfVisibleLines; // @synthesize numberOfVisibleLines=_numberOfVisibleLines;
-@property(nonatomic) _Bool respondsToMovement; // @synthesize respondsToMovement=_respondsToMovement;
-@property(copy, nonatomic) NSString *selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(nonatomic) _Bool shouldLoop; // @synthesize shouldLoop=_shouldLoop;
-@property(nonatomic) long long topVisibleLine; // @synthesize topVisibleLine=_topVisibleLine;
-@property(nonatomic, getter=isVerticallyAligned) _Bool verticallyAligned; // @synthesize verticallyAligned=_verticallyAligned;
 
 @end
 

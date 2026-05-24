@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject;
-@protocol SpotlightReceiver, SpotlightScheduledReceiver;
+@class NSMutableDictionary;
 
 @interface CSReceiverConnection
 {
     NSMutableDictionary *_configs;
-    NSMutableDictionary *_indexes;
-    struct os_unfair_lock_s _lock;
-    int _supportedJobs;
-    NSObject<SpotlightReceiver> *_receiver;
-    NSObject<SpotlightScheduledReceiver> *_scheduledReceiver;
-    NSArray *_bundleIDs;
-    NSArray *_contentTypes;
-    NSArray *_INIntentClassNames;
 }
 
 - (int);
 - (_Bool);
-- (int);
+- (int);
 - (id);
 - (int);
 - (int);
@@ -31,8 +22,8 @@
 - (int);
 - (int);
 - (void);
-- (void);
-- (int);
+- (void)_resetParticipants:(id)arg1;
+- (int)IMDFilteringController;
 - (_Bool);
 - (int);
 - (int);
@@ -43,27 +34,21 @@
 - (id);
 - (int);
 - (id);
-- (int);
+- (int)applicationCurrentlyLimited;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)%@;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (int)missing sender entitlement;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *INIntentClassNames; // @synthesize INIntentClassNames=_INIntentClassNames;
-@property(copy, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property(readonly, nonatomic) NSArray *configs;
-@property(copy, nonatomic) NSArray *contentTypes; // @synthesize contentTypes=_contentTypes;
-@property(readonly, nonatomic) NSObject<SpotlightReceiver> *receiver; // @synthesize receiver=_receiver;
-@property(readonly, nonatomic) NSObject<SpotlightScheduledReceiver> *scheduledReceiver; // @synthesize scheduledReceiver=_scheduledReceiver;
 @property(readonly, nonatomic) int supportedJobs; // @synthesize supportedJobs=_supportedJobs;
 
 @end

@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id);
+- (id)initWithMultiverseIdentifier:library: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)_activationMethodForContextMenuInteraction: /* Error: Ran out of types for this method. */;
 - (id)configuration for the top navigation item on the navigation bar (activeLayout is nil with non-nil inactiveLayout). %@;
 
 @end

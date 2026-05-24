@@ -6,38 +6,25 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSString;
-
 @interface MPMediaConditionalPredicate : MPMediaPredicate
 {
     MPMediaPredicate *_conditionPredicate;
-    MPMediaPredicate *_thenPredicate;
-    MPMediaPredicate *_elsePredicate;
 }
 
-+ (id);
++ (id)_resultcollid;
 + (_Bool);
+- (id)"T;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)inlineCodeBlock;
+- (id)handlerName;
+- (id)agesBefore:(id)arg1 hasMessagesAfter:isReplacingItems:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)P;
 - (void)tring",R,C,N,V_queueItemID;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPMediaPredicate *conditionPredicate; // @synthesize conditionPredicate=_conditionPredicate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) MPMediaPredicate *elsePredicate; // @synthesize elsePredicate=_elsePredicate;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) MPMediaPredicate *thenPredicate; // @synthesize thenPredicate=_thenPredicate;
 
 @end
 

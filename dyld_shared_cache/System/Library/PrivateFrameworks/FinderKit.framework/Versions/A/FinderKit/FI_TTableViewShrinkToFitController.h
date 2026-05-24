@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
 @interface FI_TTableViewShrinkToFitController : FI_TShrinkToFitController
 {
     unsigned long long _row;
-    unsigned long long _column;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)
+;
+- (void)initWithQueryStatus:(unsigned long long)arg1 hasQueryEmbedding:hasKeywordResults:hasEmbeddingResults: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long column; // @synthesize column=_column;
 @property(nonatomic) unsigned long long row; // @synthesize row=_row;
 
 @end

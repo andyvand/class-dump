@@ -4,56 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, UIImageView, UISelectionFeedbackGenerator, _UIEdgeFeedbackGenerator;
-@protocol AVTColorSliderDelegate;
+@class CALayer;
 
 @interface AVTColorSlider
 {
     _Bool _shouldTriggerFeedback;
-    id <AVTColorSliderDelegate> _delegate;
-    CALayer *_trackLayer;
-    CAShapeLayer *_thumbClippingLayer;
-    CALayer *_thumbContentLayer;
-    CALayer *_thumbSoftShadowLayer;
-    CAShapeLayer *_thumbBorderLayer;
-    UIImageView *_thumbView;
-    _UIEdgeFeedbackGenerator *_edgeFeedbackGenerator;
-    UISelectionFeedbackGenerator *_selectionFeedbackGenerator;
-    long long _layoutDirection;
 }
 
 - (double);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)i;
 - (void);
+- (id);
+- (void)C;
+- (void);
+- (id);
+- (id);
+- (id)ration_unknown=%d;
 - (void);
 - (id);
 - (void);
-- (id);
+- (struct CGRect)_3;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
-- (struct CGRect);
+- (id);
+- (struct CGRect)led with zero assets.;
 - (_Bool);
 - (id);
 - (id);
@@ -61,22 +50,11 @@
 - (void)ÑIÐ1Â0@ù
 × ;
 - (id)>"32;
-- (void)llectionViewDidEndMultipleSelectionInteraction:(long long)arg1;
-- (_Bool)llectionView:(id)arg1 willDisplayContextMenuWithConfiguration:(id)arg2 animator: /* Error: Ran out of types for this method. */;
+- (void)collectionViewDidEndMultipleSelectionInteraction:(long long)arg1;
+- (_Bool)collectionView:(id)arg1 willDisplayContextMenuWithConfiguration:(id)arg2 animator: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) __weak id <AVTColorSliderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) _UIEdgeFeedbackGenerator *edgeFeedbackGenerator; // @synthesize edgeFeedbackGenerator=_edgeFeedbackGenerator;
-@property(nonatomic) long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(retain, nonatomic) UISelectionFeedbackGenerator *selectionFeedbackGenerator; // @synthesize selectionFeedbackGenerator=_selectionFeedbackGenerator;
-@property(nonatomic) _Bool shouldTriggerFeedback; // @synthesize shouldTriggerFeedback=_shouldTriggerFeedback;
-@property(retain, nonatomic) CAShapeLayer *thumbBorderLayer; // @synthesize thumbBorderLayer=_thumbBorderLayer;
-@property(retain, nonatomic) CAShapeLayer *thumbClippingLayer; // @synthesize thumbClippingLayer=_thumbClippingLayer;
-@property(retain, nonatomic) CALayer *thumbContentLayer; // @synthesize thumbContentLayer=_thumbContentLayer;
-@property(readonly, nonatomic) CALayer *thumbLayer;
-@property(retain, nonatomic) CALayer *thumbSoftShadowLayer; // @synthesize thumbSoftShadowLayer=_thumbSoftShadowLayer;
-@property(retain, nonatomic) UIImageView *thumbView; // @synthesize thumbView=_thumbView;
 @property(retain, nonatomic) CALayer *trackLayer; // @synthesize trackLayer=_trackLayer;
 
 @end

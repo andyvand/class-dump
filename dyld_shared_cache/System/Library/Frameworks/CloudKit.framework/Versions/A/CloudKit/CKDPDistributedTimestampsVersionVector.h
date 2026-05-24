@@ -6,18 +6,11 @@
 
 @interface CKDPDistributedTimestampsVersionVector
 {
-    CDStruct_62a50c50 _clockValueLengths;
-    CDStruct_62a50c50 _clockValues;
     struct {
-        unsigned int *list;
+        unsigned long long *list;
         unsigned long long count;
         unsigned long long size;
-    } _stateValueLengths;
-    struct {
-        int *list;
-        unsigned long long count;
-        unsigned long long size;
-    } _stateValues;
+    } _clockValueLengths;
 }
 
 - (unsigned long long);
@@ -25,7 +18,7 @@
 - (id);
 - (int *);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)h;
 - (unsigned int *);
 - (void);
 - (void);
@@ -50,22 +43,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)scalarRegress:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)1;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *clockValueLengths;
-@property(readonly, nonatomic) unsigned long long clockValueLengthsCount;
-@property(readonly, nonatomic) unsigned long long *clockValues;
 @property(readonly, nonatomic) unsigned long long clockValuesCount;
-@property(readonly, nonatomic) unsigned int *stateValueLengths;
-@property(readonly, nonatomic) unsigned long long stateValueLengthsCount;
-@property(readonly, nonatomic) int *stateValues;
-@property(readonly, nonatomic) unsigned long long stateValuesCount;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 + (id);
-+ (unsigned short);
++ (unsigned short);
 + (_Bool);
 
 @end

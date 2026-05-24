@@ -5,5 +5,6 @@
 //
 
 @protocol CSCommandControlBehaviorMonitorDelegate
+- (void);
 @end
 

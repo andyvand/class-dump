@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OADFontCollection;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADFontScheme
 {
     NSString *_name;
-    OADFontCollection *_majorFont;
-    OADFontCollection *_minorFont;
 }
 
 - (void);
@@ -23,12 +21,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void)State:(id)arg1;
+- (void)updateTextBoxIdsFromState:(id)arg1;
 - (void)H@;
 
 // Remaining properties
-@property(readonly, nonatomic) OADFontCollection *majorFont; // @synthesize majorFont=_majorFont;
-@property(readonly, nonatomic) OADFontCollection *minorFont; // @synthesize minorFont=_minorFont;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

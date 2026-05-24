@@ -4,20 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 @interface CRBundleManager
 {
     NSMutableSet *_bundles;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
 + (id);
 + (Class);
-+ (id);
-- (void);
++ (id)16;
+- (void)outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
 - (void);
 - (id);
 - (void);

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSFileHandle, NSNumber, NSString;
+@class NSFileHandle;
 
 @interface NEVirtualInterfaceParameters
 {
     NSFileHandle *_controlSocket;
-    NSString *_name;
-    void *_userEthernetController;
-    long long _type;
-    unsigned long long _maxPendingPackets;
-    NSData *_ethernetAddress;
-    NSNumber *_mtu;
 }
 
-+ (_Bool);
++ (_Bool)setUuid: /* Error: Ran out of types for this method. */;
 - (void *);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (id);
 - (struct NEVirtualInterface_s *);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -38,12 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSFileHandle *controlSocket; // @synthesize controlSocket=_controlSocket;
-@property(readonly) NSData *ethernetAddress; // @synthesize ethernetAddress=_ethernetAddress;
-@property(readonly) unsigned long long maxPendingPackets; // @synthesize maxPendingPackets=_maxPendingPackets;
-@property(readonly) NSNumber *mtu; // @synthesize mtu=_mtu;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(nonatomic) void *userEthernetController; // @synthesize userEthernetController=_userEthernetController;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDServiceTransaction;
+
 @protocol HMDServiceOwner
+
+@optional
+- (HMDServiceTransaction *)entitledToReceiveTrips;
 @end
 

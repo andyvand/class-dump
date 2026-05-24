@@ -11,14 +11,14 @@
     MARelation *_base;
 }
 
-+ (id);
++ (id)B9;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (_Bool);
 - (id);

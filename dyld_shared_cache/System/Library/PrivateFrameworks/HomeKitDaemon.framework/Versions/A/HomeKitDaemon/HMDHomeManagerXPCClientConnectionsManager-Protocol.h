@@ -5,6 +5,7 @@
 //
 
 @protocol HMDHomeManagerXPCClientConnectionsManager
+- (_Bool)updateActiveSharingHandles:serviceNames: /* Error: Ran out of types for this method. */;
 - (void)confirms to execute trigger;
 
 // Remaining properties

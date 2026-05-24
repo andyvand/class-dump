@@ -4,60 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRegion;
-
 __attribute__((visibility("hidden")))
 @interface NSViewBackingLayerContents
 {
     id _backingStore;
-    id _isUpdating;
-    struct CGAffineTransform pixelTransform;
-    id _invalidationShape;
-    id _image;
-    id _layer;
-    id _contentLayer;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_pendingResponseBytes;
+- (void)_pendingReceiveWork;
+- (void)_onqueue_tlsDisabled;
+- (void)_onqueue_tlsCompletion;
+- (void)_immediatelyReconnectAfterInterruption;
 - (id);
 - (struct CGRect);
 - (id);
+- (struct CGRect)4C6;
+- (void);
+- (struct CGAffineTransform)to this buffer;
+- (void);
+- (id)kConditionalConnectionRequirementPowerPluggedIn;
+- (id)_kCFHTTPCookiePolicyPropertyStoragePartitionIdentifier;
+- (struct CGRect)_kCFHTTPCookiePolicyPropertyStoragePartitionIdentifier;
+- (id);
 - (struct CGRect);
-- (void);
-- (struct CGAffineTransform);
-- (void);
+- (void)@;
 - (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (struct CGRect);
-- (void);
-- (id);
-- (void);
+- (void)6*o;
 - (void);
 - (void);
 - (id);
-- (void *);
+- (void *);
 - (struct CGRect)× ;
 - (void)Iÿ(äwE;
 - (void)(µyÿ.G;K;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGRect affectedRect;
-@property(nonatomic, readonly) NSRegion *affectedRegion;
-@property(nonatomic, readonly) struct CGRect definedRect;
-@property(nonatomic, readonly) NSRegion *definedRegion;
-@property(nonatomic, readonly) struct CGRect dirtyRect;
-@property(nonatomic, readonly) NSRegion *dirtyRegion;
 @property(nonatomic) struct CGAffineTransform pixelTransform; // @synthesize pixelTransform;
-@property(nonatomic) struct CGRect requiredRect;
-@property(nonatomic, retain) NSRegion *requiredRegion;
-@property(nonatomic) struct CGRect retainedRect;
-@property(nonatomic, retain) NSRegion *retainedRegion;
 
 @end
 

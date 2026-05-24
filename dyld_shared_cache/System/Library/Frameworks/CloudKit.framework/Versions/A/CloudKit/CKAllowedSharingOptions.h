@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _SWCollaborationShareOptions;
+@class _SWCollaborationShareOptions;
 
 @interface CKAllowedSharingOptions
 {
     _Bool _allowsAccessRequests;
-    _Bool _supportAllowingAddedParticipantsToInviteOthers;
-    _Bool _accessRequestsOnByDefault;
-    unsigned long long _allowedParticipantPermissionOptions;
-    unsigned long long _allowedParticipantAccessOptions;
-    _SWCollaborationShareOptions *_mutableShareOptions;
-    NSArray *_mutableOptionsGroups;
 }
 
 - (_Bool);
@@ -22,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
@@ -34,20 +28,20 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id),;
 - (void);
 - (unsigned long long);
 - (id);
@@ -58,28 +52,7 @@
 - (void),þ;
 
 // Remaining properties
-@property(getter=isAccessRequestsOnByDefault) _Bool accessRequestsOnByDefault; // @synthesize accessRequestsOnByDefault=_accessRequestsOnByDefault;
-@property unsigned long long allowedParticipantAccessOptions; // @synthesize allowedParticipantAccessOptions=_allowedParticipantAccessOptions;
-@property unsigned long long allowedParticipantPermissionOptions; // @synthesize allowedParticipantPermissionOptions=_allowedParticipantPermissionOptions;
-@property _Bool allowsAccessRequests; // @synthesize allowsAccessRequests=_allowsAccessRequests;
-@property _Bool allowsParticipantsToInviteOthers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *mutableOptionsGroups; // @synthesize mutableOptionsGroups=_mutableOptionsGroups;
 @property(retain, nonatomic) _SWCollaborationShareOptions *mutableShareOptions; // @synthesize mutableShareOptions=_mutableShareOptions;
-@property(readonly, nonatomic) NSArray *optionsGroups;
-@property(readonly, nonatomic) _SWCollaborationShareOptions *shareOptions;
-@property(readonly) Class superclass;
-@property _Bool supportAllowingAccessRequests;
-@property _Bool supportAllowingAddedParticipantsToInviteOthers; // @synthesize supportAllowingAddedParticipantsToInviteOthers=_supportAllowingAddedParticipantsToInviteOthers;
-@property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
 
 @end
 

@@ -6,14 +6,12 @@
 
 #import <NetworkExtension/NEExtensionTunnelProviderHostContext.h>
 
-@class NSString;
-
 @interface NEExtensionPacketTunnelProviderHostContext : NEExtensionTunnelProviderHostContext
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)8@"SFService"16;
 - (void);
 - (void);
 - (void);
@@ -22,13 +20,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

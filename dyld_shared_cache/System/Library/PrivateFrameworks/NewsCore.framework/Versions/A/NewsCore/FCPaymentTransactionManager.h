@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPaymentTransactionObserver, NSMutableDictionary, NSString;
+@class FCPaymentTransactionObserver;
 @protocol FCPaymentTransactionManagerDelegate;
 
 @interface FCPaymentTransactionManager
 {
     id <FCPaymentTransactionManagerDelegate> delegate;
-    FCPaymentTransactionObserver *_paymentTransactionObserver;
-    NSMutableDictionary *_paymentQueueByProductID;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -30,16 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FCPaymentTransactionManagerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *paymentQueueByProductID; // @synthesize paymentQueueByProductID=_paymentQueueByProductID;
 @property(retain, nonatomic) FCPaymentTransactionObserver *paymentTransactionObserver; // @synthesize paymentTransactionObserver=_paymentTransactionObserver;
-@property(readonly) Class superclass;
 
 @end
 

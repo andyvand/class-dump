@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRContextualEntityCollectionTriggered : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)firmwareRevision;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)rIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setVendorIdentifier: /* Error: Ran out of types for this method. */;
 - (id)Ï;
 - (id);
 - (_Bool)SI;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

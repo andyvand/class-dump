@@ -4,46 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPBTransitArtwork, GEOPBTransitShield, GEOStyleAttributes, NSDate, NSString, PBDataReader, PBUnknownFields;
-@protocol GEOTransitArtworkDataSource;
+@class PBDataReader;
 
 @interface GEOPBTransitVehiclePosition
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_artwork;
-    NSString *_color;
-    NSString *_directionName;
-    NSString *_headsign;
-    GEOLatLng *_latLng;
-    GEOPBTransitShield *_modeShield;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned long long _time;
-    unsigned long long _tripId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _bearing;
-    float _speed;
-    struct {
-        unsigned int has_time:1;
-        unsigned int has_tripId:1;
-        unsigned int has_bearing:1;
-        unsigned int has_speed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_artwork:1;
-        unsigned int read_color:1;
-        unsigned int read_directionName:1;
-        unsigned int read_headsign:1;
-        unsigned int read_latLng:1;
-        unsigned int read_modeShield:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
-+ (_Bool)dDetailsFromPlacecard:(id)arg1;
++ (_Bool)setHasViewedDetailsFromPlacecard:(id)arg1;
 - (unsigned long long);
 - (void);
 - (void);
@@ -64,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (float);
+- (float)4q32q40q48q56@64;
 - (unsigned long long);
 - (void);
 - (void);
@@ -81,20 +50,20 @@
 - (void);
 - (void);
 - (id);
+- (void)ffset:(id)arg1 ];
 - (void);
-- (void);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (id);
-- (float);
+- (float)__objc_protolist__DATA_CONST;
 - (_Bool);
-- (id);
+- (id)for Contacts access;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (void)q·*1Â0@ù
 × ;
@@ -105,48 +74,12 @@
 - (id)è*û;
 - (unsigned long long)|)­Xû(;
 - (double)ed!;
-- (id)ive;
+- (id)Live;
 - (void)¼BAÇÖÆØ¢P@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artworkDataSource;
-@property(nonatomic) float bearing;
-@property(retain, nonatomic) NSString *color;
-@property(readonly, copy, nonatomic) NSString *colorHexString;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *direction;
-@property(retain, nonatomic) NSString *directionName;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(nonatomic) _Bool hasBearing;
-@property(readonly, nonatomic) _Bool hasColor;
-@property(readonly, nonatomic) _Bool hasDirectionName;
-@property(readonly, nonatomic) _Bool hasHeadsign;
-@property(readonly, nonatomic) _Bool hasLatLng;
-@property(readonly, nonatomic) _Bool hasModeShield;
-@property(nonatomic) _Bool hasSpeed;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(nonatomic) _Bool hasTime;
-@property(nonatomic) _Bool hasTripId;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double heading;
-@property(retain, nonatomic) NSString *headsign;
-@property(retain, nonatomic) GEOLatLng *latLng;
-@property(retain, nonatomic) GEOPBTransitShield *modeShield;
-@property(nonatomic) float speed;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long time;
-@property(readonly, nonatomic) NSDate *timestamp;
 @property(readonly, nonatomic) unsigned long long tripID;
-@property(nonatomic) unsigned long long tripId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

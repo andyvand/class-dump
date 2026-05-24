@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _SFPBEngagementSignal
 {
     int _version;
-    float _serverScore;
-    float _localScore;
-    int _serverScoreConfidence;
-    int _localScoreConfidence;
-    NSArray *_domainEngagementScores;
 }
 
 - (void);
@@ -33,30 +26,17 @@
 - (id);
 - (int);
 - (void);
-- (unsigned long long);
+- (unsigned long long)E;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)!;
+- (void)P;
+- (id)loadDatesForAssetSequence:(id)arg1 atEnd: /* Error: Ran out of types for this method. */;
+- (id)h identifier:%i, error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)hotosAlbumImage: /* Error: Ran out of types for this method. */;
+- (void)setPhotosAlbumImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *domainEngagementScores; // @synthesize domainEngagementScores=_domainEngagementScores;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float localScore; // @synthesize localScore=_localScore;
-@property(nonatomic) int localScoreConfidence; // @synthesize localScoreConfidence=_localScoreConfidence;
-@property(nonatomic) float serverScore; // @synthesize serverScore=_serverScore;
-@property(nonatomic) int serverScoreConfidence; // @synthesize serverScoreConfidence=_serverScoreConfidence;
-@property(readonly) Class superclass;
 @property(nonatomic) int version; // @synthesize version=_version;
 
 @end

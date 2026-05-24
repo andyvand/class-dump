@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface FCHandlePushNotificationResult
 {
     _Bool _handled;
-    NSSet *_recordZoneIDs;
 }
 
-- (_Bool);
+- (_Bool),V_didReachEnd;
 - (id);
 - (id)out a database;
-- (void)rSpecifiedArticleIDs;
+- (void)publisherSpecifiedArticleIDs;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=wasHandled) _Bool handled;
-@property(readonly, nonatomic) NSSet *recordZoneIDs;
 
 @end
 

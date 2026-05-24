@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface AVAssetPlannerTrackSegmentState
 {
     NSURL *_segmentURL;
-    CDStruct_e83c9415 _timeRange;
-    long long _frameCount;
-    _Bool _hasCompleted;
-    _Bool _requiresFrameCount;
 }
 
 + (id);
-+ (id);
-- (void);
++ (id);
+- (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)h?;
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -34,11 +30,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property long long frameCount; // @synthesize frameCount=_frameCount;
-@property _Bool hasCompleted; // @synthesize hasCompleted=_hasCompleted;
-@property _Bool requiresFrameCount; // @synthesize requiresFrameCount=_requiresFrameCount;
 @property(copy) NSURL *segmentURL; // @synthesize segmentURL=_segmentURL;
-@property CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 
 @end
 

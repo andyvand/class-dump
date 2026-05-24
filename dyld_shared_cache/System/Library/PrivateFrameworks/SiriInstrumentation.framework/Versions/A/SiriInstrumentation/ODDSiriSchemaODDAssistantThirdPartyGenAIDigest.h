@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantThirdPartyGenAICounts, ODDSiriSchemaODDAssistantThirdPartyGenAIDimensions;
+@class ODDSiriSchemaODDAssistantThirdPartyGenAIDimensions;
 
 @interface ODDSiriSchemaODDAssistantThirdPartyGenAIDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantThirdPartyGenAIDimensions *_dimensions;
-    ODDSiriSchemaODDAssistantThirdPartyGenAICounts *_counts;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
 }
 
-- (void);
+- (void)	;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,20 +28,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (id)0@ù
 × ;
 - (id)I,N,V_voiceProfilePitchInHz;
 - (id)e;
-- (id)LROUTERERRORDOMAIN_UNKNOWN;
+- (id)NLROUTERERRORDOMAIN_UNKNOWN;
 - (void).integerPayload;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantThirdPartyGenAICounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantThirdPartyGenAIDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

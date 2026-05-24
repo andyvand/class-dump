@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATAddress, NSData;
+@class NSData;
 
 @interface CATEndPoint
 {
     unsigned int _port;
-    NSData *_data;
-    CATAddress *_address;
 }
 
 - (_Bool);
+- (id)imageWithData:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)_setupSharedContext:pixelFormat: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CATAddress *address; // @synthesize address=_address;
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned int port; // @synthesize port=_port;
 
 @end
 

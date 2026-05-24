@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceDomainSpecification, BSXPCServiceConnectionListener, NSDictionary, NSMutableArray;
+@class BSServiceDomainSpecification;
 
 @interface BSServiceDomain
 {
     BSServiceDomainSpecification *_specification;
-    BSXPCServiceConnectionListener *_xpcListener;
-    NSDictionary *_identifierToService;
-    NSMutableArray *_lock_incomingConnections;
-    unsigned long long _lock_activations;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_deactivating;
-    _Bool _lock_invalidated;
 }
 
 - (id);
-- (id);
+- (id)createDefaultQueueWithIdentifier:concurrencyAttribute: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -13,14 +13,14 @@
     FigAssetVariantQualifierWithPredicateObjC *_figAssetVariantQualifier;
 }
 
-+ (_Bool);
++ (_Bool)E;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)u;
 
 @end
 

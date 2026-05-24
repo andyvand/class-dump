@@ -9,22 +9,20 @@
 @interface NUImageTransformOrientation : NUImageTransform
 {
     CDStruct_d58201db _inputImageSize;
-    CDStruct_f261e59c _inputImageOrigin;
-    long long _orientation;
 }
 
 - (CDStruct_95fa7c00);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGPoint);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (long long);
 
 // Remaining properties

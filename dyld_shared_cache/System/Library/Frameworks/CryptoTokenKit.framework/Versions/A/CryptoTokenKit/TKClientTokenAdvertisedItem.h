@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, TKClientTokenSession;
+@class TKClientTokenSession;
 
 @interface TKClientTokenAdvertisedItem
 {
     id _secRef;
-    TKClientTokenSession *_session;
-    NSDictionary *_keychainAttributes;
 }
 
 - (id);
@@ -18,7 +16,7 @@
 - (struct __SecKey *);
 - (id);
 - (struct __SecCertificate *);
-- (struct __SecIdentity *);
+- (struct __SecIdentity *)N3fst18DeterminizeFsaImplINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEiEELNS_10GallicTypeE4EEENS_19GallicCommonDivisorIiS4_LS6_4ENS_20DefaultCommonDivisorIS4_EEEENS_24DefaultDeterminizeFilterIS7_EENS_28DefaultDeterminizeStateTableIS7_NS_18IntegerFilterStateIaEEEEEE;
 - (id);
 - (id);
 - (id);
@@ -26,14 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct __SecCertificate *certificateRef;
-@property(readonly, nonatomic) struct __SecIdentity *identityRef;
-@property(readonly, nonatomic) struct __SecKey *keyRef;
-@property(readonly, nonatomic) unsigned long long keyUsage;
-@property(readonly, nonatomic) NSDictionary *keychainAttributes; // @synthesize keychainAttributes=_keychainAttributes;
-@property(readonly, nonatomic) id keychainClass;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSData *objectID;
 @property(readonly, nonatomic) TKClientTokenSession *session; // @synthesize session=_session;
 
 @end

@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)rldtracking.deviceModel;
 + (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)selectedSegmentIndex;
 - (unsigned long long);
 - (id);
 

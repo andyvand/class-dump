@@ -6,8 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
-
 @interface MTLToolsIndirectRenderCommand : MTLToolsObject
 {
 }
@@ -28,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -49,7 +47,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -64,24 +62,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)P;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

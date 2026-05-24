@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface WBSCRDTPositionSortValue
 {
     long long _sortValue;
-    NSString *_deviceIdentifier;
-    long long _changeID;
 }
 
 + (_Bool);
@@ -18,7 +14,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)works/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement;
 - (id);
 - (unsigned long long);
 - (long long);
@@ -28,13 +24,10 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)(;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long changeID; // @synthesize changeID=_changeID;
-@property(readonly, copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) long long sortValue; // @synthesize sortValue=_sortValue;
 
 @end

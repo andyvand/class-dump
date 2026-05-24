@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSUUID;
+@class NSUUID;
 
 @interface UIAccessibilityCustomRotor
 {
     NSUUID *uuid;
-    id targetElement;
-    long long systemRotorType;
-    NSAttributedString *_attributedName;
-    CDUnknownBlockType _itemSearchBlock;
 }
 
 @end

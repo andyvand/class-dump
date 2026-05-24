@@ -7,13 +7,9 @@
 @interface NewsUI2.LocalOnboardingSearchCompleter
 {
     id _searchCompletions;
-    id _isSearching;
-    id _searchText;
-    id completer;
-    id _activeRegion;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)MagazineSectionServiceType;

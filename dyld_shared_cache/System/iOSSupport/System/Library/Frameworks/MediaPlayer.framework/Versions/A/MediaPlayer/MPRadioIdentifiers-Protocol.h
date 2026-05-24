@@ -7,11 +7,11 @@
 @class NSString;
 
 @protocol MPRadioIdentifiers
+- (NSString *);
+- (NSString *)isXmlparse;
+- (long long)aClass:%@,callback:%x /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *stationEventID;
-@property(readonly, copy, nonatomic) NSString *stationHash;
-@property(readonly, nonatomic) long long stationID;
 @property(readonly, copy, nonatomic) NSString *stationStringID;
 @end
 

@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, NSString, _SFPBTextColumn;
 
 @protocol _SFPBTextColumnsCardSection
-- (NSArray *)ersAtIndex: /* Error: Ran out of types for this method. */;
-- (int)nique_ids_of_visible_buttons;
+- (unsigned int);
+- (NSString *);
+- (void);
+- (void)!�N;
+- (_Bool)setNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)setInterruptionHandler: /* Error: Ran out of types for this method. */;
+- (void)_buildStoreURLRequestWithUpdatedDomains:(_SFPBTextColumn *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)tractNetworkArtworkDataSource:(int)arg1 %p setVideoArtworkCacheURL:error creating directory at URL %{public}@ /* Error: Ran out of types for this method. */;
+- (NSData *)HRelationshipChangeRequestHelper",R,N,V_representativeAssetsHelper;
+- (NSArray *)storeIdentifiersAtIndex: /* Error: Ran out of types for this method. */;
+- (int)unique_ids_of_visible_buttons;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSArray *columns;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) unsigned int titleWeight;
-@property(copy, nonatomic) NSString *type;
 @end
 

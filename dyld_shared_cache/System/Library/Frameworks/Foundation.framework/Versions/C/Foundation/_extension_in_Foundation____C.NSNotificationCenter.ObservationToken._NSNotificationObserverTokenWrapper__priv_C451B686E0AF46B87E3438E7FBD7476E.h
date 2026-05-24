@@ -7,7 +7,6 @@
 @interface (extension in Foundation):__C.NSNotificationCenter.ObservationToken._NSNotificationObserverTokenWrapper__priv_C451B686E0AF46B87E3438E7FBD7476E
 {
     id token;
-    id center;
 }
 
 @end

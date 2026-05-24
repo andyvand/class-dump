@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface CPLLibraryState
 {
     _Bool _disabled;
-    NSDate *_disabledDate;
-    NSDate *_deleteDate;
 }
 
 + (_Bool);
@@ -18,22 +14,21 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool)àªý{A©ôOÂ¨ÿ_Ö#ÕôO¾©ý{©ýC;
+- (unsigned long long)h
+;
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)ñ°1Â0@ù
 × ;
 - (_Bool)exit from %{public}@;
 - (void)!;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *deleteDate; // @synthesize deleteDate=_deleteDate;
 @property(nonatomic, getter=isDisabled) _Bool disabled; // @synthesize disabled=_disabled;
-@property(copy, nonatomic) NSDate *disabledDate; // @synthesize disabledDate=_disabledDate;
 
 @end
 

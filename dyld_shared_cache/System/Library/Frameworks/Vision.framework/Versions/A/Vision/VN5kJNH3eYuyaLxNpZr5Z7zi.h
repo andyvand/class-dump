@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)s.CNContainerCache;
 - (void);
 - (_Bool);
 - (id);

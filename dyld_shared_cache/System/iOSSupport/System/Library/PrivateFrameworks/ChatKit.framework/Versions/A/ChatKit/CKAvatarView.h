@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface CKAvatarView
 {
     UIViewController *_presentingViewController;
-    NSString *_preferredHandle;
 }
 
 - (void);
@@ -20,14 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)animationDelegate;
 - (void)HD;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_ck_setContextToken:) NSString *_ck_contextToken;
-@property(nonatomic) __weak NSString *preferredHandle; // @synthesize preferredHandle=_preferredHandle;
 @property(nonatomic) __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
 
 @end

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSMutableOrderedSet *_requestedHandles;
 }
 
-- (void);
+- (void)l;
 - (id);
-- (id);
+- (id)l;
 - (id);
 - (void);
 

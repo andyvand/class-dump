@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailCustomTextStorageTextEditorProxy
 {
     id editorID;
-    id weakReferences;
 }
 
 @end

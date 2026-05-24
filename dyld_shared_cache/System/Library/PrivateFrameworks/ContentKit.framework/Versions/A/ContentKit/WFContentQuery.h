@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, WFContentPredicate;
+@class WFContentPredicate;
 
 @interface WFContentQuery
 {
     WFContentPredicate *_predicate;
-    NSArray *_sortDescriptors;
-    NSDictionary *_userInfo;
-    struct _WFContentSlice _slice;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)V;
 - (id);
 - (struct _WFContentSlice);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *containedProperties;
 @property(readonly, nonatomic) WFContentPredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) struct _WFContentSlice slice; // @synthesize slice=_slice;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

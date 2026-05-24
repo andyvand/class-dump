@@ -12,9 +12,9 @@
 
 + (Class)redLibrarySuggestionsProcessor] Number of moments matched by evaluator:%zu /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)__objc_classlist__DATA_CONST;
+- (id)setShouldDescribeEmptyElementWithRoleDescription: /* Error: Ran out of types for this method. */;
+- (id)setIsMenuController:(id)arg1;
 - (id);
 - (id);
 

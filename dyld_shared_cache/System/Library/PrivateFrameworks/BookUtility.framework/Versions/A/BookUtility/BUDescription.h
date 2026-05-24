@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject, NSString;
 
 @interface BUDescription
 {
     NSObject *_object;
-    Class _class;
-    void *_cfType;
-    NSString *_header;
-    NSMutableDictionary *_fields;
-    NSMutableArray *_fieldOrder;
-    unsigned long long _fieldNameWidth;
-    _Bool _commaSeparated;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
++ (id)6;
+- (id)GROUP_YOU_UPDATE_BACKGROUND_STATUS_SENSITIVE;
 - (void);
 - (void);
 - (void);
@@ -33,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)k/Versions/A/Accelerate;
 - (id);
 - (id);
 - (void);

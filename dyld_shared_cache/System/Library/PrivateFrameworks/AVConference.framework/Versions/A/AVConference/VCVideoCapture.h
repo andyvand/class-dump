@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, VCCannedVideoCaptureSource, VideoAttributes;
-@protocol VCVideoCaptureServer;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoCapture
 {
     id _captureServer;
-    struct tagVCVideoCaptureServerProtocolRealtimeInstanceVTable _protocolFunctions;
-    NSString *_sourceUID;
-    VideoAttributes *_localVideoAttributes;
-    struct _opaque_pthread_mutex_t _sinkArrayMutex;
-    unsigned int _sinkCount;
-    struct _VCSingleLinkedList _sinkList;
-    VCCannedVideoCaptureSource *_cannedScreenCaptureSource;
 }
 
 - (unsigned int);
@@ -31,9 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) VCCannedVideoCaptureSource *cannedScreenCaptureSource;
-@property(readonly) NSObject<VCVideoCaptureServer> *captureServer;
-@property(readonly) struct tagVCVideoCaptureServerProtocolRealtimeInstanceVTable *protocolFunctions;
 @property(readonly) unsigned int sinkCount;
 
 @end

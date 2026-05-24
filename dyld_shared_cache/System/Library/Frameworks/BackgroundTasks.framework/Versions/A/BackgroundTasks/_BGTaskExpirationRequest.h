@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BGTask, _DASActivity;
+@class _DASActivity;
 
 __attribute__((visibility("hidden")))
 @interface _BGTaskExpirationRequest
 {
     _DASActivity *_schedulerActivity;
-    BGTask *_task;
-    long long _reason;
 }
 
 + (id);
@@ -25,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property long long reason; // @synthesize reason=_reason;
 @property(readonly) _DASActivity *schedulerActivity; // @synthesize schedulerActivity=_schedulerActivity;
-@property(readonly) BGTask *task; // @synthesize task=_task;
 
 @end
 

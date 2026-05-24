@@ -9,26 +9,23 @@
 @interface HMIConfidence
 {
     double _value;
-    NSArray *_levelThresholds;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
 - (void);
 - (long long)ÿ¬© å<;
 
 // Remaining properties
-@property(readonly) long long level;
 @property(readonly) NSArray *levelThresholds; // @synthesize levelThresholds=_levelThresholds;
-@property(readonly) double value; // @synthesize value=_value;
 
 @end
 

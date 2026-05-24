@@ -7,7 +7,6 @@
 @interface IMAP2Connection.Deflate.Stream__priv_85B4B7D50F9E6C0051A8CAEBC1010C16
 {
     id state;
-    id kind;
 }
 
 @end

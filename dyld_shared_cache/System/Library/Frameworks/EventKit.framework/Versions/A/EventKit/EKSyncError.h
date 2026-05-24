@@ -6,31 +6,27 @@
 
 #import <EventKit/EKObject.h>
 
-@class NSDictionary;
-
 @interface EKSyncError : EKObject
 {
 }
 
 + (Class);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)IDWithRetry] Unable to getDeviceUID - will retry up to %ld times with intervals [%@];
 - (id);
-- (id);
-- (void);
+- (void)/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit;
 - (id);
 - (void);
 - (void)S;
 - (unsigned long long)nfirmSuggestedEvent:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long errorCode;
 @property(readonly, nonatomic) unsigned long long errorType;
-@property(readonly, nonatomic) NSDictionary *userInfo;
 
 @end
 

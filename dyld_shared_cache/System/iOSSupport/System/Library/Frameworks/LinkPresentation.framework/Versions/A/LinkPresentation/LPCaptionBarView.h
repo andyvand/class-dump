@@ -6,102 +6,59 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class CAGradientLayer, LPBackgroundColorView, LPCaptionBarAccessoryView, LPCaptionBarButtonView, LPCaptionBarPresentationProperties, LPCaptionBarStyle, LPCollaborationFooterView, LPInlineMediaPlaybackInformation, LPPlayButtonView, LPVerticalTextStackView, NSRegularExpression, NSString, UIVisualEffectView;
-@protocol LPTextStyleable, LPTextStyleable><LPSubtitleButtonContainer;
+@class LPCaptionBarStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPCaptionBarView : LPComponentView
 {
     LPCaptionBarStyle *_style;
-    LPCaptionBarPresentationProperties *_presentationProperties;
-    LPComponentView *_leftIconView;
-    LPComponentView *_rightIconView;
-    LPPlayButtonView *_playButton;
-    LPCaptionBarAccessoryView *_leftAccessoryView;
-    LPCaptionBarAccessoryView *_rightAccessoryView;
-    LPCaptionBarButtonView *_buttonView;
-    LPCaptionBarButtonView *_secondaryButtonView;
-    LPComponentView *_leftIconBadgeView;
-    LPComponentView *_rightIconBadgeView;
-    UIVisualEffectView *_blurEffectView;
-    CAGradientLayer *_maskLayer;
-    LPBackgroundColorView *_backgroundColorView;
-    LPVerticalTextStackView *_textStackView;
-    LPInlineMediaPlaybackInformation *_inlinePlaybackInformation;
-    _Bool _hasEverBuilt;
-    NSString *_captionType;
-    _Bool _useProgressSpinner;
-    LPCollaborationFooterView *_collaborationFooterView;
-    NSRegularExpression *_emphasizedTextExpression;
-    LPComponentView<LPTextStyleable> *_aboveTopCaptionView;
-    LPComponentView<LPTextStyleable> *_topCaptionView;
-    LPComponentView<LPTextStyleable><LPSubtitleButtonContainer> *_bottomCaptionView;
-    LPComponentView<LPTextStyleable> *_belowBottomCaptionView;
-    struct UIEdgeInsets _textSafeAreaInset;
-    struct UIEdgeInsets _backgroundOutset;
 }
 
-- (_Bool);
+- (_Bool)tapRecognizer;
+- (void)tailMask;
+- (id)tableView:willDisplayCell:forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)systemGray3Color;
+- (void)systemDidEnterDataProtectionLock;
+- (void)systemDefaultScrollAnimation;
+- (void)syncProgressTopPadding;
+- (void)syncProgressIndeterminateProgressBarTintColor;
+- (void)supportsPlacementSparse;
+- (void)supportsExpressiveText;
+- (void)supportsControllerReuse;
+- (void)supportsContentExtensions;
+- (void)supportsCommunicationSafety;
+- (void)supplementaryViewKindForGUID:(id)arg1;
+- (id)subMenuForScreenSharingOptionsWithHandle:(id)arg1 conversation:andContactsManager: /* Error: Ran out of types for this method. */;
+- (void)styledAttributedStringFromString: /* Error: Ran out of types for this method. */;
+- (id)stickerDropPreviewMaxDimension;
+- (_Bool)statusAttributedString;
+- (id)startGrowAnimationWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)spotlightSearchSegmentedControlBackgroundColor;
+- (_Bool)splitViewDividerXPosition;
+- (id)splitViewController:willHideViewController:withBarButtonItem:forPopoverController: /* Error: Ran out of types for this method. */;
+- (id)splitViewController:willHideColumn: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)splitViewController:topColumnForCollapsingToProposedTopColumn: /* Error: Ran out of types for this method. */;
+- (void)spamInboxEnabled;
+- (id)socialLayerFullScreenBalloonController;
+- (struct CGSize)showMMSSetup;
+- (void)shouldUseSimpleTimestampsInTranscript;
+- (void)shouldUnloadTranscriptTextForChangeFromTraitCollection:toTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)shouldSizeInitialViewingMessageCount;
+- (id)shouldShowLocationStringForOneToOneConversation;
+- (id)assetsDataSourceManagerDidFinishBackgroundFetching: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
+- (id)RemoteHangup;
+- (id)walletRemoteRegistrationRequestResultMessage_Value;
 - (void);
 - (void)!hEù1Â0@ù
 × ;
-- (id)oresTextSafeAreaInsets: /* Error: Ran out of types for this method. */;
+- (id)setButtonIgnoresTextSafeAreaInsets: /* Error: Ran out of types for this method. */;
 - (id)ðv;
 - (void)Ì;
 
 // Remaining properties
-@property(retain, nonatomic) LPComponentView<LPTextStyleable> *aboveTopCaptionView; // @synthesize aboveTopCaptionView=_aboveTopCaptionView;
-@property(nonatomic) struct UIEdgeInsets backgroundOutset; // @synthesize backgroundOutset=_backgroundOutset;
-@property(retain, nonatomic) LPComponentView<LPTextStyleable> *belowBottomCaptionView; // @synthesize belowBottomCaptionView=_belowBottomCaptionView;
-@property(retain, nonatomic) LPComponentView<LPTextStyleable><LPSubtitleButtonContainer> *bottomCaptionView; // @synthesize bottomCaptionView=_bottomCaptionView;
-@property(readonly, nonatomic) _Bool captionTextIsTruncated;
-@property(retain, nonatomic) LPCollaborationFooterView *collaborationFooterView; // @synthesize collaborationFooterView=_collaborationFooterView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) struct UIEdgeInsets textSafeAreaInset; // @synthesize textSafeAreaInset=_textSafeAreaInset;
-@property(retain, nonatomic) LPComponentView<LPTextStyleable> *topCaptionView; // @synthesize topCaptionView=_topCaptionView;
 @property(nonatomic) _Bool useProgressSpinner; // @synthesize useProgressSpinner=_useProgressSpinner;
 
 @end

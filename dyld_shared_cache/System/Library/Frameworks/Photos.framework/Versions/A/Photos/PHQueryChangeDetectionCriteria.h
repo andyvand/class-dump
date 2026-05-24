@@ -9,7 +9,6 @@
 @interface PHQueryChangeDetectionCriteria
 {
     NSMutableDictionary *_attributeIndexValuesByEntityName;
-    NSMutableDictionary *_relationshipIndexValuesByEntityName;
 }
 
 - (id);

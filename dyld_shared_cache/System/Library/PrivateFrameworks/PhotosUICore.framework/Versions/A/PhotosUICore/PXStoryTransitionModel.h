@@ -8,20 +8,14 @@
 {
     struct {
         long long _field1;
-        CDStruct_c0304e72 _field2;
+        CDStruct_58af7e62 _field2;
         long long _field3;
     } *_clipInfos;
-    long long _capacity;
-    long long _count;
-    CDStruct_b1a1f14e _segmentTransitionInfo;
-    CDStruct_cac3ced6 _transitionInfo;
-    CDStruct_99303aee _orderOutCompositionInfo;
-    CDStruct_99303aee _orderInCompositionInfo;
 }
 
-- (CDStruct_b1a1f14e);
-- (CDStruct_99303aee);
-- (CDStruct_99303aee);
+- (CDStruct_912cb5d2);
+- (CDStruct_ee3879f9);
+- (CDStruct_ee3879f9);
 - (id);
 - (void);
 - (void);
@@ -29,10 +23,7 @@
 - (CDStruct_cac3ced6)Uÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_99303aee orderInCompositionInfo; // @synthesize orderInCompositionInfo=_orderInCompositionInfo;
-@property(readonly, nonatomic) CDStruct_99303aee orderOutCompositionInfo; // @synthesize orderOutCompositionInfo=_orderOutCompositionInfo;
-@property(readonly, nonatomic) CDStruct_b1a1f14e segmentTransitionInfo; // @synthesize segmentTransitionInfo=_segmentTransitionInfo;
-@property(readonly, nonatomic) CDStruct_cac3ced6 transitionInfo; // @synthesize transitionInfo=_transitionInfo;
+@property(readonly, nonatomic) CDStruct_912cb5d2 segmentTransitionInfo; // @synthesize segmentTransitionInfo=_segmentTransitionInfo;
 
 @end
 

@@ -9,12 +9,10 @@
 @interface NSSimpleCString : NSString
 {
     char *bytes;
-    int numBytes;
-    int _unused;
 }
 
 + (id)Ø\Pÿ]Pÿ;
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (long long);
@@ -26,13 +24,13 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)minHorizontalSyncOffsetClocks;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id)qz5°1Â0@ù
 × ;
-- (_Bool)esources;
+- (_Bool)endAccessingResources;
 - (unsigned short)und or beyond bounds (%ld);
 - (unsigned long long);
 - (const char *)ðoÿÝÚ/kLoÿÚ/k,oÿÚ/k¤oÿMÚ/kFoÿ-Ú/kFoÿ-Ú/kFoÿMÚ/kÄoÿ=Ú/koÿ]Ú/khoÿõÙ/kÄoÿåÙ/käoÿíÙ/koÿÚ/k,oÿEÚ/koÿ;

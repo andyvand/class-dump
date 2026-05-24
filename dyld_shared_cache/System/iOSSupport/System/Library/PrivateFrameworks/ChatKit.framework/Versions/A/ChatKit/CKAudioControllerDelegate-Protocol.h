@@ -5,5 +5,8 @@
 //
 
 @protocol CKAudioControllerDelegate
+
+@optional
+- (void);
 @end
 

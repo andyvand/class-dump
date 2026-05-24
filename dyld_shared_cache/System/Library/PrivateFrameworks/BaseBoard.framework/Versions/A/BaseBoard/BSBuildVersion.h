@@ -9,15 +9,11 @@
 @interface BSBuildVersion
 {
     NSString *_stringRepresentation;
-    long long _majorBuildNumber;
-    NSString *_majorBuildLetterString;
-    long long _minorBuildNumber;
-    NSString *_minorBuildLetterString;
 }
 
 + (id);
 - (long long);
-- (id);
+- (id)i: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -36,11 +32,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *majorBuildLetterString; // @synthesize majorBuildLetterString=_majorBuildLetterString;
 @property(readonly, nonatomic) long long majorBuildNumber; // @synthesize majorBuildNumber=_majorBuildNumber;
-@property(readonly, copy, nonatomic) NSString *minorBuildLetterString; // @synthesize minorBuildLetterString=_minorBuildLetterString;
-@property(readonly, nonatomic) long long minorBuildNumber; // @synthesize minorBuildNumber=_minorBuildNumber;
-@property(readonly, copy, nonatomic) NSString *stringRepresentation; // @synthesize stringRepresentation=_stringRepresentation;
 
 @end
 

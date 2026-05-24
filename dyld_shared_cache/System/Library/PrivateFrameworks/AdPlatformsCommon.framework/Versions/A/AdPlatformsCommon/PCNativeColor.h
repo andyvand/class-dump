@@ -9,8 +9,6 @@
 @interface PCNativeColor
 {
     NSArray *_lightModeColors;
-    NSArray *_darkModeColors;
-    long long _gradientOrientation;
 }
 
 + (_Bool);
@@ -21,13 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)rS;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *darkModeColors; // @synthesize darkModeColors=_darkModeColors;
-@property(nonatomic) long long gradientOrientation; // @synthesize gradientOrientation=_gradientOrientation;
 @property(retain, nonatomic) NSArray *lightModeColors; // @synthesize lightModeColors=_lightModeColors;
 
 @end

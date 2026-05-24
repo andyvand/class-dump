@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface TUContinuityConversation
 {
     NSUUID *_uuid;
-    NSString *_displayName;
-    unsigned long long _avMode;
-    long long _letMeInRequestState;
-    NSNumber *_state;
-    long long _remoteMemberCount;
-    NSArray *_remoteMemberContactIdentifiers;
-    NSData *_handlesHash;
 }
 
 + (_Bool);
@@ -24,23 +17,16 @@
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long):MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)er: /* Error: Ran out of types for this method. */;
+- (id)ed from safe browsing service is empty;
+- (void)setAudioSourceIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long avMode; // @synthesize avMode=_avMode;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSData *handlesHash; // @synthesize handlesHash=_handlesHash;
-@property(readonly, nonatomic) long long letMeInRequestState; // @synthesize letMeInRequestState=_letMeInRequestState;
-@property(readonly, nonatomic) NSArray *remoteMemberContactIdentifiers; // @synthesize remoteMemberContactIdentifiers=_remoteMemberContactIdentifiers;
-@property(readonly, nonatomic) long long remoteMemberCount; // @synthesize remoteMemberCount=_remoteMemberCount;
-@property(readonly, nonatomic) NSNumber *state; // @synthesize state=_state;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
-
 @interface UXBarItem
 {
     _Bool _enabled;
-    NSString *_title;
-    NSString *_accessibilityLabel;
-    NSImage *_image;
-    long long _tag;
-    NSString *_accessibilityIdentifier;
 }
 
 - (void);
@@ -29,15 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)!@e!@g*;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) long long tag; // @synthesize tag=_tag;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

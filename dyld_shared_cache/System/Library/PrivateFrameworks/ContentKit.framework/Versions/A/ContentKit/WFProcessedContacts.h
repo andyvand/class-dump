@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WFCommunicationMethod, WFContentAttributionSet;
+@class NSArray;
 
 @interface WFProcessedContacts
 {
     NSArray *_entries;
-    WFContentAttributionSet *_attributionSet;
-    WFCommunicationMethod *_communicationMethod;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) WFContentAttributionSet *attributionSet; // @synthesize attributionSet=_attributionSet;
-@property(readonly, nonatomic) WFCommunicationMethod *communicationMethod; // @synthesize communicationMethod=_communicationMethod;
 @property(readonly, nonatomic) NSArray *entries; // @synthesize entries=_entries;
 
 @end

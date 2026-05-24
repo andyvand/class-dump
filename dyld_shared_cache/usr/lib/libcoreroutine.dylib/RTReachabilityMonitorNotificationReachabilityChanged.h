@@ -11,8 +11,8 @@
     unsigned long long _reachability;
 }
 
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long reachability; // @synthesize reachability=_reachability;

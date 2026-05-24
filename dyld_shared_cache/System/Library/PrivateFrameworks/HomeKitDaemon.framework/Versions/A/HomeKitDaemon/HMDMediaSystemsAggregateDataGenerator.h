@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (unsigned long long);
 - (id);
-- (id);
+- (id)aa_primaryAppleAccount;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)setCanPropagateOriginalAuxiliaryData: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ceClassification"8;
 

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _CNAutocompleteAggregateSourceInclusionPolicy
 {
     NSArray *_policies;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -24,22 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool includeCalendarServers;
-@property(readonly) _Bool includeContacts;
-@property(readonly) _Bool includeDirectoryServers;
-@property(readonly) _Bool includeLocalExtensions;
-@property(readonly) _Bool includePredictions;
-@property(readonly) _Bool includeRecents;
-@property(readonly) _Bool includeSuggestions;
-@property(readonly) _Bool includeSupplementalResults;
 @property(readonly) NSArray *policies; // @synthesize policies=_policies;
-@property(readonly) Class superclass;
 
 @end
 

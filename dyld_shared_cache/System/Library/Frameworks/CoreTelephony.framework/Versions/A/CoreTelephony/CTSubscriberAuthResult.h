@@ -9,14 +9,9 @@
 @interface CTSubscriberAuthResult
 {
     NSData *_auts;
-    NSData *_res;
-    NSData *_sres;
-    NSData *_kc;
-    NSData *_ck;
-    NSData *_ik;
 }
 
-+ (_Bool);
++ (_Bool)ilure state;
 - (id);
 - (void);
 - (void);
@@ -26,20 +21,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9h;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)optionPasscodeScreenBlur;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *auts; // @synthesize auts=_auts;
-@property(retain, nonatomic) NSData *ck; // @synthesize ck=_ck;
-@property(retain, nonatomic) NSData *ik; // @synthesize ik=_ik;
-@property(retain, nonatomic) NSData *kc; // @synthesize kc=_kc;
-@property(retain, nonatomic) NSData *res; // @synthesize res=_res;
-@property(retain, nonatomic) NSData *sres; // @synthesize sres=_sres;
 
 @end
 

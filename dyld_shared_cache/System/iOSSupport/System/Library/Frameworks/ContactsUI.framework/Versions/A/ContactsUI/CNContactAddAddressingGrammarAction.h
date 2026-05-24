@@ -6,13 +6,12 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class NSIndexPath, NSTermOfAddress;
+@class NSTermOfAddress;
 
 __attribute__((visibility("hidden")))
 @interface CNContactAddAddressingGrammarAction : CNContactAction
 {
     NSTermOfAddress *_selectedAddressingGrammar;
-    NSIndexPath *_indexPath;
 }
 
 + (id);
@@ -22,12 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)F;
 - (void);
 - (void)_cache;
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
 @property(retain, nonatomic) NSTermOfAddress *selectedAddressingGrammar; // @synthesize selectedAddressingGrammar=_selectedAddressingGrammar;
 
 @end

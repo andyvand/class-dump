@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItemID, FPXDomainContext, FPXExtensionContext, NSFileProviderRequest, NSObject;
-@protocol NSFileProviderReplicatedExtension, OS_dispatch_queue;
+@class FPItemID;
 
 __attribute__((visibility("hidden")))
 @interface FPXObserver
 {
     FPItemID *_observedItemID;
-    FPXDomainContext *_domainContext;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <NSFileProviderReplicatedExtension> _strongVendorInstance;
-    FPXExtensionContext *_strongExtensionContext;
-    NSFileProviderRequest *_nsFileProviderRequest;
-    _Bool _invalidated;
 }
 
 - (void);

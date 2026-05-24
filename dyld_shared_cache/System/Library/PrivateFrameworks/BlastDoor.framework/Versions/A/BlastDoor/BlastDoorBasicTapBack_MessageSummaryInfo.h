@@ -18,9 +18,7 @@
 - (void)À;
 
 // Remaining properties
-@property(nonatomic, readonly) long long contentType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *summary;
 
 @end
 

@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool);
+- (_Bool)isTransitUserHere;
+- (id)rk;
 - (struct _NSZone *)k of type [SKDiskBased] for %@;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

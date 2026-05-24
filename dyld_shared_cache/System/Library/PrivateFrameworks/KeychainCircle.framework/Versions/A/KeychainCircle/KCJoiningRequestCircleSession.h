@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KCAESGCMDuplexSession, NSObject, NSString, OTControl, OTControlArguments, OTJoiningConfiguration;
+@class NSObject;
 @protocol KCJoiningRequestCircleDelegate;
 
 @interface KCJoiningRequestCircleSession
 {
     _Bool _failSOSForTests;
-    int _state;
-    NSObject<KCJoiningRequestCircleDelegate> *_circleDelegate;
-    KCAESGCMDuplexSession *_session;
-    unsigned long long _piggy_version;
-    NSString *_altDSID;
-    NSString *_flowID;
-    NSString *_deviceSessionID;
-    OTControl *_otControl;
-    OTJoiningConfiguration *_joiningConfiguration;
-    OTControlArguments *_controlArguments;
-    unsigned long long _piggybacking_version_for_tests;
 }
 
 + (id);
@@ -28,7 +17,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -37,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ֿ8s;
 - (unsigned long long);
 - (id);
 - (id);
@@ -56,28 +45,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)initWithBatchSize:fetchLimit:sortByStateStartDate:ascending:dateInterval:sessionIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (int);
+- (int)
+;
 - (void);
 - (void);
-- (void);
+- (void)>;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(readonly) NSObject<KCJoiningRequestCircleDelegate> *circleDelegate; // @synthesize circleDelegate=_circleDelegate;
-@property(retain, nonatomic) OTControlArguments *controlArguments; // @synthesize controlArguments=_controlArguments;
-@property(retain, nonatomic) NSString *deviceSessionID; // @synthesize deviceSessionID=_deviceSessionID;
-@property(nonatomic) _Bool failSOSForTests; // @synthesize failSOSForTests=_failSOSForTests;
-@property(retain, nonatomic) NSString *flowID; // @synthesize flowID=_flowID;
-@property(retain, nonatomic) OTJoiningConfiguration *joiningConfiguration; // @synthesize joiningConfiguration=_joiningConfiguration;
-@property(retain, nonatomic) OTControl *otControl; // @synthesize otControl=_otControl;
-@property(nonatomic) unsigned long long piggy_version; // @synthesize piggy_version=_piggy_version;
-@property(nonatomic) unsigned long long piggybacking_version_for_tests; // @synthesize piggybacking_version_for_tests=_piggybacking_version_for_tests;
-@property(readonly) KCAESGCMDuplexSession *session; // @synthesize session=_session;
-@property int state; // @synthesize state=_state;
 
 @end
 

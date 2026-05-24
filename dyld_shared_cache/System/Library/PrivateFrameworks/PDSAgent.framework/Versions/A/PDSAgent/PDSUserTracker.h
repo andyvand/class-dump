@@ -9,15 +9,15 @@
     CDUnknownBlockType _accountStoreBlock;
 }
 
-+ (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
++ (id)ult is set;
+- (_Bool)lic}@”. Aborting.;
+- (id)rformance log database from version %d to %d. Recreating.;
+- (void)t. Now busy = %d, UI busy = %d;
+- (void)problem/11375454>!.;
+- (id)Deleting asset collection and cancelling pending commands.;
+- (CDUnknownBlockType):Failed to delete comment ID %d in asset collection GUID %{public}@. Error:%{public}@. Reset-syncing comments. /* Error: Ran out of types for this method. */;
+- (id)lic}@ in album %{public}@. Error:(id)arg1 %{public}@. Requesting latest state.;
+- (id)handleFetchedMetadatasForMergeableValueID:metadatas:result: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIShapeEffectBlur1Local
 {
     CIImage *inputImage;
-    CIImage *inputFill;
-    CIVector *inputOffset;
-    NSNumber *inputRadius;
-    CIColor *inputGlowColorInner;
-    CIColor *inputGlowColorOuter;
-    CIColor *inputShadowColorInner;
-    CIColor *inputShadowColorOuter;
-    NSNumber *inputShadowBlurInner;
-    NSNumber *inputShadowBlurOuter;
 }
 
 + (id);
 - (struct CGRect);
-- (id);
+- (id)T5qA[;
 - (id);
 
 @end

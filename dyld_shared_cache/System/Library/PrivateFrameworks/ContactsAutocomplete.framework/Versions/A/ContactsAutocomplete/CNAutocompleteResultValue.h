@@ -9,11 +9,6 @@
 @interface CNAutocompleteResultValue
 {
     NSString *_address;
-    long long _addressType;
-    NSString *_instantMessageAddressService;
-    NSString *_identifier;
-    NSString *_label;
-    NSString *_stringForHashingMemo;
 }
 
 + (id);
@@ -27,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)q!;
 - (void);
 - (long long);
 - (void);
@@ -38,15 +33,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Data;
 - (void);
 
 // Remaining properties
-@property(copy) NSString *address; // @synthesize address=_address;
-@property long long addressType; // @synthesize addressType=_addressType;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *instantMessageAddressService; // @synthesize instantMessageAddressService=_instantMessageAddressService;
-@property(copy) NSString *label; // @synthesize label=_label;
 @property(copy, nonatomic) NSString *stringForHashingMemo; // @synthesize stringForHashingMemo=_stringForHashingMemo;
 
 @end

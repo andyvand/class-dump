@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, IMUserNotificationCenter, NSMutableSet, NSString, _FTPasswordManagerCachedAuthTokenInfo;
+@class NSMutableSet;
 
 @interface FTPasswordManager
 {
     NSMutableSet *_runningQueries;
-    ACAccountStore *_accountStore;
-    IMUserNotificationCenter *_userNotificationCenter;
-    _FTPasswordManagerCachedAuthTokenInfo *_cachedAuthTokenInfo;
 }
 
 + (id);
@@ -22,15 +19,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
+- (id)nt=d{CGPoint=dd}ddddddddd}Bddqdddd@Q}160d168;
+- (id)TKTextureLoader";
+- (id)inkTextureNamed:(id)arg1 image:(id)arg2;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)setGradientStyle:(CDUnknownBlockType)arg1;
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -52,28 +49,22 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
+- (void);
+- (id)MetadataURL;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

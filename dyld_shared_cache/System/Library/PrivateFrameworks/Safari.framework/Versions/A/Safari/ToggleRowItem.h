@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTextField, StartPagePopoverTogglesDataSource, StartPagePopoverViewController;
+@class NSTextField, StartPagePopoverViewController;
 
 __attribute__((visibility("hidden")))
 @interface ToggleRowItem
 {
     NSTextField *_label;
-    _Bool _dragging;
-    StartPagePopoverViewController *_startPagePopoverViewController;
-    NSButton *_toggle;
-    StartPagePopoverTogglesDataSource *_data;
-    NSString *_profileIdentifier;
 }
 
 - (id);
@@ -25,26 +20,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)IMFileTransfer with guid that has path specifiers %@. using stripped guid instead %@;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)@"NSView",&,N,V_secondaryTrailingAccessoryView;
 - (id)ôX;
 - (void)e %{sensitive}@;
-- (id);
+- (id)d;
 - (void);
 - (void)Ä;
 - (id);
 - (void)ì;
 
 // Remaining properties
-@property(nonatomic) __weak StartPagePopoverTogglesDataSource *data; // @synthesize data=_data;
-@property(nonatomic) _Bool dragging; // @synthesize dragging=_dragging;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
 @property(nonatomic) __weak StartPagePopoverViewController *startPagePopoverViewController; // @synthesize startPagePopoverViewController=_startPagePopoverViewController;
-@property(readonly, nonatomic) NSButton *toggle; // @synthesize toggle=_toggle;
 
 @end
 

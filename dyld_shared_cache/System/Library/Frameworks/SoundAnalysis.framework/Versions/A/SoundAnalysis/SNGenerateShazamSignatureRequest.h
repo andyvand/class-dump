@@ -16,7 +16,7 @@
 - (void);
 - (double);
 - (id);
-- (double);
+- (double);
 - (void);
 - (id);
 - (id);
@@ -27,9 +27,6 @@
 - (CDStruct_198678f7);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) double ringBufferDuration;
-@property(nonatomic) CDStruct_198678f7 strideDuration;
 @property(nonatomic) CDStruct_198678f7 windowDuration;
 
 @end

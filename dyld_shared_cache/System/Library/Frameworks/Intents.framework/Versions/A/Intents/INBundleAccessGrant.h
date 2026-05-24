@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface INBundleAccessGrant
 {
     long long _acquireCount;
-    struct os_unfair_lock_s _lock;
-    NSDictionary *_securityScopedURLs;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (void)s.SetAudioSourceInCarIntent;
 - (void)ÓPå;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *bundleIdentifiers;
 @property(readonly, nonatomic) NSDictionary *securityScopedURLs; // @synthesize securityScopedURLs=_securityScopedURLs;
 
 @end

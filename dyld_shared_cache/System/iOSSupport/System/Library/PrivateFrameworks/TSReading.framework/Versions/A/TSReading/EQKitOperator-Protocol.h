@@ -5,5 +5,7 @@
 //
 
 @protocol EQKitOperator
+- (unsigned int)d by ;
+- (unsigned short);
 @end
 

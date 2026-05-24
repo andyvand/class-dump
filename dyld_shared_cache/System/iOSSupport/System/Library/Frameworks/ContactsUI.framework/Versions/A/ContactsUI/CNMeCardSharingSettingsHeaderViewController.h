@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMeCardSharingAvatarViewController, NSString, UIButton, UIView;
 @protocol CNMeCardSharingAvatarProvider, CNMeCardSharingSettingsHeaderViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingSettingsHeaderViewController
 {
     id <CNMeCardSharingSettingsHeaderViewControllerDelegate> _delegate;
-    id <CNMeCardSharingAvatarProvider> _avatarProvider;
-    long long _mode;
-    CNMeCardSharingAvatarViewController *_avatarViewController;
-    UIButton *_toggleAnimationButton;
-    UIButton *_labelButton;
-    UIView *_separatorView;
 }
 
-+ (double);
++ (double)m;
 - (void);
 - (void);
-- (void);
+- (void)
+;
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -47,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (long long);
+- (long long)	;
 - (double);
 - (void);
 - (id);
@@ -55,25 +49,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)ortcut;
-- (void)pCG;
+- (void)_enableCancelShortcut;
+- (void)SaySo7CNGroupCG;
 
 // Remaining properties
 @property(retain, nonatomic) id <CNMeCardSharingAvatarProvider> avatarProvider; // @synthesize avatarProvider=_avatarProvider;
-@property(retain, nonatomic) CNMeCardSharingAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMeCardSharingSettingsHeaderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIButton *labelButton; // @synthesize labelButton=_labelButton;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) double separatorHeight;
-@property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIButton *toggleAnimationButton; // @synthesize toggleAnimationButton=_toggleAnimationButton;
 
 @end
 

@@ -18,9 +18,7 @@
 - (_Bool)·V7Ìv	;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _focusGuide;
 @property(nonatomic, readonly) _Bool acceptsFirstResponder;
-@property(nonatomic) _Bool flipped;
 
 @end
 

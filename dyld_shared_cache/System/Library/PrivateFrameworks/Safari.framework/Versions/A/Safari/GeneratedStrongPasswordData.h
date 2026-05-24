@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSGeneratedPassword, WBSSavedAccount;
+@class WBSGeneratedPassword;
 
 __attribute__((visibility("hidden")))
 @interface GeneratedStrongPasswordData
 {
     WBSGeneratedPassword *_generatedPassword;
-    WBSSavedAccount *_savedAccount;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) WBSGeneratedPassword *generatedPassword; // @synthesize generatedPassword=_generatedPassword;
-@property(retain, nonatomic) WBSSavedAccount *savedAccount; // @synthesize savedAccount=_savedAccount;
 
 @end
 

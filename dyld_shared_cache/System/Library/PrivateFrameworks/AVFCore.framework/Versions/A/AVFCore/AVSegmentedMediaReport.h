@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AVSegmentedMediaReport
 {
     NSDictionary *_dict;
 }
 
-- (id);
-- (long long);
-- (long long);
+- (id)assetWithURL: /* Error: Ran out of types for this method. */;
+- (long long)initWithSourceSpan:projections: /* Error: Ran out of types for this method. */;
+- (long long)N,V_delegate;
 - (id);
 - (id);
 - (long long);
@@ -24,21 +24,11 @@
 - (id);
 - (float);
 - (id);
-- (struct CGSize);
+- (struct CGSize)_TtCE19LocalAuthenticationCSo18LAUserLockoutStateP33_9E13F69977B1CD437A393A7730E0B41910Properties;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long IFrameAverageBitRate;
-@property(readonly, nonatomic) long long IFrameMaxBitRate;
-@property(readonly, nonatomic) struct CGSize IFrameVideoDimensions;
-@property(readonly, nonatomic) NSString *audioCodecInfo;
 @property(readonly, nonatomic) long long averageBitRate;
-@property(readonly, nonatomic) NSArray *closedCaptionReports;
-@property(readonly, nonatomic) long long maxBitRate;
-@property(readonly, nonatomic) long long numberOfAudioChannels;
-@property(readonly, nonatomic) NSString *videoCodecInfo;
-@property(readonly, nonatomic) struct CGSize videoDimensions;
-@property(readonly, nonatomic) float videoFrameRate;
 
 @end
 

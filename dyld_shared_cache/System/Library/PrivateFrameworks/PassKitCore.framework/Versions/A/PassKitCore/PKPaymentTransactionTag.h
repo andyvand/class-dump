@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
-
 @interface PKPaymentTransactionTag
 {
     unsigned long long _type;
-    NSString *_localizedTitle;
-    NSString *_localeIdentifier;
-    NSDecimalNumber *_rank;
 }
 
 + (_Bool)qî%°1Â0@ù
@@ -20,20 +15,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)col"b1"linkType"b1"sessionProtocolVersionNumber"b1"transportType"b1};
+- (void)es;
 - (void);
 - (void);
 - (id)tion:%@) /* Error: Ran out of types for this method. */;
-- (void)Limiting;
-- (id)32PKSecureElementProvisioningStateCSg;
+- (void)PKDisableRateLimiting;
+- (id)So32PKSecureElementProvisioningStateCSg;
 - (id);
 - (void)àå;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(retain, nonatomic) NSDecimalNumber *rank; // @synthesize rank=_rank;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreDialogResponse, NSError;
+@class NSError;
 
 @protocol ICStoreResponseProtocol
 - (NSError *)nge:[%3.2f, %3.2f] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ICStoreDialogResponse *dialog;
 @property(readonly, copy, nonatomic) NSError *serverError;
 @end
 

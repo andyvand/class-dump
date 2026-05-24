@@ -5,5 +5,6 @@
 //
 
 @protocol HMDHomeActivityStateAggregatorStateChangeDelegate
+- (void)setPositionTimestamp:(unsigned long long)arg1;
 @end
 

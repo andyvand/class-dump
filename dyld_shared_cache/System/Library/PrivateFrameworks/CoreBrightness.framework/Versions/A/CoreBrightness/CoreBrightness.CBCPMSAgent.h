@@ -7,7 +7,6 @@
 @interface CoreBrightness.CBCPMSAgent
 {
     id agent;
-    id log;
 }
 
 @end

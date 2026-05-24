@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IMMergedDomainIdentifiers
 {
@@ -22,15 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *allChatGUIDs;
-@property(nonatomic, readonly) NSArray *allIdentifiers;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isEmpty;
 
 @end
 

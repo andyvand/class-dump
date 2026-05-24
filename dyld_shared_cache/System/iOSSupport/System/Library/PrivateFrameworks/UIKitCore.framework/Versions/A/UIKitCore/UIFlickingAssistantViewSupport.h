@@ -6,32 +6,23 @@
 
 #import <UIKitCore/UIKeyboardMotionSupport.h>
 
-@class UIInputViewSetPlacement, UIPanGestureRecognizer;
+@class UIPanGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface UIFlickingAssistantViewSupport : UIKeyboardMotionSupport
 {
     UIPanGestureRecognizer *_panRecognizer;
-    long long _position;
-    long long _lastMinimizedPosition;
-    long long _visualState;
-    struct CGPoint _initalTouchPoint;
-    _Bool _shouldNotifyCompletion;
-    _Bool _isHandlingGeometryChange;
-    _Bool _isCompact;
-    UIInputViewSetPlacement *_remotePlacement;
-    long long _draggingState;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (struct CGPoint);
-- (void);
-- (struct CGPoint);
+- (void)essedHandle %@ lastAddressedSIMID %@;
+- (void)@;
+- (void)match requested GUID %@, may have changed due to inconsistent properties;
+- (unsigned long long)callerID is a phone number:(long long)arg1 Sending Message via CT;
+- (struct CGPoint)release sandbox token, %@ token:(id)arg1 %@;
+- (void)stined for me to send out, I am the gatekeeper;
+- (struct CGPoint)drop rest of the transfer starting from:(long long)arg1 %@;
 - (_Bool);
 - (long long);
 - (void);
@@ -42,14 +33,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void)^°1Â0@ù
 × ;
-- (_Bool)esolvingImage: /* Error: Ran out of types for this method. */;
+- (_Bool)_isEqualToTraitCollectionForResolvingImage: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)ÔÙòþÑ43h;
 - (void)ÂÿPNÛìh;
@@ -58,9 +49,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long draggingState; // @synthesize draggingState=_draggingState;
-@property(readonly, nonatomic) _Bool handlingFlickGesture;
-@property(nonatomic, setter=setCompact:) _Bool isCompact; // @synthesize isCompact=_isCompact;
-@property(retain, nonatomic) UIInputViewSetPlacement *remotePlacement; // @synthesize remotePlacement=_remotePlacement;
 
 @end
 

@@ -13,32 +13,27 @@
 
 + (_Bool);
 + (void);
+- (_Bool)parser:(id *)arg1 foundIgnorableWhitespace: /* Error: Ran out of types for this method. */;
+- (void)parser:foundExternalEntityDeclarationWithName:publicID:systemID: /* Error: Ran out of types for this method. */;
+- (_Bool)imageColorWithAnalyzedImageColors:(float)arg1;
+- (float)_numberOfArguments;
+- (float)_lyricsLineKey;
+- (_Bool)_decodeNumberForKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
-- (float);
-- (float);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (float);
+- (void)ng:… | creating implicit transaction [mutating sql statement] /* Error: Ran out of types for this method. */;
+- (void)taIntoFileHandle failed with exception %{public}@;
+- (void)y; other components are ignored:%@ /* Error: Ran out of types for this method. */;
+- (float)mm:ss'Z</date>
+' /* Error: Ran out of types for this method. */;
 - (void);
 - (float);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)tem/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO;
 - (void)CompletionForDeviceID for %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAvailable) _Bool available;
-@property(nonatomic) float beamWidth;
-@property(readonly, nonatomic) _Bool beamWidthControlSupported;
-@property(readonly, nonatomic) float flashlightLevel;
-@property(readonly, nonatomic) float maxBeamWidth;
-@property(readonly, nonatomic) float minBeamWidth;
-@property(readonly, nonatomic, getter=isOverheated) _Bool overheated;
 
 @end
 

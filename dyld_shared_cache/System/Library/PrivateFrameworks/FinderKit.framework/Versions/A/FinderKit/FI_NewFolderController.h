@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TButton, FI_TEditTextField, FI_TTextField, NSSavePanel, NSString;
+@class NSSavePanel;
 
 __attribute__((visibility("hidden")))
 @interface FI_NewFolderController
 {
     NSSavePanel *_savePanel;
-    struct TFENode _newFolderParent;
-    FI_TTextField *_promptField;
-    FI_TEditTextField *_folderNameField;
-    FI_TTextField *_errorMessage;
-    FI_TButton *_okButton;
-    struct TNotificationCenterObserver _windowWillCloseObserver;
 }
 
 - (void);
@@ -30,16 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)CachePerVolumeI18TInfoExtractorData27TInfoExtractorInternalCacheEC1ERNS_6vectorINS_8functionIFvvEEENS_9allocatorIS9_EEEERK7TStringENKUlvE_clEvEUlvE_S8_EE;
+- (void)NSt3__110__function6__funcIZZN22TNodeKeyCachePerVolumeI18TInfoExtractorData27TInfoExtractorInternalCacheEC1ERNS_6vectorINS_8functionIFvvEEENS_9allocatorIS9_EEEERK7TStringENKUlvE_clEvEUlvE_S8_EE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

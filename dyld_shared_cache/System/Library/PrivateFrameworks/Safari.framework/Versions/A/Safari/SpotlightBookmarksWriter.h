@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksController, NSTimer, WBSSiriIntelligenceDonor;
+@class BookmarksController, NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface SpotlightBookmarksWriter
 {
     NSTimer *_donationTimer;
-    BookmarksController *_bookmarksController;
-    WBSSiriIntelligenceDonor *_siriIntelligenceDonor;
 }
 
 + (id);
-- (id);
+- (id)#@9	;
 - (id);
 - (void);
 - (void);
@@ -27,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak BookmarksController *bookmarksController; // @synthesize bookmarksController=_bookmarksController;
-@property(readonly, nonatomic) __weak WBSSiriIntelligenceDonor *siriIntelligenceDonor; // @synthesize siriIntelligenceDonor=_siriIntelligenceDonor;
 
 @end
 

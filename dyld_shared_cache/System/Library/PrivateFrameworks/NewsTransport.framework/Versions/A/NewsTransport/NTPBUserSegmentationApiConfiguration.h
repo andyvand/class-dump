@@ -9,36 +9,29 @@
 @interface NTPBUserSegmentationApiConfiguration
 {
     NSString *_userSegmentationApiModMax;
-    NSString *_userSegmentationApiModThreshold;
-    NSString *_userSegmentationRefreshRate;
 }
 
+- (id)initWithViewModelProvider: /* Error: Ran out of types for this method. */;
+- (id)initWithViewModel:volumeController:userDefaults: /* Error: Ran out of types for this method. */;
+- (void)initWithSortOrder:(id)arg1;
+- (void)initWithSortDescriptor:(id)arg1 fetchedIndexes:dateByIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)factoryForSpec:clipComposition:displayAssets:croppingContext:croppingOptions:assetContentInfos:playbackStyles:separatorEffectParameters:handler: /* Error: Ran out of types for this method. */;
+- (_Bool)facesAtSimpleIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)faceprint;
+- (id)contextWithPerson:type: /* Error: Ran out of types for this method. */;
+- (void)contextMenuCompactTopRowPosition;
 - (id);
-- (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ionQueue";
+- (_Bool)_Daemon_SKDiskBased prepareSystem]_block_invoke;
+- (_Bool)current issues, and %lu trending headlines;
 - (id);
 - (id);
 - (void)cleVersion"b1"publisherArticleVersion"b1"articleFeedCellHostType"b1"articleFeedCellSection"b1"articleParentFeedType"b1"concernReason"b1"contentType"b1"feedFeedType"b1"feedViewPresentationReason"b1"originProductType"b1"isUserSubscribedToFeed"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasUserSegmentationApiModMax;
 @property(readonly, nonatomic) _Bool hasUserSegmentationApiModThreshold;
-@property(readonly, nonatomic) _Bool hasUserSegmentationRefreshRate;
-@property(retain, nonatomic) NSString *userSegmentationApiModMax; // @synthesize userSegmentationApiModMax=_userSegmentationApiModMax;
-@property(retain, nonatomic) NSString *userSegmentationApiModThreshold; // @synthesize userSegmentationApiModThreshold=_userSegmentationApiModThreshold;
-@property(retain, nonatomic) NSString *userSegmentationRefreshRate; // @synthesize userSegmentationRefreshRate=_userSegmentationRefreshRate;
 
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUserDefaults;
-@protocol OS_dispatch_queue;
+@class NSUserDefaults;
 
 @interface SGPreferenceManager
 {
     NSUserDefaults *_suggestionsDefaults;
-    NSObject<OS_dispatch_queue> *_settingsUpdateQueue;
-    _Bool _isQueueSuspended;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)J)A;
 - (int);
 - (void);
 

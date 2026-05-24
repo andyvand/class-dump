@@ -11,18 +11,16 @@ __attribute__((visibility("hidden")))
 @interface _GEOExperimentConfigurationObserverProxy
 {
     NSHashTable *_observers;
-    struct os_unfair_lock_s _observersLock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)Canceled;
+- (id)isCanceled;
 - (void);
 
 // Remaining properties

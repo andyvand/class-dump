@@ -9,9 +9,6 @@
 @interface MTLStitchedLibraryDescriptor
 {
     NSArray *_functionGraphs;
-    NSArray *_functions;
-    NSArray *_binaryArchives;
-    unsigned long long _options;
 }
 
 - (void);
@@ -21,18 +18,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (unsigned long long);
 - (id);
 - (id);
 - (void)hßÿÿ;
-- (id)Device;
+- (id)CGSCreateDefaultMetalDevice;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *binaryArchives; // @synthesize binaryArchives=_binaryArchives;
 @property(copy, nonatomic) NSArray *functionGraphs; // @synthesize functionGraphs=_functionGraphs;
-@property(copy, nonatomic) NSArray *functions; // @synthesize functions=_functions;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

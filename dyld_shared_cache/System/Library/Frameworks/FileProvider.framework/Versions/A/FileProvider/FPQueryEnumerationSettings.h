@@ -6,17 +6,11 @@
 
 #import <FileProvider/FPEnumerationSettings.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface FPQueryEnumerationSettings : FPEnumerationSettings
 {
     _Bool _allowSemanticSearchResults;
-    NSArray *_allowedProviders;
-    NSNumber *_desiredNumberOfItems;
-    NSArray *_excludedFileTypes;
-    NSArray *_allowedFileTypes;
-    NSString *_tagIdentifier;
-    NSArray *_excludedParentOIDs;
 }
 
 + (_Bool);
@@ -24,29 +18,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)TKTokenAuthOperation;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)St3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_jS6_E3$_1;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)@"NSError"24;
 - (void)!>&Ð!ôFùÑç)1Â0@ù
 × ;
 - (void)on>"@"NSError">24;
-- (void)ier:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)importDocumentAtURL:(id)arg1 toParentItemIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSemanticSearchResults; // @synthesize allowSemanticSearchResults=_allowSemanticSearchResults;
-@property(copy) NSArray *allowedFileTypes; // @synthesize allowedFileTypes=_allowedFileTypes;
 @property(copy) NSArray *allowedProviders; // @synthesize allowedProviders=_allowedProviders;
-@property(copy) NSNumber *desiredNumberOfItems; // @synthesize desiredNumberOfItems=_desiredNumberOfItems;
-@property(copy) NSArray *excludedFileTypes; // @synthesize excludedFileTypes=_excludedFileTypes;
-@property(copy) NSArray *excludedParentOIDs; // @synthesize excludedParentOIDs=_excludedParentOIDs;
-@property(copy) NSString *tagIdentifier; // @synthesize tagIdentifier=_tagIdentifier;
 
 @end
 

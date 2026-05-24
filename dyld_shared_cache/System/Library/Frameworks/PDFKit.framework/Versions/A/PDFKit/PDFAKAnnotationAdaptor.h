@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, PDFAKAnnotationAdaptorPrivate, PDFAnnotation;
+@class PDFAKAnnotationAdaptorPrivate, PDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface PDFAKAnnotationAdaptor
@@ -36,6 +36,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -56,18 +65,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,17 +81,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)generateAmbientOcclusionTextureWithQuality:attenuationFactor:objectsToConsider:vertexAttributeNamed:materialPropertyNamed: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AKAnnotation *akAnnotation;
 @property(readonly, nonatomic) __weak PDFAnnotation *pdfAnnotation;
 
 @end

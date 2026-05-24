@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
     _Bool _shouldPinToBottomOnResize;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)signalUnreadChangeForHandle: /* Error: Ran out of types for this method. */;
+- (void)repairOffGridStatusWithHandleID:(_Bool)arg1 fromHandleID:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGRect);
-- (void)ritingToolsWillBegin;
+- (void)_pendingSessionForWritingToolsWillBegin;
 - (void)4;
 - (void);
 

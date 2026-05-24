@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface IMSpotlightClientState
 {
     unsigned long long _initialReindexRowID;
-    long long _indexRevision;
-    unsigned long long _initialTotalMessages;
-    NSDate *_indexBeginDate;
-    unsigned long long _initialTotalChats;
-    NSString *_previousTransactionID;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *indexBeginDate; // @synthesize indexBeginDate=_indexBeginDate;
-@property(nonatomic) long long indexRevision; // @synthesize indexRevision=_indexRevision;
 @property(nonatomic) unsigned long long initialReindexRowID; // @synthesize initialReindexRowID=_initialReindexRowID;
-@property(nonatomic) unsigned long long initialTotalChats; // @synthesize initialTotalChats=_initialTotalChats;
-@property(nonatomic) unsigned long long initialTotalMessages; // @synthesize initialTotalMessages=_initialTotalMessages;
-@property(readonly, nonatomic) unsigned long long migrationLaneRequirement;
-@property(readonly, nonatomic) unsigned long long migrationRequirements;
-@property(readonly, nonatomic) _Bool needsIndexDrop;
-@property(readonly, nonatomic) _Bool needsReindex;
-@property(retain, nonatomic) NSString *previousTransactionID; // @synthesize previousTransactionID=_previousTransactionID;
 @end
 

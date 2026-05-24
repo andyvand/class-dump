@@ -6,15 +6,9 @@
 
 #import <MapKit/MKMultiPoint.h>
 
-@class NSArray, NSString;
-
 @interface MKPolygon : MKMultiPoint
 {
     struct CLLocationCoordinate2D _centroid;
-    NSArray *_interiorPolygons;
-    _Bool _isDefinitelyConvex;
-    struct GEOOnce_s _determinedSimple;
-    _Bool _simple;
 }
 
 + (id);
@@ -24,44 +18,25 @@
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)e.powerlog.state_changed;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)o;
 - (_Bool);
 - (void);
-- (CDStruct_02837cd9);
-- (_Bool);
+- (CDStruct_2f492f29);
+- (_Bool)n;
 - (id);
 - (void);
-- (struct CLLocationCoordinate2D);
-- (void)ideRasterTileData: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D)dataUsingEncoding: /* Error: Ran out of types for this method. */;
+- (void)overlayCanProvideRasterTileData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool _isDefinitelyConvex; // @synthesize _isDefinitelyConvex;
-@property(readonly, nonatomic) CDStruct_02837cd9 boundingMapRect;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) NSArray *interiorPolygons; // @synthesize interiorPolygons=_interiorPolygons;
-@property(readonly, nonatomic, getter=_isSimple) _Bool simple; // @synthesize simple=_simple;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

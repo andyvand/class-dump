@@ -4,53 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientMetrics, GEOPDDatasetABStatus, GEOPDPlaceGlobalResult, GEOPDPlacesRequestResponseAnalyticsData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDPlaceResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDPlacesRequestResponseAnalyticsData *_analyticData;
-    GEOClientMetrics *_clientMetrics;
-    GEOPDDatasetABStatus *_datasetAbStatus;
-    NSString *_debugApiKey;
-    unsigned long long _debugLatencyMs;
-    NSMutableArray *_displayLanguages;
-    NSString *_displayRegion;
-    NSMutableArray *_dotPlaces;
-    GEOPDPlaceGlobalResult *_globalResult;
-    NSMutableArray *_mapsResults;
-    NSMutableArray *_legacyPlaceResults;
-    NSMutableArray *_spokenLanguages;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _requestType;
-    int _status;
-    struct {
-        unsigned int has_debugLatencyMs:1;
-        unsigned int has_requestType:1;
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_analyticData:1;
-        unsigned int read_clientMetrics:1;
-        unsigned int read_datasetAbStatus:1;
-        unsigned int read_debugApiKey:1;
-        unsigned int read_displayLanguages:1;
-        unsigned int read_displayRegion:1;
-        unsigned int read_dotPlaces:1;
-        unsigned int read_globalResult:1;
-        unsigned int read_mapsResults:1;
-        unsigned int read_legacyPlaceResults:1;
-        unsigned int read_spokenLanguages:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)Keys:(id)arg1;
++ (Class);
++ (Class)setXpcClientFactory: /* Error: Ran out of types for this method. */;
++ (_Bool)setImpliedVehicleTypeKeys:(id)arg1;
 + (Class);
 + (Class)ÆÿÉ	9Á3;
 - (id);
@@ -63,20 +27,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)_voiceTriggerFirstPassInfoFromAP;
+- (id)_isListening;
+- (_Bool)k;
+- (void)recorder :(id)arg1 %{public}@;
+- (void)c}tu samples (%{public}.2fs) from %{public}tu to %{public}tu, with prepending samples %{public}tu, trailing samples %{public}tu;
 - (void);
 - (_Bool);
 - (id);
@@ -92,9 +56,9 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)rDelegate>";
+- (id)URLSession:(unsigned long long)arg1 taskIsWaitingForConnectivity: /* Error: Ran out of types for this method. */;
+- (id)|;
 - (void);
 - (_Bool);
 - (void);
@@ -108,11 +72,11 @@
 - (unsigned long long)ter";
 - (id)dd}{?=dd}}16^{?={?=dd}{?=dd}}48Q56@64@?72;
 - (_Bool)intRoute"b1"read_routeId"b1"read_sessionState"b1"read_zilchPointSegments"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (_Bool)ble: /* Error: Ran out of types for this method. */;
-- (int)teStepScreenshotImageId;
-- (id)resentationTo: /* Error: Ran out of types for this method. */;
-- (id)equest;
-- (id)er;
+- (_Bool)registerVirtualTable: /* Error: Ran out of types for this method. */;
+- (int)hasRouteStepScreenshotImageId;
+- (id)_isEquivalentURLRepresentationTo: /* Error: Ran out of types for this method. */;
+- (id)_autocompleteRankerRequest;
+- (id)_footer;
 - (id)D¼
 ,
 
@@ -135,7 +99,7 @@ $¤;
 - (id)!= 0 AND (ri_areas & @areas) != 0 AND representative_latitude BETWEEN @lat_min AND @lat_max AND representative_longitude BETWEEN @lng_min AND @lng_max    ORDER BY sort_order, name COLLATE region_collater, deltaM, iso_code, time_zone_name;;
 - (_Bool)yDirectory.wsazt5/Sources/GeoServices/libpathcodec/path-codec/include/path-codec/PathletGlobalDecoder.h;
 - (void)only be called once per object;
-- (unsigned long long)Lookup;
+- (unsigned long long)GEOBatchSpatialLookup;
 - (id)e called once per object;
 - (_Bool)¼;
 - (void)È;
@@ -161,30 +125,7 @@ $¤;
 - (void)±È;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDPlacesRequestResponseAnalyticsData *analyticData;
-@property(retain, nonatomic) GEOClientMetrics *clientMetrics;
-@property(retain, nonatomic) GEOPDDatasetABStatus *datasetAbStatus;
-@property(retain, nonatomic) NSString *debugApiKey;
-@property(nonatomic) unsigned long long debugLatencyMs;
-@property(retain, nonatomic) NSMutableArray *displayLanguages;
-@property(retain, nonatomic) NSString *displayRegion;
-@property(retain, nonatomic) NSMutableArray *dotPlaces;
-@property(retain, nonatomic) GEOPDPlaceGlobalResult *globalResult;
-@property(readonly, nonatomic) _Bool hasAnalyticData;
-@property(readonly, nonatomic) _Bool hasClientMetrics;
-@property(readonly, nonatomic) _Bool hasDatasetAbStatus;
-@property(readonly, nonatomic) _Bool hasDebugApiKey;
 @property(nonatomic) _Bool hasDebugLatencyMs;
-@property(readonly, nonatomic) _Bool hasDisplayRegion;
-@property(readonly, nonatomic) _Bool hasGlobalResult;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) NSMutableArray *legacyPlaceResults;
-@property(retain, nonatomic) NSMutableArray *mapsResults;
-@property(nonatomic) int requestType;
-@property(retain, nonatomic) NSMutableArray *spokenLanguages;
-@property(nonatomic) int status;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -6,26 +6,15 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPDownloadInfo, NSArray, NSFileCoordinator, NSMutableDictionary, NSMutableSet, NSObservation;
-@protocol NSXPCProxyCreating><FPDaemonActionOperation;
+@class NSArray;
 
 @interface FPDownloadOperation : FPActionOperation
 {
     NSArray *_items;
-    FPDownloadInfo *_info;
-    NSMutableSet *_itemsPendingDownload;
-    id <NSXPCProxyCreating><FPDaemonActionOperation> _remoteMoveOperation;
-    NSMutableDictionary *_progressByRoot;
-    NSObservation *_observation;
-    NSMutableDictionary *_childProxies;
-    NSFileCoordinator *_coordinator;
-    _Bool _recursively;
-    CDUnknownBlockType _downloadCompletionBlock;
-    CDUnknownBlockType __t_patchActionOperationInfo;
 }
 
-- (void);
-- (void);
+- (void)R~;
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -34,7 +23,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -47,15 +36,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void);
 - (void)A>&Ð!lFùñç)°1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _t_patchActionOperationInfo; // @synthesize _t_patchActionOperationInfo=__t_patchActionOperationInfo;
-@property(copy, nonatomic) CDUnknownBlockType downloadCompletionBlock; // @synthesize downloadCompletionBlock=_downloadCompletionBlock;
-@property(nonatomic) _Bool recursively; // @synthesize recursively=_recursively;
 
 @end
 

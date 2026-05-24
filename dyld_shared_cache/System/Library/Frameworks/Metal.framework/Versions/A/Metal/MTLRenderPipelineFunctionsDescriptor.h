@@ -9,15 +9,6 @@
 @interface MTLRenderPipelineFunctionsDescriptor
 {
     NSArray *_vertexAdditionalBinaryFunctions;
-    NSArray *_fragmentAdditionalBinaryFunctions;
-    NSArray *_tileAdditionalBinaryFunctions;
-    NSArray *_objectAdditionalBinaryFunctions;
-    NSArray *_meshAdditionalBinaryFunctions;
-    unsigned long long *_vertexAdditionalBinaryFunctionResourceIndices;
-    unsigned long long *_fragmentAdditionalBinaryFunctionResourceIndices;
-    unsigned long long *_tileAdditionalBinaryFunctionResourceIndices;
-    unsigned long long *_objectAdditionalBinaryFunctionResourceIndices;
-    unsigned long long *_meshAdditionalBinaryFunctionResourceIndices;
 }
 
 - (unsigned long long *);
@@ -40,23 +31,14 @@
 - (unsigned long long *);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)L;
 
 // Remaining properties
-@property(nonatomic) unsigned long long *fragmentAdditionalBinaryFunctionResourceIndices; // @synthesize fragmentAdditionalBinaryFunctionResourceIndices=_fragmentAdditionalBinaryFunctionResourceIndices;
-@property(copy, nonatomic) NSArray *fragmentAdditionalBinaryFunctions; // @synthesize fragmentAdditionalBinaryFunctions=_fragmentAdditionalBinaryFunctions;
-@property(nonatomic) unsigned long long *meshAdditionalBinaryFunctionResourceIndices; // @synthesize meshAdditionalBinaryFunctionResourceIndices=_meshAdditionalBinaryFunctionResourceIndices;
-@property(copy, nonatomic) NSArray *meshAdditionalBinaryFunctions; // @synthesize meshAdditionalBinaryFunctions=_meshAdditionalBinaryFunctions;
-@property(nonatomic) unsigned long long *objectAdditionalBinaryFunctionResourceIndices; // @synthesize objectAdditionalBinaryFunctionResourceIndices=_objectAdditionalBinaryFunctionResourceIndices;
 @property(copy, nonatomic) NSArray *objectAdditionalBinaryFunctions; // @synthesize objectAdditionalBinaryFunctions=_objectAdditionalBinaryFunctions;
-@property(nonatomic) unsigned long long *tileAdditionalBinaryFunctionResourceIndices; // @synthesize tileAdditionalBinaryFunctionResourceIndices=_tileAdditionalBinaryFunctionResourceIndices;
-@property(copy, nonatomic) NSArray *tileAdditionalBinaryFunctions; // @synthesize tileAdditionalBinaryFunctions=_tileAdditionalBinaryFunctions;
-@property(nonatomic) unsigned long long *vertexAdditionalBinaryFunctionResourceIndices; // @synthesize vertexAdditionalBinaryFunctionResourceIndices=_vertexAdditionalBinaryFunctionResourceIndices;
-@property(copy, nonatomic) NSArray *vertexAdditionalBinaryFunctions; // @synthesize vertexAdditionalBinaryFunctions=_vertexAdditionalBinaryFunctions;
 
 @end
 

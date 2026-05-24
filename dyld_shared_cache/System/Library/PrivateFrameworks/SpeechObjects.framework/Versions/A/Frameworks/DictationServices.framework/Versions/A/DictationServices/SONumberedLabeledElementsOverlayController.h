@@ -9,8 +9,6 @@
 @interface SONumberedLabeledElementsOverlayController : SOLabeledElementsOverlayController
 {
     _Bool _prefersNoArrowBadge;
-    double _xOffset;
-    double _yOffset;
 }
 
 + (id);
@@ -19,21 +17,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4`;
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool prefersNoArrowBadge; // @synthesize prefersNoArrowBadge=_prefersNoArrowBadge;
 @property(nonatomic) double xOffset; // @synthesize xOffset=_xOffset;
-@property(nonatomic) double yOffset; // @synthesize yOffset=_yOffset;
 
 @end
 

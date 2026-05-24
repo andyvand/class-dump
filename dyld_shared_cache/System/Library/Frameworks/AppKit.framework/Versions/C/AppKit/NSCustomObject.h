@@ -9,16 +9,14 @@
 @interface NSCustomObject
 {
     NSString *className;
-    id object;
-    id extension;
 }
 
 + (void);
-- (id);
+- (id)SFileHandle";
 - (void);
+- (id)negotiated_protocol;
 - (id);
-- (id);
-- (void);
+- (void)h range;
 - (void);
 - (void);
 - (id)ÿí!8sI;

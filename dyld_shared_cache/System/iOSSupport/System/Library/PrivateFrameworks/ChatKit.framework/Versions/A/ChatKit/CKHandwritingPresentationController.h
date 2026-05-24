@@ -4,66 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBrowserItemPayload, CKDeviceOrientationManager, CKHandwritingWindow, CKScheduledUpdater, NSObject, NSString, UIViewController;
-@protocol CKHandwritingBrowserViewControllerProtocol, CKHandwritingPresentationControllerDelegate, CKHandwritingViewControllerSendDelegate;
+@class CKHandwritingWindow;
 
 __attribute__((visibility("hidden")))
 @interface CKHandwritingPresentationController
 {
     _Bool _requestedVisibility;
-    _Bool _actualVisibility;
-    _Bool _requestedVisibilityShouldBeAnimated;
-    _Bool _suppressAppearanceCallbacksBecauseOfFirstInitialization;
-    _Bool _foregrounded;
-    NSObject<CKHandwritingPresentationControllerDelegate> *_delegate;
-    CKDeviceOrientationManager *_deviceOrientationManager;
-    long long _initialInterfaceOrientation;
-    CKHandwritingWindow *_handwritingWindow;
-    UIViewController<CKHandwritingBrowserViewControllerProtocol> *_browserViewController;
-    CKScheduledUpdater *_animationScheduledUpdater;
-    NSObject<CKHandwritingViewControllerSendDelegate> *_cachedSendDelegate;
-    CKBrowserItemPayload *_cachedPluginPayload;
 }
 
-- (_Bool);
+- (_Bool)addAttachmentWithFileURL:updateFileBasedAttributes:analytics: /* Error: Ran out of types for this method. */;
+- (void)initWithPDFURL:(_Bool)arg1;
+- (void)String;
+- (void)sortDescriptors;
+- (void),&,N,V_stopButtonTitle;
+- (void)ICLinkTextAttachment;
+- (void)ICNoteMergeObserver;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)384;
+- (_Bool)./`/;
+- (_Bool)r;
+- (id));
+- (_Bool)r;
+- (id)ew thumbnail cleared;
+- (id)?0@"AVAsset"8;
+- (id)CAudioController registerForRemoteControlEvents];
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)|;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)r
+;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id));
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (long long)roll to %@ - the scroll velocity is %@;
 - (void)¤°;
@@ -71,23 +59,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)¨ÿ£7d1;
 
 // Remaining properties
-@property(nonatomic) _Bool actualVisibility; // @synthesize actualVisibility=_actualVisibility;
-@property(retain, nonatomic) CKScheduledUpdater *animationScheduledUpdater; // @synthesize animationScheduledUpdater=_animationScheduledUpdater;
-@property(retain, nonatomic) UIViewController<CKHandwritingBrowserViewControllerProtocol> *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(retain, nonatomic) CKBrowserItemPayload *cachedPluginPayload; // @synthesize cachedPluginPayload=_cachedPluginPayload;
-@property(nonatomic) __weak NSObject<CKHandwritingViewControllerSendDelegate> *cachedSendDelegate; // @synthesize cachedSendDelegate=_cachedSendDelegate;
-@property(nonatomic) __weak NSObject<CKHandwritingPresentationControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) CKDeviceOrientationManager *deviceOrientationManager; // @synthesize deviceOrientationManager=_deviceOrientationManager;
-@property(nonatomic) _Bool foregrounded; // @synthesize foregrounded=_foregrounded;
 @property(retain, nonatomic) CKHandwritingWindow *handwritingWindow; // @synthesize handwritingWindow=_handwritingWindow;
-@property(nonatomic) long long initialInterfaceOrientation; // @synthesize initialInterfaceOrientation=_initialInterfaceOrientation;
-@property(readonly) NSString *pluginBundleID;
-@property(retain, nonatomic) CKBrowserItemPayload *pluginPayload;
-@property(nonatomic) _Bool requestedVisibility; // @synthesize requestedVisibility=_requestedVisibility;
-@property(nonatomic) _Bool requestedVisibilityShouldBeAnimated; // @synthesize requestedVisibilityShouldBeAnimated=_requestedVisibilityShouldBeAnimated;
-@property(nonatomic) __weak NSObject<CKHandwritingViewControllerSendDelegate> *sendDelegate;
-@property(nonatomic) _Bool suppressAppearanceCallbacksBecauseOfFirstInitialization; // @synthesize suppressAppearanceCallbacksBecauseOfFirstInitialization=_suppressAppearanceCallbacksBecauseOfFirstInitialization;
-@property(nonatomic) _Bool visible;
 
 @end
 

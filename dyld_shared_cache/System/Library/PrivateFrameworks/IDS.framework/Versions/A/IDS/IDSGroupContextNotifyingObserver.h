@@ -11,16 +11,16 @@
     NSMutableSet *_delegates;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)delegateClassString;
+- (id)V_guestMode;
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)@;
 - (void);
 - (void)f(°!¬Dù,ð1Â0@ù
 × ;

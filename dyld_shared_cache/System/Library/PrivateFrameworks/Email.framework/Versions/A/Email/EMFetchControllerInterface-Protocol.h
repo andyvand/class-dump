@@ -5,5 +5,7 @@
 //
 
 @protocol EMFetchControllerInterface
+- (void);
+- (void)',̄;
 @end
 

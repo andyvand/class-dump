@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSString, NSUUID;
 
 @interface UARPPowerLogAccessory
 {
     NSString *_modelNumber;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_source> *_stagingWindowTimer;
-    long long _stagingWindowTimerIntervalNS;
-    unsigned int _stagingWindowStartOffset;
-    _Bool _stagingWindowStartOffsetInitialUpdateComplete;
-    unsigned int _stagingWindowBytesTransferred;
-    NSString *_stagingActiveFirmwareVersion;
-    NSString *_stagingStagingFirmwareVersion;
-    _Bool _reachable;
-    _Bool _stagingInProgress;
-    NSUUID *_uuid;
 }
 
 - (void);
@@ -30,13 +17,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -44,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool reachable; // @synthesize reachable=_reachable;
-@property(readonly) _Bool stagingInProgress; // @synthesize stagingInProgress=_stagingInProgress;
 @property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -13,8 +13,8 @@
     NSData *_apsToken;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)initWithDescriptor:sourcePolicy:cacheable: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ìGùQÛ°1Â0@ù
 × ;

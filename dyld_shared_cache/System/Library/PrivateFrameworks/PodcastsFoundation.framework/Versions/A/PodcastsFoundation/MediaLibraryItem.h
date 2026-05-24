@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface MediaLibraryItem
 {
     NSNumber *_dateAccessed;
-    NSString *_album;
-    NSString *_title;
-    NSNumber *_fileSize;
-    NSString *_externalGuid;
-    NSNumber *_bookmarkTimeMillis;
-    NSString *_seriesName;
-    NSString *_itemDescription;
-    NSNumber *_hasVideo;
-    NSString *_feedUrl;
-    NSNumber *_playlistId;
-    NSNumber *_dateReleased;
-    NSString *_artist;
-    NSNumber *_totalTimeMillis;
-    NSNumber *_playCount;
-    NSNumber *_hasBeenPlayed;
-    NSNumber *_serpentId;
-    NSNumber *_activeDsid;
-    NSString *_statsDownloadIdentifier;
-    NSURL *_itemFilePath;
-    NSURL *_artworkUrl;
-    NSNumber *_artworkTokenId;
 }
 
 + (id);
@@ -57,58 +36,38 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)Th@9yq;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void)faultsProvider_p;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)X
+;
+- (id);
+- (void)So34PFPlaybackSettingsDefaultsProvider_p;
 - (void)n;
-- (void)stRepository;
+- (void)InterestRepository;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *activeDsid; // @synthesize activeDsid=_activeDsid;
-@property(retain, nonatomic) NSString *album; // @synthesize album=_album;
-@property(retain, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) NSNumber *artworkTokenId; // @synthesize artworkTokenId=_artworkTokenId;
-@property(retain, nonatomic) NSURL *artworkUrl; // @synthesize artworkUrl=_artworkUrl;
-@property(retain, nonatomic) NSNumber *bookmarkTimeMillis; // @synthesize bookmarkTimeMillis=_bookmarkTimeMillis;
 @property(retain, nonatomic) NSNumber *dateAccessed; // @synthesize dateAccessed=_dateAccessed;
-@property(retain, nonatomic) NSNumber *dateReleased; // @synthesize dateReleased=_dateReleased;
-@property(retain, nonatomic) NSString *externalGuid; // @synthesize externalGuid=_externalGuid;
-@property(retain, nonatomic) NSString *feedUrl; // @synthesize feedUrl=_feedUrl;
-@property(retain, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
-@property(retain, nonatomic) NSNumber *hasBeenPlayed; // @synthesize hasBeenPlayed=_hasBeenPlayed;
-@property(retain, nonatomic) NSNumber *hasVideo; // @synthesize hasVideo=_hasVideo;
-@property(retain, nonatomic) NSString *itemDescription; // @synthesize itemDescription=_itemDescription;
-@property(retain, nonatomic) NSURL *itemFilePath; // @synthesize itemFilePath=_itemFilePath;
-@property(retain, nonatomic) NSNumber *playCount; // @synthesize playCount=_playCount;
-@property(retain, nonatomic) NSNumber *playlistId; // @synthesize playlistId=_playlistId;
-@property(retain, nonatomic) NSString *seriesName; // @synthesize seriesName=_seriesName;
-@property(retain, nonatomic) NSNumber *serpentId; // @synthesize serpentId=_serpentId;
-@property(retain, nonatomic) NSString *statsDownloadIdentifier; // @synthesize statsDownloadIdentifier=_statsDownloadIdentifier;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSNumber *totalTimeMillis; // @synthesize totalTimeMillis=_totalTimeMillis;
 
 @end
 

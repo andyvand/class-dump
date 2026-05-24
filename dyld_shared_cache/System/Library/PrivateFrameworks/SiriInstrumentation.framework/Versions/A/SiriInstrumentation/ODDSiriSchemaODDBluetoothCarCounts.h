@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDBluetoothCarCounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_siriInBTCarTurnCounts;
-    unsigned int _bluetoothCarConnectionsInTheLast24Hours;
-    struct {
-        unsigned int bluetoothCarConnectionsInTheLast24Hours:1;
-    } _has;
-    _Bool _hasSiriInBTCarTurnCounts;
 }
 
 - (id);
@@ -32,8 +27,8 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool);
 - (id);
 - (id)
 × ;
@@ -42,10 +37,6 @@
 - (void)dedTier1.audioExecutionTier1.audioQueueStateInfoTier1.audioQueueStateItemTier1.audioClientId;
 
 // Remaining properties
-@property(nonatomic) unsigned int bluetoothCarConnectionsInTheLast24Hours; // @synthesize bluetoothCarConnectionsInTheLast24Hours=_bluetoothCarConnectionsInTheLast24Hours;
-@property(nonatomic) _Bool hasBluetoothCarConnectionsInTheLast24Hours;
-@property(nonatomic) _Bool hasSiriInBTCarTurnCounts; // @synthesize hasSiriInBTCarTurnCounts=_hasSiriInBTCarTurnCounts;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *siriInBTCarTurnCounts; // @synthesize siriInBTCarTurnCounts=_siriInBTCarTurnCounts;
 
 @end

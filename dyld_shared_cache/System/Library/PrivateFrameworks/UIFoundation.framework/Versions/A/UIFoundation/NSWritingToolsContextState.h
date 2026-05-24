@@ -9,26 +9,24 @@
 @interface NSWritingToolsContextState
 {
     NSAttributedString *_contextString;
-    struct _NSRange _contextRange;
-    struct _NSRange _proposedRange;
 }
 
 + (struct _NSRange);
 - (void);
-- (void);
+- (void)
+=S
+;
 - (void);
 - (struct _NSRange);
+- (id);
 - (id);
 - (id);
-- (id);
-- (struct _NSRange);
+- (struct _NSRange)c;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange contextRange; // @synthesize contextRange=_contextRange;
 @property(copy, nonatomic) NSAttributedString *contextString; // @synthesize contextString=_contextString;
-@property(nonatomic) struct _NSRange proposedRange; // @synthesize proposedRange=_proposedRange;
 
 @end
 

@@ -7,25 +7,17 @@
 @interface MTL4RenderPipelineColorAttachmentDescriptor
 {
     unsigned long long _pixelFormat;
-    long long _blendingState;
-    unsigned long long _sourceRGBBlendFactor;
-    unsigned long long _destinationRGBBlendFactor;
-    unsigned long long _rgbBlendOperation;
-    unsigned long long _sourceAlphaBlendFactor;
-    unsigned long long _destinationAlphaBlendFactor;
-    unsigned long long _alphaBlendOperation;
-    unsigned long long _writeMask;
 }
 
 - (void);
 - (long long);
-- (void);
+- (void)ndBuffer>"16Q24Q32Q40Q48;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long): /* Error: Ran out of types for this method. */;
+- (void)14IIO_Writer_BMP;
+- (void)F$;
 - (id);
 - (void);
 - (void);
@@ -42,15 +34,7 @@
 - (unsigned long long)YCBCR10_420_2P_PACKED;
 
 // Remaining properties
-@property(nonatomic) unsigned long long alphaBlendOperation; // @synthesize alphaBlendOperation=_alphaBlendOperation;
-@property(nonatomic) long long blendingState; // @synthesize blendingState=_blendingState;
-@property(nonatomic) unsigned long long destinationAlphaBlendFactor; // @synthesize destinationAlphaBlendFactor=_destinationAlphaBlendFactor;
-@property(nonatomic) unsigned long long destinationRGBBlendFactor; // @synthesize destinationRGBBlendFactor=_destinationRGBBlendFactor;
 @property(nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) unsigned long long rgbBlendOperation; // @synthesize rgbBlendOperation=_rgbBlendOperation;
-@property(nonatomic) unsigned long long sourceAlphaBlendFactor; // @synthesize sourceAlphaBlendFactor=_sourceAlphaBlendFactor;
-@property(nonatomic) unsigned long long sourceRGBBlendFactor; // @synthesize sourceRGBBlendFactor=_sourceRGBBlendFactor;
-@property(nonatomic) unsigned long long writeMask; // @synthesize writeMask=_writeMask;
 
 @end
 

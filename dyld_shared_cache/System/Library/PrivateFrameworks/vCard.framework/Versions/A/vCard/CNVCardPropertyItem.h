@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNVCardPropertyItem
 {
     id _value;
-    NSString *_label;
-    NSString *_identifier;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
+- (id)de cannot be NULL";
 - (id);
-- (id);
-- (void);
+- (void)W5;
 
 // Remaining properties
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *label; // @synthesize label=_label;
 @property(readonly) id value; // @synthesize value=_value;
 
 @end

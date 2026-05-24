@@ -4,10 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventGestureController;
+@class EKDayOccurrenceView, EKEventGestureController, UIView;
 @protocol CUIKEditor;
 
 @protocol EKEventGestureControllerDelegate
-- (id <CUIKEditor>)ected:(EKEventGestureController *)arg1;
+- (EKDayOccurrenceView *){;
+- (_Bool)"NSArray<NSFileProviderItem>"@"NSArray"@"NSData"@"NSError">;
+- (double);
+- (void)HomeAuxiliaryCapabilityDescriptor";
+- (EKDayOccurrenceView *);
+- (EKDayOccurrenceView *)"<AXMVisionEngineNodeConnectionDelegate>";
+- (UIView *)_;
+- (double)initWithUndoContext:(EKEventGestureController *)arg1 didRunOpensIntent:attribution:executionMetricData: /* Error: Ran out of types for this method. */;
+- (void)__objc_classlist__DATA_CONST;
+- (id <CUIKEditor>)dayViewContent:(EKEventGestureController *)arg1 didSelectEvent:userInitiated:dateSelected: /* Error: Ran out of types for this method. */;
+
+@optional
+- (struct UIEdgeInsets)}+s;
+- (UIView *);
+- (_Bool);
+- (_Bool)storyServiceProtocol>"@"NSError">;
+- (double);
 @end
 

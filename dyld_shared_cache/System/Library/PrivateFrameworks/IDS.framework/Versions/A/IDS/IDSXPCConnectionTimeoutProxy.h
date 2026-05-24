@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSXPCConnection;
-
 @interface IDSXPCConnectionTimeoutProxy
 {
     id _target;
-    IDSXPCConnection *_connection;
-    double _timeout;
-    CDUnknownBlockType _errorHandler;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)D;
 - (void);
-- (void);
+- (void)c;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -31,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IDSXPCConnection *connection; // @synthesize connection=_connection;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
 @property(retain, nonatomic) id target; // @synthesize target=_target;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

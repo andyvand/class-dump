@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)opportune;
 - (id);
-- (void)Delegate;
+- (void)HMAccessorySettingsDataSourceDelegate;
 
 // Remaining properties
 @property(readonly, copy) NSArray *stringListValue; // @synthesize stringListValue=_stringListValue;

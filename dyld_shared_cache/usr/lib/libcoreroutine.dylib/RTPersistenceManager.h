@@ -6,31 +6,18 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSArray, NSManagedObjectModel, NSMutableArray, NSPointerArray, NSRecursiveLock, NSString, NSURL, RTPersistenceContainer, RTPersistenceStore;
-@protocol RTPersistenceDelegate, RTPersistenceMirroringDelegate;
+@class NSURL;
 
 @interface RTPersistenceManager : RTService
 {
     NSURL *_modelsDirectory;
-    NSURL *_storesDirectory;
-    NSArray *_sortedModelNames;
-    RTPersistenceStore *_stores[4];
-    RTPersistenceContainer *_container;
-    NSManagedObjectModel *_latestModel;
-    NSRecursiveLock *_pointerArrayLock;
-    NSRecursiveLock *_storesArrayLock;
-    NSPointerArray *_outstandingContexts;
-    NSMutableArray *_remoteServers;
-    unsigned long long _availability;
-    id <RTPersistenceDelegate> _delegate;
-    id <RTPersistenceMirroringDelegate> _mirroringDelegate;
 }
 
 + (unsigned long long);
 + (id);
-+ (id);
-+ (id);
-- (_Bool);
++ (id)t the same PCS keys;
++ (id)though %@ (master %@, content %@);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -41,9 +28,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)_mismatchedAccountFlag;
 - (void);
-- (void);
+- (void)equest_id;
 - (id);
 - (void);
 - (void);
@@ -60,27 +47,27 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id)pectedly found nil signallessID in a signalless IDSGroupSessionActiveParticipant.;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
+- (void)FILTER_RULE_INVALID_NETWORK_RULE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ncRequestDate: /* Error: Ran out of types for this method. */;
+- (id)setLastCompanionSyncRequestDate: /* Error: Ran out of types for this method. */;
 - (void)hreshold:(unsigned long long)arg1 unconcreteLOICollapseDistanceThreshold:visitAdjacencyMergeThreshold: /* Error: Ran out of types for this method. */;
 - (id)veSessionDetails;
 - (id),N,V_stateVariableLastSensitiveLocationCheckTimestamp;
@@ -94,15 +81,6 @@
 
 // Remaining properties
 @property unsigned long long availability; // @synthesize availability=_availability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RTPersistenceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <RTPersistenceMirroringDelegate> mirroringDelegate; // @synthesize mirroringDelegate=_mirroringDelegate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,7 +8,7 @@
 
 @interface UnknownClass (Network)
 - (void);
-- (id);
+- (id)q`;
 
 // Remaining properties
 @property(copy) NSArray *proxyConfigurations;

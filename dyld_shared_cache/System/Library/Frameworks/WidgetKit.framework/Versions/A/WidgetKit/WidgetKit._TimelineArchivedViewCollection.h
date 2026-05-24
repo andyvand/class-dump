@@ -7,10 +7,6 @@
 @interface WidgetKit._TimelineArchivedViewCollection
 {
     id protectionLevel;
-    id urlAttributes;
-    id $__lazy_storage_$_dateRange;
-    id metadata;
-    id archivedStates;
 }
 
 @end

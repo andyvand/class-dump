@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDScannerResult, DOMElement, IMMessagePartChatItem, NSURL;
+@class DOMElement;
 
 @interface TranscriptDOMDDItem
 {
     DOMElement *_domElement;
-    DDScannerResult *_ddResult;
-    NSURL *_url;
-    IMMessagePartChatItem *_chatItem;
 }
 
 - (void);
@@ -25,10 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMMessagePartChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(retain, nonatomic) DDScannerResult *ddResult; // @synthesize ddResult=_ddResult;
 @property(retain, nonatomic) DOMElement *domElement; // @synthesize domElement=_domElement;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

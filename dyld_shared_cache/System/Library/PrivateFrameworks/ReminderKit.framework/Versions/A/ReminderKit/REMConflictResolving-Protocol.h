@@ -7,9 +7,9 @@
 @class NSData, REMResolutionTokenMap;
 
 @protocol REMConflictResolving
+- (NSData *)ty:date:referenceFrame:speed:sourceAccuracy: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) REMResolutionTokenMap *resolutionTokenMap;
-@property(retain, nonatomic) NSData *resolutionTokenMapData;
 @end
 

@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryNetworkProtectionGroupModel : HMDBackingStoreModelObject
 {
@@ -21,21 +19,12 @@ __attribute__((visibility("hidden")))
 + (Class)ùñ1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id){public}@Could not process received ids invitation %@ due to error %@;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *category; // @dynamic category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *manufacturer; // @dynamic manufacturer;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *targetProtectionMode; // @dynamic targetProtectionMode;
 
 @end
 

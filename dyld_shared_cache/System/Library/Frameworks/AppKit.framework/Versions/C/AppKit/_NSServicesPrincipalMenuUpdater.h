@@ -12,18 +12,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void);
+- (unsigned long long)gle_allocSysConfig3PayloadEntryInternal(uint32_t, const char *__single __terminated_by(0), const uint8_t *__single __counted_by(dataLength), uint32_t, const char *__single __terminated_by(0), _Bool);
+- (void)get itunes-min-ver
+;
+- (void)4pRfg1ihg;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)rs from signed message.;
 - (void);
 - (id);
 

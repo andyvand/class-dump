@@ -11,7 +11,7 @@
     NSMutableArray *_attestations;
 }
 
-+ (Class);
++ (Class);
 - (void);
 - (unsigned long long);
 - (id);
@@ -19,10 +19,11 @@
 - (void);
 - (id);
 - (id);
+- (void)dataWithReversedBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)from %s to %s (rqrt:%1.3f; buffEnough:%c), amount=%1.3f, playbackState=%s 
+ /* Error: Ran out of types for this method. */;
+- (_Bool)�;
 - (_Bool);
 - (void);
 - (id);

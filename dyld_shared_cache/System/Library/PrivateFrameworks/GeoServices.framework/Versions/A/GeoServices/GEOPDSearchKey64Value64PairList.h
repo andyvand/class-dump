@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)4;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)mElevationLossCm"b1"read_unknownFields"b1"read_elevationDescription"b1"read_minimumVisibleElevationRange"b1"read_points"b1"read_segmentDescriptions"b1"wrote_anyField"b1};
-- (id)ntUpdate;
+- (id)_poiEnrichmentUpdate;
 - (id)l(¤);
 - (void)1^óªÎNH@;
 

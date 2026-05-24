@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (void);
-- (void)reviewActiveForTesting: /* Error: Ran out of types for this method. */;
+- (void)setToolPreviewActiveForTesting: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType prefersPencilOnlyDrawsDidChangeHandler; // @synthesize prefersPencilOnlyDrawsDidChangeHandler=_prefersPencilOnlyDrawsDidChangeHandler;

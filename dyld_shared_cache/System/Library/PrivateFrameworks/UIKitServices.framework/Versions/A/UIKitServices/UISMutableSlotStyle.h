@@ -6,8 +6,6 @@
 
 #import <UIKitServices/UISSlotStyle.h>
 
-@class NSString;
-
 @interface UISMutableSlotStyle : UISSlotStyle
 {
 }
@@ -17,28 +15,17 @@
 - (void);
 - (void);
 - (void);
+- (void)personalizedSiriEnrollmentAudioLoggingEnabled;
 - (void);
 - (void);
 - (void);
+- (id)B;
+- (void)setCpuLimit:(unsigned long long)arg1;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)ersistenceIdentifer:(struct CGColor *)arg1;
+- (void)initWithOrder:(struct CGColor *)arg1 relativeScenePersistenceIdentifer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accessibilityButtonShapes; // @dynamic accessibilityButtonShapes;
-@property(nonatomic) unsigned long long accessibilityContrast; // @dynamic accessibilityContrast;
-@property(nonatomic) unsigned long long displayRange; // @dynamic displayRange;
-@property(nonatomic) unsigned char displayScale; // @dynamic displayScale;
-@property(nonatomic) unsigned long long layoutDirection; // @dynamic layoutDirection;
-@property(nonatomic) unsigned long long legibilityWeight; // @dynamic legibilityWeight;
-@property(copy, nonatomic) NSString *localization; // @dynamic localization;
-@property(nonatomic) unsigned long long preferredContentSizeCategory; // @dynamic preferredContentSizeCategory;
-@property(nonatomic) unsigned long long textStylePlatform; // @dynamic textStylePlatform;
-@property(nonatomic) struct CGColor *tintColor; // @dynamic tintColor;
-@property(nonatomic) unsigned long long userInterfaceIdiom; // @dynamic userInterfaceIdiom;
-@property(nonatomic) unsigned long long userInterfaceStyle; // @dynamic userInterfaceStyle;
 
 @end
 

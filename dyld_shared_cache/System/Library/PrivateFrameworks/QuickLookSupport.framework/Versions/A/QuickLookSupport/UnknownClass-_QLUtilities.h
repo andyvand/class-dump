@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (_QLUtilities)
-- (id);
+- (id)ctory.4923j9/Sources/WebKit/Source/WebKit/WebProcess/Extensions/WebExtensionContextProxy.h;
 - (_Bool);
 - (_Bool);
 @end

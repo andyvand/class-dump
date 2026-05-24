@@ -7,9 +7,6 @@
 @interface MSParsecSearchEmbeddingState
 {
     _Bool _hasQueryEmbedding;
-    _Bool _hasKeywordResults;
-    _Bool _hasEmbeddingResults;
-    int _queryStatus;
 }
 
 + (id);
@@ -22,9 +19,6 @@
 - (int);
 
 // Remaining properties
-@property(readonly) _Bool hasEmbeddingResults; // @synthesize hasEmbeddingResults=_hasEmbeddingResults;
-@property(readonly) _Bool hasKeywordResults; // @synthesize hasKeywordResults=_hasKeywordResults;
-@property(readonly) _Bool hasQueryEmbedding; // @synthesize hasQueryEmbedding=_hasQueryEmbedding;
 @property(readonly) int queryStatus; // @synthesize queryStatus=_queryStatus;
 
 @end

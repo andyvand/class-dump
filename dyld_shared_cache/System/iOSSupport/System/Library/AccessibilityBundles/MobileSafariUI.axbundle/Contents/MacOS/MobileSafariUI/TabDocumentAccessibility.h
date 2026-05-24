@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)led:%@, title:%@} /* Error: Ran out of types for this method. */;
 + (id);
-+ (void);
++ (void);
 - (void);
 - (void);
 

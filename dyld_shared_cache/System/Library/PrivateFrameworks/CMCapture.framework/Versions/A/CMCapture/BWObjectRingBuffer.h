@@ -7,13 +7,6 @@
 @interface BWObjectRingBuffer
 {
     id *_objects;
-    CDStruct_1b6d18a9 *_times;
-    int _capacity;
-    int _count;
-    int _oldest;
-    _Bool _ascending;
-    _Bool _expectAscending;
-    _Bool _enforceAscending;
 }
 
 + (void)riterAction( currSampleBuffer, requiredAction );
@@ -21,17 +14,17 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)�K;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (void);
 - (_Bool);
-- (void);
+- (void)$8;
 - (id);
 - (id);
 - (_Bool);
@@ -45,11 +38,7 @@
 ÿÛÿÿçÿÿôý3ÿþü?ÿÿûDÿÿúDÿÿù;ÿÿ÷!ÿÿöÿÿõÿÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿ^üÿ}ÿ#ÿÿ$ÿ«ÿ#ÿ¼ÿ!ÿËÿÿÙÿÿåÿÿñÿ$ÿûÿ=ÿÿÿEÿÿÿIÿÿÿHÿÿÿBÿÿþ7ÿÿüÿÿûÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿTûÿwÿ"ÿÿ#ÿ¥ÿ#ÿ·ÿ"ÿÇÿ ÿÕÿÿáÿÿîÿÿøÿ5ÿÿÿDÿÿÿJÿÿÿMÿÿÿLÿÿÿHÿÿÿ@ÿÿÿ2ÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿLùÿqÿ"ÿÿ#ÿÿ#ÿ±ÿ"ÿÁÿ!ÿÏÿÿÜÿÿéÿÿóÿÿýÿ>ÿÿÿHÿÿÿNÿÿÿQÿÿÿPÿÿÿNÿÿÿIÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿFøÿlÿ!ÿÿ#ÿÿ#ÿ«ÿ#ÿ»ÿ!ÿÊÿ ÿ×ÿÿåÿÿðÿÿúÿ3ÿÿÿEÿÿÿNÿÿÿRÿÿÿTÿÿÿTÿÿÿSÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿDøÿiþ!ÿÿ#ÿÿ#ÿ§ÿ#ÿ·ÿ"ÿÆÿ ÿÓÿÿáÿÿíÿÿ÷ÿÿÿÿ@ÿÿÿLÿÿÿRÿÿÿVÿÿÿXÿÿÿXÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿEøÿhþ!ÿ~ÿ#ÿÿ#ÿ¤ÿ#ÿ³ÿ"ÿÂÿ!ÿÐÿÿÞÿÿêÿÿõÿÿÿÿ;ÿÿÿJÿÿÿQÿÿÿVÿÿÿYÿÿÿZÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿJùÿiþ!ÿ~ÿ#ÿÿ#ÿ¢ÿ#ÿ±ÿ"ÿ¿ÿ!ÿÍÿÿÛÿÿçÿÿòÿÿüÿ4ÿÿÿFÿÿÿOÿÿÿUÿÿÿYÿÿÿ\ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
-@property(nonatomic) int capacity; // @synthesize capacity=_capacity;
 @property(readonly, nonatomic) int count; // @synthesize count=_count;
-@property(nonatomic) _Bool enforceAscending;
-@property(nonatomic) _Bool expectAscending; // @synthesize expectAscending=_expectAscending;
 
 @end
 

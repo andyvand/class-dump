@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _UINavigationControllerVisualStyleProviding;
 
 @interface _UINavigationControllerVisualStyleFactory
@@ -15,20 +14,13 @@
 + (id)NáÿÑk;
 - (void);
 - (void);
-- (id);
+- (id)likedStateChangedDate;
 - (id)0@ù
 × ;
 - (id)Ð[t\;
 - (void)µë;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <_UINavigationControllerVisualStyleProviding> visualStyleProvider; // @synthesize visualStyleProvider=_visualStyleProvider;
 
 @end

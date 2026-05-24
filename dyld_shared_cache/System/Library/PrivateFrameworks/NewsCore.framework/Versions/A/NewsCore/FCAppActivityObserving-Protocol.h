@@ -7,7 +7,10 @@
 @protocol FCAppActivityObserving
 
 @optional
-- (void)icleEmbeddingsFittingConfiguration";
+- (void);
 - (void);
+- (void)os[%lu].peerNmiMacAddress;
+- (void)0a;
+- (void)icleEmbeddingsFittingConfiguration";
 @end
 

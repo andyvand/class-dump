@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavdClientInfo, NSMutableDictionary, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface GEONavdPeer
 {
     NSXPCConnection *_connection;
-    NSMutableDictionary *_entitlementCache;
-    GEONavdClientInfo *_clientInfo;
-    _Bool _expectingUpdates;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (_Bool)AllFrom can only be called once per object;
 - (id);
@@ -25,9 +22,7 @@
 - (void)Xj2;
 
 // Remaining properties
-@property(readonly, nonatomic) GEONavdClientInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) _Bool expectingUpdates; // @synthesize expectingUpdates=_expectingUpdates;
 
 @end
 

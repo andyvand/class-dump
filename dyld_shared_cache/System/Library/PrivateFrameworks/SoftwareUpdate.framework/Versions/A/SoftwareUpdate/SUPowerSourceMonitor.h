@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface SUPowerSourceMonitor
 {
     struct __CFRunLoopSource *_powerRunLoopSource;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    CDUnknownBlockType _notifyBlock;
-    _Bool _isAC;
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_DNSSearchDomainMatch;
+- (void);
 
 @end
 

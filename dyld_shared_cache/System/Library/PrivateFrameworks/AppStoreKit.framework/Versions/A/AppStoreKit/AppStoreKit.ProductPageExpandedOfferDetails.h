@@ -7,7 +7,6 @@
 @interface AppStoreKit.ProductPageExpandedOfferDetails
 {
     id title;
-    id subtitle;
 }
 
 @end

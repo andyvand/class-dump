@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface MTFullscreenTransitionTracker
 {
     _Bool _isTransitioning;
-    NSMutableArray *_pendingBlocks;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)(;
 - (void);
+- (void)0;
 - (void);
-- (void);
-- (void);
+- (void)^@32;
 - (id);
 - (id);
 - (_Bool);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isTransitioning; // @synthesize isTransitioning=_isTransitioning;
-@property(retain, nonatomic) NSMutableArray *pendingBlocks; // @synthesize pendingBlocks=_pendingBlocks;
 
 @end
 

@@ -11,19 +11,30 @@
 @interface TRIActivateTreatmentBaseTask : TRITreatmentBaseTask
 {
     NSDate *_startTime;
-    _Bool _requiresTreatmentInstallation;
-    NSDate *_endTime;
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)fujiRAWImageType;
+- (_Bool)copyNextSampleBuffer;
+- (id)tNormalized:(int)arg1 sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:outputCropScore:outputLayoutScore:outputClockOverlapAcceptable: /* Error: Ran out of types for this method. */;
+- (_Bool)averageOutputChunkTimeInterval;
+- (id)architectureHash;
+- (id)arwZQ8welvZ6WzVyJ6Wy8a9Iwvnx2ljtU+OHJw926TW
+Mq9717awZPF5kjayHfy9WBlsBXmyK/qu2OBVYKqGdRB9WqsSXikrKzXpSCLNLPQa
+p0bB1TIlFiWrnbwY16g6rkFrhVJkOLh7PclOA34n7oBXbsrk1Ks0Tme5UTlC+WRG
+eazIYpHeWoEZ30XRQwqu20J3VbefTnNEHJxDFMZvD5Cx3Jld+qMD6BolNpHYwQuV
+TWslslF95dbnholYyBL1DAEk2QUkx+OGjvlqmWTh49WZbI6cQUZRAgEDoyMwITAP
+BgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQUFAAOC
+AQEAM/08wZdoUyhuTuGZINY989twymcu3tTk9BRJJMCYUlPpyZAxjVLZRQzmQ6la
+VY/BD+sNIYdvnBFQ/V7p6wb3JGwZJ6I9EfCzOv/QQvXg0nLmnmvXVNZq6OmDlAWJ
+Y8jf6AZHpcgyAF6Eq0p2R2FfWwUET8Pw607+jSQJ2pz1kssaHDJxe8EEEcWAeH3/
+Q2Eevd6qP7zeJsJ+giKBgZnONp0Zyl5fPXQrQdU4B+Zm+2Vm3JZModBmW/tIovgZ
+gDBO80j3fJhuBlqiedh06ztRpmQgWuyApkecgNez2nYA1sn7uuXiWE4RcMUwVYv2
+OZYV62fOm8+5sshE0iQHEXjBLg==
+-----END CERTIFICATE-----
+;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)ibrary/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Pipeline/NURenderPipelineFilter.m;
 - (id);
 - (void);
 - (_Bool);
@@ -35,7 +46,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) _Bool requiresTreatmentInstallation; // @synthesize requiresTreatmentInstallation=_requiresTreatmentInstallation;
 
 @end
 

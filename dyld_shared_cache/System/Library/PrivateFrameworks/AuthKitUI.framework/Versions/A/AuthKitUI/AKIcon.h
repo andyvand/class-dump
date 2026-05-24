@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AKIcon
 {
     double _scale;
-    struct CGSize _size;
-    NSString *_name;
-    NSString *_typeID;
-    NSString *_systemName;
-    NSString *_bundleID;
-    NSData *_data;
-    unsigned long long _maskingStyle;
 }
 
-+ (id);
++ (id)�;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (double);
-+ (double)ce;
-- (id);
++ (double)AKFidoInterface;
+- (id)SPPreferenceCustomRules;
 - (id);
 - (id);
 - (id);
@@ -42,11 +33,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGImage *);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

@@ -4,24 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUITestDisplayConfiguration, NSDictionary, NSMenu, NSString, NSUserDefaults;
-
 @interface LUITestSupport
 {
     _Bool _testing;
-    _Bool _testingUsers;
-    _Bool _unitTesting;
-    _Bool _useSFAuthorizationPluginView;
-    _Bool _configurationLoaded;
-    LUITestDisplayConfiguration *_currentDisplayConfiguration;
-    NSString *_domain;
-    NSUserDefaults *_defaults;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -29,24 +35,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)_currentStatement;
+- (id)ng;
 - (void);
 - (id);
 - (void);
@@ -56,18 +47,7 @@
 - (_Bool)°g;
 
 // Remaining properties
-@property(readonly) _Bool canUpdateConfiguration;
-@property _Bool configurationLoaded; // @synthesize configurationLoaded=_configurationLoaded;
-@property(readonly) NSDictionary *currentConfiguration;
-@property(retain) LUITestDisplayConfiguration *currentDisplayConfiguration; // @synthesize currentDisplayConfiguration=_currentDisplayConfiguration;
-@property(retain) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(readonly) NSMenu *displayConfigurationsMenu;
-@property(retain) NSString *domain; // @synthesize domain=_domain;
 @property(readonly) _Bool isAppleInternal;
-@property _Bool testing; // @synthesize testing=_testing;
-@property _Bool testingUsers; // @synthesize testingUsers=_testingUsers;
-@property(getter=isUnitTesting) _Bool unitTesting; // @synthesize unitTesting=_unitTesting;
-@property _Bool useSFAuthorizationPluginView; // @synthesize useSFAuthorizationPluginView=_useSFAuthorizationPluginView;
 
 @end
 

@@ -10,15 +10,10 @@
 @interface FigCapturePowerMonitor
 {
     NSObject<OS_dispatch_queue> *_notificationQueue;
-    int _registrationToken;
-    CDUnknownBlockType _torchHandler;
-    struct OpaqueFigSimpleMutex *_lock;
-    float _maxTorchLevel;
-    unsigned int _powerPressureLevel;
 }
 
-+ (void)cusPointOfInterest;
-- (void);
++ (void)FocusPointOfInterest;
+- (void)mStroke;
 - (float);
 - (id);
 - (unsigned int);
@@ -26,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) float maxTorchLevel;
-@property(readonly) unsigned int powerPressureLevel;
 
 @end
 

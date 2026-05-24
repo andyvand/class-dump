@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString, NSURL, SFImage;
-
 @interface UnknownClass (SPResultExtensions)
 + (id);
 - (_Bool);
@@ -15,11 +13,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (int);
 - (id);
@@ -34,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)_֨/;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,7 +54,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -66,39 +64,23 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)encodeWithCoder: /* Error: Ran out of types for this method. */;
+- (_Bool)AP for Apple Model Number:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)setDelegate: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *alternateDetails;
-@property(readonly) NSImage *alternateIconImageForSuggestion;
-@property(readonly) SFImage *alternateLeadingImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *displayInfo;
-@property(readonly) NSString *fastPath;
-@property(readonly) NSURL *fastURL;
-@property(readonly) NSString *filePath;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool isPhotoImageOrMovie;
-@property(readonly) NSString *parentPath;
-@property(readonly) Class superclass;
-@property(readonly) NSString *targetString;
 @end
 

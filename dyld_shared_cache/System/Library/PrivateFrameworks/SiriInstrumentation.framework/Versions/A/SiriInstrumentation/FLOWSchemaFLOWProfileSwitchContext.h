@@ -6,28 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWProfileSwitchContext : SISchemaInstrumentationMessage
 {
     int _profileSwitchMethod;
-    int _profileSwitchByNameType;
-    int _profileSwitchOutcome;
-    int _profileSwitchFailureReason;
-    unsigned int _profileSwitchDurationInMs;
-    struct {
-        unsigned int profileSwitchMethod:1;
-        unsigned int profileSwitchByNameType:1;
-        unsigned int profileSwitchOutcome:1;
-        unsigned int profileSwitchFailureReason:1;
-        unsigned int profileSwitchDurationInMs:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +25,7 @@
 - (int);
 - (int);
 - (unsigned int);
-- (int);
+- (int)�Ղ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)e;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -60,17 +47,7 @@
 - (id)(£;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProfileSwitchByNameType;
-@property(nonatomic) _Bool hasProfileSwitchDurationInMs;
-@property(nonatomic) _Bool hasProfileSwitchFailureReason;
-@property(nonatomic) _Bool hasProfileSwitchMethod;
-@property(nonatomic) _Bool hasProfileSwitchOutcome;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int profileSwitchByNameType; // @synthesize profileSwitchByNameType=_profileSwitchByNameType;
-@property(nonatomic) unsigned int profileSwitchDurationInMs; // @synthesize profileSwitchDurationInMs=_profileSwitchDurationInMs;
-@property(nonatomic) int profileSwitchFailureReason; // @synthesize profileSwitchFailureReason=_profileSwitchFailureReason;
 @property(nonatomic) int profileSwitchMethod; // @synthesize profileSwitchMethod=_profileSwitchMethod;
-@property(nonatomic) int profileSwitchOutcome; // @synthesize profileSwitchOutcome=_profileSwitchOutcome;
 
 @end
 

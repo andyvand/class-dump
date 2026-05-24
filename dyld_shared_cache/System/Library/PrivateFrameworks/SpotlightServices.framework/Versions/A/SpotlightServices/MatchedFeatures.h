@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface MatchedFeatures
 {
     unsigned long long _tokenIndex;
-    unsigned long long _photoFeatureIndex;
-    double _tokenMatchRatio;
-    double _characterMatchRatio;
-    NSMutableArray *_matchedPositions;
-    NSArray *_matchedTypes;
 }
 
 - (void);
+- (void)SMenuItem"16{CGPoint=dd}24;
+- (void)"AVAssetResourceLoader"16@"AVAssetResourceLoadingRequest"24;
+- (void)tion"16@0:(id)arg1 8;
+- (void)viewDidMoveToWindow;
+- (unsigned long long)setFirstLineLeading: /* Error: Ran out of types for this method. */;
+- (id)setAllowsGroupBlending: /* Error: Ran out of types for this method. */;
+- (id)setAlignTextAndMediaHorizontalEdges: /* Error: Ran out of types for this method. */;
+- (id)initWithHost:(unsigned long long)arg1 images:(unsigned long long)arg2 style:(id)arg3;
+- (double)bottomCaptionView;
+- (double)_shouldUseInferredAppearance;
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (void);
-- (unsigned long long);
-- (void)ifier;
+- (unsigned long long)h siriSharedUserID:%@ /* Error: Ran out of types for this method. */;
+- (void)_processInstanceIdentifier;
 
 // Remaining properties
-@property double characterMatchRatio; // @synthesize characterMatchRatio=_characterMatchRatio;
-@property(retain) NSMutableArray *matchedPositions; // @synthesize matchedPositions=_matchedPositions;
-@property(retain) NSArray *matchedTypes; // @synthesize matchedTypes=_matchedTypes;
-@property unsigned long long photoFeatureIndex; // @synthesize photoFeatureIndex=_photoFeatureIndex;
 @property unsigned long long tokenIndex; // @synthesize tokenIndex=_tokenIndex;
-@property double tokenMatchRatio; // @synthesize tokenMatchRatio=_tokenMatchRatio;
 
 @end
 

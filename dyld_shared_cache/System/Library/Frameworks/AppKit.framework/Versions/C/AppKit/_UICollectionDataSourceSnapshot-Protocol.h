@@ -5,7 +5,7 @@
 //
 
 @protocol _UICollectionDataSourceSnapshot
-- (long long)ultController: /* Error: Ran out of types for this method. */;
+- (long long)registerUserDefaultController: /* Error: Ran out of types for this method. */;
 - (long long)or=%@ _reserved=%ld;
 @end
 

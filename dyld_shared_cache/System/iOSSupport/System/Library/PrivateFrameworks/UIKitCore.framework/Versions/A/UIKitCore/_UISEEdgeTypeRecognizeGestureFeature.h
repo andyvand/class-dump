@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool _initialFromEdgeTip;
 }
 
-- (void);
+- (void)setInteractionPulseScalePtsY:(const struct _UISEGestureFeatureSample *)arg1;
 
 @end
 

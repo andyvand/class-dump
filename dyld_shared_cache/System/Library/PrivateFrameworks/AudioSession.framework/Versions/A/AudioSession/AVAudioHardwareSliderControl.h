@@ -6,19 +6,16 @@
 
 #import <AudioSession/AVAudioHardwareControl.h>
 
-@class AVAudioUIntegerRange;
-
 @interface AVAudioHardwareSliderControl : AVAudioHardwareControl
 {
 }
 
-- (id);
-- (_Bool);
+- (id)agerDelegate>",W,V_delegate;
+- (_Bool)DNSServerAddressMatch;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) AVAudioUIntegerRange *range;
 @property(readonly, nonatomic) unsigned long long value;
 
 @end

@@ -10,14 +10,14 @@
 {
 }
 
-+ (id);
++ (id)So52UICollectionViewDiffableDataSourceReorderingHandlersC;
 + (_Bool);
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *);
 + (struct CGSize);
 + (id);
 + (struct CLLocationCoordinate2D);

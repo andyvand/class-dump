@@ -6,28 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWKeyboardUsageMetadata, NSData;
-
 @interface FLOWSchemaFLOWSmsTextContentMetadata : SISchemaInstrumentationMessage
 {
     unsigned int _messageCharLength;
-    unsigned int _messageWordLength;
-    FLOWSchemaFLOWKeyboardUsageMetadata *_flowKeyboardUsageMetadata;
-    _Bool _isPunctuationUsed;
-    _Bool _isPayloadMultilingual;
-    struct {
-        unsigned int messageCharLength:1;
-        unsigned int messageWordLength:1;
-        unsigned int isPunctuationUsed:1;
-        unsigned int isPayloadMultilingual:1;
-    } _has;
-    _Bool _hasFlowKeyboardUsageMetadata;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +37,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -62,17 +49,7 @@
 - (void)`±$;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWSchemaFLOWKeyboardUsageMetadata *flowKeyboardUsageMetadata; // @synthesize flowKeyboardUsageMetadata=_flowKeyboardUsageMetadata;
-@property(nonatomic) _Bool hasFlowKeyboardUsageMetadata; // @synthesize hasFlowKeyboardUsageMetadata=_hasFlowKeyboardUsageMetadata;
-@property(nonatomic) _Bool hasIsPayloadMultilingual;
-@property(nonatomic) _Bool hasIsPunctuationUsed;
-@property(nonatomic) _Bool hasMessageCharLength;
-@property(nonatomic) _Bool hasMessageWordLength;
-@property(nonatomic) _Bool isPayloadMultilingual; // @synthesize isPayloadMultilingual=_isPayloadMultilingual;
-@property(nonatomic) _Bool isPunctuationUsed; // @synthesize isPunctuationUsed=_isPunctuationUsed;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int messageCharLength; // @synthesize messageCharLength=_messageCharLength;
-@property(nonatomic) unsigned int messageWordLength; // @synthesize messageWordLength=_messageWordLength;
 
 @end
 

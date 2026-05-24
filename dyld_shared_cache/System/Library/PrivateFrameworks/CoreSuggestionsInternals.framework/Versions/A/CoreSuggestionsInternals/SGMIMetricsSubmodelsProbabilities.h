@@ -7,33 +7,6 @@
 @interface SGMIMetricsSubmodelsProbabilities
 {
     float _attachmentsProbability;
-    float _conversationProbability;
-    float _domainFromSenderProbability;
-    float _listIdProbability;
-    float _mailboxProbability;
-    float _mailboxTypeProbability;
-    float _personCCRecipientsProbability;
-    float _personFromSenderInDyadicConversationProbability;
-    float _personFromSenderProbability;
-    float _personToRecipientsProbability;
-    float _standardMailRulesProbability;
-    float _subjectContentProbability;
-    float _subjectCountStatsProbability;
-    struct {
-        unsigned int attachmentsProbability:1;
-        unsigned int conversationProbability:1;
-        unsigned int domainFromSenderProbability:1;
-        unsigned int listIdProbability:1;
-        unsigned int mailboxProbability:1;
-        unsigned int mailboxTypeProbability:1;
-        unsigned int personCCRecipientsProbability:1;
-        unsigned int personFromSenderInDyadicConversationProbability:1;
-        unsigned int personFromSenderProbability:1;
-        unsigned int personToRecipientsProbability:1;
-        unsigned int standardMailRulesProbability:1;
-        unsigned int subjectContentProbability:1;
-        unsigned int subjectCountStatsProbability:1;
-    } _has;
 }
 
 - (float);
@@ -54,6 +27,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,19 +36,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (float)b_&;
 - (float);
 - (float);
+- (float)__TEXT;
 - (float);
 - (float);
-- (float);
-- (float);
-- (float);
+- (float)_lp_URLByDeletingCommonIndexPageNames;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ɚ*;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -89,42 +62,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)0V;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)%@;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) float attachmentsProbability; // @synthesize attachmentsProbability=_attachmentsProbability;
-@property(nonatomic) float conversationProbability; // @synthesize conversationProbability=_conversationProbability;
-@property(nonatomic) float domainFromSenderProbability; // @synthesize domainFromSenderProbability=_domainFromSenderProbability;
-@property(nonatomic) _Bool hasAttachmentsProbability;
-@property(nonatomic) _Bool hasConversationProbability;
-@property(nonatomic) _Bool hasDomainFromSenderProbability;
-@property(nonatomic) _Bool hasListIdProbability;
-@property(nonatomic) _Bool hasMailboxProbability;
-@property(nonatomic) _Bool hasMailboxTypeProbability;
-@property(nonatomic) _Bool hasPersonCCRecipientsProbability;
-@property(nonatomic) _Bool hasPersonFromSenderInDyadicConversationProbability;
 @property(nonatomic) _Bool hasPersonFromSenderProbability;
-@property(nonatomic) _Bool hasPersonToRecipientsProbability;
-@property(nonatomic) _Bool hasStandardMailRulesProbability;
-@property(nonatomic) _Bool hasSubjectContentProbability;
-@property(nonatomic) _Bool hasSubjectCountStatsProbability;
-@property(nonatomic) float listIdProbability; // @synthesize listIdProbability=_listIdProbability;
-@property(nonatomic) float mailboxProbability; // @synthesize mailboxProbability=_mailboxProbability;
-@property(nonatomic) float mailboxTypeProbability; // @synthesize mailboxTypeProbability=_mailboxTypeProbability;
-@property(nonatomic) float personCCRecipientsProbability; // @synthesize personCCRecipientsProbability=_personCCRecipientsProbability;
-@property(nonatomic) float personFromSenderInDyadicConversationProbability; // @synthesize personFromSenderInDyadicConversationProbability=_personFromSenderInDyadicConversationProbability;
-@property(nonatomic) float personFromSenderProbability; // @synthesize personFromSenderProbability=_personFromSenderProbability;
-@property(nonatomic) float personToRecipientsProbability; // @synthesize personToRecipientsProbability=_personToRecipientsProbability;
-@property(nonatomic) float standardMailRulesProbability; // @synthesize standardMailRulesProbability=_standardMailRulesProbability;
-@property(nonatomic) float subjectContentProbability; // @synthesize subjectContentProbability=_subjectContentProbability;
-@property(nonatomic) float subjectCountStatsProbability; // @synthesize subjectCountStatsProbability=_subjectCountStatsProbability;
 
 @end
 

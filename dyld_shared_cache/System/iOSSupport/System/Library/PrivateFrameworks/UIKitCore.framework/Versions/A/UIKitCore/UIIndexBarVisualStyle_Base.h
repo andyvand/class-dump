@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIIndexBarView;
+@class UIIndexBarView;
 
 @interface UIIndexBarVisualStyle_Base
 {
@@ -12,44 +12,24 @@
 }
 
 + (id);
-- (void);
-- (double);
-- (double);
-- (id);
-- (void);
-- (id);
+- (void)y Deleted | Deleting message parts from %lu messages:(id)arg1 %@;
+- (double)zone %@ ;
+- (double)r"40;
+- (id)nHTV;
+- (void)v24@?0@"CKSubscription"8@"NSError"16;
+- (id);
 - (struct CGRect);
 - (long long);
 - (double);
 - (_Bool);
 - (struct CGSize);
-- (_Bool);
-- (double)tion:willBeDisplayed: /* Error: Ran out of types for this method. */;
+- (_Bool)__MPModelPropertyTVShowShortTitle__MAPPING_MISSING__;
+- (double)performTransition:willBeDisplayed: /* Error: Ran out of types for this method. */;
 - (void)ÜÍg;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBecomeFocused;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool expanded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIIndexBarView *indexBarView; // @synthesize indexBarView=_indexBarView;
-@property(readonly, nonatomic) double indexWidth;
-@property(readonly, nonatomic) double lineSpacing;
-@property(readonly, nonatomic) double minLineHeight;
-@property(readonly, nonatomic) _Bool overlay;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double trackingChangeHysteresis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 
 @end
 

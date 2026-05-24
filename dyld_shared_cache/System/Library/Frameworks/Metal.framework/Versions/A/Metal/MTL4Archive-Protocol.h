@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol MTL4Archive
-- (void)Info;
+- (void)userInfo;
 
 // Remaining properties
 @property(copy) NSString *label;

@@ -22,7 +22,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool)fied;
+- (_Bool)unified;
 
 @end
 

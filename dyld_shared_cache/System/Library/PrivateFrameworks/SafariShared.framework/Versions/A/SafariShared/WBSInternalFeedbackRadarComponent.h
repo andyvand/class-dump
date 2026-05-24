@@ -9,8 +9,6 @@
 @interface WBSInternalFeedbackRadarComponent
 {
     NSString *_identifier;
-    NSString *_name;
-    NSString *_version;
 }
 
 + (id);
@@ -42,16 +40,14 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)IK_FileFormatTagColor;
+- (id)IC;
 - (id);
 - (id);
 - (void)ô	;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

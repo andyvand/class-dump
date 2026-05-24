@@ -7,19 +7,17 @@
 @interface QCObject
 {
     struct __CFDictionary *_staticMetadata;
-    struct __CFDictionary *_forwardMetadata;
-    void *_unused[4];
 }
 
 + (id)architecture);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *);
 - (void);
 - (id);
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (void)ate;
+- (void)_finishLaunchTestIfAppropriate;
 
 // Remaining properties
 @property long long type; // @synthesize type=_type;

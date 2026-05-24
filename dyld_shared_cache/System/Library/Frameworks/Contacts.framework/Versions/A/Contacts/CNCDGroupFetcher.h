@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDPersistenceContext, NSPredicate;
-
 @interface CNCDGroupFetcher
 {
     _Bool _allowGenericPredicate;
-    NSPredicate *_predicate;
-    CNCDPersistenceContext *_persistenceContext;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,9 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)tantsMapping;
+- (void)vCardToCNInstantMessageConstantsMapping;
 
 @end
 

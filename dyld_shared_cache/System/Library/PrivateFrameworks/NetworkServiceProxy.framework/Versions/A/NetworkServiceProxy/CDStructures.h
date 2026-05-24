@@ -10,26 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct __SecKey {
-    struct __CFRuntimeBase {
-        unsigned long long _field1;
-        _Atomic unsigned long long _field2;
-    } _field1;
-    struct __SecKeyDescriptor *_field2;
-    void *_field3;
-};
-
-struct cchpke_context {
-    unsigned char _field1[88];
-};
-
-struct cchpke_initiator {
-    struct cchpke_params *_field1;
-    struct cchpke_context _field2;
-};
-
-struct cchpke_params;
-
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
@@ -37,26 +17,12 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
     unsigned int *list;
     unsigned long long count;
     unsigned long long size;
 } CDStruct_9f2792e4;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int proxyIndex:1;
-    unsigned int weight:1;
-} CDStruct_f9ff9b8c;
-
-typedef struct {
-    unsigned int authType:1;
-} CDStruct_d24dfd21;
-
-typedef struct {
-    unsigned int requestType:1;
-} CDStruct_7c66fec0;
 

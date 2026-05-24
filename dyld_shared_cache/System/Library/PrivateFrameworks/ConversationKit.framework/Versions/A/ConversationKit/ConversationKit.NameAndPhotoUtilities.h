@@ -7,16 +7,6 @@
 @interface ConversationKit.NameAndPhotoUtilities
 {
     id personalNickname;
-    id delegate;
-    id personalDisplayName;
-    id personalAvatarView;
-    id imNicknameProvider;
-    id imNicknameController;
-    id contactStore;
-    id pendingNicknameFetchKeys;
-    id queriedCallForSNAPStatus;
-    id currentCallRemoteParticipantHandleIds;
-    id idsLookupManager;
 }
 
 + (void);

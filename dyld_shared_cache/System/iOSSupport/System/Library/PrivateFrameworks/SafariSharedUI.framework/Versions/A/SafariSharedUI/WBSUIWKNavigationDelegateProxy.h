@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol WKNavigationDelegate;
 
 @interface WBSUIWKNavigationDelegateProxy
 {
     NSObject<WKNavigationDelegate> *_delegate;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)y:(SEL)arg1 shouldCancel: /* Error: Ran out of types for this method. */;
+- (void)wing.apt.minimumMovementDistanceFinger;
+- (_Bool);
+- (_Bool)c;
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)stringWithUTF8String:(Class)arg1;
 - (CDUnknownFunctionPointerType);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void)ind: /* Error: Ran out of types for this method. */;
+- (void)safari_setIconKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

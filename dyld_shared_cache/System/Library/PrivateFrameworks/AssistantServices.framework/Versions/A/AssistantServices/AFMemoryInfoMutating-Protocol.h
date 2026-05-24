@@ -5,5 +5,6 @@
 //
 
 @protocol AFMemoryInfoMutating
+- (void);
 @end
 

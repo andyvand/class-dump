@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface CTPNRRequestSentInfo
 {
     _Bool _success;
-    NSString *_token;
-    NSNumber *_timeout;
 }
 
-+ (_Bool);
++ (_Bool)eBuffers containing image buffers are not supported; you must provide CMSampleBuffers containing encoded video;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)evaluateAccessControl:(id)arg1 operation:options:reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -28,12 +24,10 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)stPeriodsOnActivePairedDevice:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)dataUsageForLastPeriodsOnActivePairedDevice:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(retain, nonatomic) NSNumber *timeout; // @synthesize timeout=_timeout;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

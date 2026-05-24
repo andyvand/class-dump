@@ -6,7 +6,7 @@
 
 @interface UnknownClass (FolderAdditions)
 + (long long);
-+ (id);
-- (_Bool);
++ (id)initWithKey:ascending:comparator: /* Error: Ran out of types for this method. */;
+- (_Bool)ileHandle">32;
 @end
 

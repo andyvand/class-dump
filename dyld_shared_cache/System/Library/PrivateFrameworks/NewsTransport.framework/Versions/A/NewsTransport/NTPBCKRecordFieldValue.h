@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, NTPBCKDate, NTPBCKRecordReference;
-
 @interface NTPBCKRecordFieldValue
 {
     double _doubleValue;
-    long long _signedValue;
-    NSData *_bytesValue;
-    NTPBCKDate *_dateValue;
-    NSMutableArray *_listValues;
-    NTPBCKRecordReference *_referenceValue;
-    NSString *_stringValue;
-    int _type;
-    struct {
-        unsigned int doubleValue:1;
-        unsigned int signedValue:1;
-        unsigned int type:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)a;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)B,N,GisNavigationBarHidden,V_navigationBarHidden;
+- (void)"NSView",&,N,V_alternateTitleView;
 - (_Bool);
-- (_Bool);
+- (_Bool)transportTypeFromLocation:toEntry:completion:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)WiFiAwarePairingConfiguration.pairingMethods;
 - (unsigned long long);
 - (void);
 - (id);
@@ -40,8 +26,8 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (int);
-- (void);
+- (int)isTypeAutoFavoriteTag;
+- (void)ationManager>",&,N,V_configurationManager;
 - (_Bool);
 - (double);
 - (_Bool);
@@ -49,37 +35,23 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
 - (void);
 - (_Bool)antity"b1"applicationContainerEnvironment"b1"deviceFlowControlRegeneration"b1"isolationLevel"b1"targetDatabase"b1"deviceSoftwareIsAppleInternal"b1};
-- (void)gTopics;
-- (id)picTagIDsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)trendingTopics;
+- (id)topicTagIDsAtIndex: /* Error: Ran out of types for this method. */;
 - (void)hasRestorePaidSubscription;
-- (void)ier;
-- (_Bool)nGroup;
-- (long long)ePlayed;
+- (void)hasDeviceIdentifier;
+- (_Bool)_maxTimesHeadlineInGroup;
+- (long long)_audioTimePlayed;
 - (void)TPBCKRequestOperationHeader",&,N,V_header;
 - (_Bool)¤ZøZ;
 - (void)t	;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *bytesValue; // @synthesize bytesValue=_bytesValue;
-@property(retain, nonatomic) NTPBCKDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(readonly, nonatomic) _Bool hasBytesValue;
-@property(readonly, nonatomic) _Bool hasDateValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(readonly, nonatomic) _Bool hasReferenceValue;
-@property(nonatomic) _Bool hasSignedValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSMutableArray *listValues; // @synthesize listValues=_listValues;
-@property(retain, nonatomic) NTPBCKRecordReference *referenceValue; // @synthesize referenceValue=_referenceValue;
-@property(nonatomic) long long signedValue; // @synthesize signedValue=_signedValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

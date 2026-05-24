@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (double);
+- (double)mpty dictionary to the kSMSDefaultsAllowedKey;
 - (id);
 - (id);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (id)mentFrame;
+- (id)hostParentStackAlignmentFrame;
 - (double)`;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol PXFeedItemLayoutFactory
+
+@optional
+- (_Bool);
+- (void);
 @end
 

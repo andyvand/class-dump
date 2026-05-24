@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPUpdatedLabel
 {
     PBDataReader *_reader;
-    GEOLatLng *_center;
-    NSString *_localizedText;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_center:1;
-        unsigned int read_localizedText:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)calizedDescription:(id)arg1;
++ (_Bool)setLocalizedDescription:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (void);
+- (void)rtModelRequestOptions;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -40,17 +30,14 @@
 - (id);
 - (void);
 - (id)"has_pitch"b1"has_roll"b1"has_yaw"b1};
-- (id)MonthsCount;
+- (id)dayOfMonthsCount;
 - (id)¸;
 - (void)ssing;
-- (id)y;
+- (id)ResourceManifestUpdateAssertionRegistry;
 - (void)µÁè×P@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *center;
-@property(readonly, nonatomic) _Bool hasCenter;
 @property(readonly, nonatomic) _Bool hasLocalizedText;
-@property(retain, nonatomic) NSString *localizedText;
 
 @end
 

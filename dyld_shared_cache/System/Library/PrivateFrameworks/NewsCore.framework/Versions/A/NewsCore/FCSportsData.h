@@ -4,57 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface FCSportsData
 {
     _Bool _hideLocationInMasthead;
-    _Bool _supportsLiveActivity;
-    NSString *_UMCCanonicalID;
-    NSString *_sportsPrimaryName;
-    NSString *_sportsNameAbbreviation;
-    NSString *_sportsSecondaryName;
-    NSString *_sportsSecondaryShortName;
-    NSString *_sportsFullName;
-    NSString *_topLevelSportTagIdentifier;
-    NSArray *_topLevelGroupsTagIdentifiers;
-    NSString *_sportsNickname;
-    NSString *_sportsLocation;
-    NSString *_sportsCountryCode;
-    unsigned long long _sportsType;
-    NSString *_sportsTypeDisplayName;
-    NSString *_sportsTypePluralizedDisplayName;
-    unsigned long long _sportsLeagueType;
-    NSDate *_sportsEventStartTime;
-    unsigned long long _sportsEventType;
-    NSString *_standingDisplayName;
-    NSString *_standingPluralizedDisplayName;
-    NSString *_bracketDisplayName;
-    NSString *_bracketPluralizedDisplayName;
-    NSString *_scoreDisplayName;
-    NSString *_scorePluralizedDisplayName;
-    NSString *_scheduleDisplayName;
-    NSString *_schedulePluralizedDisplayName;
-    NSString *_highlightDisplayName;
-    NSString *_highlightPluralizedDisplayName;
-    NSString *_sportsEventDisplayName;
-    NSString *_sportsEventPluralizedDisplayName;
-    NSString *_athleteDisplayName;
-    NSString *_athletePluralizedDisplayName;
-    NSString *_primaryLiveActivityID;
-    NSArray *_secondaryLiveActivityIDs;
-    NSString *_liveStreamVideoURLString;
-    NSString *_liveStreamVideoStillImageURLString;
-    NSString *_liveStreamVideoKicker;
-    NSString *_liveStreamVideoTitle;
-    NSString *_liveStreamVideoDescription;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -69,73 +30,34 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)7;
+- (id);
+- (id))A;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (unsigned long long);
+- (id)migrateGlimmerblockerUserFrom:toDestinationSystem: /* Error: Ran out of types for this method. */;
+- (id)ype != %d) AND (systemType != %d);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)this._getCurrentEmojiElement(o);if(e){let t=e.parentElement;(e.className==MFMailBigEmojiAttribute||"SPAN"==e.tagName&&"xxx-large"==e.style.fontSize)&&(this._disableBigEmoji(e),"FONT"==t.tagName?this._disableBigEmoji(t):(id)arg1 t.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(t)),"FONT"==e.tagName&&e.size==largeInheritedFontSize?this._disableBigEmoji(e):"FONT"==t.tagName&&t.size==largeInheritedFontSize&&this._disableBigEmoji(t)}}isQuickReplyEnabled&&(updateQuickReplyHeight(e,window),window.webkit.messageHandlers.MessageBodyIsEmpty.postMessage("\n"===e.firstChild.stringValue()))},manageBeforeDelete:function(e){let t=e.anchorNode,i=t.wholeText?t.wholeText:t.textContent;if(t&&!this._isInsideQuoteOrSignature(t)){let n=(i=this._removeSignatureFromEmojiCount(i,document)).match(document.stringToArrayRegex),o=t.parentElement;if(this._updateCounts(n),"cut"==event.type){let i=e.anchorOffset,n=e.focusOffset,a=t.wholeText.slice(i,n);document.emojiRegex.test(a)?numberOfEmojis=numberOfEmojis<0?0:numberOfEmojis-a.length:numberOfOtherCharacters=numberOfOtherCharacters<0?0:numberOfOtherCharacters-a.length,this._checkEmojiFontSize(),this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&o?this._enableBigEmoji(o):this.hasValidNumOfEmojis&&this.hasOnlyEmojis||!o||o.className!=MFMailBigEmojiAttribute||this._disableBigEmoji(o)}else 1==n.length&&1==numberOfEmojis&&(o="BODY"==t.tagName?document.querySelector("."+MFMailBigEmojiAttribute):o,this._disableBigEmoji(o))}},manageReplacementText:function(e){let t=e.anchorNode;if(t&&!this._isInsideQuoteOrSignature(t)){let n=e.anchorNode.wholeText;var i=n?n.match(document.stringToArrayRegex):[];this._updateCounts(i),this._checkEmojiFontSize();let o=t.parentElement;if(o&&this.hasValidNumOfEmojis&&this.hasOnlyEmojis)if(o.className==MFMailBigEmojiAttribute||"SPAN"==o.nodeName)this._enableBigEmoji(o);else{let e=document.createElement("span");e.innerHTML+=n,this._enableBigEmoji(e),t.parentNode.insertBefore(e,t),t.parentNode.removeChild(t),this._placeCaretAfter(e),event.preventDefault()}else o.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(o)}},manageCurrentEmojiFontSize:function(){let e=document.getSelection(),t=e.anchorNode,i=e.anchorNode.wholeText;if(this.newParagraphInserted=!i,t&&!this._isInsideQuoteOrSignature(t)){var n=i?i.match(document.stringToArrayRegex):[];this._updateCounts(n),this._checkEmojiFontSize();let e=t.parentElement;this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&e?this._enableBigEmoji(e):e.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(e)}},_enableBigEmoji:function(e){e.setAttribute("style","font-size:"+bigEmojiFontSize),e.className=MFMailBigEmojiAttribute},_disableBigEmoji:function(e){"FONT"==e.tagName?e.setAttribute("size",defaultEmojiFontSize):(e.setAttribute("style","font-size:"+defaultEmojiFontSize),e.removeAttribute("class"))},_locateSignatureDiv:function(e){let t=e.body.querySelectorAll(`div[id="${MFHtmlIDSignature}"]`);for(let e=0;e<t.length;++e){let i=t.item(e);if(!i.mf_isQuoteOrWithinQuote())return i}return null},_updateCounts:function(e){numberOfEmojis=0,numberOfOtherCharacters=0,e.map(e=>{document.whitespaceRegex.test(e)||(document.emojiRegex.test(e)?numberOfEmojis+=1:numberOfOtherCharacters+=1)})},_getCurrentEmojiElement:function(e){return"BODY"==e.tagName?document.querySelector(".AppleMailBigEmoji"):e.nodeType===Node.TEXT_NODE?e.parentElement:e},_removeSignatureFromEmojiCount:function(e,t){if(this._locateSignatureDiv(t)){var i=this._locateSignatureDiv(t).textContent.trim();return e.trim().includes(i.trim())&&(e=e.trim().replace(i.trim(),"")),e}return e},_checkEmojiFontSize:function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
 - (id)!`Aù)	Ð1Â0@ù
 × ;
-- (id)aybackBaselineClickValue;
-- (id)essToItemWithIdentifier:paid:bundlePaid:channel: /* Error: Ran out of types for this method. */;
+- (id)videoCompletePlaybackBaselineClickValue;
+- (id)canGetAccessToItemWithIdentifier:paid:bundlePaid:channel: /* Error: Ran out of types for this method. */;
 - (id)gID.;
 - (void)IDs:userID:deviceToken:storefrontID:deviceDigestMode:callbackQueue:completion:] /* Error: Ran out of types for this method. */;
 - (id)ü;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *UMCCanonicalID; // @synthesize UMCCanonicalID=_UMCCanonicalID;
-@property(readonly, copy, nonatomic) NSString *athleteDisplayName; // @synthesize athleteDisplayName=_athleteDisplayName;
-@property(readonly, copy, nonatomic) NSString *athletePluralizedDisplayName; // @synthesize athletePluralizedDisplayName=_athletePluralizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *bracketDisplayName; // @synthesize bracketDisplayName=_bracketDisplayName;
-@property(readonly, copy, nonatomic) NSString *bracketPluralizedDisplayName; // @synthesize bracketPluralizedDisplayName=_bracketPluralizedDisplayName;
-@property(readonly, nonatomic) _Bool hideLocationInMasthead; // @synthesize hideLocationInMasthead=_hideLocationInMasthead;
-@property(readonly, copy, nonatomic) NSString *highlightDisplayName; // @synthesize highlightDisplayName=_highlightDisplayName;
-@property(readonly, copy, nonatomic) NSString *highlightPluralizedDisplayName; // @synthesize highlightPluralizedDisplayName=_highlightPluralizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *liveStreamVideoDescription; // @synthesize liveStreamVideoDescription=_liveStreamVideoDescription;
-@property(readonly, copy, nonatomic) NSString *liveStreamVideoKicker; // @synthesize liveStreamVideoKicker=_liveStreamVideoKicker;
-@property(readonly, copy, nonatomic) NSString *liveStreamVideoStillImageURLString; // @synthesize liveStreamVideoStillImageURLString=_liveStreamVideoStillImageURLString;
-@property(readonly, copy, nonatomic) NSString *liveStreamVideoTitle; // @synthesize liveStreamVideoTitle=_liveStreamVideoTitle;
-@property(readonly, copy, nonatomic) NSString *liveStreamVideoURLString; // @synthesize liveStreamVideoURLString=_liveStreamVideoURLString;
-@property(readonly, copy, nonatomic) NSString *primaryLiveActivityID; // @synthesize primaryLiveActivityID=_primaryLiveActivityID;
-@property(readonly, copy, nonatomic) NSString *scheduleDisplayName; // @synthesize scheduleDisplayName=_scheduleDisplayName;
-@property(readonly, copy, nonatomic) NSString *schedulePluralizedDisplayName; // @synthesize schedulePluralizedDisplayName=_schedulePluralizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *scoreDisplayName; // @synthesize scoreDisplayName=_scoreDisplayName;
-@property(readonly, copy, nonatomic) NSString *scorePluralizedDisplayName; // @synthesize scorePluralizedDisplayName=_scorePluralizedDisplayName;
-@property(readonly, nonatomic) NSArray *secondaryLiveActivityIDs; // @synthesize secondaryLiveActivityIDs=_secondaryLiveActivityIDs;
-@property(readonly, copy, nonatomic) NSString *sportsCountryCode; // @synthesize sportsCountryCode=_sportsCountryCode;
-@property(readonly, copy, nonatomic) NSString *sportsEventDisplayName; // @synthesize sportsEventDisplayName=_sportsEventDisplayName;
-@property(readonly, copy, nonatomic) NSString *sportsEventPluralizedDisplayName; // @synthesize sportsEventPluralizedDisplayName=_sportsEventPluralizedDisplayName;
-@property(readonly, copy, nonatomic) NSDate *sportsEventStartTime; // @synthesize sportsEventStartTime=_sportsEventStartTime;
-@property(readonly, nonatomic) unsigned long long sportsEventType; // @synthesize sportsEventType=_sportsEventType;
-@property(readonly, copy, nonatomic) NSString *sportsFullName; // @synthesize sportsFullName=_sportsFullName;
-@property(readonly, nonatomic) unsigned long long sportsLeagueType; // @synthesize sportsLeagueType=_sportsLeagueType;
-@property(readonly, copy, nonatomic) NSString *sportsLocation; // @synthesize sportsLocation=_sportsLocation;
-@property(readonly, copy, nonatomic) NSString *sportsNameAbbreviation; // @synthesize sportsNameAbbreviation=_sportsNameAbbreviation;
-@property(readonly, copy, nonatomic) NSString *sportsNickname; // @synthesize sportsNickname=_sportsNickname;
-@property(readonly, copy, nonatomic) NSString *sportsPrimaryName; // @synthesize sportsPrimaryName=_sportsPrimaryName;
-@property(readonly, copy, nonatomic) NSString *sportsSecondaryName; // @synthesize sportsSecondaryName=_sportsSecondaryName;
-@property(readonly, copy, nonatomic) NSString *sportsSecondaryShortName; // @synthesize sportsSecondaryShortName=_sportsSecondaryShortName;
-@property(readonly, nonatomic) unsigned long long sportsType; // @synthesize sportsType=_sportsType;
-@property(readonly, copy, nonatomic) NSString *sportsTypeDisplayName; // @synthesize sportsTypeDisplayName=_sportsTypeDisplayName;
-@property(readonly, copy, nonatomic) NSString *sportsTypePluralizedDisplayName; // @synthesize sportsTypePluralizedDisplayName=_sportsTypePluralizedDisplayName;
-@property(readonly, copy, nonatomic) NSString *standingDisplayName; // @synthesize standingDisplayName=_standingDisplayName;
-@property(readonly, copy, nonatomic) NSString *standingPluralizedDisplayName; // @synthesize standingPluralizedDisplayName=_standingPluralizedDisplayName;
-@property(readonly, nonatomic) _Bool supportsLiveActivity; // @synthesize supportsLiveActivity=_supportsLiveActivity;
-@property(readonly, nonatomic) NSArray *topLevelGroupsTagIdentifiers; // @synthesize topLevelGroupsTagIdentifiers=_topLevelGroupsTagIdentifiers;
-@property(readonly, copy, nonatomic) NSString *topLevelSportTagIdentifier; // @synthesize topLevelSportTagIdentifier=_topLevelSportTagIdentifier;
 
 @end
 

@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SelectedCheckboxFromIcon__generated__Output
 {
     NSDictionary *_labelProbability;
-    NSString *_label;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)URLSession:didCreateTask: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)inputHeight;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) NSDictionary *labelProbability; // @synthesize labelProbability=_labelProbability;
 
 @end

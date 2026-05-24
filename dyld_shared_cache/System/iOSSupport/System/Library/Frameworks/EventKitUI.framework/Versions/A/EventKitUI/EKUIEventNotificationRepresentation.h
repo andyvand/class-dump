@@ -4,86 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUITextAndHeaderItem, NSArray, NSDate, NSDictionary, NSString;
-
 @interface EKUIEventNotificationRepresentation
 {
     _Bool _allDay;
-    unsigned long long _type;
-    EKUITextAndHeaderItem *_titleItem;
-    EKUITextAndHeaderItem *_subtitleItem;
-    NSArray *_supplementaryItems;
-    NSDictionary *_userActivityUserInfo;
-    NSDate *_date;
-    NSDate *_endDate;
-    NSString *_sourceIdentifier;
-    NSString *_externalURLString;
-    NSArray *_potentialConflictDates;
-    NSString *_notes;
-    NSDictionary *_organizerContactDictionary;
 }
 
++ (id);
 + (id);
 + (id);
++ (id)[%s;
++ (id)%s;
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id))s;
++ (id)n%s;
++ (id)s;
++ (_Bool);
 + (id);
 - (void);
 - (id);
+- (void)Y%s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)s;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)s;
 - (void);
 - (id);
 - (void);
+- (id)q;
+- (id);
+- (id);
+- (id);
+- (id)^x;
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void)P;
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (void)ableView:selectionFollowsFocusForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)ayCount;
+- (void)tableView:selectionFollowsFocusForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_birthdayCount;
 - (void)singAttendees:(_Bool)arg1 Source Requires Default Outgoing Invitations %@;
 
 // Remaining properties
-@property(nonatomic, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSString *externalURLString; // @synthesize externalURLString=_externalURLString;
-@property(retain, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(readonly, nonatomic) NSDictionary *organizerContactDictionary; // @synthesize organizerContactDictionary=_organizerContactDictionary;
-@property(retain, nonatomic) NSArray *potentialConflictDates; // @synthesize potentialConflictDates=_potentialConflictDates;
-@property(retain, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(retain, nonatomic) EKUITextAndHeaderItem *subtitleItem; // @synthesize subtitleItem=_subtitleItem;
-@property(retain, nonatomic) NSArray *supplementaryItems; // @synthesize supplementaryItems=_supplementaryItems;
-@property(retain, nonatomic) EKUITextAndHeaderItem *titleItem; // @synthesize titleItem=_titleItem;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSDictionary *userActivityUserInfo; // @synthesize userActivityUserInfo=_userActivityUserInfo;
 
 @end
 

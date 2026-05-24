@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *primaryApplicationDisplayID; // @dynamic primaryApplicationDisplayID;
-@property(copy, nonatomic) NSString *secondaryApplicationDisplayID; // @dynamic secondaryApplicationDisplayID;
-@property(nonatomic) int status; // @dynamic status;
 
 @end
 

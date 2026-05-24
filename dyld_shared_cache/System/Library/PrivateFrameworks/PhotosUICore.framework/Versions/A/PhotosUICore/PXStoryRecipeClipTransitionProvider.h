@@ -5,25 +5,17 @@
 //
 
 @class PFStoryAutoEditConfiguration, PFStoryAutoEditFrequencyTable;
-@protocol PFRandomNumberGenerator;
 
 @interface PXStoryRecipeClipTransitionProvider
 {
     PFStoryAutoEditFrequencyTable *_baseTransitionTable;
-    PFStoryAutoEditFrequencyTable *_interMomentTransitionTable;
-    PFStoryAutoEditFrequencyTable *_portraitTransitionTable;
-    PFStoryAutoEditFrequencyTable *_nUpTransitionTable;
-    PFStoryAutoEditFrequencyTable *_interModuleTransitionTable;
-    id <PFRandomNumberGenerator> _randomNumberGenerator;
-    PFStoryAutoEditConfiguration *_configuration;
-    long long _songPace;
 }
 
-- (long long);
+- (long long);
 - (void);
-- (CDStruct_618113c1);
+- (CDStruct_4ae65f2e);
 - (id);
-- (CDStruct_618113c1);
+- (CDStruct_4ae65f2e);
 - (_Bool);
 - (id);
 - (id);
@@ -31,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PFStoryAutoEditConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) long long songPace; // @synthesize songPace=_songPace;
 
 @end
 

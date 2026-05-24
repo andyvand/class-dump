@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKLEventFilter, NSDateFormatter, NSMutableDictionary, NSString;
+@class CKLEventFilter;
 
 @interface CKLStreamObserver
 {
     _Bool _colorOutput;
-    CKLEventFilter *_filter;
-    NSDateFormatter *_formatter;
-    NSMutableDictionary *_processNamesByPath;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)O;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)W,N,V_dataSource;
 - (void);
 - (void);
 - (id);
-- (void)dURL;
+- (void)_uploadURL;
 - (id);
 - (void)D¨ä¨tÔ;
 
 // Remaining properties
-@property(nonatomic) _Bool colorOutput; // @synthesize colorOutput=_colorOutput;
 @property(retain, nonatomic) CKLEventFilter *filter; // @synthesize filter=_filter;
-@property(readonly, nonatomic) NSDateFormatter *formatter; // @synthesize formatter=_formatter;
-@property(nonatomic) _Bool onlyTestLogs;
-@property(retain, nonatomic) NSString *processName;
-@property(retain, nonatomic) NSMutableDictionary *processNamesByPath; // @synthesize processNamesByPath=_processNamesByPath;
-@property(nonatomic) _Bool simulatorOnly;
 
 @end
 

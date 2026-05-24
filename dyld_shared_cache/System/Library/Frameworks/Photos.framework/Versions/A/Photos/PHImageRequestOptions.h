@@ -4,49 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface PHImageRequestOptions
 {
     int _requestID;
-    _Bool _networkAccessAllowed;
-    _Bool _synchronous;
-    _Bool _cannotReturnSmallerImage;
-    _Bool _ignoreProcessWideRepairLimits;
-    _Bool _allowPlaceholder;
-    _Bool _useAsyncForFastOpportunisticResult;
-    _Bool _includeHDRGainMap;
-    _Bool _includeHDRGainMapInIntermediateImage;
-    _Bool _preferHDR;
-    _Bool _onlyUseFetchedAssetPropertiesDuringChoosing;
-    _Bool _useLowMemoryMode;
-    _Bool _useLimitedLibraryMode;
-    _Bool _chooseAlchemist;
-    _Bool _avoidDisplayingProgressUpdates;
-    long long _version;
-    long long _deliveryMode;
-    long long _resizeMode;
-    CDUnknownBlockType _progressHandler;
-    long long _loadingMode;
-    long long _opportunisticDegradedImagesToReturn;
-    double _targetHDRHeadroom;
-    NSObject<OS_dispatch_queue> *_resultHandlerQueue;
-    CDUnknownBlockType _cachingCompleteHandler;
-    long long _downloadIntent;
-    long long _downloadPriority;
-    NSString *_contextualVideoThumbnailIdentifier;
-    struct CGSize _fallbackTargetSizeIfRequestedSizeNotLocallyAvailable;
-    CDStruct_1b6d18a9 _videoFrameTime;
-    struct CGRect _normalizedCropRect;
 }
 
-- (void);
+- (void)f&*dnF:(_Bool)arg1 f:e*e(c& /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)y. err=%{public}@ error=%{public}@;
 - (long long);
 - (void);
 - (_Bool);
@@ -63,19 +31,19 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType)removeItemMoveFromIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_stationID;
+- (void)cd;
+- (void)out | delegate finished [no provided status];
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (_Bool);
+- (long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (void)vedAccountsWithPasskeys:(_Bool)arg1;
 - (void);
 - (void);
 - (void);
@@ -87,17 +55,17 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)blic}@;
 - (void);
 - (void);
-- (id);
+- (id)releaseSharedXPCClient;
 - (void);
 - (void);
-- (_Bool);
-- (CDStruct_1b6d18a9)1Â0@ù
+- (_Bool)setDuplicateButton: /* Error: Ran out of types for this method. */;
+- (CDStruct_198678f7)1Â0@ù
 × ;
-- (_Bool)inCount;
-- (void)ailure;
+- (_Bool)retainCount;
+- (void)isFailure;
 - (void)edSet",R,N,V_inserts;
 - (long long);
 - (void)localIdentifier == %@;
@@ -110,44 +78,7 @@
 - (long long)r;
 
 // Remaining properties
-@property(nonatomic) _Bool allowPlaceholder; // @synthesize allowPlaceholder=_allowPlaceholder;
-@property(nonatomic) _Bool allowSecondaryDegradedImage;
-@property(nonatomic) _Bool allowSecondaryOpportunisticImage;
-@property(nonatomic) _Bool avoidDisplayingProgressUpdates; // @synthesize avoidDisplayingProgressUpdates=_avoidDisplayingProgressUpdates;
-@property(copy, nonatomic) CDUnknownBlockType cachingCompleteHandler; // @synthesize cachingCompleteHandler=_cachingCompleteHandler;
-@property(nonatomic) _Bool cannotReturnSmallerImage; // @synthesize cannotReturnSmallerImage=_cannotReturnSmallerImage;
-@property(nonatomic) _Bool chooseAlchemist; // @synthesize chooseAlchemist=_chooseAlchemist;
-@property(copy, nonatomic) NSString *contextualVideoThumbnailIdentifier; // @synthesize contextualVideoThumbnailIdentifier=_contextualVideoThumbnailIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long deliveryMode; // @synthesize deliveryMode=_deliveryMode;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long downloadIntent; // @synthesize downloadIntent=_downloadIntent;
-@property(nonatomic) long long downloadPriority; // @synthesize downloadPriority=_downloadPriority;
-@property(nonatomic) struct CGSize fallbackTargetSizeIfRequestedSizeNotLocallyAvailable; // @synthesize fallbackTargetSizeIfRequestedSizeNotLocallyAvailable=_fallbackTargetSizeIfRequestedSizeNotLocallyAvailable;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreProcessWideRepairLimits; // @synthesize ignoreProcessWideRepairLimits=_ignoreProcessWideRepairLimits;
-@property(nonatomic) _Bool includeHDRGainMap; // @synthesize includeHDRGainMap=_includeHDRGainMap;
-@property(nonatomic) _Bool includeHDRGainMapInIntermediateImage; // @synthesize includeHDRGainMapInIntermediateImage=_includeHDRGainMapInIntermediateImage;
-@property(nonatomic) long long loadingMode; // @synthesize loadingMode=_loadingMode;
-@property(nonatomic, getter=isNetworkAccessAllowed) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
-@property(nonatomic) struct CGRect normalizedCropRect; // @synthesize normalizedCropRect=_normalizedCropRect;
-@property(nonatomic) _Bool onlyUseFetchedAssetPropertiesDuringChoosing; // @synthesize onlyUseFetchedAssetPropertiesDuringChoosing=_onlyUseFetchedAssetPropertiesDuringChoosing;
-@property(nonatomic) long long opportunisticDegradedImagesToReturn; // @synthesize opportunisticDegradedImagesToReturn=_opportunisticDegradedImagesToReturn;
-@property(nonatomic) _Bool preferHDR; // @synthesize preferHDR=_preferHDR;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(nonatomic) long long resizeMode; // @synthesize resizeMode=_resizeMode;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultHandlerQueue; // @synthesize resultHandlerQueue=_resultHandlerQueue;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
-@property(nonatomic) double targetHDRHeadroom; // @synthesize targetHDRHeadroom=_targetHDRHeadroom;
-@property(nonatomic) _Bool useAsyncForFastOpportunisticResult; // @synthesize useAsyncForFastOpportunisticResult=_useAsyncForFastOpportunisticResult;
-@property(nonatomic) _Bool useLimitedLibraryMode; // @synthesize useLimitedLibraryMode=_useLimitedLibraryMode;
-@property(nonatomic) _Bool useLowMemoryMode; // @synthesize useLowMemoryMode=_useLowMemoryMode;
-@property(nonatomic) long long version; // @synthesize version=_version;
-@property(nonatomic) CDStruct_1b6d18a9 videoFrameTime; // @synthesize videoFrameTime=_videoFrameTime;
 
 @end
 

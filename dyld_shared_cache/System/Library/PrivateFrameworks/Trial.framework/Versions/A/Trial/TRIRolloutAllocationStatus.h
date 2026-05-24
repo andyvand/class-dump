@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface TRIRolloutAllocationStatus
 {
     int _deploymentId;
-    NSString *_rolloutId;
-    NSString *_rampId;
-    NSDictionary *_factorPackIds;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (unsigned long long);
 - (void);
@@ -27,9 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, nonatomic) NSDictionary *factorPackIds; // @synthesize factorPackIds=_factorPackIds;
-@property(readonly, nonatomic) NSString *rampId; // @synthesize rampId=_rampId;
 @property(readonly, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
 
 @end

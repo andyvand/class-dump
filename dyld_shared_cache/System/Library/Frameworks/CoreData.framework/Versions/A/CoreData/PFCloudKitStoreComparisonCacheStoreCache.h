@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSNumber, NSString;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitStoreComparisonCacheStoreCache
 {
     NSMutableSet *_identifiers;
-    NSMutableDictionary *_identifierToObjectID;
-    NSMutableDictionary *_mtmKeyToMirroredRelationship;
-    NSMutableSet *_mtmKeys;
-    NSMutableDictionary *_zoneIDToMTMKeys;
-    NSMutableDictionary *_recordIDToRelationshipNameToRelatedRecordIDs;
-    NSMutableDictionary *_recordIDToMetadata;
-    NSMutableDictionary *_objectIDToRecordMetadata;
-    NSMutableSet *_recordIDs;
-    NSMutableDictionary *_recordIDToObjectID;
-    NSMutableDictionary *_objectIDToRecordID;
-    NSMutableSet *_recordZones;
-    NSMutableSet *_sharedRecordZones;
-    NSMutableDictionary *_recordZoneIDToRecordIDs;
-    _Bool _checkCloudKitMetadata;
-    NSString *_identityRecordName;
-    NSNumber *_databaseScopeNumber;
 }
 
 - (void);
-- (id);
+- (id)w;
 
 @end
 

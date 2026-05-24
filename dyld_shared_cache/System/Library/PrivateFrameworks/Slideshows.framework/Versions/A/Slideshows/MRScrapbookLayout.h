@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MRScrapbookLayout
 {
     struct CGRect rect;
-    NSString *frame;
-    NSString *mask;
-    double zRotation;
-    NSArray *subtract;
-    double startTime;
-    long long slideIndex;
-    double aspectRatio;
-    _Bool stretch;
-    _Bool isText;
-    _Bool isBreak;
-    NSString *backgroundPaper;
-    _Bool twoPart;
-    _Bool move;
-    struct CGRect paperRect;
-    long long drawCardIndex;
-    _Bool skip;
-    long long moveIndex;
 }
 
 - (void);
@@ -39,10 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backgroundPaper; // @synthesize backgroundPaper;
 @property(retain, nonatomic) NSString *frame; // @synthesize frame;
-@property(retain, nonatomic) NSString *mask; // @synthesize mask;
-@property(retain, nonatomic) NSArray *subtract; // @synthesize subtract;
 
 @end
 

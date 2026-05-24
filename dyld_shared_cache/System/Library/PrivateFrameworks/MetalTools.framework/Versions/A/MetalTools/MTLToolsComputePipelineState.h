@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTLComputePipelineReflection, MTLDebugInstrumentationData, NSString;
-@protocol MTLDevice, MTLFunction;
+@protocol MTLFunction;
 
 @interface MTLToolsComputePipelineState : MTLToolsObject
 {
@@ -20,24 +19,24 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?kA{;
 - (unsigned int);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (CDStruct_14f26992);
+- (id)?;
+- (CDStruct_14f26992)cblas_ctpmv;
 - (unsigned long long);
-- (id);
+- (id)s ;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)h ;
+- (id)( ;
 - (struct MTLResourceID);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (unsigned long long);
 - (id);
 - (long long)ct command buffer created with inheritFrontFacingWinding = YES is invalid;
@@ -48,39 +47,7 @@
 - (long long)ïÿ#ê»;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allocatedSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, retain, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(nonatomic) unsigned long long globalConstantsBase;
-@property(nonatomic) unsigned long long globalConstantsSize;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerThreadgroup;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportIndirectCommandBuffers;
 @property(readonly) long long textureWriteRoundingMode;
-@property(readonly) unsigned long long threadExecutionWidth;
-@property(readonly) unsigned long long uniqueIdentifier;
 
 @end
 

@@ -10,6 +10,7 @@
 - (UICollectionViewCell *);
 
 @optional
+- (long long);
 - (void).;
 - (UICollectionReusableView *)ssage for app store purchase expiration.;
 @end

@@ -6,21 +6,19 @@
 
 #import <AppleMediaServicesUI/AMSUIAssetFetchOperation.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUISystemImageFetchOperation : AMSUIAssetFetchOperation
 {
     NSString *_imageName;
-    NSString *_accessibilityDescription;
-    NSNumber *_variableValue;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)hh8;
 - (void);
 - (id);
 - (id);
@@ -28,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)0;
 
 // Remaining properties
-@property(retain) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
 @property(retain) NSString *imageName; // @synthesize imageName=_imageName;
-@property(retain) NSNumber *variableValue; // @synthesize variableValue=_variableValue;
 
 @end
 

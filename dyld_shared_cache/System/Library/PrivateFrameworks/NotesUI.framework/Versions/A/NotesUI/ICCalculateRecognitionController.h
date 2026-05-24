@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachmentInsertionController, ICNote, NSTextView;
-@protocol ICCalculateRecognitionControllerSuggestionsDelegate;
+@class ICNote;
 
 @interface ICCalculateRecognitionController
 {
     void note;
-    void textView;
-    void attachmentInsertionController;
-    void suggestionsDelegate;
-    id didTriggerResultPreviewAfterUnmarkingText;
-    _Bool insertsResults;
-    long long previewBehavior;
-    id previewedExpression;
-    id isUpdatingMarkedTextExpressions;
-    id isMathPaperSolvingAllowedObservation;
-    id isKeyboardMathSolvingAllowedObservation;
 }
 
 - (void);
@@ -31,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -45,16 +34,10 @@
 - (id);
 - (void);
 - (id);
-- (void)Hashtag: /* Error: Ran out of types for this method. */;
+- (void)convertTextInNoteBodyToHashtag: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak ICAttachmentInsertionController *attachmentInsertionController; // @synthesize attachmentInsertionController;
-@property(nonatomic) _Bool insertsResults; // @synthesize insertsResults;
-@property(nonatomic, readonly) _Bool isPreviewingResult;
 @property(nonatomic) __weak ICNote *note; // @synthesize note;
-@property(nonatomic) long long previewBehavior; // @synthesize previewBehavior;
-@property(nonatomic) __weak id <ICCalculateRecognitionControllerSuggestionsDelegate> suggestionsDelegate; // @synthesize suggestionsDelegate;
-@property(nonatomic) __weak NSTextView *textView; // @synthesize textView;
 
 @end
 

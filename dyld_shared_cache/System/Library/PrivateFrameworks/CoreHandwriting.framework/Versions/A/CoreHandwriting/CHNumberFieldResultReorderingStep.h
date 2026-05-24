@@ -6,15 +6,14 @@
 
 #import <CoreHandwriting/CHPostprocessingStepModifyingOriginalTokens.h>
 
-@class NSCharacterSet, NSDictionary;
+@class NSCharacterSet;
 
 @interface CHNumberFieldResultReorderingStep : CHPostprocessingStepModifyingOriginalTokens
 {
     NSCharacterSet *_allowedCharacters;
-    NSDictionary *_characterReplacements;
 }
 
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (void)@;

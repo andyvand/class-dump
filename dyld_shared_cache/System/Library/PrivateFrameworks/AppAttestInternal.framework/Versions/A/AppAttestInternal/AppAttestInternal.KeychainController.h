@@ -7,7 +7,6 @@
 @interface AppAttestInternal.KeychainController
 {
     id accessGroup;
-    id logger;
 }
 
 @end

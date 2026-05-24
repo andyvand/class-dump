@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CtrClient, HMDThreadCommandTimer, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CtrClient;
 
 __attribute__((visibility("hidden")))
 @interface HMDThreadRadioClient
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isGeoAvailable;
-    _Bool _threadNetworkUp;
-    CtrClient *_threadClient;
-    NSObject<OS_dispatch_queue> *_threadStateCaptureQueue;
-    long long _threadLayerInformedResidentState;
-    HMDThreadCommandTimer *_deferredCommandTimer;
-    NSObject<OS_dispatch_queue> *_threadEventQueue;
-    NSHashTable *_observers;
 }
 
-+ (id);
++ (id);
 + (id)¤B;
 - (void);
 - (void);
@@ -39,14 +30,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)y",C,N,VstoreSubscriptionTypes;
+- (id)J;
 - (void);
 - (void);
 - (void);
@@ -60,29 +51,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (id);
 - (id)UserAccessCodeModel was added. Setting value on HMDUser:%@ changedByUserUUID:%@ /* Error: Ran out of types for this method. */;
-- (void)sionInProgress;
+- (void)ReprovisionInProgress;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) HMDThreadCommandTimer *deferredCommandTimer; // @synthesize deferredCommandTimer=_deferredCommandTimer;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isGeoAvailable; // @synthesize isGeoAvailable=_isGeoAvailable;
-@property(readonly) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CtrClient *threadClient; // @synthesize threadClient=_threadClient;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *threadEventQueue; // @synthesize threadEventQueue=_threadEventQueue;
-@property(nonatomic) long long threadLayerInformedResidentState; // @synthesize threadLayerInformedResidentState=_threadLayerInformedResidentState;
-@property(readonly, nonatomic) _Bool threadNetworkUp; // @synthesize threadNetworkUp=_threadNetworkUp;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *threadStateCaptureQueue; // @synthesize threadStateCaptureQueue=_threadStateCaptureQueue;
 
 @end
 

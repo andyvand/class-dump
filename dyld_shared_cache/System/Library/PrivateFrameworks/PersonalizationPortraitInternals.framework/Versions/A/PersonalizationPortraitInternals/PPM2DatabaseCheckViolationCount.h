@@ -9,12 +9,6 @@
 @interface PPM2DatabaseCheckViolationCount
 {
     NSString *_activeTreatments;
-    int _pragmaCheckType;
-    unsigned int _schemaVersion;
-    struct {
-        unsigned int pragmaCheckType:1;
-        unsigned int schemaVersion:1;
-    } _has;
 }
 
 - (void);
@@ -23,7 +17,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)f;
 - (int);
 - (id);
 - (void);
@@ -35,19 +29,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)_calculateTimestamp;
+- (id)h;
 - (id);
 - (void)utableIndexSet";
-- (unsigned int)ory;
+- (unsigned int)category;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasPragmaCheckType;
 @property(nonatomic) _Bool hasSchemaVersion;
-@property(nonatomic) int pragmaCheckType; // @synthesize pragmaCheckType=_pragmaCheckType;
-@property(nonatomic) unsigned int schemaVersion; // @synthesize schemaVersion=_schemaVersion;
 
 @end
 

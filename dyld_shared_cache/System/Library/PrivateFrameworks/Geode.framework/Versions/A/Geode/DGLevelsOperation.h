@@ -6,55 +6,12 @@
 
 #import <Geode/DGOperation.h>
 
-@class IPAColorProfile, NSString;
-
 @interface DGLevelsOperation : DGOperation
 {
     int _inputMode;
-    double _inputBlackSrcRGB;
-    double _inputBlackDstRGB;
-    double _inputShadowSrcRGB;
-    double _inputShadowDstRGB;
-    double _inputMidSrcRGB;
-    double _inputMidDstRGB;
-    double _inputHilightSrcRGB;
-    double _inputHilightDstRGB;
-    double _inputWhiteSrcRGB;
-    double _inputWhiteDstRGB;
-    double _inputBlackSrcRed;
-    double _inputBlackDstRed;
-    double _inputShadowSrcRed;
-    double _inputShadowDstRed;
-    double _inputMidSrcRed;
-    double _inputMidDstRed;
-    double _inputHilightSrcRed;
-    double _inputHilightDstRed;
-    double _inputWhiteSrcRed;
-    double _inputWhiteDstRed;
-    double _inputBlackSrcGreen;
-    double _inputBlackDstGreen;
-    double _inputShadowSrcGreen;
-    double _inputShadowDstGreen;
-    double _inputMidSrcGreen;
-    double _inputMidDstGreen;
-    double _inputHilightSrcGreen;
-    double _inputHilightDstGreen;
-    double _inputWhiteSrcGreen;
-    double _inputWhiteDstGreen;
-    double _inputBlackSrcBlue;
-    double _inputBlackDstBlue;
-    double _inputShadowSrcBlue;
-    double _inputShadowDstBlue;
-    double _inputMidSrcBlue;
-    double _inputMidDstBlue;
-    double _inputHilightSrcBlue;
-    double _inputHilightDstBlue;
-    double _inputWhiteSrcBlue;
-    double _inputWhiteDstBlue;
-    NSString *_colorSpace;
 }
 
-+ (_Bool);
++ (_Bool)";
 + (id);
 + (id);
 + (id);
@@ -71,7 +28,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
 - (void);
@@ -109,9 +66,9 @@
 - (void);
 - (void);
 - (void);
+- (void)2;
 - (void);
 - (void);
-- (void);
 - (double);
 - (double);
 - (double);
@@ -144,14 +101,14 @@
 - (double);
 - (double);
 - (double);
+- (double);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
+- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -169,57 +126,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) IPAColorProfile *colorProfile;
-@property(copy, nonatomic) NSString *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IPAColorProfile *histogramColorProfile;
-@property(nonatomic) double inputBlackDstBlue; // @synthesize inputBlackDstBlue=_inputBlackDstBlue;
-@property(nonatomic) double inputBlackDstGreen; // @synthesize inputBlackDstGreen=_inputBlackDstGreen;
-@property(nonatomic) double inputBlackDstRGB; // @synthesize inputBlackDstRGB=_inputBlackDstRGB;
-@property(nonatomic) double inputBlackDstRed; // @synthesize inputBlackDstRed=_inputBlackDstRed;
-@property(nonatomic) double inputBlackSrcBlue; // @synthesize inputBlackSrcBlue=_inputBlackSrcBlue;
-@property(nonatomic) double inputBlackSrcGreen; // @synthesize inputBlackSrcGreen=_inputBlackSrcGreen;
-@property(nonatomic) double inputBlackSrcRGB; // @synthesize inputBlackSrcRGB=_inputBlackSrcRGB;
-@property(nonatomic) double inputBlackSrcRed; // @synthesize inputBlackSrcRed=_inputBlackSrcRed;
-@property(nonatomic) double inputHilightDstBlue; // @synthesize inputHilightDstBlue=_inputHilightDstBlue;
-@property(nonatomic) double inputHilightDstGreen; // @synthesize inputHilightDstGreen=_inputHilightDstGreen;
-@property(nonatomic) double inputHilightDstRGB; // @synthesize inputHilightDstRGB=_inputHilightDstRGB;
-@property(nonatomic) double inputHilightDstRed; // @synthesize inputHilightDstRed=_inputHilightDstRed;
-@property(nonatomic) double inputHilightSrcBlue; // @synthesize inputHilightSrcBlue=_inputHilightSrcBlue;
-@property(nonatomic) double inputHilightSrcGreen; // @synthesize inputHilightSrcGreen=_inputHilightSrcGreen;
-@property(nonatomic) double inputHilightSrcRGB; // @synthesize inputHilightSrcRGB=_inputHilightSrcRGB;
-@property(nonatomic) double inputHilightSrcRed; // @synthesize inputHilightSrcRed=_inputHilightSrcRed;
-@property(nonatomic) double inputMidDstBlue; // @synthesize inputMidDstBlue=_inputMidDstBlue;
-@property(nonatomic) double inputMidDstGreen; // @synthesize inputMidDstGreen=_inputMidDstGreen;
-@property(nonatomic) double inputMidDstRGB; // @synthesize inputMidDstRGB=_inputMidDstRGB;
-@property(nonatomic) double inputMidDstRed; // @synthesize inputMidDstRed=_inputMidDstRed;
-@property(nonatomic) double inputMidSrcBlue; // @synthesize inputMidSrcBlue=_inputMidSrcBlue;
-@property(nonatomic) double inputMidSrcGreen; // @synthesize inputMidSrcGreen=_inputMidSrcGreen;
-@property(nonatomic) double inputMidSrcRGB; // @synthesize inputMidSrcRGB=_inputMidSrcRGB;
-@property(nonatomic) double inputMidSrcRed; // @synthesize inputMidSrcRed=_inputMidSrcRed;
 @property(nonatomic) int inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) double inputShadowDstBlue; // @synthesize inputShadowDstBlue=_inputShadowDstBlue;
-@property(nonatomic) double inputShadowDstGreen; // @synthesize inputShadowDstGreen=_inputShadowDstGreen;
-@property(nonatomic) double inputShadowDstRGB; // @synthesize inputShadowDstRGB=_inputShadowDstRGB;
-@property(nonatomic) double inputShadowDstRed; // @synthesize inputShadowDstRed=_inputShadowDstRed;
-@property(nonatomic) double inputShadowSrcBlue; // @synthesize inputShadowSrcBlue=_inputShadowSrcBlue;
-@property(nonatomic) double inputShadowSrcGreen; // @synthesize inputShadowSrcGreen=_inputShadowSrcGreen;
-@property(nonatomic) double inputShadowSrcRGB; // @synthesize inputShadowSrcRGB=_inputShadowSrcRGB;
-@property(nonatomic) double inputShadowSrcRed; // @synthesize inputShadowSrcRed=_inputShadowSrcRed;
-@property(nonatomic) double inputWhiteDstBlue; // @synthesize inputWhiteDstBlue=_inputWhiteDstBlue;
-@property(nonatomic) double inputWhiteDstGreen; // @synthesize inputWhiteDstGreen=_inputWhiteDstGreen;
-@property(nonatomic) double inputWhiteDstRGB; // @synthesize inputWhiteDstRGB=_inputWhiteDstRGB;
-@property(nonatomic) double inputWhiteDstRed; // @synthesize inputWhiteDstRed=_inputWhiteDstRed;
-@property(nonatomic) double inputWhiteSrcBlue; // @synthesize inputWhiteSrcBlue=_inputWhiteSrcBlue;
-@property(nonatomic) double inputWhiteSrcGreen; // @synthesize inputWhiteSrcGreen=_inputWhiteSrcGreen;
-@property(nonatomic) double inputWhiteSrcRGB; // @synthesize inputWhiteSrcRGB=_inputWhiteSrcRGB;
-@property(nonatomic) double inputWhiteSrcRed; // @synthesize inputWhiteSrcRed=_inputWhiteSrcRed;
-@property(readonly) Class superclass;
 
 @end
 

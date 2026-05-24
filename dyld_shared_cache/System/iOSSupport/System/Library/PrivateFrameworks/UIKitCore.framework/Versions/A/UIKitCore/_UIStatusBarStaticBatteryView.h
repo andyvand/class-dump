@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id)!\Gù1gÐ1Â0@ù
@@ -21,7 +21,7 @@
 + (id)arge;
 + (id)tained in its documentStorageURL (%@);
 + (id)n;
-+ (id)ContentViewModifyTransformMaxSize;
++ (id)UISolariumFloatingContentViewModifyTransformMaxSize;
 + (id)ÉÍ4#h;
 - (void);
 - (void);
@@ -33,8 +33,8 @@
 - (double);
 - (void);
 - (double)× ;
-- (void)aleFactor;
-- (void)tWidthLarge;
+- (void)_batteryBoltLargeScaleFactor;
+- (void)alertWidthLarge;
 - (void),V_windowFrameAnimationForNextPendingRequest;
 - (_Bool)layout, %@, to layout, %@. This is a UIKit bug.;
 - (void)Uzþÿ;

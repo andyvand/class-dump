@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNoteTimelineSectionIdentifier, NSArray;
+@class ICNoteTimelineSectionIdentifier;
 
 @interface ICNoteTimelineSection
 {
     ICNoteTimelineSectionIdentifier *_identifier;
-    NSArray *_objectIDs;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (id);
 - (void);
 - (id);
-- (void)equestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:requestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) ICNoteTimelineSectionIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
 
 @end
 

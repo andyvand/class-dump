@@ -9,26 +9,20 @@
 @interface PatternResultGroup
 {
     NSString *_name;
-    NSString *_dialogId;
-    NSString *_visualId;
-    NSString *_patternId;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
+- (void)makeMobileAssetManagerWithContext:(id)arg1;
+- (id)insertBulletinForIncompatibleInvitationFromInviterName:homeName: /* Error: Ran out of types for this method. */;
+- (void)D};
+- (id);
 - (id);
 - (void);
 - (void)Ð±Ð°ÑÑÑÑ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dialogId; // @synthesize dialogId=_dialogId;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *patternId; // @synthesize patternId=_patternId;
-@property(retain, nonatomic) NSString *visualId; // @synthesize visualId=_visualId;
 
 @end
 

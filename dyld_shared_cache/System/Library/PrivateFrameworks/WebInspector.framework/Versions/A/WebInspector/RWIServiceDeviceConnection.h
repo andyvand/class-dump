@@ -6,17 +6,15 @@
 
 #import <WebInspector/RWIServiceConnection.h>
 
-@class NSString, RWIServiceLockdownConnection;
+@class RWIServiceLockdownConnection;
 
 __attribute__((visibility("hidden")))
 @interface RWIServiceDeviceConnection : RWIServiceConnection
 {
     RWIServiceLockdownConnection *_connectionToRelay;
-    RWIServiceLockdownConnection *_connectionToNotificationProxy;
-    long long _reconnectToRelayAttemptCount;
 }
 
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -33,22 +31,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ˆ;
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

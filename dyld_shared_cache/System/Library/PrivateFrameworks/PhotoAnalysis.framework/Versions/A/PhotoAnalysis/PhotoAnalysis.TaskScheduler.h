@@ -7,14 +7,6 @@
 @interface PhotoAnalysis.TaskScheduler
 {
     id $defaultActor;
-    id timeoutTimerDuration;
-    id delayOfUnresponsivenessBeforeReporting;
-    id delayOfUnresponsivenessBeforeExiting;
-    id stateHolder;
-    id timeoutTimer;
-    id logger;
-    id changeCache;
-    id scheduledTaskByIdentifier;
 }
 
 @end

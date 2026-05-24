@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICRadioStationProviderResource, ICStoreArtworkInfo, NSDictionary, NSString;
+@class ICStoreArtworkInfo, NSDictionary;
 
 @interface ICRadioStationMetadata
 {
@@ -18,9 +18,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)NSArray"24@?<v@?@"NSDictionary"@"NSError">32;
+- (id)ictionary"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)saveWithError: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -30,21 +30,7 @@
 - (void)r;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsItemLiking;
-@property(readonly, nonatomic) _Bool allowsSharing;
 @property(readonly, copy, nonatomic) ICStoreArtworkInfo *artworkInfo;
-@property(readonly, copy, nonatomic) NSString *attributionLabel;
-@property(readonly, nonatomic, getter=containsVideo) _Bool containsVideo;
-@property(readonly, copy, nonatomic) NSString *coreSeedName;
-@property(readonly, copy, nonatomic) NSString *descriptionText;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, copy, nonatomic) ICRadioStationProviderResource *providerResource;
-@property(readonly, copy, nonatomic) NSString *stationHash;
-@property(readonly, nonatomic) long long stationID;
-@property(readonly, copy, nonatomic) NSString *stationStringID;
-@property(readonly, nonatomic, getter=isSubscriptionRequired) _Bool subscriptionRequired;
-@property(readonly, nonatomic) long long subtype;
-@property(readonly, nonatomic) long long type;
 
 @end
 

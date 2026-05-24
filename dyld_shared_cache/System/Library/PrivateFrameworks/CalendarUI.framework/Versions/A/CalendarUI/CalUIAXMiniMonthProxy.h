@@ -17,10 +17,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)W;
+- (id);
 - (long long);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);
@@ -29,10 +29,10 @@
 - (_Bool);
 - (struct CGRect);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)+;
 - (id);
 - (void)
 × ;

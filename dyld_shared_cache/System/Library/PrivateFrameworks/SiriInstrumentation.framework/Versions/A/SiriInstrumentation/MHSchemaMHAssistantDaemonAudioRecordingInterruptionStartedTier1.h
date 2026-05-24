@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MHSchemaMHAssistantDaemonAudioRecordingInterruptionStartedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_activeSessionDisplayIds;
-    int _audioSessionCategory;
-    int _audioSessionMode;
-    CDStruct_79cebb1e _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -31,7 +26,7 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int)";
 - (void);
 - (unsigned long long);
 - (id);
@@ -42,25 +37,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)hes/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/d2i_pu.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)";
 - (id)1Â0@ù
 × ;
-- (id)ngInfo:(id)arg1;
+- (id)setHasPingInfo:(id)arg1;
 - (id)xecutorSiriSchemaExecutorStringQueryLocationCallFailed",&,N,V_failed;
 - (void)b«!;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activeSessionDisplayIds; // @synthesize activeSessionDisplayIds=_activeSessionDisplayIds;
-@property(nonatomic) int audioSessionCategory; // @synthesize audioSessionCategory=_audioSessionCategory;
-@property(nonatomic) int audioSessionMode; // @synthesize audioSessionMode=_audioSessionMode;
-@property(nonatomic) _Bool hasAudioSessionCategory;
-@property(nonatomic) _Bool hasAudioSessionMode;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

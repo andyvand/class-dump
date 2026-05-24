@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)URLForDirectory:inDomain:appropriateForURL:create:error: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
+- (double);
 - (unsigned long long);
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, SSCAMetalLayerClientResourceUsageSnapshot;
+@class SSCAMetalLayerClientResourceUsageSnapshot;
 
 @interface SSCAMetalLayerClientResourceUsageInterval
 {
     SSCAMetalLayerClientResourceUsageSnapshot *_startSnapshot;
-    SSCAMetalLayerClientResourceUsageSnapshot *_endSnapshot;
-    double _deltaPeakPhysicalFootprintMiB;
 }
 
 - (double);
@@ -20,21 +18,21 @@
 - (double);
 - (double);
 - (unsigned long long);
-- (double);
+- (double)h;
 - (id);
 - (id);
 - (double);
 - (unsigned long long);
 - (double);
 - (unsigned long long);
+- (double)o;
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
+- (double)2h>;
 - (id);
 - (_Bool);
 - (double);
@@ -53,31 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSNumber *deltaMemoryLimitHeadroomMiB;
-@property(readonly, nonatomic) double deltaPeakPhysicalFootprintMiB; // @synthesize deltaPeakPhysicalFootprintMiB=_deltaPeakPhysicalFootprintMiB;
-@property(readonly, nonatomic) double deltaPhysicalFootprintMiB;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double diskLogicalWritesMiB;
-@property(readonly, nonatomic) double diskLogicalWritesMiBPerSec;
-@property(readonly, nonatomic) double diskReadsMiB;
-@property(readonly, nonatomic) double diskReadsMiBPerSec;
-@property(readonly, nonatomic) double diskWritesMiB;
-@property(readonly, nonatomic) double diskWritesMiBPerSec;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) SSCAMetalLayerClientResourceUsageSnapshot *endSnapshot; // @synthesize endSnapshot=_endSnapshot;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long instructionCount;
-@property(readonly, nonatomic) double instructionCountPerSec;
-@property(readonly, nonatomic) unsigned long long pCoreInstructionCount;
-@property(readonly, nonatomic) double pCoreInstructionCountPerSec;
-@property(readonly, nonatomic) double peakPhysicalFootprintMiB;
-@property(readonly, nonatomic) NSDate *startDate;
 @property(readonly, nonatomic) SSCAMetalLayerClientResourceUsageSnapshot *startSnapshot; // @synthesize startSnapshot=_startSnapshot;
-@property(readonly) Class superclass;
 
 @end
 

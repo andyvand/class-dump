@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AFExperimentServerConfigurationInfo
 {
     NSString *_configurationIdentifier;
-    NSURL *_configurationURL;
-    double _maxTimeToSync;
 }
 
 + (id);
 + (_Bool);
 - (double);
 - (id);
+- (id)setIsProvisioningForAltAccount:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)BackgroundColor;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)`;
 - (id);
 - (void)er",R,N,V_productID;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *configurationIdentifier; // @synthesize configurationIdentifier=_configurationIdentifier;
-@property(readonly, copy, nonatomic) NSURL *configurationURL; // @synthesize configurationURL=_configurationURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maxTimeToSync; // @synthesize maxTimeToSync=_maxTimeToSync;
-@property(readonly) Class superclass;
 
 @end
 

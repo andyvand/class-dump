@@ -7,21 +7,19 @@
 @interface _SWCGeneration
 {
     int _processIdentifier;
-    int _processIdentifierVersion;
-    unsigned long long _tick;
 }
 
 + (_Bool);
-- (id);
+- (id)A'1E3;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)modelType;
 - (id);
-- (id);
+- (id)reAnalytics.framework/Versions/A/CoreAnalytics;
 - (id);
 
 @end

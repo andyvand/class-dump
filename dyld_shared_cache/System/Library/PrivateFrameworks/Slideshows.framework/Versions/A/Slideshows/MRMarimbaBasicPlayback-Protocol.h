@@ -4,22 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, MRRenderer;
+@class MPDocument;
 
 @protocol MRMarimbaBasicPlayback
-- (MPDocument *)FlippedProvider;
-- (void)s:(MPDocument *)arg1;
-- (void)ate;
+- (void)`;
+- (void);
+- (void)__objc_methtype;
+- (void)notifyWhenCountReachesZeroOnQueue:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool):envelopeSizeByEntry:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)requestWithURL: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)X߰;
+- (void);
+- (double);
+- (MPDocument *)mTextBox2MiddleFlippedProvider;
+- (void)initWithTrack:(MPDocument *)arg1 outputSettings: /* Error: Ran out of types for this method. */;
+- (void)OKDocumentMediaItemLookupDelegate;
 
 // Remaining properties
-@property(nonatomic) _Bool displaysFPS;
 @property(retain, nonatomic) MPDocument *document;
-@property(nonatomic) _Bool enableSlideDidChangeNotification;
-@property(readonly, nonatomic) _Bool isPlaying;
-@property(readonly, nonatomic) MRRenderer *renderer;
-@property(nonatomic) _Bool stopWithVideo;
-@property(nonatomic) double time;
-@property(readonly, nonatomic) double timeRemaining;
-@property(nonatomic) double volume;
 @end
 

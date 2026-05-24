@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _NSQuickActionTouchBarPicker;
+
 @protocol _NSQuickActionTouchBarPickerDelegate
+- (void)ecode Img4 property tag:(_NSQuickActionTouchBarPicker *)arg1 0x%X with error %d;
 @end
 

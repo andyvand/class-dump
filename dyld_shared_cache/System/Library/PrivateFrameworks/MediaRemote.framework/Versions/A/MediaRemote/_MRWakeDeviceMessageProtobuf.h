@@ -15,8 +15,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)initWithName:(struct _NSZone *)arg1 capacity:refillPeriod: /* Error: Ran out of types for this method. */;
+- (id)cs.cancellation;
 
 @end
 

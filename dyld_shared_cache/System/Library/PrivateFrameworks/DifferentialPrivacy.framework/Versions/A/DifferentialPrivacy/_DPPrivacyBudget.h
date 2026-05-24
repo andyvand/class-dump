@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DPPrivacyBudgetProperties, _DPPrivacyBudgetRecord;
+@class NSString, _DPPrivacyBudgetRecord;
 
 @interface _DPPrivacyBudget
 {
     NSString *_name;
-    _DPPrivacyBudgetRecord *_budgetRecord;
-    _DPPrivacyBudgetProperties *_budgetProperties;
 }
 
 + (_Bool);
@@ -34,27 +32,25 @@
 + (id);
 + (void);
 + (_Bool);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (id);
 + (void);
+- (_Bool)(Z;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)requestAuthorizationForPublicKeyCredentials:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)showAuthenticationSheetForSelectedOneTimeCode;
 
 // Remaining properties
-@property(readonly, nonatomic) _DPPrivacyBudgetProperties *budgetProperties; // @synthesize budgetProperties=_budgetProperties;
 @property(retain) _DPPrivacyBudgetRecord *budgetRecord; // @synthesize budgetRecord=_budgetRecord;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

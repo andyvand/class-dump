@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSSet;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (_Bool);
+- (unsigned long long)e;
+- (unsigned long long)P;
+- (NSSet *);
+- (NSArray *)hpv;
+- (void)@@;
+- (_Bool);
 @end
 

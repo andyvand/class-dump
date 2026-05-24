@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, WeatherServiceProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WFServiceConnection
 {
     NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_internalStateQueue;
-    NSXPCConnection *_xpcConnection;
-    id <WeatherServiceProtocol> _serviceProxy;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_tasksPendingResponseForTaskIdentifier;
-    NSMutableDictionary *_dispatchGroupForTaskIdentifier;
-    NSMutableDictionary *_executionStartTimeForTaskIdentifier;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)operties>";
 - (id);
 - (void);
 - (void);
@@ -37,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)TEMPLATE_EDITOR_CANT_MARK_AS_COMPLETED_ALERT_MESSAGE;
 - (void);
 - (void);
 - (void);
@@ -46,28 +39,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSMutableDictionary *dispatchGroupForTaskIdentifier; // @synthesize dispatchGroupForTaskIdentifier=_dispatchGroupForTaskIdentifier;
-@property(readonly) NSMutableDictionary *executionStartTimeForTaskIdentifier; // @synthesize executionStartTimeForTaskIdentifier=_executionStartTimeForTaskIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalStateQueue; // @synthesize internalStateQueue=_internalStateQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id <WeatherServiceProtocol> serviceProxy; // @synthesize serviceProxy=_serviceProxy;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *tasksPendingResponseForTaskIdentifier; // @synthesize tasksPendingResponseForTaskIdentifier=_tasksPendingResponseForTaskIdentifier;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (id)wind sync anchor in %@ but we might still have to rewind for additional features;

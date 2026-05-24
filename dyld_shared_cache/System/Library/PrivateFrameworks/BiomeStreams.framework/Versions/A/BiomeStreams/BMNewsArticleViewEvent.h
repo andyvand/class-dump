@@ -9,19 +9,11 @@
 @interface BMNewsArticleViewEvent
 {
     NSString *_uniqueId;
-    NSString *_domainId;
-    NSString *_personaId;
-    double _absoluteTimestamp;
-    NSString *_title;
-    NSString *_content;
-    NSString *_summary;
-    NSString *_publication;
-    NSString *_contentProtection;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,12 +25,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (double);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)t;
+- (_Bool)So8NSStringCSgSo7NSErrorCSgIeyByy_;
 - (void);
 - (id);
 - (id);
@@ -47,30 +39,10 @@
 - (id);
 - (id)0;
 - (id)m":(id)arg1 {;
-- (id)erceViaIO;
+- (id)CoerceViaIO;
 - (void)Q;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly, nonatomic) NSString *publication; // @synthesize publication=_publication;
-@property(readonly, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

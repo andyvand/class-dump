@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUAssertionInfo
 {
     _Bool _isClassMethod;
-    _Bool _isFatal;
-    SEL _selector;
-    Class _objectClass;
-    NSString *_functionName;
-    NSString *_fileName;
-    unsigned long long _lineNumber;
-    NSString *_message;
-    NSString *_currentlyExecutingJobName;
 }
 
 - (void);
@@ -33,24 +23,16 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)lationship;
 - (id);
 - (Class);
 - (SEL);
-- (void)ion: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)submitRequest:completion: /* Error: Ran out of types for this method. */;
+- (id)iosurface;
 - (void)ìÿ;
 
 // Remaining properties
-@property(retain) NSString *currentlyExecutingJobName; // @synthesize currentlyExecutingJobName=_currentlyExecutingJobName;
-@property(retain) NSString *fileName; // @synthesize fileName=_fileName;
-@property(retain) NSString *functionName; // @synthesize functionName=_functionName;
-@property _Bool isClassMethod; // @synthesize isClassMethod=_isClassMethod;
-@property _Bool isFatal; // @synthesize isFatal=_isFatal;
-@property unsigned long long lineNumber; // @synthesize lineNumber=_lineNumber;
-@property(retain) NSString *message; // @synthesize message=_message;
-@property(retain) Class objectClass; // @synthesize objectClass=_objectClass;
 @property SEL selector; // @synthesize selector=_selector;
 
 @end

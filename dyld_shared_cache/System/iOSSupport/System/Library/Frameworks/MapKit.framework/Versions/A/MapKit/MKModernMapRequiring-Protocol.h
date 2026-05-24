@@ -5,6 +5,7 @@
 //
 
 @protocol MKModernMapRequiring
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_requiresModernMap) _Bool requiresModernMap;

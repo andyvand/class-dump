@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSString, SSPurchase;
+@class NSDictionary, NSMutableDictionary;
 
 @interface CKUpdate
 {
     NSMutableDictionary *_dictionary;
-    long long _softwareUpdateState;
 }
 
 + (_Bool);
@@ -24,38 +23,24 @@
 - (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)sendDockMessage: /* Error: Ran out of types for this method. */;
 - (id)ectedContentLength is < 0, not going to retry.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionParams; // @dynamic actionParams;
-@property(nonatomic) long long autoUpdateAbortCode;
-@property(readonly, nonatomic) NSString *autoUpdateAbortReason;
-@property(readonly, nonatomic) NSString *bundleID; // @dynamic bundleID;
-@property(readonly, nonatomic) NSString *bundleVersion; // @dynamic bundleVersion;
 @property(readonly) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) _Bool didFailToAutoInstall;
-@property(copy, nonatomic) NSDate *firstAutoUpdateAttemptDate;
-@property(nonatomic) _Bool hasBeenSeenByUser;
-@property(nonatomic) _Bool isStaged;
-@property(readonly, nonatomic) NSNumber *itemIdentifier; // @dynamic itemIdentifier;
-@property(readonly, nonatomic) SSPurchase *purchase;
-@property(readonly, nonatomic) NSDate *releaseDate;
-@property(nonatomic) long long softwareUpdateState; // @synthesize softwareUpdateState=_softwareUpdateState;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

@@ -4,68 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWMemoryAnalyticsPayload
 {
     int _buttonMashRate0Counter;
-    NSDate *_creationTime;
-    _Bool _burst;
-    _Bool _captureDevicePositionFront;
-    _Bool _captureDevicePositionBack;
-    _Bool _captureDeviceTypeBravo;
-    _Bool _captureDeviceTypeLiDAR;
-    _Bool _captureDeviceTypeOther;
-    _Bool _captureDeviceTypePearl;
-    _Bool _captureDeviceTypeSuperBravo;
-    _Bool _captureDeviceTypeWideBravo;
-    _Bool _capturePortTypeBackSuperWide;
-    _Bool _capturePortTypeBackTelephoto;
-    _Bool _capturePortTypeOther;
-    _Bool _capturePortTypeBack;
-    _Bool _captureResolutionDefault;
-    _Bool _captureResolutionEnhanced;
-    _Bool _captureResolutionUltraHigh;
-    _Bool _captureTypeUB;
-    _Bool _captureTypeDeepFusion;
-    _Bool _captureTypeLearnedFusion;
-    _Bool _captureTypeDigitalFlash;
-    _Bool _captureTypeOther;
-    _Bool _captureTypeWYSIWYG;
-    _Bool _greenGhostMitigation;
-    _Bool _scaledStillCaptureTaken;
-    _Bool _intelligentDistortionCorrection;
-    _Bool _livePhoto;
-    _Bool _proRaw;
-    _Bool _proRawPlusProcessedPhotoEncoding;
-    _Bool _quickTakeVideo;
-    _Bool _faceDetectedInScene;
-    _Bool _photographicStyleUsed;
-    _Bool _enhancedResolutionPortraitSuggested;
-    _Bool _enhancedResolutionPortraitApplied;
-    unsigned int _maxButtonMashCount;
-    _Bool _portraitRequested;
-    _Bool _portraitDepthGenerationAttempted;
-    _Bool _portraitEffectApplied;
-    _Bool _cinematicVideo;
-    _Bool _hdrVideo;
-    _Bool _proResVideo;
-    int _colorSpace;
-    unsigned int _videoMaxFrameRate;
-    unsigned int _videoMinDimension;
-    int _maxVideoStabilizationMethod;
-    int _videoStabilizationStrength;
-    unsigned int _videoRecordingCount;
-    _Bool _dockKitDeviceConnected;
-    _Bool _graphHasVideoDataOutput;
-    _Bool _graphContainsMovieFilePipeline;
-    _Bool _graphContainsDepthDataPipeline;
-    NSString *_clientApplicationID;
-    unsigned int _captureCount;
-    unsigned long long _peakFootprintDifference;
-    _Bool _clientIsCameraOrDerivative;
-    int _deviceType;
 }
 
 - (unsigned int);
@@ -77,6 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)}2;
 - (void);
 - (void);
 - (void);
@@ -84,21 +27,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)T(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)p�0;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -106,10 +48,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (int);
+- (int)M;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -118,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (_Bool);
+- (_Bool)#U;
 - (void);
 - (void);
 - (void);
@@ -127,10 +69,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)\4;
 - (id);
 - (int);
-- (void);
+- (void)Result;
 - (void);
 - (id);
 - (void);
@@ -146,45 +88,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool burst; // @synthesize burst=_burst;
-@property(readonly, nonatomic) unsigned int captureCount; // @synthesize captureCount=_captureCount;
-@property(nonatomic) _Bool cinematicVideo; // @synthesize cinematicVideo=_cinematicVideo;
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(nonatomic) _Bool clientIsCameraOrDerivative; // @synthesize clientIsCameraOrDerivative=_clientIsCameraOrDerivative;
-@property(nonatomic) int colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool dockKitDeviceConnected; // @synthesize dockKitDeviceConnected=_dockKitDeviceConnected;
-@property(nonatomic) _Bool enhancedResolutionPortraitApplied; // @synthesize enhancedResolutionPortraitApplied=_enhancedResolutionPortraitApplied;
-@property(nonatomic) _Bool enhancedResolutionPortraitSuggested; // @synthesize enhancedResolutionPortraitSuggested=_enhancedResolutionPortraitSuggested;
-@property(nonatomic) _Bool faceDetectedInScene; // @synthesize faceDetectedInScene=_faceDetectedInScene;
-@property(nonatomic) _Bool graphContainsDepthDataPipeline; // @synthesize graphContainsDepthDataPipeline=_graphContainsDepthDataPipeline;
-@property(nonatomic) _Bool graphContainsMovieFilePipeline; // @synthesize graphContainsMovieFilePipeline=_graphContainsMovieFilePipeline;
-@property(nonatomic) _Bool graphHasVideoDataOutput; // @synthesize graphHasVideoDataOutput=_graphHasVideoDataOutput;
-@property(nonatomic) _Bool greenGhostMitigation; // @synthesize greenGhostMitigation=_greenGhostMitigation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hdrVideo; // @synthesize hdrVideo=_hdrVideo;
-@property(nonatomic) _Bool intelligentDistortionCorrection; // @synthesize intelligentDistortionCorrection=_intelligentDistortionCorrection;
-@property(nonatomic) _Bool livePhoto; // @synthesize livePhoto=_livePhoto;
-@property(nonatomic) int maxVideoStabilizationMethod; // @synthesize maxVideoStabilizationMethod=_maxVideoStabilizationMethod;
-@property(nonatomic) unsigned long long peakFootprintDifference; // @synthesize peakFootprintDifference=_peakFootprintDifference;
-@property(nonatomic) _Bool photographicStyleUsed; // @synthesize photographicStyleUsed=_photographicStyleUsed;
-@property(nonatomic) _Bool portraitDepthGenerationAttempted; // @synthesize portraitDepthGenerationAttempted=_portraitDepthGenerationAttempted;
-@property(nonatomic) _Bool portraitEffectApplied; // @synthesize portraitEffectApplied=_portraitEffectApplied;
-@property(nonatomic) _Bool portraitRequested; // @synthesize portraitRequested=_portraitRequested;
-@property(nonatomic) _Bool proRaw; // @synthesize proRaw=_proRaw;
-@property(nonatomic) _Bool proRawPlusProcessedPhotoEncoding; // @synthesize proRawPlusProcessedPhotoEncoding=_proRawPlusProcessedPhotoEncoding;
-@property(nonatomic) _Bool proResVideo; // @synthesize proResVideo=_proResVideo;
-@property(nonatomic) _Bool quickTakeVideo; // @synthesize quickTakeVideo=_quickTakeVideo;
-@property(nonatomic) _Bool scaledStillCaptureTaken; // @synthesize scaledStillCaptureTaken=_scaledStillCaptureTaken;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int videoMaxFrameRate; // @synthesize videoMaxFrameRate=_videoMaxFrameRate;
-@property(nonatomic) unsigned int videoMinDimension; // @synthesize videoMinDimension=_videoMinDimension;
-@property(nonatomic) unsigned int videoRecordingCount; // @synthesize videoRecordingCount=_videoRecordingCount;
-@property(nonatomic) int videoStabilizationStrength; // @synthesize videoStabilizationStrength=_videoStabilizationStrength;
 
 @end
 

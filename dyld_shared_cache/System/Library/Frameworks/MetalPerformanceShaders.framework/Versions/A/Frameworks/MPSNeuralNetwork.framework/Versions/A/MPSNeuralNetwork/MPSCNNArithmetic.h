@@ -9,13 +9,6 @@
 @interface MPSCNNArithmetic : MPSCNNBinaryKernel
 {
     float _primaryScale;
-    float _secondaryScale;
-    float _bias;
-    float _minimumValue;
-    float _maximumValue;
-    unsigned long long _primaryStrideInFeatureChannels;
-    unsigned long long _secondaryStrideInFeatureChannels;
-    int _arithmeticType;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -28,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)RW;
 - (float);
 - (id);
 - (id);
@@ -39,11 +32,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (float);
+- (float)newLibraryWithStitchedDescriptor:error: /* Error: Ran out of types for this method. */;
 - (float);
 - (void);
 - (id);
@@ -52,13 +45,7 @@
 - (float)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(nonatomic) float bias; // @synthesize bias=_bias;
-@property(nonatomic) float maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) float minimumValue; // @synthesize minimumValue=_minimumValue;
 @property(nonatomic) float primaryScale; // @synthesize primaryScale=_primaryScale;
-@property(nonatomic) unsigned long long primaryStrideInFeatureChannels; // @synthesize primaryStrideInFeatureChannels=_primaryStrideInFeatureChannels;
-@property(nonatomic) float secondaryScale; // @synthesize secondaryScale=_secondaryScale;
-@property(nonatomic) unsigned long long secondaryStrideInFeatureChannels; // @synthesize secondaryStrideInFeatureChannels=_secondaryStrideInFeatureChannels;
 
 @end
 

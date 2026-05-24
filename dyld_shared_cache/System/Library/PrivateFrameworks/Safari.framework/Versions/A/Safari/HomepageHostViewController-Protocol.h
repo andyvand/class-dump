@@ -5,5 +5,7 @@
 //
 
 @protocol HomepageHostViewController
+- (void);
+- (void);
 @end
 

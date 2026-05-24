@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface AXMindNetConfiguration
 {
     NSArray *_filterThresholds;
-    NSNumber *_nmsThreshold;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *filterThresholds; // @synthesize filterThresholds=_filterThresholds;
-@property(readonly, nonatomic) NSNumber *nmsThreshold; // @synthesize nmsThreshold=_nmsThreshold;
 
 @end
 

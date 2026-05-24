@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessCodeOperationTypeWrapper, NSMutableArray, NSString;
+@class HAPAccessCodeOperationTypeWrapper;
 
 @interface HAPAccessCodeControl
 {
     HAPAccessCodeOperationTypeWrapper *_operationType;
-    NSMutableArray *_accessCodeControlRequest;
-    NSMutableArray *_accessCodeControlResponse;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool)eEntryPtr:(id)arg1 NULL outside of range for frames, frameNumber=%d for segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void)dBonjour: /* Error: Ran out of types for this method. */;
-- (void)localPairingMetricDictionary;
+- (id)/swift/libswiftOSLog.dylib;
+- (void)setHasUpdatedBonjour: /* Error: Ran out of types for this method. */;
+- (void)_localPairingMetricDictionary;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessCodeControlRequest; // @synthesize accessCodeControlRequest=_accessCodeControlRequest;
-@property(retain, nonatomic) NSMutableArray *accessCodeControlResponse; // @synthesize accessCodeControlResponse=_accessCodeControlResponse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPAccessCodeOperationTypeWrapper *operationType; // @synthesize operationType=_operationType;
-@property(readonly) Class superclass;
 
 @end
 

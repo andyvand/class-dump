@@ -9,49 +9,40 @@
 @interface GEOTransitSectionOption
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _sections;
-    unsigned int _defaultSectionIndex;
-    struct {
-        unsigned int has_defaultSectionIndex:1;
-    } _flags;
 }
 
-+ (_Bool)eGuidanceLevel:(id)arg1;
++ (_Bool)setNavVoiceGuidanceLevel:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool):8^@16 /* Error: Ran out of types for this method. */;
+- (unsigned int)birthdayYearless;
 - (unsigned int);
-- (unsigned int);
-- (void);
+- (void)archy",R,C,N;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)logFeaturesWithEvent:(id)arg1 locale: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)X;
 - (_Bool);
 - (void);
 - (id)!´@ù1º*ð1Â0@ù
 × ;
 - (unsigned int *)"read_educationalScreenPaymentBodys"b1"read_suggestionBody"b1"read_suggestionTitle"b1"wrote_anyField"b1};
 - (unsigned long long)refCategoryNames"b1"read_prefDisplayName"b1"read_prefPhone"b1"read_prefUrl"b1"wrote_anyField"b1};
-- (id)y: /* Error: Ran out of types for this method. */;
+- (id)initWithArray: /* Error: Ran out of types for this method. */;
 - (id)ect>",&,N;
 - (void)µ¯ô;
-- (id)ithoutPaddingIdentifier;
+- (id)logoWithoutPaddingIdentifier;
 - (void)(Í9xGQ@;
 
 // Remaining properties
-@property(nonatomic) unsigned int defaultSectionIndex;
-@property(nonatomic) _Bool hasDefaultSectionIndex;
-@property(readonly, nonatomic) unsigned int *sections;
 @property(readonly, nonatomic) unsigned long long sectionsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

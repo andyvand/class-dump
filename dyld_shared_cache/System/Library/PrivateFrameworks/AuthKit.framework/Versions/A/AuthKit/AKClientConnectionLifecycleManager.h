@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKXPCConnectionConfiguration, NSXPCConnection;
-
 @interface AKClientConnectionLifecycleManager
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_serviceConnection;
-    AKXPCConnectionConfiguration *_serviceConnectionConfig;
 }
 
 - (void);
@@ -27,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(retain, nonatomic) AKXPCConnectionConfiguration *serviceConnectionConfig; // @synthesize serviceConnectionConfig=_serviceConnectionConfig;
 @property(nonatomic) struct os_unfair_lock_s unfairLock; // @synthesize unfairLock=_unfairLock;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXPeopleBootstrapContext, UXBarButtonItem, UXViewController;
-@protocol PXPeopleBootstrapFlowDelegate, PXPeopleFlowViewController, PXPeopleSuggestionManagerDataSource;
+@class NSArray;
 
 @interface PXPeopleBootstrapFlowController
 {
     _Bool _wantsCancelButton;
-    id <PXPeopleBootstrapFlowDelegate> _bootstrapDelegate;
-    id <PXPeopleSuggestionManagerDataSource> _bootstrapDataSource;
-    PXPeopleBootstrapContext *_context;
-    unsigned long long _namingResultType;
-    NSArray *_viewControllers;
-    unsigned long long _viewControllerIndex;
 }
 
 - (_Bool);
@@ -30,7 +23,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -44,39 +37,13 @@
 - (id);
 - (void)Ð÷ýÿÿÿÈ÷ýÿ¨\þÿÿÿ;
 - (id)d}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}BB^v^v^vQ}8^B16;
-- (void)igationListGroupItemTypeCollections;
+- (void)PXNavigationListGroupItemTypeCollections;
 - (id)yÿ Çõþ;
 - (void);
 - (void)K@ó;;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXPeopleSuggestionManagerDataSource> bootstrapDataSource; // @synthesize bootstrapDataSource=_bootstrapDataSource;
-@property(retain, nonatomic) id <PXPeopleBootstrapFlowDelegate> bootstrapDelegate; // @synthesize bootstrapDelegate=_bootstrapDelegate;
-@property(readonly, nonatomic) PXPeopleBootstrapContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasNextViewController;
-@property(readonly, nonatomic) _Bool hasPreviousViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UXBarButtonItem *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UXBarButtonItem",?,R,N
-
-@property(nonatomic) unsigned long long namingResultType; // @synthesize namingResultType=_namingResultType;
-@property(readonly, nonatomic) UXViewController<PXPeopleFlowViewController> *nextViewController;
-@property(readonly, nonatomic) UXViewController<PXPeopleFlowViewController> *previousViewController;
-@property(readonly, nonatomic) _Bool shouldPresentNaming;
-@property(readonly, nonatomic) _Bool shouldPresentPostNaming;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long viewControllerIndex; // @synthesize viewControllerIndex=_viewControllerIndex;
 @property(copy, nonatomic) NSArray *viewControllers; // @synthesize viewControllers=_viewControllers;
-@property(readonly, nonatomic) _Bool wantsCancelButton; // @synthesize wantsCancelButton=_wantsCancelButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_wantsCancelButton
-
 
 @end
 

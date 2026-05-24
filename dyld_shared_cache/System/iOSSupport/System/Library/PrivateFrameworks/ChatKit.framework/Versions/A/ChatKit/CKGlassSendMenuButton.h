@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, UIButton, UIColor;
+@class CAFilter;
 
 @interface CKGlassSendMenuButton
 {
     CAFilter *backgroundCompositingFilterForLightMode;
-    CAFilter *backgroundCompositingFilterForDarkMode;
-    double backgroundBlurRadiusLightMode;
-    double backgroundBlurRadiusDarkMode;
-    double backgroundBlurRasterizationPercentage;
-    UIColor *plusButtonBackgroundColor;
-    double plusSymbolOpacity;
-    _Bool sendMenuButtonEnabled;
 }
 
 + (struct CGSize);
+- (void)",N,C;
+- (void)awingViews;
+- (void)isSelectingText;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
+- (id)ellpadding="0" style="border-collapse:collapse; direction:%@">
+<tbody>
+ /* Error: Ran out of types for this method. */;
+- (id)String"8Q16Q24^B32;
+- (double)ow"8;
+- (double)nt string ;
+- (double)ntent];
 - (void);
 - (void);
 - (struct CGSize);
@@ -48,15 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double backgroundBlurRadiusDarkMode; // @synthesize backgroundBlurRadiusDarkMode;
-@property(nonatomic) double backgroundBlurRadiusLightMode; // @synthesize backgroundBlurRadiusLightMode;
-@property(nonatomic) double backgroundBlurRasterizationPercentage; // @synthesize backgroundBlurRasterizationPercentage;
-@property(nonatomic, retain) CAFilter *backgroundCompositingFilterForDarkMode; // @synthesize backgroundCompositingFilterForDarkMode;
 @property(nonatomic, retain) CAFilter *backgroundCompositingFilterForLightMode; // @synthesize backgroundCompositingFilterForLightMode;
-@property(nonatomic, readonly) UIButton *button;
-@property(nonatomic, retain) UIColor *plusButtonBackgroundColor; // @synthesize plusButtonBackgroundColor;
-@property(nonatomic) double plusSymbolOpacity; // @synthesize plusSymbolOpacity;
-@property(nonatomic) _Bool sendMenuButtonEnabled; // @synthesize sendMenuButtonEnabled;
 
 @end
 

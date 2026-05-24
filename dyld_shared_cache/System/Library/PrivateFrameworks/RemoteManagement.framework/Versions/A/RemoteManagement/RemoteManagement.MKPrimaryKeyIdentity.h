@@ -7,7 +7,6 @@
 @interface RemoteManagement.MKPrimaryKeyIdentity
 {
     id certPK;
-    id keyPK;
 }
 
 @end

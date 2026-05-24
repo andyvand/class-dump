@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TSADebugViewController;
+@class NSMutableArray;
 
 @interface TSADebugTableViewController
 {
     NSMutableArray *_debugItems;
-    TSADebugViewController *_parent;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (void)mestamp;
+- (void)timestamp;
 - (void)bí;
 
 @end

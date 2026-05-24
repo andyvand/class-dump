@@ -12,9 +12,9 @@
 - (void);
 - (id);
 - (_Bool);
+- (void)=;
 - (void);
-- (void);
-- (id);
+- (id)LPGameActivityMetadataProviderSpecialization;
 - (void);
 
 // Remaining properties

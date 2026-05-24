@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     struct CGSVGDocument *_document;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)umable;
++ (id)leUploadState:createResumeData returning nil because we are not resumable /* Error: Ran out of types for this method. */;
++ (_Bool)%d converting];
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)asPressure;
-- (_Bool)yPathUnderObservation;
+- (id)hasPressure;
+- (_Bool)_autosaveKeyPathUnderObservation;
 
 @end
 

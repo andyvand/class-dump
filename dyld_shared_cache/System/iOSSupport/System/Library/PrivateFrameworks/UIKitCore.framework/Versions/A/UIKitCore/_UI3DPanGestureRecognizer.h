@@ -6,17 +6,13 @@
 
 #import <UIKitCore/UIPanGestureRecognizer.h>
 
-@class NSArray;
-
 @interface _UI3DPanGestureRecognizer : UIPanGestureRecognizer
 {
     _Bool canPanInZ;
-    struct CAPoint3D initial3DLocationInScene;
-    struct CAPoint3D current3DLocationInScene;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)setting IMCMMStateCompleted;
+- (void)tions to remove alpha and check for hevc+alpha;
 - (void);
 - (void);
 - (void);
@@ -29,20 +25,15 @@
 - (struct CAPoint3D);
 - (_Bool);
 - (void);
-- (id)icatorViewText;
-- (void)verrideCornerRadii;
+- (id)indexOverlayIndicatorViewText;
+- (void)_overrideCornerRadii;
 - (void)ntLightMode;
-- (void)ewDelegate;
+- (void)UIKeyboardEmojiCollectionInputViewDelegate;
 - (_Bool)d not be called on ;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool canPanInZ; // @synthesize canPanInZ;
-@property(nonatomic) struct CAPoint3D current3DLocationInScene; // @synthesize current3DLocationInScene;
-@property(nonatomic) struct CAPoint3D initial3DLocationInScene; // @synthesize initial3DLocationInScene;
-@property(nonatomic, readonly) _Bool isVisionIdiom;
-@property(nonatomic, readonly) NSArray *movingTouches;
-@property(nonatomic, readonly) _Bool willPanZ;
 
 @end
 

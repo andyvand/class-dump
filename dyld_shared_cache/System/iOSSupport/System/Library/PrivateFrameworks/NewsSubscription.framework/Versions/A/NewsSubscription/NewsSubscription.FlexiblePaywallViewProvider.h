@@ -7,27 +7,9 @@
 @interface NewsSubscription.FlexiblePaywallViewProvider
 {
     id delegate;
-    id paywallView;
-    id hardPaywallGradientView;
-    id paywallCollectionView;
-    id paywallModel;
-    id feedLayoutSolver;
-    id resolvedContent;
-    id dataSource;
-    id dataDelegate;
-    id formatContentService;
-    id layoutTaskQueue;
-    id paywallLayoutProvider;
-    id bundlePurchasePrewarmer;
-    id purchaseProvider;
-    id purchaseManager;
-    id subscribeButtonTextProvider;
-    id offerOverrideProvider;
-    id offerManager;
-    id individualPurchaseMetadata;
 }
 
-- (id);
+- (id)es created!;
 - (void);
 
 @end

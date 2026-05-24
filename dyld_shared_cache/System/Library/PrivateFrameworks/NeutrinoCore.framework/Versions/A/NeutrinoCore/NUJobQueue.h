@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NUJobPriorityQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUJobQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NUJobPriorityQueue *_interactiveQueue;
-    NUJobPriorityQueue *_initiatedQueue;
-    long long _updateGroupLevel;
-    NSString *_name;
-    long long _stage;
 }
 
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)h;
 - (void);
 - (void);
+- (void)#;
 - (void)24o^@32;
 
 // Remaining properties

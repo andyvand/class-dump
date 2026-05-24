@@ -6,54 +6,41 @@
 
 #import <UIFoundation/NSATSTypesetter.h>
 
-@class __NSImmutableTextStorage;
-
 @interface NSSingleLineTypesetter : NSATSTypesetter
 {
     double _lineWidth;
-    struct _NSRange _currentBufferRange;
-    unsigned short *_glyphs;
-    long long *_props;
-    unsigned long long *_charIndexes;
-    struct {
-        unsigned int _usesScreenFonts:1;
-        unsigned int _syncAlignmentToDirection:1;
-        unsigned int _mirrorsTextAlignment:1;
-        unsigned int _reserved:29;
-    } _slFlags;
-    __NSImmutableTextStorage *_textStorage;
 }
 
-+ (void);
++ (void)  ;
 + (_Bool);
-+ (void)longestEffectiveRange:inRange: /* Error: Ran out of types for this method. */;
-- (void);
++ (void)attribute:atIndex:longestEffectiveRange:inRange: /* Error: Ran out of types for this method. */;
+- (void)	;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
+- (void)@;
+- (void)2xs;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ublic}@peer %{public}@%{public}@:(const unsigned short *)arg1 %{public}@:(const long long *)arg2 %lld (%@);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id)initWithCTAdaptiveImageGlyph:(id)arg1;
-- (void)ompletion:(struct _NSRange)arg1;
-- (unsigned long long)s;
+- (void)addSuggestionWithUUID:(struct _NSRange)arg1 originalRange:(unsigned int *)arg2 replacementString:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_lineFragmentRectForProposedRectArgs;
 - (_Bool)R,D;
 - (void),C,V_lineWidth;
 - (void)"><a:(struct CGSize)arg1 fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:(struct _NSRange)arg2 path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
 - (struct _NSRange)lurRad="40000" dist="20000" dir="5400000" rotWithShape="0"><a:(struct _NSRange)arg1 srgbClr val="000000"><a:(struct _NSRange *)arg2 alpha val="38000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/></a:theme> /* Error: Ran out of types for this method. */;
 - (void)%@>
 ;
-- (void)rds;
+- (void)Keywords;
 - (struct _NSRange)ng:(struct _NSRange)arg1 %g, maximumPointSizeAfterScaling:(struct _NSRange *)arg2 %g;
 - (void)¸1÷ÿÙ1n;
 - (void)k;

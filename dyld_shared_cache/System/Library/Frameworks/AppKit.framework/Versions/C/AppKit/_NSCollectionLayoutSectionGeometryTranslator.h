@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutSectionGeometryTranslator
 {
     struct CGSize _contentSize;
-    int _layoutAxis;
-    _Bool _layoutRTL;
-    struct NSDirectionalEdgeInsets _supplementaryInsets;
-    struct NSDirectionalEdgeInsets _sectionInsets;
-    struct CGRect _contentFrame;
-    struct CGRect _effectiveFrame;
 }
 
 - (id);
@@ -22,18 +16,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGPoint)MPageFormat=}40;
-- (struct CGRect)cationForEvent:(struct CGRect)arg1 inCellFrame:coordinateSpace: /* Error: Ran out of types for this method. */;
+- (struct CGRect)menuLocationForEvent:(struct CGRect)arg1 inCellFrame:coordinateSpace: /* Error: Ran out of types for this method. */;
 - (struct CGSize)èbSh;
 - (struct CGRect)@Ê?;
 - (struct CGSize)83Äÿ]Ð@;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize auxiliaryHostContentSize;
-@property(readonly, nonatomic) struct CGRect contentFrame;
-@property(readonly, nonatomic) struct CGPoint contentOffset;
 @property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) struct CGSize effectiveContentSize;
-@property(readonly, nonatomic) struct CGRect effectiveFrame;
 
 @end
 

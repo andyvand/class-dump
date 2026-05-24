@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, STPrivateServiceClient;
+@class NSXPCConnection;
 
 @interface STWebUsageController
 {
     NSXPCConnection *_xpcConnection;
-    STPrivateServiceClient *_privateServiceClient;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, cloud_is_shared, cloud_author_display_name, cloud_user_count, cloud_global_play_count, cloud_global_like_count, keep_local, keep_local_status) SELECT container_pid, distinguished_kind, date_created, date_modified, name, name_order, is_owner, is_editable, parent_pid, contained_media_type, workout_template_id, is_hidden, is_ignorable_itunes_playlist, description, play_count_user, play_count_recent, liked_state, smart_evaluation_order, smart_is_folder, smart_is_dynamic, smart_is_filtered, smart_is_genius, smart_enabled_only, smart_is_limited, smart_limit_kind, smart_limit_order, smart_limit_value, smart_reverse_limit_order, smart_criteria, play_order, is_reversed, album_field_order, repeat_mode, shuffle_items, has_been_shuffled, filepath, is_saveable, is_src_remote, is_ignored_syncing, container_type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, reserved1, reserved2, reserved3, reserved4, reserved5, keep_local, keep_local_status FROM container;
+- (id)_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, artist_artwork_token, representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM item_artist;
+- (void)item_stats;
+- (void)0), IFNULL(play_count_recent, 0), IFNULL(has_been_played, 0), IFNULL(date_played, 0), IFNULL(date_skipped, 0), IFNULL(date_accessed, 0), IFNULL(is_alarm, 0), IFNULL(skip_count_user, 0), IFNULL(skip_count_recent, 0), IFNULL(remember_bookmark, 0), IFNULL(bookmark_time_ms, 0.0), IFNULL(hidden, 0), IFNULL(chosen_by_auto_fill, 0) FROM item_stats;
+- (void)NULL(needs_restore, 0), download_identifier, IFNULL(play_count_user, 0), IFNULL(play_count_recent, 0), IFNULL(has_been_played, 0), IFNULL(date_played, 0), IFNULL(date_skipped, 0), IFNULL(date_accessed, 0), IFNULL(is_alarm, 0), IFNULL(skip_count_user, 0), IFNULL(skip_count_recent, 0), IFNULL(remember_bookmark, 0), IFNULL(bookmark_time_ms, 0.0), IFNULL(hidden, 0), IFNULL(chosen_by_auto_fill, 0) FROM item_stats;
+- (void)unt_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (void)NOT NULL DEFAULT 0, has_been_played INTEGER NOT NULL DEFAULT 0, date_played INTEGER NOT NULL DEFAULT 0, date_skipped INTEGER NOT NULL DEFAULT 0, date_accessed INTEGER NOT NULL DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (void)store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)###;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) STPrivateServiceClient *privateServiceClient; // @synthesize privateServiceClient=_privateServiceClient;
 @property(readonly, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

@@ -7,26 +7,18 @@
 @interface PXCuratedLibraryGridLayoutGenerator
 {
     struct CGSize _itemSize;
-    double _interItemSpacing;
-    struct NSEdgeInsets _insets;
-    _Bool _isPrepared;
-    struct _PXLayoutGeometry *_geometries;
-    unsigned long long _geometriesCount;
-    struct CGSize _actualSize;
-    double _lastFullRowBottomEdge;
-    struct _PXCornerSpriteIndexes _cornerSpriteIndexes;
 }
 
 - (double);
 - (struct _NSRange);
 - (struct _PXCornerSpriteIndexes);
+- (void)#;
 - (void);
-- (void);
-- (void);
+- (void)U;
 - (struct CGSize);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)h;
 - (id)Failed (ServerGeneratedLocalizedDescription);
 
 // Remaining properties

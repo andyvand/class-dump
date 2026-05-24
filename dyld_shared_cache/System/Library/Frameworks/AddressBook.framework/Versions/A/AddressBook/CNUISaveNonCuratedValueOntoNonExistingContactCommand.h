@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)__unwind_info;
 
 // Remaining properties
 @property(retain, nonatomic) CNUIAggregateUndoableCommand *aggregateCommand; // @synthesize aggregateCommand=_aggregateCommand;

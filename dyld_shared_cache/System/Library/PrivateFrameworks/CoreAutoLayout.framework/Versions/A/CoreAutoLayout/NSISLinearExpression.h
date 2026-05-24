@@ -9,7 +9,6 @@
 @interface NSISLinearExpression
 {
     NSISEngine *engine;
-    CDStruct_9ac54d62 linExp;
 }
 
 + (id);
@@ -17,43 +16,42 @@
 + (id);
 + (id);
 + (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)?;
+- (void),;
+- (void)ot nodes: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (double);
-- (_Bool);
-- (void);
-- (double);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (void)U;
+- (_Bool);
+- (id);
+- (void)-;
+- (_Bool);
+- (double);
+- (_Bool);
+- (void);
+- (double);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)data:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long)o;
 - (double);
 - (unsigned long long);
 
 // Remaining properties
 @property double constant;
-@property(readonly) NSISEngine *engine;
 
 @end
 

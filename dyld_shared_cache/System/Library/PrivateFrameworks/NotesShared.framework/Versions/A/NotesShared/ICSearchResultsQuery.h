@@ -6,31 +6,28 @@
 
 #import <NotesShared/ICSearchQuery.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ICSearchResultsQuery : ICSearchQuery
 {
     _Bool _modernResultsOnly;
-    NSString *_queryString;
-    NSArray *_attributes;
 }
 
 + (id);
+- (id);
+- (id);
+- (_Bool)`;
+- (id)dd object DNS domain attribute to '%@' config record:(id)arg1 %@ (%d);
+- (id)e to add object class attribute to '%@' config record:(id)arg1 %@ (%d);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)was deemed invalid by the server.;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
 @property(copy, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
 
 @end

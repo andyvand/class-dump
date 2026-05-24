@@ -5,5 +5,8 @@
 //
 
 @protocol RPNearbyInvitationXPCClientInterface
+
+@optional
+- (void);
 @end
 

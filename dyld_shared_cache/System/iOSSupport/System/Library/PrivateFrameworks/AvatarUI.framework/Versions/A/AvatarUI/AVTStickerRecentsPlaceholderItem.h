@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, UIImage;
+@class NSString, UIImage;
 
 @interface AVTStickerRecentsPlaceholderItem
 {
     UIImage *_image;
-    NSString *_localizedDescription;
-    CDUnknownBlockType _provider;
-    NSURL *_url;
-    CDUnknownBlockType discardableContentHandler;
 }
 
 - (void);
@@ -24,22 +20,11 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)P;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discardableContentHandler; // @synthesize discardableContentHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, copy, nonatomic) CDUnknownBlockType provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

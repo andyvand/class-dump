@@ -11,24 +11,15 @@
 @interface BMScreenTimeRequestEvent : BMEventBase
 {
     _Bool _isActionUserDevice;
-    int _kind;
-    int _status;
-    int _approvalTime;
-    NSString *_requestID;
-    double _eventTime;
-    NSString *_requesterDSID;
-    NSString *_responderDSID;
-    NSString *_websitePath;
-    NSString *_bundleID;
 }
 
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (int);
@@ -36,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)CodingKeys;
 - (id);
 - (id);
 - (id);
@@ -44,41 +35,24 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)b/;
+- (id),;
+- (void);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)tUnit;
 - (_Bool);
 - (id);
 - (id);
-- (int);
+- (int);
 - (void);
-- (int)ream;
-- (id)ack;
+- (int)screenTimeRequestStream;
+- (id)pg_query__create_cast_stmt__pack;
 - (void)FGHIJKLMNOPQRSTUVWXYa;
 - (void)234567ÿÿ9:(double)arg1 ;<=>?@ABCDEFGÿÿIJKLMNOPQRSTÿÿVWXYZ[\]^_`abcdefgÿÿijklmÿÿopqrstuvwxÿÿz{|}~ÿÿÿÿÿÿÿÿÿÿ ¡¢£¤¥¦§ÿÿÿÿª«¬­®ÿÿÿÿ±²³´µ¶·ÿÿ¹º»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ÿÿÿÿ;
 
 // Remaining properties
-@property(nonatomic) int approvalTime; // @synthesize approvalTime=_approvalTime;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double eventTime; // @synthesize eventTime=_eventTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActionUserDevice; // @synthesize isActionUserDevice=_isActionUserDevice;
-@property(nonatomic) int kind; // @synthesize kind=_kind;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) NSString *requesterDSID; // @synthesize requesterDSID=_requesterDSID;
-@property(copy, nonatomic) NSString *responderDSID; // @synthesize responderDSID=_responderDSID;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *websitePath; // @synthesize websitePath=_websitePath;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSSavedAccount;
+@class WBSSavedAccount;
 
 @interface WBUFormDataGeneratedPasswordAutoSaveInformation
 {
@@ -12,18 +12,15 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
+- (id)TapbackPlatterViewAppearance;
 - (id);
-- (id);
-- (id);
+- (id)?0@"PKTextInputLanguageSelectionToken"8@?<v@?@"UIImage"@"UIMenu">16^B24;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isPasswordsAppSave;
-@property(nonatomic, readonly) NSString *password;
 @property(nonatomic, readonly) WBSSavedAccount *passwordsAppAccount; // @synthesize passwordsAppAccount;
-@property(nonatomic, readonly) NSString *user;
 
 @end
 

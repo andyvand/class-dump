@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface MRVirtualTouchDeviceDescriptor
 {
     _Bool _absolute;
-    _Bool _integratedDisplay;
-    union _MRHIDSize _screenSize;
 }
 
 - (_Bool);
-- (id);
+- (id)colorWithDeviceWhite:(struct _NSZone *)arg1 alpha: /* Error: Ran out of types for this method. */;
 - (union _MRHIDSize);
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAbsolute) _Bool absolute; // @synthesize absolute=_absolute;
-@property(readonly, nonatomic, getter=isIntegratedDisplay) _Bool integratedDisplay; // @synthesize integratedDisplay=_integratedDisplay;
-@property(readonly, nonatomic) union _MRHIDSize screenSize; // @synthesize screenSize=_screenSize;
 
 @end
 

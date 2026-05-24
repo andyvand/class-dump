@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct CGSize);
-- (void);
-- (id);
+- (void)d;
+- (id)beginSeekingBackward;
 
 // Remaining properties
 @property(nonatomic) struct CGSize patternPhase;

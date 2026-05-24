@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (_CACIFilterAdditions)
-+ (void);
++ (void);
 - (id);
 - (id);
 - (id);

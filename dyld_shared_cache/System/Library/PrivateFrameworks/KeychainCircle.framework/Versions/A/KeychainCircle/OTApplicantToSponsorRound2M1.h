@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OTApplicantToSponsorRound2M1
 {
     NSString *_peerID;
-    NSData *_permanentInfo;
-    NSData *_permanentInfoSig;
-    NSData *_stableInfo;
-    NSData *_stableInfoSig;
 }
 
 - (id);
@@ -28,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ror">24;
 - (id);
 - (void);
-- (void);
+- (void)$;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)nvalid contact information, %@, handle, %@;
 - (void);
 - (_Bool);
 - (void);
@@ -44,15 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPeerID;
-@property(readonly, nonatomic) _Bool hasPermanentInfo;
-@property(readonly, nonatomic) _Bool hasPermanentInfoSig;
-@property(readonly, nonatomic) _Bool hasStableInfo;
-@property(readonly, nonatomic) _Bool hasStableInfoSig;
-@property(retain, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
-@property(retain, nonatomic) NSData *permanentInfo; // @synthesize permanentInfo=_permanentInfo;
-@property(retain, nonatomic) NSData *permanentInfoSig; // @synthesize permanentInfoSig=_permanentInfoSig;
-@property(retain, nonatomic) NSData *stableInfo; // @synthesize stableInfo=_stableInfo;
-@property(retain, nonatomic) NSData *stableInfoSig; // @synthesize stableInfoSig=_stableInfoSig;
 
 @end
 

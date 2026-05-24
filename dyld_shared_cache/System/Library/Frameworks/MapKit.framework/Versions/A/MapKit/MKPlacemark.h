@@ -12,32 +12,16 @@
 
 - (id);
 - (id);
+- (id)R5!;
+- (id);
+- (id);
+- (struct CLLocationCoordinate2D)csAssetsDictionary;
 - (id);
 - (id);
-- (id);
-- (struct CLLocationCoordinate2D);
-- (id);
-- (id);
-- (id)WhenEmpty:(struct CLLocationCoordinate2D)arg1;
+- (id)setCollapsesWhenEmpty:(struct CLLocationCoordinate2D)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
 @property(readonly, nonatomic) NSString *countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

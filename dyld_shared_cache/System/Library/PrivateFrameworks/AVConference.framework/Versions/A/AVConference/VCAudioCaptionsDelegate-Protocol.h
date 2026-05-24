@@ -5,5 +5,10 @@
 //
 
 @protocol VCAudioCaptionsDelegate
+- (void)6;
+- (void)J;
+
+@optional
+- (void);
 @end
 

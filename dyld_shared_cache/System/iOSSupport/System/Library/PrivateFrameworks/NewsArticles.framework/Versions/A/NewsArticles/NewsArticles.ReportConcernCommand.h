@@ -7,16 +7,12 @@
 @interface NewsArticles.ReportConcernCommand
 {
     id concernContext;
-    id concern;
-    id selectedSubConcern;
-    id subscriptionController;
-    id recipeBox;
 }
 
 - (id);
 - (id);
 - (void);
-- (void)te;
+- (void)State;
 
 @end
 

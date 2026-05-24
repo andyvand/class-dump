@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-@protocol PKPencilTextInputElementInteractionDelegate, PKScribbleInteractionWrapper;
+@class UIView;
+@protocol PKScribbleInteractionWrapper;
 
 @interface PKPencilTextInputElementInteraction
 {
     id <PKScribbleInteractionWrapper> _cachedWrapper;
-    id <PKPencilTextInputElementInteractionDelegate> _delegate;
-    UIView *_view;
 }
 
 + (id);
@@ -19,20 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)MFAACreateCertificateCache_block_invoke;
 - (void);
 - (void);
 - (void)atesEnabled:,V__visibilityUpdatesEnabled /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPencilTextInputElementInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

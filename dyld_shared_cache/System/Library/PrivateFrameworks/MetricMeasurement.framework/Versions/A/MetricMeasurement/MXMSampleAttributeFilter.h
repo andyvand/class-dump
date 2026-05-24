@@ -6,18 +6,17 @@
 
 #import <MetricMeasurement/MXMSampleAttribute.h>
 
-@class NSArray, NSNumber, NSSet, NSString;
+@class NSArray;
 
 @interface MXMSampleAttributeFilter : MXMSampleAttribute
 {
     NSArray *_matchingStringAttributeValues;
-    NSArray *_matchingNumericAttributeValues;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,26 +26,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)S{;
+- (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool finite;
-@property(readonly, nonatomic, getter=finite) _Bool isFinite;
-@property(readonly, copy, nonatomic) NSNumber *numericValue;
-@property(readonly, copy, nonatomic) NSSet *numericValues;
-@property(readonly, copy, nonatomic) NSString *stringValue;
-@property(readonly, copy, nonatomic) NSSet *stringValues;
-@property(readonly, copy, nonatomic) id value;
-@property(readonly, copy, nonatomic) NSSet *values;
 
 @end
 

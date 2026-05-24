@@ -11,27 +11,26 @@
     NSString *_bogusFieldForTestingPurposes;
 }
 
-+ (_Bool)tMapsCategoryId:(id)arg1;
-- (void);
++ (_Bool)setMapsCategoryId:(id)arg1;
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_shouldDisableOnSpeakerVerificationInSplitterMode;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)gSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
-- (id)nseId;
-- (id)a;
-- (id)_RESPONSE_STATUS_UNKNOWN;
+- (id)hasEtaTrafficUpdateResponseId;
+- (id)GEOPDSearchACHintMetadata;
+- (id)MIF_AUTOCOMPLETE_RESPONSE_STATUS_UNKNOWN;
 - (void)uÿX³P@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bogusFieldForTestingPurposes;
 @property(readonly, nonatomic) _Bool hasBogusFieldForTestingPurposes;
 
 @end

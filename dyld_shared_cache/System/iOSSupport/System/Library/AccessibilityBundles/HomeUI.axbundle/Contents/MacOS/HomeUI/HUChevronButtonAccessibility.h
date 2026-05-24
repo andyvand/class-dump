@@ -14,10 +14,10 @@
 + (id);
 + (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
+- (_Bool)c;
+- (unsigned long long)a;
+- (id)8;
+- (id)__MUPlaceAppLockupViewAccessibility_super;
 
 @end
 

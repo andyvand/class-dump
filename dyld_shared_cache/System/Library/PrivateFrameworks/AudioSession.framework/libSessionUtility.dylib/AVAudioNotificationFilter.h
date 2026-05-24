@@ -9,7 +9,6 @@
 @interface AVAudioNotificationFilter
 {
     _Bool _wantsInterruptions;
-    NSSet *_propertyNotificationsOfInterest;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *propertyNotificationsOfInterest; // @synthesize propertyNotificationsOfInterest=_propertyNotificationsOfInterest;
-@property(readonly, nonatomic) _Bool wantsInterruptions; // @synthesize wantsInterruptions=_wantsInterruptions;
 
 @end
 

@@ -12,21 +12,18 @@ __attribute__((visibility("hidden")))
 @interface AVAVVideoSettingsVideoOutputSettings : AVVideoOutputSettings
 {
     NSDictionary *_adaptedVideoCompressionProperties;
-    NSDictionary *_VTPixelAspectRatioDictionary;
-    NSDictionary *_VTCleanApertureDictionary;
-    _Bool _shouldPrepareEncodedSampleBuffersForPaddedWrites;
 }
 
 + (id);
 + (_Bool);
-+ (id);
-- (id);
++ (id);
+- (id)t;
 - (id);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -37,10 +34,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldPrepareEncodedSampleBuffersForPaddedWrites;
 @property(readonly, nonatomic) unsigned int videoCodecType;
-@property(readonly, nonatomic) NSDictionary *videoCompressionProperties;
-@property(readonly, nonatomic) NSDictionary *videoEncoderSpecification;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator;
+@class NSManagedObjectContext, NSManagedObjectModel;
 
 @interface NFStorageController
 {
     NSManagedObjectContext *_managedObjectContext;
     NSManagedObjectModel *_managedObjectModel;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
 }
 
 - (void);

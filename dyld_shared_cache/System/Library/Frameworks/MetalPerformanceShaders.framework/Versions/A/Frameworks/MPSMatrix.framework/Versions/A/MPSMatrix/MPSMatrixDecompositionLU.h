@@ -6,26 +6,22 @@
 
 #import <MPSMatrix/MPSMatrixUnaryKernel.h>
 
-@class MPSMatrixMultiplication, MPSMatrixSolveTriangular;
+@class MPSMatrixMultiplication;
 
 @interface MPSMatrixDecompositionLU : MPSMatrixUnaryKernel
 {
     unsigned long long _rows;
-    unsigned long long _columns;
-    MPSMatrixMultiplication *_gemmKernel;
-    MPSMatrixSolveTriangular *_trsmKernel;
-    CDUnknownBlockType _copyBlock;
 }
 
 + (const struct MPSLibraryInfo *);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)-;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -34,11 +30,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long columns; // @synthesize columns=_columns;
-@property(nonatomic) CDUnknownBlockType copyBlock; // @synthesize copyBlock=_copyBlock;
 @property(nonatomic) MPSMatrixMultiplication *gemmKernel; // @synthesize gemmKernel=_gemmKernel;
-@property(nonatomic) unsigned long long rows; // @synthesize rows=_rows;
-@property(nonatomic) MPSMatrixSolveTriangular *trsmKernel; // @synthesize trsmKernel=_trsmKernel;
 
 @end
 

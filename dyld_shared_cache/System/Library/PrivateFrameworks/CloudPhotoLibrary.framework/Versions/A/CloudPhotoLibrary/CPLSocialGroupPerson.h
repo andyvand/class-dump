@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a5;
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPersonIdentifier;
-@property(retain, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
 
 @end
 

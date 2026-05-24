@@ -12,27 +12,20 @@ __attribute__((visibility("hidden")))
     NSString *_name;
 }
 
-+ (id);
++ (id)momentOfROI;
 - (id);
-- (id);
-- (id);
+- (id)n;
+- (id)P;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)ssagedHomepodSettingsEnabledForClientController:(struct _NSZone *)arg1;
+- (id)isMessagedHomepodSettingsEnabledForClientController:(struct _NSZone *)arg1;
 - (void)ature automations, home is not qualified;
 - (void)ring replay;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

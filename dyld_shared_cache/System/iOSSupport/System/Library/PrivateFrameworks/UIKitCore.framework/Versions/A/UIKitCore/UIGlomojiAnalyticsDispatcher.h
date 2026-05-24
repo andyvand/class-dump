@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIGlomojiAnalyticsDispatcher
 {
     _Bool _KBMenuAppeared;
-    unsigned long long _glomojiType;
-    unsigned long long _KBMenuInteractionSource;
-    unsigned long long _KBMenuDismissSource;
-    NSString *_originalInputMode;
-    NSString *_updatedInputMode;
-    unsigned long long _KBMenuSelectedAction;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)adata only sync before we continue with the full sync;
+- (void)e set correctly?;
+- (void)passed in;
+- (void)up push handler;
+- (void)%@ md5HashStoredOnRecord:(unsigned long long)arg1 %@;
+- (void)to validate md5HashOfCKAsset:(_Bool)arg1 %@ md5HashStoredOnRecord:%@ /* Error: Ran out of types for this method. */;
+- (id)by fetching chat zone.;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -43,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (void) h;
 
 // Remaining properties
-@property(nonatomic) _Bool KBMenuAppeared; // @synthesize KBMenuAppeared=_KBMenuAppeared;
-@property(nonatomic) unsigned long long KBMenuDismissSource; // @synthesize KBMenuDismissSource=_KBMenuDismissSource;
-@property(nonatomic) unsigned long long KBMenuInteractionSource; // @synthesize KBMenuInteractionSource=_KBMenuInteractionSource;
-@property(nonatomic) unsigned long long KBMenuSelectedAction; // @synthesize KBMenuSelectedAction=_KBMenuSelectedAction;
 @property(nonatomic) unsigned long long glomojiType; // @synthesize glomojiType=_glomojiType;
-@property(copy, nonatomic) NSString *originalInputMode; // @synthesize originalInputMode=_originalInputMode;
-@property(copy, nonatomic) NSString *updatedInputMode; // @synthesize updatedInputMode=_updatedInputMode;
 
 @end
 

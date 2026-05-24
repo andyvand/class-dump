@@ -6,27 +6,12 @@
 
 #import <UIKitCore/UIKeyboardEmojiStickerBaseCollectionViewCell.h>
 
-@class NSString, STKImageGlyph, UIButton, UIEditMenuInteraction, UIKeyboardStickerRestrictedContentView, UILongPressGestureRecognizer, UITapGestureRecognizer, UIView;
-@protocol UIKeyboardEmojiAndStickerCollectionViewCellDelegate, UIKeyboardEmojiAndStickerCollectionViewDelegate;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardStickerCollectionViewCell : UIKeyboardEmojiStickerBaseCollectionViewCell
 {
     _Bool _rearrangeMode;
-    _Bool _isRestrictedContent;
-    _Bool _allowsDistribution;
-    STKImageGlyph *_imageGlyph;
-    NSString *_usageSource;
-    id <UIKeyboardEmojiAndStickerCollectionViewCellDelegate> _delegate;
-    id <UIKeyboardEmojiAndStickerCollectionViewDelegate> _cellDelegate;
-    UIView *_stickerView;
-    UIView *_rearrangingView;
-    UIKeyboardStickerRestrictedContentView *_restrictedContentView;
-    UIButton *_deleteButton;
-    UITapGestureRecognizer *_rearrangeViewTapGR;
-    UILongPressGestureRecognizer *_longPressGR;
-    UIEditMenuInteraction *_editMenuInteraction;
-    UIView *_navigationHighlightView;
 }
 
 - (void);
@@ -40,20 +25,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)l last read receipt for chat %s to message %s readDate %s rcptVer %ld hadQOI %{bool}d;
+- (id)tivity.;
+- (void)ailed with error:%@ /* Error: Ran out of types for this method. */;
+- (id)SMSReceivedRelaySendRequest;
+- (void)ssage  push:(_Bool)arg1 %@;
+- (_Bool)dling incoming download message  push:%@ /* Error: Ran out of types for this method. */;
+- (void)to guid has not been set;
+- (id)information or we have no pin to compare against, this will fail validation;
+- (id)n failed, NIL or empty message GUID.;
+- (_Bool)Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
+- (_Bool)essage had error:%d /* Error: Ran out of types for this method. */;
+- (void)k to IDSHandle:(id)arg1 %@;
+- (void)te Verification Codes is enabled;
+- (_Bool)%@; isFromMe = %@; OUTPUT chat = %@;;
 - (void);
 - (void);
 - (void);
@@ -78,7 +63,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id)1Â0@ù
 × ;
 - (void)áð!¨Dùñ`ð1Â0@ù
@@ -96,28 +81,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿz5ÌðÁg;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDistribution; // @synthesize allowsDistribution=_allowsDistribution;
-@property(nonatomic) __weak id <UIKeyboardEmojiAndStickerCollectionViewDelegate> cellDelegate; // @synthesize cellDelegate=_cellDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIKeyboardEmojiAndStickerCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIButton *deleteButton; // @synthesize deleteButton=_deleteButton;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIEditMenuInteraction *editMenuInteraction; // @synthesize editMenuInteraction=_editMenuInteraction;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) STKImageGlyph *imageGlyph; // @synthesize imageGlyph=_imageGlyph;
-@property(nonatomic) _Bool isRestrictedContent; // @synthesize isRestrictedContent=_isRestrictedContent;
-@property(retain, nonatomic) UILongPressGestureRecognizer *longPressGR; // @synthesize longPressGR=_longPressGR;
-@property(retain, nonatomic) UIView *navigationHighlightView; // @synthesize navigationHighlightView=_navigationHighlightView;
-@property(nonatomic) _Bool rearrangeMode; // @synthesize rearrangeMode=_rearrangeMode;
-@property(retain, nonatomic) UITapGestureRecognizer *rearrangeViewTapGR; // @synthesize rearrangeViewTapGR=_rearrangeViewTapGR;
-@property(retain, nonatomic) UIView *rearrangingView; // @synthesize rearrangingView=_rearrangingView;
-@property(retain, nonatomic) UIKeyboardStickerRestrictedContentView *restrictedContentView; // @synthesize restrictedContentView=_restrictedContentView;
 @property(retain, nonatomic) UIView *stickerView; // @synthesize stickerView=_stickerView;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *usageSource; // @synthesize usageSource=_usageSource;
 
 @end
 

@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface DODMLASRSchemaDODMLASREvaluationMetrics : SISchemaInstrumentationMessage
 {
     float _bestWeight;
-    unsigned long long _totalDurationInMs;
-    NSArray *_trains;
-    NSArray *_devs;
-    NSArray *_tests;
-    NSArray *_externals;
-    struct {
-        unsigned int bestWeight:1;
-        unsigned int totalDurationInMs:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -43,7 +32,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +48,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)EAProtocolAccessoryPortPropertyChanged;
 - (id);
 - (void);
 - (unsigned long long);
@@ -67,21 +56,13 @@
 - (_Bool);
 - (id);
 - (id)Db"b1};
-- (id)tactAffinityScoreForPhoneCallUsingSiri;
-- (id)tionInvocationFixedDimensions;
+- (id)_appContactAffinityScoreForPhoneCallUsingSiri;
+- (id)ODDSiriSchemaODDAttentionInvocationFixedDimensions;
 - (id)ô|;
 - (void);
 
 // Remaining properties
 @property(nonatomic) float bestWeight; // @synthesize bestWeight=_bestWeight;
-@property(copy, nonatomic) NSArray *devs; // @synthesize devs=_devs;
-@property(copy, nonatomic) NSArray *externals; // @synthesize externals=_externals;
-@property(nonatomic) _Bool hasBestWeight;
-@property(nonatomic) _Bool hasTotalDurationInMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *tests; // @synthesize tests=_tests;
-@property(nonatomic) unsigned long long totalDurationInMs; // @synthesize totalDurationInMs=_totalDurationInMs;
-@property(copy, nonatomic) NSArray *trains; // @synthesize trains=_trains;
 
 @end
 

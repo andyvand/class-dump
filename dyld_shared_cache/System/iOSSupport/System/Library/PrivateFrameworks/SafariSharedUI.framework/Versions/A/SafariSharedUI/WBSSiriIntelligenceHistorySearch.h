@@ -13,7 +13,7 @@
 
 - (void);
 - (void);
-- (void)ncedInDatabaseWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)removeIconFilesNotReferencedInDatabaseWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICNumberLiteral
 {
     struct _NSRange range;
-    void string;
 }
 
 - (id);
-- (id);
+- (id)y;
 - (id);
 - (struct _NSRange);
 - (_Bool);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) struct _NSRange range; // @synthesize range;
-@property(nonatomic, copy) NSString *string;
 
 @end
 

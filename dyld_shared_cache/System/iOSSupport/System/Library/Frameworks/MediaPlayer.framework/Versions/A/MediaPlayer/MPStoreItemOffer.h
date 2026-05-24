@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSArray, NSDictionary;
 
 @interface MPStoreItemOffer
 {
@@ -12,27 +12,22 @@
 }
 
 + (_Bool);
+- (id)message with error:(id)arg1;
 - (id);
 - (id);
 - (id);
+- (unsigned long long)16;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)SuccessCodingKeys;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)RemoteView;
+- (void)_addRemoteView;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets;
-@property(readonly, copy, nonatomic) NSString *buyParameters;
-@property(readonly, copy, nonatomic) NSString *formattedPrice;
-@property(readonly, copy, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;
-@property(readonly, copy, nonatomic) NSString *offerType;
-@property(readonly, copy, nonatomic) NSNumber *price;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationPasswordAuthenticationDelegate
+- (void)=;
 @end
 

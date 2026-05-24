@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRRescoringDeliberationResult : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_rescoringLinkId;
-    float _rescoringResultDuration;
-    float _rescoringFinalizeDuration;
-    NSArray *_rescoringEvents;
-    struct {
-        unsigned int rescoringResultDuration:1;
-        unsigned int rescoringFinalizeDuration:1;
-    } _has;
-    _Bool _hasRescoringLinkId;
 }
 
 - (void);
@@ -50,20 +42,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)nativeTextPairsSelected;
+- (id)ueiDictationAlternativeTextPairsSelected;
 - (id)(ÞpÞPßàßáLá,âtâ|äTåxæçxè(êLëëtì¼ì,î¼îï,ðñtòó(ôõ¸öÜ÷løÜùüúÿ`ÿ@;
 - (id)Q;
 - (void)ðµªÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRescoringFinalizeDuration;
-@property(nonatomic) _Bool hasRescoringLinkId; // @synthesize hasRescoringLinkId=_hasRescoringLinkId;
-@property(nonatomic) _Bool hasRescoringResultDuration;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *rescoringEvents; // @synthesize rescoringEvents=_rescoringEvents;
-@property(nonatomic) float rescoringFinalizeDuration; // @synthesize rescoringFinalizeDuration=_rescoringFinalizeDuration;
 @property(retain, nonatomic) SISchemaUUID *rescoringLinkId; // @synthesize rescoringLinkId=_rescoringLinkId;
-@property(nonatomic) float rescoringResultDuration; // @synthesize rescoringResultDuration=_rescoringResultDuration;
 
 @end
 

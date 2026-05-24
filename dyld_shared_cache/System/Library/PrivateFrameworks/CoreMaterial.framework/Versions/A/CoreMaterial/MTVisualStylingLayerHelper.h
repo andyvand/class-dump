@@ -10,7 +10,6 @@
 @interface MTVisualStylingLayerHelper
 {
     MTCoreMaterialVisualStylingProvider *_visualStylingProvider;
-    CALayer<MTVisualStylingCapable> *_layer;
 }
 
 + (id);
@@ -21,13 +20,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)ive Last Time;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak CALayer<MTVisualStylingCapable> *layer; // @synthesize layer=_layer;
-@property(readonly, nonatomic) MTCoreMaterialVisualStylingProvider *visualStylingProvider; // @synthesize visualStylingProvider=_visualStylingProvider;
 
 @end
 

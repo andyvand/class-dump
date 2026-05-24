@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIHostingPlatformViewAppearEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)vQ;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)hase:error:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ECT count(*) FROM chat cdupe WHERE cdupe.group_id = c.group_id AND cdupe.service_name = c.service_name) > 1   LIMIT ?;
 - (id);
 - (id);
 - (id)deleteExpensiveNetworkAccessRequest;
-- (id)text;
-- (_Bool)AYBACKSTATE_PAUSED;
-- (_Bool)__CONTINUEINAPP;
+- (id)_hasBatchRequestContext;
+- (_Bool)READPLAYBACKSTATE_PAUSED;
+- (_Bool)DIALOGENGINENAMEDENTITYCATID__COMMONRESPONSES__CONTINUEINAPP;
 - (void)¶|!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

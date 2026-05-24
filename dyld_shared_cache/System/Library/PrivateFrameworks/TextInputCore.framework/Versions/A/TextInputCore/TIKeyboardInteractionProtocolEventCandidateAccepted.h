@@ -6,53 +6,32 @@
 
 #import <TextInputCore/TIKeyboardInteractionProtocolBase.h>
 
-@class NSString, TIDocumentState, TIKeyboardCandidate, TIKeyboardInput;
+@class TIKeyboardCandidate;
 
 @interface TIKeyboardInteractionProtocolEventCandidateAccepted : TIKeyboardInteractionProtocolBase
 {
     _Bool _predictionBarHit;
-    _Bool _useCandidateSelection;
-    TIKeyboardCandidate *_candWord;
-    TIKeyboardInput *_input;
-    TIDocumentState *_documentState;
-    NSString *_context;
-    NSString *_inputStem;
-    long long _candidateIndex;
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (_Bool)sendConversationUpdate: /* Error: Ran out of types for this method. */;
+- (_Bool)T;
+- (id)%d;
+- (id).accessibility.RTTTranscripts;
 - (id);
 - (void);
+- (long long)error;
+- (id)Change);
+- (id);
+- (id))v;
+- (id);
+- (void)SystemSettings;
 - (void)1Â0@ù
 × ;
 - (id)}8r^{TITokenID=II}16;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardCandidate *candWord; // @synthesize candWord=_candWord;
-@property(readonly, nonatomic) long long candidateIndex; // @synthesize candidateIndex=_candidateIndex;
-@property(readonly, nonatomic) NSString *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TIDocumentState *documentState; // @synthesize documentState=_documentState;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TIKeyboardInput *input; // @synthesize input=_input;
-@property(readonly, nonatomic) NSString *inputStem; // @synthesize inputStem=_inputStem;
-@property(readonly, nonatomic) _Bool predictionBarHit; // @synthesize predictionBarHit=_predictionBarHit;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useCandidateSelection; // @synthesize useCandidateSelection=_useCandidateSelection;
 
 @end
 

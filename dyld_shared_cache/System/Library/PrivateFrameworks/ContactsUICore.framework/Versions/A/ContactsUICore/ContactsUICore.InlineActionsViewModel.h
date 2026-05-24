@@ -7,19 +7,11 @@
 @interface ContactsUICore.InlineActionsViewModel
 {
     id _actionsProvider;
-    id contact;
-    id _actionItems;
-    id _defaultActions;
-    id _actionTypes;
-    id _groupActions;
-    id _contactIdentifier;
-    id _isBlocked;
-    id _$observationRegistrar;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void)oryFetchRequest";
 
 @end

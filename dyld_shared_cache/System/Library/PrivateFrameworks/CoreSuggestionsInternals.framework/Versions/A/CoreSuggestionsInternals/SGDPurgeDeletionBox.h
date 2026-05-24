@@ -9,8 +9,6 @@
 @interface SGDPurgeDeletionBox
 {
     NSMutableDictionary *_deleteUniqueIds;
-    NSMutableDictionary *_purgeUniqueIds;
-    NSMutableDictionary *_deleteDomainIds;
 }
 
 - (id);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *deleteDomainIds; // @synthesize deleteDomainIds=_deleteDomainIds;
 @property(retain, nonatomic) NSMutableDictionary *deleteUniqueIds; // @synthesize deleteUniqueIds=_deleteUniqueIds;
-@property(retain, nonatomic) NSMutableDictionary *purgeUniqueIds; // @synthesize purgeUniqueIds=_purgeUniqueIds;
 
 @end
 

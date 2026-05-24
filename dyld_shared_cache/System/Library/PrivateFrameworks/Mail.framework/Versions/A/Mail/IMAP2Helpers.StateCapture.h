@@ -7,8 +7,6 @@
 @interface IMAP2Helpers.StateCapture
 {
     id handle;
-    id targetQueue;
-    id didTearDown;
 }
 
 @end

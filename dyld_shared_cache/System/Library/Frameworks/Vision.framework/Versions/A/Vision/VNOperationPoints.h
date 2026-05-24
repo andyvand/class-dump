@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)fp_createEmptyTempFileWithName:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

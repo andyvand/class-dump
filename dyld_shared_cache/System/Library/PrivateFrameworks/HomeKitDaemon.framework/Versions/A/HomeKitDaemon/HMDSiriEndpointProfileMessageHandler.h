@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 @protocol HMDSiriEndpointProfileMessageHandlerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfileMessageHandler
 {
     id <HMDSiriEndpointProfileMessageHandlerDataSource> _dataSource;
-    NSUUID *_homeUUID;
 }
 
 + (id)hB;
+- (id)_initPendingStateIfNeededWithTransportType:(id)arg1 isResumingMultipointRoute: /* Error: Ran out of types for this method. */;
+- (void)endCommand:(id)arg1 %@ to destination:%@ (from account:%@, handle:%@) /* Error: Ran out of types for this method. */;
+- (void)ID %@;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);
@@ -29,15 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)@ (0x%tx), value:%@, notification:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak id <HMDSiriEndpointProfileMessageHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) Class superclass;
 
 @end
 

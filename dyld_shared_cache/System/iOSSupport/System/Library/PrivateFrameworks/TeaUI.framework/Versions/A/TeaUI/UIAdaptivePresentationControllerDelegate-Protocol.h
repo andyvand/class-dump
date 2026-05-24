@@ -7,6 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void);
+- (void)g>",R,N,V_underlyingStream;
 - (_Bool)disallowInCompactLayouts;
 - (long long)å5TÂíÿ;
 - (void);

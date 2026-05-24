@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, ML3DatabaseStatement, NSDictionary, NSString;
+@class ML3DatabaseStatement, NSString;
 
 @interface ML3DatabaseResult
 {
     ML3DatabaseStatement *_statement;
-    ML3DatabaseConnection *_connection;
-    NSDictionary *_columnNameIndexMap;
-    unsigned long long _limitIndex;
-    NSString *_limitProperty;
-    long long _limitValue;
 }
 
 - (id);
@@ -21,23 +16,22 @@
 - (long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)ud-connect-status;
 - (id);
-- (void);
+- (void)HMXPCMessageSentDateKey;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)r_pid, position FROM container_item LEFT OUTER JOIN item USING (item_pid) JOIN container USING (container_pid) WHERE distinguished_kind IN (0, 19, 20) AND smart_criteria IS NULL AND is_hidden = 0 AND cloud_is_subscribed = 0 AND cloud_is_curator_playlist = 0 AND (item.item_pid IS NULL OR container_item.item_pid;
 - (id)ocation_id = 50 WHERE (remote_location_id = 250 OR remote_location_id  = 201) AND (SELECT 1 FROM item_store WHERE item.item_pid = item_store.item_pid AND subscription_store_item_id != 0);
 - (id)ð;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *limitProperty; // @synthesize limitProperty=_limitProperty;
-@property(nonatomic) long long limitValue; // @synthesize limitValue=_limitValue;
 
 @end
 

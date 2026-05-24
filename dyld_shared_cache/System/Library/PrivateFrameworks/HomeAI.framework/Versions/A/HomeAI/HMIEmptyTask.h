@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
-- (void);
+- (void);
 - (id);
 - (double);
 

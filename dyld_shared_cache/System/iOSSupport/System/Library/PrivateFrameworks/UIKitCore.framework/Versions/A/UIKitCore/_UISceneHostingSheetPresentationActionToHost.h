@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id)v~;
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)2;
 
 @end
 

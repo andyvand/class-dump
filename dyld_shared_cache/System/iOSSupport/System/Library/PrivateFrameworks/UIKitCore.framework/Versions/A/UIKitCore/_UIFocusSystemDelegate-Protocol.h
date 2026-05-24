@@ -9,14 +9,17 @@
 @protocol _UIFocusSystemDelegate
 
 @optional
+- (_Bool)clearLocationProperties;
+- (_Bool)N,V_type;
+- (struct CGRect)MPVolumeView;
+- (_Bool);
 - (void)°1Â0@ù
 × ;
 - (void)@"CUIMutableCatalog";
 - (void){CGRect={CGPoint=dd}{CGSize=dd}}24B56B60;
-- (void)tsInputViewItemSelectedCount;
-- (id <UIFocusItemContainer>)rrentPreviewViewController;
+- (void)recentsInputViewItemSelectedCount;
+- (id <UIFocusItemContainer>)_currentPreviewViewController;
 - (void)ata",&,N,V_plainItemAppearance;
-- (id <UIFocusEnvironment>)reviatedDateFormatWithoutCommas;
-- (id <UIFocusEnvironment>);
+- (id <UIFocusEnvironment>)UIAbbreviatedDateFormatWithoutCommas;
 @end
 

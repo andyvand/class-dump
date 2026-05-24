@@ -8,24 +8,13 @@ __attribute__((visibility("hidden")))
 @interface ImageAnalyzerImageColor
 {
     _Bool _isBackgroundLight;
-    _Bool _isPrimaryColorLight;
-    _Bool _isSecondaryColorLight;
-    struct CGColor *_backgroundColor;
-    struct CGColor *_primaryTextColor;
-    struct CGColor *_secondaryTextColor;
-    struct CGColor *_tertiaryTextColor;
-    struct CGColor *_quaternaryTextColor;
-    struct CGColor *_primaryDropShadowColor;
-    struct CGColor *_secondaryDropShadowColor;
-    struct CGColor *_tertiaryDropShadowColor;
-    struct CGColor *_quarnaryDropShadowColor;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (struct CGContext *);
++ (struct CGContext *);
 + (id);
 + (struct CGColor *);
 - (struct CGColor *);
@@ -33,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (struct CGColor *);
 - (struct CGColor *);
 - (struct CGColor *);
+- (_Bool)6)@9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGColor *);
@@ -50,17 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) _Bool isBackgroundLight; // @synthesize isBackgroundLight=_isBackgroundLight;
-@property(readonly, nonatomic) _Bool isPrimaryColorLight; // @synthesize isPrimaryColorLight=_isPrimaryColorLight;
-@property(readonly, nonatomic) _Bool isSecondaryColorLight; // @synthesize isSecondaryColorLight=_isSecondaryColorLight;
-@property(readonly, nonatomic) struct CGColor *primaryDropShadowColor; // @synthesize primaryDropShadowColor=_primaryDropShadowColor;
-@property(readonly, nonatomic) struct CGColor *primaryTextColor; // @synthesize primaryTextColor=_primaryTextColor;
-@property(readonly, nonatomic) struct CGColor *quarnaryDropShadowColor; // @synthesize quarnaryDropShadowColor=_quarnaryDropShadowColor;
-@property(readonly, nonatomic) struct CGColor *quaternaryTextColor; // @synthesize quaternaryTextColor=_quaternaryTextColor;
-@property(readonly, nonatomic) struct CGColor *secondaryDropShadowColor; // @synthesize secondaryDropShadowColor=_secondaryDropShadowColor;
-@property(readonly, nonatomic) struct CGColor *secondaryTextColor; // @synthesize secondaryTextColor=_secondaryTextColor;
-@property(readonly, nonatomic) struct CGColor *tertiaryDropShadowColor; // @synthesize tertiaryDropShadowColor=_tertiaryDropShadowColor;
-@property(readonly, nonatomic) struct CGColor *tertiaryTextColor; // @synthesize tertiaryTextColor=_tertiaryTextColor;
 
 @end
 

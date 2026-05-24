@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PGSchemaPGGeneratePlanEnded, PGSchemaPGGeneratePlanFailed, PGSchemaPGGeneratePlanStarted;
+@class PGSchemaPGGeneratePlanStarted;
 
 @interface PGSchemaPGGeneratePlanContext : SISchemaInstrumentationMessage
 {
     PGSchemaPGGeneratePlanStarted *_startedOrChanged;
-    PGSchemaPGGeneratePlanEnded *_ended;
-    PGSchemaPGGeneratePlanFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -25,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -33,29 +27,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ǿ;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)eren't. Failing chat creation.;
 - (id);
 - (id);
-- (id);
+- (id)_hasPersonalizationExperimentContext;
 - (id)nRequired;
 - (void).siri.caar.CAARClientEvent;
 
 // Remaining properties
-@property(retain, nonatomic) PGSchemaPGGeneratePlanEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PGSchemaPGGeneratePlanFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PGSchemaPGGeneratePlanStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

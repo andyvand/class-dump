@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDEvent.h>
 
-@class HMDBackgroundTaskManager, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDTimeEvent : HMDEvent
 {
     _Bool _repetitive;
-    NSString *_timerID;
 }
 
 + (_Bool);
@@ -22,36 +20,22 @@ __attribute__((visibility("hidden")))
 + (id)Nÿ¼ÍGB;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)receivedTrips;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)range index %u;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)anaged object context appears to be reset on this object %@, someone did something very bad:%@/%@ /* Error: Ran out of types for this method. */;
 - (void)oneZoneCreated;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDBackgroundTaskManager *backgroundTaskManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) _Bool repetitive; // @synthesize repetitive=_repetitive;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *timerID; // @synthesize timerID=_timerID;
 
 @end

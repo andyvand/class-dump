@@ -6,26 +6,24 @@
 
 #import <ContentKit/WFContentLocation.h>
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface WFURLContentLocation : WFContentLocation
 {
     _Bool _allowsAnyHostname;
-    NSString *_localizedTitle;
-    NSSet *_hostnames;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
++ (id)E;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)jh8	;
 + (id);
 + (id);
 + (id);
@@ -35,15 +33,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsAnyHostname; // @synthesize allowsAnyHostname=_allowsAnyHostname;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *hostnames; // @synthesize hostnames=_hostnames;
-@property(readonly) Class superclass;
 
 @end
 

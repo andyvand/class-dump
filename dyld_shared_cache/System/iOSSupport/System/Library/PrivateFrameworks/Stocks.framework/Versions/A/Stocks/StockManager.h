@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSUbiquitousKeyValueStore;
+@class NSMutableArray;
 
 @interface StockManager
 {
     NSMutableArray *_defaultListStockSymbols;
-    _Bool _shouldPostSyncNotifications;
-    NSMutableArray *_stocksList;
-    NSMutableArray *_chartDataLRUCache;
-    double _lastModifiedTime;
-    _Bool _needRemoteAddNotification;
-    _Bool _needRemoteDeleteNotification;
-    _Bool _needRemoteMoveNotification;
-    NSUbiquitousKeyValueStore *_syncedKVStore;
 }
 
 + (void);
 + (id);
 - (id);
+- (id)|;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)m|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (void)Ӷm;
+- (void)öm;
+- (void)m;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +41,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)r;
 
 @end
 

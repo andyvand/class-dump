@@ -9,9 +9,9 @@
 }
 
 + (id);
++ (id)tsByPart;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)ring"8@"NSString"16;
 + (void);
 + (_Bool);
 + (id);
@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 
 @end

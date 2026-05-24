@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDDEDExtensionScheduled
 {
     unsigned long long _delay;
-    unsigned long long _timestamp;
-    NSString *_extension;
-    struct {
-        unsigned int delay:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)sealWithMessage:authenticatedData:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:receiverRegistration:encryptedAttributes:resetState:signedBy:error: /* Error: Ran out of types for this method. */;
+- (void)esponse",&,N;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ssMsmtAnalysisToolData.ClockOffsets;
+- (void)Xx;
+- (void)B;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)allRegistrationsWithError: /* Error: Ran out of types for this method. */;
 - (void)collectionDidCompleteWithSessionIdentifier:(unsigned long long)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned long long delay; // @synthesize delay=_delay;
-@property(retain, nonatomic) NSString *extension; // @synthesize extension=_extension;
-@property(nonatomic) _Bool hasDelay;
-@property(readonly, nonatomic) _Bool hasExtension;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -11,31 +11,25 @@
 @interface SSSearchInAppResultBuilder : SSResultBuilder
 {
     int _searchInAppType;
-    NSString *_appName;
-    NSString *_appBundleId;
-    NSString *_searchString;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)iver"16@24@32;
+- (id)sourceBundleIdentifier;
+- (id)snapshotForMetadata:configurations:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (int);
-- (id);
-- (void);
+- (int)request:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void)t:searchType:indexType:queryId:originatingApp: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)initWithEntityQueryCommand:triggerEvent:searchType:indexType:queryId:originatingApp: /* Error: Ran out of types for this method. */;
 - (void)and;
-- (id)ordered_prefix_field_coverage;
+- (id)parsec_url_ordered_prefix_field_coverage;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
 @property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(nonatomic) int searchInAppType; // @synthesize searchInAppType=_searchInAppType;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

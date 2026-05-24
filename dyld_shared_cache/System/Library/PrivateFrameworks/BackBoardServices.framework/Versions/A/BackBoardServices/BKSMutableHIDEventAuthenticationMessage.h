@@ -6,8 +6,6 @@
 
 #import <BackBoardServices/BKSHIDEventAuthenticationMessage.h>
 
-@class BKSHIDEventHitTestLayerInformation;
-
 @interface BKSMutableHIDEventAuthenticationMessage : BKSHIDEventAuthenticationMessage
 {
 }
@@ -24,19 +22,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void).;
 
 // Remaining properties
-@property(nonatomic) unsigned long long context; // @dynamic context;
-@property(nonatomic) unsigned int eventType; // @dynamic eventType;
-@property(retain, nonatomic) BKSHIDEventHitTestLayerInformation *hitTestInformationFromEndEvent; // @dynamic hitTestInformationFromEndEvent;
-@property(retain, nonatomic) BKSHIDEventHitTestLayerInformation *hitTestInformationFromStartEvent; // @dynamic hitTestInformationFromStartEvent;
-@property(nonatomic) unsigned long long originIdentifier; // @dynamic originIdentifier;
-@property(nonatomic) _Bool registrantEntitled; // @dynamic registrantEntitled;
-@property(nonatomic) long long secureNameStatus; // @dynamic secureNameStatus;
-@property(nonatomic) unsigned int targetContextID; // @dynamic targetContextID;
-@property(nonatomic) unsigned int targetSlotID; // @dynamic targetSlotID;
-@property(nonatomic) unsigned int touchIdentifier; // @dynamic touchIdentifier;
 @property(nonatomic) long long versionedPID; // @dynamic versionedPID;
 
 @end

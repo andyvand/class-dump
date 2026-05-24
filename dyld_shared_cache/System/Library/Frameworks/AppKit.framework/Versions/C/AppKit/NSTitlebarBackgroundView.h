@@ -6,44 +6,35 @@
 
 #import <AppKit/NSView.h>
 
-@class NSGlassEffectView, NSScrollPocket, NSString, NSTitlebarSeparatorView, NSVisualEffectView;
+@class NSScrollPocket;
 
 __attribute__((visibility("hidden")))
 @interface NSTitlebarBackgroundView : NSView
 {
     NSScrollPocket *_scrollPocket;
-    NSGlassEffectView *_sidebarGlass;
-    NSGlassEffectView *_inspectorGlass;
-    NSTitlebarSeparatorView *_separator;
-    NSVisualEffectView *_effectView;
-    long long _material;
-    long long _materialState;
-    long long _materialBlendingMode;
-    NSString *_groupName;
-    long long _style;
 }
 
 - (void);
+- (void)_sessionWithConfiguration:delegate:delegateQueue:delegateDispatchQueue: /* Error: Ran out of types for this method. */;
+- (void)_sessionWithConfiguration:delegate:delegateDispatchQueue: /* Error: Ran out of types for this method. */;
+- (void)_run: /* Error: Ran out of types for this method. */;
+- (void)_remoteAddressAndPort;
+- (void)_progressReportingFinished;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Localizable;
+- (void)+[NSNetService dataFromTXTRecordDictionary:] /* Error: Ran out of types for this method. */;
+- (void)ng On;
+- (void)o:%d parentInfo:%@ } /* Error: Ran out of types for this method. */;
+- (struct CGRect)_protocolInterface_startLoad_block_invoke;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (id)redOneTimeCodeAvailabilityObserver:(struct CGRect)arg1;
-- (void)youtEnabled;
+- (id)setDeliveredOneTimeCodeAvailabilityObserver:(struct CGRect)arg1;
+- (void)NSGlassMenuLayoutEnabled;
 - (void);
 - (void);
 

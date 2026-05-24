@@ -5,5 +5,6 @@
 //
 
 @protocol PLPhotoAnalysisJobServiceProtocol
+- (id);
 @end
 

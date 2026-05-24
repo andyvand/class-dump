@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSmartSiriVolumeClient, NSObject, NSString;
+@class NSObject;
 @protocol CSSmartSiriVolumeControllerDelegate, OS_dispatch_queue;
 
 @interface CSSmartSiriVolumeController
 {
     id <CSSmartSiriVolumeControllerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSSmartSiriVolumeClient *_ssvClient;
 }
 
 - (id);
@@ -22,24 +20,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)numberWithInt:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)hConnection: /* Error: Ran out of types for this method. */;
+- (void)initWithConnection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSSmartSiriVolumeControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSSmartSiriVolumeClient *ssvClient; // @synthesize ssvClient=_ssvClient;
-@property(readonly) Class superclass;
 
 @end
 

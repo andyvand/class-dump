@@ -5,12 +5,11 @@
 //
 
 @protocol _UIMutableTextLayoutFragmentView
+- (void);
 - (struct CGSize)@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) struct CGRect clipRect;
 @property(nonatomic) struct CGPoint containerOrigin;
-@property(nonatomic) struct CGSize containerSize;
 @end
 

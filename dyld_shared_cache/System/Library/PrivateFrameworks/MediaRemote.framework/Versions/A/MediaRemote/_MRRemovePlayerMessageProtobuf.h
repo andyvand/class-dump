@@ -11,7 +11,7 @@
     _MRNowPlayingPlayerPathProtobuf *_playerPath;
 }
 
-- (id);
+- (id)Z;
 - (void);
 - (void);
 - (unsigned long long);
@@ -21,13 +21,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ns can only be started once;
 - (void);
-- (void)artupDelayToAllowAllPreviousClientsTimeToInitializeInterval;
+- (void)activeSystemEndpointStartupDelayToAllowAllPreviousClientsTimeToInitializeInterval;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

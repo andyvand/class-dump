@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSObject, SCNRecursiveLock;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CADisplayLink;
 
 __attribute__((visibility("hidden")))
 @interface SCNDisplayLink
 {
     CADisplayLink *_caDisplayLink;
-    _Atomic double _lastDisplayLinkTime;
-    NSObject<OS_dispatch_source> *_coalescingSource;
-    CDUnknownBlockType _block;
-    CDUnknownBlockType _adaptativeFrameDuration;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _paused;
-    _Bool _invalidated;
-    double _lastFrameTime;
-    float _preferredFrameRate;
-    SCNRecursiveLock *_runningLock;
-    _Atomic int _queuedFrameCount;
 }
 
-- (void);
+- (void)dateByAddingTimeInterval: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -35,16 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)P;
+- (void)proper Base64URL encoded string;
 - (void);
 - (void)Ööº ;
 - (_Bool)·);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType adaptativeFrameRate;
 @property(nonatomic, getter=isPaused) _Bool paused;
-@property(nonatomic) float preferredFrameRate;
 
 @end
 

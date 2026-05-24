@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ScreenSaverEngine
 {
     _Bool _running;
-    _Bool _runFromPref;
 }
 
 + (id);
@@ -23,24 +20,15 @@
 - (void);
 - (void);
 - (int);
+- (void)did not need to show quick save confirmation alert. Calling save handler now instead.;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) int retCode;
-@property _Bool runFromPref; // @synthesize runFromPref=_runFromPref;
-@property(readonly, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(readonly) Class superclass;
 
 @end
 

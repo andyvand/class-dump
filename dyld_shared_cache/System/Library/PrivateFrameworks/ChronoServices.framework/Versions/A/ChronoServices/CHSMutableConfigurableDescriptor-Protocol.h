@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSIntentReference, NSString;
+@class NSString;
 
 @protocol CHSMutableConfigurableDescriptor
 
 // Remaining properties
-@property(copy, nonatomic) CHSIntentReference *defaultIntentReference;
 @property(copy, nonatomic) NSString *intentType;
 @end
 

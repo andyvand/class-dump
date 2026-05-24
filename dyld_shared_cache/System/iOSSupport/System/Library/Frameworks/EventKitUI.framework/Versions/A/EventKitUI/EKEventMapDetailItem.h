@@ -6,44 +6,34 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class CLLocation, EKEventMapCell, MKMapItemView, NSArray, UIView;
+@class EKEventMapCell;
 
 @interface EKEventMapDetailItem : EKEventDetailItem
 {
     EKEventMapCell *_cell;
-    EKEventMapCell *_oldCell;
-    MKMapItemView *_mapView;
-    NSArray *_mapViewConstraints;
-    UIView *_loadingView;
-    NSArray *_loadingViewConstraints;
-    CLLocation *_location;
-    _Bool _animationHasRan;
-    _Bool _visibilityChanged;
-    _Bool _shouldShowCell;
-    _Bool _hasMapItemLaunchOptionFromTimeToLeaveNotification;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)P;
+- (void);
+- (_Bool)dd;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)chartViewProvider;
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void)rson Swimming;
 - (_Bool);
-- (_Bool);
+- (_Bool)!M;
 - (double);
-- (void)tLabelConstraints: /* Error: Ran out of types for this method. */;
+- (void)setLabelConstraints: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMapItemLaunchOptionFromTimeToLeaveNotification; // @synthesize hasMapItemLaunchOptionFromTimeToLeaveNotification=_hasMapItemLaunchOptionFromTimeToLeaveNotification;

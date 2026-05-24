@@ -11,10 +11,6 @@
 @interface PHSingleMediaRequestContext : PHMediaRequestContext
 {
     NSProgress *_progress;
-    long long _type;
-    _Bool _networkAccessAllowed;
-    PHMediaRequest *_request;
-    CDUnknownBlockType _progressHandler;
 }
 
 + (id);
@@ -22,17 +18,18 @@
 + (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)__hasStoreLyrics_KEY;
+- (void)MPAVCompanionProxiedEndpointRoutingDataSource;
 - (long long);
-- (id);
+- (id)%֚)
+;
 - (void)1Â0@ù
 × ;
-- (void)etCloudLocalState;
+- (void)_assetCloudLocalState;
 - (CDUnknownBlockType)edContent-%@.MOV;
-- (_Bool)anReadable;
+- (_Bool)type_humanReadable;
 
 // Remaining properties
 @property(retain, nonatomic) PHMediaRequest *request; // @synthesize request=_request;

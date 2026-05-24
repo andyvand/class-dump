@@ -15,9 +15,9 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
-- (void)onForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)nInput",R,N,V_middleButton;
+- (void)ger activate];
+- (void)provideEnableAirConditionerOptionsCollectionForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ÎQÏv;
 
 // Remaining properties

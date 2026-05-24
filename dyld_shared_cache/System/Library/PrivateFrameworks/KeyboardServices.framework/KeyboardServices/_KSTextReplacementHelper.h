@@ -17,12 +17,12 @@
 + (void);
 + (id);
 + (long long);
++ (id)0:(long long)arg1 8@"NSURLSession"16@"NSURLSessionTask"24@"NSURLRequest"32@?<v@?q@"NSURLRequest">40;
++ (void)CoreDAVACLTaskDelegate;
 + (id);
-+ (void);
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (void)failed to complete in expected time %{public}llu.;
 + (id);
 
 @end

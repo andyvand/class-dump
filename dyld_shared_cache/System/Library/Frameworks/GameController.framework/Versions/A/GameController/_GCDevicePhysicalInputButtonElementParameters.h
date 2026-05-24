@@ -6,27 +6,17 @@
 
 #import <GameController/_GCDevicePhysicalInputElementParameters.h>
 
-@class NSSet, _GCDevicePhysicalInputSensorInputParameters, _GCDevicePhysicalInputTouchInputParameters;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputButtonElementParameters : _GCDevicePhysicalInputElementParameters
 {
     _Bool _analog;
-    float _pressedThreshold;
-    NSSet *_sources;
-    _GCDevicePhysicalInputTouchInputParameters *_touch;
-    _GCDevicePhysicalInputSensorInputParameters *_force;
-    unsigned long long _eventPressedValueField;
-    unsigned long long _eventAnalogPressValueField;
-    unsigned long long _eventTouchValueField;
-    unsigned long long _eventForceValueField;
 }
 
 - (id);
 - (_Bool);
+- (id)setByAddingObjectsFromSet:(struct _NSZone *)arg1;
 - (id);
-- (id);
-- (void);
+- (void);
 
 @end
 

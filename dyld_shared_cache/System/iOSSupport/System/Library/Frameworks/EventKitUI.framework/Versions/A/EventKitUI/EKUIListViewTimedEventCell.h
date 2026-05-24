@@ -6,50 +6,35 @@
 
 #import <EventKitUI/EKUIListViewCell.h>
 
-@class EKEvent, EKUIListViewCellBackground, UIImageView, UILabel, UIStackView, UIView;
+@class EKEvent, UIStackView;
 
 @interface EKUIListViewTimedEventCell : EKUIListViewCell
 {
     UIStackView *_travelLine;
-    UIImageView *_travelImage;
-    UILabel *_travelTextLabel;
-    UILabel *_travelDepartureTimeLabel;
-    UIStackView *_titleLine;
-    UILabel *_titleField;
-    UILabel *_topTimeField;
-    UIStackView *_locationLine;
-    UIImageView *_locationImage;
-    UILabel *_locationField;
-    UILabel *_bottomTimeField;
-    UIStackView *_textContentView;
-    UIView *_colorBarView;
-    EKUIListViewCellBackground *_backgroundView;
-    _Bool _dimmed;
-    EKEvent *_event;
 }
 
 + (id);
-+ (struct UIEdgeInsets);
++ (struct UIEdgeInsets)[%s;
 + (void)X@;
+- (void);
+- (void);
+- (id)s;
 - (void);
+- (void)s;
+- (id)s;
+- (void);
+- (void)C{;
+- (id)B{;
+- (id)z;
+- (id)iz;
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)timeZone:busyParticipants:showAllParticipants:checked: /* Error: Ran out of types for this method. */;
+- (void)updateWithStartDate:endDate:timeZone:busyParticipants:showAllParticipants:checked: /* Error: Ran out of types for this method. */;
 - (void)G;
 - (void)$°R¡ÀèÄ;
 - (void);

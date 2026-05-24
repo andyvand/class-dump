@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFileHandle;
+@class NSArray;
 
 @interface FPTask
 {
     int _waitStatus;
-    NSArray *_argv;
-    NSFileHandle *_standardOutput;
-    NSFileHandle *_standardError;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)i;
 + (_Bool);
 + (id);
 + (id);
@@ -25,7 +22,7 @@
 - (const char **);
 - (int);
 - (int);
-- (int);
+- (int));
 - (void);
 - (void);
 - (void);
@@ -34,17 +31,14 @@
 - (id);
 - (void);
 - (void);
+- (id)NSDictionary"36@?<v@?@"NSError">44;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *argv; // @synthesize argv=_argv;
-@property(retain, nonatomic) NSFileHandle *standardError; // @synthesize standardError=_standardError;
-@property(retain, nonatomic) NSFileHandle *standardOutput; // @synthesize standardOutput=_standardOutput;
-@property(readonly, nonatomic) int waitStatus; // @synthesize waitStatus=_waitStatus;
 
 @end
 

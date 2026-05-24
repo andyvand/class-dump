@@ -9,19 +9,17 @@
 @interface PKPaymentSetupFieldBuiltInDateOfBirth : PKPaymentSetupFieldDate
 {
     _Bool _disallowCurrentYear;
-    long long _minimumAge;
 }
 
 - (_Bool);
-- (void);
+- (void)R;
 - (long long);
 - (_Bool);
-- (void);
+- (void)J;
 - (id);
 - (_Bool)¤ÿ±È;
 
 // Remaining properties
-@property(nonatomic) _Bool disallowCurrentYear; // @synthesize disallowCurrentYear=_disallowCurrentYear;
 @property(readonly, nonatomic) long long minimumAge; // @synthesize minimumAge=_minimumAge;
 
 @end

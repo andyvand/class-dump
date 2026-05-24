@@ -9,22 +9,20 @@
 @interface PKPaymentDevicePlatfomData
 {
     NSData *_platformData;
-    NSData *_platformDataSignature;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void)LL_DESCRIPTION;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)CAPABILITY_SHAREABILITY_ALL_DESCRIPTION;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *platformData; // @synthesize platformData=_platformData;
-@property(copy, nonatomic) NSData *platformDataSignature; // @synthesize platformDataSignature=_platformDataSignature;
 
 @end
 

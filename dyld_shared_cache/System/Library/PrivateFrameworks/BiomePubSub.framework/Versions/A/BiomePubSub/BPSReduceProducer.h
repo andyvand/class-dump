@@ -6,32 +6,19 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class BPSSubscriptionStatus, NSString;
-@protocol BPSSubscriber;
-
 @interface BPSReduceProducer : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    _Bool _downstreamRequested;
-    _Bool _cancelled;
-    _Bool _completed;
-    _Bool _upstreamCompleted;
-    _Bool _empty;
-    id _result;
-    id _initial;
-    CDUnknownBlockType _reduce;
-    BPSSubscriptionStatus *_status;
-    id <BPSSubscriber> _downstream;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)o;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setOutputFileSizeChangeSource: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -39,7 +26,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)abase could not perform migrations (device locked?), try again later;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -48,32 +35,16 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)audioFileWriterSecondPass;
 - (id);
+- (void)A;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) _Bool downstreamRequested; // @synthesize downstreamRequested=_downstreamRequested;
-@property(nonatomic) _Bool empty; // @synthesize empty=_empty;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id initial; // @synthesize initial=_initial;
 @property(copy, nonatomic) CDUnknownBlockType reduce; // @synthesize reduce=_reduce;
-@property(retain, nonatomic) id result; // @synthesize result=_result;
-@property(retain, nonatomic) BPSSubscriptionStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool upstreamCompleted; // @synthesize upstreamCompleted=_upstreamCompleted;
 
 @end
 

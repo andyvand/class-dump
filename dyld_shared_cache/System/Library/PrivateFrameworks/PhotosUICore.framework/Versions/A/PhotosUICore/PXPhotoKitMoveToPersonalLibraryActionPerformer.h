@@ -17,7 +17,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)qAI;
 - (_Bool);
 - (_Bool);
 - (void);

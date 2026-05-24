@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CHStrokeProvider;
 
 @interface CHStrokeGroupingStrategy
@@ -20,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)J*
+J;
 - (void);
 - (void)¨;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *strategyIdentifier;
 @property(readonly, nonatomic) id <CHStrokeProvider> strokeProvider; // @synthesize strokeProvider=_strokeProvider;
 
 @end

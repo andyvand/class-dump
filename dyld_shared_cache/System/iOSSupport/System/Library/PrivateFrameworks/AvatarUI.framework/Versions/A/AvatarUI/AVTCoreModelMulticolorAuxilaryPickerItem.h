@@ -9,20 +9,16 @@
 @interface AVTCoreModelMulticolorAuxilaryPickerItem
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_message;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

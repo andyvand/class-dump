@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (Class)nitWithFormat:options:locale:context:arguments: /* Error: Ran out of types for this method. */;
++ (Class)initWithFormat:options:locale:context:arguments: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

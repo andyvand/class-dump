@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMCaptureLocalSessionOutputStream, FigCaptureCMIOExtensionDevice, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSNumber, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class CMCaptureLocalSessionOutputStream;
 
 @interface FigCaptureCMIOExtensionStream
 {
     CMCaptureLocalSessionOutputStream *_sinkStream;
-    NSArray *_cmioFormats;
-    FigCaptureCMIOExtensionDevice *_device;
-    NSDictionary *_cinematicFramingVirtualCameraConfiguration;
-    unsigned long long _activeFormatIndex;
-    NSNumber *_minFrameRate;
-    NSNumber *_maxFrameRate;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _skipFrameRateOverride;
-    NSMutableDictionary *_figCaptureMetadataObjectProperties;
-    NSMutableSet *_requestedMetadataObjects;
-    NSMutableDictionary *_figCaptureFaceTrackingAttributeProperties;
-    NSMutableDictionary *_faceTrackingAttributes;
-    _Atomic _Bool _streaming;
-    NSMutableDictionary *_figCaptureStreamProperties;
-    _Bool _forceEnableCenterStageActive;
-    NSMutableSet *_forceCenterStageEnabledClientsSigningIdentifiersSet;
-    _Bool _observingStreamingClients;
-    unsigned long long _receiverType;
 }
 
 + (void)vice.built-in_video:6 /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -55,31 +36,17 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)getWhite:alpha: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
+- (void)s:(id)arg1 ];
+- (id)$;
 - (id);
 - (_Bool)Û«¢ÿä© ÿî¨ÿù¨ÿÿ© ÿÿª¡ÿÿ© ÿÿ© ÿ;
 - (void)ýÿ£þÿ°ÿÿ¼ÿÿÈÿÿÔÿÿàÿÿëÿ ÿõÿ¢ÿÿÿ¤ÿÿÿ¥ÿ;
 - (id)ÿ ÿÿÿ£ÿ«;
 
 // Remaining properties
-@property(readonly, copy) NSSet *availableProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak FigCaptureCMIOExtensionDevice *device; // @synthesize device=_device;
 @property(readonly, nonatomic) _Bool forceEnableCenterStageActive; // @synthesize forceEnableCenterStageActive=_forceEnableCenterStageActive;
-@property(readonly) NSArray *formats;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) unsigned long long receiverType; // @synthesize receiverType=_receiverType;
-@property(readonly, nonatomic) CMCaptureLocalSessionOutputStream *sinkStream; // @synthesize sinkStream=_sinkStream;
-@property(readonly, nonatomic, getter=isStreaming) _Bool streaming;
-@property(readonly) Class superclass;
 
 @end
 

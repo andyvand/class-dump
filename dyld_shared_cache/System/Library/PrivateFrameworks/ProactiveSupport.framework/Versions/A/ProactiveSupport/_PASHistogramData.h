@@ -7,27 +7,26 @@
 @interface _PASHistogramData
 {
     struct HDGuardedData _private_unsafeGuardedData;
-    struct unique_ptr<proactive::pas::SynchronizedObject<(anonymous namespace)::HDGuardedData, proactive::pas::detail::RecursiveMutex>, std::default_delete<proactive::pas::SynchronizedObject<(anonymous namespace)::HDGuardedData, proactive::pas::detail::RecursiveMutex>>> _guardedData;
 }
 
 + (_Bool);
-- (float);
-- (float);
-- (float);
-- (int);
+- (float)powerLogAccessory;
+- (float)ityMode=%s;
+- (float)staging;
+- (int)deploymentRules;
+- (id)updateAvailabilityStatus;
+- (void)assetVersion;
+- (id)remoteURL;
+- (void)scenario;
+- (id);
+- (id);
+- (void)ge %p %d to disk (%d);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setTransp: /* Error: Ran out of types for this method. */;
 
 @end
 

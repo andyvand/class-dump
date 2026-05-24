@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSURLSessionTaskTransactionMetrics;
+@class NSURLSessionTaskTransactionMetrics;
 
 @interface OspreyConnectionMetrics
 {
     NSURLSessionTaskTransactionMetrics *_metrics;
-    unsigned long long _connectionState;
 }
 
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)s;
 - (id);
-- (unsigned long long);
+- (unsigned long long)allowsEditingTextAttributes;
 - (id);
-- (double);
+- (double);
 - (id);
 - (void)ÙÚØ0{Ô­;
 
 // Remaining properties
-@property(readonly, nonatomic) double connectionEstablishmentTime;
-@property(readonly, nonatomic) NSString *connectionMethod;
 @property(readonly, nonatomic) unsigned long long connectionState; // @synthesize connectionState=_connectionState;
-@property(readonly, nonatomic) double dnsResolutionTime;
-@property(readonly, nonatomic) double fetchStartToDomainLookupStartTime;
-@property(readonly, nonatomic) double fetchStartToFirstByteTime;
-@property(readonly, nonatomic) NSURL *requestURL;
-@property(readonly, nonatomic) double secureConnectionTime;
-@property(readonly, nonatomic) double tcpConnectTime;
 
 @end
 

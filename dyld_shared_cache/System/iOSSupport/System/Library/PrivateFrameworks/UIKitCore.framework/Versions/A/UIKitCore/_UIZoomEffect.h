@@ -12,10 +12,10 @@
     _Bool _isUnderlay;
 }
 
-+ (id);
++ (id)deduplicated ***;
 + (id);
 + (_Bool)._UIRemoteViewControllerCreationRequest %@ %p;
-- (id);
+- (id)ficationsProtocol>"24@0:8@"IMDService"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool)=dd}{CGSize=dd}}16@48q56q64i72B76;

@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void)nd;
 - (void)y:(CDStruct_4c969caf)arg1;
 
 // Remaining properties

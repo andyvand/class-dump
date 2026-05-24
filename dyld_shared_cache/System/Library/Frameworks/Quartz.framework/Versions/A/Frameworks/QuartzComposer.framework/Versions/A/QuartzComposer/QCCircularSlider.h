@@ -7,14 +7,13 @@
 @interface QCCircularSlider
 {
     double _realValue;
-    double _scale;
 }
 
-+ (void)DRotationMakeWithEuler;
++ (void)C3DRotationMakeWithEuler;
 + (_Bool)at arrays). Skipping it;
 + (_Bool)èÿÞ;;
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (id);

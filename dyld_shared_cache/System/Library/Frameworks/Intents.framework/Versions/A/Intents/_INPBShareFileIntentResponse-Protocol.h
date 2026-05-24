@@ -7,18 +7,13 @@
 @class NSArray;
 
 @protocol _INPBShareFileIntentResponse
+- (void);
+- (void)T@?,C,V_diskAppearedBlock;
 - (_Bool)b1};
 - (NSArray *)handleCreateEvent:completion: /* Error: Ran out of types for this method. */;
-- (void)tReference;
+- (void)intentReference;
 
 // Remaining properties
 @property(nonatomic) _Bool confirm;
-@property(nonatomic) _Bool hasConfirm;
-@property(nonatomic) _Bool hasShareMode;
-@property(nonatomic) _Bool hasSuccess;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(nonatomic) int shareMode;
-@property(nonatomic) _Bool success;
 @end
 

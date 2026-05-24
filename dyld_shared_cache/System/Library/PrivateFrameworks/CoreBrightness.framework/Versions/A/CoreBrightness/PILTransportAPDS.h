@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PILTransportAPDS
 {
     _Bool _running;
-    void *_apdsConnection;
-    unsigned int _dutyCycle;
 }
 
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void)team if you need this;
 - (id);
 - (void);
-- (void);
+- (void)H;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned int dutyCycle; // @synthesize dutyCycle=_dutyCycle;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

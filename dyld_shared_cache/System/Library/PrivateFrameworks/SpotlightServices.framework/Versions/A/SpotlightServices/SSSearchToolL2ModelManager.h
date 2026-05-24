@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSMutableDictionary;
+@class NSCondition;
 
 @interface SSSearchToolL2ModelManager
 {
     NSCondition *_condition;
-    _Bool _loaded;
-    NSMutableDictionary *_modelConfigs;
 }
 
-+ (id);
-+ (_Bool);
-+ (double);
++ (id)setAnimationController:(id)arg1;
++ (_Bool)constraintEqualToAnchor:(id)arg1;
++ (double)addFullWidthLineForButton;
 - (void);
 - (void);
 - (void);
@@ -23,21 +21,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (double);
-- (id);
-- (double);
-- (double);
-- (void);
+- (double)";
+- (id)28;
+- (double)8Q16;
+- (double)sSnippetURLComponents";
+- (void){CGPoint="x"d"y"d};
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)symbolName:folderScopeURLs: /* Error: Ran out of types for this method. */;
+- (void)initWithFilterTitle:symbolName:folderScopeURLs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool loaded; // @synthesize loaded=_loaded;
-@property(retain, nonatomic) NSMutableDictionary *modelConfigs; // @synthesize modelConfigs=_modelConfigs;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface GLUTMenu
 {
     NSMutableArray *_menuItems;
-    NSMenu *_nativeMenu;
-    CDUnknownFunctionPointerType _selectFunc;
-    CDUnknownFunctionPointerType _fselectFunc;
-    int _menuid;
-    GLUTMenu *_parentMenu;
 }
 
 - (void);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (id);
-- (void *);
+- (void *);
 - (void);
 - (void);
 - (void);
@@ -31,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ation-icon.apple-intelligence;
 - (void);
 - (void);
 - (int);

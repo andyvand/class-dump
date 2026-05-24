@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDFixedDimensions, ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDIntelligenceFeatureAvailabilityStatusChangesReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    int _eventType;
-    ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus *_availabilityStatus;
-    CDStruct_07059a20 _has;
-    _Bool _hasFixedDimensions;
-    _Bool _hasAvailabilityStatus;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)x";
 - (void);
 - (void);
 - (_Bool);
@@ -35,8 +30,8 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)setText: /* Error: Ran out of types for this method. */;
+- (_Bool)FormatAddressSqlFunction;
 - (id);
 - (void)1Â0@ù
 × ;
@@ -48,13 +43,7 @@
 - (void)PLUSSchemaPLUSContactSuggestionRemovalReason;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDIntelligenceFeatureReportingAvailabilityStatus *availabilityStatus; // @synthesize availabilityStatus=_availabilityStatus;
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasAvailabilityStatus; // @synthesize hasAvailabilityStatus=_hasAvailabilityStatus;
-@property(nonatomic) _Bool hasEventType;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

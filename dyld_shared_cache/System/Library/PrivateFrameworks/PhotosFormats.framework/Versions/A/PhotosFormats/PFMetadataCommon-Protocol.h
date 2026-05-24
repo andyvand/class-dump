@@ -4,62 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSDictionary, NSNumber, NSString, NSTimeZone, NSURL, PFTimeZoneLookup, UTType;
+@class NSDate, NSDictionary, NSNumber, NSString, NSTimeZone, NSURL;
 
 @protocol PFMetadataCommon
+- (NSString *)ThreadScopeManager:connection: /* Error: Ran out of types for this method. */;
+- (NSDate *);
+- (NSString *);
+- (NSString *)A;
+- (NSNumber *);
+- (_Bool);
+- (NSDictionary *);
+- (_Bool)hasStableUrl;
+- (_Bool)r: /* Error: Ran out of types for this method. */;
+- (_Bool)ensureRegistrationPresent:forUser:error: /* Error: Ran out of types for this method. */;
+- (NSNumber *)`
+;
+- (struct CGSize)*>;
 - (NSURL *)=}16@0:8 /* Error: Ran out of types for this method. */;
-- (NSNumber *)ionV2ScoreForFocusRegion:insideCropRect:withImportantRect: /* Error: Ran out of types for this method. */;
-- (_Bool)oryRecipeDisplayAssetNormalizationDataV1;
+- (NSNumber *)_interpolationV2ScoreForFocusRegion:insideCropRect:withImportantRect: /* Error: Ran out of types for this method. */;
+- (_Bool)_PFStoryRecipeDisplayAssetNormalizationDataV1;
 - (long long);
-- (struct CGSize);
 - (NSString *)lder version.;
-- (_Bool)cending;
+- (_Bool)SortSourceEnumerationAscending;
 - (unsigned long long)iled to deserialize contents plist from data:"%@", error:%@ /* Error: Ran out of types for this method. */;
 - (NSNumber *)ÜÈ;
 - (NSTimeZone *)°;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkContentDescription;
-@property(readonly, nonatomic) NSString *cameraMake;
-@property(readonly, nonatomic) NSString *cameraModel;
-@property(readonly, nonatomic) NSString *captionAbstract;
-@property(readonly, nonatomic) UTType *contentType;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) long long creationDateSource;
-@property(readonly, nonatomic) NSString *creationDateString;
-@property(readonly, nonatomic) struct CGSize exifPixelSize;
-@property(readonly, nonatomic) NSDate *fileCreationDate;
-@property(readonly, nonatomic) NSDate *fileModificationDate;
-@property(readonly, nonatomic) unsigned long long fileSize;
-@property(readonly, nonatomic) NSDictionary *fileSystemProperties;
-@property(readonly, nonatomic) NSURL *fileURL;
-@property(readonly, nonatomic) CLLocation *gpsLocation;
-@property(readonly, nonatomic) _Bool isHDR;
-@property(readonly, nonatomic) _Bool isHDR_ExtendedRange;
-@property(readonly, nonatomic) _Bool isHDR_TS22028_5;
-@property(readonly, nonatomic) _Bool isImage;
-@property(readonly, nonatomic) _Bool isMovie;
-@property(readonly, nonatomic) _Bool isSpatialMedia;
-@property(readonly, nonatomic) _Bool isSpatialOverCapture;
-@property(readonly, nonatomic) _Bool isSyndicationOriginated;
-@property(readonly, nonatomic) NSArray *keywords;
-@property(readonly, nonatomic) NSNumber *latitude;
-@property(readonly, nonatomic) NSString *livePhotoPairingIdentifier;
-@property(readonly, nonatomic) NSNumber *longitude;
-@property(readonly, nonatomic) long long orientation;
-@property(readonly, nonatomic) struct CGSize orientedPixelSize;
-@property(readonly, nonatomic) NSString *originalFileName;
-@property(readonly, nonatomic) NSString *originatingAssetIdentifier;
-@property(readonly, nonatomic) NSNumber *playbackVariation;
-@property(readonly, nonatomic) NSString *renderOriginatingAssetIdentifier;
 @property(readonly, nonatomic) long long sourceType;
-@property(readonly, nonatomic) NSString *spatialOverCaptureIdentifier;
-@property(readonly, nonatomic) NSDictionary *syndicationProperties;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
-@property(readonly, nonatomic) PFTimeZoneLookup *timeZoneLookup;
-@property(readonly, nonatomic) NSString *timeZoneName;
-@property(readonly, nonatomic) NSNumber *timeZoneOffset;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSDate *utcCreationDate;
 @end
 

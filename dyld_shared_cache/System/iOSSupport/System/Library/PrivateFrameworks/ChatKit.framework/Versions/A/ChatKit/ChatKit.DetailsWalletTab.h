@@ -7,11 +7,6 @@
 @interface ChatKit.DetailsWalletTab
 {
     id _currentSelection;
-    id _defaultTitle;
-    id _editMenuTitle;
-    id _position;
-    id _viewModel;
-    id _$observationRegistrar;
 }
 
 @end

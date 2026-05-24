@@ -6,58 +6,41 @@
 
 #import <MapKit/MKPlaceSectionViewController.h>
 
-@class MKMapItem, MKPlaceSectionHeaderView, NSArray, NSString, NSTimeZone;
-@protocol _MKInfoCardAnalyticsDelegate;
+@class MKMapItem;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceHoursViewController : MKPlaceSectionViewController
 {
     _Bool _isExpanded;
-    MKPlaceSectionHeaderView *_headerView;
-    NSArray *_businessHours;
-    _Bool _resizableViewsDisabled;
-    id <_MKInfoCardAnalyticsDelegate> _analyticsDelegate;
-    MKMapItem *_mapItem;
 }
 
 + (id);
+- (void)];
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)Versions/C/Foundation;
+- (void);
 - (void);
-- (void);
-- (void)th;
+- (void)minimumWidth;
 - (id)ÚJ;
 
 // Remaining properties
-@property(nonatomic) __weak id <_MKInfoCardAnalyticsDelegate> analyticsDelegate; // @synthesize analyticsDelegate=_analyticsDelegate;
-@property(readonly, nonatomic) NSArray *businessHours;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(nonatomic) _Bool resizableViewsDisabled; // @synthesize resizableViewsDisabled=_resizableViewsDisabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
 
 @end
 

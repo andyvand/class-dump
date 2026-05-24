@@ -6,21 +6,18 @@
 
 #import <BackBoardServices/BKSHIDEventDeferringTarget.h>
 
-@class BKSHIDEventDeferringToken;
-
 @interface BKSMutableHIDEventDeferringTarget : BKSHIDEventDeferringTarget
 {
 }
 
-+ (id);
-- (id);
-- (void);
++ (id)DISTRUSTED_RECOVERY_KEY_REPAIR_NOTIFICATION_TITLE;
+- (id)r_lr_funE;
+- (void)@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) int pid; // @dynamic pid;
-@property(copy, nonatomic) BKSHIDEventDeferringToken *token; // @dynamic token;
 
 @end
 

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CacheManagementAsset
 {
     int _priority;
-    unsigned int _assetVersion;
-    NSString *_displayName;
-    NSString *_identifier;
-    NSString *_relativePath;
-    NSString *_contentType;
-    NSData *_metadata;
-    double _expiration_date;
-    double _consumed_date;
-    double _download_start_date;
-    double _download_completion_date;
-    double _last_viewed_date;
-    NSString *_absolutePath;
 }
 
 + (id);
@@ -48,7 +34,7 @@
 - (double);
 - (id);
 - (id);
-- (CDStruct_1285e12c *);
+- (CDStruct_1285e12c *)%;
 - (double);
 - (id);
 - (double);
@@ -59,19 +45,19 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ocess KE data (initiator rekey child followup KE);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (long long)(;
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)ple.system-extensions.admin;
+- (id);
 - (unsigned int);
 - (void);
 - (void);
@@ -79,20 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *absolutePath; // @synthesize absolutePath=_absolutePath;
 @property(readonly) unsigned int assetVersion; // @synthesize assetVersion=_assetVersion;
-@property double consumed_date; // @synthesize consumed_date=_consumed_date;
-@property(retain, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property double download_completion_date; // @synthesize download_completion_date=_download_completion_date;
-@property double download_start_date; // @synthesize download_start_date=_download_start_date;
-@property double expiration_date; // @synthesize expiration_date=_expiration_date;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property double last_viewed_date; // @synthesize last_viewed_date=_last_viewed_date;
-@property(retain, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property int priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NSString *relativePath; // @synthesize relativePath=_relativePath;
-@property(retain, nonatomic) NSData *thumbnailData;
 
 @end
 

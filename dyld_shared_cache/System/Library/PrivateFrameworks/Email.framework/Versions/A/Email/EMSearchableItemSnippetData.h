@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface EMSearchableItemSnippetData
 {
     NSString *_searchableItemIdentifier;
-    NSDictionary *_snippetHints;
 }
 
 - (void);
@@ -17,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *searchableItemIdentifier; // @synthesize searchableItemIdentifier=_searchableItemIdentifier;
-@property(copy, nonatomic) NSDictionary *snippetHints; // @synthesize snippetHints=_snippetHints;
 
 @end
 

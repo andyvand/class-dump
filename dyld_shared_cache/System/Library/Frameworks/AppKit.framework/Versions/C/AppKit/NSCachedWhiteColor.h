@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
-- (oneway void);
+- (unsigned long long);
+- (oneway void)0;
 - (id);
-- (id)irectoryURL:(struct _NSZone *)arg1;
+- (id)_fileURLForNewDocumentWithFileSystemUniquing:(struct _NSZone *)arg1 customDirectoryURL: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)allocated row height data storage during insertion!;
 - (id)ò,ÜD;

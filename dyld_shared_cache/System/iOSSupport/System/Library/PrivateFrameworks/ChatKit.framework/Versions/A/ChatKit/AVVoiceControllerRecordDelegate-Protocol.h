@@ -5,5 +5,11 @@
 //
 
 @protocol AVVoiceControllerRecordDelegate
+
+@optional
+- (void);
+- (void)A;
+- (void)b;
+- (void)@;
 @end
 

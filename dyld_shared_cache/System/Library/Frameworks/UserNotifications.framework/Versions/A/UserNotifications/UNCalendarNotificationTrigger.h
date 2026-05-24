@@ -22,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)#;
 - (id);
 - (void);
 

@@ -8,26 +8,21 @@ __attribute__((visibility("hidden")))
 @interface UISubstituteKeyboardSession
 {
     id viewController;
-    id presentationController;
-    id animationController;
-    id traitChangeObservation;
-    id wasShowingInputOrAssistantViews;
-    id responder;
 }
 
 + (id){ %@ }%@;
 + (id)a`;
-- (void);
+- (void)_autoDonationBehaviorLastModificationDate;
 - (id);
 - (_Bool);
+- (void)o do, yielding;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool);
+- (void)payloadAllowedProtocolMask;
+- (id)__MPModelPropertyStaticAssetURL__MAPPING_MISSING__;
+- (id)P;
 - (void): /* Error: Ran out of types for this method. */;
-- (void)ver;
+- (void)_slotStyleResolver;
 - (void)ents:(id)arg1;
 - (id)];
 - (void)Ø~Úÿ(È´úb;

@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface PasswordsViewItem
 {
     NSString *_username;
-    NSString *_domain;
 }
 
 - (id);
-- (id)StatisticsView;
+- (id)trackingStatisticsView;
 - (id)mber"8Q16^B24;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

@@ -7,19 +7,10 @@
 @interface qa
 {
     id @ù(=;
-    id |üÿ ;
-    id 10@ù
-?×è;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: 	ªàò	?×iúCù(@ø`¦Cùa:Dùñ	ªàò	?×iâCù(@ø`öCùaDùôÑÿ 
-// Property attributes: 7©¨Rø¨8©¡#ÑàRPôø
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: @øYª
-// Property attributes: ò	?×¨#Ñ
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: ªøªûªüªó
 // Property attributes: jhøÑ»UøxBøàªáªâªñªéò?×¨Røaóªàªâªñªéò?×¸Røè`²ë¨Ã
 

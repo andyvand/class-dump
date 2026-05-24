@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SplitWithLimit)
-- (id);
+- (id)handleAccessoryRemovedNotification:(id)arg1;
 @end
 

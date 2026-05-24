@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCContentArchive, FCContentManifest, NSData, NSDate, NSString;
+@class NSData;
 
 @interface UnknownClass (Conformance)
 + (int);
@@ -13,22 +13,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)ridingContentStoreFrontID;
+- (id)t_stopOverridingContentStoreFrontID;
 - (id)etchCompletionQueue;
 
 // Remaining properties
-@property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isExpired;
 @property(readonly, nonatomic) NSData *keyData;
-@property(readonly) Class superclass;
 @end
 

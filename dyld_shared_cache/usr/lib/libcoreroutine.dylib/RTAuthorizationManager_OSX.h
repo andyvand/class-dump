@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)setClassicContent: /* Error: Ran out of types for this method. */;
 
 @end
 

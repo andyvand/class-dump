@@ -6,14 +6,9 @@
 
 #import <CMCapture/BWNodeEnumerator.h>
 
-@class NSArray, NSMutableArray;
-
 @interface BWDepthFirstEnumerator : BWNodeEnumerator
 {
     int _ordering;
-    NSArray *_sourceNodes;
-    NSMutableArray *_stack;
-    unsigned long long _currentSourceIndex;
 }
 
 - (id);

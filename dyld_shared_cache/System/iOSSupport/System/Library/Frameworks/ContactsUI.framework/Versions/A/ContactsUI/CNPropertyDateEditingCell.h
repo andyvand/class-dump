@@ -6,16 +6,12 @@
 
 #import <ContactsUI/CNPropertySimpleEditingCell.h>
 
-@class CNDatePickerContainerView, NSString, UIDatePicker, UIViewController;
+@class UIDatePicker;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyDateEditingCell : CNPropertySimpleEditingCell
 {
     _Bool _shouldEditDatesTextually;
-    UIDatePicker *_datePicker;
-    CNDatePickerContainerView *_datePickerContainerView;
-    UIViewController *_contentViewController;
-    NSString *_currentCalendarIdentifier;
 }
 
 - (void);
@@ -25,8 +21,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)
+J)JJJ
+JJJ;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -34,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (void);
 - (id);
@@ -42,21 +40,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_runLoopObserver;
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(retain, nonatomic) NSString *currentCalendarIdentifier; // @synthesize currentCalendarIdentifier=_currentCalendarIdentifier;
 @property(retain, nonatomic) UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(retain, nonatomic) CNDatePickerContainerView *datePickerContainerView; // @synthesize datePickerContainerView=_datePickerContainerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool shouldEditDatesTextually; // @synthesize shouldEditDatesTextually=_shouldEditDatesTextually;
-@property(readonly) Class superclass;
 
 @end
 

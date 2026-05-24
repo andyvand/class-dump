@@ -8,39 +8,23 @@ __attribute__((visibility("hidden")))
 @interface NSCGSWindowBuffer
 {
     void *_bytes;
-    unsigned long long _width;
-    unsigned long long _height;
-    long long _bytesPerRow;
-    unsigned long long _bitsPerPixel;
-    unsigned long long _bitsPerComponent;
-    unsigned int _bitmapInfo;
-    struct CGColorSpace *_colorSpace;
-    double _scale;
 }
 
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (id)$;
+- (unsigned long long);
+- (unsigned long long)|;
 - (unsigned int);
-- (long long);
-- (void);
+- (long long)24u;
+- (void);
 - (id);
 - (double);
 - (struct CGColorSpace *);
-- (unsigned long long);
+- (unsigned long long)C;
 - (void *);
-- (unsigned long long);
+- (unsigned long long)#;
 
 // Remaining properties
-@property(readonly) unsigned int bitmapInfo;
-@property(readonly) unsigned long long bitsPerComponent;
-@property(readonly) unsigned long long bitsPerPixel;
 @property(readonly) void *bytes;
-@property(readonly) long long bytesPerRow;
-@property(readonly, copy) struct CGColorSpace *colorSpace;
-@property(readonly) unsigned long long height;
-@property(readonly) double scale;
-@property(readonly) unsigned long long width;
 
 @end
 

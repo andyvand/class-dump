@@ -10,10 +10,6 @@
 @interface IAMImpressionManager
 {
     NSMutableDictionary *_activeImpressionForMessageIdentifierFromTargetIdentifier;
-    NSMutableDictionary *_inactiveImpressionForMessageIdentifierFromTargetIdentifier;
-    _Bool _isApplicationActive;
-    struct os_unfair_lock_s _lock;
-    id <IAMImpressionManagerDelegate> _delegate;
 }
 
 - (void);
@@ -26,10 +22,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)sset reading and writing canceled via NSProgress;
 - (id);
 - (id);
-- (void);
+- (void)ion:(id)arg1;
 - (void);
 
 // Remaining properties

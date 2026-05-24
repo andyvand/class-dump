@@ -9,41 +9,31 @@
 @interface PKProtobufPaymentMethod
 {
     NSString *_displayName;
-    NSString *_network;
-    unsigned int _type;
-    struct {
-        unsigned int type:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)h;
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool)edCreditCardsWithError: /* Error: Ran out of types for this method. */;
-- (id)motePaymentInstruments;
+- (id)W;
+- (_Bool)savedCreditCardsWithError: /* Error: Ran out of types for this method. */;
+- (id)_remotePaymentInstruments;
 - (void)ProviderPurchase",R,N,V_purchase;
 - (_Bool);
-- (void)ocality;
-- (void)ndle;
+- (void)subLocality;
+- (void)originatorIDSHandle;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) _Bool hasDisplayName;
-@property(readonly, nonatomic) _Bool hasNetwork;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *network; // @synthesize network=_network;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

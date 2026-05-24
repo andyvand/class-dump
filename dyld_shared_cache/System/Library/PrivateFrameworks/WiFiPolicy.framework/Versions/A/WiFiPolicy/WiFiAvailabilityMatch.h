@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-@protocol WiFiCandidateNetwork, WiFiScannedNetwork;
+@protocol WiFiScannedNetwork;
 
 @interface WiFiAvailabilityMatch
 {
     _Bool _unwantedNetworkName;
-    long long _priority;
-    id <WiFiCandidateNetwork> _network;
-    NSString *_SSID;
-    id <WiFiScannedNetwork> _scannedNetwork;
-    NSDate *_matchedAt;
 }
 
 + (id);
@@ -26,23 +20,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)o;
 - (id);
 - (void)
 × ;
 - (long long)thDepth:trafficClass:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *SSID; // @synthesize SSID=_SSID;
-@property(retain, nonatomic) NSDate *matchedAt; // @synthesize matchedAt=_matchedAt;
-@property(readonly, nonatomic) id <WiFiCandidateNetwork> network; // @synthesize network=_network;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
 @property(retain, nonatomic) id <WiFiScannedNetwork> scannedNetwork; // @synthesize scannedNetwork=_scannedNetwork;
-@property(nonatomic) _Bool unwantedNetworkName; // @synthesize unwantedNetworkName=_unwantedNetworkName;
 
 @end
 

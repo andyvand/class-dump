@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)@;
 - (void);
-- (id);
-- (id)ithRowIndexes:(struct CGRect)arg1 startRow: /* Error: Ran out of types for this method. */;
+- (id)SSLV3_ALERT_CLOSE_NOTIFY;
+- (id)draggingBeginWithRowIndexes:(struct CGRect)arg1 startRow: /* Error: Ran out of types for this method. */;
 
 @end
 

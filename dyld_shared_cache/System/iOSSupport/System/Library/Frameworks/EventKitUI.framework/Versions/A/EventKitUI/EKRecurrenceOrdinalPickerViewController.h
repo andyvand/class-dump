@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPickerView;
+@class UIPickerView;
 @protocol EKRecurrenceOrdinalPickerViewControllerDelegate;
 
 @interface EKRecurrenceOrdinalPickerViewController
@@ -12,34 +12,26 @@
     id <EKRecurrenceOrdinalPickerViewControllerDelegate> _delegate;
 }
 
+- (void);
 - (void);
-- (void);
-- (long long);
+- (long long)%s;
 - (long long);
 - (id);
+- (id)s;
+- (int)3&s;
+- (id);
+- (long long);
+- (void);
+- (long long);
 - (id);
 - (int);
-- (id);
-- (long long);
 - (void);
-- (long long);
-- (id);
-- (int);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)_signingSessionCreationDate;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <EKRecurrenceOrdinalPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) UIPickerView *pickerView;
-@property(readonly) Class superclass;
 
 @end
 

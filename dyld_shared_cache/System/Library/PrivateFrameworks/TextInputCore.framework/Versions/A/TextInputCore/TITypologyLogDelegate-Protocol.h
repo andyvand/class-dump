@@ -5,5 +5,6 @@
 //
 
 @protocol TITypologyLogDelegate
+- (void);
 @end
 

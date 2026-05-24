@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
-
 @interface SHKServiceCompletionInfo
 {
     _Bool _success;
-    _Bool _viewServiceHasAnimated;
-    NSError *_error;
-    NSArray *_items;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id)6;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -29,11 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSArray *items; // @synthesize items=_items;
 @property(readonly) _Bool success; // @synthesize success=_success;
-@property _Bool viewServiceHasAnimated; // @synthesize viewServiceHasAnimated=_viewServiceHasAnimated;
 
 @end
 

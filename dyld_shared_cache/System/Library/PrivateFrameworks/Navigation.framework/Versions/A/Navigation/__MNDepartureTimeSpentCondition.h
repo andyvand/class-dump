@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDepartureUpdater, NSDate, NSString;
+@class MNDepartureUpdater, NSString;
 
 __attribute__((visibility("hidden")))
 @interface __MNDepartureTimeSpentCondition
 {
     MNDepartureUpdater *_updater;
-    NSDate *_initialDate;
-    double _threshold;
 }
 
 - (double);

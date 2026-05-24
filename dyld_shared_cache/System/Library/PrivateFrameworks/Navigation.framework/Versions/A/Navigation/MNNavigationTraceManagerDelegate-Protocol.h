@@ -5,5 +5,7 @@
 //
 
 @protocol MNNavigationTraceManagerDelegate
+- (void)UISceneAdaptorConfiguration;
+- (void);
 @end
 

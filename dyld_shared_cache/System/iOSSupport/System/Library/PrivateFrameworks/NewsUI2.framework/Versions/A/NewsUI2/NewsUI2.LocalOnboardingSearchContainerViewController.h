@@ -7,18 +7,6 @@
 @interface NewsUI2.LocalOnboardingSearchContainerViewController
 {
     id delegate;
-    id proposedLocalData;
-    id currentState;
-    id suggestionViewController;
-    id resultsViewController;
-    id locationDetectionManager;
-    id curatedSuggestions;
-    id subscriptionController;
-    id localDataManager;
-    id searchCompleter;
-    id keyboardObserver;
-    id localRegionManager;
-    id $__lazy_storage_$_initialView;
 }
 
 - (void);

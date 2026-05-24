@@ -7,10 +7,11 @@
 @class NSString;
 
 @protocol SASettingAppSettingCommand
-- (void)ge;
+- (NSString *);
+- (NSString *);
+- (void)desiredLanguage;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appWithSettingsId;
-@property(copy, nonatomic) NSString *location;
 @end
 

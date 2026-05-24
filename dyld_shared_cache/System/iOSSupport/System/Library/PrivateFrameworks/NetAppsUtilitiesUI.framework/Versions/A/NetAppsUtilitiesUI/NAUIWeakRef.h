@@ -7,13 +7,11 @@
 @interface NAUIWeakRef
 {
     id _weakStorage;
-    id _weakPointer;
-    _Bool _useWeakStorage;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)Ȉ9m;
 - (unsigned long long);
 - (_Bool);
 

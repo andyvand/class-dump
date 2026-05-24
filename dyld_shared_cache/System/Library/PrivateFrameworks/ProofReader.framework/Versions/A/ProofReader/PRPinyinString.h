@@ -7,13 +7,6 @@
 @interface PRPinyinString
 {
     unsigned long long _originalLength;
-    unsigned long long _originalCheckedLength;
-    unsigned long long _modificationCount;
-    unsigned long long *_modificationTypes;
-    struct _NSRange *_originalRanges;
-    struct _NSRange *_finalRanges;
-    struct _NSRange *_originalSyllableRanges;
-    struct _NSRange *_originalAdditionalSyllableRanges;
 }
 
 + (id);
@@ -30,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -40,7 +33,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (struct _NSRange);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (void);

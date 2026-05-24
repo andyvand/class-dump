@@ -7,7 +7,6 @@
 @interface Vision.VideoProcessor
 {
     id url;
-    id state;
 }
 
 @end

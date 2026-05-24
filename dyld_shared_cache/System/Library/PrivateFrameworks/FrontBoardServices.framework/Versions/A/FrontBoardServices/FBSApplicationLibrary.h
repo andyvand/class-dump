@@ -4,63 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSApplicationLibraryConfiguration, LSApplicationWorkspace, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol BSInvalidatable, OS_dispatch_queue;
+@class FBSApplicationLibraryConfiguration;
 
 @interface FBSApplicationLibrary
 {
     FBSApplicationLibraryConfiguration *_configuration;
-    LSApplicationWorkspace *_applicationWorkspace;
-    NSObject<OS_dispatch_queue> *_observerQueue;
-    NSMapTable *_observerQueue_tokensToBlocks;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    _Bool _workQueue_usingNetwork;
-    NSMutableDictionary *_workQueue_identitiesByBundleID;
-    NSMutableDictionary *_workQueue_installedApplicationsByIdentity;
-    NSMutableDictionary *_workQueue_placeholdersByIdentity;
-    NSMutableSet *_workQueue_injectedAppIdentifiers;
-    unsigned long long _workQueue_synchronizationActionCount;
-    NSMutableArray *_workQueue_pendingSynchronizationExecutionBlocks;
-    NSObject<OS_dispatch_queue> *_callOutQueue;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    struct os_unfair_lock_s _lock;
-    id <BSInvalidatable> _stateCaptureAssertion;
-    _Bool _lock_invalidated;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)=/;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,9 +21,40 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`";
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)B;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)__objc_data;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)9;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)setupContextWithDictionary:(id)arg1 context:(CDUnknownBlockType)arg2;
 - (id);
 - (id);
 - (id);
@@ -80,19 +63,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic, getter=isUsingNetwork) _Bool usingNetwork;
 
 @end

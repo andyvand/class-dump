@@ -4,61 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface DDSAsset
 {
     NSString *_description;
-    NSDictionary *_attributes;
-    unsigned long long _compatibilityVersion;
-    unsigned long long _contentVersion;
-    NSURL *_localURL;
-    unsigned long long _assetState;
-    NSString *_locale;
-    NSString *_dataType;
-    NSString *_assetType;
-    NSString *_installDate;
-    NSString *_shortName;
-    NSString *_assetUUID;
-    NSString *_uniqueIdentifier;
-    NSString *_debuggingID;
 }
 
 + (id);
+- (id)setHasCommandSource:(id)arg1;
+- (id)setHasCodepathId: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setHasClockCount: /* Error: Ran out of types for this method. */;
+- (id)VOICENAME_ANGEL;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)d';
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)HF-F
+;
+- (id)c;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)setDownloadAssetSize: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long assetState; // @synthesize assetState=_assetState;
-@property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(readonly, nonatomic) NSString *assetUUID; // @synthesize assetUUID=_assetUUID;
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) unsigned long long compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(readonly, nonatomic) unsigned long long contentVersion; // @synthesize contentVersion=_contentVersion;
-@property(readonly, nonatomic) NSString *dataType; // @synthesize dataType=_dataType;
 @property(readonly, nonatomic) NSString *debuggingID; // @synthesize debuggingID=_debuggingID;
-@property(readonly, nonatomic) NSString *installDate; // @synthesize installDate=_installDate;
-@property(readonly, nonatomic) NSURL *localURL; // @synthesize localURL=_localURL;
-@property(readonly, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

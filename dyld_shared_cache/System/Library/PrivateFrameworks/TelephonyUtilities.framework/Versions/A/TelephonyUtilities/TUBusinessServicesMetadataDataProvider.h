@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, TUBusinessServiceProviderProtocol;
+@protocol TUBusinessServiceProviderProtocol;
 
 @interface TUBusinessServicesMetadataDataProvider
 {
     id <TUBusinessServiceProviderProtocol> _businessQueryService;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _metadataQueryHandler;
 }
 
-+ (id)Key:groupUUID:originatorHandle:creationDate:deletionDate:expirationDate:invitedMemberHandles:locallyCreated:linkName:linkLifetimeScope:deleteReason: /* Error: Ran out of types for this method. */;
++ (id)initWithPseudonym:publicKey:groupUUID:originatorHandle:creationDate:deletionDate:expirationDate:invitedMemberHandles:locallyCreated:linkName:linkLifetimeScope:deleteReason: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -23,12 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (void)rbyMode;
+- (void)nearbyMode;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TUBusinessServiceProviderProtocol> businessQueryService; // @synthesize businessQueryService=_businessQueryService;
-@property(copy, nonatomic) CDUnknownBlockType metadataQueryHandler; // @synthesize metadataQueryHandler=_metadataQueryHandler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

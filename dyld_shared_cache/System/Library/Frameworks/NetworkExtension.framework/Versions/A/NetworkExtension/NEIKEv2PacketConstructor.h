@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NEIKEv2PacketConstructor
 {
     unsigned long long _index;
-    unsigned long long _offset;
-    NSArray *_payloadVector;
 }
 
-- (void)ketIdentifier;
+- (void)socketIdentifier;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NURenderResultCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_cache;
 }
 
-+ (id)tIsAutoCrop: /* Error: Ran out of types for this method. */;
-- (id);
++ (id)setIsAutoCrop: /* Error: Ran out of types for this method. */;
+- (id)6u;
 - (id);
 - (void);
 - (void);

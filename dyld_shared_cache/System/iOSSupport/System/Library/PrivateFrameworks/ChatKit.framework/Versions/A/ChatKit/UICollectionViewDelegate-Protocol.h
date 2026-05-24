@@ -9,6 +9,8 @@
 @protocol UICollectionViewDelegate
 
 @optional
+- (_Bool);
+- (void)_labelTopPaddingSpecification;
 - (UITargetedPreview *)
 × ;
 - (void)qÐ1Â0@ù
@@ -18,20 +20,20 @@
 × ;
 - (UICollectionViewTransitionLayout *)!Fùñ1Â0@ù
 × ;
-- (void)kSummaryForConversationListUsingIsAdaptiveImageGlyphProvider:(UICollectionView *)arg1 isCommSafetySensitiveProvider:(NSIndexPath *)arg2 adaptiveImageGlyphProvider:effectString: /* Error: Ran out of types for this method. */;
-- (UIWindowSceneActivationConfiguration *)tFadeView:(UICollectionView *)arg1;
-- (UITargetedPreview *)tmapSize:(UICollectionView *)arg1;
-- (void)urrentBrowser;
-- (UITargetedPreview *)inueWithSendMessageInteraction:(UICollectionView *)arg1 chatRegistry:(UIContextMenuConfiguration *)arg2 navigationProvider:(NSIndexPath *)arg3 conversationList:chatController: /* Error: Ran out of types for this method. */;
-- (UIContextMenuConfiguration *)ionTimeOrderingChanges;
-- (void)rs;
-- (NSIndexPath *)isclosureLabelText;
+- (void)tapbackSummaryForConversationListUsingIsAdaptiveImageGlyphProvider:(UICollectionView *)arg1 isCommSafetySensitiveProvider:(NSIndexPath *)arg2 adaptiveImageGlyphProvider:effectString: /* Error: Ran out of types for this method. */;
+- (UIWindowSceneActivationConfiguration *)setWhiteTextFadeView:(UICollectionView *)arg1;
+- (UITargetedPreview *)setBitmapSize:(UICollectionView *)arg1;
+- (void)currentBrowser;
+- (UITargetedPreview *)continueWithSendMessageInteraction:(UICollectionView *)arg1 chatRegistry:(UIContextMenuConfiguration *)arg2 navigationProvider:(NSIndexPath *)arg3 conversationList:chatController: /* Error: Ran out of types for this method. */;
+- (UIContextMenuConfiguration *)commitInteractionTimeOrderingChanges;
+- (void)_updateSuggestionsBanners;
+- (NSIndexPath *)_recentlyDeletedDisclosureLabelText;
 - (_Bool)sertingReply;
 - (_Bool)&,N,V_photosVideosItems;
-- (NSIndexPath *)orPoint;
-- (void)legate;
+- (NSIndexPath *)_preferredSourceRectAnchorPoint;
+- (void)AKAppleIDAuthenticationDelegate;
 - (void)ÿÿ;
-- (void)gs;
+- (void)flags;
 - (_Bool)ionControllerDelegateP;
 - (_Bool)]GGGSg_)]yAByACyAAyADyADyAAyAGõ\Gí-]G@GSg×½]G_-]yACyAAyAAy¹']#]ySiSgGGx]GSg_A9_tGGtGG_Qo_:(UICollectionView *)arg1 -]ADyAAyAAyAAyÉ+]yADy;
 - (UIContextMenuConfiguration *)rovided final URL but emitted error. Trying to send anyway. Error:(UICollectionView *)arg1 %@;

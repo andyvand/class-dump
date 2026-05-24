@@ -5,5 +5,13 @@
 //
 
 @protocol TSTLayoutDynamicResizeInfoProtocol
+- (id)queue;
+- (id)layer item cannot be found in user queue;
+- (id)pabilities];
+- (_Bool);
+- (double)JumpToTimeInfo;
+- (double)E;
+- (void)A;
+- (_Bool)UserEventsFeatureResolver;
 @end
 

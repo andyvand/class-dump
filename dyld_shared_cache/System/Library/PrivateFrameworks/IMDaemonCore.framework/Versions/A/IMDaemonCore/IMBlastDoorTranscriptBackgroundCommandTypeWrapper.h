@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMBlastDoorBackgroundRequestInfo, IMBlastDoorBackgroundUpdateInfo;
-
 @interface IMBlastDoorTranscriptBackgroundCommandTypeWrapper
 {
     unsigned long long _type;
-    IMBlastDoorBackgroundUpdateInfo *_update;
-    IMBlastDoorBackgroundUpdateInfo *_refresh;
-    IMBlastDoorBackgroundRequestInfo *_request;
-    IMBlastDoorBackgroundUpdateInfo *_requestResponse;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)I24@"NSError"28@"NSDictionary"36;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
+- (void)PgQuery_DropTableSpaceStmt;
 - (id);
 - (void);
-- (void)ersForDomain:(id)arg1;
+- (void)identifiersForDomain:(id)arg1;
 - (void)stent task;
 
 // Remaining properties
-@property(retain, nonatomic) IMBlastDoorBackgroundUpdateInfo *refresh; // @synthesize refresh=_refresh;
-@property(retain, nonatomic) IMBlastDoorBackgroundRequestInfo *request; // @synthesize request=_request;
-@property(retain, nonatomic) IMBlastDoorBackgroundUpdateInfo *requestResponse; // @synthesize requestResponse=_requestResponse;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) IMBlastDoorBackgroundUpdateInfo *update; // @synthesize update=_update;
 
 @end
 

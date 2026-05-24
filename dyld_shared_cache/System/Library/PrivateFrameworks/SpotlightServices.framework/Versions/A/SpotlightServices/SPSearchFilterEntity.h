@@ -14,16 +14,16 @@
 }
 
 - (void);
+- (id)setDirectionsDestinationAddressComponents: /* Error: Ran out of types for this method. */;
+- (id)hasMuteControl;
 - (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void)ontactForContactIdentifier: /* Error: Ran out of types for this method. */;
+- (void)contactForContactIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SFPerformEntityQueryCommand *filterCommand; // @synthesize filterCommand=_filterCommand;

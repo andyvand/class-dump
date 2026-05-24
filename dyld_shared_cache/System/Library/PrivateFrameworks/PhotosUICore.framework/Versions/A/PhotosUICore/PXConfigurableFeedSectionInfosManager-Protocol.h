@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @protocol PXConfigurableFeedSectionInfosManager
+- (void);
 - (void);
 - (unsigned long long)¼%¡¡: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *earliestDate;
 @property(nonatomic) long long entryFilter;
-@property(nonatomic) unsigned long long fetchLimit;
 @end
 

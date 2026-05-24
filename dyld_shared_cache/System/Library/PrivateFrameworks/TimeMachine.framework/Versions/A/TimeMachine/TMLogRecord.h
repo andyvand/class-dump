@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface TMLogRecord
 {
     NSString *_message;
-    NSDate *_date;
-    unsigned int _level;
-    NSString *_key;
-    NSString *_file;
-    unsigned int _line;
 }
 
 - (id);
@@ -23,17 +18,11 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)separated account. Error:= %{public}@; /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) NSDate *date; // @synthesize date=_date;
-@property(readonly) NSString *file; // @synthesize file=_file;
-@property(readonly) _Bool isDebug;
-@property(readonly) NSString *key; // @synthesize key=_key;
-@property(readonly) unsigned int level; // @synthesize level=_level;
-@property(readonly) unsigned int line; // @synthesize line=_line;
 @property(readonly) NSString *message; // @synthesize message=_message;
 
 @end

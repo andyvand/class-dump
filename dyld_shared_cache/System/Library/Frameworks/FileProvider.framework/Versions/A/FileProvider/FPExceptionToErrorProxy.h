@@ -7,10 +7,9 @@
 @interface FPExceptionToErrorProxy
 {
     id _target;
-    CDUnknownBlockType _unhandledExceptionHandler;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (_Bool);
@@ -18,13 +17,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id)@;
+- (_Bool)pple.photos.CPAnalytics.queue;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) id target; // @synthesize target=_target;
 @property(copy, nonatomic) CDUnknownBlockType unhandledExceptionHandler; // @synthesize unhandledExceptionHandler=_unhandledExceptionHandler;
 
 @end

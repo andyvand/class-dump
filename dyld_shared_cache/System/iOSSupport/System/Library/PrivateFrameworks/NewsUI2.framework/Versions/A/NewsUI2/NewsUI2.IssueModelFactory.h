@@ -7,12 +7,6 @@
 @interface NewsUI2.IssueModelFactory
 {
     id issueReadingHistory;
-    id personalizationService;
-    id featureAvailability;
-    id subscriptionController;
-    id subscriptionService;
-    id paidAccessChecker;
-    id offlineIssueManager;
 }
 
 @end

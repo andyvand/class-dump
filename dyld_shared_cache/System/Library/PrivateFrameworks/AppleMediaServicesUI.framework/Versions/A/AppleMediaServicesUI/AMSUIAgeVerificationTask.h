@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSAgeVerificationTask, NSDictionary, NSString, NSViewController;
-@protocol AMSBagProtocol;
+@class ACAccount, AMSAgeVerificationTask;
 
 @interface AMSUIAgeVerificationTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSDictionary *_options;
-    NSViewController *_viewController;
-    AMSAgeVerificationTask *_task;
 }
 
 + (id);
 + (id);
++ (id)oudMaster != nil OR cloudResources.@count > 0;
 + (id);
-+ (id);
-+ (id)etadata;
-+ (id)MSUIRegulatoryAgeVerificationTaskC;
++ (id)metadata;
++ (id)So34AMSUIRegulatoryAgeVerificationTaskC;
 + (id)}@ does not implement %{public}@ or %{public}@, cannot return window.;
 + (id)fìÿ{¡;
 - (id);
 - (id);
-- (void);
+- (void)ata envelope (adjustmentData is not an NSData subclass);
+- (id)PLSearchSuggestionPropertyCompletionSuggestionDateComponents;
+- (void)copeWithUUID:(id)arg1 reply:(CDUnknownBlockType)arg2 ];
+- (id)ptying resources tables;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)G		&	M	0	@		0	#	;
+- (void);
 - (id);
-- (void)tDataProvider: /* Error: Ran out of types for this method. */;
-- (id)kClass;
+- (id);
+- (void)setDataProvider: /* Error: Ran out of types for this method. */;
+- (id)paymentSheetTaskClass;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NSString *pincode;
-@property(readonly) Class superclass;
 @property(retain) AMSAgeVerificationTask *task; // @synthesize task=_task;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

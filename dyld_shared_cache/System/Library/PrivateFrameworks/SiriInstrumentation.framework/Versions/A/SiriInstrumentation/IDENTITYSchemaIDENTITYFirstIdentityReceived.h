@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IDENTITYSchemaIDENTITYIDScoreCard, NSData;
+@class IDENTITYSchemaIDENTITYIDScoreCard;
 
 @interface IDENTITYSchemaIDENTITYFirstIdentityReceived : SISchemaInstrumentationMessage
 {
     IDENTITYSchemaIDENTITYIDScoreCard *_identityScoreCard;
-    _Bool _hasIdentityScoreCard;
 }
 
 - (void);
@@ -22,10 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)__swift5_typeref__TEXT;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)fileProtectionDeactivated;
 - (id)
 × ;
 - (id)tantVoicesCounts",&,N,V_counts;
@@ -34,9 +33,7 @@
 - (void)È5Êÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIdentityScoreCard; // @synthesize hasIdentityScoreCard=_hasIdentityScoreCard;
 @property(retain, nonatomic) IDENTITYSchemaIDENTITYIDScoreCard *identityScoreCard; // @synthesize identityScoreCard=_identityScoreCard;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

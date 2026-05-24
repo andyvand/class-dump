@@ -8,8 +8,6 @@
 {
     id $defaultActor;
     id energySiteModel;
-    id sharedContext;
-    id deduplicationInProgress;
 }
 
 @end

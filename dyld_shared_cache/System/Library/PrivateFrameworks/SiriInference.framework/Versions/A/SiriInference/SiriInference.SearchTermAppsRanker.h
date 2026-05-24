@@ -7,8 +7,6 @@
 @interface SiriInference.SearchTermAppsRanker
 {
     id candidateAppsGetter;
-    id signalsCreator;
-    id pastResults;
 }
 
 @end

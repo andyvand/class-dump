@@ -13,11 +13,11 @@
 
 + (id);
 + (id);
+- (id)i;
 - (id);
-- (id);
-- (id);
+- (id)Hm;
 - (void);
-- (void);
+- (void)attachmentPaths;
 
 @end
 

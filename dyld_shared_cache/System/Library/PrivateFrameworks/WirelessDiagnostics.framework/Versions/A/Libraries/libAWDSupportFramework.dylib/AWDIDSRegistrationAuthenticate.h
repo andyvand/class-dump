@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationAuthenticate
 {
     unsigned long long _timestamp;
-    unsigned int _connectionType;
-    int _genericError;
-    NSString *_guid;
-    unsigned int _isDSUser;
-    unsigned int _isPhoneUser;
-    int _pOSIXError;
-    unsigned int _registrationError;
-    unsigned int _resultCode;
-    unsigned int _success;
-    int _uRLError;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int genericError:1;
-        unsigned int isDSUser:1;
-        unsigned int isPhoneUser:1;
-        unsigned int pOSIXError:1;
-        unsigned int registrationError:1;
-        unsigned int resultCode:1;
-        unsigned int success:1;
-        unsigned int uRLError:1;
-    } _has;
 }
 
-- (void);
+- (void)qa;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -48,17 +24,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (_Bool);
 - (void);
-- (void);
-- (int);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)iN;
+- (int);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (void)S@y_;
+- (void);
+- (unsigned long long);
+- (_Bool)k	;
 - (_Bool);
 - (void);
 - (unsigned int);
@@ -81,36 +57,15 @@
 - (void)1Â0@ù
 × ;
 - (id)b1"atjCanceledCount"b1"atjUsedCount"b1"captiveNetsCount"b1"eapNetsCount"b1"hiddenNetsCount"b1"mostUsedCount"b1"openNonCaptiveNetsCount"b1"prefNetsCount"b1"wapiNetsCount"b1"wepNetsCount"b1"wpaNetsCount"b1"atjEnabled"b1};
-- (void)pointsFetchTaskSuccessCount:(_Bool)arg1;
-- (unsigned int)orGapLengths;
+- (void)setHasEndpointsFetchTaskSuccessCount:(_Bool)arg1;
+- (unsigned int)_majorGapLengths;
 - (void)ack;
 - (unsigned int)¬$;
-- (int);
+- (int)requestsSCO;
 - (void)dsÜÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int genericError; // @synthesize genericError=_genericError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasGenericError;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsDSUser;
-@property(nonatomic) _Bool hasIsPhoneUser;
-@property(nonatomic) _Bool hasPOSIXError;
-@property(nonatomic) _Bool hasRegistrationError;
-@property(nonatomic) _Bool hasResultCode;
-@property(nonatomic) _Bool hasSuccess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasURLError;
-@property(nonatomic) unsigned int isDSUser; // @synthesize isDSUser=_isDSUser;
-@property(nonatomic) unsigned int isPhoneUser; // @synthesize isPhoneUser=_isPhoneUser;
-@property(nonatomic) int pOSIXError; // @synthesize pOSIXError=_pOSIXError;
-@property(nonatomic) unsigned int registrationError; // @synthesize registrationError=_registrationError;
-@property(nonatomic) unsigned int resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int uRLError; // @synthesize uRLError=_uRLError;
 
 @end
 

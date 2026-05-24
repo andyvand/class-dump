@@ -11,7 +11,7 @@
     NSView *_overlaidView;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);

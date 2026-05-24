@@ -6,13 +6,9 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSString;
-
 @interface NSPhoneNumberCheckingResult : NSTextCheckingResult
 {
     struct _NSRange _range;
-    NSString *_phoneNumber;
-    id _underlyingResult;
 }
 
 + (_Bool)d, block %d is at %ld)
@@ -21,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id));
 - (id);
 - (_Bool);
 - (struct _NSRange);

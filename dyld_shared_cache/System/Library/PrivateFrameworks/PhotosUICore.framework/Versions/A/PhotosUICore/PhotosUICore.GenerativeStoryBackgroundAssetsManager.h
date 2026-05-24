@@ -7,12 +7,6 @@
 @interface PhotosUICore.GenerativeStoryBackgroundAssetsManager
 {
     id assetsManager;
-    id assetsFetcher;
-    id logger;
-    id _itemsObserver;
-    id _previousAssetsCount;
-    id _isPerformingFetch;
-    id _$observationRegistrar;
 }
 
 @end

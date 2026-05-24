@@ -17,13 +17,13 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)ES;
 - (id);
-- (id);
+- (id)apperCreate(CFAllocatorRef, FigEndpointStreamRef, CFStringRef, FigEndpointStreamRef *);
 - (void);
 - (id);
 - (id);
-- (void)ryptFailedErrorOnDecryptionRetry;
+- (void)ForceDecryptFailedErrorOnDecryptionRetry;
 - (void)t, reader:(id)arg1 %p;
 - (long long)#ñÿc
 ;

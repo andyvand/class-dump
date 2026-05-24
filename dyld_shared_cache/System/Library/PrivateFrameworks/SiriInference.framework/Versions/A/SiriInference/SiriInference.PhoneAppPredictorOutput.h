@@ -11,7 +11,7 @@
     id provider;
 }
 
-- (id);
+- (id);
 - (id)ÿ;
 
 // Remaining properties

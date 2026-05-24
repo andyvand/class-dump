@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSKeyedSettings, FBSScene, FBSSceneSpecification, NSDictionary, NSSet, _UISceneConnectionOptionDefinitionPayloadStorage;
+@class NSDictionary;
 
 @interface UISceneConnectionOptions
 {
     NSDictionary *_launchOptionsDictionary;
-    FBSScene *_fbsScene;
-    FBSSceneSpecification *_specification;
-    NSSet *_cleanupBlocks;
-    _UISceneConnectionOptionDefinitionPayloadStorage *_definitionPayloadStorage;
-    BSKeyedSettings *_connectionValues;
 }
 
-+ (id)Touch;
++ (id)triggeringTouch;
 
 @end
 

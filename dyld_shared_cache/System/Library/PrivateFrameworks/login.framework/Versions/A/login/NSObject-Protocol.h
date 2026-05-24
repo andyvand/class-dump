@@ -7,14 +7,230 @@
 @class NSString;
 
 @protocol NSObject
+- (id)*l;
+- (Class);
+- (unsigned long long)'FH*F;
+- (unsigned long long)A ;
+- (id)!(0;
+- (_Bool)<@q;
+- (_Bool)ng>
+				</dict>
+				<key>BaseMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>0.8</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1.2</real>
+				</dict>
+				<key>Tones</key>
+				<array>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.01</real>
+						<key>DelayMS</key>
+						<real>1.5</real>
+						<key>DurationMS</key>
+						<real>2</real>
+						<key>FrequencykHz</key>
+						<real>3.6</real>
+						<key>Type</key>
+						<string>Square</string>
+					</dict>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.02</real>
+						<key>DelayMS</key>
+						<real>1</real>
+						<key>DurationMS</key>
+						<real>3</real>
+						<key>FrequencykHz</key>
+						<real>1.18</real>
+						<key>Type</key>
+						<string>Sine</string>
+					</dict>
+				</array>
+				<key>ToneMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>0</real>
+					<key>Medium</key>
+					<real>0</real>
+					<key>Firm</key>
+					<real>0.2</real>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>ActuationID</key>
+			<integer>6</integer>
+			<key>Default</key>
+			<dict>
+				<key>BaseWaveform</key>
+				<dict>
+					<key>Amplitude</key>
+					<integer>35</integer>
+					<key>DurationMS</key>
+					<real>6</real>
+					<key>Type</key>
+					<string>Gaussian</string>
+				</dict>
+				<key>BaseMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>0.9</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1.3</real>
+				</dict>
+				<key>Tones</key>
+				<array>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.015</real>
+						<key>DelayMS</key>
+						<real>1.5</real>
+						<key>DurationMS</key>
+						<real>2</real>
+						<key>FrequencykHz</key>
+						<real>3.6</real>
+						<key>Type</key>
+						<string>Square</string>
+					</dict>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.06</real>
+						<key>DelayMS</key>
+						<real>1</real>
+						<key>DurationMS</key>
+						<real>3</real>
+						<key>FrequencykHz</key>
+						<real>1.263</real>
+						<key>Type</key>
+						<string>Sine</string>
+					</dict>
+				</array>
+				<key>ToneMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>0.4</real>
+					<key>Medium</key>
+					<real>0.65</real>
+					<key>Firm</key>
+					<real>0.95</real>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>ActuationID</key>
+			<integer>15</integer>
+			<key>Default</key>
+			<dict>
+				<key>BaseWaveform</key>
+				<dict>
+					<key>Amplitude</key>
+					<integer>0</integer>
+					<key>DurationMS</key>
+					<real>6</real>
+					<key>Type</key>
+					<string>Gaussian</string>
+				</dict>
+				<key>BaseMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>1</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1</real>
+				</dict>
+				<key>Tones</key>
+				<array>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.29</real>
+						<key>DelayMS</key>
+						<real>0</real>
+						<key>DurationMS</key>
+						<real>6</real>
+						<key>FrequencykHz</key>
+						<real>0.1</real>
+						<key>Type</key>
+						<string>Sine</string>
+					</dict>
+				</array>
+				<key>ToneMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>1</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1</real>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>ActuationID</key>
+			<integer>16</integer>
+			<key>Default</key>
+			<dict>
+				<key>BaseWaveform</key>
+				<dict>
+					<key>Amplitude</key>
+					<integer>0</integer>
+					<key>DurationMS</key>
+					<real>6</real>
+					<key>Type</key>
+					<string>Gaussian</string>
+				</dict>
+				<key>BaseMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>1</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1</real>
+				</dict>
+				<key>Tones</key>
+				<array>
+					<dict>
+						<key>Amplitude</key>
+						<real>0.29</real>
+						<key>DelayMS</key>
+						<real>0</real>
+						<key>DurationMS</key>
+						<real>6</real>
+						<key>FrequencykHz</key>
+						<real>0.1</real>
+						<key>Type</key>
+						<string>Sine</string>
+					</dict>
+				</array>
+				<key>ToneMultipliers</key>
+				<dict>
+					<key>Light</key>
+					<real>1</real>
+					<key>Medium</key>
+					<real>1</real>
+					<key>Firm</key>
+					<real>1</real>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
+;
+- (id)rampNitsFloorCap:length: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)samples;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

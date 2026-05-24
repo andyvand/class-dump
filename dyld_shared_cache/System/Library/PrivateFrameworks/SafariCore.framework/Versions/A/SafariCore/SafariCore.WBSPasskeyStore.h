@@ -7,8 +7,6 @@
 @interface SafariCore.WBSPasskeyStore
 {
     id isForTesting;
-    id unownedExecutor;
-    id executorQueue;
 }
 
 - (void);
@@ -16,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 
 @end
 

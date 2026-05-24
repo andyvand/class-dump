@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, SLDatabase;
+@class NSXPCConnection;
 
 @interface SLRemoteSession
 {
     NSXPCConnection *_connection;
-    SLDatabase *_database;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) SLDatabase *database; // @synthesize database=_database;
 
 @end
 

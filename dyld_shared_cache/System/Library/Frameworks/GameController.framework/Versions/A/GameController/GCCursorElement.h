@@ -6,14 +6,11 @@
 
 #import <GameController/_GCDevicePhysicalInputElement.h>
 
-@class NSSet, NSString;
 @protocol GCCursorPositionInput;
 
 @interface GCCursorElement : _GCDevicePhysicalInputElement
 {
     unsigned long long _positionChangedHandlerSlot;
-    unsigned long long _xDeltaSlot;
-    unsigned long long _yDeltaSlot;
 }
 
 + (unsigned short);
@@ -23,25 +20,13 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (CDStruct_c3b9c2ee)atialHapticCapabilityGraph;
+- (CDStruct_c3b9c2ee)SpatialHapticCapabilityGraph;
 
 // Remaining properties
-@property(readonly, copy) NSSet *aliases;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) CDStruct_c3b9c2ee delta;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedName;
 @property(readonly) id <GCCursorPositionInput> position;
-@property(copy) CDUnknownBlockType positionDidChangeHandler;
-@property(readonly, copy) NSString *sfSymbolsName;
-@property(readonly) Class superclass;
 
 @end
 

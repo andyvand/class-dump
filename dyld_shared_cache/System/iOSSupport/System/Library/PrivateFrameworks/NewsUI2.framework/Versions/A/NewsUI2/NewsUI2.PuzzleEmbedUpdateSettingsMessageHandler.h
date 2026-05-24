@@ -7,11 +7,10 @@
 @interface NewsUI2.PuzzleEmbedUpdateSettingsMessageHandler
 {
     id scriptsManager;
-    id delegate;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

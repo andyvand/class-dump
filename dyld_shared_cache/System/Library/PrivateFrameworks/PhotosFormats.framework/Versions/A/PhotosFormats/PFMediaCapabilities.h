@@ -9,7 +9,6 @@
 @interface PFMediaCapabilities
 {
     NSDictionary *_outOfBandHints;
-    NSDictionary *_capabilitiesInformation;
 }
 
 + (_Bool);
@@ -18,12 +17,12 @@
 + (_Bool);
 + (unsigned int);
 + (id);
-+ (void);
-+ (id);
++ (void)forceEnableReadOnlyManatee;
++ (id)ldReportRecordsInFlight;
 + (_Bool);
 + (_Bool);
 + (long long);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 + (id);
@@ -31,9 +30,9 @@
 + (void);
 + (id);
 + (id);
+- (long long);
 - (long long);
-- (long long);
-- (_Bool);
+- (_Bool)x;
 - (long long);
 - (long long);
 - (long long);
@@ -47,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)l9;
 - (id);
 - (long long);
 - (_Bool);
@@ -56,11 +55,10 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSDictionary *capabilitiesInformation; // @synthesize capabilitiesInformation=_capabilitiesInformation;
-@property(retain) NSDictionary *outOfBandHints; // @synthesize outOfBandHints=_outOfBandHints;
 
 @end
 

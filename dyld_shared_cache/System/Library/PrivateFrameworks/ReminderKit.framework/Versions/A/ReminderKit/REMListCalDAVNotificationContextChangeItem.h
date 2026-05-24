@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMListChangeItem;
+@class REMListChangeItem;
 
 @interface REMListCalDAVNotificationContextChangeItem
 {
@@ -23,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *calDAVNotifications;
 @property(retain, nonatomic) REMListChangeItem *listChangeItem; // @synthesize listChangeItem=_listChangeItem;
 
 @end

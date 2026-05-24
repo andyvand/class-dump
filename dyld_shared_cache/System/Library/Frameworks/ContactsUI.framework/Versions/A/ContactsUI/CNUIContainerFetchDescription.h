@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore;
+@class CNContact;
 
 @interface CNUIContainerFetchDescription
 {
     _Bool _fetchAsynchronously;
-    _Bool _fetchingDuringLaunch;
-    CNContact *_contact;
-    CNContactStore *_mainContactStore;
-    CNContactStore *_alternateContactStore;
 }
 
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *alternateContactStore; // @synthesize alternateContactStore=_alternateContactStore;
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) _Bool fetchAsynchronously; // @synthesize fetchAsynchronously=_fetchAsynchronously;
-@property(readonly, nonatomic) _Bool fetchingDuringLaunch; // @synthesize fetchingDuringLaunch=_fetchingDuringLaunch;
-@property(readonly, nonatomic) CNContactStore *mainContactStore; // @synthesize mainContactStore=_mainContactStore;
 
 @end
 

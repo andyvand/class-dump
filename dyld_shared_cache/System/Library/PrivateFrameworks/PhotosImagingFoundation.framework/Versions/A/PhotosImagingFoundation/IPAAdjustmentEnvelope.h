@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAAdjustmentStack, NSString;
+@class IPAAdjustmentStack;
 
 @interface IPAAdjustmentEnvelope
 {
     IPAAdjustmentStack *_adjustmentStack;
-    NSString *_originator;
-    NSString *_format;
-    NSString *_formatVersion;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -25,16 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)imageBuffer;
 - (id);
 - (void)ource/color/IPAChecksum.m;
 - (void)öQõ;
 
 // Remaining properties
 @property(retain, nonatomic) IPAAdjustmentStack *adjustmentStack; // @synthesize adjustmentStack=_adjustmentStack;
-@property(retain, nonatomic) NSString *format; // @synthesize format=_format;
-@property(retain, nonatomic) NSString *formatVersion; // @synthesize formatVersion=_formatVersion;
-@property(retain, nonatomic) NSString *originator; // @synthesize originator=_originator;
 
 @end
 

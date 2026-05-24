@@ -5,14 +5,13 @@
 //
 
 @interface UnknownClass (NSDefaultContentsScale)
-+ (id);
++ (id)6zg;
 - (unsigned long long);
-- (void);
+- (void)@;
 - (void);
 - (double);
 
 // Remaining properties
 @property(getter=NS_defaultContentsScale, setter=NS_setDefaultContentsScale:) double NS_defaultContentsScale;
-@property(setter=NS_setWindowEventMask:) unsigned long long NS_windowEventMask;
 @end
 

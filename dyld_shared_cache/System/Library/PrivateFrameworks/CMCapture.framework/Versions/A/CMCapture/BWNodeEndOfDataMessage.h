@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)mapAnimationInfo:cacheData:state: /* Error: Ran out of types for this method. */;
 
 @end
 

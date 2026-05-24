@@ -16,10 +16,10 @@
 + (_Bool)X"!ôAùqî%ð1Â0@ù
 × ;
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)k%@9QqA;
+- (void)scannedNetworksExcludedFromAJDueToBlacklistReasonCounts;
 - (void)s:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties

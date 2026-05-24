@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButtonCell, NSTableColumn;
+@class NSPopUpButtonCell;
 
 @interface ABPropertyHeaderCell
 {
     NSPopUpButtonCell *_popup;
-    NSTableColumn *_currentColumn;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (long long);
-- (void);
+- (long long)3;
+- (void);
 - (void);
 - (id);
 - (void);

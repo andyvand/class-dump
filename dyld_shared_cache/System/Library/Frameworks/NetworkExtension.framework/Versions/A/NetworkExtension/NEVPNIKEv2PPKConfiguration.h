@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEKeychainItem, NSData, NSString;
+@class NSString;
 
 @interface NEVPNIKEv2PPKConfiguration
 {
     _Bool _isMandatory;
-    NSString *_identifier;
-    NSData *_keychainReference;
-    NEKeychainItem *_keychainItem;
 }
 
-+ (_Bool);
++ (_Bool)setTrafficClassToUse: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -22,15 +19,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)diversifier;
 - (void)NSArray">36;
 - (_Bool)setPreferAdvisory:(id)arg1;
 - (id):(int)arg1 ];
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier;
-@property _Bool isMandatory; // @synthesize isMandatory=_isMandatory;
-@property(readonly, copy) NSData *keychainReference; // @synthesize keychainReference=_keychainReference;
 
 @end
 

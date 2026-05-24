@@ -11,7 +11,6 @@
 @interface CLRunLoopSilo : CLSilo
 {
     CLRunLoopSiloThread *_siloThread;
-    _Bool _useCLPermissiveTimer;
 }
 
 - (id);
@@ -30,8 +29,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void)"event":(CDUnknownBlockType)arg1 %{public, location:escape_only}s, "MessageName":%{public, location:escape_only}s, "ReplyHandlerIdentifier":%{public}u} /* Error: Ran out of types for this method. */;
 

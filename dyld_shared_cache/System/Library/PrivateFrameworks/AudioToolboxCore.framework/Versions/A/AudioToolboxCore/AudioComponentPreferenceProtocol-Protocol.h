@@ -5,5 +5,6 @@
 //
 
 @protocol AudioComponentPreferenceProtocol
+- (void)=;
 @end
 

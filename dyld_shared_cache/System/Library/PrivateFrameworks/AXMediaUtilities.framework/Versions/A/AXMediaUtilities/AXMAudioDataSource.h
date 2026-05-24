@@ -9,18 +9,12 @@
 @interface AXMAudioDataSource
 {
     _Bool _circular;
-    void *_sampleBuffer;
-    unsigned long long _length;
-    unsigned long long _currentSampleIndex;
-    double _level;
-    NSString *_name;
-    double _sampleRate;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)|;
 - (void);
 - (void);
 - (void *);
@@ -30,20 +24,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)
+c=;
 - (double);
 - (void);
 - (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic, getter=isCircular) _Bool circular; // @synthesize circular=_circular;
-@property(nonatomic) unsigned long long currentSampleIndex; // @synthesize currentSampleIndex=_currentSampleIndex;
-@property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(nonatomic) double level; // @synthesize level=_level;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) void *sampleBuffer; // @synthesize sampleBuffer=_sampleBuffer;
-@property(readonly, nonatomic) double sampleRate; // @synthesize sampleRate=_sampleRate;
 
 @end
 

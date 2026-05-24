@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)ary/Frameworks/UserNotifications.framework/Versions/A/UserNotifications;
 - (void)éNÉÖ{;
 
 @end

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface TSDGPUDataArrayBuffer
 {
     NSMutableArray *_vertexAttributes;
-    unsigned long long _vertexCount;
-    unsigned long long _dataTypeSizeInBytes;
-    unsigned int _bufferUsage;
-    _Bool _usesMetalBuffer;
-    long long *_needsUpdateFirstIndex;
-    long long *_needsUpdateLastIndex;
-    char *_gLData;
-    _Bool _dataBufferHasBeenSetup;
-    unsigned int *_gLDataBuffers;
-    NSMutableDictionary *_attributeOffsetsDictionary;
-    NSArray *_metalDataBuffers;
-    unsigned long long _bufferIndex;
-    unsigned long long _dataBufferEntrySize;
-    unsigned long long _bufferCount;
-    unsigned long long _currentBufferIndex;
 }
 
 - (void);
@@ -32,15 +17,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)NMPCPlaybackSessionManagerErrorCode;
 - (unsigned long long);
-- (CDStruct_83984b6f);
+- (CDStruct_818bb265);
 - (CDStruct_869f9c67);
-- (CDStruct_6e3f967a);
+- (CDStruct_b2fbf00d);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -48,25 +33,15 @@
 - (void);
 - (void);
 - (float);
-- (unsigned long long);
+- (unsigned long long)UI222WebEmbedInteractorTypeP;
 - (void);
 - (id);
 - (unsigned long long);
-- (char *);
+- (char *)%{public}@;
 - (void)elds that overlap selections.;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bufferCount; // @synthesize bufferCount=_bufferCount;
-@property(nonatomic) unsigned long long currentBufferIndex; // @synthesize currentBufferIndex=_currentBufferIndex;
-@property(readonly, nonatomic) unsigned long long dataBufferEntrySize; // @synthesize dataBufferEntrySize=_dataBufferEntrySize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasUpdatedData;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

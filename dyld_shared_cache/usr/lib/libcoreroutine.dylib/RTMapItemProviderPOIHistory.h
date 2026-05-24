@@ -6,12 +6,11 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTMapItemProviderPOIHistoryParameters, RTPlaceInferenceQueryStore;
+@class RTPlaceInferenceQueryStore;
 
 @interface RTMapItemProviderPOIHistory : RTMapItemProviderBase
 {
     RTPlaceInferenceQueryStore *_placeInferenceQueryStore;
-    RTMapItemProviderPOIHistoryParameters *_parameters;
 }
 
 - (id);
@@ -20,20 +19,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (void)ons ending yesterday count, %lu, total fetched visit count, %lu, visits ending yesterday count, %lu, visits before that, %lu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) RTMapItemProviderPOIHistoryParameters *parameters; // @synthesize parameters=_parameters;
 @property(retain, nonatomic) RTPlaceInferenceQueryStore *placeInferenceQueryStore; // @synthesize placeInferenceQueryStore=_placeInferenceQueryStore;
-@property(readonly) Class superclass;
 
 @end
 

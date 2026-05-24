@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)t",&,N,V__attributesToInclude;
 
 // Remaining properties
 @property(retain) NSURL *quotaURL; // @synthesize quotaURL=_quotaURL;

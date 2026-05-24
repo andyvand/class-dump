@@ -6,21 +6,12 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class EKEventDetailTitleCell, NSDate, NSObject, UIView;
-@protocol EKEventTitleDetailItemDelegate;
+@class EKEventDetailTitleCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventTitleDetailItem : EKEventDetailItem
 {
     EKEventDetailTitleCell *_cell;
-    _Bool _cellNeedsUpdate;
-    _Bool _hidesTopSeparator;
-    _Bool _hidesBottomSeparator;
-    _Bool _nonInteractivePlatterMode;
-    _Bool _hasMapItemLaunchOptionFromTimeToLeaveNotification;
-    NSDate *_proposedTime;
-    NSObject<EKEventTitleDetailItemDelegate> *_editDelegate;
-    unsigned long long _numberOfTitleLines;
 }
 
 - (double);
@@ -29,30 +20,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (id)@@"NSNumber";
+- (_Bool);
+- (void);
+- (void)@@"NSNumber";
+- (void);
+- (_Bool);
+- (_Bool)g;
+- (id))a;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)44@0:8@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36 /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)e;
+- (_Bool);
+- (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)cache;
 - (id);
-- (_Bool);
+- (_Bool)displayStyle;
 - (_Bool);
 - (void);
 - (void);
@@ -60,19 +51,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (double);
-- (void)etOriginContext: /* Error: Ran out of types for this method. */;
-- (void)terruptible;
+- (void)setOriginContext: /* Error: Ran out of types for this method. */;
+- (void)isInterruptible;
 - (_Bool)EKUISingleLineTitleTableViewCell;
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<EKEventTitleDetailItemDelegate> *editDelegate; // @synthesize editDelegate=_editDelegate;
-@property(nonatomic) _Bool hasMapItemLaunchOptionFromTimeToLeaveNotification; // @synthesize hasMapItemLaunchOptionFromTimeToLeaveNotification=_hasMapItemLaunchOptionFromTimeToLeaveNotification;
-@property(nonatomic) _Bool hidesBottomSeparator; // @synthesize hidesBottomSeparator=_hidesBottomSeparator;
 @property(nonatomic) _Bool hidesTopSeparator; // @synthesize hidesTopSeparator=_hidesTopSeparator;
-@property(nonatomic) _Bool nonInteractivePlatterMode; // @synthesize nonInteractivePlatterMode=_nonInteractivePlatterMode;
-@property(nonatomic) unsigned long long numberOfTitleLines; // @synthesize numberOfTitleLines=_numberOfTitleLines;
-@property(retain, nonatomic) NSDate *proposedTime; // @synthesize proposedTime=_proposedTime;
-@property(readonly, nonatomic) UIView *sourceViewForPopover;
 
 @end
 

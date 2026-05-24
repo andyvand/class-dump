@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-+ (Class);
++ (Class)ping for MPModelPropertyTVShowEditorNotes;
 + (_Bool)pMÿÓ;
 - (void);
-- (void);
+- (void)L_;
 - (void)!øGù1\°1Â0@ù
 × ;
 - (void)ationFactor:(id)arg1 decelerationLnFactor:velocity: /* Error: Ran out of types for this method. */;
 - (void)¼;
-- (void)Value;
+- (void)UIBadgeValue;
 
 @end
 

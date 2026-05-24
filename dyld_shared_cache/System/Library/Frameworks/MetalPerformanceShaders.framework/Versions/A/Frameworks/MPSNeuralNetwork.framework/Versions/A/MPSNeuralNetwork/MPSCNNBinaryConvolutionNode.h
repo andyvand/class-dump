@@ -11,12 +11,6 @@
 @interface MPSCNNBinaryConvolutionNode : MPSCNNConvolutionNode
 {
     float _scaleValue;
-    unsigned long long _type;
-    unsigned long long _flags;
-    float *_outputBiasTerms;
-    float *_outputScaleTerms;
-    float *_inputBiasTerms;
-    float *_inputScaleTerms;
 }
 
 + (id);
@@ -26,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)` ;
 
 // Remaining properties
 @property(readonly, nonatomic) MPSCNNConvolutionGradientStateNode *convolutionGradientState;

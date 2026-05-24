@@ -7,7 +7,6 @@
 @interface _PXTimerTarget
 {
     id _target;
-    SEL _selector;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 - (void)<h;;
 
 // Remaining properties
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

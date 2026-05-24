@@ -11,9 +11,6 @@
 @interface NSCachingFetchRequest : NSFetchRequest
 {
     NSDictionary *_substitutionVariables;
-    id _cachedInfo;
-    id _identifier;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -25,14 +22,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id _identifier; // @synthesize _identifier;
-@property(copy, nonatomic) NSDictionary *substitutionVariables;
 
 @end
 

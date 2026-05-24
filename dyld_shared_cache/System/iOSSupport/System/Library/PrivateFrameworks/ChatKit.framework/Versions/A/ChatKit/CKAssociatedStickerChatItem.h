@@ -6,19 +6,17 @@
 
 #import <ChatKit/CKAssociatedMessageChatItem.h>
 
-@class CKMediaObject, IMSticker, NSDate, NSDictionary, NSNumber, NSString;
+@class IMSticker, NSString;
 
 @interface CKAssociatedStickerChatItem : CKAssociatedMessageChatItem
 {
     IMSticker *_sticker;
-    CKMediaObject *_mediaObject;
-    long long _stickerReactionIndex;
 }
 
 + (_Bool);
 + (void);
-+ (void);
-+ (_Bool);
++ (void)e;
++ (_Bool)exes;
 + (double);
 + (void);
 + (void);
@@ -31,12 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
+- (void)_So18NSAttributedStringCtc;
+- (void)e;
+- (id)inationRef;
+- (struct CGSize)the note;
+- (id)FetchRecordForAcceptedShare;
+- (id)-list, ul.Apple-dash-list ul { list-style-type:(id)arg1 %@; }</style>;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -45,7 +43,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (_Bool);
 - (id);
@@ -60,39 +58,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (Class);
 - (void);
 - (id)0;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *adamID;
-@property(readonly, nonatomic) NSDictionary *attributionInfo;
-@property(readonly, nonatomic) _Bool canDeleteFromStickerDetails;
-@property(readonly, nonatomic) _Bool canShowInAppStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCustomSticker;
-@property(readonly, nonatomic) _Bool isDeletable;
-@property(readonly, nonatomic) _Bool isDraggable;
-@property(readonly, nonatomic) _Bool isReaction;
-@property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(readonly, nonatomic) IMSticker *saveableSticker;
-@property(copy, nonatomic) IMSticker *sticker; // @synthesize sticker=_sticker;
-@property(readonly, nonatomic) NSDate *stickerDetailsDateAdded;
-@property(readonly, nonatomic) NSString *stickerDetailsSubtitleText;
 @property(readonly, nonatomic) NSString *stickerDetailsTitleText;
-@property(readonly, nonatomic) NSString *stickerDetailsTransferGUID;
-@property(readonly, nonatomic) NSString *stickerPackGUID;
-@property(readonly, nonatomic) NSString *stickerPackName;
-@property(nonatomic) long long stickerReactionIndex; // @synthesize stickerReactionIndex=_stickerReactionIndex;
-@property(readonly, nonatomic) NSDictionary *stickerUserInfo;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *transferGUID;
 
 @end
 

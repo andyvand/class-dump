@@ -9,18 +9,16 @@
 @interface CTCallCenter
 {
     NSSet *_currentCalls;
-    CDUnknownBlockType _callEventHandler;
 }
 
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id):(struct dispatch_queue_s *)arg1;
 - (void)
 × ;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callEventHandler; // @synthesize callEventHandler=_callEventHandler;
 @property(readonly, retain) NSSet *currentCalls; // @synthesize currentCalls=_currentCalls;
 
 @end

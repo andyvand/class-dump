@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOEdgeLabel;
-
 @interface USOSchemaUSOEdge : SISchemaInstrumentationMessage
 {
     unsigned int _fromIndex;
-    unsigned int _toIndex;
-    USOSchemaUSOEdgeLabel *_label;
-    struct {
-        unsigned int fromIndex:1;
-        unsigned int toIndex:1;
-    } _has;
-    _Bool _hasLabel;
 }
 
 - (void);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
@@ -37,24 +28,18 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)_didExecuteCommandWithCNSaveRequest;
+- (_Bool)ord_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INDEXED BY message_idx_expire_state WHERE   (m.expire_state = %d OR m.expire_state = %d)  AND m.item_type == 0   AND m.schedule_type == 0   AND m.ROWID > ? ORDER BY m.date ASC;
 - (id);
-- (id);
-- (id)Count;
-- (id)oluteCount6Hr;
+- (id)@	;
+- (id)deleteSiriActivationCount;
+- (id)_nowPlayingAbsoluteCount6Hr;
 - (void)¤è;
-- (void)delFinal;
-- (_Bool)ROUTERDECISIONSOURCE_OVERRIDES;
+- (void)sortedScoreModelFinal;
+- (_Bool)NLROUTERDECISIONSOURCE_OVERRIDES;
 
 // Remaining properties
 @property(nonatomic) unsigned int fromIndex; // @synthesize fromIndex=_fromIndex;
-@property(nonatomic) _Bool hasFromIndex;
-@property(nonatomic) _Bool hasLabel; // @synthesize hasLabel=_hasLabel;
-@property(nonatomic) _Bool hasToIndex;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) USOSchemaUSOEdgeLabel *label; // @synthesize label=_label;
-@property(nonatomic) unsigned int toIndex; // @synthesize toIndex=_toIndex;
 
 @end
 

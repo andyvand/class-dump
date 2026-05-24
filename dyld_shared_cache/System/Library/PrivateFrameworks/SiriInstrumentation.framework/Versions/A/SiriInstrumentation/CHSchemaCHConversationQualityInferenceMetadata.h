@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface CHSchemaCHConversationQualityInferenceMetadata : SISchemaInstrumentationMessage
 {
     int _conversationQualityComplexity;
-    _Bool _issueDetected;
-    NSArray *_issueCategorys;
-    NSString *_rationale;
-    struct {
-        unsigned int conversationQualityComplexity:1;
-        unsigned int issueDetected:1;
-    } _has;
-    _Bool _hasRationale;
 }
 
 - (void);
@@ -51,19 +41,12 @@
 - (_Bool);
 - (id);
 - (id)xtualReplayBiomeRecordCreated";
-- (id)EntityCallFailed;
+- (id)ExecutorSiriSchemaExecutorStringQueryEntityCallFailed;
 - (id)¤;
 - (void);
 
 // Remaining properties
 @property(nonatomic) int conversationQualityComplexity; // @synthesize conversationQualityComplexity=_conversationQualityComplexity;
-@property(nonatomic) _Bool hasConversationQualityComplexity;
-@property(nonatomic) _Bool hasIssueDetected;
-@property(nonatomic) _Bool hasRationale; // @synthesize hasRationale=_hasRationale;
-@property(copy, nonatomic) NSArray *issueCategorys; // @synthesize issueCategorys=_issueCategorys;
-@property(nonatomic) _Bool issueDetected; // @synthesize issueDetected=_issueDetected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *rationale; // @synthesize rationale=_rationale;
 
 @end
 

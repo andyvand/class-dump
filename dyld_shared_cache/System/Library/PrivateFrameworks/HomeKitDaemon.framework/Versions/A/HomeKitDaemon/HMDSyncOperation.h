@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSyncOperationOptions, HMFTimer, NSArray, NSMutableArray, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSyncOperation
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_operationCompletions;
-    NSUUID *_identifier;
-    HMFTimer *_delayTimer;
-    CDUnknownBlockType _operationBlock;
-    HMDSyncOperationOptions *_options;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -33,24 +28,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (CDUnknownBlockType);
 - (id);
 - (void)àÐ!Bù±1Â0@ù
 × ;
-- (id)n;
+- (id)HMDAccessoryFirmwareUpdateSession;
 - (unsigned long long) 	;
 - (id)ntifier. readerPublicKeyExternalRepresentation:%@, readerGroupIdentifier:%@ /* Error: Ran out of types for this method. */;
-- (void)ds_value;
+- (void)root_general_accessibility_interaction_ignoreRepeat_seconds_value;
 
 // Remaining properties
-@property(retain, nonatomic) HMFTimer *delayTimer; // @synthesize delayTimer=_delayTimer;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) CDUnknownBlockType operationBlock; // @synthesize operationBlock=_operationBlock;
-@property(readonly) NSArray *operationCompletions;
-@property(readonly, nonatomic) unsigned long long operationType;
-@property(readonly, nonatomic) HMDSyncOperationOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSString *zoneName;
 
 @end
 

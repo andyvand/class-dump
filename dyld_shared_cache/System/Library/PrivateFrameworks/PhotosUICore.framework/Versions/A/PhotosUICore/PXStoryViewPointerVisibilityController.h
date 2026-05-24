@@ -6,19 +6,18 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class PXStoryModel, PXStoryViewModel;
+@class PXStoryViewModel;
 
 @interface PXStoryViewPointerVisibilityController : PXStoryController
 {
     PXStoryViewModel *_viewModel;
-    PXStoryModel *_mainModel;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -28,12 +27,11 @@
 - (void);
 - (void);
 - (id);
-- (void)ibraryPreview;
+- (void)PXSharedLibrary_FilterMenu_Subtitle_FromSharedLibraryPreview;
 - (void)%³ôè|ÿ³ðè|ÿ;
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak PXStoryModel *mainModel; // @synthesize mainModel=_mainModel;
 @property(nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

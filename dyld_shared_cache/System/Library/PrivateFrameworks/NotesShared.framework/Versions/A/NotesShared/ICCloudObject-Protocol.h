@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, CKRecordID, NSManagedObjectID, NSString;
+@class CKRecord, CKRecordID, NSArray;
 
 @protocol ICCloudObject
++ (void);
++ (NSArray *)rks/Foundation.framework/Versions/C/Foundation;
+- (CKRecordID *);
+- (NSArray *)#;
+- (void);
+- (CKRecord *)w;
+- (_Bool);
+- (void)3;
+- (CKRecord *)T;
+- (_Bool)er '%@' with IP address '%@' to locale '%@';
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPresentableContent;
-@property(readonly, nonatomic) _Bool isInICloudAccount;
-@property(readonly, nonatomic) _Bool isValidObject;
-@property(readonly, copy, nonatomic) NSString *loggingDescription;
-@property(readonly, nonatomic) _Bool needsToBeDeletedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBeFetchedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBePushedToCloud;
-@property(readonly, nonatomic) _Bool needsToSaveUserSpecificRecord;
-@property(readonly, nonatomic) unsigned long long numberOfCommonRecordAssets;
-@property(readonly, nonatomic) unsigned long long numberOfUserSpecificRecordAssets;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @property(readonly, copy, nonatomic) CKRecordID *recordID;
-@property(readonly, copy, nonatomic) NSString *recordType;
-@property(readonly, nonatomic) _Bool shouldAlwaysDownloadAssets;
-@property(readonly, copy, nonatomic) CKRecordID *userSpecificRecordID;
-@property(readonly, copy, nonatomic) NSString *userSpecificRecordType;
-@property(readonly, retain, nonatomic) CKRecord *userSpecificServerRecord;
-@property(readonly, nonatomic) _Bool wantsUserSpecificRecord;
 @end
 

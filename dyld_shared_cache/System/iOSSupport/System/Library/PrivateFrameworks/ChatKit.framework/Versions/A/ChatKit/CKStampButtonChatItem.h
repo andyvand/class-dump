@@ -10,11 +10,11 @@
 {
 }
 
-- (_Bool);
-- (BOOL);
+- (_Bool)wantsFollowingNewLine;
+- (BOOL)setTextAlignment:range:inTextStorage:inTextView: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (id);
-- (_Bool);
+- (_Bool)ancestorMap;
 - (_Bool);
 - (struct UIEdgeInsets);
 - (Class);

@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 @protocol IMGroupTypingTrackingControllerDelegate;
 
 @interface IMGroupTypingTrackingController
 {
     id <IMGroupTypingTrackingControllerDelegate> _delegate;
-    IMHandle *_handleToRemoveViaAnimation;
-    NSMutableDictionary *_pluginPayloads;
-    NSMutableArray *_typingHandles;
-    NSMutableArray *_scheduledTimers;
 }
 
 + (double)`«;
 - (void);
-- (void);
+- (void)Y?;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)AL;
 - (void);
 - (void);
 - (id);
@@ -39,18 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *currentTypingHandles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMGroupTypingTrackingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IMHandle *handleToRemoveViaAnimation; // @synthesize handleToRemoveViaAnimation=_handleToRemoveViaAnimation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *pluginPayloads; // @synthesize pluginPayloads=_pluginPayloads;
-@property(retain, nonatomic) NSMutableArray *scheduledTimers; // @synthesize scheduledTimers=_scheduledTimers;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *typingHandles; // @synthesize typingHandles=_typingHandles;
 
 @end

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, WBSCoalescedAsynchronousWriter, WBSPerSitePreference, WBSSafariBookmarksSyncAgentProxy;
-@protocol OS_dispatch_queue, WBSPerSitePreferenceManagerDelegate;
+@class NSMutableDictionary, WBSPerSitePreference;
 
 __attribute__((visibility("hidden")))
 @interface ZoomPreferenceManager
 {
     NSMutableDictionary *_mapOfHostnamesToZoomPreferences;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSCoalescedAsynchronousWriter *_zoomPreferencesWriter;
-    long long _zoomPreferencesLoadingStatus;
-    NSURL *_preferencesFileURL;
-    NSMutableDictionary *_mapOfCKRecordNamesToCKRecords;
-    id <WBSPerSitePreferenceManagerDelegate> _delegate;
-    double _defaultPageZoomFactor;
-    WBSSafariBookmarksSyncAgentProxy *_syncProxy;
-    WBSPerSitePreference *_pageZoomPreference;
 }
 
 + (id);
@@ -40,17 +30,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -58,34 +41,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)encodedString;
 - (void) ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultPageZoomFactor; // @synthesize defaultPageZoomFactor=_defaultPageZoomFactor;
-@property(nonatomic) __weak id <WBSPerSitePreferenceManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasDynamicPreferenceValues;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WBSPerSitePreference *pageZoomPreference; // @synthesize pageZoomPreference=_pageZoomPreference;
-@property(readonly, nonatomic) _Bool shouldDeleteUnrecognizedPreference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(retain, nonatomic) WBSSafariBookmarksSyncAgentProxy *syncProxy; // @synthesize syncProxy=_syncProxy;
 
 @end
 

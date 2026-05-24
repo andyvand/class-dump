@@ -6,15 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHNLRouterBridgeSubComponentFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
-- (void);
+- (void)`;
 - (id);
 - (_Bool);
 - (void);
@@ -25,15 +22,13 @@
 - (id);
 - (id)0@ù
 × ;
-- (id)rdDeleted;
+- (id)_contextualReplayBiomeRecordDeleted;
 - (id)ary",&,N,V_pnrodIntelligenceFlowPlannerGrainSummary;
 - (void)äÿÿÿ5>;
 - (int)ðC%;
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

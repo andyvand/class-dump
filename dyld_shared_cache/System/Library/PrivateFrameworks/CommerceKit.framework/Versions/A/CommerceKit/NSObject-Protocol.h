@@ -7,14 +7,22 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)is within threshold:%@ /* Error: Ran out of types for this method. */;
+- (id)tNotificationDate is within threshold:%@ /* Error: Ran out of types for this method. */;
+- (id)lu seconds;
+- (id)peAssetTrashNotificationThreshold set:(SEL)arg1 %lu seconds;
+- (id)fication:(SEL)arg1 Custom PLLibraryScopeAssetTrashNotificationThreshold set:%lu seconds /* Error: Ran out of types for this method. */;
+- (Class)te:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)une;
+- (struct _NSZone *);
+
+@optional
+- (NSString *)M.TextSegmentCardinalNumber} characters;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

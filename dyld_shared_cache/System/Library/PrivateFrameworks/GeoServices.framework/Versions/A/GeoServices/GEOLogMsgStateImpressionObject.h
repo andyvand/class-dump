@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOImpressionObjectId, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateImpressionObject
 {
     PBUnknownFields *_unknownFields;
-    GEOImpressionObjectId *_impressionObjectId;
 }
 
-+ (_Bool)tAutocomplete:(id)arg1;
++ (_Bool)setHasSupportDirectionIntentAutocomplete:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
@@ -24,19 +23,17 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)rks/SharedFileList.framework/Versions/A/SharedFileList;
 - (_Bool);
 - (void);
-- (id)tyleZoomLevel;
-- (id)ceFromHereToParkedCar: /* Error: Ran out of types for this method. */;
+- (id)styleZoomLevel;
+- (id)setDistanceFromHereToParkedCar: /* Error: Ran out of types for this method. */;
 - (id)ailed:requestKey != ((void*)0) /* Error: Ran out of types for this method. */;
 - (id)l;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasImpressionObjectId;
-@property(retain, nonatomic) GEOImpressionObjectId *impressionObjectId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

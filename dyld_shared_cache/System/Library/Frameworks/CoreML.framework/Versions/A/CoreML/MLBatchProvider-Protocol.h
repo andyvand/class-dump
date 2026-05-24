@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MLFeatureProvider;
+
 @protocol MLBatchProvider
+- (id <MLFeatureProvider>);
 - (long long);
 
 // Remaining properties

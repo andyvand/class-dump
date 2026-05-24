@@ -9,26 +9,18 @@
 @interface CIRectangleFeature : CIFeature
 {
     struct CGRect bounds;
-    struct CGPoint topLeft;
-    struct CGPoint topRight;
-    struct CGPoint bottomLeft;
-    struct CGPoint bottomRight;
 }
 
 - (id);
 - (struct CGPoint);
+- (struct CGPoint)!;
 - (struct CGPoint);
-- (struct CGPoint);
-- (id);
+- (id)_;
 - (struct CGRect);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly) struct CGPoint bottomLeft; // @synthesize bottomLeft;
-@property(readonly) struct CGPoint bottomRight; // @synthesize bottomRight;
 @property(readonly) struct CGRect bounds; // @synthesize bounds;
-@property(readonly) struct CGPoint topLeft; // @synthesize topLeft;
-@property(readonly) struct CGPoint topRight; // @synthesize topRight;
 
 @end
 

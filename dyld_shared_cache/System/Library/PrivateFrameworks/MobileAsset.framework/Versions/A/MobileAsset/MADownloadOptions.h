@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSString;
-
 @interface MADownloadOptions
 {
     _Bool _allowsCellularAccess;
-    _Bool _canUseLocalCacheServer;
-    _Bool _discretionary;
-    _Bool _disableUI;
-    _Bool _allowsExpensiveAccess;
-    _Bool _requiresPowerPluggedIn;
-    _Bool _prefersInfraWiFi;
-    _Bool _liveServerCatalogOnly;
-    _Bool _liveServerCatalogOnlyIsOverridden;
-    _Bool _allowDaemonConnectionRetries;
-    _Bool _allowsConstrainedAccess;
-    long long _timeoutIntervalForResource;
-    NSMutableDictionary *_additionalServerParams;
-    NSString *_sessionId;
-    NSString *_downloadAuthorizationHeader;
-    NSDictionary *_analyticsData;
-    NSData *_decryptionKey;
-    NSString *_sourceDirectory;
 }
 
-+ (_Bool);
++ (_Bool)_;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (void);
+- (id)remoteCertificateAuthorityReferences;
+- (long long)NEIKEv2ChildSAProposal;
+- (void)controlSocket;
 - (_Bool);
 - (id);
 - (id);
@@ -45,55 +26,38 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)_nearbyLoisFromVisit:(_Bool)arg1;
+- (void)N,V_parameters;
+- (void)afetyCacheRecordsWithQos,error,%@;
+- (_Bool)id parameter not satisfying:start < end /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)f;
 - (id);
 - (void);
-- (_Bool)bjectForKey:ofClass: /* Error: Ran out of types for this method. */;
-- (void)licy:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)secureCodedObjectForKey:ofClass: /* Error: Ran out of types for this method. */;
+- (void)continueAtomicLock:(_Bool)arg1 ofAtomicInstance:withNeedPolicy:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)ication failed.;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *additionalServerParams; // @synthesize additionalServerParams=_additionalServerParams;
-@property(nonatomic) _Bool allowDaemonConnectionRetries; // @synthesize allowDaemonConnectionRetries=_allowDaemonConnectionRetries;
 @property(nonatomic) _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property(nonatomic) _Bool allowsConstrainedAccess; // @synthesize allowsConstrainedAccess=_allowsConstrainedAccess;
-@property(nonatomic) _Bool allowsExpensiveAccess; // @synthesize allowsExpensiveAccess=_allowsExpensiveAccess;
-@property(retain, nonatomic) NSDictionary *analyticsData; // @synthesize analyticsData=_analyticsData;
-@property(nonatomic) _Bool canUseLocalCacheServer; // @synthesize canUseLocalCacheServer=_canUseLocalCacheServer;
-@property(retain, nonatomic) NSData *decryptionKey; // @synthesize decryptionKey=_decryptionKey;
-@property(nonatomic) _Bool disableUI; // @synthesize disableUI=_disableUI;
-@property(nonatomic) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(retain, nonatomic) NSString *downloadAuthorizationHeader; // @synthesize downloadAuthorizationHeader=_downloadAuthorizationHeader;
-@property(nonatomic) _Bool liveServerCatalogOnly; // @synthesize liveServerCatalogOnly=_liveServerCatalogOnly;
-@property(nonatomic) _Bool liveServerCatalogOnlyIsOverridden; // @synthesize liveServerCatalogOnlyIsOverridden=_liveServerCatalogOnlyIsOverridden;
-@property(nonatomic) _Bool prefersInfraWiFi; // @synthesize prefersInfraWiFi=_prefersInfraWiFi;
-@property(nonatomic) _Bool requiresPowerPluggedIn; // @synthesize requiresPowerPluggedIn=_requiresPowerPluggedIn;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(retain, nonatomic) NSString *sourceDirectory; // @synthesize sourceDirectory=_sourceDirectory;
-@property(nonatomic) long long timeoutIntervalForResource; // @synthesize timeoutIntervalForResource=_timeoutIntervalForResource;
 
 @end
 

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSMutableOrderedSet, NSPointerArray;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewDragSourceControllerDragState
 {
     _Bool _dragItemsCreatedForReordering;
-    NSMutableOrderedSet *_dataSourceIndexPathsOfDraggingItems;
-    NSPointerArray *_dragItemsWithRebasableIndexPaths;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)replicationPhoneNumbers;
+- (void)replicating;
+- (void)recoverMessagesWithChatGUIDs:(id)arg1 queryID: /* Error: Ran out of types for this method. */;
+- (void)recoverMessagesWithChatGUIDs:(id)arg1;
+- (_Bool)_messagesPendingUpdateT3ToCloudKitWithLimit:(id)arg1 attemptCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -28,15 +26,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)MessageWriteboard;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableOrderedSet *dataSourceIndexPathsOfDraggingItems; // @synthesize dataSourceIndexPathsOfDraggingItems=_dataSourceIndexPathsOfDraggingItems;
-@property(readonly, nonatomic) NSIndexPath *dragFromDataSourceIndexPath;
-@property(nonatomic) _Bool dragItemsCreatedForReordering; // @synthesize dragItemsCreatedForReordering=_dragItemsCreatedForReordering;
-@property(retain, nonatomic) NSPointerArray *dragItemsWithRebasableIndexPaths; // @synthesize dragItemsWithRebasableIndexPaths=_dragItemsWithRebasableIndexPaths;
-@property(readonly, nonatomic) NSArray *draggingDataSourceIndexPaths;
 
 @end
 

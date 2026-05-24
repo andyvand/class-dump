@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface ADIDRecord
 {
     _Bool _dirty;
-    NSString *_ID;
-    NSData *_encryptedID;
 }
 
 - (id);
@@ -18,8 +16,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)ormAdapter";
+- (id)contentTransitioningView:shouldBeginTransitionWithDirection: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -27,8 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ID; // @synthesize ID=_ID;
-@property(nonatomic) _Bool dirty; // @synthesize dirty=_dirty;
 @property(retain, nonatomic) NSData *encryptedID; // @synthesize encryptedID=_encryptedID;
 
 @end

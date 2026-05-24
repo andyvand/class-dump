@@ -7,6 +7,7 @@
 @protocol MPCQueueControllerExternalSyncBehaviorHost;
 
 @protocol MPCQueueControllerBehaviorExternalSyncImplementation
+- (void)NSObject;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCQueueControllerExternalSyncBehaviorHost> externalSyncHost;

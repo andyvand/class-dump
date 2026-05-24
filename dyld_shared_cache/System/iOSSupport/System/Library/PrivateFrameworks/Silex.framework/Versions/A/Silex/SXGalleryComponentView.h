@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void):8@"TSWPDrawableAttachment"16Q24 /* Error: Ran out of types for this method. */;
 

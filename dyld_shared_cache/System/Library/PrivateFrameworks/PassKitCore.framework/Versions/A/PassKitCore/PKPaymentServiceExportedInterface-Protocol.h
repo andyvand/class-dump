@@ -7,8 +7,15 @@
 @class PKAppletSubcredential, PKPaymentApplication;
 
 @protocol PKPaymentServiceExportedInterface
+- (void)@;
+- (void));
+- (void)
+;
+- (void)TH;
 - (void);
-- (void)n:(PKAppletSubcredential *)arg1 webSocketTask:(PKPaymentApplication *)arg2 didOpenWithProtocol:(unsigned long long)arg3;
+- (void)attributesForFullname;
+- (void)_lastSSIDConnectedTo;
+- (void)URLSession:(PKAppletSubcredential *)arg1 webSocketTask:(PKPaymentApplication *)arg2 didOpenWithProtocol:(unsigned long long)arg3;
 - (void)Ø@ ;
 - (void)¨;
 @end

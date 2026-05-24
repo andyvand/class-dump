@@ -5,5 +5,8 @@
 //
 
 @protocol NSAccessibilityRow
+
+@optional
+- (long long);
 @end
 

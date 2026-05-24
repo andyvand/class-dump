@@ -6,8 +6,6 @@
 
 #import <Contacts/CNPropertyDescription.h>
 
-@class NSString;
-
 @interface CNDisplayNameOrderDescription : CNPropertyDescription
 {
 }
@@ -21,24 +19,18 @@
 - (void);
 - (void);
 - (id);
+- (void)h;
+- (id);
+- (id)2if;
+- (_Bool)*;
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (id);
 - (Class)ù1*°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

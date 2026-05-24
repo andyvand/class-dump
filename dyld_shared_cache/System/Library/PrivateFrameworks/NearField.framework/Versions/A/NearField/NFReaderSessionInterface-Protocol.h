@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol NFReaderSessionInterface
+- (oneway void)CNContactIdentifierKey;
+- (oneway void)e);
+- (oneway void)| (\w+) ))? (?# $7=priorityValue $8=priorityName);
+- (oneway void)relation)\[ (\w+) \] (?# $4=viewName2)\. (\w+) (?# $5=attribute2)\s* (?:(NSData *)arg1 ([\+\-]) \s* (?:(void (^)(id <NFTag>, NSData *, NSError *))arg2 (\d+) | (\w+) ))? (?# $6=constantSign $7=constantValue $8=constantName)\s* (?:\@ (?:(\d+) | (\w+) ))? (?# $9=priorityValue $10=priorityName) /* Error: Ran out of types for this method. */;
+- (oneway void));
+- (oneway void)@"NSNumber"16@?0^@8;
+- (oneway void)_datumLabelMouseOverHighlightColor;
+- (oneway void)DVIEW_INSET_Y_TOP, AB_CARDVIEW_MINIMUM_WIDTH, AB_CARDVIEW_SEPARATOR_INSET_FROM_HEADER, AB_NAMEVIEW_PHOTO_NAME_SPACING, AB_NAMEVIEW_NAME_INSET_TRAILING, AB_NAMEVIEW_COMPANYCHECKBOX_HEIGHT, AB_HEADERVIEW_PRIVACY_LABEL_INSET_TRAILING, AB_CARDVIEW_COLLECTION_INSET_TRAILING, AB_COLLECTION_ROW_STACKVIEW_MIN_HEIGHT, AB_COLLECTION_CENTER_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (oneway void)eworks/ContactsUI.framework/ContactsUI;
+- (oneway void)CNScrollableContainerView;
+- (oneway void)is;
+- (oneway void)rks/Contacts.framework/Contacts;
+- (oneway void)v12@?0c8;
+- (oneway void)ProtocolName was nil;
 @end
 

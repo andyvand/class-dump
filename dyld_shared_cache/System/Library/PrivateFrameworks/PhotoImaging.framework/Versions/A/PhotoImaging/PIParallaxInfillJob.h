@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, CIRenderTask, NUStorageImageBuffer, PIParallaxInfillRequest;
+@class NUStorageImageBuffer, PIParallaxInfillRequest;
 
 @interface PIParallaxInfillJob
 {
     NUStorageImageBuffer *_infilledImageBuffer;
-    CIRenderTask *_renderTask;
-    CIImage *_matteImage;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)4hE;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,11 +25,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ty: /* Error: Ran out of types for this method. */;
+- (void)setIntensity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PIParallaxInfillRequest *infillRequest;
-@property(retain, nonatomic) CIImage *matteImage; // @synthesize matteImage=_matteImage;
 
 @end
 

@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_io, OS_dispatch_queue, __NSCFLocalDownloadFileOpener;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFLocalDownloadFile
 {
     struct stat _stat;
-    NSObject<OS_dispatch_io> *_writeIO;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    _Bool _finished;
-    NSString *_path;
-    _Bool _createdPlaceholder;
-    _Bool _skipUnlink;
-    _Bool _truncateFile;
-    int _error;
-    id <__NSCFLocalDownloadFileOpener> _fileProvider;
-    CDUnknownBlockType _finishCompletion;
-    NSString *_protectionType;
 }
 
-- (void);
+- (void)echarmenian;
 - (void);
 - (id);
 

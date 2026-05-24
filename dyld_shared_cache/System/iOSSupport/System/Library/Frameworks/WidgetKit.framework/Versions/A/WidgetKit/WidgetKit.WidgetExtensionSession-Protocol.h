@@ -4,10 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CHKWidgetEnvironment, CHSWidget, NSArray, NSDictionary, NSString, WidgetKit.ControlsConfigurationXPCContainer, WidgetKit.ModifyControlStateRequest, WidgetKit.WidgetPushConfigurationXPCContainer, WidgetKit.WidgetRelevanceRequest;
+
 @protocol WidgetKit.WidgetExtensionSession
+- (void)alertControllerWithTitle:(WidgetKit.WidgetPushConfigurationXPCContainer *)arg1 message:(void (^)(NSError *))arg2 preferredStyle: /* Error: Ran out of types for this method. */;
+- (void)adjustedPageCornerRadiusForPageSize:(WidgetKit.ModifyControlStateRequest *)arg1 magnification:(void (^)(NSError *))arg2;
+- (void)adjustScrollViewToAccomodateKeyboardStartingFrame:(_Bool)arg1 endingFrame:annotationFrame:withAnimationDuration:curve: /* Error: Ran out of types for this method. */;
+- (void)addObserver:(NSString *)arg1 forKeyPath:(void (^)(NSError *))arg2 options:context: /* Error: Ran out of types for this method. */;
+- (void)addObjectsFromArray:(WidgetKit.WidgetRelevanceRequest *)arg1;
+- (void)addNormalAppearanceWithStateToDictionaryRef:(NSArray *)arg1;
+- (void)addNormalAndDownAppearanceWithStateToDictionaryRef:(CHSWidget *)arg1;
+- (void)addNormalAndDownAppearanceToDictionaryRef:(NSArray *)arg1;
+- (void)addNameValueToDictionaryRef:(CHKWidgetEnvironment *)arg1;
+- (void)addNameDefaultValueToDictionaryRef:(NSDictionary *)arg1;
+- (void)addModificationDateToDictionaryRef:(void (^)(NSArray *, NSError *))arg1;
+- (void)addMarkupWithStyle:(void (^)(NSArray *, NSError *))arg1 fromSelection: /* Error: Ran out of types for this method. */;
+- (void)addLineEndingStylesToDictionaryRef:(NSArray *)arg1;
+- (void)addInkListToDictionaryRef:(void (^)(NSXPCListenerEndpoint *, NSData *, NSError *))arg1;
+- (void)addHighlightingModeToDictionaryRef:(void (^)(WidgetKit.DescriptorFetchResult *, NSError *))arg1;
+- (void)addGestureRecognizer:(NSArray *)arg1;
+- (void)addFieldValueToDictionaryRef:(WidgetKit.ControlsConfigurationXPCContainer *)arg1;
+- (_Bool)addFieldTypeToDictionaryRef: /* Error: Ran out of types for this method. */;
+- (void)addDictionaryValueToDictionaryRef:(NSString *)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool boostToForegroundPriority;
-@property(nonatomic, readonly) int pid;
 @end
 

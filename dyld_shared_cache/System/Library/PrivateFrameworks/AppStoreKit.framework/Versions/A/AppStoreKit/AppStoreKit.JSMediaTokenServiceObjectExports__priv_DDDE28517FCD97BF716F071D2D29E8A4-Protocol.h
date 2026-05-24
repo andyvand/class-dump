@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class JSValue, NSString;
 
 @protocol AppStoreKit.JSMediaTokenServiceObjectExports__priv_DDDE28517FCD97BF716F071D2D29E8A4
+- (JSValue *);
+- (NSString *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *tokenString;

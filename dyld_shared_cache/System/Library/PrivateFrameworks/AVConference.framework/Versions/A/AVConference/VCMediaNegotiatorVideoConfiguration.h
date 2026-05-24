@@ -6,30 +6,26 @@
 
 #import <AVConference/VCMediaNegotiatorCommonConfiguration.h>
 
-@class NSDictionary, VCVideoRuleCollections;
+@class VCVideoRuleCollections;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorVideoConfiguration : VCMediaNegotiatorCommonConfiguration
 {
     VCVideoRuleCollections *_videoRuleCollections;
-    NSDictionary *_videoFeatureStrings;
-    NSDictionary *_videoFeatureStringsFixedPosition;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *videoFeatureStrings; // @synthesize videoFeatureStrings=_videoFeatureStrings;
-@property(retain, nonatomic) NSDictionary *videoFeatureStringsFixedPosition; // @synthesize videoFeatureStringsFixedPosition=_videoFeatureStringsFixedPosition;
 @property(retain, nonatomic) VCVideoRuleCollections *videoRuleCollections; // @synthesize videoRuleCollections=_videoRuleCollections;
 
 @end

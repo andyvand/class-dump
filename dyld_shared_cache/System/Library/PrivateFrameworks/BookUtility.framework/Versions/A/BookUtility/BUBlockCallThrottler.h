@@ -9,8 +9,6 @@
 @interface BUBlockCallThrottler
 {
     _Bool _running;
-    double _minimumTimeBetweenCalls;
-    NSDate *_lastBlockCallDate;
 }
 
 - (void);
@@ -21,14 +19,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *lastBlockCallDate; // @synthesize lastBlockCallDate=_lastBlockCallDate;
-@property(nonatomic) double minimumTimeBetweenCalls; // @synthesize minimumTimeBetweenCalls=_minimumTimeBetweenCalls;
-@property(nonatomic) _Bool running; // @synthesize running=_running;
 
 @end
 

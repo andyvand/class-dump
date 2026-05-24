@@ -9,21 +9,19 @@
 @interface FMReadWriteLock
 {
     NSString *_lockName;
-    struct _opaque_pthread_rwlock_t _lock;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)hasValidationErrorDomain;
+- (void);
 - (id);
 - (id);
 - (id);
 - (struct _opaque_pthread_rwlock_t);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _opaque_pthread_rwlock_t lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSString *lockName; // @synthesize lockName=_lockName;
 
 @end

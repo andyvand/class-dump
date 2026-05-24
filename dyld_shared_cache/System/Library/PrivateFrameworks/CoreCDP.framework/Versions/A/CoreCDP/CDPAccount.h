@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface CDPAccount
 {
@@ -12,47 +12,40 @@
 
 + (id);
 + (_Bool);
++ (id)scalePixelBuffer:(id)arg1 rect:exifOrientation:intoPixelBuffer:rect: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id);
++ (id);
++ (_Bool);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
+- (void);
+- (id)P;
+- (id);
+- (id)�;
+- (id);
+- (_Bool);
+- (id);
+- (id)1;
+- (void);
+- (id);
+- (id);
+- (id)o;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (unsigned long long);
+- (_Bool)weakReferenceDelegate;
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id)cess;
+- (id)wasSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDate *rpdProbationFirstSeenDate;
-@property(readonly) Class superclass;
 
 @end
 

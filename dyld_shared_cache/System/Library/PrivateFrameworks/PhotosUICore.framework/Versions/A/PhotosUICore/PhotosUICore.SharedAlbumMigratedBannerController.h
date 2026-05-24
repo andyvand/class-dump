@@ -7,7 +7,6 @@
 @interface PhotosUICore.SharedAlbumMigratedBannerController
 {
     id photosViewModel;
-    id sharedAlbum;
 }
 
 @end

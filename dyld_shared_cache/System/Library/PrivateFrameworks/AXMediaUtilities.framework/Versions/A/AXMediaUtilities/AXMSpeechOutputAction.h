@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *text;

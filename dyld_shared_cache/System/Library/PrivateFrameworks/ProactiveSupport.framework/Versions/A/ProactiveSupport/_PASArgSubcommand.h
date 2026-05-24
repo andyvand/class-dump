@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSString;
+@class NSMutableArray, NSString;
 
 @interface _PASArgSubcommand
 {
     NSString *_name;
-    NSString *_helpDescription;
-    CDUnknownBlockType _handler;
-    NSMutableArray *_registeredOptions;
-    NSMutableSet *_requiredOptions;
 }
 
++ (id)registers;
 + (id);
-+ (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)roller pendingTatsuRequests]_block_invoke;
+- (void)r pendingTatsuRequests];
+- (id)nCertificatesAvailable;
+- (id)r unregisterForSupportedAccessoriesFileAvailability:] /* Error: Ran out of types for this method. */;
+- (id)esFilePosted:(id)arg1 ];
+- (id)rtedAccessoriesInternal:(id)arg1 assetID:(id)arg2 batchRequest:(CDUnknownBlockType)arg3 ]_block_invoke;
+- (id)ID:(id)arg1 ]_block_invoke;
+- (id)04x, ProductID = 0x%04x;
+- (void)A3088;
+- (id)n = %d.%d.%d.%d, ;
+- (id)llu;
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)removeObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, copy, nonatomic) NSString *helpDescription; // @synthesize helpDescription=_helpDescription;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSMutableArray *registeredOptions; // @synthesize registeredOptions=_registeredOptions;
-@property(retain, nonatomic) NSMutableSet *requiredOptions; // @synthesize requiredOptions=_requiredOptions;
 
 @end
 

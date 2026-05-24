@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     TISKSessionStats *_sessionStats;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)stringByReplacingCharactersInRange:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)isEmergencyRTTSupportedForContext:(id)arg1 excludeRelay: /* Error: Ran out of types for this method. */;
+- (id)esponse %@ - %@;
 - (id);
 - (id);
 - (id);

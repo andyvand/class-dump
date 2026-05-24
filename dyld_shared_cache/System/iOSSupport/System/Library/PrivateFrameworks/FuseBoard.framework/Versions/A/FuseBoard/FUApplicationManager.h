@@ -4,47 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBProcessManager, NSMutableDictionary, NSSet, NSString, UISApplicationStateService, UISApplicationSupportService;
+@class FBProcessManager, NSSet;
 
 @interface FUApplicationManager
 {
     struct os_unfair_lock_s _lock;
     FBProcessManager *_processManager;
-    UISApplicationStateService *_uiKitStateService;
-    UISApplicationSupportService *_uiKitSupportService;
-    NSMutableDictionary *_lock_applications;
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)|;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *applications;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

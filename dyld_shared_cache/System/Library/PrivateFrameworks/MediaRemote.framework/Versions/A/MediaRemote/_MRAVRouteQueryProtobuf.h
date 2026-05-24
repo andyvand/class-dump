@@ -17,17 +17,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)tintView;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)FPreferences _internalPreferencesDidChangeExternally];
 - (void)uniqueIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRouteUID;
-@property(retain, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
 
 @end
 

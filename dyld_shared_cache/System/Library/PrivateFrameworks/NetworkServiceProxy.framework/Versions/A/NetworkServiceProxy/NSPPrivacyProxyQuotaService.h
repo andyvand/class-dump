@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NSPPrivacyProxyQuotaService
 {
     NSString *_serviceURL;
-    NSMutableArray *_supportedUseCaseIdentifiers;
 }
 
 + (Class);
@@ -25,18 +24,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)A;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasServiceURL;
-@property(retain, nonatomic) NSString *serviceURL; // @synthesize serviceURL=_serviceURL;
-@property(retain, nonatomic) NSMutableArray *supportedUseCaseIdentifiers; // @synthesize supportedUseCaseIdentifiers=_supportedUseCaseIdentifiers;
 
 @end
 

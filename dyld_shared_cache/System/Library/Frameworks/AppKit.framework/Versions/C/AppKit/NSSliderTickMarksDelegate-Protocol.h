@@ -5,5 +5,6 @@
 //
 
 @protocol NSSliderTickMarksDelegate
+- (double)"NSArray",C,V_protocolClasses;
 @end
 

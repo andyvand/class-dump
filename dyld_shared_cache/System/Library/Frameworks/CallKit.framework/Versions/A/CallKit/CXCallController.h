@@ -10,13 +10,12 @@
 @interface CXCallController
 {
     CXCallObserver *_callObserver;
-    NSObject<OS_dispatch_queue> *_completionQueue;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)P;
+- (id)q,;
 - (void);
 - (id);
 - (void);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CXCallObserver *callObserver; // @synthesize callObserver=_callObserver;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
 
 @end

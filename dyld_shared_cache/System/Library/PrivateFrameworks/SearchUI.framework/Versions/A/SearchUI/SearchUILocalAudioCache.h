@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)y to have come from QuickResponses.;
 
 @end
 

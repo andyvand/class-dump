@@ -6,38 +6,28 @@
 
 #import <UIKitCore/UIHoverStyle.h>
 
-@class NSArray, NSString, UIPointerEffect, UIPointerShape, UITargetedPreview;
-
 @interface UIPointerStyle : UIHoverStyle
 {
     _Bool _determineScaleAutomatically;
-    _Bool _suppressesMirroring;
-    _Bool __convertsAccessoriesToNSCursor;
-    NSArray *_accessories;
-    long long _type;
-    unsigned long long _options;
-    unsigned long long _constrainedAxes;
-    UIPointerEffect *_pointerEffect;
-    UIPointerShape *_pointerShape;
 }
 
-+ (id);
-+ (id);
++ (id)e body with text for layout (sendAlternateLayoutAsText):%@ /* Error: Ran out of types for this method. */;
++ (id)ived Server Record has incorrect parent Chat ID, marking record as needing T3 update;
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ssage, invalidating chat's scheduled states.;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)d. Error:%@ /* Error: Ran out of types for this method. */;
+- (id)till waiting on account %@;
+- (_Bool)ssage with Guid:(id)arg1 %@;
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
@@ -49,7 +39,7 @@
 - (struct CGPoint);
 - (void);
 - (id);
-- (void);
+- (void)@source LIMIT 1;
 - (unsigned long long);
 - (id)
 × ;
@@ -59,8 +49,8 @@
 - (void)0@ù
 × ;
 - (long long)ionTouchpadFeedbackDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
-- (double)aragraphAndModifySelection: /* Error: Ran out of types for this method. */;
-- (_Bool)inimumPressDuration;
+- (double)moveToEndOfParagraphAndModifySelection: /* Error: Ran out of types for this method. */;
+- (_Bool)minimumPressDuration;
 - (id)itleView;
 - (void)àHÑ¸äÑÈ ôÑP¡Ñ¢ Ñ¢4Ñ¤|Ñà¤Ñ¦´Ñô®Ñ¬¯@Ñ¨°\Ñx±pÑl²Ñt´ÜÑXµøÑ¶ÑhÔTÑ Ù¤Ñä¸ÑÌ,PÑHdÑ)
 ôÑ:(long long)arg1 ÑF
@@ -73,25 +63,6 @@
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) _Bool _convertsAccessoriesToNSCursor; // @synthesize _convertsAccessoriesToNSCursor=__convertsAccessoriesToNSCursor;
-@property(nonatomic) _Bool _suppressesMirroring; // @synthesize _suppressesMirroring;
-@property(copy, nonatomic) NSArray *accessories; // @synthesize accessories=_accessories;
-@property(readonly, nonatomic) NSArray *compatibleDescriptors;
-@property(nonatomic) unsigned long long constrainedAxes; // @synthesize constrainedAxes=_constrainedAxes;
-@property(readonly, nonatomic) double contentScale;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) UIPointerEffect *pointerEffect; // @synthesize pointerEffect=_pointerEffect;
-@property(readonly, nonatomic) _Bool pointerMergesWithContent;
-@property(retain, nonatomic) UIPointerShape *pointerShape; // @synthesize pointerShape=_pointerShape;
-@property(readonly, nonatomic) _Bool pointerUnderlapsContent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreview;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

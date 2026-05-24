@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UIImageView;
+@class UIButton;
 
 @interface TSDCheckableTableViewCell
 {
     UIButton *mImageButton;
-    UIImageView *mCheckmarkImageView;
-    _Bool mChecked;
-    _Bool mShowsCheckboxOnRight;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -28,7 +25,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool checked; // @synthesize checked=mChecked;
 @property(readonly, nonatomic) _Bool showsCheckboxOnRight; // @synthesize showsCheckboxOnRight=mShowsCheckboxOnRight;
 
 @end

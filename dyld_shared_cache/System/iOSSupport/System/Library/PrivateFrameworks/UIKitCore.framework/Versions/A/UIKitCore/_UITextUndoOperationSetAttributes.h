@@ -6,19 +6,17 @@
 
 #import <UIKitCore/_UIUndoTextOperation.h>
 
-@class NSArray, _NSAttributeRun;
+@class _NSAttributeRun;
 
 __attribute__((visibility("hidden")))
 @interface _UITextUndoOperationSetAttributes : _UIUndoTextOperation
 {
     _NSAttributeRun *_attributes;
-    NSArray *_attributesArray;
-    NSArray *_replacements;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)sCustomInputView;
 - (void)ÿ_pSgIego_;

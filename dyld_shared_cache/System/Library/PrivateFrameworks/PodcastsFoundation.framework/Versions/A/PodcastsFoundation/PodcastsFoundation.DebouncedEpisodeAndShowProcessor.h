@@ -7,22 +7,6 @@
 @interface PodcastsFoundation.DebouncedEpisodeAndShowProcessor
 {
     id workQueue;
-    id dataSource;
-    id storage;
-    id inverseBatchSize;
-    id delegate;
-    id observer;
-    id requestEvaluationSubject;
-    id requestRebuildSubject;
-    id allEpisodesPredicate;
-    id changeCancellable;
-    id showListenerCancellable;
-    id updatePredicateCancellable;
-    id evaluationCancellable;
-    id invertedEvaluableCancellable;
-    id predicateConstructionBatchSize;
-    id state;
-    id $__lazy_storage_$_logPrefix;
 }
 
 @end

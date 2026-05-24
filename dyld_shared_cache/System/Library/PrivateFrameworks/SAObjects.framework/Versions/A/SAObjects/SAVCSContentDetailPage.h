@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSString, NSURL, SAUIImageResource;
+@class NSString;
 
 @interface SAVCSContentDetailPage : SAAceView
 {
@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
@@ -32,32 +32,19 @@
 - (void);
 - (void);
 - (id);
+- (id)9h;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)`;
+- (void);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)ictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)interpretationWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentType;
-@property(retain, nonatomic) SAUIImageResource *image;
-@property(copy, nonatomic) NSString *imagesJsonContentPayload;
-@property(nonatomic) _Bool isEvod;
-@property(copy, nonatomic) NSString *loadingText;
-@property(copy, nonatomic) NSString *personaAccessLevel;
-@property(copy, nonatomic) NSString *personaId;
-@property(nonatomic) long long resultIndex;
-@property(copy, nonatomic) NSString *seasonId;
-@property(copy, nonatomic) NSString *showId;
-@property(copy, nonatomic) NSURL *url;
-@property(nonatomic) _Bool userDriven;
-@property(copy, nonatomic) NSString *utsId;
-@property(copy, nonatomic) NSURL *utsSearchUrl;
 
 @end
 

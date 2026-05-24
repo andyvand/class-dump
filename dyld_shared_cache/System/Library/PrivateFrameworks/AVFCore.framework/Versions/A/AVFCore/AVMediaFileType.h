@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDispatchOnce, NSSet, NSString;
+@class NSString;
 
 @interface AVMediaFileType
 {
     NSString *_uti;
-    AVDispatchOnce *_supportsSampleReferencesOnce;
-    _Bool _supportsSampleReferences;
 }
 
 + (id);
@@ -22,7 +20,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)9*;
 - (id);
 - (id);
 - (id);
@@ -33,12 +31,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UTI;
-@property(readonly, nonatomic) unsigned int audioFileTypeID;
 @property(readonly, nonatomic) NSString *defaultFileExtension;
-@property(readonly, nonatomic) NSString *figFormatReaderFileFormat;
-@property(readonly, nonatomic) NSSet *supportedMediaTypes;
-@property(readonly, nonatomic) _Bool supportsSampleReferences;
 
 @end
 

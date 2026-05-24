@@ -4,27 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPolicy, CNResult, CNSaveRequest, NSArray, NSData, NSNumber, NSPredicate, NSString;
+@class CNContact, CNLimitedAccessSyncData, CNPolicy, CNResult, CNSaveRequest, NSArray, NSData, NSDictionary, NSNumber, NSPredicate, NSString;
 
 @protocol CNDataMapper
+- (void)own, ignore connect error;
 - (NSNumber *)±*ð1Â0@ù
 × ;
-- (NSString *)SubgroupToGroupEvents;
-- (_Bool)figuration:(CNSaveRequest *)arg1 backgroundColorDescription:(id *)arg2 cropTransform: /* Error: Ran out of types for this method. */;
-- (NSArray *)ng:(NSPredicate *)arg1 attributes:(id *)arg2;
-- (NSArray *)roppedImageDataAvailableForContact:(NSPredicate *)arg1;
-- (NSArray *)rKey:(NSPredicate *)arg1;
+- (NSString *)sendAddSubgroupToGroupEvents;
+- (_Bool)memojiMetadataDataForAvatarRecord:(CNSaveRequest *)arg1 poseConfiguration:(id *)arg2 backgroundColorDescription:cropTransform: /* Error: Ran out of types for this method. */;
+- (NSArray *)filterWithSearchString:(NSPredicate *)arg1 attributes:(id *)arg2;
+- (NSArray *)croppedImageDataAvailableForContact:(NSPredicate *)arg1;
+- (NSArray *)_removeAccountPropertyForKey:(NSPredicate *)arg1;
 - (_Bool)¬®Ä®à¯¸°ä°;
 - (CNPolicy *)ðó`TÈ#;
 - (NSArray *)em/Library/PrivateFrameworks/IMCore.framework/IMCore;
 - (NSArray *)oofficial-jpeg;
-- (NSArray *)ubscription1Number;
+- (NSArray *)CNGeminiFakeSubscription1Number;
 
 @optional
+- (CNPolicy *);
+- (NSNumber *)userEnteredMonthlyBudget:(NSString *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (CNLimitedAccessSyncData *)EPSInviteResponseTimeout;
+- (_Bool);
+- (NSArray *);
+- (_Bool)P;
+- (_Bool)setCancellationHandler:(NSString *)arg1;
+- (NSDictionary *);
+- (CNContact *));
+- (_Bool);
+- (_Bool);
 - (_Bool)D;
 - (CNResult *)nToRethrow;
 - (void)C,D,N;
-- (void)NCDChangeHistoryResultCoalescing;
+- (void)CNCDChangeHistoryResultCoalescing;
 - (NSData *);
 - (void)¤§;
 - (NSArray *)àx(z<z;
@@ -32,22 +44,6 @@
 - (_Bool)tar data:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *legacyTetheredSyncComputerAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSString *legacyTetheredSyncDeviceAnchor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
 @property(readonly) _Bool shouldLogContactsAccess;
-@property(readonly, nonatomic) _Bool shouldLogPrivacyAccountingAccessEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) _Bool userMightHaveUnconfiguredPersistenceStack;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @end
 

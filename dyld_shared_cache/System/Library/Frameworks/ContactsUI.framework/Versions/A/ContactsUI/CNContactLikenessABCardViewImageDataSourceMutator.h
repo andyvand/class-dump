@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol ABCardViewImageDataSource, CNScheduler;
+@protocol ABCardViewImageDataSource;
 
 @interface CNContactLikenessABCardViewImageDataSourceMutator
 {
     id <ABCardViewImageDataSource> _dataSource;
-    id <CNScheduler> _scheduler;
 }
 
-+ (id);
++ (id)L;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)(;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)?;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) id <ABCardViewImageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

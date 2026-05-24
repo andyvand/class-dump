@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKSeat;
+@class NSArray;
 
 @interface PKSeatingInformation
 {
@@ -12,6 +12,23 @@
 }
 
 + (_Bool);
+- (_Bool)V;
+- (id);
+- (id);
+- (id)*;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)	k ;
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -22,31 +39,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)LL_PAYMENT_CATEGORY_PAY_IN_NINE_MONTHS_FOR_TRANSACTOR_TITLE;
+- (id)@9	;
+- (id)@;
+- (void)_postConnectMultiHomed;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_IN_NINE_MONTHS_FOR_TRANSACTOR_TITLE;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allSeats; // @synthesize allSeats=_allSeats;
-@property(readonly, nonatomic) PKSeat *firstSeat;
 
 @end
 

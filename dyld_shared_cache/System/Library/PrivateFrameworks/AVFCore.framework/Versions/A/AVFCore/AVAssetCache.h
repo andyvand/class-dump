@@ -13,7 +13,7 @@
 + (id);
 + (id);
 - (long long);
-- (void);
+- (void)2;
 - (long long);
 - (id);
 - (void);
@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)p;
+- (id)AVCFAssetDownloadCompleteNotificationErrorKey;
 - (id);
 - (_Bool)nateGroupID,S_setProvisionalAlternateGroupID: /* Error: Ran out of types for this method. */;
 - (long long)´.;

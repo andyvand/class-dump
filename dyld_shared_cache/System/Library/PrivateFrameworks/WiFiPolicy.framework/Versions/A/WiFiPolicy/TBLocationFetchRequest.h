@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TBLocationFetchRequestDescriptor;
+@class TBLocationFetchRequestDescriptor;
 
 @interface TBLocationFetchRequest
 {
     _Bool _cacheable;
-    unsigned long long _sourcePolicy;
-    NSDictionary *userInfo;
-    CDUnknownBlockType resultsHandler;
-    CDUnknownBlockType preferLocalHandler;
-    TBLocationFetchRequestDescriptor *_descriptor;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)%;
 - (id);
 - (id);
 - (CDUnknownBlockType);
@@ -26,7 +21,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)nsactionInfo:(struct _NSZone *)arg1 error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -34,26 +29,11 @@
 - (void);
 - (void)1¥°1Â0@ù
 × ;
-- (CDUnknownBlockType)rDefaultCountryCode: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)setUserDefaultCountryCode: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool cacheable; // @synthesize cacheable=_cacheable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) TBLocationFetchRequestDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType preferLocalHandler; // @synthesize preferLocalHandler;
-@property(copy, nonatomic) CDUnknownBlockType resultsHandler; // @synthesize resultsHandler;
-@property(nonatomic) unsigned long long sourcePolicy; // @synthesize sourcePolicy=_sourcePolicy;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,&,N,VuserInfo
-
 
 @end
 

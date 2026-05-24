@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface MDSMachSubsystem
 {
     struct mach_msg_dispatch_link *_dispatchChain;
-    _Bool _shutDown;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    struct __CFDictionary *_deadNameObjectRecordMap;
-    struct __CFDictionary *_noSendersObjectRecordMap;
-    struct __CFDictionary *_sourcesByPort;
-    struct __CFDictionary *_channelsByPort;
 }
 
 - (void);
@@ -28,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)BugCaptureReport.CallbackDelegate;
 - (oneway void);
 - (id);
-- (void);
+- (void)_ANEIOSurfaceObject;
 
 @end
 

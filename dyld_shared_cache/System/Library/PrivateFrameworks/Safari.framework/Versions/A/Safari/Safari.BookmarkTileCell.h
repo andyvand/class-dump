@@ -7,11 +7,6 @@
 @interface Safari.BookmarkTileCell
 {
     id linkView;
-    id attributionImageView;
-    id attributionLabel;
-    id bookmark;
-    id parentFolder;
-    id linkMetadata;
 }
 
 - (void);

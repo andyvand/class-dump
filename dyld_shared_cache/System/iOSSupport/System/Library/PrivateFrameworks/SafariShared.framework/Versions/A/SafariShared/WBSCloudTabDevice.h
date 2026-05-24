@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
-
 @interface WBSCloudTabDevice
 {
     _Bool _closeRequestSupported;
-    _Bool _hasDuplicateName;
-    _Bool _ephemeralDevice;
-    _Bool _cloudKitBookmarkSyncingSupported;
-    NSString *_deviceTypeIdentifier;
-    NSString *_disambiguatedName;
-    NSString *_name;
-    NSString *_uuid;
-    NSArray *_tabs;
-    NSDate *_lastModified;
 }
 
 + (unsigned long long);
@@ -25,50 +14,33 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)!;
+- (_Bool);
+- (id)B;
+- (id)!;
+- (id)T;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCloseRequestSupported) _Bool closeRequestSupported; // @synthesize closeRequestSupported=_closeRequestSupported;
-@property(readonly, nonatomic, getter=isCloudKitBookmarkSyncingSupported) _Bool cloudKitBookmarkSyncingSupported; // @synthesize cloudKitBookmarkSyncingSupported=_cloudKitBookmarkSyncingSupported;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *deviceTypeIdentifier; // @synthesize deviceTypeIdentifier=_deviceTypeIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSString *disambiguatedName; // @synthesize disambiguatedName=_disambiguatedName;
-@property(readonly, nonatomic, getter=isEphemeralDevice) _Bool ephemeralDevice; // @synthesize ephemeralDevice=_ephemeralDevice;
 @property(readonly, nonatomic) _Bool hasDuplicateName; // @synthesize hasDuplicateName=_hasDuplicateName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *lastModified; // @synthesize lastModified=_lastModified;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *tabs; // @synthesize tabs=_tabs;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

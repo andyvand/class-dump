@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelStructureNeuralNetwork, MLModelStructurePipeline, MLModelStructureProgram;
+@class MLModelStructureNeuralNetwork;
 
 @interface MLModelStructure
 {
     MLModelStructureNeuralNetwork *_neuralNetwork;
-    MLModelStructureProgram *_program;
-    MLModelStructurePipeline *_pipeline;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 + (void);
 - (id);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MLModelStructureNeuralNetwork *neuralNetwork; // @synthesize neuralNetwork=_neuralNetwork;
-@property(readonly, nonatomic) MLModelStructurePipeline *pipeline; // @synthesize pipeline=_pipeline;
-@property(readonly, nonatomic) MLModelStructureProgram *program; // @synthesize program=_program;
 
 @end
 

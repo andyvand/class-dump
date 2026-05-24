@@ -5,5 +5,6 @@
 //
 
 @protocol NSMutableCopying
+- (id)`;
 @end
 

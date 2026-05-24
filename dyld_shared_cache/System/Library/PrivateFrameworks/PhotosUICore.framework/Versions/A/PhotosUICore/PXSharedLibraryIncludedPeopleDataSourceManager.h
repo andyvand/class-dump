@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSString, PXSharedLibraryAssistantViewModel, PXSharedLibraryIncludedPeopleDataSource;
+@class NSMutableSet, PXSharedLibraryAssistantViewModel;
 
 @interface PXSharedLibraryIncludedPeopleDataSourceManager
 {
     NSMutableSet *_removedParticipants;
-    NSMutableArray *_infos;
-    NSMutableArray *_infosWithBothPeopleAndParticipants;
-    NSMutableArray *_infosWithoutPeople;
-    _Bool _viewModelSyncingDisabled;
-    PXSharedLibraryAssistantViewModel *_viewModel;
 }
 
 - (_Bool);
@@ -40,16 +35,7 @@
 - (id)ü¸÷ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PXSharedLibraryIncludedPeopleDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(nonatomic) _Bool viewModelSyncingDisabled; // @synthesize viewModelSyncingDisabled=_viewModelSyncingDisabled;
 
 @end
 

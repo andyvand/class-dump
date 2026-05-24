@@ -10,7 +10,7 @@
 
 + (void);
 + (void);
-+ (void)countConfigurationDidChange: /* Error: Ran out of types for this method. */;
++ (void)distributedAccountConfigurationDidChange: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SFExtras)
-- (int);
-- (int);
+- (int)esult(const std::error_code &) /* Error: Ran out of types for this method. */;
+- (int)t> *WTF::downcast(Source *) [Target = API::ContentRuleListStore, Source = API::Object] /* Error: Ran out of types for this method. */;
 @end
 

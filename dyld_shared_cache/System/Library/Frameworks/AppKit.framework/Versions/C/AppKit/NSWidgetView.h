@@ -6,43 +6,42 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSWidgetView : NSView
 {
     NSDictionary *_widgetDefinition;
-    NSDictionary *_maskWidgetDefinition;
-    NSColor *_tintColor;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
++ (id)%{public}@ now using Connection %llu;
++ (id)lic}@ done preparing request for Connection %lld;
+- (id)om data %s %@ of length %llu
+;
+- (_Bool)or %s;
+- (void)imTirrVw;
+- (void)will never generate a notification;
+- (unsigned long long);
 - (id);
 - (long long);
 - (struct CGRect);
 - (void);
-- (id);
-- (int);
-- (id);
+- (id);
+- (int)failed for %s;
+- (id)"CFNetworkTimer";
 - (struct CGSize);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)NSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEE;
 - (struct CGSize);
-- (struct NSEdgeInsets);
-- (CDStruct_507282ca);
+- (struct NSEdgeInsets)@;
+- (CDStruct_c3b9c2ee);
 - (void);
 - (_Bool);
-- (id)ate;
-- (id)parateExternalCloseAnimation;
+- (id)shouldInvalidate;
+- (id)beginSeparateExternalCloseAnimation;
 - (void)count:%ld /* Error: Ran out of types for this method. */;
 - (double)rtRecoverySuggestionButtonTitle:%@ alertRecoverySuggestionButtonLaunchURL:%@ allowContinueToMode:%@> /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets);
@@ -51,13 +50,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSDictionary *baseWidgetKeys;
-@property(readonly) double baselineOffsetFromBottom;
-@property(readonly) struct NSEdgeInsets contentInsets;
-@property(copy) NSDictionary *maskWidgetDefinition; // @synthesize maskWidgetDefinition=_maskWidgetDefinition;
-@property(readonly) unsigned long long scalableAxes;
-@property(copy) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(copy) NSDictionary *widgetDefinition;
-@property(readonly) struct CGSize widgetSize;
 
 @end
 

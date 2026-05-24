@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (NSString *);
+- (_Bool)5;
+- (void);
+- (_Bool)`@9hb;
+- (void)@�*;
+- (_Bool)<;
 @end
 

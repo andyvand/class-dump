@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFMoreResults;
+
 @protocol SFMoreResultsResourceLoader
+- (void)pleInternal/Library/BuildRoots/4~CN9qugDaj6yW3aidE-lucuns1EyaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/Inspector/WasmDebuggerDebuggable.cpp;
+- (_Bool)shFunctions = WTF:(SFMoreResults *)arg1:DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

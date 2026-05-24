@@ -5,5 +5,6 @@
 //
 
 @protocol IMAPFetchMailboxStatusOperationDelegate
+- (void)QhE;
 @end
 

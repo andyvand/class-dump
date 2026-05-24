@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VMUClassInfo;
-
 __attribute__((visibility("hidden")))
 @interface VMURuntimeMetadataChunkInfo
 {
     _Bool isMetaclass;
-    unsigned int type;
-    VMUClassInfo *owningClassInfo;
 }
 
-- (void);
+- (void)_allowedByScreenTimeDidChange:conversationContext: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol FamilyControls.FamilyControlsAgent
+- (void);
+- (void)sistance Layers;
+- (void)nore Contextual Assistance Layers (WFTakeScreenshotIgnoreContextualAssistanceLayers);
+- (void)WFTakeScreenshotIgnoreContextualAssistanceLayers;
 @end
 

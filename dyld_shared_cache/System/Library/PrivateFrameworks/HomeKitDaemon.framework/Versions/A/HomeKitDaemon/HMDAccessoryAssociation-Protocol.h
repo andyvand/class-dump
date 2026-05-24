@@ -5,6 +5,7 @@
 //
 
 @protocol HMDAccessoryAssociation
+- (void)<5AH;
 
 // Remaining properties
 @property(readonly) _Bool supportsAssociation;

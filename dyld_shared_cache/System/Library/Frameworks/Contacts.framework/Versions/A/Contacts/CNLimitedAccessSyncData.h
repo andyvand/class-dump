@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator;
-
 @interface CNLimitedAccessSyncData
 {
     _Bool _fullSyncRequired;
-    long long _currentSequenceNumber;
-    NSArray *_syncEventsArray;
 }
 
 + (_Bool);
@@ -28,9 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) long long currentSequenceNumber; // @synthesize currentSequenceNumber=_currentSequenceNumber;
-@property(nonatomic) _Bool fullSyncRequired; // @synthesize fullSyncRequired=_fullSyncRequired;
-@property(readonly, nonatomic) NSEnumerator *syncEvents;
-@property(retain, nonatomic) NSArray *syncEventsArray; // @synthesize syncEventsArray=_syncEventsArray;
 
 @end
 

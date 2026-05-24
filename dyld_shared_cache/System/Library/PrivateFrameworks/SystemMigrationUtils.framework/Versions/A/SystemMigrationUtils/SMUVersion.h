@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SMUVersion
 {
     long long _versionMajor;
-    long long _versionMinor;
-    long long _versionPatch;
-    NSString *_versionString;
-    NSString *_buildNumber;
 }
 
+- (long long);
+- (void)l;
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
 - (long long);
-- (long long);
-- (void);
+- (void)setCalendarForPaste:(id)arg1;
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *buildNumber; // @synthesize buildNumber=_buildNumber;
 @property long long versionMajor; // @synthesize versionMajor=_versionMajor;
-@property long long versionMinor; // @synthesize versionMinor=_versionMinor;
-@property long long versionPatch; // @synthesize versionPatch=_versionPatch;
-@property(retain) NSString *versionString; // @synthesize versionString=_versionString;
 
 @end
 

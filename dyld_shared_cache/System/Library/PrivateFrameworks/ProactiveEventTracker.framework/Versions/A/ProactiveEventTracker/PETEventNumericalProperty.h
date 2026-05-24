@@ -9,13 +9,12 @@
 @interface PETEventNumericalProperty : PETEventProperty
 {
     struct _NSRange _validRange;
-    _Bool _clampValues;
 }
 
 - (unsigned long long);
 - (struct _NSRange);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);

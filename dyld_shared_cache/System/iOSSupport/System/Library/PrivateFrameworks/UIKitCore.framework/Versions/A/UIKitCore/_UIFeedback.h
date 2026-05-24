@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSIndexSet, NSMutableArray, NSString, Protocol, UIView, _UIFeedbackParameters, _UIFeedbackPattern;
-@protocol _UIFeedbackPlayer;
+@class NSMutableArray;
 
 @interface _UIFeedback
 {
     _Bool _playing;
-    float _position;
-    _UIFeedbackParameters *_audioParameters;
-    _UIFeedbackParameters *_hapticParameters;
-    long long _audioOutputMode;
-    long long _hapticOutputMode;
-    long long _peripheralOutputMode;
-    _UIFeedbackPattern *_parentPattern;
-    NSDictionary *_debugDictionary;
-    NSString *_name;
-    NSString *_category;
-    UIView *_view;
-    double _delay;
-    id <_UIFeedbackPlayer> _player;
-    struct CGPoint _location;
 }
 
 + (id);
@@ -34,53 +19,53 @@
 - (id);
 - (id);
 - (void);
+- (void)Context"32;
+- (void)@36Q44^Q52B60B64Q68@76;
+- (long long)reflectTranslationWithCommand: /* Error: Ran out of types for this method. */;
+- (long long)_updatePendingNicknameVersion;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)ath %@;
+- (id)iggering urgent notifications;
+- (id)VStore %@;
+- (unsigned long long)the asset to CloudKit;
+- (id)> 30 days old and we need to upload the asset to CloudKit;
+- (unsigned long long)pting transfer -- Transfer created Date is > 30 days old and we need to upload the asset to CloudKit;
+- (double)ownload from MMCS;
+- (id)he Firewall tab of the Security system preference panel to open the port or turn off the firewall.;
+- (id)PKPeerPaymentMessageDictionaryRepresentationFromDataURL;
+- (id)ion-data;
 - (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
 - (unsigned long long);
 - (double);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (double);
 - (void);
-- (id);
+- (id)ent;
 - (struct CGPoint);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)systemGreenColor;
 - (unsigned int);
 - (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long);
+- (void)statusWithCode:customData:type: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (float)!
 °!PGùfÐ1Â0@ù
 × ;
-- (_Bool)redShouldGroupAccessibilityChildren;
-- (void)nAnimationDidStop:(id)arg1 finished: /* Error: Ran out of types for this method. */;
-- (double)imatedConfigLight;
-- (id)on;
+- (_Bool)storedShouldGroupAccessibilityChildren;
+- (void)selectionAnimationDidStop:(id)arg1 finished: /* Error: Ran out of types for this method. */;
+- (double)animatedConfigLight;
+- (id)_unfocusingRepositionBaseDuration;
 - (id)lid,V_preferredAttributesValid;
 - (id)ÿÿÿÿx;
-- (id)idated;
+- (id)_rubberBandExtentBeyondMinimumOffsetWasInvalidated;
 - (void)iewMockPanGestureRecognizer or UIScrollViewPanGestureRecognizer;
 - (id)troller's views for %@;
 - (void)ldren of _defaultFileMenu has changed.;
@@ -88,36 +73,7 @@
 - (void)s\;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_allEventTypes) NSIndexSet *allEventTypes;
-@property(readonly, nonatomic, getter=_allSystemSoundIDs) NSIndexSet *allSystemSoundIDs;
-@property(nonatomic) long long audioOutputMode; // @synthesize audioOutputMode=_audioOutputMode;
-@property(readonly, nonatomic) _UIFeedbackParameters *audioParameters; // @synthesize audioParameters=_audioParameters;
-@property(retain, nonatomic, getter=_category, setter=_setCategory:) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic, getter=_debugDictionary) NSDictionary *debugDictionary; // @synthesize debugDictionary=_debugDictionary;
-@property(nonatomic, getter=_delay, setter=_setDelay:) double delay; // @synthesize delay=_delay;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic, getter=_effectiveDelay) double effectiveDelay;
-@property(readonly, nonatomic, getter=_effectiveDuration) double effectiveDuration;
-@property(readonly, nonatomic, getter=_effectiveEnabledFeedbackTypes) unsigned long long effectiveEnabledFeedbackTypes;
-@property(readonly, nonatomic, getter=_effectiveEventType) unsigned long long effectiveEventType;
-@property(readonly, nonatomic, getter=_effectiveFeedbackData) NSArray *effectiveFeedbackData;
-@property(readonly, nonatomic, getter=_effectiveFeedbackTypes) unsigned long long effectiveFeedbackTypes;
-@property(readonly, nonatomic, getter=_effectivePlayableFeedbackTypes) unsigned long long effectivePlayableFeedbackTypes;
-@property(readonly, nonatomic, getter=_effectiveSystemSoundID) unsigned int effectiveSystemSoundID;
-@property(nonatomic) long long hapticOutputMode; // @synthesize hapticOutputMode=_hapticOutputMode;
-@property(readonly, nonatomic) _UIFeedbackParameters *hapticParameters; // @synthesize hapticParameters=_hapticParameters;
-@property(readonly, nonatomic, getter=_individualFeedbacks) NSArray *individualFeedbacks;
-@property(nonatomic, getter=_location, setter=_setLocation:) struct CGPoint location; // @synthesize location=_location;
-@property(copy, nonatomic, getter=_name, setter=_setName:) NSString *name; // @synthesize name=_name;
-@property(nonatomic, getter=_parentPattern, setter=_setParentPattern:) __weak _UIFeedbackPattern *parentPattern; // @synthesize parentPattern=_parentPattern;
-@property(nonatomic) long long peripheralOutputMode; // @synthesize peripheralOutputMode=_peripheralOutputMode;
-@property(readonly, nonatomic, getter=_playableProtocol) Protocol *playableProtocol;
-@property(retain, nonatomic, getter=_player, setter=_setPlayer:) id <_UIFeedbackPlayer> player; // @synthesize player=_player;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(nonatomic) float position; // @synthesize position=_position;
 @property(readonly) NSMutableArray *systemSoundSources;
-@property(nonatomic, getter=_view, setter=_setView:) __weak UIView *view; // @synthesize view=_view;
-@property(readonly) NSMutableArray *visualizerSources;
 
 @end
 

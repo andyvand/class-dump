@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 @interface ChatKit.CKTipCollectionViewCell
 {
@@ -13,8 +13,8 @@
 
 + (id);
 - (void);
-- (void);
-- (id);
+- (void)n;
+- (id)ntionAttachments:context:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) UIView *miniTipUIView; // @synthesize miniTipUIView;
-@property(nonatomic, readonly) NSString *reuseIdentifier;
 
 @end
 

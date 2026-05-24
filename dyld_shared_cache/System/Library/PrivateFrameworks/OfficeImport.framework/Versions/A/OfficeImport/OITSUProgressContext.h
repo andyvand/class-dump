@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, OITSUProgressStage;
+@class OITSUProgressStage;
 
 __attribute__((visibility("hidden")))
 @interface OITSUProgressContext
 {
     OITSUProgressStage *m_currentStage;
-    NSDate *m_lastReportTime;
-    double m_lastProgressReport;
-    double m_lastOverallProgress;
 }
 
 - (void);
@@ -24,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_;
 - (double);
 - (void);
 - (void);
 - (double);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)oKey}*}32@0:(double)arg1 8^{OCCCryptoKey=^^?***III}16r*24;
 

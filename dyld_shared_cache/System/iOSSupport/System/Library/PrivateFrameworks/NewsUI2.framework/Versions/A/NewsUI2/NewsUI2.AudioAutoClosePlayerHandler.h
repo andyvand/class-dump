@@ -7,14 +7,6 @@
 @interface NewsUI2.AudioAutoClosePlayerHandler
 {
     id audioStatus;
-    id playbackState;
-    id lazyPlayerViewController;
-    id paidBundleConfigManager;
-    id idledAt;
-    id autoCloseAt;
-    id autoCloseTimer;
-    id commandCenter;
-    id logDateFormatter;
 }
 
 - (id);

@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)xt;
+- (void)p2pContext;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *requestSummaries; // @synthesize requestSummaries=_requestSummaries;

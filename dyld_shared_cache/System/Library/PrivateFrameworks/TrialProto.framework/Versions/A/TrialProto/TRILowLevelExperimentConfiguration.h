@@ -15,10 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasType; // @dynamic hasType;
 @property(retain, nonatomic) NSMutableArray *targetedBundleIdArray; // @dynamic targetedBundleIdArray;
-@property(readonly, nonatomic) unsigned long long targetedBundleIdArray_Count; // @dynamic targetedBundleIdArray_Count;
-@property(nonatomic) int type; // @dynamic type;
 
 @end
 

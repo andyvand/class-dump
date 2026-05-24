@@ -6,16 +6,15 @@
 
 #import <AppKit/NSViewControllerPresentationAnimatorObject.h>
 
-@class NSBox, NSView;
+@class NSView;
 
 @interface NSViewControllerPushTransition : NSViewControllerPresentationAnimatorObject
 {
     NSView *_dimmingView;
-    NSBox *_boxView;
 }
 
 - (void);
-- (void);
+- (void);
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWSecureMetadataOutputConfiguration, NSMutableArray, NSMutableDictionary;
-@protocol BWSecureMetadataOutputConfiguratorDelegate;
+@class BWSecureMetadataOutputConfiguration;
 
 @interface BWSecureMetadataOutputConfigurator
 {
     struct os_unfair_lock_s _stateLock;
-    BWSecureMetadataOutputConfiguration *_configurationForPrimaryClient;
-    NSMutableDictionary *_secondaryClientConfigurationsByClientID;
-    NSMutableDictionary *_maximumFrameRateByClientID;
-    NSMutableArray *_registeredAttachedSessionIDs;
-    BWSecureMetadataOutputConfiguration *_coalescedSecureMetadataOutputConfiguration;
-    id <BWSecureMetadataOutputConfiguratorDelegate> _delegate;
 }
 
 + (void)apple.quicktime.apple-maker-note.97;
@@ -29,15 +22,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)TSUTemporaryDirectoryAdditions;
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) BWSecureMetadataOutputConfiguration *coalescedSecureMetadataOutputConfiguration;
 @property(retain) BWSecureMetadataOutputConfiguration *configurationForPrimaryClient;
-@property(nonatomic) id <BWSecureMetadataOutputConfiguratorDelegate> delegate;
 
 @end
 

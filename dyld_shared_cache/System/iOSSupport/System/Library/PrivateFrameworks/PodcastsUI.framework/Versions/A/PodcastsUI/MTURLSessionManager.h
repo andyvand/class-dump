@@ -4,46 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURLSession;
-@protocol OS_dispatch_queue;
+@class NSURLSession;
 
 @interface MTURLSessionManager
 {
     CDUnknownBlockType _sessionCompletionHandler;
-    NSURLSession *_sessionForForegroundDownloads;
-    NSObject<OS_dispatch_queue> *_startQueue;
-    NSURLSession *_sessionForBackgroundDownloads;
 }
 
-+ (long long);
++ (long long)0;
 + (void);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)U;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)1;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
+- (id)E ;
 - (void);
 - (void);
 - (void);
@@ -52,17 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType sessionCompletionHandler; // @synthesize sessionCompletionHandler=_sessionCompletionHandler;
-@property(retain, nonatomic) NSURLSession *sessionForBackgroundDownloads; // @synthesize sessionForBackgroundDownloads=_sessionForBackgroundDownloads;
 @property(retain, nonatomic) NSURLSession *sessionForForegroundDownloads; // @synthesize sessionForForegroundDownloads=_sessionForForegroundDownloads;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *startQueue; // @synthesize startQueue=_startQueue;
-@property(readonly) Class superclass;
 
 @end
 

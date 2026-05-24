@@ -7,13 +7,6 @@
 @interface IXUninstallOptions
 {
     _Bool _requestUserConfirmation;
-    _Bool _waitForDeletion;
-    _Bool _showArchiveOption;
-    _Bool _showDemotionOption;
-    _Bool _systemAppNotAllowed;
-    _Bool _ignoreRemovability;
-    _Bool _ignoreRestrictions;
-    _Bool _ignoreAppProtection;
 }
 
 + (_Bool);
@@ -29,7 +22,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)V;
 - (void);
 - (_Bool);
 - (id);
@@ -41,14 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool ignoreAppProtection; // @synthesize ignoreAppProtection=_ignoreAppProtection;
 @property(nonatomic) _Bool ignoreRemovability; // @synthesize ignoreRemovability=_ignoreRemovability;
-@property(nonatomic) _Bool ignoreRestrictions; // @synthesize ignoreRestrictions=_ignoreRestrictions;
-@property(nonatomic) _Bool requestUserConfirmation; // @synthesize requestUserConfirmation=_requestUserConfirmation;
-@property(nonatomic) _Bool showArchiveOption; // @synthesize showArchiveOption=_showArchiveOption;
-@property(nonatomic) _Bool showDemotionOption; // @synthesize showDemotionOption=_showDemotionOption;
-@property(nonatomic) _Bool systemAppNotAllowed; // @synthesize systemAppNotAllowed=_systemAppNotAllowed;
-@property(nonatomic) _Bool waitForDeletion; // @synthesize waitForDeletion=_waitForDeletion;
 
 @end
 

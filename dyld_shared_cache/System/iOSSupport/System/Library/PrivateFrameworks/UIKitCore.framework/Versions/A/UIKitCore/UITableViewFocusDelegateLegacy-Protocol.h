@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UITableView;
+
 @protocol UITableViewFocusDelegateLegacy
+
+@optional
+- (void);
+- (NSIndexPath *)removeAllControls;
+- (_Bool)storeMessage:(UITableView *)arg1 forceReplace:(NSIndexPath *)arg2 modifyError:modifyFlags:flagMask:updateMessageCache:calculateUnreadCount:reindexMessage: /* Error: Ran out of types for this method. */;
 @end
 

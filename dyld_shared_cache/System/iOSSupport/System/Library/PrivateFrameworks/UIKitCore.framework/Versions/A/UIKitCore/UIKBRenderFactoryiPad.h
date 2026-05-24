@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
-- (id);
+- (double)holdingUpdates;
+- (id)G;
 - (struct UIEdgeInsets);
 - (struct CGPoint);
 - (double);
 - (id);
 - (struct CGPoint);
 - (double);
-- (_Bool);
+- (_Bool);
 - (double);
 - (double);
 - (double);
@@ -29,48 +29,53 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGRect);
 - (struct CGPoint);
-- (double);
+- (double);
 - (void);
 - (void);
-- (struct CGPoint);
-- (double);
+- (struct CGPoint)ge DSID is %@;
+- (double)hangesCompletionWithError with no error;
+- (double)(%@) were not equal - TU canonical:(%@) TU unformatted:(%@) /* Error: Ran out of types for this method. */;
+- (id)d activity result %d;
+- (id)query;
+- (id)ng up pipeline for scheduled message update fromID:%@,  /* Error: Ran out of types for this method. */;
+- (double)ning up:%@ /* Error: Ran out of types for this method. */;
+- (id), with cloudKitChatID %@;
+- (double)messages;
+- (double)e transfer to waiting state;
+- (struct CGRect)nc %@;
+- (_Bool)d:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (double)mingClientConnectionListenerWorkloop;
+- (double)ge-description="%@";
+- (double)CMAPI_AUTH_BODY;
+- (double)und Merged Chats Does Not Include Original;
+- (struct CGPoint)top="70%" left="0%" height="30%" width="100%" fit="scroll"/>
+<region id="Image" top="0%" left="0%" height="70%" width="100%" fit="meet"/>
+</layout>
+</head>
+<body>
+;
+- (id)BlastDoorAcceptChatCommand;
+- (struct CGRect)MFileTransfer;
+- (struct CGPoint)ed to generate CKRecord for IMFileTransfer;
+- (double)tore+RecordStore;
+- (double)ou.framework/Contents/MacOS/SharedWithYou;
+- (double)PCSBackupDisabledUserToggledKeyroll;
+- (double)MessageSyncStoppedDueToDeviceConditions;
+- (struct CGSize)MessageSyncStarted;
+- (double)ny-messages;
+- (double);
+- (id);
 - (double);
 - (id);
-- (id);
-- (id);
-- (double);
-- (id);
 - (double);
 - (double);
-- (struct CGRect);
 - (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct CGPoint);
-- (id);
-- (struct CGRect);
-- (struct CGPoint);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct CGSize);
-- (double);
-- (double);
-- (id);
-- (double);
-- (id);
-- (double);
-- (double);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
-- (id);
+- (id);
 - (double);
 - (double);
 - (_Bool);
@@ -84,7 +89,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGPoint)@"_UIColorWellVisualStyle";
 - (struct CGPoint)synchronizeSystemAnimationFencesWithCleanUpBlock: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)tialSettings: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)configureInitialSettings: /* Error: Ran out of types for this method. */;
 - (double),V_factory;
 - (struct CGPoint)h¼ðTèø¸ôÐ3X;
 - (struct UIEdgeInsets);

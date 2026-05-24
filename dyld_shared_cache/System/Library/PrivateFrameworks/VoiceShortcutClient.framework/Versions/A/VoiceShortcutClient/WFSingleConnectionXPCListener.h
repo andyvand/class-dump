@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface, NSXPCListener, NSXPCListenerEndpoint;
-
 @interface WFSingleConnectionXPCListener
 {
     id _exportedObject;
-    NSXPCInterface *_exportedInterface;
-    NSXPCListener *_listener;
-    NSXPCConnection *_activeConnection;
 }
 
 - (id);
 - (void);
+- (id)m;
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (_Bool);
-- (id);
+- (id)getChangeAfterAnchor:changeInfo: /* Error: Ran out of types for this method. */;
 - (void)!@ùÑ^°1Â0@ù
 × ;
-- (id)rsonSerializedRepresentation:namedQueryInfo: /* Error: Ran out of types for this method. */;
+- (id)initWithPerson:type:callTypeSerializedRepresentation:personSerializedRepresentation:namedQueryInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *activeConnection; // @synthesize activeConnection=_activeConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint;
-@property(readonly, nonatomic) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
 @property(readonly, nonatomic) id exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

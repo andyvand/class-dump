@@ -11,8 +11,6 @@
 @interface CNChangeHistoryLinkContactsEvent : CNChangeHistoryEvent
 {
     CNContact *_fromContact;
-    CNContact *_toContact;
-    CNContact *_unifiedContact;
 }
 
 + (unsigned long long);
@@ -24,17 +22,15 @@
 - (long long);
 - (void);
 - (id);
+- (id)SDP answer: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void)AddGroupEvent"16;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *fromContact; // @synthesize fromContact=_fromContact;
-@property(readonly, nonatomic) CNContact *toContact; // @synthesize toContact=_toContact;
-@property(readonly, nonatomic) CNContact *unifiedContact; // @synthesize unifiedContact=_unifiedContact;
 
 @end
 

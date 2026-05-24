@@ -9,8 +9,6 @@
 @interface CKDPAssetUploadTokenRetrieveResponse
 {
     NSData *_authPutResponse;
-    NSMutableArray *_contentResponseHeaders;
-    NSMutableArray *_uploadTokens;
 }
 
 + (Class);
@@ -25,9 +23,9 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)erruptingWrapper <APSubEndpointAddRemoveObservingProtocol> on <%p>;
 - (_Bool);
-- (id);
+- (id)txAMPDUOverTxAllFrmPercentage;
 - (_Bool);
 - (id);
 - (void);
@@ -42,9 +40,6 @@
 - (void)ot allowed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authPutResponse; // @synthesize authPutResponse=_authPutResponse;
-@property(retain, nonatomic) NSMutableArray *contentResponseHeaders; // @synthesize contentResponseHeaders=_contentResponseHeaders;
-@property(readonly, nonatomic) _Bool hasAuthPutResponse;
 @property(retain, nonatomic) NSMutableArray *uploadTokens; // @synthesize uploadTokens=_uploadTokens;
 
 @end

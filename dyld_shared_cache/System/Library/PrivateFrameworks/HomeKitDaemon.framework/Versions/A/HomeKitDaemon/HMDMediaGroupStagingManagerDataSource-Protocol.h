@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMMediaDestinationControllerData, NSArray, NSUUID;
+
 @protocol HMDMediaGroupStagingManagerDataSource
+- (NSArray *);
+- (NSUUID *)oQueue;
+- (HMMediaDestinationControllerData *)minimalStrategyIdentifiersCount;
+- (HMMediaDestinationControllerData *)bleArray",&,N,V_mapsIdentifiers;
 @end
 

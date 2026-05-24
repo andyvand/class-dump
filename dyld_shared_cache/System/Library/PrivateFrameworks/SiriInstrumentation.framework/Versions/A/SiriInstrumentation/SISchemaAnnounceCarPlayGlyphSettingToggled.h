@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaAnnounceCarPlayGlyphSettingToggled : SISchemaInstrumentationMessage
 {
     _Bool _announcementsMuted;
-    struct {
-        unsigned int announcementsMuted:1;
-    } _has;
 }
 
 - (void);
@@ -22,19 +17,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)_!@q;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)re;
-- (id)d;
+- (_Bool)_SPACING_BTWN_MINUS_PLUS_BUTTONS@200-[plusButton];
+- (_Bool)p.ck_sync_state=1;;
+- (id);
+- (id)s you meant to use vImageBuffer_InitForCopyFromCVPixelBuffer?
+;
+- (id)conversationalOdldScore;
+- (id)_adaptiveSiriVolumeTTSVolumeQueried;
 
 // Remaining properties
 @property(nonatomic) _Bool announcementsMuted; // @synthesize announcementsMuted=_announcementsMuted;
-@property(nonatomic) _Bool hasAnnouncementsMuted;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

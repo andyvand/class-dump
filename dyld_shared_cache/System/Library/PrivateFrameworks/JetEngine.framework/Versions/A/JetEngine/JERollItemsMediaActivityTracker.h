@@ -7,17 +7,11 @@
 @interface JERollItemsMediaActivityTracker
 {
     id pipeline;
-    id playlist;
-    id trackerEventData;
-    id topic;
-    id playActivity;
-    id seekActivity;
-    id activity;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)q;
+- (void);
 - (void);
 - (void);
 - (void);

@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSPunchInResultHints
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_center;
-    NSString *_formattedAddress;
-    unsigned long long _muid;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _placeType;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_placeType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_center:1;
-        unsigned int read_formattedAddress:1;
-        unsigned int read_name:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)assetConfigWaitingBuffer;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)nifestURLLegacy"b1"read_simpleETAURLLegacy"b1"read_spatialLookupURLLegacy"b1"read_staleResources"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileSets"b1"read_uniqueIdentifier"b1"read_urlInfoSet"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURLLegacy"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)ewScreenshotImageData;
+- (id)_overviewScreenshotImageData;
 - (id)ýÿ|ÿ;
 - (void);
 

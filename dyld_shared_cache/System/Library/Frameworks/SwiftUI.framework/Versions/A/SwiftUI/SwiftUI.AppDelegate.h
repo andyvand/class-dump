@@ -9,16 +9,6 @@
 @interface SwiftUI.AppDelegate
 {
     id graph;
-    id windowsController;
-    id immersiveSpaceAuthority;
-    id sceneListVersion;
-    id commandsListVersion;
-    id appDelegate;
-    id menuBarExtrasController;
-    id dialogController;
-    id badgeSeed;
-    id isFinishedLaunching;
-    id shouldPresentInitialWindowOnLaunch;
 }
 
 - (void);
@@ -30,17 +20,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)h&@�i";
 - (id);
 - (id);
 - (void);

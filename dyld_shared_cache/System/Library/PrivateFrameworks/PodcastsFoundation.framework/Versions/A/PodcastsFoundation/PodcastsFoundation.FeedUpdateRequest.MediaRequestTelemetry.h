@@ -7,12 +7,6 @@
 @interface PodcastsFoundation.FeedUpdateRequest.MediaRequestTelemetry
 {
     id type;
-    id request;
-    id requestBuildingState;
-    id requestEncodingState;
-    id requestEncodingDiagnosticState;
-    id networkState;
-    id parsingState;
 }
 
 - (void);

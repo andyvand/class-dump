@@ -7,13 +7,6 @@
 @interface TextToSpeech.TTSSegmentGenerator
 {
     id preferredLocales;
-    id mode;
-    id backupSwitchThreshold;
-    id scriptTagger;
-    id langTagger;
-    id tokenUnit;
-    id languages;
-    id nlLanguages;
 }
 
 @end

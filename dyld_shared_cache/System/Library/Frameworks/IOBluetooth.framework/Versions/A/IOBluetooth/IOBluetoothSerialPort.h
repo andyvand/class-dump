@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface IOBluetoothSerialPort
 {
     NSMutableDictionary *_properties;
-    NSDictionary *_serviceDictionary;
-    NSString *_originalName;
 }
 
 + (id);
@@ -43,7 +41,7 @@
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);
@@ -51,11 +49,11 @@
 - (id);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)"16;
+- (id)H;
 - (void);
 - (void);
-- (void);
+- (void)localizedFailureReason;
 
 // Remaining properties
 @property(copy) NSString *originalName; // @synthesize originalName=_originalName;

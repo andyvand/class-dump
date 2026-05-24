@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)capitalized:candidates: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
-- (id)ToRegister;
+- (id)aliasesToRegister;
 - (id)trollerDelegate>",W,N,V_delegate;
 - (id)Pã:tA. /* Error: Ran out of types for this method. */;
 

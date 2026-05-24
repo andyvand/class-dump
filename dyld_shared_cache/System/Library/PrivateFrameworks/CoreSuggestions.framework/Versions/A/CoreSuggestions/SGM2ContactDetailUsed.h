@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2ContactDetailUsed
 {
     int _app;
-    NSString *_key;
-    int _type;
-    struct {
-        unsigned int app:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (int);
@@ -27,14 +19,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)istance;
 - (id);
 - (int);
 - (_Bool);
+- (void):(id)arg1;
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (int);
 - (_Bool);
 - (id);
@@ -44,12 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool hasApp;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

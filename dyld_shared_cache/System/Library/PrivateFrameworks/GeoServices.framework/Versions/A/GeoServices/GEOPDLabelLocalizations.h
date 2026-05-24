@@ -11,16 +11,16 @@
     NSMutableArray *_localizedStrings;
 }
 
-+ (Class);
-+ (_Bool)ay:(id)arg1;
++ (Class)le with Futures(%@);
++ (_Bool)setHourOfDay:(id)arg1;
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
+- (void)hasBattery;
 - (void);
-- (void);
-- (void);
+- (void)ompletion:(id)arg1 ]_block_invoke;
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
@@ -28,10 +28,10 @@
 - (void);
 - (void);
 - (id)rs";
-- (id)ndexs;
-- (id)dParentMuid;
+- (id)clearRestrictedToSectionIndexs;
+- (id)_expandedParentMuid;
 - (id)Ø¯°;
-- (id)id;
+- (id)track_feature_id;
 - (id);
 - (void)ÎÒÞà@ï8EG:Á@ /* Error: Ran out of types for this method. */;
 

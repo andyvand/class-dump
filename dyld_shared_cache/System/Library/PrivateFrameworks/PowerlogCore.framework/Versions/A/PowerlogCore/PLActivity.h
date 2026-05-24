@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSObject, NSString, PLActivityCriterion, PLEntry;
-@protocol OS_dispatch_queue;
-
 @interface PLActivity
 {
     _Bool _enabled;
-    long long _state;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _activityBlock;
-    CDUnknownBlockType _interruptBlock;
-    NSArray *_criteria;
-    PLActivityCriterion *_mustRunCriterion;
-    PLEntry *_activityEntry;
-    NSDate *_lastCompletedDate;
 }
 
 + (id);
@@ -45,38 +33,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)J
+;
+- (id)i;
+- (id)e;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)8:(id)arg1 16@24;
 - (id);
 - (void);
-- (id)rectionality;
-- (void)ErrorCount;
+- (id)directionality;
+- (void)AccumulatorErrorCount;
 - (void)journalMode=%d;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType activityBlock; // @synthesize activityBlock=_activityBlock;
-@property(retain) PLEntry *activityEntry; // @synthesize activityEntry=_activityEntry;
-@property(retain) NSArray *criteria; // @synthesize criteria=_criteria;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) CDUnknownBlockType interruptBlock; // @synthesize interruptBlock=_interruptBlock;
-@property(retain) NSDate *lastCompletedDate; // @synthesize lastCompletedDate=_lastCompletedDate;
-@property(retain) PLActivityCriterion *mustRunCriterion; // @synthesize mustRunCriterion=_mustRunCriterion;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

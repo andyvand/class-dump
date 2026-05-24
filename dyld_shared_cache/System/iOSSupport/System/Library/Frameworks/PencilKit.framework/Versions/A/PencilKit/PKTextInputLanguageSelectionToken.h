@@ -13,9 +13,9 @@
 
 + (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
-- (void)nishHideCanvasTransaction;
+- (void)_didFinishHideCanvasTransaction;
 
 @end
 

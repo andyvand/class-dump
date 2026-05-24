@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol INAddCallParticipantIntentResponseExport
-- (long long)orForIntent:completionHandler: /* Error: Ran out of types for this method. */;
+- (NSArray *)e;
+- (long long)getDescriptorForIntent:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *invites;
 @end
 

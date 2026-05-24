@@ -5,5 +5,8 @@
 //
 
 @protocol SPMVolumeObserverDelegate
+
+@optional
+- (void)O;
 @end
 

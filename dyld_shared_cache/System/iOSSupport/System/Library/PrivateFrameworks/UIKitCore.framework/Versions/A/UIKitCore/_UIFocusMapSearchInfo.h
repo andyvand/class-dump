@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, _UIFocusGroupMap, _UIFocusSearchInfo;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusMapSearchInfo
 {
     _Bool _didFindFocusBlockingBoundary;
-    _Bool _hasOnlyStaticContent;
-    NSArray *_linearSortedFocusItems;
-    _UIFocusGroupMap *_focusGroupMap;
-    NSMutableArray *_mutableSnapshots;
-    NSMutableArray *_mutableDestinationRegions;
-    _UIFocusSearchInfo *_searchInfo;
 }
 
 - (void);
@@ -24,30 +18,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)24;
+- (id)sendBrandLogoUpdate:toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (id)sendBatchMessageProcessedContext: /* Error: Ran out of types for this method. */;
+- (_Bool)createItemWithCKRecord: /* Error: Ran out of types for this method. */;
+- (id)chat:lastMessageTimeStampOnLoadUpdated: /* Error: Ran out of types for this method. */;
+- (_Bool)_relayMessageToPairedDevice:messageID:hasAttachments: /* Error: Ran out of types for this method. */;
+- (id)_processMonitorWaitingForInitialStateGroup;
+- (void)__IMDBackwardCompatibilityMessageIdentifier;
+- (void)_TtC12IMDaemonCore35IntentClientConnectionRouteProvider;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *destinationRegions;
-@property(nonatomic) _Bool didFindFocusBlockingBoundary; // @synthesize didFindFocusBlockingBoundary=_didFindFocusBlockingBoundary;
-@property(retain, nonatomic) _UIFocusGroupMap *focusGroupMap; // @synthesize focusGroupMap=_focusGroupMap;
-@property(readonly, nonatomic) _Bool hasOnlyStaticContent; // @synthesize hasOnlyStaticContent=_hasOnlyStaticContent;
-@property(retain, nonatomic) NSArray *linearSortedFocusItems; // @synthesize linearSortedFocusItems=_linearSortedFocusItems;
-@property(retain, nonatomic) NSMutableArray *mutableDestinationRegions; // @synthesize mutableDestinationRegions=_mutableDestinationRegions;
 @property(retain, nonatomic) NSMutableArray *mutableSnapshots; // @synthesize mutableSnapshots=_mutableSnapshots;
-@property(retain, nonatomic) _UIFocusSearchInfo *searchInfo; // @synthesize searchInfo=_searchInfo;
-@property(readonly, copy, nonatomic) NSArray *snapshots;
 
 @end
 

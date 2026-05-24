@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface SCTCarbonMenuItem
 {
     struct OpaqueMenuRef *mMenu;
-    unsigned short mItemIndex;
 }
 
 - (id);
 - (_Bool);
-- (unsigned short);
+- (unsigned short)嗛J;
 - (id);
 - (void);
 - (struct OpaqueMenuRef *);

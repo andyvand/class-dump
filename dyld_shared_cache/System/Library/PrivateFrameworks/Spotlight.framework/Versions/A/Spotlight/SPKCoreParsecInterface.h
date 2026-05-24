@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSObject, NSString, PRSSearchSession;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SPKCoreParsecInterface
 {
     NSString *_userAgentString;
-    NSString *_queryLanguage;
-    _Bool _parsecEnabled;
-    PRSSearchSession *_searchSession;
-    NSObject<OS_dispatch_queue> *_sharedQueue;
-    struct __CFDictionary *__objectMap;
-    struct __CFDictionary *__replyMap;
-    double _gSessionStartTime;
-    long long _sessionOnceToken;
-    NSMutableArray *__updateChangedBlocks;
-    NSDictionary *_sqfData;
-    NSArray *_parsecCategoryOrder;
 }
 
 + (id);
-+ (void);
++ (void)/;
 + (id);
 + (void);
 - (_Bool);
@@ -46,7 +34,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (double);
 - (void);
 - (void);
@@ -54,41 +42,24 @@
 - (struct __CFDictionary *);
 - (struct __CFDictionary *);
 - (id);
+- (void)!;
 - (void);
+- (_Bool)#$;
 - (void);
-- (_Bool);
+- (void)I;
+- (id)e's default calendar must be one of its own calendars.;
+- (void)H;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)(;
+- (id)Y;
+- (id);
 - (void);
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property struct __CFDictionary *_objectMap; // @synthesize _objectMap=__objectMap;
-@property struct __CFDictionary *_replyMap; // @synthesize _replyMap=__replyMap;
-@property(retain) NSMutableArray *_updateChangedBlocks; // @synthesize _updateChangedBlocks=__updateChangedBlocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double gSessionStartTime; // @synthesize gSessionStartTime=_gSessionStartTime;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *parsecCategoryOrder; // @synthesize parsecCategoryOrder=_parsecCategoryOrder;
 @property _Bool parsecEnabled; // @synthesize parsecEnabled=_parsecEnabled;
-@property(retain) PRSSearchSession *searchSession; // @synthesize searchSession=_searchSession;
-@property long long sessionOnceToken; // @synthesize sessionOnceToken=_sessionOnceToken;
-@property(retain) NSObject<OS_dispatch_queue> *sharedQueue; // @synthesize sharedQueue=_sharedQueue;
-@property(retain) NSDictionary *sqfData; // @synthesize sqfData=_sqfData;
-@property(readonly) Class superclass;
-@property(retain) NSString *userAgentString;
 
 @end
 

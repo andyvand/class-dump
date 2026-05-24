@@ -6,17 +6,14 @@
 
 #import <CloudKitDaemon/CKDBackingAccount.h>
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 @interface CKDBackingExplicitCredentialsAccount : CKDBackingAccount
 {
     ACAccount *_fakeCKAccount;
-    NSString *_hsa2DevicePassword;
-    NSString *_hsa2RecoveryKey;
-    NSString *_hsa2AccountPassword;
 }
 
-+ (id);
++ (id)6;
 + (void)er '%{public}@';
 - (void);
 - (void);
@@ -27,24 +24,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)�H;
 - (id);
 - (_Bool);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)uring vetting;
 
 // Remaining properties
 @property(nonatomic, readonly) long long accountType;
-@property(nonatomic, readonly) ACAccount *ckAccount;
-@property(retain) ACAccount *fakeCKAccount; // @synthesize fakeCKAccount=_fakeCKAccount;
-@property(readonly, nonatomic) NSString *hsa2AccountPassword; // @synthesize hsa2AccountPassword=_hsa2AccountPassword;
-@property(retain) NSString *hsa2DevicePassword; // @synthesize hsa2DevicePassword=_hsa2DevicePassword;
-@property(readonly, nonatomic) NSString *hsa2RecoveryKey; // @synthesize hsa2RecoveryKey=_hsa2RecoveryKey;
-@property(nonatomic, readonly) NSString *password;
 
 @end
 

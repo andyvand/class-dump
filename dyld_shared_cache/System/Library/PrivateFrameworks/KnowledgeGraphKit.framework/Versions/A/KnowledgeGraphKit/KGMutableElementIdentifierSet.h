@@ -10,14 +10,14 @@
 {
 }
 
+- (void)pNoWiFiDelegate actionButtonPressed:(id)arg1 ]E3$_1vJEEE;
 - (void);
-- (void);
-- (void);
+- (void)openExternallyWithWebBrowserState:(id)arg1 referrerURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void *);
 - (void);
 - (id);
-- (void);
+- (void)c;
 - (void);
 - (id);
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSFrozenDictionaryM : NSDictionary
 {
     CDStruct_bc24fd1e storage;
-    _Atomic struct __cow_state_t *cow;
 }
 
 + (id);

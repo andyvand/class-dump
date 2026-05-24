@@ -10,13 +10,9 @@ __attribute__((visibility("hidden")))
 @interface AVMobileGlassBackgroundView : AVView
 {
     _Bool active;
-    double activeColorAlpha;
-    _Bool emphasized;
-    double emphasizedColorAlpha;
-    _Bool wantsCapsuleShape;
 }
 
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
@@ -32,10 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active;
-@property(nonatomic) double activeColorAlpha; // @synthesize activeColorAlpha;
-@property(nonatomic) _Bool emphasized; // @synthesize emphasized;
-@property(nonatomic) double emphasizedColorAlpha; // @synthesize emphasizedColorAlpha;
-@property(nonatomic) _Bool wantsCapsuleShape; // @synthesize wantsCapsuleShape;
 
 @end
 

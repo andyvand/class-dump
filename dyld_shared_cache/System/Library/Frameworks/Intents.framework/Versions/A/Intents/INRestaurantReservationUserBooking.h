@@ -6,16 +6,11 @@
 
 #import <Intents/INRestaurantReservationBooking.h>
 
-@class INRestaurantGuest, INRestaurantOffer, NSDate, NSString;
+@class INRestaurantGuest;
 
 @interface INRestaurantReservationUserBooking : INRestaurantReservationBooking
 {
     INRestaurantGuest *_guest;
-    NSString *_advisementText;
-    INRestaurantOffer *_selectedOffer;
-    NSString *_guestProvidedSpecialRequestText;
-    unsigned long long _status;
-    NSDate *_dateStatusModified;
 }
 
 + (_Bool);
@@ -26,33 +21,22 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)initWithDigital:(id)arg1 descriptionName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)ȡ;
+- (_Bool)isTCPGood;
+- (void)ublic}s (%{public}s:(id)arg1 %u) Invalid tdNetworkRef
+;
 - (id);
 - (id);
 - (unsigned long long);
-- (void)skAttribute:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideTemporalEventTriggerOptionsForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *advisementText; // @synthesize advisementText=_advisementText;
-@property(copy) NSDate *dateStatusModified; // @synthesize dateStatusModified=_dateStatusModified;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) INRestaurantGuest *guest; // @synthesize guest=_guest;
-@property(copy) NSString *guestProvidedSpecialRequestText; // @synthesize guestProvidedSpecialRequestText=_guestProvidedSpecialRequestText;
-@property(readonly) unsigned long long hash;
-@property(copy) INRestaurantOffer *selectedOffer; // @synthesize selectedOffer=_selectedOffer;
-@property unsigned long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

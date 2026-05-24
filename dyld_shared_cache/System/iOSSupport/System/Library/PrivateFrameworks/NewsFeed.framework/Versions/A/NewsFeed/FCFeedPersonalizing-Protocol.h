@@ -8,6 +8,9 @@
 
 @protocol FCFeedPersonalizing
 
+@optional
+- (void)PU;
+
 // Remaining properties
 @property(readonly, nonatomic) FCFeedPersonalizingEnvironment *feedPersonalizingEnvironment;
 // Preceding property had unknown attributes: ?

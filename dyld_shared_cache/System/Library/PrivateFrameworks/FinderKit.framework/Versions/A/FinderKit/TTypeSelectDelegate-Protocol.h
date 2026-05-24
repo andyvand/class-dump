@@ -5,5 +5,8 @@
 //
 
 @protocol TTypeSelectDelegate
+
+@optional
+- (_Bool);
 @end
 

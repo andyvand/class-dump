@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFTextProperty, SFLatLng;
+@class NSData, SFLatLng;
 
 @protocol RFMapMarkerText
+- (void);
+- (NSData *)(;
 
 // Remaining properties
 @property(retain, nonatomic) SFLatLng *coordinate;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFTextProperty *monogram;
-@property(copy, nonatomic) NSString *title;
 @end
 

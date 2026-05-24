@@ -5,5 +5,6 @@
 //
 
 @protocol PXFileNameUniquifierExistingFileSource
+- (_Bool);
 @end
 

@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, UIButton, UIImageView, UIView, UIVisualEffectView;
-@protocol CKMessageHighlightButtonDelegate;
+@class UIButton;
 
 @interface CKMessageHighlightButton
 {
     _Bool _isHighlighted;
-    _Bool _didUpdate;
-    id <CKMessageHighlightButtonDelegate> _delegate;
-    UIButton *_button;
-    UIView *_backgroundColorView;
-    UIView *_backgroundColorViewForCrossFade;
-    UIVisualEffectView *_blurEffectView;
-    CAShapeLayer *_blurEffectMaskLayer;
-    UIImageView *_glyphView;
-    UIImageView *_glyphViewForCrossFade;
 }
 
-- (BOOL);
-- (struct CGSize);
+- (BOOL)initWithQueryString:includeNotes:includeWebsites: /* Error: Ran out of types for this method. */;
+- (struct CGSize)initWithNote:maxCharacterCount:textContainer:textController: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)|k;
+- (void)0_d_;
+- (id)t;
+- (struct CGRect)ckQuoteLevel changed from %ld to %ld.;
+- (struct CGRect)onversion.swift;
+- (struct CGRect)lculate result;
+- (void)OutlineController.swift;
+- (struct CGSize)sUI.OutlineController;
+- (id)named a subfolder;
+- (id)named a note;
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
+- (id)r password for that device.;
 - (id);
 - (id);
 - (struct CGSize);
@@ -55,16 +45,7 @@
 - (id)ì©ÿ ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *backgroundColorView; // @synthesize backgroundColorView=_backgroundColorView;
-@property(readonly, nonatomic) UIView *backgroundColorViewForCrossFade; // @synthesize backgroundColorViewForCrossFade=_backgroundColorViewForCrossFade;
-@property(readonly, nonatomic) CAShapeLayer *blurEffectMaskLayer; // @synthesize blurEffectMaskLayer=_blurEffectMaskLayer;
-@property(readonly, nonatomic) UIVisualEffectView *blurEffectView; // @synthesize blurEffectView=_blurEffectView;
 @property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) __weak id <CKMessageHighlightButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool didUpdate; // @synthesize didUpdate=_didUpdate;
-@property(readonly, nonatomic) UIImageView *glyphView; // @synthesize glyphView=_glyphView;
-@property(readonly, nonatomic) UIImageView *glyphViewForCrossFade; // @synthesize glyphViewForCrossFade=_glyphViewForCrossFade;
-@property(readonly, nonatomic) _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
 
 @end
 

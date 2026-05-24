@@ -9,30 +9,24 @@
 @interface FPImportCookieEntry
 {
     NSString *_domainPathRelativeToVolumeRoot;
-    NSString *_displayName;
-    unsigned long long _fileID;
-    double _creationTime;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)kCTMaxTransmitPowerPercentageC2K;
 - (id);
-- (void);
+- (void),l;
 - (double);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double creationTime; // @synthesize creationTime=_creationTime;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) NSString *domainPathRelativeToVolumeRoot; // @synthesize domainPathRelativeToVolumeRoot=_domainPathRelativeToVolumeRoot;
-@property(readonly, nonatomic) unsigned long long fileID; // @synthesize fileID=_fileID;
 
 @end
 

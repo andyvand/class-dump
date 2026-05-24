@@ -7,12 +7,13 @@
 @class CLPlacemark, INSupportedTrafficIncidentType, NSNumber, NSString;
 
 @protocol INReportIncidentIntentExport
+- (NSNumber *)b;
+- (CLPlacemark *)initWithEndpoint:parameters: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (NSString *)ontained a slash ('/'), which is not allowed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *additionalDetails;
 @property(copy) INSupportedTrafficIncidentType *incidentType;
-@property(copy) NSNumber *isClear;
-@property(copy) NSNumber *startTime;
-@property(copy) CLPlacemark *userLocation;
 @end
 

@@ -9,26 +9,20 @@
 @interface PPSpotlightSessionState
 {
     NSMutableArray *_seenSpotlightIds;
-    NSMutableArray *_seenBundleIds;
-    NSMutableArray *_engagedSpotlightIds;
-    NSMutableArray *_engagedBundleIds;
 }
 
 - (id);
-- (void);
+- (void)X;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)intForKey:(id)arg1;
 - (id);
-- (void);
+- (void)*,@�?;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *engagedBundleIds; // @synthesize engagedBundleIds=_engagedBundleIds;
-@property(retain, nonatomic) NSMutableArray *engagedSpotlightIds; // @synthesize engagedSpotlightIds=_engagedSpotlightIds;
-@property(retain, nonatomic) NSMutableArray *seenBundleIds; // @synthesize seenBundleIds=_seenBundleIds;
 @property(retain, nonatomic) NSMutableArray *seenSpotlightIds; // @synthesize seenSpotlightIds=_seenSpotlightIds;
 
 @end

@@ -6,20 +6,17 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKAccountReport;
+@class NSString;
 
 @interface PKAccountWebServiceReportRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    PKAccountReport *_report;
-    unsigned long long _trigger;
 }
 
 - (id);
 - (void);
 - (id)ecode message ID:%@ /* Error: Ran out of types for this method. */;
-- (id)ICATION_REQUIRED_ERROR_TITLE;
+- (id)IDENTITY_VERIFICATION_REQUIRED_ERROR_TITLE;
 - (void)ss request;
 - (unsigned long long);
 - (void);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKAccountReport *report; // @synthesize report=_report;
-@property(nonatomic) unsigned long long trigger; // @synthesize trigger=_trigger;
 
 @end
 

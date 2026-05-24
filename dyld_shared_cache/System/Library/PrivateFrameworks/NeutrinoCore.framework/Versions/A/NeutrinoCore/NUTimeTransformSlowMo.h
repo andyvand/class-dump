@@ -6,16 +6,13 @@
 
 #import <NeutrinoCore/NUGeometryTransform.h>
 
-@protocol NUSlowMotionTimeRangeMapper;
-
 @interface NUTimeTransformSlowMo : NUGeometryTransform
 {
     _Bool _isInverse;
-    id <NUSlowMotionTimeRangeMapper> _timeMapper;
 }
 
 - (CDStruct_1b6d18a9);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInverse; // @synthesize isInverse=_isInverse;
-@property(readonly, nonatomic) id <NUSlowMotionTimeRangeMapper> timeMapper; // @synthesize timeMapper=_timeMapper;
 
 @end
 

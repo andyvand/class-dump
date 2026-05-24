@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface ProxyConfiguration
 {
     NSDictionary *_proxy;
-    NSDictionary *_deviceIdentificationToken;
 }
 
-+ (_Bool);
++ (_Bool).Photos.PhotosReliveWidget;
 + (id)t;
 - (id);
-- (id);
-- (void);
+- (id)Cal.CalendarWidgetExtension;
+- (void)AnimatedTransitionWatchOS;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *deviceIdentificationToken; // @synthesize deviceIdentificationToken=_deviceIdentificationToken;
 @property(readonly, nonatomic) NSDictionary *proxy; // @synthesize proxy=_proxy;
 
 @end

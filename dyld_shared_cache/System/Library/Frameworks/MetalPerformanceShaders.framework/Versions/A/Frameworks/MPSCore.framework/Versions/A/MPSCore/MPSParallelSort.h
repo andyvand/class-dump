@@ -6,17 +6,9 @@
 
 #import <MPSCore/MPSKernel.h>
 
-@class MPSParallelExclusiveScan;
-
 @interface MPSParallelSort : MPSKernel
 {
     unsigned long long dataTypeSizeInBytes;
-    unsigned int _sourceDataType;
-    unsigned int _destinationDataType;
-    int _sortOp;
-    MPSParallelExclusiveScan *_exclusiveScanKernel;
-    unsigned int _keyPairDataType;
-    unsigned int _valuePairDataType;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -35,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int keyPairDataType; // @synthesize keyPairDataType=_keyPairDataType;
-@property(readonly, nonatomic) unsigned int valuePairDataType; // @synthesize valuePairDataType=_valuePairDataType;
 
 @end
 

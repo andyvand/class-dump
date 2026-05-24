@@ -4,33 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2ContactDetailExtraction
 {
     int _detail;
-    unsigned int _extractionModelVersion;
-    int _extractionSignatureSource;
-    int _foundInSenderCNContact;
-    NSString *_key;
-    int _outcome;
-    int _source;
-    _Bool _isUnlikelyPhone;
-    _Bool _signature;
-    struct {
-        unsigned int detail:1;
-        unsigned int extractionModelVersion:1;
-        unsigned int extractionSignatureSource:1;
-        unsigned int foundInSenderCNContact:1;
-        unsigned int outcome:1;
-        unsigned int source:1;
-        unsigned int isUnlikelyPhone:1;
-        unsigned int signature:1;
-    } _has;
 }
 
-- (void);
-- (void);
+- (void)__DATA_CONST;
+- (void)__swift5_fieldmd__TEXT;
 - (void);
 - (void);
 - (void);
@@ -42,35 +22,35 @@
 - (_Bool);
 - (int);
 - (id);
+- (int)__DATA_CONST;
+- (id)@"WKFrameInfo"32@?<v@?q>40;
+- (id)v@?@"NSString">48;
+- (int)4;
+- (int)pViewController";
+- (_Bool)@?16@?24;
+- (int)4;
+- (void);
+- (id)kCTDataConnectionServiceTypeInternetProbe;
+- (_Bool)STKEventType::kSTK__SelectItemNotification /* Error: Ran out of types for this method. */;
+- (int)nstantIbLb1EEEEUlRKN3xpc6objectEE_;
+- (void)ted suggestion was autocomplete result;
+- (void)phone key:(unsigned int)arg1 [%@, %@]. Aborting.;
+- (_Bool)hone.fill;
+- (unsigned int)revious month;
+- (_Bool);
+- (void);
 - (int);
 - (id);
-- (id);
-- (int);
-- (int);
-- (_Bool);
-- (int);
-- (void);
-- (id);
-- (_Bool);
-- (int);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)LoginUIKit;
 - (unsigned long long);
-- (void);
+- (void)FreeBusyResponseArray;
 - (_Bool);
-- (id);
+- (id)mListCharacterPictureBullet;
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (int);
 - (id);
@@ -79,33 +59,16 @@
 × ;
 - (_Bool)ùl$1Â0@ù
 × ;
-- (void)eet:(id)arg1;
+- (void)setStreet:(id)arg1;
 - (void)T@"SGSocialProfileDetails",R,N,V_socialProfile;
-- (_Bool)le;
+- (_Bool)SGSearchableItemIdTriple;
 - (void)P%`%	p(;
 - (void)°Ä;
 - (id)TEXT NOT NULL,creationTimestamp REAL,queryTimestamp REAL,personHandle TEXT,startDateTimestamp REAL,endDateTimestamp REAL,executionTimestamp REAL);
 - (int)up;
 
 // Remaining properties
-@property(nonatomic) int detail; // @synthesize detail=_detail;
-@property(nonatomic) unsigned int extractionModelVersion; // @synthesize extractionModelVersion=_extractionModelVersion;
-@property(nonatomic) int extractionSignatureSource; // @synthesize extractionSignatureSource=_extractionSignatureSource;
-@property(nonatomic) int foundInSenderCNContact; // @synthesize foundInSenderCNContact=_foundInSenderCNContact;
-@property(nonatomic) _Bool hasDetail;
-@property(nonatomic) _Bool hasExtractionModelVersion;
-@property(nonatomic) _Bool hasExtractionSignatureSource;
-@property(nonatomic) _Bool hasFoundInSenderCNContact;
-@property(nonatomic) _Bool hasIsUnlikelyPhone;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasOutcome;
-@property(nonatomic) _Bool hasSignature;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool isUnlikelyPhone; // @synthesize isUnlikelyPhone=_isUnlikelyPhone;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int outcome; // @synthesize outcome=_outcome;
-@property(nonatomic) _Bool signature; // @synthesize signature=_signature;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceSessionConfiguration, NSString;
-@protocol _GCIPCObjectRegistry, _GCIPCServiceRegistry;
-
 @protocol _GCDeviceClient
+- (id)4;
 
 // Remaining properties
-@property(readonly) id <_GCIPCObjectRegistry> IPCObjectRegistry;
-@property(readonly) id <_GCIPCServiceRegistry> IPCServiceRegistry;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly) GCDeviceSessionConfiguration *configuration;
 @property(readonly, nonatomic, getter=isInvalid) _Bool invalid;
-@property(readonly, nonatomic) int processIdentifier;
 @end
 

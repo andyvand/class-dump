@@ -18,27 +18,23 @@
 + (_Bool);
 + (id);
 + (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)B;
+- (id);
+- (unsigned long long);
+- (id)ent=41504653...ECAC (APFS Volume) to BaseBundleName=apfs;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isLeft;
-@property(readonly, nonatomic) _Bool isRight;
-@property(readonly, nonatomic) id left;
 @property(retain, nonatomic) CNPair *pair; // @synthesize pair=_pair;
-@property(readonly, nonatomic) id right;
 
 @end
 

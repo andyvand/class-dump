@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSString *proxiedObjectIdentifier;
 }
 
-+ (struct __CFDictionary *);
++ (struct __CFDictionary *);
 + (id);
 + (void);
 + (void);
 + (void);
-- (void);
+- (void)Ԩ;
 - (id);
 - (void);
 - (id);

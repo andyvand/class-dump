@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface Web_RTCVideoDecoderVTBAV1
 {
     struct RetainPtr<const opaqueCMFormatDescription *> _videoFormat;
-    struct RetainPtr<OpaqueVTDecompressionSession *> _decompressionSession;
-    struct BlockPtr<void (__CVBuffer *, long long, long long, bool)> _callback;
-    int _error;
-    int _width;
-    int _height;
 }
 
 - (void);
@@ -22,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (id)red link:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)_patchXMLElement;
 - (void)e-fonts;
 - (void)òäpäivxfilíð¿éeltadentáíÕ¨áî
 îc­êÎÓáæå*®@\KaJ¦Eß`/¸`&-Y(`k{`â`8eDÈ`P`"`/Û`d`=)`%[WÖ`'¢`;°`:{`@ò`8¸`?·`l'`[«`_l@Ä@r@²@@ßAlAtBÃÑú$	@!@ð	&B, Av(BP+2B6

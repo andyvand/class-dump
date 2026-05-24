@@ -6,13 +6,12 @@
 
 #import <MediaExperience/MXSessionManagerBase.h>
 
-@class NSLock, NSPointerArray;
+@class NSPointerArray;
 
 __attribute__((visibility("hidden")))
 @interface MXSessionManagerSecure : MXSessionManagerBase
 {
     NSPointerArray *mMXCoreSessionSecureList;
-    NSLock *mMXCoreSessionSecureListLock;
 }
 
 + (id);

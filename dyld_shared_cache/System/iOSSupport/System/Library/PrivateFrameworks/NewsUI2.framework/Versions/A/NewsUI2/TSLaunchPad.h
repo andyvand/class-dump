@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)stem/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 
 @end
 

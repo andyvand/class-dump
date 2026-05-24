@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface HMApplicationData
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_mutableDictionary;
 }
 
 + (id);
@@ -21,8 +20,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)?5?M>(;
+- (_Bool)hexastyle;
 - (id);
 - (id);
 - (id);
@@ -30,9 +29,6 @@
 - (void)¨;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allKeys;
-@property(readonly, copy, nonatomic) NSArray *allValues;
-@property(readonly, copy) NSDictionary *dictionary;
 @property(readonly) NSMutableDictionary *mutableDictionary; // @synthesize mutableDictionary=_mutableDictionary;
 
 @end

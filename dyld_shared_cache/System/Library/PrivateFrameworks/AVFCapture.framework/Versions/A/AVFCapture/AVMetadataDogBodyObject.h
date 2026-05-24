@@ -11,12 +11,12 @@
 }
 
 + (id);
+- (id)_invalidationHandler;
+- (id),C,N,V_alertHeader;
+- (id)tertiaryTextColorHex;
+- (id)delegateQueue;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)M;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVContentKeySession, NSMutableArray, NSMutableSet;
-
 @interface FCAVAssetKeyFetchRequest
 {
     _Bool _forceRefresh;
-    AVContentKeySession *_contentKeySession;
-    NSMutableSet *_remainingKeyURIs;
-    NSMutableArray *_errorsEncountered;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (void)orageThreshold;
+- (void)lowStorageThreshold;
 
 @end
 

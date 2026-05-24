@@ -5,6 +5,7 @@
 //
 
 @protocol CNFavoritesStore
+- (_Bool);
 - (void)p;
 @end
 

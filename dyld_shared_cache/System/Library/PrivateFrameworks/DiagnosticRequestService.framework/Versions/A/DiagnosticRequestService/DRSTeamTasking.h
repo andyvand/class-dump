@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRConfig, DRSSamplingParameters, NSDictionary, NSString;
+@class NSString;
 
 @interface DRSTeamTasking
 {
     NSString *_teamID;
-    DRConfig *_config;
-    DRSSamplingParameters *_defaultSamplingParameters;
-    NSDictionary *_perTimezoneSamplingParameters;
-    NSDictionary *_perHWModelSamplingParameters;
 }
 
 - (id);
@@ -20,24 +16,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)L<;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)rchAirport(MapsSuggestionsEntry *__strong, NSString *__strong, __strong id<MapsSuggestionsNetworkRequester>, __strong MapsSuggestionsEntryMapItemsFetchCompletion)_block_invoke;
+- (id)ompletion);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id)ysteresisRejection;
+- (id)SignatureHysteresisRejection;
 
 // Remaining properties
-@property(readonly, nonatomic) DRConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) DRSSamplingParameters *defaultSamplingParameters; // @synthesize defaultSamplingParameters=_defaultSamplingParameters;
-@property(readonly, nonatomic) NSDictionary *perHWModelSamplingParameters; // @synthesize perHWModelSamplingParameters=_perHWModelSamplingParameters;
-@property(readonly, nonatomic) NSDictionary *perTimezoneSamplingParameters; // @synthesize perTimezoneSamplingParameters=_perTimezoneSamplingParameters;
 @property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end

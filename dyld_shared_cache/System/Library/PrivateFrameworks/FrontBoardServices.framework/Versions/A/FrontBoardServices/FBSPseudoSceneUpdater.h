@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceQueue, NSObject, NSString;
+@class BSServiceQueue, NSObject;
 @protocol NSCopying;
 
 @interface FBSPseudoSceneUpdater
@@ -16,30 +16,23 @@
 - (void);
 - (void);
 - (void);
+- (void)(G;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (_Bool)@;
+- (void)9;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id)ion;
+- (id)_hasAnySceneExtension;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<NSCopying> *identifier;
-@property(readonly) Class superclass;
 
 @end
 

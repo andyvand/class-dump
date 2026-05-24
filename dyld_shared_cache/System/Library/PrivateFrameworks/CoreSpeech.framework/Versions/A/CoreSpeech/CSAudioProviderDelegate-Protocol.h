@@ -5,5 +5,8 @@
 //
 
 @protocol CSAudioProviderDelegate
+
+@optional
+- (void)rcle calculation;
 @end
 

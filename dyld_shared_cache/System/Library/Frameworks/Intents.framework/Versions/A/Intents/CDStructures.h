@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct map<std::string, INSystemApp, std::less<std::string>, std::allocator<std::pair<const std::string, INSystemApp>>> {
@@ -36,8 +36,8 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
     int *list;
@@ -46,9 +46,9 @@ typedef struct {
 } CDStruct_95bda58d;
 
 typedef struct {
-    double width;
-    double height;
-} CDStruct_8caa76fc;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 // Ambiguous groups
 typedef struct {

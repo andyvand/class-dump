@@ -7,7 +7,6 @@
 @interface NewsUI2.PromotedHeadlineService
 {
     id context;
-    id feedPersonalizer;
 }
 
 @end

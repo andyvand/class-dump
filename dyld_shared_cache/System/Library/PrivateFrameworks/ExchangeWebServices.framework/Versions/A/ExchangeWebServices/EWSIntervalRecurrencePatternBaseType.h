@@ -6,8 +6,6 @@
 
 #import <ExchangeWebServices/EWSRecurrencePatternBaseType.h>
 
-@class NSString;
-
 @interface EWSIntervalRecurrencePatternBaseType : EWSRecurrencePatternBaseType
 {
     long long _Interval;
@@ -15,18 +13,11 @@
 
 + (id);
 - (long long);
-- (id);
+- (id)@;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long Interval; // @synthesize Interval=_Interval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

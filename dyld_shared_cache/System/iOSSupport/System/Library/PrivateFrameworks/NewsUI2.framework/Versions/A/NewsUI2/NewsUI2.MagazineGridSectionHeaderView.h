@@ -7,13 +7,11 @@
 @interface NewsUI2.MagazineGridSectionHeaderView
 {
     id titleLabel;
-    id sortByButton;
-    id detailLabel;
 }
 
 - (id);
 - (id);
-- (void)earchFeedGroupKnobs;
+- (void)RecipesSearchFeedGroupKnobs;
 
 @end
 

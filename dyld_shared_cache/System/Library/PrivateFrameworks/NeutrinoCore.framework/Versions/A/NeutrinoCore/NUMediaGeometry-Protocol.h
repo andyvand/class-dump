@@ -5,10 +5,10 @@
 //
 
 @protocol NUMediaGeometry
+- (CDStruct_912cb5d2);
+- (long long)i];
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration;
-@property(readonly, nonatomic) long long orientation;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @end
 

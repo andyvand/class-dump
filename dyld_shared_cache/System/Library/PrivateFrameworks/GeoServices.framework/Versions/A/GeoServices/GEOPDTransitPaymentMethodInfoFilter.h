@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PBUnknownFields *_unknownFields;
 }
 
-- (id);
-- (void);
+- (id)$;
+- (void)setTitleKeyPath:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)namicContexts;
+- (id)_serverDynamicContexts;
 - (id)ÐY<];
 - (void);
 

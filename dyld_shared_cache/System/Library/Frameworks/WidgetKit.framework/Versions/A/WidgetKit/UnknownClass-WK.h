@@ -7,7 +7,7 @@
 @class INAppIntent;
 
 @interface UnknownClass (WK)
-- (id);
+- (id)TS legacy_profile_grace_periods (  uuid TEXT NOT NULL PRIMARY KEY,  grace_period INT NOT NULL,  CONSTRAINT fk_legacy_profile_grace_period_uuid    FOREIGN KEY (uuid)    REFERENCES profiles(uuid)    ON DELETE CASCADE );
 
 // Remaining properties
 @property(readonly, nonatomic) INAppIntent *_wk_asMigratedAppIntent;

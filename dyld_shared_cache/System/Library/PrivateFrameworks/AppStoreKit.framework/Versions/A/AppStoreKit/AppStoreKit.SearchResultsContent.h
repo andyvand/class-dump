@@ -7,7 +7,6 @@
 @interface AppStoreKit.SearchResultsContent
 {
     id results;
-    id nextPage;
 }
 
 @end

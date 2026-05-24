@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PBSlideObjAndMasterPair
 {
     PDSlide *mSlide;
-    int mMasterId;
 }
 
 + (id);

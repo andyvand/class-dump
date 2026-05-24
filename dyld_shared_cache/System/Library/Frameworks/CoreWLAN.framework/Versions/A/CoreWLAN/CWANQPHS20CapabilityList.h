@@ -9,12 +9,6 @@
 @interface CWANQPHS20CapabilityList : CWANQPElement
 {
     _Bool _supportsHSQueryList;
-    _Bool _supportsHSCapabilityList;
-    _Bool _supportsOperatorFriendlyName;
-    _Bool _supportsWANMetrics;
-    _Bool _supportsConnectionCapability;
-    _Bool _supportsNAIHomeRealmQuery;
-    _Bool _supportsOperatingClassIndication;
 }
 
 + (_Bool);
@@ -23,8 +17,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Q;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,13 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool supportsConnectionCapability; // @synthesize supportsConnectionCapability=_supportsConnectionCapability;
-@property(nonatomic) _Bool supportsHSCapabilityList; // @synthesize supportsHSCapabilityList=_supportsHSCapabilityList;
 @property(nonatomic) _Bool supportsHSQueryList; // @synthesize supportsHSQueryList=_supportsHSQueryList;
-@property(nonatomic) _Bool supportsNAIHomeRealmQuery; // @synthesize supportsNAIHomeRealmQuery=_supportsNAIHomeRealmQuery;
-@property(nonatomic) _Bool supportsOperatingClassIndication; // @synthesize supportsOperatingClassIndication=_supportsOperatingClassIndication;
-@property(nonatomic) _Bool supportsOperatorFriendlyName; // @synthesize supportsOperatorFriendlyName=_supportsOperatorFriendlyName;
-@property(nonatomic) _Bool supportsWANMetrics; // @synthesize supportsWANMetrics=_supportsWANMetrics;
 
 @end
 

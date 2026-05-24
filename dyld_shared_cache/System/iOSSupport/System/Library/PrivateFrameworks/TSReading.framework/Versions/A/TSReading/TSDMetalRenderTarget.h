@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPassDescriptor, NSArray;
-@protocol MTLTexture;
+@class NSArray;
 
 @interface TSDMetalRenderTarget
 {
     NSArray *_textures;
-    MTLRenderPassDescriptor *_passDescriptor;
-    struct CGSize _size;
 }
 
-- (id);
+- (id)ier:(unsigned long long)arg1;
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (struct CATransform3D);
-- (id);
+- (id)p]ę;
 - (id);
 - (id);
 - (struct CGSize);
@@ -29,9 +26,6 @@
 - (id)ÿ ;
 
 // Remaining properties
-@property(readonly) MTLRenderPassDescriptor *passDescriptor; // @synthesize passDescriptor=_passDescriptor;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) id <MTLTexture> texture;
 @property(readonly) NSArray *textures; // @synthesize textures=_textures;
 
 @end

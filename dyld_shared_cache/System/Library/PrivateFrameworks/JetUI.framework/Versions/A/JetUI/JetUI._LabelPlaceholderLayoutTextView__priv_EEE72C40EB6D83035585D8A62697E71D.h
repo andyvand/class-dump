@@ -7,8 +7,6 @@
 @interface JetUI._LabelPlaceholderLayoutTextView__priv_EEE72C40EB6D83035585D8A62697E71D
 {
     id base;
-    id frame;
-    id isHidden;
 }
 
 @end

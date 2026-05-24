@@ -6,52 +6,47 @@
 
 #import <AppKit/NSCollectionViewLayout.h>
 
-@class NSCollectionLayoutSection, NSCollectionViewCompositionalLayoutConfiguration, NSCollectionViewLayoutAttributes, _NSCollectionCompositionalLayoutSolver, _NSCollectionCompositionalLayoutSolverUpdate, _NSDataSourceSnapshotter, _NSUpdateVisibleCellsContext;
-@protocol _NSCollectionCompositionalLayoutSolverResolveResult;
+@class NSCollectionLayoutSection, NSCollectionViewCompositionalLayoutConfiguration;
 
 @interface NSCollectionViewCompositionalLayout : NSCollectionViewLayout
 {
     NSCollectionViewCompositionalLayoutConfiguration *_configuration;
-    _Bool _defersInitialSolveUntilPrepare;
-    _Bool _shouldAdjustContentInsetModeForCollectionViewNeverMode;
-    _Bool _isInUpdateVisibleCellsPass;
-    _Bool _layoutRTL;
-    _Bool _roundsToScreenScale;
-    NSCollectionLayoutSection *_layoutSectionTemplate;
-    CDUnknownBlockType _layoutSectionProvider;
-    _NSCollectionCompositionalLayoutSolver *_solver;
-    _NSDataSourceSnapshotter *_dataSourceSnapshotter;
-    unsigned long long _edgesForSafeAreaPropagation;
-    _NSUpdateVisibleCellsContext *_updateVisibleCellsContext;
-    _NSCollectionCompositionalLayoutSolverUpdate *_currentUpdate;
-    id <_NSCollectionCompositionalLayoutSolverResolveResult> _currentResolveResult;
-    NSCollectionViewLayoutAttributes *_currentDropIndicatorAttributes;
-    struct CGSize _memoizedPreviousInvalidationCollectionViewBoundsSize;
-    struct NSEdgeInsets _memoizedDynamicAnimatorWorldAdjustingInsets;
-    struct NSEdgeInsets _memoizedPreviousLayoutMargins;
-    struct CGRect _contentFrame;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
+- (struct CGSize)checked__willRetryBackgroundDataTask_withError;
+- (id)_setCookiesChangedHandler:(id)arg1 onQueue: /* Error: Ran out of types for this method. */;
+- (id)_setAllowPrivateAccessTokensForThirdParty:(struct CGPoint)arg1;
+- (_Bool)_duetPreauthorized;
+- (_Bool)signed request.;
+- (id)Stream client bypassing proxies on TCP Conn [%llu:%p] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)EHA_INDEXED_DYN;
+- (void)NSExceptionMinimumTLSVersion;
+- (id)rkStorageDB:(id)arg1 _openDBReadConnections:failed to open read connection to DB @ %s.  Error=%d. Cause=%s /* Error: Ran out of types for this method. */;
+- (_Bool)ProxyAutoDiscoveryEnable;
+- (_Bool)RTSPProxy;
+- (_Bool)8192);
+END;;
+- (void))8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
 - (struct CGVector);
 - (double);
 - (_Bool);
@@ -62,9 +57,9 @@
 - (_Bool);
 - (long long);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
-- (int);
+- (int)ȹ;
 - (int);
 - (id);
 - (unsigned long long);
@@ -81,13 +76,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)_;
 - (struct NSEdgeInsets);
 - (void);
 - (_Bool);
@@ -104,7 +99,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -117,15 +112,15 @@
 - (id);
 - (void)
 × ;
-- (struct NSEdgeInsets)orwardingBlock: /* Error: Ran out of types for this method. */;
-- (void)yResetToPreset:(unsigned long long)arg1;
-- (void)ller:(id)arg1;
-- (long long)cking;
-- (_Bool)eaCornerAdaptation;
-- (struct CGRect)ndex:(long long)arg1 inView:state:tickState: /* Error: Ran out of types for this method. */;
-- (void)stinationDisclosureState:(id)arg1;
-- (id)sIfNotHidden;
-- (id)ity;
+- (struct NSEdgeInsets)cursorUpdate:forwardingBlock: /* Error: Ran out of types for this method. */;
+- (void)accessibilityResetToPreset:(unsigned long long)arg1;
+- (void)_updateTitlebarMaterialWithSectionController:(id)arg1;
+- (long long)_tearDownMenuTracking;
+- (_Bool)_safeAreaCornerAdaptation;
+- (struct CGRect)_rectOfTickMarkAtIndex:(long long)arg1 inView:state:tickState: /* Error: Ran out of types for this method. */;
+- (void)_setDestinationDisclosureState:(id)arg1;
+- (id)_enableTrackingRectsIfNotHidden;
+- (id)NSTouchBarCustomizationPreviewLayoutSectionAccessibility;
 - (struct CGSize)lª	è¬®°±;
 - (struct CGRect)6¤£;
 - (_Bool)¨;
@@ -136,14 +131,14 @@
 - (id)áehGGQo_GOhy¹.hyAE9gDhGGG;
 - (_Bool)Dh4sizetGSiAJ_AnOtGG;
 - (id)es must be positive.;
-- (id)e;
+- (id)NSDragTrackerEventCoalescingRunLoopMode;
 - (_Bool);
 - (_Bool):(id)arg1 %@, _swipeData.finishAnimation.endPercentage:%.3f /* Error: Ran out of types for this method. */;
 - (id)ot remove a SplitViewItem's viewController if it is currently in a SplitViewController;
-- (void)dow;
-- (void)nRow;
-- (_Bool)it;
-- (void)HighlightColorScheme;
+- (void)NSShadow;
+- (void)wantsSystemModalFunctionRow;
+- (_Bool)Edit;
+- (void)NNSTextHighlightColorScheme;
 - (id)ØÈ¼B;
 - (void)¯Õ	C;
 - (id)ÔôC;
@@ -158,25 +153,7 @@
 - (CDUnknownBlockType)ûI;
 
 // Remaining properties
-@property(copy) NSCollectionViewCompositionalLayoutConfiguration *configuration;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(retain, nonatomic) NSCollectionViewLayoutAttributes *currentDropIndicatorAttributes; // @synthesize currentDropIndicatorAttributes=_currentDropIndicatorAttributes;
-@property(retain, nonatomic) id <_NSCollectionCompositionalLayoutSolverResolveResult> currentResolveResult; // @synthesize currentResolveResult=_currentResolveResult;
-@property(retain, nonatomic) _NSCollectionCompositionalLayoutSolverUpdate *currentUpdate; // @synthesize currentUpdate=_currentUpdate;
-@property(retain, nonatomic) _NSDataSourceSnapshotter *dataSourceSnapshotter; // @synthesize dataSourceSnapshotter=_dataSourceSnapshotter;
-@property(nonatomic) _Bool defersInitialSolveUntilPrepare; // @synthesize defersInitialSolveUntilPrepare=_defersInitialSolveUntilPrepare;
-@property(nonatomic) unsigned long long edgesForSafeAreaPropagation; // @synthesize edgesForSafeAreaPropagation=_edgesForSafeAreaPropagation;
-@property(nonatomic) _Bool isInUpdateVisibleCellsPass; // @synthesize isInUpdateVisibleCellsPass=_isInUpdateVisibleCellsPass;
-@property(nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(copy, nonatomic) CDUnknownBlockType layoutSectionProvider; // @synthesize layoutSectionProvider=_layoutSectionProvider;
 @property(retain, nonatomic) NSCollectionLayoutSection *layoutSectionTemplate; // @synthesize layoutSectionTemplate=_layoutSectionTemplate;
-@property(nonatomic) struct NSEdgeInsets memoizedDynamicAnimatorWorldAdjustingInsets; // @synthesize memoizedDynamicAnimatorWorldAdjustingInsets=_memoizedDynamicAnimatorWorldAdjustingInsets;
-@property(nonatomic) struct CGSize memoizedPreviousInvalidationCollectionViewBoundsSize; // @synthesize memoizedPreviousInvalidationCollectionViewBoundsSize=_memoizedPreviousInvalidationCollectionViewBoundsSize;
-@property(nonatomic) struct NSEdgeInsets memoizedPreviousLayoutMargins; // @synthesize memoizedPreviousLayoutMargins=_memoizedPreviousLayoutMargins;
-@property(nonatomic) _Bool roundsToScreenScale; // @synthesize roundsToScreenScale=_roundsToScreenScale;
-@property(nonatomic) _Bool shouldAdjustContentInsetModeForCollectionViewNeverMode; // @synthesize shouldAdjustContentInsetModeForCollectionViewNeverMode=_shouldAdjustContentInsetModeForCollectionViewNeverMode;
-@property(retain, nonatomic) _NSCollectionCompositionalLayoutSolver *solver; // @synthesize solver=_solver;
-@property(retain, nonatomic) _NSUpdateVisibleCellsContext *updateVisibleCellsContext; // @synthesize updateVisibleCellsContext=_updateVisibleCellsContext;
 
 @end
 

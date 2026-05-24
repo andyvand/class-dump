@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)ourceListInactiveGroupTitleTextColor;
+- (id)_sourceListInactiveGroupTitleTextColor;
 
 @end
 

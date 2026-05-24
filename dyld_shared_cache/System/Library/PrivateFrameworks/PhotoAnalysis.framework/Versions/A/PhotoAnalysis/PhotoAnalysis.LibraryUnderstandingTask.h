@@ -7,26 +7,6 @@
 @interface PhotoAnalysis.LibraryUnderstandingTask
 {
     id version;
-    id shouldRecordCompletion;
-    id name;
-    id identifier;
-    id periodicity;
-    id incrementalKey;
-    id worker;
-    id taskProductivityReporter;
-    id graphManager;
-    id limitProcessingTimeAndSetGMSBackgroundTaskPriority;
-    id minimumAssetCount;
-    id persistBatchSize;
-    id maxProcessingTime;
-    id insufficientEmbeddingsMomentsThreshold;
-    id minimumSceneProcessingVersion;
-    id currentUEMVersion;
-    id minimumPerMomentEmbeddingsRatio;
-    id libraryUnderstandingGenerator;
-    id momentsProcessedCount;
-    id osLog;
-    id logger;
 }
 
 @end

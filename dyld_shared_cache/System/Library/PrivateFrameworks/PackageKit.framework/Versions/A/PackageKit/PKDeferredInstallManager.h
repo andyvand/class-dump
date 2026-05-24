@@ -9,9 +9,6 @@
 @interface PKDeferredInstallManager
 {
     NSString *_destinationPath;
-    NSString *_rootPath;
-    unsigned long long _options;
-    NSString *_manifestPath;
 }
 
 - (_Bool);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property unsigned long long options; // @synthesize options=_options;
-@property(readonly) NSString *rootPath;
 
 @end
 

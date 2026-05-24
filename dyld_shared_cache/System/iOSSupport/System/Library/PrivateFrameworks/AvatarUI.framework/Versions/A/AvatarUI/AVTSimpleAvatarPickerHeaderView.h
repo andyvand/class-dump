@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTCircularButton, NSString, UIImageSymbolConfiguration;
+@class AVTCircularButton, NSString;
 
 @interface AVTSimpleAvatarPickerHeaderView
 {
     AVTCircularButton *_button;
-    CDUnknownBlockType _buttonPressedBlock;
-    NSString *_currentSymbolName;
-    UIImageSymbolConfiguration *_plusSymbolConfiguration;
-    UIImageSymbolConfiguration *_ellipsisSymbolConfiguration;
 }
 
 + (id);
@@ -30,14 +26,10 @@
 - (void);
 - (id);
 - (void);
-- (id)ewDidAppear: /* Error: Ran out of types for this method. */;
+- (id)viewDidAppear: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AVTCircularButton *button; // @synthesize button=_button;
-@property(copy, nonatomic) CDUnknownBlockType buttonPressedBlock; // @synthesize buttonPressedBlock=_buttonPressedBlock;
 @property(retain, nonatomic) NSString *currentSymbolName; // @synthesize currentSymbolName=_currentSymbolName;
-@property(retain, nonatomic) UIImageSymbolConfiguration *ellipsisSymbolConfiguration; // @synthesize ellipsisSymbolConfiguration=_ellipsisSymbolConfiguration;
-@property(retain, nonatomic) UIImageSymbolConfiguration *plusSymbolConfiguration; // @synthesize plusSymbolConfiguration=_plusSymbolConfiguration;
 
 @end
 

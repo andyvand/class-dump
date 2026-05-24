@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSDictionaryI : NSDictionary
 {
     unsigned int _used:57;
-    unsigned int _copyKeys:1;
-    unsigned int _szidx:6;
-    id _list[0];
 }
 
 + (_Bool);
@@ -22,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)registerPluginNodeReinitializingContext:installDictionary:existingPlugin:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)a"@"NSError">24;
-- (void)nfig;
+- (void)GEODeviceConfig;
 - (double)oípíqíIðHð|ÂwòuÞõÌ¥;
 - (id);
 - (unsigned long long);

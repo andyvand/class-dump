@@ -7,13 +7,9 @@
 @interface PassKitCore.ProvisioningCarKeyStepRequestInvite
 {
     id context;
-    id credential;
-    id sharedState;
-    id createdShareInformation;
-    id isPendingEndTransferAuthorization;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

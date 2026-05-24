@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSAlignmentRect)
-- (struct CGRect);
+- (struct CGRect)2zs;
 
 // Remaining properties
 @property(readonly) struct CGRect NS_alignmentRect;

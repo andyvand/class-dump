@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXAudioAsset, PXAudioAssetFetchResult;
+@protocol PXAudioAssetFetchResult;
 
 @interface PXStorySongsConfiguration
 {
     id <PXAudioAssetFetchResult> _curatedAudioAssets;
-    id <PXAudioAssetFetchResult> _fallbackCuratedAssets;
-    id <PXAudioAsset> _currentAsset;
 }
 
 - (id);
@@ -21,15 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (_Bool);
-- (void)ventFeedView;
+- (void)GenerativeStoryEventFeedView;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAssetFetchResult> curatedAudioAssets; // @synthesize curatedAudioAssets=_curatedAudioAssets;
-@property(readonly, nonatomic) id <PXAudioAsset> currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(readonly, nonatomic) id <PXAudioAssetFetchResult> fallbackCuratedAssets; // @synthesize fallbackCuratedAssets=_fallbackCuratedAssets;
 
 @end
 

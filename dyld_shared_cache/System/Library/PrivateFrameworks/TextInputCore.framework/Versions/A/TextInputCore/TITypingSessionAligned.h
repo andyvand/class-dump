@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
+@class NSArray;
 
 @interface TITypingSessionAligned
 {
     _Bool _success;
-    _Bool _containsCPEntries;
-    NSArray *_layouts;
-    NSLocale *_locale;
-    NSArray *_alignedEntries;
-    NSString *_alignedText;
-    NSString *_completeText;
-    NSString *_highConfAlignedSubSegment;
-    unsigned long long _firstCPEntryIndex;
 }
 
 + (id);
-+ (id);
++ (id)g;
 + (id);
 + (id);
 + (_Bool);
@@ -28,39 +20,31 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)le work queue);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)setLength: /* Error: Ran out of types for this method. */;
+- (void)addScriptMessageHandler:(id)arg1 name: /* Error: Ran out of types for this method. */;
+- (id)`;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)setTransform: /* Error: Ran out of types for this method. */;
+- (void)rray",&,N,V_lastTopHitQueryItems;
+- (void)T	;
+- (_Bool)_checkPropertyFilters:forMediaItem: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void)0@ù
 × ;
-- (id)ThreeLetters;
+- (id)MinStemLengthForPredictingThreeLetters;
 - (id)>ÍÌÌ=33³>ü©±¾;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *alignedEntries; // @synthesize alignedEntries=_alignedEntries;
-@property(retain, nonatomic) NSString *alignedText; // @synthesize alignedText=_alignedText;
-@property(readonly, nonatomic) NSString *completeText; // @synthesize completeText=_completeText;
-@property(nonatomic) _Bool containsCPEntries; // @synthesize containsCPEntries=_containsCPEntries;
-@property(nonatomic) unsigned long long firstCPEntryIndex; // @synthesize firstCPEntryIndex=_firstCPEntryIndex;
-@property(retain, nonatomic) NSString *highConfAlignedSubSegment; // @synthesize highConfAlignedSubSegment=_highConfAlignedSubSegment;
-@property(readonly, nonatomic) NSArray *layouts; // @synthesize layouts=_layouts;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

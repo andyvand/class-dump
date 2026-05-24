@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     HMDHomeManager *_homeManager;
 }
 
-- (id);
-- (id)ificationEnabled;
+- (id);
+- (id)isSmartBulletinBoardNotificationEnabled;
 - (id)t home SPI client identifier:%@ /* Error: Ran out of types for this method. */;
-- (void)ccessoriesWithMediaContentProfileEnabled_;
+- (void)accessoriesWithMediaContentProfileEnabled_;
 - (id)`Á>;
 
 // Remaining properties

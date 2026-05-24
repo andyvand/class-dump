@@ -7,7 +7,6 @@
 @interface EspressoProfilingLayerRuntime
 {
     double _start_t;
-    double _end_t;
 }
 
 - (void);
@@ -16,7 +15,6 @@
 - (double);
 
 // Remaining properties
-@property double end_t; // @synthesize end_t=_end_t;
 @property double start_t; // @synthesize start_t=_start_t;
 
 @end

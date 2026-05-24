@@ -8,12 +8,14 @@
 @protocol MLFeatureProvider;
 
 @protocol MLPredictionRequest
+- (void)nting builtin objects cannot be recompiled;
+- (MLPredictionOptions *)copyAndCompactMTLBVHHeaderKernel;
+- (id <MLFeatureProvider>)DistanceRet;
+- (void)#;
 - (_Bool)ø
 ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MLFeatureProvider> inputFeatures;
-@property(readonly, nonatomic) _Bool isCancelled;
-@property(readonly, nonatomic) MLPredictionOptions *predictionOptions;
 @end
 

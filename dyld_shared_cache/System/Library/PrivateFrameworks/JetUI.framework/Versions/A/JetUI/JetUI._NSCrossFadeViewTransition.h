@@ -7,8 +7,6 @@
 @interface JetUI._NSCrossFadeViewTransition
 {
     id sourceView;
-    id destinationView;
-    id animator;
 }
 
 @end

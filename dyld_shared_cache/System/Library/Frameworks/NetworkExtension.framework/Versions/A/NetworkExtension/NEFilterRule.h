@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEAppRule, NENetworkRule, NSUUID;
+@class NEAppRule, NENetworkRule;
 
 @interface NEFilterRule
 {
     NENetworkRule *_networkRule;
-    long long _action;
-    NEAppRule *_appRule;
-    NSUUID *_effectiveUUID;
 }
 
-+ (_Bool);
++ (_Bool)setPassword:forUsername:onService:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void);
-- (_Bool)ultRules;
-- (id)r;
+- (void)setEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)hasNonDefaultRules;
+- (id)packetProviderBundleIdentifier;
 
 // Remaining properties
-@property(readonly) long long action; // @synthesize action=_action;
 @property(readonly, copy) NEAppRule *appRule; // @synthesize appRule=_appRule;
-@property(readonly, copy) NSUUID *effectiveUUID; // @synthesize effectiveUUID=_effectiveUUID;
-@property(readonly, copy) NENetworkRule *networkRule; // @synthesize networkRule=_networkRule;
 
 @end
 

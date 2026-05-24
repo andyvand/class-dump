@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDUserModel.h>
 
-@class HMDDevice, NSNumber, NSString;
+@class HMDDevice, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentUserModel : HMDUserModel
@@ -15,15 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)lCore - encryption NOT SUPPORTED;
 - (id);
-- (void)erUpdatedCompanionNotification;
+- (void)HMDCompanionManagerUpdatedCompanionNotification;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *configState; // @dynamic configState;
 @property(retain, nonatomic) HMDDevice *device; // @dynamic device;
-@property(retain, nonatomic) NSString *deviceIdentifier; // @dynamic deviceIdentifier;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 
 @end
 

@@ -6,18 +6,11 @@
 
 #import <PhotoImaging/PICompositionExporterOptions.h>
 
-@class NSArray, NUImageExportFormat;
+@class NUImageExportFormat;
 
 @interface PICompositionExporterImageOptions : PICompositionExporterOptions
 {
     _Bool _optimizeForSharing;
-    _Bool _applyImageOrientationAsMetadata;
-    _Bool _optimizeForBackgroundProcessing;
-    _Bool _enableHDR;
-    NUImageExportFormat *_imageExportFormat;
-    double _JPEGCompressionQuality;
-    CDUnknownBlockType _metadataProcessor;
-    NSArray *_auxiliaryImageTypes;
 }
 
 - (void);
@@ -26,29 +19,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)redEyeAdjustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double JPEGCompressionQuality; // @synthesize JPEGCompressionQuality=_JPEGCompressionQuality;
-@property _Bool applyImageOrientationAsMetadata; // @synthesize applyImageOrientationAsMetadata=_applyImageOrientationAsMetadata;
-@property(copy, nonatomic) NSArray *auxiliaryImageTypes; // @synthesize auxiliaryImageTypes=_auxiliaryImageTypes;
-@property _Bool enableHDR; // @synthesize enableHDR=_enableHDR;
 @property(copy) NUImageExportFormat *imageExportFormat; // @synthesize imageExportFormat=_imageExportFormat;
-@property(copy) CDUnknownBlockType metadataProcessor; // @synthesize metadataProcessor=_metadataProcessor;
-@property _Bool optimizeForBackgroundProcessing; // @synthesize optimizeForBackgroundProcessing=_optimizeForBackgroundProcessing;
-@property _Bool optimizeForSharing; // @synthesize optimizeForSharing=_optimizeForSharing;
 
 @end
 

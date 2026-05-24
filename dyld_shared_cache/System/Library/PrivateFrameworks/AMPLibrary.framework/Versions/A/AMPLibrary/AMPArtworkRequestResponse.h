@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMPArtworkRequest, NSData, NSError, NSURL;
+@class AMPArtworkRequest;
 
 @interface AMPArtworkRequestResponse
 {
     unsigned int _status;
-    AMPArtworkRequest *_request;
-    NSURL *_fileURL;
-    NSData *_securityExtension;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -26,17 +22,13 @@
 - (_Bool);
 - (void);
 - (unsigned int);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 @property(retain, nonatomic) AMPArtworkRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSData *securityExtension; // @synthesize securityExtension=_securityExtension;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
 
 @end
 

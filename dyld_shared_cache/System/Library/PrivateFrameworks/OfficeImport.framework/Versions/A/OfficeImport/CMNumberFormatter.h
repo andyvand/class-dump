@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface CMNumberFormatter
 {
     int _format;
-    int _language;
-    void **_numberFormatter;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)3;
 - (void);
 
 @end

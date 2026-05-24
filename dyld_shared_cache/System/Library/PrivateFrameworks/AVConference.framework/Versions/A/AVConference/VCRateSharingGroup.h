@@ -6,33 +6,25 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCRateSharingGroup : VCObject
 {
     NSMutableDictionary *_shareProfileDictionary;
-    NSMutableDictionary *_rateSharingClientMap;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct tagVCMediaQueue *_mediaQueue;
-    unsigned int _maxBitrate;
-    NSMutableDictionary *_rateSharingClientTargetBitrateDict;
-    unsigned int _currentRateSharingClientID;
-    double _lastProbingSequenceAllowedTime;
 }
 
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)8;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (int);
+- (int)4	;
 - (struct tagVCMediaQueue *);
 - (unsigned int);
 - (void);
@@ -40,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) _Bool isSharingGroupEmpty;
-@property(readonly) unsigned int maxBitrate; // @synthesize maxBitrate=_maxBitrate;
-@property(readonly) struct tagVCMediaQueue *mediaQueue; // @synthesize mediaQueue=_mediaQueue;
 
 @end
 

@@ -9,55 +9,41 @@
 @interface GEOChargeLocationDetails
 {
     PBUnknownFields *_unknownFields;
-    _Bool _arrivedAtChargeLocation;
-    _Bool _routePaused;
-    _Bool _routeResumed;
-    struct {
-        unsigned int has_arrivedAtChargeLocation:1;
-        unsigned int has_routePaused:1;
-        unsigned int has_routeResumed:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasNavigating:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)nDataTask"24@"NSURLSessionDownloadTask"32;
+- (_Bool)shouldAlwaysQueryAuthorizationStatusImpl;
+- (_Bool)sharedLockDirectoryUrl;
+- (_Bool)YaYbc__G;
+- (_Bool)onetic Slovenia;
+- (_Bool)RE;
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)@;
+- (void)generateDeviceAudioLogging:(id)arg1 speechId: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)r;
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)dex:(struct _NSZone *)arg1;
+- (id)removedMuidAtIndex:(struct _NSZone *)arg1;
 - (id)°EÜF GÌG4IK@L;
-- (id)ame;
+- (id)artistName;
 - (id)ìX;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool arrivedAtChargeLocation;
 @property(nonatomic) _Bool hasArrivedAtChargeLocation;
-@property(nonatomic) _Bool hasRoutePaused;
-@property(nonatomic) _Bool hasRouteResumed;
-@property(nonatomic) _Bool routePaused;
-@property(nonatomic) _Bool routeResumed;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

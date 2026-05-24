@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView, _UIScrollPocketCollectorInteraction;
+@class UIScrollView;
 
 @interface _UIScrollPocketContainerInteraction
 {
@@ -12,7 +12,7 @@
 }
 
 + (double);
-+ (double);
++ (double);
 - (id);
 - (id);
 - (void);
@@ -37,13 +37,7 @@ nq;
 - (_Bool)¨"qþ¤øà;
 
 // Remaining properties
-@property(nonatomic) _Bool _active;
-@property(nonatomic) __weak _UIScrollPocketCollectorInteraction *_collectorInteraction;
-@property(nonatomic) unsigned long long _edge;
-@property(nonatomic) struct CGRect _elementInteractionRect;
-@property(nonatomic) _Bool _findsParentScrollView;
 @property(nonatomic) __weak UIScrollView *_scrollView;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

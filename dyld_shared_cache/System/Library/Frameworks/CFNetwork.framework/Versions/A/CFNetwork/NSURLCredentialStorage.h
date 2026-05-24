@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURLCredentialStorageInternal;
+@class NSURLCredentialStorageInternal;
 
 @interface NSURLCredentialStorage
 {
@@ -15,7 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _useSystemKeychain;
-@property(readonly, copy) NSDictionary *allCredentials;
 
 @end
 

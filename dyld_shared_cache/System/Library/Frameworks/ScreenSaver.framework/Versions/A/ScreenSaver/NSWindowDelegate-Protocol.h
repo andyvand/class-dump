@@ -4,14 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification;
+@class NSArray, NSNotification, NSUndoManager, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (NSUndoManager *)rdingAppendButtonDelegateP;
+- (void)xZyѳ;
+- (_Bool)sageHistoryViewControllerDataSourceP;
+- (void)[AGtG;
+- (void)G;
+- (NSArray *)d image with a nil ASTC Data;
+- (NSArray *)ulti frame image with URL (%@) %@;
+- (NSArray *)r multi frame image from URL (%@) %@;
+- (void);
+- (void);
+- (void)setSpaceballRotateCallback:(NSNotification *)arg1;
+- (id)initWithFileWrapper:(NSWindow *)arg1;
+- (void)lutDestroyMenu attempted on bogus menu %d.;
+- (void)mes are empty;
 - (void)Ð1Â0@ù
 × ;
 - (void)windowDidResignKey:(NSNotification *)arg1;
-- (struct CGSize)th;
+- (struct CGSize)resourcePath;
 @end
 

@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MIPSeries
 {
     long long _storeId;
-    NSString *_name;
-    NSString *_sortName;
-    struct {
-        unsigned int storeId:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)atio;
+- (void)N,V_psiOwningGroupId;
+- (_Bool)dCallerBundleID;
+- (_Bool),C,V_taskIdentifier;
+- (id)%{public}d. Taking asset date %@ %{public}@;
 - (void);
 - (long long);
-- (id);
+- (id)p;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)initWithVersion:(id)arg1 downloadSize:state:documentationMetadata: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id)setAllowsExternalScripts:(struct _NSZone *)arg1;
 - (id);
 - (void);
 - (void)deringLanguage', '%@');
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasSortName;
 @property(nonatomic) _Bool hasStoreId;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *sortName; // @synthesize sortName=_sortName;
-@property(nonatomic) long long storeId; // @synthesize storeId=_storeId;
 
 @end
 

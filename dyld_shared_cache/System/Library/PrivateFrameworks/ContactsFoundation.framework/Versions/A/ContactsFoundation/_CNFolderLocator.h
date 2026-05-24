@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(readonly) NSURL *addressBookFolder;
-@property(readonly) NSURL *cachesFolder;
-@property(readonly) NSURL *libraryFolder;
 
 @end
 

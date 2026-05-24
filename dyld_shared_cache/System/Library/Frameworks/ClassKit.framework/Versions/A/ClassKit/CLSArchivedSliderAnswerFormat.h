@@ -6,28 +6,23 @@
 
 #import <ClassKit/CLSArchivedAnswerFormat.h>
 
-@class NSString;
-
 @interface CLSArchivedSliderAnswerFormat : CLSArchivedAnswerFormat
 {
     long long _maximum;
-    long long _minimum;
-    NSString *_leadingValueLabel;
-    NSString *_trailingValueLabel;
-    NSString *_midValueLabel;
-    long long _type;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)_buildAutoEnableableDataclassesAndActionsForAccount:dataclassesForEnablement:completion: /* Error: Ran out of types for this method. */;
+- (id)utBuffersTot=%d programRequest->outputBuffersTot=%d
+;
+- (void)ed to open file:(id)arg1 %s;
+- (void)ANEServicesDeviceSendRequest;
+- (void)programHandle:(id)arg1 0x%llx
+;
+- (id)3;
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -38,19 +33,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *leadingValueLabel;
-@property(nonatomic) long long maximum;
-@property(copy, nonatomic) NSString *midValueLabel;
-@property(nonatomic) long long minimum;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *trailingValueLabel;
-@property(readonly, nonatomic) long long type;
 
 @end
 

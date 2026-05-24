@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface SGBloomFilterChunkInMemorySparse
 {
     NSMutableSet *_hashes;
 }
 
-- (_Bool);
+- (_Bool)authenticationType;
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)hasChanges;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

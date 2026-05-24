@@ -9,8 +9,6 @@
 @interface MTLDebugAccelerationStructureCommandEncoder : MTLToolsAccelerationStructureCommandEncoder
 {
     _Bool canDealloc;
-    _Bool canEndEncoding;
-    _Bool hasEndedEncoding;
 }
 
 - (void);

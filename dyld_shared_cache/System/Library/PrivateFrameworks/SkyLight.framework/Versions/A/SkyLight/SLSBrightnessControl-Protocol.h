@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @protocol SLSBrightnessControl
+- (_Bool)ains keys not defined in entity %@ (didn't find %@);
+- (_Bool)ctID *);
+- (CDStruct_b2fbf00d)nt);
+- (_Bool)nsupported default value for composite. Must be an NSDictionary.;
+- (_Bool)her instance of this persistent store actively syncing with CloudKit in this process.;
+- (_Bool)Error"16;
+- (_Bool);
+- (NSUUID *)sSJ!;
 - (float)ry"16;
 - (_Bool)age.primary_lifetime_mean;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool brightnessAvailable;
-@property(readonly, copy, nonatomic) NSDictionary *brightnessCapabilities;
-@property(readonly, nonatomic) NSUUID *containerId;
 @property(readonly, nonatomic) int displayId;
-@property(readonly, nonatomic) unsigned int displayType;
-@property(readonly, nonatomic) float maximumLuminance;
-@property(readonly, nonatomic) CDStruct_b2fbf00d nativeWhitePoint;
-@property(readonly, getter=isOnline) _Bool online;
-@property(readonly, nonatomic) unsigned long long productId;
-@property(readonly, nonatomic) unsigned long long serialNumber;
-@property(readonly, nonatomic) NSUUID *uuid;
-@property(readonly, nonatomic) unsigned long long vendorId;
-@property(readonly, nonatomic) _Bool whitePointAvailable;
-@property(readonly, nonatomic) _Bool whitePointD50XYZ;
 @end
 

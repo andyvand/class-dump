@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JEMediaTimeTrackerDateProvider, NSDate;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface JEMediaTimeTracker
 {
     float _playbackRate;
-    JEMediaTimeTrackerDateProvider *_dateProvider;
-    NSDate *_date;
-    unsigned long long _position;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)|!;
+- (void)drawInContext:(id)arg1 inRect:blendMode:alpha: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void),;
@@ -32,9 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) JEMediaTimeTrackerDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(nonatomic) float playbackRate; // @synthesize playbackRate=_playbackRate;
-@property(nonatomic) unsigned long long position; // @synthesize position=_position;
 
 @end
 

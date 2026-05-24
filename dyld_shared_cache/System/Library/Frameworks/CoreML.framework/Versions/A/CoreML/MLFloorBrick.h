@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MLFloorBrick
 {
     NSArray *_inputRanks;
-    NSArray *_outputRanks;
-    NSArray *_inputShapes;
-    NSArray *_outputShapes;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
-- (void);
+- (void)Tl;
 - (id);
 - (void)ted pixel format %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *inputRanks; // @synthesize inputRanks=_inputRanks;
-@property(readonly, nonatomic) NSArray *inputShapes; // @synthesize inputShapes=_inputShapes;
-@property(readonly, nonatomic) NSArray *outputRanks; // @synthesize outputRanks=_outputRanks;
-@property(readonly, nonatomic) NSArray *outputShapes; // @synthesize outputShapes=_outputShapes;
-@property(readonly) Class superclass;
 
 @end
 

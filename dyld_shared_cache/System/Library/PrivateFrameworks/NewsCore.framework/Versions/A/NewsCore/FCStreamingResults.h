@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, NSHashTable, NSMutableArray;
-@protocol FCStreaming;
+@class NSHashTable;
 
 @interface FCStreamingResults
 {
     NSHashTable *_observers;
-    id <FCStreaming> _underlyingStream;
-    NSMutableArray *_results;
-    FCAsyncSerialQueue *_serialQueue;
 }
 
 - (id);
@@ -26,28 +22,22 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)RunDate"@"NSDate""firedTriggerName"@"NSString""failedConditionName"@"NSString""stopRunTimer"@"<MapsSuggestionsTimer>""wakeUpTimer"@"<MapsSuggestionsTimer>""entries"@"NSArray"};
 - (id);
 - (struct _NSRange);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (unsigned long long)y: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setContentShortcutsOnboardingTipBody: /* Error: Ran out of types for this method. */;
 - (void)N,V_bestOfBundleHeadlineScoringOutputName;
-- (void)ringConfig;
-- (id)_seen_to_filter;
+- (void)magazineFeedArticleScoringConfig;
+- (id)seen_stories_minimum_time_since_first_seen_to_filter;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(readonly, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(readonly, nonatomic) FCAsyncSerialQueue *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly, nonatomic) id <FCStreaming> underlyingStream; // @synthesize underlyingStream=_underlyingStream;
 
 @end
 

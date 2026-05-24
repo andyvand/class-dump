@@ -9,7 +9,6 @@
 @interface ABPersistentStoreCoordinatorFactory
 {
     id <ABAccountCollection> _repository;
-    _Bool _readOnly;
 }
 
 - (id);
@@ -19,8 +18,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id) ;
+- (void)#;
 
 @end
 

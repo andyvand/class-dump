@@ -7,16 +7,23 @@
 @class NSData, NSString, _CPListValue, _CPStruct;
 
 @protocol _CPValue
+- (unsigned long long)entRuleList>, WTF::URL>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, std::pair<WTF::Ref<API::ContentRuleList>, WTF::URL>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_CPStruct *)Kit::WebScriptMessageHandler>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *)long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebScriptMessageHandler>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ScriptMessageHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)t:(_CPStruct *)arg1:WebUserContentControllerProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::UserContentControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ong long>, WTF:(NSString *)arg1:WeakRef<WebKit::WebUserContentControllerProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::UserContentControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)LibExtras.h;
+- (void)Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/StdLibExtras.h;
+- (void)tionHandler &&);
+- (void)downcast(RefPtr<Source, PtrTraits, RefDerefTraits>) [Target = WebCore:(_Bool)arg1:TranslateTransformOperation, Source = WebCore::TransformOperation, PtrTraits = WTF::RawPtrTraits<WebCore::TransformOperation>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::TransformOperation>] /* Error: Ran out of types for this method. */;
+- (double)ate(;
+- (int)activeDuration;
+- (_CPListValue *)6yW3aidE-lucuns1EyaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/Notifications/ServiceWorkerNotificationHandler.cpp;
+- (NSData *)alloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)::WeakPtr<WebKit::NetworkProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)<WTF:(NSData *)arg1:ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool bool_value;
-@property(copy, nonatomic) NSData *bytes_value;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _CPListValue *list_value;
 @property(nonatomic) int null_value;
-@property(nonatomic) double number_value;
-@property(copy, nonatomic) NSString *string_value;
-@property(retain, nonatomic) _CPStruct *struct_value;
-@property(readonly, nonatomic) unsigned long long whichKind;
 @end
 

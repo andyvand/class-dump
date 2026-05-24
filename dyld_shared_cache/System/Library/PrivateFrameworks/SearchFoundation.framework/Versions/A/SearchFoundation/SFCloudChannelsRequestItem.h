@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFCloudChannelsRequestItem
 {
     NSString *_channelIdentifier;
-    NSString *_pushTopic;
-    NSString *_subscribedEntityIdentifier;
 }
 
 + (_Bool);
-- (id);
+- (id));
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)relatedIdentifierSetsForParentIdentifierSet:(id)arg1 parentVersionHash:childKey: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)TLAlertTopicSystemNotificationDoorbell;
 - (id);
-- (id);
+- (id)transientIdentifier;
 - (id);
 - (id);
 - (void)0@ù
@@ -33,17 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *pushTopic; // @synthesize pushTopic=_pushTopic;
-@property(copy, nonatomic) NSString *subscribedEntityIdentifier; // @synthesize subscribedEntityIdentifier=_subscribedEntityIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

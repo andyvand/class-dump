@@ -6,13 +6,9 @@
 
 #import <ExchangeWebServices/EWSBaseSubscriptionRequestType.h>
 
-@class NSString;
-
 @interface EWSPushSubscriptionRequestType : EWSBaseSubscriptionRequestType
 {
     _Bool _StatusFrequencyIsSpecified;
-    long long _StatusFrequency;
-    NSString *_URL;
 }
 
 + (id);
@@ -26,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) long long StatusFrequency; // @synthesize StatusFrequency=_StatusFrequency;
-@property(nonatomic) _Bool StatusFrequencyIsSpecified; // @synthesize StatusFrequencyIsSpecified=_StatusFrequencyIsSpecified;
-@property(copy, nonatomic) NSString *URL; // @synthesize URL=_URL;
 
 @end
 

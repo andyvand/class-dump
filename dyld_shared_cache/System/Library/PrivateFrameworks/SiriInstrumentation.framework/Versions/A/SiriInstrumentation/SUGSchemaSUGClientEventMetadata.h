@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SUGSchemaSUGClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sugId;
-    _Bool _hasSugId;
 }
 
 - (id);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)SDLogFileOptions";
+- (_Bool)eopleSortDescriptors;
+- (_Bool)failed to add column date_played to the message table.;
 - (id);
 - (id);
-- (id)Count2Min;
-- (id)Time;
+- (id)deleteNowPlayingAbsoluteCount2Min;
+- (id)_hasSubscriptionAssetLoadWaitTime;
 - (void)aiml.siri.odd.ODDSiriClientEvent.ODDAssistantDeviceDigestsReported;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSugId; // @synthesize hasSugId=_hasSugId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *sugId; // @synthesize sugId=_sugId;
 
 @end

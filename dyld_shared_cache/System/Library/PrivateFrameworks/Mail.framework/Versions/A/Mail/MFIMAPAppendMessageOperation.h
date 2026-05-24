@@ -6,35 +6,27 @@
 
 #import <Mail/MFIMAPOperation.h>
 
-@class NSArray, NSDate;
-
 @interface MFIMAPAppendMessageOperation : MFIMAPOperation
 {
     unsigned int _uid;
-    int _internalDateAsInt;
-    NSArray *_flags;
 }
 
 - (void);
 - (void);
 - (int);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)_	;
 - (void);
 - (id);
-- (void);
-- (unsigned char);
+- (void)A;
+- (unsigned char)O;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) NSDate *internalDate;
-@property(nonatomic) int internalDateAsInt; // @synthesize internalDateAsInt=_internalDateAsInt;
 @property(nonatomic) unsigned int uid; // @synthesize uid=_uid;
-@property(nonatomic) _Bool usesRealUids; // @dynamic usesRealUids;
 
 @end
 

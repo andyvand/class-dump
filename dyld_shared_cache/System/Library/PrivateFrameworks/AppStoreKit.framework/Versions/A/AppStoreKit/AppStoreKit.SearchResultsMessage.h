@@ -7,9 +7,6 @@
 @interface AppStoreKit.SearchResultsMessage
 {
     id automationMetadata;
-    id primaryText;
-    id secondaryText;
-    id messageClickAction;
 }
 
 @end

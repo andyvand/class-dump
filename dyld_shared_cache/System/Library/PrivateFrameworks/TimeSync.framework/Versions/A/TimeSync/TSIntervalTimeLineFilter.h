@@ -6,24 +6,14 @@
 
 #import <TimeSync/TSTimeLineFilter.h>
 
-@class NSObject, TSIntervalFilter;
-@protocol OS_dispatch_queue;
-
 @interface TSIntervalTimeLineFilter : TSTimeLineFilter
 {
     unsigned long long _AAnchor[8];
-    unsigned long long _BAnchor[8];
-    long long _AEntries[8];
-    long long _BEntries[8];
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    long long _validIndex;
-    TSIntervalFilter *_aIntervalFilter;
-    TSIntervalFilter *_bIntervalFilter;
 }
 
 - (void);
 - (void);
-- (CDStruct_4e4c37a4);
+- (CDStruct_4bcfbbae);
 - (id);
 - (void);
 - (unsigned long long);

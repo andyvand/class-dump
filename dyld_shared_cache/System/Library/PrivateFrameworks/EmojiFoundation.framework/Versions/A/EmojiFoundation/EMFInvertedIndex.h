@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSURL;
-@protocol EMFIndexStrategy;
+@class NSDictionary;
 
 @interface EMFInvertedIndex
 {
     NSDictionary *_termIndex;
-    NSDictionary *_documentIndex;
-    NSURL *_termIndexURL;
-    NSURL *_documentIndexURL;
-    NSBundle *_assetBundle;
-    id <EMFIndexStrategy> _strategy;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ws, your changes will be lost. Do you want to close all windows anyway?;
+- (id)te Browsing window. If you close all windows, your changes will be lost. Do you want to close all windows anyway?;
+- (id)e entered text in a Private Browsing window. If you close all windows, your changes will be lost. Do you want to close all windows anyway?;
+- (id)rTabViewItem"8;
+- (void)apple.Safari.parental-controls;
+- (void)owserViewController"8;
+- (void)ear History and Keep Website Data);
+- (void)Clear History);
+- (id)(menu item);
+- (id)g"8;
+- (id)er in sidebar bookmarks view.;
+- (id)ew.;
+- (id)orizontalSpace)-[_searchField]-(controlHorizontalSpace@750)-|;
+- (id)trolsContainer, _searchField;
 - (id);
 - (void);
 - (void);
@@ -38,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSBundle *assetBundle; // @synthesize assetBundle=_assetBundle;
-@property(retain, nonatomic) NSDictionary *documentIndex; // @synthesize documentIndex=_documentIndex;
-@property(retain, nonatomic) NSURL *documentIndexURL; // @synthesize documentIndexURL=_documentIndexURL;
-@property(retain, nonatomic) id <EMFIndexStrategy> strategy; // @synthesize strategy=_strategy;
 @property(retain, nonatomic) NSDictionary *termIndex; // @synthesize termIndex=_termIndex;
-@property(retain, nonatomic) NSURL *termIndexURL; // @synthesize termIndexURL=_termIndexURL;
 
 @end
 

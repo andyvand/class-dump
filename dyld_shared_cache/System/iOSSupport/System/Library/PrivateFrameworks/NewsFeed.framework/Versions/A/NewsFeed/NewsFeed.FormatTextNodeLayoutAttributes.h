@@ -7,17 +7,6 @@
 @interface NewsFeed.FormatTextNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id style;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id name;
-    id auxViewRequirements;
 }
 
 @end

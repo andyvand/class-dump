@@ -9,15 +9,12 @@
 @interface CVNLPInformationStream
 {
     double _decodingWeightValue;
-    double _lowerBoundLogProbabilityValue;
-    NSNumber *_decodingWeight;
-    NSNumber *_lowerBoundLogProbability;
 }
 
 + (id);
 + (id);
 - (double);
-- (id);
+- (id)y;
 - (id);
 - (id);
 - (double);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *decodingWeight; // @synthesize decodingWeight=_decodingWeight;
-@property(readonly, nonatomic) NSNumber *lowerBoundLogProbability; // @synthesize lowerBoundLogProbability=_lowerBoundLogProbability;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AOSUICircularImageView, NSButton, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIAccountContactsTableRow
 {
     NSTextField *_nameLabel;
-    NSTextField *_contactDetailLabel;
-    AOSUICircularImageView *_profileImageView;
-    NSButton *_detailsButton;
 }
 
 + (id);
@@ -29,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak NSTextField *contactDetailLabel; // @synthesize contactDetailLabel=_contactDetailLabel;
-@property __weak NSButton *detailsButton; // @synthesize detailsButton=_detailsButton;
 @property __weak NSTextField *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property __weak AOSUICircularImageView *profileImageView; // @synthesize profileImageView=_profileImageView;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <FileProvider/FPOperation.h>
 
-@class NSOperationQueue, NSURL;
+@class NSURL;
 
 @interface FPListRemoteVersionsOperation : FPOperation
 {
     NSURL *_documentURL;
-    NSOperationQueue *_queue;
-    _Bool _includeCachedVersions;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void)Ñç)Ð1Â0@ù
 × ;

@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/MKFCKAccessory.h>
 
-@class HMFPairingIdentity, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MKFCKAirPlayAccessory : MKFCKAccessory
 {
@@ -16,14 +14,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)etaController:(id)arg1 didUpdateDestinationForSharedTrip:(id)arg2;
+- (id)_subscribeToSharedTripUpdatesWithIdentifier;
+- (_Bool)dd new session %@;
 
 // Remaining properties
 @property(nonatomic) short minimumUserPrivilege; // @dynamic minimumUserPrivilege;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(copy, nonatomic) NSString *password; // @dynamic password;
 
 @end
 

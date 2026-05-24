@@ -6,18 +6,12 @@
 
 #import <AVConference/VCMediaStreamSendGroup.h>
 
-@class NSNumber, NSString, VCAudioCaptions, VCAudioStreamGroupCommon;
-@protocol VCCaptionsSourceDelegate;
+@class VCAudioStreamGroupCommon;
 
 __attribute__((visibility("hidden")))
 @interface VCCaptionsStreamSendGroup : VCMediaStreamSendGroup
 {
     VCAudioStreamGroupCommon *_common;
-    VCAudioCaptions *_audioCaptions;
-    struct opaqueVCCaptionsEncoder *_captionsEncoder;
-    id <VCCaptionsSourceDelegate> _captionsDelegate;
-    NSNumber *_activeCaptionsStreamID;
-    _Bool _isVADFilteringEnabled;
 }
 
 - (id);
@@ -41,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (void);
 - (_Bool);
@@ -55,26 +49,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)__TEXT;
 - (void)i,R,N,V_bytesInFlightState;
 - (_Bool)ession addConnectionWithInput:output:] /* Error: Ran out of types for this method. */;
 - (id)ticipant:(id)arg1 oneToOneModeDidChange:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool captionsEnabled;
 @property(readonly, nonatomic) _Bool captionsSupported;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int deviceRole;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=setMuted:) _Bool isMuted;
-@property(setter=setPowerSpectrumEnabled:) _Bool isPowerSpectrumEnabled;
-@property(nonatomic, setter=setVADFilteringEnabled:) _Bool isVADFilteringEnabled; // @synthesize isVADFilteringEnabled=_isVADFilteringEnabled;
-@property(readonly, nonatomic) int operatingMode;
-@property(readonly) Class superclass;
 
 @end
 

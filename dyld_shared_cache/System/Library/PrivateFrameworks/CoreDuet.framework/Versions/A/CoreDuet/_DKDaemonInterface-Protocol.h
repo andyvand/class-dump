@@ -5,5 +5,9 @@
 //
 
 @protocol _DKDaemonInterface
+- (void)H;
+- (void);
+- (void)";
+- (void);
 @end
 

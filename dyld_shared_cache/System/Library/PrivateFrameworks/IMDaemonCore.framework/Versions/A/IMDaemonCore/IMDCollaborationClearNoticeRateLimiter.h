@@ -7,13 +7,11 @@
 @interface IMDCollaborationClearNoticeRateLimiter
 {
     id rateLimiterOverride;
-    id persistenceQueue;
-    id noticeEventHistory;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id))=;
 - (void)request ID %s. Ignoring reachability update.;
 
 @end

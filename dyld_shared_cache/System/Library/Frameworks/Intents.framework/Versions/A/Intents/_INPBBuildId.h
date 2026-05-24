@@ -9,39 +9,27 @@
 @interface _INPBBuildId
 {
     struct _has;
-    NSString *_buildNumber;
-    NSString *_versionNumber;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)k;
 - (void);
+- (id)"16B24;
+- (void);
+- (unsigned long long)Lil8l;
+- (_Bool)`;
+- (id);
+- (_Bool)@0:(id)arg1 8@"NSArray"16@"NSArray"24@"NSArray"32;
+- (void)ken backhaul state for %{public}@, returned error (%{public}@);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)EndWorkoutIntentResponseCodeHandleInApp;
+- (void)INEndWorkoutIntentResponseCodeHandleInApp;
 - (id)êÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buildNumber; // @synthesize buildNumber=_buildNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBuildNumber;
-@property(readonly, nonatomic) _Bool hasVersionNumber;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *versionNumber; // @synthesize versionNumber=_versionNumber;
 
 @end
 

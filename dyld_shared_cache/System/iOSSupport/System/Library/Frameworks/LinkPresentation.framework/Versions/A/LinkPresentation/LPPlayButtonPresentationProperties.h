@@ -9,10 +9,9 @@
 @interface LPPlayButtonPresentationProperties
 {
     _Bool _disabled;
-    UIColor *_accentColor;
 }
 
-- (void);
+- (void)startRecordingToOutputFileURL:(id)arg1 recordingDelegate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)á÷!@ùQÐ1Â0@ù
 × ;
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accentColor; // @synthesize accentColor=_accentColor;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
 
 @end
 

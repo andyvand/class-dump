@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)(D@9!!*;
+- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)?	;
+- (void)V;
 - (void);
 
 @end

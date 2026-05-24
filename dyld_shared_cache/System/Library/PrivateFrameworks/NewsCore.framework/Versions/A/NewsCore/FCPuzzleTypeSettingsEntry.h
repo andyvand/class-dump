@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSArray, NSData, NSString;
+@class NSString;
 
 @interface FCPuzzleTypeSettingsEntry
 {
     NSString *_identifier;
-    NSString *_puzzleTypeID;
-    NSData *_settingsData;
-    NSArray *_lastSeenPuzzleIDs;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)
 × ;
 - (void)brary/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNewsTabiConfiguration.m;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRecord *asCKRecord;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSArray *lastSeenPuzzleIDs; // @synthesize lastSeenPuzzleIDs=_lastSeenPuzzleIDs;
-@property(readonly, copy, nonatomic) NSString *puzzleTypeID; // @synthesize puzzleTypeID=_puzzleTypeID;
-@property(readonly, copy, nonatomic) NSData *settingsData; // @synthesize settingsData=_settingsData;
 
 @end
 

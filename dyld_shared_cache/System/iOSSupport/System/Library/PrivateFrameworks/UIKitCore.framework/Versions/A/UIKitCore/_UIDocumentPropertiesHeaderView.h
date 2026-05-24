@@ -6,47 +6,33 @@
 
 #import <UIKitCore/UIView.h>
 
-@class LPLinkView, NSString, UIButton, UIContextMenuInteraction, UIDocumentProperties;
+@class LPLinkView, UIDocumentProperties;
 
 __attribute__((visibility("hidden")))
 @interface _UIDocumentPropertiesHeaderView : UIView
 {
     UIDocumentProperties *_properties;
-    UIContextMenuInteraction *_menuInteraction;
-    CDUnknownBlockType _sourceViewProvider;
-    LPLinkView *_linkView;
-    UIButton *_shareButton;
-    struct {
-        unsigned int didSetupDragInteraction:1;
-    } _flags;
 }
 
+- (void)handleMessageDeliveredQuietlyReceiptWithPipeline:(id)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)handleMarkAsReviewedCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGRect)o zero, disabling;
+- (struct CGRect)sistency.;
+- (id)hout a tracked highlight, dropping notice. error:%@ /* Error: Ran out of types for this method. */;
+- (id)o sync;
+- (id);
 - (void);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)teKeyboards:(id)arg1;
+- (void)setShouldNotifyRemoteKeyboards:(id)arg1;
 - (id)ew %@ is not actually an ancestor of view %@ at all.;
 - (id)configured without a delegate;
-- (id)ionsMenuRefreshForGeometryChange;
+- (id)isDeferringSearchSuggestionsMenuRefreshForGeometryChange;
 - (void)succeed on a touch that we're supposed to be ignoring!;
 - (id)^Åþÿ^ÅþÿÓþÿÓþÿ;
 - (id);
 - (void)<ÿÕ´¥\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(readonly) Class superclass;
 
 @end
 

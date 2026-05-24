@@ -5,14 +5,10 @@
 //
 
 @class NSString;
-@protocol MTLComputePipelineState;
 
 @interface ForwardDmShader
 {
     BOOL _inputFormat;
-    BOOL _outputFormat;
-    id <MTLComputePipelineState> _computePipeline;
-    NSString *_computeKernelName;
 }
 
 - (id);

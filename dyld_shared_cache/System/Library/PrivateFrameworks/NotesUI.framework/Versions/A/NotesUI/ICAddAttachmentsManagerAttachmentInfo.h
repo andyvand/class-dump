@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachment, NSAttributedString, NSData, NSDictionary, NSImage, NSString, NSURL;
+@class ICAttachment;
 
 @interface ICAddAttachmentsManagerAttachmentInfo
 {
     _Bool _usesTemporaryFile;
-    ICAttachment *_attachment;
-    NSString *_title;
-    NSURL *_mediaURL;
-    NSString *_mediaUTI;
-    NSData *_mediaData;
-    NSDictionary *_metadata;
-    NSString *_mediaFilenameExtension;
-    NSImage *_image;
-    NSAttributedString *_attributedContentText;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)optimizedLayoutIncrementUnitIPad;
+- (id)clearNotificationEntitys;
 - (void);
 - (id);
 - (void);
@@ -51,17 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ICAttachment *attachment; // @synthesize attachment=_attachment;
-@property(retain, nonatomic) NSAttributedString *attributedContentText; // @synthesize attributedContentText=_attributedContentText;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isPhoto;
-@property(readonly, nonatomic) _Bool isVideo;
-@property(retain, nonatomic) NSData *mediaData; // @synthesize mediaData=_mediaData;
-@property(retain, nonatomic) NSString *mediaFilenameExtension; // @synthesize mediaFilenameExtension=_mediaFilenameExtension;
-@property(retain, nonatomic) NSURL *mediaURL; // @synthesize mediaURL=_mediaURL;
-@property(retain, nonatomic) NSString *mediaUTI; // @synthesize mediaUTI=_mediaUTI;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) _Bool usesTemporaryFile; // @synthesize usesTemporaryFile=_usesTemporaryFile;
 
 @end
 

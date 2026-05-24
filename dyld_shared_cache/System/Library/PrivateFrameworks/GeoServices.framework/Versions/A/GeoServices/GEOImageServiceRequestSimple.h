@@ -6,36 +6,27 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOImageServiceRequest, NSString, NSUUID;
+@class GEOImageServiceRequest;
 
 @interface GEOImageServiceRequestSimple : GEOXPCRequest
 {
     GEOImageServiceRequest *_request;
-    NSUUID *_identifier;
 }
 
-+ (Class);
++ (Class)rorMessage;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void)ocationIndex:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)_mapItemsFromPresentAction:(id)arg1 hasCurrentLocation:currentLocationIndex:options: /* Error: Ran out of types for this method. */;
 - (id)»¯ ©;
 - (void)ÏaP@;
 - (void)-9F4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) GEOImageServiceRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

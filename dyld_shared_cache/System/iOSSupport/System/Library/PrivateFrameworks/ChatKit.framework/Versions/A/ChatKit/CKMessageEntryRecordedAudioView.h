@@ -4,92 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAudioController, CKAudioMediaObject, NSString, UIButton, UIImage, UIImageView, UILabel, UIVisualEffectView;
-@protocol CKMessageEntryRecordedAudioViewDelegate;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface CKMessageEntryRecordedAudioView
 {
     _Bool _cachedWaveFormImageIsValid;
-    CKAudioMediaObject *_audioMediaObject;
-    UIButton *_playPauseDeleteButton;
-    id <CKMessageEntryRecordedAudioViewDelegate> _delegate;
-    UIVisualEffectView *_blurView;
-    UIImageView *_balloonImageView;
-    CKAudioController *_audioController;
-    UILabel *_timeLabel;
-    UIImage *_waveformImage;
-    UIImageView *_waveformImageView;
-    double _time;
-    NSString *_timeFormat;
 }
 
+- (id)nextUpdateAffectsChangeCounts;
+- (id)nextTrackCommand;
+- (void)isWindowLoaded;
+- (void)isMarkdownAttributedString: /* Error: Ran out of types for this method. */;
+- (void)accessibilityAnnounceCreationWithVoiceOver;
+- (void)accessQueue;
+- (void)d,N,V_textContainerWidth;
+- (void)LayoutConstraint",&,N,V_imageViewBottomLayoutConstraint;
+- (void)ic_preferredFontForTitleTextWithContentSizeCategory:(id)arg1 isForPrint: /* Error: Ran out of types for this method. */;
+- (void)T@"ICTTTodo",R,N,V_todo;
+- (void)Storage",R,D,N;
 - (id);
+- (void)t;
+- (_Bool)*You** created a subfolder;
+- (id)ted to manage your locked notes.;
+- (id)people;
+- (void)derCustomNoteSortType(UI) configureMenuItemForCustomSorting:(id)arg1 ];
+- (void)16^B24;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (void)(=;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (id);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void)ath"32@0:(struct CGRect)arg1 8@"UITableView"16@"NSIndexPath"24;
 - (void)er"16;
-- (double)e;
+- (double)activityItemBoundingFrame;
 - (_Bool)adInputViews returned.;
 - (id)nding IAV, presenting view controller;
-- (void);
+- (void)chatControllerViewWillAppear;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKAudioController *audioController; // @synthesize audioController=_audioController;
-@property(retain, nonatomic) CKAudioMediaObject *audioMediaObject; // @synthesize audioMediaObject=_audioMediaObject;
-@property(retain, nonatomic) UIImageView *balloonImageView; // @synthesize balloonImageView=_balloonImageView;
-@property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(nonatomic) _Bool cachedWaveFormImageIsValid; // @synthesize cachedWaveFormImageIsValid=_cachedWaveFormImageIsValid;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKMessageEntryRecordedAudioViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPlaying;
 @property(retain, nonatomic) UIButton *playPauseDeleteButton; // @synthesize playPauseDeleteButton=_playPauseDeleteButton;
-@property(readonly) Class superclass;
-@property(nonatomic) double time; // @synthesize time=_time;
-@property(copy, nonatomic) NSString *timeFormat; // @synthesize timeFormat=_timeFormat;
-@property(retain, nonatomic) UILabel *timeLabel; // @synthesize timeLabel=_timeLabel;
-@property(retain, nonatomic) UIImage *waveformImage; // @synthesize waveformImage=_waveformImage;
-@property(retain, nonatomic) UIImageView *waveformImageView; // @synthesize waveformImageView=_waveformImageView;
 
 @end
 

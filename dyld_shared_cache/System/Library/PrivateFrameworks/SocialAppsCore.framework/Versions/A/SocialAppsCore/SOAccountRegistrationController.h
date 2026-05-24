@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAccount, IMServiceImpl, NSTimer, SOAccountAliasController;
-
 @interface SOAccountRegistrationController
 {
     _Bool _isSigningOut;
-    _Bool _isSignedIn;
-    long long _registrationState;
-    long long _enabledState;
-    IMAccount *_account;
-    SOAccountAliasController *_aliasController;
-    IMServiceImpl *_serviceType;
-    NSTimer *_authenticationTimer;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)CKMentionSuggestionViewDataSource;
 + (id);
 - (void);
 - (void);
@@ -30,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -64,25 +55,18 @@
 - (_Bool);
 - (void);
 - (long long);
+- (void)setTableHeaderBackgroundColor: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)APPLE_INTELLIGENCE_ONBOARDING_TITLE;
 - (id);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)setHidesOnDeactivate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) SOAccountAliasController *aliasController; // @synthesize aliasController=_aliasController;
-@property(retain) NSTimer *authenticationTimer; // @synthesize authenticationTimer=_authenticationTimer;
-@property(nonatomic) long long enabledState; // @synthesize enabledState=_enabledState;
-@property(nonatomic) _Bool isSignedIn; // @synthesize isSignedIn=_isSignedIn;
-@property(nonatomic) _Bool isSigningOut; // @synthesize isSigningOut=_isSigningOut;
 @property(nonatomic) long long registrationState; // @synthesize registrationState=_registrationState;
-@property(retain, nonatomic) IMServiceImpl *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

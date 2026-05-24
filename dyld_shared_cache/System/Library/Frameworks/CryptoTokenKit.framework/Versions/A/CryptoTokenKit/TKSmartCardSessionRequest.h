@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSXPCConnection;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TKSmartCardSessionRequest
 {
     NSDictionary *_parameters;
-    CDUnknownBlockType _reply;
-    NSXPCConnection *_connection;
 }
 
 - (id);
-- (void);
+- (void)B;
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
+- (void)T;
+- (id)w;
+- (void)_LAMKBKeyBagKeyStashCommit;
 - (void);
 
 // Remaining properties
-@property __weak NSXPCConnection *connection; // @synthesize connection=_connection;
 @property(retain) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(copy) CDUnknownBlockType reply; // @synthesize reply=_reply;
 
 @end
 

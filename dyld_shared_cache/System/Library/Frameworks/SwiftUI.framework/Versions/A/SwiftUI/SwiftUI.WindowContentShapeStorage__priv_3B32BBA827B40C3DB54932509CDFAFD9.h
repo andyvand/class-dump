@@ -7,9 +7,6 @@
 @interface SwiftUI.WindowContentShapeStorage__priv_3B32BBA827B40C3DB54932509CDFAFD9
 {
     id shape;
-    id cornerRadii;
-    id sizingBehavior;
-    id observer;
 }
 
 @end

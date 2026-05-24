@@ -9,9 +9,6 @@
 @interface _UIIntelligenceContentLightEffect : UIVisualEffect
 {
     id lightSource;
-    id material;
-    unsigned long long activationTransitionDirection;
-    unsigned long long deactivationTransitionDirection;
 }
 
 - (void);
@@ -23,8 +20,8 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (id);
-- (_Bool)dAutomaticallyLocalizeKeyCommands:(id)arg1;
+- (id)r;
+- (_Bool)applicationShouldAutomaticallyLocalizeKeyCommands:(id)arg1;
 - (void)d in navigation bar without knowledge of navigation item currently displaying the search controller.
 	SearchController=%@;
 - (_Bool)ÿ¼Ñþÿ,ÆþÿlÑþÿLÆþÿ;

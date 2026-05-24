@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFont;
-
 @interface CUIKSemiConstantCache
 {
     double _dayOccurrenceMinimumCachedLineHeightCompact;
-    double _dayOccurrenceMinimumCachedLineHeightRegular;
-    double _dayOccurrenceMinimumCachedLineHeightSmallCompact;
-    double _dayOccurrenceMinimumCachedLineHeightSmallRegular;
-    double _dayReminderIntegrationCachedLineHeightCompact;
-    double _dayReminderIntegrationCachedLineHeightRegular;
-    double _dayReminderIntegrationCachedLineHeightSmallCompact;
-    double _dayReminderIntegrationCachedLineHeightSmallRegular;
-    double _dayOccurrenceMinimumCachedLineHeightPill;
-    UIFont *_dayOccurrenceUncompressedSecondaryTextFont;
 }
 
-+ (id)Contact:size: /* Error: Ran out of types for this method. */;
++ (id)imageForContact:size: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (double);
@@ -37,21 +26,12 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)asBeenFocusedWithinContainer;
 - (void);
-- (void)erPhoneNumber;
+- (void)sharedOwnerPhoneNumber;
 
 // Remaining properties
 @property(readonly) double dayOccurrenceMinimumCachedLineHeightCompact;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightPill;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightRegular;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightSmallCompact;
-@property(readonly) double dayOccurrenceMinimumCachedLineHeightSmallRegular;
-@property(readonly) UIFont *dayOccurrenceUncompressedSecondaryTextFont;
-@property(readonly) double dayReminderIntegrationCachedLineHeightCompact;
-@property(readonly) double dayReminderIntegrationCachedLineHeightRegular;
-@property(readonly) double dayReminderIntegrationCachedLineHeightSmallCompact;
-@property(readonly) double dayReminderIntegrationCachedLineHeightSmallRegular;
 
 @end
 

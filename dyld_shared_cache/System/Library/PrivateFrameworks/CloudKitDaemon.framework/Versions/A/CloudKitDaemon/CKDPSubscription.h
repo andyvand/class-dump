@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPIdentifier, CKDPRecordZoneIdentifier, CKDPSubscriptionNotification, NSMutableArray;
-
 @interface CKDPSubscription
 {
     CDStruct_95bda58d _mutationTriggers;
-    int _evaluationType;
-    NSMutableArray *_filters;
-    CKDPIdentifier *_identifier;
-    CKDPSubscriptionNotification *_notification;
-    int _owner;
-    NSMutableArray *_recordTypes;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    _Bool _fireOnce;
-    struct {
-        unsigned int evaluationType:1;
-        unsigned int owner:1;
-        unsigned int fireOnce:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class)serialDispatchQueueSchedulerWithName:qualityOfService: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)Locale;
 - (void);
 - (int);
 - (void);
@@ -45,28 +30,28 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (int *);
+- (int *)X;
 - (void);
+- (int)streamAggregateAudio_SetProperty;
+- (unsigned long long)FigEndpointStreamAudioEngineRef, Boolean, Boolean);
+- (id);
+- (_Bool);
 - (int);
+- (void);
+- (void);
+- (id);
+- (id)__TEXT;
+- (_Bool)!;
+- (void);;
+- (void);
+- (id);
+- (void);
+- (void)q;
+- (int);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -74,33 +59,18 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)ted):(int)arg1 (%@, %@);
+- (id)unexpectedMultipleQueryResults;
 - (void);
 - (_Bool);
 - (void);
 - (id)0@ù
 × ;
-- (void)versifiedIdentityForService:(_Bool)arg1 userIDEntropy:withError: /* Error: Ran out of types for this method. */;
+- (void)copyDiversifiedIdentityForService:(_Bool)arg1 userIDEntropy:withError: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int evaluationType; // @synthesize evaluationType=_evaluationType;
-@property(retain, nonatomic) NSMutableArray *filters; // @synthesize filters=_filters;
-@property(nonatomic) _Bool fireOnce; // @synthesize fireOnce=_fireOnce;
-@property(nonatomic) _Bool hasEvaluationType;
-@property(nonatomic) _Bool hasFireOnce;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasNotification;
-@property(nonatomic) _Bool hasOwner;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) CKDPIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) int *mutationTriggers;
-@property(readonly, nonatomic) unsigned long long mutationTriggersCount;
-@property(retain, nonatomic) CKDPSubscriptionNotification *notification; // @synthesize notification=_notification;
-@property(nonatomic) int owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) NSMutableArray *recordTypes; // @synthesize recordTypes=_recordTypes;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

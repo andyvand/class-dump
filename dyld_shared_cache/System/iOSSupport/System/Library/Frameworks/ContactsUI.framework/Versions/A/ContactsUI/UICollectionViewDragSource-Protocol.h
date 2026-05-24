@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, UIDragPreviewParameters;
 
 @protocol UICollectionViewDragSource
 
 @optional
-- (void)ield;
+- (UIDragPreviewParameters *)H=;
+- (void)textField;
 - (NSArray *)sible,V_visible;
 - (NSArray *)ontroller;
 @end

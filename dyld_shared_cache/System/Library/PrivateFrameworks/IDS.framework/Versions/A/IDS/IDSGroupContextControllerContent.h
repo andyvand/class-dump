@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENAccountIdentity, ENGroupContext, IDSCloudKitContainer;
+@class IDSCloudKitContainer;
 
 @interface IDSGroupContextControllerContent
 {
     IDSCloudKitContainer *_cloudKitContainer;
-    ENGroupContext *_groupContext;
-    ENAccountIdentity *_accountIdentity;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)T?;
+- (id)clearParticipantIdLists;
 - (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) ENAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
 @property(retain, nonatomic) IDSCloudKitContainer *cloudKitContainer; // @synthesize cloudKitContainer=_cloudKitContainer;
-@property(retain, nonatomic) ENGroupContext *groupContext; // @synthesize groupContext=_groupContext;
 
 @end
 

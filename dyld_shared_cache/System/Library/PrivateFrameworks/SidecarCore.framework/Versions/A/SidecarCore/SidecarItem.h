@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, UTType;
+@class NSData, UTType;
 
 @interface SidecarItem
 {
     NSData *_data;
-    NSString *_type;
 }
 
 - (id);
 - (id);
+- (id)handleUserActionWithNoDeviceConnected;
+- (_Bool);
+- (id)`;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)SafariShared::BookmarkAndHistoryCompletionMatch>>=^{BookmarkAndHistoryCompletionMatch}}80@0:8@16@24{RefPtr<SafariShared::BookmarkAndHistoryCompletionMatch, WTF::RawPtrTraits<SafariShared::BookmarkAndHistoryCompletionMatch>, WTF::DefaultRefDerefTraits<SafariShared::BookmarkAndHistoryCompletionMatch>>=^{BookmarkAndHistoryCompletionMatch}}32^v40^v48@56d64@72 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)ller;
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) id objectValue;
-@property(readonly) NSString *type; // @synthesize type=_type;
 @property(readonly) UTType *uniformType;
 
 @end

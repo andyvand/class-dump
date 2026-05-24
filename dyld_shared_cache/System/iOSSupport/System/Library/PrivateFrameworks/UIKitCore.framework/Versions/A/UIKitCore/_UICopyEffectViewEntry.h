@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id)inishProcessingAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)tViewLoc;
+- (id)_noteCellDidFinishProcessingAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_lastViewLoc;
 - (_Bool)\ÇÐÕ;
 - (void);
 - (void)¨ÒÿQWpq`;

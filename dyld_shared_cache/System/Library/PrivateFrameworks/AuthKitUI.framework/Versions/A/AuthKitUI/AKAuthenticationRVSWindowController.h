@@ -6,18 +6,17 @@
 
 #import <AuthKitUI/AKPromptWindowController.h>
 
-@class AKAppleIDAuthenticationContext, AKAuthenticationRVSBootstrapper;
+@class AKAuthenticationRVSBootstrapper;
 
 @interface AKAuthenticationRVSWindowController : AKPromptWindowController
 {
     AKAuthenticationRVSBootstrapper *_remoteViewServiceBootstrapper;
-    AKAppleIDAuthenticationContext *_authenticationContext;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)]M;
 - (void);
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError;
+@class NSError;
 
 @interface CRKErrorBox
 {
@@ -13,12 +13,11 @@
 
 + (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id)mplemented;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end

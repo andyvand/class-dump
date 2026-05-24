@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface ODMappings
 {
     NSString *comment;
-    NSString *templateName;
-    NSString *identifier;
-    NSString *function;
-    NSArray *functionAttributes;
-    NSMutableDictionary *recordTypes;
 }
 
 + (id);
-+ (id);
-- (id);
++ (id);
+- (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id)sor descriptor dtype. E5RT:%s (%d) /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)
+;
+- (id)NSSecureCoding;
+- (void)nnection-initiate;
 
 // Remaining properties
-@property(copy) NSString *comment; // @synthesize comment;
 @property(readonly, copy) NSDictionary *dictionary;
-@property(copy) NSString *function; // @synthesize function;
-@property(copy) NSArray *functionAttributes; // @synthesize functionAttributes;
-@property(copy) NSString *identifier; // @synthesize identifier;
-@property(readonly, copy) NSArray *recordTypes; // @dynamic recordTypes;
-@property(copy) NSString *templateName; // @synthesize templateName;
 
 @end
 

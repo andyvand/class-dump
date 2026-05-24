@@ -5,5 +5,6 @@
 //
 
 @protocol MediaLibraryBrowserRemoteViewControllerProtocol
+- (void)module-sn;
 @end
 

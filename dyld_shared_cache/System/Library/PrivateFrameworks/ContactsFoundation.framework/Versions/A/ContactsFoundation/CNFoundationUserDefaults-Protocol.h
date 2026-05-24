@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class NSString;
 
 @protocol CNFoundationUserDefaults
+- (void)defined as %lu blocks and does not meet minimum transition point of %lu blocks.
+;
+- (void)writeToURL:(_Bool)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (NSString *)dateWithYear:month:day: /* Error: Ran out of types for this method. */;
+- (_Bool)completionHandlerAdapter;
 
 // Remaining properties
-@property(nonatomic) NSDictionary *filteredAccountsAndContainers;
-@property unsigned long long nameOrder;
-@property _Bool preferNickname;
-@property unsigned long long shortNameFormat;
-@property(nonatomic, getter=isShortNameFormatEnabled) _Bool shortNameFormatEnabled;
 @property _Bool showContactPhotos;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol LPLinkMetadataBackwardCompatibility
+- (void)transcriptMessageStatusFont;
 @end
 

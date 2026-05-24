@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ation:(id)arg1;
+- (id)_valueOfType:(id)arg1 withDeferredSpecifierEvaluation:(id)arg2;
 
 @end
 

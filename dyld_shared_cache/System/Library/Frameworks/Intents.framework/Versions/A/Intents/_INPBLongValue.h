@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
-
 @interface _INPBLongValue
 {
     CDStruct_01ef6375 _has;
-    long long _value;
-    _INPBValueMetadata *_valueMetadata;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)P;
+- (unsigned long long)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (long long);
-- (id);
+- (long long)I;
+- (id);
 - (_Bool)ä: /* Error: Ran out of types for this method. */;
-- (void)ue;
+- (void)INIntentSlotValueTransformFromDistanceValue;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

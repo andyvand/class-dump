@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MKAppImageManagerContainer
 {
     CDUnknownBlockType _completionHandler;
-    NSMutableData *_data;
-    NSString *_urlString;
-    unsigned long long _signpostID;
 }
 
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)(;
 - (CDUnknownBlockType);
+- (void);
 - (void);
-- (void);
-- (void)ceDailyHoursForWeekday:placeDailyHours: /* Error: Ran out of types for this method. */;
-- (id)Handler: /* Error: Ran out of types for this method. */;
+- (void)getPlaceDailyHoursForWeekday:placeDailyHours: /* Error: Ran out of types for this method. */;
+- (id)_issueDirectionsRequestForOrigin:destination:traits:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;
-@property(nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

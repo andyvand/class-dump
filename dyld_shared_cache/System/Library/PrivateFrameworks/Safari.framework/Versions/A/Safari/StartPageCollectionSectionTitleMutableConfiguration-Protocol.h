@@ -7,19 +7,13 @@
 @class NSString;
 
 @protocol StartPageCollectionSectionTitleMutableConfiguration
+- (NSView * (^)(void));
+- (void)a;
+- (_Bool);
 - (NSString *)default browser banner due to user-initiated navigation or visually non-empty layout;
 - (NSString *) ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(nonatomic) _Bool canCollapseSection;
-@property(nonatomic) _Bool canGoBack;
-@property(nonatomic) _Bool isSectionCollapsed;
-@property(copy, nonatomic) CDUnknownBlockType popUpAction;
-@property(copy, nonatomic) CDUnknownBlockType secondaryTrailingAccessoryViewProvider;
-@property(nonatomic) _Bool showsProfileIcon;
 @property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) CDUnknownBlockType trailingAccessoryViewProvider;
-@property(nonatomic) _Bool usesCustomShowMore;
 @end
 

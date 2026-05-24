@@ -9,15 +9,9 @@
 @interface GEOUpdateLocation
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _metersFromStartOfRoute;
-    unsigned int _minSecondsSinceLastUpdate;
-    struct {
-        unsigned int has_metersFromStartOfRoute:1;
-        unsigned int has_minSecondsSinceLastUpdate:1;
-    } _flags;
 }
 
-+ (_Bool)cedingTime:(id)arg1;
++ (_Bool)setNoCellCoverageAlertPrecedingTime:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -31,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)registerUaapApp:(id)arg1 forLocale:withAssetFiles:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -39,17 +33,13 @@
 - (void);
 - (id)	'ð! Aùº*ð1Â0@ù
 × ;
-- (id)nDay:body:useHighPrecision: /* Error: Ran out of types for this method. */;
+- (id)initWithLocation:julianDay:body:useHighPrecision: /* Error: Ran out of types for this method. */;
 - (id)AutocompleteParametersAddressOnly",&,N;
-- (id)SUBREASON_TYPE;
+- (id)UNKNOWN_SUBREASON_TYPE;
 - (void)A`åÐ"@!°rh©j@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMetersFromStartOfRoute;
-@property(nonatomic) _Bool hasMinSecondsSinceLastUpdate;
-@property(nonatomic) unsigned int metersFromStartOfRoute;
-@property(nonatomic) unsigned int minSecondsSinceLastUpdate;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

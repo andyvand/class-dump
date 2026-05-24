@@ -6,78 +6,38 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWDeviceOrientationMonitor, BWFigVideoCaptureDevice, BWNodeInput, BWNodeOutput, DeskCamSession, NSDictionary, NSString;
+@class BWNodeInput;
 
 __attribute__((visibility("hidden")))
 @interface BWDeskCamNode : BWNode
 {
     BWNodeInput *_videoCaptureInput;
-    BWNodeOutput *_videoCaptureOutput;
-    BWNodeInput *_stillImageInput;
-    BWNodeOutput *_stillImageOutput;
-    BWNodeInput *_detectionMetadataInput;
-    BWNodeOutput *_detectionMetadataOutput;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    struct os_unfair_lock_s _bufferServicingLock;
-    int _horizontalSensorBinningFactor;
-    int _verticalSensorBinningFactor;
-    NSDictionary *_cameraInfoByPortType;
-    CDStruct_79c71658 _outputDimensions;
-    CDStruct_d638f5d0 _stillCaptureQueue[2];
-    unsigned int _stillCaptureEnqueueIndex;
-    DeskCamSession *_deskCamSession;
-    BWDeviceOrientationMonitor *_deviceOrientationMonitor;
-    NSString *_clientApplicationID;
-    unsigned int _minLuxLevelNeeded;
-    _Bool _stillImageCaptureEnabled;
-    struct OpaqueVTPixelTransferSession *_stillImagePixelTransferSession;
-    int _maxLossyCompressionLevel;
-    NSString *_portType;
-    int _overheadCameraMode;
-    BWFigVideoCaptureDevice *_captureDevice;
-    unsigned short _numberOfFramesReceivedBeforeFocusUpdate;
-    unsigned short _numberOfFramesReceivedSinceLastFocusUpdate;
-    float _deskViewCameraZoomFactor;
-    _Bool _downstreamRequires10BitPixelFormat;
 }
 
 + (void)nput:appClipCodeNode.input pipelineStage:pipelineStage] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)token range:(id)arg1 %@ in UTF8 of size %tu;
+- (void)needed after attempting to sync dest KVS;
 - (void);
 - (void);
 - (id);
-- (id)ceneMotionEstimatesSupported;
-- (id)e;
+- (id)_sceneMotionEstimatesSupported;
+- (id)tofAFEstimatorResultsByPortType;
 - (id)Property_AudioChannelLayout) returned err:%d, layoutSize:%d /* Error: Ran out of types for this method. */;
 - (void)=,øÿE,ùÿL-ûÿS-üÿ[.þÿc.ÿÿj/ÿÿq/ÿÿx0ÿÿ1ÿÿ1ÿÿ2ÿÿ2ÿÿ3ÿÿ¥4ÿÿ­4ÿÿ´5ÿÿ»6ÿÿÄ7ÿÿË8ÿÿÓ8ÿÿÚ9ÿÿã:(long long)arg1 ÿÿ;
 - (void)O·ÄÿU¸Åÿ[¸Æÿc¸Çÿi¹Çÿp¹ÈÿwºÉÿ~ºËÿºÌÿ»Íÿ»Ïÿ¼Ðÿ¡¼Òÿ¨½Óÿ¯½Ôÿ¶¾Õÿ¾¾ÔÿÈ¾ÒÿÑ¾ÏÿÛ¾Ìÿå½Êÿð½Çÿù½Æÿÿ¼Äÿÿ¼Ãÿÿ¼Âÿ9¿Áÿ<¿Áÿ?¿ÁÿB¿ÁÿG¿ÁÿL¿ÂÿR¿ÂÿX¿Ãÿ^ÀÃÿfÀÄÿlÀÅÿsÁÆÿzÁÆÿÂÇÿÂÉÿÂÊÿÃËÿÃÍÿ¤ÄÏÿ«ÄÐÿ±ÅÒÿ¸ÆÔÿ¾ÆÕÿÆÇÖÿÏÇÓÿÙÆÐÿãÆÌÿïÅÉÿøÅÇÿÿÄÆÿÿÄÅÿÿÄÃÿ=Æ¿ÿ?Æ¿ÿBÆ¿ÿEÆ¿ÿJÇ¿ÿOÇ¿ÿUÇÀÿ[ÇÀÿaÇÁÿiÈÁÿoÈÂÿvÈÃÿ}ÉÄÿÉÄÿÊÅÿÊÇÿÊÈÿ ËÉÿ¨ËÊÿ®ÌÌÿµÌÍÿ»ÍÏÿÁÍÑÿÈÎÔÿÍÏ×ÿÕÏÕÿáÎÏÿíÎÌÿ÷ÍÉÿÿÌÇÿÿÌÆÿÿÌÅÿ@Î½ÿCÎ½ÿEÎ½ÿIÎ½ÿMÎ½ÿRÎ¾ÿXÏ¾ÿ^Ï¾ÿdÏ¿ÿkÏ¿ÿrÐÀÿyÐÀÿÐÁÿÑÂÿÑÃÿÑÄÿÒÄÿ£ÒÅÿ«ÓÇÿ²ÓÈÿ¹ÔÉÿ¿ÔÊÿÆÔËÿÍÕÍÿÓÖÏÿØÖÑÿÙÙØÿëÖÎÿõÕËÿÿÕÉÿÿÔÇÿÿÔÆÿD×¼ÿF×¼ÿI×¼ÿL×¼ÿP×¼ÿV×¼ÿ[×¼ÿa×¼ÿgØ½ÿnØ½ÿuØ¾ÿ{Ù¾ÿÙ¿ÿÙÀÿÚÀÿÚÁÿÚÂÿ¦ÛÃÿ®ÛÄÿµÛÅÿ¼ÜÅÿÂÜÆÿÉÝÈÿÑÝÉÿØÞÉÿÞÞÌÿãßÏÿêßÐÿôÞÍÿþÞËÿÿÝÉÿÿÜÇÿGß»ÿIß»ÿLß»ÿOß»ÿSß»ÿXß»ÿ]ß»ÿcß»ÿiß¼ÿpà¼ÿwà½ÿ~à½ÿà¾ÿá¾ÿá¿ÿâÀÿ¡âÀÿ¨âÁÿ°ãÂÿ·ãÃÿ½ãÄÿÆäÂÿÍäÄÿÔåÆÿÛåÇÿáæÉÿçæÌÿíæÎÿõæÍÿþåÌÿÿåÊÿÿäÈÿJæ»ÿLæ»ÿOæ»ÿRæ»ÿVç»ÿ[ç»ÿ`ç»ÿeç»ÿkç»ÿrç»ÿyè¼ÿè¼ÿè½ÿè½ÿé¾ÿé¿ÿ¢é¿ÿ¬ê½ÿ´ë¾ÿ»ë¿ÿÂëÀÿÈìÁÿÏìÂÿ×ìÄÿÝìÆÿäíÇÿêíÉÿñíËÿ÷íÌÿÿíËÿÿìÊÿÿìÉÿMî»ÿOî»ÿQî»ÿTî»ÿXîºÿ]îºÿbîºÿhï»ÿmï»ÿtï»ÿð·ÿð·ÿð¸ÿñ¹ÿñ¹ÿ¡ñºÿ¨ò»ÿ¯ò¼ÿ·ò½ÿ½ó¾ÿÄó¿ÿËóÀÿÒóÁÿÚôÃÿàôÄÿçôÆÿíôÇÿôôÉÿúôÊÿÿôÊÿÿôÊÿÿóÉÿ]øµÿ^øµÿ`øµÿbøµÿføµÿjøµÿnøµÿsøµÿxø¶ÿ~ù¶ÿù¶ÿù·ÿù·ÿú¸ÿú¹ÿ¥úºÿ«ûºÿ²û»ÿºû¼ÿÀû½ÿÇü¾ÿÎü¿ÿÕüÀÿÜüÂÿãüÃÿéüÄÿðüÆÿ÷üÇÿýüÈÿÿüÉÿÿüÉÿÿüÈÿ;
 - (void)E~ÿE~ÿE~ÿ"E}ÿ,E}ÿ4E}ÿ=D|ÿED|ÿLD|ÿTD|ÿ[D|ÿdD|ÿlD|ÿtE|ÿ}D{ÿBwÿ@sÿ>nÿ;iÿ§9cÿ±6]ÿº4YÿÃ0TÿË-PÿÔ)KÿÛ&Hÿá#Fÿå"Eÿæ#DÿOÿOÿOÿNÿNÿN~ÿ#N~ÿ-N~ÿ5M~ÿ>M}ÿFM}ÿMM}ÿUM|ÿ\M|ÿeM|ÿmM|ÿuM|ÿ~M|ÿJxÿHtÿFoÿCiÿ§Adÿ±>^ÿº;YÿÃ8UÿË4QÿÔ0LÿÛ-Iÿá+Gÿå*Fÿå*FÿXÿXÿXÿWÿWÿWÿ$Wÿ.Vÿ6V~ÿ?V~ÿGV~ÿOV}ÿVV}ÿ]V}ÿfV}ÿmV}ÿuV}ÿ~V|ÿSyÿQtÿNoÿLjÿ§Ieÿ±F_ÿºC[ÿÂ@VÿË<RÿÔ8NÿÛ5Kÿá3Iÿä2Gÿä2Gÿaÿaÿaÿ`ÿ`ÿ`ÿ%`ÿ/_ÿ8_ÿA_ÿI_~ÿP_~ÿX_~ÿ__}ÿg_}ÿn_}ÿv_}ÿ~_}ÿ\yÿYuÿWpÿUkÿ§Rfÿ°Oaÿ¹K\ÿÂHXÿÊDTÿÔ@PÿÛ=Mÿà;Kÿã:(id)arg1 Iÿã:(id)arg2 Iÿ kÿ kÿ jÿ jÿ jÿ jÿ'iÿ0iÿ9iÿBiÿJiÿRiÿYiÿai~ÿii~ÿpi~ÿwi~ÿi~ÿfzÿdvÿaqÿ_mÿ¦\hÿ°Ycÿ¸U_ÿÁR[ÿÊNWÿÓJSÿÚGPÿßENÿâDLÿâCLÿ$tÿ#sÿ#sÿ#sÿ#sÿ#rÿ(rÿ2rÿ:rÿDrÿLqÿTqÿ[qÿcqÿkqÿrrÿxrÿrÿo|ÿmwÿksÿhoÿ¥ekÿ¯bfÿ·^bÿÀ[^ÿÉWZÿÒSVÿÙPSÿßNQÿáLOÿáLOÿ'}ÿ'|ÿ'|ÿ'|ÿ'|ÿ'{ÿ){ÿ2{ÿ;{ÿEzÿMzÿUzÿ]zÿezÿmzÿtzÿzzÿ{ÿy}ÿwzÿtvÿrsÿ¤noÿ®kjÿ¶gfÿ¿cbÿÈ`^ÿÑ\ZÿÙYWÿÞWTÿáUSÿáURÿ*ÿ*ÿ*ÿ*ÿ*ÿ*ÿ*ÿ3ÿ<ÿEÿNÿVÿ^ÿfÿoÿvÿ}ÿÿÿ~ÿ}{ÿzwÿ¤wtÿ­toÿ¶pkÿ¿lfÿÈibÿÑe^ÿØbZÿÞ`Xÿà_Vÿà^Vÿ*ÿ*ÿ*ÿ*ÿ*ÿ*ÿ*ÿ/ÿ8ÿCÿKÿTÿ\ÿdÿmÿuÿ|ÿÿÿÿÿ{ÿ¤xÿ­~sÿ¶{oÿ¿wjÿÇtfÿÑpaÿØn^ÿÞl[ÿàjZÿàiYÿ)ÿ)ÿ)ÿ)ÿ)ÿ)ÿ)ÿ*ÿ4ÿ?ÿHÿPÿYÿaÿkÿsÿ{ÿÿÿÿÿ}ÿ¥zÿ®uÿ¶qÿ¿lÿÇhÿÑ{cÿØy`ÿÞw]ÿáu\ÿàt[ÿ(ÿ(ÿ(ÿ(ÿ(ÿ(ÿ(ÿ(ÿ.ÿ:ÿCÿLÿUÿ^ÿgÿpÿxÿÿÿÿÿ ~ÿ§{ÿ¯wÿ·sÿ¿nÿÈjÿÑeÿÙaÿÞ_ÿá]ÿá\ÿ&¤ÿ&¤ÿ&¤ÿ&¤ÿ'£ÿ'£ÿ'£~ÿ'£~ÿ'¢~ÿ4¢~ÿ>¢}ÿH¢}ÿQ¡}ÿZ¡}ÿd¡}ÿl¡}ÿu¡}ÿ~¡~ÿ¡~ÿ¡~ÿ¢}ÿ¢¢}ÿ© zÿ±wÿ¸sÿÀoÿÉkÿÒfÿÙcÿß`ÿá^ÿá\ÿ%«}ÿ%«}ÿ%«}ÿ%«}ÿ%«}ÿ%«}ÿ%«|ÿ%ª|ÿ%ª|ÿ,ª{ÿ8ª{ÿB©{ÿL©{ÿU©{ÿ`©{ÿi©{ÿr©{ÿ{©{ÿ©{ÿ©{ÿªzÿ¡ªzÿ««yÿ³¨vÿ»¦rÿÂ£oÿÊ¡kÿÓfÿÚcÿà`ÿã^ÿã]ÿ"´{ÿ"´{ÿ"´{ÿ"´zÿ"´zÿ"´zÿ"³zÿ"³zÿ"³yÿ"³yÿ/³yÿ;²xÿE²xÿO²xÿZ²wÿd²wÿm²wÿw²wÿ³wÿ³wÿ³vÿ´vÿ©µuÿµµtÿ½³pÿÅ°mÿÍ®iÿÖ¬fÿÝ«bÿâª`ÿå©^ÿå©\ÿ ¼yÿ ¼xÿ ¼xÿ ¼xÿ ¼xÿ »xÿ »xÿ »wÿ »wÿ »wÿ'»vÿ4»vÿ?»uÿJ»uÿU»uÿ_»tÿi»tÿs»tÿ~»tÿ¼sÿ¼sÿ½rÿ§½qÿ´¾pÿ¿¿oÿÇ¼kÿÏ»gÿØ¹dÿß¸aÿä·^ÿç¶\ÿç¶[ÿÃvÿÃvÿÃvÿÃvÿÃvÿÃvÿÃuÿÃuÿÃuÿÃtÿÂtÿ,Âsÿ9ÃsÿDÃrÿPÃrÿ[ÃqÿeÃqÿoÃqÿ{ÄpÿÄpÿÅoÿÅnÿ¦Æmÿ²Çkÿ¾ÈjÿÉÈiÿÑÇeÿÚÅbÿâÄ_ÿçÄ]ÿêÃ[ÿêÃYÿËtÿËtÿËtÿÊtÿÊtÿÊtÿÊsÿÊsÿÊsÿÊrÿÊrÿ$Êqÿ2Êqÿ>ÊpÿKËoÿVËoÿaËnÿlÌnÿxÌmÿÍlÿÍkÿÎjÿ¤Ïiÿ±Ðhÿ¼ÑfÿÈÒeÿÓÓdÿÜÑ`ÿäÑ]ÿéÐ[ÿìÐYÿìÐXÿÒsÿÒrÿÒrÿÒrÿÒrÿÒrÿÒqÿÒqÿÒqÿÒpÿÒpÿÒoÿ+Ònÿ8ÒnÿFÓmÿRÓlÿ]ÔkÿhÔkÿtÕjÿÕiÿÖhÿ×gÿ¢Øfÿ¯Ùdÿ»ÛbÿÇÜaÿÓÝ`ÿÞÞ^ÿæÞ[ÿìÝYÿîÝXÿïÝVÿØqÿØqÿØqÿØqÿØqÿØpÿØpÿØpÿØoÿØoÿØnÿØnÿ%Ømÿ4ÙlÿBÙkÿNÙjÿZÚiÿeÛiÿrÛhÿ}ÜgÿÝfÿÞdÿ¡ßcÿ®áaÿ»â`ÿÇä^ÿÒå]ÿÞæ[ÿççZÿíçXÿðçWÿðçUÿÝqÿÜqÿÝpÿÝpÿÝpÿÝpÿÝoÿÝoÿÝoÿÝnÿÝmÿÝmÿ Ýlÿ0Ýkÿ?ÞjÿKÞiÿWßhÿcàgÿpáfÿ|áeÿâdÿäcÿ åaÿ®ç`ÿºè^ÿÆé\ÿÒë[ÿßìYÿèíXÿîîWÿñîVÿñîUÿàqÿàqÿàpÿàpÿàpÿàpÿàoÿàoÿàoÿànÿàmÿàmÿàlÿ.ákÿ>ájÿJâiÿVâhÿbãgÿoäfÿ{ådÿæcÿçbÿèaÿ­ê_ÿºë]ÿÆí[ÿÒîZÿÞðXÿèñWÿïòVÿòòUÿòòTÿárÿárÿárÿáqÿáqÿáqÿápÿápÿáoÿáoÿánÿámÿ âmÿ/âlÿ>âjÿJãiÿVãhÿbägÿoåfÿzåeÿædÿçbÿéaÿ­ê_ÿ¹ì]ÿÆí\ÿÒïZÿÞðXÿçòWÿîòVÿòóUÿòóUÿ /* Error: Ran out of types for this method. */;
-- (id)rewarm;
+- (id)FigCaptureSessionCancelPrewarm;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BWNodeInput *detectionMetadataInput; // @synthesize detectionMetadataInput=_detectionMetadataInput;
-@property(readonly, nonatomic) BWNodeOutput *detectionMetadataOutput; // @synthesize detectionMetadataOutput=_detectionMetadataOutput;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) BWNodeInput *stillImageInput; // @synthesize stillImageInput=_stillImageInput;
-@property(readonly, nonatomic) BWNodeOutput *stillImageOutput; // @synthesize stillImageOutput=_stillImageOutput;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) BWNodeInput *videoCaptureInput; // @synthesize videoCaptureInput=_videoCaptureInput;
-@property(readonly, nonatomic) BWNodeOutput *videoCaptureOutput; // @synthesize videoCaptureOutput=_videoCaptureOutput;
 
 @end
 

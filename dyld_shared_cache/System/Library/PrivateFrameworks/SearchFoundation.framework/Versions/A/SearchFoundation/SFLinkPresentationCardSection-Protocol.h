@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFLinkPresentationCardSection
-- (_Bool)AreBottom;
+- (NSArray *);
+- (_Bool)buttonItemsAreBottom;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isHighlighted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *peopleToBadge;
-@property(copy, nonatomic) NSString *url;
 @end
 

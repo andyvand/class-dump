@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPLocalContactStore, PPLocalNamedEntityStore, PPSQLDatabase;
+@class PPSQLDatabase;
 
 @interface PPContactsImporter
 {
     PPSQLDatabase *_db;
-    PPLocalContactStore *_contactStore;
-    PPLocalNamedEntityStore *_namedEntityStore;
 }
 
 + (id);
@@ -20,17 +18,11 @@
 - (id);
 - (void);
 - (void);
-- (void)rdEmbeddingForLanguage:revision: /* Error: Ran out of types for this method. */;
+- (void)wordEmbeddingForLanguage:revision: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

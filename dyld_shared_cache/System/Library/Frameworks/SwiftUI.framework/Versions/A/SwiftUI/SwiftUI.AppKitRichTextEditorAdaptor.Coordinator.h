@@ -9,12 +9,6 @@
 @interface SwiftUI.AppKitRichTextEditorAdaptor.Coordinator : SwiftUI.AppKitTextEditorCoordinatorBase
 {
     id _storage;
-    id environment;
-    id undoManager;
-    id editorModifications;
-    id disabledEditorModifications;
-    id cachedValidDescriptors;
-    id formattingUIValidationTask;
 }
 
 - (id);

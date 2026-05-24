@@ -6,15 +6,11 @@
 
 #import <MediaMiningKit/CLSInputClue.h>
 
-@class CLSPersonIdentity, CLSServiceManager, PHPhotoLibrary;
+@class CLSPersonIdentity;
 
 @interface CLSInputPeopleClue : CLSInputClue
 {
     CLSPersonIdentity *_person;
-    CLSServiceManager *_serviceManager;
-    _Bool _includeMergeCandidates;
-    PHPhotoLibrary *_photoLibrary;
-    unsigned long long _numberOfFaces;
 }
 
 + (id);
@@ -26,23 +22,20 @@
 + (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id)!ÄCùËð1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool includeMergeCandidates; // @synthesize includeMergeCandidates=_includeMergeCandidates;
-@property(nonatomic) unsigned long long numberOfFaces; // @synthesize numberOfFaces=_numberOfFaces;
 @property(retain, nonatomic) CLSPersonIdentity *person; // @synthesize person=_person;
-@property(nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

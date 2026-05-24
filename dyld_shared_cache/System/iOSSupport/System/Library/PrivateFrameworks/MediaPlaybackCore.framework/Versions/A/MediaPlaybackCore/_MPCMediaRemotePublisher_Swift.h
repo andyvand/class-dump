@@ -7,27 +7,25 @@
 @interface _MPCMediaRemotePublisher_Swift
 {
     id publisher;
-    id dialogHandler;
-    id _migrationRequirements;
 }
 
 - (void);
+- (_Bool)tStore"24^@32;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)tore"24;
+- (void)e=}16;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)%@;
 
 @end

@@ -9,12 +9,12 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (_Bool);
 - (float);
-- (_Bool);
-- (_Bool);
+- (_Bool)setChangeType: /* Error: Ran out of types for this method. */;
+- (_Bool)}@;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -23,17 +23,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)u;
+- (void)faceObservationCountsDistribution;
+- (id)_evaluateOriginalVNRecognizeObjectsRequest:configurations: /* Error: Ran out of types for this method. */;
+- (_Bool)ray"32@"NSMutableArray"40q48;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (float);
-- (_Bool)ontroller;
+- (_Bool)_clientController;
 - (_Bool)CSAudioProvider"16^B24;
 
 @end

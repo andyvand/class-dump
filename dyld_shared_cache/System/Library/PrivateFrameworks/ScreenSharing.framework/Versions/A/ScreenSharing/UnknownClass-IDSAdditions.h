@@ -10,6 +10,6 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)DSIDQueryListenerID;
+- (_Bool)_iOSIDSIDQueryListenerID;
 @end
 

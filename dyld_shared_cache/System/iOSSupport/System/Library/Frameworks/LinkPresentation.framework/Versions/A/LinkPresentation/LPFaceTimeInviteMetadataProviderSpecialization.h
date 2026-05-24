@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)successfullyGeneratedPreviewForTransfer:(id)arg1;
 + (unsigned long long);
-- (void);
+- (void)startUpdatingCurrentLocationWithAuthorizedHandler:(id)arg1 updateHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

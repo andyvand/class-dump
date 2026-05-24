@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INRideStatus, NSString;
-
 @interface INRequestRideIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)thumbnailRequestForFileAtURL:(long long)arg1 size:minimumSize:scale:iconMode:error: /* Error: Ran out of types for this method. */;
++ (int)getResourceValue:(long long)arg1 forKey:error: /* Error: Ran out of types for this method. */;
++ (long long)fileURLWithFileSystemRepresentation:(int)arg1 isDirectory:(int)arg2 relativeToURL:(_Bool)arg3;
++ (_Bool)encodeObject:(long long)arg1 forKey: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (long long);
-- (id);
+- (id)(;
 - (long long);
 - (id);
+- (id)handleFailureInFunction:(id)arg1 file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)c}s:(id)arg1 %u) FAILED to delete expired captive credentials for '%@', returned err %d;
 - (id);
 - (id);
 - (long long)er",C;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INRideStatus *rideStatus;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)isHiddenOrHasHiddenAncestor;
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)PKDashboardViewControllerFooterViewAccessibility;
 
 @end
 

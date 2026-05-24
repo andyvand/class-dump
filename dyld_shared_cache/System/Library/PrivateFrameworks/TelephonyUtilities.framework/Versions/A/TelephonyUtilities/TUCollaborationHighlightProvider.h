@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, SWHighlightCenter;
+@class SWHighlightCenter;
 @protocol TUCollaborationProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface TUCollaborationHighlightProvider
 {
     id <TUCollaborationProviderDelegate> delegate;
-    SWHighlightCenter *_highlightCenter;
-    NSMutableDictionary *_collaborationIdentifierToPendingCollaborations;
-    NSMutableDictionary *_collaborationIdentifierToBundleIDs;
 }
 
 - (id);
@@ -21,25 +18,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)@;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)reenSharingDrawToHighlightEnabled;
+- (void)screenSharingDrawToHighlightEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *collaborationIdentifierToBundleIDs; // @synthesize collaborationIdentifierToBundleIDs=_collaborationIdentifierToBundleIDs;
-@property(readonly, nonatomic) NSMutableDictionary *collaborationIdentifierToPendingCollaborations; // @synthesize collaborationIdentifierToPendingCollaborations=_collaborationIdentifierToPendingCollaborations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUCollaborationProviderDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SWHighlightCenter *highlightCenter; // @synthesize highlightCenter=_highlightCenter;
-@property(readonly) Class superclass;
 
 @end
 

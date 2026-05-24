@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface GEORequestCounterProactiveTileDownloadPolicyInfo
 {
     unsigned char _policy;
-    NSDate *_startTimestamp;
-    NSDate *_endTimestamp;
-    unsigned long long _tilesConsidered;
-    unsigned long long _successCount;
-    unsigned long long _failureCount;
-    unsigned long long _bytesDownloaded;
 }
 
 + (_Bool);
 - (unsigned long long);
-- (id);
+- (id)ary",R,C,N,V_options;
 - (unsigned long long);
 - (id);
 - (unsigned char);
 - (void);
-- (id)SIT_LINE_PICKER;
+- (id)TRANSIT_LINE_PICKER;
 - (unsigned long long)n code=;
 - (void);
 - (unsigned long long)criptorProto8
@@ -132,13 +124,7 @@ deprecated (:false
 - (id)®ø4;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bytesDownloaded; // @synthesize bytesDownloaded=_bytesDownloaded;
-@property(readonly, nonatomic) NSDate *endTimestamp; // @synthesize endTimestamp=_endTimestamp;
-@property(readonly, nonatomic) unsigned long long failureCount; // @synthesize failureCount=_failureCount;
 @property(readonly, nonatomic) unsigned char policy; // @synthesize policy=_policy;
-@property(readonly, nonatomic) NSDate *startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly, nonatomic) unsigned long long successCount; // @synthesize successCount=_successCount;
-@property(readonly, nonatomic) unsigned long long tilesConsidered; // @synthesize tilesConsidered=_tilesConsidered;
 
 @end
 

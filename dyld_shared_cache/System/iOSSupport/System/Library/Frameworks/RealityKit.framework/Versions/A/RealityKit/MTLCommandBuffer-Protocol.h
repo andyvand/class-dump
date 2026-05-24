@@ -4,26 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLLogContainer;
+@class MTLComputePassDescriptor, MTLRenderPassDescriptor, NSError;
+@protocol MTLBlitCommandEncoder, MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLLogContainer, MTLParallelRenderCommandEncoder, MTLRenderCommandEncoder, MTLResourceStateCommandEncoder;
 
 @protocol MTLCommandBuffer
-- (id <MTLLogContainer>)mandQueueWithMaxCommandBufferCount: /* Error: Ran out of types for this method. */;
+- (id <MTLResourceStateCommandEncoder>)queueiTunesStoreItems:inAdditionMode:completion: /* Error: Ran out of types for this method. */;
+- (id <MTLRenderCommandEncoder>)provideChosenItemsOptionsForChooseFromList:(MTLRenderPassDescriptor *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (id <MTLParallelRenderCommandEncoder>)preferredUnitsForQuantityTypes:(MTLRenderPassDescriptor *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id <MTLBlitCommandEncoder>)initWithKey:defaultValue:table:locale:bundleURL: /* Error: Ran out of types for this method. */;
+- (NSError *)eferences;
 - (void);
+- (unsigned long long);
+- (id <MTLDevice>)L;
+- (void);
+- (void);
+- (id <MTLComputeCommandEncoder>)hone:(MTLComputePassDescriptor *)arg1 proxy error:%d /* Error: Ran out of types for this method. */;
+- (id <MTLLogContainer>)newCommandQueueWithMaxCommandBufferCount: /* Error: Ran out of types for this method. */;
 - (void)ÿêÿÿêÿÿ;
 
 // Remaining properties
-@property(readonly) double GPUEndTime;
-@property(readonly) double GPUStartTime;
 @property(readonly) id <MTLCommandQueue> commandQueue;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long errorOptions;
-@property(readonly) double kernelEndTime;
-@property(readonly) double kernelStartTime;
-@property(copy) NSString *label;
-@property(readonly) id <MTLLogContainer> logs;
-@property(readonly) _Bool retainedReferences;
-@property(readonly) unsigned long long status;
 @end
 

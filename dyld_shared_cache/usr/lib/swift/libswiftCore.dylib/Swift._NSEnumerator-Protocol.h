@@ -5,5 +5,7 @@
 //
 
 @protocol Swift._NSEnumerator
+- (id);
+- (id)`;
 @end
 

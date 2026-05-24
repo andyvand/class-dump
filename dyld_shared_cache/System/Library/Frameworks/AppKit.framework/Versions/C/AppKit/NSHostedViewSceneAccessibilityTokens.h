@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSHostedViewSceneAccessibilityTokens
 {
     NSArray *_unorderedTokens;
-    NSArray *_horizontalOrderedTokens;
 }
 
 + (void)°sH;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)set_discretionaryOverride: /* Error: Ran out of types for this method. */;
+- (id)=;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *horizontalOrderedTokens; // @synthesize horizontalOrderedTokens=_horizontalOrderedTokens;
-@property(readonly) Class superclass;
 @property(retain) NSArray *unorderedTokens; // @synthesize unorderedTokens=_unorderedTokens;
 
 @end

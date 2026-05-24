@@ -5,6 +5,7 @@
 //
 
 @protocol PIParallaxBackgroundParameterStyle
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool showsBackground;

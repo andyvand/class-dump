@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MTRPluginClientConnection, NSDictionary;
+
 @protocol MTRPluginClientConnectionDelegate
+- (_Bool)_allowMessageWithState:(MTRPluginClientConnection *)arg1 forGroup:(NSDictionary *)arg2 fromID:(void (^)(NSError *, NSDictionary *))arg3;
+- (_Bool)_addObserver:(MTRPluginClientConnection *)arg1;
+
+@optional
+- (_Bool)_objectsWithDuplicateStorageIdentifiersFromArray:(MTRPluginClientConnection *)arg1;
 @end
 

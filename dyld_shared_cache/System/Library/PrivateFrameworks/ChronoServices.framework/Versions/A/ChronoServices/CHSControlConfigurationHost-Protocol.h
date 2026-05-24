@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol CHSControlConfigurationHost
+- (NSString *)numberWithLongLong: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *controlConfigurations;
 @property(readonly, nonatomic) NSString *identifier;
 @end
 

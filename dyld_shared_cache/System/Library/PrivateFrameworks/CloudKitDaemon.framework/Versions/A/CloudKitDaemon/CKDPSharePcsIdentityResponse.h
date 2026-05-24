@@ -9,10 +9,6 @@
 @interface CKDPSharePcsIdentityResponse
 {
     NSData *_publicKey;
-    int _publicKeyType;
-    struct {
-        unsigned int publicKeyType:1;
-    } _has;
 }
 
 - (void);
@@ -23,13 +19,14 @@
 - (_Bool);
 - (int);
 - (id);
+- (void)/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)Current rate = %f Pending rate = %f Requested rate = %f
+;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (void)";
@@ -37,9 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPublicKey;
-@property(nonatomic) _Bool hasPublicKeyType;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(nonatomic) int publicKeyType; // @synthesize publicKeyType=_publicKeyType;
 
 @end
 

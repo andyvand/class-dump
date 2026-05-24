@@ -9,12 +9,6 @@
 @interface SwiftUI.WindowMenuBarExtraBehavior : SwiftUI.MenuBarExtraBehavior
 {
     id host;
-    id globalEventMonitor;
-    id localEventMonitor;
-    id isVisible;
-    id scenePhase;
-    id isObservingForKeyWindow;
-    id $__lazy_storage_$_presentationModeLocation;
 }
 
 - (void);

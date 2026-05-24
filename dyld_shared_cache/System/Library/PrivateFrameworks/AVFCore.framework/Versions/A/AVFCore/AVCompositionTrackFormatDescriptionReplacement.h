@@ -7,7 +7,6 @@
 @interface AVCompositionTrackFormatDescriptionReplacement
 {
     struct opaqueCMFormatDescription *_originalFormatDescription;
-    struct opaqueCMFormatDescription *_replacementFormatDescription;
 }
 
 + (_Bool);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly) struct opaqueCMFormatDescription *originalFormatDescription;
-@property(readonly) struct opaqueCMFormatDescription *replacementFormatDescription;
 
 @end
 

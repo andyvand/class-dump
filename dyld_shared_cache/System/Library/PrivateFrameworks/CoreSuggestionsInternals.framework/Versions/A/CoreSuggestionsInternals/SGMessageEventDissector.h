@@ -6,15 +6,14 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSDictionary, NSString, _PASLock;
+@class _PASLock;
 
 @interface SGMessageEventDissector : SGPipelineDissector
 {
     _PASLock *_lock;
-    NSDictionary *_dissectorConfig;
 }
 
-+ (id);
++ (id)A;
 + (_Bool);
 + (id);
 + (id);
@@ -27,33 +26,27 @@
 + (_Bool);
 + (_Bool);
 + (unsigned char);
-+ (id);
++ (id)cloudRecordIDsForLocalEntries:(id)arg1;
 + (id);
 + (id)¼;
+- (_Bool)NFamilyMemberWhitelistedContactsViewControllerDelegate>",R,W,N,V_delegate;
 - (_Bool);
+- (void);
+- (id)isRectangleMoving;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)$;
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void)tadata;
-- (id)rmContact: /* Error: Ran out of types for this method. */;
+- (void)hasBackgroundTrialMetadata;
+- (id)confirmContact: /* Error: Ran out of types for this method. */;
 - (void)B0G	äI°Y8Z[;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

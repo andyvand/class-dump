@@ -14,8 +14,8 @@
 }
 
 + (id);
-+ (unsigned short);
-- (id);
++ (unsigned short)`: /* Error: Ran out of types for this method. */;
+- (id)AMSPushParsableBadging;
 - (void);
 
 @end

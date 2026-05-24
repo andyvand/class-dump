@@ -6,18 +6,17 @@
 
 #import <Vision/VNDetectedObjectObservation.h>
 
-@class CRDocumentOutputRegion, NSArray, NSString, VNRecognizedTextBlockObservation;
+@class CRDocumentOutputRegion, NSArray;
 
 @interface VNDocumentObservation : VNDetectedObjectObservation
 {
     CRDocumentOutputRegion *_topLevelRegion;
-    NSArray *_blocks;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (struct _NSRange);
@@ -32,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addListenerDelegate:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -41,8 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=getBlocks) NSArray *blocks;
-@property(readonly, nonatomic, getter=getTitle) VNRecognizedTextBlockObservation *title;
-@property(readonly, nonatomic, getter=getTranscript) NSString *transcript;
 
 @end
 

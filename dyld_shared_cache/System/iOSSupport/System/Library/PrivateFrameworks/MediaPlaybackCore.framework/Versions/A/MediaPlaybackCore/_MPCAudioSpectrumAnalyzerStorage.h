@@ -8,35 +8,25 @@ __attribute__((visibility("hidden")))
 @interface _MPCAudioSpectrumAnalyzerStorage
 {
     float *_intermediateBuffer;
-    struct DSPSplitComplex _fftBuffer;
-    id _fftSetup;
-    _Bool _processing;
-    float _sampleRate;
-    long long _maxNumberOfFrames;
-    long long _halfN;
-    long long _log2N;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)DAccountStore"28@"ACAccount"36;
+- (void)28@36;
+- (void)isSystemAppMCRestrictedOrRemovedForDataclass:(long long)arg1 forAccount: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_setSharedAlbumEnabled: /* Error: Ran out of types for this method. */;
+- (void)udPhotoLibrary...;
+- (void)7�H;
 - (void);
 - (void);
 - (float);
 
 // Remaining properties
-@property(nonatomic) long long halfN; // @synthesize halfN=_halfN;
-@property(nonatomic) long long log2N; // @synthesize log2N=_log2N;
-@property(nonatomic) long long maxNumberOfFrames; // @synthesize maxNumberOfFrames=_maxNumberOfFrames;
 @property(nonatomic) float sampleRate; // @synthesize sampleRate=_sampleRate;
 
 @end

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, TUConversationLink;
+@class TUConversationLink;
 
 @interface TULinkShareItem
 {
     TUConversationLink *_tuConversationLink;
-    NSString *_title;
-    NSURL *_placeholder;
 }
 
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *placeholder; // @synthesize placeholder=_placeholder;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(retain, nonatomic) TUConversationLink *tuConversationLink; // @synthesize tuConversationLink=_tuConversationLink;
 @end
 

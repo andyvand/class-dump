@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet, NWStatsEntityMapperCoalitionWatcher, NWStatsEntityMapperDynamicLaunchServices, NWStatsEntityMapperNEHelper, NWStatsEntityMapperProcessWatcher, NWStatsEntityMapperStaticAssignment;
+@class NWStatsEntityMapperCoalitionWatcher;
 
 __attribute__((visibility("hidden")))
 @interface NWStatsMonitor
 {
     NWStatsEntityMapperCoalitionWatcher *_coalitionUUIDMapper;
-    NWStatsEntityMapperStaticAssignment *_staticAssignmentUUIDMapper;
-    NWStatsEntityMapperNEHelper *_neHelperUUIDMapper;
-    NWStatsEntityMapperDynamicLaunchServices *_dynamicLaunchServicesUUIDMapper;
-    NWStatsEntityMapperProcessWatcher *_processWatcherUUIDMapper;
-    _Bool _useNEHelper;
-    _Bool _useLaunchServices;
-    _Bool _useCoalitionIDs;
-    _Bool _useProcessNames;
-    _Bool _useStaticMapping;
-    NSSet *_useNEHelperSet;
-    NSSet *_appendProcNameSet;
-    NSSet *_knownDaemonSet;
-    NSMutableDictionary *_reportedLookupFailures;
-    _Bool _debugMode;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (void)classificationLabelIndices;
+- (_Bool):8i16@"NSString"20i28@"TIAnalyticsMetricsContext"32 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)0@ù

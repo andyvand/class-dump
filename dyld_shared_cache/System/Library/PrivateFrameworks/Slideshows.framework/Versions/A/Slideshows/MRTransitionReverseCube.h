@@ -11,16 +11,15 @@
 @interface MRTransitionReverseCube : MRTransition
 {
     MRImageProvider *mWallProvider;
-    MRImageProvider *mGradientProvider;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)newsdDocumentsURL;
+- (id)fc_GregorianCalendarDaysSinceDate:(id)arg1;
 - (void);
-- (void);
-- (void)gTimings;
+- (void);
+- (void)_cleanupSwingTimings;
 
 @end
 

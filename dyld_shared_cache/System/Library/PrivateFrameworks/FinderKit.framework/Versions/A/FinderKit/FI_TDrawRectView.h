@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *backgroundColor; // @dynamic backgroundColor;

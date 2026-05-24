@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebView;
+@class WebView;
 
 __attribute__((visibility("hidden")))
 @interface WebImmediateActionController
 {
     WebView *_webView;
-    int _type;
-    struct HitTestResult _hitTestResult;
-    struct RetainPtr<NSImmediateActionGestureRecognizer> _immediateActionRecognizer;
-    struct RetainPtr<QLPreviewMenuItem> _currentQLPreviewMenuItem;
-    struct RetainPtr<DDActionContext> _currentActionContext;
-    _Bool _hasActivatedActionContext;
-    _Bool _contentPreventsDefault;
 }
 
 + (struct DictionaryPopupInfo);
 - (void);
 - (void);
-- (void);
+- (void)|;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)w;
 - (id);
 - (void);
 - (void);
@@ -50,14 +43,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (unsigned long long);
+- (id)N,V_systemwideDictionary;
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)dentifier=%llu (#items=%lu);
 - (id);
 - (void);
 

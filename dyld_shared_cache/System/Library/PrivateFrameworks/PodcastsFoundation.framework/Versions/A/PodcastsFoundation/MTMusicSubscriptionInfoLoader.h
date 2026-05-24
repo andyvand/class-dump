@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)B;
 + (void);
 - (id);
 - (void)èVy6OutputUQz7FailureAEQzGG.UyAIGG;

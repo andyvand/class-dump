@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCReportingHistogram;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoTierDurationData
 {
     int _currentReceivedVideoResolution;
-    VCReportingHistogram *_receivedVideoTierDuration;
-    double _lastReceivedTierSwitchTime;
 }
 
 - (void);
@@ -21,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)Q;
 - (id);
-- (void);
+- (void)hN;
 
 @end
 

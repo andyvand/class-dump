@@ -15,7 +15,7 @@
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id):(id)arg1 8@"NSDateInterval"16@"NSData"24@?<v@?@"NSArray">32;
 - (id);
 - (unsigned long long);
 - (void);

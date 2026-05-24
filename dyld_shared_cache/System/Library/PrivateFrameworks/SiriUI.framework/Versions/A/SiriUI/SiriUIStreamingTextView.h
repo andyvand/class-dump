@@ -4,35 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSFont, NSMutableArray, NSMutableSet, NSString;
-@protocol SiriUIAccessibilityEditUtteranceDelegate;
+@class NSMutableArray;
 
 @interface SiriUIStreamingTextView
 {
     NSMutableArray *_words;
-    NSMutableArray *_wordsToShow;
-    NSMutableSet *_wordsToDelete;
-    _Bool _acceptsFirstClick;
-    _Bool _showChevron;
-    _Bool _renderEmojisOnly;
-    _Bool _renderEmojis;
-    _Bool _doneStreaming;
-    id <SiriUIAccessibilityEditUtteranceDelegate> _accessibilityEditUtteranceDelegate;
-    NSColor *_startTextColor;
-    NSColor *_endTextColor;
-    double _endTextOpacity;
-    double _animationDuration;
-    double _fadeAnimationDuration;
-    double _hyphenationFactor;
 }
 
-+ (id);
++ (id)_CNAUICRRecentContactCNContext;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?נ;
 - (void);
 - (void);
 - (void);
@@ -44,40 +29,40 @@
 - (double);
 - (double);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool)`;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)=dd}}32;
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
 - (id);
+- (id);
+- (void)_calculateTargetEasingForNewlyInsertedChatItem:(double)arg1 previousItemAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)tem",&,N,V_triggeringChatItem;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (struct CGSize)WHATS_NEW_NAME_AND_PHOTO_SHARING_DETAIL_TITLE;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (struct CGSize);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool)°fl¬ÖÐ«Ö;
 - (void);
 - (void);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)6@24@32;
 - (void);
 - (void)0@ù
 × ;
@@ -86,21 +71,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool acceptsFirstClick; // @synthesize acceptsFirstClick=_acceptsFirstClick;
-@property(nonatomic) __weak id <SiriUIAccessibilityEditUtteranceDelegate> accessibilityEditUtteranceDelegate; // @synthesize accessibilityEditUtteranceDelegate=_accessibilityEditUtteranceDelegate;
-@property(nonatomic) _Bool animated;
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(nonatomic) _Bool doneStreaming; // @synthesize doneStreaming=_doneStreaming;
-@property(copy, nonatomic) NSColor *endTextColor; // @synthesize endTextColor=_endTextColor;
-@property(nonatomic) double endTextOpacity; // @synthesize endTextOpacity=_endTextOpacity;
-@property(nonatomic) double fadeAnimationDuration; // @synthesize fadeAnimationDuration=_fadeAnimationDuration;
-@property(retain, nonatomic) NSFont *font;
-@property(nonatomic) double hyphenationFactor; // @synthesize hyphenationFactor=_hyphenationFactor;
-@property(nonatomic) _Bool renderEmojis; // @synthesize renderEmojis=_renderEmojis;
-@property(nonatomic) _Bool renderEmojisOnly; // @synthesize renderEmojisOnly=_renderEmojisOnly;
-@property(nonatomic) _Bool showChevron; // @synthesize showChevron=_showChevron;
-@property(copy, nonatomic) NSColor *startTextColor; // @synthesize startTextColor=_startTextColor;
-@property(readonly, nonatomic) NSString *text;
-@property(copy, nonatomic) NSArray *words;
 
 @end
 

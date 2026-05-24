@@ -6,16 +6,11 @@
 
 #import <PencilKit/PKDetectionView.h>
 
-@class NSArray, PKMentionItem, UIColor, UIView;
-@protocol PKMentionViewDelegate;
+@class PKMentionItem, UIView;
 
 @interface PKMentionView : PKDetectionView
 {
     PKMentionItem *_mentionItem;
-    UIColor *_mentionColor;
-    id <PKMentionViewDelegate> _delegate;
-    UIView *_blankPreviewView;
-    NSArray *_possibleParticipants;
 }
 
 - (void);
@@ -30,7 +25,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)á	!<Bùñ&1Â0@ù
@@ -42,10 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIView *blankPreviewView; // @synthesize blankPreviewView=_blankPreviewView;
-@property(nonatomic) __weak id <PKMentionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIColor *mentionColor; // @synthesize mentionColor=_mentionColor;
-@property(readonly, nonatomic) PKMentionItem *mentionItem; // @synthesize mentionItem=_mentionItem;
-@property(copy, nonatomic) NSArray *possibleParticipants; // @synthesize possibleParticipants=_possibleParticipants;
 
 @end
 

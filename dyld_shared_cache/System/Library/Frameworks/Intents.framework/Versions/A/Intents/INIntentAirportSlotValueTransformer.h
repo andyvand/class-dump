@@ -13,7 +13,7 @@
 + (Class);
 + (long long),C,N,V_payloadModifyRelationships;
 - (id);
-- (id)solutionResult;
+- (id)INCallRecordResolutionResult;
 
 @end
 

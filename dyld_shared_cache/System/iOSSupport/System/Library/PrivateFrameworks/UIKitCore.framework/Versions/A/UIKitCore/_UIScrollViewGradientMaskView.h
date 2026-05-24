@@ -10,28 +10,22 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollViewGradientMaskView : UIView
 {
     long long _gradientDirection;
-    struct UIEdgeInsets _gradientStartInsets;
-    struct UIEdgeInsets _gradientEndInsets;
-    struct UIEdgeInsets _gradientIntensities;
 }
 
-+ (Class);
++ (Class)_userIdentity;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (struct UIEdgeInsets)16@"NSString"24C32@"NSDictionary"36@"NSString"44@"NSString"52i60@"NSArray"64;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (long long);
+- (struct UIEdgeInsets)"44@"NSString"52@"IMItem"60;
+- (long long)C32@"NSDictionary"36@"NSString"44@"NSString"52@"IMItem"60;
 - (id);
-- (id)initiatingTextSelectionAssistant;
+- (id)_initiatingTextSelectionAssistant;
 
 // Remaining properties
-@property(nonatomic) long long gradientDirection; // @synthesize gradientDirection=_gradientDirection;
-@property(nonatomic) struct UIEdgeInsets gradientEndInsets; // @synthesize gradientEndInsets=_gradientEndInsets;
-@property(nonatomic) struct UIEdgeInsets gradientIntensities; // @synthesize gradientIntensities=_gradientIntensities;
 @property(nonatomic) struct UIEdgeInsets gradientStartInsets; // @synthesize gradientStartInsets=_gradientStartInsets;
 
 @end

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol AASetupAssistantDelegateService, OS_dispatch_queue;
+@class NSArray;
 
 @interface AALoginPluginManager
 {
     NSArray *_allowedPluginBundleIDs;
-    NSArray *_plugins;
-    _Bool _shouldStashLoginResponse;
-    NSObject<OS_dispatch_queue> *_pluginNotificationQueue;
-    id <AASetupAssistantDelegateService> _idsPlugin;
-    _Bool _shouldSkipiTunesPlugin;
 }
 
-+ (id)TermsEntries: /* Error: Ran out of types for this method. */;
++ (id)_requestParamsForTermsEntries: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)H;
+- (id)h;
 - (id);
 - (void);
 - (id);
@@ -34,11 +28,10 @@
 - (void);
 - (id);
 - (void);
-- (void)URL2x;
+- (void)modelLargePhotoURL2x;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldSkipiTunesPlugin; // @synthesize shouldSkipiTunesPlugin=_shouldSkipiTunesPlugin;
-@property(nonatomic) _Bool shouldStashLoginResponse;
 
 @end
 

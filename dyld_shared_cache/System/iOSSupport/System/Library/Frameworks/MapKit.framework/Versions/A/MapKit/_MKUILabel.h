@@ -13,7 +13,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)ons: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:localizedHoursStringOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _mapkit_themeColorProvider; // @synthesize _mapkit_themeColorProvider=__mapkit_themeColorProvider;

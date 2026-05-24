@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface CLMiLoGenericEventResponse
 {
     unsigned long long _eventType;
-    NSString *_genericEventDescription;
-    NSError *_error;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rface:%@
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)setEnableLowLatencySignalSharedEvent:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSString *genericEventDescription; // @synthesize genericEventDescription=_genericEventDescription;
 
 @end
 

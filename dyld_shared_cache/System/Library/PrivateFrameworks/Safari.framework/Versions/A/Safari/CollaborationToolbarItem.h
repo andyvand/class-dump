@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSItemProvider, NSLayoutConstraint, NSStackView, NSString, NSTableView, NSTextField, NSToolbarItem, WBTabGroup, _SWCollaborationToolbarItem;
-@protocol CollaborationToolbarItemDelegate;
+@class WBTabGroup, _SWCollaborationToolbarItem;
 
 __attribute__((visibility("hidden")))
 @interface CollaborationToolbarItem
 {
     _SWCollaborationToolbarItem *_collaborateItem;
-    NSItemProvider *_itemProvider;
-    NSTableView *_tableView;
-    NSStackView *_containerView;
-    NSTextField *_participantsHeader;
-    NSLayoutConstraint *_heightConstraint;
-    NSArray *_contacts;
-    _Bool _isShowingManageShare;
-    WBTabGroup *_tabGroup;
-    id <CollaborationToolbarItemDelegate> _delegate;
 }
 
 + (id);
@@ -28,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -43,22 +33,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)Couldn't enumerate %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CollaborationToolbarItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WBTabGroup *tabGroup; // @synthesize tabGroup=_tabGroup;
-@property(readonly, nonatomic) NSToolbarItem *toolbarItem;
 
 @end
 

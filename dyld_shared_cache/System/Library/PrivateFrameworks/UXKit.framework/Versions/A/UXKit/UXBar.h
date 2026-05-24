@@ -6,28 +6,11 @@
 
 #import <UXKit/UXView.h>
 
-@class NSColor, NSMutableSet, NSString, NSView, _UXSinglePixelLine;
-@protocol _UXBarItemsContainer;
+@class _UXSinglePixelLine;
 
 @interface UXBar : UXView
 {
     _UXSinglePixelLine *_decorationLine;
-    NSMutableSet *_previousBarItemContainers;
-    long long _containerTransitionAnimationCount;
-    NSView *_placeholderTrailingView;
-    _Bool _isInteractiveTransitioning;
-    _Bool _trailingViewNeedsRemoval;
-    NSColor *_barTintColor;
-    double _interitemSpacing;
-    double _height;
-    double _baselineOffsetFromBottom;
-    double _percent;
-    UXView<_UXBarItemsContainer> *_nextItemContainer;
-    NSView *_globalTrailingView;
-    double _globalTrailingViewWidthMultiplier;
-    UXView<_UXBarItemsContainer> *_barItemsContainer;
-    struct NSEdgeInsets _layoutMargins;
-    struct NSEdgeInsets _decorationInsets;
 }
 
 - (_Bool);
@@ -39,9 +22,9 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)T);
 - (double);
-- (id);
+- (id);
 - (struct NSEdgeInsets);
 - (id);
 - (void);
@@ -52,8 +35,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)uterDelegate>"24;
+- (double)widthForIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
@@ -62,13 +45,46 @@
 - (void);
 - (_Bool);
 - (struct CGSize);
-- (double);
+- (double)h;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
-- (id);
+- (id)e (src, samplerCoord (src)); 
+			s = sqrt(max( s.rgba, vec4(0.0))); 
+				//s = clamp( lightenAll( s , p ,.6), 0.0, 1.0); 
+				s = lightenAll( s , p ,.6) ; 
+					s = s*s; 
+						return s; 
+} 
+
+//kernel 2 
+kernel vec4 rebalanceDarker (sampler src, float p) __attribute__ ((preserves_opacity)) 
+{ 
+	vec4 s; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ) ; 
+			float alpha = s.a; 
+				//s.rgb = sqrt( max( s.argb, vec4(0.0)) ); 
+				//s = clamp( darken( s , -p, .6), 0.0, 1.0); 
+				s = darken( s , -p, .6) ; 
+					//s = s*s; 
+					s.a = alpha; 
+						return s; 
+} 
+
+//kernel 3 
+kernel vec4 rebalanceDarker2 (sampler src, float p) 
+{ 
+	vec4 s; 
+		s = max( sample (src, samplerCoord (src)) , vec4(0.0) ); 
+			//s = sqrt(s); 
+			//s =	clamp( darken2( s ,-p,.6), 0.0, 1.0 ); 
+			s	=	darken2( s , -p, .6) ; 
+				//s = s*s; 
+				return s; 
+} 
+;
 - (double);
 - (void);
 - (void);
@@ -76,28 +92,7 @@
 - (void)ublic}@:(id)arg1 %{public}@> %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) UXView<_UXBarItemsContainer> *barItemsContainer; // @synthesize barItemsContainer=_barItemsContainer;
-@property(readonly, nonatomic) long long barPosition;
-@property(retain, nonatomic) NSColor *barTintColor; // @synthesize barTintColor=_barTintColor;
-@property(nonatomic) double baselineOffsetFromBottom; // @synthesize baselineOffsetFromBottom=_baselineOffsetFromBottom;
-@property(nonatomic) _Bool bordered;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) struct NSEdgeInsets decorationInsets; // @synthesize decorationInsets=_decorationInsets;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSView *globalTrailingView; // @synthesize globalTrailingView=_globalTrailingView;
-@property(nonatomic) double globalTrailingViewWidthMultiplier; // @synthesize globalTrailingViewWidthMultiplier=_globalTrailingViewWidthMultiplier;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
 @property(nonatomic) _Bool isInteractiveTransitioning; // @synthesize isInteractiveTransitioning=_isInteractiveTransitioning;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(retain, nonatomic) UXView<_UXBarItemsContainer> *nextItemContainer; // @synthesize nextItemContainer=_nextItemContainer;
-@property(nonatomic) double percent; // @synthesize percent=_percent;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool trailingViewNeedsRemoval; // @synthesize trailingViewNeedsRemoval=_trailingViewNeedsRemoval;
 
 @end
 

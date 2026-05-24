@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PKPassUpcomingPassInformationImageManifest
 {
     _Bool _reuseExisting;
-    NSString *_imageName;
-    NSDictionary *_items;
 }
 
 + (id);
@@ -21,16 +19,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)B;
+- (void)targetRssi;
 - (id);
 - (id);
 - (void)abled:%@; Information:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 @property(readonly, copy, nonatomic) NSDictionary *items; // @synthesize items=_items;
-@property(readonly, nonatomic) _Bool reuseExisting; // @synthesize reuseExisting=_reuseExisting;
 
 @end
 

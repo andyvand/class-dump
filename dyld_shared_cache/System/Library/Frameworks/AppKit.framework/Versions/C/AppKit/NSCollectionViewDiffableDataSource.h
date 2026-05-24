@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, __NSDiffableDataSource;
+@class __NSDiffableDataSource;
 
 @interface NSCollectionViewDiffableDataSource
 {
     __NSDiffableDataSource *_impl;
 }
 
-- (id);
-- (id);
+- (id)__NSCFURLSessionDelegateWrapper;
+- (id)not invalidated;
 - (void);
 - (void);
 - (void);
@@ -20,10 +20,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)constantIndex;
 - (id);
 - (id);
-- (long long):(id)arg1;
+- (long long)_arrayForUpdateAction:(id)arg1;
 - (long long)ôLi=ù\i=èüti=<j=øhj=#j=((¸j=È/àj=@0ðj=´0;
 - (void)´­éÿ®¶xC;
 - (id)7E;
@@ -32,15 +32,7 @@
 - (id)°éH;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) __NSDiffableDataSource *impl; // @synthesize impl=_impl;
-@property(readonly) Class superclass;
-@property(copy) CDUnknownBlockType supplementaryViewProvider;
 
 @end
 

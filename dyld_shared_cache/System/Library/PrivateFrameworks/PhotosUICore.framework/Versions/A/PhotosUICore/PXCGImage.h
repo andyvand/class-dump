@@ -11,7 +11,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (struct CGImage *);
 - (_Bool);

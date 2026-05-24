@@ -5,5 +5,6 @@
 //
 
 @protocol NFCFieldDetectSessionCallbacks
+- (void);
 @end
 

@@ -7,6 +7,10 @@
 @class NSString;
 
 @protocol NSSNewsAnalyticsSessionManagerObserving
+- (void)previous:%d, elapsedTime (sec):%f /* Error: Ran out of types for this method. */;
+- (void)e.;
+- (void)een time tracking is broken. Resetting onDisplay boolean to false.;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *sceneSessionIdentifier;

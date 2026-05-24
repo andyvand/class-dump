@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UILabel, UIStackView;
+@class UILabel, UIStackView;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerSectionHeader
 {
     UILabel *_titleLabel;
-    UIButton *_actionButton;
-    CDUnknownBlockType _actionBlock;
-    UIStackView *_stackView;
 }
 
 + (double);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -28,17 +25,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)?;
+- (id)targetUsesExtraPointerBits:(struct CGRect)arg1;
 - (void);
-- (id);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (id)ockReportAction;
+- (void)_openURL: /* Error: Ran out of types for this method. */;
+- (id)_blockReportAction;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(readonly, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

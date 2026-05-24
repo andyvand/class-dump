@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface FTCPPETInteractionLogEvent
 {
     unsigned long long _hashedUserId;
-    unsigned long long _snapshotTimestamp;
-    NSMutableArray *_interactions;
 }
 
 + (Class);
 - (unsigned long long);
 - (void);
+- (void)3;
+- (void)!;
+- (unsigned long long)q;
+- (id)um;
+- (void)';
+- (void);
+- (id)*;
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)V	;
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)_NSURLResponseType;
 - (id);
 - (id);
 - (void)1ª3°1Â0@ù
@@ -38,8 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long hashedUserId; // @synthesize hashedUserId=_hashedUserId;
-@property(retain, nonatomic) NSMutableArray *interactions; // @synthesize interactions=_interactions;
-@property(nonatomic) unsigned long long snapshotTimestamp; // @synthesize snapshotTimestamp=_snapshotTimestamp;
 
 @end
 

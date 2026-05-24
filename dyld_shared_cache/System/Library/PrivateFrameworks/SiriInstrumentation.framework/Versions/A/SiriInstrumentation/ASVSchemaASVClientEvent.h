@@ -6,21 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class ASVSchemaASVClientEventMetadata, ASVSchemaASVOutputVolumeQueried, ASVSchemaASVUserIntentDetected, NSData, SISchemaInstrumentationMessage;
+@class ASVSchemaASVClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ASVSchemaASVClientEvent : SISchemaTopLevelUnionType
 {
     ASVSchemaASVClientEventMetadata *_eventMetadata;
-    ASVSchemaASVOutputVolumeQueried *_asvOutputVolumeQueried;
-    ASVSchemaASVUserIntentDetected *_asvUserIntentDetected;
-    _Bool _hasEventMetadata;
-    _Bool _hasAsvOutputVolumeQueried;
-    _Bool _hasAsvUserIntentDetected;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
-+ (id);
++ (id)C;
 - (unsigned long long);
 - (void);
 - (void);
@@ -39,7 +33,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);;
 - (int);
 - (id);
 - (void);
@@ -47,9 +41,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)tselection;
-- (id)lientEvent;
-- (unsigned long long)er;
+- (id)whichOneof_Promptselection;
+- (id)deleteRfgClientEvent;
+- (unsigned long long)_hasAnonymizedContactIdentifier;
 - (id)	
 ;
 - (id);
@@ -57,15 +51,7 @@
 - (void)¯&;
 
 // Remaining properties
-@property(retain, nonatomic) ASVSchemaASVOutputVolumeQueried *asvOutputVolumeQueried; // @synthesize asvOutputVolumeQueried=_asvOutputVolumeQueried;
-@property(retain, nonatomic) ASVSchemaASVUserIntentDetected *asvUserIntentDetected; // @synthesize asvUserIntentDetected=_asvUserIntentDetected;
-@property(retain, nonatomic) ASVSchemaASVClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasAsvOutputVolumeQueried; // @synthesize hasAsvOutputVolumeQueried=_hasAsvOutputVolumeQueried;
-@property(nonatomic) _Bool hasAsvUserIntentDetected; // @synthesize hasAsvUserIntentDetected=_hasAsvUserIntentDetected;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

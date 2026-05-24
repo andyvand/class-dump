@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIDICIDeviceInfo, NSNumber;
-
 @interface MIDICIDiscoveredNode
 {
     unsigned int _destination;
-    MIDICIDeviceInfo *_deviceInfo;
-    _Bool _supportsProfiles;
-    _Bool _supportsProperties;
-    unsigned int _maxSysExSize;
 }
 
 + (id);
@@ -28,14 +22,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) MIDICIDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(readonly, nonatomic) NSNumber *maximumSysExSize;
-@property(readonly, nonatomic) _Bool supportsProfiles; // @synthesize supportsProfiles=_supportsProfiles;
-@property(readonly, nonatomic) _Bool supportsProperties; // @synthesize supportsProperties=_supportsProperties;
 
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECWebContentObserver, EFLocked, EFManualCancelationToken, NSMutableArray, NSObject, NSString, WKWebView, _WKRemoteObjectInterface;
-@protocol EFScheduler, OS_dispatch_queue;
+@class WKWebView, _WKRemoteObjectInterface;
 
 @interface EDWebContentParser
 {
     _WKRemoteObjectInterface *_webContentObserverInterface;
-    ECWebContentObserver *_webContentObserver;
-    EFManualCancelationToken *_token;
-    EFLocked *_state;
-    struct os_unfair_lock_s _remoteContentParserLock;
-    struct os_unfair_lock_s _contentRuleListsLock;
-    NSMutableArray *_currentContentRuleLists;
-    _Bool _contentRuleListsNeedUpdate;
-    EFManualCancelationToken *_contentRuleListsObservationToken;
-    _Bool _isDataDetectionEnabled;
-    WKWebView *_webView;
-    unsigned long long _options;
-    id <EFScheduler> _backgroundWorkScheduler;
-    NSObject<OS_dispatch_queue> *_extractOneTimeCodeQueue;
 }
 
 + (id);
@@ -38,27 +24,27 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id)nd WiFi controller in IORegistry;
+- (void)erver. Retry.;
+- (void);
+- (void);
+- (void)UsoEntityBuilderProtocol_common_MessageMode;
+- (unsigned long long)!;
+- (void)(=;
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)h %lu;
 - (void)TEGER NOT NULL,
     ended_at REAL,
     error_code INTEGER,
@@ -67,18 +53,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFScheduler> backgroundWorkScheduler; // @synthesize backgroundWorkScheduler=_backgroundWorkScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *extractOneTimeCodeQueue; // @synthesize extractOneTimeCodeQueue=_extractOneTimeCodeQueue;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDataDetectionEnabled; // @synthesize isDataDetectionEnabled=_isDataDetectionEnabled;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

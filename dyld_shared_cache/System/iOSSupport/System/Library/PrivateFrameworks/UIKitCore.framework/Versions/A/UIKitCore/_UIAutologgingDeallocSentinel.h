@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (_Bool)orTurnedOn;
+- (void)activity type;
+- (_Bool)_feedbackGeneratorTurnedOn;
 - (void)fectViewBackdropCaptureGroup",N,&;
 - (id){public}@;
 - (void)È¶^;

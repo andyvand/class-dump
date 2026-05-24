@@ -4,45 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IATextInputActionsInputMode, NSDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSSet, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue, UITextInputSessionActionAnalyticsDelegateSource;
 
 @interface UITextInputSessionActionAnalytics
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableOrderedSet *_recentActions;
-    NSMutableSet *_accumulators;
-    NSMutableSet *_efficacyAccumulators;
-    NSMutableSet *_dynamicAccumulators;
-    NSSet *_separateCycleAccumulatorNames;
-    unsigned long long _maxDepth;
-    _Bool _trackingDuration;
-    unsigned long long _beginTimestamp;
-    long long _overrideSource;
-    long long _useOverrideSourceCounter;
-    NSString *_overrideInputModeString;
-    id <UITextInputSessionActionAnalyticsDelegateSource> _delegateSource;
-    NSUUID *_sessionIdentifier;
-    NSDictionary *_keyboardTrialParameters;
-    IATextInputActionsInputMode *_inputMode;
-    unsigned long long _allowCursorMovementCounter;
 }
 
 + (id);
-+ (id);
++ (id)serialize;
++ (void)payloadUserDefinedName;
 + (void);
-+ (void);
-+ (void);
++ (void);
 + (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)loadQueryCriteria:(unsigned long long)arg1 hasItemsWithCompletionBlock: /* Error: Ran out of types for this method. */;
++ (void):(id)arg1 didCompleteWithError:task finished with error:%{public}@ dataTask=%{public}@ /* Error: Ran out of types for this method. */;
++ (id)= %@;
 + (id)0@ù
 × ;
-+ (void)andles;
++ (void)addTextRangeHandles;
 + (void)eIdentityToken",R,N;
 + (void)g a collision bounds of UIDynamicItemCollisionBoundsPath;
 + (void);
+- (void)registrationQueue;
+- (void)eRecordZone;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)8	;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)X;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,50 +69,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
+- (void)ates to write up;
+- (unsigned long long)age from me;
+- (id)messages.;
+- (id)have not recently sent an availability auto reply. We haven't sent an auto reply in the last %ld messages.;
+- (void)gging existing message; existingMessage:(id)arg1 %@;
+- (void)tching stored non-isSOS message, tagging existing message; existingMessage:(id)arg1 %@;
+- (id)am, chatid %@ has 3 replies or more;
+- (unsigned long long)SMWorkoutAlwaysPromptDismissActionIdentifier;
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -105,13 +89,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�#;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (void)Downgrade;
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -128,13 +112,13 @@
 - (void);
 - (void)Detection";
 - (void)";
-- (void)ginTimeOffset;
-- (void)rPrimaryColor:(id)arg1;
-- (void)eForGlyphRange:actualGlyphRange: /* Error: Ran out of types for this method. */;
-- (long long)ags;
+- (void)trackBorderGoingOffAnimationBeginTimeOffset;
+- (void)setHeaderPrimaryColor:(id)arg1;
+- (void)characterRangeForGlyphRange:actualGlyphRange: /* Error: Ran out of types for this method. */;
+- (long long)_textLabelFlags;
 - (id);
 - (id)Ô;
-- (void)jiKeyboard;
+- (void)VerticalScrollingInEmojiKeyboard;
 - (id)ct ui_archive *);
 - (void)´¥ËÀMa;
 - (void)ÄIWþø;
@@ -144,11 +128,7 @@
 - (id)rþEÃ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allowCursorMovementCounter; // @synthesize allowCursorMovementCounter=_allowCursorMovementCounter;
 @property(nonatomic) __weak id <UITextInputSessionActionAnalyticsDelegateSource> delegateSource; // @synthesize delegateSource=_delegateSource;
-@property(retain, nonatomic) IATextInputActionsInputMode *inputMode; // @synthesize inputMode=_inputMode;
-@property(copy, nonatomic) NSDictionary *keyboardTrialParameters; // @synthesize keyboardTrialParameters=_keyboardTrialParameters;
-@property(retain, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

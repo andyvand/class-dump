@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKSingleDayTimelineLayoutPartition, NSArray, NSMutableArray;
-@protocol CUIKSingleDayTimelineGeometryDelegate, CUIKSingleDayTimelineLayoutScreenUtils, CUIKSingleDayTimelineViewItem;
+@class CUIKSingleDayTimelineLayoutPartition;
+@protocol CUIKSingleDayTimelineViewItem;
 
 @interface CUIKSingleDayTimelineOccurrenceBucket
 {
     id <CUIKSingleDayTimelineViewItem> _temporaryOccurrenceAtBeginning;
-    id <CUIKSingleDayTimelineViewItem> _temporaryOccurrenceAtEnd;
-    id <CUIKSingleDayTimelineLayoutScreenUtils> _screenUtilsDelegate;
-    _Bool _useTemporaryFitnessLevel;
-    _Bool _temporaryFitnessLevelRequiresCalculation;
-    double _temporaryFitnessLevel;
-    _Bool _originalFitnessLevelRequiresCalculation;
-    double _originalFitnessLevel;
-    _Bool _ignoreFirstOccurrenceInFitnessCalculations;
-    _Bool _ignoreLastOccurrenceInFitnessCalculations;
-    _Bool _isOnlyBucket;
-    CUIKSingleDayTimelineLayoutPartition *_correspondingPartition;
-    id <CUIKSingleDayTimelineGeometryDelegate> _geometryDelegate;
-    NSMutableArray *_currentOccurrences;
 }
 
 + (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,17 +30,13 @@
 - (void);
 - (id);
 - (id);
-- (void)tary;
+- (void)showCalendarNameIfSolitary;
 - (void)yACyg¾ya¾y[¾yAAyAAyAAy>÷G)®yëGGlyAEGG_SbQo__SbQo__SbQo__AAyAAyAAyAAyK>GALGAPGASGtGGtGG¨y+OGGA6_yðMGG_Qo_¥ySbGG_AAyAAyAAyAAyAAyAJyAAyý=AYGGALGANyAFGGASG7GALGSgt;
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) CUIKSingleDayTimelineLayoutPartition *correspondingPartition; // @synthesize correspondingPartition=_correspondingPartition;
-@property(retain, nonatomic) NSMutableArray *currentOccurrences; // @synthesize currentOccurrences=_currentOccurrences;
-@property __weak id <CUIKSingleDayTimelineGeometryDelegate> geometryDelegate; // @synthesize geometryDelegate=_geometryDelegate;
-@property(nonatomic) _Bool isOnlyBucket; // @synthesize isOnlyBucket=_isOnlyBucket;
-@property(readonly, nonatomic) NSArray *occurrences;
 
 @end
 

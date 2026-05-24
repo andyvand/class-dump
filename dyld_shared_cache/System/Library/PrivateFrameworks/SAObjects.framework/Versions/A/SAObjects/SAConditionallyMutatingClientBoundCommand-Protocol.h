@@ -5,6 +5,7 @@
 //
 
 @protocol SAConditionallyMutatingClientBoundCommand
+- (void)_;
 
 // Remaining properties
 @property(nonatomic) _Bool mutatingCommand;

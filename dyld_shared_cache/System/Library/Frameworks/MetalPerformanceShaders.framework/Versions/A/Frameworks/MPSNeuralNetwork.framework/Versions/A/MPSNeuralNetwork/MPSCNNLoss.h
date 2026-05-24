@@ -6,20 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSImage, MPSMatrix;
-
 @interface MPSCNNLoss : MPSCNNKernel
 {
     unsigned int _lossType;
-    int _reductionType;
-    _Bool _reduceAcrossBatch;
-    float _weight;
-    float _labelSmoothing;
-    unsigned long long _numberOfClasses;
-    float _epsilon;
-    float _delta;
-    MPSMatrix *_reductionBuffer;
-    MPSImage *_firstLossImage;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -40,8 +29,8 @@
 - (id);
 - (void);
 - (float);
-- (unsigned long long);
-- (void);
+- (unsigned long long)MPSMatrixInternalBlockUpperRightTriangularMatrixMultiply;
+- (void);
 - (float);
 - (id);
 - (id)econdaryStrideInFeatureChannels:(id)arg1 %lu
@@ -50,13 +39,6 @@
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) float delta; // @synthesize delta=_delta;
-@property(readonly, nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly, nonatomic) float labelSmoothing; // @synthesize labelSmoothing=_labelSmoothing;
-@property(readonly, nonatomic) unsigned int lossType; // @synthesize lossType=_lossType;
-@property(readonly, nonatomic) unsigned long long numberOfClasses; // @synthesize numberOfClasses=_numberOfClasses;
-@property(readonly, nonatomic) _Bool reduceAcrossBatch; // @synthesize reduceAcrossBatch=_reduceAcrossBatch;
-@property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
 @property(nonatomic) float weight; // @synthesize weight=_weight;
 
 @end

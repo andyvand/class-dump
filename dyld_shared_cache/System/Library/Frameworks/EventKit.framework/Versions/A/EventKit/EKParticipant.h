@@ -6,58 +6,25 @@
 
 #import <EventKit/EKObject.h>
 
-@class EKCalendarItem, NSDate, NSPredicate, NSString, NSURL;
+@class EKCalendarItem, NSString;
 
 @interface EKParticipant : EKObject
 {
     EKCalendarItem *_owner;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (id)PlayingController] <%@> LoadetryTimer is already scheduled to retry in %lf more seconds;
++ (id)):(id)arg1 %{public}@ | %{public}@;
++ (id)teControl] Command %{public}@ missing source position option(s):(id)arg1 %{public}@ | %{public}@;
++ (_Bool)twork request failure because configuration needs other data;
++ (id)canSetVolume=%{BOOL}u, volumeControlType=%{public}@, effectiveVolumeCapabilities=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
++ (_Bool)clusterAwareRemovingOutputDeviceUID;
++ (_Bool)appOptions;
 + (id);
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) NSString *UUID;
-@property(copy, nonatomic) NSString *comment;
-@property(readonly, nonatomic) NSDate *commentLastModifiedDate;
-@property(readonly, nonatomic) NSPredicate *contactPredicate; // @dynamic contactPredicate;
-@property(readonly, nonatomic, getter=isCurrentUser) _Bool currentUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *emailAddress;
-@property(copy, nonatomic) NSString *firstName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *inviterNameString; // @dynamic inviterNameString;
-@property(readonly, nonatomic) _Bool isCurrentUserForScheduling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCurrentUserForSharing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) NSString *lastName;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool needsResponse;
-@property(readonly, nonatomic) EKCalendarItem *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) long long participantRole;
-@property(readonly, nonatomic) long long participantStatus;
-@property(readonly, nonatomic) long long participantType;
-@property(copy, nonatomic) NSString *phoneNumber;
-@property(nonatomic) _Bool scheduleForceSend;
-@property(readonly, nonatomic) int scheduleStatus;
-@property(readonly) Class superclass;
 
 @end
 

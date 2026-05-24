@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UIInterpolatedFloat
 {
     double _number;
 }
 
 + (id)Ô ;
-+ (id)nd:(id)arg1 inCategory:atIndexPath: /* Error: Ran out of types for this method. */;
++ (id)visibleViewOfKind:(id)arg1 inCategory:atIndexPath: /* Error: Ran out of types for this method. */;
 + (id)tinationController.m;
-- (_Bool);
-- (_Bool);
+- (_Bool)buildWithIdentifier:(id)arg1 withName:(id)arg2 withAllowDeviceNameModification: /* Error: Ran out of types for this method. */;
+- (_Bool)[;
 - (void);
 - (_Bool);
-- (id);
+- (id)alwaysLive;
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ltTitleColorForState:isTintColor: /* Error: Ran out of types for this method. */;
-- (id)dCustomImageContainer;
+- (id)_defaultTitleColorForState:isTintColor: /* Error: Ran out of types for this method. */;
+- (id)_UIBarBackgroundCustomImageContainer;
 - (double);
-- (id)gressAnimationState;
+- (id)InProcessProgressAnimationState;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double value;
 
 @end

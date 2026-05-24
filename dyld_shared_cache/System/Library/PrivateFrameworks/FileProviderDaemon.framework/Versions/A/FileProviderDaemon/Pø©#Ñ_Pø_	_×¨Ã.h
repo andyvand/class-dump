@@ -7,7 +7,6 @@
 @interface Pø©#Ñ)Pø(	?×¨Ã
 {
     id ãª;
-    id a^Cùñ	ªàò	?×|>DùwjCùyÞCùzºCùûª¸Vø;
 }
 
 @end

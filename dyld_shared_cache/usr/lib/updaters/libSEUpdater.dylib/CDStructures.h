@@ -48,8 +48,8 @@ struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
 };
 
 struct shared_ptr<SEUpdater::P73BaseSEController> {
-    struct P73BaseSEController *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct P73BaseSEController *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<std::vector<unsigned char>> {
@@ -92,9 +92,9 @@ typedef struct basic_string<char, std::char_traits<char>, std::allocator<char>> 
 } basic_string_23c5cf75;
 
 typedef struct shared_ptr<SEUpdater::P73BaseSEController> {
-    struct P73BaseSEController *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_cb233480;
+    struct P73BaseSEController *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_dcdad3b6;
 
 typedef struct vector<unsigned char, std::allocator<unsigned char>> {
     char *_field1;

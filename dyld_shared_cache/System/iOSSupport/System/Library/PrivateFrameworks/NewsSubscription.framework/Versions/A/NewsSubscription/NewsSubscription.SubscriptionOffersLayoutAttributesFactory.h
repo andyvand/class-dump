@@ -7,12 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersLayoutAttributesFactory
 {
     id marginWidth;
-    id logoTopOffset;
-    id logoTopOffsetForUniqueOffers;
-    id accessLabelTopOffset;
-    id spaceBetweenAccessTextAndSubscribeButton;
-    id webAuthButtonTopOffset;
-    id styler;
 }
 
 @end

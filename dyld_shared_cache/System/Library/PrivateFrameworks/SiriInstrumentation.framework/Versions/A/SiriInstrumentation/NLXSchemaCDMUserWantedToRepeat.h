@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMUserWantedToRepeat : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_systemDialogActId;
-    _Bool _hasSystemDialogActId;
 }
 
 - (id);
@@ -21,19 +20,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Sources/libressl/libressl-2.2/crypto/x509v3/v3_conf.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)?;
 - (id);
 - (id)dHeld;
 - (id)"SISchemaUUID",&,N,V_odfunnelId;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSystemDialogActId; // @synthesize hasSystemDialogActId=_hasSystemDialogActId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *systemDialogActId; // @synthesize systemDialogActId=_systemDialogActId;
 
 @end

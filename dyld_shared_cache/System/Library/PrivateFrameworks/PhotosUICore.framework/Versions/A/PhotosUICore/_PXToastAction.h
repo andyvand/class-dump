@@ -9,7 +9,6 @@
 @interface _PXToastAction
 {
     NSString *_title;
-    CDUnknownBlockType _action;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

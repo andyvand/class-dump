@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonPersistentTaskExecutorMonitor
+- (void);
 @end
 

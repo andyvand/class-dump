@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDWakeConfigurationParameters, NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDWakeConfiguration
 {
     NSData *_reserved;
-    HMDWakeConfigurationParameters *_custom1;
-    HMDWakeConfigurationParameters *_custom2;
 }
 
-+ (id);
++ (id)numberOfPublicEventsCategoryBusinessAndTechnology;
 - (void);
 - (void);
 - (id);
@@ -23,24 +21,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (id)yServersWithIdentifiers:(struct _NSZone *)arg1 forceScan:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)DVideoResolutionType1920x1080;
+- (_Bool)q;
+- (id)probeReachabilityForBTLEAccessoryServersWithIdentifiers:(struct _NSZone *)arg1 forceScan:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)HMDVideoResolutionType1920x1080;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) HMDWakeConfigurationParameters *custom1; // @synthesize custom1=_custom1;
-@property(retain, nonatomic) HMDWakeConfigurationParameters *custom2; // @synthesize custom2=_custom2;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *reserved; // @synthesize reserved=_reserved;
-@property(readonly) Class superclass;
 
 @end
 

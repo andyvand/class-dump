@@ -7,10 +7,10 @@
 @class NSDictionary, PFPosterLayout;
 
 @protocol PIPosterLayoutResult
+- (PFPosterLayout *);
 - (NSDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) PFPosterLayout *layout;
-@property(readonly, copy, nonatomic) NSDictionary *scores;
 @end
 

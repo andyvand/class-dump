@@ -6,21 +6,17 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIParallelogramTile : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputAngle;
-    NSNumber *inputAcuteAngle;
-    NSNumber *inputWidth;
 }
 
 + (id);
-- (id);
-- (void);
+- (id)?;
+- (void)8@!;
 - (id)ERFXeeeelpppkokphker||||]pl}Xqn~iwwwQd^jOfajQmltuxxxppppH_Whqsss}exs~|q¡¡¡¡¨¨¨¨puo}ih^nHYKfxxvxv~tuuurrrrlqnwp~~o|zxzzzzpppp^hdmxyyyrrrrggcgemkp~~~~{{{{R\UiTVL\ZZWZLZS[LUMYPULYN_Ybtttt|eyytvuvBZQeKTJZ[[[[^^^^bbbbiiiissss{{{{|o¤¤¤¤¡¦©····½½½½§§§§m}|_]R_6E3OCN@S__^_J^SgXmez´´´´¬¬¬¬rhhchRRMRON@OO^Va­­­­¥¥¥¥~bvs~twt|yYol{|bxwjlqlycrnwvvvvppppiieiiifimmmmeqnu_wucc\h<I9WDYN`vvvv}tttt````XXXX^^^^arrrxxxx1J9a%F3^ssss\{x|{~|wxyyyolgo]mgpyyyybvsvzx}}}}foiqE[Nf[bVhxxxxª¨ªª­­­­¢¢Ti_vUsm    ±±±±¨¨¨¨{{x{V_SeVQAZBUG[__W_P^Ubkkkkxxxx~~~~qe{txx££££­­­­ttttnqoq[sqy~yws{n|zqzyzBQC`X]T_iiiidkgnwtrwbpmxVhasrzw|wezu    ¥¥¥¥u Wmgv8SEeEVJbK^VefhfhddddGTJX2J<Xlrrrs}¦¦¦¦¥¥¥¥yrusvmmmmlllltttt}}}}duu{{{{fokulqmwdxtZnf|bqj{vzvf}{zxszAaTsbnfyZoj{`spwppppY]T^5H7SGXM]uuuu}}}}dddd<LBLDDADNNLNiiii|vvvvmmmmMb^iUigpxxxx^lirKa[klllljpppwwww~~~~{|~~ovv}||||pppp[[U[NNBNXXOXuuuuªªªª¹¹¹¹¹¹¹¹¥¥¥¥t|wSi_v~~~~vssosQhaq}}}}¥ ¡mqmtiiiisssst¦¦¦¦®®®®¨©©~~}~Pd\okhbkdielK^Wh<TJ]SRFSTPBUO_Vf||||dyxwwww\e_gfc\fyyyymmmmbbZbgkfl{§§§§`uqildqmmimhoitcrk|Uf[rosnuvvvvllgrwutw~~~~Nb_h=RI]bbabWaZg@ZPkmokuttttAYOdfe^ixyx{wwwwhrosooookkkkU_UiI^Tkooko\miooomoWhcm`gbkkkkkkkkkmmmmvvvv¥¥¥¥µµµµ¶¶¶¶¥¥¥¥mr|{extd~|qs|xktqucc^cPZP[eeeewwww}m|xQld|{vuov@YKm;
 
 // Remaining properties

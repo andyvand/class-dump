@@ -5,5 +5,6 @@
 //
 
 @protocol SymbolValidatorDelegate
+- (void);
 @end
 

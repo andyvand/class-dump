@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface DTMFEventHandler
 {
     NSObject<OS_dispatch_queue> *dtmfQueue;
-    NSMutableArray *dtmfEventQueue;
-    int _currentEventState;
-    _Bool currentEventNeedsEndBlock;
-    unsigned long long currentEventRetransmitFinalPacketCount;
-    unsigned char currentEvent;
-    unsigned char currentVolume;
-    unsigned int currentStartTimestamp;
-    unsigned int currentDurationCounter;
-    unsigned int currentEndTimestamp;
-    unsigned int _currentPauseCompleteTimestamp;
-    unsigned int _rtpEventDuration;
-    unsigned int _adjustTimestamp;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);

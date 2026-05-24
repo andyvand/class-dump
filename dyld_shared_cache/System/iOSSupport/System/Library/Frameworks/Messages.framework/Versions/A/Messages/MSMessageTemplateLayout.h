@@ -6,20 +6,11 @@
 
 #import <Messages/MSMessageLayout.h>
 
-@class NSData, NSString, NSURL, UIImage;
+@class NSData, NSString;
 
 @interface MSMessageTemplateLayout : MSMessageLayout
 {
     NSString *_caption;
-    NSString *_subcaption;
-    NSString *_trailingCaption;
-    NSString *_trailingSubcaption;
-    NSURL *_mediaFileURL;
-    UIImage *_image;
-    NSData *_mediaData;
-    NSString *_mediaType;
-    NSString *_imageTitle;
-    NSString *_imageSubtitle;
 }
 
 + (_Bool);
@@ -27,19 +18,19 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)D;
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)_wantsDefaultCustomizationFields;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	?ר#;
 - (void);
 - (id);
 - (id);
@@ -49,20 +40,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ateFrameworks/IconServices.framework/Versions/A/IconServices;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *caption; // @synthesize caption=_caption;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *imageSubtitle; // @synthesize imageSubtitle=_imageSubtitle;
-@property(copy, nonatomic) NSString *imageTitle; // @synthesize imageTitle=_imageTitle;
 @property(retain, nonatomic) NSData *mediaData; // @synthesize mediaData=_mediaData;
-@property(copy, nonatomic) NSURL *mediaFileURL; // @synthesize mediaFileURL=_mediaFileURL;
-@property(retain, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(copy, nonatomic) NSString *subcaption; // @synthesize subcaption=_subcaption;
-@property(copy, nonatomic) NSString *trailingCaption; // @synthesize trailingCaption=_trailingCaption;
-@property(copy, nonatomic) NSString *trailingSubcaption; // @synthesize trailingSubcaption=_trailingSubcaption;
 
 @end
 

@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedCollection, NSArray, NSDictionary, NSIndexPath, NSString;
+@class MPSectionedCollection;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerResponseTracklistDisplayDataSource
 {
     MPSectionedCollection *_items;
-    NSIndexPath *_playingItemIndexPath;
-    NSArray *_sections;
-    NSDictionary *_sectionRanges;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)E;
+- (id)i;
 - (id);
 - (id);
 - (id);
@@ -29,17 +26,7 @@ __attribute__((visibility("hidden")))
 - (void){public}@] _addPlaybackContext:| setting suggested start item on edit [first data source loaded] suggestedContentItemIDForStart=%{public}@ edit=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MPSectionedCollection *items; // @synthesize items=_items;
-@property(readonly, copy, nonatomic) NSIndexPath *playingItemIndexPath; // @synthesize playingItemIndexPath=_playingItemIndexPath;
-@property(readonly, nonatomic) NSDictionary *sectionRanges; // @synthesize sectionRanges=_sectionRanges;
-@property(readonly, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly) Class superclass;
 
 @end
 

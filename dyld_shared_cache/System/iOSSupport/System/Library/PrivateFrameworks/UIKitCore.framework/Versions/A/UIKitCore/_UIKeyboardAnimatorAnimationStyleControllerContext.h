@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIInputViewSetPlacement, UIView;
+@class UIView;
 @protocol UIInputViewAnimationHost;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardAnimatorAnimationStyleControllerContext
 {
     id <UIInputViewAnimationHost> _host;
-    UIInputViewSetPlacement *_start;
-    UIInputViewSetPlacement *_end;
-    struct CGRect _startFrame;
-    struct CGRect _endFrame;
-    _Bool _hidden;
 }
 
 - (struct CGRect);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)senderRegistrationProperties;
+- (id)tifier:(id)arg1 options:(id)arg2 completionHandler:(id)arg3;
+- (id)_determineResultMessageForInput:output:original: /* Error: Ran out of types for this method. */;
 - (void)CS¾7So17UITraitCollectionCACIeyByyyya_;
 - (void);
 - (struct CGRect)¤¦^;
@@ -29,16 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIView *animatingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect endFrame; // @synthesize endFrame=_endFrame;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inputViewsHidden; // @synthesize inputViewsHidden=_hidden;
-@property(readonly, nonatomic) struct CGRect startFrame; // @synthesize startFrame=_startFrame;
-@property(readonly) Class superclass;
 
 @end
 

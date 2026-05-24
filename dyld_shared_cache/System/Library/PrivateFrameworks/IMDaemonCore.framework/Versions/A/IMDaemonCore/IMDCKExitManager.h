@@ -6,20 +6,11 @@
 
 #import <IMDaemonCore/IMDCKAbstractSyncController.h>
 
-@class CKRecordID, IMDCKDatabaseManager, IMDRecordZoneManager, NSDate, NSError, NSNumber, NSObject;
-@protocol OS_dispatch_queue;
+@class CKRecordID;
 
 @interface IMDCKExitManager : IMDCKAbstractSyncController
 {
     _Bool _fetchedExitDateOnLaunch;
-    NSDate *_exitRecordDate;
-    NSError *_errorFetchingExitDate;
-    CKRecordID *_exitRecordID;
-    NSNumber *_saltZoneCreatedOverride;
-    NSNumber *_subscriptionCreatedOverride;
-    NSObject<OS_dispatch_queue> *_ckQueue;
-    IMDRecordZoneManager *_recordZoneManager;
-    IMDCKDatabaseManager *_databaseManager;
 }
 
 + (id)%hhu;
@@ -43,9 +34,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)BMPOICategoryStream;
 - (id);
-- (_Bool);
+- (_Bool)pg_query.CreatePolicyStmt;
 - (void);
 - (void);
 - (void);
@@ -59,16 +50,16 @@
 - (id);
 - (void);
 - (long long);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)ty;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void):(id)arg1;
-- (void)Chat;
+- (void)_oscarChat;
 - (_Bool)	
 ;
 - (void)ÈHÐhÐ°¡ ©(¯(´lµt·ð·	¹`ºüº
@@ -76,15 +67,7 @@
 - (void)¬<Ü;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
-@property(retain, nonatomic) IMDCKDatabaseManager *databaseManager; // @synthesize databaseManager=_databaseManager;
-@property(retain, nonatomic) NSError *errorFetchingExitDate; // @synthesize errorFetchingExitDate=_errorFetchingExitDate;
-@property(retain, nonatomic) NSDate *exitRecordDate; // @synthesize exitRecordDate=_exitRecordDate;
 @property(retain, nonatomic) CKRecordID *exitRecordID; // @synthesize exitRecordID=_exitRecordID;
-@property(nonatomic) _Bool fetchedExitDateOnLaunch; // @synthesize fetchedExitDateOnLaunch=_fetchedExitDateOnLaunch;
-@property(retain, nonatomic) IMDRecordZoneManager *recordZoneManager; // @synthesize recordZoneManager=_recordZoneManager;
-@property(retain, nonatomic) NSNumber *saltZoneCreatedOverride; // @synthesize saltZoneCreatedOverride=_saltZoneCreatedOverride;
-@property(retain, nonatomic) NSNumber *subscriptionCreatedOverride; // @synthesize subscriptionCreatedOverride=_subscriptionCreatedOverride;
 
 @end
 

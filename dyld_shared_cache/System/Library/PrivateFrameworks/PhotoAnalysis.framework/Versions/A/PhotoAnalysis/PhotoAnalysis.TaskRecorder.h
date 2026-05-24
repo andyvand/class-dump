@@ -7,13 +7,6 @@
 @interface PhotoAnalysis.TaskRecorder
 {
     id $defaultActor;
-    id libraryScopedPreferencesURL;
-    id photoLibrary;
-    id analytics;
-    id logger;
-    id $__lazy_storage_$_taskRecords;
-    id $__lazy_storage_$_encoder;
-    id $__lazy_storage_$_decoder;
 }
 
 @end

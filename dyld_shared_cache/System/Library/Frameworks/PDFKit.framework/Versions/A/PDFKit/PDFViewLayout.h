@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFDocument, PDFViewLayoutPrivate;
+@class PDFViewLayoutPrivate;
 
 @interface PDFViewLayout
 {
@@ -14,7 +14,7 @@
 - (id);
 - (struct _NSRange);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -26,9 +26,9 @@
 - (const struct CGRect *);
 - (struct CGRect);
 - (struct CGSize);
-- (struct CGRect);
+- (struct CGRect)!;
 - (id);
-- (id);
+- (id)ath = 'CloudAssets');
 - (void);
 - (void);
 - (id);
@@ -36,7 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id delegate;
-@property(nonatomic) __weak PDFDocument *document;
 
 @end
 

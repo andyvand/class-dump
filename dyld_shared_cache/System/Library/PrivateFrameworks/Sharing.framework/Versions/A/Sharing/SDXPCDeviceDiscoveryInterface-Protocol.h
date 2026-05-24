@@ -5,5 +5,6 @@
 //
 
 @protocol SDXPCDeviceDiscoveryInterface
+- (void);
 @end
 

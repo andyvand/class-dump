@@ -7,7 +7,6 @@
 @interface Accelerate.BNNS.RandomGeneratorState
 {
     id stateSize;
-    id state;
 }
 
 @end

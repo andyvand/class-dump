@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSString;
+@class INPerson;
 
 @protocol INShowPersonInteractionsIntentExport
 - (void)T@"NSString",C,N,V_reactionDescription;
 
 // Remaining properties
-@property(copy) NSString *focusItemIdentifier;
 @property(copy) INPerson *person;
 @end
 

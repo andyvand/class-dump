@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ICCollaborationColorManager
 {
     NSMutableDictionary *_userIDToColorsDict;
-    NSMutableArray *_colorUsageCounts;
-    unsigned long long _colorUsageCountMinimum;
 }
 
 + (id);
-+ (id);
++ (id),V_subscribeUnsubscribeSurfaceReason;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void)dataFileURL;
+- (id);
+- (void)_dataFileURL;
 
 // Remaining properties
-@property(nonatomic) unsigned long long colorUsageCountMinimum; // @synthesize colorUsageCountMinimum=_colorUsageCountMinimum;
-@property(retain, nonatomic) NSMutableArray *colorUsageCounts; // @synthesize colorUsageCounts=_colorUsageCounts;
 @property(retain, nonatomic) NSMutableDictionary *userIDToColorsDict; // @synthesize userIDToColorsDict=_userIDToColorsDict;
 
 @end

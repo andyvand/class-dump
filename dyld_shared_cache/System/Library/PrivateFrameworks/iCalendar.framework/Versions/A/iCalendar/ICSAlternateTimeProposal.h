@@ -17,14 +17,13 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)K;
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) ICSDateTimeValue *startDate;
-@property(nonatomic) int status;
 
 @end
 

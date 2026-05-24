@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface TITypingSessionParams
 {
     NSArray *_activeInputModes;
-    NSString *_wordSeparator;
-    NSDictionary *_testingParameters;
-    long long _assetAvailabilityStatus;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)collectionView:canDragItemsAtIndexes:withEvent: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *activeInputModes; // @synthesize activeInputModes=_activeInputModes;
-@property(readonly, nonatomic) long long assetAvailabilityStatus; // @synthesize assetAvailabilityStatus=_assetAvailabilityStatus;
-@property(readonly, nonatomic) NSDictionary *testingParameters; // @synthesize testingParameters=_testingParameters;
-@property(readonly, nonatomic) NSString *wordSeparator; // @synthesize wordSeparator=_wordSeparator;
 
 @end
 

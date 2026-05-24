@@ -9,8 +9,6 @@
 @interface HMFPromise
 {
     HMFAsyncFuture *_future;
-    CDUnknownBlockType _completion;
-    struct atomic_flag _resolved;
 }
 
 - (void);
@@ -19,14 +17,12 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)bit set in trigger:%lX /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType errorOnlyResolverBlock;
 @property(readonly, copy) CDUnknownBlockType resolverBlock;
-@property(readonly, copy) CDUnknownBlockType voidResolverBlock;
 
 @end
 

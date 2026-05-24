@@ -11,7 +11,6 @@
 @interface CXXPCProvider : CXProvider
 {
     int _notifyToken;
-    NSXPCConnection *_connection;
 }
 
 - (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface AXPidSuspensionInfo
 {
     NSMutableDictionary *_suspendsPids;
-    NSMutableDictionary *_probationPids;
-    NSMutableDictionary *_tentativeSuspendedPids;
-    NSMutableDictionary *_associatedRemotePidCache;
-    NSMutableDictionary *_associatedRemotePids;
 }
 
 + (id);

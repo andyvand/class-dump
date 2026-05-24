@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@9(;
 - (unsigned long long);
 - (void);
 - (id);
@@ -34,7 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) unsigned long long countOfActions;
 
 @end
 

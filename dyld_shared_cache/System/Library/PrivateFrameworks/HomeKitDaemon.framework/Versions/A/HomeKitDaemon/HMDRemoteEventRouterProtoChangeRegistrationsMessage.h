@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoChangeRegistrationsMessage
 {
     NSMutableArray *_topicAdditions;
-    NSMutableArray *_topicFilterAdditions;
-    NSMutableArray *_topicFilterRemovals;
-    NSMutableArray *_topicRemovals;
 }
 
 + (Class);
-+ (Class);
-+ (Class);
-+ (Class);
++ (Class);
++ (Class)sceneAnalysisProgressForHighlight: /* Error: Ran out of types for this method. */;
++ (Class)savePersistentStore;
 - (unsigned long long);
 - (id);
 - (id);
@@ -27,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)oK;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)__objc_dictobj;
 - (id);
 - (unsigned long long);
 - (id);
@@ -51,15 +48,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)!Gùq°1Â0@ù
 × ;
-- (id)essage:(struct _NSZone *)arg1;
+- (id)locallyHandleUpdateAssociatedGroupIdentifierRequestMessage:(struct _NSZone *)arg1;
 - (id)accessCode;
 - (void)eventcounters-datastore;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *topicAdditions; // @synthesize topicAdditions=_topicAdditions;
 @property(retain, nonatomic) NSMutableArray *topicFilterAdditions; // @synthesize topicFilterAdditions=_topicFilterAdditions;
-@property(retain, nonatomic) NSMutableArray *topicFilterRemovals; // @synthesize topicFilterRemovals=_topicFilterRemovals;
-@property(retain, nonatomic) NSMutableArray *topicRemovals; // @synthesize topicRemovals=_topicRemovals;
 
 @end
 

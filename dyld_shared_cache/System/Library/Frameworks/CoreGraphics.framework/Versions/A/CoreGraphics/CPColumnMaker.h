@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPZone, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CPColumnMaker
 {
     NSMutableArray *columns;
-    CPZone *currentZone;
-    NSMutableArray *allParagraphs;
-    NSMutableArray *thinHorizontalShapes;
-    NSMutableArray *otherShapes;
-    NSMutableArray *images;
-    NSMutableArray *paragraphWrappers;
-    struct CGRect pageBounds;
-    double maxParagraphDistance;
 }
 
 - (void);
@@ -32,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -41,8 +33,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (struct CGRect);
-- (void);
-- (id);
+- (void)ffer;
+- (id)c;
 - (id)ù;
 
 // Remaining properties

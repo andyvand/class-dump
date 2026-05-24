@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, CADisplayLink, NSData, NSDictionary, NSString, NSThread, RBDevice, RBDisplayList, RBDisplayListInterpolator, RBImageQueueContents, RBImageQueueLayer, RBLayerGroup, RBShaderLibrary, RBSurfaceContentsLayer, RBSymbolAnimator;
+@class NSString, NSThread, RBDisplayList, RBDisplayListInterpolator, RBImageQueueContents, RBShaderLibrary, RBSymbolAnimator;
 
 #pragma mark Function Pointers and Blocks
 
@@ -36,56 +36,38 @@ struct Animator {
     float _max_edge_velocity;
 };
 
-struct Bounds {
-    id origin__size;
-};
-
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
-
-struct CGImage;
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CGVector {
-    double dx;
-    double dy;
-};
-
-struct Closure {
-    struct refcounted_ptr<const RB::CustomShader::Function> function;
-    struct vector<RB::CustomShader::Value, 4UL, unsigned long> args;
-    struct objc_ptr<id> cifilter_provider;
-};
-
-struct CommitMarker {
-    struct refcounted_ptr<RB::CommitMarker::Observer> _observer;
+    double _field1;
+    double _field2;
 };
 
 struct Contents;
 
 struct Device;
-
-struct Document;
 
 struct Drawable;
 
@@ -105,26 +87,6 @@ struct Effects {
 
 struct FontSet;
 
-struct Function;
-
-struct InlineHeap<256UL> {
-    unsigned long long _page_size;
-    struct Page *_pages;
-    char *_sbrk;
-    char *_sbrk_end;
-    struct ObjectTable *_objects;
-    unsigned char _buffer[256];
-};
-
-struct InlineHeap<64UL> {
-    unsigned long long _page_size;
-    struct Page *_pages;
-    char *_sbrk;
-    char *_sbrk_end;
-    struct ObjectTable *_objects;
-    unsigned char _buffer[64];
-};
-
 struct InvertiblePredicate {
     struct Predicate predicate;
     _Bool inverts_result;
@@ -135,12 +97,6 @@ struct Library;
 struct Model;
 
 struct Object;
-
-struct ObjectTable;
-
-struct Observer;
-
-struct Page;
 
 struct Predicate {
     struct vector<RB::DisplayList::Predicate::Term, 1UL, unsigned int> _terms;
@@ -163,23 +119,7 @@ struct RBShapeData {
     unsigned char data[88];
 };
 
-struct SharedSubsurface {
-    struct SharedSurface *_surface;
-    struct objc_ptr<CAContext *> _origin___size___context;
-    struct CommitMarker _commit_marker;
-    unsigned int _serial;
-    _Bool _has_border;
-};
-
-struct SharedSurface;
-
-struct SharedSurfaceClient;
-
-struct Surface;
-
 struct Term;
-
-struct Texture;
 
 struct Transform {
     struct vector<RB::DisplayList::Transform::Term, 1UL, unsigned int> _terms;
@@ -187,25 +127,7 @@ struct Transform {
 
 struct Transition;
 
-struct Value;
-
 struct _CAImageQueue;
-
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
-struct atomic<unsigned int> {
-    struct __cxx_atomic_impl<unsigned int, std::__cxx_atomic_base_impl<unsigned int>> {
-        _Atomic unsigned int __a_value;
-    } __a_;
-};
-
-struct cf_ptr<CGImage *> {
-    struct CGImage *_p;
-};
 
 struct cf_ptr<_CAImageQueue *> {
     struct _CAImageQueue *_p;
@@ -215,28 +137,8 @@ struct cf_ptr<__IOSurface *> {
     struct __IOSurface *_p;
 };
 
-struct cf_ptr<const __CFDictionary *> {
-    struct __CFDictionary *_p;
-};
-
 struct cf_ptr<const __CFString *> {
     struct __CFString *_p;
-};
-
-struct objc_ptr<CAContext *> {
-    CAContext *_p;
-};
-
-struct objc_ptr<CADisplayLink *> {
-    CADisplayLink *_p;
-};
-
-struct objc_ptr<NSData *> {
-    NSData *_p;
-};
-
-struct objc_ptr<NSDictionary *> {
-    NSDictionary *_p;
 };
 
 struct objc_ptr<NSString *> {
@@ -245,14 +147,6 @@ struct objc_ptr<NSString *> {
 
 struct objc_ptr<NSThread *> {
     NSThread *_p;
-};
-
-struct objc_ptr<RBColor (^)(RBSymbolStyle, NSString *)> {
-    CDUnknownBlockType _p;
-};
-
-struct objc_ptr<RBDevice *> {
-    RBDevice *_p;
 };
 
 struct objc_ptr<RBDisplayList *> {
@@ -267,80 +161,16 @@ struct objc_ptr<RBImageQueueContents *> {
     RBImageQueueContents *_p;
 };
 
-struct objc_ptr<RBImageQueueLayer *> {
-    RBImageQueueLayer *_p;
-};
-
-struct objc_ptr<RBLayerGroup *> {
-    RBLayerGroup *_p;
-};
-
 struct objc_ptr<RBShaderLibrary *> {
     RBShaderLibrary *_p;
-};
-
-struct objc_ptr<RBSurfaceContentsLayer *> {
-    RBSurfaceContentsLayer *_p;
 };
 
 struct objc_ptr<RBSymbolAnimator *> {
     RBSymbolAnimator *_p;
 };
 
-struct objc_ptr<bool (^)(RBFill *, CGRect, RBSymbolStyle, NSString *)> {
-    CDUnknownBlockType _p;
-};
-
-struct objc_ptr<id<MTLDevice>> {
-    id _p;
-};
-
-struct objc_ptr<id<MTLEvent>> {
-    id _p;
-};
-
-struct objc_ptr<id<MTLTexture>> {
-    id _p;
-};
-
-struct objc_ptr<id<RBDisplayListContents>> {
-    id _p;
-};
-
-struct objc_ptr<id<_RBDisplayListContents>> {
-    id _p;
-};
-
-struct objc_ptr<id> {
-    id _p;
-};
-
-struct objc_ptr<void (^)()> {
-    CDUnknownBlockType _p;
-};
-
-struct objc_ptr<void (^)(NSError *)> {
-    CDUnknownBlockType _p;
-};
-
-struct objc_ptr<void (^)(_RBDrawingState *, unsigned long)> {
-    CDUnknownBlockType _p;
-};
-
-struct optional<unsigned char> {
-    union {
-        char __null_state_;
-        unsigned char __val_;
-    } ;
-    _Bool __engaged_;
-};
-
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct refcounted_ptr<RB::CommitMarker::Observer> {
-    struct Observer *_p;
 };
 
 struct refcounted_ptr<RB::CustomShader::Library> {
@@ -363,28 +193,12 @@ struct refcounted_ptr<RB::Encoder::FontSet> {
     struct FontSet *_p;
 };
 
-struct refcounted_ptr<RB::SharedSurfaceClient> {
-    struct SharedSurfaceClient *_p;
-};
-
-struct refcounted_ptr<RB::Surface> {
-    struct Surface *_p;
-};
-
 struct refcounted_ptr<RB::Symbol::Model> {
     struct Model *_p;
 };
 
-struct refcounted_ptr<RB::Texture> {
-    struct Texture *_p;
-};
-
 struct refcounted_ptr<RB::Transition> {
     struct Transition *_p;
-};
-
-struct refcounted_ptr<const RB::CustomShader::Function> {
-    struct Function *_p;
 };
 
 struct refcounted_ptr<const RB::DisplayList::Interpolator::Object> {
@@ -395,36 +209,11 @@ struct spin_lock {
     struct os_unfair_lock_s _lock;
 };
 
-struct unique_ptr<CGAffineTransform, std::default_delete<CGAffineTransform>> {
-    struct {
-        struct CGAffineTransform *__ptr_;
-    } ;
-};
-
-struct unique_ptr<RB::XML::Document, std::default_delete<RB::XML::Document>> {
-    struct {
-        struct Document *__ptr_;
-    } ;
-};
-
-struct unique_ptr<void, (anonymous namespace)::RenderUnref> {
-    struct {
-        void *__ptr_;
-    } ;
-};
-
 struct vector<RB::Animation::TermOrArg, 6UL, unsigned int> {
     unsigned char _p[24];
     union TermOrArg *_p;
     unsigned int _size;
     unsigned int _capacity;
-};
-
-struct vector<RB::CustomShader::Value, 4UL, unsigned long> {
-    unsigned char _p[128];
-    struct Value *_p;
-    unsigned long long _size;
-    unsigned long long _capacity;
 };
 
 struct vector<RB::DisplayList::Predicate::Term, 1UL, unsigned int> {
@@ -460,30 +249,6 @@ struct vector<RBStrokeElement, 0UL, unsigned long> {
     unsigned long long _capacity;
 };
 
-struct vector<float, 0UL, unsigned long> {
-    float *_p;
-    unsigned long long _size;
-    unsigned long long _capacity;
-};
-
-struct vector<id<RBSymbolAnimatorObserver>, 2UL, unsigned int> {
-    unsigned char _p[16];
-    id *_p;
-    unsigned int _size;
-    unsigned int _capacity;
-};
-
-struct vector<std::pair<RB::cf_ptr<CGContext *>, RB::ContextDelegate *>, 1UL, unsigned int> {
-    unsigned char _p[16];
-    void *_p;
-    unsigned int _size;
-    unsigned int _capacity;
-};
-
-struct weak_objc_ptr<id<RBDrawableDelegate>> {
-    id _p;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -495,17 +260,17 @@ typedef struct {
 } CDStruct_d420724a;
 
 typedef struct {
-    unsigned long long x;
-    unsigned long long y;
-    unsigned long long width;
-    unsigned long long height;
-} CDStruct_5f3a0cd7;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+} CDStruct_33dcf794;
 
 typedef struct {
-    unsigned long long x;
-    unsigned long long y;
-    unsigned long long z;
-} CDStruct_67e7699a;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
 
 typedef struct {
     unsigned char _field1[16];
@@ -519,11 +284,11 @@ typedef struct {
 } CDStruct_d2b197d1;
 
 typedef struct {
-    float red;
-    float green;
-    float blue;
-    float alpha;
-} CDStruct_0b1c536a;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+} CDStruct_818bb265;
 
 typedef struct {
     float _field1;
@@ -537,17 +302,11 @@ typedef struct {
 } CDStruct_27041886;
 
 typedef struct {
-    struct CGVector scale;
-    struct CGVector translation;
-} CDStruct_cb0563aa;
+    struct CGVector _field1;
+    struct CGVector _field2;
+} CDStruct_7281bdf6;
 
 #pragma mark Named Unions
-
-union EffectOrArg {
-    struct Effect effect;
-    float arg;
-    unsigned int int_arg;
-};
 
 union TermOrArg;
 

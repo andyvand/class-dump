@@ -5,5 +5,8 @@
 //
 
 @protocol AVCaptureMetadataOutputObjectsDelegate
+
+@optional
+- (void)tributes;
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface FCFeedPrewarmResult
 {
     NSArray *_successfulRequests;
-    NSArray *_failedRequests;
-    NSArray *_networkEvents;
 }
 
 - (id);
@@ -21,9 +19,6 @@
 - (void)UserEventHistoryStorage removeObserver:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *failedRequests; // @synthesize failedRequests=_failedRequests;
-@property(readonly, nonatomic) NSSet *feedIDs;
-@property(readonly, nonatomic) NSArray *networkEvents; // @synthesize networkEvents=_networkEvents;
 @property(readonly, nonatomic) NSArray *successfulRequests; // @synthesize successfulRequests=_successfulRequests;
 
 @end

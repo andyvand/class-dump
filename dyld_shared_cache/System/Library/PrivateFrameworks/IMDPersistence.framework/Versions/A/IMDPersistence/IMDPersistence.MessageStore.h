@@ -7,9 +7,6 @@
 @interface IMDPersistence.MessageStore
 {
     id identifier;
-    id schema;
-    id configuration;
-    id recordIdentifierByPersistentIdentifier;
 }
 
 @end

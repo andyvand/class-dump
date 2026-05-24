@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (oneway void);
-- (id);
+- (id)0:8@"UNOneTimeCode"16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 

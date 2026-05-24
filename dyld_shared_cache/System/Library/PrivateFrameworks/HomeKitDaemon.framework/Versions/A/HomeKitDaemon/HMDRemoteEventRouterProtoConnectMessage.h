@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMEProtoEventInfo, NSMutableArray;
+@class HMEProtoEventInfo;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoConnectMessage
 {
     HMEProtoEventInfo *_connectEvent;
-    unsigned int _routerVersion;
-    NSMutableArray *_topicAdditions;
-    NSMutableArray *_topicFilterAdditions;
-    HMEProtoEventInfo *_unregisterEvent;
-    struct {
-        unsigned int routerVersion:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class)scannerWithString: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -30,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
+- (_Bool)capabilities;
+- (_Bool)ityFetchingQueue _scheduleBatchDelayTimerWithInterval:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -45,25 +38,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)$;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)dUpdateLocations:(struct _NSZone *)arg1;
+- (id)locationManager:(struct _NSZone *)arg1 didUpdateLocations: /* Error: Ran out of types for this method. */;
 - (id)isioning;
 - (void)WiFi network and try again;
 
 // Remaining properties
-@property(retain, nonatomic) HMEProtoEventInfo *connectEvent; // @synthesize connectEvent=_connectEvent;
-@property(readonly, nonatomic) _Bool hasConnectEvent;
 @property(nonatomic) _Bool hasRouterVersion;
-@property(readonly, nonatomic) _Bool hasUnregisterEvent;
-@property(nonatomic) unsigned int routerVersion; // @synthesize routerVersion=_routerVersion;
-@property(retain, nonatomic) NSMutableArray *topicAdditions; // @synthesize topicAdditions=_topicAdditions;
-@property(retain, nonatomic) NSMutableArray *topicFilterAdditions; // @synthesize topicFilterAdditions=_topicFilterAdditions;
-@property(retain, nonatomic) HMEProtoEventInfo *unregisterEvent; // @synthesize unregisterEvent=_unregisterEvent;
 
 @end
 

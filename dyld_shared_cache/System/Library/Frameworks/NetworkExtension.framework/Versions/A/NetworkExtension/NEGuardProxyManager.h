@@ -17,9 +17,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (void);
-- (void)ciationParametersArray: /* Error: Ran out of types for this method. */;
+- (void)setIKESecurityAssociationParametersArray: /* Error: Ran out of types for this method. */;
 
 @end
 

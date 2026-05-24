@@ -7,7 +7,6 @@
 @interface NewsUI2.ClearUserDataManager
 {
     id clearDataManager;
-    id commandCenter;
 }
 
 @end

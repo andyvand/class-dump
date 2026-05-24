@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PMLDiffPrivacyNoiseStrategy
 {
     unsigned long long _seed;
-    _Bool _inplaceNorm;
-    int _maxIterations;
-    float _minimumMagnitude;
-    CDStruct_cd4a7bf5 _noiseScaleFactors;
-    long long _noiseMechanism;
 }
 
 + (id);
@@ -22,7 +15,7 @@
 - (void);
 - (_Bool);
 - (struct _PMLPreNoiseScaleFactorAndNoiseSampler);
-- (CDStruct_cd4a7bf5);
+- (CDStruct_b2fbf00d);
 - (long long);
 - (float);
 - (id);
@@ -33,19 +26,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)tokenUnregistrationResponse;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float minimumMagnitude; // @synthesize minimumMagnitude=_minimumMagnitude;
-@property(nonatomic) long long noiseMechanism; // @synthesize noiseMechanism=_noiseMechanism;
-@property(nonatomic) CDStruct_cd4a7bf5 noiseScaleFactors; // @synthesize noiseScaleFactors=_noiseScaleFactors;
-@property(readonly) Class superclass;
+@property(nonatomic) CDStruct_b2fbf00d noiseScaleFactors; // @synthesize noiseScaleFactors=_noiseScaleFactors;
 
 @end
 

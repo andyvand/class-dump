@@ -7,11 +7,6 @@
 @interface NewsFeed.FeaturePromotionConfigFetcher
 {
     id $defaultActor;
-    id appConfigurationManager;
-    id resourceService;
-    id _lastConfigFetchDate;
-    id _lastConfigResourceID;
-    id featurePromotionConfiguration;
 }
 
 @end

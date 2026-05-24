@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODDSiriSchemaODDDeviceSegmentsReported : SISchemaInstrumentationMessage
 {
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ion failure;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,7 +33,6 @@
 - (void).siriVocabularySpanData.priorScore;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *segments; // @synthesize segments=_segments;
 
 @end

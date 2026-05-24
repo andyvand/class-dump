@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _UISceneEventResponse
 {
     _UISceneEventResponse *_next;
-    CDUnknownBlockType _block;
-    _Bool _transactionCleared;
 }
 
-- (void)lper;
+- (void)NavigationBarLargeTitleReparentingHelper;
 - (id)Ø©[;
 
 @end

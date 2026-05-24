@@ -6,28 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCKContentDatabase, FCEdgeCacheHint, FCThreadSafeMutableArray, FCThreadSafeMutableSet, NSArray, NSDictionary;
-
 @interface FCCKBatchedMultiFetchQueryOperation : FCOperation
 {
     _Bool _ignoreCache;
-    int _networkEventType;
-    FCCKContentDatabase *_database;
-    NSArray *_recordIDs;
-    NSArray *_recordSpecs;
-    unsigned long long _maxBatchSize;
-    unsigned long long _maxParallelBatches;
-    NSDictionary *_knownRecordIDsToEtags;
-    FCEdgeCacheHint *_edgeCacheHint;
-    long long _optimizationPolicy;
-    CDUnknownBlockType _networkActivityBlock;
-    CDUnknownBlockType _recordHandler;
-    CDUnknownBlockType _batchCompletionHandler;
-    CDUnknownBlockType _queryCompletionHandler;
-    FCThreadSafeMutableArray *_remainingRecordIDBatches;
-    FCThreadSafeMutableSet *_resultMissingRecordIDs;
-    FCThreadSafeMutableArray *_allErrors;
-    FCThreadSafeMutableArray *_allNetworkEvents;
 }
 
 - (id);

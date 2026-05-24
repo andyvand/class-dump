@@ -9,7 +9,6 @@
 @interface RBSEndowmentTree
 {
     NSMutableDictionary *_tree;
-    NSString *_endowmentNamespace;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -27,14 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *endowmentNamespace; // @synthesize endowmentNamespace=_endowmentNamespace;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

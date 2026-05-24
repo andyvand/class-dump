@@ -5,5 +5,6 @@
 //
 
 @protocol _NSUndoManagerAuxiliaryInterface
+- (void);
 @end
 

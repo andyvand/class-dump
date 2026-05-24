@@ -14,8 +14,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setOutputContext:(id)arg1;
+- (void)Pg;
 - (int);
 
 // Remaining properties

@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserImmediateActionGestureRecognizerDelegate, FI_TTableViewShrinkToFitController, NSImmediateActionGestureRecognizer, NSObject, NSString, NSTrackingArea;
-@protocol TListViewDelegate, TableView_Common_Delegate;
+@class NSObject;
+@protocol TListViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FI_TListView
 {
     struct unordered_map<TFENode, TOrderedSet<TFENode>, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, TOrderedSet<TFENode>>>> _parentToChildrenInTableMap;
-    _Bool _itemHitOnMouseDown;
-    FI_TTableViewShrinkToFitController *_stfController;
-    NSTrackingArea *_headerTrackingArea;
-    struct TFENode _currentDropNode;
-    _Bool _shouldAutoResizeColumns;
-    _Bool _safeAreaRectGreaterThanLastColumn;
-    long long _lastVisibleColumnIndex;
-    FI_TBrowserImmediateActionGestureRecognizerDelegate *_immediateActionGestureRecognizerDelegate;
-    NSImmediateActionGestureRecognizer *_quickLookImmediateActionGestureRecognizer;
-    NSImmediateActionGestureRecognizer *_renameImmediateActionGestureRecognizer;
-    struct TNotificationCenterObserver _clipViewBoundsChangedObserver;
-    struct TKeyValueObserver _delegateTornDownObserver;
-    _Bool _isAutoSizingColumns;
-    long long _disabledTrackingRow;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)@@y	?%@qa;
+- (_Bool)M9;
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (pair_b499046c);
+- (pair_5f6a4f40);
 - (const struct TFENode *);
 - (id);
 - (void);
@@ -60,12 +46,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id)qa;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)FX9;
 - (void);
 - (struct TFENode);
 - (_Bool);
@@ -93,55 +79,43 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)showTimeSensitiveImage;
+- (_Bool)selectionModel:(id)arg1 isItemIDExpandedThread: /* Error: Ran out of types for this method. */;
+- (_Bool)dataWithContentsOfURL:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)accessibilityMain;
+- (_Bool)_blocksToPerformAfterDidLoadMainFrame;
+- (void)collection:(long long)arg1 addedItemIDs:(double)arg2 before: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (long long)%{BOOL}d, animated:(long long)arg1 %{BOOL}d;
+- (void)loadErrorForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&n.handleDownloadError(e)},MUIWebDocumentDisplayController.prototype.startDownloadForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&(n.currentNode.setAttribute("subtitle",e),n.currentNode.setAttribute("progress",.01),n.currentNode.style.opacity=1)},MUIWebDocumentDisplayController.prototype.handleDownloadFinishedForContentID=function(t){var e=this.attachmentControllerForContentID(t);e&&e.downloadFinished()},MUIWebDocumentDisplayController.prototype.setDisplayStateForContentID=function(t,e){var n=this.attachmentControllerForContentID(t);n&&n.setDisplayState(e)},MUIWebDocumentDisplayController.prototype.convertToInlineImage=function(t){var e=this.attachmentControllerForContentID(t);e&&e.convertToInlineImage()},MUIWebDocumentDisplayController.prototype.selectedAttachmentControllerNodes=function(){var t=[],e=document.getSelection();if(e.rangeCount){var n=e.getRangeAt(0);this.attachmentControllers.forEach(function(e){n.isPointInRange(e.currentNode,0)&&t.push(e.currentNode)})}return t},MUIWebDocumentDisplayController.prototype.anchorYPosition=function(t){var e=document.getElementById(t);if(!e){var n=document.getElementsByName(t);n.length>0&&(e=n[0])}return e.getBoundingClientRect().top},MUIWebDocumentDisplayController.prototype.addLink=function(t){t&&t.length&&(t=encodeURI(t),document.execCommand("CreateLink",!1,t))},MUIWebDocumentDisplayController.prototype.removeLink=function(){document.execCommand("Unlink",!1,!1)};var MUIWebDocumentDisplayController_sharedInstance=new MUIWebDocumentDisplayController;;
+- (_Bool)MUIMessageListGroupedSenderSectionDataSource.m;
 - (void);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)ion";
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void)¼;
-- (void)C;
+- (void)4C;
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) struct TFENode currentDropNode; // @synthesize currentDropNode=_currentDropNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak NSObject<TListViewDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long disabledTrackingRow; // @synthesize disabledTrackingRow=_disabledTrackingRow;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAutoSizingColumns; // @synthesize isAutoSizingColumns=_isAutoSizingColumns;
-@property(readonly, nonatomic) FI_TTableViewShrinkToFitController *stfEditorController;
-@property(readonly) Class superclass;
-@property(readonly) __weak NSObject<TableView_Common_Delegate> *tvcDelegate;
 
 @end
 

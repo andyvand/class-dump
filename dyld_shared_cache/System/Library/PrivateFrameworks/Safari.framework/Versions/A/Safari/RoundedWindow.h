@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface RoundedWindow
 {
     NSView *_backdropView;
-    NSImage *_cornerMaskImage;
-    double _cornerRadius;
 }
 
 + (_Bool);

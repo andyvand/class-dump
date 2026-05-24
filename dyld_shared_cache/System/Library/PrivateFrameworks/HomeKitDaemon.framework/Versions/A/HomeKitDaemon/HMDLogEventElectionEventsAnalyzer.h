@@ -6,19 +6,16 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCounterGroup;
-
 __attribute__((visibility("hidden")))
 @interface HMDLogEventElectionEventsAnalyzer : HMDLogEventAnalyzer
 {
     _Bool _isCurrentDeviceInSecondaryResidentCoordinationMesh;
-    HMDEventCounterGroup *_counterGroup;
 }
 
 + (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)key? %s in this dict? %s;
 - (void);
 - (void)@Failed to validate maximum brightness transitions points dictionary;
 - (id)%@;
@@ -27,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)$ ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDEventCounterGroup *counterGroup; // @synthesize counterGroup=_counterGroup;
 @property _Bool isCurrentDeviceInSecondaryResidentCoordinationMesh; // @synthesize isCurrentDeviceInSecondaryResidentCoordinationMesh=_isCurrentDeviceInSecondaryResidentCoordinationMesh;
 
 @end

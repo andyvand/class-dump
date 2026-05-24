@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorColor, NSString;
+@class NSString;
 
 @interface BlastDoorWallpaper_WallpaperMetadata
 {
     id wallpaper_WallpaperMetadata;
 }
 
-- (id);
-- (double);
+- (id)ttachment was not found in the output string.;
+- (double);
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)onary";
 - (id);
 - (double);
 - (id)´8;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorColor *backgroundColor;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorColor *fontColor;
-@property(nonatomic, readonly) NSString *fontName;
-@property(nonatomic, readonly) double fontSize;
-@property(nonatomic, readonly) double fontWeight;
-@property(nonatomic, readonly) _Bool isVertical;
-@property(nonatomic, readonly) long long type;
 
 @end
 

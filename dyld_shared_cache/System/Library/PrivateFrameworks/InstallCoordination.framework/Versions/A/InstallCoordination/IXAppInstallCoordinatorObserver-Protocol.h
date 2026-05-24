@@ -5,5 +5,8 @@
 //
 
 @protocol IXAppInstallCoordinatorObserver
+
+@optional
+- (void);
 @end
 

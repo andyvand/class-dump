@@ -7,23 +7,19 @@
 @interface ICCircleLayer
 {
     double _strokeWidth;
-    struct CGColor *_strokeColor;
-    struct CGColor *_fillColor;
 }
 
 - (void);
 - (struct CGColor *);
-- (struct CGColor *);
+- (struct CGColor *)e;
 - (void);
-- (void);
+- (void)setApplicationElementCallback:(double)arg1;
 - (void);
 - (double)1
 °1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) struct CGColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(retain, nonatomic) struct CGColor *strokeColor; // @synthesize strokeColor=_strokeColor;
 @property double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
 
 @end

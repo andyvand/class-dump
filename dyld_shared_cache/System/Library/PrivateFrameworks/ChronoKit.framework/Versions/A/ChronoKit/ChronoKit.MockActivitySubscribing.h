@@ -7,8 +7,6 @@
 @interface ChronoKit.MockActivitySubscribing
 {
     id descriptors;
-    id _activeStatePublisher;
-    id $__lazy_storage_$_activeStatePublisher;
 }
 
 @end

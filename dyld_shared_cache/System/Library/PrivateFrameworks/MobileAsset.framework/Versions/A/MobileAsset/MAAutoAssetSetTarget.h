@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MAAutoAssetSetTarget
 {
     NSString *_minTargetOSVersion;
-    NSString *_maxTargetOSVersion;
-    NSArray *_autoAssetEntries;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)outerIdentity;
 - (id);
 - (_Bool);
 - (void);
@@ -30,8 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *autoAssetEntries; // @synthesize autoAssetEntries=_autoAssetEntries;
-@property(retain, nonatomic) NSString *maxTargetOSVersion; // @synthesize maxTargetOSVersion=_maxTargetOSVersion;
 @property(retain, nonatomic) NSString *minTargetOSVersion; // @synthesize minTargetOSVersion=_minTargetOSVersion;
 
 @end

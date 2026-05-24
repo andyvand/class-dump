@@ -5,5 +5,7 @@
 //
 
 @protocol ConnectionProtocol
+- (void);
+- (void);
 @end
 

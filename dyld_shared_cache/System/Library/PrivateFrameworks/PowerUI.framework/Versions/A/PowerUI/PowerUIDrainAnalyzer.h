@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUserDefaults;
-@protocol OS_dispatch_queue, OS_os_log, _CDLocalContext;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface PowerUIDrainAnalyzer
 {
     NSObject<OS_os_log> *_log;
-    id <_CDLocalContext> _context;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSUserDefaults *_defaults;
-    long long _minBatteryLevel;
 }
 
 + (id)16@"PowerUITrialManager"24@"<_CDLocalContext>"32;
@@ -42,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) long long minBatteryLevel; // @synthesize minBatteryLevel=_minBatteryLevel;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

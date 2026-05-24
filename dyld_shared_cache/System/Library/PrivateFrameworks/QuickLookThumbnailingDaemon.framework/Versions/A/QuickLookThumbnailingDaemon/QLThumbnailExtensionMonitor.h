@@ -7,16 +7,12 @@
 @interface QLThumbnailExtensionMonitor
 {
     id queryController;
-    id queue;
-    id identitiesByType;
-    id extensionByIdentifier;
-    id matchingExtensionsCache;
 }
 
 + (void);
 + (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);;
 - (id);
 - (void);
 - (id);

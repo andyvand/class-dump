@@ -6,13 +6,12 @@
 
 #import <AVFCore/AVVideoOutputSettings.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVPixelBufferAttributesVideoOutputSettings : AVVideoOutputSettings
 {
     NSDictionary *_VTPixelAspectRatioDictionary;
-    NSDictionary *_VTCleanApertureDictionary;
 }
 
 + (id);
@@ -20,20 +19,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(;
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (int)ing validation message is not permitted:%@ /* Error: Ran out of types for this method. */;
 - (int);
-- (int);
 - (id);
 - (id);
-- (id);
+- (id)ER;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *decompressionProperties;
-@property(readonly, nonatomic) NSString *fieldMode;
 @property(readonly, nonatomic) NSDictionary *pixelBufferAttributes;
 
 @end

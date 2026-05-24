@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKKSControl, NSString, OTControl;
-
 @interface OTConfigurationContext
 {
     _Bool _octagonCapableRecordsExist;
-    _Bool _overrideForSetupAccountScript;
-    _Bool _overrideForJoinAfterRestore;
-    _Bool _isGuitarfish;
-    _Bool _canSendMetrics;
-    _Bool _testsEnabled;
-    int _pdpState;
-    NSString *_context;
-    NSString *_containerName;
-    NSString *_dsid;
-    NSString *_altDSID;
-    NSString *_authenticationAppleID;
-    NSString *_passwordEquivalentToken;
-    long long _escrowFetchSource;
-    NSString *_flowID;
-    NSString *_deviceSessionID;
-    OTControl *_otControl;
-    CKKSControl *_ckksControl;
-    id _sbd;
 }
 
 @end

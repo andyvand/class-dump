@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBundleResource, NSString;
+@class AFBundleResource;
 
 @interface _AFBundleResourceMutation
 {
     AFBundleResource *_base;
-    NSString *_name;
-    NSString *_extension;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasName:1;
-        unsigned int hasExtension:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -24,16 +17,10 @@
 - (_Bool);
 - (void);
 - (id)undleIdentifier:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)inputAssistantID;
+- (void)_inputAssistantID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

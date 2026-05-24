@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface ICMusicRestoreRequestParameters
 {
     NSNumber *_adamID;
-    NSNumber *_accountID;
-    NSNumber *_matchStatus;
-    NSString *_title;
-    NSString *_storeFrontID;
-    NSString *_mediaKind;
-    NSString *_flavor;
 }
 
 - (id);
 - (id);
+- (id)g preboot;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ificationRequest;
+- (void)ICUserVerificationRequest;
 - (id)?0@"ICInAppMessageConfiguration"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *accountID; // @synthesize accountID=_accountID;
 @property(readonly, copy, nonatomic) NSNumber *adamID; // @synthesize adamID=_adamID;
-@property(readonly, copy, nonatomic) NSString *flavor; // @synthesize flavor=_flavor;
-@property(readonly, copy, nonatomic) NSNumber *matchStatus; // @synthesize matchStatus=_matchStatus;
-@property(readonly, copy, nonatomic) NSString *mediaKind; // @synthesize mediaKind=_mediaKind;
-@property(readonly, copy, nonatomic) NSString *storeFrontID; // @synthesize storeFrontID=_storeFrontID;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

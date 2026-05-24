@@ -9,34 +9,25 @@
 @interface INHomeAutomationFromEntity
 {
     NSString *_value;
-    long long _type;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id)setDpadUpValue:(id)arg1;
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)_completionCounter;
+- (void)autoHotspotHotspotNetworkType;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)esolvedPath:(unsigned long long)arg1 accessSpecifier:error: /* Error: Ran out of types for this method. */;
-- (void)rNameOptionsCollectionForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_validateResolvedPath:(unsigned long long)arg1 accessSpecifier:error: /* Error: Ran out of types for this method. */;
+- (void)provideCarNameOptionsCollectionForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ÿw;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
 @property(readonly, copy) NSString *value; // @synthesize value=_value;
 
 @end

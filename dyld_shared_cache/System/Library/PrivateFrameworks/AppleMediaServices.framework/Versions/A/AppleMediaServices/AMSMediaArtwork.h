@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -26,7 +26,7 @@
 - (id);
 - (double);
 - (double);
-- (id)ifier:(id)arg1 account: /* Error: Ran out of types for this method. */;
+- (id)clearFollowUpWithIdentifier:(id)arg1 account: /* Error: Ran out of types for this method. */;
 - (void)@b ÚøºH
 (jÞ¾üLn,;
 - (id)¯Æ3Ìê¯Ý,ÄØWT²{ç¥¯ìH(ÓýÃÞëgÙkî´+A	kM¬ $ÔéÒÿ'ÉZòÍØZÉö-í´6mZê'
@@ -36,7 +36,6 @@
 
 // Remaining properties
 @property(readonly) NSDictionary *artworkDictionary; // @synthesize artworkDictionary=_artworkDictionary;
-@property(readonly) struct CGSize artworkSize;
 
 @end
 

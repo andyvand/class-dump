@@ -12,8 +12,6 @@
 @interface CHTextInputQuery : CHQuery
 {
     NSArray *_availableItems;
-    id <CHTextInputQueryTargetDataSource> _textInputTargetsDataSource;
-    double _totalDuration;
 }
 
 + (id);
@@ -22,15 +20,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)IN %@;
 - (id);
 - (double);
 - (void)Tì";
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *availableItems;
 @property __weak id <CHTextInputQueryTargetDataSource> textInputTargetsDataSource; // @synthesize textInputTargetsDataSource=_textInputTargetsDataSource;
-@property(readonly, nonatomic) double totalDuration;
 
 @end
 

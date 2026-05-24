@@ -7,8 +7,6 @@
 @interface NewsUI2.RecipeBoxFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
 }
 
 @end

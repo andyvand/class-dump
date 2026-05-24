@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.PlaybackHistoryConsumer
 {
     id playbackEngine;
-    id subscription;
 }
 
 + (unsigned int);

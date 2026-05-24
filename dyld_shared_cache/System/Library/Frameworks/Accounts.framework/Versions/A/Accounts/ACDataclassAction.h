@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface ACDataclassAction
 {
     _Bool _isDestructive;
-    long long _type;
-    NSArray *_affectedContainers;
-    NSString *_undoAlertTitle;
-    NSString *_undoAlertMessage;
 }
 
 + (id);
@@ -23,18 +17,6 @@
 
 // Remaining properties
 @property(readonly, getter=_isError) _Bool _error;
-@property(readonly, nonatomic) NSArray *affectedContainers; // @synthesize affectedContainers=_affectedContainers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDestructive; // @synthesize isDestructive=_isDestructive;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSString *undoAlertMessage; // @synthesize undoAlertMessage=_undoAlertMessage;
-@property(retain, nonatomic) NSString *undoAlertTitle; // @synthesize undoAlertTitle=_undoAlertTitle;
 
 @end
 

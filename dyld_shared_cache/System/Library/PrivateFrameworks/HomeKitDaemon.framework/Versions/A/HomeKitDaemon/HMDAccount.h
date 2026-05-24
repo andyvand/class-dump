@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, HMDAccountHandle, HMDAccountIdentifier, HMDDevice, NSArray, NSMutableSet, NSObject, NSSet, NSString, NSUUID, Protocol;
-@protocol HMDAccountManager, HMDCommunicationTrustHandlerProtocol, HMDFeaturesDataSource, NSCopying, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccount
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    NSSet *_handles;
-    NSMutableSet *_devices;
-    NSString *_appleAccountSenderCorrelationIdentifier;
-    HMDAccountIdentifier *_identifier;
-    id <HMDCommunicationTrustHandlerProtocol> _communicationTrustHandler;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    id <HMDAccountManager> _manager;
 }
 
 + (id);
@@ -26,20 +18,20 @@ __attribute__((visibility("hidden")))
 + (id)ø;
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)@;
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)initWithDevice:(id)arg1 colorSize:disparitySize:quality:debugMode: /* Error: Ran out of types for this method. */;
+- (_Bool)emporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIVideoStabilizeRequest.m;
 - (id);
 - (id);
 - (id);
@@ -50,21 +42,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id)!EùÐ1Â0@ù
 × ;
 - (void);
-- (id)grateCharacteristicsForHAPAccessoryIfNeeded;
+- (id)migrateCharacteristicsForHAPAccessoryIfNeeded;
 - (id)eID:createdNew: /* Error: Ran out of types for this method. */;
-- (id)UpTime;
-- (void)dDatabase:(id)arg1 didChangeManateeKeysForZoneWithID: /* Error: Ran out of types for this method. */;
-- (id)nfigurationOverrides;
-- (id)r;
-- (_Bool)entAccessMode;
-- (id)dateUserInfo:responseHandler: /* Error: Ran out of types for this method. */;
-- (id)essory;
-- (id)dingSupportedVideoConfiguration;
+- (id)curReport_threadNetworkLastUpTime;
+- (void)cloudDatabase:(id)arg1 didChangeManateeKeysForZoneWithID: /* Error: Ran out of types for this method. */;
+- (id)_recordingConfigurationOverrides;
+- (id)_differentiationNumber;
+- (_Bool)_currentAccessMode;
+- (id)updateUserInfo:responseHandler: /* Error: Ran out of types for this method. */;
+- (id)hapWACAccessory;
+- (id)HMDCameraRecordingSupportedVideoConfiguration;
 - (id);
 - (id)C;
 - (id);
@@ -83,8 +75,8 @@ __attribute__((visibility("hidden")))
 - (id)[Home-Presence-Remote:%@] /* Error: Ran out of types for this method. */;
 - (id)iriEndpoint.Profile.MetricsDispatcher;
 - (id);
-- (id)sorySettingMergeStrategyValue;
-- (_Bool)TU;
+- (id)HMDAccessorySettingMergeStrategyValue;
+- (_Bool)kRTPParameters_MaxMTU;
 - (void);
 - (void)ý@
 4W>;
@@ -92,34 +84,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)¸>Sÿ0¸;
 
 // Remaining properties
-@property(readonly, getter=isAuthenticated) _Bool authenticated;
-@property(readonly) id <NSCopying> backingModelKey;
-@property(readonly) Protocol *backingModelType;
-@property(readonly) id <HMDCommunicationTrustHandlerProtocol> communicationTrustHandler; // @synthesize communicationTrustHandler=_communicationTrustHandler;
-@property(readonly, copy) CNContact *contact;
 @property(readonly, getter=isCurrentAccount) _Bool currentAccount;
-@property(readonly) HMDDevice *currentDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *devices;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly, copy) NSArray *handles;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) HMDAccountIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSArray *identities;
-@property __weak id <HMDAccountManager> manager; // @synthesize manager=_manager;
-@property(readonly) Class modelClass;
-@property(readonly, copy, nonatomic) NSUUID *modelIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *modelParentIdentifier;
-@property(readonly, copy) NSString *name;
-@property(readonly, nonatomic, getter=isPresentInContacts) _Bool presentInContacts;
-@property(readonly, copy) HMDAccountHandle *primaryHandle;
-@property(copy) NSString *senderCorrelationIdentifier;
-@property(readonly) _Bool shouldCache;
-@property(readonly) Class superclass;
 
 @end
 

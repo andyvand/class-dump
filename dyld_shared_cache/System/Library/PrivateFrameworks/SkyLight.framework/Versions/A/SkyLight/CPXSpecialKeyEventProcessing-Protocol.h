@@ -5,5 +5,11 @@
 //
 
 @protocol CPXSpecialKeyEventProcessing
+- (int)NSCollateLocaleSensitive;
+- (int)quest:(unsigned int)arg1 withResult:(struct CGXConnection *)arg2 ];
+- (long long)ock_invoke;
+- (void)ssionType.;
+- (void)EW.%@ != OLD.%@;
+- (void)ution variable for %@, must not be a collection;
 @end
 

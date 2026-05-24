@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, NSLayoutConstraint, OBBoldTrayButton;
+@class CNContactStore, OBBoldTrayButton;
 
 @interface CNMeCardSharingOnboardingViewController
 {
     OBBoldTrayButton *_confirmButton;
-    CNContactStore *_contactStore;
-    CNContact *_contact;
-    NSLayoutConstraint *_tableViewHeightConstraint;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)Sx(;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (id);
 - (void);
+- (void)_doneButtonTitle;
 - (void)7_tGQo_;
 - (id)y/PrivateFrameworks/AvatarUI.framework/AvatarUI;
 
 // Remaining properties
-@property(retain, nonatomic) OBBoldTrayButton *confirmButton; // @synthesize confirmButton=_confirmButton;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSLayoutConstraint *tableViewHeightConstraint; // @synthesize tableViewHeightConstraint=_tableViewHeightConstraint;
 
 @end
 

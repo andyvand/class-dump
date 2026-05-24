@@ -6,15 +6,9 @@
 
 #import <MediaServices/MSVLyricsXMLElement.h>
 
-@class NSMutableDictionary, NSString;
-
 @interface MSVLyricsTranslation : MSVLyricsXMLElement
 {
     _Bool _automaticallyCreated;
-    long long _type;
-    NSString *_language;
-    NSString *_typeText;
-    NSMutableDictionary *_linesMap;
 }
 
 + (long long);
@@ -25,7 +19,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)7;
 - (long long);
 - (id);
 - (void);
@@ -33,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAutomaticallyCreated) _Bool automaticallyCreated; // @synthesize automaticallyCreated=_automaticallyCreated;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSMutableDictionary *linesMap; // @synthesize linesMap=_linesMap;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *typeText; // @synthesize typeText=_typeText;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioHistoryFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

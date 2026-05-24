@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSData, NSNumber, NSString;
+@class NSString;
 
 @interface STMapItem
 {
     NSString *_title;
-    CLLocation *_location;
-    NSData *_placeData;
-    _Bool _isCurrentLocation;
-    NSNumber *_businessID;
-    NSNumber *_localSearchProviderID;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (Class);
+- (id);
+- (Class);
 - (id);
 - (void);
 - (void);

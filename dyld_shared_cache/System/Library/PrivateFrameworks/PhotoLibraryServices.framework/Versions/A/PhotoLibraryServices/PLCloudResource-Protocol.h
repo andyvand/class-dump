@@ -5,10 +5,11 @@
 //
 
 @protocol PLCloudResource
-- (id)ontainerIdentifier;
-- (id)eligibleManagedObjects;
+- (id);
+- (id)containerIdentifier;
+- (id)_eligibleManagedObjects;
 - (id)terval:%f /* Error: Ran out of types for this method. */;
-- (id)rt category='%@', type=%u;
+- (char *)rt category='%@', type=%u;
 - (id)relocated originals directory. Error:%@ /* Error: Ran out of types for this method. */;
 - (id)Generating deferred adjustment for reason:%{public}@, retry:%lu, allow service to cancel:%{public}@ /* Error: Ran out of types for this method. */;
 - (id), adjusted]);

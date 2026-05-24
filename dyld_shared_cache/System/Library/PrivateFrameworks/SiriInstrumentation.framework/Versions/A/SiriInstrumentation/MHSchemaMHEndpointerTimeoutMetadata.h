@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHEndpointerTimeoutMetadata : SISchemaInstrumentationMessage
 {
     _Bool _isTimeout;
-    unsigned long long _timeoutThresholdInNs;
-    struct {
-        unsigned int isTimeout:1;
-        unsigned int timeoutThresholdInNs:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -29,21 +22,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/conf/conf_lib.c;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)ISchemaUUID",&,N,V_contextId;
-- (id)rnOffAlwaysPromptConfirmationShown;
+- (id)_hasPommesKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsTimeout;
-@property(nonatomic) _Bool hasTimeoutThresholdInNs;
 @property(nonatomic) _Bool isTimeout; // @synthesize isTimeout=_isTimeout;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long timeoutThresholdInNs; // @synthesize timeoutThresholdInNs=_timeoutThresholdInNs;
 
 @end
 

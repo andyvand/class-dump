@@ -9,7 +9,6 @@
 @interface LAAuthenticationBiometricMethodConfiguration : LAAuthenticationMethodConfiguration
 {
     _Bool _autoRetry;
-    _Bool _avoidUsingFaceIDCamera;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool autoRetry; // @synthesize autoRetry=_autoRetry;
-@property(readonly, nonatomic) _Bool avoidUsingFaceIDCamera; // @synthesize avoidUsingFaceIDCamera=_avoidUsingFaceIDCamera;
 
 @end
 

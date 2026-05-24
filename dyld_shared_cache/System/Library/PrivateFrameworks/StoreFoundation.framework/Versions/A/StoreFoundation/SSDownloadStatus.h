@@ -9,11 +9,6 @@
 @interface SSDownloadStatus
 {
     SSDownloadPhase *_activePhase;
-    NSError *_error;
-    _Bool _failed;
-    _Bool _paused;
-    _Bool _cancelled;
-    _Bool _waiting;
 }
 
 + (_Bool);
@@ -31,24 +26,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)needsLowQualityThumbnailGeneration;
+- (void)N7morphun8analysis10ArAnalyzerE;
 - (_Bool);
-- (void);
+- (void);
 - (float);
 - (_Bool)ÉY«;
 
 // Remaining properties
-@property(readonly, nonatomic) SSDownloadPhase *activePhase; // @synthesize activePhase=_activePhase;
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic, getter=isFailed) _Bool failed; // @synthesize failed=_failed;
-@property(readonly, nonatomic, getter=isPausable) _Bool pausable;
-@property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly, nonatomic) float percentComplete;
-@property(readonly, nonatomic) float phasePercentComplete;
-@property(readonly, nonatomic) long long phaseTimeRemaining;
-@property _Bool waiting; // @synthesize waiting=_waiting;
 
 @end
 

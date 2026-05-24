@@ -8,17 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorMultiwayMediaStream
 {
     unsigned int _ssrc;
-    unsigned int _maxNetworkBitrate;
-    unsigned int _maxMediaBitrate;
-    unsigned int _maxPacketsPerSecond;
-    unsigned short _streamID;
-    _Bool _isSubstream;
-    unsigned int _qualityIndex;
-    _Bool _hasRepairedStreamID;
-    unsigned short _repairedStreamID;
-    unsigned int _repairedMaxNetworkBitrate;
-    unsigned short _v2StreamID;
-    _Bool _hasV2StreamID;
 }
 
 - (unsigned short);
@@ -39,28 +28,17 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool)b;
+- (unsigned int)km;
 - (void);
-- (void);
+- (void)Nt;
 - (unsigned short);
 - (unsigned int);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRepairedStreamID; // @synthesize hasRepairedStreamID=_hasRepairedStreamID;
-@property(nonatomic) _Bool hasV2StreamID; // @synthesize hasV2StreamID=_hasV2StreamID;
-@property(nonatomic) _Bool isSubstream; // @synthesize isSubstream=_isSubstream;
-@property(nonatomic) unsigned int maxMediaBitrate; // @synthesize maxMediaBitrate=_maxMediaBitrate;
-@property(nonatomic) unsigned int maxNetworkBitrate; // @synthesize maxNetworkBitrate=_maxNetworkBitrate;
-@property(nonatomic) unsigned int maxPacketsPerSecond; // @synthesize maxPacketsPerSecond=_maxPacketsPerSecond;
-@property(nonatomic) unsigned int qualityIndex; // @synthesize qualityIndex=_qualityIndex;
-@property(nonatomic) unsigned int repairedMaxNetworkBitrate; // @synthesize repairedMaxNetworkBitrate=_repairedMaxNetworkBitrate;
-@property(nonatomic) unsigned short repairedStreamID; // @synthesize repairedStreamID=_repairedStreamID;
 @property(nonatomic) unsigned int ssrc; // @synthesize ssrc=_ssrc;
-@property(nonatomic) unsigned short streamID; // @synthesize streamID=_streamID;
-@property(nonatomic) unsigned short v2StreamID; // @synthesize v2StreamID=_v2StreamID;
 
 @end
 

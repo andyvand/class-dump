@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface NEAOVPN
 {
     _Bool _enabled;
-    _Bool _toggleEnabled;
-    _Bool _allowCaptiveWebSheet;
-    _Bool _allowAllCaptiveNetworkPlugins;
-    NSDictionary *_interfaceProtocolMapping;
-    NSString *_activeInterfaceProtocolKey;
-    NSDictionary *_serviceExceptions;
-    NSDictionary *_applicationExceptions;
-    NSDictionary *_allowedCaptiveNetworkPlugins;
 }
 
-+ (_Bool);
++ (_Bool)setInterestingRegistrationProperties: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -41,20 +31,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)gnatedRequirement;
-- (_Bool)rationEnabled;
-- (id)od;
+- (void)matchDesignatedRequirement;
+- (_Bool)autoProxyConfigurationEnabled;
+- (id)ConfigMethod;
 
 // Remaining properties
-@property(copy) NSString *activeInterfaceProtocolKey; // @synthesize activeInterfaceProtocolKey=_activeInterfaceProtocolKey;
-@property(getter=isAllowAllCaptiveNetworkPlugins) _Bool allowAllCaptiveNetworkPlugins; // @synthesize allowAllCaptiveNetworkPlugins=_allowAllCaptiveNetworkPlugins;
-@property(getter=isAllowCaptiveWebSheet) _Bool allowCaptiveWebSheet; // @synthesize allowCaptiveWebSheet=_allowCaptiveWebSheet;
-@property(copy) NSDictionary *allowedCaptiveNetworkPlugins; // @synthesize allowedCaptiveNetworkPlugins=_allowedCaptiveNetworkPlugins;
-@property(copy) NSDictionary *applicationExceptions; // @synthesize applicationExceptions=_applicationExceptions;
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) NSDictionary *interfaceProtocolMapping; // @synthesize interfaceProtocolMapping=_interfaceProtocolMapping;
-@property(copy) NSDictionary *serviceExceptions; // @synthesize serviceExceptions=_serviceExceptions;
-@property(getter=isToggleEnabled) _Bool toggleEnabled; // @synthesize toggleEnabled=_toggleEnabled;
 
 @end
 

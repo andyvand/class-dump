@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDBetaAppVersion, NSString;
+@class NSString;
 
 @interface ASDBetaAppFeedbackMetadata
 {
     NSString *_incidentID;
-    NSString *_email;
-    ASDBetaAppVersion *_version;
 }
 
 + (_Bool);
@@ -27,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *email; // @synthesize email=_email;
 @property(copy) NSString *incidentID; // @synthesize incidentID=_incidentID;
-@property(copy) ASDBetaAppVersion *version; // @synthesize version=_version;
 
 @end
 

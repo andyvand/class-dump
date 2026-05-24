@@ -6,33 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSString, PHCloudSharedAlbum;
+@class PHCloudSharedAlbum;
 
 @interface PHCloudSharedAlbumChangeRequest : PHChangeRequest
 {
     _Bool _isPublic;
-    _Bool _didSetIsPublic;
-    _Bool _cloudMultipleContributorsEnabled;
-    _Bool _didSetCloudMultipleContributorsEnabled;
-    NSString *_cloudOwnerEmail;
-    _Bool _didSetCloudOwnerEmail;
-    long long _invitationState;
-    _Bool _didSetInvitationState;
-    long long _invitationStateToUpdate;
-    _Bool _didSendPendingInvitations;
-    _Bool _didReportInvitationAsSpam;
-    _Bool _didPublish;
-    _Bool _cloudPublicURLEnabled;
-    _Bool _cloudPublicURLEnabledLocal;
-    _Bool _cloudMultipleContributorsEnabledLocal;
-    PHCloudSharedAlbum *_cloudSharedAlbum;
-    NSMutableArray *_invitationRecordGUIDsToRemove;
-    NSMutableArray *_pendingInvitationRecordGUIDs;
-    NSMutableArray *_invitationsToAdd;
-    NSMutableArray *_invitationRecordGUIDsToUpdate;
-    NSArray *_assetsToPublish;
-    NSDictionary *_assetsSharingInfos;
-    NSString *_commentText;
 }
 
 + (id);
@@ -46,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,13 +51,13 @@
 - (void);
 - (id);
 - (id);
+- (id)7;
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)*�b;
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -90,7 +68,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)troller;
 - (_Bool);
 - (id);
 - (id);
@@ -99,32 +77,12 @@
 - (void);
 - (void);
 - (void);
+- (id)qb;
 - (id);
-- (id);
-- (void)veObserver: /* Error: Ran out of types for this method. */;
+- (void)removeObserver: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetsSharingInfos; // @synthesize assetsSharingInfos=_assetsSharingInfos;
-@property(retain, nonatomic) NSArray *assetsToPublish; // @synthesize assetsToPublish=_assetsToPublish;
-@property(nonatomic) _Bool cloudMultipleContributorsEnabled;
-@property(nonatomic) _Bool cloudMultipleContributorsEnabledLocal; // @synthesize cloudMultipleContributorsEnabledLocal=_cloudMultipleContributorsEnabledLocal;
-@property(nonatomic) _Bool cloudNotificationsEnabled;
-@property(retain, nonatomic) NSString *cloudOwnerEmail;
-@property(retain, nonatomic) NSString *cloudOwnerFirstName;
-@property(retain, nonatomic) NSString *cloudOwnerFullName;
-@property(retain, nonatomic) NSString *cloudOwnerLastName;
-@property(nonatomic) _Bool cloudPublicURLEnabled; // @synthesize cloudPublicURLEnabled=_cloudPublicURLEnabled;
-@property(nonatomic) _Bool cloudPublicURLEnabledLocal; // @synthesize cloudPublicURLEnabledLocal=_cloudPublicURLEnabledLocal;
 @property(retain, nonatomic) PHCloudSharedAlbum *cloudSharedAlbum; // @synthesize cloudSharedAlbum=_cloudSharedAlbum;
-@property(retain, nonatomic) NSString *commentText; // @synthesize commentText=_commentText;
-@property(retain, nonatomic) NSMutableArray *invitationRecordGUIDsToRemove; // @synthesize invitationRecordGUIDsToRemove=_invitationRecordGUIDsToRemove;
-@property(retain, nonatomic) NSMutableArray *invitationRecordGUIDsToUpdate; // @synthesize invitationRecordGUIDsToUpdate=_invitationRecordGUIDsToUpdate;
-@property(nonatomic) long long invitationState; // @synthesize invitationState=_invitationState;
-@property(retain, nonatomic) NSMutableArray *invitationsToAdd; // @synthesize invitationsToAdd=_invitationsToAdd;
-@property(nonatomic) _Bool isOwned;
-@property(nonatomic) _Bool isPublic;
-@property(retain, nonatomic) NSMutableArray *pendingInvitationRecordGUIDs; // @synthesize pendingInvitationRecordGUIDs=_pendingInvitationRecordGUIDs;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol AMPLibraryClientEventsProtocol
+- (void);
+- (void),;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSDictionary;
+@class ACAccount;
 
 @interface AMSAuthKitUpdateResult
 {
     ACAccount *_account;
-    NSDictionary *_authenticationResults;
 }
 
 + (id);
@@ -18,16 +17,14 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)r file at path:%@ /* Error: Ran out of types for this method. */;
+- (id)IMSerializedErrorDomainKey;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void)©S¨Sp§Sû¦S¥Si¤S£S=¢S\¡S¯ SÎ¿SÞ¾S¿½SL¼S-»SºSy¹S¸Së·S`¶SµSò´S³S¦²SÇ±S4°SUSjSSøSS¬SÍS>S_SÔSµSFS'SSsSSáSñSScSS7SVS¥SÄSOS.SÝS¼SSèSSzïSîS}íSìSïëSÚêS»éSHèS)çS¢æSÃåS0äSQãSdâSáSöàSÿSþSæýSüStûSAúS ùSÓøS²÷S9öSXõS«ôSÊóSÿòSñSmðSÏS3ÎSRÍS¡ÌSÀËSõÊSÉSgÈSÇSÆSìÅSÄS~ÃSKÂS*ÁSÙÀS¸ßS¨ÞSÉÝS:ÜS[ÛSnÚSÙSüØS×SÖSwÕSÔSåÓSÐÒS±ÑSBÐS#/S.Sã-S,Sq+SD*S%)SÖ(S·'S<&S]%S®$SÏ#Sú"S!Sh S	?S>Sx=S<Sê;Sß:S¾9SM8S,7S§6SÆ5S54ST3Sa2S /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) NSDictionary *authenticationResults; // @synthesize authenticationResults=_authenticationResults;
-@property(readonly) unsigned long long credentialSource;
 
 @end
 

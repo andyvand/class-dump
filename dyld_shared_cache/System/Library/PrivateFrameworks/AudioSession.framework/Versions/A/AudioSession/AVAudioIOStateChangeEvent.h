@@ -7,18 +7,14 @@
 @interface AVAudioIOStateChangeEvent
 {
     unsigned long long serialNumber;
-    unsigned long long mainIOControllerFlags;
-    unsigned long long decoupledInputIOControllerFlags;
 }
 
-- (id);
+- (id)NEIKEv2SignatureHashProtocol;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long decoupledInputIOControllerFlags; // @synthesize decoupledInputIOControllerFlags;
-@property(readonly, nonatomic) unsigned long long mainIOControllerFlags; // @synthesize mainIOControllerFlags;
 @property(readonly, nonatomic) unsigned long long serialNumber; // @synthesize serialNumber;
 
 @end

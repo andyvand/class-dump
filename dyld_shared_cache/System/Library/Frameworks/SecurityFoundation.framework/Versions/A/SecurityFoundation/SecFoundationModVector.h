@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface SecFoundationModVector
 {
     NSXPCConnection *_proxyConnection;
-    struct AuthorizationOpaqueRef *_authRef;
-    struct __SecKeychain *_kcRef;
-    struct __SecKeychain *_tmpRef;
-    long long _err;
-    long long _lock;
-    unsigned int _uid;
-    NSString *_path;
-    NSString *_tmpPath;
 }
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)_observersLock;
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (int);
+- (void)rh ;
+- (int)( ;
 - (_Bool);
+- (int)h ;
 - (int);
-- (int);
-- (void);
+- (void)rk ;
 - (void);
 - (id);
 - (int);

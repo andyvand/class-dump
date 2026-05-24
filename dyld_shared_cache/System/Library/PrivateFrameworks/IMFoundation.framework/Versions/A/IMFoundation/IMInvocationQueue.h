@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSProtocolChecker, Protocol;
-
 @interface IMInvocationQueue
 {
     _Bool _holdQueue;
-    id _delegate;
-    id _target;
-    double _dequeueRate;
-    NSMutableArray *_queue;
-    NSMutableArray *_options;
-    NSProtocolChecker *_protocolChecker;
 }
 
 - (id);
@@ -33,39 +25,30 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void):8@"CMIOExtensionProviderHostContext"16@"NSString"24@?<v@?@"CMIOExtensionSample"B@"NSError">32 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)T;
 - (void);
-- (id);
-- (_Bool);
+- (id)[;
+- (_Bool)^;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
+- (id)*;
+- (void)a;
 - (id)ùÑÖ,ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property id delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double dequeueRate; // @synthesize dequeueRate=_dequeueRate;
 @property(readonly, nonatomic) _Bool holdQueue; // @synthesize holdQueue=_holdQueue;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, retain, nonatomic) NSMutableArray *options; // @synthesize options=_options;
-@property(retain, nonatomic) Protocol *protocol;
-@property(readonly, retain, nonatomic) NSProtocolChecker *protocolChecker; // @synthesize protocolChecker=_protocolChecker;
-@property(readonly, retain, nonatomic) NSMutableArray *queue; // @synthesize queue=_queue;
-@property id target; // @synthesize target=_target;
 
 @end
 

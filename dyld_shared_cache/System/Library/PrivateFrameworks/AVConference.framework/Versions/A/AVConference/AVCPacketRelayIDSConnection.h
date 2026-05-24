@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCPacketFilter, IDSDatagramChannel, IDSService;
-
 __attribute__((visibility("hidden")))
 @interface AVCPacketRelayIDSConnection
 {
     unsigned char _type;
-    CDUnknownBlockType _readHandler;
-    _Bool _isDemuxNeeded;
-    _Bool _isResumed;
-    IDSDatagramChannel *_datagramChannel;
-    IDSService *_packetRelayService;
-    AVCPacketFilter *_packetFilter;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)kb;
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -36,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property _Bool isDemuxNeeded; // @synthesize isDemuxNeeded=_isDemuxNeeded;
 @property _Bool isResumed; // @synthesize isResumed=_isResumed;
-@property(retain) AVCPacketFilter *packetFilter; // @synthesize packetFilter=_packetFilter;
-@property(copy) CDUnknownBlockType readHandler; // @synthesize readHandler=_readHandler;
-@property(readonly) unsigned char type; // @synthesize type=_type;
 
 @end
 

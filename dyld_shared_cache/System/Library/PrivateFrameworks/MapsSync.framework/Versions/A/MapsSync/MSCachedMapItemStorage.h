@@ -6,16 +6,11 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class GEOMapItemStorage, NSNumber, NSString;
+@class NSString;
 
 @interface MSCachedMapItemStorage : MapsSync.MapsSyncObject
 {
     id _customName;
-    id _latitude;
-    id _longitude;
-    id _mapItemStorage;
-    id _muid;
-    id _resultsProvider;
 }
 
 + (Class);
@@ -23,16 +18,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)Sources/AVConference/ViceroyTrace.subproj/Sources/ReportingVC.m:(id)arg1 %d:reportingCancelLog:error code %d. /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -40,11 +35,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *customName;
-@property(nonatomic, retain) NSNumber *latitude;
-@property(nonatomic, retain) NSNumber *longitude;
-@property(nonatomic, retain) GEOMapItemStorage *mapItemStorage;
-@property(nonatomic, retain) NSNumber *muid;
-@property(nonatomic, retain) NSNumber *resultsProvider;
 
 @end
 

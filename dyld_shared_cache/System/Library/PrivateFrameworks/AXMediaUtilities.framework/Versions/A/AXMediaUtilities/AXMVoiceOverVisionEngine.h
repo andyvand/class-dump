@@ -6,31 +6,24 @@
 
 #import <AXMediaUtilities/AXMAXElementVisionEngine.h>
 
-@class AXMCaptionDetectorNode, AXMFaceDetectorNode, AXMNSFWDetectorNode, AXMObjectDetectorNode, AXMProminentObjectsDetectorNode, AXMSceneDetectorNode, AXMSignificantEventDetectorNode, AXMTraitDetectorNode;
+@class AXMSceneDetectorNode;
 
 @interface AXMVoiceOverVisionEngine : AXMAXElementVisionEngine
 {
     AXMSceneDetectorNode *_sceneDetector;
-    AXMObjectDetectorNode *_objectDetector;
-    AXMFaceDetectorNode *_faceDetector;
-    AXMTraitDetectorNode *_traitDetector;
-    AXMProminentObjectsDetectorNode *_prominentObjectsDetector;
-    AXMCaptionDetectorNode *_captionDetector;
-    AXMNSFWDetectorNode *_nsfwDetector;
-    AXMSignificantEventDetectorNode *_significantEventDetector;
 }
 
 - (id);
 - (id);
+- (void)gz;
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id){;
 - (id);
 - (unsigned long long);
 - (id);
@@ -38,21 +31,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@@?;
 - (void);
-- (id)Size: /* Error: Ran out of types for this method. */;
-- (id)ring;
+- (id)initWithCacheSize: /* Error: Ran out of types for this method. */;
+- (id)absoluteString;
 
 // Remaining properties
-@property(nonatomic) __weak AXMCaptionDetectorNode *captionDetector; // @synthesize captionDetector=_captionDetector;
-@property(nonatomic) __weak AXMFaceDetectorNode *faceDetector; // @synthesize faceDetector=_faceDetector;
-@property(nonatomic) unsigned long long genderStrategy;
-@property(nonatomic) __weak AXMNSFWDetectorNode *nsfwDetector; // @synthesize nsfwDetector=_nsfwDetector;
-@property(nonatomic) __weak AXMObjectDetectorNode *objectDetector; // @synthesize objectDetector=_objectDetector;
-@property(nonatomic) __weak AXMProminentObjectsDetectorNode *prominentObjectsDetector; // @synthesize prominentObjectsDetector=_prominentObjectsDetector;
 @property(nonatomic) __weak AXMSceneDetectorNode *sceneDetector; // @synthesize sceneDetector=_sceneDetector;
-@property(nonatomic) __weak AXMSignificantEventDetectorNode *significantEventDetector; // @synthesize significantEventDetector=_significantEventDetector;
-@property(nonatomic) __weak AXMTraitDetectorNode *traitDetector; // @synthesize traitDetector=_traitDetector;
 
 @end
 

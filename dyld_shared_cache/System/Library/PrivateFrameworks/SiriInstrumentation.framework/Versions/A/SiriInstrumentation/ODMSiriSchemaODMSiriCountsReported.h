@@ -6,21 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODMSiriSchemaODMSiriAggregationInterval;
+@class ODMSiriSchemaODMSiriAggregationInterval;
 
 @interface ODMSiriSchemaODMSiriCountsReported : SISchemaInstrumentationMessage
 {
     ODMSiriSchemaODMSiriAggregationInterval *_aggregationInterval;
-    NSArray *_siriCounts;
-    _Bool _hasAggregationInterval;
 }
 
 - (id);
 - (id);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)HqS	;
 - (void);
 - (void);
 - (void);
@@ -42,9 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ODMSiriSchemaODMSiriAggregationInterval *aggregationInterval; // @synthesize aggregationInterval=_aggregationInterval;
-@property(nonatomic) _Bool hasAggregationInterval; // @synthesize hasAggregationInterval=_hasAggregationInterval;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *siriCounts; // @synthesize siriCounts=_siriCounts;
 
 @end
 

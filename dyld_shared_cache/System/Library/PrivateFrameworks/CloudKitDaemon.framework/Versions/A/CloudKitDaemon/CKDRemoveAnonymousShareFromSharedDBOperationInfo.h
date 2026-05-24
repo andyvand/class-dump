@@ -9,17 +9,15 @@
 @interface CKDRemoveAnonymousShareFromSharedDBOperationInfo
 {
     NSDictionary *_encryptedAnonymousSharesToRemove;
-    CDUnknownBlockType _anonymousShareRemovedBlock;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void)ÐÂ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType anonymousShareRemovedBlock; // @synthesize anonymousShareRemovedBlock=_anonymousShareRemovedBlock;
 @property(retain, nonatomic) NSDictionary *encryptedAnonymousSharesToRemove; // @synthesize encryptedAnonymousSharesToRemove=_encryptedAnonymousSharesToRemove;
 
 @end

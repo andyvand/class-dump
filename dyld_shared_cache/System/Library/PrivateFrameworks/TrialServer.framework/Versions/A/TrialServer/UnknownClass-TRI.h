@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (TRI)
-+ (id);
-+ (void);
-+ (id);
-- (void);
-- (id);
++ (id)imageSizeWithHeadroomStrategy:(_Bool)arg1;
++ (void)anyCoordinateForTimeZoneName:(id)arg1;
++ (id)_portraitConfiguration;
+- (void)indexOfObject:(id)arg1 inSortedRange:options:usingComparator: /* Error: Ran out of types for this method. */;
+- (id)imageTypesUnsupportedForImport;
 @end
 

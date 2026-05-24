@@ -13,13 +13,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (oneway void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)nDataTask"24@"NSURLSessionStreamTask"32;
 - (_Bool)]¬];
 - (_Bool)spatch-thunk>;
 

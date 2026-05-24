@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)1Â0@ù
 × ;
-- (_Bool)Geometry:forControlKey: /* Error: Ran out of types for this method. */;
+- (_Bool)configureGeometry:forControlKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 

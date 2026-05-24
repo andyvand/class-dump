@@ -7,7 +7,6 @@
 @interface NewsArticles.InterstitialAdInteractor
 {
     id delegate;
-    id dataManager;
 }
 
 @end

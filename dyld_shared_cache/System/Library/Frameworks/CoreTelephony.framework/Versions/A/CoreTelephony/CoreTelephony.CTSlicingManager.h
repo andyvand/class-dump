@@ -7,7 +7,6 @@
 @interface CoreTelephony.CTSlicingManager
 {
     id client;
-    id serialQueue;
 }
 
 @end

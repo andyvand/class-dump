@@ -11,14 +11,14 @@
 @interface MRTransitionOrigamiFold : MRTransition
 {
     MROrigamiAnimationPath *mBigSwing;
-    MROrigamiAnimationPath *mSideSwing;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)enumerateKeysAndObjectsUsingBlock:(id)arg1;
+- (_Bool)envelopes and %lu telemetry envelopes;
+- (void)	
+;
 - (void);
 - (void)diump float uFactorX, uFactorY; 
 		void main() 

@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatErrorViewController
 {
     id errorModel;
-    id tableView;
-    id styler;
-    id editor;
 }
 
 - (id);

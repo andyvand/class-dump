@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMPBCharacteristicWriteAction, HMPBMatterCommandAction, HMPBMediaPlaybackAction, HMPBNaturalLightingAction;
+@class HMPBCharacteristicWriteAction;
 
 @interface HMPBActionContainer
 {
     HMPBCharacteristicWriteAction *_characteristicWriteAction;
-    HMPBMediaPlaybackAction *_mediaPlaybackAction;
-    HMPBMatterCommandAction *_matterCommandAction;
-    HMPBNaturalLightingAction *_naturalLightingAction;
-    int _type;
-    struct {
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void).;
 - (void);
 - (id);
 - (id);
@@ -36,28 +29,19 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)gerund;
 - (void);
 - (id);
 - (void);
 - (id);
 - (int);
 - (id);
-- (_Bool)sionID;
-- (void)tartUpdate:(_Bool)arg1;
+- (_Bool)currentSessionID;
+- (void)_handleStartUpdate:(_Bool)arg1;
 - (void)¸p°rt¸v4wDy;
 
 // Remaining properties
-@property(retain, nonatomic) HMPBCharacteristicWriteAction *characteristicWriteAction; // @synthesize characteristicWriteAction=_characteristicWriteAction;
-@property(readonly, nonatomic) _Bool hasCharacteristicWriteAction;
-@property(readonly, nonatomic) _Bool hasMatterCommandAction;
-@property(readonly, nonatomic) _Bool hasMediaPlaybackAction;
-@property(readonly, nonatomic) _Bool hasNaturalLightingAction;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) HMPBMatterCommandAction *matterCommandAction; // @synthesize matterCommandAction=_matterCommandAction;
-@property(retain, nonatomic) HMPBMediaPlaybackAction *mediaPlaybackAction; // @synthesize mediaPlaybackAction=_mediaPlaybackAction;
-@property(retain, nonatomic) HMPBNaturalLightingAction *naturalLightingAction; // @synthesize naturalLightingAction=_naturalLightingAction;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

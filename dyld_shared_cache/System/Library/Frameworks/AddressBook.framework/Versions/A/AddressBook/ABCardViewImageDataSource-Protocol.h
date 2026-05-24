@@ -5,5 +5,6 @@
 //
 
 @protocol ABCardViewImageDataSource
+- (void)@;
 @end
 

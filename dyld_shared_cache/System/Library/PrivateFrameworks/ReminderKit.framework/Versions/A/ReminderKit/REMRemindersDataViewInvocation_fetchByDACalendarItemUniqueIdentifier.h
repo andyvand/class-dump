@@ -6,19 +6,18 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSArray, REMObjectID;
+@class NSArray;
 
 @interface REMRemindersDataViewInvocation_fetchByDACalendarItemUniqueIdentifier : REMStoreInvocation
 {
     NSArray *_daCalendarItemUniqueIdentifiers;
-    REMObjectID *_listObjectID;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)l;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *daCalendarItemUniqueIdentifiers; // @synthesize daCalendarItemUniqueIdentifiers=_daCalendarItemUniqueIdentifiers;
-@property(readonly, nonatomic) REMObjectID *listObjectID; // @synthesize listObjectID=_listObjectID;
 
 @end
 

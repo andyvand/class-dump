@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EFLocked, EMMailboxScope, EMQuery, NSArray, NSPredicate, NSString;
+@class EMQuery;
 
 @interface EDMessageQueryEvaluator
 {
     EMQuery *_messageQuery;
-    EDMessagePersistence *_messagePersistence;
-    EMMailboxScope *_mailboxScope;
-    NSPredicate *_filterPredicate;
-    EFLocked *_returnedMessageDatabaseIDs;
 }
 
 + (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)EMHideMyEmailErrorDomain;
+- (void)updateCollectionLayoutItemSize:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -27,7 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)hh8;
 - (id)
 × ;
 - (id)baseConnection"16^@24;
@@ -35,19 +31,7 @@
 - (void)id IN (%@) AND server_messages.remote_id < 0);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EMMailboxScope *mailboxScope; // @synthesize mailboxScope=_mailboxScope;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
 @property(readonly, nonatomic) EMQuery *messageQuery; // @synthesize messageQuery=_messageQuery;
-@property(readonly, nonatomic) NSArray *persistentIDsForFilterSet;
-@property(readonly, nonatomic) EFLocked *returnedMessageDatabaseIDs; // @synthesize returnedMessageDatabaseIDs=_returnedMessageDatabaseIDs;
-@property(readonly) Class superclass;
 
 @end
 

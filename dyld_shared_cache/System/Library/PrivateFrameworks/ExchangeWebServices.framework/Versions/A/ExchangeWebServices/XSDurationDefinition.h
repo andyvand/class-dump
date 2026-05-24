@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)_descriptionForLyricsInfoType:(id)arg1;
 
 @end
 

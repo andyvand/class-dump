@@ -9,9 +9,9 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-+ (int);
++ (int);
 + (_Bool);
 + (_Bool);
 + (int);

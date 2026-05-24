@@ -5,5 +5,8 @@
 //
 
 @protocol STSSessionBaseDelegate
+
+@optional
+- (void);
 @end
 

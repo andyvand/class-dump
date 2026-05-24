@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSMutableArray, NSObject;
-@protocol NURenderer, NUSurfaceStorage, OS_dispatch_group, OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSError;
 
 @interface PILongExposureAccumulator
 {
-    CDStruct_d58201db _pixelSize;
-    id <NURenderer> _renderer;
-    id <NUSurfaceStorage> _temporaryDestinationStorage;
-    id <NUSurfaceStorage> _averageAccumulationStorage;
-    id <NUSurfaceStorage> _minimumAccumulationStorage;
-    id <NUSurfaceStorage> _maximumAccumulationStorage;
-    long long _frameCount;
-    unsigned long long _jobNumber;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_accumQueue;
-    NSObject<OS_dispatch_semaphore> *_accumSemaphore;
-    NSObject<OS_dispatch_semaphore> *_readySemaphore;
-    NSObject<OS_dispatch_group> *_doneGroup;
-    NSMutableArray *_inputFrames;
-    _Bool _finished;
-    NSDictionary *_imageOptions;
-    NSError *__accumError;
+    struct {
+        long long width;
+        long long height;
+    } _pixelSize;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (_Bool);
 - (id);
@@ -38,7 +24,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -47,18 +33,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)JJ-J	J		J	J-	J|Si@J@J	t;
 - (void);
 - (void);
 - (void);
+- (void)_shareParticipantLocalIdentifier;
 - (void);
-- (void);
-- (void)EnableSettlingEffect: /* Error: Ran out of types for this method. */;
+- (void)setForceEnableSettlingEffect: /* Error: Ran out of types for this method. */;
 - (_Bool)/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PITapToTrackRequest.m;
 
 // Remaining properties
 @property(retain) NSError *_accumError; // @synthesize _accumError=__accumError;
-@property(readonly) _Bool isReadyForMoreData;
 
 @end
 

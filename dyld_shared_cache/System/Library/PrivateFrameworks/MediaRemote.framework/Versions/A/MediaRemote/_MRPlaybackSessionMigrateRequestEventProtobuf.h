@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString, _MRDictionaryProtobuf, _MRErrorProtobuf;
+@class NSError;
 
 @interface _MRPlaybackSessionMigrateRequestEventProtobuf
 {
     double _endTimestamp;
-    long long _errorCode;
-    double _startTimestamp;
-    _MRErrorProtobuf *_error;
-    NSString *_errorDescription;
-    NSMutableArray *_events;
-    unsigned int _identifier;
-    _MRDictionaryProtobuf *_input;
-    NSString *_name;
-    _MRDictionaryProtobuf *_output;
-    int _role;
-    struct {
-        unsigned int endTimestamp:1;
-        unsigned int errorCode:1;
-        unsigned int startTimestamp:1;
-        unsigned int identifier:1;
-        unsigned int role:1;
-    } _has;
 }
 
 + (Class);
@@ -35,12 +18,12 @@
 - (_Bool);
 - (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
+- (void)R_;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -51,7 +34,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (_Bool);
@@ -59,16 +42,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)AFSimulatorSupportsSiriUOD_block_invoke;
 - (unsigned int);
 - (_Bool);
 - (double);
@@ -76,39 +59,18 @@
 - (void);
 - (int);
 - (void);
-- (id)quireRouteRecommendationAssertionForIdentifiers: /* Error: Ran out of types for this method. */;
-- (void)ertiesOnStream: /* Error: Ran out of types for this method. */;
-- (_Bool)cation: /* Error: Ran out of types for this method. */;
-- (void)Audio:(long long)arg1 withReplyQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)acquireRouteRecommendationAssertionForIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)_setQOSPropertiesOnStream: /* Error: Ran out of types for this method. */;
+- (_Bool)_recordingStateChangedNotification: /* Error: Ran out of types for this method. */;
+- (void)addOutputDevices:(long long)arg1 initiator:fadeAudio:withReplyQueue:completion: /* Error: Ran out of types for this method. */;
 - (void)0Ô;
-- (_Bool)enyList;
+- (_Bool)denyList;
 - (void)%@;
-- (long long)eOptionRemoteControlInterfaceIdentifier;
+- (long long)kMRMediaRemoteOptionRemoteControlInterfaceIdentifier;
 - (double);
 
 // Remaining properties
-@property(nonatomic) double endTimestamp; // @synthesize endTimestamp=_endTimestamp;
-@property(retain, nonatomic) _MRErrorProtobuf *error; // @synthesize error=_error;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
-@property(nonatomic) _Bool hasEndTimestamp;
-@property(readonly, nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDescription;
-@property(nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasInput;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasOutput;
-@property(nonatomic) _Bool hasRole;
-@property(nonatomic) _Bool hasStartTimestamp;
-@property(nonatomic) unsigned int identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) _MRDictionaryProtobuf *input; // @synthesize input=_input;
 @property(readonly, nonatomic) NSError *mr_error;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) _MRDictionaryProtobuf *output; // @synthesize output=_output;
-@property(nonatomic) int role; // @synthesize role=_role;
-@property(nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
 
 @end
 

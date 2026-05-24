@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSNumberFormatter;
+@class NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface PRQueryNumberFormatters
 {
     NSLocale *_locale;
-    NSNumberFormatter *_numberFormatter;
-    NSNumberFormatter *_decimalFormatter;
-    NSNumberFormatter *_currencyFormatter;
-    NSNumberFormatter *_currencyDecimalFormatter;
 }
 
 - (void);
-- (id);
+- (id)_mipLevel;
 
 @end
 

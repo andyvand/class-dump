@@ -4,15 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WTSession;
+
 @protocol WTWritingToolsDelegate_Proposed_v3
+- (void)setLabel:(WTSession *)arg1;
 - (void)1Â0@ù
 × ;
 - (void)A!PGù±bÐ1Â0@ù
 × ;
-- (void)Movement;
-- (void)ent;
+- (void)horizontalMovement;
+- (void)UIManagedDocument;
 
 @optional
+- (_Bool);
 - (_Bool)kana_multitap_complete_arrow-163r.png;
 
 // Remaining properties

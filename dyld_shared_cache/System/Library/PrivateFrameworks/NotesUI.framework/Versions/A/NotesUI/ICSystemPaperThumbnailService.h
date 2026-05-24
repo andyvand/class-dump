@@ -9,26 +9,24 @@
 @interface ICSystemPaperThumbnailService
 {
     UITraitCollection *_traitCollection;
-    ICSystemPaperThumbnailServiceInternal *_systemPaperThumbnailService;
 }
 
-+ (id);
++ (id)w;
 - (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)DrawingAttachmentWithAnalytics: /* Error: Ran out of types for this method. */;
+- (void)addInlineDrawingAttachmentWithAnalytics: /* Error: Ran out of types for this method. */;
 - (id)TParagraphStyleCG15paragraphStylestG;
 
 // Remaining properties
 @property(retain, nonatomic) ICSystemPaperThumbnailServiceInternal *systemPaperThumbnailService; // @synthesize systemPaperThumbnailService=_systemPaperThumbnailService;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

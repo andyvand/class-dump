@@ -4,60 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOFamiliarWaypointRoute
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_familarRouteUuid;
-    NSMutableArray *_routeLegs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_familarRouteUuid:1;
-        unsigned int read_routeLegs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)estStyle:(id)arg1;
++ (_Bool)setHasRequestStyle:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool)initWithObservable:transform:decoratorGenerator:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (id)_cn_stringBySanitizingPhoneNumber;
+- (void)CNConcatenateCancelationToken;
+- (void)assificationQuality:(id)arg1 ];
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)2;
+- (id)didTransitFrom:to:by:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)tternSupported:(struct _NSZone *)arg1;
-- (id)ality;
+- (void)eDataReceiveErr_NoNodeCount;
+- (id)setHasTimestampFormatPatternSupported:(struct _NSZone *)arg1;
+- (id)GEOWiFiConnectionQuality;
 - (id)l resources for migration:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)a':2È4 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *familarRouteUuid;
 @property(readonly, nonatomic) _Bool hasFamilarRouteUuid;
-@property(retain, nonatomic) NSMutableArray *routeLegs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

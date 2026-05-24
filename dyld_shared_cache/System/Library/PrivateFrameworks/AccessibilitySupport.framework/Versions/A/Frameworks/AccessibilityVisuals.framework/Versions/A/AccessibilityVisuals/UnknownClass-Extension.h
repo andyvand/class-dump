@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Extension)
-- (struct CGPath *);
+- (struct CGPath *);
 - (struct CGPath *);
 @end
 

@@ -9,13 +9,11 @@
 @interface PodcastsFoundation.PushSubscriptionRequest
 {
     id endpointURL;
-    id action;
-    id apnsToken;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)By_|;
 

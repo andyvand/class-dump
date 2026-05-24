@@ -9,17 +9,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)@;
 - (long long);
 - (unsigned long long);
 - (_Bool)
 × ;
 - (void)Qdð1Â0@ù
 × ;
-- (_Bool)tRespectsSystemGestureTouchFiltering:(id)arg1;
-- (void)SpringAnimations:(id)arg1;
+- (_Bool)setRespectsSystemGestureTouchFiltering:(id)arg1;
+- (void)performSpringAnimations:(id)arg1;
 - (id)titleView;
-- (void):(id)arg1;
+- (void):(id)arg1:(id)arg2;
 - (_Bool)nimations parameter of +[UIView addKeyframeWithStartTime:(id)arg1 duration:(id)arg2 animations:(long long)arg3 ] must be non-nil;
 - (_Bool)t.;
 - (id)ntainerCSbIggyygd_;

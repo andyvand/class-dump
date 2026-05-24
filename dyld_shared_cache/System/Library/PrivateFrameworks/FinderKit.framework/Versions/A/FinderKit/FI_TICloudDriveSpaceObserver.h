@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface FI_TICloudDriveSpaceObserver
 {
     long long _freeSpace;
-    NSOperationQueue *_operationQueue;
-    NSTimer *_pollingTimer;
-    _Bool _mainAccount;
-    struct TSpinLock _lock;
 }
 
 + (id);

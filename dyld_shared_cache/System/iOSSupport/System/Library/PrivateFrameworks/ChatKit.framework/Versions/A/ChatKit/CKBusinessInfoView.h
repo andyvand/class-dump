@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKStandardButton, NSString, UILabel;
 @protocol CKBusinessInfoViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKBusinessInfoView
 {
     id <CKBusinessInfoViewDelegate> _delegate;
-    NSString *_descriptionText;
-    NSString *_greetingText;
-    long long _layoutType;
-    UILabel *_greetingTextLabel;
-    UILabel *_descriptionTextLabel;
-    CKStandardButton *_infoButton;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)DevicePasswordWithPrompt:(id)arg1 error:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)CAttachmentPreviewImageLoader loadImage];
+- (id)Enter the previous password to view the attachment.;
+- (id)sing a previous password. Enter the previous password to view the attachment.;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -37,18 +30,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (long long)ntent;
+- (long long)setUpPhotosContent;
 - (void);
 - (void)¡!|E1;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKBusinessInfoViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
-@property(retain, nonatomic) UILabel *descriptionTextLabel; // @synthesize descriptionTextLabel=_descriptionTextLabel;
-@property(retain, nonatomic) NSString *greetingText; // @synthesize greetingText=_greetingText;
-@property(retain, nonatomic) UILabel *greetingTextLabel; // @synthesize greetingTextLabel=_greetingTextLabel;
-@property(readonly, nonatomic) _Bool hasValidGreeting;
-@property(retain, nonatomic) CKStandardButton *infoButton; // @synthesize infoButton=_infoButton;
 @property(nonatomic) long long layoutType; // @synthesize layoutType=_layoutType;
 
 @end

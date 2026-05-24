@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AKCredential, AKCredentialRequestProtocol;
+@protocol AKCredentialRequestProtocol;
 
 @interface AKAuthorization
 {
     id <AKCredentialRequestProtocol> _authorizedRequest;
-    id <AKCredential> _credential;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <AKCredentialRequestProtocol> authorizedRequest; // @synthesize authorizedRequest=_authorizedRequest;
-@property(retain, nonatomic) id <AKCredential> credential; // @synthesize credential=_credential;
 
 @end
 

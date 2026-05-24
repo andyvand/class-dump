@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CXCallSource;
+
 @protocol CXCallSourceUpdates
+- (void)uildCLContextIfNeeded cl_error:(CXCallSource *)arg1 %d;
+- (void);
+- (void)tionDelegate>";
+- (void)k=;
+- (void)entifier doesn't have DSID or is assigned to a different family member.;
 @end
 

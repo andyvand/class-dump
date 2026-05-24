@@ -7,37 +7,29 @@
 @interface COMAPPLEPROACTIVEGMSGMSError
 {
     unsigned long long _errorCode;
-    int _errorType;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int errorType:1;
-    } _has;
 }
 
-- (void);
-- (_Bool);
+- (void)(;
+- (_Bool);
 - (id);
 - (int);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)	;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void),V_apps;
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int errorType; // @synthesize errorType=_errorType;
-@property(nonatomic) _Bool hasErrorCode;
 @property(nonatomic) _Bool hasErrorType;
 
 @end

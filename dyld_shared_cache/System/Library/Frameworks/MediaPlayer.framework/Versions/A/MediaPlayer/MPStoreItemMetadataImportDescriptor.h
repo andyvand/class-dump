@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MPStoreItemMetadataImportDescriptor
 {
     NSDictionary *_platformDictionary;
-    ICUserIdentity *_userIdentity;
 }
 
 - (id);
 - (id);
 - (void)presentationKind: /* Error: Ran out of types for this method. */;
-- (id)ldStorePlatformDictionaries;
+- (id)_overrideChildStorePlatformDictionaries;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *platformDictionary; // @synthesize platformDictionary=_platformDictionary;
-@property(readonly, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

@@ -6,28 +6,12 @@
 
 #import <AVConference/VCTransportSession.h>
 
-@class AVCAuditToken, NSMutableArray, NSObject, VCDatagramChannelMultiLink;
-@protocol OS_dispatch_semaphore, OS_nw_endpoint, OS_nw_listener, OS_nw_parameters;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCTransportSessionMultiLink : VCTransportSession
 {
     NSMutableArray *_nwConnectionInfoList;
-    _Bool _isStarted;
-    int _networkInterfaceType;
-    NSObject<OS_nw_endpoint> *_localEndpoint;
-    NSObject<OS_nw_parameters> *_localParameters;
-    NSObject<OS_nw_listener> *_listener;
-    unsigned short _localPort;
-    VCDatagramChannelMultiLink *_datagramChannel;
-    NSObject<OS_dispatch_semaphore> *_listenerStartWaitSemaphore;
-    NSObject<OS_dispatch_semaphore> *_startWaitSemaphore;
-    NSObject<OS_dispatch_semaphore> *_cancelWaitSemaphore;
-    _Bool _requiresLargeReceiveBuffer;
-    int _receiveBufferSize;
-    AVCAuditToken *_clientAuditToken;
-    _Bool _isIPv6;
-    unsigned int _networkMTU;
 }
 
 - (int);
@@ -51,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)ĩr	;
 - (void);
 - (int);
 - (void);
@@ -63,9 +47,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (id);
+- (id)(8;
 - (void);
-- (int);
+- (int)	;
 - (int);
 - (int);
 - (void);
@@ -73,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned short);
-- (void);
+- (void)/;
 - (void);
 
 // Remaining properties

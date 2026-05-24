@@ -9,12 +9,11 @@
 @interface CKDPDistributedTimestamps
 {
     NSMutableArray *_siteIdentifiers;
-    NSMutableArray *_siteVersionVectors;
 }
 
 + (Class);
 + (Class);
-- (unsigned long long);
+- (unsigned long long)8=;
 - (id);
 - (id);
 - (unsigned long long);
@@ -29,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)saveCustomSentenceClassifierModelToURL:modelData:stringInputName:classname:NSError: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *siteIdentifiers; // @synthesize siteIdentifiers=_siteIdentifiers;
-@property(retain, nonatomic) NSMutableArray *siteVersionVectors; // @synthesize siteVersionVectors=_siteVersionVectors;
 
 @end
 

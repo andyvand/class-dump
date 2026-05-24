@@ -5,5 +5,6 @@
 //
 
 @protocol SiriUISystemAssistantExperienceViewControllerDelegate
+- (void);
 @end
 

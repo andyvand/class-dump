@@ -6,62 +6,42 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSMutableArray, UIBarButtonItem, UIImage;
-@protocol UIMultiColumnViewControllerDelegate;
+@class NSArray;
 
 @interface UIMultiColumnViewController : UIViewController
 {
     unsigned long long _lastColumnCount;
-    unsigned long long _animatingTargetColumnCount;
-    UIBarButtonItem *_showSecondColumnBarButtonItem;
-    UIBarButtonItem *_hideSecondColumnBarButtonItem;
-    struct {
-        unsigned int updatingNavControllerChildren:1;
-        unsigned int animatingItem1LeftBarButton:1;
-        unsigned int lastColumnCountIsValid:1;
-        unsigned int animatingSplitToWidth:1;
-    } _mcvcFlags;
-    NSMutableArray *_borderViews;
-    struct CGRect _lastFrameInWindow;
-    struct CGSize _containerSizeAtLastUpdate;
-    NSArray *_possibleStatesAtLastUpdate;
-    id <UIMultiColumnViewControllerDelegate> _delegate;
-    NSArray *_viewControllers;
-    NSArray *_navControllers;
-    NSArray *_columnWidths;
-    double _keyboardInset;
-    UIImage *__columnToggleButtonImage;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)se chat has 3+ replies.;
+- (void)ivery receipt for cached read receipt for %s;
+- (id)notifications to notify for urgent messages;
+- (double)ng derived record ID;
+- (id)mporary file transfers were updated.;
+- (id).;
+- (void)@"ACAccount"8@"NSError"16;
+- (void)>;
 - (double);
+- (void):(id)arg1 ;
 - (id);
-- (id);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
+- (void)+;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -72,8 +52,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)eRenewalTimeInterval;
+- (unsigned long long)_requestIsStreamed;
 - (id);
 - (id)!ÔFùQ[Ð1Â0@ù
 × ;
@@ -92,12 +72,6 @@
 - (void)cþÝÙË;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setColumnToggleButtonImage:) UIImage *_columnToggleButtonImage; // @synthesize _columnToggleButtonImage=__columnToggleButtonImage;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(retain, nonatomic) NSArray *columnWidths; // @synthesize columnWidths=_columnWidths;
-@property(nonatomic) __weak id <UIMultiColumnViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double keyboardInset; // @synthesize keyboardInset=_keyboardInset;
-@property(retain, nonatomic) NSArray *navControllers; // @synthesize navControllers=_navControllers;
 @property(retain, nonatomic) NSArray *viewControllers; // @synthesize viewControllers=_viewControllers;
 
 @end

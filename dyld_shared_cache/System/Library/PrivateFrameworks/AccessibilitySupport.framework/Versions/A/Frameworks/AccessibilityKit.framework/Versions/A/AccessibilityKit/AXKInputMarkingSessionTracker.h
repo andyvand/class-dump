@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFTextPosition, AXFTextRange, AXFUIElement, AXKApplicationController, AXKElementController, NSLock, NSObject, NSString;
-@protocol AXKInputMarkingSessionDelegate, OS_dispatch_queue;
-
 @interface AXKInputMarkingSessionTracker
 {
     _Bool _started;
-    _Bool _inputMarkingSessionActive;
-    AXFUIElement *__currentInputMethodWindow;
-    AXKElementController *_trackingTextElement;
-    AXFTextRange *_inputMarkingSessionRange;
-    id <AXKInputMarkingSessionDelegate> _delegate;
-    AXKApplicationController *__applicationController;
-    AXFTextPosition *__inputMarkingSessionStartPosition;
-    AXFTextPosition *__inputMarkingSessionEndPosition;
-    NSString *__inlineSessionString;
-    AXFTextRange *__previousSelectionRange;
-    NSLock *__propertyLock;
-    NSObject<OS_dispatch_queue> *__observerQueue;
 }
 
 + (id);
@@ -37,7 +22,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -52,9 +37,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id);
+- (id)*;
 - (void);
 - (id);
 - (id);
@@ -66,23 +51,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)setFrameAutosaveName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) AXKApplicationController *_applicationController; // @synthesize _applicationController=__applicationController;
-@property(retain, nonatomic, setter=_setCurrentInputMethodWindow:) AXFUIElement *_currentInputMethodWindow; // @synthesize _currentInputMethodWindow=__currentInputMethodWindow;
-@property(copy, nonatomic) NSString *_inlineSessionString; // @synthesize _inlineSessionString=__inlineSessionString;
-@property(retain, nonatomic) AXFTextPosition *_inputMarkingSessionEndPosition; // @synthesize _inputMarkingSessionEndPosition=__inputMarkingSessionEndPosition;
-@property(retain, nonatomic) AXFTextPosition *_inputMarkingSessionStartPosition; // @synthesize _inputMarkingSessionStartPosition=__inputMarkingSessionStartPosition;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_observerQueue; // @synthesize _observerQueue=__observerQueue;
-@property(retain, nonatomic) AXFTextRange *_previousSelectionRange; // @synthesize _previousSelectionRange=__previousSelectionRange;
-@property(retain, nonatomic) NSLock *_propertyLock; // @synthesize _propertyLock=__propertyLock;
-@property(nonatomic) __weak id <AXKInputMarkingSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isInputMarkingSessionActive) _Bool inputMarkingSessionActive; // @synthesize inputMarkingSessionActive=_inputMarkingSessionActive;
-@property(retain, nonatomic) AXFTextRange *inputMarkingSessionRange; // @synthesize inputMarkingSessionRange=_inputMarkingSessionRange;
-@property(readonly, nonatomic, getter=isShowingCandidateWindow) _Bool showingCandidateWindow;
 @property(nonatomic, getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(retain, nonatomic) AXKElementController *trackingTextElement; // @synthesize trackingTextElement=_trackingTextElement;
 
 @end
 

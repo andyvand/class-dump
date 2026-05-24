@@ -9,32 +9,24 @@
 @interface PHSearchIndexEntityResult
 {
     NSString *_identifier;
-    unsigned long long _category;
-    NSString *_text;
-    NSString *_normalizedText;
-    NSString *_lookupIdentifier;
-    double _score;
-    unsigned long long _matchType;
-    unsigned long long _groupId;
-    unsigned long long _owningGroupId;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)!;
 + (void);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)n;
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long)allPasswordCredentialItemsInPersonalKeychain;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (double);
 - (long long);
@@ -42,15 +34,7 @@
 - (void)nitionAlgorithmVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long category; // @synthesize category=_category;
 @property(readonly, nonatomic) unsigned long long groupId; // @synthesize groupId=_groupId;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *lookupIdentifier; // @synthesize lookupIdentifier=_lookupIdentifier;
-@property(readonly, nonatomic) unsigned long long matchType; // @synthesize matchType=_matchType;
-@property(readonly, copy, nonatomic) NSString *normalizedText; // @synthesize normalizedText=_normalizedText;
-@property(readonly, nonatomic) unsigned long long owningGroupId; // @synthesize owningGroupId=_owningGroupId;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

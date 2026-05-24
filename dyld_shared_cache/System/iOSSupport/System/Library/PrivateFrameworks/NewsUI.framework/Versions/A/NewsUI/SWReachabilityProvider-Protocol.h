@@ -5,5 +5,7 @@
 //
 
 @protocol SWReachabilityProvider
+- (void);
+- (void)7;
 @end
 

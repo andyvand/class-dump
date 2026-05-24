@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol MFEWSRetrievePersistedFolderDataDelegate;
 
 @interface MFEWSRetrievePersistedFolderDataOperation
 {
     id <MFEWSRetrievePersistedFolderDataDelegate> _delegate;
-    NSArray *_mailboxURLs;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)numberWithUnsignedLongLong:(id)arg1;
+- (void)";
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <MFEWSRetrievePersistedFolderDataDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *mailboxURLs; // @synthesize mailboxURLs=_mailboxURLs;
 
 @end
 

@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitDepartureSequenceUsage, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOTransitPlaceCard
 {
     PBDataReader *_reader;
-    NSString *_incidentType;
-    GEOTransitDepartureSequenceUsage *_transitDepartureSequenceUsage;
-    NSString *_transitSystemName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _transitCategory;
-    struct {
-        unsigned int has_transitCategory:1;
-        unsigned int read_incidentType:1;
-        unsigned int read_transitDepartureSequenceUsage:1;
-        unsigned int read_transitSystemName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)adata:(id)arg1;
++ (_Bool)setModuleMetadata:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -40,33 +26,26 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (int);
+- (int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ctiveCBridgeableP;
 - (id);
-- (void);
-- (unsigned long long);
+- (void)isBlushingPhantomEnabled;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)TV;
 - (id);
-- (id)crementBytesTransmitted: /* Error: Ran out of types for this method. */;
-- (id)tIndex;
-- (id)ngBufferRegion;
+- (id)incrementBytesTransmitted: /* Error: Ran out of types for this method. */;
+- (id)_componentIndex;
+- (id)isWithinHikingBufferRegion;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIncidentType;
 @property(nonatomic) _Bool hasTransitCategory;
-@property(readonly, nonatomic) _Bool hasTransitDepartureSequenceUsage;
-@property(readonly, nonatomic) _Bool hasTransitSystemName;
-@property(retain, nonatomic) NSString *incidentType;
-@property(nonatomic) int transitCategory;
-@property(retain, nonatomic) GEOTransitDepartureSequenceUsage *transitDepartureSequenceUsage;
-@property(retain, nonatomic) NSString *transitSystemName;
 
 @end
 

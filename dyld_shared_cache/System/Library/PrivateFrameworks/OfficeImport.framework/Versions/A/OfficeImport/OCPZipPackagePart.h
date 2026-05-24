@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (struct _xmlTextReader *);
-- (struct _xmlDoc *);
+- (struct _xmlDoc *);
 - (id);
 - (void);
 - (id);

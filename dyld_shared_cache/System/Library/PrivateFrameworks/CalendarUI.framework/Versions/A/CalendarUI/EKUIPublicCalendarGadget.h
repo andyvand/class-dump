@@ -6,19 +6,18 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class NSButton, NSView;
+@class NSButton;
 
 @interface EKUIPublicCalendarGadget : EKUISingleViewGadget
 {
     NSButton *_publicCalendarCheckbox;
-    NSView *_publicLinkDescriptionContainer;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain) NSButton *publicCalendarCheckbox; // @synthesize publicCalendarCheckbox=_publicCalendarCheckbox;
-@property(retain) NSView *publicLinkDescriptionContainer; // @synthesize publicLinkDescriptionContainer=_publicLinkDescriptionContainer;
 
 @end
 

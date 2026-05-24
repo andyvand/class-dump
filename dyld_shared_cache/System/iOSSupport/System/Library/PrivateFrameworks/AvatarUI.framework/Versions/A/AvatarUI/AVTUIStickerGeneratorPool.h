@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-@protocol AVTUILogger;
-
 @interface AVTUIStickerGeneratorPool
 {
     long long _maxCount;
-    NSMutableDictionary *_availableStickerGenerators;
-    NSMutableDictionary *_inUseStickerGenerators;
-    id <AVTUILogger> _logger;
 }
 
 + (id);
@@ -34,9 +28,6 @@
 - (id)$#%À%h*ø*,-;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *availableStickerGenerators; // @synthesize availableStickerGenerators=_availableStickerGenerators;
-@property(readonly, nonatomic) NSMutableDictionary *inUseStickerGenerators; // @synthesize inUseStickerGenerators=_inUseStickerGenerators;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
 @property(readonly, nonatomic) long long maxCount; // @synthesize maxCount=_maxCount;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol FCANFHelper, FCArticleDownloadServiceType, FCContentContext;
+@protocol FCContentContext;
 
 @interface FCIssueDownloadService
 {
     id <FCContentContext> _context;
-    id <FCANFHelper> _ANFHelper;
-    id <FCArticleDownloadServiceType> _articleDownloadService;
 }
 
 - (long long);
@@ -20,11 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void)Paywall;
+- (void)leakyPaywall;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCANFHelper> ANFHelper; // @synthesize ANFHelper=_ANFHelper;
-@property(readonly, nonatomic) id <FCArticleDownloadServiceType> articleDownloadService; // @synthesize articleDownloadService=_articleDownloadService;
 @property(readonly, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
 
 @end

@@ -12,9 +12,9 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)OnBoardingKit;
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 

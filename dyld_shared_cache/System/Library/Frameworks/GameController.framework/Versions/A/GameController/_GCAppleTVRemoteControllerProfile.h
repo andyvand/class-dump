@@ -6,25 +6,12 @@
 
 #import <GameController/GCMicroGamepad.h>
 
-@class GCControllerDirectionPad, NSDate, NSString;
+@class GCControllerDirectionPad;
 
 __attribute__((visibility("hidden")))
 @interface _GCAppleTVRemoteControllerProfile : GCMicroGamepad
 {
     double _windowX;
-    double _windowY;
-    double _windowSize;
-    double _deadzoneSize;
-    double _windowBufferSize[4];
-    unsigned int _digitizerTouchState;
-    unsigned int _sampleCount;
-    unsigned int _accumInputSampleCount;
-    double _prevLogTime;
-    int _orientation;
-    int _candidateOrientation;
-    NSDate *_candidateOrientationTimestamp;
-    unsigned long long _owner;
-    long long _deviceType;
 }
 
 - (void);
@@ -39,23 +26,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
 @property(readonly) GCControllerDirectionPad *dpad;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long owner; // @synthesize owner=_owner;
-@property(readonly) Class superclass;
 
 @end
 

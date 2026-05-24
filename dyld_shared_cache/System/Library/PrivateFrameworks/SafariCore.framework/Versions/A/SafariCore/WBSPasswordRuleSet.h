@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSAllowedPasswordRule, WBSMaxConsecutivePasswordRule, WBSMaxLengthPasswordRule, WBSMinLengthPasswordRule;
+@class WBSAllowedPasswordRule;
 
 @interface WBSPasswordRuleSet
 {
     WBSAllowedPasswordRule *_allowedRule;
-    NSArray *_requiredRules;
-    WBSMaxConsecutivePasswordRule *_maxConsecutiveRule;
-    WBSMinLengthPasswordRule *_minLengthRule;
-    WBSMaxLengthPasswordRule *_maxLengthRule;
 }
 
 + (id);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WBSAllowedPasswordRule *allowedRule; // @synthesize allowedRule=_allowedRule;
-@property(readonly, nonatomic) WBSMaxConsecutivePasswordRule *maxConsecutiveRule; // @synthesize maxConsecutiveRule=_maxConsecutiveRule;
-@property(readonly, nonatomic) WBSMaxLengthPasswordRule *maxLengthRule; // @synthesize maxLengthRule=_maxLengthRule;
-@property(readonly, nonatomic) WBSMinLengthPasswordRule *minLengthRule; // @synthesize minLengthRule=_minLengthRule;
-@property(readonly, copy, nonatomic) NSArray *requiredRules; // @synthesize requiredRules=_requiredRules;
 
 @end
 

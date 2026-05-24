@@ -6,15 +6,11 @@
 
 #import <FileProvider/FPActionOperationInfo.h>
 
-@class FPActionOperationLocator, NSArray;
+@class FPActionOperationLocator;
 
 @interface FPMoveInfo : FPActionOperationInfo
 {
     _Bool _shouldBounce;
-    _Bool _byCopy;
-    FPActionOperationLocator *_targetFolder;
-    NSArray *_rootFilenames;
-    unsigned long long _lastUsedDatePolicy;
 }
 
 + (_Bool);
@@ -25,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -37,11 +33,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool byCopy; // @synthesize byCopy=_byCopy;
-@property(readonly, nonatomic) _Bool byMoving;
-@property(nonatomic) unsigned long long lastUsedDatePolicy; // @synthesize lastUsedDatePolicy=_lastUsedDatePolicy;
-@property(retain, nonatomic) NSArray *rootFilenames; // @synthesize rootFilenames=_rootFilenames;
-@property(nonatomic) _Bool shouldBounce; // @synthesize shouldBounce=_shouldBounce;
 @property(retain, nonatomic) FPActionOperationLocator *targetFolder; // @synthesize targetFolder=_targetFolder;
 
 @end

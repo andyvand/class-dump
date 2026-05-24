@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface CKSalientContentRectangleDebugView
 {
     UIView *_borderView;
-    struct CGRect _salientContentRectangle;
 }
 
+- (void)filePromiseProvider:(struct CGRect)arg1 writePromiseToURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (struct CGRect)er;
+- (struct CGRect)_groupIdentifier;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *borderView; // @synthesize borderView=_borderView;
-@property(nonatomic) struct CGRect salientContentRectangle; // @synthesize salientContentRectangle=_salientContentRectangle;
 
 @end
 

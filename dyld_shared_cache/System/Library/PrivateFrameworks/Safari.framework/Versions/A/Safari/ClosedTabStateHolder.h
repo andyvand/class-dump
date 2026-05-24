@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabPersistentState, BrowserWindowController;
+@class BrowserWindowController;
 
 __attribute__((visibility("hidden")))
 @interface ClosedTabStateHolder
 {
     BrowserWindowController *_browserWindowController;
-    BrowserTabPersistentState *_lastClosedTabState;
 }
 
 - (void);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(retain, nonatomic) BrowserTabPersistentState *lastClosedTabState; // @synthesize lastClosedTabState=_lastClosedTabState;
 
 @end
 

@@ -6,23 +6,19 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServicePaymentsRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSDate *_beginDate;
-    NSDate *_endDate;
-    long long _state;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (long long);
+- (long long)SGTSearchQueryCollector;
 - (void);
 - (id)key source UI provider:Created invitation /* Error: Ran out of types for this method. */;
 - (void)yment.InternalError;
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

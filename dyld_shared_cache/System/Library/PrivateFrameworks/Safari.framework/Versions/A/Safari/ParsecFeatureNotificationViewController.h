@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface ParsecFeatureNotificationViewController
 {
     NSArray *_iconFilenamesForSupportedDomains;
-    id <WBSParsecBag> _bag;
 }
 
 + (_Bool);
@@ -23,15 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)Ì;
 - (id) ;
 - (id)ìô;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSParsecBag> bag; // @synthesize bag=_bag;
-@property(readonly, nonatomic) double preferredHeightAtCurrentWidth;
-@property(readonly, nonatomic) double preferredMinimumWidth;
 
 @end
 

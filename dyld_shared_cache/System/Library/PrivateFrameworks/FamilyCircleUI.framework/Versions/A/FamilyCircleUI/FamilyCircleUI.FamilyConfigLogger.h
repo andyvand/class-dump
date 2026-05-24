@@ -7,8 +7,6 @@
 @interface FamilyCircleUI.FamilyConfigLogger
 {
     id $defaultActor;
-    id messageConfigured;
-    id familyContactsConfigured;
 }
 
 @end

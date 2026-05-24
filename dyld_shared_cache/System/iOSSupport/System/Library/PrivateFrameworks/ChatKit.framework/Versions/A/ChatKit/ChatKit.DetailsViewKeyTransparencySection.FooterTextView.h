@@ -7,13 +7,11 @@
 @interface ChatKit.DetailsViewKeyTransparencySection.FooterTextView
 {
     id status;
-    id conversation;
-    id handles;
 }
 
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)";
 - (void);
 - (void)ÿ9;
 

@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBPayloadConfirmation, _INPBPayloadNeedsDisambiguation, _INPBPayloadNeedsExecuteIntent, _INPBPayloadNeedsValue, _INPBPayloadSuccess, _INPBPayloadUnsupported;
+@class NSString, _INPBPayloadConfirmation, _INPBPayloadNeedsDisambiguation, _INPBPayloadNeedsExecuteIntent;
 
 @protocol _INPBIntentSlotResolutionResult
-- (NSString *);
+- (_INPBPayloadNeedsExecuteIntent *);
+- (_INPBPayloadNeedsDisambiguation *);
+- (NSString *)payloadTaskPrioritiesAsString:(int)arg1;
 - (_Bool)Value;
-- (void)tionary:(_Bool)arg1;
+- (void)setCustomValueForKeyDictionary:(_Bool)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPayloadConfirmation;
-@property(readonly, nonatomic) _Bool hasPayloadNeedsDisambiguation;
-@property(readonly, nonatomic) _Bool hasPayloadNeedsExecuteIntent;
-@property(readonly, nonatomic) _Bool hasPayloadNeedsValue;
-@property(readonly, nonatomic) _Bool hasPayloadSuccess;
-@property(readonly, nonatomic) _Bool hasPayloadUnsupported;
-@property(nonatomic) _Bool hasType;
 @property(retain, nonatomic) _INPBPayloadConfirmation *payloadConfirmation;
-@property(retain, nonatomic) _INPBPayloadNeedsDisambiguation *payloadNeedsDisambiguation;
-@property(retain, nonatomic) _INPBPayloadNeedsExecuteIntent *payloadNeedsExecuteIntent;
-@property(retain, nonatomic) _INPBPayloadNeedsValue *payloadNeedsValue;
-@property(retain, nonatomic) _INPBPayloadSuccess *payloadSuccess;
-@property(retain, nonatomic) _INPBPayloadUnsupported *payloadUnsupported;
-@property(nonatomic) int type;
 @end
 

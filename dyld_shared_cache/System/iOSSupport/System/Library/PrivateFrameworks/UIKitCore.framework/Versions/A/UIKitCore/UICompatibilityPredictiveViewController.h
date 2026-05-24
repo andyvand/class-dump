@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UICompatibilityPredictiveViewController : UIViewController
@@ -16,29 +16,18 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)newBufferWithLength:options: /* Error: Ran out of types for this method. */;
 - (double)Entry";
-- (_Bool);
-- (_Bool)By:(id)arg1;
+- (_Bool)tableViewIndexWidth;
+- (_Bool)_setProgress:(id)arg1 boundedBy:(id)arg2;
 - (_Bool)$±;
-- (void)InDragSession;
+- (void)itemsTotalInDragSession;
 - (id)Ã;
 - (void)7Óf;
 - (void)PÆÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customView; // @synthesize customView=_customView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

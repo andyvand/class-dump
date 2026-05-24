@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXHost, SXLinkActionURLQualifier, SXURLHandling, SXURLPreviewing;
+@protocol SXURLHandling;
 
 @interface SXLinkActionActivityProvider
 {
     id <SXURLHandling> _URLHandler;
-    id <SXURLPreviewing> _URLPreviewing;
-    id <SXHost> _host;
-    id <SXLinkActionURLQualifier> _URLQualifier;
 }
 
 - (id);
@@ -24,22 +20,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)I%;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXURLHandling> URLHandler; // @synthesize URLHandler=_URLHandler;
-@property(readonly, nonatomic) id <SXURLPreviewing> URLPreviewing; // @synthesize URLPreviewing=_URLPreviewing;
-@property(readonly, nonatomic) id <SXLinkActionURLQualifier> URLQualifier; // @synthesize URLQualifier=_URLQualifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly) Class superclass;
 
 @end
 

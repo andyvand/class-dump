@@ -6,22 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SISchemaIFOutcomeSuccess : SISchemaInstrumentationMessage
 {
     _Bool _didShowInAppResult;
-    NSString *_followUpActionBundleId;
-    _Bool _shouldOpen;
-    struct {
-        unsigned int didShowInAppResult:1;
-        unsigned int shouldOpen:1;
-    } _has;
-    _Bool _hasFollowUpActionBundleId;
 }
 
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -32,29 +23,23 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)SBinaryMacOSCompatible;
+- (_Bool)d contacts:(id)arg1 %@;
+- (_Bool)int64_t);
 - (id);
 - (id);
-- (id)eteCheckerRejectBeforeActivationCount;
-- (id)B;
+- (id)deleteCheckerRejectBeforeActivationCount;
+- (id)_deviceCapacityInGB;
 - (void)languageDisambiguationUISelected;
 
 // Remaining properties
 @property(nonatomic) _Bool didShowInAppResult; // @synthesize didShowInAppResult=_didShowInAppResult;
-@property(copy, nonatomic) NSString *followUpActionBundleId; // @synthesize followUpActionBundleId=_followUpActionBundleId;
-@property(nonatomic) _Bool hasDidShowInAppResult;
-@property(nonatomic) _Bool hasFollowUpActionBundleId; // @synthesize hasFollowUpActionBundleId=_hasFollowUpActionBundleId;
-@property(nonatomic) _Bool hasShouldOpen;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldOpen; // @synthesize shouldOpen=_shouldOpen;
 
 @end
 

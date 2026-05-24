@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFCATModel
 {
     NSString *_catIdentifier;
-    NSString *_bundleIdentifier;
-    NSData *_params;
 }
 
 + (_Bool);
@@ -19,30 +17,19 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)playEventWithModelObject:(id)arg1 nestedPlayEvent:featureName: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)stmentInfo:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)Feedback feature not supported for parsing context as date interval.;
 - (id);
 - (id);
 - (void);
 - (void)nd",&,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(copy, nonatomic) NSString *catIdentifier; // @synthesize catIdentifier=_catIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *params; // @synthesize params=_params;
-@property(readonly) Class superclass;
 
 @end
 

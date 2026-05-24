@@ -4,47 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChatContext, IMMessage, LPLinkView, NSString;
+@class IMMessage;
 
 @interface CKPinnedConversationRichLinkActivityItem
 {
     double _activityItemContentScale;
-    NSString *_attachedContactItemIdentifier;
-    IMMessage *_message;
-    IMChatContext *_chatContext;
-    LPLinkView *_linkView;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)amed a subfolder;
+- (id);
+- (_Bool)the folder;
+- (double)named the note;
+- (_Bool)** copied a subfolder;
 - (id);
 - (id);
-- (_Bool);
-- (double);
-- (_Bool);
-- (id);
-- (id);
-- (id)ntentRectEdgeForConversationListSearchBarInsetsWithRTL: /* Error: Ran out of types for this method. */;
+- (id)contentRectEdgeForConversationListSearchBarInsetsWithRTL: /* Error: Ran out of types for this method. */;
 - (void)ða$ÿA2;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;
-@property(readonly, nonatomic) double activityItemContentScale; // @synthesize activityItemContentScale=_activityItemContentScale;
-@property(readonly, nonatomic) _Bool activityItemDisappearsWithAnimation;
-@property(readonly, nonatomic) NSString *activityItemIdentifier;
-@property(readonly, nonatomic) NSString *attachedContactItemIdentifier; // @synthesize attachedContactItemIdentifier=_attachedContactItemIdentifier;
-@property(readonly, nonatomic) IMChatContext *chatContext; // @synthesize chatContext=_chatContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
 @property(readonly, nonatomic) IMMessage *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 
 @end
 

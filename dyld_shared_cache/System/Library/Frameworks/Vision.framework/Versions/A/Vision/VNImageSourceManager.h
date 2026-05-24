@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface VNImageSourceManager
 {
     struct os_unfair_lock_s _getOrientationLock;
-    struct os_unfair_lock_s _loadSubSample1Lock;
-    struct os_unfair_lock_s _loadSubSample2Lock;
-    struct os_unfair_lock_s _loadSubSample4Lock;
-    struct os_unfair_lock_s _loadSubSample8Lock;
-    struct CGImageSource *_imageSourceSubsample1;
-    struct CGImageSource *_imageSourceSubsample2;
-    struct CGImageSource *_imageSourceSubsample4;
-    struct CGImageSource *_imageSourceSubsample8;
-    NSURL *_imageURL;
-    NSData *_imageData;
-    unsigned int _orientation;
 }
 
 - (struct CGImageSource *);

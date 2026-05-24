@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)r,;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int connect; // @synthesize connect=_connect;

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, RTDefaultsManager, RTDistanceCalculator, RTElevationAdjuster, RTLearnedLocationManager, RTLocationManager, RTMotionActivityManager, RTVehicleStore, RTVisitManager;
+@class NSMutableDictionary;
 
 @interface RTTripSegmentTransitionPreprocessor
 {
     NSMutableDictionary *_transitionStartStopLocations;
-    NSMutableArray *_tripSegmentTransitions;
-    NSMutableArray *_tripSegmentVisitStatus;
-    NSMutableArray *_tripSegmentTransitionStatus;
-    RTMotionActivityManager *_motionActivityManager;
-    RTVehicleStore *_vehicleStore;
-    RTLocationManager *_locationManager;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTVisitManager *_visitManager;
-    RTElevationAdjuster *_elevationAdjuster;
-    RTDefaultsManager *_defaultsManager;
-    NSMutableArray *_compoundedVisitIntervals;
 }
 
 - (void);
@@ -33,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -56,13 +44,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (int);
+- (unsigned long long)ata}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (int)}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
 - (long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (_Bool)rge;
+- (void)ic}@:(id)arg1 %{public}@;
+- (void)trust;
+- (id)note;
 - (id);
 - (id);
 - (id);
@@ -75,19 +63,7 @@
 - (id)visits between start date, %@, end date, %@, error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *compoundedVisitIntervals; // @synthesize compoundedVisitIntervals=_compoundedVisitIntervals;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) RTElevationAdjuster *elevationAdjuster; // @synthesize elevationAdjuster=_elevationAdjuster;
-@property(readonly, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
 @property(readonly, nonatomic) NSMutableDictionary *transitionStartStopLocations; // @synthesize transitionStartStopLocations=_transitionStartStopLocations;
-@property(retain, nonatomic) NSMutableArray *tripSegmentTransitionStatus; // @synthesize tripSegmentTransitionStatus=_tripSegmentTransitionStatus;
-@property(retain, nonatomic) NSMutableArray *tripSegmentTransitions; // @synthesize tripSegmentTransitions=_tripSegmentTransitions;
-@property(retain, nonatomic) NSMutableArray *tripSegmentVisitStatus; // @synthesize tripSegmentVisitStatus=_tripSegmentVisitStatus;
-@property(readonly, nonatomic) RTVehicleStore *vehicleStore; // @synthesize vehicleStore=_vehicleStore;
-@property(readonly, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
 
 @end
 

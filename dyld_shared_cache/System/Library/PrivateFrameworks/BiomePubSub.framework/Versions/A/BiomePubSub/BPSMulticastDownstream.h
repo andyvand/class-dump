@@ -6,33 +6,28 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@class BPSMulticast, NSNumber;
-@protocol BPSSubscriber;
+@class BPSMulticast;
 
 @interface BPSMulticastDownstream : BMBookmarkablePublisher
 {
     BPSMulticast *_multicast;
-    NSNumber *_identifier;
-    id <BPSSubscriber> _subscriber;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)Set",R,C,V_updatedRecords;
 - (void);
 - (void);
+- (id)ey Identifier;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)request:(id)arg1 didProduceResult: /* Error: Ran out of types for this method. */;
+- (_Bool)config file name:%@ at path:%{private}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) BPSMulticast *multicast; // @synthesize multicast=_multicast;
-@property(retain, nonatomic) id <BPSSubscriber> subscriber; // @synthesize subscriber=_subscriber;
 
 @end
 

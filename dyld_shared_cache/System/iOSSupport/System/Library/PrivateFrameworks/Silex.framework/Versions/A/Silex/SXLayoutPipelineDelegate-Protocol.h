@@ -5,5 +5,8 @@
 //
 
 @protocol SXLayoutPipelineDelegate
+
+@optional
+- (void);
 @end
 

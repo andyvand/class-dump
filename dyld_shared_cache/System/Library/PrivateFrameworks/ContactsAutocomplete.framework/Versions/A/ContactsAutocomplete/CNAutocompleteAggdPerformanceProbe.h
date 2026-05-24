@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteAggdProbe, NSMutableDictionary, NSString;
+@class CNAutocompleteAggdProbe;
 
 @interface CNAutocompleteAggdPerformanceProbe
 {
     CNAutocompleteAggdProbe *_aggdProbe;
-    NSMutableDictionary *_pendingAddData;
 }
 
 - (void);
+- (void)SD9Hn;
 - (void);
 - (void);
 - (void);
+- (void)';
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)L;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)-;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNAutocompleteAggdProbe *aggdProbe; // @synthesize aggdProbe=_aggdProbe;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *pendingAddData; // @synthesize pendingAddData=_pendingAddData;
-@property(readonly) Class superclass;
 
 @end
 

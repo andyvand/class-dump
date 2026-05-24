@@ -6,12 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSAttachmentResponseShapeType, NSArray;
+@class EWSAttachmentResponseShapeType;
 
 @interface EWSGetAttachmentType : EWSBaseRequestType
 {
     EWSAttachmentResponseShapeType *_AttachmentShape;
-    NSArray *_AttachmentIds;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *AttachmentIds; // @synthesize AttachmentIds=_AttachmentIds;
 @property(retain, nonatomic) EWSAttachmentResponseShapeType *AttachmentShape; // @synthesize AttachmentShape=_AttachmentShape;
 
 @end

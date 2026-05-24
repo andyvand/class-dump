@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NUIArrangementContainer, NUIGridArrangementDataSource;
+@protocol NUIArrangementContainer;
 
 @interface NUIGridArrangement
 {
     struct _NUIGridArrangement _arrangement;
-    id <NUIArrangementContainer> _container;
-    id <NUIGridArrangementDataSource> _dataSource;
-    double _scale;
-    struct {
-        unsigned int delegateWidth:1;
-        unsigned int delegateHeight:1;
-        unsigned int containerDirection:1;
-    } _flags;
-    struct CGRect _bounds;
 }
 
 - (long long);
@@ -42,21 +32,10 @@
 - (void);
 - (id);
 - (void);
-- (void)ffsetFromContentBottom;
+- (void)effectiveBaselineOffsetFromContentBottom;
 
 // Remaining properties
-@property(nonatomic, getter=isBaselineRelativeArrangement) _Bool baselineRelativeArrangement;
 @property(readonly, nonatomic) __weak id <NUIArrangementContainer> container;
-@property(readonly, nonatomic) __weak id <NUIGridArrangementDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long horizontalDistribution;
-@property(readonly) Class superclass;
-@property(nonatomic) long long verticalDistribution;
 
 @end
 

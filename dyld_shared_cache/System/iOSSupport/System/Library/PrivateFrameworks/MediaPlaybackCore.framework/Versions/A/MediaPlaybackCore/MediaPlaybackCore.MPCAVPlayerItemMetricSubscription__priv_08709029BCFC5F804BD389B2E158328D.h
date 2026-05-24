@@ -7,8 +7,6 @@
 @interface MediaPlaybackCore.MPCAVPlayerItemMetricSubscription__priv_08709029BCFC5F804BD389B2E158328D
 {
     id playerItem;
-    id handler;
-    id subscription;
 }
 
 - (void);

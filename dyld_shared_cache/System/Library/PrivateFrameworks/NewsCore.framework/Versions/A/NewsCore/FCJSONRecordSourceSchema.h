@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCJSONRecordSourceSchema
 {
     NSString *_recordType;
-    NSString *_recordIDPrefix;
-    NSArray *_keys;
-    NSArray *_localizableKeys;
-    NSArray *_alwaysLocalizedKeys;
-    NSArray *_allKeys;
 }
 
 - (id);
@@ -22,17 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)=;
+- (void)engineResourceID;
+- (id)s7;
 - (id)xðÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allKeys; // @synthesize allKeys=_allKeys;
-@property(readonly, copy, nonatomic) NSArray *alwaysLocalizedKeys; // @synthesize alwaysLocalizedKeys=_alwaysLocalizedKeys;
-@property(readonly, copy, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly, copy, nonatomic) NSArray *localizableKeys; // @synthesize localizableKeys=_localizableKeys;
-@property(readonly, copy, nonatomic) NSString *recordIDPrefix; // @synthesize recordIDPrefix=_recordIDPrefix;
 @property(readonly, copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
 
 @end

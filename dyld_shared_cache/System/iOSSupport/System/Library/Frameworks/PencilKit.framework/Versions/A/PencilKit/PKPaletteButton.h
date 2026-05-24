@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, UIButton, UIColor, UIMenu, UIPointerInteraction;
-@protocol PKPaletteButtonDelegate;
+@class NSHashTable;
 
 @interface PKPaletteButton
 {
     _Bool _useCompactLayout;
-    double _scalingFactor;
-    id <PKPaletteButtonDelegate> _delegate;
-    UIMenu *_menu;
-    UIPointerInteraction *_pointerInteraction;
-    NSHashTable *_observers;
-    UIButton *_button;
 }
 
 + (id);
@@ -46,48 +39,32 @@
 - (id);
 - (void);
 - (void);
+- (void)repositionStickerCommand;
+- (id);
 - (void);
+- (void);
+- (struct CGSize)D;
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
+- (void)0;
 - (id);
 - (id);
 - (double);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void)
 × ;
-- (id)int;
-- (id)es:(id)arg1;
+- (id)stackViewBottomConstraint;
+- (id)set_wasVisibleBeforeResponderChanges:(id)arg1;
 - (void)Ü*Ëÿÿÿÿÿ´;
 - (id)¸;
 - (id)t:%@, shot:%p /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *_backgroundColor;
-@property(readonly, nonatomic) UIColor *_tintColorForCurrentState;
-@property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaletteButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasContextMenuVisible;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) UIPointerInteraction *pointerInteraction; // @synthesize pointerInteraction=_pointerInteraction;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCompactLayout; // @synthesize useCompactLayout=_useCompactLayout;
 
 @end
 

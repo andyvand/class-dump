@@ -7,9 +7,6 @@
 @interface NewsFeed.RecipeFeaturesConfigurationFactory
 {
     id appConfigManager;
-    id featureAvailability;
-    id recipeUserDataManager;
-    id ratingsSubmissionManager;
 }
 
 @end

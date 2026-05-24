@@ -5,5 +5,8 @@
 //
 
 @protocol EMSearchableIndexInterface
+- (void)?;
+- (void);
+- (void);
 @end
 

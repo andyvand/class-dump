@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSData;
-
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreLogRecord
 {
     long long _rowID;
-    long long _xactID;
-    long long _pushed;
-    NSData *_data;
-    long long _type;
-    long long _encoding;
-    CKRecordID *_root;
 }
 
-- (long long);
-- (long long);
+- (long long)_stopSharingTripWithContacts:reason:completion: /* Error: Ran out of types for this method. */;
+- (long long)*;
+- (id)c;
+- (long long)eB;
 - (id);
-- (long long);
+- (long long)addControlService: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long)ice: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)evice: /* Error: Ran out of types for this method. */;
-- (long long)rtTypeIDSEventCounter;
+- (id)device: /* Error: Ran out of types for this method. */;
+- (long long)HMDLogEventMessageAnalyzerRemoteMessageTransportTypeIDSEventCounter;
 - (void)@þþ ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) long long encoding; // @synthesize encoding=_encoding;
-@property(readonly, nonatomic) long long pushed; // @synthesize pushed=_pushed;
-@property(readonly, nonatomic) CKRecordID *root; // @synthesize root=_root;
 @property(readonly, nonatomic) long long rowID; // @synthesize rowID=_rowID;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) long long xactID; // @synthesize xactID=_xactID;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SystemMigration/SMDBAccess.h>
 
-@class NSURL, ODNode, ODSession;
+@class ODNode, ODSession;
 
 @interface SMODDBAccess : SMDBAccess
 {
     ODSession *_session;
-    NSURL *_path;
-    long long accessCount;
-    ODNode *_node;
 }
 
 + (id);
@@ -41,7 +38,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)o;
 - (id);
 - (id);
 - (void)

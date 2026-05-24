@@ -6,13 +6,11 @@
 
 #import <CoreMediaStream/MSDaemon.h>
 
-@class NSCountedSet;
 @protocol MSMediaStreamDaemonDelegate;
 
 @interface MSMediaStreamDaemon : MSDaemon
 {
     id <MSMediaStreamDaemonDelegate> _delegate;
-    NSCountedSet *_retainedObjects;
 }
 
 - (id);
@@ -21,27 +19,20 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)kyrpiin;
+- (void)native;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)@;
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (id);
@@ -50,6 +41,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool));
+- (void);
+- (void)ation:(id)arg1 %s;
 - (void);
 - (void);
 - (id);

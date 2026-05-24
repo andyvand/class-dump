@@ -7,11 +7,6 @@
 @interface SoundAnalysis.SNSoundDetector
 {
     id configuration;
-    id detectorBoxName;
-    id graphStorage;
-    id inputFeatureName;
-    id outputConfidenceFeatureName;
-    id outputDetectedFeatureName;
 }
 
 @end

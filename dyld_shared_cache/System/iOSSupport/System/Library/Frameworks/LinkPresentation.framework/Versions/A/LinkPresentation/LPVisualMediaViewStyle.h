@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, LPImageViewStyle, LPPadding, LPVideoPlayButtonStyle, UIColor;
+@class LPVideoPlayButtonStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPVisualMediaViewStyle
 {
     LPVideoPlayButtonStyle *_playButton;
-    LPImageViewStyle *_muteButton;
-    LPPadding *_muteButtonPadding;
-    double _muteButtonOpacity;
-    double _muteButtonHighlightedOpacity;
-    UIColor *_pulsingLoadIndicatorColor;
-    double _pulsingLoadIndicatorMaximumOpacity;
-    double _pulsingLoadIndicatorDuration;
-    CAMediaTimingFunction *_pulsingLoadIndicatorTimingFunction;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (double);
-- (double);
+- (void)transcriptCollectionViewController:(id)arg1 didTapTruncatedCaptionForRichCard:onBalloonView: /* Error: Ran out of types for this method. */;
+- (void)hatItem:(double)arg1;
+- (void)transcriptCollectionViewController:(double)arg1 didTapReplyCountStatusButtonForChatItem: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 didTapPluginStatusButtonForChatItem: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(double)arg1 didTapAttributionLinkTextForChatItem:atIndexPath:sender: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(double)arg1 didTapAttributionButtonForChatItem:parentIndexPath:sender: /* Error: Ran out of types for this method. */;
+- (id)trackTranscriptBackgroundChangedIn:withOutboundBackground: /* Error: Ran out of types for this method. */;
+- (double)trackTintColor;
+- (double)trackSelectedGuid:selectionState: /* Error: Ran out of types for this method. */;
+- (id)trackEvent:withDictionary: /* Error: Ran out of types for this method. */;
+- (id)totalPacketsCount;
+- (double)totalMessagePartCount;
+- (double)totalCount;
 - (id);
 - (id);
 - (id);
@@ -40,15 +32,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) LPImageViewStyle *muteButton; // @synthesize muteButton=_muteButton;
-@property(nonatomic) double muteButtonHighlightedOpacity; // @synthesize muteButtonHighlightedOpacity=_muteButtonHighlightedOpacity;
-@property(nonatomic) double muteButtonOpacity; // @synthesize muteButtonOpacity=_muteButtonOpacity;
-@property(readonly, retain, nonatomic) LPPadding *muteButtonPadding; // @synthesize muteButtonPadding=_muteButtonPadding;
 @property(readonly, nonatomic) LPVideoPlayButtonStyle *playButton; // @synthesize playButton=_playButton;
-@property(retain, nonatomic) UIColor *pulsingLoadIndicatorColor; // @synthesize pulsingLoadIndicatorColor=_pulsingLoadIndicatorColor;
-@property(nonatomic) double pulsingLoadIndicatorDuration; // @synthesize pulsingLoadIndicatorDuration=_pulsingLoadIndicatorDuration;
-@property(nonatomic) double pulsingLoadIndicatorMaximumOpacity; // @synthesize pulsingLoadIndicatorMaximumOpacity=_pulsingLoadIndicatorMaximumOpacity;
-@property(retain, nonatomic) CAMediaTimingFunction *pulsingLoadIndicatorTimingFunction; // @synthesize pulsingLoadIndicatorTimingFunction=_pulsingLoadIndicatorTimingFunction;
 
 @end
 

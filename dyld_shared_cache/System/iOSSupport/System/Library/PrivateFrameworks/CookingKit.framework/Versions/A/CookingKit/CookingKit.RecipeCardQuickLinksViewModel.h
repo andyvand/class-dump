@@ -8,16 +8,6 @@
 {
     id _id;
     id _cardID;
-    id _placement;
-    id _isSaved;
-    id _shareableRecipe;
-    id _savingEnabled;
-    id _externalShareAction;
-    id _isFocusable;
-    id _hasReadStorySource;
-    id _openStorySourceAction;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

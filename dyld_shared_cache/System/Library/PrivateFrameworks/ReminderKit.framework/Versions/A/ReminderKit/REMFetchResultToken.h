@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_disableDeviceCompatibilityNotification;
 - (_Bool);
 - (void);
 - (id);

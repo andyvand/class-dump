@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFColor, SFDrillDownMetadata, SFImage, SFSymbolImage;
+@class NSArray, NSString, SFColor;
 
 @protocol SFPerformEntityQueryCommand
+- (SFColor *);
+- (void)P;
 - (void)T@"_SFPBRFTextProperty",&,N,V_number_2;
 - (NSArray *),&,N,V_richTitleCardSection;
 - (NSString *)8v¼v¬x¬Ü·;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFDrillDownMetadata *drilldownMetadata;
-@property(copy, nonatomic) NSArray *enabledDomains;
-@property(retain, nonatomic) SFColor *entityBackgroundColor;
-@property(copy, nonatomic) NSString *entityIdentifier;
-@property(nonatomic) int entityType;
-@property(copy, nonatomic) NSArray *filterQueries;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFDrillDownMetadata *metadata;
 @property(copy, nonatomic) NSString *searchString;
-@property(retain, nonatomic) SFSymbolImage *symbolImage;
-@property(retain, nonatomic) SFImage *tokenImage;
-@property(copy, nonatomic) NSString *tokenString;
 @end
 

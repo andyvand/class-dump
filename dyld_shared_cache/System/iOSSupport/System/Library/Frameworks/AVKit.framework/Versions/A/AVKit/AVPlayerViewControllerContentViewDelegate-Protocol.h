@@ -5,5 +5,7 @@
 //
 
 @protocol AVPlayerViewControllerContentViewDelegate
+- (struct UIEdgeInsets)_SS6entitytG;
+- (void)G;
 @end
 

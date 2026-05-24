@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TInternalCloudProgressObserver
 {
     struct TNSWeakPtr<FI_TCloudProgressObserver> _observer;
-    struct TIndividualSyncProgressObserver _downloadProgress;
-    struct TIndividualSyncProgressObserver _uploadProgress;
-    int _progressCount;
-    optional_fcefa02e _accumulatedAggregateCompleted;
 }
 
 - (_Bool);
@@ -32,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak FI_TCloudProgressObserver *observer;
-@property(readonly, nonatomic) _Bool syncedWithICloud;
 
 @end
 

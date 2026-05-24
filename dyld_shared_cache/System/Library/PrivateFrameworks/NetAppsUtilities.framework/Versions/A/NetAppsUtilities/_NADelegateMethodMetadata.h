@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMethodSignature;
+@class NSMethodSignature;
 
 __attribute__((visibility("hidden")))
 @interface _NADelegateMethodMetadata
 {
     NSMethodSignature *_methodSignature;
-    CDUnknownBlockType _customHandler;
-    NSDictionary *_customLogSettingsByArgumentIndex;
 }
 
 - (void);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType customHandler; // @synthesize customHandler=_customHandler;
-@property(copy, nonatomic) NSDictionary *customLogSettingsByArgumentIndex; // @synthesize customLogSettingsByArgumentIndex=_customLogSettingsByArgumentIndex;
 @property(retain, nonatomic) NSMethodSignature *methodSignature; // @synthesize methodSignature=_methodSignature;
 
 @end

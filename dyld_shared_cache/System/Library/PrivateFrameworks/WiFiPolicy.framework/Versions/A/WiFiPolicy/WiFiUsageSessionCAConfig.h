@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface WiFiUsageSessionCAConfig
 {
     unsigned long long _ca_sampling;
-    double _ca_minTimeIntervalBetweenSubmissions;
-    NSDate *_ca_lastSubmission;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (double);
 - (id);
@@ -24,8 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *ca_lastSubmission; // @synthesize ca_lastSubmission=_ca_lastSubmission;
-@property(readonly, nonatomic) double ca_minTimeIntervalBetweenSubmissions; // @synthesize ca_minTimeIntervalBetweenSubmissions=_ca_minTimeIntervalBetweenSubmissions;
 @property(readonly, nonatomic) unsigned long long ca_sampling; // @synthesize ca_sampling=_ca_sampling;
 
 @end

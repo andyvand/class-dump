@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSGradient;
+@class NSColor;
 
 @interface AKTrackpadBackgroundView
 {
     NSColor *_topColor;
-    NSColor *_bottomColor;
-    NSGradient *_gradient;
 }
 
 - (id);
@@ -18,15 +16,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *bottomColor; // @synthesize bottomColor=_bottomColor;
-@property(retain, nonatomic) NSGradient *gradient; // @synthesize gradient=_gradient;
 @property(retain, nonatomic) NSColor *topColor; // @synthesize topColor=_topColor;
 
 @end

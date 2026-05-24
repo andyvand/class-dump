@@ -5,6 +5,6 @@
 //
 
 @protocol HMDIDSServerBagDelegate
-- (void)tDisconnected_HH2;
+- (void)_numberOfTimesPrimaryClientDisconnected_HH2;
 @end
 

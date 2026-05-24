@@ -9,8 +9,6 @@
 @interface EKUISpanView
 {
     _Bool _inset;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (void);
@@ -18,12 +16,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Y;
 - (void)0:8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property _Bool inset; // @synthesize inset=_inset;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

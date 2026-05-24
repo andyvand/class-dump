@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ICCloudContext, NSManagedObjectContext, NSPersistentStoreCoordinator;
+
 @protocol ICCloudContextDelegate
+- (NSManagedObjectContext *)	;
+- (_Bool)versionSpecificLocalizedStringForKey:(ICCloudContext *)arg1 inBundle: /* Error: Ran out of types for this method. */;
+- (_Bool)setAuthLevel:(ICCloudContext *)arg1;
+
+@optional
+- (NSPersistentStoreCoordinator *);
 @end
 

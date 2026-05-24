@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreArtworkInfo, NSArray, NSString;
+@class ICStoreArtworkInfo, NSString;
 
 @interface MPExportableArtworkProperties
 {
     NSString *_resolvedURLString;
-    NSArray *_artworkTemplateItems;
-    unsigned long long _mediaType;
-    long long _mediaLibraryArtworkType;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (long long);
+- (long long)C;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)resignKeyWindow;
 - (id);
 - (id);
 - (void)
 × ;
-- (void)MAPPING_MISSING__;
+- (void)__MPModelPropertySongIsFavorite__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) ICStoreArtworkInfo *artworkInfo;
-@property(copy, nonatomic) NSArray *artworkTemplateItems; // @synthesize artworkTemplateItems=_artworkTemplateItems;
-@property(readonly, nonatomic) id jsonRepresentation;
-@property(nonatomic) long long mediaLibraryArtworkType; // @synthesize mediaLibraryArtworkType=_mediaLibraryArtworkType;
-@property(nonatomic) unsigned long long mediaType; // @synthesize mediaType=_mediaType;
-@property(copy, nonatomic) NSString *resolvedURLString; // @synthesize resolvedURLString=_resolvedURLString;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

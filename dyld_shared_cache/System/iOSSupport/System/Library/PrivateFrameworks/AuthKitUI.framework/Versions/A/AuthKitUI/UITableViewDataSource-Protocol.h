@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol UITableViewDataSource
+
+@optional
+- (NSArray *);
+- (long long)_viewScale;
 @end
 

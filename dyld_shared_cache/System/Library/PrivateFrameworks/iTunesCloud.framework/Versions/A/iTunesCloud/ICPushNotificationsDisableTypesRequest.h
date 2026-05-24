@@ -6,13 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICPushNotificationsResponse, ICStoreRequestContext, NSString;
+@class ICStoreRequestContext;
 
 @interface ICPushNotificationsDisableTypesRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    NSString *_notificationType;
-    ICPushNotificationsResponse *_response;
 }
 
 - (id);

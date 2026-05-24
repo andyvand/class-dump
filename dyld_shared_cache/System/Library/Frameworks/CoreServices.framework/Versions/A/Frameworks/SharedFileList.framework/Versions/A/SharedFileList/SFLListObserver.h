@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, SFLList;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SFLListObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct __CFRunLoop *_runloop;
-    struct __CFString *_runloopMode;
-    id <SFLList> _list;
-    CDUnknownFunctionPointerType _callback;
-    void *_context;
 }
 
-+ (_Bool);
++ (_Bool)M*	;
 + (id);
 + (_Bool);
 + (id);
@@ -30,31 +25,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct __CFRunLoop *);
 - (unsigned long long);
-- (id);
+- (id)(;
 - (void *);
-- (_Bool);
+- (_Bool)executeSQL:(id)arg1 arguments: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)VideoRange;
 - (CDUnknownFunctionPointerType);
-- (void);
+- (void);
 - (void);
 - (void)t;
 
 // Remaining properties
-@property CDUnknownFunctionPointerType callback; // @synthesize callback=_callback;
-@property void *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <SFLList> list; // @synthesize list=_list;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) struct __CFRunLoop *runloop; // @synthesize runloop=_runloop;
-@property(readonly) struct __CFString *runloopMode; // @synthesize runloopMode=_runloopMode;
-@property(readonly) Class superclass;
 
 @end
 

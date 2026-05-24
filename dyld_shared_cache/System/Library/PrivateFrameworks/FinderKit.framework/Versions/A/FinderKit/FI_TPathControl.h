@@ -24,11 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool)à;
 
 // Remaining properties
-@property(nonatomic) _Bool delayWindowOrderingOnClickThrough; // @synthesize delayWindowOrderingOnClickThrough=_delayWindowOrderingOnClickThrough;
 @property __weak NSObject<TPathControlDelegate> *delegate;
 
 @end

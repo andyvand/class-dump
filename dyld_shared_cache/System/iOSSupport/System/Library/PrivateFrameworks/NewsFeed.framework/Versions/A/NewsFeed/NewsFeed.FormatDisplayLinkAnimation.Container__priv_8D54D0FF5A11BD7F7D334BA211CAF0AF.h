@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatDisplayLinkAnimation.Container__priv_8D54D0FF5A11BD7F7D334BA211CAF0AF
 {
     id animator;
-    id state;
-    id object;
 }
 
 - (void);

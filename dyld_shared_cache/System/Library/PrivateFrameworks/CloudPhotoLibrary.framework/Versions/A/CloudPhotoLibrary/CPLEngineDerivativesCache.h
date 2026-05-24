@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface CPLEngineDerivativesCache
 {
     NSURL *_cacheMappingURL;
-    _Bool _tryCreatingCacheFolder;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isGeneratingDerivatives;
-    NSMutableArray *_delayedGeneratedDerivativesCalls;
-    NSURL *_cacheURL;
-    Class _derivativeGeneratorClass;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,7 +20,7 @@
 - (Class);
 - (void);
 - (id);
-- (_Bool)ð6¥¹;
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
@@ -42,7 +35,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;
-@property(retain, nonatomic) Class derivativeGeneratorClass; // @synthesize derivativeGeneratorClass=_derivativeGeneratorClass;
 
 @end
 

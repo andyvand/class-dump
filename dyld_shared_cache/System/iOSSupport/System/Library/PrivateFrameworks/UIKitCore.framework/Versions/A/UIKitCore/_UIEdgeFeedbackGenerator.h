@@ -6,42 +6,27 @@
 
 #import <UIKitCore/UIFeedbackGenerator.h>
 
-@class _UIEdgeFeedbackGeneratorConfiguration, _UIFeedback, _UIFeedbackEngine;
-@protocol _UIFeedbackContinuousPlayable;
+@class _UIEdgeFeedbackGeneratorConfiguration, _UIFeedbackEngine;
 
 @interface _UIEdgeFeedbackGenerator : UIFeedbackGenerator
 {
     _UIFeedbackEngine *_feedbackEngine;
-    _Bool _playedOvershotThresholdFeedback;
-    _Bool _closeToEdge;
-    double _distance;
-    long long _axis;
-    double _extentBeyondDistance;
-    double _closeToEdgeUpdateTime;
-    double _value;
-    double _previousValue;
-    long long _lastState;
-    double _lastValueUpdateTime;
-    double _previousValueUpdateTime;
-    double _velocity;
-    _UIFeedback<_UIFeedbackContinuousPlayable> *_playingContinuousFeedback;
-    long long _state;
 }
 
 + (Class);
-- (double);
+- (double)_payloadCertTemplate;
 - (void)!ðCù^ð1Â0@ù
 × ;
 - (long long);
 - (double)ornerRadii="minXMaxY"{CGSize="width"d"height"d}"maxXMaxY"{CGSize="width"d"height"d}"maxXMinY"{CGSize="width"d"height"d}"minXMinY"{CGSize="width"d"height"d}};
-- (long long)ttachment:concealedMenu: /* Error: Ran out of types for this method. */;
+- (long long)_layoutWithUpdatedAttachment:concealedMenu: /* Error: Ran out of types for this method. */;
 - (void)ution to catch this in the debugger.
 Outdated action:%@ /* Error: Ran out of types for this method. */;
 - (long long)zþÿ;
 - (void)Q;
 - (void)shouldDimmingIgnoreTouches;
-- (void)IKeyboardSuggestionOptions;
-- (id)namicRange;
+- (void)TUIKeyboardSuggestionOptions;
+- (id)UITraitImageDynamicRange;
 - (void)tures;
 - (void)ock_invoke;
 - (void)acity;
@@ -88,23 +73,7 @@ Outdated action:%@ /* Error: Ran out of types for this method. */;
 - (void)äT`ÿ;
 
 // Remaining properties
-@property(nonatomic) long long axis; // @synthesize axis=_axis;
-@property(nonatomic, getter=_isCloseToEdge, setter=_setCloseToEdge:) _Bool closeToEdge; // @synthesize closeToEdge=_closeToEdge;
-@property(nonatomic, getter=_closeToEdgeUpdateTime, setter=_setCloseToEdgeUpdateTime:) double closeToEdgeUpdateTime; // @synthesize closeToEdgeUpdateTime=_closeToEdgeUpdateTime;
-@property(nonatomic) double distance; // @synthesize distance=_distance;
 @property(readonly, nonatomic, getter=_edgeConfiguration) _UIEdgeFeedbackGeneratorConfiguration *edgeConfiguration;
-@property(readonly, nonatomic, getter=_effectiveDistance) double effectiveDistance;
-@property(nonatomic) double extentBeyondDistance; // @synthesize extentBeyondDistance=_extentBeyondDistance;
-@property(nonatomic, getter=_lastState, setter=_setLastState:) long long lastState; // @synthesize lastState=_lastState;
-@property(nonatomic, getter=_lastValueUpdateTime, setter=_setLastValueUpdateTime:) double lastValueUpdateTime; // @synthesize lastValueUpdateTime=_lastValueUpdateTime;
-@property(readonly, nonatomic, getter=_isOvershot) _Bool overshot;
-@property(readonly, nonatomic, getter=_percentBeyondDistance) float percentBeyondDistance;
-@property(retain, nonatomic, getter=_playingContinuousFeedback, setter=_setPlayingContinuousFeedback:) _UIFeedback<_UIFeedbackContinuousPlayable> *playingContinuousFeedback; // @synthesize playingContinuousFeedback=_playingContinuousFeedback;
-@property(nonatomic, getter=_previousValue, setter=_setPreviousValue:) double previousValue; // @synthesize previousValue=_previousValue;
-@property(nonatomic, getter=_previousValueUpdateTime, setter=_setPreviousValueUpdateTime:) double previousValueUpdateTime; // @synthesize previousValueUpdateTime=_previousValueUpdateTime;
-@property(nonatomic, getter=_state, setter=_setState:) long long state; // @synthesize state=_state;
-@property(nonatomic, getter=_value, setter=_setValue:) double value; // @synthesize value=_value;
-@property(nonatomic, getter=_velocity, setter=_setVelocity:) double velocity; // @synthesize velocity=_velocity;
 
 @end
 

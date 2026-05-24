@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPassTileValueDate, PKPassTileValueForeignReference, PKPassTileValueNumber, PKPassTileValueText;
+@class PKPassTileValueForeignReference;
 
 @interface PKPassTileValue
 {
     _Bool _resolved;
-    long long _type;
 }
 
 + (id);
@@ -30,16 +29,11 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setHasLowLQMStay:(id)arg1;
+- (void)timeTillResumeAccumulatedMsec;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isResolved) _Bool resolved; // @synthesize resolved=_resolved;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) PKPassTileValueDate *valueTypeDate;
 @property(readonly, nonatomic) PKPassTileValueForeignReference *valueTypeForeignReference;
-@property(readonly, nonatomic) PKPassTileValueNumber *valueTypeNumber;
-@property(readonly, nonatomic) PKPassTileValueText *valueTypeText;
 
 @end
 

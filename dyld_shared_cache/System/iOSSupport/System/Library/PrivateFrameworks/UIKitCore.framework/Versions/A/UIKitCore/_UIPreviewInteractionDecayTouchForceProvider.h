@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol UICoordinateSpace, _UIPreviewInteractionTouchForceProviding;
+@protocol _UIPreviewInteractionTouchForceProviding;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionDecayTouchForceProvider
 {
     id <_UIPreviewInteractionTouchForceProviding> _touchForceProvider;
-    double _initialTouchForce;
-    struct CGPoint _location;
-    id <UICoordinateSpace> _coordinateSpace;
-    _Bool _active;
 }
 
 - (id);
@@ -28,14 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double touchForce;
 
 @end
 

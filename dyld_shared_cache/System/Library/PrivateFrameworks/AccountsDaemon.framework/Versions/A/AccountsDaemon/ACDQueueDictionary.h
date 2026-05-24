@@ -11,7 +11,7 @@
     NSMutableDictionary *_allQueuesByID;
 }
 
-- (id);
+- (id)R	;
 - (_Bool);
 - (id);
 - (id);

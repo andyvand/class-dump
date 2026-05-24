@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOCUndoManager, NSArray, NSString;
+@class NSArray;
 
 @interface DOCModifyFavoritesOperation
 {
     _Bool _isUnfavorite;
-    NSArray *_oldFavorites;
-    NSArray *_oldRanks;
-    NSArray *_updatedRanks;
-    DOCUndoManager *_undoManager;
 }
 
 - (id);
@@ -29,23 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionNameForUndoing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isUnfavorite; // @synthesize isUnfavorite=_isUnfavorite;
 @property(readonly, nonatomic) NSArray *oldFavorites; // @synthesize oldFavorites=_oldFavorites;
-@property(readonly, nonatomic) NSArray *oldRanks; // @synthesize oldRanks=_oldRanks;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) DOCUndoManager *undoManager; // @synthesize undoManager=_undoManager;
-@property(readonly, nonatomic) NSArray *updatedRanks; // @synthesize updatedRanks=_updatedRanks;
 
 @end
 

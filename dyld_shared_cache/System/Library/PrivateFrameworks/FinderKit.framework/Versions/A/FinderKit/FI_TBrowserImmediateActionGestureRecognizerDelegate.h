@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserImmediateActionGestureRecognizerDelegate
 {
@@ -16,20 +14,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)DisplayControllerDelegate_sharedInstance.updateEdgeToEdgeMediaStyleForMediaElement(e)})},MUIWebDocumentDisplayControllerDelegate.prototype.updateEdgeToEdgeMediaStyleForMediaElement=function(e){if(!e.classList.contains("lp-rich-link-mediaImage")){var t,n=document.body.getBoundingClientRect().width,o=document.body.clientWidth;if("IMG"===e.nodeName.toUpperCase()){var a=e.getAttribute("width");t=a||e.naturalWidth}else t=e.videoWidth;t>n?(e.classList.add("Apple-edge-to-edge-visual-media"),t>o?e.style.removeProperty("margin"):(id)arg1 e.style.margin="0 "+(o-n-(o-t))/-2+"px"):(id)arg2 (e.classList.remove("Apple-edge-to-edge-visual-media"),e.style.removeProperty("margin")),document.body.classList.contains("Singleton")?e.classList.add("Singleton"):e.classList.remove("Singleton")}},MUIWebDocumentDisplayControllerDelegate.prototype.prepareContentForWebDocument=function(){if(!this.expandedAbbreviatorIndexes){this.expandedAbbreviatorIndexes=[];for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].isAbbreviated||this.expandedAbbreviatorIndexes.push(e);this.expandAllRedundantContent()}},MUIWebDocumentDisplayControllerDelegate.prototype.prepareContentForDisplay=function(){if(this.expandedAbbreviatorIndexes){for(var e=0;e<this.redundantContentAbbreviators.length;e++)-1===this.expandedAbbreviatorIndexes.indexOf(e)&&this.redundantContentAbbreviators[e].abbreviate();this.expandedAbbreviatorIndexes=null}},MUIWebDocumentDisplayControllerDelegate.prototype.expandAllRedundantContent=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].expand()},MUIWebDocumentDisplayControllerDelegate.prototype.expandRedundantContentAbbreviatorAtIndex=function(e){this.redundantContentAbbreviators[e].expand()},MUIWebDocumentDisplayControllerDelegate.prototype.collapseAllRedundantContent=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].abbreviate()},MUIWebDocumentDisplayControllerDelegate.prototype.showRedundantContentLinks=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].showLink()},MUIWebDocumentDisplayControllerDelegate.prototype.hideRedundantContentLinks=function(){for(var e=0;e<this.redundantContentAbbreviators.length;e++)this.redundantContentAbbreviators[e].hideLink()},MUIWebDocumentDisplayControllerDelegate.prototype.printingDataCollapsingRedundantContent=function(e,t){e?this.collapseAllRedundantContent():this.expandAllRedundantContent(),document.documentElement.style.zoom=t;var n=document.documentElement.cloneNode(!0),o=n.getElementsByTagName("head"),a=document.createElement("style");if(a.type="text/css",a.textContent="@[EFFECTIVE_USER_STYLE]",o.length){var l=(o=o[0]).firstChild;l?o.insertBefore(a,l):o.appendChild(a)}else{o=document.createElement("head");var r=document.body;r?n.insertBefore(o,r):n.appendChild(o),o.appendChild(a)}var i={scrollHeight:document.body.scrollHeight,scrollWidth:document.body.scrollWidth,displayHTML:n.outerHTML};return JSON.stringify(i)},MUIWebDocumentDisplayControllerDelegate.prototype.verticalFoldPositionForRedundantContentAbbreviatorAtIndex=function(e){return this.redundantContentAbbreviators[e].verticalFoldPosition()};var MUIWebDocumentDisplayControllerDelegate_sharedInstance=new MUIWebDocumentDisplayControllerDelegate; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (const void *);
 - (void)ÿÿ&;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

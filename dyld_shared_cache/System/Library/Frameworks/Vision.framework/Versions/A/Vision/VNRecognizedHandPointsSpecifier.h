@@ -12,20 +12,19 @@ __attribute__((visibility("hidden")))
 @interface VNRecognizedHandPointsSpecifier : VNRecognizedPointsSpecifier
 {
     NSArray *_orderedHandKeypoints;
-    long long _chirality;
 }
 
 + (_Bool);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)fp_secureTempDirectoryIgnoringPersona;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)Option_CreateFromPixelBufferPool;
+- (void)VNImageBufferOption_CreateFromPixelBufferPool;
 
 // Remaining properties
 @property(readonly) long long chirality;

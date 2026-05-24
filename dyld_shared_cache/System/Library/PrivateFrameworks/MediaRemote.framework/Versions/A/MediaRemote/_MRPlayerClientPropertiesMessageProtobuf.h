@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRNowPlayingPlayerPathProtobuf;
-
 @interface _MRPlayerClientPropertiesMessageProtobuf
 {
     double _lastPlayingTimestamp;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    CDStruct_d7e5e336 _has;
 }
 
 - (void);
@@ -22,20 +18,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool)	˟;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)BoardServices;
 - (void);
 - (void)_touchDown;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastPlayingTimestamp;
 @property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(nonatomic) double lastPlayingTimestamp; // @synthesize lastPlayingTimestamp=_lastPlayingTimestamp;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

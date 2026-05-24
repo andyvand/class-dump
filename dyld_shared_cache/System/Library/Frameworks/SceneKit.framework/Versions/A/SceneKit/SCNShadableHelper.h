@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSNumber, SCNProgram;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SCNShadableHelper
 {
     id _owner;
-    SCNProgram *_program;
-    NSDictionary *_shaderModifiers;
-    NSArray *_c3dShaderModifierCache;
-    NSNumber *_minimumLanguageVersion;
-    NSMutableArray *_argumentsNames;
-    NSDictionary *_symbolToBinder;
-    NSDictionary *_symbolToUnbinder;
 }
 
 + (_Bool);
@@ -27,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct __C3DFXTechnique *);
 - (void);
@@ -49,19 +42,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)",R,C,V_value;
 - (_Bool);
 - (void);
+- (id)_bundleID;
 - (id);
-- (id);
-- (void)ickyAxis;
+- (void)_stickyAxis;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *minimumLanguageVersion;
-@property(readonly, nonatomic) id owner;
-@property(retain, nonatomic) SCNProgram *program;
 @property(copy, nonatomic) NSDictionary *shaderModifiers;
-@property(readonly, nonatomic) NSArray *shaderModifiersArgumentsNames;
 
 @end
 

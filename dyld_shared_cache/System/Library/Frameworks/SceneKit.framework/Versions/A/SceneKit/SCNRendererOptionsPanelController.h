@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSComboBox, NSOutlineView, NSPopUpButton, NSSlider, NSStepper, NSTextField, NSView, SCNRendererOptionsPanel, SCNUIDynamicInspector, SCNView;
+@class SCNView;
 
 __attribute__((visibility("hidden")))
 @interface SCNRendererOptionsPanelController
 {
     SCNView *_3dView;
-    SCNRendererOptionsPanel *_panel;
-    NSPopUpButton *antialiasingLevels;
-    NSPopUpButton *displayOptions;
-    NSPopUpButton *renderDebugOptions;
-    NSTextField *benchResult;
-    NSSlider *seekSlider;
-    NSStepper *seekStepper;
-    NSButton *isolate;
-    NSButton *freezeButton;
-    NSOutlineView *_sceneGraph;
-    NSView *renderGraphUtils;
-    SCNUIDynamicInspector *_inspector;
-    NSComboBox *pointOfViewComboBox;
-    NSComboBox *pointOfCullingComboBox;
-    NSButton *skipExecute;
-    NSButton *recordGraph;
-    _Bool _viewLocked;
-    _Bool _pointOfViewIsSelected;
-    unsigned int _currentSeekStep;
 }
 
 - (void);
@@ -42,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)&;
 - (void);
 - (void);
 - (void);
@@ -62,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (long long);

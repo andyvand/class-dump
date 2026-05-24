@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)isspellScore"b1"has_modelNumberMajor"b1"has_modelNumberMinor"b1"has_rankerModelType"b1"has_resultStatus"b1"has_isFromDLCacheModel"b1"has_isFromDLRuntimeModel"b1"read_debugResponse"b1"read_spellSuggestions"b1"read_tokenCandidates"b1"wrote_anyField"b1};
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_query) NSString *query;
-@property(readonly, nonatomic) NSString *sourceAppID;
 
 @end
 

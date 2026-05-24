@@ -6,19 +6,18 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class NSString, TIKeyboardState;
+@class TIKeyboardState;
 
 @interface TITypologyRecordGroupMarker : TITypologyRecord
 {
     TIKeyboardState *_keyboardState;
-    NSString *_textChange;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)deleteInitialSuggestionsStatement;
 - (void);
 - (void);
 - (id);
@@ -32,12 +31,11 @@
 À
 ¤
 ;
-- (id)ss;
-- (void)keeping;
+- (id)ungenerousness;
+- (void)shopkeeping;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(copy, nonatomic) NSString *textChange; // @synthesize textChange=_textChange;
 
 @end
 

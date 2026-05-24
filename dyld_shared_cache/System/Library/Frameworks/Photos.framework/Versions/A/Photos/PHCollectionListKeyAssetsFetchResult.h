@@ -6,46 +6,36 @@
 
 #import <Photos/PHFetchResult.h>
 
-@class NSArray, NSDictionary, NSOrderedSet, NSSet, PHCollectionList, PHFetchOptions, PHPhotoLibrary;
+@class NSArray;
 
 @interface PHCollectionListKeyAssetsFetchResult : PHFetchResult
 {
     id _changeHandlingKey;
-    PHFetchResult *_childCollectionsFetchResult;
-    PHCollectionList *_collectionList;
-    long long _collectionListKeyAssetLimit;
-    NSDictionary *_keyAssetFetchByCollectionID;
-    NSOrderedSet *_objectIDs;
-    PHFetchOptions *_options;
-    PHPhotoLibrary *_photoLibrary;
-    NSSet *_relevantOIDSet;
-    NSArray *_objects;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_createNewKeychainItemWithSignature: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void)edPersonLibraryURL;
 - (id)g for key assets by suggestionsBeingKeyAssets is only supported in a suggestion;
 - (_Bool)%d, ;
-- (id)uestAdjustmentBasePairedVideoUTIKey;
+- (id)PHResourceLocalAvailabilityRequestAdjustmentBasePairedVideoUTIKey;
 
 // Remaining properties
-@property(readonly) NSOrderedSet *objectIDs;
 @property(readonly) NSArray *objects; // @synthesize objects=_objects;
 
 @end

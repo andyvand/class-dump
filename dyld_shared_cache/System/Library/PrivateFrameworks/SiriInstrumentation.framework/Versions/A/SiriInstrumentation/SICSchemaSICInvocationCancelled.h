@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SICSchemaSICInvocationCancelled : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)%{public}@;
 - (_Bool);
-- (_Bool);
+- (_Bool)add_to_sync_deleted_messages;
 - (id);
 - (id);
-- (id)Signals;
+- (id)clearInferenceNotebookAppSelectionTrainingAppDependentSignals;
 - (id)CountCoreDuet2Min;
-- (_Bool)USMAPSQUERYLABEL_PERSONAL;
+- (_Bool)PEGASUSMAPSQUERYLABEL_PERSONAL;
 - (_Bool).item.collection.values.entity.typeIdentifier.custom.bundleId;
 - (void)ô;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

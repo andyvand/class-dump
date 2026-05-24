@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSDictionary, NSMutableArray, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface EMUserProfileProvider
 {
     struct os_unfair_lock_s _cacheLock;
-    NSObject<OS_dispatch_queue> *_cacheQueue;
-    int _outstandingCacheRefreshes;
-    _Bool _hasAccountsConfigured;
-    NSDictionary *_cache;
-    NSMutableArray *_knownToBeMyEmail;
-    NSMutableArray *_knownToNotBeMyEmail;
-    CNContactStore *_contactStore;
 }
 
-+ (_Bool);
++ (_Bool)=;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
+- (id)DefaultLocalPresenceDetectorDataSource;
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -45,21 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSSet *accountsEmailAddresses;
-@property(readonly, copy) NSSet *allEmailAddresses;
 @property(retain, nonatomic) NSDictionary *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSSet *contactEmailAddresses;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAccountsConfigured; // @synthesize hasAccountsConfigured=_hasAccountsConfigured;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *knownToBeMyEmail; // @synthesize knownToBeMyEmail=_knownToBeMyEmail;
-@property(readonly, nonatomic) NSMutableArray *knownToNotBeMyEmail; // @synthesize knownToNotBeMyEmail=_knownToNotBeMyEmail;
-@property(readonly) Class superclass;
 
 @end
 

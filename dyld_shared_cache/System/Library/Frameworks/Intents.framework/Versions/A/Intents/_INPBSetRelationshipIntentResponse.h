@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactCard;
+@class _INPBContactCard;
 
 @interface _INPBSetRelationshipIntentResponse
 {
     struct _has;
-    _INPBContactCard *_meCard;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)?;
+- (id)ITSTokenListGetTokenCollationKeyLengthAtIndex;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void):(id)arg1 o:path:/System/Library/PrivateFrameworks/Sharing.framework/Sharing /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void)etTarget;
+- (void)getTarget;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMeCard;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBContactCard *meCard; // @synthesize meCard=_meCard;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,15 +11,14 @@
 @interface BPSBookmarkableArrayEnumerator : BPSBookmarkableEnumerator
 {
     NSArray *_array;
-    unsigned long long _index;
 }
 
+- (void);
+- (id);
+- (id)UniversalAccessDomainSpeechSettingsDidChangeNotification;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)0:8Q16Q24@?32 /* Error: Ran out of types for this method. */;
 - (void)xpectedly found nil upstream in BPSWindower;
 
 @end

@@ -6,17 +6,12 @@
 
 #import <BridgeOSInstall/BOSOperation.h>
 
-@class NSDate, NSObject;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 @interface BOSSUCOperation : BOSOperation
 {
     _Bool _controllerOperationInProgress;
-    _Bool _delegateQueueActivated;
-    int _controllerEndingState;
-    NSObject<OS_dispatch_semaphore> *_controllerOperationComplete;
-    NSObject<OS_dispatch_semaphore> *_inProgressOperationComplete;
-    NSDate *_lastProgressLogDate;
 }
 
 - (void);
@@ -52,20 +47,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)act;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) int controllerEndingState; // @synthesize controllerEndingState=_controllerEndingState;
-@property(readonly) _Bool controllerEndingStateMustMatchExactly;
-@property(readonly) int controllerOperation;
 @property(retain) NSObject<OS_dispatch_semaphore> *controllerOperationComplete; // @synthesize controllerOperationComplete=_controllerOperationComplete;
-@property _Bool controllerOperationInProgress; // @synthesize controllerOperationInProgress=_controllerOperationInProgress;
-@property _Bool delegateQueueActivated; // @synthesize delegateQueueActivated=_delegateQueueActivated;
-@property(retain) NSObject<OS_dispatch_semaphore> *inProgressOperationComplete; // @synthesize inProgressOperationComplete=_inProgressOperationComplete;
-@property(retain) NSDate *lastProgressLogDate; // @synthesize lastProgressLogDate=_lastProgressLogDate;
-@property(readonly) _Bool shouldWaitForInProgressOperationToFinish;
 
 @end
 

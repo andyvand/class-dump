@@ -8,8 +8,6 @@
 {
     id foregroundStyle;
     id lineStyle;
-    id symbol;
-    id symbolSize;
 }
 
 @end

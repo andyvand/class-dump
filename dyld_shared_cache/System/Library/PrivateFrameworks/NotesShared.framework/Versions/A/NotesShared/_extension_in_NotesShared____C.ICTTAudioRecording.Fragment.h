@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCRObject.h>
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface (extension in NotesShared):__C.ICTTAudioRecording.Fragment : ICCRObject
 {
@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) NSDate *createdDate; // @dynamic createdDate;
-@property(nonatomic, retain) id transcript; // @dynamic transcript;
-@property(nonatomic, retain) NSNumber *transcriptVersion; // @dynamic transcriptVersion;
 
 @end
 

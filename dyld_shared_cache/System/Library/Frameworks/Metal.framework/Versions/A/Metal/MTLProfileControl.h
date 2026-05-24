@@ -7,26 +7,22 @@
 @interface MTLProfileControl
 {
     unsigned char _uscCliqueTraceLevel;
-    _Bool _uscEmitPosition;
-    _Bool _uscEmitThreadControlFlow;
 }
 
 - (_Bool);
 - (unsigned char);
+- (void)�?;
 - (void);
-- (void);
-- (void);
+- (void)6;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)O;
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned char uscCliqueTraceLevel; // @synthesize uscCliqueTraceLevel=_uscCliqueTraceLevel;
-@property(nonatomic) _Bool uscEmitPosition; // @synthesize uscEmitPosition=_uscEmitPosition;
-@property(nonatomic) _Bool uscEmitThreadControlFlow; // @synthesize uscEmitThreadControlFlow=_uscEmitThreadControlFlow;
 
 @end
 

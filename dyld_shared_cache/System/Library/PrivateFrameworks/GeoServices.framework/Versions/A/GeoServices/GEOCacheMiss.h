@@ -4,69 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOCacheMiss
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_errors;
-    unsigned int _bytes;
-    unsigned int _count;
-    unsigned int _httpStatus;
-    int _missType;
-    int _requestorType;
-    struct {
-        unsigned int has_bytes:1;
-        unsigned int has_count:1;
-        unsigned int has_httpStatus:1;
-        unsigned int has_missType:1;
-        unsigned int has_requestorType:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)hOverride:(id)arg1;
++ (_Bool)setHasMuteSpeechOverride:(id)arg1;
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (int);
+- (void)termOfAddressFromDataRepresentation:(unsigned int)arg1;
+- (id)numberWithInteger:(int)arg1;
+- (int)numberWithInt: /* Error: Ran out of types for this method. */;
+- (id)applicationsForUserActivityType:(int)arg1;
+- (int)applicationsAvailableForOpeningURL: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ing’ must be of type %{public}@;
+- (_Bool)e=QQ}8@?0;
+- (_Bool)protocol;
+- (_Bool)etherlands;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (int);
 - (int);
-- (void);
+- (void)supportedReadVersions;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)deviceProductVersion;
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (unsigned int);
-- (void);
+- (unsigned long long);
+- (_Bool)&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&%&&&&&&&&&&&&&&&&&&&&&&&&&&&r;
+- (unsigned int);
+- (void):8q16B24 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)
 × ;
-- (id)x:(struct _NSZone *)arg1;
+- (id)rangeAtIndex:(struct _NSZone *)arg1;
 - (id)Î;
 - (id)n                FROM region_name_mapping                WHERE name IN (SELECT rowid FROM region_names WHERE icu_match(region_names.name, @name) != 0)    )    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
 - (id)°;
@@ -75,18 +62,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int bytes;
-@property(nonatomic) unsigned int count;
-@property(retain, nonatomic) NSMutableArray *errors;
-@property(nonatomic) _Bool hasBytes;
-@property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasHttpStatus;
-@property(nonatomic) _Bool hasMissType;
 @property(nonatomic) _Bool hasRequestorType;
-@property(nonatomic) unsigned int httpStatus;
-@property(nonatomic) int missType;
-@property(nonatomic) int requestorType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetStore, FCCacheCoordinator, FCKeyValueStore, FCMapTable, NFUnfairLock, NSObject, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAssetKeyManagerType, FCNetworkBehaviorMonitor, FCNetworkReachabilityType, FCResourceURLGenerating, OS_dispatch_queue;
-
 @interface FCAssetManager
 {
     _Bool _shouldUseSecureConnectionForCKAssetDownloads;
-    NSString *_name;
-    NSString *_parentDirectory;
-    FCKeyValueStore *_keyValueStore;
-    FCAssetStore *_assetStore;
-    FCCacheCoordinator *_cacheCoordinator;
-    FCMapTable *_assetHandles;
-    NFUnfairLock *_assetHandlesLock;
-    id <FCNetworkBehaviorMonitor> _networkBehaviorMonitor;
-    id <FCNetworkReachabilityType> _networkReachability;
-    id <FCAssetKeyManagerType> _keyManager;
-    NSObject<OS_dispatch_queue> *_initQueue;
-    NSURL *_directoryURLForCachedAssets;
-    id <FCAVAssetFactoryType> _avAssetFactory;
-    id <FCResourceURLGenerating> _resourceURLGenerator;
 }
 
 - (unsigned long long);
@@ -33,35 +16,28 @@
 - (id);
 - (id);
 - (void);
+- (id)`;
+- (id);
+- (id);
+- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)strongSelf1 went away in %{public}s;
 - (void);
 - (void);
 - (id);
 - (long long);
-- (void)isherDiversificationPenalty;
-- (id)ndedIssuePublisherScoreOutputName;
+- (void)publisherDiversificationPenalty;
+- (id)recommendedIssuePublisherScoreOutputName;
 - (void)1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCConfigurationManager.m;
 - (void);
 - (void)(Ýÿ¢]};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long storageSize;
-@property(readonly) Class superclass;
 
 @end
 

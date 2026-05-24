@@ -6,19 +6,13 @@
 
 #import <AVConference/VCMediaStreamGroupConfig.h>
 
-@class AVCStatisticsCollector, NSObject;
+@class NSObject;
 @protocol VCRedundancyControllerProtocol;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamSendGroupConfig : VCMediaStreamGroupConfig
 {
     _Bool _shouldSynchronizeWithSourceRTPTimestamps;
-    _Bool _streamGroupRedundancyControlEnabled;
-    unsigned int _streamGroupMode;
-    int _redundancyMode;
-    unsigned int _redundancyPercentage;
-    AVCStatisticsCollector *_statisticsCollector;
-    NSObject<VCRedundancyControllerProtocol> *_redundancyController;
 }
 
 - (_Bool);
@@ -33,18 +27,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (int);
-- (id);
+- (id)R;
 - (unsigned int);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<VCRedundancyControllerProtocol> *redundancyController; // @synthesize redundancyController=_redundancyController;
-@property(nonatomic) int redundancyMode; // @synthesize redundancyMode=_redundancyMode;
-@property(nonatomic) unsigned int redundancyPercentage; // @synthesize redundancyPercentage=_redundancyPercentage;
-@property(nonatomic) _Bool shouldSynchronizeWithSourceRTPTimestamps; // @synthesize shouldSynchronizeWithSourceRTPTimestamps=_shouldSynchronizeWithSourceRTPTimestamps;
-@property(retain, nonatomic) AVCStatisticsCollector *statisticsCollector; // @synthesize statisticsCollector=_statisticsCollector;
-@property(nonatomic) unsigned int streamGroupMode; // @synthesize streamGroupMode=_streamGroupMode;
-@property(nonatomic) _Bool streamGroupRedundancyControlEnabled; // @synthesize streamGroupRedundancyControlEnabled=_streamGroupRedundancyControlEnabled;
 
 @end
 

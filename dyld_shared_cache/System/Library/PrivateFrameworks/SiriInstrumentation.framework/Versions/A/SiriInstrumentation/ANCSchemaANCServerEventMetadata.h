@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ANCSchemaANCServerEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ancId;
-    _Bool _hasAncId;
 }
 
 - (void);
@@ -23,18 +22,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id)TimeSinceTriggerInMilliseconds: /* Error: Ran out of types for this method. */;
+- (id)setTimeSinceTriggerInMilliseconds: /* Error: Ran out of types for this method. */;
 - (id)¸«¬;
-- (id)NNLUCOMPONENT_SPAN_MATCH_CONTEXTUAL_SPAN_MATCHER;
+- (id)USOENTITYSPANNLUCOMPONENT_SPAN_MATCH_CONTEXTUAL_SPAN_MATCHER;
 - (void)X÷¥ÿÄß³I@';
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *ancId; // @synthesize ancId=_ancId;
-@property(nonatomic) _Bool hasAncId; // @synthesize hasAncId=_hasAncId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

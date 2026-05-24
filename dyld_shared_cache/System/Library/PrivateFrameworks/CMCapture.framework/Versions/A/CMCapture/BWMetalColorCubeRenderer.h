@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWColorLookupCache, FigColorCubeMetalFilter, NSBundle, NSData, NSString;
-@protocol MTLCommandQueue;
+@class NSBundle;
 
 @interface BWMetalColorCubeRenderer
 {
     NSBundle *_bundle;
-    FigColorCubeMetalFilter *_filters[5];
-    NSData *_currentForegroundColorLookupTables[5];
-    NSData *_currentBackgroundColorLookupTables[5];
-    struct BWInterpolatedColorLookupTableEntry _interpolatedForegroundColorLookupTables[5];
-    struct BWInterpolatedColorLookupTableEntry _interpolatedBackgroundColorLookupTables[5];
-    BWColorLookupCache *_colorLookupCache;
-    id <MTLCommandQueue> _mtlCommandQueue;
-    _Bool _mixingColorCubesInGammaDomain;
-    float _previousInterpolationFractionComplete;
 }
 
 + (id)½u3ÿÅr.ÿÎo)ÿÔm$ÿÙk!ÿÛjÿÛj ÿ%Mÿ%Lÿ%Lÿ%Lÿ%Lÿ%Lÿ%Kÿ%Kÿ,Kÿ7Jÿ@JÿIJÿQJÿYJÿcIÿkIÿsIÿ|HÿHÿHÿEÿBÿ¦?ÿ¯;ÿ·7ÿ¾2ÿÆ|.ÿÏz(ÿÕx$ÿÚv ÿÜvÿÜuÿ$Jÿ$Jÿ$Jÿ$Jÿ$Iÿ$Iÿ$Iÿ$Hÿ&Hÿ2Hÿ<GÿEGÿNGÿWGÿ`FÿiFÿqEÿzEÿEÿDÿDÿ Aÿ¨=ÿ°9ÿ¸5ÿÀ1ÿÈ,ÿÐ'ÿÖ"ÿÛÿÝÿÝÿ#¢Gÿ#¢Gÿ#¢Gÿ#¢Gÿ#¢Gÿ#¡Fÿ#¡Fÿ#¡Fÿ# Eÿ- Eÿ8 DÿB DÿK DÿS Cÿ] CÿfBÿo Bÿx Aÿ Aÿ @ÿ @ÿ¡¡@ÿ©<ÿ²7ÿº3ÿÂ/ÿÉ*ÿÑ$ÿØ ÿÜÿÞÿÞÿ"ªDÿ"ªDÿ"©Dÿ"©Dÿ"©Dÿ"©Cÿ"©Cÿ"©Cÿ"¨Bÿ(¨Bÿ3¨Aÿ=¨AÿG¨@ÿP¨@ÿZ¨?ÿc¨?ÿl¨>ÿu¨=ÿ¨=ÿ¨<ÿ©;ÿ©;ÿª©;ÿ³¦6ÿ»£1ÿÃ¡,ÿË'ÿÓ!ÿÚÿÞÿàÿàÿ²Aÿ²Aÿ²Aÿ²Aÿ²@ÿ±@ÿ±@ÿ±?ÿ±?ÿ!±>ÿ.±>ÿ9±=ÿC±<ÿL±<ÿW±;ÿ`±:ÿi±:ÿs±9ÿ}²8ÿ²7ÿ²6ÿ³5ÿ¨³5ÿ´´4ÿ½±/ÿÅ®*ÿÍ¬$ÿÖªÿÜ©ÿá¨ÿã¨ÿã§ÿ¹>ÿ¹>ÿ¹>ÿ¹>ÿ¹>ÿ¹=ÿ¹=ÿ¹<ÿ¸<ÿ¸;ÿ)¸;ÿ5¸:ÿ?¸9ÿI¸8ÿT¹7ÿ]¹7ÿf¹6ÿp¹5ÿ{º3ÿº2ÿ»1ÿ»0ÿ¦¼/ÿ³½.ÿ¾½-ÿÆ»'ÿÏ¹!ÿ×·ÿÞ¶ÿãµÿæµÿæ´ÿÀ<ÿÀ<ÿÀ<ÿÀ<ÿÀ;ÿÀ;ÿÀ;ÿÀ:ÿÀ:ÿÀ9ÿ%À8ÿ1À7ÿ<À6ÿFÀ5ÿQÀ4ÿZÁ3ÿdÁ2ÿnÂ1ÿyÂ/ÿÃ.ÿÃ,ÿÄ+ÿ¤Å*ÿ±Æ(ÿ¼Æ'ÿÇÇ&ÿÐÅÿÙÃÿàÂÿåÂÿèÁÿèÁÿÇ:ÿÇ:ÿÇ:ÿÇ:ÿÇ:ÿÇ9ÿÇ9ÿÇ8ÿÇ8ÿÇ7ÿ!Ç6ÿ.Ç5ÿ9Ç4ÿDÈ3ÿOÈ2ÿXÈ0ÿbÉ/ÿlÉ-ÿwÊ,ÿË*ÿÌ(ÿÌ&ÿ¢Í$ÿ¯Î"ÿ»Ï!ÿÆÐÿÑÐÿÚÏÿáÎÿçÎÿêÎÿêÎÿÎ:ÿÎ9ÿÎ9ÿÎ9ÿÎ9ÿÎ8ÿÎ8ÿÎ7ÿÎ7ÿÎ6ÿ Î5ÿ-Î4ÿ8Ï2ÿBÏ1ÿMÐ0ÿWÐ.ÿaÑ-ÿjÒ+ÿvÒ)ÿÓ'ÿÔ%ÿÕ"ÿ¡Ö ÿ®×ÿºØÿÅÙÿÐÚÿÛÛÿãÛÿèÚÿëÚÿìÚÿÓ:ÿÓ:ÿÓ:ÿÓ9ÿÔ9ÿÔ9ÿÔ8ÿÔ8ÿÔ7ÿÔ6ÿ!Ô5ÿ-Ô4ÿ8Õ2ÿBÕ1ÿMÖ/ÿVÖ.ÿ`×,ÿjØ*ÿuÙ(ÿÚ%ÿÛ#ÿÜ ÿ¡Ýÿ®Þÿ¹ßÿÅáÿÐâÿÛãÿääÿêäÿíäÿíäÿØ<ÿØ<ÿØ;ÿØ;ÿØ;ÿØ:ÿØ:ÿØ9ÿÙ9ÿÙ8ÿ%Ù6ÿ0Ù5ÿ:Ú4ÿCÚ2ÿNÛ0ÿWÜ/ÿaÜ-ÿkÝ+ÿvÞ)ÿß&ÿà$ÿá!ÿ¡âÿ®äÿ¹åÿÅæÿÐèÿÛéÿäêÿêëÿîë	ÿîë	ÿÜ?ÿÜ?ÿÜ?ÿÜ?ÿÜ>ÿÜ>ÿÜ=ÿÜ=ÿÜ<ÿ!Ý;ÿ+Ý9ÿ5Ý8ÿ>Þ7ÿGÞ5ÿQß3ÿZß2ÿcà0ÿlá.ÿwâ+ÿã)ÿä'ÿå$ÿ¡æ!ÿ®èÿºéÿÅêÿÐìÿÛíÿäîÿëïÿïïÿïðÿßEÿßEÿßDÿßDÿßDÿßCÿßCÿßBÿ$ßAÿ-ß@ÿ5à?ÿ=à>ÿEà<ÿMá;ÿVá9ÿ^â7ÿgâ6ÿpã4ÿzä1ÿå/ÿæ-ÿç*ÿ£è(ÿ¯é%ÿ»ë"ÿÆì ÿÐíÿÜîÿäïÿëðÿïñÿðñÿ /* Error: Ran out of types for this method. */;
 + (void)TimeMovieFileSinkNode handleDroppedSample:forInput:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (short);
 - (int);
@@ -35,18 +25,7 @@
 - (_Bool)Ï;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adjustsMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool mixingColorCubesInGammaDomain;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAnimation;
-@property(readonly, nonatomic) short type;
 
 @end
 

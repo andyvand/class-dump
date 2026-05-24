@@ -5,14 +5,11 @@
 //
 
 @protocol _MKPlaceCardRefreshable
+- (void);
+- (void);
+- (void)computeTransform:(unsigned long long)arg1 forRegisteringImageSignature:withSignature:minimumOverlap:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double headerSecondaryNameLabelPadding;
-@property(nonatomic) unsigned long long options;
-@property(nonatomic) _Bool placeHasRating;
-@property(nonatomic) _Bool placeInBookmarks;
 @property(nonatomic) _Bool placeInCollections;
-@property(nonatomic) _Bool placeInFavoritesGuide;
-@property(nonatomic) _Bool placeInShortcuts;
 @end
 

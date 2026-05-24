@@ -7,33 +7,25 @@
 @interface MPSMatrixBinaryKernel
 {
     unsigned long long _batchStart;
-    unsigned long long _batchSize;
-    CDStruct_67e7699a _primarySourceMatrixOrigin;
-    CDStruct_67e7699a _secondarySourceMatrixOrigin;
-    CDStruct_67e7699a _resultMatrixOrigin;
 }
 
 - (void);
 - (void);
 - (void);
-- (CDStruct_67e7699a);
-- (CDStruct_67e7699a);
-- (CDStruct_67e7699a);
+- (CDStruct_14f26992);
+- (CDStruct_14f26992)TK;
+- (CDStruct_14f26992);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) unsigned long long batchStart; // @synthesize batchStart=_batchStart;
-@property(nonatomic) CDStruct_67e7699a primarySourceMatrixOrigin; // @synthesize primarySourceMatrixOrigin=_primarySourceMatrixOrigin;
-@property(nonatomic) CDStruct_67e7699a resultMatrixOrigin; // @synthesize resultMatrixOrigin=_resultMatrixOrigin;
-@property(nonatomic) CDStruct_67e7699a secondarySourceMatrixOrigin; // @synthesize secondarySourceMatrixOrigin=_secondarySourceMatrixOrigin;
+@property(nonatomic) CDStruct_14f26992 primarySourceMatrixOrigin; // @synthesize primarySourceMatrixOrigin=_primarySourceMatrixOrigin;
 
 @end
 

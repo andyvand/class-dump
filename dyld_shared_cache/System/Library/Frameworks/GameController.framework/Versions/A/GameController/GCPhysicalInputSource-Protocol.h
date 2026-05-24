@@ -7,11 +7,9 @@
 @class NSSet, NSString;
 
 @protocol GCPhysicalInputSource
+- (NSString *);
 
 // Remaining properties
-@property(readonly) unsigned long long direction;
 @property(readonly, copy) NSSet *elementAliases;
-@property(readonly, copy) NSString *elementLocalizedName;
-@property(readonly, copy) NSString *sfSymbolsName;
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
 @protocol NSObject;
 
 @interface UIPointerRegion
 {
     id <NSObject> _identifier;
-    unsigned long long _latchingAxes;
-    unsigned long long _generationID;
-    UIView *_referenceView;
-    struct CGRect _rect;
 }
 
 + (id);
-- (void);
+- (void));
 - (id);
 - (unsigned long long);
-- (_Bool)s;
-- (void)DidChange:(id)arg1;
+- (_Bool)minimumFrameRates;
+- (void)_inputModeDidChange:(id)arg1;
 - (struct CGRect),V_sourceRectInParentUIWindow;
 - (_Bool)ntationBlock;
 - (id)oller",R,W,N;
@@ -36,19 +31,7 @@
 - (unsigned long long)8sf;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isLatching;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long generationID; // @synthesize generationID=_generationID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <NSObject> identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long latchingAxes; // @synthesize latchingAxes=_latchingAxes;
 @property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(nonatomic) __weak UIView *referenceView; // @synthesize referenceView=_referenceView;
-@property(readonly) Class superclass;
 
 @end
 

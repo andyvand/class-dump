@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @protocol _CPClientTimingFeedback
+- (void)ltHash<WTF:(unsigned long long)arg1:WeakPtr<WebKit::NetworkProcessProxy>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebKit::NetworkProcessProxy>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::NetworkProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (unsigned long long)alue = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebPageProxy>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)!D;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *eventName;
-@property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long nanosecondInterval;
-@property(nonatomic) unsigned long long queryId;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

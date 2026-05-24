@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)ce [] sil=%{public}@ position=Specified section=%{public}@ afterItem=%{public}@ inSection=%{public}@;

@@ -14,10 +14,10 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
-- (void);
+- (void)L;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;

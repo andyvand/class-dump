@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAdaptiveImageGlyph, NSData, NSFileWrapper, NSImage, NSString, NSTextAttachmentView, UTType;
-@protocol NSTextAttachmentCell;
+@class NSData;
 
 @interface NSTextAttachment
 {
     NSData *_data;
-    UTType *_uti;
-    NSString *_cacheKey;
-    struct CGRect _bounds;
-    double _layoutPadding;
-    struct {
-        unsigned int _allowsTextAttachmentView:1;
-        unsigned int _embeddingType:4;
-        unsigned int _standaloneAlignment:3;
-        unsigned int _allocatesTextContainer:1;
-        unsigned int _prefersOldAttachmentBounds:1;
-        unsigned int _prefersOldImageForBounds:1;
-        unsigned int _cellWasExplicitlySet:1;
-        unsigned int _ignoresOrientation:1;
-        unsigned int _allowsEditingContents:1;
-        unsigned int _viewProviderPriority:1;
-    } _taFlags;
-    NSFileWrapper *_fileWrapperForContents;
-    NSImage *_image;
-    NSTextAttachmentView *_wrapperView;
-    id <NSTextAttachmentCell> _attachmentCell;
-    NSAdaptiveImageGlyph *_adaptiveImageGlyph;
 }
 
 @end

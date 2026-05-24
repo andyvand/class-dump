@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSArray;
-
 @interface CKFetchRecordZoneChangesConfiguration
 {
     _Bool _fetchNewestChangesFirst;
-    _Bool _fetchChangesMadeByThisDevice;
-    NSArray *_desiredKeys;
-    CKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
 }
 
 + (_Bool);
-+ (void)eadOnlyParticipantsSeeSelfAndOwner;
++ (void)ReadOnlyParticipantsSeeSelfAndOwner;
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (_Bool)9*;
+- (void)@;
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool)itableError;
+- (id);
+- (id);
+- (void);
+- (_Bool)CKClientSuitableError;
 - (void)è;
-- (unsigned long long);
+- (unsigned long long)UseModTimeInAssetCacheEviction;
 - (void)oneIDC)ÎbySo0aB0CÍb_pGG11saveResults_SDyAbCyytAF_pGG06deleteE0t;
 
 // Remaining properties
-@property(copy) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property _Bool fetchChangesMadeByThisDevice; // @synthesize fetchChangesMadeByThisDevice=_fetchChangesMadeByThisDevice;
 @property _Bool fetchNewestChangesFirst; // @synthesize fetchNewestChangesFirst=_fetchNewestChangesFirst;
-@property(copy) CKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 
 @end
 

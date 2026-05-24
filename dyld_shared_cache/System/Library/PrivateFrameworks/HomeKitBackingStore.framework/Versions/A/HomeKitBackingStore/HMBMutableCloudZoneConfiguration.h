@@ -10,11 +10,11 @@
 {
 }
 
-- (id);
+- (id)for extension:(struct _NSZone *)arg1 %{public}@
+Reason:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool shouldRebuildOnManateeKeyLoss; // @dynamic shouldRebuildOnManateeKeyLoss;
-@property _Bool shouldSkipCloudPulls; // @dynamic shouldSkipCloudPulls;
 
 @end
 

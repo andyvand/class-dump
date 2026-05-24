@@ -6,47 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGModelInferenceStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _modelInterface;
-    struct {
-        unsigned int modelInterface:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
 - (void);
 - (int);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)change has not been integrated for authenticateAndDeleteRecoveryKeyWithCompletion;
+- (id)%@;
+- (_Bool)JS_TransferCookie;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)atabase] ERROR:(id)arg1 Got a NULL identifier for handleID[%lld]. Something is seriously wrong.;
 - (id);
 - (id)!´CùÝÐ1Â0@ù
 × ;
-- (id)sPnrodIntelligenceFlowRequestGrainSummary;
+- (id)_hasPnrodIntelligenceFlowRequestGrainSummary;
 - (id)ntext;
-- (void)UTE_TOP_HYPOTHESIS;
+- (void)CAMACTION_EXECUTE_TOP_HYPOTHESIS;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasModelInterface;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int modelInterface; // @synthesize modelInterface=_modelInterface;
 
 @end
 

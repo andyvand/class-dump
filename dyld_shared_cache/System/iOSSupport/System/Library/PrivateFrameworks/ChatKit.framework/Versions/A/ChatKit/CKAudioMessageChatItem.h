@@ -6,28 +6,26 @@
 
 #import <ChatKit/CKExpirableMessageChatItem.h>
 
-@class CKAudioMediaObject, NSString;
+@class CKAudioMediaObject;
 
 @interface CKAudioMessageChatItem : CKExpirableMessageChatItem
 {
     _Bool _isExpanded;
 }
 
-- (_Bool);
+- (_Bool)ail invalidated for set of notes;
 - (Class);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (Class);
+- (Class)qc;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *audioTranscriptionText;
-@property(nonatomic) _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
 @property(readonly, nonatomic) CKAudioMediaObject *mediaObject; // @dynamic mediaObject;
 
 @end

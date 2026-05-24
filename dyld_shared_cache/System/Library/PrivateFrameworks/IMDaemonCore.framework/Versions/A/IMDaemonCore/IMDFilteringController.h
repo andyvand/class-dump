@@ -4,61 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDService, NSArray, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol IMDCommunicationTrustManaging, IMDIdentityLookupDecisioningManaging, IMDRelayPushHandling, IMDTrustKitDecisioningManaging, IMSyncedSettingsManaging, OS_dispatch_queue;
-
 @interface IMDFilteringController
 {
     _Bool _hasSpamExtensionUpdated;
-    id <IMDTrustKitDecisioningManaging> _trustKitDecisioningManager;
-    NSMutableDictionary *_spamBlockMap;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    id <IMSyncedSettingsManaging> _syncedSettingsManager;
-    NSMutableSet *_pendingPriorityMessageGUIDs;
-    id <IMDIdentityLookupDecisioningManaging> _identityLookupDecisioningManager;
-    id <IMDCommunicationTrustManaging> _communicationTrustManager;
-    id <IMDRelayPushHandling> _relayPushHandler;
 }
 
 + (id);
 + (id);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void)R;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id)H;
+- (id);
+- (_Bool)5.`;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (void)`;
+- (_Bool)A;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,53 +60,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)0a;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)%@;
+- (id)' not sealed;
 - (void)};
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) id <IMDCommunicationTrustManaging> communicationTrustManager; // @synthesize communicationTrustManager=_communicationTrustManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasSpamExtensionUpdated; // @synthesize hasSpamExtensionUpdated=_hasSpamExtensionUpdated;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <IMDIdentityLookupDecisioningManaging> identityLookupDecisioningManager; // @synthesize identityLookupDecisioningManager=_identityLookupDecisioningManager;
-@property(retain, nonatomic) NSMutableSet *pendingPriorityMessageGUIDs; // @synthesize pendingPriorityMessageGUIDs=_pendingPriorityMessageGUIDs;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(retain, nonatomic) id <IMDRelayPushHandling> relayPushHandler; // @synthesize relayPushHandler=_relayPushHandler;
-@property(readonly, nonatomic) IMDService *service;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"IMDService",?,R,N
-
-@property(retain, nonatomic) NSMutableDictionary *spamBlockMap; // @synthesize spamBlockMap=_spamBlockMap;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <IMSyncedSettingsManaging> syncedSettingsManager; // @synthesize syncedSettingsManager=_syncedSettingsManager;
-@property(retain, nonatomic) id <IMDTrustKitDecisioningManaging> trustKitDecisioningManager; // @synthesize trustKitDecisioningManager=_trustKitDecisioningManager;
 
 @end
 

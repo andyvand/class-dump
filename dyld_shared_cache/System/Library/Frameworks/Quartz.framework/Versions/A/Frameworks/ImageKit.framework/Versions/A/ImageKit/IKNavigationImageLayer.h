@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKImageLayer;
+@class CALayer;
 
 @interface IKNavigationImageLayer
 {
     CALayer *_imageBackgroundLayer;
-    IKImageLayer *_imageLayer;
-    struct CGRect _visible;
-    struct CGRect _visible2;
 }
 
 - (void);

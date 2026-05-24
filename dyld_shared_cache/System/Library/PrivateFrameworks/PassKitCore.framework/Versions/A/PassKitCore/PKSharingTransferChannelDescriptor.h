@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_txRetransmissionRate;
 - (void)activeMethodGroup;
 
 // Remaining properties

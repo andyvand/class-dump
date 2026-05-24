@@ -6,55 +6,18 @@
 
 #import <AVConference/VCObject.h>
 
-@class AVCStatisticsCollector, NSArray, NSDictionary, NSObject, NSString, TimingCollection, VCExperimentManager, VCMediaKeyIndex, VCMediaRecorder, VCNetworkFeedbackController;
-@protocol OS_dispatch_queue, VCMediaCaptureController;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamGroup : VCObject
 {
     NSArray *_mediaStreamInfoArray;
-    NSArray *_mediaStreams;
-    NSDictionary *_streamIDToMediaStreamMap;
-    NSDictionary *_groupEntries;
-    NSString *_participantUUID;
-    NSString *_sessionUUID;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    VCNetworkFeedbackController *_networkFeedbackController;
-    AVCStatisticsCollector *_statisticsCollector;
-    TimingCollection *_perfTimers;
-    double _creationTime;
-    double _firstMediaPacketTime;
-    double _firstMediaKeyIndexTime;
-    _Bool _firstMediaFrameGapDetected;
-    VCMediaKeyIndex *_firstMediaKeyIndex;
-    _Bool _areStreamsSuspended;
-    id _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    _Bool _encryptionInfoReceived;
-    unsigned int _state;
-    unsigned long long _idsParticipantID;
-    unsigned int _rtpTimestampRate;
-    VCMediaRecorder *_mediaRecorder;
-    unsigned int _streamGroupID;
-    VCExperimentManager *_experimentManager;
-    long long _streamToken;
-    unsigned int _mediaType;
-    unsigned int _mediaSubtype;
-    unsigned int _syncGroupID;
-    id _captureController;
-    _Bool _hasRepairedStreams;
-    struct tagVCJBTargetEstimatorSynchronizer *_jbTargetEstimatorSynchronizer;
-    double _externalRenderLatency;
-    _Bool _enabledAtStart;
-    _Bool _haveReportedPerfTimers;
-    double _firstMediaFrameReceivedTime;
-    _Bool _ignoreMKINotifications;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)q@;
 - (unsigned int);
 - (id);
 - (unsigned int);
@@ -71,13 +34,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (struct tagVCSecurityKeyHolder *);
+- (struct tagVCSecurityKeyHolder *)";
 - (id);
 - (void);
-- (void);
+- (void)};
 - (_Bool);
 - (void);
 - (id);
@@ -92,11 +55,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)}9;
 - (double);
 - (void);
-- (double);
-- (_Bool);
+- (double);
+- (_Bool)+Kc;
 - (void);
 - (void);
 - (void);
@@ -105,12 +68,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int)_annotationTrackingHeadingAnimationDisplayRate;
+- (void)- CMPhoto unable to detect container format;
 - (void);
 - (id);
 - (long long);
@@ -120,7 +83,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)fffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}24^{?=IIII[9i][3I][9i]IIIIIIIIIIIIII{?=SSSS}[8{?=SSSSSSSs}]{?=SSSS}{?=SSS}{?=SSSSS}{?=SSSSS}[5{?=SSCSSSSSSSS[6C][6C]}]{?=SSCssssssss}[4{?=SSCSSCssssssss}]{?=SCCCC}{?=SS[256C]}{?=SCC}{?=SCCCCCC}SI}32^{__IOSurface=}40^{__IOSurface=}48;
 - (id);
 - (id);
 - (void)abled:(unsigned int)arg1 ];
@@ -128,31 +91,7 @@ __attribute__((visibility("hidden")))
 - (id)ioManager setupInterruptThread];
 
 // Remaining properties
-@property(nonatomic) id <VCMediaCaptureController> captureController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabledAtStart) _Bool enabledAtStart;
-@property(nonatomic) _Bool encryptionInfoReceived; // @synthesize encryptionInfoReceived=_encryptionInfoReceived;
-@property(nonatomic) double externalRenderLatency; // @synthesize externalRenderLatency=_externalRenderLatency;
-@property(nonatomic) double firstMediaFrameReceivedTime;
-@property(readonly, nonatomic) _Bool hasRepairedStreams; // @synthesize hasRepairedStreams=_hasRepairedStreams;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) VCMediaRecorder *mediaRecorder; // @synthesize mediaRecorder=_mediaRecorder;
-@property(readonly, nonatomic) NSArray *mediaStreamInfoArray; // @synthesize mediaStreamInfoArray=_mediaStreamInfoArray;
-@property(nonatomic) unsigned int mediaSubtype; // @synthesize mediaSubtype=_mediaSubtype;
-@property(nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) TimingCollection *perfTimers; // @synthesize perfTimers=_perfTimers;
-@property(readonly, nonatomic) struct tagVCSecurityKeyHolder *securityKeyHolder;
-@property(readonly, nonatomic) unsigned int state; // @synthesize state=_state;
-@property(retain, nonatomic) AVCStatisticsCollector *statisticsCollector; // @synthesize statisticsCollector=_statisticsCollector;
 @property(readonly, nonatomic) unsigned int streamGroupID; // @synthesize streamGroupID=_streamGroupID;
-@property(readonly, nonatomic) NSDictionary *streamIDToMediaStreamMap; // @synthesize streamIDToMediaStreamMap=_streamIDToMediaStreamMap;
-@property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int syncGroupID; // @synthesize syncGroupID=_syncGroupID;
 
 @end
 

@@ -6,18 +6,12 @@
 
 #import <SceneKit/SCNTextureSource.h>
 
-@class AVCaptureDevice, AVCaptureSession, NSString;
+@class AVCaptureDevice;
 
 __attribute__((visibility("hidden")))
 @interface SCNCaptureDeviceSource : SCNTextureSource
 {
     AVCaptureDevice *_captureDevice;
-    AVCaptureSession *_captureSession;
-    CDStruct_1e850d63 _data;
-    struct __CVMetalTextureCache *_textureCache;
-    _Bool _videoMirrored;
-    unsigned long long _width;
-    unsigned long long _height;
 }
 
 - (id);
@@ -26,17 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)ame;
+- (void)_beginFrame;
 
 // Remaining properties
 @property(retain, nonatomic) AVCaptureDevice *captureDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

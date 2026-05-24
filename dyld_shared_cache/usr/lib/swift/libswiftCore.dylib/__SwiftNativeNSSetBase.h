@@ -11,7 +11,7 @@
 
 + (_Bool)I;
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)erfMeasurement_t={IMFileLocation_t=****i}QQ^{__CFString}ddd}24;
 - (_Bool)à;
 - (_Bool)'
 ;

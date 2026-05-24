@@ -8,6 +8,11 @@
 {
 }
 
++ (id)_;
++ (id);
++ (id);
++ (id);
++ (id)LockedNotesHeaderView;
 + (id);
 + (id);
 + (id);
@@ -18,13 +23,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@;
++ (id);
 
 @end
 

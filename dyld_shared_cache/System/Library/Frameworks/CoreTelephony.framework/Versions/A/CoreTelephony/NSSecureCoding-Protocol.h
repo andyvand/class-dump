@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)oll must be one of the values defined in AVCaptionRegionScroll.;
 @end
 

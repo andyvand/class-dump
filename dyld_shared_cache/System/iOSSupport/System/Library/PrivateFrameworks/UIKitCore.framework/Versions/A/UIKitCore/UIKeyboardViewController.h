@@ -6,32 +6,23 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, UIInputViewController, UIKeyboard, UIKeyboardAutocorrectionController, UISystemInputAssistantViewController, UIView;
-@protocol UIKeyInput;
-
 @interface UIKeyboardViewController : UIViewController
 {
     _Bool _shouldUpdateLayoutAutomatically;
-    UIView<UIKeyInput> *_textInputView;
-    UIView *_pathEffectView;
-    unsigned long long _serviceRole;
-    UIKeyboard *_keyboard;
-    UIInputViewController *_inputViewController;
-    UISystemInputAssistantViewController *_systemInputAssistantViewController;
 }
 
 + (void);
 - (void);
+- (void)yl;
 - (void);
+- (_Bool)error fetching state from the server last time. Not fetching again;
+- (void)service session, please file a radar-------*/;
+- (id)list handles;
+- (void)retry again:(id)arg1 %@;
 - (void);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)effectsMetadata;
 - (id);
 - (void)0@ù
 × ;
@@ -49,27 +40,10 @@
 - (_Bool)°Ép;
 - (id)H£¥ÿ;
 - (void)¬µÿ®Ùü|l;
-- (id)A;
+- (id)4A;
 
 // Remaining properties
-@property(readonly, nonatomic) UIKeyboardAutocorrectionController *autocorrectionController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIView *inputAssistantView;
-@property(readonly, nonatomic) UIViewController *inputAssistantViewController;
-@property(retain, nonatomic) UIInputViewController *inputViewController; // @synthesize inputViewController=_inputViewController;
-@property(retain, nonatomic) UIKeyboard *keyboard; // @synthesize keyboard=_keyboard;
-@property(readonly, nonatomic) __weak UIView *pathEffectView; // @synthesize pathEffectView=_pathEffectView;
-@property(nonatomic) _Bool resizable;
 @property(nonatomic) unsigned long long serviceRole; // @synthesize serviceRole=_serviceRole;
-@property(nonatomic) _Bool shouldUpdateLayoutAutomatically; // @synthesize shouldUpdateLayoutAutomatically=_shouldUpdateLayoutAutomatically;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UISystemInputAssistantViewController *systemInputAssistantViewController; // @synthesize systemInputAssistantViewController=_systemInputAssistantViewController;
-@property(retain, nonatomic) UIView<UIKeyInput> *textInputView; // @synthesize textInputView=_textInputView;
 
 @end
 

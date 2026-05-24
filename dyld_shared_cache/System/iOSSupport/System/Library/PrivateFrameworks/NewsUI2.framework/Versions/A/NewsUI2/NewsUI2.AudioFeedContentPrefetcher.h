@@ -7,13 +7,10 @@
 @interface NewsUI2.AudioFeedContentPrefetcher
 {
     id feedConfigManager;
-    id formatService;
-    id bundleSubscriptionManager;
-    id backgroundAppRefreshEnabled;
 }
 
 - (id);
-- (void);
+- (void)I;
 - (void);
 
 @end

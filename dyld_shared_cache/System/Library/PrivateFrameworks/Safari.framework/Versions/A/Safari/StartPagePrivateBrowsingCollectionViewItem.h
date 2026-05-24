@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSStackView, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePrivateBrowsingCollectionViewItem
 {
     NSTextField *_titleText;
-    NSTextField *_descriptionText;
-    NSStackView *_stackView;
 }
 
 - (void);
@@ -25,15 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak NSTextField *descriptionText; // @synthesize descriptionText=_descriptionText;
-@property(readonly) unsigned long long hash;
-@property __weak NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
 @property __weak NSTextField *titleText; // @synthesize titleText=_titleText;
 
 @end

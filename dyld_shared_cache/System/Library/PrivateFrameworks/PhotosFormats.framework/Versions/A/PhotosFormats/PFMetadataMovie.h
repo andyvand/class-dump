@@ -6,13 +6,11 @@
 
 #import <PhotosFormats/PFMetadata.h>
 
-@class AVAsset, NSMutableDictionary, PFMetadataStateHandler;
+@class AVAsset;
 
 @interface PFMetadataMovie : PFMetadata
 {
     AVAsset *_asset;
-    NSMutableDictionary *_cached_values;
-    PFMetadataStateHandler *_stateHandler;
 }
 
 + (void);
@@ -20,11 +18,11 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (void);
++ (void)5RavenIntegrityEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_35NonHolonomicVelocityConstraintEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 + (void);
 + (struct AudioStreamBasicDescription);
 - (_Bool);
-- (id);
+- (id)errorMessage;
 - (id);
 - (id);
 - (id);
@@ -40,59 +38,59 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)D>D;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (struct opaqueCMFormatDescription *);
-- (void);
+- (void)x;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)X;
 - (void);
-- (void);
-- (long long);
+- (long long) ;
 - (struct AudioStreamBasicDescription);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)i;
+- (id);
+- (id)EDSearchableIndexAttachmentItemMetadatum;
+- (id);
 - (id);
 - (id);
 - (id);
+- (_Bool)`B;
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (struct opaqueCMFormatDescription *);
 - (id);
 - (id);
+- (id)ey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16;
 - (id);
 - (id);
 - (id);
-- (id);
+- (_Bool)fetchRecordsWithIDs:andFullRecords: /* Error: Ran out of types for this method. */;
+- (_Bool)createNewSharePCSDataForShareWithID:withPublicSharingKey:addDebugIdentity:error: /* Error: Ran out of types for this method. */;
+- (_Bool)clearActiveThrottlingLabels;
+- (id)_adopterCapabilitiesCheckRequest;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)or share/zone usage to the server will be in %{public}@.;
 - (id);
 - (id);
 - (unsigned int);
@@ -115,10 +113,10 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)T;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -129,7 +127,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (short);
 - (id);
 - (id);
@@ -137,15 +135,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)port enabling;
 - (id);
 - (void);
 - (id)é!Cù*°1Â0@ù
 × ;
-- (CDStruct_1b6d18a9)h"q}"duration"{?="value"q"timescale"i"flags"I"epoch"q}};
-- (_Bool)ToDirectoryURL:error: /* Error: Ran out of types for this method. */;
+- (CDStruct_198678f7)h"q}"duration"{?="value"q"timescale"i"flags"I"epoch"q}};
+- (_Bool)decodeContentsToDirectoryURL:error: /* Error: Ran out of types for this method. */;
 - (id),C,N,S_setVideoURL:,V_videoURL /* Error: Ran out of types for this method. */;
-- (id)rity;
+- (id)FailedMetadataIntegrity;
 - (_Bool)$°;
 - (_Bool)$;
 - (id)ocatorIcNS0_15segment_managerIcNS0_15rbtree_best_fitINS0_17null_mutex_familyENS0_10offset_ptrIvlmLm0EEELm0EEENS0_10iset_indexEEEEEEEN2pf17SceneTaxonomyNodeENS_4hashISK_EENS7_8equal_toISK_EENSA_INS7_4pairIKSK_SM_EESI_EEEELb0EJRSU_EEE;

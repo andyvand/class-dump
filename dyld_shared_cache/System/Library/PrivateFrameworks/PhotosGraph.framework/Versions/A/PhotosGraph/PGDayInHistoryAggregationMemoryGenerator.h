@@ -6,24 +6,18 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGDayInHistoryAggregationMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
+- (id)@32@40B48;
+- (void)performSelector:(_Bool)arg1 withObject:afterDelay:inModes: /* Error: Ran out of types for this method. */;
+- (void)performSelector:(_Bool)arg1 withObject:afterDelay: /* Error: Ran out of types for this method. */;
+- (_Bool)_completedWordForElement:info:requireWordDelimiter: /* Error: Ran out of types for this method. */;
+- (_Bool)_colorAttribute:forAttributedString:atIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)pfugCqAkKaPhovilJJX-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -31,7 +25,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void)ormatFeatureNotSupported;
+- (void)PGErrorFormatFeatureNotSupported;
 
 @end
 

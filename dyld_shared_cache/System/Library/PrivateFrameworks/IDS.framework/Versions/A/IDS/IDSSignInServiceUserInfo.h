@@ -7,16 +7,14 @@
 @interface IDSSignInServiceUserInfo
 {
     unsigned long long _type;
-    unsigned long long _status;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long status; // @synthesize status=_status;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -6,18 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFMACAddress, HMFWifiNetworkAssociation, NSHashTable, NSNumber, NSObject, NSString;
-@protocol HMFWiFiManagerDataSource, OS_dispatch_queue;
+@class HMFMACAddress;
 
 @interface HMFWiFiManager : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    _Bool _shouldAssertWoW;
-    HMFMACAddress *_MACAddress;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMFWiFiManagerDataSource> _dataSource;
-    NSString *_savedNetworkSSID;
-    NSHashTable *_activeAssertions;
 }
 
 + (id);
@@ -27,14 +20,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)$;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -43,18 +36,6 @@
 
 // Remaining properties
 @property(readonly, copy) HMFMACAddress *MACAddress; // @synthesize MACAddress=_MACAddress;
-@property(readonly, getter=isActive) _Bool active;
-@property(readonly, getter=isCaptive) _Bool captive;
-@property(readonly, copy) HMFWifiNetworkAssociation *currentNetworkAssociation;
-@property(readonly, copy, nonatomic) NSNumber *currentNetworkRSSI;
-@property(readonly, copy) NSString *currentNetworkSSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

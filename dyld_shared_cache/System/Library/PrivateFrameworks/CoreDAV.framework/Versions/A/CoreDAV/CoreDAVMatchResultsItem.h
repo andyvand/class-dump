@@ -11,28 +11,22 @@
 @interface CoreDAVMatchResultsItem : CoreDAVItem
 {
     CoreDAVLeafItem *_rank;
-    CoreDAVLeafItem *_language;
-    CoreDAVLeafItem *_region;
-    CoreDAVLeafItem *_calendarDescription;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)_viewContainer;
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Hb;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVLeafItem *calendarDescription; // @synthesize calendarDescription=_calendarDescription;
-@property(retain, nonatomic) CoreDAVLeafItem *language; // @synthesize language=_language;
 @property(retain, nonatomic) CoreDAVLeafItem *rank; // @synthesize rank=_rank;
-@property(retain, nonatomic) CoreDAVLeafItem *region; // @synthesize region=_region;
 
 @end
 

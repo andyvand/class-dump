@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapsDestinationsWidget, GEOMapsNearbyWidget, GEOMapsTransitWidget, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLogMsgEventMapsWidgetsInteractionSession
 {
     PBDataReader *_reader;
-    GEOMapsDestinationsWidget *_mapsDestinationsWidget;
-    GEOMapsNearbyWidget *_mapsNearbyWidget;
-    GEOMapsTransitWidget *_mapsTransitWidget;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _duration;
-    int _endState;
-    int _localDayOfWeek;
-    int _localHour;
-    int _mapsWidgetType;
-    _Bool _lockedMode;
-    struct {
-        unsigned int has_duration:1;
-        unsigned int has_endState:1;
-        unsigned int has_localDayOfWeek:1;
-        unsigned int has_localHour:1;
-        unsigned int has_mapsWidgetType:1;
-        unsigned int has_lockedMode:1;
-        unsigned int read_mapsDestinationsWidget:1;
-        unsigned int read_mapsNearbyWidget:1;
-        unsigned int read_mapsTransitWidget:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tCm:(id)arg1;
++ (_Bool)setHasStartOffsetCm:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -64,27 +40,27 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
+- (id)tmpDirLog;
+- (int)timestampWithScheduler: /* Error: Ran out of types for this method. */;
 - (void);
-- (int);
+- (int)ningBoardServices.framework/RunningBoardServices;
 - (int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (int);
+- (void)ore:(int)arg1 boost: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)igger %{private}@;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)IOUSBHostCIMessageTypeControllerPowerOn;
 - (_Bool);
 - (id);
 - (void);
-- (id)data:(struct _NSZone *)arg1;
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (id)setSuggestionMetadata:(struct _NSZone *)arg1;
+- (_Bool)cancelRequestId: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)routeLegsCount;
 - (id);
@@ -92,24 +68,7 @@
 - (void)Hí3;
 
 // Remaining properties
-@property(nonatomic) int duration;
-@property(nonatomic) int endState;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasEndState;
-@property(nonatomic) _Bool hasLocalDayOfWeek;
-@property(nonatomic) _Bool hasLocalHour;
-@property(nonatomic) _Bool hasLockedMode;
-@property(readonly, nonatomic) _Bool hasMapsDestinationsWidget;
-@property(readonly, nonatomic) _Bool hasMapsNearbyWidget;
-@property(readonly, nonatomic) _Bool hasMapsTransitWidget;
 @property(nonatomic) _Bool hasMapsWidgetType;
-@property(nonatomic) int localDayOfWeek;
-@property(nonatomic) int localHour;
-@property(nonatomic) _Bool lockedMode;
-@property(retain, nonatomic) GEOMapsDestinationsWidget *mapsDestinationsWidget;
-@property(retain, nonatomic) GEOMapsNearbyWidget *mapsNearbyWidget;
-@property(retain, nonatomic) GEOMapsTransitWidget *mapsTransitWidget;
-@property(nonatomic) int mapsWidgetType;
 
 @end
 

@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CAAction;
+@class CALayer;
 
 @protocol CALayerDelegate
 
 @optional
-- (id <CAAction>);
+- (void);
+- (void)setDateStyle:(CALayer *)arg1;
+- (void);
 @end
 

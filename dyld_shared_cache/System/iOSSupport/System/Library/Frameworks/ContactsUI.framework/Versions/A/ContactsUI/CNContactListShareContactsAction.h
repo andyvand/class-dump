@@ -4,66 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactCardFieldPicker, CNContactListShareContactsActionContext, NSArray, NSString, UIActivityViewController, UIView;
+@class NSArray;
 @protocol CNContactListActionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListShareContactsAction
 {
     id <CNContactListActionDelegate> _delegate;
-    CNContactListShareContactsActionContext *_context;
-    NSArray *_contacts;
-    NSArray *_filteredContacts;
-    CNContactCardFieldPicker *_fieldPicker;
-    UIActivityViewController *_activityViewController;
-    UIView *_sourceView;
 }
 
-+ (id)le: /* Error: Ran out of types for this method. */;
++ (id)setUsesTranslucentBarStyle: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)_k";
+- (id);
+- (id)T;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id)y?;
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)urceView;
 
 // Remaining properties
-@property(retain, nonatomic) UIActivityViewController *activityViewController; // @synthesize activityViewController=_activityViewController;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) CNContactListShareContactsActionContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactListActionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContactCardFieldPicker *fieldPicker; // @synthesize fieldPicker=_fieldPicker;
-@property(retain, nonatomic) NSArray *filteredContacts; // @synthesize filteredContacts=_filteredContacts;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
 
 @end
 

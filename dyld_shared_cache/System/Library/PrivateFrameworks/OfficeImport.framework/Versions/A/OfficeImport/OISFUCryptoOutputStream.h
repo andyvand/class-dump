@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OISFUCryptor;
 @protocol SFUOutputStream;
 
 __attribute__((visibility("hidden")))
 @interface OISFUCryptoOutputStream
 {
     id <SFUOutputStream> mBaseStream;
-    OISFUCryptor *mCryptor;
-    _Bool mIsClosed;
-    _Bool mComputeCrc32;
-    unsigned int mCrc32;
 }
 
 + (unsigned long long);
@@ -26,19 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)e;
 - (_Bool);
 - (id);
 - (long long)ü	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

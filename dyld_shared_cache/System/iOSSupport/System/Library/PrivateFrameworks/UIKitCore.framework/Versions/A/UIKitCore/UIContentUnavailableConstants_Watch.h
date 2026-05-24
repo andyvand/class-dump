@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)thState:trackingIdentifier:duration:delay:animations: /* Error: Ran out of types for this method. */;
++ (id)_performWithState:trackingIdentifier:duration:delay:animations: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (struct NSDirectionalEdgeInsets);
@@ -26,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (id)@ù1f°1Â0@ù
 × ;
 - (id)ing"24;
-- (id)wAtIndexPath: /* Error: Ran out of types for this method. */;
-- (id)rKeyboardSnapshot;
-- (id)ingleCharacter;
-- (double)ISystemApplicationDidUnlockNotification;
-- (id)ange;
-- (id)dChangeNotification;
+- (id)shouldDisplayTopSeparatorForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)clearKeyboardSnapshot;
+- (id)_previewImagePrefersSingleCharacter;
+- (double)_UISystemApplicationDidUnlockNotification;
+- (id)UITextFormattingViewControllerRemoveBoldChange;
+- (id)UIAccessibilityButtonShapesEnabledStatusDidChangeNotification;
 - (double)dÀg;
 
 @end

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, ResponsiveDesignContainerView, ResponsiveDesignShelfViewController, WKWebView, WindowBackdropVisualEffectView;
+@class ResponsiveDesignShelfViewController;
 
 __attribute__((visibility("hidden")))
 @interface ResponsiveDesignViewController
 {
     ResponsiveDesignShelfViewController *_shelfViewController;
-    WindowBackdropVisualEffectView *_visualEffectView;
-    ResponsiveDesignContainerView *_responsiveDesignContainerView;
-    NSLayoutConstraint *_visualEffectViewTopConstraint;
-    _Bool _ignoreDisplayBrowserSizeChange;
-    WKWebView *_webView;
 }
 
 - (id);
-- (id);
+- (id)i;
 - (void);
 - (void);
 - (unsigned long long);
@@ -29,26 +24,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (void);
 - (id)lock ads, and more.;
-- (void)h;
+- (void)Xh;
 - (void)$¬;
 - (id);
 
 // Remaining properties
 @property(nonatomic) struct CGSize browserSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long pixelRatio;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end
 

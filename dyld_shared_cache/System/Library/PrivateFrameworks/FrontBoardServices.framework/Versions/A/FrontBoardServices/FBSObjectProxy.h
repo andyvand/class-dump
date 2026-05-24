@@ -9,7 +9,7 @@
     Class _class;
 }
 
-- (id);
+- (id)N3fst9ImplToFstINS_13VectorFstImplINS_11VectorStateINS_6ArcTplINS_12LogWeightTplIfEEiEENSt3__19allocatorIS6_EEEEEENS_10MutableFstIS6_EEEE;
 - (Class);
 - (Class);
 - (id);
@@ -20,12 +20,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)initWithMinValue:(Class)arg1 maxValue:defaultValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)trictedPolicy;
 - (id);
 
 @end

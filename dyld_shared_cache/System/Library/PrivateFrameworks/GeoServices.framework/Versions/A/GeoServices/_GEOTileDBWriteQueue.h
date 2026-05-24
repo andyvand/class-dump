@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileDB, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTileDBWriteQueue
 {
     NSMutableArray *_pendingOperations;
-    id _transaction;
-    GEOTileDB *_db;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_flushTimer;
-    unsigned long long _maxOperations;
-    unsigned long long _maxOperationsSizeInBytes;
-    unsigned long long _pendingSizeInBytes;
 }
 
 - (void);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Proceeding for snapshot. Size:(id)arg1 %f x %f;
 - (void);
 - (void);
 - (void);

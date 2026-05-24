@@ -5,6 +5,7 @@
 //
 
 @protocol VCRedundancyControllerProtocol
+- (unsigned int)B;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int currentRedundancyPercentage;

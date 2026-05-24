@@ -9,19 +9,18 @@
 @interface AMSUIRegulatoryAgeVerificationTask
 {
     id request;
-    void userInfo;
 }
 
-+ (id);
++ (id)service;
 + (id)DynamicViewControllerCSDyQ@=ypG!Ó@d×ýÿ_So6NSViewCXcIegggyo_;
 + (id)request updated;
 - (id);
 - (id);
-- (id);
+- (id)h2;
 - (id);
 - (id);
 - (void);
-- (void)tationDelegate;
+- (void)pushPresentationDelegate;
 
 // Remaining properties
 @property(nonatomic, copy) NSDictionary *userInfo;

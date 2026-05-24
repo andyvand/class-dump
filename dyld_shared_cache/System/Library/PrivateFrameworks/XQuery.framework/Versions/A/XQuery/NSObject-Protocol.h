@@ -4,18 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (struct _NSZone *)iedExpr;
+- (Class)tCheckForTempDisabled;
+- (id)apple.powerui.testCheckForTempDisabled;
+- (id)rgeLimitRecommendation;
+- (id)Recommendation;
+- (id)e.powerui.evaluateChargeLimitRecommendation;
+- (Class)k;
+- (unsigned long long)e;
+- (oneway void)[;
+- (unsigned long long)hasUsedBubblesCount;
+- (id)ACCTransportEANative_DataArrivedNotification;
+- (_Bool);
+- (_Bool);
+- (id)ncileStatus on KeychainSync:%@ /* Error: Ran out of types for this method. */;
+- (struct _NSZone *)XQueryQuantifiedExpr;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

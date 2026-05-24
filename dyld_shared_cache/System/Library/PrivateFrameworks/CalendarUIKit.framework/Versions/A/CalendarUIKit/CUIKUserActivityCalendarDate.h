@@ -11,23 +11,20 @@
 @interface CUIKUserActivityCalendarDate : CUIKUserActivity
 {
     NSDate *_date;
-    unsigned long long _view;
 }
 
-- (id) Ñ"þàª¥;
-- (id)ô;
-- (void)Èý{Á¨ÿ#ÕÀ_Ö;
-- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)hasDM4TonemapConfigChanged:(id)arg1 TonemapConfig:TCControl:EdrAdaptationParam:AmbAdaptationParam: /* Error: Ran out of types for this method. */;
 - (void)2;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) _Bool isTomorrow;
-@property(readonly, nonatomic) unsigned long long view; // @synthesize view=_view;
 
 @end
 

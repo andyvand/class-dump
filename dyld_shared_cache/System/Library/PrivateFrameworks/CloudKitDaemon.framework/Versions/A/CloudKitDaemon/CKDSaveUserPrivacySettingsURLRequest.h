@@ -14,7 +14,7 @@
 - (void);
 - (_Bool);
 - (long long);
-- (void);
+- (void)setThumbSoftShadowLayer:(_Bool)arg1;
 - (long long);
 - (id)@ÃìÃpÄàÅ;
 - (id)Ds, then override this and return YES;

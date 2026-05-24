@@ -5,6 +5,6 @@
 //
 
 @protocol NSCopying
-- (id)ingToIndex:(struct _NSZone *)arg1;
+- (id)substringToIndex:(struct _NSZone *)arg1;
 @end
 

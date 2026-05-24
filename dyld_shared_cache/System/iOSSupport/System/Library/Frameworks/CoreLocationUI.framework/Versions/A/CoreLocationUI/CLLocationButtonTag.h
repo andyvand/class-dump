@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UISSlotStyle;
-
 @interface CLLocationButtonTag
 {
     _Bool _renderedSuccessfully;
     int _controlSize;
-    double _fontSize;
-    long long _label;
-    long long _icon;
-    UIColor *_backgroundColor;
-    UIColor *_tintColor;
-    double _cornerRadius;
-    UISSlotStyle *_style;
-    struct CGRect _frame;
 }
 
-+ (unsigned int);
-+ (unsigned long long);
++ (unsigned int)ionRegistrar;
++ (unsigned long long)8@16B24;
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
+- (id)fraction;
+- (_Bool)_containerBounds;
+- (unsigned long long)al error;
 - (double);
-- (unsigned int);
-- (id);
+- (unsigned int)me for a star shape type.;
+- (id)num_unsupported_characters;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -43,7 +33,7 @@
 - (_Bool);
 - (struct CGRect);
 - (void);
-- (double);
+- (double);
 - (void);
 - (long long);
 - (id);
@@ -52,26 +42,17 @@
 - (void);
 - (id);
 - (double);
+- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)
+;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) double buttonHeight; // @dynamic buttonHeight;
-@property(readonly, nonatomic) double buttonWidth; // @dynamic buttonWidth;
-@property(nonatomic) int controlSize; // @synthesize controlSize=_controlSize;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 @property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) long long icon; // @synthesize icon=_icon;
 @property(nonatomic) long long label; // @synthesize label=_label;
-@property(nonatomic) _Bool renderedSuccessfully; // @synthesize renderedSuccessfully=_renderedSuccessfully;
-@property(retain, nonatomic) UISSlotStyle *style; // @synthesize style=_style;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

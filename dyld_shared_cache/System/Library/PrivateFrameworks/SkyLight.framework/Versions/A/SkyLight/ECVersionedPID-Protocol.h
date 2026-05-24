@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int pid;
-@property(readonly, nonatomic) unsigned int version;
 @end
 

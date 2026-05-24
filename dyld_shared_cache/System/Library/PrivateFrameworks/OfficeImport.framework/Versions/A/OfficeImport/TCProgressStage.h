@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TCProgressContext;
-
 __attribute__((visibility("hidden")))
 @interface TCProgressStage
 {
     double m_currentPosition;
-    double m_totalSteps;
-    double m_stepsInParent;
-    NSString *m_name;
-    TCProgressStage *m_parentStage;
-    TCProgressContext *m_context;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void);

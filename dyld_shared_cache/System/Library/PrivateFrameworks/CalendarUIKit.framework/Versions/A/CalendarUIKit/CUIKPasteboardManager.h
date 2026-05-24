@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, NSDate, NSMutableDictionary, NSString;
-@protocol CUIKPasteboard, CUIKPasteboardManagerCalendarProvider, CUIKPasteboardManagerEventStoreProvider;
+@protocol CUIKPasteboardManagerEventStoreProvider;
 
 @interface CUIKPasteboardManager
 {
     id <CUIKPasteboardManagerEventStoreProvider> _eventStoreProvider;
-    id <CUIKPasteboard> _pasteboard;
-    id <CUIKPasteboardManagerCalendarProvider> _calendarProvider;
-    NSMutableDictionary *_copiedEvents;
-    EKCalendar *_calendarForPaste;
-    NSDate *_dateForPaste;
 }
 
-+ (id)èèòg;
-- (void)±uÐ6Õ;
-- (void)àªi*ÿàªg*ÿ`BCîý`
-Aîýw"@ùuÐµ6àª^*ÿh.@ù{÷;
-- (void)¿ø{rD©;
-- (unsigned long long)@ù	;
-- (id)ª*÷ýã	ß@ùô;
-- (void)¡cÑ¢Ñso ;
-- (void)_Ö ;
-- (void)CÑ;
-- (id)ª=ÿ¨Uø	;
-- (id);
-- (void)Ì;
++ (id);
 - (void);
-- (void)Cøàª;
-- (id)K`;
-- (void)ë¡þÿTàªáªâª";
-- (void)ø·üNÓhüNÓè;
-- (_Bool))}S?ýëA;
-- (_Bool)ªñ	ªàò	?×»Wøh@øàªáªñªàò	?× YøÕ	;
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (void)C;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (struct CGColor *);
 - (void)bject";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

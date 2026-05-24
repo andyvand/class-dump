@@ -11,7 +11,7 @@
     EKUIGadget *_gadget;
 }
 
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (_Bool);

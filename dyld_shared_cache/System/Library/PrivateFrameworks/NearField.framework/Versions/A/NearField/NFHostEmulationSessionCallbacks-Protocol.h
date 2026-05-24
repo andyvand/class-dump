@@ -5,5 +5,9 @@
 //
 
 @protocol NFHostEmulationSessionCallbacks
+- (void)System/Library/PrivateFrameworks/ContactsUICore.framework/Contents/MacOS/ContactsUICore;
+- (void)CNContactPhoneticMiddleNameKey;
+- (void)CNContactNamePrefixKey;
+- (void)ACTION_ADDRESS_GET_DIRECTIONS;
 @end
 

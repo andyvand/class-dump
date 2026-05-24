@@ -7,14 +7,6 @@
 @interface WidgetKit.WidgetViewCollection
 {
     id environment;
-    id originatingBundle;
-    id widget;
-    id reloadPolicy;
-    id urlAttributes;
-    id $__lazy_storage_$_dateRange;
-    id creationDate;
-    id protectionLevel;
-    id viewableEntries;
 }
 
 @end

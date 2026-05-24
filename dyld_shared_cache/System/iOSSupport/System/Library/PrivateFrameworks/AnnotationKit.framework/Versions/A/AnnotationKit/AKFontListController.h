@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIFont;
+@class NSArray;
 
 @interface AKFontListController
 {
     NSArray *_fonts;
-    UIFont *_defaultFont;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)_renderLiveSelectionPath:(id)arg1 forStrokes:inDrawing:liveScrollOffset: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 - (id)8;
 
 // Remaining properties
-@property(retain) UIFont *defaultFont; // @synthesize defaultFont=_defaultFont;
 @property(retain) NSArray *fonts; // @synthesize fonts=_fonts;
 
 @end

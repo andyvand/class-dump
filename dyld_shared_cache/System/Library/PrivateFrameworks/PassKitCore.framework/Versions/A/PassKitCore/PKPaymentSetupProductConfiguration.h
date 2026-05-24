@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKPaymentSetupProductConfiguration
 {
     NSString *_partnerIdentifier;
-    NSString *_productIdentifier;
-    unsigned long long _type;
-    NSString *_dirtyStateIdentifier;
-    NSDate *_lastUpdated;
-    unsigned long long _featureIdentifier;
-    unsigned long long _state;
-    NSString *_notificationTitle;
-    NSString *_notificationMessage;
-    NSString *_discoveryCardIdentifier;
 }
 
 - (void);
@@ -31,30 +22,21 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)b;
 - (void);
-- (void)seIMessageExtensionKey;
+- (void)PKSharingUseIMessageExtensionKey;
 - (void)visioning Extensions;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dirtyStateIdentifier; // @synthesize dirtyStateIdentifier=_dirtyStateIdentifier;
-@property(copy, nonatomic) NSString *discoveryCardIdentifier; // @synthesize discoveryCardIdentifier=_discoveryCardIdentifier;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSString *notificationMessage; // @synthesize notificationMessage=_notificationMessage;
-@property(copy, nonatomic) NSString *notificationTitle; // @synthesize notificationTitle=_notificationTitle;
 @property(copy, nonatomic) NSString *partnerIdentifier; // @synthesize partnerIdentifier=_partnerIdentifier;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

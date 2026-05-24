@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ACDKeychainItemCache
 {
     NSMutableDictionary *_nonSyncableItems;
-    NSMutableDictionary *_syncableItems;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSMutableDictionary *nonSyncableItems;
-@property(readonly) NSMutableDictionary *syncableItems;
 
 @end
 

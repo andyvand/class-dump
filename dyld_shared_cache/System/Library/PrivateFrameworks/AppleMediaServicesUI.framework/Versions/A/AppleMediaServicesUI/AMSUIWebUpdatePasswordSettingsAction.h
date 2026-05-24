@@ -10,16 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebUpdatePasswordSettingsAction : AMSUIWebAction
 {
     id account;
-    id freePasswordSetting;
-    id paidPasswordSetting;
-    id profile;
-    id profileVersion;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)veArrowOffset;
+- (void)relativeArrowOffset;
 
 @end
 

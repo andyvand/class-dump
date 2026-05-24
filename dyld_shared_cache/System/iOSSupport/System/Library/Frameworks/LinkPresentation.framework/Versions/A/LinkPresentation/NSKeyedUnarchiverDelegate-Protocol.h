@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSKeyedUnarchiver;
+
 @protocol NSKeyedUnarchiverDelegate
+
+@optional
+- (void)_downloadedData;
+- (void)egate>",W,V_delegate;
+- (void)_dialogPhaseForItemAtIndexPath:(NSKeyedUnarchiver *)arg1;
+- (Class)U!;
 @end
 

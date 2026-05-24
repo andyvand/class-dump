@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface QDSchemaQDEntitiesCollected : SISchemaInstrumentationMessage
 {
     NSArray *_retrievedTools;
-    NSArray *_spanMatchedEntities;
-    NSArray *_utteranceContexts;
-    NSArray *_requiredContexts;
-    NSArray *_contexts;
 }
 
 - (id);
@@ -25,52 +21,47 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)C;
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (void)0t;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)BA9(#;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (unsigned long long)EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableAppRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)cloudKitRecordChangeTag;
 - (id);
-- (id);
+- (id)37;
 - (unsigned long long)"b1"isVoiceOverEnabled"b1"isShowAppsBehindSiriEnabledOnCarPlay"b1"isSiriCapableDigitalCarKeyAvailable"b1"isAlwaysListenForHeySiriEnabled"b1"siriPauseTimeState"b1"isMteUploadEnabled"b1"isServerUserDataSyncEnabled"b1"locationAccessPermission"b1};
-- (id)d;
+- (id)_triggerScoreHSThreshold;
 - (id)tes;
 - (void)tationAlternativesPresent;
-- (void)ameterNameId;
+- (void)parameterNameId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contexts; // @synthesize contexts=_contexts;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *requiredContexts; // @synthesize requiredContexts=_requiredContexts;
 @property(copy, nonatomic) NSArray *retrievedTools; // @synthesize retrievedTools=_retrievedTools;
-@property(copy, nonatomic) NSArray *spanMatchedEntities; // @synthesize spanMatchedEntities=_spanMatchedEntities;
-@property(copy, nonatomic) NSArray *utteranceContexts; // @synthesize utteranceContexts=_utteranceContexts;
 
 @end
 

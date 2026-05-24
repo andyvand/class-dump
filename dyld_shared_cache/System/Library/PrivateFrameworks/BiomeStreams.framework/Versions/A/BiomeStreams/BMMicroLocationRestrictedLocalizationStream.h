@@ -11,7 +11,7 @@
     BMRestrictedStream *_stream;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

@@ -6,20 +6,15 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCKPrivateDatabase, NSMutableArray;
-@protocol FCCKDatabaseMigrator;
+@class FCCKPrivateDatabase;
 
 @interface FCCKDatabaseMigrationOperation : FCOperation
 {
     FCCKPrivateDatabase *_database;
-    id <FCCKDatabaseMigrator> _migrator;
-    CDUnknownBlockType _migrationCompletionHandler;
-    NSMutableArray *_resultZoneIDsEligibleForDeletion;
-    NSMutableArray *_resultRecordIDsEligibleForDeletion;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)postNotificationName:(id)arg1 object:(id *)arg2;
 - (void)es config issue IDs;
 - (void)warm interest in AV asset %{public}@;
 - (void)ound for productID:(id)arg1 %{public}@;

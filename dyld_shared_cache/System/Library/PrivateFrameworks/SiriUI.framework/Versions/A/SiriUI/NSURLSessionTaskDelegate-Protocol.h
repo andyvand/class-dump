@@ -7,7 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)ld;
 - (void);
+- (void)P;
+- (void)SiriUIRequestSourceSiriButtonInSearchField;
 @end
 

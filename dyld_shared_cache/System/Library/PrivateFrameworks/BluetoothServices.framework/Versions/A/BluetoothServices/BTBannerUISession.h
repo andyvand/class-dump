@@ -4,79 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface BTBannerUISession
 {
     _Bool _bannerRunning;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    int _backgroundColor;
-    unsigned int _bannerType;
-    unsigned int _leadingAccessoryImagePID;
-    CDUnknownBlockType _actionHandler;
-    NSString *_bannerAppID;
-    NSString *_centerContentText;
-    NSString *_centerContentItemsIcon;
-    NSString *_centerContentItemsText;
-    NSString *_identifier;
-    NSString *_label;
-    NSString *_leadingAccessoryImageName;
-    NSString *_leadingAccessoryImagePath;
-    double _timeoutSeconds;
-    NSString *_trailingAccessoryImageName;
-    NSString *_trailingAccessoryImagePath;
-    NSString *_trailingAccessoryText;
-    double _lowBatteryLevel;
-    double _batteryLevelInfo;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)wf_isUserCancelledError;
+- (id)wf_isUnsupportedUserInterfaceError;
+- (id)wf_isLinkEnabled;
+- (void)wf_formattedStringWithDateStyle:(id)arg1 timeStyle:relativeDateStyle:customDateFormat:includeTimeForISO8601:timeZone:locale: /* Error: Ran out of types for this method. */;
+- (void)wf_filenameTruncatedToMaximumLengthWithSuffix:(id)arg1;
+- (void)wf_filenameTruncatedToMaximumLengthWithFormat:(id)arg1;
+- (void)wf_durationIdentifier;
+- (void)wf_displayPathComponents;
+- (void)wf_defaultSessionConfiguration;
+- (void)wf_datedFilenameWithTypeString:(id)arg1 fileExtension: /* Error: Ran out of types for this method. */;
+- (void)wf_dateFormatterTimeStyleForDisplayableCalendarUnits:(id)arg1;
+- (void)wf_dateFormatterDateStyleForDisplayableCalendarUnits:(id)arg1;
+- (void)wf_contentAsStringsAndAttachments;
+- (void)wfSiriPunchOutError;
+- (id)webView:didFailNavigation:withError: /* Error: Ran out of types for this method. */;
+- (unsigned int)webView:didCommitNavigation: /* Error: Ran out of types for this method. */;
+- (id)webView:decidePolicyForNavigationResponse:decisionHandler: /* Error: Ran out of types for this method. */;
+- (id)updatedFilenameForUserEnteredName:addingExtensionIfNecessary: /* Error: Ran out of types for this method. */;
+- (id)updatedFilenameForUserEnteredName:addingExtensionIfNecessary: /* Error: Ran out of types for this method. */;
+- (id)updateWithValue:withTransaction:completion: /* Error: Ran out of types for this method. */;
+- (double)updateList: /* Error: Ran out of types for this method. */;
+- (id)updateEmailAddresses: /* Error: Ran out of types for this method. */;
+- (void)unnamedObjectRepresentationsFromLabeledValues: /* Error: Ran out of types for this method. */;
+- (void)unit;
+- (void)unionSet:(id)arg1;
+- (void)uniformTypeIdentifier;
+- (void)uniformTypeHierarchy;
+- (void)unarchivedObjectOfClass:fromData:error: /* Error: Ran out of types for this method. */;
+- (void)typesWithClasses:(id)arg1;
+- (double);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (unsigned int);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
+- (void)setShowsUserLocation:(id)arg1;
+- (void)scrollViewDidScroll: /* Error: Ran out of types for this method. */;
+- (double)e;
 - (void);
 - (id);
 - (int);
@@ -85,24 +62,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(nonatomic) int backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSString *bannerAppID; // @synthesize bannerAppID=_bannerAppID;
-@property(nonatomic) unsigned int bannerType; // @synthesize bannerType=_bannerType;
-@property(nonatomic) double batteryLevelInfo; // @synthesize batteryLevelInfo=_batteryLevelInfo;
-@property(copy, nonatomic) NSString *centerContentItemsIcon; // @synthesize centerContentItemsIcon=_centerContentItemsIcon;
-@property(copy, nonatomic) NSString *centerContentItemsText; // @synthesize centerContentItemsText=_centerContentItemsText;
-@property(copy, nonatomic) NSString *centerContentText; // @synthesize centerContentText=_centerContentText;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *leadingAccessoryImageName; // @synthesize leadingAccessoryImageName=_leadingAccessoryImageName;
-@property(nonatomic) unsigned int leadingAccessoryImagePID; // @synthesize leadingAccessoryImagePID=_leadingAccessoryImagePID;
-@property(copy, nonatomic) NSString *leadingAccessoryImagePath; // @synthesize leadingAccessoryImagePath=_leadingAccessoryImagePath;
-@property(nonatomic) double lowBatteryLevel; // @synthesize lowBatteryLevel=_lowBatteryLevel;
-@property(nonatomic) double timeoutSeconds; // @synthesize timeoutSeconds=_timeoutSeconds;
-@property(copy, nonatomic) NSString *trailingAccessoryImageName; // @synthesize trailingAccessoryImageName=_trailingAccessoryImageName;
-@property(copy, nonatomic) NSString *trailingAccessoryImagePath; // @synthesize trailingAccessoryImagePath=_trailingAccessoryImagePath;
-@property(copy, nonatomic) NSString *trailingAccessoryText; // @synthesize trailingAccessoryText=_trailingAccessoryText;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface BWStillImageErrorAnalyticsPayload : BWStillImageAnalyticsPayloadCommon
 {
     int _error;
-    float _digitalZoomRatioFromSource;
 }
 
 - (void);
@@ -19,10 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)DeviceProximityCapability;
 
 // Remaining properties
-@property(nonatomic) float digitalZoomRatioFromSource; // @synthesize digitalZoomRatioFromSource=_digitalZoomRatioFromSource;
 @property(nonatomic) int error; // @synthesize error=_error;
 
 @end

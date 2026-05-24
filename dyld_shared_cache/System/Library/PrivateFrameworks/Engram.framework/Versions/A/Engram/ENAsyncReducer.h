@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTResult, NSArray;
+@class NSArray;
 
 @interface ENAsyncReducer
 {
     NSArray *_input;
-    CUTResult *_result;
-    CDUnknownBlockType _reducerBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
 - (CDUnknownBlockType);
+- (void);
+- (id)a;
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)1;
+- (void)*;
+- (id)H;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(retain, nonatomic) NSArray *input; // @synthesize input=_input;
-@property(copy, nonatomic) CDUnknownBlockType reducerBlock; // @synthesize reducerBlock=_reducerBlock;
-@property(retain, nonatomic) CUTResult *result; // @synthesize result=_result;
 
 @end
 

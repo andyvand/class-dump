@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NSPPrivacyProxyAuthenticationInfo
 {
     CDStruct_9f2792e4 _accessTokenTypes;
-    NSMutableArray *_accessTokenBlockedIssuers;
-    NSMutableArray *_accessTokenKnownOrigins;
-    NSString *_accessTokenURL;
-    int _authType;
-    NSString *_authURL;
-    NSMutableArray *_nonDefaultAttesters;
-    CDStruct_d24dfd21 _has;
 }
 
 + (Class);
@@ -23,7 +14,7 @@
 + (Class);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -47,38 +38,29 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
+- (_Bool)f;
+- (_Bool)!;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)d its required!;
 - (int);
 - (id);
 - (unsigned long long);
-- (unsigned int *);
+- (unsigned int *)isStuckInExitForSharedLibrary;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *accessTokenBlockedIssuers; // @synthesize accessTokenBlockedIssuers=_accessTokenBlockedIssuers;
-@property(retain, nonatomic) NSMutableArray *accessTokenKnownOrigins; // @synthesize accessTokenKnownOrigins=_accessTokenKnownOrigins;
-@property(readonly, nonatomic) unsigned int *accessTokenTypes;
-@property(readonly, nonatomic) unsigned long long accessTokenTypesCount;
-@property(retain, nonatomic) NSString *accessTokenURL; // @synthesize accessTokenURL=_accessTokenURL;
-@property(nonatomic) int authType; // @synthesize authType=_authType;
-@property(retain, nonatomic) NSString *authURL; // @synthesize authURL=_authURL;
-@property(readonly, nonatomic) _Bool hasAccessTokenURL;
 @property(nonatomic) _Bool hasAuthType;
-@property(retain, nonatomic) NSMutableArray *nonDefaultAttesters; // @synthesize nonDefaultAttesters=_nonDefaultAttesters;
 
 @end
 

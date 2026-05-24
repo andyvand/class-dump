@@ -9,11 +9,11 @@
     CDUnknownBlockType _isHandleBlocked;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)_candidateBooleanMasks;
+- (void)_confirmationSnippetUserAction;
+- (void)_activeSubscriptions;
+- (void)ategy;
+- (void)e;
 - (_Bool);
 - (id);
 - (void);

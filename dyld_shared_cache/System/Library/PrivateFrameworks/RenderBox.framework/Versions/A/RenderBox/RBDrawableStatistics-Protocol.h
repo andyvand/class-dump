@@ -7,9 +7,11 @@
 @class NSDictionary;
 
 @protocol RBDrawableStatistics
+- (void)b{/:(void (^)(id <RBDrawableStatistics>))arg1;
+- (void)(;
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *statistics;
-@property(copy, nonatomic) CDUnknownBlockType statisticsHandler;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <BoardServices/BSServiceInterface.h>
 
-@class BSObjCProtocol, NSString;
+@class NSString;
 
 @interface BSMutableServiceInterface : BSServiceInterface
 {
@@ -20,10 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) BSObjCProtocol *client; // @dynamic client;
-@property(nonatomic) long long clientMessagingExpectation; // @dynamic clientMessagingExpectation;
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(copy, nonatomic) BSObjCProtocol *server; // @dynamic server;
 
 @end
 

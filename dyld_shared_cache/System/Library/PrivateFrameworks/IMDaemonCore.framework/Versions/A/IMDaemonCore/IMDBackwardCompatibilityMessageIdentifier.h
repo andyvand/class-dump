@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void)lities %s, needs %s;

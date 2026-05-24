@@ -7,14 +7,13 @@
 @interface TRIFileBackedMutableStringArray
 {
     int _fd;
-    unsigned long long _count;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)k;
+- (_Bool)_nativeXResolution;
 - (unsigned long long);
 
 // Remaining properties

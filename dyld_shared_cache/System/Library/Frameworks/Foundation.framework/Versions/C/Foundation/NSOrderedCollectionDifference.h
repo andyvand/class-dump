@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, _NSOrderedCollectionDifferenceMoves;
+@class NSIndexSet;
 
 @interface NSOrderedCollectionDifference
 {
     NSIndexSet *_insertIndexes;
-    NSArray *_insertObjects;
-    NSIndexSet *_removeIndexes;
-    NSArray *_removeObjects;
-    _NSOrderedCollectionDifferenceMoves *_moves;
 }
 
 @end

@@ -7,9 +7,6 @@
 @interface NewsUI2.WelcomeViewAnimator
 {
     id view;
-    id model;
-    id renderer;
-    id layoutAttributesFactory;
 }
 
 @end

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSBrowser;
+
 @protocol NSBrowserDelegate
+
+@optional
+- (id)o generate html fragment for %{public}@, with error:(NSBrowser *)arg1 %{public}@;
+- (_Bool);
+- (double);
+- (void)Ğ%P;
 @end
 

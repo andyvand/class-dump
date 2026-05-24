@@ -7,9 +7,6 @@
 @interface ChronoServices.RelevanceCacheTransaction
 {
     id writer;
-    id cache;
-    id tempFilename;
-    id committed;
 }
 
 @end

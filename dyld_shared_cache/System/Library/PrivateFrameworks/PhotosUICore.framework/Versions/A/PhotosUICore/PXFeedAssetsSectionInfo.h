@@ -27,7 +27,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)dAsyncDataSourcesImmediately;
+- (id)loadAsyncDataSourcesImmediately;
 - (unsigned long long);
 - (long long)¡ÿ;>80?>;
 

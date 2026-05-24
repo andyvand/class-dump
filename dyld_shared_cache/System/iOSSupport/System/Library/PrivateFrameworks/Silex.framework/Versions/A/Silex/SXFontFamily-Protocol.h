@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @protocol SXFontFamily
-- (NSString *)kManager;
+- (NSString *)_bookmarkManager;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *familyName;
-@property(readonly, nonatomic) NSSet *fontFaces;
 @end
 

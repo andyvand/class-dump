@@ -6,44 +6,31 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CADisplayLink, UIColor, UIImage, UIImageView;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UICircleProgressIndicator : UIView
 {
     double _animatedValue;
-    double _animationEndTime;
-    double _animationStartTime;
-    double _animationStartValue;
-    UIImage *_borderImage;
-    UIImage *_centerImage;
-    struct UIEdgeInsets _centerImageInsets;
-    CADisplayLink *_displayLink;
-    UIImage *_fillImage;
-    _Bool _highlighted;
-    UIImageView *_indeterminateView;
-    _Bool _isAnimating;
-    double _progress;
-    UIColor *_unhighlightedBackgroundColor;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
-- (struct UIEdgeInsets);
+- (void)setRequestResponse:(double)arg1;
+- (struct UIEdgeInsets)essageFromStorageMonitor",N,R;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ay translation response:%@ /* Error: Ran out of types for this method. */;
+- (void)of messages from chat %@;
+- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);
+- (void)Y;
+- (struct CGSize):(struct CGSize)arg1 8Q16Q24Q32;
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,12 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *borderImage; // @synthesize borderImage=_borderImage;
-@property(retain, nonatomic) UIImage *fillImage; // @synthesize fillImage=_fillImage;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_centerImage;
-@property(nonatomic) struct UIEdgeInsets imageInsets; // @synthesize imageInsets=_centerImageInsets;
-@property(nonatomic, getter=isIndeterminate) _Bool indeterminate;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
 
 @end
 

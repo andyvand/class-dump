@@ -12,29 +12,27 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_storage;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setShouldReloadConversations:(id)arg1;
+- (id)setBodyData:(id)arg1;
+- (id)_chatGUIDsThatNeedRemerging:chatDictionaryArray:aliasMap: /* Error: Ran out of types for this method. */;
+- (id)_chatGUIDsForNoticeURL:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_applyEditsToMessage:(id)arg1 preEditFullMessageText:editType:editedPartIndex:editedMessagePartText:editedMessagePartTranslation:shouldRetractSubject:editTimestamp: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
-- (_Bool);
+- (_Bool)payloadDisallowProximitySetup;
 - (id);
 - (id);
 - (unsigned long long);
 - (void)=b1b1b1b1}}24;
-- (_Bool)eString;
-- (id)ngScene:(id)arg1;
+- (_Bool)uniqueString;
+- (id)_activateExistingScene:(id)arg1;
 - (id)ccessoryViewEnabled;
 - (void);
 - (unsigned long long)ses:inPhase:withEvent:and finishDeliveringPresses. /* Error: Ran out of types for this method. */;
-- (void)urationCornerStyle;
+- (void)__UIButtonConfigurationCornerStyle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeyCommands;
 @property(readonly, nonatomic) NSArray *allPriorities;
-@property(readonly, nonatomic) unsigned long long count;
 
 @end
 

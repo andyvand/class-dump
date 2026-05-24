@@ -7,14 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (oneway void)@;
+- (id)histogramParametersWithRange:count: /* Error: Ran out of types for this method. */;
+- (_Bool)MapsSuggestionsEntryTitleNameKey;
+- (id)tion;
+
+@optional
+- (NSString *)em Classifier (User Homes);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

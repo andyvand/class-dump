@@ -9,7 +9,6 @@
 @interface ABActionAddSuggestedValue
 {
     NSString *_property;
-    id _value;
 }
 
 - (id);

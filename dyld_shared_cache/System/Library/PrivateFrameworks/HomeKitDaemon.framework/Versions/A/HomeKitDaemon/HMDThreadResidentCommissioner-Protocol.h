@@ -5,5 +5,7 @@
 //
 
 @protocol HMDThreadResidentCommissioner
+- (void)`;
+- (void);
 @end
 

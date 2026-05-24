@@ -6,22 +6,21 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class MDLMesh, NSArray, NSMutableArray;
+@class MDLMesh, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _CUIThemeModelMeshRendition : CUIThemeRendition
 {
     MDLMesh *_mesh;
-    NSMutableArray *_submeshKeys;
 }
 
-- (unsigned long long);
+- (unsigned long long) ;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id)m Bezel;
-- (id)tHTile;
+- (id)kCoreThemeThreePartHTile;
 
 // Remaining properties
 @property(readonly) NSArray *submeshKeys;

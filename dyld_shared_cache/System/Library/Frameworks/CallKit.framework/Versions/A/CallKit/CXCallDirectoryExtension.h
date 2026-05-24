@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSPlugInKitProxy, NSString;
+@class NSString;
 
 @interface CXCallDirectoryExtension
 {
     _Bool _onlyExtensionInContainingApp;
-    NSString *_identifier;
-    long long _state;
-    long long _priority;
-    NSString *_localizedName;
-    NSString *_localizedContainingAppName;
-    LSPlugInKitProxy *_plugInKitProxy;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (long long);
+- (void):(id)arg1 inUsersLibrary:itemBlock:collectionBlock:] /* Error: Ran out of types for this method. */;
 - (void);
+- (void)RecoveryKeyDeviceInfo"16;
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (long long)zedCallerImageURL;
+- (long long)_localizedCallerImageURL;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *localizedContainingAppName; // @synthesize localizedContainingAppName=_localizedContainingAppName;
-@property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic, getter=isOnlyExtensionInContainingApp) _Bool onlyExtensionInContainingApp; // @synthesize onlyExtensionInContainingApp=_onlyExtensionInContainingApp;
-@property(retain, nonatomic) LSPlugInKitProxy *plugInKitProxy; // @synthesize plugInKitProxy=_plugInKitProxy;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

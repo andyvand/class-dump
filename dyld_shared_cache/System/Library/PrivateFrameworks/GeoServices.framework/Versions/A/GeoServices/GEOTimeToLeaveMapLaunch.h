@@ -9,38 +9,32 @@
 @interface GEOTimeToLeaveMapLaunch
 {
     PBUnknownFields *_unknownFields;
-    double _minutesUntilEvent;
-    struct {
-        unsigned int has_minutesUntilEvent:1;
-    } _flags;
 }
 
-+ (_Bool)tCode:(id)arg1;
++ (_Bool)setMerchantCode:(id)arg1;
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (void);
+- (_Bool)setPrivateUserInfo: /* Error: Ran out of types for this method. */;
+- (void)$ ;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)getCurrentOSDAsset;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (id)"b1"read_deviceOrientations"b1"read_entryPoint"b1"read_initialLocation"b1"read_initializationFailureDetails"b1"read_localizationDetails"b1"read_postFusionCorrection"b1"wrote_anyField"b1};
-- (id)teOfChargeAtDestActual;
-- (id)entRankingModelFeature;
+- (id)hasStateOfChargeAtDestActual;
+- (id)GEOClientRankingModelFeature;
 - (id)redentialsReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasMinutesUntilEvent;
-@property(nonatomic) double minutesUntilEvent;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

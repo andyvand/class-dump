@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKSecureElementCertificateSet;
+@class NSString;
 
 @interface PKSecureElementSignatureInfo
 {
     NSString *_sequenceCounter;
-    NSString *_platformIdentifier;
-    PKSecureElementCertificateSet *_certificates;
-    unsigned long long _certificateVersion;
 }
 
-+ (_Bool);
++ (_Bool)3;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)_rxcrsglitch;
 - (id);
 - (id)'%@';
-- (void)ENT_MERCHANT_CATEGORY_TRANSPORATION;
-- (id)OfDay;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_MERCHANT_CATEGORY_TRANSPORATION;
+- (id)hoursOfDay;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long certificateVersion; // @synthesize certificateVersion=_certificateVersion;
-@property(readonly, copy, nonatomic) PKSecureElementCertificateSet *certificates; // @synthesize certificates=_certificates;
-@property(readonly, copy, nonatomic) NSString *platformIdentifier; // @synthesize platformIdentifier=_platformIdentifier;
 @property(readonly, copy, nonatomic) NSString *sequenceCounter; // @synthesize sequenceCounter=_sequenceCounter;
 
 @end

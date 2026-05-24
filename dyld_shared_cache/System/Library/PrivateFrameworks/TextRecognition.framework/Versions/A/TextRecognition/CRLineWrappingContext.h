@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRLanguageResourcesManager, CRLineWrappingClassifier, NSArray, NSMutableArray, NSString;
-@protocol CRLineWrappable;
+@class NSString;
 
 @interface CRLineWrappingContext
 {
     vector_9c509c4c _contextTokens;
-    _Bool _active;
-    NSString *_text;
-    NSString *_locale;
-    unsigned long long _lineCount;
-    NSMutableArray *_results;
-    CRLanguageResourcesManager *_lrManager;
-    unsigned long long _contextSize;
-    double _lineHeightSum;
-    long long _verticalSpacingSumCount;
-    double _verticalSpacingSum;
-    CRLineWrappingClassifier *_classifier;
 }
 
 - (double);
@@ -33,7 +21,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (double);
@@ -44,24 +32,15 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)%@; handleForDisplay = %@; permissionLevel = %lld; isMeParticipant = %@; inviteStatus = %lld>; hasContact = %@; participantID:%@; /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (_Bool);
 - (void)t<CRTextRecognizerModel>"24^@32;
 - (_Bool)¼ýÿ¸ðÿÿx¼ýÿ;
 
 // Remaining properties
-@property(readonly) _Bool active;
-@property(readonly) double averageLineHeight;
-@property(readonly) double averageVerticalSpacing;
-@property(readonly) NSArray *contextResults;
-@property(readonly) id <CRLineWrappable> lastFeature;
-@property(readonly) unsigned long long lineCount;
-@property(readonly) NSString *locale; // @synthesize locale=_locale;
-@property(readonly) _Bool shouldConsiderLetterCase;
 @property(readonly) NSString *text;
-@property(readonly) _Bool usesWordTokens;
 
 @end
 

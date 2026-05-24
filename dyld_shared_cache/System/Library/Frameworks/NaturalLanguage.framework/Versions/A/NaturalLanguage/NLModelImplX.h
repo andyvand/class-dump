@@ -6,39 +6,27 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class NLContextualEmbedding, NLEmbedding, NLModelConfiguration, NSData, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NLModelImplX : NLModelImpl
 {
     struct MontrealNeuralNetwork *_montrealModel;
-    NLModelConfiguration *_configuration;
-    NLEmbedding *_embedding;
-    NLContextualEmbedding *_contextualEmbedding;
-    NSData *_customEmbeddingData;
-    NSDictionary *_labelMap;
-    unsigned long long _numberOfTrainingInstances;
-    NSString *_trainingLanguage;
-    NSString *_trainingEmbeddingType;
-    NSString *_embeddingModelIdentifier;
-    NSData *_modelData;
 }
 
-- (id);
+- (id)nationalSupport;
 - (id);
 - (id);
 - (float *);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)addSourceFileIdentifiersForRemovedFiles:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_descriptorsFromProducts: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

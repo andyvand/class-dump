@@ -4,67 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSLayoutGuide, NSString, NSView, _MKSmallCalloutPassthroughButton, _MKUILabel;
-@protocol _MKCalloutAccessoryView;
+@class NSString, _MKUILabel;
 
 __attribute__((visibility("hidden")))
 @interface MKSmallCalloutView
 {
     _MKUILabel *_titleLabel;
-    _MKUILabel *_subtitleLabel;
-    NSView<_MKCalloutAccessoryView> *_leftView;
-    NSView<_MKCalloutAccessoryView> *_rightView;
-    NSView<_MKCalloutAccessoryView> *_externalLeftView;
-    NSView<_MKCalloutAccessoryView> *_externalRightView;
-    NSView<_MKCalloutAccessoryView> *_externalDetailView;
-    NSView<_MKCalloutAccessoryView> *_detailView;
-    struct CGSize _preferredContentSize;
-    _Bool _shouldPositionTitleForMapsTransitionMovingSideways;
-    _MKSmallCalloutPassthroughButton *_maskedContainerView;
-    NSView *_unmaskedContainerView;
-    CDStruct_8c1c1341 _metrics;
-    _Bool _needsPreferredContentSizeUpdate;
-    NSLayoutConstraint *_minWidthConstraint;
-    NSLayoutConstraint *_maxWidthConstraint;
-    NSLayoutConstraint *_unmaskedContainerLeadingConstraint;
-    NSLayoutConstraint *_unmaskedContainerTrailingConstraint;
-    NSArray *_titleLabelConstraints;
-    NSLayoutConstraint *_titleBaselineFromTopMinimumConstraint;
-    NSLayoutConstraint *_titleBaselineFromTopConstraint;
-    NSLayoutConstraint *_titleMinimumBaselineToBottomConstraint;
-    NSLayoutGuide *_centerContentLeadingGuide;
-    NSLayoutGuide *_centerContentTrailingGuide;
-    NSLayoutConstraint *_leftViewMinCalloutWidthConstraint;
-    NSLayoutConstraint *_leftViewHorizontalPositionConstraint;
-    NSLayoutConstraint *_leftViewTopSpacerBottomConstraint;
-    NSLayoutConstraint *_leftViewCenterContentMarginConstraint;
-    NSLayoutGuide *_leftViewTopSpacer;
-    NSLayoutGuide *_leftViewLeftSpacer;
-    NSLayoutConstraint *_rightViewHorizontalPositionConstraint;
-    NSLayoutConstraint *_rightViewTopSpacerBottomConstraint;
-    NSLayoutConstraint *_rightViewCenterContentMarginConstraint;
-    NSLayoutGuide *_rightViewTopSpacer;
-    NSLayoutGuide *_rightViewRightSpacer;
-    NSLayoutConstraint *_detailViewMinTopConstraint;
-    NSLayoutConstraint *_detailViewBottomConstraint;
-    NSLayoutConstraint *_detailViewTrailingConstraint;
-    struct NSEdgeInsets _layoutMargins;
-    NSLayoutGuide *_layoutMarginsGuide;
-    NSLayoutConstraint *_layoutMarginsLeftConstraint;
-    NSLayoutConstraint *_layoutMarginsRightConstraint;
-    NSLayoutConstraint *_layoutMarginsTopConstraint;
-    NSLayoutConstraint *_layoutMarginsBottomConstraint;
-    _Bool _parallaxEnabled;
-    NSView *_titlesContainerView;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)al) 		 Log Buffered(%d, %@ at %@) - %@
+;
+- (void)Registered.%d.%@.queryTime;
+- (void)%@.start;
+- (void)BackgroundProcessing:(_Bool)arg1:SystemConditionsNetwork /* Error: Ran out of types for this method. */;
+- (void)ple.energybudgetingdebug.lastReportedNetworkEnergy;
+- (void)tReportedCPUEnergy;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,37 +30,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)`J;
+- (id)vided in scanForPeripheralsWithServices while it is required. Please file a radar for CoreBluetooth - Framework Onboarding | All component.;
+- (id)indexPhoneNumbersOnContact: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGSize);
 - (double);
-- (struct CGSize);
-- (id);
+- (struct CGSize)=;
+- (id)ublic}@]:(struct CGRect)arg1 Expecting first pass source as Remora;
 - (void);
-- (double);
-- (void)etHideDirectionsButtons:(struct NSEdgeInsets)arg1;
-- (void)ithPoints:count: /* Error: Ran out of types for this method. */;
-- (void)gion:(double)arg1;
-- (struct NSEdgeInsets)ration;
+- (double)nfoResponse response is not NSHTTPURLResponse. Game over.;
+- (void)setHideDirectionsButtons:(struct NSEdgeInsets)arg1;
+- (void)polylineWithPoints:count: /* Error: Ran out of types for this method. */;
+- (void)locationManager:(double)arg1 didDetermineState:forRegion: /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets)_updateLegacyConfiguration;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *calloutSubtitle;
 @property(copy, nonatomic) NSString *calloutTitle;
-@property(retain, nonatomic) NSView *detailView;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(retain, nonatomic) NSView *leftView;
-@property(nonatomic) double maximumWidth;
-@property(nonatomic) double minimumWidth;
-@property(nonatomic) _Bool parallaxEnabled; // @synthesize parallaxEnabled=_parallaxEnabled;
-@property(readonly, nonatomic) struct CGSize preferredContentSize; // @synthesize preferredContentSize=_preferredContentSize;
-@property(retain, nonatomic) NSView *rightView;
-@property(readonly, nonatomic) NSView *titlesContainerView; // @synthesize titlesContainerView=_titlesContainerView;
 
 @end
 

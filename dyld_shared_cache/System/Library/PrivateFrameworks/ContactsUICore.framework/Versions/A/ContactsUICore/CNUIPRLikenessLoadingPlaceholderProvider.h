@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, NSString;
 @protocol CNScheduler;
 
 @interface CNUIPRLikenessLoadingPlaceholderProvider
 {
     id <CNScheduler> _resourceLock;
-    CNCache *_cache;
 }
 
 - (struct CGImage *);
@@ -21,19 +19,11 @@
 - (struct CGImage *);
 - (id);
 - (id);
-- (id);
-- (void)calendar: /* Error: Ran out of types for this method. */;
+- (id)CNToABCNConversions;
+- (void)yearlessComponentsFromDate:calendar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <CNScheduler> resourceLock; // @synthesize resourceLock=_resourceLock;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDebugAdvertisementSettingsProvider, SXDocumentProviding;
+@protocol SXDocumentProviding;
 
 @interface SXAdvertisingSettingsFactory
 {
     id <SXDocumentProviding> _documentProvider;
-    id <SXDebugAdvertisementSettingsProvider> _debugSettingsProvider;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <SXDebugAdvertisementSettingsProvider> debugSettingsProvider; // @synthesize debugSettingsProvider=_debugSettingsProvider;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <SXDocumentProviding> documentProvider; // @synthesize documentProvider=_documentProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

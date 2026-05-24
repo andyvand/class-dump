@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButton, UIView;
-@protocol NANowPlayingPlaybackControlsDelegate, NANowPlayingPlaybackControlsLayoutSpecProvider;
+@class UIView;
 
 @interface NANowPlayingPlaybackControls
 {
     _Bool _isPlaying;
-    _Bool _nextTrackButtonEnabled;
-    _Bool _skipForwardButtonEnabled;
-    UIView *_contentView;
-    id <NANowPlayingPlaybackControlsDelegate> _delegate;
-    UIButton *_rewindButton;
-    UIButton *_playPauseButton;
-    UIButton *_forwardButton;
-    double _inset;
-    id <NANowPlayingPlaybackControlsLayoutSpecProvider> _layoutSpecProvider;
 }
 
 - (void);
@@ -32,15 +22,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)*;
+- (id);
 - (id);
 - (void);
-- (double);
-- (void);
+- (double);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -48,7 +38,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -56,15 +46,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) __weak id <NANowPlayingPlaybackControlsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIButton *forwardButton; // @synthesize forwardButton=_forwardButton;
-@property(nonatomic) double inset; // @synthesize inset=_inset;
-@property(nonatomic) _Bool isPlaying; // @synthesize isPlaying=_isPlaying;
-@property(nonatomic) __weak id <NANowPlayingPlaybackControlsLayoutSpecProvider> layoutSpecProvider; // @synthesize layoutSpecProvider=_layoutSpecProvider;
-@property(nonatomic) _Bool nextTrackButtonEnabled; // @synthesize nextTrackButtonEnabled=_nextTrackButtonEnabled;
-@property(retain, nonatomic) UIButton *playPauseButton; // @synthesize playPauseButton=_playPauseButton;
-@property(retain, nonatomic) UIButton *rewindButton; // @synthesize rewindButton=_rewindButton;
-@property(nonatomic) _Bool skipForwardButtonEnabled; // @synthesize skipForwardButtonEnabled=_skipForwardButtonEnabled;
 
 @end
 

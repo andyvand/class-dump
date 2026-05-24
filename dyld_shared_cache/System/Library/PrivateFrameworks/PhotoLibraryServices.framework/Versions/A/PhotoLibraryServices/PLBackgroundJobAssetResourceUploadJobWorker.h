@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface PLBackgroundJobAssetResourceUploadJobWorker
+#import <PhotoLibraryServices/ectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::SWServer::Connection>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes].h>
+
+@interface PLBackgroundJobAssetResourceUploadJobWorker : ectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::SWServer::Connection>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]
 {
 }
 
@@ -17,14 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)__DATA_CONST;
 - (unsigned long long);
 - (void);
 - (id);
 - (id)d;
 - (_Bool)T marking as CPLCloudDeleteStateDeleted:%{public}@ [cloudGUID:%{public}@] /* Error: Ran out of types for this method. */;
 - (_Bool)ICPLStateChanged;
-- (void)ey;
+- (void)MediaAnalysisResultImageCaptionConfidenceAttributeKey;
 
 @end
 

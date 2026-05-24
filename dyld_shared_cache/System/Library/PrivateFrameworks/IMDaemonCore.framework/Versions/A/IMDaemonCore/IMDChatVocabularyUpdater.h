@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChatRegistry, _INVocabulary;
+@class IMDChatRegistry;
 
 @interface IMDChatVocabularyUpdater
 {
     _Bool _haveDeferredUpdateRequest;
-    IMDChatRegistry *_chatRegistry;
-    _INVocabulary *_vocabulary;
 }
 
 + (void);
 + (id)[%{public}s] failed to register with DAS;
 - (void);
 - (void);
+- (void)R;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id).;
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)uplicationFeatureFlag=%d _disallowAlternateConnectionForRTXSupportWhenVideoDegraded=%d;
 - (void)¼;
 - (id)y local paired device. fromToken:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) IMDChatRegistry *chatRegistry; // @synthesize chatRegistry=_chatRegistry;
-@property(nonatomic) _Bool haveDeferredUpdateRequest; // @synthesize haveDeferredUpdateRequest=_haveDeferredUpdateRequest;
-@property(retain, nonatomic) _INVocabulary *vocabulary; // @synthesize vocabulary=_vocabulary;
 
 @end
 

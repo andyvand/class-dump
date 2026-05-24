@@ -7,6 +7,6 @@
 @class FCEntitlementsOverride, NSArray;
 
 @protocol FCEntitlementsOverrideProviderType
-- (FCEntitlementsOverride *)t:(NSArray *)arg1;
+- (FCEntitlementsOverride *)fc_safelyRemoveObject:(NSArray *)arg1;
 @end
 

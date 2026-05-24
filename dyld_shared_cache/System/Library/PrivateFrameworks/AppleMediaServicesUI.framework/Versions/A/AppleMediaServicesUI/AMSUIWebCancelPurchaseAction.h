@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     long long _reason;
 }
 
-- (id);
+- (id)et"16^B24;
 - (id);
 - (long long);
-- (void);
+- (void)th identifier:(long long)arg1 %@;
 
 // Remaining properties
 @property long long reason; // @synthesize reason=_reason;

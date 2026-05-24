@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestionsObservers, NSString;
-@protocol MapsSuggestionsMapsSyncConnector;
+@class NSString;
 
 @interface MapsSuggestionsMapsSync
 {
     struct Queue _queue;
-    id <MapsSuggestionsMapsSyncConnector> _connector;
-    MapsSuggestionsObservers *_historyObservers;
-    MapsSuggestionsObservers *_transitItemObservers;
-    MapsSuggestionsObservers *_favoriteItemObservers;
 }
 
 - (BOOL);
@@ -25,27 +20,20 @@
 - (BOOL);
 - (id);
 - (void);
-- (void);
+- (void);
 - (BOOL);
 - (BOOL);
 - (id);
-- (BOOL);
+- (BOOL)_computeScaleCoverage;
 - (BOOL);
 - (BOOL);
 - (void);
 - (BOOL);
-- (BOOL);
+- (BOOL)stringWithFormat:(CDUnknownBlockType)arg1;
 - (BOOL);
 - (void)8@16@24Q32@40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

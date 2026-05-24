@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol SXDarkModeConfiguration, SXDocumentProviding;
+@protocol SXDarkModeConfiguration;
 
 @interface SXDarkModePolicyHandler
 {
     id <SXDarkModeConfiguration> _darkModeConfiguration;
-    id <SXDocumentProviding> _documentProvider;
-    NSMutableArray *_exceptions;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,15 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDarkModeConfiguration> darkModeConfiguration; // @synthesize darkModeConfiguration=_darkModeConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXDocumentProviding> documentProvider; // @synthesize documentProvider=_documentProvider;
-@property(readonly, nonatomic) NSMutableArray *exceptions; // @synthesize exceptions=_exceptions;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

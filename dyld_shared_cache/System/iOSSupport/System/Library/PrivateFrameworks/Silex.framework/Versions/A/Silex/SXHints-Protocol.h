@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXConditionHints, SXConditionalHints;
+@protocol SXConditionHints;
 
 @protocol SXHints
+- (id <SXConditionHints>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXConditionalHints> conditionals;
 @property(readonly, nonatomic) id <SXConditionHints> conditions;
 @end
 

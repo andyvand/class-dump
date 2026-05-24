@@ -7,16 +7,14 @@
 @interface _UXWindowState
 {
     unsigned long long _styleMask;
-    unsigned long long _collectionBehavior;
 }
 
-+ (id);
++ (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long collectionBehavior; // @synthesize collectionBehavior=_collectionBehavior;
 @property(readonly) unsigned long long styleMask; // @synthesize styleMask=_styleMask;
 
 @end

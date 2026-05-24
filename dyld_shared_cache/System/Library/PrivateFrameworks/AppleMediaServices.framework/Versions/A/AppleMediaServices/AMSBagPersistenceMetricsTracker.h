@@ -7,7 +7,6 @@
 @interface AMSBagPersistenceMetricsTracker
 {
     id eventSender;
-    id initialState;
 }
 
 + (id);

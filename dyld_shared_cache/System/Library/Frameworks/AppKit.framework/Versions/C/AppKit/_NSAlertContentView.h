@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)nw_protocol_boringssl_input_available;
+- (void)er for Enterprise iCloud Drive is %{public}@;
 
 @end
 

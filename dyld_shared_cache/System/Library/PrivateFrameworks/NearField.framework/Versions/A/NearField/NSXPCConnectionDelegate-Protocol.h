@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCConnectionDelegate
+
+@optional
+- (void)`;
 @end
 

@@ -12,7 +12,7 @@
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)#;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;

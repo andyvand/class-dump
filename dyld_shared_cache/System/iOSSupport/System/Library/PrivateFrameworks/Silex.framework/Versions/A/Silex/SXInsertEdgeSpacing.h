@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SXInsertEdgeSpacing
 {
     struct _SXConvertibleValue _top;
-    struct _SXConvertibleValue _right;
-    struct _SXConvertibleValue _bottom;
-    struct _SXConvertibleValue _left;
 }
 
 - (struct _SXConvertibleValue);
-- (struct _SXConvertibleValue);
+- (struct _SXConvertibleValue);
 - (struct _SXConvertibleValue);
 - (struct _SXConvertibleValue);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _SXConvertibleValue bottom; // @synthesize bottom=_bottom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct _SXConvertibleValue left; // @synthesize left=_left;
-@property(readonly, nonatomic) struct _SXConvertibleValue right; // @synthesize right=_right;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct _SXConvertibleValue top; // @synthesize top=_top;
 
 @end
 

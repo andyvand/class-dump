@@ -7,8 +7,6 @@
 @interface MLInternalSettings
 {
     _Bool _restrictNeuralNetworksToUseCPUOnly;
-    _Bool _restrictNeuralNetworksFromUsingANE;
-    _Bool _isNeuralNetworkGPUPathForbidden;
 }
 
 + (id);
@@ -17,7 +15,7 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (_Bool);
 - (void);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isNeuralNetworkGPUPathForbidden; // @synthesize isNeuralNetworkGPUPathForbidden=_isNeuralNetworkGPUPathForbidden;
-@property _Bool restrictNeuralNetworksFromUsingANE; // @synthesize restrictNeuralNetworksFromUsingANE=_restrictNeuralNetworksFromUsingANE;
 @property _Bool restrictNeuralNetworksToUseCPUOnly; // @synthesize restrictNeuralNetworksToUseCPUOnly=_restrictNeuralNetworksToUseCPUOnly;
 
 @end

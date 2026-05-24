@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
-
 __attribute__((visibility("hidden")))
 @interface _TimeStampValue
 {
     double _timeStamp;
-    NSTimeZone *_timeZone;
-    NSString *_formatPattern;
 }
 
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
-- (void);
+- (void)_explicitMetadataForSelector:(id)arg1;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *formatPattern;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timeStamp;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
 
 @end
 

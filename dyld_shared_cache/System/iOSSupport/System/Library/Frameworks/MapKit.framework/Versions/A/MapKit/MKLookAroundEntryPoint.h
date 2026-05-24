@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCameraFrame, GEOMuninViewState, MKMapItem, VKMuninMarker;
-
 @interface MKLookAroundEntryPoint
 {
     _Bool _isMarkedLocation;
-    _Bool _wantsCloseUpView;
-    int _triggerAction;
-    unsigned long long _type;
-    MKMapItem *_mapItem;
-    VKMuninMarker *_muninMarker;
-    double _heading;
-    GEOMuninViewState *_muninViewState;
-    GEOCameraFrame *_cameraFrameOverride;
 }
 
 + (id);
@@ -25,41 +15,33 @@
 + (id);
 + (id);
 + (id);
++ (id)(;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)C;
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (void);
 - (double);
 - (id);
 - (void);
-- (void)MapFeatureForNewPreferredConfiguration: /* Error: Ran out of types for this method. */;
+- (void)_shouldDeselectMapFeatureForNewPreferredConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEOCameraFrame *cameraFrameOverride; // @synthesize cameraFrameOverride=_cameraFrameOverride;
-@property(nonatomic) double heading; // @synthesize heading=_heading;
-@property(nonatomic) _Bool isMarkedLocation; // @synthesize isMarkedLocation=_isMarkedLocation;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(retain, nonatomic) VKMuninMarker *muninMarker; // @synthesize muninMarker=_muninMarker;
-@property(retain, nonatomic) GEOMuninViewState *muninViewState; // @synthesize muninViewState=_muninViewState;
-@property(nonatomic) int triggerAction; // @synthesize triggerAction=_triggerAction;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool wantsCloseUpView; // @synthesize wantsCloseUpView=_wantsCloseUpView;
 
 @end
 

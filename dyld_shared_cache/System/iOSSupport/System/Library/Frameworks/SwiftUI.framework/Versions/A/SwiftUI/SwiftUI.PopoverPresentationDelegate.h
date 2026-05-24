@@ -10,10 +10,10 @@
     id isLayoutPreventionActive;
 }
 
-- (void);
-- (void);
+- (void)Q;
+- (void)P;
 - (id);
-- (void);
+- (void)messageForPreventLockReason:(id)arg1;
 - (void);
 - (void)àëþ;
 - (_Bool)ÅÕ(ÉþµÕ$Éþ¥Õ Éþ;

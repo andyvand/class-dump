@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem;
-@protocol MKLocationManagerOperation, MKMapServiceTicket;
+@protocol MKLocationManagerOperation;
 
 @interface MKLookAroundSceneRequest
 {
     id <MKLocationManagerOperation> _singleLocationUpdate;
-    id <MKMapServiceTicket> _ticket;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _loading;
-    _Bool _cancelled;
-    MKMapItem *_mapItem;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
+- (void);
 - (void);
+- (void)ExtendedPoorConnectionGroup;
 - (void);
+- (id)K;
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)_notifyFalseRejectFeedbackBanner: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool)
 × ;
-- (id)reet:(struct CLLocationCoordinate2D)arg1;
-- (void)oordinate:address:label: /* Error: Ran out of types for this method. */;
+- (id)localizedSubtitleForStreet:(struct CLLocationCoordinate2D)arg1 crossStreet: /* Error: Ran out of types for this method. */;
+- (void)initForCoordinate:address:label: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(readonly, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
 
 @end
 

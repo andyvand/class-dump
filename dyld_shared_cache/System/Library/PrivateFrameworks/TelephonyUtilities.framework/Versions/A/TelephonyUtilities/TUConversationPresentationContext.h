@@ -19,7 +19,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)A;
 
 // Remaining properties
 @property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;

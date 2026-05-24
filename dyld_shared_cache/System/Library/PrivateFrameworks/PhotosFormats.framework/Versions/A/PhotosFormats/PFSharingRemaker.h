@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSMutableDictionary, NSObject, NSOperationQueue, PFSharingRemakerOptions;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject, PFSharingRemakerOptions;
+@protocol OS_dispatch_queue;
 
 @interface PFSharingRemaker
 {
     NSObject<OS_dispatch_queue> *_remakerQueue;
-    float _progress;
-    NSMutableDictionary *_inProgressOperationByUUID;
-    _Bool _remakerSuccess;
-    _Bool _abortedRemaker;
-    _Bool _cancelledRemaker;
-    NSError *_remakerError;
-    NSOperationQueue *_remakeOperationQueue;
-    NSObject<OS_dispatch_source> *_progressTimer;
-    PFSharingRemakerOptions *__options;
-    NSArray *__operations;
-    CDUnknownBlockType __progressHandler;
-    CDUnknownBlockType __completionHandler;
 }
 
 + (id);
@@ -31,26 +19,24 @@
 - (void);
 - (double);
 - (void);
+- (void)x;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)InWakeCount;
+- (CDUnknownBlockType)%s:dict_lastJoinToLastLinkUp:%s
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)7j;
 - (CDUnknownBlockType);
-- (void);
+- (void)(	;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setCompletionHandler:) CDUnknownBlockType _completionHandler; // @synthesize _completionHandler=__completionHandler;
-@property(retain, nonatomic, setter=_setOperations:) NSArray *_operations; // @synthesize _operations=__operations;
 @property(retain, nonatomic, setter=_setOptions:) PFSharingRemakerOptions *_options; // @synthesize _options=__options;
-@property(copy, nonatomic, setter=_setProgressHandler:) CDUnknownBlockType _progressHandler; // @synthesize _progressHandler=__progressHandler;
 
 @end
 

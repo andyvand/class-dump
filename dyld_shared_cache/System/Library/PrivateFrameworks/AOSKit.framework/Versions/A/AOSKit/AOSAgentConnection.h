@@ -10,11 +10,10 @@
 @interface AOSAgentConnection
 {
     _Bool _isDisconnected;
-    NSObject<OS_xpc_object> *_connection;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void)g to read account info (dsid=%@):%@ /* Error: Ran out of types for this method. */;
 - (void);
@@ -22,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)$;
 - (_Bool);
 - (_Bool);
 - (_Bool)RAÏLkø#VåÅT¦öu»R¾	|¹ô¹p¶8æ»uãÔõ¡2£îQøL¥IèþlÿNN8¶h5ûmZ{/¼-ñ`ßvÂ+ÇfpâqÀÀ	sý#~YÊ°&0d×÷fº+ÄG=`-;N©:ÆBV,¿ÅSdE¢Ï^á±2HüùXN;ÜOþ³þ7ÞPÓôg¼ÉzZË9iê$Í!ã&k&ïÁOÌëx£ÖeEÔ&võ;Ò>ü9t9ð9·i4úl[z.½,ðaÞwÃ*ÆgqãpÁÁßÕÆ-¢ë×Ð¨7	%§¾F"É÷ðg2¿W+!2ÙV{#y$î\ÃïýÑSJ²Öt=eëÆuKu£§­¾UÚ÷¯õ¨bÐOcq]ßÆ>Zø±égJùÇù/gèÅ¡ÇPâ}QCoíôhÊÛ½º-UxËõË¥¯¼WØõ­÷ª`ÒMas_ÝÄ<Xú³ëeHûÅû-EO\·8qMJ2­¿=$Ü¸Smjý¨%ÍÑÛÈ#¬åÙÞ¦9+©°H,Çùþi<±Yw}n
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(nonatomic) _Bool isDisconnected; // @synthesize isDisconnected=_isDisconnected;
 
 @end
 

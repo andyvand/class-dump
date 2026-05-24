@@ -5,5 +5,9 @@
 //
 
 @protocol UIScrollViewDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

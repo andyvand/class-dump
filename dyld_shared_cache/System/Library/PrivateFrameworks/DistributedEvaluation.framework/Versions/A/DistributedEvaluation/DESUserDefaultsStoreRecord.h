@@ -4,50 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface DESUserDefaultsStoreRecord
 {
     NSString *_recordID;
 }
 
-+ (void);
-+ (void);
++ (void)ustom.bundleId;
++ (void)om.bundleId;
++ (id).typeIdentifier.custom.bundleId;
++ (void)esolverRequestCreated.unresolvedParameterSets.parameters.candidate.value.collection.values.entity.typeIdentifier.custom.bundleId;
 + (id);
-+ (void);
-+ (id);
+- (id)arameterCandidatesNotFounds.value.collection.values.primitive.app.bundleId;
+- (_Bool)est.statementResults.payload.outcome.parameterCandidatesNotFounds.value.collection.values.primitive.app.bundleId;
+- (void)datesNotFounds.value.collection.typeIdentifier.custom.bundleId;
+- (void)eIdentifier.custom.bundleId;
+- (void)tFounds.value.value.query.typeIdentifier.custom.bundleId;
+- (void).payload.outcome.parameterCandidatesNotFounds.value.value.query.typeIdentifier.custom.bundleId;
+- (void)eGenerationRequest.statementResults.payload.outcome.parameterCandidatesNotFounds.value.value.query.typeIdentifier.custom.bundleId;
+- (id)ed.value.collection.values.primitive.app.bundleId;
+- (long long)entResults.payload.outcome.parameterNotAllowed.value.collection.values.primitive.app.bundleId;
+- (id)dentifier.custom.bundleId;
+- (id)come.parameterNotAllowed.value.value.entity.typeIdentifier.custom.bundleId;
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)dleId;
+- (id)seGenerationRequest.statementResults.payload.outcome.parameterConfirmation.item.value.primitive.app.bundleId;
+- (id)statementResults.payload.outcome.success.returnValue.value.entity.typeIdentifier.custom.bundleId;
+- (id)d;
+- (id).outcome.success.returnValue.value.primitive.app.bundleId;
 - (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ableDictionary",&,V_messages;
+- (void)s;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *completionDateKey;
-@property(copy, nonatomic) NSDictionary *debugInfo;
-@property(copy, nonatomic) NSDate *lastCompletionDate;
-@property(copy, nonatomic) NSNumber *maxTimeLimitInSeconds;
-@property(nonatomic) long long performCount;
-@property(copy, nonatomic) NSNumber *periodInSeconds;
 @property(readonly, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(nonatomic) _Bool shouldRegisterXPCActivity;
 
 @end
 

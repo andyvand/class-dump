@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAKeyframeAnimation, CAScrollLayer, IKSSBackgroundWindow, IKSSContentLayer, IKSSIndexSheetSelectionLayer, IKSSIndexView, IKSlideshowHandler, NSString;
+@class IKSlideshowHandler;
 
 __attribute__((visibility("hidden")))
 @interface IKSSIndexHandler
 {
     IKSlideshowHandler *_slideshowHandler;
-    IKSSBackgroundWindow *_indexWindow;
-    IKSSBackgroundWindow *_backgroundWindow;
-    CAScrollLayer *_bodyLayer;
-    IKSSIndexSheetSelectionLayer *_selectionLayer;
-    IKSSContentLayer *_contentLayer;
-    struct CGImage *_missingSlide;
-    CAKeyframeAnimation *_progressAnimation;
-    double _thumbnailSize;
-    int _columns;
-    int _rows;
-    _Bool _thumbnailsFitOnScreen;
-    IKSSIndexView *_view;
-    id *_thumbnailLayers;
-    long long _thumbnailLayersCount;
-    _Bool _switchedToIndexMode;
-    long long _selectedThumbnailIndex;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)C;
 - (void);
 - (void);
 - (void);
@@ -43,13 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (unsigned long long);
-- (void);
+- (void)h8);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -61,26 +45,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (double)gColor: /* Error: Ran out of types for this method. */;
-- (int)eForCancelButton;
-- (int)nfo:camera: /* Error: Ran out of types for this method. */;
+- (double)croppedImageFromOriginalImage:cropInfo:cropSize:outputSize:bgColor: /* Error: Ran out of types for this method. */;
+- (int)closeForCancelButton;
+- (int)addCameraInfo:camera: /* Error: Ran out of types for this method. */;
 - (void).framework;
 
 // Remaining properties
-@property int columns; // @synthesize columns=_columns;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) IKSSBackgroundWindow *indexWindow; // @synthesize indexWindow=_indexWindow;
-@property int rows; // @synthesize rows=_rows;
-@property long long selectedThumbnailIndex; // @synthesize selectedThumbnailIndex=_selectedThumbnailIndex;
-@property(readonly) Class superclass;
-@property _Bool switchedToIndexMode; // @synthesize switchedToIndexMode=_switchedToIndexMode;
 @property double thumbnailSize; // @synthesize thumbnailSize=_thumbnailSize;
-@property _Bool thumbnailsFitOnScreen; // @synthesize thumbnailsFitOnScreen=_thumbnailsFitOnScreen;
 
 @end
 

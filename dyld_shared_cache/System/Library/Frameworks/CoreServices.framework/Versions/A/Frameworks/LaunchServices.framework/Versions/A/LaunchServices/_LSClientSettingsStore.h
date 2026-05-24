@@ -6,33 +6,29 @@
 
 #import <LaunchServices/LSSettingsStore.h>
 
-@class LSSettingsStoreConfiguration, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class LSSettingsStoreConfiguration, NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface _LSClientSettingsStore : LSSettingsStore
 {
     NSXPCConnection *_xpcConnection;
-    LSSettingsStoreConfiguration *_configuration;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)^@32;
+- (void)h;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)registryID;
+- (id);
 - (unsigned char);
 - (void);
-- (void);
+- (void)pL;
 
 // Remaining properties
 @property(retain, nonatomic) LSSettingsStoreConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
 
 @end
 

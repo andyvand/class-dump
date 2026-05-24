@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, NSTimeZone, PHAsset;
+@class CLLocation, NSDate, NSTimeZone, PHAsset;
 
 @protocol PGShareBackSuggesterInputProtocol
-- (CLLocation *)tionContext: /* Error: Ran out of types for this method. */;
-- (PHAsset *)ersWithin100mOfCenter;
+- (NSDate *)NSt3__120__shared_ptr_emplaceINS_6vectorINS_4pairI7TFENode23NodeNotificationOptionsEENS_9allocatorIS5_EEEENS6_IS8_EEEE;
+- (NSDate *)|;
+- (CLLocation *)initWithMomentNodes:cityNode:titleGenerationContext: /* Error: Ran out of types for this method. */;
+- (PHAsset *)_numberOfAssetClustersWithin100mOfCenter;
 - (double)ySongUIDs;
 - (NSTimeZone *)IW"½÷$¬/;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAsset *asset;
 @property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) double horizontalAccuracy;
-@property(readonly, nonatomic) NSDate *localCreationDate;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
 @end
 

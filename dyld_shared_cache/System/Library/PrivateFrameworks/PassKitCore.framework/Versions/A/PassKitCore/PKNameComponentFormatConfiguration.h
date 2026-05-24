@@ -9,9 +9,6 @@
 @interface PKNameComponentFormatConfiguration
 {
     PKContactFieldConfiguration *_givenNameFieldConfiguration;
-    PKContactFieldConfiguration *_familyNameFieldConfiguration;
-    PKContactFieldConfiguration *_phoneticGivenNameFieldConfiguration;
-    PKContactFieldConfiguration *_phoneticFamilyNameFieldConfiguration;
 }
 
 + (_Bool)X"°!`@ùî%1Â0@ù
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)IdentifiersRequiringAuthentication;
+- (void)tcpECNIntServerSuccess;
+- (id)actionIdentifiersRequiringAuthentication;
 - (void)= "%@"
 %@};
 
 // Remaining properties
-@property(readonly, nonatomic) PKContactFieldConfiguration *familyNameFieldConfiguration; // @synthesize familyNameFieldConfiguration=_familyNameFieldConfiguration;
 @property(readonly, nonatomic) PKContactFieldConfiguration *givenNameFieldConfiguration; // @synthesize givenNameFieldConfiguration=_givenNameFieldConfiguration;
-@property(readonly, nonatomic) PKContactFieldConfiguration *phoneticFamilyNameFieldConfiguration; // @synthesize phoneticFamilyNameFieldConfiguration=_phoneticFamilyNameFieldConfiguration;
-@property(readonly, nonatomic) PKContactFieldConfiguration *phoneticGivenNameFieldConfiguration; // @synthesize phoneticGivenNameFieldConfiguration=_phoneticGivenNameFieldConfiguration;
 
 @end
 

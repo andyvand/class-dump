@@ -6,18 +6,16 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRCroppingSprite;
 
 @interface MREffectReflectionsSubtitle : MREffect
 {
     MRCroppingSprite *mTextSprite;
-    MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ntTypeIsSupported((NTPBEnvelope_ContentType)[contentType unsignedIntegerValue]); }];
+- (id)NDAnalyticsEnvelopeStore deleteEnvelopesForEntries:(id)arg1 ];
 - (_Bool);
 - (id);
 - (struct CGSize);

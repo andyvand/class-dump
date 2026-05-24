@@ -6,7 +6,7 @@
 
 @interface UnknownClass (NSKeyValueCodingPrivate)
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

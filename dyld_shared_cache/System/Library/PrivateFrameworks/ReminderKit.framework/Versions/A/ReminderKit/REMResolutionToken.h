@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface REMResolutionToken
 {
     long long _counter;
-    double _modificationTime;
-    NSUUID *_replicaID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)!@9j ;
 - (void);
 - (id);
 - (id);
@@ -28,7 +24,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (void);
 - (id);
@@ -37,8 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) long long counter; // @synthesize counter=_counter;
-@property(nonatomic) double modificationTime; // @synthesize modificationTime=_modificationTime;
-@property(retain, nonatomic) NSUUID *replicaID; // @synthesize replicaID=_replicaID;
 
 @end
 

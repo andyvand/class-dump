@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationBaseEventConditions, FCNewsTabiEventAggregationDurationEventConditions;
+@class FCNewsTabiEventAggregationDurationEventConditions;
 
 @interface FCNewsTabiRecipeEventAggregationConditions
 {
     FCNewsTabiEventAggregationDurationEventConditions *_cookModeViewed;
-    FCNewsTabiEventAggregationBaseEventConditions *_recipeSaved;
-    FCNewsTabiEventAggregationDurationEventConditions *_recipeViewed;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCNewsTabiEventAggregationDurationEventConditions *cookModeViewed; // @synthesize cookModeViewed=_cookModeViewed;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationBaseEventConditions *recipeSaved; // @synthesize recipeSaved=_recipeSaved;
-@property(readonly, nonatomic) FCNewsTabiEventAggregationDurationEventConditions *recipeViewed; // @synthesize recipeViewed=_recipeViewed;
 
 @end
 

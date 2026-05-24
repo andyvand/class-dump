@@ -6,13 +6,9 @@
 
 #import <NotesShared/ICBaseAttachment.h>
 
-@class NSString;
-
 @interface ICInlineAttachment : ICBaseAttachment
 {
     _Bool _animateInsertion;
-    _Bool _didAddAttachmentDataChangedObservers;
-    NSString *_displayText;
 }
 
 @end

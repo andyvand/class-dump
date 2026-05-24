@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _MPCProtoTracklistIndexPath;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _MPCProtoTracklist
 {
     NSMutableArray *_accountInfos;
-    NSMutableArray *_containers;
-    int _shuffleMode;
-    _MPCProtoTracklistIndexPath *_startingItemIndexPath;
-    struct {
-        unsigned int shuffleMode:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)inSection=%{public}@;

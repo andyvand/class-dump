@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol RTCVideoFrameBuffer;
-
 __attribute__((visibility("hidden")))
 @interface WK_RTCVideoFrame
 {
     long long _rotation;
-    long long _timeStampNs;
-    unsigned long long _duration;
-    id <RTCVideoFrameBuffer> _buffer;
-    long long timeStamp;
 }
 
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (long long)%lu;
+- (id)xmpDM:logComment /* Error: Ran out of types for this method. */;
+- (id)!= 0);
+- (id)SeparateArrayItems_v2;
+- (id)ap/1.0/g/;
 - (long long);
 - (void);
 - (unsigned long long);
@@ -32,12 +26,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <RTCVideoFrameBuffer> buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) int height;
-@property(readonly, nonatomic) long long rotation;
-@property(nonatomic) long long timeStamp; // @synthesize timeStamp;
-@property(readonly, nonatomic) long long timeStampNs;
 @property(readonly, nonatomic) int width;
 
 @end

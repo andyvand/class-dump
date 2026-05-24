@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol MTVisualStyleSetVersioning
+- (NSString *)hasPrimaryiCloudAccountForAltDSID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *visualStyleSetName;
 @property(readonly, nonatomic) long long visualStyleSetVersion;
 @end
 

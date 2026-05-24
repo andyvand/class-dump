@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
 @protocol VCMediaRecorderProtocol;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaRecorderManagerStreamTokenClientList
 {
     long long _streamToken;
-    id <VCMediaRecorderProtocol> _mediaRecorder;
-    NSMutableArray *_clientContextList;
 }
 
-+ (long long);
++ (long long);
 + (_Bool);
 - (id);
 - (id);
@@ -25,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *clientContextList; // @synthesize clientContextList=_clientContextList;
 @property(readonly, nonatomic) id <VCMediaRecorderProtocol> mediaRecorder; // @synthesize mediaRecorder=_mediaRecorder;
 
 @end

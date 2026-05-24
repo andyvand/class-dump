@@ -6,30 +6,26 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICrystallize : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    CIVector *inputCenter;
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
+- (id)gۗ;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)v ;
 - (void);
 - (id)mwwwpppphsqsd~~cro}fyy}v{{{rrrrmmmmpqqqwwwwfqos\bZn\ibs||||zyvzEbWtTg]uIi`{gtnqqqqGTG_EVI`ttrt_h~~~~bkgocfff````UUUUNPDPMXM^syyyayw`vtg{|~L`Ze3>-F05";<I=I\\\\jjejmzw¬¬¬¬½½½½¤¤¤¤vupvCO>YSWK[nnnn}`z|llllIPES0F9Smmmm~~~~RjgxNf`uryyymmmmddddXXXX>F9L-C5SqtttHi`Zjawssqs]i`kdhainnnnnspt{yx|}Ook~VjdySkfzXsqwyyyssssnnnnnlenqxvytwuyjvs}uuuuRc^h`b^hlnnnrqqrutt{}}}}ppmprrrrttrtFbXsSg]zzLb]hTTTTJJJJDNGN[[[[ggggppppvvvvyyyyw{|~vvvvQe[nYg]u¢¢¢¢©©©©¤¢¤¤·¾¾¾ÈÈÈÈ³³³³yyyyrqls_jcw]sojxv~wwwwuuuuppopYjelkkkk^eae;OB^OZOeuuuu||||cpkwikeq`nis~~~~{e}zo~|zzzzwwww]ngzpo}|zzzzSniy|¢¤xhpopbbZbVd_hyyyy^tsycd]jHYMe^hapj~|r~z~{~G]QlFZMh|zw|    YzyyyyyA[QhR_VgnnnnWidmmlfms|||¡ §²²²²µµµµ¬¬¬¬¤¤¤¤ks¢«¯³³ÃÃÃÃÈÈÈÈ½½½½¥¤¥¥e{w_xutzzzPebmghhh`fef\a[elrpsMcYrYh_q{eur}af_hXXUXDRGWghgh||||bup~~~~vwtz¢¢¢¢tzuq}z©©©©°°°°_pjw/J9[FQDX\\S\CRFYMUIXeeaep~~    ­­­­utmyOcWpu~}Zngy    Omg|crow||||zzzzJhdti{{{uutu^ibnyyyyg|{w¨¨¨¨¤¤¤¤vvqvnnknqrnr{{{{zwu}vxuyyyyy}}}}juq~oxwzzzz>TI^>PC\ppppwwwwllll__V_;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

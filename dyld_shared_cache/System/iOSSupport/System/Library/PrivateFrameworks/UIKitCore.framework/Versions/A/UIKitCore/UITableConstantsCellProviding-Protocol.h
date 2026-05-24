@@ -5,6 +5,8 @@
 //
 
 @protocol UITableConstantsCellProviding
+- (double)_service:account:incomingData:fromID:context:isBeingReplayed: /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_cellStyle) long long cellStyle;

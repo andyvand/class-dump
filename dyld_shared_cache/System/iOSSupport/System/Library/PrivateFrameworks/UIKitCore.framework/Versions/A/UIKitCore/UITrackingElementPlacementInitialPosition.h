@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)lient:(id)arg1;
+- (_Bool)setClient:(id)arg1;
 
 @end
 

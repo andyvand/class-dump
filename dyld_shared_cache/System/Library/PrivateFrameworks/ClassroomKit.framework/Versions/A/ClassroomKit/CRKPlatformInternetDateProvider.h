@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString;
 @protocol CRKInternetDateFetching;
 
 @interface CRKPlatformInternetDateProvider
 {
     id <CRKInternetDateFetching> _dateFetchingProvider;
-    NSDate *_internetDateAndTime;
-    double _uptimeAtInternetDateAndTimeFetch;
-    NSMutableArray *_completionQueue;
 }
 
 + (id);
 - (double);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (id);
+- (id)';
 - (void);
 - (id);
 - (id);
@@ -30,17 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *completionQueue; // @synthesize completionQueue=_completionQueue;
 @property(retain, nonatomic) id <CRKInternetDateFetching> dateFetchingProvider; // @synthesize dateFetchingProvider=_dateFetchingProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *internetDateAndTime; // @synthesize internetDateAndTime=_internetDateAndTime;
-@property(readonly) Class superclass;
-@property(nonatomic) double uptimeAtInternetDateAndTimeFetch; // @synthesize uptimeAtInternetDateAndTimeFetch=_uptimeAtInternetDateAndTimeFetch;
 
 @end
 

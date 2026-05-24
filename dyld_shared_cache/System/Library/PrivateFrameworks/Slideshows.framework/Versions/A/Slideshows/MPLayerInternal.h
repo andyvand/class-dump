@@ -4,50 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString;
-
 @interface MPLayerInternal
 {
     double numberOfLoops;
-    double opacity;
-    struct CGPoint position;
-    double zPosition;
-    struct CGSize size;
-    double rotationAngle;
-    double xRotationAngle;
-    double yRotationAngle;
-    double scale;
-    double timeIn;
-    double duration;
-    double phaseInDuration;
-    double phaseOutDuration;
-    NSString *title;
-    _Bool isTriggered;
-    _Bool startsPaused;
-    _Bool isAudioLayer;
-    long long audioPriority;
-    double durationPadding;
-    NSString *layerID;
-    long long zIndex;
-    NSString *uuid;
-    NSLock *containerLock;
-    _Bool cleaningUp;
 }
 
-- (double);
-- (double);
-- (double);
+- (double)fc_dateWithMillisecondTimeIntervalSince1970: /* Error: Ran out of types for this method. */;
+- (double)fc_containsObjectPassingTest: /* Error: Ran out of types for this method. */;
+- (double)N,V_keyValueStoreLock;
 - (_Bool);
 - (void);
 - (void);
+- (void)userStorefrontID;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void), identifier=%{public}@;
+- (void)isPersonalizedAdsEnabled;
+- (void)iCloudAccountState;
 - (double);
 - (_Bool);
 - (id);
@@ -62,19 +37,19 @@
 - (void);
 - (id);
 - (void);
-- (double);
-- (double);
+- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (double);
 - (void);
 - (double);
-- (struct CGSize);
+- (struct CGSize)DefaultArticleSeenAggregateModificationConfiguration;
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)0;
 - (double);
-- (void);
+- (void)nvalid with date %{public}@ and timeout %lu;
 - (long long);
 - (void);
 - (void);
@@ -85,30 +60,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long audioPriority; // @synthesize audioPriority;
-@property(nonatomic) _Bool cleaningUp; // @synthesize cleaningUp;
-@property(retain, nonatomic) NSLock *containerLock; // @synthesize containerLock;
-@property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic) double durationPadding; // @synthesize durationPadding;
-@property(nonatomic) _Bool isAudioLayer; // @synthesize isAudioLayer;
-@property(nonatomic) _Bool isTriggered; // @synthesize isTriggered;
-@property(retain, nonatomic) NSString *layerID; // @synthesize layerID;
 @property(nonatomic) double numberOfLoops; // @synthesize numberOfLoops;
-@property(nonatomic) double opacity; // @synthesize opacity;
-@property(nonatomic) double phaseInDuration; // @synthesize phaseInDuration;
-@property(nonatomic) double phaseOutDuration; // @synthesize phaseOutDuration;
-@property(nonatomic) struct CGPoint position; // @synthesize position;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle;
-@property(nonatomic) double scale; // @synthesize scale;
-@property(nonatomic) struct CGSize size; // @synthesize size;
-@property(nonatomic) _Bool startsPaused; // @synthesize startsPaused;
-@property(nonatomic) double timeIn; // @synthesize timeIn;
-@property(retain, nonatomic) NSString *title; // @synthesize title;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid;
-@property(nonatomic) double xRotationAngle; // @synthesize xRotationAngle;
-@property(nonatomic) double yRotationAngle; // @synthesize yRotationAngle;
-@property(nonatomic) long long zIndex; // @synthesize zIndex;
-@property(nonatomic) double zPosition; // @synthesize zPosition;
 
 @end
 

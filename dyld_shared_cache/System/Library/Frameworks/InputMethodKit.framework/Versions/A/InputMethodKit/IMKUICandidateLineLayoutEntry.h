@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface IMKUICandidateLineLayoutEntry
 {
     long long _alignment;
-    NSMutableArray *_candidateItemsInternal;
-    _Bool _complete;
-    unsigned long long _index;
-    double _length;
-    double _maxLength;
-    NSString *_title;
 }
 
 - (void);
@@ -29,26 +23,17 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)codedButSkippedCounter;
 - (void);
 - (void);
 - (void);
 - (_Bool)>ð1Â0@ù
 × ;
-- (void)rkedTextFlag:(unsigned long long)arg1;
+- (void)commitCompositionWithDiscardMarkedTextFlag:(unsigned long long)arg1;
 - (double)SearchClientGeometry;
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(readonly, nonatomic) NSArray *candidateItems;
 @property(retain, nonatomic) NSMutableArray *candidateItemsInternal; // @synthesize candidateItemsInternal=_candidateItemsInternal;
-@property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) double length; // @synthesize length=_length;
-@property(nonatomic) double maxLength; // @synthesize maxLength=_maxLength;
-@property(readonly) _Bool overflows;
-@property(readonly, nonatomic) double remainingLength;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -9,12 +9,11 @@
 @interface GEORawPathGeometry
 {
     NSData *_rawData;
-    GEOPathMapMatcherInstructions *_pathMatcherInstructions;
 }
 
 + (_Bool)path:%{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (id)isExistingPersistentStore: /* Error: Ran out of types for this method. */;
+- (id)CNCDTestPersistenceStack;
 - (id);
 - (id);
 - (struct RoutingPathLeg);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) GEOPathMapMatcherInstructions *pathMatcherInstructions;
-@property(readonly, nonatomic) NSData *rawData; // @synthesize rawData=_rawData;
 
 @end
 

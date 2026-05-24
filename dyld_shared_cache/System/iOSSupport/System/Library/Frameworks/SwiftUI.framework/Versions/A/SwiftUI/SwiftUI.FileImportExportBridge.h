@@ -7,9 +7,6 @@
 @interface SwiftUI.FileImportExportBridge
 {
     id host;
-    id presentationState;
-    id presentedPicker;
-    id lastEnvironment;
 }
 
 - (void);

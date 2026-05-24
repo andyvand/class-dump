@@ -24,14 +24,14 @@
 + (void);
 + (void);
 + (_Bool);
++ (id)MobileInstallationGetAllStagedUpdateIdentifiers;
++ (void);
++ (void);
++ (void)ion] Skipping invalid track with properties=%{public}@;
++ (void)AULT 0, search_album_artist INTEGER NOT NULL DEFAULT 0);
++ (void);
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (unsigned int);
++ (unsigned int);
 + (double);
 + (CDUnknownBlockType)Warning:Missing shadable value for binding "%@" (material:%p, geometry:%p) /* Error: Ran out of types for this method. */;
 + (void).roughness = scn_commonprofile.roughness;
@@ -1193,14 +1193,14 @@ fragment SCNOutput commonprofile_frag(commonprofile_io                   in     
     return _output;
 }
  /* Error: Ran out of types for this method. */;
-+ (void)orColorAndTexture_vert;
++ (void)ManipulatorColorAndTexture_vert;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, extras_url TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
 - (void);
 - (double);
 - (void)ER_INDEX)]]

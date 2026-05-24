@@ -4,69 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPTimestamp, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackOverview
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPTimestamp *_createdAt;
-    GEORPTimestamp *_lastUpdatedAt;
-    NSString *_stateDescription;
-    NSString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _feedbackState;
-    int _type;
-    struct {
-        unsigned int has_feedbackState:1;
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_createdAt:1;
-        unsigned int read_lastUpdatedAt:1;
-        unsigned int read_stateDescription:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setKeysAndSources:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)removeAllObjects;
+- (void)initWithContext:(int)arg1 delegate:notificationCenter: /* Error: Ran out of types for this method. */;
+- (id)containers;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (int);
+- (int);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)speechCapturing:didSetAudioSessionActive: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)0;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id)";
-- (void)ntIndex;
-- (id)bleTilesAtIndex: /* Error: Ran out of types for this method. */;
+- (void)hasEndValidSegmentIndex;
+- (id)availableTilesAtIndex: /* Error: Ran out of types for this method. */;
 - (int);
 - (id)l_;
-- (id)lay;
+- (id)button_display;
 - (id);
 - (id);
 - (_Bool);
@@ -76,19 +56,7 @@
 - (id)C^ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPTimestamp *createdAt;
-@property(nonatomic) int feedbackState;
-@property(readonly, nonatomic) _Bool hasCreatedAt;
-@property(nonatomic) _Bool hasFeedbackState;
-@property(readonly, nonatomic) _Bool hasLastUpdatedAt;
-@property(readonly, nonatomic) _Bool hasStateDescription;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEORPTimestamp *lastUpdatedAt;
-@property(retain, nonatomic) NSString *stateDescription;
-@property(retain, nonatomic) NSString *title;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

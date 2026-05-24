@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSPushbackStream, NSMutableData;
+@class ICSPushbackStream;
 
 @interface ICSTokenizer
 {
     ICSPushbackStream *_data;
-    NSMutableData *_token;
-    int _tokenType;
-    int _expectedNextTokenType;
-    _Bool _printedICS;
-    int _logCount;
 }
 
 - (void);
@@ -28,7 +23,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (int);
+- (int)Ļ;
 - (int);
 - (void);
 - (id);
@@ -36,7 +31,6 @@
 - (void);
 
 // Remaining properties
-@property int logCount; // @synthesize logCount=_logCount;
 @property _Bool printedICS; // @synthesize printedICS=_printedICS;
 
 @end

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMediaStreamDaemon, MSResetServerProtocol, NSString;
+@class NSString;
 
 @interface MSResetServer
 {
     NSString *_personID;
-    MSResetServerProtocol *_protocol;
-    MSMediaStreamDaemon *_daemon;
-    id _selfReference;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
++ (id)e to removed destination:(id)arg1 %@;
+- (void)ublic}@Creating TCP connection with scheduling mode %ld;
+- (void)ource:(id)arg1 %lu does not have sufficient entitlements;
+- (void)access is not allowed for action set:%@ because message from source:%lu does not have sufficient entitlements /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -25,15 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) MSMediaStreamDaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(readonly) Class superclass;
 
 @end
 

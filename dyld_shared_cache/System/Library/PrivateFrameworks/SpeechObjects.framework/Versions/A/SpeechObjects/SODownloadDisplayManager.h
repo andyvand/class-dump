@@ -7,7 +7,6 @@
 @interface SODownloadDisplayManager
 {
     double _currentBytesPerSecondValue;
-    double _timeRemainingAvergingWindow[7];
 }
 
 - (double);

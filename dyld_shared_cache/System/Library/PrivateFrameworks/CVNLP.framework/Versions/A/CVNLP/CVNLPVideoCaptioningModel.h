@@ -9,19 +9,17 @@
 @interface CVNLPVideoCaptioningModel
 {
     NSDictionary *_options;
-    shared_ptr_be70005a _model;
 }
 
 - (id);
+- (id)BHF;
 - (id);
 - (id);
-- (id);
-- (shared_ptr_be70005a);
+- (shared_ptr_ac5f4c41);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) shared_ptr_be70005a model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSDictionary *options; // @synthesize options=_options;
+@property(readonly, nonatomic) shared_ptr_ac5f4c41 model; // @synthesize model=_model;
 
 @end
 

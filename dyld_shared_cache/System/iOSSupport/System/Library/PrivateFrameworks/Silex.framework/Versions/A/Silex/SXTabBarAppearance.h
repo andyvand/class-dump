@@ -14,8 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *icon2xImageIdentifier_v2; // @dynamic icon2xImageIdentifier_v2;
-@property(readonly, nonatomic) NSString *icon3xImageIdentifier_v2; // @dynamic icon3xImageIdentifier_v2;
 @property(readonly, nonatomic) NSString *title; // @dynamic title;
 @end
 

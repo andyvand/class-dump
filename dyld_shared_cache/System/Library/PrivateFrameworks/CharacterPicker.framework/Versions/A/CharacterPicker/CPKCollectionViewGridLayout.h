@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface CPKCollectionViewGridLayout
 {
     _Bool _isRTL;
-    double _horizontalPadding;
 }
 
-- (void);
+- (void)a;
 - (void);
 - (double);
 - (_Bool);
-- (id);
+- (id)"CHSWidgetDisplayProperties",C,D,N;
 
 // Remaining properties
 @property(nonatomic) double horizontalPadding; // @synthesize horizontalPadding=_horizontalPadding;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
 
 @end
 

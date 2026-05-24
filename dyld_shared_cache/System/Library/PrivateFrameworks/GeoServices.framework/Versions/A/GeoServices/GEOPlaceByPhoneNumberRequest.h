@@ -6,40 +6,29 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface GEOPlaceByPhoneNumberRequest : GEOXPCRequest
 {
     _Bool _allowCellular;
-    NSUUID *_requestUUID;
-    NSArray *_phoneNumbers;
 }
 
-+ (Class);
-- (void);
++ (Class)setLocations: /* Error: Ran out of types for this method. */;
+- (void)imageData;
 - (_Bool);
-- (id);
-- (void);
+- (id)c;
+- (void)systemSleeps:(id)arg1;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)OriginCurrentLocation;
+- (void)isOriginCurrentLocation;
 - (id)ÿÿÿÿ;
 - (id)ýÿÿÿ;
 - (void)46566676869707172737475767778798081828384858687888990919293949596979899N6google8protobuf7MessageE;
 - (void)¬ÿs/?K@;
 
 // Remaining properties
-@property(nonatomic) _Bool allowCellular; // @synthesize allowCellular=_allowCellular;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly) Class superclass;
 
 @end
 

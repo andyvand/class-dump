@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, UIImage, UIView;
-
 @interface _MSStickerDragPreviewContainerView
 {
     _Bool _useEmojiKeyboardMeshTransform;
-    _Bool _isDropAnimation;
-    _Bool _dropAnimationIsComplete;
-    _Bool _defersFinalDropAnimationCompletion;
-    UIImage *_image;
-    CDUnknownBlockType _clientDropCompletion;
-    CDUnknownBlockType _finalUIKitDropCompletion;
-    UIView *_currentDropPreviewSnapshot;
-    CALayer *_shineLayer;
-    CALayer *_shadowLayer;
-    CALayer *_dropShadowLayer;
-    CALayer *_peelLayer;
-    CALayer *_meshLayer;
-    CALayer *_perspectiveLayer;
-    CALayer *_peelImageLayer;
-    CALayer *_peelMaskLayer;
-    UIView *_previewView;
-    struct CGPoint _originalCenter;
-    struct CGPoint _meshLayerStartPosition;
-    struct CGPoint _peelLayerStartPosition;
-    struct CGPoint _shineLayerStartPosition;
-    struct CGPoint _shadowLayerStartPosition;
-    struct CGPoint _dropShadowLayerStartPosition;
 }
 
 + (id);
@@ -39,16 +15,16 @@
 + (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)K;
 - (CDUnknownBlockType);
 - (_Bool);
 - (struct CGPoint);
@@ -56,7 +32,7 @@
 - (struct CGPoint);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,58 +54,29 @@
 - (id);
 - (struct CGPoint);
 - (id);
-- (id);
+- (id)P;
 - (struct CGPoint);
 - (double);
-- (id);
-- (void);
-- (double);
+- (id)_TtC12NewsArticles25ArticleViewerMenuProvider;
+- (void)_TtC12NewsArticles29TextSizeControlViewController;
+- (double)_TtC12NewsArticles18EndOfArticleRouter;
 - (id);
 - (void);
 - (struct CGPoint);
-- (struct CGSize);
+- (struct CGSize)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_collectionTitle;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType clientDropCompletion; // @synthesize clientDropCompletion=_clientDropCompletion;
-@property(retain, nonatomic) UIView *currentDropPreviewSnapshot; // @synthesize currentDropPreviewSnapshot=_currentDropPreviewSnapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool defersFinalDropAnimationCompletion; // @synthesize defersFinalDropAnimationCompletion=_defersFinalDropAnimationCompletion;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dropAnimationIsComplete; // @synthesize dropAnimationIsComplete=_dropAnimationIsComplete;
-@property(retain, nonatomic) CALayer *dropShadowLayer; // @synthesize dropShadowLayer=_dropShadowLayer;
-@property(nonatomic) struct CGPoint dropShadowLayerStartPosition; // @synthesize dropShadowLayerStartPosition=_dropShadowLayerStartPosition;
-@property(copy, nonatomic) CDUnknownBlockType finalUIKitDropCompletion; // @synthesize finalUIKitDropCompletion=_finalUIKitDropCompletion;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(nonatomic) _Bool isDropAnimation; // @synthesize isDropAnimation=_isDropAnimation;
-@property(retain, nonatomic) CALayer *meshLayer; // @synthesize meshLayer=_meshLayer;
-@property(nonatomic) struct CGPoint meshLayerStartPosition; // @synthesize meshLayerStartPosition=_meshLayerStartPosition;
-@property(nonatomic) struct CGPoint originalCenter; // @synthesize originalCenter=_originalCenter;
-@property(retain, nonatomic) CALayer *peelImageLayer; // @synthesize peelImageLayer=_peelImageLayer;
-@property(retain, nonatomic) CALayer *peelLayer; // @synthesize peelLayer=_peelLayer;
-@property(nonatomic) struct CGPoint peelLayerStartPosition; // @synthesize peelLayerStartPosition=_peelLayerStartPosition;
-@property(retain, nonatomic) CALayer *peelMaskLayer; // @synthesize peelMaskLayer=_peelMaskLayer;
-@property(retain, nonatomic) CALayer *perspectiveLayer; // @synthesize perspectiveLayer=_perspectiveLayer;
-@property(retain, nonatomic) UIView *previewView; // @synthesize previewView=_previewView;
-@property(retain, nonatomic) CALayer *shadowLayer; // @synthesize shadowLayer=_shadowLayer;
-@property(nonatomic) struct CGPoint shadowLayerStartPosition; // @synthesize shadowLayerStartPosition=_shadowLayerStartPosition;
-@property(retain, nonatomic) CALayer *shineLayer; // @synthesize shineLayer=_shineLayer;
-@property(nonatomic) struct CGPoint shineLayerStartPosition; // @synthesize shineLayerStartPosition=_shineLayerStartPosition;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useEmojiKeyboardMeshTransform; // @synthesize useEmojiKeyboardMeshTransform=_useEmojiKeyboardMeshTransform;
 
 @end
 

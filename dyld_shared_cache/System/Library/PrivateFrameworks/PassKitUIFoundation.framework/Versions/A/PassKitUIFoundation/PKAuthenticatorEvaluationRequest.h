@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, PKPaymentInstructions;
-
 @interface PKAuthenticatorEvaluationRequest
 {
     _Bool _hasInitialAuthenticatorState;
-    _Bool _assumeBiometricOrPasscodeAvailable;
-    _Bool _passcodeOnly;
-    _Bool _useLegacyAuthenticator;
-    _Bool _useLocationBasedAuthorization;
-    long long _policy;
-    NSString *_reason;
-    NSString *_processName;
-    NSNumber *_processIdentifier;
-    NSString *_PINTitle;
-    NSNumber *_PINLength;
-    PKPaymentInstructions *_instructions;
-    NSData *_externalizedContext;
-    struct __SecAccessControl *_accessControlRef;
-    NSString *_physicalButtonTitle;
-    NSString *_passcodeTitle;
-    NSString *_fallbackOptionTitle;
-    unsigned long long _initialAuthenticatorState;
-    unsigned long long _maxBiometryFailures;
 }
 
 - (_Bool);
@@ -54,8 +34,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)KMessageEntryContentView"16@"IMPluginPayload"24;
+- (id)l;
 - (id);
 - (id);
 - (unsigned long long);
@@ -68,29 +48,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *PINLength; // @synthesize PINLength=_PINLength;
-@property(copy, nonatomic) NSString *PINTitle; // @synthesize PINTitle=_PINTitle;
-@property(nonatomic) struct __SecAccessControl *accessControlRef; // @synthesize accessControlRef=_accessControlRef;
-@property(nonatomic) _Bool assumeBiometricOrPasscodeAvailable; // @synthesize assumeBiometricOrPasscodeAvailable=_assumeBiometricOrPasscodeAvailable;
-@property(retain, nonatomic) NSData *externalizedContext; // @synthesize externalizedContext=_externalizedContext;
-@property(copy, nonatomic) NSString *fallbackOptionTitle; // @synthesize fallbackOptionTitle=_fallbackOptionTitle;
-@property(nonatomic) _Bool hasInitialAuthenticatorState; // @synthesize hasInitialAuthenticatorState=_hasInitialAuthenticatorState;
-@property(nonatomic) unsigned long long initialAuthenticatorState; // @synthesize initialAuthenticatorState=_initialAuthenticatorState;
-@property(retain, nonatomic) PKPaymentInstructions *instructions; // @synthesize instructions=_instructions;
-@property(nonatomic) unsigned long long maxBiometryFailures; // @synthesize maxBiometryFailures=_maxBiometryFailures;
-@property(nonatomic) _Bool passcodeOnly; // @synthesize passcodeOnly=_passcodeOnly;
-@property(copy, nonatomic) NSString *passcodeTitle; // @synthesize passcodeTitle=_passcodeTitle;
-@property(copy, nonatomic) NSString *physicalButtonTitle; // @synthesize physicalButtonTitle=_physicalButtonTitle;
 @property(readonly, nonatomic) long long policy; // @synthesize policy=_policy;
-@property(copy, nonatomic) NSNumber *processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(copy, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) _Bool useLegacyAuthenticator; // @synthesize useLegacyAuthenticator=_useLegacyAuthenticator;
-@property(nonatomic) _Bool useLocationBasedAuthorization; // @synthesize useLocationBasedAuthorization=_useLocationBasedAuthorization;
 
 @end
 

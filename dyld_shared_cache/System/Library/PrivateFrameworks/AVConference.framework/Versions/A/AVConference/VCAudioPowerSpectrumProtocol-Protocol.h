@@ -5,6 +5,7 @@
 //
 
 @protocol VCAudioPowerSpectrumProtocol
+- (void *);
 
 // Remaining properties
 @property(readonly, nonatomic) void *realtimeContext;

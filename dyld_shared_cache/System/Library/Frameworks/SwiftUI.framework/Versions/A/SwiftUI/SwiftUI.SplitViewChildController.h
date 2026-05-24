@@ -7,15 +7,6 @@
 @interface SwiftUI.SplitViewChildController
 {
     id collapseBehaviorSeed;
-    id dismissDisabledSeed;
-    id searchableSeed;
-    id sidebarOptionsSeed;
-    id columnListSeed;
-    id splitViewItem;
-    id fixedSidebar;
-    id splitViewItemSearchAccessory;
-    id sidebarList;
-    id navigationSplitColumn;
 }
 
 - (id);

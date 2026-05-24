@@ -9,12 +9,12 @@
     id _value;
 }
 
-- (void);
+- (void)ot supported.;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)o;
 - (id);
 - (void)YSg;
 

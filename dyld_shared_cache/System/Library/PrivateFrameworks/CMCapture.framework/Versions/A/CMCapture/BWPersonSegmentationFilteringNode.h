@@ -6,21 +6,10 @@
 
 #import <CMCapture/BWNode.h>
 
-@class FigSemanticStyleFilteringV1;
-@protocol MTLCommandQueue;
-
 __attribute__((visibility("hidden")))
 @interface BWPersonSegmentationFilteringNode : BWNode
 {
     int _gpuPriority;
-    _Bool _frameRateUpsamplingEnabled;
-    _Bool _alignsMaskWithPrimaryCaptureRect;
-    _Bool _inferencePreviouslyAttached;
-    unsigned int _inputOrientationRelativeToSensor;
-    FigSemanticStyleFilteringV1 *_segmentationMaskFilter;
-    struct opaqueCMSampleBuffer *_cachedFilteredMaskSampleBuffer;
-    struct opaqueCMFormatDescription *_filteredMaskFormatDescription;
-    id <MTLCommandQueue> _commandQueue;
 }
 
 + (void)gedSettings.outputFileType isEqual:(NSString *)kFigFileType_QuickTimeMovie] /* Error: Ran out of types for this method. */;
@@ -30,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)ndarAdapter cancelEvent:(id)arg1 No existing event found. [SGStorageEvent (%{public}@)];
 - (void);
 - (void);
 - (id);

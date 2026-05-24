@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCTimer, NSArray;
+@class FMXPCTimer;
 @protocol FMFSchedulerDelegate;
 
 @interface FMFScheduler
 {
     id <FMFSchedulerDelegate> _delegate;
-    NSArray *_schedules;
-    FMXPCTimer *_timer;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)SkinToneCellIndex;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)brary/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRegisterListenerOptions_macOS.m:(id)arg1 32 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (id)CompanionLink;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *currentSchedules;
-@property(readonly, nonatomic) id <FMFSchedulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *schedules; // @synthesize schedules=_schedules;
 @property(retain, nonatomic) FMXPCTimer *timer; // @synthesize timer=_timer;
 
 @end

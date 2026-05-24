@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, WBSSQLiteDatabase, WBSSafariBookmarksSyncAgentProxy;
-@protocol OS_dispatch_queue;
+@class NSURL, WBSSafariBookmarksSyncAgentProxy;
 
 @interface WBSPerSitePreferencesSQLiteStore
 {
     NSURL *_databaseURL;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSSQLiteDatabase *_database;
-    WBSSafariBookmarksSyncAgentProxy *_syncProxy;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -33,11 +29,11 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -46,13 +42,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int);
 - (id);
-- (void);
+- (void);
 - (int);
 - (int);
 - (int);

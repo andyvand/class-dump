@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDQuickLinkFilter
 {
     PBUnknownFields *_unknownFields;
-    int _quickLinkItemsCount;
-    struct {
-        unsigned int has_quickLinkItemsCount:1;
-    } _flags;
 }
 
 - (id);

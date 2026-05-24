@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class HMAction, NSString;
 
 @protocol HMActionSetBuilder
+- (void)initWithKnowledgeStore:(HMAction *)arg1 interactionStore:contactResolver:shareSheetSupportedBundleIds:messageInteractionCache: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *actions;
 @property(copy, nonatomic) NSString *name;
 @end
 

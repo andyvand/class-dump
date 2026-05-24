@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CBIdentityQuery
 {
     id _delegate;
-    _Bool _showsHiddenIdentities;
-    NSArray *_identities;
-    struct __CSIdentityQuery *_csQuery;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (id)%;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)M;
+- (id)/;
 - (struct __CSIdentityQuery *);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)H;
 - (id);
-- (void);
-- (_Bool);
+- (void).Calendar.TriggeredEvent.NotificationData.Unprotected;
+- (_Bool)P;
 - (_Bool);
 - (id);
 

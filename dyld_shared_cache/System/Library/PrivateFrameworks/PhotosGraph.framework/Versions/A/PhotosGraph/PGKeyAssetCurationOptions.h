@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSSet, PGCurationCriteria, PHAsset;
+@class CLLocation;
 
 @interface PGKeyAssetCurationOptions
 {
     _Bool _focusOnPeople;
-    _Bool _complete;
-    _Bool _allowContextualTrip;
-    _Bool _useSummarizer;
-    _Bool _useContextualCurationOnly;
-    _Bool _prefilterAssetsWithFaces;
-    _Bool _promoteAutoplayableItems;
-    _Bool _isForMemories;
-    _Bool _allowGuestAsset;
-    _Bool _wantsGoodSquareCropScore;
-    _Bool _useIconicScore;
-    _Bool _avoidPromotingAutoplayableItemsWhenUsingIconicScore;
-    CLLocation *_referenceLocation;
-    unsigned long long _minimumNumberOfReferencePersons;
-    NSSet *_referencePersonLocalIdentifiers;
-    double _prefilterAssetsWithFacesThreshold;
-    PHAsset *_referenceAsset;
-    PGCurationCriteria *_curationCriteria;
 }
 
 - (_Bool);
@@ -48,23 +31,23 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)accessibilityRangeForPosition: /* Error: Ran out of types for this method. */;
+- (_Bool)ACMContextReplacePassphraseCredentialsWithScope;
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)4*GG;
 - (id);
-- (id);
-- (id);
+- (id)lementIdentifierSet"16@"NSString"24B32q36^@44;
 - (id)
 × ;
 - (_Bool);
@@ -72,24 +55,7 @@
 - (void)NOT (localIdentifier IN %@);
 
 // Remaining properties
-@property(nonatomic) _Bool allowContextualTrip; // @synthesize allowContextualTrip=_allowContextualTrip;
-@property(nonatomic) _Bool allowGuestAsset; // @synthesize allowGuestAsset=_allowGuestAsset;
-@property(nonatomic) _Bool avoidPromotingAutoplayableItemsWhenUsingIconicScore; // @synthesize avoidPromotingAutoplayableItemsWhenUsingIconicScore=_avoidPromotingAutoplayableItemsWhenUsingIconicScore;
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(retain, nonatomic) PGCurationCriteria *curationCriteria; // @synthesize curationCriteria=_curationCriteria;
-@property(nonatomic) _Bool focusOnPeople; // @synthesize focusOnPeople=_focusOnPeople;
-@property(nonatomic) _Bool isForMemories; // @synthesize isForMemories=_isForMemories;
-@property(nonatomic) unsigned long long minimumNumberOfReferencePersons; // @synthesize minimumNumberOfReferencePersons=_minimumNumberOfReferencePersons;
-@property(nonatomic) _Bool prefilterAssetsWithFaces; // @synthesize prefilterAssetsWithFaces=_prefilterAssetsWithFaces;
-@property(nonatomic) double prefilterAssetsWithFacesThreshold; // @synthesize prefilterAssetsWithFacesThreshold=_prefilterAssetsWithFacesThreshold;
-@property(nonatomic) _Bool promoteAutoplayableItems; // @synthesize promoteAutoplayableItems=_promoteAutoplayableItems;
-@property(readonly, nonatomic) PHAsset *referenceAsset; // @synthesize referenceAsset=_referenceAsset;
 @property(retain, nonatomic) CLLocation *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(retain, nonatomic) NSSet *referencePersonLocalIdentifiers; // @synthesize referencePersonLocalIdentifiers=_referencePersonLocalIdentifiers;
-@property(nonatomic) _Bool useContextualCurationOnly; // @synthesize useContextualCurationOnly=_useContextualCurationOnly;
-@property(nonatomic) _Bool useIconicScore; // @synthesize useIconicScore=_useIconicScore;
-@property(nonatomic) _Bool useSummarizer; // @synthesize useSummarizer=_useSummarizer;
-@property(nonatomic) _Bool wantsGoodSquareCropScore; // @synthesize wantsGoodSquareCropScore=_wantsGoodSquareCropScore;
 
 @end
 

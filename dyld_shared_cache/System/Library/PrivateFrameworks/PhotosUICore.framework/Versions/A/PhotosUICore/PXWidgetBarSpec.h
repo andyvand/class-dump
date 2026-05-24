@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont;
+@class NSColor;
 
 @interface PXWidgetBarSpec
 {
     _Bool _shouldUseSingleLine;
-    NSColor *_textColor;
-    NSFont *_primaryFont;
-    NSFont *_secondaryFont;
-    double _distanceBetweenTopAndFirstBaseline;
-    double _distanceBetweenLastBaselineAndBottom;
-    double _minimumDistanceBetweenTopAndFirstAscender;
-    double _minimumDistanceBetweenLastDescenderAndBottom;
-    double _distanceBetweenTitleBaselineAndSubtitleBaseline;
-    double _horizontalSpacingBetweenTitleAndSubtitle;
-    struct NSEdgeInsets _contentInsets;
 }
 
-- (_Bool);
+- (_Bool)/;
 - (void);
 - (void);
 - (void);
@@ -31,32 +21,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)5
+;
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
 - (void);
 - (void);
 - (struct NSEdgeInsets);
-- (id)esultItem:(struct _NSZone *)arg1;
-- (id)exedSubscript: /* Error: Ran out of types for this method. */;
+- (id)showVisualSearchForResultItem:(struct _NSZone *)arg1;
+- (id)setObject:atIndexedSubscript: /* Error: Ran out of types for this method. */;
 - (void)Ý©±ô;
-- (void)iewModelDisplayState;
+- (void)LemonadeShelvesViewModelDisplayState;
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(nonatomic) double distanceBetweenLastBaselineAndBottom; // @synthesize distanceBetweenLastBaselineAndBottom=_distanceBetweenLastBaselineAndBottom;
-@property(nonatomic) double distanceBetweenTitleBaselineAndSubtitleBaseline; // @synthesize distanceBetweenTitleBaselineAndSubtitleBaseline=_distanceBetweenTitleBaselineAndSubtitleBaseline;
-@property(nonatomic) double distanceBetweenTopAndFirstBaseline; // @synthesize distanceBetweenTopAndFirstBaseline=_distanceBetweenTopAndFirstBaseline;
-@property(nonatomic) double horizontalSpacingBetweenTitleAndSubtitle; // @synthesize horizontalSpacingBetweenTitleAndSubtitle=_horizontalSpacingBetweenTitleAndSubtitle;
-@property(nonatomic) double minimumDistanceBetweenLastDescenderAndBottom; // @synthesize minimumDistanceBetweenLastDescenderAndBottom=_minimumDistanceBetweenLastDescenderAndBottom;
-@property(nonatomic) double minimumDistanceBetweenTopAndFirstAscender; // @synthesize minimumDistanceBetweenTopAndFirstAscender=_minimumDistanceBetweenTopAndFirstAscender;
-@property(retain, nonatomic) NSFont *primaryFont; // @synthesize primaryFont=_primaryFont;
-@property(retain, nonatomic) NSFont *secondaryFont; // @synthesize secondaryFont=_secondaryFont;
-@property(nonatomic) _Bool shouldUseSingleLine; // @synthesize shouldUseSingleLine=_shouldUseSingleLine;
 @property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
 
 @end

@@ -6,30 +6,11 @@
 
 #import <MetalTools/MTLToolsIndirectCommandBuffer.h>
 
-@class NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap, MTLIndirectCommandBufferSPI;
+@protocol MTLBuffer;
 
 @interface MTLLegacySVIndirectCommandBuffer : MTLToolsIndirectCommandBuffer
 {
     _Bool _hasRender;
-    _Bool _hasCompute;
-    _Bool _inheritsBuffers;
-    _Bool _inheritsPipelineState;
-    id <MTLBuffer> _argumentStorage;
-    id <MTLBuffer> _vertexKernelDrawOrDispatchIDBuffer;
-    id <MTLBuffer> _fragmentDrawIDBuffer;
-    id <MTLBuffer> _meshDrawIDBuffer;
-    id <MTLBuffer> _objectDrawIDBuffer;
-    unsigned short _maxCommands;
-    unsigned char _maxVertexBindings;
-    unsigned char _maxFragmentBindings;
-    unsigned char _maxKernelBindings;
-    unsigned char _maxThreadgroupBindings;
-    unsigned char _maxObjectBindings;
-    unsigned char _maxMeshBindings;
-    _Bool _mayContainDrawMeshes;
-    unsigned short _commandByteStride;
-    unsigned long long _originalResourceOptions;
 }
 
 - (void);
@@ -39,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -50,7 +31,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (id);
@@ -66,54 +47,15 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (struct MTLResourceID);
+- (unsigned long long)i;
+- (struct MTLResourceID)!;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long){?=[32C]}32;
 - (unsigned long long)0.;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
-@property(retain, nonatomic) id <MTLIndirectCommandBufferSPI> baseObject; // @dynamic baseObject;
-@property(readonly, nonatomic) unsigned long long commandByteStride;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(readonly, nonatomic) _Bool inheritsBuffers;
-@property(readonly, nonatomic) _Bool inheritsPipelineState;
-@property(readonly, nonatomic) id <MTLBuffer> internalDispatchIDBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> internalFragmentDrawIDBuffer;
 @property(readonly, nonatomic) id <MTLBuffer> internalICBBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> internalMeshDrawIDBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> internalObjectDrawIDBuffer;
-@property(readonly, nonatomic) id <MTLBuffer> internalVertexDrawIDBuffer;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) unsigned long long maxCommands;
-@property(readonly, nonatomic) unsigned long long maxFragmentBindings;
-@property(readonly, nonatomic) unsigned long long maxKernelBindings;
-@property(readonly, nonatomic) unsigned long long maxMeshBindings;
-@property(readonly, nonatomic) unsigned long long maxObjectBindings;
-@property(readonly, nonatomic) unsigned long long maxVertexBindings;
-@property(readonly, nonatomic) _Bool mayContainDrawMeshes;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long underlyingGPUAddress;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

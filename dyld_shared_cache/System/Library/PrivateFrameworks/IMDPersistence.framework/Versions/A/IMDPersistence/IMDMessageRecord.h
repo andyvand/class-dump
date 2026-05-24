@@ -6,8 +6,6 @@
 
 #import <IMDPersistence/IMDRecord.h>
 
-@class IMDChatRecord, IMDHandleRecord, NSArray, NSAttributedString, NSData, NSDate, NSDictionary, NSString;
-
 @interface IMDMessageRecord : IMDRecord
 {
 }
@@ -43,106 +41,18 @@
 - (id);
 - (id);
 - (struct _NSRange);
-- (struct __CFArray **);
-- (id);
+- (struct __CFArray **)T);
+- (id)@;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool)tabaseQuery: /* Error: Ran out of types for this method. */;
+- (_Bool)databaseQuery: /* Error: Ran out of types for this method. */;
 - (long long)	
 ;
-- (unsigned long long)tadata;
+- (unsigned long long)LPSpecializationMetadata;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *account; // @dynamic account;
-@property(readonly, copy, nonatomic) NSString *accountGUID; // @dynamic accountGUID;
-@property(readonly, nonatomic, getter=isArchive) _Bool archive; // @dynamic archive;
-@property(readonly, nonatomic, getter=isArchived) _Bool archived;
-@property(readonly, nonatomic, getter=isAssociatedMessage) _Bool associatedMessage;
-@property(readonly, copy, nonatomic) NSString *associatedMessageEmoji; // @dynamic associatedMessageEmoji;
-@property(readonly, copy, nonatomic) NSString *associatedMessageGUID; // @dynamic associatedMessageGUID;
-@property(readonly, nonatomic) struct _NSRange associatedMessageRange; // @dynamic associatedMessageRange;
-@property(readonly, nonatomic) long long associatedMessageType; // @dynamic associatedMessageType;
-@property(readonly, nonatomic) NSArray *attachmentRecords;
-@property(readonly, copy, nonatomic) NSData *attributedBodyData;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedBodyText;
-@property(readonly, nonatomic, getter=isAudioMessage) _Bool audioMessage; // @dynamic audioMessage;
-@property(readonly, nonatomic, getter=isAutoReply) _Bool autoReply; // @dynamic autoReply;
-@property(readonly, copy, nonatomic) NSString *balloonBundleID; // @dynamic balloonBundleID;
-@property(readonly, copy, nonatomic) NSString *biaReferenceID; // @dynamic biaReferenceID;
-@property(readonly, nonatomic) _Bool cacheHasAttachments; // @dynamic cacheHasAttachments;
-@property(readonly, nonatomic) IMDChatRecord *chatRecord;
-@property(readonly, nonatomic) NSString *ckChatID; // @dynamic ckChatID;
-@property(readonly, copy, nonatomic) NSString *cloudKitChatID;
-@property(readonly, copy, nonatomic) NSString *country; // @dynamic country;
-@property(readonly, copy, nonatomic) NSDictionary *dataDetectorsInfo; // @dynamic dataDetectorsInfo;
-@property(readonly, nonatomic) NSDate *date; // @dynamic date;
-@property(readonly, copy, nonatomic) NSDate *dateDelivered; // @dynamic dateDelivered;
-@property(readonly, copy, nonatomic) NSDate *dateEdited;
-@property(readonly, nonatomic) NSDate *datePlayed; // @dynamic datePlayed;
-@property(readonly, copy, nonatomic) NSDate *dateRead; // @dynamic dateRead;
-@property(readonly, copy, nonatomic) NSDate *dateRecovered;
-@property(readonly, nonatomic, getter=isDelayed) _Bool delayed; // @dynamic delayed;
-@property(readonly, nonatomic, getter=isDelivered) _Bool delivered; // @dynamic delivered;
-@property(readonly, copy, nonatomic) NSString *destinationCallerID; // @dynamic destinationCallerID;
-@property(readonly, nonatomic, getter=isEmote) _Bool emote; // @dynamic emote;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty; // @dynamic empty;
-@property(readonly, nonatomic) unsigned int error; // @dynamic error;
-@property(readonly, nonatomic, getter=isExpirable) _Bool expirable; // @dynamic expirable;
-@property(readonly, nonatomic) long long expireState; // @dynamic expireState;
-@property(readonly, copy, nonatomic) NSDate *expressiveSendPlayedTime;
-@property(readonly, copy, nonatomic) NSString *expressiveSendStyleID; // @dynamic expressiveSendStyleID;
-@property(readonly, copy, nonatomic) NSString *fallbackHash; // @dynamic fallbackHash;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished; // @dynamic finished;
-@property(readonly, nonatomic) unsigned long long flags;
-@property(readonly, nonatomic, getter=isForward) _Bool forward; // @dynamic forward;
-@property(readonly, nonatomic, getter=isFromMe) _Bool fromMe; // @dynamic fromMe;
-@property(readonly, copy, nonatomic) NSString *groupTitle; // @dynamic groupTitle;
-@property(readonly, copy, nonatomic) NSString *guid; // @dynamic guid;
-@property(readonly, nonatomic) long long handleID; // @dynamic handleID;
-@property(readonly, nonatomic) IMDHandleRecord *handleRecord;
-@property(readonly, nonatomic) _Bool hasDataDetectorResults;
 @property(readonly, nonatomic) _Bool hasDdResults; // @dynamic hasDdResults;
-@property(readonly, copy, nonatomic) NSString *iMessageAppBundleID;
-@property(readonly, copy, nonatomic) NSData *iMessageAppData;
-@property(readonly, nonatomic) unsigned char indexState; // @dynamic indexState;
-@property(readonly, nonatomic) long long itemType; // @dynamic itemType;
-@property(readonly, copy, nonatomic) NSDictionary *messageSummaryInfo;
-@property(readonly, copy, nonatomic) NSData *messageSummaryInfoData;
-@property(readonly, nonatomic) _Bool needsRelay; // @dynamic needsRelay;
-@property(readonly, nonatomic) IMDHandleRecord *otherHandleRecord;
-@property(readonly, nonatomic) long long partCount; // @dynamic partCount;
-@property(readonly, copy, nonatomic) NSData *payloadData; // @dynamic payloadData;
-@property(readonly, nonatomic, getter=isPendingSatelliteSend) _Bool pendingSatelliteSend; // @dynamic pendingSatelliteSend;
-@property(readonly, nonatomic, getter=isPlayed) _Bool played; // @dynamic played;
-@property(readonly, nonatomic, getter=isPrepared) _Bool prepared; // @dynamic prepared;
-@property(readonly, nonatomic) long long rawDate; // @dynamic rawDate;
-@property(readonly, nonatomic) long long rawDateDelivered; // @dynamic rawDateDelivered;
-@property(readonly, nonatomic) long long rawDatePlayed; // @dynamic rawDatePlayed;
-@property(readonly, nonatomic) long long rawDateRead; // @dynamic rawDateRead;
-@property(readonly, nonatomic, getter=isRead) _Bool read; // @dynamic read;
-@property(readonly, nonatomic, getter=isReply) _Bool reply;
-@property(readonly, copy, nonatomic) NSString *replyToGUID; // @dynamic replyToGUID;
-@property(readonly, nonatomic) long long rowID;
-@property(readonly, nonatomic) long long scheduleState; // @dynamic scheduleState;
-@property(readonly, nonatomic) long long scheduleType; // @dynamic scheduleType;
-@property(readonly, nonatomic, getter=isSent) _Bool sent; // @dynamic sent;
-@property(readonly, nonatomic) _Bool sentOrReceivedOffGrid; // @dynamic sentOrReceivedOffGrid;
-@property(readonly, copy, nonatomic) NSString *service; // @dynamic service;
-@property(readonly, nonatomic, getter=isServiceMessage) _Bool serviceMessage; // @dynamic serviceMessage;
-@property(readonly, copy, nonatomic) NSString *serviceName;
-@property(readonly, copy, nonatomic) NSString *subject; // @dynamic subject;
-@property(readonly, copy, nonatomic) NSString *syndicationRanges; // @dynamic syndicationRanges;
-@property(readonly, nonatomic, getter=isSystemMessage) _Bool systemMessage; // @dynamic systemMessage;
-@property(readonly, copy, nonatomic) NSString *text; // @dynamic text;
-@property(readonly, copy, nonatomic) NSString *threadOriginatorGUID; // @dynamic threadOriginatorGUID;
-@property(readonly, copy, nonatomic) NSString *threadOriginatorPart; // @dynamic threadOriginatorPart;
-@property(readonly, nonatomic) unsigned long long timeExpressiveSendPlayed; // @dynamic timeExpressiveSendPlayed;
-@property(readonly, nonatomic, getter=isTimeSensitive) _Bool timeSensitive; // @dynamic timeSensitive;
-@property(readonly, nonatomic) _Bool wasDataDetected; // @dynamic wasDataDetected;
-@property(readonly, nonatomic) _Bool wasDeduplicated; // @dynamic wasDeduplicated;
-@property(readonly, nonatomic) _Bool wasDetonated; // @dynamic wasDetonated;
-@property(readonly, nonatomic) _Bool wasDowngraded; // @dynamic wasDowngraded;
 
 @end
 

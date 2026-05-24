@@ -9,20 +9,18 @@
 @interface CSDonationProgressStreamRecorder
 {
     _Bool _donationPermitted;
-    BMSource *_streamSource;
 }
 
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)handleDataSyncStateUpdateLogEvent:(id)arg1;
+- (id)handleCurrentDeviceOrAccountUpdatedNotification: /* Error: Ran out of types for this method. */;
+- (void)handleCreateKeychainItemForReaderKeyMessage:(id)arg1;
+- (_Bool)handleBulletinBoardNotificationDidUpdateNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)handleBulletinBoardNotificationDidUpdateNotification: /* Error: Ran out of types for this method. */;
+- (void)handleAttributeReport:(id)arg1 dictionary:hapAccessory: /* Error: Ran out of types for this method. */;
+- (id)handleActivationResponse:(id)arg1 context:(id)arg2;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool donationPermitted; // @synthesize donationPermitted=_donationPermitted;
 @property(retain, nonatomic) BMSource *streamSource; // @synthesize streamSource=_streamSource;
 
 @end

@@ -9,7 +9,7 @@
     id activityIndicatorView;
 }
 
-- (id);
+- (id);
 - (id)1Â0@ù
 × ;
 - (void)Ô$ÿ;

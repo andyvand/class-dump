@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface PGSchemaPGRequestEnded : SISchemaInstrumentationMessage
 {
     int _reason;
-    SISchemaUUID *_linkId;
-    SISchemaUUID *_transcriptEventId;
-    CDStruct_6555f803 _has;
-    _Bool _hasLinkId;
-    _Bool _hasTranscriptEventId;
 }
 
 - (id);
@@ -24,36 +17,31 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)mer.;
+- (void)o change FMM settings.;
+- (id)pt to change to status:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ACCOUNT_SYNC_PENDING_APPROVAL_REQUEST_BUTTON;
 - (id);
+- (int)_roadLineType;
 - (_Bool);
 - (id);
-- (int);
-- (_Bool);
-- (id);
 - (void);
-- (void);
+- (void)@
+;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)dle;
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (id)ngDuration;
+- (id)_hasQueryDecorationTupleRankingDuration;
 - (id)omponentIndex;
-- (void)ttributeSenderExists;
-- (void)EEDBACKSTATUS_UI_DEVICE_NOT_AVAILABLE;
+- (void)smsAttributeSenderExists;
+- (void)CDAUSERFEEDBACKSTATUS_UI_DEVICE_NOT_AVAILABLE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasTranscriptEventId; // @synthesize hasTranscriptEventId=_hasTranscriptEventId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) SISchemaUUID *transcriptEventId; // @synthesize transcriptEventId=_transcriptEventId;
 
 @end
 

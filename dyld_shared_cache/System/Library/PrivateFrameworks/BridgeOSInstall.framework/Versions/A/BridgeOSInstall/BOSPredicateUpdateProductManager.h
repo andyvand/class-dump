@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSUProduct, MSUProductManager, NSArray, NSDictionary, NSError, NSNumber, NSObject, NSString, NSURL, PKDistribution, PKDownloader, PKPackageSourceManager;
-@protocol OS_dispatch_semaphore;
+@class MSUProduct, MSUProductManager;
 
 @interface BOSPredicateUpdateProductManager
 {
     MSUProduct *_product;
-    NSString *_productBridgeVersion;
-    NSDictionary *_macOSInstallationAuxInfo;
-    MSUProductManager *_productManager;
-    PKPackageSourceManager *_sourceManager;
-    NSError *_error;
-    NSURL *_catalogURL;
-    NSURL *_catalogURLOverride;
-    unsigned long long _catalogOptionsOverride;
-    NSNumber *_stagedUpdatesOnlyOverride;
-    PKDownloader *_downloader;
-    NSObject<OS_dispatch_semaphore> *_downloaderFinished;
-    NSURL *_destinationURL;
-    CDUnknownBlockType _downloadProgressHandler;
-    NSArray *_localPackageSpecifiers;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (id);
 - (id);
 - (id);
@@ -39,72 +24,55 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)er _createPreferredControlsViewController];
+- (id)thHeadroomUsage:] /* Error: Ran out of types for this method. */;
+- (void)pictureInPictureController;
+- (void)PicturePossible;
+- (void)reenConnectionReadyToConnect:(id)arg1 ];
+- (void)isVideoZoomableInViewBounds;
+- (void)inerView.bounds;
+- (void)Screen;
 - (id);
-- (id);
+- (id)troller.view.bounds;
+- (id)bility title;
+- (id)ity title;
+- (unsigned long long)rward keyboard command discoverability title;
+- (void)KEYBOARD_DISCOVERABILITY_GO_TO_BEGINNING;
+- (_Bool)le;
+- (_Bool)coverability title;
+- (_Bool)?0@"NSString"8q16B24:(id)arg1 28:36@"NSString"44@"NSString"52 /* Error: Ran out of types for this method. */;
+- (id)ckControlsController.transportBarCustomMenuItems;
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)__objc_superrefs__DATA_CONST;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)orDataStream;
+- (void)%@>;
+- (void);
+- (void)n;
 - (void);
 - (void);
+- (void)<;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)#;
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)UV;
+- (id)resizeSouthWest;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *bridgeOSSoftwareUpdateEventRecordingServiceURL;
-@property unsigned long long catalogOptionsOverride; // @synthesize catalogOptionsOverride=_catalogOptionsOverride;
-@property(retain) NSURL *catalogURL; // @synthesize catalogURL=_catalogURL;
-@property(retain) NSURL *catalogURLOverride; // @synthesize catalogURLOverride=_catalogURLOverride;
-@property(retain) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly) PKDistribution *distribution;
-@property(copy) CDUnknownBlockType downloadProgressHandler; // @synthesize downloadProgressHandler=_downloadProgressHandler;
-@property(retain) PKDownloader *downloader; // @synthesize downloader=_downloader;
-@property(retain) NSObject<OS_dispatch_semaphore> *downloaderFinished; // @synthesize downloaderFinished=_downloaderFinished;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSArray *localPackageSpecifiers; // @synthesize localPackageSpecifiers=_localPackageSpecifiers;
-@property(retain) NSDictionary *macOSInstallationAuxInfo; // @synthesize macOSInstallationAuxInfo=_macOSInstallationAuxInfo;
-@property(retain) MSUProduct *product; // @synthesize product=_product;
-@property(retain) NSString *productBridgeVersion; // @synthesize productBridgeVersion=_productBridgeVersion;
 @property(retain) MSUProductManager *productManager; // @synthesize productManager=_productManager;
-@property(readonly) NSArray *remotePackageSpecifiers;
-@property(retain) PKPackageSourceManager *sourceManager; // @synthesize sourceManager=_sourceManager;
-@property(retain) NSNumber *stagedUpdatesOnlyOverride; // @synthesize stagedUpdatesOnlyOverride=_stagedUpdatesOnlyOverride;
 
 @end
 

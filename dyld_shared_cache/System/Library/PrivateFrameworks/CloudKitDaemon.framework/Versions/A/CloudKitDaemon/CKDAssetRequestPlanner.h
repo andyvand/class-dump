@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet;
+@class NSArray;
 
 @interface CKDAssetRequestPlanner
 {
     unsigned int _assetTokenRequestSizeLimit;
-    NSArray *_assetRegisterAndPutBatches;
-    NSArray *_assetTokenRequests;
-    NSMutableDictionary *_rerefAssetBatchesByZoneID;
-    NSMutableDictionary *_assetBatchesByZoneID;
-    NSMutableOrderedSet *_items;
-    NSMutableDictionary *_assetZoneByKey;
 }
 
 - (void);
@@ -27,32 +21,26 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)pointPlusType);
+- (id)FigEndpointCompletionCallback _Nonnull, void * _Nullable)_block_invoke;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)_tdSessionStartedByBadRSSICount;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)_bcsEmailIdentiferForAddress:(id)arg1;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)ifierOverrideForTCC;
+- (void)_applicationBundleIdentifierOverrideForTCC;
 - (void)force fetch share metadata for share:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *assetBatchesByZoneID; // @synthesize assetBatchesByZoneID=_assetBatchesByZoneID;
 @property(retain) NSArray *assetRegisterAndPutBatches; // @synthesize assetRegisterAndPutBatches=_assetRegisterAndPutBatches;
-@property(readonly, nonatomic) unsigned int assetTokenRequestSizeLimit; // @synthesize assetTokenRequestSizeLimit=_assetTokenRequestSizeLimit;
-@property(retain, nonatomic) NSArray *assetTokenRequests; // @synthesize assetTokenRequests=_assetTokenRequests;
-@property(retain, nonatomic) NSMutableDictionary *assetZoneByKey; // @synthesize assetZoneByKey=_assetZoneByKey;
-@property(retain, nonatomic) NSMutableOrderedSet *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSMutableDictionary *rerefAssetBatchesByZoneID; // @synthesize rerefAssetBatchesByZoneID=_rerefAssetBatchesByZoneID;
 
 @end
 

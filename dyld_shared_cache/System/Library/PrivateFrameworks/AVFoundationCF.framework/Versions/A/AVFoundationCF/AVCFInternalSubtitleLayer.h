@@ -10,9 +10,9 @@
 }
 
 - (struct OpaqueAVCFSubtitleLayer *);
+- (void)*;
 - (void);
-- (void);
-- (void);
+- (void)t];
 - (void)te;
 
 // Remaining properties

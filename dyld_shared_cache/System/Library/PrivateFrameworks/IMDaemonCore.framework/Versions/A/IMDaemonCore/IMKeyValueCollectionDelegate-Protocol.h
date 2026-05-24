@@ -5,5 +5,8 @@
 //
 
 @protocol IMKeyValueCollectionDelegate
+
+@optional
+- (void);
 @end
 

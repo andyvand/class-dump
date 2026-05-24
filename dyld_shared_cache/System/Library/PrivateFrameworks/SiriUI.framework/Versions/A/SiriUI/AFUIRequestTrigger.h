@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, SiriUIRequestOptions;
+@class SiriUIRequestOptions;
 
 @interface AFUIRequestTrigger
 {
     SiriUIRequestOptions *_options;
-    long long _state;
-    NSMapTable *_observers;
 }
 
 - (void);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SiriUIRequestOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

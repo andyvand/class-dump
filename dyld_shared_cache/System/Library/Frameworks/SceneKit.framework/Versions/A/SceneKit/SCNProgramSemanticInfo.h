@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SCNProgramSemanticInfo
 {
     NSString *_semantic;
-    NSDictionary *_options;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)o;
+- (void));
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(copy, nonatomic) NSString *semantic; // @synthesize semantic=_semantic;
 
 @end

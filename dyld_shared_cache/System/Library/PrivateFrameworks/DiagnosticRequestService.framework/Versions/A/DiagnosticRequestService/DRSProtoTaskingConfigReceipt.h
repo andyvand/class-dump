@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoTaskingConfigMetadata, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoTaskingConfigReceipt
 {
     NSString *_receiptResult;
-    DRSProtoTaskingConfigMetadata *_taskingConfigMetadata;
 }
 
 - (id);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -31,17 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasReceiptResult;
-@property(readonly, nonatomic) _Bool hasTaskingConfigMetadata;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *receiptResult; // @synthesize receiptResult=_receiptResult;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) DRSProtoTaskingConfigMetadata *taskingConfigMetadata; // @synthesize taskingConfigMetadata=_taskingConfigMetadata;
 
 @end
 

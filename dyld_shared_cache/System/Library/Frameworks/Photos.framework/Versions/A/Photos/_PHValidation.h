@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface _PHValidation
 {
     unsigned long long _requestedOptions;
-    unsigned long long _validatedOptions;
-    NSError *_error;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)SOD] updateTokensForResults:(unsigned long long)arg1 | found [] token={ .tokenID=%lld, .tokenRevision=%d, .databaseStorage={ .options={%d}, .occurrenceCount=%d } } result=%@ explicit=%{BOOL}u containerItem=%{BOOL}u;
 - (_Bool);
-- (void)MasterObjectID;
+- (void)_cloudMasterObjectID;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAMessagingDestination, IDSMessageContext, NSString;
+@class IDSMessageContext, NSString;
 
 @interface AAMessagingContext
 {
     IDSMessageContext *_context;
-    _Bool _expectsPeerResponse;
-    NSString *_outgoingResponseIdentifier;
-    NSString *_incomingResponseIdentifier;
-    NSString *_senderCorrelationIdentifier;
-    AAMessagingDestination *_fromID;
-    AAMessagingDestination *_toID;
 }
 
 - (id);
@@ -24,15 +18,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)operationWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool expectsPeerResponse; // @synthesize expectsPeerResponse=_expectsPeerResponse;
-@property(readonly, nonatomic) AAMessagingDestination *fromID; // @synthesize fromID=_fromID;
-@property(readonly, nonatomic) NSString *incomingResponseIdentifier; // @synthesize incomingResponseIdentifier=_incomingResponseIdentifier;
 @property(readonly, nonatomic) NSString *outgoingResponseIdentifier; // @synthesize outgoingResponseIdentifier=_outgoingResponseIdentifier;
-@property(readonly, nonatomic) NSString *senderCorrelationIdentifier; // @synthesize senderCorrelationIdentifier=_senderCorrelationIdentifier;
-@property(readonly, nonatomic) AAMessagingDestination *toID; // @synthesize toID=_toID;
 
 @end
 

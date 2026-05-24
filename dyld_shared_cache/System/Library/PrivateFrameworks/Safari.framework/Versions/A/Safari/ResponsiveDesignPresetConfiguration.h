@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ResponsiveDesignPresetConfiguration
 {
     _Bool _rotated;
-    unsigned long long _type;
-    NSString *_displayName;
-    NSString *_portraitImageName;
-    NSString *_landscapeImageName;
-    NSString *_userAgent;
-    NSString *_key;
-    unsigned long long _pixelRatio;
-    ResponsiveDesignPresetConfiguration *_nextConfiguration;
-    struct CGSize _screenSize;
 }
 
 + (id);
@@ -41,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (struct CGSize);
 - (id);
 - (void)!ÈBù¦Ð1Â0@ù
@@ -53,19 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize browserSize;
 @property(readonly, nonatomic) NSDictionary *dictionary;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *landscapeImageName; // @synthesize landscapeImageName=_landscapeImageName;
-@property(retain, nonatomic) ResponsiveDesignPresetConfiguration *nextConfiguration; // @synthesize nextConfiguration=_nextConfiguration;
-@property(nonatomic) unsigned long long pixelRatio; // @synthesize pixelRatio=_pixelRatio;
-@property(copy, nonatomic) NSString *portraitImageName; // @synthesize portraitImageName=_portraitImageName;
-@property(nonatomic) _Bool rotated; // @synthesize rotated=_rotated;
-@property(readonly, nonatomic) struct CGSize rotatedBrowserSize;
-@property(nonatomic) struct CGSize screenSize; // @synthesize screenSize=_screenSize;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

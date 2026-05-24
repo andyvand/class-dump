@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RTSSchemaRTSSecondPassPolicyDecisionMade : SISchemaInstrumentationMessage
 {
     _Bool _isSecondPassTriggered;
-    double _speakingProbability;
-    double _processedAudioDurationInMs;
-    _Bool _isReplayModeEnabled;
-    CDStruct_7fbaa352 _has;
 }
 
 - (double);
@@ -39,24 +33,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)yk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRegisterListenerOptions_macOS.m:32 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)IncomingMessageCategory.MadridGroup;
 - (id);
 - (id);
-- (id)onInterruptorName;
+- (id)avAudioSessionInterruptorName;
 - (id)nthOfYear;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsReplayModeEnabled;
-@property(nonatomic) _Bool hasIsSecondPassTriggered;
-@property(nonatomic) _Bool hasProcessedAudioDurationInMs;
-@property(nonatomic) _Bool hasSpeakingProbability;
-@property(nonatomic) _Bool isReplayModeEnabled; // @synthesize isReplayModeEnabled=_isReplayModeEnabled;
 @property(nonatomic) _Bool isSecondPassTriggered; // @synthesize isSecondPassTriggered=_isSecondPassTriggered;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double processedAudioDurationInMs; // @synthesize processedAudioDurationInMs=_processedAudioDurationInMs;
-@property(nonatomic) double speakingProbability; // @synthesize speakingProbability=_speakingProbability;
 
 @end
 

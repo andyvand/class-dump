@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MREffectCoverCascadeSlideStory
 {
     double birthStart;
-    double birthDuration;
-    double deathStart;
-    double deathDuration;
-    float deathParameter;
-    NSString *slideID;
-    unsigned long long slideIndex;
-    unsigned char x;
-    unsigned char y;
-    unsigned char birthType;
-    unsigned char deathType;
 }
 
 - (id);

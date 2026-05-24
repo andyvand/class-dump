@@ -11,16 +11,6 @@
 @interface SUCorePolicyExtensionSplatUpdate : SUCorePolicyExtension
 {
     _Bool _allowSameRestoreVersion;
-    NSString *_installedSplatRestoreVersion;
-    NSString *_installedSplatBuildVersion;
-    NSString *_installedSplatProductVersion;
-    NSString *_installedSplatProductVersionExtra;
-    NSString *_installedSplatReleaseType;
-    NSString *_installedBaseOSRestoreVersion;
-    NSString *_installedBaseOSBuildVersion;
-    NSString *_installedBaseOSProductVersion;
-    NSString *_installedBaseOSReleaseType;
-    NSString *_requestedSplatRestoreVersion;
 }
 
 + (_Bool);
@@ -34,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -58,8 +48,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)WebsiteDataStore"16@"NSString"24;
+- (id)_loadURLSoon:isReissuingLoadWithUserAndPasswordRemoved: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -67,17 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowSameRestoreVersion; // @synthesize allowSameRestoreVersion=_allowSameRestoreVersion;
-@property(retain, nonatomic) NSString *installedBaseOSBuildVersion; // @synthesize installedBaseOSBuildVersion=_installedBaseOSBuildVersion;
-@property(retain, nonatomic) NSString *installedBaseOSProductVersion; // @synthesize installedBaseOSProductVersion=_installedBaseOSProductVersion;
-@property(retain, nonatomic) NSString *installedBaseOSReleaseType; // @synthesize installedBaseOSReleaseType=_installedBaseOSReleaseType;
-@property(retain, nonatomic) NSString *installedBaseOSRestoreVersion; // @synthesize installedBaseOSRestoreVersion=_installedBaseOSRestoreVersion;
-@property(retain, nonatomic) NSString *installedSplatBuildVersion; // @synthesize installedSplatBuildVersion=_installedSplatBuildVersion;
-@property(retain, nonatomic) NSString *installedSplatProductVersion; // @synthesize installedSplatProductVersion=_installedSplatProductVersion;
-@property(retain, nonatomic) NSString *installedSplatProductVersionExtra; // @synthesize installedSplatProductVersionExtra=_installedSplatProductVersionExtra;
-@property(retain, nonatomic) NSString *installedSplatReleaseType; // @synthesize installedSplatReleaseType=_installedSplatReleaseType;
 @property(retain, nonatomic) NSString *installedSplatRestoreVersion; // @synthesize installedSplatRestoreVersion=_installedSplatRestoreVersion;
-@property(retain, nonatomic) NSString *requestedSplatRestoreVersion; // @synthesize requestedSplatRestoreVersion=_requestedSplatRestoreVersion;
 
 @end
 

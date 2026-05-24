@@ -9,16 +9,15 @@
 @interface HMIDataReader
 {
     NSData *_data;
-    unsigned long long _position;
 }
 
-- (void);
+- (void)TZ;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
-- (id);
+- (id)@9?;
 - (void);
 
 @end

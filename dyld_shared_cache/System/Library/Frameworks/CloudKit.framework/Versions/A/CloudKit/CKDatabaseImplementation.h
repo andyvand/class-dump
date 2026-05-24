@@ -4,43 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerImplementation, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDatabaseImplementation
 {
     NSObject<OS_dispatch_queue> *_underlyingDispatchQueue;
-    CKContainerImplementation *_containerImplementation;
-    long long _scope;
-    NSOperationQueue *_operationQueue;
 }
 
 - (void);
+- (id)T;
+- (void)!;
+- (void);
+- (void)Th:(id)arg1;
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (long long)N6CoreML13Specification26GatherAlongAxisLayerParamsE;
+- (void);
+- (void)6;
+- (id)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)accountDescriptorForAccountID:(id)arg1;
 - (void);
 - (long long);
 - (void);
@@ -49,18 +46,14 @@
 - (void)
 × ;
 - (void)2@0:8@"CKFetchShareParticipantsOperationInfo"16@?<v@?@"NSError">24 /* Error: Ran out of types for this method. */;
-- (id)airContainerFromContainer: /* Error: Ran out of types for this method. */;
-- (void)dataCompletionBlock;
+- (id)createRepairContainerFromContainer: /* Error: Ran out of types for this method. */;
+- (void)_fetchMergeableDeltaMetadataCompletionBlock;
 - (void)ð¤	;
 - (unsigned long long)blic}@ making a delete callback about a zone deleted due to encrypted data reset with ID %@;
 - (id)ring *__strong _Nonnull, NSString *__strong _Nonnull, NSBundle *__strong _Nonnull, NSString *__strong _Nonnull, va_list);
 - (void)¦;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak CKContainerImplementation *containerImplementation; // @synthesize containerImplementation=_containerImplementation;
-@property(readonly, nonatomic) long long databaseScope;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) long long scope; // @synthesize scope=_scope;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *underlyingDispatchQueue; // @synthesize underlyingDispatchQueue=_underlyingDispatchQueue;
 
 @end

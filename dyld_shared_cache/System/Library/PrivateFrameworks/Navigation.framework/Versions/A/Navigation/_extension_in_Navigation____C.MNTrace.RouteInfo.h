@@ -7,8 +7,6 @@
 @interface (extension in Navigation):__C.MNTrace.RouteInfo
 {
     id timestamp;
-    id route;
-    id rerouteReason;
 }
 
 @end

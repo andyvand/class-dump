@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NewsUI2.TagView
 {
     id titleLabel;
-    id imageView;
-    id subtitleLabel;
-    id badgeView;
-    id countLabel;
-    id accessoryView;
-    id isSelectable;
-    id isSelected;
-    id isHighlightable;
-    id isHighlighted;
-    id isEditing;
-    id $__lazy_storage_$_contentAccessibilityElement;
-    id _notificationSwitch;
-    id _likeButton;
-    id _shortcutButton;
-    id keyCommandBlocks;
-    void tsaxAccessibilityLabelForReordering;
 }
 
 - (void);
@@ -33,24 +17,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_lastSectionContentItemFuture;
 - (id);
 - (id);
-- (void);
+- (void)articleListID;
 - (void)ü¦þ;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
 @property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic) struct CGRect accessibilityFrame;
-@property(nonatomic, copy) NSArray *accessibilityUserInputLabels;
-@property(nonatomic, copy) NSString *accessibilityValue;
-@property(nonatomic, copy) NSString *tsaxAccessibilityLabelForReordering;
 
 @end
 

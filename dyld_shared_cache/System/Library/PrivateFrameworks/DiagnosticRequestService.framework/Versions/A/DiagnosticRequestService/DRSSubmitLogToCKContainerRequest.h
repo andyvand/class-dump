@@ -6,23 +6,19 @@
 
 #import <DiagnosticRequestService/DRSSubmitLogRequest.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface DRSSubmitLogToCKContainerRequest : DRSSubmitLogRequest
 {
     NSString *_containerName;
-    NSString *_recordType;
-    NSString *_fileAssetField;
-    NSData *_recordDictionaryData;
-    NSDictionary *_recordDictionary;
 }
 
-+ (Class);
++ (Class)Sb32eligibleForAutoCloudKitMigration_t;
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id)sh;
++ (id)deviceHash;
 - (id);
 - (id);
 - (id);
@@ -43,10 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(readonly, nonatomic) NSString *fileAssetField; // @synthesize fileAssetField=_fileAssetField;
-@property(readonly, nonatomic) NSDictionary *recordDictionary; // @synthesize recordDictionary=_recordDictionary;
-@property(readonly, nonatomic) NSData *recordDictionaryData; // @synthesize recordDictionaryData=_recordDictionaryData;
-@property(readonly, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
 
 @end
 

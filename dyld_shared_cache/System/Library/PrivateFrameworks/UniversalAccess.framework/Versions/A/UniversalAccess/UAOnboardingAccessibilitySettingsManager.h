@@ -8,10 +8,10 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)swerClass"b1};
+- (_Bool)FLOWSchemaFLOWRichAttachmentIntelligenceFeatureUsage";
+- (_Bool)1"userPersona"b1};
+- (_Bool)tentRankerResponse";
 
 @end
 

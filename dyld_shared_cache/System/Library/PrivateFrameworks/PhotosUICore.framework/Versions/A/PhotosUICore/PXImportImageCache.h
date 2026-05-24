@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PXImportImageCache
 {
     unsigned short _imageFormat;
-    NSMutableDictionary *_caches;
-    NSObject<OS_dispatch_queue> *_cacheTableQueue;
 }
 
 + (id);

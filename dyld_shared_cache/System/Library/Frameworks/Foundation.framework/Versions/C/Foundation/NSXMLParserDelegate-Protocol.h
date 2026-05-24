@@ -7,6 +7,10 @@
 @protocol NSXMLParserDelegate
 
 @optional
+- (void));
+- (void)v;
+- (void)lar;
+- (void);
 - (void);
 @end
 

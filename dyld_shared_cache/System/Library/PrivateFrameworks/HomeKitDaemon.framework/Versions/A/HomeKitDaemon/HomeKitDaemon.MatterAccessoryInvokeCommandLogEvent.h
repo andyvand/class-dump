@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface HomeKitDaemon.MatterAccessoryInvokeCommandLogEvent
 {
     id home;
-    unsigned long long nodeId;
-    NSNumber *endpointId;
-    NSNumber *clusterId;
-    NSNumber *commandId;
-    unsigned long long source;
-    void coreAnalyticsEventName;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (id);
@@ -23,23 +14,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)C;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)werForRequestedCapabilities: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_prepareAnswerForRequestedCapabilities: /* Error: Ran out of types for this method. */;
 - (void)q;
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *clusterId; // @synthesize clusterId;
-@property(nonatomic, readonly) NSNumber *commandId; // @synthesize commandId;
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
-@property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
-@property(nonatomic, readonly) NSNumber *endpointId; // @synthesize endpointId;
 @property(nonatomic, readonly) unsigned long long nodeId; // @synthesize nodeId;
-@property(nonatomic, readonly) unsigned long long source; // @synthesize source;
 
 @end
 

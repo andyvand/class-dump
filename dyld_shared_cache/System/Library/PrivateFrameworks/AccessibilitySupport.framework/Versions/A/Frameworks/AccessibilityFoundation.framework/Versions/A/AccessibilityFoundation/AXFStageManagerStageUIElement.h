@@ -6,14 +6,12 @@
 
 #import <AccessibilityFoundation/AXFMockUIElement.h>
 
-@class NSArray, NSMutableArray;
-@protocol AXFStageManagerWindowDataSource, AXFStageManagerWindowDelegate;
+@class NSMutableArray;
+@protocol AXFStageManagerWindowDataSource;
 
 @interface AXFStageManagerStageUIElement : AXFMockUIElement
 {
     id <AXFStageManagerWindowDataSource> _dataSource;
-    id <AXFStageManagerWindowDelegate> _delegate;
-    NSMutableArray *__windows;
 }
 
 - (void);
@@ -22,19 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)uch file;
+- (id)Cc;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)GKSRelayParameter_PeerNatType;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_windows; // @synthesize _windows=__windows;
-@property(nonatomic) __weak id <AXFStageManagerWindowDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <AXFStageManagerWindowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSArray *windows;
 
 @end
 

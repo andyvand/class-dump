@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSString, NSXPCConnection, _UIAsyncInvocation, _UIViewServiceHostSession;
-
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceHostSessionDeputyShim
 {
     struct os_unfair_lock_s _lock;
-    NSError *_lock_terminationError;
-    CDUnknownBlockType _lock_terminationHandler;
-    _Atomic _Bool _lock_isTerminated;
-    _UIAsyncInvocation *_terminateInvocation;
-    CDUnknownBlockType _lock_connectionHandler;
-    _UIAsyncInvocation *_cancellationInvocation;
-    NSString *_loggingIdentifier;
-    NSArray *_deputyInterfaces;
-    _UIViewServiceHostSession *_session;
-    NSXPCConnection *_serviceConnection;
 }
 
 + (id);
 + (void)%ØL,n;
-- (int);
+- (int);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)52q60q68B76@80@?88;
+- (void)@60@?68;
+- (void)saltZoneCreatedOverride;
+- (void)ate of %f%% is too high. Increasing cache size to %ld bytes;
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (void);
 - (void);
 - (id);
@@ -40,19 +28,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)rBackgroundLayout",&,N,V_layout;
 - (void)d.;
-- (id)ionsOnResignActive;
+- (id)UILabelDisableTVAnimationsOnResignActive;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDStruct_4c969caf serviceAuditToken;
 @property(readonly, nonatomic) int servicePID;
-@property(readonly) Class superclass;
 
 @end
 

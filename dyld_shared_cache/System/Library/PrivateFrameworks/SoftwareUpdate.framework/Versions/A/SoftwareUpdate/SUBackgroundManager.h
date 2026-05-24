@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBackgroundActivityScheduler, NSError, NSMutableArray, NSMutableSet, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SUBackgroundManager
 {
     NSMutableArray *_userVisibleUpdates;
-    NSMutableArray *_configDataUpdates;
-    NSMutableArray *_firmwareUpdates;
-    NSMutableArray *_backgroundInstallCriticalUpdates;
-    NSMutableArray *_registerForPostLogoutCriticalUpdates;
-    NSMutableArray *_productsQueuedForStaging;
-    NSMutableArray *_productsDownloadingInBackground;
-    NSBackgroundActivityScheduler *_stageActivityScheduler;
-    NSMutableSet *_errorUpdateKeys;
-    NSMutableArray *_autoInstalledJournalEntries;
-    _Bool _timeToScan;
-    _Bool _canDownloadAndStage;
-    _Bool _wasScanIncomplete;
-    NSError *_error;
-    NSString *_catalogTestMode;
-    struct AuthorizationOpaqueRef *_authRef;
-    NSObject<OS_dispatch_queue> *_productStateQueue;
-    NSObject<OS_dispatch_queue> *_backgroundOpsQueue;
-    NSObject<OS_dispatch_queue> *_modifyAuthQueue;
-    _Bool _suspended;
-    long long _numInflightOperations;
-    NSSet *_previousIncompleteKeys;
 }
 
 + (id);
@@ -43,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (long long)_;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -68,9 +46,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)v;
 - (void);
 - (long long);
 - (_Bool);
@@ -79,8 +57,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property long long numInflightOperations; // @synthesize numInflightOperations=_numInflightOperations;
-@property(retain) NSSet *previousIncompleteKeys; // @synthesize previousIncompleteKeys=_previousIncompleteKeys;
-@property(nonatomic) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

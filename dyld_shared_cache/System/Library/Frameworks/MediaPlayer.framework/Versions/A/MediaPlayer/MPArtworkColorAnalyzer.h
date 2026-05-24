@@ -9,10 +9,9 @@
 @interface MPArtworkColorAnalyzer
 {
     NSImage *_image;
-    long long _algorithm;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -20,10 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void)PModelPropertyPlaylistIsDisliked__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaylistIsDisliked__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) long long algorithm; // @synthesize algorithm=_algorithm;
 @property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
 
 @end

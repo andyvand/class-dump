@@ -5,19 +5,13 @@
 //
 
 @class NSString;
-@protocol CMISmartStyleProcessorBaseConfiguration, CMISmartStyleProcessorInputOutput, CMISmartStyleProcessorUtilities, MTLTexture;
 
 @protocol CMISmartStyleProcessor
+- (_Bool)r"8;
+- (struct __CVBuffer *);
+- (NSString *);
 
 // Remaining properties
-@property(retain, nonatomic) id <CMISmartStyleProcessorBaseConfiguration> configuration;
-@property(retain, nonatomic) id <CMISmartStyleProcessorInputOutput> inputOutput;
 @property(copy, nonatomic) NSString *instanceLabel;
-@property(readonly, nonatomic) id <MTLTexture> outputIntegratedStyleCoefficientsTexture;
-@property(nonatomic) _Bool shouldFlushCVMTLTextureCacheAfterProcessing;
-@property(readonly, nonatomic) struct __CVBuffer *styleRendererOutputStyledThumbnailPixelBuffer;
-@property(nonatomic) _Bool useLiveMetalAllocations;
-@property(nonatomic) _Bool useSemanticSRLByDefault;
-@property(readonly, nonatomic) id <CMISmartStyleProcessorUtilities> utilities;
 @end
 

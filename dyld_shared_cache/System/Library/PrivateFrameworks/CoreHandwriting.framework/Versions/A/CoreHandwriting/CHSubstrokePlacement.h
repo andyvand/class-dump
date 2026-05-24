@@ -9,13 +9,9 @@
 @interface CHSubstrokePlacement
 {
     CHSubstroke *_substroke;
-    long long _originalWritingDirectionIndex;
-    struct CGVector _writingOrientation;
-    struct CGVector _strokeDeviation;
-    struct CGPoint _coalescedCenter;
 }
 
-+ (_Bool);
++ (_Bool)_imageProperties;
 - (struct CGVector);
 - (id);
 - (void);
@@ -28,7 +24,7 @@
 - (id);
 - (struct CGRect);
 - (struct CGVector);
-- (struct CGPoint);
+- (struct CGPoint)r;
 - (struct CGRect);
 - (id);
 - (void);
@@ -36,12 +32,7 @@
 - (void)Ü;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint coalescedCenter; // @synthesize coalescedCenter=_coalescedCenter;
-@property(nonatomic) long long originalWritingDirectionIndex; // @synthesize originalWritingDirectionIndex=_originalWritingDirectionIndex;
-@property(readonly, nonatomic) struct CGRect rotatedBounds;
-@property(nonatomic) struct CGVector strokeDeviation; // @synthesize strokeDeviation=_strokeDeviation;
 @property(readonly, nonatomic) CHSubstroke *substroke; // @synthesize substroke=_substroke;
-@property(nonatomic) struct CGVector writingOrientation; // @synthesize writingOrientation=_writingOrientation;
 
 @end
 

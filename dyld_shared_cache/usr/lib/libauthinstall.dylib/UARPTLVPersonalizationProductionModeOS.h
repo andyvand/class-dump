@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)statusBarStyle;
 
 // Remaining properties
 @property(readonly) unsigned int productionMode; // @synthesize productionMode=_productionMode;

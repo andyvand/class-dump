@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _EFBufferedQueueStrategy
 {
     CDUnknownBlockType _batchHandler;
-    unsigned long long _capacity;
 }
 
 - (id);
@@ -23,15 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType batchHandler; // @synthesize batchHandler=_batchHandler;
-@property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *descriptionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

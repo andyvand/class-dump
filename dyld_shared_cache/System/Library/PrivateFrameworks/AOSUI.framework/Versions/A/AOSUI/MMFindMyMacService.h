@@ -6,16 +6,12 @@
 
 #import <AOSUI/MMService.h>
 
-@class FMDUIFMMiCloudSettingsController, NSError, NSImage, NSOperationQueue, NSString;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface MMFindMyMacService : MMService
 {
     NSError *_fmmError;
-    NSImage *_warningIcon;
-    NSOperationQueue *_requesterQueue;
-    FMDUIFMMiCloudSettingsController *_optionsController;
-    NSString *_clientID;
 }
 
 + (id);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)JH	;
 - (void);
 - (void);
 - (void);
@@ -47,45 +43,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
+- (void);
+- (_Bool)B(c@ aE
+;
 - (void);
+- (void);
+- (void);
+- (_Bool)*3;
+- (id)13;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (id);
 - (void)ò°!àGù1Y1Â0@ù
 × ;
 
 // Remaining properties
-@property NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSError *fmmError; // @synthesize fmmError=_fmmError;
-@property(readonly) unsigned long long hash;
-@property(retain) FMDUIFMMiCloudSettingsController *optionsController; // @synthesize optionsController=_optionsController;
-@property(readonly) Class superclass;
-@property(retain) NSImage *warningIcon; // @synthesize warningIcon=_warningIcon;
 
 @end
 

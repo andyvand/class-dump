@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct _CSArchitecture {
-    int cpu_type;
-    int cpu_subtype;
+    int _field1;
+    int _field2;
 };
 
 struct _CSTypeRef {
@@ -94,8 +94,8 @@ struct instrs_cycles_snapshot {
 };
 
 struct mach_timebase_info {
-    unsigned int numer;
-    unsigned int denom;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct micro_snapshot {
@@ -752,7 +752,7 @@ typedef struct {
             unsigned int :1;
         } _field2;
     } _field22;
-} CDStruct_11cb1a63;
+} CDStruct_1851bc83;
 
 #pragma mark Typedef'd Unions
 

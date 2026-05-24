@@ -5,17 +5,15 @@
 //
 
 @class NSUUID;
-@protocol NSObject><NSCopying><NSSecureCoding;
 
 @interface HMCollectionSettingItem
 {
     NSUUID *_identifier;
-    id <NSObject><NSCopying><NSSecureCoding> _value;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) id <NSObject><NSCopying><NSSecureCoding> value; // @synthesize value=_value;
 
 @end
 

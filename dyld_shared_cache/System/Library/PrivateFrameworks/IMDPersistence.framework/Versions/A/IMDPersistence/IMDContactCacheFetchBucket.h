@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol CNKeyDescriptor;
 
 @interface IMDContactCacheFetchBucket
 {
     id <CNKeyDescriptor> _additionalKeyDescriptor;
-    NSMutableArray *_addresses;
 }
 
 - (id);
@@ -20,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNKeyDescriptor> additionalKeyDescriptor; // @synthesize additionalKeyDescriptor=_additionalKeyDescriptor;
-@property(readonly, nonatomic) NSMutableArray *addresses; // @synthesize addresses=_addresses;
 
 @end
 

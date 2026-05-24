@@ -25,12 +25,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *baseURL;
-@property(readonly, nonatomic, getter=isContinueListeningAvailable) _Bool continueListeningAvailable;
-@property(readonly, nonatomic) long long continueListeningLoadStationThreshold;
-@property(readonly, nonatomic) long long continueListeningMaxQueueSizeInRequest;
-@property(readonly, nonatomic) long long continueListeningMaxUpcomingTracksSizeToMaintain;
-@property(readonly, nonatomic) long long getTracksDPInfoKBSyncCount;
-@property(readonly, nonatomic) long long maxSupportedProtocolVersion;
 
 @end
 

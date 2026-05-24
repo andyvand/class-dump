@@ -6,38 +6,31 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INPauseWorkoutIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)ch_queue>",R,N,V_serialResponseQueue;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy) INSpeakableString *workoutName;
 
 @end

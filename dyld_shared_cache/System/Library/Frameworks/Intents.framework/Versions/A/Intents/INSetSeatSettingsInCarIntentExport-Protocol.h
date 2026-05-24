@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSNumber;
+@class NSNumber;
 
 @protocol INSetSeatSettingsInCarIntentExport
+- (void)k	;
+- (void);
 - (NSNumber *);
 
 // Remaining properties
-@property(copy) INSpeakableString *carName;
-@property(copy) NSNumber *enableCooling;
 @property(copy) NSNumber *enableHeating;
-@property(copy) NSNumber *enableMassage;
-@property(copy) NSNumber *level;
-@property long long relativeLevelSetting;
-@property long long seat;
 @end
 

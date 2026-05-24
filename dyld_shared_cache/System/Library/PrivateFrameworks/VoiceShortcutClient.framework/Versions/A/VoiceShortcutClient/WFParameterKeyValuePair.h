@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFEncodedTypedValue;
+@class NSString;
 
 @interface WFParameterKeyValuePair
 {
     NSString *_parameterKey;
-    WFEncodedTypedValue *_parameterValue;
 }
 
 + (_Bool);
+- (id)|2|;
 - (id);
+- (id)o;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long){__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void *> *>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<TileId, CLTileFile *>, void *> > >={__tree_end_node<std::__1::__tree_node_base<void *> *>=^{}}}{__compressed_pair<unsigned long, std::__1::__map_value_compare<TileId, std::__1::__value_type<TileId, CLTileFile *>, std::__1::less<TileId>, true> >=Q}}} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *parameterKey; // @synthesize parameterKey=_parameterKey;
-@property(readonly, nonatomic) WFEncodedTypedValue *parameterValue; // @synthesize parameterValue=_parameterValue;
 
 @end
 

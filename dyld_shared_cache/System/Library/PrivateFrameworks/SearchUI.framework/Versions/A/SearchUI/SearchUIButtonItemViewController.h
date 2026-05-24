@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSString, NUIContainerBoxView, SearchUIButtonItem, SearchUIButtonItemView, SearchUIRowModel;
-@protocol SearchUIButtonItemViewControllerDelegate, SearchUIFeedbackDelegate;
+@class SearchUIButtonItemView;
 
 @interface SearchUIButtonItemViewController
 {
     _Bool _isCompact;
-    NUIContainerBoxView *_view;
-    SearchUIButtonItem *_buttonItem;
-    unsigned long long _buttonItemViewStyle;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
-    SearchUIRowModel *_rowModel;
-    id <SearchUIButtonItemViewControllerDelegate> _buttonDelegate;
-    NSFont *_buttonFont;
-    unsigned long long _buttonProminence;
-    SearchUIButtonItemView *_buttonItemView;
 }
 
 + (id);
@@ -39,7 +29,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)PMLPlanWrapper;
 - (void);
 - (void);
 - (id);
@@ -47,32 +37,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)#;
+- (void)ata"16;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUIButtonItemViewControllerDelegate> buttonDelegate; // @synthesize buttonDelegate=_buttonDelegate;
-@property(retain, nonatomic) NSFont *buttonFont; // @synthesize buttonFont=_buttonFont;
-@property(retain, nonatomic) SearchUIButtonItem *buttonItem; // @synthesize buttonItem=_buttonItem;
 @property(retain, nonatomic) SearchUIButtonItemView *buttonItemView; // @synthesize buttonItemView=_buttonItemView;
-@property(nonatomic) unsigned long long buttonItemViewStyle; // @synthesize buttonItemViewStyle=_buttonItemViewStyle;
-@property(nonatomic) unsigned long long buttonProminence; // @synthesize buttonProminence=_buttonProminence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCompact; // @synthesize isCompact=_isCompact;
-@property(nonatomic) __weak SearchUIRowModel *rowModel; // @synthesize rowModel=_rowModel;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsContextMenuConfiguration;
-@property(retain, nonatomic) NUIContainerBoxView *view; // @synthesize view=_view;
 
 @end
 

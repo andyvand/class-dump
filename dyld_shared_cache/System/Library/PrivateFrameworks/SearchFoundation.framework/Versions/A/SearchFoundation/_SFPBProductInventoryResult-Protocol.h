@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData, NSString;
 
 @protocol _SFPBProductInventoryResult
+- (NSData *)ollectionShare;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *availabilitys;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *productIdentifier;
 @end
 

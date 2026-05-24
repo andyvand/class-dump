@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaASTFlatExprPrefixVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)7;
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setFences: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (id)eported",&,N,V_pegasusRewrittenUtterancesReported;
@@ -34,8 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

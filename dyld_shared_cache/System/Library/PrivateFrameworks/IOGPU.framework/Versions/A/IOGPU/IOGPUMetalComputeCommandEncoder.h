@@ -10,10 +10,10 @@
 {
 }
 
+- (void)BundleUpdateResult:(const id *)arg1:(unsigned long long)arg2 kNewUpdateFailed;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_singleLetterVariables;
 - (void);
 - (void);
 - (void);
@@ -22,13 +22,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void *);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 

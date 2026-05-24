@@ -9,18 +9,16 @@
 @interface _AKAppleIDPasskeyRequestState
 {
     AKAppleIDPasskeyCredentialRequestContext *_context;
-    CDUnknownBlockType _completion;
 }
 
 + (id);
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
 - (void)AKAlertHandler;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain, nonatomic) AKAppleIDPasskeyCredentialRequestContext *context; // @synthesize context=_context;
 
 @end

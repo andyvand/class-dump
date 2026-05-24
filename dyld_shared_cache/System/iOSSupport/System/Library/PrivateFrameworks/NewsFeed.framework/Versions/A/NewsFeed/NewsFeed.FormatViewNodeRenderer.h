@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatViewNodeRenderer
 {
     id imageRenderer;
-    id micaRenderer;
 }
 
 @end

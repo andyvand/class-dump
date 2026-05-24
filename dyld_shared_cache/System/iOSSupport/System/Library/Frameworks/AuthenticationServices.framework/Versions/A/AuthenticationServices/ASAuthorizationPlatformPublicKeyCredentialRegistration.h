@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationPublicKeyCredentialLargeBlobRegistrationOutput, ASAuthorizationPublicKeyCredentialPRFRegistrationOutput, ASCPlatformPublicKeyCredentialRegistration, NSData, NSString;
+@class ASAuthorizationPublicKeyCredentialLargeBlobRegistrationOutput, ASCPlatformPublicKeyCredentialRegistration;
 
 @interface ASAuthorizationPlatformPublicKeyCredentialRegistration
 {
@@ -18,32 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)deleteMessageGUIDs:(struct _NSZone *)arg1 reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialLargeBlobRegistrationOutput *__largeBlobSwift;
-@property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialPRFRegistrationOutput *__prfSwift;
-@property(readonly, nonatomic) long long attachment;
-@property(readonly, nonatomic) ASCPlatformPublicKeyCredentialRegistration *coreCredential; // @synthesize coreCredential=_coreCredential;
-@property(readonly, copy, nonatomic) NSData *credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ASAuthorizationPublicKeyCredentialLargeBlobRegistrationOutput *largeBlob;
-@property(readonly, nonatomic) ASAuthorizationPublicKeyCredentialPRFRegistrationOutput *prf;
-@property(readonly, copy, nonatomic) NSData *rawAttestationObject;
-@property(readonly, copy, nonatomic) NSData *rawClientDataJSON;
-@property(readonly) Class superclass;
 
 @end
 

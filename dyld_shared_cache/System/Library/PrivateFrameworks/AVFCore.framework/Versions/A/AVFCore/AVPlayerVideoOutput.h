@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerVideoOutputConfiguration, AVVideoOutputSpecification, NSObject;
+@class AVPlayer, AVPlayerVideoOutputConfiguration, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AVPlayerVideoOutput
@@ -17,27 +17,24 @@
         struct OpaqueCMTaggedBufferGroup *lastSeenTaggedBufferGroup;
         AVPlayerVideoOutputConfiguration *activeConfiguration;
     } _receiverState;
-    NSObject<OS_dispatch_queue> *_iVarAccessQueue;
-    AVVideoOutputSpecification *_outputSpecification;
-    CDUnknownBlockType _resourceLifeCycleHandler;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ageWithoutPersonalization;
 - (_Bool);
 - (struct OpaqueCMTaggedBufferGroup *);
-- (id);
+- (id);
 - (_Bool);
-- (int);
-- (void);
+- (int)ȸ;
+- (void)~t;
 - (id);
+- (void)<;
 - (void);
-- (void);
-- (int);
+- (int)0;
 - (struct OpaqueCMTaggedBufferGroup *);
 - (_Bool);
-- (void);
+- (void)B;
 - (id);
-- (void)gIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setMediumLoggingIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

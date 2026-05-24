@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRHashtagEditorInteractor
 {
     id delegate;
-    id reminderChangeItem;
-    id undoManager;
-    id reminderEditor;
 }
 
 @end

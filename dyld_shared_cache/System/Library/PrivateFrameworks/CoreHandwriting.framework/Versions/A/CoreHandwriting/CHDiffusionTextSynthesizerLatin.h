@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (shared_ptr_c5865da5);
-- (_Bool);
+- (_Bool)T;
 - (void);
 
 @end

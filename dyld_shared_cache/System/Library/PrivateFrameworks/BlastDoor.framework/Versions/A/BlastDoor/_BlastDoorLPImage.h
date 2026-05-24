@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, _BlastDoorLPImageProperties;
+@class NSData;
 
 @interface _BlastDoorLPImage
 {
     NSData *_data;
-    NSString *_MIMEType;
-    NSURL *_fileURL;
-    _BlastDoorLPImageProperties *_properties;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)H;
+- (void)A;
 - (id);
 - (void);
 - (void)KAgà;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) _BlastDoorLPImageProperties *properties; // @synthesize properties=_properties;
 
 @end
 

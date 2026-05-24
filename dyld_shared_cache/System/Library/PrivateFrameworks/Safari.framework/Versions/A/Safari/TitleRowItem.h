@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TitleRowItem
 {
     NSTextField *_textField;
-    NSString *_titleText;
 }
 
 - (void);

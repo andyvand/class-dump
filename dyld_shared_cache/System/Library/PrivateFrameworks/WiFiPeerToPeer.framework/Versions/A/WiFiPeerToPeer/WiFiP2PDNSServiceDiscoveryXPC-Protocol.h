@@ -5,5 +5,6 @@
 //
 
 @protocol WiFiP2PDNSServiceDiscoveryXPC
+- (void)4(;
 @end
 

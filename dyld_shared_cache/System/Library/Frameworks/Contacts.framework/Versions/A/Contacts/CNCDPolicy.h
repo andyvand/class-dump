@@ -23,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)h;
 - (id);
 - (id)p&Ð! @ùQ*°1Â0@ù
 × ;
-- (void)dPredicate: /* Error: Ran out of types for this method. */;
+- (void)visitAndPredicate: /* Error: Ran out of types for this method. */;
 - (_Bool)(L;
 
 // Remaining properties

@@ -7,9 +7,12 @@
 @class NSSet, _GCDeviceConfiguration;
 
 @protocol _GCLogicalDevice
+- (NSSet *)H;
+
+@optional
+- (void);
 
 // Remaining properties
 @property(readonly) _GCDeviceConfiguration *configuration;
-@property(readonly) NSSet *underlyingDevices;
 @end
 

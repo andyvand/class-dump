@@ -5,5 +5,6 @@
 //
 
 @protocol _GCDevicePhysicalInputViewDataSource
+- (_Bool);
 @end
 

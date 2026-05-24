@@ -7,8 +7,6 @@
 @interface AppStoreKit.MetricsPipelineTransformer
 {
     id originalState;
-    id transforms;
-    id isResolvedPipeline;
 }
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, SUCoreLog, SUCorePersistedState;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SUCoreXPCActivityManager
 {
     NSString *_managerName;
-    SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_managerQueue;
-    NSObject<OS_dispatch_queue> *_persistedStateDispatchQueue;
-    NSObject<OS_dispatch_queue> *_activityQueue;
-    NSMutableArray *_activities;
-    SUCorePersistedState *_persistedState;
 }
 
 + (id);
@@ -37,15 +30,15 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)P;
+- (void);
+- (id)command1Through9SwitchesTabsCheckbox;
+- (id)_migrateToProfileCompactTabBarBrowserToolbarConfigurationV2;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id)Error: /* Error: Ran out of types for this method. */;
+- (id)SUCoreBorder_purgeWithError: /* Error: Ran out of types for this method. */;
 - (id)downloadable:%@
                disableSiriVoiceDeletion:%@
                         disableCDLevel4:%@
@@ -77,16 +70,10 @@
                    oneShotBuddyDisabled:%@
              oneShotBuddyDisabledBuilds:%@
  /* Error: Ran out of types for this method. */;
-- (void)oreVersion;
+- (void)installedBaseOSRestoreVersion;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *activities; // @synthesize activities=_activities;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *activityQueue; // @synthesize activityQueue=_activityQueue;
-@property(retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
 @property(readonly, retain, nonatomic) NSString *managerName; // @synthesize managerName=_managerName;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *managerQueue; // @synthesize managerQueue=_managerQueue;
-@property(retain, nonatomic) SUCorePersistedState *persistedState; // @synthesize persistedState=_persistedState;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *persistedStateDispatchQueue; // @synthesize persistedStateDispatchQueue=_persistedStateDispatchQueue;
 
 @end
 

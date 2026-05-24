@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarSuggestionMenuUtils
 {
     id delegate;
-    id windowControllerDelegate;
 }
 
 @end

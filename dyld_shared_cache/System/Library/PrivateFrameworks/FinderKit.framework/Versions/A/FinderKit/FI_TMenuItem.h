@@ -8,23 +8,21 @@ __attribute__((visibility("hidden")))
 @interface FI_TMenuItem
 {
     function_e88ba8d7 _actionToInvoke;
-    function_f6846527 _validator;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (function_e88ba8d7);
-- (void);
-- (function_f6846527);
+- (void);
+- (function_0c70612c);
 - (id);
 - (void);
-- (_Bool)_9allocatorIS1_EEEE;
+- (_Bool)NSt3__120__shared_ptr_emplaceI7TFENodeNS_9allocatorIS1_EEEE;
 
 // Remaining properties
 @property(nonatomic) function_e88ba8d7 actionToInvoke; // @synthesize actionToInvoke=_actionToInvoke;
-@property(nonatomic) function_f6846527 validator; // @synthesize validator=_validator;
 
 @end
 

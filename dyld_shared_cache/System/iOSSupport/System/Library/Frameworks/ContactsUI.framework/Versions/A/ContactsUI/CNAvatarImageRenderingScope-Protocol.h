@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIColor;
+
 @protocol CNAvatarImageRenderingScope
+- (unsigned long long);
+- (double)FairPlayKeySessionProvidingMock;
+- (UIColor *);
 - (struct CGSize)!Ì@ùqt°1Â0@ù
 × ;
-- (double)requiringFullOpacity: /* Error: Ran out of types for this method. */;
+- (double)trimmedImageByTrimmingTransparentPixelsFromImage:requiringFullOpacity: /* Error: Ran out of types for this method. */;
 @end
 

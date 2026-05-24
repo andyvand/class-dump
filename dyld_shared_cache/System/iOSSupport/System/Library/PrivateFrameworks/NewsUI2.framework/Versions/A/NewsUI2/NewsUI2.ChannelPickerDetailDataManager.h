@@ -7,9 +7,6 @@
 @interface NewsUI2.ChannelPickerDetailDataManager
 {
     id delegate;
-    id subscriptionService;
-    id tagService;
-    id model;
 }
 
 @end

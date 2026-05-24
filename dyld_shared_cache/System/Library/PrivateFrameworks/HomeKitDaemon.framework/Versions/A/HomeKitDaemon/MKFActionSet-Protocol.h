@@ -4,26 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFActionSetDatabaseID, NSArray, NSDate, NSString;
-@protocol MKFApplicationData, MKFHome;
+@class NSArray, NSDate, NSUUID;
+@protocol MKFAction, MKFAppleMediaAccessoryPowerAction, MKFApplicationData, MKFCharacteristicWriteAction, MKFHome, MKFMatterCommandAction, MKFMediaPlaybackAction, MKFNaturalLightingAction, MKFShortcutAction;
 
 @protocol MKFActionSet
+- (id <MKFApplicationData>);
+- (id <MKFAction>);
+- (id <MKFShortcutAction>)removeObjectsInRange:(NSUUID *)arg1;
+- (id <MKFNaturalLightingAction>)removeObjectsAtIndexes:(NSUUID *)arg1;
+- (id <MKFMediaPlaybackAction>)removeObjectForKey:(NSUUID *)arg1;
+- (id <MKFMatterCommandAction>)removeLiveParticipant:(NSUUID *)arg1;
+- (id <MKFCharacteristicWriteAction>)removeFilesFromBackupsIfNeeded;
+- (id <MKFAppleMediaAccessoryPowerAction>)remoteObjectProxy;
+- (id <MKFShortcutAction>)MSPMapsPushDaemonRemoteXPCProxy;
+- (id <MKFNaturalLightingAction>)MapsNotifications;
+- (id <MKFMediaPlaybackAction>)VirtualReceivers;
+- (id <MKFMatterCommandAction>)MSPTransitStorageShield;
+- (id <MKFCharacteristicWriteAction>)MSPDroppedPin;
+- (id <MKFAppleMediaAccessoryPowerAction>)MSPSharedTripMessagesCapabilityFetchingQueue;
+- (id <MKFAction>)MSPExtras;
 - (id <MKFHome>)1Â0@ù
 × ;
-- (void)isticWriteTimer;
+- (void)_periodicCharacteristicWriteTimer;
 - (NSArray *)ublic}@soundWhenUsingSiriSettingValue (%@) for keypath %@, accessory:%@, is not of bool setting type /* Error: Ran out of types for this method. */;
 - (void)mage %@;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *actions;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData;
-@property(readonly, copy, nonatomic) MKFActionSetDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
 @property(copy, nonatomic) NSDate *lastExecutionDate;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(readonly, retain, nonatomic) NSArray *triggers;
-@property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (id);
 
 @end

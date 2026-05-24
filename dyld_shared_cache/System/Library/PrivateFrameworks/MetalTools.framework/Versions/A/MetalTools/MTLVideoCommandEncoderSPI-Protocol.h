@@ -5,5 +5,6 @@
 //
 
 @protocol MTLVideoCommandEncoderSPI
+- (void);
 @end
 

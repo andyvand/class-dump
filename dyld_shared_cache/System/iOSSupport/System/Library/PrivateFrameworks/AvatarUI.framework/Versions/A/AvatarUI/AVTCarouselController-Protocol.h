@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVTAvatarRecord;
-
 @protocol AVTCarouselController
+- (void);
+- (void);
 - (void)Record %@ is not editable!;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCreate;
-@property(nonatomic) double decelerationRate;
-@property(readonly, nonatomic) id <AVTAvatarRecord> focusedRecord;
 @property(nonatomic) _Bool isPostponingBeginSession;
-@property(nonatomic) _Bool singleAvatarMode;
 @end
 

@@ -9,8 +9,6 @@
 @protocol NLParsecNamedEntity
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char category;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) float score;
 @end
 

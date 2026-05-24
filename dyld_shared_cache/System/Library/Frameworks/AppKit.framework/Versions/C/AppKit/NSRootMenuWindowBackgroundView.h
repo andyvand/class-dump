@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)NSDictionary"40@"AVAssetDownloadConfiguration"48;
 - (id)isValidForResizeGeneration:(struct CGRect)arg1;
 
 @end

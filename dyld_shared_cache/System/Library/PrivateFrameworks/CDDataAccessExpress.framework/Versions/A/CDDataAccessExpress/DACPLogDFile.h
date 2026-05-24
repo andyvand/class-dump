@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSString;
 
 @interface DACPLogDFile
 {
     NSString *_folder;
-    NSString *_baseName;
-    NSString *_UUID;
-    NSString *_path;
-    int _fd;
-    NSObject<OS_dispatch_source> *_fileEventDispatchSource;
-    _Bool _fileWasDeleted;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)lastSuccessLinkLayerType;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, retain, nonatomic) NSString *baseName; // @synthesize baseName=_baseName;
 @property(readonly, retain, nonatomic) NSString *folder; // @synthesize folder=_folder;
 
 @end

@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioDevice, VCAudioIO, VCAudioManager;
+@class AVAudioDevice;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioClient
 {
     int _processId;
-    VCAudioIO *_audioIO;
-    _Bool _muted;
-    unsigned int _state;
-    struct _opaque_pthread_mutex_t _stateMutex;
-    double _lastAudioSessionStart;
-    _Bool _isOnHold;
-    struct VCAudioClientSettings _selectedSettings;
-    struct VCAudioClientSettings _requestedSettings;
-    unsigned int _audioSessionId;
-    unsigned int _spatialAudioRegistered;
-    void **_audioSession;
-    VCAudioManager *_audioManager;
-    _Bool _isMutedTalkerNotificationRegistered;
-    _Bool _isMutedStateChangeHandlerRegistered;
-    _Bool _isMixingVoiceWithMediaEnabled;
-    _Bool _followSystemInput;
-    _Bool _followSystemOutput;
-    _Bool _mixingVoiceWithMediaEnabled;
 }
 
 - (_Bool);
@@ -39,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)M*-;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -62,23 +44,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (id)registerServerCallbacks;
-- (_Bool)ualTTYDevice;
+- (id)deregisterServerCallbacks;
+- (_Bool)VirtualTTYDevice;
 - (void)ntiation of AVAssetReaderTrackOutput for track=%s with settings=%s failed for asset=%s;
 - (void)ded to class=%s;
 - (int)&;
 
 // Remaining properties
-@property(retain, nonatomic) VCAudioIO *audioIO; // @synthesize audioIO=_audioIO;
-@property(nonatomic, getter=isFollowSystemInputEnabled) _Bool followSystemInput; // @synthesize followSystemInput=_followSystemInput;
-@property(nonatomic, getter=isFollowSystemOutputEnabled) _Bool followSystemOutput; // @synthesize followSystemOutput=_followSystemOutput;
 @property(retain, nonatomic) AVAudioDevice *inputDevice;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_muted;
-@property(nonatomic) _Bool isMutedStateChangeHandlerRegistered; // @synthesize isMutedStateChangeHandlerRegistered=_isMutedStateChangeHandlerRegistered;
-@property(nonatomic) _Bool isMutedTalkerNotificationRegistered; // @synthesize isMutedTalkerNotificationRegistered=_isMutedTalkerNotificationRegistered;
-@property(nonatomic, getter=isMixingVoiceWithMediaEnabled) _Bool mixingVoiceWithMediaEnabled; // @synthesize mixingVoiceWithMediaEnabled=_mixingVoiceWithMediaEnabled;
-@property(retain, nonatomic) AVAudioDevice *outputDevice;
-@property(readonly, nonatomic) int processId; // @synthesize processId=_processId;
 
 @end
 

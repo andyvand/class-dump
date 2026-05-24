@@ -7,8 +7,6 @@
 @interface PencilKit.AutoRefineTaskCoordinatorDelegate__priv_C07EB3BA79DD666E822D6A98FF7ECB3B
 {
     id recognitionController;
-    id autoRefineController;
-    id canvasView;
 }
 
 - (id);

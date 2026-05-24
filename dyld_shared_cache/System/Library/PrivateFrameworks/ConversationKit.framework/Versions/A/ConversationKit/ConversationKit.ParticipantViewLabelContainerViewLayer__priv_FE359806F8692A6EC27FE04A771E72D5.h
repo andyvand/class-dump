@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)PrivateFrameworks/FMCore.framework/Versions/A/FMCore;
+- (id);
 - (id);
 - (void);
 - (void);

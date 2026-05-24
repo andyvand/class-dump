@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, NSData, NSString;
+@class NSString;
 
 @protocol CLIdentifiableClientProtocol
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identityToken;
-@property(retain, nonatomic) CLLocationManager *manager;
-@property(retain, nonatomic) NSData *storageToken;
-@property(nonatomic) __weak CDUnknownBlockType weakClient;
 @end
 

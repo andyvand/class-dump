@@ -14,7 +14,6 @@
 + (id)\;
 
 // Remaining properties
-@property(readonly) NSArray *arguments; // @dynamic arguments;
 @property(readonly) NSArray *bindings; // @dynamic bindings;
 
 @end

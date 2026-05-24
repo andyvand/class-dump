@@ -6,35 +6,25 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkVPNDeclaration_PPP : CEMPayloadBase
 {
     NSString *_payloadAuthName;
-    NSString *_payloadAuthPassword;
-    NSNumber *_payloadTokenCard;
-    NSString *_payloadCommRemoteAddress;
-    NSArray *_payloadAuthEAPPlugins;
-    NSArray *_payloadAuthProtocol;
-    NSNumber *_payloadCCPMPPE40Enabled;
-    NSNumber *_payloadCCPMPPE128Enabled;
-    NSNumber *_payloadCCPEnabled;
-    NSNumber *_payloadDisconnectOnIdle;
-    NSNumber *_payloadDisconnectOnIdleTimer;
 }
 
++ (id);
++ (id)rks/SoftLinking.framework/Versions/A/SoftLinking;
 + (id);
-+ (id);
-+ (id);
+- (void);
+- (void);
+- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -48,23 +38,13 @@
 - (id);
 - (id);
 - (id);
+- (id)@	` H;
+- (_Bool)Found ;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)SSL_GET_SERVER_SEND_PKEY;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *payloadAuthEAPPlugins; // @synthesize payloadAuthEAPPlugins=_payloadAuthEAPPlugins;
 @property(copy, nonatomic) NSString *payloadAuthName; // @synthesize payloadAuthName=_payloadAuthName;
-@property(copy, nonatomic) NSString *payloadAuthPassword; // @synthesize payloadAuthPassword=_payloadAuthPassword;
-@property(copy, nonatomic) NSArray *payloadAuthProtocol; // @synthesize payloadAuthProtocol=_payloadAuthProtocol;
-@property(copy, nonatomic) NSNumber *payloadCCPEnabled; // @synthesize payloadCCPEnabled=_payloadCCPEnabled;
-@property(copy, nonatomic) NSNumber *payloadCCPMPPE128Enabled; // @synthesize payloadCCPMPPE128Enabled=_payloadCCPMPPE128Enabled;
-@property(copy, nonatomic) NSNumber *payloadCCPMPPE40Enabled; // @synthesize payloadCCPMPPE40Enabled=_payloadCCPMPPE40Enabled;
-@property(copy, nonatomic) NSString *payloadCommRemoteAddress; // @synthesize payloadCommRemoteAddress=_payloadCommRemoteAddress;
-@property(copy, nonatomic) NSNumber *payloadDisconnectOnIdle; // @synthesize payloadDisconnectOnIdle=_payloadDisconnectOnIdle;
-@property(copy, nonatomic) NSNumber *payloadDisconnectOnIdleTimer; // @synthesize payloadDisconnectOnIdleTimer=_payloadDisconnectOnIdleTimer;
-@property(copy, nonatomic) NSNumber *payloadTokenCard; // @synthesize payloadTokenCard=_payloadTokenCard;
 
 @end
 

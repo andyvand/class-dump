@@ -4,19 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString;
+@class NSError;
 @protocol CPLEngineStoreUserIdentifier;
 
 @protocol CPLEngineSyncManagerForcedTask
+- (id <CPLEngineStoreUserIdentifier>)commute30MinWarningEntityRelevanceNonContextualFeatures;
+- (void (^)(id <CPLEngineSyncManagerForcedTask>, NSError *))res;
+- (void)commute20MinWarningEntityRelevanceRanking;
+- (void)bluetoothDeviceEntityRelevanceMicroLocationAndDayOfWeekFeatures;
+- (long long);
+- (NSError *);
+- (_Bool);
+- (void)ribute_key=%@, match_value=%@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsBackgroundDispatch;
-@property(readonly, nonatomic) _Bool allowsForcedTaskQueuing;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSError *discardedError;
-@property(readonly, nonatomic) long long forcedTaskPriority;
-@property(readonly, nonatomic) NSString *simpleDescription;
-@property(copy, nonatomic) CDUnknownBlockType taskDidFinishWithErrorBlock;
 @property(retain, nonatomic) id <CPLEngineStoreUserIdentifier> transportUserIdentifier;
 @end
 

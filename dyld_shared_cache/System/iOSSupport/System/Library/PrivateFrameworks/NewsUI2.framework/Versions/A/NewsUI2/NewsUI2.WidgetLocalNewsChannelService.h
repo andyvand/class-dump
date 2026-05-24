@@ -9,7 +9,7 @@
     id localNewsChannelService;
 }
 
-- (void);
+- (void)(;
 - (id);
 - (void)SportsFavoritesAssembly;
 

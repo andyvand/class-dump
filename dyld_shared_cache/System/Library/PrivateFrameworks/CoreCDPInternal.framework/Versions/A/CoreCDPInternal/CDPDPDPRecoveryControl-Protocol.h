@@ -5,5 +5,14 @@
 //
 
 @protocol CDPDPDPRecoveryControl
+- (void)wControllerDelegate>",W,N,V_delegate;
+- (void)signViewportPresetMenuDelegate>",W,N,V_delegate;
+- (void)_TtC6SafariP33_EF783427AEC40D463F99F49063F29C3E19ResourceBundleClass;
+- (void)FavoritesPickerFunctionBarProviderDelegate;
+- (void)WebsitesPreferencesPolicyCellView;
+- (void)WebsitesPreferencesCellView;
+- (void)WebsitesPreferences;
+- (void)UnifiedFieldTransientUIAction;
+- (void)UnifiedFieldCompletionStyledTableCellView;
 @end
 

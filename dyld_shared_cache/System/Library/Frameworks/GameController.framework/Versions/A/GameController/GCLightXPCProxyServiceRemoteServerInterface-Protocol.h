@@ -5,5 +5,6 @@
 //
 
 @protocol GCLightXPCProxyServiceRemoteServerInterface
+- (void);
 @end
 

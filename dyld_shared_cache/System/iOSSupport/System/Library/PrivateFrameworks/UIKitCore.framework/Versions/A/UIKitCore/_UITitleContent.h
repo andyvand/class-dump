@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     double _width;
 }
 
-+ (id);
++ (id)lResponse"8@"NSError"16;
 - (id);
 - (double)0@ù
 × ;
-- (void);
-- (id)nterfaceIdiom;
-- (void)x_GSg;
+- (void)_impulseObservations;
+- (id)UIApplicationStateRestorationUserInterfaceIdiom;
+- (void)yx_GSg;
 - (void);
 
 // Remaining properties

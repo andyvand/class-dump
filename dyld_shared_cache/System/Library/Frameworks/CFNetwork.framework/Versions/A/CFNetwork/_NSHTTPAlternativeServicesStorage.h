@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, _NSHTTPAlternativeServicesStorageSqlite;
+@class NSURL;
 
 @interface _NSHTTPAlternativeServicesStorage
 {
     _Bool _inMemory;
-    id _underlyingStorage;
-    _NSHTTPAlternativeServicesStorageSqlite *_oldStorage;
-    NSURL *_path;
 }
 
 + (id);
@@ -31,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool canSuspendLocked;
 @property(readonly, nonatomic) NSURL *path; // @synthesize path=_path;
-@property(readonly) id underlyingStorage; // @synthesize underlyingStorage=_underlyingStorage;
 
 @end
 

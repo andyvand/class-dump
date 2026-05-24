@@ -5,5 +5,6 @@
 //
 
 @protocol CSSpeakerRecognitionAssetDownloadMonitorDelegate
+- (void);
 @end
 

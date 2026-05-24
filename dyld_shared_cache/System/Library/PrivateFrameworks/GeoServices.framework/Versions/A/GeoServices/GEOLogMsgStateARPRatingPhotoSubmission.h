@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateARPRatingPhotoSubmission
 {
     PBUnknownFields *_unknownFields;
-    NSString *_originTarget;
-    _Bool _isFromMapsSuggesions;
-    _Bool _isFromRecommendationCard;
-    _Bool _isPlacecardInlineSubmission;
-    struct {
-        unsigned int has_isFromMapsSuggesions:1;
-        unsigned int has_isFromRecommendationCard:1;
-        unsigned int has_isPlacecardInlineSubmission:1;
-    } _flags;
 }
 
-+ (_Bool)Type:(id)arg1;
++ (_Bool)setHasSuggestionType:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -28,18 +19,18 @@
 - (void);
 - (id);
 - (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)ring",R,C,V_displayName;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -48,21 +39,13 @@
 - (_Bool);
 - (void);
 - (id)spokenAddress;
-- (id)FeatureId;
+- (id)parentFeatureId;
 - (id)able (%@);
 - (id);
 - (void)q;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsFromMapsSuggesions;
-@property(nonatomic) _Bool hasIsFromRecommendationCard;
-@property(nonatomic) _Bool hasIsPlacecardInlineSubmission;
 @property(readonly, nonatomic) _Bool hasOriginTarget;
-@property(nonatomic) _Bool isFromMapsSuggesions;
-@property(nonatomic) _Bool isFromRecommendationCard;
-@property(nonatomic) _Bool isPlacecardInlineSubmission;
-@property(retain, nonatomic) NSString *originTarget;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

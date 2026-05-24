@@ -6,62 +6,50 @@
 
 #import <ChatKit/CKTextBalloonView.h>
 
-@class CKCompositionTranslationSessionManager, CKMessageEditingBalloonTextView, NSAttributedString, NSDictionary, NSLocale, NSString;
-@protocol CKMessageEditingBalloonViewDelegate;
+@class CKMessageEditingBalloonTextView;
 
 @interface CKMessageEditingBalloonView : CKTextBalloonView
 {
     _Bool _beingTornDown;
-    id <CKMessageEditingBalloonViewDelegate> _editingBalloonViewDelegate;
-    CKMessageEditingBalloonTextView *_messageEditingBalloonTextView;
-    CKMessageEditingBalloonTextView *_messageEditingBalloonTranslationView;
-    NSLocale *_translationLanguage;
-    NSLocale *_translationToLanguage;
-    NSString *_sourceLanguageID;
-    NSString *_destinationLanguageID;
-    NSDictionary *_typingAttributes;
-    CKCompositionTranslationSessionManager *_translationSessionManager;
-    CDUnknownBlockType _pendingTranslationBlock;
-    struct CGRect _customTextViewLayoutBounds;
 }
 
-+ (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)text;
+- (void)initWithTarget:selector:delay:waitToFireUntilRequestsStop:callOnMainThread: /* Error: Ran out of types for this method. */;
+- (id)identifierForArchivableIdentifier:itemType: /* Error: Ran out of types for this method. */;
+- (void)icaxStyleDescriptionForNamedStyle:(id)arg1;
+- (void)icaxSaturationModifier;
+- (id)icaxRespondsToSelector:fromExtrasProtocol: /* Error: Ran out of types for this method. */;
+- (id)fetchMissingOrOutdatedImageClassificationSummaryAttachmentIDsInContext:(struct _NSRange)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)colorUsingColorSpace: /* Error: Ran out of types for this method. */;
+- (_Bool)addTextContainer:(id)arg1;
+- (void)_setSelectionToEndAfterLoad;
+- (void)_setPreferredSizeClass:(id)arg1;
+- (void)_intervalBeforeOpeningProgressDialog;
+- (void)Hint;
+- (void)setShowAsMovie:(id)arg1;
+- (void)setShouldIncludeLegacyAccounts:(id)arg1;
+- (void)setStringValue:(id)arg1;
+- (void)setActionTitle:(id)arg1;
+- (void)InSource;
+- (void),V_prompt;
 - (CDUnknownBlockType);
+- (void)er;
+- (void)currentHighlightsAttributedStringHasHighlights;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)c;
+- (id)g;
 - (struct CGRect);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)h;
+- (void)mPaperImageGenerator validatePaperBounds:(unsigned long long)arg1 ];
+- (void)aperAttachment:(long long)arg1 useActivePaper:(struct _NSRange)arg2 ];
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -78,32 +66,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)Ì;
 - (id)7;
 
 // Remaining properties
-@property(nonatomic, getter=isBeingTornDown) _Bool beingTornDown; // @synthesize beingTornDown=_beingTornDown;
-@property(readonly, nonatomic) NSAttributedString *currentCompositionText;
-@property(readonly, nonatomic) NSAttributedString *currentCompositionTranslation;
-@property(nonatomic) struct CGRect customTextViewLayoutBounds; // @synthesize customTextViewLayoutBounds=_customTextViewLayoutBounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *destinationLanguageID; // @synthesize destinationLanguageID=_destinationLanguageID;
-@property(nonatomic) __weak id <CKMessageEditingBalloonViewDelegate> editingBalloonViewDelegate; // @synthesize editingBalloonViewDelegate=_editingBalloonViewDelegate;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CKMessageEditingBalloonTextView *messageEditingBalloonTextView; // @synthesize messageEditingBalloonTextView=_messageEditingBalloonTextView;
-@property(retain, nonatomic) CKMessageEditingBalloonTextView *messageEditingBalloonTranslationView; // @synthesize messageEditingBalloonTranslationView=_messageEditingBalloonTranslationView;
-@property(copy, nonatomic) CDUnknownBlockType pendingTranslationBlock; // @synthesize pendingTranslationBlock=_pendingTranslationBlock;
-@property(copy, nonatomic) NSString *sourceLanguageID; // @synthesize sourceLanguageID=_sourceLanguageID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLocale *translationLanguage; // @synthesize translationLanguage=_translationLanguage;
-@property(retain, nonatomic) CKCompositionTranslationSessionManager *translationSessionManager; // @synthesize translationSessionManager=_translationSessionManager;
-@property(retain, nonatomic) NSLocale *translationToLanguage; // @synthesize translationToLanguage=_translationToLanguage;
-@property(retain, nonatomic) NSDictionary *typingAttributes; // @synthesize typingAttributes=_typingAttributes;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRVirtualVoiceInputDeviceDescriptor.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface MRMutableVirtualVoiceInputDeviceDescriptor : MRVirtualVoiceInputDeviceDescriptor
 {
@@ -16,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *defaultFormat; // @dynamic defaultFormat;
 @property(copy, nonatomic) NSArray *supportedFormats; // @dynamic supportedFormats;
 
 @end

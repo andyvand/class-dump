@@ -7,10 +7,9 @@
 @interface CKPinnedConversationActivityItemViewShadowLayer
 {
     long long _shadowType;
-    long long _userInterfaceStyle;
 }
 
-- (id);
+- (id);
 - (void);
 - (long long);
 - (double);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long shadowType; // @synthesize shadowType=_shadowType;
-@property(nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 
 @end
 

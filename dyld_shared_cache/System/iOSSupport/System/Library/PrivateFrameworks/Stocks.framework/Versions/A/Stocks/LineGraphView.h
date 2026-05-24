@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TintedView, UIImage, UIView;
-
 @interface LineGraphView
 {
     _Bool _showingTintedLine;
-    UIImage *_lineImage;
-    UIView *_tintedLineClipView;
-    TintedView *_tintedLineView;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

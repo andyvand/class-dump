@@ -9,19 +9,16 @@
 @interface CKAssetTransferOptions
 {
     NSNumber *_sparseAware;
-    NSNumber *_shouldFetchAssetContent;
-    NSNumber *_shouldFetchAssetContentInMemory;
-    NSNumber *_useMMCSEncryptionV2;
 }
 
-+ (_Bool);
++ (_Bool),;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)`;
+- (id)#;
 - (id);
 - (void);
 - (void);
@@ -31,10 +28,7 @@
 - (void)ents from a NULL secTask for pid %d;
 
 // Remaining properties
-@property(copy) NSNumber *shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(copy) NSNumber *shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
 @property(copy) NSNumber *sparseAware; // @synthesize sparseAware=_sparseAware;
-@property(copy) NSNumber *useMMCSEncryptionV2; // @synthesize useMMCSEncryptionV2=_useMMCSEncryptionV2;
 
 @end
 

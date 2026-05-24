@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)scannerDevice:(unsigned int)arg1 didSelectFunctionalUnit:error: /* Error: Ran out of types for this method. */;
 
 @end
 

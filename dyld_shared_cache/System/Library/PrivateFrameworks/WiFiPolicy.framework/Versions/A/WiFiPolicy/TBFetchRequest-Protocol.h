@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol TBFetchRequestDescriptor;
 
 @protocol TBFetchRequest
@@ -12,14 +11,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cacheable;
 @property(readonly, nonatomic) id <TBFetchRequestDescriptor> descriptor;
-@property(copy, nonatomic) CDUnknownBlockType preferLocalHandler;
-@property(copy, nonatomic) CDUnknownBlockType resultsHandler;
-@property(nonatomic) unsigned long long sourcePolicy;
-@property(retain, nonatomic) NSDictionary *userInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,&,N
-
 @end
 

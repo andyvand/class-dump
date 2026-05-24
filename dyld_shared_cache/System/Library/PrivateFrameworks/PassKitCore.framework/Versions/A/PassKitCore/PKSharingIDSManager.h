@@ -4,75 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableDictionary, NSObject, NSString, PKIDSService;
-@protocol OS_dispatch_queue, PKSharingIDSManagerDataSource;
+@class NSArray, NSHashTable;
 
 @interface PKSharingIDSManager
 {
     NSHashTable *_delegates;
-    struct os_unfair_lock_s _delegatesLock;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableDictionary *_completionHandlers;
-    NSMutableDictionary *_sharingDestinations;
-    NSMutableDictionary *_completionTimers;
-    PKIDSService *_service;
-    id <PKSharingIDSManagerDataSource> _dataSource;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)O;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (id);
+- (void)A:(id)arg1 a;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)k;
+- (void);
+- (void);
+- (id)_heartbeatRegister;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void)<@ù1ï%1Â0@ù
 × ;
-- (void)tIdentifiers:(id)arg1 accountIdentifier:(id)arg2;
-- (_Bool);
+- (void)markUserViewedIntroduction:(id)arg1 forInstallmentIdentifiers:(id)arg2 accountIdentifier:(id)arg3;
+- (_Bool)felicaSecureElementIsAvailable;
 - (void)ed;
 - (void)ssuerMessagingFlag in database
 ;
 - (void)redential;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKSharingIDSManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) NSArray *delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     struct CoreLanguageModelWithState *_model;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)Ds:(id)arg1 ];
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)Q;
 
 @end
 

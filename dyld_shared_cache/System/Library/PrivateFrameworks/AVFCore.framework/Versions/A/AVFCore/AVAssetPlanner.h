@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetPlannerIncrementalState, NSMutableArray, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class NSString, NSURL;
 
 @interface AVAssetPlanner
 {
     NSURL *_sessionSegmentFileDirectory;
-    NSString *_sessionName;
-    struct OpaqueFigSimpleMutex *_sessionMutex;
-    _Bool _writingSessionStarted;
-    NSMutableArray *_trackPlanExecutors;
-    CDUnknownBlockType _completionHandlerBlock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    AVAssetPlannerIncrementalState *_incrementalState;
 }
 
 + (CDStruct_99be6ffb);
-+ (_Bool);
++ (_Bool)ٷ;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)<;
+- (id)l;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)`&;
 
 // Remaining properties
 @property(readonly) NSString *sessionName; // @synthesize sessionName=_sessionName;

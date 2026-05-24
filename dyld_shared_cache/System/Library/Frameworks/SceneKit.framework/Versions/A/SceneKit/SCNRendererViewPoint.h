@@ -9,9 +9,6 @@
 @interface SCNRendererViewPoint
 {
     MTLRenderPassDescriptor *_passDescriptor;
-    CDStruct_4b2885c7 _viewport;
-    struct CATransform3D _viewMatrix;
-    struct CATransform3D _projectionMatrix;
 }
 
 - (struct CATransform3D);
@@ -26,15 +23,10 @@
 - (struct CATransform3D);
 - (void);
 - (void);
-- (CDStruct_4b2885c7);
+- (CDStruct_8727d297);
 
 // Remaining properties
-@property(retain, nonatomic) MTLRenderPassDescriptor *passDescriptor;
-@property(nonatomic) struct CATransform3D projectionMatrix; // @synthesize projectionMatrix=_projectionMatrix;
-@property(nonatomic) CDStruct_95fa7c00 simdProjectionMatrix;
-@property(nonatomic) CDStruct_95fa7c00 simdViewMatrix;
 @property(nonatomic) struct CATransform3D viewMatrix; // @synthesize viewMatrix=_viewMatrix;
-@property(nonatomic) CDStruct_4b2885c7 viewport;
 
 @end
 

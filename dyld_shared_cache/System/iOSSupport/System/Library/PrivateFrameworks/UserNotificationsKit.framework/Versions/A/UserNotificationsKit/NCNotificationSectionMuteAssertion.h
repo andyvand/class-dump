@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NCNotificationSectionMuteAssertion
 {
 }
 
-+ (id);
-- (unsigned long long);
++ (id)WFShortcutsToastedBannerAutoCollapseDuration;
+- (unsigned long long)resenter showDialogRequest:(id)arg1 runningContext:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 

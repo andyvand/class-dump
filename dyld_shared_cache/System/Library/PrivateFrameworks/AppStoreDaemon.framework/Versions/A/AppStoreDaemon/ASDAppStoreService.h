@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDServiceBroker, NSDictionary, NSObject, NSString;
-@protocol ASDAppStoreChangedObserver, OS_dispatch_queue;
+@protocol ASDAppStoreChangedObserver;
 
 @interface ASDAppStoreService
 {
     int _badgesChangedNotificationToken;
-    int _badgesChangedForAppStoreNotificationToken;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSDictionary *_badges;
-    id <ASDAppStoreChangedObserver> _observer;
-    ASDServiceBroker *_serviceBroker;
 }
 
 + (id);
@@ -31,20 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)edbackServiceWithReplyHandler:(id)arg1;
-- (id)tPresentationResult;
+- (void)PKCS7_dataDecode;
+- (void);
+- (void)getTestFlightFeedbackServiceWithReplyHandler:(id)arg1;
+- (id)ASDAlertPresentationResult;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak id <ASDAppStoreChangedObserver> observer;
-@property(readonly) Class superclass;
 
 @end
 

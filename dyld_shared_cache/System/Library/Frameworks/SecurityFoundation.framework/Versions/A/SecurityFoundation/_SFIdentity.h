@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFIdentityAttributes, _SFCertificate, _SFKeyPair, _SFPublicKey;
+@class _SFCertificate;
 
 @interface _SFIdentity
 {
@@ -12,25 +12,22 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)isCinematicVideo;
+- (id)me\.iso\(([0-9-]+T[0-9:(id)arg1 ]+)\),\$time\.iso\(([0-9-]+T[0-9:]+)\)\) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) SFIdentityAttributes *attributes;
 @property(retain, nonatomic) _SFCertificate *certificate;
-@property(retain, nonatomic) _SFKeyPair *keyPair;
-@property(readonly, nonatomic) _SFPublicKey *publicKey;
 
 @end
 

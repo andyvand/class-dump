@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)signInWithIDMSAuthenticationResults:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

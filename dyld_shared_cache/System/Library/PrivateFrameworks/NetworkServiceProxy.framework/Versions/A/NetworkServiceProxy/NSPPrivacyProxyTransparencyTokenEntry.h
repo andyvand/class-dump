@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NSPPrivacyProxyTransparencyTokenEntry
 {
     unsigned long long _configurationDeliveryEnd;
-    unsigned long long _configurationDeliveryStart;
-    NSString *_issuerName;
-    NSMutableArray *_tokenKeys;
 }
 
 + (Class);
@@ -24,25 +19,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)tion:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)e;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)|;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long configurationDeliveryEnd; // @synthesize configurationDeliveryEnd=_configurationDeliveryEnd;
 @property(nonatomic) unsigned long long configurationDeliveryStart; // @synthesize configurationDeliveryStart=_configurationDeliveryStart;
-@property(retain, nonatomic) NSString *issuerName; // @synthesize issuerName=_issuerName;
-@property(retain, nonatomic) NSMutableArray *tokenKeys; // @synthesize tokenKeys=_tokenKeys;
 
 @end
 

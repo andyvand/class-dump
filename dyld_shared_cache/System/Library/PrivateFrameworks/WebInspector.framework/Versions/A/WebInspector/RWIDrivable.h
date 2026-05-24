@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, RWIApplication;
+@class NSNumber;
 @protocol RWIDriverSession;
 
 @interface RWIDrivable
 {
     NSNumber *_targetIdentifier;
-    NSString *_sessionIdentifier;
-    RWIApplication *_owningApplication;
-    long long _state;
-    NSString *_name;
-    NSString *_version;
-    id <RWIDriverSession> _pairedSession;
 }
 
 - (void);
@@ -25,8 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)k
+l	
+J;
+- (id)(;
 - (id);
 - (id);
 - (long long);
@@ -35,14 +31,7 @@
 - (_Bool)!õ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) RWIApplication *owningApplication; // @synthesize owningApplication=_owningApplication;
-@property(readonly, nonatomic, getter=isPaired) _Bool paired;
 @property(readonly, nonatomic) id <RWIDriverSession> pairedSession; // @synthesize pairedSession=_pairedSession;
-@property(readonly, copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, copy, nonatomic) NSNumber *targetIdentifier; // @synthesize targetIdentifier=_targetIdentifier;
-@property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

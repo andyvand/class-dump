@@ -9,10 +9,6 @@
 @interface CRIntermediateDetectorResult
 {
     NSMutableArray *_pyramidPreIntraScaleNMSTextFeatures;
-    NSMutableArray *_pyramidPostIntraScaleNMSTextFeatures;
-    NSMutableArray *_pyramidPostInterScaleNMSTextFeatures;
-    NSMutableArray *_pyramidScaleSize;
-    NSMutableArray *_pyramidScaleName;
 }
 
 - (void);
@@ -21,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,11 +25,7 @@
 - (void)@"NSArray"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *pyramidPostInterScaleNMSTextFeatures; // @synthesize pyramidPostInterScaleNMSTextFeatures=_pyramidPostInterScaleNMSTextFeatures;
-@property(retain, nonatomic) NSMutableArray *pyramidPostIntraScaleNMSTextFeatures; // @synthesize pyramidPostIntraScaleNMSTextFeatures=_pyramidPostIntraScaleNMSTextFeatures;
 @property(retain, nonatomic) NSMutableArray *pyramidPreIntraScaleNMSTextFeatures; // @synthesize pyramidPreIntraScaleNMSTextFeatures=_pyramidPreIntraScaleNMSTextFeatures;
-@property(retain, nonatomic) NSMutableArray *pyramidScaleName; // @synthesize pyramidScaleName=_pyramidScaleName;
-@property(retain, nonatomic) NSMutableArray *pyramidScaleSize; // @synthesize pyramidScaleSize=_pyramidScaleSize;
 
 @end
 

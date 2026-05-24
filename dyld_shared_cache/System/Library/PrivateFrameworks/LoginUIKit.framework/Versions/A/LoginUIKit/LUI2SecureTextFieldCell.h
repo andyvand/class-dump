@@ -9,10 +9,10 @@
 }
 
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (long long);
-- (void)stancePriority:forOrientation: /* Error: Ran out of types for this method. */;
+- (void)setContentCompressionResistancePriority:forOrientation: /* Error: Ran out of types for this method. */;
 
 @end
 

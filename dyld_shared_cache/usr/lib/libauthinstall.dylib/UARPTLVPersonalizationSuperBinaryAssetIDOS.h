@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (unsigned int);
 - (id);
 - (id);
 - (id);
-- (unsigned short);
-- (id);
+- (unsigned short)r";
+- (id)stream:handleEvent: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

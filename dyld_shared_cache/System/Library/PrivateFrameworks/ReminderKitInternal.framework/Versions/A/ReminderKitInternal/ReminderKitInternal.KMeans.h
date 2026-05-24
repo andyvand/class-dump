@@ -7,13 +7,6 @@
 @interface ReminderKitInternal.KMeans
 {
     id numCenters;
-    id distanceCalculator;
-    id pointCloud;
-    id tolerance;
-    id maxIter;
-    id randomGenerator;
-    id centroids;
-    id metrics;
 }
 
 @end

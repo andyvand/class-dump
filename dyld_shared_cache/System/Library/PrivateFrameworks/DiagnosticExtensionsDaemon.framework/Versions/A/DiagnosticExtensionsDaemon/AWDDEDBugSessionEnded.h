@@ -7,25 +7,20 @@
 @interface AWDDEDBugSessionEnded
 {
     unsigned long long _timestamp;
-    int _sessionState;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int sessionState:1;
-    } _has;
 }
 
 - (void);
 - (id);
 - (int);
 - (_Bool);
-- (id);
-- (void);
+- (id)rangeOnPublicKey;
+- (void)metricOptionsForNetworkRequest:(id)arg1;
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)oreNavigationCLPRavenLogEntry.pb.h;
 - (void);
 - (void);
 - (void);
@@ -35,10 +30,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSessionState;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int sessionState; // @synthesize sessionState=_sessionState;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

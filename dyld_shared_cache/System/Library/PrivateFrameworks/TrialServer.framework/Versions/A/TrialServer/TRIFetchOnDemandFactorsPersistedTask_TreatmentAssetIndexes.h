@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPBUInt32Array;
+@class NSString;
 
 @interface TRIFetchOnDemandFactorsPersistedTask_TreatmentAssetIndexes
 {
 }
 
-+ (id);
++ (id)SignpostSupportObjectFilter;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
-@property(retain, nonatomic) TRIPBUInt32Array *indexArray; // @dynamic indexArray;
-@property(readonly, nonatomic) unsigned long long indexArray_Count; // @dynamic indexArray_Count;
 @property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end

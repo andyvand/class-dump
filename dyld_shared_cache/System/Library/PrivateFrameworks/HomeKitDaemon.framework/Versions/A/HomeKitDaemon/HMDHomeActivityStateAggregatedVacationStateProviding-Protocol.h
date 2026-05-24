@@ -7,6 +7,7 @@
 @class HMDHomeActivityVacationAggregatorState;
 
 @protocol HMDHomeActivityStateAggregatedVacationStateProviding
+- (HMDHomeActivityVacationAggregatorState *)aredTripDidBecomeAvailable:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDHomeActivityVacationAggregatorState *aggregatedVacationState;

@@ -7,43 +7,6 @@
 @interface AppStoreKit.Lockup
 {
     id adamId;
-    id bundleId;
-    id icon;
-    id isEditorsChoice;
-    id ordinal;
-    id heading;
-    id title;
-    id subtitle;
-    id subtitleTextColor;
-    id subtitleTextFilter;
-    id developerTagline;
-    id rating;
-    id ratingCount;
-    id editorialTagline;
-    id editorialDescription;
-    id shortEditorialDescription;
-    id buttonAction;
-    id offerDisplayProperties;
-    id ageRating;
-    id clickAction;
-    id crossLinkTitle;
-    id crossLinkSubtitle;
-    id children;
-    id tertiaryTitle;
-    id tertiaryTitleAction;
-    id tertiaryTitleArtwork;
-    id tertiaryTitleIcons;
-    id tertiaryIconPlacement;
-    id contextMenuData;
-    id includeBetaApps;
-    id useAdsLocale;
-    id shelfBackground;
-    id searchAdOpportunity;
-    id itemBackground;
-    id decorations;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITabBarAppearance, UITabBarItemStateAppearance, _UITabBarItemData;
+@class UITabBarItemStateAppearance, _UITabBarItemData;
 
 @interface UITabBarItemAppearance
 {
     UITabBarItemStateAppearance *_states[5];
-    _UITabBarItemData *_data;
-    UITabBarAppearance *_owningAppearance;
 }
 
 + (_Bool)ckground decorator that is already attached to a textfield.;
@@ -19,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ntifiers out of bound in section (%lld):(id)arg1 %lld;
 - (void);
 - (id);
 - (id);
@@ -27,11 +25,11 @@
 - (void);
 - (id)! GùqeÐ1Â0@ù
 × ;
-- (_Bool)jectsInArray:(id)arg1;
-- (void)eringMode:(id)arg1;
-- (id)earchBarForController: /* Error: Ran out of types for this method. */;
-- (void)TransitionViewFrame:(CDUnknownBlockType)arg1;
-- (id)ousMovementRequest: /* Error: Ran out of types for this method. */;
+- (_Bool)removeObjectsInArray:(id)arg1;
+- (void)imageWithTintColor:(id)arg1 renderingMode: /* Error: Ran out of types for this method. */;
+- (id)didUnfocusSearchBarForController: /* Error: Ran out of types for this method. */;
+- (void)adjustedTransitionViewFrame:(CDUnknownBlockType)arg1;
+- (id)_attemptToRecognizeContinuousMovementRequest: /* Error: Ran out of types for this method. */;
 - (id)Td,N,V_pageSpacing;
 - (id)eView;
 - (id)zcG;
@@ -45,12 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setData:) _UITabBarItemData *_data; // @synthesize _data;
-@property(nonatomic, setter=_setOwningAppearance:) __weak UITabBarAppearance *_owningAppearance; // @synthesize _owningAppearance;
-@property(readonly, nonatomic) UITabBarItemStateAppearance *disabled;
-@property(readonly, nonatomic) UITabBarItemStateAppearance *focused;
-@property(readonly, nonatomic) UITabBarItemStateAppearance *highlighted;
-@property(readonly, nonatomic) UITabBarItemStateAppearance *normal;
-@property(readonly, nonatomic) UITabBarItemStateAppearance *selected;
 
 @end
 

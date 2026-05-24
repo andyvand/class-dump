@@ -7,11 +7,6 @@
 @interface AppStoreKit.MSOPersonalizationDataSource
 {
     id objectGraph;
-    id accountChannelsProvider;
-    id stateLock;
-    id lastContextPromise;
-    id personalizationStyle;
-    id delegate;
 }
 
 @end

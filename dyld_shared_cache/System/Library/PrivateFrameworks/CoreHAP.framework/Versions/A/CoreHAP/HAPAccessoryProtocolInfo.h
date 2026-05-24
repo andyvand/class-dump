@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFVersion, NSData, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HAPAccessoryProtocolInfo
 {
     unsigned char _featureFlags;
-    unsigned char _statusFlags;
-    unsigned short _categoryIdentifier;
-    NSString *_deviceIdentifier;
-    NSNumber *_currentStateNumber;
-    NSNumber *_currentConfigNumber;
-    NSString *_modelName;
-    HMFVersion *_protocolVersion;
-    NSData *_setupHash;
 }
 
 - (id);
@@ -30,19 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)¡p°!àGùq¸°1Â0@ù
 × ;
-- (void)e: /* Error: Ran out of types for this method. */;
-- (unsigned char)olygons: /* Error: Ran out of types for this method. */;
+- (void)setMonitorState: /* Error: Ran out of types for this method. */;
+- (unsigned char)initWithInverted:count:polygons: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(readonly, nonatomic) NSNumber *currentConfigNumber; // @synthesize currentConfigNumber=_currentConfigNumber;
-@property(readonly, nonatomic) NSNumber *currentStateNumber; // @synthesize currentStateNumber=_currentStateNumber;
 @property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) unsigned char featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly, nonatomic) HMFVersion *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(readonly, nonatomic) NSData *setupHash; // @synthesize setupHash=_setupHash;
-@property(readonly, nonatomic) unsigned char statusFlags; // @synthesize statusFlags=_statusFlags;
 
 @end
 

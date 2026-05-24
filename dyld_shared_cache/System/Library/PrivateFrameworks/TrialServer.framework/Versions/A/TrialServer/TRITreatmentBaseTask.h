@@ -7,16 +7,14 @@
 #import <TrialServer/TRIExperimentBaseTask.h>
 
 @class NSString;
-@protocol TRITaskAttributing;
 
 @interface TRITreatmentBaseTask : TRIExperimentBaseTask
 {
     NSString *_treatmentId;
-    id <TRITaskAttributing> _taskAttributing;
 }
 
-- (id);
-- (id);
+- (id)setIncludeHDRGainMaps:(id)arg1;
+- (id)layerStackByUpdatingClockAreaLuminance: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
@@ -29,7 +27,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <TRITaskAttributing> taskAttributing; // @synthesize taskAttributing=_taskAttributing;
 @property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end

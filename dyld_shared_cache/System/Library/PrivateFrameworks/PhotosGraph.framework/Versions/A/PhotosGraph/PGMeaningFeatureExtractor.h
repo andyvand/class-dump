@@ -12,9 +12,9 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)initWithCacheDirectoryURL:isReadOnly: /* Error: Ran out of types for this method. */;
++ (id)source;
+- (id)applicationControllerWindowDidDeminiaturize:(long long)arg1 windowElement:(id *)arg2;
 - (id);
 
 @end

@@ -9,22 +9,18 @@
 @interface CBBLEServiceDataInfo
 {
     _Bool _connectable;
-    unsigned short _serviceUUID16;
-    NSData *_serviceData;
 }
 
 - (void);
-- (unsigned short);
+- (unsigned short);
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool connectable; // @synthesize connectable=_connectable;
 @property(copy, nonatomic) NSData *serviceData; // @synthesize serviceData=_serviceData;
-@property(nonatomic) unsigned short serviceUUID16; // @synthesize serviceUUID16=_serviceUUID16;
 
 @end
 

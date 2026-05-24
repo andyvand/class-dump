@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTRequestContent, IFTSchemaIFTRequestPrescribedPlan, NSData;
-
 @interface IFTSchemaIFTRequest : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTRequestContent *_content;
-    _Bool _isSafetyMode;
-    IFTSchemaIFTRequestPrescribedPlan *_prescribedPlan;
-    struct {
-        unsigned int exists:1;
-        unsigned int isSafetyMode:1;
-    } _has;
-    _Bool _hasContent;
-    _Bool _hasPrescribedPlan;
 }
 
 - (void);
@@ -33,7 +22,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -42,28 +31,20 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)__common;
 - (id);
-- (id);
-- (void)Context;
+- (void)deleteAssistantDaemonAudioPrepareContext;
 - (_Bool)zationDurationInNs;
 - (id)nded",&,N,V_ended;
-- (id)MReplaySampleContext;
-- (id)ILURE_REASON_UNKNOWN;
+- (id)CLPInstSchemaCLPCDMReplaySampleContext;
+- (id)ASRAPPLANGUAGEMODELLOADFAILURE_REASON_UNKNOWN;
 - (_Bool)1µ[!;
 - (void)ÂY4:# /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)ÿ]%emÃ);
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTRequestContent *content; // @synthesize content=_content;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasContent; // @synthesize hasContent=_hasContent;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasIsSafetyMode;
-@property(nonatomic) _Bool hasPrescribedPlan; // @synthesize hasPrescribedPlan=_hasPrescribedPlan;
-@property(nonatomic) _Bool isSafetyMode; // @synthesize isSafetyMode=_isSafetyMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTRequestPrescribedPlan *prescribedPlan; // @synthesize prescribedPlan=_prescribedPlan;
 
 @end
 

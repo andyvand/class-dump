@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ntBuffer;
+- (void)_isIndirectArgumentBuffer;
 - (id);
 
 @end

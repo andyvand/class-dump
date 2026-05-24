@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPaymentAuthorizationStateParam.h>
 
-@class NSData, PKWrappedPayment;
+@class PKWrappedPayment;
 
 @interface PKPaymentAuthorizationRewrapStateParam : PKPaymentAuthorizationStateParam
 {
     PKWrappedPayment *_wrappedPayment;
-    NSData *_nonceData;
-    NSData *_credential;
-    long long _cryptogramType;
 }
 
 + (id);
@@ -22,16 +19,13 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (void)ttest.lynx.serialnumber;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *credential; // @synthesize credential=_credential;
-@property(nonatomic) long long cryptogramType; // @synthesize cryptogramType=_cryptogramType;
-@property(retain, nonatomic) NSData *nonceData; // @synthesize nonceData=_nonceData;
 @property(retain, nonatomic) PKWrappedPayment *wrappedPayment; // @synthesize wrappedPayment=_wrappedPayment;
 
 @end

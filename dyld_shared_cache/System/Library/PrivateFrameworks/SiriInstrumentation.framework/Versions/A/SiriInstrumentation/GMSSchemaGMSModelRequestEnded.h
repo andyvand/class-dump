@@ -6,32 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GMSSchemaGMSModelRequestEnded : SISchemaInstrumentationMessage
 {
     double _tokensPerSecond;
-    unsigned int _responseTokensCount;
-    double _kbPerSecond;
-    unsigned int _responseKbCount;
-    float _imagePerSecond;
-    unsigned int _imageCount;
-    double _timeToFirstTokenInSeconds;
-    double _timeToLastTokenInSeconds;
-    unsigned int _responseCharactersCount;
-    unsigned int _responseTimeInMilliseconds;
-    struct {
-        unsigned int tokensPerSecond:1;
-        unsigned int responseTokensCount:1;
-        unsigned int kbPerSecond:1;
-        unsigned int responseKbCount:1;
-        unsigned int imagePerSecond:1;
-        unsigned int imageCount:1;
-        unsigned int timeToFirstTokenInSeconds:1;
-        unsigned int timeToLastTokenInSeconds:1;
-        unsigned int responseCharactersCount:1;
-        unsigned int responseTimeInMilliseconds:1;
-    } _has;
 }
 
 - (double);
@@ -56,11 +33,11 @@
 - (unsigned int);
 - (double);
 - (float);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,10 +45,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -85,36 +62,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)spanDays;
 - (id)ext";
 - (id),N,V_startedOrChanged;
 - (id)X|Øø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasImageCount;
-@property(nonatomic) _Bool hasImagePerSecond;
-@property(nonatomic) _Bool hasKbPerSecond;
-@property(nonatomic) _Bool hasResponseCharactersCount;
-@property(nonatomic) _Bool hasResponseKbCount;
-@property(nonatomic) _Bool hasResponseTimeInMilliseconds;
-@property(nonatomic) _Bool hasResponseTokensCount;
-@property(nonatomic) _Bool hasTimeToFirstTokenInSeconds;
-@property(nonatomic) _Bool hasTimeToLastTokenInSeconds;
-@property(nonatomic) _Bool hasTokensPerSecond;
-@property(nonatomic) unsigned int imageCount; // @synthesize imageCount=_imageCount;
-@property(nonatomic) float imagePerSecond; // @synthesize imagePerSecond=_imagePerSecond;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double kbPerSecond; // @synthesize kbPerSecond=_kbPerSecond;
-@property(nonatomic) unsigned int responseCharactersCount; // @synthesize responseCharactersCount=_responseCharactersCount;
-@property(nonatomic) unsigned int responseKbCount; // @synthesize responseKbCount=_responseKbCount;
-@property(nonatomic) unsigned int responseTimeInMilliseconds; // @synthesize responseTimeInMilliseconds=_responseTimeInMilliseconds;
-@property(nonatomic) unsigned int responseTokensCount; // @synthesize responseTokensCount=_responseTokensCount;
-@property(nonatomic) double timeToFirstTokenInSeconds; // @synthesize timeToFirstTokenInSeconds=_timeToFirstTokenInSeconds;
-@property(nonatomic) double timeToLastTokenInSeconds; // @synthesize timeToLastTokenInSeconds=_timeToLastTokenInSeconds;
 @property(nonatomic) double tokensPerSecond; // @synthesize tokensPerSecond=_tokensPerSecond;
 
 @end

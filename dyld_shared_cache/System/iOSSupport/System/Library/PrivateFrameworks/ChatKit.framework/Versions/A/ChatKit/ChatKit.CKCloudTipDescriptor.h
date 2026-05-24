@@ -7,11 +7,6 @@
 @interface ChatKit.CKCloudTipDescriptor
 {
     long long tipType;
-    id iCloudBackupEnabledSystemWide;
-    id availableStorageInCloud;
-    id usedStorageInCloud;
-    id totalStorageInCloud;
-    id currentStorageOnDevice;
 }
 
 - (long long);

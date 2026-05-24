@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDExternalActionFilter
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _componentTypes;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)supportedRepeatableSectionTypes"b1"read_guidesLocationEntry"b1"read_refinementGuidesHome"b1"read_resultFilter"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)SupportsNavigation;
+- (id)_determinedCurrentCountrySupportsNavigation;
 - (id)¨ì­Ø®È¯p°T²ä²³;
 - (void)5^ºI³?zÇ):©j@ /* Error: Ran out of types for this method. */;
 

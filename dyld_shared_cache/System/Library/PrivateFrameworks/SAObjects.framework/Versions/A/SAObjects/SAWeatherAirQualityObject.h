@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, SAWeatherLocation;
-
 @interface SAWeatherAirQualityObject : SADomainObject
 {
 }
@@ -17,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3.;
 - (id);
 - (id);
 - (id);
@@ -29,10 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) long long airQualityIndex;
-@property(retain, nonatomic) SAWeatherLocation *airQualityLocation;
-@property(copy, nonatomic) NSString *airQualityRatingCategory;
-@property(copy, nonatomic) NSString *localizedCategoryName;
-@property(copy, nonatomic) NSArray *pollutants;
 
 @end
 

@@ -8,28 +8,20 @@
 {
     long long indexOffset;
     long long indexCount;
-    unsigned long long topology;
-    long long materialIndex;
-    id boundsMin;
-    id boundsMax;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (long long);
 - (unsigned long long);
 - (long long);
 - (long long);
-- (id);
+- (id)(ToLanguage);
 
 // Remaining properties
-@property(nonatomic, readonly) id boundsMax; // @synthesize boundsMax;
-@property(nonatomic, readonly) id boundsMin; // @synthesize boundsMin;
 @property(nonatomic, readonly) long long indexCount; // @synthesize indexCount;
 @property(nonatomic, readonly) long long indexOffset; // @synthesize indexOffset;
-@property(nonatomic, readonly) long long materialIndex; // @synthesize materialIndex;
-@property(nonatomic, readonly) unsigned long long topology; // @synthesize topology;
 
 @end
 

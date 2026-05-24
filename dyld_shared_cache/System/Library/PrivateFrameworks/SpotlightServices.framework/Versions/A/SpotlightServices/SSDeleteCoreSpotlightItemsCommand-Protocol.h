@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray, NSData;
 
 @protocol SSDeleteCoreSpotlightItemsCommand
 - (NSArray *);
+- (NSData *)calling migration_addTaskCapability;
+- (NSArray *)_domainScores;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSArray *domainIdentifiers;
-@property(copy, nonatomic) NSArray *filesToDelete;
-@property(copy, nonatomic) NSArray *itemIdentifiers;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

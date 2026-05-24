@@ -9,6 +9,6 @@
 @protocol UIItemProviderWriting
 
 @optional
-+ (NSArray *)nderFactory10Key;
++ (NSArray *)UIKBRenderFactory10Key;
 @end
 

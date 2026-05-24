@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, UIView;
 @protocol _UISplitViewControllerAdaptiveLayout;
 
 @interface _UISplitViewControllerAdaptiveLayoutTransition
 {
     id id;
-    id animations;
-    id completion;
-    id suspendedDelegateUpdateColumns;
-    id mutableViewControllersWithSuspendedAppearanceTransitions;
-    id mutablePreviousLayoutSnapshotView;
-    id hasStarted;
-    id hasCompleted;
-    id isCommitted;
-    id isCoordinated;
-    id <_UISplitViewControllerAdaptiveLayout> mutablePreviousLayout;
-    id <_UISplitViewControllerAdaptiveLayout> mutableNewLayout;
-    id transitionCoordinatorAnimations;
-    id transitionCoordinatorCompletions;
-    UIView *mutableContainerView;
-    _Bool mutableIsAnimated;
-    _Bool mutableIsCancelled;
-    _Bool mutableIsInteractive;
-    double mutablePercentComplete;
-    double mutableTransitionDuration;
 }
 
-- (id);
+- (id)rough Blastdoor;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,11 +32,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
+- (id)setVolumeAdjustment: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)ngC_So12NSDictionaryCt;
+- (id)So18NSAttributedStringC_So12NSDictionaryCt;
 - (long long)ðeâÿÉº;
 - (_Bool)íf;
 - (double)ô'nþÔ;
@@ -77,31 +57,7 @@
 - (long long)¡Élâp;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool animated;
-@property(nonatomic, readonly) _Bool cancelled;
-@property(nonatomic, readonly) long long completionCurve;
-@property(nonatomic, readonly) double completionVelocity;
-@property(nonatomic, readonly) UIView *containerView;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool initiallyInteractive;
-@property(nonatomic, readonly) _Bool interactive;
-@property(nonatomic, readonly) _Bool isInterruptible;
-@property(nonatomic, retain) UIView *mutableContainerView; // @synthesize mutableContainerView;
-@property(nonatomic) _Bool mutableIsAnimated; // @synthesize mutableIsAnimated;
-@property(nonatomic) _Bool mutableIsCancelled; // @synthesize mutableIsCancelled;
-@property(nonatomic) _Bool mutableIsInteractive; // @synthesize mutableIsInteractive;
-@property(nonatomic, retain) id <_UISplitViewControllerAdaptiveLayout> mutableNewLayout; // @synthesize mutableNewLayout;
-@property(nonatomic) double mutablePercentComplete; // @synthesize mutablePercentComplete;
 @property(nonatomic, retain) id <_UISplitViewControllerAdaptiveLayout> mutablePreviousLayout; // @synthesize mutablePreviousLayout;
-@property(nonatomic) double mutableTransitionDuration; // @synthesize mutableTransitionDuration;
-@property(nonatomic, readonly) id <_UISplitViewControllerAdaptiveLayout> newLayout;
-@property(nonatomic, readonly) double percentComplete;
-@property(nonatomic, readonly) long long presentationStyle;
-@property(nonatomic, readonly) id <_UISplitViewControllerAdaptiveLayout> previousLayout;
-@property(nonatomic, readonly) UIView *previousLayoutSnapshotView;
-@property(nonatomic, readonly) struct CGAffineTransform targetTransform;
-@property(nonatomic, readonly) double transitionDuration;
-@property(nonatomic, readonly) NSSet *viewControllersWithSuspendedAppearanceTransitions;
 
 @end
 

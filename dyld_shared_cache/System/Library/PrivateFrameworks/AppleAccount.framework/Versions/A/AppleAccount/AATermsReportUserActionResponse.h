@@ -13,9 +13,9 @@
     NSDictionary *_responseParameters;
 }
 
-- (id);
-- (id);
-- (void)Contact: /* Error: Ran out of types for this method. */;
+- (id)HaveManagement;
+- (id);
+- (void)setContact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *responseParameters; // @synthesize responseParameters=_responseParameters;

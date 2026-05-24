@@ -5,5 +5,12 @@
 //
 
 @protocol CNContactContentDisplayViewControllerDelegate
+- (void)!;
+
+@optional
+- (void);
+- (void)R@;
+- (void)	;
+- (void)c;
 @end
 

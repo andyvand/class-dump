@@ -7,48 +7,32 @@
 @interface MLCLSTMDescriptor
 {
     _Bool _usesBiases;
-    _Bool _batchFirst;
-    _Bool _isBidirectional;
-    _Bool _returnsSequences;
-    float _dropout;
-    unsigned long long _inputSize;
-    unsigned long long _hiddenSize;
-    unsigned long long _layerCount;
-    unsigned long long _resultMode;
 }
 
++ (id)T?|;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
+- (_Bool)L;
 - (_Bool);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
+- (float)A;
+- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (float);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)tionInfo:accumulate:predicationBuffer:predicationOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool batchFirst; // @synthesize batchFirst=_batchFirst;
-@property(readonly, nonatomic) float dropout; // @synthesize dropout=_dropout;
-@property(readonly, nonatomic) unsigned long long hiddenSize; // @synthesize hiddenSize=_hiddenSize;
 @property(readonly, nonatomic) unsigned long long inputSize; // @synthesize inputSize=_inputSize;
-@property(readonly, nonatomic) _Bool isBidirectional; // @synthesize isBidirectional=_isBidirectional;
-@property(readonly, nonatomic) unsigned long long layerCount; // @synthesize layerCount=_layerCount;
-@property(readonly, nonatomic) unsigned long long resultMode; // @synthesize resultMode=_resultMode;
-@property(readonly, nonatomic) _Bool returnsSequences; // @synthesize returnsSequences=_returnsSequences;
-@property(readonly, nonatomic) _Bool usesBiases; // @synthesize usesBiases=_usesBiases;
 
 @end
 

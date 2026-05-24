@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMIHTMLReportBox
 {
     float _opacity;
-    float _value;
-    NSString *_text;
-    NSString *_color;
-    struct CGRect _boundingBox;
 }
 
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (id);
 - (float);
 - (float);
@@ -26,10 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly) NSString *color; // @synthesize color=_color;
-@property(readonly) float opacity; // @synthesize opacity=_opacity;
-@property(readonly) NSString *text; // @synthesize text=_text;
-@property(readonly) float value; // @synthesize value=_value;
 
 @end
 

@@ -9,15 +9,6 @@
 {
     id ùéª±Ð10@ù
 ?×é;
-    id ?×é;
-    id TÚô;
-    id z@ùèªàªÎÿhNAù@ùh@ùàªvRAùáªbVAùcrùôªõªÏñüªÕ;
-    id ªñ	ªñÇåò0ÁÚ"@ùéª±Ð10@ù
-?×é;
-    id ù?;
-    _Atomic ù`þùa?;
-    id Èjh8hr¹àªàªÚvAùÈR¹|@ùkh¸hÒ¹tbAù@ùñª1\íò0ÁÚJøùª°J÷òð
-?×ã;
 }
 
 
@@ -26,9 +17,6 @@
 ?×àªzêCùáª
 // Property attributes: ªn»cx©¨£
 Ñ
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: ¹khøèª	@øàªáªñªàò1	?×
-// Property attributes: â
 
 @end
 

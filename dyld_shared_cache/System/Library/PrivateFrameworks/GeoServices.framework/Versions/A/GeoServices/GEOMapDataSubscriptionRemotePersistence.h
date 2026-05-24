@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol GEOMapDataSubscriptionPersistenceDelegate;
 
 __attribute__((visibility("hidden")))
@@ -16,20 +15,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)otocol"16;
+- (id)!;
+- (void)encodeBool:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void)@³;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <GEOMapDataSubscriptionPersistenceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

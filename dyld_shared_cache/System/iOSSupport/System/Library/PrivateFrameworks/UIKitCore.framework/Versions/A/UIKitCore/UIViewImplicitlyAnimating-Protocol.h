@@ -9,7 +9,7 @@
 @optional
 - (void)`end` but received %@;
 - (void)@ùþÿP;
-- (void)lSpacing;
+- (void)equalSpacing;
 - (void)åF;
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPXPCClientHelper, PPXPCClientPipelinedBatchQueryManager;
+@class PPXPCClientHelper;
 
 @interface PPConnectionsClient
 {
     PPXPCClientHelper *_clientHelper;
-    PPXPCClientPipelinedBatchQueryManager *_queryManager;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)setHighlightState:(id)arg1;
 - (id);
 - (void);
 - (void);

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ed by the %zu displayed websites on your computer?;
 + (_Bool);
 
 @end

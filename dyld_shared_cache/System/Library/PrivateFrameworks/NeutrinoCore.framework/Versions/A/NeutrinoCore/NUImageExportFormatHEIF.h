@@ -11,15 +11,15 @@
     long long _bitDepth;
 }
 
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)A;
 - (void);
+- (id)"<HAP2AccessoryServerControllerFactory>",R,N,V_controllerFactory;
 - (id);
-- (id);
-- (id)res;
+- (id)_textures;
 
 // Remaining properties
 @property(nonatomic) long long bitDepth; // @synthesize bitDepth=_bitDepth;

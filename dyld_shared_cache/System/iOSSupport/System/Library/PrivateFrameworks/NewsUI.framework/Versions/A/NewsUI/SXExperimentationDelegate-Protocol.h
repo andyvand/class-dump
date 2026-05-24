@@ -5,5 +5,7 @@
 //
 
 @protocol SXExperimentationDelegate
+- (void)c;
+- (_Bool);
 @end
 

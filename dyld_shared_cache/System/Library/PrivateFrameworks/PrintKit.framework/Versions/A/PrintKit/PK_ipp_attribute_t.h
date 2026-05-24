@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface PK_ipp_attribute_t
 {
     NSString *x_name;
-    NSMutableArray *_values;
-    int _group_tag;
-    int _value_tag;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (int);
 - (void);
@@ -27,20 +24,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)C;
 - (id);
 - (id);
+- (void)qA;
+- (id);
+- (id)verbose;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)@"<AXKTextElementEditListener>",W,N,V_listener;
 
 // Remaining properties
-@property(readonly) int group_tag; // @synthesize group_tag=_group_tag;
-@property(readonly) NSString *name; // @dynamic name;
-@property(readonly) unsigned long long num_values; // @dynamic num_values;
-@property(readonly) int value_tag; // @synthesize value_tag=_value_tag;
 @property(readonly) NSMutableArray *values; // @synthesize values=_values;
 
 @end

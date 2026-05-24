@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAirport, _SFPBDate, _SFPBFlightDateDescriptor, _SFPBPegasusDisplayFields;
+@class NSData, NSString, _SFPBAirport, _SFPBDate, _SFPBFlightDateDescriptor;
 
 @protocol _SFPBFlightLeg
+- (void);
+- (void);
+- (_SFPBFlightDateDescriptor *)%;
+- (int)*;
+- (void)$;
+- (void);
+- (NSString *)_finalize_QCCache;
+- (_SFPBDate *)_finalize_QCCGLContext;
+- (NSString *)_finalize_Initialization;
+- (_SFPBAirport *)_filterAllResourcesIfNeeded;
+- (_SFPBDate *)_fillsPicker;
+- (_SFPBDate *)otherMouseDown: /* Error: Ran out of types for this method. */;
+- (NSString *)openGLPixelType;
+- (_SFPBAirport *)_boundsWithAllKeyFrames: /* Error: Ran out of types for this method. */;
+- (_SFPBDate *)_borderMask;
+- (_SFPBAirport *)__contentUpdated: /* Error: Ran out of types for this method. */;
+- (NSString *)_expand;
+- (void)ting to a default material;
+- (void)@;
+- (NSData *)V_assetCollectionSubtype;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBDate *arrivalActualTime;
-@property(retain, nonatomic) _SFPBAirport *arrivalAirport;
-@property(copy, nonatomic) NSString *arrivalGate;
-@property(retain, nonatomic) _SFPBDate *arrivalGateTime;
-@property(retain, nonatomic) _SFPBDate *arrivalPublishedTime;
-@property(retain, nonatomic) _SFPBDate *arrivalRunwayTime;
-@property(copy, nonatomic) NSString *arrivalTerminal;
-@property(copy, nonatomic) NSString *baggageClaim;
-@property(retain, nonatomic) _SFPBDate *departureActualTime;
-@property(retain, nonatomic) _SFPBAirport *departureAirport;
-@property(copy, nonatomic) NSString *departureGate;
-@property(retain, nonatomic) _SFPBDate *departureGateClosedTime;
-@property(retain, nonatomic) _SFPBDate *departurePublishedTime;
-@property(retain, nonatomic) _SFPBDate *departureRunwayTime;
-@property(copy, nonatomic) NSString *departureTerminal;
-@property(retain, nonatomic) _SFPBAirport *divertedAirport;
-@property(retain, nonatomic) _SFPBFlightDateDescriptor *gateArrivalTimes;
-@property(retain, nonatomic) _SFPBFlightDateDescriptor *gateDepartureTimes;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBDate *lastUpdatedTime;
-@property(nonatomic) int pegasusDefinedState;
-@property(retain, nonatomic) _SFPBPegasusDisplayFields *pegasusDisplayFields;
-@property(retain, nonatomic) _SFPBFlightDateDescriptor *runwayArrivalTimes;
-@property(retain, nonatomic) _SFPBFlightDateDescriptor *runwayDepartureTimes;
 @property(nonatomic) int status;
-@property(copy, nonatomic) NSString *title;
 @end
 

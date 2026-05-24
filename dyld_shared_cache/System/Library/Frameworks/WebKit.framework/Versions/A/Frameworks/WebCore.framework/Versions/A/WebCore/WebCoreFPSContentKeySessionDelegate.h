@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCoreFPSContentKeySessionDelegate
 {
@@ -31,13 +29,7 @@ __attribute__((visibility("hidden")))
 k£3aàÎão7­m÷âªRè`,*iqbèsäµteióæjïë(açêõ»gïïq$rganéìhprïê«å@@T8à+'÷åzÜôteìðß\éðÇöskinhikaùð®Pó	"lùèb×`Õàh]wåp=`'à7-viäfêXHópâÒðà,orîð÷_ððóleasåpØÒlaùïÕ½îð¬iïïhtáë¯üíðxÓoviåóëm®ïrøicïçôâð½/ackpaçí,®hNáè?rbamáð__tåð3¬î	jÄTbÀûãpconveòì%S®ãÃgíðöàeëdãtìkìmocéïì`,*ðÊo÷mìbÙàdÕpageóð-_®ðõøãdlÌì|°êðÖXackeôpÀ¬à5íhamííÍ--paçâ«!ën©$áøðdheòîB6âðÚáà+ËòðàótoavoéïüÓinhumáåíeèthatóæûa.paìèðæ-íðw-íìc£äððtouòì:ãiÞç /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

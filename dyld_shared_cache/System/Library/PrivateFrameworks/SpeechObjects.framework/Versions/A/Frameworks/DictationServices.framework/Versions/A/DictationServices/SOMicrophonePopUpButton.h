@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField, NSView, SOMicrophoneLevelMeterController;
-
 @interface SOMicrophonePopUpButton
 {
     id _delegate;
-    _Bool _containsCautionaryInfo;
-    _Bool _suppressCautionaryInfo;
-    NSImageView *_cautionaryImageView;
-    NSTextField *_cautionaryExplanation;
-    NSView *_hortizontallyCenteredView;
-    SOMicrophoneLevelMeterController *_microphoneLevelController;
 }
 
 - (_Bool);
@@ -29,25 +21,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
+- (id)layoutByUpdatingConfigurationWithSaliency:(id)arg1 normalizedTopEdgeInset: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)keyPathsForValuesAffectingVideoDisplaySize;
+- (id)16@0:(struct CGRect)arg1 8;
+- (void)superVectorSize;
 
 // Remaining properties
-@property(retain) NSTextField *cautionaryExplanation; // @synthesize cautionaryExplanation=_cautionaryExplanation;
-@property(retain) NSImageView *cautionaryImageView; // @synthesize cautionaryImageView=_cautionaryImageView;
-@property(readonly) _Bool containsCautionaryInfo; // @synthesize containsCautionaryInfo=_containsCautionaryInfo;
 @property id delegate; // @synthesize delegate=_delegate;
-@property _Bool suppressCautionaryInfo; // @synthesize suppressCautionaryInfo=_suppressCautionaryInfo;
 
 @end
 

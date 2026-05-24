@@ -5,6 +5,29 @@
 //
 
 @protocol PLMomentGenerationDataManagement
+- (id);
+- (id)P;
+- (id)idationEnabled;
+- (id)ccessSessionDelegate>";
+- (id)%d;
+- (id)tabase"20;
+- (id)FL;
+- (id)F
+;
+- (id)'3-'
+;
+- (id),'F
+;
+- (id)a;
+- (BOOL)u;
+- (id)0;
+- (in)?;
+- (id);
+- (id)inactiveLength;
+- (_Complex)ry = %@ key = %@ value = %@ withFormatter = %hd;
+- (id)ICE;
+- (id)_zkwFTTrialData;
+- (id)sharesheet_v2_model_suggestions;
 - (id)UÐ!AùÑÇ1Â0@ù
 × ;
 - (id)
@@ -16,6 +39,6 @@
 - (id)0@ù
 × ;
 - (id)à(ìð);
-- (id)ributes;
+- (id)CharacterRecognitionAttributes;
 @end
 

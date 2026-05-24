@@ -6,28 +6,24 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceGenerateTopUpTokenRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    long long _tokenType;
 }
 
 - (long long);
 - (void);
 - (id);
 - (id)rce UI provider:Failed to create new channel handle /* Error: Ran out of types for this method. */;
-- (void)BY_ERROR_ACTION_TRY_AGAIN;
+- (void)NEARBY_ERROR_ACTION_TRY_AGAIN;
 - (void);
 - (id),ÓÀÿ;
 - (void)ºÿ¬jt¡;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) long long tokenType; // @synthesize tokenType=_tokenType;
 
 @end
 

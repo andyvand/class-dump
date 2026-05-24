@@ -6,8 +6,6 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider;
-
 @interface MREffectHangingPicturesBackgroundStars : MREffect
 {
     struct {
@@ -24,15 +22,10 @@
         float _field11;
         float _field12;
     } *mStars;
-    float *mStarsVertices;
-    float *mStarsTexCoords;
-    float *mStarsAttributes;
-    MRImageProvider *mBackgroundImageProvider;
-    MRImageProvider *mStarImageProvider;
 }
 
 + (void);
-- (void);
+- (void)newsEdgePuzzleArchive;
 - (_Bool);
 - (id);
 - (void);

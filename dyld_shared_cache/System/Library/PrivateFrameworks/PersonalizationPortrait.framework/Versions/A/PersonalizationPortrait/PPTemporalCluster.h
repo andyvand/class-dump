@@ -4,52 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, PPEvent;
+@class NSDate;
 
 @interface PPTemporalCluster
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    double _score;
-    PPEvent *_event;
-    NSArray *_topics;
-    NSArray *_entities;
-    NSArray *_locations;
-    NSArray *_contacts;
-    NSArray *_contactHandles;
-    NSArray *_mediaItems;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)decrementNonPurgeableCount;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)isTextTranscriptionInMathAlphabet: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)\;
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)H;
 - (id)locations.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contactHandles; // @synthesize contactHandles=_contactHandles;
-@property(readonly, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(readonly, nonatomic) PPEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) NSArray *mediaItems; // @synthesize mediaItems=_mediaItems;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSArray *topics; // @synthesize topics=_topics;
 
 @end
 

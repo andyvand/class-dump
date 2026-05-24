@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineFeedEmbeddedSupplementaryRenderer
 {
     id groupTitleViewRenderer;
-    id sectionFooterViewRenderer;
-    id transition;
 }
 
 @end

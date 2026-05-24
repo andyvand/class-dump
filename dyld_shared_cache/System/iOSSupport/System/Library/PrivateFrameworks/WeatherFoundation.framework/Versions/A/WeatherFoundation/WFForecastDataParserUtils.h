@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)<OS_dispatch_group>";
 
 @end
 

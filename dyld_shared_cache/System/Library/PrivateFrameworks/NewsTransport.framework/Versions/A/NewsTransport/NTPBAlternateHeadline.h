@@ -7,18 +7,16 @@
 @interface NTPBAlternateHeadline
 {
     int _articleHeadlineTreatmentId;
-    int _articleHeadlineTreatmentState;
-    CDStruct_762d0caf _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
+- (void)_updateTransitionsHelperAfterSublayouts;
+- (void)_updateTransitionEffectSprites;
+- (void)_updateFirstTimeExperienceReadinessLogging;
+- (void)_updateFinalRequestedEDRHeadroomFactorIfNeeded;
+- (_Bool)_setPreheatInfo:forQualityClassIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_setPlayheadStyle:animate: /* Error: Ran out of types for this method. */;
+- (int)_requestValidationForComposeRecipientsAtIndexes: /* Error: Ran out of types for this method. */;
+- (int)_requestTitlesInfoWithResultHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -29,9 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int articleHeadlineTreatmentId; // @synthesize articleHeadlineTreatmentId=_articleHeadlineTreatmentId;
-@property(nonatomic) int articleHeadlineTreatmentState; // @synthesize articleHeadlineTreatmentState=_articleHeadlineTreatmentState;
-@property(nonatomic) _Bool hasArticleHeadlineTreatmentId;
 @property(nonatomic) _Bool hasArticleHeadlineTreatmentState;
 
 @end

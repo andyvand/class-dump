@@ -7,9 +7,6 @@
 @interface PXMagazineRectArray
 {
     struct PXMagazineRect *_rects;
-    unsigned long long _currentIndex;
-    unsigned long long _size;
-    double _score;
 }
 
 - (unsigned long long);
@@ -19,14 +16,13 @@
 - (void);
 - (id)(Ð!øCùñ;ð1Â0@ù
 × ;
-- (id)ingScene;
+- (id)playbackQueue_isLoadingScene;
 - (double)¨;
 - (unsigned long long)init];
-- (void)tonAccessibilityLabelClose;
+- (void)InteractiveMemoryButtonAccessibilityLabelClose;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

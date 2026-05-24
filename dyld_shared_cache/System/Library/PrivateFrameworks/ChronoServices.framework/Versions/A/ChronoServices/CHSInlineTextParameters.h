@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSColor, CHSFontSpecification, NSString;
+@class CHSFontSpecification;
 
 @interface CHSInlineTextParameters
 {
     _Bool _showsDateAlongsideText;
-    NSString *_dateFormat;
-    CHSFontSpecification *_fontSpecification;
-    BSColor *_foregroundColor;
-    BSColor *_foregroundDateColor;
-    _Bool _allowsNonSystemForegroundColors;
-    unsigned long long _horizontalAlignment;
-    _Bool _ignoresRTL;
-    _Bool _forceUppercase;
-    unsigned long long _graphicAlignment;
-    unsigned long long _symbolScale;
-    struct CGSize _graphicMaxSize;
 }
 
-+ (_Bool);
++ (_Bool)setCacheViewController: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -30,12 +19,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Kc(wn?;
 - (void);
 - (struct CGSize);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
 - (id);
@@ -59,25 +48,7 @@
 - (id)ðü;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsNonSystemForegroundColors; // @synthesize allowsNonSystemForegroundColors=_allowsNonSystemForegroundColors;
-@property(copy, nonatomic) NSString *dateFormat; // @synthesize dateFormat=_dateFormat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CHSFontSpecification *fontSpecification; // @synthesize fontSpecification=_fontSpecification;
-@property(nonatomic) _Bool forceUppercase; // @synthesize forceUppercase=_forceUppercase;
-@property(copy, nonatomic) BSColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(copy, nonatomic) BSColor *foregroundDateColor; // @synthesize foregroundDateColor=_foregroundDateColor;
-@property(nonatomic) unsigned long long graphicAlignment; // @synthesize graphicAlignment=_graphicAlignment;
-@property(nonatomic) struct CGSize graphicMaxSize; // @synthesize graphicMaxSize=_graphicMaxSize;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long horizontalAlignment; // @synthesize horizontalAlignment=_horizontalAlignment;
-@property(nonatomic) _Bool ignoresRTL; // @synthesize ignoresRTL=_ignoresRTL;
-@property(nonatomic) _Bool showsDateAlongsideText; // @synthesize showsDateAlongsideText=_showsDateAlongsideText;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long symbolScale; // @synthesize symbolScale=_symbolScale;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol MKLookAroundViewDelegate
+- (void);
+
+@optional
+- (void);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKStoreClient, NSDictionary, NSString;
+@class CKStoreClient;
 
 @interface CKPurchase
 {
     CKStoreClient *_storeClient;
-    NSString *_forcedUsername;
-    NSString *_bagURLKey;
-    NSDictionary *_buyParameters;
 }
 
 + (_Bool);
@@ -20,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *bagURLKey; // @synthesize bagURLKey=_bagURLKey;
-@property(readonly) NSDictionary *buyParameters; // @synthesize buyParameters=_buyParameters;
-@property(copy) NSString *forcedUsername; // @synthesize forcedUsername=_forcedUsername;
 @property(readonly) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
 
 @end

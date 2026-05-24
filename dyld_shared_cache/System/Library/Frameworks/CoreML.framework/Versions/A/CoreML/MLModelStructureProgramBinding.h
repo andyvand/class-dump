@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelStructureProgramValue, NSString;
+@class NSString;
 
 @interface MLModelStructureProgramBinding
 {
     NSString *_name;
-    MLModelStructureProgramValue *_value;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)ø¤C;
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) MLModelStructureProgramValue *value; // @synthesize value=_value;
 
 @end
 

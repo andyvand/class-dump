@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_group;
-
 @interface AKCoordinatedDataBlock
 {
     CDUnknownBlockType _block;
-    CDUnknownBlockType _completionHandler;
-    _Bool _started;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_group> *_group;
 }
 
 + (id);
@@ -21,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)hÙ';
 
 @end

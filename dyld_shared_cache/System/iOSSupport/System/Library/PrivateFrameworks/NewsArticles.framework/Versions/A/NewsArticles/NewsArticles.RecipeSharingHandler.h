@@ -7,8 +7,6 @@
 @interface NewsArticles.RecipeSharingHandler
 {
     id commandCenter;
-    id recipeCache;
-    id tracker;
 }
 
 @end

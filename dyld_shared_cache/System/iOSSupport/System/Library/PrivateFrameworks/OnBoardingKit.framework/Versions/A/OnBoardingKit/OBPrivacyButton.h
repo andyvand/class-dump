@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     _Bool _underlineLinks;
 }
 
-+ (id);
++ (id)32;
 - (_Bool);
 - (void);
 - (void);

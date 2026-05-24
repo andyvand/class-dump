@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAtomView, UIView;
+@class UIView;
 
 @interface CNModernAtomBackgroundView
 {
     UIView *_selectedView;
-    unsigned long long _selectionStyle;
-    UIView *_separatorView;
-    int _separatorStyle;
-    _Bool _selected;
-    double _scalingFactor;
-    CNAtomView *_hostAtomView;
 }
 
 - (id);
@@ -42,11 +36,7 @@
 - (int)ËÏ£;
 
 // Remaining properties
-@property(nonatomic) __weak CNAtomView *hostAtomView; // @synthesize hostAtomView=_hostAtomView;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
 @property(readonly, nonatomic) UIView *selectedView; // @synthesize selectedView=_selectedView;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PDFPage;
+@class PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFHighlightDetectedFormFieldsEffectLayer
 {
     PDFPage *_page;
-    long long _displayBox;
-    struct CGRect _cropBox;
-    NSMutableArray *_addedSublayers;
 }
 
 - (void);

@@ -6,72 +6,57 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, MLParameterContainer, MLUpdateProgressHandlers, NSArray, NSDictionary, NSObject, NSOrderedSet, NSString;
-@protocol MLNearestNeighborsIndex, OS_dispatch_queue;
+@class MLUpdateProgressHandlers;
 
 @interface MLKNearestNeighborsClassifier : MLModel
 {
     _Bool _continueWithUpdate;
-    MLUpdateProgressHandlers *_progressHandlers;
-    NSObject<OS_dispatch_queue> *_progressHandlersDispatchQueue;
-    NSDictionary *_updateParameters;
-    MLParameterContainer *_parameterContainer;
-    unsigned long long _numberOfDimensions;
-    long long _indexType;
-    id <MLNearestNeighborsIndex> _index;
-    long long _labelType;
-    NSArray *_labelsForDataPoints;
-    NSOrderedSet *_labelsSet;
-    NSObject *_defaultLabel;
-    long long _weightingScheme;
-    NSString *_nearestLabelsFeatureName;
-    NSString *_nearestDistancesFeatureName;
 }
 
++ (id)ationSelectorInternal,stopSession,this:(void *)arg1 %{private}p,completed;
 + (id);
++ (_Bool)3;
 + (id);
-+ (_Bool);
-+ (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)l;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)$t;
+- (id)X;
 - (vector_7f81098b);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void)@	;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)ultiSegment;
+- (void)_experimentalMLE5BNNSGraphBackendUsageMultiSegment;
 - (_Bool)zR;
 - (_Bool)ÿÿÿÿ;
 - (long long)D(ð(	Ø((l(	P((¦(@¦(	$¨(©(ðª(	¼°(L¶(;
@@ -83,35 +68,7 @@
 - (long long)¹;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(nonatomic) _Bool continueWithUpdate; // @synthesize continueWithUpdate=_continueWithUpdate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSObject *defaultLabel; // @synthesize defaultLabel=_defaultLabel;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <MLNearestNeighborsIndex> index; // @synthesize index=_index;
-@property(nonatomic) long long indexType; // @synthesize indexType=_indexType;
-@property(nonatomic) long long labelType; // @synthesize labelType=_labelType;
-@property(retain, nonatomic) NSArray *labelsForDataPoints; // @synthesize labelsForDataPoints=_labelsForDataPoints;
-@property(retain, nonatomic) NSOrderedSet *labelsSet; // @synthesize labelsSet=_labelsSet;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(retain, nonatomic) NSString *nearestDistancesFeatureName; // @synthesize nearestDistancesFeatureName=_nearestDistancesFeatureName;
-@property(retain, nonatomic) NSString *nearestLabelsFeatureName; // @synthesize nearestLabelsFeatureName=_nearestLabelsFeatureName;
-@property(nonatomic) unsigned long long numberOfDimensions; // @synthesize numberOfDimensions=_numberOfDimensions;
-@property(retain, nonatomic) MLParameterContainer *parameterContainer; // @synthesize parameterContainer=_parameterContainer;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
 @property(retain, nonatomic) MLUpdateProgressHandlers *progressHandlers; // @synthesize progressHandlers=_progressHandlers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressHandlersDispatchQueue; // @synthesize progressHandlersDispatchQueue=_progressHandlersDispatchQueue;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
-@property(retain, nonatomic) NSDictionary *updateParameters; // @synthesize updateParameters=_updateParameters;
-@property(nonatomic) long long weightingScheme; // @synthesize weightingScheme=_weightingScheme;
 
 @end
 

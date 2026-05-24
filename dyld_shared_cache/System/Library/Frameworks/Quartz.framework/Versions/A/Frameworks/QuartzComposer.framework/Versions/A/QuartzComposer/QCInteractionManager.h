@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, QCPatch, QCRenderingPatch;
-
 @interface QCInteractionManager
 {
     struct _QCContactInfo _contacts[64];
-    double _rotation;
-    double _rotationOffset;
-    double _scaleX;
-    double _scaleOffsetX;
-    double _scaleY;
-    double _scaleOffsetY;
-    struct CGPoint _translation;
-    struct CGPoint _translationOffset;
-    struct CGPoint _origin;
-    unsigned long long _activeContactCount;
-    unsigned long long _maxActiveContacts;
-    unsigned long long _flags;
-    unsigned long long _timestamp;
-    unsigned long long _previousTimestamp;
-    _Bool _updated;
-    _Bool _exposeScale;
-    _Bool _exposeRotation;
-    _Bool _allowNonUniformScaling;
-    struct _QCDod *_roi;
-    struct CGAffineTransform _transform;
-    QCRenderingPatch *_renderingPatch;
-    QCPatch *_parent;
-    void *_unused[6];
 }
 
 + (unsigned long long);
@@ -45,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
 - (id);
 - (_Bool);
@@ -66,31 +41,16 @@
 - (_Bool);
 - (void);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)zG;
 - (_Bool);
 - (double);
-- (struct CGAffineTransform);
-- (id);
-- (_Bool);
+- (struct CGAffineTransform)path.change.queue;
+- (id)token, artwork_source_type, artwork_type, entity_pid, entity_type) SELECT cloud_screenshot_token, 1, 2, item_pid, 0 FROM item_screenshot WHERE cloud_screenshot_token != '';
+- (_Bool);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly) unsigned long long activeContactCount; // @synthesize activeContactCount=_activeContactCount;
-@property(readonly) NSArray *activeContacts;
-@property _Bool allowNonUniformScaling; // @synthesize allowNonUniformScaling=_allowNonUniformScaling;
-@property _Bool exposeRotation; // @synthesize exposeRotation=_exposeRotation;
-@property _Bool exposeScale; // @synthesize exposeScale=_exposeScale;
-@property(readonly) struct CGPoint origin; // @synthesize origin=_origin;
-@property(readonly) double renderingDepth;
-@property(readonly) _Bool rotating;
-@property(readonly) double rotation; // @synthesize rotation=_rotation;
-@property(readonly) double scaleX; // @synthesize scaleX=_scaleX;
-@property(readonly) double scaleY; // @synthesize scaleY=_scaleY;
-@property(readonly) _Bool scaling;
-@property(readonly) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property(readonly) _Bool translating;
 @property(readonly) struct CGPoint translation; // @synthesize translation=_translation;
-@property(readonly) _Bool updated; // @synthesize updated=_updated;
 
 @end
 

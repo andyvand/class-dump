@@ -6,26 +6,11 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2PropertyLock, HAP2SerializedOperationQueue, HAPAccessoryPairingRequest, HAPSRPPairSetupSession, HMFActivity, NSArray, NSError, NSString;
-@protocol HAP2AccessoryServerEncoding, HAP2AccessoryServerPairingDriverDelegate, HAP2AccessoryServerSecureTransportFactory, HAP2AccessoryServerTransport, HAP2UnpairedAccessoryServer;
+@class HAP2PropertyLock;
 
 @interface HAP2AccessoryServerPairingDriver : HAP2LoggingObject
 {
     HAP2PropertyLock *_propertyLock;
-    unsigned long long _authMethod;
-    HAP2SerializedOperationQueue *_operationQueue;
-    HAPSRPPairSetupSession *_pairingSession;
-    id <HAP2AccessoryServerTransport> _transport;
-    id <HAP2AccessoryServerSecureTransportFactory> _secureTransportFactory;
-    id <HAP2AccessoryServerEncoding> _encoding;
-    id <HAP2AccessoryServerPairingDriverDelegate> _delegate;
-    HAPAccessoryPairingRequest *_pairingRequest;
-    id <HAP2UnpairedAccessoryServer> _accessoryServer;
-    unsigned long long _currentWorkItemIndex;
-    NSError *_cancelError;
-    unsigned long long _featureFlags;
-    NSArray *_workItems;
-    HMFActivity *_pairingActivity;
 }
 
 + (id);
@@ -36,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (unsigned long long);
@@ -44,49 +29,28 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)#;
+- (void)DPTokenRegistrationRequest";
+- (void)EEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id)NSt3__110__function6__funcIZN11cnframework12ActiveObjectIN5raven35RavenIntegrityEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_14MapVectorEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)queue:completionHandler: /* Error: Ran out of types for this method. */;
-- (unsigned long long)eHAPMetadataTuplesDictionary: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)requestResource:queue:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)generateHAPMetadataTuplesDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <HAP2UnpairedAccessoryServer> accessoryServer; // @synthesize accessoryServer=_accessoryServer;
 @property(readonly, nonatomic) unsigned long long authMethod; // @synthesize authMethod=_authMethod;
-@property(retain, nonatomic) NSError *cancelError; // @synthesize cancelError=_cancelError;
-@property(nonatomic) unsigned long long currentWorkItemIndex; // @synthesize currentWorkItemIndex=_currentWorkItemIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2AccessoryServerPairingDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HAP2AccessoryServerEncoding> encoding; // @synthesize encoding=_encoding;
-@property(readonly, nonatomic) unsigned long long featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAP2SerializedOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(nonatomic) __weak HMFActivity *pairingActivity; // @synthesize pairingActivity=_pairingActivity;
-@property(retain, nonatomic) HAPAccessoryPairingRequest *pairingRequest; // @synthesize pairingRequest=_pairingRequest;
-@property(retain, nonatomic) HAPSRPPairSetupSession *pairingSession; // @synthesize pairingSession=_pairingSession;
-@property(readonly, nonatomic) HAP2PropertyLock *propertyLock; // @synthesize propertyLock=_propertyLock;
-@property(readonly, nonatomic) id <HAP2AccessoryServerSecureTransportFactory> secureTransportFactory; // @synthesize secureTransportFactory=_secureTransportFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransport> transport; // @synthesize transport=_transport;
-@property(readonly, nonatomic) NSArray *workItems; // @synthesize workItems=_workItems;
 
 @end
 

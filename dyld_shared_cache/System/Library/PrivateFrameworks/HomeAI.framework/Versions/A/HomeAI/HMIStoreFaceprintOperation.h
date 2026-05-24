@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFaceprint;
 @protocol HMIHomePersonManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMIStoreFaceprintOperation
 {
     id <HMIHomePersonManagerDataSource> _dataSource;
-    HMIFaceprint *_faceprint;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) HMIFaceprint *faceprint; // @synthesize faceprint=_faceprint;
 
 @end
 

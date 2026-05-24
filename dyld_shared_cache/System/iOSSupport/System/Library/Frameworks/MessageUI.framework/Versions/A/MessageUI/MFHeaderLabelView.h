@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)setTimeExpressiveSendPlayed: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGPoint);
 - (void);

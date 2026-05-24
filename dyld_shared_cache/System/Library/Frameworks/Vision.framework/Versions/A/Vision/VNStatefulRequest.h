@@ -12,18 +12,16 @@
 {
 }
 
-+ (Class);
++ (Class)8@"NSFileProviderItemVersion"16@"NSData"24@"NSError"32;
 - (id);
 - (long long);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (_Bool);
 - (id)íôÿ¨íôÿÈîôÿðîôÿ¬õÿðôÿ0ðôÿHðôÿlðôÿÐðôÿôðôÿèñôÿ;
 
 // Remaining properties
-@property(readonly) CDStruct_1b6d18a9 frameAnalysisSpacing;
-@property(readonly) long long minimumLatencyFrameCount;
 @property(readonly) NSUUID *requestUUID;
 
 @end

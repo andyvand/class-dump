@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface CATSharingDevice
 {
     _Bool _paired;
-    NSDictionary *_context;
-    NSUUID *_identifier;
-    NSString *_modelIdentifier;
-    long long _RSSI;
-    unsigned long long _pairingState;
-    NSDate *_detectionTime;
 }
 
-+ (id);
++ (id)?;
 - (id);
-- (id);
+- (id)?;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_userRequestedOverviewResolution;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)localizedStringFromDate:dateStyle:timeStyle: /* Error: Ran out of types for this method. */;
 - (_Bool)@?0@"<CATCancelable>"8;
 
 // Remaining properties
-@property(readonly, nonatomic) long long RSSI; // @synthesize RSSI=_RSSI;
-@property(copy, nonatomic) NSDictionary *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSDate *detectionTime; // @synthesize detectionTime=_detectionTime;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly, nonatomic, getter=isPaired) _Bool paired; // @synthesize paired=_paired;
-@property(readonly, nonatomic) unsigned long long pairingState; // @synthesize pairingState=_pairingState;
 
 @end
 

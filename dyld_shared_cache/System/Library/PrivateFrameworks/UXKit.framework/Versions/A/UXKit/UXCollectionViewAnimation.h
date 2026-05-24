@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UXCollectionReusableView, UXCollectionViewLayoutAttributes;
+@class UXCollectionReusableView;
 
 @interface UXCollectionViewAnimation
 {
     UXCollectionReusableView *_view;
-    UXCollectionViewLayoutAttributes *_finalLayoutAttributes;
-    double _startFraction;
-    double _endFraction;
-    unsigned long long _viewType;
-    NSMutableArray *_completionHandlers;
-    NSMutableArray *_startupHandlers;
-    CDUnknownBlockType _animationBlock;
-    struct {
-        unsigned int animateFromCurrentPosition:1;
-        unsigned int deleteAterAnimation:1;
-        unsigned int rasterizeAfterAnimation:1;
-        unsigned int resetRasterizationAfterAnimation:1;
-    } _collectionViewAnimationFlags;
 }
 
 - (id);
@@ -37,21 +24,13 @@
 - (void);
 - (unsigned long long);
 - (double);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool animateFromCurrentPosition;
-@property(readonly, nonatomic) _Bool deleteAfterAnimation;
-@property(readonly, nonatomic) double endFraction; // @synthesize endFraction=_endFraction;
-@property(readonly, nonatomic) UXCollectionViewLayoutAttributes *finalLayoutAttributes; // @synthesize finalLayoutAttributes=_finalLayoutAttributes;
-@property(nonatomic) _Bool rasterizeAfterAnimation;
-@property(nonatomic) _Bool resetRasterizationAfterAnimation;
-@property(readonly, nonatomic) double startFraction; // @synthesize startFraction=_startFraction;
 @property(readonly, nonatomic) UXCollectionReusableView *view; // @synthesize view=_view;
-@property(readonly, nonatomic) unsigned long long viewType; // @synthesize viewType=_viewType;
 
 @end
 

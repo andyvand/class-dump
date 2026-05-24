@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_fileInfo;
 }
 
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (_Bool);
@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)N6quasar9tennessee17IterableCollationINSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEhE14ComparatorImplILb1EEE;
 - (id);
 - (void);
 - (void);

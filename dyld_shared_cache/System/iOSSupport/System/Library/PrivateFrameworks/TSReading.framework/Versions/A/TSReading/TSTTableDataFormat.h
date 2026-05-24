@@ -11,11 +11,11 @@
     CDStruct_95e644ef mFormat;
 }
 
-- (id);
-- (void);
+- (id)Warmable;
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ervice status monitor.;
 
 @end
 

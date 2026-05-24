@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXChartDescriptor, NSArray, NSAttributedString, NSObject, NSString, UIBezierPath, UIResponder;
-@protocol SwiftUI.PlatformAccessibilityElementProtocol;
-
 @interface SwiftUI.AccessibilityNode
 {
     id id;
-    id version;
-    id children;
-    id bridgedChild;
-    id parent;
-    id viewRendererHost;
-    id source;
-    id isFromDisplayList;
-    id environment;
-    id attachmentsStorage;
-    id cachedCombinedAttachment;
-    id platformElementPropertiesDirty;
-    id platformRotorStorage;
-    id cachedIsPlaceholderOrIgnored;
-    id relationshipScope;
 }
 
 - (id);
@@ -42,7 +25,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -68,15 +51,15 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (void)didEnterBackground;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Xc;
+- (void)enuGroupableP;
+- (void)ShySSG;
+- (void)GG;
+- (void)ctoryTypeP;
+- (void)stableP;
 - (void);
 - (id);
 - (_Bool);
@@ -124,7 +107,7 @@
 - (struct CGPoint);
 - (double);
 - (double);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (_Bool);
@@ -135,7 +118,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -143,7 +126,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)shouldFetchItemsWithError: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)rùÿ;
@@ -153,41 +136,7 @@
 - (id)Ô;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _accessibilityExplicitlyNonInteractable;
-@property(nonatomic, readonly) NSArray *_accessibilityNodeChildrenUnsorted;
-@property(nonatomic, readonly) NSObject<SwiftUI.PlatformAccessibilityElementProtocol> *_accessibilityNodeRepresentedElement;
-@property(nonatomic, readonly) NSArray *_accessibilityUserDefinedLinkedUIElements;
-@property(nonatomic) struct CGPoint accessibilityActivationPoint;
-@property(nonatomic, retain) NSAttributedString *accessibilityAttributedHint;
-@property(nonatomic, retain) NSAttributedString *accessibilityAttributedLabel;
-@property(nonatomic, copy) NSArray *accessibilityAttributedUserInputLabels;
-@property(nonatomic, retain) NSAttributedString *accessibilityAttributedValue;
-@property(nonatomic, retain) AXChartDescriptor *accessibilityChartDescriptor;
-@property(nonatomic) long long accessibilityContainerType;
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
-@property(nonatomic, copy) NSArray *accessibilityCustomRotors;
-@property(nonatomic) unsigned long long accessibilityDirectTouchOptions;
-@property(nonatomic, copy) NSArray *accessibilityDragSourceDescriptors;
-@property(nonatomic, copy) NSArray *accessibilityDropPointDescriptors;
-@property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic) _Bool accessibilityElementsHidden;
-@property(nonatomic) struct CGRect accessibilityFrame;
-@property(nonatomic, copy) NSString *accessibilityHint;
-@property(nonatomic, copy) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityLanguage;
-@property(nonatomic) long long accessibilityNavigationStyle;
-@property(nonatomic, retain) UIBezierPath *accessibilityPath;
-@property(nonatomic) _Bool accessibilityRespondsToUserInteraction;
-@property(nonatomic, copy) NSString *accessibilityTextualContext;
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, copy) NSArray *accessibilityUserInputLabels;
-@property(nonatomic, copy) NSString *accessibilityValue;
-@property(nonatomic) _Bool accessibilityViewIsModal;
-@property(nonatomic, copy) NSArray *automationElements;
 @property(nonatomic) _Bool isAccessibilityElement;
-@property(nonatomic, readonly) UIResponder *nextResponder;
-@property(nonatomic) _Bool shouldGroupAccessibilityChildren;
 
 @end
 

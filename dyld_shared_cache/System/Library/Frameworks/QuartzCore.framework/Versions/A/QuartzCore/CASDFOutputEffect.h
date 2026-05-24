@@ -9,12 +9,11 @@
 @interface CASDFOutputEffect : CASDFEffect
 {
     double _minimum;
-    double _maximum;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)P;
 - (void);
 - (void);
 - (void);
@@ -23,7 +22,6 @@
 - (double)iøiüj4l8m¸m¨n¬o;
 
 // Remaining properties
-@property(nonatomic) double maximum; // @synthesize maximum=_maximum;
 @property(nonatomic) double minimum; // @synthesize minimum=_minimum;
 
 @end

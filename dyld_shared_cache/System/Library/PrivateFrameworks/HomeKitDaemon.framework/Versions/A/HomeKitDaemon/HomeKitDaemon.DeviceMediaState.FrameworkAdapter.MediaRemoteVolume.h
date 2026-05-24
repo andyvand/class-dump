@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.DeviceMediaState.FrameworkAdapter.MediaRemoteVolume
 {
     id updateStream;
-    id notificationTask;
-    id notificationCenter;
 }
 
 @end

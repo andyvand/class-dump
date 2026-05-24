@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCKRecordSchema, FCCKZoneSchema;
+@class FCCKZoneSchema;
 
 @interface FCCKRecordTypeMapping
 {
     FCCKZoneSchema *_fromZoneSchema;
-    FCCKZoneSchema *_toZoneSchema;
-    FCCKRecordSchema *_fromRecordSchema;
-    FCCKRecordSchema *_toRecordSchema;
 }
 
 - (id);
@@ -23,11 +20,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) FCCKRecordSchema *fromRecordSchema; // @synthesize fromRecordSchema=_fromRecordSchema;
 @property(readonly, nonatomic) FCCKZoneSchema *fromZoneSchema; // @synthesize fromZoneSchema=_fromZoneSchema;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) FCCKRecordSchema *toRecordSchema; // @synthesize toRecordSchema=_toRecordSchema;
-@property(readonly, nonatomic) FCCKZoneSchema *toZoneSchema; // @synthesize toZoneSchema=_toZoneSchema;
 
 @end
 

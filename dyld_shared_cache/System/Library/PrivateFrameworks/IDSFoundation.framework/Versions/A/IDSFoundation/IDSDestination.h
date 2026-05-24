@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSDestination
 {
 }
@@ -13,27 +11,18 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)kPCSSetupHSMContent;
+- (_Bool)destroyServerConnection;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (_Bool)%@ participant;
 - (id)nnected:linkID %d > %d; will pick link ID to reuse /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDevice) _Bool device;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic, getter=isGuest) _Bool guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

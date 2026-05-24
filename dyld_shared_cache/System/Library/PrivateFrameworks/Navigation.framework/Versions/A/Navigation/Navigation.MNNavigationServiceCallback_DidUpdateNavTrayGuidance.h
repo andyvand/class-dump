@@ -18,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)i;
 - (void);
-- (void)mpt:completion: /* Error: Ran out of types for this method. */;
+- (void)vibrateForPrompt:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) MNNavTrayGuidanceEvent *navTrayGuidanceEvent; // @synthesize navTrayGuidanceEvent;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

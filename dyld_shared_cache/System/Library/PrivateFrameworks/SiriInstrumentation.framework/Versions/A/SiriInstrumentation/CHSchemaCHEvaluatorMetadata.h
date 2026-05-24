@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CHSchemaCHEvaluatorMetadata : SISchemaInstrumentationMessage
 {
     NSString *_dynamicEvaluatorTaskName;
-    NSString *_promptVersion;
-    NSString *_promptIdentifier;
-    _Bool _hasDynamicEvaluatorTaskName;
-    _Bool _hasPromptVersion;
-    _Bool _hasPromptIdentifier;
 }
 
 - (void);
@@ -27,7 +22,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -38,20 +33,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)essionRecord";
-- (id)eryLocationCallEnded;
+- (id)ExecutorSiriSchemaExecutorStringQueryLocationCallEnded;
 - (id)`±;
 - (void)-è;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dynamicEvaluatorTaskName; // @synthesize dynamicEvaluatorTaskName=_dynamicEvaluatorTaskName;
-@property(nonatomic) _Bool hasDynamicEvaluatorTaskName; // @synthesize hasDynamicEvaluatorTaskName=_hasDynamicEvaluatorTaskName;
-@property(nonatomic) _Bool hasPromptIdentifier; // @synthesize hasPromptIdentifier=_hasPromptIdentifier;
-@property(nonatomic) _Bool hasPromptVersion; // @synthesize hasPromptVersion=_hasPromptVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *promptIdentifier; // @synthesize promptIdentifier=_promptIdentifier;
-@property(copy, nonatomic) NSString *promptVersion; // @synthesize promptVersion=_promptVersion;
 
 @end
 

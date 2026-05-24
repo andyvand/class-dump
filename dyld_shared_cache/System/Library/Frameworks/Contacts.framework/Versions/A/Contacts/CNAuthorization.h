@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 
 + (id)ð5;
 - (_Bool);
-- (void);
-- (long long);
+- (void)edirected:(long long)arg1;
+- (long long)ile waiting for initial participants to go on hold;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)yImageOfContacts:intoContact:availableKeyDescriptor: /* Error: Ran out of types for this method. */;
+- (void)unifyImageOfContacts:intoContact:availableKeyDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNAuthorizationContext *authorizationContext; // @synthesize authorizationContext=_authorizationContext;

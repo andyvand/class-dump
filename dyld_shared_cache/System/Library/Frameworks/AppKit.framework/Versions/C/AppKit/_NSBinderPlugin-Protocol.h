@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol _NSBinderPlugin
++ (NSArray *)stablish connection to CommCenter;
++ (_Bool)IMLaTlxS7ITtwfbRfPYWuA;
++ (NSArray *)suspendTaskWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)96GRvvjuBKkU4HzNsYcHPA;
+- (_Bool)addSecKeyProxy:(id)arg1;
 @end
 

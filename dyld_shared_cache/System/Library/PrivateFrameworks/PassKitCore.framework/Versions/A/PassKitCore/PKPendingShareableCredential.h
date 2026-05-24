@@ -11,22 +11,16 @@
 @interface PKPendingShareableCredential : PKPendingProvisioning
 {
     NSString *_sharingInstanceIdentifier;
-    NSString *_provisioningCredentialHash;
-    long long _source;
-    NSString *_credentialAuthorityIdentifier;
-    unsigned long long _securityOptions;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ԡV;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -41,19 +35,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)da;
 - (void);
 - (long long);
 - (void)ntCredential type.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *credentialAuthorityIdentifier; // @synthesize credentialAuthorityIdentifier=_credentialAuthorityIdentifier;
-@property(retain, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(retain, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain, nonatomic) NSString *provisioningCredentialHash; // @synthesize provisioningCredentialHash=_provisioningCredentialHash;
-@property(nonatomic) unsigned long long securityOptions; // @synthesize securityOptions=_securityOptions;
 @property(retain, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
-@property(nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

@@ -9,19 +9,17 @@
 @interface CKImageBackgroundColorUtility
 {
     UIColor *_backgroundColor;
-    UIImage *_image;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)A/AttributeGraph;
 - (id);
 - (id)ø;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end

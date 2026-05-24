@@ -6,19 +6,19 @@
 
 #import <AudioSession/AVAudioHardwareObject.h>
 
-@class AVAudioFormat, AVAudioHardwareDevice, NSArray;
+@class AVAudioHardwareDevice;
 
 @interface AVAudioHardwareStream : AVAudioHardwareObject
 {
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (void)NSURLSessionTaskDelegate;
+- (id)NEIKEv2NULLIdentifier;
+- (_Bool)NEIKEv2FQDNIdentifier;
+- (id)_TtC16NetworkExtension49NEHotspotAuthenticationProviderHostExportedObject;
+- (id)NEHotspotAuthenticationProviderHost;
+- (unsigned long long)_TtP16NetworkExtension42NEHotspotEvaluationProviderHostXPCProtocol_;
+- (id)_TtC16NetworkExtensionP33_8A6EAEC7B0CD28E3C1D36D746A66647F38NEIKEv2KeyExchangeHandlerCryptoKitX448;
 - (id);
 - (id);
 - (long long);
@@ -26,13 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableFormats;
-@property(readonly, nonatomic) unsigned int direction;
-@property(readonly, nonatomic) AVAudioFormat *format;
-@property(readonly, nonatomic) long long latency;
 @property(readonly, nonatomic) __weak AVAudioHardwareDevice *owningDevice;
-@property(readonly, nonatomic) NSArray *ports;
-@property(readonly, nonatomic) unsigned long long startingChannel;
 
 @end
 

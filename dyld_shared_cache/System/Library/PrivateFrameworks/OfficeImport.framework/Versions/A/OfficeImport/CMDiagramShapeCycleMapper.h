@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CMDiagramShapeCycleMapper : CMDiagramShapeMapper
 {
     float mScale;
-    _Bool mCircularArrows;
-    int mDiagramType;
-    int mArrowShapeType;
 }
 
 - (struct CGSize);

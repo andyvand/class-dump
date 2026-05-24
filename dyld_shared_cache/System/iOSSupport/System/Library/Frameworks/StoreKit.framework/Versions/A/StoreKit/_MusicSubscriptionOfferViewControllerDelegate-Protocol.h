@@ -5,5 +5,6 @@
 //
 
 @protocol _MusicSubscriptionOfferViewControllerDelegate
+- (void)must provide cacheKey, or intent ;
 @end
 

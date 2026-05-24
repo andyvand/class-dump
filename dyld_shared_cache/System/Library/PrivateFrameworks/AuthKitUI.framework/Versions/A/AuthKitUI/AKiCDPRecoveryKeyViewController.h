@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IASFakeLinkButton, NSLayoutConstraint, NSString, NSTextField, NSView, OBTemplateView;
-@protocol AKiCDPRecoveryKeyDelegate, MBSecondPartyHost;
+@protocol AKiCDPRecoveryKeyDelegate;
 
 @interface AKiCDPRecoveryKeyViewController
 {
     _Bool _showErrorString;
-    _Bool _recoveryKeyTextFieldEnabled;
-    _Bool _noRecoveryKeyButtonVisible;
-    _Bool _noRecoveryKeyButtonEnabled;
-    NSTextField *_recoveryKeyTextField;
-    NSView *_progressView;
-    NSString *_recoveryKey;
-    id <AKiCDPRecoveryKeyDelegate> _delegate;
-    id <MBSecondPartyHost> _assistant;
-    OBTemplateView *_templateView;
-    NSLayoutConstraint *_titleLabelCenterXConstraint;
-    NSLayoutConstraint *_errorLabelCenterXConstraint;
-    NSLayoutConstraint *_escapeButtonCenterXButton;
-    NSLayoutConstraint *_progressViewCenterXConstraint;
-    NSLayoutConstraint *_recoveryKeyTextFieldCenterXConstraint;
-    NSTextField *_titleTextField;
-    NSTextField *_errorTextField;
-    IASFakeLinkButton *_escapeButton;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -41,58 +24,40 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SPPreferenceManagerXPCClient;
+- (void)SPPreferenceManagerXPCService;
+- (void)%;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)lP;
 - (id);
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (id)j;
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void)%@ (initialization was %f seconds ago);
+- (id);
+- (id);
+- (void);
+- (id));
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)zf@�A;
 - (void)? %@ - %@;
 
 // Remaining properties
-@property(nonatomic) id <MBSecondPartyHost> assistant; // @synthesize assistant=_assistant;
 @property(nonatomic) id <AKiCDPRecoveryKeyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSLayoutConstraint *errorLabelCenterXConstraint; // @synthesize errorLabelCenterXConstraint=_errorLabelCenterXConstraint;
-@property(nonatomic) __weak NSTextField *errorTextField; // @synthesize errorTextField=_errorTextField;
-@property(nonatomic) __weak IASFakeLinkButton *escapeButton; // @synthesize escapeButton=_escapeButton;
-@property(nonatomic) __weak NSLayoutConstraint *escapeButtonCenterXButton; // @synthesize escapeButtonCenterXButton=_escapeButtonCenterXButton;
-@property(nonatomic) _Bool noRecoveryKeyButtonEnabled; // @synthesize noRecoveryKeyButtonEnabled=_noRecoveryKeyButtonEnabled;
-@property(nonatomic) _Bool noRecoveryKeyButtonVisible; // @synthesize noRecoveryKeyButtonVisible=_noRecoveryKeyButtonVisible;
-@property(retain, nonatomic) NSView *progressView; // @synthesize progressView=_progressView;
-@property(nonatomic) __weak NSLayoutConstraint *progressViewCenterXConstraint; // @synthesize progressViewCenterXConstraint=_progressViewCenterXConstraint;
-@property(retain, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(retain, nonatomic) NSTextField *recoveryKeyTextField; // @synthesize recoveryKeyTextField=_recoveryKeyTextField;
-@property(nonatomic) __weak NSLayoutConstraint *recoveryKeyTextFieldCenterXConstraint; // @synthesize recoveryKeyTextFieldCenterXConstraint=_recoveryKeyTextFieldCenterXConstraint;
-@property(nonatomic) _Bool recoveryKeyTextFieldEnabled; // @synthesize recoveryKeyTextFieldEnabled=_recoveryKeyTextFieldEnabled;
-@property(nonatomic) _Bool showErrorString; // @synthesize showErrorString=_showErrorString;
-@property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
-@property(nonatomic) __weak NSLayoutConstraint *titleLabelCenterXConstraint; // @synthesize titleLabelCenterXConstraint=_titleLabelCenterXConstraint;
-@property(nonatomic) __weak NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end
 

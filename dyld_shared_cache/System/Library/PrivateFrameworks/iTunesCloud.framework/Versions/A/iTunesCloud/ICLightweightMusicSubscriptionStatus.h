@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @interface ICLightweightMusicSubscriptionStatus
 {
     long long _statusType;
-    long long _reasonType;
-    NSArray *_eligibleOffers;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
@@ -27,15 +22,11 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (void)ackControlSettings;
+- (void)_ICLLPlaybackControlSettings;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long capabilities;
-@property(readonly, copy, nonatomic) NSArray *eligibleOffers; // @synthesize eligibleOffers=_eligibleOffers;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) long long reasonType; // @synthesize reasonType=_reasonType;
-@property(readonly, nonatomic) long long statusType; // @synthesize statusType=_statusType;
 
 @end
 

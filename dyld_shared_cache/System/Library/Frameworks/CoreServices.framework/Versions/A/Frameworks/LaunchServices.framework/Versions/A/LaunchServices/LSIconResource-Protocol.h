@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString, NSURL;
 
 @protocol LSIconResource
+- (NSString *);
 
 // Remaining properties
-@property(readonly, getter=isDocumentBadge) _Bool documentBadge;
-@property(readonly) NSData *resourceData;
-@property(readonly) NSString *resourceFileName;
-@property(readonly) NSString *resourceName;
-@property(readonly) NSString *resourceRelativePath;
 @property(readonly) NSURL *resourceURL;
-@property(readonly) NSString *type;
 @end
 

@@ -12,13 +12,13 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)9;
 + (_Bool);
 + (void);
 + (id)eipt for read receipt for %s, context not cached;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)effectivePositionType;
 - (id);
 - (void);
 - (id);
@@ -31,7 +31,7 @@
 - (_Bool);
 - (_Bool);
 - (struct _IMDAttachmentRecordStruct *);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -41,30 +41,30 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)@;
+- (_Bool)+;
+- (void);
+- (id);
+- (void);
+- (void)!;
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (_Bool)R5;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -72,14 +72,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)mg4 data:%d /* Error: Ran out of types for this method. */;
+- (id)b;
 - (id);
 - (void)!Cù¯°1Â0@ù
 × ;
 - (_Bool)Â0@ù
 × ;
-- (id)oCheck:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (id)syncAttachmentMetadataFirstSyncWithActivity:(id)arg1 deviceConditionsToCheck:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool){?=BB}20{?=BB}22@"NSString"24;
 - (id);
 - (void *);
 - (_Bool)´;

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)TypeDebugString;
++ (id)_presentationTypeDebugString;
 - (id);
 - (_Bool);
 - (struct UIEdgeInsets)ÿÿAÔ;

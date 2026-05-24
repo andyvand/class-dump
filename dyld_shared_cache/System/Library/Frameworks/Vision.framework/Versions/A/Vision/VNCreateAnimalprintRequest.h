@@ -6,16 +6,16 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNCreateAnimalprintRequest : VNImageBasedRequest
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
-+ (const CDStruct_3a02d5a8 *);
-+ (id);
++ (const CDStruct_3a02d5a8 *);
++ (id)";
 + (const CDStruct_d47b9615 *);
 + (_Bool);
 + (id);
@@ -25,15 +25,7 @@
 - (_Bool)ÿ<±@Ì;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputDetectedObjectObservations;
 @property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
 
 @end
 

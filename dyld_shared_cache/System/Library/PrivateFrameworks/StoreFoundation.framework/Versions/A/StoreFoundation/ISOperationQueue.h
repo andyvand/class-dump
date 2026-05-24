@@ -11,14 +11,14 @@
     NSOperationQueue *_queue;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)rl;
++ (id)validateEcommercePaymentRequest:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 

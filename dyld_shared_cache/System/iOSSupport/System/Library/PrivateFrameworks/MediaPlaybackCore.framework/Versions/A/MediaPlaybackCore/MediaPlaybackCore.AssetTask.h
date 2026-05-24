@@ -7,12 +7,6 @@
 @interface MediaPlaybackCore.AssetTask
 {
     id contentItemID;
-    id queueItem;
-    id dataSource;
-    id reporter;
-    id completion;
-    id state;
-    id task;
 }
 
 - (_Bool)ager",N,R;

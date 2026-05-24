@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, EDPersistenceDatabase, EDPersistenceHookRegistry, EFLazyCache, EMBlockedSenderManager, NSObject, NSString, _EDSentToFilter;
-@protocol OS_dispatch_queue;
+@class EDPersistenceDatabase;
 
 @interface EDSenderPersistence
 {
     struct os_unfair_lock_s _contactStoreLock;
-    EDPersistenceDatabase *_database;
-    EMBlockedSenderManager *_blockedSenderManager;
-    EDPersistenceHookRegistry *_hookRegistry;
-    CNContactStore *_contactStore;
-    EFLazyCache *_emailAddressToBucketCache;
-    EFLazyCache *_databaseIDToEmailAddressCache;
-    _EDSentToFilter *_sentToAddressesFilter;
-    NSObject<OS_dispatch_queue> *_sentToAddressesQueue;
-    NSObject<OS_dispatch_queue> *_processingQueue;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)Tz	;
 + (id);
 + (id);
 + (id);
@@ -34,37 +24,37 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)editableRecordsListRenderingScope;
+- (id)setOuterCircle:(id)arg1;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)zoneRegistrations;
+- (_Bool)CRKDictionaryDecodable;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@32{optional<double>=(?=cd)B}40{optional<siri::ontology::UsoIdentifier::NluComponent>=(?=ci)B}56{optional<unsigned int>=(?=cI)B}64 /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)common_TemperatureUnit_BeatPerMinute;
+- (id)appleNotebook_NotebookAttribute_NotebookContentEntityMessage;
 - (void);
-- (id);
+- (id)UsoTaskBuilder_checkExistence_common_Compass;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -78,11 +68,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%s.
+;
+- (void)aRemoteNowPlayingInfoPlaybackRate(void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -98,22 +89,7 @@
 - (id)ð;
 
 // Remaining properties
-@property(readonly, nonatomic) EMBlockedSenderManager *blockedSenderManager; // @synthesize blockedSenderManager=_blockedSenderManager;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) EFLazyCache *databaseIDToEmailAddressCache; // @synthesize databaseIDToEmailAddressCache=_databaseIDToEmailAddressCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) EFLazyCache *emailAddressToBucketCache; // @synthesize emailAddressToBucketCache=_emailAddressToBucketCache;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(readonly, nonatomic) _EDSentToFilter *sentToAddressesFilter; // @synthesize sentToAddressesFilter=_sentToAddressesFilter;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sentToAddressesQueue; // @synthesize sentToAddressesQueue=_sentToAddressesQueue;
-@property(readonly) Class superclass;
 
 @end
 

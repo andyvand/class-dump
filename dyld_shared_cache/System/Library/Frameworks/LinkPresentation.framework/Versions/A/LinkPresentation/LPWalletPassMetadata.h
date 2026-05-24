@@ -6,18 +6,15 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface LPWalletPassMetadata : LPSpecializationMetadata
 {
     NSString *_name;
-    long long _style;
-    NSDate *_eventDate;
-    NSDate *_expirationDate;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -27,32 +24,22 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id)articipant;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)tContext - Stored context fetch handlers [%lu];
+- (id)mpletion with sessionInfo [%{public}@];
 - (void);
-- (id);
+- (id)S;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *eventDate; // @synthesize eventDate=_eventDate;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

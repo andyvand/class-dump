@@ -9,12 +9,12 @@
     long long _reason;
 }
 
-+ (_Bool);
++ (_Bool)of each time range must be greater than or equal to the end time of the previous time range;
 - (long long);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)objectForKey:(id)arg1 contextUUID:connection:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

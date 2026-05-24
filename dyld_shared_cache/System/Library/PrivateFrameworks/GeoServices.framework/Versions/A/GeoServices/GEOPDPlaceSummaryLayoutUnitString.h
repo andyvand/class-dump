@@ -4,43 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDPlaceSummaryLayoutUnitString
 {
     PBDataReader *_reader;
-    NSMutableArray *_formats;
-    NSMutableArray *_styleAttributes;
-    NSString *_symbolColor;
-    NSString *_symbolName;
-    NSString *_textColor;
-    NSString *_value;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _serverOverrideIdentifier;
-    _Bool _supportMultiLineWrapping;
-    struct {
-        unsigned int has_serverOverrideIdentifier:1;
-        unsigned int has_supportMultiLineWrapping:1;
-        unsigned int read_formats:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int read_symbolColor:1;
-        unsigned int read_symbolName:1;
-        unsigned int read_textColor:1;
-        unsigned int read_value:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)rossLanguagePhonetics:(id)arg1;
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
++ (_Bool)setIncludeCrossLanguagePhonetics:(id)arg1;
+- (_Bool),R;
+- (unsigned long long)CNCDPersistenceBackend;
+- (id)ABCDContactIndex;
+- (void)to copy:(_Bool)arg1 %@ -> %@;
+- (void)e orphan properties;
 - (void);
 - (unsigned int);
 - (_Bool);
@@ -61,14 +39,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)_requestIsUsingHFPWithRecordRoute:playbackRoute: /* Error: Ran out of types for this method. */;
+- (void)ssRequest is deallocated;
+- (void)RASE_ID}&triggerScore={TRIGGER_SCORE};
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)AL!a
+;
+- (_Bool)MKPlaceCardHeaderViewControllerDelegate;
 - (void);
 - (id);
 - (_Bool);
@@ -77,30 +56,17 @@
 - (void);
 - (id)ulPeakThroughput"b1"has_wifiBand"b1"has_wifiCca"b1"has_wifiChannelWidth"b1"has_wifiChannel"b1"has_wifiEstimatedBW"b1"has_wifiPhyMode"b1"has_wifiQbssLoad"b1"has_wifiRxPhyRate"b1"has_wifiRxRetry"b1"has_wifiStationCount"b1"has_wifiTxPER"b1"has_wifiTxPhyRate"b1"has_wrmAudioErasure"b1"has_wrmVideoErasure"b1"has_cellIsLimitedService"b1"has_cellIsNoService"b1"has_cellIsRoaming"b1"has_cellNpnStatus"b1"has_isCallFailed"b1"has_isEmergency"b1"has_lowInternetDL"b1"has_lowInternetUL"b1"has_wifiCaptiveNetworks"b1"has_wrmAlertedMode"b1"has_wrmIsPCDetected"b1"has_wrmIsStallDetected"b1"read_callID"b1"read_cellGCI"b1"read_cellHomePLMN2"b1"read_cellHomePLMN"b1"read_cellRatType"b1"read_cellServiceProvider2"b1"read_cellServiceProvider"b1"read_ftIRATRecommendationReason"b1"read_ftIRATRecommendation"b1"read_location"b1"wrote_anyField"b1};
 - (id)_pickupDropoffType"b1"has_routeLineArtworkIndex"b1"read_unknownFields"b1"read_clusteredRouteLineArtworkIndexs"b1"read_arrivalTime"b1"read_departureTime"b1"read_vehicleNumber"b1"wrote_anyField"b1};
-- (id);
-- (id)UsageURLLegacy;
+- (id)setHasRerouteStatus: /* Error: Ran out of types for this method. */;
+- (id)_logMessageUsageURLLegacy;
 - (id)2	¼4d69;
-- (id)nHadShareAction;
-- (id)n_directed_search_result;
+- (id)lookaroundSessionHadShareAction;
+- (id)location_directed_search_result;
 - (void)T¦ðE@;
 - (id);
 - (void)lÈþ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *formats;
-@property(nonatomic) _Bool hasServerOverrideIdentifier;
-@property(nonatomic) _Bool hasSupportMultiLineWrapping;
-@property(readonly, nonatomic) _Bool hasSymbolColor;
-@property(readonly, nonatomic) _Bool hasSymbolName;
-@property(readonly, nonatomic) _Bool hasTextColor;
 @property(readonly, nonatomic) _Bool hasValue;
-@property(nonatomic) unsigned int serverOverrideIdentifier;
-@property(retain, nonatomic) NSMutableArray *styleAttributes;
-@property(nonatomic) _Bool supportMultiLineWrapping;
-@property(retain, nonatomic) NSString *symbolColor;
-@property(retain, nonatomic) NSString *symbolName;
-@property(retain, nonatomic) NSString *textColor;
-@property(retain, nonatomic) NSString *value;
 
 @end
 

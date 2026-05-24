@@ -7,15 +7,6 @@
 @interface NewsFeed.DebugCommandHandler
 {
     id resolver;
-    id fontManager;
-    id cloudContext;
-    id feedPersonalizer;
-    id feedContextFactory;
-    id tagService;
-    id webEmbedDataSourceService;
-    id sceneProvider;
-    id featureAvailability;
-    id radarAttachmentProvider;
 }
 
 @end

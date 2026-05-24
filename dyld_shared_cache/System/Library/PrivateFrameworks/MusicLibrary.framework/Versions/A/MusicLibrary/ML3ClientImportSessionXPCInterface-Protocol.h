@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ML3ClientImportItem;
+
 @protocol ML3ClientImportSessionXPCInterface
+
+@optional
+- (void)_cameraForeground;
+- (void)_cameraAutoRenderTypeFromAssetAdjustments:(ML3ClientImportItem *)arg1 adjustmentEnvelope:(void (^)(_Bool, NSError *))arg2;
+- (void)_callPushAllChangesCompletionHandlersIfNecessary;
+- (void)_callProcessingCompletionHandler:(ML3ClientImportItem *)arg1 progress:(void (^)(_Bool, NSError *))arg2 assetsCount:error: /* Error: Ran out of types for this method. */;
+- (void)_callOutForQoS:(ML3ClientImportItem *)arg1 fromQueue:(void (^)(_Bool, NSError *))arg2;
+- (void)_callDeviceLibraryConfigurationChangeRequestCompletionHandlersWithError:(float)arg1;
 @end
 

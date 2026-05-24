@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, CALNNotificationRecord, NSString;
+@class CALNNotificationRecord;
 
 @interface CALNNotificationRecordResponse
 {
     CALNNotificationRecord *_notificationRecord;
-    NSString *_actionIdentifier;
-    NSString *_originIdentifier;
-    BSServiceConnectionEndpoint *_targetConnectionEndpoint;
 }
 
 + (id);
@@ -24,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
 @property(readonly, nonatomic) CALNNotificationRecord *notificationRecord; // @synthesize notificationRecord=_notificationRecord;
-@property(readonly, copy, nonatomic) NSString *originIdentifier; // @synthesize originIdentifier=_originIdentifier;
-@property(readonly, nonatomic) BSServiceConnectionEndpoint *targetConnectionEndpoint; // @synthesize targetConnectionEndpoint=_targetConnectionEndpoint;
 
 @end
 

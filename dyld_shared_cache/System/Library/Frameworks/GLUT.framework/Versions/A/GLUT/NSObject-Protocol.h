@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (id)ChatItemController;
+- (id);
+- (id)StickerReactionLayoutHelper;
+- (id)CKGenerateButtonBackground;
+- (Class)L;
+- (_Bool)So8NSStringC;
+
+@optional
+- (Class);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

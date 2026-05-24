@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSProgress;
+
 @protocol ICDFileProviderClientSideCollaborationProtocol
+- (NSProgress *);
+- (void)8J;
+- (void);
 @end
 

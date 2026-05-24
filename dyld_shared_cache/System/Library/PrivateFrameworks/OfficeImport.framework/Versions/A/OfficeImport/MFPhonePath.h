@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface MFPhonePath : MFPath
 {
     OITSUBezierPath *m_path;
-    int m_state;
 }
 
 - (int);
@@ -23,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (int);
-- (id);
+- (id)setHasIsSeed: /* Error: Ran out of types for this method. */;
 - (int);
 - (int);
-- (int);
+- (int)utStream status is NSStreamStatusNotOpen - streamreader will open stream;
 - (id);
 - (struct CGPoint);
 - (void);

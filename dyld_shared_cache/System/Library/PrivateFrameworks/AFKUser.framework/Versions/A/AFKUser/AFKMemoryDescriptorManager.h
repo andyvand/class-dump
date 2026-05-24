@@ -7,18 +7,15 @@
 @interface AFKMemoryDescriptorManager
 {
     unsigned int _service;
-    unsigned int _connect;
-    unsigned long long _regID;
 }
 
-+ (id);
++ (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (unsigned int);
+- (id)B;
+- (unsigned int)9*;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int connect; // @synthesize connect=_connect;
 @property(readonly, nonatomic) unsigned long long regID; // @synthesize regID=_regID;
 
 @end

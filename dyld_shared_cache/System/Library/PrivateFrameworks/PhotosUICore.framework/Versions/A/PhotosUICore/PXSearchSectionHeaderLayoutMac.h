@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXPhotosLayoutSpec, PXSelectionSnapshot;
+@class PXPhotosLayoutSpec;
 
 @interface PXSearchSectionHeaderLayoutMac
 {
     CDStruct_af00bf4e _updateFlags;
-    _Bool _isInSelectMode;
-    PXPhotosLayoutSpec *_spec;
-    PXSelectionSnapshot *_selectionSnapshot;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)ql;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)dControlOpacityPreferenceKey;
+- (void)SegmentedControlOpacityPreferenceKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInSelectMode; // @synthesize isInSelectMode=_isInSelectMode;
-@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
 @property(retain, nonatomic) PXPhotosLayoutSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
 
 @end
 

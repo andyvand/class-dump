@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BlastDoorAPSQuickRelayPluginAllocation
 {
     id aPSQuickRelayPluginAllocation;
 }
 
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
@@ -24,13 +24,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_participantId;
-@property(nonatomic, readonly) _Bool has_pluginStream;
-@property(nonatomic, readonly) unsigned long long participantId;
-@property(nonatomic, readonly) NSString *pluginName;
-@property(nonatomic, readonly) long long pluginStream;
-@property(nonatomic, readonly) NSData *relayAccessToken;
-@property(nonatomic, readonly) NSData *relaySessionKey;
 
 @end
 

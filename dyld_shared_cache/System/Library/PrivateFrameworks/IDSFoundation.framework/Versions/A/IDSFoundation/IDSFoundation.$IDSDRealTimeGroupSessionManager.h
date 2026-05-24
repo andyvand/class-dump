@@ -7,8 +7,6 @@
 @interface IDSFoundation.$IDSDRealTimeGroupSessionManager
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

@@ -7,12 +7,10 @@
 @interface AppStoreKit.UpdateStore
 {
     id notificationQueue;
-    id coalesceUpdateNotifications;
-    id notificationWorkItem;
 }
 
 - (void);
-- (void);
+- (void):(CDUnknownBlockType)arg1: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)¨Y;

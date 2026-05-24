@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)h#;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)eRouteID"b1"read_destinationListInstruction"b1"read_destinationWaypointInfo"b1"read_directedRoadSegments"b1"read_elevationProfile"b1"read_endingRouteInstructions"b1"read_enrouteNotices"b1"read_guidanceEvents"b1"read_incidentOnRouteInfos"b1"read_infrastructureDescription"b1"read_laneWidths"b1"read_launchAndGoCardText"b1"read_name"b1"read_originListInstruction"b1"read_originWaypointInfo"b1"read_pathLeg"b1"read_pathMapMatcherInstructions"b1"read_phoneticName"b1"read_restrictedZoneIds"b1"read_roadComplexitys"b1"read_routeID"b1"read_routeNames"b1"read_routeCameraInputInfos"b1"read_routeDescriptions"b1"read_routeLabelDetailText"b1"read_routeLineStyleInfos"b1"read_routePlanningDescription"b1"read_segmentNameInfos"b1"read_startingRouteInstructions"b1"read_stepGroups"b1"read_steps"b1"read_trafficColorInfos"b1"read_trafficDescriptionLong"b1"read_trafficDescription"b1"read_unpackedLatLngVertices"b1"read_updateLocations"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)shNavigationStateListener;
+- (id)_pushNavigationStateListener;
 - (id)0+;
 - (void);
 

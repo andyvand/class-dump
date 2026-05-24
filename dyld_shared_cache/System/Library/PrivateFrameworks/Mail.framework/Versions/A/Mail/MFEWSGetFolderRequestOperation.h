@@ -6,12 +6,11 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class MFEWSGetFolderResponseOperation, NSArray;
+@class NSArray;
 
 @interface MFEWSGetFolderRequestOperation : MFEWSRequestOperation
 {
     NSArray *_EWSFolderIds;
-    NSArray *_additionalProperties;
 }
 
 - (void);
@@ -27,9 +26,7 @@
 - (void)ø;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *EWSFolderIds; // @synthesize EWSFolderIds=_EWSFolderIds;
 @property(readonly, copy, nonatomic) NSArray *additionalProperties; // @synthesize additionalProperties=_additionalProperties;
-@property(retain, nonatomic) MFEWSGetFolderResponseOperation *responseOperation;
 
 @end
 

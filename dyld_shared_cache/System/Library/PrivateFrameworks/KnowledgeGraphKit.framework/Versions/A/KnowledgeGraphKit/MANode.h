@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAGraphReference, NSDictionary, NSSet, NSString;
-@protocol MAGraphProxy, MANodeImplementationProtocol;
+@class MAGraphReference;
 
 @interface MANode
 {
     unsigned long long _identifier;
-    MAGraphReference *_graphReference;
-    id <MANodeImplementationProtocol> _implementation;
 }
 
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (id);
@@ -25,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -39,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q`;
 - (void);
 - (void);
 - (void);
@@ -61,12 +58,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,40 +72,40 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id)n *, TFENodeVector &&)>={__value_func<bool (FI_TNewAliasOperation *, TFENodeVector &&)>=(type=[24C])^v}}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)charactersIgnoringModifiers;
+- (_Bool)sortByNoneSupported;
+- (id);
+- (void)qa;
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)C;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -116,22 +113,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned short domain; // @dynamic domain;
-@property(readonly, nonatomic) id <MAGraphProxy> graph;
 @property(retain, nonatomic) MAGraphReference *graphReference; // @synthesize graphReference=_graphReference;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) id <MANodeImplementationProtocol> implementation; // @synthesize implementation=_implementation;
-@property(readonly, copy, nonatomic) NSString *label; // @dynamic label;
-@property(readonly, copy, nonatomic) NSSet *labels;
-@property(readonly, copy, nonatomic) NSDictionary *properties;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) float weight; // @dynamic weight;
 
 @end
 

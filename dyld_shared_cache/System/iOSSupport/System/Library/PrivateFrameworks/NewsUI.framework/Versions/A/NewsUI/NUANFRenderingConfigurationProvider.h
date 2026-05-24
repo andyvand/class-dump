@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXRenderingConfiguration;
+@class SXRenderingConfiguration;
 @protocol FCNewsAppConfigurationManager;
 
 @interface NUANFRenderingConfigurationProvider
 {
     SXRenderingConfiguration *_configuration;
-    id <FCNewsAppConfigurationManager> _appConfigurationManager;
 }
 
-- (id);
+- (id)setExteriorTextWrap:forInfos: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)aging:byAddingPage:afterPage: /* Error: Ran out of types for this method. */;
+- (id)paging:byAddingPage:afterPage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;
-@property(readonly, nonatomic) SXRenderingConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

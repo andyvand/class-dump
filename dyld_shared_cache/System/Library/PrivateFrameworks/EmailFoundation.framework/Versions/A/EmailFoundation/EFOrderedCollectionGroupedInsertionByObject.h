@@ -9,23 +9,17 @@
 @interface EFOrderedCollectionGroupedInsertionByObject
 {
     _Bool _isMove;
-    NSArray *_objects;
-    id _previousObject;
-    id _nextObject;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)blob, error %d;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isMove; // @synthesize isMove=_isMove;
-@property(readonly, nonatomic) id nextObject; // @synthesize nextObject=_nextObject;
 @property(readonly, copy, nonatomic) NSArray *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) id previousObject; // @synthesize previousObject=_previousObject;
 
 @end
 

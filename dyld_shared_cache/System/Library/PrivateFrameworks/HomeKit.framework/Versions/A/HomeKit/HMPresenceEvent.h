@@ -6,15 +6,11 @@
 
 #import <HomeKit/HMEvent.h>
 
-@class HMMutableArray, HMPresenceEventActivation, NSString;
+@class NSString;
 
 @interface HMPresenceEvent : HMEvent
 {
     NSString *_presenceType;
-    HMPresenceEventActivation *_activation;
-    unsigned long long _presenceEventType;
-    unsigned long long _presenceUserType;
-    HMMutableArray *_observedUsers;
 }
 
 + (id);
@@ -40,23 +36,18 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)trickery;
 - (void);
 - (id);
 - (void)ð>4?;
 - (id)%@;
 
 // Remaining properties
-@property(retain, nonatomic) HMPresenceEventActivation *activation; // @synthesize activation=_activation;
-@property(readonly, nonatomic) unsigned long long activationGranularity;
-@property(readonly, nonatomic) HMMutableArray *observedUsers; // @synthesize observedUsers=_observedUsers;
-@property(readonly, nonatomic) unsigned long long presenceEventType; // @synthesize presenceEventType=_presenceEventType;
 @property(retain, nonatomic) NSString *presenceType; // @synthesize presenceType=_presenceType;
-@property(readonly, nonatomic) unsigned long long presenceUserType; // @synthesize presenceUserType=_presenceUserType;
 
 @end
 

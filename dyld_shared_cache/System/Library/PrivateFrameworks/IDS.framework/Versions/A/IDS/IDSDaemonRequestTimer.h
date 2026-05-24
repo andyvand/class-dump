@@ -9,16 +9,15 @@
 @interface IDSDaemonRequestTimer
 {
     NSMutableDictionary *_requestContextMap;
-    struct _opaque_pthread_mutex_t _requestContextMapLock;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)necting...;
 - (void);
-- (void);
-- (id);
+- (id)resentedItemURL;
 - (long long);
 - (id);
 - (id);

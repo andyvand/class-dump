@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, OITSULocale;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface OITSUDateParser
 {
     NSMutableArray *_formatCategories;
-    OITSULocale *_locale;
-    _Bool _isJapaneseLocale;
-    struct __CFDateFormatter *_specialCaseFormatter;
 }
 
 - (struct __CFDateFormatter *);

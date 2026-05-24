@@ -6,33 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGFilteringStepEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)port matrix is incomplete, because %d ports are required for peer %@
+;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)@?<v@?@"<ASDAppMetricsServiceProtocol><NSXPCProxyCreating>"@"NSError">16;
+- (_Bool)eOverHighlightColor;
+- (_Bool)column to the chat table.;
 - (id);
-- (id);
-- (id)leteNumAudioFilesAvailable;
-- (id)pBundleId;
-- (_Bool)CECOMMANDTYPE_LOWERCASE_SELECTION;
-- (_Bool)OUTESSTATUS_FAILURE_DEVICE_SEARCH;
-- (void)nMode;
+- (id)c;
+- (id)deleteNumAudioFilesAvailable;
+- (id)_hasThirdPartyAppBundleId;
+- (_Bool)UEIVOICECOMMANDTYPE_LOWERCASE_SELECTION;
+- (_Bool)FLOWMEDIAPLAYERSETAIRPLAYROUTESSTATUS_FAILURE_DEVICE_SEARCH;
+- (void)MHSchemaMHAudioSessionMode;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

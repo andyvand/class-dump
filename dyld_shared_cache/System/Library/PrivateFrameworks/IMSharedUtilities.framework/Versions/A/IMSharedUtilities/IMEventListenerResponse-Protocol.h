@@ -7,10 +7,10 @@
 @class NSDictionary, NSError;
 
 @protocol IMEventListenerResponse
+- (NSError *)AWDMPTCPConnectionInterfaceReport;
+- (NSDictionary *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
 @property(readonly, nonatomic, getter=didSucceed) _Bool success;
-@property(readonly, nonatomic) NSDictionary *userInfo;
 @end
 

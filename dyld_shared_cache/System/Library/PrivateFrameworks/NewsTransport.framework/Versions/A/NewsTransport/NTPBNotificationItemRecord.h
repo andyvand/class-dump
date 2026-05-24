@@ -4,53 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores, NSMutableArray, NSString, NTPBRecordBase;
-
 @interface NTPBNotificationItemRecord
 {
     long long _targetMinNewsVersion;
-    NSString *_articleID;
-    NTPBRecordBase *_base;
-    NSString *_body;
-    NSString *_clusterID;
-    COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores *_notabilityScores;
-    NSString *_notificationID;
-    NSMutableArray *_suppressIfFollowingTagIDs;
-    unsigned int _targetDeviceTypes;
-    struct {
-        unsigned int targetMinNewsVersion:1;
-        unsigned int targetDeviceTypes:1;
-    } _has;
 }
 
-+ (Class);
-- (long long);
-- (unsigned int);
++ (Class)animateWithDuration:animations:completion: /* Error: Ran out of types for this method. */;
+- (long long)fetchChildDayGroupHighlightsForHighlight:options: /* Error: Ran out of types for this method. */;
+- (unsigned int)fetchBlockedMemoriesWithOptions: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchAllSocialGroupDetailedDebugDescriptionFor: /* Error: Ran out of types for this method. */;
+- (id)fetchAllAssetsInYearRepresentedByYearHighlight:(unsigned long long)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)fetchAllAssetsInYearRepresentedByYearHighlight:options: /* Error: Ran out of types for this method. */;
+- (void)estimatedAssetCountWithEnrichmentStateAssetMetadataOnly;
+- (void)estimatedAssetCountWithEnrichmentStateAssetMetadataAndScore;
+- (void)enumerateSublayoutsInRect:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)effectiveAppearance;
+- (void)descriptionForSubtype:(_Bool)arg1;
+- (void)descriptionForScore:(_Bool)arg1;
+- (id)clientIdentifier:becomeCurrentClientIfNeeded:performAsyncPlayerTransaction: /* Error: Ran out of types for this method. */;
+- (_Bool)canPerformOnCollectionList: /* Error: Ran out of types for this method. */;
+- (_Bool)canPerformOnAssetCollectionReference:withInputs: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)addValueWithLabel:boolValue:positiveValue:positiveHighlighted:negativeHighlighted: /* Error: Ran out of types for this method. */;
+- (void)actionPerformer:(id)arg1 transitionToViewController:transitionType: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)useNSSearchToolbarItem;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ile, and couldn't remove it! (%@);
+- (void)widgetForYouBackgroundMinimumUpdateInterval;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -60,30 +46,14 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool)voritedBoost;
+- (_Bool)cohortMembershipFavoritedBoost;
 - (id)tring",&,N,V_adImpressionId;
 - (_Bool)êÿøVD-;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSString *body; // @synthesize body=_body;
-@property(retain, nonatomic) NSString *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, nonatomic) _Bool hasArticleID;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasBody;
-@property(readonly, nonatomic) _Bool hasClusterID;
-@property(readonly, nonatomic) _Bool hasNotabilityScores;
-@property(readonly, nonatomic) _Bool hasNotificationID;
-@property(nonatomic) _Bool hasTargetDeviceTypes;
-@property(nonatomic) _Bool hasTargetMinNewsVersion;
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores *notabilityScores; // @synthesize notabilityScores=_notabilityScores;
-@property(retain, nonatomic) NSString *notificationID; // @synthesize notificationID=_notificationID;
-@property(retain, nonatomic) NSMutableArray *suppressIfFollowingTagIDs; // @synthesize suppressIfFollowingTagIDs=_suppressIfFollowingTagIDs;
-@property(nonatomic) unsigned int targetDeviceTypes; // @synthesize targetDeviceTypes=_targetDeviceTypes;
-@property(nonatomic) long long targetMinNewsVersion; // @synthesize targetMinNewsVersion=_targetMinNewsVersion;
 
 @end
 

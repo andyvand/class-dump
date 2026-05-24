@@ -5,5 +5,6 @@
 //
 
 @protocol CSXPCClientDelegate
+- (void)_TtC6Vision49CoreSceneUnderstandingDetectorPerformingOperation;
 @end
 

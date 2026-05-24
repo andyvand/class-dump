@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, NSDate, NSString;
+@class HMDUser;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityReport
 {
     HMDUser *_user;
-    unsigned long long _reason;
-    NSDate *_changedTimestamp;
-    NSDate *_lastUpdateTimestamp;
 }
 
 + (id)ñÿA6¨|B;
@@ -20,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (id)_fetchRequiresUserConfirmationOfSharingIdentityWithCompletion:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -33,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)NotificationChangeThreshold"8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *changedTimestamp; // @synthesize changedTimestamp=_changedTimestamp;
 @property(readonly, nonatomic) unsigned long long contributorType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *lastUpdateTimestamp;
-@property(readonly, nonatomic) unsigned long long reason;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMDUser *user; // @synthesize user=_user;
 
 @end
 

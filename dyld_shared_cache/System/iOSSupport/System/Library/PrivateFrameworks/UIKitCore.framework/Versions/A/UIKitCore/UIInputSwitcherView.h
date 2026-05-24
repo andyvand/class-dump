@@ -6,22 +6,15 @@
 
 #import <UIKitCore/UIKeyboardMenuView.h>
 
-@class NSArray, NSMutableArray, UIInputSwitcherGestureState;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIInputSwitcherView : UIKeyboardMenuView
 {
     NSMutableArray *m_inputModes;
-    NSArray *m_inputSwitcherItems;
-    UIInputSwitcherGestureState *m_gestureState;
-    _Bool _messagesWriteboardFromSwitcher;
-    _Bool _fileReportFromSwitcher;
-    _Bool _showsSwitches;
-    _Bool _isForDictation;
-    CDUnknownBlockType m_finishSplitTransitionBlock;
 }
 
-+ (_Bool)ActivationIndicatorWithDuration:withDelay: /* Error: Ran out of types for this method. */;
++ (_Bool)fadeActivationIndicatorWithDuration:withDelay: /* Error: Ran out of types for this method. */;
 + (id)EØ;
 + (id)WN;
 - (void);
@@ -30,35 +23,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)ord %@, ignoring;
+- (_Bool)led to submit task request for workload reporting:(unsigned long long)arg1 %@;
+- (void)oto:(_Bool)arg1 (%@) or brand logo:(%@) exists, setting up transfer /* Error: Ran out of types for this method. */;
+- (void)issing entitlement;
+- (void)re;
+- (void)@, micIsOn:(CDUnknownBlockType)arg1 %@;
+- (void)red list %@;
+- (id)-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)needing CK update T2 with limit %ld, attemptCount %lu;
+- (void)messages needing T1 update with limit;
+- (void)ssages needing CK update T1 with limit %ld, attemptCount %lu;
+- (void)unknown sender info payloads data to load;
+- (void)eceived a nickname update from:(long long)arg1 %@, with message:%@ /* Error: Ran out of types for this method. */;
+- (void)ing batch with starting index:%@ index of next batch:%@ for number of batches:%@ /* Error: Ran out of types for this method. */;
+- (id)%@, ;
+- (id)d (%@);
+- (_Bool)istry is not yet loaded. Deferring update. Renamed Chat:%@ /* Error: Ran out of types for this method. */;
+- (id)%@ relay received remote file request %@;
+- (_Bool)ilename:%@ /* Error: Ran out of types for this method. */;
+- (id)t=%@ for noticeType:%@, elapsedMinutes:%@ < threshold:%@ /* Error: Ran out of types for this method. */;
+- (id)AllowReplicationSessionNetworkState;
+- (CDUnknownBlockType)otice"8@"NSDictionary"16;
+- (_Bool)t to nil;
+- (void)-emoji;
+- (void).$;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -78,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)C;
 - (id),N;
 - (void)4s[;
 - (unsigned long long)ð\;
@@ -86,12 +79,7 @@ __attribute__((visibility("hidden")))
 - (void)x%i;
 
 // Remaining properties
-@property(nonatomic) _Bool fileReportFromSwitcher; // @synthesize fileReportFromSwitcher=_fileReportFromSwitcher;
-@property(copy, nonatomic) CDUnknownBlockType finishSplitTransitionBlock; // @synthesize finishSplitTransitionBlock=m_finishSplitTransitionBlock;
 @property(readonly, nonatomic) NSArray *inputModes; // @synthesize inputModes=m_inputModes;
-@property(nonatomic) _Bool isForDictation; // @synthesize isForDictation=_isForDictation;
-@property(nonatomic) _Bool messagesWriteboardFromSwitcher; // @synthesize messagesWriteboardFromSwitcher=_messagesWriteboardFromSwitcher;
-@property(nonatomic) _Bool showsSwitches; // @synthesize showsSwitches=_showsSwitches;
 
 @end
 

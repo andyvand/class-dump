@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)PresentedSceneValueInput;
 - (unsigned long long);
 - (id);
 - (void);

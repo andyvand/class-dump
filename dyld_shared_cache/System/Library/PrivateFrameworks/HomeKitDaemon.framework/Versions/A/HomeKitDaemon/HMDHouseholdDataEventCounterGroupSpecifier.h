@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)t;
+- (id)P;
 - (_Bool);
-- (void)ification;
+- (void)HMDBridgedAccessoryConnectedNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;

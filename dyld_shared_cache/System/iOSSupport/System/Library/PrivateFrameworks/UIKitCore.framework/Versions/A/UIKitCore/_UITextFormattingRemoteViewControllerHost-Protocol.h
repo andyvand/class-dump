@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIFont, UIFontPickerViewControllerConfiguration;
+
 @protocol _UITextFormattingRemoteViewControllerHost
+- (void)loadHistoryForIDs:(UIFont *)arg1 style:onServices:limit:beforeGUID:afterGUID:threadIdentifier:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (void)loadChatWithChatIdentifier:(UIFontPickerViewControllerConfiguration *)arg1;
+- (void)loadAllChats;
 @end
 

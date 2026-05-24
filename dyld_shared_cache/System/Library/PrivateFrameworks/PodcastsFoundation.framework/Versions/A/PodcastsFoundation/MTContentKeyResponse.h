@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTContentKeyRequest, NSData, NSDate, NSError;
+@class MTContentKeyRequest;
 
 @interface MTContentKeyResponse
 {
     MTContentKeyRequest *request;
-    void renewalDate;
-    void error;
-    void keyData;
 }
 
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);
@@ -26,9 +23,6 @@
 - (id)Õÿ;
 
 // Remaining properties
-@property(nonatomic, copy) NSError *error;
-@property(nonatomic, copy) NSData *keyData;
-@property(nonatomic, readonly) NSDate *renewalDate;
 @property(nonatomic, readonly) MTContentKeyRequest *request; // @synthesize request;
 
 @end

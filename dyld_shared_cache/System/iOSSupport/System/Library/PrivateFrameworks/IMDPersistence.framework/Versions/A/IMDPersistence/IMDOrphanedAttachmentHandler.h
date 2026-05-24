@@ -14,7 +14,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
@@ -22,7 +22,6 @@
 - (id)_id = ? AND    service_name = ? ORDER BY    chat_message_join.message_date DESC LIMIT    1;;
 
 // Remaining properties
-@property(retain, nonatomic) id <IMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
 @property(readonly, nonatomic) unsigned int maxCleanseIterations;
 
 @end

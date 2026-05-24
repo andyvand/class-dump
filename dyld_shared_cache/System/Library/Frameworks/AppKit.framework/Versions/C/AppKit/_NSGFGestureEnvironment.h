@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)_handledNeedNewBodyStream;
+- (void)_downloadTaskWithRequest:(id)arg1 downloadFilePath:(id)arg2;
 - (void);
 - (id);
-- (void);
+- (void)NeXTscreen;
 
 @end
 

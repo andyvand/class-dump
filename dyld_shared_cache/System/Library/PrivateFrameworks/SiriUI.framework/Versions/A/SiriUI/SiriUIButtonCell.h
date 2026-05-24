@@ -8,21 +8,19 @@ __attribute__((visibility("hidden")))
 @interface SiriUIButtonCell
 {
     struct NSEdgeInsets _imageEdgeInsets;
-    struct NSEdgeInsets _titleEdgeInsets;
 }
 
-- (void);
+- (void))d;
 - (void);
 - (struct NSEdgeInsets);
-- (struct NSEdgeInsets);
-- (struct CGRect);
+- (struct NSEdgeInsets);
+- (struct CGRect)composeRecipientViewShowingSearchResults:(id)arg1;
+- (void)collectionView:(id)arg1 shouldUpdateFocusInContext:(struct CGRect)arg2;
 - (void);
-- (void);
-- (void);
+- (void)a;
 
 // Remaining properties
 @property struct NSEdgeInsets imageEdgeInsets; // @synthesize imageEdgeInsets=_imageEdgeInsets;
-@property struct NSEdgeInsets titleEdgeInsets; // @synthesize titleEdgeInsets=_titleEdgeInsets;
 
 @end
 

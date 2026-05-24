@@ -6,8 +6,6 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSString;
-
 @interface CNSuggestedContactIdentifierPredicate : CNPredicate
 {
     unsigned long long _suggestionIdentifier;
@@ -16,22 +14,15 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)IncludeSDPModeChangeCapability;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)?;
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)eshness:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long suggestionIdentifier; // @synthesize suggestionIdentifier=_suggestionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

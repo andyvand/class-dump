@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 @interface PXVisualPositionsChangeDetails
 {
     long long _countBeforeChanges;
-    long long _anchorIndexBeforeChanges;
-    NSIndexSet *_headerIndexesBeforeChanges;
-    long long _countAfterChanges;
-    long long _anchorIndexAfterChanges;
-    NSIndexSet *_headerIndexesAfterChanges;
-    long long _anchorBodyIndexBeforeChanges;
-    long long _anchorBodyIndexAfterChanges;
 }
 
 + (id);
@@ -23,9 +14,9 @@
 + (id);
 + (id);
 + (id);
++ (id)a?�;
 + (id);
 + (id);
-+ (id);
 - (CDStruct_b8f58034);
 - (CDStruct_b8f58034);
 - (id);
@@ -37,21 +28,14 @@
 - (CDStruct_b8f58034);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (id);
 - (void)GenerativeStoryFeedbackBarButtonItem;
 
 // Remaining properties
-@property(readonly, nonatomic) long long anchorBodyIndexAfterChanges; // @synthesize anchorBodyIndexAfterChanges=_anchorBodyIndexAfterChanges;
 @property(readonly, nonatomic) long long anchorBodyIndexBeforeChanges; // @synthesize anchorBodyIndexBeforeChanges=_anchorBodyIndexBeforeChanges;
-@property(readonly, nonatomic) long long anchorIndexAfterChanges; // @synthesize anchorIndexAfterChanges=_anchorIndexAfterChanges;
-@property(readonly, nonatomic) long long anchorIndexBeforeChanges; // @synthesize anchorIndexBeforeChanges=_anchorIndexBeforeChanges;
-@property(readonly, nonatomic) long long countAfterChanges; // @synthesize countAfterChanges=_countAfterChanges;
-@property(readonly, nonatomic) long long countBeforeChanges; // @synthesize countBeforeChanges=_countBeforeChanges;
-@property(readonly, nonatomic) NSIndexSet *headerIndexesAfterChanges; // @synthesize headerIndexesAfterChanges=_headerIndexesAfterChanges;
-@property(readonly, nonatomic) NSIndexSet *headerIndexesBeforeChanges; // @synthesize headerIndexesBeforeChanges=_headerIndexesBeforeChanges;
 
 @end
 

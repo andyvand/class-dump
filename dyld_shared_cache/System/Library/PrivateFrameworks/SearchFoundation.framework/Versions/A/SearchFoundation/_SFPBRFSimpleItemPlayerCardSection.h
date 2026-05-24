@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBButtonItem, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSimpleItemPlayerCardSection
 {
     _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    NSArray *_text_3s;
-    _SFPBRFTextProperty *_text_4;
-    _SFPBButtonItem *_player;
 }
 
 - (id);
@@ -27,34 +23,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ufferCreate failed. result = %d;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)removeAllEntries;
+- (id);
+- (id)ictionary, skipping;
 - (void);
 - (id);
 - (id);
 - (void)8@"_SFPBColor"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBButtonItem *player; // @synthesize player=_player;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol CNAutocompleteUsageMonitorProbe
+- (void);
+- (void)(+;
 @end
 

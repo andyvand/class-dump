@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSBuyParams, AMSProcessInfo, NSDictionary, NSMutableArray, NSNumber, NSString, NSXPCListenerEndpoint;
-
 @interface AMSPurchase
 {
     _Bool _ignoreRequirePasswordRestriction;
-    _Bool _requiresAccount;
-    _Bool _requiresApplePayClassic;
-    _Bool _userInitiated;
-    _Bool _useJSONContentType;
-    _Bool _asyncRecordEngagementEvent;
-    NSString *_logUUID;
-    ACAccount *_account;
-    NSDictionary *_additionalHeaders;
-    AMSBuyParams *_buyParams;
-    NSString *_clientCorrelationKey;
-    AMSProcessInfo *_clientInfo;
-    NSNumber *_ownerAccountId;
-    NSDictionary *_metricsOverlay;
-    NSXPCListenerEndpoint *_paymentViewServiceListener;
-    NSDictionary *_performanceMetricsOverlay;
-    NSString *_presentingSceneBundleIdentifier;
-    NSString *_presentingSceneIdentifier;
-    long long _purchaseType;
-    NSString *_storefront;
-    NSNumber *_uniqueIdentifier;
-    NSString *_callerBundleId;
-    NSString *_clientId;
-    NSString *_URLBagKey;
-    NSDictionary *_blindedData;
-    NSMutableArray *_metricsActivities;
 }
 
 + (id);
@@ -42,7 +15,7 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,21 +59,21 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id)tionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)validTextRangeLength;
+- (id)NSString",R,N,V_deviceEnclosureColor;
 - (void);
 - (id);
 - (id);
@@ -108,7 +81,7 @@
 - (id);
 - (id);
 - (id);
-- (void)dationLock;
+- (void)_invalidationLock;
 - (id)mO®ó©aZÂ¢f-ºÛM`Lç3·(¨2¤Ù+#&D¸¼Gqªb	É0#îlÏµ¨3äò´éwU{@³|Ø¸Á7 VWz)ý­(2²1¾Ã^9<¦]¢exk°©ºÇÕt:Ë /* Error: Ran out of types for this method. */;
 - (id)&|6;õq
 « ÁqÅôøUÀ°"o/raÕ´iÜ«ojaX»e¬ýÂôrþ>òè

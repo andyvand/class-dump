@@ -6,32 +6,10 @@
 
 #import <Metal/MTLCompileOptions.h>
 
-@class NSArray, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLCompileOptionsInternal : MTLCompileOptions
 {
     _Bool _userSetLanguageVersion;
-    NSDictionary *_preprocessorMacros;
-    long long _mathMode;
-    long long _mathFloatingPointFunctions;
-    _Bool _framebufferReadEnabled;
-    _Bool _tracingEnabled;
-    _Bool _debuggingEnabled;
-    unsigned long long _languageVersion;
-    _Bool _compileTimeStatisticsEnabled;
-    NSString *_additionalCompilerArguments;
-    unsigned char _sourceLanguage;
-    long long _libraryType;
-    NSArray *_libraries;
-    NSString *_installName;
-    _Bool _preserveInvariance;
-    long long _optimizationLevel;
-    long long _compileSymbolVisibility;
-    _Bool _allowReferencingUndefinedSymbols;
-    unsigned long long _maxTotalThreadsPerThreadgroup;
-    _Bool _enableLogging;
-    CDStruct_da2e99ad _requiredThreadsPerThreadgroup;
 }
 
 - (_Bool);
@@ -79,8 +57,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDStruct_da2e99ad);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)?O;
+- (_Bool);
 - (id);
 - (id);
 - (void);

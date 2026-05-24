@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
+@class NSString;
 
 @interface _INPBUUIDValue
 {
     struct _has;
-    NSString *_uuidString;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)>=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -24,24 +22,14 @@
 - (id);
 - (id);
 - (void)emperatureValues;
-- (_Bool)ta;
-- (id)asksTaskResolutionResult;
-- (void)ricSettingIntentResponseCodeFailureOtherWithReason;
+- (_Bool)_INPBPrivateSearchForMediaIntentData;
+- (id)INSnoozeTasksTaskResolutionResult;
+- (void)INSetNumericSettingIntentResponseCodeFailureOtherWithReason;
 - (void);
 - (id)DrQëÍ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasUuidString;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

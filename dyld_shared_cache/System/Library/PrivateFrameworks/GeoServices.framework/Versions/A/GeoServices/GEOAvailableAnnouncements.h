@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOAvailableAnnouncements
 {
     PBDataReader *_reader;
-    NSMutableArray *_announcements;
-    NSString *_languageCode;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_announcements:1;
-        unsigned int read_languageCode:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)DepartureFrequency:(id)arg1;
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
++ (_Bool)setHasMinDepartureFrequency:(id)arg1;
+- (void)performWithResourceLock:(id)arg1;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)audioSessionController:(id)arg1 didReceiveAudioSessionRouteChangeNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id)em/Library/FeatureFlags/Domain/VoiceControlLocales.plist;
 - (void)0@ù
 × ;
-- (id)stions;
+- (id)placeSuggestions;
 - (id)`Ï ÑPÕH×;
 - (id)eatherLocationName];
 - (id);
@@ -53,8 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *announcements;
-@property(readonly, nonatomic) _Bool hasLanguageCode;
-@property(retain, nonatomic) NSString *languageCode;
 
 @end
 

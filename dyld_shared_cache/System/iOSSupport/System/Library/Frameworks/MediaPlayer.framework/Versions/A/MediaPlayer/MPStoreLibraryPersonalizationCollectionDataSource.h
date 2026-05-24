@@ -4,66 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaLibraryView, MPPropertySet, MPSectionedCollection, NSDictionary, NSMapTable, NSMutableDictionary, NSString;
+@class MPSectionedCollection;
 
 __attribute__((visibility("hidden")))
 @interface MPStoreLibraryPersonalizationCollectionDataSource
 {
     struct os_unfair_lock_s _lock;
-    MPSectionedCollection *_unpersonalizedContentDescriptors;
-    MPPropertySet *_itemProperties;
-    MPPropertySet *_sectionProperties;
-    NSDictionary *_itemIndexPathToOverridePropertySet;
-    MPMediaLibraryView *_libraryView;
-    NSMapTable *_relativeModelClassToMappingResponse;
-    NSMutableDictionary *_sectionToLibraryAddedOverride;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
+- (void)6|7;
+- (void);
+- (void)tm	;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)_subplans;
+- (id)token;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long)irelessRoutesAvailable;
-- (void)PredicatesAccessQueue;
+- (unsigned long long)_wirelessRoutesAvailable;
+- (void)_additionalLibraryFilterPredicatesAccessQueue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *itemIndexPathToOverridePropertySet; // @synthesize itemIndexPathToOverridePropertySet=_itemIndexPathToOverridePropertySet;
-@property(copy, nonatomic) MPPropertySet *itemProperties; // @synthesize itemProperties=_itemProperties;
-@property(copy, nonatomic) MPMediaLibraryView *libraryView; // @synthesize libraryView=_libraryView;
-@property(copy, nonatomic) NSMapTable *relativeModelClassToMappingResponse; // @synthesize relativeModelClassToMappingResponse=_relativeModelClassToMappingResponse;
-@property(copy, nonatomic) MPPropertySet *sectionProperties; // @synthesize sectionProperties=_sectionProperties;
-@property(retain, nonatomic) NSMutableDictionary *sectionToLibraryAddedOverride; // @synthesize sectionToLibraryAddedOverride=_sectionToLibraryAddedOverride;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) MPSectionedCollection *unpersonalizedContentDescriptors; // @synthesize unpersonalizedContentDescriptors=_unpersonalizedContentDescriptors;
 
 @end

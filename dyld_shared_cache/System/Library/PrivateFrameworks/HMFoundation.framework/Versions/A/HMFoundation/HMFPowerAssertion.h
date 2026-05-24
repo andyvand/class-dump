@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ac-F221BEC8;
 - (unsigned int);
 
 // Remaining properties

@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPRegionBookmark
 {
     PBUnknownFields *_unknownFields;
-    GEOMapRegion *_region;
-    NSString *_title;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id).;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)h";
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)etLatLng: /* Error: Ran out of types for this method. */;
+- (id)setLatLng: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRegion;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOMapRegion *region; // @synthesize region=_region;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerItem, AVPlayerLayer;
-@protocol CKVideoPreviewViewControllerDelegate;
+@class AVPlayerItem;
 
 __attribute__((visibility("hidden")))
 @interface CKVideoPreviewViewController
 {
     _Bool _redisplayStatusBar;
-    _Bool _reachedEnd;
-    id <CKVideoPreviewViewControllerDelegate> _videoPreviewDelegate;
-    AVPlayerItem *_avPlayerItem;
-    AVPlayer *_avPlayer;
-    AVPlayerLayer *_avPlayerLayer;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)thumbnailImageForAttachment:(id)arg1 minSize:scale:appearanceType:requireAppearance:imageScaling:showAsFileIcon:isMovie:movieDuration: /* Error: Ran out of types for this method. */;
+- (void)setRows:(_Bool)arg1;
+- (void)setRemoteObjectInterface:(_Bool)arg1;
+- (void)nonPasswordProtectedOnly;
+- (void)nonMathNotesNotesInSource;
+- (_Bool)ic_isOptionKeyPressedWithoutOtherModifiers;
+- (_Bool)ic_colorWith256Red:green:blue:alpha: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)enceKeyP;
+- (_Bool)lock because note already has a lock — canceling;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)wift;
 - (void);
 - (void);
 - (id);
@@ -40,17 +34,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool)time:%s /* Error: Ran out of types for this method. */;
-- (void)nfoData;
-- (void);
+- (void)CKEntryViewLayoutMetricsInfoData;
+- (void)7;
 
 // Remaining properties
-@property(retain, nonatomic) AVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;
 @property(retain, nonatomic) AVPlayerItem *avPlayerItem; // @synthesize avPlayerItem=_avPlayerItem;
-@property(retain, nonatomic) AVPlayerLayer *avPlayerLayer; // @synthesize avPlayerLayer=_avPlayerLayer;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing; // @dynamic playing;
-@property(nonatomic) _Bool reachedEnd; // @synthesize reachedEnd=_reachedEnd;
-@property(nonatomic) _Bool redisplayStatusBar; // @synthesize redisplayStatusBar=_redisplayStatusBar;
-@property(nonatomic) __weak id <CKVideoPreviewViewControllerDelegate> videoPreviewDelegate; // @synthesize videoPreviewDelegate=_videoPreviewDelegate;
 
 @end
 

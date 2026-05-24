@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (void);
+- (void)set CID:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 
 // Remaining properties

@@ -7,28 +7,24 @@
 @interface HMAccessoryInfoProtoSleepWakeStateEvent
 {
     long long _sleepWakeState;
-    struct {
-        unsigned int sleepWakeState:1;
-    } _has;
 }
 
 - (long long);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)disciplined;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasSleepWakeState;
-@property(nonatomic) long long sleepWakeState; // @synthesize sleepWakeState=_sleepWakeState;
 
 @end
 

@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
-
 @interface BMPBCommunicationSafetyResultEvent
 {
     double _absoluteTimestamp;
-    NSString *_childId;
-    int _communicationSafetyResultContentType;
-    int _communicationSafetyResultEventDirection;
-    int _communicationSafetyResultEventType;
-    NSMutableArray *_contactHandles;
-    NSString *_contentId;
-    NSString *_contentURL;
-    NSString *_conversationId;
-    NSString *_conversationURL;
-    NSString *_deviceId;
-    NSData *_imageData;
-    NSString *_senderHandle;
-    NSString *_sourceBundleId;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int communicationSafetyResultContentType:1;
-        unsigned int communicationSafetyResultEventDirection:1;
-        unsigned int communicationSafetyResultEventType:1;
-    } _has;
-    _Bool _skipImage;
 }
 
-+ (Class);
++ (Class)9x;
 - (void);
 - (void);
 - (void);
@@ -61,7 +39,7 @@
 - (int);
 - (_Bool);
 - (int);
-- (int);
+- (int);
 - (id);
 - (_Bool);
 - (id);
@@ -69,64 +47,38 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)0:8@16@24I32@36 /* Error: Ran out of types for this method. */;
+- (void)etworkInterfaceType];
+- (id)rage baseband throughput %d is much larger than our actual bitrate %d;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
-- (double);
+- (double)c;
 - (unsigned long long);
-- (id);
+- (id)INT, bitrate INT, basebandFlush INT, rateControlTime FLOAT(24,4), owrd FLOAT(24,4), nowrd FLOAT(24,4), nowrda FLOAT(24,4), roundTripTime FLOAT(24,4), roundTripTimeAverage FLOAT(24,4), roundTripTimeMinEnvelope FLOAT(24,4), audioPacketLossRate FLOAT(24,4), audioPacketLossRateShort FLOAT(24,4), videoPacketLossRate FLOAT(24,4), ecnCERatio FLOAT(24,4), bandwidthEstimate INT, trainingValue FLOAT(24, 4), trainingAction INT, trainingActionLogProbability FLOAT(24, 4) );;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool)_clientRevision;
+- (id);
+- (void)dataCryptorDelegate;
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (id)MediaRouteIdentifier;
+- (id)accessoryMediaRouteIdentifier;
 - (void)ë$.Ô¤0ü@Üÿ;
 - (id)ns (%u != %u) cannot deserialize;
-- (id)TOKEN__DEC;
+- (id)PG_QUERY__TOKEN__DEC;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *childId; // @synthesize childId=_childId;
-@property(nonatomic) int communicationSafetyResultContentType; // @synthesize communicationSafetyResultContentType=_communicationSafetyResultContentType;
-@property(nonatomic) int communicationSafetyResultEventDirection; // @synthesize communicationSafetyResultEventDirection=_communicationSafetyResultEventDirection;
-@property(nonatomic) int communicationSafetyResultEventType; // @synthesize communicationSafetyResultEventType=_communicationSafetyResultEventType;
-@property(retain, nonatomic) NSMutableArray *contactHandles; // @synthesize contactHandles=_contactHandles;
-@property(retain, nonatomic) NSString *contentId; // @synthesize contentId=_contentId;
-@property(retain, nonatomic) NSString *contentURL; // @synthesize contentURL=_contentURL;
-@property(retain, nonatomic) NSString *conversationId; // @synthesize conversationId=_conversationId;
-@property(retain, nonatomic) NSString *conversationURL; // @synthesize conversationURL=_conversationURL;
-@property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasChildId;
-@property(nonatomic) _Bool hasCommunicationSafetyResultContentType;
-@property(nonatomic) _Bool hasCommunicationSafetyResultEventDirection;
-@property(nonatomic) _Bool hasCommunicationSafetyResultEventType;
-@property(readonly, nonatomic) _Bool hasContentId;
-@property(readonly, nonatomic) _Bool hasContentURL;
-@property(readonly, nonatomic) _Bool hasConversationId;
-@property(readonly, nonatomic) _Bool hasConversationURL;
-@property(readonly, nonatomic) _Bool hasDeviceId;
-@property(readonly, nonatomic) _Bool hasImageData;
-@property(readonly, nonatomic) _Bool hasSenderHandle;
-@property(readonly, nonatomic) _Bool hasSourceBundleId;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
-@property(retain, nonatomic) NSString *sourceBundleId; // @synthesize sourceBundleId=_sourceBundleId;
 
 @end
 

@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayLayout, NSString, _FBSDisplayLayoutService;
+@class FBSDisplayLayout;
 
 __attribute__((visibility("hidden")))
 @interface _FBSDisplayLayoutServiceAssertion
 {
     struct os_unfair_lock_s _lock;
-    _FBSDisplayLayoutService *_lock_service;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)bL;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FBSDisplayLayout *currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

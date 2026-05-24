@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UILabel, UISlider, UIVisualEffectView;
+@class UISlider;
 @protocol PKVariableSliderViewDelegate;
 
 @interface PKVariableSliderView
 {
     UISlider *_slider;
-    UILabel *_label;
-    UIVisualEffectView *_blurView;
-    double _lastSentTimestamp;
-    double _valueToSend;
-    id <PKVariableSliderViewDelegate> _delegate;
-    double _currentValue;
-    long long _fractionalDigits;
-    double _initialValue;
 }
 
 - (void);
@@ -27,7 +19,7 @@
 - (void);
 - (long long);
 - (id);
-- (double);
+- (double)formatRestrictions;
 - (void);
 - (struct CGSize);
 - (id);
@@ -36,10 +28,7 @@
 - (void)GestureElement;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentValue; // @synthesize currentValue=_currentValue;
 @property(nonatomic) __weak id <PKVariableSliderViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long fractionalDigits; // @synthesize fractionalDigits=_fractionalDigits;
-@property(readonly, nonatomic) double initialValue; // @synthesize initialValue=_initialValue;
 
 @end
 

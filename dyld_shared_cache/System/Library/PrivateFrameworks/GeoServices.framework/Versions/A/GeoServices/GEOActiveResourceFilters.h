@@ -9,31 +9,30 @@
 @interface GEOActiveResourceFilters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_filters;
 }
 
-+ (_Bool)Hills:(id)arg1;
++ (_Bool)setHasMapSettingsWalkingAvoidHills:(id)arg1;
 + (Class)h®`d;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void)_moveSecureAudioCaptureFrom:(id)arg1 withExclaveTimestamp: /* Error: Ran out of types for this method. */;
+- (void))A;
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)MKLaunchOptionsDirectionsModeDriving;
 - (id);
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)edPlaceData:(struct _NSZone *)arg1 serializedDetourInfo: /* Error: Ran out of types for this method. */;
+- (id)mapItemStorageForSerializedPlaceData:(struct _NSZone *)arg1 serializedDetourInfo: /* Error: Ran out of types for this method. */;
 - (id):h= > /* Error: Ran out of types for this method. */;
-- (id)redPlaceGracePeriodInSeconds;
+- (id)PDPlaceCacheExpiredPlaceGracePeriodInSeconds;
 - (id)ì;
 - (void)¤
 ;
@@ -41,7 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *filters;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

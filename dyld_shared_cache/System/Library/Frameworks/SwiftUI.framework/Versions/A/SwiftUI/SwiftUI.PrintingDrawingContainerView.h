@@ -7,14 +7,10 @@
 @interface SwiftUI.PrintingDrawingContainerView
 {
     id printInfo;
-    id pageCount;
-    id bottomY;
-    id previousLayout;
-    id refreshPreviewHandler;
 }
 
 - (struct CGRect);
-- (_Bool);
+- (_Bool),R,C,N,V_credentialID;
 - (id);
 - (_Bool);
 - (id);

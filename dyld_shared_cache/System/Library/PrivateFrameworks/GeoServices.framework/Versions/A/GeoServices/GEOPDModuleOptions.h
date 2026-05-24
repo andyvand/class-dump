@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDModuleOptions
 {
     PBUnknownFields *_unknownFields;
-    NSString *_webContentUrl;
 }
 
-+ (_Bool)count:(id)arg1;
-- (id);
-- (void);
++ (_Bool)setIconIndexs:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (id)_CNCDDatabaseXPCRemover;
+- (void)ontacts.marked-for-deletion;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)cesWereResetNotificationWithUserInfo:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)urceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24Q32q40Q48;
-- (id)e;
+- (id)_handleCacheDelegate;
 - (id)P "#;
 - (id)CONTROL_CENTER;
 - (void)ÍÌÌÌÌÌú?!°rh©z@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasWebContentUrl;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *webContentUrl;
 
 @end
 

@@ -6,25 +6,11 @@
 
 #import <MetalTools/MTLToolsComputeCommandEncoder.h>
 
-@class MTLGPUDebugCommandBuffer, MTLGPUDebugComputePipelineState, NSString;
-@protocol MTLBuffer;
+@class MTLGPUDebugCommandBuffer;
 
 @interface MTLGPUDebugComputeCommandEncoder : MTLToolsComputeCommandEncoder
 {
     unsigned int useResourceIteration;
-    _Bool _enableUseResourceValidation;
-    unsigned int _commandBufferJumpNestingLevel;
-    struct Options *_options;
-    struct MTLGPUDebugStageBufferHandles _handles;
-    struct MTLGPUDebugThreadgroupLengths _threadgroup;
-    struct GPUDebugEventUUIDPacket _dispatchID;
-    MTLGPUDebugComputePipelineState *_currentPipeline;
-    struct GPUDebugEncoderBoundBuffers _computeEncoderBoundBuffers[31];
-    id <MTLBuffer> _bufferUsageTable;
-    id <MTLBuffer> _textureUsageTable;
-    id <MTLBuffer> _tensorResidencyTable;
-    id <MTLBuffer> _internalBindingTable;
-    id <MTLBuffer> _textureTypeTable;
 }
 
 - (void);
@@ -38,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -50,8 +36,8 @@
 - (void);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -59,7 +45,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -85,14 +71,6 @@
 
 // Remaining properties
 @property(readonly) MTLGPUDebugCommandBuffer *commandBuffer; // @dynamic commandBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned int encoderID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

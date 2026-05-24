@@ -7,11 +7,6 @@
 @interface CloudKit.ChunkStreamHandle.ChunkReader__priv_8C09B02C3959D7B1EC6CDDBFBA6DF630
 {
     id $defaultActor;
-    id url;
-    id signature;
-    id key;
-    id cacheFile;
-    id cacheState;
 }
 
 @end

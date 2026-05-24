@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id)X;
 + (id);
-+ (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)hasPrefix:(id)arg1;
+- (id)@;
 
 @end
 

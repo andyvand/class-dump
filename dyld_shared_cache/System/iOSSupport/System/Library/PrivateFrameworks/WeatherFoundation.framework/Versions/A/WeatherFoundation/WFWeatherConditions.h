@@ -9,9 +9,6 @@
 @interface WFWeatherConditions
 {
     WFLocation *_location;
-    _Bool _nightForecast;
-    struct os_unfair_lock_s _componentsLock;
-    NSMutableDictionary *_components;
 }
 
 + (unsigned long long);
@@ -30,11 +27,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)cation.;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)re alert title;
 - (void);
 - (id);
 - (id);
@@ -46,9 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *components; // @synthesize components=_components;
-@property(nonatomic) struct os_unfair_lock_s componentsLock; // @synthesize componentsLock=_componentsLock;
-@property(copy) WFLocation *location;
-@property(getter=isNightForecast) _Bool nightForecast; // @synthesize nightForecast=_nightForecast;
 
 @end
 

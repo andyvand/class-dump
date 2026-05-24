@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool);
-- (BOOL);
-- (id);
-- (struct CGSize);
+- (_Bool)removeButton: /* Error: Ran out of types for this method. */;
+- (BOOL)labelWithAttributedString: /* Error: Ran out of types for this method. */;
+- (id)_showsConfirmationDialog;
+- (struct CGSize)Configuration;
 - (id);
 - (id);
 - (struct UIEdgeInsets);

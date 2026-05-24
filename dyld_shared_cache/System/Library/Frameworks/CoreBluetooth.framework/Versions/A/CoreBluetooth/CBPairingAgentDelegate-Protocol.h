@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CBPairingAgent, CBPeer;
+
 @protocol CBPairingAgentDelegate
+
+@optional
+- (void)initWithURL:(CBPairingAgent *)arg1 figAssetCreationFlags:(CBPeer *)arg2 figAssetCreationOptions:avAssetInitializationOptions:forAsset:figErr: /* Error: Ran out of types for this method. */;
+- (void)hasBackupKeybagDigest;
+- (void)butes of item at '%s':(CBPairingAgent *)arg1 %@;
 @end
 

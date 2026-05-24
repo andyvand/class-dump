@@ -4,49 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface FPSandboxingURLWrapper
 {
     NSURL *_url;
-    NSData *_scope;
-    NSData *_promiseScope;
-    NSURL *_promiseURL;
-    FPSandboxingURLWrapper *_originalDocumentURLWrapper;
 }
 
-+ (void);
++ (void)TFLT;
++ (id)AVCFAssetDownloadSessionMediaSelectionPrefersMultichannelKey;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)q;
++ (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)validateGSNameAllowingDot:(id)arg1 error:(_Bool)arg2;
+- (id);
+- (void)0;
+- (id);
+- (id);
+- (id)"32;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)1	?ןF;
 - (id);
 - (id);
 - (void)Ñç)1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) FPSandboxingURLWrapper *originalDocumentURLWrapper; // @synthesize originalDocumentURLWrapper=_originalDocumentURLWrapper;
-@property(retain) NSData *promiseScope; // @synthesize promiseScope=_promiseScope;
-@property(retain) NSURL *promiseURL; // @synthesize promiseURL=_promiseURL;
-@property(retain) NSData *scope; // @synthesize scope=_scope;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLSession;
+@class NSURLSession;
 
 __attribute__((visibility("hidden")))
 @interface BCNetworkProvider
 {
     NSURLSession *_session;
+    id session;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void).cxx_destruct;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

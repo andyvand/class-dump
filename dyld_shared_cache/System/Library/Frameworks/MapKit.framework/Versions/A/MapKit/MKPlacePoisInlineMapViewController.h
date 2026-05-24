@@ -6,14 +6,11 @@
 
 #import <MapKit/MKPlaceInlineMapViewController.h>
 
-@class CLLocation, NSArray, NSString, _MKPlacePoisInlineMapContentView;
+@class CLLocation, NSArray;
 
 @interface MKPlacePoisInlineMapViewController : MKPlaceInlineMapViewController
 {
     NSArray *_fetchedMapItems;
-    _MKPlacePoisInlineMapContentView *_mapContentView;
-    _Bool _resizableViewsDisabled;
-    CLLocation *_location;
 }
 
 + (id);
@@ -28,19 +25,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)fBigAttributionViews;
+- (void)numberOfBigAttributionViews;
 - (void)VÀ<ä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(nonatomic) _Bool resizableViewsDisabled; // @synthesize resizableViewsDisabled=_resizableViewsDisabled;
-@property(readonly) Class superclass;
 
 @end
 

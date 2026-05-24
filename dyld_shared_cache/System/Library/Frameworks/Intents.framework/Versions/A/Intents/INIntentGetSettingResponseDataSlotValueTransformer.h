@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)ts: /* Error: Ran out of types for this method. */;
++ (long long)setConsumptionFormulaArguments: /* Error: Ran out of types for this method. */;
 - (id);
 - (id),&,N;
 

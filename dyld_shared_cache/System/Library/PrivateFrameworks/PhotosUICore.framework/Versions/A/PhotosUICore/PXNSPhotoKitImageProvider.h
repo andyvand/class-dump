@@ -6,18 +6,9 @@
 
 #import <PhotosUICore/PXNSImageProvider.h>
 
-@class NSString, PHAsset, PHAssetResourceManager, PHAssetResourceRequestOptions, _PXNSPhotoKitImageProviderOperation;
-
 @interface PXNSPhotoKitImageProvider : PXNSImageProvider
 {
     _Bool __shouldPrepareImage;
-    int __resourceRequestID;
-    PHAssetResourceManager *_assetResourceManager;
-    PHAsset *_asset;
-    long long _contentMode;
-    PHAssetResourceRequestOptions *_options;
-    _PXNSPhotoKitImageProviderOperation *__currentOperation;
-    struct CGSize __lastRequestedTargetSize;
 }
 
 + (id)ionsHasSpecificValue(self.photosDataSource.options, PXPhotosDataSourceOptionAllowExhaustiveNearestToObjectSearch);
@@ -26,7 +17,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -37,28 +28,14 @@
 - (void);
 - (id);
 - (long long);
-- (id)iewModelSyncingDisabled;
+- (id)_viewModelSyncingDisabled;
 - (id)eption *__strong);
-- (void)AXSocialGroupFallbackLabel;
+- (void)LemonadeAXSocialGroupFallbackLabel;
 - (void);
 - (void)reatedMemoriesFeedView;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setCurrentOperation:) _PXNSPhotoKitImageProviderOperation *_currentOperation; // @synthesize _currentOperation=__currentOperation;
-@property(nonatomic, setter=_setLastRequestedTargetSize:) struct CGSize _lastRequestedTargetSize; // @synthesize _lastRequestedTargetSize=__lastRequestedTargetSize;
 @property(nonatomic, setter=_setResourceRequestID:) int _resourceRequestID; // @synthesize _resourceRequestID=__resourceRequestID;
-@property(nonatomic, setter=_setShouldPrepareImage:) _Bool _shouldPrepareImage; // @synthesize _shouldPrepareImage=__shouldPrepareImage;
-@property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) PHAssetResourceManager *assetResourceManager; // @synthesize assetResourceManager=_assetResourceManager;
-@property(readonly, nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) PHAssetResourceRequestOptions *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

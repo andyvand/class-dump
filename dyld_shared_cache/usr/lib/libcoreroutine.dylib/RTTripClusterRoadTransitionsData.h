@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSData;
 
 @interface RTTripClusterRoadTransitionsData
 {
     NSData *_roadTransitions;
-    NSUUID *_clusterID;
 }
 
-+ (id);
++ (id)ing to obtain classicContent from HSM;
 + (id);
 + (_Bool);
 - (_Bool);
 - (id);
+- (id)rival;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)%s;
 - (_Bool);
 - (void);
 - (id);
@@ -29,15 +28,7 @@
 - (void)etails, identifier, %@, name, %{sensitive}@, location, %{sensitive}@, visit location, %{sensitive}@, distance from place to visit location, %.3f, visit interval start date, %@, visit interval end date, %@, visit interval duration, %.2f, earliestStartDate, %@, latestEndDate, %@, error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *roadTransitions; // @synthesize roadTransitions=_roadTransitions;
-@property(readonly) Class superclass;
 
 @end
 

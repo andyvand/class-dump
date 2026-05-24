@@ -5,5 +5,6 @@
 //
 
 @protocol NSLocking
+- (void)container is not writable (%d/%d) (%{public}@);
 @end
 

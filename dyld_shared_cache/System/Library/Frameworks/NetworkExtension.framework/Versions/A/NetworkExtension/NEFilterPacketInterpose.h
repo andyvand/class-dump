@@ -4,39 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEFilterPacketContext, NEFilterPacketProvider, NSObject, NSUUID;
-@protocol OS_nw_interface;
-
 @interface NEFilterPacketInterpose
 {
     struct os_unfair_lock_s _lock;
-    struct channel *_channel;
-    struct channel_attr *_attributes;
-    int _channel_fd;
-    unsigned short _slot_size;
-    struct __slot_desc *_rx_last_slot;
-    struct interpose_frame _frame_buffer;
-    struct interpose_frame *_current_frame;
-    struct channel_ring_desc *_rx_ring_ingress;
-    struct channel_ring_desc *_tx_ring_ingress;
-    struct channel_ring_desc *_rx_ring_egress;
-    struct channel_ring_desc *_tx_ring_egress;
-    NEFilterPacketProvider *_provider;
-    NSObject<OS_nw_interface> *_interface;
-    NEFilterPacketContext *_context;
-    _Bool _input_suspended;
-    _Bool _delay_cancel;
-    unsigned int _nexusPort;
-    unsigned int _keyLength;
-    NSUUID *_flowId;
-    NSUUID *_nexusInstance;
-    void *_key;
-    void *_input_source;
 }
 
-- (void);
-- (id);
-- (void)aultsForUIConfiguration;
+- (void);
+- (id)ContactImageGeneration;
+- (void)setDefaultsForUIConfiguration;
 
 @end
 

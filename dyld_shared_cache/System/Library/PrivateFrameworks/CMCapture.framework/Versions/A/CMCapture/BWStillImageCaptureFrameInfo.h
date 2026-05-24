@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BWStillImageCaptureFrameInfo
 {
     unsigned long long _mainFlags;
-    unsigned long long _sifrFlags;
 }
 
 + (_Bool)!!Ð!Fù$ð1Â0@ù
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long mainFlags; // @synthesize mainFlags=_mainFlags;
-@property(readonly, nonatomic) unsigned long long sifrFlags; // @synthesize sifrFlags=_sifrFlags;
 
 @end
 

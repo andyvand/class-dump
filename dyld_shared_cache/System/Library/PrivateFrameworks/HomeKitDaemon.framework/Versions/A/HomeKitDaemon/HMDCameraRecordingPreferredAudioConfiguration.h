@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingPreferredAudioConfiguration
 {
     NSNumber *_bitRate;
-    long long _sampleRate;
 }
 
 - (id);
 - (id);
-- (id)eID: /* Error: Ran out of types for this method. */;
+- (id)setAttributeID: /* Error: Ran out of types for this method. */;
 - (long long)ck state (locked):%ld /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly) NSNumber *bitRate; // @synthesize bitRate=_bitRate;
-@property(readonly) long long sampleRate; // @synthesize sampleRate=_sampleRate;
 
 @end
 

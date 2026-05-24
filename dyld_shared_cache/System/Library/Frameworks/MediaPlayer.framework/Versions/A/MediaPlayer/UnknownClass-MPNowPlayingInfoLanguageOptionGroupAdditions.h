@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MPNowPlayingInfoLanguageOptionGroupAdditions)
-- (id);
+- (id)N;
 @end
 

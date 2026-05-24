@@ -7,20 +7,16 @@
 @interface PICompositionSerializerMetadata
 {
     long long _width;
-    long long _height;
-    long long _orientation;
 }
 
 - (long long);
 - (long long);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)?;
+- (void);
 
 // Remaining properties
-@property(nonatomic) long long height; // @synthesize height=_height;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
 @property(nonatomic) long long width; // @synthesize width=_width;
 
 @end

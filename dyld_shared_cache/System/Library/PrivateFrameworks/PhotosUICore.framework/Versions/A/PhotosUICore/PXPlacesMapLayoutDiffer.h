@@ -10,15 +10,13 @@
 @interface PXPlacesMapLayoutDiffer
 {
     NSMutableArray *_changes;
-    id <PXPlacesMapLayoutResult> _sourceLayoutResult;
-    id <PXPlacesMapLayoutResult> _targetLayoutResult;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -26,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXPlacesMapLayoutResult> sourceLayoutResult; // @synthesize sourceLayoutResult=_sourceLayoutResult;
-@property(readonly, nonatomic) id <PXPlacesMapLayoutResult> targetLayoutResult; // @synthesize targetLayoutResult=_targetLayoutResult;
 
 @end
 

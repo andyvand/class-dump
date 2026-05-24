@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatSponsoredBannerNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id filledColor;
-    id unfilledColor;
-    id ignoresSmartInvertColors;
-    id userInterfaceStyle;
 }
 
 @end

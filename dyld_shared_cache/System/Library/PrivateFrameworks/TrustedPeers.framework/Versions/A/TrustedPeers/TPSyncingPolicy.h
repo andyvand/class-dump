@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, TPPolicyVersion;
+@class NSString;
 
 @interface TPSyncingPolicy
 {
     _Bool _isInheritedAccount;
-    int _syncUserControllableViews;
-    NSString *_model;
-    TPPolicyVersion *_version;
-    NSArray *_keyViewMapping;
-    NSSet *_viewList;
-    NSSet *_priorityViews;
-    NSSet *_viewsToPiggybackTLKs;
-    NSSet *_userControllableViews;
 }
 
-+ (_Bool);
++ (_Bool)y;
 - (id);
 - (id);
 - (id);
@@ -31,24 +23,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)receiveMasterKey;
+- (id)artupRequirementsMet ;
 - (_Bool);
-- (int);
+- (int)setDriverProcessLifespan: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)didn't actually change anything, returning old dynamicInfo;
 
 // Remaining properties
-@property _Bool isInheritedAccount; // @synthesize isInheritedAccount=_isInheritedAccount;
-@property(readonly) NSArray *keyViewMapping; // @synthesize keyViewMapping=_keyViewMapping;
 @property(readonly) NSString *model; // @synthesize model=_model;
-@property(readonly) NSSet *priorityViews; // @synthesize priorityViews=_priorityViews;
-@property(readonly) int syncUserControllableViews; // @synthesize syncUserControllableViews=_syncUserControllableViews;
-@property(readonly) NSSet *userControllableViews; // @synthesize userControllableViews=_userControllableViews;
-@property(readonly) TPPolicyVersion *version; // @synthesize version=_version;
-@property(readonly) NSSet *viewList; // @synthesize viewList=_viewList;
-@property(readonly) NSSet *viewsToPiggybackTLKs; // @synthesize viewsToPiggybackTLKs=_viewsToPiggybackTLKs;
 
 @end
 

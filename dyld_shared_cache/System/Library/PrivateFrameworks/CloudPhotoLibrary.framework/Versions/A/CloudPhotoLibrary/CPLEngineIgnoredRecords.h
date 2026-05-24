@@ -6,7 +6,7 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, NSString;
+@class CPLPlatformObject;
 
 @interface CPLEngineIgnoredRecords : CPLEngineStorage
 {
@@ -16,22 +16,15 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)tionLock;
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id)bumpLocalIndexForScopeWithIdentifier:(id)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

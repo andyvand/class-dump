@@ -14,11 +14,12 @@
 + (_Bool);
 - (id);
 - (id);
+- (void)BAD HEIGHT - expected:%d   got:%d
+ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setResolveSlice:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *sourcesData; // @synthesize sourcesData=_sourcesData;

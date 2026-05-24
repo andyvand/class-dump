@@ -7,15 +7,14 @@
 @interface PPEvictingMaxTokenCountPriorityQueue
 {
     unsigned long long _capacity;
-    void *_queue;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)use new container? %@ {serverbagValue:%@ version:%@} /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (double);

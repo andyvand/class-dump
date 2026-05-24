@@ -6,21 +6,12 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPCaptionButtonPresentationProperties, LPSubtitleButtonView, LPTextView, NSFont, NSLayoutConstraint, NSRegularExpression, NSString;
+@class LPCaptionButtonPresentationProperties;
 
 __attribute__((visibility("hidden")))
 @interface LPHorizontalCaptionPairView : LPComponentView
 {
     LPCaptionButtonPresentationProperties *_buttonProperties;
-    struct NSEdgeInsets _contentInset;
-    long long _balancingMode;
-    LPSubtitleButtonView *_button;
-    NSLayoutConstraint *_buttonWidthConstraint;
-    NSLayoutConstraint *_buttonHeightConstraint;
-    long long _overrideMaximumNumberOfLines;
-    NSRegularExpression *_emphasizedTextExpression;
-    LPTextView *_leftView;
-    LPTextView *_rightView;
 }
 
 - (void);
@@ -31,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (long long);
+- (long long)};
 - (struct CGSize);
 - (_Bool);
 - (double);
@@ -44,29 +35,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly, nonatomic) NSFont *fallbackFont;
-@property(retain, nonatomic) NSFont *font;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSFont",?,&,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPTextView *leftView; // @synthesize leftView=_leftView;
 @property(nonatomic) long long overrideMaximumNumberOfLines; // @synthesize overrideMaximumNumberOfLines=_overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) NSFont *preferredFont;
-@property(retain, nonatomic) LPTextView *rightView; // @synthesize rightView=_rightView;
-@property(readonly) Class superclass;
 
 @end
 

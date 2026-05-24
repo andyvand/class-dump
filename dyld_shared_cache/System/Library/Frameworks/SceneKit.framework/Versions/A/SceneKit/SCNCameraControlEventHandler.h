@@ -11,55 +11,18 @@
 @interface SCNCameraControlEventHandler : SCNEventHandler
 {
     SCNNode *_freeViewCameraNode;
-    struct CGPoint _initialPoint;
-    union C3DMatrix4x4 _initialMatrix;
-    float _initialZoom;
-    float _originalFovX;
-    float _originalFovY;
-    float _originalOrthoScale;
-    float _zoomFactor;
-    id _clickOrigin;
-    _Bool _stickyMove;
-    struct CGPoint _stickyDirection;
-    unsigned long long _currentStickyAxis;
-    struct CGPoint _lastDragLocation;
-    double _lastDragTime;
-    unsigned long long _stickyAxis;
-    struct C3DSphere _viewedObjectSphere;
-    unsigned int _isViewedObjectSphereComputed:1;
-    struct os_unfair_lock_s _stateLock;
-    unsigned int _enabled:1;
-    unsigned int _hasAutomaticCameraTarget:1;
-    unsigned int _automaticCameraTargetUpToDate:1;
-    unsigned int _inertia:1;
-    unsigned int _didEverFocusNode:1;
-    unsigned int _allowsTranslation:1;
-    unsigned int _pinchShouldMoveCamera:1;
-    unsigned int _alternateMode:1;
-    unsigned int _upDirIsSet:1;
-    unsigned int _gimbalLockMode:1;
-    unsigned int _inertiaRunning:1;
-    long long _browseMode;
-    id _upDir;
-    struct SCNVector3 _cameraTarget;
-    struct SCNVector3 _autoCameraTarget;
-    float _browseScaleFactor;
-    double _friction;
-    struct CGPoint _totalDragWithInertia;
-    struct CGPoint _inertiaVelocity;
-    double _lastSimulationTime;
 }
 
 + (struct CATransform3D);
 + (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (_Bool);
@@ -73,7 +36,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (struct C3DSphere);
@@ -91,7 +54,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)OA�s;
 - (struct SCNVector3);
 - (_Bool);
 - (float);
@@ -103,7 +66,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -117,9 +80,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)HMUserConsentResponseYesForReplaceExistingAccessory;
 - (id);
 - (_Bool);
 - (_Bool)6d24;
@@ -129,14 +92,7 @@
 - (_Bool);
 
 // Remaining properties
-@property _Bool allowsTranslation;
-@property _Bool automaticCameraTarget;
-@property struct SCNVector3 cameraTarget;
-@property _Bool enableInertia;
-@property double friction;
 @property _Bool gimbalLockMode;
-@property struct SCNVector3 gimbalLockVector;
-@property unsigned long long stickyAxis;
 
 @end
 

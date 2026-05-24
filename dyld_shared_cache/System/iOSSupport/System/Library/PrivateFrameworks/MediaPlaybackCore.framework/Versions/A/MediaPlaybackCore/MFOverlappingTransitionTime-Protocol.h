@@ -5,11 +5,10 @@
 //
 
 @protocol MFOverlappingTransitionTime
+- (double)ble dataclasses for account %@. Proceeding with save.;
+- (double)%s - There are no auto-enableable dataclasses for account %@. Proceeding with save.;
 
 // Remaining properties
-@property(nonatomic, readonly) double endItemSourceTime;
-@property(nonatomic, readonly) double endItemTargetTime;
 @property(nonatomic, readonly) double startItemSourceTime;
-@property(nonatomic, readonly) double startItemTargetTime;
 @end
 

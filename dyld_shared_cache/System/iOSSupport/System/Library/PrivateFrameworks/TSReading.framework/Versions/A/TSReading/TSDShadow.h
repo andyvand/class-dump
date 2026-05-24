@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSUColor;
-
 @interface TSDShadow
 {
     double mAngle;
-    double mOffset;
-    double mRadius;
-    double mOpacity;
-    struct CGColor *mColor;
-    _Bool mEnabled;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,11 +20,11 @@
 + (id);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool)E;
 + (id);
-- (_Bool);
-- (id);
-- (struct CGRect);
+- (_Bool)〔;
+- (id)playbackTimeDidChange:(struct CGAffineTransform)arg1;
+- (struct CGRect)playbackRateDidChangeNotified:(struct CGRect)arg1;
 - (struct CGRect);
 - (struct CGRect);
 - (id);
@@ -42,9 +35,9 @@
 - (id);
 - (SEL);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (struct CGImage *);
+- (struct CGImage *);
 - (id);
 - (_Bool);
 - (double);
@@ -66,25 +59,17 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (struct CGColor *);
-- (_Bool);
-- (double);
-- (double);
+- (struct CGColor *)iftCoreFoundation.dylib;
+- (_Bool)IterationType;
+- (double)d;
+- (double)TagController"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (id);
-- (double)y;
+- (double)TSCHChartInfoPieDEPRECATED3DLightingPackageProperty;
 
 // Remaining properties
-@property(readonly, nonatomic) TSUColor *TSUColor;
 @property(readonly, nonatomic) double angle; // @synthesize angle=mAngle;
-@property(readonly, nonatomic) struct CGColor *color; // @synthesize color=mColor;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=mEnabled;
-@property(readonly, nonatomic) double offset; // @synthesize offset=mOffset;
-@property(readonly, nonatomic) struct CGPoint offsetDelta;
-@property(readonly, nonatomic) double opacity; // @synthesize opacity=mOpacity;
-@property(readonly, nonatomic) NSString *presetKind;
-@property(readonly, nonatomic) double radius; // @synthesize radius=mRadius;
 
 @end
 

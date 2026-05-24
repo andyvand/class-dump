@@ -7,14 +7,12 @@
 @interface GEOComposedRouteTrafficColorInfo
 {
     unsigned long long _color;
-    double _offsetMeters;
-    CDStruct_3f2a7a20 _routeCoordinate;
 }
 
 + (_Bool)ove downloaded file to final URL:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (double);
+- (double)4;
 - (id);
 - (CDStruct_3f2a7a20);
 - (id);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long color; // @synthesize color=_color;
-@property(nonatomic) double offsetMeters; // @synthesize offsetMeters=_offsetMeters;
-@property(nonatomic) CDStruct_3f2a7a20 routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
 
 @end
 

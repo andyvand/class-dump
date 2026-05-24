@@ -4,63 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString;
-
 @interface TRISystemInfo
 {
     _Bool _isEnrolledInBetaProgram;
-    _Bool _logUserSettingsLanguageCode;
-    _Bool _logUserSettingsRegionCode;
-    _Bool _logUserKeyboardEnabledInputMode;
-    _Bool _isDiagnosticsAndUsageEnabled;
-    _Bool _hasAne;
-    _Bool _isAutomatedTestDevice;
-    NSArray *_enabledInputModeIdentifiers;
-    NSString *_carrierBundleIdentifier;
-    NSString *_carrierCountryIsoCode;
-    NSString *_aneVersion;
-    NSDate *_siriDeviceAggregationIdRotationDate;
-    NSString *_iCloudIdentifier;
-    long long _appleIntelligenceState;
-    NSNumber *_mapsBucketId;
-    NSNumber *_adsBucketId;
-    NSString *_storefront;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)isControllerKey;
 + (id);
 + (id);
 + (id);
-+ (long long);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (long long)H;
++ (id)contiguousLayoutForImageSize:(id)arg1;
 + (id);
 + (_Bool);
 + (id);
 + (id);
++ (id);
++ (_Bool);
++ (_Bool);
++ (id);
++ (_Bool);
++ (id);
++ (id)_renderInterval;
 + (_Bool);
 + (_Bool)%d) has ill-typed value for entitlement "%@" (expected array).;
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)__objc_catlist;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)sendNextPayloadFragment;
+- (id)esolution already in progress!  Are there multiple outstanding connection requests?;
+- (id)OJSS	;
 - (_Bool);
-- (id);
+- (id)ef_stringByRemovingTokensFromString:tokenizationHandler: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (void);
@@ -75,40 +57,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)Z;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__aapl__pxrReserved__:(_Bool)arg1:GfVec4f] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id):protection:capacity:error: /* Error: Ran out of types for this method. */;
+- (id)initWithFileAtPath:protection:capacity:error: /* Error: Ran out of types for this method. */;
 - (id)Ä;
 - (void)namespace with error:(_Bool)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *adsBucketId; // @synthesize adsBucketId=_adsBucketId;
-@property(retain, nonatomic) NSString *aneVersion; // @synthesize aneVersion=_aneVersion;
-@property(nonatomic) long long appleIntelligenceState; // @synthesize appleIntelligenceState=_appleIntelligenceState;
-@property(retain, nonatomic) NSString *carrierBundleIdentifier; // @synthesize carrierBundleIdentifier=_carrierBundleIdentifier;
-@property(retain, nonatomic) NSString *carrierCountryIsoCode; // @synthesize carrierCountryIsoCode=_carrierCountryIsoCode;
-@property(retain, nonatomic) NSArray *enabledInputModeIdentifiers; // @synthesize enabledInputModeIdentifiers=_enabledInputModeIdentifiers;
-@property(nonatomic) _Bool hasAne; // @synthesize hasAne=_hasAne;
-@property(retain, nonatomic) NSString *iCloudIdentifier; // @synthesize iCloudIdentifier=_iCloudIdentifier;
-@property(nonatomic) _Bool isAutomatedTestDevice; // @synthesize isAutomatedTestDevice=_isAutomatedTestDevice;
-@property(nonatomic) _Bool isDiagnosticsAndUsageEnabled; // @synthesize isDiagnosticsAndUsageEnabled=_isDiagnosticsAndUsageEnabled;
 @property(nonatomic) _Bool isEnrolledInBetaProgram; // @synthesize isEnrolledInBetaProgram=_isEnrolledInBetaProgram;
-@property(nonatomic) _Bool logUserKeyboardEnabledInputMode; // @synthesize logUserKeyboardEnabledInputMode=_logUserKeyboardEnabledInputMode;
-@property(nonatomic) _Bool logUserSettingsLanguageCode; // @synthesize logUserSettingsLanguageCode=_logUserSettingsLanguageCode;
-@property(nonatomic) _Bool logUserSettingsRegionCode; // @synthesize logUserSettingsRegionCode=_logUserSettingsRegionCode;
-@property(retain, nonatomic) NSNumber *mapsBucketId; // @synthesize mapsBucketId=_mapsBucketId;
-@property(retain, nonatomic) NSDate *siriDeviceAggregationIdRotationDate; // @synthesize siriDeviceAggregationIdRotationDate=_siriDeviceAggregationIdRotationDate;
-@property(retain, nonatomic) NSString *storefront; // @synthesize storefront=_storefront;
 
 @end
 

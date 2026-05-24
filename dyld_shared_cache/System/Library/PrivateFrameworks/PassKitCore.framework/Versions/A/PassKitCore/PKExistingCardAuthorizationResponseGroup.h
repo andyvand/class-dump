@@ -13,10 +13,10 @@
 × ;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)itemsPartiallyPresentCount;
 - (void);
 - (id);
 - (id);

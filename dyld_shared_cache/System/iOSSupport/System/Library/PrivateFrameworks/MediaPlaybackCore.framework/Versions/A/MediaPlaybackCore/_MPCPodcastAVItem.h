@@ -6,51 +6,28 @@
 
 #import <MediaPlaybackCore/MPCModelGenericAVItem.h>
 
-@class MPCAudioAssetTypeSelection, MPModelGenericObject, NSArray, NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCPodcastAVItem : MPCModelGenericAVItem
 {
     id internalItem;
-    id createdTimestamp;
-    id serviceIdentifier;
-    id assetFactory;
-    id fairPlayKeySession;
-    id $__lazy_storage_$_fairPlayKeyLoader;
-    id chapterLoadingState;
-    id shouldShowChapterArtwork;
-    id $__lazy_storage_$_enhanceDialogueSession;
-    float preferredPlaybackRate;
-    id $__lazy_storage_$_chapterProvider;
-    id _chapters;
-    id areChaptersGenerated;
-    id assetMediaKinds;
-    id playbackInformationProviding;
-    id url;
-    id playbackContext;
-    id queueType;
-    id transcriptAlignments;
-    _Bool useFallbackAsset;
-    id isAssetAndPlayerItemLoaded;
-    id loadAssetAndPlayerItemTask;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)defaultStore;
+- (id)countryCode;
+- (long long)canRemoveAccount:inStore: /* Error: Ran out of types for this method. */;
+- (id)accountType;
+- (id)account:willPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
+- (id)account:didPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
+- (void)aa_setByRemovingObject:(double)arg1;
 - (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)DisableImagePlaygroundiCloudSetting;
+- (id)DisableNotesiCloudSetting;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -80,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (float);
 - (_Bool);
 - (id);
@@ -88,7 +65,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (CDStruct_198678f7);
+- (CDStruct_198678f7);
 - (id);
 - (id);
 - (id);
@@ -99,46 +76,7 @@ __attribute__((visibility("hidden")))
 ì~Áÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *album;
-@property(nonatomic, readonly) NSString *albumArtist;
-@property(nonatomic, readonly) long long albumStoreID;
-@property(nonatomic, readonly) NSString *artist;
-@property(nonatomic, readonly) _Bool assetLoaded;
-@property(nonatomic, readonly) _Bool downloadedAsset;
-@property(nonatomic, readonly) CDStruct_198678f7 duration;
-@property(nonatomic, readonly) double durationFromExternalMetadata;
-@property(nonatomic, readonly) _Bool explicitTrack;
-@property(nonatomic, readonly) NSString *externalContentIdentifier;
-@property(nonatomic, readonly) _Bool hasAudioOnlyDownload;
-@property(nonatomic, readonly) _Bool hasVideo;
-@property(nonatomic, readonly) _Bool hlsAsset;
-@property(nonatomic, readonly) _Bool isEnhanceDialogueActive;
-@property(nonatomic, readonly) NSString *itemDescription;
-@property(nonatomic, readonly) NSString *mainTitle;
-@property(nonatomic, readonly) unsigned long long mediaType;
-@property(nonatomic, readonly) MPModelGenericObject *modelGenericObject;
-@property(nonatomic, readonly) NSArray *musicSubscriptionInformation;
-@property(nonatomic, readonly) NSString *newsSubscriptionInformation;
-@property(nonatomic, readonly) _Bool playbackLikelyToKeepUp;
-@property(nonatomic, readonly) NSString *playbackSettingsSource;
-@property(nonatomic, readonly) NSString *podcastPageContext;
-@property(nonatomic, readonly) NSString *podcastSubscriptionState;
-@property(nonatomic, readonly) NSString *podcastUUID;
-@property(nonatomic, readonly) long long preferredAudioAssetType;
-@property(nonatomic, readonly) MPCAudioAssetTypeSelection *preferredAudioAssetTypeSelection;
-@property(nonatomic) float preferredPlaybackRate; // @synthesize preferredPlaybackRate;
-@property(nonatomic, readonly) _Bool prefersSeekOverSkip;
-@property(nonatomic, readonly) NSDate *releaseDate;
-@property(nonatomic, readonly) NSString *rtcReportingServiceIdentifier;
-@property(nonatomic, readonly) _Bool selectionDisabled;
-@property(nonatomic, readonly) long long storeItemInt64ID;
-@property(nonatomic, readonly) long long storeSubscriptionAdamID;
-@property(nonatomic, readonly) NSString *subtitle;
-@property(nonatomic, readonly) NSString *subtitleShort;
 @property(nonatomic, readonly) _Bool supportsEnhanceDialogue;
-@property(nonatomic, readonly) _Bool supportsIntegratedTimeline;
-@property(nonatomic) _Bool useFallbackAsset; // @synthesize useFallbackAsset;
-@property(nonatomic, readonly) _Bool usesBookmarking;
 
 @end
 

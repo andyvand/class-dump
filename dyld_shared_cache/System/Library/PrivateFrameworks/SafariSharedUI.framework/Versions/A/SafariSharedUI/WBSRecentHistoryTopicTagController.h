@@ -9,21 +9,18 @@
 @interface WBSRecentHistoryTopicTagController
 {
     WBSHistory *_history;
-    unsigned long long _maximumNumberOfTopics;
-    double _timeIntervalBeforeNowForFetchingTags;
 }
 
 - (double);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (void);
 - (id);
 - (void)T@"WKWebViewConfiguration",R,N;
 
 // Remaining properties
 @property(nonatomic) unsigned long long maximumNumberOfTopics; // @synthesize maximumNumberOfTopics=_maximumNumberOfTopics;
-@property(nonatomic) double timeIntervalBeforeNowForFetchingTags; // @synthesize timeIntervalBeforeNowForFetchingTags=_timeIntervalBeforeNowForFetchingTags;
 
 @end
 

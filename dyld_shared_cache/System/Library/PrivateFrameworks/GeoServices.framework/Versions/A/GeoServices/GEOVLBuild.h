@@ -7,27 +7,18 @@
 @interface GEOVLBuild
 {
     unsigned long long _identifier;
-    unsigned int _dataFormatVersion;
-    unsigned int _dataOutputVersion;
-    unsigned int _routingKey;
-    struct {
-        unsigned int has_identifier:1;
-        unsigned int has_dataFormatVersion:1;
-        unsigned int has_dataOutputVersion:1;
-        unsigned int has_routingKey:1;
-    } _flags;
 }
 
-+ (_Bool)tionalDepartures:(id)arg1;
++ (_Bool)setNumAdditionalDepartures:(id)arg1;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void);
+- (void)runLstmPhsModelWithConfig:(id)arg1 withUrl:withConfigRoot:completion: /* Error: Ran out of types for this method. */;
+- (unsigned int)iderSelecting;
 - (unsigned int);
 - (unsigned long long);
 - (_Bool);
@@ -40,9 +31,9 @@
 - (id)º*Ð1Â0@ù
 × ;
 - (id)rchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:brandFallbackSupported:isSettlement:isRefund:fuzzyMatched:coarseLocationUsed:traits: /* Error: Ran out of types for this method. */;
-- (unsigned long long)aceTypes;
+- (unsigned long long)_additionalPlaceTypes;
 - (id)ummaryLayoutUnitHikeRouteLength",&,N;
-- (_Bool)ntFileManager;
+- (_Bool)GEONetworkEventFileManager;
 - (void)ú÷;
 - (id)ase ID:(id)arg1 %@, Source Name:%@, Source ID:%@, Title:%@, Subtitle:%@, ImageURL:%@ /* Error: Ran out of types for this method. */;
 - (void)tem"8Q16^B24;
@@ -51,14 +42,7 @@
 - (unsigned int)@;
 
 // Remaining properties
-@property(nonatomic) unsigned int dataFormatVersion;
-@property(nonatomic) unsigned int dataOutputVersion;
-@property(nonatomic) _Bool hasDataFormatVersion;
-@property(nonatomic) _Bool hasDataOutputVersion;
 @property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasRoutingKey;
-@property(nonatomic) unsigned long long identifier;
-@property(nonatomic) unsigned int routingKey;
 
 @end
 

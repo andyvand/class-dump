@@ -7,13 +7,6 @@
 @interface CUIKCalendarModelSceneState
 {
     _Bool _showDayAsList;
-    _Bool _showMonthAsDivided;
-    int _dayViewFirstVisibleSecond;
-    long long _numDaysToShow;
-    double _dayViewHourScale;
-    double _weekViewHourScale;
-    long long _weekViewFirstVisibleSecond;
-    long long _lastUsedNonYearView;
 }
 
 - (double);
@@ -32,17 +25,10 @@
 - (long long);
 - (double);
 - (int);
-- (id);
+- (id)r",W,N,V_palettePopoverPresentingController;
 
 // Remaining properties
-@property(nonatomic) int dayViewFirstVisibleSecond; // @synthesize dayViewFirstVisibleSecond=_dayViewFirstVisibleSecond;
-@property(nonatomic) double dayViewHourScale; // @synthesize dayViewHourScale=_dayViewHourScale;
-@property(nonatomic) long long lastUsedNonYearView; // @synthesize lastUsedNonYearView=_lastUsedNonYearView;
-@property(nonatomic) long long numDaysToShow; // @synthesize numDaysToShow=_numDaysToShow;
 @property(nonatomic) _Bool showDayAsList; // @synthesize showDayAsList=_showDayAsList;
-@property(nonatomic) _Bool showMonthAsDivided; // @synthesize showMonthAsDivided=_showMonthAsDivided;
-@property(nonatomic) long long weekViewFirstVisibleSecond; // @synthesize weekViewFirstVisibleSecond=_weekViewFirstVisibleSecond;
-@property(nonatomic) double weekViewHourScale; // @synthesize weekViewHourScale=_weekViewHourScale;
 
 @end
 

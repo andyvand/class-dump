@@ -7,10 +7,9 @@
 @interface JetEngine._ACAccountStoreObserver__priv_00D1CFF175C91FD62E87B95DD2C3B337
 {
     id eventEmitter;
-    id notificationCenter;
 }
 
-- (void);
+- (void)e;
 - (void);
 
 @end

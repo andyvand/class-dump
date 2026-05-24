@@ -7,17 +7,9 @@
 @interface ABCDRecordNameFormatter
 {
     _Bool _showPrefix;
-    _Bool _showSuffix;
-    _Bool _showCompany;
-    _Bool _showFallback;
-    _Bool _showNickname;
-    _Bool _showCompanyInFallback;
-    _Bool _showPhonetic;
-    unsigned long long _defaultNameOrder;
-    unsigned long long _defaultSortOrder;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (_Bool);
@@ -32,25 +24,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)iled;
 - (unsigned long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long defaultNameOrder; // @synthesize defaultNameOrder=_defaultNameOrder;
-@property(readonly) unsigned long long defaultSortOrder; // @synthesize defaultSortOrder=_defaultSortOrder;
-@property _Bool showCompany; // @synthesize showCompany=_showCompany;
-@property _Bool showCompanyInFallback; // @synthesize showCompanyInFallback=_showCompanyInFallback;
-@property _Bool showFallback; // @synthesize showFallback=_showFallback;
-@property _Bool showNickname; // @synthesize showNickname=_showNickname;
-@property _Bool showPhonetic; // @synthesize showPhonetic=_showPhonetic;
 @property _Bool showPrefix; // @synthesize showPrefix=_showPrefix;
-@property _Bool showSuffix; // @synthesize showSuffix=_showSuffix;
 
 @end
 

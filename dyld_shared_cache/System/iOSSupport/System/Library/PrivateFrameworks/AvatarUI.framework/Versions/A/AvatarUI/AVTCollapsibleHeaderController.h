@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView, UIView;
-@protocol AVTCollapsibleHeaderControllerDelegate, UIScrollViewDelegate;
+@protocol UIScrollViewDelegate;
 
 @interface AVTCollapsibleHeaderController
 {
     _Bool _shouldResizeHeaderForScrolling;
-    _Bool _shouldSnapToMinOrMax;
-    _Bool _shouldOnlyExpandWhenScrollingAtEdge;
-    _Bool _shouldPushContentOffsetOnExpandOrCollapse;
-    _Bool _shouldCollapseOnBottomBounceScroll;
-    UIScrollView *_scrollView;
-    UIView *_headerView;
-    id <AVTCollapsibleHeaderControllerDelegate> _delegate;
-    double _minHeight;
-    double _maxHeight;
-    double _additionalTopContentInset;
-    id <UIScrollViewDelegate> _scrollViewDelegate;
-    double _scrollToCompressionMultiplier;
-    double _expandMarginalScrollDistance;
-    double _collapseMarginalScrollDistance;
-    double _previousOffset;
-    double _singleTouchOffset;
-    unsigned long long _currentScrollDirection;
 }
 
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -56,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
@@ -65,13 +47,13 @@
 - (void);
 - (unsigned long long);
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (double);
 - (void);
 - (id);
-- (double);
+- (double)::dialogengine::File>=^{File}^{__shared_weak_count}}16 /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (id);
@@ -84,40 +66,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)Accelerate34vDSP_FloatingPointBiquadFilterableP;
 - (id);
-- (void);
+- (void)%;
 - (id);
 - (void);
 - (id)wª;
 
 // Remaining properties
-@property(nonatomic) double additionalTopContentInset; // @synthesize additionalTopContentInset=_additionalTopContentInset;
-@property(nonatomic) double collapseMarginalScrollDistance; // @synthesize collapseMarginalScrollDistance=_collapseMarginalScrollDistance;
-@property(readonly, nonatomic) double currentHeightForHeader;
-@property(nonatomic) unsigned long long currentScrollDirection; // @synthesize currentScrollDirection=_currentScrollDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <AVTCollapsibleHeaderControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double expandMarginalScrollDistance; // @synthesize expandMarginalScrollDistance=_expandMarginalScrollDistance;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIView *headerView; // @synthesize headerView=_headerView;
-@property(nonatomic) double maxHeight; // @synthesize maxHeight=_maxHeight;
-@property(nonatomic) double minHeight; // @synthesize minHeight=_minHeight;
-@property(nonatomic) double previousOffset; // @synthesize previousOffset=_previousOffset;
-@property(nonatomic) double scrollToCompressionMultiplier; // @synthesize scrollToCompressionMultiplier=_scrollToCompressionMultiplier;
-@property(readonly, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
 @property(nonatomic) __weak id <UIScrollViewDelegate> scrollViewDelegate; // @synthesize scrollViewDelegate=_scrollViewDelegate;
-@property(nonatomic) _Bool shouldCollapseOnBottomBounceScroll; // @synthesize shouldCollapseOnBottomBounceScroll=_shouldCollapseOnBottomBounceScroll;
-@property(nonatomic) _Bool shouldOnlyExpandWhenScrollingAtEdge; // @synthesize shouldOnlyExpandWhenScrollingAtEdge=_shouldOnlyExpandWhenScrollingAtEdge;
-@property(nonatomic) _Bool shouldPushContentOffsetOnExpandOrCollapse; // @synthesize shouldPushContentOffsetOnExpandOrCollapse=_shouldPushContentOffsetOnExpandOrCollapse;
-@property(nonatomic) _Bool shouldResizeHeaderForScrolling; // @synthesize shouldResizeHeaderForScrolling=_shouldResizeHeaderForScrolling;
-@property(nonatomic) _Bool shouldSnapToMinOrMax; // @synthesize shouldSnapToMinOrMax=_shouldSnapToMinOrMax;
-@property(nonatomic) double singleTouchOffset; // @synthesize singleTouchOffset=_singleTouchOffset;
-@property(readonly) Class superclass;
 
 @end
 

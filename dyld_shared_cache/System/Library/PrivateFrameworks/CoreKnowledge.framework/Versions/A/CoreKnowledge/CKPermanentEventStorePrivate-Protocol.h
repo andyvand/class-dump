@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKKnowledgeStore;
+@class CKKnowledgeStore, NSDictionary;
 
 @protocol CKPermanentEventStorePrivate
+- (void);
+- (NSDictionary *);
+- (CKKnowledgeStore *)d:currentApplicationState:emergencyModeEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) CKKnowledgeStore *backingStore;

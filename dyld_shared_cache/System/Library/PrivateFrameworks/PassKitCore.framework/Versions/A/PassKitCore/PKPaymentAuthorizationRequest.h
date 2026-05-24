@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PKPaymentRequest;
+@class NSData;
 
 @interface PKPaymentAuthorizationRequest
 {
     NSData *_credential;
-    NSData *_nonceData;
-    PKPaymentRequest *_paymentRequest;
 }
 
 - (void);
+- (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void)LY3814311690852077410603;
+- (void)FAPLLY3814311690852077410603;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *credential; // @synthesize credential=_credential;
-@property(retain, nonatomic) NSData *nonceData; // @synthesize nonceData=_nonceData;
-@property(readonly, nonatomic) PKPaymentRequest *paymentRequest; // @synthesize paymentRequest=_paymentRequest;
 
 @end
 

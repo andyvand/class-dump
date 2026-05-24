@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BSServiceQuality;
+
 @protocol BSServiceConnectionConfiguring
+- (void)eRequest:(BSServiceQuality *)arg1 responseHandler:] /* Error: Ran out of types for this method. */;
+- (void)tokenSession:(void (^)(BSServiceConnection<BSServiceConnectionContext> *))arg1 beginAuthForOperation:constraint:error: /* Error: Ran out of types for this method. */;
 @end
 

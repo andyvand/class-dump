@@ -5,5 +5,6 @@
 //
 
 @protocol PLHighlightItemClustererRule
+- (id)VO:Interactive_Voice /* Error: Ran out of types for this method. */;
 @end
 

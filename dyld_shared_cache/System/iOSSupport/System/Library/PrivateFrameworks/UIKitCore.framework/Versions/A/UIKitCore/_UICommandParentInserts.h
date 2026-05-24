@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UICommandParentInserts
 {
     NSMutableDictionary *_childInserts;
-    NSMutableArray *_fallbackBeforeElements;
-    NSMutableArray *_fallbackAfterElements;
-    NSArray *_atStartElements;
-    NSArray *_atEndElements;
 }
 
+- (id)isTypingMessage;
+- (id)isTimeSensitive;
+- (id)lL	X;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)similar in-progress request with ID %@ - will piggyback off of existing request instead of starting a new one.;
+- (void)ation library. syndicationLibrary:(id)arg1 %@;
 - (void);
 - (id);
 - (void)Äÿaçk;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *atEndElements; // @synthesize atEndElements=_atEndElements;
 @property(readonly, nonatomic) NSArray *atStartElements; // @synthesize atStartElements=_atStartElements;
-@property(readonly, nonatomic) NSDictionary *childInserts; // @synthesize childInserts=_childInserts;
-@property(readonly, nonatomic) NSArray *fallbackAfterElements; // @synthesize fallbackAfterElements=_fallbackAfterElements;
-@property(readonly, nonatomic) NSArray *fallbackBeforeElements; // @synthesize fallbackBeforeElements=_fallbackBeforeElements;
 
 @end
 

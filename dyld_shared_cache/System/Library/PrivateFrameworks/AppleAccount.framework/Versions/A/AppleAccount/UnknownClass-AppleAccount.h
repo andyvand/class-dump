@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AppleAccount)
-+ (id);
-- (void);
++ (id)gner status (%d);
+- (void)r/db/ConfigurationProfiles/.enabled;
 @end
 

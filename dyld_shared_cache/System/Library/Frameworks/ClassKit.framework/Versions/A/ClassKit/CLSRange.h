@@ -6,25 +6,22 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSString;
-
 @interface CLSRange : CLSObject
 {
     double _start;
-    double _end;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)_delegate_presentDataclassActionsForAccount:withAuthResults:completion: /* Error: Ran out of types for this method. */;
+- (void)Source Layers:(id)arg1 {;
+- (_Bool)ViolatesMaxLatency;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (double);
+- (id)b;
+- (id);
+- (double);
 - (void);
 - (double);
 - (id);
@@ -32,20 +29,10 @@
 - (id);
 - (void);
 - (void);
-- (double)ithReferenceDate:completion: /* Error: Ran out of types for this method. */;
+- (double)remote_triggerUserNotificationReviewDueHandoutsWithReferenceDate:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double delta;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double end; // @synthesize end=_end;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *parentObjectID; // @dynamic parentObjectID;
-@property(nonatomic) double start; // @synthesize start=_start;
-@property(readonly) Class superclass;
 
 @end
 

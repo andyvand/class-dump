@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CNCancelable;
+
 @protocol CNScheduler
+- (id <CNCancelable>);
+- (void)^K;
+- (id <CNCancelable>);
+- (id <CNCancelable>)`T;
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)onResultCallback %s/%s (rtt:%f cell:%d/%d v6/rel:%d/%d)  RTT=%d/%d /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (_Bool);
 
 @end

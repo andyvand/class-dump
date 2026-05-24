@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface BPSHistogram
 {
     NSMutableDictionary *_backingDictionary;
-    NSArray *_keyType;
 }
 
 - (id);
@@ -21,7 +20,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setAttachmentGroupModel: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

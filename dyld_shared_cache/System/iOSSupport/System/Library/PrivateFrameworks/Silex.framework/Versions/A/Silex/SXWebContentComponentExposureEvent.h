@@ -6,13 +6,11 @@
 
 #import <Silex/SXAnalyticsEvent.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SXWebContentComponentExposureEvent : SXAnalyticsEvent
 {
     NSString *_componentIdentifier;
-    NSURL *_URL;
-    NSString *_exposureIdentifier;
 }
 
 - (id);
@@ -22,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;
-@property(readonly, nonatomic) NSString *exposureIdentifier; // @synthesize exposureIdentifier=_exposureIdentifier;
 
 @end
 

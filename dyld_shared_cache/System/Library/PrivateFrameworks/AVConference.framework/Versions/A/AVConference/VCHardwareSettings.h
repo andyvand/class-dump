@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCHardwareSettings
 {
     int _supportHEVC;
-    _Bool _supportVCPEncoderInitialized;
-    _Bool _supportVCPEncoder;
-    NSMutableDictionary *_hardwareUsageModeSettings;
-    NSMutableSet *_pixelFormatCollections;
-    _Bool _isSiriVoiceTapSupported;
-    _Bool _isSiriVoicePlayoutSupported;
-    _Bool _isMLEnhanceOneToOneSupported;
 }
 
-+ (id);
++ (id);
 + (unsigned int);
 + (unsigned int);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)i!8;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool)<(;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -46,7 +39,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)P;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -70,30 +63,31 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 + (unsigned int);
 + (unsigned int);
-+ (unsigned int);
++ (unsigned int);
++ (_Bool)kL
+;
++ (_Bool);
++ (_Bool);
++ (_Bool)ȒE9;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned int);
 + (_Bool);
 + (_Bool);
@@ -102,17 +96,17 @@ __attribute__((visibility("hidden")))
 × ;
 + (unsigned int)owTierRedundancyEnabled %d;
 + (_Bool)eAdaptationConfig:] /* Error: Ran out of types for this method. */;
-+ (unsigned int)dSamples;
-+ (id)teControlMediaController_SetSenderProbingEnabled;
++ (unsigned int)_AUIOMicProcDetectDelayedSamples;
++ (id)VCRateControlMediaController_SetSenderProbingEnabled;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (id);
 - (id);
@@ -121,13 +115,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *hardwareUsageModeSettings; // @synthesize hardwareUsageModeSettings=_hardwareUsageModeSettings;
-@property(readonly, nonatomic) _Bool isMLEnhanceOneToOneSupported; // @synthesize isMLEnhanceOneToOneSupported=_isMLEnhanceOneToOneSupported;
-@property(readonly, nonatomic) _Bool isSiriVoicePlayoutSupported;
-@property(readonly, nonatomic) _Bool isSiriVoiceTapSupported;
-@property(readonly, nonatomic) _Bool isVideoRenderingSupported;
-@property(readonly, nonatomic) NSSet *pixelFormatCollections; // @synthesize pixelFormatCollections=_pixelFormatCollections;
-@property(readonly, nonatomic) _Bool supportHEVC;
-@property(readonly, nonatomic) _Bool vcpSupportsHEVCEncoder;
 
 @end
 

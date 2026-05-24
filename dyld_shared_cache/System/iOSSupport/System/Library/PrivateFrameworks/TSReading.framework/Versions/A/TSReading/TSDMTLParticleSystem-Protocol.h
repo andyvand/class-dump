@@ -4,15 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDMetalContext;
-@protocol MTLTexture, TSDMTLDataBuffer;
+@protocol MTLTexture, TSDMTLDataBuffer, TSDMTLParticleSystem;
 
 @protocol TSDMTLParticleSystem
++ (id <TSDMTLParticleSystem>)reason:(struct CGSize)arg1;
++ (id <TSDMTLParticleSystem>)playbackDidStart after rate change dropping to 0 [stalled] - Unpreparing for pause;
+- (struct CGSize)UnconstrainedAudioSampleRate;
+- (id <MTLTexture>)BinauralAudioForUnknownAudioDeviceTypes;
+- (void)SError"16;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <TSDMTLDataBuffer> dataBuffer;
-@property(readonly, nonatomic) TSDMetalContext *metalContext;
-@property(readonly, nonatomic) id <MTLTexture> vertexColorTexture;
-@property(readonly, nonatomic) struct CGSize vertexTextureSize;
 @end
 

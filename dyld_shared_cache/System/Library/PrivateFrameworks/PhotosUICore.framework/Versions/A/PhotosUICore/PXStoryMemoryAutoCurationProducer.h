@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, PHMemory;
-@protocol OS_dispatch_queue;
+@class NSCache, PHMemory;
 
 @interface PXStoryMemoryAutoCurationProducer
 {
     NSCache *_curationCache;
-    PHMemory *_memory;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

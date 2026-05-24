@@ -4,50 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, NSWindow, _NSFullScreenCreateTileDropTargetWindow, _NSFullScreenSpace;
+@class _NSFullScreenSpace;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenCreateTileDropTargetController
 {
     _NSFullScreenSpace *_space;
-    _Bool _isRegisteredForNotifications;
-    _Bool _isWindowDragging;
-    NSTimer *_delayStartWindowCanJoinTimer;
-    _Bool _hasQueriedCanDragForCurrentDrag;
-    _Bool _waitingForDockQueryResponse;
-    _Bool _canJoinSpace;
-    NSWindow *_trackedWindow;
-    _NSFullScreenCreateTileDropTargetWindow *_leftDropTargetWindow;
-    _NSFullScreenCreateTileDropTargetWindow *_rightDropTargetWindow;
-    _Bool _requestedJoinSpace;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (id);
+- (void)r-radius);
+- (_Bool);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)+;
 - (void);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)set_disablesOutOfProcessDirectWiFiUsage: /* Error: Ran out of types for this method. */;
+- (void)_countOfPendingBytesReceivedEncoded;
+- (void)_countOfBytesExpectedToReceive;
+- (void)_countOfBytesClientExpectsToReceive;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)r %lu;
+- (void)n (%@) to the select statement (stmt=%p);
 - (void);
 - (id);
 - (void);

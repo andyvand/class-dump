@@ -5,5 +5,8 @@
 //
 
 @protocol IOBluetoothL2CAPChannelDelegate
+
+@optional
+- (void);
 @end
 

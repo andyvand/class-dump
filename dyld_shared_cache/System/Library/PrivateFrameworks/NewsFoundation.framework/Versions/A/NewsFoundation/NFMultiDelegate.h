@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSHashTable, Protocol;
+@class NSHashTable;
 
 @interface NFMultiDelegate
 {
     NSHashTable *_children;
-    Protocol *_delegateProtocol;
-    NFUnfairLock *_lock;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)uildRoots/4~CNrDugCASYl0BwcdRv7LjLO4bLqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsResumeRouteImprover.m;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)premiumSubscriptionActivationBaselineImpressionValue;
 - (id);
 - (_Bool);
 - (id);
@@ -31,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *children; // @synthesize children=_children;
-@property(readonly, nonatomic) id delegate;
-@property(readonly, nonatomic) Protocol *delegateProtocol; // @synthesize delegateProtocol=_delegateProtocol;
-@property(retain, nonatomic) NFUnfairLock *lock; // @synthesize lock=_lock;
 
 @end
 

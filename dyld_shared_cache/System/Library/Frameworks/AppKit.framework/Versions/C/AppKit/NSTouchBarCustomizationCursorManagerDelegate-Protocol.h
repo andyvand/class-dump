@@ -5,5 +5,6 @@
 //
 
 @protocol NSTouchBarCustomizationCursorManagerDelegate
+- (_Bool);
 @end
 

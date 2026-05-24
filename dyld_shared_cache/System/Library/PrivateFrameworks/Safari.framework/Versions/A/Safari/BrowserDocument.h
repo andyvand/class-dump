@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSMutableArray, NSString, PageCollectionController, WebViewController;
+@class BrowserViewController;
 
 __attribute__((visibility("hidden")))
 @interface BrowserDocument
 {
     BrowserViewController *_currentBrowserViewController;
-    NSMutableArray *_browserViewControllers;
-    _Bool _shouldOpenWindowBehindFrontmost;
-    _Bool _restoringWindow;
-    PageCollectionController *_pageCollectionController;
-    _Bool _popupWindow;
-    _Bool _firstTabOpensWithStartPage;
-    unsigned long long _browsingMode;
-    NSString *_profileIdentifier;
-    NSString *_automationSessionIdentifier;
-    NSString *_profileDisplayTitleInWindow;
-    NSString *_tabGroupDisplayTitleInWindow;
-    long long _restorationState;
 }
 
 + (_Bool);
@@ -48,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)္;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -98,13 +86,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -122,43 +110,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)l;
 - (void);
 - (id);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -166,7 +145,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool)4HE;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -198,8 +186,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)(k;
+- (void)";
 - (_Bool);
 - (void);
 - (_Bool);
@@ -212,13 +200,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -234,7 +222,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
@@ -261,27 +249,7 @@ __attribute__((visibility("hidden")))
 - (void)Á\.;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *automationSessionIdentifier; // @synthesize automationSessionIdentifier=_automationSessionIdentifier;
-@property(readonly, nonatomic) unsigned long long browsingMode; // @synthesize browsingMode=_browsingMode;
-@property(readonly, nonatomic, getter=isConsolidatable) _Bool consolidatable;
-@property(readonly, nonatomic) WebViewController *currentBrowserOrOverlayViewController;
-@property(retain, nonatomic) BrowserViewController *currentBrowserViewController;
-@property(readonly, nonatomic) BrowserViewController *currentBrowserViewControllerIgnoringVisualTabPickerVisibility;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool firstTabOpensWithStartPage; // @synthesize firstTabOpensWithStartPage=_firstTabOpensWithStartPage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long numberOfBrowserViewControllers;
 @property(readonly, nonatomic, getter=isPopupWindow) _Bool popupWindow; // @synthesize popupWindow=_popupWindow;
-@property(copy, nonatomic) NSString *profileDisplayTitleInWindow; // @synthesize profileDisplayTitleInWindow=_profileDisplayTitleInWindow;
-@property(readonly, copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly, nonatomic) long long restorationState; // @synthesize restorationState=_restorationState;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *tabGroupDisplayTitleInWindow; // @synthesize tabGroupDisplayTitleInWindow=_tabGroupDisplayTitleInWindow;
-@property(readonly, nonatomic) _Bool wasRestored;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPCircularBufferArray, NSArray, NSMutableDictionary;
+@class IPCircularBufferArray, NSMutableDictionary;
 
 @interface IPTextMessageConversation
 {
     IPCircularBufferArray *_lastMessages;
-    NSArray *_allMessages;
-    NSMutableDictionary *_messageByMessageIdentifierDictionary;
-    NSMutableDictionary *_eventsByMessageIdentifierDictionary;
 }
 
++ (id),;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -32,8 +29,6 @@
 - (id)|;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allMessages; // @synthesize allMessages=_allMessages;
-@property(retain) NSMutableDictionary *eventsByMessageIdentifierDictionary; // @synthesize eventsByMessageIdentifierDictionary=_eventsByMessageIdentifierDictionary;
 @property(retain) NSMutableDictionary *messageByMessageIdentifierDictionary; // @synthesize messageByMessageIdentifierDictionary=_messageByMessageIdentifierDictionary;
 
 @end

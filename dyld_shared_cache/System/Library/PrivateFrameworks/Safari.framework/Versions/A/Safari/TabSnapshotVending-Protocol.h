@@ -5,5 +5,6 @@
 //
 
 @protocol TabSnapshotVending
+- (void);
 @end
 

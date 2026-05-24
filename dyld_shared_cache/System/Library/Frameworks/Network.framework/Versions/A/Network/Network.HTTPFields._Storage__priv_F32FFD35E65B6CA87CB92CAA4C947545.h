@@ -7,7 +7,6 @@
 @interface Network.HTTPFields._Storage__priv_F32FFD35E65B6CA87CB92CAA4C947545
 {
     id fields;
-    id index;
 }
 
 @end

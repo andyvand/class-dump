@@ -7,13 +7,6 @@
 @interface AWDWifiP2PAirplayHistogramBin
 {
     int _binEnd;
-    int _binStart;
-    unsigned int _count;
-    struct {
-        unsigned int binEnd:1;
-        unsigned int binStart:1;
-        unsigned int count:1;
-    } _has;
 }
 
 - (void);
@@ -25,26 +18,21 @@
 - (int);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)H;
+- (id)*;
+- (void)`;
 - (void);
 - (unsigned long long);
+- (_Bool)(;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)v;
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned int);
+- (unsigned int)tes, such as MS data binding attributes. ;
 
 // Remaining properties
-@property(nonatomic) int binEnd; // @synthesize binEnd=_binEnd;
-@property(nonatomic) int binStart; // @synthesize binStart=_binStart;
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasBinEnd;
 @property(nonatomic) _Bool hasBinStart;
-@property(nonatomic) _Bool hasCount;
 
 @end
 

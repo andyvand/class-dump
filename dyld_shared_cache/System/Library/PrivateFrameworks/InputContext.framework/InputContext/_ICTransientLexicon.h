@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface _ICTransientLexicon
 {
     struct _LXLexicon *_lexicon;
-    NSMutableDictionary *_tokenIdentifierToEntitiesMap;
-    NSMutableDictionary *_entityToTokenIdentifiersMap;
-    NSMutableDictionary *_entityToAdditionalDataMap;
-    unsigned int _identifier;
-    unsigned char _typeFlags;
-    NSString *_name;
 }
 
 + (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)x;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned char);
 - (id);
 - (struct _LXLexicon *);
@@ -41,8 +33,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long entryCount;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) unsigned char typeFlags; // @synthesize typeFlags=_typeFlags;
 
 @end

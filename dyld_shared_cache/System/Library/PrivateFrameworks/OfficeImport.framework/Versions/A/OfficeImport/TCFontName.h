@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface TCFontName
 {
     NSString *_styleName;
-    NSString *_fullName;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)haredLocale allocWithZone:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
 @property(readonly, nonatomic) NSString *styleName; // @synthesize styleName=_styleName;
 
 @end

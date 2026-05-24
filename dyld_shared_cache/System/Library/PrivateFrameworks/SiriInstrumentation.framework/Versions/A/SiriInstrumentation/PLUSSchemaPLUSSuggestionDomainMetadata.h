@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSSuggestionDomainMetadata : SISchemaInstrumentationMessage
 {
     int _suggestionGenerationDomain;
-    struct {
-        unsigned int suggestionGenerationDomain:1;
-    } _has;
 }
 
 - (int);
@@ -25,16 +20,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)es bailing because this is a group chat.;
 - (id);
 - (id)qÝ°1Â0@ù
 × ;
-- (id)SelectionTrainingAppDependentSignals;
+- (id)_inferenceCommsAppSelectionTrainingAppDependentSignals;
 - (id)gTaskInfo;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSuggestionGenerationDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int suggestionGenerationDomain; // @synthesize suggestionGenerationDomain=_suggestionGenerationDomain;
 
 @end

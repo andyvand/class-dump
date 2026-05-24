@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt64EnumDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
-    CDUnknownFunctionPointerType _validationFunc;
 }
 
-- (id);
+- (id)_TtC10SafariCore37WBSAuthenticationServicesAgentMonitor;
 - (void);
 - (void);
 - (void);
@@ -24,10 +22,10 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (id)G;
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void)_SFPBRFPrimaryHeaderStandardCardSection;
 - (void);
 - (id);
 - (void);
@@ -38,11 +36,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)ardQuickType;
+- (void)KeyboardQuickType;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType validationFunc; // @synthesize validationFunc=_validationFunc;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSImage, NSString;
+@class NSDictionary;
 
 @interface UnknownClass (SafariNSExtensionExtras)
 - (id);
@@ -17,10 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *safari_containingAppIcon;
-@property(readonly, nonatomic) NSString *safari_developerIdentifier;
-@property(readonly, nonatomic) _Bool safari_isDeveloperTrustedForExtensionStateSync;
 @property(readonly, nonatomic) NSDictionary *safari_untrustedCodeSigningDictionary;
-@property(readonly, nonatomic) NSString *safari_versionNumber;
 @end
 

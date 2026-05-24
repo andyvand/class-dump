@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKPassShare, PKSecureElementPass, PKSharingMessageDisplayInformation;
+@class PKPassShare;
 
 @interface PKPartialShareInvitation
 {
     PKPassShare *_share;
-    PKSecureElementPass *_pass;
-    unsigned long long _requestSource;
-    unsigned long long _sharingInvitationFlow;
-    NSData *_homeInvite;
-    PKSharingMessageDisplayInformation *_displayInformation;
-    NSString *_recipientNickname;
-    NSString *_recipientHandle;
 }
 
 + (_Bool);
@@ -35,23 +28,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setDurationOnNetwork:(id)arg1;
+- (void)NW_ACTIVITY_COMPLETION_REASON_INVALID;
 - (void)mpletion:(unsigned long long)arg1;
 - (unsigned long long)sactionIdentifier;
 - (void)ier for pass style 'accessCard';
 - (id)ÃÿUm¨3 ;
 
 // Remaining properties
-@property(readonly, nonatomic) PKSharingMessageDisplayInformation *displayInformation; // @synthesize displayInformation=_displayInformation;
-@property(readonly, nonatomic) NSData *homeInvite; // @synthesize homeInvite=_homeInvite;
-@property(readonly, nonatomic) _Bool isHomeShare;
-@property(readonly, nonatomic) PKSecureElementPass *pass; // @synthesize pass=_pass;
-@property(retain, nonatomic) NSString *recipientHandle; // @synthesize recipientHandle=_recipientHandle;
-@property(retain, nonatomic) NSString *recipientNickname; // @synthesize recipientNickname=_recipientNickname;
-@property(nonatomic) unsigned long long requestSource; // @synthesize requestSource=_requestSource;
 @property(readonly, nonatomic) PKPassShare *share; // @synthesize share=_share;
-@property(nonatomic) unsigned long long sharingInvitationFlow; // @synthesize sharingInvitationFlow=_sharingInvitationFlow;
 
 @end
 

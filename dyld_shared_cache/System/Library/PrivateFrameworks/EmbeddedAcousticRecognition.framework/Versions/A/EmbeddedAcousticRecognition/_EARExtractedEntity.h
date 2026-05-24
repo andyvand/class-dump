@@ -9,29 +9,23 @@
 @interface _EARExtractedEntity
 {
     void _entityContent;
-    void _tagName;
 }
 
 - (void);
 - (void);
+- (id)k/Versions/A/CoreFoundation;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (long long);
+- (long long)J;
 - (_Bool);
 - (void)´;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *_entityContent;
-@property(nonatomic, copy) NSString *_tagName;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *entityContent;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *tagName;
 
 @end
 

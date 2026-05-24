@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IHSchemaIHScore, NSData;
+@class IHSchemaIHScore;
 
 @interface IHSchemaIHModelEvaluationEnded : SISchemaInstrumentationMessage
 {
     IHSchemaIHScore *_score;
-    _Bool _hasScore;
 }
 
 - (void);
@@ -26,15 +25,13 @@
 - (id);
 - (id)!èGù1à1Â0@ù
 × ;
-- (id)tExperimentNamespace: /* Error: Ran out of types for this method. */;
+- (id)setExperimentNamespace: /* Error: Ran out of types for this method. */;
 - (id)emaFLOWContact",&,N,V_contact;
-- (id)tEventMetadata;
+- (id)IFPlatformRequestSchemaIFPlatformRequestClientEventMetadata;
 - (void)m.apple.aiml.siri.orch.ORCHClientEvent.ORCHExecutionBridgeContext;
 - (void)¿;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore; // @synthesize hasScore=_hasScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IHSchemaIHScore *score; // @synthesize score=_score;
 
 @end

@@ -9,42 +9,32 @@
 @interface NTPBTopStoriesStyleConfig
 {
     NSString *_backgroundColor;
-    NSString *_foregroundColor;
-    NSString *_label;
-    NSString *_type;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (unsigned long long)vitalityEaseDuration;
+- (id);
+- (_Bool)%lu incompatible software paths, %lu firmlinked paths;
+- (id)whitelistedMasterPlaylistURLs;
+- (_Bool)Did refresh bundle subscription with duration=%llums, id=%{public}@;
 - (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)#;
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void)viousWebEmbedLocation"b1"publisherArticleVersion"b1"rankInVideoPlaylist"b1"role"b1"topStoryMandatoryArticleCount"b1"topStoryOptionalArticleCount"b1"topStoryType"b1"widgetArticleRank"b1"widgetSection"b1"widgetSectionArticleRank"b1"adSupportedChannel"b1"articleLoaded"b1"badgeExposure"b1"didBounce"b1"didExpandDuringView"b1"didOpenInSafari"b1"isAudioEligible"b1"isAudioEngaged"b1"isBreakingNewsArticle"b1"isCoverArticle"b1"isDigitalReplicaAd"b1"isExplorationArticle"b1"isFreeArticle"b1"isGroupedArticle"b1"isNativeAd"b1"isNewUserToArticle"b1"isPaidSubscriberToFeed"b1"isPaidSubscriberToSourceChannel"b1"isSharedSubscriptionOnlyArticle"b1"isSubscribedToGroupFeed"b1"isSubscribedToSourceChannel"b1"isTopStoryArticle"b1"isUserSubscribedToParentFeed"b1"isVideoInFeed"b1"subscriptionOnlyArticle"b1"viewFromNotificationDirectOpen"b1};
-- (_Bool)sQuality: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasQuality: /* Error: Ran out of types for this method. */;
 - (void)|)<+;
-- (id)during_event;
+- (id)is_paid_subscriber_during_event;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) NSString *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(readonly, nonatomic) _Bool hasBackgroundColor;
-@property(readonly, nonatomic) _Bool hasForegroundColor;
-@property(readonly, nonatomic) _Bool hasLabel;
 @property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -6,39 +6,23 @@
 
 #import <CoreData/NSSQLExpressionIntermediate.h>
 
-@class NSExpression, NSMutableArray, NSMutableString, NSSQLColumn, NSSQLEntity, NSSQLFetchIntermediate, NSString;
+@class NSExpression;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLSubqueryExpressionIntermediate : NSSQLExpressionIntermediate
 {
     NSExpression *_trailingKeypath;
-    NSExpression *_variableExpression;
-    NSSQLFetchIntermediate *_fetchIntermediate;
-    NSSQLEntity *_selectFromEntity;
-    NSMutableString *_selectFromCorrelationTarget;
-    NSString *_selectEntityAlias;
-    NSSQLEntity *_governingEntityForVariable;
-    NSSQLColumn *_variableColumn;
-    NSString *_variableAlias;
-    NSSQLColumn *_targetColumn;
-    NSString *_targetAlias;
-    NSMutableArray *_keypathsToPromote;
-    _Bool _useDistinct;
-    _Bool _isCount;
-    _Bool _hasTrailingFunction;
-    _Bool _onlyTrailIsCount;
-    _Bool _subqueryHasTruePredicate;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 
 @end

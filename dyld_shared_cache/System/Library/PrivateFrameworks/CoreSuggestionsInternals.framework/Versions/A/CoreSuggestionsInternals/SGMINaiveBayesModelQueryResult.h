@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGMITokenCounts;
+@class SGMITokenCounts;
 
 @interface SGMINaiveBayesModelQueryResult
 {
     SGMITokenCounts *_mailCount;
-    SGMITokenCounts *_unigramTokenCounts;
-    SGMITokenCounts *_bigramTokenCounts;
-    NSArray *_unigramQueriedTokensCount;
-    NSArray *_bigramQueriedTokensCount;
-    double _oldestTokenAge;
 }
 
 - (id);
@@ -27,12 +22,7 @@
 - (void)¼`ì`hbjk¸khldmlo8p@rÈtètèuxw¸xHz{L}4LTÔt;
 
 // Remaining properties
-@property(readonly) NSArray *bigramQueriedTokensCount; // @synthesize bigramQueriedTokensCount=_bigramQueriedTokensCount;
-@property(readonly) SGMITokenCounts *bigramTokenCounts; // @synthesize bigramTokenCounts=_bigramTokenCounts;
 @property(readonly) SGMITokenCounts *mailCount; // @synthesize mailCount=_mailCount;
-@property(readonly) double oldestTokenAge; // @synthesize oldestTokenAge=_oldestTokenAge;
-@property(readonly) NSArray *unigramQueriedTokensCount; // @synthesize unigramQueriedTokensCount=_unigramQueriedTokensCount;
-@property(readonly) SGMITokenCounts *unigramTokenCounts; // @synthesize unigramTokenCounts=_unigramTokenCounts;
 
 @end
 

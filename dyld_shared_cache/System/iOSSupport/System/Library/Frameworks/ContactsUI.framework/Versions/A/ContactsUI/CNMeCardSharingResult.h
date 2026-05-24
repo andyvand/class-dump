@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactImage, CNWallpaper, NSData, NSString;
+@class NSString;
 
 @interface CNMeCardSharingResult
 {
     _Bool _didSaveImageToMeCard;
-    NSString *_givenName;
-    NSString *_familyName;
-    CNContactImage *_contactImage;
-    CNWallpaper *_wallpaper;
-    NSData *_watchWallpaperImageData;
-    NSData *_avatarRecipeData;
 }
 
 - (id);
@@ -25,17 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void)ctions;
-- (id)cation;
+- (void)_effectiveManagerActions;
+- (id)IDSServiceAvailabilityDidChangeNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *avatarRecipeData; // @synthesize avatarRecipeData=_avatarRecipeData;
-@property(readonly, nonatomic) CNContactImage *contactImage; // @synthesize contactImage=_contactImage;
-@property(readonly, nonatomic) _Bool didSaveImageToMeCard; // @synthesize didSaveImageToMeCard=_didSaveImageToMeCard;
-@property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
 @property(readonly, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, nonatomic) CNWallpaper *wallpaper; // @synthesize wallpaper=_wallpaper;
-@property(readonly, nonatomic) NSData *watchWallpaperImageData; // @synthesize watchWallpaperImageData=_watchWallpaperImageData;
 
 @end
 

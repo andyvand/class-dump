@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, _UISceneHostingController, _UISceneHostingViewControllerPreferencePropagationHostComponent;
-@protocol _UIRemoteSheet;
+@class _UISceneHostingController, _UISceneHostingViewControllerPreferencePropagationHostComponent;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneHostingViewController : UIViewController
@@ -24,20 +23,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)mainBundle;
+- (id)(e;
+- (void)ing context instead;
 - (id);
-- (void);
-- (id);
-- (int);
+- (int);
 - (id);
 - (_Bool);
 - (id)1Â0@ù
 × ;
-- (void)tingForIndexPath:(_Bool)arg1;
+- (void)_sendWillBeginEditingForIndexPath:(_Bool)arg1;
 - (void)tScrollView:preservingContentInset:respectFullExtension:gettingNavBarFrame:topPaletteFrame: /* Error: Ran out of types for this method. */;
 - (_Bool)ewPropertyAnimator",&,N,V_propertyAnimator;
 - (void),&,VkeyboardInputModes;
-- (id)er;
+- (id)byLayer;
 - (void)t = %@>;
 - (unsigned long long)w.down.right;
 - (void)]13ôÌ¤þ;
@@ -46,14 +45,7 @@ __attribute__((visibility("hidden")))
 - (void)èÏ_;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UIRemoteSheet> _remoteSheet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

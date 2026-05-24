@@ -6,17 +6,11 @@
 
 #import <CoreSuggestions/SGObject.h>
 
-@class NSString, SGExtractionInfo;
+@class NSString;
 
 @interface SGName : SGObject
 {
     NSString *_fullName;
-    NSString *_firstName;
-    NSString *_middleName;
-    NSString *_lastName;
-    NSString *_prefix;
-    NSString *_suffix;
-    SGExtractionInfo *_extractionInfo;
 }
 
 + (id);
@@ -36,19 +30,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)rray">36;
 - (id);
 - (void);
 - (id)lþÿOøz;
 
 // Remaining properties
-@property(readonly, nonatomic) SGExtractionInfo *extractionInfo; // @synthesize extractionInfo=_extractionInfo;
-@property(readonly, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
 @property(readonly, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(readonly, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(readonly, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(readonly, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end
 

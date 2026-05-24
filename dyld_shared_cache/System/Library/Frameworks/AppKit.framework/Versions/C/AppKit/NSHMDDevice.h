@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSHMDDevice
 {
     struct _SLSHMD *_hmd;
-    struct _opaque_pthread_mutex_t _mutex;
-    unsigned int _attached:1;
-    unsigned int _acquired:1;
-    unsigned int _awake:1;
 }
 
-+ (id);
++ (id)resume data for background download. Background downloads must use http or https and must download to an accessible file.;
 + (id);
 + (void)t;
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (unsigned long long)terfaceAttribute: /* Error: Ran out of types for this method. */;
+- (id)PHOTOSENSITIVE;
+- (unsigned long long)accessibilitySetEnhancedUserInterfaceAttribute: /* Error: Ran out of types for this method. */;
 - (unsigned long long)m.macpaw.CleanMyMac-mas;
 - (_Bool)ø·dåh ¨;
 - (unsigned long long)4C;
@@ -30,12 +24,6 @@
 
 // Remaining properties
 @property(readonly, getter=isAttached) _Bool attached;
-@property(readonly, getter=isAvailable) _Bool available;
-@property(readonly, getter=isAwake) _Bool awake;
-@property(readonly, copy) NSString *name;
-@property(readonly) unsigned long long productID;
-@property(readonly) unsigned long long serialNumber;
-@property(readonly) unsigned long long vendorID;
 
 @end
 

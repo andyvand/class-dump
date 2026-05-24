@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIModuleCalibration, NSDictionary, NSString;
+@class NSString;
 
 @interface BWSensorConfiguration
 {
     NSString *_portType;
-    NSString *_sensorIDString;
-    NSDictionary *_sensorIDDictionary;
-    NSDictionary *_cameraInfo;
-    CMIModuleCalibration *_moduleCalibration;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)NSValueUIGeometryExtensions;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)vergenceFlags;
+- (id);
+- (id)ispMotionHighPassFilterConvergenceFlags;
 - (id)itor _resolveApplicationState];
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *cameraInfo; // @synthesize cameraInfo=_cameraInfo;
-@property(readonly, nonatomic) CMIModuleCalibration *moduleCalibration; // @synthesize moduleCalibration=_moduleCalibration;
 @property(readonly, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(readonly, nonatomic) NSDictionary *sensorIDDictionary; // @synthesize sensorIDDictionary=_sensorIDDictionary;
-@property(readonly, nonatomic) NSString *sensorIDString; // @synthesize sensorIDString=_sensorIDString;
 
 @end
 

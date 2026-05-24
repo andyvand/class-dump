@@ -7,11 +7,6 @@
 @interface JetEngine.AMSMetricsEventRecorder
 {
     id metrics;
-    id engagement;
-    id defaultTopic;
-    id accountProvider;
-    id anonymousTopics;
-    id decorator;
 }
 
 @end

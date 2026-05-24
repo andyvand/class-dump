@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface HMIThermalMonitor
 {
     struct __IOHIDEventSystemClient *_client;
-    int _thermalLevelNotificationToken;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _thermalLevel;
-    NSMutableDictionary *_services;
 }
 
-+ (id);
++ (id)P;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void);
 - (unsigned long long)ü;
 
 // Remaining properties
 @property(readonly) NSMutableDictionary *services; // @synthesize services=_services;
-@property(readonly) unsigned long long thermalLevel; // @synthesize thermalLevel=_thermalLevel;
 
 @end
 

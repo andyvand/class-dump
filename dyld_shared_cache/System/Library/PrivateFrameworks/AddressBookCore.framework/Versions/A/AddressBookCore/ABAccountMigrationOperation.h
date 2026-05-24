@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccountRepository, NSString;
+@class ABAccountRepository;
 
 @interface ABAccountMigrationOperation
 {
     ABAccountRepository *_accountRepository;
-    NSString *_originAccountIdentifier;
-    NSString *_destinationAccountIdentifier;
-    _Bool _mergeData;
-    _Bool _deleteOriginalData;
-    CDUnknownBlockType _errorHandler;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -27,11 +22,9 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property _Bool deleteOriginalData; // @synthesize deleteOriginalData=_deleteOriginalData;
-@property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
 @property _Bool mergeData; // @synthesize mergeData=_mergeData;
 
 @end

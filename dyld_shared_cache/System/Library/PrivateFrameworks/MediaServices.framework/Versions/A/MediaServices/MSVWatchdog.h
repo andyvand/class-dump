@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSRunLoop, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSOperationQueue;
 
 @interface MSVWatchdog
 {
     _Bool _scheduled;
-    _Bool _running;
-    double _interval;
-    double _timeoutInterval;
-    CDUnknownBlockType _timeoutCallback;
-    NSString *_mode;
-    NSOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSRunLoop *_runLoop;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
 }
 
 - (CDUnknownBlockType);
 - (id);
-- (double);
+- (double)unt:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)cachedOccurrenceImageForCalendarColor:(double)arg1 tileOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)lP;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)blessedPhotoWithFuture:(id)arg1 contact: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -48,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_size;
 - (void);
 - (id);
 - (void);
@@ -57,17 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) NSString *mode; // @synthesize mode=_mode;
 @property(retain, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSRunLoop *runLoop; // @synthesize runLoop=_runLoop;
-@property(nonatomic) _Bool running; // @synthesize running=_running;
-@property(nonatomic) _Bool scheduled; // @synthesize scheduled=_scheduled;
-@property(copy, nonatomic) CDUnknownBlockType timeoutCallback; // @synthesize timeoutCallback=_timeoutCallback;
-@property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
 
 @end
 

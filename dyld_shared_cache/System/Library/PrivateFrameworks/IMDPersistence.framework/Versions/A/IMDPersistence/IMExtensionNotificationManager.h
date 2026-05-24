@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
-- (void)leDatabaseRecordCountReport;
+- (void)exportableDatabaseRecordCountReport;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *notificationsContext; // @synthesize notificationsContext=_notificationsContext;

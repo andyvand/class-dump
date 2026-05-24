@@ -6,24 +6,9 @@
 
 #import <UIKitCore/UIMenuElement.h>
 
-@class NSArray, NSString, UIDeferredMenuElementProvider, UIImage;
-@protocol UIDeferredMenuElementDelegate;
-
 @interface UIDeferredMenuElement : UIMenuElement
 {
     _Bool _isSignalingFulfillment;
-    UIDeferredMenuElementProvider *_elementProvider;
-    _Bool _cachesItems;
-    _Bool _fulfilled;
-    unsigned long long _attributes;
-    NSString *_discoverabilityTitle;
-    long long _state;
-    id _sender;
-    UIImage *_selectedImage;
-    NSString *_identifier;
-    id _metadata;
-    id <UIDeferredMenuElementDelegate> _delegate;
-    NSArray *_fulfilledElements;
 }
 
 + (id);
@@ -32,9 +17,9 @@
 × ;
 + (id)QfÐ1Â0@ù
 × ;
-+ (id)itled;
++ (id)Untitled;
 + (_Bool)ive - provided height for section %ld is %f;
-+ (id)APayloadKeySafariKeyHeight;
++ (id)IAPayloadKeySafariKeyHeight;
 
 @end
 

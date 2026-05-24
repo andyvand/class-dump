@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSFAudioDeviceInfo, NSDictionary, NSString;
+@class CSAudioChunk, CSAudioStreamHolding, CSFAudioDeviceInfo, NSDictionary, NSString;
 
 @protocol CSAudioStreamProviding
+- (CSAudioChunk *);
+- (void)P;
+- (CSAudioStreamHolding *);
+- (CSAudioChunk *)VNMTLDeviceWisdomParametersProviding;
+- (void)Df;
+- (void);
 - (NSDictionary *)%@;
-- (NSString *);
 - (CSFAudioDeviceInfo *)p Access to payload audio at %@ is %@, setting payload recording flag for CoreSpeech.;
 - (_Bool)ice profiles for %{public}@;
 - (_Bool)riggerUserSelectedPhrase _fetchUserSelectedPhraseType];

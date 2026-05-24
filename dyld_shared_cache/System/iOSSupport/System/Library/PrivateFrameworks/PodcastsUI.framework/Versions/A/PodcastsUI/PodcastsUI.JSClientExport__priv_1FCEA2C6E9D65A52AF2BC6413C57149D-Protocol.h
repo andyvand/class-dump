@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol PodcastsUI.JSClientExport__priv_1FCEA2C6E9D65A52AF2BC6413C57149D
-- (NSString *);
+- (void);
+- (NSString *)ac pre-join;
+- (NSString *)";
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *buildType;
-@property(nonatomic, readonly) NSString *deviceType;
-@property(nonatomic, readonly) NSArray *displayKinds;
-@property(nonatomic, readonly) NSString *guid;
-@property(nonatomic, readonly) _Bool isPersonalizationDisabled;
-@property(nonatomic, readonly) _Bool isThinClient;
-@property(nonatomic, readonly) NSString *storefrontIdentifier;
 @end
 

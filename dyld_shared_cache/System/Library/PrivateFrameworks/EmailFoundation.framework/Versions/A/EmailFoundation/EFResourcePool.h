@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFQueue, NSMutableSet;
-
 @interface EFResourcePool
 {
     struct os_unfair_lock_s _handleResourceLock;
-    unsigned long long _uncreatedResourcesCount;
-    EFQueue *_activeResources;
-    NSMutableSet *_inactiveResources;
 }
 
-- (void);
+- (void)P;
+- (id)Label",R,N,V_liveBroadcastScrubberLabel;
 - (id);
-- (id);
-- (id);
+- (id)c}@;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EFQueue *activeResources; // @synthesize activeResources=_activeResources;
-@property(readonly, nonatomic) NSMutableSet *inactiveResources; // @synthesize inactiveResources=_inactiveResources;
 @property(nonatomic) unsigned long long uncreatedResourcesCount; // @synthesize uncreatedResourcesCount=_uncreatedResourcesCount;
 
 @end

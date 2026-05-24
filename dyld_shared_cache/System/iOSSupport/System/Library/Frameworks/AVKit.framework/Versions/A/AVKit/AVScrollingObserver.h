@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, NSTimer, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface AVScrollingObserver
 {
     UIView *_view;
-    NSHashTable *_observedScrollViews;
-    NSHashTable *_delegates;
-    NSTimer *_scrollingDidEndTimer;
-    _Bool _scrolling;
-    _Bool _scrollingQuickly;
 }
 
 - (void);
@@ -22,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)rActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_13TimeMarkEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)!PEù1[ð1Â0@ù
@@ -32,15 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)_avkit_frameRateIsValid:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isScrolling) _Bool scrolling; // @synthesize scrolling=_scrolling;
-@property(nonatomic, getter=isScrollingQuickly) _Bool scrollingQuickly; // @synthesize scrollingQuickly=_scrollingQuickly;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet, NSDate, NSIndexSet, NSOrderedSet, NSString, PHAssetCollection, PHPhotoLibrary, PLCloudFeedEntry, PXSharedAlbumParticipant;
+@class NSDate;
 
 @interface PXFeedSectionInfo
 {
     _Bool _loaded;
-    _Bool _shouldBeVisibleWhenEmpty;
-    NSString *_transientIdentifier;
-    PLCloudFeedEntry *_cloudFeedEntry;
-    long long _sectionType;
-    PHPhotoLibrary *_photoLibrary;
-    NSDate *_date;
-    PHAssetCollection *_sharedAlbum;
-    NSString *_albumTitle;
-    PXSharedAlbumParticipant *_invitee;
-    long long _numberOfItems;
-    NSIndexSet *_excludedAssetIndexes;
 }
 
 + (id);
 + (void);
-+ (void);
++ (void);
 - (void);
 - (long long);
 - (_Bool);
@@ -32,12 +21,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (long long)M;
 - (long long);
 - (long long);
-- (long long);
 - (_Bool);
 - (void);
 - (id);
@@ -65,13 +54,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)initWithIOSurface:(_Bool)arg1 imageManager: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void)!\AùQ<1Â0@ù
 × ;
 - (unsigned long long)sAssetCollectionFinal;
-- (id)mationDuration;
+- (id)persistenceConfirmationDuration;
 - (_Bool)Äªøÿ;
 - (id);
 - (id)No Music Just Voice;
@@ -87,47 +76,7 @@
 - (unsigned long long)t~ÏÿösO»>;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumTitle; // @synthesize albumTitle=_albumTitle;
-@property(readonly, nonatomic) unsigned long long approximateCount;
-@property(readonly, retain, nonatomic) NSOrderedSet *assets;
-@property(readonly, nonatomic) unsigned long long assetsCount;
-@property(readonly, nonatomic) _Bool canShowAvalancheStacks;
-@property(readonly, nonatomic) _Bool canShowComments;
-@property(readonly, nonatomic) PLCloudFeedEntry *cloudFeedEntry; // @synthesize cloudFeedEntry=_cloudFeedEntry;
-@property(readonly, nonatomic) NSCountedSet *countsByAssetDisplayType;
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSDate *endDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,&,N
-
-@property(copy, nonatomic) NSIndexSet *excludedAssetIndexes; // @synthesize excludedAssetIndexes=_excludedAssetIndexes;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXSharedAlbumParticipant *invitee; // @synthesize invitee=_invitee;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isMine;
-@property(nonatomic, getter=isLoaded) _Bool loaded; // @synthesize loaded=_loaded;
-@property(readonly, copy, nonatomic) NSArray *localizedLocationNames;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(nonatomic) long long numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) unsigned long long photosCount;
-@property(readonly, nonatomic) long long sectionType; // @synthesize sectionType=_sectionType;
-@property(retain, nonatomic) PHAssetCollection *sharedAlbum; // @synthesize sharedAlbum=_sharedAlbum;
-@property(nonatomic) _Bool shouldBeVisibleWhenEmpty; // @synthesize shouldBeVisibleWhenEmpty=_shouldBeVisibleWhenEmpty;
-@property(readonly, retain, nonatomic) NSDate *startDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,&,N
-
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSString *transientIdentifier; // @synthesize transientIdentifier=_transientIdentifier;
-@property(readonly, retain, nonatomic) NSString *uuid;
-@property(readonly, nonatomic) unsigned long long videosCount;
 
 @end
 

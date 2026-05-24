@@ -5,5 +5,6 @@
 //
 
 @protocol NSDeserializerStream
+- (id)za;
 @end
 

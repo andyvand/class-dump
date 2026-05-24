@@ -7,10 +7,6 @@
 @interface CoreUtilsSwift.CUAsyncSerialQueue
 {
     id ordering;
-    id _continuations;
-    id _dispatchQueue;
-    id _isProcessing;
-    id _nextTaskID;
 }
 
 @end

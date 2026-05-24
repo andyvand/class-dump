@@ -6,29 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DODMLASRSchemaDODMLASRAlignmentInfo : SISchemaInstrumentationMessage
 {
     NSString *_referenceName;
-    unsigned int _numDeletions;
-    unsigned int _numInsertions;
-    unsigned int _numSubstitutions;
-    unsigned int _editDistance;
-    unsigned int _referenceSize;
-    struct {
-        unsigned int numDeletions:1;
-        unsigned int numInsertions:1;
-        unsigned int numSubstitutions:1;
-        unsigned int editDistance:1;
-        unsigned int referenceSize:1;
-    } _has;
-    _Bool _hasReferenceName;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
@@ -57,10 +44,10 @@
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void)*;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)unchedInSec"b1"isDefaultApp"b1"isRequestByLabel"b1"isRequestByHandleType"b1};
 - (id)NLXSchemaCDMSetupMissingAssetsDetected;
@@ -68,19 +55,7 @@
 - (void)4È%;
 
 // Remaining properties
-@property(nonatomic) unsigned int editDistance; // @synthesize editDistance=_editDistance;
-@property(nonatomic) _Bool hasEditDistance;
-@property(nonatomic) _Bool hasNumDeletions;
-@property(nonatomic) _Bool hasNumInsertions;
-@property(nonatomic) _Bool hasNumSubstitutions;
-@property(nonatomic) _Bool hasReferenceName; // @synthesize hasReferenceName=_hasReferenceName;
-@property(nonatomic) _Bool hasReferenceSize;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numDeletions; // @synthesize numDeletions=_numDeletions;
-@property(nonatomic) unsigned int numInsertions; // @synthesize numInsertions=_numInsertions;
-@property(nonatomic) unsigned int numSubstitutions; // @synthesize numSubstitutions=_numSubstitutions;
 @property(copy, nonatomic) NSString *referenceName; // @synthesize referenceName=_referenceName;
-@property(nonatomic) unsigned int referenceSize; // @synthesize referenceSize=_referenceSize;
 
 @end
 

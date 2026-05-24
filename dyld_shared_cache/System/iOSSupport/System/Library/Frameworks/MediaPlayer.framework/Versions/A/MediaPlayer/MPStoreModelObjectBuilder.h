@@ -9,24 +9,22 @@
 @interface MPStoreModelObjectBuilder
 {
     _Bool _preventStoreItemMetadataCaching;
-    MPPropertySet *_requestedPropertySet;
 }
 
 + (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)ss;
+- (_Bool)param;
+- (void)_allowsVideoConstrainedNetworkAccess;
 
 // Remaining properties
-@property(nonatomic) _Bool preventStoreItemMetadataCaching; // @synthesize preventStoreItemMetadataCaching=_preventStoreItemMetadataCaching;
 @property(readonly, nonatomic) MPPropertySet *requestedPropertySet; // @synthesize requestedPropertySet=_requestedPropertySet;
 
 @end

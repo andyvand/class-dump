@@ -7,11 +7,6 @@
 @interface NewsFeed.FeedNativeAdManager
 {
     id nativeAdService;
-    id placementPolicy;
-    id observers;
-    id lock;
-    id fetchingSectionIdentifiers;
-    id state;
 }
 
 @end

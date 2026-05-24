@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeiCloudLinkModel
 {
     id _item;
-    id _$observationRegistrar;
 }
 
 @end

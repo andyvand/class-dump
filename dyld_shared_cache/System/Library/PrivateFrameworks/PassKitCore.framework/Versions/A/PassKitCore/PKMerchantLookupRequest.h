@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapService, NSObject;
-@protocol OS_dispatch_queue, PKMerchantLookupRequestSource;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PKMerchantLookupRequest
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    id <PKMerchantLookupRequestSource> _source;
-    MKMapService *_service;
 }
 
 - (void);
-- (id);
+- (id));
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)ash;
+- (void)appleHash;
 - (id)o;Ìî)?"ýÖ>Tt?UUUUUUå?;
 
 @end

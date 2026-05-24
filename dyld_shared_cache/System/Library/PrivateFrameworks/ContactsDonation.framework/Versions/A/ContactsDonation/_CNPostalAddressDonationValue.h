@@ -6,17 +6,15 @@
 
 #import <ContactsDonation/CNDonationValue.h>
 
-@class CNPostalAddress, NSString;
+@class CNPostalAddress;
 
 @interface _CNPostalAddressDonationValue : CNDonationValue
 {
     CNPostalAddress *_postalAddress;
-    long long _style;
-    NSString *_label;
 }
 
 + (_Bool);
-- (id);
+- (id)documentUTI;
 - (id);
 - (long long);
 - (id);
@@ -24,15 +22,13 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)Qt;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)setToolbarItem:(id)arg1 forExtensionWithUUID:imageData: /* Error: Ran out of types for this method. */;
+- (void)blocklistStatusForTokenIDs:length:matchType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(readonly, copy, nonatomic) CNPostalAddress *postalAddress; // @synthesize postalAddress=_postalAddress;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

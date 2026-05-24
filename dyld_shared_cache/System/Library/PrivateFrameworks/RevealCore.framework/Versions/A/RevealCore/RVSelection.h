@@ -9,7 +9,7 @@
 }
 
 + (struct _NSRange);
-+ (unsigned long long);
++ (unsigned long long)8;
 + (struct _NSRange);
 
 @end

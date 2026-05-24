@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (struct AudioComponentVector);
 - (void);
 - (void);
-- (void);
+- (void)K;
 - (id);
 - (id);
 - (void)c	;

@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEODrivingWalkingSpokenInstruction
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_continueStage;
-    NSMutableArray *_executionStages;
-    GEOFormattedString *_initialStage;
-    GEOFormattedString *_preparationStage;
-    GEOFormattedString *_proceedStage;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _shortChainedInstructionIndex;
-    struct {
-        unsigned int has_shortChainedInstructionIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_continueStage:1;
-        unsigned int read_executionStages:1;
-        unsigned int read_initialStage:1;
-        unsigned int read_preparationStage:1;
-        unsigned int read_proceedStage:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)sProblematicDepartureSequenceIndex:(id)arg1;
++ (_Bool)setHasProblematicDepartureSequenceIndex:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
@@ -44,49 +24,38 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (_Bool)finishEncoding;
+- (_Bool)ount;
+- (unsigned long long)CNHandleStringClassification;
+- (id)CNPrimitiveUserDefaults;
+- (id)t;
+- (void)leStrings:classificationQuality:] /* Error: Ran out of types for this method. */;
+- (void)Phonetic Kyrgyzstan;
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (void);
-- (id)UnderageAccount:(struct _NSZone *)arg1;
-- (id)tMetadata;
-- (id)_TIME_MS;
+- (id);
+- (id)m;
+- (void);
+- (void)setVolume:(id)arg1 fadeDuration: /* Error: Ran out of types for this method. */;
+- (id)getVolumeForTTSType:withContext:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (id)setHasIsUnderageAccount:(struct _NSZone *)arg1;
+- (id)GEOPDAutocompletePlaceContextMetadata;
+- (id)MSL_PLACES_REQUEST_COMPLETE_TIME_MS;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *continueStage;
-@property(retain, nonatomic) NSMutableArray *executionStages;
-@property(readonly, nonatomic) _Bool hasContinueStage;
-@property(readonly, nonatomic) _Bool hasInitialStage;
-@property(readonly, nonatomic) _Bool hasPreparationStage;
 @property(readonly, nonatomic) _Bool hasProceedStage;
-@property(nonatomic) _Bool hasShortChainedInstructionIndex;
-@property(retain, nonatomic) GEOFormattedString *initialStage;
-@property(retain, nonatomic) GEOFormattedString *preparationStage;
-@property(retain, nonatomic) GEOFormattedString *proceedStage;
-@property(nonatomic) unsigned int shortChainedInstructionIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

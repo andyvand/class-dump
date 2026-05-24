@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRFeedbackProvider
 {
     id hostingViewController;
-    id feedbackController;
-    id autoCategorizationFeedbackSubject;
-    id suggestedRemindersFeedbackSubject;
 }
 
 @end

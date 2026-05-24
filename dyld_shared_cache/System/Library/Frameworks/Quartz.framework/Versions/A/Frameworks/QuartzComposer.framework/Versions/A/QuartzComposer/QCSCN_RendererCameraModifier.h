@@ -7,9 +7,6 @@
 @interface QCSCN_RendererCameraModifier
 {
     void *_cachedSceneRef;
-    struct C3DSphere _viewedObjectSphere;
-    double zNEar_i;
-    double zFar_i;
 }
 
 - (void);

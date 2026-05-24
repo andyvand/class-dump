@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRasterizationRateLayerArray, NSString;
+@class MTLRasterizationRateLayerArray;
 
 @interface MTLRasterizationRateMapDescriptor
 {
 }
 
-+ (id);
++ (id),;
 + (id);
 + (id);
 + (id)ð;
@@ -19,10 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *label; // @dynamic label;
-@property(readonly, nonatomic) unsigned long long layerCount; // @dynamic layerCount;
 @property(readonly, nonatomic) MTLRasterizationRateLayerArray *layers; // @dynamic layers;
-@property(nonatomic) CDStruct_da2e99ad screenSize; // @dynamic screenSize;
 
 @end
 

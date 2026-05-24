@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSSharingServicePicker, NSString;
-@protocol CNUIShareKitTransitionProvider;
+@class CNContact, NSString;
 
 @interface CNUIVCardSharingTask
 {
     NSString *_emailSubject;
-    NSArray *_defaultRecipients;
-    id <CNUIShareKitTransitionProvider> _transitionProvider;
-    CNContact *_contact;
-    NSSharingServicePicker *_servicePicker;
 }
 
 + (id);
@@ -25,10 +20,10 @@
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -37,7 +32,7 @@
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (void);
 - (id);
@@ -46,17 +41,6 @@
 
 // Remaining properties
 @property(retain) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) NSArray *defaultRecipients; // @synthesize defaultRecipients=_defaultRecipients;
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *emailSubject; // @synthesize emailSubject=_emailSubject;
-@property(readonly) unsigned long long hash;
-@property(retain) NSSharingServicePicker *servicePicker; // @synthesize servicePicker=_servicePicker;
-@property(readonly) Class superclass;
-@property(retain) id <CNUIShareKitTransitionProvider> transitionProvider; // @synthesize transitionProvider=_transitionProvider;
 
 @end
 

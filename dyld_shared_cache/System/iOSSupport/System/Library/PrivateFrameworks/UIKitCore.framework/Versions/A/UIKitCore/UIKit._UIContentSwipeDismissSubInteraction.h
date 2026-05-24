@@ -9,9 +9,6 @@
 @interface UIKit._UIContentSwipeDismissSubInteraction
 {
     id parent;
-    void view;
-    id gesture;
-    id conflictingScrollViews;
 }
 
 - (_Bool);
@@ -23,8 +20,8 @@
 - (_Bool)AdjustmentBehaviour,S_setInsetAdjustmentBehavior:(id)arg1 ,V_insetAdjustmentBehavior;
 - (id)crollEdgeEffectView",N,&,VleftPocket;
 - (void)has unresolved top separator visibility. %@;
-- (void)eTimeCode;
-- (_Bool)sNamesKey;
+- (void)UITextContentTypeOneTimeCode;
+- (_Bool)_UIARACustomizationsContainerClassNamesKey;
 - (void)X;
 - (void)ì!_;
 - (_Bool));

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString;
-
 @interface SPFirmwareUpdateStateResult
 {
     long long _state;
-    NSDate *_stateDate;
-    NSString *_currentSystemVersion;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)n TO;
 - (long long);
 - (id);
 - (void);
@@ -31,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentSystemVersion; // @synthesize currentSystemVersion=_currentSystemVersion;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSDate *stateDate; // @synthesize stateDate=_stateDate;
 
 @end
 

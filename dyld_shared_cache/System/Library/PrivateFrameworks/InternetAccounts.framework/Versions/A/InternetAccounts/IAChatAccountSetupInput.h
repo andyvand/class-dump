@@ -11,34 +11,24 @@
 @interface IAChatAccountSetupInput : IAAccountSetupInput
 {
     NSString *_accountType;
-    NSString *_loginName;
-    NSString *_serverName;
-    long long _serverPort;
-    _Bool _useSSL;
-    _Bool _useKerberosV5;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (void);
+- (void)"(;
 - (void);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)]$;
 
 // Remaining properties
 @property(retain) NSString *accountType; // @synthesize accountType=_accountType;
-@property(retain) NSString *loginName; // @synthesize loginName=_loginName;
-@property(retain) NSString *serverName; // @synthesize serverName=_serverName;
-@property long long serverPort; // @synthesize serverPort=_serverPort;
-@property _Bool useKerberosV5; // @synthesize useKerberosV5=_useKerberosV5;
-@property _Bool useSSL; // @synthesize useSSL=_useSSL;
 
 @end
 

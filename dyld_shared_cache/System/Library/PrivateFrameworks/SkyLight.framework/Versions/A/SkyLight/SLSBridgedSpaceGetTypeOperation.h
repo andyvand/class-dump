@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)wned NSFetchIndexDescription;
+- (id)l generation failed %@);
 - (id);
 - (unsigned long long);
 - (id);

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PPEventHighlight
 {
     _Bool _isExtraordinary;
-    NSString *_eventIdentifier;
-    NSURL *_externalURI;
-    NSString *_title;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_location;
-    NSString *_organizer;
-    struct CGColor *_calendarColor;
-    unsigned long long _prominentFeature;
-    NSArray *_features;
-    double _score;
 }
 
 + (id);
@@ -33,13 +22,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)SFBeginMapsRoutingCommand;
+- (void)l5;
 - (void);
 - (id);
+- (void)}S_;
+- (void);
+- (id)_upgradeLegacyPenInks;
 - (id);
 - (unsigned long long);
 - (id);
@@ -52,28 +41,17 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (struct CGColor *);
 - (void)(x;
 
 // Remaining properties
-@property(nonatomic) struct CGColor *calendarColor; // @synthesize calendarColor=_calendarColor;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
-@property(retain, nonatomic) NSURL *externalURI; // @synthesize externalURI=_externalURI;
-@property(retain, nonatomic) NSArray *features; // @synthesize features=_features;
-@property(nonatomic) _Bool isExtraordinary; // @synthesize isExtraordinary=_isExtraordinary;
-@property(retain, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSString *organizer; // @synthesize organizer=_organizer;
-@property(nonatomic) unsigned long long prominentFeature; // @synthesize prominentFeature=_prominentFeature;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

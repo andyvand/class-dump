@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @protocol MTLEvent
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(copy) NSString *label;
 @end
 

@@ -16,12 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)cineast;
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;

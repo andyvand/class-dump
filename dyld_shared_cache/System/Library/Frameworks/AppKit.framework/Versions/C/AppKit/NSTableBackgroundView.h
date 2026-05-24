@@ -6,20 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSGradient, NSImage, NSTableView;
+@class NSColor, NSImage;
 
 __attribute__((visibility("hidden")))
 @interface NSTableBackgroundView : NSView
 {
     NSColor *_firstAlternatingColor;
-    NSColor *_secondAlternatingColor;
-    NSTableView *_tableView;
-    NSImage *_backgroundImage;
-    NSGradient *_gradient;
-    struct CGSize _cachedSize;
-    long long _rubberBandArea;
-    _Bool _isOpaque;
-    _Bool _shouldDrawVerticalGrid;
 }
 
 + (id);
@@ -27,22 +19,22 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)taskDependencyDescriptionWithURLPath:parentMimeType: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_didReceiveProgressUpdateWithTotalBytesWritten:(unsigned long long)arg1 totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id)lic}@ was not selected for reporting;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)System/Library/PrivateFrameworks/FTServices.framework/Versions/A/FTServices;
+- (void)set %llu, stream id %llu;
+- (void)language;
+- (void)br;
+- (void)Better Route Detected;
 - (void);
 - (id);
 - (void);
@@ -50,25 +42,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id)controlPoint:(struct CGRect)arg1;
+- (id)relativeCurveToPoint:(struct CGRect)arg1 controlPoint: /* Error: Ran out of types for this method. */;
 - (id)ð
 ;
 - (void)le setting %{public}@ as the firstResponder for %{public}@, was unable to resignFirstResponder on the window's previous firstResponder, because the zeroing weak reference had already been cleared implicitly. Letting an NSResponder deallocate while it is still firstResponder of a window is a programming error, which also breaks KVC compliance for the window's firstResponder property.
 %{public}@;
 - (void)ror %d;
-- (void)tTrait:(id)arg1 16777216;
+- (void)changeFontTrait:(id)arg1 16777216;
 - (void);
 - (id)À_B;
 
 // Remaining properties
 @property(retain) NSImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain) NSColor *firstAlternatingColor;
-@property(retain) NSGradient *gradient; // @synthesize gradient=_gradient;
-@property(getter=isOpaque) _Bool opaque; // @dynamic opaque;
-@property long long rubberBandArea; // @synthesize rubberBandArea=_rubberBandArea;
-@property(retain) NSColor *secondAlternatingColor; // @synthesize secondAlternatingColor=_secondAlternatingColor;
-@property _Bool shouldDrawVerticalGrid; // @synthesize shouldDrawVerticalGrid=_shouldDrawVerticalGrid;
-@property NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

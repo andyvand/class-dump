@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     double _explicitPosition;
 }
 
-+ (id);
-+ (id);
-- (void);
++ (id)selected for reporting;
++ (id)lic}@ background authenticator getting headers for %@ codes %@;
+- (void)w;
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)setConnectionProxyDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property double explicitPosition; // @synthesize explicitPosition=_explicitPosition;

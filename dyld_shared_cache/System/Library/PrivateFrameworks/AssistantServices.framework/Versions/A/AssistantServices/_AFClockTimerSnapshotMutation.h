@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFClockTimerSnapshot, NSDate, NSDictionary, NSOrderedSet, NSString;
+@class AFClockTimerSnapshot;
 
 @interface _AFClockTimerSnapshotMutation
 {
     AFClockTimerSnapshot *_base;
-    unsigned long long _generation;
-    NSDate *_date;
-    NSDictionary *_timersByID;
-    NSOrderedSet *_notifiedFiringTimerIDs;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasGeneration:1;
-        unsigned int hasDate:1;
-        unsigned int hasTimersByID:1;
-        unsigned int hasNotifiedFiringTimerIDs:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)B;
+- (void)R:(id)arg1 CA;
 - (id);
 - (void);
-- (id)ion;
-- (void)eviceSyncDisabled: /* Error: Ran out of types for this method. */;
+- (id)speechDidPauseRecognition;
+- (void)_isInactiveDeviceSyncDisabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

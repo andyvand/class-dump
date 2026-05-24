@@ -6,30 +6,27 @@
 
 #import <IMCore/IMChatItemFilterController.h>
 
-@class IMMessageItem, NSString;
+@class NSString;
 @protocol IMChatItemRules;
 
 @interface IMInlineReplyController : IMChatItemFilterController
 {
     id <IMChatItemRules> _chatItemRules;
-    NSString *_threadIdentifier;
-    IMMessageItem *_threadOriginator;
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)pleCount<=0 breaking loop %d;
+- (_Bool)f;
+- (id)valid pointer;
+- (id)%ld bytes %s ...;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)¸ª¬;
 - (void);
 - (id)Sending via satellite;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(retain, nonatomic) IMMessageItem *threadOriginator; // @synthesize threadOriginator=_threadOriginator;
 
 @end
 

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
+- (id)letion guid:(id)arg1 %@ success:%{BOOL}d error:%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)ting recoverable error state (%zd) for IMFileTransfer %@;
 - (id);
-- (struct CGSize);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);

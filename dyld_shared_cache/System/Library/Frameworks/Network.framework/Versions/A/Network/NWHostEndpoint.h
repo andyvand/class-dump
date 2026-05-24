@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *hostname;
-@property(readonly, nonatomic) NSString *port;
 
 @end
 

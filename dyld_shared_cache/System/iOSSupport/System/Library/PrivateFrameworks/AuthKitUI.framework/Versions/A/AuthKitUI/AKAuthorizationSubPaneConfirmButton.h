@@ -6,24 +6,11 @@
 
 #import <AuthKitUI/AKAuthorizationSubPane.h>
 
-@class AKAuthorizationButton, AKAuthorizationPaneContext, AKAuthorizationPresentationContext, NSObject, NSString, UILabel, UIStackView, UIView;
-@protocol AKAuthorizationSubPaneConfirmButtonDelegate, OS_dispatch_group;
+@class AKAuthorizationPaneContext;
 
 @interface AKAuthorizationSubPaneConfirmButton : AKAuthorizationSubPane
 {
     CDUnknownBlockType _processingStateCompletionHandler;
-    NSObject<OS_dispatch_group> *_processingStateGroup;
-    _Bool _hasTouchIDOnly;
-    _Bool _canPerformBiometricValidation;
-    _Bool _isPasscodeAuthorizationInProcess;
-    NSString *_bioTextForInactiveState;
-    AKAuthorizationButton *_authorizationButton;
-    id <AKAuthorizationSubPaneConfirmButtonDelegate> _delegate;
-    AKAuthorizationPaneContext *_context;
-    AKAuthorizationPresentationContext *_presentationContext;
-    UIStackView *_mainStackView;
-    UIView *_authorizationButtonContainer;
-    UILabel *_bioLabel;
 }
 
 + (id);
@@ -36,14 +23,14 @@
 - (void);
 - (void);
 - (void);
+- (void)@haN;
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)I;
 - (_Bool);
 - (id);
 - (id);
@@ -55,21 +42,21 @@
 - (void);
 - (void);
 - (void);
+- (id)@9;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,32 +67,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
+- (id);
+- (void)ube.fsh;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AKAuthorizationButton *authorizationButton; // @synthesize authorizationButton=_authorizationButton;
-@property(readonly, nonatomic) UIView *authorizationButtonContainer; // @synthesize authorizationButtonContainer=_authorizationButtonContainer;
-@property(retain, nonatomic) UILabel *bioLabel; // @synthesize bioLabel=_bioLabel;
-@property(copy, nonatomic) NSString *bioTextForInactiveState; // @synthesize bioTextForInactiveState=_bioTextForInactiveState;
-@property(copy, nonatomic) NSString *buttonText;
-@property(nonatomic) _Bool canPerformBiometricValidation; // @synthesize canPerformBiometricValidation=_canPerformBiometricValidation;
 @property(retain, nonatomic) AKAuthorizationPaneContext *context; // @synthesize context=_context;
-@property(nonatomic) __weak id <AKAuthorizationSubPaneConfirmButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasTouchIDOnly; // @synthesize hasTouchIDOnly=_hasTouchIDOnly;
-@property _Bool isPasscodeAuthorizationInProcess; // @synthesize isPasscodeAuthorizationInProcess=_isPasscodeAuthorizationInProcess;
-@property(retain, nonatomic) UIStackView *mainStackView; // @synthesize mainStackView=_mainStackView;
-@property(retain, nonatomic) AKAuthorizationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
 
 @end
 

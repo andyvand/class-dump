@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface KCSharingGroup
 {
     NSString *_groupID;
-    NSString *_displayName;
-    NSArray *_participants;
-    NSURL *_shareURL;
 }
 
 + (_Bool);

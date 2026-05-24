@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceCategoriesTicket
+- (void)_chat:(void (^)(NSArray *, NSError *))arg1 resendEditedMessageItem:(void (^)(_Bool))arg2 partIndex:withBackwardCompatabilityText: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

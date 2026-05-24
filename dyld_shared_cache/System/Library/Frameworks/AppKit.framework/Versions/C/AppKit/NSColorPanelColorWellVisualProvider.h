@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSAppearance *appearanceForRenderingColor;
 }
 
-- (struct CGSize);
+- (struct CGSize)numberWithUnsignedInteger: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);

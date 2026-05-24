@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)vice. ;
+- (id)h CacheDelete service. ;
+- (id)lete...;
+- (id);
+- (id), setting to 0;
+- (Class)ource with no file path:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

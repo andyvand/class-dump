@@ -6,98 +6,69 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class CKMovieMediaObject, ChatKit.CKBalloonMaskLayer, ISVideoPlayerUIView, ISWrappedAVAudioSession, ISWrappedAVPlayer, NSString, UIImageView, UIView;
+@class ISVideoPlayerUIView;
 
 @interface CKAutoloopMovieBalloonView : CKImageBalloonView
 {
     _Bool _isJellyfishVideo;
-    _Bool _isMultitrackMemoriesVideo;
-    _Bool _isMuted;
-    _Bool _isListeningToVideoPlayer;
-    _Bool _isPlayingMultitrackMemory;
-    CKMovieMediaObject *_mediaObject;
-    UIImageView *_muteButton;
-    ISVideoPlayerUIView *_videoPlayer;
-    ISWrappedAVPlayer *_avPlayer;
-    ISWrappedAVAudioSession *_audioSession;
-    ChatKit.CKBalloonMaskLayer *_videoPlayerMaskLayer;
-    UIView *_snapshotView;
 }
 
 + (id);
 + (_Bool);
+- (id)mage",&,N;
+- (void)(�;
+- (void);
+- (void);
+- (void);
+- (void)o6ICNoteCSo8ICFolderCSgGABy_ADSbGAIG;
+- (void);
+- (void);
+- (void);
+- (void)e;
+- (void)R;
+- (void)b;
+- (_Bool)assword.;
+- (_Bool)otes locked with your password.;
+- (_Bool)re about how your information is secured? ;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)B;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)WithDataSource:entryViewDelegate:andPlugin: /* Error: Ran out of types for this method. */;
+- (void)initWithDataSource:entryViewDelegate:andPlugin: /* Error: Ran out of types for this method. */;
 - (void)le.MobileSMS.ReadReceiptSettingsConfirmed.changed;
 - (_Bool)ô­#ÿ%;
 - (void)4H;
-- (void)OuterStrokeLayer;
+- (void)CKMaterialPlatterViewVibrantOuterStrokeLayer;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) ISWrappedAVAudioSession *audioSession; // @synthesize audioSession=_audioSession;
-@property(retain, nonatomic) ISWrappedAVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isJellyfishVideo; // @synthesize isJellyfishVideo=_isJellyfishVideo;
-@property(nonatomic) _Bool isListeningToVideoPlayer; // @synthesize isListeningToVideoPlayer=_isListeningToVideoPlayer;
-@property(nonatomic) _Bool isMultitrackMemoriesVideo; // @synthesize isMultitrackMemoriesVideo=_isMultitrackMemoriesVideo;
-@property(nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
-@property(nonatomic) _Bool isPlayingMultitrackMemory; // @synthesize isPlayingMultitrackMemory=_isPlayingMultitrackMemory;
-@property(retain, nonatomic) CKMovieMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(retain, nonatomic) UIImageView *muteButton; // @synthesize muteButton=_muteButton;
-@property(retain, nonatomic) UIView *snapshotView; // @synthesize snapshotView=_snapshotView;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ISVideoPlayerUIView *videoPlayer; // @synthesize videoPlayer=_videoPlayer;
-@property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *videoPlayerMaskLayer; // @synthesize videoPlayerMaskLayer=_videoPlayerMaskLayer;
 
 @end
 

@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface AMSBAAKeychainItems
 {
     id _BIKKey;
-    NSData *_BAACert;
-    NSData *_IntermediateRootCert;
 }
 
 - (id);
 - (id);
 - (struct __SecKey *);
-- (id);
+- (id)B;
 - (void)-óÚ¿DX«Gº>øõÞî+.H¼ìLí çþp4Âï®xÜöÈM[Ú²Yp0mºXaÔ
 ¾«ÂnQg?#ñ]úFB#9®R÷ßh*ÀU;hRªGÁïÛ:¤¬À|©TªºoìY¾zË°Ï!BQ¸Ìa="ðOVÆ´:ÏwÖ7KÐs'ùo*Åé¾br1ë»8ÅN /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *BAACert; // @synthesize BAACert=_BAACert;
-@property(readonly, nonatomic) struct __SecKey *BIKKeyRef;
-@property(readonly, nonatomic) NSData *IntermediateRootCert; // @synthesize IntermediateRootCert=_IntermediateRootCert;
 
 @end
 

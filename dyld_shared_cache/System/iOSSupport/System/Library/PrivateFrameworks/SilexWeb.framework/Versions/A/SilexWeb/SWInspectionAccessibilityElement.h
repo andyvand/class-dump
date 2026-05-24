@@ -9,8 +9,6 @@
 @interface SWInspectionAccessibilityElement
 {
     NSString *_type;
-    NSString *_value;
-    struct CGRect _frame;
 }
 
 - (id);
@@ -21,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

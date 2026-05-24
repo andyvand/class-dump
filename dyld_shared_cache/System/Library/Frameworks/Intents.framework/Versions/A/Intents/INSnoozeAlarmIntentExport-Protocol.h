@@ -7,7 +7,7 @@
 @class NSArray;
 
 @protocol INSnoozeAlarmIntentExport
-- (NSArray *)nNoteForPayBill: /* Error: Ran out of types for this method. */;
+- (NSArray *)defaultTransactionNoteForPayBill: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSArray *alarms;

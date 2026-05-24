@@ -6,14 +6,11 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface DGPortraitEffectOperation : DGOperation
 {
     _Bool _spillMatteAllowed;
-    NSDictionary *_portraitInfo;
-    NSString *_portraitEffectFilterName;
-    NSNumber *_strength;
 }
 
 + (id);
@@ -38,10 +35,7 @@
 - (id)ÀÉÓ!@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *portraitEffectFilterName; // @synthesize portraitEffectFilterName=_portraitEffectFilterName;
 @property(copy, nonatomic) NSDictionary *portraitInfo; // @synthesize portraitInfo=_portraitInfo;
-@property(nonatomic) _Bool spillMatteAllowed; // @synthesize spillMatteAllowed=_spillMatteAllowed;
-@property(copy, nonatomic) NSNumber *strength; // @synthesize strength=_strength;
 
 @end
 

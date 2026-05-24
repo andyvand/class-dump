@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKDPushToken
 {
     NSString *_apsEnvironmentString;
-    NSData *_apsToken;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)eam %{ptr} is not AirPlay type.  Passthrough not supported.
+;
 - (_Bool);
 - (id);
 - (id)Â0@ù
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *apsEnvironmentString; // @synthesize apsEnvironmentString=_apsEnvironmentString;
-@property(readonly, copy, nonatomic) NSData *apsToken; // @synthesize apsToken=_apsToken;
 
 @end
 

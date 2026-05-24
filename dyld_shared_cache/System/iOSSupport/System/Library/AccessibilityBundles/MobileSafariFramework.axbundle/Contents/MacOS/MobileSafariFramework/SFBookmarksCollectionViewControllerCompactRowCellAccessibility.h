@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)insertSubview:aboveSubview: /* Error: Ran out of types for this method. */;
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)PKCellAccessoryMultiSelectIndicatorAccessibility;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactListActionAuthorizationContext, CNUIEditAuthorizationController, NSString, NSUndoManager;
+@class NSUndoManager;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListActionExecutor
 {
     NSUndoManager *_undoManager;
-    CNUIEditAuthorizationController *_editAuthorizationController;
-    CNContactListActionAuthorizationContext *_authorizationContext;
 }
 
 - (void);
@@ -25,19 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)el;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactListActionAuthorizationContext *authorizationContext; // @synthesize authorizationContext=_authorizationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNUIEditAuthorizationController *editAuthorizationController; // @synthesize editAuthorizationController=_editAuthorizationController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end

@@ -4,41 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMSemanticTextFactory, NSMeasurementFormatter, NSNumberFormatter;
+@class AXMSemanticTextFactory;
 
 @interface AXMTextLayoutManager
 {
     AXMSemanticTextFactory *_semanticTextFactory;
-    NSNumberFormatter *_numberFormatter;
-    NSMeasurementFormatter *_measurementFormatter;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)t;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)t;
+- (id)m;
+- (id)+\|;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect)Ѕ\|;
 - (_Bool);
 - (_Bool);
+- (id)\|;
+- (id);
+- (id){\|;
+- (id);
+- (id)\|;
+- (id)z[|;
+- (id)|;
+- (id);
+- (id)q[|;
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGRect);
+- (id)z;
+- (id);
+- (id){;
 - (id);
 - (id);
 - (id);
@@ -46,31 +61,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id){;
 - (id);
 - (void);
 - (void)aLQ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMeasurementFormatter *measurementFormatter; // @synthesize measurementFormatter=_measurementFormatter;
-@property(retain, nonatomic) NSNumberFormatter *numberFormatter; // @synthesize numberFormatter=_numberFormatter;
 @property(retain, nonatomic) AXMSemanticTextFactory *semanticTextFactory; // @synthesize semanticTextFactory=_semanticTextFactory;
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusSoundPool
 {
     NSURL *_soundFileURL;
-    NSArray *_queue;
-    unsigned long long _queueIndex;
 }
 
-- (id);
+- (id)initWithZoneID:(id)arg1 subscriptionID: /* Error: Ran out of types for this method. */;
 - (void)ÿ;
 
 @end

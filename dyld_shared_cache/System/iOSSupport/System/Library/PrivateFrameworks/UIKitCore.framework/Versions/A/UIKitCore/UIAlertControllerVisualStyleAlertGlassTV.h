@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);

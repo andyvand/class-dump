@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFObservable, MUIMailboxFilter, MUIMailboxFilterContext, NSArray, NSFormatter;
-@protocol EFObserver, MUIMailboxFilterProvider;
+@class NSFormatter;
 
 @interface MUIMailboxFilterViewModel
 {
     _Bool _filterEnabled;
-    _Bool _filterAvailable;
-    NSArray *_selectedFilters;
-    id <MUIMailboxFilterProvider> _provider;
-    MUIMailboxFilterContext *_filterContext;
-    NSFormatter *_formatter;
-    EFObservable<EFObserver> *_selectedFiltersObservable;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id)Kk;
+- (id)a;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -41,20 +34,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)uthorEmailAddresses:(id)arg1 objectID:messageID:messageList: /* Error: Ran out of types for this method. */;
-- (void)SuggestionsResults:phraseManager:messageList: /* Error: Ran out of types for this method. */;
+- (id)windowDidDeminiaturize: /* Error: Ran out of types for this method. */;
+- (void)suggestionWithURL:(id)arg1 title:richLinkID:authors:authorEmailAddresses:objectID:messageID:messageList: /* Error: Ran out of types for this method. */;
+- (void)processSuggestionsResults:phraseManager:messageList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isFilterAvailable) _Bool filterAvailable; // @synthesize filterAvailable=_filterAvailable;
-@property(retain, nonatomic) MUIMailboxFilterContext *filterContext; // @synthesize filterContext=_filterContext;
-@property(nonatomic, getter=isFilterEnabled) _Bool filterEnabled; // @synthesize filterEnabled=_filterEnabled;
 @property(retain, nonatomic) NSFormatter *formatter; // @synthesize formatter=_formatter;
-@property(retain, nonatomic) id <MUIMailboxFilterProvider> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) NSArray *reducedSelectedFilters;
-@property(retain, nonatomic) NSArray *selectedFilters; // @synthesize selectedFilters=_selectedFilters;
-@property(readonly, nonatomic) EFObservable<EFObserver> *selectedFiltersObservable; // @synthesize selectedFiltersObservable=_selectedFiltersObservable;
-@property(retain, nonatomic) MUIMailboxFilter *senderFilter;
 
 @end
 

@@ -6,16 +6,12 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSThemeFrame, NSTitlebarAccessoryViewController, NSView;
+@class NSThemeFrame;
 
 __attribute__((visibility("hidden")))
 @interface NSTitlebarViewController : NSViewController
 {
     NSThemeFrame *_associatedThemeFrame;
-    _Bool _inFullScreen;
-    double _revealAmount;
-    NSView *_floatingTrailingWidget;
-    NSTitlebarAccessoryViewController *_floatingTrailingWidgetSource;
 }
 
 - (double);
@@ -27,19 +23,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double)6 ;
 - (void);
 - (id);
 - (double);
-- (double);
-- (double);
+- (double)T@"NSCachedURLResponse",R,C;
+- (double)y",C,V_proxyConfigurations;
 
 // Remaining properties
 @property NSThemeFrame *associatedThemeFrame; // @synthesize associatedThemeFrame=_associatedThemeFrame;
-@property(readonly) double floatingTrailingWidgetWidth;
-@property _Bool inFullScreen;
-@property double revealAmount;
-@property(readonly) double spaceToLeaveForFloatingTrailingWidgetOnToolbar;
 
 @end
 

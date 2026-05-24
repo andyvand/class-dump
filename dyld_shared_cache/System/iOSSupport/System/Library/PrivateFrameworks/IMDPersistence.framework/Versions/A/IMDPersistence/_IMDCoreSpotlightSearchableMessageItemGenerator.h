@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItemAttributeSet, IMDCoreSpotlightSearchableItemGenerator, IMDIndexingContext, NSDictionary, NSMutableArray, NSMutableSet;
+@class IMDCoreSpotlightSearchableItemGenerator;
 
 @interface _IMDCoreSpotlightSearchableMessageItemGenerator
 {
     _Bool _threwException;
-    _Bool _bailed;
-    IMDCoreSpotlightSearchableItemGenerator *_generator;
-    NSDictionary *_itemDictionary;
-    NSDictionary *_chatDictionary;
-    IMDIndexingContext *_context;
-    NSMutableArray *_rejectedItems;
-    NSMutableSet *_populatedChatItems;
-    CSSearchableItemAttributeSet *_metadataAttributes;
-    NSMutableArray *_auxItems;
-    NSMutableArray *_generatedItems;
 }
 
 - (_Bool);
@@ -33,9 +23,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)4hA;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -52,22 +42,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)};
 - (id);
 - (void)ÿ%;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *auxItems; // @synthesize auxItems=_auxItems;
-@property(nonatomic) _Bool bailed; // @synthesize bailed=_bailed;
-@property(readonly, nonatomic) NSDictionary *chatDictionary; // @synthesize chatDictionary=_chatDictionary;
-@property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSMutableArray *generatedItems; // @synthesize generatedItems=_generatedItems;
 @property(readonly, nonatomic) IMDCoreSpotlightSearchableItemGenerator *generator; // @synthesize generator=_generator;
-@property(readonly, nonatomic) NSDictionary *itemDictionary; // @synthesize itemDictionary=_itemDictionary;
-@property(retain, nonatomic) CSSearchableItemAttributeSet *metadataAttributes; // @synthesize metadataAttributes=_metadataAttributes;
-@property(readonly, nonatomic) NSMutableSet *populatedChatItems; // @synthesize populatedChatItems=_populatedChatItems;
-@property(readonly, nonatomic) NSMutableArray *rejectedItems; // @synthesize rejectedItems=_rejectedItems;
-@property(nonatomic) _Bool threwException; // @synthesize threwException=_threwException;
 
 @end
 

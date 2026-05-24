@@ -5,15 +5,10 @@
 //
 
 @class NSString;
-@protocol EFSQLQueryLogging;
 
 @protocol EDPersistenceDatabaseConnectionDelegate
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *protectedDatabasePath;
-@property(readonly, nonatomic) id <EFSQLQueryLogging> queryLogger;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<EFSQLQueryLogging>",?,R,N
-
 @end
 

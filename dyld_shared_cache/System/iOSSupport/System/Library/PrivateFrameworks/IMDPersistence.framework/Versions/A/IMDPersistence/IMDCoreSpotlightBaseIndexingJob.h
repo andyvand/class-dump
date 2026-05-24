@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDCoreSpotlightIndexingJobQueue, IMDIndexingContext, NSError, NSObject, NSString;
-@protocol IMDSpotlightIndex, OS_dispatch_group, OS_dispatch_queue;
+@protocol IMDSpotlightIndex;
 
 @interface IMDCoreSpotlightBaseIndexingJob
 {
     _Bool _finished;
-    _Bool _executing;
-    IMDIndexingContext *_context;
-    id <IMDSpotlightIndex> _index;
-    NSString *_transactionID;
-    NSError *_error;
-    NSObject<OS_dispatch_group> *_workGroup;
-    IMDCoreSpotlightIndexingJobQueue *_jobQueue;
 }
 
 + (id);
@@ -34,25 +26,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_p;
+- (id)pening a SYContentItem has failed:%@  /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)safari_userVisibleSiteForProtectionSpace;
 - (void)Inspection failed with error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)onary}^{__CFDictionary}^{__CFDictionary}^{__CFDictionary}^{__CFSet}B{?=b1b1}^?^{__CFSet}^{__CFDictionary}^vi{?=ii^q^{__CFSet}}}8^{CSDBSqliteDatabase=^{__CFString}^{CSDBSqliteConnection}^?^?^?^v^?^?B^vi{?=b1b1b1}{_opaque_pthread_mutex_t=q[56c]}i^?^v^{__CFString}I{CSDBLookAsideBufferConfig=iib1}}16;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) id <IMDSpotlightIndex> index; // @synthesize index=_index;
-@property(readonly, nonatomic) IMDCoreSpotlightIndexingJobQueue *jobQueue; // @synthesize jobQueue=_jobQueue;
-@property(retain, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *workGroup; // @synthesize workGroup=_workGroup;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue;
 
 @end
 

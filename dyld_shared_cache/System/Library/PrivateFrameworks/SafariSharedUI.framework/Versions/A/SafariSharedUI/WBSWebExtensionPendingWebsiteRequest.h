@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSSet;
 
 @interface WBSWebExtensionPendingWebsiteRequest
 {
     NSSet *_urls;
-    CDUnknownBlockType _completionHandler;
-    NSString *_apiName;
-    NSDate *_expirationDate;
 }
 
 - (void);
+- (id)qA;
+- (void);
+- (id)setTruncateInRange: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)`;
 - (id);
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
 - (void);
-- (void);
-- (void)ndowsForWebExtension: /* Error: Ran out of types for this method. */;
+- (void)_allWindowsForWebExtension: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *apiName; // @synthesize apiName=_apiName;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(copy, nonatomic) NSSet *urls; // @synthesize urls=_urls;
 
 @end

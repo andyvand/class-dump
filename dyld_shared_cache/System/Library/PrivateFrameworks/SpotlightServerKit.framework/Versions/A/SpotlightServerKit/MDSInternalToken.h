@@ -16,7 +16,7 @@
 + (void);
 - (void);
 - (id);
-- (CDStruct_5e0e920e);
+- (CDStruct_5e0e920e)rks/ANEServices.framework/ANEServices;
 
 @end
 

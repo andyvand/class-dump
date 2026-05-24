@@ -6,22 +6,10 @@
 
 #import <OfficeImport/WDRunWithCharacterProperties.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface WDFieldMarker : WDRunWithCharacterProperties
 {
     int mFieldPosition;
-    int mMarkerType;
-    unsigned char mFieldType;
-    NSData *mData;
-    unsigned int mZombieEmbed:1;
-    unsigned int mResultDirty:1;
-    unsigned int mResultEdited:1;
-    unsigned int mLocked:1;
-    unsigned int mPrivateResult:1;
-    unsigned int mNested:1;
-    unsigned int mHasSeparator:1;
 }
 
 - (_Bool);
@@ -37,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (int);
+- (int);
 - (int);
 - (void);
 - (id);
@@ -46,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (unsigned char);
+- (unsigned char)StringAsActiveConnector: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)UCryptoUtils generatePassphraseVerifierForKey:verifierVersion:] /* Error: Ran out of types for this method. */;

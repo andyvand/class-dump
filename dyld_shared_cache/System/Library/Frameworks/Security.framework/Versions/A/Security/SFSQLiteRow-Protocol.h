@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol SFSQLiteRow
-- (double)iUInt32ValueE;
+- (int);
+- (id)ג ;
+- (NSArray *)B;
+- (double)N8Security16MultiUInt32ValueE;
 @end
 

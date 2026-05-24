@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitClusterArtworkSet
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _artworkIndexs;
-    NSMutableArray *_artworkItems;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_artworkIndexs:1;
-        unsigned int read_artworkItems:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setMinimumFractionDigits:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned int *);
-- (unsigned int);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)l prepare store:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)k initWithRequest:%@] /* Error: Ran out of types for this method. */;
+- (id)c}@;
+- (unsigned long long)d database preparation:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned int *)n] Migration service failed database preparation:%{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned int)e %{public}@-%{public}@;
+- (void)gistrar;
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)initWithSilenceFramesCountMs:(id)arg1 silenceProbability:silenceDurationMs:processedAudioMs: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -53,16 +41,13 @@
 - (id);
 - (void);
 - (id)avoidHighways"b1"has_avoidTolls"b1"has_speedLimitEnabled"b1"has_trafficEnabled"b1"has_voiceNavEnabled"b1};
-- (id)nseType;
-- (id)tringAsUnactionableUiElements: /* Error: Ran out of types for this method. */;
+- (id)hasWpsResponseType;
+- (id)StringAsUnactionableUiElements: /* Error: Ran out of types for this method. */;
 - (id)abilityFetcher.isolation;
 - (void)ÚRTQ@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *artworkIndexs;
 @property(readonly, nonatomic) unsigned long long artworkIndexsCount;
-@property(retain, nonatomic) NSMutableArray *artworkItems;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

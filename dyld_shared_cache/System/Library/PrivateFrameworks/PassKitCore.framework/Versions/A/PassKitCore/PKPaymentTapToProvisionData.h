@@ -9,25 +9,21 @@
 @interface PKPaymentTapToProvisionData
 {
     NSData *_encryptedData;
-    NSData *_casdCertificate;
-    NSData *_transactionID;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)supportsEngram;
+- (void)StringAsCellularPowerCostUpload:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)eldsKey;
+- (void)PKShowFakePaymentSetupFieldsKey;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *casdCertificate; // @synthesize casdCertificate=_casdCertificate;
 @property(readonly, nonatomic) NSData *encryptedData; // @synthesize encryptedData=_encryptedData;
-@property(readonly, nonatomic) NSData *transactionID; // @synthesize transactionID=_transactionID;
 
 @end
 

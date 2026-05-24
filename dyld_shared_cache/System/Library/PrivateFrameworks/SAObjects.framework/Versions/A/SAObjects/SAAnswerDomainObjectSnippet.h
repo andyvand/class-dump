@@ -6,13 +6,13 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, SAUIAppPunchOut;
+@class SAUIAppPunchOut;
 
 @interface SAAnswerDomainObjectSnippet : SAUISnippet
 {
 }
 
-+ (id);
++ (id)J(;
 + (id);
 - (void);
 - (void);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppPunchOut *answerPunchOut;
-@property(copy, nonatomic) NSArray *answers;
 
 @end
 

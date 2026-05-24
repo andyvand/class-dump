@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHNLRouterDecisionGenAIMetadata : SISchemaInstrumentationMessage
 {
     _Bool _isExplicit;
-    int _genAIAppIntent;
-    struct {
-        unsigned int isExplicit:1;
-        unsigned int genAIAppIntent:1;
-    } _has;
 }
 
 - (void);
@@ -30,20 +23,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)#;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)ationInMs;
-- (id)mandParserEndTimeInNs: /* Error: Ran out of types for this method. */;
+- (id)_conversionDurationInMs;
+- (id)setHasCommandParserEndTimeInNs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int genAIAppIntent; // @synthesize genAIAppIntent=_genAIAppIntent;
-@property(nonatomic) _Bool hasGenAIAppIntent;
-@property(nonatomic) _Bool hasIsExplicit;
 @property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

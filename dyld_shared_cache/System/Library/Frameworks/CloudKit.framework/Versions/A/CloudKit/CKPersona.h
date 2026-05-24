@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKPersona
 {
     unsigned long long _type;
-    NSString *_identifier;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)kK;
 + (id);
 + (id);
 + (id);
@@ -33,40 +30,28 @@
 + (id)V;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)\;
+- (void);
+- (id)Th;
 - (id);
 - (long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)32;
+- (id)z�H;
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)	JQ;
+- (void)isRFAEmailSettingEnabledWithReply:(id)arg1;
 - (void);
 - (id)â;
 
 // Remaining properties
-@property(readonly) _Bool canAdopt;
-@property(readonly, getter=isCurrentPersona) _Bool currentPersona;
-@property(readonly, getter=isDataSeparated) long long dataSeparated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, getter=isLaunchPersona) _Bool launchPersona;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface CHDBubbleType : CHDChartType
 {
     _Bool mShowNegativeBubbles;
-    _Bool mSizeRepresentsRadius;
-    int mBubbleScale;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)4;
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
 - (int);
-- (void);
+- (void)a;
 
 @end
 

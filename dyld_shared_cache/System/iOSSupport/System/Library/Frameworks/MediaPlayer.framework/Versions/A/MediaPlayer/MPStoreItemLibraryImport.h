@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelObject, NSArray;
+@class NSArray;
 
 @interface MPStoreItemLibraryImport
 {
     _Bool _addToCloudLibrary;
-    _Bool _addToDeviceLibraryOnly;
-    NSArray *_importElements;
-    MPModelObject *_referralObject;
 }
 
-- (id);
+- (id)|;
 - (id);
 - (id);
 - (id);
@@ -23,13 +20,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)laybackDate_KEY;
+- (void)__lastDevicePlaybackDate_KEY;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool addToCloudLibrary; // @synthesize addToCloudLibrary=_addToCloudLibrary;
-@property(readonly, nonatomic) _Bool addToDeviceLibraryOnly; // @synthesize addToDeviceLibraryOnly=_addToDeviceLibraryOnly;
 @property(readonly, nonatomic) NSArray *importElements; // @synthesize importElements=_importElements;
-@property(readonly, nonatomic) MPModelObject *referralObject; // @synthesize referralObject=_referralObject;
 
 @end
 

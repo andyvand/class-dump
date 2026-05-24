@@ -7,8 +7,6 @@
 @interface NewsUI2.CookingUnitConfigBridge
 {
     id unitConfigDataManager;
-    id task;
-    id didResetThisLaunch;
 }
 
 - (void);

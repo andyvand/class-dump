@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)_StoreKit_SwiftUI;
 + (void);
 
 @end

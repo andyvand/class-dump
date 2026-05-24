@@ -7,13 +7,12 @@
 @class NSObject, NSString;
 
 @protocol TGoToItemProtocol
+- (void);
+- (void);
+- (NSObject *)ryID:%lld feedback:%@ /* Error: Ran out of types for this method. */;
+- (void)ement;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *decomposedName;
 @property(retain, nonatomic) NSString *decomposedRawName;
-@property(retain, nonatomic) NSString *displayName;
-@property(nonatomic) _Bool isContainer;
-@property(nonatomic) _Bool isShortcut;
-@property(retain, nonatomic) NSObject *representedObject;
 @end
 

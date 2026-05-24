@@ -9,8 +9,6 @@
 @interface AFSpeechSynthesisRecord
 {
     NSString *_utterance;
-    unsigned long long _beginTimestamp;
-    unsigned long long _endTimestamp;
 }
 
 + (id);
@@ -18,22 +16,20 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)entSummaryItems;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)cleanUpUUIDMapsForPeerInfo: /* Error: Ran out of types for this method. */;
+- (void)_cleanUpUUIDMapsForPeerInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long beginTimestamp; // @synthesize beginTimestamp=_beginTimestamp;
-@property(readonly, nonatomic) unsigned long long endTimestamp; // @synthesize endTimestamp=_endTimestamp;
 @property(readonly, copy, nonatomic) NSString *utterance; // @synthesize utterance=_utterance;
 
 @end

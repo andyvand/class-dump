@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)tationRotateAnimatedUserInfoKey;
++ (id)_UIAppActiveInterfaceOrientationRotateAnimatedUserInfoKey;
 + (long long)´/ÿ¶eÍpg;
 
 @end

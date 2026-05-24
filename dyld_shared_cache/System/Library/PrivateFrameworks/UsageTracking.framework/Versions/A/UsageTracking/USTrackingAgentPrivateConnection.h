@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)4;
++ (id)ctor_"f}}};
 + (id);
 
 @end

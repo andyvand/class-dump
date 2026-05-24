@@ -6,26 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODBATCHSiriSchemaODBATCHTurnRestatementScore : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_currentTurnId;
-    SISchemaUUID *_nextTurnId;
-    double _utteranceRestatementScore;
-    double _semanticSimilarityScore;
-    _Bool _isCrossDevice;
-    struct {
-        unsigned int utteranceRestatementScore:1;
-        unsigned int semanticSimilarityScore:1;
-        unsigned int isCrossDevice:1;
-    } _has;
-    _Bool _hasCurrentTurnId;
-    _Bool _hasNextTurnId;
 }
 
-- (double);
-- (void);
+- (double);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,20 +48,10 @@
 - (id);
 - (id),V_endUnicodeScalarIndex;
 - (id)iggeredTier1",&,N,V_SiriRequestExperimentTriggered;
-- (void)USERTURNCANCELLEDREASON_REQUEST_TIMED_OUT;
+- (void)IFTMGRUSERTURNCANCELLEDREASON_REQUEST_TIMED_OUT;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *currentTurnId; // @synthesize currentTurnId=_currentTurnId;
-@property(nonatomic) _Bool hasCurrentTurnId; // @synthesize hasCurrentTurnId=_hasCurrentTurnId;
-@property(nonatomic) _Bool hasIsCrossDevice;
-@property(nonatomic) _Bool hasNextTurnId; // @synthesize hasNextTurnId=_hasNextTurnId;
-@property(nonatomic) _Bool hasSemanticSimilarityScore;
-@property(nonatomic) _Bool hasUtteranceRestatementScore;
-@property(nonatomic) _Bool isCrossDevice; // @synthesize isCrossDevice=_isCrossDevice;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *nextTurnId; // @synthesize nextTurnId=_nextTurnId;
-@property(nonatomic) double semanticSimilarityScore; // @synthesize semanticSimilarityScore=_semanticSimilarityScore;
-@property(nonatomic) double utteranceRestatementScore; // @synthesize utteranceRestatementScore=_utteranceRestatementScore;
 
 @end
 

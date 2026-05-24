@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, RTMapItem;
+@class NSUUID;
 
 @interface RTUserCuration
 {
     NSUUID *_identifier;
-    NSDate *_submissionDate;
-    NSDate *_expirationDate;
-    NSDate *_visitEntryDate;
-    NSDate *_visitExitDate;
-    RTMapItem *_curatedLabel;
-    NSUUID *_visitIdentifier;
-    RTMapItem *_originalLabel;
 }
 
 @end

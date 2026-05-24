@@ -6,28 +6,18 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
 @protocol MTLDevice;
 
 @interface MTLToolsCounterSampleBuffer : MTLToolsObject
 {
 }
 
-- (id);
+- (id)w";
 - (id);
 - (unsigned long long)State is set to NO, but depth stencil state must be inherited on this device;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long sampleCount;
-@property(readonly) Class superclass;
 
 @end
 

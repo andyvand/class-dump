@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)iveKeyStylePropertyName_RubyText;
+- (_Bool)AVCaptionArchiveKeyStylePropertyName_RubyText;
 
 @end
 

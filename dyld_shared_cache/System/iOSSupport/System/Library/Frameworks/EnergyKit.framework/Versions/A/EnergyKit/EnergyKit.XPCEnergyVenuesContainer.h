@@ -7,6 +7,7 @@
 @interface EnergyKit.XPCEnergyVenuesContainer
 {
     id value;
+    id ;
 }
 
 + (_Bool);

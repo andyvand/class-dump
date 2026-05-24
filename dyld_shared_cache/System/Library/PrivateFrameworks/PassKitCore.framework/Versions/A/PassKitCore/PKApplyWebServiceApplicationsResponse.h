@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceResponse.h>
 
-@class NSArray, NSString, PKFeatureFailureCollection;
+@class NSArray;
 
 @interface PKApplyWebServiceApplicationsResponse : PKApplyWebServiceResponse
 {
     NSArray *_allFeatureApplications;
-    PKFeatureFailureCollection *_featureFailures;
-    NSString *_lastUpdated;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -20,15 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void)er;
+- (void)teamIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allFeatureApplications; // @synthesize allFeatureApplications=_allFeatureApplications;
-@property(readonly, nonatomic) PKFeatureFailureCollection *featureFailures; // @synthesize featureFailures=_featureFailures;
-@property(readonly, copy, nonatomic) NSString *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsUI2.RecipeBoxSearchStartupTask
 {
     id executionPhase;
-    id recipeBox;
-    id recipeBoxSearchDatabase;
-    id featureAvailability;
 }
 
 @end

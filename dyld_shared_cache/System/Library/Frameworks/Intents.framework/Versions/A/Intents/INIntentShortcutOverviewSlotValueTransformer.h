@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)rl;
++ (long long)url;
 - (id);
 - (id)Type;
 

@@ -6,19 +6,14 @@
 
 #import <CoreHandwriting/CHStrokeClassificationResult.h>
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface CHMutableStrokeClassificationResult : CHStrokeClassificationResult
 {
     NSMutableDictionary *_strokeClassificationsByStrokeIdentifier;
-    NSMutableDictionary *_scriptClassificationsByStrokeIdentifier;
-    NSMutableDictionary *_scriptClassificationRawResultsByStrokeIdentifier;
-    NSMutableDictionary *_substrokesByStrokeIdentifier;
-    NSMutableDictionary *_midYPositionByStrokeIdentifier;
-    NSMutableSet *_nontextCandidates;
 }
 
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -34,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)°;
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriAvailability, NSUUID;
+@class NSUUID;
 
 @interface AFSiriActivationDismissalInfo
 {
     NSUUID *_dismissedActivationId;
-    AFSiriAvailability *_availability;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)ˎ;
 - (id);
 - (id);
 - (void);
 - (void)izeInBytes;
 
 // Remaining properties
-@property(readonly, nonatomic) AFSiriAvailability *availability; // @synthesize availability=_availability;
 @property(readonly, copy, nonatomic) NSUUID *dismissedActivationId; // @synthesize dismissedActivationId=_dismissedActivationId;
 
 @end

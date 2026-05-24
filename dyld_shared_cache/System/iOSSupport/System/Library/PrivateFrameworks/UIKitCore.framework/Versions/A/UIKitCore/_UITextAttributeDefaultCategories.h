@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UITextAttributeDefaults;
+@class _UITextAttributeDefaults;
 @protocol _UITextAttributeDefaults;
 
 __attribute__((visibility("hidden")))
 @interface _UITextAttributeDefaultCategories
 {
     _UITextAttributeDefaults *_generic;
-    _UITextAttributeDefaults *_label;
-    _UITextAttributeDefaults *_textField;
-    _UITextAttributeDefaults *_textView;
-    double _labelFontSize;
-    double _buttonFontSize;
-    double _systemFontSize;
-    double _smallSystemFontSize;
 }
 
 - (id);
@@ -25,33 +18,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)_boxBlurPipelineState;
 - (id);
 - (double);
 - (double);
-- (id)Destination:(long long)arg1;
-- (id)w:(long long)arg1 resetPrevious: /* Error: Ran out of types for this method. */;
+- (id)setCurrentInputDestination:(long long)arg1;
+- (id)assertSavedLocation:(long long)arg1 onTouch:inWindow:resetPrevious: /* Error: Ran out of types for this method. */;
 - (double)CollectionLayoutContainer",&,N,V_memoizedSupplementaryHostContainer;
 - (id)_drawsOneHandedAffordance;
-- (id);
+- (id)a;
 - (void)odifierCG;
 
 // Remaining properties
-@property(readonly, nonatomic) double _buttonFontSize; // @synthesize _buttonFontSize;
 @property(readonly, nonatomic) id <_UITextAttributeDefaults> _generic; // @synthesize _generic;
-@property(readonly, nonatomic) id <_UITextAttributeDefaults> _label; // @synthesize _label;
-@property(readonly, nonatomic) double _labelFontSize; // @synthesize _labelFontSize;
-@property(readonly, nonatomic) double _smallSystemFontSize; // @synthesize _smallSystemFontSize;
-@property(readonly, nonatomic) double _systemFontSize; // @synthesize _systemFontSize;
-@property(readonly, nonatomic) id <_UITextAttributeDefaults> _textField; // @synthesize _textField;
-@property(readonly, nonatomic) id <_UITextAttributeDefaults> _textView; // @synthesize _textView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

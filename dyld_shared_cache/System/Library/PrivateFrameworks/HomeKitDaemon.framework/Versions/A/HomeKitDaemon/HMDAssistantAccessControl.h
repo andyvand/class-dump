@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAssistantAccessControlModel, HMDUser, NSArray, NSMutableSet, NSObject, NSString, NSUUID;
-@protocol HMDUserAccessorySettingsDataController, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantAccessControl
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_appleMediaAccessories;
-    NSMutableSet *_hapAccessoryIdentifiers;
-    _Bool _enabled;
-    _Bool _activityNotificationsEnabledForPersonalRequests;
-    HMDUser *_user;
-    unsigned long long _cachedHash;
-    unsigned long long _options;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    id <HMDUserAccessorySettingsDataController> _settingsController;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)etClusters100mPlusFromCenter:(id)arg1;
 + (_Bool);
 + (id)/ÿÃØüB;
 - (id);
@@ -38,15 +29,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)optionsForClient: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ror:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)asset fetch result.;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)createDirectoryAtPath:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -59,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)0@ù
 × ;
-- (id)tions;
+- (id)assertions;
 - (id)ÿÿH;
 - (void)ionary %@;
 - (id)ublic}@SRAISU:Skipping scan because isSoftwareUpdateAvailable:%@ forDescriptor:%@ /* Error: Ran out of types for this method. */;
@@ -71,33 +62,7 @@ __attribute__((visibility("hidden")))
 - (void)B;
 
 // Remaining properties
-@property(readonly, copy) NSArray *accessories;
-@property(getter=areActivityNotificationsEnabledForPersonalRequests) _Bool activityNotificationsEnabledForPersonalRequests; // @synthesize activityNotificationsEnabledForPersonalRequests=_activityNotificationsEnabledForPersonalRequests;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long cachedHash; // @synthesize cachedHash=_cachedHash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) HMDAssistantAccessControlModel *model;
-@property(readonly, copy) NSUUID *modelID;
-@property unsigned long long options; // @synthesize options=_options;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDUserAccessorySettingsDataController> settingsController; // @synthesize settingsController=_settingsController;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property __weak HMDUser *user; // @synthesize user=_user;
 
 @end
 

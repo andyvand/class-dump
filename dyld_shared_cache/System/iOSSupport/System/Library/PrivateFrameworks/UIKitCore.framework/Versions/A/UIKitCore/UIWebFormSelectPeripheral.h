@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
+- (void)populateIMGroupActionItem:(id)arg1 withProtobufData:protobuf2Data: /* Error: Ran out of types for this method. */;
+- (void)populateCacheForHandleID:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)lock database for %ld services;
+- (id)er:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

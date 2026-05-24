@@ -9,17 +9,14 @@
 @interface _INPBVoiceCommandStepInfo
 {
     CDStruct_74e42c4c _has;
-    int _category;
-    NSString *_applicationIdentifier;
-    NSString *_name;
 }
 
 + (_Bool);
-- (id);
+- (id)ry record;
 - (void);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (id);
 - (unsigned long long);
@@ -33,24 +30,12 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)mpletion: /* Error: Ran out of types for this method. */;
-- (void)nIntentResponseCodeInProgress;
+- (_Bool)handleSearchForFiles:completion: /* Error: Ran out of types for this method. */;
+- (void)INSaveParkingLocationIntentResponseCodeInProgress;
 - (void)N;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasApplicationIdentifier;
-@property(nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,14 +7,9 @@
 @interface SXCollectionRowLayout
 {
     unsigned long long _intendedComponentsPerRow;
-    unsigned long long _componentsPerRow;
-    double _leftMargin;
-    double _rightMargin;
-    double _componentWidth;
-    double _spaceBetweenComponents;
 }
 
-- (double);
+- (double)=;
 - (void);
 - (void);
 - (void);
@@ -29,12 +24,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double componentWidth; // @synthesize componentWidth=_componentWidth;
-@property(nonatomic) unsigned long long componentsPerRow; // @synthesize componentsPerRow=_componentsPerRow;
 @property(nonatomic) unsigned long long intendedComponentsPerRow; // @synthesize intendedComponentsPerRow=_intendedComponentsPerRow;
-@property(nonatomic) double leftMargin; // @synthesize leftMargin=_leftMargin;
-@property(nonatomic) double rightMargin; // @synthesize rightMargin=_rightMargin;
-@property(nonatomic) double spaceBetweenComponents; // @synthesize spaceBetweenComponents=_spaceBetweenComponents;
 
 @end
 

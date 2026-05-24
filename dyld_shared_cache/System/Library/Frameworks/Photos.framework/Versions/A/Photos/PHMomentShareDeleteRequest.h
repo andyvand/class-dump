@@ -11,10 +11,10 @@
     long long _operation;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)9;
 - (long long)Failed to download asset for export:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (void)reduceProcessingForIngest;
 

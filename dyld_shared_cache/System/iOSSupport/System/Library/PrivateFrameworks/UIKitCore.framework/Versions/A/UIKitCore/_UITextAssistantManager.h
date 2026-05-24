@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UITextRange, UITextView, UIWritingToolsCoordinatorContext;
-@protocol NSObject, _UIAssertion, _UIInvalidatable;
+@class UITextView;
+@protocol _UIAssertion;
 
 __attribute__((visibility("hidden")))
 @interface _UITextAssistantManager
 {
     id <_UIAssertion> _grabberSuppression;
-    id <_UIInvalidatable> _selectionUIHiddenAssertion;
-    UITextRange *_initialSelectedRangeInDocument;
-    long long _externalEditAction;
-    id <NSObject> _viewportLayoutObservationToken;
-    unsigned long long _offsetToContextualRange;
-    UIWritingToolsCoordinatorContext *_activeContext;
-    UITextRange *_pasteRangeInProgress;
-    NSString *_pasteStringInProgress;
-    UITextRange *_lastAnimatingReplacementRange;
-    NSMutableDictionary *_textAnimationContextsByAnimationType;
-    _Bool _isReplacingTextByRequest;
-    UITextView *_textView;
 }
 
 - (void);
@@ -40,40 +28,32 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (_Bool);
 - (void);
-- (CDStruct_24e43724);
+- (CDStruct_24e43724)n"16@"IMDChat"24;
+- (void)"NSURL"12@"NSError"20;
+- (id)shouldDisplayGroupNameAndPhotoWith:(id)arg1 handles:(id)arg2;
+- (void)shouldDisplayAttachmentDownloadFailure;
 - (void);
-- (id);
+- (void);
+- (id)oming filtering settings message:(long long)arg1 %@;
+- (void);
+- (void)2K~;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)2[;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (struct _NSRange);
+- (struct _NSRange);
 - (void);
-- (id);
-- (id)DocumentMovedPopoverViewController;
+- (id)NSLock",&,N,VframeArrayLock;
+- (id)_UIDocumentMovedPopoverViewController;
 - (id),DäD;
 - (void)7_ypt;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isReplacingTextByRequest; // @synthesize isReplacingTextByRequest=_isReplacingTextByRequest;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak UITextView *textView; // @synthesize textView=_textView;
 
 @end

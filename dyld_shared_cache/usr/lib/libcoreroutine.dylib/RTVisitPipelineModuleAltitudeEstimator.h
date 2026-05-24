@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTLocationManager;
-
 @interface RTVisitPipelineModuleAltitudeEstimator
 {
     double _maxHorizontalAccuracy;
-    RTLocationManager *_locationManager;
-    double _estimatedAltitude;
-    double _estimatedVerticalUncertainty;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (double);
@@ -31,17 +26,7 @@
 - (void)%@, coarseEstimatedEndDate, %@, sessionID, %@, error, %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double estimatedAltitude; // @synthesize estimatedAltitude=_estimatedAltitude;
-@property(nonatomic) double estimatedVerticalUncertainty; // @synthesize estimatedVerticalUncertainty=_estimatedVerticalUncertainty;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
 @property(readonly, nonatomic) double maxHorizontalAccuracy; // @synthesize maxHorizontalAccuracy=_maxHorizontalAccuracy;
-@property(readonly) Class superclass;
 
 @end
 

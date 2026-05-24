@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4PipelineOptions, NSString;
-
 @interface MTL4PipelineDescriptor
 {
     _Bool _forceResourceIndex;
-    NSString *_label;
-    MTL4PipelineOptions *_options;
-    unsigned long long _resourceIndex;
 }
 
+- (void)e=}48^v56Q64{CGRect={CGPoint=dd}{CGSize=dd}}72B104i108^v112^v120;
+- (void)CI_FLIP_IMAGE_PROCESSOR;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)N;
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (void)mpilerOptionsSize:(id)arg1;
+- (unsigned long long)!;
+- (void)getObjectFunctionId:(id)arg1 compilerOptions:compilerOptionsSize: /* Error: Ran out of types for this method. */;
 - (_Bool)ªÓy;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool forceResourceIndex; // @synthesize forceResourceIndex=_forceResourceIndex;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) MTL4PipelineOptions *options; // @synthesize options=_options;
-@property(nonatomic) unsigned long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;
 
 @end
 

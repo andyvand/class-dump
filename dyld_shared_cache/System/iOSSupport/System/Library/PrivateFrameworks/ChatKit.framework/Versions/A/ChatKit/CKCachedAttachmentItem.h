@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAttachmentItem;
 @protocol CKCachedAttachmentItemDelegate;
 
 @interface CKCachedAttachmentItem
 {
     void delegate;
-    CKAttachmentItem *attachmentItem;
 }
 
-- (void);
+- (void)o;
 - (id);
 - (void);
 - (id);
@@ -22,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) CKAttachmentItem *attachmentItem; // @synthesize attachmentItem;
 @property(nonatomic) __weak id <CKCachedAttachmentItemDelegate> delegate; // @synthesize delegate;
 
 @end

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)itWithFormat:(struct _NSZone *)arg1 arguments: /* Error: Ran out of types for this method. */;
++ (id)initWithFormat:(struct _NSZone *)arg1 arguments: /* Error: Ran out of types for this method. */;
 
 @end
 

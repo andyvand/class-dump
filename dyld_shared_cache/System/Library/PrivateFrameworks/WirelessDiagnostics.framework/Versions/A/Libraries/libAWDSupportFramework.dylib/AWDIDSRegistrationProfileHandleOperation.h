@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationProfileHandleOperation
 {
     unsigned long long _timestamp;
-    unsigned int _connectionType;
-    int _genericError;
-    NSString *_guid;
-    int _pOSIXError;
-    unsigned int _registrationError;
-    unsigned int _resultCode;
-    unsigned int _success;
-    int _uRLError;
-    unsigned int _vettingStatus;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int genericError:1;
-        unsigned int pOSIXError:1;
-        unsigned int registrationError:1;
-        unsigned int resultCode:1;
-        unsigned int success:1;
-        unsigned int uRLError:1;
-        unsigned int vettingStatus:1;
-    } _has;
 }
 
 - (void);
@@ -38,7 +16,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)Tj;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -46,16 +24,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int);
 - (void);
-- (unsigned long long);
+- (unsigned long long)i;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -77,32 +55,13 @@
 - (id)transmission2DenyCount"b1"timeTillResumeAccumulatedMsec"b1"timestamp"b1"txCTS2Self"b1"wlanPreempted"b1};
 - (void)setHasHeOmitxDur:(_Bool)arg1;
 - (unsigned int)_netscoreAtStudyStart;
-- (void)ces:(unsigned int)arg1;
-- (unsigned int)ce;
-- (int)e1Cca;
+- (void)setNoresources:(unsigned int)arg1;
+- (unsigned int)AWDCoreRoutineLMPRequestedInstance;
+- (int)sample1Cca;
 - (void)yxoÂ	;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int genericError; // @synthesize genericError=_genericError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasGenericError;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasPOSIXError;
-@property(nonatomic) _Bool hasRegistrationError;
-@property(nonatomic) _Bool hasResultCode;
-@property(nonatomic) _Bool hasSuccess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasURLError;
-@property(nonatomic) _Bool hasVettingStatus;
-@property(nonatomic) int pOSIXError; // @synthesize pOSIXError=_pOSIXError;
-@property(nonatomic) unsigned int registrationError; // @synthesize registrationError=_registrationError;
-@property(nonatomic) unsigned int resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int uRLError; // @synthesize uRLError=_uRLError;
-@property(nonatomic) unsigned int vettingStatus; // @synthesize vettingStatus=_vettingStatus;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString, PRMonogramColor;
+@class NSString;
 
 @interface PRMonogram
 {
     NSString *_text;
-    unsigned long long _fontIndex;
-    NSColor *_color;
-    PRMonogramColor *_monogramColor;
 }
 
 + (void);
@@ -19,11 +16,11 @@
 + (id);
 + (double);
 + (id);
-+ (unsigned long long);
++ (unsigned long long);
++ (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (id);
@@ -49,19 +46,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)z;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(nonatomic) unsigned long long fontIndex; // @synthesize fontIndex=_fontIndex;
-@property(retain, nonatomic) PRMonogramColor *monogramColor; // @synthesize monogramColor=_monogramColor;
-@property(readonly, nonatomic) NSColor *plateFlatColor;
-@property(readonly, nonatomic) NSColor *plateGradientEndColor;
-@property(readonly, nonatomic) NSColor *plateGradientStartColor;
-@property(readonly, nonatomic) NSColor *plateSelectedActiveColor;
-@property(readonly, nonatomic) NSColor *plateSelectedActiveTextColor;
-@property(readonly, nonatomic) NSColor *plateSelectedInactiveColor;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

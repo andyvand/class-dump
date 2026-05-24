@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _NSDatePickerCellSubfield
 {
     int _element;
-    struct CGRect _frame;
-    NSString *_dateFormat;
-    NSString *_stringValue;
 }
 
 - (id);
-- (id);
+- (id)spaces;
 - (void);
 - (void);
 - (struct CGRect);
-- (id)eInt32:(struct _NSZone *)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (id)ibleBoundsPtr:displayPtr: /* Error: Ran out of types for this method. */;
+- (id)encodeInt32:(struct _NSZone *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)_isMouseInMenuBarHotRegion:makeVisibleBoundsPtr:keepVisibleBoundsPtr:displayPtr: /* Error: Ran out of types for this method. */;
 - (int)oved.;
 
 // Remaining properties
-@property(readonly) NSString *dateFormat;
 @property(readonly) int element;
-@property(readonly) struct CGRect frame;
-@property(copy) NSString *stringValue;
 
 @end
 

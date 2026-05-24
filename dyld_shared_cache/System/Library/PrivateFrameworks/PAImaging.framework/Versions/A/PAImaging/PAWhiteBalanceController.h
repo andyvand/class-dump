@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, NUColorSampler, PAItemController, PHAsset;
+@class NUColorSampler, PAItemController;
 
 @interface PAWhiteBalanceController
 {
     PAItemController *_imageItemController;
-    NSUUID *_operationUUID;
-    PHAsset *_asset;
 }
 
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_tearDownAssetView:completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly) NSUUID *operationUUID; // @synthesize operationUUID=_operationUUID;
 @property(readonly) NUColorSampler *sampler;
-@property int whiteBalanceType;
 
 @end
 

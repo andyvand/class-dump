@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView;
+@class UIView;
 
 @interface NewsArticles.SearchInArticleViewController
 {
     id commandCenter;
-    id tracker;
-    id searchTerm;
-    id searchToolBar;
-    id searchTextField;
-    id isWholeWordsEnabled;
-    id isMatchCaseEnabled;
-    id totalSearchResults;
-    id currentSearchIndex;
-    id totalLabel;
-    id keyboardHeight;
-    id isBeginningFilterActive;
-    id nextImage;
-    id previousImage;
-    id $__lazy_storage_$_nextTokenBarButtonItem;
-    id $__lazy_storage_$_previousTokenBarButtonItem;
-    id cancelButton;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)expired with entitlements=%{public}@ error=%{public}@;
 - (void);
 - (_Bool);
 - (void);
@@ -41,15 +25,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)mon.framework/Versions/A/WeatherDaemon;
 - (id)°´;
-- (void)ticle;
+- (void)article;
 - (id)Ü;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFirstResponder;
 @property(nonatomic, readonly) UIView *inputAccessoryView;
-@property(nonatomic, readonly) NSArray *keyCommands;
 
 @end
 

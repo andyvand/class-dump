@@ -11,8 +11,8 @@
     TSWPChangeSession *_currentSession;
 }
 
-- (void);
-- (_Bool);
+- (void)entAdded:(id *)arg1 %p items=%@>;
+- (_Bool)availableMediaTypes;
 - (id);
 - (void);
 - (id)á~!À@ù±1Â0@ù

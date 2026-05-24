@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     long long _decorationSize;
 }
 
-- (void);
+- (void)localFileURLRetrievalWithGuidCompletionHandlers;
 - (long long);
 - (void);
-- (id)ecessaryForSizing;
+- (id)_applyAnimatingToConfigurationIfNecessaryForSizing;
 
 // Remaining properties
 @property(nonatomic) long long decorationSize; // @synthesize decorationSize=_decorationSize;

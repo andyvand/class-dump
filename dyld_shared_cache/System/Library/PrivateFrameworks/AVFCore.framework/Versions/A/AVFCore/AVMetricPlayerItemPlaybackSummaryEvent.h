@@ -11,45 +11,27 @@
 @interface AVMetricPlayerItemPlaybackSummaryEvent : AVMetricEvent
 {
     AVMetricErrorEvent *_errorEvent;
-    long long _recoverableErrorCount;
-    long long _stallCount;
-    long long _variantSwitchCount;
-    long long _playbackDuration;
-    long long _mediaResourceRequestCount;
-    double _timeSpentRecoveringFromStall;
-    double _timeSpentInInitialStartup;
-    long long _timeWeightedAverageBitrate;
-    long long _timeWeightedPeakBitrate;
 }
 
 + (_Bool);
+- (long long)NSXMLParserDelegate;
+- (long long)_EARVisualContextEvaluation;
+- (long long)_EARLanguageDetectorAudioBuffer;
+- (double)_EARAlignmentState;
+- (double)EARCSpeechRecognitionResultStreamGlue;
+- (long long);
+- (long long);
 - (long long);
 - (long long);
-- (long long);
-- (double);
-- (double);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (void);
+- (id)^;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)<^;
 
 // Remaining properties
 @property(readonly) AVMetricErrorEvent *errorEvent;
-@property(readonly) long long mediaResourceRequestCount;
-@property(readonly) long long playbackDuration;
-@property(readonly) long long recoverableErrorCount;
-@property(readonly) long long stallCount;
-@property(readonly) double timeSpentInInitialStartup;
-@property(readonly) double timeSpentRecoveringFromStall;
-@property(readonly) long long timeWeightedAverageBitrate;
-@property(readonly) long long timeWeightedPeakBitrate;
-@property(readonly) long long variantSwitchCount;
 
 @end
 

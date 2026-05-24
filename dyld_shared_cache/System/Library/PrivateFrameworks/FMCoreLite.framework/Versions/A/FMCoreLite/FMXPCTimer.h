@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface FMXPCTimer
 {
     NSString *_name;
-    NSDate *_date;
-    double _gracePeriod;
-    long long _priority;
-    unsigned long long _options;
-    CDUnknownBlockType _block;
-    NSObject<OS_xpc_object> *_duetActivitySchedulerData;
 }
 
 - (void);
@@ -27,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)a previous card;
 - (id);
 - (unsigned long long);
 - (void);
@@ -36,7 +29,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (double);
+- (double);
 - (id);
 - (void);
 - (void);
@@ -44,13 +37,7 @@
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *duetActivitySchedulerData; // @synthesize duetActivitySchedulerData=_duetActivitySchedulerData;
-@property(nonatomic) double gracePeriod; // @synthesize gracePeriod=_gracePeriod;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end
 

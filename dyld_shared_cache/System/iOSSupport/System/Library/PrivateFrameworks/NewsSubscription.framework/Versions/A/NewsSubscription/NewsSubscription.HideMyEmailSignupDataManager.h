@@ -7,7 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupDataManager
 {
     id model;
-    id service;
 }
 
 @end

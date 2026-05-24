@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface NSSwitchAquaduckVisualProvider
 {
     id hostingView;
-    id state;
-    id nsSwitch;
 }
 
 - (void);
-- (struct CGRect);
+- (struct CGRect)lag_SHOULD_HANDLE_HTTP_COOKIES"b1"_flag_IS_MUTABLE"b1"_flag_SHOULD_START_SYNCHRONOUSLY"b1"_flag_ALLOW_CELLULAR"b1"_flag_PREVENTSIDLESYSTEMSLEEP"b1"_flag_SET_EXPLICIT_SHOULD_HANDLE_COOKIES"b1"_flag_SET_EXPLICIT_NETWORK_SERVICE_TYPE"b1"_flag_SET_EXPLICIT_ALLOWS_CELLULAR"b1"_flag_SET_EXPLICIT_PREVENTS_IDLE_SYSTEM_SLEEP"b1"_flag_SET_EXPLICIT_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)ies WHERE domain like ? AND expires_time > strftime('%s','now');
+- (id)y Partitioned;
+- (void):(id)arg1 QP;
 - (id);
 - (struct CGSize);
 - (void)|ÞÊÿ?ÃPA;
@@ -27,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets)fH;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
 @property(nonatomic, readonly) NSView *designatedFocusRingView;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end
 

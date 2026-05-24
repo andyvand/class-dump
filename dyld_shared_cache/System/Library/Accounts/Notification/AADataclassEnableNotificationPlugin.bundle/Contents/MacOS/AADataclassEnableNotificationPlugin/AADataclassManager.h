@@ -4,45 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSUserDefaults;
-@protocol AAAccountStoreProxyProtocol;
+@class ACAccountStore;
 
 @interface AADataclassManager
 {
     ACAccountStore *_store;
-    id <AAAccountStoreProxyProtocol> _storeProxy;
-    NSUserDefaults *_userDefaults;
 }
 
 + (id);
 + (id);
 - (_Bool);
+- (_Bool)(z;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)pz;
 - (id);
-- (id);
+- (id)p�Zm;
 - (void);
 - (void);
-- (id);
+- (id)Zm;
 - (_Bool);
 - (id);
+- (id)p;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (_Bool)Zm;
 - (_Bool);
+- (_Bool);
+- (id);
+- (void){;
+- (_Bool)z;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -55,8 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ACAccountStore *store; // @synthesize store=_store;
-@property(retain, nonatomic) id <AAAccountStoreProxyProtocol> storeProxy; // @synthesize storeProxy=_storeProxy;
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

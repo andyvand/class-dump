@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath, UITextPosition, UITextRange;
+@class UITextPosition;
 
 __attribute__((visibility("hidden")))
 @interface _UITextDragCaretUpdate
 {
     UITextPosition *position;
-    UITextRange *range;
-    UIBezierPath *maskPath;
-    CDUnknownBlockType alongsideAnimations;
-    CDUnknownBlockType completion;
-    _Bool isAnimated;
 }
 
 - (void)þ¾7yë¿7G;

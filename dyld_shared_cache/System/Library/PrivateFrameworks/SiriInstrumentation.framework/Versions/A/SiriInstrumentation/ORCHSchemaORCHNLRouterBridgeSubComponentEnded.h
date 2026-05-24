@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHNLRouterBridgeSubComponentEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)4;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)etrievalContext;
+- (id)_contextualEntityRetrievalContext;
 - (id)lowExecutorComponentSummary",&,N,V_pnronIntelligenceFlowExecutorComponentSummary;
-- (_Bool)SHIP;
-- (_Bool)ndTruthSource;
+- (_Bool)FLOWSTATETYPE_REMEMBER_UNSET_RELATIONSHIP;
+- (_Bool)PLUSSchemaPLUSContactGroundTruthSource;
 - (void)¼ÿ`³%%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

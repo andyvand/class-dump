@@ -12,7 +12,6 @@
 @interface HMFOSTransaction : HMFObject
 {
     NSObject<OS_os_transaction> *_transaction;
-    double _creationTime;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double creationTime; // @synthesize creationTime=_creationTime;
 @property(readonly, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end

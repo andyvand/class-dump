@@ -9,8 +9,6 @@
 @interface TRIPBBoolBoolDictionary
 {
     TRIPBMessage *_autocreator;
-    _Bool _values[2];
-    _Bool _valueSet[2];
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)@,;
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,8 +29,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)ount:(_Bool)arg1;
-- (void)iUnderstanding;
+- (void)initWithValues:(_Bool)arg1 count:(_Bool)arg2;
+- (void)SiriUnderstanding;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

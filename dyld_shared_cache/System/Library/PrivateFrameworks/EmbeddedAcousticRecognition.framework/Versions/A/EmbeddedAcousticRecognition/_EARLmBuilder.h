@@ -10,8 +10,8 @@
 
 + (void);
 + (id);
-+ (id);
-+ (id);
++ (id)__oslogstring;
++ (id)R;
 
 @end
 

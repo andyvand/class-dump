@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)fileURL '%@' and chatID '%@';
 - (void)MRUpdateActiveSystemEndpointMessageProtobuf",&,N,V_updateActiveSystemEndpointMessage;
 - (id)Ô;
-- (void)olsStyleMediumConfidenceVideoPicker;
+- (void)MRMediaControlsStyleMediumConfidenceVideoPicker;
 
 // Remaining properties
 @property(retain, nonatomic) MRRequestDetails *details; // @synthesize details=_details;

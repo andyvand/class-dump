@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroup, ABPerson, NSData;
+@class ABGroup;
 
 @interface ABMeCommand
 {
     ABGroup *_selectedGroup;
-    ABPerson *_currentMe;
-    ABPerson *_newMe;
-    NSData *_currentMeImageData;
-    NSData *_newMeImageData;
 }
 
 - (id);

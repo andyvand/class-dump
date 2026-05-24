@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactViewHostViewController, NSString;
+@class CNContactViewHostViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNContactViewExtensionHostContext
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)!;
 - (void);
 - (_Bool);
 - (void);
@@ -36,16 +36,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)Connection;
+- (void)_auxiliaryConnection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak CNContactViewHostViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

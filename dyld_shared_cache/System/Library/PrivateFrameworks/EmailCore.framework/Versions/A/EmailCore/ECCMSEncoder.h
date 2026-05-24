@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)message object (%@);
++ (id)r received;
++ (id)info...;
++ (id).;
++ (id)solveAirPlayDeviceNetServiceNotification..;
 + (id);
 
 @end

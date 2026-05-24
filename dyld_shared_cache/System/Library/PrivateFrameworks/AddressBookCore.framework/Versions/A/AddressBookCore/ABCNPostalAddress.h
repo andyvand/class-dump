@@ -9,28 +9,21 @@
 @interface ABCNPostalAddress
 {
     NSString *_street;
-    NSString *_subLocality;
-    NSString *_city;
-    NSString *_subAdministrativeArea;
-    NSString *_state;
-    NSString *_postalCode;
-    NSString *_country;
-    NSString *_countryCode;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (_Bool);
-- (id);
++ (_Bool)tateOracle descriptorForRequiredKeys]_block_invoke;
+- (id)AVSampleBufferRenderSynchronizer;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)red:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -40,14 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *city; // @synthesize city=_city;
-@property(readonly, copy, nonatomic) NSString *country; // @synthesize country=_country;
-@property(readonly, copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(readonly, copy, nonatomic) NSString *state; // @synthesize state=_state;
 @property(readonly, copy, nonatomic) NSString *street; // @synthesize street=_street;
-@property(readonly, copy, nonatomic) NSString *subAdministrativeArea; // @synthesize subAdministrativeArea=_subAdministrativeArea;
-@property(readonly, copy, nonatomic) NSString *subLocality; // @synthesize subLocality=_subLocality;
 
 @end
 

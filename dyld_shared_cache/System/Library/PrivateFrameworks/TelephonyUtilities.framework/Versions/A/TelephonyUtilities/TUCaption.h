@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface TUCaption
 {
     double _confidence;
-    NSString *_text;
-    NSNumber *_utteranceStartTimestamp;
-    NSNumber *_utteranceDuration;
-    struct _NSRange _range;
 }
 
 + (id);
@@ -32,23 +26,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (struct _NSRange);
-- (_Bool);
+- (_Bool)h?;
 - (void);
-- (id);
-- (double);
+- (id);
+- (double);
 - (void);
-- (void);
-- (void)boxExtendedImageURL;
+- (void)d;
+- (void)sandboxExtendedImageURL;
 
 // Remaining properties
 @property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) NSNumber *utteranceDuration; // @synthesize utteranceDuration=_utteranceDuration;
-@property(readonly, nonatomic) NSNumber *utteranceStartTimestamp; // @synthesize utteranceStartTimestamp=_utteranceStartTimestamp;
 
 @end
 

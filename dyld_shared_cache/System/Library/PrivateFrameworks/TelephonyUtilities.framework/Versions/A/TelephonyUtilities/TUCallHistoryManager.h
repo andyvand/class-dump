@@ -15,10 +15,10 @@
 - (void);
 - (void);
 - (void);
+- (id)B;
 - (id);
-- (id);
-- (id);
-- (void)ngeOfString:options: /* Error: Ran out of types for this method. */;
+- (id)csPET finished logging response tapped;
+- (void)rangeOfString:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TUCallHistoryManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;

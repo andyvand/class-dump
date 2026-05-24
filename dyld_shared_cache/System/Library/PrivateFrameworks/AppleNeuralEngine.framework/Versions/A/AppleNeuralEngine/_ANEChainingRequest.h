@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface _ANEChainingRequest
 {
     NSArray *_inputBuffer;
-    NSArray *_outputSets;
-    NSArray *_loopbackInputSymbolIndex;
-    NSArray *_loopbackOutputSymbolIndex;
-    NSArray *_signalEvents;
-    NSNumber *_transactionHandle;
-    NSNumber *_procedureIndex;
-    NSNumber *_fwEnqueueDelay;
-    NSNumber *_memoryPoolId;
 }
 
 + (id);
@@ -38,15 +30,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *fwEnqueueDelay; // @synthesize fwEnqueueDelay=_fwEnqueueDelay;
 @property(readonly, nonatomic) NSArray *inputBuffer; // @synthesize inputBuffer=_inputBuffer;
-@property(readonly, nonatomic) NSArray *loopbackInputSymbolIndex; // @synthesize loopbackInputSymbolIndex=_loopbackInputSymbolIndex;
-@property(readonly, nonatomic) NSArray *loopbackOutputSymbolIndex; // @synthesize loopbackOutputSymbolIndex=_loopbackOutputSymbolIndex;
-@property(readonly, nonatomic) NSNumber *memoryPoolId; // @synthesize memoryPoolId=_memoryPoolId;
-@property(readonly, nonatomic) NSArray *outputSets; // @synthesize outputSets=_outputSets;
-@property(readonly, nonatomic) NSNumber *procedureIndex; // @synthesize procedureIndex=_procedureIndex;
-@property(readonly, nonatomic) NSArray *signalEvents; // @synthesize signalEvents=_signalEvents;
-@property(readonly, nonatomic) NSNumber *transactionHandle; // @synthesize transactionHandle=_transactionHandle;
 
 @end
 

@@ -21,11 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) VCSDate *endDate;
-@property(nonatomic) _Bool fullDayEvent; // @synthesize fullDayEvent=_fullDayEvent;
 @property(retain, nonatomic) VCSDate *startDate;
 
 @end

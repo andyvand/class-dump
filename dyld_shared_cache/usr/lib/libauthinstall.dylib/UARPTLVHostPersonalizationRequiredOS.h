@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     unsigned char _isRequired;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned int);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (unsigned char);
 - (id);
-- (id);
+- (id)skipBackwardEnabled;
 
 // Remaining properties
 @property(readonly) unsigned char isRequired; // @synthesize isRequired=_isRequired;

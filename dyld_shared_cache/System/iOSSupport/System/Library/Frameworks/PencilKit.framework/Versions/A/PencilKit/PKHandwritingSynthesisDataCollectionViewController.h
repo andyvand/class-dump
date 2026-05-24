@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, NSString, UILabel, UIScrollView, UITableView, UIViewController;
+@class NSArray;
 
 @interface PKHandwritingSynthesisDataCollectionViewController
 {
     NSArray *_allDrawings;
-    NSMutableArray *_tableDataEntries;
-    UIScrollView *_scrollView;
-    UILabel *_descriptionLabel;
-    UITableView *_tableView;
-    NSLayoutConstraint *_tableViewHeightConstraint;
 }
 
 - (void);
@@ -32,12 +27,12 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)organizationNameTitle;
 - (long long);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id)(Ð1Â0@ù
 × ;
@@ -48,19 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allDrawings; // @synthesize allDrawings=_allDrawings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *tableDataEntries; // @synthesize tableDataEntries=_tableDataEntries;
-@property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) NSLayoutConstraint *tableViewHeightConstraint; // @synthesize tableViewHeightConstraint=_tableViewHeightConstraint;
-@property(readonly) UIViewController *viewController;
 
 @end
 

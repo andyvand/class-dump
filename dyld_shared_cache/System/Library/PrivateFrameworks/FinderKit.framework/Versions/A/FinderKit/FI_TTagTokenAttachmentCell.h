@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TTagTokenAttachmentCell
 {
     _Bool _titleShowsSelectedColorCircle;
-    _Bool _dottedOutline;
-    long long _labelColor;
-    unsigned long long _numberOfItemsLackingThisTag;
 }
 
 + (id);
@@ -18,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);

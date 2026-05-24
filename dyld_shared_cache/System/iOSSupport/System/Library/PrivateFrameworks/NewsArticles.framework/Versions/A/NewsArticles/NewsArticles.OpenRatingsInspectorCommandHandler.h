@@ -7,8 +7,6 @@
 @interface NewsArticles.OpenRatingsInspectorCommandHandler
 {
     id sceneProvider;
-    id featureAvailability;
-    id recipeAccessProvider;
 }
 
 @end

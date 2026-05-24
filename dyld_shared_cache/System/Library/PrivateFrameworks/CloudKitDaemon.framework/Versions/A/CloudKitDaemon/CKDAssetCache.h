@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAssetCacheTableGroup, CKDAssetHandleTable, CKDAssetVolumeTable, CKDClonedFileCache, CKDDirectoryContext, CKDMMCS, NSDate, NSString;
+@class CKDAssetCacheTableGroup, CKDClonedFileCache;
 
 @interface CKDAssetCache
 {
     CKDClonedFileCache *_clonedFileCache;
-    _Bool _isNewEmptyCache;
-    _Bool _isEvictionScheduled;
-    _Bool _didDrop;
-    CKDMMCS *_MMCS;
-    CKDAssetCacheTableGroup *_assetCacheTableGroup;
-    CKDAssetHandleTable *_assetHandleTable;
-    CKDAssetVolumeTable *_assetVolumeTable;
-    NSString *_applicationBundleID;
-    CKDDirectoryContext *_directoryContext;
-    long long _checkoutCount;
-    NSDate *_oldestLastUsedTime;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)UsoEntity_common_RecurringDateTimeRange;
 - (_Bool);
 - (id);
 - (id);
@@ -42,45 +31,45 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)setContent:(id)arg1;
+- (id)R!;
+- (_Bool)@;
 - (void);
-- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)PMessageRingFlush(APMessageRingRef, uint16_t *);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)Continuity;
-- (void):(id)arg1 length:bytesRead:error: /* Error: Ran out of types for this method. */;
-- (void)reURL;
+- (id);
+- (void)NSUbiquitousKeyValueStoreInitialSyncChange;
+- (id)ADD COLUMN follow_up_end_date INTEGER;CREATE INDEX IF NOT EXISTS message_global_data_follow_up_start_date_index ON message_global_data(follow_up_start_date);CREATE INDEX IF NOT EXISTS message_global_data_follow_up_end_date_index ON message_global_data(follow_up_end_date);;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)A;
+- (void)kPCSServiceContinuity;
+- (void)itemGroupContext:(id)arg1 willReadFromItemReaderWriter:offset:bytes:length:bytesRead:error: /* Error: Ran out of types for this method. */;
+- (void)shareURL;
 - (unsigned long long)nse for request %@";
 - (_Bool)record %@;
 - (void)New protection data for record %@ after %{public}@ access is %@;
@@ -88,18 +77,7 @@
 - (void){;
 
 // Remaining properties
-@property(nonatomic) __weak CKDMMCS *MMCS; // @synthesize MMCS=_MMCS;
-@property(readonly, nonatomic) NSString *applicationBundleID; // @synthesize applicationBundleID=_applicationBundleID;
 @property(readonly, nonatomic) CKDAssetCacheTableGroup *assetCacheTableGroup; // @synthesize assetCacheTableGroup=_assetCacheTableGroup;
-@property(readonly, nonatomic) CKDAssetHandleTable *assetHandleTable; // @synthesize assetHandleTable=_assetHandleTable;
-@property(readonly, nonatomic) CKDAssetVolumeTable *assetVolumeTable; // @synthesize assetVolumeTable=_assetVolumeTable;
-@property(nonatomic) long long checkoutCount; // @synthesize checkoutCount=_checkoutCount;
-@property _Bool didDrop; // @synthesize didDrop=_didDrop;
-@property(retain, nonatomic) CKDDirectoryContext *directoryContext; // @synthesize directoryContext=_directoryContext;
-@property(readonly, nonatomic) NSString *fileDownloadPath;
-@property _Bool isEvictionScheduled; // @synthesize isEvictionScheduled=_isEvictionScheduled;
-@property(readonly, nonatomic) _Bool isNewEmptyCache; // @synthesize isNewEmptyCache=_isNewEmptyCache;
-@property(retain, nonatomic) NSDate *oldestLastUsedTime; // @synthesize oldestLastUsedTime=_oldestLastUsedTime;
 
 @end
 

@@ -6,9 +6,9 @@
 
 @interface UnknownClass (Additions)
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ge rowLocationForRowID:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)nItemIdentifier displayText];
+- (_Bool)displayText:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (struct __CFPhoneNumber *);
 - (id);

@@ -9,6 +9,8 @@
 @protocol CBCentralManagerDelegate
 
 @optional
+- (void);
+- (void)_;
 - (void)þÿ;
 - (void)SFServiceSession _pairVerifyCompleted:(CBCentralManager *)arg1 ];
 @end

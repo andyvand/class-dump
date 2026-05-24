@@ -11,7 +11,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)set
+;
 - (_Bool);
 - (_Bool);
 - (void);

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIcon, NSArray, NSString;
+@class ISIcon;
 
 __attribute__((visibility("hidden")))
 @interface NSImageISIconRepProvider
 {
     ISIcon *_icon;
-    NSArray *_representations;
-    _Bool _allowPlaceholder;
-    _Bool _allowTranslucency;
 }
 
 - (void);
-- (id);
+- (id)ggregateAssetDownloadTask"24@"AVMediaSelection"32;
 - (_Bool);
-- (id);
+- (id)Đ6;
 - (_Bool);
 - (id);
 - (void);
@@ -28,31 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)int=dd}{CGSize=dd}}16q24;
 
 // Remaining properties
-@property(readonly) _Bool _isIconAppearanceSensitive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool _isSymbolImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(nonatomic) _Bool allowPlaceholder; // @synthesize allowPlaceholder=_allowPlaceholder;
-@property(nonatomic) _Bool allowTranslucency; // @synthesize allowTranslucency=_allowTranslucency;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) struct CGSize defaultSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSString *symbolName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
 
 @end
 

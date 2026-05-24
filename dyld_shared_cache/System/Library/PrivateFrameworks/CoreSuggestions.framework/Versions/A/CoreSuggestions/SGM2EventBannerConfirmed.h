@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2EventBannerConfirmed
 {
     int _app;
-    int _category;
-    int _dateAdj;
-    int _duraAdj;
-    int _extracted;
-    NSString *_key;
-    int _state;
-    int _titleAdj;
-    struct {
-        unsigned int app:1;
-        unsigned int category:1;
-        unsigned int dateAdj:1;
-        unsigned int duraAdj:1;
-        unsigned int extracted:1;
-        unsigned int state:1;
-        unsigned int titleAdj:1;
-    } _has;
 }
 
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -61,14 +43,14 @@
 - (_Bool);
 - (int);
 - (id);
-- (void);
-- (int);
+- (void)_processAuthKitUpdateResult:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (int)_createAuthKitUpdateTaskForAccount:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)sted %f headroom exceeded algorithm scale limit using:(id)arg1 %f;
 - (void);
 - (id);
 - (int);
@@ -78,28 +60,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)selfIdentityLastName;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(nonatomic) int dateAdj; // @synthesize dateAdj=_dateAdj;
-@property(nonatomic) int duraAdj; // @synthesize duraAdj=_duraAdj;
-@property(nonatomic) int extracted; // @synthesize extracted=_extracted;
-@property(nonatomic) _Bool hasApp;
-@property(nonatomic) _Bool hasCategory;
-@property(nonatomic) _Bool hasDateAdj;
-@property(nonatomic) _Bool hasDuraAdj;
-@property(nonatomic) _Bool hasExtracted;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasTitleAdj;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) int titleAdj; // @synthesize titleAdj=_titleAdj;
 
 @end
 

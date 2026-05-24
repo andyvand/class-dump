@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LARecoveryCredential, LARecoveryData, LARecoveryKeyIdentifier;
+@class LARecoveryKeyIdentifier;
 
 @interface LARecoveryKey
 {
     LARecoveryKeyIdentifier *identifier;
-    LARecoveryCredential *credential;
-    LARecoveryData *externalData;
 }
 
 + (id);
@@ -23,12 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)U;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) LARecoveryCredential *credential; // @synthesize credential;
-@property(nonatomic, readonly) LARecoveryData *externalData; // @synthesize externalData;
 @property(nonatomic, readonly) LARecoveryKeyIdentifier *identifier; // @synthesize identifier;
 
 @end

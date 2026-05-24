@@ -4,33 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKHighlightAnnotation;
+@class AKController;
 
 @interface AKHighlightAnnotationController
 {
     AKController *_controller;
-    AKHighlightAnnotation *_continuousHighlight;
 }
 
-- (void);
+- (void)P
+;
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) AKHighlightAnnotation *continuousHighlight; // @synthesize continuousHighlight=_continuousHighlight;
 @property __weak AKController *controller; // @synthesize controller=_controller;
 
 @end

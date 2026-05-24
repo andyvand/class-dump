@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, MPMusicPlayerControllerSystemCache, MPMusicPlayerQueueDescriptor, NSMutableArray, NSString, NSUUID, NSXPCListener, NSXPCListenerEndpoint;
+@class MPMusicPlayerControllerSystemCache, MPMusicPlayerQueueDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface _MPCMusicPlayerControllerServer
 {
     MPMusicPlayerQueueDescriptor *_queueDescriptor;
-    MPMusicPlayerQueueDescriptor *_preparingDescriptor;
-    CDUnknownBlockType _prepareCompletionHandler;
-    _Bool _waitingForAdditionalPlaybackContexts;
-    _Bool _resumed;
-    NSUUID *_settingMultiplePlaybackContextsUUID;
-    MPCPlaybackEngine *_playbackEngine;
-    MPMusicPlayerControllerSystemCache *_systemCache;
-    NSXPCListener *_listener;
-    NSMutableArray *_activeConnections;
 }
 
 - (id);
+- (void)applicationState;
 - (void);
 - (void);
 - (void);
@@ -32,18 +24,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)t"36;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)otos already enabled for account %@;
+- (void)o enable cloud photo services for account %@, changeType %d, accountBecomesVerified %d;
 - (void);
 - (void);
 - (void);
@@ -72,7 +63,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,24 +74,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (void)emIDForStart=%{public}@ edit=%{public}@;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *activeConnections; // @synthesize activeConnections=_activeConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) MPMusicPlayerControllerSystemCache *systemCache; // @synthesize systemCache=_systemCache;
 
 @end

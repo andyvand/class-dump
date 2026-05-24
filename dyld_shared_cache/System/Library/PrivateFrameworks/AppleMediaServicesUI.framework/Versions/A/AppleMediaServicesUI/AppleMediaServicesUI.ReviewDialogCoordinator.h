@@ -7,16 +7,12 @@
 @interface AppleMediaServicesUI.ReviewDialogCoordinator
 {
     id _authenticateRequest;
-    id _authenticateContinuation;
-    id _dialogRequest;
-    id _dialogContinuation;
-    id _$observationRegistrar;
 }
 
 - (void);
 - (id);
 - (void);
-- (void):name:object: /* Error: Ran out of types for this method. */;
+- (void)removeObserver:name:object: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -15,10 +15,10 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)videEnableFanOptionsForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)button;
+- (void)atistics"16;
+- (id)SpecificValue:(id)arg1 forKey:(id)arg2 ];
+- (void)provideEnableFanOptionsForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *archivedDefaultValue; // @synthesize archivedDefaultValue=_archivedDefaultValue;

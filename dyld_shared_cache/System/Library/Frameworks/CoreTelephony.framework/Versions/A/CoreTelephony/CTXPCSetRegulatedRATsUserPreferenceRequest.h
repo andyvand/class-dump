@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)kٗ;
 - (void);
 - (id);
-- (id);
+- (id)L _Nonnull);
 
 @end
 

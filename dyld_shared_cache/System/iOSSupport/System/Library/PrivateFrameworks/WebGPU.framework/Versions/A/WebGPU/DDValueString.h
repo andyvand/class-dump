@@ -12,8 +12,8 @@
     void string;
 }
 
-- (id);
-- (id);
+- (id)ror">32;
+- (id)zon URL passed as input to an affiliate link using Associate.;
 - (id);
 - (id);
 - (id);

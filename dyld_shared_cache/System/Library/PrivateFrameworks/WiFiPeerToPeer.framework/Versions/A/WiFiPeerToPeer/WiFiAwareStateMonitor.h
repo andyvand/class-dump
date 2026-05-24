@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WiFiAwareRadioSchedule, WiFiAwareSrvInfo, WiFiP2PXPCConnection;
-@protocol WiFiAwareStateMonitorXPCDelegate;
+@class NSArray, WiFiP2PXPCConnection;
 
 @interface WiFiAwareStateMonitor
 {
     WiFiP2PXPCConnection *_xpcConnection;
-    id <WiFiAwareStateMonitorXPCDelegate> _remoteProxy;
-    CDUnknownBlockType _stateUpdatedHandler;
-    CDUnknownBlockType _dpStateUpdatedHandler;
-    CDUnknownBlockType _availUpdatedHandler;
-    CDUnknownBlockType _srvInfoUpdatedHandler;
-    NSArray *_lastStateChangedOptions;
-    NSArray *_lastDataPathStateChangedOptions;
-    NSArray *_lastRadioScheduleChangedOptions;
-    WiFiAwareRadioSchedule *_lastRadioSchedule;
-    NSArray *_lastSrvInfoChangedOptions;
-    WiFiAwareSrvInfo *_lastSrvInfo;
 }
 
 - (void);
@@ -57,7 +45,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -69,7 +57,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -77,26 +65,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType availUpdatedHandler; // @synthesize availUpdatedHandler=_availUpdatedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dpStateUpdatedHandler; // @synthesize dpStateUpdatedHandler=_dpStateUpdatedHandler;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *lastDataPathStateChangedOptions; // @synthesize lastDataPathStateChangedOptions=_lastDataPathStateChangedOptions;
-@property(retain, nonatomic) WiFiAwareRadioSchedule *lastRadioSchedule; // @synthesize lastRadioSchedule=_lastRadioSchedule;
-@property(retain, nonatomic) NSArray *lastRadioScheduleChangedOptions; // @synthesize lastRadioScheduleChangedOptions=_lastRadioScheduleChangedOptions;
-@property(retain, nonatomic) WiFiAwareSrvInfo *lastSrvInfo; // @synthesize lastSrvInfo=_lastSrvInfo;
-@property(retain, nonatomic) NSArray *lastSrvInfoChangedOptions; // @synthesize lastSrvInfoChangedOptions=_lastSrvInfoChangedOptions;
 @property(retain, nonatomic) NSArray *lastStateChangedOptions; // @synthesize lastStateChangedOptions=_lastStateChangedOptions;
-@property(copy, nonatomic) CDUnknownBlockType srvInfoUpdatedHandler; // @synthesize srvInfoUpdatedHandler=_srvInfoUpdatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType stateUpdatedHandler; // @synthesize stateUpdatedHandler=_stateUpdatedHandler;
-@property(readonly) Class superclass;
 
 @end
 

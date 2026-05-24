@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAMPMediaItem.h>
 
-@class NSString;
-
 @interface SAMPEpisode : SAMPMediaItem
 {
 }
@@ -15,21 +13,19 @@
 + (id);
 + (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (long long)T_SENSOR;
+- (id);
+- (id);
+- (void)bort received message ID '%@':(long long)arg1 %{error}
+;
+- (long long)LIGHT_SENSOR;
 - (long long);
 - (void)È³úÿ/JuY;
 
 // Remaining properties
 @property(nonatomic) long long episodeNumber;
-@property(nonatomic) long long seasonNumber;
-@property(nonatomic) long long showEpisodesCount;
-@property(copy, nonatomic) NSString *showName;
 
 @end
 

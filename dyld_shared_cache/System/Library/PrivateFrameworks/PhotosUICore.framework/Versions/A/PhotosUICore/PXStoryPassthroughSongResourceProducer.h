@@ -9,7 +9,6 @@
 @interface PXStoryPassthroughSongResourceProducer
 {
     unsigned long long logContext;
-    id <PXStorySongResource> _songResource;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)on;
+- (void)_keyAssetKenBurnsPanDirection;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long logContext; // @synthesize logContext;
 @property(readonly, nonatomic) id <PXStorySongResource> songResource; // @synthesize songResource=_songResource;
 
 @end

@@ -6,28 +6,19 @@
 
 #import <AppKit/_NSDocumentSerializationObject.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSDocumentFileAccess : _NSDocumentSerializationObject
 {
     unsigned long long _continueCount;
-    unsigned long long _fileURLStabilizationCount;
-    NSMutableArray *_pendingInferiorFileURLOnlyAccesses;
-    unsigned long long _fileURLAccessorCount;
-    NSMutableArray *_fileAccessCanContinueBlocks;
-    _Bool _invokedOnMainThread;
-    _Bool _accessesFileURLOnly;
-    _NSDocumentFileAccess *_superiorFileAccess;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)n must be non NULL and signatureOid must be non NULL;
+- (void)_CTServerConnectionCopyFirmwareManifestStatus;
+- (void)AFXhxraF1bvyaCMlBIOZPA;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,17 +29,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)aught exception:(id)arg1 %@ [%@] [%@];
+- (id);
 - (void):didChangeIndentFrom:to:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool accessesFileURLOnly; // @synthesize accessesFileURLOnly=_accessesFileURLOnly;
-@property(readonly) _Bool canContinueFileAccess;
-@property(readonly) _Bool canFinishFileAccess;
-@property(readonly) _Bool fileURLStabilized;
 @property _Bool invokedOnMainThread; // @synthesize invokedOnMainThread=_invokedOnMainThread;
-@property(retain) _NSDocumentFileAccess *superiorFileAccess; // @synthesize superiorFileAccess=_superiorFileAccess;
 
 @end
 

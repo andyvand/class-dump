@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface PKSearchDateResult
 {
     unsigned long long _type;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-+ (_Bool);
-- (unsigned long long);
++ (_Bool);
+- (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)dleFromLocation() bundle (%s) in location (%s) could not be loaded.;
 - (_Bool);
-- (void);
+- (void)_nestedErrorCode;
 - (id);
 - (void);
 - (void);
-- (void)ewardsItem;
+- (void)PKPaymentTransactionRewardsItem;
 - (void)'%@'; ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

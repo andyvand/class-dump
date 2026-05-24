@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)VKCImageTextSelectionView_iOSAccessibility;
 + (void);
 - (void);
 

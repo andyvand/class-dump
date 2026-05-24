@@ -13,7 +13,7 @@
     MPSNNNeuronDescriptor *_descriptor;
 }
 
-+ (id);
++ (id);
 - (void *);
 - (id);
 - (id);

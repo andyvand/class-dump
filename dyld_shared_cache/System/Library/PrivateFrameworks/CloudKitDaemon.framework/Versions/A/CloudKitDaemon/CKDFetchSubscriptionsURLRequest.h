@@ -6,15 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray, NSMutableArray;
 
 @interface CKDFetchSubscriptionsURLRequest : CKDURLRequest
 {
     NSMutableArray *_subscriptions;
-    CDUnknownBlockType _subscriptionFetchedBlock;
-    CDUnknownBlockType _errorFetchingAllSubscriptionsBlock;
-    NSArray *_subscriptionIDs;
-    NSMutableDictionary *_subscriptionIDByRequestID;
 }
 
 - (id);
@@ -26,11 +22,11 @@
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)_keyValueStoreChanged: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
-- (void)onErrorAnonymousToServerAuthentication;
+- (id)assetType;
+- (void)FakeSignatureGenerationErrorAnonymousToServerAuthentication;
 - (id)te table if not exists Callback (
     operationID           text,
     callback              blob
@@ -43,11 +39,7 @@ create index if not exists OperationUUID on Callback (operationID);
 - (id)Hï;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType errorFetchingAllSubscriptionsBlock; // @synthesize errorFetchingAllSubscriptionsBlock=_errorFetchingAllSubscriptionsBlock;
-@property(copy, nonatomic) CDUnknownBlockType subscriptionFetchedBlock; // @synthesize subscriptionFetchedBlock=_subscriptionFetchedBlock;
-@property(retain, nonatomic) NSMutableDictionary *subscriptionIDByRequestID; // @synthesize subscriptionIDByRequestID=_subscriptionIDByRequestID;
 @property(retain, nonatomic) NSArray *subscriptionIDs; // @synthesize subscriptionIDs=_subscriptionIDs;
-@property(retain, nonatomic) NSMutableArray *subscriptions; // @synthesize subscriptions=_subscriptions;
 
 @end
 

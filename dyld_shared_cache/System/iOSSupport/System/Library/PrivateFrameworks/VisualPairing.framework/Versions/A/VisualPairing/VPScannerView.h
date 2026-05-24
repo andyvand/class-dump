@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureSession, AVCaptureVideoPreviewLayer, CAShapeLayer, NSDate, NSError, NSObject, NSString, VPWatermarkReader;
+@class AVCaptureDevice, NSDate, NSError, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VPScannerView
 {
     AVCaptureDevice *_avCaptureDevice;
     NSObject<OS_dispatch_queue> *_avCaptureQueue;
-    AVCaptureSession *_avCaptureSession;
-    AVCaptureVideoPreviewLayer *_avPreviewLayer;
-    _Bool _scanning;
-    _Bool _isProxCardType;
-    CAShapeLayer *_viewfinderBorderLayer;
-    CAShapeLayer *_viewfinderRevealLayer;
-    VPWatermarkReader *_watermarkReader;
-    _Bool _fillLayerBoundsWithVideo;
-    long long _autoFocusRangeRestriction;
-    long long _focusMode;
-    CDUnknownBlockType _scannedCodeHandler;
-    NSDate *_startDate;
-    NSError *_latestError;
 }
 
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -37,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)4;
 - (_Bool);
 - (id);
 - (void);
@@ -46,32 +33,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)cusMode *WFToggleFocusModeContextualActionFocusModeFromFocusMode(__strong id<FCActivityDescribing>);
 - (long long);
 - (void);
 - (void);
 - (long long)6;
 
 // Remaining properties
-@property(nonatomic) long long autoFocusRangeRestriction; // @synthesize autoFocusRangeRestriction=_autoFocusRangeRestriction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fillLayerBoundsWithVideo; // @synthesize fillLayerBoundsWithVideo=_fillLayerBoundsWithVideo;
-@property(nonatomic) long long focusMode; // @synthesize focusMode=_focusMode;
-@property(readonly) unsigned long long hash;
 @property(retain) NSError *latestError; // @synthesize latestError=_latestError;
-@property(copy, nonatomic) CDUnknownBlockType scannedCodeHandler; // @synthesize scannedCodeHandler=_scannedCodeHandler;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double viewFinderDiameter;
 
 @end
 

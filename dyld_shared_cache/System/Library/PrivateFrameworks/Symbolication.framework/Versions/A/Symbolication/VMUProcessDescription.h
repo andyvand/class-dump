@@ -4,48 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, VMUTaskMemoryCache;
+@class VMUTaskMemoryCache;
 
 @interface VMUProcessDescription
 {
     VMUTaskMemoryCache *_memoryCache;
-    int _pid;
-    unsigned long long _taskType;
-    _Bool _taskIsTranslated;
-    NSString *_hardwareModel;
-    NSString *_processName;
-    _Bool _processNameNeedsCorrection;
-    NSString *_executablePath;
-    struct _CSTypeRef _symbolicator;
-    _Bool _executablePathNeedsCorrection;
-    unsigned long long _executableLoadAddress;
-    int _cpuType;
-    unsigned int _platform;
-    _Bool _is64Bit;
-    struct timeval _proc_starttime;
-    unsigned long long _physicalFootprint;
-    unsigned long long _physicalFootprintPeak;
-    NSMutableArray *_binaryImages;
-    NSArray *_sortedBinaryImages;
-    NSDictionary *_binaryImageHints;
-    NSArray *_unreadableBinaryImagePaths;
-    _Bool _binaryImagePostProcessingComplete;
-    NSDictionary *_buildVersionDictionary;
-    NSDictionary *_osVersionDictionary;
-    NSString *_parentProcessName;
-    NSString *_parentExecutablePath;
-    int _ppid;
-    NSDate *_date;
-    NSMutableDictionary *_environment;
-    unsigned int _idleExitStatus;
 }
 
-+ (struct _CSTypeRef);
++ (struct _CSTypeRef);
 + (struct _CSTypeRef);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)b;
 - (int);
 - (unsigned int);
 - (_Bool);
@@ -54,8 +25,8 @@
 - (int);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)}S?k;
 - (id);
 - (_Bool);
 - (id);
@@ -64,44 +35,42 @@
 - (void);
 - (id);
 - (id);
+- (id)'t add identity key in extension of entity '%@', extension '%@';
 - (id);
 - (id);
+- (id)_isUserEDURestricted;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)feedDescriptionSourceElement;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (int);
 - (id);
 - (id);
 - (id);
+- (_Bool)Y	;
+- (id);
+- (id);
+- (id)TA�#%;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)AXAnnouncementTypeSuccessSound;
+- (void)Button;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (unsigned long long)q;
 - (unsigned long long);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int idleExitStatus; // @synthesize idleExitStatus=_idleExitStatus;
 @property(readonly, nonatomic) unsigned long long physicalFootprint; // @synthesize physicalFootprint=_physicalFootprint;
-@property(readonly, nonatomic) unsigned long long physicalFootprintPeak; // @synthesize physicalFootprintPeak=_physicalFootprintPeak;
 
 @end
 

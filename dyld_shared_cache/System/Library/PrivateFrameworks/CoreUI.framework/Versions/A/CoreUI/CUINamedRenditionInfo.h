@@ -7,8 +7,6 @@
 @interface CUINamedRenditionInfo
 {
     void *_bitmap;
-    const struct _renditionkeyfmt *_keyFormat;
-    long long _platform;
 }
 
 + (int);
@@ -25,7 +23,7 @@
 - (_Bool);
 - (unsigned short);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned short);
 - (void);
 - (void);
@@ -36,7 +34,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)rolledContentsUnderTitlebar in host;
 
 @end
 

@@ -7,13 +7,6 @@
 @interface UIKit.UITextEffectView.PonderingEffect
 {
     id chunk;
-    id view;
-    id id;
-    id lightConfiguration;
-    id animateFromColor;
-    id onAnimateToBaseColorCompletion;
-    id effectViewHandle;
-    id trackedTargetedPreview;
 }
 
 @end

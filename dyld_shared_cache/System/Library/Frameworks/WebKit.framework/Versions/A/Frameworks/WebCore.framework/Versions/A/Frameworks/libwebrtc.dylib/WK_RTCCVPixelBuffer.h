@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WK_RTCCVPixelBuffer
 {
     int _width;
-    int _height;
-    int _bufferWidth;
-    int _bufferHeight;
-    int _cropWidth;
-    int _cropHeight;
-    int _cropX;
-    int _cropY;
-    struct __CVBuffer *_pixelBuffer;
 }
 
 + (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (int);
-- (int);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (int);
+- (id)ings & Tables;
+- (_Bool)Requested Index to PathImpl:(int)arg1:(int)arg2 RemovePathSegment is out of bounds;
+- (_Bool)hSegment are not as expected;
+- (id)y/BuildRoots/4~COGKugDSBqHPySrpIDrOH-23Ov2kd1KJv88U1zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/StructureNodeImpl.cpp;
+- (int)namespace prefix;
+- (int)sted prefix;
+- (int)espace URI;
+- (int)WXMPMeta_DecrementRefCount_1;
+- (_Bool)WXMPMeta_IncrementRefCount_1;
+- (void)WXMPMeta_CTor_1;
+- (void)- missing low surrogate;
+- (int)-32 - out of range;
 - (void);
 - (void);
 - (int);
@@ -45,20 +35,7 @@ __attribute__((visibility("hidden")))
 ?è0ß½ø4?¶ï>oØÎ¿ë´½hèw¿zª?Fç¾	'¿©Á¤¾¶øÔ½é?O@k?[?äN©=ñK­?@ûÀØG§=¢½+Þ¾ø÷¾¯Î±½4@gò­¿6ê¿&Ø?Ô=¨Â¿µý¿RÕ´>ðû¾Ù?ãªâ>¯?¸uÇ¾Yú¤¿¯B¿¬Ê>=n?czÂ>9ª>qæÓ?al¿2w±¿q8C¿üã-?7à³=Ïkl¼ªñ²>­£º?ñh¿Xç´¿z(¾¹k=)Ë >,};
 
 // Remaining properties
-@property(readonly, nonatomic) int cropHeight; // @synthesize cropHeight=_cropHeight;
-@property(readonly, nonatomic) int cropWidth; // @synthesize cropWidth=_cropWidth;
-@property(readonly, nonatomic) int cropX; // @synthesize cropX=_cropX;
-@property(readonly, nonatomic) int cropY; // @synthesize cropY=_cropY;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int height;
 @property(readonly, nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int width;
 
 @end
 

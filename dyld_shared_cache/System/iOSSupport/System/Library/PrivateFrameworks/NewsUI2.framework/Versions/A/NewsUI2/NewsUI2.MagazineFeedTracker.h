@@ -7,18 +7,6 @@
 @interface NewsUI2.MagazineFeedTracker
 {
     id blueprintProvider;
-    id blueprintLayoutProvider;
-    id tracker;
-    id issueModelFactory;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id articleDataFactory;
-    id supplementaryDataProvider;
-    id articleViewingSession;
-    id recipeViewingSession;
-    id puzzleHistoryService;
-    id contentAvailabilityValidator;
-    id feedDismissingManager;
 }
 
 @end

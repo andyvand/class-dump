@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSUUID;
+@class NSArray;
 
 @interface _DKChangeSet
 {
     NSArray *_eventsToAdd;
-    NSArray *_eventIDsToDelete;
-    NSUUID *_deviceIdentifier;
-    unsigned long long _sequenceNumber;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_type;
 }
 
 + (id);
@@ -22,8 +16,8 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (id);
 - (id);
@@ -31,16 +25,16 @@
 - (id);
 - (id);
 - (id);
+- (void)aH;
+- (id)D;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long){__CFError=}8;
 - (id);
 - (void);
 - (id);
@@ -51,20 +45,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSUUID *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) NSArray *eventIDsToDelete; // @synthesize eventIDsToDelete=_eventIDsToDelete;
-@property(retain, nonatomic) NSArray *eventsToAdd; // @synthesize eventsToAdd=_eventsToAdd;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

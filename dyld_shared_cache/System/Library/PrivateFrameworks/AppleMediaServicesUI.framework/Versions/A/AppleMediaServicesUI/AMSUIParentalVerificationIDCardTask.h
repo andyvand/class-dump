@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSUIPaymentVerificationMetrics, NSDictionary, NSString, NSViewController;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIParentalVerificationIDCardTask
 {
     ACAccount *_account;
-    NSDictionary *_accountParameters;
-    id <AMSBagProtocol> _bag;
-    AMSUIPaymentVerificationMetrics *_metrics;
-    ACAccount *_originalAccount;
-    NSViewController *_viewController;
-    NSDictionary *_userInfo;
 }
 
-+ (id);
++ (id)b;
 + (id);
 + (long long);
 - (void);
@@ -30,30 +23,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)ntrollerDelegate>";
-- (id);
+- (id)setSafariDelegate: /* Error: Ran out of types for this method. */;
 - (void)¯·=SgGG_AEyÒ¼=AKGê½=tGGG;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSDictionary *accountParameters; // @synthesize accountParameters=_accountParameters;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSString *enablementBagKey;
-@property(retain) AMSUIPaymentVerificationMetrics *metrics; // @synthesize metrics=_metrics;
-@property(retain) ACAccount *originalAccount; // @synthesize originalAccount=_originalAccount;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

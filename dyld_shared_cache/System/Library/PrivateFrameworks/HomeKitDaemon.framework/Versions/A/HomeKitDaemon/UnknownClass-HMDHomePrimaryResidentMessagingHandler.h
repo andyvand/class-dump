@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPPairingIdentity, HMDBackingStoreTransactionActions, HMDDevice, HMDRemoteMessageSenderContext, HMDXPCClientConnection, HMDXPCMessageSendPolicy, NSString;
+@class HMDXPCClientConnection;
 
 @interface UnknownClass (HMDHomePrimaryResidentMessagingHandler)
 + (id);
@@ -17,7 +17,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,29 +30,29 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
-- (id);
-- (_Bool);
+- (unsigned long long)96+;
 - (unsigned long long);
 - (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (int)requestQueryAnnotationForQuery:originatorPID:operationID:reply: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (_Bool)l. Did ignore contact linking:%{bool}d /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)o;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -62,59 +62,15 @@
 × ;
 - (unsigned long long)
 × ;
-- (_Bool)ionFullAccess;
-- (unsigned long long)ybackArchivePresent;
-- (_Bool)inStoreUpdatedNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)numAccessoriesNetworkProtectionFullAccess;
+- (unsigned long long)isPlaybackArchivePresent;
+- (_Bool)handleSystemKeychainStoreUpdatedNotification: /* Error: Ran out of types for this method. */;
 - (_Bool)te;
 - (id)4½È½;
 - (_Bool)sory (isPrimary:%@) /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAuthorizedForHomeDataAccess) _Bool authorizedForHomeDataAccess;
-@property(readonly, nonatomic, getter=isAuthorizedForLocationAccess) _Bool authorizedForLocationAccess;
-@property(readonly, nonatomic, getter=isAuthorizedForMicrophoneAccess) _Bool authorizedForMicrophoneAccess;
-@property(readonly, nonatomic, getter=isBackground) _Bool background;
-@property(readonly, copy, nonatomic) NSString *clientIdentifier;
-@property(readonly) NSString *clientName;
-@property(readonly, copy, nonatomic) NSString *companionAppBundleIdentifier;
-@property(readonly, nonatomic, getter=isEntitledForAPIAccess) _Bool entitledForAPIAccess;
-@property(readonly, nonatomic, getter=isEntitledForAssistantIdentifiers) _Bool entitledForAssistantIdentifiers;
-@property(readonly, nonatomic, getter=isEntitledForBackgroundMode) _Bool entitledForBackgroundMode;
-@property(readonly, nonatomic, getter=isEntitledForHomeLocationAccess) _Bool entitledForHomeLocationAccess;
-@property(readonly, nonatomic, getter=isEntitledForHomeLocationFeedbackAccess) _Bool entitledForHomeLocationFeedbackAccess;
-@property(readonly, nonatomic, getter=isEntitledForSPIAccess) _Bool entitledForSPIAccess;
-@property(readonly, nonatomic, getter=isEntitledForSecureAccess) _Bool entitledForSecureAccess;
-@property(readonly, nonatomic, getter=isEntitledForShortcutsAutomationAccess) _Bool entitledForShortcutsAutomationAccess;
-@property(readonly, nonatomic, getter=isEntitledForStateDump) _Bool entitledForStateDump;
-@property(readonly, nonatomic, getter=isEntitledToProvideAccessorySetupPayload) _Bool entitledToProvideAccessorySetupPayload;
-@property(readonly, nonatomic, getter=isEntitledToProvideMatterSetupPayload) _Bool entitledToProvideMatterSetupPayload;
-@property(readonly, nonatomic) unsigned long long entitlements;
-@property(readonly, nonatomic, getter=requiresHomeLocationEntitlement) _Bool homeLocationEntitlementRequired;
-@property(readonly, nonatomic, getter=isInternal) _Bool internal;
-@property(readonly, nonatomic, getter=isLocationAuthorized) _Bool locationAuthorized;
 @property(readonly) HMDXPCClientConnection *proxyConnection;
-@property(readonly, nonatomic, getter=isRemote) _Bool remote;
-@property(readonly, nonatomic) _Bool remoteDisallowsIDSRacing;
-@property(readonly, nonatomic) unsigned long long remoteResponseRestriction;
-@property(readonly, nonatomic) unsigned long long remoteRestriction;
-@property(readonly, nonatomic) HMDRemoteMessageSenderContext *remoteSenderContext;
-@property(readonly, nonatomic) HMDDevice *remoteSourceDevice;
-@property(readonly, nonatomic) NSString *remoteSourceID;
-@property(readonly, nonatomic) NSString *remoteToID;
-@property(readonly, nonatomic) HAPPairingIdentity *remoteUserPairingIdentity;
-@property(readonly, nonatomic) _Bool requiresCameraClipsEntitlement;
-@property(readonly, nonatomic) _Bool requiresMatterSetupPayloadEntitlement;
-@property(readonly, nonatomic) _Bool requiresMultiUserSetupEntitlement;
-@property(readonly, nonatomic) _Bool requiresNoSPIEntitlement;
-@property(readonly, nonatomic) _Bool requiresPersonManagerEntitlement;
-@property(readonly, nonatomic) _Bool requiresSPIEntitlement;
-@property(readonly, nonatomic) _Bool requiresSetupPayloadEntitlement;
-@property(readonly, nonatomic) _Bool requiresWalletKeyEntitlement;
-@property(readonly, nonatomic, getter=isSecureRemote) _Bool secureRemote;
-@property(readonly, nonatomic) HMDXPCMessageSendPolicy *sendPolicy;
-@property(readonly, nonatomic) unsigned long long source;
-@property(readonly, nonatomic) int sourcePid;
-@property(readonly) HMDBackingStoreTransactionActions *transactionResult;
 @end
 

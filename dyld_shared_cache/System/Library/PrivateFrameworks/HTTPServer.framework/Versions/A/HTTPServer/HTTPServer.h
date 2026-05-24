@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDAsyncSocket, NSDictionary, NSLock, NSMutableArray, NSNetService, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class GCDAsyncSocket;
 
 @interface HTTPServer
 {
     GCDAsyncSocket *asyncSocket;
-    NSObject<OS_dispatch_queue> *serverQueue;
-    void *IsOnServerQueueKey;
-    NSString *documentRoot;
-    Class connectionClass;
-    NSString *interface;
-    unsigned short port;
-    NSNetService *netService;
-    NSString *domain;
-    NSString *type;
-    NSString *name;
-    NSString *publishedName;
-    NSDictionary *txtRecordDictionary;
-    NSMutableArray *connections;
-    NSLock *connectionsLock;
-    int IPv4Socket;
-    int IPv6Socket;
-    int unixSocket;
-    _Bool isRunning;
 }
 
 + (void);
@@ -35,7 +16,7 @@
 + (void);
 + (void);
 + (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,46 +26,40 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)[9�;
 - (int);
 - (int);
 - (int);
 - (id);
 - (void);
 - (id);
-- (Class);
+- (Class)CKDPEncryptedMergeableValue;
 - (void);
+- (id);
+- (unsigned short)KlobucharParametersEvent;
+- (void);
+- (void)rprocess9allocatorISA_NSH_15segment_managerIcNSH_15rbtree_best_fitINSH_17null_mutex_familyENSH_10offset_ptrIvlmLm0EEELm0EEENSH_10iset_indexEEEEEEE;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)}16;
+- (void);
+- (id)65;
 - (id);
 - (unsigned short);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned short);
-- (void);
-- (id);
+- (id)@36@44@52@60B68B72B76@80B88@92@100;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)B;
+- (void);
+- (void)velocity] %s (%s:(unsigned short)arg1 %u) WiFi log collection requested (proc=%{public}@[%d], uuid=%{public}@);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

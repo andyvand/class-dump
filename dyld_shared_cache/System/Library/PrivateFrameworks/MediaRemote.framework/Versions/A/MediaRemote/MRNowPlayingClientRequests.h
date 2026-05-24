@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRClient, MRPlayerPath, NSArray, NSMutableArray;
+@class MRClient, MRPlayerPath;
 
 @interface MRNowPlayingClientRequests
 {
     MRClient *_clientProperties;
-    NSMutableArray *_playerClients;
-    NSMutableArray *_clientPropertiesCompletions;
-    MRPlayerPath *_playerPath;
-    NSArray *_nowPlayingClients;
 }
 
 - (id);
@@ -21,18 +17,15 @@
 - (id);
 - (id);
 - (id);
+- (void)AFPeerInfo:(id)arg1:mediaSystemIdentifier /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void)RemoteControlInterfaceID:(id)arg1;
+- (void)setRemoteControlInterfaceID:(id)arg1;
 - (void)N,V_bundleIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) MRClient *client;
-@property(copy, nonatomic) MRClient *clientProperties;
-@property(readonly, nonatomic) NSArray *nowPlayingClients; // @synthesize nowPlayingClients=_nowPlayingClients;
 @property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
 
 @end

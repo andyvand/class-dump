@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, UIViewController, UIWindow, _UIPreviewInteractionHighlighter, _UIPreviewInteractionViewControllerPresentation;
-@protocol UIViewControllerContextTransitioning;
+@class _UIPreviewInteractionHighlighter, _UIPreviewInteractionViewControllerPresentation;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionViewControllerHelper
 {
     _UIPreviewInteractionHighlighter *_highlighter;
-    _UIPreviewInteractionViewControllerPresentation *_viewControllerPresentation;
-    UIWindow *_presentingWindow;
-    CDUnknownBlockType _presentationCompletion;
-    CDUnknownBlockType _dismissalCompletion;
-    _Bool _shouldActAsAppearanceAnimationController;
-    _Bool _shouldUseDefaultPresentationController;
-    UIViewController *_previousParentViewController;
-    UIView *_previousSuperview;
-    id <UIViewControllerContextTransitioning> _currentTransitionContext;
 }
 
 - (id);
@@ -27,26 +17,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)richBody;
+- (id)registerWithCacheDelete;
 - (void);
 - (void);
-- (void);
+- (void)state. %lu;
 - (void);
 - (double);
-- (id);
-- (void)e:(id)arg1;
-- (id)FullScreen;
+- (id)C;
+- (void)_setCustomFixedPositionLayoutRectInWebThread:(id)arg1 synchronize: /* Error: Ran out of types for this method. */;
+- (id)anyDescendantWantsFullScreen;
 - (void)¶23;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _UIPreviewInteractionViewControllerPresentation *viewControllerPresentation; // @synthesize viewControllerPresentation=_viewControllerPresentation;
 
 @end

@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id)initWithServiceName:remoteProtocol:exportedProtocol:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

@@ -7,7 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

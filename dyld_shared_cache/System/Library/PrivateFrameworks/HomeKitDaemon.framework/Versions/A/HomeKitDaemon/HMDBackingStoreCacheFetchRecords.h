@@ -6,17 +6,12 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class HMDBackingStoreCacheGroup, NSArray;
+@class HMDBackingStoreCacheGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheFetchRecords : HMDBackingStoreOperation
 {
     _Bool _recursive;
-    HMDBackingStoreCacheGroup *_group;
-    CDUnknownBlockType _fetchResult;
-    NSArray *_recordNames;
-    NSArray *_uuids;
-    NSArray *_parentUuids;
 }
 
 - (id);
@@ -38,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (void),üýþ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchResult; // @synthesize fetchResult=_fetchResult;
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
-@property(retain, nonatomic) NSArray *parentUuids; // @synthesize parentUuids=_parentUuids;
-@property(retain, nonatomic) NSArray *recordNames; // @synthesize recordNames=_recordNames;
-@property _Bool recursive; // @synthesize recursive=_recursive;
-@property(retain, nonatomic) NSArray *uuids; // @synthesize uuids=_uuids;
 
 @end
 

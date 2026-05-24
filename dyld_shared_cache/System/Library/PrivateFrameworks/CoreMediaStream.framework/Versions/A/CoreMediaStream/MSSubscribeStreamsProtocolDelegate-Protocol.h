@@ -5,5 +5,12 @@
 //
 
 @protocol MSSubscribeStreamsProtocolDelegate
+- (void)rationType=%@ operationSource=%@ userIndex=%@ userUniqueID=%@ fabricIndex=%@ dataIndex=%@ allSlotsCleared=%d event=%@;
+- (void)ndling LockUserChange Event for accessory=%@ lockDataType=%@ dataOperationType=%@ operationSource=%@ userIndex=%@ userUniqueID=%@ fabricIndex=%@ dataIndex=%@ allSlotsCleared=%d event=%@;
+- (void)something other than the pin code or TTU credential).;
+- (void)pe MTRDoorLockLockDataTypePIN or MTRDoorLockLockDataTypeRFID (this event is for something other than the pin code or TTU credential).;
+- (void)ser change bulletin because lockDataType is not of type MTRDoorLockLockDataTypePIN or MTRDoorLockLockDataTypeRFID (this event is for something other than the pin code or TTU credential).;
+- (void)ock user change bulletin because allSlotsCleared.;
+- (void)e user change was originated by our fabric.;
 @end
 

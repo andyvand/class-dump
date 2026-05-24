@@ -5,5 +5,8 @@
 //
 
 @protocol HMDAccessoryDataStreamAdapterDelegate
+- (void)vice] Will not checkin, still waiting for previous checkin to complete;
+- (void)Notified Share ETA server enabled did change;
+- (_Bool)ed Share ETA user enabled did change;
 @end
 

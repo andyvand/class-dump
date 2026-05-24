@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol JEMediaPlaylistItem;
-
 @interface JEMediaActivity
 {
     id pipelineHandler;
-    long long type;
-    id <JEMediaPlaylistItem> playlistItem;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)M+q;
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long));
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isStopped;
-@property(nonatomic, retain) id <JEMediaPlaylistItem> playlistItem; // @synthesize playlistItem;
 @property(nonatomic) long long type; // @synthesize type;
 
 @end

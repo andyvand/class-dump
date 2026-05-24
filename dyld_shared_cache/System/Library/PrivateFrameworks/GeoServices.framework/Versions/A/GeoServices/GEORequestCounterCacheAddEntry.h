@@ -6,44 +6,31 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface GEORequestCounterCacheAddEntry : GEOXPCRequest
 {
     unsigned char _result;
-    int _requestKindRaw;
-    NSString *_appId;
-    NSDate *_timestamp;
 }
 
-+ (Class);
++ (Class)gion"24@"NSError"32;
 - (void);
 - (void);
-- (int);
+- (int)uest"16@?<v@?@"CNCDIOSLegacyIdentifierRegistrations"@"NSError">24;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)agram fragment but no previous datagram was found;
 - (void);
-- (void):(id)arg1;
+- (void)setCurrentBatteryPercentage:(id)arg1;
 - (unsigned char)é;
 - (void)ÈßÜ°ßøÜ¨ßÝßÝðÞ ÝØÞ°ÝÀÞÀÝ¨ÞÞ¤Þ Þt;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int requestKindRaw; // @synthesize requestKindRaw=_requestKindRaw;
-@property(nonatomic) unsigned char result; // @synthesize result=_result;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

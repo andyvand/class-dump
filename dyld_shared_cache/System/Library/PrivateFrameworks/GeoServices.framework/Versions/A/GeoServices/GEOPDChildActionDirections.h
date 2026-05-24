@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)GEORPFeedbackLogEventParameters";
-- (id)canonicalLocationSearchParameters;
+- (id)_canonicalLocationSearchParameters;
 - (id)<îDU´¨îTU´ïdU´ïtU´øïU´dðU´Ðð¤U´@ñ´U´°ñÄU´òÔU´òäU´ôòôU´dóV´ÔóV´@ô$V´¬ô4V´õDV´õTV´ôõdV´`ötV´ÌöV´8÷V´¨÷¤V´ø´V´øÄV´ìøÔV´XùäV´ÄùôV´0úW´úW´û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
 - (void)ßÖÎ¨w¿,ÏDÀ\Âõ(\@q=
 ×£C@ÍÌÌÌÌÌ@R¸ë±R@

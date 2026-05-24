@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PDAssertion;
-@protocol OS_dispatch_source;
+@class PDAssertion;
 
 @interface PDAssertionRequest
 {
     PDAssertion *_assertion;
-    CDUnknownBlockType _resultHandler;
-    NSObject<OS_dispatch_source> *_invalidationTimer;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)!-;
 - (id)apple cash sharing capabilities from destination %@;
-- (CDUnknownBlockType)ymentSetup;
+- (CDUnknownBlockType)peerPaymentSetup;
 - (void)b
 lL_pSgIeggyg_;
 - (void)Ð;
 
 // Remaining properties
 @property(retain, nonatomic) PDAssertion *assertion; // @synthesize assertion=_assertion;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *invalidationTimer; // @synthesize invalidationTimer=_invalidationTimer;
-@property(copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 
 @end
 

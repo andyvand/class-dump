@@ -7,10 +7,6 @@
 @interface Network.MigrationController
 {
     id identifier;
-    id connection;
-    id endpoint;
-    id parameters;
-    id lock;
 }
 
 @end

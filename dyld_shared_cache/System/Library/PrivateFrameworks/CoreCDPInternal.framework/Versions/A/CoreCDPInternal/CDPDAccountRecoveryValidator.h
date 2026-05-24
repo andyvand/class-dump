@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSDictionary, NSString;
-@protocol CDPAuthProviderInternal, CDPDOctagonTrustProxy;
+@class NSDictionary;
+@protocol CDPAuthProviderInternal;
 
 @interface CDPDAccountRecoveryValidator
 {
     id <CDPAuthProviderInternal> _authProvider;
-    CDPContext *_context;
-    id <CDPDOctagonTrustProxy> _octagonTrustProxy;
-    NSDictionary *_recoveredInfo;
-    NSString *_recoveryKey;
 }
 
+- (void)ScribbleUnifiedFieldOverlayController;
+- (id)_SafariCAAnimationDelegate;
+- (id)ReaderAppearanceViewController;
+- (id)CollaborationToolbarItem;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)AuthenticationServicesHelperProtocol;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *recoveredInfo; // @synthesize recoveredInfo=_recoveredInfo;
-@property(copy, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(readonly) Class superclass;
 
 @end
 

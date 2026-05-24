@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, PKStrokePath, _PKStrokeConcrete;
+@class _PKStrokeConcrete;
 
 @interface PKStrokeDelta
 {
     _PKStrokeConcrete *_deltaStroke;
-    PKStrokePath *_deltaStrokeData;
-    NSUUID *_strokeUUID;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -27,9 +25,7 @@
 - (id)¬;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *_strokeUUID; // @synthesize _strokeUUID;
 @property(retain, nonatomic) _PKStrokeConcrete *deltaStroke; // @synthesize deltaStroke=_deltaStroke;
-@property(retain, nonatomic) PKStrokePath *deltaStrokeData; // @synthesize deltaStrokeData=_deltaStrokeData;
 
 @end
 

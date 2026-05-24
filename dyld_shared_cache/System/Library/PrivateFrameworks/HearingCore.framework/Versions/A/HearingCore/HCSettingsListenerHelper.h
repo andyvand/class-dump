@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HCSettings, NSMutableArray;
-
 @interface HCSettingsListenerHelper
 {
     id _listenerAddress;
-    HCSettings *_delegate;
-    NSMutableArray *_selectorKeys;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)numberOfRecycledNodes;
 
 @end
 

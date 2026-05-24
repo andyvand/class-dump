@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class NSString, UIView;
 
 @protocol _UIBasicAnimationFactory
 
 @optional
-- (_Bool)textMenuWithConfiguration:(UIView *)arg1;
+- (_Bool)collectionView:(UIView *)arg1 previewForDismissingContextMenuWithConfiguration:(NSString *)arg2;
 @end
 

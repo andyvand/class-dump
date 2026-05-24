@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface UnknownClass (BRConflictLosers)
 - (_Bool);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *br_lastEditorDeviceName;
-@property(readonly, nonatomic) NSString *br_lastEditorName;
-@property(readonly, nonatomic) NSPersonNameComponents *br_lastEditorNameComponents;
 @end
 

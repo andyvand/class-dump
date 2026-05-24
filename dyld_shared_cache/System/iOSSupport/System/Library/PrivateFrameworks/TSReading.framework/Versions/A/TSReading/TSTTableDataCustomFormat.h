@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)PRIVACY_ACKNOWLEDGEMENT_REQUIRED;
 
 @end
 

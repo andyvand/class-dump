@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol PKPersona;
+@class NSUUID;
 
 @interface PKLaunchRequest
 {
     NSUUID *_uuid;
-    id <PKPersona> _launchPersona;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)__is__getFSRef: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) id <PKPersona> launchPersona; // @synthesize launchPersona=_launchPersona;
-@property(readonly) Class superclass;
 @property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

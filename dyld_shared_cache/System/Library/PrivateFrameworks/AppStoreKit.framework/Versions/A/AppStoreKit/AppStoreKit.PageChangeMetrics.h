@@ -7,7 +7,6 @@
 @interface AppStoreKit.PageChangeMetrics
 {
     id pageFields;
-    id updatedEvents;
 }
 
 @end

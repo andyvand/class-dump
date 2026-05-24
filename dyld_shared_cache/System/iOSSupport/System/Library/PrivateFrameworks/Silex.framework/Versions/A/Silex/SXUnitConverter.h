@@ -7,11 +7,6 @@
 @interface SXUnitConverter
 {
     double _componentWidth;
-    double _parentWidth;
-    double _documentGutter;
-    double _documentMargin;
-    double _contentScaleFactor;
-    struct CGSize _viewportSize;
 }
 
 - (id);

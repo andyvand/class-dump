@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)startEventThreadIfNecessary;
 - (void);
 
 // Remaining properties

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFOSTransaction, HMIFaceClassifierVIP, HMISessionEntityManager, HMISignificantActivityFcosDetector, HMITorsoClassifier, HMIVideoAnalyzerConfiguration, NSDictionary, NSMutableArray, NSString;
+@class NSDictionary;
 
 @interface HMICameraVideoFrameAnalyzerSignificantActivity
 {
     NSDictionary *_mediumConfidenceThresholds;
-    NSDictionary *_highConfidenceThresholds;
-    HMISignificantActivityFcosDetector *_significantActivityFcosDetector;
-    NSMutableArray *_backgroundEvents;
-    HMIFaceClassifierVIP *_faceClassifier;
-    HMITorsoClassifier *_torsoClassifier;
-    HMFOSTransaction *_transaction;
-    HMIVideoAnalyzerConfiguration *_analyzerConfiguration;
-    HMISessionEntityManager *_sessionEntityManager;
-    CDStruct_1b6d18a9 _backgroundTimeStamp;
 }
 
 + (id);
@@ -25,7 +16,7 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,11 +31,11 @@
 - (id);
 - (id);
 - (id);
+- (id)i;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -57,24 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) HMIVideoAnalyzerConfiguration *analyzerConfiguration; // @synthesize analyzerConfiguration=_analyzerConfiguration;
-@property(readonly) NSMutableArray *backgroundEvents; // @synthesize backgroundEvents=_backgroundEvents;
-@property CDStruct_1b6d18a9 backgroundTimeStamp; // @synthesize backgroundTimeStamp=_backgroundTimeStamp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMIFaceClassifierVIP *faceClassifier; // @synthesize faceClassifier=_faceClassifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *highConfidenceThresholds; // @synthesize highConfidenceThresholds=_highConfidenceThresholds;
-@property(readonly) struct CGSize inputDimensions;
 @property(readonly) NSDictionary *mediumConfidenceThresholds; // @synthesize mediumConfidenceThresholds=_mediumConfidenceThresholds;
-@property(readonly) HMISessionEntityManager *sessionEntityManager; // @synthesize sessionEntityManager=_sessionEntityManager;
-@property(readonly) HMISignificantActivityFcosDetector *significantActivityFcosDetector; // @synthesize significantActivityFcosDetector=_significantActivityFcosDetector;
-@property(readonly) Class superclass;
-@property(readonly) HMITorsoClassifier *torsoClassifier; // @synthesize torsoClassifier=_torsoClassifier;
-@property(retain, nonatomic) HMFOSTransaction *transaction; // @synthesize transaction=_transaction;
 
 @end
 

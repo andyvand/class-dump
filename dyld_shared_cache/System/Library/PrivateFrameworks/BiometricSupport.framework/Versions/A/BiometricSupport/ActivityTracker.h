@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_transaction;
+@class NSString;
 
 @interface ActivityTracker
 {
     NSString *_description;
-    NSObject<OS_os_transaction> *_transaction;
-    CDUnknownBlockType _activityUpdateBlock;
 }
 
 - (void);

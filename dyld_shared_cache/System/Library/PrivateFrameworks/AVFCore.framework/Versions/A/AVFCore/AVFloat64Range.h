@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface AVFloat64Range
 {
     double _minimum;
-    double _maximum;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)o;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (double)withOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double maximum; // @synthesize maximum=_maximum;
 @property(readonly, nonatomic) double minimum; // @synthesize minimum=_minimum;
 
 @end

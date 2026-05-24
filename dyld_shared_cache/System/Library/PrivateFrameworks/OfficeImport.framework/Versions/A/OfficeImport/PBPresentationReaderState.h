@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ESDContainer, ESDObject, ESDRoot, NSMutableArray, NSMutableDictionary, OITSUNoCopyDictionary, PBOfficeArtReaderState, PBOutlineBulletDictionary, PBSlideState, PDPresentation, PDSlideBase;
-@protocol TCCancelDelegate;
+@class ESDContainer;
 
 __attribute__((visibility("hidden")))
 @interface PBPresentationReaderState
 {
     void *mPptBinaryReader;
-    PDPresentation *mTgtPresentation;
-    ESDRoot *mDocumentRoot;
-    ESDContainer *mSrcSlideListHolder;
-    void *mCurrentSlideTextBlockRecordIndexRangeVector;
-    unsigned int mSrcSlideId;
-    NSMutableArray *mSlideIndexes;
-    OITSUNoCopyDictionary *mSlideMasterToMasterStyles;
-    struct __CFDictionary *mHyperlinkMap;
-    PBOfficeArtReaderState *mOfficeArtState;
-    NSMutableArray *mFontEntities;
-    PDSlideBase *mTgtSlide;
-    _Bool mHasCharacterPropertyBulletIndex;
-    unsigned int mBulletIndex;
-    PBOutlineBulletDictionary *mPlaceholderBulletStyles;
-    PBOutlineBulletDictionary *mPlaceholderMacCharStyles;
-    ESDObject *mCurrentBulletStyle;
-    ESDObject *mCurrentMacCharStyle;
-    void *mSrcDocMasterStyleInfoVector;
-    void *mSrcCurrentMasterStyleInfoVector;
-    PBSlideState *mSlideState;
-    id <TCCancelDelegate> mCancel;
-    _Bool mHasSlideNumberPlaceholder;
-    NSMutableDictionary *mTargetShapeToSourceTextBoxContainerHolderMap;
 }
 
 - (id);
@@ -47,19 +23,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)Ҩ;
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)K;
+- (_Bool)h;
+- (_Bool)	;
 - (unsigned long long);
 - (id);
 - (id);
@@ -68,25 +44,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
-- (id);
+- (id)r;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (struct PBReaderMasterStyleInfo *);
+- (_Bool)";
+- (struct PBReaderMasterStyleInfo *);
 - (void);
-- (_Bool)alueCount;
+- (_Bool)mDataValueCount;
 - (void *)mK;
 - (void)ô;
 
 // Remaining properties
-@property(retain, nonatomic) id <TCCancelDelegate> cancelDelegate; // @synthesize cancelDelegate=mCancel;
-@property _Bool hasSlideNumberPlaceholder; // @synthesize hasSlideNumberPlaceholder=mHasSlideNumberPlaceholder;
 @property(retain) ESDContainer *sourceSlideListHolder; // @synthesize sourceSlideListHolder=mSrcSlideListHolder;
 
 @end

@@ -6,24 +6,19 @@
 
 #import <GeoServices/_GEOConfigCache.h>
 
-@class GEOSQLiteDB, _GEOConfigDBOperationQueue;
+@class GEOSQLiteDB;
 
 __attribute__((visibility("hidden")))
 @interface _GEOConfigDB : _GEOConfigCache
 {
     _Atomic long long _lastId;
-    GEOSQLiteDB *_db;
-    _GEOConfigDBOperationQueue *_operationQueue;
-    CDUnknownFunctionPointerType _clearFunction;
-    CDUnknownFunctionPointerType _setFunction;
-    CDUnknownFunctionPointerType _addFunction;
 }
 
 - (id);
-- (id);
+- (id);
 - (CDUnknownFunctionPointerType);
 - (CDUnknownFunctionPointerType);
-- (CDUnknownFunctionPointerType);
+- (CDUnknownFunctionPointerType)GPoint=dd}{CGSize=dd}}16@48;
 - (long long)0@ù
 × ;
 - (id)|Ø
@@ -31,11 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownFunctionPointerType addFunction; // @synthesize addFunction=_addFunction;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType clearFunction; // @synthesize clearFunction=_clearFunction;
 @property(readonly, nonatomic) GEOSQLiteDB *db; // @synthesize db=_db;
-@property(readonly, nonatomic) _GEOConfigDBOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType setFunction; // @synthesize setFunction=_setFunction;
 
 @end
 

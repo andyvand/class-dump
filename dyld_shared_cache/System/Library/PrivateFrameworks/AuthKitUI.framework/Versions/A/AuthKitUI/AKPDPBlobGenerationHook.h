@@ -9,15 +9,15 @@
 @interface AKPDPBlobGenerationHook
 {
     NSDictionary *_additionalPayload;
-    ACAccount *_account;
 }
 
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)G	;
 - (void);
 - (id);
-- (id);
+- (id)`
+;
 - (void);
 - (id);
 - (id);
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSDictionary *additionalPayload; // @synthesize additionalPayload=_additionalPayload;
 
 @end
 

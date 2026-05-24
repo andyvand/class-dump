@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSSet;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _EDSearchableIndexPendingRemovals
 {
     NSMutableDictionary *_reasonsByIdentifier;
-    NSSet *_purgeReasons;
-    NSSet *_exclusionReasons;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)";
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
+- (void)hose [%{ptr}]
+;
 - (id);
 - (unsigned long long);
 - (void)0 );
@@ -32,11 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly, nonatomic) NSArray *deletedIdentifiers;
-@property(copy, nonatomic) NSSet *exclusionReasons; // @synthesize exclusionReasons=_exclusionReasons;
-@property(readonly, nonatomic) NSArray *identifiers;
-@property(copy, nonatomic) NSSet *purgeReasons; // @synthesize purgeReasons=_purgeReasons;
-@property(readonly, nonatomic) NSArray *purgedIdentifiers;
 
 @end
 

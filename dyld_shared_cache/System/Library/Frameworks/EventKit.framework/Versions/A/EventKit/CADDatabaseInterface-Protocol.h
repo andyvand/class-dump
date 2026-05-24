@@ -4,6 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CADObjectID, CADSequenceToken, NSArray, NSDictionary;
+
 @protocol CADDatabaseInterface
+- (void)ading updates.;
+- (void)ct to %@ but %@ was accepted.;
+- (void)red sessions changed:(void (^)(int))arg1 %@;
+- (void)itialized with state:(NSDictionary *)arg1 activeSession=%@, discoveredSessions=%@;
+- (void)nvalidated;
+- (void)Stop:(void (^)(int, NSString *))arg1 %@ ;
+- (void)query;
+- (void)r %f seconds;
+- (void)m %@;
+- (void)ic}@ %@;
+- (void)@ %@;
+- (void)isplayPlatterForRouteIdentifier:(CADSequenceToken *)arg1 %{public}@ returned %{BOOL}u in %lf seconds.;
+- (void)moved Fields:(NSArray *)arg1 %{public}@;
+- (void)outing context UID :(int)arg1 %{public}@;
+- (void)rPathInvalidationHandler %p for %{public}@;
+- (void)onnection. Trying again...;
+- (void)gSession(MRExternalDevicePairingSession)] Legacy pairing success.;
+- (void)or:(CADObjectID *)arg1 %@;
+- (void)cal section management is disabled. dropping message;
+- (void)evice %{public}@ for context:(NSArray *)arg1 %{public}@;
+- (void)ext] Changed Values:(void (^)(int, CADSequenceToken *))arg1 %{public}@;
+- (void)Info with mergePolicy %{public}@:(CADSequenceToken *)arg1 %@;
+- (void)ot command preview that will cause a hijack (%{public}@) playerPath %{public}@. Posting MRNowPlayingSessionManagerActiveSessionWillBeHijackedByNativePlayback;
+- (void)oPairingSession(CoreUtils)] Successfully derived encryption keys.;
+- (void)key (OSStatus = %d);
+- (void). %@;
+- (void)ptoPairingSession(CoreUtils)] Failed to record successfully paired peer;
 @end
 

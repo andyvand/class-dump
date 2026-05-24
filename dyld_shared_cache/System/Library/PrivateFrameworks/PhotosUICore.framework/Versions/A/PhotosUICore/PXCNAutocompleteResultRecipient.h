@@ -9,8 +9,6 @@
 @interface PXCNAutocompleteResultRecipient
 {
     CNAutocompleteResultValue *_resultValue;
-    long long _recipientKind;
-    long long _validationType;
 }
 
 - (long long);
@@ -23,10 +21,7 @@
 - (void)PhotosViewCurationModel;
 
 // Remaining properties
-@property(readonly, nonatomic) long long recipientKind; // @synthesize recipientKind=_recipientKind;
 @property(readonly, nonatomic) CNAutocompleteResultValue *resultValue; // @synthesize resultValue=_resultValue;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
-@property(nonatomic) long long validationType; // @synthesize validationType=_validationType;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol MLTaskStateTransitionDelegate
+- (void)hash;
+- (void)_generated;
+- (void)source;
+- (void)vailable_for_lib_from_%s_with_UUID_%s;
+- (void)0123456789ABCDEF;
 @end
 

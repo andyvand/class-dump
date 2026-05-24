@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)PTSliderRow;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)transitOptions"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)eEvChargerAvailability;
+- (id)_realTimeEvChargerAvailability;
 - (id)¢¨©à©°ª¬­Ð®ä¯±,²;
 - (void)qh.I@;
 

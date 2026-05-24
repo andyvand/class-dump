@@ -10,9 +10,5 @@
 
 // Remaining properties
 @property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

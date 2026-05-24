@@ -9,14 +9,10 @@
 @interface UIGraphicsImageRendererFormat : UIGraphicsRendererFormat
 {
     struct CGColorSpace *_overrideColorSpace;
-    _Bool _opaque;
-    long long _overrideBitsPerComponent;
-    double _scale;
-    long long _preferredRange;
 }
 
-+ (id)alizeRenditionContents;
-+ (id)playsWhenSearchActive;
++ (id)_materializeRenditionContents;
++ (id)_displaysWhenSearchActive;
 + (id)XÿËÿ£k×&s;
 - (long long);
 - (void);
@@ -29,29 +25,20 @@
 - (double);
 - (void)
 × ;
-- (void)ith:(_Bool)arg1;
-- (void)rceView:(_Bool)arg1;
-- (void)tes;
-- (double)tEffectsWindowSafeAreaInsets;
-- (id)Kit24NavigationBarContentViewP33_345D3E4B07A261C8C2F7AC9E3003F3BA15DebugVisualizer;
-- (long long)wAnimationDelegate_;
+- (void)replaceAnimatedTextPlaceholderWith:(_Bool)arg1;
+- (void)initWithDelegate:(_Bool)arg1 sourceView: /* Error: Ran out of types for this method. */;
+- (void)hasOnlyProactiveCandidates;
+- (double)_updateTextEffectsWindowSafeAreaInsets;
+- (id)_TtCC5UIKit24NavigationBarContentViewP33_345D3E4B07A261C8C2F7AC9E3003F3BA15DebugVisualizer;
+- (long long)_TtP5UIKit33UITextEffectViewAnimationDelegate_;
 - (_Bool)econdary action.;
-- (void)rityOrderedLayout;
+- (void)priorityOrderedLayout;
 - (_Bool)o. Previous accumulation={%lu, %lu} Replacement range={%lu, %lu} delta=%li;
 - (void)«þ;
 - (_Bool)ù¼ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_contextScale) double _contextScale;
-@property(nonatomic, getter=_grayscale, setter=_setGrayscale:) _Bool _grayscale;
-@property(nonatomic, getter=_overrideBitsPerComponent, setter=_setOverrideBitsPerComponent:) long long _overrideBitsPerComponent; // @synthesize _overrideBitsPerComponent;
 @property(nonatomic, getter=_overrideColorSpace, setter=_setOverrideColorSpace:) struct CGColorSpace *_overrideColorSpace;
-@property(nonatomic, getter=_wantsAlphaMask, setter=_setWantsAlphaMask:) _Bool _wantsAlphaMask;
-@property(nonatomic) _Bool opaque; // @synthesize opaque=_opaque;
-@property(nonatomic) long long preferredRange; // @synthesize preferredRange=_preferredRange;
-@property(nonatomic) _Bool prefersExtendedRange;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) _Bool supportsHighDynamicRange;
 
 @end
 

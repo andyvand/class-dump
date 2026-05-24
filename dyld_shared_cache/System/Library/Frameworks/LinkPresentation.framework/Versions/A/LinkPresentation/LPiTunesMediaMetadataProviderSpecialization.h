@@ -6,20 +6,12 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class LPFetcherGroup, LPSpecializationMetadata, LPiTunesMediaLookupTask, MPStoreLyricsSnippetURLComponents, NSString;
-@protocol LPiTunesMediaUnresolvedMetadata;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     NSString *_identifier;
-    NSString *_storefrontCountryCode;
-    _Bool _canceled;
-    LPiTunesMediaLookupTask *_lookupTask;
-    LPSpecializationMetadata *_resolvedMetadata;
-    id <LPiTunesMediaUnresolvedMetadata> _unresolvedMetadata;
-    MPStoreLyricsSnippetURLComponents *_lyricComponents;
-    LPFetcherGroup *_fetcherGroup;
 }
 
 + (id);
@@ -36,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void)networkActivityRemoveNWConnection:fromActivityWithLabel:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)UIApplicationDidEnterBackgroundNotification;
 - (void);
 - (void);
 - (void)T;

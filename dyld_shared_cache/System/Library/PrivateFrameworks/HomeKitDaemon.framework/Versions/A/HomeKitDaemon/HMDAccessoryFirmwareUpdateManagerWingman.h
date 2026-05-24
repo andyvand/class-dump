@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateManagerWingman
 {
     UARPController *_defaultUARPController;
-    UARPController *_matterUARPController;
-    double _registerDelay;
 }
 
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UARPController *defaultUARPController; // @synthesize defaultUARPController=_defaultUARPController;
-@property(readonly, nonatomic) UARPController *matterUARPController; // @synthesize matterUARPController=_matterUARPController;
-@property(readonly, nonatomic) double registerDelay; // @synthesize registerDelay=_registerDelay;
 
 @end
 

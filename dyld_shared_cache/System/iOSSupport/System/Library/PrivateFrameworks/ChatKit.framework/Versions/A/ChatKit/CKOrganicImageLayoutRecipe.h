@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface CKOrganicImageLayoutRecipe
 {
     _Bool _wantsShadow;
-    _Bool _isLastItem;
-    double _rotation;
-    double _offset;
-    NSNumber *_relativeGroupCenter;
-    NSNumber *_groupMaxX;
-    NSString *_groupIdentifier;
-    double _overlap;
-    struct CGSize _targetSize;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)setAttributeOptions: /* Error: Ran out of types for this method. */;
+- (void)attachmentInsertionController:(id)arg1 willAddInlineAttachment:atRange:textStorage: /* Error: Ran out of types for this method. */;
+- (void)_htmlNotes;
+- (id)ItemIdentifier>",R,N,V_parentIdentifier;
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void)�2;
 - (id);
 - (double);
 - (id);
@@ -42,15 +32,7 @@
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(retain, nonatomic) NSNumber *groupMaxX; // @synthesize groupMaxX=_groupMaxX;
-@property(nonatomic) _Bool isLastItem; // @synthesize isLastItem=_isLastItem;
-@property(nonatomic) double offset; // @synthesize offset=_offset;
-@property(nonatomic) double overlap; // @synthesize overlap=_overlap;
-@property(retain, nonatomic) NSNumber *relativeGroupCenter; // @synthesize relativeGroupCenter=_relativeGroupCenter;
 @property(nonatomic) double rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
-@property(nonatomic) _Bool wantsShadow; // @synthesize wantsShadow=_wantsShadow;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.LocalDataRefreshStartupTask
 {
     id executionPhase;
-    id localDataManager;
-    id appConfigManager;
 }
 
 @end

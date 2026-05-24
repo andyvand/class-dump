@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSProgressIndicator, NSString, NSTextField;
+@class NSProgressIndicator;
 
 @interface IOBluetoothTransferProgressUI
 {
     NSProgressIndicator *mProgressIndicator;
-    NSTextField *mStatusField;
-    NSTextField *mBytesTransferredField;
-    NSTextField *mTimeRemainingField;
-    NSTextField *mTimeRemainingFieldLabel;
-    NSTextField *mFileNameField;
-    NSString *mDeviceName;
-    NSString *mFileName;
-    _Bool mUsesFileNameField;
-    int mTransferType;
-    NSMutableDictionary *mWindowFrames;
 }
 
 - (void);

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSDictionary;
 
 @interface HMINMSConfiguration
 {
     NSDictionary *_thresholdWithLabels;
-    NSDictionary *_metricWithLabels;
-    NSNumber *_thresholdDefault;
-    NSNumber *_metricDefault;
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) NSNumber *metricDefault; // @synthesize metricDefault=_metricDefault;
-@property(readonly) NSDictionary *metricWithLabels; // @synthesize metricWithLabels=_metricWithLabels;
-@property(readonly) NSNumber *thresholdDefault; // @synthesize thresholdDefault=_thresholdDefault;
 @property(readonly) NSDictionary *thresholdWithLabels; // @synthesize thresholdWithLabels=_thresholdWithLabels;
 
 @end

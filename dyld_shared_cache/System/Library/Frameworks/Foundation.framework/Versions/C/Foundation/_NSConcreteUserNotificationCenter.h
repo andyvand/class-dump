@@ -6,24 +6,12 @@
 
 #import <Foundation/NSUserNotificationCenter.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object, _NSUserNotificationCenterAppKitDelegatePrivate, _NSUserNotificationCenterDelegatePrivate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSConcreteUserNotificationCenter : NSUserNotificationCenter
 {
     NSString *_bundleIdentifier;
-    unsigned long long _maxPresentedNotifications;
-    id <_NSUserNotificationCenterDelegatePrivate> _delegate;
-    id <_NSUserNotificationCenterAppKitDelegatePrivate> _appDelegate;
-    unsigned long long _type;
-    _Bool _invalidated;
-    _Bool _needsAuthentication;
-    _Bool _serverConnectionFailure;
-    _Bool _preventApplicationLaunching;
-    unsigned long long _notificationPreferences;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connection_queue;
 }
 
 - (void);
@@ -37,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_ ;
 - (void);
 - (void);
 - (void);
@@ -57,16 +45,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)(@�`;
 - (void);
+- (void)9I;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)X;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -78,12 +66,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -93,7 +81,6 @@ __attribute__((visibility("hidden")))
 - (id)ùùùùúûüüýþÿ;
 
 // Remaining properties
-@property(nonatomic) id <_NSUserNotificationCenterAppKitDelegatePrivate> _appDelegate; // @synthesize _appDelegate;
 @property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 
 @end

@@ -4,74 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface BMSafariPageViewEvent
 {
     _Bool _contentIsReaderText;
-    NSString *_uniqueId;
-    NSString *_domainId;
-    NSString *_personaId;
-    double _absoluteTimestamp;
-    NSString *_title;
-    NSString *_content;
-    NSURL *_url;
-    NSString *_contentProtection;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)T;
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)@;
 - (unsigned int);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(Yh
+;
 - (_Bool);
 - (id);
 - (double);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)@;
+- (_Bool)ue:(id)arg1 %@;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (id)BMLiveEventsPublisher;
-- (id)ery__create_schema_stmt__pack_to_buffer;
+- (id)pg_query__create_schema_stmt__pack_to_buffer;
 - (id): /* Error: Ran out of types for this method. */;
 - (void)¿ÀÁÂÃÄÅÆ;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) NSString *bundleId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, nonatomic) _Bool contentIsReaderText; // @synthesize contentIsReaderText=_contentIsReaderText;
-@property(readonly, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

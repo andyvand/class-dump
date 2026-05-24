@@ -7,12 +7,11 @@
 @class SCNNode;
 
 @protocol SCNLookAtConstraintJSExport
+- (void);
+- (void);
+- (void)wrappedValue;
 
 // Remaining properties
-@property(nonatomic) _Bool gimbalLockEnabled;
-@property(nonatomic) struct SCNVector3 localFront;
 @property(retain, nonatomic) SCNNode *target;
-@property(nonatomic) struct SCNVector3 targetOffset;
-@property(nonatomic) struct SCNVector3 upVector;
 @end
 

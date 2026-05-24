@@ -6,18 +6,11 @@
 
 #import <Photos/PHMediaRequestContext.h>
 
-@class NSProgress, PHCompositeMediaResult, PHImageRequest, PHImageRequestOptions;
+@class NSProgress, PHImageRequestOptions;
 
 @interface PHImageRequestContext : PHMediaRequestContext
 {
     NSProgress *_progress;
-    PHImageRequest *_initialRequest;
-    PHImageRequest *_intermediateRequest;
-    PHImageRequest *_finalRequest;
-    PHCompositeMediaResult *_delayedFinalInvalidDataResult;
-    struct os_unfair_lock_s _lock;
-    long long _lock_highestResultPhaseDelivered;
-    PHImageRequestOptions *_imageOptions;
 }
 
 - (id);
@@ -26,16 +19,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)C,N,V_previousPositionIdentifier;
 - (void);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)SafariSharedCloudKitExtras;
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)Dictionary"8@?0;
+- (id);
 - (void)ResourceDataStoreKey>",R,N,V_dataStoreKey;
 - (CDUnknownBlockType)equest started without requesting image or video, this is a no op;
 - (_Bool);

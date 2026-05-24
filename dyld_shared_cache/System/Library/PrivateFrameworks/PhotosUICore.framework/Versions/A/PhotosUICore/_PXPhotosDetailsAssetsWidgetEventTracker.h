@@ -11,8 +11,6 @@
 @interface _PXPhotosDetailsAssetsWidgetEventTracker : PXUserInterfaceElementEventTracker
 {
     _Bool _isDisplayingCuratedContent;
-    NSString *_visibleState;
-    long long _visibleStateSignpost;
 }
 
 - (long long);
@@ -29,19 +27,10 @@
 - (void);
 - (id);
 - (void)er>"8^v16^B24;
-- (void)veStoryFocusState;
+- (void)GenerativeStoryFocusState;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDisplayingCuratedContent; // @synthesize isDisplayingCuratedContent=_isDisplayingCuratedContent;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *visibleState; // @synthesize visibleState=_visibleState;
-@property(nonatomic) long long visibleStateSignpost; // @synthesize visibleStateSignpost=_visibleStateSignpost;
 
 @end
 

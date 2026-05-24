@@ -4,46 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableOrderedSet, NSOrderedSet, NSString;
+@class NSMutableArray, NSString;
 
 @interface NFServiceWhitelistChecker
 {
     NSMutableArray *_iso15693TagAccessFilters;
-    NSMutableOrderedSet *_trustedISO7816AidList;
-    NSString *_clientName;
-    NSString *_readerPurposeString;
-    NSString *_applicationIdentifier;
-    int _clientProcessIdentifier;
-    _Bool _iso15693ReaderAccess;
-    _Bool _vasReaderAccess;
-    _Bool _ndefReaderAccess;
-    _Bool _tagReaderAccess;
-    _Bool _internalAccess;
-    _Bool _seshatAccess;
-    _Bool _miniNVWriteAccess;
-    _Bool _lpmFactoryTest;
-    _Bool _remoteAdminAccess;
-    _Bool _allowBackgroundedSession;
-    _Bool _ignoreAppStateMonitor;
-    _Bool _nfcTagReaderPACEPollingAllow;
-    _Bool _useUnfilteredApplets;
-    _Bool _singleUserAccess;
-    _Bool _purpleTrustAccess;
-    _Bool _surfSessionAccess;
-    _Bool _eCommerceAccess;
-    _Bool _cardMigrationAccess;
-    _Bool _seSessionAccess;
-    _Bool _seLoggingSessionAccess;
-    _Bool _lpemConfigSessionAccess;
-    _Bool _readerInternalAccess;
-    _Bool _cardModeAccess;
-    _Bool _hceAccess;
-    _Bool _radioToggle;
-    _Bool _pollingProfileUpdate;
-    _Bool _dontResetAssertion;
-    _Bool _bgTagReadingAssertion;
-    _Bool _chAssertion;
-    _Bool _nfcHardwareRegistersAccess;
 }
 
 - (_Bool);
@@ -56,44 +21,44 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)T;
 - (_Bool);
 - (void *);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)*;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)onfirmButton;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned int);
 - (double);
-- (_Bool);
-- (void);
+- (_Bool)_eventQueue_hasUnlockedSinceBoot;
+- (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)P;
+- (_Bool)_requestShowHideCloseButton: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned int);
+- (_Bool);
 - (id);
+- (unsigned int)setDisplayRemainingDistance:(unsigned long long)arg1;
+- (id):%d, peer identifier:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -106,42 +71,7 @@
 - (void)~;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowBackgroundedSession; // @synthesize allowBackgroundedSession=_allowBackgroundedSession;
-@property(retain, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly, nonatomic) _Bool bgTagReadingAssertion; // @synthesize bgTagReadingAssertion=_bgTagReadingAssertion;
-@property(readonly, nonatomic) _Bool cardMigrationAccess; // @synthesize cardMigrationAccess=_cardMigrationAccess;
-@property(readonly, nonatomic) _Bool cardModeAccess; // @synthesize cardModeAccess=_cardModeAccess;
-@property(readonly, nonatomic) _Bool chAssertion; // @synthesize chAssertion=_chAssertion;
 @property(readonly, copy, nonatomic) NSString *clientName;
-@property(readonly, nonatomic) _Bool dontResetAssertion; // @synthesize dontResetAssertion=_dontResetAssertion;
-@property(readonly, nonatomic) _Bool eCommerceAccess; // @synthesize eCommerceAccess=_eCommerceAccess;
-@property(readonly, nonatomic) _Bool externalReaderAccessAllow;
-@property(readonly, nonatomic) _Bool hceAccess; // @synthesize hceAccess=_hceAccess;
-@property(readonly, nonatomic) _Bool ignoreAppStateMonitor; // @synthesize ignoreAppStateMonitor=_ignoreAppStateMonitor;
-@property(readonly, nonatomic) _Bool internalAccess; // @synthesize internalAccess=_internalAccess;
-@property(readonly, nonatomic) _Bool lpemConfigSessionAccess; // @synthesize lpemConfigSessionAccess=_lpemConfigSessionAccess;
-@property(readonly, nonatomic) _Bool lpmFactoryTest; // @synthesize lpmFactoryTest=_lpmFactoryTest;
-@property(readonly, nonatomic) _Bool miniNVWriteAccess; // @synthesize miniNVWriteAccess=_miniNVWriteAccess;
-@property(readonly, nonatomic) _Bool nfcHardwareRegistersAccess; // @synthesize nfcHardwareRegistersAccess=_nfcHardwareRegistersAccess;
-@property(readonly, nonatomic) _Bool nfcISO15693ReaderAccess;
-@property(readonly, nonatomic) _Bool nfcNDEFReaderAccess;
-@property(readonly, nonatomic) _Bool nfcTagReaderAccess;
-@property(readonly, nonatomic) _Bool nfcTagReaderPACEPollingAllow; // @synthesize nfcTagReaderPACEPollingAllow=_nfcTagReaderPACEPollingAllow;
-@property(readonly, nonatomic) _Bool nfcVASReaderAccess;
-@property(readonly, nonatomic) _Bool pollingProfileUpdate; // @synthesize pollingProfileUpdate=_pollingProfileUpdate;
-@property(readonly, nonatomic) _Bool purpleTrustAccess; // @synthesize purpleTrustAccess=_purpleTrustAccess;
-@property(readonly, nonatomic) _Bool radioToggle; // @synthesize radioToggle=_radioToggle;
-@property(readonly, nonatomic) _Bool readerInternalAccess; // @synthesize readerInternalAccess=_readerInternalAccess;
-@property(readonly, retain, nonatomic) NSString *readerPurposeString; // @synthesize readerPurposeString=_readerPurposeString;
-@property(readonly, nonatomic) _Bool remoteAdminAccess; // @synthesize remoteAdminAccess=_remoteAdminAccess;
-@property(readonly, nonatomic) _Bool seLoggingSessionAccess; // @synthesize seLoggingSessionAccess=_seLoggingSessionAccess;
-@property(readonly, nonatomic) _Bool seSessionAccess; // @synthesize seSessionAccess=_seSessionAccess;
-@property(readonly, nonatomic) _Bool seshatAccess; // @synthesize seshatAccess=_seshatAccess;
-@property(readonly, nonatomic) double sessionTimeLimit;
-@property(readonly, nonatomic) _Bool singleUserAccess; // @synthesize singleUserAccess=_singleUserAccess;
-@property(readonly, nonatomic) _Bool surfSessionAccess; // @synthesize surfSessionAccess=_surfSessionAccess;
-@property(readonly, retain, nonatomic) NSOrderedSet *trustedISO7816AidList;
-@property(readonly, nonatomic) _Bool useUnfilteredApplets; // @synthesize useUnfilteredApplets=_useUnfilteredApplets;
 
 @end
 

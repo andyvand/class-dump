@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, AFPreferences;
+@class AFInstanceContext;
 
 @interface AFMyriadPreferences
 {
     AFInstanceContext *_instanceContext;
-    AFPreferences *_pref;
 }
 
+- (double)q;
+- (void)H;
+- (void)=;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)5;
 - (void);
 - (double);
 - (float);
@@ -40,7 +39,7 @@
 - (unsigned char);
 - (double);
 - (unsigned char);
-- (void)fied;
+- (void)_userClassified;
 - (_Bool)d;
 - (void);c
 ;

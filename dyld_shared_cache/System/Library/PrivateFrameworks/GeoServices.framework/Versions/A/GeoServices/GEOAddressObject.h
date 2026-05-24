@@ -9,7 +9,6 @@
 @interface GEOAddressObject
 {
     _GEOAddressObject *_pimpl;
-    int *_knownAccuracy;
 }
 
 + (void);
@@ -24,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayLanguage;
-@property(readonly, nonatomic) _Bool hasKnownAccuracy;
-@property(readonly, nonatomic) int knownAccuracy;
 
 @end
 

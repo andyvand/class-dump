@@ -9,9 +9,9 @@
     id _lock;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)reData:error:Rollback during NSBatchUpdateRequest failed because %@ with userInfo %@
  /* Error: Ran out of types for this method. */;
 

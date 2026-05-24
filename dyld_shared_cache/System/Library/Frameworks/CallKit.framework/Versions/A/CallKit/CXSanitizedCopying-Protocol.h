@@ -5,5 +5,6 @@
 //
 
 @protocol CXSanitizedCopying
+- (id)onContext failed error=%{public}@;
 @end
 

@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFunctionRow, NSFunctionRowBackgroundColorView, NSStackView, NSTouchBar, NSTouchBarItem, NSTouchBarViewController;
+@class NSFunctionRow;
 
 __attribute__((visibility("hidden")))
 @interface NSSystemModalTouchBarOverlay
 {
     NSFunctionRow *_functionRow;
-    NSTouchBar *_touchBar;
-    NSTouchBarViewController *_viewController;
-    NSFunctionRowBackgroundColorView *_colorView;
-    NSStackView *_escKeyViewer;
-    NSTouchBarItem *_escKeyReplacementItem;
-    NSTouchBarItem *_systemCloseButtonItem;
-    _Bool _useOverlayAnimations;
-    _Bool _showsCloseWhenInactive;
-    _Bool _isObservingEscapeReplacement;
-    _Bool _isObservingActiveState;
 }
 
 - (void);
-- (void);
+- (void)sharedCredentialStorage;
 - (void);
 - (void);
 - (void)0@ù
 × ;
 - (void)@ù
 × ;
-- (void)ghContrastLight;
+- (void)UIAppearanceHighContrastLight;
 
 @end
 

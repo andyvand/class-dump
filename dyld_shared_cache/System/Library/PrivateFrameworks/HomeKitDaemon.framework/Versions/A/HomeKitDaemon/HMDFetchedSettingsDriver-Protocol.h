@@ -7,6 +7,7 @@
 @protocol HMDFetchedSettingsDriverDelegate;
 
 @protocol HMDFetchedSettingsDriver
+- (void)_notifyDelegateIfNeeded;
 
 // Remaining properties
 @property __weak id <HMDFetchedSettingsDriverDelegate> delegate;

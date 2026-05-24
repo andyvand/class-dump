@@ -10,12 +10,12 @@
 {
 }
 
+- (_Bool)setInterface:(id)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (_Bool)questing a NSURLSessionDownloadTask from background transfer daemon:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)A;
 - (void);
-- (id)w:(struct CGRect)arg1 didStopOverlayingView: /* Error: Ran out of types for this method. */;
+- (id)_splitView:(struct CGRect)arg1 didStopOverlayingView: /* Error: Ran out of types for this method. */;
 - (void)þy<@ÂL;
 
 // Remaining properties

@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void);
+- (void)ealloc];
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)ciatedServicesTable:(id)arg1;
-- (void)etExtractorDelegate;
+- (void)rary/PrivateFrameworks/SiriSignals.framework/Versions/A/SiriSignals;
+- (id)_updateAssociatedServicesTable:(id)arg1;
+- (void)HMSoftwareUpdateDocumentationAssetExtractorDelegate;
 
 @end
 

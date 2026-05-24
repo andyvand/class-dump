@@ -7,39 +7,14 @@
 @class NSSet;
 
 @protocol PGGraphUpdateInventory
+- (NSSet *);
+- (_Bool)t.framework/Versions/A/Frameworks/AccessibilityFoundation.framework/Versions/A/AccessibilityFoundation;
+- (NSSet *)!;
+- (_Bool);
+- (NSSet *)accessibilityBoundsForAXFTextRange: /* Error: Ran out of types for this method. */;
 - (long long)atVector"16^@24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *contactIdentifiersOfPersonsToUpdate;
-@property(readonly, nonatomic) _Bool hasHighlightDayGroupsToInsert;
-@property(readonly, nonatomic) _Bool hasHighlightsToDelete;
-@property(readonly, nonatomic) _Bool hasHighlightsToInsert;
-@property(readonly, nonatomic) _Bool hasHighlightsToUpdate;
-@property(readonly, nonatomic) _Bool hasMomentsToDelete;
-@property(readonly, nonatomic) _Bool hasMomentsToInsert;
-@property(readonly, nonatomic) _Bool hasMomentsToUpdate;
-@property(readonly, nonatomic) _Bool hasPersonsToDelete;
-@property(readonly, nonatomic) _Bool hasPersonsToInsert;
-@property(readonly, nonatomic) _Bool hasPersonsToUpdate;
-@property(readonly, nonatomic) _Bool hasSocialGroupsToDelete;
-@property(readonly, nonatomic) _Bool hasSocialGroupsToInsert;
-@property(readonly, nonatomic) _Bool hasSocialGroupsToUpdate;
-@property(readonly, nonatomic) NSSet *identifiersForMemoriesRelatedToDeletedMoments;
-@property(readonly, nonatomic) NSSet *identifiersForMomentRelatedToDeletedPersons;
-@property(readonly, nonatomic) NSSet *identifiersForMomentRelatedToUpdatedPersons;
-@property(nonatomic) _Bool isResumingFullAnalysis;
-@property(readonly, nonatomic) NSSet *localIdentifiersOfPersonsToDelete;
-@property(readonly, nonatomic) NSSet *localIdentifiersOfPersonsToInsert;
-@property(readonly, nonatomic) NSSet *localIdentifiersOfPersonsToUpdate;
 @property(readonly, nonatomic) long long updateType;
-@property(readonly, nonatomic) NSSet *uuidsOfHighlightsToDelete;
-@property(readonly, nonatomic) NSSet *uuidsOfHighlightsToInsert;
-@property(readonly, nonatomic) NSSet *uuidsOfHighlightsToUpdate;
-@property(readonly, nonatomic) NSSet *uuidsOfMomentsToDelete;
-@property(readonly, nonatomic) NSSet *uuidsOfMomentsToInsert;
-@property(readonly, nonatomic) NSSet *uuidsOfMomentsToUpdate;
-@property(readonly, nonatomic) NSSet *uuidsOfSocialGroupsToDelete;
-@property(readonly, nonatomic) NSSet *uuidsOfSocialGroupsToInsert;
-@property(readonly, nonatomic) NSSet *uuidsOfSocialGroupsToUpdate;
 @end
 

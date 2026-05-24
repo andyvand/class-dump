@@ -15,7 +15,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)MPModelPropertyPodcastEpisodeTitle;
 - (id);
 - (void)±X1Â0@ù
 × ;

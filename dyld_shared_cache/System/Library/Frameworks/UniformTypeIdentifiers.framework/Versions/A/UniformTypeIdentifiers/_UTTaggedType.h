@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
 - (id);
 - (_Bool);
@@ -28,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)"I};
 - (id);
 - (id);
 - (Class);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)t;
 
 @end
 

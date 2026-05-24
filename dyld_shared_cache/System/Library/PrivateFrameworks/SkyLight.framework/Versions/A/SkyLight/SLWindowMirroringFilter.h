@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     SLWindowFilter *_filter;
 }
 
+- (id)WHERE %@ = ? AND %@ = ?;
+- (id)AppActivationExport;
+- (void)te _performSchemaInitializationRequest:(id)arg1 ]_block_invoke;
+- (id)the attribute specified by this predicate.;
+- (id)id trigger predicate, unable to find the attribute specified by this predicate.;
+- (id)%@ %@ %ld;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)`>;
 - (id);
 
 @end

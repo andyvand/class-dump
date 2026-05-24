@@ -8,21 +8,21 @@
 {
 }
 
-- (struct __LSASN *);
+- (struct __LSASN *);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (struct __LSASN *);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)R;
 - (int);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 
 @end
 

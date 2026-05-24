@@ -4,6 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NFApplet, NSDictionary, NSString;
+
 @protocol NFSecureElementManagerSessionInterface
+- (oneway void)tCNContactPreferredForImageKey(void);
+- (oneway void)tactOrganizationNameKey(void);
+- (oneway void)cknameKey(void);
+- (oneway void)s* (?:(NSDictionary *)arg1 \@ (?:(void (^)(NSArray *, NSError *))arg2 (\d+) | (\w+) ))? (?# $7=priorityValue $8=priorityName);
+- (oneway void)(\d+) | (\w+) ))? (?# $4=constantSign $5=constantValue $6=constantName)\s* (?:(NSDictionary *)arg1 \@ (?:(_Bool)arg2 (\d+) | (\w+) ))? (?# $7=priorityValue $8=priorityName);
+- (oneway void)CUSTOM_POPUP;
+- (oneway void)ALUE-%@-%@;
+- (oneway void)%p> (%@) %@ -> %@;
+- (oneway void)CERTIFICATE_WARNING_CONTINUE_BUTTON;
+- (oneway void)tactFetchRequestClass(void)_block_invoke;
+- (oneway void)Class(void)_block_invoke;
+- (oneway void)LLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (oneway void)rdCollectionView.m;
+- (oneway void);
+- (oneway void)archFieldCell;
+- (oneway void)s:(NSString *)arg1 %@ %@;
+- (oneway void)ers:(NFApplet *)arg1 %@ %@;
+- (oneway void)ving subgroups:(void (^)(NSData *, NSError *))arg1 %@ %@;
+- (oneway void)fter adding smart list;
+- (oneway void)o address book;
+- (oneway void)que group name;
+- (oneway void)untitled group - use SEQUENTIAL_UNTITLED_GROUP to provide a unique group name;
+- (oneway void)invoke;
+- (oneway void)ss getCNContactStoreClass(void)_block_invoke;
+- (oneway void)st"8;
+- (oneway void)kABMembersListChangedNotification;
+- (oneway void)ramework/AddressBookUI/ABAllSmartGroup.m;
+- (oneway void)@?0q8;
+- (oneway void)UI;
+- (oneway void);
 @end
 

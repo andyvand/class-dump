@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGOrigin, SGRecordId;
+@class SGRecordId;
 
 @interface SGObject
 {
     SGRecordId *_recordId;
-    SGOrigin *_origin;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)p1;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SGOrigin *origin; // @synthesize origin=_origin;
 @property(readonly, nonatomic) SGRecordId *recordId; // @synthesize recordId=_recordId;
 
 @end

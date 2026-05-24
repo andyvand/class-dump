@@ -9,22 +9,20 @@
 @interface DMFEchoResultObject
 {
     NSString *_echo;
-    NSString *_resultStatus;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)8;
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)@?0@8Q16^B24;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *echo; // @synthesize echo=_echo;
-@property(copy, nonatomic) NSString *resultStatus; // @synthesize resultStatus=_resultStatus;
 
 @end
 

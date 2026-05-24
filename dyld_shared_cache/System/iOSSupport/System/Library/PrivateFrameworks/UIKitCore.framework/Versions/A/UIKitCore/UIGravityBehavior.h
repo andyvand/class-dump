@@ -16,11 +16,11 @@
 + (_Bool);
 - (double);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void):(double)arg1 %c;
+- (void)at to Group chat -- Invalid chat style:(double)arg1 %c;
+- (void)@;
+- (void)chat command processing;
+- (void)limit %d recordStoreRecords:(double)arg1 %@;
 - (struct CGVector);
 - (struct CGPoint);
 - (void);
@@ -31,21 +31,18 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (struct CGPoint)0@ù
 × ;
 - (void)vable>"16@0:(id)arg1 8;
-- (id)ddenDisplayGamut;
+- (id)_overriddenDisplayGamut;
 - (double)Recognizer;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double angle;
-@property(nonatomic) struct CGVector gravityDirection;
 @property(readonly, copy, nonatomic) NSArray *items;
-@property(nonatomic) double magnitude;
 
 @end
 

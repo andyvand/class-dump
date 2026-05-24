@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NTPBDate;
+@class NTPBDate;
 
 @interface FCFeedItemServiceCursor
 {
     NTPBDate *_lastRefreshed;
-    NSArray *_feedItems;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)supported;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *feedItems; // @synthesize feedItems=_feedItems;
 @property(readonly, nonatomic) NTPBDate *lastRefreshed; // @synthesize lastRefreshed=_lastRefreshed;
 
 @end

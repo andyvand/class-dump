@@ -5,5 +5,6 @@
 //
 
 @protocol CRKWiProxTrackerScannerDelegate
+- (void);
 @end
 

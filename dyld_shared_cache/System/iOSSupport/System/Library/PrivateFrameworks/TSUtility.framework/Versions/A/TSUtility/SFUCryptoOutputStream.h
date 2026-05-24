@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFUCryptor;
 @protocol SFUOutputStream;
 
 @interface SFUCryptoOutputStream
 {
     id <SFUOutputStream> mBaseStream;
-    SFUCryptor *mCryptor;
-    _Bool mIsClosed;
-    _Bool mComputeCrc32;
-    unsigned int mCrc32;
 }
 
 + (unsigned long long);
@@ -31,13 +26,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

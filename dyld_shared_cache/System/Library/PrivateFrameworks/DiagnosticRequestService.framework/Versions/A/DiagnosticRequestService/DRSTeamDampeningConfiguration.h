@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSDampeningConfiguration, NSDictionary;
+@class DRSDampeningConfiguration;
 
 @interface DRSTeamDampeningConfiguration
 {
     DRSDampeningConfiguration *_defaultConfiguration;
-    NSDictionary *_issueCategoryToConfigurationDict;
 }
 
 + (id);
@@ -19,18 +18,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)qa;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) DRSDampeningConfiguration *defaultConfiguration; // @synthesize defaultConfiguration=_defaultConfiguration;
-@property(retain, nonatomic) NSDictionary *issueCategoryToConfigurationDict; // @synthesize issueCategoryToConfigurationDict=_issueCategoryToConfigurationDict;
 
 @end
 

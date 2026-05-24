@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface TMXPCConnectionInvalidator
 {
     struct os_unfair_lock_s _invalidationBlocksLock;
-    NSMutableSet *_connectionInvalidationBlocks;
 }
 
 - (void);
-- (void);
+- (void)$;
 - (struct os_unfair_lock_s);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSMutableSet *connectionInvalidationBlocks; // @synthesize connectionInvalidationBlocks=_connectionInvalidationBlocks;
 @property struct os_unfair_lock_s invalidationBlocksLock; // @synthesize invalidationBlocksLock=_invalidationBlocksLock;
 
 @end

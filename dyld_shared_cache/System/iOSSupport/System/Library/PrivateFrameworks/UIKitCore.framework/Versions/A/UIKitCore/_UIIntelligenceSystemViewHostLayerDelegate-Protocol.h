@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol _UIIntelligenceSystemViewHostLayerDelegate
+- (void)_updateIsActiveListHandlesVersion;
+- (void)_updateIgnoredList:(double)arg1 withRecords:broadcastUpdates: /* Error: Ran out of types for this method. */;
+- (void)_updateHasCancellableScheduledMessageForChat:(NSString *)arg1;
 @end
 

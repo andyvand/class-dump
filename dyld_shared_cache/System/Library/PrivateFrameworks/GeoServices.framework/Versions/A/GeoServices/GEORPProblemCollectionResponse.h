@@ -9,15 +9,13 @@
 @interface GEORPProblemCollectionResponse
 {
     NSString *_problemId;
-    int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setLibraryGuidesSavedPlacesCount:(id)arg1;
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)autorelease;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -25,24 +23,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ndpointerMetrics",&,N,V_cachedMetrics;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (void);
 - (id)d_switchedToRouteId"b1"read_synthesizedStepInstructions"b1"wrote_anyField"b1};
-- (id)UrlInfoSets;
+- (id)clearUrlInfoSets;
 - (id))*Ø*+;
-- (id)n;
+- (id)isLocalChain;
 - (void);
 - (int)þ;
 - (void)J5;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasProblemId;
 @property(nonatomic) _Bool hasStatusCode;
-@property(retain, nonatomic) NSString *problemId;
-@property(nonatomic) int statusCode;
 
 @end
 

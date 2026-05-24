@@ -10,29 +10,18 @@
 @interface PXStoryNullSongResource
 {
     NSString *_identifier;
-    long long _resourceKind;
-    id <PXAudioAsset> _asset;
 }
 
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id)ntInsets:(struct _NSZone *)arg1;
+- (id);
+- (id)setNormalizedContentInsets:(struct _NSZone *)arg1;
 - (void)Y;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *px_storyResourceIdentifier; // @synthesize px_storyResourceIdentifier=_identifier;
-@property(readonly, nonatomic) long long px_storyResourceKind; // @synthesize px_storyResourceKind=_resourceKind;
 @property(readonly, nonatomic) id <PXAudioAsset> px_storyResourceSongAsset; // @synthesize px_storyResourceSongAsset=_asset;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CRInvocationChainDelegate
+- (_Bool)inputContrastLegacyVersion;
 @end
 

@@ -4,43 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSString;
-
 @interface TSUNumberFormat
 {
     int mValueType;
-    NSString *mFormatString;
-    unsigned short mDecimalPlaces;
-    NSString *mCurrencyCode;
-    _Bool mUseAccountingStyle;
-    int mNegativeStyle;
-    _Bool mShowThousandsSeparator;
-    int mFractionAccuracy;
-    _Bool mFormatStringRequiresSuppressionOfMinusSign;
-    _Bool mUseScientificFormattingAutomatically;
-    _Bool mIgnoreDecimalPlacesForZeroValue;
-    NSString *mPrefixString;
-    NSString *mSuffixString;
-    unsigned char mBase;
-    unsigned short mBasePlaces;
-    _Bool mBaseUseMinusSign;
-    _Bool mIsCustom;
-    double mScaleFactor;
-    _Bool mFormatStringContainsTabCharacter;
-    _Bool mFormatContainsSpecialTokens;
-    _Bool mFormatContainsIntegerToken;
-    unsigned char mNumberOfHashDecimalPlaceholders;
-    unsigned char mTotalNumberOfDecimalPlaceholdersInFormat;
-    _Bool mRequiresFractionReplacement;
-    NSArray *mInterstitialStrings;
-    NSIndexSet *mInterstitialStringInsertionIndexes;
-    unsigned short mIndexFromRightOfLastDigitPlaceholder;
-    _Bool mIsTextFormat;
-    unsigned char mMinimumIntegerWidth;
-    unsigned char mDecimalWidth;
-    unsigned char mNumberOfNonSpaceIntegerPlaceholderDigits;
-    unsigned char mNumberOfNonSpaceDecimalPlaceholderDigits;
-    NSString *mFormatName;
 }
 
 + (id);
@@ -48,28 +14,28 @@
 + (id);
 + (id);
 + (id);
+- (id)thumbnailAccentColor;
+- (id);
+- (id)thumbnailLargeMetadata;
+- (id)thumbnailLarge;
+- (id)sourceChannelNameImageForDarkBackground;
+- (id)sourceChannelNameImageMask;
+- (id)searchSuggestion;
+- (id)coordinate;
+- (id)URLContextType;
+- (id)navigator;
+- (id);
+- (id)configurationManager;
 - (id);
 - (id);
+- (id)badgeCount;
+- (id)graph;
+- (id)placement;
+- (id)magazine;
+- (id)feedItemRenderer;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)useGradientInChannelPickerListSection;
+- (id)dimNonSubscriberContentOffline;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -96,13 +62,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (unsigned short);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)p;
 - (void);
 - (id);
 - (id);
@@ -118,13 +84,7 @@
 - (unsigned short);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

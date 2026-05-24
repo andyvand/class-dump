@@ -8,7 +8,8 @@
 @protocol PXAnonymousScrollView, PXGAXResponder;
 
 @protocol PXGAXResponder
-- (void);
+- (id <PXGAXResponder>);
+- (void)initWithVisibleRect:(id <PXGAXResponder>)arg1;
 - (NSObject<PXAnonymousScrollView> *)ToolbarAtBottom;
 - (void);
 

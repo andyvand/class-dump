@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, WKWebExtensionCommand;
+@class NSDictionary, WKWebExtensionCommand;
 
 @interface WBSWebExtensionCommand
 {
     NSDictionary *_properties;
-    NSString *_shortcutKey;
-    NSArray *_modifiers;
-    WKWebExtensionCommand *_webKitCommand;
-    NSString *_commandName;
-    NSString *_commandDescription;
-    NSString *_shortcut;
-    NSString *_extensionComposedIdentifier;
 }
 
 - (id);
@@ -30,12 +23,6 @@
 - (void)D;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *commandDescription; // @synthesize commandDescription=_commandDescription;
-@property(readonly, copy, nonatomic) NSString *commandName; // @synthesize commandName=_commandName;
-@property(readonly, copy, nonatomic) NSString *extensionComposedIdentifier; // @synthesize extensionComposedIdentifier=_extensionComposedIdentifier;
-@property(readonly, copy, nonatomic) NSString *keyEquivalent;
-@property(readonly, nonatomic) unsigned long long keyEquivalentModifierMask;
-@property(readonly, copy, nonatomic) NSString *shortcut; // @synthesize shortcut=_shortcut;
 @property(readonly, nonatomic) WKWebExtensionCommand *webKitCommand; // @synthesize webKitCommand=_webKitCommand;
 
 @end

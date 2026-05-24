@@ -6,20 +6,19 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSString, NUIContainerBoxView, WKWebView;
+@class NUIContainerBoxView;
 
 @interface SearchUIWebCardSectionView : SearchUICardSectionView
 {
     double _contentHeight;
-    WKWebView *_webView;
 }
 
 - (id);
-- (id);
+- (id)detectLanguageFromText:withMaxLength:withMaxTags:withMinimumCount:withMinimumAgreement: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
@@ -29,16 +28,7 @@
 - (id),+;
 
 // Remaining properties
-@property(nonatomic) double contentHeight; // @synthesize contentHeight=_contentHeight;
 @property(retain, nonatomic) NUIContainerBoxView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end
 

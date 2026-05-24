@@ -4,55 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSSet, PGGraphLocationHelper, PGIncompleteLocationResolver;
+@class PGGraphLocationHelper, PGIncompleteLocationResolver;
 
 @interface PGLocationsResolver
 {
     PGGraphLocationHelper *_locationHelper;
-    _Bool _shouldCreateLocationToAddressMapTable;
-    float _maximumMissingLocationsThreshold;
-    PGIncompleteLocationResolver *_incompleteLocationResolver;
-    NSArray *_sortedMoments;
-    NSSet *_ignoredLocationNodes;
-    NSSet *_ignoredAddressNodes;
-    NSArray *_resolvedMomentNodes;
-    NSArray *_resolvedLocationNodes;
-    NSMapTable *_resolvedLocationNodesToAddressNodesMapTable;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)__objc_classlist__DATA_CONST;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (float)numberOfCharacters;
+- (id)_searchDecendantFromElement:(id)arg1 direction:(id)arg2 type:(id)arg3;
+- (id)_cleanupAttributedString:(id)arg1;
+- (id)AXKWorkspaceManager;
+- (id)AXKElementTraversalStrategy;
+- (id)AXKScreenReadingElementTraversalStrategy;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (float);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void)sPartnerPresence;
+- (void)requiresPartnerPresence;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *ignoredAddressNodes; // @synthesize ignoredAddressNodes=_ignoredAddressNodes;
-@property(retain, nonatomic) NSSet *ignoredLocationNodes; // @synthesize ignoredLocationNodes=_ignoredLocationNodes;
 @property(retain, nonatomic) PGIncompleteLocationResolver *incompleteLocationResolver; // @synthesize incompleteLocationResolver=_incompleteLocationResolver;
-@property(nonatomic) float maximumMissingLocationsThreshold; // @synthesize maximumMissingLocationsThreshold=_maximumMissingLocationsThreshold;
-@property(retain, nonatomic) NSArray *resolvedLocationNodes; // @synthesize resolvedLocationNodes=_resolvedLocationNodes;
-@property(readonly, nonatomic) NSMapTable *resolvedLocationNodesToAddressNodesMapTable; // @synthesize resolvedLocationNodesToAddressNodesMapTable=_resolvedLocationNodesToAddressNodesMapTable;
-@property(retain, nonatomic) NSArray *resolvedMomentNodes; // @synthesize resolvedMomentNodes=_resolvedMomentNodes;
-@property(nonatomic) _Bool shouldCreateLocationToAddressMapTable; // @synthesize shouldCreateLocationToAddressMapTable=_shouldCreateLocationToAddressMapTable;
-@property(retain, nonatomic) NSArray *sortedMoments; // @synthesize sortedMoments=_sortedMoments;
 
 @end
 

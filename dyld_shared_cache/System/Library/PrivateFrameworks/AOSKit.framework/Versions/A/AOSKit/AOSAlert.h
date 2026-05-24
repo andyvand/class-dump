@@ -14,10 +14,10 @@
 + (id);
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (void);
-+ (_Bool);
++ (void)/Library/Frameworks/IOKit.framework/Versions/A/IOKit;
++ (_Bool);
 
 @end
 

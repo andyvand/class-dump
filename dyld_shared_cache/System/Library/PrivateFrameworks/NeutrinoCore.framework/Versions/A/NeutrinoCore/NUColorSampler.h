@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NUColorSpace, NUComposition, NUImageDataRequest;
-@protocol OS_dispatch_queue;
+@class NUImageDataRequest;
 
 @interface NUColorSampler
 {
     _Bool _shouldCoalesceUpdates;
-    NUComposition *_composition;
-    NSObject<OS_dispatch_queue> *_responseQueue;
-    long long _sampleRadius;
-    NUColorSpace *_colorSpace;
-    NSString *_name;
-    NUImageDataRequest *_request;
 }
 
 - (_Bool);
@@ -32,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_sendProtocolInfoServiceExchangeData:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
@@ -42,21 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(copy, nonatomic) NUComposition *composition; // @synthesize composition=_composition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) NUImageDataRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *responseQueue; // @synthesize responseQueue=_responseQueue;
-@property(nonatomic) long long sampleRadius; // @synthesize sampleRadius=_sampleRadius;
-@property(nonatomic) _Bool shouldCoalesceUpdates; // @synthesize shouldCoalesceUpdates=_shouldCoalesceUpdates;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

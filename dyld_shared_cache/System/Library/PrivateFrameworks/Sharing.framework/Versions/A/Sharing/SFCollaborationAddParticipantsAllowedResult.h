@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface SFCollaborationAddParticipantsAllowedResult
 {
     _Bool _addParticipantsAllowed;
-    NSError *_error;
 }
 
-+ (_Bool);
++ (_Bool)	ka;
 - (id);
 - (_Bool);
+- (id)t;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)tedConnection;
+- (void)X;
+- (void)unsupportedConnection;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool addParticipantsAllowed; // @synthesize addParticipantsAllowed=_addParticipantsAllowed;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

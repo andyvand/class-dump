@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSObject;
-@protocol IMReasonTrackingUpdaterDelegate, OS_os_log;
+@class NSCountedSet;
 
 @interface IMReasonTrackingUpdater
 {
     _Bool _hasPendingDeferredUpdate;
-    NSObject<OS_os_log> *_logHandle;
-    id <IMReasonTrackingUpdaterDelegate> _delegate;
-    NSCountedSet *_reasonsForNeedsUpdates;
-    NSCountedSet *_reasonsForHoldingUpdates;
 }
 
 - (void);
@@ -26,9 +21,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -38,7 +33,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -47,12 +42,6 @@
 - (void)nextNotificationTimer;
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeUpdaterHoldsCount;
-@property(nonatomic) __weak id <IMReasonTrackingUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasPendingDeferredUpdate; // @synthesize hasPendingDeferredUpdate=_hasPendingDeferredUpdate;
-@property(readonly, nonatomic) _Bool isHoldingUpdates;
-@property(retain, nonatomic) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(retain, nonatomic) NSCountedSet *reasonsForHoldingUpdates; // @synthesize reasonsForHoldingUpdates=_reasonsForHoldingUpdates;
 @property(retain, nonatomic) NSCountedSet *reasonsForNeedsUpdates; // @synthesize reasonsForNeedsUpdates=_reasonsForNeedsUpdates;
 
 @end

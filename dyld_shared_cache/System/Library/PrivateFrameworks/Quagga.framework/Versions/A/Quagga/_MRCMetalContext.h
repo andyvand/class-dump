@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLCommandBuffer, MTLCommandQueue, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 @interface _MRCMetalContext
 {
     id <MTLDevice> _device;
-    id <MTLLibrary> _library;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLCommandBuffer> _currentCommandBuffer;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -29,10 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(readonly, nonatomic) id <MTLCommandBuffer> currentCommandBuffer; // @synthesize currentCommandBuffer=_currentCommandBuffer;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) id <MTLLibrary> library; // @synthesize library=_library;
 
 @end
 

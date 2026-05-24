@@ -7,7 +7,6 @@
 @interface BiomeStreams.DatabaseWithAccess__priv_F8FA2739982A459A6E4E81EADE21431C
 {
     id database;
-    id accessAssertion;
 }
 
 @end

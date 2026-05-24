@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSWPURLDataDetector
 {
 }
 
++ (void)NCMClockRef;
++ (id)x(;
++ (id);
++ (id);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (struct _NSRange);
 + (struct _NSRange);
-+ (struct _NSRange);
-+ (id);
++ (id)J_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

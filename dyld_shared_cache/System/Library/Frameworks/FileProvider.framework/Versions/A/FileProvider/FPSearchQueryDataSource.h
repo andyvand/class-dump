@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPExtensionDataSource, FPSearchQueryDescriptor, FPSpotlightDataSource, NSObject;
-@protocol FPSpotlightDataSourceDelegate, OS_dispatch_queue;
+@class FPSearchQueryDescriptor, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface FPSearchQueryDataSource
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _started;
-    _Bool _invalidated;
-    FPSpotlightDataSource *_spotlightDataSource;
-    FPExtensionDataSource *_serverSearchDataSource;
-    id <FPSpotlightDataSourceDelegate> _delegate;
-    FPSearchQueryDescriptor *_queryDescriptor;
 }
 
-- (unsigned long long);
+- (unsigned long long)aM;
 - (id);
 - (void);
 - (_Bool);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (id);
@@ -36,9 +30,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <FPSpotlightDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasMoreIncoming;
-@property(readonly) unsigned long long lastForcedUpdate;
 @property(readonly, nonatomic) FPSearchQueryDescriptor *queryDescriptor; // @synthesize queryDescriptor=_queryDescriptor;
 
 @end

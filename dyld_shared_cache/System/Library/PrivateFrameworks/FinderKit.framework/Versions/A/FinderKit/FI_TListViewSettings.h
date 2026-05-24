@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface FI_TListViewSettings
 {
     NSMutableDictionary *_settings;
-    NSMutableDictionary *_columnSettings;
-    struct CGPoint _scrollPosition;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -32,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)y	?%@qa;
 - (int);
 - (void);
 - (void);
@@ -43,9 +41,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
-- (id);
+- (id);
 - (id);
 - (int);
 - (vector_3c4d3754);
@@ -53,34 +51,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (double);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)C;
 - (void);
 - (id);
 - (double);
 - (_Bool);
 - (void);
-- (void)tion6__funcIPFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEESA_EE;
+- (void)NSt3__110__function6__funcIPFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEESA_EE;
 
 // Remaining properties
-@property(nonatomic) _Bool calculateAllSizes;
-@property(retain, nonatomic) NSMutableDictionary *columnSettings; // @synthesize columnSettings=_columnSettings;
-@property(nonatomic) double iconSize;
-@property(nonatomic) struct CGPoint scrollPosition; // @synthesize scrollPosition=_scrollPosition;
 @property(retain, nonatomic) NSMutableDictionary *settings; // @synthesize settings=_settings;
-@property(nonatomic) _Bool showIconPreview;
-@property(nonatomic) int sortColumn;
-@property(nonatomic) double textSize;
-@property(nonatomic) _Bool useRelativeDates;
-@property(nonatomic) _Bool userDidChangeSort;
 
 @end
 

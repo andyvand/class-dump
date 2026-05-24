@@ -7,15 +7,13 @@
 @class NSNumber, NSString;
 
 @protocol PXLemonadeCollectionsFeedEmptyStateViewModel
+- (NSNumber *);
 - (void)±8°1Â0@ù
 × ;
-- (NSString *)deoContentProvider;
+- (NSString *)PXPhotoKitLivePhotoVideoContentProvider;
 - (NSString *)s=%{signpost.telemetry:number2,public}lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionHandler;
-@property(copy, nonatomic) NSString *message;
-@property(copy, nonatomic) NSNumber *numberOfAssetResults;
 @property(copy, nonatomic) NSString *title;
 @end
 

@@ -13,13 +13,13 @@
     NSAttributedString *_transcriptButtonText;
 }
 
-- (id);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
+- (id);
+- (void)lineLimit;
+- (id)doesn't support it {note:%@} /* Error: Ran out of types for this method. */;
+- (struct CGSize)migrating note to v1 Neo because it's not password-protected {note:(struct CGSize)arg1 %@};
+- (id)unt… {account:(id)arg1 %@, hasDivergedKey:(long long)arg2 %@, hasHint:(id)arg3 %@}%s:(id)arg4 %d;
 - (Class);
-- (unsigned long long)ctView: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setStickerEffectView: /* Error: Ran out of types for this method. */;
 - (void)"N;
 
 // Remaining properties

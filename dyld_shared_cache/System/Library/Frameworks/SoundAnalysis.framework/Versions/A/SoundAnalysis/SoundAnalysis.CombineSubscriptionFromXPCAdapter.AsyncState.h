@@ -7,7 +7,6 @@
 @interface SoundAnalysis.CombineSubscriptionFromXPCAdapter.AsyncState
 {
     id $defaultActor;
-    id cancelled;
 }
 
 @end

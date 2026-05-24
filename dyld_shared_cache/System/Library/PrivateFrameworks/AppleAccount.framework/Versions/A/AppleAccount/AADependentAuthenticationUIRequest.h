@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void)thCustodianID:didAccept: /* Error: Ran out of types for this method. */;
-- (id)neficiaryFirstName;
+- (void)initWithCustodianID:didAccept: /* Error: Ran out of types for this method. */;
+- (id)_beneficiaryFirstName;
 
 @end
 

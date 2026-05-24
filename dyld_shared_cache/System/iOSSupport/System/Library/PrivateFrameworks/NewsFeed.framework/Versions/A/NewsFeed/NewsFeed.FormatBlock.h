@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatBlock
 {
     id identifier;
-    id _children;
-    id _options;
-    id _selectors;
 }
 
 @end

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
-
 @interface TMStatFSDisk
 {
     unsigned int _owner;
-    unsigned int _blockSize;
-    unsigned long long _traits;
-    NSURL *_mountPoint;
-    NSString *_devicePath;
-    NSString *_deviceName;
-    struct fsid _fsid;
-    NSString *_filesystemTypeName;
-    NSNumber *_capacity;
-    NSNumber *_bytesFree;
-    NSString *_snapshotName;
-    NSString *_liveDiskDevicePath;
 }
 
 + (_Bool);
@@ -42,17 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int blockSize; // @synthesize blockSize=_blockSize;
-@property(readonly, copy) NSNumber *bytesFree; // @synthesize bytesFree=_bytesFree;
-@property(readonly, copy) NSNumber *capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, copy) NSString *devicePath; // @synthesize devicePath=_devicePath;
-@property(readonly, copy) NSString *filesystemTypeName; // @synthesize filesystemTypeName=_filesystemTypeName;
-@property(readonly) struct fsid fsid; // @synthesize fsid=_fsid;
-@property(readonly, copy) NSString *liveDiskDevicePath; // @synthesize liveDiskDevicePath=_liveDiskDevicePath;
-@property(readonly) NSURL *mountPoint; // @synthesize mountPoint=_mountPoint;
-@property(readonly) unsigned int owner; // @synthesize owner=_owner;
-@property(readonly, copy) NSString *snapshotName; // @synthesize snapshotName=_snapshotName;
 @property(readonly) unsigned long long traits; // @synthesize traits=_traits;
 
 @end

@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBBalanceAmountValue, _INPBDataString, _INPBValueMetadata;
+@class _INPBDataString;
 
 @interface _INPBFinancialAccountValue
 {
     struct {
         unsigned int accountType:1;
     } _has;
-    int _accountType;
-    _INPBDataString *_accountNickname;
-    NSString *_accountNumber;
-    _INPBBalanceAmountValue *_balance;
-    _INPBDataString *_organizationName;
-    _INPBBalanceAmountValue *_secondaryBalance;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -40,12 +33,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)[wifi-network-sharing] Applying 'testable' authorization request rate limit (%lu);
 - (id);
 - (id);
 - (void)0@ù
@@ -58,26 +51,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *accountNickname; // @synthesize accountNickname=_accountNickname;
-@property(copy, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(nonatomic) int accountType; // @synthesize accountType=_accountType;
-@property(retain, nonatomic) _INPBBalanceAmountValue *balance; // @synthesize balance=_balance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAccountNickname;
-@property(readonly, nonatomic) _Bool hasAccountNumber;
-@property(nonatomic) _Bool hasAccountType;
-@property(readonly, nonatomic) _Bool hasBalance;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasSecondaryBalance;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBDataString *organizationName; // @synthesize organizationName=_organizationName;
-@property(retain, nonatomic) _INPBBalanceAmountValue *secondaryBalance; // @synthesize secondaryBalance=_secondaryBalance;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

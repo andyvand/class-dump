@@ -6,36 +6,25 @@
 
 #import <HomeKit/HMRemoteLoginMessage.h>
 
-@class NSDictionary, NSString;
-
 @interface HMSyncAnisetteDataResponse : HMRemoteLoginMessage
 {
     _Bool _didSucceed;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)lib;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool didSucceed; // @synthesize didSucceed=_didSucceed;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(readonly) Class superclass;
 
 @end
 

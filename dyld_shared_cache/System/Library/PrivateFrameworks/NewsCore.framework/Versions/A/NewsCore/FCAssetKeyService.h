@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFLazy, NFPromise;
+@class NFLazy;
 
 @interface FCAssetKeyService
 {
     NFLazy *_session;
-    NFLazy *_requestEncoder;
-    NFPromise *_endpointURLPromise;
 }
 
 - (void);

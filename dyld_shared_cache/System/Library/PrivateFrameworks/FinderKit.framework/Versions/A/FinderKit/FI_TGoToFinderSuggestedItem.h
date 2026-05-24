@@ -6,16 +6,10 @@
 
 #import <FinderKit/FI_TGoToFinderItem.h>
 
-@class NSObject, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TGoToFinderSuggestedItem : FI_TGoToFinderItem
 {
     _Bool _isPrefixMatch;
-    _Bool _isPerfectMatch;
-    _Bool _isParent;
-    long long _source;
-    NSString *_searchString;
 }
 
 - (void);
@@ -29,29 +23,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (long long);
-- (void)T;
+- (void)xT;
 - (void)nForNameCellView:(id)arg1 item:]E3$_1 /* Error: Ran out of types for this method. */;
 - (id)BarController pathSelect:didSelectNode:]E3$_5vJEEE /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *decomposedName;
-@property(retain, nonatomic) NSString *decomposedRawName;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isContainer;
-@property(nonatomic) _Bool isParent; // @synthesize isParent=_isParent;
-@property(nonatomic) _Bool isPerfectMatch; // @synthesize isPerfectMatch=_isPerfectMatch;
 @property(nonatomic) _Bool isPrefixMatch; // @synthesize isPrefixMatch=_isPrefixMatch;
-@property(nonatomic) _Bool isShortcut;
-@property(retain, nonatomic) NSObject *representedObject;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(nonatomic) long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

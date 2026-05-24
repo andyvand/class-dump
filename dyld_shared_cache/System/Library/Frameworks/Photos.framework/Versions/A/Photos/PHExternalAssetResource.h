@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, PHAssetResourceCreationOptions;
-
 @interface PHExternalAssetResource
 {
     long long _sandboxExtensionHandle;
-    _Bool _duplicateAllowsReadAccess;
-    _Bool _isLibraryAssetResource;
-    long long _resourceType;
-    PHAssetResourceCreationOptions *_creationOptions;
-    unsigned long long _cplResourceType;
-    NSData *_data;
-    NSURL *_fileURL;
-    long long _pixelWidth;
-    long long _pixelHeight;
 }
 
 + (unsigned long long);
@@ -54,17 +43,7 @@
 - (id)l Memory;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cplResourceType; // @synthesize cplResourceType=_cplResourceType;
-@property(copy, nonatomic) PHAssetResourceCreationOptions *creationOptions; // @synthesize creationOptions=_creationOptions;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic, setter=_setDuplicateAllowsReadAccess:) _Bool duplicateAllowsReadAccess; // @synthesize duplicateAllowsReadAccess=_duplicateAllowsReadAccess;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) _Bool isLibraryAssetResource; // @synthesize isLibraryAssetResource=_isLibraryAssetResource;
-@property(readonly, nonatomic) NSString *originalFilename;
-@property(nonatomic) long long pixelHeight; // @synthesize pixelHeight=_pixelHeight;
-@property(nonatomic) long long pixelWidth; // @synthesize pixelWidth=_pixelWidth;
 @property(readonly, nonatomic) long long type; // @synthesize type=_resourceType;
-@property(readonly, nonatomic) NSString *uniformTypeIdentifier;
 
 @end
 

@@ -4,7 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BRFileObjectID, NSProgress, NSString;
+
 @protocol BRProtocolFPFS
+- (NSProgress *)`;
 - (void);
+- (void)3;
+- (void);
+- (void)"K;
+- (void)roundWithTensor:(_Bool)arg1 name:(NSString *)arg2;
+- (void)alNetworkUtilities:(BRFileObjectID *)arg1:(void (^)(NSURL *, NSData *, NSError *))arg2 getEspressoConfigurationsFromSpec shall not be used for multi-function models.;
+- (void)returned by MLModel's .program property.;
+- (void)P;
 @end
 

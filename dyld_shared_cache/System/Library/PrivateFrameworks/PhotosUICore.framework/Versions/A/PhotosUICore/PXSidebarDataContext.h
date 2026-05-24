@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSPredicate, PXLibraryFilterState, PXTabBadgeModel;
-@protocol PXSidebarDataSectionEnablement;
+@class PXLibraryFilterState;
 
 @interface PXSidebarDataContext
 {
     PXLibraryFilterState *_libraryFilterState;
-    NSOperationQueue *_workQueue;
-    id <PXSidebarDataSectionEnablement> _enablementProvider;
-    NSPredicate *_assetsFilterPredicate;
-    PXTabBadgeModel *_collectionsTabBadgeModel;
-    PXTabBadgeModel *_sharedActivityTabBadgeModel;
 }
 
 + (id);
@@ -26,16 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (id)tion;
-- (void)tsToSharedCollectionAction;
+- (id)CreateAssetCollection;
+- (void)PostAssetsToSharedCollectionAction;
 
 // Remaining properties
-@property(readonly, nonatomic) NSPredicate *assetsFilterPredicate; // @synthesize assetsFilterPredicate=_assetsFilterPredicate;
-@property(readonly, nonatomic) PXTabBadgeModel *collectionsTabBadgeModel; // @synthesize collectionsTabBadgeModel=_collectionsTabBadgeModel;
-@property(readonly, nonatomic) id <PXSidebarDataSectionEnablement> enablementProvider; // @synthesize enablementProvider=_enablementProvider;
 @property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) PXTabBadgeModel *sharedActivityTabBadgeModel; // @synthesize sharedActivityTabBadgeModel=_sharedActivityTabBadgeModel;
-@property(readonly, nonatomic) NSOperationQueue *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

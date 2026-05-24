@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol _INPBConfidenceScoreComponent
+- (_Bool);
 - (void)#16@?24;
-- (_Bool)supportedReasonINIntentResponseParameterUnsupportedReasonCode;
+- (_Bool)__INCodableAttributeUnsupportedReasonINIntentResponseParameterUnsupportedReasonCode;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) _Bool hasSource;
 @property(nonatomic) float score;
-@property(copy, nonatomic) NSString *source;
 @end
 

@@ -7,13 +7,6 @@
 @interface PhotosUICore.ParallaxAssetSegmenter
 {
     id asset;
-    id viewSize;
-    id posterClassification;
-    id cacheKey;
-    id style;
-    id disableRendering;
-    id assetDirectoryURL;
-    id $__lazy_storage_$_segmentationLoader;
 }
 
 @end

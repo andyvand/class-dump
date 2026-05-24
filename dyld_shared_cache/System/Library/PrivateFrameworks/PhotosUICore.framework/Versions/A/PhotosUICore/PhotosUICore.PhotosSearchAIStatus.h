@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosSearchAIStatus
 {
     id _status;
-    id availability;
-    id notification;
-    id _$observationRegistrar;
 }
 
 @end

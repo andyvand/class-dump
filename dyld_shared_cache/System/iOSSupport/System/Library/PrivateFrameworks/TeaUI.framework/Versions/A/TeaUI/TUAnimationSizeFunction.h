@@ -9,11 +9,6 @@
 @interface TUAnimationSizeFunction
 {
     CAMediaTimingFunction *_timingFunction;
-    double _speed;
-    TUAnimationFloatFunction *_widthFunction;
-    TUAnimationFloatFunction *_heightFunction;
-    struct CGSize _startValue;
-    struct CGSize _endValue;
 }
 
 - (id);
@@ -27,18 +22,13 @@
 - (void);
 - (struct CGSize);
 - (struct CGSize);
-- (void);
+- (void)_bannerImageScale;
 - (double);
-- (id);
+- (id);
 - (void);
 - (void)d;
 
 // Remaining properties
-@property(nonatomic) struct CGSize endValue; // @synthesize endValue=_endValue;
-@property(retain, nonatomic) TUAnimationFloatFunction *heightFunction; // @synthesize heightFunction=_heightFunction;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) struct CGSize startValue; // @synthesize startValue=_startValue;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
 @property(retain, nonatomic) TUAnimationFloatFunction *widthFunction; // @synthesize widthFunction=_widthFunction;
 
 @end

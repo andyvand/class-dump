@@ -9,7 +9,6 @@
 @interface AVTEditingModelColors
 {
     AVTAvatarColorVariationStore *_variationStore;
-    NSDictionary *_storage;
 }
 
 + (void);
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *storage; // @synthesize storage=_storage;
-@property(retain, nonatomic) AVTAvatarColorVariationStore *variationStore; // @synthesize variationStore=_variationStore;
 
 @end
 

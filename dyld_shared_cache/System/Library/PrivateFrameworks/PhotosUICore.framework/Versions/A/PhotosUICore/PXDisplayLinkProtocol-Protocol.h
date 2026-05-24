@@ -8,27 +8,19 @@
 @protocol OS_dispatch_queue;
 
 @protocol PXDisplayLinkProtocol
+- (id);
+- (_Bool),;
+- (double)setExclusiveTouch: /* Error: Ran out of types for this method. */;
+- (double)setStartsPaused: /* Error: Ran out of types for this method. */;
 - (long long)@0:8@16q24 /* Error: Ran out of types for this method. */;
-- (void)nsity;
-- (NSObject<OS_dispatch_queue> *)ewMode;
+- (void)imageModulationIntensity;
+- (NSObject<OS_dispatch_queue> *)_invalidateCurrentViewMode;
 - (unsigned int)_strong id<PXDisplayAssetCollection> _Nonnull, NSString * _Nonnull __autoreleasing * _Nonnull, NSString * _Nonnull __autoreleasing * _Nonnull);
 - (SEL)[PXCMMInvitationsDataSourceManager mediaProvider];
 - (double)ÿ;
 - (NSScreen *)y¨¾¨f;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentMediaTime;
-@property(readonly, nonatomic) double duration;
-@property(nonatomic) unsigned long long frameRateRangeType;
-@property(nonatomic) unsigned int highFrameRateReason;
-@property(nonatomic) _Bool paused;
-@property(readonly, nonatomic) long long preferredFramesPerSecond;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly, nonatomic) double resolvedDuration;
-@property(readonly, nonatomic) __weak NSScreen *screen;
-@property(readonly, nonatomic) SEL selector;
 @property(readonly, nonatomic) __weak id target;
-@property(readonly, nonatomic) double targetTimestamp;
-@property(readonly, nonatomic) double timestamp;
 @end
 

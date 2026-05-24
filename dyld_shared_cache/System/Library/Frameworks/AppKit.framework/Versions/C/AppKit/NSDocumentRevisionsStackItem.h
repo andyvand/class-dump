@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDocumentRevisionsPlaceholderView, NSDocumentRevisionsStackLayer, NSFileVersion;
+@class NSDocumentRevisionsPlaceholderView, NSFileVersion;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsStackItem
 {
     NSDocumentRevisionsPlaceholderView *_placeholderView;
-    double _cornerRadius;
-    _Bool _hasLocalData;
-    _Bool _hasValidSnapshot;
-    _Bool _hasWindowVisible;
-    _Bool _documentFailedToLoad;
-    NSFileVersion *_version;
-    NSDocumentRevisionsStackLayer *_layer;
 }
 
-+ (id);
++ (id)c activity configuration. If this is intended, please reach out to cfnetwork / duetactivityscheduler;
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)_sqlUpdateReceiverDataStmt;
+- (_Bool)_sqlSelectEntry_idAndRecevierDataForKeyStmt;
+- (_Bool)_setProhibitPrivacyProxy: /* Error: Ran out of types for this method. */;
+- (_Bool)dState;
+- (void)v28@?0{?=qi}8B24;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void)
 × ;
-- (id)ove;
+- (id)WillPrepareToMove;
 - (void)/Sources/AppKit/Controls/Text Controls/NSSecureTextField/NSSecureTextField.m;
 - (void)!Üÿ;
 
 // Remaining properties
-@property _Bool documentFailedToLoad; // @synthesize documentFailedToLoad=_documentFailedToLoad;
-@property _Bool hasLocalData; // @synthesize hasLocalData=_hasLocalData;
-@property _Bool hasValidSnapshot; // @synthesize hasValidSnapshot=_hasValidSnapshot;
-@property _Bool hasWindowVisible; // @synthesize hasWindowVisible=_hasWindowVisible;
-@property(retain) NSDocumentRevisionsStackLayer *layer; // @synthesize layer=_layer;
-@property(retain) NSDocumentRevisionsPlaceholderView *placeholderView;
 @property(retain) NSFileVersion *version; // @synthesize version=_version;
 
 @end

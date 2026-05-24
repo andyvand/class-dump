@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLSharedEventListener, NSMutableArray, NSObject, VEFrameProcessor;
-@protocol MTLDevice, OS_dispatch_queue, VTFrameProcessorConfiguration, VTFrameProcessorImplementationPrivate;
+@class VEFrameProcessor;
 
 @interface VTFrameProcessor
 {
     VEFrameProcessor *_veFrameProcessor;
-    long long _processorType;
-    id <VTFrameProcessorImplementationPrivate> _processor;
-    id <VTFrameProcessorConfiguration> _configuration;
-    NSObject<OS_dispatch_queue> *_processFrameQueue;
-    id <MTLDevice> _device;
-    MTLSharedEventListener *_sharedEventListener;
-    NSMutableArray *_sharedEventList;
-    _Bool _sharedEventListTearingDown;
-    struct os_unfair_lock_s _sharedEventListLock;
 }
 
 - (_Bool);

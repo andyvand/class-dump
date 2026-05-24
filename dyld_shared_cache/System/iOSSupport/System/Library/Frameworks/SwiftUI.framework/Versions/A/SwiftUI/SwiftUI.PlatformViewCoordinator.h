@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)CGPoint=dd}32@0:8{CGPoint=dd}16 /* Error: Ran out of types for this method. */;
 
 @end
 

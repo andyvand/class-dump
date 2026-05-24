@@ -9,15 +9,12 @@
 @interface MNRouteDivergenceResult
 {
     NSUUID *_routeID;
-    unsigned long long _resultType;
-    struct PolylineCoordinate _routeCoordinate;
-    CDStruct_071ac149 _locationCoordinate;
 }
 
+- (void)IncludesAccessibilityText;
 - (void);
 - (void);
-- (void);
-- (CDStruct_071ac149);
+- (CDStruct_39925896);
 - (struct PolylineCoordinate);
 - (id);
 - (id);
@@ -29,9 +26,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) CDStruct_071ac149 locationCoordinate; // @synthesize locationCoordinate=_locationCoordinate;
-@property(nonatomic) unsigned long long resultType; // @synthesize resultType=_resultType;
-@property(nonatomic) struct PolylineCoordinate routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
 @property(retain, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
 
 @end

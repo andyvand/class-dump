@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBUserActivity;
+@class NSString, _INPBUserActivity;
 
 @protocol _INPBReservationAction
-- (NSString *)TemporalEventTriggerForSetTaskAttribute:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool)tingVocabulary: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_INPBUserActivity *)P;
+- (NSString *)resolveTemporalEventTriggerForSetTaskAttribute:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)_initWithVocabularyManager:syncSlot:deleteExistingVocabulary: /* Error: Ran out of types for this method. */;
 - (void)Location;
 
 // Remaining properties
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUserActivity;
-@property(readonly, nonatomic) _Bool hasValidDuration;
 @property(nonatomic) int type;
-@property(retain, nonatomic) _INPBUserActivity *userActivity;
-@property(retain, nonatomic) _INPBDateTimeRange *validDuration;
 @end
 

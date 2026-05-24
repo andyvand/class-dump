@@ -27,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)ationManager:didEnterRegion: /* Error: Ran out of types for this method. */;
+- (id)locationManager:didEnterRegion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)Ô=;
 - (long long)>;
 

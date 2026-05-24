@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)showKTContactVerificationUIForConversation:(id)arg1 fromViewController: /* Error: Ran out of types for this method. */;
 
 @end
 

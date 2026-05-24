@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (int);
-- (id);
-- (int)e: /* Error: Ran out of types for this method. */;
+- (id)respondToAskForTimeRequestWithIdentifier:(id)arg1 answer:error: /* Error: Ran out of types for this method. */;
+- (int)_setupCancelButtonWithAppearance: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÑÕ·a;
 

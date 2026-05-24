@@ -6,12 +6,11 @@
 
 #import <SyncServices/ISyncConcreteRecordGraphNode.h>
 
-@class ISDConflict, NSDictionary;
+@class ISDConflict;
 
 @interface ISyncRecordWithConflictGraphNode : ISyncConcreteRecordGraphNode
 {
     ISDConflict *_isdConflict;
-    NSDictionary *_freezeDriedRecord;
 }
 
 - (void);
@@ -25,10 +24,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (id);
-- (id);
+- (id)W;
 
 @end
 

@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextInteractionAssistant, UIView;
+@class UITextInteractionAssistant, UITextSelectionDisplayInteraction, UIView;
 @protocol UISelectionInteractionAssistant;
 
 @protocol UITextInputAdditions
+- (void)setHaveSeenReceiptsWithQOIThisBatchSet:(UITextSelectionDisplayInteraction *)arg1;
+- (UITextSelectionDisplayInteraction *)messageFromBlastDoorMessage: /* Error: Ran out of types for this method. */;
 - (_Bool)ttomLeftRadius = ;
 - (_Bool)ework/CoreAnalytics;
 - (UIView *)×;
@@ -16,13 +18,11 @@
 - (void)Ó;
 
 @optional
+- (UIView *)trackEvent:withDictionary: /* Error: Ran out of types for this method. */;
 - (_Bool)ze=dd}24q40i48;
 - (id <UISelectionInteractionAssistant>)[;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_caretRect) struct CGRect caretRect;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-@property(readonly, nonatomic, getter=isEditing) _Bool editing;
 @property(readonly, nonatomic) UITextInteractionAssistant *interactionAssistant;
 @end
 

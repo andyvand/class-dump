@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput_Tundra.h>
 
-@class AVCaptureMetadataOutputInternal_Tundra, NSArray, NSObject;
-@protocol AVCaptureMetadataOutputObjectsDelegate_Tundra, OS_dispatch_queue;
+@class AVCaptureMetadataOutputInternal_Tundra;
+@protocol AVCaptureMetadataOutputObjectsDelegate_Tundra;
 
 @interface AVCaptureMetadataOutput_Tundra : AVCaptureOutput_Tundra
 {
@@ -16,34 +16,34 @@
 
 + (id);
 + (void)ÍÌÌÌÌÌì?NbÄ@®G-AQÂ@¼t+AÙ¸@â"Añ?ìQ¸ëñ?333333ã?5^b@Ì]c@;
-- (void);
-- (id);
-- (unsigned int);
-- (int);
+- (void), decompressed data length=%d;
+- (id)ive interval;
+- (unsigned int)ty.;
+- (int)Error has recursive underlying error:(id)arg1 %@;
+- (_Bool)on.framework/MediaFoundation;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)clearGrantedPermissionsForAccountType:withHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (_Bool)to post SGURL change notification:error %u /* Error: Ran out of types for this method. */;
+- (float)tity with type SGEntityTextMessage has invalid message date;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (float);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long)C;
 - (id);
 - (id);
+- (void)`;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id)beginMomentCaptureSettings;
 - (void);
 - (_Bool);
-- (void);
+- (void).apple.coremedia.capturesource.audio.notificationQueue;
 - (id);
 - (void);
 - (void);
@@ -54,20 +54,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)iption: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithFormatDescription: /* Error: Ran out of types for this method. */;
 - (_Bool)highResStillImageDimensions;
 - (id);
 - (float)ureDevice(DockKit) setDockedTrackingActive:deviceID:] /* Error: Ran out of types for this method. */;
-- (void)odsForMovieRecording;
-- (_Bool)OnCapability;
+- (void)supportedVideoMirroringMethodsForMovieRecording;
+- (_Bool)AVGQFrontFacingCameraHDROnCapability;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableMetadataObjectTypes;
-@property(copy, nonatomic) NSArray *metadataObjectTypes;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *metadataObjectsCallbackQueue;
 @property(readonly, nonatomic) id <AVCaptureMetadataOutputObjectsDelegate_Tundra> metadataObjectsDelegate;
-@property(nonatomic) struct CGRect rectOfInterest;
-@property(readonly, nonatomic) NSArray *requiredMetadataObjectTypesForCinematicVideoCapture;
 
 @end
 

@@ -6,17 +6,11 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWPhotoEncoderController, BWPhotoEncoderControllerConfiguration, BWStillImageNodeConfiguration, NSDictionary, NSString;
+@class BWStillImageNodeConfiguration;
 
 @interface BWPhotoEncoderNode : BWNode
 {
     BWStillImageNodeConfiguration *_nodeConfiguration;
-    NSDictionary *_sensorConfigurationsByPortType;
-    NSDictionary *_attachedMediaConfigurationByAttachedMediaKey;
-    BWPhotoEncoderControllerConfiguration *_photoEncoderControllerConfiguration;
-    BWPhotoEncoderController *_photoEncoderController;
-    NSString *_lastProcessedCaptureIdentifier;
-    _Bool _preferMainImageDownscalingFactorByAttachedMediaKeyFromSampleBuffer;
 }
 
 + (void)leSinkNode _doStartRecordingAtTime:withSettings:sensorVideoPort:captureDeviceType:] /* Error: Ran out of types for this method. */;
@@ -50,16 +44,10 @@
 - (_Bool)ÿ½ÿÅÿÎ;
 - (int)ple.coremedia.previewsink.pocketdetection;
 - (void)x:(_Bool)arg1 %u, owner:%@) /* Error: Ran out of types for this method. */;
-- (void)ageClientsData;
+- (void)RestoreForceEnableCenterStageClientsData;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

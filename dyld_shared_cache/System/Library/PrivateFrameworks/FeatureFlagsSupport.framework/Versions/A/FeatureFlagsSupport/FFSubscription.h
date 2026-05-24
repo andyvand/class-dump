@@ -8,12 +8,12 @@
 {
 }
 
-+ (id);
-+ (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
++ (id)th predicate %@:(id)arg1 %@;
++ (id)ing face groups:(id)arg1 %@;
+- (id)nce;
+- (_Bool)%d;
+- (_Bool)led to open decompression container for gain map:(id)arg1 %@, status code:(id)arg2 %d;
+- (id)sync decode of gain map:%@, status code:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

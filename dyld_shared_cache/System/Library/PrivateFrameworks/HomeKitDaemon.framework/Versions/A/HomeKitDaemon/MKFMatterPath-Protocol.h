@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFMatterPathDatabaseID, NSArray, NSDate, NSNumber;
-@protocol MKFHAPAccessory, MKFHome;
+@class NSNumber, NSUUID;
+@protocol MKFHAPAccessory, MKFHome, MKFMatterBulletinRegistration;
 
 @protocol MKFMatterPath
+- (id <MKFMatterBulletinRegistration>)@0:(NSUUID *)arg1 8@"NSCoder"16;
+- (id <MKFHAPAccessory>)stripForSendingUpdatedTraffic;
+- (void)d of stored sessions;
+- (NSNumber *);
 - (id <MKFHome>);
-- (NSNumber *)rtcutAction;
+- (NSNumber *)HMDShortcutAction;
 - (NSNumber *)tification registration changes requested, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFHAPAccessory> accessory;
-@property(readonly, retain, nonatomic) NSArray *actionCommands;
 @property(copy, nonatomic) NSNumber *attributeID;
-@property(copy, nonatomic) NSNumber *clusterID;
-@property(copy, nonatomic) NSNumber *commandID;
-@property(readonly, copy, nonatomic) MKFMatterPathDatabaseID *databaseID;
-@property(copy, nonatomic) NSNumber *endpointID;
-@property(readonly, retain, nonatomic) NSArray *eventAttributes;
-@property(copy, nonatomic) NSNumber *eventID;
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) NSArray *matterBulletinRegistrations;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

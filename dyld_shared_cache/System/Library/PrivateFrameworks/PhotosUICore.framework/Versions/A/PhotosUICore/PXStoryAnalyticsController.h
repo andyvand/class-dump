@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, PXStoryModel, PXStoryViewModel;
+@class NSString;
 
 @interface PXStoryAnalyticsController
 {
     long long _currentViewModeSignpostID;
-    _Bool _isSessionActive;
-    _Bool _didPlayStory;
-    _Bool _didUserChangePlaybackTime;
-    PXStoryViewModel *_viewModel;
-    NSString *_sessionIdentifier;
-    PXStoryModel *_currentModel;
-    long long _currentViewMode;
-    long long _bufferingEventsCount;
-    NSNumber *_initialBufferingDuration;
 }
 
 + (id);
@@ -39,11 +30,11 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (long long);
@@ -53,32 +44,15 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)nySectionIndexPath;
-- (void)ntifier:(_Bool)arg1;
+- (_Bool)anySectionIndexPath;
+- (void)_lock_updateStatusForLoadingState:(_Bool)arg1 error:clipIdentifier: /* Error: Ran out of types for this method. */;
 - (void)configuration?capturemode=photo&capturedevice=back;
 - (void);
 - (id)lCÿÕ¿hCÿÕ¿(}ÿ;
 - (id)@];;
 
 // Remaining properties
-@property(nonatomic) long long bufferingEventsCount; // @synthesize bufferingEventsCount=_bufferingEventsCount;
-@property(readonly, nonatomic) NSDictionary *commonSpinnerRelatedPayload;
-@property(retain, nonatomic) PXStoryModel *currentModel; // @synthesize currentModel=_currentModel;
-@property(nonatomic) long long currentViewMode; // @synthesize currentViewMode=_currentViewMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSDictionary *defaultPayload;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didPlayStory; // @synthesize didPlayStory=_didPlayStory;
-@property(nonatomic) _Bool didUserChangePlaybackTime; // @synthesize didUserChangePlaybackTime=_didUserChangePlaybackTime;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *initialBufferingDuration; // @synthesize initialBufferingDuration=_initialBufferingDuration;
-@property(nonatomic) _Bool isSessionActive; // @synthesize isSessionActive=_isSessionActive;
 @property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

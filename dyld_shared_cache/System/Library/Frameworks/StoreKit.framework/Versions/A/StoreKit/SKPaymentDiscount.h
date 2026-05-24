@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface SKPaymentDiscount
 {
@@ -14,17 +14,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)el;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *keyIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *nonce;
-@property(readonly, copy, nonatomic) NSString *signature;
-@property(readonly, copy, nonatomic) NSNumber *timestamp;
 
 @end
 

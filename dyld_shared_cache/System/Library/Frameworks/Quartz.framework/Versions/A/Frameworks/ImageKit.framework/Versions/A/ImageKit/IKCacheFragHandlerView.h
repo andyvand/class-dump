@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheFragHandler, NSTimer;
+@class IKCacheFragHandler;
 
 @interface IKCacheFragHandlerView
 {
     IKCacheFragHandler *_cacheFragHandler;
-    NSTimer *_timer;
-    unsigned int _rowLength;
-    unsigned int _rowHeight;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (void);
@@ -24,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ggestions query:(struct CGRect)arg1 %@, suggestions will not be generated;
 - (void);
 
 @end

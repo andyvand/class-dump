@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) IXPromisedInMemoryDictionarySeed *seed; // @dynamic seed;

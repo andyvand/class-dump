@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORoutingSettingsCyclingPrefs, GEORoutingSettingsDrivingPrefs, GEORoutingSettingsVirtualGarageSetttings, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateRoutingSettings
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORoutingSettingsCyclingPrefs *_cyclingPrefs;
-    GEORoutingSettingsDrivingPrefs *_drivingPrefs;
-    GEORoutingSettingsVirtualGarageSetttings *_virtualGarageSettings;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_cyclingPrefs:1;
-        unsigned int read_drivingPrefs:1;
-        unsigned int read_virtualGarageSettings:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sSupportsDisablingProgressBarFromBannerButtons:(id)arg1;
++ (_Bool)setHasSupportsDisablingProgressBarFromBannerButtons:(id)arg1;
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (id)ts;
 - (void);
 - (id);
 - (unsigned long long);
@@ -46,7 +32,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id):(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
+- (id)ticketForCategoryIdentifier:(struct _NSZone *)arg1 mapItemIdentifier:range:traits: /* Error: Ran out of types for this method. */;
 - (id)1b1b1}},R,N;
 - (_Bool)hÀ³ò
 ;
@@ -56,13 +42,7 @@
 - (_Bool)h'qÿÐ59&¯6;
 
 // Remaining properties
-@property(retain, nonatomic) GEORoutingSettingsCyclingPrefs *cyclingPrefs;
-@property(retain, nonatomic) GEORoutingSettingsDrivingPrefs *drivingPrefs;
-@property(readonly, nonatomic) _Bool hasCyclingPrefs;
-@property(readonly, nonatomic) _Bool hasDrivingPrefs;
 @property(readonly, nonatomic) _Bool hasVirtualGarageSettings;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEORoutingSettingsVirtualGarageSetttings *virtualGarageSettings;
 
 @end
 

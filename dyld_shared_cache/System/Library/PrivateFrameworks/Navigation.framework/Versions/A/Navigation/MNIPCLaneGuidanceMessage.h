@@ -6,37 +6,29 @@
 
 #import <Navigation/MNIPCMessage.h>
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface MNIPCLaneGuidanceMessage : MNIPCMessage
 {
     _Bool _isForManeuver;
-    NSUUID *_laneInfoId;
-    NSArray *_lanes;
-    NSArray *_textAlternatives;
-    NSArray *_midStepTitles;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)veFormStyleKey;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)aletteKey;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)instead of the real clientID (%{public}@);
 - (void)Service"16@"MNGuidanceJunctionViewInfo"24;
-- (id)onsResponseCSgz_Xx;
+- (id)So21GEODirectionsResponseCSgz_Xx;
 
 // Remaining properties
-@property(nonatomic) _Bool isForManeuver; // @synthesize isForManeuver=_isForManeuver;
 @property(copy, nonatomic) NSUUID *laneInfoId; // @synthesize laneInfoId=_laneInfoId;
-@property(copy, nonatomic) NSArray *lanes; // @synthesize lanes=_lanes;
-@property(copy, nonatomic) NSArray *midStepTitles; // @synthesize midStepTitles=_midStepTitles;
-@property(copy, nonatomic) NSArray *textAlternatives; // @synthesize textAlternatives=_textAlternatives;
 
 @end
 

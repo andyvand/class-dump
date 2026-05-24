@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScreen, NSString, NSViewAnimation, SOElementNumbersCyclingView, SO_AXElementNamesCyclingView;
+@class NSScreen, SO_AXElementNamesCyclingView;
 
 __attribute__((visibility("hidden")))
 @interface SOOverlayWindowController
 {
     NSScreen *_screen;
-    double _fadeOpacity;
-    unsigned long long _currentFadeTransactionID;
-    unsigned long long _scheduledFadeFire;
-    NSViewAnimation *_fadeAnimation;
 }
 
 + (double);
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
++ (id);
++ (id)ailed:%@ for segment:%@ frame:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -29,33 +25,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)leView:writeRowsWithIndexes:toPasteboard: /* Error: Ran out of types for this method. */;
+- (void)}};
+- (id)tableView:writeRowsWithIndexes:toPasteboard: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentFadeTransactionID; // @synthesize currentFadeTransactionID=_currentFadeTransactionID;
 @property(readonly) SO_AXElementNamesCyclingView *cyclingNamesView;
-@property(readonly) SOElementNumbersCyclingView *cyclingNumbersView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSViewAnimation *fadeAnimation; // @synthesize fadeAnimation=_fadeAnimation;
-@property(nonatomic) double fadeOpacity; // @synthesize fadeOpacity=_fadeOpacity;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long scheduledFadeFire; // @synthesize scheduledFadeFire=_scheduledFadeFire;
-@property(readonly) NSScreen *screen; // @synthesize screen=_screen;
-@property(readonly) Class superclass;
 
 @end
 

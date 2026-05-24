@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _ANEIOSurfaceObject;
+@class _ANEIOSurfaceObject;
 
 @interface _MLCANEIOSurface
 {
     _ANEIOSurfaceObject *_ioSurfaceObject;
-    NSDictionary *_liveIOStatus;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) _ANEIOSurfaceObject *ioSurfaceObject; // @synthesize ioSurfaceObject=_ioSurfaceObject;
-@property(readonly, retain, nonatomic) NSDictionary *liveIOStatus; // @synthesize liveIOStatus=_liveIOStatus;
 
 @end
 

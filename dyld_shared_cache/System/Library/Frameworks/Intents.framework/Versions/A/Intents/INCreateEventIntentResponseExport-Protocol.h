@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCalendarEvent, NSArray;
+@class NSArray;
 
 @protocol INCreateEventIntentResponseExport
-- (long long)on: /* Error: Ran out of types for this method. */;
+- (NSArray *)=;
+- (long long)handleOpenFile:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long confirmationReason;
-@property(copy) NSArray *conflictingEventIdentifiers;
-@property(copy) INCalendarEvent *createdEvent;
 @end
 

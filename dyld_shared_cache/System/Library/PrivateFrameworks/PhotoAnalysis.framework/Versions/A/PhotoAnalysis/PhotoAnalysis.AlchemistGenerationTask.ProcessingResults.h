@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.AlchemistGenerationTask.ProcessingResults
 {
     id processedAssets;
-    id unprocessedAssets;
 }
 
 @end

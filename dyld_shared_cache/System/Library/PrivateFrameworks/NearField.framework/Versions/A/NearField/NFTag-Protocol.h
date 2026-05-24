@@ -8,19 +8,34 @@
 @protocol NFTagA, NFTagB, NFTagF;
 
 @protocol NFTag
+- (id <NFTagF>)_associatedMessageType;
+- (id <NFTagB>);
+- (id <NFTagA>)_associatedMessageGUID;
+- (unsigned int)SDySOSSG;
+- (unsigned long long)r ;
+- (NSData *)UPDATE index_state_metrics SET
+        pending_count = pending_count - CASE WHEN OLD.index_state = 0 THEN 1 ELSE 0 END,
+        donated_count = donated_count - CASE WHEN OLD.index_state = 1 THEN 1 ELSE 0 END,
+        redonation_count = redonation_count - CASE WHEN OLD.index_state = 3 THEN 1 ELSE 0 END
+    WHERE id = 1;
+END;;
+- (_Bool)ssage_join
+BEGIN
+    UPDATE index_state_metrics SET
+        pending_count = pending_count +
+            COALESCE(CASE WHEN NEW.index_state = 0 THEN 1 ELSE 0 END, 0) -
+            COALESCE(CASE WHEN OLD.index_state = 0 THEN 1 ELSE 0 END, 0),
+        donated_count = donated_count +
+            COALESCE(CASE WHEN NEW.index_state = 1 THEN 1 ELSE 0 END, 0) -
+            COALESCE(CASE WHEN OLD.index_state = 1 THEN 1 ELSE 0 END, 0),
+        redonation_count = redonation_count +
+            COALESCE(CASE WHEN NEW.index_state = 3 THEN 1 ELSE 0 END, 0) -
+            COALESCE(CASE WHEN OLD.index_state = 3 THEN 1 ELSE 0 END, 0)
+    WHERE id = 1;
+END;;
 - (NSData *)lock_invoke;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *AppData;
-@property(readonly, copy, nonatomic) NSData *UID;
-@property(readonly, nonatomic) unsigned int ndefAvailability;
-@property(readonly, nonatomic) unsigned long long ndefContainerSize;
-@property(readonly, nonatomic) unsigned long long ndefMessageSize;
-@property(readonly, nonatomic) id <NFTagA> tagA;
-@property(readonly, nonatomic) id <NFTagB> tagB;
-@property(readonly, nonatomic) id <NFTagF> tagF;
-@property(readonly, copy, nonatomic) NSData *tagID;
-@property(readonly, nonatomic) unsigned int technology;
 @property(readonly, nonatomic) unsigned int type;
 @end
 

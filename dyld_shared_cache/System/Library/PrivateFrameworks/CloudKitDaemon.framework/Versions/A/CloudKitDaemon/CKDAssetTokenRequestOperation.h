@@ -13,10 +13,10 @@
     CKDAssetTokenRequest *_assetTokenRequest;
 }
 
-- (void);
-- (int);
+- (void)a@9;
+- (int);
 - (id);
-- (void)ChangeToken;
+- (void)previousServerChangeToken;
 - (void)metadata for %@:%@ /* Error: Ran out of types for this method. */;
 - (id)0;
 

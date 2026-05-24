@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKAuxiliaryCapabilityWebServiceRequest.h>
 
-@class NSArray, NSData, NSDictionary, NSString, PKSecureElementSignatureInfo;
+@class NSArray;
 
 @interface PKAuxiliaryCapabilityRegisterRequest : PKAuxiliaryCapabilityWebServiceRequest
 {
     NSArray *_dpanIdentifiers;
-    NSString *_externalSupplementalPrivateDataString;
-    NSArray *_validCertificatesOnDevice;
-    NSDictionary *_deviceOwnedKeyMaterials;
-    NSData *_signatureData;
-    PKSecureElementSignatureInfo *_signatureInfo;
 }
 
 - (id);
@@ -26,9 +21,9 @@
 - (void);
 - (void);
 - (void);
+- (id)m#;
 - (id);
-- (id);
-- (id);
+- (id)+);
 - (id);
 - (id);
 - (id);
@@ -36,12 +31,7 @@
 - (void)m.apple.nanopassd.listener.resumed;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *deviceOwnedKeyMaterials; // @synthesize deviceOwnedKeyMaterials=_deviceOwnedKeyMaterials;
 @property(copy, nonatomic) NSArray *dpanIdentifiers; // @synthesize dpanIdentifiers=_dpanIdentifiers;
-@property(copy, nonatomic) NSString *externalSupplementalPrivateDataString; // @synthesize externalSupplementalPrivateDataString=_externalSupplementalPrivateDataString;
-@property(copy, nonatomic) NSData *signatureData; // @synthesize signatureData=_signatureData;
-@property(retain, nonatomic) PKSecureElementSignatureInfo *signatureInfo; // @synthesize signatureInfo=_signatureInfo;
-@property(copy, nonatomic) NSArray *validCertificatesOnDevice; // @synthesize validCertificatesOnDevice=_validCertificatesOnDevice;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMDHomeActivityStateHomePresenceReceiverDelegate
+- (void)_updatedObjects;
 @end
 

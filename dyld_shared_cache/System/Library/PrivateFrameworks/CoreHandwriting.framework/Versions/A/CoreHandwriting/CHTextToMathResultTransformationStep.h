@@ -6,13 +6,9 @@
 
 #import <CoreHandwriting/CHGroupingPostprocessingStep.h>
 
-@class NSDictionary, NSSet;
-
 @interface CHTextToMathResultTransformationStep : CHGroupingPostprocessingStep
 {
     CDUnknownBlockType _additionalRecognitionBlock;
-    NSSet *_numericalSymbols;
-    NSDictionary *_textToMathTransliterations;
 }
 
 - (id);

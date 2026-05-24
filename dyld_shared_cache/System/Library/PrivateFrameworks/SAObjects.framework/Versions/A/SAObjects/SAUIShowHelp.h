@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *speakableText;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

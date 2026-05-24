@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSString *_referrerIdentifier;
 }
 
-- (id);
-- (id);
+- (id)r:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)for auto asset selector:(id)arg1 %@;
 - (void);
-- (id);
+- (id)ryAssetsCout=%lu;
 - (void)ization"8@"NSError"16;
 
 // Remaining properties

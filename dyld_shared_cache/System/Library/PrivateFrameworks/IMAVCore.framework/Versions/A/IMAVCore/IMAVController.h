@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-@protocol IMAVControllerDelegate;
+@class NSMutableArray;
 
 @interface IMAVController
 {
     _Bool _blockMultipleIncomingInvitations;
-    _Bool _blockOutgoingInvitationsDuringCall;
-    _Bool _blockIncomingInvitationsDuringCall;
-    NSMutableArray *_delegates;
 }
 
 + (id);
@@ -20,11 +16,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool)powerMeter;
+- (void)getStringForKey:(_Bool)arg1 category:default: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)@"NSURL"16@"NSString"24@?<v@?@"NSURL"@"NSURL">32;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -33,26 +29,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)response items not found;
 - (id);
 - (void);
-- (id);
-- (unsigned int);
+- (id)e = %@>;
+- (unsigned int)08-0000-1000-8000-0026BB765291;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Pipeline/NURenderSourceNode+Video.m;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -63,19 +59,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_delegates; // @synthesize _delegates;
-@property(readonly, nonatomic) _Bool _ready;
-@property(nonatomic) _Bool blockIncomingInvitationsDuringCall; // @synthesize blockIncomingInvitationsDuringCall=_blockIncomingInvitationsDuringCall;
-@property(nonatomic) _Bool blockMultipleIncomingInvitations; // @synthesize blockMultipleIncomingInvitations=_blockMultipleIncomingInvitations;
-@property(nonatomic) _Bool blockOutgoingInvitationsDuringCall; // @synthesize blockOutgoingInvitationsDuringCall=_blockOutgoingInvitationsDuringCall;
-@property(readonly, nonatomic) _Bool cameraCapable;
-@property(readonly, nonatomic) _Bool cameraConnected;
-@property(nonatomic) id <IMAVControllerDelegate> delegate;
-@property(readonly, nonatomic) NSArray *delegates;
-@property(readonly, nonatomic) _Bool hasActiveConference;
-@property(readonly, nonatomic) _Bool hasRunningConference;
-@property(readonly, nonatomic) _Bool microphoneCapable;
-@property(readonly, nonatomic) _Bool microphoneConnected;
-@property(readonly, nonatomic) unsigned int overallChatState;
 
 @end
 

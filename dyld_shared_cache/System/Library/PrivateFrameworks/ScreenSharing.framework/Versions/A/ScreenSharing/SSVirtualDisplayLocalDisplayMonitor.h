@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, NSWindow;
-@protocol SSDisplayDetailsPrimitives;
-
 __attribute__((visibility("hidden")))
 @interface SSVirtualDisplayLocalDisplayMonitor
 {
     _Bool _supportsHDRVideoReferencePreset;
-    _Bool _isHDRVideoReferencePresetSelected;
-    NSError *_hdrUnavailableError;
-    NSObject<SSDisplayDetailsPrimitives> *_primitives;
-    NSWindow *_monitoredWindow;
 }
 
 - (void);
@@ -31,21 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)nField"16@24;
-- (void)nSheet;
+- (void)runUserClosedConnectionSheet;
 - (void)%d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSError *hdrUnavailableError; // @synthesize hdrUnavailableError=_hdrUnavailableError;
-@property(nonatomic) _Bool isHDRVideoReferencePresetSelected; // @synthesize isHDRVideoReferencePresetSelected=_isHDRVideoReferencePresetSelected;
-@property(readonly, nonatomic) NSWindow *monitoredWindow; // @synthesize monitoredWindow=_monitoredWindow;
-@property(readonly, nonatomic) NSObject<SSDisplayDetailsPrimitives> *primitives; // @synthesize primitives=_primitives;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool supportsHDRVideoReferencePreset; // @synthesize supportsHDRVideoReferencePreset=_supportsHDRVideoReferencePreset;
 
 @end

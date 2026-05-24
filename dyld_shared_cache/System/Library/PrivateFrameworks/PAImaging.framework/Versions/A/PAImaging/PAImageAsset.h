@@ -4,44 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, PAImageAssetType, PAImageType, PHAsset;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PAImageAsset
 {
     NSObject<OS_dispatch_queue> *_propertyQueue;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    CDStruct_d459ca48 _geometry;
-    long long _geometryStatus;
-    PHAsset *_asset;
-    PAImageAssetType *_assetType;
-    CDUnknownBlockType _compositionReplacedFilter;
-    NSArray *_assetClients;
 }
 
 + (id);
-- (CDStruct_19170857);
+- (CDStruct_912cb5d2);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (CDStruct_d459ca48);
+- (CDStruct_9acccc45);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool)8Ԡ;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (CDStruct_d459ca48);
+- (CDStruct_9acccc45);
 - (void);
 - (void);
 - (void);
@@ -53,18 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) PHAsset *asset; // @synthesize asset=_asset;
-@property(retain) NSArray *assetClients; // @synthesize assetClients=_assetClients;
-@property(readonly, nonatomic) PAImageAssetType *assetType; // @synthesize assetType=_assetType;
-@property(copy) CDUnknownBlockType compositionReplacedFilter; // @synthesize compositionReplacedFilter=_compositionReplacedFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PAImageType *imageType;
-@property(readonly) Class superclass;
 
 @end
 

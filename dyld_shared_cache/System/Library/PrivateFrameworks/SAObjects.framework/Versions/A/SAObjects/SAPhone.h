@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SAPhone : AceObject
 {
@@ -15,9 +15,9 @@
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -25,24 +25,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSNumber *favoriteFacetime;
-@property(copy, nonatomic) NSNumber *favoriteFacetimeAudio;
-@property(copy, nonatomic) NSNumber *favoriteVoice;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSString *number;
-@property(copy, nonatomic) NSNumber *pseudo;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,36 +6,19 @@
 
 #import <UIKitCore/_UIButtonBarLayout.h>
 
-@class NSMapTable, NSMutableArray, UIBarButtonItemGroup, UILayoutGuide, _UIButtonBarSpacerLayout;
+@class NSMapTable, UIBarButtonItemGroup;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarItemGroupLayout : _UIButtonBarLayout
 {
     NSMapTable *_itemLayoutMap;
-    NSMutableArray *_itemLayouts;
-    NSMutableArray *_configuredItemLayouts;
-    _UIButtonBarLayout *_representativeLayout;
-    _UIButtonBarSpacerLayout *_leadingSpacerLayout;
-    _Bool _critical;
-    _Bool _fixed;
-    _Bool _compact;
-    _Bool _spilled;
-    _Bool _useGroupSizing;
-    _Bool _suppressSpacing;
-    _Bool _suppressCustomSpacing;
-    UIBarButtonItemGroup *_group;
-    UILayoutGuide *_groupSizeGuide;
-    long long _leadingSpacerType;
-    CDUnknownBlockType _itemViewGenerator;
-    double _compactWidth;
-    double _expandedWidth;
 }
 
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)1_lib.c;
+- (void)te;
 - (id);
-- (id);
+- (id)URLSession:task:_willSendRequestForEstablishedConnection:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (id);
@@ -46,29 +29,29 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)!;
 - (id)rectDrivingDelegate>"16;
-- (void)bviews;
-- (void)d:(CDUnknownBlockType)arg1 viewType:indexPath: /* Error: Ran out of types for this method. */;
+- (void)autoresizesSubviews;
+- (void)_reusePreviouslyFocusedTableViewSubviewIfNeeded:(CDUnknownBlockType)arg1 viewType:indexPath: /* Error: Ran out of types for this method. */;
 - (_Bool)_numberOfSectionsWithTransformVisibleItemsHandler;
 - (_Bool)ontentSizeWhenBottomAttached: /* Error: Ran out of types for this method. */;
 - (id)ion;
-- (_Bool)indows;
+- (_Bool)_preserveResponderAcrossWindows;
 - (void)Delegate>",W,N,V_delegate;
-- (double)andidateAction;
-- (void)Scene;
+- (double)_UITextInputSessionReplaceWithCandidateAction;
+- (void)_UIPlaceholderWindowScene;
 - (_Bool);
 - (_Bool)ü;
 - (void)Kit internal bug:(id)arg1 table view prefetch context updated with an out-of-bounds visible range; the _maxIndex is probably stale;
 - (_Bool)rdText:called with nil text /* Error: Ran out of types for this method. */;
 - (void)%ld
 ;
-- (id)wareShortcutsAutomatic;
+- (id)EnableLayoutAwareShortcutsAutomatic;
 - (_Bool)ngPathLargestInscribedRectWithAspectRatioAndCenter(const CGFloat, const CGRect, const CGPoint);
 - (CDUnknownBlockType).;
-- (id)ticSharpnessControl;
-- (void)PointerInteractionEnabled;
+- (id)CHHapticDynamicParameterIDHapticSharpnessControl;
+- (void)UIPointerInteractionEnabled;
 - (void)*_UICollectionLayoutCompositionalSolverRebasedPreferredSizesForSolutions(NSArray<_UICollectionCompositionalSolverPreferredSizesRebaseInfo *> *const __strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_4;
-- (void)navailableConfigurationStateC;
-- (id)_UITransitionOverlayViewCSgXw;
+- (void)So38UIContentUnavailableConfigurationStateC;
+- (id)So24_UITransitionOverlayViewCSgXw;
 - (void);
 - (long long)3¸tþµ¦43´tþµ¦43¤tþý¦43ôtþ5§43¼tþ§43ìtþ;
 - (void)ÜÝ3ÿþØpX^;
@@ -78,19 +61,7 @@ __attribute__((visibility("hidden")))
 - (void)´±þþ;
 
 // Remaining properties
-@property(nonatomic) _Bool compact; // @synthesize compact=_compact;
-@property(readonly, nonatomic) double compactWidth; // @synthesize compactWidth=_compactWidth;
-@property(nonatomic) _Bool critical; // @synthesize critical=_critical;
-@property(readonly, nonatomic) double expandedWidth; // @synthesize expandedWidth=_expandedWidth;
-@property(nonatomic) _Bool fixed; // @synthesize fixed=_fixed;
 @property(readonly, nonatomic) UIBarButtonItemGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) UILayoutGuide *groupSizeGuide; // @synthesize groupSizeGuide=_groupSizeGuide;
-@property(copy, nonatomic) CDUnknownBlockType itemViewGenerator; // @synthesize itemViewGenerator=_itemViewGenerator;
-@property(nonatomic) long long leadingSpacerType; // @synthesize leadingSpacerType=_leadingSpacerType;
-@property(nonatomic) _Bool spilled; // @synthesize spilled=_spilled;
-@property(nonatomic) _Bool suppressCustomSpacing; // @synthesize suppressCustomSpacing=_suppressCustomSpacing;
-@property(nonatomic) _Bool suppressSpacing; // @synthesize suppressSpacing=_suppressSpacing;
-@property(nonatomic) _Bool useGroupSizing; // @synthesize useGroupSizing=_useGroupSizing;
 
 @end
 

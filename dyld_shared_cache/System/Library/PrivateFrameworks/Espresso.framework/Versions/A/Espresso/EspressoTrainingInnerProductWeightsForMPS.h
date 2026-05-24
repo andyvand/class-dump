@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface EspressoTrainingInnerProductWeightsForMPS : EspressoInnerProductWeightsForMPS
 {
     id <MTLBuffer> _weightsBuffer;
-    id <MTLBuffer> _biasesBuffer;
 }
 
 - (float *);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)eam_operation_get_input_namesE3$_0F17e5rt_error_code_tvEEE;
 
 // Remaining properties
-@property(retain) id <MTLBuffer> biasesBuffer; // @synthesize biasesBuffer=_biasesBuffer;
 @property(retain) id <MTLBuffer> weightsBuffer; // @synthesize weightsBuffer=_weightsBuffer;
 
 @end

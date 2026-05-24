@@ -13,8 +13,8 @@
     IMMapURLLocationInfo *_locationInfo;
 }
 
-- (id);
-- (void)anager:(id)arg1 activeRemoteParticipantsChangedForConversation: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)conversationManager:(id)arg1 activeRemoteParticipantsChangedForConversation: /* Error: Ran out of types for this method. */;
 - (void)°èh¨ìÜ;
 
 // Remaining properties

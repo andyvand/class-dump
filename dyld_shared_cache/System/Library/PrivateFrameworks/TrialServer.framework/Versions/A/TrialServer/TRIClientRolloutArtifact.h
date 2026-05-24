@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, TRIClientRollout, TRIRolloutDeployment;
+@class TRIRolloutDeployment;
 
 @interface TRIClientRolloutArtifact
 {
     _Bool _forLaunchDaemon;
-    TRIClientRollout *_rollout;
-    NSArray *_populations;
-    NSDate *_deploymentDate;
-    unsigned long long _downloadSize;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)C;
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (id)build manifest is empty;
+- (id)w;
+- (id)@;
 - (id);
 - (id);
 - (_Bool);
@@ -43,21 +39,15 @@
 - (id);
 - (id);
 - (id);
+- (id)setSemantic:(unsigned long long)arg1;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long)g_rule_index,     :targeted_fp_set_id,     :targeted_targeting_rule_index,     :artifact ); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) TRIRolloutDeployment *deployment;
-@property(readonly, nonatomic) NSDate *deploymentDate; // @synthesize deploymentDate=_deploymentDate;
-@property(readonly, nonatomic) unsigned long long downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(readonly, nonatomic) _Bool forLaunchDaemon; // @synthesize forLaunchDaemon=_forLaunchDaemon;
-@property(readonly, nonatomic) NSArray *namespaceNames;
-@property(readonly, nonatomic) NSArray *populations; // @synthesize populations=_populations;
-@property(readonly, nonatomic) TRIClientRollout *rollout; // @synthesize rollout=_rollout;
 
 @end
 

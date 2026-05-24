@@ -7,7 +7,6 @@
 @interface NewsFeed.IssueService
 {
     id issuesFetchOperationFactory;
-    id issueReadingHistory;
 }
 
 @end

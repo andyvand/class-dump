@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSData *_dataBytes;
 }
 
-- (void);
+- (void);
 - (id);
 - (int)A¨-°! FùQ1Ð1Â0@ù
 × ;
-- (id)ondaryLabel;
-- (id)t;
+- (id)SecondaryLabel;
+- (id)kCUIRenditionTypeMultisizeImageSet;
 
 @end
 

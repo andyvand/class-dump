@@ -6,35 +6,30 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPiCloudFamilyInvitationMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_action;
-    NSString *_kind;
-    LPImage *_image;
-    LPImage *_icon;
 }
 
-+ (id);
++ (id)startCommunicationForViewModel:action:address: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)transcriptBackground:(id)arg1 enumerateVisbleBalloonChatItemGUIDsInReverse:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)transcriptBackground:(id)arg1 enumerateVisbleBalloonChatItemGUIDsInReverse:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)transcriptBackground;
+- (void)transcriptAvailabilityDeemphasizedColor;
+- (_Bool)textFieldDidEndEditing:(id)arg1 reason: /* Error: Ran out of types for this method. */;
+- (void)supportsSkinToneVariants;
+- (void);
 - (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (id);
 - (void);
@@ -47,19 +42,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

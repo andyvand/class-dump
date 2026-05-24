@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString;
+@class NSDate, NSString;
 
 @protocol APMetricProtocol
+- (long long)shadowNotificationHeadlineScoringOutputName;
+- (NSDate *)TSCHChartInfoBarDEPRECATED3DShadowProperty;
 - (void)ôþÿþÿ4þÿXþÿ|þÿ þÿ¸þÿÜþÿ;
 - (NSString *);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *branch;
-@property(readonly, nonatomic) NSString *bundleIdentifier;
-@property(readonly, nonatomic) NSString *contentIdentifier;
-@property(readonly, nonatomic) NSString *contextIdentifier;
-@property(retain, nonatomic) NSArray *environment;
-@property(retain, nonatomic) NSString *handle;
-@property(readonly, nonatomic) NSDictionary *internalProperties;
-@property(readonly, nonatomic) long long metric;
-@property(readonly, nonatomic) long long options;
-@property(readonly, nonatomic) long long order;
-@property(readonly, nonatomic) NSDictionary *properties;
 @property(readonly, nonatomic) long long purpose;
-@property(readonly, nonatomic) NSDictionary *relayData;
-@property(readonly, nonatomic) NSString *secondaryHandle;
-@property(nonatomic) unsigned int source;
-@property(readonly, nonatomic) NSDate *timestamp;
-@property(retain, nonatomic) NSString *trace;
 @end
 

@@ -5,6 +5,16 @@
 //
 
 @protocol MNGuidanceManagerDelegate
+- (_Bool);
+- (void);;
+- (void)PlatformItemListFlagsInput;
+- (void)TextPlatformItemListFlags;
+- (void)PlatformItemListFlags;
+- (void)ControlWidgetConfigurationModifier_Content;
+- (void)PrimitiveControlWidgetConfigurationModifier;
+- (void)ControlWidgetConfigurationModifier;
+- (void);
+- (void)AccessibilityPlatformViewModifier;
 
 // Remaining properties
 @property(readonly, nonatomic) int navigationState;

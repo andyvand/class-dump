@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface _EARSpeechModelInfo
 {
@@ -15,22 +15,16 @@
 - (id);
 - (id);
 - (id);
+- (id)ndation;
+- (id)ork;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void)°;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *acousticModelVersion;
-@property(readonly, nonatomic) NSString *acousticProfileVersion;
-@property(readonly, nonatomic) NSString *language;
-@property(readonly, nonatomic) NSString *phoneSetVersion;
-@property(readonly, nonatomic) NSSet *samplingRates;
-@property(readonly, nonatomic) NSSet *tasks;
 @property(readonly, nonatomic) NSString *version;
 
 @end

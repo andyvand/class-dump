@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNObservable, NSArray, NSString, NSURL;
-@protocol CNAccountDescription;
+@class NSArray;
 
 @interface CNOnDiskAccountCollection
 {
     NSArray *_allAccounts;
-    NSURL *_baseURL;
-    _Bool _includeLocalAccount;
-    NSString *_tag;
 }
 
 - (void);
@@ -37,21 +33,6 @@
 
 // Remaining properties
 @property(copy) NSArray *allAccounts; // @synthesize allAccounts=_allAccounts;
-@property(copy) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) id <CNAccountDescription> defaultAccount;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly) CNObservable *enabledAccountsObservable;
-@property(readonly) CNObservable *enabledPersistentAccountsObservable;
-@property(readonly) unsigned long long hash;
-@property _Bool includeLocalAccount; // @synthesize includeLocalAccount=_includeLocalAccount;
-@property(readonly, copy) NSArray *persistentEnabledAccounts;
-@property(readonly) Class superclass;
-@property(copy) NSString *tag; // @synthesize tag=_tag;
 
 @end
 

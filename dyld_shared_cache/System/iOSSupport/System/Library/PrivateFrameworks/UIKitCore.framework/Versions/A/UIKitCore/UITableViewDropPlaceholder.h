@@ -11,8 +11,8 @@
     CDUnknownBlockType _previewParametersProvider;
 }
 
-- (void);
-- (CDUnknownBlockType);
+- (void)UTITypeOfPath:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType);
 - (void)Ê/;
 
 // Remaining properties

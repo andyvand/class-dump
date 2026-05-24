@@ -7,10 +7,10 @@
 @class NSDate;
 
 @protocol FCPrivateDataSyncManager
+- (void);
 - (NSDate *)se the user isn't authorized.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *lastCleanDate;
-@property(readonly, nonatomic) NSDate *lastDirtyDate;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol GCMotionXPCProxyRemoteServerEndpointInterface
+- (void)$;
 @end
 

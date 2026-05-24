@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUINamedVectorGlyph, UIImageSymbolConfiguration, UITraitCollection;
-@protocol _UIImageContentLayoutSource, _UIImageContentRenderEnvironment;
+@class UIImageSymbolConfiguration;
+@protocol _UIImageContentRenderEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageContentRenditionContext
 {
     UIImageSymbolConfiguration *_symbolConfiguration;
-    id <_UIImageContentRenderEnvironment> _environment;
-    id <_UIImageContentLayoutSource> _source;
 }
 
 + (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)onlyImagesSupported;
+- (_Bool)failedGeneration;
+- (_Bool)completedRowIDs;
+- (_Bool)currentTask;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)D[;
 
 // Remaining properties
-@property(readonly, nonatomic) long long colorRenderingMode;
 @property(readonly, nonatomic) __weak id <_UIImageContentRenderEnvironment> environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) __weak id <_UIImageContentLayoutSource> source; // @synthesize source=_source;
-@property(readonly, nonatomic) UITraitCollection *traitCollectionForResolvingDynamicColors;
-@property(readonly, nonatomic) double variableValue;
-@property(readonly, nonatomic) long long variableValueMode;
-@property(readonly, nonatomic) CUINamedVectorGlyph *vectorGlyph;
 
 @end
 

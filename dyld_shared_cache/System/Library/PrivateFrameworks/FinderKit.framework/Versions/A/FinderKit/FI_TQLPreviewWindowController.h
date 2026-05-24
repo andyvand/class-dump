@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, QLPreviewPanel;
+@class NSObject;
 @protocol TQLPreviewWindowControllerProtocol;
 
 __attribute__((visibility("hidden")))
 @interface FI_TQLPreviewWindowController
 {
     struct TFENodeVector _nodes;
-    struct TNSWeakPtr<NSObject<TQLPreviewWindowControllerProtocol>> _weakActiveViewController;
-    unsigned int _avcRespondsToFlags;
-    QLPreviewPanel *_previewPanel;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct shared_ptr<TQLPreviewWindowQTEjectHelper> _ejectHelper;
-    _Bool _canZoom;
-    _Bool _positionNearPreviewItem;
-    struct TFENode _overrideNode;
-    struct unordered_map<TFENode, std::pair<TString, TString>, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, std::pair<TString, TString>>>> _nodeNames;
-    struct TNotificationCenterObserver _dateTimeFormattersChangedObserver;
-    struct TNotificationCenterObserver _previewPanelWillClosedObserver;
-    TNSWeakPtr_db0eab6c _tearDownToken;
 }
 
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id)nStackView;
++ (_Bool)qA;
++ (id)_toolbarButtonStackView;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (_Bool);
-- (struct TFENode);
+- (struct TFENode);
 - (void);
 - (void);
 - (void);
@@ -48,9 +36,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void), HashFunctions = WTF:(id)arg1:DefaultHash<WebCore::PartitionedSecurityOrigin>, Traits = WTF::HashMap<WebCore::PartitionedSecurityOrigin, WTF::HashMap<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<WebCore::BroadcastChannelIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::PartitionedSecurityOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (const void *);
 - (_Bool);
 - (_Bool);
@@ -61,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)h*;
 - (id);
 - (id);
 - (long long);
@@ -72,15 +60,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<TQLPreviewWindowControllerProtocol> *activeViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct TFENode overrideNode; // @synthesize overrideNode=_overrideNode;
-@property(nonatomic) _Bool positionNearPreviewItem; // @synthesize positionNearPreviewItem=_positionNearPreviewItem;
-@property(readonly) Class superclass;
 
 @end
 

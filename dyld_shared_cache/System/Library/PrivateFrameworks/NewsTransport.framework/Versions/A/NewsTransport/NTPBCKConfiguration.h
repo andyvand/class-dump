@@ -9,12 +9,6 @@
 @interface NTPBCKConfiguration
 {
     unsigned long long _created;
-    unsigned long long _expires;
-    NSMutableArray *_fields;
-    struct {
-        unsigned int created:1;
-        unsigned int expires:1;
-    } _has;
 }
 
 + (Class);
@@ -37,17 +31,13 @@
 - (void);
 - (id);
 - (void);
-- (void)nConfig;
-- (void)sedAtIndex: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ion_slot_cost_info;
+- (void)hasPersonalizedTodaySectionConfig;
+- (void)widgetSectionIdsExposedAtIndex: /* Error: Ran out of types for this method. */;
+- (unsigned long long)section_slot_cost_info;
 - (id)ÌCÞu;
 
 // Remaining properties
-@property(nonatomic) unsigned long long created; // @synthesize created=_created;
-@property(nonatomic) unsigned long long expires; // @synthesize expires=_expires;
 @property(retain, nonatomic) NSMutableArray *fields; // @synthesize fields=_fields;
-@property(nonatomic) _Bool hasCreated;
-@property(nonatomic) _Bool hasExpires;
 
 @end
 

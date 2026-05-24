@@ -7,13 +7,11 @@
 @interface NewsArticles.ANFDebugSettingsProvider
 {
     _Bool viewportDebuggingEnabled;
-    _Bool testingConditionEnabled;
-    id observers;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -21,7 +19,6 @@
 - (void)configurationManager;
 
 // Remaining properties
-@property(nonatomic) _Bool testingConditionEnabled; // @synthesize testingConditionEnabled;
 @property(nonatomic) _Bool viewportDebuggingEnabled; // @synthesize viewportDebuggingEnabled;
 
 @end

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (TSDAdditions)
-- (struct CGImage *);
+- (struct CGImage *);
 @end
 

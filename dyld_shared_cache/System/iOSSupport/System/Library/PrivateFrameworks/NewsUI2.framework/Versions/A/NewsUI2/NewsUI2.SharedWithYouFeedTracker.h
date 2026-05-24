@@ -7,10 +7,6 @@
 @interface NewsUI2.SharedWithYouFeedTracker
 {
     id tracker;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id articleDataFactory;
-    id contentAvailabilityValidator;
 }
 
 @end

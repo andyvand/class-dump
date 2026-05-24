@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSSQLitePrefetchRequestCache
 {
     NSSQLCore *_sqlCore;
-    unsigned long long _length;
-    id *_prefetchRequestsByEntity;
 }
 
 - (void);
 - (id);
+- (id)5;
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (void);
 
 @end

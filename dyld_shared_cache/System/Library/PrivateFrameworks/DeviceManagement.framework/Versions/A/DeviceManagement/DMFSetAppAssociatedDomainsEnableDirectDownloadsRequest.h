@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)collectionView:canDragItemsAtIndexPaths:withEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *associatedDomainsEnableDirectDownloads; // @synthesize associatedDomainsEnableDirectDownloads=_associatedDomainsEnableDirectDownloads;

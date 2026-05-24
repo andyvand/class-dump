@@ -5,16 +5,12 @@
 //
 
 @protocol SCNPlaneJSExport
+- (void);
 - (double)1Â0@ù
 × ;
-- (void)Offset;
+- (void)_exposureOffset;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) long long cornerSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 @end
 

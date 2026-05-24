@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServiceEnhancedLQMInterface
+- (void);
 @end
 

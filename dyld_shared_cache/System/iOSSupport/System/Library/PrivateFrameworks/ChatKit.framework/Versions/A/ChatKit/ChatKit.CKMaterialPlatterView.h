@@ -7,7 +7,6 @@
 @interface ChatKit.CKMaterialPlatterView
 {
     id materialConfiguration;
-    id layerState;
 }
 
 + (id);
@@ -15,8 +14,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)hj@9h;
+- (id)imationBehaviorDescribing>"32@0:(struct CGRect)arg1 8@"UIDropInteraction"16@"UIDragItem"24;
 - (void)ng *getkDataDetectorsReferenceDateKey(void);
 
 @end

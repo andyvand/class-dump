@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFRequestProductPageCommand : SFCommand
 {
@@ -14,9 +14,6 @@
         unsigned int itemIdentifier:1;
         unsigned int versionIdentifier:1;
     } _has;
-    NSString *_distributorBundleIdentifier;
-    unsigned long long _itemIdentifier;
-    unsigned long long _versionIdentifier;
 }
 
 + (_Bool);
@@ -25,36 +22,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)shouldUseRemoteVocalAttenuationModel;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)ialized;
+- (_Bool);
+- (void)k,V_forMusicPlayback;
 - (id);
+- (id)y;
+- (id)itial requests, potential request for nonexistent resource;
 - (id);
-- (id);
-- (id);
-- (void)eText;
+- (void)auxiliaryMiddleText;
 - (unsigned long long)Ëå;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *distributorBundleIdentifier; // @synthesize distributorBundleIdentifier=_distributorBundleIdentifier;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
 
 @end
 

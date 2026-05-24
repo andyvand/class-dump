@@ -9,12 +9,41 @@
     id _backingObject;
 }
 
-+ (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
++ (id)opix3 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix3.r, k.y);												
+    slum = mix(opix3.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix3.rgb = mix(pix.rgb, opix3.rgb, k.w);										
+    opix3.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	opix = (opix1 + opix2 + opix3) * 0.33333333;									
+	opix.a = pix.a;																	
+																					
+    return opix;																	
+}																					
+					 																
+kernel vec4 luminize (sampler src1, sampler src2, sampler src3)						
+	__attribute__ ((no_merge_sample))												
+{																					
+	vec4 pix, outv;																	
+	pix = unpremultiply(sample(src1, samplerCoord(src1)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.r   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src2, samplerCoord(src2)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.g   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src3, samplerCoord(src3)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
+- (void)DGUnavailableOperation;
+- (id)_Apps/lib/geode/Source/Adjustments/DGDescription+PAAutoEnhance.m;
+- (id)inputCenter;
+- (void)d autoSettings %@;
+- (id)xposureOperation _applyAutoSettings:(id)arg1 ];
 - (id);
 - (void);
 

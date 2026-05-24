@@ -9,22 +9,18 @@
 @interface StockGraphImageSet
 {
     UIImage *_lineGraphImage;
-    UIImage *_highlightOverlayImage;
-    UIImage *_volumeGraphImage;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)"{;
+- (void)|;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)_appName;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *highlightOverlayImage; // @synthesize highlightOverlayImage=_highlightOverlayImage;
 @property(retain, nonatomic) UIImage *lineGraphImage; // @synthesize lineGraphImage=_lineGraphImage;
-@property(retain, nonatomic) UIImage *volumeGraphImage; // @synthesize volumeGraphImage=_volumeGraphImage;
 
 @end
 

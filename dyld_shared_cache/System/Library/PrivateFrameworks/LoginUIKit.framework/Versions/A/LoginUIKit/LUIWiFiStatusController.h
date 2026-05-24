@@ -6,29 +6,26 @@
 
 #import <LoginUIKit/LUIController.h>
 
-@class CWInterface, CWWiFiClient, NSImageView;
+@class NSImageView;
 
 @interface LUIWiFiStatusController : LUIController
 {
     NSImageView *_wifiImageView;
-    CWInterface *_interface;
-    CWWiFiClient *_client;
-    _Bool _paused;
 }
 
-+ (id);
++ (id)Ԣ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)_Qq 	Cz";
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)doesNotRecognizeSelector:(id)arg1;
+- (void)ration;
+- (void)ent specific summary items;
 - (void);
 - (void);
 - (void);

@@ -7,8 +7,6 @@
 @interface SiriOntology.NonTerminalOntologyNode
 {
     id name;
-    id multicardinal;
-    id childNodes;
 }
 
 @end

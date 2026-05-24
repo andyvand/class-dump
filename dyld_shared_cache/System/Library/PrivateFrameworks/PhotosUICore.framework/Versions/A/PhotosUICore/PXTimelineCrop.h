@@ -7,7 +7,6 @@
 @interface PXTimelineCrop
 {
     double _cropScore;
-    struct CGRect _cropRect;
 }
 
 + (id);
@@ -17,7 +16,6 @@
 - (struct CGRect)-ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
 @property(readonly, nonatomic) double cropScore; // @synthesize cropScore=_cropScore;
 
 @end

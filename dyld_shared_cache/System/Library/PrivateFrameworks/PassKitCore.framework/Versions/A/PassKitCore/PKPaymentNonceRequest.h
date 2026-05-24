@@ -6,26 +6,22 @@
 
 #import <PassKitCore/PKPaymentAugmentBaseRequest.h>
 
-@class NSString;
-
 @interface PKPaymentNonceRequest : PKPaymentAugmentBaseRequest
 {
     _Bool _useLegacyGetAPI;
-    NSString *_merchantIdentifier;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)pired-passes;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
 @property(nonatomic) _Bool useLegacyGetAPI; // @synthesize useLegacyGetAPI=_useLegacyGetAPI;
 
 @end

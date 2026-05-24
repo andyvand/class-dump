@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
+@class NSString;
 
 @interface PKTransitPartner
 {
     NSString *_identifier;
-    NSString *_localizedDisplayName;
-    NSURL *_purchaseURL;
-    NSSet *_supportedTransitNetworkIdentifiers;
-    long long _maxNotificationCount;
 }
 
-+ (_Bool);
++ (_Bool)t;
 - (id);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (id);
+- (id);
 - (id);
+- (void)blacklistingHistoryAtIndex:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)`;
 - (void)suppression;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(nonatomic) long long maxNotificationCount; // @synthesize maxNotificationCount=_maxNotificationCount;
-@property(readonly, copy, nonatomic) NSURL *purchaseURL; // @synthesize purchaseURL=_purchaseURL;
-@property(readonly, copy, nonatomic) NSSet *supportedTransitNetworkIdentifiers; // @synthesize supportedTransitNetworkIdentifiers=_supportedTransitNetworkIdentifiers;
 
 @end
 

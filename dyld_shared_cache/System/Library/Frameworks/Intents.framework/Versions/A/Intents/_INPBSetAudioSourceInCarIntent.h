@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
-
 @interface _INPBSetAudioSourceInCarIntent
 {
     struct {
         unsigned int audioSource:1;
         unsigned int relativeAudioSourceReference:1;
     } _has;
-    int _audioSource;
-    int _relativeAudioSourceReference;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -28,35 +23,23 @@
 - (_Bool);
 - (int);
 - (int);
-- (int);
+- (int)T;
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)lP;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)INPBString",&,N,V_mediaUserContext;
-- (void)Method;
+- (void)INPaymentMethod;
 
 // Remaining properties
 @property(nonatomic) int audioSource; // @synthesize audioSource=_audioSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAudioSource;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasRelativeAudioSourceReference;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int relativeAudioSourceReference; // @synthesize relativeAudioSourceReference=_relativeAudioSourceReference;
-@property(readonly) Class superclass;
 
 @end
 

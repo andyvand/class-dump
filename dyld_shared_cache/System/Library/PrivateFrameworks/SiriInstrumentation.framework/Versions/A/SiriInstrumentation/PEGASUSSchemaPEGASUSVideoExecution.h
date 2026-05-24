@@ -6,20 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PEGASUSSchemaPEGASUSVideoExperienceProperty, PEGASUSSchemaPEGASUSVideoInteraction;
+@class PEGASUSSchemaPEGASUSVideoInteraction;
 
 @interface PEGASUSSchemaPEGASUSVideoExecution : SISchemaInstrumentationMessage
 {
     PEGASUSSchemaPEGASUSVideoInteraction *_videoInteraction;
-    PEGASUSSchemaPEGASUSVideoExperienceProperty *_videoExperienceProperty;
-    _Bool _hasVideoInteraction;
-    _Bool _hasVideoExperienceProperty;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (_Bool);
@@ -31,19 +28,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ID %@ for %@ on %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)utionPrepareContext;
+- (id)_hasExecutionPrepareContext;
 - (id)ActivityTier1",&,N,V_uiActivityTier1;
-- (void)llectionTriggered;
+- (void)contextualEntityCollectionTriggered;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVideoExperienceProperty; // @synthesize hasVideoExperienceProperty=_hasVideoExperienceProperty;
-@property(nonatomic) _Bool hasVideoInteraction; // @synthesize hasVideoInteraction=_hasVideoInteraction;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSVideoExperienceProperty *videoExperienceProperty; // @synthesize videoExperienceProperty=_videoExperienceProperty;
 @property(retain, nonatomic) PEGASUSSchemaPEGASUSVideoInteraction *videoInteraction; // @synthesize videoInteraction=_videoInteraction;
 
 @end

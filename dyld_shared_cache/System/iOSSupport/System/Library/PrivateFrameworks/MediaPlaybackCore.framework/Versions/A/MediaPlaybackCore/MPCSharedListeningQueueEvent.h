@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCSharedListeningQueueEventContentAdded, MPCSharedListeningQueueEventContentPlayedNow, MPCSharedListeningQueueEventContentRemoved, MPCSharedListeningQueueEventContentReordered, MPCSharedListeningQueueEventContentReplaced, MPCSharedListeningQueueEventContentUpdatedMessage, MPCSharedListeningQueueEventPlaybackModeChanged;
-
 @interface MPCSharedListeningQueueEvent
 {
     long long _kind;
-    MPCSharedListeningQueueEventContentAdded *_addedContent;
-    MPCSharedListeningQueueEventContentRemoved *_removedContent;
-    MPCSharedListeningQueueEventContentReordered *_reorderedContent;
-    MPCSharedListeningQueueEventContentReplaced *_replacedContent;
-    MPCSharedListeningQueueEventContentPlayedNow *_playedNowContent;
-    MPCSharedListeningQueueEventContentUpdatedMessage *_contentUpdatedMessage;
-    MPCSharedListeningQueueEventPlaybackModeChanged *_playbackMode;
 }
 
 + (id);
@@ -28,23 +19,16 @@
 - (id);
 - (id);
 - (id);
+- (id)$;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)H;
 - (void)omingItems:completion:| load additional completed [] loaded=%{BOOL}u sectionID=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCSharedListeningQueueEventContentAdded *addedContent; // @synthesize addedContent=_addedContent;
-@property(readonly, nonatomic) MPCSharedListeningQueueEventContentUpdatedMessage *contentUpdatedMessage; // @synthesize contentUpdatedMessage=_contentUpdatedMessage;
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) MPCSharedListeningQueueEventPlaybackModeChanged *playbackMode; // @synthesize playbackMode=_playbackMode;
-@property(readonly, nonatomic) MPCSharedListeningQueueEventContentPlayedNow *playedNowContent; // @synthesize playedNowContent=_playedNowContent;
-@property(readonly, nonatomic) MPCSharedListeningQueueEventContentRemoved *removedContent; // @synthesize removedContent=_removedContent;
-@property(readonly, nonatomic) MPCSharedListeningQueueEventContentReordered *reorderedContent; // @synthesize reorderedContent=_reorderedContent;
-@property(readonly, nonatomic) MPCSharedListeningQueueEventContentReplaced *replacedContent; // @synthesize replacedContent=_replacedContent;
 
 @end
 

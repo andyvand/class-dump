@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTBiomeManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationStore, RTPlaceTypeClassifierMetricsCalculator, RTPlatform;
+@class RTBiomeManager;
 
 @interface RTPlaceTypeClassifierExpertInferred
 {
     RTBiomeManager *_biomeManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTPlaceTypeClassifierMetricsCalculator *_placeTypeClassifierMetricsCalculator;
-    RTPlatform *_platform;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)ivateKey",&,N,V_encryptionPrivateKey;
 - (id);
 - (id);
-- (id);
+- (void)nt:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (id);
@@ -35,18 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTBiomeManager *biomeManager; // @synthesize biomeManager=_biomeManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTPlaceTypeClassifierMetricsCalculator *placeTypeClassifierMetricsCalculator; // @synthesize placeTypeClassifierMetricsCalculator=_placeTypeClassifierMetricsCalculator;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(readonly) Class superclass;
 
 @end
 

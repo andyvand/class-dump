@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface RBSProcessIdentity
 {
     int _pid;
-    NSString *_description;
-    unsigned long long _hash;
-    unsigned int _auid;
-    int _platform;
-    NSString *_angelJobLabel;
-    NSString *_persona;
-    NSData *_validationToken;
 }
 
 @end

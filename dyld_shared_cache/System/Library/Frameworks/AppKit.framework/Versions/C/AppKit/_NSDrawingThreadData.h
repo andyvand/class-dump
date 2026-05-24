@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSDrawingThreadData
 {
     SEL selector;
-    id target;
-    id argument;
 }
 
 @end

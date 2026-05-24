@@ -12,10 +12,10 @@
     NSArray *_isoCodes;
 }
 
-- (void);
+- (void)M;
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);

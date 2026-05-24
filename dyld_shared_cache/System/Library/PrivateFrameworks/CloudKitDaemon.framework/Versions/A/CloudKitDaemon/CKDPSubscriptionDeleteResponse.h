@@ -11,7 +11,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h. skipping collecting TTR until next glitch. 
+;
 - (_Bool);
 - (_Bool);
 - (void);

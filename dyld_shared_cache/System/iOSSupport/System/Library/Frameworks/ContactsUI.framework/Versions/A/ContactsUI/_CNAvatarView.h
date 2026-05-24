@@ -10,30 +10,24 @@
 @interface _CNAvatarView
 {
     id <_CNAvatarViewDelegate> _delegate;
-    NSArray *_likenessProviders;
-    NSArray *_likenessViews;
-    NSArray *_subviewsConstraints;
 }
 
 + (_Bool);
-- (id);
+- (id)z;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)iteToAccountWithIdentifier:fromSourceAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (void)canWriteToAccountWithIdentifier:fromSourceAccountIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <_CNAvatarViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *likenessProviders; // @synthesize likenessProviders=_likenessProviders;
 @property(copy, nonatomic) NSArray *likenessViews; // @synthesize likenessViews=_likenessViews;
-@property(copy, nonatomic) NSArray *subviewsConstraints; // @synthesize subviewsConstraints=_subviewsConstraints;
 
 @end
 

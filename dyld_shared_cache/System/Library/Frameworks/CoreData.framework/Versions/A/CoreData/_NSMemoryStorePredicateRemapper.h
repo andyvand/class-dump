@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     NSManagedObjectContext *_context;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void)];
-- (void)nagedObjectIDResultType;
+- (void)NSManagedObjectIDResultType;
 - (void);
 
 @end

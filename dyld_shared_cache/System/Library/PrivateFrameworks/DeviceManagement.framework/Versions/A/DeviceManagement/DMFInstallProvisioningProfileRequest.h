@@ -6,29 +6,27 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DMFInstallProvisioningProfileRequest : DMFTaskRequest
 {
     NSString *_managingProfileIdentifier;
-    NSData *_profileData;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-- (void);
++ (id)?;
+- (void);
+- (id);
+- (void)a";
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)	;
+- (void)x;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *managingProfileIdentifier; // @synthesize managingProfileIdentifier=_managingProfileIdentifier;
-@property(copy, nonatomic) NSData *profileData; // @synthesize profileData=_profileData;
 
 @end
 

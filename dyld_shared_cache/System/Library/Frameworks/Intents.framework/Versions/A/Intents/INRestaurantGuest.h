@@ -11,34 +11,26 @@
 @interface INRestaurantGuest : INPerson
 {
     NSString *_phoneNumber;
-    NSString *_emailAddress;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)initWithBundleIdentifier:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool)isLinkDownDebounceInProgress;
+- (id)twork-sharing] Received connected AP acknowledgement (clientID=%{public}@, counter=%{public}@);
+- (void)zone
+;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)eStatusOptionsCollectionForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideStatusOptionsCollectionForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(readonly) Class superclass;
 
 @end
 

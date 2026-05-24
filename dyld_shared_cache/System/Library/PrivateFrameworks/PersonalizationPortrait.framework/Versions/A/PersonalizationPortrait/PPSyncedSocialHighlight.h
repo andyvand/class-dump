@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PPSocialHighlight;
+@class PPSocialHighlight;
 
 @interface PPSyncedSocialHighlight
 {
     PPSocialHighlight *_highlight;
-    NSDate *_rankingDate;
-    NSString *_originatingDeviceId;
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)decodeDoubleForKey:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)H	;
 
 // Remaining properties
 @property(readonly, nonatomic) PPSocialHighlight *highlight; // @synthesize highlight=_highlight;
-@property(readonly, nonatomic) NSString *originatingDeviceId; // @synthesize originatingDeviceId=_originatingDeviceId;
-@property(readonly, nonatomic) NSDate *rankingDate; // @synthesize rankingDate=_rankingDate;
 
 @end
 

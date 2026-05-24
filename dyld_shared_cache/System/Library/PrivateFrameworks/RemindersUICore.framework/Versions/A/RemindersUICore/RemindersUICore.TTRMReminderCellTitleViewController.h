@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRMReminderCellTitleViewController
 {
     id presenter;
-    id suggestionMenuUtils;
-    id titleTextField;
-    id firstResponderChangeFilter;
-    id returnWasPressed;
-    id changeDetailCapturer;
-    id programmaticTextUpdateCounter;
 }
 
 - (id);

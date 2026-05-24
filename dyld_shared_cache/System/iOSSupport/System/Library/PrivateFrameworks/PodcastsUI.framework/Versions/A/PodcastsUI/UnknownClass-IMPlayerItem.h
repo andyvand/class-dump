@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (IMPlayerItem)
+- (id)';
 - (id);
-- (id);
-- (id);
+- (id);
 @end
 

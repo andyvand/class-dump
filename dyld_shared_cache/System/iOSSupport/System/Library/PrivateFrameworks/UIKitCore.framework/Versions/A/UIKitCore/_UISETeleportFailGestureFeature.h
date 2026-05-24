@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     struct CGPoint _lastLocation;
 }
 
-- (id);
-- (void)ayer:(const struct _UISEGestureFeatureSample *)arg1;
+- (id)ation;
+- (void)setIntermediateLayer:(const struct _UISEGestureFeatureSample *)arg1;
 
 @end
 

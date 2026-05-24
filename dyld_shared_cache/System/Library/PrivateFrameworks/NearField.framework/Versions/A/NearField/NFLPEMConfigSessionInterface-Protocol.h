@@ -5,5 +5,9 @@
 //
 
 @protocol NFLPEMConfigSessionInterface
+- (oneway void)CNPostalAddressSubLocalityKey;
+- (oneway void)CNPostalAddressStreetKey;
+- (oneway void)ABAddressBookAPIAdapter.m;
+- (oneway void)MenuItem"16@?0@8;
 @end
 

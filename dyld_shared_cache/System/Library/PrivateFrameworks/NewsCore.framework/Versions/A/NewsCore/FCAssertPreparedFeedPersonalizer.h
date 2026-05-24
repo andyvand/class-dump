@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedPersonalizingEnvironment, NSString;
 @protocol FCFeedPersonalizing;
 
 @interface FCAssertPreparedFeedPersonalizer
 {
     _Bool _preparedForUse;
-    id <FCFeedPersonalizing> _target;
 }
 
 - (id);
@@ -23,26 +21,14 @@
 - (id);
 - (void);
 - (id);
-- (double);
+- (double)=;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)setAttributedTitle: /* Error: Ran out of types for this method. */;
 - (id)on",&,N,V_bundleOutputConfiguration;
 - (void)iptionManager init];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) FCFeedPersonalizingEnvironment *feedPersonalizingEnvironment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCFeedPersonalizingEnvironment",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPreparedForUse) _Bool preparedForUse; // @synthesize preparedForUse=_preparedForUse;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <FCFeedPersonalizing> target; // @synthesize target=_target;
 
 @end

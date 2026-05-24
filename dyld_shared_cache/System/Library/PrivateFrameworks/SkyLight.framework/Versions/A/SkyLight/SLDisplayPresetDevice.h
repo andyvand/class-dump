@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface SLDisplayPresetDevice
 {
     unsigned int _service;
-    unsigned long long _regID;
-    char _path[512];
-    void *_hidPresetInterface;
-    NSUUID *_containerId;
-    struct PresetDeviceFlags *_fields;
-    struct ProDisplayController _proController;
 }
 
-+ (id);
-+ (float);
++ (id)During updateConstrainedValuesForRow, rows processed = %d.  New Row = %@;
++ (float)E TABLE %@ (%@ INTEGER PRIMARY KEY, %@ VARCHAR(255), %@ BLOB);
 + (float);
 - (void);
-- (id);
-- (float);
-- (float);
-- (struct __CFUUID *);
+- (id)%lld;
+- (float)me = 'ZCHANGETRACK';
+- (float)ot implemented for this value type;
+- (struct __CFUUID *)base;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,10 +36,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (CDStruct_e5a7241e);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
 - (id);
@@ -57,7 +49,7 @@
 - (id);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

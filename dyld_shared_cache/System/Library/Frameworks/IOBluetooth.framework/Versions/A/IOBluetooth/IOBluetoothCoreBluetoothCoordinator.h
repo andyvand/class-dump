@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, CBClassicManager, NSHashTable, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface IOBluetoothCoreBluetoothCoordinator
 {
     _Bool _inquiryState;
-    _Bool _isDiscoverable;
-    unsigned char _bluetoothPageScanEnableState;
-    int __currentPowerState;
-    CBClassicManager *_classicManager;
-    CBCentralManager *_centralManager;
-    NSHashTable *_delegates;
-    NSObject<OS_dispatch_queue> *_coordinatorQueue;
-    NSObject<OS_dispatch_queue> *_powerStateQueue;
-    NSObject<OS_dispatch_queue> *_powerStateCallbackQueue;
-    NSMutableArray *_powerStateCompletionBlocks;
-    NSMutableArray *_notifyPowerStateCompletionBlocks;
 }
 
 + (id);
@@ -30,11 +16,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -51,13 +37,13 @@
 - (int);
 - (unsigned char);
 - (void);
-- (int);
-- (id);
-- (unsigned int);
-- (id);
+- (int);
+- (id);
+- (unsigned int)P;
+- (id)R;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -66,19 +52,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (void)h;
+- (void);
+- (void);
+- (_Bool);
+- (id)OSStatus tcpconnection_acquirePackageWithMessageSizeInternal(void *);
+- (id)h;
 - (id);
 - (void);
 - (_Bool);
@@ -88,28 +74,7 @@
 - (id):inTimeout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property int _currentPowerState; // @synthesize _currentPowerState=__currentPowerState;
-@property(nonatomic) unsigned char bluetoothPageScanEnableState; // @synthesize bluetoothPageScanEnableState=_bluetoothPageScanEnableState;
-@property(readonly) int bluetoothPowerState;
-@property(readonly) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;
-@property(retain, nonatomic) CBClassicManager *classicManager; // @synthesize classicManager=_classicManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *coordinatorQueue; // @synthesize coordinatorQueue=_coordinatorQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool inquiryState; // @synthesize inquiryState=_inquiryState;
 @property _Bool isDiscoverable; // @synthesize isDiscoverable=_isDiscoverable;
-@property(readonly) NSString *localAddressString;
-@property(readonly) NSString *localName;
-@property(retain, nonatomic) NSMutableArray *notifyPowerStateCompletionBlocks; // @synthesize notifyPowerStateCompletionBlocks=_notifyPowerStateCompletionBlocks;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *powerStateCallbackQueue; // @synthesize powerStateCallbackQueue=_powerStateCallbackQueue;
-@property(retain, nonatomic) NSMutableArray *powerStateCompletionBlocks; // @synthesize powerStateCompletionBlocks=_powerStateCompletionBlocks;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *powerStateQueue; // @synthesize powerStateQueue=_powerStateQueue;
-@property(readonly) Class superclass;
 
 @end
 

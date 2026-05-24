@@ -6,31 +6,27 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class FCNewsTabiRecommendedIssuesInputOutputConfiguration, FCNewsTabiRecommendedIssuesUserContextConfiguration;
+@class FCNewsTabiRecommendedIssuesInputOutputConfiguration;
 
 @interface FCNewsTabiRecommendedIssuesConfiguration : FCNewsTabiEndpointConfiguration
 {
     FCNewsTabiRecommendedIssuesInputOutputConfiguration *_bundleInputOutputConfiguration;
-    FCNewsTabiRecommendedIssuesInputOutputConfiguration *_nonBundleInputOutputConfiguration;
-    FCNewsTabiRecommendedIssuesUserContextConfiguration *_userContextConfiguration;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id)!ä@ùQ(	Ð1Â0@ù
 × ;
-- (void)ctionFeedConfigurations;
+- (void)sectionFeedConfigurations;
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsTabiRecommendedIssuesInputOutputConfiguration *bundleInputOutputConfiguration; // @synthesize bundleInputOutputConfiguration=_bundleInputOutputConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecommendedIssuesInputOutputConfiguration *nonBundleInputOutputConfiguration; // @synthesize nonBundleInputOutputConfiguration=_nonBundleInputOutputConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecommendedIssuesUserContextConfiguration *userContextConfiguration; // @synthesize userContextConfiguration=_userContextConfiguration;
 
 @end
 

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCCaptionsLanguageDetectorResults
 {
     double _utteranceStartTimestamp;
-    double _utteranceDuration;
-    NSString *_detectedLanguageCode;
-    NSLocale *_dominantLocale;
-    double _dominantLocaleConfidence;
 }
 
 + (id);
 + (id);
 + (_Bool)BdIdB{tagVCAudioReceiverInactiveFrameDetectionInfo=BBIf}B};
-- (id);
+- (id)A;
 - (id);
 - (double);
 - (id);
@@ -28,17 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool).;
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *detectedLanguageCode; // @synthesize detectedLanguageCode=_detectedLanguageCode;
-@property(readonly, nonatomic) NSLocale *dominantLocale; // @synthesize dominantLocale=_dominantLocale;
-@property(readonly, nonatomic) double dominantLocaleConfidence; // @synthesize dominantLocaleConfidence=_dominantLocaleConfidence;
-@property(readonly, nonatomic) double utteranceDuration; // @synthesize utteranceDuration=_utteranceDuration;
 @property(readonly, nonatomic) double utteranceStartTimestamp; // @synthesize utteranceStartTimestamp=_utteranceStartTimestamp;
 
 @end

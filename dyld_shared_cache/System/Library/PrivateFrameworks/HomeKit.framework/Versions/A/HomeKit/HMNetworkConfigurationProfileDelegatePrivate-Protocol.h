@@ -5,5 +5,8 @@
 //
 
 @protocol HMNetworkConfigurationProfileDelegatePrivate
+
+@optional
+- (void);
 @end
 

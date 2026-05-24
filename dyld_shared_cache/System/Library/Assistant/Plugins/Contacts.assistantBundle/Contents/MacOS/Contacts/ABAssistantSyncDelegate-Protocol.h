@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook;
+@class ABAddressBook, NSString, SADomainObject;
 
 @protocol ABAssistantSyncDelegate
+- (_Bool)*z;
+- (SADomainObject *);
+- (NSString *);
+- (long long)z;
 
 // Remaining properties
 @property(readonly, nonatomic) ABAddressBook *addressBook;

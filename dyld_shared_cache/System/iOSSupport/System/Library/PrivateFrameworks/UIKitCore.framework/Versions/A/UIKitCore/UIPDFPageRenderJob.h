@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIPDFPage, UIPDFPageRenderOperation;
+@class UIImage, UIPDFPage;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFPageRenderJob
 {
     UIPDFPage *_page;
-    unsigned long long _pageIndex;
-    struct CGSize _size;
-    long long _priority;
-    UIImage *_image;
-    UIPDFPageRenderOperation *_operation;
-    id _target;
-    SEL _callback;
-    id _userData;
-    _Bool _sendPending;
-    _Bool _releaseWhenDone;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)bled, bypassing skip checks and allowing TrustKit decisioning.;
+- (void)ution;
+- (id)NIL or empty chat GUID.;
+- (void)cal device, requiresUpload %@;
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)_payloadAllowGameCenterNearbyMultiplayer;
 - (id)1Â0@ù
 × ;
 - (struct CGSize);
@@ -46,11 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain) UIImage *image; // @dynamic image;
-@property UIPDFPageRenderOperation *operation; // @dynamic operation;
-@property(readonly) unsigned long long pageIndex; // @synthesize pageIndex=_pageIndex;
-@property(readonly) long long priority; // @synthesize priority=_priority;
-@property _Bool releaseWhenDone; // @synthesize releaseWhenDone=_releaseWhenDone;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

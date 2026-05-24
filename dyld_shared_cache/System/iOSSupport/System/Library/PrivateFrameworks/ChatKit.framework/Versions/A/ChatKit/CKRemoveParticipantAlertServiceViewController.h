@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id)TE;
 + (id);
-+ (id);
-- (void);
-- (void);
+- (void)ngSnippet;
+- (void)8;
 - (void);
 
 @end

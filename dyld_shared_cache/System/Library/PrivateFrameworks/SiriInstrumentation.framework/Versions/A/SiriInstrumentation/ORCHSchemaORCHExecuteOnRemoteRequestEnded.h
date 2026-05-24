@@ -6,20 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHExecuteOnRemoteRequestEnded : SISchemaInstrumentationMessage
 {
     int _aceCommandType;
-    CDStruct_f67dc06f _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (void);
-- (id);
+- (id)$;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -27,13 +24,11 @@
 - (id);
 - (id)Þ°1Â0@ù
 × ;
-- (id)ainingEndOfFirstWordReadyUpstream;
+- (id)_audioPacketContainingEndOfFirstWordReadyUpstream;
 - (id)taReported",&,N,V_assistantdLaunchMetadataReported;
 
 // Remaining properties
 @property(nonatomic) int aceCommandType; // @synthesize aceCommandType=_aceCommandType;
-@property(nonatomic) _Bool hasAceCommandType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

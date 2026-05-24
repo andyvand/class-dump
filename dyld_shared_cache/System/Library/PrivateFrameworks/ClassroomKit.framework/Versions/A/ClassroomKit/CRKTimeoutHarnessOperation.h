@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperation, NSString;
-@protocol CRKCancelable, CRKOperationQueue, CRKTimerPrimitives;
+@protocol CRKTimerPrimitives;
 
 @interface CRKTimeoutHarnessOperation
 {
     id <CRKTimerPrimitives> _timerPrimitives;
-    id <CRKOperationQueue> _operationQueue;
-    CATOperation *_operation;
-    NSString *_timerIdentifier;
-    double _timeout;
-    id <CRKCancelable> _timeoutTimer;
 }
 
 + (id);
@@ -27,20 +21,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (double);
 - (void);
 - (void)";
-- (id)tartInitialScan;
+- (id)startInitialScan;
 - (_Bool)ASMCourse>"8;
 
 // Remaining properties
-@property(readonly, nonatomic) CATOperation *operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) id <CRKOperationQueue> operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(retain, nonatomic) id <CRKCancelable> timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
-@property(readonly, copy, nonatomic) NSString *timerIdentifier; // @synthesize timerIdentifier=_timerIdentifier;
 @property(readonly, nonatomic) id <CRKTimerPrimitives> timerPrimitives; // @synthesize timerPrimitives=_timerPrimitives;
 
 @end

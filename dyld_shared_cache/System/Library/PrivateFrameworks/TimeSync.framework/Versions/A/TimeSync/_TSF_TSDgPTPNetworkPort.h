@@ -6,57 +6,11 @@
 
 #import <TimeSync/_TSF_TSDgPTPPort.h>
 
-@class NSPointerArray, NSString, _TSF_IODConnection;
+@class _TSF_IODConnection;
 
 @interface _TSF_TSDgPTPNetworkPort : _TSF_TSDgPTPPort
 {
     _TSF_IODConnection *_connection;
-    NSPointerArray *_clients;
-    struct os_unfair_lock_s _clientsLock;
-    unsigned long long _asyncCallbackRefcon;
-    _Bool _remoteIsSameDevice;
-    _Bool _asCapable;
-    BOOL _localSyncLogMeanInterval;
-    BOOL _remoteSyncLogMeanInterval;
-    BOOL _localAnnounceLogMeanInterval;
-    BOOL _remoteAnnounceLogMeanInterval;
-    unsigned char _localLinkType;
-    unsigned char _remoteLinkType;
-    unsigned char _localTimestampingMode;
-    unsigned char _remoteTimestampingMode;
-    unsigned char _localOscillatorType;
-    unsigned char _remoteOscillatorType;
-    _Bool _hasLocalFrequencyToleranceLower;
-    _Bool _hasLocalFrequencyToleranceUpper;
-    _Bool _hasRemoteFrequencyToleranceLower;
-    _Bool _hasRemoteFrequencyToleranceUpper;
-    _Bool _hasLocalFrequencyStabilityLower;
-    _Bool _hasLocalFrequencyStabilityUpper;
-    _Bool _hasRemoteFrequencyStabilityLower;
-    _Bool _hasRemoteFrequencyStabilityUpper;
-    _Bool _enabled;
-    _Bool _overridenReceiveMatching;
-    unsigned short _remotePortNumber;
-    unsigned short _overridenReceivePortNumber;
-    unsigned int _propagationDelay;
-    unsigned int _maximumPropagationDelay;
-    unsigned int _minimumPropagationDelay;
-    unsigned int _propagationDelayLimit;
-    unsigned int _maximumRawDelay;
-    unsigned int _minimumRawDelay;
-    int _localFrequencyToleranceLower;
-    int _localFrequencyToleranceUpper;
-    int _remoteFrequencyToleranceLower;
-    int _remoteFrequencyToleranceUpper;
-    int _localFrequencyStabilityLower;
-    int _localFrequencyStabilityUpper;
-    int _remoteFrequencyStabilityLower;
-    int _remoteFrequencyStabilityUpper;
-    unsigned long long _remoteClockIdentity;
-    NSString *_sourceAddressString;
-    NSString *_destinationAddressString;
-    NSString *_interfaceName;
-    unsigned long long _overridenReceiveClockIdentity;
 }
 
 + (id);
@@ -92,6 +46,7 @@
 - (void);
 - (void);
 - (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
@@ -103,8 +58,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)U;
 - (_Bool);
 - (unsigned char);
 - (BOOL);
@@ -118,11 +72,11 @@
 - (int);
 - (unsigned long long);
 - (BOOL);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned int);
 - (unsigned int);
-- (unsigned short);
+- (unsigned short)9	;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -168,7 +122,7 @@
 - (unsigned long long);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)P;
 - (unsigned int);
 - (unsigned char);
 - (BOOL);
@@ -197,63 +151,20 @@
 - (_Bool);
 - (unsigned char);
 - (_Bool);
-- (_Bool);
+- (_Bool)5;
+- (id)O;
 - (id);
-- (id);
-- (void);
+- (void)incrementVideoStreamSwitchCounterForStreamGroup:(_Bool)arg1;
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (_Bool);
-- (void)iscardInvalidAnnounceCounter;
+- (void)RxPacketDiscardInvalidAnnounceCounter;
 
 // Remaining properties
-@property(nonatomic, getter=isASCapable) _Bool asCapable; // @synthesize asCapable=_asCapable;
-@property(readonly, nonatomic) _TSF_IODConnection *connection;
-@property(copy, nonatomic) NSString *destinationAddressString; // @synthesize destinationAddressString=_destinationAddressString;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool hasLocalFrequencyStabilityLower; // @synthesize hasLocalFrequencyStabilityLower=_hasLocalFrequencyStabilityLower;
-@property(nonatomic) _Bool hasLocalFrequencyStabilityUpper; // @synthesize hasLocalFrequencyStabilityUpper=_hasLocalFrequencyStabilityUpper;
-@property(nonatomic) _Bool hasLocalFrequencyToleranceLower; // @synthesize hasLocalFrequencyToleranceLower=_hasLocalFrequencyToleranceLower;
-@property(nonatomic) _Bool hasLocalFrequencyToleranceUpper; // @synthesize hasLocalFrequencyToleranceUpper=_hasLocalFrequencyToleranceUpper;
-@property(nonatomic) _Bool hasRemoteFrequencyStabilityLower; // @synthesize hasRemoteFrequencyStabilityLower=_hasRemoteFrequencyStabilityLower;
-@property(nonatomic) _Bool hasRemoteFrequencyStabilityUpper; // @synthesize hasRemoteFrequencyStabilityUpper=_hasRemoteFrequencyStabilityUpper;
-@property(nonatomic) _Bool hasRemoteFrequencyToleranceLower; // @synthesize hasRemoteFrequencyToleranceLower=_hasRemoteFrequencyToleranceLower;
-@property(nonatomic) _Bool hasRemoteFrequencyToleranceUpper; // @synthesize hasRemoteFrequencyToleranceUpper=_hasRemoteFrequencyToleranceUpper;
-@property(readonly, copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) BOOL localAnnounceLogMeanInterval; // @synthesize localAnnounceLogMeanInterval=_localAnnounceLogMeanInterval;
-@property(nonatomic) int localFrequencyStabilityLower; // @synthesize localFrequencyStabilityLower=_localFrequencyStabilityLower;
-@property(nonatomic) int localFrequencyStabilityUpper; // @synthesize localFrequencyStabilityUpper=_localFrequencyStabilityUpper;
-@property(nonatomic) int localFrequencyToleranceLower; // @synthesize localFrequencyToleranceLower=_localFrequencyToleranceLower;
-@property(nonatomic) int localFrequencyToleranceUpper; // @synthesize localFrequencyToleranceUpper=_localFrequencyToleranceUpper;
-@property(nonatomic) unsigned char localLinkType; // @synthesize localLinkType=_localLinkType;
-@property(nonatomic) unsigned char localOscillatorType; // @synthesize localOscillatorType=_localOscillatorType;
-@property(nonatomic) BOOL localSyncLogMeanInterval; // @synthesize localSyncLogMeanInterval=_localSyncLogMeanInterval;
-@property(nonatomic) unsigned char localTimestampingMode; // @synthesize localTimestampingMode=_localTimestampingMode;
-@property(nonatomic) unsigned int maximumPropagationDelay; // @synthesize maximumPropagationDelay=_maximumPropagationDelay;
-@property(nonatomic) unsigned int maximumRawDelay; // @synthesize maximumRawDelay=_maximumRawDelay;
-@property(nonatomic) unsigned int minimumPropagationDelay; // @synthesize minimumPropagationDelay=_minimumPropagationDelay;
-@property(nonatomic) unsigned int minimumRawDelay; // @synthesize minimumRawDelay=_minimumRawDelay;
-@property(nonatomic) unsigned long long overridenReceiveClockIdentity; // @synthesize overridenReceiveClockIdentity=_overridenReceiveClockIdentity;
-@property(nonatomic) _Bool overridenReceiveMatching; // @synthesize overridenReceiveMatching=_overridenReceiveMatching;
-@property(nonatomic) unsigned short overridenReceivePortNumber; // @synthesize overridenReceivePortNumber=_overridenReceivePortNumber;
-@property(nonatomic) unsigned int propagationDelay; // @synthesize propagationDelay=_propagationDelay;
-@property(nonatomic) unsigned int propagationDelayLimit; // @synthesize propagationDelayLimit=_propagationDelayLimit;
-@property(nonatomic) BOOL remoteAnnounceLogMeanInterval; // @synthesize remoteAnnounceLogMeanInterval=_remoteAnnounceLogMeanInterval;
 @property(nonatomic) unsigned long long remoteClockIdentity; // @synthesize remoteClockIdentity=_remoteClockIdentity;
-@property(nonatomic) int remoteFrequencyStabilityLower; // @synthesize remoteFrequencyStabilityLower=_remoteFrequencyStabilityLower;
-@property(nonatomic) int remoteFrequencyStabilityUpper; // @synthesize remoteFrequencyStabilityUpper=_remoteFrequencyStabilityUpper;
-@property(nonatomic) int remoteFrequencyToleranceLower; // @synthesize remoteFrequencyToleranceLower=_remoteFrequencyToleranceLower;
-@property(nonatomic) int remoteFrequencyToleranceUpper; // @synthesize remoteFrequencyToleranceUpper=_remoteFrequencyToleranceUpper;
-@property(nonatomic) _Bool remoteIsSameDevice; // @synthesize remoteIsSameDevice=_remoteIsSameDevice;
-@property(nonatomic) unsigned char remoteLinkType; // @synthesize remoteLinkType=_remoteLinkType;
-@property(nonatomic) unsigned char remoteOscillatorType; // @synthesize remoteOscillatorType=_remoteOscillatorType;
-@property(nonatomic) unsigned short remotePortNumber; // @synthesize remotePortNumber=_remotePortNumber;
-@property(nonatomic) BOOL remoteSyncLogMeanInterval; // @synthesize remoteSyncLogMeanInterval=_remoteSyncLogMeanInterval;
-@property(nonatomic) unsigned char remoteTimestampingMode; // @synthesize remoteTimestampingMode=_remoteTimestampingMode;
-@property(copy, nonatomic) NSString *sourceAddressString; // @synthesize sourceAddressString=_sourceAddressString;
 
 @end
 

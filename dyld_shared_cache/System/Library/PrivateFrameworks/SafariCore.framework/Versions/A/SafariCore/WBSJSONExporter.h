@@ -12,14 +12,14 @@
 }
 
 + (id);
-+ (unsigned long long)ternCountPenalty;
++ (unsigned long long)guessesRequiredWithoutPatternCountPenalty;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void)
 × ;
-- (id)RequestUUIDString:(id)arg1 completionHandler:(id *)arg2;
+- (id)saveCloudTabCloseRequestWithDictionaryRepresentation:(id)arg1 closeRequestUUIDString:(id *)arg2 completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSJSONWriter *jsonWriter; // @synthesize jsonWriter=_jsonWriter;

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @protocol NFTagF
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *IDm;
-@property(readonly, copy, nonatomic) NSData *PMm;
-@property(readonly, copy, nonatomic) NSData *SystemCode;
-@property(readonly, copy, nonatomic) NSArray *allSystemCodes;
 @end
 

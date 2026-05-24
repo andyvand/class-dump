@@ -6,25 +6,21 @@
 
 #import <UIKitCore/UIInputViewAnimationStyleDirectional.h>
 
-@class _UIViewControllerKeyboardAnimationStyleInfo, _UIViewControllerTransitionContext;
+@class _UIViewControllerKeyboardAnimationStyleInfo;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerKeyboardAnimationStyle : UIInputViewAnimationStyleDirectional
 {
     _Bool _disableAlongsideView;
-    _Bool _allowCustomTransition;
-    _UIViewControllerTransitionContext *_context;
-    _UIViewControllerKeyboardAnimationStyleInfo *_info;
-    long long _keyboardAnimationType;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (long long);
-- (void);
+- (void)setPayloadUpdatePolicy:(CDUnknownBlockType)arg1;
+- (long long)predicateWithValue:forProperty:comparisonType: /* Error: Ran out of types for this method. */;
+- (void)pdateStatus:(_Bool)arg1 %lu;
 - (void);
 - (_Bool);
 - (void)Ô ;
@@ -34,21 +30,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)nt=dd}{CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d}16@0:(long long)arg1 8;
 - (_Bool)e>"16@0:(id)arg1 8;
-- (void)ingListAttributes;
-- (id)rEntry;
+- (void)_existingListAttributes;
+- (id)_cellularEntry;
 - (_Bool)}},N,V_sourceFrame;
 - (id)¼wôxÌ~8;
-- (_Bool)aryTextHorizontalPadding;
+- (_Bool)textToSecondaryTextHorizontalPadding;
 - (id)value;
 - (long long)@"NSString"32;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowCustomTransition; // @synthesize allowCustomTransition=_allowCustomTransition;
-@property(retain, nonatomic) _UIViewControllerTransitionContext *context; // @synthesize context=_context;
-@property(nonatomic) _Bool disableAlongsideView; // @synthesize disableAlongsideView=_disableAlongsideView;
 @property(readonly, nonatomic) _UIViewControllerKeyboardAnimationStyleInfo *info; // @synthesize info=_info;
-@property(nonatomic) long long keyboardAnimationType; // @synthesize keyboardAnimationType=_keyboardAnimationType;
 
 @end
 

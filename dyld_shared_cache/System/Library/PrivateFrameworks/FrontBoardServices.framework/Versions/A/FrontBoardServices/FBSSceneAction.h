@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceQueue, FBSScene;
+@class FBSScene;
 
 @interface FBSSceneAction
 {
     FBSScene *_scene;
-    BSServiceQueue *_callOutQueue;
 }
 
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (id)tMode:preferredMode:otherModes:cloningSupported:overscanned:overscanCompensation:safeOverscanRatio:pixelSize:nativeBounds:bounds:latency:originatingConfiguration:validityCheck: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) BSServiceQueue *callOutQueue; // @synthesize callOutQueue=_callOutQueue;
 @property(retain, nonatomic) FBSScene *scene; // @synthesize scene=_scene;
 
 @end

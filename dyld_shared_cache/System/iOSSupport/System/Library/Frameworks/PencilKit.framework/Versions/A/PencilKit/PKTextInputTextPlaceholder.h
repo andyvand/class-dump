@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PKTextInputTextPlaceholder
 {
     _Bool _shouldIgnoreOrigin;
-    id _placeholder;
-    NSArray *__rects;
 }
 
 + (id);
@@ -23,13 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)V_progressSpinner;
 - (void)outConstraint",&,N,V__contentViewTrailingAnchor;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *_rects; // @synthesize _rects=__rects;
 @property(retain, nonatomic) id placeholder; // @synthesize placeholder=_placeholder;
-@property(nonatomic) _Bool shouldIgnoreOrigin; // @synthesize shouldIgnoreOrigin=_shouldIgnoreOrigin;
 
 @end
 

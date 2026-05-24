@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface PKProvisioningAnalyticsState
 {
     _Bool _firstViewAppeared;
-    NSString *_sessionID;
-    NSString *_environment;
-    NSString *_intent;
-    NSString *_referralSource;
-    NSString *_campaignAttributionReferrerIdentifier;
-    long long _campaignAttributionProductType;
-    NSString *_productTypeDescriptor;
-    NSString *_productSubtypeDescriptor;
-    NSMutableDictionary *_productMetadata;
-    NSMutableDictionary *_passMetadata;
-    NSString *_productIssuer;
-    NSString *_reportedViewAppearedProductIssuer;
 }
 
 + (_Bool);
@@ -31,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ԡV;
 - (void);
 - (void);
 - (id);
@@ -47,27 +35,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)_dfspAirplayFailed;
 - (void);
 - (void);
 - (id);
-- (id)ode;
+- (id)PKSetupProductMethodReaderMode;
 - (void)handoffReason;
 
 // Remaining properties
-@property(nonatomic) long long campaignAttributionProductType; // @synthesize campaignAttributionProductType=_campaignAttributionProductType;
-@property(retain, nonatomic) NSString *campaignAttributionReferrerIdentifier; // @synthesize campaignAttributionReferrerIdentifier=_campaignAttributionReferrerIdentifier;
-@property(retain, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(nonatomic) _Bool firstViewAppeared; // @synthesize firstViewAppeared=_firstViewAppeared;
-@property(retain, nonatomic) NSString *intent; // @synthesize intent=_intent;
-@property(retain, nonatomic) NSMutableDictionary *passMetadata; // @synthesize passMetadata=_passMetadata;
-@property(retain, nonatomic) NSString *productIssuer; // @synthesize productIssuer=_productIssuer;
-@property(retain, nonatomic) NSMutableDictionary *productMetadata; // @synthesize productMetadata=_productMetadata;
-@property(retain, nonatomic) NSString *productSubtypeDescriptor; // @synthesize productSubtypeDescriptor=_productSubtypeDescriptor;
-@property(retain, nonatomic) NSString *productTypeDescriptor; // @synthesize productTypeDescriptor=_productTypeDescriptor;
-@property(retain, nonatomic) NSString *referralSource; // @synthesize referralSource=_referralSource;
-@property(retain, nonatomic) NSString *reportedViewAppearedProductIssuer; // @synthesize reportedViewAppearedProductIssuer=_reportedViewAppearedProductIssuer;
 @property(retain, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 
 @end

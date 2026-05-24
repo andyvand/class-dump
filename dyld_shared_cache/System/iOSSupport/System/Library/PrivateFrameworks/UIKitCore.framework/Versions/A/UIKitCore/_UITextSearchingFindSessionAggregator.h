@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSString, UITextSearchingFindSession;
+@class UITextSearchingFindSession;
 
 __attribute__((visibility("hidden")))
 @interface _UITextSearchingFindSessionAggregator
@@ -16,26 +16,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)0@64@72@80B88;
+- (void)@"NSString",R,C,N,V_listenerID;
 - (id);
 - (void);
 - (_Bool)
 × ;
 - (void)ictionaryRef, CFStringRef, CFRange, DCSTransformStyle, DCSDictionaryRef *);
-- (void)6UIViewCIgr_;
+- (void)So6UIViewCIgr_;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *allFoundRanges;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak UITextSearchingFindSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 @property(getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface IKTaskManager
 {
     NSMutableArray *_orderedTasks;
-    NSMutableDictionary *_tasks;
-    _Bool _taskListDidChange;
-    _Bool _threadLaunched;
-    _Bool _taskAborted;
-    _Bool _needRestart;
-    _Bool _delegateLocked;
-    int _currentProcessedTaskIndex;
-    struct _opaque_pthread_mutex_t _taskLoopMutex;
-    _Bool _taskLoopLocked;
-    id _delegate;
-    id _retainedObject;
-    NSMutableDictionary *_asyncQueues;
-    int _asyncCount;
-    NSMutableDictionary *_waitersPerQueue;
 }
 
 - (void);
@@ -39,17 +25,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (float);
+- (float)";
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)uX;
 - (void);
 - (void);
 - (id);

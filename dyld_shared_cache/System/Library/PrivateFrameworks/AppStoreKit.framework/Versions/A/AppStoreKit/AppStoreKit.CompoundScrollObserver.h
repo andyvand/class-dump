@@ -7,7 +7,6 @@
 @interface AppStoreKit.CompoundScrollObserver
 {
     id children;
-    id scrollObserverTokens;
 }
 
 - (id);

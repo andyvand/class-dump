@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSSetItem
 {
     id _object;
-    NSString *_hashKey;
 }
 
 + (id);
@@ -18,11 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)8@"MRAVDistantEndpoint"16;
 - (void)ä_Gv©¿~j<Úî{é<(ÐÍØ¾÷U3#ÆÀÅP3-úÇ7ébD{ÁêûRçC>i¿öïuqþgïò¢;
 
 // Remaining properties
-@property(readonly) NSString *hashKey; // @synthesize hashKey=_hashKey;
 @property(readonly) id object; // @synthesize object=_object;
 
 @end

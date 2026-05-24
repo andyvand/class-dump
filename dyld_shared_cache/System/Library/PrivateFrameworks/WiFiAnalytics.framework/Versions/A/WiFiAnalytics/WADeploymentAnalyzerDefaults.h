@@ -7,12 +7,6 @@
 @interface WADeploymentAnalyzerDefaults
 {
     double _poorCoverageThreshold;
-    long long _poorCoverageRSSI;
-    unsigned long long _poorCoverageMinimumStay;
-    long long _highCongestionRSSIThreshold;
-    unsigned long long _highCongestionCCAThreshold;
-    double _highCongestionThreshold;
-    unsigned long long _highCongestionMinimumStay;
 }
 
 + (id);
@@ -30,15 +24,9 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)\;
 
 // Remaining properties
-@property(nonatomic) unsigned long long highCongestionCCAThreshold; // @synthesize highCongestionCCAThreshold=_highCongestionCCAThreshold;
-@property(nonatomic) unsigned long long highCongestionMinimumStay; // @synthesize highCongestionMinimumStay=_highCongestionMinimumStay;
-@property(nonatomic) long long highCongestionRSSIThreshold; // @synthesize highCongestionRSSIThreshold=_highCongestionRSSIThreshold;
-@property(nonatomic) double highCongestionThreshold; // @synthesize highCongestionThreshold=_highCongestionThreshold;
-@property(nonatomic) unsigned long long poorCoverageMinimumStay; // @synthesize poorCoverageMinimumStay=_poorCoverageMinimumStay;
-@property(nonatomic) long long poorCoverageRSSI; // @synthesize poorCoverageRSSI=_poorCoverageRSSI;
 @property(nonatomic) double poorCoverageThreshold; // @synthesize poorCoverageThreshold=_poorCoverageThreshold;
 
 @end

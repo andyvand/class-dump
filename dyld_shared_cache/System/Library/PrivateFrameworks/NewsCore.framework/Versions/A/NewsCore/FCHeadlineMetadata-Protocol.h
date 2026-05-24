@@ -4,34 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSDate, NSString, NSURL;
+@class NSDate, NSString, NSURL;
 
 @protocol FCHeadlineMetadata
 - (NSString *)emporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeldsparIDProvider.m;
 
 @optional
 - (NSString *)0:8@"NSString"16Q24Q32 /* Error: Ran out of types for this method. */;
-- (NSString *)ScoringOutputName: /* Error: Ran out of types for this method. */;
-- (NSURL *)PrivateDataRankedAllSubscriptionDatesDataDictionaryKey;
+- (NSString *)setShadowTopicFeedHeadlineScoringOutputName: /* Error: Ran out of types for this method. */;
+- (NSURL *)FCTodayPrivateDataRankedAllSubscriptionDatesDataDictionaryKey;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *displayDate;
-@property(readonly, nonatomic) FCHeadlineThumbnailMetadata *formatThumbnail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCHeadlineThumbnailMetadata",?,R,N
-
-@property(readonly, nonatomic) NSURL *routeURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,N
-
-@property(readonly, nonatomic) NSString *shortExcerpt;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *storyType;
-@property(readonly, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @end
 

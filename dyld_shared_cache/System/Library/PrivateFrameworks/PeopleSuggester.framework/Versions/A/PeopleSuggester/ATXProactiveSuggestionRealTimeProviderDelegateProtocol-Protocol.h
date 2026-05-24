@@ -5,6 +5,6 @@
 //
 
 @protocol ATXProactiveSuggestionRealTimeProviderDelegateProtocol
-- (void)cts;
+- (void)_candidateContacts;
 @end
 

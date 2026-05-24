@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)8J;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -34,16 +34,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)RemoteExtensionRetrieving;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)A@9;
 - (void)estination"56{?=qq}64o^@80;
 
 // Remaining properties

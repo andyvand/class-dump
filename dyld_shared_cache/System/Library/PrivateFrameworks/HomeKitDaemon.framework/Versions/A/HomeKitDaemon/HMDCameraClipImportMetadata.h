@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipImportMetadata
 {
     NSDate *_startDate;
-    double _targetFragmentDuration;
-    NSArray *_videoSegments;
-    NSArray *_posterFrames;
 }
 
 - (id);
@@ -24,10 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *posterFrames; // @synthesize posterFrames=_posterFrames;
 @property(readonly) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) double targetFragmentDuration; // @synthesize targetFragmentDuration=_targetFragmentDuration;
-@property(readonly) NSArray *videoSegments; // @synthesize videoSegments=_videoSegments;
 
 @end
 

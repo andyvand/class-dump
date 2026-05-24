@@ -12,10 +12,10 @@
 
 + (void);
 + (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)fi.strength.4.withNetwork%@%@;
+- (id)s.wifi.notConnected;
+- (id)ery.charging%@;
+- (id)AXMenuOpened;
 - (id);
 - (id);
 - (id);

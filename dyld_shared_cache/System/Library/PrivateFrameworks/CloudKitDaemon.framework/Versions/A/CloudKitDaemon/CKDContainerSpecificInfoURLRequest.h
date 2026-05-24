@@ -6,13 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKDContainerServerInfo, NSString;
+@class CKDContainerServerInfo;
 
 @interface CKDContainerSpecificInfoURLRequest : CKDURLRequest
 {
     _Bool _requireUserIDs;
-    NSString *_containerIdentifier;
-    CKDContainerServerInfo *_containerServerInfo;
 }
 
 - (_Bool);
@@ -23,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)6ZC;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -37,9 +35,7 @@
 - (_Bool)ßÿ+´Î;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
 @property(copy, nonatomic) CKDContainerServerInfo *containerServerInfo; // @synthesize containerServerInfo=_containerServerInfo;
-@property(nonatomic) _Bool requireUserIDs; // @synthesize requireUserIDs=_requireUserIDs;
 
 @end
 

@@ -12,13 +12,13 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)uJ;
 - (id);
 - (struct CGPoint);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)__MUPlacePhotoGalleryViewControllerAccessibility_super;
 
 @end
 

@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface PKGCoreUIRenderer
 {
     NSString *_rendererName;
-    struct OpaqueCUIRendererRef *_renderer;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id)nt64)%qd;
+- (id)ROP TABLE ZCHANGE;
+- (id)"table" ORDER BY TBL_NAME;
 - (struct OpaqueCUIRendererRef *);
 - (void);
 

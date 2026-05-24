@@ -11,42 +11,42 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
+- (double)currentBatch;
 - (struct CGPoint);
 - (double);
 - (struct CGPoint);
 - (double);
 - (double);
-- (double);
-- (double);
+- (double)$;
+- (double)}};
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint);
 - (double);
+- (id)with bytes to free up:%lld /* Error: Ran out of types for this method. */;
+- (id)oes not exist at its local path -- transfer (%@) local path (%@);
+- (id)ath (guid:%@) /* Error: Ran out of types for this method. */;
+- (double)%@;
+- (double)notification for explicit download of transfer:%@ /* Error: Ran out of types for this method. */;
+- (double)-events-notification;
+- (double)rt or turn off the firewall.;
+- (double)IMiMessageSizeLimitsForTransferTypeDisableLargeSizeNetworkRestriction;
+- (double)essage with an invalid scheduleState;
+- (struct UIEdgeInsets)= %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
+- (struct UIEdgeInsets)FromStorage = %@; isFromMe = %@; OUTPUT chat = %@; priorityMessageGUIDs = %@;
+- (double)g;
+- (struct CGPoint)ternal] Invalid Feature Flag Configuration;
+- (struct CGRect)al-type;
+- (struct CGPoint)outgoingRelayMessage;
+- (double)ssage;
+- (double)isScheduledMessage;
+- (double)arNotice:toHandles:]_block_invoke /* Error: Ran out of types for this method. */;
+- (double)IMDRelayErrorChatForOutgoingMessageAddedParticipantsKey;
+- (double)$g8<;
 - (id);
-- (id);
-- (id);
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGPoint);
-- (struct CGRect);
-- (struct CGPoint);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (double);
-- (double);
-- (double);
-- (struct CGPoint)ayColor;
+- (struct CGPoint)systemLightGrayColor;
 - (double)rdLayout",W,N,V_activeLayout;
 
 @end

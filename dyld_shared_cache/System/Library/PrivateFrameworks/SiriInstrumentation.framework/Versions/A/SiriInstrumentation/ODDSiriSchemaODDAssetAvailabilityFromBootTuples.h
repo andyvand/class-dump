@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ODDSiriSchemaODDAssetAvailabilityFromBootTuples : SISchemaInstrumentationMessage
 {
@@ -29,11 +29,10 @@
 - (id);
 - (id)I,N,V_neuralFallbackCount;
 - (id)tcutFirstRunConfirmationContext",&,N,V_appShortcutFirstRunConfirmationContext;
-- (void)CODE_MS;
+- (void)ISOCOUNTRYCODE_MS;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bootToAssetDeliveryInMs; // @synthesize bootToAssetDeliveryInMs=_bootToAssetDeliveryInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

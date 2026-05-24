@@ -7,9 +7,6 @@
 @interface PhotosUICore.PXModelDeliveryProgressState
 {
     id _progress;
-    id _stage;
-    id _errorState;
-    id _$observationRegistrar;
 }
 
 @end

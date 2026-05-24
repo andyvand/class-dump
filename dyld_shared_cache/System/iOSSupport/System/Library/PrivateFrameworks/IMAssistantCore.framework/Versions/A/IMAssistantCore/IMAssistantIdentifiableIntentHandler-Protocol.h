@@ -9,6 +9,9 @@
 @protocol IMAssistantIdentifiableIntentHandler
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: @"NSString"16@0:8
+// Property attributes: (null)
+
 @property(readonly, copy, nonatomic) NSString *intentIdentifier;
 @end
 

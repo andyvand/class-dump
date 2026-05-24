@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDTurnCounts : SISchemaInstrumentationMessage
 {
     unsigned int _totalTurnCount;
-    unsigned int _validTurnCount;
-    struct {
-        unsigned int totalTurnCount:1;
-        unsigned int validTurnCount:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -40,11 +33,7 @@
 - (id)textShapes;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTotalTurnCount;
-@property(nonatomic) _Bool hasValidTurnCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int totalTurnCount; // @synthesize totalTurnCount=_totalTurnCount;
-@property(nonatomic) unsigned int validTurnCount; // @synthesize validTurnCount=_validTurnCount;
 
 @end
 

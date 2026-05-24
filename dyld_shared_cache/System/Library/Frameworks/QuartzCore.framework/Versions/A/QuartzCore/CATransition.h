@@ -6,7 +6,7 @@
 
 #import <QuartzCore/CAAnimation.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CATransition : CAAnimation
 {
@@ -15,13 +15,7 @@
 + (id);
 
 // Remaining properties
-@property float endProgress;
-@property(retain) id filter;
 @property(copy) NSDictionary *options;
-@property float startProgress;
-@property(copy) NSString *subtype;
-@property unsigned int transitionFlags;
-@property(copy) NSString *type;
 
 @end
 

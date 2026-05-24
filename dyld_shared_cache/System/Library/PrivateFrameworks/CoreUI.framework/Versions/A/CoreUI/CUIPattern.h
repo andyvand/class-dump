@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CUIPattern
 {
     struct CGImage *_patternImage;
-    struct CGPattern *_pattern;
-    double _alpha;
 }
 
 - (void);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGPattern *);
-- (double);
+- (double)NSGlobalPreferenceTransitionOverlay;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

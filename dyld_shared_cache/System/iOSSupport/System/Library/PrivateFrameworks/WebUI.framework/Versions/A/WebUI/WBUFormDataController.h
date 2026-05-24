@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSSet, WBSCreditCardData, WBSGeneratedPassword, WBSSavedAccount, WBSSavedAccountKeychainCoordinator, WBUFormDataGeneratedPasswordAutoSaveInformation;
+@class WBSSavedAccount;
 
 @interface WBUFormDataController
 {
     _Bool _savePending;
-    WBSSavedAccountKeychainCoordinator *_keychainCoordinator;
-    WBUFormDataGeneratedPasswordAutoSaveInformation *_informationForGeneratedPasswordAutoSave;
-    WBSSavedAccount *_lastFilledSavedAccount;
-    WBSCreditCardData *_lastFilledCreditCardData;
-    NSSet *_previouslyFilledVirtualCardNumbers;
-    WBSGeneratedPassword *_generatedPassword;
 }
 
 + (id);
@@ -24,63 +18,63 @@
 + (id);
 + (_Bool);
 + (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)DetailsNavigationDestination;
 - (void);
+- (_Bool);
+- (_Bool)VerifyButton;
+- (_Bool);
+- (_Bool);
+- (void)ChatBotActionButton;
+- (void);
+- (void)/>;
 - (id);
 - (void);
 - (void);
 - (void);
+- (_Bool)@;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void)CKConversationListCollectionViewController;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)@L{;
+- (_Bool);
+- (void);
+- (_Bool)SendMenuViewControllerContentProvider;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void)TapbackAttributionViewModelDelegate;
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void)CKPosterRenderingTranscriptBackgroundView;
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -105,14 +99,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) WBSGeneratedPassword *generatedPassword; // @synthesize generatedPassword=_generatedPassword;
-@property(retain, nonatomic) WBSCreditCardData *lastFilledCreditCardData; // @synthesize lastFilledCreditCardData=_lastFilledCreditCardData;
 @property(retain, nonatomic) WBSSavedAccount *lastFilledSavedAccount; // @synthesize lastFilledSavedAccount=_lastFilledSavedAccount;
-@property(readonly, nonatomic) CNContact *me;
-@property(retain, nonatomic) NSSet *previouslyFilledVirtualCardNumbers; // @synthesize previouslyFilledVirtualCardNumbers=_previouslyFilledVirtualCardNumbers;
-@property(nonatomic) _Bool shouldAutoFillFromAddressBook;
-@property(nonatomic) _Bool shouldAutoFillFromCreditCardData;
-@property(nonatomic) _Bool shouldAutoFillPasswords;
 
 @end
 

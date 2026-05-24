@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AAContactsIDSStatusDelegate;
 
 @interface AAContactsManager
@@ -12,26 +11,19 @@
     id <AAContactsIDSStatusDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)hangedNotification did not contain 'ProfileUserUID';
+- (void));
+- (id)pertyListSerialization dataFromPropertyList:(id)arg1 ] raised exception "%s" because "%s";
+- (id)WithPropertyList]:[NSPropertyListSerialization dataFromPropertyList:] raised exception "%s" because "%s" /* Error: Ran out of types for this method. */;
+- (id)yList:(id)arg1 ] returned "%s";
+- (id)tSerialization dataFromPropertyList:(id)arg1 ] returned "%s";
+- (id)chain considering removal for key:(id)arg1 %s  doRemove:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)t:inStore:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AAContactsIDSStatusDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @protocol FCCacheFlushing
-- (void)scriptorReferenceService;
+- (void)FeedDescriptorReferenceService;
 @end
 

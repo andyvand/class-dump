@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class);
++ (id)___UISubtitleCellContentViewConfigurationAccessibility_super;
++ (void);
 - (_Bool);
 - (struct CGPoint);
 - (id);

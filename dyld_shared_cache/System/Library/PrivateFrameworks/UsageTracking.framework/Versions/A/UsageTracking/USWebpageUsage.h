@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, NSMutableDictionary, NSString, NSURL;
-@protocol _CDAsyncLocalContext, _DKKnowledgeSaving;
+@class NSMutableDictionary, NSString;
 
 @interface USWebpageUsage
 {
     NSMutableDictionary *_contextUsageRecord;
-    _Bool _usageTrusted;
-    int _state;
-    NSURL *_URL;
-    NSString *_uniqueIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_profileIdentifier;
-    id <_CDAsyncLocalContext> _context;
-    id <_DKKnowledgeSaving> _eventStorage;
-    BMSource *_source;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)SYSTEM_TORONTO_Town_of_Fort_Erie_Transit_System;
 - (id);
 - (void);
 - (int);
@@ -44,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) id <_CDAsyncLocalContext> context; // @synthesize context=_context;
-@property(readonly) id <_DKKnowledgeSaving> eventStorage; // @synthesize eventStorage=_eventStorage;
-@property(readonly, copy) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(readonly) BMSource *source; // @synthesize source=_source;
-@property int state; // @synthesize state=_state;
 @property(readonly, copy) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly) _Bool usageTrusted; // @synthesize usageTrusted=_usageTrusted;
 
 @end
 

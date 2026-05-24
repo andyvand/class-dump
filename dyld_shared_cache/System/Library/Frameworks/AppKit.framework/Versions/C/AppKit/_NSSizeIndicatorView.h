@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSSizeIndicatorView : _NSConstraintIndicatorView
 {
     struct CGRect rect;
-    _Bool isHorizontal;
 }
 
 - (id);

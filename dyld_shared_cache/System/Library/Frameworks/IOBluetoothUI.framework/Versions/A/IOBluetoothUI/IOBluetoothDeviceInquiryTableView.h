@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, IOBluetoothDeviceInquiry, NSArray, NSMutableArray, NSString, NSTableColumn, ObjectTableDataSource;
+@class IOBluetoothDeviceInquiry;
 
 @interface IOBluetoothDeviceInquiryTableView
 {
     IOBluetoothDeviceInquiry *_inquiry;
-    ObjectTableDataSource *_currentTableViewStorage;
-    ObjectTableDataSource *_tableViewStorageAllDevices;
-    ObjectTableDataSource *_tableViewStorageFiltered;
-    int _inquiryIterations;
-    unsigned int _displayExtendedInfoBits;
-    unsigned int _majorServiceClass;
-    unsigned int _majorDeviceClass;
-    unsigned int _minorDeviceClass;
-    int _tmpDevicesRemaining;
-    unsigned char _deviceTypeFilter;
-    unsigned char _deviceCategoryFilter;
-    NSArray *_favoriteDevices;
-    NSArray *_recentDevices;
-    NSMutableArray *_discoveredDevices;
-    NSString *_lastColumnSelected;
-    NSTableColumn *_addressColumn;
-    IOBluetoothDevice *_updatingNameOfDevice;
-    _Bool _updateNewDeviceNames;
-    _Bool _busy;
-    _Bool _infSearch;
-    _Bool _suppressPrefillRecents;
-    _Bool _suppressPrefillFavorites;
-    void *_expansion;
-    void *_expansion2;
 }
 
 - (void);
@@ -62,7 +38,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)initWithProxy:fromInterface:isSync: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -75,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)getSearchAttributes;
 
 @end
 

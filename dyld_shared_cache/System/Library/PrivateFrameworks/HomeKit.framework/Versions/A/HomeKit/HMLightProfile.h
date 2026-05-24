@@ -6,13 +6,12 @@
 
 #import <HomeKit/HMAccessoryProfile.h>
 
-@class HMLightProfileSettings, NSString, _HMLightProfile;
+@class NSString;
 @protocol HMLightProfileDelegate;
 
 @interface HMLightProfile : HMAccessoryProfile
 {
     id <HMLightProfileDelegate> _delegate;
-    NSString *_logIdentifier;
 }
 
 + (id)-event-notifications;
@@ -25,23 +24,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)newlineCharacterSet;
+- (id)$	A	*	M	0	$	?	8	>	0		;
 - (id);
 - (void)´&È'T+ ,ì,-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMLightProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _HMLightProfile *lightProfile;
 @property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) HMLightProfileSettings *settings;
-@property(readonly) Class superclass;
 
 @end
 

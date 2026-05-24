@@ -7,21 +7,19 @@
 @interface PKPaymentBackgroundDownloadRecord
 {
     long long _taskType;
-    long long _retryCount;
 }
 
 + (id);
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id) ;
 - (void);
 - (long long)ÿ;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long retryCount; // @synthesize retryCount=_retryCount;
 @property(nonatomic) long long taskType; // @synthesize taskType=_taskType;
 
 @end

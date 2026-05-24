@@ -7,9 +7,10 @@
 @class NSData, _SFPBPunchout;
 
 @protocol _SFPBOpenPunchoutCommand
+- (_SFPBPunchout *);
+- (NSData *)zedSubtitle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPunchout *punchout;
 @end
 

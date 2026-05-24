@@ -5,14 +5,11 @@
 //
 
 @class NSString;
-@protocol MTLFunction, MTLFunctionLogDebugLocation;
 
 @protocol MTLFunctionLog
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLFunctionLogDebugLocation> debugLocation;
-@property(readonly, nonatomic) NSString *encoderLabel;
-@property(readonly, nonatomic) id <MTLFunction> function;
 @property(readonly, nonatomic) unsigned long long type;
 @end
 

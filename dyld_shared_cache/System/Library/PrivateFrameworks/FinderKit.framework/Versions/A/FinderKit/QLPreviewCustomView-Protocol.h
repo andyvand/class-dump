@@ -9,13 +9,11 @@
 @protocol QLPreviewCustomView
 
 @optional
-- (_Bool)FavoriteTags;
+- (struct CGSize);
+- (void)@9;
+- (_Bool)_forApplyingFavoriteTags;
 
 // Remaining properties
-@property(readonly) _Bool isLoaded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(retain) id <QLPreviewItem> previewItem;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<QLPreviewItem>",?,&

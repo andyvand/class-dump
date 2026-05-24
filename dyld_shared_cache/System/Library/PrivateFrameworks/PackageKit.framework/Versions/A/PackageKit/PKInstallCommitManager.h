@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTask, PKInstallAnalyzer, PKInstallRequest;
-@protocol OS_dispatch_source;
+@class PKInstallRequest;
 
 @interface PKInstallCommitManager
 {
     PKInstallRequest *_installRequest;
-    PKInstallAnalyzer *_analyzer;
-    NSString *_pidPath;
-    _Bool _suspendedSpotlight;
-    NSObject<OS_dispatch_source> *_backupTimerSource;
-    unsigned int _assertionID;
-    NSTask *_monitorTask;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

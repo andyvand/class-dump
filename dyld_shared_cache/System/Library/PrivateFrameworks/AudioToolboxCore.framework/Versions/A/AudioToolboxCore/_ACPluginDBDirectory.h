@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSMutableDictionary, NSString, _ACPluginDB;
+@class _ACPluginDB;
 
 __attribute__((visibility("hidden")))
 @interface _ACPluginDBDirectory
 {
     _ACPluginDB *mDB;
-    NSString *mFullPath;
-    double mModificationDate;
-    int mPriority;
-    NSMutableDictionary *mBundlesByName;
-    struct __FSEventStream *mFSMonitor;
-    double mCurrentModificationDate;
-    NSData *mCarbonComponentHash;
-    _Bool mComponentsLoadable;
-    NSMutableArray *mChangedBundlePaths;
-    unsigned long long mNrOfPathsChanged;
-    _Bool mShouldRescan;
 }
 
 + (_Bool);
@@ -28,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)1@;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)8;
 - (id);
 - (void);
 - (void)¬%

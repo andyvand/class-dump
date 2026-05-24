@@ -9,10 +9,6 @@
 @interface PTDomainInfo
 {
     NSString *_uniqueIdentifier;
-    NSString *_domainGroupName;
-    NSString *_domainName;
-    NSString *_settingsClassName;
-    NSString *_settingsFrameworkBundlePath;
 }
 
 + (id);
@@ -22,19 +18,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)nary"16;
+- (_Bool)ted condition:(id)arg1 %s;
+- (id)PrivateFrameworks/VideoProcessing.framework/VideoProcessing;
+- (void)ImageAestheticsScoresObservation;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)AvailableMechanisms;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *domainGroupName; // @synthesize domainGroupName=_domainGroupName;
-@property(readonly, nonatomic) NSString *domainName; // @synthesize domainName=_domainName;
-@property(readonly, nonatomic) NSString *settingsClassName; // @synthesize settingsClassName=_settingsClassName;
-@property(readonly, nonatomic) NSString *settingsFrameworkBundlePath; // @synthesize settingsFrameworkBundlePath=_settingsFrameworkBundlePath;
 @property(readonly, nonatomic) NSString *uniqueIdentifier;
 
 @end

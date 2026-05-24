@@ -8,6 +8,7 @@
 @protocol WBSWebExtensionTab;
 
 @protocol WBSWebExtensionWindow
+- (WBProfile *)isKindOfClass: /* Error: Ran out of types for this method. */;
 - (NSArray *);
 - (_Bool)$Ð;
 - (id <WBSWebExtensionTab>)è;
@@ -15,13 +16,6 @@
 - (double)¼;
 
 // Remaining properties
-@property(readonly, nonatomic) id <WBSWebExtensionTab> activeWebExtensionTab;
 @property(readonly, nonatomic) double idForWebExtensions;
-@property(readonly, nonatomic) _Bool isFocused;
-@property(readonly, nonatomic) _Bool isPopupWindow;
-@property(readonly, nonatomic) _Bool isPrivate;
-@property(readonly, copy, nonatomic) WBProfile *profile;
-@property(readonly, copy, nonatomic) NSArray *webExtensionTabs;
-@property(readonly, nonatomic) struct CGRect webExtensionWindowGeometry;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PLRegionsClusteringItem
+- (id)o;
 @end
 

@@ -6,9 +6,6 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSDictionary, NSNumber, NSString, SADialog, SAUIIntegratedResponseOptions, SAUIListenAfterSpeakingBehavior, SAVoice;
-@protocol SAAceSerializable;
-
 @interface SAAceView : SABaseAceObject
 {
 }
@@ -18,32 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool canBeRefreshed;
-@property(nonatomic) _Bool canUseServerTTS;
-@property(retain, nonatomic) id <SAAceSerializable> context;
-@property(copy, nonatomic) NSString *correspondingSessionID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSNumber *deferredRendering;
-@property(copy, nonatomic) NSNumber *delayDismissalMs;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SADialog *dialog;
-@property(nonatomic) _Bool disableDeviceRacing;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIIntegratedResponseOptions *integratedResponseOptions;
-@property(nonatomic) _Bool isTransient;
-@property(copy, nonatomic) NSString *itemType;
-@property(copy, nonatomic) NSNumber *listenAfterSpeaking;
-@property(retain, nonatomic) SAUIListenAfterSpeakingBehavior *listenAfterSpeakingBehavior;
-@property(copy, nonatomic) NSString *preferredSpeakableTextPromptStyle;
-@property(retain, nonatomic) SAVoice *preferredSpeakableTextVoice;
-@property(nonatomic) _Bool preserveResultSpaceIfPossible;
-@property(copy, nonatomic) NSString *redactedSpeakableText;
-@property(copy, nonatomic) NSDictionary *speakableContextInfo;
-@property(copy, nonatomic) NSString *speakableText;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *viewId;
 
 @end
 

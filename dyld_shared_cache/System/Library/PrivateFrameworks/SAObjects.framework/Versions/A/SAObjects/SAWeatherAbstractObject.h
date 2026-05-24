@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, SAWeatherAirQualityObject, SAWeatherCurrentConditions, SAWeatherLocation, SAWeatherUnits;
+@class SAWeatherAirQualityObject;
 
 @interface SAWeatherAbstractObject : SADomainObject
 {
@@ -35,13 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAWeatherAirQualityObject *airQuality;
-@property(retain, nonatomic) SAWeatherCurrentConditions *currentConditions;
-@property(copy, nonatomic) NSArray *dailyForecasts;
-@property(copy, nonatomic) NSString *extendedForecastUrl;
-@property(copy, nonatomic) NSArray *hourlyForecasts;
-@property(retain, nonatomic) SAWeatherUnits *units;
-@property(retain, nonatomic) SAWeatherLocation *weatherLocation;
-@property(copy, nonatomic) NSString *weatherRequest;
 
 @end
 

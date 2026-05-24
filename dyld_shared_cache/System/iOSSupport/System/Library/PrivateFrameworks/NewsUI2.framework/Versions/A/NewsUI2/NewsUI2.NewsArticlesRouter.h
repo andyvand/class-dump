@@ -7,8 +7,6 @@
 @interface NewsUI2.NewsArticlesRouter
 {
     id tagService;
-    id navigator;
-    id featureAvailability;
 }
 
 @end

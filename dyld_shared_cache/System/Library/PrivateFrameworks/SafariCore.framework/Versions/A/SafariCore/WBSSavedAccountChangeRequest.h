@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, WBSSavedAccount, WBSTOTPGenerator;
+@class WBSSavedAccount;
 
 @interface WBSSavedAccountChangeRequest
 {
     _Bool _shouldClearHistory;
-    WBSSavedAccount *_savedAccount;
-    NSString *_user;
-    NSString *_password;
-    NSMutableArray *_sites;
-    WBSTOTPGenerator *_totpGenerator;
-    NSString *_notesEntry;
-    NSString *_customTitle;
-    NSArray *_additionalSites;
 }
 
 - (id);
@@ -42,33 +34,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)64;
 - (void);
 - (void)!ØGùXð1Â0@ù
 × ;
 - (id)atorData:signature:userHandle:credentialID: /* Error: Ran out of types for this method. */;
-- (_Bool)stentRef;
-- (void)abGroupUUIDForCurrentFocusModeKey;
+- (_Bool)persistentRef;
+- (void)WBSTabGroupUUIDForCurrentFocusModeKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *additionalSites; // @synthesize additionalSites=_additionalSites;
-@property(copy, nonatomic) NSString *customTitle; // @synthesize customTitle=_customTitle;
-@property(readonly, nonatomic) _Bool hasAdditionalSitesChange;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) _Bool hasCustomTitleChange;
-@property(readonly, nonatomic) _Bool hasNotesEntryChange;
-@property(readonly, nonatomic) _Bool hasPasswordChange;
-@property(readonly, nonatomic) _Bool hasTOTPGeneratorChange;
-@property(readonly, nonatomic) _Bool hasUserChange;
-@property(readonly, nonatomic) _Bool isAddingPasswordToAccountWithPasskey;
-@property(copy, nonatomic) NSString *notesEntry; // @synthesize notesEntry=_notesEntry;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 @property(retain, nonatomic) WBSSavedAccount *savedAccount; // @synthesize savedAccount=_savedAccount;
-@property(nonatomic) _Bool shouldClearHistory; // @synthesize shouldClearHistory=_shouldClearHistory;
-@property(retain, nonatomic) NSMutableArray *sites; // @synthesize sites=_sites;
-@property(retain, nonatomic) WBSTOTPGenerator *totpGenerator; // @synthesize totpGenerator=_totpGenerator;
-@property(copy, nonatomic) NSString *user; // @synthesize user=_user;
-@property(readonly, nonatomic) NSArray *userVisibleSites;
 
 @end
 

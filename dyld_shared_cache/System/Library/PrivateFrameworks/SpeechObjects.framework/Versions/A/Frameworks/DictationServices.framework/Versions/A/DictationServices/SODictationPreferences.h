@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, NSUserDefaults;
+@class NSDictionary, NSUserDefaults;
 
 @interface SODictationPreferences
 {
     NSDictionary *_builtInCommandsTableCache;
-    NSMutableDictionary *_builtInLocalizedCommandStringsByLocaleIdentifier;
-    NSMutableDictionary *_builtInLocalizedCommandExamplesByLocaleIdentifier;
-    NSMutableArray *_propertyTransactions;
-    NSString *_uuid;
-    long long _nashvilleLangaugeStatus;
-    NSUserDefaults *_appleSpeechRecognitionDefaults;
 }
 
 + (void);
@@ -30,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (id);
@@ -39,17 +33,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Rw;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -64,6 +58,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -73,17 +77,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 - (id);
@@ -128,29 +122,29 @@
 - (double);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)!;
 - (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)q,;
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)!;
+- (id)!;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -158,7 +152,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -176,42 +170,39 @@
 - (id);
 - (id);
 - (id);
+- (id)R;
+- (id)r;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (long long);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (id);
 - (double);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool),N,R,VattachmentID;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)idRemoveRowView:(id)arg1 forRow: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 didRemoveRowView:forRow: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *allDictationLanguages;
 @property(readonly) NSUserDefaults *appleSpeechRecognitionDefaults; // @synthesize appleSpeechRecognitionDefaults=_appleSpeechRecognitionDefaults;
-@property(readonly) NSArray *defaultDictationLanguages;
-@property(copy, nonatomic) NSArray *preferredDictationLanguages;
 
 @end
 

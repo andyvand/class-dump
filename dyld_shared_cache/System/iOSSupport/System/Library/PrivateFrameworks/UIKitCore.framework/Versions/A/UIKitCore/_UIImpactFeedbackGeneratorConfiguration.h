@@ -6,44 +6,38 @@
 
 #import <UIKitCore/_UIFeedbackGeneratorConfiguration.h>
 
-@class NSString, _UIFeedback;
+@class _UIFeedback;
 @protocol _UIFeedbackDiscretePlayable;
 
 @interface _UIImpactFeedbackGeneratorConfiguration : _UIFeedbackGeneratorConfiguration
 {
     _UIFeedback<_UIFeedbackDiscretePlayable> *_feedback;
-    CDUnknownBlockType _feedbackUpdateBlock;
-    double _minimumInterval;
-    NSString *_hidFeedbackPatternName;
 }
 
 + (id);
-+ (id);
++ (id)__MPModelPropertySongAnimatedArtwork__MAPPING_MISSING__;
 + (id)Â0@ù
 × ;
-+ (id)compressing: /* Error: Ran out of types for this method. */;
-+ (id)tributeKey:state: /* Error: Ran out of types for this method. */;
++ (id)setFinishedDecompressing: /* Error: Ran out of types for this method. */;
++ (id)_setTitleTextAttributeValue:forAttributeKey:state: /* Error: Ran out of types for this method. */;
 + (id)& Liquid Lens View;
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)newCounterHeapWithDescriptor:error: /* Error: Ran out of types for this method. */;
+- (void)upt_wakeups;
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)Dk;
 - (void)1Â0@ù
 × ;
 - (id){CGRect={CGPoint=dd}{CGSize=dd}}88@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40{CGPoint=dd}72 /* Error: Ran out of types for this method. */;
-- (_Bool):(id)arg1 untransformedSheetFrame:fullHeightUntransformedFrameForDepthLevel:topAlignment:depthLevel:peeks:metrics: /* Error: Ran out of types for this method. */;
-- (double)er;
+- (_Bool)transformForViewControllerView:(id)arg1 untransformedSheetFrame:fullHeightUntransformedFrameForDepthLevel:topAlignment:depthLevel:peeks:metrics: /* Error: Ran out of types for this method. */;
+- (double)_editingOverlayViewController;
 - (id)eThrottle;
 - (void)NSToolbarSection;
 
 // Remaining properties
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *feedback; // @synthesize feedback=_feedback;
-@property(copy, nonatomic) CDUnknownBlockType feedbackUpdateBlock; // @synthesize feedbackUpdateBlock=_feedbackUpdateBlock;
-@property(retain, nonatomic) NSString *hidFeedbackPatternName; // @synthesize hidFeedbackPatternName=_hidFeedbackPatternName;
-@property(nonatomic) double minimumInterval; // @synthesize minimumInterval=_minimumInterval;
 
 @end
 

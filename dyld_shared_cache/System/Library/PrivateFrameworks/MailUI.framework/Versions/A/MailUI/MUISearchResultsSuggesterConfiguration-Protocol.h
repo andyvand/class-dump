@@ -7,11 +7,10 @@
 @class NSArray, NSString;
 
 @protocol MUISearchResultsSuggesterConfiguration
+- (NSString *);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
 @property(readonly, nonatomic) NSArray *fetchAttributes;
-@property(readonly, nonatomic) NSString *logIdentifier;
-@property(readonly, nonatomic) unsigned long long maxItemCount;
 @end
 

@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDScannerResult, NSSet;
+@class NSSet;
 
 @interface CHDataDetectorQueryItem
 {
     struct CGPath *_estimatedBaseline;
-    NSSet *_strokeIdentifiers;
-    DDScannerResult *_dataDetectorResult;
 }
 
 - (id);
 - (struct CGPath *);
 - (_Bool);
-- (id);
-- (void);
+- (id)inches;
+- (void)lder;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)vB;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) DDScannerResult *dataDetectorResult; // @synthesize dataDetectorResult=_dataDetectorResult;
-@property(readonly, nonatomic) struct CGPath *estimatedBaseline; // @synthesize estimatedBaseline=_estimatedBaseline;
 @property(readonly, copy, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
 
 @end

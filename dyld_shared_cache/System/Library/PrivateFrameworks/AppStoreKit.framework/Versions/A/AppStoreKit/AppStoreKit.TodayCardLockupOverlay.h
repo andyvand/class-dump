@@ -9,8 +9,6 @@
 @interface AppStoreKit.TodayCardLockupOverlay : AppStoreKit.TodayCardOverlay
 {
     id lockup;
-    id displaysIcon;
-    id hasMaterialBackground;
 }
 
 @end

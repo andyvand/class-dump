@@ -6,7 +6,7 @@
 
 #import <ScreenTimeCore/STUniquedManagedObject.h>
 
-@class NSDate, NSString, STCoreUser;
+@class STCoreUser;
 
 @interface STCoreOrganizationSettings : STUniquedManagedObject
 {
@@ -14,14 +14,14 @@
 
 + (id);
 + (id);
++ (id)8;
 + (id);
 + (id);
++ (id)WBSCloudBookmarksRecordNamingExtras;
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (void);
-- (void);
+- (id)cal ON composer (keep_local);
+- (void)NTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0, purchase_history_token INTEGER NOT NULL DEFAULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (void)tFromProvider:(long long)arg1 options:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (_Bool);
@@ -33,33 +33,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)_getSavedAccountMatchesFromSavedAccountTreeMatchesOnInternalQueue:(_Bool)arg1 withCriteria:mergingAutoFillPasskeys:nearbyDeviceOptions: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allLimitsEnabled; // @dynamic allLimitsEnabled;
-@property(nonatomic) long long communicationPolicy; // @dynamic communicationPolicy;
-@property(nonatomic) long long communicationWhileLimitedPolicy; // @dynamic communicationWhileLimitedPolicy;
-@property(nonatomic) long long contactManagementState; // @dynamic contactManagementState;
-@property(nonatomic) long long contentPrivacySiriImageGenerationRestriction; // @dynamic contentPrivacySiriImageGenerationRestriction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long defaultUserPolicies; // @dynamic defaultUserPolicies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCommunicationSafetyAnalyticsEnabled; // @dynamic isCommunicationSafetyAnalyticsEnabled;
-@property(nonatomic) _Bool isCommunicationSafetyNotificationEnabled; // @dynamic isCommunicationSafetyNotificationEnabled;
-@property(nonatomic) _Bool isCommunicationSafetyReceivingRestricted;
-@property(nonatomic) _Bool isCommunicationSafetyRestricted;
-@property(nonatomic) _Bool isCommunicationSafetySendingRestricted;
-@property(nonatomic) _Bool isEyeReliefEnabled;
-@property(nonatomic) _Bool isThirdPartyReplacingAppAndWebsiteActivity; // @dynamic isThirdPartyReplacingAppAndWebsiteActivity;
-@property(copy, nonatomic) NSDate *modificationDate; // @dynamic modificationDate;
-@property(nonatomic) _Bool needsToSetPasscode; // @dynamic needsToSetPasscode;
-@property(copy, nonatomic) NSString *passcode; // @dynamic passcode;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) STCoreUser *user; // @dynamic user;
 
 @end

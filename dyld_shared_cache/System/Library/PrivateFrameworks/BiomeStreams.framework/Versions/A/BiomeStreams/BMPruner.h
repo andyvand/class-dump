@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStoreStream, NSString;
+@class BMStoreStream;
 
 @interface BMPruner
 {
     BMStoreStream *_storeStream;
-    NSString *_remote;
 }
 
 + (id);

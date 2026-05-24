@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSTextField, NSView, SiriUIContentButton, SiriUISnippetViewController;
-@protocol NSCollectionViewElement><SiriUIReusableView;
+@class SiriUIContentButton;
 
 @interface SiriUISnippetControllerCell
 {
     SiriUIContentButton *_snippetPunchOutButton;
-    NSTextField *_cancelledLabel;
-    NSView<NSCollectionViewElement><SiriUIReusableView> *_headerView;
-    NSView<NSCollectionViewElement><SiriUIReusableView> *_footerView;
-    NSView<NSCollectionViewElement><SiriUIReusableView> *_transparentHeaderView;
-    NSView<NSCollectionViewElement><SiriUIReusableView> *_transparentFooterView;
-    NSMutableArray *_allConstraints;
-    SiriUISnippetViewController *_snippetViewController;
-    struct NSEdgeInsets _snippetEdgeInsets;
 }
 
 + (double);
@@ -44,29 +35,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)Ð«Ö;
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)ÁxÐ!ØBùQÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
 @property(nonatomic, getter=_snippetEdgeInsets, setter=_setSnippetEdgeInsets:) struct NSEdgeInsets snippetEdgeInsets; // @synthesize snippetEdgeInsets=_snippetEdgeInsets;
-@property(nonatomic) __weak SiriUISnippetViewController *snippetViewController; // @synthesize snippetViewController=_snippetViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SiriUISnippetViewController",?,W,N,V_snippetViewController
-
-@property(readonly) Class superclass;
 
 @end
 

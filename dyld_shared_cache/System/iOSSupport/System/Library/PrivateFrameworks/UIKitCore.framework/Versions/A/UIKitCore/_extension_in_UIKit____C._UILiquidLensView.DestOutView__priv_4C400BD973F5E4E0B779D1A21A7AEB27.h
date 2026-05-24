@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
-- (id);
-- (id)entAttributes;
-- (void)_detected;
+- (id)o;
+- (id)UISRenderingEnvironmentAttributes;
+- (void)lift_detected;
 - (void)µÑDal;
 
 @end

@@ -6,30 +6,29 @@
 
 #import <PassKitCore/PKDataAccessor.h>
 
-@class NSString, PKPassLibrary;
+@class PKPassLibrary;
 
 @interface PKRemoteDataAccessor : PKDataAccessor
 {
     PKPassLibrary *_library;
-    NSString *_objectUniqueID;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (id);
+- (id)	;
 - (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)associationEvents;
 - (void);
 - (id)alue of %@. Ignoring.;
 - (id)for key:%@. /* Error: Ran out of types for this method. */;
@@ -37,7 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PKPassLibrary *library; // @synthesize library=_library;
-@property(readonly, nonatomic) NSString *objectUniqueID; // @synthesize objectUniqueID=_objectUniqueID;
 
 @end
 

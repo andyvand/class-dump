@@ -5,12 +5,10 @@
 //
 
 @class CNObservable;
-@protocol CNCancelable;
 
 @interface _CNUILikenessCacheEntry
 {
     CNObservable *_provider;
-    id <CNCancelable> _cancelationToken;
 }
 
 - (id);
@@ -20,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNCancelable> cancelationToken; // @synthesize cancelationToken=_cancelationToken;
 @property(readonly, nonatomic) CNObservable *provider; // @synthesize provider=_provider;
 
 @end

@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFuture, NSArray, NSString;
-@protocol CNCancelable, CNDowntimeWhitelistContainerFetching, CNScheduler, CNSchedulerProvider, CNUICoreContactStoreFacade, CNUICoreFamilyMemberContactsModelFetching, CNUICoreFamilyMemberContactsObserver;
+@class NSArray;
+@protocol CNUICoreFamilyMemberContactsModelFetching;
 
 @interface CNUICoreMainWhitelistedContactsController
 {
     NSArray *_familyMemberContactItems;
-    id <CNUICoreFamilyMemberContactsObserver> _observer;
-    id <CNUICoreFamilyMemberContactsModelFetching> _modelFetcher;
-    id <CNUICoreContactStoreFacade> _mainContactStoreFacade;
-    id <CNDowntimeWhitelistContainerFetching> _downtimeContainerFetcher;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNFuture *_familyMemberContactItemsFuture;
-    CNFuture *_addContactsToWhitelistFuture;
-    CNFuture *_updateContactsInWhitelistFuture;
-    CNFuture *_deleteContactsFromWhitelistFuture;
-    id <CNCancelable> _contactStoreDidChangeToken;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,10 +27,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,34 +43,14 @@
 - (id);
 - (void);
 - (void);
+- (id)7;
 - (id);
-- (id);
-- (void)istByAddingContacts: /* Error: Ran out of types for this method. */;
+- (void)updateContactListByAddingContacts: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)GenerateObjectnessBasedSaliencyImageRequest in fetchColorsForImage:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CNFuture *addContactsToWhitelistFuture; // @synthesize addContactsToWhitelistFuture=_addContactsToWhitelistFuture;
-@property(readonly, nonatomic) id <CNScheduler> backgroundOrImmediateScheduler;
-@property(readonly, nonatomic) id <CNCancelable> contactStoreDidChangeToken; // @synthesize contactStoreDidChangeToken=_contactStoreDidChangeToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) CNFuture *deleteContactsFromWhitelistFuture; // @synthesize deleteContactsFromWhitelistFuture=_deleteContactsFromWhitelistFuture;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CNDowntimeWhitelistContainerFetching> downtimeContainerFetcher; // @synthesize downtimeContainerFetcher=_downtimeContainerFetcher;
-@property(retain, nonatomic) NSArray *familyMemberContactItems; // @synthesize familyMemberContactItems=_familyMemberContactItems;
-@property(retain, nonatomic) CNFuture *familyMemberContactItemsFuture; // @synthesize familyMemberContactItemsFuture=_familyMemberContactItemsFuture;
-@property(readonly, nonatomic) _Bool familyMemberContainerIsEmpty;
-@property(readonly, nonatomic) long long fetchStatus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNUICoreContactStoreFacade> mainContactStoreFacade; // @synthesize mainContactStoreFacade=_mainContactStoreFacade;
 @property(readonly, nonatomic) id <CNUICoreFamilyMemberContactsModelFetching> modelFetcher; // @synthesize modelFetcher=_modelFetcher;
-@property(nonatomic) __weak id <CNUICoreFamilyMemberContactsObserver> observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNFuture *updateContactsInWhitelistFuture; // @synthesize updateContactsInWhitelistFuture=_updateContactsInWhitelistFuture;
 
 @end
 

@@ -6,20 +6,18 @@
 
 #import <AdCore/ADSingleton.h>
 
-@class NSMutableDictionary, NSNumber, NSObject;
+@class NSNumber, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ADWatchDogManager : ADSingleton
 {
     NSObject<OS_dispatch_queue> *_watchdogQueue;
-    NSNumber *_currentToken;
-    NSMutableDictionary *_tokenCollection;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)n value.;
 - (id);
 - (void);
 - (id);
@@ -31,7 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *currentToken; // @synthesize currentToken=_currentToken;
-@property(readonly, nonatomic) NSMutableDictionary *tokenCollection; // @synthesize tokenCollection=_tokenCollection;
 
 @end
 

@@ -4,51 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, UIPDFPageView;
+@class CALayer, UIPDFPageView;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFTextRangeWidget
 {
     CALayer *_startSelectionGrabber;
-    CALayer *_startBar;
-    CALayer *_endSelectionGrabber;
-    CALayer *_endBar;
-    CALayer *_startHandle;
-    CALayer *_endHandle;
-    CALayer *_fixedSelectionGrabber;
-    UIPDFPageView *_pageView;
-    double _handleHeight;
-    double _handleWidth;
-    struct CGPoint _initialSelectionPointOnPage;
-    double _offsetX;
-    double _offsetY;
-    unsigned long long _startIndex;
-    unsigned long long _endIndex;
-    struct CGColor *_grabberColor;
-    long long _startRectangle;
-    long long _endRectangle;
-    _Bool _startLeft;
-    _Bool _endRight;
-    double _startX;
-    double _endX;
 }
 
-- (struct CGPoint);
-- (void);
-- (void);
+- (struct CGPoint)n",&,N,V_syncToken;
+- (void)4;
+- (void)rtCGG;
 - (void);
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
-- (void);
-- (struct CGPoint);
-- (_Bool);
-- (void);
-- (struct CGPoint);
+- (void)or checking eligibility:%@ /* Error: Ran out of types for this method. */;
+- (void)atch size %d);
+- (struct CGPoint)ce Session Received a request to enroll a device into SMS Relay from:%@ to:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)D= %@, unformatted=%@; country=%@; roomName='%@'; flags=0x%llx; subject='%@' text='%@' messageID:(struct CGPoint)arg1 %lld GUID:(struct CGPoint *)arg2 '%@' sortID:(_Bool *)arg3 %lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)ckForSMSSpam:checking SMS spam for chatid %@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)d };
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_payloadCCPEnabled;
 - (id);
 - (id);
 - (void)fe_unretained, NSInteger);
@@ -57,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)j1;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint currentSelectionPointOnPage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGPoint initialSelectionPointOnPage; // @synthesize initialSelectionPointOnPage=_initialSelectionPointOnPage;
 @property(nonatomic) UIPDFPageView *pageView; // @synthesize pageView=_pageView;
-@property(readonly) Class superclass;
 
 @end
 

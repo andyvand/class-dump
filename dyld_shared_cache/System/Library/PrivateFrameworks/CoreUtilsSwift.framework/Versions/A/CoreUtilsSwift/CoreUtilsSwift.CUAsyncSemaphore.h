@@ -7,9 +7,6 @@
 @interface CoreUtilsSwift.CUAsyncSemaphore
 {
     id _continuations;
-    id _lock;
-    id _signalCount;
-    id _values;
 }
 
 @end

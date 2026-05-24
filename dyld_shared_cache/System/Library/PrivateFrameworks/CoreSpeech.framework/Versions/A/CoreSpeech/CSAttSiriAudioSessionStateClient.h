@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFNotifyObserver, NSObject, NSString;
-@protocol CSAttSiriSessionStateDelegate, OS_dispatch_queue;
+@class AFNotifyObserver;
 
 @interface CSAttSiriAudioSessionStateClient
 {
     _Bool _isSpeaking;
-    _Bool _isListening;
-    _Bool _isActiveRequest;
-    _Bool _isActiveSession;
-    id <CSAttSiriSessionStateDelegate> _delegate;
-    AFNotifyObserver *_siriStateObserver;
-    NSObject<OS_dispatch_queue> *_stateNotificationQueue;
 }
 
-- (id);
+- (id)[;
 - (id);
 - (void);
 - (void);
@@ -29,29 +22,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)s:(id)arg1 usesAutomaticEndpointing:(unsigned long long)arg2;
-- (void)topStream:reason:withEventUUID:forAccessory: /* Error: Ran out of types for this method. */;
+- (void)attSiriNode:(id)arg1 didDetectHardEndpointAtTime:(unsigned long long)arg2 withMetrics:(unsigned long long)arg3 usesAutomaticEndpointing: /* Error: Ran out of types for this method. */;
+- (void)accessorySiriClientBehaviorMonitor:didStopStream:reason:withEventUUID:forAccessory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CSAttSiriSessionStateDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActiveRequest; // @synthesize isActiveRequest=_isActiveRequest;
-@property(nonatomic) _Bool isActiveSession; // @synthesize isActiveSession=_isActiveSession;
-@property(nonatomic) _Bool isListening; // @synthesize isListening=_isListening;
-@property(nonatomic) _Bool isSpeaking; // @synthesize isSpeaking=_isSpeaking;
 @property(retain, nonatomic) AFNotifyObserver *siriStateObserver; // @synthesize siriStateObserver=_siriStateObserver;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *stateNotificationQueue; // @synthesize stateNotificationQueue=_stateNotificationQueue;
-@property(readonly) Class superclass;
 
 @end
 

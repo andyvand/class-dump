@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, NSString;
+@class AVPlayer;
 
 @interface PXSimpleVideoScrubberControllerTarget
 {
     CDStruct_1b6d18a9 _currentItemDuration;
-    CDUnknownBlockType statusChangeHandler;
-    CDUnknownBlockType durationChangeHandler;
-    CDUnknownBlockType playerItemChangeHandler;
-    AVPlayer *_videoPlayer;
 }
 
 - (void);
@@ -35,20 +31,10 @@
 - (id);
 - (id)@ù
 × ;
-- (void)t;
-- (float)pleIntentAction;
+- (void)ScrollRequest;
+- (float)HidePeopleIntentAction;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType durationChangeHandler; // @synthesize durationChangeHandler;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType playerItemChangeHandler; // @synthesize playerItemChangeHandler;
-@property(copy, nonatomic) CDUnknownBlockType statusChangeHandler; // @synthesize statusChangeHandler;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) AVPlayer *videoPlayer; // @synthesize videoPlayer=_videoPlayer;
 
 @end

@@ -9,24 +9,17 @@
 @interface PFBugReport
 {
     id domain;
-    id system;
-    id errorKind;
-    _Bool forceSubmissionAttempt;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)J!;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *domainString;
-@property(nonatomic, readonly) NSString *errorKindString;
-@property(nonatomic, readonly) _Bool forceSubmissionAttempt; // @synthesize forceSubmissionAttempt;
-@property(nonatomic, readonly) NSString *signature;
-@property(nonatomic, readonly) NSString *systemString;
 
 @end
 

@@ -10,14 +10,13 @@
 @interface AFClientLiteInternal
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _commandHandler;
 }
 
 - (id);
 - (oneway void);
 - (void);
-- (void);
-- (void)PluginManager;
+- (void)ceTransaction"8;
+- (void)AFPluginManager;
 
 @end
 

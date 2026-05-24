@@ -5,5 +5,7 @@
 //
 
 @protocol PLArchiveJobManager
+- (void)NFDigitalCarKeyEndEvent;
+- (_Bool)Component;
 @end
 

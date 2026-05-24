@@ -14,13 +14,13 @@
 }
 
 + (_Bool);
-- (void);
+- (void)ULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, cloud_status INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, downloader_account_id INTEGER NOT NULL DEFAULT 0, family_account_id INTEGER NOT NULL DEFAULT 0, is_protected INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (id)SE WHEN cloud_artwork_token != '' THEN cloud_artwork_token ELSE (CASE WHEN sync_artwork_token != '' THEN sync_artwork_token ELSE (CASE WHEN purchase_history_artwork_token != '' THEN purchase_history_artwork_token ELSE (CASE WHEN store_artwork_token != '' THEN store_artwork_token ELSE '' END) END) END) END), best_artwork_source_type = (CASE WHEN cloud_artwork_token != '' THEN 1 ELSE (CASE WHEN sync_artwork_token != '' THEN 2 ELSE (CASE WHEN purchase_history_artwork_token != '' THEN 3 ELSE (CASE WHEN store_artwork_token != '' THEN 4 ELSE 0 END) END) END) END);
+- (void)TER TABLE album_artist ADD COLUMN artist_artwork_cache_id TEXT NOT NULL DEFAULT '';
+- (id)rsion = 1140130;;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ibswiftUniformTypeIdentifiers.dylib;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *childName; // @synthesize childName=_childName;

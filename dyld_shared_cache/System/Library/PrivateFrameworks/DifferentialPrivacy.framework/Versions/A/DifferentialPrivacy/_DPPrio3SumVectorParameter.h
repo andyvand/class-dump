@@ -7,12 +7,9 @@
 @interface _DPPrio3SumVectorParameter
 {
     long long bitWidth;
-    long long numOfAggregators;
-    long long numberOfProofs;
-    unsigned int vdafType;
 }
 
-- (unsigned int);
+- (unsigned int);
 - (long long);
 - (long long);
 - (id);
@@ -21,9 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long bitWidth; // @synthesize bitWidth;
-@property(nonatomic, readonly) long long numOfAggregators; // @synthesize numOfAggregators;
-@property(nonatomic, readonly) long long numberOfProofs; // @synthesize numberOfProofs;
-@property(nonatomic, readonly) unsigned int vdafType; // @synthesize vdafType;
 
 @end
 

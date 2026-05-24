@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject, NSString, PHPhotoLibrary, PXSharedLibrarySharingSuggestionsCountsManager, PXSharedLibrarySharingSuggestionsDataSource, PXUpdater;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXSharedLibrarySharingSuggestionsDataSourceManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_lock_promiseByContainer;
-    _Bool _isPerformingInitialLoad;
-    _Bool _hasLoadedInitially;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_dispatch_queue> *_sharedQueue;
-    PXUpdater *_updater;
-    PXSharedLibrarySharingSuggestionsCountsManager *_countsManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_considerNewAfterDate;
-    NSDate *_aggregateBeforeDate;
 }
 
 + (void);
@@ -39,12 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -52,32 +37,21 @@
 - (void);
 - (id);
 - (id);
+- (void)a;
 - (void);
+- (void)_componentInteractionHandlerManager;
+- (id);
+- (id)deshowMediaItemLookupDelegate>",V_mediaItemLookupDelegate;
+- (void)audioPriority;
 - (id)r;
-- (id)ImageProviderErrorDomain;
+- (id)PXFlexMusicImageProviderErrorDomain;
 - (void))(__strong id<PXSharedLibrary>, NSError * _Nullable __strong));
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *aggregateBeforeDate; // @synthesize aggregateBeforeDate=_aggregateBeforeDate;
-@property(retain, nonatomic) NSDate *considerNewAfterDate; // @synthesize considerNewAfterDate=_considerNewAfterDate;
-@property(readonly, nonatomic) PXSharedLibrarySharingSuggestionsCountsManager *countsManager; // @synthesize countsManager=_countsManager;
-@property(readonly, nonatomic) PXSharedLibrarySharingSuggestionsDataSource *currentDataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLoadedInitially; // @synthesize hasLoadedInitially=_hasLoadedInitially;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPerformingInitialLoad; // @synthesize isPerformingInitialLoad=_isPerformingInitialLoad;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain) NSObject<OS_dispatch_queue> *sharedQueue; // @synthesize sharedQueue=_sharedQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end
 

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INPerson, NSNumber, NSString;
+@class NSString;
 
 @protocol INFilePropertyExport
+- (void)T8;
+- (NSString *);
 - (void)!ôEùñ¾(Ð1Â0@ù
 × ;
 - (void)oadHomeUserTasks;
 
 // Remaining properties
-@property(copy) INDateComponentsRange *dateComponentsRange;
 @property(copy) NSString *name;
-@property(copy) INPerson *person;
-@property(copy) NSString *qualifier;
-@property(copy) NSNumber *quantity;
-@property(copy) NSString *type;
-@property(copy) NSString *value;
 @end
 

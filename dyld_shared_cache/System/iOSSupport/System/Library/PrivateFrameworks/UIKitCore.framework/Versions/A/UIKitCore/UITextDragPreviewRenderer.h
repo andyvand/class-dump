@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutManager, NSString, UIImage;
+@class NSLayoutManager;
 
 @interface UITextDragPreviewRenderer
 {
     struct _NSRange _range;
-    struct CGRect _firstRect;
-    struct CGRect _lastRect;
-    struct CGRect _middleRect;
-    struct CGPoint _origin;
-    UIImage *_image;
-    _Bool _calculated;
-    _Bool _unifyRects;
-    _Bool _excludeBackground;
-    NSLayoutManager *_layoutManager;
 }
 
+- (void)handlePriorityMessageCommandWithPipeline:(_Bool)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)};
 - (id);
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (struct CGRect);
-- (void);
-- (void);
+- (struct CGRect)ming CTS check;
+- (void)SA2 Trusted) Already added device to paired list once %@;
+- (void)add an item but we already have its ID, ignoring and moving on.;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -40,19 +31,7 @@
 - (id)þýtÔ $e;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bodyRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool excludeBackground; // @synthesize excludeBackground=_excludeBackground;
-@property(readonly, nonatomic) struct CGRect firstLineRect;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *image;
-@property(readonly, nonatomic) struct CGRect lastLineRect;
 @property(readonly, nonatomic) NSLayoutManager *layoutManager; // @synthesize layoutManager=_layoutManager;
-@property(readonly) Class superclass;
 
 @end
 

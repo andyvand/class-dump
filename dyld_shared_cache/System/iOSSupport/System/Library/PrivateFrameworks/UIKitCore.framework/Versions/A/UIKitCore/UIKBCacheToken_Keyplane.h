@@ -6,35 +6,18 @@
 
 #import <UIKitCore/UIKBCacheToken.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIKBCacheToken_Keyplane : UIKBCacheToken
 {
     struct CGSize _size;
-    CDUnion_bf7716c0 _style;
-    NSString *_geometrySetName;
-    NSString *_keySetName;
-    NSString *_cachedGestureKeySetName;
-    NSString *_annotations;
-    NSString *_locale;
-    _Bool _colorAdaptiveBackground;
-    _Bool _lightKeyboard;
-    _Bool _animatedBackground;
-    _Bool _usesCompactKeycapsFont;
-    int _controlKeyBackgroundName;
-    int _appSpecificBackgroundContrastSetting;
-    int _appSpecificDarkenSystemColorsSetting;
-    int _appSpecificEnhanceTextLegibilitySetting;
-    int _appSpecificReduceHighlightingEffectsSetting;
 }
 
 + (id)!ð@ù±c°1Â0@ù
 × ;
-- (void);
+- (void)X;
 - (CDStruct_227bb23d);
 - (id);
-- (void);
+- (void)MPModelGroupKind;
 - (_Bool);
 - (void);
 - (struct CGSize)!@ùÑc°1Â0@ù

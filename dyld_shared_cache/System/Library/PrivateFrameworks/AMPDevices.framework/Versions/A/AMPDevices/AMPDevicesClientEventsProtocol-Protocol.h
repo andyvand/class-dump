@@ -5,5 +5,10 @@
 //
 
 @protocol AMPDevicesClientEventsProtocol
+
+@optional
+- (void);
+- (void);
+- (void)A;
 @end
 

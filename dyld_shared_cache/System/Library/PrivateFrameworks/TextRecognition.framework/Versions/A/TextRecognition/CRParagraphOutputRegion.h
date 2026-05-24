@@ -6,12 +6,11 @@
 
 #import <TextRecognition/CRCompositeOutputRegion.h>
 
-@class CRNormalizedQuad, NSArray, NSString;
+@class CRNormalizedQuad;
 
 @interface CRParagraphOutputRegion : CRCompositeOutputRegion
 {
     _Bool _useLineSeparatorAsJoiningDelimiter;
-    CRNormalizedQuad *_topBottomEdgesQuad;
 }
 
 + (id);
@@ -23,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (void);
 - (id);
@@ -32,17 +31,7 @@
 - (unsigned long long)ô;
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *subregions;
-@property(readonly) Class superclass;
 @property(retain) CRNormalizedQuad *topBottomEdgesQuad; // @synthesize topBottomEdgesQuad=_topBottomEdgesQuad;
-@property _Bool useLineSeparatorAsJoiningDelimiter; // @synthesize useLineSeparatorAsJoiningDelimiter=_useLineSeparatorAsJoiningDelimiter;
 
 @end
 

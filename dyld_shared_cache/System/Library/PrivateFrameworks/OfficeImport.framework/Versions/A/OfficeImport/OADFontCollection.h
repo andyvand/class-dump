@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_scriptToFontMap;
 }
 
-- (void);
+- (void)#;
 - (_Bool);
 - (id);
 - (id);

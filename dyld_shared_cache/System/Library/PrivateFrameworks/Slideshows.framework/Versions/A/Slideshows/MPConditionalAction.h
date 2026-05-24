@@ -11,8 +11,6 @@
 @interface MPConditionalAction : MPAction
 {
     NSString *_predicate;
-    MPAction *_actionIfTrue;
-    MPAction *_actionIfFalse;
 }
 
 + (id);
@@ -22,18 +20,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (id);
+- (id)x;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) MPAction *actionIfFalse; // @synthesize actionIfFalse=_actionIfFalse;
-@property(readonly) MPAction *actionIfTrue; // @synthesize actionIfTrue=_actionIfTrue;
 @property(copy, nonatomic) NSString *predicate; // @synthesize predicate=_predicate;
 
 @end

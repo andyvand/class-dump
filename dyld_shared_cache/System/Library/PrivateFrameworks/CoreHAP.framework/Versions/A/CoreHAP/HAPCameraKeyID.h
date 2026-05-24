@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCameraKeyID
 {
@@ -16,22 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)refreshExtensionContextForLiveLookupExtensionWithIdentifier:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithData:(id)arg1;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)!;
 - (id);
 - (void)oryServerTransport>"24@"<HAP2AccessoryServerSecureTransportFactory>"32@"<HAP2AccessoryServerEncoding>"40@"HAP2SerializedOperationQueue"48;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *keyID; // @synthesize keyID=_keyID;
-@property(readonly) Class superclass;
 
 @end
 

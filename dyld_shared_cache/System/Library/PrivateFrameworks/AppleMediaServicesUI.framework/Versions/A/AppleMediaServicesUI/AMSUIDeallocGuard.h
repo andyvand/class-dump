@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface AMSUIDeallocGuard
 {
     _Bool _invalidated;
-    struct os_unfair_lock_s _invalidationLock;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (void);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s)catharsis;
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void)ewControllers: /* Error: Ran out of types for this method. */;
+- (void)setViewControllers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly) struct os_unfair_lock_s invalidationLock; // @synthesize invalidationLock=_invalidationLock;
 
 @end
 

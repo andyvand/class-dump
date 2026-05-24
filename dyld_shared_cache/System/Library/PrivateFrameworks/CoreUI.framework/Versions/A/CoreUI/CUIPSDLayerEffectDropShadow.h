@@ -6,22 +6,14 @@
 
 #import <CoreUI/CUIPSDLayerEffectComponent.h>
 
-@class CUIColor;
-
 @interface CUIPSDLayerEffectDropShadow : CUIPSDLayerEffectComponent
 {
     int _blendMode;
-    double _opacity;
-    CUIColor *_color;
-    short _angle;
-    unsigned long long _distance;
-    unsigned long long _blurSize;
-    unsigned long long _spread;
 }
 
 - (_Bool);
-- (void);
-- (id);
+- (void)q;
+- (id)K%;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -29,24 +21,18 @@
 - (void);
 - (unsigned int);
 - (id);
-- (int);
+- (int);
 - (id);
 - (unsigned long long);
 - (double);
 - (void);
 - (short);
 - (void);
-- (void);
+- (void);
 - (void)athElementLength}^QQQ}16@0:(unsigned long long)arg1 8;
 
 // Remaining properties
-@property short angle; // @synthesize angle=_angle;
 @property int blendMode; // @synthesize blendMode=_blendMode;
-@property unsigned long long blurSize; // @synthesize blurSize=_blurSize;
-@property(retain) CUIColor *color; // @synthesize color=_color;
-@property unsigned long long distance; // @synthesize distance=_distance;
-@property double opacity; // @synthesize opacity=_opacity;
-@property unsigned long long spread; // @synthesize spread=_spread;
 
 @end
 

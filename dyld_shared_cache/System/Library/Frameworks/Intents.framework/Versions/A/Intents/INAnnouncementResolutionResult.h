@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)thumbnailRequestForFileAtURL:(id)arg1 size:minimumSize:scale:iconMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.BackgroundTaskSchedulerDriver
 {
     id bgscheduler;
+    id;
 }
 
 @end

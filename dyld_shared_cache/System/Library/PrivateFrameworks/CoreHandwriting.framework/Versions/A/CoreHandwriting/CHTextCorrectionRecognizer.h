@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHCornerDetector, NSArray;
-@protocol CHRecognizingSketch, CHRecognizingText;
+@class NSArray;
 
 @interface CHTextCorrectionRecognizer
 {
     _Bool _isRemoteRecognition;
-    NSArray *_locales;
-    id <CHRecognizingText> __textRecognizer;
-    id <CHRecognizingSketch> __shapeRecognizer;
-    CHCornerDetector *__cornerDetector;
 }
 
-+ (struct _NSRange);
++ (struct _NSRange)Rj;
 + (id);
 - (id);
 - (_Bool);
@@ -25,7 +20,6 @@
 - (void)$°;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isRemoteRecognition; // @synthesize isRemoteRecognition=_isRemoteRecognition;
 @property(readonly, copy, nonatomic) NSArray *locales; // @synthesize locales=_locales;
 
 @end

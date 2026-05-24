@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineSettingsClearAll
 {
     unsigned long long _timestamp;
-    NSString *_sessionId;
-    CDStruct_b5306035 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)�;
+- (void)TID;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)?;
+- (_Bool)T;
 - (void);
 - (void);
 - (void);
@@ -29,14 +25,11 @@
 - (id);
 - (void)1Ð%ð1Â0@ù
 × ;
-- (_Bool)atus: /* Error: Ran out of types for this method. */;
-- (id)etHasHeartbeatRegister: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasVettingStatus: /* Error: Ran out of types for this method. */;
+- (id)setHasHeartbeatRegister: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSessionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

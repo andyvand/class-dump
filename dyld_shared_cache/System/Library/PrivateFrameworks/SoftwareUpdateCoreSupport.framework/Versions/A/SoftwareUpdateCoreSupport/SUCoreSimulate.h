@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, SUCoreSimulateEvent;
-@protocol OS_dispatch_queue;
-
 @interface SUCoreSimulate
 {
     _Bool _simulatorEnabled;
-    int _alterationsPerformed;
-    SUCoreSimulateEvent *_lastAlteration;
-    NSObject<OS_dispatch_queue> *_simulateQueue;
-    NSDictionary *_eventAlterations;
-    CDUnknownBlockType _registeredCallback;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)0;
 - (_Bool);
 - (id);
 - (void);
@@ -36,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)k58;
 - (void);
 - (id);
 - (_Bool);
@@ -48,7 +40,7 @@
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)24;
 - (id);
 - (_Bool);
 - (void);
@@ -61,11 +53,6 @@
 
 // Remaining properties
 @property(nonatomic) int alterationsPerformed; // @synthesize alterationsPerformed=_alterationsPerformed;
-@property(retain, nonatomic) NSDictionary *eventAlterations; // @synthesize eventAlterations=_eventAlterations;
-@property(retain, nonatomic) SUCoreSimulateEvent *lastAlteration; // @synthesize lastAlteration=_lastAlteration;
-@property(copy, nonatomic) CDUnknownBlockType registeredCallback; // @synthesize registeredCallback=_registeredCallback;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *simulateQueue; // @synthesize simulateQueue=_simulateQueue;
-@property(readonly, nonatomic) _Bool simulatorEnabled; // @synthesize simulatorEnabled=_simulatorEnabled;
 
 @end
 

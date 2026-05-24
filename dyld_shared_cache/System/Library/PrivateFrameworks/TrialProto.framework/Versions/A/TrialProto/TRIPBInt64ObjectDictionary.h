@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt64ObjectDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (id);
@@ -22,7 +21,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)gasusDefinedState"b1};
 - (void);
 - (id);
 - (id);
@@ -30,7 +29,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)@;
 - (void);
 - (_Bool)ymentId"b1};
 - (void)FedStatsBiomePhotos;

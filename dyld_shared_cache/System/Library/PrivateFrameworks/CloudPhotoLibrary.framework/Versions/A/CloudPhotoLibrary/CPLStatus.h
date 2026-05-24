@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLAccountFlags, NSArray, NSData, NSDate, NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSURL, Protocol;
-@protocol CPLStatusDelegate, OS_dispatch_queue;
+@class NSDate;
 
 @interface CPLStatus
 {
     _Bool _forCPL;
-    NSMutableSet *_changedKeys;
-    NSURL *_statusFileURL;
-    NSMutableDictionary *_status;
-    NSObject<OS_dispatch_queue> *_lock;
-    Protocol *_delegationProtocol;
-    SEL _delegationSelector;
-    id <CPLStatusDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 + (id);
@@ -27,7 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (long long);
@@ -66,20 +57,19 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)àª}è;
-- (id)ã;
-- (void))@ù?ë!;
-- (void)j;
-- (_Bool)B©ÿÃÿ_Öê¤#ÕÿÑé#	mø_
-©öW©ôO©ý{©ýCóªô;
-- (void)ÿ°?ÁÚÈ¥ÐAð£©÷/;
-- (unsigned long long)ø_©öW©ôO©ý{©ýõªóª÷;
-- (_Bool)P;
-- (id)ªâªÆºýªÆú;
-- (void)BÀ	àª!öýª!Ðhjyø`j9øàªÐ¾Ð1¹hjhø¾Ð:(_Bool)arg1 -¹`jzø©Sð!á;âª	?Öàª­ÏâªÍå¾Ð	9¹hjiø`j)øàªýÏ¾Ð5¹hjhø`jzø	qÐ!á;	?Ö`jyøwj9øóÏàªõÏöªU;
-- (void)f§7;
-- (_Bool)ÕÿCÑø_©öW©ôO©ý{©ýôªó;
-- (_Bool);
+- (void);
+- (id)c;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool));
 - (_Bool);
 - (void);
 - (_Bool);
@@ -89,14 +79,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)h
+;
+- (void)t;
 - (_Bool);
 - (void);
-- (void);
+- (void)b;
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -107,11 +98,11 @@
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -120,62 +111,11 @@
 × ;
 - (id)ÔaÂð!CùÑð1Â0@ù
 × ;
-- (id)completionHandler: /* Error: Ran out of types for this method. */;
+- (id)updateShareForScope:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)tside of a read transaction (current transaction is %@);
 
 // Remaining properties
-@property(nonatomic) long long accountEPPCapability;
-@property(readonly, nonatomic) CPLAccountFlags *accountFlags;
-@property(copy, nonatomic) NSData *accountFlagsData;
-@property(readonly, nonatomic) long long blockedReason;
-@property(nonatomic) long long busyState;
-@property(readonly, nonatomic, getter=isCellularRestricted) _Bool cellularRestricted;
-@property(readonly, nonatomic) long long clientFeatureCompatibleVersion;
-@property(readonly, nonatomic) NSDictionary *cloudAssetCountPerType;
-@property(readonly, nonatomic) NSDate *cloudAssetCountPerTypeLastCheckDate;
-@property(readonly, nonatomic, getter=isConnectedToNetwork) _Bool connectedToNetwork;
-@property(nonatomic) _Bool containerHasBeenWiped;
-@property(nonatomic) __weak id <CPLStatusDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(copy, nonatomic) NSArray *disabledFeatures;
-@property(nonatomic) unsigned long long estimatedCountOfRemainingRecordsDuringSharedLibraryExit;
-@property(copy, nonatomic) NSDate *exitDeleteTime;
-@property(readonly, nonatomic) _Bool hasBatteryBudget;
-@property(readonly, nonatomic) _Bool hasCellularBudget;
-@property(nonatomic) _Bool hasChangesToProcess;
-@property(readonly, nonatomic) _Bool hasFinishedInitialDownload;
-@property(readonly, nonatomic) _Bool hasHeavyResourceUsage;
-@property(readonly, nonatomic) _Bool hasLowBatteryLevel;
-@property(readonly, nonatomic) _Bool hasModerateThermalPressure;
-@property(readonly, nonatomic) _Bool hasPoorNetworkQuality;
-@property(readonly, nonatomic) _Bool hasPoorSystemConditions;
-@property(nonatomic) _Bool hasSomeSharedCollections;
-@property(readonly, nonatomic) _Bool hasThermalPressure;
-@property(readonly, nonatomic) _Bool hasValidSystemBudget;
-@property(nonatomic) _Bool iCloudLibraryClientIsNotAuthenticated;
-@property(nonatomic) _Bool iCloudLibraryClientVersionTooOld;
-@property(nonatomic) _Bool iCloudLibraryExists;
-@property(nonatomic) _Bool iCloudLibraryHasBeenWiped;
-@property(readonly, nonatomic, getter=isInAirplaneMode) _Bool inAirplaneMode;
-@property(copy, nonatomic) NSDate *initialDownloadDate;
-@property(copy, nonatomic) NSDate *initialSyncDate;
-@property(readonly, nonatomic) _Bool isBlockedByLowPowerMode;
-@property(readonly, nonatomic) _Bool isBlockedBySnapshot;
-@property(readonly, nonatomic) _Bool isConstrainedNetwork;
-@property(nonatomic) _Bool isExceedingQuota;
-@property(nonatomic) _Bool isExceedingSharedLibraryQuota;
-@property(nonatomic) _Bool isStuckInExitForSharedLibrary;
-@property(nonatomic, getter=isKeychainCDPEnabled) _Bool keychainCDPEnabled;
 @property(copy, nonatomic) NSDate *lastCompletePrefetchDate;
-@property(copy, nonatomic) NSDate *lastPruneDate;
-@property(copy, nonatomic) NSDate *lastSuccessfulSyncDate;
-@property(readonly, nonatomic) _Bool lowDiskSpace;
-@property(readonly, nonatomic) long long maximumAccountEPPCapability;
-@property(nonatomic) long long serverFeatureCompatibleVersion;
-@property(readonly, nonatomic) long long unBlockedReason;
-@property(nonatomic, getter=isUpgradeSuggestedToAccessAllPhotos) _Bool upgradeSuggestedToAccessAllPhotos;
-@property(readonly, nonatomic) _Bool veryLowDiskSpace;
-@property(nonatomic, getter=isWalrusEnabled) _Bool walrusEnabled;
 
 @end
 

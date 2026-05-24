@@ -6,24 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface DUSchemaDUResponse : SISchemaInstrumentationMessage
 {
     int _status;
-    SISchemaUUID *_assetIdentifier;
-    CDStruct_47fe53f2 _has;
-    _Bool _hasAssetIdentifier;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)4˟;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)urity.exception.mach-lookup.global-name;
+- (id)Long];
 - (void);
 - (void);
 - (unsigned long long);
@@ -33,17 +28,13 @@
 - (int)Asð!øCùQßÐ1Â0@ù
 × ;
 - (id)fsetInNs"b1};
-- (id)xecutionFailure;
+- (id)PFARepackagingExecutionFailure;
 - (id)\;
 - (_Bool)((ü*h,	P.¼/;
 - (void)raphTier1.linkedUsoNodeDatas.stringPayload;
 - (void)»%;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(nonatomic) _Bool hasAssetIdentifier; // @synthesize hasAssetIdentifier=_hasAssetIdentifier;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)handle_response_put_chunk_keys;
 - (unsigned long long);
-- (_Bool)uration:(id)arg1;
+- (_Bool)setPressedDuration:(id)arg1;
 - (id)stureRecognizer;
 - (long long)child that is not being tracked by this registry;
 - (_Bool)me-transform;

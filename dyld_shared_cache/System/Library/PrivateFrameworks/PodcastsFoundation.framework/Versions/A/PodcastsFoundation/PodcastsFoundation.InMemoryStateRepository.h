@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.InMemoryStateRepository
 {
     id inMemoryBookmarkStateStore;
-    id inMemoryPlayStateStore;
-    id inMemoryFollowStateStore;
-    id inMemoryStateNetworking;
-    id inFlightRequests;
 }
 
 @end

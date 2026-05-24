@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMSQLColumn
 {
     _Bool _requestOnly;
-    NSString *_name;
-    long long _dataType;
-    CDUnknownBlockType _extractBlock;
 }
 
 + (id);
@@ -29,10 +24,7 @@
 - (void)defg;
 
 // Remaining properties
-@property(readonly, nonatomic) long long dataType; // @synthesize dataType=_dataType;
 @property(readonly, copy, nonatomic) CDUnknownBlockType extractBlock; // @synthesize extractBlock=_extractBlock;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool requestOnly; // @synthesize requestOnly=_requestOnly;
 
 @end
 

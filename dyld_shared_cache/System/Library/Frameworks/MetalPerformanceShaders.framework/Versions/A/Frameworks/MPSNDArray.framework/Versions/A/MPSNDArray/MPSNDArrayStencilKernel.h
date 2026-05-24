@@ -9,14 +9,9 @@
 @interface MPSNDArrayStencilKernel : MPSNDArrayBinaryKernel
 {
     int _reductionMode;
-    int _paddingMode;
-    float _paddingConstant;
-    struct MPSNDArrayStencilOffsets_s _stencilOffsets;
-    struct MPSNDArrayStencilSizes_s _stencilStrides;
-    struct MPSNDArrayStencilSizes_s _stencilDilationRates;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (id);
 - (struct MPSNDArrayStencilSizes_s);
 - (struct MPSNDArrayStencilOffsets_s);
@@ -25,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)P;
 - (unsigned long long);
 - (id);
 - (id);
@@ -37,16 +32,11 @@
 - (int);
 - (id);
 - (void);
-- (id);
+- (id)L	KM;
 - (id);
 
 // Remaining properties
-@property(nonatomic) float paddingConstant; // @synthesize paddingConstant=_paddingConstant;
-@property(nonatomic) int paddingMode; // @synthesize paddingMode=_paddingMode;
 @property(nonatomic) int reductionMode; // @synthesize reductionMode=_reductionMode;
-@property(nonatomic) struct MPSNDArrayStencilSizes_s stencilDilationRates; // @synthesize stencilDilationRates=_stencilDilationRates;
-@property(nonatomic) struct MPSNDArrayStencilOffsets_s stencilOffsets; // @synthesize stencilOffsets=_stencilOffsets;
-@property(nonatomic) struct MPSNDArrayStencilSizes_s stencilStrides; // @synthesize stencilStrides=_stencilStrides;
 
 @end
 

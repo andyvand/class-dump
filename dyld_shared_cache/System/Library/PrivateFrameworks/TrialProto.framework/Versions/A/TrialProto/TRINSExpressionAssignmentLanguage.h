@@ -16,9 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assignmentExpression; // @dynamic assignmentExpression;
-@property(nonatomic) _Bool hasAssignmentExpression; // @dynamic hasAssignmentExpression;
-@property(nonatomic) _Bool hasSchemaVersion; // @dynamic hasSchemaVersion;
-@property(nonatomic) unsigned int schemaVersion; // @dynamic schemaVersion;
 
 @end
 

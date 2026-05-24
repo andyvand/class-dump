@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)geAcknowledgment:(id)arg1 associatedMessageGUID:sender:] /* Error: Ran out of types for this method. */;
 
 @end
 

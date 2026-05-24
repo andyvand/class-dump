@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface GKScanResult
 {
     _Bool allowed;
-    NSError *gkError;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)(;
+- (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowed; // @synthesize allowed;
-@property(retain, nonatomic) NSError *gkError; // @synthesize gkError;
 
 @end
 

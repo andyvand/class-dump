@@ -9,25 +9,21 @@
 @interface DESDediscoKey
 {
     NSString *_environment;
-    NSString *_privacyID;
-    NSString *_recipeID;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ion.item.value.primitive.app.bundleId;
+- (id)ad.outcome.parameterConfirmation.item.value.primitive.app.bundleId;
+- (id)ntResults.payload.outcome.success.returnValue.collection.values.query.typeIdentifier.custom.bundleId;
+- (id)ionRequest.statementResults.payload.outcome.success.returnValue.collection.values.primitive.app.bundleId;
+- (id)undleId;
+- (id)leId;
+- (id)nDisplayIds;
+- (id)rivatizedCandidateIdentifier;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(readonly, copy, nonatomic) NSString *privacyID; // @synthesize privacyID=_privacyID;
-@property(readonly, copy, nonatomic) NSString *recipeID; // @synthesize recipeID=_recipeID;
 
 @end
 

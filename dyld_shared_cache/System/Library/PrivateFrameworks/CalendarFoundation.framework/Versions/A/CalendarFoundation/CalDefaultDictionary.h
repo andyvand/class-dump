@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CalDefaultDictionary
 {
     Class _defaultClass;
-    NSMutableDictionary *_dict;
 }
 
 - (id);
@@ -18,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

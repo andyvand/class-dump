@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSData, RFTextProperty;
 
 @protocol RFSummaryItemDetailedTextCardSection
+- (void)`B;
+- (void);
+- (void)";
+- (RFTextProperty *)_internalSetScaleFactor: /* Error: Ran out of types for this method. */;
+- (void)!;
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(retain, nonatomic) RFTextProperty *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFTextProperty *text_5;
-@property(retain, nonatomic) RFTextProperty *text_6;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

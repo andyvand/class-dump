@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSArray, PHCollection, PHFetchResult;
+@class NSArray, PHFetchResult;
 
 @interface PXSortOnceCollectionAction : PXPhotosAction
 {
     NSArray *_sortedChildCollections;
-    PHCollection *_collection;
-    long long _sortType;
-    PHFetchResult *_initialFetchResult;
 }
 
 + (id);
@@ -26,16 +23,13 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id)q;
 
 // Remaining properties
-@property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
 @property(readonly, nonatomic) PHFetchResult *initialFetchResult; // @synthesize initialFetchResult=_initialFetchResult;
-@property(readonly, nonatomic) long long sortType; // @synthesize sortType=_sortType;
-@property(readonly, nonatomic) NSArray *sortedChildCollections;
 
 @end
 

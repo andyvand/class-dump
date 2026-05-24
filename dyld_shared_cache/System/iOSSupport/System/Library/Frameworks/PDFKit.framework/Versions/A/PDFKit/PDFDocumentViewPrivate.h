@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PDFAnnotationPointerTrackingView, PDFDocument, PDFDocumentContentView, PDFPageBackgroundManager, PDFRenderingProperties, PDFView;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFDocumentViewPrivate
 {
     PDFView *pdfView;
-    PDFDocument *document;
-    PDFRenderingProperties *renderingProperties;
-    struct CGSize documentViewSize;
-    PDFDocumentContentView *contentView;
-    NSMutableDictionary *pageViews;
-    struct vector<CGRect, std::allocator<CGRect>> pageFrames;
-    PDFPageBackgroundManager *pageBackgroundManager;
-    _Bool ignoreChangedBoundsForBoxNotification;
-    PDFAnnotationPointerTrackingView *pointerTrackingView;
 }
 
 - (id);

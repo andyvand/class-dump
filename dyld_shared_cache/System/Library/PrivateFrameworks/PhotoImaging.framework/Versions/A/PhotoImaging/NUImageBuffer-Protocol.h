@@ -7,11 +7,10 @@
 @class NUColorSpace, NUPixelFormat;
 
 @protocol NUImageBuffer
+- (NUColorSpace *);
+- (NUPixelFormat *)tInputEventConsumer:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *CVPixelBuffer;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, nonatomic) NUPixelFormat *format;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @end
 

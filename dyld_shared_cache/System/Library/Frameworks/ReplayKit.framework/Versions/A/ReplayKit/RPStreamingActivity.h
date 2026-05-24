@@ -5,12 +5,10 @@
 //
 
 @class NSExtension;
-@protocol RPStreamingActivityDelegate;
 
 @interface RPStreamingActivity
 {
     NSExtension *_applicationExtension;
-    id <RPStreamingActivityDelegate> _delegate;
 }
 
 - (id);
@@ -19,13 +17,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)%{public}@ (%d);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSExtension *applicationExtension; // @synthesize applicationExtension=_applicationExtension;
-@property(retain, nonatomic) id <RPStreamingActivityDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

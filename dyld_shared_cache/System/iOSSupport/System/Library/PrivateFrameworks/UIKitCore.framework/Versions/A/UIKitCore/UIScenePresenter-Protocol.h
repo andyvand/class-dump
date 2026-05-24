@@ -5,32 +5,27 @@
 //
 
 @class FBScene, FBSceneSnapshot, NSString, UIScenePresentationContext, UIScenePresentationManager, UIView;
-@protocol UIScenePresentation, UISceneSnapshotPresentation;
+@protocol UISceneSnapshotPresentation;
 
 @protocol UIScenePresenter
+- (UIView<UISceneSnapshotPresentation> *)d;
 - (_Bool)!ä@ùñ^°1Â0@ù
 × ;
 - (UIScenePresentationManager *);
 - (void)<UICoordinateSpace>";
-- (void)icallyHidden: /* Error: Ran out of types for this method. */;
-- (void);
-- (UIView<UISceneSnapshotPresentation> *)ansform;
+- (void)setDynamicallyHidden: /* Error: Ran out of types for this method. */;
+- (void)initialPinchSeparation;
+- (UIView<UISceneSnapshotPresentation> *)_liftedTransform;
 - (UIScenePresentationContext *)egate: /* Error: Ran out of types for this method. */;
-- (FBScene *)mponent;
-- (NSString *)dProvider;
+- (_Bool)_accumulateViewConstraintsIntoArray: /* Error: Ran out of types for this method. */;
+- (FBScene *)_UISceneDestructionClientComponent;
+- (NSString *)_UITextFieldImageBackgroundProvider;
 - (UIView<UISceneSnapshotPresentation> *)¸°<;
 - (FBSceneSnapshot *)ÛÛ;
 - (_Bool)ociated or ancestor view controller; backtrace:%@ /* Error: Ran out of types for this method. */;
 - (void)n appearance customization data does not match method signature;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic, getter=isHosting) _Bool hosting;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(readonly, nonatomic) __weak UIScenePresentationManager *manager;
-@property(readonly, copy, nonatomic) UIScenePresentationContext *presentationContext;
-@property(readonly, nonatomic) UIView<UIScenePresentation> *presentationView;
-@property(readonly, nonatomic) __weak FBScene *scene;
 @end
 

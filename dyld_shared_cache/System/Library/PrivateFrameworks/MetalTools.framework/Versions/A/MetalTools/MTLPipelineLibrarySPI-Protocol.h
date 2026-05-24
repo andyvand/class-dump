@@ -5,17 +5,16 @@
 //
 
 @class NSArray, NSString;
-@protocol MTLDevice, MTLPipelineCache;
+@protocol MTLPipelineCache;
 
 @protocol MTLPipelineLibrarySPI
+- (_Bool);
+- (id <MTLPipelineCache>);
+- (id <MTLPipelineCache>);
+- (NSArray *) ;
+- (void)B;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property _Bool disableRunTimeCompilation;
-@property(readonly, nonatomic) id <MTLPipelineCache> functionCache;
 @property(copy) NSString *label;
-@property(readonly) NSArray *metallibPaths;
-@property(readonly, nonatomic) id <MTLPipelineCache> pipelineCache;
-@property(readonly) NSArray *pipelineNames;
 @end
 

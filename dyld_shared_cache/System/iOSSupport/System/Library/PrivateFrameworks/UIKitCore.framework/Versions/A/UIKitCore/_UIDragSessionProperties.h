@@ -7,13 +7,6 @@
 @interface _UIDragSessionProperties
 {
     _Bool _supportsSystemDrag;
-    _Bool __rotatable;
-    _Bool __resizable;
-    _Bool __wantsElasticEffects;
-    _Bool __confineToLocalDevice;
-    _Bool __avoidsKeyboardSuppression;
-    struct CGSize __minimumResizableSize;
-    struct CGSize __maximumResizableSize;
 }
 
 - (void);
@@ -26,23 +19,16 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
+- (_Bool)o %ld;
+- (_Bool)SAccount %@;
+- (struct CGSize)rted service (%@):%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)path;
+- (_Bool)ncating quick switch DB;
+- (_Bool)IMDRelayErrorChatForOutgoingMessageAddedParticipantsKey;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool _avoidsKeyboardSuppression; // @synthesize _avoidsKeyboardSuppression=__avoidsKeyboardSuppression;
-@property(nonatomic) _Bool _confineToLocalDevice; // @synthesize _confineToLocalDevice=__confineToLocalDevice;
-@property(nonatomic) struct CGSize _maximumResizableSize; // @synthesize _maximumResizableSize=__maximumResizableSize;
-@property(nonatomic) struct CGSize _minimumResizableSize; // @synthesize _minimumResizableSize=__minimumResizableSize;
-@property(nonatomic) _Bool _resizable; // @synthesize _resizable=__resizable;
-@property(nonatomic) _Bool _rotatable; // @synthesize _rotatable=__rotatable;
-@property(nonatomic) _Bool _supportsSystemDrag; // @synthesize _supportsSystemDrag;
-@property(nonatomic) _Bool _wantsElasticEffects; // @synthesize _wantsElasticEffects=__wantsElasticEffects;
 
 @end
 

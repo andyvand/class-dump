@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAttributedString, NSString;
+
 @protocol UIAccessibilityReadingContent
+- (NSString *)r^^{__CFString}32;
+- (long long)S28@32B40i44B48i52@56@64d72C80S84B88B92@96@104S112C116C120C124C128B132@136;
+- (struct CGRect)24;
+- (NSString *)FString}24;
+
+@optional
+- (NSAttributedString *)numberFormatWithValueType:formatString:decimalPlaces:currencyCode:useAccountingStyle:negativeStyle:showThousandsSeparator:fractionAccuracy:scaleFactor:isCustom:formatName: /* Error: Ran out of types for this method. */;
+- (NSAttributedString *)aces:(long long)arg1 baseUseMinusSign:isCustom:formatName: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBClockImage
 {
     int _hour;
-    int _minute;
-    int _second;
 }
 
 - (id);
@@ -18,8 +14,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)insertNewCommentWithCommentText:(id)arg1 commentDate:isLike:isMyComment:inLibrary: /* Error: Ran out of types for this method. */;
+- (id)g SCSensitivityAnalysis for assetID:%{public}@ error:%@ value:%lld /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -30,17 +26,7 @@
 - (int)@³;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int hour; // @synthesize hour=_hour;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int minute; // @synthesize minute=_minute;
-@property(nonatomic) int second; // @synthesize second=_second;
-@property(readonly) Class superclass;
 
 @end
 

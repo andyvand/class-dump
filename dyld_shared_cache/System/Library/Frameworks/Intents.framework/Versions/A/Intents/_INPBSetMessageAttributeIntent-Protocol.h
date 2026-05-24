@@ -7,16 +7,16 @@
 @class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBSetMessageAttributeIntent
+- (unsigned long long);
+- (void);
+- (_INPBIntentMetadata *)TMOtherIODiskExtensions;
+- (void)end of base image)
+;
 - (_Bool)nalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay: /* Error: Ran out of types for this method. */;
 - (int)d night;
-- (NSArray *)renceOptionsForSetAudioSourceInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSArray *)provideRelativeAudioSourceReferenceOptionsForSetAudioSourceInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int attribute;
-@property(nonatomic) _Bool hasAttribute;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(copy, nonatomic) NSArray *identifiers;
-@property(readonly, nonatomic) unsigned long long identifiersCount;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

@@ -9,10 +9,6 @@
 @interface CAConstraint
 {
     NSString *_srcId;
-    unsigned int _srcAttr:16;
-    unsigned int _attr:16;
-    double _scale;
-    double _offset;
 }
 
 + (id);
@@ -34,10 +30,6 @@
 
 // Remaining properties
 @property(readonly) int attribute;
-@property(readonly) double offset;
-@property(readonly) double scale;
-@property(readonly) int sourceAttribute;
-@property(readonly) NSString *sourceName;
 
 @end
 

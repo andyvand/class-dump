@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     struct __CFDictionary *_registry;
 }
 
-+ (id)Value;
++ (id)doubleValue;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)abstersion;
 - (void);
 - (id);
 

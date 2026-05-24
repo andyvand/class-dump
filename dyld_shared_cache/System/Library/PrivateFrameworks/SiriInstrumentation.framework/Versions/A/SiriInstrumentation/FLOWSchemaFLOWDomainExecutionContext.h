@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWDomainExecutionEnded, FLOWSchemaFLOWDomainExecutionFailed, FLOWSchemaFLOWDomainExecutionStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWDomainExecutionContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    FLOWSchemaFLOWDomainExecutionStarted *_startedOrChanged;
-    FLOWSchemaFLOWDomainExecutionEnded *_ended;
-    FLOWSchemaFLOWDomainExecutionFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -34,19 +26,19 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ad %#llx;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)edSet";
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)Xj;
 - (id)ed"b1"isTypeToSiriEnabled"b1"voiceFeedback"b1"isAtypicalSpeechEnabled"b1};
 - (id)featuresGenerated;
 - (id)Ø;
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) FLOWSchemaFLOWDomainExecutionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) FLOWSchemaFLOWDomainExecutionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLOWSchemaFLOWDomainExecutionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -6,31 +6,25 @@
 
 #import <NearField/NFConnectionHandoverController.h>
 
-@class NFConnectionHandoverSelect, NFHCESession, NFTimer, NSObject, NSString;
+@class NSObject;
 @protocol NFConnectionHandoverReceiverDelegate;
 
 @interface NFConnectionHandoverReceiver : NFConnectionHandoverController
 {
     _Bool _hceAppSelected;
-    _Bool _didConnect;
-    NSObject<NFConnectionHandoverReceiverDelegate> *_delegate;
-    NFHCESession *_hceSession;
-    NFConnectionHandoverSelect *_pendingCHSelect;
-    NFTimer *_emuAssertTimer;
-    CDUnknownBlockType _delaySendSelectCompletion;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
-- (void);
+- (void)d{;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,15 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak NSObject<NFConnectionHandoverReceiverDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool roleBroadcastInBackground;
-@property(readonly) Class superclass;
 
 @end
 

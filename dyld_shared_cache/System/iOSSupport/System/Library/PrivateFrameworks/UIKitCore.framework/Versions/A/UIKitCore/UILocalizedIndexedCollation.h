@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
+@class NSArray, NSLocale;
 
 @interface UILocalizedIndexedCollation
 {
     NSLocale *_locale;
-    NSArray *_sectionTitles;
-    NSArray *_sectionStartStrings;
-    NSArray *_sectionIndexTitles;
-    NSArray *_sectionIndexMapping;
-    NSString *_transform;
-    NSString *_firstSectionStartString;
-    NSString *_lastSectionStartString;
-    struct __CFStringTokenizer *_tokenizer;
-    _Bool _primaryLanguageIsJapanese;
-    _Bool _preferJapaneseRomajiTranscriptions;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)setPayloadDiagnosticSubmission: /* Error: Ran out of types for this method. */;
 - (long long);
+- (id)kMMCSPutReceipt;
+- (id)_indexInChaptersWithSameType;
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long)rtAX;
+- (long long)LongPressClickInteractionDriverClickDownDurationShortAX;
 - (id)ong, BOOL);
 - (void)põþ;
 - (id);

@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INHomeAttributeValue, NSString;
-
 @interface INHomeUserTask
 {
     long long _taskType;
-    long long _attribute;
-    INHomeAttributeValue *_value;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)V_bundleIdentifier;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)_didExclude6GHzOnlyNetwork;
+- (void)_wasDiscoveredVia6GHzFollowup;
 - (id);
 - (id);
 - (id);
-- (id)orXPCConnection:(unsigned long long)arg1;
-- (void)leNumberForSetProfileInCar: /* Error: Ran out of types for this method. */;
+- (id)accessSpecifierAppropriateForXPCConnection:(unsigned long long)arg1;
+- (void)defaultProfileNumberForSetProfileInCar: /* Error: Ran out of types for this method. */;
 - (long long)&QæC;
 - (long long)÷ÿ¸'N>";
 - (id)£Ù;
 
 // Remaining properties
-@property(readonly) long long attribute; // @synthesize attribute=_attribute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) long long taskType; // @synthesize taskType=_taskType;
-@property(readonly, copy) INHomeAttributeValue *value; // @synthesize value=_value;
 
 @end
 

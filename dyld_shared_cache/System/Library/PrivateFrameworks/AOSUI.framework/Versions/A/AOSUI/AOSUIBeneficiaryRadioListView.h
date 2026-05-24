@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAOBInheritanceShareAccessKeyOptionsModel, NSButton, NSStackView;
-@protocol AOSUIBeneficiaryRadioListViewSelectorDelegate;
+@class NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIBeneficiaryRadioListView
 {
     unsigned long long _currentSelection;
-    id <AOSUIBeneficiaryRadioListViewSelectorDelegate> _delegate;
-    NSStackView *_stackView;
-    NSStackView *_verticalStackView;
-    NSButton *_messageRadioButton;
-    NSButton *_printRadioButton;
-    AAOBInheritanceShareAccessKeyOptionsModel *_model;
-    long long _stackAlignment;
 }
 
 - (void);
@@ -30,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)kB�;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -50,14 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property unsigned long long currentSelection; // @synthesize currentSelection=_currentSelection;
-@property(nonatomic) __weak id <AOSUIBeneficiaryRadioListViewSelectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSButton *messageRadioButton; // @synthesize messageRadioButton=_messageRadioButton;
-@property(retain, nonatomic) AAOBInheritanceShareAccessKeyOptionsModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSButton *printRadioButton; // @synthesize printRadioButton=_printRadioButton;
-@property long long stackAlignment; // @synthesize stackAlignment=_stackAlignment;
 @property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSStackView *verticalStackView; // @synthesize verticalStackView=_verticalStackView;
 
 @end
 

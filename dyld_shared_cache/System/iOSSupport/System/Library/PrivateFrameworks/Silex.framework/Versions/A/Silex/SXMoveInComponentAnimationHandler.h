@@ -6,8 +6,6 @@
 
 #import <Silex/SXComponentAnimationHandler.h>
 
-@class NSString;
-
 @interface SXMoveInComponentAnimationHandler : SXComponentAnimationHandler
 {
     double _startXOffset;
@@ -17,19 +15,12 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)XScalableImageComponentSizerFactory"16@?0@"<TFResolver>"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double startXOffset; // @synthesize startXOffset=_startXOffset;
-@property(readonly) Class superclass;
 
 @end
 

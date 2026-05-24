@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, RTCReporting;
+@class NSData;
 
 @interface PKAnalyticsReporter
 {
     NSData *_archivedSessionToken;
-    RTCReporting *_session;
-    NSObject *_sessionToken;
-    struct os_unfair_lock_s _lockArchive;
-    NSString *_subject;
 }
 
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)T;
 - (id);
-- (id);
+- (id)R[;
 - (id);
 - (id);
 - (void);

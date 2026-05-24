@@ -6,8 +6,6 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSDictionary;
-
 @interface PISmartToneAdjustmentController : PIAdjustmentController
 {
     struct {
@@ -23,6 +21,7 @@
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -35,10 +34,9 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -51,16 +49,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) double inputLight;
 @property(readonly, nonatomic) double inputLightDefault;
-@property(nonatomic) double offsetBlack;
-@property(nonatomic) double offsetBrightness;
-@property(nonatomic) double offsetContrast;
-@property(nonatomic) double offsetExposure;
-@property(nonatomic) double offsetHighlights;
-@property(nonatomic) double offsetLocalLight;
-@property(nonatomic) double offsetShadows;
-@property(copy, nonatomic) NSDictionary *statistics;
 
 @end
 

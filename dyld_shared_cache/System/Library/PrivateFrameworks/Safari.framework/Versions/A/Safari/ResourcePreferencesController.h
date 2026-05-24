@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, SandboxFileExtensionController;
-@protocol OS_dispatch_queue;
+@class NSURL, SandboxFileExtensionController;
 
 __attribute__((visibility("hidden")))
 @interface ResourcePreferencesController
 {
     SandboxFileExtensionController *_fileExtensionController;
-    NSMutableDictionary *_preferenceTypesToExtensionTokenPairs;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSString *_cachedHomePage;
 }
 
 + (id);
@@ -29,26 +25,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)E;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *homePage;
-@property(readonly, nonatomic) _Bool homePageIsForced;
-@property(copy, nonatomic) NSURL *styleSheetFileURL;
 @property(readonly, copy, nonatomic) NSURL *styleSheetFileURLForMigration;
-@property(readonly) Class superclass;
 
 @end
 

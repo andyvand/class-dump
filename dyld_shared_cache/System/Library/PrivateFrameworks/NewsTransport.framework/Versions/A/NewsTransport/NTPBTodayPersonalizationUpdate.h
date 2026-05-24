@@ -11,22 +11,22 @@
     NSMutableArray *_events;
 }
 
-+ (Class);
++ (Class)*;
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)highCut;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (unsigned long long)playbackGestureRecognizer;
+- (_Bool)mizeTree_Client sizingCompletedForComponent:(id)arg1 withSize:] /* Error: Ran out of types for this method. */;
+- (void)ng",R,N,V_ckMultiFetchBaseURLString;
+- (_Bool)r bundleID=%{public}@;
 - (id);
 - (id);
-- (id);
-- (void)ype;
+- (id);
+- (void)widgetPersonalizationFeatureCTRPairType;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;

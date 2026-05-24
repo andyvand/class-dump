@@ -4,53 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNActionsView, CNContact, CNContactActionsController, CNUIContactsEnvironment, CNUIUserActionListDataSource, NSArray, NSDictionary, NSString, UIColor, UIView;
-@protocol CNContactInlineActionsViewControllerDelegate, CNCustomPresentation, CNSchedulerProvider, CNUIObjectViewControllerDelegate;
+@class NSArray;
 
 @interface CNContactInlineActionsViewController
 {
     _Bool _displaysUnavailableActionTypes;
-    _Bool _displaysTitles;
-    id <CNUIObjectViewControllerDelegate> objectViewControllerDelegate;
-    NSArray *_supportedActionTypes;
-    double _actionTypesInterspace;
-    long long _viewStyle;
-    id <CNContactInlineActionsViewControllerDelegate> _delegate;
-    NSString *_geminiChannelIdentifier;
-    NSArray *_actionItems;
-    NSArray *_tokens;
-    id <CNCustomPresentation> _actionsControllerPresentation;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNContactActionsController *_actionsController;
-    CNUIContactsEnvironment *_environment;
-    CNUIUserActionListDataSource *_actionListDataSource;
-    NSArray *_contacts;
-    CNActionsView *_actionsView;
-    UIColor *_posterTintColor;
-    NSDictionary *_defaultActionPerType;
 }
 
 + (id);
-+ (id)essMapperExclusively: /* Error: Ran out of types for this method. */;
++ (id)setUseInProcessMapperExclusively: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)R@;
+- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -58,14 +34,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
+- (void);
+- (_Bool)I;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)_r;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -95,11 +76,11 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -117,34 +98,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionItems; // @synthesize actionItems=_actionItems;
-@property(retain, nonatomic) CNUIUserActionListDataSource *actionListDataSource; // @synthesize actionListDataSource=_actionListDataSource;
-@property(nonatomic) double actionTypesInterspace; // @synthesize actionTypesInterspace=_actionTypesInterspace;
-@property(retain, nonatomic) CNContactActionsController *actionsController; // @synthesize actionsController=_actionsController;
-@property(retain, nonatomic) id <CNCustomPresentation> actionsControllerPresentation; // @synthesize actionsControllerPresentation=_actionsControllerPresentation;
-@property(nonatomic) __weak CNActionsView *actionsView; // @synthesize actionsView=_actionsView;
-@property(retain, nonatomic) CNContact *contact;
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSDictionary *defaultActionPerType; // @synthesize defaultActionPerType=_defaultActionPerType;
-@property(nonatomic) __weak id <CNContactInlineActionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displaysTitles; // @synthesize displaysTitles=_displaysTitles;
-@property(nonatomic) _Bool displaysUnavailableActionTypes; // @synthesize displaysUnavailableActionTypes=_displaysUnavailableActionTypes;
-@property(retain, nonatomic) CNUIContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) NSString *geminiChannelIdentifier; // @synthesize geminiChannelIdentifier=_geminiChannelIdentifier;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <CNUIObjectViewControllerDelegate> objectViewControllerDelegate; // @synthesize objectViewControllerDelegate;
-@property(retain, nonatomic) UIColor *posterTintColor; // @synthesize posterTintColor=_posterTintColor;
-@property(retain, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedActionTypes; // @synthesize supportedActionTypes=_supportedActionTypes;
-@property(readonly, nonatomic) double throttleDelay;
-@property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(readonly, nonatomic) UIView *view;
-@property(nonatomic) long long viewStyle; // @synthesize viewStyle=_viewStyle;
 
 @end
 

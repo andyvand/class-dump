@@ -9,15 +9,13 @@
 @interface JULanguageAwareTextStorage
 {
     NSTextStorage *textStorage;
-    id originalTextStorageDelegate;
-    id languageAwareString;
 }
 
 - (id);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)GKFeatureMultiplayerGamingAllowed;
 - (id);
 - (id);
 - (void);

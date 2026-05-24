@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSSet;
-@protocol OS_dispatch_source, _MPActiveUserChangeMonitorDelegate;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _MPActiveUserChangeMonitor
 {
     struct os_unfair_lock_s _stateLock;
-    NSSet *_expectedNotifications;
-    NSMutableSet *_receivedNotifications;
-    NSObject<OS_dispatch_source> *_notificationTimer;
-    id <_MPActiveUserChangeMonitorDelegate> _delegate;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)metadata(key TEXT PRIMARY KEY,value TEXT);;
 - (struct os_unfair_lock_s);
 - (void)_url;
 
 // Remaining properties
-@property(nonatomic) __weak id <_MPActiveUserChangeMonitorDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSSet *expectedNotifications; // @synthesize expectedNotifications=_expectedNotifications;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *notificationTimer; // @synthesize notificationTimer=_notificationTimer;
-@property(retain, nonatomic) NSMutableSet *receivedNotifications; // @synthesize receivedNotifications=_receivedNotifications;
-@property(readonly, nonatomic) struct os_unfair_lock_s stateLock; // @synthesize stateLock=_stateLock;
 
 @end
 

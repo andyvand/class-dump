@@ -4,12 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SCNMaterialProperty;
+@class CAAnimation, NSArray, NSString;
 
 @protocol SCNCameraJSExport
++ (id);
+- (_Bool);
+- (void),;
+- (void);
+- (double)6;
+- (long long);
+- (double)7;
+- (double)R;
+- (void);
+- (void)type);
+- (double);
+- (NSArray *)textureByUnpremultiplyingAlphaInTexture: /* Error: Ran out of types for this method. */;
+- (CAAnimation *)textViewWillBeginStroke:(NSString *)arg1 forTouch: /* Error: Ran out of types for this method. */;
+- (id)ing contents of root directory:(NSString *)arg1 '%s';
 - (void)0@ù
 × ;
-- (double)s:boneInverseBindTransforms:boneWeights:boneIndices: /* Error: Ran out of types for this method. */;
+- (double)skinnerWithBaseGeometry:bones:boneInverseBindTransforms:boneWeights:boneIndices: /* Error: Ran out of types for this method. */;
 - (id)x < 0.15) {
         gl_FragColor = vec4(unblur, 1.);
     } else if (v_texCoord.x < 0.3) {
@@ -30,66 +44,11 @@
 ;
 - (double)failed. Not Yet Implemented!!!!;
 - (double)without a valid pass descriptor;
-- (double);
 - (void)Ë@ØÕ¾ÿå?/Qm?ûµ@Û¾²Ì?6m?{£@MM¾|ï·?¯m?Ð@/÷¾Ó.¦?E¼m?ÏK@~¾
 ó?E¸m?[u@®Ù¾á?ím?âVa@ì/¾6}?Ém?KO@ªî¾ì½h?½Ãm?p\?@mæ¾¥V?Jím?e1@Ñ¾î³F?§%n?%@ÿ{¾8?
 dn?%@-Ñy¾e;
 
 // Remaining properties
-@property(nonatomic) double aperture;
-@property(nonatomic) long long apertureBladeCount;
-@property(nonatomic) _Bool automaticallyAdjustsZRange;
-@property(nonatomic) double averageGray;
-@property(nonatomic) double bloomBlurRadius;
-@property(nonatomic) double bloomIntensity;
-@property(nonatomic) unsigned long long bloomIteration;
-@property(nonatomic) unsigned long long bloomIterationSpread;
-@property(nonatomic) double bloomThreshold;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(nonatomic) double colorFringeIntensity;
-@property(nonatomic) double colorFringeStrength;
-@property(readonly, nonatomic) SCNMaterialProperty *colorGrading;
-@property(nonatomic) double contrast;
-@property(nonatomic) double exposureAdaptationBrighteningSpeedFactor;
-@property(nonatomic) double exposureAdaptationDarkeningSpeedFactor;
-@property(nonatomic) double exposureOffset;
-@property(nonatomic) double fStop;
-@property(nonatomic) double fieldOfView;
-@property(nonatomic) double focalBlurRadius;
-@property(nonatomic) long long focalBlurSampleCount;
-@property(nonatomic) double focalDistance;
-@property(nonatomic) double focalLength;
-@property(nonatomic) double focalSize;
-@property(nonatomic) double focusDistance;
-@property(nonatomic) double grainIntensity;
-@property(nonatomic) double grainIsColored;
-@property(nonatomic) double grainScale;
-@property(nonatomic) double maximumExposure;
-@property(nonatomic) double minimumExposure;
-@property(nonatomic) double motionBlurIntensity;
 @property(copy, nonatomic) NSString *name;
-@property(nonatomic) double orthographicScale;
-@property(nonatomic) long long projectionDirection;
-@property(nonatomic) struct SCNMatrix4 projectionTransform;
-@property(nonatomic) double saturation;
-@property(nonatomic) double screenSpaceAmbientOcclusionBias;
-@property(nonatomic) double screenSpaceAmbientOcclusionDepthThreshold;
-@property(nonatomic) double screenSpaceAmbientOcclusionIntensity;
-@property(nonatomic) double screenSpaceAmbientOcclusionNormalThreshold;
-@property(nonatomic) double screenSpaceAmbientOcclusionRadius;
-@property(nonatomic) double sensorHeight;
-@property(nonatomic) _Bool usesOrthographicProjection;
-@property(nonatomic) double vignettingIntensity;
-@property(nonatomic) double vignettingPower;
-@property(nonatomic) _Bool wantsDepthOfField;
-@property(nonatomic) _Bool wantsExposureAdaptation;
-@property(nonatomic) _Bool wantsHDR;
-@property(nonatomic) double whiteBalanceTemperature;
-@property(nonatomic) double whiteBalanceTint;
-@property(nonatomic) double whitePoint;
-@property(nonatomic) double xFov;
-@property(nonatomic) double yFov;
-@property(nonatomic) double zFar;
-@property(nonatomic) double zNear;
 @end
 

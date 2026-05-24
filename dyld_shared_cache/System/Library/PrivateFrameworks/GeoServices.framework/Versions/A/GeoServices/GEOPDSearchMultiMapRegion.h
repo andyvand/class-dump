@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)e settings are now %s:(id)arg1 updating server connection status for all domains;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)d_body"b1"read_cardTitle"b1"read_commuteTitle"b1"read_routeDescription"b1"read_routeTitle"b1"read_title"b1"wrote_anyField"b1};
-- (id)ition2;
+- (id)_preposition2;
 - (id)¸j;
 - (void);
 

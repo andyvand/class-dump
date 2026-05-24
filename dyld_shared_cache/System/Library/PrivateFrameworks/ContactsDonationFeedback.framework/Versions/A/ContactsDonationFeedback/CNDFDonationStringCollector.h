@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CNDFDonationStringCollector
 {
     NSMutableArray *_visitedStrings;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *strings;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableArray *visitedStrings; // @synthesize visitedStrings=_visitedStrings;
 
 @end

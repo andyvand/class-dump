@@ -12,7 +12,7 @@
 
 + (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)!;
 
 @end
 

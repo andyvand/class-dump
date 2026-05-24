@@ -7,8 +7,6 @@
 @interface OSAnalytics.IPSReport
 {
     id headerJson;
-    id bugType;
-    id body;
 }
 
 @end

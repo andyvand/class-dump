@@ -6,27 +6,22 @@
 
 #import <ChatKit/CKSpotlightQueryResult.h>
 
-@class CKSearchTokenFilter, NSArray, NSString, UISearchToken;
+@class UISearchToken;
 
 @interface CKSearchTokenQueryResult : CKSpotlightQueryResult
 {
     UISearchToken *_searchToken;
-    NSString *_itemIdentifier;
-    NSArray *_tokenAddresses;
-    unsigned long long _filterOptions;
-    CKSearchTokenFilter *_associatedStagedFilter;
-    unsigned long long _contentType;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)rootFolderListSectionIdentifiersForSection: /* Error: Ran out of types for this method. */;
+- (void)ic_removeNonNilObject:(id)arg1;
+- (void)accessibilityAttributedStringForRange:(id)arg1;
+- (id)_objectTypes;
+- (id)item;
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)o;
+- (id)t;
+- (void)nding invitations… {accountID:(unsigned long long)arg1 %@, receivedSince:%@}%s:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -39,12 +34,7 @@
 - (id)^ìÿ;
 
 // Remaining properties
-@property(nonatomic) __weak CKSearchTokenFilter *associatedStagedFilter; // @synthesize associatedStagedFilter=_associatedStagedFilter;
 @property(nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;
-@property(nonatomic) unsigned long long filterOptions; // @synthesize filterOptions=_filterOptions;
-@property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(retain, nonatomic) UISearchToken *searchToken; // @synthesize searchToken=_searchToken;
-@property(retain, nonatomic) NSArray *tokenAddresses; // @synthesize tokenAddresses=_tokenAddresses;
 
 @end
 

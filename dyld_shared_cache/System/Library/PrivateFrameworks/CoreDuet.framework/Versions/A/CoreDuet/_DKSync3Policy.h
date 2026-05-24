@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber;
+@class NSDictionary;
 
 @interface _DKSync3Policy
 {
     _Bool _syncDisabled;
-    _Bool _isSingleDevice;
-    _Bool _isOnPower;
-    NSDictionary *_properties;
-    NSNumber *_version;
-    unsigned long long _triggeredSyncDelayInSeconds;
-    long long _mask;
-    NSArray *_sourceDevices;
-    NSArray *_destinationDevices;
-    NSArray *_transportPolicies;
-    NSArray *_featurePolicies;
 }
 
 + (id);
++ (void)e;
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void)q;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)Vg*;
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)<;
 + (id);
-+ (id);
-- (unsigned long long);
++ (id)gq;
+- (unsigned long long){9;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);

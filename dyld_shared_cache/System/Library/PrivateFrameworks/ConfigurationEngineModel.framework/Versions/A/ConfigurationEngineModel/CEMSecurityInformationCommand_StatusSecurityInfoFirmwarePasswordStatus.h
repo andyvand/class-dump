@@ -11,8 +11,6 @@
 @interface CEMSecurityInformationCommand_StatusSecurityInfoFirmwarePasswordStatus : CEMPayloadBase
 {
     NSNumber *_statusPasswordExists;
-    NSNumber *_statusChangePending;
-    NSNumber *_statusAllowOroms;
 }
 
 + (id);
@@ -25,13 +23,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)queue buffer:(id)arg1 %@;
 - (id);
-- (void);
+- (void)DWCHVB;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *statusAllowOroms; // @synthesize statusAllowOroms=_statusAllowOroms;
-@property(copy, nonatomic) NSNumber *statusChangePending; // @synthesize statusChangePending=_statusChangePending;
 @property(copy, nonatomic) NSNumber *statusPasswordExists; // @synthesize statusPasswordExists=_statusPasswordExists;
 
 @end

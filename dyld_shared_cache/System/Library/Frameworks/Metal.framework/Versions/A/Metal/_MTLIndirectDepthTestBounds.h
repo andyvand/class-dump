@@ -7,18 +7,14 @@
 @interface _MTLIndirectDepthTestBounds
 {
     float minBounds;
-    float maxBounds;
-    float _minBounds;
-    float _maxBounds;
 }
 
-- (void);
+- (void);
 - (void);
 - (float);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float maxBounds; // @synthesize maxBounds=_maxBounds;
 @property(nonatomic) float minBounds; // @synthesize minBounds=_minBounds;
 
 @end

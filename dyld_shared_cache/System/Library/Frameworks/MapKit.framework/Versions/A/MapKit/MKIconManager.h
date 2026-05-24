@@ -13,6 +13,7 @@
 + (struct CGColor *);
 + (struct CGColor *);
 + (struct CGColor *);
++ (id)sU;
 + (id);
 + (id);
 + (id);
@@ -28,14 +29,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void);
-+ (id);
++ (void)w;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)/;
 + (id);
 + (void);
 + (id);

@@ -11,10 +11,6 @@
 @interface IDSCKFetchRecordsOperation : IDSCKDatabaseOperation
 {
     NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    CDUnknownBlockType _perRecordProgressBlock;
-    CDUnknownBlockType _perRecordCompletionBlock;
-    CDUnknownBlockType _fetchRecordsCompletionBlock;
 }
 
 + (Class);
@@ -27,15 +23,11 @@
 - (void);
 - (id);
 - (void)om.apple.private.alloy.mobilestoredemo.icloud;
-- (void)ortsAVLess;
+- (void)_supportsAVLess;
 - (id);
 - (void)dhÖÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordsCompletionBlock; // @synthesize fetchRecordsCompletionBlock=_fetchRecordsCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordCompletionBlock; // @synthesize perRecordCompletionBlock=_perRecordCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordProgressBlock; // @synthesize perRecordProgressBlock=_perRecordProgressBlock;
 @property(copy, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
 
 @end

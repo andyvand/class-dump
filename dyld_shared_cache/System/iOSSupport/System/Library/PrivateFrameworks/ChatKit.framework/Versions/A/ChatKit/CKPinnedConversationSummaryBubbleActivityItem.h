@@ -4,49 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChat, IMMessage, NSAttributedString, NSString;
+@class IMMessage;
 
 @interface CKPinnedConversationSummaryBubbleActivityItem
 {
     double _activityItemContentScale;
-    NSString *_attachedContactItemIdentifier;
-    IMMessage *_message;
-    IMChat *_chat;
-    NSAttributedString *_summaryText;
 }
 
+- (id)initWithSearchSuggestionsResponder:(long long)arg1 searchString:performNLSearch:tokens:modernResultsOnly: /* Error: Ran out of types for this method. */;
+- (id)initWithSearchSuggestionsResponder:(long long)arg1 searchString:performNLSearch:tokens: /* Error: Ran out of types for this method. */;
+- (id)initWithRecordIDs:(long long)arg1;
 - (id);
 - (id);
+- (id)attachment (%@). Creating a temporary one.;
+- (id)u) joined the note;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (_Bool);
+- (_Bool)deleted %lld subfolders;
+- (double)You** deleted %lld notes;
+- (_Bool)ed the subfolder;
 - (id);
 - (id);
 - (id)contentViewHorizontalInsetForPillCornerRadius;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;
-@property(readonly, nonatomic) double activityItemContentScale; // @synthesize activityItemContentScale=_activityItemContentScale;
-@property(readonly, nonatomic) _Bool activityItemDisappearsWithAnimation;
-@property(readonly, nonatomic) NSString *activityItemIdentifier;
-@property(readonly, nonatomic) NSString *attachedContactItemIdentifier; // @synthesize attachedContactItemIdentifier=_attachedContactItemIdentifier;
-@property(readonly, nonatomic) IMChat *chat; // @synthesize chat=_chat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IMMessage *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSAttributedString *summaryText; // @synthesize summaryText=_summaryText;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCDevice, MLCTensor;
+@class MLCDevice;
 
 @interface MLCTensorParameter
 {
     _Bool _isUpdatable;
-    MLCTensor *_tensor;
-    MLCDevice *_device;
 }
 
 + (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MLCDevice *device; // @synthesize device=_device;
-@property(nonatomic) _Bool isUpdatable; // @synthesize isUpdatable=_isUpdatable;
-@property(readonly, retain, nonatomic) MLCTensor *tensor; // @synthesize tensor=_tensor;
 
 @end
 

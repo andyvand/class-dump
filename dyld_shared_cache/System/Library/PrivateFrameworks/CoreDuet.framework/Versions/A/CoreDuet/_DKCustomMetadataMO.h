@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface _DKCustomMetadataMO
 {
@@ -13,14 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *binaryValue; // @dynamic binaryValue;
-@property(copy, nonatomic) NSDate *dateValue; // @dynamic dateValue;
-@property(copy, nonatomic) NSNumber *doubleValue; // @dynamic doubleValue;
-@property(retain, nonatomic) NSSet *event; // @dynamic event;
-@property(copy, nonatomic) NSNumber *integerValue; // @dynamic integerValue;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *stringValue; // @dynamic stringValue;
-@property(copy, nonatomic) NSString *valueHash; // @dynamic valueHash;
 
 @end
 

@@ -6,42 +6,31 @@
 
 #import <coreroutine/RTService.h>
 
-@class HMHomeManager, NSArray, NSString;
+@class HMHomeManager;
 
 @interface RTHomeKitManager : RTService
 {
     _Bool _homeManagerDidUpdateHomes;
-    HMHomeManager *_homeManager;
-    NSArray *_homes;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)=},V_rollIdentity;
 - (void);
-- (void);
+- (void)pected password version %@ and got %@ from the record;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id)
 × ;
-- (void)Date:(id)arg1 timeInterval: /* Error: Ran out of types for this method. */;
+- (void)getNextPredictedLocationsOfInterestFromLocation:(id)arg1 startDate:timeInterval: /* Error: Ran out of types for this method. */;
 - (void)¼5ð8d:(id)arg1 T;Ì<Ø=;
-- (void)ekdays_Work_Bucketed;
+- (void)mean_daily_total_visit_duration_weekdays_Work_Bucketed;
 - (void)screen lock is disabled;
 - (id)Ê;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(nonatomic) _Bool homeManagerDidUpdateHomes; // @synthesize homeManagerDidUpdateHomes=_homeManagerDidUpdateHomes;
-@property(retain, nonatomic) NSArray *homes; // @synthesize homes=_homes;
-@property(readonly) Class superclass;
 
 @end
 

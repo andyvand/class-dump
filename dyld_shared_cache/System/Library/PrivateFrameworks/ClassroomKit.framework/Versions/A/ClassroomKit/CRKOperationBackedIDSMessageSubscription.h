@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATRemoteTaskOperation, NSString;
+@class CATRemoteTaskOperation;
 
 @interface CRKOperationBackedIDSMessageSubscription
 {
     CATRemoteTaskOperation *_listenOperation;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)5m;
 - (void);
 - (void);
 - (void);
@@ -22,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CATRemoteTaskOperation *listenOperation; // @synthesize listenOperation=_listenOperation;
-@property(readonly) Class superclass;
 
 @end
 

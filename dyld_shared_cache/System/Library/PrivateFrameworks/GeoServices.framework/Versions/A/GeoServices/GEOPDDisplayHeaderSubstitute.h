@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRelatedSearchSuggestion, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDDisplayHeaderSubstitute
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_interpretedQuery;
-    GEOPDRelatedSearchSuggestion *_relatedSearchSuggestion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _substituteType;
-    struct {
-        unsigned int has_substituteType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_interpretedQuery:1;
-        unsigned int read_relatedSearchSuggestion:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)arstAP",&,N,V_voiceTriggerFirstPassHearstAP;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)siteFeatures"b1"has_supportClientRankingFeatureMetadata"b1"has_supportDirectionIntentSuggestions"b1"has_supportRapAffordance"b1"has_supportSectionHeader"b1"has_supportStructuredRapAffordance"b1"has_supportUnresolvedDirectionIntent"b1"read_unknownFields"b1"read_knownRefinementTypes"b1"read_supportedAutocompleteResultCellTypes"b1"read_supportedHighlightTypes"b1"read_supportedListTypes"b1"read_supportedPlaceSummaryFormatTypes"b1"read_autocompleteOriginationInfo"b1"read_categorySuggestionEntryMetadata"b1"read_categorySuggestionEntry"b1"read_evChargingParameters"b1"read_querySuggestionEntry"b1"read_query"b1"read_retainedSearch"b1"read_venueIdentifier"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)ddressSecondaryStreetLine;
+- (id)_correctedAddressSecondaryStreetLine;
 - (id)ð6´78;
 - (void)ÌÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿÃÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿÅÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÂÿÿÿÿÿÿÿÇÿÿÿÿÿÿÿ;
 

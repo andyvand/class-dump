@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLEmergencyLocationSelector, CLEmergencyLocationSelectorConfig, NSBundle;
+@class NSBundle;
 
 __attribute__((visibility("hidden")))
 @interface E911LocationSelector
 {
     NSBundle *_bundle;
-    CLEmergencyLocationSelector *_location;
-    CLEmergencyLocationSelectorConfig *_config;
-    weak_ptr_fe6e8d2a _delegate;
-    unsigned int _confidence;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)Z;
 - (id);
 - (void)n init error: /* Error: Ran out of types for this method. */;
 

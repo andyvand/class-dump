@@ -9,12 +9,6 @@
 @interface FMFAppAccountInfo
 {
     NSString *_dsid;
-    NSString *_username;
-    NSString *_appServerHost;
-    NSString *_appAuthToken;
-    long long _appAuthTokenStatus;
-    NSString *_legacyDsid;
-    NSString *_legacyUsername;
 }
 
 - (void);
@@ -35,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appAuthToken; // @synthesize appAuthToken=_appAuthToken;
-@property(nonatomic) long long appAuthTokenStatus; // @synthesize appAuthTokenStatus=_appAuthTokenStatus;
-@property(retain, nonatomic) NSString *appServerHost; // @synthesize appServerHost=_appServerHost;
 @property(retain, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain, nonatomic) NSString *legacyDsid; // @synthesize legacyDsid=_legacyDsid;
-@property(retain, nonatomic) NSString *legacyUsername; // @synthesize legacyUsername=_legacyUsername;
-@property(retain, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

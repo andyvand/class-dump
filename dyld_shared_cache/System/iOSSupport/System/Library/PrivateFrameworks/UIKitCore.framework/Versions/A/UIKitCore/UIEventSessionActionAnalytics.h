@@ -4,57 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSNumber, NSObject, NSString, UIEventSessionHeatMapAnalyzer, UIEventSessionTouchEventAnalyzer, _UIEventSessionAction;
+@class NSNumber, NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface UIEventSessionActionAnalytics
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _UIEventSessionAction *_lastAction;
-    NSMutableSet *_accumulators;
-    unsigned long long _maxDepth;
-    UIEventSessionTouchEventAnalyzer *touchAnalyzer;
-    UIEventSessionHeatMapAnalyzer *heatMapAnalyzer;
-    long long _magicKeyboardState;
-    long long _lastMagicKeyboardState;
-    long long _hardwareKeyboardState;
-    long long _lastHardwareKeyboardState;
-    long long _uiInterfaceOrientation;
-    long long _lastUIInterfaceOrientation;
-    _Bool _needToFlushUIEventSessionActionAnalytics;
-    _Bool _pencilIsHovering;
-    NSNumber *_sessionID;
-    NSString *_bundleID;
 }
 
 + (id)égþ]QÑp4l;
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)fetching from server, next one is firing at %@;
+- (void):%@ /* Error: Ran out of types for this method. */;
+- (void)tsAsNeedingSync %@;
+- (void)arking all chats as dirty;
+- (void)ocal chat sync state, flags 0x%x;
 - (void);
+- (void)ror processing SyndicationAction:%@ /* Error: Ran out of types for this method. */;
+- (void).;
+- (void)hat using SMS chat fallback search.;
+- (void)update SyndicationAction:(id)arg1 %@;
+- (void)tion:(id)arg1 %@;
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

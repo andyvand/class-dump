@@ -7,11 +7,10 @@
 @class NSData;
 
 @interface UnknownClass (FaceTimeStringAdditions)
-- (id);
-- (id);
+- (id)clearError;
+- (id)clearCurrentMemoryForURLNavigation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *_FTDataFromBase64String;
-@property(readonly, nonatomic) NSData *_FTDataFromHexString;
 @end
 

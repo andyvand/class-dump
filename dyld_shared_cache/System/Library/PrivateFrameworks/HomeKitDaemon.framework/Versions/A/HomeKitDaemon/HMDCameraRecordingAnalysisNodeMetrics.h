@@ -10,21 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingAnalysisNodeMetrics
 {
     _Bool _activeSessionWithCamera;
-    _Bool _pendingSessionWithCamera;
-    _Bool _demotedForThisCamera;
-    _Bool _resourceConstrained;
-    _Bool _homePodGeneration2InOdeon;
-    _Bool _readyToRecord;
-    NSNumber *_maxNumberOfAnalyzers;
-    NSNumber *_maxAnalysisFPS;
-    long long _remainingNumberOfAnalyzers;
-    unsigned long long _demotionCount;
-    long long _systemResourceUsageLevel;
-    unsigned long long _numberOfActiveRecordingSessions;
-    unsigned long long _numberOfPendingRecordingSessions;
 }
 
-- (long long);
+- (long long)_incidents;
 - (long long);
 - (unsigned long long);
 - (_Bool);
@@ -36,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (unsigned long long);
 - (id)hat account was added:%@ /* Error: Ran out of types for this method. */;
@@ -44,19 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=hasActiveSessionWithCamera) _Bool activeSessionWithCamera; // @synthesize activeSessionWithCamera=_activeSessionWithCamera;
-@property(readonly, nonatomic, getter=isDemotedForThisCamera) _Bool demotedForThisCamera; // @synthesize demotedForThisCamera=_demotedForThisCamera;
-@property(readonly, nonatomic) unsigned long long demotionCount; // @synthesize demotionCount=_demotionCount;
-@property(readonly, nonatomic, getter=isHomePodGeneration2InOdeon) _Bool homePodGeneration2InOdeon; // @synthesize homePodGeneration2InOdeon=_homePodGeneration2InOdeon;
-@property(readonly, copy, nonatomic) NSNumber *maxAnalysisFPS; // @synthesize maxAnalysisFPS=_maxAnalysisFPS;
 @property(readonly, copy, nonatomic) NSNumber *maxNumberOfAnalyzers; // @synthesize maxNumberOfAnalyzers=_maxNumberOfAnalyzers;
-@property(readonly, nonatomic) unsigned long long numberOfActiveRecordingSessions; // @synthesize numberOfActiveRecordingSessions=_numberOfActiveRecordingSessions;
-@property(readonly, nonatomic) unsigned long long numberOfPendingRecordingSessions; // @synthesize numberOfPendingRecordingSessions=_numberOfPendingRecordingSessions;
-@property(readonly, nonatomic, getter=hasPendingSessionWithCamera) _Bool pendingSessionWithCamera; // @synthesize pendingSessionWithCamera=_pendingSessionWithCamera;
-@property(readonly, nonatomic, getter=isReadyToRecord) _Bool readyToRecord; // @synthesize readyToRecord=_readyToRecord;
-@property(readonly, nonatomic) long long remainingNumberOfAnalyzers; // @synthesize remainingNumberOfAnalyzers=_remainingNumberOfAnalyzers;
-@property(readonly, nonatomic, getter=isResourceConstrained) _Bool resourceConstrained; // @synthesize resourceConstrained=_resourceConstrained;
-@property(readonly, nonatomic) long long systemResourceUsageLevel; // @synthesize systemResourceUsageLevel=_systemResourceUsageLevel;
 
 @end
 

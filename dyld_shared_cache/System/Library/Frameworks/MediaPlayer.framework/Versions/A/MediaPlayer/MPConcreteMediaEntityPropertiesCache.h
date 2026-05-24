@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol MPMediaLibraryDataProvider, OS_dispatch_queue;
+@protocol MPMediaLibraryDataProvider;
 
 __attribute__((visibility("hidden")))
 @interface MPConcreteMediaEntityPropertiesCache
 {
     Class _dataProviderEntityClass;
-    long long _identifier;
-    NSMutableDictionary *_properties;
-    NSMutableDictionary *_valuePersistenceBlocks;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    struct os_unfair_lock_s _lock;
-    id <MPMediaLibraryDataProvider> _dataProvider;
 }
 
 + (id);
@@ -30,13 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (void)RadioStationName__MAPPING_MISSING__;
+- (void)__MPModelPropertyRadioStationName__MAPPING_MISSING__;
 - (void)MPModelPropertyRadioStationEventDescriptionText;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPMediaLibraryDataProvider> dataProvider; // @synthesize dataProvider=_dataProvider;
-@property(readonly, nonatomic) Class dataProviderEntityClass; // @synthesize dataProviderEntityClass=_dataProviderEntityClass;
-@property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
 
 @end
 

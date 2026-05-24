@@ -11,7 +11,6 @@
 - (NSArray *)KÇ;
 
 // Remaining properties
-@property long long attribute;
 @property(copy) NSArray *identifiers;
 @end
 

@@ -7,7 +7,6 @@
 @interface IMNetworkReachability
 {
     _Bool localWiFiRef;
-    struct __SCNetworkReachability *reachabilityRef;
 }
 
 + (id);

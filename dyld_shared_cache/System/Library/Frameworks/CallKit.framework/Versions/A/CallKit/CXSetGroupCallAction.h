@@ -15,11 +15,11 @@
 
 + (_Bool);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)_;
+- (void)streamingRadioSubType;
 - (id);
 - (void);
 

@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
++ (id)beginOrbiting;
++ (void)addChildNode:(id)arg1;
++ (void)accessibilityDescription;
++ (id)_vertexDescriptor;
 + (void);
 + (void);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 

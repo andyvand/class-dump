@@ -6,26 +6,22 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPStocksMetadata : LPSpecializationMetadata
 {
     NSString *_combinedTitle;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_footnote;
-    LPImage *_icon;
 }
 
-+ (id);
++ (id)stageSelectedSuggestedReply: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)tokenAddresses;
+- (id)tintBalloon;
+- (id)timingParameters;
+- (id)timestampLabelTopSpacingConstraint;
+- (id)tapGestureRecognizer;
+- (_Bool)tailAttachmentPointWithOutputForMinimumContinousAnchorX:(id)arg1 maximumContinuousAnchorX: /* Error: Ran out of types for this method. */;
+- (void)styledAttributedStringFromString:(CDUnknownBlockType)arg1;
 - (void);
 - (id);
 - (id);
@@ -39,21 +35,10 @@
 - (id);
 - (void)!BùQ°1Â0@ù
 × ;
-- (void)eMetadata;
+- (void)LPiTunesMediaSoftwareMetadata;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *combinedTitle; // @synthesize combinedTitle=_combinedTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *footnote; // @synthesize footnote=_footnote;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

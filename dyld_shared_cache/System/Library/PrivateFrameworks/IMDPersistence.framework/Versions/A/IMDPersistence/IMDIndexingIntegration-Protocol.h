@@ -5,5 +5,8 @@
 //
 
 @protocol IMDIndexingIntegration
+
+@optional
+- (void);
 @end
 

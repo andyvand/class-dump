@@ -10,25 +10,19 @@ __attribute__((visibility("hidden")))
 @interface HMDAssertionLogEvent
 {
     NSString *_description;
-    NSString *_reason;
 }
 
 - (void);
-- (id);
+- (id)ViewerStartFileCopySend;
 - (id);
 - (id)ic}@The response handler became nil for read/write request message:(id)arg1 %@;
 - (void)æð;
 
 // Remaining properties
-@property(readonly, copy) NSString *diagnosticReportEventSubType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSString *diagnosticReportEventType;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
-@property(readonly, copy) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

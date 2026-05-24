@@ -7,10 +7,6 @@
 @interface AMSAutoBugCaptureDiagnosticActionOptions
 {
     id logArchive;
-    id getNetworkInfo;
-    id crashAndSpinLogs;
-    id diagnosticExtensionOptions;
-    id probeOptions;
 }
 
 - (id);

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSObject, SGQuickResponsesStore;
-@protocol OS_dispatch_queue, SGXPCActivityManagerProtocol;
+@protocol SGXPCActivityManagerProtocol;
 
 @interface PSGDPDeviceMetricsCollector
 {
     id <SGXPCActivityManagerProtocol> _xpcActivityManager;
-    IDSService *_idsService;
-    NSObject<OS_dispatch_queue> *_queue;
-    SGQuickResponsesStore *_store;
 }
 
 + (_Bool);
@@ -28,9 +24,9 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)toTokens:fromInput:withLength: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,26 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface IFTSchemaIFTPlan : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSArray *_statements;
-    NSString *_overrideId;
-    int _planSource;
-    struct {
-        unsigned int exists:1;
-        unsigned int planSource:1;
-    } _has;
-    _Bool _hasOverrideId;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0u;
 - (void);
 - (int);
 - (id);
@@ -38,19 +28,19 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tð!DùQàÐ1Â0@ù
 × ;
 - (id)Id;
-- (id)textualEntityState;
+- (id)ASRSchemaASRContextualEntityState;
 - (_Bool);
 - (void)³M#;
 - (_Bool)¶ÿ;
@@ -58,13 +48,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasOverrideId; // @synthesize hasOverrideId=_hasOverrideId;
-@property(nonatomic) _Bool hasPlanSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *overrideId; // @synthesize overrideId=_overrideId;
-@property(nonatomic) int planSource; // @synthesize planSource=_planSource;
-@property(copy, nonatomic) NSArray *statements; // @synthesize statements=_statements;
 
 @end
 

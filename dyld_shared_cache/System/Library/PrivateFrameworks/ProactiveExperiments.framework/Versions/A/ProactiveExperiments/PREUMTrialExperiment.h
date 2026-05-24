@@ -9,37 +9,31 @@
 @interface PREUMTrialExperiment
 {
     NSString *_experimentId;
-    NSString *_treatmentId;
-    NSString *_treatmentModelName;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)%;
 - (_Bool);
-- (id);
+- (id)qh;
 - (void);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)u;
+- (id)
+;
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(readonly, nonatomic) _Bool hasTreatmentModelName;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(retain, nonatomic) NSString *treatmentModelName; // @synthesize treatmentModelName=_treatmentModelName;
 
 @end
 

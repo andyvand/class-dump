@@ -6,12 +6,9 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class NSArray;
-
 @interface MLCReductionLayer : MLCLayer
 {
     int _reductionType;
-    NSArray *_dimensions;
 }
 
 + (_Bool);
@@ -23,15 +20,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (int);
+- (int)�?D;
 - (id);
 - (id);
 - (void);
 - (unsigned long long)darySource=%@ :forwardStatisticsKernel=%@ :gradientStatisticsKernel=%@ } /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dimension;
-@property(readonly, nonatomic) NSArray *dimensions; // @synthesize dimensions=_dimensions;
 @property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
 
 @end

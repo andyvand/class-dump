@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFileAttributes, NSFileHandle;
-
 @interface BMFileHandle
 {
     _Bool _initialized;
-    int _fd;
-    struct os_unfair_lock_s _lock;
-    int _error;
-    BMFileAttributes *_attributes;
 }
 
 + (id);
@@ -29,16 +23,12 @@
 - (void);
 - (id);
 - (int);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)shouldSubscribe:(int)arg1 toPeer:(id)arg2 withCharacteristic:inService: /* Error: Ran out of types for this method. */;
+- (void)h;
 
 // Remaining properties
-@property(readonly, nonatomic) BMFileAttributes *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) int error; // @synthesize error=_error;
 @property(readonly, nonatomic) int fd; // @synthesize fd=_fd;
-@property(readonly, nonatomic) _Bool isStale;
-@property(readonly, nonatomic) NSFileHandle *nsFileHandle;
 
 @end
 

@@ -4,61 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface PKBarcodeEventSignatureRequest
 {
     NSString *_deviceAccountIdentifier;
-    NSString *_transactionIdentifier;
-    NSString *_barcodeIdentifier;
-    NSString *_rawMerchantName;
-    NSString *_merchantName;
-    NSDate *_transactionDate;
-    NSString *_currencyCode;
-    NSNumber *_amount;
-    NSString *_transactionStatus;
-    NSData *_partialSignature;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)A;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)";
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)rk";
+- (id);
+- (id);
+- (void);
+- (id)setFromDeviceVersion: /* Error: Ran out of types for this method. */;
 - (void)let.test;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *barcodeIdentifier; // @synthesize barcodeIdentifier=_barcodeIdentifier;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(copy, nonatomic) NSString *deviceAccountIdentifier; // @synthesize deviceAccountIdentifier=_deviceAccountIdentifier;
-@property(copy, nonatomic) NSString *merchantName; // @synthesize merchantName=_merchantName;
-@property(copy, nonatomic) NSData *partialSignature; // @synthesize partialSignature=_partialSignature;
-@property(copy, nonatomic) NSString *rawMerchantName; // @synthesize rawMerchantName=_rawMerchantName;
-@property(retain, nonatomic) NSDate *transactionDate; // @synthesize transactionDate=_transactionDate;
-@property(copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
-@property(copy, nonatomic) NSString *transactionStatus; // @synthesize transactionStatus=_transactionStatus;
 
 @end
 

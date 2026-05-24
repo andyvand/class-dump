@@ -12,20 +12,20 @@ __attribute__((visibility("hidden")))
     MLModel *_model;
 }
 
-+ (void);
-+ (id);
-+ (void);
++ (void)setSkippedRouteLineSplitAnnotation:(id)arg1;
++ (id)localizedStringWithValidatedFormat:validFormatSpecifiers:error: /* Error: Ran out of types for this method. */;
++ (void)euver %@ - Will continue with fallback altitude;
+- (id);
+- (id)alue"d}};
+- (id)setDisableOverlayTextConsole:(id)arg1;
+- (id)newTextureViewWithPixelFormat:(id)arg1;
+- (void)%i;
+- (void)ion with expression - %s :(id)arg1 Failed in file - %s line - %i;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ContentsParseError;
 - (id);
 - (void);
 

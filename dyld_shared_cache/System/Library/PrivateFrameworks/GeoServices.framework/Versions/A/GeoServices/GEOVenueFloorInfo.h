@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEOVenueFloorInfo
 {
     short _ordinal;
-    unsigned long long _levelID;
 }
 
-+ (_Bool);
++ (_Bool)ead 0x%llx (%llu)):(long long)arg1 %@;
 + (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)he contact lacks a persistent store destination (required to find a container in the same store). Without a container, this save will fail with a contact constraint violation.;
 - (short);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long levelID; // @synthesize levelID=_levelID;
 @property(readonly, nonatomic) short ordinal; // @synthesize ordinal=_ordinal;
-@property(readonly) Class superclass;
 
 @end
 

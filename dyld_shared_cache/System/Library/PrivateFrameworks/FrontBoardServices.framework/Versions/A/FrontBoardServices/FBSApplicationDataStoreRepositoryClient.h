@@ -6,16 +6,9 @@
 
 #import <FrontBoardServices/FBSServiceFacilityClient.h>
 
-@class NSCountedSet, NSHashTable, NSMutableDictionary, NSString;
-
 @interface FBSApplicationDataStoreRepositoryClient : FBSServiceFacilityClient
 {
     struct os_unfair_lock_s _prefetchedDataLock;
-    NSCountedSet *_prefetchedKeys;
-    NSMutableDictionary *_prefetchedKeyValues;
-    NSMutableDictionary *_pendingChangesToPrefetchedKeys;
-    struct os_unfair_lock_s _observersLock;
-    NSHashTable *_observers;
 }
 
 - (void);
@@ -24,35 +17,29 @@
 - (id);
 - (void);
 - (void);
+- (void)(HzJ;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
+- (id);
+- (void)ry _bleHandleDeviceLost:(CDUnknownBlockType)arg1 ];
+- (void)@;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)isModalView;
+- (void)groupNameId;
+- (void)(;
 - (id);
 - (id);
-- (void);
+- (void)SData"@"NSError">40;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

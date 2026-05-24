@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PMLSparseVector, SGModelSource;
+@class SGModelSource;
 
 @interface SGModelFeatures
 {
     SGModelSource *_source;
-    PMLSparseVector *_vector;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)ead (%{public}@) with change:%{public}@, sectionDidChange:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

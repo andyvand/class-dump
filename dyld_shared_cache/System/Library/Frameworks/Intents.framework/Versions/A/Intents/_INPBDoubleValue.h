@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
-
 @interface _INPBDoubleValue
 {
     CDStruct_01ef6375 _has;
-    double _value;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)3	;
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)hare eligible for clientID (clientID=%{public}@, metadata=%{public}@, authLevel=%lu, knownNetwork=%{public}@);
 - (void);
 - (id);
 - (double);
-- (id);
+- (id);
 - (_Bool)´ÎèÐÓpÔ;
-- (void)ctivityForBookingInApplication;
+- (void)userActivityForBookingInApplication;
 - (void);
 - (id)hÑéÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) double value; // @synthesize value=_value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

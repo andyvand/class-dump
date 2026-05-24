@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol ICItemIdentifier;
-
 @interface ICButtonItemIdentifier
 {
     unsigned long long _hash;
-    long long _type;
-    id <ICItemIdentifier> _parentIdentifier;
 }
 
 - (id);
-- (long long);
-- (id);
-- (id);
+- (long long)lastEarlyAlert;
+- (id)@9;
+- (id);
 - (id);
 - (unsigned long long);
 - (long long);
@@ -27,17 +22,6 @@
 - (void)_changeCoalescer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayText;
-@property(readonly) unsigned long long hash; // @synthesize hash=_hash;
-@property(readonly, nonatomic) id <ICItemIdentifier> parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly, nonatomic) long long style;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *systemImageName;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

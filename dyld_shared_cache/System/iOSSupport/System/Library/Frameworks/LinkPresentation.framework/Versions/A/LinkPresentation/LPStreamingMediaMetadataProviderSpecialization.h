@@ -6,18 +6,13 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class AVAssetImageGenerator, LPLinkMetadata, LPMediaAssetFetcher;
-
 __attribute__((visibility("hidden")))
 @interface LPStreamingMediaMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     _Bool _cancelled;
-    LPMediaAssetFetcher *_fetcher;
-    AVAssetImageGenerator *_videoImageGenerator;
-    LPLinkMetadata *_metadata;
 }
 
-+ (id);
++ (id)summaryOfVCard:(id)arg1 error: /* Error: Ran out of types for this method. */;
 + (unsigned long long);
 - (void);
 - (void);

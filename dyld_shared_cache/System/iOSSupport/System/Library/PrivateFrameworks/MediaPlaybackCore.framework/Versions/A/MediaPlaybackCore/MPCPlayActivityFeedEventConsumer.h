@@ -4,74 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray;
 @protocol MPCPlaybackEngineEventStreamSubscription;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlayActivityFeedEventConsumer
 {
     NSArray *_allowedBundleIds;
-    id <MPCPlaybackEngineEventStreamSubscription> _subscription;
-    NSMutableArray *_radioPlayActivityEvents;
 }
 
-+ (unsigned int);
++ (unsigned int)16@"ACDAccountStore"24;
 + (id);
 - (void);
 - (void);
+- (id);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void)9;
+- (void);
+- (void)T;
+- (void);
+- (void)rary/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (double)counts.framework/Versions/A/AOSAccounts;
+- (double);
+- (double)ystem/Library/Frameworks/Accounts.framework/Versions/A/Accounts;
+- (void);
+- (_Bool)__data;
+- (_Bool);
+- (_Bool);
+- (_Bool)__cfstring;
+- (_Bool);
+- (double)__objc_imageinfo__DATA_CONST;
+- (double)__objc_protolist__DATA_CONST;
+- (id)__objc_stubs;
 - (id);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)setValue:(id)arg1 forKey:(id)arg2;
 - (id);
 - (id);
 - (void)public}@ô¿ AUDIO ASSET SELECTION      %{public}@ %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *radioPlayActivityEvents; // @synthesize radioPlayActivityEvents=_radioPlayActivityEvents;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

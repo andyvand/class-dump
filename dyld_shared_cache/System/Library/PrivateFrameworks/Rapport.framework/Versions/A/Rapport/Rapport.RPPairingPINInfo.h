@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface Rapport.RPPairingPINInfo
 {
     void deviceName;
-    void givenName;
-    void familyName;
-    void pin;
-    id pake;
-    void createdAt;
 }
 
 - (id);
@@ -22,16 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (id)dHandler;
+- (id)_personChangedHandler;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *createdAt;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSString *deviceName;
-@property(nonatomic, readonly) NSString *familyName;
-@property(nonatomic, readonly) NSString *givenName;
-@property(nonatomic, readonly) NSString *pin;
 
 @end
 

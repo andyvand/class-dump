@@ -7,8 +7,6 @@
 @interface NewsFeed.FeaturePromotionPresentationArchive
 {
     id $defaultActor;
-    id fileName;
-    id records;
 }
 
 @end

@@ -8,8 +8,6 @@
 {
     id collector;
     id lock;
-    id stores;
-    id managerConfig;
 }
 
 @end

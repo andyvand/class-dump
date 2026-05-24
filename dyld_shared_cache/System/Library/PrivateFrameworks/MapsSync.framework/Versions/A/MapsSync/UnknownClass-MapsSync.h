@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MapsSync)
-+ (Class);
++ (Class)�;
 @end
 

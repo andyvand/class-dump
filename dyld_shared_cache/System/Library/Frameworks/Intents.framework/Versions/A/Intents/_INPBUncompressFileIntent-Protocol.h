@@ -7,15 +7,12 @@
 @class _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBUncompressFileIntent
+- (void);
+- (_INPBIntentMetadata *)_cacheContainsRawPath:length:isExcluded: /* Error: Ran out of types for this method. */;
 - (_Bool)r:participants:numberOfCalls:providerId:providerBundleId:isCallerIdBlocked: /* Error: Ran out of types for this method. */;
-- (_INPBString *)earchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBString *)provideDateTimeOptionsCollectionForSearchForNotebookItems:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

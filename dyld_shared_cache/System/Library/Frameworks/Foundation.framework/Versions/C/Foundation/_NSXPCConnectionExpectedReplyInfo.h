@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBlock, NSDictionary, NSObject, NSXPCInterface;
-@protocol OS_dispatch_semaphore;
+@class NSBlock;
 
 __attribute__((visibility("hidden")))
 @interface _NSXPCConnectionExpectedReplyInfo
 {
     NSBlock *_replyBlock;
-    CDUnknownBlockType _errorBlock;
-    NSObject<OS_dispatch_semaphore> *_timeoutSemaphore;
-    SEL _selector;
-    NSXPCInterface *_interface;
-    NSDictionary *_userInfo;
-    unsigned long long _proxyNumber;
 }
 
 - (void);

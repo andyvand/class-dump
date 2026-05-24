@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateController, IMKCandidateUIString, IMKDocumentView, IMKUITextField, NSArray, NSMutableArray, NSMutableDictionary, NSScrollView, NSView;
+@class IMKDocumentView, NSView;
 
 @interface IMKCandidateView
 {
     IMKDocumentView *_documentView;
-    NSMutableArray *_existingLines;
-    NSMutableDictionary *_existingLineViews;
-    NSScrollView *_scrollView;
-    NSMutableArray *_currentLinesWithSelectionKeys;
-    NSMutableDictionary *_selectionKeyToCandidateMapping;
-    _Bool _canScroll;
-    IMKCandidateController *_candidateController;
-    struct CGSize _documentSize;
-    IMKCandidateUIString *_message;
-    IMKUITextField *_messageTextField;
-    _Bool _respondsToMouseInteraction;
-    unsigned long long _topVisibleLine;
 }
 
 - (id);
@@ -33,6 +21,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,23 +30,22 @@
 - (void);
 - (void);
 - (void);
+- (void)9h;
+- (void);
+- (void)h;
 - (void);
 - (void);
+- (id);
+- (id);
+- (double);
 - (void);
 - (void);
+- (_Bool)R9;
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (double);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
 - (id);
 - (id);
 - (_Bool);
@@ -72,7 +60,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (id);
@@ -90,34 +78,15 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)vcSessionABTestOneOnOneAuthtagEnabled;
+- (void)K;
 - (id);
-- (id);
+- (id)[%s] %s:%d ReportingVC:%@ /* Error: Ran out of types for this method. */;
 - (void)ontalCompressed;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSView *accessibilitySizeComparisonView;
-@property(nonatomic) _Bool canScroll; // @synthesize canScroll=_canScroll;
-@property(nonatomic) IMKCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) NSMutableArray *currentLinesWithSelectionKeys; // @synthesize currentLinesWithSelectionKeys=_currentLinesWithSelectionKeys;
-@property(nonatomic) struct CGSize documentSize; // @synthesize documentSize=_documentSize;
-@property(retain, nonatomic) IMKDocumentView *documentView; // @synthesize documentView=_documentView;
-@property(retain, nonatomic) NSMutableDictionary *existingLineViews; // @synthesize existingLineViews=_existingLineViews;
-@property(retain, nonatomic) NSMutableArray *existingLines; // @synthesize existingLines=_existingLines;
-@property(nonatomic) double lineThickness;
-@property(retain, nonatomic) IMKCandidateUIString *message; // @synthesize message=_message;
-@property(retain, nonatomic) IMKUITextField *messageTextField; // @synthesize messageTextField=_messageTextField;
-@property(nonatomic) _Bool respondsToMouseInteraction; // @synthesize respondsToMouseInteraction=_respondsToMouseInteraction;
-@property(retain, nonatomic) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, nonatomic) double scrollerThickness;
-@property(retain, nonatomic) NSMutableDictionary *selectionKeyToCandidateMapping; // @synthesize selectionKeyToCandidateMapping=_selectionKeyToCandidateMapping;
-@property(readonly, nonatomic) _Bool showsLegacyScroller;
-@property(nonatomic) unsigned long long topVisibleLine;
-@property(readonly, nonatomic) NSArray *visibleCandidatesFromTopLine;
-@property(readonly, nonatomic) NSArray *visibleLineViews;
-@property(readonly, nonatomic) NSArray *visibleLines;
 
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)LBu9btCCMXARNP26vsImMw;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)A((^rB^a`;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -27,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (id);
-- (unsigned long long)lue;
+- (unsigned long long)ObjectiveCValue;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAtomicSignal, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIDeallocInvalidatable
 {
     _Bool _faultForDeallocInvalidation;
-    BSAtomicSignal *_invalidationSignal;
-    CDUnknownBlockType _invalidationBlock;
-    NSString *_identifier;
 }
 
-- (id);
-- (void);
+- (id)_unreadMessagesWithRoomNames:(id)arg1 onServices:(_Bool)arg2 limit:(CDUnknownBlockType)arg3 fallbackGUID: /* Error: Ran out of types for this method. */;
+- (void)lightRPC fsctl failed (errno = %d);
 - (void);
 - (id);
 - (id);
@@ -27,15 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)¶ÜØ\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

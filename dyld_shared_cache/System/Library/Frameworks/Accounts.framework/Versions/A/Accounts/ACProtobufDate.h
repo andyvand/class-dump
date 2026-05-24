@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
@@ -29,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

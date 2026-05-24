@@ -7,24 +7,9 @@
 @interface PhotosUICore.StoryAsyncPlayer.StoryAsyncSession__priv_FB5E37A76B9B9AC70A0D746A52CA40E2
 {
     id layout;
-    id clientQueue;
-    id storyQueue;
-    id state;
-    id clientQueue_onPlaybackFinished;
-    id model;
-    id modelObservation;
-    id storyConfiguration;
-    id traitCollection;
-    id pacingController;
-    id resourcesPreloader;
-    id bufferingController;
-    id songController;
-    id isPausedForSomeTime;
-    id isPausedForSomeTimeTimer;
-    id isActive;
 }
 
-- (void);
+- (void);
 
 @end
 

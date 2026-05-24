@@ -6,35 +6,33 @@
 
 #import <MechanismBase/MechanismBaseComposite.h>
 
-@class MechanismBase, NSDictionary;
+@class MechanismBase;
 
 @interface MechanismTouchIDWatch : MechanismBaseComposite
 {
     MechanismBase *_touchId;
-    MechanismBase *_watch;
-    NSDictionary *_previousResult;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)ze;
+- (void)netDistribution:(id)arg1:(id)arg2 scoreUsingCache() - not supported for this distribution type;
+- (void)%d);
+- (void)ribution:(long long)arg1:(_Bool)arg2 scoreAll() - input vector has wrong size (%d, should be %d);
+- (_Bool)core not implemented yet() - not supported for this distribution type;
+- (long long)DNN image %s implies %u layers (too many);
+- (_Bool)pFromMemory() - DNN image %s contains unsupported feature (required set = 0x%.6X%.8X, available = 0x%.6X%.8X);
+- (id)ectly defined in;
+- (id)DeepnetDistribution:(id)arg1:(_Bool)arg2 read() - %s %s;
+- (void)endFrames() already called;
+- (id)al buffer size %d;
+- (id)h NULL;
+- (id)alize();
+- (id)getoption() can only be called after initialize();
+- (id)Detect:(long long)arg1 getsupervector() can only be called after initialize();
+- (void)ect:(id)arg1 getphraseresults() phrase results not set up;
+- (void)ect:(id)arg1 wavedata() cannot be called after endwavedata();
+- (void)can only be called after initialize();
+- (_Bool)convert element to float;
+- (void);
 
 @end
 

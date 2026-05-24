@@ -12,7 +12,6 @@
 @interface CKDetailsSearchResultsTitleHeaderCell : CKSearchResultsTitleHeaderCell
 {
     id <CKDetailsSearchResultsTitleHeaderCellDelegate> _detailsViewDelegate;
-    CALayer *_bottomHairline;
 }
 
 + (id);
@@ -20,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)m;
+- (id)timelineSectionsForNoteObjectIDs:dates:referenceDate:direction:sizes of arrays don't match /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *bottomHairline; // @synthesize bottomHairline=_bottomHairline;
-@property(nonatomic) __weak id <CKDetailsSearchResultsTitleHeaderCellDelegate> detailsViewDelegate; // @synthesize detailsViewDelegate=_detailsViewDelegate;
 
 @end
 

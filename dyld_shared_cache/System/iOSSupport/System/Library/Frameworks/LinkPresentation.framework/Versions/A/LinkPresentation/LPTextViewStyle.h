@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAppearanceDependentValue, LPGlyphStyle, LPPadding, LPPointUnit, NSString, UIColor, UIFont;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface LPTextViewStyle
 {
     float _hyphenationFactor;
-    unsigned int _maximumLines;
-    unsigned int _maximumLinesWithMedia;
-    unsigned int _maximumCharacters;
-    UIColor *_color;
-    UIFont *_font;
-    UIFont *_fallbackFontForTruncatedSingleLine;
-    NSString *_compositingFilter;
-    long long _textAlignment;
-    LPPointUnit *_firstLineLeading;
-    LPPointUnit *_lastLineDescent;
-    LPGlyphStyle *_leadingGlyph;
-    LPGlyphStyle *_trailingGlyph;
-    LPPadding *_padding;
-    LPPointUnit *_paragraphSpacing;
-    LPAppearanceDependentValue *_shadow;
-    long long _maximumLineCountScalingBehavior;
-    double _fontScalingFactor;
 }
 
 - (id);
 - (void);
+- (void)transcriptBackgroundLuminance;
+- (void)transcriptBackgroundGUID;
+- (void)transcriptBackgroundColor;
+- (void)transcriptBackgroundChannelTransferGUID;
+- (void)transcriptBackground:(id)arg1 convertRect:toView: /* Error: Ran out of types for this method. */;
+- (void)transcriptAvailabilityFontAttributes;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)trackTranscriptBackgroundChangedIn:(id)arg1 withOutboundBackground: /* Error: Ran out of types for this method. */;
+- (void)trackEvent:(id)arg1 withDictionary: /* Error: Ran out of types for this method. */;
+- (unsigned int)tintViewBackgroundColor;
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (void);
+- (unsigned int)tintColorForRecipient:completion: /* Error: Ran out of types for this method. */;
+- (id)timeIntervalSinceDate: /* Error: Ran out of types for this method. */;
+- (id)textView:(long long)arg1 shouldChangeTextInRanges:(double)arg2 replacementText: /* Error: Ran out of types for this method. */;
+- (double)ViewIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)textEffectCoordinator:didDetectInvalidAnimationForTextViewIdentifier: /* Error: Ran out of types for this method. */;
+- (id)textDroppableView:dropSessionDidEnter: /* Error: Ran out of types for this method. */;
+- (id)tableViewDidEndMultipleSelectionInteraction:(id)arg1;
+- (void)stringByApplyingTransform:(id)arg1 reverse: /* Error: Ran out of types for this method. */;
+- (long long)stopRecordingForRaiseGestureWithFailure: /* Error: Ran out of types for this method. */;
+- (id)stickerReactionVerticalOverlapPercentage;
 - (void);
 - (void);
-- (id);
+- (void)SRFSiriViewDidLayoutEvent;
+- (id)esWhileRecording;
 - (id);
 - (id);
 - (id);
@@ -73,23 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSString *compositingFilter; // @synthesize compositingFilter=_compositingFilter;
-@property(retain, nonatomic) UIFont *fallbackFontForTruncatedSingleLine; // @synthesize fallbackFontForTruncatedSingleLine=_fallbackFontForTruncatedSingleLine;
-@property(retain, nonatomic) LPPointUnit *firstLineLeading; // @synthesize firstLineLeading=_firstLineLeading;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic) double fontScalingFactor; // @synthesize fontScalingFactor=_fontScalingFactor;
-@property(nonatomic) float hyphenationFactor; // @synthesize hyphenationFactor=_hyphenationFactor;
-@property(retain, nonatomic) LPPointUnit *lastLineDescent; // @synthesize lastLineDescent=_lastLineDescent;
-@property(retain, nonatomic) LPGlyphStyle *leadingGlyph; // @synthesize leadingGlyph=_leadingGlyph;
-@property(nonatomic) unsigned int maximumCharacters; // @synthesize maximumCharacters=_maximumCharacters;
-@property(nonatomic) long long maximumLineCountScalingBehavior; // @synthesize maximumLineCountScalingBehavior=_maximumLineCountScalingBehavior;
-@property(nonatomic) unsigned int maximumLines; // @synthesize maximumLines=_maximumLines;
-@property(nonatomic) unsigned int maximumLinesWithMedia; // @synthesize maximumLinesWithMedia=_maximumLinesWithMedia;
-@property(readonly, retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) LPPointUnit *paragraphSpacing; // @synthesize paragraphSpacing=_paragraphSpacing;
-@property(retain, nonatomic) LPAppearanceDependentValue *shadow; // @synthesize shadow=_shadow;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(retain, nonatomic) LPGlyphStyle *trailingGlyph; // @synthesize trailingGlyph=_trailingGlyph;
 
 @end
 

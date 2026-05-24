@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorIdentifierQueryCallStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
-- (id);
-- (void);
+- (void);
+- (id).btpairing.connect;
+- (void)_vfy.c;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)bscriptionAssetLoadWaitTime"b1"hasMediaRedownloadWaitTime"b1"cmInitialStartupItemCreationToReadyToPlayDurationInMs"b1"cmInitialStartupItemCreationToLtluDurationInMs"b1"masterPlaylistConnectionTlsHandshakeDurationInMs"b1"masterPlaylistRequestDurationInMs"b1"subPlaylistConnectionTlsHandshakeDurationInMs"b1"subPlaylistRequestDurationInMs"b1"contentConnectionTlsHandshakeDurationInMs"b1"contentFirstSegmentDurationInMs"b1};
-- (id)t;
+- (id)SISchemaCarBluetoothHeadUnit;
 - (id)õ;
 - (_Bool)4µÎÿ;
 - (_Bool)ÿÙ´±É';
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

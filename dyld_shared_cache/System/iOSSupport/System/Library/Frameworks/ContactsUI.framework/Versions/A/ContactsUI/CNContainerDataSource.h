@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNContactViewCache, NSArray;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNContainerDataSource
 {
     _Bool _ignoresExchangeContainers;
-    NSArray *_containerPickerItems;
-    NSArray *_containers;
-    CNContactStore *_store;
-    CNContactViewCache *_contactViewCache;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id));
+- (void)G;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (id)rDelegate>"16;
 - (id)stureRecognizer"16;
-- (void)ect:(id)arg1;
-- (void)ackgroundStyle;
+- (void)setSourceTargetRect:(id)arg1;
+- (void)_backgroundStyle;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactViewCache *contactViewCache; // @synthesize contactViewCache=_contactViewCache;
-@property(retain, nonatomic) NSArray *containerPickerItems; // @synthesize containerPickerItems=_containerPickerItems;
-@property(retain, nonatomic) NSArray *containers; // @synthesize containers=_containers;
-@property(nonatomic) _Bool ignoresExchangeContainers; // @synthesize ignoresExchangeContainers=_ignoresExchangeContainers;
 @property(retain, nonatomic) CNContactStore *store; // @synthesize store=_store;
 
 @end

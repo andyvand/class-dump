@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID, RTDeviceMO;
+@class RTDeviceMO;
 
 @interface RTCloudManagedObject
 {
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)ion={__CFRuntimeBase=QAQ}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
++ (id)BackupKeybagDigest;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(copy, nonatomic) NSData *ckRecordSystemFields; // @dynamic ckRecordSystemFields;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) RTDeviceMO *device; // @dynamic device;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(nonatomic) unsigned long long flags; // @dynamic flags;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSUUID *identifier;
-@property(readonly) Class superclass;
 
 @end
 

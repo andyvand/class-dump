@@ -6,15 +6,11 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNContact, CNContactStore, CNLabeledValue, CNUIEditContactCommand, NSString;
+@class CNContactStore;
 
 @interface CNUISaveNonCuratedValueOntoExistingContactCommand : CNUIUndoableCommand
 {
     CNContactStore *_contactStore;
-    CNContact *_contact;
-    CNLabeledValue *_labeledValue;
-    NSString *_key;
-    CNUIEditContactCommand *_editContactCommand;
 }
 
 - (void);
@@ -25,20 +21,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)defaultUnarchivingAllowedClasses;
 - (void);
 - (id);
-- (void);
+- (void);;
 - (void);
 - (void)serInterfaceAction>",R,V_createGroupAction;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNUIEditContactCommand *editContactCommand; // @synthesize editContactCommand=_editContactCommand;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) CNLabeledValue *labeledValue; // @synthesize labeledValue=_labeledValue;
 
 @end
 

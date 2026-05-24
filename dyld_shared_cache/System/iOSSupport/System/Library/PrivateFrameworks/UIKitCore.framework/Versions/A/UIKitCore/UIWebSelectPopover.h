@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIWebSelectTableViewController *_tableViewController;
 }
 
-- (void);
+- (void)recordMessageSentFromAppWithBundleID:(id)arg1 toRecipientHandle: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)%{bool,private}d. initial load? %{bool,public}d;
+- (id)action since we did not get an AppName;
+- (void)heartbeats;
+- (id)diaPickerController";
 
 // Remaining properties
 @property(retain, nonatomic) UIWebSelectTableViewController *_tableViewController; // @synthesize _tableViewController;

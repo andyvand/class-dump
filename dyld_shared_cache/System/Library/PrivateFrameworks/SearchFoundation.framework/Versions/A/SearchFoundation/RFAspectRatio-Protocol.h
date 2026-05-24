@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSNumber;
 
 @protocol RFAspectRatio
+- (void)!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *height;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSNumber *width;
 @end
 

@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, CKServerChangeToken, NSData, NSNumber, NSString;
-
 @interface _SGDCloudKitSyncPersistedState
 {
     CDUnknownBlockType _changeCallback;
-    NSData *_salt;
-    CKRecordID *_saltAtomicReferenceId;
-    NSNumber *_saltUsesManatee;
-    CKServerChangeToken *_syncToken;
-    NSNumber *_hasSubscription;
-    NSNumber *_eventsWereRemovedFromEventKit;
-    NSString *_primaryICloudCalendarAccount;
-    NSNumber *_hasDeferredSync;
-    NSNumber *_hasDeferredProcessStateChanges;
 }
 
 + (id);
@@ -47,24 +36,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_kh;
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)ef_trimTrailingCharactersInSet: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)day %lu of %lu;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType changeCallback; // @synthesize changeCallback=_changeCallback;
-@property(retain, nonatomic) NSNumber *eventsWereRemovedFromEventKit; // @synthesize eventsWereRemovedFromEventKit=_eventsWereRemovedFromEventKit;
-@property(retain, nonatomic) NSNumber *hasDeferredProcessStateChanges; // @synthesize hasDeferredProcessStateChanges=_hasDeferredProcessStateChanges;
-@property(retain, nonatomic) NSNumber *hasDeferredSync; // @synthesize hasDeferredSync=_hasDeferredSync;
-@property(retain, nonatomic) NSNumber *hasSubscription; // @synthesize hasSubscription=_hasSubscription;
-@property(retain, nonatomic) NSString *primaryICloudCalendarAccount; // @synthesize primaryICloudCalendarAccount=_primaryICloudCalendarAccount;
-@property(retain, nonatomic) NSData *salt; // @synthesize salt=_salt;
-@property(retain, nonatomic) CKRecordID *saltAtomicReferenceId; // @synthesize saltAtomicReferenceId=_saltAtomicReferenceId;
-@property(retain, nonatomic) NSNumber *saltUsesManatee; // @synthesize saltUsesManatee=_saltUsesManatee;
-@property(retain, nonatomic) CKServerChangeToken *syncToken; // @synthesize syncToken=_syncToken;
 
 @end
 

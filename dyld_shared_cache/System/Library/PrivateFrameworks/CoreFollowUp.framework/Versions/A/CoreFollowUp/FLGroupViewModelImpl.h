@@ -9,24 +9,19 @@
 @interface FLGroupViewModelImpl
 {
     NSMutableArray *_mutableItems;
-    _Bool _needsAccountID;
-    NSString *_identifier;
-    NSString *_rowTitle;
-    NSString *_groupTitle;
-    NSString *_accountID;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void),%@,%@, Failed to decode metadata for SMActiveSessionDetails, error, %@;
+- (id)ta;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -36,24 +31,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)roximity temp  (DegC) (TCHP);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *groupTitle; // @synthesize groupTitle=_groupTitle;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool needsAccountID; // @synthesize needsAccountID=_needsAccountID;
-@property(copy, nonatomic) NSString *rowTitle; // @synthesize rowTitle=_rowTitle;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface DDSAnalytics
 {
     NSMutableDictionary *_analyticByIdentifier;
-    NSObject<OS_dispatch_queue> *_analyticQueue;
 }
 
-+ (id);
++ (id)setHasCdmSpanMatcherContext: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)setHasCommonSignals:(int)arg1;
+- (void)setHasCommandId:(id)arg1;
+- (void)setHasCommandExecutionStartTimeInNs:(id)arg1;
+- (void)setHasCommandDuration:(int)arg1;
+- (void)setHasCollectionIndex:(int)arg1;
+- (id)setHasClientActionCreated:(id)arg1;
+- (void)setHasCirAlertVideoMediaBoost:(id)arg1;
+- (id)setHasCirAlertVerblessQueriesKgBoost:(id)arg1;
+- (id)setHasCirAlertDictionaryOverKgBoost: /* Error: Ran out of types for this method. */;
+- (id)setHasCirAlertDictionaryOverKgBoost: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *analyticByIdentifier; // @synthesize analyticByIdentifier=_analyticByIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *analyticQueue; // @synthesize analyticQueue=_analyticQueue;
 
 @end
 

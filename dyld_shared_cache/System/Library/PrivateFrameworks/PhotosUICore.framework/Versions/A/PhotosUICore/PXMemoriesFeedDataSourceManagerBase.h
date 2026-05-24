@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PHFetchResult, PHPhotoLibrary, PXMemoriesFeedDataSource;
-
 @interface PXMemoriesFeedDataSourceManagerBase
 {
     _Bool _memoryGenerationHasStarted;
-    _Bool __generatingAdditionalEntries;
-    PHPhotoLibrary *_photoLibrary;
-    PHFetchResult *_memoriesFetchResult;
-    unsigned long long _firstUngroupedMemoryIndex;
 }
 
 + (_Bool);
@@ -32,7 +26,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -42,7 +36,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)owp vec3				intensities = vec3(.2125, .7154, .0721); 
+		uniform lowp vec4			uColor; 
+		void main() 
+		{ 
+			lowp vec4 color = SampleTexture0; 
+			lowp vec3 neutral = vec3(dot(color.rgb, intensities)); 
+			color.rgb = mix(neutral.rgb, color.rgb, saturation); 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (id)¡%!Dù±8ð1Â0@ù
 × ;
 - (void);
@@ -50,19 +53,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=_isGeneratingAdditionalEntries, setter=_setGeneratingAdditionalEntries:) _Bool _generatingAdditionalEntries; // @synthesize _generatingAdditionalEntries=__generatingAdditionalEntries;
-@property(readonly, nonatomic) PXMemoriesFeedDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long firstUngroupedMemoryIndex; // @synthesize firstUngroupedMemoryIndex=_firstUngroupedMemoryIndex;
-@property(readonly, nonatomic) _Bool hasAnyMemories;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PHFetchResult *memoriesFetchResult; // @synthesize memoriesFetchResult=_memoriesFetchResult;
-@property(readonly, nonatomic) NSDate *mostRecentCreationDate;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

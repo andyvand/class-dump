@@ -7,9 +7,6 @@
 @interface PromotedContentUI.NewsAdPrefetchManager
 {
     id requester;
-    id storage;
-    id becomeActiveTask;
-    id prefetchTask;
 }
 
 @end

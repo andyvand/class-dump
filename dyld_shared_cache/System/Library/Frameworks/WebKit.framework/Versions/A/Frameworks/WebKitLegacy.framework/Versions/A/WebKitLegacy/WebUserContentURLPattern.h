@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (id);
-- (void);
+- (void)ic}@] Retrieving %{public}@ events for %{public}@ %{public}@.;
 - (id);
 - (_Bool);
 - (_Bool);

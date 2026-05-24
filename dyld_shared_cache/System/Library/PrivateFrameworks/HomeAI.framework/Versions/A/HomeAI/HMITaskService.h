@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMITaskService
 {
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (int);
 - (int);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)(%{public}@) Changed State:(int)arg1 %{public}@ (%{public}@);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

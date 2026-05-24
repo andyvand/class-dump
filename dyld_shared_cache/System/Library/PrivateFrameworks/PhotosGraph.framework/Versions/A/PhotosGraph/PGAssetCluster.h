@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, NSArray;
+@class NSArray;
 
 @interface PGAssetCluster
 {
     NSArray *_assets;
-    CLCircularRegion *_region;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, retain, nonatomic) CLCircularRegion *region; // @synthesize region=_region;
 
 @end
 

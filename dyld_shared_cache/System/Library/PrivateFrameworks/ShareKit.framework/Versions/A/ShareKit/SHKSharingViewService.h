@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSMutableArray, NSSharingUIExtensionContext, NSString, NSUUID, NSView, NSWindow, SHKAutoLayoutConstraintPair, SHKBlockQueue;
+@class NSView;
 
 @interface SHKSharingViewService
 {
     _Bool _draggable;
-    _Bool _animatesLikeMarkup;
-    _Bool _animateMarkupWithoutImageCopy;
-    _Bool _disableDragging;
-    _Bool _serviceUsesAutoLayout;
-    _Bool _shouldDimSourceWindow;
-    unsigned long long _serviceMask;
-    NSView *_containerView;
-    NSView *_backgroundView;
-    NSWindow *_window;
-    NSUUID *_uuid;
-    NSSharingUIExtensionContext *_extensionContext;
-    NSString *_sourceWindowFrameString;
-    NSString *_sourceWindowScreenVisibleFrameString;
-    NSString *_sourceWindowContentRectString;
-    NSImageView *_itemImageView;
-    NSView *_itemBorderView;
-    NSMutableArray *_queuedSharingAnimations;
-    CDUnknownBlockType _closingFinishedBlock;
-    SHKBlockQueue *_animationBlockQueue;
-    SHKBlockQueue *_completionBlockQueue;
-    SHKAutoLayoutConstraintPair *_sameCenterConstraints;
-    SHKAutoLayoutConstraintPair *_fixedDimensionsContainerConstraints;
-    SHKAutoLayoutConstraintPair *_fixedDimensionsBackgroundConstraints;
-    struct CGPoint _originOffset;
 }
 
 - (id);
@@ -50,7 +26,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -100,25 +76,25 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (struct CGAffineTransform);
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (struct CGAffineTransform);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)a;
+- (unsigned long long)Repaired Blank Service Name;
 - (_Bool);
 - (id);
 - (void);
@@ -127,14 +103,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)n;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)close contacts.;
 - (id);
 - (void);
-- (void);
+- (void)eworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (id);
 - (id);
@@ -143,37 +119,7 @@
 × ;
 
 // Remaining properties
-@property _Bool animateMarkupWithoutImageCopy; // @synthesize animateMarkupWithoutImageCopy=_animateMarkupWithoutImageCopy;
-@property _Bool animatesLikeMarkup; // @synthesize animatesLikeMarkup=_animatesLikeMarkup;
-@property(retain) SHKBlockQueue *animationBlockQueue; // @synthesize animationBlockQueue=_animationBlockQueue;
-@property(retain) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(copy) CDUnknownBlockType closingFinishedBlock; // @synthesize closingFinishedBlock=_closingFinishedBlock;
-@property(retain) SHKBlockQueue *completionBlockQueue; // @synthesize completionBlockQueue=_completionBlockQueue;
 @property(retain) NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disableDragging; // @synthesize disableDragging=_disableDragging;
-@property __weak NSSharingUIExtensionContext *extensionContext; // @synthesize extensionContext=_extensionContext;
-@property(retain) SHKAutoLayoutConstraintPair *fixedDimensionsBackgroundConstraints; // @synthesize fixedDimensionsBackgroundConstraints=_fixedDimensionsBackgroundConstraints;
-@property(retain) SHKAutoLayoutConstraintPair *fixedDimensionsContainerConstraints; // @synthesize fixedDimensionsContainerConstraints=_fixedDimensionsContainerConstraints;
-@property(readonly) unsigned long long hash;
-@property(retain) NSView *itemBorderView; // @synthesize itemBorderView=_itemBorderView;
-@property(retain) NSImageView *itemImageView; // @synthesize itemImageView=_itemImageView;
-@property struct CGPoint originOffset; // @synthesize originOffset=_originOffset;
-@property(retain) NSMutableArray *queuedSharingAnimations; // @synthesize queuedSharingAnimations=_queuedSharingAnimations;
-@property(retain) SHKAutoLayoutConstraintPair *sameCenterConstraints; // @synthesize sameCenterConstraints=_sameCenterConstraints;
-@property unsigned long long serviceMask; // @synthesize serviceMask=_serviceMask;
-@property _Bool serviceUsesAutoLayout; // @synthesize serviceUsesAutoLayout=_serviceUsesAutoLayout;
-@property _Bool shouldDimSourceWindow; // @synthesize shouldDimSourceWindow=_shouldDimSourceWindow;
-@property(retain) NSString *sourceWindowContentRectString; // @synthesize sourceWindowContentRectString=_sourceWindowContentRectString;
-@property(retain) NSString *sourceWindowFrameString; // @synthesize sourceWindowFrameString=_sourceWindowFrameString;
-@property(retain) NSString *sourceWindowScreenVisibleFrameString; // @synthesize sourceWindowScreenVisibleFrameString=_sourceWindowScreenVisibleFrameString;
-@property(readonly) Class superclass;
-@property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain) NSWindow *window; // @synthesize window=_window;
 
 @end
 

@@ -9,15 +9,6 @@
 @interface AppStoreKit.MixedMediaLockup : AppStoreKit.Lockup
 {
     id alignedRegionArtwork;
-    id alignedRegionVideo;
-    id trailers;
-    id screenshots;
-    id overrideLockupPosition;
-    id screenshotsDisplayStyle;
-    id metadataRibbonItems;
-    id searchTagRibbonItems;
-    id shouldEvenlyDistributeRibbonItems;
-    id showMetadataInformationInLockup;
 }
 
 @end

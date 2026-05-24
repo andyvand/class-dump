@@ -11,35 +11,24 @@ __attribute__((visibility("hidden")))
 @interface _GCRacingWheelProductInformation
 {
     id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    NSString *_productCategory;
-    NSString *_vendorName;
 }
 
 + (_Bool);
-- (void);
+- (void)�;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)es:Follow up has account identifier %@ in userInfo /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
 @property(copy, nonatomic) NSString *productCategory; // @synthesize productCategory=_productCategory;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *vendorName; // @synthesize vendorName=_vendorName;
 
 @end
 

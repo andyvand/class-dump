@@ -12,17 +12,14 @@ __attribute__((visibility("hidden")))
 @interface RPNWActivityRequestMetrics : RPNWActivityMetrics
 {
     NSString *_destination;
-    unsigned long long _requestSize;
-    unsigned long long _responseSize;
-    unsigned long long _replyTime;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)#;
 - (unsigned long long);
 - (void);
 - (void);
@@ -30,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(nonatomic) unsigned long long replyTime; // @synthesize replyTime=_replyTime;
-@property(nonatomic) unsigned long long requestSize; // @synthesize requestSize=_requestSize;
-@property(nonatomic) unsigned long long responseSize; // @synthesize responseSize=_responseSize;
 
 @end
 

@@ -6,45 +6,31 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class NSMutableSet, NSString, UICollectionViewLayout, UICollectionViewTableLayout, UICollectionViewTableLayoutAttributes, UIColor, UIImageView, UILabel, UIScrollView, UIShadowView, UITableViewCell, UITableViewCollectionCell, UIView;
+@class UICollectionViewTableLayout, UIView;
 
 @interface UICollectionViewTableCell : UICollectionViewCell
 {
     UIView *_swipeableView;
-    UIShadowView *_borderShadowTopView;
-    UIShadowView *_borderShadowBottomView;
-    UIView *_selectedBackgroundViewToRestoreWhenInteractiveMoveEnds;
-    long long _accessoryType;
-    NSMutableSet *_trackedAnimators;
-    _Bool _editing;
-    double _reorderingCenterX;
-    _Bool _interactiveMoveEffectsVisible;
-    _Bool _borderShadowVisible;
-    _Bool _transitioningLayouts;
-    UITableViewCell *_swipeToDeleteCell;
-    UITableViewCollectionCell *_tableViewCell;
-    UICollectionViewLayout *_currentLayout;
-    double _offsetForRevealingDeleteConfirmationButton;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)%s;
+- (_Bool)with success %@;
+- (id)it to be %@;
+- (id)oraryTransferGUIDsOn got something thats not a IMMessageItem:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)d to chat (%@) is not a known contact.;
+- (void)called;
+- (void)ty message GUID.;
+- (void)ot get chatInfo from chat:(id)arg1 %@;
+- (void)ow res wallpaperTag %@;
+- (void)we would want to delete from local disk with bytes to free up:(_Bool)arg1 %lld;
+- (void)to send a certified delivery receipt. This should be ok because this was a message redelivery though.;
+- (void)%p received;
+- (void)r relay reachability request response %p received;
+- (void)was given no transfer guids;
+- (_Bool)lass for type:%@ /* Error: Ran out of types for this method. */;
+- (id)rvice:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)c.3gp;
 - (_Bool);
 - (double);
 - (long long);
@@ -57,7 +43,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
@@ -66,10 +52,10 @@
 - (id);
 - (void);
 - (id);
+- (_Bool)f;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -103,7 +89,7 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (long long);
 - (void);
@@ -113,26 +99,26 @@
 - (_Bool);
 - (struct CGRect);
 - (double);
-- (_Bool);
+- (_Bool)B9;
 - (double);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)entity feedback;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (void);
@@ -153,19 +139,19 @@
 × ;
 - (void)A°!Eù±bð1Â0@ù
 × ;
-- (double)backProvider: /* Error: Ran out of types for this method. */;
-- (void)atePageViewController;
-- (void)rdwareKeyboardAvailabilityDidChange:(_Bool)arg1;
-- (_Bool)eNotificationsWithDeviceToken: /* Error: Ran out of types for this method. */;
-- (long long)Section: /* Error: Ran out of types for this method. */;
-- (_Bool)yControlKeySetForOrientation:context: /* Error: Ran out of types for this method. */;
-- (void)ion;
-- (void)ttings;
-- (double)adius;
+- (double)setFallbackProvider: /* Error: Ran out of types for this method. */;
+- (void)invalidatePageViewController;
+- (void)hardwareKeyboardAvailabilityDidChange:(_Bool)arg1;
+- (_Bool)application:didRegisterForRemoteNotificationsWithDeviceToken: /* Error: Ran out of types for this method. */;
+- (long long)allocateArraysWithCapacity:forSection: /* Error: Ran out of types for this method. */;
+- (_Bool)_supplementaryControlKeySetForOrientation:context: /* Error: Ran out of types for this method. */;
+- (void)_shareSession;
+- (void)_searchBarSettings;
+- (double)keyCornerRadius;
 - (id)uElement<UIMenuLeaf>",N,&,VmenuElement;
 - (id)èæ¨èLéÄö÷øTùPD;
 - (void)vert UIFeedbackParameterType (%ld) to CHHapticDynamicParameterID;
-- (void)uldDimmingIgnoreTouches;
+- (void)_shouldDimmingIgnoreTouches;
 - (void)ner;
 - (id)n.3y{Â;
 - (void)Ð[;
@@ -185,80 +171,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setHeadersHugContent:) _Bool _sectionHeadersHugContent;
-@property(readonly, nonatomic, getter=_accessoryBaseColor) UIColor *accessoryBaseColor;
-@property(nonatomic) long long accessoryType;
-@property(retain, nonatomic) UIView *accessoryView;
-@property(readonly, nonatomic) _Bool allowsMultipleSelection;
-@property(readonly, nonatomic) _Bool allowsMultipleSelectionDuringEditing;
-@property(readonly, nonatomic, getter=_backgroundInset) double backgroundInset;
-@property(nonatomic) _Bool borderShadowVisible; // @synthesize borderShadowVisible=_borderShadowVisible;
-@property(readonly, nonatomic, getter=_bottomPadding) double bottomPadding;
-@property(readonly, nonatomic) _Bool canBeEdited;
-@property(readonly, nonatomic) _Bool cellLayoutMarginsFollowReadableWidth;
-@property(readonly, nonatomic, getter=_cellSafeAreaInsets) struct UIEdgeInsets cellSafeAreaInsets;
-@property(nonatomic) __weak UICollectionViewLayout *currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UILabel *detailTextLabel;
-@property(nonatomic, getter=isEditing) _Bool editing;
-@property(nonatomic) long long editingAccessoryType;
-@property(retain, nonatomic) UIView *editingAccessoryView;
-@property(readonly, nonatomic, getter=_isEditingForSwipeDeletion) _Bool editingForSwipeDeletion;
-@property(readonly, nonatomic) long long editingStyle;
-@property(readonly, nonatomic) double estimatedRowHeight;
-@property(readonly, nonatomic) double estimatedSectionFooterHeight;
-@property(readonly, nonatomic) double estimatedSectionHeaderHeight;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView;
-@property(readonly, nonatomic, getter=_isInModalViewController) _Bool inModalViewController;
-@property(readonly, nonatomic, getter=isInTableLayout) _Bool inTableLayout;
-@property(nonatomic) long long indentationLevel;
-@property(nonatomic) double indentationWidth;
-@property(readonly, nonatomic, getter=_indexBarExtentFromEdge) double indexBarExtentFromEdge;
-@property(readonly, nonatomic, getter=_indexFrame) struct CGRect indexFrame;
-@property(nonatomic) _Bool interactiveMoveEffectsVisible; // @synthesize interactiveMoveEffectsVisible=_interactiveMoveEffectsVisible;
-@property(retain, nonatomic) UIView *multipleSelectionBackgroundView;
-@property(readonly, nonatomic, getter=_multiselectCheckmarkColor) UIColor *multiselectCheckmarkColor;
-@property(readonly, nonatomic, getter=_numberOfSections) long long numberOfSections;
-@property(nonatomic, getter=_offsetForRevealingDeleteConfirmationButton, setter=_setOffsetForRevealingDeleteConfirmationButton:) double offsetForRevealingDeleteConfirmationButton; // @synthesize offsetForRevealingDeleteConfirmationButton=_offsetForRevealingDeleteConfirmationButton;
-@property(readonly, nonatomic) _Bool overlapsSectionHeaderViews;
-@property(readonly, nonatomic, getter=_popoverControllerStyle) long long popoverControllerStyle;
-@property(readonly, nonatomic, getter=_rawSectionContentInset) struct UIEdgeInsets rawSectionContentInset;
-@property(readonly, nonatomic, getter=_rawSeparatorInset) struct UIEdgeInsets rawSeparatorInset;
-@property(readonly, nonatomic) double rowHeight;
-@property(readonly, nonatomic, getter=_rowSpacing) double rowSpacing;
-@property(readonly, nonatomic, getter=_scrollView) UIScrollView *scrollView;
-@property(readonly, nonatomic, getter=_sectionContentInset) struct UIEdgeInsets sectionContentInset;
-@property(readonly, nonatomic, getter=_sectionContentInsetFollowsLayoutMargins) _Bool sectionContentInsetFollowsLayoutMargins;
-@property(readonly, nonatomic, getter=_sectionCornerRadius) double sectionCornerRadius;
-@property(readonly, nonatomic) double sectionFooterHeight;
-@property(readonly, nonatomic) double sectionHeaderHeight;
-@property(readonly, nonatomic) _Bool selectionFollowsFocus;
-@property(nonatomic) long long selectionStyle;
-@property(nonatomic) struct UIEdgeInsets separatorInset;
-@property(readonly, nonatomic, getter=_separatorInsetIsRelativeToCellEdges) _Bool separatorInsetIsRelativeToCellEdges;
-@property(nonatomic) _Bool shouldIndentWhileEditing;
-@property(readonly, nonatomic) _Bool showingDeleteConfirmation;
-@property(readonly, nonatomic, getter=_isShowingIndex) _Bool showingIndex;
-@property(nonatomic) _Bool showsReorderControl;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_supplementariesFollowSectionContentInsets) _Bool supplementariesFollowSectionContentInsets;
-@property(readonly, nonatomic, getter=_supplementarySectionHeadersHugContent) _Bool supplementarySectionHeadersHugContent;
-@property(retain, nonatomic, getter=_swipeToDeleteCell, setter=_setSwipeToDeleteCell:) UITableViewCell *swipeToDeleteCell; // @synthesize swipeToDeleteCell=_swipeToDeleteCell;
-@property(readonly, nonatomic) UIView *swipeableView;
-@property(readonly, nonatomic, getter=_tableAttributes) UICollectionViewTableLayoutAttributes *tableAttributes;
 @property(readonly, nonatomic, getter=_tableLayout) UICollectionViewTableLayout *tableLayout;
-@property(readonly, nonatomic, getter=_tableStyle) long long tableStyle;
-@property(retain, nonatomic) UITableViewCollectionCell *tableViewCell; // @synthesize tableViewCell=_tableViewCell;
-@property(readonly, nonatomic) UILabel *textLabel;
-@property(readonly, nonatomic, getter=_topPadding) double topPadding;
-@property(nonatomic) _Bool transitioningLayouts; // @synthesize transitioningLayouts=_transitioningLayouts;
-@property(readonly, nonatomic) _Bool usesVariableMargins;
-@property(readonly, nonatomic, getter=_wasEditing) _Bool wasEditing;
 
 @end
 

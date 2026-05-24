@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _MKOverlayTileRequester;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface MKTileOverlayRequesterOp
 {
     struct _GEOTileKey _key;
-    _MKOverlayTileRequester *_delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id _data;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
-- (id);
+- (id)noseCrest;
 - (void);
 - (id);
 - (void);
@@ -26,17 +19,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)VolumeUpShowsUI;
 - (void);
 - (void);
 - (void)
 × ;
-- (void)notationViewWithReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (void)registerClass:forAnnotationViewWithReuseIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id data; // @synthesize data=_data;
-@property(nonatomic) __weak _MKOverlayTileRequester *delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
 @property(nonatomic) struct _GEOTileKey key; // @synthesize key=_key;
 
 @end

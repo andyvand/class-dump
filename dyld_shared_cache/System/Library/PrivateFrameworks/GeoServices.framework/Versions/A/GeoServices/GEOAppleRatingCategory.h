@@ -17,7 +17,6 @@
 - (id))ó4$: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *key;
 @property(readonly, copy, nonatomic) NSString *localizedTitle;
 
 @end

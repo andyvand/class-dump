@@ -7,17 +7,15 @@
 @interface NSViewLayoutRegion
 {
     long long _area;
-    long long _axis;
 }
 
-+ (id);
++ (id)_downloadWithRequest:(long long)arg1 delegate:directory: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)o %@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long _adaptivityAxis;
 @property(readonly, nonatomic) long long _area;
 
 @end

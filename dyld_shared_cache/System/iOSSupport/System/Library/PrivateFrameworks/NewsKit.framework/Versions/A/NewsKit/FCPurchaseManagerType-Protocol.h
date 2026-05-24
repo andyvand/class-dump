@@ -7,6 +7,7 @@
 @protocol FCPurchaseFlowOverrideProviderType, FCPurchaseManagerDelegate;
 
 @protocol FCPurchaseManagerType
+- (id <FCPurchaseFlowOverrideProviderType>);
 
 // Remaining properties
 @property(nonatomic) __weak id <FCPurchaseManagerDelegate> delegate;

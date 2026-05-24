@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLIOAccelResource;
-
 __attribute__((visibility("hidden")))
 @interface MTLIOMemoryInfo
 {
     void *memlist_key;
-    MTLIOAccelResource *fResourceListHead;
-    struct os_unfair_lock_s _memoryInfoLock;
 }
 
 + (id)couldn't open file at:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)xdr:(void *)arg1:compute_image_stats_8x8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void *);
 - (struct __CFArray *);
 - (void);
-- (void)ignedInteger: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)numberWithUnsignedInteger: /* Error: Ran out of types for this method. */;
+- (void)_specializedLibraryCache;
 - (void);
 
 @end

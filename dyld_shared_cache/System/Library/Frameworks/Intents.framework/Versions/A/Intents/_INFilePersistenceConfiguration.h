@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _INFilePersistenceConfiguration
 {
     NSString *_filePath;
-    NSString *_identifier;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (id);
-- (void)ueForParameter;
+- (void)forceNeedsValueForParameter;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

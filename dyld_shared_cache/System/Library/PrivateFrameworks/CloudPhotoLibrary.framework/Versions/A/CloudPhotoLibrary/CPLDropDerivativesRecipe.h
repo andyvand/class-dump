@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface CPLDropDerivativesRecipe
 {
     unsigned long long _sourceResourceType;
-    unsigned long long _changeType;
-    NSString *_uti;
-    NSArray *_derivativeTypes;
 }
 
 + (id);
@@ -20,7 +15,7 @@
 + (id);
 + (_Bool);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -32,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long changeType; // @synthesize changeType=_changeType;
-@property(readonly, nonatomic) NSArray *derivativeTypes; // @synthesize derivativeTypes=_derivativeTypes;
-@property(readonly, nonatomic) NSDictionary *plistDescription;
 @property(readonly, nonatomic) unsigned long long sourceResourceType; // @synthesize sourceResourceType=_sourceResourceType;
-@property(readonly, nonatomic) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

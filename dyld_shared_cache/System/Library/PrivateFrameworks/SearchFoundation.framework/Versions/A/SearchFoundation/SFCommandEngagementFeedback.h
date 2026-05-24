@@ -6,17 +6,11 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class SFButtonItem, SFCardSection, SFCommand, SFPhotosAttributes, SFResultSection, SFSearchResult;
+@class SFSearchResult;
 
 @interface SFCommandEngagementFeedback : SFFeedback
 {
     SFSearchResult *_result;
-    unsigned long long _triggerEvent;
-    SFCommand *_command;
-    SFCardSection *_cardSection;
-    SFButtonItem *_button;
-    SFResultSection *_resultSection;
-    SFPhotosAttributes *_photosAttributes;
 }
 
 + (_Bool);

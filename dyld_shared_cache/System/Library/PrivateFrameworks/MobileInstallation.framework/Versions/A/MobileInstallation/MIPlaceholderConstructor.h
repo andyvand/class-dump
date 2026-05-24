@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL;
-
 @interface MIPlaceholderConstructor
 {
     _Bool _performPlaceholderInstallActions;
-    _Bool _includeWatchAppPlaceholders;
-    _Bool _includeAppClipPlaceholders;
-    _Bool _basicIOSPlaceholderForWatchOSLessThanSix;
-    _Bool _isWatchKitExtension;
-    _Bool _preserveFullInfoPlist;
-    NSURL *_bundleURL;
-    NSDictionary *_entitlements;
-    NSString *_alternateIconName;
-    NSArray *_appExtensionPlaceholderConstructors;
-    MIPlaceholderConstructor *_watchKitExtensionPlaceholderConstructor;
-    NSArray *_embeddedWatchAppPlaceholderConstructors;
-    NSArray *_embeddedAppClipPlaceholderConstructors;
-    unsigned long long _placeholderType;
-    NSDictionary *_infoPlistContent;
-    NSData *_installUUID;
-    NSData *_installSessionUUID;
 }
 
 + (id);
@@ -35,16 +17,16 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -67,7 +49,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (unsigned long long);
 - (id);
@@ -85,26 +67,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alternateIconName; // @synthesize alternateIconName=_alternateIconName;
-@property(copy, nonatomic) NSArray *appExtensionPlaceholderConstructors; // @synthesize appExtensionPlaceholderConstructors=_appExtensionPlaceholderConstructors;
-@property(nonatomic) _Bool basicIOSPlaceholderForWatchOSLessThanSix; // @synthesize basicIOSPlaceholderForWatchOSLessThanSix=_basicIOSPlaceholderForWatchOSLessThanSix;
-@property(readonly, copy, nonatomic) NSString *bundleID;
-@property(retain, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
-@property(copy, nonatomic) NSArray *embeddedAppClipPlaceholderConstructors; // @synthesize embeddedAppClipPlaceholderConstructors=_embeddedAppClipPlaceholderConstructors;
-@property(copy, nonatomic) NSArray *embeddedWatchAppPlaceholderConstructors; // @synthesize embeddedWatchAppPlaceholderConstructors=_embeddedWatchAppPlaceholderConstructors;
-@property(copy, nonatomic) NSDictionary *entitlements; // @synthesize entitlements=_entitlements;
-@property(readonly, nonatomic) MIPlaceholderConstructor *firstNetworkExtension;
-@property(nonatomic) _Bool includeAppClipPlaceholders; // @synthesize includeAppClipPlaceholders=_includeAppClipPlaceholders;
-@property(nonatomic) _Bool includeWatchAppPlaceholders; // @synthesize includeWatchAppPlaceholders=_includeWatchAppPlaceholders;
-@property(retain, nonatomic) NSDictionary *infoPlistContent; // @synthesize infoPlistContent=_infoPlistContent;
-@property(retain, nonatomic) NSData *installSessionUUID; // @synthesize installSessionUUID=_installSessionUUID;
-@property(retain, nonatomic) NSData *installUUID; // @synthesize installUUID=_installUUID;
-@property(readonly, nonatomic) _Bool isLaunchProhibited;
-@property(nonatomic) _Bool isWatchKitExtension; // @synthesize isWatchKitExtension=_isWatchKitExtension;
-@property(nonatomic) _Bool performPlaceholderInstallActions; // @synthesize performPlaceholderInstallActions=_performPlaceholderInstallActions;
 @property(nonatomic) unsigned long long placeholderType; // @synthesize placeholderType=_placeholderType;
-@property(nonatomic) _Bool preserveFullInfoPlist; // @synthesize preserveFullInfoPlist=_preserveFullInfoPlist;
-@property(retain, nonatomic) MIPlaceholderConstructor *watchKitExtensionPlaceholderConstructor; // @synthesize watchKitExtensionPlaceholderConstructor=_watchKitExtensionPlaceholderConstructor;
 
 @end
 

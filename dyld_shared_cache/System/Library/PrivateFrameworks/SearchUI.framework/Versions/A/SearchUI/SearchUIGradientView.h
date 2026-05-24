@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSArray;
+@class NSArray;
 
 @interface SearchUIGradientView
 {
     NSArray *_colors;
 }
 
-+ (Class);
++ (Class)_calloutQueue;
 - (void);
 - (id);
 - (_Bool);
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(retain) CAGradientLayer *layer; // @dynamic layer;
 
 @end
 

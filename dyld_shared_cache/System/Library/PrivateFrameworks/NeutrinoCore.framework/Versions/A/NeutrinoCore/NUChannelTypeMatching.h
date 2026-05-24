@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)le.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/bio/bss_conn.c;
 - (id);
 - (id);
 - (long long);

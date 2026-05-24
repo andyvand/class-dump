@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchTokenSet, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchProximityIntent
 {
     PBDataReader *_reader;
-    NSString *_name;
-    GEOPDSearchTokenSet *_tokenSet;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_name:1;
-        unsigned int read_tokenSet:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)bundle at path %@;
+- (id)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)e"b1"has_artworkUse"b1"has_badge"b1"read_unknownFields"b1"read_accessibilityString"b1"read_appleAccountAvatarFallbackSfSymbol"b1"read_iconFallbackShield"b1"read_icon"b1"read_sfSymbol"b1"read_shield"b1"wrote_anyField"b1};
-- (id);
+- (id)_proactiveRoutingURLLegacy;
 - (id)\É¼Ê°Ë;
 - (void);
 

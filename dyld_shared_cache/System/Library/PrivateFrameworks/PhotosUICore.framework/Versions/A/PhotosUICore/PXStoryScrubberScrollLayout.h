@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryModel, PXStoryViewModel;
 @protocol PXStoryTimeline;
 
 @interface PXStoryScrubberScrollLayout
 {
     _Bool _isUpdating;
-    CDStruct_af00bf4e _updateFlags;
-    unsigned int _firstPageSpriteIndex;
-    PXStoryViewModel *_viewModel;
-    PXStoryModel *_model;
-    id <PXStoryTimeline> _displayedTimeline;
-    long long _numberOfPages;
-    id _modelChangeOrigin;
-    CDStruct_982265da _presentedScrubberPosition;
 }
 
 - (void);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_982265da);
+- (CDStruct_48d5200d);
 - (id);
 - (id);
 - (id);
@@ -42,7 +33,7 @@
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,26 +44,14 @@
 - (void);
 - (id);
 - (void);
-- (id)ollViewControllerDidBeginFocusFastScrolling: /* Error: Ran out of types for this method. */;
+- (id)scrollViewControllerDidBeginFocusFastScrolling: /* Error: Ran out of types for this method. */;
 - (void)atform;
 - (void);
 - (long long);
 - (id)`T\f: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <PXStoryTimeline> displayedTimeline; // @synthesize displayedTimeline=_displayedTimeline;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) id modelChangeOrigin; // @synthesize modelChangeOrigin=_modelChangeOrigin;
-@property(nonatomic) long long numberOfPages; // @synthesize numberOfPages=_numberOfPages;
-@property(nonatomic) CDStruct_982265da presentedScrubberPosition; // @synthesize presentedScrubberPosition=_presentedScrubberPosition;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

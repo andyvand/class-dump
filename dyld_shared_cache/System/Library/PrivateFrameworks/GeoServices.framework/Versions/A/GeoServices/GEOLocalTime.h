@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLocalTime
 {
     PBUnknownFields *_unknownFields;
-    NSString *_humanReadable;
-    unsigned long long _timeRoundedToHour;
-    float _timezoneOffsetFromGmtInHours;
-    struct {
-        unsigned int has_timeRoundedToHour:1;
-        unsigned int has_timezoneOffsetFromGmtInHours:1;
-    } _flags;
 }
 
-+ (_Bool)nId:(id)arg1;
++ (_Bool)setHasSessionId:(id)arg1;
 - (float);
 - (void);
 - (void);
@@ -26,22 +19,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(e=2U	;
 - (id);
 - (unsigned long long);
+- (_Bool)U;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)J;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
-- (id)LocationShared:(struct _NSZone *)arg1;
+- (id)setPlaceCardIsPersonLocationShared:(struct _NSZone *)arg1;
 - (void)hasSourceAppId;
-- (id);
+- (id)_evChargingInfo;
 - (id)nd closing token for "%@" at %@ but no opening range;
 - (void);
 - (id);
@@ -51,12 +44,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHumanReadable;
-@property(nonatomic) _Bool hasTimeRoundedToHour;
-@property(nonatomic) _Bool hasTimezoneOffsetFromGmtInHours;
-@property(retain, nonatomic) NSString *humanReadable;
-@property(nonatomic) unsigned long long timeRoundedToHour;
-@property(nonatomic) float timezoneOffsetFromGmtInHours;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

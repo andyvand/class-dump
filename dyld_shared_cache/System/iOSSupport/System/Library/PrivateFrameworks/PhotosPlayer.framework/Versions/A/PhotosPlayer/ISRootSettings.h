@@ -6,34 +6,30 @@
 
 #import <PhotosPlayer/ISSettings.h>
 
-@class ISPerformanceDiagnosticsSettings, ISPlayerSettings, ISVitalitySettings;
+@class ISPlayerSettings;
 
 @interface ISRootSettings : ISSettings
 {
     ISPlayerSettings *_playerSettings;
-    ISVitalitySettings *_vitalitySettings;
-    ISPerformanceDiagnosticsSettings *_performanceDiagnosticsSettings;
 }
 
 + (id);
 + (id);
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
++ (id);
+- (id)_layoutParametersManager;
+- (void)_intendedColumnWidths;
+- (void)_hoverStyleManager;
+- (void)_highlighted;
+- (id)_executing;
+- (id)_durations;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)g",&,N,V_targetLastPathComponent;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ISPerformanceDiagnosticsSettings *performanceDiagnosticsSettings; // @synthesize performanceDiagnosticsSettings=_performanceDiagnosticsSettings;
 @property(retain, nonatomic) ISPlayerSettings *playerSettings; // @synthesize playerSettings=_playerSettings;
-@property(retain, nonatomic) ISVitalitySettings *vitalitySettings; // @synthesize vitalitySettings=_vitalitySettings;
 
 @end
 

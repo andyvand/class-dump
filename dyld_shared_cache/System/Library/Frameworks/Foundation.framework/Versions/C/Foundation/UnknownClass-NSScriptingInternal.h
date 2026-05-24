@@ -13,14 +13,14 @@
 - (id);
 - (void);
 - (void);
+- (id)#;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long *);
 - (id);
 - (id);

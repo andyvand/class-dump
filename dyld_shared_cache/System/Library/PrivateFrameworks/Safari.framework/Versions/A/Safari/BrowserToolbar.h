@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol BrowserToolbarDelegate;
-
 __attribute__((visibility("hidden")))
 @interface BrowserToolbar
 {
@@ -14,12 +12,11 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (_Bool)d;
+- (_Bool)JITEnabled;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool canHostUnifiedTabBar; // @synthesize canHostUnifiedTabBar=_canHostUnifiedTabBar;
-@property __weak id <BrowserToolbarDelegate> delegate; // @dynamic delegate;
 
 @end
 

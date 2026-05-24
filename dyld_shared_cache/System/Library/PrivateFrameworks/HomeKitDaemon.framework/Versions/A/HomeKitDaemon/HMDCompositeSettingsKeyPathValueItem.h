@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCompositeSettingValue, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingsKeyPathValueItem
 {
     NSString *_keyPath;
-    HMDCompositeSettingValue *_value;
 }
 
+- (id)b;
 - (id);
-- (id);
-- (id)tatusChannel;
+- (id)_residentStatusChannel;
 - (void)ediaAccessoryStateEvent;
 
 // Remaining properties
 @property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy) HMDCompositeSettingValue *value; // @synthesize value=_value;
 
 @end
 

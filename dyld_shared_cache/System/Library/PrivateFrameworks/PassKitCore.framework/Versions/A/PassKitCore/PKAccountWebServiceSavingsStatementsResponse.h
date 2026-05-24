@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)ntifier;
+- (void)accountIdentifier;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *statements; // @synthesize statements=_statements;

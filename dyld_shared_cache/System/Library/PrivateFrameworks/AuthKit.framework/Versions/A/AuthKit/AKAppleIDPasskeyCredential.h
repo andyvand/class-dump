@@ -9,26 +9,20 @@
 @interface AKAppleIDPasskeyCredential
 {
     NSString *_relyingPartyIdentifier;
-    NSString *_attestationDataString;
-    NSString *_clientDataString;
-    NSString *_credentialIDString;
-    NSString *_userIDString;
-    NSString *_originalChallengeString;
-    NSString *_credentialName;
 }
 
-+ (_Bool);
++ (_Bool) `iAa;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)   ;
 - (id);
 - (id);
 - (id);
@@ -41,13 +35,7 @@
 - (void)t;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attestationDataString; // @synthesize attestationDataString=_attestationDataString;
-@property(copy, nonatomic) NSString *clientDataString; // @synthesize clientDataString=_clientDataString;
-@property(copy, nonatomic) NSString *credentialIDString; // @synthesize credentialIDString=_credentialIDString;
-@property(copy, nonatomic) NSString *credentialName; // @synthesize credentialName=_credentialName;
-@property(copy, nonatomic) NSString *originalChallengeString; // @synthesize originalChallengeString=_originalChallengeString;
 @property(copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(copy, nonatomic) NSString *userIDString; // @synthesize userIDString=_userIDString;
 
 @end
 

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class IDSService, NSMutableDictionary;
 
 @interface PKIDSService
 {
     NSMutableDictionary *_listeners;
-    NSMutableArray *_delegateEntries;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSMutableArray *_pendingAccountDevicesReadyCompletions;
-    NSMutableArray *_pendingAccountDevicesReadyTimers;
-    IDSService *_underlyingService;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,31 +21,23 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)i;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)?;
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)tion;
-- (void)ODE;
+- (void)requiresUserInteraction;
+- (void)CODE;
 - (void)øä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) IDSService *underlyingService; // @synthesize underlyingService=_underlyingService;
 
 @end

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     id <NSObject> _target;
 }
 
-- (id);
+- (id)9;
 - (void);
 
 @end

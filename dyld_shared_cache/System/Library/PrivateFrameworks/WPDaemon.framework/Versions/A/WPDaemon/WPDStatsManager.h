@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSObject, NSString, WPDaemonServer;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface WPDStatsManager
 {
     _Bool _PLLogAvailable;
-    NSString *_name;
-    NSDictionary *_scanArray;
-    NSMutableArray *_regularScanArray;
-    NSMutableArray *_aggressiveScanArray;
-    NSMutableArray *_advertisingArray;
-    unsigned long long *_resetScanArray;
-    unsigned long long *_resetAdvertisingArray;
-    NSObject<OS_dispatch_queue> *_reportQueue;
-    double _nextPushTime;
-    WPDaemonServer *_server;
 }
 
 + (id);
@@ -45,11 +34,11 @@
 - (id);
 - (void);
 - (void);
+- (id)relayRetroTranslationWithMessageGUIDs:sourceLocaleIdentifier:destinationLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_strictlyUnarchivedObjectOfClasses:(double)arg1 fromData:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)tents, assuming metadata doesn't exist;
+- (void)CRAcceptedIntroductionsDidChangeNotification;
 - (double);
 - (void);
 - (id);
@@ -62,17 +51,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool PLLogAvailable; // @synthesize PLLogAvailable=_PLLogAvailable;
-@property(retain, nonatomic) NSMutableArray *advertisingArray; // @synthesize advertisingArray=_advertisingArray;
-@property(retain, nonatomic) NSMutableArray *aggressiveScanArray; // @synthesize aggressiveScanArray=_aggressiveScanArray;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double nextPushTime; // @synthesize nextPushTime=_nextPushTime;
-@property(retain, nonatomic) NSMutableArray *regularScanArray; // @synthesize regularScanArray=_regularScanArray;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *reportQueue; // @synthesize reportQueue=_reportQueue;
-@property unsigned long long *resetAdvertisingArray; // @synthesize resetAdvertisingArray=_resetAdvertisingArray;
-@property unsigned long long *resetScanArray; // @synthesize resetScanArray=_resetScanArray;
-@property(retain, nonatomic) NSDictionary *scanArray; // @synthesize scanArray=_scanArray;
-@property(readonly) __weak WPDaemonServer *server; // @synthesize server=_server;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _DPSubmissionRateLimiter
 {
     NSObject<OS_dispatch_queue> *_limiterQueue;
-    NSMutableDictionary *_limitDictionary;
 }
 
 + (id);
@@ -19,14 +18,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (void);
+- (void)nyCompressedUnpacker;
+- (void)16@"NSString"24;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *limitDictionary; // @synthesize limitDictionary=_limitDictionary;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *limiterQueue; // @synthesize limiterQueue=_limiterQueue;
 
 @end

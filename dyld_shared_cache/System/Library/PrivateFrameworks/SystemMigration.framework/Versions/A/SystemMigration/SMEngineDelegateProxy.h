@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber, NSObject, NSString, SMEngine;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SMEngineDelegateProxy
 {
     _Bool _toAnotherMac;
-    _Bool _attemptingWirelessNetworkSwitch;
-    _Bool _manualWirelessNetworkSwitch;
-    _Bool _connectedToAP;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
-    NSMutableArray *_delegates;
-    SMEngine *_engine;
-    NSString *_wirelessSSID;
-    NSString *_wirelessPassword;
-    NSString *_lastProcessingText;
-    NSNumber *_lastPercentDone;
-    NSNumber *_lastMinutesRemaining;
 }
 
 - (id);
@@ -49,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -57,7 +46,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -65,25 +54,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_onePortraitConnector;
 - (id);
 - (void);
 - (void)áÐ!ôFùñ	°1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool attemptingWirelessNetworkSwitch; // @synthesize attemptingWirelessNetworkSwitch=_attemptingWirelessNetworkSwitch;
-@property _Bool connectedToAP; // @synthesize connectedToAP=_connectedToAP;
-@property(retain) NSMutableArray *delegates; // @synthesize delegates=_delegates;
-@property __weak SMEngine *engine; // @synthesize engine=_engine;
-@property(retain) NSNumber *lastMinutesRemaining; // @synthesize lastMinutesRemaining=_lastMinutesRemaining;
-@property(retain) NSNumber *lastPercentDone; // @synthesize lastPercentDone=_lastPercentDone;
-@property(retain) NSString *lastProcessingText; // @synthesize lastProcessingText=_lastProcessingText;
-@property _Bool manualWirelessNetworkSwitch; // @synthesize manualWirelessNetworkSwitch=_manualWirelessNetworkSwitch;
 @property(retain) NSObject<OS_dispatch_queue> *propertyQueue; // @synthesize propertyQueue=_propertyQueue;
-@property _Bool toAnotherMac; // @synthesize toAnotherMac=_toAnotherMac;
-@property(retain) NSString *wirelessPassword; // @synthesize wirelessPassword=_wirelessPassword;
-@property(retain) NSString *wirelessSSID; // @synthesize wirelessSSID=_wirelessSSID;
 
 @end
 

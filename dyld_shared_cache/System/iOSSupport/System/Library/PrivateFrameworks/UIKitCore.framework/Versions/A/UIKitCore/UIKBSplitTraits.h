@@ -7,20 +7,16 @@
 @interface UIKBSplitTraits
 {
     unsigned long long _corners;
-    struct CGRect _leftFrame;
-    struct CGRect _rightFrame;
 }
 
-+ (id);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (unsigned long long)date: /* Error: Ran out of types for this method. */;
++ (id)tateCompleted;
+- (struct CGRect)s %@;
+- (struct CGRect):<%@ %p>,  /* Error: Ran out of types for this method. */;
+- (id)version of chat %@ to %ld;
+- (unsigned long long)_screenDidUpdate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long corners; // @synthesize corners=_corners;
 @property(readonly, nonatomic) struct CGRect leftFrame; // @synthesize leftFrame=_leftFrame;
-@property(readonly, nonatomic) struct CGRect rightFrame; // @synthesize rightFrame=_rightFrame;
 
 @end
 

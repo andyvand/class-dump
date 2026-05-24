@@ -7,7 +7,6 @@
 @interface PFDispatchingFairPlayValidationManaging
 {
     id wrappedInstance;
-    id responseQueue;
 }
 
 + (id);

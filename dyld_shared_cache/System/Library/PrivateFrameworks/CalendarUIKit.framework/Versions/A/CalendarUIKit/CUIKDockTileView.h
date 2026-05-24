@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSImageView, NSLayoutConstraint, NSTextField;
+@class NSDate;
 
 @interface CUIKDockTileView
 {
     NSDate *_date;
-    NSCalendar *_calendar;
-    NSTextField *_dateView;
-    NSTextField *_monthView;
-    NSImageView *_imageView;
-    struct CGRect _frameRect;
-    NSLayoutConstraint *_dateViewBaselineToTop;
-    NSLayoutConstraint *_dateViewHorizontalAdjustment;
-    NSLayoutConstraint *_monthViewBaselineToTop;
-    NSLayoutConstraint *_monthViewHeight;
 }
 
 + (void)D®¡/yÈ ¡/A2_GGSgGGÒ&¡/GGG_	Ó /Qo_Á¡/yA2_SgGGALyACyÆÚ /yAMyAnqRyAwqNGG_A12_Qo_A16_GA21_GSgGtGG;
-- (id)è'©ê/;
-- (id);
-- (void)Ð;
-- (void);
-- (void);
-- (double);
 - (id);
 - (id);
-- (void)larms;
+- (void);
+- (void);
+- (void);
+- (double)on:(double)arg1;
+- (id);
+- (id);
+- (void)uiAlarms;
 
 @end
 

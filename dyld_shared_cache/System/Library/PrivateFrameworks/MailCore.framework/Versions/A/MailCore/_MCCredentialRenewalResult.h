@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface _MCCredentialRenewalResult
 {
     long long _renewResult;
-    NSError *_error;
 }
 
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(nonatomic) long long renewResult; // @synthesize renewResult=_renewResult;
 
 @end

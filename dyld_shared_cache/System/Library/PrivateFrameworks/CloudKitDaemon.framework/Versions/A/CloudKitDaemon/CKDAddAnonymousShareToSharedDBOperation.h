@@ -11,25 +11,22 @@
 @interface CKDAddAnonymousShareToSharedDBOperation : CKDDatabaseOperation
 {
     NSDictionary *_encryptedAnonymousSharesToAdd;
-    CDUnknownBlockType _anonymousShareSavedBlock;
 }
 
-+ (id);
++ (id)setRoamStatus_FailedNotFound_Count_BeforeTDWait:(unsigned long long)arg1;
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
-- (id);
+- (id)l: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (id);
 - (void)16;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType anonymousShareSavedBlock; // @synthesize anonymousShareSavedBlock=_anonymousShareSavedBlock;
-@property(retain, nonatomic) NSDictionary *encryptedAnonymousSharesToAdd; // @synthesize encryptedAnonymousSharesToAdd=_encryptedAnonymousSharesToAdd;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

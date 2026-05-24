@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NETSchemaNETProxyConfiguration, NSArray, NSData;
+@class NSArray;
 
 @interface NETSchemaNETDebugNetworkConnectionStateReadySnapshotCaptured : SISchemaInstrumentationMessage
 {
     NSArray *_resolutions;
-    NETSchemaNETProxyConfiguration *_proxyConfiguration;
-    unsigned long long _durationInMs;
-    NSArray *_connectionEstablishmentProtocols;
-    CDStruct_acfb3a2f _has;
-    _Bool _hasProxyConfiguration;
 }
 
 - (void);
@@ -23,30 +18,30 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void))	;
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)argeting;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (id)
@@ -56,12 +51,6 @@
 - (void)ANCSchemaANCFeatureEnablementStatus;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *connectionEstablishmentProtocols; // @synthesize connectionEstablishmentProtocols=_connectionEstablishmentProtocols;
-@property(nonatomic) unsigned long long durationInMs; // @synthesize durationInMs=_durationInMs;
-@property(nonatomic) _Bool hasDurationInMs;
-@property(nonatomic) _Bool hasProxyConfiguration; // @synthesize hasProxyConfiguration=_hasProxyConfiguration;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NETSchemaNETProxyConfiguration *proxyConfiguration; // @synthesize proxyConfiguration=_proxyConfiguration;
 @property(copy, nonatomic) NSArray *resolutions; // @synthesize resolutions=_resolutions;
 
 @end

@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)F;
 + (id);
 - (void);
 - (id);
@@ -29,17 +29,10 @@
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadDefaultBehavior; // @synthesize payloadDefaultBehavior=_payloadDefaultBehavior;
-@property(readonly) Class superclass;
 
 @end
 

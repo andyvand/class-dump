@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)of %@ but it is already present;
 
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol PLVideoChoosingOptions
+- (_Bool)2;
+- (_Bool);
 - (_Bool)eature personLocalIdentifier] called on non-Person PHMemoryFeature, (got:%@, %@) /* Error: Ran out of types for this method. */;
 @end
 

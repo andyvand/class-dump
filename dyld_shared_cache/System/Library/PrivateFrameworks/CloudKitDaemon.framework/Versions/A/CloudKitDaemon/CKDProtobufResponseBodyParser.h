@@ -9,7 +9,6 @@
 @interface CKDProtobufResponseBodyParser : CKDResponseBodyParser
 {
     _Bool _parsingStandaloneMessage;
-    Class _messageClass;
 }
 
 - (_Bool);
@@ -21,11 +20,10 @@
 - (void);
 - (Class);
 - (void)ÿÿ;
-- (void);
+- (void)assetHandleExistsInDatabase;
 
 // Remaining properties
 @property(retain, nonatomic) Class messageClass; // @synthesize messageClass=_messageClass;
-@property(nonatomic) _Bool parsingStandaloneMessage; // @synthesize parsingStandaloneMessage=_parsingStandaloneMessage;
 
 @end
 

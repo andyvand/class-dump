@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRUserDefaults
 {
     id observers;
-    id userDefaults;
 }
 
 - (id);

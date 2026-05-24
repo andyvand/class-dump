@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL, SAUIDecoratedText;
+@class NSURL;
 
 @interface SASTMessageItem : AceObject
 {
@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)w;
 - (id);
 - (void);
 - (void);
@@ -29,17 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *audioMessageURL;
-@property(copy, nonatomic) NSString *bundleId;
-@property(retain, nonatomic) SAUIDecoratedText *content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIDecoratedText *recipient;
-@property(copy, nonatomic) NSString *serviceType;
-@property(readonly) Class superclass;
 
 @end
 

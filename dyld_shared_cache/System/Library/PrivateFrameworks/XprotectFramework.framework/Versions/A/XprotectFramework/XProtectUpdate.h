@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface XProtectUpdate
 {
     NSXPCConnection *_xpc;
-    NSObject<OS_dispatch_queue> *_system_update_queue;
 }
 
+- (id)@9_;
 - (id);
 - (id);
+- (id);
+- (id)valid message ring on message send.;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 @end

@@ -6,24 +6,12 @@
 
 #import <Safari/Banner.h>
 
-@class NSAttributedString, NSButton, NSImage, NSImageView, NSStackView, NSString, NSTextField, NSView;
-@protocol AppLinkBannerDelegate;
+@class NSAttributedString, NSButton;
 
 __attribute__((visibility("hidden")))
 @interface AppLinkBanner : Banner
 {
     NSAttributedString *_title;
-    NSString *_subtitle;
-    NSImage *_icon;
-    id <AppLinkBannerDelegate> _appLinkDelegate;
-    NSString *_appIconAccessibilityLabel;
-    NSButton *_closeButton;
-    NSImageView *_iconImageView;
-    NSTextField *_titleLabel;
-    NSTextField *_descriptionLabel;
-    NSStackView *_stackView;
-    NSView *_labelContainer;
-    NSButton *_openButton;
 }
 
 + (int);
@@ -39,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)^;
 - (id);
 - (void);
 - (id);
@@ -61,19 +49,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appIconAccessibilityLabel; // @synthesize appIconAccessibilityLabel=_appIconAccessibilityLabel;
-@property(nonatomic) __weak id <AppLinkBannerDelegate> appLinkDelegate; // @synthesize appLinkDelegate=_appLinkDelegate;
 @property(nonatomic) __weak NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(nonatomic) __weak NSTextField *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) __weak NSImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property(nonatomic) __weak NSView *labelContainer; // @synthesize labelContainer=_labelContainer;
-@property(nonatomic) __weak NSButton *openButton; // @synthesize openButton=_openButton;
-@property(nonatomic) _Bool showsCloseButton;
-@property(nonatomic) __weak NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSAttributedString *title; // @synthesize title=_title;
-@property(nonatomic) __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

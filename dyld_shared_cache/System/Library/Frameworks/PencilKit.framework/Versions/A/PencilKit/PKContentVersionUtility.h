@@ -10,7 +10,7 @@
 
 + (id);
 - (_Bool);
-- (long long);
+- (long long)_;
 - (_Bool);
 
 @end

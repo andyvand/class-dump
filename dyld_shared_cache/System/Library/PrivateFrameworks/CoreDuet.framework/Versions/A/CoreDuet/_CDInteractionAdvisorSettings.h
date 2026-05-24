@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSString;
 
 @interface _CDInteractionAdvisorSettings
 {
     _Bool _useFuture;
-    _Bool _aggregateByIdentifier;
-    _Bool _requireOutgoingInteraction;
-    NSDate *_interactionDate;
-    NSString *_interactionTitle;
-    NSSet *_seedIdentifiers;
-    NSString *_interactionLocationUUID;
-    NSString *_contactPrefix;
-    NSSet *_constrainDirections;
-    NSSet *_constrainMechanisms;
-    NSSet *_constrainBundleIds;
-    NSSet *_constrainAccounts;
-    NSSet *_constrainDomainIdentifiers;
-    NSSet *_constrainLocationUUIDs;
-    NSSet *_constrainSenders;
-    NSSet *_constrainRecipients;
-    NSSet *_constrainKeywords;
-    NSSet *_constrainIdentifiers;
-    NSSet *_constrainPersonIds;
-    NSSet *_constrainPersonIdType;
-    long long _constrainMaxRecipientCount;
-    unsigned long long _resultLimit;
-    NSSet *_ignoreContactIdentifiers;
-    NSSet *_ignoreInteractionUUIDs;
-    NSString *_consumerIdentifier;
-    NSString *_callerBundleId;
 }
 
 + (_Bool);
 + (id);
 + (id);
 - (_Bool);
+- (void)y;
+- (void)3;
+- (void);
+- (void)g';
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)\b;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)o8;
 - (void);
 - (void);
 - (void);
@@ -47,32 +40,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)6;
 - (id);
+- (id)m;
+- (id)_f;
+- (id)[;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)u&;
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -88,7 +63,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (id);
@@ -101,32 +76,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool aggregateByIdentifier; // @synthesize aggregateByIdentifier=_aggregateByIdentifier;
 @property(retain) NSString *callerBundleId; // @synthesize callerBundleId=_callerBundleId;
-@property(retain) NSSet *constrainAccounts; // @synthesize constrainAccounts=_constrainAccounts;
-@property(retain) NSSet *constrainBundleIds; // @synthesize constrainBundleIds=_constrainBundleIds;
-@property(retain) NSSet *constrainDirections; // @synthesize constrainDirections=_constrainDirections;
-@property(retain) NSSet *constrainDomainIdentifiers; // @synthesize constrainDomainIdentifiers=_constrainDomainIdentifiers;
-@property(retain) NSSet *constrainIdentifiers; // @synthesize constrainIdentifiers=_constrainIdentifiers;
-@property(retain) NSSet *constrainKeywords; // @synthesize constrainKeywords=_constrainKeywords;
-@property(retain) NSSet *constrainLocationUUIDs; // @synthesize constrainLocationUUIDs=_constrainLocationUUIDs;
-@property long long constrainMaxRecipientCount; // @synthesize constrainMaxRecipientCount=_constrainMaxRecipientCount;
-@property(retain) NSSet *constrainMechanisms; // @synthesize constrainMechanisms=_constrainMechanisms;
-@property(retain) NSSet *constrainPersonIdType; // @synthesize constrainPersonIdType=_constrainPersonIdType;
-@property(retain) NSSet *constrainPersonIds; // @synthesize constrainPersonIds=_constrainPersonIds;
-@property(retain) NSSet *constrainRecipients; // @synthesize constrainRecipients=_constrainRecipients;
-@property(retain) NSSet *constrainSenders; // @synthesize constrainSenders=_constrainSenders;
-@property(retain, nonatomic) NSString *consumerIdentifier; // @synthesize consumerIdentifier=_consumerIdentifier;
-@property(retain) NSString *contactPrefix; // @synthesize contactPrefix=_contactPrefix;
-@property(retain) NSSet *ignoreContactIdentifiers; // @synthesize ignoreContactIdentifiers=_ignoreContactIdentifiers;
-@property(retain) NSSet *ignoreInteractionUUIDs; // @synthesize ignoreInteractionUUIDs=_ignoreInteractionUUIDs;
-@property(retain) NSDate *interactionDate; // @synthesize interactionDate=_interactionDate;
-@property(retain) NSString *interactionLocationUUID; // @synthesize interactionLocationUUID=_interactionLocationUUID;
-@property(retain) NSString *interactionTitle; // @synthesize interactionTitle=_interactionTitle;
-@property _Bool requireOutgoingInteraction; // @synthesize requireOutgoingInteraction=_requireOutgoingInteraction;
-@property unsigned long long resultLimit; // @synthesize resultLimit=_resultLimit;
-@property(retain) NSSet *seedIdentifiers; // @synthesize seedIdentifiers=_seedIdentifiers;
-@property _Bool useFuture; // @synthesize useFuture=_useFuture;
 
 @end
 

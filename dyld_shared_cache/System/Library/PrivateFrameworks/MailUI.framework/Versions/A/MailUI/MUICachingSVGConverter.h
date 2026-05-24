@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
-- (id);
-- (void)KeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (id)__menuExtrasBounds;
+- (void)observeValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCache *cache; // @synthesize cache=_cache;

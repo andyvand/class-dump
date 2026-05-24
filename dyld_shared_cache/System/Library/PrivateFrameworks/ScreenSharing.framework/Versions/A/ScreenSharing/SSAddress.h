@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, IDSSession, NSDictionary, NSFileHandle, NSMutableSet, NSString, NWConnectionManager, NWDatagramConnection, SSConnectionOptions;
+@class NSString;
 
 @interface SSAddress
 {
     _Bool _inviterAppIsMessages;
-    _Bool _isOSX_10OrLater;
-    unsigned short port;
-    int resolverStatus;
-    NSString *resolverAccountName;
-    NSString *_originalAddress;
-    NSString *_embeddedUsername;
-    NSString *_embeddedPassword;
-    NSString *_hostname;
-    NSString *_bonjourName;
-    NSDictionary *_options;
-    NSString *_remoteIPPort;
-    unsigned long long _multicastAddress;
-    unsigned long long _multicastPort;
-    unsigned long long _session;
-    IDSSession *_idsSession;
-    IDSSession *_idsSessionOSX_QR;
-    NSString *_callUUID;
-    NWDatagramConnection *_datagramConnection;
-    NWConnectionManager *_datagramConnectionManager;
-    NSMutableSet *_types;
-    NSFileHandle *__socketHandle;
-    CNContactStore *_cnStore;
-    SSConnectionOptions *_connectionOptions;
-    struct in6_addr _address;
 }
 
 + (_Bool);
@@ -41,14 +17,14 @@
 + (id);
 + (id);
 + (id);
++ (id)U;
 + (id);
 + (id);
 + (id);
++ (id)A;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 - (id);
@@ -71,7 +47,7 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)(|;
 - (void);
 - (void);
 - (id);
@@ -81,11 +57,11 @@
 - (_Bool);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -99,27 +75,27 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)";
+- (id);
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)?8;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)_fillTripStatisticsWithGraph:progressReporter: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
@@ -128,54 +104,18 @@
 - (_Bool);
 - (unsigned short);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (struct in6_addr);
-- (id)crollView;
+- (id)_completionTableScrollView;
 - (void)licationSupport folder. %s;
 - (id);
-- (id)gData;
+- (id)incomingData;
 - (void)m %p didReceiveDTMFEventWithDigit %c;
 
 // Remaining properties
-@property(retain) NSFileHandle *_socketHandle; // @synthesize _socketHandle=__socketHandle;
-@property(readonly, copy) NSString *abPersonID;
-@property struct in6_addr address; // @synthesize address=_address;
-@property(readonly, copy) NSString *appleID;
-@property(copy) NSString *bonjourName; // @synthesize bonjourName=_bonjourName;
-@property(copy) NSString *callUUID; // @synthesize callUUID=_callUUID;
-@property(retain) CNContactStore *cnStore; // @synthesize cnStore=_cnStore;
-@property(readonly, copy) NSString *connectionID;
-@property(retain) SSConnectionOptions *connectionOptions; // @synthesize connectionOptions=_connectionOptions;
-@property(retain) NWDatagramConnection *datagramConnection; // @synthesize datagramConnection=_datagramConnection;
-@property(retain) NWConnectionManager *datagramConnectionManager; // @synthesize datagramConnectionManager=_datagramConnectionManager;
-@property(readonly, copy) NSString *displayString;
-@property(copy) NSString *embeddedPassword; // @synthesize embeddedPassword=_embeddedPassword;
-@property(copy) NSString *embeddedUsername; // @synthesize embeddedUsername=_embeddedUsername;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(copy) NSString *hostname; // @synthesize hostname=_hostname;
-@property(readonly, retain) NSString *idsDestination;
-@property(retain) IDSSession *idsSession; // @synthesize idsSession=_idsSession;
-@property(retain) IDSSession *idsSessionOSX_QR; // @synthesize idsSessionOSX_QR=_idsSessionOSX_QR;
-@property(readonly, copy) NSString *invitationType;
-@property _Bool inviterAppIsMessages; // @synthesize inviterAppIsMessages=_inviterAppIsMessages;
-@property(readonly, copy) NSString *inviterName;
-@property(readonly) _Bool isAppleIDAddress;
-@property _Bool isOSX_10OrLater; // @synthesize isOSX_10OrLater=_isOSX_10OrLater;
-@property(readonly) _Bool isPerson;
-@property unsigned long long multicastAddress; // @synthesize multicastAddress=_multicastAddress;
-@property unsigned long long multicastPort; // @synthesize multicastPort=_multicastPort;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
 @property(copy) NSString *originalAddress; // @synthesize originalAddress=_originalAddress;
-@property unsigned short port; // @synthesize port;
-@property(copy) NSString *remoteIPPort; // @synthesize remoteIPPort=_remoteIPPort;
-@property(retain) NSString *resolverAccountName; // @synthesize resolverAccountName;
-@property int resolverStatus; // @synthesize resolverStatus;
-@property unsigned long long session; // @synthesize session=_session;
-@property(readonly) struct sockaddr_in6 sockaddr;
-@property int socket;
-@property(retain) NSMutableSet *types; // @synthesize types=_types;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface CNChangeHistoryPendingChangesSummary
 {
     long long _countOfAddedContacts;
-    long long _countOfUpdatedContacts;
-    long long _countOfDeletedContacts;
 }
 
 + (id);
@@ -19,14 +17,11 @@
 - (long long);
 - (long long);
 - (long long);
-- (id);
-- (_Bool);
+- (id)HoldResumeIndication _sdpSession no longer valid;
+- (_Bool)@;
 
 // Remaining properties
 @property long long countOfAddedContacts; // @synthesize countOfAddedContacts=_countOfAddedContacts;
-@property long long countOfDeletedContacts; // @synthesize countOfDeletedContacts=_countOfDeletedContacts;
-@property long long countOfUpdatedContacts; // @synthesize countOfUpdatedContacts=_countOfUpdatedContacts;
-@property(readonly, getter=isEmpty) _Bool empty;
 
 @end
 

@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSStreamingReport
 {
     unsigned long long _bytesReceived;
-    unsigned long long _bytesSent;
-    unsigned long long _packetsReceived;
-    unsigned long long _packetsSent;
-    unsigned long long _priority;
-    unsigned long long _samplingInterval;
-    unsigned long long _timestamp;
-    NSString *_guid;
-    NSString *_service;
-    NSString *_streamName;
-    struct {
-        unsigned int bytesReceived:1;
-        unsigned int bytesSent:1;
-        unsigned int packetsReceived:1;
-        unsigned int packetsSent:1;
-        unsigned int priority:1;
-        unsigned int samplingInterval:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
@@ -48,11 +28,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -78,26 +58,7 @@
 - (void)·	;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bytesReceived; // @synthesize bytesReceived=_bytesReceived;
-@property(nonatomic) unsigned long long bytesSent; // @synthesize bytesSent=_bytesSent;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasBytesReceived;
-@property(nonatomic) _Bool hasBytesSent;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasPacketsReceived;
-@property(nonatomic) _Bool hasPacketsSent;
-@property(nonatomic) _Bool hasPriority;
-@property(nonatomic) _Bool hasSamplingInterval;
-@property(readonly, nonatomic) _Bool hasService;
-@property(readonly, nonatomic) _Bool hasStreamName;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long packetsReceived; // @synthesize packetsReceived=_packetsReceived;
-@property(nonatomic) unsigned long long packetsSent; // @synthesize packetsSent=_packetsSent;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned long long samplingInterval; // @synthesize samplingInterval=_samplingInterval;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(retain, nonatomic) NSString *streamName; // @synthesize streamName=_streamName;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

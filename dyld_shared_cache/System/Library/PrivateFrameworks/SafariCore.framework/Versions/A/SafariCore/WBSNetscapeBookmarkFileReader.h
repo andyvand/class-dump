@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSMutableString, NSString;
+@class NSMutableString;
 @protocol WBSNetscapeBookmarkFileReaderDelegate;
 
 @interface WBSNetscapeBookmarkFileReader
 {
     NSMutableString *_accumulatedText;
-    NSString *_bookmarkListTitle;
-    NSString *_bookmarkListIdentifier;
-    NSString *_bookmarkLeafURL;
-    NSDate *_dateOfLastVisitOfReadingListItem;
-    NSError *_error;
-    _Bool _isReadingList;
-    id <WBSNetscapeBookmarkFileReaderDelegate> _delegate;
 }
 
 + (_Bool);
@@ -24,13 +17,13 @@
 + (_Bool);
 + (id);
 - (_Bool);
+- (_Bool)˿;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)pointsOfInterest:withVisualStyle:ofAnnotation:pageControllerForPixelAlignment: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)±Xð1Â0@ù

@@ -9,22 +9,18 @@
 @interface SKPaymentAppleIDAuthorizationRequest
 {
     NSString *_clientIdentifier;
-    NSString *_teamIdentifier;
-    NSString *_serviceIdentifier;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)З;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(copy, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly, copy, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
 
 @end
 

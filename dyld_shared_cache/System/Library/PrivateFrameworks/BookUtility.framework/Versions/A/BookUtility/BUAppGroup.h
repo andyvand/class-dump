@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUserDefaults;
+@class NSString;
 
 @interface BUAppGroup
 {
     NSString *_identifier;
-    NSURL *_containerURL;
-    NSUserDefaults *_userDefaults;
 }
 
-+ (id);
++ (id);
 + (_Bool)ÿ;
 - (id);
 - (id);
@@ -22,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *containerURL;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults;
 
 @end
 

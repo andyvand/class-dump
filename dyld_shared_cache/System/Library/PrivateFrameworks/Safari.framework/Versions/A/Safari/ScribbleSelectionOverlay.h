@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BackdropView, NSView;
+@class BackdropView;
 
 __attribute__((visibility("hidden")))
 @interface ScribbleSelectionOverlay
 {
     BackdropView *_blurView;
-    NSView *_borderView;
 }
 
 - (void);

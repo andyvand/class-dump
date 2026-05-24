@@ -6,10 +6,10 @@
 
 @interface UnknownClass (GEOMapItemPhoto)
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)URLByAppendingPathExtension: /* Error: Ran out of types for this method. */;
+- (id),V_defaultNameOrder;
+- (id)tedContainerIdentifierCount;
+- (id)entifierCount;
+- (id)C;
 @end
 

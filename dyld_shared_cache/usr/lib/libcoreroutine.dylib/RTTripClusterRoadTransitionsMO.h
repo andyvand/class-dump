@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTTripClusterRoadTransitionsMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)ntityData=}16^@24;
++ (id)nection;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clRoadIDFrom; // @dynamic clRoadIDFrom;
-@property(nonatomic) unsigned long long clRoadIDTo; // @dynamic clRoadIDTo;
 @property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;
-@property(nonatomic) int count; // @dynamic count;
-@property(nonatomic) unsigned int endRoadCount; // @dynamic endRoadCount;
-@property(nonatomic) double familiarityMetric; // @dynamic familiarityMetric;
-@property(nonatomic) double fromEndLatitude; // @dynamic fromEndLatitude;
-@property(nonatomic) double fromEndLongitude; // @dynamic fromEndLongitude;
-@property(nonatomic) double fromStartLatitude; // @dynamic fromStartLatitude;
-@property(nonatomic) double fromStartLongitude; // @dynamic fromStartLongitude;
-@property(nonatomic) unsigned int roadSequenceNumber; // @dynamic roadSequenceNumber;
-@property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(nonatomic) unsigned int startRoadCount; // @dynamic startRoadCount;
-@property(nonatomic) double toEndLatitude; // @dynamic toEndLatitude;
-@property(nonatomic) double toEndLongitude; // @dynamic toEndLongitude;
-@property(nonatomic) double toStartLatitude; // @dynamic toStartLatitude;
-@property(nonatomic) double toStartLongitude; // @dynamic toStartLongitude;
 
 @end
 

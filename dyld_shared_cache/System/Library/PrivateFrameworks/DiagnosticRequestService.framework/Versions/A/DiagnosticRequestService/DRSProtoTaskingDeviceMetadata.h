@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoClientDeviceMetadata, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoTaskingDeviceMetadata
 {
     NSString *_build;
-    DRSProtoClientDeviceMetadata *_deviceMetadata;
 }
 
+- (_Bool)autofavoritesProvider;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool)! ;
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)=;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)",C,VsearchKeys;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *build; // @synthesize build=_build;
-@property(retain, nonatomic) DRSProtoClientDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(readonly, nonatomic) _Bool hasBuild;
 @property(readonly, nonatomic) _Bool hasDeviceMetadata;
 
 @end

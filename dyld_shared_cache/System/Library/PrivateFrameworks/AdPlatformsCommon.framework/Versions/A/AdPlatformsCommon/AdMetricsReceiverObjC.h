@@ -13,10 +13,10 @@
 
 - (void);
 - (void);
-- (id);
+- (id)4C;
 - (id);
 - (void);
-- (id);
+- (id)applicationProtectedDataWillBecomeUnavailable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AdMetricsReceiverBridge *receiver; // @synthesize receiver=_receiver;

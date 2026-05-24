@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class QCImagePixelBuffer;
+
 @protocol QCImageProvider
+- (_Bool);
+- (unsigned int);
+- (QCImagePixelBuffer *)c�x;
 @end
 

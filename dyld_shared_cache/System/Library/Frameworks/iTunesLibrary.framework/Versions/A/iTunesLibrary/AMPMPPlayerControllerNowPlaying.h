@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AMPMPPlayerControllerNowPlaying
 {
     NSDictionary *_item;
-    NSString *_itemIdentifier;
-    NSString *_artworkIdentifier;
-    long long _index;
-    long long _count;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)h
+;
 - (void);
 - (long long);
-- (long long);
+- (long long)P;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
 @property(readonly, nonatomic) NSDictionary *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 
 @end
 

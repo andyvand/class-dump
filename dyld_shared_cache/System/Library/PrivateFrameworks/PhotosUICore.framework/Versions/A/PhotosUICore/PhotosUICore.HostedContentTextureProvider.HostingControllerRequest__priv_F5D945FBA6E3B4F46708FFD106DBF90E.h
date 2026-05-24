@@ -9,11 +9,6 @@
 @interface PhotosUICore.HostedContentTextureProvider.HostingControllerRequest__priv_F5D945FBA6E3B4F46708FFD106DBF90E
 {
     id requestID;
-    id hostingController;
-    id requestQueue;
-    id textureProvider;
-    id presenter;
-    id requestQueue_isCanceled;
 }
 
 - (id);

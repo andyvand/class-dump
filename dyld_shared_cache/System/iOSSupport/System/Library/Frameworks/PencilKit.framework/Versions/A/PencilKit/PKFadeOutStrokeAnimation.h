@@ -9,9 +9,6 @@
 @interface PKFadeOutStrokeAnimation
 {
     UIColor *_startColor;
-    PKStroke *_stroke;
-    double _startTime;
-    double _duration;
 }
 
 - (id);
@@ -23,8 +20,6 @@
 - (void)üì$;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(readonly, nonatomic) PKStroke *stroke; // @synthesize stroke=_stroke;
 
 @end

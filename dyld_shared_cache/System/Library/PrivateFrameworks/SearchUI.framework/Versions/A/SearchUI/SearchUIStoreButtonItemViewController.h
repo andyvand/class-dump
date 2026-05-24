@@ -6,13 +6,11 @@
 
 #import <SearchUI/SearchUIButtonItemViewController.h>
 
-@class ASCLockupView, NSString;
+@class ASCLockupView;
 
 @interface SearchUIStoreButtonItemViewController : SearchUIButtonItemViewController
 {
     _Bool _startedInstalling;
-    ASCLockupView *_lockupView;
-    NSString *_adamID;
 }
 
 + (id);
@@ -27,27 +25,18 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (id);
 - (id);
-- (id);
+- (id)variant_wavy_medium_down_fringe;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)k;
+- (id)setupSink;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *adamID; // @synthesize adamID=_adamID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ASCLockupView *lockupView; // @synthesize lockupView=_lockupView;
-@property _Bool startedInstalling; // @synthesize startedInstalling=_startedInstalling;
-@property(readonly) Class superclass;
 
 @end
 

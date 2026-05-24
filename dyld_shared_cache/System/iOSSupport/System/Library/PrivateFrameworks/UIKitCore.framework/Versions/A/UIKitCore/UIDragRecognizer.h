@@ -6,51 +6,39 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class UIDelayedAction, UITouch;
-
 __attribute__((visibility("hidden")))
 @interface UIDragRecognizer : UIGestureRecognizer
 {
     double _maximumDeviation;
-    double _minimumDistance;
-    struct CGPoint _startPosition;
-    _Bool _restrictsToAngle;
-    double _angle;
-    UITouch *_touch;
-    UIDelayedAction *_tooSlow;
-    double _startAngle;
-    double _quietPeriod;
-    _Bool _canBeginDrag;
-    UIDelayedAction *ignoreTouch;
 }
 
 + (_Bool);
 + (_Bool);
-- (void);
-- (void);
+- (void)ng expressive send style message part for message %@;
+- (void)elete, not in attachment store:(double)arg1 %@;
+- (void)gToken was passed in a nil zone;
+- (_Bool)essage for chat:%@ /* Error: Ran out of types for this method. */;
+- (double)d edit for message part %ld. ThisEdit:%@, DateOfLastEdit:%@ /* Error: Ran out of types for this method. */;
+- (double)as marked as purgeable in our database but not marked purgeable on APFS;
+- (id)MultistringSearch;
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint)shed writing %tu events to the topic stream;
 - (double);
-- (double);
+- (void);
+- (void);
+- (void);
+- (void)lic}@:(id)arg1 %{public}@);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)e:(id)arg1;
-- (double)ppearanceData;
-- (void):(id)arg1 relativeDuration:(id)arg2 animations: /* Error: Ran out of types for this method. */;
-- (double)tUndockedWithOffset:animated: /* Error: Ran out of types for this method. */;
-- (void)tions;
-- (void)iew;
+- (void)_setSeparatorBackdropOverlayBlendMode:(id)arg1;
+- (double)_backButtonAppearanceData;
+- (void)_animateKeyframeWithID:(id)arg1 relativeStartTime:(id)arg2 relativeDuration:animations: /* Error: Ran out of types for this method. */;
+- (double)setUndockedWithOffset:animated: /* Error: Ran out of types for this method. */;
+- (void)undoManagerWillRemoveAllActions;
+- (void)gapView;
 - (void)bleForFloatingTransition placementWithPlacement:(id)arg1 forFloatingAssistantViewTransition:] /* Error: Ran out of types for this method. */;
 - (void)a different cell from -collectionView:cellForItemAtIndexPath:than the cell being reconfigured, which is not allowed. When reconfiguring an item, you must obtain the existing cell by dequeuing a cell for the index path specified, using the same registration or reuse identifier that was used to dequeue the cell originally, and return the same cell. Index path:%@; Existing cell:%@; Returned cell:%@ /* Error: Ran out of types for this method. */;
 - (void)°fÔ@Wb;
@@ -59,16 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)½ÿ´-Õq;
 
 // Remaining properties
-@property(nonatomic) double angle; // @synthesize angle=_angle;
-@property(nonatomic) _Bool canBeginDrag; // @synthesize canBeginDrag=_canBeginDrag;
-@property(retain, nonatomic) UIDelayedAction *ignoreTouch; // @synthesize ignoreTouch;
-@property(nonatomic) double maximumDeviation; // @synthesize maximumDeviation=_maximumDeviation;
-@property(nonatomic) double minimumDistance; // @synthesize minimumDistance=_minimumDistance;
-@property(nonatomic) double quietPeriod; // @synthesize quietPeriod=_quietPeriod;
-@property(nonatomic) _Bool restrictsToAngle; // @synthesize restrictsToAngle=_restrictsToAngle;
-@property(nonatomic) double startAngle; // @synthesize startAngle=_startAngle;
 @property(nonatomic) struct CGPoint startPosition; // @synthesize startPosition=_startPosition;
-@property(retain, nonatomic) UITouch *touch; // @synthesize touch=_touch;
 
 @end
 

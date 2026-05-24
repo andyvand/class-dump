@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBGraphicalFloat;
+@class _SFPBGraphicalFloat;
 
 @interface _SFPBPointSize
 {
     _SFPBGraphicalFloat *_width;
-    _SFPBGraphicalFloat *_height;
 }
 
 - (id);
@@ -21,22 +20,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)s:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)SFRichTitleCardSection"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBGraphicalFloat *height; // @synthesize height=_height;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBGraphicalFloat *width; // @synthesize width=_width;
 
 @end

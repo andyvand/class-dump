@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ProfileIconButton : RolloverTrackingButton
 {
     CAShapeLayer *_shapeLayer;
-    CAShapeLayer *_borderLayer;
 }
 
 - (void);

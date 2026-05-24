@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface FPAppMetadata
 {
     _Bool _isManaged;
-    _Bool _useDefaultProviderDomainID;
-    NSString *_bundleID;
-    NSString *_displayName;
-    NSURL *_documentsURL;
-    NSString *_providerDomainID;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)A;
 + (id);
 + (_Bool);
 - (_Bool);
@@ -27,25 +20,20 @@
 - (id);
 - (id);
 - (id);
+- (void)LAAuthenticationBiometricMethodConfiguration;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id){private, mask.hash}susing Auth from prefs;
+- (_Bool)edia is active and call is confirmed, Moving to SessionConfirmed state.;
 - (void);
 - (id);
 - (void)!ìDùñç)°1Â0@ù
 × ;
-- (_Bool)_fault_at_block_invoke;
+- (_Bool)fpfs_create_dataless_fault_at_block_invoke;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSURL *documentsURL; // @synthesize documentsURL=_documentsURL;
-@property(readonly, nonatomic) _Bool isManaged; // @synthesize isManaged=_isManaged;
-@property(retain, nonatomic) NSString *providerDomainID; // @synthesize providerDomainID=_providerDomainID;
 @property(readonly, nonatomic) _Bool useDefaultProviderDomainID; // @synthesize useDefaultProviderDomainID=_useDefaultProviderDomainID;
 
 @end

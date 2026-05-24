@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
++ (id)orage_$_updateQueue;
++ (id)in as %@;
 + (_Bool);
 + (_Bool);
 - (void);

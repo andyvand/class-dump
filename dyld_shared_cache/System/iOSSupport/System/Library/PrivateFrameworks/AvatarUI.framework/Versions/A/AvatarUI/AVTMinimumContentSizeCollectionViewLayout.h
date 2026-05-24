@@ -11,7 +11,7 @@
 
 - (void);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)|s@t;
 
 // Remaining properties
 @property(nonatomic) struct CGSize minimumContentSize; // @synthesize minimumContentSize=_minimumContentSize;

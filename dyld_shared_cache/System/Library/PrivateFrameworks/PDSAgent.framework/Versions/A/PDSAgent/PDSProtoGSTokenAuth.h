@@ -11,11 +11,11 @@
     NSString *_gsAuthToken;
 }
 
+- (id)Not updating access control with an equivalent object.;
+- (void):(id)arg1 Could not create synced asset collection metadata tables. Error:%{public}s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)_fileSignatures;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

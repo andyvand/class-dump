@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDHours, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackBusinessHours
 {
     PBDataReader *_reader;
-    NSString *_comments;
-    unsigned long long _end;
-    unsigned long long _start;
-    GEOPDHours *_weeklyHours;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _hoursType;
-    struct {
-        unsigned int has_end:1;
-        unsigned int has_start:1;
-        unsigned int has_hoursType:1;
-        unsigned int read_comments:1;
-        unsigned int read_weeklyHours:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)WithDsid:(id)arg1;
++ (_Bool)setIsSignedInWithDsid:(id)arg1;
+- (id);
+- (void)validateSubgroupMembershipGraph:(int)arg1;
+- (void)setImageData:(_Bool)arg1 forReference:clipRects: /* Error: Ran out of types for this method. */;
+- (void)getIOSLegacyIdentifierRegistrationsForRequest:(_Bool)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithCapacity:(_Bool)arg1;
+- (void)SPersistentStoreCoordinator",R;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (int)P;
 - (int);
-- (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setJsRejectCount: /* Error: Ran out of types for this method. */;
+- (void)nnot be turned on since VoiceTrigger is disabled;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -58,24 +42,15 @@
 - (id);
 - (void);
 - (id)yRibbonItem"b1"read_contactlessPaymentsRibbonItem"b1"read_factoidRibbonItem"b1"wrote_anyField"b1};
-- (id)d: /* Error: Ran out of types for this method. */;
+- (id)addStartMuid: /* Error: Ran out of types for this method. */;
 - (id)ðqs|}~P ðÀ;
-- (id)age;
+- (id)preparation_stage;
 - (void)BA·îæ©Q@;
 - (void)¼øL@;
 - (void)èJ@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *comments;
-@property(nonatomic) unsigned long long end;
-@property(readonly, nonatomic) _Bool hasComments;
-@property(nonatomic) _Bool hasEnd;
-@property(nonatomic) _Bool hasHoursType;
-@property(nonatomic) _Bool hasStart;
 @property(readonly, nonatomic) _Bool hasWeeklyHours;
-@property(nonatomic) int hoursType;
-@property(nonatomic) unsigned long long start;
-@property(retain, nonatomic) GEOPDHours *weeklyHours;
 
 @end
 

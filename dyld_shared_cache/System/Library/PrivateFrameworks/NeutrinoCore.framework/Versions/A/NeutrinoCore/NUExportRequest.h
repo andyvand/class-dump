@@ -7,27 +7,24 @@
 #import <NeutrinoCore/NURenderRequest.h>
 
 @class NSURL;
-@protocol NUScalePolicy;
 
 @interface NUExportRequest : NURenderRequest
 {
     NSURL *_destinationURL;
-    id <NUScalePolicy> _scalePolicy;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)jh8	;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void)peline>"24@"NUChannelMatching"32o^@40;
 
 // Remaining properties
 @property(copy) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(retain) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
 
 @end
 

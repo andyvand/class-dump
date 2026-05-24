@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVHomeIPCameraBehavior, AVHomeIPCameraPlayerController, AVObservationController, AVPlayerController, AVPlayerViewController, AVZoomingBehavior, NSString, UIView;
+@class AVHomeIPCameraBehavior;
 
 @interface AVHomeIPCameraBehaviorContext
 {
     _Bool _playbackControlsIncludeTransportControls;
-    _Bool _playbackControlsIncludeDisplayModeControls;
-    _Bool _playbackControlsIncludeVolumeControls;
-    _Bool _zoomingEnabled;
-    _Bool _microphoneEnabled;
-    _Bool _livePreviewActive;
-    _Bool _hasMicrophone;
-    _Bool _canStartPictureInPictureAutomaticallyWhenEnteringBackground;
-    _Bool _playbackControlsIncludePictureInPictureButton;
-    _Bool _playbackControlsShowsLoadingIndicator;
-    AVPlayerViewController *_playerViewController;
-    AVHomeIPCameraBehavior *_behavior;
-    UIView *_livePreviewContainerView;
-    AVZoomingBehavior *_zoomingBehavior;
-    AVHomeIPCameraPlayerController *_livePreviewPlayerController;
-    AVPlayerController *_playerControllerToRestore;
-    AVObservationController *_observationController;
-    struct CGSize _livePreviewAspectRatio;
 }
 
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -37,8 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -47,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (_Bool);
@@ -55,7 +38,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -82,30 +65,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak AVHomeIPCameraBehavior *behavior; // @synthesize behavior=_behavior;
-@property(nonatomic) _Bool canStartPictureInPictureAutomaticallyWhenEnteringBackground; // @synthesize canStartPictureInPictureAutomaticallyWhenEnteringBackground=_canStartPictureInPictureAutomaticallyWhenEnteringBackground;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasMicrophone; // @synthesize hasMicrophone=_hasMicrophone;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isLivePreviewActive) _Bool livePreviewActive; // @synthesize livePreviewActive=_livePreviewActive;
-@property(nonatomic) struct CGSize livePreviewAspectRatio; // @synthesize livePreviewAspectRatio=_livePreviewAspectRatio;
-@property(readonly, nonatomic) UIView *livePreviewContainerView; // @synthesize livePreviewContainerView=_livePreviewContainerView;
-@property(nonatomic) __weak AVHomeIPCameraPlayerController *livePreviewPlayerController; // @synthesize livePreviewPlayerController=_livePreviewPlayerController;
-@property(nonatomic, getter=isMicrophoneEnabled) _Bool microphoneEnabled; // @synthesize microphoneEnabled=_microphoneEnabled;
-@property(retain, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(nonatomic) _Bool playbackControlsIncludeDisplayModeControls; // @synthesize playbackControlsIncludeDisplayModeControls=_playbackControlsIncludeDisplayModeControls;
-@property(nonatomic) _Bool playbackControlsIncludePictureInPictureButton; // @synthesize playbackControlsIncludePictureInPictureButton=_playbackControlsIncludePictureInPictureButton;
-@property(nonatomic) _Bool playbackControlsIncludeTransportControls; // @synthesize playbackControlsIncludeTransportControls=_playbackControlsIncludeTransportControls;
-@property(nonatomic) _Bool playbackControlsIncludeVolumeControls; // @synthesize playbackControlsIncludeVolumeControls=_playbackControlsIncludeVolumeControls;
-@property(nonatomic) _Bool playbackControlsShowsLoadingIndicator; // @synthesize playbackControlsShowsLoadingIndicator=_playbackControlsShowsLoadingIndicator;
-@property(retain, nonatomic) AVPlayerController *playerControllerToRestore; // @synthesize playerControllerToRestore=_playerControllerToRestore;
-@property(readonly, nonatomic) __weak AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVZoomingBehavior *zoomingBehavior; // @synthesize zoomingBehavior=_zoomingBehavior;
-@property(nonatomic, getter=isZoomingEnabled) _Bool zoomingEnabled; // @synthesize zoomingEnabled=_zoomingEnabled;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatDOMTag
 {
     id name;
-    id attributes;
-    id kind;
 }
 
 @end

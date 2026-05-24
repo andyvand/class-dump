@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalyticsSystemProperties, NSCalendar, NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface CPAnalyticsEvent
 {
     NSString *_name;
-    NSDate *_timestamp;
-    NSDictionary *_payload;
-    CPAnalyticsSystemProperties *_systemProperties;
-    NSCalendar *_gregorianCalendar;
 }
 
 + (id);
-+ (id);
++ (id)be read;
 + (void);
 - (id);
 - (id);
@@ -24,23 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSCalendar *gregorianCalendar; // @synthesize gregorianCalendar=_gregorianCalendar;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CPAnalyticsSystemProperties *systemProperties; // @synthesize systemProperties=_systemProperties;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

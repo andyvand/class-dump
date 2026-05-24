@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CRLineWrappingParameters
 {
     float probabilityThreshold;
-    float heightSimilarityRatio;
-    float angleSimilarityThreshold;
-    long long lmContextSize;
-    float oversegmentedDistanceHeightRatioTolerance;
-    float oversegmentedDistanceHeightRatioListItemTolerance;
-    float leadingDistanceRatioTolerance;
-    float verticalSpacingRatioTolerance;
-    float newParagraphIndentDistanceRatioTolerance;
-    float widthGrowthLimit;
-    long long wrappingEvaluationThreshold;
-    long long noWrappingEvaluationThreshold;
-    long long caseWrappingScoreWithNoCapitalization;
-    long long punctuationWrappingScoreWithEndingMOS;
-    long long punctuationWrappingScoreWithNoClosingPunctuation;
-    float smallestVerticalDistanceHeightRatio;
-    float maximumVerticalDistanceGrowthRatio;
-    long long correctionMode;
-    float confidenceThreshold;
-    float contextConfidenceThreshold;
-    double lmScoreThreshold;
-    double lmScoreEOSMinRatio;
-    long long tokenCountIncreaseLimit;
 }
 
-- (long long);
+- (long long);
 - (float);
 - (float);
 - (long long);
@@ -52,41 +28,18 @@
 - (id);
 - (float);
 - (long long);
-- (float);
+- (float)@;
 - (long long);
 - (float);
 - (id);
 - (float);
-- (float);
+- (float)preferredFontForTextStyle:addingSymbolicTraits: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)B;
 
 // Remaining properties
-@property(nonatomic, readonly) float angleSimilarityThreshold; // @synthesize angleSimilarityThreshold;
-@property(nonatomic, readonly) long long caseWrappingScoreWithNoCapitalization; // @synthesize caseWrappingScoreWithNoCapitalization;
-@property(nonatomic, readonly) float confidenceThreshold; // @synthesize confidenceThreshold;
-@property(nonatomic, readonly) float contextConfidenceThreshold; // @synthesize contextConfidenceThreshold;
-@property(nonatomic, readonly) long long correctionMode; // @synthesize correctionMode;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) float heightSimilarityRatio; // @synthesize heightSimilarityRatio;
-@property(nonatomic, readonly) float leadingDistanceRatioTolerance; // @synthesize leadingDistanceRatioTolerance;
-@property(nonatomic, readonly) long long lmContextSize; // @synthesize lmContextSize;
-@property(nonatomic, readonly) double lmScoreEOSMinRatio; // @synthesize lmScoreEOSMinRatio;
-@property(nonatomic, readonly) double lmScoreThreshold; // @synthesize lmScoreThreshold;
-@property(nonatomic, readonly) float maximumVerticalDistanceGrowthRatio; // @synthesize maximumVerticalDistanceGrowthRatio;
-@property(nonatomic, readonly) float newParagraphIndentDistanceRatioTolerance; // @synthesize newParagraphIndentDistanceRatioTolerance;
-@property(nonatomic, readonly) long long noWrappingEvaluationThreshold; // @synthesize noWrappingEvaluationThreshold;
-@property(nonatomic, readonly) float oversegmentedDistanceHeightRatioListItemTolerance; // @synthesize oversegmentedDistanceHeightRatioListItemTolerance;
-@property(nonatomic, readonly) float oversegmentedDistanceHeightRatioTolerance; // @synthesize oversegmentedDistanceHeightRatioTolerance;
 @property(nonatomic, readonly) float probabilityThreshold; // @synthesize probabilityThreshold;
-@property(nonatomic, readonly) long long punctuationWrappingScoreWithEndingMOS; // @synthesize punctuationWrappingScoreWithEndingMOS;
-@property(nonatomic, readonly) long long punctuationWrappingScoreWithNoClosingPunctuation; // @synthesize punctuationWrappingScoreWithNoClosingPunctuation;
-@property(nonatomic, readonly) float smallestVerticalDistanceHeightRatio; // @synthesize smallestVerticalDistanceHeightRatio;
-@property(nonatomic, readonly) long long tokenCountIncreaseLimit; // @synthesize tokenCountIncreaseLimit;
-@property(nonatomic, readonly) float verticalSpacingRatioTolerance; // @synthesize verticalSpacingRatioTolerance;
-@property(nonatomic, readonly) float widthGrowthLimit; // @synthesize widthGrowthLimit;
-@property(nonatomic, readonly) long long wrappingEvaluationThreshold; // @synthesize wrappingEvaluationThreshold;
 
 @end
 

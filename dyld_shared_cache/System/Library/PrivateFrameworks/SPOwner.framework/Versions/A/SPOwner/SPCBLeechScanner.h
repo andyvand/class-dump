@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, FMQueueSynchronizer, FMXPCServiceDescription, FMXPCSession, NSObject, NSString;
-@protocol OS_dispatch_queue, SPCBPeripheralManagementXPCProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SPCBLeechScanner
 {
     _Bool _enabled;
-    _Bool _isScanning;
-    int _notifyToken;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    FMQueueSynchronizer *_queueSynchronizer;
-    CBCentralManager *_centralManager;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPCBPeripheralManagementXPCProtocol> _proxy;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -39,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)chatsWrittenCount;
 - (void);
 - (void);
 - (_Bool);
@@ -50,26 +42,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)4ð!Fù°1Â0@ù
 × ;
-- (void)ingWithUUID:(id)arg1 partIds:(id)arg2 completion:(id)arg3;
+- (void)forceRePairingWithUUID:(id)arg1 partIds:(id)arg2 completion:(id)arg3;
 - (_Bool)Ë®;
 
 // Remaining properties
-@property(retain, nonatomic) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isScanning; // @synthesize isScanning=_isScanning;
-@property(nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
-@property(retain, nonatomic) id <SPCBPeripheralManagementXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) FMQueueSynchronizer *queueSynchronizer; // @synthesize queueSynchronizer=_queueSynchronizer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

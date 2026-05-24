@@ -6,28 +6,19 @@
 
 #import <Vision/VNE5RTBasedDetector.h>
 
-@class VNBGRBilinearUpsampler, VNEspressoResources, VNMetalContext, VisionCoreE5RTInferenceFunctionDescriptor;
-@protocol MTLComputePipelineState;
+@class VNEspressoResources;
 
 __attribute__((visibility("hidden")))
 @interface VNTrackMaskDetector : VNE5RTBasedDetector
 {
     VNEspressoResources *initializationModel;
-    VNEspressoResources *updateModel;
-    struct __CVBuffer *highResMaskPixelBuffer;
-    VNBGRBilinearUpsampler *_bilinearUpsampler;
-    VNMetalContext *_postProcessingMetalContext;
-    id <MTLComputePipelineState> _applyMaskComputeState;
-    VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor_Memory;
-    VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor_Mask;
-    VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor_Updated;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)edicate;
 + (id);
 - (void);
 - (_Bool);

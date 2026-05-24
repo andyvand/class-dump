@@ -7,14 +7,6 @@
 @interface NewsSubscription.SubscriptionAccessMeter
 {
     id userInfo;
-    id readingHistory;
-    id puzzleHistory;
-    id purchaseProvider;
-    id bundleSubscriptionManager;
-    id paidAccessChecker;
-    id offeredBundlePurchaseIDs;
-    id aLaCarteSubscriptionMeteredCountMaxLimit;
-    id bundleSubscriptionMeteredCountMaxLimit;
 }
 
 @end

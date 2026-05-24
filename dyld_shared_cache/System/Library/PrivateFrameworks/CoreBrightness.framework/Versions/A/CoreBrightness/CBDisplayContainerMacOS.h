@@ -6,36 +6,21 @@
 
 #import <CoreBrightness/CBContainer.h>
 
-@class NSMutableArray, NSString;
-@protocol CBContainerModuleProtocol;
-
 __attribute__((visibility("hidden")))
 @interface CBDisplayContainerMacOS : CBContainer
 {
     unsigned long long _deviceID;
-    unsigned long long _aliasID;
-    NSMutableArray *_relevantServices;
-    NSMutableArray<CBContainerModuleProtocol> *_modules;
-    _Bool _builtIn;
-    unsigned long long _vendorID;
-    unsigned long long _productID;
-    unsigned long long _serialNumber;
-    struct IONotificationPort *_hidDisplayServicePublishedNotifyPort;
-    unsigned int _hidDisplayServiceIterator;
-    _Bool _brightnessDisabled;
-    _Bool _autoBrightnessDisabled;
-    _Bool _running;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)AttachRaw;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,14 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)trol;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool running; // @synthesize running=_running;
-@property(readonly) Class superclass;
 
 @end
 

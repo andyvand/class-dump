@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MSServerSideConfigProtocol;
+
 @protocol MSServerSideConfigProtocolDelegate
+- (void):(MSServerSideConfigProtocol *)arg1 cfg 12 elements; (12*4) cfg bytes != (%d) buffer bytes;
 @end
 

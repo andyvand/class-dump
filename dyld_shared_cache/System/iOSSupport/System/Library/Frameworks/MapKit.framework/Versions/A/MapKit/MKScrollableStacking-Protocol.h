@@ -7,6 +7,8 @@
 @class UIScrollView;
 
 @protocol MKScrollableStacking
+- (double)R$;
+- (UIScrollView *)!;
 
 // Remaining properties
 @property(readonly, nonatomic) UIScrollView *scrollView;

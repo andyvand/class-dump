@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarListCell, AVTCenteringCollectionViewDelegate, AVTRenderingScope, AVTSerialTaskScheduler, AVTStickerConfiguration, AVTTransitionCoordinator, AVTUIEnvironment, AVTUIStickerGeneratorPool, AVTUIStickerRenderer, AVTViewSession, AVTZIndexEngagementListCollectionViewLayout, NSArray, NSString, UICollectionView, UIView;
-@protocol AVTAvatarRecord, AVTPresenterDelegate, AVTUILogger, AVTViewCarouselLayout;
+@class UIView;
 
 @interface AVTBodyCarouselController
 {
     _Bool _isAnimatingExpansion;
-    id <AVTPresenterDelegate> presenterDelegate;
-    double _decelerationRate;
-    AVTRenderingScope *_renderingScope;
-    AVTStickerConfiguration *_displayedConfiguration;
-    UIView *_view;
-    UICollectionView *_collectionView;
-    AVTZIndexEngagementListCollectionViewLayout *_collectionViewLayout;
-    AVTCenteringCollectionViewDelegate *_centeringDelegate;
-    AVTViewSession *_avtViewSession;
-    NSArray *_configurations;
-    AVTUIStickerRenderer *_renderer;
-    AVTSerialTaskScheduler *_scheduler;
-    AVTUIStickerGeneratorPool *_generatorPool;
-    id <AVTAvatarRecord> _displayedRecord;
-    AVTAvatarListCell *_liveCell;
-    AVTTransitionCoordinator *_transitionCoordinator;
-    AVTUIEnvironment *_environment;
-    id <AVTUILogger> _logger;
-    id <AVTViewCarouselLayout> _avtViewLayout;
-    struct CGSize _centerCellSize;
 }
 
 + (id);
@@ -71,7 +50,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGSize);
@@ -79,7 +58,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -90,20 +69,25 @@
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)combFileNameForComponent:-> %@
+ /* Error: Ran out of types for this method. */;
+- (void)Sf5alpha_Sf4betat;
+- (void)ReductionLayer;
+- (id);
+- (long long)photoDate           real,
+  photoNumber         int,
+  obj                 blob,
+  userInfo            blob
+);;
 - (id);
 - (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
+- (void)>#;
 - (void);
 - (void);
 - (id);
@@ -114,33 +98,6 @@
 - (id)Â;
 
 // Remaining properties
-@property(retain, nonatomic) id <AVTViewCarouselLayout> avtViewLayout; // @synthesize avtViewLayout=_avtViewLayout;
-@property(retain, nonatomic) AVTViewSession *avtViewSession; // @synthesize avtViewSession=_avtViewSession;
-@property(nonatomic) struct CGSize centerCellSize; // @synthesize centerCellSize=_centerCellSize;
-@property(retain, nonatomic) AVTCenteringCollectionViewDelegate *centeringDelegate; // @synthesize centeringDelegate=_centeringDelegate;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) AVTZIndexEngagementListCollectionViewLayout *collectionViewLayout; // @synthesize collectionViewLayout=_collectionViewLayout;
-@property(retain, nonatomic) NSArray *configurations; // @synthesize configurations=_configurations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double decelerationRate; // @synthesize decelerationRate=_decelerationRate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AVTStickerConfiguration *displayedConfiguration; // @synthesize displayedConfiguration=_displayedConfiguration;
-@property(retain, nonatomic) id <AVTAvatarRecord> displayedRecord; // @synthesize displayedRecord=_displayedRecord;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) AVTUIStickerGeneratorPool *generatorPool; // @synthesize generatorPool=_generatorPool;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAnimatingExpansion; // @synthesize isAnimatingExpansion=_isAnimatingExpansion;
-@property(retain, nonatomic) AVTAvatarListCell *liveCell; // @synthesize liveCell=_liveCell;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(retain, nonatomic) AVTUIStickerRenderer *renderer; // @synthesize renderer=_renderer;
-@property(readonly, nonatomic) AVTRenderingScope *renderingScope; // @synthesize renderingScope=_renderingScope;
-@property(retain, nonatomic) AVTSerialTaskScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVTTransitionCoordinator *transitionCoordinator; // @synthesize transitionCoordinator=_transitionCoordinator;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
-@protocol OS_dispatch_queue;
+@class NSError;
 
 @interface MSVAsyncOperation
 {
     _Bool __executing;
-    _Bool __finished;
-    NSError *_error;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
 - (_Bool);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)(A;
 - (void);
 - (void);
 - (void);
@@ -30,13 +26,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_timeoutGuards;
 - (_Bool)ImageAnalyzer::AnalyzeImage() - CGImageRef parameter is nil. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=_isExecuting, setter=_setExecuting:) _Bool _executing; // @synthesize _executing=__executing;
-@property(nonatomic, getter=_isFinished, setter=_setFinished:) _Bool _finished; // @synthesize _finished=__finished;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(copy, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end

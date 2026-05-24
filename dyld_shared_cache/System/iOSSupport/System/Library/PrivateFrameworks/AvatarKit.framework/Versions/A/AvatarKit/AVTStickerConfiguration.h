@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarBodyPose, AVTAvatarPhysicalizedPose, AVTStickerCamera, NSArray, NSDictionary, NSNumber, NSString;
-
 @interface AVTStickerConfiguration
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_legacySizeOption;
-    NSString *_assetsPath;
-    NSDictionary *_configurationDictionary;
-    _Bool _hasLoadedFromConfiguration;
-    NSString *_name;
-    NSString *_localizedName;
-    AVTAvatarPhysicalizedPose *_physicalizedPose;
-    AVTAvatarBodyPose *_bodyPose;
-    NSArray *_props;
-    NSArray *_shaderModifiers;
-    AVTStickerCamera *_camera;
-    NSString *_stickerPack;
-    NSArray *_morpherOverrides;
-    NSArray *_presetOverrides;
-    NSArray *_poseAdjustments;
-    unsigned long long _stickerVersion;
 }
 
 + (id);
@@ -36,10 +18,10 @@
 + (id);
 + (id);
 + (id);
++ (id)r attachment globalMessageID:(id)arg1 %lld, mimePart:%{public}@ /* Error: Ran out of types for this method. */;
++ (id)D:(id)arg1 %lld into message_attachments table;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)64;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFSafariTableOfContentsCardSection
+- (int)h";
+- (int)drawWithBox:inContext:withMarkupAnnotation: /* Error: Ran out of types for this method. */;
+- (NSArray *)drawWithBox:inContext:withInkAnnotation: /* Error: Ran out of types for this method. */;
+- (NSString *)t;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *algorithmVersion;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *tableOfContentsItems;
-@property(nonatomic) int tableOfContentsSource;
 @property(nonatomic) int tableOfContentsType;
 @end
 

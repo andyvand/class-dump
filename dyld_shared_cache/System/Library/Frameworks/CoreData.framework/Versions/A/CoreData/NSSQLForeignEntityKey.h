@@ -6,22 +6,20 @@
 
 #import <CoreData/NSSQLColumn.h>
 
-@class NSNumber, NSSQLForeignKey, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLForeignEntityKey : NSSQLColumn
 {
     NSString *_name;
-    NSSQLForeignKey *_foreignKey;
-    NSNumber *_columnValue;
 }
 
 - (void);
 - (id);
+- (id)gy;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id),kb;
 - (id);
 - (void);
 

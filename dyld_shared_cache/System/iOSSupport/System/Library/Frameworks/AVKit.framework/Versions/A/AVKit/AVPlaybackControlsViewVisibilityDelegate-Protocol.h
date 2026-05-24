@@ -5,5 +5,6 @@
 //
 
 @protocol AVPlaybackControlsViewVisibilityDelegate
+- (void)_p;
 @end
 

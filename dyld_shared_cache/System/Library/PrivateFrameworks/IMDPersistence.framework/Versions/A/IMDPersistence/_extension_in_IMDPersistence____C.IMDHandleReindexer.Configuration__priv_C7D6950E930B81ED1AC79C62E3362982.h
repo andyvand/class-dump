@@ -7,7 +7,6 @@
 @interface (extension in IMDPersistence):__C.IMDHandleReindexer.Configuration__priv_C7D6950E930B81ED1AC79C62E3362982
 {
     id deferralTime;
-    id messageAge;
 }
 
 @end

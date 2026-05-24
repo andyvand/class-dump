@@ -6,12 +6,9 @@
 
 #import <CloudDocs/BROperation.h>
 
-@class BRContainer;
-
 @interface BRUploadAllFilesOperation : BROperation
 {
     CDUnknownBlockType _uploadAllFilesCompletion;
-    BRContainer *_container;
 }
 
 - (CDUnknownBlockType);

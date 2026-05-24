@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CKBaseLayer, NSArray, UIImage, UIView;
+@class CKBaseLayer, UIView;
 @protocol CKGradientReferenceView;
 
 @interface CKGradientView
 {
     UIView<CKGradientReferenceView> *_referenceView;
-    NSArray *_colors;
-    UIImage *_maskImage;
-    CKBaseLayer *_gradientLayer;
-    CALayer *_trackingLayer;
-    struct CGRect _gradientFrame;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)fixAttachmentsForRenderingInAttributedString:forPlainText:forStandardizedText: /* Error: Ran out of types for this method. */;
+- (void).notes.index-handwriting-queue;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (void);
@@ -32,25 +27,19 @@
 - (void);
 - (id);
 - (void);
+- (void)@;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)de;
+- (void)opaque_orb_gray_selectionHighlightColorOverride;
 - (id)nge:%@] /* Error: Ran out of types for this method. */;
 - (void)Kit/CKTipCollectionViewCell.swift;
 - (void)Ð;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, nonatomic) UIImage *gradient;
-@property(nonatomic) struct CGRect gradientFrame; // @synthesize gradientFrame=_gradientFrame;
 @property(retain, nonatomic) CKBaseLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(retain, nonatomic) UIImage *maskImage; // @synthesize maskImage=_maskImage;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *referenceView; // @synthesize referenceView=_referenceView;
-@property(retain, nonatomic) CALayer *trackingLayer; // @synthesize trackingLayer=_trackingLayer;
 
 @end
 

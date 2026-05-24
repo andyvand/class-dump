@@ -16,9 +16,9 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (id)editTracker:(id)arg1 selectionChanged:selectionRange:isEditable: /* Error: Ran out of types for this method. */;
+- (id)ontroller",R;
+- (void);
 - (void)ex Type:%@
  /* Error: Ran out of types for this method. */;
 

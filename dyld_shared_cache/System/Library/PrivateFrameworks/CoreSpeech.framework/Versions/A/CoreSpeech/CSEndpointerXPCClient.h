@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSEndpointerMetrics, NSObject, NSString, NSXPCConnection;
-@protocol CSEndpointAnalyzerDelegate, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol CSEndpointAnalyzerDelegate;
 
 @interface CSEndpointerXPCClient
 {
     id <CSEndpointAnalyzerDelegate> _delegate;
-    NSString *_mhId;
-    NSXPCConnection *_endpointerConnection;
-    NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
-    NSObject<OS_dispatch_queue> *_xpcClientQueue;
-    NSObject<OS_dispatch_queue> *_xpcDelegateQueue;
-    id _remoteObjectProxy;
-    CSEndpointerMetrics *_cachedMetrics;
-    long long _cachedEventType;
-    NSString *_requestId;
 }
 
-- (void);
+- (void)createQuickEnergyAccumulatorTimer;
 - (long long);
 - (id);
 - (void);
@@ -32,23 +23,23 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void):(long long)arg1 ;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)recordImageCropQuickLookInfoToOptionsSafe:(id)arg1 cacheKey:imageBuffer: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tes written to:(double)arg1 %@;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (id);
@@ -59,7 +50,7 @@
 - (void);
 - (void);
 - (void)ostTime:(id)arg1;
-- (void)er;
+- (void)contextForOpportuneSpeakerListener;
 - (void)voke;
 - (id)];
 - (void)r _startRequestWithCompletion:(unsigned long long)arg1 ];
@@ -69,25 +60,7 @@
 - (id)=Â¼;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeChannel;
-@property(nonatomic) long long cachedEventType; // @synthesize cachedEventType=_cachedEventType;
-@property(retain, nonatomic) CSEndpointerMetrics *cachedMetrics; // @synthesize cachedMetrics=_cachedMetrics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSEndpointAnalyzerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSXPCConnection *endpointerConnection; // @synthesize endpointerConnection=_endpointerConnection;
-@property(retain, nonatomic) NSString *endpointerModelVersion;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *mhId; // @synthesize mhId=_mhId;
-@property(retain, nonatomic) id remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
-@property(retain, nonatomic) NSString *requestId; // @synthesize requestId=_requestId;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcClientQueue; // @synthesize xpcClientQueue=_xpcClientQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcConnectionQueue; // @synthesize xpcConnectionQueue=_xpcConnectionQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcDelegateQueue; // @synthesize xpcDelegateQueue=_xpcDelegateQueue;
 
 @end
 

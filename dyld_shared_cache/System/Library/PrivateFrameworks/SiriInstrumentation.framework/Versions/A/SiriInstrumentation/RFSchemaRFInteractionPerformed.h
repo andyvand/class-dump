@@ -6,29 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface RFSchemaRFInteractionPerformed : SISchemaInstrumentationMessage
 {
     NSString *_actionName;
-    int _userInteraction;
-    int _visualComponent;
-    NSString *_componentName;
-    int _commandType;
-    NSString *_componentIndex;
-    struct {
-        unsigned int userInteraction:1;
-        unsigned int visualComponent:1;
-        unsigned int commandType:1;
-    } _has;
-    _Bool _hasActionName;
-    _Bool _hasComponentName;
-    _Bool _hasComponentIndex;
 }
 
+- (void));
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,18 +38,18 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)L;
 - (id);
 - (int);
 - (void);
-- (unsigned long long);
+- (unsigned long long)eVersion=%@ itemID=%@ versionID=%@ installDate=%@ lastLaunchDate=%@;
 - (_Bool);
-- (_Bool);
+- (_Bool)ties, chat_identifier, service_name, room_name, account_login, is_archived, last_addressed_handle, display_name, group_id, is_filtered, successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE    group_id = ? ORDER BY chat.ROWID ASC;;
+- (id)A;
+- (void);
 - (id);
-- (void);
-- (id);
-- (id)sionDisplayIds;
+- (id)activeSessionDisplayIds;
 - (id)_nlRerunLatencyInMs;
 - (id)	
 ;
@@ -70,18 +57,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(nonatomic) int commandType; // @synthesize commandType=_commandType;
-@property(copy, nonatomic) NSString *componentIndex; // @synthesize componentIndex=_componentIndex;
-@property(copy, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(nonatomic) _Bool hasActionName; // @synthesize hasActionName=_hasActionName;
-@property(nonatomic) _Bool hasCommandType;
-@property(nonatomic) _Bool hasComponentIndex; // @synthesize hasComponentIndex=_hasComponentIndex;
-@property(nonatomic) _Bool hasComponentName; // @synthesize hasComponentName=_hasComponentName;
-@property(nonatomic) _Bool hasUserInteraction;
-@property(nonatomic) _Bool hasVisualComponent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int userInteraction; // @synthesize userInteraction=_userInteraction;
-@property(nonatomic) int visualComponent; // @synthesize visualComponent=_visualComponent;
 
 @end
 

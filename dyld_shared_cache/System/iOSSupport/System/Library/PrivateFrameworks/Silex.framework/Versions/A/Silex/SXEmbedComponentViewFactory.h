@@ -6,20 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@class SXWebProcessPoolCache, WKWebsiteDataStore;
-@protocol SWReachabilityProvider, SXAnalyticsReportingProvider, SXComponentActionHandler, SXEmbedDataProvider, SXLayoutInvalidator, SXProxyAuthenticationHandler, SXSceneStateMonitor;
+@protocol SWReachabilityProvider;
 
 @interface SXEmbedComponentViewFactory : SXComponentViewFactory
 {
     id <SWReachabilityProvider> _reachabilityProvider;
-    id <SXEmbedDataProvider> _embedDataProvider;
-    id <SXComponentActionHandler> _actionHandler;
-    id <SXLayoutInvalidator> _layoutInvalidator;
-    WKWebsiteDataStore *_dataStore;
-    SXWebProcessPoolCache *_processPoolCache;
-    id <SXProxyAuthenticationHandler> _proxyAuthenticationHandler;
-    id <SXSceneStateMonitor> _sceneStateMonitor;
-    id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
 }
 
 - (id);
@@ -38,15 +29,7 @@
 - (void)@0:8@"<SXActionActivityProvider>"16@"NSString"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, nonatomic) WKWebsiteDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, nonatomic) id <SXEmbedDataProvider> embedDataProvider; // @synthesize embedDataProvider=_embedDataProvider;
-@property(readonly, nonatomic) id <SXLayoutInvalidator> layoutInvalidator; // @synthesize layoutInvalidator=_layoutInvalidator;
-@property(readonly, nonatomic) SXWebProcessPoolCache *processPoolCache; // @synthesize processPoolCache=_processPoolCache;
-@property(readonly, nonatomic) id <SXProxyAuthenticationHandler> proxyAuthenticationHandler; // @synthesize proxyAuthenticationHandler=_proxyAuthenticationHandler;
 @property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
-@property(readonly, nonatomic) id <SXSceneStateMonitor> sceneStateMonitor; // @synthesize sceneStateMonitor=_sceneStateMonitor;
 
 @end
 

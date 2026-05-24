@@ -6,37 +6,29 @@
 
 #import <LinkPresentation/LPVisualMediaView.h>
 
-@class AVPlayerLayer, AVPlayerLooper, AVQueuePlayer, LPVideo;
+@class AVQueuePlayer, LPVideo;
 
 __attribute__((visibility("hidden")))
 @interface LPStreamingVideoView : LPVisualMediaView
 {
     AVQueuePlayer *_player;
-    AVPlayerLooper *_looper;
-    AVPlayerLayer *_playerLayer;
-    CDUnknownBlockType _readyForDisplayCallback;
-    _Bool _hasCreatedVideoPlayerView;
-    _Bool _isWaitingToRetryAfterFailingToPlay;
-    unsigned int _playbackRetryCountWithoutSuccess;
-    _Bool _desiredPlayingState;
-    float _desiredVolume;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:balloonView:showInlineReplyForItemWithIndexPath:withReplyTransitionProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:balloonView:longPressedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)toFieldIsFirstResponder;
+- (_Bool)titleLabelScrollViewEdgeBlurFilterRadius;
+- (void)thinkingDotOpacity;
+- (id)textFieldDidChangeSelection:(id)arg1;
+- (void)er:effectString: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (id)tapbackPickerViewController;
+- (void)tapbackPickerItems;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tailedBubble;
+- (void)e;
+- (void)	;
 - (void);
 - (void);
 - (double);

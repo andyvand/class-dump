@@ -6,27 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTFollowUpAction, IFTSchemaIFTTypedValue, NSData;
-
 @interface IFTSchemaIFTActionSuccess : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTTypedValue *_returnValue;
-    _Bool _appLaunched;
-    _Bool _didShowInAppResult;
-    IFTSchemaIFTFollowUpAction *_followUpAction;
-    _Bool _shouldOpen;
-    struct {
-        unsigned int exists:1;
-        unsigned int appLaunched:1;
-        unsigned int didShowInAppResult:1;
-        unsigned int shouldOpen:1;
-    } _has;
-    _Bool _hasReturnValue;
-    _Bool _hasFollowUpAction;
 }
 
-- (_Bool);
+- (_Bool)�3;
 - (void);
 - (void);
 - (void);
@@ -41,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)h�;
 - (void);
 - (void);
 - (void);
@@ -50,7 +35,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)-;
 - (id);
 - (id);
 - (void);
@@ -70,19 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool appLaunched; // @synthesize appLaunched=_appLaunched;
-@property(nonatomic) _Bool didShowInAppResult; // @synthesize didShowInAppResult=_didShowInAppResult;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(retain, nonatomic) IFTSchemaIFTFollowUpAction *followUpAction; // @synthesize followUpAction=_followUpAction;
-@property(nonatomic) _Bool hasAppLaunched;
-@property(nonatomic) _Bool hasDidShowInAppResult;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasFollowUpAction; // @synthesize hasFollowUpAction=_hasFollowUpAction;
-@property(nonatomic) _Bool hasReturnValue; // @synthesize hasReturnValue=_hasReturnValue;
-@property(nonatomic) _Bool hasShouldOpen;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTTypedValue *returnValue; // @synthesize returnValue=_returnValue;
-@property(nonatomic) _Bool shouldOpen; // @synthesize shouldOpen=_shouldOpen;
 
 @end
 

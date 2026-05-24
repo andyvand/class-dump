@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatEventHandler
 {
     id delegate;
-    id pluginEventDelegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

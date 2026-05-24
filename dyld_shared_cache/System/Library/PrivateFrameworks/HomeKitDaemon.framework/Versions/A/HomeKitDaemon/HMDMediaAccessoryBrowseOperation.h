@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaEndpoint, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaAccessoryBrowseOperation
 {
     struct os_unfair_lock_s _lock;
-    void *_session;
-    unsigned int _endpointFeatures;
-    HMDMediaEndpoint *_endpoint;
-    NSArray *_outputDevices;
-    NSString *_accessoryIdentifier;
 }
 
 + (double)Ì±=;
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id).  Closing session.;
 - (id);
 - (void);
 - (void)0@ù
@@ -34,16 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSString *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDMediaEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property unsigned int endpointFeatures; // @synthesize endpointFeatures=_endpointFeatures;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *outputDevices; // @synthesize outputDevices=_outputDevices;
-@property(readonly) Class superclass;
 
 @end
 

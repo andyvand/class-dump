@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSObject, NSProgress, NSString, NSURL, PFMetadata, PHAsset;
-@protocol OS_dispatch_queue, PHAssetExportRequestDelegate;
+@class NSURL, PFMetadata;
 
 @interface PHAssetExportRequest
 {
     NSURL *_outputDirectory;
-    NSObject<OS_dispatch_queue> *_resourceProcessingQueue;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    _Bool _shouldSendTimingIntervalsToAnalytics;
-    _Bool _assetMetadataRetrievalAttempted;
-    PFMetadata *_assetMetadata;
-    PHAsset *_asset;
-    NSProgress *_progress;
-    unsigned long long _state;
-    id <PHAssetExportRequestDelegate> _delegate;
-    NSDictionary *_variants;
-    NSString *_analyticsActivityType;
-    NSString *_exportUUID;
-    unsigned long long _signpostId;
-    NSMutableDictionary *_preparationStepTimingInfo;
-    NSDate *_preparationStepSignpostIntervalStartTime;
-    long long _prepareItemEventCPAnalyticsSignpostId;
 }
 
 + (id);
@@ -33,28 +16,28 @@
 + (id);
 + (_Bool);
 + (id);
-- (void);
+- (void)=`;
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (_Bool);
 - (void);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void)q;
+- (id);
+- (void);
+- (id)y)@y	;
 - (id);
 - (void);
 - (void);
@@ -69,35 +52,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_signInWithAppleFetchTimer;
 - (unsigned long long);
 - (id);
 - (id)
 × ;
-- (void)onQueue;
+- (void)_isolationQueue;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *analyticsActivityType; // @synthesize analyticsActivityType=_analyticsActivityType;
-@property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
 @property(readonly, nonatomic) PFMetadata *assetMetadata; // @synthesize assetMetadata=_assetMetadata;
-@property(nonatomic) _Bool assetMetadataRetrievalAttempted; // @synthesize assetMetadataRetrievalAttempted=_assetMetadataRetrievalAttempted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PHAssetExportRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *exportUUID; // @synthesize exportUUID=_exportUUID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *preparationStepSignpostIntervalStartTime; // @synthesize preparationStepSignpostIntervalStartTime=_preparationStepSignpostIntervalStartTime;
-@property(retain, nonatomic) NSMutableDictionary *preparationStepTimingInfo; // @synthesize preparationStepTimingInfo=_preparationStepTimingInfo;
-@property(nonatomic) long long prepareItemEventCPAnalyticsSignpostId; // @synthesize prepareItemEventCPAnalyticsSignpostId=_prepareItemEventCPAnalyticsSignpostId;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(nonatomic) _Bool shouldSendTimingIntervalsToAnalytics; // @synthesize shouldSendTimingIntervalsToAnalytics=_shouldSendTimingIntervalsToAnalytics;
-@property(readonly, nonatomic) unsigned long long signpostId; // @synthesize signpostId=_signpostId;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDictionary *variants; // @synthesize variants=_variants;
 
 @end
 

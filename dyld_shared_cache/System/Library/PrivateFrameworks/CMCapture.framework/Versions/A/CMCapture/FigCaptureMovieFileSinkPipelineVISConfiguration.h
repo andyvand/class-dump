@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkPipelineVISConfiguration
 {
     CDStruct_79c71658 _visOutputDimensions;
-    int _videoStabilizationType;
-    int _videoStabilizationStrength;
-    int _motionAttachmentsSource;
-    NSObject<OS_dispatch_semaphore> *_visProcessingSemaphore;
-    float _videoStabilizationOverscanOverride;
-    CDStruct_79c71658 _visGeneratedTransformsOutputDimensionsOverride;
 }
 
-- (void);
+- (void)en;
 
 @end
 

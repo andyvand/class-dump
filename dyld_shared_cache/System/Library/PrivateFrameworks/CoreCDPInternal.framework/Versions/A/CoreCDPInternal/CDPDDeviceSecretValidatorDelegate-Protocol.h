@@ -5,5 +5,16 @@
 //
 
 @protocol CDPDDeviceSecretValidatorDelegate
+- (void)_TtCC6Safari32CompletionListCollectionViewItem4View;
+- (_Bool)_TtCC6Safari32CompletionListCollectionViewItem20AccessibilityElement;
+- (void)essibilityView;
+
+@optional
+- (void)ce",&,N,V_readingListDataSource;
+- (_Bool)owserWindowController",R,N;
+- (void)ResponsiveDesignViewportPresetMenuDelegate>",W,N,V_delegate;
+- (void)iewContentProvider>",W,N,V_contentProvider;
+- (void)ProviderDelegate>",W,N,V_delegate;
+- (void)SafariWKNavigationActionExtras;
 @end
 

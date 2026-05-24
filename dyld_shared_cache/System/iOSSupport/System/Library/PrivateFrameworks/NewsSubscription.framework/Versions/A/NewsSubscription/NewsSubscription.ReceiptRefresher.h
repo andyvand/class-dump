@@ -7,8 +7,6 @@
 @interface NewsSubscription.ReceiptRefresher
 {
     id fcReceiptRefresher;
-    id purchaseController;
-    id purchaseManager;
 }
 
 @end

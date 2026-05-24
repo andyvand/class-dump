@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UILendableViewContainer;
-
 __attribute__((visibility("hidden")))
 @interface _UIBorrowedViewHandle
 {
     _Bool _valid;
-    UIView *_view;
-    _UILendableViewContainer *_lender;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)recordNotJunkMetricsForSpamDetectionSource:(id)arg1 service: /* Error: Ran out of types for this method. */;
+- (void)currentBatch;
+- (id)_didReceiveMessagePlayedForMessageID:date:attempts:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)PersistentTaskCriticalExecutionRanges;
 - (_Bool)1Â0@ù
 × ;
-- (id);
+- (id)_applyBackgroundViewToHierarchy;
 - (void)Ä	¸þÈ03-¸þÈ03¤-¸þÈ03 -¸þ;
 - (void)¸.¬ÿÊàØN^;
 
 // Remaining properties
-@property(nonatomic) __weak _UILendableViewContainer *lender; // @synthesize lender=_lender;
 @property(nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
-@property(readonly, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLSchemaFLActionEvaluationStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)__objc_ivar;
+- (void)v;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)BasedLayout;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)setSpkrIdScores:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)sIsCoarseLocationUsed:(struct _NSZone *)arg1;
-- (id)QueryFuzzyMatchV2Metadata;
-- (id)RCH_TOTAL_LATENCY_MS;
+- (id)setHasIsCoarseLocationUsed:(struct _NSZone *)arg1;
+- (id)GEOPDSearchQueryFuzzyMatchV2Metadata;
+- (id)MSL_EX_CATEGORY_SEARCH_TOTAL_LATENCY_MS;
 
 @end
 

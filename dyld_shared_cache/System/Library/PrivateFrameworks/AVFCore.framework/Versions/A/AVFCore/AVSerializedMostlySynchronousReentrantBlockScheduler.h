@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVSerializedMostlySynchronousReentrantBlockScheduler
 {
     struct OpaqueFigSimpleMutex *_ivarAccessLock;
-    NSArray *_blocks;
-    struct OpaqueFigReentrantMutex *_blockSerializationLock;
 }
 
 + (void)spectRatioKey can only be specified at the top level of the dictionary or in the AVVideoCompressionPropertiesKey sub-dictionary, not both;
@@ -20,13 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

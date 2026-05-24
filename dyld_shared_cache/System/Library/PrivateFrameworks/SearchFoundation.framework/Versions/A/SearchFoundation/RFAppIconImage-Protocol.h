@@ -7,12 +7,11 @@
 @class NSData, NSDictionary, NSString;
 
 @protocol RFAppIconImage
+- (void)_isPrimaryFormat;
+- (NSData *);
+- (NSDictionary *));
 
 // Remaining properties
 @property(copy, nonatomic) NSString *application_bundle_identifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int fallback;
-@property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

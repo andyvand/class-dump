@@ -13,11 +13,11 @@
     TIMecabraWrapper *_mecabraWrapper;
 }
 
-- (id);
+- (id)otherContactPath;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rowser.window;
 - (void);
 
 // Remaining properties

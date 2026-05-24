@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EDAlignmentInfo
 {
     int mHorizontalAlignment;
-    int mVerticalAlignment;
-    int mIndent;
-    int mTextRotation;
-    _Bool mTextWrapped;
-    _Bool mHorizontalAlignOverridden;
-    _Bool mVerticalAlignOverridden;
-    _Bool mIndentOverridden;
-    _Bool mTextWrappedOveridden;
-    _Bool mDoNotModify;
 }
 
 + (id);
@@ -31,27 +20,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)(;
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)ږ;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)x;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

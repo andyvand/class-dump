@@ -11,14 +11,14 @@
     unsigned long long _contentMode;
 }
 
+- (unsigned long long)icaxLocalizedNumber:maximumNumberOfDigitsAfterDecimalSeparator: /* Error: Ran out of types for this method. */;
+- (id)ICLockedNotesLearnMoreViewController;
+- (id)_TtCE7NotesUICSo29ICCalculateDocumentController11Highlighter;
+- (id)Options_Private;
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id)ScPSg;
+- (id)m;
+- (id)iew {error:(id)arg1 %s};
 - (void);
 - (unsigned long long);
 - (id)Ð¨Ñ Ó0Ô;

@@ -9,11 +9,11 @@
     _Bool _stdinPassPhrase;
 }
 
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)de:encodeRule:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool stdinPassPhrase; // @synthesize stdinPassPhrase=_stdinPassPhrase;

@@ -7,14 +7,10 @@
 @class NSArray;
 
 @protocol TMRulesEngineProtocol
+- (NSArray *);
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, copy) NSArray *appManagedExclusionPaths;
-@property(readonly, copy) NSArray *deviceRulesEngines;
-@property(readonly, copy) NSArray *mountPointsForIncludedDisks;
-@property(readonly, copy) NSArray *pathExclusions;
-@property(readonly, copy) NSArray *standardExclusionPaths;
 @property(readonly) _Bool systemFilesExcluded;
-@property(readonly, copy) NSArray *userManagedExclusionPaths;
 @end
 

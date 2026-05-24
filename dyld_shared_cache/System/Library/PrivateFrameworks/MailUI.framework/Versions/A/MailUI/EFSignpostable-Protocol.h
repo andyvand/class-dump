@@ -5,6 +5,7 @@
 //
 
 @protocol EFSignpostable
+- (unsigned long long)U;
 
 // Remaining properties
 @property(readonly) unsigned long long signpostID;

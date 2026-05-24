@@ -7,11 +7,6 @@
 @interface NewsUI2.AudioPlaylistSweeper
 {
     id audioPlaylist;
-    id readingHistory;
-    id headlineService;
-    id listeningProgressManager;
-    id bundleSubscriptionManager;
-    id appConfigurationManager;
 }
 
 @end

@@ -6,25 +6,12 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBABCurve, CBABRamp, CBDisplayModule, NSMutableArray, NSString;
+@class CBDisplayModule, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CBABModuleExternal : CBModule
 {
     NSMutableArray *_ALSServices;
-    NSString *_containerID;
-    NSString *_uniqueID;
-    NSString *_displayUUID;
-    _Bool _enabled;
-    _Bool _available;
-    _Bool _presetDisableAB;
-    CBABCurve *_curve;
-    CBABRamp *_ramp;
-    _Bool _updatesFrozen;
-    _Bool _suspendAutoBrightness;
-    _Bool _fastRamp;
-    _Bool _builtIn;
-    CBDisplayModule *_displayModule;
 }
 
 - (void);
@@ -43,24 +30,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)H  ;
+- (id)MaxDogBodies;
+- (void)[x[;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) CBDisplayModule *displayModule; // @synthesize displayModule=_displayModule;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

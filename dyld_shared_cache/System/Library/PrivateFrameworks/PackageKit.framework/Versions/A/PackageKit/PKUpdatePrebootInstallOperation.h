@@ -15,7 +15,7 @@
 }
 
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
@@ -25,7 +25,7 @@
 - (double);
 - (int);
 - (void);
-- (void);
+- (void)H;
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_semaphore> *waitingSemaphore; // @synthesize waitingSemaphore=_waitingSemaphore;

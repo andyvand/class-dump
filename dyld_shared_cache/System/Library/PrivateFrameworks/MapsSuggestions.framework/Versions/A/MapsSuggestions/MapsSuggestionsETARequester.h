@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, GEOAutomobileOptions, GEOComposedWaypoint, MapsSuggestionsETARequirements, NSLock, NSMutableDictionary, NSObject, NSString;
-@protocol MapsSuggestionsNetworkRequester, MapsSuggestionsPredictor, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsETARequester
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <MapsSuggestionsNetworkRequester> _networkRequester;
-    id <MapsSuggestionsPredictor> _transportModePredictor;
-    MapsSuggestionsETARequirements *_etaRequirements;
-    CLLocation *_currentLocationUsed;
-    GEOComposedWaypoint *_currentLocationWaypoint;
-    NSMutableDictionary *_waypoints;
-    NSLock *_waypointsLock;
-    int _forcedTransportMode;
-    GEOAutomobileOptions *_automobileOptions;
-    int _mapType;
 }
 
 - (void);
@@ -34,15 +24,7 @@
 - (void)8@"NSArray"16@"NSArray"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property int mapType; // @synthesize mapType=_mapType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

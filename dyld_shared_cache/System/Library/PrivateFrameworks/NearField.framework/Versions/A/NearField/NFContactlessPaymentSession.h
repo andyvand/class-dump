@@ -6,42 +6,37 @@
 
 #import <NearField/NFSession.h>
 
-@class NFApplet, NSDictionary, NSString;
+@class NSDictionary;
 @protocol NFContactlessPaymentSessionDelegate;
 
 @interface NFContactlessPaymentSession : NFSession
 {
     NSDictionary *_appletsById;
-    id <NFContactlessPaymentSessionDelegate> _delegate;
-    unsigned long long _numActiveSEs;
-    _Bool _fieldNotificationSent;
-    NFApplet *_activeApplet;
-    NFApplet *_defaultApplet;
 }
 
 - (_Bool);
+- (_Bool),8;
+- (_Bool);
+- (_Bool)(;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)6|;
+- (void)G;
+- (void);
+- (void)TS;
+- (void);
+- (id);
+- (void)W;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -54,20 +49,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)UpdateBrainBuildVersion;
 
 // Remaining properties
-@property(readonly, retain) NFApplet *activeApplet; // @synthesize activeApplet=_activeApplet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, retain) NFApplet *defaultApplet; // @synthesize defaultApplet=_defaultApplet;
 @property id <NFContactlessPaymentSessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long numberOfActiveSecureElements;
-@property(readonly) Class superclass;
 
 @end
 

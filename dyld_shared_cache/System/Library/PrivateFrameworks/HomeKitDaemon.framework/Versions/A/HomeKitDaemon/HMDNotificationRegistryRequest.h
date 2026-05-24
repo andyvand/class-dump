@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistryRequest
 {
     _Bool _enable;
-    NSString *_deviceIdsDestination;
-    HMDUser *_user;
-    long long _retryCount;
 }
 
-- (id);
+- (id)[MSPSharedTripService addSendingObserver:(_Bool)arg1 ];
 - (id);
 - (id)th success:%@ (%@) /* Error: Ran out of types for this method. */;
 - (_Bool)reate video packet relay with error %{public}@;
@@ -25,10 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)Üõ>;
 
 // Remaining properties
-@property(readonly, copy) NSString *deviceIdsDestination; // @synthesize deviceIdsDestination=_deviceIdsDestination;
 @property(readonly) _Bool enable; // @synthesize enable=_enable;
-@property long long retryCount; // @synthesize retryCount=_retryCount;
-@property(readonly) HMDUser *user; // @synthesize user=_user;
 
 @end
 

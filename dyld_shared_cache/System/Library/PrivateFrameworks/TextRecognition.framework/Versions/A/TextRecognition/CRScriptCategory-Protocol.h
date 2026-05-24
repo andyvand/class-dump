@@ -7,9 +7,11 @@
 @class NSString;
 
 @protocol CRScriptCategory
++ (NSString *);
++ (float)responsiveDesignContainerView:didChangeBrowserSize: /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
 @property(readonly) NSString *categoryName;
-@property(readonly) unsigned long long categoryRevision;
 @end
 

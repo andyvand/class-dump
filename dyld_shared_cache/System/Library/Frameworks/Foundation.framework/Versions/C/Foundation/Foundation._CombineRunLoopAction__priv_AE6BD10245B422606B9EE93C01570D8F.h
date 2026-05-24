@@ -9,7 +9,7 @@
     id action;
 }
 
-- (id);
+- (id)_;
 - (void);
 
 @end

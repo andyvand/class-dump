@@ -6,12 +6,11 @@
 
 #import <LocationSupport/CLIntersiloService.h>
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface CLSettingsManagerInternal : CLIntersiloService
 {
     NSMutableSet *_clients;
-    NSMutableDictionary *_settingsDictionary;
 }
 
 + (id);
@@ -23,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)alwaysPromoteStagedAssets;
 - (id);
 - (void);
 - (id);
@@ -31,15 +30,6 @@
 
 // Remaining properties
 @property(retain) NSMutableSet *clients; // @synthesize clients=_clients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *settingsDictionary; // @synthesize settingsDictionary=_settingsDictionary;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool valid;
 
 @end
 

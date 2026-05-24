@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMAbstractView, DOMDocument, NSString, WebFrame;
+@class WebFrame;
 
 @interface DOMHTMLIFrameElement : DOMHTMLElement
 {
@@ -14,20 +14,21 @@
 
 - (id);
 - (void);
+- (void)4;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)
+$;
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)n|;
+- (void)R;
+- (id);
+- (void);
+- (id)atteryLevel"b1"clusterType"b1"configuredClusterSize"b1"deviceSubType"b1"deviceType"b1"distance"b1"hostDeviceClass"b1"transportType"b1"volume"b1"volumeCapabilities"b1"allowsHeadTrackedSpatialAudio"b1"canAccessAppleMusic"b1"canAccessRemoteAssets"b1"canAccessiCloudMusicLibrary"b1"canFetchMediaDataFromSender"b1"canPlayEncryptedProgressiveDownloadAssets"b1"canRelayCommunicationChannel"b1"conversationDetectionEnabled"b1"deviceIsPlaying"b1"discoveredOnSameInfra"b1"engageOnClusterActivate"b1"groupContainsGroupLeader"b1"isAddedToHomeKit"b1"isAirPlayReceiverSessionActive"b1"isAppleAccessory"b1"isClusterLeader"b1"isDeviceGroupable"b1"isGroupLeader"b1"isGroupable"b1"isHeadTrackedSpatialAudioActive"b1"isLocalDevice"b1"isPickedOnPairedDevice"b1"isProxyGroupPlayer"b1"isRemoteControllable"b1"isVolumeControlAvailable"b1"parentGroupContainsDiscoverableLeader"b1"pickable"b1"presentsOptimizedUserInterfaceWhenPlayingFetchedAudioOnlyAssets"b1"producesLowFidelityAudio"b1"representsUGLSender"b1"requiresAuthorization"b1"shouldForceRemoteControlabillity"b1"supportsBluetoothSharing"b1"supportsBufferedAirPlay"b1"supportsConversationDetection"b1"supportsExternalScreen"b1"supportsHAP"b1"supportsHeadTrackedSpatialAudio"b1"supportsMultiplayer"b1"supportsRapport"b1"supportsRapportRemoteControlTransport"b1"supportsSharePlayHandoff"b1"usingJSONProtocol"b1"volumeMuted"b1"wasDiscoveredInCache"b1};
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -36,24 +37,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)SID:(id)arg1 %u;
+- (void){T;
 - (id)¶;
 
 // Remaining properties
-@property(copy) NSString *align;
-@property(readonly) DOMDocument *contentDocument;
 @property(readonly, nonatomic) WebFrame *contentFrame;
-@property(readonly) DOMAbstractView *contentWindow;
-@property(copy) NSString *frameBorder;
-@property(copy) NSString *height;
-@property(copy) NSString *longDesc;
-@property(copy) NSString *marginHeight;
-@property(copy) NSString *marginWidth;
-@property(copy) NSString *name;
-@property(copy) NSString *scrolling;
-@property(copy) NSString *src;
-@property(copy) NSString *width;
 
 @end
 

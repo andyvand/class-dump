@@ -18,15 +18,15 @@
 + (id);
 + (Class);
 + (void);
-+ (unsigned int);
++ (unsigned int);
 + (id);
 + (Class);
 + (void);
 + (Class);
 + (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 

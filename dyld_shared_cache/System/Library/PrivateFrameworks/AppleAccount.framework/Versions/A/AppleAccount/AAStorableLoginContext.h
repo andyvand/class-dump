@@ -9,36 +9,26 @@
 @interface AAStorableLoginContext
 {
     _Bool _beneficiaryLogin;
-    NSString *_appleID;
-    NSString *_altDSID;
-    NSString *_DSID;
-    NSString *_rawPassword;
-    NSString *_continuationKey;
-    NSString *_passwordResetKey;
-    NSString *_cloudKitToken;
-    NSString *_firstName;
-    NSString *_middleName;
-    NSString *_lastName;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)ications.content-extension;
+- (void)nying plugin:(id)arg1 %s because Family Controls rejected due to reason:%d /* Error: Ran out of types for this method. */;
+- (void)for plugin:(id)arg1 %s (%s);
+- (void)entifier:(_Bool)arg1 %s (%s --> %s);
+- (_Bool)returns %s;
+- (id)ved;
+- (void)agent port %d;
+- (id)dictionary.;
+- (id)ating memory for a tensor.;
+- (id)a;
 - (id);
+- (void)`D9;
 - (void);
+- (void)";
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)xt: /* Error: Ran out of types for this method. */;
+- (void)setBubbleText: /* Error: Ran out of types for this method. */;
 - (void)1K^Y»ÏÍ6[ñ«Nét,C½üfí$¥M¬çæ­ÕôIÞ3ÒVsêoÀi¹`Ü0ÿ;
 - (id)9BrãFR_mð®oË÷8QÍÀÙ,¿-ûþ!¸áè´Ã6Òó¤a#ÝÖìOÔcÆ$V7;Å­ ^G(çH2*+§" º/äÕ£eu3ØMÛAù?]©â.zí¼lq<åê|ý¶àC°>ü45ï¾ªÐ~k¦fÊbT0U²jDKñ²ú4(/aTâH¯ö1Ð¦Ã <Uï+;
 - (id)wLfyú#:DÉ¡_S2@øéþlÌ CgÝ¥o¬sqÅr>µ34d(èôï©5\¯Ê	â;6æ"&h]ë»ó=!
@@ -46,17 +36,7 @@
 - (id)éz;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *DSID; // @synthesize DSID=_DSID;
-@property(readonly, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(readonly, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(nonatomic, getter=isBeneficiaryLogin) _Bool beneficiaryLogin; // @synthesize beneficiaryLogin=_beneficiaryLogin;
-@property(copy, nonatomic) NSString *cloudKitToken; // @synthesize cloudKitToken=_cloudKitToken;
-@property(copy, nonatomic) NSString *continuationKey; // @synthesize continuationKey=_continuationKey;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(copy, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(copy, nonatomic) NSString *passwordResetKey; // @synthesize passwordResetKey=_passwordResetKey;
-@property(copy, nonatomic) NSString *rawPassword; // @synthesize rawPassword=_rawPassword;
 
 @end
 

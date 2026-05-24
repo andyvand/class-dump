@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, _ANEIOSurfaceObject;
+@class _ANEIOSurfaceObject;
 
 @interface _ANEBuffer
 {
     _ANEIOSurfaceObject *_ioSurfaceObject;
-    NSNumber *_symbolIndex;
-    long long _source;
 }
 
 + (id);
@@ -18,18 +16,16 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)stantExternalDevice] Hosted external device connection for distant device %p did remove outputDevice %{public}@ for endpoint %{public}@;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(readonly, nonatomic) _ANEIOSurfaceObject *ioSurfaceObject; // @synthesize ioSurfaceObject=_ioSurfaceObject;
-@property(readonly, nonatomic) long long source; // @synthesize source=_source;
-@property(readonly, nonatomic) NSNumber *symbolIndex; // @synthesize symbolIndex=_symbolIndex;
 
 @end
 

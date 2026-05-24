@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UIView, _UISmartReplyFeedbackInputDashboardView;
+@class UIView, _UISmartReplyFeedbackInputDashboardView;
 
 __attribute__((visibility("hidden")))
 @interface _UISmartReplyFeedbackInputDashboardViewController : UIViewController
@@ -15,36 +15,24 @@ __attribute__((visibility("hidden")))
     _UISmartReplyFeedbackInputDashboardView *_inputDashboardView;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)9;
+- (id)MPRemoteCommandTargetsDidChangeNotification;
 - (double)1Â0@ù
 × ;
 - (void)!ð!ÐEùQaÐ1Â0@ù
 × ;
-- (_Bool)CanCut:(id)arg1;
+- (_Bool)setCanCut:(id)arg1;
 - (id)lass found for type %@;
 - (void)@?0;
 - (void);
-- (void)barVisualProvider;
+- (void)ToolbarVisualProvider;
 - (void)hã^;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backdropView; // @synthesize backdropView=_backdropView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UISmartReplyFeedbackInputDashboardView *inputDashboardView; // @synthesize inputDashboardView=_inputDashboardView;
-@property(readonly) Class superclass;
 
 @end
 

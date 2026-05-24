@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchOriginationRoutePlanningParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_previousLocation;
-    _Bool _isEditServerRecommendedStop;
-    struct {
-        unsigned int has_isEditServerRecommendedStop:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)t at keypath %@ (%@);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)t"b1"read_detail"b1"read_metadata"b1"read_title"b1"wrote_anyField"b1};
-- (id)eviousExitStationStep;
+- (id)_previousExitStationStep;
 - (id)¤Í;
 - (void);
 

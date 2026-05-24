@@ -15,7 +15,7 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)H=;
 - (void);
 - (void);
 - (int);
@@ -30,23 +30,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)%@:(id)arg1 ERROR %@;
 - (id);
-- (id);
+- (id)e isDeviceUsingSeedingAppleID:completion:] /* Error: Ran out of types for this method. */;
 - (void)@16{CGRect={CGPoint=dd}{CGSize=dd}}24;
 
 // Remaining properties
 @property(copy) NSString *align;
-@property(copy) NSString *alt;
-@property(copy) NSString *archive;
-@property(copy) NSString *code;
-@property(copy) NSString *codeBase;
-@property(copy) NSString *height;
-@property int hspace;
-@property(copy) NSString *name;
-@property(copy) NSString *object;
-@property int vspace;
-@property(copy) NSString *width;
 
 @end
 

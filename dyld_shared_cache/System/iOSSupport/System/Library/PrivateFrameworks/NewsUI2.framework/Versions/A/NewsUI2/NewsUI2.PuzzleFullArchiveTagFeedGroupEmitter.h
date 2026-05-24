@@ -7,12 +7,6 @@
 @interface NewsUI2.PuzzleFullArchiveTagFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id puzzleArchiveService;
-    id filterOptionsManager;
-    id timeZone;
-    id name;
 }
 
 @end

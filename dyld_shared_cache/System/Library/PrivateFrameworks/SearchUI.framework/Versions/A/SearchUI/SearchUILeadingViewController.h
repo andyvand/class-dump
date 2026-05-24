@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, SearchUIDetailedRowModel;
-@protocol SearchUIFeedbackDelegate;
-
 @interface SearchUILeadingViewController
 {
     _Bool _usesCompactWidth;
-    SearchUIDetailedRowModel *rowModel;
-    id <SearchUIFeedbackDelegate> feedbackDelegate;
-    NSView *_view;
 }
 
 + (_Bool);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)sm:inplaceNorm: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -37,19 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SearchUIDetailedRowModel *rowModel; // @synthesize rowModel;
-@property(readonly) _Bool shouldCenterAlignToTitle;
-@property(readonly) Class superclass;
 @property(readonly) unsigned long long type;
-@property(nonatomic) _Bool usesCompactWidth; // @synthesize usesCompactWidth=_usesCompactWidth;
-@property(retain, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end
 

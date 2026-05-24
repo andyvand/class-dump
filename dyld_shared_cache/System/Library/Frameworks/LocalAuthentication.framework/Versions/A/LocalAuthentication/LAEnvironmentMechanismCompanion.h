@@ -6,8 +6,6 @@
 
 #import <LocalAuthentication/LAEnvironmentMechanism.h>
 
-@class NSData;
-
 @interface LAEnvironmentMechanismCompanion : LAEnvironmentMechanism
 {
     long long _type;
@@ -16,10 +14,9 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)S2;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *stateHash;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -9,24 +9,23 @@
 @interface TUScreeningRequest
 {
     NSUUID *_UUID;
-    NSUUID *_callUUID;
 }
 
 + (_Bool);
 - (void);
+- (id);
+- (id)l.
+;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)usingAirplay;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSUUID *callUUID; // @synthesize callUUID=_callUUID;
 
 @end
 

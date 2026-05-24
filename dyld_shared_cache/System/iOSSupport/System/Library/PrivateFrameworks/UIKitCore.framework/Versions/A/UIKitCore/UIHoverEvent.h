@@ -6,23 +6,15 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSMapTable, NSMutableSet;
+@class NSMapTable;
 
 @interface UIHoverEvent : UIEvent
 {
     NSMapTable *_touchesByContextId;
-    NSMapTable *_deliveryTableByTouch;
-    NSMutableSet *_touchesWithOutstandingUpdates;
-    _Bool _pointerLocked;
-    double _maximumPositionZ;
-    double _hoverAzimuthAngle;
-    double _hoverAltitudeAngle;
-    double _positionZ;
-    double _hoverRollAngle;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -30,8 +22,8 @@
 - (void);
 - (double);
 - (double);
-- (id);
-- (id);
+- (id)initWithIdentifiers:playbackResponse: /* Error: Ran out of types for this method. */;
+- (id)#;
 - (void);
 - (id);
 - (double);
@@ -42,8 +34,8 @@
 × ;
 - (id);
 - (long long)v28@0:8@"_UIFindNavigatorView"16B24 /* Error: Ran out of types for this method. */;
-- (id)or:(id)arg1;
-- (void)itWithSourceIdentifier:(id)arg1 destinationURL:(_Bool)arg2 reportEndpoint:sourceDescription:purchaser: /* Error: Ran out of types for this method. */;
+- (id)setRequestedViewServiceIdiom:(id)arg1 scaleFactor:error: /* Error: Ran out of types for this method. */;
+- (void)initWithSourceIdentifier:(id)arg1 destinationURL:(_Bool)arg2 reportEndpoint:sourceDescription:purchaser: /* Error: Ran out of types for this method. */;
 - (void)oscrollContentOffset;
 - (void)dUISnapshot",N,V_snapshot;
 - (void)e;
@@ -68,13 +60,7 @@
 - (id)%;
 
 // Remaining properties
-@property(nonatomic, getter=_isPointerLocked, setter=_setPointerLocked:) _Bool _pointerLocked; // @synthesize _pointerLocked;
-@property(readonly, nonatomic) _Bool hasOutstandingUpdates;
-@property(readonly, nonatomic, getter=_hoverAltitudeAngle) double hoverAltitudeAngle; // @synthesize hoverAltitudeAngle=_hoverAltitudeAngle;
-@property(readonly, nonatomic, getter=_hoverAzimuthAngle) double hoverAzimuthAngle; // @synthesize hoverAzimuthAngle=_hoverAzimuthAngle;
-@property(readonly, nonatomic, getter=_hoverRollAngle) double hoverRollAngle; // @synthesize hoverRollAngle=_hoverRollAngle;
 @property(readonly, nonatomic, getter=_maximumPositionZ) double maximumPositionZ; // @synthesize maximumPositionZ=_maximumPositionZ;
-@property(readonly, nonatomic, getter=_positionZ) double positionZ; // @synthesize positionZ=_positionZ;
 
 @end
 

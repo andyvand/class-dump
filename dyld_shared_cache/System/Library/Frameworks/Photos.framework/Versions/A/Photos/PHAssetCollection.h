@@ -6,56 +6,11 @@
 
 #import <Photos/PHCollection.h>
 
-@class CLLocation, NSArray, NSDate, NSManagedObjectID, NSString, NSURL, PHQuery, PLQuery;
+@class NSString;
 
 @interface PHAssetCollection : PHCollection
 {
     NSString *_localizedTitle;
-    long long _assetCollectionType;
-    long long _assetCollectionSubtype;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    CLLocation *_approximateLocation;
-    NSArray *_localizedLocationNames;
-    NSArray *_assets;
-    PHQuery *_query;
-    NSString *_transientIdentifier;
-    _Bool _canShowCloudComments;
-    NSManagedObjectID *_parentFolderObjectID;
-    struct os_unfair_lock_s _datesLock;
-    _Bool _datesLock_didFetchDates;
-    NSDate *_datesLock_fetchedStartDate;
-    NSDate *_datesLock_fetchedEndDate;
-    _Bool _transientKeyAssetsAtEnd;
-    _Bool _isPendingPhotoStreamAlbum;
-    _Bool _shouldDeleteWhenEmpty;
-    _Bool _isLibrary;
-    _Bool _isCameraRoll;
-    _Bool _isPanoramasCollection;
-    _Bool _isPhotoStreamCollection;
-    _Bool _isCloudSharedAlbum;
-    _Bool _isOwnedCloudSharedAlbum;
-    _Bool _isMultipleContributorCloudSharedAlbum;
-    _Bool _isSmartCollection;
-    _Bool _hasUnseenContentBoolValue;
-    _Bool _canContributeToCloudSharedAlbum;
-    int _plAlbumKind;
-    int _pendingItemsCount;
-    int _pendingItemsType;
-    NSDate *_modificationDate;
-    PLQuery *_userQuery;
-    NSString *_titleFontName;
-    NSString *_transientSubtitle;
-    NSArray *_assetOids;
-    NSString *_title;
-    NSString *_cloudGUID;
-    unsigned long long _approximateCount;
-    unsigned long long _approximatePhotosCount;
-    unsigned long long _approximateVideosCount;
-    long long _privacyState;
-    NSURL *_groupURL;
-    CDUnknownBlockType _sortingComparator;
-    NSString *_importSessionID;
 }
 
 @end

@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface GEOPlaceCancelRequest : GEOXPCRequest
 {
     NSUUID *_requestUUID;
 }
 
-+ (Class);
-- (id);
++ (Class)setMaskedApplicationID: /* Error: Ran out of types for this method. */;
+- (id)tB;
 - (unsigned long long);
-- (id);
+- (id)7;
 - (_Bool);
-- (void)yRequest;
+- (void)isPopularNearbyRequest;
 - (id);
-- (void)tedFieldPrimitiveAccessorIiEE;
+- (void)N6google8protobuf8internal30RepeatedFieldPrimitiveAccessorIiEE;
 - (void)Þ8)Ì{FK@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly) Class superclass;
 
 @end
 

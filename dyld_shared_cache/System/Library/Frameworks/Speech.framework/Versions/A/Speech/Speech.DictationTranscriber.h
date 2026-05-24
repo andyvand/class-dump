@@ -7,12 +7,6 @@
 @interface Speech.DictationTranscriber
 {
     id locale;
-    id contentHints;
-    id modelOptions;
-    id transcriptionOptions;
-    id reportingOptions;
-    id resultAttributeOptions;
-    id common;
 }
 
 @end

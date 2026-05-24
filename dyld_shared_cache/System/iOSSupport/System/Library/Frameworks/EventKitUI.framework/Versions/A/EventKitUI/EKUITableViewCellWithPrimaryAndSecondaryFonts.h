@@ -13,12 +13,12 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)S%s;
 + (void)ñ;
 - (id);
 - (id);
-- (id);
-- (struct UIEdgeInsets)nEventEndDate:model: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct UIEdgeInsets)initWithDate:event:overriddenEventStartDate:overriddenEventEndDate:model: /* Error: Ran out of types for this method. */;
 
 @end
 

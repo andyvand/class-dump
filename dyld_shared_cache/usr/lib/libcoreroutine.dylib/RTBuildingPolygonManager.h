@@ -6,27 +6,25 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTDistanceCalculator, RTMapServiceManager;
+@class RTMapServiceManager;
 
 @interface RTBuildingPolygonManager : RTService
 {
     RTMapServiceManager *_mapServiceManager;
-    RTDistanceCalculator *_distanceCalculator;
 }
 
 - (id);
-- (id);
+- (id)poHmy+F0ZFGsD2wVhal94Q6uhY1DrHpRPqQtAMnoA=;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (void)ntTransitionPreprocessor:applyRule_ShortVisitsAreInvalid_ForVisitAtIndex, tripSegmentVisitStatus[%ld], Reject /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
 @property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
 @protocol TUWindowRestorationManagerDelegate;
 
 @interface TUWindowRestorationManager
 {
     id <TUWindowRestorationManagerDelegate> _delegate;
-    NSObject *_appKitWindow;
-    NSString *_windowFrameName;
 }
 
 - (void);
@@ -26,9 +23,7 @@
 - (void)XAúÿdAúÿ@BúÿdBúÿ BúÿÔBúÿøBúÿ4CúÿhDúÿLEúÿ¼EúÿìEúÿÈFúÿDGúÿhGúÿ¤Gúÿ(HúÿHúÿ(IúÿlJúÿJúÿKúÿ(KúÿLKúÿKúÿTLúÿMúÿLMúÿèMúÿôMúÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject *appKitWindow; // @synthesize appKitWindow=_appKitWindow;
 @property(nonatomic) __weak id <TUWindowRestorationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *windowFrameName; // @synthesize windowFrameName=_windowFrameName;
 
 @end
 

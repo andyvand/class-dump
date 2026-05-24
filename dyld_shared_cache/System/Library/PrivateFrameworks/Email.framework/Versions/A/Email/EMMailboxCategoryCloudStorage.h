@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, EFLazyCache, EMUbiquitouslyPersistedDictionary, NSHashTable, NSString;
-@protocol EFScheduler;
+@class EFFuture;
 
 @interface EMMailboxCategoryCloudStorage
 {
     EFFuture *_ubiquitousDictionaryFuture;
-    EFLazyCache *_syncKeyByMailboxURLCache;
-    NSHashTable *_observers;
-    id <EFScheduler> _observerScheduler;
 }
 
 - (id);
@@ -21,9 +17,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)ce_ids_identifier;
+- (void)|@;
 - (void);
 - (void);
 - (id);
@@ -34,17 +30,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <EFScheduler> observerScheduler; // @synthesize observerScheduler=_observerScheduler;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EFLazyCache *syncKeyByMailboxURLCache; // @synthesize syncKeyByMailboxURLCache=_syncKeyByMailboxURLCache;
-@property(readonly, nonatomic) EMUbiquitouslyPersistedDictionary *ubiquitousDictionary;
 @property(readonly, nonatomic) EFFuture *ubiquitousDictionaryFuture; // @synthesize ubiquitousDictionaryFuture=_ubiquitousDictionaryFuture;
 
 @end

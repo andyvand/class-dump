@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, NSUndoManager;
 
 @protocol MUContentViewControllerDelegate
+- (NSUndoManager *);
+
+@optional
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *originalImageDescription;

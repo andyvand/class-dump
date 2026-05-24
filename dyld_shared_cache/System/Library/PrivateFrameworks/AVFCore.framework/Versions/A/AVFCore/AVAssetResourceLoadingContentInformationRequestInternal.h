@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetResourceLoadingContentInformationRequestInternal
 {
     NSObject<OS_dispatch_queue> *ivarAccessQueue;
-    NSString *contentType;
-    NSArray *allowedContentTypes;
-    long long contentLength;
-    _Bool entireLengthAvailableOnDemand;
-    _Bool byteRangeAccessSupported;
-    NSDate *renewalDate;
-    _Bool diskCachingPermitted;
 }
 
 @end

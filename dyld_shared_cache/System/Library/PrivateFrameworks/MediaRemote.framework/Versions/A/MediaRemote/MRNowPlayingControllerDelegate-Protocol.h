@@ -5,5 +5,9 @@
 //
 
 @protocol MRNowPlayingControllerDelegate
+
+@optional
+- (void)7h 7H;
+- (void)_sectionID;
 @end
 

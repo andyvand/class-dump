@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString, NSURL, SAUIAppPunchOut;
+@class NSString;
 
 @interface SiriUIAttributionImage
 {
     NSString *_localResourceName;
-    NSString *_localPressedResourceName;
-    SAUIAppPunchOut *_localPunchOut;
-    NSBundle *_localResourceBundle;
-    NSURL *_remoteURL;
-    NSURL *_remotePressedURL;
-    SAUIAppPunchOut *_remotePunchOut;
-    double _remoteScale;
-    double _remotePressedScale;
-    struct CGSize _logoSize;
 }
 
 + (id);
@@ -39,27 +30,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)?�;
+- (id)CKPhoneTranscriptMessageCell;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localPressedResourceName; // @synthesize localPressedResourceName=_localPressedResourceName;
-@property(retain, nonatomic) SAUIAppPunchOut *localPunchOut; // @synthesize localPunchOut=_localPunchOut;
-@property(retain, nonatomic) NSBundle *localResourceBundle; // @synthesize localResourceBundle=_localResourceBundle;
 @property(copy, nonatomic) NSString *localResourceName; // @synthesize localResourceName=_localResourceName;
-@property(nonatomic) struct CGSize logoSize; // @synthesize logoSize=_logoSize;
-@property(nonatomic) double remotePressedScale; // @synthesize remotePressedScale=_remotePressedScale;
-@property(copy, nonatomic) NSURL *remotePressedURL; // @synthesize remotePressedURL=_remotePressedURL;
-@property(retain, nonatomic) SAUIAppPunchOut *remotePunchOut; // @synthesize remotePunchOut=_remotePunchOut;
-@property(nonatomic) double remoteScale; // @synthesize remoteScale=_remoteScale;
-@property(copy, nonatomic) NSURL *remoteURL; // @synthesize remoteURL=_remoteURL;
 
 @end
 

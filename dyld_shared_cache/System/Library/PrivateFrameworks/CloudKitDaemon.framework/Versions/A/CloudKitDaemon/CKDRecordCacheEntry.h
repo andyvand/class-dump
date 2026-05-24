@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, NSData, NSDate, NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface CKDRecordCacheEntry
 {
     NSString *_rowID;
-    CKContainerID *_containerID;
-    NSString *_recordID;
-    NSString *_zoneIdentifier;
-    NSNumber *_databaseScope;
-    NSString *_etag;
-    NSDate *_modificationTime;
-    NSData *_recordData;
-    NSSet *_knownUserKeys;
-    NSString *_dsid;
-    NSNumber *_size;
 }
 
 - (id);
@@ -26,39 +16,30 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)o encrypt probing msg
+;
 - (id);
 - (id);
+- (id)_availabilityChangedCallback;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)#;
 - (id);
 - (id)0@ù
 × ;
 - (id)PcsIdentityResponse";
-- (void):(id)arg1;
+- (void)willChangeValueForKey:(id)arg1;
 - (id)hedBlock;
 - (void)st",&,N;
 - (void)çJ;
 - (void){public}@.;
 
 // Remaining properties
-@property(retain, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(retain, nonatomic) NSNumber *databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(retain, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) NSSet *knownUserKeys; // @synthesize knownUserKeys=_knownUserKeys;
-@property(retain, nonatomic) NSDate *modificationTime; // @synthesize modificationTime=_modificationTime;
-@property(retain, nonatomic) NSData *recordData; // @synthesize recordData=_recordData;
-@property(retain, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
 @property(retain, nonatomic) NSString *rowID; // @synthesize rowID=_rowID;
-@property(retain, nonatomic) NSNumber *size; // @synthesize size=_size;
-@property(retain, nonatomic) NSString *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

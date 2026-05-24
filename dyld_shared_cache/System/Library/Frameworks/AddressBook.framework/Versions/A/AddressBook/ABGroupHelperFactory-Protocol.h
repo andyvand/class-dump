@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ABGroupSelectHelper;
+
 @protocol ABGroupHelperFactory
+- (id <ABGroupSelectHelper>);
 @end
 

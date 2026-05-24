@@ -11,9 +11,6 @@
 @interface NSIncrementalStore : NSPersistentStore
 {
     NSDictionary *_storeMetadata;
-    unsigned long long _lastIdentifier;
-    void *_reserveda;
-    void *_reservedb;
 }
 
 + (_Bool);
@@ -36,7 +33,7 @@
 - (id);
 - (_Bool)1Ç21Â0@ù
 × ;
-- (id)thStore:(id)arg1 metadataContext:(id)arg2 databaseScope:(id)arg3 metricsClient:(id *)arg4;
+- (id)initWithStore:(id)arg1 metadataContext:(id)arg2 databaseScope:(id)arg3 metricsClient:(id *)arg4;
 - (id)esponse from server (not enough room for first row);
 
 @end

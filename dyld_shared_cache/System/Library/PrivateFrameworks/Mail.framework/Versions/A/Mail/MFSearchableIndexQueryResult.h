@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSInstantAnswers, NSDictionary, NSString;
+@class NSString;
 
 @interface MFSearchableIndexQueryResult
 {
     NSString *_persistentID;
-    NSString *_mailMessageID;
-    NSDictionary *_snippetHints;
-    CSInstantAnswers *_instantAnswer;
 }
 
-- (id);
+- (id)";
 - (void);
+- (id)9		;
+- (void)q@;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)I)
+k;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CSInstantAnswers *instantAnswer; // @synthesize instantAnswer=_instantAnswer;
-@property(readonly, copy, nonatomic) NSString *mailMessageID; // @synthesize mailMessageID=_mailMessageID;
 @property(readonly, copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(copy, nonatomic) NSDictionary *snippetHints; // @synthesize snippetHints=_snippetHints;
 
 @end
 

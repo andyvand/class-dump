@@ -4,124 +4,89 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteStore, EKDirectorySearchOperation, EKSource, NSMutableArray, NSObject, NSSet, NSString;
-@protocol CNCancelable, CalBlockList, EKAutocompleterDelegate, OS_dispatch_queue;
+@protocol CalBlockList, EKAutocompleterDelegate;
 
 @interface EKAutocompleter
 {
     id <CalBlockList> _blockList;
-    _Bool _findRooms;
-    _Bool _findPeople;
-    _Bool _findSuggestions;
-    _Bool _findResources;
-    _Bool _findGroups;
-    _Bool _findRecents;
-    _Bool _useACDirectorySearch;
-    _Bool _useDirectorySearch;
-    _Bool _excludeLocal;
-    _Bool _autocompleteRunning;
-    id <EKAutocompleterDelegate> _delegate;
-    NSString *_prefix;
-    EKSource *_source;
-    NSSet *_addressesToIgnore;
-    NSMutableArray *_contactResults;
-    id <CNCancelable> _autocompletionSearchRequest;
-    CNAutocompleteStore *_autocompleteStore;
-    EKDirectorySearchOperation *_directorySearchOperation;
-    NSObject<OS_dispatch_queue> *_directorySearchQueue;
-    NSMutableArray *_directorySearchResults;
 }
 
+- (_Bool)l;
+- (_Bool);
+- (void)RRelevantRouteDetector] %@:(_Bool)arg1 DataSource doesn't implement isEndpointRelevant, defaulting to YES for local endpoint only;
+- (void)DataSource says endpoint %@ is %@;
+- (void)ng a new playback queue.;
+- (void)items %@ because we are requesting a new playback queue.;
+- (void)r] <%@> Starting ReconRetryTimer to fire in %lf seconds;
+- (void)s;
+- (void)to retry in %lf more seconds;
+- (void)3NowPlayingController] <%@> Deallocating.;
+- (void)ing] URL isn't group session join:(id)arg1 %{public}@;
+- (void);
+- (void)ave group session host domain:(id)arg1 %{public}@;
+- (void)iceInfo;
+- (void)t] Enqueing contentItemChange due to pending PlaybackQueueInvalidation;
+- (void)ping update;
+- (void)e for %@. Skipping update;
+- (id)e are requesting a new playback queue.;
+- (_Bool)g now playing identifiers;
+- (_Bool)urned nil when requesting now playing identifiers;
+- (_Bool)NG:Client endpoint returned nil when requesting now playing identifiers /* Error: Ran out of types for this method. */;
+- (_Bool)Agent client message %lu not handled;
+- (_Bool)connection for distant device %p volume capabilities did change to %{public}@ for endpoint %{public}@ for output device %{public}@;
+- (id)ernalDevice] Hosted external device connection for distant device %p volume capabilities did change to %{public}@ for endpoint %{public}@ for output device %{public}@;
+- (id)hange to %{public}@;
+- (id)for distant device %p endpoint did change to %{public}@;
+- (id){public}@)>;
+- (id)rySessionWrapper] <%p> Changed to shared session:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)t type;
+- (void)ing.;
+- (id)buttonAUpDelay;
+- (_Bool)OriginRef);
+- (id)OriginType(MROriginRef);
+- (id)tID;
+- (id)MRMediaRemotePickedRouteVolumeMutedDidChangeNotification;
+- (void)%@
+   impl=               %@
+   response=           %@
+}>
+;
+- (void)%lf seconds ago)
+   updateDate=         %@ (%lf seconds ago)
+   invalidationDate=   %@ (%lf seconds ago)
+   lastErrorDate=      %@ (%lf seconds ago)
+   lastError=          %@
+   impl=               %@
+   response=           %@
+}>
+;
+- (_Bool)DeviceType;
+- (id)v16@?0@"MRNowPlayingPlayerResponse"8;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)Returning current state:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)classNamed: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSSet *addressesToIgnore; // @synthesize addressesToIgnore=_addressesToIgnore;
-@property _Bool autocompleteRunning; // @synthesize autocompleteRunning=_autocompleteRunning;
-@property(retain) CNAutocompleteStore *autocompleteStore; // @synthesize autocompleteStore=_autocompleteStore;
-@property(retain) id <CNCancelable> autocompletionSearchRequest; // @synthesize autocompletionSearchRequest=_autocompletionSearchRequest;
-@property(retain) NSMutableArray *contactResults; // @synthesize contactResults=_contactResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <EKAutocompleterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) EKDirectorySearchOperation *directorySearchOperation; // @synthesize directorySearchOperation=_directorySearchOperation;
-@property(retain) NSObject<OS_dispatch_queue> *directorySearchQueue; // @synthesize directorySearchQueue=_directorySearchQueue;
-@property(retain) NSMutableArray *directorySearchResults; // @synthesize directorySearchResults=_directorySearchResults;
-@property(nonatomic) _Bool excludeLocal; // @synthesize excludeLocal=_excludeLocal;
-@property(nonatomic) _Bool findGroups; // @synthesize findGroups=_findGroups;
-@property(nonatomic) _Bool findPeople; // @synthesize findPeople=_findPeople;
-@property(nonatomic) _Bool findRecents; // @synthesize findRecents=_findRecents;
-@property(nonatomic) _Bool findResources; // @synthesize findResources=_findResources;
-@property(nonatomic) _Bool findRooms; // @synthesize findRooms=_findRooms;
-@property(nonatomic) _Bool findSuggestions; // @synthesize findSuggestions=_findSuggestions;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *prefix; // @synthesize prefix=_prefix;
-@property(retain) EKSource *source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useACDirectorySearch; // @synthesize useACDirectorySearch=_useACDirectorySearch;
-@property(nonatomic) _Bool useDirectorySearch; // @synthesize useDirectorySearch=_useDirectorySearch;
 
 @end
 

@@ -13,11 +13,11 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)p;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

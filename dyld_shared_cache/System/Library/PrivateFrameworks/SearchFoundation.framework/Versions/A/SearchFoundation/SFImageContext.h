@@ -7,20 +7,16 @@
 @interface SFImageContext
 {
     _Bool _hasDarkAppearance;
-    _Bool _ignoreImageDataCache;
-    double _uiScale;
 }
 
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)dataSourceForNewSharedListeningSessionWithIdentity:(_Bool)arg1;
+- (_Bool)c}@ Pre-fetching library token for new account with DSID %@;
 - (double);
 - (void);
 
 // Remaining properties
-@property _Bool hasDarkAppearance; // @synthesize hasDarkAppearance=_hasDarkAppearance;
-@property(nonatomic) _Bool ignoreImageDataCache; // @synthesize ignoreImageDataCache=_ignoreImageDataCache;
 @property double uiScale; // @synthesize uiScale=_uiScale;
 
 @end

@@ -9,7 +9,6 @@
 @interface PXHorizontalFeedLayoutGenerator : PXFeedLayoutGenerator
 {
     struct CGPoint _origin;
-    double _referenceHeight;
 }
 
 - (void);

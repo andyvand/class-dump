@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableIndexSet, NSString, UXCollectionView, UXCollectionViewLayoutAccessibility, UXCollectionViewLayoutInvalidationContext;
+@class UXCollectionViewLayoutAccessibility;
 
 @interface UXCollectionViewLayout
 {
     struct CGSize _collectionViewBoundsSize;
-    NSMutableDictionary *_initialAnimationLayoutAttributesDict;
-    NSMutableDictionary *_finalAnimationLayoutAttributesDict;
-    NSMutableDictionary *_deletedSupplementaryIndexPathsDict;
-    NSMutableDictionary *_insertedSupplementaryIndexPathsDict;
-    NSMutableDictionary *_deletedDecorationIndexPathsDict;
-    NSMutableDictionary *_insertedDecorationIndexPathsDict;
-    NSMutableIndexSet *_deletedSectionsSet;
-    NSMutableIndexSet *_insertedSectionsSet;
-    NSMutableDictionary *_decorationViewClassDict;
-    NSMutableDictionary *_decorationViewNibDict;
-    UXCollectionViewLayout *_transitioningFromLayout;
-    UXCollectionViewLayout *_transitioningToLayout;
-    _Bool _inTransitionFromTransitionLayout;
-    _Bool _inTransitionToTransitionLayout;
-    UXCollectionViewLayoutInvalidationContext *_invalidationContext;
-    UXCollectionView *_collectionView;
-    NSArray *_accessibilityChildren;
-    UXCollectionViewLayoutAccessibility *_layoutAccessibility;
-    NSString *_accessibilityIdentifier;
-    NSString *_accessibilityLabel;
-    NSString *_accessibilityRoleDescription;
 }
 
 + (Class);
@@ -37,11 +16,6 @@
 + (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessibilityChildren; // @synthesize accessibilityChildren=_accessibilityChildren;
-@property(retain, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(retain, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(retain, nonatomic) NSString *accessibilityRoleDescription; // @synthesize accessibilityRoleDescription=_accessibilityRoleDescription;
-@property(readonly, nonatomic) __weak UXCollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(readonly, nonatomic) UXCollectionViewLayoutAccessibility *layoutAccessibility; // @synthesize layoutAccessibility=_layoutAccessibility;
 
 @end

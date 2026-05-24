@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSUUID, RTMapItemMO;
+@class NSNumber, RTMapItemMO;
 
 @interface RTVisitMO
 {
     RTMapItemMO *cachedMapItem;
-    RTMapItemMO *cachedFinerGranularityMapItem;
-    NSUUID *cachedPlaceInferenceLoiIdentifier;
 }
 
-+ (id);
-+ (id);
++ (id)metadata;
++ (id)keyTransparencyCollaboratorWithCompletion:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -26,34 +24,13 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)g:locationsArray: /* Error: Ran out of types for this method. */;
+- (id)isTripSegmentValidForClustering:locationsArray: /* Error: Ran out of types for this method. */;
 - (void)N,V_compoundRouteMetric;
 - (id)fetchCurrentChargerConnectionState:] /* Error: Ran out of types for this method. */;
 - (void)ssionEndRemoteMessage %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTMapItemMO *cachedFinerGranularityMapItem; // @synthesize cachedFinerGranularityMapItem;
-@property(retain, nonatomic) RTMapItemMO *cachedMapItem; // @synthesize cachedMapItem;
-@property(retain, nonatomic) NSUUID *cachedPlaceInferenceLoiIdentifier; // @synthesize cachedPlaceInferenceLoiIdentifier;
 @property(copy, nonatomic) NSNumber *confidence; // @dynamic confidence;
-@property(copy, nonatomic) NSNumber *dataPointCount; // @dynamic dataPointCount;
-@property(copy, nonatomic) NSDate *detectionDate; // @dynamic detectionDate;
-@property(copy, nonatomic) NSDate *entryDate; // @dynamic entryDate;
-@property(copy, nonatomic) NSDate *exitDate; // @dynamic exitDate;
-@property(copy, nonatomic) NSDate *locationDate; // @dynamic locationDate;
-@property(copy, nonatomic) NSNumber *locationLatitude; // @dynamic locationLatitude;
-@property(copy, nonatomic) NSNumber *locationLongitude; // @dynamic locationLongitude;
-@property(copy, nonatomic) NSNumber *locationReferenceFrame; // @dynamic locationReferenceFrame;
-@property(copy, nonatomic) NSNumber *locationUncertainty; // @dynamic locationUncertainty;
-@property(copy, nonatomic) NSNumber *placeInferenceConfidence; // @dynamic placeInferenceConfidence;
-@property(copy, nonatomic) NSNumber *placeInferenceFinerGranularityMapItemConfidence; // @dynamic placeInferenceFinerGranularityMapItemConfidence;
-@property(copy, nonatomic) NSUUID *placeInferenceFinerGranularityMapItemIdentifier; // @dynamic placeInferenceFinerGranularityMapItemIdentifier;
-@property(copy, nonatomic) NSUUID *placeInferenceMapItemIdentifier; // @dynamic placeInferenceMapItemIdentifier;
-@property(copy, nonatomic) NSNumber *placeInferencePlaceType; // @dynamic placeInferencePlaceType;
-@property(copy, nonatomic) NSNumber *placeInferenceUserType; // @dynamic placeInferenceUserType;
-@property(copy, nonatomic) NSNumber *placeInferenceUserTypeSource; // @dynamic placeInferenceUserTypeSource;
-@property(copy, nonatomic) NSNumber *source; // @dynamic source;
-@property(copy, nonatomic) NSNumber *type; // @dynamic type;
 
 @end
 

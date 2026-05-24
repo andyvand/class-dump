@@ -5,5 +5,7 @@
 //
 
 @protocol NFReaderSessionInterface
+- (oneway void)(;
+- (oneway void);
 @end
 

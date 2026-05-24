@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)N;
 + (_Bool);
 + (long long);
 

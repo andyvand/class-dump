@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIButton, UIImageView, UILabel, UIView;
-@protocol EKExpandedReminderStackCellDelegate;
+@class NSString, UIImageView;
 
 @interface EKExpandedReminderStackCell
 {
     NSString *_eventIdentifer;
-    id <EKExpandedReminderStackCellDelegate> _delegate;
-    UIImageView *_backgroundImageView;
-    UIView *_backgroundColorView;
-    UILabel *_title;
-    UILabel *_time;
-    UIButton *_circle;
-    UIImageView *_recurringImageView;
 }
 
 + (id);
 - (void);
+- (void)s;
 - (void);
+- (void)&s;
+- (void);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id)beginSyncWithInfo:(struct CGRect)arg1 configuration: /* Error: Ran out of types for this method. */;
+- (id)nd;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)atusButtonsView: /* Error: Ran out of types for this method. */;
+- (void)setStatusButtonsView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *backgroundColorView; // @synthesize backgroundColorView=_backgroundColorView;
 @property(retain, nonatomic) UIImageView *backgroundImageView; // @synthesize backgroundImageView=_backgroundImageView;
-@property(retain, nonatomic) UIButton *circle; // @synthesize circle=_circle;
-@property(retain, nonatomic) UIImageView *recurringImageView; // @synthesize recurringImageView=_recurringImageView;
-@property(retain, nonatomic) UILabel *time; // @synthesize time=_time;
-@property(retain, nonatomic) UILabel *title; // @synthesize title=_title;
 
 @end
 

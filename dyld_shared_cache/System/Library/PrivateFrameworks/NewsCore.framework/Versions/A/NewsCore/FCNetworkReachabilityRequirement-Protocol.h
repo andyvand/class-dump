@@ -7,13 +7,11 @@
 @protocol FCNetworkReachabilityRequirementObserving;
 
 @protocol FCNetworkReachabilityRequirement
-- (long long)lintDocument;
+- (long long)flintDocument;
 - (void)eanup;
 - (id <FCNetworkReachabilityRequirementObserving>)Òÿÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <FCNetworkReachabilityRequirementObserving> observer;
-@property(readonly, nonatomic) long long offlineReason;
 @property(readonly, nonatomic, getter=isSatisfied) _Bool satisfied;
 @end
 

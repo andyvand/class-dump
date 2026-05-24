@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)HASE_STATE_METADATA_COMPLETE;
+- (void)SETUP_PURCHASE_STATE_METADATA_COMPLETE;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *browseableBankApps; // @synthesize browseableBankApps=_browseableBankApps;

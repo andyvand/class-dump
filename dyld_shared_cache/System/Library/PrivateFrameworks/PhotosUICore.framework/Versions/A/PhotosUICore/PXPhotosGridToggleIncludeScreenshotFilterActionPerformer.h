@@ -11,7 +11,7 @@
 }
 
 + (_Bool);
-- (long long);
+- (long long)#;
 - (id);
 - (void);
 

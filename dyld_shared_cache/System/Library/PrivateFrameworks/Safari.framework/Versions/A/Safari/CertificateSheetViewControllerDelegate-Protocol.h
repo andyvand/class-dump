@@ -5,6 +5,6 @@
 //
 
 @protocol CertificateSheetViewControllerDelegate
-- (void)lledTextField;
+- (void)_addressBookDataWillBeFilledTextField;
 @end
 

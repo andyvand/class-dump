@@ -7,17 +7,6 @@
 @interface ChatKit.CKLanguageSelectionViewModel
 {
     id _availableLanguages;
-    id _suggestedLanguages;
-    id _mode;
-    id _isReady;
-    id _excludedLocale;
-    id suggestedLocales;
-    id disambiguationLocales;
-    id preferredLanguages;
-    id _currentSelectedLocale;
-    id modelMap;
-    id cancellables;
-    id _$observationRegistrar;
 }
 
 @end

@@ -11,7 +11,7 @@
     double _scalar;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (void);

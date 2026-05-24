@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSValue, UIImage;
+@class NSMutableDictionary, NSValue;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchBarAppearanceStorage
 {
     NSMutableDictionary *searchFieldBackgroundImages;
-    NSValue *searchFieldPositionAdjustment;
-    NSMutableDictionary *iconImages;
-    UIImage *separatorImage;
-    UIImage *scopeBarBackgroundImage;
 }
 
 - (void);
@@ -27,14 +23,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (void)erformInModes:(id)arg1 block: /* Error: Ran out of types for this method. */;
+- (void)performInModes:(id)arg1 block: /* Error: Ran out of types for this method. */;
 - (id)e the temporary store at %@, %@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *scopeBarBackgroundImage; // @synthesize scopeBarBackgroundImage;
 @property(retain, nonatomic) NSValue *searchFieldPositionAdjustment; // @synthesize searchFieldPositionAdjustment;
-@property(retain, nonatomic) UIImage *separatorImage; // @synthesize separatorImage;
 
 @end
 

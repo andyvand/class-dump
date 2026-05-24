@@ -6,31 +6,21 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAPhoneCallState : AceObject
 {
 }
 
 + (id);
-+ (id);
-- (void);
++ (id);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)8!B(;
 - (_Bool)¼;
 
 // Remaining properties
 @property(nonatomic) _Bool active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool incoming;
-@property(readonly) Class superclass;
 
 @end
 

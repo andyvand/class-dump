@@ -10,11 +10,6 @@
 - (CLLocation *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cloudIsDeletable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) CLLocation *location;
 @end
 

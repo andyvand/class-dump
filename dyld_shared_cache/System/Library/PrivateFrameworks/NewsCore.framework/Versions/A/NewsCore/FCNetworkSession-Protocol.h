@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @protocol FCNetworkSession
+- (unsigned long long);
+- (NSDate *){;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cellularRadioAccessTechnology;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) NSArray *eventGroups;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) unsigned long long totalFailureCount;
-@property(readonly, nonatomic) unsigned long long totalSuccessCount;
 @property(readonly, nonatomic) _Bool wifiReachable;
 @end
 

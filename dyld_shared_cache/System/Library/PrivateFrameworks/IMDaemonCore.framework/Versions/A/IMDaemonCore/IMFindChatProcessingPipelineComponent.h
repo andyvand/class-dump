@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChatRegistry;
+@class IMDChatRegistry;
 
 @interface IMFindChatProcessingPipelineComponent
 {
     IMDChatRegistry *_chatRegistry;
-    IMDAccount *_account;
 }
 
-+ (id);
-- (_Bool);
++ (id).;
+- (_Bool)R?;
 - (id);
 - (id);
 - (_Bool);

@@ -7,7 +7,6 @@
 @interface IMWeakReference
 {
     id _object;
-    unsigned long long _objectAddress;
 }
 
 + (id);

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSArray;
 
 @interface PXSearchNavigationAttributes
 {
     NSArray *_searchTerms;
-    NSArray *_searchCategories;
-    NSString *_searchText;
-    NSAttributedString *_decoratedQuery;
-    NSString *_completionKey;
 }
 
 + (id);
@@ -27,19 +23,18 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)"<SXComponent>"16{CGSize=dd}24;
 - (id);
 - (id);
-- (void);
+- (void)DoFilter0(color); 
+			gl_FragColor = mix(color, borderColor, clamp(borderAlpha, 0., 1.)); 
+		} 
+		;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *completionKey; // @synthesize completionKey=_completionKey;
-@property(copy, nonatomic) NSAttributedString *decoratedQuery; // @synthesize decoratedQuery=_decoratedQuery;
-@property(copy, nonatomic) NSArray *searchCategories; // @synthesize searchCategories=_searchCategories;
 @property(copy, nonatomic) NSArray *searchTerms; // @synthesize searchTerms=_searchTerms;
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
 
 @end
 

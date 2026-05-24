@@ -9,7 +9,6 @@
 @interface UIAccessibilityAutomationAction
 {
     NSString *_identifier;
-    SEL _selector;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
 
 @end
 

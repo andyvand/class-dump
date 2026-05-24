@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PXReorderListCellActionPerformer : PXPhotoKitCollectionListActionPerformer
 {
     id sourceObject;
-    id destinationObject;
 }
 
 - (id);

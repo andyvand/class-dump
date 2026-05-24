@@ -4,37 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSArray, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDActionSetEvent
 {
     struct os_unfair_lock_s _lock;
-    unsigned int _numAccessoriesModified;
-    unsigned int _numAccessoriesInHome;
-    unsigned int _numNonEmptyScenesInHome;
-    unsigned long long _triggerSource;
-    NSUUID *_actionSetUUID;
-    NSUUID *_actionSetUniqueIdentifier;
-    NSString *_bundleId;
-    NSUUID *_transactionId;
-    NSString *_clientMetricIdentifier;
-    NSString *_serializedIdentifier;
-    NSString *_actionSetName;
-    NSString *_actionSetType;
-    HMDHome *_home;
-    NSString *_homeName;
-    NSArray *_accessoryUUIDs;
-    NSArray *_accessoryUniqueIdentifiers;
 }
 
-- (unsigned long long);
+- (unsigned long long)hContactValue received capability for pending contact %{private}@:%{public}@/%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (id);
+- (id)setSessionEstablishedElapsed:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -44,25 +27,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ngRef;
+- (void)NCFStringRef;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *accessoryUUIDs; // @synthesize accessoryUUIDs=_accessoryUUIDs;
-@property(readonly, copy, nonatomic) NSArray *accessoryUniqueIdentifiers; // @synthesize accessoryUniqueIdentifiers=_accessoryUniqueIdentifiers;
-@property(readonly, copy, nonatomic) NSString *actionSetName; // @synthesize actionSetName=_actionSetName;
-@property(readonly, copy, nonatomic) NSString *actionSetType; // @synthesize actionSetType=_actionSetType;
-@property(readonly, copy, nonatomic) NSUUID *actionSetUUID; // @synthesize actionSetUUID=_actionSetUUID;
-@property(readonly, copy, nonatomic) NSUUID *actionSetUniqueIdentifier; // @synthesize actionSetUniqueIdentifier=_actionSetUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy, nonatomic) NSString *clientMetricIdentifier; // @synthesize clientMetricIdentifier=_clientMetricIdentifier;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSString *homeName; // @synthesize homeName=_homeName;
-@property(readonly, nonatomic) unsigned int numAccessoriesInHome; // @synthesize numAccessoriesInHome=_numAccessoriesInHome;
-@property(readonly, nonatomic) unsigned int numAccessoriesModified; // @synthesize numAccessoriesModified=_numAccessoriesModified;
-@property(readonly, nonatomic) unsigned int numNonEmptyScenesInHome; // @synthesize numNonEmptyScenesInHome=_numNonEmptyScenesInHome;
-@property(readonly, copy, nonatomic) NSString *serializedIdentifier; // @synthesize serializedIdentifier=_serializedIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *transactionId; // @synthesize transactionId=_transactionId;
 @property(readonly, nonatomic) unsigned long long triggerSource; // @synthesize triggerSource=_triggerSource;
 
 @end

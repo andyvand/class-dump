@@ -6,27 +6,24 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSExtension, NSString, UIKeyboardCameraRemoteViewController;
+@class NSExtension;
 @protocol UIKeyboardCameraViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardCameraViewController : UIViewController
 {
     id <UIKeyboardCameraViewControllerDelegate> _delegate;
-    NSString *_textContentType;
-    NSExtension *_extension;
-    UIKeyboardCameraRemoteViewController *_remoteViewController;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)s,;
 + (void);
 + (_Bool)Q`Ð1Â0@ù
 × ;
-- (void);
-- (void);
-- (void);
+- (void)ted size %@;
+- (void)%@;
+- (void)fo:%@ and urgency:%d isMainThread:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -36,8 +33,8 @@ __attribute__((visibility("hidden")))
 × ;
 - (void):(id)arg1 8q16d24@32;
 - (_Bool)"16@?0@"UIZoomTransitionSourceViewProviderContext"8;
-- (void)pupDirection;
-- (void)fault;
+- (void)popupDirection;
+- (void)enabledByDefault;
 - (id)1¤_ÑM1ø_Ñ1`Ñt#2|`Ñ·2`Ñº2 `Ñ$½2´`ÑÄ2Ü`Ñ¼Ç2ü`Ñ38aÑ$n3LaÑô3haÑ¬3ÐaÑ 3øaÑä3bÑàø38bÑà4LbÑ$E4bÑðF4¨bÑ`4¼bÑa4ÌbÑôb4ÜbÑhd4ìbÑg4übÑo4@cÑ¬v4 cÑÈz4°cÑ40dÑ4\dÑT4dÑø4¼dÑ;
 - (id)¨7_;
 - (id)ute;
@@ -46,17 +43,7 @@ __attribute__((visibility("hidden")))
 - (void)[§;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIKeyboardCameraViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIKeyboardCameraRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly) Class superclass;
-@property(nonatomic) NSString *textContentType; // @synthesize textContentType=_textContentType;
 
 @end
 

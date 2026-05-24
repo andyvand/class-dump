@@ -9,9 +9,6 @@
 @interface CHProductionRule
 {
     NSString *_leftNode;
-    NSString *_rightNode1;
-    NSString *_rightNode2;
-    double _probability;
 }
 
 - (void);
@@ -24,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)__unwind_info;
 - (double);
 - (id);
 - (id);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *leftNode; // @synthesize leftNode=_leftNode;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(copy, nonatomic) NSString *rightNode1; // @synthesize rightNode1=_rightNode1;
-@property(copy, nonatomic) NSString *rightNode2; // @synthesize rightNode2=_rightNode2;
 
 @end
 

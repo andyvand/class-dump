@@ -7,24 +7,12 @@
 @interface IKBookletPlasticCover
 {
     long long _meshResolution;
-    CDStruct_21d90590 *_points;
-    CDStruct_21d90590 *_faceNormals;
-    CDStruct_21d90590 *_vertexNormals;
-    CDStruct_21d90590 *_invertedVertexNormals;
-    double _materialSpecular;
-    double _materialShininess;
-    double _materialOpacity;
-    float _plasticRed;
-    float _plasticGreen;
-    float _plasticBlue;
-    double _curveFactor;
-    double _currentCurveFactor;
 }
 
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (void);

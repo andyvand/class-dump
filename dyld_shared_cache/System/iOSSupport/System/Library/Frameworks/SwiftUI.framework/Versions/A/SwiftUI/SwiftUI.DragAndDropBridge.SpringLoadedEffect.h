@@ -7,11 +7,9 @@
 @interface SwiftUI.DragAndDropBridge.SpringLoadedEffect
 {
     id bridge;
-    id blinkTimer;
-    id previousHighlightState;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

@@ -4,40 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, WBProfile, WBSTranslationContext, WBSWebExtensionTabPosition, WKWebView;
-@protocol WBSWebExtensionWindow;
+@class NSURL, WBProfile;
 
 @protocol WBSWebExtensionTab
+- (NSURL *);
+- (void);
+- (WBProfile *)initWithURL:personaIdentifier: /* Error: Ran out of types for this method. */;
 - (void)Ã?;
-- (_Bool);
 - (_Bool)Ä;
 - (_Bool)Ô;
 - (double)¤;
 - (void)Ì;
 
 // Remaining properties
-@property(nonatomic) unsigned long long changedPropertiesForOnUpdatedWebExtensionEvent;
-@property(readonly, nonatomic) NSURL *expectedOrCurrentURL;
-@property(readonly, nonatomic) NSURL *expectedOrCurrentURLOrLastActiveURL;
 @property(readonly, nonatomic) double idForWebExtensions;
-@property(readonly, nonatomic) _Bool isArticle;
-@property(readonly, nonatomic) _Bool isAudible;
-@property(readonly, nonatomic) _Bool isFrontmost;
-@property(readonly, nonatomic) _Bool isInReaderMode;
-@property(readonly, nonatomic) _Bool isLoadingComplete;
-@property(readonly, nonatomic) _Bool isMuted;
-@property(readonly, nonatomic) _Bool isPinnedTab;
-@property(readonly, nonatomic) _Bool isPrivate;
-@property(readonly, nonatomic) _Bool isSelected;
-@property(readonly, nonatomic) NSURL *pendingURLForWebExtensions;
-@property(retain, nonatomic) WBSWebExtensionTabPosition *previousWebExtensionTabPosition;
-@property(readonly, nonatomic) WBProfile *profile;
-@property(readonly, copy, nonatomic) NSString *tabTitle;
-@property(readonly, nonatomic) struct CGSize tabViewSize;
-@property(readonly, nonatomic) WBSTranslationContext *translationContext;
-@property(readonly, nonatomic) NSURL *urlForExtensions;
-@property(readonly, nonatomic) id <WBSWebExtensionWindow> webExtensionWindow;
-@property(readonly, nonatomic) WKWebView *webViewForExtensions;
-@property(nonatomic) double zoomFactor;
 @end
 

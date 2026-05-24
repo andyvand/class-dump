@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAttachmentMetadata, EDMessageAttachmentMetadata;
+@class EDAttachmentMetadata;
 
 @interface EDAttachment
 {
     EDAttachmentMetadata *attachmentMetadata;
-    EDMessageAttachmentMetadata *messageMetadata;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)UsoTaskBuilder_checkExistence_common_SiriProperty;
 - (void)dPersistence];
 
 // Remaining properties
 @property(nonatomic, readonly) EDAttachmentMetadata *attachmentMetadata; // @synthesize attachmentMetadata;
-@property(nonatomic, readonly) EDMessageAttachmentMetadata *messageMetadata; // @synthesize messageMetadata;
 
 @end
 

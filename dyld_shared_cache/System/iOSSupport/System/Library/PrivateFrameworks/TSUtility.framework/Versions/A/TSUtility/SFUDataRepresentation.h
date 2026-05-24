@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface SFUDataRepresentation
 {
     _Bool mHasHash;
-    unsigned int mHash;
-    _Bool mHasSha1Hash;
-    NSData *mSha1Hash;
 }
 
 - (struct _xmlTextReader *);
@@ -24,11 +19,11 @@
 - (_Bool);
 - (struct CGDataProvider *);
 - (id);
-- (id);
+- (id)?;
 - (long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool){CGRect={CGPoint=dd}{CGSize=dd}}40@0:8Q16{_NSRange=QQ}24 /* Error: Ran out of types for this method. */;
+- (_Bool)addTarget:action: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (long long);

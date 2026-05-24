@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDistributedTimestampStateVector, NSArray, NSMutableDictionary, NSString, NSUUID;
+@class NSMutableDictionary, NSUUID;
 
 @interface CKMultiValueRegister
 {
     NSUUID *_identifier;
-    CKDistributedTimestampStateVector *_vector;
-    NSMutableDictionary *_timestampToContents;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)T1;
+- (unsigned long long)<@;
+- (_Bool);
+- (id)3;
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (unsigned long long)8;
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)fetchGroupContainerPathForCurrentPersonaForFPFS:(id)arg1 withReply: /* Error: Ran out of types for this method. */;
+- (id)br_restorePersonaWithSavedPersonaContext: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isConsumedState;
-@property(readonly, nonatomic) unsigned long long nextClockValue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableDictionary *timestampToContents; // @synthesize timestampToContents=_timestampToContents;
-@property(readonly, nonatomic) CKDistributedTimestampStateVector *vector; // @synthesize vector=_vector;
 
 @end
 

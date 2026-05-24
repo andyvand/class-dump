@@ -12,18 +12,16 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginInitiatorAuthenticationSession : HMDRemoteLoginInitiatorSession
 {
     HMDRemoteLoginInitiatorAuthentication *_remoteAuthentication;
-    CDUnknownBlockType _completion;
 }
 
-- (id);
+- (id)s;
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType)DataForKey: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)hm_regionFromDataForKey: /* Error: Ran out of types for this method. */;
 - (void), level = %@, tier = %@>;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(readonly, nonatomic) HMDRemoteLoginInitiatorAuthentication *remoteAuthentication; // @synthesize remoteAuthentication=_remoteAuthentication;
 
 @end

@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSInvestigationPhotoKitFeeder, NSArray, NSDictionary, NSObject, NSSet, NSString, PGGraphHighlightNode, PGHighlightTailorContext, PHFetchResult;
-@protocol OS_os_log, PGHighlightModel;
+@class NSObject, NSSet;
+@protocol OS_os_log;
 
 @interface PGHighlightTailorHighlightInfo
 {
     NSObject<OS_os_log> *_loggingConnection;
-    _Bool _petIsPresent;
-    id <PGHighlightModel> _highlight;
-    PGGraphHighlightNode *_highlightNode;
-    NSSet *_meaningLabels;
-    NSDictionary *_meaningLabelsByChildHighlightUUID;
-    NSSet *_momentNodes;
-    CLSInvestigationPhotoKitFeeder *_feeder;
-    NSString *_keyAssetPrivateUUID;
-    NSString *_keyAssetSharedUUID;
-    double _promotionScore;
-    unsigned long long _numberOfExtendedAssets;
-    NSArray *_uuidsOfEligibleAssets;
-    NSArray *_childHighlights;
-    PGHighlightTailorContext *_highlightTailorContext;
-    PHFetchResult *_momentFetchResult;
-    NSArray *_privateSummarizedFeatures;
-    NSArray *_sharedSummarizedFeatures;
-    NSArray *_mixedSummarizedFeatures;
 }
 
 - (id);
@@ -41,49 +23,32 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)32;
+- (id)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
+- (id)orderingForChildrenInBothDirections: /* Error: Ran out of types for this method. */;
+- (id)focusElement;
+- (id)activateIgnoringOtherApps: /* Error: Ran out of types for this method. */;
+- (id)actionWithName:description: /* Error: Ran out of types for this method. */;
+- (id),W,N;
+- (id)lass;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)acl: /* Error: Ran out of types for this method. */;
+- (id)LibCall_ACMPublishTrustedAccessories;
+- (id)es;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (double);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (void)ficationQualityStellar;
+- (void)PGSuggestionNotificationQualityStellar;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *childHighlights; // @synthesize childHighlights=_childHighlights;
-@property(readonly, nonatomic) CLSInvestigationPhotoKitFeeder *feeder; // @synthesize feeder=_feeder;
-@property(readonly, nonatomic) id <PGHighlightModel> highlight; // @synthesize highlight=_highlight;
-@property(readonly, nonatomic) PGGraphHighlightNode *highlightNode; // @synthesize highlightNode=_highlightNode;
-@property(readonly) PGHighlightTailorContext *highlightTailorContext; // @synthesize highlightTailorContext=_highlightTailorContext;
-@property(copy, nonatomic) NSString *keyAssetPrivateUUID; // @synthesize keyAssetPrivateUUID=_keyAssetPrivateUUID;
-@property(copy, nonatomic) NSString *keyAssetSharedUUID; // @synthesize keyAssetSharedUUID=_keyAssetSharedUUID;
 @property(retain, nonatomic) NSSet *meaningLabels; // @synthesize meaningLabels=_meaningLabels;
-@property(readonly, nonatomic) NSDictionary *meaningLabelsByChildHighlightUUID; // @synthesize meaningLabelsByChildHighlightUUID=_meaningLabelsByChildHighlightUUID;
-@property(readonly, nonatomic) NSArray *mixedSummarizedFeatures; // @synthesize mixedSummarizedFeatures=_mixedSummarizedFeatures;
-@property(readonly, nonatomic) PHFetchResult *momentFetchResult; // @synthesize momentFetchResult=_momentFetchResult;
-@property(readonly, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(nonatomic) unsigned long long numberOfExtendedAssets; // @synthesize numberOfExtendedAssets=_numberOfExtendedAssets;
-@property(readonly, nonatomic) _Bool petIsPresent; // @synthesize petIsPresent=_petIsPresent;
-@property(readonly, nonatomic) NSArray *privateSummarizedFeatures; // @synthesize privateSummarizedFeatures=_privateSummarizedFeatures;
-@property(nonatomic) double promotionScore; // @synthesize promotionScore=_promotionScore;
-@property(readonly, nonatomic) NSArray *sharedSummarizedFeatures; // @synthesize sharedSummarizedFeatures=_sharedSummarizedFeatures;
-@property(retain, nonatomic) NSArray *uuidsOfEligibleAssets; // @synthesize uuidsOfEligibleAssets=_uuidsOfEligibleAssets;
 
 @end
 

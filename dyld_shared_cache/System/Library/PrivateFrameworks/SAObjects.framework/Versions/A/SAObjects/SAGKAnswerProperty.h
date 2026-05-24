@@ -6,7 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString, SAUIAppPunchOut, SAUIDecoratedText;
 @protocol SAClientBoundCommand;
 
 @interface SAGKAnswerProperty : AceObject
@@ -23,33 +22,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)known words to;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)="__sig"q"__opaque"[56c]}};
 - (void);
 - (void);
 - (id)§J;;
 
 // Remaining properties
 @property(retain, nonatomic) id <SAClientBoundCommand> command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) SAUIDecoratedText *decoratedValue;
-@property(retain, nonatomic) SAUIDecoratedText *decoratedValueAnnotation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) SAUIAppPunchOut *punchOut;
-@property(copy, nonatomic) NSNumber *selected;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value;
-@property(copy, nonatomic) NSString *valueAnnotation;
 
 @end
 

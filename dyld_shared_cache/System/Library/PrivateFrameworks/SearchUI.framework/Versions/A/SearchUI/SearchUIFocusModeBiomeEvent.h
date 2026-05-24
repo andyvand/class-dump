@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) BMUserFocusModeComputed *biomeEvent; // @dynamic biomeEvent;
-@property(retain, nonatomic) NSString *observedFocusModeIdentifier; // @synthesize observedFocusModeIdentifier=_observedFocusModeIdentifier;
 
 @end
 

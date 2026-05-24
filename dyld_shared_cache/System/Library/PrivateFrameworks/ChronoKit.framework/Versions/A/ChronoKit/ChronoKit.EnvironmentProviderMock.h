@@ -7,8 +7,6 @@
 @interface ChronoKit.EnvironmentProviderMock
 {
     id environmentValues;
-    id _environmentDidChangePublisher;
-    id environmentDidChange;
 }
 
 @end

@@ -7,11 +7,6 @@
 @interface IPFeatureSentenceFragment
 {
     unsigned long long _clusterType;
-    double _probability_None;
-    double _probability_Rejection;
-    double _probability_Proposal;
-    double _probability_Confirmation;
-    struct _NSRange _range;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)5;
 - (unsigned long long);
 - (void);
 - (id);
@@ -31,12 +26,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property unsigned long long clusterType; // @synthesize clusterType=_clusterType;
-@property(readonly, nonatomic) unsigned long long mainPolarity;
-@property double probability_Confirmation; // @synthesize probability_Confirmation=_probability_Confirmation;
-@property double probability_None; // @synthesize probability_None=_probability_None;
-@property double probability_Proposal; // @synthesize probability_Proposal=_probability_Proposal;
-@property double probability_Rejection; // @synthesize probability_Rejection=_probability_Rejection;
 @property struct _NSRange range; // @synthesize range=_range;
 
 @end

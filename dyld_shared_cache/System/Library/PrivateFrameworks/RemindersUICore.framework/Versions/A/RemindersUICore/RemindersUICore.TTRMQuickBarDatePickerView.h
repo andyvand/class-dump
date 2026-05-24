@@ -9,11 +9,6 @@
 @interface RemindersUICore.TTRMQuickBarDatePickerView : RemindersUICore.TTRMQuickBarEntryView
 {
     id delegate;
-    id datePicker;
-    id showsDatePickerOnReceivingDateComponents;
-    id calendarPanelObserver;
-    id internalDateComponents;
-    id internalEditingState;
 }
 
 - (void);
@@ -25,7 +20,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (void)lTùÿ;
 - (void)ier as URL {error:(id)arg1 %s};
 

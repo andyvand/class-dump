@@ -6,27 +6,20 @@
 
 #import <ContactsUI/CNAvatarEditorViewController.h>
 
-@class CNContact, NSButton, NSLayoutConstraint, NSView;
-@protocol CNLikenessEditorPresentationStrategy;
+@class NSView;
 
 @interface CNLikenessEditorPresentationController : CNAvatarEditorViewController
 {
     _Bool _userSetup;
-    _Bool _allowEditingMemojiAndMonogramOnly;
-    _Bool _isMe;
-    _Bool _isNewLikeness;
-    id <CNLikenessEditorPresentationStrategy> _presentationStrategy;
-    NSView *_editorAreaView;
-    NSButton *_deleteButton;
-    NSButton *_cancelButton;
-    NSButton *_actionButton;
-    CDUnknownBlockType _actionButtonBlock;
-    CNContact *_contact;
-    long long _imageSource;
-    NSLayoutConstraint *_editorWidthConstraint;
 }
 
-- (_Bool);
+- (_Bool)T);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -34,13 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -61,12 +48,12 @@
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)!;
 - (void);
-- (id);
+- (id)P;
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,25 +62,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)er";
 - (id);
 - (void);
 - (id)Ô ;
 
 // Remaining properties
-@property(retain) NSButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(copy) CDUnknownBlockType actionButtonBlock; // @synthesize actionButtonBlock=_actionButtonBlock;
-@property(nonatomic) _Bool allowEditingMemojiAndMonogramOnly; // @synthesize allowEditingMemojiAndMonogramOnly=_allowEditingMemojiAndMonogramOnly;
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain) CNContact *contact; // @synthesize contact=_contact;
-@property(retain) NSButton *deleteButton; // @synthesize deleteButton=_deleteButton;
 @property(retain) NSView *editorAreaView; // @synthesize editorAreaView=_editorAreaView;
-@property(retain) NSLayoutConstraint *editorWidthConstraint; // @synthesize editorWidthConstraint=_editorWidthConstraint;
-@property long long imageSource; // @synthesize imageSource=_imageSource;
-@property _Bool isMe; // @synthesize isMe=_isMe;
-@property _Bool isNewLikeness; // @synthesize isNewLikeness=_isNewLikeness;
-@property(retain, nonatomic) id <CNLikenessEditorPresentationStrategy> presentationStrategy; // @synthesize presentationStrategy=_presentationStrategy;
-@property(nonatomic) _Bool userSetup; // @synthesize userSetup=_userSetup;
 
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCSession, NSString, SPLocationFetchContext, SPRetryCount;
-@protocol SPOwnerSessionXPCProtocol;
+@class FMXPCSession;
 
 __attribute__((visibility("hidden")))
 @interface SPOwnerSessionLocationFetch
 {
     FMXPCSession *_session;
-    id <SPOwnerSessionXPCProtocol> _proxy;
-    CDUnknownBlockType _locationUpdates;
-    CDUnknownBlockType _deviceEventUpdates;
-    CDUnknownBlockType _locationFetchSessionInvalidationBlock;
-    SPRetryCount *_retryCount;
-    SPLocationFetchContext *_lastContext;
 }
 
 + (id);
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -37,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,20 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)r:(CDUnknownBlockType)arg1 %@ model:%@ fwVersion:%@ capabilities:%u> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType deviceEventUpdates; // @synthesize deviceEventUpdates=_deviceEventUpdates;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) SPLocationFetchContext *lastContext; // @synthesize lastContext=_lastContext;
-@property(copy, nonatomic) CDUnknownBlockType locationFetchSessionInvalidationBlock; // @synthesize locationFetchSessionInvalidationBlock=_locationFetchSessionInvalidationBlock;
-@property(copy, nonatomic) CDUnknownBlockType locationUpdates; // @synthesize locationUpdates=_locationUpdates;
-@property(retain, nonatomic) id <SPOwnerSessionXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(retain, nonatomic) SPRetryCount *retryCount; // @synthesize retryCount=_retryCount;
 @property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

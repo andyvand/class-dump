@@ -11,14 +11,14 @@
     DMFOSUpdate *_update;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) DMFOSUpdate *update; // @synthesize update=_update;

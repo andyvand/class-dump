@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSMutableArray;
 @protocol ISCompositorRecipe;
 
 @interface ISCompositor
 {
     _Bool _analyticsSegmented;
-    CIContext *_sharedCIContext;
-    unsigned long long _renderingMode;
-    NSMutableArray *_elements;
-    unsigned long long _graphicsContextPreset;
 }
 
-- (void);
+- (void)EE/H/;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -37,24 +32,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)__gcc_except_tab__TEXT;
+- (void)ers:(id)arg1 scaled Bob value is %f;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool analyticsSegmented; // @synthesize analyticsSegmented=_analyticsSegmented;
-@property(readonly) _Bool canUseCoreImage; // @dynamic canUseCoreImage;
-@property(retain) NSMutableArray *elements; // @synthesize elements=_elements;
-@property unsigned long long graphicsContextPreset; // @synthesize graphicsContextPreset=_graphicsContextPreset;
 @property(retain) id <ISCompositorRecipe> recipe;
-@property unsigned long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(readonly) CIContext *sharedCIContext; // @synthesize sharedCIContext=_sharedCIContext;
 
 @end
 

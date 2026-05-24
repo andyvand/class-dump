@@ -11,7 +11,7 @@
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id)$;
 + (void);
 + (_Bool);
 + (_Bool);

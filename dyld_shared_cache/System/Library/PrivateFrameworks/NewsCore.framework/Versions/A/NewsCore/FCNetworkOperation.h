@@ -6,7 +6,6 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSString;
 @protocol FCNetworkReachabilityType;
 
 @interface FCNetworkOperation : FCOperation
@@ -20,23 +19,15 @@
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)NSt3__16__bindIRF7CGPointS1_RN15InputTranscoder14KeyboardLayoutEEJRS1_RKNS_12placeholders4__phILi1EEEEEE;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void)s/FeldsparServices/feldsparcore/Classes/FCAudioFeedConfigOperation.m;
-- (id)er;
+- (id)FCFeedTransformationLowQualityContentFilter;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(readonly, nonatomic) double preferredTimeoutIntervalForRequest;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,23 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _UIFocusLinearMovementDebugViewLineElement
 {
     int _type;
-    struct CGPoint _point;
-    struct CGPoint _cp1;
-    struct CGPoint _cp2;
 }
 
 + (id);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
+- (id)internalQueue;
+- (struct CGPoint)P;
+- (struct CGPoint)G;
 - (int)!\CùÑc1Â0@ù
 × ;
 - (struct CGPoint)te}@, expirationHandler:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint cp1; // @synthesize cp1=_cp1;
-@property(readonly, nonatomic) struct CGPoint cp2; // @synthesize cp2=_cp2;
-@property(readonly, nonatomic) struct CGPoint point; // @synthesize point=_point;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end

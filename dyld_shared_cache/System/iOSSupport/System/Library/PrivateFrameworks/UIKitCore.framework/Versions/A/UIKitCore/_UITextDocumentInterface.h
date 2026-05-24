@@ -6,50 +6,47 @@
 
 #import <UIKitCore/UIInputViewControllerInterface.h>
 
-@class NSString, NSUUID, TIDocumentState, TIKeyboardOutput, TITextInputTraits, UIConversationContext, UITextInputMode, UITextInputPasswordRules, _UIInputViewControllerOutput, _UIInputViewControllerState;
+@class _UIInputViewControllerState;
 @protocol _UITextDocumentInterfaceDelegate;
 
 @interface _UITextDocumentInterface : UIInputViewControllerInterface
 {
     id <_UITextDocumentInterfaceDelegate> _delegate;
-    _UIInputViewControllerState *_controllerState;
-    _UIInputViewControllerOutput *_controllerOutput;
-    TIKeyboardOutput *_keyboardOutput;
 }
 
+- (void)6Z;
+- (void);
+- (id);
+- (id);
+- (void)@0:(long long)arg1 8;
+- (void)Version:stickerExternalURI: /* Error: Ran out of types for this method. */;
+- (void)clearRateLimiter;
+- (void)clearDataFromCloudKit;
+- (void)cancelVCRequestWithPerson:properties:conference:reason: /* Error: Ran out of types for this method. */;
+- (void)cancelVCRequestWithPerson:(id)arg1 properties:conference: /* Error: Ran out of types for this method. */;
+- (void)account:(long long)arg1 conference:(double)arg2 changedToNewConferenceID:(struct CGPoint)arg3;
+- (void)_updateRecord:(_Bool)arg1;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)for sent message; sender:'%@':'%@' /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)__MPModelPropertyCuratorBrandLogoArtwork__MAPPING_MISSING__;
 - (id);
 - (void);
 - (void)bð1Â0@ù
 × ;
-- (_Bool)iodPreference;
-- (void)setsForType:dividerWidth: /* Error: Ran out of types for this method. */;
+- (_Bool)m_doubleSpacePeriodPreference;
+- (void)contentInsetsForType:dividerWidth: /* Error: Ran out of types for this method. */;
 - (long long)onvenience initializers;
 - (id)ds good! Kje se dobimo?;
 - (long long)nance Map Image must be non-zero size;
-- (_Bool)r;
+- (_Bool)identifier;
 - (long long);
 - (long long);
 - (long long)3UITableViewHeaderFooterB0CÜÉ;
@@ -66,103 +63,7 @@
 - (id)8ù];
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(nonatomic) _Bool allowsNumberPadPopover;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long autocapitalizationType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(retain, nonatomic, getter=_controllerOutput) _UIInputViewControllerOutput *controllerOutput; // @synthesize controllerOutput=_controllerOutput;
 @property(retain, nonatomic, getter=_controllerState) _UIInputViewControllerState *controllerState; // @synthesize controllerState=_controllerState;
-@property(retain, nonatomic) UIConversationContext *conversationContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIConversationContext",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=_delegate) __weak id <_UITextDocumentInterfaceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *documentContextAfterInput;
-@property(readonly, nonatomic) NSString *documentContextBeforeInput;
-@property(readonly, copy, nonatomic) NSUUID *documentIdentifier;
-@property(readonly, nonatomic) UITextInputMode *documentInputMode;
-@property(readonly, nonatomic, getter=_documentState) TIDocumentState *documentState;
-@property(nonatomic) _Bool enablesReturnKeyAutomatically;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long keyboardAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic, getter=_keyboardOutput) TIKeyboardOutput *keyboardOutput; // @synthesize keyboardOutput=_keyboardOutput;
-@property(nonatomic) long long keyboardType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) NSString *markedText;
-@property(nonatomic) long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) _Bool needsInputModeSwitchKey;
-@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITextInputPasswordRules",?,C,N
-
-@property(nonatomic) long long returnKeyType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisSecureTextEntry
-
-@property(readonly, nonatomic) NSString *selectedText;
-@property(nonatomic) long long smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) long long spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *textContentType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(readonly, nonatomic, getter=_textInputTraits) TITextInputTraits *textInputTraits;
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 
 @end
 

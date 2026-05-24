@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SCKProxying)
-- (void);
+- (void);
 @end
 

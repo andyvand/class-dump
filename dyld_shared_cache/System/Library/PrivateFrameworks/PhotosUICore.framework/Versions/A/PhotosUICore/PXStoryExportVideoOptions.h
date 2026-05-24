@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, PXExtendedTraitCollectionSnapshot;
-
 @interface PXStoryExportVideoOptions
 {
     _Bool _prefersExportLayoutMatchesPlayback;
-    PXExtendedTraitCollectionSnapshot *_fullSizePlayerExtendedTraitCollectionSnapshot;
-    double _scale;
-    NSNumber *_averageBitratePerSecond;
-    unsigned long long _frameRate;
-    unsigned long long _codec;
-    struct CGSize _resolution;
 }
 
 - (void);
@@ -24,27 +16,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (double);
 - (struct CGSize);
-- (id)KeyItemIndex:(struct _NSZone *)arg1;
+- (id)setKeyItemIndex:(struct _NSZone *)arg1;
 - (void)etsFilterPredicate;
-- (unsigned long long)isStatus;
+- (unsigned long long)PXMockCuratedLibraryAnalysisStatus;
 - (void)ÿÿÿ¬;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *averageBitratePerSecond; // @synthesize averageBitratePerSecond=_averageBitratePerSecond;
-@property(nonatomic) unsigned long long codec; // @synthesize codec=_codec;
-@property(nonatomic) unsigned long long frameRate; // @synthesize frameRate=_frameRate;
-@property(retain, nonatomic) PXExtendedTraitCollectionSnapshot *fullSizePlayerExtendedTraitCollectionSnapshot; // @synthesize fullSizePlayerExtendedTraitCollectionSnapshot=_fullSizePlayerExtendedTraitCollectionSnapshot;
-@property(nonatomic) _Bool prefersExportLayoutMatchesPlayback; // @synthesize prefersExportLayoutMatchesPlayback=_prefersExportLayoutMatchesPlayback;
 @property(nonatomic) struct CGSize resolution; // @synthesize resolution=_resolution;
-@property(readonly, nonatomic) struct CGSize resolutionInPixels;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

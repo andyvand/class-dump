@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PHSearchQuery;
+@class PHSearchQuery;
 
 @interface PHSearchSuggestionQueryResult
 {
     PHSearchQuery *_searchQuery;
-    NSArray *_searchSuggestions;
 }
 
 - (id);
+- (id)R	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)isProgressForHighlight:fetchCountBlock: /* Error: Ran out of types for this method. */;
+- (void)_analysisProgressForHighlight:fetchCountBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PHSearchQuery *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(readonly, nonatomic) NSArray *searchSuggestions; // @synthesize searchSuggestions=_searchSuggestions;
 
 @end
 

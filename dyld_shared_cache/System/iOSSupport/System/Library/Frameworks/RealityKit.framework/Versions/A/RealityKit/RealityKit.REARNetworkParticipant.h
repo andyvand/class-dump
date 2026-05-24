@@ -7,6 +7,7 @@
 @interface RealityKit.REARNetworkParticipant
 {
     id handle;
+    id;
 }
 
 @end

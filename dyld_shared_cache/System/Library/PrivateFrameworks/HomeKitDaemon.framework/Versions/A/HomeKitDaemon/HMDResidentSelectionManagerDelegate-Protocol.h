@@ -5,5 +5,6 @@
 //
 
 @protocol HMDResidentSelectionManagerDelegate
+- (void);
 @end
 

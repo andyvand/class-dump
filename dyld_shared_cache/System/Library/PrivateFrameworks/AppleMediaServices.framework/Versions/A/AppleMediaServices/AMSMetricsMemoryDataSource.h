@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)String);
 - (void)w£ÌAb²ºëUCÑ2j çÄ86M-<óåP³ë¡fE¹·Ì¬½rdW¿ékÃ$Y|¹,Á_ÿe-«l}ê6Ø±mÝ(þÁÏÿ52'\|]DFR½³ag<arO1>,BmC³ºé¡HÏg¡÷EèBÓòq`@¡'9Ö¢ï¢·õó£æ]ZwsCèÏ È=Fk;
 
 // Remaining properties

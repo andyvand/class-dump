@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SKProductSubscriptionPeriodInternal
 {
     unsigned long long _numberOfUnits;
-    unsigned long long _unit;
 }
 
 @end

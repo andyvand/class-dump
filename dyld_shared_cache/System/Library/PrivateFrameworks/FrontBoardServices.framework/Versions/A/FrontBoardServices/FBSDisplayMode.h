@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FBSDisplayMode
 {
     unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _preferredScale;
-    double _scaleOverride;
-    double _refreshRate;
-    long long _gamut;
-    long long _hdr;
-    long long _rotation;
-    _Bool _virtual;
 }
 
 + (id);
@@ -27,20 +17,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)E;
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (double);
 - (id);
 - (_Bool);
 - (id);
-- (struct CGSize);
+- (struct CGSize)@�H;
 - (struct CGSize);
 - (id);
-- (id);
+- (id)@;
 - (long long);
-- (long long);
+- (long long)(#;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -51,23 +41,11 @@
 - (id);
 - (struct CGSize);
 - (double);
-- (id);
+- (id)ng",&,V_note;
 - (long long)bject>"16;
 
 // Remaining properties
-@property(readonly, nonatomic) long long colorGamut; // @synthesize colorGamut=_gamut;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long hdrMode; // @synthesize hdrMode=_hdr;
 @property(readonly, nonatomic) struct CGSize pixelSize;
-@property(readonly, nonatomic) double pointScale;
-@property(readonly, nonatomic) double refreshRate; // @synthesize refreshRate=_refreshRate;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
 
 @end
 

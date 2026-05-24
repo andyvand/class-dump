@@ -6,13 +6,9 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSDictionary, NSString;
-
 @interface DMFInstallConfigurationRequest : DMFTaskRequest
 {
     unsigned long long _type;
-    NSString *_managingProfileIdentifier;
-    NSDictionary *_profile;
 }
 
 + (_Bool);
@@ -25,13 +21,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)DiffableDataSource",&,N,V_dataSource;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *managingProfileIdentifier; // @synthesize managingProfileIdentifier=_managingProfileIdentifier;
-@property(copy, nonatomic) NSDictionary *profile; // @synthesize profile=_profile;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

@@ -7,9 +7,6 @@
 @interface NewsArticles.ArticleViewerMenuProvider
 {
     id menuModel;
-    id commandCenter;
-    id paidAccessChecker;
-    id featureAvailability;
 }
 
 @end

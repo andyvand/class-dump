@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata;
+@class NSString, _INPBIntentMetadata;
 
 @protocol _INPBPlayAnnouncementSoundIntent
-- (_Bool)pletion: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_Bool);
+- (_Bool)handleHangUpCall:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasSoundType;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int soundType;
 @end
 

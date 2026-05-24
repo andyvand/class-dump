@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, PXGView, PXPhotosGlobalFooterView, PXPhotosLayout, PXPhotosViewModel, UXView;
-@protocol PXPhotosGridFooterPresentationDelegate;
+@class PXPhotosViewModel;
 
 @interface PXPhotosGridFooterPresentation
 {
     PXPhotosViewModel *_viewModel;
-    PXGView *_gridView;
-    PXPhotosLayout *_layout;
-    _Bool _hasAppearedOnce;
-    _Bool _hasReachedInitialPosition;
-    PXPhotosGlobalFooterView *_reusableFooterView;
-    double _lastUserScrollTime;
-    _Bool _didAutoReveal;
-    NSTimer *_autoRevealMinimumIdleTimer;
-    _Bool _shouldAutoReveal;
-    _Bool _wantsFooter;
-    _Bool _wantsFooterMask;
-    _Bool _footerFullyMasked;
-    id <PXPhotosGridFooterPresentationDelegate> _delegate;
-    UXView *_footerMaskView;
-    struct NSEdgeInsets _footerMaskPadding;
 }
 
 - (_Bool);
@@ -55,7 +39,7 @@
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void)�;
 - (_Bool);
 - (void);
 - (void);
@@ -67,20 +51,7 @@
 - (void)DùþÕµ¸RÿµìRÿõµ RÿåµLRÿÕµxRÿÅµtRÿÝµùþ­µùþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXPhotosGridFooterPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFooterFullyMasked) _Bool footerFullyMasked; // @synthesize footerFullyMasked=_footerFullyMasked;
-@property(nonatomic) struct NSEdgeInsets footerMaskPadding; // @synthesize footerMaskPadding=_footerMaskPadding;
-@property(retain, nonatomic) UXView *footerMaskView; // @synthesize footerMaskView=_footerMaskView;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool shouldAutoReveal; // @synthesize shouldAutoReveal=_shouldAutoReveal;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsFooter; // @synthesize wantsFooter=_wantsFooter;
-@property(nonatomic) _Bool wantsFooterMask; // @synthesize wantsFooterMask=_wantsFooterMask;
 
 @end
 

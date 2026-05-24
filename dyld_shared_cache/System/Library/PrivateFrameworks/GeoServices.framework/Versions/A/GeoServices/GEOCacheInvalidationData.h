@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOCacheInvalidationData
 {
     double _timestamp;
-    double _ttl;
-    unsigned int _version;
-    NSArray *_versionDomains;
 }
 
 + (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)rProvider;
+- (id)CNScheduler>",R,N,V_backgroundScheduler;
 - (unsigned int);
 - (id);
 - (double);
@@ -28,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) double ttl; // @synthesize ttl=_ttl;
-@property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
-@property(readonly, nonatomic) NSArray *versionDomains; // @synthesize versionDomains=_versionDomains;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.NotificationScheduledDeliveryModeReporter
 {
     id notificationController;
-    id notificationService;
 }
 
 @end

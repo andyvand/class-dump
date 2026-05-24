@@ -6,31 +6,23 @@
 
 #import <PhotosUICore/PXAssistantTemplateContainerViewController.h>
 
-@class NSArray, NSMutableArray, NSString, PXAssistantActivityItem, PXAssistantButtonItem, PXAssistantStepContext;
-@protocol PXAssistantNavigationControllerDelegate, PXAssistantViewControllerDelegate;
+@class NSMutableArray, PXAssistantActivityItem;
 
 @interface PXAssistantNavigationController : PXAssistantTemplateContainerViewController
 {
     NSMutableArray *_stepContexts;
-    PXAssistantStepContext *_stepContext;
-    id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate;
-    id <PXAssistantNavigationControllerDelegate> _delegate;
-    PXAssistantActivityItem *_activityItem;
-    PXAssistantButtonItem *_firstButtonItem;
-    PXAssistantButtonItem *_secondButtonItem;
-    PXAssistantButtonItem *_thirdButtonItem;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (id);
@@ -47,19 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXAssistantActivityItem *activityItem; // @synthesize activityItem=_activityItem;
-@property(nonatomic) __weak id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate; // @synthesize assistantViewControllerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXAssistantNavigationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PXAssistantButtonItem *firstButtonItem; // @synthesize firstButtonItem=_firstButtonItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXAssistantButtonItem *secondButtonItem; // @synthesize secondButtonItem=_secondButtonItem;
-@property(readonly, nonatomic) NSArray *stepContexts; // @synthesize stepContexts=_stepContexts;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXAssistantButtonItem *thirdButtonItem; // @synthesize thirdButtonItem=_thirdButtonItem;
 
 @end
 

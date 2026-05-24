@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView, UIView;
+
 @protocol UIScrollViewDelegate
+
+@optional
+- (void);
+- (void)i;
+- (void)@@"NSString";
+- (void)decodeXPCObjectOfType:(UIScrollView *)arg1 forKey:(_Bool)arg2;
+- (void);
+- (UIView *)1;
 @end
 

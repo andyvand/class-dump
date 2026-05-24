@@ -6,22 +6,18 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceAccountTransactionAnswerRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSString *_accountUserAltDSID;
-    NSURL *_baseURL;
-    NSString *_transactionIdentifier;
-    NSDictionary *_answers;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id)t:unable to serialize validation data:%s /* Error: Ran out of types for this method. */;
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(copy, nonatomic) NSDictionary *answers; // @synthesize answers=_answers;
-@property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

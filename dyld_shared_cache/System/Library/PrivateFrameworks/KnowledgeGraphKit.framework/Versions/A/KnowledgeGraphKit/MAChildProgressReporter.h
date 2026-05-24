@@ -9,8 +9,6 @@
 @interface MAChildProgressReporter : MAProgressReporter
 {
     MAProgressReporter *_parentProgress;
-    double _offset;
-    double _scale;
 }
 
 - (_Bool);
@@ -23,9 +21,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double offset; // @synthesize offset=_offset;
 @property(readonly, nonatomic) MAProgressReporter *parentProgress; // @synthesize parentProgress=_parentProgress;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

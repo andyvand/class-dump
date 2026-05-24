@@ -9,9 +9,6 @@
 @interface NSPasteboardItem
 {
     NSPasteboard *_pasteboard;
-    unsigned long long _index;
-    long long _gen;
-    id _auxObject;
 }
 
 + (id);

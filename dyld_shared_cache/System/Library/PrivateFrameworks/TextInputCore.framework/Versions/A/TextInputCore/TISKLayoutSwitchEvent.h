@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (double);
-- (void);
+- (void)needsCloudKitUpload;
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
 - (void)0@ù

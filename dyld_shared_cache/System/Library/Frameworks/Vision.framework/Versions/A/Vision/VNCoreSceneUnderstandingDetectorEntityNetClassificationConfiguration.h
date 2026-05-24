@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VNCoreSceneUnderstandingDetectorEntityNetClassificationConfiguration : VNCoreSceneUnderstandingDetectorFeatureConfiguration
 {
     float _minimumConfidence;
-    VNDisallowedList *_disallowedList;
-    unsigned long long _maximumClassifications;
 }
 
 - (void);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) VNDisallowedList *disallowedList; // @synthesize disallowedList=_disallowedList;
-@property unsigned long long maximumClassifications; // @synthesize maximumClassifications=_maximumClassifications;
-@property float minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
 
 @end
 

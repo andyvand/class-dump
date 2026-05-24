@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString;
-
 @interface MNNavigationAlertButtonInfo
 {
     _Bool _isDefaultButton;
-    int _buttonDisplay;
-    unsigned long long _action;
-    GEOComposedString *_formattedTitle;
 }
 
 + (_Bool);
@@ -21,16 +16,13 @@
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)econdaryButton;
 - (unsigned long long);
 - (id);
 - (void)lert"32;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(readonly, nonatomic) int buttonDisplay; // @synthesize buttonDisplay=_buttonDisplay;
-@property(readonly, nonatomic) GEOComposedString *formattedTitle; // @synthesize formattedTitle=_formattedTitle;
-@property(readonly, nonatomic) _Bool isDefaultButton; // @synthesize isDefaultButton=_isDefaultButton;
 
 @end
 

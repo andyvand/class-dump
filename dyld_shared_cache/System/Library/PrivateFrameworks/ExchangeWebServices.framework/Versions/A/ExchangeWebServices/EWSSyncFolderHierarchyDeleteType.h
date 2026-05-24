@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSFolderIdType, NSString;
+@class EWSFolderIdType;
 
 @interface EWSSyncFolderHierarchyDeleteType
 {
@@ -19,13 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EWSFolderIdType *FolderId; // @synthesize FolderId=_FolderId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

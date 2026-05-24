@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AXBrailleTranslationResult
 {
     NSString *_resultString;
-    NSArray *_locationMap;
-    NSString *_inputString;
 }
 
-+ (_Bool);
++ (_Bool)_processGradingDataFetchCommandWithRequest:ofLogType:fromSenderID:withReply: /* Error: Ran out of types for this method. */;
+- (id)S LV:CSSaysRevertReboot1/2=%d/%d = Combined=%d /* Error: Ran out of types for this method. */;
+- (id)=count=%lu;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)dimensions of input facecrop blob:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(readonly, nonatomic) NSArray *locationMap; // @synthesize locationMap=_locationMap;
-@property(readonly, nonatomic) NSString *resultString; // @synthesize resultString=_resultString;
 
 @end
 

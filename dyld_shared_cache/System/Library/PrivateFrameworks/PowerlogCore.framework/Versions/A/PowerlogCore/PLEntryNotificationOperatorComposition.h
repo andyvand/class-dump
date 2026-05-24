@@ -21,19 +21,19 @@
 + (id);
 + (id);
 + (id);
++ (id)d;
 + (id);
 + (id);
 + (id);
-+ (id);
+- (id);
+- (id)"NSError"16;
+- (id)FALocationSharingModificationClient;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 

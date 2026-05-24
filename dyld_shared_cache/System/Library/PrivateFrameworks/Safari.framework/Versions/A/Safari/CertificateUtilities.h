@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (RetainPtrArc_92de88b9);
++ (RetainPtrArc_a1eeb7a0);
 + (_Bool);
 + (id);
 + (id);

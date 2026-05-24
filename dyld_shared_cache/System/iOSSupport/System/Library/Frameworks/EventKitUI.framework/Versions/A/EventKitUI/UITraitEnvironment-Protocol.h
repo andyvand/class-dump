@@ -7,7 +7,8 @@
 @class UITraitCollection;
 
 @protocol UITraitEnvironment
-- (UITraitCollection *);
+- (void);
+- (UITraitCollection *)_proposedByMaxHeightConstraint;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

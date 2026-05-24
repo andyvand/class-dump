@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPEscapeOption, NSString;
+@class NSString;
 
 @interface CDPUIInfoViewModel
 {
     NSString *_title;
-    NSString *_message;
-    CDPEscapeOption *_option1;
-    CDPEscapeOption *_option2;
 }
 
 - (void);
@@ -23,12 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)	;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) CDPEscapeOption *option1; // @synthesize option1=_option1;
-@property(retain, nonatomic) CDPEscapeOption *option2; // @synthesize option2=_option2;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

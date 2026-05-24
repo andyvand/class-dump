@@ -13,9 +13,9 @@
 
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)2@?40;
 - (id)nBarRow:(struct _NSZone *)arg1 ,V_selectionBarRow;
-- (void)hPlacement;
+- (void)UIWindowScenePushPlacement;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType willUpdateCellHandler; // @synthesize willUpdateCellHandler=_willUpdateCellHandler;

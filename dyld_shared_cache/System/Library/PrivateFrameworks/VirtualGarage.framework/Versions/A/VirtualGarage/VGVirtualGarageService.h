@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, NSHashTable, NSObject, NSString, NSXPCConnection, geo_isolater;
-@protocol OS_dispatch_queue;
+@class NSHashTable, NSXPCConnection;
 
 @interface VGVirtualGarageService
 {
     NSHashTable *_clients;
-    geo_isolater *_clientsIsolater;
-    GEOObserverHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSString *_activeVehicleIdentifier;
-    NSXPCConnection *_connection;
 }
 
 + (_Bool);
 + (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -36,14 +24,19 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)oze until end time;
+- (void);
+- (void)dataForMemojiMetadata:backgroundColorDescription:cropTransform: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +44,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *activeVehicleIdentifier; // @synthesize activeVehicleIdentifier=_activeVehicleIdentifier;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end

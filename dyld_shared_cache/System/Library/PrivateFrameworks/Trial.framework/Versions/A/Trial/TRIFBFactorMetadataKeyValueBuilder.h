@@ -9,7 +9,6 @@
 @interface TRIFBFactorMetadataKeyValueBuilder
 {
     AFBBufferBuilder *_owner;
-    struct FactorMetadataKeyValueBuilder *_bldr;
 }
 
 - (void);

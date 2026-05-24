@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (void);
++ (id)ain to the deleteStmt;
+- (void)_NSHTTPAlternativeServiceEntry;
 - (struct CGColor *);
 - (id);
 - (void)Qà31Â0@ù

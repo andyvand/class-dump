@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)_signalSelectionChanged:(id)arg1;
 - (double);
 
 @end

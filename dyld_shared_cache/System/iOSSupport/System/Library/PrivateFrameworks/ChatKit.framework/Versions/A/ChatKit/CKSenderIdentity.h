@@ -9,10 +9,9 @@
 @interface CKSenderIdentity
 {
     NSString *_handle;
-    NSString *_simID;
 }
 
-+ (id);
++ (id)p;
 + (_Bool);
 + (id);
 + (_Bool);
@@ -20,14 +19,14 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)_isVisible;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ound. self.length is %lu;
+- (_Bool)layWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)version of macOS.;
+- (id)t;
 - (id);
 - (_Bool);
 - (id);
@@ -38,11 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isValidSubscription;
-@property(readonly, nonatomic) _Bool isiMessageEnabled;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) NSString *shortName;
-@property(readonly, nonatomic) NSString *simID; // @synthesize simID=_simID;
 
 @end
 

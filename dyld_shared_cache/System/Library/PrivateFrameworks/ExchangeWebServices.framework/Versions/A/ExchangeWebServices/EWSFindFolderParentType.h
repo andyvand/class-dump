@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EWSFindFolderParentType
 {
     _Bool _IncludesLastItemInRange;
-    NSArray *_Folders;
-    long long _IndexedPagingOffset;
-    long long _NumeratorOffset;
-    long long _AbsoluteDenominator;
-    long long _TotalItemsInView;
 }
 
 + (id);
@@ -21,30 +16,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long AbsoluteDenominator; // @synthesize AbsoluteDenominator=_AbsoluteDenominator;
 @property(copy, nonatomic) NSArray *Folders; // @synthesize Folders=_Folders;
-@property(nonatomic) _Bool IncludesLastItemInRange; // @synthesize IncludesLastItemInRange=_IncludesLastItemInRange;
-@property(nonatomic) long long IndexedPagingOffset; // @synthesize IndexedPagingOffset=_IndexedPagingOffset;
-@property(nonatomic) long long NumeratorOffset; // @synthesize NumeratorOffset=_NumeratorOffset;
-@property(nonatomic) long long TotalItemsInView; // @synthesize TotalItemsInView=_TotalItemsInView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

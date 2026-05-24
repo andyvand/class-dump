@@ -4,42 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
 @protocol _UITextAttributeDefaults;
 
 __attribute__((visibility("hidden")))
 @interface _UITextAttributeDictionaryImplI
 {
     id <_UITextAttributeDefaults> _fallback;
-    NSMutableDictionary *_storage;
-    NSMutableSet *_ignoring;
 }
 
 + (Class);
-+ (Class);
++ (Class)MPModelPropertyTVShowEditorNotes;
 + (_Bool),
 Mÿ;
 - (id);
 - (id);
+- (id)_ctx;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)];
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool){CGSize=dd}}16;
-- (id)abled:(id)arg1;
-- (id)BoltInactive:(id)arg1;
-- (_Bool)nningTransition;
-- (id)ce;
+- (id)setDebugUIEnabled:(id)arg1;
+- (id)setBoltInactive:(id)arg1;
+- (_Bool)_immediatelyFinishRunningTransition;
+- (id)_avgTouchesToCentroidDistance;
 - (id)V_language;
 - (id)¬+;
 - (unsigned long long)rsal BEGINS: /* Error: Ran out of types for this method. */;
 - (void)em=More;
 - (id);
-- (id)indingConfiguration;
-- (id)aticVCM;
+- (id)findingConfiguration;
+- (id)monochromaticVCM;
 - (void)3yñ¿7,¿7G;
 - (_Bool);
 - (_Bool);

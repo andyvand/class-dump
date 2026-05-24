@@ -9,16 +9,16 @@
     long long _type;
 }
 
-+ (_Bool);
++ (_Bool)timeWeightedAverageBitrate;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)addRecoveryKey:(id)arg1 authorizer:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)putPassDescription";
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

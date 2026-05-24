@@ -5,5 +5,8 @@
 //
 
 @protocol EKAutocompleterDelegate
+
+@optional
+- (void);
 @end
 

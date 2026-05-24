@@ -4,43 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICalendarView;
+@class UICalendarView;
 
 @interface UICalendarSelection
 {
     UICalendarView *_view;
 }
 
+- (void)PostDeliveryReceiptProcessingParameter. Bailing and passing input to next pipeline;
+- (void)iC by default:failed to get exit record attempt %d, done /* Error: Ran out of types for this method. */;
+- (_Bool)eeping local asset and sync state for %@;
+- (void)lf is proxy registered is %@;
+- (unsigned long long)ession on service %@ for replicating account %@;
+- (_Bool).IntentFileSafeRenderArchiveProvider;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)qa;
+- (id)_adjustedItemPropertyVolumeNormalizationOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)t;
 - (void)Ði;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool highlightsToday;
-@property(readonly, nonatomic) _Bool renderOverhangDays;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UICalendarView *view; // @synthesize view=_view;
 
 @end
 

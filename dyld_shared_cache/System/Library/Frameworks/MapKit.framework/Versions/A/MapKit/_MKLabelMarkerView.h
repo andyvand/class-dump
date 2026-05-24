@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)initWithIdentifier:andInfo:andSnapshottingEnabled:andMockData: /* Error: Ran out of types for this method. */;
 - (id);
+- (void));
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ght: /* Error: Ran out of types for this method. */;
-- (id)seScrollingDeltas;
-- (void)status;
+- (void)setHeaderHeight: /* Error: Ran out of types for this method. */;
+- (id)hasPreciseScrollingDeltas;
+- (void)_status;
 
 // Remaining properties
 @property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;

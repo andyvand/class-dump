@@ -8,17 +8,6 @@
 {
     id _nullableInteractions;
     id _interactions;
-    id _presentedInteractions;
-    id _index;
-    id _totalInteractionsFetched;
-    id _processCount;
-    id _isSyncing;
-    id _isAnimatingForward;
-    id _nextDonation;
-    id TARGET_SIZE;
-    id _currentID;
-    id _stateController;
-    id _$observationRegistrar;
 }
 
 @end

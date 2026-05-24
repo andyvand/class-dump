@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface SAFmfSearchCompleted : SABaseCommand
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -25,18 +25,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSNumber *atRequestedLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *fmfLocations;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSURL *searchContext;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSUICodeRedeemerViewController, NSError;
+
 @protocol AMSUICodeRedeemerViewControllerDelegate
+- (void)AProgressNotification"8;
+- (void)%@;
+- (void)NSError"16;
+- (void)ing assertions;
+- (void)lass:(AMSUICodeRedeemerViewController *)arg1 NSDictionary.class];
+- (void)Class:(AMSUICodeRedeemerViewController *)arg1 NSArray.class];
+- (void)bileAssetv2Provider.m;
+- (void)er assetsInCatalogForQuery:(AMSUICodeRedeemerViewController *)arg1 errorPtr:(NSError *)arg2 ];
 @end
 

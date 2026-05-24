@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (unsigned long long);
-- (_Bool)etData: /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long)teNicknameData(_:) /* Error: Ran out of types for this method. */;
+- (_Bool)setPacketData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isMuted) _Bool muted;

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)escription;
 + (void);
 - (void);
 

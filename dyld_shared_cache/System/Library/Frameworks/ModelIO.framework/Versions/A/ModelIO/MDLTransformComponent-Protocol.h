@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol MDLTransformComponent
+- (_Bool)B;
+- (double)Id = %ld;
+- (double)sionsItemIds ON sessions.id = sessionsItemIds.sessionId AND sessions.sessionDescriptorId = (SELECT id FROM sessionsDescriptors WHERE name = :name AND version = :version AND locale = :locale) AND sessionsItemIds.lastUsed <= :lastUsedMax AND sessionsItemIds.timesAccessed < :timesUsedMax AND sessions.id > :rowId %@ ORDER BY sessions.id limit :limit /* Error: Ran out of types for this method. */;
+- (void)VTUITrainingManagerPartialTextDetected:(CDStruct_34f00414)arg1;
+- (CDStruct_34f00414);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *keyTimes;
-@property(nonatomic) CDStruct_95fa7c00 matrix;
-@property(readonly, nonatomic) double maximumTime;
-@property(readonly, nonatomic) double minimumTime;
-@property(nonatomic) _Bool resetsTransform;
+@property(nonatomic) CDStruct_34f00414 matrix;
 @end
 

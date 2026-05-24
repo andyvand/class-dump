@@ -23,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (_Bool)0:(id)arg1 8@16@24q32@40;
 - (_Bool);
 - (_Bool);
-- (void)ASTE_STYLE;
-- (void)idging;
-- (void)utModeIndicatorTimeout;
+- (void)UIMENU_FORMAT_MENU_FONT_PASTE_STYLE;
+- (void)NSUIImageShouldEnableBridging;
+- (void)UIKeyboardInputModeIndicatorTimeout;
 - (void)gº;
-- (void)nError;
+- (void)UISceneConnectionOptionDefinitionError;
 
 @end
 

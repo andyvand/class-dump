@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ASNavigationItem
 {
     NSString *_title;
-    NSArray *_leftBarButtonItems;
-    NSArray *_rightBarButtonItems;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *leftBarButtonItems; // @synthesize leftBarButtonItems=_leftBarButtonItems;
-@property(copy, nonatomic) NSArray *rightBarButtonItems; // @synthesize rightBarButtonItems=_rightBarButtonItems;
 @property(copy) NSString *title; // @synthesize title=_title;
 
 @end

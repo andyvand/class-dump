@@ -6,20 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIMorphologyRectangle : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputWidth;
-    NSNumber *inputHeight;
 }
 
 + (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool),;
 - (id);
 - (void);
 - (id);
@@ -28,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)KaZcyyyy¥©©©©©©yvs{[miu{{{{xxxxRbZs_qm}~|{zw{lqlsrrrrbojrEc[scnivejbrD`VqurnvQhcqAUJbWXM\Rd]gzvtzg{{jjjjSSQS?J?KWWPWoooo~||||Sd\n`kdpxztGd]nbb]baaaaddddffff@XKd=TFd_aWgXaWfPZNcI`Uj|¤¥¥¢§¨¨¨¨ªªªªªªªª»»»»³µµµ¤¤¤¤mqvo}gsmuluqvxxwxZmhtZf^n`g`j`f^jMf_qiwt}x¢¢¢¢z¡¡¡¡¡¡¡~Yjbu\cYhTaYhwwtwRd]pruuuvz{|Vpnzixyyzzzz|jwsvwszxxuxwwwwvvvvttttlrqrlmmmR]VaJVL^qqqqrm~«¦««¿¿¿¿½½½½bysUphzx`us}nnjnQ`Zc`hhhyyyybonqaaYa``_`K\Rc?ZOhooist{y|zzzzZmdy¡¡¡¡¦¦¦¦DbWupmepttttamiomjdmlyz{dlkq\\W\BLCMGE:I-B5QE[UiolhqAUK\TTMT@RIXhhhhqqqq]c]jBZReooooixxxn|}}}}}}]kgv;\TpbmksrrrrddddHSJUFUK[jpmpgwtq¨¨¨¨°°°°¢¢z{wq}t|{|}}}}ivtwjmhqwwvwu¡£§§££££V^Ti>N?Y]_Ublniw¥¥¥¥¡¡¡¡}pokrbhakssrs}}}}xxxxRb[fZZRZT_V_jqnu~kxv}}}}hheh<QE_nqoqssssenknqtrv    ®®®®©©©©{frmrpoiptzzz|x\zzevvy~~~yyyyisuu||||p}}vvvvjjjjQ[Qd]jdpxZkf{bqnyqxxxoonoEZPeNYMidvtynywbpl|lyy|zzzzqqqq>XNcGVK_mmmm ¨­°¯°°¤¤¤¤}}~||~e}z|xt|Shao?\SiRc[nUrn~io~~~~bjej/K;_ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputHeight; // @synthesize inputHeight;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputWidth; // @synthesize inputWidth;
 
 @end
 

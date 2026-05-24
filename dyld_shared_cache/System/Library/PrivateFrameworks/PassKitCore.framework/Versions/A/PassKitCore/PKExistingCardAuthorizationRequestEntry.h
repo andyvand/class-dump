@@ -9,18 +9,16 @@
 @interface PKExistingCardAuthorizationRequestEntry
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)isNetworkEnabled;
 - (void)eligible value:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 
 @end

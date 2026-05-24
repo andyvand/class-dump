@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface CNAutocompleteFetchContext
 {
     _Bool _predictsBasedOnOutgoingInteraction;
-    NSString *_sendingAddress;
-    NSString *_sendingAddressAccountIdentifier;
-    NSString *_domainIdentifier;
-    NSArray *_relatedContacts;
-    NSArray *_otherAddressesAlreadyChosen;
-    NSDate *_date;
-    NSString *_locationUUID;
-    NSString *_title;
-    NSArray *_bundleIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool)ShiftOperation;
 - (void);
 - (void);
 - (void);
@@ -28,14 +19,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -51,16 +42,7 @@
 - (id)±È;
 
 // Remaining properties
-@property(copy) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(copy) NSDate *date; // @synthesize date=_date;
-@property(copy) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(copy) NSString *locationUUID; // @synthesize locationUUID=_locationUUID;
-@property(copy) NSArray *otherAddressesAlreadyChosen; // @synthesize otherAddressesAlreadyChosen=_otherAddressesAlreadyChosen;
-@property _Bool predictsBasedOnOutgoingInteraction; // @synthesize predictsBasedOnOutgoingInteraction=_predictsBasedOnOutgoingInteraction;
-@property(copy) NSArray *relatedContacts; // @synthesize relatedContacts=_relatedContacts;
 @property(copy) NSString *sendingAddress; // @synthesize sendingAddress=_sendingAddress;
-@property(copy) NSString *sendingAddressAccountIdentifier; // @synthesize sendingAddressAccountIdentifier=_sendingAddressAccountIdentifier;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

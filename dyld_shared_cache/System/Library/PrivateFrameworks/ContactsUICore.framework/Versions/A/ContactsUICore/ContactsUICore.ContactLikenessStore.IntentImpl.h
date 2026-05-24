@@ -7,7 +7,6 @@
 @interface ContactsUICore.ContactLikenessStore.IntentImpl
 {
     id logger;
-    id clientLabel;
 }
 
 @end

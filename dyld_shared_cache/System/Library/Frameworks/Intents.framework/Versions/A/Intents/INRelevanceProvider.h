@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)eraseAllSettings;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)defaults:(id)arg1 %@;
 - (id);
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol HMDSharedHomeUpdateSessionDelegate
+- (void)_deviceHandlesByVersion;
 @end
 

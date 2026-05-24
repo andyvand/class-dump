@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFSiriActivationConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_xpcConnection;
-    long long _servicePort;
 }
 
 - (oneway void);
@@ -21,8 +19,8 @@
 - (oneway void);
 - (id);
 - (oneway void);
-- (void);
-- (void);
+- (void)_xpcConnection;
+- (void)passbook.%@.cip.later;
 - (void);
 - (id);
 - (void);
@@ -31,13 +29,7 @@
 - (id)iActivationListener handleIntentForwardingAction:inBackgroundApplicationWithBundleIdentifier:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface EKUIAttendeeTokenAttachmentCell : EKUITokenAttachmentCell
 {
     _Bool _isExpanded;
-    _Bool _attendeeHasAddress;
-    _Bool _isOverAttendeeLimit;
-    _Bool _isBlocked;
 }
 
 - (id);
@@ -21,11 +18,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)L;
 - (int);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)q;
+- (void)9H$;
 - (id);
 - (void);
 - (_Bool);
@@ -33,10 +30,7 @@
 - (id);
 
 // Remaining properties
-@property _Bool attendeeHasAddress; // @synthesize attendeeHasAddress=_attendeeHasAddress;
-@property _Bool isBlocked; // @synthesize isBlocked=_isBlocked;
 @property _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
-@property _Bool isOverAttendeeLimit; // @synthesize isOverAttendeeLimit=_isOverAttendeeLimit;
 
 @end
 

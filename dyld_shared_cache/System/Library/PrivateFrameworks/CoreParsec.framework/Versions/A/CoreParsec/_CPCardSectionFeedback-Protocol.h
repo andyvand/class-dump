@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPCardSectionForFeedback;
+@class NSString, _CPCardSectionForFeedback;
 
 @protocol _CPCardSectionFeedback
+- (void)onse &&, WebCore:(NSString *)arg1:ResourceRequest &&, CompletionHandler<void (bool)> &&) /* Error: Ran out of types for this method. */;
+- (NSString *)CT * FROM extension_storage;
+- (void)ValuePairKeyExtractor<WTF:(_CPCardSectionForFeedback *)arg1:KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebExtensionContext>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _CPCardSectionForFeedback *cardSection;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *resultId;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

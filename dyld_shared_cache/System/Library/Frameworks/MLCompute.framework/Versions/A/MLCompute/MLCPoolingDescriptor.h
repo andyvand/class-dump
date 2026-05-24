@@ -7,16 +7,6 @@
 @interface MLCPoolingDescriptor
 {
     _Bool _countIncludesPadding;
-    int _poolingType;
-    int _paddingPolicy;
-    unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _strideInX;
-    unsigned long long _strideInY;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _paddingSizeInX;
-    unsigned long long _paddingSizeInY;
 }
 
 + (id);
@@ -25,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (int);
@@ -39,24 +29,14 @@
 - (unsigned long long);
 - (int);
 - (id);
-- (unsigned long long);
+- (unsigned long long)y;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool countIncludesPadding; // @synthesize countIncludesPadding=_countIncludesPadding;
-@property(readonly, nonatomic) unsigned long long dilationRateInX; // @synthesize dilationRateInX=_dilationRateInX;
-@property(readonly, nonatomic) unsigned long long dilationRateInY; // @synthesize dilationRateInY=_dilationRateInY;
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) int paddingPolicy; // @synthesize paddingPolicy=_paddingPolicy;
-@property(readonly, nonatomic) unsigned long long paddingSizeInX; // @synthesize paddingSizeInX=_paddingSizeInX;
-@property(readonly, nonatomic) unsigned long long paddingSizeInY; // @synthesize paddingSizeInY=_paddingSizeInY;
 @property(readonly, nonatomic) int poolingType; // @synthesize poolingType=_poolingType;
-@property(readonly, nonatomic) unsigned long long strideInX; // @synthesize strideInX=_strideInX;
-@property(readonly, nonatomic) unsigned long long strideInY; // @synthesize strideInY=_strideInY;
 
 @end
 

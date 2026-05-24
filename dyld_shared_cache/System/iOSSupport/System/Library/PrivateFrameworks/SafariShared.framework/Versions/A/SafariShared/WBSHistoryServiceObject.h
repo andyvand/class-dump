@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long),;
 
 // Remaining properties
 @property(readonly, nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;

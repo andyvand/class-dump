@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SFFeedbackListener;
 
 @interface SearchUIStoreViewController
 {
     id <SFFeedbackListener> _feedbackListener;
-    unsigned long long _queryId;
 }
 
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
@@ -21,15 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak id <SFFeedbackListener> feedbackListener; // @synthesize feedbackListener=_feedbackListener;
-@property(readonly) unsigned long long hash;
-@property unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(readonly) Class superclass;
 
 @end
 

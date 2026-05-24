@@ -7,10 +7,6 @@
 @interface NewsUI2.TagViewLayoutOptions.AccessoryOptions
 {
     id items;
-    id shouldLayoutForLargeText;
-    id compactItemSize;
-    id axCompactItemSize;
-    id largeItemSize;
 }
 
 @end

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFAudioData, SFMediaMetadata;
+@class NSData, SFMediaMetadata;
 
 @protocol SFPlayMediaCommand
+- (_Bool)@;
+- (NSData *)Ж;
 
 // Remaining properties
-@property(retain, nonatomic) SFAudioData *audioData;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFMediaMetadata *mediaMetadata;
-@property(nonatomic) int playbackLocation;
-@property(nonatomic) _Bool shouldPause;
 @end
 

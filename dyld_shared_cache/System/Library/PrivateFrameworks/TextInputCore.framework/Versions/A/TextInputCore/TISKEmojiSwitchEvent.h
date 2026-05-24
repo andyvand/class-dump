@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (void)isVisibleSent;
+- (id)aired device id:(double)arg1 %@, idsID:(_Bool)arg2 %@, senderID:(long long)arg3 %@, senderIDS:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

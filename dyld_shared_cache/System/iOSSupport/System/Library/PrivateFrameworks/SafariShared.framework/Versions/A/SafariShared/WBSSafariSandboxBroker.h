@@ -10,20 +10,16 @@
 @interface WBSSafariSandboxBroker
 {
     int _pid;
-    NSObject<OS_os_log> *_log;
-    CDStruct_4c969caf _auditToken;
 }
 
 - (id);
 - (int);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
 - (void)htsBannerSQLiteStore _createDatabaseSchemaIfNeeded];
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 
 @end
 

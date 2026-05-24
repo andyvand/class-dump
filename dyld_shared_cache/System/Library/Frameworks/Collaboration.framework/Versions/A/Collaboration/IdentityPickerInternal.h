@@ -4,63 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBIdentityQuery, IdentityDataSource, NSArray, NSButton, NSImageView, NSProgressIndicator, NSSearchField, NSString, NSTableView, NSTextField, NSTimer, NSWindow, SFPasswordAssistantInspectorController, SidebarDataSource;
+@class NSString;
 
 @interface IdentityPickerInternal
 {
     NSString *_title;
-    NSString *_defaultButtonTitle;
-    NSArray *_disabledIdentities;
-    NSArray *_identities;
-    _Bool _allowsMultipleSelection;
-    _Bool _showsHiddenIdentities;
-    _Bool _showsSharingOnlyUsers;
-    _Bool _showsLocalUsers;
-    _Bool _showsLocalGroups;
-    _Bool _showsNetworkUsers;
-    _Bool _showsNetworkGroups;
-    _Bool _showsNewPersonButton;
-    _Bool _showsAddressBook;
-    _Bool _showsAddressBookGroups;
-    _Bool _allNetworkUsersDone;
-    _Bool _allNetworkGroupsDone;
-    NSTimer *_queryStartTimer;
-    NSTimer *_queryUpdateTimer;
-    NSTimer *_progressTimer;
-    CBIdentityQuery *_userQuery;
-    CBIdentityQuery *_groupQuery;
-    CBIdentityQuery *_allNetworkUsers;
-    CBIdentityQuery *_allNetworkGroups;
-    SidebarDataSource *_sidebarDataSource;
-    IdentityDataSource *_identityDataSource;
-    struct __CFRunLoopSource *_dynamicStoreSource;
-    SFPasswordAssistantInspectorController *_passwordAssistant;
-    NSTableView *_sidebarTableView;
-    NSTableView *_identityTableView;
-    NSSearchField *_searchField;
-    NSProgressIndicator *_progressSpinner;
-    NSButton *_shareButton;
-    NSButton *_cancelButton;
-    NSButton *_newPersonButton;
-    NSWindow *_shareModalWindow;
-    NSWindow *_newPersonWindow;
-    NSTextField *_nameTextField;
-    NSTextField *_passwordTextField;
-    NSTextField *_verifyTextField;
-    NSImageView *_nameWrongImageView;
-    NSImageView *_passwordWrongImageView;
-    NSImageView *_verifyWrongImageView;
-    NSButton *_newPersonHelpButton;
-    NSWindow *_addPasswordWindow;
-    NSTextField *_addDescriptionTextField;
-    NSTextField *_addPasswordTextField;
-    NSTextField *_addVerifyTextField;
-    NSImageView *_addPasswordWrongImageView;
-    NSImageView *_addVerifyWrongImageView;
-    NSButton *_addPasswordHelpButton;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,14 +22,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)H
+;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)W;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)J;
+- (void);
+- (void)+);
 - (void);
 - (void);
 - (void);
@@ -94,21 +54,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ThC;
 - (void);
 - (void);
 - (void);
@@ -118,38 +70,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)>";
 - (_Bool);
 - (void);
-- (id);
+- (id)_;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property(copy, nonatomic) NSString *defaultButtonTitle; // @synthesize defaultButtonTitle=_defaultButtonTitle;
-@property(copy, nonatomic) NSArray *disabledIdentities; // @synthesize disabledIdentities=_disabledIdentities;
-@property(readonly, copy, nonatomic) NSArray *identities;
-@property(nonatomic) _Bool showsAddressBook; // @synthesize showsAddressBook=_showsAddressBook;
-@property(nonatomic) _Bool showsAddressBookGroups; // @synthesize showsAddressBookGroups=_showsAddressBookGroups;
-@property(nonatomic) _Bool showsGroups;
-@property(nonatomic) _Bool showsHiddenIdentities; // @synthesize showsHiddenIdentities=_showsHiddenIdentities;
-@property(nonatomic) _Bool showsLocalGroups; // @synthesize showsLocalGroups=_showsLocalGroups;
-@property(nonatomic) _Bool showsLocalIdentities;
-@property(nonatomic) _Bool showsLocalUsers; // @synthesize showsLocalUsers=_showsLocalUsers;
-@property(nonatomic) _Bool showsNetworkGroups; // @synthesize showsNetworkGroups=_showsNetworkGroups;
-@property(nonatomic) _Bool showsNetworkIdentities;
-@property(nonatomic) _Bool showsNetworkUsers; // @synthesize showsNetworkUsers=_showsNetworkUsers;
-@property(nonatomic) _Bool showsNewPersonButton; // @synthesize showsNewPersonButton=_showsNewPersonButton;
-@property(nonatomic) _Bool showsSharingOnlyUsers; // @synthesize showsSharingOnlyUsers=_showsSharingOnlyUsers;
-@property(nonatomic) _Bool showsUsers;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

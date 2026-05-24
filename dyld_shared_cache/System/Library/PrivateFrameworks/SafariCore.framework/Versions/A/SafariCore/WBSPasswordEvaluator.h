@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSPasswordPatternMatcher, WBSPasswordWordListCollection;
+@class WBSPasswordWordListCollection;
 
 @interface WBSPasswordEvaluator
 {
     WBSPasswordWordListCollection *_passwordWordListCollection;
-    WBSPasswordWordListCollection *_passcodeWordListCollection;
-    WBSPasswordPatternMatcher *_patternMatcher;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void)0@ù

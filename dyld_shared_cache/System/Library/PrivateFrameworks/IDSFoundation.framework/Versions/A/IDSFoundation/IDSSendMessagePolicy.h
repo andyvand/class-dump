@@ -9,10 +9,10 @@
     id policy;
 }
 
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)vate.alloy.alarms-timers;
 
 @end

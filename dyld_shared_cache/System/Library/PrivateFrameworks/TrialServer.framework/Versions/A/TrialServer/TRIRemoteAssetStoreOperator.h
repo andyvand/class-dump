@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASXPCClientHelper;
-@protocol TRIPaths, TRIStorageManagementProtocol;
+@protocol TRIPaths;
 
 @interface TRIRemoteAssetStoreOperator
 {
     id <TRIPaths> _paths;
-    _PASXPCClientHelper *_internalHelper;
-    id <TRIStorageManagementProtocol> _storageManagement;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setNeedsInProcessHandling:(id)arg1;
+- (_Bool)setNeedsCurrentEncodingBitRateUpdate:(id)arg1;
+- (_Bool)setApplyTransform:(id)arg1;
+- (_Bool)serializeParameter:(unsigned int *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)removeTrack:(id)arg1;
+- (_Bool)readMetadataValueFromImageAtFileURL:dictionaryKey:key:value:error: /* Error: Ran out of types for this method. */;
 - (id);
+- (_Bool)!;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void)a×ð!;

@@ -6,7 +6,7 @@
 
 #import <AppKit/NSTouchBarItemTreeNode.h>
 
-@class NSString, NSTouchBar;
+@class NSTouchBar;
 
 @interface NSTouchBarItemTreeBarProviderNode : NSTouchBarItemTreeNode
 {
@@ -14,25 +14,16 @@
 }
 
 + (id);
-- (long long);
-- (id);
-- (id);
+- (long long)CameraButtonNormalizedCGRect;
+- (id)BatteryIsFullyCharged;
+- (id);
 - (void);
 - (id);
 - (id)S~lÆA;
 - (id)ÄaVE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
-@property(readonly) NSTouchBar *touchBarContainingChildNodes;
-@property(readonly) long long touchBarLayoutDirection;
 
 @end
 

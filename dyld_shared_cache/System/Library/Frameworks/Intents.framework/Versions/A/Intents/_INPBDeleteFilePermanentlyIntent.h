@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBDeleteFilePermanentlyIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)P;
+- (unsigned long long);
+- (_Bool)ز;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)twork (new=%{public}@, old=%{public}@);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)ary",R,N,V_referencedCodableDescriptionsByClassName;
-- (void)eCodeContinueInApp;
+- (void)INGetVisualCodeIntentResponseCodeContinueInApp;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

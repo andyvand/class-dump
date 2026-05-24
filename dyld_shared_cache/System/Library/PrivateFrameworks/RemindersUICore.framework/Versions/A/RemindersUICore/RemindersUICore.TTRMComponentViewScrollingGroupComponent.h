@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewScrollingGroupComponent
 {
     id enabledState;
-    id isResizable;
-    id children;
-    id groupView;
 }
 
 @end

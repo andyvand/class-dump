@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSProgressSubscriber
 {
     CDUnknownBlockType _publishingHandler;
-    NSString *_subscriberID;
-    NSMutableDictionary *_proxiesByPublisherID;
-    _Bool _started;
-    NSLock *_lock;
 }
 
 - (void);
@@ -27,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (oneway void)éÒ¤à·è´Â¤ÒÃ¤§¢Í»ÃÖÈÔÅÓµéàÇÈàÅ¢èâµà¡ÔçÁÕ à¢á¡éÐÍÕ¡çÁÒÂ¾ËÑºá¾§ÅÍÒÐÍÇÓªÑÐ´Ò à¸Ð¾Òç¾Ù¹Ê«§ËÒ¡Çè·Óª¸Ôì´ÇÑÃÒä¨Ð¨ÊÒ¸¡ÔÅÒ "èÇà§ ¾è·Ãã¹ã ¢éÊØ·¸ÔªÂá¼¹·ÑéÓËèÍÊéá¤ÍÅµìà·é¨ÔÔ¹ºà·çÇÔµà¤ÃáÅÐºà»;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

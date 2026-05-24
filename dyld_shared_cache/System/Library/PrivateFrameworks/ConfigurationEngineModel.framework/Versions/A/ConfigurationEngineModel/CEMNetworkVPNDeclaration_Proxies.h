@@ -6,27 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMNetworkVPNDeclaration_Proxies : CEMPayloadBase
 {
     NSNumber *_payloadHTTPEnable;
-    NSNumber *_payloadHTTPPort;
-    NSString *_payloadHTTPProxy;
-    NSString *_payloadHTTPProxyPassword;
-    NSString *_payloadHTTPProxyUsername;
-    NSNumber *_payloadHTTPSEnable;
-    NSNumber *_payloadHTTPSPort;
-    NSString *_payloadHTTPSProxy;
-    NSNumber *_payloadProxyAutoConfigEnable;
-    NSNumber *_payloadProxyAutoDiscoveryEnable;
-    NSString *_payloadProxyAutoConfigURLString;
-    NSArray *_payloadSupplementalMatchDomains;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)ylib;
 - (void);
 - (void);
 - (void);
@@ -45,30 +34,19 @@
 - (id);
 - (id);
 - (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)F;
+- (_Bool)mment>[\S\s]*?)-->;
+- (id)AHtSi10cycleCount_Si05valueB0tGAEG;
+- (void)SSL_PREPARE_CLIENTHELLO_TLSEXT;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *payloadHTTPEnable; // @synthesize payloadHTTPEnable=_payloadHTTPEnable;
-@property(copy, nonatomic) NSNumber *payloadHTTPPort; // @synthesize payloadHTTPPort=_payloadHTTPPort;
-@property(copy, nonatomic) NSString *payloadHTTPProxy; // @synthesize payloadHTTPProxy=_payloadHTTPProxy;
-@property(copy, nonatomic) NSString *payloadHTTPProxyPassword; // @synthesize payloadHTTPProxyPassword=_payloadHTTPProxyPassword;
-@property(copy, nonatomic) NSString *payloadHTTPProxyUsername; // @synthesize payloadHTTPProxyUsername=_payloadHTTPProxyUsername;
-@property(copy, nonatomic) NSNumber *payloadHTTPSEnable; // @synthesize payloadHTTPSEnable=_payloadHTTPSEnable;
-@property(copy, nonatomic) NSNumber *payloadHTTPSPort; // @synthesize payloadHTTPSPort=_payloadHTTPSPort;
-@property(copy, nonatomic) NSString *payloadHTTPSProxy; // @synthesize payloadHTTPSProxy=_payloadHTTPSProxy;
-@property(copy, nonatomic) NSNumber *payloadProxyAutoConfigEnable; // @synthesize payloadProxyAutoConfigEnable=_payloadProxyAutoConfigEnable;
-@property(copy, nonatomic) NSString *payloadProxyAutoConfigURLString; // @synthesize payloadProxyAutoConfigURLString=_payloadProxyAutoConfigURLString;
-@property(copy, nonatomic) NSNumber *payloadProxyAutoDiscoveryEnable; // @synthesize payloadProxyAutoDiscoveryEnable=_payloadProxyAutoDiscoveryEnable;
-@property(copy, nonatomic) NSArray *payloadSupplementalMatchDomains; // @synthesize payloadSupplementalMatchDomains=_payloadSupplementalMatchDomains;
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDSqliteChangeStoreDatabase, NSMapTable, NSMutableIndexSet, NSString;
-
 @interface ISDSqliteChangeStore
 {
     unsigned int _greatestEnumeratedToGeneration;
-    long long _numberEnumerated;
-    unsigned long long _maxToEnumerate;
-    unsigned long long _fromRow;
-    long long _lastRowEnumerated;
-    int _numGenerationsToRetain;
-    NSString *_path;
-    NSMutableIndexSet *_enumeratedChanges;
-    unsigned long long _flushCount;
-    NSMapTable *_changesMap;
-    NSMapTable *_referencesRowsMap;
-    ISDSqliteChangeStoreDatabase *_db;
 }
 
 + (id);
@@ -32,7 +19,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)_;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -44,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 - (unsigned long long);
@@ -66,18 +53,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)*!;
 - (void);
-- (void);
-- (void);
-- (void)sdUseFriendlyExceptions: /* Error: Ran out of types for this method. */;
+- (void)_isdUseFriendlyExceptions: /* Error: Ran out of types for this method. */;
 
 @end
 

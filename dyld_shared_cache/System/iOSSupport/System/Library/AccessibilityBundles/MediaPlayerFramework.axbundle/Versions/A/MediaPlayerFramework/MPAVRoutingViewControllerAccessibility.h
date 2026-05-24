@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_accessibilityIndexPath;
++ (void)6;
 - (void);
 
 @end

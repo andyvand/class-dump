@@ -4,9 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, SCNGeometry, SCNParticleSystem;
+@class NSArray;
 
 @protocol SCNParticleSystemJSExport
+- (void)B;
+- (void);
+- (void).;
+- (void);
+- (double);
+- (double);
+- (double);
+- (double);
+- (void);
+- (NSArray *);
 - (struct SCNVector3)void add_omni(scn_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
     {
         float3 unnormalized_l = light.pos - surface.position;
@@ -1253,68 +1263,6 @@ static inline void scn_smooth_geometry_phong(thread float3 &position, thread flo
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 acceleration;
-@property(nonatomic) _Bool affectedByGravity;
-@property(nonatomic) _Bool affectedByPhysicsFields;
-@property(nonatomic) long long birthDirection;
-@property(nonatomic) long long birthLocation;
-@property(nonatomic) double birthRate;
-@property(nonatomic) double birthRateVariation;
-@property(nonatomic, getter=isBlackPassEnabled) _Bool blackPassEnabled;
-@property(nonatomic) long long blendMode;
-@property(copy, nonatomic) NSArray *colliderNodes;
-@property(nonatomic) double dampingFactor;
 @property(nonatomic) double emissionDuration;
-@property(nonatomic) double emissionDurationVariation;
-@property(retain, nonatomic) SCNGeometry *emitterShape;
-@property(nonatomic) struct SCNVector3 emittingDirection;
-@property(nonatomic) double fresnelExponent;
-@property(nonatomic) double idleDuration;
-@property(nonatomic) double idleDurationVariation;
-@property(nonatomic) long long imageSequenceAnimationMode;
-@property(nonatomic) unsigned long long imageSequenceColumnCount;
-@property(nonatomic) double imageSequenceFrameRate;
-@property(nonatomic) double imageSequenceFrameRateVariation;
-@property(nonatomic) double imageSequenceInitialFrame;
-@property(nonatomic) double imageSequenceInitialFrameVariation;
-@property(nonatomic) unsigned long long imageSequenceRowCount;
-@property(nonatomic, getter=isLightingEnabled) _Bool lightingEnabled;
-@property(nonatomic, getter=isLocal) _Bool local;
-@property(nonatomic) _Bool loops;
-@property(nonatomic) struct SCNVector3 orientationDirection;
-@property(nonatomic) long long orientationMode;
-@property(nonatomic) double particleAngle;
-@property(nonatomic) double particleAngleVariation;
-@property(nonatomic) double particleAngularVelocity;
-@property(nonatomic) double particleAngularVelocityVariation;
-@property(nonatomic) double particleBounce;
-@property(nonatomic) double particleBounceVariation;
-@property(nonatomic) double particleCharge;
-@property(nonatomic) double particleChargeVariation;
-@property(retain, nonatomic) id particleColor;
-@property(nonatomic) struct SCNVector4 particleColorVariation;
-@property(nonatomic) _Bool particleDiesOnCollision;
-@property(nonatomic) double particleFriction;
-@property(nonatomic) double particleFrictionVariation;
-@property(retain, nonatomic) id particleImage;
-@property(nonatomic) double particleIntensity;
-@property(nonatomic) double particleIntensityVariation;
-@property(nonatomic) double particleLifeSpan;
-@property(nonatomic) double particleLifeSpanVariation;
-@property(nonatomic) double particleMass;
-@property(nonatomic) double particleMassVariation;
-@property(nonatomic) double particleSize;
-@property(nonatomic) double particleSizeVariation;
-@property(nonatomic) double particleVelocity;
-@property(nonatomic) double particleVelocityVariation;
-@property(copy, nonatomic) NSDictionary *propertyControllers;
-@property(nonatomic) long long sortingMode;
-@property(nonatomic) double speedFactor;
-@property(nonatomic) double spreadingAngle;
-@property(nonatomic) double stretchFactor;
-@property(retain, nonatomic) SCNParticleSystem *systemSpawnedOnCollision;
-@property(retain, nonatomic) SCNParticleSystem *systemSpawnedOnDying;
-@property(retain, nonatomic) SCNParticleSystem *systemSpawnedOnLiving;
-@property(nonatomic) double warmupDuration;
 @end
 

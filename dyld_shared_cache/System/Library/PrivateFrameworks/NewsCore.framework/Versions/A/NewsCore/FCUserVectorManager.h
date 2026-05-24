@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCCloudContext, FCUserVector, NSDate, NSString;
+@class FCCloudContext;
 @protocol FCUserVectorAggregateVectorProvider;
 
 @interface FCUserVectorManager
 {
     id <FCUserVectorAggregateVectorProvider> _aggregateVectorProvider;
-    FCCloudContext *_context;
-    NSDate *_lastUpdated;
-    FCAsyncSerialQueue *_queue;
-    FCUserVector *_userVector;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)composedWaypointForMapItem:(id)arg1 traits:clientAttributes:completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
+- (void)n;
+- (id);
 - (void);
 - (void);
-- (id);
+- (void)invoke_2;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ockVolumeKeybagForUID:withACM:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void)
 × ;
-- (id)ceIDs;
-- (void)ulate_top_stories_badges;
+- (id)_smallestImageResourceIDs;
+- (void)simulate_top_stories_badges;
 
 // Remaining properties
-@property(retain, nonatomic) id <FCUserVectorAggregateVectorProvider> aggregateVectorProvider; // @synthesize aggregateVectorProvider=_aggregateVectorProvider;
 @property(retain, nonatomic) FCCloudContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(retain, nonatomic) FCAsyncSerialQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FCUserVector *userVector; // @synthesize userVector=_userVector;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.PuzzleNavigationBarThemeProvider
 {
     id appConfigurationManager;
-    id puzzleRankProvider;
-    id historyService;
 }
 
 @end

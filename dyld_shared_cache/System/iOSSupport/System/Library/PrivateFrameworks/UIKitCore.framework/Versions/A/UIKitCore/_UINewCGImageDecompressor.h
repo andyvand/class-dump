@@ -6,32 +6,20 @@
 
 #import <UIKitCore/_UICGImageDecompressor.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface _UINewCGImageDecompressor : _UICGImageDecompressor
 {
     struct CMPhotoDecompressionContainer *_container;
-    id _imageOrError;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSObject<OS_dispatch_semaphore> *_sema;
-    struct os_unfair_lock_s _stateLock;
-    struct {
-        unsigned int started:1;
-        unsigned int finished:1;
-        unsigned int error:1;
-    } _flags;
 }
 
 + (struct CMPhotoDecompressionSession *);
 - (void);
-- (void);
-- (id);
+- (void)DisableAudioProcessing;
+- (id)MPMediaLibraryStatusDidChangeNotification;
 - (struct CGImage *)1Â0@ù
 × ;
-- (void)sult:(CDUnknownBlockType)arg1;
-- (id)ew;
+- (void)setAttachmentResult:(CDUnknownBlockType)arg1;
+- (id)_supportingView;
 - (void);
 
 @end

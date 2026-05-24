@@ -4,56 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSPopover, NSString, NSTimer, NSTrackingArea, SiriSharedUICompactHostingInstrumentationSupplement, SiriSharedUICompactResultPlatterViewController, SiriSharedUICompactResultViewController, SiriSharedUIContentPlatterViewController, SiriSharedUIFeedbackController, SiriSharedUIGenerativeAssistantOnboardingManager, SiriSharedUISAEViewState, SiriSharedUISuggestionsViewInterface, SiriSharedUISystemAssistantExperienceContainerView, SiriUI.SiriUISystemAssistantExperienceAnimationExecutor, SiriUISimpleNavigationController;
-@protocol SiriUISystemAssistantExperienceViewControllerDelegate;
+@class NSMutableArray, SiriUISimpleNavigationController;
 
 __attribute__((visibility("hidden")))
 @interface SiriUISystemAssistantExperienceViewController
 {
     NSMutableArray *_resultViewControllers;
-    NSArray *_conversationViewControllers;
-    NSArray *_previousConversationViewControllers;
-    SiriSharedUICompactHostingInstrumentationSupplement *_instrumentationSupplement;
-    _Bool _offerDismissal;
-    _Bool _animatingResult;
-    _Bool _waitingForSmartDialogHeight;
-    _Bool _resultPresentedInActiveSmartDialog;
-    _Bool _hasShimmered;
-    _Bool _showingLatency;
-    double _keyWindowAssertionCount;
-    SiriSharedUISuggestionsViewInterface *_suggestionsViewProvider;
-    long long _requestSourceForSuggestions;
-    CDUnknownBlockType serverUtteranceUpdateBlock;
-    CDUnknownBlockType snippetUpdateBlock;
-    CDUnknownBlockType smartDialogCardBlock;
-    CDUnknownBlockType smartDialogPluginBlock;
-    CDUnknownBlockType renderResultBlock;
-    SiriUI.SiriUISystemAssistantExperienceAnimationExecutor *_animationExecutor;
-    NSTimer *_suggestionsDebounceTimer;
-    NSTimer *_renderResultDebounceTimer;
-    NSTimer *_setTextFieldLatencyTimer;
-    NSDate *_lastSnippetAddedTime;
-    NSTrackingArea *_mouseTrackingAreaForSuggestionsCancellation;
-    _Bool _showsSuggestionsOnNCBreakoutGestureFinish;
-    SiriSharedUIGenerativeAssistantOnboardingManager *_montaraOnboardingManager;
-    SiriSharedUIFeedbackController *_feedbackController;
-    _Bool _showSuggestionsForConversationStarter;
-    _Bool _shouldUpdateSiriLandPopoverSize;
-    SiriSharedUISAEViewState *_viewState;
-    id <SiriUISystemAssistantExperienceViewControllerDelegate> _delegate;
-    SiriUISimpleNavigationController *_navigationController;
-    SiriSharedUICompactResultViewController *_resultViewController;
-    SiriSharedUICompactResultPlatterViewController *_queuedNavigationContentViewController;
-    SiriSharedUIContentPlatterViewController *_topMostNavigationPlatterViewController;
-    SiriSharedUISystemAssistantExperienceContainerView *_containerView;
-    NSPopover *_siriLandPopover;
-    NSArray *_suggestionsViews;
-    NSArray *_pendingAsYouTypeSuggestionViews;
-    NSArray *_conversationStarterSuggestionViews;
-    CDUnknownBlockType _storedGenerativeAssistantOnboardingCompletion;
-    NSString *_generativeAssistantOnboardingCommandAceID;
-    struct CGSize _smartDialogSize;
-    struct CGSize _latencyPillSize;
 }
 
 + (id);
@@ -73,10 +29,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)=;
 - (struct CGSize);
 - (void);
 - (void);
@@ -91,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (id);
+- (id);
 - (void);
 - (struct NSEdgeInsets);
 - (void);
@@ -115,6 +71,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!
+;
+- (void);
+- (void)`	;
 - (void);
 - (void);
 - (void);
@@ -123,19 +89,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)o;
 - (_Bool);
 - (void);
 - (void);
@@ -157,17 +114,17 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)o;
 - (id);
 - (id);
 - (void);
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)kŗ;
 - (void);
 - (void);
 - (void);
@@ -177,6 +134,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -189,8 +147,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	kH;
 - (_Bool);
 - (struct CGSize);
 - (_Bool);
@@ -243,12 +200,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)q;
 - (id);
+- (void)toloopVideo;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (struct CGSize);
@@ -264,29 +221,7 @@ __attribute__((visibility("hidden")))
 - (id)eparationIdentifier:completion:analyticsContext:speakableContextInfo:canUseServerTTS: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SiriSharedUISystemAssistantExperienceContainerView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) NSArray *conversationStarterSuggestionViews; // @synthesize conversationStarterSuggestionViews=_conversationStarterSuggestionViews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUISystemAssistantExperienceViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *generativeAssistantOnboardingCommandAceID; // @synthesize generativeAssistantOnboardingCommandAceID=_generativeAssistantOnboardingCommandAceID;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize latencyPillSize; // @synthesize latencyPillSize=_latencyPillSize;
 @property(readonly, nonatomic, getter=_navigationController) SiriUISimpleNavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(retain, nonatomic) NSArray *pendingAsYouTypeSuggestionViews; // @synthesize pendingAsYouTypeSuggestionViews=_pendingAsYouTypeSuggestionViews;
-@property(retain, nonatomic, getter=_queuedNavigationContentViewController, setter=_setQueuedNavigationContentViewController:) SiriSharedUICompactResultPlatterViewController *queuedNavigationContentViewController; // @synthesize queuedNavigationContentViewController=_queuedNavigationContentViewController;
-@property(readonly, nonatomic, getter=_resultViewController) SiriSharedUICompactResultViewController *resultViewController; // @synthesize resultViewController=_resultViewController;
-@property(nonatomic) _Bool shouldUpdateSiriLandPopoverSize; // @synthesize shouldUpdateSiriLandPopoverSize=_shouldUpdateSiriLandPopoverSize;
-@property(retain, nonatomic) NSPopover *siriLandPopover; // @synthesize siriLandPopover=_siriLandPopover;
-@property(nonatomic) struct CGSize smartDialogSize; // @synthesize smartDialogSize=_smartDialogSize;
-@property(copy, nonatomic) CDUnknownBlockType storedGenerativeAssistantOnboardingCompletion; // @synthesize storedGenerativeAssistantOnboardingCompletion=_storedGenerativeAssistantOnboardingCompletion;
-@property(retain, nonatomic) NSArray *suggestionsViews; // @synthesize suggestionsViews=_suggestionsViews;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak SiriSharedUIContentPlatterViewController *topMostNavigationPlatterViewController; // @synthesize topMostNavigationPlatterViewController=_topMostNavigationPlatterViewController;
-@property(retain, nonatomic) SiriSharedUISAEViewState *viewState; // @synthesize viewState=_viewState;
 
 @end
 

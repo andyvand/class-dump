@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNContactStore, CNSchedulerProvider, CNUnfairLock, NSString;
-@protocol CNSchedulerProvider, CNUIPRLikenessProvider, CNUIPRLikenessResolver, CNUIPlaceholderProviderFactory;
+@protocol CNUIPRLikenessResolver;
 
 @interface CNUIPRLikenessResolver
 {
     unsigned long long _lookupOptions;
-    id <CNUIPRLikenessResolver> _likenessResolver;
-    CNCache *_likenessProviderCache;
-    id <CNSchedulerProvider> _mainThreadSchedulerProvider;
-    id <CNUIPlaceholderProviderFactory> _placeholderProviderFactory;
-    CNCache *_workTrackingCache;
-    CNUnfairLock *_lock;
 }
 
 + (unsigned long long);
@@ -24,17 +17,17 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)7h;
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)T;
 - (unsigned long long);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -49,10 +42,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (id);
@@ -62,24 +55,7 @@
 - (id)P;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNCache *likenessProviderCache; // @synthesize likenessProviderCache=_likenessProviderCache;
 @property(retain, nonatomic) id <CNUIPRLikenessResolver> likenessResolver; // @synthesize likenessResolver=_likenessResolver;
-@property(readonly) id <CNUIPRLikenessProvider> loadingPlaceholderLikeness;
-@property(retain, nonatomic) CNUnfairLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) unsigned long long lookupOptions; // @synthesize lookupOptions=_lookupOptions;
-@property(retain, nonatomic) id <CNSchedulerProvider> mainThreadSchedulerProvider; // @synthesize mainThreadSchedulerProvider=_mainThreadSchedulerProvider;
-@property(retain, nonatomic) id <CNUIPlaceholderProviderFactory> placeholderProviderFactory; // @synthesize placeholderProviderFactory=_placeholderProviderFactory;
-@property(nonatomic) long long prohibitedSources;
-@property(readonly, nonatomic) CNSchedulerProvider *schedulerProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNCache *workTrackingCache; // @synthesize workTrackingCache=_workTrackingCache;
 
 @end
 

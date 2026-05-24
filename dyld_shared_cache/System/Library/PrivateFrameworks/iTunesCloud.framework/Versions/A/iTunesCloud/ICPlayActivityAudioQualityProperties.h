@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICPlayActivityAudioQualityProperties
 {
     long long _bitRate;
-    long long _bitDepth;
-    NSString *_channelLayoutDescription;
-    unsigned int _codec;
-    long long _sampleRate;
-    _Bool _spatialized;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -33,13 +26,7 @@
 - (void)ection",R,C,N,V_tracklist;
 
 // Remaining properties
-@property(readonly, nonatomic) long long bitDepth; // @synthesize bitDepth=_bitDepth;
 @property(readonly, nonatomic) long long bitRate; // @synthesize bitRate=_bitRate;
-@property(readonly, nonatomic) NSString *channelLayoutDescription; // @synthesize channelLayoutDescription=_channelLayoutDescription;
-@property(readonly, nonatomic) unsigned int codec; // @synthesize codec=_codec;
-@property(readonly, nonatomic) NSString *codecString;
-@property(readonly, nonatomic) long long sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(readonly, nonatomic, getter=isSpatialized) _Bool spatialized; // @synthesize spatialized=_spatialized;
 
 @end
 

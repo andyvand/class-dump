@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (id);
+- (id)const JSValueRef *, JSValueRef *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASDRestoreDemotedApplicationsRequestOptions *options; // @dynamic options;

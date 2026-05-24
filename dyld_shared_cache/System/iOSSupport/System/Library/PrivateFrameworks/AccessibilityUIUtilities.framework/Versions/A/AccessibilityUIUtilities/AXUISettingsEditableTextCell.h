@@ -4,53 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextField;
-
 @interface AXUISettingsEditableTextCell
 {
     _Bool _shouldDisableTextFieldWhenNotEditing;
-    _Bool _shouldAllowSelection;
-    UITextField *_nameTextField;
-    CDUnknownBlockType _textFieldValueBlock;
-    CDUnknownBlockType _textFieldValueSetBlock;
 }
 
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (_Bool)'__|;
 - (_Bool);
-- (_Bool);
+- (void);
+- (void)b|;
 - (void);
 - (void);
+- (void)|;
 - (void);
+- (_Bool)h|;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void)L({;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)SCRCConfigurationException;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UITextField *nameTextField; // @synthesize nameTextField=_nameTextField;
-@property(nonatomic) _Bool shouldAllowSelection; // @synthesize shouldAllowSelection=_shouldAllowSelection;
-@property(nonatomic) _Bool shouldDisableTextFieldWhenNotEditing; // @synthesize shouldDisableTextFieldWhenNotEditing=_shouldDisableTextFieldWhenNotEditing;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) CDUnknownBlockType textFieldValueBlock; // @synthesize textFieldValueBlock=_textFieldValueBlock;
-@property(copy, nonatomic) CDUnknownBlockType textFieldValueSetBlock; // @synthesize textFieldValueSetBlock=_textFieldValueSetBlock;
 
 @end
 

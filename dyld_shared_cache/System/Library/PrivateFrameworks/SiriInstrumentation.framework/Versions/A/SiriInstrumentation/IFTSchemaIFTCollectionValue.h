@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTTypeIdentifier, NSArray, NSData;
+@class IFTSchemaIFTTypeIdentifier;
 
 @interface IFTSchemaIFTCollectionValue : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTTypeIdentifier *_typeIdentifier;
-    NSArray *_values;
-    _Bool _hasTypeIdentifier;
 }
 
 - (void);
@@ -42,10 +40,7 @@
 - (id)q;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTypeIdentifier; // @synthesize hasTypeIdentifier=_hasTypeIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTTypeIdentifier *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
-@property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

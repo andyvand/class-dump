@@ -5,5 +5,10 @@
 //
 
 @protocol WBSSafariBookmarksSyncAgentProtocol
+- (void);
+- (void)R;
+- (void)e>",&,N,V_accessQueue;
+- (void)public}@;
+- (void)og info for user notification %@;
 @end
 

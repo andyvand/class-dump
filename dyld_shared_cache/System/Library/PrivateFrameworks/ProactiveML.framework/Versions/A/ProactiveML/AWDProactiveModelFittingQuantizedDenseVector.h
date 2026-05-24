@@ -7,12 +7,6 @@
 @interface AWDProactiveModelFittingQuantizedDenseVector
 {
     CDStruct_9f2792e4 _values;
-    float _bucketSize;
-    float _minValue;
-    struct {
-        unsigned int bucketSize:1;
-        unsigned int minValue:1;
-    } _has;
 }
 
 + (id);
@@ -20,15 +14,15 @@
 - (void);
 - (void);
 - (float);
-- (_Bool);
+- (_Bool);
 - (float);
 - (unsigned int);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)subsystem;
+- (unsigned long long)index %ld, section index %ld, section offset %llu, size %lld, signature %@;
 - (void);
 - (void);
 - (unsigned long long);
@@ -36,18 +30,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned int *);
 - (id);
 - (id);
-- (float)lSupports;
+- (float)perLabelSupports;
 
 // Remaining properties
-@property(nonatomic) float bucketSize; // @synthesize bucketSize=_bucketSize;
-@property(nonatomic) _Bool hasBucketSize;
-@property(nonatomic) _Bool hasMinValue;
-@property(nonatomic) float minValue; // @synthesize minValue=_minValue;
-@property(readonly, nonatomic) unsigned int *values;
 @property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end

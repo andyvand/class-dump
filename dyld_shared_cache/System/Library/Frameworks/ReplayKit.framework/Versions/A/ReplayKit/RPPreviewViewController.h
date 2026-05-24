@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSView, RPVideoEditorHostRemoteNSViewController;
-@protocol RPPreviewViewControllerDelegate;
-
 @interface RPPreviewViewController
 {
     _Bool _wasStatusBarHidden;
-    id <RPPreviewViewControllerDelegate> _previewControllerDelegate;
-    NSURL *_movieURL;
-    RPVideoEditorHostRemoteNSViewController *_hostViewController;
 }
 
 + (void);
@@ -27,15 +21,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)achment GUID.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RPVideoEditorHostRemoteNSViewController *hostViewController; // @synthesize hostViewController=_hostViewController;
-@property(retain, nonatomic) NSURL *movieURL; // @synthesize movieURL=_movieURL;
-@property(nonatomic) __weak id <RPPreviewViewControllerDelegate> previewControllerDelegate; // @synthesize previewControllerDelegate=_previewControllerDelegate;
-@property(nonatomic) NSView *view; // @dynamic view;
 @property(nonatomic) _Bool wasStatusBarHidden; // @synthesize wasStatusBarHidden=_wasStatusBarHidden;
 
 @end

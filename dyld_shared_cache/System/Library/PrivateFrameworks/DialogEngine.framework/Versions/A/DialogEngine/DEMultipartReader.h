@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DERewindableReader, NSData, NSMutableData;
+@class DERewindableReader;
 
 @interface DEMultipartReader
 {
     _Bool _endOfPart;
-    _Bool _endOfMessage;
-    DERewindableReader *_reader;
-    NSMutableData *_searchBuffer;
-    NSData *_nextPartData;
-    NSData *_endOfPartData;
-    NSData *_endOfMessageData;
-    unsigned long long _maxEndSize;
 }
 
 + (id);
@@ -32,7 +25,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -49,14 +42,7 @@
 - (void)*Ñ;
 
 // Remaining properties
-@property(nonatomic) _Bool endOfMessage; // @synthesize endOfMessage=_endOfMessage;
-@property(retain, nonatomic) NSData *endOfMessageData; // @synthesize endOfMessageData=_endOfMessageData;
-@property(nonatomic) _Bool endOfPart; // @synthesize endOfPart=_endOfPart;
-@property(retain, nonatomic) NSData *endOfPartData; // @synthesize endOfPartData=_endOfPartData;
-@property(nonatomic) unsigned long long maxEndSize; // @synthesize maxEndSize=_maxEndSize;
-@property(retain, nonatomic) NSData *nextPartData; // @synthesize nextPartData=_nextPartData;
 @property(retain, nonatomic) DERewindableReader *reader; // @synthesize reader=_reader;
-@property(retain, nonatomic) NSMutableData *searchBuffer; // @synthesize searchBuffer=_searchBuffer;
 
 @end
 

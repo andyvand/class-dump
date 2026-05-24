@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AppStoreKit.ArcadeDownloadPackData;
+
 @protocol AppStoreKit.JSArcadeObjectExports__priv_FE74B47DA8609867A7A59CD32F183E8A
+- (AppStoreKit.ArcadeDownloadPackData *);
 @end
 

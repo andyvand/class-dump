@@ -10,10 +10,6 @@
 @interface EMListUnsubscribeMailtoValues
 {
     id <EDReceivingAccount> _account;
-    NSString *_accountIdentifier;
-    NSString *_address;
-    NSString *_subject;
-    NSString *_body;
 }
 
 + (_Bool);
@@ -22,7 +18,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_registerAPSTopicsForDelegates:(id)arg1 withConnection: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)
@@ -30,10 +26,7 @@
 - (id)Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDReceivingAccount> account;
 @property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, nonatomic) NSString *subject; // @synthesize subject=_subject;
 
 @end
 

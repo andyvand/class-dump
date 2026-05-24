@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool);
-+ (const char *);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool)ction;
++ (const char *)w;
++ (id)l;
++ (_Bool)abel",&,V_loadingLabel;
++ (id)iptionView",&,D,N;
++ (id)rdRowModel",&,D,N;
++ (id)chUIPurchaseRequestStatusManager",R,N;
++ (id)iew",&,D;
++ (id)itleLabel;
++ (id)abel",&,D;
++ (id),&,D,N;
++ (id)idLayoutManager;
 
 @end
 

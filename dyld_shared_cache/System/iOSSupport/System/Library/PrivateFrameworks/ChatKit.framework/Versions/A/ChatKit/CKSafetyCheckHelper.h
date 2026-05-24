@@ -7,11 +7,9 @@
 @interface CKSafetyCheckHelper
 {
     id contacts;
-    id controllerTask;
-    id safetyCheckController;
 }
 
-- (void);
+- (void)omic.interacted;
 - (id);
 - (id);
 - (void);

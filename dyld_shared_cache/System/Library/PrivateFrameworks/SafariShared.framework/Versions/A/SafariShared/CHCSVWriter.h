@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSData, NSMutableArray, NSOutputStream;
+@class NSOutputStream;
 
 @interface CHCSVWriter
 {
     NSOutputStream *_stream;
-    unsigned long long _streamEncoding;
-    NSData *_delimiter;
-    NSData *_bom;
-    NSCharacterSet *_illegalCharacters;
-    unsigned long long _currentLine;
-    unsigned long long _currentField;
-    NSMutableArray *_firstLineKeys;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);;
 - (id);
 - (id);
 - (void);

@@ -7,10 +7,6 @@
 @interface PasswordServerPrefsObject
 {
     struct __CFDictionary *mPrefsDict;
-    struct __CFCharacterSet *mExternalToolIllegalChars;
-    struct PasswordServerPrefs mPrefs;
-    struct ldap *mLdap;
-    char *mLdapSearchBase;
 }
 
 - (_Bool);
@@ -30,12 +26,12 @@
 - (unsigned long long);
 - (void);
 - (struct __CFDictionary *);
-- (const char *);
+- (const char *);
 - (void);
 - (const struct PWSDebugLogOptions *);
 - (id);
 - (id);
-- (void);
+- (void)(;
 
 @end
 

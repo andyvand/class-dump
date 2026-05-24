@@ -6,23 +6,21 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPCaptionButtonPresentationProperties, LPTextViewStyle, UIButton;
+@class LPCaptionButtonPresentationProperties;
 
 __attribute__((visibility("hidden")))
 @interface LPSubtitleButtonView : LPComponentView
 {
     LPCaptionButtonPresentationProperties *_buttonProperties;
-    LPTextViewStyle *_style;
-    UIButton *_button;
 }
 
 - (void);
-- (id);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
+- (id)textField:(id)arg1 editMenuForCharactersInRanges:(id)arg2 suggestedActions:(id)arg3;
+- (void)tableView:didHighlightRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (struct CGSize)suggestionsController:(struct CGSize)arg1 didDeselectRecipient:(_Bool)arg2;
+- (void)stopSharingWithHandle:inChat: /* Error: Ran out of types for this method. */;
+- (void)stickerDruidDragEndedWithIMSticker: /* Error: Ran out of types for this method. */;
+- (void)d URL UTI due to error:(id)arg1 %@;
 - (struct CGSize);
 - (id);
 - (id);

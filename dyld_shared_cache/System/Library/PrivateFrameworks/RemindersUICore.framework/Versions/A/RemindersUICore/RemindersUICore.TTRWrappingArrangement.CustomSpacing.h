@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRWrappingArrangement.CustomSpacing
 {
     id leading;
-    id trailing;
 }
 
 @end

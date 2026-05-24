@@ -9,7 +9,6 @@
 @interface AXVisualElementGrouper : AXElementGrouper
 {
     double _maximumNeighbourDistance;
-    double _maximumDistanceForAligningEdges;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double maximumDistanceForAligningEdges; // @synthesize maximumDistanceForAligningEdges=_maximumDistanceForAligningEdges;
 @property(nonatomic) double maximumNeighbourDistance; // @synthesize maximumNeighbourDistance=_maximumNeighbourDistance;
 
 @end

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUserDefaults;
-@protocol EFCancelable;
+@class NSUserDefaults;
 
 @interface MCSharedPreferencesController
 {
     NSUserDefaults *_sharedMailUserDefaults;
-    id <EFCancelable> _cancelable;
 }
 
 + (void);
 + (id);
-+ (id)etCreatesPlainTextOnly:(struct _NSZone *)arg1;
-- (id);
++ (id)setCreatesPlainTextOnly:(struct _NSZone *)arg1;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)@�H;
 - (void);
 - (void);
 - (void);
@@ -44,26 +42,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property long long addressDisplayMode;
-@property(retain, nonatomic) id <EFCancelable> cancelable; // @synthesize cancelable=_cancelable;
-@property(retain) NSString *defaultFromAddress;
-@property _Bool disableRemoteContent;
-@property(retain) NSArray *intranetDomains;
-@property(readonly) _Bool intranetDomainsManagedByProfile;
-@property _Bool isTrackingProtectionEnabled;
-@property _Bool loadRemoteContentWithProxy;
-@property(readonly) unsigned long long remoteContentOptions;
 @property(retain, nonatomic) NSUserDefaults *sharedMailUserDefaults; // @synthesize sharedMailUserDefaults=_sharedMailUserDefaults;
-@property _Bool shouldCheckIntranetDomains;
-@property _Bool shouldExpandGroups;
-@property(readonly) _Bool shouldPresentRemoteContentAlert;
-@property(readonly) _Bool shouldPresentRemoteContentOptionsSheet;
 
 @end
 

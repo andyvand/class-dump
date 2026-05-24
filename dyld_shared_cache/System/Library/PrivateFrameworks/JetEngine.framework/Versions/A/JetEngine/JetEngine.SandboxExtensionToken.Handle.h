@@ -7,7 +7,6 @@
 @interface JetEngine.SandboxExtensionToken.Handle
 {
     id path;
-    id handle;
 }
 
 @end

@@ -11,15 +11,15 @@
     NSNumber *_forTime;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)t:%ld playbackDuration:%ld mediaResourceRequestCount:%ld timeSpentRecoveringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
+- (void)zA;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (_Bool);
-- (void);
+- (void)_externalizedContextProvider;
 - (id);
 - (void)&°!ÔAùª)1Â0@ù
 × ;

@@ -6,8 +6,7 @@
 
 #import <IOGPU/IOGPUMetalBuffer.h>
 
-@class NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
+@protocol MTLBuffer;
 
 @interface IOGPUMetalVisibleFunctionTable : IOGPUMetalBuffer
 {
@@ -16,50 +15,22 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void)localizationForLocale:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (struct MTLResourceID);
-- (void);
-- (unsigned long long);
+- (struct MTLResourceID)S_ATTR_NO_DEAD_STRIP;
+- (void)EWSGetEventsResponseType;
+- (unsigned long long));
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
 @property(retain, nonatomic) id <MTLBuffer> globalBuffer;
-@property(nonatomic) unsigned long long globalBufferOffset;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly, nonatomic) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
 
 @end
 

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError, NSString, NSURL;
-
 @interface RPFileTransferItem
 {
     _Bool _completed;
-    long long _fileSize;
-    CDUnknownBlockType _completionHandler;
-    NSString *_filename;
-    NSURL *_itemURL;
-    NSDictionary *_metadata;
-    NSData *_sha256HashData;
-    NSError *_error;
-    unsigned long long _estimatedSize;
-    NSData *_fileData;
-    unsigned long long _fileID;
-    unsigned long long _metadataSize;
 }
 
 - (id);
@@ -33,9 +20,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)symbolTable init ;
+- (void)NSt3__110__function6__baseIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEE;
+- (id)%}S	;
 - (id);
 - (unsigned long long);
 - (void);
@@ -46,24 +33,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void)PACKNoCopy;
 
 // Remaining properties
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long estimatedSize; // @synthesize estimatedSize=_estimatedSize;
-@property(retain, nonatomic) NSData *fileData; // @synthesize fileData=_fileData;
-@property(nonatomic) unsigned long long fileID; // @synthesize fileID=_fileID;
-@property(nonatomic) long long fileSize; // @synthesize fileSize=_fileSize;
-@property(copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(copy, nonatomic) NSURL *itemURL; // @synthesize itemURL=_itemURL;
-@property(copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) unsigned long long metadataSize; // @synthesize metadataSize=_metadataSize;
-@property(copy, nonatomic) NSData *sha256HashData; // @synthesize sha256HashData=_sha256HashData;
 
 @end
 

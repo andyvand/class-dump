@@ -6,28 +6,24 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceEnhancedMerchantsRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSDate *_addedSinceDate;
 }
 
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id)gStepEligibility:using eligibility response from shared state /* Error: Ran out of types for this method. */;
-- (void)blicKeyHash;
+- (void)publicKeyHash;
 - (void);
 - (id)¬ÏÀÿmL2;
 - (void)øÿÃùkÌ£;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSDate *addedSinceDate; // @synthesize addedSinceDate=_addedSinceDate;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

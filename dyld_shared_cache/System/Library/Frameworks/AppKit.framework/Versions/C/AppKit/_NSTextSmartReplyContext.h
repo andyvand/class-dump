@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TICandidateRequestToken, TIInputContextHistory;
+@class TICandidateRequestToken;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextSmartReplyContext
 {
     TICandidateRequestToken *_requestToken;
-    TIInputContextHistory *_history;
 }
 
 - (void);
 - (void);
+- (id)AMFDRDecodeIterateSysconfigPayloadNext;
 - (id);
-- (id);
-- (void)ontents;
+- (void)WillCopyPurgedContents;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) TIInputContextHistory *history; // @synthesize history=_history;
 @property(retain, nonatomic) TICandidateRequestToken *requestToken; // @synthesize requestToken=_requestToken;
 
 @end

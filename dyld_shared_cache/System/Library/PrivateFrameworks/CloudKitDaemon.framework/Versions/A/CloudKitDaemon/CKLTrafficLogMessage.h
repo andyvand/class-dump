@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface CKLTrafficLogMessage
 {
     void uuid;
-    void requestTime;
-    void requestMethod;
-    void requestURL;
-    void requestHeaders;
-    long long bodyStreamResetCount;
-    void requestObjects;
-    long long responseStatus;
-    void responseTime;
-    void responseHeaders;
-    void responseObjects;
 }
 
 - (id);
@@ -28,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -40,19 +30,6 @@
 - (id)éÿ,¬ÿÀ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long bodyStreamResetCount; // @synthesize bodyStreamResetCount;
-@property(nonatomic, readonly) NSString *bundleIdentifier;
-@property(nonatomic, readonly) NSString *containerIdentifier;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSDictionary *requestHeaders;
-@property(nonatomic, readonly) NSString *requestMethod;
-@property(nonatomic, readonly) NSArray *requestObjects;
-@property(nonatomic, readonly) NSDate *requestTime;
-@property(nonatomic, readonly) NSURL *requestURL;
-@property(nonatomic, readonly) NSDictionary *responseHeaders;
-@property(nonatomic, readonly) NSArray *responseObjects;
-@property(nonatomic, readonly) long long responseStatus; // @synthesize responseStatus;
-@property(nonatomic, readonly) NSDate *responseTime;
 @property(nonatomic, readonly) NSString *uuid;
 
 @end

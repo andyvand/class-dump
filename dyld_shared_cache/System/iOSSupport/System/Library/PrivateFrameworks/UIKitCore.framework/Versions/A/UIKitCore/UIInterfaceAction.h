@@ -4,53 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray, NSString, UIColor, UIImage, UIInterfaceActionRepresentationView, UIInterfaceActionVisualStyle, UIView, UIViewController;
-@protocol _UIInterfaceActionPresenting;
+@class UIViewController;
 
 @interface UIInterfaceAction
 {
     _Bool _enabled;
-    _Bool _preferred;
-    _Bool _focused;
-    UIView *_customContentView;
-    long long _type;
-    UIViewController *_customContentViewController;
-    NSString *_title;
-    long long _titleAlignment;
-    NSString *_classificationTitle;
-    UIImage *_leadingImage;
-    UIImage *_trailingImage;
-    CDUnknownBlockType _handler;
-    NSPointerArray *_weakDisplayPropertyObservers;
-    UIInterfaceActionRepresentationView *__visualRepresentation;
-    id <_UIInterfaceActionPresenting> __presentingController;
-    UIInterfaceActionVisualStyle *_visualStyle;
-    UIColor *_titleTextColor;
-    UIColor *_imageTintColor;
-    struct CGSize _leadingImageLayoutSize;
-    struct CGSize _trailingImageLayoutSize;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
+- (id);
+- (struct CGSize)}};
 - (id);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
+- (void)messages:(struct CGSize)arg1 %@;
+- (void)rror:(id)arg1 %@;
+- (void)e:(struct CGSize)arg1 %@, bailing;
+- (void)d for mapping packet to handle:(id)arg1 %@, bailing;
+- (void)erable message record %@ with error %@;
+- (struct CGSize)ge, rejecting edit;
+- (id)tted edits for this message, rejecting edit;
+- (id)ata;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
@@ -72,15 +52,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)stringForLabel:(_Bool)arg1;
 - (id);
 - (_Bool)1Â0@ù
 × ;
 - (long long)mapData=QQ{_UIBoundingPathBitmapDataSkipRegion=QQ}QQ^S}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)ayProperties;
+- (void)_observableDisplayProperties;
 - (void);
-- (id)pl;
-- (CDUnknownBlockType);
+- (id)_UISplitViewControllerAdaptiveImpl;
+- (CDUnknownBlockType)_UIDatePickerCalendarTimeFormat;
 - (id)UIViewPropertyAnimator;
 - (void);
 - (void)ew (or an ancestor) was removed from the view hierarchy after receiving the pointer region.;
@@ -89,27 +69,7 @@
 - (void)¥¡Ódag;
 
 // Remaining properties
-@property(nonatomic, setter=_setPresentingController:) __weak id <_UIInterfaceActionPresenting> _presentingController; // @synthesize _presentingController=__presentingController;
-@property(readonly, nonatomic) long long _typeForDeterminingViewRepresentation;
-@property(nonatomic, setter=_setVisualRepresentation:) __weak UIInterfaceActionRepresentationView *_visualRepresentation; // @synthesize _visualRepresentation=__visualRepresentation;
-@property(copy, nonatomic) NSString *classificationTitle; // @synthesize classificationTitle=_classificationTitle;
-@property(readonly, nonatomic) UIView *customContentView; // @synthesize customContentView=_customContentView;
 @property(retain, nonatomic) UIViewController *customContentViewController; // @synthesize customContentViewController=_customContentViewController;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=_isFocused, setter=_setIsFocused:) _Bool focused; // @synthesize focused=_focused;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic, getter=_imageTintColor, setter=_setImageTintColor:) UIColor *imageTintColor; // @synthesize imageTintColor=_imageTintColor;
-@property(retain, nonatomic) UIImage *leadingImage; // @synthesize leadingImage=_leadingImage;
-@property(nonatomic) struct CGSize leadingImageLayoutSize; // @synthesize leadingImageLayoutSize=_leadingImageLayoutSize;
-@property(nonatomic, getter=_isPreferred, setter=_setIsPreferred:) _Bool preferred; // @synthesize preferred=_preferred;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long titleAlignment; // @synthesize titleAlignment=_titleAlignment;
-@property(retain, nonatomic, getter=_titleTextColor, setter=_setTitleTextColor:) UIColor *titleTextColor; // @synthesize titleTextColor=_titleTextColor;
-@property(retain, nonatomic) UIImage *trailingImage; // @synthesize trailingImage=_trailingImage;
-@property(nonatomic) struct CGSize trailingImageLayoutSize; // @synthesize trailingImageLayoutSize=_trailingImageLayoutSize;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic, getter=_visualStyle, setter=_setVisualStyle:) UIInterfaceActionVisualStyle *visualStyle; // @synthesize visualStyle=_visualStyle;
-@property(readonly, nonatomic) NSPointerArray *weakDisplayPropertyObservers; // @synthesize weakDisplayPropertyObservers=_weakDisplayPropertyObservers;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol _UISceneScrollPocketSettings
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *scrollPocketElements;

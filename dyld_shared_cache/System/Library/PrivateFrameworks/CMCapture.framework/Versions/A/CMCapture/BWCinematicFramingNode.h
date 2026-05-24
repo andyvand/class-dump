@@ -6,60 +6,17 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWDeviceOrientationMonitor, BWNodeOutput, NSArray, NSDictionary, NSMutableDictionary, NSString, VCCamera, VCProcessor;
+@class NSDictionary, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface BWCinematicFramingNode : BWNode
 {
     NSMutableDictionary *_videoCaptureInputsByPortType;
-    BWNodeOutput *_videoCaptureOutput;
-    NSMutableDictionary *_detectionMetadataInputsByPortType;
-    BWNodeOutput *_detectionMetadataOutput;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    struct os_unfair_lock_s _bufferServicingLock;
-    int _horizontalSensorBinningFactor;
-    int _verticalSensorBinningFactor;
-    NSDictionary *_cameraInfoByPortType;
-    CDStruct_79c71658 _outputDimensions;
-    struct {
-        VCCamera *inputCamera;
-        VCCamera *outputCamera;
-        CDStruct_1b6d18a9 pts;
-        struct CGRect outputROI;
-    } _stillCaptureQueue[2];
-    unsigned int _stillCaptureEnqueueIndex;
-    struct os_unfair_lock_s _stillCaptureQueueLock;
-    VCProcessor *_vcProcessor;
-    CDStruct_a536cad7 _cinematicFramingControls;
-    BWDeviceOrientationMonitor *_deviceOrientationMonitor;
-    unsigned int _maxPeopleDetected;
-    NSString *_clientApplicationID;
-    unsigned int _cinematicFramingControlMode;
-    unsigned int _minLuxLevelNeeded;
-    _Bool _stillImageCaptureEnabled;
-    _Bool _deviceOrientationCorrectionEnabled;
-    _Bool _outputCameraResetInFlight;
-    _Bool _oneShotFramingInFlight;
-    int _maxLossyCompressionLevel;
-    NSArray *_portTypes;
-    int _endOfDataVideoInputsCount;
-    int _endOfDataMetadataInputsCount;
-    _Bool _videoOutputFormatIsLive;
-    _Bool _metadataOutputFormatIsLive;
-    _Bool _cameraHasDistoritionCoefficients;
-    _Bool _cameraHasCalibrationValidMaxRadius;
-    _Bool _cinematicFramingControlsSuspended;
-    _Bool _regionOfInterestForCameraControlsEnabled;
-    struct CGRect _regionOfInterestForCameraControls;
-    CDUnknownBlockType _regionOfInterestForCameraControlsChangedHandler;
-    unsigned long long _pipelineType;
-    _Bool _centerStageMetadataDeliveryEnabled;
-    _Bool _downstreamRequires10BitPixelFormat;
 }
 
 + (void)((void *)0)];
-- (id);
-- (long long);
+- (id)E;
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -76,17 +33,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (CDStruct_a536cad7);
+- (CDStruct_60336a4d);
 - (void);
-- (void);
-- (void);
+- (void)o retrieve PMLTraining singleton;
+- (void)DKIM verification resulted in permanent failure:(id)arg1 %@. [SGEntity (%{public}@)];
 - (void);
 - (void);
 - (id);
-- (id)rviceIDVerifierVisible;
+- (id)paymentServiceIDVerifierVisible;
 - (id)ding thumbnail;
 - (void)`èÿ`èÿ`èÿ`èÿ&`èÿ,`èÿ4aèÿ;aèÿCaèÿKbèÿRbéÿZbéÿacêÿicëÿpcìÿxdîÿdðÿeòÿeôÿföÿføÿ£fúÿ«güÿ²gýÿ¹hÿÿÀhÿÿÈiÿÿÏiÿÿÖjÿÿÝjÿÿækÿÿgéÿhéÿhéÿhéÿ héÿ'héÿ.iéÿ5ièÿ<ièÿDièÿLjèÿSjéÿ[jéÿbkêÿjkêÿrkìÿylíÿlïÿmñÿmóÿmõÿn÷ÿ¤nùÿ¬oûÿ³oüÿºpþÿÁpÿÿÉpÿÿÐqÿÿ×qÿÿÞrÿÿærÿÿqéÿqéÿqêÿqêÿ!qéÿ)qéÿ/réÿ6réÿ=réÿFréÿMsèÿTséÿ\séÿctéÿltêÿstëÿzuìÿuíÿvïÿvñÿvóÿwõÿ¥w÷ÿ­xùÿ´xûÿ»xýÿÂyÿÿÊyÿÿÑzÿÿØzÿÿßzÿÿç{ÿÿyêÿyêÿyêÿyêÿ#yêÿ*zêÿ1zêÿ7zéÿ>zéÿGzéÿN{éÿU{éÿ]{éÿd|éÿm|éÿt|êÿ{}ëÿ}ìÿ~îÿ~ðÿ~òÿ ôÿ¦öÿ®øÿµúÿ¼üÿÃþÿËÿÿÒÿÿÙÿÿàÿÿèÿÿëÿëÿëÿëÿ%ëÿ+ëÿ2ëÿ9êÿ@êÿHéÿOéÿVéÿ^éÿeéÿnéÿuêÿ}êÿëÿíÿîÿðÿ¡òÿ¨ôÿ°÷ÿ¶ùÿ½ûÿÄüÿÌþÿÓÿÿÚÿÿáÿÿéÿÿìÿìÿìÿ!ìÿ&ìÿ-ìÿ3ëÿ:(long long)arg1 ëÿAëÿIêÿPêÿWéÿ_éÿféÿoéÿvéÿ~êÿêÿëÿíÿïÿ¢ñÿ©óÿ±õÿ¸÷ÿ¿ùÿÅûÿÍýÿÔÿÿÛÿÿâÿÿêÿÿîÿîÿîÿ#îÿ(îÿ.íÿ4íÿ;ìÿBìÿJëÿQëÿXêÿ`êÿhéÿpéÿxéÿéÿéÿêÿëÿíÿ¤ïÿ«ñÿ²óÿ¹õÿÀøÿÇúÿÏüÿÕýÿÜÿÿãÿÿëÿÿïÿïÿ!ïÿ%ïÿ)ïÿ/ïÿ6ïÿ<îÿCîÿKíÿRìÿYëÿaëÿhêÿqéÿyéÿéÿéÿéÿêÿëÿ¥ íÿ¬ ïÿ´ ñÿ»¡ôÿÁ¡öÿÈ¡øÿÐ¡úÿÖ¢üÿÝ¢þÿä¢ÿÿì¢ÿÿ£ñÿ£ñÿ"£òÿ&£òÿ+¤ñÿ1¤ñÿ6¤ñÿ=¤ðÿC¤ðÿK¤ïÿR¥îÿZ¥íÿa¥ìÿi¥ëÿr¥êÿy¦éÿ¦éÿ¦èÿ§èÿ§éÿ §éÿ§§ëÿ®¨íÿµ¨ïÿ¼¨òÿÃ©ôÿÉ©öÿÑ©ùÿØ©ûÿÞªýÿåªþÿíªÿÿ¬ôÿ!¬ôÿ$¬ôÿ'¬ôÿ,¬ôÿ2¬ôÿ7¬óÿ=¬óÿD­òÿL­ñÿS­ðÿZ­ïÿb­îÿi­íÿr®ìÿz®ëÿ®êÿ®éÿ¯èÿ¯èÿ¡¯èÿ©¯éÿ°°êÿ·°íÿ¾°ïÿÄ±òÿË±õÿÒ±÷ÿÙ±ùÿß±ûÿæ²ýÿî²ÿÿ ´÷ÿ#´÷ÿ%´÷ÿ)´÷ÿ-´÷ÿ2´÷ÿ8µöÿ>µöÿDµõÿLµôÿSµóÿZµòÿb¶ñÿi¶ðÿr¶îÿz¶íÿ¶ìÿ¶êÿ·éÿ·èÿ£·çÿª·çÿ±¸èÿ¹¸êÿ¿¸ìÿÆ¹ïÿÌ¹òÿÓ¹õÿÚ¹øÿá¹úÿç¹ûÿïºýÿ"½úÿ$½úÿ'¾úÿ*¾ûÿ.¾ûÿ3¾úÿ9¾úÿ?¾úÿE¾ùÿL¾øÿS¿÷ÿZ¿öÿa¿õÿi¿ôÿr¿òÿy¿ñÿÀïÿÀíÿÀëÿÀéÿ£Àèÿ«Àæÿ³Àæÿ»ÁçÿÂÁéÿÈÁìÿÎÂïÿÕÂóÿÛÂõÿâÂøÿèÂúÿðÂüÿ#Æýÿ&Æýÿ(Æþÿ+Æþÿ/Æþÿ4Æþÿ9Æþÿ?ÇýÿEÇýÿLÇüÿSÇûÿZÇúÿaÇùÿhÇøÿqÈ÷ÿyÈõÿÈôÿÈòÿÈðÿÈíÿ£Èëÿ«Èèÿ´Èæÿ½ÉäÿÄÉåÿÊÉèÿÐÉìÿÖÊðÿÝÊóÿãÊöÿéÊøÿñÊúÿ%Îÿÿ'Îÿÿ)Îÿÿ,Îÿÿ0Îÿÿ5Ïÿÿ:(id)arg2 Ïÿÿ?ÏÿÿEÏÿÿLÏÿÿSÏÿÿZÐþÿaÐýÿhÐüÿpÐûÿxÐúÿÐøÿÐ÷ÿÑõÿÑóÿ¡Ñðÿ©Ñîÿ²Ñëÿ¼ÑçÿÆÑãÿÍÑâÿÒÑçÿØÑíÿÞÒñÿäÒôÿêÒöÿòÒøÿ'Öÿÿ)×ÿÿ+×ÿÿ-×ÿÿ1×ÿÿ6×ÿÿ;×ÿÿ@×ÿÿF×ÿÿMØÿÿSØÿÿZØÿÿaØÿÿhØÿÿpØÿÿwØýÿÙüÿÙûÿÙùÿÙ÷ÿÙöÿ§Ùôÿ°Ùñÿ¹ÙîÿÂÙëÿËÙçÿÙÙÙÿÚÙéÿßÙîÿåÙòÿëÙõÿóÙ÷ÿ)àÿÿ*àÿÿ,àÿÿ/àÿÿ2àÿÿ7àÿÿ<àÿÿAàÿÿGáÿÿMáÿÿSáÿÿZáÿÿaáÿÿháÿÿpâÿÿwâÿÿ~âÿÿâÿÿâýÿâüÿâúÿ¦âøÿ®âöÿ·âôÿÀãðÿÊâìÿÓâèÿÛâçÿáâìÿæâïÿìâóÿôâõÿ*èÿÿ,èÿÿ.èÿÿ1èÿÿ4èÿÿ8èÿÿ=èÿÿBéÿÿGéÿÿNéÿÿTéÿÿZéÿÿaéÿÿhêÿÿpêÿÿwêÿÿ~êÿÿêÿÿêÿÿêþÿêýÿ¦ëúÿ¯ë÷ÿ¸ëõÿÁêòÿÊêïÿÓêìÿÛêëÿáêìÿçêîÿíêñÿôêôÿ,ðÿÿ.ðÿÿ0ðÿÿ2ðÿÿ5ðÿÿ:(id)arg3 ðÿÿ>ñÿÿCñÿÿHñÿÿOñÿÿUñÿÿ[ñÿÿbñÿÿhòÿÿpòÿÿwòÿÿ~òÿÿóÿÿóÿÿóþÿóüÿ¨óúÿ°óøÿ¹òöÿÂòóÿÊòñÿÓòïÿÛñîÿâñîÿèñïÿîññÿõñóÿ.øÿÿ0øÿÿ2øÿÿ4øÿÿ7øÿÿ;øÿÿ@ùÿÿDùÿÿJùÿÿPùÿÿYúÿÿ_úÿÿeúÿÿlûÿÿtûÿÿ{ûÿÿûÿÿûÿÿûÿÿûþÿ¡ûýÿ©ûûÿ±úùÿºú÷ÿÃúõÿËúóÿÓùñÿÛùðÿâùðÿèùðÿîùñÿõùóÿ:ÿÿÿ;ÿÿÿ<ÿÿÿ>ÿÿÿAÿÿÿEÿÿÿIÿÿÿMÿÿÿRÿÿÿWÿÿÿ]ÿÿÿcÿÿÿiÿÿÿoÿÿÿwÿÿÿ~ÿÿÿÿÿÿÿÿÿÿÿÿÿþÿ£ÿüÿ«ÿûÿ³ÿùÿ¼ÿ÷ÿÄÿõÿÌÿôÿÓÿóÿÜÿòÿâÿñÿéÿñÿïÿòÿõÿóÿ /* Error: Ran out of types for this method. */;
 - (void)Ùx^ÿáy_ÿ#wDÿ%wDÿ'wDÿ*wDÿ-wDÿ2wDÿ7wDÿ<wDÿBwDÿHwEÿNwFÿTwFÿZxGÿ`xHÿgxJÿnyKÿtyLÿ{zMÿzOÿ{Pÿ{Qÿ{Rÿ|Tÿ§|Uÿ®}Vÿµ}Xÿ¼~YÿÄ~[ÿË\ÿÓ]ÿÚ_ÿá`ÿ'Eÿ)Eÿ+Eÿ-Eÿ1Eÿ5Eÿ:(id)arg1 Eÿ?EÿDFÿJFÿPGÿVHÿ\HÿbJÿiKÿoLÿvMÿ|NÿPÿQÿRÿSÿ Uÿ¨Vÿ¯Wÿ¶Yÿ½ZÿÅ[ÿÌ]ÿÓ^ÿÚ_ÿâaÿ+Fÿ-Fÿ/Fÿ1Fÿ4Fÿ8Fÿ=FÿAFÿFGÿMGÿRHÿXIÿ^JÿdKÿkLÿqMÿwNÿ~OÿQÿRÿSÿTÿ Vÿ¨Wÿ¯Xÿ·Yÿ¾[ÿÆ\ÿÍ^ÿÔ_ÿÛ`ÿãbÿ0Gÿ2Gÿ3Gÿ5Gÿ8Gÿ<Gÿ@GÿEGÿJHÿOHÿUIÿZJÿ`KÿfLÿmMÿsNÿyOÿQÿRÿSÿTÿVÿ¢Wÿ©Xÿ°Yÿ¸[ÿ¿\ÿÇ]ÿÎ_ÿÕ`ÿÜaÿäcÿ4Gÿ6Gÿ7Gÿ9Hÿ<Hÿ@HÿCHÿHIÿLIÿRJÿWJÿ]KÿbLÿhMÿoNÿuOÿ{PÿRÿSÿTÿUÿWÿ£XÿªYÿ±Zÿ¸\ÿ¿]ÿÇ ^ÿÏ _ÿÖ aÿÝ¡bÿå¡dÿ9¡Hÿ:(id)arg2 ¡Hÿ;¡Hÿ=¡Iÿ@¡IÿC¡IÿG¡IÿK¡JÿO¡JÿU¡KÿZ¡Kÿ_¡Lÿe¢Mÿj¢Nÿq¢Oÿw¢Pÿ}£Rÿ£Sÿ£Tÿ¤Uÿ¤Wÿ¥Xÿ¤¥Yÿ¬¦Zÿ²¦[ÿ¹§]ÿÀ§^ÿÈ¨_ÿÏ¨`ÿÖ¨bÿÝ©cÿå©dÿ=©Iÿ>©Iÿ?©IÿA©JÿD©JÿG©JÿJ©JÿN©KÿR©KÿX©Lÿ]©LÿbªMÿgªNÿmªOÿsªPÿy«Qÿ«Sÿ«Tÿ¬Uÿ¬Vÿ¬Xÿ­Yÿ¥­Zÿ­®[ÿ´®]ÿ»¯^ÿÁ¯_ÿÉ°`ÿÐ°aÿ×°cÿÞ±dÿæ±eÿA±JÿB±JÿD±JÿE±KÿH±KÿK±KÿN±KÿR±LÿV±Lÿ[²Mÿ`²Nÿe²Nÿj²Oÿo²Pÿv²Qÿ{³Sÿ³Tÿ³Uÿ´Vÿ´Xÿ´Yÿ¡µZÿ§µ[ÿ®¶]ÿµ¶^ÿ¼·_ÿÂ·`ÿÊ·aÿÑ¸cÿØ¸dÿß¹eÿç¹fÿFºKÿGºKÿHºLÿJºLÿLºLÿOºLÿRºMÿV»MÿY»Nÿ^»Nÿc»Oÿh»Pÿm»Qÿr»Rÿx¼Sÿ~¼Tÿ¼Uÿ¼Vÿ½Xÿ½Yÿ½Zÿ¢¾[ÿ©¾]ÿ°¿^ÿ·¿_ÿ½À`ÿÄÀaÿËÀcÿÒÁdÿÙÁeÿàÁfÿèÂgÿKÂLÿLÂMÿMÂMÿNÂMÿPÂMÿSÃMÿVÃNÿYÃNÿ]ÃOÿbÃOÿfÃPÿkÃQÿpÃRÿuÄSÿ{ÄTÿÄUÿÄVÿÅWÿÅYÿÅZÿÅ[ÿ¤Æ\ÿ«Æ^ÿ²Ç_ÿ¸Ç`ÿ¿ÇaÿÅÈbÿÍÈdÿÓÉeÿÚÉfÿáÉgÿéÊhÿOËNÿPËNÿQËNÿRËNÿTËNÿWËOÿZËOÿ]ËOÿ`ËPÿeËQÿiËQÿnËRÿsÌSÿxÌTÿ}ÌUÿÌVÿÌWÿÍXÿÍZÿÍ[ÿ Î\ÿ¦Î]ÿ¬Î_ÿ³Ï`ÿºÏaÿÀÏbÿÇÐdÿÎÐeÿÕÐfÿÛÑgÿâÑhÿêÑiÿTÓOÿTÓOÿUÓOÿWÓOÿXÓOÿ[ÓPÿ^ÓPÿaÓQÿdÓQÿhÓRÿlÓRÿqÓSÿvÔTÿzÔUÿÔVÿÔWÿÔXÿÕYÿÕ[ÿÕ\ÿ¢Ö]ÿ¨Ö^ÿ®Ö`ÿµ×aÿ»×bÿÂ×cÿÈØeÿÏØfÿÖØgÿÜÙhÿãÙiÿëÙjÿYÜPÿYÜPÿZÜPÿ\ÜQÿ]ÜQÿ`ÜQÿbÜRÿeÜRÿhÜSÿlÜSÿpÜTÿtÝUÿyÝUÿ~ÝVÿÝWÿÝXÿÞYÿÞ[ÿÞ\ÿÞ]ÿ¥ß^ÿ«ß`ÿ±ßaÿ·ßbÿ½àcÿÄàeÿÊàfÿÑágÿ×áhÿÞáiÿäâjÿìâkÿ]äQÿ^äRÿ_äRÿ`äRÿaäRÿdäRÿfäSÿiäSÿläTÿpäTÿtåUÿxåVÿ|åWÿåWÿåYÿåZÿæ[ÿæ\ÿæ]ÿ¡æ^ÿ§æ_ÿ­çaÿ³çbÿ¹çcÿ¿èdÿÅèfÿËègÿÒèhÿÙéiÿßéjÿåékÿìêlÿbìSÿbìSÿcìSÿdìSÿfìSÿhìTÿjìTÿmìUÿpìUÿtìVÿwìVÿ{íWÿíXÿíYÿíZÿí[ÿî\ÿî]ÿî^ÿ¤î_ÿ©î`ÿ¯ïbÿµïcÿ»ïdÿÁïeÿÇðgÿÍðhÿÔðiÿÚðjÿàñkÿçñlÿíñmÿfôTÿgôTÿhôTÿiôUÿjôUÿlôUÿnôUÿqôVÿtôVÿwôWÿ{ôXÿõXÿõYÿõZÿõ[ÿõ\ÿõ]ÿö^ÿ¡ö_ÿ¦ö`ÿ¬öaÿ±öcÿ·÷dÿ½÷eÿÃ÷fÿÉ÷gÿÏøhÿÖøjÿÜøkÿâølÿèùmÿíùmÿkýVÿlýVÿmýVÿnýVÿoýVÿqýWÿsýWÿuýWÿxýXÿ{ýXÿýYÿýZÿþZÿþ[ÿþ\ÿþ]ÿþ^ÿþ_ÿ¤ÿ`ÿ©ÿaÿ®ÿbÿ´ÿdÿ¹ÿeÿ¿ÿfÿÅÿgÿËÿhÿÑÿiÿ×ÿjÿÝÿkÿãÿlÿêÿmÿíÿnÿ;
@@ -100,27 +57,7 @@ __attribute__((visibility("hidden")))
 - (void)¤çÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int cinematicFramingControlMode; // @synthesize cinematicFramingControlMode=_cinematicFramingControlMode;
-@property(nonatomic) CDStruct_a536cad7 cinematicFramingControls;
-@property(nonatomic) _Bool cinematicFramingControlsSuspended;
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *detectionMetadataInputsByPortType; // @synthesize detectionMetadataInputsByPortType=_detectionMetadataInputsByPortType;
-@property(readonly, nonatomic) BWNodeOutput *detectionMetadataOutput; // @synthesize detectionMetadataOutput=_detectionMetadataOutput;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double manualFramingVideoZoomFactor;
-@property(readonly, nonatomic) long long multipleFacesDetectedCumulativeTime;
-@property(readonly, nonatomic) struct CGRect regionOfInterestForCameraControls; // @synthesize regionOfInterestForCameraControls=_regionOfInterestForCameraControls;
-@property(nonatomic) CDUnknownBlockType regionOfInterestForCameraControlsChangedHandler;
-@property(nonatomic, getter=isRegionOfInterestForCameraControlsFeedbackEnabled) _Bool regionOfInterestForCameraControlsFeedbackEnabled;
-@property(readonly, nonatomic) long long singleFaceDetectedCumulativeTime;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDictionary *videoCaptureInputsByPortType; // @synthesize videoCaptureInputsByPortType=_videoCaptureInputsByPortType;
-@property(readonly, nonatomic) BWNodeOutput *videoCaptureOutput; // @synthesize videoCaptureOutput=_videoCaptureOutput;
 
 @end
 

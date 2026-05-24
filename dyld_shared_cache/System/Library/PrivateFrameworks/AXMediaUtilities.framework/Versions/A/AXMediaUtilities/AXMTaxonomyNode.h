@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 @interface AXMTaxonomyNode
 {
     unsigned int _sceneClassId;
-    NSString *_label;
-    NSString *_localizedName;
-    double _confidence;
-    NSMutableSet *_detectorSceneClassIds;
 }
 
 - (void);
-- (void);
+- (void)xf}z;
 - (id);
 - (unsigned int);
 - (id);
@@ -25,14 +21,10 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(retain, nonatomic) NSMutableSet *detectorSceneClassIds; // @synthesize detectorSceneClassIds=_detectorSceneClassIds;
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) unsigned int sceneClassId; // @synthesize sceneClassId=_sceneClassId;
 
 @end
 

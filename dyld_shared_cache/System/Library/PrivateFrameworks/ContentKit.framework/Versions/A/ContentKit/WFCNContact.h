@@ -6,16 +6,9 @@
 
 #import <ContentKit/WFContact.h>
 
-@class CNContact, NSString;
-
 @interface WFCNContact : WFContact
 {
     _Bool _fromVCard;
-    int _propertyID;
-    NSString *_accountIdentifier;
-    long long _multivalueIndex;
-    NSString *_contactIdentifier;
-    CNContact *_contact;
 }
 
 + (id);
@@ -27,13 +20,10 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)V;
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property(readonly, nonatomic) _Bool fromVCard; // @synthesize fromVCard=_fromVCard;
 
 @end

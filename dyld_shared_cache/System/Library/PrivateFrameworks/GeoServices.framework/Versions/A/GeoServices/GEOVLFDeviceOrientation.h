@@ -9,49 +9,39 @@
 @interface GEOVLFDeviceOrientation
 {
     PBUnknownFields *_unknownFields;
-    int _orientation;
-    unsigned int _relativeTimestampMs;
-    struct {
-        unsigned int has_orientation:1;
-        unsigned int has_relativeTimestampMs:1;
-    } _flags;
 }
 
-+ (_Bool)ses:(id)arg1;
++ (_Bool)setNumberOfAlertingResponses:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
+- (_Bool)__AUTH_CONST;
 - (_Bool);
-- (_Bool);
-- (int);
+- (int)m;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)seekToTime:(id)arg1 toleranceBefore:toleranceAfter: /* Error: Ran out of types for this method. */;
+- (id)secondPassResultCanceled;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (int);
 - (void);
 - (id)!XCùº*Ð1Â0@ù
 × ;
-- (id)WithName:reason:userInfo: /* Error: Ran out of types for this method. */;
+- (id)initWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
 - (id)N;
-- (id)te;
+- (id)Reroute;
 - (void)ogging.m;
 - (void)Clç@/Ý$@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOrientation;
 @property(nonatomic) _Bool hasRelativeTimestampMs;
-@property(nonatomic) int orientation;
-@property(nonatomic) unsigned int relativeTimestampMs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

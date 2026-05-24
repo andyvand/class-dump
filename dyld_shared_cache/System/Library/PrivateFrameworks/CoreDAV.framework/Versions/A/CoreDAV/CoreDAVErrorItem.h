@@ -6,27 +6,11 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVItemWithNoChildren, CoreDAVLeafItem;
+@class CoreDAVItemWithNoChildren;
 
 @interface CoreDAVErrorItem : CoreDAVItem
 {
     CoreDAVItemWithNoChildren *_numberOfMatchesWithinLimits;
-    CoreDAVItemWithNoChildren *_validSyncToken;
-    CoreDAVItemWithNoChildren *_noUIDConflict;
-    CoreDAVItemWithNoChildren *_validAddressData;
-    CoreDAVItemWithNoChildren *_maxResourceSize;
-    CoreDAVItemWithNoChildren *_uid;
-    CoreDAVItemWithNoChildren *_ctagOkay;
-    CoreDAVItemWithNoChildren *_maxImageSize;
-    CoreDAVItemWithNoChildren *_invalidImageType;
-    CoreDAVItemWithNoChildren *_imageError;
-    CoreDAVItemWithNoChildren *_guardianRestricted;
-    CoreDAVItemWithNoChildren *_maxAttendees;
-    CoreDAVItemWithNoChildren *_quotaExceeded;
-    CoreDAVItemWithNoChildren *_maxResources;
-    CoreDAVItemWithNoChildren *_validTimezone;
-    CoreDAVItemWithNoChildren *_validSplit;
-    CoreDAVLeafItem *_status;
 }
 
 + (id);
@@ -35,6 +19,15 @@
 - (id);
 - (void);
 - (id);
+- (void)!;
+- (id);
+- (id);
+- (void)N5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFv19IRatApplicationType15DataContextTypeiENS2_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS7_EENSD_IFvRKNS2_10connectionES5_S6_iEEENS2_5mutexEE16invocation_stateEEE;
+- (id)_timeSuggestionPicked: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void)t=ii}]BBBBi}24@32@40@48i56i60@64B72B76@80^^{TreeObject}88i96{?=[17Q]}100B236B240B244Q248B256@260B268Q272B280B284i288B292;
 - (void);
 - (id);
 - (id);
@@ -42,21 +35,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -66,26 +50,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ExceptionWithinDateRange;
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *ctagOkay; // @synthesize ctagOkay=_ctagOkay;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *guardianRestricted; // @synthesize guardianRestricted=_guardianRestricted;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *imageError; // @synthesize imageError=_imageError;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *invalidImageType; // @synthesize invalidImageType=_invalidImageType;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *maxAttendees; // @synthesize maxAttendees=_maxAttendees;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *maxImageSize; // @synthesize maxImageSize=_maxImageSize;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *maxResourceSize; // @synthesize maxResourceSize=_maxResourceSize;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *maxResources; // @synthesize maxResources=_maxResources;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *noUIDConflict; // @synthesize noUIDConflict=_noUIDConflict;
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *numberOfMatchesWithinLimits; // @synthesize numberOfMatchesWithinLimits=_numberOfMatchesWithinLimits;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *quotaExceeded; // @synthesize quotaExceeded=_quotaExceeded;
-@property(retain, nonatomic) CoreDAVLeafItem *status; // @synthesize status=_status;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *uid; // @synthesize uid=_uid;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *validAddressData; // @synthesize validAddressData=_validAddressData;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *validSplit; // @synthesize validSplit=_validSplit;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *validSyncToken; // @synthesize validSyncToken=_validSyncToken;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *validTimezone; // @synthesize validTimezone=_validTimezone;
 
 @end
 

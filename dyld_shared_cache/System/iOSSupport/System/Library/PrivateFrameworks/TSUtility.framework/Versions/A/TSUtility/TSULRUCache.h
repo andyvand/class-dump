@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TSUNoCopyDictionary;
+@class TSUNoCopyDictionary;
 
 @interface TSULRUCache
 {
     TSUNoCopyDictionary *mData;
-    NSMutableArray *mOrderedKeys;
-    unsigned long long mMax;
-    id mCallbackTarget;
-    SEL mCallback;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (id);

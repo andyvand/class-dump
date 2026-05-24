@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, IOBluetoothRFCOMMChannel, NSMutableData, NSTimer;
-
 @interface IOBluetoothDeviceInfoGatherer
 {
     _Bool mInfoGathered;
-    IOBluetoothDevice *mDevice;
-    IOBluetoothRFCOMMChannel *mRFCOMMChannel;
-    unsigned int mATCommandState;
-    unsigned char mChannelID;
-    NSMutableData *mPhoneGMI;
-    NSMutableData *mPhoneGMM;
-    NSMutableData *mPhoneManufacturer;
-    NSMutableData *mPhoneModelNumber;
-    NSMutableData *mPhoneRevisionID;
-    NSMutableData *mPhoneIMSI;
-    NSTimer *mATCommandTimer;
-    char *mLastCommandPtr;
-    SEL mProgressSelector;
-    id mProgressSelectorTarget;
-    _Bool mGetATCommandInfo;
-    _Bool mGetSDPInfo;
-    void *expansionData[4];
 }
 
 - (void);
@@ -49,7 +30,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)7;
 - (void);
 - (id);
 - (void);

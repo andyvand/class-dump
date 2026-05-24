@@ -9,7 +9,6 @@
 @interface IDSCKRecordZoneID
 {
     NSString *_zoneName;
-    NSString *_ownerName;
 }
 
 + (Class);
@@ -19,7 +18,6 @@
 - (id)Ô¬²ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ownerName; // @synthesize ownerName=_ownerName;
 @property(readonly, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end

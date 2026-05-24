@@ -6,14 +6,11 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class NSString, TIKeyboardCandidate, TIKeyboardConfiguration, TIKeyboardState;
+@class TIKeyboardCandidate;
 
 @interface TITypologyRecordAcceptedCandidate : TITypologyRecord
 {
     TIKeyboardCandidate *_candidate;
-    TIKeyboardState *_keyboardState;
-    TIKeyboardConfiguration *_keyboardConfig;
-    NSString *_textToCommit;
 }
 
 + (_Bool);
@@ -23,26 +20,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)`6;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)re-generate derivatives;
+- (void)_groupids);;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
 - (void)µ
 
 ;
-- (id)rtified;
-- (void)ess;
+- (id)uncertified;
+- (void)selectness;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardCandidate *candidate; // @synthesize candidate=_candidate;
-@property(retain, nonatomic) TIKeyboardConfiguration *keyboardConfig; // @synthesize keyboardConfig=_keyboardConfig;
-@property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(copy, nonatomic) NSString *textToCommit; // @synthesize textToCommit=_textToCommit;
 
 @end
 

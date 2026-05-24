@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSSet;
+@class NSMutableSet, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AMSEngagementObserverInfo
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableSet *_underlyingPlacements;
-    NSMutableSet *_underlyingServiceTypes;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)acceptSource;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Ь;
 - (void);
 - (void)&1Â0@ù
 × ;
@@ -32,11 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)À"×Ús¦ÍÚzÓÎÚÀ"ÚÛ½ÒÚIÚåöÚ0}Ú8ÚÀ"7Ú8¶Úh9èÚ#ÚMíÅÚÚÚ¼´ÚÚ0ýÚµÁ¤Ú`ÊÚÛ½rÚh9Ú÷ÜÚÀ"÷ÚÒÈqÚzÓÚþi_ÚE^ÚaLÚiÚµÁÚÉWÚMíÚÒÈ±Ú0ÝÚVr;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) NSSet *placements;
-@property(readonly) NSSet *serviceTypes;
 @property(retain) NSMutableSet *underlyingPlacements; // @synthesize underlyingPlacements=_underlyingPlacements;
-@property(retain) NSMutableSet *underlyingServiceTypes; // @synthesize underlyingServiceTypes=_underlyingServiceTypes;
 
 @end
 

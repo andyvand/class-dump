@@ -6,16 +6,11 @@
 
 #import <GameController/GCControllerButtonInput.h>
 
-@protocol GCAdaptiveTriggers, GCControllerHIDInfo;
+@protocol GCControllerHIDInfo;
 
 @interface GCDualSenseAdaptiveTrigger : GCControllerButtonInput
 {
     id <GCControllerHIDInfo> _hidInfo;
-    id <GCAdaptiveTriggers> _adaptiveTriggers;
-    float _armPosition;
-    int _index;
-    long long _mode;
-    long long _status;
 }
 
 - (void);
@@ -24,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,16 +34,13 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)b;
 - (int);
 - (void);
-- (void)stemServiceProviding;
+- (void)GCHIDSystemServiceProviding;
 
 // Remaining properties
-@property(nonatomic) float armPosition; // @synthesize armPosition=_armPosition;
 @property(nonatomic) int index; // @synthesize index=_index;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

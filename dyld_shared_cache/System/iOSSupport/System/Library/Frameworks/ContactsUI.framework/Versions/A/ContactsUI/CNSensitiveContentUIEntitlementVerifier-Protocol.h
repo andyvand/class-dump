@@ -5,5 +5,7 @@
 //
 
 @protocol CNSensitiveContentUIEntitlementVerifier
+- (_Bool);
+- (_Bool);
 @end
 

@@ -13,7 +13,7 @@
 + (void);
 - (id);
 - (void);
-- (long long);
+- (long long)2/MagazineGridTracker.swift;
 - (long long);
 
 @end

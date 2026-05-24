@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)openURL:(id)arg1 configuration:(long long)arg2 completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

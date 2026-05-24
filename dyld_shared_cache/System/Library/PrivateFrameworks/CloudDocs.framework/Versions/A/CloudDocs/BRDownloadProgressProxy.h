@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMetadataQuery, NSOperationQueue, NSString;
+@class NSMetadataQuery;
 
 __attribute__((visibility("hidden")))
 @interface BRDownloadProgressProxy
 {
     NSMetadataQuery *_query;
-    NSOperationQueue *_queue;
-    NSString *_personaID;
 }
 
 - (void);

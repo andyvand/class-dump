@@ -7,12 +7,11 @@
 @interface CLFindMyAccessoryAccelerometerOrientationModeConfiguration
 {
     unsigned short _sleepDuration_ms;
-    unsigned int _threshold;
 }
 
-+ (_Bool);
++ (_Bool);
 - (unsigned short);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -20,7 +19,6 @@
 - (unsigned int)ntMessageHeadingHandler", "event":%{public, location:escape_only}s, "client":"%{public}p"} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned short sleepDuration_ms; // @synthesize sleepDuration_ms=_sleepDuration_ms;
 @property(nonatomic) unsigned int threshold; // @synthesize threshold=_threshold;
 
 @end

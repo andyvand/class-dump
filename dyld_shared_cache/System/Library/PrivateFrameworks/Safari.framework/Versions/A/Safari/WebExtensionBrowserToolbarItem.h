@@ -6,14 +6,12 @@
 
 #import <Safari/BrowserToolbarItem.h>
 
-@class BrowserWindowController, NSMenuItem, NSString, WebExtensionToolbarItem;
+@class NSMenuItem, WebExtensionToolbarItem;
 
 __attribute__((visibility("hidden")))
 @interface WebExtensionBrowserToolbarItem : BrowserToolbarItem
 {
     NSMenuItem *_menuItemForOverflowMenu;
-    WebExtensionToolbarItem *_webExtensionToolbarItem;
-    BrowserWindowController *_browserWindowController;
 }
 
 - (id);
@@ -38,14 +36,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿÿ*;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak WebExtensionToolbarItem *webExtensionToolbarItem; // @synthesize webExtensionToolbarItem=_webExtensionToolbarItem;
 
 @end

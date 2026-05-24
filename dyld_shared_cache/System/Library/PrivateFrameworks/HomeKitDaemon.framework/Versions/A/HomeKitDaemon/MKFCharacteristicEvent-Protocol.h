@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCharacteristicEventDatabaseID, NSNumber;
-@protocol MKFHome, MKFService;
+@class NSNumber;
+@protocol MKFHome;
 
 @protocol MKFCharacteristicEvent
+- (NSNumber *)in progress;
 - (id <MKFHome>);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *characteristicID;
-@property(readonly, copy, nonatomic) MKFCharacteristicEventDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
-@property(retain, nonatomic) id <MKFService> service;
 @end
 

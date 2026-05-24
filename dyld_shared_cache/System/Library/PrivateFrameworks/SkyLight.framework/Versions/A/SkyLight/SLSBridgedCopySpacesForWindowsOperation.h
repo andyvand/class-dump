@@ -6,18 +6,15 @@
 
 #import <SkyLight/SLSSynchronousBridgedWindowManagementOperation.h>
 
-@class NSArray;
-
 @interface SLSBridgedCopySpacesForWindowsOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned int _options;
-    NSArray *_windows;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)ation from model with digest { %@ }%@;
+- (id)COLUMNS BLOB;
+- (id)=%@;
 - (id);
 - (id);
 - (unsigned int);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) unsigned int options; // @synthesize options=_options;
-@property(readonly, copy) NSArray *windows; // @synthesize windows=_windows;
 
 @end
 

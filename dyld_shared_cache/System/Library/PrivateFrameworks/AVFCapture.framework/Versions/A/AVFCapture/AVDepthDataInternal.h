@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCameraCalibrationData, NSData;
-
 __attribute__((visibility("hidden")))
 @interface AVDepthDataInternal
 {
     struct __CVBuffer *pixelBuffer;
-    int version;
-    long long quality;
-    _Bool filtered;
-    long long accuracy;
-    AVCameraCalibrationData *calibrationData;
-    float depthBlurEffectSimulatedAperture;
-    NSData *depthBlurEffectRenderingParameters;
-    _Bool portraitScoreIsHigh;
-    float portraitScore;
-    float portraitLightingEffectStrength;
 }
 
 @end

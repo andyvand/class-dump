@@ -7,8 +7,6 @@
 @interface WAChanInfo
 {
     short _channel;
-    short _band;
-    int _simplifiedChannelFlags;
 }
 
 + (int);
@@ -17,16 +15,14 @@
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)on Export END;
 - (void);
-- (void);
-- (short);
-- (short);
+- (void)@;
+- (short)Ҫ;
+- (short)`B9(;
 
 // Remaining properties
-@property short band; // @synthesize band=_band;
 @property short channel; // @synthesize channel=_channel;
-@property int simplifiedChannelFlags; // @synthesize simplifiedChannelFlags=_simplifiedChannelFlags;
 
 @end
 

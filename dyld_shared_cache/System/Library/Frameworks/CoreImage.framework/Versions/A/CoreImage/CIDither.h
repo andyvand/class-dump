@@ -6,16 +6,15 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDither : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputIntensity;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity;
 
 @end
 

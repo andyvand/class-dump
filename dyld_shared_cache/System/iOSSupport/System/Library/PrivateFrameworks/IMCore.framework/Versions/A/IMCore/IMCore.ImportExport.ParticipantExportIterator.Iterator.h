@@ -7,12 +7,6 @@
 @interface IMCore.ImportExport.ParticipantExportIterator.Iterator
 {
     id exportOptions;
-    id exportStatistics;
-    id iterationState;
-    id exportConfiguration;
-    id hasExportedEmptyAccountParticipant;
-    id lastExportedURI;
-    id exportedAccountAddresses;
 }
 
 @end

@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsEvent.h>
 
-@class IOSurfaceSharedEvent, NSString;
-@protocol MTLDevice;
+@class IOSurfaceSharedEvent;
 
 @interface MTLToolsSharedEvent : MTLToolsEvent
 {
@@ -25,17 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IOSurfaceSharedEvent *IOSurfaceSharedEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property unsigned long long signaledValue;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsRollback;
 
 @end
 

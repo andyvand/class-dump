@@ -11,7 +11,7 @@
     NSArray *_collections;
 }
 
-- (id);
+- (id)tifierRegistration>",R,V_registrar;
 - (void)£¶BAñÖù·#P@;
 - (id)'4Ä2;
 

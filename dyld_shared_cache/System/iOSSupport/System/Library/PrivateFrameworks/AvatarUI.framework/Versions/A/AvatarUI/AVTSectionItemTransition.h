@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)C	;
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTSectionItemTransitionModel> sectionItemTransitionModel; // @synthesize sectionItemTransitionModel=_sectionItemTransitionModel;

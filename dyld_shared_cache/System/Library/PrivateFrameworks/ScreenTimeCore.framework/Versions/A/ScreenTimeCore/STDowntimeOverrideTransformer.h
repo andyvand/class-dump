@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)g_genius_checksum INTEGER NOT NULL DEFAULT 0, category_id INTEGER DEFAULT 0, location_kind_id INTEGER NOT NULL DEFAULT 0;
++ (id)ation_id) WHERE path = 'iTunes_Control/Music/F%02d');
 
 @end
 

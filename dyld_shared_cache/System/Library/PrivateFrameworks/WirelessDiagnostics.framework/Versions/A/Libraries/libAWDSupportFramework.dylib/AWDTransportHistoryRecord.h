@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDTransportHistoryRecord
 {
     unsigned long long _timestampFailure;
-    NSMutableArray *_connectionInfos;
-    int _connectionMethod;
-    int _transport;
-    unsigned int _transportSwitchReasonErrorCode;
-    int _transportSwitchReasonErrorDomain;
-    struct {
-        unsigned int timestampFailure:1;
-        unsigned int connectionMethod:1;
-        unsigned int transport:1;
-        unsigned int transportSwitchReasonErrorCode:1;
-        unsigned int transportSwitchReasonErrorDomain:1;
-    } _has;
 }
 
-+ (Class);
-- (id);
++ (Class);
+- (id)`;
 - (int);
 - (unsigned int);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,17 +34,17 @@
 - (int);
 - (unsigned long long);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)I;
 - (int);
 - (int);
 - (int);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -68,17 +54,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *connectionInfos; // @synthesize connectionInfos=_connectionInfos;
-@property(nonatomic) int connectionMethod; // @synthesize connectionMethod=_connectionMethod;
-@property(nonatomic) _Bool hasConnectionMethod;
-@property(nonatomic) _Bool hasTimestampFailure;
 @property(nonatomic) _Bool hasTransport;
-@property(nonatomic) _Bool hasTransportSwitchReasonErrorCode;
-@property(nonatomic) _Bool hasTransportSwitchReasonErrorDomain;
-@property(nonatomic) unsigned long long timestampFailure; // @synthesize timestampFailure=_timestampFailure;
-@property(nonatomic) int transport; // @synthesize transport=_transport;
-@property(nonatomic) unsigned int transportSwitchReasonErrorCode; // @synthesize transportSwitchReasonErrorCode=_transportSwitchReasonErrorCode;
-@property(nonatomic) int transportSwitchReasonErrorDomain; // @synthesize transportSwitchReasonErrorDomain=_transportSwitchReasonErrorDomain;
 
 @end
 

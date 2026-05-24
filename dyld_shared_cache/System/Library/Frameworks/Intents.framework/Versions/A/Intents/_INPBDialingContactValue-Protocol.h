@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContactValue, _INPBStringValue;
+@class _INPBContactValue;
 
 @protocol _INPBDialingContactValue
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContactValue *dialingContact;
-@property(retain, nonatomic) _INPBStringValue *dialingPhoneLabel;
-@property(retain, nonatomic) _INPBStringValue *dialingPhoneNumber;
-@property(readonly, nonatomic) _Bool hasDialingContact;
-@property(readonly, nonatomic) _Bool hasDialingPhoneLabel;
-@property(readonly, nonatomic) _Bool hasDialingPhoneNumber;
 @end
 

@@ -4,22 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIApplicationSceneDisplayHostComponent, _UIApplicationSceneKeyboardHostComponent, _UISceneDestructionHostComponent, _UISceneExternalSettingsModifierHostComponent, _UISceneHostingActivationStateHostComponent, _UISceneHostingViewControllerPreferencePropagationHostComponent, _UISceneIntelligenceSupportHostComponent, _UISceneOcclusionHostComponent, _UISceneRelationshipManagementHostComponent, _UISceneScrollPocketHostComponent, _UISceneZoomTransitionHostComponent, _UIViewServiceHostSceneComponent;
-@protocol _UISceneIntelligenceSupportHost, _UISceneLayoutPreferencesCoordinator, _UISceneMaskingDelegate, _UISceneOrientationHostComponent, _UISceneTouchSharing, _UISceneWindowingControlHost;
+@class _UISceneRelationshipManagementHostComponent;
 
 @interface UnknownClass (SceneRelationshipManagementHostComponent)
+- (id)ing off another batch of fetching;
+- (id)o fetch from archived zone. Kicking off another batch of fetching;
+- (id)oneError %@;
+- (id)tchCompletionZoneID serverChangeToken %@ moreComing %@ recordZoneError %@;
+- (void)ge sync token to nil;
+- (void)ync:(CDUnknownBlockType)arg1 Not checking device conditions for full sync at current batch count %@ isCoreDuetSync %@;
+- (id)ionsToCheck %@ currentBatchCount %@;
+- (id)te;
+- (id)he last batch of messages we will write;
+- (_Bool)es to upload %lu < max batch size. %lu ;
+- (id)mand %@;
+- (id)ssing mark unread request %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -27,12 +31,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)W8;
 - (id);
 - (id);
 - (id);
@@ -40,25 +39,6 @@
 - (id)@"NSUserActivity"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIApplicationSceneDisplayHostComponent *_displayHostComponent;
-@property(readonly, nonatomic) _UIApplicationSceneKeyboardHostComponent *_keyboardHostComponent;
-@property(readonly, nonatomic) _UISceneOcclusionHostComponent *_occlusionHostComponent;
 @property(readonly, nonatomic) _UISceneRelationshipManagementHostComponent *_relationshipManagementHostComponent;
-@property(readonly, nonatomic) _UISceneDestructionHostComponent *_sceneDestructionHostComponent;
-@property(nonatomic, getter=_sceneMaskingDelegate, setter=_setSceneMaskingDelegate:) __weak id <_UISceneMaskingDelegate> _sceneMaskingDelegate;
-@property(readonly, nonatomic) _UISceneHostingViewControllerPreferencePropagationHostComponent *_viewControllerAppearanceComponent;
-@property(readonly, nonatomic) id <_UISceneLayoutPreferencesCoordinator> layoutPreferencesCoordinator;
-@property(readonly, nonatomic) _UISceneHostingActivationStateHostComponent *ui_activationStateComponent;
-@property(nonatomic, setter=ui_setHitTestsAsOpaque:) _Bool ui_hitTestsAsOpaque;
-@property(readonly, nonatomic) id <_UISceneIntelligenceSupportHost> ui_intelligenceComponent;
-@property(readonly, nonatomic) _UISceneIntelligenceSupportHostComponent *ui_intelligenceComponentIfExists;
-@property(readonly, nonatomic) id <_UISceneLayoutPreferencesCoordinator> ui_layoutPreferencesCoordinator;
-@property(readonly, nonatomic) id <_UISceneOrientationHostComponent> ui_orientationHostSceneComponent;
-@property(readonly, nonatomic) _UISceneScrollPocketHostComponent *ui_scrollPocket;
-@property(readonly, nonatomic) _UISceneExternalSettingsModifierHostComponent *ui_settingsModifierComponent;
-@property(readonly, nonatomic) id <_UISceneTouchSharing> ui_touchSharing;
-@property(readonly, nonatomic) _UIViewServiceHostSceneComponent *ui_viewServiceComponent;
-@property(readonly, nonatomic) id <_UISceneWindowingControlHost> ui_windowingControl;
-@property(readonly, nonatomic) _UISceneZoomTransitionHostComponent *ui_zoomTransitionComponent;
 @end
 

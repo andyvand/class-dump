@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PFPosterShuffleConfiguration;
-
 @interface PFPosterDescriptor
 {
     long long _descriptorType;
-    NSArray *_media;
-    unsigned long long _version;
-    NSString *_identifier;
-    NSString *_displayNameLocalizationKey;
-    NSString *_styleCategory;
-    PFPosterShuffleConfiguration *_shuffleConfiguration;
-    NSString *_photoLibraryPath;
 }
 
 + (id);
@@ -23,12 +14,12 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)dylib;
+- (id)em/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
 - (void);
-- (void);
+- (void)teFrameworks/BackgroundSystemTasks.framework/Versions/A/BackgroundSystemTasks;
 - (long long);
-- (id);
+- (id)_streamingAdvanceCount;
 - (id);
 - (id);
 - (_Bool);
@@ -38,28 +29,19 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)markCurrentUserParticipantViaPublicKeyMatchingForShare: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)N;
 - (id);
 - (id);
-- (void);
-- (_Bool)WithFaceprint:torsoprint: /* Error: Ran out of types for this method. */;
+- (void)requiredLinearPlaybackEndTime;
+- (_Bool)initWithFaceprint:torsoprint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long descriptorType; // @synthesize descriptorType=_descriptorType;
-@property(retain, nonatomic) NSString *displayNameLocalizationKey; // @synthesize displayNameLocalizationKey=_displayNameLocalizationKey;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) _Bool isBlankTemplate;
-@property(readonly, nonatomic) NSArray *media; // @synthesize media=_media;
-@property(readonly, nonatomic) NSString *photoLibraryPath; // @synthesize photoLibraryPath=_photoLibraryPath;
-@property(readonly, nonatomic) long long posterType;
-@property(retain, nonatomic) PFPosterShuffleConfiguration *shuffleConfiguration; // @synthesize shuffleConfiguration=_shuffleConfiguration;
-@property(retain, nonatomic) NSString *styleCategory; // @synthesize styleCategory=_styleCategory;
-@property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

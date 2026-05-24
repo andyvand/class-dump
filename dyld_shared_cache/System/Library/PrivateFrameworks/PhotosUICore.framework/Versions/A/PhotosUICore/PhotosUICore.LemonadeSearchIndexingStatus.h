@@ -7,12 +7,6 @@
 @interface PhotosUICore.LemonadeSearchIndexingStatus
 {
     id _titleDescription;
-    id _informationDescription;
-    id emptyPlaceholderStatusViewModel;
-    id _searchIndexingMonitor;
-    id aiStatus;
-    id _genericEmptyStateViewModel;
-    id _$observationRegistrar;
 }
 
 @end

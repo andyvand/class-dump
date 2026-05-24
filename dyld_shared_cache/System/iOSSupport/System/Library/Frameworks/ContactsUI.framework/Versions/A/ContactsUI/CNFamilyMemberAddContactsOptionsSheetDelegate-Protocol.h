@@ -5,5 +5,6 @@
 //
 
 @protocol CNFamilyMemberAddContactsOptionsSheetDelegate
+- (void);
 @end
 

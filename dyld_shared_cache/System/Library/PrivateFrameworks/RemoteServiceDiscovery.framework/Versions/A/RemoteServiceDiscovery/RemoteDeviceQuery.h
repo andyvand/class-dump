@@ -7,30 +7,24 @@
 @interface RemoteDeviceQuery
 {
     unsigned int _type;
-    const char *_name;
-    char *_uuid;
-    const char *_availableService;
 }
 
 + (id);
-- (void);
+- (void)i;
 - (_Bool);
 - (const char *);
 - (void);
 - (id);
-- (id);
+- (id));
 - (const char *);
 - (unsigned int);
 - (void);
 - (const char *);
-- (void);
+- (void)type option given;
 - (void);
 
 // Remaining properties
-@property(nonatomic) const char *availableService; // @synthesize availableService=_availableService;
-@property(nonatomic) const char *name; // @synthesize name=_name;
 @property(nonatomic) unsigned int type; // @synthesize type=_type;
-@property(nonatomic) const char *uuid; // @synthesize uuid=_uuid;
 
 @end
 

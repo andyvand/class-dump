@@ -5,5 +5,6 @@
 //
 
 @protocol MCChanging
+- (void);
 @end
 

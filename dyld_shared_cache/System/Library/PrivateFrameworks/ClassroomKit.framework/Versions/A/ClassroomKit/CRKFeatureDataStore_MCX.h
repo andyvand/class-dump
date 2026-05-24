@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKFeatureDataStoreHeuristics_MCX, NSSet, NSString;
 @protocol CRKMCXPrimitives;
 
 @interface CRKFeatureDataStore_MCX
 {
     id <CRKMCXPrimitives> _MCXPrimitives;
-    CRKFeatureDataStoreHeuristics_MCX *_heuristicsManager;
 }
 
 - (void);
@@ -42,20 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKMCXPrimitives> MCXPrimitives; // @synthesize MCXPrimitives=_MCXPrimitives;
-@property(copy, nonatomic) NSSet *activeClassroomRoles;
-@property(readonly, nonatomic, getter=isClassroomAutomaticClassJoiningForced) _Bool classroomAutomaticClassJoiningForced;
-@property(nonatomic, getter=isClassroomInstructorRoleEnabled) _Bool classroomInstructorRoleEnabled;
-@property(readonly, nonatomic, getter=isClassroomRequestPermissionToLeaveClassesForced) _Bool classroomRequestPermissionToLeaveClassesForced;
-@property(nonatomic, getter=isClassroomStudentRoleEnabled) _Bool classroomStudentRoleEnabled;
-@property(readonly, nonatomic, getter=isClassroomUnpromptedScreenObservationForced) _Bool classroomUnpromptedScreenObservationForced;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CRKFeatureDataStoreHeuristics_MCX *heuristicsManager; // @synthesize heuristicsManager=_heuristicsManager;
-@property(readonly) Class superclass;
 
 @end
 

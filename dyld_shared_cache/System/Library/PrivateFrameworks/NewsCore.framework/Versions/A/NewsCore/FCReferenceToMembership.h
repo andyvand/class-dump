@@ -9,20 +9,18 @@
 @interface FCReferenceToMembership
 {
     NSString *_identifier;
-    NSString *_membershipID;
 }
 
 - (id);
 - (id);
+- (id)t6;
 - (id);
-- (id);
-- (id);
+- (id)ation;
 - (id);
 - (void)pleInternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCBlockedExplicitContentAccessChecker.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *membershipID; // @synthesize membershipID=_membershipID;
 
 @end
 

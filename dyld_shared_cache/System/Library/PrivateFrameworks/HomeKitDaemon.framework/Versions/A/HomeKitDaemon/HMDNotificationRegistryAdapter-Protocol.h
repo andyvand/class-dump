@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDMediaProfile, NSArray, NSDictionary, NSSet, NSString;
+
 @protocol HMDNotificationRegistryAdapter
+- (_Bool);
+- (_Bool)_isUserVisibleDuplicateOfSameClassObject:(HMDMediaProfile *)arg1;
+- (_Bool)_isImmutable;
+- (_Bool)_artworkUseType;
+- (NSArray *)_minimumNotificationInterval;
+- (_Bool)atedTimestamp;
+- (NSSet *)ving;
+- (void)d;
+- (NSSet *)Incident;
+- (NSSet *)Persister",R,N,V_persister;
+- (NSArray *)aliases;
+- (NSArray *)stStorage;
+- (NSArray *)T@"GEOStorageRouteRequestStorage",&,N,V_routeRequestStorage;
+- (NSDictionary *)t:(NSString *)arg1 no composed route to truncate;
 @end
 

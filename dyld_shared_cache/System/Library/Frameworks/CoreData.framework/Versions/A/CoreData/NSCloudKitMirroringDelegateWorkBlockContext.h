@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSCloudKitMirroringDelegateWorkBlockContext
 {
     NSString *_transactionLabel;
-    NSString *_powerAssertionLabel;
-    id _runtimeVoucher;
-    unsigned long long _powerAssertionID;
 }
 
 - (void);

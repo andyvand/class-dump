@@ -6,25 +6,20 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSString, NSView, NSViewController;
+@class NSView;
 
 @interface NSCustomTouchBarItem : NSTouchBarItem
 {
     NSView *_view;
-    NSViewController *_viewController;
-    NSString *_customizationLabel;
-    long long _preferredPopoverTransposerPriority;
-    Class _preferredPopoverTransposerClass;
-    double _preferredZOrder;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)ion to fail.;
++ (_Bool)ea;
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
@@ -36,25 +31,18 @@
 - (void);
 - (Class);
 - (id);
-- (void);
-- (id);
+- (void)!;
+- (id)byte_count;
 - (void);
 - (void);
 - (id);
 - (void)0@ù
 × ;
-- (id)nedDictionaries:wordCount: /* Error: Ran out of types for this method. */;
-- (id)_;
+- (id)_dataFromCheckingString:offset:types:options:orthography:learnedDictionaries:wordCount: /* Error: Ran out of types for this method. */;
+- (id)xytIegnr_;
 
 // Remaining properties
-@property(copy) NSString *customizationLabel;
-@property Class preferredPopoverTransposerClass; // @synthesize preferredPopoverTransposerClass=_preferredPopoverTransposerClass;
-@property long long preferredPopoverTransposerPriority; // @synthesize preferredPopoverTransposerPriority=_preferredPopoverTransposerPriority;
-@property struct CGSize preferredSizeForCustomizationPalette;
-@property(retain) NSView *view;
-@property(retain) NSViewController *viewController;
 @property(retain) NSView *viewForCustomizationPalette;
-@property(retain) NSView *viewForCustomizationPreview;
 
 @end
 

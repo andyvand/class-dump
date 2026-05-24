@@ -9,30 +9,9 @@
 @interface AppStoreKit.AccountPagePresenter : AppStoreKit.BaseShelfPresenter
 {
     id dispatchQueue;
-    id pageTitle;
-    id accountLinks;
-    id headerButtons;
-    id accountStore;
-    id bag;
-    id appStateController;
-    id purchaseHistory;
-    id commerceAccountChangeNotifier;
-    id appleSilicon;
-    id purchasesPresenter;
-    id familyMembers;
-    id selectedFamilyMember;
-    id familyMemberImages;
-    id activeStoreAccount;
-    id hasManagedAppleID;
-    id localPlayer;
-    id gameCenterFriendRequestCoordinator;
-    id appAdoptionPresenter;
-    id view;
-    id platformSwitcherLabels;
-    id showMacOSCompatibleIOSApps;
 }
 
-- (void);
+- (void)|o;
 
 @end
 

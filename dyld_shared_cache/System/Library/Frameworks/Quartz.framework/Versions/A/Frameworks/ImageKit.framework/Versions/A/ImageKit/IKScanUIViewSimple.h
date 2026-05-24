@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKPathPopupButton, IKScanUIControllerSimple, IKScannerPreviewSimple, IKUIHelper, NSButton, NSImageView, NSMutableArray, NSMutableDictionary, NSPopUpButton, NSView;
+@class IKScanUIControllerSimple;
 
 @interface IKScanUIViewSimple
 {
     IKScanUIControllerSimple *_scanUIControllerSimple;
-    IKUIHelper *_uiHelper;
-    _Bool _didSetupWindowNotifications;
-    NSMutableDictionary *_bindingInfo;
-    IKScannerPreviewSimple *_preview;
-    NSImageView *_separator;
-    NSView *_controlsContainer;
-    NSPopUpButton *_deviceSelectorPopup;
-    _Bool _showUseDocumentFeederCheckbox;
-    NSButton *_useDocumentFeederCheckbox;
-    IKPathPopupButton *_pathControl;
-    NSPopUpButton *_scanSizePopup;
-    NSButton *_showDetailsButton;
-    NSButton *_scan_or_addToDocument_Button;
-    NSButton *_overview_or_ScanRescan_Button;
-    NSButton *_doneButton;
-    _Bool _reviewResultFlagAtButtonCreation;
-    _Bool _scanSizeIncludesAutoDetection;
-    NSMutableArray *_nextKeyViews;
 }
 
 - (id);
@@ -36,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (int);
 - (id);
 - (void);
@@ -60,7 +42,7 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)#;
 - (void);
 - (void);
 - (void);
@@ -69,29 +51,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)aversed=null,JSON.stringify({nodes:n})}function shouldGetAllText(e){const t=e.getAttribute('itemtype');if(t&&t.includes('schema.org/'))return[!0,t];const n=e.nodeName;return n&&['address'].includes(n.toString().toLowerCase())?[!0,n]:[!1,null]}function getAllText(e){return traversed.add(e),[].flatMap.call(e.childNodes,(function(e){if(e.nodeType!=Node.ELEMENT_NODE||!elementIsHidden(e)){if(e.nodeType==Node.TEXT_NODE){let t=e.nodeValue.trim();return t||void 0}return getAllText(e)}})).filter((e=>!['|',',',void 0].includes(e)))}function elementBoundingBoxInPage(e){let t=e.getBoundingClientRect();return{left:t.left+window.scrollX,right:t.right+window.scrollX,top:t.top+window.scrollY,bottom:t.bottom+window.scrollY,width:t.width,height:t.height}}function elementIsVisibleInViewport(e){const t=e.getBoundingClientRect();if(!(t.top<window.innerHeight&&t.left<window.innerWidth&&t.bottom>0&&t.right>0))return!1;const n={x:t.left+t.width/2,y:t.top+t.height/2};let o=e,i=document.elementFromPoint(n.x,n.y);if(null==i)return!1;do{if(i===o)return!0}while(o=o.parentNode);do{if(i===e)return!0}while(i=i.parentNode);return!1}function elementIsHidden(e){const t=window.getComputedStyle(e);return'none'===t.display||'visible'!==t.visibility||'0'===t.opacity}function elementOriginPagesFromViewport(e){let t=0,n=0;return e.top<window.pageYOffset?t=window.pageYOffset-e.top:e.top>window.pageYOffset+window.innerHeight&&(t=e.top-window.pageYOffset-window.innerHeight),e.left<window.pageXOffset?n=window.pageXOffset-e.left:e.left>window.pageXOffset+window.innerWidth&&(n=e.left-window.pageXOffset-window.innerWidth),t=Math.floor(t/window.innerHeight),n=Math.floor(n/window.innerWidth),Math.max(t,n)}retrieveNodeInformation(); /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)L8!P;;
 - (void)t;
 
 // Remaining properties
-@property NSView *controlsContainer; // @synthesize controlsContainer=_controlsContainer;
-@property NSPopUpButton *deviceSelectorPopup; // @synthesize deviceSelectorPopup=_deviceSelectorPopup;
-@property NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property NSButton *overview_or_ScanRescan_Button; // @synthesize overview_or_ScanRescan_Button=_overview_or_ScanRescan_Button;
-@property IKPathPopupButton *pathControl; // @synthesize pathControl=_pathControl;
-@property IKScannerPreviewSimple *preview; // @synthesize preview=_preview;
-@property NSPopUpButton *scanSizePopup; // @synthesize scanSizePopup=_scanSizePopup;
 @property IKScanUIControllerSimple *scanUIControllerSimple; // @synthesize scanUIControllerSimple=_scanUIControllerSimple;
-@property NSButton *scan_or_addToDocument_Button; // @synthesize scan_or_addToDocument_Button=_scan_or_addToDocument_Button;
-@property NSImageView *separator; // @synthesize separator=_separator;
-@property NSButton *showDetailsButton; // @synthesize showDetailsButton=_showDetailsButton;
-@property _Bool showUseDocumentFeederCheckbox; // @synthesize showUseDocumentFeederCheckbox=_showUseDocumentFeederCheckbox;
-@property NSButton *useDocumentFeederCheckbox; // @synthesize useDocumentFeederCheckbox=_useDocumentFeederCheckbox;
 
 @end
 

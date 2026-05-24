@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PETSchemaPETDistribution : SISchemaInstrumentationMessage
 {
     double _min;
-    double _max;
-    double _mean;
-    double _variance;
-    struct {
-        unsigned int min:1;
-        unsigned int max:1;
-        unsigned int mean:1;
-        unsigned int variance:1;
-    } _has;
 }
 
 - (void);
@@ -27,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -44,25 +33,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)et index %ld on message item with GUID %@;
 - (id);
 - (id)rð!àEù±Ý°1Â0@ù
 × ;
-- (id)tPlatformViewDisappearContext;
+- (id)_hasHostPlatformViewDisappearContext;
 - (id)N,V_appNameMentioned;
 - (double)D­;
 - (double)Õ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMax;
-@property(nonatomic) _Bool hasMean;
-@property(nonatomic) _Bool hasMin;
-@property(nonatomic) _Bool hasVariance;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double max; // @synthesize max=_max;
-@property(nonatomic) double mean; // @synthesize mean=_mean;
 @property(nonatomic) double min; // @synthesize min=_min;
-@property(nonatomic) double variance; // @synthesize variance=_variance;
 
 @end
 

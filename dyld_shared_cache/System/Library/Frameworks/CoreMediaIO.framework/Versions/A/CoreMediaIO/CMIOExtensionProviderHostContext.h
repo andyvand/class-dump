@@ -4,38 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CMIOExtensionProviderHostDelegate, OS_dispatch_group, OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionProviderHostContext
 {
     struct os_unfair_lock_s _internalLock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_transactionGroup;
-    NSString *_description;
-    NSString *_redactedDescription;
-    _Bool _invalidated;
-    NSObject<OS_xpc_object> *_connection;
-    id <CMIOExtensionProviderHostDelegate> _delegate;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)8);
 - (void);
 - (void);
 - (void);
@@ -50,23 +29,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)a;
+- (id)V_currentSessionActivationCriteria;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CMIOExtensionProviderHostDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly) Class superclass;
 
 @end
 

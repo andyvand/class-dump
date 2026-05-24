@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface FLSQLiteDatabaseConnection
 {
     struct sqlite3 *_db;
-    NSString *_storePath;
-    NSObject<OS_os_log> *_log;
 }
 
-- (struct sqlite3 *);
+- (struct sqlite3 *)h";
 - (void);
 - (_Bool);
 - (void);
@@ -26,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct sqlite3 *db; // @synthesize db=_db;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 @property(copy, nonatomic) NSString *storePath; // @synthesize storePath=_storePath;
 
 @end

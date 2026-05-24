@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteQueryCacheMissLogger, NSArray;
+@class CNAutocompleteQueryCacheMissLogger;
 
 @interface CNAutocompleteQueryCacheMissAuditor
 {
     CNAutocompleteQueryCacheMissLogger *_logger;
-    NSArray *_cachedResults;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -24,7 +23,6 @@
 - (void)>¬;
 
 // Remaining properties
-@property(copy) NSArray *cachedResults; // @synthesize cachedResults=_cachedResults;
 @property(retain) CNAutocompleteQueryCacheMissLogger *logger; // @synthesize logger=_logger;
 
 @end

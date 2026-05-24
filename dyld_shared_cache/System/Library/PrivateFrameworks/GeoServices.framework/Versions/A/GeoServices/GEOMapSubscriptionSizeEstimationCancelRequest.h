@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface GEOMapSubscriptionSizeEstimationCancelRequest : GEOXPCRequest
 {
     NSUUID *_requestUUID;
 }
 
-+ (Class);
++ (Class)authenticationStyle;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)raMetadataIndexAtIndex:(id)arg1;
+- (_Bool)parser:didEndElement:namespaceURI:qualifiedName: /* Error: Ran out of types for this method. */;
+- (void)cameraMetadataIndexAtIndex:(id)arg1;
 - (id)Ø´BA½nëP@;
 - (void)5¯BAÜx`M@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly) Class superclass;
 
 @end
 

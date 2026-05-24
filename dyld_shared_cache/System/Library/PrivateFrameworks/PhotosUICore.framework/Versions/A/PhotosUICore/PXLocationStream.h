@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, NSString;
-
 @interface PXLocationStream
 {
     unsigned long long _state;
-    double _accuracy;
-    CDUnknownBlockType _handler;
-    CLLocationManager *_locationManager;
 }
 
 - (id);
@@ -25,19 +20,12 @@
 - (void);
 - (void)t shared album ensure local assets alert;
 - (void)t:Crop rect aspect ratio doesn't match viewAspectRatio. /* Error: Ran out of types for this method. */;
-- (void)odel;
+- (void)PhotosTabBadgesModel;
 - (void)°¤ÿ;
 - (_Bool)Oü<;
 
 // Remaining properties
 @property(nonatomic, getter=isClosed) _Bool closed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

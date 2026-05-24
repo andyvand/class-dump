@@ -9,20 +9,18 @@
 @interface PKUnifiedAccessHomeAuxiliaryCapabilityDescriptor
 {
     NSData *_readerGroupIdentifier;
-    NSData *_readerGroupPublicKey;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)btleConnectionType;
 - (void)ey-passthrough-access;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *readerGroupIdentifier; // @synthesize readerGroupIdentifier=_readerGroupIdentifier;
-@property(readonly, copy, nonatomic) NSData *readerGroupPublicKey; // @synthesize readerGroupPublicKey=_readerGroupPublicKey;
 
 @end
 

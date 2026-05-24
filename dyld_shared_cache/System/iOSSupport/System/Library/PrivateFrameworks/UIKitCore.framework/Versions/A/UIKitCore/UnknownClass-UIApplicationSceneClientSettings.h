@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (UIApplicationSceneClientSettings)
-- (_Bool);
+- (_Bool)P;
 @end
 

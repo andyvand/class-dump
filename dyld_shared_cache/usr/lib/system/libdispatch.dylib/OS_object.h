@@ -12,7 +12,7 @@
 - (oneway void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (_Bool);
 

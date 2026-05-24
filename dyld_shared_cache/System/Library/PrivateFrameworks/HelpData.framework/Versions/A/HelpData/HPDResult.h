@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSXMLElement;
+@class NSString;
 
 @interface HPDResult
 {
     NSString *_type;
-    NSString *_title;
-    NSNumber *_relevance;
-    id _payload;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,33 +31,21 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)0;
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (id)_ignoreFor15MinutesButton;
+- (id)zoneNameForIndex: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *appID;
-@property(readonly, copy) NSString *appVersion;
-@property(readonly, copy) NSString *bookID;
-@property(readonly, copy) NSXMLElement *elementValue;
-@property(readonly, copy) NSNumber *isDuplicateApp;
-@property(retain) id payload; // @synthesize payload=_payload;
-@property(readonly, copy) NSString *productName;
-@property(retain) NSNumber *relevance; // @synthesize relevance=_relevance;
-@property(readonly, copy) NSString *summary;
 @property(retain) NSString *title; // @synthesize title=_title;
-@property(readonly, copy) NSString *topicID;
-@property(retain) NSString *type; // @synthesize type=_type;
-@property(readonly, copy) NSString *url;
 
 @end
 

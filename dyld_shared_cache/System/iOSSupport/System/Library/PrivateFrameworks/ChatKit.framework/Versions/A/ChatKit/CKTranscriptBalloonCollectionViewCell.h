@@ -11,15 +11,14 @@
 @interface CKTranscriptBalloonCollectionViewCell : CKTranscriptCollectionViewCell
 {
     CKBalloonView *_balloonView;
-    long long _animationPauseReasons;
 }
 
 + (id);
+- (void)copyNSParagraphStylefromAttributes:(long long)arg1 toAttributes: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)i;
 - (long long);
-- (id);
+- (id)ry with error (falling back to NSTemporaryDirectory):(id)arg1 %@;
 - (void);
 - (void);
 - (id);
@@ -30,7 +29,6 @@
 - (void)ÜÐ<;
 
 // Remaining properties
-@property(nonatomic) long long animationPauseReasons; // @synthesize animationPauseReasons=_animationPauseReasons;
 @property(retain, nonatomic) CKBalloonView *balloonView; // @synthesize balloonView=_balloonView;
 
 @end

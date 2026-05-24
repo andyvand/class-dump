@@ -5,5 +5,7 @@
 //
 
 @protocol TSWPShapeLayoutDelegate
+- (_Bool)ExplicitContentRequiresAgeVerification;
+- (void)MissingArtwork;
 @end
 

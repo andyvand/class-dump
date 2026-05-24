@@ -10,39 +10,27 @@ __attribute__((visibility("hidden")))
 @interface PXGenerativeStoryInWatchNextController
 {
     id $__lazy_storage_$_layout;
-    struct CGSize size;
-    _Bool wantsMemoryCreationCard;
-    _Bool wantsMemoryCreationButton;
-    id photoLibrary;
-    id storyViewModel;
-    id logger;
-    id $__lazy_storage_$_availabilityManager;
-    id $__lazy_storage_$_memoryCardView;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)|;
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)r;
 - (struct CGSize);
 - (void);
-- (void)ion;
+- (void)configuration;
 - (long long)¦;
 - (void)dn't return any results, running local search now.;
 - (id);
 - (void)ÐGÊ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long index;
 @property(nonatomic, retain) PXGSingleViewLayout *layout;
-@property(nonatomic) struct CGSize size; // @synthesize size;
-@property(nonatomic) _Bool wantsMemoryCreationButton; // @synthesize wantsMemoryCreationButton;
-@property(nonatomic) _Bool wantsMemoryCreationCard; // @synthesize wantsMemoryCreationCard;
 
 @end
 

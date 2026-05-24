@@ -6,18 +6,14 @@
 
 #import <Vision/VNFaceDetector.h>
 
-@class VNFaceBBoxAligner;
-
 __attribute__((visibility("hidden")))
 @interface VNFaceDetectorRevision2 : VNFaceDetector
 {
     struct shared_ptr<vision::mod::ObjectDetector_DCNFaceDetector_v2> _faceDetector;
-    VNFaceBBoxAligner *_faceBBoxAligner;
-    _Bool _preferBackgroundProcessing;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)_TtC8Contacts21ManagedDuplicateStore;
 + (id);
 + (id);
 - (_Bool);

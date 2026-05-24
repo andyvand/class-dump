@@ -13,8 +13,8 @@
 + (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSHashTable;
 
 @interface SXScrollObserverManager
 {
     _Bool _scrolling;
-    NSHashTable *_observers;
 }
 
 - (void);
@@ -25,15 +24,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(nonatomic) _Bool scrolling; // @synthesize scrolling=_scrolling;
-@property(readonly) Class superclass;
 
 @end
 

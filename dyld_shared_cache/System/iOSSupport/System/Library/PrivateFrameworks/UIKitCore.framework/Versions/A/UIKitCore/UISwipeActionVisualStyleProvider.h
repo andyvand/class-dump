@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)TintAdjustmentMode:(long long)arg1;
-+ (void)ontext:(Class)arg1;
++ (id)setTintAdjustmentMode:(long long)arg1;
++ (void)removeObserver:(Class)arg1 fromObjectsAtIndexes:(long long)arg2 forKeyPath:context: /* Error: Ran out of types for this method. */;
 
 @end
 

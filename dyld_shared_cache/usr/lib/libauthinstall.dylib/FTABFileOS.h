@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTABSubfileOS, NSArray, NSData, NSFileHandle, NSMutableArray, NSMutableData, NSURL;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface FTABFileOS
 {
     NSData *_fileData;
-    NSMutableArray *_subFileArray;
-    NSFileHandle *_fileHandleWriteDestination;
-    NSMutableData *_dataWriteDestination;
-    unsigned int _generation;
-    unsigned int _valid;
-    const char *_filePointer;
-    unsigned long long _fileLength;
-    NSURL *_url;
-    NSData *_bootNonce;
-    NSData *_magic;
-    FTABSubfileOS *_manifest;
 }
 
 - (_Bool);
@@ -38,36 +27,28 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)setWindow: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (unsigned int);
+- (unsigned int)tableViewColumnDidMove: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (unsigned int);
-- (void);
+- (unsigned int)f;
+- (void)W;
 - (id)endedComponent with dstBundleURL;
 
 // Remaining properties
-@property(readonly) NSData *bootNonce; // @synthesize bootNonce=_bootNonce;
-@property(readonly) unsigned long long fileLength; // @synthesize fileLength=_fileLength;
 @property(readonly) const char *filePointer; // @synthesize filePointer=_filePointer;
-@property(readonly) unsigned int generation; // @synthesize generation=_generation;
-@property(readonly) NSData *magic; // @synthesize magic=_magic;
-@property(readonly) FTABSubfileOS *manifest; // @synthesize manifest=_manifest;
-@property(readonly) NSArray *subfiles;
-@property(readonly) NSURL *url; // @synthesize url=_url;
-@property(readonly) unsigned int valid; // @synthesize valid=_valid;
 
 @end
 

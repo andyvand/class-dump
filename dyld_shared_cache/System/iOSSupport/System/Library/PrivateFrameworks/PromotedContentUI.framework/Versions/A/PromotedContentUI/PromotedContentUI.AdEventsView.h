@@ -7,32 +7,11 @@
 @interface PromotedContentUI.AdEventsView
 {
     id frameObserver;
-    id identifier;
-    id currentlyViewable;
-    id wasTapped;
-    id isBackgrounded;
-    id timingTracking;
-    id visibilityChecker;
-    id offsetObserver;
-    id needToSendOnScreen;
-    id lastTimeVisibilityCheckFrame;
-    id adHeight;
-    id isCollapsedInternal;
-    id isCollapsed;
-    id ready;
-    id viewCollapsedState;
-    id lastCollapsedState;
-    id visibilityCheckingView;
-    id visibleThresholds;
-    id visibleThresholdsLock;
-    id hasBeenOnScreen;
-    id contentConsumed;
-    id contentPlaceholder;
 }
 
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (void);
 

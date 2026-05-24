@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface WPCharacteristic
 {
     NSUUID *_uuid;
-    unsigned long long _properties;
-    unsigned long long _permissions;
-    NSData *_data;
-    long long _writeType;
 }
 
 + (_Bool);
@@ -26,17 +22,13 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSData *data; // @synthesize data=_data;
-@property unsigned long long permissions; // @synthesize permissions=_permissions;
-@property unsigned long long properties; // @synthesize properties=_properties;
 @property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property long long writeType; // @synthesize writeType=_writeType;
 
 @end
 

@@ -7,16 +7,14 @@
 @interface TeaUI.BouncingButton
 {
     id isBouncingEnabled;
-    id onTap;
-    struct UIEdgeInsets touchInsets;
 }
 
 - (void);
 - (id);
 - (void);
-- (struct UIEdgeInsets);
-- (void);
-- (id);
+- (struct UIEdgeInsets)R;
+- (void)_accessibilityNativeFocusPreferredElement;
+- (id)setTagId:(struct CGRect)arg1;
 - (_Bool);
 - (void);
 - (void);

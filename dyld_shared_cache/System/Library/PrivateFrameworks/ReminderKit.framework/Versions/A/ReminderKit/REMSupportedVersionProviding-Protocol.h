@@ -5,9 +5,10 @@
 //
 
 @protocol REMSupportedVersionProviding
+- (long long)8;
+- (_Bool)iltered, %@, fullyCoversTile, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion;
 @property(readonly, nonatomic) long long minimumSupportedVersion;
 @end
 

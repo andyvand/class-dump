@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (unsigned long long);
-- (void)erticalBorder;
+- (id)!A;
+- (unsigned long long)kIOGPUCommandBufferCallbackErrorConditionalEventAbort;
+- (void)_insideVerticalBorder;
 
 @end
 

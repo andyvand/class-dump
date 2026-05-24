@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString, NSXPCConnection, NSXPCListener;
-@protocol iCloudUserNotificationDelegate;
+@class NSString, NSXPCConnection;
 
 @interface iCloudUserNotifier
 {
     NSXPCConnection *_conn;
-    NSLock *_connLock;
-    NSXPCListener *_listener;
-    NSString *_identifier;
-    NSString *_serviceName;
-    id <iCloudUserNotificationDelegate> _delegate;
 }
 
 - (void);
@@ -26,30 +20,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)createAssetWithName:(id)arg1 inCategory:forThemeBitSource: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) id <iCloudUserNotificationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

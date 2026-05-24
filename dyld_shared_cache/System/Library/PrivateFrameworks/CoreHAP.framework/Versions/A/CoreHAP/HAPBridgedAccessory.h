@@ -6,7 +6,7 @@
 
 #import <CoreHAP/HAPAccessory.h>
 
-@class HAPCharacteristic, NSString;
+@class HAPCharacteristic;
 
 @interface HAPBridgedAccessory : HAPAccessory
 {
@@ -20,24 +20,17 @@
 - (id);
 - (void);
 - (_Bool);
+- (_Bool)#;
+- (_Bool)#;
+- (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (void)36@?44;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HAPCharacteristic *reachabilityCharacteristic; // @synthesize reachabilityCharacteristic=_reachabilityCharacteristic;
-@property(readonly) Class superclass;
 
 @end
 

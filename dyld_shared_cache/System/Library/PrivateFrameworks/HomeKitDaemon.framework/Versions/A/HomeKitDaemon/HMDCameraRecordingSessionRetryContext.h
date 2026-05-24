@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSessionRetryContext
 {
     double _retryInterval;
-    long long _retryCount;
-    double _maxRetryInterval;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (double);
 - (id);
 - (void);
-- (void);
-- (double);
+- (void)list of songs;
+- (double)ExhaustiveMomentLabelingAmusementParkForEventLabeling;
 - (id);
 - (id);
 - (void);
@@ -29,9 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) double maxRetryInterval; // @synthesize maxRetryInterval=_maxRetryInterval;
-@property(nonatomic) long long retryCount; // @synthesize retryCount=_retryCount;
-@property double retryInterval; // @synthesize retryInterval=_retryInterval;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

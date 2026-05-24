@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface UXDestinationAuxiliaryStore
 {
     NSMutableDictionary *_namespaceDict;
-    NSMutableDictionary *_globalDict;
-    NSString *_lastAction;
 }
 
 + (_Bool);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

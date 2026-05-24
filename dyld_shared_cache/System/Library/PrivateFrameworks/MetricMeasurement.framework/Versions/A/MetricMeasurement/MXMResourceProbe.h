@@ -14,10 +14,10 @@
 }
 
 + (id);
-+ (int);
++ (int);
 - (void);
 - (id);
-- (id);
+- (id)?'U;
 - (_Bool);
 - (void);
 - (void);

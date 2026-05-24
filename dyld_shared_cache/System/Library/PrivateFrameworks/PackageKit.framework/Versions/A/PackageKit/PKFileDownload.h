@@ -6,24 +6,16 @@
 
 #import <PackageKit/PKDownload.h>
 
-@class NSString, NSThread;
-@protocol PKDownloadDelegate><NSObject;
+@class NSString;
 
 @interface PKFileDownload : PKDownload
 {
     NSString *_srcPath;
-    int _readFileDescriptor;
-    int _writeFileDescriptor;
-    long long _bytesDownloaded;
-    _Bool _isResume;
-    _Bool _runFileReadThread;
-    NSThread *_fileReadThread;
-    id <PKDownloadDelegate><NSObject> _delegate;
 }
 
 + (_Bool);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);

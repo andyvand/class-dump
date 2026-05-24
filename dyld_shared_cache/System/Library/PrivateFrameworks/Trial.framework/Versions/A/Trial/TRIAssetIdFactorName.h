@@ -10,7 +10,6 @@
 @interface TRIAssetIdFactorName
 {
     NSString<TRIAssetId> *_assetId;
-    NSString *_factorName;
 }
 
 + (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString<TRIAssetId> *assetId; // @synthesize assetId=_assetId;
-@property(readonly, nonatomic) NSString *factorName; // @synthesize factorName=_factorName;
 
 @end
 

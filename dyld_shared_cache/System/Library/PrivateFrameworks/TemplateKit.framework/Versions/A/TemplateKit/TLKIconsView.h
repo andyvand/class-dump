@@ -6,30 +6,26 @@
 
 #import <TemplateKit/TLKStackView.h>
 
-@class NSFont, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TLKIconsView : TLKStackView
 {
     NSMutableArray *_imageViews;
-    unsigned long long _prominence;
-    NSFont *_symbolFont;
 }
 
 - (void);
-- (void);
+- (void)S;
 - (id);
+- (id)eck (trustobject unset);
+- (void)AMFDREncodeCertificateRequestCreateUnsginedData;
+- (void)@;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long)isSizeDependentOnPerpendicularAxis: /* Error: Ran out of types for this method. */;
+- (unsigned long long)getSize:forTargetSize:isSizeDependentOnPerpendicularAxis: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *imageViews; // @synthesize imageViews=_imageViews;
-@property(nonatomic) unsigned long long prominence; // @synthesize prominence=_prominence;
-@property(retain, nonatomic) NSFont *symbolFont; // @synthesize symbolFont=_symbolFont;
 
 @end
 

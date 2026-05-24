@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, _HMContext;
-@protocol HMMediaDestination, HMMediaDestinationControllerDataSource, HMMediaDestinationControllerDelegate;
+@protocol HMMediaDestinationControllerDataSource;
 
 @interface HMMediaDestinationController
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_availableDestinationIdentifiers;
-    NSUUID *_destinationIdentifier;
-    id <HMMediaDestinationControllerDelegate> _delegate;
-    NSUUID *_identifier;
-    id <HMMediaDestinationControllerDataSource> _dataSource;
-    _HMContext *_context;
-    unsigned long long _supportedOptions;
-    NSString *_lastNotifiedDestinationIdentifier;
 }
 
 + (id);
@@ -44,8 +35,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)F
+;
+- (void)UserNotificationDate;
 - (id);
 - (id);
 - (id);
@@ -53,12 +45,12 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)propertiesMigrationSchemaForDatabase:(id)arg1;
+- (void)T@"NSNumber",R,V_value;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)>	*	$	M	0		;
+- (_Bool)sedative;
+- (id)freelance;
 - (id);
 - (id);
 - (void);
@@ -68,36 +60,7 @@
 - (void)ÐØÐlÑ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(copy) NSArray *availableDestinationIdentifiers; // @synthesize availableDestinationIdentifiers=_availableDestinationIdentifiers;
-@property(readonly, copy) NSArray *availableDestinations;
-@property(retain) _HMContext *context; // @synthesize context=_context;
 @property __weak id <HMMediaDestinationControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMMediaDestinationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMMediaDestination> destination;
-@property(copy) NSUUID *destinationIdentifier; // @synthesize destinationIdentifier=_destinationIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *lastNotifiedDestinationIdentifier; // @synthesize lastNotifiedDestinationIdentifier=_lastNotifiedDestinationIdentifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property unsigned long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
-@property(readonly) _Bool supportsSameRoomB620Destinations;
-@property(readonly) _Bool supportsSameRoomHomePodGeneration2Destinations;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

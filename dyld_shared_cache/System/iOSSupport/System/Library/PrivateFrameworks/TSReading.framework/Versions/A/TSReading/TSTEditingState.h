@@ -6,101 +6,65 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSArray, TSKCommandController, TSTCell, TSTSearchReference, TSTTableInfo, TSTTableModel, TSTTableSelection, TSTTextStatisticsTracker, TSUPointerKeyDictionary, TSWPStorage;
+@class TSKCommandController, TSWPStorage;
 
 @interface TSTEditingState : TSPObject
 {
     TSWPStorage *mEditingStorage;
-    TSTTableInfo *mTableInfo;
-    TSTCell *mEditingCell;
-    CDStruct_0441cfb5 mEditingCellID;
-    int mEditingMode;
-    TSTTableSelection *mSelection;
-    TSTTableSelection *mSelectionReflectingEditingState;
-    TSTSearchReference *mSearchReference;
-    int mPreviousEditingMode;
-    unsigned char mLastColumnHitByTap;
-    TSUPointerKeyDictionary *mColoredReferences;
-    _Bool mCellWasEditedInCurrentSession;
-    _Bool mEditingCellInProxy;
-    TSTTextStatisticsTracker *mTracker;
-    _Bool mEndingEditingDueToCancelOperation;
-    _Bool _dispatchingPreflight;
-    CDStruct_0441cfb5 _lastEditingCellID;
-    NSArray *_coloredReferences;
-    TSKCommandController *_commandController;
 }
 
+- (void)asset type:%@ /* Error: Ran out of types for this method. */;
+- (id)st-options;
+- (id)e;
+- (void)@monoTimebaseNS, @userNS, @threadPriority, @payload);
+- (void)FailSilently;
+- (void)nager] subscription status handler not called;
 - (void);
+- (void)inuation;
+- (void);
+- (void)son for remaining on item asset configuration;
+- (void)sertion for ;
+- (void)oad for ;
+- (void)missing URL for action key:(_Bool)arg1;
+- (void)another event ;
+- (void);
+- (void)has been cancelled [;
+- (int)e [rate: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (void).play - rate: /* Error: Ran out of types for this method. */;
+- (void)matching current queue controller item: /* Error: Ran out of types for this method. */;
+- (_Bool)tem (skippable) ;
+- (void)aybackCore/PlaybackHistory;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 - (unsigned char);
 - (_Bool);
+- (_Bool)UserEventCompletionStateHandling;
+- (id);
+- (id);
+- (id);
+- (CDStruct_f5d1269f);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (CDStruct_5f1f7aa9);
-- (_Bool);
-- (CDStruct_0441cfb5);
+- (CDStruct_bd4d8e6b);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)r;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)W;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void)lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/tables/TSTTableStyle.mm;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool cellWasEditedInCurrentSession;
-@property(readonly, nonatomic) NSArray *coloredReferences; // @synthesize coloredReferences=_coloredReferences;
 @property(readonly, nonatomic) TSKCommandController *commandController; // @synthesize commandController=_commandController;
-@property(nonatomic, getter=isDispatchingPreflight) _Bool dispatchingPreflight; // @synthesize dispatchingPreflight=_dispatchingPreflight;
-@property(retain, nonatomic) TSTCell *editingCell;
-@property(nonatomic) CDStruct_0441cfb5 editingCellID;
-@property(nonatomic) _Bool editingCellInProxy; // @synthesize editingCellInProxy=mEditingCellInProxy;
-@property(readonly, nonatomic) CDStruct_5f1f7aa9 editingCellRange;
-@property(readonly, nonatomic) int editingMode;
-@property(retain, nonatomic) TSWPStorage *editingStorage; // @synthesize editingStorage=mEditingStorage;
-@property(nonatomic, getter=isEndingEditingDueToCancelOperation) _Bool endingEditingDueToCancelOperation; // @synthesize endingEditingDueToCancelOperation=mEndingEditingDueToCancelOperation;
-@property(nonatomic) unsigned char lastColumnHitByTap; // @synthesize lastColumnHitByTap=mLastColumnHitByTap;
-@property(nonatomic) CDStruct_0441cfb5 lastEditingCellID; // @synthesize lastEditingCellID=_lastEditingCellID;
-@property(readonly, nonatomic) int previousEditingMode; // @synthesize previousEditingMode=mPreviousEditingMode;
-@property(retain, nonatomic) TSTSearchReference *searchReference; // @synthesize searchReference=mSearchReference;
-@property(copy, nonatomic) TSTTableSelection *selection;
-@property(nonatomic) TSTTableInfo *tableInfo; // @synthesize tableInfo=mTableInfo;
-@property(readonly, nonatomic) TSTTableModel *tableModel;
-@property(nonatomic) TSTTextStatisticsTracker *tracker; // @synthesize tracker=mTracker;
 
 @end
 

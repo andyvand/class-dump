@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMSettingGroup
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_settings;
-    NSMutableDictionary *_groups;
-    NSString *_keyPath;
-    NSUUID *_identifier;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -27,23 +22,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)B;
+- (id),
+;
+- (id)superintendence;
+- (void)piously;
 - (void);
-- (void);
 - (id);
-- (void)tOrTimerTriggerBuilder;
+- (void)_HMEventOrTimerTriggerBuilder;
 - (id)decode isShareSiriAnalyticsEnabled due to error:%@ /* Error: Ran out of types for this method. */;
-- (id)otAtHome;
+- (id)notAtHome;
 
 // Remaining properties
-@property(readonly, copy) NSArray *groups;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy) NSString *localizedTitle;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSArray *settings;
 
 @end
 

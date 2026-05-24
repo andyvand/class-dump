@@ -7,14 +7,6 @@
 @interface SwiftUI.UIKitNavigationBridge
 {
     id host;
-    id $__lazy_storage_$_presentationModeLocation;
-    id activePresentation;
-    id navigationDestinationSeed;
-    id destinations;
-    id hasSearch;
-    id lastEnvironment;
-    id environmentOverride;
-    id containingSplitControllerOverride;
 }
 
 - (void);

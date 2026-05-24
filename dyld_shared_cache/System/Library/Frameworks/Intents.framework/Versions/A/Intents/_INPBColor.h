@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBColor
 {
     struct {
@@ -13,47 +11,32 @@
         unsigned int green:1;
         unsigned int red:1;
     } _has;
-    double _blue;
-    double _green;
-    double _red;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)9h;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ialAudioExperience"16@?<v@?@"NSError">24;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)date"16@"CWFRequestParameters"24@?<v@?@"NSError">32;
+- (void)RIVATE MAC:(id)arg1 Updating evaluation state (%{public}@ -> %{public}@) for network (%{public}@);
+- (id)`;
 - (double);
 - (double);
 - (id);
-- (double);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double blue; // @synthesize blue=_blue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double green; // @synthesize green=_green;
-@property(nonatomic) _Bool hasBlue;
-@property(nonatomic) _Bool hasGreen;
-@property(nonatomic) _Bool hasRed;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double red; // @synthesize red=_red;
-@property(readonly) Class superclass;
 
 @end
 

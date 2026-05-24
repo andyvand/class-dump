@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _TIPreference
 {
     _Bool _isAnalyzed;
-    _Bool _isCloudSetting;
-    _Bool _isWatchSync;
-    NSString *_key;
-    NSString *_domain;
-    NSString *_fallbackKey;
-    id _defaultValue;
-    id _currentValue;
-    NSString *_approxDateOfBuildInstallKey;
-    NSString *_buildAtLastAnalysisKey;
 }
 
 + (id);
@@ -35,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -57,20 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)7¼;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *analyzedAtKey;
-@property(readonly, nonatomic) NSString *approxDateOfBuildInstallKey; // @synthesize approxDateOfBuildInstallKey=_approxDateOfBuildInstallKey;
-@property(readonly, nonatomic) NSString *buildAtChangeKey;
-@property(readonly, nonatomic) NSString *buildAtLastAnalysisKey; // @synthesize buildAtLastAnalysisKey=_buildAtLastAnalysisKey;
-@property(readonly, nonatomic) NSString *changedAtKey;
-@property(retain, nonatomic) id currentValue; // @synthesize currentValue=_currentValue;
-@property(retain, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSString *fallbackKey; // @synthesize fallbackKey=_fallbackKey;
-@property(nonatomic) _Bool isAnalyzed; // @synthesize isAnalyzed=_isAnalyzed;
-@property(nonatomic) _Bool isCloudSetting; // @synthesize isCloudSetting=_isCloudSetting;
-@property(nonatomic) _Bool isWatchSync; // @synthesize isWatchSync=_isWatchSync;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *previousValueKey;
 
 @end
 

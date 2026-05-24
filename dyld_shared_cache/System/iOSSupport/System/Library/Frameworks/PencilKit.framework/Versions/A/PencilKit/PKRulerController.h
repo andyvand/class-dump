@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKRulerGestureRecognizer, PKRulerLayer, PKRulerView, UIView;
-@protocol PKRulerDelegate, PKRulerHostingDelegate;
+@class PKRulerLayer, UIView;
 
 @interface PKRulerController
 {
     UIView *_rulerHostingView;
-    _Bool _wantsSharedRuler;
-    _Bool _isInteractingWithRuler;
-    _Bool _rulerIsRotating;
-    _Bool _rulerWasShownViaGesture;
-    _Bool _canRulerSnapToAngle;
-    _Bool _lastTouchWasMaskedByRuler;
-    _Bool _lastDrawingWasMaskedByRuler;
-    _Bool _lastDrawingWasSnappedToRuler;
-    PKRulerGestureRecognizer *_rulerGestureRecognizer;
-    id <PKRulerDelegate> _delegate;
-    id <PKRulerHostingDelegate> _rulerHostingDelegate;
-    PKRulerView *_rulerView;
-    PKRulerLayer *_rulerLayer;
-    CDStruct_cfd08fee _rulerState;
-    CDStruct_cfd08fee _previousRulerState;
-    struct CGAffineTransform _rulerStartTransform;
-    struct CGAffineTransform _defaultRulerTransform;
 }
 
 + (id);
@@ -48,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -63,13 +45,13 @@
 - (void);
 - (_Bool);
 - (struct CGAffineTransform);
-- (CDStruct_cfd08fee);
+- (CDStruct_249e8220);
 - (struct CGAffineTransform);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (CDStruct_cfd08fee);
+- (CDStruct_249e8220);
 - (struct CGAffineTransform);
 - (_Bool);
 - (_Bool);
@@ -80,12 +62,12 @@
 - (double);
 - (struct CGAffineTransform);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGAffineTransform);
 - (void);
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGAffineTransform);
 - (void);
 - (_Bool);
@@ -98,36 +80,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id){z;
 - (_Bool);
 - (void),V__resultQueryItem;
 
 // Remaining properties
-@property(nonatomic) _Bool canRulerSnapToAngle; // @synthesize canRulerSnapToAngle=_canRulerSnapToAngle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) struct CGAffineTransform defaultRulerTransform; // @synthesize defaultRulerTransform=_defaultRulerTransform;
-@property(nonatomic) __weak id <PKRulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInteractingWithRuler; // @synthesize isInteractingWithRuler=_isInteractingWithRuler;
-@property(nonatomic) _Bool lastDrawingWasMaskedByRuler; // @synthesize lastDrawingWasMaskedByRuler=_lastDrawingWasMaskedByRuler;
-@property(nonatomic) _Bool lastDrawingWasSnappedToRuler; // @synthesize lastDrawingWasSnappedToRuler=_lastDrawingWasSnappedToRuler;
-@property(nonatomic) _Bool lastTouchWasMaskedByRuler; // @synthesize lastTouchWasMaskedByRuler=_lastTouchWasMaskedByRuler;
-@property(nonatomic) CDStruct_cfd08fee previousRulerState; // @synthesize previousRulerState=_previousRulerState;
-@property(retain, nonatomic) PKRulerGestureRecognizer *rulerGestureRecognizer; // @synthesize rulerGestureRecognizer=_rulerGestureRecognizer;
-@property(nonatomic) __weak id <PKRulerHostingDelegate> rulerHostingDelegate; // @synthesize rulerHostingDelegate=_rulerHostingDelegate;
-@property(nonatomic) _Bool rulerIsRotating; // @synthesize rulerIsRotating=_rulerIsRotating;
 @property(retain, nonatomic) PKRulerLayer *rulerLayer; // @synthesize rulerLayer=_rulerLayer;
-@property(readonly, nonatomic) _Bool rulerSelected;
-@property(nonatomic) struct CGAffineTransform rulerStartTransform; // @synthesize rulerStartTransform=_rulerStartTransform;
-@property(nonatomic) CDStruct_cfd08fee rulerState; // @synthesize rulerState=_rulerState;
-@property(readonly, nonatomic) struct CGAffineTransform rulerTransform;
-@property(retain, nonatomic) PKRulerView *rulerView; // @synthesize rulerView=_rulerView;
-@property(nonatomic) _Bool rulerWasShownViaGesture; // @synthesize rulerWasShownViaGesture=_rulerWasShownViaGesture;
-@property(readonly) Class superclass;
 
 @end
 

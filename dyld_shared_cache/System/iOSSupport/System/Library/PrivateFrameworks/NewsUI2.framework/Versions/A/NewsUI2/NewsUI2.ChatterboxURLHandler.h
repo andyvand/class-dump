@@ -7,7 +7,6 @@
 @interface NewsUI2.ChatterboxURLHandler
 {
     id patterns;
-    id urlHandlerManager;
 }
 
 @end

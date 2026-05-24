@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface SKRecoveryMoverInfo
 {
     unsigned long long _srcOffset;
-    unsigned long long _dstOffset;
-    unsigned long long _length;
-    NSNumber *_partitionID;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)initWithArbiterMode:connectionType:maxBandwidth: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long dstOffset; // @synthesize dstOffset=_dstOffset;
-@property(nonatomic) unsigned long long length; // @synthesize length=_length;
-@property(retain, nonatomic) NSNumber *partitionID; // @synthesize partitionID=_partitionID;
 @property(nonatomic) unsigned long long srcOffset; // @synthesize srcOffset=_srcOffset;
 
 @end

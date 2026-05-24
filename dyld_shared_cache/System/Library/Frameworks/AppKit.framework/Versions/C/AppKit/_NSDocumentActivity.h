@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _NSDocumentActivity : _NSDocumentSerializationObject
 {
     _Bool _cachedCancellationHandlerResponse;
-    _Bool _cancelled;
-    CDUnknownBlockType _cancellationHandler;
 }
 
 - (void);
-- (void);
+- (void)@;
 - (CDUnknownBlockType);
-- (void)EC3F85FAB7755D56E669206D2B17725B13PocketElement;
+- (void)_TtCC6AppKit14NSScrollPocketP33_EC3F85FAB7755D56E669206D2B17725B13PocketElement;
 - (_Bool)y be invoked on top level items;
 - (void)ex:didChangeFontFrom:to:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType cancellationHandler; // @synthesize cancellationHandler=_cancellationHandler;
-@property(getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatPackageInventory
 {
     id package;
-    id files;
-    id filesMap;
-    id fileKeyMap;
-    id sourceMaps;
 }
 
 @end

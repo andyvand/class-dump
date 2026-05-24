@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSValueTransformer;
+@class NSValueTransformer;
 
 __attribute__((visibility("hidden")))
 @interface VSBindingInfo
 {
     id _unsafeObservedObject;
-    id _weakObservedObject;
-    NSString *_keyPath;
-    NSDictionary *_options;
-    NSValueTransformer *_valueTransformer;
 }
 
 - (id);
@@ -25,17 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic) id unsafeObservedObject; // @synthesize unsafeObservedObject=_unsafeObservedObject;
-@property(retain, nonatomic) id value;
 @property(retain, nonatomic) NSValueTransformer *valueTransformer; // @synthesize valueTransformer=_valueTransformer;
-@property(readonly, nonatomic) __weak id weakObservedObject; // @synthesize weakObservedObject=_weakObservedObject;
 
 @end
 

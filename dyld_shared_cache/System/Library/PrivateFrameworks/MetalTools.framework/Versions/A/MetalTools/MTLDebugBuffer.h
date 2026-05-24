@@ -6,30 +6,22 @@
 
 #import <MetalTools/MTLToolsBuffer.h>
 
-@class MTLDebugDevice, MTLDebugResource, NSMutableArray;
+@class MTLDebugResource;
 
 @interface MTLDebugBuffer : MTLToolsBuffer
 {
     MTLDebugResource *_common;
-    unsigned long long _length;
-    MTLDebugDevice *_debugDevice;
-    NSMutableArray *_debugMarkers;
-    struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
-    _Bool _isContentExposedToCPU;
-    const void *_pointer;
-    long long _placementSparsePageSize;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)3;
 - (void);
 - (_Bool);
 - (id);
@@ -45,26 +37,23 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)H;
 - (unsigned long long);
+- (void);
+- (unsigned long long),;
+- (unsigned long long)J;
 - (void);
-- (unsigned long long);
-- (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void) ;
 - (void *);
 - (unsigned long long);
-- (id);
+- (id)0 ;
 - (_Bool);
 - (_Bool);
 - (long long)er resourceStateCommandEncoder];
 
 // Remaining properties
 @property(readonly, nonatomic) MTLDebugResource *common; // @synthesize common=_common;
-@property(nonatomic) _Bool isContentExposedToCPU; // @synthesize isContentExposedToCPU=_isContentExposedToCPU;
-@property(readonly, nonatomic) long long placementSparsePageSize; // @synthesize placementSparsePageSize=_placementSparsePageSize;
-@property(readonly, nonatomic) const void *pointer; // @synthesize pointer=_pointer;
 
 @end
 

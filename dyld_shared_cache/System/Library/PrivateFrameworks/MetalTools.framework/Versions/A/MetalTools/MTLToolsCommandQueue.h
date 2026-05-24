@@ -6,17 +6,11 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTLToolsPerfCounterMailbox, NSCountedSet, NSMutableDictionary, NSObject, NSString;
-@protocol MTLDevice, OS_dispatch_queue;
+@class MTLToolsPerfCounterMailbox;
 
 @interface MTLToolsCommandQueue : MTLToolsObject
 {
     MTLToolsPerfCounterMailbox *_perfSampleMailbox;
-    struct os_unfair_lock_s _perfHandlerLock;
-    CDUnknownBlockType _perfSampleHandlerBlock;
-    struct os_unfair_lock_s _residencySetsLock;
-    NSCountedSet *_residencySets;
-    NSCountedSet *_internalResidencySets;
 }
 
 - (CDUnknownBlockType);
@@ -31,8 +25,8 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)NSt3__110__function6__funcIZNK11InputEngine20AmbiguousTrieAdapterIN11RomajiTools10RomajiTrieEE20ambiguousDfsTraverseERKNS2_30AmbiguousTrieSearchLatticeBaseIDsEERKNS_8functionIFvRKNS4_12RomajiCursorEfPKcmPKmmmRbEEESE_bbbSJ_PDsmmPmmfmmbEUlNS_17basic_string_viewIDsNS_11char_traitsIDsEEEESJ_E_FvST_SJ_EEE;
+- (_Bool)?;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -40,7 +34,7 @@
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -58,7 +52,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -67,13 +61,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id)N ;
+- (void)( ;
+- (void) ;
 - (void);
 - (void);
 - (unsigned long long);
@@ -82,54 +76,10 @@
 - (int);
 - (void);
 - (void)"16Q24;
-- (void)tCompressedTextureReinterpretationFlush;
+- (void)insertCompressedTextureReinterpretationFlush;
 
 // Remaining properties
-@property(nonatomic, getter=isStatEnabled) _Bool StatEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisStatEnabled
-
-@property(nonatomic, getter=getStatLocations) unsigned long long StatLocations;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GgetStatLocations
-
-@property(nonatomic, getter=getStatOptions) unsigned long long StatOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GgetStatOptions
-
 @property int backgroundTrackingPID;
-@property(readonly) NSObject<OS_dispatch_queue> *commitQueue;
-@property(readonly) _Bool commitSynchronously;
-@property(readonly) _Bool commitsWithQoS;
-@property(readonly) NSObject<OS_dispatch_queue> *completionQueue;
-@property(retain, getter=counterInfo) NSMutableDictionary *counterInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSMutableDictionary",?,&,GcounterInfo
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) _Bool disableCrossQueueHazardTracking;
-@property _Bool executionEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isOpenGLQueue;
-@property(copy) NSString *label;
-@property(readonly) unsigned long long maxCommandBufferCount;
-@property(nonatomic, getter=numInternalSampleCounters) unsigned long long numInternalSampleCounters;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GnumInternalSampleCounters
-
-@property(nonatomic, getter=numRequestedCounters) unsigned long long numRequestedCounters;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N,GnumRequestedCounters
-
-@property(getter=isProfilingEnabled) _Bool profilingEnabled;
-@property(readonly) unsigned long long qosLevel;
-@property _Bool skipRender;
-@property(readonly) Class superclass;
 
 @end
 

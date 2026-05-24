@@ -12,6 +12,7 @@ __attribute__((visibility("hidden")))
     id <CNLDAPPredicateRemapping> _factory;
 }
 
+- (id)+;
 - (id);
 - (id);
 - (id);
@@ -23,13 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)kCTRegistrationBandActive;
 - (void);
 - (void)1*Ð1Â0@ù
 × ;

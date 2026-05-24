@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface EARRecognitionMetrics
 {
     _Bool _isEmojiPersonalizationUsed;
-    _Bool _isEmojiDisambiguationUsed;
-    _Bool _isEmojiExpectedButNotRecognized;
-    NSArray *_allItnRunIntervals;
-    NSArray *_pauseDurations;
-    NSNumber *_itnDurationInNs;
-    NSArray *_recognizedEmojis;
-    double _cpuMillionInstructionsPerSecond;
 }
 
 + (_Bool);
@@ -36,13 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allItnRunIntervals; // @synthesize allItnRunIntervals=_allItnRunIntervals;
-@property(readonly, nonatomic) double cpuMillionInstructionsPerSecond; // @synthesize cpuMillionInstructionsPerSecond=_cpuMillionInstructionsPerSecond;
-@property(readonly, nonatomic) _Bool isEmojiDisambiguationUsed; // @synthesize isEmojiDisambiguationUsed=_isEmojiDisambiguationUsed;
-@property(readonly, nonatomic) _Bool isEmojiExpectedButNotRecognized; // @synthesize isEmojiExpectedButNotRecognized=_isEmojiExpectedButNotRecognized;
-@property(readonly, nonatomic) _Bool isEmojiPersonalizationUsed; // @synthesize isEmojiPersonalizationUsed=_isEmojiPersonalizationUsed;
-@property(readonly, nonatomic) NSNumber *itnDurationInNs; // @synthesize itnDurationInNs=_itnDurationInNs;
-@property(readonly, copy, nonatomic) NSArray *pauseDurations; // @synthesize pauseDurations=_pauseDurations;
-@property(readonly, copy, nonatomic) NSArray *recognizedEmojis; // @synthesize recognizedEmojis=_recognizedEmojis;
 
 @end
 

@@ -9,13 +9,11 @@
 @interface ChatKit.CKCatchUpButtonManager
 {
     UIViewController *catchUpButtonHost;
-    id animator;
-    id didAnimate;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)yÅj;

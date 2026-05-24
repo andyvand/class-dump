@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol NSFastEnumeration;
-
 @interface CPLUnionEnumerator
 {
     CDUnknownBlockType _generatorArray[2];
-    NSMutableArray *_remainingGenerators;
-    unsigned long long _currentGeneratorIndex;
-    id <NSFastEnumeration> _currentEnumerator;
-    void *_currentEnumeratorMutationsPtr;
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (unsigned long long)TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLSocialGroupChange.m;
 

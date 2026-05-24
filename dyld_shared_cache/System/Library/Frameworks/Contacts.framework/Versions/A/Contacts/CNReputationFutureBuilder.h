@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFuture, CNReputationContactsAdapter, CNReputationCoreRecentsAdapter, CNReputationHandle, CNReputationLogger;
+@class CNReputationHandle;
 
 __attribute__((visibility("hidden")))
 @interface CNReputationFutureBuilder
 {
     CNReputationHandle *_handle;
-    CNReputationCoreRecentsAdapter *_coreRecentsAdapter;
-    CNReputationContactsAdapter *_contactsAdapter;
-    CNReputationLogger *_logger;
-    CNFuture *_scoreFuture;
 }
 
 - (id);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)NSArray"24@?<v@?@"NSError">32;
 - (id);
 - (id);
 - (void)!ðFù*Ð1Â0@ù
@@ -34,11 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CNReputationContactsAdapter *contactsAdapter; // @synthesize contactsAdapter=_contactsAdapter;
-@property(readonly, nonatomic) CNReputationCoreRecentsAdapter *coreRecentsAdapter; // @synthesize coreRecentsAdapter=_coreRecentsAdapter;
 @property(readonly, copy, nonatomic) CNReputationHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) CNReputationLogger *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) CNFuture *scoreFuture; // @synthesize scoreFuture=_scoreFuture;
 
 @end
 

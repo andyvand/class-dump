@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol HAP2Accessory;
+@protocol HAP2Cancelable;
 
 @protocol HAP2PairedAccessoryServer
+- (id <HAP2Cancelable>);
+- (id <HAP2Cancelable>)addHEIFContainerInformationToDictionary:(void (^)(NSError *))arg1;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessories;
 @property(readonly, nonatomic, getter=isPaired) _Bool paired;
-@property(readonly, nonatomic) id <HAP2Accessory> primaryAccessory;
-@property(readonly, nonatomic) NSString *productData;
 @end
 

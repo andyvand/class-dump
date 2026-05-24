@@ -9,12 +9,11 @@
 @interface EMNSUserDefaultsBoolObserver
 {
     id <EFCancelable> _observationToken;
-    _Bool _enabled;
 }
 
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)27):Error adding 4 elements to context /* Error: Ran out of types for this method. */;
 - (void)=1Â0@ù
 × ;
 

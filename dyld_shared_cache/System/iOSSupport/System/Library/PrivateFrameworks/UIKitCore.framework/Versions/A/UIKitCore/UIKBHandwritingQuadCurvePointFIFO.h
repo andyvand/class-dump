@@ -6,23 +6,18 @@
 
 #import <UIKitCore/UIKBHandwritingPointFIFO.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface UIKBHandwritingQuadCurvePointFIFO : UIKBHandwritingPointFIFO
 {
     CDUnknownBlockType _emissionHandler;
-    double _scale;
-    NSMutableArray *_prevPoints;
-    CDStruct_23d8ee2f _lastPoint;
 }
 
-- (id);
+- (id)out a tracked highlight, dropping notice. error:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct);
+- (CDStruct_cccd6e1b);
 - (CDUnknownBlockType);
 - (void);
 - (double);
@@ -32,9 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)È-g;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType emissionHandler; // @synthesize emissionHandler=_emissionHandler;
-@property(nonatomic) CDStruct_19cde01f lastPoint; // @synthesize lastPoint=_lastPoint;
-@property(retain, nonatomic) NSMutableArray *prevPoints; // @synthesize prevPoints=_prevPoints;
 @property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end

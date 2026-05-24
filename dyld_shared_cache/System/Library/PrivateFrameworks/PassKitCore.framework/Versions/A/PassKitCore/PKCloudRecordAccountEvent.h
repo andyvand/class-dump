@@ -18,13 +18,13 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)̀;
 - (id);
 - (void);
-- (long long)erServiceAnimalURL;
-- (void)Identifier;
+- (long long)_registerServiceAnimalURL;
+- (void)auxiliaryPassInformationItemIdentifier;
 - (void)ihj!;
 
 // Remaining properties

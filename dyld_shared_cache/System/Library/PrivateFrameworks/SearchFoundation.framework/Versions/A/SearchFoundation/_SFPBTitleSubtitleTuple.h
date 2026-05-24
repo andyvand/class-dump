@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBTitleSubtitleTuple
 {
     NSString *_title;
-    NSString *_subtitle;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)_localizedCallerName;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)setFetchedPropertySetClass:(id)arg1;
+- (id);
 - (id);
 - (id);
 - (id);
 - (void)16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

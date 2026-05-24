@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct _HMDStructuredDataToken);
+- (struct _HMDStructuredDataToken);
 - (id);
 - (void);
 - (id);
@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (unsigned long long)efaultSessionDataSource;
+- (unsigned long long)_TtCO13HomeKitDaemon12GroupSession24DefaultSessionDataSource;
 - (void)blic}@Setting RPIdentity %@;
 - (unsigned long long);
 

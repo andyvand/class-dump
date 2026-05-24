@@ -12,15 +12,16 @@
     NSObject<OS_dispatch_source> *_timerSource;
 }
 
++ (id)
+	qa;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
+- (id)"max"b1"mean"b1"min"b1"variance"b1};
 - (id);
-- (id);
-- (void);
+- (void)!;
 
 @end
 

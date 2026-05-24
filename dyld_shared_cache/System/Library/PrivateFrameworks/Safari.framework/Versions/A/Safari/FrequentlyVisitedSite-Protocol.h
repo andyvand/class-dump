@@ -10,20 +10,14 @@
 - (NSURL *);
 - (NSDictionary *)1Â0@ù
 × ;
-- (NSNumber *)eference:inWindow: /* Error: Ran out of types for this method. */;
-- (_Bool)dInTabBar: /* Error: Ran out of types for this method. */;
+- (NSNumber *)preferenceValueToSelectWhenAttemptingToSelectPreference:inWindow: /* Error: Ran out of types for this method. */;
+- (_Bool)initForButton:browsingMode:embeddedInTabBar: /* Error: Ran out of types for this method. */;
 - (NSString *)database;
 - (NSString *)ÔP
 ;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBuiltIn) _Bool builtIn;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic, getter=isPinned) _Bool pinned;
-@property(readonly, nonatomic) NSNumber *score;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSURL *url;
 @property(readonly, copy, nonatomic) NSString *urlString;
 @end
 

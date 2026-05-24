@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface UnknownClass (BRCPathAdditions)
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (id);
++ (void)(k@
+;
 + (_Bool);
 + (id);
 + (id);
@@ -29,78 +30,78 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (id)F;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)ae2;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id)9;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)a;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)+);
+- (void)T@qa;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)Nl;
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)@9?;
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool)+8;
 - (_Bool);
 - (unsigned short);
 - (void);
@@ -110,7 +111,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *br_lastEditorDeviceName;
-@property(readonly, nonatomic) NSString *br_lastEditorName;
-@property(readonly, nonatomic) NSPersonNameComponents *br_lastEditorNameComponents;
 @end
 

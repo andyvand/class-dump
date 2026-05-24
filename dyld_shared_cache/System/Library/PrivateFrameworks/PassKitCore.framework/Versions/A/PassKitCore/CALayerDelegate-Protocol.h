@@ -10,7 +10,7 @@
 @protocol CALayerDelegate
 
 @optional
-- (void)tifier:(CALayer *)arg1;
+- (void)cachedStringsBundleWithIdentifier:(CALayer *)arg1;
 - (void)ing Pass:(CALayer *)arg1 Yes (Existing pass found);
 - (id <CAAction>)k;
 @end

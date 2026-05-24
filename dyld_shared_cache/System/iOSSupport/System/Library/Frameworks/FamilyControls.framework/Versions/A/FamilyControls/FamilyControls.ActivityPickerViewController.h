@@ -8,11 +8,6 @@
 {
     id isEmbedded;
     id viewTitle;
-    id headerText;
-    id footerText;
-    id selection;
-    id dismissCallback;
-    id remoteViewController;
 }
 
 - (void);

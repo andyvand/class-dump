@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface CKDownloadAsset
 {
     NSURL *_URL;
-    NSString *_md5;
-    NSString *_appliesToVersionIdentifier;
-    NSArray *_sinfs;
-    NSString *_downloadKey;
-    unsigned long long _chunkSize;
-    NSArray *_hashes;
-    NSArray *_clearHashes;
 }
 
 + (_Bool);
@@ -24,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)rnal28AttestationTransportProtocolP;
 - (id);
 - (id);
 - (void);
@@ -33,8 +26,8 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)6;
+- (id)B;
 - (id);
 - (id);
 - (void);
@@ -42,15 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
-@property(retain) NSString *appliesToVersionIdentifier; // @synthesize appliesToVersionIdentifier=_appliesToVersionIdentifier;
-@property unsigned long long chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(retain) NSArray *clearHashes; // @synthesize clearHashes=_clearHashes;
 @property(copy) NSString *downloadKey; // @synthesize downloadKey=_downloadKey;
-@property(retain) NSArray *hashes; // @synthesize hashes=_hashes;
-@property(copy) NSString *md5; // @synthesize md5=_md5;
-@property(readonly) _Bool needsDecryption;
-@property(retain) NSArray *sinfs; // @synthesize sinfs=_sinfs;
 
 @end
 

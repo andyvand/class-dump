@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonVCACProtocol
+- (void)ic;
 @end
 

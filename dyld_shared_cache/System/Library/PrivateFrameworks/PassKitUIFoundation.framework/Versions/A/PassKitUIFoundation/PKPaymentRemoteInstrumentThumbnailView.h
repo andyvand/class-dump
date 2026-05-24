@@ -9,7 +9,6 @@
 @interface PKPaymentRemoteInstrumentThumbnailView
 {
     NSImageView *_placeholderImageView;
-    NSImageView *_cardImageView;
 }
 
 - (void);
@@ -20,10 +19,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_;
 
 // Remaining properties
-@property(retain, nonatomic) NSImageView *cardImageView; // @synthesize cardImageView=_cardImageView;
 @property(retain, nonatomic) NSImageView *placeholderImageView; // @synthesize placeholderImageView=_placeholderImageView;
 
 @end

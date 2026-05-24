@@ -6,18 +6,11 @@
 
 #import <CalDAV/CalDAVContainerSyncTaskGroup.h>
 
-@class CoreDAVItemParserMapping, NSArray, NSDictionary, NSMutableDictionary, NSString;
-@protocol CalDAVChecksumLocalDBInfoProvider;
+@class NSArray, NSString;
 
 @interface CalDAVContainerChecksumSyncTaskGroup : CalDAVContainerSyncTaskGroup
 {
     NSString *_unusedSyncToken;
-    NSString *_unusedCTag;
-    NSMutableDictionary *_serverURLsToChecksums;
-    NSDictionary *_localURLsToChecksums;
-    _Bool _mismatchDetected;
-    NSArray *_preferredChecksumVersions;
-    CoreDAVItemParserMapping *_bestServerChecksumVersion;
 }
 
 - (_Bool);
@@ -35,12 +28,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVItemParserMapping *bestServerChecksumVersion; // @synthesize bestServerChecksumVersion=_bestServerChecksumVersion;
-@property(nonatomic) id <CalDAVChecksumLocalDBInfoProvider> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) _Bool mismatchDetected; // @synthesize mismatchDetected=_mismatchDetected;
 @property(retain, nonatomic) NSArray *preferredChecksumVersions; // @synthesize preferredChecksumVersions=_preferredChecksumVersions;
 
 @end

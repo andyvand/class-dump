@@ -6,29 +6,23 @@
 
 #import <Photos/PHValidator.h>
 
-@class NSString, PHAssetCreationRequest;
+@class PHAssetCreationRequest;
 
 @interface _PHAssetCreationRequestValidator : PHValidator
 {
     PHAssetCreationRequest *_assetCreationRequest;
-    NSString *_validatedPairingIdentifier;
-    CDStruct_1b6d18a9 _validatedVideoDuration;
-    CDStruct_1b6d18a9 _validatedImageDisplayTime;
 }
 
-- (CDStruct_1b6d18a9);
-- (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
+- (id);
+- (CDStruct_198678f7);
 - (id);
 - (_Bool);
 - (id);
-- (void)ionaryWithErrorIfNone:asset:isContentPreviewableForAsset:assetNeedsProcessing:error: /* Error: Ran out of types for this method. */;
+- (void)_clearedImageManagerResultDictionaryWithErrorIfNone:asset:isContentPreviewableForAsset:assetNeedsProcessing:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PHAssetCreationRequest *assetCreationRequest; // @synthesize assetCreationRequest=_assetCreationRequest;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 validatedImageDisplayTime; // @synthesize validatedImageDisplayTime=_validatedImageDisplayTime;
-@property(readonly, nonatomic) NSString *validatedPairingIdentifier; // @synthesize validatedPairingIdentifier=_validatedPairingIdentifier;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 validatedVideoDuration; // @synthesize validatedVideoDuration=_validatedVideoDuration;
 
 @end
 

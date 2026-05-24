@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreDialogResponse, ICURLBag, NSArray, NSData, NSDate, NSDictionary, NSError, NSString;
+@class NSDate, NSDictionary;
 
 @interface ICMediaRedownloadResponse
 {
     NSDate *_requestDate;
-    ICURLBag *_urlBag;
-    NSDictionary *_responseDictionary;
 }
 
 - (id);
@@ -19,31 +17,15 @@
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)hb;
 - (id);
 - (long long);
-- (void)LLPlaybackSyncCommand;
+- (void)_ICLLPlaybackSyncCommand;
 - (id)xy to perform subscription status update. error = %{public}@.;
 - (id)ª bo)ðÊõë #Éù3È×µj7¾Â%;laÿK¨ú!º²Q=sI\cø¸¤÷'f¢´Ël>ÕÍLÒÙf5hél¿`+qR²Û@®IÌÐð°`.°%Vûz´ý;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool authorized;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) ICStoreDialogResponse *dialog;
-@property(readonly, nonatomic) unsigned int downloadQueueItemCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly, copy, nonatomic) NSString *jingleAction;
 @property(readonly, copy, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly, copy, nonatomic) NSError *serverError;
-@property(readonly, nonatomic) _Bool shouldCancelPurchaseBatch;
-@property(readonly, nonatomic) long long status;
-@property(readonly, copy, nonatomic) NSData *subscriptionKeyBagData;
-@property(readonly) Class superclass;
 
 @end
 

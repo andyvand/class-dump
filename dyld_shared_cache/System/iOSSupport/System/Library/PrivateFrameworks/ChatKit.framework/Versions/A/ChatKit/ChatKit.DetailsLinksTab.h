@@ -7,13 +7,6 @@
 @interface ChatKit.DetailsLinksTab
 {
     id _currentSelection;
-    id _defaultTitle;
-    id _title;
-    id _editMenuTitle;
-    id _position;
-    id _useOptionIconForToolbar;
-    id _viewModel;
-    id _$observationRegistrar;
 }
 
 @end

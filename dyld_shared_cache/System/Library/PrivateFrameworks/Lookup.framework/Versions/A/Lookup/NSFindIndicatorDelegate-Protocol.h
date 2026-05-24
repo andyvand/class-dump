@@ -5,5 +5,6 @@
 //
 
 @protocol NSFindIndicatorDelegate
+- (void)_;
 @end
 

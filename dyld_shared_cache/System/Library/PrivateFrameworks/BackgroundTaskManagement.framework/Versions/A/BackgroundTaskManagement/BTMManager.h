@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSXPCConnection;
-@protocol BTMForceQuitHandler;
+@class NSXPCConnection;
 
 @interface BTMManager
 {
     long long _mode;
-    NSHashTable *_lists;
-    struct os_unfair_lock_s _listsLock;
-    id <BTMForceQuitHandler> _forceQuitHandler;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -31,7 +26,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -68,7 +63,7 @@
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)J�;
 - (long long);
 - (long long);
 - (long long);
@@ -76,21 +71,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
+- (id);
 - (void);
 - (id);
+- (long long);
+- (_Bool);
+- (_Bool)( ;
+- (void);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *UIDs;
 @property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end

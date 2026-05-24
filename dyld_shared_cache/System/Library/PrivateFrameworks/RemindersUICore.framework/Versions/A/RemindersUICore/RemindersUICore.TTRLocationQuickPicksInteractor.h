@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRLocationQuickPicksInteractor
 {
     id delegate;
-    id quickPickItems;
-    id geoService;
-    id locationOptionsProvider;
-    id cancellable;
-    id lastNotifiedItems;
 }
 
 @end

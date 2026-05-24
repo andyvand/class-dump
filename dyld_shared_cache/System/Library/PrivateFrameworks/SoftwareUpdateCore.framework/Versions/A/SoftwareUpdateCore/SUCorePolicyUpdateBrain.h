@@ -13,15 +13,15 @@
     NSNumber *_compatibilityVersion;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)aImportUIController";
+- (id)_makeShowHistoryButtonIfNeeded;
 - (_Bool);
 - (void);
 - (id);

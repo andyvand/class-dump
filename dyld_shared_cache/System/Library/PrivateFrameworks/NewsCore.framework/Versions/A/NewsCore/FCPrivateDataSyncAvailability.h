@@ -12,15 +12,14 @@
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id)˟;
+- (_Bool)reverseGeocodeCoordinate:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)base saveFeedItems:forFeedID:insertionToken:requestDate:reachedToOrder:extent:reachedEnd:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *conditions; // @synthesize conditions=_conditions;
-@property(readonly, nonatomic, getter=isPrivateDataSyncingAllowed) _Bool privateDataSyncingAllowed;
 
 @end
 

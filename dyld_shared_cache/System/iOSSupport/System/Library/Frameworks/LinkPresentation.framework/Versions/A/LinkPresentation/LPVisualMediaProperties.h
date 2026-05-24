@@ -11,7 +11,7 @@
     NSString *_accessibilityText;
 }
 
-- (void);
+- (void)trailingAccessoryContainerViewWidth;
 - (id);
 - (unsigned long long);
 - (_Bool);

@@ -9,15 +9,13 @@
 @interface PTPassiveTraceArchiveHandle
 {
     NSString *_aarPath;
-    long long _sandboxToken;
 }
 
-- (id);
+- (id)IMCombinedDirectoryContents;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *aarPath; // @synthesize aarPath=_aarPath;
 @property(readonly, nonatomic) long long sandboxToken; // @synthesize sandboxToken=_sandboxToken;
 
 @end

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
-
 @interface ICBook
 {
     _Bool _vppLicensed;
-    unsigned long long _purchaseHistoryID;
-    unsigned long long _storeID;
-    NSString *_title;
-    NSString *_author;
-    NSString *_genre;
-    NSDate *_datePurchased;
-    NSURL *_artworkURL;
-    NSString *_redownloadParameters;
-    NSString *_vppOrganizationID;
-    NSString *_vppOrganizationDisplayName;
 }
 
 + (_Bool);
@@ -29,16 +17,16 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)onProvider"16;
 - (id);
 - (_Bool);
-- (void);
+- (void)nnect SSO ticket:(id)arg1 %@;
+- (id);
+- (id);
+- (unsigned long long)HDRAverageLuminancePass;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (void)A& ;
 - (void);
 - (void);
 - (void);
@@ -50,17 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(copy, nonatomic) NSDate *datePurchased; // @synthesize datePurchased=_datePurchased;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(nonatomic) unsigned long long purchaseHistoryID; // @synthesize purchaseHistoryID=_purchaseHistoryID;
-@property(copy, nonatomic) NSString *redownloadParameters; // @synthesize redownloadParameters=_redownloadParameters;
-@property(nonatomic) unsigned long long storeID; // @synthesize storeID=_storeID;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic, getter=isVPPLicensed) _Bool vppLicensed; // @synthesize vppLicensed=_vppLicensed;
-@property(copy, nonatomic) NSString *vppOrganizationDisplayName; // @synthesize vppOrganizationDisplayName=_vppOrganizationDisplayName;
-@property(copy, nonatomic) NSString *vppOrganizationID; // @synthesize vppOrganizationID=_vppOrganizationID;
 
 @end
 

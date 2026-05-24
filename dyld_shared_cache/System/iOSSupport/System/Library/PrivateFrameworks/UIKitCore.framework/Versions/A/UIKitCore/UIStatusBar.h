@@ -6,37 +6,12 @@
 
 #import <UIKitCore/UIStatusBar_Base.h>
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSNumber, NSString, UIColor, UILabel, UIStatusBarBackgroundView, UIStatusBarForegroundView, UIStatusBarStyleAnimationParameters, UIStatusBarStyleAttributes, UIView;
-
 @interface UIStatusBar : UIStatusBar_Base
 {
     _Bool _showsForeground;
-    _Bool _observingDefaults;
-    UIStatusBarBackgroundView *_backgroundView;
-    UIStatusBarForegroundView *_foregroundView;
-    UILabel *_doubleHeightLabel;
-    UIView *_doubleHeightLabelContainer;
-    NSString *_currentDoubleHeightText;
-    CDStruct_aa1ce654 _currentRawData;
-    NSMutableArray *_interruptedAnimationCompositeViews;
-    UIStatusBarBackgroundView *_newStyleBackgroundView;
-    UIStatusBarForegroundView *_newStyleForegroundView;
-    UIStatusBar *_slidingStatusBar;
-    UIStatusBarStyleAttributes *_styleAttributes;
-    _Bool _waitingOnCallbackAfterChangingStyleOverridesLocally;
-    _Bool _showOnlyCenterItems;
-    _Bool _foregroundViewShouldIgnoreStatusBarDataDuringAnimation;
-    UIColor *_tintColor;
-    UIColor *_lastUsedBackgroundColor;
-    UIStatusBarStyleAnimationParameters *_nextTintTransition;
-    NSNumber *_overrideHeight;
-    NSMutableSet *_disableRasterizationReasons;
-    NSMutableDictionary *_actions;
-    _Bool _disablesRasterization;
-    _Bool _timeHidden;
 }
 
-+ (void);
++ (void)#;
 + (void);
 + (long long);
 + (double);
@@ -48,7 +23,7 @@
 + (long long);
 + (long long);
 + (double);
-+ (id)pearance;
++ (id)previousWindowDrivingSystemAppearance;
 - (id);
 - (void);
 - (void);
@@ -56,8 +31,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void),N,V_payloadEAPSIMNumberOfRANDs;
+- (_Bool)ADRestrictDDNSFlag;
 - (id);
 - (void);
 - (void);
@@ -74,8 +49,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)ist"b1"coverArtworkRecipe"b1"collaborative"b1"collaborationSharingMode"b1"collaborationMode"b1"collaboratorPermissions"b1"collaborationInvitationURL"b1"collaborationInvitationURLExpirationDate"b1"collaborationJoinRequestIsPending"b1"collaboratorStatus"b1"storeRedownloadable"b1"isPinned"b1"hasAnyCleanTracks"b1"hasAnyCleanDownloadedTracks"b1"isLibraryAdded"b1"curator"{?="identifiers"b1"name"b1"handle"b1}};
+- (_Bool)getProactiveRouteWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -107,21 +82,21 @@
 - (void);
 - (void)0@ù
 × ;
-- (id)erfaceLayoutDirectionForSemanticContentAttribute:(id)arg1 relativeToLayoutDirection: /* Error: Ran out of types for this method. */;
-- (void)youtGuideFromFrame:(const CDStruct_aa1ce654 *)arg1;
-- (void)lbarDefaultItemIdentifiers:(CDUnknownBlockType)arg1;
-- (void)hreshold:(id)arg1;
-- (struct CGRect)geFlags:(id)arg1;
-- (struct CGAffineTransform)ickCount: /* Error: Ran out of types for this method. */;
-- (void)CollectionJoinBehavior;
-- (void)ionsByEvaluatingOcclusionsForRegions:(id)arg1 inSnapshot: /* Error: Ran out of types for this method. */;
-- (struct CGRect)lection:(long long)arg1;
-- (void)hold;
-- (id)FailureReason;
-- (void)ementaryView:(_Bool)arg1 forElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ernateText;
-- (void)l;
-- (void)fsetToBounds:(double)arg1;
+- (id)userInterfaceLayoutDirectionForSemanticContentAttribute:(id)arg1 relativeToLayoutDirection: /* Error: Ran out of types for this method. */;
+- (void)updateLayoutGuideFromFrame:(const CDStruct_aa1ce654 *)arg1;
+- (void)toolbarDefaultItemIdentifiers:(CDUnknownBlockType)arg1;
+- (void)setScaleDismissThreshold:(id)arg1;
+- (struct CGRect)setIgnoreHIDEdgeFlags:(id)arg1;
+- (struct CGAffineTransform)setClickCount: /* Error: Ran out of types for this method. */;
+- (void)sceneCollectionJoinBehavior;
+- (void)regionsByEvaluatingOcclusionsForRegions:(id)arg1 inSnapshot: /* Error: Ran out of types for this method. */;
+- (struct CGRect)moveUpAndModifySelection:(long long)arg1;
+- (void)minVelocityThreshold;
+- (id)localizedFailureReason;
+- (void)collectionView:(_Bool)arg1 didEndDisplayingSupplementaryView:forElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_showsAlternateText;
+- (void)_really_cancel;
+- (void)_clampScrollOffsetToBounds:(double)arg1;
 - (void)alueSetter:(id)arg1 presentationValueSetter:(const CDStruct_aa1ce654 *)arg2;
 - (void)undRoundRectRadius;
 - (_Bool)dius;
@@ -129,8 +104,8 @@
 - (void)pty:,V__alwaysShowsClearButtonWhenEmpty /* Error: Ran out of types for this method. */;
 - (void)etAllowsPointerDragBeforeLiftDelay:(id)arg1 ,V_allowsPointerDragBeforeLiftDelay;
 - (id)activePresentation;
-- (id)adence;
-- (void);
+- (id)cadence;
+- (void)_UISliderVisualElement;
 - (void)|$#¨#$$;
 - (void)±;
 - (void)È
@@ -141,10 +116,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)ctHeight;
-- (void)ManipulationDragItemSize;
-- (double)ed;
-- (void)meShouldSkipCandidateSelection;
+- (void)wantsEdgeAttachedInCompactHeight;
+- (void)associatedObjectManipulationDragItemSize;
+- (double)unsupported;
+- (void)UIKBAttributeNameShouldSkipCandidateSelection;
 - (void)ring. Collection view:(long long)arg1 %@;
 - (void)a delay!;
 - (void);

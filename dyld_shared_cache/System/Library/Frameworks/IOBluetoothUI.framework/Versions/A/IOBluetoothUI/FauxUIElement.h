@@ -9,7 +9,6 @@
 @interface FauxUIElement
 {
     NSString *role;
-    id parent;
 }
 
 + (id);
@@ -23,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (unsigned long long);
 - (_Bool);

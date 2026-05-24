@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAutoFillTextSuggestion;
+
 @protocol NSTextContentPrivate
+
+@optional
+- (void)Cannot accept fetched update of download size 0 :(NSAutoFillTextSuggestion *)arg1 %@;
 @end
 

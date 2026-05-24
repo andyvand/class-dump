@@ -7,7 +7,6 @@
 @interface AppStoreKit.PrivacyHeaderSupplementaryItem
 {
     id bodyText;
-    id id;
 }
 
 @end

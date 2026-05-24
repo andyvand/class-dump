@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKAnnotationView, MKOverlayRenderer;
+
 @protocol MKMapViewDelegate
+
+@optional
+- (void);
+- (MKAnnotationView *)ry;
+- (MKOverlayRenderer *);
+- (void)a;
+- (void)\;
+- (void);
 @end
 

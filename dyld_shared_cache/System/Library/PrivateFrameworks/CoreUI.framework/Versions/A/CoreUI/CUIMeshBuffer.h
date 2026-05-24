@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString;
-@protocol MDLMeshBufferAllocator, MDLMeshBufferZone;
+@class NSMutableData;
 
 __attribute__((visibility("hidden")))
 @interface CUIMeshBuffer
 {
     NSMutableData *_data;
-    unsigned long long _type;
-    id <MDLMeshBufferZone> _zone;
-    id <MDLMeshBufferAllocator> _allocator;
 }
 
 - (void);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)\;
 - (unsigned long long);
 - (id);
 - (id)lve radiosity image for layer stack %@;
@@ -33,17 +29,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator; // @synthesize allocator=_allocator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long length;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, retain, nonatomic) id <MDLMeshBufferZone> zone; // @synthesize zone=_zone;
 
 @end
 

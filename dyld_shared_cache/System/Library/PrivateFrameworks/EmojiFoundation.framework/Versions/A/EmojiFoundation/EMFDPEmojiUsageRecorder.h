@@ -6,17 +6,16 @@
 
 #import <EmojiFoundation/EMFDPRecorder.h>
 
-@class NSLocale, NSString;
+@class NSLocale;
 
 @interface EMFDPEmojiUsageRecorder : EMFDPRecorder
 {
     NSLocale *_locale;
-    NSString *_usageModeIdentifier;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)Window;
+- (id)er wants to always open an external app.;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *usageModeIdentifier; // @synthesize usageModeIdentifier=_usageModeIdentifier;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKFlight;
+@class NSString;
 
 @interface PKFlightShareInvitation
 {
     NSString *_passUniqueIdentifier;
-    PKFlight *_flight;
-    NSData *_placeholderImageData;
 }
 
 + (_Bool)î%°1Â0@ù
@@ -23,14 +21,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)querySizeCountAtIndex:(id)arg1;
 - (void);
-- (void)hangedNotification;
+- (void)CKAccountChangedNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) PKFlight *flight; // @synthesize flight=_flight;
 @property(readonly, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(retain, nonatomic) NSData *placeholderImageData; // @synthesize placeholderImageData=_placeholderImageData;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface Foundation.__PlistDictionaryDecoder
 {
     id storage;
-    id options;
-    id codingPath;
 }
 
 @end

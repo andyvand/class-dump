@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol HMIHomePersonManagerDataSource;
 
 @interface HMIRemovePersonsOperation
 {
     id <HMIHomePersonManagerDataSource> _dataSource;
-    NSSet *_personUUIDs;
 }
 
 + (id)Ð;
@@ -18,12 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (void);
 
 // Remaining properties
 @property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) NSSet *personUUIDs; // @synthesize personUUIDs=_personUUIDs;
 
 @end
 

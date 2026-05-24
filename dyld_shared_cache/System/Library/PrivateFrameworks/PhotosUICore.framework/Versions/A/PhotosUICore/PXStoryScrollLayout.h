@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryModel, PXStoryPagedScrollContentLayout, PXStoryStyleScrollContentLayout;
-@protocol PXStoryScrollLayoutTargetContentOffsetAdjuster;
+@class PXStoryPagedScrollContentLayout;
 
 @interface PXStoryScrollLayout
 {
     _Bool _isUpdating;
-    CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    unsigned long long _scrollPositionUpdateReason;
-    _Bool _scrollBeganAtTimelineEnd;
-    PXStoryModel *_model;
-    PXStoryPagedScrollContentLayout *_pagedScrollContentLayout;
-    PXStoryStyleScrollContentLayout *_styleScrollContentLayout;
-    id _modelChangeOrigin;
-    id <PXStoryScrollLayoutTargetContentOffsetAdjuster> _targetContentOffsetAdjuster;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -39,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,26 +44,13 @@
 - (void);
 - (id);
 - (void);
-- (id)eForAssetUUIDs:keyAssetUUID:personsUUIDsByAssetUUIDs:memoryFeatures: /* Error: Ran out of types for this method. */;
+- (id)scoreForAssetUUIDs:keyAssetUUID:personsUUIDsByAssetUUIDs:memoryFeatures: /* Error: Ran out of types for this method. */;
 - (id)lignment;
 - (void):(id)arg1 add createFakeTestFeedbackDictionary implementation for OSX;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) id modelChangeOrigin; // @synthesize modelChangeOrigin=_modelChangeOrigin;
 @property(readonly, nonatomic) PXStoryPagedScrollContentLayout *pagedScrollContentLayout; // @synthesize pagedScrollContentLayout=_pagedScrollContentLayout;
-@property(nonatomic) _Bool scrollBeganAtTimelineEnd; // @synthesize scrollBeganAtTimelineEnd=_scrollBeganAtTimelineEnd;
-@property(readonly, nonatomic) long long scrollPositionComparedToEnd;
-@property(readonly, nonatomic) PXStoryStyleScrollContentLayout *styleScrollContentLayout; // @synthesize styleScrollContentLayout=_styleScrollContentLayout;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <PXStoryScrollLayoutTargetContentOffsetAdjuster> targetContentOffsetAdjuster; // @synthesize targetContentOffsetAdjuster=_targetContentOffsetAdjuster;
 
 @end
 

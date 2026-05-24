@@ -4,54 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSMSComposeQueuingRemoteViewControllerProxy, CKSMSComposeRemoteViewController, NSString, UINavigationController, _UIAsyncInvocation;
+@class _UIAsyncInvocation;
 
 @interface CKSMSComposeController
 {
     _Bool _safeToAdd;
-    _Bool _didChangeStatusBarStyle;
-    _Bool _firstItemWasInserted;
-    id _delegate;
-    CKSMSComposeRemoteViewController *_remoteViewController;
-    CKSMSComposeQueuingRemoteViewControllerProxy *_remoteViewControllerProxy;
-    _UIAsyncInvocation *_cancellationInvocation;
-    UINavigationController *_clientNavigationController;
-    long long _savedStatusBarStyle;
 }
 
 + (double);
-+ (double);
++ (double)ICNoteAnalyticsAudioRecordingStoppedNotificationDidAppBackgroundOccurKey;
 + (_Bool);
 + (_Bool);
+- (void)isPartialMention;
+- (void)isObservingChanges;
+- (void)isMemberOfClass: /* Error: Ran out of types for this method. */;
+- (void)isMathPaperSolvingAllowed;
+- (void)isMatchingOperationForCacheKey:cache: /* Error: Ran out of types for this method. */;
+- (void)isMarkdownAttributedString: /* Error: Ran out of types for this method. */;
+- (void)initWithShouldShowSpinner:progressText: /* Error: Ran out of types for this method. */;
+- (void)ic_enumerateAbstractAttachmentsInContext:(id)arg1 range:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)ic_enumerateAbstractAttachmentsInContext:(id)arg1 range:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)htmlStringWithAttachments:(_Bool)arg1;
+- (void)hoveredCharacterIndex;
+- (void)hostApplicationIdentifier;
+- (void)hintTextViewHeightConstraint;
+- (void)fixUnwantedCharactersInAttributedString:(_Bool)arg1;
+- (void)firstMatchingRangeInNote;
+- (void)Attachments:(id)arg1 insertListMarkers: /* Error: Ran out of types for this method. */;
+- (void)expansionStateContext;
+- (void)existingCloudObjectForRecordID:(_Bool)arg1 recordType:accountID:context: /* Error: Ran out of types for this method. */;
+- (void)enumerateIndexesWithOptions:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)sage:(id)arg1;
+- (void)defaultTypingAttributesForEmptyDocument;
+- (void)attributedStringWithMatchHighlighted:(id)arg1 optionalAttributedHighlightedString:(id)arg2 textCheckingResult:highlightColor:insideFrame:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
+- (void)attributedStringValue;
+- (void)attachmentPreviewImagesDidUpdateNotification:(_Bool)arg1;
+- (void)addSearchResults:(_Bool)arg1;
+- (void)isionHandler:(id)arg1;
+- (void)isionHandler:(id)arg1;
+- (void)_webView:(id)arg1 decideDatabaseQuotaForSecurityOrigin:databaseName:displayName:currentQuota:currentOriginUsage:currentDatabaseUsage:expectedUsage:decisionHandler: /* Error: Ran out of types for this method. */;
+- (long long)wordProtectedOnly;
+- (_Bool)vicePassword;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,31 +60,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (void)_9_p_G;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)";
 - (id);
 - (id);
+- (_Bool)f;
+- (void);
+- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -108,21 +100,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _UIAsyncInvocation *cancellationInvocation; // @synthesize cancellationInvocation=_cancellationInvocation;
-@property(retain, nonatomic) UINavigationController *clientNavigationController; // @synthesize clientNavigationController=_clientNavigationController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didChangeStatusBarStyle; // @synthesize didChangeStatusBarStyle=_didChangeStatusBarStyle;
-@property(nonatomic) _Bool firstItemWasInserted; // @synthesize firstItemWasInserted=_firstItemWasInserted;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKSMSComposeRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(retain, nonatomic) CKSMSComposeQueuingRemoteViewControllerProxy *remoteViewControllerProxy; // @synthesize remoteViewControllerProxy=_remoteViewControllerProxy;
-@property(nonatomic) _Bool safeToAdd; // @synthesize safeToAdd=_safeToAdd;
-@property(nonatomic) long long savedStatusBarStyle; // @synthesize savedStatusBarStyle=_savedStatusBarStyle;
-@property(readonly) Class superclass;
 
 @end
 

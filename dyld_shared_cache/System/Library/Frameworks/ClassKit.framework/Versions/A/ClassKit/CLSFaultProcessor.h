@@ -4,53 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableOrderedSet, NSObject, NSString;
-@protocol CLSFaultProcessorDelegate, OS_dispatch_group, OS_dispatch_queue;
+@class NSMutableArray;
+@protocol CLSFaultProcessorDelegate;
 
 @interface CLSFaultProcessor
 {
     NSMutableArray *_results;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    NSMapTable *_objects;
-    NSMapTable *_relations;
-    NSMapTable *_objectsIdsByParentID;
-    NSMutableOrderedSet *_rootObjectIDs;
-    id <CLSFaultProcessorDelegate> _delegate;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
++ (id)yer Name: /* Error: Ran out of types for this method. */;
+- (void)y!;
+- (void)irmware:(id)arg1 Run out of memory!;
+- (void)mcache_non_coh_agent;
+- (oneway void)ction **);
+- (oneway void)ram *, uint32_t, ZinComputeProgramSection **);
+- (oneway void)bleKernelSectionForProcedure(const ZinComputeProgram *, uint32_t, ZinComputeProgramSection **);
+- (oneway void)eProgramSupportsFeature(const ident_command *const, const char *, bool &);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <CLSFaultProcessorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

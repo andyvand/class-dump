@@ -7,10 +7,6 @@
 @interface IDSFoundation.GroupEncryptionDebugLogManager
 {
     id $defaultActor;
-    id directory;
-    id maximumAge;
-    id maximumSize;
-    id groupEncryptionLogFilePattern;
 }
 
 @end

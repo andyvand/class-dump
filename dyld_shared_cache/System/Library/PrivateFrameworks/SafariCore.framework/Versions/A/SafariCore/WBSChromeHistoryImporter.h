@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString, NSURL;
+@class NSError;
 @protocol WBSHistoryImporterDelegate;
 
 @interface WBSChromeHistoryImporter
 {
     NSError *_lastError;
-    NSMutableArray *_stack;
-    _Bool _foundVisitArray;
-    NSURL *_url;
-    NSString *_title;
-    long long _visitTime;
-    id <WBSHistoryImporterDelegate> _delegate;
-    double _ageLimit;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,12 +27,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)minOutset;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double ageLimit; // @synthesize ageLimit=_ageLimit;
 @property(nonatomic) __weak id <WBSHistoryImporterDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

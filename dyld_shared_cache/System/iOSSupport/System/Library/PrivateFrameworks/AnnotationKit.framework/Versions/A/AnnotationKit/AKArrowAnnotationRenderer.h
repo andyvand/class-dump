@@ -13,16 +13,16 @@
 + (double);
 + (struct CGPath *);
 + (struct CGPath *);
-+ (unsigned long long);
++ (unsigned long long);
 + (void);
 + (struct CGPoint);
 + (void);
-+ (struct CGRect);
++ (struct CGRect)T;
 + (void);
 + (_Bool);
 + (_Bool);
 + (struct CGRect);
-+ (struct CGSize);
++ (struct CGSize)4W;
 + (void);
 + (void);
 

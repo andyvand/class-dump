@@ -6,23 +6,20 @@
 
 #import <ModelIO/MDLMaterialPropertyNode.h>
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface MDLMaterialPropertyGraph : MDLMaterialPropertyNode
 {
     NSArray *_nodes;
-    NSArray *_connections;
-    NSMutableArray *_finalNodes;
 }
 
 - (id);
-- (id);
+- (id)ct profile embedding; cookie match failed;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *connections; // @synthesize connections=_connections;
 @property(readonly, nonatomic) NSArray *nodes; // @synthesize nodes=_nodes;
 
 @end

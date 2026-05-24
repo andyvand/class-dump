@@ -4,40 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
-
 @interface PHAssetExportRequestOptions
 {
     _Bool _includeAllAssetResources;
-    _Bool _treatLivePhotoAsStill;
-    _Bool _flattenSlomoVideos;
-    _Bool _dontAllowRAW;
-    _Bool _shouldStripLocation;
-    _Bool _shouldStripCaption;
-    _Bool _shouldStripAccessibilityDescription;
-    _Bool _disableMetadataCorrections;
-    _Bool _allowMetadataConversionsForPNG;
-    _Bool _shouldExportUnmodifiedOriginalResources;
-    _Bool _shouldBundleComplexAssetResources;
-    _Bool _overwriteExistingFilesInOutputDirectory;
-    _Bool _forceDateTimeMetadataBaking;
-    _Bool _forceLocationMetadataBaking;
-    _Bool _forceCaptionMetadataBaking;
-    _Bool _forceAccessibilityDescriptionMetadataBaking;
-    _Bool _disableUpdatingFileCreationDatesOnExportedFileURLs;
-    long long _variant;
-    NSString *_videoExportPreset;
-    NSString *_videoExportFileType;
-    NSString *_customFilenameBase;
-    NSURL *_customOutputDirectory;
-    NSObject<OS_dispatch_queue> *_resultHandlerQueue;
-    long long _locationComparisonStrategy;
 }
 
+- (id)	;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,8 +41,8 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -85,34 +59,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)yFromResult: /* Error: Ran out of types for this method. */;
+- (void)_mergeInfoDictionaryFromResult: /* Error: Ran out of types for this method. */;
 - (long long)è;
 
 // Remaining properties
-@property(nonatomic) _Bool allowMetadataConversionsForPNG; // @synthesize allowMetadataConversionsForPNG=_allowMetadataConversionsForPNG;
-@property(copy, nonatomic) NSString *customFilenameBase; // @synthesize customFilenameBase=_customFilenameBase;
-@property(copy, nonatomic) NSURL *customOutputDirectory; // @synthesize customOutputDirectory=_customOutputDirectory;
-@property(nonatomic) _Bool disableMetadataCorrections; // @synthesize disableMetadataCorrections=_disableMetadataCorrections;
-@property(nonatomic) _Bool disableUpdatingFileCreationDatesOnExportedFileURLs; // @synthesize disableUpdatingFileCreationDatesOnExportedFileURLs=_disableUpdatingFileCreationDatesOnExportedFileURLs;
-@property(nonatomic) _Bool dontAllowRAW; // @synthesize dontAllowRAW=_dontAllowRAW;
-@property(nonatomic) _Bool flattenSlomoVideos; // @synthesize flattenSlomoVideos=_flattenSlomoVideos;
-@property(nonatomic) _Bool forceAccessibilityDescriptionMetadataBaking; // @synthesize forceAccessibilityDescriptionMetadataBaking=_forceAccessibilityDescriptionMetadataBaking;
-@property(nonatomic) _Bool forceCaptionMetadataBaking; // @synthesize forceCaptionMetadataBaking=_forceCaptionMetadataBaking;
-@property(nonatomic) _Bool forceDateTimeMetadataBaking; // @synthesize forceDateTimeMetadataBaking=_forceDateTimeMetadataBaking;
-@property(nonatomic) _Bool forceLocationMetadataBaking; // @synthesize forceLocationMetadataBaking=_forceLocationMetadataBaking;
-@property(nonatomic) _Bool includeAllAssetResources; // @synthesize includeAllAssetResources=_includeAllAssetResources;
 @property(nonatomic) long long locationComparisonStrategy; // @synthesize locationComparisonStrategy=_locationComparisonStrategy;
-@property(nonatomic) _Bool overwriteExistingFilesInOutputDirectory; // @synthesize overwriteExistingFilesInOutputDirectory=_overwriteExistingFilesInOutputDirectory;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultHandlerQueue; // @synthesize resultHandlerQueue=_resultHandlerQueue;
-@property(nonatomic) _Bool shouldBundleComplexAssetResources; // @synthesize shouldBundleComplexAssetResources=_shouldBundleComplexAssetResources;
-@property(nonatomic) _Bool shouldExportUnmodifiedOriginalResources; // @synthesize shouldExportUnmodifiedOriginalResources=_shouldExportUnmodifiedOriginalResources;
-@property(nonatomic) _Bool shouldStripAccessibilityDescription; // @synthesize shouldStripAccessibilityDescription=_shouldStripAccessibilityDescription;
-@property(nonatomic) _Bool shouldStripCaption; // @synthesize shouldStripCaption=_shouldStripCaption;
-@property(nonatomic) _Bool shouldStripLocation; // @synthesize shouldStripLocation=_shouldStripLocation;
-@property(nonatomic) _Bool treatLivePhotoAsStill; // @synthesize treatLivePhotoAsStill=_treatLivePhotoAsStill;
-@property(nonatomic) long long variant; // @synthesize variant=_variant;
-@property(copy, nonatomic) NSString *videoExportFileType; // @synthesize videoExportFileType=_videoExportFileType;
-@property(copy, nonatomic) NSString *videoExportPreset; // @synthesize videoExportPreset=_videoExportPreset;
 
 @end
 

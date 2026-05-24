@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PFWeakReference;
-
 __attribute__((visibility("hidden")))
 @interface _PFArray
 {
     int _cd_rc;
-    unsigned int _count;
-    id *_array;
-    _PFWeakReference *_weakContext;
-    struct _PFArrayFlags _flags;
 }
 
 + (void)ed because it conflicted with another active import operation.;
@@ -41,16 +35,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)!,@ùÇ2°1Â0@ù
 × ;
-- (unsigned long long)dImportNotificationName;
+- (unsigned long long)PFCloudKitDidImportNotificationName;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

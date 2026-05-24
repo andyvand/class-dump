@@ -10,27 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _MPCPlaybackEngineEventStreamInitializationParameters
 {
     NSString *_originID;
-    NSString *_playerID;
-    NSString *_engineID;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (void)c}@ upNextSection=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *engineID; // @synthesize engineID=_engineID;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *originID; // @synthesize originID=_originID;
-@property(readonly, copy, nonatomic) NSString *playerID; // @synthesize playerID=_playerID;
-@property(readonly) Class superclass;
 
 @end
 

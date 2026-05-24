@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSData, NSMutableString;
-
 __attribute__((visibility("hidden")))
 @interface CPArchive
 {
     struct __CFArray *selections;
-    struct __CFArray *imageNodes;
-    NSMutableString *plainText;
-    NSMutableString *htmlString;
-    NSMutableString *htmlStringNoImages;
-    NSData *webArchiveData;
-    NSAttributedString *structuredString;
-    NSData *RTFDData;
 }
 
 - (id);
@@ -25,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

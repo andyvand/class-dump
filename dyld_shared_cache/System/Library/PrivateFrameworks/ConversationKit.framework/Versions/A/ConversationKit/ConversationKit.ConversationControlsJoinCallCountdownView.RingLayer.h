@@ -7,17 +7,14 @@
 @interface ConversationKit.ConversationControlsJoinCallCountdownView.RingLayer
 {
     double percentage;
-    id lineWidth;
-    id fillColor;
-    id strokeColor;
 }
 
-+ (_Bool);
++ (_Bool)e;
 - (void);
 - (double);
 - (id);
-- (void);
-- (id);
+- (void).hash:(struct CGContext *)arg1 %{mask.hash}@];
+- (id)tem/Library/PrivateFrameworks/AccountsDaemon.framework/Versions/A/AccountsDaemon;
 - (id);
 - (id);
 - (void);

@@ -6,19 +6,17 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMNetworkDomainsDeclaration : CEMConfigurationBase
 {
     NSArray *_payloadEmailDomains;
-    NSArray *_payloadWebDomains;
-    NSArray *_payloadSafariPasswordAutoFillDomains;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)yTrace.framework/Versions/A/ViceroyTrace;
 + (id);
 + (id);
 + (id);
@@ -27,27 +25,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)b;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)@, voiceId:(id)arg1 %@;
 - (id);
-- (void);
+- (void)length <= (int)sizeof(ret->session_id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadEmailDomains; // @synthesize payloadEmailDomains=_payloadEmailDomains;
-@property(copy, nonatomic) NSArray *payloadSafariPasswordAutoFillDomains; // @synthesize payloadSafariPasswordAutoFillDomains=_payloadSafariPasswordAutoFillDomains;
-@property(copy, nonatomic) NSArray *payloadWebDomains; // @synthesize payloadWebDomains=_payloadWebDomains;
-@property(readonly) Class superclass;
 
 @end
 

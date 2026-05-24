@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol NURenderStatistics;
 
 @interface _PIParallaxClockLayoutResult
 {
     NSString *_clockLayerOrder;
-    unsigned long long _clockIntersection;
 }
 
 - (void);
@@ -21,16 +19,7 @@
 - (void)elegate>";
 
 // Remaining properties
-@property(nonatomic) unsigned long long clockIntersection; // @synthesize clockIntersection=_clockIntersection;
 @property(retain, nonatomic) NSString *clockLayerOrder; // @synthesize clockLayerOrder=_clockLayerOrder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

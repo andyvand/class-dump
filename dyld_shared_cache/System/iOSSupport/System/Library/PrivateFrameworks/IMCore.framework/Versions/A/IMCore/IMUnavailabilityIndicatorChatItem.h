@@ -6,19 +6,15 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSHashTable;
+@class NSHashTable;
 
 @interface IMUnavailabilityIndicatorChatItem : IMTranscriptChatItem
 {
     _Bool _displayNotifyAnywayButton;
-    IMHandle *_handle;
-    NSHashTable *_unavailabilityIndicatorChatItemDelegates;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool displayNotifyAnywayButton; // @synthesize displayNotifyAnywayButton=_displayNotifyAnywayButton;
-@property(readonly, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
 @property(retain, nonatomic) NSHashTable *unavailabilityIndicatorChatItemDelegates; // @synthesize unavailabilityIndicatorChatItemDelegates=_unavailabilityIndicatorChatItemDelegates;
 @end
 

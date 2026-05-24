@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface NSProgressIndicatorConfiguration
 {
     _Bool _usesThreadedAnimation;
-    _Bool _indeterminate;
-    _Bool _backgroundEmphasized;
-    double _progress;
-    unsigned long long _controlSize;
-    unsigned long long _style;
-    NSColor *_roundDeterminateColor;
 }
 
 - (_Bool);
@@ -22,14 +14,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)R2;
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)3;
 - (id);
-- (void);
-- (_Bool);
-- (id)ex:(struct _NSZone *)arg1;
+- (void)setPoints:(unsigned long long)arg1;
+- (_Bool)_NSTextAttributeStorage;
+- (id)_selectInTabView:(struct _NSZone *)arg1 itemAtIndex: /* Error: Ran out of types for this method. */;
 - (double)NSIndexPath class]];
 - (void)ge:(double)arg1 may not be called with NSMaxYEdge in a non-textured window;
 - (void)X;
@@ -37,13 +29,7 @@
 .!C;
 
 // Remaining properties
-@property(getter=isBackgroundEmphasized) _Bool backgroundEmphasized; // @synthesize backgroundEmphasized=_backgroundEmphasized;
-@property unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property(getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
 @property double progress; // @synthesize progress=_progress;
-@property(retain) NSColor *roundDeterminateColor; // @synthesize roundDeterminateColor=_roundDeterminateColor;
-@property unsigned long long style; // @synthesize style=_style;
-@property _Bool usesThreadedAnimation; // @synthesize usesThreadedAnimation=_usesThreadedAnimation;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CPLStatusDelegate
+- (void)`;
 @end
 

@@ -4,54 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBBundleIDMappingBundleID
 {
     NSString *_bundleId;
-    NSMutableArray *_channelTags;
-    NSMutableArray *_sectionTags;
-    NSMutableArray *_topicTags;
 }
 
-+ (Class);
-+ (Class);
-+ (Class);
++ (Class)appendTimeRange:fromTimeline: /* Error: Ran out of types for this method. */;
++ (Class)_numberOfSubtitleLines;
++ (Class)_notifyDelegateWeHaveMoreSuggestions: /* Error: Ran out of types for this method. */;
+- (unsigned long long)contentController:didChangeCurrentLens: /* Error: Ran out of types for this method. */;
+- (id)contentController;
+- (id)contentContainerView;
+- (void)colorWithDeviceWhite:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)accessibilityFrame;
+- (void)_startFilterPredicateChangedSignpostForCollection: /* Error: Ran out of types for this method. */;
+- (void)_stabilizationRecipe;
+- (void)_songsProducerFactory;
+- (unsigned long long)_socialLayerHighlightCenter;
+- (id)_socialGroups;
+- (id)_socialGroupUUID;
+- (void)_showsFallbackAssets;
+- (void)_showAlbumAttributionWidget;
+- (void)_shouldIncludeSpatialOvercaptureResources;
+- (void)_shouldIncludeSharedCollectionAssetsForAssetCollection:(id)arg1;
+- (void)_sharedPlayer;
+- (id));
+- (void)	;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)x&;
+- (id)V;
 - (id);
 - (void);
-- (void)pe;
+- (void)hasPaidSubscriptionConversionPointType;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSMutableArray *channelTags; // @synthesize channelTags=_channelTags;
-@property(retain, nonatomic) NSMutableArray *sectionTags; // @synthesize sectionTags=_sectionTags;
-@property(retain, nonatomic) NSMutableArray *topicTags; // @synthesize topicTags=_topicTags;
 
 @end
 

@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (long long)presentationArchiveKeyPaths;
+- (long long)AVAnnotationRepresentationArchiveKeyPaths;
 
 // Remaining properties
 @property(readonly) long long frameCount; // @synthesize frameCount=_frameCount;

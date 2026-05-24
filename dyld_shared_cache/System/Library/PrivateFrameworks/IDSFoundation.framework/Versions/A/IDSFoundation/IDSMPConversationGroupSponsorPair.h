@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMPConversationKey, NSString;
+@class IDSMPConversationKey;
 
 @interface IDSMPConversationGroupSponsorPair
 {
     IDSMPConversationKey *_conversationKey;
-    NSString *_sponsorAlias;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IDSMPConversationKey *conversationKey; // @synthesize conversationKey=_conversationKey;
-@property(readonly, nonatomic) NSString *sponsorAlias; // @synthesize sponsorAlias=_sponsorAlias;
 
 @end
 

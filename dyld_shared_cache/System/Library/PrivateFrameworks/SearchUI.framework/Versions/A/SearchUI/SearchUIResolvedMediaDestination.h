@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFCommand, SFMediaMetadata, SearchUIImage;
+@class NSString;
 
 @interface SearchUIResolvedMediaDestination
 {
     NSString *_appBundleIdentifier;
-    SFMediaMetadata *_mediaMetadata;
-    NSString *_title;
-    SearchUIImage *_image;
-    SFCommand *_command;
 }
 
 + (id);
-- (void);
-- (id);
-- (void);
+- (void)ir/hair_curly_medium_down_centerPart.aa;
+- (id)outfit_suit_left_lowerArm_detail_button;
+- (void)e v2 controller key for username %@ with error:(id)arg1 %@;
 - (void);
 - (id);
 - (unsigned long long);
@@ -27,16 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)delete local asset store after successfully migrating:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(retain, nonatomic) SFCommand *command; // @synthesize command=_command;
-@property(retain, nonatomic) SearchUIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) SFMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

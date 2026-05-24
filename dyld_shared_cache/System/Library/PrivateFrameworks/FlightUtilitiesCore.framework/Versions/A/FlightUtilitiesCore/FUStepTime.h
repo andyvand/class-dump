@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface FUStepTime
 {
     unsigned long long _type;
-    NSDate *_date;
 }
 
-+ (_Bool);
-- (double);
++ (_Bool)AdLtGGA2NGtGG;
+- (double)穔;
 - (id);
 - (id);
 - (id);
@@ -21,14 +18,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)MT%d;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSDate *date; // @synthesize date=_date;
-@property(readonly) double timeIntervalSinceNow;
 @property unsigned long long type; // @synthesize type=_type;
 
 @end

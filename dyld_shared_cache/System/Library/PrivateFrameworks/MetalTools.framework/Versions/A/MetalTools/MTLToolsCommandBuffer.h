@@ -6,9 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTLToolsDeadlineProfile, NSDictionary, NSError, NSMutableDictionary, NSMutableSet, NSString;
-@protocol MTLBuffer, MTLCommandQueue, MTLDeadlineProfile, MTLDevice, MTLLogContainer;
-
 @interface MTLToolsCommandBuffer : MTLToolsObject
 {
     struct {
@@ -17,16 +14,6 @@
         unsigned int addedScheduledHandler:1;
         unsigned int padding:29;
     } _flags;
-    struct os_unfair_lock_s _retainedObjectsLock;
-    _Bool _useRetainedObjectsLock;
-    struct os_unfair_lock_s _handlerLock;
-    struct vector<void (^)(id<MTLCommandBuffer>), std::allocator<void (^)(id<MTLCommandBuffer>)>> _scheduledHandlers;
-    struct vector<void (^)(id<MTLCommandBuffer>), std::allocator<void (^)(id<MTLCommandBuffer>)>> _completedHandlers;
-    _Bool _didInvokeHandlers;
-    CDUnknownBlockType _perfSampleHandlerBlock;
-    _Bool _StatEnabled;
-    MTLToolsDeadlineProfile *_deadlineProfile;
-    NSMutableSet *_retainedObjects;
 }
 
 + (id);
@@ -35,15 +22,15 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)9;
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)9);
 - (void);
 - (void);
 - (void);
@@ -67,20 +54,20 @@
 - (double);
 - (void);
 - (_Bool);
-- (void);
+- (void)tionIFvS6_S6_dRbEEE25MecabraEnglishLexiconTypeE3$_0FvPK9_LXCursorS8_EEE;
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (double);
 - (void);
 - (void *);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (void);
@@ -92,7 +79,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (id);
@@ -114,7 +101,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -125,7 +112,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)w ;
 - (_Bool);
 - (void);
 - (void);
@@ -144,64 +131,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double GPUEndTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double GPUStartTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) id <MTLCommandQueue> commandQueue;
-@property(readonly, retain) id <MTLDeadlineProfile> deadlineProfile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long errorOptions;
-@property(readonly) unsigned long long globalTraceObjectID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long hash;
-@property(readonly) double kernelEndTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double kernelStartTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(copy) NSString *label;
-@property(readonly, nonatomic, getter=getListIndex) unsigned long long listIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N,GgetListIndex
-
-@property(readonly) id <MTLLogContainer> logs;
-@property(retain, nonatomic) id <MTLBuffer> privateData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,&,N
-
-@property(nonatomic) unsigned long long privateDataOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) id <MTLBuffer> privateLoggingBuffer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,N
-
-@property(getter=isProfilingEnabled) _Bool profilingEnabled;
-@property(readonly) NSDictionary *profilingResults;
-@property(readonly, nonatomic) NSMutableSet *retainedObjects; // @synthesize retainedObjects=_retainedObjects;
-@property(readonly) _Bool retainedReferences;
-@property(nonatomic) _Bool sharedIndirectionTable;
-@property(readonly) unsigned long long status;
-@property(readonly) Class superclass;
 @property _Bool useRetainedObjectsLock; // @synthesize useRetainedObjectsLock=_useRetainedObjectsLock;
-@property(readonly, nonatomic) NSMutableDictionary *userDictionary;
 
 @end
 

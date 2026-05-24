@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (struct CGSize);
+- (struct CGSize)*;
 - (id);
 
 // Remaining properties

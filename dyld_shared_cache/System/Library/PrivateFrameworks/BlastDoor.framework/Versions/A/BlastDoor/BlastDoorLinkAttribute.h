@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface BlastDoorLinkAttribute
 {
@@ -14,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)siriSessionAudioRecordingDidChangePowerLevel: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSURL *link;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

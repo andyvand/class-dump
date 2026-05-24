@@ -5,5 +5,9 @@
 //
 
 @protocol TSKEncryptedDocumentExporter
+
+@optional
+- (void)tep"8;
+- (void)match;
 @end
 

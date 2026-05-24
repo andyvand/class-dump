@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHIdentityBridgeRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -27,13 +24,11 @@
 - (id)_cancelledSiriAppTaskCount;
 - (id)RCHShimToolFailed",&,N,V_failed;
 - (_Bool)adamIdString;
-- (_Bool)TSchemaSTSpotlightFailureReason;
+- (_Bool)STSchemaSTSpotlightFailureReason;
 - (void)B%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

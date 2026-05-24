@@ -6,23 +6,19 @@
 
 #import <UserNotificationsKit/NCNotificationAlertOptions.h>
 
-@class NSUUID;
-
 @interface NCMutableNotificationAlertOptions : NCNotificationAlertOptions
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)KitSyncSession.m;
+- (void)WFActionDefaultFavoritesAddedKey;
+- (void)age. (WFEnterSafariReader);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *activeModeUUID; // @dynamic activeModeUUID;
 @property(nonatomic) unsigned long long intelligentBehavior; // @dynamic intelligentBehavior;
-@property(nonatomic) unsigned long long reason; // @dynamic reason;
 @property(nonatomic) unsigned long long suppression; // @dynamic suppression;
 
 @end

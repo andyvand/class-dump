@@ -13,9 +13,9 @@
     NSMutableArray *filteredKeysArray;
 }
 
+- (void)Q;
 - (void);
-- (void);
-- (int);
+- (int);
 - (id);
 - (id);
 - (void);

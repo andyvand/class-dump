@@ -4,59 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSObject, NSSet, NSString, NSUUID, UARPAccessory, UARPAssetVersion, UARPPacketDumper, UARPUploaderUARP;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSObject, UARPUploaderUARP;
+@protocol OS_os_log;
 
 @interface UARPUploaderEndpoint
 {
     NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_personalizationQueue;
-    NSObject<OS_dispatch_source> *_layer2WatchdogTimer;
-    struct uarpPlatformRemoteEndpoint _uarpEndpoint;
-    struct uarpPlatformOptionsObj _uarpOptions;
-    NSMutableArray *_txFirmwareAssets;
-    NSMutableArray *_txDynamicAssets;
-    NSMutableArray *_rxDynamicAssets;
-    NSUUID *_uuid;
-    _Bool _isDownstreamEndpoint;
-    void *_layer2Context;
-    unsigned short _downstreamID;
-    NSMutableArray *_downstreamEndpoints;
-    UARPUploaderEndpoint *_directEndpoint;
-    UARPPacketDumper *_packetDumper;
-    NSMutableSet *_infoPropertiesToQuery;
-    NSMutableSet *_applePropertiesToQuery;
-    UARPUploaderUARP *_uploader;
-    UARPAccessory *_accessory;
-    unsigned long long _uarpVersion;
-    NSString *_manufacturerName;
-    NSString *_modelName;
-    NSString *_serialNumber;
-    NSString *_friendlyName;
-    NSString *_appleModelNumber;
-    NSString *_hwFusingType;
-    NSString *_hardwareVersion;
-    UARPAssetVersion *_firmwareVersion;
-    UARPAssetVersion *_stagedFirmwareVersion;
 }
 
-- (id);
+- (id)/GameCenterFoundation;
 - (unsigned long long);
 - (struct uarpPlatformOptionsObj *);
 - (struct uarpPlatformRemoteEndpoint *);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)};
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)0;
 - (void);
 - (id);
 - (_Bool);
@@ -67,32 +38,32 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)};
 - (unsigned short);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (void);
+- (void)};
+- (void)$;
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void)lgD;
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)kMRMediaRemoteOriginNowPlayingApplicationDidChangeNotification;
 - (id);
 - (void);
 - (id);
@@ -112,26 +83,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) UARPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(copy) NSString *appleModelNumber; // @synthesize appleModelNumber=_appleModelNumber;
-@property(readonly) NSSet *applePropertiesToQuery;
-@property(readonly) UARPUploaderEndpoint *directEndpoint;
-@property(readonly) unsigned short downstreamID; // @synthesize downstreamID=_downstreamID;
-@property(copy) UARPAssetVersion *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(copy) NSString *friendlyName; // @synthesize friendlyName=_friendlyName;
-@property(copy) NSString *hardwareVersion; // @synthesize hardwareVersion=_hardwareVersion;
-@property(copy) NSString *hwFusingType; // @synthesize hwFusingType=_hwFusingType;
-@property(readonly) NSSet *infoPropertiesToQuery;
-@property(copy) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy) NSString *modelName; // @synthesize modelName=_modelName;
-@property(readonly) NSArray *rxDynamicAssets;
-@property(copy) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy) UARPAssetVersion *stagedFirmwareVersion; // @synthesize stagedFirmwareVersion=_stagedFirmwareVersion;
-@property(readonly) NSArray *txDynamicAssets;
-@property(readonly) NSArray *txFirmwareAssets;
-@property(readonly) struct uarpPlatformRemoteEndpoint *uarpEndpoint;
-@property(readonly) struct uarpPlatformOptionsObj *uarpOptions;
-@property unsigned long long uarpVersion; // @synthesize uarpVersion=_uarpVersion;
 @property(readonly) __weak UARPUploaderUARP *uploader; // @synthesize uploader=_uploader;
 
 @end

@@ -4,49 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class MIPMultiverseIdentifier, NSArray, NSString;
 
 @protocol MPMediaLibraryDataProviderPrivate
 
 @optional
-- (NSString *)ckerCollectionViewController;
++ (void);
++ (NSArray *)withClause;
+- (void);
+- (void)l;
+- (void);
+- (_Bool);
+- (void)Hz;
+- (long long)C;
+- (void);
+- (_Bool)v;
+- (_Bool)\;
+- (long long)ĭ;
+- (_Bool)p;
+- (_Bool)-T;
+- (_Bool);
+- (_Bool)$T;
+- (_Bool)p#T;
+- (MIPMultiverseIdentifier *)unsupportedNullTest;
+- (_Bool)optimize;
+- (void)ieee754;
+- (_Bool)objectForeignServer;
+- (void *)atAddInherit;
+- (NSString *)MPLocalPickerCollectionViewController;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accountDSID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSString *databasePath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long favoriteSongsPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool isGeniusEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *localizedSectionIndexTitles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) long long photosMemoriesPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long playbackHistoryPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSArray *preferredAudioLanguages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *preferredSubtitleLanguages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
 
 @end
 

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSError, NSPredicate, NSString;
-
 @interface EKPredicateSearch
 {
     CDUnknownBlockType _callback;
-    Class _entityClass;
-    NSPredicate *_predicate;
-    EKEventStore *_store;
-    unsigned int _cancellationToken;
-    _Bool _finished;
-    _Bool _isCancelled;
-    int _retryCount;
-    _Bool _batchingEnabled;
-    _Bool _returnedFirstBatch;
-    _Bool _returnedLastBatch;
-    int _batchSize;
-    NSError *_batchError;
 }
 
 + (id);
@@ -35,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)g kStopAccessingLUT for display ID:(CDUnknownBlockType)arg1 0x%08x;
 - (void);
 - (id);
 - (void);
@@ -45,13 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

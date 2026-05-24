@@ -5,5 +5,6 @@
 //
 
 @protocol SGEventLocationForGeocode
+- (_Bool);
 @end
 

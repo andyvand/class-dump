@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)tem;
 + (void);
-- (_Bool);
+- (_Bool)le;
 - (unsigned long long);
 - (id);
 

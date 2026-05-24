@@ -9,7 +9,6 @@
 @interface AFVoiceCommandGrammarParsePackage
 {
     NSArray *_nBestParses;
-    NSArray *_preITNNBestParses;
 }
 
 + (_Bool);
@@ -22,11 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (void)didFinishSendingEvents: /* Error: Ran out of types for this method. */;
+- (void)_didFinishSendingEvents: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *nBestParses; // @synthesize nBestParses=_nBestParses;
-@property(readonly, copy, nonatomic) NSArray *preITNNBestParses; // @synthesize preITNNBestParses=_preITNNBestParses;
 
 @end
 

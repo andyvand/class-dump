@@ -8,21 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _NSLineBreakerQueue
 {
     const void **_buf;
-    unsigned long long _capacity;
-    unsigned long long _start;
-    unsigned long long _end;
-    unsigned long long _count;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (id);
+- (id)�!;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)externallyVisibleConnectionUUIDs;
+- (void);
 - (unsigned long long);
 - (const void *)t-item>;
 

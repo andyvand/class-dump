@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CNContactPosterDataItem
 {
     _Bool _ignoredForRevert;
-    _Bool _avoidCircularEncoding;
-    NSString *_contactIdentifier;
-    unsigned long long _itemDetails;
-    NSDate *_lastUsedDate;
-    CNContactPosterDataItem *_refLoopResistantStrongPairedItem;
 }
 
 + (id);
@@ -23,23 +18,18 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)__AUTH_CONST;
+- (void)useCredential:(id)arg1 forAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (void)providerDomainWithID:(id)arg1 allowCached:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ifierExpansion>";
-- (void)col:(id)arg1;
+- (void)interfaceWithProtocol:(id)arg1;
 
 // Remaining properties
-@property _Bool avoidCircularEncoding; // @synthesize avoidCircularEncoding=_avoidCircularEncoding;
 @property(copy) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(nonatomic) _Bool ignoredForRevert; // @synthesize ignoredForRevert=_ignoredForRevert;
-@property unsigned long long itemDetails; // @synthesize itemDetails=_itemDetails;
-@property(retain, nonatomic) NSDate *lastUsedDate; // @synthesize lastUsedDate=_lastUsedDate;
-@property(retain, nonatomic) CNContactPosterDataItem *refLoopResistantStrongPairedItem; // @synthesize refLoopResistantStrongPairedItem=_refLoopResistantStrongPairedItem;
 
 @end
 

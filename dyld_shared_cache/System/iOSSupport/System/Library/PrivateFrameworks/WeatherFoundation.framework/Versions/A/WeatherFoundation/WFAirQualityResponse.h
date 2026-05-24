@@ -6,13 +6,9 @@
 
 #import <WeatherFoundation/WFResponse.h>
 
-@class NSData, WFAirQualityConditions;
-
 @interface WFAirQualityResponse : WFResponse
 {
     _Bool _responseWasFromCache;
-    WFAirQualityConditions *_airQualityConditions;
-    NSData *_rawAPIData;
 }
 
 + (_Bool);
@@ -27,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WFAirQualityConditions *airQualityConditions; // @synthesize airQualityConditions=_airQualityConditions;
-@property(retain, nonatomic) NSData *rawAPIData; // @synthesize rawAPIData=_rawAPIData;
 @property(nonatomic) _Bool responseWasFromCache; // @synthesize responseWasFromCache=_responseWasFromCache;
 
 @end

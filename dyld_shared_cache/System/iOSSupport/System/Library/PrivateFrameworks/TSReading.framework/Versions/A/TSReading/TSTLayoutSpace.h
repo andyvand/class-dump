@@ -4,66 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSTCoordinateArray, TSTLayout, TSTLayoutSpaceBundle, TSTMasterLayout;
+@class TSTLayoutSpaceBundle;
 
 @interface TSTLayoutSpace
 {
     TSTLayoutSpaceBundle *mBundle;
-    int mLayoutSpaceType;
-    struct {
-        _Bool coordinates;
-        _Bool tableOffset;
-    } mInvalidFlags;
-    CDStruct_58eae27c mGridRange;
-    _Bool mHeaderColumnsRepeat;
-    _Bool mHeaderRowsRepeat;
-    double mViewScale;
-    struct CGAffineTransform mTransformToCanvas;
-    struct CGAffineTransform mTransformFromCanvas;
-    struct CGAffineTransform mTransformToDevice;
-    struct CGAffineTransform mTransformFromDevice;
-    _Bool mDrawBlackAndWhite;
-    _Bool mDrawPreventAntialias;
-    struct CGPoint mTableOffset;
-    TSTCoordinateArray *mHeaderRowColumnCoordinates;
-    TSTCoordinateArray *mBodyColumnCoordinates;
-    TSTCoordinateArray *mHeaderColumnRowCoordinates;
-    TSTCoordinateArray *mBodyRowCoordinates;
-    struct CGRect mCachedFrame;
-    struct CGRect mCachedAlignedFrame;
-    struct CGRect mCachedStrokeFrame;
-    struct CGRect mCachedAlignedStrokeFrame;
-    _Bool mLayoutDirectionIsLeftToRight;
-    struct _opaque_pthread_rwlock_t mLock;
 }
 
-- (int);
-- (int);
-- (void);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
-- (struct CGAffineTransform);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (int)spatial;
+- (int)hange repeatIteration for EndOfQueuePlaceholder;
+- (void)m;
+- (struct CGAffineTransform)items between auto play and the queue is not supported.;
+- (struct CGAffineTransform).;
+- (struct CGAffineTransform)nnot insert at end of autoPlayIdentifierList [no existing UpNextSection];
+- (struct CGAffineTransform)AnchorID.;
+- (struct CGPoint)playback-setting-source;
+- (void)MPP_isFirstPlay;
+- (void)MPP_hasOnlinePlaybackKeys;
+- (void)MPP_assetType;
+- (void)MPP_assetLoadWaitTime;
+- (void)ntrolDestination"8;
+- (void)l identifier requested, processing locally.;
+- (void)om.apple.Sonic.playbackSession.opack;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)status;
+- (void)PlayerBoundaryTimeObserver;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)]f;
 - (void);
 - (_Bool);
 - (int);
@@ -73,37 +47,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ultsWithBlock:] /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
-- (id)sInBackground;
+- (id)isInBackground;
 - (void)rollableAreaBounds;
 
 // Remaining properties
 @property(readonly, nonatomic) TSTLayoutSpaceBundle *bundle; // @synthesize bundle=mBundle;
-@property(nonatomic) _Bool drawBlackAndWhite; // @synthesize drawBlackAndWhite=mDrawBlackAndWhite;
-@property(nonatomic) _Bool drawPreventAntialias; // @synthesize drawPreventAntialias=mDrawPreventAntialias;
-@property(nonatomic) _Bool headerColumnsRepeat; // @synthesize headerColumnsRepeat=mHeaderColumnsRepeat;
-@property(nonatomic) _Bool headerRowsRepeat; // @synthesize headerRowsRepeat=mHeaderRowsRepeat;
-@property(readonly, nonatomic) _Bool isColumns;
-@property(readonly, nonatomic) _Bool isCorner;
-@property(readonly, nonatomic) _Bool isFrozen;
-@property(readonly, nonatomic) _Bool isMain;
-@property(readonly, nonatomic) _Bool isRepeat;
-@property(readonly, nonatomic) _Bool isRows;
-@property(readonly, nonatomic) TSTLayout *layout;
-@property(readonly, nonatomic) _Bool layoutDirectionIsLeftToRight; // @synthesize layoutDirectionIsLeftToRight=mLayoutDirectionIsLeftToRight;
-@property(readonly, nonatomic) int layoutSpaceType; // @synthesize layoutSpaceType=mLayoutSpaceType;
-@property(readonly, nonatomic) TSTMasterLayout *masterLayout;
-@property(nonatomic) struct CGPoint tableOffset; // @synthesize tableOffset=mTableOffset;
-@property(nonatomic) struct CGAffineTransform transformFromCanvas; // @synthesize transformFromCanvas=mTransformFromCanvas;
-@property(nonatomic) struct CGAffineTransform transformFromDevice; // @synthesize transformFromDevice=mTransformFromDevice;
-@property(nonatomic) struct CGAffineTransform transformToCanvas; // @synthesize transformToCanvas=mTransformToCanvas;
-@property(nonatomic) struct CGAffineTransform transformToDevice; // @synthesize transformToDevice=mTransformToDevice;
-@property(nonatomic) double viewScale; // @synthesize viewScale=mViewScale;
 
 @end
 

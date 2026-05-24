@@ -6,23 +6,18 @@
 
 #import <PhotosGraph/PGMyPetMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements;
-
 @interface PGMyPetAndPersonMemoryGenerator : PGMyPetMemoryGenerator
 {
     _Bool _intersectRelevantAssetsForFeatures;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredSeasonConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (_Bool)0:8@16@24 /* Error: Ran out of types for this method. */;
+- (id)dictionaryWithObjectsAndKeys:(id)arg1;
+- (id)cationController",&,N,S_setKeyboardFocusedApplicationController:,V__keyboardFocusedApplicationController /* Error: Ran out of types for this method. */;
+- (id)ationController",&,N,S_setFocusedApplicationController:,V__focusedApplicationController /* Error: Ran out of types for this method. */;
+- (void)AXKAttributedStringParser;
 - (void)t generate relationship report;
 
 @end

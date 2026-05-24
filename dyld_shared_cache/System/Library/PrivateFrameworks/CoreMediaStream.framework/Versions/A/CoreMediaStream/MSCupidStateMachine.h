@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSBackoffManager, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface MSCupidStateMachine
 {
     NSString *_personID;
-    NSString *_manifestPath;
-    NSMutableDictionary *_userManifest;
-    MSBackoffManager *_streamsBackoffManager;
-    MSBackoffManager *_MMCSBackoffManager;
-    _Bool _hasDeactivated;
 }
 
+- (void)th version %@ lower than current version %ld:(id)arg1 %{public}@;
+- (void)ol}d;
+- (void)k that the image transfer has completed with error %@;
+- (_Bool)ocalDelegate callback that the image has been saved %@;
+- (void){public}@;
+- (id)e device;
+- (void)_t}.16P] Accessory is reachable and this is remote gateway capable device;
+- (void)d_t}.16P] Taking snapshot through available camera stream;
+- (void)quest queue;
+- (id)date is not present in request:%@ /* Error: Ran out of types for this method. */;
+- (void)yet migrated is expired - purging.;
+- (void)f not yet migrated homes.;
+- (void)g for home metadata for merge id %@ in owner %@:%@ /* Error: Ran out of types for this method. */;
+- (void)accept.;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)accept.;
+- (void)ror:failed to serialize Controller Payload; should not happen! /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)';
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_userManifest; // @synthesize _userManifest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasDeactivated; // @synthesize hasDeactivated=_hasDeactivated;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(readonly) Class superclass;
 
 @end
 

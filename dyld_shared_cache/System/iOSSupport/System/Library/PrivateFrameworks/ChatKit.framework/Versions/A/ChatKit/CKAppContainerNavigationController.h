@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class UIViewController;
 @protocol CKBrowserViewControllerProtocol;
 
 __attribute__((visibility("hidden")))
@@ -16,9 +16,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)a;
 - (void);
+- (void)e;
+- (void)mSource:(id)arg1 Failed to convert buffer:(id)arg2 %@;
 - (void);
+- (id);
 - (void);
+- (void)LinkSuggestionsContainer;
+- (void)a
+;
 - (void);
 - (void);
 - (id);
@@ -26,25 +33,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController<CKBrowserViewControllerProtocol> *browserVC; // @synthesize browserVC=_browserVC;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

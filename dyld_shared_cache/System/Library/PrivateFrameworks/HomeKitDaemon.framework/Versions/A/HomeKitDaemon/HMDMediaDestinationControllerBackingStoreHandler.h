@@ -6,16 +6,13 @@
 
 #import <HomeKitDaemon/HMDBackingStoreHandler.h>
 
-@class HMDMediaDestinationControllerMetricsEventDispatcher, HMMediaDestinationControllerData, HMMutableMediaDestinationControllerData, NSString;
+@class HMMutableMediaDestinationControllerData;
 @protocol HMDMediaDestinationControllerBackingStoreHandlerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationControllerBackingStoreHandler : HMDBackingStoreHandler
 {
     HMMutableMediaDestinationControllerData *_data;
-    struct os_unfair_lock_s _lock;
-    id <HMDMediaDestinationControllerBackingStoreHandlerDelegate> _delegate;
-    HMDMediaDestinationControllerMetricsEventDispatcher *_metricsEventDispatcher;
 }
 
 + (id);
@@ -26,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_msp_testTripWithMultipleStops;
+- (void)_msp_testTripClosedTripInPast;
+- (id)setTrafficColors:offsets:count: /* Error: Ran out of types for this method. */;
+- (void)@"NSData",&,N,V_image;
 - (id);
 - (void);
 - (id);
@@ -42,19 +39,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)};
 - (void)storage yet, no need to cleanup memory objects;
-- (void)sDedicated;
+- (void)HomeKitResidentStatusDedicated;
 
 // Remaining properties
-@property(readonly, copy) HMMediaDestinationControllerData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDMediaDestinationControllerBackingStoreHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMDMediaDestinationControllerMetricsEventDispatcher *metricsEventDispatcher; // @synthesize metricsEventDispatcher=_metricsEventDispatcher;
-@property(readonly) Class superclass;
 
 @end
 

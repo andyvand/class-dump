@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol ABMetadataManager;
 
 @interface ABMetadataOperation
 {
     id <ABMetadataManager> _metadataManager;
-    NSString *_addressBookPath;
-    _Bool _addressBookTracksAllSources;
 }
 
 - (void);
@@ -25,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)ԋk;
 - (unsigned long long);
 - (void);
 

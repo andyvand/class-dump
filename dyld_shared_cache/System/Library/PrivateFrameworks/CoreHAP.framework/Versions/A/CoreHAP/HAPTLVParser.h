@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)w.m;
 - (void)ndpoint_t}^{coap_context_t}^vSCi^{coap_queue_t}Q[8C]Q^{coap_pdu_t}QQQQQ*Q*Q^vI{coap_fixed_point_t=SS}{coap_fixed_point_t=SS}Ii};
 
 @end

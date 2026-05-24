@@ -12,7 +12,7 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)C;
 
 @end
 

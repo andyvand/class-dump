@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, PXBasicTileAnimator, PXScrollViewController, PXTilingController, PXWidgetBarLayout, PXWidgetBarSpec;
-@protocol PXAnonymousView, PXWidgetBarDelegate;
+@class PXBasicTileAnimator;
 
 @interface PXWidgetBar
 {
     _Bool _isPerformingChanges;
-    _Bool _isPerformingUpdates;
-    struct {
-        _Bool view;
-        _Bool viewHeight;
-        _Bool layout;
-    } _needsUpdateFlags;
-    struct {
-        _Bool didSelectSubtitle;
-        _Bool didSelectDisclosureAffordance;
-    } _delegateRespondsTo;
-    _Bool _allowUserInteractionWithSubtitle;
-    PXScrollViewController *_scrollViewController;
-    id <PXWidgetBarDelegate> _delegate;
-    PXTilingController *_tilingController;
-    PXWidgetBarSpec *_spec;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_disclosureTitle;
-    PXBasicTileAnimator *__tileAnimator;
-    NSMutableSet *__tilesInUse;
-    double __viewHeight;
-    PXWidgetBarLayout *__layout;
-    NSObject<PXAnonymousView> *_view;
 }
 
 - (id);
@@ -48,7 +24,7 @@
 - (id);
 - (void *);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (void);
@@ -62,15 +38,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setAlwaysRunsAtBackgroundPriority: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)startTracking;
+- (void)} 
+		;
 - (void);
 - (void);
 - (void)!¸@ù9°1Â0@ù
@@ -82,27 +59,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXWidgetBarLayout *_layout; // @synthesize _layout=__layout;
 @property(readonly, nonatomic) PXBasicTileAnimator *_tileAnimator; // @synthesize _tileAnimator=__tileAnimator;
-@property(readonly, nonatomic) NSMutableSet *_tilesInUse; // @synthesize _tilesInUse=__tilesInUse;
-@property(nonatomic, setter=_setViewHeight:) double _viewHeight; // @synthesize _viewHeight=__viewHeight;
-@property(nonatomic) _Bool allowUserInteractionWithSubtitle; // @synthesize allowUserInteractionWithSubtitle=_allowUserInteractionWithSubtitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXWidgetBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *disclosureTitle; // @synthesize disclosureTitle=_disclosureTitle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak PXScrollViewController *scrollViewController; // @synthesize scrollViewController=_scrollViewController;
-@property(retain, nonatomic) PXWidgetBarSpec *spec; // @synthesize spec=_spec;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXTilingController *tilingController; // @synthesize tilingController=_tilingController;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSObject<PXAnonymousView> *view; // @synthesize view=_view;
-@property(readonly, nonatomic) double viewHeight;
 
 @end
 

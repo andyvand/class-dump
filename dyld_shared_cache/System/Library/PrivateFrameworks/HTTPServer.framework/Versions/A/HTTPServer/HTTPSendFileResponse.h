@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HTTPConnection, NSFileHandle, NSString;
+@class HTTPConnection;
 
 @interface HTTPSendFileResponse
 {
     HTTPConnection *connection;
-    NSString *filePath;
-    unsigned long long fileLength;
-    unsigned long long fileOffset;
-    _Bool aborted;
-    NSFileHandle *fileHandle;
 }
 
 + (void);
@@ -22,12 +17,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)initForWriting:settings:commonFormat:interleaved:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)sDirect:%s
+ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 @end

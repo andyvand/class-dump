@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBitmapImageRep, NSData, NSDate, NSMutableDictionary, NSMutableSet, SODataRetainingImage;
-
 @interface BuddyPicture
 {
     struct CGSize _size;
-    int _currentframe;
-    int _frames;
-    unsigned int _lookedForAnimatedRep:1;
-    _Bool _animating;
-    _Bool _pictureIsIcon;
-    NSData *_data;
-    SODataRetainingImage *_image;
-    NSMutableDictionary *_frameDelays;
-    NSBitmapImageRep *_animatedRep;
-    NSMutableSet *_cacheKeys;
-    NSDate *_lastDrawn;
-    double _lastFrameChange;
 }
 
 + (id);
@@ -31,11 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -57,23 +43,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)n;
 - (id);
-- (id);
-- (void);
+- (id)_updateAnimationDidStop:finished:context: /* Error: Ran out of types for this method. */;
+- (void)clearCachedPreviewsForCurrentSticker;
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)ystemInfoStep postProcess];
 - (id);
 - (void);
+- (void)setPreferredOffer:(_Bool)arg1;
 - (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (_Bool);
 - (void);
+- (id)P;
+- (id);
+- (id);
+- (struct CGSize)Reason"b1"feedCellHostType"b1"userAction"b1"pickFavsButtonExposed"b1};
+- (_Bool)setIosSettingsNotificationsEnabled: /* Error: Ran out of types for this method. */;
+- (void)recommendationPresentationExploreImpressionValueBaseline;
 - (void);
 - (int);
 - (id);
@@ -89,15 +75,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSBitmapImageRep *animatedRep; // @synthesize animatedRep=_animatedRep;
 @property _Bool animating; // @synthesize animating=_animating;
-@property(retain, nonatomic) NSMutableSet *cacheKeys; // @synthesize cacheKeys=_cacheKeys;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSMutableDictionary *frameDelays; // @synthesize frameDelays=_frameDelays;
-@property(retain, nonatomic) SODataRetainingImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSDate *lastDrawn; // @synthesize lastDrawn=_lastDrawn;
-@property(nonatomic) double lastFrameChange; // @synthesize lastFrameChange=_lastFrameChange;
-@property(nonatomic) _Bool pictureIsIcon; // @synthesize pictureIsIcon=_pictureIsIcon;
 
 @end
 

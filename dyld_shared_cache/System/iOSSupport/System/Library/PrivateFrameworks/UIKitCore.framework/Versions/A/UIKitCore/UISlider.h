@@ -6,35 +6,17 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, UISliderDataModel, UIView;
-@protocol _UISliderConfiguration, _UISliderVisualElement;
+@class UIView;
+@protocol _UISliderVisualElement;
 
 @interface UISlider : UIControl
 {
     UIView<_UISliderVisualElement> *_visualElement;
-    UISliderDataModel *_data;
-    NSArray *_dummyViews;
-    NSArray *_adjustValueKeyCommands;
-    _Bool _supportsMacIdiom;
-    id <_UISliderConfiguration> _sliderConfiguration;
-    long long _sliderStyle;
-    unsigned long long _preferredBehavioralStyle;
-    struct {
-        unsigned int visualElementIsFluid:1;
-        unsigned int visualElementRespondsToDidUpdateConfiguration:1;
-        unsigned int visualElementRespondsToDidUpdateSliderStyle:1;
-        unsigned int visualElementRespondsToDidSetUserInteractionEnabled:1;
-        unsigned int visualElementRespondsToOverrideTrackingState:1;
-        unsigned int visualElementRespondsToDidSetSpeedMultiplier:1;
-        unsigned int visualElementRespondsToAdditionalTrackingViews:1;
-        unsigned int visualElementDefersFinalActions:1;
-        unsigned int visualElementNeedsReevaluationForTrackImages:1;
-    } _visualElementFlags;
 }
 
 + (_Bool);
-+ (void)osting;
-+ (_Bool)text: /* Error: Ran out of types for this method. */;
++ (void)_supportsNSToolbarNavigationHosting;
++ (_Bool)_boundingRectWithString:size:options:context: /* Error: Ran out of types for this method. */;
 
 @end
 

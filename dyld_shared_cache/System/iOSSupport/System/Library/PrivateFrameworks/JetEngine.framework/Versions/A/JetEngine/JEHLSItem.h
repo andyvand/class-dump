@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface JEHLSItem
 {
     unsigned long long _startOverallPosition;
-    unsigned long long _startPosition;
-    NSArray *_eventData;
 }
 
 + (CDUnknownBlockType)¬¡ßÿ¸3ÿÿ;
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
@@ -26,16 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)BuiltDependency;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *eventData; // @synthesize eventData=_eventData;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long startOverallPosition; // @synthesize startOverallPosition=_startOverallPosition;
-@property(nonatomic) unsigned long long startPosition; // @synthesize startPosition=_startPosition;
-@property(readonly) Class superclass;
 
 @end
 

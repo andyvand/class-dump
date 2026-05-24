@@ -6,18 +6,12 @@
 
 #import <UIKitCore/UIKeyboardKeyplaneTransition.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardKeySwipeTransition : UIKeyboardKeyplaneTransition
 {
     _Bool _disableMeshOptimization;
-    NSArray *_startKeysOrdered;
-    NSArray *_endKeysOrdered;
-    NSArray *_startGeometries;
-    NSArray *_transitionKeys;
-    NSArray *_keyInfos;
-    double _previousProgress;
 }
 
 - (id);
@@ -25,44 +19,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tUniqueID:(id)arg1 %s and chatIdentifier:%s /* Error: Ran out of types for this method. */;
+- (void)public}s;
+- (void)%@;
+- (void)ing the last addressed SIM ID;
 - (double);
-- (double);
-- (id);
+- (double)n %f seconds (%@) ;
+- (id)t %@;
 - (struct CGRect);
-- (id);
+- (id)ssDatabaseUpdates called with suppressUpdates %d ;
+- (void)ding notice (command:%@) %@ to %@, message:%@ /* Error: Ran out of types for this method. */;
+- (id)guid %@ groupID %@ participants %@;
+- (_Bool)ights to chats;
+- (void)ncomingMessageAlertSpamFiltration.changed;
+- (void);
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)ppingDescendant;
+- (void)firstCornerClippingDescendant;
 - (void)Úüf;
 - (void)È,l;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableMeshOptimization; // @synthesize disableMeshOptimization=_disableMeshOptimization;
-@property(retain, nonatomic) NSArray *endKeysOrdered; // @synthesize endKeysOrdered=_endKeysOrdered;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *keyInfos; // @synthesize keyInfos=_keyInfos;
-@property(nonatomic) double previousProgress; // @synthesize previousProgress=_previousProgress;
-@property(retain, nonatomic) NSArray *startGeometries; // @synthesize startGeometries=_startGeometries;
 @property(retain, nonatomic) NSArray *startKeysOrdered; // @synthesize startKeysOrdered=_startKeysOrdered;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *transitionKeys; // @synthesize transitionKeys=_transitionKeys;
 
 @end
 

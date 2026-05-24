@@ -9,9 +9,6 @@
 @interface TSSharingActivityProvider
 {
     void activityItemSources;
-    void activities;
-    void excludedActivityTypes;
-    void linkPresentationSource;
 }
 
 - (void);
@@ -19,20 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tagWeightMapping;
 - (void)j=þÿ;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *activities;
 @property(nonatomic, copy) NSArray *activityItemSources;
-@property(nonatomic, readonly) NSArray *activityItems;
-@property(nonatomic, copy) NSArray *excludedActivityTypes;
-@property(nonatomic, copy) id linkPresentationSource;
 
 @end
 

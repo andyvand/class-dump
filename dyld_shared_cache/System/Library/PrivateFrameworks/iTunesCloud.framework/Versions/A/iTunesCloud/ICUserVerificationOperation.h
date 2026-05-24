@@ -11,7 +11,6 @@
 @interface ICUserVerificationOperation : ICAsyncOperation
 {
     ICUserVerificationRequest *_verificationRequest;
-    CDUnknownBlockType _responseHandler;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void)ng",R,C,N,V_mediaIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 @property(readonly, copy, nonatomic) ICUserVerificationRequest *verificationRequest; // @synthesize verificationRequest=_verificationRequest;
 
 @end

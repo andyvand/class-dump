@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKAutomaticReloadPaymentRequest, PKDeferredPaymentRequest, PKRecurringPaymentRequest, PKShippingMethods;
+@class NSArray;
 
 @interface PKPaymentClientUpdate
 {
     NSArray *_paymentSummaryItems;
-    PKShippingMethods *_shippingMethods;
-    NSArray *_multiTokenContexts;
-    PKRecurringPaymentRequest *_recurringPaymentRequest;
-    PKAutomaticReloadPaymentRequest *_automaticReloadPaymentRequest;
-    PKDeferredPaymentRequest *_deferredPaymentRequest;
-    long long _status;
-    NSString *_selectedAID;
-    unsigned long long _selectedPaymentMethodType;
 }
 
 + (id);
 + (_Bool);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@Y;
 - (id);
 - (void);
 - (id);
-- (long long);
-- (void)ode;
+- (long long);
+- (void)securityCode;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAutomaticReloadPaymentRequest *automaticReloadPaymentRequest; // @synthesize automaticReloadPaymentRequest=_automaticReloadPaymentRequest;
-@property(readonly, nonatomic) PKDeferredPaymentRequest *deferredPaymentRequest; // @synthesize deferredPaymentRequest=_deferredPaymentRequest;
-@property(readonly, copy, nonatomic) NSArray *multiTokenContexts; // @synthesize multiTokenContexts=_multiTokenContexts;
 @property(readonly, copy, nonatomic) NSArray *paymentSummaryItems; // @synthesize paymentSummaryItems=_paymentSummaryItems;
-@property(readonly, nonatomic) PKRecurringPaymentRequest *recurringPaymentRequest; // @synthesize recurringPaymentRequest=_recurringPaymentRequest;
-@property(readonly, copy, nonatomic) NSString *selectedAID; // @synthesize selectedAID=_selectedAID;
-@property(readonly, nonatomic) unsigned long long selectedPaymentMethodType; // @synthesize selectedPaymentMethodType=_selectedPaymentMethodType;
-@property(readonly, copy, nonatomic) PKShippingMethods *shippingMethods; // @synthesize shippingMethods=_shippingMethods;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

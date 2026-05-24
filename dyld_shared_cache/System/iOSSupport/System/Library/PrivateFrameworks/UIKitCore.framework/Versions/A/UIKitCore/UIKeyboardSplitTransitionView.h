@@ -6,59 +6,42 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CADisplayLink, NSArray, UIKeyboardSliceSet;
-@protocol UIKeyboardKeyplaneTransitionDelegate, UIKeyboardSplitTransitionDataSource;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardSplitTransitionView : UIView
 {
     double _currentProgress;
-    double _liftOffProgress;
-    double _finishProgress;
-    double _finishDuration;
-    double _finalTransitionStartTime;
-    CADisplayLink *_displayLink;
-    CDUnknownBlockType _completionBlock;
-    struct CGRect _startFrame;
-    struct CGRect _endFrame;
-    id <UIKeyboardKeyplaneTransitionDelegate> _transitionDelegate;
-    id <UIKeyboardSplitTransitionDataSource> _transitionDataSource;
-    _Bool _centerFilled;
-    _Bool _isRebuilding;
-    _Bool _isSplitTranslation;
-    UIKeyboardSliceSet *_sliceSet;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)FileTransferC_SStG;
 - (struct CGImage *);
-- (struct CGSize);
+- (struct CGSize)n;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
+- (struct CGRect)SReceivedRelayReadReceipt;
+- (void)ty request with ID %@ for service %@ for handles %@;
+- (void)request for service %@ from token %@ for handles %@;
+- (void)icking off incoming reachability request for service %@ from token %@ for handles %@;
+- (id)ces:%@ /* Error: Ran out of types for this method. */;
+- (struct CGImage *)hats;
+- (void)%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)led to send message to local device for Transfer %@, Failing;
+- (void)nse for request message GUID %@ attachment index:%lu /* Error: Ran out of types for this method. */;
+- (struct CGImage *)ive app;
+- (id)AlwaysAllowMarkingSent;
+- (id)es;
+- (_Bool)isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
+- (id)SSFirstPartyTextMessageFilterAvailableNotification;
 - (id);
-- (struct CGImage *);
 - (void);
-- (void);
-- (void);
-- (struct CGImage *);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)tionServiceRules",C,N,V_payloadCommunicationServiceRules;
 - (void)ÄD;
 - (void)ock in %s;
 - (CDUnknownBlockType)Ì3ÿ³ßÛLK^;
@@ -67,11 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)N~y;
 
 // Remaining properties
-@property(readonly) NSArray *backgroundLayers;
 @property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly) NSArray *shadowLayers;
-@property(nonatomic) __weak id <UIKeyboardSplitTransitionDataSource> splitTransitionDataSource; // @synthesize splitTransitionDataSource=_transitionDataSource;
-@property(nonatomic) __weak id <UIKeyboardKeyplaneTransitionDelegate> splitTransitionDelegate; // @synthesize splitTransitionDelegate=_transitionDelegate;
 
 @end
 

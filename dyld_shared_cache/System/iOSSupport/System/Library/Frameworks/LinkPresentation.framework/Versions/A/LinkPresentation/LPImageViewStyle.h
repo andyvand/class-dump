@@ -4,77 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPadding, LPPointUnit, LPShadowStyle, LPSize, NSNumber, NSString, UIColor, UIFont;
+@class LPSize;
 
 __attribute__((visibility("hidden")))
 @interface LPImageViewStyle
 {
     _Bool _requireFixedSize;
-    _Bool _scalesToFitParent;
-    _Bool _preservesEdgeAlignmentWhenScaling;
-    _Bool _allowsPlatterPresentation;
-    _Bool _canAdjustVerticalPaddingForFixedSize;
-    _Bool _shouldApplyBackground;
-    LPSize *_fixedSize;
-    LPSize *_minimumSize;
-    LPSize *_maximumSize;
-    LPSize *_reducedSize;
-    LPPointUnit *_fixedFallbackImageSize;
-    NSNumber *_fixedFallbackImageWeight;
-    UIFont *_fixedFallbackImageFont;
-    NSNumber *_fixedFallbackImageScale;
-    NSString *_fixedFallbackImageFontTextStyle;
-    LPPadding *_margin;
-    LPPadding *_padding;
-    long long _scalingMode;
-    long long _filter;
-    long long _verticalAlignment;
-    LPPointUnit *_widthForUsingRegularSize;
-    LPShadowStyle *_shadow;
-    UIColor *_maskColor;
-    double _opacity;
-    LPPointUnit *_iconPlatterCornerRadius;
-    UIColor *_backgroundColor;
-    LPPointUnit *_backgroundInset;
-    LPPointUnit *_cornerRadius;
-    double _darkeningAmount;
-    LPPointUnit *_borderWidth;
-    UIColor *_borderColor;
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (id);
+- (id)textView:writingToolsIgnoredRangesInEnclosingRange: /* Error: Ran out of types for this method. */;
+- (_Bool)textEffectCoordinator:highPriorityTextViewIdentifiersForUnplayedVisibleTextViewIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)textDraggableView:(id)arg1 dragPreviewForLiftingItem:session: /* Error: Ran out of types for this method. */;
+- (void)telephonyCallAction;
+- (void)teamID;
+- (void)targetWithScreenCoordinate:(_Bool)arg1 initialSize:scale:meshScaleFactor:rotation:associatedLayoutIntent:stickerIsRepositioning:stickerChatItem: /* Error: Ran out of types for this method. */;
+- (void)targetForAction:(_Bool)arg1 withSender: /* Error: Ran out of types for this method. */;
+- (void)tapbackPickerViewControllerDidRequestDismiss:(id)arg1;
+- (void)tapbackPickerBalloonParentViewTapbackTintableMessageBalloon:(id)arg1;
+- (void)tapbackContentContainerRect;
+- (void)tapbackContainerView;
+- (void)tapbackButtonFrameForFullScreenBalloonViewController:(id)arg1;
+- (void)tapbackButton;
+- (void)tapbackBannerCenterThreshold;
+- (void)taillessBalloonMaskAlignmentRectInsets;
+- (void)tableViewDidEndMultipleSelectionInteraction:(_Bool)arg1;
+- (void)tableView:(_Bool)arg1 titleForDeleteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:selectionFollowsFocusForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:indentationLevelForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)tableView:didEndDisplayingHeaderView:forSection: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:canMoveRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)syndicationIdentifier;
+- (id)suggestionsControllerWillBeginScroll: /* Error: Ran out of types for this method. */;
+- (id)ntentType:aggregateNoticeType: /* Error: Ran out of types for this method. */;
+- (id)suggestionCategoryTitleWithSenderName:numberOfFiles:numberOfItems:aggregateContentType:aggregateNoticeType: /* Error: Ran out of types for this method. */;
+- (id)suggestionCategoryTitleWithSenderName:numberOfFiles:numberOfItems:aggregateContentType:aggregateNoticeType: /* Error: Ran out of types for this method. */;
+- (id)suggestionCategoryTitleForItems: /* Error: Ran out of types for this method. */;
+- (id)suggestedName;
+- (_Bool)stopRecordingForRaiseGestureWithFailure: /* Error: Ran out of types for this method. */;
+- (_Bool)stickerInlinePreviewMaxWidthForImageSize:isEmoji:displayScale: /* Error: Ran out of types for this method. */;
+- (void)showScreenSharingButtonForEntity:(id)arg1;
+- (double)showPayloadValidationAlertWithDescription: /* Error: Ran out of types for this method. */;
+- (id)showNewMessageCompositionPanelWithRecipients:composition:animated:sourceBarButtonItem: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (long long);
@@ -109,37 +79,7 @@ __attribute__((visibility("hidden")))
 - (id)SüÞ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPlatterPresentation; // @synthesize allowsPlatterPresentation=_allowsPlatterPresentation;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPPointUnit *backgroundInset; // @synthesize backgroundInset=_backgroundInset;
-@property(retain, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(retain, nonatomic) LPPointUnit *borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(nonatomic) _Bool canAdjustVerticalPaddingForFixedSize; // @synthesize canAdjustVerticalPaddingForFixedSize=_canAdjustVerticalPaddingForFixedSize;
-@property(retain, nonatomic) LPPointUnit *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) double darkeningAmount; // @synthesize darkeningAmount=_darkeningAmount;
-@property(nonatomic) long long filter; // @synthesize filter=_filter;
-@property(retain, nonatomic) UIFont *fixedFallbackImageFont; // @synthesize fixedFallbackImageFont=_fixedFallbackImageFont;
-@property(retain, nonatomic) NSString *fixedFallbackImageFontTextStyle; // @synthesize fixedFallbackImageFontTextStyle=_fixedFallbackImageFontTextStyle;
-@property(retain, nonatomic) NSNumber *fixedFallbackImageScale; // @synthesize fixedFallbackImageScale=_fixedFallbackImageScale;
-@property(retain, nonatomic) LPPointUnit *fixedFallbackImageSize; // @synthesize fixedFallbackImageSize=_fixedFallbackImageSize;
-@property(retain, nonatomic) NSNumber *fixedFallbackImageWeight; // @synthesize fixedFallbackImageWeight=_fixedFallbackImageWeight;
 @property(retain, nonatomic) LPSize *fixedSize; // @synthesize fixedSize=_fixedSize;
-@property(retain, nonatomic) LPPointUnit *iconPlatterCornerRadius; // @synthesize iconPlatterCornerRadius=_iconPlatterCornerRadius;
-@property(readonly, retain, nonatomic) LPPadding *margin; // @synthesize margin=_margin;
-@property(retain, nonatomic) UIColor *maskColor; // @synthesize maskColor=_maskColor;
-@property(retain, nonatomic) LPSize *maximumSize; // @synthesize maximumSize=_maximumSize;
-@property(retain, nonatomic) LPSize *minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
-@property(nonatomic) _Bool preservesEdgeAlignmentWhenScaling; // @synthesize preservesEdgeAlignmentWhenScaling=_preservesEdgeAlignmentWhenScaling;
-@property(retain, nonatomic) LPSize *reducedSize; // @synthesize reducedSize=_reducedSize;
-@property(nonatomic) _Bool requireFixedSize; // @synthesize requireFixedSize=_requireFixedSize;
-@property(nonatomic) _Bool scalesToFitParent; // @synthesize scalesToFitParent=_scalesToFitParent;
-@property(nonatomic) long long scalingMode; // @synthesize scalingMode=_scalingMode;
-@property(retain, nonatomic) LPShadowStyle *shadow; // @synthesize shadow=_shadow;
-@property(nonatomic) _Bool shouldApplyBackground; // @synthesize shouldApplyBackground=_shouldApplyBackground;
-@property(nonatomic) long long verticalAlignment; // @synthesize verticalAlignment=_verticalAlignment;
-@property(retain, nonatomic) LPPointUnit *widthForUsingRegularSize; // @synthesize widthForUsingRegularSize=_widthForUsingRegularSize;
 
 @end
 

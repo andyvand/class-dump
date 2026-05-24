@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CADDatabaseInitializationOptions;
+
 @protocol CADAccessInterface
+- (void)eviceInfo;
+- (void)ed added localOutputDevice %{public}@ for context:(CADDatabaseInitializationOptions *)arg1 %{public}@;
+- (void)utContext] Observed removed localOutputDevice %{public}@ for context:(unsigned long long)arg1 %{public}@;
+- (void)ion. %{public}@;
 @end
 

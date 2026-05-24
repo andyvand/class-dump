@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, ITLibrary, ITMediaLibrary, MPMediaEntityCache, MPMediaLibrary, NSArray, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol MPArtworkDataSource, OS_dispatch_queue;
+@class ITMediaLibrary, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPMediaLibraryDataProviderMacOS
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSString *_uniqueIdentifier;
-    NSMutableDictionary *_addedItemsNotifications;
-    ITMediaLibrary *_library;
-    MPMediaEntityCache *_entityCache;
-    id <MPArtworkDataSource> _artworkDataSource;
-    MPMediaLibrary *_mediaLibrary;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)nable to convert BMPBTaskStepType v3 enum value:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -50,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,56 +59,56 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)rank;
+- (_Bool)percent_rank;
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool)atSetTableSpace;
+- (_Bool)atClusterOn;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)atDropConstraintRecurse;
+- (_Bool)atValidateConstraintRecurse;
+- (_Bool)atAlterConstraint;
+- (_Bool)atReAddIndex;
+- (_Bool)atSetOptions;
+- (id);
+- (void)vals;
+- (void)items;
+- (long long)parameters;
+- (void)adminOpt;
+- (void)rtindex;
+- (void)xmlparse;
+- (void)valid;
+- (void)referenceTimestamp;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -130,72 +124,10 @@ __attribute__((visibility("hidden")))
 - (id)ig"q"__opaque"[40c]}}"__state_"I}}};
 - (void)_inSmartTransition;
 - (id)ng",C,N,V_localizedShortTitle;
-- (id)ModelPropertyRadioStationEndingAirDate;
+- (id)MPModelPropertyRadioStationEndingAirDate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountDSID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <MPArtworkDataSource> artworkDataSource; // @synthesize artworkDataSource=_artworkDataSource;
-@property(readonly, nonatomic) NSString *databasePath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MPMediaEntityCache *entityCache; // @synthesize entityCache=_entityCache;
-@property(readonly, nonatomic) long long favoriteSongsPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isGeniusEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) ITLibrary *itLibrary;
 @property(retain, nonatomic) ITMediaLibrary *library; // @synthesize library=_library;
-@property(readonly, nonatomic) NSArray *localizedSectionIndexTitles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(nonatomic) __weak MPMediaLibrary *mediaLibrary; // @synthesize mediaLibrary=_mediaLibrary;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long photosMemoriesPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long playbackHistoryPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSArray *preferredAudioLanguages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *preferredSubtitleLanguages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSSet *propertiesToCache;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *syncValidity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *uniqueIdentifier;
-@property(copy, nonatomic) ICUserIdentity *userIdentity;
 
 @end
 

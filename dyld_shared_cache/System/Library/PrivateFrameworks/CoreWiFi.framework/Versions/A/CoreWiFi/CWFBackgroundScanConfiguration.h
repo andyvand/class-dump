@@ -4,62 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CWFBackgroundScanConfiguration
 {
     _Bool _cacheEnabled;
-    _Bool _cacheRollover;
-    CDStruct_d6d3f188 _modifyMap;
-    NSArray *_networks;
-    NSArray *_channels;
-    unsigned long long _scanFrequency;
-    unsigned long long _lostNetworkScanCount;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (unsigned long long);
+- (CDStruct_d3566df9);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (CDStruct_d6d3f188);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)tem/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport;
 - (_Bool);
-- (void);
-- (id);
+- (void)P;
+- (id);
 - (id)!Eù±(ð1Â0@ù
 × ;
-- (void)roundScanConfiguration;
+- (void)CWFBackgroundScanConfiguration;
 - (void).apple.security.keychainchanged;
 - (id)xó;
 
 // Remaining properties
-@property(nonatomic) _Bool cacheEnabled; // @synthesize cacheEnabled=_cacheEnabled;
-@property(nonatomic) _Bool cacheRollover; // @synthesize cacheRollover=_cacheRollover;
-@property(copy, nonatomic) NSArray *channels; // @synthesize channels=_channels;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long lostNetworkScanCount; // @synthesize lostNetworkScanCount=_lostNetworkScanCount;
-@property(nonatomic) CDStruct_d6d3f188 modifyMap; // @synthesize modifyMap=_modifyMap;
-@property(copy, nonatomic) NSArray *networks; // @synthesize networks=_networks;
-@property(nonatomic) unsigned long long scanFrequency; // @synthesize scanFrequency=_scanFrequency;
-@property(readonly) Class superclass;
 
 @end
 

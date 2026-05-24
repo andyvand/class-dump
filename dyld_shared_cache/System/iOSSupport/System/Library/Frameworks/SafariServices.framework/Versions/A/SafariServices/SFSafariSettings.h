@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)ShareType;
 - (id);
 
 @end

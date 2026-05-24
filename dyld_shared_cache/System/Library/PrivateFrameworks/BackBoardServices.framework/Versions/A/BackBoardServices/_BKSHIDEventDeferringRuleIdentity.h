@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _BKSHIDEventDeferringRuleIdentity
 {
     unsigned int _seed;
-    int _pid;
 }
 
 + (_Bool);
 - (id);
 - (int);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)>24;
+- (id)D;
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
@@ -25,15 +22,7 @@
 - (unsigned int)ringPredicate:unknown environment :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 @property(readonly, nonatomic) unsigned int seed; // @synthesize seed=_seed;
-@property(readonly) Class superclass;
 
 @end
 

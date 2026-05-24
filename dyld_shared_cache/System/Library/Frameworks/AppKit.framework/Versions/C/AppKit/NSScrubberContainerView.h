@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface NSScrubberContainerView : NSView
 {
     id _innerView;
-    _Bool _center;
 }
 
-+ (id);
++ (id)request, body N 0;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id)mmandKeyCacheValid;
+- (id)markCommandKeyCacheValid;
 - (void)odalSession:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool centerSubviews; // @synthesize centerSubviews=_center;
-@property(retain) id innerView; // @synthesize innerView=_innerView;
 
 @end
 

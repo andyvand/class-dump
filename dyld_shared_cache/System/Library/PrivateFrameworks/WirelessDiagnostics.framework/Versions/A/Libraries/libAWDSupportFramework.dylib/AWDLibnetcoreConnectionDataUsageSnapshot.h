@@ -7,26 +7,10 @@
 @interface AWDLibnetcoreConnectionDataUsageSnapshot
 {
     unsigned long long _bytesIn;
-    unsigned long long _bytesOut;
-    unsigned long long _multipathBytesInCell;
-    unsigned long long _multipathBytesInInitial;
-    unsigned long long _multipathBytesInWiFi;
-    unsigned long long _multipathBytesOutCell;
-    unsigned long long _multipathBytesOutInitial;
-    unsigned long long _multipathBytesOutWiFi;
-    struct {
-        unsigned int bytesIn:1;
-        unsigned int bytesOut:1;
-        unsigned int multipathBytesInCell:1;
-        unsigned int multipathBytesInInitial:1;
-        unsigned int multipathBytesInWiFi:1;
-        unsigned int multipathBytesOutCell:1;
-        unsigned int multipathBytesOutInitial:1;
-        unsigned int multipathBytesOutWiFi:1;
-    } _has;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,8 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)9+V@9_;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -59,32 +42,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)P*;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)";
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bytesIn; // @synthesize bytesIn=_bytesIn;
-@property(nonatomic) unsigned long long bytesOut; // @synthesize bytesOut=_bytesOut;
 @property(nonatomic) _Bool hasBytesIn;
-@property(nonatomic) _Bool hasBytesOut;
-@property(nonatomic) _Bool hasMultipathBytesInCell;
-@property(nonatomic) _Bool hasMultipathBytesInInitial;
-@property(nonatomic) _Bool hasMultipathBytesInWiFi;
-@property(nonatomic) _Bool hasMultipathBytesOutCell;
-@property(nonatomic) _Bool hasMultipathBytesOutInitial;
-@property(nonatomic) _Bool hasMultipathBytesOutWiFi;
-@property(nonatomic) unsigned long long multipathBytesInCell; // @synthesize multipathBytesInCell=_multipathBytesInCell;
-@property(nonatomic) unsigned long long multipathBytesInInitial; // @synthesize multipathBytesInInitial=_multipathBytesInInitial;
-@property(nonatomic) unsigned long long multipathBytesInWiFi; // @synthesize multipathBytesInWiFi=_multipathBytesInWiFi;
-@property(nonatomic) unsigned long long multipathBytesOutCell; // @synthesize multipathBytesOutCell=_multipathBytesOutCell;
-@property(nonatomic) unsigned long long multipathBytesOutInitial; // @synthesize multipathBytesOutInitial=_multipathBytesOutInitial;
-@property(nonatomic) unsigned long long multipathBytesOutWiFi; // @synthesize multipathBytesOutWiFi=_multipathBytesOutWiFi;
 
 @end
 

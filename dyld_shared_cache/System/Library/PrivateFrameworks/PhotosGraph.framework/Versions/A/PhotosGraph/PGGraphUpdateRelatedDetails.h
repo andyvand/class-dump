@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface PGGraphUpdateRelatedDetails
 {
     NSMutableSet *_accumulatedIdentifiersForMomentNodesRelatedToUpdatedPersons;
-    NSMutableSet *_accumulatedIdentifiersForMomentNodesRelatedToDeletedPersons;
-    NSMutableSet *_accumulatedIdentifiersForMemoryNodesRelatedToDeletedMoments;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)AppleCredentialManager;
+- (id)acm_transport;
+- (id)ACMContextGetDataProperty;
 - (id);
 - (id);
 - (id);
@@ -23,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -31,12 +29,7 @@
 - (void)ghlightTailor.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *accumulatedIdentifiersForMemoryNodesRelatedToDeletedMoments; // @synthesize accumulatedIdentifiersForMemoryNodesRelatedToDeletedMoments=_accumulatedIdentifiersForMemoryNodesRelatedToDeletedMoments;
-@property(retain, nonatomic) NSMutableSet *accumulatedIdentifiersForMomentNodesRelatedToDeletedPersons; // @synthesize accumulatedIdentifiersForMomentNodesRelatedToDeletedPersons=_accumulatedIdentifiersForMomentNodesRelatedToDeletedPersons;
 @property(retain, nonatomic) NSMutableSet *accumulatedIdentifiersForMomentNodesRelatedToUpdatedPersons; // @synthesize accumulatedIdentifiersForMomentNodesRelatedToUpdatedPersons=_accumulatedIdentifiersForMomentNodesRelatedToUpdatedPersons;
-@property(readonly, nonatomic) NSSet *identifiersForMemoriesRelatedToDeletedMoments;
-@property(readonly, nonatomic) NSSet *identifiersForMomentRelatedToDeletedPersons;
-@property(readonly, nonatomic) NSSet *identifiersForMomentRelatedToUpdatedPersons;
 
 @end
 

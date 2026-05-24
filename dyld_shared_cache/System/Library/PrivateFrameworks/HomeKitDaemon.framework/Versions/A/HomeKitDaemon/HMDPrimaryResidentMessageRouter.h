@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDPrimaryResidentMessageRouterMetricsDispatcher, HMFMessageDispatcher, NSString, NSUUID;
+@class NSUUID;
 @protocol HMDPrimaryResidentMessageRouterDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDPrimaryResidentMessageRouter
 {
     id <HMDPrimaryResidentMessageRouterDataSource> _dataSource;
-    NSUUID *_homeUUID;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMDPrimaryResidentMessageRouterMetricsDispatcher *_metricsDispatcher;
 }
 
 + (id)~B;
+- (void)work/Versions/A/ContextKit;
 - (void);
 - (void);
+- (id)Message failing on invalid account (packet:(id)arg1 %@, destinations %@);
+- (id);
+- (id);
+- (id)@24Q32o^@40;
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)BELL_EVENT_UNFAMILIAR_MULTIPLE;
-- (id)y;
+- (void)NOTIFICATION_MESSAGE_CAMERA_DOORBELL_EVENT_UNFAMILIAR_MULTIPLE;
+- (id)Apply;
 
 // Remaining properties
-@property __weak id <HMDPrimaryResidentMessageRouterDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) HMDPrimaryResidentMessageRouterMetricsDispatcher *metricsDispatcher; // @synthesize metricsDispatcher=_metricsDispatcher;
-@property(readonly) Class superclass;
 
 @end
 

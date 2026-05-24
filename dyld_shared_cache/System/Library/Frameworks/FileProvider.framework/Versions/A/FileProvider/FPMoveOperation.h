@@ -6,36 +6,11 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPItem, FPMoveInfo, FPProgressManager, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSString, NSURL;
-@protocol NSXPCProxyCreating><FPDaemonActionOperation;
+@class FPMoveInfo, NSDictionary;
 
 @interface FPMoveOperation : FPActionOperation
 {
     FPMoveInfo *_info;
-    NSArray *__sourceURLs;
-    NSArray *__sourceItems;
-    NSURL *__destinationURL;
-    FPItem *__destinationFolder;
-    unsigned long long __lastUsedDatePolicy;
-    NSDictionary *__targetFilenamesByURL;
-    NSDictionary *__targetFilenamesByItem;
-    FPProgressManager *_progressManager;
-    _Bool _isScheduledFromThisClient;
-    id <NSXPCProxyCreating><FPDaemonActionOperation> _remoteMoveOperation;
-    NSMutableSet *_createdOrFailedRoots;
-    NSMutableDictionary *_createdItemsByRoot;
-    NSMutableDictionary *_placeholderIDsByRoot;
-    NSMutableDictionary *_URLByResolvedFPItem;
-    NSDictionary *_errorsByItem;
-    NSDictionary *_transferResults;
-    NSMutableDictionary *_progressByRoot;
-    NSString *_providerIdentifier;
-    _Bool _shouldBounceOnCollision;
-    NSDictionary *_transferLocations;
-    NSMutableDictionary *_filenamesByURL;
-    CDUnknownBlockType __t_patchActionOperationInfo;
-    CDUnknownBlockType __t_remoteOperationWasScheduled;
-    CDUnknownBlockType __t_rootCompleted;
 }
 
 - (id);
@@ -51,23 +26,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)M;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (unsigned long long)M;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)	;
 - (_Bool);
 - (void);
 - (void);
@@ -77,7 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -95,26 +70,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)23SipPCalledPartyIdHeader;
 - (void);
 - (void)Ñç)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType _t_patchActionOperationInfo; // @synthesize _t_patchActionOperationInfo=__t_patchActionOperationInfo;
-@property(copy, nonatomic) CDUnknownBlockType _t_remoteOperationWasScheduled; // @synthesize _t_remoteOperationWasScheduled=__t_remoteOperationWasScheduled;
-@property(copy, nonatomic) CDUnknownBlockType _t_rootCompleted; // @synthesize _t_rootCompleted=__t_rootCompleted;
-@property(readonly, nonatomic) _Bool byCopy;
-@property(readonly, nonatomic) NSDictionary *errorsByItem; // @synthesize errorsByItem=_errorsByItem;
-@property(readonly, nonatomic) NSMutableDictionary *filenamesByURL; // @synthesize filenamesByURL=_filenamesByURL;
-@property(nonatomic) unsigned long long lastUsageUpdatePolicy; // @synthesize lastUsageUpdatePolicy=__lastUsedDatePolicy;
 @property(copy, nonatomic) NSDictionary *progressByRoot; // @synthesize progressByRoot=_progressByRoot;
-@property(nonatomic) _Bool shouldBounceOnCollision; // @synthesize shouldBounceOnCollision=_shouldBounceOnCollision;
-@property(copy, nonatomic) NSDictionary *targetFilenamesByItem; // @synthesize targetFilenamesByItem=__targetFilenamesByItem;
-@property(copy, nonatomic) NSDictionary *targetFilenamesByURL; // @synthesize targetFilenamesByURL=__targetFilenamesByURL;
-@property(readonly, nonatomic) NSDictionary *transferLocations; // @synthesize transferLocations=_transferLocations;
-@property(readonly, nonatomic) NSDictionary *transferResults; // @synthesize transferResults=_transferResults;
 
 @end
 

@@ -6,6 +6,24 @@
 
 @protocol SVVideoEventTracker
 
+@optional
+- (void)~CNrbugCc7wn9rzpSpGsBvMbd49PVLiWAEKoO4O0/Library/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserData.swift;
+- (void);
+- (void)ed_config.jinja.path;
+- (void)es.tag_feed.debug_sport_event_feed_config.jinja.path;
+- (void)ing the todayFeedType:%{public}@ (isSubscribed:%d) /* Error: Ran out of types for this method. */;
+- (void)savings=%{public}@ms;
+- (void)=%{public}@, isFinished=%{public}@, savings=%{public}@ms;
+- (void)warmed operation for config fetch, operationID=%{public}@, isFinished=%{public}@, savings=%{public}@ms;
+- (void)config fetch, operationID=%{public}@;
+- (void)last_issued_today_feed_config_request;
+- (void)ecipe history is not available due to a problem with the server;
+- (void)te range group;
+- (void)Failed to score following tag models;
+- (void)/Modules/HistoryFeed/HistoryFeedModule.swift;
+- (void)ribed;
+- (void)dicating a replacement, but the replaced item doesn't go to row 0 of a section, this is unexpected.;
+
 // Remaining properties
 @property(readonly, nonatomic) double impressionThreshold;
 // Preceding property had unknown attributes: ?

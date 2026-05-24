@@ -9,9 +9,6 @@
 @interface CSAddressTag : CSExternalAnalysisTag
 {
     long long _code;
-    long long _type;
-    double _lat;
-    double _lng;
 }
 
 - (id);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long code; // @synthesize code=_code;
-@property(readonly, nonatomic) double lat; // @synthesize lat=_lat;
-@property(readonly, nonatomic) double lng; // @synthesize lng=_lng;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

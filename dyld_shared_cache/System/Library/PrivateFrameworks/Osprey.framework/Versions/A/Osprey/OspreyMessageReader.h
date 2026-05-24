@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData;
-
 __attribute__((visibility("hidden")))
 @interface OspreyMessageReader
 {
     CDUnknownBlockType _messageHandler;
-    unsigned long long _readerState;
-    unsigned long long _messageSequence;
-    _Bool _currentMessageCompressed;
-    unsigned long long _currentMessageSize;
-    NSMutableData *_messageBuffer;
 }
 
 - (void);

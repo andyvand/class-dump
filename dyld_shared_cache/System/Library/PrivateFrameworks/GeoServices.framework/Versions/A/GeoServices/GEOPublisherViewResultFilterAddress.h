@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, GEOPDEntity, GEOPDPublisherViewResultFilterAddress, NSString;
+@class GEOMapItemIdentifier, GEOPDPublisherViewResultFilterAddress;
 
 @interface GEOPublisherViewResultFilterAddress
 {
     GEOPDPublisherViewResultFilterAddress *_filterAddressIdentifier;
-    GEOPDEntity *_placeEntity;
 }
 
 - (id);
@@ -19,8 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOPDPublisherViewResultFilterAddress *addressIdentifier;
-@property(readonly, nonatomic) NSString *displayString;
 @property(readonly, nonatomic) GEOMapItemIdentifier *filterAddressIdentifier;
 
 @end

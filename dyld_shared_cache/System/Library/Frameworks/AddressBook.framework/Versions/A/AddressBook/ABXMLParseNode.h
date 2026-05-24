@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface ABXMLParseNode
 {
     NSString *_string;
-    long long _nodeType;
-    NSMutableArray *_children;
-    ABXMLParseNode *_parent;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(˩C;
 - (id);
 - (void);
 - (id);

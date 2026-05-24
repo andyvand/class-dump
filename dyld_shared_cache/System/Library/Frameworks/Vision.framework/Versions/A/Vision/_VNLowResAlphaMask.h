@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _VNLowResAlphaMask
 {
     NSArray *_instanceLowResMaskArray;
-    _Bool _isSingleMask;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (struct __CVBuffer *);
-- (id);
+- (struct __CVBuffer *)(;
+- (id)itemChangedAtURL:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);

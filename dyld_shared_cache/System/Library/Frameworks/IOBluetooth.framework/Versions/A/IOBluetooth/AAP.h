@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBTEASession, IOBluetoothDevice, IOBluetoothL2CAPChannel, NSArray, NSString;
-@protocol AAPDelegate;
+@class IOBTEASession, IOBluetoothDevice;
 
 @interface AAP
 {
     IOBTEASession *eaSessions[32];
-    _Bool _firstPairing;
-    _Bool _crashLogDetected;
-    unsigned int _version;
-    IOBluetoothDevice *_device;
-    IOBluetoothL2CAPChannel *_L2CAPChannel;
-    id <AAPDelegate> _delegate;
-    NSString *_AACPConnectionUUID;
-    NSArray *_crashLogFiles;
 }
 
+- (void)I;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
+- (void)"U;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)I;
 - (id);
 - (unsigned int);
 - (id);
@@ -39,14 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *AACPConnectionUUID; // @synthesize AACPConnectionUUID=_AACPConnectionUUID;
-@property(retain, nonatomic) IOBluetoothL2CAPChannel *L2CAPChannel; // @synthesize L2CAPChannel=_L2CAPChannel;
-@property _Bool crashLogDetected; // @synthesize crashLogDetected=_crashLogDetected;
-@property(copy) NSArray *crashLogFiles; // @synthesize crashLogFiles=_crashLogFiles;
-@property id <AAPDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) IOBluetoothDevice *device; // @synthesize device=_device;
-@property _Bool firstPairing; // @synthesize firstPairing=_firstPairing;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

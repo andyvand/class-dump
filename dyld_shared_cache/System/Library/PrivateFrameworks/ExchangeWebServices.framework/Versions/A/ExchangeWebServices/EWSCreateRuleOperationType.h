@@ -6,7 +6,7 @@
 
 #import <ExchangeWebServices/EWSRuleOperationType.h>
 
-@class EWSRuleType, NSString;
+@class EWSRuleType;
 
 @interface EWSCreateRuleOperationType : EWSRuleOperationType
 {
@@ -15,18 +15,11 @@
 
 + (id);
 - (id);
-- (void);
+- (void)control:(id)arg1 textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSRuleType *Rule; // @synthesize Rule=_Rule;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

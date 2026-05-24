@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMenu, NSMutableSet;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface ClosedTabOrWindowMenuBuilder
 {
     NSMenu *_menu;
-    NSArray *_closedTabOrWindowStates;
-    NSMutableSet *_addedURLStringsToTopLevelMenu;
-    id _menuActionTarget;
-    long long _limit;
-    long long _menuItemForTabPolicy;
-    long long _menuItemForWindowPolicy;
-    long long _menuItemForTabGroupPolicy;
-    long long _tabRestoreDestination;
-    unsigned long long _menuItemDeduplicationPolicy;
 }
 
 + (unsigned long long);
@@ -40,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (SEL);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -50,34 +41,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)t;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)";
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (long long)erSection;
+- (id);
+- (void);
+- (long long)_setUpFolderChooserSection;
 - (void)à;
 
 // Remaining properties
 @property(nonatomic) long long limit; // @synthesize limit=_limit;
-@property(nonatomic) unsigned long long menuItemDeduplicationPolicy; // @synthesize menuItemDeduplicationPolicy=_menuItemDeduplicationPolicy;
-@property(nonatomic) long long menuItemForTabGroupPolicy; // @synthesize menuItemForTabGroupPolicy=_menuItemForTabGroupPolicy;
-@property(nonatomic) long long menuItemForTabPolicy; // @synthesize menuItemForTabPolicy=_menuItemForTabPolicy;
-@property(nonatomic) long long menuItemForWindowPolicy; // @synthesize menuItemForWindowPolicy=_menuItemForWindowPolicy;
-@property(nonatomic) long long tabRestoreDestination; // @synthesize tabRestoreDestination=_tabRestoreDestination;
 
 @end
 

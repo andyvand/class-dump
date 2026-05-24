@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ss:(id)arg1 destinationPortStart:(id *)arg2 destinationPortEnd: /* Error: Ran out of types for this method. */;
-+ (Class)WithID:serverChangeToken: /* Error: Ran out of types for this method. */;
++ (id)initWithDirection:(id)arg1 lanIdentifierList:(id *)arg2 protocol:destinationIPAddress:destinationPortStart:destinationPortEnd: /* Error: Ran out of types for this method. */;
++ (Class)_updateGroupWithID:serverChangeToken: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

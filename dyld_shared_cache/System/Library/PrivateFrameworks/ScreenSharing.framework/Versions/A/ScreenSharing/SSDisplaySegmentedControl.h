@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SSScreenInfo;
+@class NSArray;
 
 @interface SSDisplaySegmentedControl
 {
     NSArray *_screens;
-    _Bool _touchBarStyle;
-    struct CGColor *_grayColor;
-    id _boundObjectForSelectedScreen;
-    NSString *_boundKeyPathForSelectedScreen;
-    struct CGRect _globalScreenRect;
 }
 
 - (_Bool);
@@ -36,7 +31,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)=v;
 - (id);
 - (struct CGColor *);
 - (void);
@@ -45,13 +40,7 @@
 - (id)e rate for two streams %d;
 
 // Remaining properties
-@property(copy) NSString *boundKeyPathForSelectedScreen; // @synthesize boundKeyPathForSelectedScreen=_boundKeyPathForSelectedScreen;
-@property id boundObjectForSelectedScreen; // @synthesize boundObjectForSelectedScreen=_boundObjectForSelectedScreen;
-@property struct CGRect globalScreenRect; // @synthesize globalScreenRect=_globalScreenRect;
 @property struct CGColor *grayColor; // @synthesize grayColor=_grayColor;
-@property(copy) NSArray *screens;
-@property(retain) SSScreenInfo *selectedScreen;
-@property _Bool touchBarStyle; // @synthesize touchBarStyle=_touchBarStyle;
 
 @end
 

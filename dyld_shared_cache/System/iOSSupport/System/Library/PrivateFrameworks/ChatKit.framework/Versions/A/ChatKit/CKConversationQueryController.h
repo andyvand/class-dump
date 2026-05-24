@@ -6,48 +6,40 @@
 
 #import <ChatKit/CKQueryController.h>
 
-@class NSArray, NSSet;
-
 @interface CKConversationQueryController : CKQueryController
 {
     _Bool _gotResults;
-    _Bool _searchTerminated;
-    NSArray *_currentZKWSuggestions;
-    NSSet *_intermediaryResults;
 }
 
-+ (_Bool);
-+ (unsigned long long);
-- (_Bool);
-- (id);
++ (_Bool)@;
++ (unsigned long long)i;
+- (_Bool)attachmentPreviewImagesDidUpdateNotification: /* Error: Ran out of types for this method. */;
+- (id)e;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)attributions;
+- (_Bool)object;
+- (void)securityTitle;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)GAJtGGAGGG_G;
+- (unsigned long long)n;
+- (id)l;
+- (_Bool)hing user record… {accountID:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)ew-generator;
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id)`¬;
 - (void);
 - (id)6/;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *currentZKWSuggestions; // @synthesize currentZKWSuggestions=_currentZKWSuggestions;
 @property(nonatomic) _Bool gotResults; // @synthesize gotResults=_gotResults;
-@property(retain, nonatomic) NSSet *intermediaryResults; // @synthesize intermediaryResults=_intermediaryResults;
-@property(nonatomic) _Bool searchTerminated; // @synthesize searchTerminated=_searchTerminated;
 
 @end
 

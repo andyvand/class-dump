@@ -7,8 +7,6 @@
 @interface ConversationKit.CallGameController
 {
     id isActivated;
-    id controllerChangeSink;
-    id events;
 }
 
 @end

@@ -5,5 +5,11 @@
 //
 
 @protocol DATask
+- (void){;
+
+@optional
+- (_Bool);
+- (void)q;
+- (void);
 @end
 

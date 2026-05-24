@@ -7,11 +7,6 @@
 @interface IMDPersistence.AttachmentStorageDirectoryInspector
 {
     id delegate;
-    id batchSize;
-    id directories;
-    id rootDirectory;
-    id attachmentDepth;
-    id directoryCount;
 }
 
 @end

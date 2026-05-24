@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBReferentialCommand
+- (NSData *)r;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *referenceIdentifier;
 @end
 

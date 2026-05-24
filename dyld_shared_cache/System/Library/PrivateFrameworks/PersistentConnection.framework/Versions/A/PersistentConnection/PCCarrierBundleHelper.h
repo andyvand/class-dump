@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTBundle, CTXPCServiceSubscriptionContext, CoreTelephonyClient, NSDictionary, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CoreTelephonyClient, NSDictionary;
 
 @interface PCCarrierBundleHelper
 {
     CoreTelephonyClient *_ctClient;
-    NSObject<OS_dispatch_queue> *_queue;
-    CTXPCServiceSubscriptionContext *_currentDataContext;
-    NSHashTable *_delegates;
-    CTBundle *_bundle;
-    NSDictionary *_cachedPushSettings;
 }
 
 + (id);
@@ -22,7 +16,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -30,17 +24,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *cachedPushSettings; // @synthesize cachedPushSettings=_cachedPushSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,8 +13,8 @@
     NSSet *_socialGroupUUIDs;
 }
 
-- (id);
-- (id);
+- (id)ylib;
+- (id)patch_queue>",&,N,S_setDelegateQueue:(id)arg1 ,V__delegateQueue;
 - (id);
 - (unsigned long long);
 - (void)ncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Metrics/MetricEvents/PGGuessWhoRelationshipMetricEvent.m;

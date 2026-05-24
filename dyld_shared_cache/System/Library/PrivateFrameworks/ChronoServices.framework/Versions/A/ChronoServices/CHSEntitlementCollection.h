@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHSEntitlementCollection
 {
     _Bool _usesEventService;
-    _Bool _canOpenSystemURLs;
-    _Bool _canKeepAlive;
-    _Bool _invalidatesOnStorefrontChange;
 }
 
 + (_Bool);
@@ -26,23 +21,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)!;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canKeepAlive; // @synthesize canKeepAlive=_canKeepAlive;
-@property(readonly, nonatomic) _Bool canOpenSystemURLs; // @synthesize canOpenSystemURLs=_canOpenSystemURLs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool invalidatesOnStorefrontChange; // @synthesize invalidatesOnStorefrontChange=_invalidatesOnStorefrontChange;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool usesEventService; // @synthesize usesEventService=_usesEventService;
 
 @end

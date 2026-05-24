@@ -7,9 +7,6 @@
 @interface NewsFeed.LayeredMediaLayerRenderer
 {
     id conditionValidator;
-    id imageVariantSelector;
-    id videoVariantSelector;
-    id imageCache;
 }
 
 @end

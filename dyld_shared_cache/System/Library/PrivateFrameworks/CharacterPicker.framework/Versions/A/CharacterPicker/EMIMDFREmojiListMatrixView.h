@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface EMIMDFREmojiListMatrixView
 {
     _Bool _nonPurgeableCache;
-    long long _categoryIndex;
-    long long _characterCount;
-    long long _highlightedCharacterIndex;
-    NSArray *_cachedCharacters;
-    long long _skinToneSelectingCharacterIndex;
-    NSString *_skinToneSelectingCharacter;
-    NSMutableArray *_emojiAccessibilityElements;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)km;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (long long);
 - (id);
-- (void);
+- (void)	kM;
 - (_Bool);
 - (id);
 - (long long);
@@ -53,21 +44,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) NSArray *cachedCharacters; // @synthesize cachedCharacters=_cachedCharacters;
 @property long long categoryIndex; // @synthesize categoryIndex=_categoryIndex;
-@property long long characterCount; // @synthesize characterCount=_characterCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableArray *emojiAccessibilityElements; // @synthesize emojiAccessibilityElements=_emojiAccessibilityElements;
-@property(readonly) unsigned long long hash;
-@property long long highlightedCharacterIndex; // @synthesize highlightedCharacterIndex=_highlightedCharacterIndex;
-@property _Bool nonPurgeableCache; // @synthesize nonPurgeableCache=_nonPurgeableCache;
-@property(retain) NSString *skinToneSelectingCharacter; // @synthesize skinToneSelectingCharacter=_skinToneSelectingCharacter;
-@property long long skinToneSelectingCharacterIndex; // @synthesize skinToneSelectingCharacterIndex=_skinToneSelectingCharacterIndex;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,25 +8,21 @@ __attribute__((visibility("hidden")))
 @interface MKTransitSectionPagingFilter
 {
     _Bool _limitNumLines;
-    unsigned long long _numLinesFallbackThreshold;
-    unsigned long long _numLinesFallbackValue;
 }
 
 + (id);
 + (id);
 + (unsigned long long);
 + (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)rating energy report for das;
+- (void)tyName=%@, info=%@ from energyMonitor;
+- (void)ent, identifierToDiscretionaryIntervals=%@;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool limitNumLines; // @synthesize limitNumLines=_limitNumLines;
-@property(nonatomic) unsigned long long numLinesFallbackThreshold; // @synthesize numLinesFallbackThreshold=_numLinesFallbackThreshold;
-@property(nonatomic) unsigned long long numLinesFallbackValue; // @synthesize numLinesFallbackValue=_numLinesFallbackValue;
 
 @end
 

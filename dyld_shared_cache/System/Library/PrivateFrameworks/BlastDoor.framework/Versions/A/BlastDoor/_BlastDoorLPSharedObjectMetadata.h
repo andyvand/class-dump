@@ -6,45 +6,35 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPSharedObjectMetadata : _BlastDoorLPSpecializationMetadata
 {
     _Bool _isCollaboration;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_information;
-    _BlastDoorLPImage *_icon;
-    _BlastDoorLPSpecializationMetadata *_specialization;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)&3;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)(2;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)dFamilyInvitationMetadata_Value;
+- (id);
+- (id)cloudFamilyInvitationMetadata_Value;
 - (void)nergyBurnedInCanonicalUnit;
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *information; // @synthesize information=_information;
-@property(nonatomic) _Bool isCollaboration; // @synthesize isCollaboration=_isCollaboration;
-@property(retain, nonatomic) _BlastDoorLPSpecializationMetadata *specialization; // @synthesize specialization=_specialization;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

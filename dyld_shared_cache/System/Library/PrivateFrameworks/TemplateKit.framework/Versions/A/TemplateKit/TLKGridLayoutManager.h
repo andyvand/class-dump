@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSString, NUIGridArrangement;
+@class NSDictionary;
 
 @interface TLKGridLayoutManager
 {
     _Bool _tableContainsRowHeaders;
-    NSDictionary *_itemsForIndex;
-    NSArray *_itemsForRows;
-    NSMapTable *_itemToRowMapping;
-    NUIGridArrangement *_gridArrangement;
-    long long _indexForFirstTrailingColumn;
-    long long _totalEqualColumns;
-    NSArray *_spacings;
-    double _widthOfEqualFillColumns;
-    NSArray *_alignments;
-    NSArray *_verticalRowAlignments;
-    struct CGSize _cachedFittingSize;
-    struct CGSize _cachedGridSize;
 }
 
 + (id);
@@ -28,16 +16,17 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (double);
 - (id);
 - (double);
 - (long long);
 - (_Bool);
-- (id);
+- (id)R;
 - (id);
 - (struct CGSize);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,9 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -62,7 +50,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (double);
 - (id);
@@ -74,26 +62,7 @@
 - (long long)SColor",&,N,V_color;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alignments; // @synthesize alignments=_alignments;
-@property(nonatomic) struct CGSize cachedFittingSize; // @synthesize cachedFittingSize=_cachedFittingSize;
-@property(nonatomic) struct CGSize cachedGridSize; // @synthesize cachedGridSize=_cachedGridSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NUIGridArrangement *gridArrangement; // @synthesize gridArrangement=_gridArrangement;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long indexForFirstTrailingColumn; // @synthesize indexForFirstTrailingColumn=_indexForFirstTrailingColumn;
-@property(retain, nonatomic) NSMapTable *itemToRowMapping; // @synthesize itemToRowMapping=_itemToRowMapping;
 @property(retain, nonatomic) NSDictionary *itemsForIndex; // @synthesize itemsForIndex=_itemsForIndex;
-@property(retain, nonatomic) NSArray *itemsForRows; // @synthesize itemsForRows=_itemsForRows;
-@property(retain, nonatomic) NSArray *spacings; // @synthesize spacings=_spacings;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tableContainsRowHeaders; // @synthesize tableContainsRowHeaders=_tableContainsRowHeaders;
-@property(nonatomic) long long totalEqualColumns; // @synthesize totalEqualColumns=_totalEqualColumns;
-@property(retain, nonatomic) NSArray *verticalRowAlignments; // @synthesize verticalRowAlignments=_verticalRowAlignments;
-@property(nonatomic) double widthOfEqualFillColumns; // @synthesize widthOfEqualFillColumns=_widthOfEqualFillColumns;
 
 @end
 

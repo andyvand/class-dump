@@ -12,7 +12,7 @@
 + (id);
 - (id);
 - (void);
-- (void)oupIDError;
+- (void)groupIDError;
 
 @end
 

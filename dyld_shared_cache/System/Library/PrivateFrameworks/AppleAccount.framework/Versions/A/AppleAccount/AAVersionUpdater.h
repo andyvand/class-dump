@@ -9,11 +9,11 @@
     unsigned long long _currentVersion;
 }
 
-- (void);
+- (void)s;
+- (id)ShowHiddenProfiles;
+- (void)source to '%s'; bytes written = %ld; error = %ld;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long)l@¡jF/H}8âÓêñä{aÛÃiùPÝ·e¾É.&¶Ûqc è ¨»>rÍ\zï"}ñÅÅÅùçþÒ|j^gt)VÓ7h34`Jtë;­ÌãíÅD
 ¹ÍftBFLúNnÀä!'\))Y§¢¾ª!ßºb°×K\²ûóT¨í;õOU3×1®¸ýÖ°ßnë«ëS£É÷¨(ã ÁCO¤¤¶GÚMÌ¬=õÄâ±áZ¹7¡2x:?+UZÌ¿]x²DÖRUüÞpÖËénéÃp-á#3xÄp¦ºpû]Èó®fß5gÿ=$K:bz¬jXÒyár5ÁéP<òdjúFqlóÇyN Ù+Ga	9#Þ"å5èà¸|vkÎc°ÈÐÕ/h÷QÝ¶+ÿÃ±ýµËN@¹döH7è'þÐP/Ü®«¤öI¬ÔrÙO¼ÑmëGZGÿRe_á= /* Error: Ran out of types for this method. */;

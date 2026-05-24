@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)showNewMessageCompositionPanelWithRecipients:composition:suggestedReplies:animated:bizIntent:launchPluginWithBundleID:pluginLaunchPayload:simID:sendMessageHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

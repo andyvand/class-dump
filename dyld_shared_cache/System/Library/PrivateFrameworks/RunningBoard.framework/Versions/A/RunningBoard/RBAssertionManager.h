@@ -4,51 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMapTable, NSMutableDictionary, NSMutableSet, NSObject, NSString, RBAssertionCollection, RBAssertionManagerEventQueue, RBAssertionStateResolver, RBProcessIndex, RBProcessMap, RBSystemState;
-@protocol OS_dispatch_queue, RBAssertionDescriptorValidating, RBAssertionManagerDelegate, RBAssertionOriginatorPidPersisting, RBBundlePropertiesManaging, RBDaemonContextProviding, RBTimeProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RBAssertionManager
 {
     NSObject<OS_dispatch_queue> *_workloop;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    struct os_unfair_lock_s _lock;
-    id <RBAssertionManagerDelegate> _delegate;
-    RBAssertionCollection *_assertions;
-    NSMutableDictionary *_pluginHoldsForAssertions;
-    RBProcessIndex *_processIndex;
-    RBProcessMap *_stateMap;
-    NSMutableDictionary *_relativeStartTimesByTargetIdentity;
-    NSMapTable *_originatorExitTimesByAssertion;
-    NSMutableDictionary *_originatorToInFlightOperationsCountMap;
-    NSCountedSet *_inFlightAssertionTargets;
-    NSMutableSet *_inFlightTerminations;
-    struct os_unfair_lock_s _inFlightOperationsLock;
-    id <RBBundlePropertiesManaging> _bundlePropertiesManager;
-    id <RBAssertionDescriptorValidating> _descriptorValidator;
-    id <RBAssertionOriginatorPidPersisting> _originatorPidStore;
-    id <RBTimeProviding> _timeProvider;
-    id <RBDaemonContextProviding> _daemonContext;
-    unsigned long long _maxOperationsInFlight;
-    unsigned long long _maxAssertionsPerOriginator;
-    RBAssertionStateResolver *_stateResolver;
-    RBAssertionManagerEventQueue *_eventQueue;
-    NSMutableSet *_assertionTargets;
-    NSMutableSet *_acquiringAssertionIdentifiers;
-    NSMutableSet *_invalidAssertions;
-    NSMapTable *_savedEndowments;
-    RBSystemState *_systemState;
 }
 
 + (id);
-- (void);
+- (void)_isUnresponsive;
 - (id);
 - (double);
 - (_Bool);
 - (void);
 - (double);
 - (id);
-- (void);
-- (id);
+- (void)__AUTH_CONST;
+- (id)>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_keyedRotation"{vector<std:(id)arg1:(id)arg2 pair<double, float __attribute__((ext_vector_type(3)))>, std:(id)arg3:(id *)arg4 allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_keyedShear"{vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_keyedScale"{vector<std::pair<double, float __attribute__((ext_vector_type(3)))>, std::allocator<std::pair<double, float __attribute__((ext_vector_type(3)))>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"_startTime"d"_greatestTime"d"_identity"B"_resetTransformStack"B"_evaluationTime"d"_transform"{float4x4="columns"[4]}"_invTransform"{float4x4="columns"[4]}"_jacobiRotation"{float4x4="columns"[4]}"_invJacobiRotation"{float4x4="columns"[4]}} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
@@ -58,10 +31,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)RecordID"@"NSError">48@?<v@?Q@"NSDictionary"@"NSDate"@"NSError">56;
+- (void)taskQueueCompletionBlock;
+- (id)board.preferences;
+- (_Bool)NSecKeyRef;
 - (id);
 - (id);
 - (unsigned long long);
@@ -71,18 +44,18 @@
 - (void);
 - (_Bool);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)tionalEdgeInsets=dddd},N,R;
+- (_Bool)&D;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)setMapPredictionEnginesToPredictedTopHit:(id)arg1;
+- (id)[%d] result[%d,%d] %d %d %d %d %d %@ %@ %@ %f %f 0x%16.16llx%16.16llx 0x%16.16llx%16.16llx %@ (%p, %p, %lu);
+- (id)match muid (%@) to valid indexForPromotion (%@);
+- (id)kMDItemPhotosHolidays_n3_prefix;
 - (_Bool);
 - (id);
 - (void);
@@ -90,38 +63,38 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (id)Sequence Number:(id)arg1 received %u, expected %u;
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (double)hasapplemusicartistlistsharepermissions;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (_Bool);
+- (id);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id)ilterSortkeyMatchFromDifferentLanguage factory expects 2 parameters, but specification includes %ld;
+- (void)e;
+- (void)setKeyboardState:(id)arg1 ];
+- (void)`;
 - (double);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -139,18 +112,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)ocess:(id)arg1;
+- (void)setOriginatorProcess:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) RBSystemState *systemState; // @synthesize systemState=_systemState;
 
 @end
 

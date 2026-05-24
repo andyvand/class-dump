@@ -5,7 +5,6 @@
 //
 
 @class NSString;
-@protocol MPCQueueControllerBehaviorMusicDataSourceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _MPCNullQueueFeeder
@@ -13,16 +12,16 @@ __attribute__((visibility("hidden")))
     NSString *_uniqueIdentifier;
 }
 
++ (_Bool)ationPlugin;
 + (_Bool);
-+ (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)filteredServerProvidedFeatures:(id)arg1 forAccount:(long long)arg2;
+- (id)`;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)S;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,21 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsLiveStream;
-@property(readonly, nonatomic) _Bool containsRadioContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPCQueueControllerBehaviorMusicDataSourceDelegate> delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MPCQueueControllerBehaviorMusicDataSourceDelegate>",?,W,N
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface ICLibraryAuthServiceClientTokenIdentifier
 {
     NSNumber *_DSID;
-    NSString *_deviceGUID;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)@;
 - (id);
 - (void);
+- (id);
+- (void)ICMusicKitRequestContext;
 - (id)¹Kßîä²@ÐA:HÜåOúâ4_`Æk{ÃÀªé. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(readonly, copy, nonatomic) NSString *deviceGUID; // @synthesize deviceGUID=_deviceGUID;
 
 @end
 

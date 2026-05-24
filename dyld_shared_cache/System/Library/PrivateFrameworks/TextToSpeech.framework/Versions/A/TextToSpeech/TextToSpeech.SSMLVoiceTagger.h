@@ -7,9 +7,6 @@
 @interface TextToSpeech.SSMLVoiceTagger
 {
     id currentVoiceName;
-    id currentLanguage;
-    id leafPiles;
-    id voiceTagRanges;
 }
 
 - (id);

@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSString, PKPeerPaymentDeviceRegistrationData;
+@class NSString;
 
 @interface PKPeerPaymentServiceRegistrationRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_pushToken;
-    PKPeerPaymentDeviceRegistrationData *_deviceData;
 }
 
 - (void);
@@ -19,10 +18,9 @@
 - (id);
 - (void);
 - (void)bankName;
-- (id)ON_UPDATE_REQUIRED_ERROR_MESSAGE_WATCH;
+- (id)OS_VERSION_UPDATE_REQUIRED_ERROR_MESSAGE_WATCH;
 
 // Remaining properties
-@property(retain, nonatomic) PKPeerPaymentDeviceRegistrationData *deviceData; // @synthesize deviceData=_deviceData;
 @property(copy, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
 
 @end

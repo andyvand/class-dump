@@ -4,107 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AACustodianshipInfo, NSString;
+@class NSString;
 
 @interface AAOBInheritanceInvitationModel
 {
     NSString *_imageName;
-    NSString *_title;
-    NSString *_detailText;
-    NSString *_primaryButton;
-    NSString *_secondaryButton;
-    NSString *_helpLinkTitle;
-    NSString *_helpLinkURL;
-    NSString *_ownerHandle;
-    AACustodianshipInfo *_custodianshipInfo;
-    NSString *_recipientHandle;
 }
 
 + (_Bool);
+- (void)ibrary/LaunchAgents/com.apple.ManagedClientAgent.enrollagent.plist;
+- (void)ileState disable agent job = %s;
+- (void)le message tracer logging result = %d;;
+- (void)error after %.2f secs;
+- (id)llPasscodePolicies requireAlpha = false, so we won't add a policy;
+- (id)%ld) failed.;
+- (id)hFileSystemPath() = NULL;
+- (id)FromFile():CFURLCreateWithFileSystemPath() = NULL /* Error: Ran out of types for this method. */;
+- (id)urationProfiles/Settings/.createStore.lock;
+- (void)lement:(id)arg1 %{public}@;
+- (id)%ld;
+- (id)CP_CreateBootstrapTokenWithAuthentication;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ss_t, uint32_t, IOSurfaceRef);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (void);
+- (id)cancelActivities:(struct _NSZone *)arg1;
 - (id);
 - (void);
 - (id);
-- (void)hContact: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)`R;
+- (void)prepareForCustodianForFlow:withContact: /* Error: Ran out of types for this method. */;
 - (id)em/Library/PrivateFrameworks/CoreCDP.framework/CoreCDP;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) AACustodianshipInfo *custodianshipInfo; // @synthesize custodianshipInfo=_custodianshipInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AACustodianshipInfo",?,C,N,V_custodianshipInfo
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *detailText; // @synthesize detailText=_detailText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_detailText
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *helpLinkTitle; // @synthesize helpLinkTitle=_helpLinkTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_helpLinkTitle
-
-@property(copy, nonatomic) NSString *helpLinkURL; // @synthesize helpLinkURL=_helpLinkURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_helpLinkURL
-
 @property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,C,N,V_imageName
-
-@property(copy, nonatomic) NSString *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *ownerHandle; // @synthesize ownerHandle=_ownerHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_ownerHandle
-
-@property(copy, nonatomic) NSString *primaryButton; // @synthesize primaryButton=_primaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_primaryButton
-
-@property(copy, nonatomic) NSString *recipientHandle; // @synthesize recipientHandle=_recipientHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_recipientHandle
-
-@property(copy, nonatomic) NSString *secondaryButton; // @synthesize secondaryButton=_secondaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_secondaryButton
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_title
 
 
 @end

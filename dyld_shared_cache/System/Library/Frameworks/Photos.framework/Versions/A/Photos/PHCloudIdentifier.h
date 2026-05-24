@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PHPhotoLibrary;
+@class NSString, PHPhotoLibrary;
 
 @interface PHCloudIdentifier
 {
     PHPhotoLibrary *_photoLibrary;
-    NSArray *_extraArchivalComponents;
-    NSString *_identifierCode;
-    NSString *_stableHash;
-    NSString *_localCloudIdentifier;
 }
 
 + (long long);
@@ -23,6 +19,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -30,24 +27,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)LinkAccountToPerformAgeVerification;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
+- (id)callControllerHostConnectionInvalidated:(struct _NSZone *)arg1;
 - (id);
-- (id);
-- (id);
+- (id)devConnection;
 - (void)",R,C,N,V_representedType;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *archivalStringValue;
-@property(readonly, nonatomic) NSString *identifierCode; // @synthesize identifierCode=_identifierCode;
-@property(readonly, nonatomic) NSString *localCloudIdentifier; // @synthesize localCloudIdentifier=_localCloudIdentifier;
-@property(readonly, nonatomic) NSString *stableHash; // @synthesize stableHash=_stableHash;
-@property(readonly, nonatomic) NSString *stringValue;
 
 @end
 

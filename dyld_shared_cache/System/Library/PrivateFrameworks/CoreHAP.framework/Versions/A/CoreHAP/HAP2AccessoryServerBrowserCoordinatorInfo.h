@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
 @protocol HAP2AccessoryServerCoordinatorPrivate;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerBrowserCoordinatorInfo
 {
     id <HAP2AccessoryServerCoordinatorPrivate> _coordinator;
-    NSError *_error;
 }
 
 - (id);
-- (id);
+- (id)resetCannedResponses;
 - (void);
 - (id);
-- (void)y:error: /* Error: Ran out of types for this method. */;
+- (void)readControllerPairingKeyForAccessory:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HAP2AccessoryServerCoordinatorPrivate> coordinator; // @synthesize coordinator=_coordinator;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

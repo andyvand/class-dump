@@ -7,7 +7,6 @@
 @protocol _INPBGetCarLockStatusIntentResponse
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocked;
 @property(nonatomic) _Bool locked;
 @end
 

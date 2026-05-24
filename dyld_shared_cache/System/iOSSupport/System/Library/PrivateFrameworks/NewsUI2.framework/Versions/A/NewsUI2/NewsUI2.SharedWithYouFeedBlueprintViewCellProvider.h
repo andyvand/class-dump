@@ -7,8 +7,6 @@
 @interface NewsUI2.SharedWithYouFeedBlueprintViewCellProvider
 {
     id delegate;
-    id baseStyler;
-    id feedItemRenderer;
 }
 
 @end

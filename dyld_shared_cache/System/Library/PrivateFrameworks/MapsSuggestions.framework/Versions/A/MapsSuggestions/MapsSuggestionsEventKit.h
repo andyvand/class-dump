@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestionsCanKicker, MapsSuggestionsObservers, NSMutableDictionary, NSObject, NSSet, NSString;
-@protocol MapsSuggestionsEventKitConnector, MapsSuggestionsNetworkRequester, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsEventKit
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <MapsSuggestionsEventKitConnector> _connector;
-    id <MapsSuggestionsNetworkRequester> _network;
-    MapsSuggestionsObservers *_observers;
-    MapsSuggestionsCanKicker *_changedNotificationCanKicker;
-    NSSet *_setOfEventReservationSubtypes;
-    NSMutableDictionary *_handleToMapItemMapping;
-    NSMutableDictionary *_handleToMapItemOriginMapping;
 }
 
 - (void);
 - (id);
+- (void))2;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (void);
 - (id);
@@ -33,13 +26,6 @@
 - (void)6@20;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

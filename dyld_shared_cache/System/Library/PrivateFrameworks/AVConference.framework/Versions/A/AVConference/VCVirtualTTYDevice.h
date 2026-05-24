@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, VCAudioIO, VCAudioPayload;
-@protocol OS_dispatch_queue, VCMediaStreamDelegate;
+@class NSObject;
+@protocol VCMediaStreamDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCVirtualTTYDevice
 {
     int _clientPid;
-    struct tagVCAudioFrameFormat _vpioFormat;
-    int deviceRole;
-    _Bool isValid;
-    NSObject<VCMediaStreamDelegate> *delegate;
-    NSObject<OS_dispatch_queue> *delegateNotificationQueue;
-    struct _opaque_pthread_mutex_t sessionLock;
-    int _state;
-    VCAudioPayload *_currentAudioPayload;
-    VCAudioIO *_audioIO;
-    struct SoundDec_t *_decoder;
-    struct opaqueCMSimpleQueue *_charQueue;
-    struct tagVCMemoryPool *_characterPool;
-    id _textStream;
-    unsigned int _audioSessionId;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -46,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (_Bool);
 - (void);
 - (void)%d:(_Bool)arg1 CreateHandle failed with errno=%d;
@@ -54,16 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)idPause:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) NSObject<VCMediaStreamDelegate> *delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property int deviceRole; // @synthesize deviceRole;
-@property(readonly) unsigned long long hash;
-@property _Bool isValid; // @synthesize isValid;
-@property(readonly) Class superclass;
 
 @end
 

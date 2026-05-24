@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CombinedFavoritesController, NSString, SafariWebBookmarkList;
+@class CombinedFavoritesController;
 @protocol FunctionBarFavoritesClient;
 
 __attribute__((visibility("hidden")))
 @interface FunctionBarFavoritesVendor
 {
     CombinedFavoritesController *_combinedFavoritesController;
-    id <FunctionBarFavoritesClient> _client;
-    SafariWebBookmarkList *_vendedFolder;
 }
 
 - (id);
@@ -25,20 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setFindMyBeaconingDaemonServiceDescription:(id)arg1;
 - (void)ü;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canNavigateUp;
 @property(nonatomic) __weak id <FunctionBarFavoritesClient> client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SafariWebBookmarkList *vendedFolder; // @synthesize vendedFolder=_vendedFolder;
 
 @end
 

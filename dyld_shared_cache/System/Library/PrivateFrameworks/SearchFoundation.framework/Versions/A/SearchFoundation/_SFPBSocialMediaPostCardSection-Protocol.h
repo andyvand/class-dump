@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, NSString, _SFPBImage, _SFPBRichText;
 
 @protocol _SFPBSocialMediaPostCardSection
-- (void)n;
+- (void)(;
+- (NSString *);
+- (_SFPBImage *);
+- (_SFPBRichText *)_shouldUseRoundedCorner:forAnnotation:withPageController: /* Error: Ran out of types for this method. */;
+- (_Bool)setDelegatedStorefrontIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setCloudPlaylistID: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void)on;
+- (NSData *)unregisterAvailabilityObserver: /* Error: Ran out of types for this method. */;
+- (void)67;
+- (void)matchesUnengagedSuggestion;
 - (void)ableStandardCardSection",&,N;
-- (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSString *footnote;
-@property(copy, nonatomic) NSString *handle;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) int nameMaxLines;
-@property(nonatomic) _Bool nameNoWrap;
-@property(retain, nonatomic) _SFPBImage *picture;
-@property(retain, nonatomic) _SFPBRichText *post;
-@property(retain, nonatomic) _SFPBImage *profilePicture;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *timestamp;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) _SFPBImage *verifiedGlyph;
 @end
 

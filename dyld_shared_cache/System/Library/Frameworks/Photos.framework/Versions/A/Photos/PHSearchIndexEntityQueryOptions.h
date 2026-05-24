@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, PHPhotoLibrary, PSIDatabase;
+@class PHPhotoLibrary, PSIDatabase;
 
 @interface PHSearchIndexEntityQueryOptions
 {
     PHPhotoLibrary *_photoLibrary;
-    unsigned long long _matchOptions;
-    NSIndexSet *_categories;
-    PSIDatabase *_psiDatabaseForUnitTests;
 }
 
 - (void);
+- (id)),;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (id);
@@ -28,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexSet *categories; // @synthesize categories=_categories;
-@property(nonatomic) unsigned long long matchOptions; // @synthesize matchOptions=_matchOptions;
-@property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 @property(retain, nonatomic) PSIDatabase *psiDatabaseForUnitTests; // @synthesize psiDatabaseForUnitTests=_psiDatabaseForUnitTests;
 
 @end

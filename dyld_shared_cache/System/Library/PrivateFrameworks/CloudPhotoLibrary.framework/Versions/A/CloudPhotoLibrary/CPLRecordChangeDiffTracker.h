@@ -9,7 +9,6 @@
 @interface CPLRecordChangeDiffTracker
 {
     CPLDiffTracker *_diffTracker;
-    unsigned long long _trackingChangeType;
 }
 
 - (_Bool);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id)ªÅ;
+- (id);
 - (id);
 - (void)ÑÐ1Â0@ù
 × ;

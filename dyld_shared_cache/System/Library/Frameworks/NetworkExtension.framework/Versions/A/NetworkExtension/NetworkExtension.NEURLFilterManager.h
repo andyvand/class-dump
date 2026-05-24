@@ -7,13 +7,6 @@
 @interface NetworkExtension.NEURLFilterManager
 {
     id queue;
-    id configuration;
-    id configurationManager;
-    id connection;
-    id statusObserver;
-    id hasLoaded;
-    id delegate;
-    id localizedDescription;
 }
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsArticles.EndOfRecipeBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id decorationProviderFactory;
 }
 
 @end

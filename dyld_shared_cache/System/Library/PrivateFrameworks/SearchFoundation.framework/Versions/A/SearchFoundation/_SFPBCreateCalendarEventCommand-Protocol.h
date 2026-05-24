@@ -7,10 +7,10 @@
 @class NSData, _SFPBCalendarEvent;
 
 @protocol _SFPBCreateCalendarEventCommand
+- (NSData *)PHCollectionListAncestryContext;
 - (void)<;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCalendarEvent *event;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

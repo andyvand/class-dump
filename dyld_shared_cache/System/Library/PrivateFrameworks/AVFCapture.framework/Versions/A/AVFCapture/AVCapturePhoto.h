@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCameraCalibrationData, AVCapturePhotoInternal, AVCaptureResolvedPhotoSettings, AVDepthData, AVPortraitEffectsMatte, NSDictionary, NSString;
+@class AVCapturePhotoInternal;
 
 @interface AVCapturePhoto
 {
@@ -14,73 +14,57 @@
 + (id);
 + (void) ;
 - (id);
-- (void);
+- (void)initWithAccountStoreListener:oauthSignerListener:authenticationDialogListener: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
-- (id);
+- (id)ta Node;
 - (id);
 - (int);
 - (long long);
 - (struct __CVBuffer *);
 - (id);
 - (struct __CVBuffer *);
-- (unsigned int);
-- (id);
+- (unsigned int)ailed.;
+- (id)N5zxing6qrcode11DataMask001E;
 - (_Bool);
 - (struct CGImage *);
 - (_Bool);
-- (id);
-- (id);
+- (id)?;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (struct __CVBuffer *);
 - (unsigned int);
 - (id);
-- (unsigned int);
-- (id);
-- (CDStruct_79c71658);
+- (unsigned int)A;
+- (id)@;
+- (CDStruct_1ef3fb1f);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (struct __CVBuffer *)1Â0@ù
 × ;
 - (long long)tureConnection_Tundra"32;
-- (float)eoVideoCaptureEnabled: /* Error: Ran out of types for this method. */;
-- (struct CGImage *)D: /* Error: Ran out of types for this method. */;
-- (float)eElement;
+- (float)setStereoVideoCaptureEnabled: /* Error: Ran out of types for this method. */;
+- (struct CGImage *)deviceWithUniqueID: /* Error: Ran out of types for this method. */;
+- (float)audioMixerNodeElement;
 - (_Bool)nEnabled:squareCropEnabled:deferredPhotoProxyDimensions:photoProcessingTimeRange:contentAwareDistortionCorrectionEnabled:spatialPhotoCaptureEnabled:photoManifest:digitalFlashUserInterfaceHints:digitalFlashUserInterfaceRGBEstimate:captureBeforeResolvingSettingsEnabled: /* Error: Ran out of types for this method. */;
-- (unsigned int)fflineVideoStabilizationMotionMetadataObjectTypesAvailable: /* Error: Ran out of types for this method. */;
-- (id)Internal;
+- (unsigned int)setOfflineVideoStabilizationMotionMetadataObjectTypesAvailable: /* Error: Ran out of types for this method. */;
+- (id)AVCaptureSynchronizedDataInternal;
 - (id)bundleID:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)CaptureDALDevice >>>> %s:6. fallback code returning device (if any) it found:%@[%c] /* Error: Ran out of types for this method. */;
 - (id)tadataObjectTypesForFrameRateControl;
 - (id)es/AVCaptureVideoPreviewLayer.m;
-- (long long)groundReplacementEnabled;
+- (long long)NSCameraBackgroundReplacementEnabled;
 
 // Remaining properties
-@property(readonly) AVCameraCalibrationData *cameraCalibrationData;
-@property(readonly) float constantColorCenterWeightedMeanConfidenceLevel;
-@property(readonly) struct __CVBuffer *constantColorConfidenceMap;
-@property(readonly, getter=isConstantColorFallbackPhoto) _Bool constantColorFallbackPhoto;
-@property(readonly) AVDepthData *depthData;
-@property(readonly, nonatomic) CDStruct_79c71658 dimensions;
-@property(readonly) NSDictionary *embeddedThumbnailPhotoFormat;
 @property(readonly, nonatomic) AVCapturePhotoInternal *internal; // @synthesize internal=_internal;
-@property(readonly) NSDictionary *metadata;
-@property(readonly) long long photoCount;
-@property(readonly) struct __CVBuffer *pixelBuffer;
-@property(readonly) AVPortraitEffectsMatte *portraitEffectsMatte;
-@property(readonly) struct __CVBuffer *previewPixelBuffer;
-@property(readonly, getter=isRawPhoto) _Bool rawPhoto;
-@property(readonly) AVCaptureResolvedPhotoSettings *resolvedSettings;
-@property(readonly) NSString *sourceDeviceType;
-@property(readonly) CDStruct_1b6d18a9 timestamp;
 
 @end
 

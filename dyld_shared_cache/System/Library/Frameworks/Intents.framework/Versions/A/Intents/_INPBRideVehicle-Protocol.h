@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSString, _INPBImageValue;
+@class GEOLocation, NSString;
 
 @protocol _INPBRideVehicle
+- (void);
 - (_Bool)ssageTypeUnknown will be reformed to notRequired.;
 - (NSString *)	;
 - (void)x!;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasManufacturer;
-@property(readonly, nonatomic) _Bool hasMapAnnotationImage;
-@property(readonly, nonatomic) _Bool hasModel;
-@property(readonly, nonatomic) _Bool hasRegistrationPlate;
 @property(retain, nonatomic) GEOLocation *location;
-@property(copy, nonatomic) NSString *manufacturer;
-@property(retain, nonatomic) _INPBImageValue *mapAnnotationImage;
-@property(copy, nonatomic) NSString *model;
-@property(copy, nonatomic) NSString *registrationPlate;
 @end
 

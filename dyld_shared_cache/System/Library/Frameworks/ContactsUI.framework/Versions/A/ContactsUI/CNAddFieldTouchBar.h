@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSStackView, NSString, NSTouchBar;
 @protocol CNAddFieldTouchBarDelegate;
 
 @interface CNAddFieldTouchBar
 {
     id <CNAddFieldTouchBarDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    NSStackView *_stackView;
-    NSArray *_addContactGroupButtons;
-    NSArray *_addFieldButtons;
 }
 
 + (id);
@@ -21,35 +16,24 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id).ears.status;
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSArray *addContactGroupButtons; // @synthesize addContactGroupButtons=_addContactGroupButtons;
-@property(retain) NSArray *addFieldButtons; // @synthesize addFieldButtons=_addFieldButtons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CNAddFieldTouchBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

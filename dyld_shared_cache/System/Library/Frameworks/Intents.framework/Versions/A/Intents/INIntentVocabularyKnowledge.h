@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)hasThumbnailForURLWrapper:updateLastHitDate:andSize:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

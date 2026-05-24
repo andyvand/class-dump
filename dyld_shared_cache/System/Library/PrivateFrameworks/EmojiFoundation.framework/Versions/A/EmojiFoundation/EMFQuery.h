@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFStringStemmer, NSArray, NSLocale, NSString;
+@class NSArray, NSString;
 
 @interface EMFQuery
 {
     NSArray *_queryTokens;
-    NSArray *_queryTokensAnalyzed;
-    NSString *_normalizedString;
-    NSString *_queryString;
-    NSLocale *_locale;
-    EMFStringStemmer *_stringStemmer;
 }
 
-- (id);
+- (id)ConfirmButton;
+- (id)form changes);
+- (id)dows anyway?;
+- (void)WebKitLocalStorageDatabasePathPreferenceKey;
+- (id)sn.com;
+- (id)SafariHistoryMenu;
+- (id)Group.;
+- (id)already attempting to join this shared Tab Group.;
+- (id)SafariEditMenu;
+- (id)SUOSUSafariController;
+- (id)textLabel;
+- (void)z;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *normalizedQueryString;
 @property(retain, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain, nonatomic) EMFStringStemmer *stringStemmer; // @synthesize stringStemmer=_stringStemmer;
-@property(retain, nonatomic) NSArray *tokens;
-@property(readonly, nonatomic) NSString *trimmedQueryString;
 
 @end
 

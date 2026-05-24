@@ -5,5 +5,6 @@
 //
 
 @protocol RBSymbolAnimatorObserver
+- (void);
 @end
 

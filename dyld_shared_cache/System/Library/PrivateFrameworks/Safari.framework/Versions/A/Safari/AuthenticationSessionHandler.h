@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     AuthenticationSession *_currentSession;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 

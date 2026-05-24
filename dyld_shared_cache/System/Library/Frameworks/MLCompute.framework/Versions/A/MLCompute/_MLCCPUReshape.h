@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id)Parameter;
+- (id)numAccumulatorsPerParameter;
 
 @end
 

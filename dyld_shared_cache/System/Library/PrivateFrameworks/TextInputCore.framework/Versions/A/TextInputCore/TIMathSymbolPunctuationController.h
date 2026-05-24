@@ -9,33 +9,24 @@
 @interface TIMathSymbolPunctuationController
 {
     unsigned long long _state;
-    long long _location;
-    unsigned short _replacementCharacter;
-    _Bool _replaceAfterNumerals;
-    _Bool _enabled;
-    _Bool _converted;
-    NSString *_decimalSeparator;
 }
 
+- (_Bool)transcriptionDidStart:(id)arg1 forCallUUID: /* Error: Ran out of types for this method. */;
+- (void)isEmergencyRTTSupported;
+- (_Bool)_preferenceKeyForSelector: /* Error: Ran out of types for this method. */;
+- (id)ibrary/PrivateFrameworks/LiveTranscription.framework/LiveTranscription;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)collectionView:(id)arg1 pasteboardWriterForItemAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool converted; // @synthesize converted=_converted;
 @property(copy, nonatomic) NSString *decimalSeparator; // @synthesize decimalSeparator=_decimalSeparator;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool replaceAfterNumerals; // @synthesize replaceAfterNumerals=_replaceAfterNumerals;
 
 @end
 

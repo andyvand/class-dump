@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCCampaignReferralConfig
 {
     NSString *_campaignID;
-    NSArray *_autoFavoriteTagIDs;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ocalizations on %@ :(id)arg1 %@;
 - (id);
 - (void)ibrary/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCResourceArchiveFetchOperation.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoFavoriteTagIDs; // @synthesize autoFavoriteTagIDs=_autoFavoriteTagIDs;
 @property(copy, nonatomic) NSString *campaignID; // @synthesize campaignID=_campaignID;
 
 @end

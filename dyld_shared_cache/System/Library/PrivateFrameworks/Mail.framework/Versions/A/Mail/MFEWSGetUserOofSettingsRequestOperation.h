@@ -6,7 +6,7 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class EWSEmailAddress, MFEWSGetUserOofSettingsResponseOperation;
+@class EWSEmailAddress;
 
 @interface MFEWSGetUserOofSettingsRequestOperation : MFEWSRequestOperation
 {
@@ -18,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)´;
 
 // Remaining properties
 @property(readonly, nonatomic) EWSEmailAddress *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain, nonatomic) MFEWSGetUserOofSettingsResponseOperation *responseOperation;
 
 @end
 

@@ -9,39 +9,33 @@
 @interface NSKeyboardShortcut
 {
     NSString *_keyEquivalent;
-    unsigned long long _modifierMask;
 }
 
 + (id);
++ (id)6q24;
 + (id);
++ (void)_ATSHasAppleBundleException;
++ (id)@;
 + (id);
-+ (void);
-+ (id);
-+ (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)__DATA_DIRTY;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id):Tj /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ection:(struct _NSZone *)arg1 didScrollToOffset: /* Error: Ran out of types for this method. */;
+- (id)_orthogonalScrollingSection:(struct _NSZone *)arg1 didScrollToOffset: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(readonly) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
-@property(readonly) NSString *localizedDisplayName;
-@property(readonly) NSString *localizedKeyEquivalentDisplayName;
-@property(readonly) NSString *localizedModifierMaskDisplayName;
-@property(readonly) unsigned long long modifierMask; // @synthesize modifierMask=_modifierMask;
-@property(readonly) NSString *preferencesEncoding;
 
 @end
 

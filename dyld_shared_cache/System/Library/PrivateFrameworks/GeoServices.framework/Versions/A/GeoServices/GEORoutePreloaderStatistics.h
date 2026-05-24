@@ -9,10 +9,6 @@
 @interface GEORoutePreloaderStatistics
 {
     NSDateInterval *_dateInterval;
-    long long _transportType;
-    unsigned long long _tilesPreloaded;
-    unsigned long long _tilesUsed;
-    unsigned long long _tilesMissed;
 }
 
 + (_Bool)ype in GEOComposedWaypointType_Type:%@ /* Error: Ran out of types for this method. */;
@@ -21,7 +17,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)isConstraintViolationError:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(nonatomic) unsigned long long tilesMissed; // @synthesize tilesMissed=_tilesMissed;
-@property(nonatomic) unsigned long long tilesPreloaded; // @synthesize tilesPreloaded=_tilesPreloaded;
-@property(nonatomic) unsigned long long tilesUsed; // @synthesize tilesUsed=_tilesUsed;
-@property(nonatomic) long long transportType; // @synthesize transportType=_transportType;
 
 @end
 

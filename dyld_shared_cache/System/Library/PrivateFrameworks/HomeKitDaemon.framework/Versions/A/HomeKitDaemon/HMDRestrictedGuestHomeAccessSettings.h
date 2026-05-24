@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMRestrictedGuestHomeAccessSchedule, NSArray, NSString;
+@class HMRestrictedGuestHomeAccessSchedule;
 
 __attribute__((visibility("hidden")))
 @interface HMDRestrictedGuestHomeAccessSettings
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_uuidsOfAllowedAccessories;
-    HMRestrictedGuestHomeAccessSchedule *_schedule;
 }
 
 + (_Bool);
@@ -28,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)addContactStorage:(id)arg1;
+- (id)blocked;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id). Using %s.;
 - (void);
 - (_Bool);
 - (void);
@@ -41,16 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *matterWeekDaySchedules;
 @property(copy, nonatomic) HMRestrictedGuestHomeAccessSchedule *schedule; // @synthesize schedule=_schedule;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *uuidsOfAllowedAccessories; // @synthesize uuidsOfAllowedAccessories=_uuidsOfAllowedAccessories;
 
 @end
 

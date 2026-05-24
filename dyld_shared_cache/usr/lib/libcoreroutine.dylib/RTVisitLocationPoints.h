@@ -9,22 +9,20 @@
 @interface RTVisitLocationPoints
 {
     RTLocation *_centroid;
-    NSArray *_locations;
 }
 
 - (id);
 - (id);
-- (double);
+- (double)?;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)ndler: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (id)(;
+- (void)w;
+- (id)purgePlaceInferenceQueriesPredating:handler: /* Error: Ran out of types for this method. */;
 - (void)ensitive}@, last, %{sensitive}@, total, %lu;
 
 // Remaining properties
-@property(readonly, nonatomic) RTLocation *centroid; // @synthesize centroid=_centroid;
 @property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 
 @end

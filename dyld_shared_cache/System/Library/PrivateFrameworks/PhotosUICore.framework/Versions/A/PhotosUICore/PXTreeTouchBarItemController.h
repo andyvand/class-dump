@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSStackView, NSString, NSTouchBarItem, _PXTreeTouchBarSegmentedControl;
-@protocol PXTreeTouchBarItemControllerDataSource, PXTreeTouchBarItemControllerDelegate;
+@class NSString;
 
 @interface PXTreeTouchBarItemController
 {
@@ -13,23 +12,6 @@
         _Bool canSelectItem;
         _Bool didSelectItem;
     } _delegateRespondsTo;
-    struct {
-        _Bool recentItem;
-        _Bool shouldExpandChildrenOfItem;
-    } _dataSourceRespondsTo;
-    struct {
-        _Bool stackView;
-    } _needsUpdateFlags;
-    NSTouchBarItem *_rootTouchBarItem;
-    NSString *_identifier;
-    NSString *_rootTouchBarItemIdentifier;
-    unsigned long long _options;
-    id <PXTreeTouchBarItemControllerDelegate> _delegate;
-    id <PXTreeTouchBarItemControllerDataSource> _dataSource;
-    NSString *_stackViewTouchBarIdentifier;
-    NSMutableArray *_selectedItems;
-    NSStackView *_stackView;
-    _PXTreeTouchBarSegmentedControl *_rootSegmentedControl;
 }
 
 - (id);
@@ -59,36 +41,20 @@
 - (void);
 - (id);
 - (id);
+- (id)offlineModeEnabled;
+- (void)thumbnailAssetHQ;
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id)Processing;
-- (void)yAssetPicker;
+- (unsigned long long)setStreamVBOVertex3DColorTexturePointer: /* Error: Ran out of types for this method. */;
+- (void)dot;
+- (void)ThumbnailPath;
+- (id)needsProcessing;
+- (void)StoryAssetPicker;
 - (void);;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXTreeTouchBarItemControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXTreeTouchBarItemControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) _PXTreeTouchBarSegmentedControl *rootSegmentedControl; // @synthesize rootSegmentedControl=_rootSegmentedControl;
-@property(readonly, nonatomic) NSTouchBarItem *rootTouchBarItem; // @synthesize rootTouchBarItem=_rootTouchBarItem;
-@property(readonly, nonatomic) NSString *rootTouchBarItemIdentifier; // @synthesize rootTouchBarItemIdentifier=_rootTouchBarItemIdentifier;
-@property(readonly, nonatomic) NSMutableArray *selectedItems; // @synthesize selectedItems=_selectedItems;
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
 @property(readonly, nonatomic) NSString *stackViewTouchBarIdentifier; // @synthesize stackViewTouchBarIdentifier=_stackViewTouchBarIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

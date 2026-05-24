@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UINavigationItem, _UINavigationBarItemStackEntry, _UINavigationBarTransitionAssistant;
+@class NSArray;
 @protocol _UINavigationItemChangeObserver;
 
 @interface _UINavigationBarItemStack
 {
     NSArray *_previousItems;
-    NSMutableArray *_items;
-    int _state;
-    id <_UINavigationItemChangeObserver> _changeObserver;
-    _UINavigationBarTransitionAssistant *_transitionAssistant;
 }
 
 - (void);
@@ -21,13 +17,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)@"NSSet";
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)em/Library/Frameworks/iTunesLibrary.framework/iTunesLibrary;
+- (id)ITLibMediaItemPropertyPlayCount;
 - (long long);
 - (id);
 - (void);
@@ -40,44 +36,29 @@
 × ;
 - (int);
 - (id)peration"24@?<v@?Q>32;
-- (_Bool)ayoutInfo: /* Error: Ran out of types for this method. */;
-- (void)stCommitDuration: /* Error: Ran out of types for this method. */;
-- (long long)rSystemItem:(id)arg1 tag:(id)arg2;
-- (id)yle: /* Error: Ran out of types for this method. */;
-- (id)etUpGeometryChangeResponse;
-- (id)ScrollStarted: /* Error: Ran out of types for this method. */;
+- (_Bool)zipOnlyGeometrySetWithLayoutInfo: /* Error: Ran out of types for this method. */;
+- (void)setPostCommitDuration: /* Error: Ran out of types for this method. */;
+- (long long)initWithTabBarSystemItem:(id)arg1 tag:(id)arg2;
+- (id)initWithStyle: /* Error: Ran out of types for this method. */;
+- (id)hasSetUpGeometryChangeResponse;
+- (id)autoScrollStarted: /* Error: Ran out of types for this method. */;
 - (void)r: /* Error: Ran out of types for this method. */;
-- (id)ransitionCoordinator: /* Error: Ran out of types for this method. */;
-- (id)interactionWillDealloc;
-- (id)aseInsetsToIndexBarInsets;
-- (void)rentTest;
+- (id)_super_viewWillTransitionToSize:withTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (id)_interactionWillDealloc;
+- (id)_edgesApplyingBaseInsetsToIndexBarInsets;
+- (void)_completeCurrentTest;
 - (void)legate>",W,N,V_delegate;
-- (void)iewLayout_Mac;
+- (void)_UIFindNavigatorViewLayout_Mac;
 - (_Bool)Ü;
 - (void)ion.;
 - (void)ibraryKey getCHHapticPatternLibraryKeyKeyboardInputSeparator(void);
 - (void)(%d) must be equal to the number of sections contained in the collection view before the update (%d), plus or minus the number of sections inserted or deleted (%d inserted, %d deleted). Collection view:%@ /* Error: Ran out of types for this method. */;
-- (long long)tal;
+- (long long)shakeHorizontal;
 - (void)ÿÿÿÿ;
 - (void)W\;
 
 // Remaining properties
-@property(readonly, nonatomic) _UINavigationBarItemStackEntry *backEntry;
-@property(readonly, nonatomic) UINavigationItem *backItem;
 @property(nonatomic) __weak id <_UINavigationItemChangeObserver> changeObserver; // @synthesize changeObserver=_changeObserver;
-@property(readonly, nonatomic) long long itemCount;
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly, nonatomic, getter=isPopping) _Bool popping;
-@property(readonly, nonatomic) _UINavigationBarItemStackEntry *previousBackEntry;
-@property(readonly, nonatomic) UINavigationItem *previousBackItem;
-@property(readonly, nonatomic) _UINavigationBarItemStackEntry *previousTopEntry;
-@property(readonly, nonatomic) UINavigationItem *previousTopItem;
-@property(readonly, nonatomic, getter=isPushing) _Bool pushing;
-@property(readonly, nonatomic, getter=isPushingOrPopping) _Bool pushingOrPopping;
-@property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly, nonatomic) _UINavigationBarItemStackEntry *topEntry;
-@property(readonly, nonatomic) UINavigationItem *topItem;
-@property(readonly, nonatomic) _UINavigationBarTransitionAssistant *transitionAssistant; // @synthesize transitionAssistant=_transitionAssistant;
 
 @end
 

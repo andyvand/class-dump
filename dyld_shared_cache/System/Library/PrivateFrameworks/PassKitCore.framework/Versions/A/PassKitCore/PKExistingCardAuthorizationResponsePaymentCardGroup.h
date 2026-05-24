@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)jitterBufferUnderflowRateHistogramsCount;
 - (void);
 - (id);
 - (id);
-- (void)hOffer;
+- (void)catalogLoadingCacheCanFetchOffer;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *entries; // @synthesize entries=_entries;

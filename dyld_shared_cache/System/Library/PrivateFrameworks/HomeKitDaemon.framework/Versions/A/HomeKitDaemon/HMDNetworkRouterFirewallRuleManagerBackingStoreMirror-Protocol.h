@@ -4,13 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAFuture;
+@class CKRecordZoneID, HMBProcessingOptions, NAFuture, NSDictionary, NSNumber, NSSet, NSString;
 
 @protocol HMDNetworkRouterFirewallRuleManagerBackingStoreMirror
+- (NSDictionary *)capabilityLevelsDidUpdate:(NSString *)arg1;
+- (NSDictionary *)capabilityLevelForContact:(NSSet *)arg1;
+- (void)addDataDidBecomeAvailableAfterFirstUnlockObserver:(CKRecordZoneID *)arg1;
+- (void)activeHandles;
+- (void)accessQueue;
+- (NSDictionary *)_updateGroupSessionStorage:(HMBProcessingOptions *)arg1;
+- (NSDictionary *)_updateActiveSharingHandles:(HMBProcessingOptions *)arg1 serviceNames:(id *)arg2;
+- (NSDictionary *)_unmappedContents;
+- (NSDictionary *)_transitLineItem;
+- (NSNumber *)ssion rulesPath %@;
+- (_Bool);
 - (NAFuture *)use home is nil:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NAFuture *shutdownFuture;
 @property(readonly, nonatomic) NAFuture *startupFuture;
 @end
 

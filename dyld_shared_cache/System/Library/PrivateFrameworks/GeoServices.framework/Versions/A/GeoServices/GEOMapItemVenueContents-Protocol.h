@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol GEOMapItemVenueContents
-- (NSString *)90;
+- (NSString *)win_distance_km_p90;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *items;
 @property(readonly, nonatomic) NSString *title;
 @end
 

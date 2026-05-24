@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBDrillDownMetadata, _SFPBImage, _SFPBSymbolImage;
+@class NSString;
 
 @interface _SFPBPerformEntityQueryCommand
 {
     int _entityType;
-    NSString *_searchString;
-    NSString *_tokenString;
-    _SFPBSymbolImage *_symbolImage;
-    NSString *_entityIdentifier;
-    _SFPBColor *_entityBackgroundColor;
-    _SFPBDrillDownMetadata *_metadata;
-    _SFPBDrillDownMetadata *_drilldownMetadata;
-    _SFPBImage *_tokenImage;
-    NSArray *_filterQueries;
-    NSArray *_enabledDomains;
-    NSString *_bundleIdentifier;
 }
 
 - (void);
@@ -35,7 +24,62 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ct textureSampler2;
+varying vec2 TexCoord;
+varying vec2 TexCoord1;
+
+//TODO:make a separable blur...
+void main (void)
+{	
+	//1  2  1
+	//2  4  2
+	//1  2  1
+	int		kernelSize = 9;
+	float	accum = 0.0;
+	vec2	aoTexCoord = TexCoord1;	
+	vec3	gaussianKernel[9];
+
+	float weight;
+
+	gaussianKernel[0] = vec3(-1.0,1.0,	1.0);
+	gaussianKernel[1] = vec3(0.0,1.0,	2.0);
+	gaussianKernel[2] = vec3(1.0,1.0,	1.0);
+
+	gaussianKernel[3] = vec3(-1.0,0.0,	2.0);
+	gaussianKernel[4] = vec3(0.0,0.0,	4.0);
+	gaussianKernel[5] = vec3(1.0,0.0,	2.0);
+	
+	gaussianKernel[6] = vec3(-1.0,-1.0,	1.0);
+	gaussianKernel[7] = vec3(0.0,-1.0,	2.0);
+	gaussianKernel[8] = vec3(1.0,-1.0,	1.0);
+
+	vec4 normalDepthCenter = texture2DRect(textureSampler2,aoTexCoord);
+	
+	for(int i = 0; i < kernelSize ; i++) {
+		float coef = gaussianKernel[i].z;
+		vec2 sampleCoord = vec2(aoTexCoord + gaussianKernel[i].xy * 2.0);
+		vec4 sampleDepthCenter = texture2DRect(textureSampler2,sampleCoord);
+		
+		float dotSampleCenter = max(0.0,dot(sampleDepthCenter.xyz,normalDepthCenter.xyz));
+		float deltaZ = normalDepthCenter.a - sampleDepthCenter.a;
+		
+		//if ((dotSampleCenter > 0.5) && (deltaZ < 0.5)) {
+		
+		float coef2 = max(0.0,(1.0 - deltaZ) * dotSampleCenter * coef);
+		
+		accum += texture2DRect(textureSampler1,sampleCoord + 0.5).x * coef2;
+		weight += coef2;
+	}
+	
+	if (weight > 1.0) {
+		accum /= weight;
+	} else {
+		accum = texture2DRect(textureSampler1,aoTexCoord).x;
+	}
+	
+	//accum = texture2DRect(textureSampler1,TexCoord).x;
+	gl_FragColor =	vec4(accum,accum,accum,1.0) * texture2DRect(textureSampler0,TexCoord);
+	} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -47,45 +91,26 @@
 - (id);
 - (void);
 - (int);
-- (id);
-- (unsigned long long);
+- (id)h;
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)predicateForActiveLibraryScope;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (void)"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)ributes;
+- (void)SFPhotosAttributes;
 - (id)È;
 - (id)]Æ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *drilldownMetadata; // @synthesize drilldownMetadata=_drilldownMetadata;
-@property(copy, nonatomic) NSArray *enabledDomains; // @synthesize enabledDomains=_enabledDomains;
-@property(retain, nonatomic) _SFPBColor *entityBackgroundColor; // @synthesize entityBackgroundColor=_entityBackgroundColor;
-@property(copy, nonatomic) NSString *entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(copy, nonatomic) NSArray *filterQueries; // @synthesize filterQueries=_filterQueries;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBDrillDownMetadata *metadata; // @synthesize metadata=_metadata;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBSymbolImage *symbolImage; // @synthesize symbolImage=_symbolImage;
-@property(retain, nonatomic) _SFPBImage *tokenImage; // @synthesize tokenImage=_tokenImage;
-@property(copy, nonatomic) NSString *tokenString; // @synthesize tokenString=_tokenString;
 
 @end
 

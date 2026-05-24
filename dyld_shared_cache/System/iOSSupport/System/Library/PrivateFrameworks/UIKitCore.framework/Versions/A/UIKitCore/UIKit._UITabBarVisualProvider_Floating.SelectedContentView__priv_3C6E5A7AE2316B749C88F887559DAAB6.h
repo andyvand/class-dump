@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)troller;
+- (id)_UIStickerPickerViewController;
 
 @end
 

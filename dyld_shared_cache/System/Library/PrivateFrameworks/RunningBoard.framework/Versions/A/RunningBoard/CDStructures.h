@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct OptionalUID {
-    _Bool set;
-    unsigned int uid;
+    _Bool _field1;
+    unsigned int _field2;
 };
 
 struct ProbeCacheSubqueryIterationAccumulatedState {
@@ -34,19 +34,6 @@ struct os_unfair_lock_s {
 struct os_unfair_recursive_lock_s {
     struct os_unfair_lock_s ourl_lock;
     unsigned int ourl_count;
-};
-
-struct task_suppression_policy {
-    int active;
-    int lowpri_cpu;
-    int timer_throttle;
-    int disk_throttle;
-    int cpu_limit;
-    int suspend;
-    int throughput_qos;
-    int suppressed_cpu;
-    int background_sockets;
-    int reserved[7];
 };
 
 #pragma mark Typedef'd Structures

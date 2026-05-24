@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSCodeEvaluationInfo, NSUUID;
+@class NSUUID;
 
 @interface LSCodeEvaluationOperation
 {
     NSUUID *_identifier;
-    LSCodeEvaluationInfo *_info;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
-- (void);
+- (void)J;
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)newVisibleFunctionTableWithDescriptor:stage:selector: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) LSCodeEvaluationInfo *info; // @synthesize info=_info;
 
 @end
 

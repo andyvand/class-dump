@@ -6,19 +6,15 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCSleepTimerCommand : _MPCPlayerCommand
 {
     double _time;
-    double _fireDate;
-    long long _stopMode;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)to a WFColor. Are there new Focus colors?;
 - (long long);
 - (void);
 - (id);
@@ -28,15 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)dffBBB},R,N,V_duration;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double fireDate; // @synthesize fireDate=_fireDate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long stopMode; // @synthesize stopMode=_stopMode;
-@property(readonly) Class superclass;
 @property(nonatomic) double time; // @synthesize time=_time;
 
 @end

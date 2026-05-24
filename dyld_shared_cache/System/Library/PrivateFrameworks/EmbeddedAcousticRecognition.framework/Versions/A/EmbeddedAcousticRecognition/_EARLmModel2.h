@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id).apple.intents.PersonRelationship.Friend;
 - (id);
 - (shared_ptr_ae20c496);
 - (float);

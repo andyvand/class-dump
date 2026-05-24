@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, RTIInputSystemSourceSession, UIColor, UITextInteractionAssistant, UITextPosition, UITextRange, UIView, WebEvent;
+@class NSArray, NSDictionary, NSString, UIColor, UITextInteractionAssistant, UITextPosition, UITextRange, UITextSuggestion, UIView, WebEvent;
 @protocol UISelectionInteractionAssistant, UITextInputSuggestionDelegate;
 
 @protocol UITextInputPrivate
@@ -12,6 +12,14 @@
 - (void)entType, WebCore::Region>>, WTF::IntHash<WebCore::EventTrackingRegionsEventType>, WTF::HashMap<WebCore::EventTrackingRegionsEventType, WebCore::Region, WTF::IntHash<WebCore::EventTrackingRegionsEventType>, WTF::StrongEnumHashTraits<WebCore::EventTrackingRegionsEventType>>::KeyValuePairTraits, WTF::StrongEnumHashTraits<WebCore::EventTrackingRegionsEventType>>::validateKey(const ValueType &) [Key = WebCore::EventTrackingRegionsEventType, Value = WTF::KeyValuePair<WebCore::EventTrackingRegionsEventType, WebCore::Region>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::EventTrackingRegionsEventType, WebCore::Region>>, HashFunctions = WTF::IntHash<WebCore::EventTrackingRegionsEventType>, Traits = WTF::HashMap<WebCore::EventTrackingRegionsEventType, WebCore::Region, WTF::IntHash<WebCore::EventTrackingRegionsEventType>, WTF::StrongEnumHashTraits<WebCore::EventTrackingRegionsEventType>>::KeyValuePairTraits, KeyTraits = WTF::StrongEnumHashTraits<WebCore::EventTrackingRegionsEventType>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @optional
+- (void)נ;
+- (_Bool);
+- (_Bool);
+- (void)convertModelToScreenOrientationForPoint:(UITextSuggestion *)arg1 relativeToRect:(void (^)(NSSet *))arg2 withPageController: /* Error: Ran out of types for this method. */;
+- (void);
+- (UIView *);
+- (long long)�;
+- (struct CGRect);
 - (void)Tq,N,V_outputFormat;
 - (UIColor *)ô;
 - (UITextRange *)t64_t>, unsigned long long>, WTF:(id *)arg1:(UITextPosition *)arg2 HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebAutomationSessionProxy::JSCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WTF::String &&, WTF::String &&)>>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebAutomationSessionProxy::JSCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WTF::String &&, WTF::String &&)>>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebAutomationSessionProxy::JSCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WTF::String &&, WTF::String &&)>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebAutomationSessionProxy::JSCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WTF::String &&, WTF::String &&)>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebAutomationSessionProxy::JSCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WTF::String &&, WTF::String &&)>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -29,46 +37,9 @@
 - (struct CGRect)tifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::LegacyWebArchive>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::LegacyWebArchive>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id <UISelectionInteractionAssistant>)long long>, WebKit::CoreIPCAuditToken>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)IdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WebKit::CoreIPCAuditToken>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WebKit::CoreIPCAuditToken>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (UIView *).;
 
 // Remaining properties
-@property(readonly, nonatomic) RTIInputSystemSourceSession *_rtiSourceSession;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"RTIInputSystemSourceSession",?,R,N
-
-@property(nonatomic) _Bool _systemCursorAccessoriesDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long _textInputSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool automaticallyAdjustsWritingDirection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) long long cursorBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) UITextInteractionAssistant *interactionAssistant;
-@property(nonatomic) long long selectionGranularity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic) _Bool supportsEmojiImageTextAttachments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImagePaste;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) id <UITextInputSuggestionDelegate> textInputSuggestionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UITextInputSuggestionDelegate>",?,R,N
-
 @end
 

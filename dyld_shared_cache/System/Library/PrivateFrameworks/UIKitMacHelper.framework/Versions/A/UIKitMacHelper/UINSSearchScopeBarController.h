@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSegmentedControl, UISearchBar;
+@class UISearchBar;
 
 __attribute__((visibility("hidden")))
 @interface UINSSearchScopeBarController
 {
     UISearchBar *_uiSearchBar;
-    NSSegmentedControl *_scopeControl;
 }
 
 - (void);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

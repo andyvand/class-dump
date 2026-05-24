@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDAutoscroll, TSDInteractiveCanvasController, TSDKnobTracker, TSDRep, TSDiOSCanvasViewController, UITouch;
+@class TSDInteractiveCanvasController, TSDiOSCanvasViewController;
 
 @interface TSDKnobDragGestureRecognizer
 {
     TSDiOSCanvasViewController *mCVC;
-    TSDInteractiveCanvasController *mICC;
-    UITouch *mTouch;
-    struct CGPoint mKnobToTouchOffset;
-    TSDKnobTracker *mTracker;
-    _Bool mKnobTouchHasMoved;
-    _Bool mDelayHasElapsed;
-    struct CGPoint mOriginalPointInWindow;
-    UITouch *mSecondTouch;
-    TSDRep *mLastHitRep;
-    _Bool mTouchesMoved;
-    TSDAutoscroll *mAutoscroll;
-    struct CGPoint mAutoscrollPoint;
 }
 
-- (void);
-- (double);
+- (void)ntifier:(id)arg1;
+- (double)tamp: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (void);
+- (void)AVMediaCharacteristic;
 - (void);
 - (id);
 - (int);
@@ -48,14 +36,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)types were provided;
 - (id);
-- (void)sectionIndex:(id)arg1 viewScale:(id)arg2 withLayoutOptions:currentSubpathIndex:cachedCurrentElementPercentage: /* Error: Ran out of types for this method. */;
+- (void)p_brushPath:(id)arg1 withScaling:(id)arg2 inElementRange:intoPath:orIntoVector:sectionIndex:viewScale:withLayoutOptions:currentSubpathIndex:cachedCurrentElementPercentage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) TSDAutoscroll *autoscroll; // @synthesize autoscroll=mAutoscroll;
-@property(nonatomic) struct CGPoint autoscrollPoint; // @synthesize autoscrollPoint=mAutoscrollPoint;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *icc;
 @property(readonly, nonatomic) TSDInteractiveCanvasController *interactiveCanvasController; // @synthesize interactiveCanvasController=mICC;
 
 @end

@@ -6,22 +6,18 @@
 
 #import <Silex/SXResourceResponse.h>
 
-@class UIImage;
-
 @interface SXImageResourceResponse : SXResourceResponse
 {
     unsigned long long _imageQuality;
-    UIImage *_image;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)_TtC8NewsFeed22FormatLayeredMediaView;
 - (void);
 - (id);
 - (void)}{CGSize=dd}}32;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(nonatomic) unsigned long long imageQuality; // @synthesize imageQuality=_imageQuality;
 
 @end

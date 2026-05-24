@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PSEnsembleModel;
-
 @interface _PSSuggesterConfiguration
 {
     _Bool _excludeBackfillSuggestions;
-    long long _maximumNumberOfSuggestions;
-    _PSEnsembleModel *_suggestionModel;
 }
 
-+ (id);
++ (id)inantLost_M_L;
 - (id);
 - (id);
-- (void);
+- (void)Q;
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)verifySchemaVersionOfTable:matchesExpectedVersion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool excludeBackfillSuggestions; // @synthesize excludeBackfillSuggestions=_excludeBackfillSuggestions;
 @property(nonatomic) long long maximumNumberOfSuggestions; // @synthesize maximumNumberOfSuggestions=_maximumNumberOfSuggestions;
-@property(retain, nonatomic) _PSEnsembleModel *suggestionModel; // @synthesize suggestionModel=_suggestionModel;
 
 @end
 

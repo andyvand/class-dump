@@ -4,49 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDictionary, NSSet, NSString, NSURL;
+@class NSURL;
 
 @interface RBXPCBundleProperties
 {
     int _pid;
-    NSCache *_plistValues;
-    _Bool _canFetchBundle;
-    _Bool _hasPreferredJetsamBand;
-    _Bool _supportsBackgroundContentFetching;
-    _Bool _supportsBackgroundNetworkAuthentication;
-    _Bool _supportsBackgroundAudio;
-    _Bool _supportsUnboundedTaskCompletion;
-    _Bool _usesSocketMonitoring;
-    _Bool _continuousBackgroundMode;
-    _Bool _isExtension;
-    int _preferredJetsamBand;
-    int _platform;
-    NSString *_identifier;
-    NSString *_path;
-    NSString *_executablePath;
-    NSString *_extensionPointIdentifier;
-    NSURL *_dataContainerURL;
-    NSString *_containerOverrideIdentifier;
-    NSDictionary *_environmentVariables;
-    NSSet *_groupIdentifiers;
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool));
+- (_Bool)ount:%lu random num:%lu date:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)device_supports_mfi_certificates;
+- (id)initWithBuilder:(int)arg1;
 - (id);
 - (id);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -54,31 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *bundlePath; // @synthesize bundlePath=_path;
-@property(readonly, nonatomic) NSString *containerOverrideIdentifier; // @synthesize containerOverrideIdentifier=_containerOverrideIdentifier;
-@property(readonly, nonatomic) _Bool continuousBackgroundMode; // @synthesize continuousBackgroundMode=_continuousBackgroundMode;
 @property(readonly, nonatomic) NSURL *dataContainerURL; // @synthesize dataContainerURL=_dataContainerURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *environmentVariables; // @synthesize environmentVariables=_environmentVariables;
-@property(readonly, copy, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, copy, nonatomic) NSString *extensionPointIdentifier; // @synthesize extensionPointIdentifier=_extensionPointIdentifier;
-@property(readonly, nonatomic) NSSet *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;
-@property(readonly, nonatomic) _Bool hasPreferredJetsamBand; // @synthesize hasPreferredJetsamBand=_hasPreferredJetsamBand;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isExtension; // @synthesize isExtension=_isExtension;
-@property(readonly, nonatomic) int platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) int preferredJetsamBand; // @synthesize preferredJetsamBand=_preferredJetsamBand;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsBackgroundAudio; // @synthesize supportsBackgroundAudio=_supportsBackgroundAudio;
-@property(readonly, nonatomic) _Bool supportsBackgroundContentFetching; // @synthesize supportsBackgroundContentFetching=_supportsBackgroundContentFetching;
-@property(readonly, nonatomic) _Bool supportsBackgroundNetworkAuthentication; // @synthesize supportsBackgroundNetworkAuthentication=_supportsBackgroundNetworkAuthentication;
-@property(readonly, nonatomic) _Bool supportsUnboundedTaskCompletion; // @synthesize supportsUnboundedTaskCompletion=_supportsUnboundedTaskCompletion;
-@property(readonly, nonatomic) _Bool usesSocketMonitoring; // @synthesize usesSocketMonitoring=_usesSocketMonitoring;
 
 @end
 

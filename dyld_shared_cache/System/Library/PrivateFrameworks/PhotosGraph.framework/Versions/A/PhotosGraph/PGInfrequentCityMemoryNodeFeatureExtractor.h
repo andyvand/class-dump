@@ -10,11 +10,11 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)blackComponent;
+- (id)_navigateToTheNextValidElementFromElement:(long long)arg1 direction:(id)arg2 type:(id *)arg3;
+- (id)_launchPadGridElementController;
+- (id)_insertRange:(id)arg1 intoArray:(long long)arg2 atIndex:(id)arg3;
+- (id)h;
 
 @end
 

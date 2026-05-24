@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface PPTopicMetadata
 {
     _Bool _exactMatchInSourceText;
-    unsigned short _impressionCount;
-    unsigned short _occurrencesInSource;
-    unsigned short _algorithmResultPosition;
-    unsigned short _algorithmResultCount;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)defaultWidthForInkType:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -34,12 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short algorithmResultCount; // @synthesize algorithmResultCount=_algorithmResultCount;
-@property(readonly, nonatomic) unsigned short algorithmResultPosition; // @synthesize algorithmResultPosition=_algorithmResultPosition;
-@property(readonly, nonatomic) _Bool exactMatchInSourceText; // @synthesize exactMatchInSourceText=_exactMatchInSourceText;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(readonly, nonatomic) unsigned short impressionCount; // @synthesize impressionCount=_impressionCount;
-@property(readonly, nonatomic) unsigned short occurrencesInSource; // @synthesize occurrencesInSource=_occurrencesInSource;
 
 @end
 

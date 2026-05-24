@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, HMDAccessoryAdvertisement, HMFMessageDispatcher, NSData, NSNumber, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDAccessoryAdvertisement, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnassociatedAccessory
 {
     NSUUID *_uuid;
-    struct os_unfair_recursive_lock_s _lock;
-    NSString *_name;
-    HMAccessoryCategory *_category;
-    NSNumber *_matterDeviceTypeID;
-    NSString *_identifier;
-    long long _associationOptions;
-    HMDAccessoryAdvertisement *_accessoryAdvertisement;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSData *_rootPublicKey;
-    NSNumber *_nodeID;
-    NSString *_serialNumber;
-    NSUUID *_commissioningID;
-    NSNumber *_vendorID;
-    NSNumber *_productID;
 }
 
 + (id);
@@ -33,11 +18,11 @@ __attribute__((visibility("hidden")))
 + (id)B;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)lastETAUpdateDates;
+- (id)MapsSharedETADefaultSender;
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)~;
 - (_Bool);
 - (void);
 - (void);
@@ -51,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)promise url;
 - (id);
 - (id);
 - (id);
@@ -59,11 +44,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)ib;
 - (id)@"<HMDHomeActivityStateAggregatedVacationStateProviding>";
 - (id)UUID"24;
-- (id)baseID;
+- (id)MKFTimePeriodBulletinConditionDatabaseID;
 - (void);
 - (id)èùþÜùþÐùþÄùþpùþ,ùþÈ ùþ$ùþX'ùþL*ùþD,ùþô-ùþ¼2ùþ´4ùþ`6ùþø6ùþ7ùþ(8ùþÀ8ùþX9ùþð9ùþ´=ùþÌEùþxHùþ$KùþÐMùþ|PùþQùþ¬Xùþ8YùþÌYùþXZùþÄ\ùþh]ùþü]ùþ ^ùþ4_ùþØ_ùþaùþ°aùþDbùþècùþ,hùþÄjùþ¸nùþDqùþ(rùþÀÄÊþ´|ùþ ùþ°ÏùþhÔùþTÜùþd'úþ|9úþè:úþ|Dúþ RúþàVúþL\úþ cúþðfúþ<íúþþúþ`	ûþ¸ûþ\ûþü"ûþÐ1ûþXQûþx[ûþ8tûþ}ûþûþtûþ,ûþàûþºûþ0ÅûþÐûþÔüþ°¢üþü®üþ¼¹üþXÇüþãüþ¬ýþ "ýþtHýþÌQýþ$kýþ|rýþ zýþýþôòýþ øýþýýþä þþàíþþhÿþìÿþÿþÿþ Èþ°	ÈþÈþ´VÈþ|nÈþ |ÈþÈþÈÈþ¬ýÈþ /* Error: Ran out of types for this method. */;
 - (id){public}@Failed to route message due to ready preference error:%@ /* Error: Ran out of types for this method. */;
@@ -75,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)4;
 - (void).Controller;
 - (id)dateAfter AND dateCreated < :dateBefore ORDER BY dateCreated ASC /* Error: Ran out of types for this method. */;
-- (id)ingMatCredGRK;
+- (id)preexistingMatCredGRK;
 - (void)mwareUpdateScheduler scheduleWithDelay:(id)arg1 ];
 - (id);
 - (void);
@@ -83,36 +68,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HMDAccessoryAdvertisement *accessoryAdvertisement; // @synthesize accessoryAdvertisement=_accessoryAdvertisement;
-@property(readonly) long long associationOptions; // @synthesize associationOptions=_associationOptions;
-@property(retain) HMAccessoryCategory *category; // @synthesize category=_category;
-@property(copy) NSUUID *commissioningID; // @synthesize commissioningID=_commissioningID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, getter=isKnownToSystemCommissioner) _Bool knownToSystemCommissioner;
-@property(copy) NSNumber *matterDeviceTypeID; // @synthesize matterDeviceTypeID=_matterDeviceTypeID;
-@property(readonly, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSNumber *nodeID; // @synthesize nodeID=_nodeID;
-@property(copy) NSNumber *productID; // @synthesize productID=_productID;
-@property(readonly, getter=isReachable) _Bool reachable;
-@property(readonly) _Bool requiresThreadRouter;
-@property(readonly, copy) NSData *rootPublicKey; // @synthesize rootPublicKey=_rootPublicKey;
-@property(copy) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsCHIP;
-@property(readonly) unsigned long long transportTypes;
-@property(copy, setter=setUUID:) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(copy) NSNumber *vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PXAssetBadgeManager, PXAssetsDataSource, PXAssetsDataSourceManager, PXAssetsTilingLayout, PXMediaProvider, PXReusableObjectPool, PXScrollViewSpeedometer, PXSectionedSelectionManager, PXTilingController;
-@protocol PXAssetsSceneDelegate;
+@class PXAssetsDataSource;
 
 @interface PXAssetsScene
 {
     _Bool _isPerformingChanges;
-    _Bool _isPerformingUpdates;
-    _Bool _hasScheduledUpdate;
-    struct {
-        _Bool layout;
-    } _needsUpdateFlags;
-    struct {
-        _Bool respondsToTileIdentifierConverterForChange;
-        _Bool respondsToWillTransitionToDataSource;
-        _Bool respondsToDidTransitionToDataSource;
-        _Bool respondsToTransitionAnimationCoordinatorForChange;
-    } _delegateFlags;
-    _Bool _isAskingForTileIdentifierConverter;
-    _Bool _isAskingForTransitionAnimationCoordinator;
-    _Bool _animatesContent;
-    _Bool _autoplayTilesWaitForInput;
-    id <PXAssetsSceneDelegate> _delegate;
-    PXTilingController *_tilingController;
-    PXMediaProvider *_mediaProvider;
-    PXAssetsDataSourceManager *_dataSourceManager;
-    PXSectionedSelectionManager *_selectionManager;
-    PXAssetBadgeManager *_badgeManager;
-    PXScrollViewSpeedometer *_scrollSpeedometer;
-    PXReusableObjectPool *_viewTileReusePool;
-    PXAssetsDataSource *__dataSource;
-    NSMutableArray *__anchors;
-    unsigned long long _autoplayBehavior;
 }
 
 - (void);
@@ -68,45 +41,24 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void)collection;
+- (void);
+- (void);
+- (void);
+- (id)9;
 - (void);
 - (id)emImageName;
 - (void)"<PXPlacesGeotaggable>"8@"<PXPlacesGeotaggable>"16;
 - (void)D´tVqÿ;
-- (_Bool)sentAction;
+- (_Bool)__Key_accountViewPresentAction;
 - (void)Ó;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *_anchors; // @synthesize _anchors=__anchors;
 @property(retain, nonatomic, setter=_setDataSource:) PXAssetsDataSource *_dataSource; // @synthesize _dataSource=__dataSource;
-@property(nonatomic) _Bool animatesContent; // @synthesize animatesContent=_animatesContent;
-@property(nonatomic) unsigned long long autoplayBehavior; // @synthesize autoplayBehavior=_autoplayBehavior;
-@property(nonatomic) _Bool autoplayTilesWaitForInput; // @synthesize autoplayTilesWaitForInput=_autoplayTilesWaitForInput;
-@property(readonly, nonatomic) PXAssetBadgeManager *badgeManager; // @synthesize badgeManager=_badgeManager;
-@property(readonly, nonatomic) PXAssetsTilingLayout *currentLayout;
-@property(readonly, nonatomic) PXAssetsDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXAssetsSceneDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) PXScrollViewSpeedometer *scrollSpeedometer; // @synthesize scrollSpeedometer=_scrollSpeedometer;
-@property(readonly, nonatomic) PXSectionedSelectionManager *selectionManager; // @synthesize selectionManager=_selectionManager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXAssetsTilingLayout *targetLayout;
-@property(readonly, nonatomic) PXTilingController *tilingController; // @synthesize tilingController=_tilingController;
-@property(readonly, nonatomic) PXReusableObjectPool *viewTileReusePool; // @synthesize viewTileReusePool=_viewTileReusePool;
 
 @end
 

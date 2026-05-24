@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__objc_classlist__DATA_CONST;
 - (void)sonNameComponents.phoneticRepresentation.middleName;
 - (id);
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CNGroupIdentityActionItemDelegate
+
+@optional
+- (void)|;
 @end
 

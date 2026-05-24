@@ -10,8 +10,8 @@
 }
 
 + (void);
-+ (void);
-+ (id);
++ (void);
++ (id)__TEXT;
 - (id);
 - (id);
 - (id);
@@ -27,9 +27,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +37,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -51,7 +51,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_isDataAttached;
 - (void);
 - (_Bool);
 - (id);

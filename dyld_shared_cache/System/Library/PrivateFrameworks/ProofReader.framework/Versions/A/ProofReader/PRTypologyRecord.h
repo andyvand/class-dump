@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, NSValue, PRLanguage;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PRTypologyRecord
 {
     NSString *_string;
-    struct _NSRange _range;
-    PRLanguage *_langObj;
-    NSArray *_languages;
-    NSString *_appIdentifier;
-    NSValue *_selectedRangeValue;
-    NSArray *_topLanguages;
-    NSArray *_keyEventArray;
-    NSMutableArray *_typologyCorrections;
-    NSMutableArray *_typologyCandidates;
-    NSArray *_results;
-    double _openTime;
-    double _closeTime;
-    unsigned long long _offset;
-    _Bool _autocorrect;
-    _Bool _initialCapitalize;
-    _Bool _autocapitalize;
-    _Bool _isOpen;
 }
 
 + (void);
@@ -37,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 

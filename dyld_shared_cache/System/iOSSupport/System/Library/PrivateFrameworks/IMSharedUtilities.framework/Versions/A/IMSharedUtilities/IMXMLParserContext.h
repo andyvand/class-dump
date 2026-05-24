@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface IMXMLParserContext
 {
     NSData *_inContentAsData;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSData *inContentAsData; // @synthesize inContentAsData=_inContentAsData;
-@property(readonly, retain) NSString *name;
-@property(readonly, retain) NSArray *resultsForLogging;
 
 @end
 

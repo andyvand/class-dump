@@ -9,25 +9,18 @@
 @interface ML3MigrationAddedColumn
 {
     NSString *_columnName;
-    NSString *_foreignTableName;
-    NSString *_foreignColumnName;
-    NSString *_joinColumnName;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)_applyColorSpaceAndCodecUsingFileToExternalResource:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)lustering;
+- (id),V_pendingJobsCount;
+- (id)unpauseLaunchEventNotifications;
+- (id)edSaveNotification;
 - (id);
 - (void)ubscription_store_item_id, cloud_universal_library_id, store_item_id, cloud_status, in_my_library, playback_endpoint_type FROM item LEFT OUTER JOIN item_store USING (item_pid) WHERE item_pid;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *columnName; // @synthesize columnName=_columnName;
-@property(readonly, nonatomic) NSString *foreignColumnName; // @synthesize foreignColumnName=_foreignColumnName;
-@property(readonly, nonatomic) NSString *foreignTableName; // @synthesize foreignTableName=_foreignTableName;
-@property(readonly, nonatomic) NSString *joinColumnName; // @synthesize joinColumnName=_joinColumnName;
-@property(readonly, nonatomic) _Bool shouldImportFromForeignTable;
 
 @end
 

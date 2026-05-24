@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDHomeActivityHomeAwayUserStatesDetails;
+@class HMDHomeActivityHomeAwayUserStatesDetails;
 
 @interface HMDDefaultHomeUserActivityStatesDetails
 {
     HMDHomeActivityHomeAwayUserStatesDetails *homeAwayUserStatesDetails;
 }
 
-- (_Bool);
+- (_Bool)78;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool anyUserAtHome;
-@property(nonatomic, readonly) HMDHome *home;
 @property(nonatomic, readonly) HMDHomeActivityHomeAwayUserStatesDetails *homeAwayUserStatesDetails; // @synthesize homeAwayUserStatesDetails;
-@property(nonatomic, readonly) _Bool noUserAtHome;
 
 @end
 

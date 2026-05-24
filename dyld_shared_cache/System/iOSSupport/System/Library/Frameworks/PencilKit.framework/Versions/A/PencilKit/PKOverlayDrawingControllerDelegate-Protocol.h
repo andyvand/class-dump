@@ -5,5 +5,6 @@
 //
 
 @protocol PKOverlayDrawingControllerDelegate
+- (struct CGAffineTransform);
 @end
 

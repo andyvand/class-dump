@@ -7,7 +7,8 @@
 @class ICUserIdentity;
 
 @protocol MPUserIdentityConsuming
-- (ICUserIdentity *)laybackRates;
+- (void);
+- (ICUserIdentity *)_supportedPlaybackRates;
 
 // Remaining properties
 @property(copy, nonatomic) ICUserIdentity *userIdentity;

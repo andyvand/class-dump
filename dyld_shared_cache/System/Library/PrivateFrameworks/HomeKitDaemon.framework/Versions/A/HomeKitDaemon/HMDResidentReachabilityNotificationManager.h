@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBulletinBoard, HMDHome, HMDIDSServerBag, HMDRemoteDeviceMonitor, HMDResidentReachabilityContext, HMFTimer, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentReachabilityNotificationManager
 {
     _Bool _notificationEnabled;
-    _Bool _isUserPreferredReachable;
-    HMDResidentReachabilityContext *_reachabilityContext;
-    HMDHome *_home;
-    HMDRemoteDeviceMonitor *_deviceMonitor;
-    CDUnknownBlockType _timerFactory;
-    HMDBulletinBoard *_bulletinBoard;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDIDSServerBag *_idsServerBag;
-    HMFTimer *_evaluateDebounceTimer;
-    HMFTimer *_unreachableBulletinDebounceTimer;
-    double _primaryResidentUnreachableTime;
-    HMFTimer *_userPreferredReachabilityBulletinDebounceTimer;
-    NSString *_previousPrimary;
-    NSString *_electedPrimary;
-    HMDResidentReachabilityContext *_userPreferredReachabilityContext;
 }
 
 + (id)RB;
@@ -46,18 +30,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)setCreationDatetime: /* Error: Ran out of types for this method. */;
+- (id)_identifierToMapsStatus;
+- (id)_iconFallbackShield;
+- (_Bool)r] will not accept connection due to missing entitlements:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)have authorisation for Contacts;
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
@@ -79,37 +63,12 @@ __attribute__((visibility("hidden")))
 - (id)SString",R,N,V_requestID;
 - (id)for target %@ with value:%@, configNum:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (void)et natural lighting for all matter light profiles with error:(id)arg1 %@;
-- (void)cessorySensor;
+- (void)HMDAppleMediaAccessorySensor;
 - (id)Êz
 Ð?;
 
 // Remaining properties
-@property(readonly) _Bool anyEnabledResidentSupportsReachabilityNotifications;
-@property(readonly) HMDBulletinBoard *bulletinBoard; // @synthesize bulletinBoard=_bulletinBoard;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) __weak HMDRemoteDeviceMonitor *deviceMonitor; // @synthesize deviceMonitor=_deviceMonitor;
-@property(retain, nonatomic) NSString *electedPrimary; // @synthesize electedPrimary=_electedPrimary;
-@property(retain) HMFTimer *evaluateDebounceTimer; // @synthesize evaluateDebounceTimer=_evaluateDebounceTimer;
-@property(readonly) _Bool hasMultipleResidents;
-@property(readonly) _Bool hasReachableResidents;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) __weak HMDIDSServerBag *idsServerBag; // @synthesize idsServerBag=_idsServerBag;
-@property(nonatomic) _Bool isUserPreferredReachable; // @synthesize isUserPreferredReachable=_isUserPreferredReachable;
-@property _Bool notificationEnabled; // @synthesize notificationEnabled=_notificationEnabled;
-@property(retain, nonatomic) NSString *previousPrimary; // @synthesize previousPrimary=_previousPrimary;
-@property double primaryResidentUnreachableTime; // @synthesize primaryResidentUnreachableTime=_primaryResidentUnreachableTime;
-@property(retain) HMDResidentReachabilityContext *reachabilityContext; // @synthesize reachabilityContext=_reachabilityContext;
-@property(readonly) Class superclass;
-@property(readonly, copy) CDUnknownBlockType timerFactory; // @synthesize timerFactory=_timerFactory;
-@property(retain) HMFTimer *unreachableBulletinDebounceTimer; // @synthesize unreachableBulletinDebounceTimer=_unreachableBulletinDebounceTimer;
-@property(retain, nonatomic) HMFTimer *userPreferredReachabilityBulletinDebounceTimer; // @synthesize userPreferredReachabilityBulletinDebounceTimer=_userPreferredReachabilityBulletinDebounceTimer;
-@property(retain) HMDResidentReachabilityContext *userPreferredReachabilityContext; // @synthesize userPreferredReachabilityContext=_userPreferredReachabilityContext;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

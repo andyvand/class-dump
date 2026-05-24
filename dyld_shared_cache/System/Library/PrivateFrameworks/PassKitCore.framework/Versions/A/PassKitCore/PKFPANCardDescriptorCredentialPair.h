@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAutoFillCardCredential, PKFPANCardDescriptor;
+@class PKFPANCardDescriptor;
 
 @interface PKFPANCardDescriptorCredentialPair
 {
     PKFPANCardDescriptor *_descriptor;
-    PKAutoFillCardCredential *_credential;
 }
 
 - (id);
 - (void);
-- (id);
-- (id)ditions;
+- (id);
+- (id)PKSuppressDefaultCardholderNameFieldAdditions;
 - (void)r:'%@';  /* Error: Ran out of types for this method. */;
 - (void)ÿiñ ;
 
 // Remaining properties
-@property(retain, nonatomic) PKAutoFillCardCredential *credential; // @synthesize credential=_credential;
 @property(retain, nonatomic) PKFPANCardDescriptor *descriptor; // @synthesize descriptor=_descriptor;
 
 @end

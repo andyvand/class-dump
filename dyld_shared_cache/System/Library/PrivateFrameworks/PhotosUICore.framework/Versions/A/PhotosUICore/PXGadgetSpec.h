@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, PXExtendedTraitCollection;
+@class PXExtendedTraitCollection;
 
 @interface PXGadgetSpec
 {
     _Bool _shouldInsetAllContent;
-    _Bool _shouldUseAccessibilityLayout;
-    long long _scrollAxis;
-    double _interItemSpacing;
-    long long _userInterfaceIdiom;
-    long long _layoutSizeClass;
-    long long _layoutOrientation;
-    long long _layoutDirection;
-    double _displayScale;
-    double _layoutReferenceWidth;
-    double _layoutReferenceHeight;
-    double _fixedColumnWidth;
-    NSColor *_backgroundColor;
-    PXExtendedTraitCollection *_extendedTraitCollection;
-    struct NSEdgeInsets _contentInsets;
-    struct NSEdgeInsets _layoutInsets;
-    struct NSEdgeInsets _accessoryViewInset;
 }
 
 + (double);
@@ -32,12 +16,12 @@
 + (double);
 + (double);
 + (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (double);
 - (double);
@@ -61,24 +45,7 @@
 - (long long)?;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSEdgeInsets accessoryViewInset; // @synthesize accessoryViewInset=_accessoryViewInset;
-@property(readonly, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
 @property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection; // @synthesize extendedTraitCollection=_extendedTraitCollection;
-@property(readonly, nonatomic) double fixedColumnWidth; // @synthesize fixedColumnWidth=_fixedColumnWidth;
-@property(readonly, nonatomic) double interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;
-@property(readonly, nonatomic) long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(readonly, nonatomic) struct NSEdgeInsets layoutInsets; // @synthesize layoutInsets=_layoutInsets;
-@property(readonly, nonatomic) long long layoutOrientation; // @synthesize layoutOrientation=_layoutOrientation;
-@property(readonly, nonatomic) double layoutReferenceHeight; // @synthesize layoutReferenceHeight=_layoutReferenceHeight;
-@property(readonly, nonatomic) double layoutReferenceWidth; // @synthesize layoutReferenceWidth=_layoutReferenceWidth;
-@property(readonly, nonatomic) long long layoutSizeClass; // @synthesize layoutSizeClass=_layoutSizeClass;
-@property(readonly, nonatomic) PXExtendedTraitCollection *rootExtendedTraitCollection;
-@property(readonly, nonatomic) long long scrollAxis; // @synthesize scrollAxis=_scrollAxis;
-@property(readonly, nonatomic) _Bool shouldInsetAllContent; // @synthesize shouldInsetAllContent=_shouldInsetAllContent;
-@property(readonly, nonatomic) _Bool shouldUseAccessibilityLayout; // @synthesize shouldUseAccessibilityLayout=_shouldUseAccessibilityLayout;
-@property(readonly, nonatomic) long long userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
 
 @end
 

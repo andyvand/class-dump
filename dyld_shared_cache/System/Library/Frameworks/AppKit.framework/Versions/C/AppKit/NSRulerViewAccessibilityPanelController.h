@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButton, NSRulerView, NSTextField, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSRulerViewAccessibilityPanelController
 {
     NSWindow *_accessibilityPanel;
-    NSTextField *_valueField;
-    NSPopUpButton *_markerTypeButton;
-    NSRulerView *_rulerView;
 }
 
 - (void);
 - (id);
+- (id)_expectingResumeCallback;
+- (void)e a background NSURLSessionUploadTask, as remote session is unavailable;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

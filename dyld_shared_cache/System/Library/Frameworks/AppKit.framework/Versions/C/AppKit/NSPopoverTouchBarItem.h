@@ -6,44 +6,19 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSImage, NSString, NSTouchBar, NSView;
+@class NSTouchBar;
 
 @interface NSPopoverTouchBarItem : NSTouchBarItem
 {
     NSTouchBar *_popoverTouchBar;
-    NSTouchBar *_pressAndHoldTouchBar;
-    id _overlay;
-    NSString *_customizationLabel;
-    NSView *_collapsedRepresentation;
-    NSImage *_collapsedRepresentationImage;
-    NSString *_collapsedRepresentationLabel;
-    CDUnknownBlockType _closeButtonHandler;
-    unsigned int _showsCloseButton:1;
-    unsigned int _showsControlStrip:1;
-    unsigned int _collapsedRepresentationChevronBehavior:2;
-    unsigned int _preventUserDismissal:1;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)rtificate:forHost: /* Error: Ran out of types for this method. */;
++ (id)blic}@ querying AuthBrokerAgent;
++ (id)e;
 
 // Remaining properties
-@property(retain) NSView *collapsedRepresentation;
-@property(retain) NSImage *collapsedRepresentationImage;
-@property(retain) NSString *collapsedRepresentationLabel;
-@property(copy) NSString *customizationLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool isPresented;
-@property(retain) NSTouchBar *popoverTouchBar;
-@property(retain) NSTouchBar *pressAndHoldTouchBar;
-@property _Bool showsCloseButton;
-@property(readonly) Class superclass;
 
 @end
 

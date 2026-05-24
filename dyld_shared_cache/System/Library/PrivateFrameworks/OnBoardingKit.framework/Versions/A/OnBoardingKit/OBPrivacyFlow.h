@@ -6,16 +6,11 @@
 
 #import <OnBoardingKit/OBFlow.h>
 
-@class NSArray, NSAttributedString, NSDictionary, NSImage, NSString, OBBundle;
+@class NSString, OBBundle;
 
 @interface OBPrivacyFlow : OBFlow
 {
     NSString *_splashContentName;
-    NSDictionary *_splashPlist;
-    _Bool _buttonIconLoaded;
-    NSImage *_buttonIcon;
-    _Bool _splashPListContainsLegacyStringKeys;
-    OBBundle *_bundle;
 }
 
 - (_Bool);
@@ -28,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,7 +35,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -54,7 +49,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -78,20 +73,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) OBBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) NSImage *buttonIcon;
-@property(readonly, nonatomic) unsigned long long contentVersion;
-@property(readonly, nonatomic) _Bool enablesGroupingInCombinedList;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *localizedButtonCaption;
-@property(readonly, nonatomic) NSString *localizedButtonTitle;
-@property(readonly, nonatomic) NSAttributedString *localizedCombinedFooter;
-@property(readonly, nonatomic) NSString *localizedCombinedHeader;
-@property(readonly, nonatomic) NSArray *localizedContentList;
-@property(readonly, nonatomic) NSString *localizedShortTitle;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic, getter=isPersonallyIdentifiable) _Bool personallyIdentifiable;
-@property(readonly, nonatomic) _Bool platformSupported;
-@property(readonly, nonatomic) _Bool showInCombinedList;
 
 @end
 

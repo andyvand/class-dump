@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallDeclineSent
 {
     unsigned long long _timestamp;
-    unsigned int _declineCode;
-    int _errorCode;
-    NSString *_guid;
-    unsigned int _isVideo;
-    unsigned int _onLockScreen;
-    unsigned int _sendDuration;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int declineCode:1;
-        unsigned int errorCode:1;
-        unsigned int isVideo:1;
-        unsigned int onLockScreen:1;
-        unsigned int sendDuration:1;
-    } _has;
 }
 
 - (void);
@@ -34,7 +18,7 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)jAk;
 - (unsigned int);
 - (void);
 - (_Bool);
@@ -56,29 +40,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q;
 - (_Bool);
 - (id)nelOs"b1"sockDomainInet"b1"sockDomainInet6"b1"sockDomainKey"b1"sockDomainLocal"b1"sockDomainMultipath"b1"sockDomainNdrv"b1"sockDomainOther"b1"sockDomainRoute"b1"sockDomainSystem"b1"sockFltrRegister"b1"sockFltrRegisterOs"b1"sockInetMcastJoin"b1"sockInetMcastJoinOs"b1"sockNecpClientuuidCount"b1"sockNetInet6Dgram"b1"sockNetInet6DgramConnected"b1"sockNetInet6DgramDns"b1"sockNetInet6DgramNoData"b1"sockNetInet6Stream"b1"sockNetInetDgram"b1"sockNetInetDgramConnected"b1"sockNetInetDgramDns"b1"sockNetInetDgramNoData"b1"sockNetInetStream"b1"timeSinceLastReport"b1"timestamp"b1"vmnetStart"b1"ifNetagentEnabled"b1};
-- (void)redictedLocationOfInterest:(int)arg1;
+- (void)setPredictedLocationOfInterest:(int)arg1;
 - (int)l`3;
 - (void)µ 
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned int declineCode; // @synthesize declineCode=_declineCode;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasDeclineCode;
-@property(nonatomic) _Bool hasErrorCode;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasSendDuration;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned int sendDuration; // @synthesize sendDuration=_sendDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

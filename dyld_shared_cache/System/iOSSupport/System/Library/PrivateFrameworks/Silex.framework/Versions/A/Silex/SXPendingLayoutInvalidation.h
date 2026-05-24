@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFPendingPromise, SXLayoutOptions;
 @protocol SXComponent;
 
 @interface SXPendingLayoutInvalidation
 {
     id <SXComponent> _component;
-    NFPendingPromise *_pendingPromise;
-    SXLayoutOptions *_layoutOptions;
-    CDUnknownBlockType _invalidation;
 }
 
 - (CDUnknownBlockType);
@@ -25,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponent> component; // @synthesize component=_component;
-@property(readonly, nonatomic) CDUnknownBlockType invalidation; // @synthesize invalidation=_invalidation;
-@property(readonly, nonatomic) SXLayoutOptions *layoutOptions; // @synthesize layoutOptions=_layoutOptions;
-@property(readonly, nonatomic) NFPendingPromise *pendingPromise; // @synthesize pendingPromise=_pendingPromise;
 
 @end
 

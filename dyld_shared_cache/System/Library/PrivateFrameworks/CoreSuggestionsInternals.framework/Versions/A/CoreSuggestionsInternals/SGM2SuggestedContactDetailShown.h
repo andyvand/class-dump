@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2SuggestedContactDetailShown
 {
     int _app;
-    NSString *_key;
-    CDStruct_2bda6786 _has;
 }
 
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (int);
-- (int);
-- (id);
+- (id)s Accepted;
+- (void)le.calendar.eventView.invitationDelete;
+- (int)ntView.calendarPickerPopover;
+- (int)ple.calendar.removeButton;
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)mProgressContextObserverQueue;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool)!Ú Ð! Bùql$Ð1Â0@ù
 × ;
-- (void)Interest:(id)arg1 extractionInfo: /* Error: Ran out of types for this method. */;
+- (void)socialProfile:(id)arg1 forIdentity:parent:curated:context:contextRangeOfInterest:extractionInfo: /* Error: Ran out of types for this method. */;
 - (void)üé¼ëðë;
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool hasApp;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

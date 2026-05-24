@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)fWeek: /* Error: Ran out of types for this method. */;
++ (long long)StringAsDayOfWeek: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)lass;
 

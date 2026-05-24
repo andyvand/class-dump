@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol LAKeyStoreKey, _LAKeyStoreGenericPasswordCryptor;
+@class NSString;
+@protocol _LAKeyStoreGenericPasswordCryptor;
 
 __attribute__((visibility("hidden")))
 @interface _LAKeyStoreGenericPassword
 {
     NSString *_identifier;
-    NSData *_wrappedData;
-    NSData *_publicKeyHash;
-    id <LAKeyStoreKey> _wrapperKey;
-    id <_LAKeyStoreGenericPasswordCryptor> _cryptor;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)hidCommand:buttonState:destinationID:completion: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_LAKeyStoreGenericPasswordCryptor> cryptor; // @synthesize cryptor=_cryptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
 
 @end
 

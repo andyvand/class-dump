@@ -8,9 +8,6 @@
 {
     id _cSimplifiedSceneReconstructionProvider;
     id _cSimplifiedSceneReconstructionConfiguration;
-    id anchorQueue;
-    id anchorUpdateIterators;
-    id modes;
 }
 
 @end

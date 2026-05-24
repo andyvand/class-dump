@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSProgressIndicator, NSTextField, NSTimer, NSView, PXAssistantTemplateView;
+@class NSView;
 
 @interface PXAssistantTemplateContainerViewController
 {
     _Bool _controlsEnabled;
-    _Bool _spinnerVisible;
-    PXAssistantTemplateView *_templateView;
-    NSButton *_firstButton;
-    NSButton *_secondButton;
-    NSButton *_linkButton;
-    NSView *_templateContainerView;
-    NSView *_buttonTray;
-    NSBox *_divider;
-    NSProgressIndicator *_spinner;
-    NSTimer *_spinnerDisplayTimer;
-    NSTextField *_statusLabel;
 }
 
 - (_Bool);
@@ -27,39 +16,28 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void);
+- (void)printLayout:numOfColumns: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSView *buttonTray; // @synthesize buttonTray=_buttonTray;
-@property(nonatomic, getter=areControlsEnabled) _Bool controlsEnabled; // @synthesize controlsEnabled=_controlsEnabled;
-@property(readonly, nonatomic) NSBox *divider; // @synthesize divider=_divider;
-@property(readonly, nonatomic) NSButton *firstButton; // @synthesize firstButton=_firstButton;
-@property(readonly, nonatomic) NSButton *linkButton; // @synthesize linkButton=_linkButton;
-@property(readonly, nonatomic) NSButton *secondButton; // @synthesize secondButton=_secondButton;
-@property(readonly, nonatomic) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(readonly, nonatomic) NSTimer *spinnerDisplayTimer; // @synthesize spinnerDisplayTimer=_spinnerDisplayTimer;
-@property(nonatomic, getter=isSpinnerVisible) _Bool spinnerVisible; // @synthesize spinnerVisible=_spinnerVisible;
-@property(readonly, nonatomic) NSTextField *statusLabel; // @synthesize statusLabel=_statusLabel;
 @property(readonly, nonatomic) NSView *templateContainerView; // @synthesize templateContainerView=_templateContainerView;
-@property(retain, nonatomic) PXAssistantTemplateView *templateView; // @synthesize templateView=_templateView;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImageView, NSTextField, PXAssistantListViewItem;
+@class NSArray, NSTextField;
 
 @interface PXAssistantListTableCell
 {
     NSArray *_layoutConstraints;
-    PXAssistantListViewItem *_item;
-    NSTextField *_detailTextField;
-    NSImageView *_accessoryImageView;
 }
 
 - (void);
@@ -29,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImageView *accessoryImageView; // @synthesize accessoryImageView=_accessoryImageView;
 @property(retain, nonatomic) NSTextField *detailTextField; // @synthesize detailTextField=_detailTextField;
-@property(retain, nonatomic) PXAssistantListViewItem *item; // @synthesize item=_item;
 
 @end
 

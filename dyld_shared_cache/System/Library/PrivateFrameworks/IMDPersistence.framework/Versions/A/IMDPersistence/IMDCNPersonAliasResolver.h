@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSData, NSMutableDictionary;
+@class CNContactStore;
 
 @interface IMDCNPersonAliasResolver
 {
     CNContactStore *_contactStore;
-    CNContactStore *_acceptedContactStore;
-    NSData *_currentHistoryToken;
-    NSMutableDictionary *_aliasToCNIDMap;
 }
 
 + (id);
@@ -33,7 +30,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setProfileImageView: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)E ROWID = ?;;
 - (id)essage database migration failed - Database integrity check failed;
@@ -41,10 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *acceptedContactStore; // @synthesize acceptedContactStore=_acceptedContactStore;
-@property(retain, nonatomic) NSMutableDictionary *aliasToCNIDMap; // @synthesize aliasToCNIDMap=_aliasToCNIDMap;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
 
 @end
 

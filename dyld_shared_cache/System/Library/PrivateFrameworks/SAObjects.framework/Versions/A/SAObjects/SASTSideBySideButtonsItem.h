@@ -6,8 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUIColor;
-@protocol SASTTemplateAction;
+@class NSString;
 
 @interface SASTSideBySideButtonsItem : AceObject
 {
@@ -21,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -36,20 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buttonsViewStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SASTTemplateAction> primaryButtonAction;
-@property(nonatomic) _Bool primaryButtonEnabled;
-@property(copy, nonatomic) NSString *primaryButtonLabel;
-@property(retain, nonatomic) SAUIColor *primaryButtonTextColor;
-@property(retain, nonatomic) id <SASTTemplateAction> secondaryButtonAction;
-@property(nonatomic) _Bool secondaryButtonEnabled;
-@property(copy, nonatomic) NSString *secondaryButtonLabel;
-@property(readonly) Class superclass;
 
 @end
 

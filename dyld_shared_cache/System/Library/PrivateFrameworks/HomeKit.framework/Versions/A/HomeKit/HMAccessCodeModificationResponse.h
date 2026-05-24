@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeValue, HMAccessory, HMAccessoryAccessCode, NSError;
+@class HMAccessory;
 
 @interface HMAccessCodeModificationResponse
 {
     HMAccessory *_accessory;
-    HMAccessoryAccessCode *_accessoryAccessCode;
-    HMAccessCodeValue *_accessCodeValue;
-    long long _operationType;
-    NSError *_error;
 }
 
 + (id);
@@ -23,16 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (long long);
+- (void)batting;
+- (long long);
 - (void)}@Failed to create media system from system payload:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain) HMAccessoryAccessCode *accessoryAccessCode; // @synthesize accessoryAccessCode=_accessoryAccessCode;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) long long operationType; // @synthesize operationType=_operationType;
 
 @end
 

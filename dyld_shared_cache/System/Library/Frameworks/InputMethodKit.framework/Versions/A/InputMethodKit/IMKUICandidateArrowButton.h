@@ -9,15 +9,12 @@
 @interface IMKUICandidateArrowButton
 {
     _Bool _pointsUpwards;
-    double _fontPointSize;
-    long long _layoutAlignment;
-    IMKUIDelimiter *_delimiter;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*ڗ#;
 - (_Bool);
 - (double);
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IMKUIDelimiter *delimiter; // @synthesize delimiter=_delimiter;
-@property(nonatomic) double fontPointSize; // @synthesize fontPointSize=_fontPointSize;
-@property(nonatomic) long long layoutAlignment; // @synthesize layoutAlignment=_layoutAlignment;
-@property(nonatomic) _Bool pointsUpwards; // @synthesize pointsUpwards=_pointsUpwards;
 
 @end
 

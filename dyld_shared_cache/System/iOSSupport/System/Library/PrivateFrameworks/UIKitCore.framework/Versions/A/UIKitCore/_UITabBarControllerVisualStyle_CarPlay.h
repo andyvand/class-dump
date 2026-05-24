@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UITabBarControllerVisualStyle_iOS.h>
 
-@class NSString, UITapGestureRecognizer;
+@class UITapGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarControllerVisualStyle_CarPlay : _UITabBarControllerVisualStyle_iOS
@@ -19,23 +19,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (id);
-- (struct CGRect);
+- (struct CGRect)shouldDisplayRemoteDecryptionFailure;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)eriod for non 1-1 chat;
 - (void)Vá?ã¥Ä °â?¤p}?;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

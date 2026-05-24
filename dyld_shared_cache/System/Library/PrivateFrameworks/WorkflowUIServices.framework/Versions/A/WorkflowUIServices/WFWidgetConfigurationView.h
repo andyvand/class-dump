@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, WFWidgetConfigurationContainerView, WFWidgetConfigurationRemoteViewController;
+@class NSView;
 
 @interface WFWidgetConfigurationView
 {
     struct CGSize _preferredConfigurationCardViewSize;
-    NSView *_remoteView;
-    WFWidgetConfigurationContainerView *_containerView;
-    WFWidgetConfigurationRemoteViewController *_remoteViewController;
-    struct CGRect _overridingCardViewFrame;
 }
 
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ictionary"@"NSError">;
 - (void);
 - (id);
 - (id);
+- (void)bjects;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(retain, nonatomic) WFWidgetConfigurationContainerView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) struct CGRect overridingCardViewFrame; // @synthesize overridingCardViewFrame=_overridingCardViewFrame;
 @property(readonly, nonatomic) NSView *remoteView; // @synthesize remoteView=_remoteView;
-@property(retain, nonatomic) WFWidgetConfigurationRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
 
 @end
 

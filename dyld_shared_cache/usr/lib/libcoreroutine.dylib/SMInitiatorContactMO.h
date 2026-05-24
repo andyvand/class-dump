@@ -6,61 +6,19 @@
 
 #import <coreroutine/SMContactMO.h>
 
-@class NSData, NSDate, NSOrderedSet, NSString, NSUUID, SMCacheMO, SMLocationMO;
+@class NSDate;
 
 @interface SMInitiatorContactMO : SMContactMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Data}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
++ (id)CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
++ (id)submit;
++ (id)nection:replaced old %@ for %@ due to old being disconnected /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *cacheUpdateBackstopExpiryDate; // @dynamic cacheUpdateBackstopExpiryDate;
-@property(nonatomic) _Bool cloudkitShareZoneCleanedUpSuccessfully; // @dynamic cloudkitShareZoneCleanedUpSuccessfully;
-@property(retain, nonatomic) NSData *destinationMapItem; // @dynamic destinationMapItem;
-@property(copy, nonatomic) NSUUID *earliestActiveDeviceIdentifier; // @dynamic earliestActiveDeviceIdentifier;
-@property(copy, nonatomic) NSDate *keyReleaseMessageSendDate; // @dynamic keyReleaseMessageSendDate;
-@property(copy, nonatomic) NSUUID *latestActiveDeviceIdentifier; // @dynamic latestActiveDeviceIdentifier;
-@property(nonatomic) double locationOfTriggerAltitude; // @dynamic locationOfTriggerAltitude;
-@property(copy, nonatomic) NSDate *locationOfTriggerDate; // @dynamic locationOfTriggerDate;
-@property(nonatomic) double locationOfTriggerHorizontalUncertainty; // @dynamic locationOfTriggerHorizontalUncertainty;
-@property(nonatomic) double locationOfTriggerLatitude; // @dynamic locationOfTriggerLatitude;
-@property(nonatomic) double locationOfTriggerLongitude; // @dynamic locationOfTriggerLongitude;
-@property(nonatomic) short locationOfTriggerReferenceFrame; // @dynamic locationOfTriggerReferenceFrame;
-@property(nonatomic) short locationOfTriggerSourceAccuracy; // @dynamic locationOfTriggerSourceAccuracy;
-@property(nonatomic) double locationOfTriggerSpeed; // @dynamic locationOfTriggerSpeed;
-@property(nonatomic) double locationOfTriggerVerticalUncertainty; // @dynamic locationOfTriggerVerticalUncertainty;
-@property(retain, nonatomic) SMLocationMO *lockLocation; // @dynamic lockLocation;
-@property(nonatomic) _Bool lockState; // @dynamic lockState;
-@property(nonatomic) double maxCacheSize; // @dynamic maxCacheSize;
-@property(nonatomic) short maxLocationsInTrace; // @dynamic maxLocationsInTrace;
-@property(nonatomic) double maxTimeBetweenCacheUpdates; // @dynamic maxTimeBetweenCacheUpdates;
-@property(nonatomic) short numCacheUpdates; // @dynamic numCacheUpdates;
-@property(nonatomic) int numberOfHandoffBecomingActive; // @dynamic numberOfHandoffBecomingActive;
-@property(nonatomic) int numberOfHandoffBecomingNonActive; // @dynamic numberOfHandoffBecomingNonActive;
-@property(nonatomic) short numberOfMessageCancelling; // @dynamic numberOfMessageCancelling;
-@property(nonatomic) short numberOfMessageScheduling; // @dynamic numberOfMessageScheduling;
-@property(nonatomic) short numberOfSuccessfulCacheUpdates; // @dynamic numberOfSuccessfulCacheUpdates;
-@property(nonatomic) short numberOfSuccessfulMessageCancelling; // @dynamic numberOfSuccessfulMessageCancelling;
-@property(nonatomic) short numberOfSuccessfulMessageScheduling; // @dynamic numberOfSuccessfulMessageScheduling;
-@property(retain, nonatomic) SMLocationMO *offWristLocation; // @dynamic offWristLocation;
-@property(retain, nonatomic) SMLocationMO *parkedCarLocation; // @dynamic parkedCarLocation;
-@property(retain, nonatomic) SMCacheMO *phoneCache; // @dynamic phoneCache;
-@property(copy, nonatomic) NSString *scheduleSendMessageGUID; // @dynamic scheduleSendMessageGUID;
-@property(copy, nonatomic) NSDate *scheduledSendExpiryDate; // @dynamic scheduledSendExpiryDate;
 @property(copy, nonatomic) NSDate *shouldBeCleanedUpDate; // @dynamic shouldBeCleanedUpDate;
-@property(retain, nonatomic) SMLocationMO *startingLocation; // @dynamic startingLocation;
-@property(copy, nonatomic) NSDate *timeCacheUploadCompletion; // @dynamic timeCacheUploadCompletion;
-@property(nonatomic) double timeTilCacheRelease; // @dynamic timeTilCacheRelease;
-@property(copy, nonatomic) NSDate *triggerDate; // @dynamic triggerDate;
-@property(retain, nonatomic) SMLocationMO *unlockLocation; // @dynamic unlockLocation;
-@property(nonatomic) _Bool wasCacheReleased; // @dynamic wasCacheReleased;
-@property(nonatomic) _Bool wasScheduledSendTriggered; // @dynamic wasScheduledSendTriggered;
-@property(retain, nonatomic) SMCacheMO *watchCache; // @dynamic watchCache;
-@property(retain, nonatomic) NSOrderedSet *workoutEvents; // @dynamic workoutEvents;
 
 @end
 

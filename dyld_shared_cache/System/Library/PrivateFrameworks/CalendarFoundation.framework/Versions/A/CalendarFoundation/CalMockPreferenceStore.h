@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CalMockPreferenceStore
 {
     NSMutableDictionary *_keys;
-    NSMutableDictionary *_values;
-    NSString *_path;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -25,8 +22,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)w;
+- (_Bool)T;
 - (_Bool);
 - (void);
 

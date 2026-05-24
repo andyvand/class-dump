@@ -9,7 +9,6 @@
 @interface AXFTextRange
 {
     AXFTextPosition *_start;
-    AXFTextPosition *_end;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)setDefaultVoiceContext:(unsigned long long)arg1;
 - (id);
 - (id);
 - (id);
@@ -34,19 +33,15 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id);v;
+- (_Bool)A;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)PauseVideoToStart;
 
 // Remaining properties
-@property(readonly, nonatomic) AXFTextPosition *end; // @synthesize end=_end;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) long long length;
-@property(readonly, nonatomic) AXFTextPosition *start; // @synthesize start=_start;
 @property(readonly, nonatomic) unsigned long long type;
 
 @end

@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKUserIdentityLookupInfo, CNContact, IDSURI, NSString, NSUUID, Protocol;
-@protocol NSCopying;
+@class IDSURI;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccountHandle
 {
     _Bool _local;
-    _Bool _locallyTracked;
-    NSUUID *_modelIdentifier;
-    NSUUID *_modelParentIdentifier;
-    NSUUID *_identifier;
-    IDSURI *_URI;
 }
 
-+ (id)ageSettingTime;
++ (id)_languageSettingTime;
 + (_Bool),Ág;
 + (id)òâ;
 - (id);
-- (id);
+- (id)$q;
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,15 +27,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)Aà!ÔEùÐ1Â0@ù
 × ;
-- (_Bool)ontext:(id)arg1;
-- (id)rrentAccessory:(id)arg1 currentMediaSystem: /* Error: Ran out of types for this method. */;
+- (_Bool)setControllerContext:(id)arg1;
+- (id)migrateLocalHomeTheaterDataForCurrentAccessory:(id)arg1 currentMediaSystem: /* Error: Ran out of types for this method. */;
 - (id)New: /* Error: Ran out of types for this method. */;
-- (id)ue:(struct _NSZone *)arg1;
-- (void)intsWithArrayRepresenation:(_Bool)arg1;
-- (id)ndleResidentUpdated: /* Error: Ran out of types for this method. */;
-- (_Bool)edPrimaryResident_INT;
-- (id)omeManager:(unsigned long long)arg1;
-- (id)atterPathDatabaseID;
+- (id)decodeOwnerMusicTransitionStyleValue:(struct _NSZone *)arg1;
+- (void)constraintsWithArrayRepresenation:(_Bool)arg1;
+- (id)_handleResidentUpdated: /* Error: Ran out of types for this method. */;
+- (_Bool)_currentDeviceConfirmedPrimaryResident_INT;
+- (id)hh2ControllerKeyForHomeManager:(unsigned long long)arg1;
+- (id)MKFMatterPathDatabaseID;
 - (id)ÂØÄ;
 - (id)Ü(;
 - (void)version %@ is supported.;
@@ -50,8 +44,8 @@ __attribute__((visibility("hidden")))
 - (id)iguration from the given parameters;
 - (Class)%s %s Found user %s with no qualified devices;
 - (void)g;
-- (id)nt;
-- (id)oSuiteType_AES_256_CM_HMAC_SHA1_80;
+- (id)HMDCloudSyncLogEventsAnalyzerFetchCount;
+- (id)HMDSRTPCryptoSuiteType_AES_256_CM_HMAC_SHA1_80;
 - (id)ple.dialog;
 - (id);
 - (void);
@@ -62,26 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) IDSURI *URI; // @synthesize URI=_URI;
-@property(readonly) id <NSCopying> backingModelKey;
-@property(readonly) Protocol *backingModelType;
-@property(readonly, copy) CKUserIdentityLookupInfo *cloudKitLookupInfo;
-@property(readonly, copy) CNContact *contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, getter=isLocal) _Bool local; // @synthesize local=_local;
-@property(getter=isLocallyTracked) _Bool locallyTracked; // @synthesize locallyTracked=_locallyTracked;
-@property(readonly) Class modelClass;
-@property(readonly, copy, nonatomic) NSUUID *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(copy, nonatomic) NSUUID *modelParentIdentifier; // @synthesize modelParentIdentifier=_modelParentIdentifier;
-@property(readonly, copy) NSString *remoteDestinationString;
-@property(readonly) Class superclass;
-@property(readonly) long long type;
-@property(readonly, copy) NSString *value;
 
 @end
 

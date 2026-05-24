@@ -10,76 +10,36 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct CMDPNormalizer;
-
 struct _FstArc {
     int _field1;
     int _field2;
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct set<std::string, std::less<std::string>, std::allocator<std::string>> {
-    struct __tree<std::string, std::less<std::string>, std::allocator<std::string>> {
-        void *__begin_node_;
-        struct {
-            struct __tree_end_node<std::__tree_node_base<void *>*> {
-                void *__left_;
-            } __end_node_;
-        } ;
-        struct {
-            unsigned long long __size_;
-        } ;
-    } __tree_;
-};
-
-struct unique_ptr<CMDPNormalizer, std::default_delete<CMDPNormalizer>> {
-    struct {
-        struct CMDPNormalizer *__ptr_;
-    } ;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct unique_ptr<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>, std::default_delete<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>>> {
-    struct {
-        void *__ptr_;
-    } ;
-};
-
-struct vector<std::pair<std::string, std::unique_ptr<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>>>, std::allocator<std::pair<std::string, std::unique_ptr<fst::VectorFst<fst::ArcTpl<fst::TropicalWeightTpl<float>>>>>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::unique_ptr<CMDPToken>, std::allocator<std::unique_ptr<CMDPToken>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    CDStruct_cffa721c ;
 };
 
 struct vector<std::vector<std::vector<std::unique_ptr<CMDPToken>>>, std::allocator<std::vector<std::vector<std::unique_ptr<CMDPToken>>>>> {
     void *_field1;
     void *_field2;
-    struct {
-        void *_field1;
-    } _field3;
+    CDStruct_cffa721c _field3;
 };
 
 #pragma mark Typedef'd Structures
 
-// Ambiguous groups
 typedef struct {
-    void *__cap_;
-} CDStruct_63fd5f43;
+    void *__ptr_;
+} CDStruct_cffa721c;
 
+// Template types
 typedef struct vector<std::vector<std::vector<std::unique_ptr<CMDPToken>>>, std::allocator<std::vector<std::vector<std::unique_ptr<CMDPToken>>>>> {
     void *_field1;
     void *_field2;
-    struct {
-        void *_field1;
-    } _field3;
-} vector_bc136a2d;
+    CDStruct_cffa721c _field3;
+} vector_b6235956;
 

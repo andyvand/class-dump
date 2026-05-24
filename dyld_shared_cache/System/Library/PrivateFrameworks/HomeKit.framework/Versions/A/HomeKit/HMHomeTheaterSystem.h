@@ -11,14 +11,13 @@
 @interface HMHomeTheaterSystem : HMMediaGroup
 {
     NSString *_audioDestinationIdentifier;
-    long long _audioDestinationType;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)~;
 - (id);
 - (id);
 - (id);
@@ -27,14 +26,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)headroom;
 - (void);
 - (id);
 - (void)L¸LpM;
 
 // Remaining properties
 @property(copy) NSString *audioDestinationIdentifier; // @synthesize audioDestinationIdentifier=_audioDestinationIdentifier;
-@property long long audioDestinationType; // @synthesize audioDestinationType=_audioDestinationType;
 
 @end
 

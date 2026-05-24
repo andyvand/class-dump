@@ -11,11 +11,11 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)mClickCount;
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code;

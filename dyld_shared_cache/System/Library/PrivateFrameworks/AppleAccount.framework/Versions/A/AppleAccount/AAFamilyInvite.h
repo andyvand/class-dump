@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AAFamilyInvite
 {
     _Bool _isChildTransferInvite;
-    NSString *_code;
-    NSString *_organizerFirstName;
-    NSString *_organizerLastName;
-    NSString *_organizerEmail;
-    NSNumber *_organizerDSID;
-    NSNumber *_recepientDSID;
-    NSString *_childFirstName;
-    NSString *_childLastName;
 }
 
-- (void);
-- (id);
+- (void)romUsername userUUID = %s.;
+- (id)dsAttrTypeStandard:TrustInformation /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -36,21 +28,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Ab;
 - (id);
 - (void)initWithSuiteName: /* Error: Ran out of types for this method. */;
 - (void)@"NSString",R,N,V_outgoingResponseIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *childFirstName; // @synthesize childFirstName=_childFirstName;
-@property(copy, nonatomic) NSString *childLastName; // @synthesize childLastName=_childLastName;
 @property(copy, nonatomic) NSString *code; // @synthesize code=_code;
-@property(nonatomic) _Bool isChildTransferInvite; // @synthesize isChildTransferInvite=_isChildTransferInvite;
-@property(copy, nonatomic) NSNumber *organizerDSID; // @synthesize organizerDSID=_organizerDSID;
-@property(copy, nonatomic) NSString *organizerEmail; // @synthesize organizerEmail=_organizerEmail;
-@property(copy, nonatomic) NSString *organizerFirstName; // @synthesize organizerFirstName=_organizerFirstName;
-@property(copy, nonatomic) NSString *organizerLastName; // @synthesize organizerLastName=_organizerLastName;
-@property(copy, nonatomic) NSNumber *recepientDSID; // @synthesize recepientDSID=_recepientDSID;
 
 @end
 

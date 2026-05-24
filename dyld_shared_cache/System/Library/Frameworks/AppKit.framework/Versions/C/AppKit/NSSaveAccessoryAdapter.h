@@ -12,26 +12,24 @@ __attribute__((visibility("hidden")))
 @interface NSSaveAccessoryAdapter : NSView
 {
     NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
 }
 
 + (id);
-+ (struct CGSize);
-+ (id);
++ (struct CGSize)_CFCachedURLResponseUserInfo;
++ (id)timeout;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 - (void);
-- (void);
+- (void)y",&,V__backgroundTrailers;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)SM_CURRENT_USER_GID;
 - (id)';
 
 // Remaining properties
-@property(retain) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
 @property(retain) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end

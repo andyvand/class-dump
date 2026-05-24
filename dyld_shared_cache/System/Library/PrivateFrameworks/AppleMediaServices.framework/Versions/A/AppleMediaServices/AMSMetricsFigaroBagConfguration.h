@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsFigaroEventModifier, NSArray, NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsFigaroBagConfguration
 {
     NSArray *_overrides;
-    unsigned long long _maxBatchSize;
-    NSDictionary *_metricsDictionary;
-    AMSMetricsFigaroEventModifier *_defaultModifier;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,11 +26,7 @@ r³o®Öa ØÅ|½Ü¤e¹x;
 - (void)hyð}{¨}Ø{@0y}h{ðy¨Øy@}0{°zÀ|Xx(~;
 
 // Remaining properties
-@property(readonly, nonatomic) AMSMetricsFigaroEventModifier *defaultModifier; // @synthesize defaultModifier=_defaultModifier;
-@property(readonly, nonatomic) unsigned long long maxBatchSize; // @synthesize maxBatchSize=_maxBatchSize;
 @property(readonly, nonatomic) NSDictionary *metricsDictionary; // @synthesize metricsDictionary=_metricsDictionary;
-@property(readonly, nonatomic) NSArray *overrides; // @synthesize overrides=_overrides;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

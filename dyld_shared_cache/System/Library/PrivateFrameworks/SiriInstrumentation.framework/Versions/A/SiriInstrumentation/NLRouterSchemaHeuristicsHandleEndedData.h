@@ -6,21 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLRouterSchemaHeuristicsHandleEndedData : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _triggeredHeuristic;
-    struct {
-        unsigned int triggeredHeuristic:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (int);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -29,24 +24,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)pad;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)tb;
 - (id)1Â0@ù
 × ;
 - (id)TB,N,V_hasNlv4AssetVersion;
-- (id)uest;
+- (id)request;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasTriggeredHeuristic;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int triggeredHeuristic; // @synthesize triggeredHeuristic=_triggeredHeuristic;
 
 @end
 

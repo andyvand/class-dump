@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (struct JUMeasurements);
+- (struct JUMeasurements);
 - (id);
-- (id);
-- (void);
+- (id)nager connectionDidReconnect:] /* Error: Ran out of types for this method. */;
+- (void)`;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

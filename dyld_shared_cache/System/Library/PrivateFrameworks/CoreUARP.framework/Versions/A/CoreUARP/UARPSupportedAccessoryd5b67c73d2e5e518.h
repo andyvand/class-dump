@@ -17,9 +17,9 @@
 + (id);
 + (unsigned short);
 + (id);
-+ (unsigned short);
++ (unsigned short)%;
 - (id);
-- (id);
+- (id)AMSSignInContext;
 - (void);
 
 @end

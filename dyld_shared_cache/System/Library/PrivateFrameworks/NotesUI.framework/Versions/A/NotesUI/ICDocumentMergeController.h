@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol ICDocumentMergeControlling;
 
 @interface ICDocumentMergeController
 {
     void parent;
-    id textViewsToReasonCounts;
-    id requestedMergeBlock;
 }
 
 - (void);
@@ -28,9 +25,7 @@
 - (void)extStorage;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isBlockingMerge;
 @property(nonatomic) __weak id <ICDocumentMergeControlling> parentController; // @synthesize parentController=parent;
-@property(nonatomic, readonly) NSSet *textViews;
 
 @end
 

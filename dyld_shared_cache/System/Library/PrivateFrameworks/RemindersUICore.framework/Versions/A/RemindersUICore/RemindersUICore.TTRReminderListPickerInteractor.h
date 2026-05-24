@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRReminderListPickerInteractor
 {
     id delegate;
-    id store;
 }
 
 @end

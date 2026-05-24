@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSOpportunisticOptions, NSData, NSMutableDictionary, NSString;
+@class NSData, NSMutableDictionary;
 
 @interface IDSOpportunisticData
 {
     NSData *_data;
-    NSString *_identifier;
-    NSString *_serviceName;
-    NSString *_accountUniqueID;
-    IDSOpportunisticOptions *_options;
-    NSMutableDictionary *_sendCount;
 }
 
 + (_Bool);
@@ -21,20 +16,20 @@
 - (void);
 - (void);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)$;
+- (void)J;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)readNewContainer;
 - (void);
 - (void);
 - (_Bool);
@@ -43,12 +38,7 @@
 - (id)th existing connected pair;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountUniqueID; // @synthesize accountUniqueID=_accountUniqueID;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) IDSOpportunisticOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSMutableDictionary *sendCount; // @synthesize sendCount=_sendCount;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

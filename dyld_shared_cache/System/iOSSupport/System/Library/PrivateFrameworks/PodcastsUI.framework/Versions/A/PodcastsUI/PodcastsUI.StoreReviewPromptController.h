@@ -7,7 +7,6 @@
 @interface PodcastsUI.StoreReviewPromptController
 {
     id enterForegroundSubscription;
-    id shouldPromptOnReachingTopOfTab;
 }
 
 @end

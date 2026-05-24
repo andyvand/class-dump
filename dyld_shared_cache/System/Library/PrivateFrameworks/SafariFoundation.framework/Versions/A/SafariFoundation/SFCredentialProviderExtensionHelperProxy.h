@@ -9,26 +9,25 @@
 @interface SFCredentialProviderExtensionHelperProxy
 {
     NSXPCConnection *_connection;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Bar button;
 - (id);
 - (void);
 - (void);

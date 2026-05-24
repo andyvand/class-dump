@@ -5,6 +5,7 @@
 //
 
 @protocol PHRetryableRequest
+- (void);
 
 // Remaining properties
 @property(nonatomic) double retryInterval;

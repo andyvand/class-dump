@@ -7,11 +7,6 @@
 @interface NewsPersonalization.MutableFeature
 {
     id kind;
-    id floatValues;
-    id int32Values;
-    id int64Values;
-    id bytesValues;
-    id float16Data;
 }
 
 @end

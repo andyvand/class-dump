@@ -15,10 +15,6 @@ struct CGSize {
     double _field2;
 };
 
-struct EFAtomicObject {
-    _Atomic long long cfObject;
-};
-
 struct _NSRange {
     unsigned long long location;
     unsigned long long length;
@@ -73,9 +69,9 @@ typedef struct {
 } CDStruct_f9502b4c;
 
 typedef struct {
-    int re_magic;
-    unsigned long long re_nsub;
-    char *re_endp;
-    struct re_guts *re_g;
-} CDStruct_a3227609;
+    int _field1;
+    unsigned long long _field2;
+    char *_field3;
+    struct re_guts *_field4;
+} CDStruct_d5ae6b26;
 

@@ -7,10 +7,11 @@
 @class NSArray, NSData;
 
 @protocol _SFPBGradientColor
+- (void);
+- (int)ic_homeUserIdentifiers;
+- (NSData *)_choosingPolicy;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *colors;
-@property(nonatomic) int gradientType;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -6,27 +6,9 @@
 
 #import <QuickLookIosmac/QLClient.h>
 
-@class FPItem, QLThumbnailGenerationRequest, QLThumbnailMetadata;
-@protocol QLThumbnailGeneratorInfo;
-
 @interface QLThumbnail : QLClient
 {
     struct __QLThumbnail *_thumbnailRef;
-    struct CGImage *_image;
-    QLThumbnailMetadata *_properties;
-    id <QLThumbnailGeneratorInfo> _generatorInfo;
-    _Bool _imageComputed;
-    _Bool _isLowQuality;
-    _Bool _forcedContentTypeUTI;
-    int _flavor;
-    QLThumbnailGenerationRequest *_generationRequest;
-    id _queueContext;
-    FPItem *_fpitem;
-    double _minimumDimension;
-    CDUnknownBlockType _completionHandler;
-    struct CGSize _maxSize;
-    struct CGSize _minimumUsefulSize;
-    struct CGRect _contentRect;
 }
 
 + (_Bool);
@@ -37,22 +19,22 @@
 + (struct CGImage *);
 + (struct CGImage *);
 + (id);
-- (struct __QLThumbnail *);
+- (struct __QLThumbnail *)h;
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (int);
 - (struct CGImage *);
 - (struct CGRect);
@@ -70,8 +52,8 @@
 - (struct CGImage *);
 - (struct CGImage *);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)t;
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -84,34 +66,19 @@
 - (void);
 - (struct CGImage *);
 - (int);
-- (void);
+- (void)initWithUUIDString: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
-- (struct CGRect);
+- (struct CGRect)-;
 - (void);
 - (void);
-- (void);
+- (void)constrainedHDREnabled;
 - (void);
 - (struct CGSize);
 - (void);
 - (id)has been invalidated;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property int flavor; // @synthesize flavor=_flavor;
-@property _Bool forcedContentTypeUTI; // @synthesize forcedContentTypeUTI=_forcedContentTypeUTI;
-@property(retain) FPItem *fpitem; // @synthesize fpitem=_fpitem;
-@property(retain) QLThumbnailGenerationRequest *generationRequest; // @synthesize generationRequest=_generationRequest;
-@property(retain) id <QLThumbnailGeneratorInfo> generatorInfo; // @synthesize generatorInfo=_generatorInfo;
-@property struct CGImage *image;
-@property _Bool imageComputed; // @synthesize imageComputed=_imageComputed;
-@property _Bool isLowQuality; // @synthesize isLowQuality=_isLowQuality;
-@property struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property double minimumDimension; // @synthesize minimumDimension=_minimumDimension;
-@property struct CGSize minimumUsefulSize; // @synthesize minimumUsefulSize=_minimumUsefulSize;
-@property(retain) QLThumbnailMetadata *properties; // @synthesize properties=_properties;
-@property(retain) id queueContext; // @synthesize queueContext=_queueContext;
 @property(readonly) struct __QLThumbnail *thumbnailRef;
 
 @end

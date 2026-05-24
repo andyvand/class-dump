@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKDAccount, CKDLogicalDeviceContext, CKDPCSIdentityManager, NSData, NSDate, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSUUID;
-@protocol CKDContainerScopedUserIDProvider, CKDPCSKeySyncNotifierProtocol, OS_dispatch_queue;
+@class CKDAccount;
 
 @interface CKDPCSManager
 {
     _Bool _forceEnableReadOnlyManatee;
-    _Bool _useZoneWidePCS;
-    CKDLogicalDeviceContext *_deviceContext;
-    CKDPCSIdentityManager *_identityManager;
-    CKDAccount *_account;
-    NSMutableSet *_undecryptablePCSDataHashes;
-    NSData *_boundaryKeyData;
-    NSUUID *_uuid;
-    NSDate *_lastMissingManateeIdentityErrorDateForCurrentService;
-    id <CKDContainerScopedUserIDProvider> _containerScopedUserIDProvider;
-    CKContainerID *_containerID;
-    NSString *_responsibleBundleID;
-    unsigned long long _mmcsEncryptionSupport;
-    id <CKDPCSKeySyncNotifierProtocol> _userKeySyncNotifier;
-    NSObject<OS_dispatch_queue> *_synchronizeQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_pcsTestOverrides;
 }
 
 + (id);
@@ -38,7 +21,7 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)UsoEntityBuilderProtocol_common_Payment;
 - (id);
 - (void);
 - (_Bool);
@@ -100,13 +83,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)IPESubType;
 - (struct _OpaquePCSShareProtection *);
-- (_Bool);
-- (id);
-- (struct _OpaquePCSShareProtection *);
-- (id);
-- (id);
+- (_Bool){ptr}] with ID [%@] created for Endpoint [%{ptr}]
+;
+- (id)AudioAccessory;
+- (struct _OpaquePCSShareProtection *)tate=%s
+;
+- (id)k
+;
+- (id)ndpointUGLWrapper_handleWrappedNotification(CMNotificationCenterRef, const void *, CFStringRef, const void *, CFTypeRef);
 - (id);
 - (id);
 - (_Bool);
@@ -117,28 +103,28 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (struct _OpaquePCSShareProtection *);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (struct _OpaquePCSShareProtection *);
 - (id);
 - (_Bool);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
+- (id)radius;
+- (_Bool)RadarWithMessage:(id)arg1 timeout:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)LqmInterference80to85Duration;
+- (id);
+- (id);
 - (struct _OpaquePCSShareProtection *);
 - (struct _OpaquePCSShareProtection *);
 - (void);
@@ -150,13 +136,13 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)B40@44;
+- (_Bool)ic}@, error:(id)arg1 %{public}@;
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (unsigned long long);
@@ -166,13 +152,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -188,9 +174,9 @@
 - (struct _OpaquePCSShareProtection *);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)@0:(id)arg1 8Q16;
+- (id)ge;
+- (id)$;
 - (void);
 - (id);
 - (id);
@@ -198,7 +184,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)ð!|CùñÚð1Â0@ù
 × ;
 - (id)ÔaÐ!ìEùqÛÐ1Â0@ù
@@ -207,12 +193,12 @@
 × ;
 - (_Bool)ork"b1"isOrgUser"b1};
 - (_Bool)"CKFileOpenInfo"16@?<v@?@"CKFileOpenResult"@"NSError">24;
-- (id)val;
-- (id)etZoneDescendantsRetrieveResponse:(struct _PCSIdentityData *)arg1;
-- (struct _PCSIdentityData *)pletionHandler:(id)arg1;
-- (void)cTrackerByServiceNameByAccount;
-- (struct _OpaquePCSShareProtection *)evicePassword;
-- (id)ycleQueue;
+- (id)updatedExpirationTimeInterval;
+- (id)setZoneDescendantsRetrieveResponse:(struct _PCSIdentityData *)arg1;
+- (struct _PCSIdentityData *)putSectionItem:(id)arg1 operation:(id *)arg2 options:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_keySyncTrackerByServiceNameByAccount;
+- (struct _OpaquePCSShareProtection *)_hsa2DevicePassword;
+- (id)_lifecycleQueue;
 - (struct _PCSIdentityData *)É\Ë;
 - (unsigned long long);
 - (_Bool)`;
@@ -224,32 +210,6 @@
 
 // Remaining properties
 @property(retain) CKDAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSData *boundaryKeyData; // @synthesize boundaryKeyData=_boundaryKeyData;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, nonatomic) __weak id <CKDContainerScopedUserIDProvider> containerScopedUserIDProvider; // @synthesize containerScopedUserIDProvider=_containerScopedUserIDProvider;
-@property(readonly, nonatomic) _Bool currentServiceIsManatee;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CKDLogicalDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
-@property(readonly, nonatomic) _Bool forceEnableReadOnlyManatee; // @synthesize forceEnableReadOnlyManatee=_forceEnableReadOnlyManatee;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKDPCSIdentityManager *identityManager; // @synthesize identityManager=_identityManager;
-@property(retain, nonatomic) NSDate *lastMissingManateeIdentityErrorDateForCurrentService; // @synthesize lastMissingManateeIdentityErrorDateForCurrentService=_lastMissingManateeIdentityErrorDateForCurrentService;
-@property(readonly, nonatomic) unsigned long long mmcsEncryptionSupport; // @synthesize mmcsEncryptionSupport=_mmcsEncryptionSupport;
-@property(readonly, nonatomic) NSString *pcsServiceName;
-@property(retain, nonatomic) NSMutableDictionary *pcsTestOverrides; // @synthesize pcsTestOverrides=_pcsTestOverrides;
-@property(readonly, nonatomic) NSString *responsibleBundleID; // @synthesize responsibleBundleID=_responsibleBundleID;
-@property(readonly, nonatomic) unsigned long long serviceTypeForSharing;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *synchronizeQueue; // @synthesize synchronizeQueue=_synchronizeQueue;
-@property(retain, nonatomic) NSMutableSet *undecryptablePCSDataHashes; // @synthesize undecryptablePCSDataHashes=_undecryptablePCSDataHashes;
-@property(readonly, nonatomic) _Bool useZoneWidePCS; // @synthesize useZoneWidePCS=_useZoneWidePCS;
-@property(readonly, nonatomic) __weak id <CKDPCSKeySyncNotifierProtocol> userKeySyncNotifier; // @synthesize userKeySyncNotifier=_userKeySyncNotifier;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

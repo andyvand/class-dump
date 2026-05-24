@@ -11,13 +11,13 @@
     NSArray *_profiles;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)CNAutocompleteResultNamer;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *profiles; // @synthesize profiles=_profiles;

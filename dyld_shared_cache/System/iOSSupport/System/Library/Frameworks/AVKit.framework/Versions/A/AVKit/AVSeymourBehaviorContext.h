@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerViewController, NSString;
+@class AVPlayerViewController;
 
 @interface AVSeymourBehaviorContext
 {
     AVPlayerViewController *_playerViewController;
-    id _behavior;
-    struct NSEdgeInsets _legibleContentInsets;
 }
 
 - (void);
@@ -21,26 +19,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)l;
 - (struct NSEdgeInsets);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak id behavior; // @synthesize behavior=_behavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct NSEdgeInsets legibleContentInsets; // @synthesize legibleContentInsets=_legibleContentInsets;
-@property(readonly, nonatomic) __weak AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(readonly) Class superclass;
 
 @end
 

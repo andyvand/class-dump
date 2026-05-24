@@ -14,11 +14,11 @@
 }
 
 + (Class);
-- (id);
-- (id);
-- (id);
-- (void)unt:completion: /* Error: Ran out of types for this method. */;
-- (id)RINT_DETAILTEXT;
+- (id)ClientProfile did not obtain the profile ID;
+- (id)nary -writeToFile]:[NSPropertyListSerialization dataFromPropertyList:]:returned "%s" /* Error: Ran out of types for this method. */;
+- (id)`;
+- (void)handleAppleAccountDeleteForAccount:completion: /* Error: Ran out of types for this method. */;
+- (id)INHERITANCE_SHARE_KEY_OPTION_PRINT_DETAILTEXT;
 
 @end
 

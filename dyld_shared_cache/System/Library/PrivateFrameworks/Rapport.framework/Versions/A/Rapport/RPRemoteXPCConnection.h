@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, RPEndpoint;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RPRemoteXPCConnection
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    RPEndpoint *_endpoint;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_serviceName;
 }
 
 - (id);
 - (void);
 - (void);
+- (id)N3fst12ConstFstImplINS_6ArcTplINS_17TropicalWeightTplIfEEiEEjEE;
 - (id);
+- (void)B;
+- (CDUnknownBlockType);
+- (void)b;
+- (id);
+- (void);
+- (void);
+- (void)h;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) RPEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, nonatomic) NSXPCConnection *xpcConnection;
 
 @end
 

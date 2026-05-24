@@ -6,18 +6,10 @@
 
 #import <FinderKit/FI_TTextField.h>
 
-@class NSDate, NSDateInterval;
-
 __attribute__((visibility("hidden")))
 @interface FI_TDateTextField : FI_TTextField
 {
     struct vector<TFormattedDateEntry, std::allocator<TFormattedDateEntry>> _dateFormatTable;
-    struct TNotificationCenterObserver _dateTimeFormatterChangedObserver;
-    _Bool _suspendReformat;
-    _Bool _autoFormatToFit;
-    _Bool _useRelativeDates;
-    NSDate *_date;
-    NSDateInterval *_dateInterval;
 }
 
 + (Class);
@@ -33,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool);
+- (void)n flagState];
+- (id);
 - (id);
 - (void);
 - (id);
@@ -50,11 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)úÿ ;
 
 // Remaining properties
-@property(nonatomic) _Bool autoFormatToFit; // @synthesize autoFormatToFit=_autoFormatToFit;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
 @property(nonatomic) _Bool suspendReformat; // @synthesize suspendReformat=_suspendReformat;
-@property(nonatomic) _Bool useRelativeDates; // @synthesize useRelativeDates=_useRelativeDates;
 
 @end
 

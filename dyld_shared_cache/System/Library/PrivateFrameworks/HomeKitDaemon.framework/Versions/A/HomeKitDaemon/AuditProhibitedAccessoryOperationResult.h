@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AuditProhibitedAccessoryOperationResult
 {
     _Bool _shouldReschedule;
-    NSError *_error;
 }
 
 - (_Bool);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSError *error; // @synthesize error=_error;
-@property _Bool shouldReschedule; // @synthesize shouldReschedule=_shouldReschedule;
 
 @end
 

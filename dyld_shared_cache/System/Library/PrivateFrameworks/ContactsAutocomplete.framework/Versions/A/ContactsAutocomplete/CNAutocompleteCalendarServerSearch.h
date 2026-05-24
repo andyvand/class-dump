@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteCalendarServerOperationFactory, CNStringTokenizer, EKEphemeralCacheEventStoreProvider, NSString;
+@class CNStringTokenizer, EKEphemeralCacheEventStoreProvider;
 
 @interface CNAutocompleteCalendarServerSearch
 {
     EKEphemeralCacheEventStoreProvider *_eventStoreProvider;
-    CNAutocompleteCalendarServerOperationFactory *_operationFactory;
-    CNStringTokenizer *_tokenizer;
 }
 
-+ (_Bool);
++ (_Bool)legacyUID;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -26,14 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CNAutocompleteCalendarServerOperationFactory *operationFactory; // @synthesize operationFactory=_operationFactory;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CNStringTokenizer *tokenizer; // @synthesize tokenizer=_tokenizer;
 
 @end

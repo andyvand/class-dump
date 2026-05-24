@@ -5,5 +5,7 @@
 //
 
 @protocol ABCNDataMapperSaveTransaction
+- (void)P;
+- (void);
 @end
 

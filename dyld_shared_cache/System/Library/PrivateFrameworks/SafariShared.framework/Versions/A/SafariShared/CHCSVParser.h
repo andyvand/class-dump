@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSError, NSInputStream, NSMutableData, NSMutableString;
-@protocol CHCSVParserDelegate;
+@class NSInputStream;
 
 @interface CHCSVParser
 {
     NSInputStream *_stream;
-    unsigned long long _streamEncoding;
-    NSMutableData *_stringBuffer;
-    NSMutableString *_string;
-    NSCharacterSet *_validFieldCharacters;
-    unsigned long long _nextIndex;
-    long long _fieldIndex;
-    struct _NSRange _fieldRange;
-    NSMutableString *_sanitizedField;
-    unsigned short _delimiter;
-    NSError *_error;
-    unsigned long long _currentRecord;
-    _Bool _cancelled;
-    _Bool _sanitizesFields;
-    _Bool _trimsWhitespace;
-    _Bool _recognizesBackslashesAsEscapes;
-    _Bool _recognizesComments;
-    _Bool _recognizesLeadingEqualSign;
-    id <CHCSVParserDelegate> _delegate;
-    unsigned long long _totalBytesRead;
 }
 
 - (_Bool);
@@ -43,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -67,7 +47,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -78,19 +58,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H_;
 - (void);
 - (void)HX;
 
 // Remaining properties
-@property id <CHCSVParserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool recognizesBackslashesAsEscapes; // @synthesize recognizesBackslashesAsEscapes=_recognizesBackslashesAsEscapes;
-@property(nonatomic) _Bool recognizesComments; // @synthesize recognizesComments=_recognizesComments;
-@property(nonatomic) _Bool recognizesLeadingEqualSign; // @synthesize recognizesLeadingEqualSign=_recognizesLeadingEqualSign;
-@property(nonatomic) _Bool sanitizesFields; // @synthesize sanitizesFields=_sanitizesFields;
 @property(nonatomic) _Bool stripsLeadingAndTrailingWhitespace;
-@property unsigned long long totalBytesRead; // @synthesize totalBytesRead=_totalBytesRead;
-@property(nonatomic) _Bool trimsWhitespace; // @synthesize trimsWhitespace=_trimsWhitespace;
 
 @end
 

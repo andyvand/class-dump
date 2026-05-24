@@ -6,26 +6,22 @@
 
 #import <AVConference/VCMediaStreamGroup.h>
 
-@class NSMutableDictionary, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamReceiveGroup : VCMediaStreamGroup
 {
     NSNumber *_optedInStreamID;
-    NSNumber *_activeStreamID;
-    _Bool _receivingEndToEndStream;
-    NSMutableDictionary *_streamToMaxNetworkBitrate;
-    NSMutableDictionary *_streamToActualNetworkBitrate;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,15 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)networkProc;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *activeStreamID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSNumber *optedInStreamID;
-@property(readonly) Class superclass;
 
 @end
 

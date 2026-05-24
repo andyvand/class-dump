@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface AXEKeyboard
 {
     struct __CGEventSource *__eventSource;
-    unsigned int __eventTapLocation;
-    unsigned long long __modifierFlags;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)^;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?ן;
 - (id);
 - (_Bool);
 - (id);
@@ -36,21 +32,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)G;
 
 // Remaining properties
 @property(nonatomic) unsigned int _eventTapLocation; // @synthesize _eventTapLocation=__eventTapLocation;
-@property(nonatomic) unsigned long long _modifierFlags; // @synthesize _modifierFlags=__modifierFlags;
-@property(readonly, nonatomic) _Bool _supportsBuiltinEscKey;
-@property(readonly, copy, nonatomic) NSSet *downKeys;
-@property(readonly, nonatomic) _Bool isAnyKeyDown;
-@property(readonly, nonatomic) _Bool isAnyModifierDown;
-@property(readonly, nonatomic) _Bool isCapsLockDown;
-@property(readonly, nonatomic) _Bool isCommandDown;
-@property(readonly, nonatomic) _Bool isControlDown;
-@property(readonly, nonatomic) _Bool isFnDown;
-@property(readonly, nonatomic) _Bool isOptionDown;
-@property(readonly, nonatomic) _Bool isShiftDown;
 
 @end
 

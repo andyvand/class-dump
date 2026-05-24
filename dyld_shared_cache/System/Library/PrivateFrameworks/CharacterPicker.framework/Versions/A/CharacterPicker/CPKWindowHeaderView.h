@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface CPKWindowHeaderView
 {
     NSButton *_closeButton;
-    NSButton *_showCVButton;
 }
 
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)6;
+- (void)k,;
 - (void);
 - (id);
 - (void);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(retain, nonatomic) NSButton *showCVButton; // @synthesize showCVButton=_showCVButton;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPIdentifierSet, NSDictionary, NSString;
+@class MPIdentifierSet;
 
 @interface MPMusicPlayerPlayParameters
 {
     _Bool _libraryContent;
-    NSDictionary *_dictionary;
-    MPIdentifierSet *_identifiers;
-    NSString *_itemKind;
-    NSString *_itemID;
-    NSString *_catalogID;
-    NSString *_libraryID;
-    NSString *_persistentID;
 }
 
 + (_Bool);
@@ -23,28 +16,21 @@
 - (id);
 - (id);
 - (id);
+- (id)IMErrorInternalModel;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)e: /* Error: Ran out of types for this method. */;
+- (id)SDySSSiG;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)itle__MAPPING_MISSING__;
+- (void)__MPModelPropertyAlbumTitle__MAPPING_MISSING__;
 - (id)dSections;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *catalogID; // @synthesize catalogID=_catalogID;
-@property(readonly, copy, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
 @property(readonly, copy, nonatomic) MPIdentifierSet *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, copy, nonatomic) NSString *itemID; // @synthesize itemID=_itemID;
-@property(readonly, copy, nonatomic) NSString *itemKind; // @synthesize itemKind=_itemKind;
-@property(readonly, nonatomic, getter=isLibraryContent) _Bool libraryContent; // @synthesize libraryContent=_libraryContent;
-@property(readonly, copy, nonatomic) NSString *libraryID; // @synthesize libraryID=_libraryID;
-@property(readonly, copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.InAppPurchaseStateDataSource
 {
     id stateProvider;
-    id observers;
-    id stateLock;
 }
 
 @end

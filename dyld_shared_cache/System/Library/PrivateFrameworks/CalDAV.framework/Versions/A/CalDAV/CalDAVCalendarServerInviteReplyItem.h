@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVHrefItem, CoreDAVItemWithHrefChildItem, CoreDAVItemWithNoChildren, CoreDAVLeafItem, NSString, NSURL;
+@class CoreDAVHrefItem;
 
 @interface CalDAVCalendarServerInviteReplyItem
 {
     CoreDAVHrefItem *_href;
-    CoreDAVItemWithNoChildren *_inviteStatus;
-    CoreDAVItemWithHrefChildItem *_hostURL;
-    CoreDAVLeafItem *_inReplyTo;
-    CoreDAVLeafItem *_summary;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSURL *_acceptedURL;
 }
 
 - (void);
@@ -33,23 +26,16 @@
 - (id);
 - (id);
 - (void);
+- (id)charge_duration_p_0_90_at_charge_start_secs_curr_static_bin;
+- (void);
+- (id)!;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *acceptedURL; // @synthesize acceptedURL=_acceptedURL;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) CoreDAVItemWithHrefChildItem *hostURL; // @synthesize hostURL=_hostURL;
 @property(retain, nonatomic) CoreDAVHrefItem *href; // @synthesize href=_href;
-@property(retain, nonatomic) CoreDAVLeafItem *inReplyTo; // @synthesize inReplyTo=_inReplyTo;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *inviteStatus; // @synthesize inviteStatus=_inviteStatus;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) CoreDAVLeafItem *summary; // @synthesize summary=_summary;
 
 @end
 

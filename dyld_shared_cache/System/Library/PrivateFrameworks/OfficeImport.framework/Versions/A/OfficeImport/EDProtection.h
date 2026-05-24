@@ -8,19 +8,18 @@ __attribute__((visibility("hidden")))
 @interface EDProtection
 {
     _Bool mHidden;
-    _Bool mLocked;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)e:[%i] %s /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)"G;
 
 @end
 

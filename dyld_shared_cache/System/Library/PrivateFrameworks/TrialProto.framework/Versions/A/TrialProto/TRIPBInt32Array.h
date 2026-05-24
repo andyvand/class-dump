@@ -9,9 +9,6 @@
 @interface TRIPBInt32Array
 {
     TRIPBMessage *_autocreator;
-    int *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 + (id);
@@ -20,14 +17,14 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)ng",C,N,V_resourceDisplayName;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)R,C,N;
 - (void);
 - (void);
 - (void);
@@ -36,10 +33,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)AFBBufferReferencing;
 - (void)16r^I24Q32;
 - (int)etPurgeFields",&,N,V_assetPurgeFields;
-- (void)StoreBag;
+- (void)CoreMediaAirplayStoreBag;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

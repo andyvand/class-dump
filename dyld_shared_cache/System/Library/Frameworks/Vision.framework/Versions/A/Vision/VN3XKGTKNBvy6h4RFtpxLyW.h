@@ -6,12 +6,11 @@
 
 #import <Vision/VNObservation.h>
 
-@class VN6Ac6Cyl5O5oK19HboyMBR, VN6B8mkraBUpwUqskMYPtS3;
+@class VN6Ac6Cyl5O5oK19HboyMBR;
 
 @interface VN3XKGTKNBvy6h4RFtpxLyW : VNObservation
 {
     VN6Ac6Cyl5O5oK19HboyMBR *_imageSignatureprint;
-    VN6B8mkraBUpwUqskMYPtS3 *_imageSignatureHash;
 }
 
 + (_Bool);
@@ -19,14 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_customDomain;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void)or(with:of:to:):start /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) VN6B8mkraBUpwUqskMYPtS3 *imageSignatureHash; // @synthesize imageSignatureHash=_imageSignatureHash;
 @property(readonly) VN6Ac6Cyl5O5oK19HboyMBR *imageSignatureprint; // @synthesize imageSignatureprint=_imageSignatureprint;
 
 @end

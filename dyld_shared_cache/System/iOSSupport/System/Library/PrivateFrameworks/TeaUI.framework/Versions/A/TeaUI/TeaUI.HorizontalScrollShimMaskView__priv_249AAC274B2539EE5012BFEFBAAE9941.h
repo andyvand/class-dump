@@ -7,14 +7,11 @@
 @interface TeaUI.HorizontalScrollShimMaskView__priv_249AAC274B2539EE5012BFEFBAAE9941
 {
     id layoutOptions;
-    id leftMaskView;
-    id visibleView;
-    id rightMaskView;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)icleSearchOperation validateOperation];
+- (id)stateRestorationAllowedTimeWindow;
 - (void)Ø9þÿ;
 
 @end

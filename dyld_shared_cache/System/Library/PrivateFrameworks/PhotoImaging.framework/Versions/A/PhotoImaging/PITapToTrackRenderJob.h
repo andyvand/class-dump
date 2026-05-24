@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PTCinematographyTrack;
-
 @interface PITapToTrackRenderJob
 {
     _Bool _clientRequestedStop;
-    CDUnknownBlockType _progressHandler;
-    PTCinematographyTrack *_completedTrack;
-    struct CGPoint _normalizedImagePoint;
-    CDStruct_1b6d18a9 _startTime;
 }
 
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -27,10 +21,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)donateWithPetNodes:isRebuild:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)itUntilDone;
+- (void)waitUntilDone;
 - (CDUnknownBlockType)clarityNew(vec4 s, vec4 b, float intensity)
 {
 float sl = (s.r + s.g + s.b);
@@ -57,10 +51,6 @@ return clarity;
 - (void)¯>F|¯>¯>ÓÀ¯>çâ¯>°>1'°>EI°>Yk°>m°>ÿ±°>RÑ°>Eó°>8±>	7±>ÚX±>«z±>|±>M¾±>üß±>¬²>[#²>éD²>f²>'²>´²>!Ë²>¯ì²>³>/³>ôP³>?r³>«³>ö´³>AÖ³>j÷³>µ´>Þ9´>[´>1|´>þµ´>b¾´>jß´>q;
 
 // Remaining properties
-@property _Bool clientRequestedStop; // @synthesize clientRequestedStop=_clientRequestedStop;
-@property(retain, nonatomic) PTCinematographyTrack *completedTrack; // @synthesize completedTrack=_completedTrack;
-@property(nonatomic) struct CGPoint normalizedImagePoint; // @synthesize normalizedImagePoint=_normalizedImagePoint;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 @property(nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
 
 @end

@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, WFNextHourPrecipitationDescription;
+@class NSDate;
 
 @interface WFNextHourPrecipitation
 {
     NSDate *_readDate;
-    NSDate *_startDate;
-    NSDate *_expirationDate;
-    NSArray *_minutes;
-    NSArray *_precipitationDescriptions;
-    NSArray *_conditions;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *activeMinutes;
-@property(readonly, copy, nonatomic) NSArray *conditions; // @synthesize conditions=_conditions;
-@property(readonly, nonatomic) WFNextHourPrecipitationDescription *currentDescription;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool isRelevant;
-@property(readonly, copy, nonatomic) NSArray *minutes; // @synthesize minutes=_minutes;
-@property(readonly, copy, nonatomic) NSArray *precipitationDescriptions; // @synthesize precipitationDescriptions=_precipitationDescriptions;
 @property(readonly, copy, nonatomic) NSDate *readDate; // @synthesize readDate=_readDate;
-@property(readonly, copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

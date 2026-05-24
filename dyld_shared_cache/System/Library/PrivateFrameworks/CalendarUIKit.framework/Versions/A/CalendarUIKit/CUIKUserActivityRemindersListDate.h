@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ntrol:(id)arg1 DM: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ñÍ°1Â0@ù
 × ;

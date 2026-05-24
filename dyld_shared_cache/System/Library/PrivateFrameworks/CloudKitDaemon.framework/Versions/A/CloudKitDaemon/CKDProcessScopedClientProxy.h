@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDXPCConnection, CKEntitlements, NSString;
 @protocol CKXPCProcessScopedClient;
 
 @interface CKDProcessScopedClientProxy
 {
     _Bool _sandboxed;
-    _Bool _platformBinary;
-    int _pid;
-    unsigned int _clientSDKVersion;
-    NSString *_processBinaryName;
-    NSString *_procName;
-    CKDXPCConnection *_clientConnection;
-    CKEntitlements *_clientEntitlements;
-    id _cloudCoreClientEntitlements;
-    id <CKXPCProcessScopedClient> _processScopedClientProxyCreator;
-    long long _hasValidatedEntitlementsTernary;
 }
 
 + (_Bool);
@@ -34,41 +23,30 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)ing=}20@0:8C16 /* Error: Ran out of types for this method. */;
+- (id)setBootToLastLinkUp: /* Error: Ran out of types for this method. */;
+- (id)inRoamSuppressionEnabled;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)4;
 - (id);
 - (void);
 - (_Bool)eCapabilities";
-- (void)ailAllItemsInAssetBatch:(id)arg1 error:(unsigned long long)arg2;
-- (_Bool)NeedsAManateeInvitation:(id)arg1;
+- (void)_failAllItemsInAssetBatch:(id)arg1 error:(unsigned long long)arg2;
+- (_Bool)_addedPrivateParticipantNeedsAManateeInvitation:(id)arg1;
 - (id)eDeltas;
 - (void)T@ì;
-- (void)AssetDownloadEstimatedSize;
+- (void)constructedAssetDownloadEstimatedSize;
 - (void)il;
 - (id)Reconstructed request:(id)arg1 [%@]\nRedirect response:(id)arg2 [%@]";
 - (_Bool)from zone PCS %@:%@. /* Error: Ran out of types for this method. */;
 - (long long)e manifest at %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak CKDXPCConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(readonly, nonatomic) CKEntitlements *clientEntitlements; // @synthesize clientEntitlements=_clientEntitlements;
-@property(nonatomic) unsigned int clientSDKVersion; // @synthesize clientSDKVersion=_clientSDKVersion;
-@property(retain, nonatomic) id cloudCoreClientEntitlements; // @synthesize cloudCoreClientEntitlements=_cloudCoreClientEntitlements;
-@property(nonatomic) long long hasValidatedEntitlementsTernary; // @synthesize hasValidatedEntitlementsTernary=_hasValidatedEntitlementsTernary;
-@property(readonly, nonatomic) _Bool isClientMainBundleAppleExecutable;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, getter=isPlatformBinary) _Bool platformBinary; // @synthesize platformBinary=_platformBinary;
-@property(readonly, nonatomic) NSString *procName; // @synthesize procName=_procName;
-@property(readonly, nonatomic) NSString *processBinaryName; // @synthesize processBinaryName=_processBinaryName;
 @property(retain) id <CKXPCProcessScopedClient> processScopedClientProxyCreator; // @synthesize processScopedClientProxyCreator=_processScopedClientProxyCreator;
-@property(readonly, getter=isSandboxed) _Bool sandboxed; // @synthesize sandboxed=_sandboxed;
 
 @end
 

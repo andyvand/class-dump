@@ -4,45 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContactList, _INPBDataStringList, _INPBDateTimeRange, _INPBIntentMetadata, _INPBStringList;
+@class _INPBContactList, _INPBDateTimeRange, _INPBIntentMetadata, _INPBStringList;
 
 @protocol _INPBSearchForMessagesIntent
+- (_INPBDateTimeRange *)#;
+- (void)dataWithPropertyList:(_INPBContactList *)arg1 format:options:error: /* Error: Ran out of types for this method. */;
+- (_INPBContactList *)setMostRepresentativeThumbnail: /* Error: Ran out of types for this method. */;
+- (void)NSCopying;
+- (_INPBStringList *)q32;
+- (_INPBIntentMetadata *);
 - (void)ù
 × ;
 - (_Bool)Â0@ù
 × ;
-- (void)otDescription:(_INPBStringList *)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)resolutionResultDataForIntent:(_INPBStringList *)arg1 intentSlotDescription:error: /* Error: Ran out of types for this method. */;
 - (_INPBStringList *)onID:sampleSizeForUserRatingScore:normalizedUserRatingScore: /* Error: Ran out of types for this method. */;
-- (_Bool)tringValue;
-- (_INPBStringList *)atus;
-- (int)hotosIntent;
-- (_INPBStringList *)eInfo;
+- (_Bool)hasStringValue;
+- (_INPBStringList *)_alarmSearchStatus;
+- (int)INSearchForPhotosIntent;
+- (_INPBStringList *)_INPBAppBundleInfo;
 - (void)hat your intent definition file is valid.;
 
 // Remaining properties
 @property(readonly, nonatomic) int *attributes;
-@property(readonly, nonatomic) unsigned long long attributesCount;
-@property(retain, nonatomic) _INPBStringList *content;
-@property(retain, nonatomic) _INPBStringList *conversationIdentifier;
-@property(retain, nonatomic) _INPBDateTimeRange *dateTimeRange;
-@property(retain, nonatomic) _INPBStringList *groupName;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasConversationIdentifier;
-@property(readonly, nonatomic) _Bool hasDateTimeRange;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNotificationIdentifier;
-@property(readonly, nonatomic) _Bool hasRecipient;
-@property(readonly, nonatomic) _Bool hasSearchTerm;
-@property(readonly, nonatomic) _Bool hasSender;
-@property(readonly, nonatomic) _Bool hasSpeakableGroupName;
-@property(retain, nonatomic) _INPBStringList *identifier;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBStringList *notificationIdentifier;
-@property(retain, nonatomic) _INPBContactList *recipient;
-@property(retain, nonatomic) _INPBStringList *searchTerm;
-@property(retain, nonatomic) _INPBContactList *sender;
-@property(retain, nonatomic) _INPBDataStringList *speakableGroupName;
 @end
 

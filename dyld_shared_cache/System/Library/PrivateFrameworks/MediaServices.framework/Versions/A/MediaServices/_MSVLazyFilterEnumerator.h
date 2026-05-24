@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _MSVLazyFilterEnumerator
 {
     NSEnumerator *_enumerator;
-    CDUnknownBlockType _block;
 }
 
-- (id);
+- (id)CPU_SUBTYPE_POWERPC_620;
 - (void);
 
 @end

@@ -6,29 +6,26 @@
 
 #import <CloudPhotoLibrary/CPLRecordChange.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CPLFaceCropChange : CPLRecordChange
 {
     NSString *_personIdentifier;
-    NSData *_resourceData;
-    long long _faceCropType;
-    NSString *_rejectedPersonIdentifier;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)C;
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)@"NSDate",&,N,V_dueDate;
+- (void)rportCode;
 - (id);
-- (long long);
+- (long long)%@][qid=%lu][query="%@"] Engagement break down for item %@:replied=%.04f, flagged=%.04f, used count=%.04f (normed:%.04f), distinct dates=%.04f, decayed engagement=%.04f /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -38,10 +35,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) long long faceCropType; // @synthesize faceCropType=_faceCropType;
 @property(copy, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(copy, nonatomic) NSString *rejectedPersonIdentifier; // @synthesize rejectedPersonIdentifier=_rejectedPersonIdentifier;
-@property(copy, nonatomic) NSData *resourceData; // @synthesize resourceData=_resourceData;
 
 @end
 

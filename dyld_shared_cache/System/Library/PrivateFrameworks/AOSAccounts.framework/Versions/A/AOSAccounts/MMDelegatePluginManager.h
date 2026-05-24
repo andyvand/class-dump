@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface MMDelegatePluginManager
 {
     _Bool _done;
-    _Bool _succeeded;
-    NSArray *_mbSetupPlugins;
-    NSDictionary *_delegatesResponseDict;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSDictionary *delegatesResponseDict; // @synthesize delegatesResponseDict=_delegatesResponseDict;

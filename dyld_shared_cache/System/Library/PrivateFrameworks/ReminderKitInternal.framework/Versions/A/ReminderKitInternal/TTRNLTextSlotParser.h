@@ -9,13 +9,12 @@
 @interface TTRNLTextSlotParser
 {
     NSLocale *_locale;
-    void *_parser;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)YUNNAN_Honghe_Tram_Line_One;
 - (void *);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) void *parser; // @synthesize parser=_parser;
 
 @end
 

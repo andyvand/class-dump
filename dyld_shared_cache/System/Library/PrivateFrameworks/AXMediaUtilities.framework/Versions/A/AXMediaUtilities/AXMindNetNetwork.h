@@ -4,51 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSArray;
+@class MLModel;
 
 @interface AXMindNetNetwork
 {
     MLModel *_mindNetModel;
-    long long _modelType;
-    int _num_pos_classes;
-    struct vector<int, std::allocator<int>> _important_classes;
-    struct vector<NSString *, std::allocator<NSString *>> _model_labels;
-    int _num_ratios;
-    NSArray *_filterThreshold;
-    float _input_aspect_ratio;
-    _Bool _keep_aspect_ratio;
-    _Bool _can_rotate;
-    float _input_height;
-    float _screenshot_width;
-    float _screenshot_height;
-    float _threshold;
-    int _version;
-    float _nmsThreshold;
-    NSArray *_filterThresholds;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id){;
+- (id);
 - (unsigned long long);
 - (float);
 - (int);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (float)meters;
+- (float)AXMSynthEnvelopeParameters;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *filterThresholds; // @synthesize filterThresholds=_filterThresholds;
-@property(nonatomic) float nmsThreshold; // @synthesize nmsThreshold=_nmsThreshold;
 @property(readonly, nonatomic) unsigned long long preferredSmallSide;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

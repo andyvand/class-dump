@@ -9,7 +9,6 @@
 @interface WFLSMScoreNormalizedMap : WFLSMMap
 {
     float *maxScore;
-    float *minScore;
 }
 
 - (id);

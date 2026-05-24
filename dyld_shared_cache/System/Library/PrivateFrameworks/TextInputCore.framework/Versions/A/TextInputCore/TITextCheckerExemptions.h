@@ -12,7 +12,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool assertsObservers;

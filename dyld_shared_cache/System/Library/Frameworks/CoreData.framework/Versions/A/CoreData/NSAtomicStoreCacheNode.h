@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSMutableDictionary;
+@class NSManagedObjectID;
 
 @interface NSAtomicStoreCacheNode
 {
     NSManagedObjectID *_objectID;
-    unsigned long long __versionNumber;
-    NSMutableDictionary *_propertyCache;
-    void *_reserved1;
 }
 
 + (void)r their password in settings, or via a password prompt.;
 + (_Bool)cess;
 - (void);
-- (id);
+- (id)E;
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (const id *);
-- (id);
+- (id)unts.linkedin.defaultaccess;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(retain, nonatomic) NSMutableDictionary *propertyCache;
 
 @end
 

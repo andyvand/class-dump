@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface PKHMAccessory
 {
     NSUUID *_uniqueIdentifier;
-    NSString *_name;
 }
 
 + (_Bool)X"°!<Gùî%°1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)�#n)	k -;
 - (id);
 - (void);
 - (id);
@@ -24,7 +23,6 @@
 - (void)ate:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

@@ -4,40 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFDebouncer, EFFuture, EMMailbox, NSArray, NSMutableSet, NSString, TrackedMessageListItems;
-@protocol EFCancelable, MessageListSelectionModelDataSource, MessageListSelectionModelDelegate;
+@protocol MessageListSelectionModelDataSource;
 
 @interface MessageListSelectionModel
 {
     _Bool _shouldRestoreSelection;
-    _Bool _multipleSelectionActive;
-    _Bool _performingDataSourceUpdates;
-    long long _type;
-    NSMutableSet *_itemsToDeselectAfterMultipleSelection;
-    id <MessageListSelectionModelDataSource> _dataSource;
-    id <MessageListSelectionModelDelegate> _delegate;
-    TrackedMessageListItems *_trackedItems;
-    NSMutableSet *_itemIDsPendingConfiguration;
-    NSMutableSet *_itemIDsMissingMessageListItem;
-    NSArray *_trackedMailboxes;
-    long long _trackedItemsCount;
-    long long _trackedItemsWillMoveToTrash;
-    long long _trackedItemsArchiveByDefault;
-    long long _trackedItemsSupportArchiving;
-    EFDebouncer *_predictionDebouncer;
-    EFFuture *_mailboxPredictionFuture;
-    id <EFCancelable> _restoreSelectionCancelable;
 }
 
 - (void);
 - (id);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
-- (long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,86 +33,52 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long));
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)J;
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (void);
+- (id)A;
+- (void)?;
+- (void);
+- (id);
+- (void)V;
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long)(M;
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void)ueuedDragEvents: /* Error: Ran out of types for this method. */;
+- (void)setQueuedDragEvents: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
 @property(nonatomic) __weak id <MessageListSelectionModelDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MessageListSelectionModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isSelectAll;
-@property(readonly, nonatomic) _Bool isSelectionValid;
-@property(retain, nonatomic) NSMutableSet *itemIDsMissingMessageListItem; // @synthesize itemIDsMissingMessageListItem=_itemIDsMissingMessageListItem;
-@property(retain, nonatomic) NSMutableSet *itemIDsPendingConfiguration; // @synthesize itemIDsPendingConfiguration=_itemIDsPendingConfiguration;
-@property(readonly, nonatomic) NSMutableSet *itemsToDeselectAfterMultipleSelection; // @synthesize itemsToDeselectAfterMultipleSelection=_itemsToDeselectAfterMultipleSelection;
-@property(retain, nonatomic) EFFuture *mailboxPredictionFuture; // @synthesize mailboxPredictionFuture=_mailboxPredictionFuture;
-@property(nonatomic, getter=isMultipleSelectionActive) _Bool multipleSelectionActive; // @synthesize multipleSelectionActive=_multipleSelectionActive;
-@property(nonatomic, getter=isPerformingDataSourceUpdates) _Bool performingDataSourceUpdates; // @synthesize performingDataSourceUpdates=_performingDataSourceUpdates;
-@property(readonly, nonatomic) EMMailbox *predictedMoveMailbox;
-@property(retain, nonatomic) EFDebouncer *predictionDebouncer; // @synthesize predictionDebouncer=_predictionDebouncer;
-@property(readonly, nonatomic) long long preserveSelectionTimeout;
-@property(retain, nonatomic) id <EFCancelable> restoreSelectionCancelable; // @synthesize restoreSelectionCancelable=_restoreSelectionCancelable;
-@property(nonatomic) _Bool shouldRestoreSelection; // @synthesize shouldRestoreSelection=_shouldRestoreSelection;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TrackedMessageListItems *trackedItems; // @synthesize trackedItems=_trackedItems;
-@property(nonatomic) long long trackedItemsArchiveByDefault; // @synthesize trackedItemsArchiveByDefault=_trackedItemsArchiveByDefault;
-@property(nonatomic) long long trackedItemsCount; // @synthesize trackedItemsCount=_trackedItemsCount;
-@property(nonatomic) long long trackedItemsSupportArchiving; // @synthesize trackedItemsSupportArchiving=_trackedItemsSupportArchiving;
-@property(nonatomic) long long trackedItemsWillMoveToTrash; // @synthesize trackedItemsWillMoveToTrash=_trackedItemsWillMoveToTrash;
-@property(retain, nonatomic) NSArray *trackedMailboxes; // @synthesize trackedMailboxes=_trackedMailboxes;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

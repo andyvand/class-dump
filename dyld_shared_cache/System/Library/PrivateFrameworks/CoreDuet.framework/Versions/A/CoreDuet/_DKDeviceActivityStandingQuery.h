@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface _DKDeviceActivityStandingQuery
 {
     NSString *queryIdentifier;
-    NSObject<OS_xpc_object> *activity;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)NG;
+- (void)N;
 - (id);
 - (void);
-- (id);
+- (id)CARenderUpdateSetNextErrorMargin;
 - (id);
 - (id);
 - (void)á¶/Ð!,Fùñ©3Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity;
 @property(retain, nonatomic) NSString *queryIdentifier; // @synthesize queryIdentifier;
 
 @end

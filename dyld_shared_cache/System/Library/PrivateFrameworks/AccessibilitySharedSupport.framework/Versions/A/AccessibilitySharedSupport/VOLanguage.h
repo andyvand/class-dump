@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, VOSubstitution;
+@class NSString;
 
 @interface VOLanguage
 {
@@ -14,9 +14,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(retain, nonatomic) NSData *ckRecordSystemFields; // @dynamic ckRecordSystemFields;
-@property(copy, nonatomic) NSString *languageID; // @dynamic languageID;
-@property(retain, nonatomic) VOSubstitution *substitution; // @dynamic substitution;
 
 @end
 

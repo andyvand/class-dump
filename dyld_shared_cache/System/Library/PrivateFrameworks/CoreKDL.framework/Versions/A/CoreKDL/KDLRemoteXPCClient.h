@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KDLRemoteXPCConnection, NSString;
+@class KDLRemoteXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface KDLRemoteXPCClient
@@ -12,21 +12,15 @@ __attribute__((visibility("hidden")))
     KDLRemoteXPCConnection *_xpcConnection;
 }
 
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (long long);
-- (id);
-- (void);
+- (id)InputSourceData;
+- (void)hasSize;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

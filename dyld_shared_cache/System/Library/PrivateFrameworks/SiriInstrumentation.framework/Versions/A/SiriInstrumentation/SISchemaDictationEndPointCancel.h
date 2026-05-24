@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaDictationEndPointCancel : SISchemaInstrumentationMessage
 {
     int _dictationEndPointType;
-    CDStruct_78ff2909 _has;
 }
 
 - (void);
@@ -21,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)executeQuery:withResultHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)select group;
+- (_Bool), account_id, properties, chat_identifier, service_name, room_name, account_login, is_archived FROM chat WHERE     style = ? AND     service_name = ? ORDER BY ROWID ASC;
 - (id);
 - (id);
-- (id)tId;
-- (id);
+- (id)deleteAudioInterfaceProductId;
+- (id)_commonDependent;
 
 // Remaining properties
 @property(nonatomic) int dictationEndPointType; // @synthesize dictationEndPointType=_dictationEndPointType;
-@property(nonatomic) _Bool hasDictationEndPointType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

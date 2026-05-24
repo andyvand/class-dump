@@ -9,11 +9,6 @@
 @interface OTControlArguments
 {
     _Bool _canSendMetrics;
-    NSString *_contextID;
-    NSString *_containerName;
-    NSString *_altDSID;
-    NSString *_flowID;
-    NSString *_deviceSessionID;
 }
 
 + (_Bool);
@@ -30,10 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)N3icu8numparse4impl24ApproximatelySignMatcherE;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -44,12 +39,7 @@
 - (id)NSCIDRExceptions;
 
 // Remaining properties
-@property(retain) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property _Bool canSendMetrics; // @synthesize canSendMetrics=_canSendMetrics;
-@property(retain) NSString *containerName; // @synthesize containerName=_containerName;
 @property(retain) NSString *contextID; // @synthesize contextID=_contextID;
-@property(retain) NSString *deviceSessionID; // @synthesize deviceSessionID=_deviceSessionID;
-@property(retain) NSString *flowID; // @synthesize flowID=_flowID;
 
 @end
 

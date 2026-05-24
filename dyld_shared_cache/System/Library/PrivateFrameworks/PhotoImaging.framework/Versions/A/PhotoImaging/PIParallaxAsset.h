@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface PIParallaxAsset
 {
     NSURL *_fileURL;
-    NSURL *_videoComplementURL;
-    struct CGRect _acceptableRect;
-    struct CGRect _preferredRect;
-    NSArray *_faceRegions;
-    NSArray *_petRegions;
-    float _motionScore;
-    _Bool _isInCloud;
-    NSURL *_cacheURL;
-    struct CGRect _gazeAreaRect;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -34,40 +25,23 @@
 - (struct CGRect);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)E;
 - (int);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)nsform: /* Error: Ran out of types for this method. */;
+- (void)setInputAlignmentTransform: /* Error: Ran out of types for this method. */;
 - (id):onImage:withOpacity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect acceptableCropRect; // @synthesize acceptableCropRect=_acceptableRect;
-@property(retain, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *faceRegions; // @synthesize faceRegions=_faceRegions;
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) struct CGRect gazeAreaRect; // @synthesize gazeAreaRect=_gazeAreaRect;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInCloud; // @synthesize isInCloud=_isInCloud;
-@property(readonly, copy, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) NSArray *petRegions; // @synthesize petRegions=_petRegions;
-@property(readonly, nonatomic) struct CGRect preferredCropRect; // @synthesize preferredCropRect=_preferredRect;
-@property(readonly, nonatomic) NSURL *segmentationResourceURL;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsSegmentationResourceCaching;
 
 @end
 

@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTValueExpressionArrayVariant, NSData;
-
 @interface IFTSchemaIFTValueExpression : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTValueExpressionArrayVariant *_array;
-    CDStruct_b33ad018 _has;
-    _Bool _hasArray;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)AssetCacheParentDepthAlert;
 - (void);
 - (id);
 - (id);
@@ -27,24 +22,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!Gù1à°1Â0@ù
 × ;
 - (id)isEnabledForHeadphones"b1"isEnabledForCarPlay"b1};
 - (id)iled",&,N,V_failed;
-- (id)chemaHALForceFetchContext;
-- (_Bool)SchemaPLUSTimeToFollowupBucket;
+- (id)HALSchemaHALForceFetchContext;
+- (_Bool)PLUSSchemaPLUSTimeToFollowupBucket;
 - (void)ú";
 - (_Bool)z¹ÿØ};
 - (void)Qÿ;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTValueExpressionArrayVariant *array; // @synthesize array=_array;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasArray; // @synthesize hasArray=_hasArray;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CalDAVMultiPutTask
 {
     NSDictionary *_uuidsToAddActions;
-    NSDictionary *_hrefsToModDeleteActions;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *hrefsToModDeleteActions; // @synthesize hrefsToModDeleteActions=_hrefsToModDeleteActions;
 @property(readonly, nonatomic) NSDictionary *uuidsToAddActions; // @synthesize uuidsToAddActions=_uuidsToAddActions;
 
 @end

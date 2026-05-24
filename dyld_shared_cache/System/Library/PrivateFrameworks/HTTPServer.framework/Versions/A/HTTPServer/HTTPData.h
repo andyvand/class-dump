@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSFileHandle;
+@class NSFileHandle;
 
 @interface HTTPData
 {
     NSFileHandle *file;
-    unsigned long long offset;
-    unsigned long long length;
-    NSData *data;
 }
 
 - (id);
@@ -27,10 +24,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain) NSData *data; // @synthesize data;
 @property(retain) NSFileHandle *file; // @synthesize file;
-@property unsigned long long length; // @synthesize length;
-@property unsigned long long offset; // @synthesize offset;
 
 @end
 

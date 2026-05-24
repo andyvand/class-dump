@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBLocation;
+@class NSString;
 
 @protocol _INPBStartPhotoPlaybackIntentResponse
+- (void)@;
+- (int)_iconUTI;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumName;
-@property(readonly, nonatomic) _Bool hasAlbumName;
-@property(readonly, nonatomic) _Bool hasLocationCreated;
-@property(nonatomic) _Bool hasSearchResultsCount;
-@property(retain, nonatomic) _INPBLocation *locationCreated;
-@property(nonatomic) int searchResultsCount;
 @end
 

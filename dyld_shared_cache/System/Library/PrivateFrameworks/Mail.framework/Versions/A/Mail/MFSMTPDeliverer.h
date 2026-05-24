@@ -14,7 +14,7 @@
 
 + (id))y,),)__GG;
 - (long long);
-- (id);
+- (id)eRange>=(?=c{SimpleRange={BoundaryPoint={Ref<WebCore::Node, WTF::RawPtrTraits<WebCore::Node>, WTF::DefaultRefDerefTraits<WebCore::Node>>=^{Node}}I}{BoundaryPoint={Ref<WebCore::Node, WTF::RawPtrTraits<WebCore::Node>, WTF::DefaultRefDerefTraits<WebCore::Node>>=^{Node}}I}})B}32@0:8{_NSRange=QQ}16 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

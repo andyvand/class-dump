@@ -12,16 +12,15 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
++ (id)ble, double);
 + (id);
 + (id);
-+ (id);
-+ (_Bool)sulation;
++ (_Bool)NSTextEncapsulation;
 + (id);
 
 // Remaining properties
-@property unsigned long long count;
 @property(readonly, copy) NSPointerFunctions *pointerFunctions;
 
 @end

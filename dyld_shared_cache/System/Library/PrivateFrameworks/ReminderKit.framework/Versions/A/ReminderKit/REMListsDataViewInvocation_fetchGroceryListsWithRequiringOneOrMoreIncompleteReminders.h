@@ -11,15 +11,15 @@
     _Bool _requiringOneOrMoreIncompleteReminders;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)wM;
 - (_Bool);
 - (void);
-- (id);
+- (id)$;
 
 // Remaining properties
 @property(nonatomic) _Bool requiringOneOrMoreIncompleteReminders; // @synthesize requiringOneOrMoreIncompleteReminders=_requiringOneOrMoreIncompleteReminders;

@@ -7,11 +7,6 @@
 @interface ConversationKit.LocalParticipantControlsViewConstraintManager
 {
     id aspectRatio;
-    id containingView;
-    id localParticipantView;
-    id localParticipantControlsView;
-    id expandedControlsConstraints;
-    id defaultControlsConstraints;
 }
 
 @end

@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
 @protocol _NSQuickActionItemSource;
 
 __attribute__((visibility("hidden")))
 @interface _NSShortcutsQuickActionValidation
 {
     id <_NSQuickActionItemSource> _itemSource;
-    NSSet *_unvalidatedQuickActions;
-    NSSet *_validQuickActions;
-    void *_observationInfo;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)after header, need at least 4;
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)rong.;
 - (void);
 - (void)¼X;
 - (void *);
 - (void)k Duplicate.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSSet *validQuickActions;
 @property(readonly) _Bool wantsAutovalidation;
 
 @end

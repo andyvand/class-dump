@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NURenderNode, PIInpaintCacheNode;
+@class NURenderNode;
 
 @interface PIInpaintCompositeNode
 {
@@ -14,14 +14,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (CDStruct_912cb5d2);
-- (id);
+- (CDStruct_912cb5d2)<;
+- (id)ht"8;
 
 // Remaining properties
-@property(readonly, nonatomic) PIInpaintCacheNode *inpaintNode;
 @property(readonly, nonatomic) NURenderNode *inputNode;
 
 @end

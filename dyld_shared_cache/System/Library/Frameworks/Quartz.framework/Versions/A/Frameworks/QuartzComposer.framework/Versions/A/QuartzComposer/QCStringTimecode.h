@@ -6,15 +6,14 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCNumberPort, QCStringPort;
+@class QCNumberPort;
 
 @interface QCStringTimecode : QCPatch
 {
     QCNumberPort *inputTime;
-    QCStringPort *outputString;
 }
 
-+ (_Bool);
++ (_Bool)/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
 + (_Bool);
 - (_Bool);
 

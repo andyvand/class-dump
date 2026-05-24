@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWChannel, NSArray, NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CWTrimmedNetwork
 {
@@ -15,31 +15,31 @@
 - (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (unsigned long long);
 - (long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)__text;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
+- (id)R;
+- (id)\1;
 - (id);
 - (_Bool);
+- (_Bool);
+- (long long)@4d5;
 - (id);
-- (unsigned long long);
+- (id);
+- (_Bool);
+- (id);
+- (unsigned long long)kQPTokenRepliedAction;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (long long);
@@ -47,40 +47,16 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)P;
 - (id);
 - (_Bool);
-- (id)Type:channel:password:interfaceName:token:priority:reply: /* Error: Ran out of types for this method. */;
-- (_Bool)ndOnly: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id)startHostAPModeWithNetworkName:securityType:channel:password:interfaceName:token:priority:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)internal_showAvailableWiFiNetworks:interfaceName:recommendOnly: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *accessoryFriendlyName; // @dynamic accessoryFriendlyName;
-@property(readonly) NSString *baseStationName; // @dynamic baseStationName;
-@property(readonly) NSString *bssid; // @dynamic bssid;
-@property(readonly) unsigned long long channelNumber; // @dynamic channelNumber;
-@property(readonly) NSString *countryCode; // @dynamic countryCode;
-@property(readonly) _Bool hasNon6GHzRNRChannel; // @dynamic hasNon6GHzRNRChannel;
-@property(readonly) _Bool ibss; // @dynamic ibss;
-@property(readonly) NSArray *includedProperties; // @dynamic includedProperties;
-@property(readonly) _Bool isP2P; // @dynamic isP2P;
-@property(readonly) _Bool isPasspoint; // @dynamic isPasspoint;
-@property(readonly) _Bool isPersonalHotspot; // @dynamic isPersonalHotspot;
-@property(readonly) _Bool isSecureWACDevice; // @dynamic isSecureWACDevice;
-@property(readonly) _Bool isUnconfiguredAccessory; // @dynamic isUnconfiguredAccessory;
-@property(readonly) _Bool isUnconfiguredAirPlayAccessory; // @dynamic isUnconfiguredAirPlayAccessory;
-@property(readonly) _Bool isUnconfiguredAirPrintAccessory; // @dynamic isUnconfiguredAirPrintAccessory;
-@property(readonly) _Bool isUnconfiguredBaseStation; // @dynamic isUnconfiguredBaseStation;
-@property(readonly) long long noiseMeasurement; // @dynamic noiseMeasurement;
-@property(readonly) unsigned long long physicalLayerMode; // @dynamic physicalLayerMode;
-@property(readonly) long long rssiValue; // @dynamic rssiValue;
 @property(readonly) NSDictionary *scanRecord; // @dynamic scanRecord;
-@property(readonly) unsigned long long securityType; // @dynamic securityType;
-@property(readonly) NSString *ssid; // @dynamic ssid;
-@property(readonly) NSData *ssidData; // @dynamic ssidData;
-@property(readonly) _Bool supportsWPS; // @dynamic supportsWPS;
-@property(readonly) CWChannel *wlanChannel; // @dynamic wlanChannel;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface GEOThirdPartyLink
 {
     NSString *_adamID;
-    NSURL *_url;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *adamID; // @synthesize adamID=_adamID;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

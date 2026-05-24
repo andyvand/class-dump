@@ -7,13 +7,6 @@
 @interface PPM2ObjectsDeleted
 {
     int _domain;
-    int _donationSource;
-    _Bool _error;
-    struct {
-        unsigned int domain:1;
-        unsigned int donationSource:1;
-        unsigned int error:1;
-    } _has;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 - (void);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)&pg_query__object_with_args__descriptor;
 - (void);
 - (id);
 - (void);
@@ -36,20 +29,15 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)Ee;
 - (id);
 - (id);
 - (int);
-- (void)registerLocationReadWriteListener;
+- (void)_registerLocationReadWriteListener;
 - (_Bool)ck received:%{sensitive}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(nonatomic) _Bool error; // @synthesize error=_error;
 @property(nonatomic) _Bool hasDomain;
-@property(nonatomic) _Bool hasDonationSource;
-@property(nonatomic) _Bool hasError;
 
 @end
 

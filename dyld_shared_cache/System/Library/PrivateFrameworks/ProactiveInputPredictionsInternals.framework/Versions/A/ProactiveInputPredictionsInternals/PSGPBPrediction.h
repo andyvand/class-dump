@@ -9,47 +9,6 @@
 @interface PSGPBPrediction
 {
     NSString *_bundleIdentifier;
-    int _dataSourceType;
-    NSString *_experimentId;
-    NSString *_initiatingProcess;
-    NSString *_localeIdentifier;
-    unsigned int _maxPredictionItems;
-    unsigned int _maxStructuredInfoItems;
-    unsigned int _maxTextualResponseItems;
-    unsigned int _numStructuredInfoItems;
-    unsigned int _numTextualResponseItems;
-    NSString *_textContentType;
-    NSString *_textualResponseCategory;
-    NSString *_treatmentId;
-    NSString *_treatmentName;
-    NSString *_triggerAttributeField;
-    NSString *_triggerAttributeSubtype;
-    NSString *_triggerAttributeType;
-    NSString *_triggerCategory;
-    int _triggerSourceType;
-    _Bool _hasContextBeforeInput;
-    _Bool _hasRecipientNames;
-    _Bool _hasResponseContext;
-    _Bool _isDocumentEmpty;
-    _Bool _isResponseContextBlacklisted;
-    _Bool _portraitTimeout;
-    _Bool _requiredAppUnavailable;
-    struct {
-        unsigned int dataSourceType:1;
-        unsigned int maxPredictionItems:1;
-        unsigned int maxStructuredInfoItems:1;
-        unsigned int maxTextualResponseItems:1;
-        unsigned int numStructuredInfoItems:1;
-        unsigned int numTextualResponseItems:1;
-        unsigned int triggerSourceType:1;
-        unsigned int hasContextBeforeInput:1;
-        unsigned int hasRecipientNames:1;
-        unsigned int hasResponseContext:1;
-        unsigned int isDocumentEmpty:1;
-        unsigned int isResponseContextBlacklisted:1;
-        unsigned int portraitTimeout:1;
-        unsigned int requiredAppUnavailable:1;
-    } _has;
 }
 
 - (id);
@@ -71,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,7 +68,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)/;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -127,11 +86,11 @@
 - (int);
 - (_Bool);
 - (int);
-- (int);
+- (int)C;
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -139,7 +98,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)_TtCCO14CloudKitDaemon15CKDSessionCheck12AccountCheckP33_BAC31B783841EFE4230ECED7FCABD8CC5Actor;
 - (void);
 - (_Bool);
 - (void);
@@ -153,65 +112,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)initWithData:encoding: /* Error: Ran out of types for this method. */;
+- (void)lFittingSparseFloatMatrix";
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) int dataSourceType; // @synthesize dataSourceType=_dataSourceType;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(nonatomic) _Bool hasContextBeforeInput; // @synthesize hasContextBeforeInput=_hasContextBeforeInput;
-@property(nonatomic) _Bool hasDataSourceType;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(nonatomic) _Bool hasHasContextBeforeInput;
-@property(nonatomic) _Bool hasHasRecipientNames;
-@property(nonatomic) _Bool hasHasResponseContext;
-@property(readonly, nonatomic) _Bool hasInitiatingProcess;
-@property(nonatomic) _Bool hasIsDocumentEmpty;
-@property(nonatomic) _Bool hasIsResponseContextBlacklisted;
-@property(readonly, nonatomic) _Bool hasLocaleIdentifier;
-@property(nonatomic) _Bool hasMaxPredictionItems;
-@property(nonatomic) _Bool hasMaxStructuredInfoItems;
-@property(nonatomic) _Bool hasMaxTextualResponseItems;
-@property(nonatomic) _Bool hasNumStructuredInfoItems;
-@property(nonatomic) _Bool hasNumTextualResponseItems;
-@property(nonatomic) _Bool hasPortraitTimeout;
-@property(nonatomic) _Bool hasRecipientNames; // @synthesize hasRecipientNames=_hasRecipientNames;
-@property(nonatomic) _Bool hasRequiredAppUnavailable;
-@property(nonatomic) _Bool hasResponseContext; // @synthesize hasResponseContext=_hasResponseContext;
-@property(readonly, nonatomic) _Bool hasTextContentType;
-@property(readonly, nonatomic) _Bool hasTextualResponseCategory;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(readonly, nonatomic) _Bool hasTreatmentName;
-@property(readonly, nonatomic) _Bool hasTriggerAttributeField;
-@property(readonly, nonatomic) _Bool hasTriggerAttributeSubtype;
-@property(readonly, nonatomic) _Bool hasTriggerAttributeType;
-@property(readonly, nonatomic) _Bool hasTriggerCategory;
-@property(nonatomic) _Bool hasTriggerSourceType;
-@property(retain, nonatomic) NSString *initiatingProcess; // @synthesize initiatingProcess=_initiatingProcess;
-@property(nonatomic) _Bool isDocumentEmpty; // @synthesize isDocumentEmpty=_isDocumentEmpty;
-@property(nonatomic) _Bool isResponseContextBlacklisted; // @synthesize isResponseContextBlacklisted=_isResponseContextBlacklisted;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) unsigned int maxPredictionItems; // @synthesize maxPredictionItems=_maxPredictionItems;
-@property(nonatomic) unsigned int maxStructuredInfoItems; // @synthesize maxStructuredInfoItems=_maxStructuredInfoItems;
-@property(nonatomic) unsigned int maxTextualResponseItems; // @synthesize maxTextualResponseItems=_maxTextualResponseItems;
-@property(nonatomic) unsigned int numStructuredInfoItems; // @synthesize numStructuredInfoItems=_numStructuredInfoItems;
-@property(nonatomic) unsigned int numTextualResponseItems; // @synthesize numTextualResponseItems=_numTextualResponseItems;
-@property(nonatomic) _Bool portraitTimeout; // @synthesize portraitTimeout=_portraitTimeout;
-@property(nonatomic) _Bool requiredAppUnavailable; // @synthesize requiredAppUnavailable=_requiredAppUnavailable;
-@property(retain, nonatomic) NSString *textContentType; // @synthesize textContentType=_textContentType;
-@property(retain, nonatomic) NSString *textualResponseCategory; // @synthesize textualResponseCategory=_textualResponseCategory;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(retain, nonatomic) NSString *treatmentName; // @synthesize treatmentName=_treatmentName;
-@property(retain, nonatomic) NSString *triggerAttributeField; // @synthesize triggerAttributeField=_triggerAttributeField;
-@property(retain, nonatomic) NSString *triggerAttributeSubtype; // @synthesize triggerAttributeSubtype=_triggerAttributeSubtype;
-@property(retain, nonatomic) NSString *triggerAttributeType; // @synthesize triggerAttributeType=_triggerAttributeType;
-@property(retain, nonatomic) NSString *triggerCategory; // @synthesize triggerCategory=_triggerCategory;
-@property(nonatomic) int triggerSourceType; // @synthesize triggerSourceType=_triggerSourceType;
 
 @end
 

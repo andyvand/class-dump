@@ -7,14 +7,12 @@
 @interface ChatKit.CKBalloonBaseShapeLayer
 {
     id animationDelegate;
-    id shape;
-    id configuration;
 }
 
+- (id)q;
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (id)tUpdatingPower;
+- (id)startUpdatingPower;
 - (void);
 - (void)iÊk|6Gÿ;
 

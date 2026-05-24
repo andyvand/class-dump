@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CDASchemaCDAClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_cdaId;
-    _Bool _hasCdaId;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)X;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)LPInstSchemaCLPCurareAppIntentSampleClassificationStarted";
-- (id)AdvertisementData;
+- (id)CDASchemaCDAAdvertisementData;
 - (id)ÿÿ$ÿÿ@ÿÿ\ÿÿxÿÿÿÿ°ÿÿÌÿÿèÿÿÿÿ ÿÿ<ÿÿXÿÿtÿÿÿÿ¬ÿÿÈÿÿäÿÿ;
 - (void)Ðl&;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *cdaId; // @synthesize cdaId=_cdaId;
-@property(nonatomic) _Bool hasCdaId; // @synthesize hasCdaId=_hasCdaId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

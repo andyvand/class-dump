@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchDeviceTouchMap
 {
     long long _flushCount;
-    NSMutableSet *_touches;
-    NSMutableSet *_cancelledTouches;
-    NSMutableDictionary *_cachedBeginTouches;
-    NSMutableSet *_activeGestureRecognizers;
-    NSMutableSet *_claimedTouchIdentities;
-    NSMutableSet *_commandeeredTouchIdentities;
-    NSMutableDictionary *_touchesToGestureRecognizersMap;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 ;
+- (id)DeviceSupportsSpatialAudioCapture;
 - (void);
 - (void);
 - (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (long long);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)queue = %p, main thread = %p, main mach thread = %u;
+- (void)blishWithOptions:(id)arg1;
+- (void);
+- (id);
+- (id)invalidateLayoutForRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableSet *activeGestureRecognizers; // @synthesize activeGestureRecognizers=_activeGestureRecognizers;
-@property(retain) NSMutableDictionary *cachedBeginTouches; // @synthesize cachedBeginTouches=_cachedBeginTouches;
-@property(retain) NSMutableSet *cancelledTouches; // @synthesize cancelledTouches=_cancelledTouches;
-@property(retain) NSMutableSet *claimedTouchIdentities; // @synthesize claimedTouchIdentities=_claimedTouchIdentities;
-@property(retain) NSMutableSet *commandeeredTouchIdentities; // @synthesize commandeeredTouchIdentities=_commandeeredTouchIdentities;
-@property long long flushCount; // @synthesize flushCount=_flushCount;
 @property(retain) NSMutableSet *touches; // @synthesize touches=_touches;
 
 @end

@@ -9,22 +9,18 @@
 @interface MRTextEditingAttributes
 {
     NSString *_title;
-    NSString *_prompt;
-    struct _MRTextInputTraits _inputTraits;
 }
 
 - (struct _MRTextInputTraits);
 - (id);
 - (id);
+- (id)actionButtonSetAction:(struct _NSZone *)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)H;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _MRTextInputTraits inputTraits; // @synthesize inputTraits=_inputTraits;
-@property(readonly, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

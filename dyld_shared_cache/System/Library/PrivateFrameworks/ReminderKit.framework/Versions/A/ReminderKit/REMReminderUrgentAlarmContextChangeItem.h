@@ -20,7 +20,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool isUrgentStateEnabledForCurrentUser;
 @property(retain, nonatomic) REMReminderChangeItem *reminderChangeItem; // @synthesize reminderChangeItem=_reminderChangeItem;
 
 @end

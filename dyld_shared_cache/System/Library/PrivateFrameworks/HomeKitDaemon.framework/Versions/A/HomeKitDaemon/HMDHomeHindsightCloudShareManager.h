@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDatabaseZoneManager, HMDHome, NSObject, NSString, NSUUID;
-@protocol HMDHomeHindsightCloudShareManagerDataSource, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeHindsightCloudShareManager
 {
     NSString *_logIdentifier;
-    NSUUID *_UUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDDatabaseZoneManager *_zoneManager;
-    id <HMDHomeHindsightCloudShareManagerDataSource> _dataSource;
-    HMDHome *_home;
 }
 
 + (id)B;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)g station in %@.;
+- (_Bool)stopping at a charger;
 - (id);
-- (id);
+- (id)$;
 - (void);
+- (id)applyDeltaKernel;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 - (id)!ìEù±Ð1Â0@ù
@@ -41,19 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)´;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) id <HMDHomeHindsightCloudShareManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly) HMDDatabaseZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
 
 @end
 

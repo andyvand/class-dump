@@ -9,13 +9,6 @@
 @interface SwiftUI.AppKitTextField
 {
     id swiftUIDelegate;
-    id suggestionsBridge;
-    id selectionStorage;
-    id cachedIdealWidth;
-    id upperLimit;
-    id lowerLimit;
-    id delegateFocusEffect;
-    id customAcceptsFirstMouse;
 }
 
 + (void);
@@ -23,9 +16,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)SFOneTimeCodeCredentialIdentity;
+- (id)˟;
 - (id);
 - (id)7yqd_0_G;
 - (void)Äj

@@ -10,22 +10,19 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterAssertion
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isActive;
-    id <HMDRemoteEventRouterClientActiveStateDelegate> _activeStateDelegate;
 }
 
 - (void);
-- (id);
+- (id)om.apple.private.coreservices.canmaplsdatabase;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void)ificate;
+- (void)chipRootCertificate;
 - (void)>;
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDRemoteEventRouterClientActiveStateDelegate> activeStateDelegate; // @synthesize activeStateDelegate=_activeStateDelegate;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 
 @end
 

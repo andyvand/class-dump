@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSDictionary *_productValidationsDict;
 }
 
-+ (id);
-- (unsigned long long);
++ (id)6Л;
+- (unsigned long long);
 - (void);
 - (void);
 - (id);

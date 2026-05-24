@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIButtonBarGroupOrderer.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarGroupOrdererSelfContained : _UIButtonBarGroupOrderer
@@ -15,21 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)_serviceCapabilityCache;
 - (void);
 - (void);
 - (id)6@24@32@40@48q56;
 - (void)Ô4ÿÚaØèX^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *ownedGroups; // @synthesize ownedGroups=_ownedGroups;
-@property(readonly) Class superclass;
 
 @end
 

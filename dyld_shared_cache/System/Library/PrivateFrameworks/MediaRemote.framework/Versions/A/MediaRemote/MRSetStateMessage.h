@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)id image input. Completion? %@, sourceURL? %@;
 - (id);
 - (id);
 - (void)T@?,C,N,V_protobufValueToDictionaryPostTransformer;

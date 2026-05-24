@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKTapToRadarPrompt
 {
     NSString *_reason;
-    NSDate *_lastPromptDate;
-    long long _promptCount;
 }
 
 + (_Bool);
@@ -19,15 +17,13 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)addAssessment:(id)arg1;
+- (void)CoreRoutineTransitionMotionTypeCycling;
 - (void)com/image/thumb/PjQoyHYEsy9smuX4TuBlqg/258x258.png;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *lastPromptDate; // @synthesize lastPromptDate=_lastPromptDate;
-@property(nonatomic) long long promptCount; // @synthesize promptCount=_promptCount;
 @property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end

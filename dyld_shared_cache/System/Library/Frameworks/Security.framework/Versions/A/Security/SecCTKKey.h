@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, TKClientTokenObject;
+@class TKClientTokenObject;
 
 __attribute__((visibility("hidden")))
 @interface SecCTKKey
 {
     _Bool _isRegisteredSmartcard;
-    _Bool _wasAuthenticationContextProvidedBySecCaller;
-    TKClientTokenObject *_tokenObject;
-    NSDictionary *_keychainAttributes;
-    NSDictionary *_sessionParameters;
-    NSData *_tokenOID;
 }
 
 + (id);
@@ -26,27 +21,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)۔@;
 - (void);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)dox;
 - (void);
+- (id)qH;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)h;
 - (void)Ü
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long algorithmID;
-@property(nonatomic) _Bool isRegisteredSmartcard; // @synthesize isRegisteredSmartcard=_isRegisteredSmartcard;
-@property(readonly, nonatomic) NSDictionary *keychainAttributes; // @synthesize keychainAttributes=_keychainAttributes;
-@property(retain, nonatomic) NSDictionary *sessionParameters; // @synthesize sessionParameters=_sessionParameters;
-@property(readonly, nonatomic) NSData *tokenOID; // @synthesize tokenOID=_tokenOID;
 @property(retain, nonatomic) TKClientTokenObject *tokenObject; // @synthesize tokenObject=_tokenObject;
-@property(nonatomic) _Bool wasAuthenticationContextProvidedBySecCaller; // @synthesize wasAuthenticationContextProvidedBySecCaller=_wasAuthenticationContextProvidedBySecCaller;
 
 @end
 

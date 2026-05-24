@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, NSArray, NSString;
 @protocol NSCopying><NSObject><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface _GCControllerDescription
 {
     id <NSCopying><NSObject><NSSecureCoding> _identifier;
-    NSArray *_componentDescriptions;
-    GCController *_materializedController;
 }
 
 + (Class);
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)u;
 - (id);
 - (id);
 - (id);
@@ -26,21 +23,14 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <NSCopying><NSObject><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

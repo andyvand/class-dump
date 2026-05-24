@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage, _SFPBPunchout;
+@class NSString;
 
 @protocol _SFPBAppLink
+- (void)loudController.m;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBPunchout *appPunchout;
-@property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) int imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *title;
 @end
 

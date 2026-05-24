@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPSize, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface LPShadowStyle
 {
     double _radius;
-    double _opacity;
-    UIColor *_color;
-    LPSize *_offset;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)supportsPassbookAttachments;
++ (id)showUnreadCountDebugggingInfo;
++ (id)showUnknownContactPopover:shouldBypassScreenTimeShield:sourceView: /* Error: Ran out of types for this method. */;
+- (id)inviteeCloudKitAddress;
 - (void);
 - (id);
 - (double);
@@ -30,9 +25,6 @@ __attribute__((visibility("hidden")))
 - (id)¸;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) LPSize *offset; // @synthesize offset=_offset;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
 @property(nonatomic) double radius; // @synthesize radius=_radius;
 
 @end

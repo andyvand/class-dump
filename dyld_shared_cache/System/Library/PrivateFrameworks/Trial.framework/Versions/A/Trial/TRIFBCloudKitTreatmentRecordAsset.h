@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSData, NSString;
+@class AFBBufRef;
 
 @interface TRIFBCloudKitTreatmentRecordAsset
 {
     AFBBufRef *_br;
-    const struct CloudKitTreatmentRecordAsset *_ptr;
 }
 
 - (_Bool);
@@ -19,14 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -36,15 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int assetIndex;
-@property(readonly, nonatomic) unsigned char container;
-@property(readonly, nonatomic) _Bool hasAssetIndex;
-@property(readonly, nonatomic) _Bool hasCkIndex;
 @property(readonly, nonatomic) _Bool hasContainer;
-@property(readonly, nonatomic) _Bool hasHasCkIndex;
-@property(readonly, nonatomic) NSString *treatmentId;
-@property(readonly, nonatomic) const char *treatmentIdAsCString;
-@property(readonly, nonatomic) NSData *treatmentIdAsData;
 
 @end
 

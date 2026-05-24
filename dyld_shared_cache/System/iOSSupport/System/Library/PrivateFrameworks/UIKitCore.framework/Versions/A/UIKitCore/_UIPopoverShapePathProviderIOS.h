@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)supportsIncomingSMSRelayFiltering;
+- (double)_hasTriedToEnableMiCByDefault;
 - (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (void)or %s with error:(id)arg1 %@;
+- (void)ble items...;
+- (void)der. NSXPC proxy was likely invalidated mid-flight;
+- (void)AS request to resume %{public}s;
+- (struct CGPoint)me Photo FF not enabled;
+- (struct CGPoint)nil handles as transitioned;
 
 @end
 

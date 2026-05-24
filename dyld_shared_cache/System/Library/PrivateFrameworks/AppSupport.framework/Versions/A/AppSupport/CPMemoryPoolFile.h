@@ -7,16 +7,10 @@
 @interface CPMemoryPoolFile
 {
     struct _opaque_pthread_mutex_t _mutex;
-    int _fd;
-    char *_slots;
-    unsigned long long _slotCount;
-    unsigned long long _slotLength;
-    struct __CFBitVector *_usedSlots;
-    struct __CFAllocator *_deallocator;
 }
 
 - (void);
-- (id);
+- (id)_	;
 - (id);
 - (void);
 

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     id _attr;
 }
 
-- (id)aArray:(id)arg1;
+- (id)connection:(id)arg1 didReceiveDataArray: /* Error: Ran out of types for this method. */;
 
 @end
 

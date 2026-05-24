@@ -6,37 +6,35 @@
 
 #import <FinderKit/FI_TBrowserViewController.h>
 
-@class ILMediaBrowserView, NSLayoutConstraint, NSString;
+@class ILMediaBrowserView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TMediaBrowserViewController : FI_TBrowserViewController
 {
     unsigned long long _browserType;
-    struct NSEdgeInsets _contentInsets;
-    NSLayoutConstraint *_bottomConstraint;
 }
 
-- (_Bool);
+- (_Bool)+;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)';
 - (_Bool);
 - (void);
-- (void);
+- (void)a;
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (struct TFENodeVector);
-- (void);
+- (void)a;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -47,16 +45,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (int);
-- (id);
+- (int);
+- (id)D;
 - (void);
-- (unsigned long long)orApplicationsToOpenContentType: /* Error: Ran out of types for this method. */;
+- (unsigned long long)URLsForApplicationsToOpenContentType: /* Error: Ran out of types for this method. */;
 - (void)ÿÿ!;
 - (struct TString)18FI_TColumnCellViewlEEE;
 
 // Remaining properties
 @property(readonly) ILMediaBrowserView *mediaBrowserView;
-@property(copy, nonatomic) NSString *searchNSString;
 
 @end
 

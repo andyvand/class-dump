@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDClientMetadata, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiQualityServiceRequest
 {
     PBDataReader *_reader;
-    GEOPDClientMetadata *_clientMetadata;
-    NSMutableArray *_locationSearches;
-    NSMutableArray *_networkSearches;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_clientMetadata:1;
-        unsigned int read_locationSearches:1;
-        unsigned int read_networkSearches:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)utes:(id)arg1;
++ (_Bool)setOriginalRouteAttributes:(id)arg1;
 - (unsigned long long);
 - (void);
 - (id);
@@ -34,15 +22,20 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)stopSpeechCaptureForEvent:(id)arg1 suppressAlert:hostTime: /* Error: Ran out of types for this method. */;
+- (void)disableSpeechPacketGeneration: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)device default!;
 - (unsigned long long);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)m;
 - (void);
-- (void);
+- (void)pid:(id)arg1 %d
+				epid:%d
+				uuid:%s
+				euuid:%s
+				bundle id:%s
+				connection Dir:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -52,22 +45,19 @@
 - (void);
 - (id)Ñ¹*Ð1Â0@ù
 × ;
-- (id)eShapeIncorrect;
-- (void)appedPathsForObserver: /* Error: Ran out of types for this method. */;
-- (void)ntage:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)lineShapeIncorrect;
+- (void)clearSnappedPathsForObserver: /* Error: Ran out of types for this method. */;
+- (void)setHasCurrentBatteryPercentage:(id)arg1;
+- (id)setMerchantUrl: /* Error: Ran out of types for this method. */;
 - (void)TÔT¤UäUW|XLYZZ;
-- (id)Action;
-- (id)t_muid;
+- (id)MapLaunchAction_ShowCollectionAction;
+- (id)expanded_parent_muid;
 - (Class)d¼;
 - (void);
 - (_Bool)é¶D.8H@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDClientMetadata *clientMetadata;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(retain, nonatomic) NSMutableArray *locationSearches;
-@property(retain, nonatomic) NSMutableArray *networkSearches;
 
 @end
 

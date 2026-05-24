@@ -9,19 +9,9 @@
 @interface GEOEVChargeInfo
 {
     PBUnknownFields *_unknownFields;
-    double _gainedBatteryPercentage;
-    unsigned int _chargingTime;
-    unsigned int _gainedBatteryCharge;
-    unsigned int _gainedTravelRange;
-    struct {
-        unsigned int has_gainedBatteryPercentage:1;
-        unsigned int has_chargingTime:1;
-        unsigned int has_gainedBatteryCharge:1;
-        unsigned int has_gainedTravelRange:1;
-    } _flags;
 }
 
-+ (_Bool)tHasRelatedGlobalBrandMuid:(id)arg1;
++ (_Bool)setHasRelatedGlobalBrandMuid:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -30,41 +20,33 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (double);
-- (unsigned int);
+- (_Bool)dictionaryWithCapacity: /* Error: Ran out of types for this method. */;
+- (_Bool)dictionary;
+- (_Bool)descriptionOfFeatureFlag: /* Error: Ran out of types for this method. */;
+- (unsigned int)_cn_caseInsensitiveIsEqual: /* Error: Ran out of types for this method. */;
+- (double)_cn_balancedSlicesWithMaximumCount: /* Error: Ran out of types for this method. */;
+- (unsigned int)_cn_balancedSlicesWithMaximumCount: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ttrAudioLoggingEnabled;
+- (void)[ ;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id):(struct _NSZone *)arg1;
-- (id)neratedGuides;
-- (id)RouteRequired;
+- (void);
+- (id)setHasRepresentativePointQuality:(struct _NSZone *)arg1;
+- (id)GEOPDPlaceSummaryLayoutUnitUserGeneratedGuides;
+- (id)familiarRouteRequired;
 - (id);
 - (void)èó4;
 
 // Remaining properties
-@property(nonatomic) unsigned int chargingTime;
-@property(nonatomic) unsigned int gainedBatteryCharge;
-@property(nonatomic) double gainedBatteryPercentage;
-@property(nonatomic) unsigned int gainedTravelRange;
 @property(nonatomic) _Bool hasChargingTime;
-@property(nonatomic) _Bool hasGainedBatteryCharge;
-@property(nonatomic) _Bool hasGainedBatteryPercentage;
-@property(nonatomic) _Bool hasGainedTravelRange;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

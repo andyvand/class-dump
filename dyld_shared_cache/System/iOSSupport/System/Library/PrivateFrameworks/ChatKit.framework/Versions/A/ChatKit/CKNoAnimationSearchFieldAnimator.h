@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CKNoAnimationSearchFieldAnimator
 {
     _Bool _appearing;
 }
 
-- (void);
-- (id);
-- (_Bool);
+- (void)R,N,V_fetchedResultsController;
+- (id):(_Bool)arg1 $ypG;
+- (_Bool)TabViewCustomization;
 - (double);
-- (void);
+- (void)9h;
 
 // Remaining properties
 @property(nonatomic, getter=isAppearing) _Bool appearing; // @synthesize appearing=_appearing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AceObject, NSString, NSUUID, SAUISnippet, SiriSharedUISashItem;
-@protocol SiriUIAceObjectViewControllerDelegate;
+@class AceObject, NSUUID;
 
 @interface SiriUIBaseSnippetViewController
 {
     AceObject *aceObject;
-    SiriSharedUISashItem *_sashItem;
-    NSUUID *_instrumentationTurnIdentifier;
-    id <SiriUIAceObjectViewControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)n;
 - (id);
 - (id);
 - (void);
@@ -34,31 +30,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AceObject *aceObject; // @synthesize aceObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriUIAceObjectViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *instrumentationTurnIdentifier; // @synthesize instrumentationTurnIdentifier=_instrumentationTurnIdentifier;
-@property(nonatomic) _Bool isInAmbient;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isInAmbientInteractivity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isPresentedWithSmartDialogText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) SiriSharedUISashItem *sashItem; // @synthesize sashItem=_sashItem;
-@property(retain, nonatomic) SAUISnippet *snippet;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isUtteranceUserInteractionEnabled) _Bool utteranceUserInteractionEnabled;
 
 @end
 

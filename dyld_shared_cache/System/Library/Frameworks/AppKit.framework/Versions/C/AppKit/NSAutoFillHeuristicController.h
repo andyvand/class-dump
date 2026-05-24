@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextInputContext, NSUUID, NSWindow, RTIDocumentState, RTIDocumentTraits, RTIInputSystemClient, RTITextOperations;
-@protocol AFUITargetDetectionController_Staging;
+@class RTIInputSystemClient;
 
 __attribute__((visibility("hidden")))
 @interface NSAutoFillHeuristicController
 {
     RTIInputSystemClient *_rtiClient;
-    RTIDocumentState *_documentState;
-    RTIDocumentTraits *_documentTraits;
-    NSUUID *_sessionUUID;
-    id <AFUITargetDetectionController_Staging> _targetDetectionController;
-    _Bool _didResignActiveForExpectedProcess;
-    id _autoFillResponder;
-    id _explicitAutoFillResponder;
-    NSTextInputContext *_explicitAutoFillTextInputContext;
-    NSUUID *_catalystExplicitAutoFillSessionUUID;
-    RTITextOperations *_catalystSavedTextOperations;
-    NSTextInputContext *_menuTrackedTextInputContext;
-    _Bool _isCollectingSelectedTextRectAndRangeForTextInputContext;
-    id _eventMonitorDuringActiveTextInputContext;
-    NSTextInputContext *_trackedTextInputContext;
-    struct CGRect _trackedSelectedTextRect;
-    NSWindow *_trackedWindow;
-    _Bool _hasDeliveredOneTimeCodesForAutoFill;
 }
 
 + (id);
@@ -38,20 +20,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -61,7 +30,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void)newerThanExpirationDate;
+- (_Bool);
+- (void)_data;;
+- (void)AppleLanguagePreferencesChangedNotification;
+- (void)kCFNetDiagnosticPingOptionTypeOfService;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)@;
 - (struct CGRect);
 - (void);
 - (void);
@@ -70,34 +52,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool).;
+- (void);
 - (void);
 - (void);
+- (void)};
+- (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)hFocusedViewRect:(id)arg1;
-- (id)ge;
+- (void)initWithFocusedViewRect:(id)arg1;
+- (id)_brAuxiliaryStorage;
 - (void))ç;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

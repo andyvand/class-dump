@@ -4,64 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AALocalContactInfo, NSString, NSUUID;
+@class NSUUID;
 
 @interface AATrustedContact
 {
     _Bool _isAcceptedAndShared;
-    _Bool _isIdMSConfirmed;
-    NSUUID *_custodianID;
-    long long _status;
-    NSString *_handle;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_displayName;
-    long long _preflightStatus;
-    NSUUID *_otCustodianID;
-    NSString *_keyCreatedOnBuild;
-    NSString *_repairDate;
-    unsigned long long _repairCount;
-    AALocalContactInfo *_localContactRepresentation;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (void)gration;
+- (id)icExtensionPoints;
+- (unsigned long long)PK settings for uid:%d /* Error: Ran out of types for this method. */;
+- (id)authorizationRefExternalForm;
+- (id)to update with guid:%s /* Error: Ran out of types for this method. */;
+- (id)ovided for:%s /* Error: Ran out of types for this method. */;
+- (_Bool):DEPSimulator(APNS) forcing response of:%@ /* Error: Ran out of types for this method. */;
+- (id)unload;
+- (id)%s;
+- (_Bool)d result = %d;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)blic}@:requestHeaderBytes=%{public}@:requestBodyBytes=%llu:responseHeaderBytes=%{public}@:responseBodyBytes=%{public}@:err=%@:dnsDuration=%.3f:tcpStartDelay=%.3f:tcpDuration=%.3f:sslStartDelay=%.3f:sslDuration=%.3f:requestStartDelay=%.3f:requestDuration=%.3f:responseStartDelay=%.3f:responseDuration=%.3f:transactionDuration=%.3f:outOfProcess=%{public}@:allowCellular=%{public}@:allowExpensive=%{public}@:powerNap=%{public}@:app=%{public}@:2app=%{public}@:pool=%{public}@:tlsPinning=%{public}@:retryNetworkFailures=%{public}@:disc=%{public}@:duet=%{public}@:reqTimeout=%.2f:resTimeout=%.2f:appleIdSessionId=%{public}@:metricRequest=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)refreshBefore:(struct _NSZone *)arg1;
 - (long long);
 - (id);
 - (id);
-- (void)orKey: /* Error: Ran out of types for this method. */;
+- (void)setCredentialItem:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *custodianID; // @synthesize custodianID=_custodianID;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isAcceptedAndShared; // @synthesize isAcceptedAndShared=_isAcceptedAndShared;
-@property(readonly, nonatomic) _Bool isIdMSConfirmed; // @synthesize isIdMSConfirmed=_isIdMSConfirmed;
-@property(readonly, nonatomic) NSString *keyCreatedOnBuild; // @synthesize keyCreatedOnBuild=_keyCreatedOnBuild;
-@property(readonly, copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) AALocalContactInfo *localContactRepresentation; // @synthesize localContactRepresentation=_localContactRepresentation;
-@property(readonly, nonatomic) NSUUID *otCustodianID; // @synthesize otCustodianID=_otCustodianID;
-@property(readonly, nonatomic) long long preflightStatus; // @synthesize preflightStatus=_preflightStatus;
-@property(readonly, nonatomic) unsigned long long repairCount; // @synthesize repairCount=_repairCount;
-@property(readonly, nonatomic) NSString *repairDate; // @synthesize repairDate=_repairDate;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

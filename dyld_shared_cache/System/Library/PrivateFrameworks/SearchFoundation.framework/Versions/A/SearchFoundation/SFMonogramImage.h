@@ -6,58 +6,33 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFMonogramImage : SFImage
 {
     struct {
         unsigned int monogramStyle:1;
     } _has;
-    int _monogramStyle;
-    NSString *_monogramLetters;
 }
 
-+ (_Bool);
++ (_Bool)&;
 - (void);
 - (int);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)setProperties:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ing…:(id)arg1 Alert activation assertion acquired for %{public}@. Skipping audio environment restoration steps for playing alert:%{public}@. /* Error: Ran out of types for this method. */;
 - (id);
+- (id):%p; libraryScope:%@ creationDate:%@ identities:[%@] homeLocations:[%@] frequentLocations:[%@] locationShiftingRequired:%d> /* Error: Ran out of types for this method. */;
+- (id)strong, BOOL, NSObject<NSCopying> * _Nullable __autoreleasing * _Nullable);
 - (id);
-- (id);
-- (id);
-- (void)CardSection;
+- (void)_rfButtonCardSection;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
 @property(copy, nonatomic) NSString *monogramLetters; // @synthesize monogramLetters=_monogramLetters;
-@property(nonatomic) int monogramStyle; // @synthesize monogramStyle=_monogramStyle;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

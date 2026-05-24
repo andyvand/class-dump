@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSXMLParser;
+
 @protocol NSXMLParserDelegate
+
+@optional
+- (void);
+- (void)seamlessOpener:(NSXMLParser *)arg1 transitionImageForPreviewItem:(NSError *)arg2 contentRect:windowLevel: /* Error: Ran out of types for this method. */;
+- (void)EKUIAttendeeTokenAttachmentCell;
+- (void)c;
 @end
 

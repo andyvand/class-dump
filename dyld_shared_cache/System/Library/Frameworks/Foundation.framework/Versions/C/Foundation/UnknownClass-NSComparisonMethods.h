@@ -6,7 +6,7 @@
 
 @interface UnknownClass (NSComparisonMethods)
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);

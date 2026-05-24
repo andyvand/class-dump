@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, VCMediaNegotiatorLocalConfiguration, VCMediaNegotiatorMediaEncryptionSettings, VCMediaNegotiatorResults, VCMediaNegotiatorResultsAudio, VCMediaNegotiatorResultsFaceTimeSettings, VCMediaNegotiatorResultsMediaRecorder, VCMediaNegotiatorResultsVideo;
-@protocol VCMediaNegotiatorProtocol;
+@class VCMediaNegotiatorLocalConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionMediaNegotiator
 {
     VCMediaNegotiatorLocalConfiguration *_localSettings;
-    id <VCMediaNegotiatorProtocol> _activeNegotiator;
-    NSMutableDictionary *_mediaNegotiatorMap;
 }
 
++ (id)k;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)H}
+KC;
 + (id);
 + (_Bool);
 - (unsigned int);
@@ -27,34 +25,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ared_ptr<gdc::LayerData>>, gdc::LayerDataRequestKeyHash, std::equal_to<gdc::LayerDataRequestKey>>, std::__unordered_map_equal<gdc::LayerDataRequestKey, std::pair<const gdc::LayerDataRequestKey, std::shared_ptr<gdc::LayerData>>, std::equal_to<gdc::LayerDataRequestKey>, gdc::LayerDataRequestKeyHash>, std::allocator<std::pair<const gdc::LayerDataRequestKey, std::shared_ptr<gdc::LayerData>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<gdc::LayerDataRequestKey, std::shared_ptr<gdc::LayerData>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<gdc::LayerDataRequestKey, std::shared_ptr<gdc::LayerData>>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<gdc::LayerDataRequestKey, std::shared_ptr<gdc::LayerData>>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<gdc::LayerDataRequestKey, std::shared_ptr<gdc::LayerData>>, void *> *>=^v}}{?=Q}{?=f}}}2176B2216 /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) VCMediaNegotiatorLocalConfiguration *localSettings; // @synthesize localSettings=_localSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsAudio *negotiatedAudioSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsFaceTimeSettings *negotiatedFaceTimeSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorMediaEncryptionSettings *negotiatedMediaEncyptionSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsMediaRecorder *negotiatedMediaRecorderSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsVideo *negotiatedScreenSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResults *negotiatedSettings;
-@property(readonly, nonatomic) NSArray *negotiatedStreamGroups;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsVideo *negotiatedVideoSettings;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVRoutePickerViewRemoteViewService
 {
     AVRoutePickerRemoteViewController *_routePickerRemoteViewController;
-    NSPopover *_popover;
 }
 
 - (void);

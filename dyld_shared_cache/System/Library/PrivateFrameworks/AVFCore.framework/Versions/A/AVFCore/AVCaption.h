@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptionInternal, NSString;
+@class AVCaptionInternal;
 
 @interface AVCaption
 {
@@ -12,24 +12,24 @@
 }
 
 + (id);
-+ (void);
++ (void)Wb;
 + (_Bool);
-- (long long);
-- (struct CGColor *);
+- (long long)T;
+- (struct CGColor *);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (unsigned long long);
 - (struct CGColor *);
 - (struct CGColor *);
 - (struct CGColor *);
-- (id);
+- (id)Di;
 - (void);
-- (void);
+- (void) J;
 - (void);
 - (void);
 - (void);
@@ -44,7 +44,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id))\@9(;
 - (id);
 - (id);
 - (void);
@@ -57,8 +57,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct OpaqueFigCaptionData *_figCaptionData;
-@property(readonly, nonatomic) NSString *text;
-@property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 
 @end
 

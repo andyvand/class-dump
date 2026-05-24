@@ -11,17 +11,14 @@
 @interface DGProEdgeSharpenOperation : DGOperation
 {
     int _legacyVersion;
-    NSNumber *_inputSharpness;
-    NSNumber *_inputEdgeScale;
-    NSNumber *_inputFalloff;
 }
 
 + (id);
 + (_Bool);
++ (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)1;
 - (void);
 - (void);
 - (int);
@@ -29,7 +26,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -37,9 +34,6 @@
 - (id)àäé@;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputEdgeScale; // @synthesize inputEdgeScale=_inputEdgeScale;
-@property(copy, nonatomic) NSNumber *inputFalloff; // @synthesize inputFalloff=_inputFalloff;
-@property int inputProEdgeSharpenLegacyVersion; // @synthesize inputProEdgeSharpenLegacyVersion=_legacyVersion;
 @property(copy, nonatomic) NSNumber *inputSharpness; // @synthesize inputSharpness=_inputSharpness;
 
 @end

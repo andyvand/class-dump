@@ -7,8 +7,6 @@
 @interface IMCore.ImportExport.ArchivedConversation.Iterator
 {
     id currentIndex;
-    id archivedConversation;
-    id archivedConversationFileURL;
 }
 
 @end

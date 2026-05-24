@@ -11,9 +11,9 @@
     unsigned long long _readCount;
 }
 
-+ (void);
-+ (id);
-- (id);
++ (void)B;
++ (id)solation constraints;
+- (id)1;
 - (void);
 - (void);
 - (unsigned long long);

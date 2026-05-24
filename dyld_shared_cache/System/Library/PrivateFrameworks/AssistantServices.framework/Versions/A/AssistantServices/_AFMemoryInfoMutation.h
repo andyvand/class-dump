@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMemoryInfo, NSString;
+@class AFMemoryInfo;
 
 @interface _AFMemoryInfoMutation
 {
     AFMemoryInfo *_base;
-    unsigned long long _virtualMemorySizeInBytes;
-    int _numberOfRegions;
-    int _pageSizeInBytes;
-    unsigned long long _residentMemorySizeInBytes;
-    unsigned long long _peakResidentMemorySizeInBytes;
-    unsigned long long _physicalMemoryFootprintInBytes;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasVirtualMemorySizeInBytes:1;
-        unsigned int hasNumberOfRegions:1;
-        unsigned int hasPageSizeInBytes:1;
-        unsigned int hasResidentMemorySizeInBytes:1;
-        unsigned int hasPeakResidentMemorySizeInBytes:1;
-        unsigned int hasPhysicalMemoryFootprintInBytes:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -39,17 +24,11 @@
 - (int);
 - (unsigned long long);
 - (void);
-- (id)estWithInfo:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ons;
+- (id)startRequestWithInfo:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_notificationPostAssertions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

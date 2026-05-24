@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationNameScopeViewController, NSTextField;
+@class AKAuthorizationNameScopeViewController;
 
 @interface AKAuthorizationNameScopeView
 {
     _Bool _mouseDownInValueLabel;
-    AKAuthorizationNameScopeViewController *_internalViewController;
-    NSTextField *_valueLabel;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)Ol;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void)ualConstraint:(id)arg1;
+- (void)setPaddingHeightEqualConstraint:(id)arg1;
 - (void)*^;
 
 // Remaining properties
 @property(nonatomic) __weak AKAuthorizationNameScopeViewController *internalViewController; // @synthesize internalViewController=_internalViewController;
-@property(nonatomic) _Bool mouseDownInValueLabel; // @synthesize mouseDownInValueLabel=_mouseDownInValueLabel;
-@property(retain, nonatomic) NSTextField *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

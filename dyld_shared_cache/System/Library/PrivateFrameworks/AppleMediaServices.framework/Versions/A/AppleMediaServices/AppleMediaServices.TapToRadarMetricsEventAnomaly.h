@@ -9,11 +9,9 @@
 @interface AppleMediaServices.TapToRadarMetricsEventAnomaly
 {
     id descriptionOverride;
-    id title;
-    void identifier;
 }
 
-- (id);
+- (id)rameworks/GameCenterFoundation.framework/Contents/MacOS/GameCenterFoundation;
 - (id);
 - (id);
 - (void)^_¹Ì§&Üþç	£Y>)ç·æí\¸hi*8þ j¸áÞfÜ4)v`¼¶Àå£",H+à¼Ö_Hë @!øà
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *identifier;
 
 @end
 

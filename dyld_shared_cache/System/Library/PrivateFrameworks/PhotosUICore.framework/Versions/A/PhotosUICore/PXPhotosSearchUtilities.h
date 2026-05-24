@@ -7,9 +7,6 @@
 @interface PXPhotosSearchUtilities
 {
     id searchMatchInfo;
-    id collectionResultUUIDs;
-    id rankedCollectionResultUUIDs;
-    id collectionResultsScoreMap;
 }
 
 - (id);

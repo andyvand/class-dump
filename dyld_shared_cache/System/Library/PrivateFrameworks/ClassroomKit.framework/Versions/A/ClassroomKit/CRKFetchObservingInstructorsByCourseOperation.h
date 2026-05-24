@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATRemoteTaskOperation;
 @protocol CRKRequestPerformingProtocol;
 
 @interface CRKFetchObservingInstructorsByCourseOperation
 {
     id <CRKRequestPerformingProtocol> _requestPerformer;
-    CATRemoteTaskOperation *_fetchInstructorsOperation;
-    CATRemoteTaskOperation *_fetchCoursesOperation;
 }
 
 - (void);
@@ -28,8 +25,6 @@
 - (_Bool)¶E»;
 
 // Remaining properties
-@property(retain, nonatomic) CATRemoteTaskOperation *fetchCoursesOperation; // @synthesize fetchCoursesOperation=_fetchCoursesOperation;
-@property(retain, nonatomic) CATRemoteTaskOperation *fetchInstructorsOperation; // @synthesize fetchInstructorsOperation=_fetchInstructorsOperation;
 @property(readonly, nonatomic) id <CRKRequestPerformingProtocol> requestPerformer; // @synthesize requestPerformer=_requestPerformer;
 
 @end

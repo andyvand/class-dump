@@ -6,17 +6,11 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface ISDFileReference : ISDDataObject
 {
     NSString *_persistentId;
-    NSString *_path;
-    NSDate *_timestamp;
-    NSData *_aliasData;
-    NSString *_bundleId;
-    NSString *_bundleRelativePath;
-    NSString *_windowsBinRelativePath;
 }
 
 + (void)array;
@@ -31,11 +25,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id));
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);

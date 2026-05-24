@@ -6,13 +6,11 @@
 
 #import <IMAP/IMAPResponse.h>
 
-@class IMAPFlagsFetchResult, NSIndexSet;
+@class NSIndexSet;
 
 @interface IMAPInternalUidFlagsResponse : IMAPResponse
 {
     BOOL _flagChangeType;
-    NSIndexSet *_uids;
-    IMAPFlagsFetchResult *_flagsFetchResult;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) BOOL flagChangeType; // @synthesize flagChangeType=_flagChangeType;
-@property(retain, nonatomic) IMAPFlagsFetchResult *flagsFetchResult; // @synthesize flagsFetchResult=_flagsFetchResult;
 @property(copy, nonatomic) NSIndexSet *uids; // @synthesize uids=_uids;
 
 @end

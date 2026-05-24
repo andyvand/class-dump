@@ -8,8 +8,9 @@
 {
 }
 
-- (id);
-- (id);
+- (id)int=dd}{CGSize=dd}};
+- (id)h
+;
 - (id);
 
 @end

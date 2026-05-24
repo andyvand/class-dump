@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OITSULocale;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OITSUDateFormatter_NSFormatter
 {
     NSString *_preferredFormat;
-    _Bool isDateOnly;
-    _Bool isTimeOnly;
-    OITSULocale *_locale;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)or contact %@;
 - (id);
 - (void)´;
-- (id)ltParagraphStyleAtom;
+- (id)32PptTextDefaultParagraphStyleAtom;
 - (void)         5555555559999999======;
 - (id)p\òÿJ;
 
 // Remaining properties
-@property(nonatomic) _Bool isDateOnly; // @synthesize isDateOnly;
-@property(nonatomic) _Bool isTimeOnly; // @synthesize isTimeOnly;
-@property(retain, nonatomic) OITSULocale *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic) NSString *preferredFormat; // @synthesize preferredFormat=_preferredFormat;
 
 @end

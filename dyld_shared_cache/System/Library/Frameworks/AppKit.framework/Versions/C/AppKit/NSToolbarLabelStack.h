@@ -6,51 +6,44 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSToolbarItem;
+@class NSToolbarItem;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarLabelStack : NSView
 {
     NSToolbarItem *_item;
-    NSArray *_labelViews;
-    struct CGSize _intrinsicContentSize;
-    _Bool _allowsMultilineWrapping;
-    _Bool _inPalette;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ions;
 - (id);
 - (double);
 - (double);
-- (id);
+- (id)ilable;
 - (struct CGSize);
-- (void);
-- (id);
+- (void)persistence = %d};
+- (id)NSURLDownloadBinHexCRC;
 - (void);
 - (double);
 - (double);
 - (void);
-- (struct CGSize);
+- (struct CGSize)<;
 - (id);
 - (void);
-- (void)centApplicationsFolder;
+- (void)IconRecentApplicationsFolder;
 - (struct __NSToolbarItemLayoutMetrics)om default (%@);
 - (void)dataSourceSnapshot.numberOfSections == sectionIdentifiers.count;
 - (struct NSEdgeInsets))´fÜhÔY;
 - (id);
 
 // Remaining properties
-@property _Bool allowsMultilineWrapping;
-@property _Bool inPalette;
 @property __weak NSToolbarItem *item;
-@property(copy) NSArray *labelViews;
 
 @end
 

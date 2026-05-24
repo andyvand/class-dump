@@ -10,6 +10,6 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)clockForUUID:atIndex: /* Error: Ran out of types for this method. */;
 @end
 

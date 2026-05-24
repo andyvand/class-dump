@@ -7,11 +7,10 @@
 @class NSDate;
 
 @protocol TLTimelineWindow
+- (NSDate *)8$;
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long leftEntryCount;
 @property(readonly, nonatomic) NSDate *leftmostContiguousEntryDate;
-@property(readonly, nonatomic) unsigned long long rightEntryCount;
-@property(readonly, nonatomic) NSDate *rightmostContiguousEntryDate;
 @end
 

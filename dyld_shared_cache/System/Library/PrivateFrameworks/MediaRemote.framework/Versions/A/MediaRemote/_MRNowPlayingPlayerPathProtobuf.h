@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRNowPlayingClientProtobuf, _MRNowPlayingPlayerProtobuf, _MROriginProtobuf;
+@class _MRNowPlayingClientProtobuf;
 
 @interface _MRNowPlayingPlayerPathProtobuf
 {
     _MRNowPlayingClientProtobuf *_client;
-    _MROriginProtobuf *_origin;
-    _MRNowPlayingPlayerProtobuf *_player;
 }
 
 - (_Bool);
@@ -24,22 +22,17 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)+;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)af_disambiguationIdentifier;
+- (void)FMyriadCoordinator _advertiseSlowdown];
+- (id)sync_flag;
+- (void)_registerGameController;
 
 // Remaining properties
-@property(retain, nonatomic) _MRNowPlayingClientProtobuf *client; // @synthesize client=_client;
-@property(readonly, nonatomic) _Bool hasClient;
 @property(readonly, nonatomic) _Bool hasOrigin;
-@property(readonly, nonatomic) _Bool hasPlayer;
-@property(retain, nonatomic) _MROriginProtobuf *origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) _MRNowPlayingPlayerProtobuf *player; // @synthesize player=_player;
 
 @end
 

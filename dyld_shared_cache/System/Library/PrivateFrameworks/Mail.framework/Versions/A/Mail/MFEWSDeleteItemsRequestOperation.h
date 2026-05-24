@@ -6,21 +6,20 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MFEWSDeleteItemsRequestOperation : MFEWSRequestOperation
 {
     NSArray *_EWSItemIds;
-    NSString *_folderIdString;
 }
 
 + (_Bool);
 - (void);
 - (id);
+- (id)TJ;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)9;
 - (id);
 - (id);
 - (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *EWSItemIds; // @synthesize EWSItemIds=_EWSItemIds;
-@property(readonly, copy, nonatomic) NSString *folderIdString; // @synthesize folderIdString=_folderIdString;
 
 @end
 

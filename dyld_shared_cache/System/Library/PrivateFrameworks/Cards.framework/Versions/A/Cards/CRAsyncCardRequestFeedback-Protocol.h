@@ -7,9 +7,10 @@
 @protocol CRCard;
 
 @protocol CRAsyncCardRequestFeedback
+- (id <CRCard>)inputSaturationLegacyVersion;
+- (id <CRCard>)RKRetouchOperation;
 
 // Remaining properties
 @property(retain, nonatomic) id <CRCard> baseCard;
-@property(retain, nonatomic) id <CRCard> requestedCard;
 @end
 

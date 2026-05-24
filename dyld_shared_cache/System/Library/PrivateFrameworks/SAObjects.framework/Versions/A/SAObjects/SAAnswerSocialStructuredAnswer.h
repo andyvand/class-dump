@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAAnswerSocialStructuredAnswer : AceObject
 {
@@ -18,19 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *category; // @dynamic category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *socialQuestions;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLPlaybackSyncStateQuery
 {
     NSString *_currentItemId;
-    NSString *_initialAVSyncStartItemId;
-    NSMutableArray *_participantStates;
-    NSMutableArray *_transportControlStates;
-    _Bool _initialAVSyncInitiator;
-    struct {
-        unsigned int initialAVSyncInitiator:1;
-    } _has;
 }
 
 - (id);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)";
 - (void)enerEndpoint",&,N,V_listenerEndpoint;
 
 @end

@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDVideoResolution, HMFOSTransaction, NSData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshot
 {
     NSData *_imageData;
-    HMDVideoResolution *_videoResolution;
-    HMFOSTransaction *_transaction;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)5;
+- (id)I;
 - (id);
 - (void)HMDHomeManager;
 
 // Remaining properties
 @property(readonly) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly) HMFOSTransaction *transaction; // @synthesize transaction=_transaction;
-@property(readonly) HMDVideoResolution *videoResolution; // @synthesize videoResolution=_videoResolution;
 
 @end
 

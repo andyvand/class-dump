@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureSynchronizedVisionDataInternal
 {
     struct __CVBuffer *visionDataPixelBuffer;
-    _Bool visionDataWasDropped;
-    long long droppedReason;
 }
 
 @end

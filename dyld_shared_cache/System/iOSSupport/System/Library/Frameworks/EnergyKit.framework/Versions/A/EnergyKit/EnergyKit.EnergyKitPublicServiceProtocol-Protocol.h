@@ -5,5 +5,8 @@
 //
 
 @protocol EnergyKit.EnergyKitPublicServiceProtocol
+- (void)I;
+- (void);
+- (void):(void (^)(NSError *))arg1;
 @end
 

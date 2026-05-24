@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface VNScreenGazeState
 {
     int _temporalSmoothingFrameCount;
-    unsigned int _currentFrame;
-    NSMutableArray *_faceObjectStates;
 }
 
-- (void)aceCoreProcessOption_KalmanFilter;
+- (void)VNTrackObjectPrivateRevisionLegacyFaceCoreProcessOption_KalmanFilter;
 
 @end
 

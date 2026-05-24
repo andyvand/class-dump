@@ -344,9 +344,7 @@ z
 ;
 
 // Remaining properties
-@property(retain) NSFileHandle *standardError; // @dynamic standardError;
 @property(retain) NSFileHandle *standardInput; // @dynamic standardInput;
-@property(retain) NSFileHandle *standardOutput; // @dynamic standardOutput;
 
 @end
 

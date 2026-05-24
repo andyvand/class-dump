@@ -4,107 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKCalendarModel, EKDayView, EKEvent, NSArray, NSDate, NSString, UIView, UIViewController;
-@protocol EKEditItemViewControllerDelegate;
-
 @interface EKDayPreviewController
 {
     _Bool _firstshow;
-    _Bool _userHasTappedToExpand;
-    _Bool _isAnimating;
-    NSArray *_cachedTimedEvents;
-    UIView *_roundedView;
-    EKDayView *_dayView;
-    NSDate *_date;
-    NSDate *_originalEventStartDate;
-    NSDate *_originalEventEndDate;
-    _Bool _hasOverriddenEventDates;
-    NSDate *_overriddenEventStartDate;
-    NSDate *_overriddenEventEndDate;
-    CUIKCalendarModel *_model;
-    EKEvent *_event;
-    long long _overriddenParticipantStatus;
-    _Bool _hasOverriddenStatus;
-    _Bool _requireScrollPositionCorrection;
-    double _overriddenDayViewHourScale;
-    unsigned long long _overriddenDayViewMinHourRange;
-    _Bool _hidesAllDayEvents;
-    _Bool _respectsSelectedCalendarsFilter;
-    unsigned long long _style;
-    UIViewController *_hostingViewController;
 }
 
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (_Bool)tRuntime27ConversationCanHandleResult";
+- (void);
+- (id);
+- (struct _NSRange);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (struct _NSRange);
-- (id);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)Zf;
+- (_Bool);
 - (id);
 - (double);
 - (void);
 - (long long);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)6vt;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)"24@"NSError"32;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)Ņ;
+- (void)TL;
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
-- (void)nimationWithLayoutAttributes: /* Error: Ran out of types for this method. */;
-- (_Bool)eek;
+- (void)prepareHeaderAnimationWithLayoutAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)dayOfTheWeek;
 - (void)s no calendar to delete.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidesAllDayEvents; // @synthesize hidesAllDayEvents=_hidesAllDayEvents;
-@property(nonatomic) __weak UIViewController *hostingViewController; // @synthesize hostingViewController=_hostingViewController;
-@property(nonatomic) long long overriddenParticipantStatus; // @synthesize overriddenParticipantStatus=_overriddenParticipantStatus;
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool respectsSelectedCalendarsFilter; // @synthesize respectsSelectedCalendarsFilter=_respectsSelectedCalendarsFilter;
 @property(nonatomic) unsigned long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 
 @end
 

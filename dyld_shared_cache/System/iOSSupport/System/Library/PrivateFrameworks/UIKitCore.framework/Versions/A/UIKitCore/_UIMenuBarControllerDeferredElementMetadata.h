@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, _UIMenuBarControllerContext;
 @protocol UINSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface _UIMenuBarControllerDeferredElementMetadata
 {
     id <UINSMenuItem> _menuItem;
-    NSSet *_lastFulfilledUncachedItems;
-    _UIMenuBarControllerContext *_context;
 }
 
 - (void);
-- (id);
+- (id)8@16@24;
 - (void);
 - (id);
 - (id)±fÐ1Â0@ù
 × ;
-- (void)tionForReusableView:(id)arg1 toLayoutAttributes: /* Error: Ran out of types for this method. */;
+- (void)_animationForReusableView:(id)arg1 toLayoutAttributes: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _UIMenuBarControllerContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSSet *lastFulfilledUncachedItems; // @synthesize lastFulfilledUncachedItems=_lastFulfilledUncachedItems;
 @property(retain, nonatomic) id <UINSMenuItem> menuItem; // @synthesize menuItem=_menuItem;
 
 @end

@@ -7,10 +7,6 @@
 @interface _IMPingPacketData
 {
     int _sequenceNumber;
-    _Bool _timedOut;
-    int _error;
-    struct timeval _timeSent;
-    double _rtt;
 }
 
 - (struct timeval);
@@ -19,16 +15,12 @@
 - (void);
 - (double);
 - (int);
-- (_Bool);
+- (_Bool)tlf;
 - (int);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int error; // @synthesize error=_error;
-@property(readonly, nonatomic) double rtt; // @synthesize rtt=_rtt;
 @property(readonly, nonatomic) int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly, nonatomic) struct timeval timeSent; // @synthesize timeSent=_timeSent;
-@property(readonly, nonatomic) _Bool timedOut; // @synthesize timedOut=_timedOut;
 
 @end
 

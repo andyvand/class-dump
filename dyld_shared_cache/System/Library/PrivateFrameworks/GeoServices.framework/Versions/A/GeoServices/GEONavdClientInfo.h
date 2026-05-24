@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, NSString;
+@class NSString;
 
 @interface GEONavdClientInfo
 {
     NSString *_canonicalName;
-    NSString *_uniqueClientId;
-    GEOApplicationAuditToken *_auditToken;
 }
 
 + (id);
@@ -20,11 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)}@ since VoiceTrigger was turned off;
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -34,9 +32,7 @@
 - (void)Äì£ÿHÌ5ÊM8;
 
 // Remaining properties
-@property(retain, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
 @property(copy, nonatomic) NSString *canonicalName; // @synthesize canonicalName=_canonicalName;
-@property(copy, nonatomic) NSString *uniqueClientId; // @synthesize uniqueClientId=_uniqueClientId;
 
 @end
 

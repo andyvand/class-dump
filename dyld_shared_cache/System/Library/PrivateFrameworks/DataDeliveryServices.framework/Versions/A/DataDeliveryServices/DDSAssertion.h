@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSAssetPolicy, DDSAssetQuery, NSDate, NSMutableSet, NSSet, NSString;
+@class NSMutableSet, NSString;
 
 @interface DDSAssertion
 {
     NSString *_description;
-    NSDate *_lastUpdated;
-    DDSAssetQuery *_query;
-    NSMutableSet *_descriptors;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)x;
+- (id)n.framework/Versions/A/SiriInstrumentation;
+- (id)<;
 - (id);
 - (id);
 - (id);
@@ -32,7 +29,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)H'
+;
 - (id);
 - (id);
 - (void);
@@ -41,12 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *assertionIdentifiers;
-@property(readonly, nonatomic) NSSet *clientIdentifiers;
 @property(retain, nonatomic) NSMutableSet *descriptors; // @synthesize descriptors=_descriptors;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(readonly, nonatomic) DDSAssetPolicy *policy;
-@property(readonly, nonatomic) DDSAssetQuery *query; // @synthesize query=_query;
 
 @end
 

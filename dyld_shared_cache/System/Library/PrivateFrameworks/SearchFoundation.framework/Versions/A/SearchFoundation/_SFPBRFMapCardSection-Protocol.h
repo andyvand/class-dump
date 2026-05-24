@@ -7,16 +7,16 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFMapCardSection
+- (void);
+- (unsigned long long)$;
+- (void);
+- (double)џ;
+- (NSArray *);
+- (NSData *)_fractionOfCuratedAssetsWithSceneAnalysisInSearchIndexThreshold;
 - (NSArray *)mpleItemRichCardSection",&,N,V_simple_item_rich_card_section;
 - (void)ableDictionary",&,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *annotations;
-@property(nonatomic) double cameraDistance;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *markers;
-@property(copy, nonatomic) NSArray *polylines;
-@property(nonatomic) _Bool showsUserLocation;
 @property(nonatomic) int sizeFormat;
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ScribbleOverlay
 {
     ScribbleSelectionOverlay *_selectionOverlay;
-    id _target;
-    SEL _action;
 }
 
 - (void);
@@ -20,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (SEL)cy;
+- (SEL)_serviceWorkerAutoInspectionPolicy;
 - (void);
 - (void)¼;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
 @property(retain, nonatomic) id target; // @synthesize target=_target;
 
 @end

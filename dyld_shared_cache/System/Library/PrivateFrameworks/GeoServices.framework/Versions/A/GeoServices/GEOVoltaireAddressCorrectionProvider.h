@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOProtobufSession, GEOProtobufSessionTask, NSString;
+@class GEOProtobufSession;
 
 @interface GEOVoltaireAddressCorrectionProvider
 {
     GEOProtobufSession *_protobufSession;
-    GEOProtobufSessionTask *_initializationTask;
-    GEOProtobufSessionTask *_updateTask;
-    CDUnknownBlockType _initErrorHandler;
-    CDUnknownBlockType _initFinishedHandler;
-    CDUnknownBlockType _updateFinishedHandler;
-    CDUnknownBlockType _updateErrorHandler;
 }
 
 + (id);
@@ -36,29 +30,16 @@
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)tration>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void):8@16 /* Error: Ran out of types for this method. */;
+- (id)infoPair;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)roviding>";
 - (void)ÿÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType initErrorHandler; // @synthesize initErrorHandler=_initErrorHandler;
-@property(copy, nonatomic) CDUnknownBlockType initFinishedHandler; // @synthesize initFinishedHandler=_initFinishedHandler;
-@property(retain, nonatomic) GEOProtobufSessionTask *initializationTask; // @synthesize initializationTask=_initializationTask;
-@property(readonly, nonatomic) GEOProtobufSession *protobufSession; // @synthesize protobufSession=_protobufSession;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updateErrorHandler; // @synthesize updateErrorHandler=_updateErrorHandler;
-@property(copy, nonatomic) CDUnknownBlockType updateFinishedHandler; // @synthesize updateFinishedHandler=_updateFinishedHandler;
-@property(retain, nonatomic) GEOProtobufSessionTask *updateTask; // @synthesize updateTask=_updateTask;
 
 @end
 

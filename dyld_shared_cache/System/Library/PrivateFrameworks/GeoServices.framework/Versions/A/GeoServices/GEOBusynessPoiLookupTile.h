@@ -10,29 +10,17 @@ __attribute__((visibility("hidden")))
 @interface GEOBusynessPoiLookupTile
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _latitudeE7s;
-    CDStruct_95bda58d _longitudeE7s;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _offsetId;
-    struct {
-        unsigned int has_offsetId:1;
-        unsigned int read_latitudeE7s:1;
-        unsigned int read_longitudeE7s:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)decodeConfigFrom:(id)arg1 forFirstPassSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
+- (_Bool)!;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id)ntInfoForReason:(struct _NSZone *)arg1 count:traits: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (id)publisherComponentInfoForReason:(struct _NSZone *)arg1 count:traits: /* Error: Ran out of types for this method. */;
 - (id)v|wPxTy¸yH{|è|Ð}ì~ÀÜLÐ;
 - (id)e, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id != @region_id AND region_id IN children_of_recursive    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
 - (void)\c§þO6¸m6;

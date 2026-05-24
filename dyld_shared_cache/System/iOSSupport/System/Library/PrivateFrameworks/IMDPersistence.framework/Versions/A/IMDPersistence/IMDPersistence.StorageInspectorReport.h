@@ -9,15 +9,11 @@
 @interface IMDPersistence.StorageInspectorReport
 {
     id databaseInspectionReport;
-    id attachmentStorageInspectorReport;
-    id exportableDatabaseRecordCountReport;
-    id crossCheckReport;
-    id reportDirectoryURL;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (void)(°;
 

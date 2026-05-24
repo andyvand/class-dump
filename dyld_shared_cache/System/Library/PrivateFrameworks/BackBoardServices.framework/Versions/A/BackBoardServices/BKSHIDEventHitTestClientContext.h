@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSHIDEventHitTestClientContext
 {
     int _pid;
-    unsigned int _contextID;
 }
 
 + (id);
 + (_Bool);
 - (int);
 - (id);
-- (unsigned int);
+- (unsigned int)jS;
 - (id);
 - (_Bool);
 - (void);
@@ -25,15 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly) Class superclass;
 
 @end
 

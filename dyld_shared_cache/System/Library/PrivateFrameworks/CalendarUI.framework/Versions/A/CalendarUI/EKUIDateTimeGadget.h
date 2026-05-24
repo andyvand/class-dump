@@ -6,12 +6,11 @@
 
 #import <CalendarUI/EKUILabeledGadget.h>
 
-@class IIDatePickerWithMiniCal, NSString;
+@class IIDatePickerWithMiniCal;
 
 @interface EKUIDateTimeGadget : EKUILabeledGadget
 {
     _Bool _shouldSuppressMiniCal;
-    IIDatePickerWithMiniCal *_datePicker;
 }
 
 + (id);
@@ -20,19 +19,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)q;
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (_Bool);
 - (id);
 - (id);
@@ -44,14 +43,6 @@
 
 // Remaining properties
 @property(retain) IIDatePickerWithMiniCal *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool shouldSuppressMiniCal; // @synthesize shouldSuppressMiniCal=_shouldSuppressMiniCal;
-@property(readonly) Class superclass;
 
 @end
 

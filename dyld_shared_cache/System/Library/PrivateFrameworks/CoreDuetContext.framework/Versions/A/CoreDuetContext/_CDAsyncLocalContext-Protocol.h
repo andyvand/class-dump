@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSObject, _CDContextualKeyPath;
+@protocol OS_dispatch_queue;
+
 @protocol _CDAsyncLocalContext
+- (void);
+- (void)initWithItemReference:(NSArray *)arg1 reservationNumber:(_CDContextualKeyPath *)arg2 bookingTime:(NSObject<OS_dispatch_queue> *)arg3 reservationStatus:(void (^)(_Bool))arg4 reservationHolderName:actions:reservationDuration:partySize:restaurantLocation: /* Error: Ran out of types for this method. */;
+- (void)INResumeWorkoutIntentResponseCodeFailureRequiringAppLaunch;
 @end
 

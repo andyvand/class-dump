@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSPrintOperation;
+@class NSPrintOperation;
 
 __attribute__((visibility("hidden")))
 @interface NSPrintPreviewUpdater
 {
     _Bool _isPreviewing;
-    _Bool _isFullyValidated;
-    _Bool _isInStartOrStop;
-    _Bool _isPrintInfoReady;
-    _Bool _realPrintingHasBegun;
-    long long _ignoreKVOCount;
-    NSPrintOperation *_printOperation;
-    NSMapTable *_observedKeyPathsPerAccessoryController;
 }
 
 - (void);
@@ -31,39 +24,31 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)not set attribution context;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
+- (void)NSURLSessionAVAggregateAssetDownloadTask;
+- (void)NSURLSessionAVAssetDownloadTask;
+- (void);
+- (void),5;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)^v}8^{gss_cred_id_t_desc_struct=}16;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)t:withOptions: /* Error: Ran out of types for this method. */;
+- (_Bool)differenceFromOrderedSet:withOptions: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)þÕPE;
 
 // Remaining properties
-@property long long ignoreKVOCount; // @synthesize ignoreKVOCount=_ignoreKVOCount;
-@property _Bool isFullyValidated; // @synthesize isFullyValidated=_isFullyValidated;
-@property _Bool isInStartOrStop; // @synthesize isInStartOrStop=_isInStartOrStop;
-@property(readonly) _Bool isPreviewRenderingAllowed;
-@property _Bool isPreviewing; // @synthesize isPreviewing=_isPreviewing;
-@property _Bool isPrintInfoReady; // @synthesize isPrintInfoReady=_isPrintInfoReady;
-@property(retain) NSMapTable *observedKeyPathsPerAccessoryController; // @synthesize observedKeyPathsPerAccessoryController=_observedKeyPathsPerAccessoryController;
 @property(retain) NSPrintOperation *printOperation; // @synthesize printOperation=_printOperation;
-@property _Bool realPrintingHasBegun; // @synthesize realPrintingHasBegun=_realPrintingHasBegun;
 
 @end
 

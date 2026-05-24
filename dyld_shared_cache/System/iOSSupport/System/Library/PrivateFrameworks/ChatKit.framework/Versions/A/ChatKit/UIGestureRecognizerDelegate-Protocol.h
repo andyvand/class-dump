@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
 
 @optional
+- (_Bool)fractionalWidthDimension:(UIGestureRecognizer *)arg1;
+- (_Bool);
 - (_Bool)Dºº ¾ÔÀ¼ÁÃÄ@Å(ÇÔÇÀÈ4ÊäÊ Í<ÎøÑXÒpÓ;
-- (_Bool)angedNotification;
+- (_Bool)CKCombinedStickerAppsOrderChangedNotification;
 @end
 

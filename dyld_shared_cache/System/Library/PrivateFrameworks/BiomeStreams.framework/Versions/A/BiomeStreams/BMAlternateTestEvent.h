@@ -6,8 +6,6 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMAlternateTestEvent : BMEventBase
 {
     CDStruct_8b577cff _data;
@@ -26,13 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

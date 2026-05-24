@@ -4,51 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, UIImage, UILabel, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface CKBusinessMacToolbarView
 {
     _Bool _showingInStandAloneWindow;
-    NSData *_bannerImageData;
-    double _preferredHeight;
-    UIView *_leftItemView;
-    UIImage *_bannerImage;
-    UILabel *_fallbackTitleLabel;
-    struct CGRect _detailsPopoverFrame;
 }
 
 - (_Bool);
+- (void)_contentAlignment;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)ting share reference for %@;
+- (id)-system-font;
 - (struct CGRect);
 - (void);
 - (struct CGSize);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)ew;
+- (void)shouldHideBackgroundView;
 - (double)G;
 - (void)¨Ä¸;
-- (void)ndView;
+- (void)BackgroundView;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *bannerImage; // @synthesize bannerImage=_bannerImage;
-@property(retain, nonatomic) NSData *bannerImageData; // @synthesize bannerImageData=_bannerImageData;
-@property(nonatomic) struct CGRect detailsPopoverFrame; // @synthesize detailsPopoverFrame=_detailsPopoverFrame;
-@property(retain, nonatomic) UILabel *fallbackTitleLabel; // @synthesize fallbackTitleLabel=_fallbackTitleLabel;
 @property(retain, nonatomic) UIView *leftItemView; // @synthesize leftItemView=_leftItemView;
-@property(nonatomic) double preferredHeight; // @synthesize preferredHeight=_preferredHeight;
-@property(nonatomic) _Bool showingInStandAloneWindow; // @synthesize showingInStandAloneWindow=_showingInStandAloneWindow;
 
 @end
 

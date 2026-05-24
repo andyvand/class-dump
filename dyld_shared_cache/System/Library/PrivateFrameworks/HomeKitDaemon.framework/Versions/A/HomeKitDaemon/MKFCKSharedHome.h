@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKModel.h>
 
-@class NSDate, NSString, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKSharedHome : MKFCKModel
@@ -14,34 +14,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)SSAssistanceCursorHelperIPC_WritePointerInfo;
 + (id);
 + (id);
 + (_Bool)× ;
 + (_Bool);
 + (_Bool)teHoldDetails:(id)arg1;
 + (_Bool)tes;
-+ (id)edAccessories;
-- (id);
-- (id);
++ (id)numCertifiedAccessories;
+- (id)eraseFromStorageTypes:withCompletionQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)MSPInitialMinimumETADifferenceKey;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSUUID *defaultRoomModelID; // @dynamic defaultRoomModelID;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *ownerAccountHandle; // @dynamic ownerAccountHandle;
-@property(copy, nonatomic) NSUUID *ownerModelID; // @dynamic ownerModelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)es_PY;
 @end
 

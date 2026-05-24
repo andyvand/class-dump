@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, _UIAsyncInvocation, _UIHostedWindow, _UITouchesBeganObserverGestureRecognizer, _UIViewServiceSessionActivityRecord;
-
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceTextEffectsOperator
 {
     id _remoteViewControllerProxy;
-    NSUUID *_sessionIdentifier;
-    _Bool _wasInvalidated;
-    _UIAsyncInvocation *_prepareForDisconnectionInvocation;
-    _UIAsyncInvocation *_invalidationInvocation;
-    _UIHostedWindow *_hostedWindow;
-    struct CGPoint _windowOrigin;
-    struct UIEdgeInsets _safeAreaInsets;
-    struct CGSize _hostedViewSize;
-    struct CGRect _hostedViewReference;
-    _Bool _canRestoreInputViews;
-    _Bool _isRestoringInputViews;
-    _Bool _didResignForDisappear;
-    _Bool _localVCDisablesAutomaticBehaviors;
-    _UIViewServiceSessionActivityRecord *_sessionActivityRecord;
-    _UITouchesBeganObserverGestureRecognizer *_hostedTEWActivityObserverGesture;
-    _UITouchesBeganObserverGestureRecognizer *_hostedRemoteKeyboardWindowActivityObserverGesture;
 }
 
 + (id);
@@ -38,39 +20,39 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)t"32;
+- (void)assetDownloadInProgress;
+- (void)_updateTransferUsingCKRecord:wasFetched:dispatchToMain: /* Error: Ran out of types for this method. */;
+- (void)_submitCloudKitAnalyticWithOperationGroupName:analyticDictionary: /* Error: Ran out of types for this method. */;
+- (void)_sendIDSFile:withCommand: /* Error: Ran out of types for this method. */;
+- (void)_rebuildUnreadMessageCountRefreshingReports:guids:delta: /* Error: Ran out of types for this method. */;
+- (unsigned long long)teType:broadcastUpdates: /* Error: Ran out of types for this method. */;
+- (void)_fetchSizeLimitsForTransfer:(CDUnknownBlockType)arg1 mode: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)partBody;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Tı;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (void)alesced into %{public}ld unique identifiers;
+- (void)Change.;
+- (void), not allowing any reparenting tasks.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)dleID %@;
+- (void)d with error:(CDUnknownBlockType)arg1 %@;
 - (void);
 - (void);
 - (id);
@@ -82,14 +64,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _providerType;
-@property(readonly, nonatomic) NSUUID *_sessionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

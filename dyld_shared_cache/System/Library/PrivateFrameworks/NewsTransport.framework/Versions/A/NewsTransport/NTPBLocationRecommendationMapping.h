@@ -4,50 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NTPBLocationRecommendationMapping
 {
     double _latitude;
-    double _longitude;
-    NSMutableArray *_recommendationProviders;
-    struct {
-        unsigned int latitude:1;
-        unsigned int longitude:1;
-    } _has;
 }
 
-+ (Class);
-- (void);
-- (unsigned long long);
++ (Class)_stateQueue_playbackTimeRange;
+- (void)disableShareSheetAutomaticBehaviorIfADPEnabled;
+- (unsigned long long)changeDelegate;
+- (id)changeCaseOfLetter: /* Error: Ran out of types for this method. */;
+- (void)_wantsFeedItemShadow;
+- (void)_useSlowAnimations;
+- (id)_updateSubtitle2;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)h
+;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)=;
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void)setEnabled: /* Error: Ran out of types for this method. */;
 - (void)ndWatch;
-- (double)st_duration;
+- (double)request_duration;
 
 // Remaining properties
 @property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLongitude;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSMutableArray *recommendationProviders; // @synthesize recommendationProviders=_recommendationProviders;
 
 @end
 

@@ -6,22 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRManualEditTextClassified : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalAsrId;
-    NSArray *_manualEdits;
-    NSString *_fullCorrectedText;
-    _Bool _hasOriginalAsrId;
-    _Bool _hasFullCorrectedText;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -40,18 +36,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)rs;
+- (id)Library/Frameworks/Contacts.framework/Versions/A/Contacts;
+- (id)taskAbandonCountInUsingApp6Hrs;
 - (id)ä´L¶p·;
 - (id);
 - (void)]i­ëê&;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fullCorrectedText; // @synthesize fullCorrectedText=_fullCorrectedText;
-@property(nonatomic) _Bool hasFullCorrectedText; // @synthesize hasFullCorrectedText=_hasFullCorrectedText;
-@property(nonatomic) _Bool hasOriginalAsrId; // @synthesize hasOriginalAsrId=_hasOriginalAsrId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *manualEdits; // @synthesize manualEdits=_manualEdits;
 @property(retain, nonatomic) SISchemaUUID *originalAsrId; // @synthesize originalAsrId=_originalAsrId;
 
 @end

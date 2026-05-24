@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSURLSessionTaskDependencyDescription
 {
     _Bool _exclusive;
-    float _priority;
 }
 
 + (id);
++ (id)C;
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id);
+- (id)5s;
 - (id);
 - (_Bool);
 - (id);
@@ -28,11 +25,6 @@
 - (float)Csb2CsbaCsbcCsbeCsbiCsboCsbsCsbt.sb;
 
 // Remaining properties
-@property(readonly) NSString *dependentMimeType;
-@property(readonly) NSString *dependentURLPath;
-@property(nonatomic) _Bool exclusive; // @synthesize exclusive=_exclusive;
-@property(readonly) NSString *parentMimeType;
-@property(readonly) NSString *parentURLPath;
 @property(nonatomic) float priority; // @synthesize priority=_priority;
 
 @end

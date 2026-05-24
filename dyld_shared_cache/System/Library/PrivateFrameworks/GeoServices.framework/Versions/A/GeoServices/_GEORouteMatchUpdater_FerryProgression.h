@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _GEORouteMatchUpdater_FerryProgression : _GEORouteMatchUpdater
 {
     GEOComposedRouteStep *_boardStep;
-    GEOComposedRouteStep *_alightStep;
-    CDStruct_2c43369c _alightLocationCoordinate;
-    double _startProgressionDistanceToDestination;
-    unsigned long long _progressionCount;
 }
 
 - (_Bool);

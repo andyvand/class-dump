@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTRequestPrescribedPlanConvertTool : SISchemaInstrumentationMessage
 {
     _Bool _isExplicit;
-    CDStruct_30801e2d _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)eworks/CoreServices.framework/Versions/A/CoreServices;
 - (id)0@ù
 × ;
 - (id)riSchemaODDAssistantCarPlayDimensions",&,N,V_dimensions;
-- (id)tentEagerExecutionContext;
+- (id)CNVSchemaCNVIntentEagerExecutionContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsExplicit;
 @property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatStateViewNodeDataLayoutAttributes
 {
     id layoutAttributes;
-    id stateLayoutAttributes;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
 }
 
 @end

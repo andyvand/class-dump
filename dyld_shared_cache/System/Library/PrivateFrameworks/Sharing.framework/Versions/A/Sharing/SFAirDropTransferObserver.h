@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, Sharing._SFAirDropTransferObserverAdaptor, _SFAirDropTransferObserver;
-@protocol SFAirDropTransferObserverDelegate;
+@class _SFAirDropTransferObserver;
 
 @interface SFAirDropTransferObserver
 {
     _Bool _isModern;
-    id <SFAirDropTransferObserverDelegate> _delegate;
-    _SFAirDropTransferObserver *_legacyObserver;
-    Sharing._SFAirDropTransferObserverAdaptor *_modernObserver;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
+- (void)1;
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (_Bool)A(!XFùÑÅ+°1Â0@ù
 × ;
 - (void)B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFAirDropTransferObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isModern; // @synthesize isModern=_isModern;
 @property(retain, nonatomic) _SFAirDropTransferObserver *legacyObserver; // @synthesize legacyObserver=_legacyObserver;
-@property(retain, nonatomic) Sharing._SFAirDropTransferObserverAdaptor *modernObserver; // @synthesize modernObserver=_modernObserver;
-@property(readonly) Class superclass;
 
 @end
 

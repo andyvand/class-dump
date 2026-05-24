@@ -5,11 +5,9 @@
 //
 
 @protocol SXVisibilityMonitoring
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appeared;
-@property(readonly, nonatomic) __weak id object;
 @property(readonly, nonatomic) unsigned long long state;
-@property(readonly, nonatomic) double visiblePercentage;
 @end
 

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (_Bool);
++ (id)int;
++ (void);
+- (_Bool)_alternateCalendarLocaleID;
 - (unsigned long long);
 - (id);
 

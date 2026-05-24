@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface OITSUDeferredInvocationQueue
 {
     NSMutableArray *_invocations;
-    id _target;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)heapAccelerationStructureSizeAndAlignWithDescriptor:(SEL)arg1;
 
 @end
 

@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMParsecSearchEntity
 {
     unsigned int _category;
-    float _probabilityScore;
-    NSString *_name;
-    NSArray *_topics;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)A;
 - (float);
 - (id);
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool)5X;
+- (id)k;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ect for key %s:(id)arg1 %@
+;
 - (_Bool);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
-- (id)t_tblspc;
+- (id)pg_query__alter_function_stmt__pack_to_buffer;
+- (id)reset_default_tblspc;
 - (void)ØÙÚÛÜÝ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int category; // @synthesize category=_category;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) float probabilityScore; // @synthesize probabilityScore=_probabilityScore;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *topics; // @synthesize topics=_topics;
 
 @end
 

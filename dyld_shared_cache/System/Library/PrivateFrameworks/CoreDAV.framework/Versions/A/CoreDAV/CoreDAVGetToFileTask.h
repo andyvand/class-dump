@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)L;
 
 // Remaining properties
 @property(retain, nonatomic) NSFileHandle *destinationFile; // @synthesize destinationFile=_destinationFile;

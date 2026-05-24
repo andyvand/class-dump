@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCAdaptiveLearning
 {
     NSMutableDictionary *_callHistory;
-    _Bool _segmentChanged;
-    int _adaptiveLearningState;
-    int _shortTermHistoryLength;
-    int _longTermHistoryLength;
-    double _shortTermAdjustmentFactor;
-    double _longTermAdjustmentFactor;
-    double _shortTermValueWeight;
-    double _longTermValueWeight;
-    NSObject<OS_dispatch_queue> *_stateQueue;
 }
 
-+ (id);
++ (id);
 - (void);
 - (int);
 - (int);
@@ -33,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int);
+- (int);
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties

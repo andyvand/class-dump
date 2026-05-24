@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBButtonItem, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSummaryItemPairNumberCardSection
 {
     _SFPBRFTextProperty *_number_1;
-    _SFPBRFTextProperty *_number_2;
-    _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    _SFPBRFTextProperty *_text_3;
-    _SFPBRFTextProperty *_text_4;
-    NSArray *_text_5s;
-    _SFPBRFVisualProperty *_thumbnail_1;
-    _SFPBRFVisualProperty *_thumbnail_2;
-    _SFPBRFTextProperty *_text_6;
-    _SFPBRFTextProperty *_text_7;
-    _SFPBButtonItem *_button_1;
-    _SFPBRFTextProperty *_text_8;
-    _SFPBRFTextProperty *_text_9;
-    _SFPBRFTextProperty *_text_10;
 }
 
 - (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)_;
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`";
 - (void);
 - (void);
 - (void);
@@ -65,36 +51,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)requestExportSessionForVideo:(id)arg1 options:exportPreset:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)handle current adjustments:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)lLayoutCardSection"16;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBButtonItem *button_1; // @synthesize button_1=_button_1;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number_1; // @synthesize number_1=_number_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *number_2; // @synthesize number_2=_number_2;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_10; // @synthesize text_10=_text_10;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3; // @synthesize text_3=_text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(copy, nonatomic) NSArray *text_5s; // @synthesize text_5s=_text_5s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6; // @synthesize text_6=_text_6;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_7; // @synthesize text_7=_text_7;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_8; // @synthesize text_8=_text_8;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_9; // @synthesize text_9=_text_9;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_1; // @synthesize thumbnail_1=_thumbnail_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail_2; // @synthesize thumbnail_2=_thumbnail_2;
 
 @end
 

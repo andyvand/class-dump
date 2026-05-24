@@ -9,7 +9,6 @@
 @protocol PIParallaxClockLayoutResult
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clockIntersection;
 @property(readonly, nonatomic) NSString *clockLayerOrder;
 @end
 

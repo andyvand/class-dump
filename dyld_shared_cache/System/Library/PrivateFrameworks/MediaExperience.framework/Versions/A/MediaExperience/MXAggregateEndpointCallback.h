@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface MXAggregateEndpointCallback
 {
     struct OpaqueFigEndpoint *_endpoint;
-    unsigned long long _features;
-    NSDictionary *_options;
-    void *_callback;
-    void *_callbackRefCon;
-    unsigned long long _operationType;
-    NSDate *_creationTime;
 }
 
 - (id);
 - (void *);
 - (id);
 - (void);
-- (id);
+- (id);
 - (struct OpaqueFigEndpoint *);
 - (id);
 - (unsigned long long);
@@ -31,13 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) void *callback; // @synthesize callback=_callback;
-@property(readonly) void *callbackRefCon; // @synthesize callbackRefCon=_callbackRefCon;
-@property(readonly, nonatomic) NSDate *creationTime; // @synthesize creationTime=_creationTime;
 @property(readonly) struct OpaqueFigEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long features; // @synthesize features=_features;
-@property(readonly) unsigned long long operationType; // @synthesize operationType=_operationType;
-@property(readonly) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

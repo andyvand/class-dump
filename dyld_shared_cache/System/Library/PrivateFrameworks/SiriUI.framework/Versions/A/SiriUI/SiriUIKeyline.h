@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSView;
-
 @interface SiriUIKeyline
 {
     _Bool _veritical;
-    NSView *_keylineView;
-    long long _keylineType;
-    double _customLeftPadding;
-    double _customRightPadding;
-    NSColor *_customBackgroundColor;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
@@ -36,24 +29,19 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (struct CGSize);
+- (id)didDismissFunCamera: /* Error: Ran out of types for this method. */;
+- (struct CGSize)CKNavBarUnifiedButtonViewUIActionIdentifierFaceTimeVideo;
 - (id);
 - (void);
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)áx!TFùq°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *customBackgroundColor; // @synthesize customBackgroundColor=_customBackgroundColor;
-@property(nonatomic) double customLeftPadding; // @synthesize customLeftPadding=_customLeftPadding;
-@property(nonatomic) double customRightPadding; // @synthesize customRightPadding=_customRightPadding;
-@property(nonatomic) long long keylineType; // @synthesize keylineType=_keylineType;
-@property(retain) NSView *keylineView; // @synthesize keylineView=_keylineView;
 @property(nonatomic, getter=_isVeritical, setter=_setVertical:) _Bool veritical; // @synthesize veritical=_veritical;
 
 @end

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)cData:(id)arg1;
-+ (_Bool)veAndSupportsDragonSiri;
++ (_Bool)storeSharedHomeFabricData:(id)arg1;
++ (_Bool)isActiveAndSupportsDragonSiri;
 
 @end
 

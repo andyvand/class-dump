@@ -7,6 +7,7 @@
 @protocol NSCollectionViewElement
 
 @optional
-- (void)tEnabled;
+- (void)!;
+- (void)userStyleSheetEnabled;
 @end
 

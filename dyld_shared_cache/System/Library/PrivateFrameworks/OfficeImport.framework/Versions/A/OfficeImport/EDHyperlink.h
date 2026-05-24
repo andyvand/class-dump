@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDReference, EDString;
+@class EDString;
 
 __attribute__((visibility("hidden")))
 @interface EDHyperlink
 {
     EDString *mPath;
-    EDString *mDosPath;
-    EDString *mDescriptionText;
-    EDString *mTextMark;
-    EDString *mToolTip;
-    EDReference *mReference;
-    int mType;
 }
 
 + (id);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_TtCC9Calculate19CalculateExpression14RichExpression;
 - (id);
 - (int);
 - (void);

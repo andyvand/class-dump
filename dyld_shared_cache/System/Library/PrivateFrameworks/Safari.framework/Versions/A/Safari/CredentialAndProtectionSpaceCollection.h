@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString, WBSSavedAccountKeychainCoordinator;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CredentialAndProtectionSpaceCollection
 {
     NSDictionary *_credentialsByProtectionSpace;
-    NSMutableArray *_credentialAndProtectionSpacePairs;
-    NSMutableArray *_filteredCredentialAndProtectionSpacePairIndexes;
-    NSArray *_sortDescriptors;
-    NSString *_filterString;
-    id _delegate;
-    WBSSavedAccountKeychainCoordinator *_keychainCoordinator;
 }
 
 - (void);
@@ -31,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)	ka;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -49,28 +43,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id): /* Error: Ran out of types for this method. */;
+- (void)=;
 - (id);
-- (void);
-- (id);
-- (void)State:(id)arg1;
+- (void)canRestoreSearchState:(id)arg1;
 - (void)X8;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=credentialAndProtectionSpacePairsCount) unsigned long long count;
-@property(retain, nonatomic) NSMutableArray *credentialAndProtectionSpacePairs; // @synthesize credentialAndProtectionSpacePairs=_credentialAndProtectionSpacePairs;
 @property(retain, nonatomic) NSDictionary *credentialsByProtectionSpace; // @synthesize credentialsByProtectionSpace=_credentialsByProtectionSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *filterString; // @synthesize filterString=_filterString;
-@property(retain, nonatomic) NSMutableArray *filteredCredentialAndProtectionSpacePairIndexes; // @synthesize filteredCredentialAndProtectionSpacePairIndexes=_filteredCredentialAndProtectionSpacePairIndexes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WBSSavedAccountKeychainCoordinator *keychainCoordinator; // @synthesize keychainCoordinator=_keychainCoordinator;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
-@property(readonly) Class superclass;
 
 @end
 

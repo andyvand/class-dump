@@ -17,9 +17,9 @@
 - (id);
 - (void);
 - (void);
+- (id)%;
 - (id);
-- (id);
-- (void)ayment_VisaLogo;
+- (void)Payment_VisaLogo;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *appClipLaunchURL; // @synthesize appClipLaunchURL=_appClipLaunchURL;

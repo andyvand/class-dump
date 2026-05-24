@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHStatisticDistributionInfo : SISchemaInstrumentationMessage
 {
     unsigned int _num;
-    unsigned long long _max;
-    unsigned long long _min;
-    unsigned long long _avg;
-    unsigned long long _median;
-    unsigned long long _p95;
-    float _std;
-    unsigned long long _warmup;
-    struct {
-        unsigned int num:1;
-        unsigned int max:1;
-        unsigned int min:1;
-        unsigned int avg:1;
-        unsigned int median:1;
-        unsigned int p95:1;
-        unsigned int std:1;
-        unsigned int warmup:1;
-    } _has;
 }
 
 - (void);
@@ -47,26 +28,26 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (unsigned int);
 - (float);
 - (unsigned long long);
 - (void);
+- (void)Z;
+- (void)Z;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void)dd}{CGSize=dd}}32@"NSEvent"64;
+- (void)tionary"56@0:(_Bool)arg1 8@"NSTextView"16{_NSRange=QQ}24@"NSDictionary"40^Q48;
+- (_Bool)infoView;
+- (_Bool)NSTextView",&,N,V_learnMoreICloudMail;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)G curve over a 163 bit binary field;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -75,30 +56,14 @@
 × ;
 - (id)hemaSTClientEventMetadata",&,N,V_eventMetadata;
 - (id),&,N,V_assistantDaemonAudioRecordingFailureInsufficientPriority;
-- (unsigned long long)CTION_TEXT_SELECTED;
+- (unsigned long long)RFINTERACTION_TEXT_SELECTED;
 - (unsigned long long)com.apple.aiml.siri.orch.ORCHClientEvent.ORCHShimToolContext;
-- (unsigned long long)ht;
-- (unsigned long long)IdModelSampleReported;
-- (void)reamingContentType;
+- (unsigned long long)residualAdaptationWeight;
+- (unsigned long long)speakerIdModelSampleReported;
+- (void)MWTSchemaMWTStreamingContentType;
 
 // Remaining properties
-@property(nonatomic) unsigned long long avg; // @synthesize avg=_avg;
-@property(nonatomic) _Bool hasAvg;
-@property(nonatomic) _Bool hasMax;
-@property(nonatomic) _Bool hasMedian;
-@property(nonatomic) _Bool hasMin;
-@property(nonatomic) _Bool hasNum;
-@property(nonatomic) _Bool hasP95;
-@property(nonatomic) _Bool hasStd;
-@property(nonatomic) _Bool hasWarmup;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long max; // @synthesize max=_max;
-@property(nonatomic) unsigned long long median; // @synthesize median=_median;
-@property(nonatomic) unsigned long long min; // @synthesize min=_min;
 @property(nonatomic) unsigned int num; // @synthesize num=_num;
-@property(nonatomic) unsigned long long p95; // @synthesize p95=_p95;
-@property(nonatomic) float std; // @synthesize std=_std;
-@property(nonatomic) unsigned long long warmup; // @synthesize warmup=_warmup;
 
 @end
 

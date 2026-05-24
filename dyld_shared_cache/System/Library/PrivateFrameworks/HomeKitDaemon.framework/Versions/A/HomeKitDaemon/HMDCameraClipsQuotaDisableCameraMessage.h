@@ -16,27 +16,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void)
 × ;
-- (id)resentation;
+- (id)fileSystemRepresentation;
 - (id)ggregatorStorage>",R,N,V_storage;
 - (id);
 - (_Bool)ingChangeDetails"16^B24;
 - (void)¡~&ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasZoneName;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

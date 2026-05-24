@@ -6,7 +6,7 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNPropertyGroupItem, NSArray;
+@class NSArray;
 @protocol CNPropertyActionDelegate;
 
 __attribute__((visibility("hidden")))
@@ -19,19 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void)erGroupWithPreflight;
+- (id)ificate for %@, %d;
+- (void)_reloadGameCenterGroupWithPreflight;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNPropertyActionDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) CNPropertyGroupItem *propertyItem;
-@property(copy, nonatomic) NSArray *propertyItems; // @synthesize propertyItems=_propertyItems;
 
 @end
 

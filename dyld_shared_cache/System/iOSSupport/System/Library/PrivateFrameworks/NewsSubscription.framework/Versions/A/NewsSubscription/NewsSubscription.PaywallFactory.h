@@ -7,18 +7,6 @@
 @interface NewsSubscription.PaywallFactory
 {
     id resolver;
-    id purchaseProvider;
-    id paywallTypeProvider;
-    id bundleSubscriptionManager;
-    id configurationManager;
-    id appConfigurationManager;
-    id tracker;
-    id bundlePaywallViewModelFactory;
-    id alacartePaywallViewModelFactory;
-    id offerManager;
-    id purchaseModelFactory;
-    id modalAdService;
-    id bundleCampaignSessionManager;
 }
 
 @end

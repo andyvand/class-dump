@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AWDWiFiMetricsManagerLastSSIDInfo
 {
     unsigned long long _timestamp;
-    NSData *_lastSSIDAttempted;
-    NSData *_lastSSIDConnectedTo;
-    CDStruct_b5306035 _has;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -24,8 +19,8 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long)T;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -33,15 +28,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLastSSIDAttempted;
-@property(readonly, nonatomic) _Bool hasLastSSIDConnectedTo;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSData *lastSSIDAttempted; // @synthesize lastSSIDAttempted=_lastSSIDAttempted;
-@property(retain, nonatomic) NSData *lastSSIDConnectedTo; // @synthesize lastSSIDConnectedTo=_lastSSIDConnectedTo;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

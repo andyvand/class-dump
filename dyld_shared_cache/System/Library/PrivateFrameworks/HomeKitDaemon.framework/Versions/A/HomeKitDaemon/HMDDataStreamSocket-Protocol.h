@@ -8,16 +8,13 @@
 @protocol HMDDataStreamSocketDelegate;
 
 @protocol HMDDataStreamSocket
+- (NSString *)er stopSharingTripWithReason:completion:] /* Error: Ran out of types for this method. */;
 - (_Bool)senceV2>"16@"NSArray"24;
 - (unsigned long long)] Failed to create snapshot session with HMDCameraSnapshotRemoteRelayStream:accessory reference is nil /* Error: Ran out of types for this method. */;
 - (_Bool)Configuration=%@, lanFirewallConfiguration=%@>;
 - (_Bool)dateLocks:shouldRoll:flow:requireCloudFetch:isOnSharedUserAcceptance:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *applicationProtocolName;
-@property(readonly, getter=isClosed) _Bool closed;
-@property(readonly, getter=isClosing) _Bool closing;
 @property __weak id <HMDDataStreamSocketDelegate> delegate;
-@property unsigned long long trafficClass;
 @end
 

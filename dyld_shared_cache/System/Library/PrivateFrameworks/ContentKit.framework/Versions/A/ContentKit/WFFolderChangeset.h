@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WFFileRepresentation;
+@class WFFileRepresentation;
 
 @interface WFFolderChangeset
 {
     WFFileRepresentation *_rootFolder;
-    NSArray *_addedFiles;
-    NSArray *_modifiedFiles;
-    NSArray *_removedFilePaths;
 }
 
 + (id);
@@ -25,16 +22,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)H;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *addedFiles; // @synthesize addedFiles=_addedFiles;
-@property(retain, nonatomic) NSArray *modifiedFiles; // @synthesize modifiedFiles=_modifiedFiles;
-@property(retain, nonatomic) NSArray *removedFilePaths; // @synthesize removedFilePaths=_removedFilePaths;
 @property(retain, nonatomic) WFFileRepresentation *rootFolder; // @synthesize rootFolder=_rootFolder;
 
 @end

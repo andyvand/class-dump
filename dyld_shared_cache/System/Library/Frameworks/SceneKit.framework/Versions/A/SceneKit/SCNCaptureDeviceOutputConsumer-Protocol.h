@@ -5,12 +5,12 @@
 //
 
 @protocol SCNCaptureDeviceOutputConsumer
-- (_Bool)ionFilter: /* Error: Ran out of types for this method. */;
+- (_Bool)r;
+- (_Bool)setMagnificationFilter: /* Error: Ran out of types for this method. */;
 - (void)O>s÷Y>ð2;?x?Âhv>Ê=:(_Bool)arg1 #Z>7À>]ýH?-AF>D4Ú>®?µ{¨<¢ÐJ?>Ú«·>w?Ôc;=gÓ1>¨Û>¯oñ<6A>?°+?|
 ;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyAdjustsVideoMirroring;
-@property(nonatomic, getter=isVideoMirrored) _Bool videoMirrored;
 @end
 

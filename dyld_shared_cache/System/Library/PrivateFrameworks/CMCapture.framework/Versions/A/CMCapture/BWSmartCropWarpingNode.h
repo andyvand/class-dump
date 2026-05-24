@@ -6,17 +6,12 @@
 
 #import <CMCapture/BWNode.h>
 
-@class NSString;
-@protocol BWSmartCropHomographyProvider, RTSCProcessor;
+@protocol BWSmartCropHomographyProvider;
 
 __attribute__((visibility("hidden")))
 @interface BWSmartCropWarpingNode : BWNode
 {
     id <BWSmartCropHomographyProvider> _homographyProvider;
-    id <RTSCProcessor> _rtscProcessor;
-    int _activeAspectRatio;
-    CDStruct_79c71658 _formatDimensions;
-    struct os_unfair_lock_s _bufferServicingLock;
 }
 
 + (void)thBuffer:forInputIndex:sampleBufferAlreadyAtHeadOfQueue:] /* Error: Ran out of types for this method. */;
@@ -25,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (int);
-- (void);
+- (void)OITSUBasicProgress;
 - (void);
 - (void);
 - (void)9?!ÿ?? ÿE=ÿJ;ÿQ;ÿX;ÿ_:(id)arg1 ÿf9ÿn8ÿu7ÿ|6ÿ4ÿ3ÿ1ÿ0ÿ .ÿ¦,
@@ -36,13 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property int activeAspectRatio; // @synthesize activeAspectRatio=_activeAspectRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

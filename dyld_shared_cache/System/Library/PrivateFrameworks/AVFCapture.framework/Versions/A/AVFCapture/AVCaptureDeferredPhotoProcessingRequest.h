@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeferredPhotoProcessingRequest
 {
     NSMutableArray *_photoProxies;
-    unsigned int _firedCallbackFlags;
-    NSMutableArray *_delegatesStorage;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    int _expectedPhotoCount;
-    int _firedPhotoCallbacksCount;
-    NSString *_originalDeferredPhotoIdentifier;
-    unsigned int _qosClass;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
-- (void);
-- (void);
+- (void)class:(id)arg1 %@ resulted in error:%@ /* Error: Ran out of types for this method. */;
+- (void)_state_hints_s=I*II}8;
+- (id)ach-lookup;
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned int);
+- (void)ACDKeychainCleanupActivity;
+- (unsigned int)`;
 - (int);
 - (id);
 - (void);
@@ -41,12 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSArray *delegatesStorage; // @synthesize delegatesStorage=_delegatesStorage;
-@property(nonatomic) int expectedPhotoCount; // @synthesize expectedPhotoCount=_expectedPhotoCount;
-@property unsigned int firedCallbackFlags; // @synthesize firedCallbackFlags=_firedCallbackFlags;
-@property(nonatomic) int firedPhotoCallbacksCount; // @synthesize firedPhotoCallbacksCount=_firedPhotoCallbacksCount;
-@property(copy, nonatomic) NSString *originalDeferredPhotoIdentifier; // @synthesize originalDeferredPhotoIdentifier=_originalDeferredPhotoIdentifier;
-@property(readonly) NSMutableArray *photoProxies; // @synthesize photoProxies=_photoProxies;
-@property(nonatomic) unsigned int qosClass; // @synthesize qosClass=_qosClass;
 
 @end
 

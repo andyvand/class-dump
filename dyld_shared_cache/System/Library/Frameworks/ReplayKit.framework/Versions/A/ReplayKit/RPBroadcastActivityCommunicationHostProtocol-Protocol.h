@@ -5,5 +5,6 @@
 //
 
 @protocol RPBroadcastActivityCommunicationHostProtocol
+- (oneway void);
 @end
 

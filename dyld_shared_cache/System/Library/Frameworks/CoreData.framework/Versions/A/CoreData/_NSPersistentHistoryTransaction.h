@@ -6,25 +6,13 @@
 
 #import <CoreData/NSPersistentHistoryTransaction.h>
 
-@class NSArray, NSData, NSManagedObjectID, NSPersistentStoreCoordinator, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSPersistentHistoryTransaction : NSPersistentHistoryTransaction
 {
     long long _rowIdentifier;
-    double _timestamp;
-    NSArray *_changes;
-    NSString *_storeID;
-    NSString *_bundleID;
-    NSString *_processID;
-    NSString *_contextName;
-    NSString *_author;
-    NSData *_queryGeneration;
-    NSPersistentStoreCoordinator *_coordinator;
-    NSManagedObjectID *_backingObjectID;
 }
 
-+ (_Bool);
++ (_Bool)oD;
 - (void);
 - (id);
 - (id);
@@ -33,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)`;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)r">24;
+- (id)setAccountProperty:forKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)recordName in %@;

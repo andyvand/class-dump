@@ -6,15 +6,10 @@
 
 #import <HomeKitBackingStore/HMBLocalZoneQueryResultRecordColumns.h>
 
-@class NSMutableOrderedSet, NSMutableSet, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneQueryResultRecursiveModelID : HMBLocalZoneQueryResultRecordColumns
 {
     int _parentModelIDOffset;
-    NSUUID *_parentModelID;
-    NSMutableOrderedSet *_modelStack;
-    NSMutableSet *_returnedModels;
 }
 
 - (void);
@@ -24,14 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)CLLocationCoordinate2D=dd},N,V_location;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableOrderedSet *modelStack; // @synthesize modelStack=_modelStack;
-@property(retain, nonatomic) NSUUID *parentModelID; // @synthesize parentModelID=_parentModelID;
 @property(readonly, nonatomic) int parentModelIDOffset; // @synthesize parentModelIDOffset=_parentModelIDOffset;
-@property(readonly, nonatomic) NSMutableSet *returnedModels; // @synthesize returnedModels=_returnedModels;
 
 @end
 

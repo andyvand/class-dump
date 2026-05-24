@@ -13,10 +13,10 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CRKDeviceGestalt *deviceGestalt; // @synthesize deviceGestalt=_deviceGestalt;

@@ -6,30 +6,14 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKModifyRecordZonesOperationInfo, NSArray, NSMutableArray, NSMutableDictionary, NSString;
 @protocol CKModifyRecordZonesOperationCallbacks;
 
 @interface CKModifyRecordZonesOperation : CKDatabaseOperation
 {
     _Bool _markZonesAsUserPurged;
-    CDUnknownBlockType _perRecordZoneSaveBlock;
-    CDUnknownBlockType _perRecordZoneDeleteBlock;
-    CDUnknownBlockType _modifyRecordZonesCompletionBlock;
-    NSArray *_recordZonesToSave;
-    NSArray *_recordZoneIDsToDelete;
-    NSMutableArray *_savedRecordZones;
-    NSMutableArray *_deletedRecordZoneIDs;
-    NSMutableDictionary *_recordZonesByZoneIDs;
-    NSMutableDictionary *_recordZoneErrors;
-    NSArray *_configurationsToSave;
-    NSArray *_configurationsToDelete;
-    CDUnknownBlockType _perRecordZoneSaveBlock_wrapper;
-    CDUnknownBlockType _perRecordZoneDeleteBlock_wrapper;
-    CDUnknownBlockType _modifyRecordZonesCompletionBlock_wrapper;
-    unsigned long long _savePolicy;
 }
 
-+ (SEL);
++ (SEL)(q;
 + (void);
 - (void);
 - (void);
@@ -40,23 +24,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
+- (id)X;
+- (CDUnknownBlockType)nsions. They must match.;
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)stringByPaddingToLength:withString:startingAtIndex: /* Error: Ran out of types for this method. */;
+- (void)%@;
 - (void);
 - (void);
 - (_Bool);
@@ -73,24 +57,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKModifyRecordZonesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool markZonesAsUserPurged; // @synthesize markZonesAsUserPurged=_markZonesAsUserPurged;
-@property(copy, nonatomic) CDUnknownBlockType modifyRecordZonesCompletionBlock; // @synthesize modifyRecordZonesCompletionBlock=_modifyRecordZonesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType modifyRecordZonesCompletionBlock_wrapper; // @synthesize modifyRecordZonesCompletionBlock_wrapper=_modifyRecordZonesCompletionBlock_wrapper;
-@property(readonly, nonatomic) CKModifyRecordZonesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneDeleteBlock; // @synthesize perRecordZoneDeleteBlock=_perRecordZoneDeleteBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneDeleteBlock_wrapper; // @synthesize perRecordZoneDeleteBlock_wrapper=_perRecordZoneDeleteBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneSaveBlock; // @synthesize perRecordZoneSaveBlock=_perRecordZoneSaveBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneSaveBlock_wrapper; // @synthesize perRecordZoneSaveBlock_wrapper=_perRecordZoneSaveBlock_wrapper;
-@property(copy, nonatomic) NSArray *recordZoneIDsToDelete; // @synthesize recordZoneIDsToDelete=_recordZoneIDsToDelete;
-@property(copy, nonatomic) NSArray *recordZonesToSave; // @synthesize recordZonesToSave=_recordZonesToSave;
-@property(nonatomic) unsigned long long savePolicy; // @synthesize savePolicy=_savePolicy;
-@property(readonly) Class superclass;
 
 @end
 

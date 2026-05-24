@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, NSXPCInterface, NSXPCListener;
-@protocol AFBridgeConnectionListenerDelegate, OS_dispatch_queue;
+@class NSString, NSXPCListener;
 
 @interface AFBridgeConnectionListener
 {
     NSXPCListener *_listener;
-    NSXPCInterface *_exportedInterface;
-    NSXPCInterface *_remoteInterface;
-    NSXPCConnection *_connection;
-    NSString *_machServiceName;
-    NSObject<OS_dispatch_queue> *_queue;
-    id _bridgeProxy;
-    _Bool _listenerResumed;
-    NSString *_bridgeName;
-    id <AFBridgeConnectionListenerDelegate> _delegate;
 }
 
 - (void);
@@ -29,18 +19,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)sCrossDeviceEvent;
+- (void)AFCoreAnalyticsCrossDeviceEvent;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bridgeName; // @synthesize bridgeName=_bridgeName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AFBridgeConnectionListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

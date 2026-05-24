@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFRichText;
+@class SFRichText;
 
 @protocol SFSplitCardSection
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFRichText *body;
-@property(retain, nonatomic) SFRichText *bottomTitle;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *listItems;
-@property(copy, nonatomic) NSString *listMoreString;
-@property(copy, nonatomic) NSString *listPrefix;
-@property(retain, nonatomic) SFRichText *secondaryTopTitle;
 @property(retain, nonatomic) SFRichText *topTitle;
 @end
 

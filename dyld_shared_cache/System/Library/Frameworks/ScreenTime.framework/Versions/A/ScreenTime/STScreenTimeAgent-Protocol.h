@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDateInterval, NSSecurityScopedURLWrapper, NSString;
+
 @protocol STScreenTimeAgent
+- (void);
+- (void)tokenField:(NSDateInterval *)arg1 menuForRepresentedObject:(NSString *)arg2;
+- (void)toggleSelectionForAssetReference:(NSString *)arg1;
+- (void)ion:(NSString *)arg1 loadingCoordinator:(NSString *)arg2 paperTrailOptions:(NSSecurityScopedURLWrapper *)arg3;
 @end
 

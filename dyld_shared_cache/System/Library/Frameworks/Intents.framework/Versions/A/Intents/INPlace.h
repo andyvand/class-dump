@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INPlace
 {
     NSString *_placeType;
-    NSString *_placeSubType;
-    NSArray *_placeDescriptors;
-    long long _personalPlaceType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)compare:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ephemeralSessionConfiguration;
+- (void)ilyUnavailable ignored for %{public}@ @ %{public}@;
 - (id);
 - (id);
-- (id):(unsigned long long)arg1;
+- (id)confirmationRequiredWithAlarmRepeatScheduleOptionsToConfirm:(unsigned long long)arg1;
 - (void)provideEffectOptionsCollectionForSendMessage:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (id)tFileInformation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)provideEntityTypeOptionsForGetFileInformation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)æ`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long personalPlaceType; // @synthesize personalPlaceType=_personalPlaceType;
-@property(readonly, copy) NSArray *placeDescriptors; // @synthesize placeDescriptors=_placeDescriptors;
-@property(readonly, copy) NSString *placeSubType; // @synthesize placeSubType=_placeSubType;
 @property(readonly, copy) NSString *placeType; // @synthesize placeType=_placeType;
-@property(readonly) Class superclass;
 
 @end
 

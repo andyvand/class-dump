@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSMutableSet, NSObject, TSUZipWriterEntry;
-@protocol OS_dispatch_data, OS_dispatch_queue, TSURandomWriteChannel;
+@class NSMutableArray;
+@protocol TSURandomWriteChannel;
 
 @interface TSUZipWriter
 {
     NSMutableArray *_entries;
-    NSMutableSet *_entryNames;
-    TSUZipWriterEntry *_currentEntry;
-    _Bool _calculateSize;
-    _Bool _calculateCRC;
-    unsigned short _entryTime;
-    unsigned short _entryDate;
-    long long _currentOffset;
-    NSObject<OS_dispatch_data> *_localFileHeaderData;
-    NSMutableArray *_entryDatas;
-    unsigned long long _entryDataSize;
-    NSObject<OS_dispatch_queue> *_writeQueue;
-    long long _writtenOffset;
-    NSError *_error;
 }
 
+- (void)LayoutDescriptor;
 - (void);
+- (void)LayoutModel;
+- (id)_permissionsCoordinator;
+- (id)personalizedAdsExposureStart;
+- (void)prewarmResult;
+- (void)notificationService;
+- (void)notificationController;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -50,7 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long archiveLength;
 @property(readonly, nonatomic) id <TSURandomWriteChannel> writeChannel;
 
 @end

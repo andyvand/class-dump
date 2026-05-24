@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NUAdjustmentSchema, NUIdentifier;
+@class NSDictionary, NUIdentifier;
 
 @interface NUAdjustment
 {
     NUIdentifier *_identifier;
-    NUAdjustmentSchema *_schema;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NUIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NUAdjustmentSchema *schema; // @synthesize schema=_schema;
 @property(readonly, nonatomic) NSDictionary *settings;
-@property(readonly) Class superclass;
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBLocation, _INPBString;
+@class _INPBLocation;
 
 @interface _INPBSaveParkingLocationIntentResponse
 {
     struct _has;
-    _INPBLocation *_parkingLocation;
-    _INPBString *_parkingNote;
 }
 
 + (_Bool);
@@ -21,27 +19,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)8;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)dioBook;
+- (void)audioBook;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasParkingLocation;
-@property(readonly, nonatomic) _Bool hasParkingNote;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBLocation *parkingLocation; // @synthesize parkingLocation=_parkingLocation;
-@property(retain, nonatomic) _INPBString *parkingNote; // @synthesize parkingNote=_parkingNote;
-@property(readonly) Class superclass;
 
 @end
 

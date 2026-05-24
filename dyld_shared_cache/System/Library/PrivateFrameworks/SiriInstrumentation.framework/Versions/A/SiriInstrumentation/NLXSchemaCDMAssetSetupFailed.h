@@ -6,24 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMAssetSetupFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    unsigned int _errorCode;
-    CDStruct_7b2c8649 _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)authenticateAndDeleteRecoveryKeyFromAllSystemsWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)PKCS8_add_keyusage;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -37,11 +33,7 @@
 - (unsigned int)üI¬^';
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

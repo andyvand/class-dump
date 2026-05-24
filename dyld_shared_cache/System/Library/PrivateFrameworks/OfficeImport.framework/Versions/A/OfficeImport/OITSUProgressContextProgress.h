@@ -6,15 +6,12 @@
 
 #import <OfficeImport/OITSUProgress.h>
 
-@class NSObject, OITSUProgressContext;
-@protocol OS_dispatch_queue;
+@class OITSUProgressContext;
 
 __attribute__((visibility("hidden")))
 @interface OITSUProgressContextProgress : OITSUProgress
 {
     OITSUProgressContext *mProgressContext;
-    NSObject<OS_dispatch_queue> *mProgressContextObserverQueue;
-    _Bool hasAddedProgressContextObserver;
 }
 
 - (void);

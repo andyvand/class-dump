@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFWebsitePolicyMonitor, NSMutableDictionary;
+@class DMFWebsitePolicyMonitor;
 @protocol WBSDigitalHealthManagerDelegate;
 
 @interface WBSDigitalHealthManager
 {
     DMFWebsitePolicyMonitor *_monitor;
-    NSMutableDictionary *_trackedUrlsProfileIdentifierPairToUsageState;
-    id <WBSDigitalHealthManagerDelegate> _delegate;
 }
 
 + (void);
@@ -21,20 +19,20 @@
 + (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ldMap";
+- (void)hostPanelWillRunModalWithLayoutCompletionHandler:(id)arg1;
+- (void)_scanDone;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void)
 ;
 

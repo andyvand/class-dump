@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, SSPommesPhotosRanker, SSTokenizedString;
+@class SSTokenizedString;
 
 @interface rankingSceneClassification
 {
     _Bool _exactSceneMatch;
-    int _sceneMatchedType;
-    SSTokenizedString *_label;
-    NSArray *_synonyms;
-    double _confidence;
-    NSArray *_boundingBox;
-    NSNumber *_identifier;
-    double _boundingBoxRatio;
-    double _matchedBoundingBoxScore;
-    double _matchedConfidenceScore;
-    double _matchedSceneLabelRatio;
-    double _matchedSceneSynonymsRatio;
-    unsigned long long _totalLabels;
-    unsigned long long _totalSynonyms;
-    SSPommesPhotosRanker *_rankerReference;
-    NSDictionary *_sceneReferenceDictionary;
-    NSArray *_synonymsIndexes;
 }
 
 - (unsigned long long);
@@ -49,43 +33,27 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (double);
+- (id)={CGPoint=dd}{CGSize=dd}}16d48;
+- (double)Session"16@"NSURLSessionTask"24@?<v@?@"NSInputStream">32;
+- (void)tapRecognized:(unsigned long long)arg1;
+- (id)subsampleImagesToScreenSize;
+- (id)setVisibleTitle: /* Error: Ran out of types for this method. */;
+- (_Bool)setTrailingAccessoryType: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)change to %@   reason:%@   error:%@ /* Error: Ran out of types for this method. */;
+- (void)r type:(id)arg1 %@;
 - (id);
 - (double);
 - (void);
 - (void)<1Â0@ù
 × ;
-- (void)nlineCardSectionForFormattedData:primaryCityFormattedData: /* Error: Ran out of types for this method. */;
-- (id)tio_Prefix;
+- (void)inlineCardSectionForFormattedData:primaryCityFormattedData: /* Error: Ran out of types for this method. */;
+- (id)kMDItemPhotosMediaTypes_QueryTermsRatio_Prefix;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *boundingBox; // @synthesize boundingBox=_boundingBox;
-@property double boundingBoxRatio; // @synthesize boundingBoxRatio=_boundingBoxRatio;
-@property double confidence; // @synthesize confidence=_confidence;
-@property _Bool exactSceneMatch; // @synthesize exactSceneMatch=_exactSceneMatch;
-@property(retain, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) SSTokenizedString *label; // @synthesize label=_label;
-@property double matchedBoundingBoxScore; // @synthesize matchedBoundingBoxScore=_matchedBoundingBoxScore;
-@property double matchedConfidenceScore; // @synthesize matchedConfidenceScore=_matchedConfidenceScore;
-@property double matchedSceneLabelRatio; // @synthesize matchedSceneLabelRatio=_matchedSceneLabelRatio;
-@property double matchedSceneSynonymsRatio; // @synthesize matchedSceneSynonymsRatio=_matchedSceneSynonymsRatio;
-@property(retain, nonatomic) SSPommesPhotosRanker *rankerReference; // @synthesize rankerReference=_rankerReference;
-@property int sceneMatchedType; // @synthesize sceneMatchedType=_sceneMatchedType;
-@property(nonatomic) __weak NSDictionary *sceneReferenceDictionary; // @synthesize sceneReferenceDictionary=_sceneReferenceDictionary;
-@property(retain, nonatomic) NSArray *synonyms; // @synthesize synonyms=_synonyms;
-@property(retain, nonatomic) NSArray *synonymsIndexes; // @synthesize synonymsIndexes=_synonymsIndexes;
-@property unsigned long long totalLabels; // @synthesize totalLabels=_totalLabels;
-@property unsigned long long totalSynonyms; // @synthesize totalSynonyms=_totalSynonyms;
 
 @end
 

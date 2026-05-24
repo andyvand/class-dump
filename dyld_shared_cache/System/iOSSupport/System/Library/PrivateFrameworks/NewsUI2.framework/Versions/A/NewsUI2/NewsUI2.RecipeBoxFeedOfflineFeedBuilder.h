@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeBoxFeedOfflineFeedBuilder
 {
     id builder;
-    id recipeFilterConfigManager;
 }
 
 @end

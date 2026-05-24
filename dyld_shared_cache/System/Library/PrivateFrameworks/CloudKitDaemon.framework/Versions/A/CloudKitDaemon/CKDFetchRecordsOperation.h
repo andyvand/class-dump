@@ -6,54 +6,20 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDDecryptRecordsOperation, NSArray, NSDictionary, NSMapTable, NSMutableArray, NSMutableDictionary, NSObject, NSSet;
-@protocol CKFetchRecordsOperationCallbacks><CKDOperationCallbackProxy, OS_dispatch_group;
+@class CKDDecryptRecordsOperation;
 
 @interface CKDFetchRecordsOperation : CKDDatabaseOperation
 {
     CKDDecryptRecordsOperation *_decryptOperation;
-    _Bool _useCachedEtags;
-    _Bool _useRecordCache;
-    _Bool _forcePCSDecrypt;
-    _Bool _skipDecryption;
-    _Bool _shouldUpdateTimestampsForFetchedMergeableValues;
-    _Bool _shouldRequestEncryptedAssetOwnerIdentifier;
-    _Bool _shouldFetchAssetContent;
-    _Bool _shouldFetchAssetContentInMemory;
-    _Bool _shouldFetchMergeableValues;
-    _Bool _shouldCloneFileInAssetCache;
-    _Bool _shouldRollSharePCSOnFetch;
-    NSArray *_fullRecordsToFetch;
-    CDUnknownBlockType _recordFetchProgressBlock;
-    CDUnknownBlockType _recordFetchCommandBlock;
-    CDUnknownBlockType _recordFetchCompletionBlock;
-    NSArray *_recordIDsToFetch;
-    NSMutableDictionary *_cachedRecords;
-    NSSet *_desiredKeySet;
-    NSDictionary *_recordIDsToETags;
-    NSDictionary *_recordIDsToVersionETags;
-    NSDictionary *_desiredPackageFileIndices;
-    NSObject<OS_dispatch_group> *_fetchRecordsGroup;
-    NSMutableDictionary *_errorsByRecordID;
-    NSMapTable *_downloadTasksByRecordID;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    NSSet *_assetFieldNamesToPublishURLs;
-    unsigned long long _requestedTTL;
-    unsigned long long _URLOptions;
-    NSMutableArray *_recordIDsToRefetch;
-    NSMutableDictionary *_keyOrErrorForHostname;
-    NSMutableDictionary *_shareRecordsToUpdateByRecordID;
-    NSMutableDictionary *_mergeableValueDownloadTasks;
-    NSDictionary *_webSharingIdentityDataByRecordID;
 }
 
-+ (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (CDUnknownBlockType);
++ (id)setRxBeaconOverRxStart:(unsigned long long)arg1;
+- (void)setRoamReasonReassocRequestedCount:(CDUnknownBlockType)arg1;
+- (void)addPersistentStorage:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)t;
+- (id)RoamOriginAPNamePortionA;
+- (void)le.xbs/TemporaryDirectory.7k1BDL/Sources/WiFiPolicy/frameworks/Sources/TrafficEngineering/WFTrafficEngManager.m;
+- (CDUnknownBlockType)orInterface:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -66,7 +32,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)recursivelyExpandIncludedPeerIDs:(id)arg1 andExcludedPeerIDs:(id)arg2 dispositions:withPeersTrustedBySponsorID:currentMachineIDs:forEpoch: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -74,55 +40,65 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ation:(CDUnknownBlockType)arg1;
+- (id)cheConfiguration:blockedSenderManager:listUnsubscribeHandler:remindMeNotificationController:accountsProvider: /* Error: Ran out of types for this method. */;
+- (void)compressDirectory:(id)arg1 shouldCancel:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)MessageChangeManager",R,N,V_messageChangeManager;
 - (_Bool);
+- (void)changes for changed items:%{public}@ deleted items:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)Convertible>"8@"<ECEmailAddressConvertible>"16;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void),;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (int);
+- (void)Ex
+NzE5MjQ0NloXDTQ3MTExNzAwMDAwMFowVjEqMCgGA1UEAwwhQmFzaWMgQXR0ZXN0
+YXRpb24gVk0gUm9vdCBDQSAtIEcxMRMwEQYDVQQKDApBcHBsZSBJbmMuMRMwEQYD
+VQQIDApDYWxpZm9ybmlhMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEh+bXFjhVZxpY
+SW1tUJhQc7Mesr7Ua/2EIJDhZnq1eUV666b7j8V1apF7zQdcVc1GHqBMRfeagBk0
+ktB5PgRQ4hFX3OAbfjSVnmuPVuHznBbS/1f/ABuTlJJjO592E9JVo0IwQDAPBgNV
+HRMBAf8EBTADAQH/MB0GA1UdDgQWBBTHKW8b5x+bDXk9PC/lPsufj3wUEzAOBgNV
+HQ8BAf8EBAMCAQYwCgYIKoZIzj0EAwMDZwAwZAIwXsNPIuolYDriFDkULrsZy81O
+yAk4v7Y4f1p86Ox2J7g4xdGIwAyLw/JNRKGoHGpVAjBk20GA6ZvKKoO+HvE9v2xu
+wiVPsqk37xSmgK+RHJDMMy+hrhJVsCsBzeYpI9Cz4sI=
+-----END CERTIFICATE-----;
+- (void)] ;
+- (int)IFICLOUDSYNC] %s (%s:%u)null ssid /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (CDUnknownBlockType);
@@ -130,66 +106,31 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)ckUntilReply: /* Error: Ran out of types for this method. */;
 - (_Bool)0@ù
 × ;
 - (void)!8DùÑÛð1Â0@ù
 × ;
 - (id);
-- (void)ecurityRequirementsAndReturnWalrusResultForAccount:(_Bool)arg1 isServiceManatee:errorPtr: /* Error: Ran out of types for this method. */;
-- (unsigned long long)astItem: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)ionBeginning;
-- (void)chPCSForItem:(unsigned long long)arg1 memoryCache:forOperation:options:fetchCreator:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (id)teWithData: /* Error: Ran out of types for this method. */;
-- (void)ngAssetStatusOperationInfo;
+- (void)validateCachedDataSecurityRequirementsAndReturnWalrusResultForAccount:(_Bool)arg1 isServiceManatee:errorPtr: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setLastItem: /* Error: Ran out of types for this method. */;
+- (_Bool)events;
+- (id)_noteOperationBeginning;
+- (void)_lockedFetchPCSForItem:(unsigned long long)arg1 memoryCache:forOperation:options:fetchCreator:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)updateWithData: /* Error: Ran out of types for this method. */;
+- (void)CKDUpdateMissingAssetStatusOperationInfo;
 - (CDUnknownBlockType)(;
 - (void)Mp/Sources/CloudKitTools/Sources/CloudKitDaemon/CKDLogicalDeviceContext.m;
-- (void);
+- (void)RefetchPCSIdentitySet;
 - (_Bool)code full token header:%@ /* Error: Ran out of types for this method. */;
 - (void)<Ê)QC;
 - (void)®ïÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long URLOptions; // @synthesize URLOptions=_URLOptions;
-@property(retain, nonatomic) NSSet *assetFieldNamesToPublishURLs; // @synthesize assetFieldNamesToPublishURLs=_assetFieldNamesToPublishURLs;
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(retain, nonatomic) NSMutableDictionary *cachedRecords; // @synthesize cachedRecords=_cachedRecords;
-@property(retain, nonatomic) id <CKFetchRecordsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSSet *desiredKeySet; // @synthesize desiredKeySet=_desiredKeySet;
-@property(retain, nonatomic) NSDictionary *desiredPackageFileIndices; // @synthesize desiredPackageFileIndices=_desiredPackageFileIndices;
-@property(retain, nonatomic) NSMapTable *downloadTasksByRecordID; // @synthesize downloadTasksByRecordID=_downloadTasksByRecordID;
-@property(retain, nonatomic) NSMutableDictionary *errorsByRecordID; // @synthesize errorsByRecordID=_errorsByRecordID;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *fetchRecordsGroup; // @synthesize fetchRecordsGroup=_fetchRecordsGroup;
-@property(nonatomic) _Bool forcePCSDecrypt; // @synthesize forcePCSDecrypt=_forcePCSDecrypt;
-@property(retain, nonatomic) NSArray *fullRecordsToFetch; // @synthesize fullRecordsToFetch=_fullRecordsToFetch;
-@property(retain, nonatomic) NSMutableDictionary *keyOrErrorForHostname; // @synthesize keyOrErrorForHostname=_keyOrErrorForHostname;
-@property(retain, nonatomic) NSMutableDictionary *mergeableValueDownloadTasks; // @synthesize mergeableValueDownloadTasks=_mergeableValueDownloadTasks;
-@property(readonly, nonatomic) CKDDecryptRecordsOperation *recordDecryptOperation;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchCommandBlock; // @synthesize recordFetchCommandBlock=_recordFetchCommandBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchCompletionBlock; // @synthesize recordFetchCompletionBlock=_recordFetchCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchProgressBlock; // @synthesize recordFetchProgressBlock=_recordFetchProgressBlock;
-@property(retain, nonatomic) NSDictionary *recordIDsToETags; // @synthesize recordIDsToETags=_recordIDsToETags;
-@property(retain, nonatomic) NSArray *recordIDsToFetch; // @synthesize recordIDsToFetch=_recordIDsToFetch;
-@property(retain, nonatomic) NSMutableArray *recordIDsToRefetch; // @synthesize recordIDsToRefetch=_recordIDsToRefetch;
-@property(retain, nonatomic) NSDictionary *recordIDsToVersionETags; // @synthesize recordIDsToVersionETags=_recordIDsToVersionETags;
-@property(nonatomic) unsigned long long requestedTTL; // @synthesize requestedTTL=_requestedTTL;
-@property(retain, nonatomic) NSMutableDictionary *shareRecordsToUpdateByRecordID; // @synthesize shareRecordsToUpdateByRecordID=_shareRecordsToUpdateByRecordID;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
-@property(nonatomic) _Bool shouldFetchMergeableValues; // @synthesize shouldFetchMergeableValues=_shouldFetchMergeableValues;
-@property(nonatomic) _Bool shouldRequestEncryptedAssetOwnerIdentifier; // @synthesize shouldRequestEncryptedAssetOwnerIdentifier=_shouldRequestEncryptedAssetOwnerIdentifier;
-@property(nonatomic) _Bool shouldRollSharePCSOnFetch; // @synthesize shouldRollSharePCSOnFetch=_shouldRollSharePCSOnFetch;
-@property(nonatomic) _Bool shouldUpdateTimestampsForFetchedMergeableValues; // @synthesize shouldUpdateTimestampsForFetchedMergeableValues=_shouldUpdateTimestampsForFetchedMergeableValues;
-@property(nonatomic) _Bool skipDecryption; // @synthesize skipDecryption=_skipDecryption;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(nonatomic) _Bool useCachedEtags; // @synthesize useCachedEtags=_useCachedEtags;
-@property(nonatomic) _Bool useRecordCache; // @synthesize useRecordCache=_useRecordCache;
-@property(retain, nonatomic) NSDictionary *webSharingIdentityDataByRecordID; // @synthesize webSharingIdentityDataByRecordID=_webSharingIdentityDataByRecordID;
 
 @end
 

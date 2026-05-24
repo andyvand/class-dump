@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
++ (id)ss option in sidebar.;
++ (long long)cordionAnimationConstraint;
++ (id)RemoveAllWebsiteDataAlert;
++ (id)ebsiteDataDescriptor>"8;
 
 @end
 

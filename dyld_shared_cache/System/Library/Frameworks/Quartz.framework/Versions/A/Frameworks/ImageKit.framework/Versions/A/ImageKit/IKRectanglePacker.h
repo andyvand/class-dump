@@ -7,7 +7,6 @@
 @interface IKRectanglePacker
 {
     void *_packerTree;
-    struct CGPoint _padding;
 }
 
 - (unsigned int);

@@ -4,65 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIHoverStyle, UIShape, _UIContextMenuCellContentView, _UIFloatingContentView;
+@class _UIContextMenuCellContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLargeFloatingPaletteCellLayout
 {
     _UIContextMenuCellContentView *_contentView;
-    NSArray *_managedConstraints;
-    _UIFloatingContentView *_floatingContentView;
-    unsigned long long _controlState;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (long long);
-- (id);
+- (void)updateStateForChat:(id)arg1 forcePost:shouldRebuildFailedMessageDate:shouldCalculateUnreadCount: /* Error: Ran out of types for this method. */;
+- (void)setStandardHandler:(id)arg1 forCommand: /* Error: Ran out of types for this method. */;
+- (void)service:(unsigned long long)arg1 account:(id)arg2 messageIdentifier:alternateCallbackID:updatedWithResponseCode:error:lastCall:messageContext: /* Error: Ran out of types for this method. */;
+- (void)service:(unsigned long long)arg1 account:messageIdentifier:alternateCallbackID:updatedWithResponseCode:error:lastCall: /* Error: Ran out of types for this method. */;
+- (void)isStartingInitialSyncSetByCloudKitHooks;
+- (id)handleMarkAsReviewedCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)handleFailureInFunction:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (id)checkAuthorizationStatusForRecipients:completion: /* Error: Ran out of types for this method. */;
+- (long long)avatarRecipeDataTag;
+- (unsigned long long)availabilityVerificationRecipientChannelIDPrefixWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (void)_shouldPublishNowPlaying;
+- (id)stedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (long long)onary",&,N,V_syncTaskByServiceName;
+- (id)y",C,N,V_messages;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)4@?0@"SWCollaborationHighlight"8@"NSError"16;
 - (id);
 - (void);
 - (void),V_splitViewController;
 - (long long);
-- (id)tate;
+- (id)CompoundSpringAnimationState;
 - (void);
 - (id)LÉÿ©Â;
 
 // Remaining properties
-@property(readonly, nonatomic) UIShape *contentShape;
 @property(nonatomic) __weak _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) unsigned long long controlState; // @synthesize controlState=_controlState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIFloatingContentView *floatingContentView; // @synthesize floatingContentView=_floatingContentView;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(readonly, nonatomic) long long labelTextAlignment;
-@property(readonly, nonatomic) long long layoutSize;
-@property(retain, nonatomic) NSArray *managedConstraints; // @synthesize managedConstraints=_managedConstraints;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 
 @end
 

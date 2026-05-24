@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, NSArray, NSString;
+@class AXFUIElement;
 
 @interface AXKApplicationContentAccessorBase
 {
     AXFUIElement *_applicationElement;
-    AXFUIElement *_window;
-    AXFUIElement *_pageElement;
-    AXFUIElement *_currentReadingElement;
-    AXFUIElement *_nextPageElement;
-    NSArray *_allVisiblePageElements;
 }
 
 - (void);
@@ -30,13 +25,13 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)T9;
+- (id)q@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)A9	;
 - (id);
 - (id);
 - (long long);
@@ -50,25 +45,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)scheduledTimerWithTimeInterval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allPageElements;
-@property(readonly, copy, nonatomic) NSArray *allVisiblePageElements; // @synthesize allVisiblePageElements=_allVisiblePageElements;
 @property(retain, nonatomic) AXFUIElement *applicationElement; // @synthesize applicationElement=_applicationElement;
-@property(retain, nonatomic) AXFUIElement *currentReadingElement; // @synthesize currentReadingElement=_currentReadingElement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AXFUIElement *nextPageElement; // @synthesize nextPageElement=_nextPageElement;
-@property(retain, nonatomic) AXFUIElement *pageElement; // @synthesize pageElement=_pageElement;
-@property(readonly, copy, nonatomic) NSArray *pagesAroundVisiblePage;
-@property(retain, nonatomic) AXFUIElement *readingElement;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AXFUIElement *window; // @synthesize window=_window;
 
 @end
 

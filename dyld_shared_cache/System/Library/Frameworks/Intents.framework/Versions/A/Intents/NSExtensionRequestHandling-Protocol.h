@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSExtensionContext;
+
 @protocol NSExtensionRequestHandling
+- (void)etchAllHealthInfo  Error=%{public,signpost.telemetry:(NSExtensionContext *)arg1 number2,name=Error}d ;
 @end
 

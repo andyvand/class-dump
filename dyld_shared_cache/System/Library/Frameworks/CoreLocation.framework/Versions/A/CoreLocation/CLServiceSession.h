@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLFullAccuracySession, CLServiceSessionInternal, NSString;
-
 @interface CLServiceSession
 {
     CDUnknownBlockType _clientCallback;
-    CLServiceSessionInternal *_serviceSessionInternal;
-    CLFullAccuracySession *_fullAccuracySession;
-    unsigned long long _serviceSessionDiagnosticMask;
-    unsigned long long _fullAccuracySessionDiagnosticMask;
-    unsigned long long _aggregatedDiagnosticMask;
-    long long _authorizationRequirement;
-    NSString *_fullAccuracyPurposeKey;
 }
 
++ (id)Y;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)>$;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)be the last element in a path, all alternate-text array elements are strings and cannot have children.
+;
 - (void);
 - (void);
 

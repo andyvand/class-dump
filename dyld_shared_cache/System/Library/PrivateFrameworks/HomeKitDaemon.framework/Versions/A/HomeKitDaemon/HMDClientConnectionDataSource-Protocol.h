@@ -7,10 +7,9 @@
 @protocol HMDCarPlayDataSource;
 
 @protocol HMDClientConnectionDataSource
+- (id <HMDCarPlayDataSource>)MSPForceLiveStrategyKey;
 
 // Remaining properties
 @property(readonly) id <HMDCarPlayDataSource> carPlayDataSource;
-@property(readonly) _Bool isDeviceLocked;
-@property(readonly) _Bool supportsDeviceLock;
 @end
 

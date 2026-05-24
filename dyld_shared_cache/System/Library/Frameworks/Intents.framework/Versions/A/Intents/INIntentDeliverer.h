@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol INIntentDeliveringDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface INIntentDeliverer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <INIntentDeliveringDelegate> _delegate;
-    CDStruct_4c969caf _auditToken;
 }
 
 + (void)X»¶ÿ­ÖP[º;
@@ -22,15 +20,15 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (CDStruct_4c969caf);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (CDStruct_6ad76789);
+- (void)y>BlockAlgorithm</key><string>None</string><key>WrapVersion</key><integer size="32">1</integer><key>KEKWrappedVolumeKeyStruct</key><data></data><key>KeyEncryptingKeyIdent</key><string>none</string></dict>;
+- (id)cHl4J8Y/Library/Caches/com.apple.xbs/TemporaryDirectory.1ZF7Lw/Sources/DiskImages/framework/plugins/DiskImages/CDiskImageCompactor.cp;
+- (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (void);
+- (void);
+- (CDUnknownBlockType)aptive known network profile unused for %d weeks;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -42,19 +40,10 @@
 - (void)GùQ¾(°1Â0@ù
 × ;
 - (void)2;
-- (void)yFile: /* Error: Ran out of types for this method. */;
+- (void)defaultDestinationTypeForCopyFile: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <INIntentDeliveringDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

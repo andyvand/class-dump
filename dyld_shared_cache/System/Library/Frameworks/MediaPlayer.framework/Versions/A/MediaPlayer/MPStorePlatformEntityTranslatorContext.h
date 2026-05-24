@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)sterNotifications;
+- (void)_superclassUnregisterNotifications;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PGSchemaPGOverridesEnded, PGSchemaPGOverridesFailed, PGSchemaPGOverridesStarted;
+@class PGSchemaPGOverridesStarted;
 
 @interface PGSchemaPGOverridesRequestContext : SISchemaInstrumentationMessage
 {
     PGSchemaPGOverridesStarted *_startedOrChanged;
-    PGSchemaPGOverridesEnded *_ended;
-    PGSchemaPGOverridesFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,7 +25,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)p;
 - (id);
 - (id);
 - (id);
@@ -40,23 +34,16 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)or chat[%lld]:(id)arg1 %d;
 - (id);
 - (id)!4DùÝÐ1Â0@ù
 × ;
-- (id)etrics;
+- (id)_hasPqaMetrics;
 - (id)N,V_hasCdmSetupLink;
-- (void)kCompleted;
+- (void)userFeedbackCompleted;
 
 // Remaining properties
-@property(retain, nonatomic) PGSchemaPGOverridesEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PGSchemaPGOverridesFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PGSchemaPGOverridesStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,36 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AWDWiFiOtaSystemInfo
 {
     unsigned long long _timestamp;
-    NSData *_beaconInfo;
-    NSString *_bssid;
-    unsigned int _channel;
-    unsigned int _channelWidth;
-    NSString *_locale;
-    NSString *_localeSource;
-    NSString *_ssid;
-    NSString *_wpsConfigMethods;
-    NSString *_wpsDeviceNameData;
-    NSString *_wpsDeviceNameElement;
-    NSString *_wpsManufacturerElement;
-    NSString *_wpsModelName;
-    NSString *_wpsModelNumber;
-    NSString *_wpsPrimaryDeviceTypeCategory;
-    NSString *_wpsPrimaryDeviceTypeSubCategory;
-    NSString *_wpsResponseType;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int channel:1;
-        unsigned int channelWidth:1;
-    } _has;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -46,9 +23,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (_Bool);
@@ -57,81 +34,48 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
+- (void)k;
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void);
 - (void);
 - (id);
 - (id);
 - (unsigned int);
 - (id);
 - (unsigned int);
-- (id);
-- (void);
+- (id)';
+- (void)Ku;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)�;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)OnDropRxmt:(id)arg1;
-- (id)LocationAwarenessHeartbeatStatistics;
+- (void)setTcpECNIntOnDropRxmt:(id)arg1;
+- (id)AWDCoreRoutineLocationAwarenessHeartbeatStatistics;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *beaconInfo; // @synthesize beaconInfo=_beaconInfo;
-@property(retain, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(nonatomic) unsigned int channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned int channelWidth; // @synthesize channelWidth=_channelWidth;
-@property(readonly, nonatomic) _Bool hasBeaconInfo;
-@property(readonly, nonatomic) _Bool hasBssid;
-@property(nonatomic) _Bool hasChannel;
-@property(nonatomic) _Bool hasChannelWidth;
-@property(readonly, nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) _Bool hasLocaleSource;
-@property(readonly, nonatomic) _Bool hasSsid;
 @property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) _Bool hasWpsConfigMethods;
-@property(readonly, nonatomic) _Bool hasWpsDeviceNameData;
-@property(readonly, nonatomic) _Bool hasWpsDeviceNameElement;
-@property(readonly, nonatomic) _Bool hasWpsManufacturerElement;
-@property(readonly, nonatomic) _Bool hasWpsModelName;
-@property(readonly, nonatomic) _Bool hasWpsModelNumber;
-@property(readonly, nonatomic) _Bool hasWpsPrimaryDeviceTypeCategory;
-@property(readonly, nonatomic) _Bool hasWpsPrimaryDeviceTypeSubCategory;
-@property(readonly, nonatomic) _Bool hasWpsResponseType;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSString *localeSource; // @synthesize localeSource=_localeSource;
-@property(retain, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSString *wpsConfigMethods; // @synthesize wpsConfigMethods=_wpsConfigMethods;
-@property(retain, nonatomic) NSString *wpsDeviceNameData; // @synthesize wpsDeviceNameData=_wpsDeviceNameData;
-@property(retain, nonatomic) NSString *wpsDeviceNameElement; // @synthesize wpsDeviceNameElement=_wpsDeviceNameElement;
-@property(retain, nonatomic) NSString *wpsManufacturerElement; // @synthesize wpsManufacturerElement=_wpsManufacturerElement;
-@property(retain, nonatomic) NSString *wpsModelName; // @synthesize wpsModelName=_wpsModelName;
-@property(retain, nonatomic) NSString *wpsModelNumber; // @synthesize wpsModelNumber=_wpsModelNumber;
-@property(retain, nonatomic) NSString *wpsPrimaryDeviceTypeCategory; // @synthesize wpsPrimaryDeviceTypeCategory=_wpsPrimaryDeviceTypeCategory;
-@property(retain, nonatomic) NSString *wpsPrimaryDeviceTypeSubCategory; // @synthesize wpsPrimaryDeviceTypeSubCategory=_wpsPrimaryDeviceTypeSubCategory;
-@property(retain, nonatomic) NSString *wpsResponseType; // @synthesize wpsResponseType=_wpsResponseType;
 
 @end
 

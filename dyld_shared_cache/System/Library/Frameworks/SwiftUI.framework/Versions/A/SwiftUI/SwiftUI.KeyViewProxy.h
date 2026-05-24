@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSString;
-
 @interface SwiftUI.KeyViewProxy
 {
     id focusBridge;
-    id focusResponder;
-    id focusElementFrames;
-    id cacheVersion;
-    id addressLabel;
-    id descriptionLabel;
-    void focusDebugDescription;
-    id layerColor;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@9	@9S83;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)b@ ae,;
 - (void);
 - (_Bool);
 - (id);
 - (void)ýÿ;
 - (_Bool);
-- (void)ementedModifier;
+- (void)IsSearchImplementedModifier;
 - (id)Ä]7+ÀþÄ]7ÉÀþÄ]7ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool acceptsFirstResponder;
-@property(nonatomic) _Bool flipped;
-@property(nonatomic, copy) NSString *focusDebugDescription;
-@property(nonatomic, retain) NSResponder *nextResponder;
-@property(nonatomic, readonly) _Bool wantsUpdateLayer;
 
 @end
 

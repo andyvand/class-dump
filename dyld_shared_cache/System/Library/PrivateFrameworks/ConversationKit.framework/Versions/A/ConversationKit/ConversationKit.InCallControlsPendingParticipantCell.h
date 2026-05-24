@@ -9,14 +9,10 @@
 @interface ConversationKit.InCallControlsPendingParticipantCell : ConversationKit.InCallControlsParticipantCell
 {
     id actionButtonsStackView;
-    id approveActionButton;
-    id rejectActionButton;
-    id delegate;
-    id callDelegate;
 }
 
-- (void);
-- (void);
+- (void){;
+- (void);
 - (id);
 - (id);
 - (void)ÛCÿÿJKýÿ;

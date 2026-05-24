@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface CSFDERecordFDEClientMetadataFDEKeyRegistryFDEEntry
 {
     NSString *_pcsService;
-    NSMutableArray *_publicKeys;
 }
 
 + (Class);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)9?q;
 - (id);
 - (_Bool);
 - (void);
@@ -25,8 +24,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)%{public}@, source client identifier = %{public}@, record = %@;
+- (_Bool)/;
 - (_Bool);
 - (void);
 - (id);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPcsService;
-@property(retain, nonatomic) NSString *pcsService; // @synthesize pcsService=_pcsService;
-@property(retain, nonatomic) NSMutableArray *publicKeys; // @synthesize publicKeys=_publicKeys;
 
 @end
 

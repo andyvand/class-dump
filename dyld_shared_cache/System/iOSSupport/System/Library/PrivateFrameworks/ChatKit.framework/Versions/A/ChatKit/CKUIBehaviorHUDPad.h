@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)icaxLocalizedNumber:maximumNumberOfDigitsAfterDecimalSeparator: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
-- (_Bool);
-- (id);
+- (_Bool)edList();;
+- (id);
 
 @end
 

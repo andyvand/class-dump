@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ABMultiValue
 {
     NSMutableArray *_identifiers;
-    NSMutableArray *_labels;
-    NSMutableArray *_values;
-    NSString *_primaryIdentifier;
 }
 
 + (id);
 + (id);
-+ (void)entWithName:stringValue: /* Error: Ran out of types for this method. */;
++ (void)elementWithName:stringValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -37,15 +34,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)AVMetricHLSMediaSegmentRequestEvent;
+- (id)getEmergencyTextNumbers:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
+- (id)REJECT=%d archive bytes (bug or attack);
+- (_Bool)5;
 - (id);
 - (id);
 - (unsigned long long);

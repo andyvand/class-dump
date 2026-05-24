@@ -4,78 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOMapItemStorageUserValues
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_name;
-    NSString *_phoneNumber;
-    NSData *_timeZoneData;
-    NSString *_timeZoneName;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_name:1;
-        unsigned int read_phoneNumber:1;
-        unsigned int read_timeZoneData:1;
-        unsigned int read_timeZoneName:1;
-        unsigned int read_url:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HasSwitchedApp:(id)arg1;
++ (_Bool)setHasSwitchedApp:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)isAccessDenied;
+- (_Bool)canWriteToAccountWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (id);
-- (id);
 - (_Bool);
+- (void)ldRoots/4~CNqkugBhcZYxCpFyKBY9cTeFR0o3wl3GtaQxQk0/Library/Caches/com.apple.xbs/TemporaryDirectory.duXmje/Sources/Admin/DSRecord.m;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)edASRFeatureLatencyMsForClientLag:%{public}f, _useDefaultASRFeaturesOnClientLag:%{public}d, _extraDelayFrequency:%{public}lu, _taskThresholdMap:%{public}@, _enhancedEndpointerTaskThresholdMap:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)nBuiltInEngine audioEngineBufferAvailable:(id)arg1 audioStreamHandleId:buffer:remoteVAD:atTime:isFileLoadedBuffer:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)imeSeconds;
-- (id)dSessionID: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)usualTraversalTimeSeconds;
+- (id)isValidMapsURLForAppendingSharedSessionID: /* Error: Ran out of types for this method. */;
 - (id)_traits;
 - (id)¼¦­:< /* Error: Ran out of types for this method. */;
-- (id);
+- (id)SIMILAR_LOCATIONS;
 - (id);
 - (void)¤;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasPhoneNumber;
-@property(readonly, nonatomic) _Bool hasTimeZoneData;
-@property(readonly, nonatomic) _Bool hasTimeZoneName;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *phoneNumber;
-@property(retain, nonatomic) NSData *timeZoneData;
-@property(retain, nonatomic) NSString *timeZoneName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

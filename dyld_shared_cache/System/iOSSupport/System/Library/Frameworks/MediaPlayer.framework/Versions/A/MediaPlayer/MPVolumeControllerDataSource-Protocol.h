@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MPVolumeControllerDataSourceDelegate;
 
 @protocol MPVolumeControllerDataSource
+- (void)timeRange;
+- (unsigned int)vj48;
+- (void);
+- (_Bool)nform your subclass to AsyncCacheComputer.;
+- (_Bool)nces.;
 - (_Bool)0:8@16q24 /* Error: Ran out of types for this method. */;
 - (void)or was missing mapping for MPModelRelationshipTVEpisodeStoreAsset;
 
+@optional
+- (id <MPVolumeControllerDataSourceDelegate>);
+
 // Remaining properties
-@property(readonly, nonatomic) float EUVolumeLimit;
-@property(readonly, nonatomic) _Bool applicationShouldOverrideHardwareVolumeBehavior;
 @property(nonatomic) __weak id <MPVolumeControllerDataSourceDelegate> delegate;
-@property(nonatomic, getter=isMuted) _Bool muted;
-@property(nonatomic) float volume;
-@property(readonly, copy, nonatomic) NSString *volumeAudioCategory;
-@property(readonly, nonatomic, getter=isVolumeControlAvailable) _Bool volumeControlAvailable;
-@property(readonly, nonatomic) unsigned int volumeControlCapabilities;
-@property(readonly, copy, nonatomic) NSString *volumeControlLabel;
-@property(readonly, nonatomic) _Bool volumeWarningEnabled;
-@property(readonly, nonatomic) long long volumeWarningState;
 @end
 

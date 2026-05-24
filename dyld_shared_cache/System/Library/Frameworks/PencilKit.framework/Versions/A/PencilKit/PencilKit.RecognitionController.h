@@ -7,7 +7,6 @@
 @interface PencilKit.RecognitionController
 {
     id $defaultActor;
-    id strokeProvider;
 }
 
 @end

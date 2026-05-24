@@ -8,14 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _ICLLAvailability
 {
     CDStruct_95bda58d _repeatModes;
-    CDStruct_95bda58d _shuffleModes;
-    _Bool _autoPlay;
-    struct {
-        unsigned int autoPlay:1;
-    } _has;
 }
 
-- (void);
+- (void)a@9;
 - (id);
 - (void);
 - (unsigned long long);

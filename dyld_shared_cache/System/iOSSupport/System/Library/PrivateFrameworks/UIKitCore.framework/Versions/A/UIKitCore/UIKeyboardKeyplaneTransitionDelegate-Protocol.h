@@ -5,7 +5,7 @@
 //
 
 @protocol UIKeyboardKeyplaneTransitionDelegate
-- (void)g_;
+- (void)So6UIViewCSo17UITraitCollectionCIeggg_;
 - (void);
 @end
 

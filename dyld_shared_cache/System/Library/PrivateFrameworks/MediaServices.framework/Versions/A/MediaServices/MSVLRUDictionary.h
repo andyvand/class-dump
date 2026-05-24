@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVLRUDictionaryNode, NSMutableDictionary;
+@class NSMutableDictionary;
 @protocol MSVLRUDictionaryDelegate;
 
 @interface MSVLRUDictionary
 {
     id <MSVLRUDictionaryDelegate> _delegate;
-    long long _maximumCapacity;
-    NSMutableDictionary *_dictionary;
-    MSVLRUDictionaryNode *_head;
-    MSVLRUDictionaryNode *_tail;
-    long long _transactionCount;
 }
 
+- (void)tK;
 - (void);
-- (void);
+- (id)iK;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)E9k;
+- (void)!)an*(b		`;
 - (id);
 - (unsigned long long);
 - (id);
@@ -42,28 +37,22 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void)`B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)WSAAsyncGetServByName;
 - (void);
 - (long long);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
-@property(nonatomic) __weak id <MSVLRUDictionaryDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSMutableDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(retain, nonatomic) MSVLRUDictionaryNode *head; // @synthesize head=_head;
-@property(nonatomic) long long maximumCapacity; // @synthesize maximumCapacity=_maximumCapacity;
-@property(retain, nonatomic) MSVLRUDictionaryNode *tail; // @synthesize tail=_tail;
-@property(nonatomic) long long transactionCount; // @synthesize transactionCount=_transactionCount;
 
 @end
 

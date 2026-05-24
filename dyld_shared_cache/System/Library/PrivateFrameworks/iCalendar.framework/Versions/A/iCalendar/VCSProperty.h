@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, VCSPropertyValue;
+@class NSString;
 
 @interface VCSProperty
 {
     NSString *_name;
-    NSMutableArray *_values;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)^;
+- (id)88;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) VCSPropertyValue *singleValue;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

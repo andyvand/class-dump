@@ -7,6 +7,7 @@
 @protocol _UIWindowHostingSceneComponentProviding
 
 @optional
+- (void)CFData wrapping body buffer;
 - (void)0@ù
 × ;
 @end

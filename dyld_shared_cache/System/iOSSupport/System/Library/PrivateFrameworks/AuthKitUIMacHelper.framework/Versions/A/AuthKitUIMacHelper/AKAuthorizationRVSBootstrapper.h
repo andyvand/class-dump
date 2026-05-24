@@ -20,5 +20,8 @@
 - (id);
 - (void);
 
+// Remaining properties
+@property(retain, nonatomic) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
+
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CXCallDirectoryIdentificationEntry
 {
     _Bool _fromCache;
-    NSString *_extensionIdentifier;
-    NSString *_localizedExtensionName;
-    NSString *_localizedExtensionContainingAppName;
-    NSString *_localizedLabel;
-    NSURL *_iconURL;
-    long long _type;
 }
 
 + (_Bool);
@@ -23,28 +17,22 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ume_uuids is not NULL;
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)ITLibMediaItemPropertyVideoSeries;
 - (void);
 - (id);
-- (void);
+- (void)%@:(long long)arg1 %p; item position = %lu; time interval since last visit = %@; score = %@>;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(nonatomic) _Bool fromCache; // @synthesize fromCache=_fromCache;
-@property(copy, nonatomic) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property(copy, nonatomic) NSString *localizedExtensionContainingAppName; // @synthesize localizedExtensionContainingAppName=_localizedExtensionContainingAppName;
-@property(copy, nonatomic) NSString *localizedExtensionName; // @synthesize localizedExtensionName=_localizedExtensionName;
-@property(copy, nonatomic) NSString *localizedLabel; // @synthesize localizedLabel=_localizedLabel;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

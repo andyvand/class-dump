@@ -11,7 +11,7 @@
     PREXPCClientHelpers *_clientHelpers;
 }
 
-+ (id);
++ (id)(;
 - (void);
 - (void);
 - (void);

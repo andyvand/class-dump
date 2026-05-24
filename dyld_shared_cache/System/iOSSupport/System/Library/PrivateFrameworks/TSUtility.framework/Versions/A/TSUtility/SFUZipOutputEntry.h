@@ -9,21 +9,10 @@
 @interface SFUZipOutputEntry
 {
     NSString *name;
-    unsigned long long utf8NameLength;
-    _Bool isCompressed;
-    _Bool isEncrypted;
-    unsigned int time;
-    unsigned long long compressedSize;
-    unsigned long long uncompressedSize;
-    unsigned long long offset;
-    unsigned long long compressedDataOffset;
-    unsigned int crc;
-    _Bool isWrittenDirectlyToFile;
-    _Bool is64Bit;
 }
 
 - (long long);
-- (void);
+- (void);
 - (id);
 
 @end

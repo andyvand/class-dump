@@ -4,49 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class UIImage;
 
 @interface CKBalloonImageView
 {
     _Bool _imageHidden;
-    _Bool _contentsTransformAnimationEnabled;
-    UIImage *_image;
-    long long _currentFrameIndex;
-    UIImage *_invisibleInkEffectImage;
-    NSString *_stickerAccessibilityDescription;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)gn_;
+- (_Bool)D and Face ID. No one can access your locked notes without your device passcode or password—not even Apple.
+
+Do you still want to know more about how your information is secured? ;
+- (id)nts specified.;
+- (_Bool)tchHighlighted:optionalAttributedHighlightedString:textCheckingResult:usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (struct CGSize);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void)ntactCardForEntity:(struct CGRect)arg1 fromView: /* Error: Ran out of types for this method. */;
+- (void)showContactCardForEntity:(struct CGRect)arg1 fromView: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void)rapperView;
+- (void)TextBalloonWrapperView;
 - (struct UIEdgeInsets).;
 
 // Remaining properties
-@property(nonatomic, getter=isContentsTransformAnimationEnabled) _Bool contentsTransformAnimationEnabled; // @synthesize contentsTransformAnimationEnabled=_contentsTransformAnimationEnabled;
-@property(nonatomic) long long currentFrameIndex; // @synthesize currentFrameIndex=_currentFrameIndex;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool imageHidden; // @synthesize imageHidden=_imageHidden;
-@property(retain, nonatomic) UIImage *invisibleInkEffectImage; // @synthesize invisibleInkEffectImage=_invisibleInkEffectImage;
-@property(retain, nonatomic) NSString *stickerAccessibilityDescription; // @synthesize stickerAccessibilityDescription=_stickerAccessibilityDescription;
 
 @end
 

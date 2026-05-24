@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.REMSentence2VecTitleEmbedding
 {
     id lang;
-    id revision;
-    id embedding;
 }
 
 @end

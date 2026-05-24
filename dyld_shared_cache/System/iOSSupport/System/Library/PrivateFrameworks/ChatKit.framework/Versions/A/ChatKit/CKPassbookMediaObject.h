@@ -13,17 +13,17 @@
     PKPass *_pass;
 }
 
-+ (id);
++ (id)/;
 + (id);
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (Class);
+- (_Bool)folderSystemImageName;
+- (_Bool)ensureLegacyFolderIsValid: /* Error: Ran out of types for this method. */;
+- (Class)htmlNoteContext;
+- (id)ICCheckmarkAuthorHighlightValueAttribute;
+- (Class)ICDrawingConversionOperation;
 - (id);
-- (Class);
 - (id);
-- (id);
-- (id);
+- (id)to note %@;
 - (_Bool);
 - (void);
 - (id);
@@ -34,7 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKPass *pass; // @synthesize pass=_pass;
-@property(readonly, nonatomic, getter=isSupported) _Bool supported;
 
 @end
 

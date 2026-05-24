@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SDRDiagnosticReporter;
-@protocol OS_dispatch_queue;
+@class SDRDiagnosticReporter;
 
 @interface PFAutoBugCaptureBugReporter
 {
     SDRDiagnosticReporter *_reporter;
-    NSObject<OS_dispatch_queue> *_reportQueue;
 }
 
 + (id)G;
@@ -25,7 +23,7 @@
 - (id);
 - (void);
 - (id);
-- (void)ess_Sb7waitingt;
+- (void)Sd8progress_Sb7waitingt;
 
 @end
 

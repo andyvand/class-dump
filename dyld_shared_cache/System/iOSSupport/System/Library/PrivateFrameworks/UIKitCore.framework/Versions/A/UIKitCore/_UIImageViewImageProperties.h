@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)achabilityRequest"24@"NSData"32@"NSString"40@"NSString"48@"NSString"56;
+- (void)@;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)UIPresentationController;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

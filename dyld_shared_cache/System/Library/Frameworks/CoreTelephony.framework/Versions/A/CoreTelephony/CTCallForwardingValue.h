@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface CTCallForwardingValue
 {
     _Bool _enabled;
-    int _reason;
-    int _clss;
-    NSString *_saveNumber;
-    NSNumber *_noReplyTime;
 }
 
-+ (_Bool);
++ (_Bool)inconsistency.;
+- (void)T*;
+- (void)yٗ;
+- (id)t�?;
+- (id);
+- (int);
 - (void);
 - (void);
+- (int);
 - (id);
 - (id);
-- (int);
-- (void);
-- (void);
-- (int);
-- (id);
-- (id);
-- (void);
+- (void)@ cid:(id)arg1 %u returned %{public}@;
 - (void);
 - (id);
 - (_Bool);
@@ -34,11 +28,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) int clss; // @synthesize clss=_clss;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSNumber *noReplyTime; // @synthesize noReplyTime=_noReplyTime;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSString *saveNumber; // @synthesize saveNumber=_saveNumber;
 
 @end
 

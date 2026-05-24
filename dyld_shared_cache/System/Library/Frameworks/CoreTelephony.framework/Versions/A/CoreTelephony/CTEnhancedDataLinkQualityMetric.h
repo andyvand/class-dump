@@ -6,27 +6,23 @@
 
 #import <CoreTelephony/CTEnhancedLinkQualityMetric.h>
 
-@class NSString;
-
 @interface CTEnhancedDataLinkQualityMetric : CTEnhancedLinkQualityMetric
 {
     long long _metricType;
 }
 
-+ (_Bool);
++ (_Bool)il;
 - (void);
 - (id);
 - (id);
-- (void);
-- (long long);
-- (id);
+- (void);
+- (long long)16Q32;
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
-@property(readonly, nonatomic) NSString *ct_shortName;
 @property(nonatomic) long long metricType; // @synthesize metricType=_metricType;
 
 @end

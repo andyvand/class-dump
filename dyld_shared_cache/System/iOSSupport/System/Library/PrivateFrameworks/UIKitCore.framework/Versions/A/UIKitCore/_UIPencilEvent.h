@@ -6,53 +6,43 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSArray, NSCountedSet, NSHashTable, NSMapTable, NSSet, NSString, _UIGenericGestureHIDEventDescriptor;
-@protocol BSInvalidatable;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface _UIPencilEvent : UIEvent
 {
     unsigned long long _senderID;
-    long long _subtype;
-    id <BSInvalidatable> _stateCaptureToken;
-    unsigned long long _phase;
-    double _normalizedForceVelocity;
-    NSHashTable *_registeredInteractions;
-    NSCountedSet *_countedWindowPointerWithInteractionsWantingFocus;
-    NSMapTable *_deliveryRecordsByDescriptor;
-    _UIGenericGestureHIDEventDescriptor *_continuousEventDescriptorForDispatch;
-    NSArray *_interactionsForDispatch;
 }
 
 - (_Bool);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
 - (double);
 - (id);
+- (_Bool)syncController:syncBatchCompleted: /* Error: Ran out of types for this method. */;
+- (id)setHideAttachment: /* Error: Ran out of types for this method. */;
+- (id)protobufForUpdateT1: /* Error: Ran out of types for this method. */;
+- (id)localeWithLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)lastTranslatableMessageGUIDWithLanguageCode: /* Error: Ran out of types for this method. */;
+- (void)_deleteAttachmentsWithRecordIDs:(id)arg1 completion:(id)arg2;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)s12IMDaemonCore30ClientConnectionRouteProvidingP;
+- (id);
+- (void)d not have an IMDCKSyncController when trying report _PCSTestBackupStateDidChange;
+- (id)checking device conditions for initial sync at current batchCount %@;
+- (void)und for guid %@ (it may have been deleted);
+- (void)thread ID %@;
+- (void)been deleted);
+- (void)not a balloon plugin;
 - (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (id)mmcs_http_class_nsurlsession;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)loadArtworkInfoForSubscriptionItemPersistentID:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id)Ð!pFùqZÐ1Â0@ù
 × ;
 - (id)
@@ -60,29 +50,14 @@ __attribute__((visibility("hidden")))
 - (long long)bð1Â0@ù
 × ;
 - (id);
-- (id)eredLanguagesPredicate;
+- (id)_filteredLanguagesPredicate;
 - (id)ndle the rest.;
 - (long long)n only be called from keyboard process;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _UIGenericGestureHIDEventDescriptor *continuousEventDescriptorForDispatch; // @synthesize continuousEventDescriptorForDispatch=_continuousEventDescriptorForDispatch;
-@property(readonly, nonatomic) NSCountedSet *countedWindowPointerWithInteractionsWantingFocus; // @synthesize countedWindowPointerWithInteractionsWantingFocus=_countedWindowPointerWithInteractionsWantingFocus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSMapTable *deliveryRecordsByDescriptor; // @synthesize deliveryRecordsByDescriptor=_deliveryRecordsByDescriptor;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSSet *fallbackInteractions;
-@property(readonly, nonatomic) _Bool hasRegisteredInteractionsWantingFocus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *interactionsForDispatch; // @synthesize interactionsForDispatch=_interactionsForDispatch;
-@property(readonly, nonatomic) double normalizedForceVelocity; // @synthesize normalizedForceVelocity=_normalizedForceVelocity;
-@property(readonly, nonatomic) unsigned long long phase; // @synthesize phase=_phase;
 @property(readonly, nonatomic) NSHashTable *registeredInteractions; // @synthesize registeredInteractions=_registeredInteractions;
-@property(readonly) Class superclass;
 
 @end
 

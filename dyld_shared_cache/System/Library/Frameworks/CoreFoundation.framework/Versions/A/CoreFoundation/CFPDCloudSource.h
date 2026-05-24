@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CFPDCloudSource : CFPDContainerSource
 {
     SYDRemotePreferencesSource *cloudSource;
-    struct __CFString *_configurationPath;
 }
 
 - (int);

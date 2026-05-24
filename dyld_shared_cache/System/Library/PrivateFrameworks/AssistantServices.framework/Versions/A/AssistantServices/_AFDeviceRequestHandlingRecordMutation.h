@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDeviceRequestHandlingRecord, NSString;
+@class AFDeviceRequestHandlingRecord;
 
 @interface _AFDeviceRequestHandlingRecordMutation
 {
     AFDeviceRequestHandlingRecord *_base;
-    NSString *_requestID;
-    unsigned long long _deviceRoles;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasRequestID:1;
-        unsigned int hasDeviceRoles:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -23,17 +16,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)PCWrapper:(id)arg1;
-- (void)odeOverrides;
+- (id)speechRecordingWillBeginWithInputAudioPowerXPCWrapper:(id)arg1;
+- (void)_languageCodeOverrides;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

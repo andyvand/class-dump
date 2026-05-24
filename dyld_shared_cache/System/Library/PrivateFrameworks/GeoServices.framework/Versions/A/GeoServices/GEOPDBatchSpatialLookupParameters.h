@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBatchSpatialLookupParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_spatialEventLookups;
-    NSMutableArray *_spatialPlaceLookups;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_spatialEventLookups:1;
-        unsigned int read_spatialPlaceLookups:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)`W;
+- (id)&,N,V_voiceTriggerJarvisAPEnabledPolicy;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)l";
-- (id)egacy;
+- (id)_batchReverseGeocoderURLLegacy;
 - (id)hºVàÎ³$¼VôÎ³l¾VÏ³(ÀVÏ³DÃV0Ï³ðÅVDÏ³ ÊVXÏ³`ÌVlÏ³ÐVÏ³ÌÑVÏ³ÓV¨Ï³pÕV¼Ï³,×VÐÏ³ìØVäÏ³ÚVøÏ³8àVÐ³ W Ð³x#W4Ð³9WLÐ³?W`Ð³XCWxÐ³,FWÐ³àQW¨Ð³SW¼Ð³ÈUWÐÐ³¨rWäÐ³¬W¤Ñ³¼W¸Ñ³WÌÑ³dWàÑ³8WôÑ³WÒ³àWÒ³´W0Ò³WDÒ³;
 - (void)ý;
 

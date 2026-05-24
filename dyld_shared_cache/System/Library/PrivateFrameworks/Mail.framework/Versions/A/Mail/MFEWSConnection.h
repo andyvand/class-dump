@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSExchangeServiceBinding, MFEWSAccount;
+@class EWSExchangeServiceBinding;
 
 @interface MFEWSConnection
 {
@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool) ;
 - (void);
 - (void);
 - (id);
@@ -25,16 +25,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)isAutomaticTextReplacementEnabled;
 - (void);
-- (_Bool);
+- (_Bool)isGroupedInCategory:(_Bool)arg1;
 - (void);
 - (void)ähll$wpwØw;
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak MFEWSAccount *account;
 @property(retain) EWSExchangeServiceBinding *binding; // @synthesize binding=_binding;
 
 @end

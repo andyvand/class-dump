@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSHTTPURLResponse;
+@class NSDictionary;
 
 @interface SOAuthorizationResultCore
 {
     NSDictionary *_httpAuthorizationHeaders;
-    NSHTTPURLResponse *_httpResponse;
-    NSData *_httpBody;
-    NSArray *_privateKeys;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)y1;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)er %d at %llu invalid checksum;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *httpAuthorizationHeaders; // @synthesize httpAuthorizationHeaders=_httpAuthorizationHeaders;
-@property(retain, nonatomic) NSData *httpBody; // @synthesize httpBody=_httpBody;
-@property(copy, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
-@property(retain, nonatomic) NSArray *privateKeys; // @synthesize privateKeys=_privateKeys;
 
 @end
 

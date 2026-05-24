@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)!;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *recoveryOptions;

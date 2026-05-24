@@ -9,19 +9,17 @@
 @interface MUIMailboxFilterController
 {
     MUIMailboxFilterViewModel *_viewModel;
-    MUIMailboxFilterPersistedStore *_store;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)ze:preferredEdge: /* Error: Ran out of types for this method. */;
+- (id)h;
+- (void)presentBubbleForItem:parentWindow:itemFrame:maximumSize:preferredEdge: /* Error: Ran out of types for this method. */;
 - (id)ion(){var e=document.createElement("div");return e.appendChild(document.createElement("br")),e};;
 
 // Remaining properties
 @property(readonly, nonatomic) MUIMailboxFilterPersistedStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) MUIMailboxFilterViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

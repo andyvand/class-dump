@@ -9,8 +9,6 @@
 @interface SCRCPhotoEvaluatorResults
 {
     SCRCPhotoEvaluatorResult *_blurResult;
-    SCRCPhotoEvaluatorResult *_colorResult;
-    SCRCPhotoEvaluatorResult *_luminanceResult;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SCRCPhotoEvaluatorResult *blurResult; // @synthesize blurResult=_blurResult;
-@property(readonly, nonatomic) SCRCPhotoEvaluatorResult *colorResult; // @synthesize colorResult=_colorResult;
-@property(readonly, nonatomic) SCRCPhotoEvaluatorResult *luminanceResult; // @synthesize luminanceResult=_luminanceResult;
 
 @end
 

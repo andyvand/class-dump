@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface UIWebPDFSearchResult
 {
     NSArray *rotationAngles;
-    unsigned long long pageIndex;
-    NSArray *strings;
-    NSString *string;
-    NSArray *rects;
-    struct CGRect boundingBox;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)lastPublisherOfOffGridStatusWithBlastDoorMessage:(id)arg1;
+- (void)initWithGUID:(id)arg1 flag:lane:reason:userInfo:retryCount: /* Error: Ran out of types for this method. */;
+- (id)_isFetchingExitForEnablement;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)et cred;
 - (void);
 - (id);
 - (struct CGRect);
-- (void)ystickRepeatDurationForTimeInMovementZone:(id)arg1;
+- (void)_joystickRepeatDurationForTimeInMovementZone:(id)arg1;
 - (id)Å,ÆðÆ;
 
 // Remaining properties
-@property(nonatomic) struct CGRect boundingBox; // @synthesize boundingBox;
 @property(nonatomic) unsigned long long pageIndex; // @synthesize pageIndex;
-@property(retain, nonatomic) NSArray *rects; // @synthesize rects;
-@property(retain, nonatomic) NSArray *rotationAngles; // @synthesize rotationAngles;
-@property(retain, nonatomic) NSString *string; // @synthesize string;
-@property(retain, nonatomic) NSArray *strings; // @synthesize strings;
 
 @end
 

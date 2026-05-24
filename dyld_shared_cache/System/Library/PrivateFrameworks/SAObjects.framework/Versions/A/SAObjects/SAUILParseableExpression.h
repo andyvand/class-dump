@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString;
-
 @interface SAUILParseableExpression : SADomainObject
 {
 }
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SADomainObject *context;
-@property(copy, nonatomic) NSString *expressionString;
 
 @end
 

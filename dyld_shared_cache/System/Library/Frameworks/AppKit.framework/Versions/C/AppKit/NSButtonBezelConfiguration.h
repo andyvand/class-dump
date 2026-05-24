@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSColor;
+@class NSAppearance;
 
 __attribute__((visibility("hidden")))
 @interface NSButtonBezelConfiguration
 {
     _Bool _showsBorderOnlyOnRollover;
-    _Bool _usesTextAppearanceInToolbar;
-    _Bool _prefersDefaultButtonAppearance;
-    _Bool _showsDisclosureChevron;
-    _Bool _backgroundChangesWithState;
-    _Bool _shouldDrawBezel;
-    _Bool _hasExplicitMaterial;
-    _Bool _isCheckboxOrRadio;
-    _Bool _hasAlternateContent;
-    _Bool _prefersAlternateContent;
-    _Bool _prefersDestructiveAppearance;
-    _Bool _needsLegacyFocusDrawing;
-    _Bool _showsFocus;
-    _Bool _isTransparent;
-    long long _interactionState;
-    long long _presentationState;
-    long long _buttonStyle;
-    long long _borderShape;
-    long long _tintProminence;
-    long long _layoutDirection;
-    long long _state;
-    unsigned long long _controlSize;
-    double _backingScaleFactor;
-    long long _semanticContext;
-    NSAppearance *_appearance;
-    NSColor *_bezelTintColor;
-    long long _focusLocation;
 }
 
 - (_Bool);
@@ -62,32 +36,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)callStackReturnAddresses;
+- (_Bool)cachePolicy;
+- (_Bool)bundleIdentifier;
+- (_Bool)_assetDownloadDirectory;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
+- (_Bool)cookie since it's expired. Ignoring cookie and deleting from store if exists. Cookie = %@;
+- (_Bool)usivelyFromMainDocumentDomain and the inURL and mainDocumentURL are in different domains;
+- (long long)not create the CFURLResponse for this header;
+- (_Bool)r session %@ with identifier %@;
 - (long long);
 - (long long);
 - (id);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)@;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (unsigned long long);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
@@ -102,37 +76,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(nonatomic) _Bool backgroundChangesWithState; // @synthesize backgroundChangesWithState=_backgroundChangesWithState;
-@property(nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;
-@property(retain, nonatomic) NSColor *bezelTintColor; // @synthesize bezelTintColor=_bezelTintColor;
-@property(nonatomic) long long borderShape; // @synthesize borderShape=_borderShape;
-@property(nonatomic) long long buttonStyle; // @synthesize buttonStyle=_buttonStyle;
-@property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property(readonly) _Bool drawWithLegacyFocus;
-@property(nonatomic) long long focusLocation; // @synthesize focusLocation=_focusLocation;
-@property(nonatomic) _Bool hasAlternateContent; // @synthesize hasAlternateContent=_hasAlternateContent;
-@property(nonatomic) _Bool hasExplicitMaterial; // @synthesize hasExplicitMaterial=_hasExplicitMaterial;
-@property(readonly) _Bool inToolbar;
-@property(readonly) _Bool inTouchBar;
-@property(nonatomic) long long interactionState; // @synthesize interactionState=_interactionState;
-@property(readonly) _Bool isBordered;
-@property(nonatomic) _Bool isCheckboxOrRadio; // @synthesize isCheckboxOrRadio=_isCheckboxOrRadio;
-@property(nonatomic) _Bool isTransparent; // @synthesize isTransparent=_isTransparent;
-@property(nonatomic) long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(nonatomic) _Bool needsLegacyFocusDrawing; // @synthesize needsLegacyFocusDrawing=_needsLegacyFocusDrawing;
-@property(nonatomic) _Bool prefersAlternateContent; // @synthesize prefersAlternateContent=_prefersAlternateContent;
-@property(nonatomic) _Bool prefersDefaultButtonAppearance; // @synthesize prefersDefaultButtonAppearance=_prefersDefaultButtonAppearance;
-@property(nonatomic) _Bool prefersDestructiveAppearance; // @synthesize prefersDestructiveAppearance=_prefersDestructiveAppearance;
-@property(nonatomic) long long presentationState; // @synthesize presentationState=_presentationState;
-@property(nonatomic) long long semanticContext; // @synthesize semanticContext=_semanticContext;
-@property(readonly) _Bool shouldDrawAsDefaultButton;
-@property(nonatomic) _Bool shouldDrawBezel; // @synthesize shouldDrawBezel=_shouldDrawBezel;
-@property(nonatomic) _Bool showsBorderOnlyOnRollover; // @synthesize showsBorderOnlyOnRollover=_showsBorderOnlyOnRollover;
-@property(nonatomic) _Bool showsDisclosureChevron; // @synthesize showsDisclosureChevron=_showsDisclosureChevron;
-@property(nonatomic) _Bool showsFocus; // @synthesize showsFocus=_showsFocus;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) long long tintProminence; // @synthesize tintProminence=_tintProminence;
-@property(nonatomic) _Bool usesTextAppearanceInToolbar; // @synthesize usesTextAppearanceInToolbar=_usesTextAppearanceInToolbar;
 
 @end
 

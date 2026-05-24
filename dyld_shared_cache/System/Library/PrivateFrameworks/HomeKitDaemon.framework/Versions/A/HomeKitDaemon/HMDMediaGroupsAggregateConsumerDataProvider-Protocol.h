@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMMediaDestination, HMMediaDestinationControllerData, HMMediaGroup, NSArray;
+
 @protocol HMDMediaGroupsAggregateConsumerDataProvider
+- (HMMediaGroup *)intermediateArrivalWaypointPostedNotifications;
+- (HMMediaDestination *),V_locationDisplayString;
+- (HMMediaDestination *)&,N,V_language;
+- (HMMediaDestinationControllerData *)rray",&,N,V_smsStrategyIdentifiers;
+- (HMMediaDestinationControllerData *)erNames;
+- (NSArray *)e body when stopping at an intermediate waypoint;
 @end
 

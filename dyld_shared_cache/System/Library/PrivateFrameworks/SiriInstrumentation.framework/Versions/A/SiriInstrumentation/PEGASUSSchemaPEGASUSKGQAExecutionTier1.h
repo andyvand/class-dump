@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface PEGASUSSchemaPEGASUSKGQAExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_primaryEntities;
-    NSArray *_secondaryEntities;
-    NSString *_answerId;
-    NSArray *_claims;
-    _Bool _hasAnswerId;
 }
 
 - (void);
@@ -47,22 +43,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)R1;
+- (_Bool)entifier and service.;
 - (id);
 - (id)
 × ;
-- (id)oPacketArrivalContext;
+- (id)_hasAudioPacketArrivalContext;
 - (id)dentifier;
 - (void)ores.loggableSharedUserId;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *answerId; // @synthesize answerId=_answerId;
-@property(copy, nonatomic) NSArray *claims; // @synthesize claims=_claims;
-@property(nonatomic) _Bool hasAnswerId; // @synthesize hasAnswerId=_hasAnswerId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *primaryEntities; // @synthesize primaryEntities=_primaryEntities;
-@property(copy, nonatomic) NSArray *secondaryEntities; // @synthesize secondaryEntities=_secondaryEntities;
 
 @end
 

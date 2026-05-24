@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction;
+@class UIDragInteraction, UITargetedDragPreview;
 @protocol UIDragSession;
 
 @protocol UIDragInteractionDelegate
 
 @optional
-- (_Bool)ollectionView:(UIDragInteraction *)arg1 contextMenuConfiguration:(id <UIDragSession>)arg2 dismissalPreviewForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)5;
+- (UITargetedDragPreview *)J	;
+- (_Bool);
+- (_Bool)collectionView:(UIDragInteraction *)arg1 contextMenuConfiguration:(id <UIDragSession>)arg2 dismissalPreviewForItemAtIndexPath: /* Error: Ran out of types for this method. */;
 @end
 

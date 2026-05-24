@@ -7,18 +7,14 @@
 @interface TPHashBuilder
 {
     _Bool _keyed;
-    long long _algo;
-    struct CC_SHA256state_st _ctxSHA256;
-    struct CC_SHA512state_st _ctxSHA512;
-    CDStruct_43cfb2c2 _ctxHMAC;
 }
 
 + (id);
-+ (id);
++ (id)AIRPLAY_SIGNPOST_AUDIOENGINE_RATE_TO_1_REQUEST;
 + (long long);
 + (id);
 - (void);
-- (CDStruct_43cfb2c2);
+- (CDStruct_39d5974f)t;
 - (void);
 - (id);
 - (id);
@@ -28,21 +24,17 @@
 - (void);
 - (struct CC_SHA512state_st);
 - (void);
-- (void);
+- (void)ivationCompletionCallback, void *);
 - (id);
 - (struct CC_SHA256state_st);
 - (void);
 - (_Bool);
 - (long long);
-- (void);
-- (void);
+- (void)\;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long algo; // @synthesize algo=_algo;
-@property(nonatomic) CDStruct_43cfb2c2 ctxHMAC; // @synthesize ctxHMAC=_ctxHMAC;
-@property(nonatomic) struct CC_SHA256state_st ctxSHA256; // @synthesize ctxSHA256=_ctxSHA256;
-@property(nonatomic) struct CC_SHA512state_st ctxSHA512; // @synthesize ctxSHA512=_ctxSHA512;
-@property(nonatomic) _Bool keyed; // @synthesize keyed=_keyed;
 
 @end
 

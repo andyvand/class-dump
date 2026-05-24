@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)"8@"NSError"16;
 
 @end
 

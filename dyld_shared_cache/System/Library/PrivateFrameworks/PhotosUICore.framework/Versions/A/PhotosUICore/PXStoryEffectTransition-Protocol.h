@@ -9,7 +9,6 @@
 @protocol PXStoryEffectTransition
 
 // Remaining properties
-@property(readonly, nonatomic) PXGEffect *auxiliaryEffect;
 @property(readonly, nonatomic) PXGEffect *effect;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont, NSString;
+@class NSString;
 
 @interface AVMediaTimelineControlLabelsConfiguration
 {
     NSString *_textCompositingFilter;
-    NSColor *_textColor;
-    NSFont *_textFont;
-    double _extendedDynamicRangeGain;
-    unsigned long long _labelsStyle;
 }
 
 + (id);
@@ -24,20 +20,17 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void)hes.plist;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (double);
+- (id);
+- (double)g RESET_STREAM;
 - (void);
 - (void):(id)arg1 8@"CALayer"16@"NSString"24;
 
 // Remaining properties
 @property(nonatomic) double extendedDynamicRangeGain; // @synthesize extendedDynamicRangeGain=_extendedDynamicRangeGain;
-@property(nonatomic) unsigned long long labelsStyle; // @synthesize labelsStyle=_labelsStyle;
-@property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
-@property(retain, nonatomic) NSFont *textFont; // @synthesize textFont=_textFont;
 
 @end
 

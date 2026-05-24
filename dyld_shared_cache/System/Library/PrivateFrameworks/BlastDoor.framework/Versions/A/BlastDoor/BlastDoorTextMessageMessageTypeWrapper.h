@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorAudioMessage, BlastDoorBalloonPlugin, BlastDoorCustomAcknowledgement, BlastDoorEmojiTapBack, BlastDoorMessage, BlastDoorSticker, BlastDoorStickerTapBack, BlastDoorTapBack, BlastDoorTypingIndicator, NSString;
+@class NSString;
 
 @interface BlastDoorTextMessageMessageTypeWrapper
 {
@@ -18,25 +18,15 @@
 - (id);
 - (id);
 - (id);
+- (id)KViewController<CKCoreTranscriptControllerProtocol>"16@"NSArray"24;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)setInEarDetectEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorAudioMessage *audioMessage;
-@property(nonatomic, readonly) BlastDoorBalloonPlugin *balloonPlugin;
-@property(nonatomic, readonly) BlastDoorCustomAcknowledgement *customAcknowledgement;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorEmojiTapBack *emojiTapback;
-@property(nonatomic, readonly) BlastDoorSticker *sticker;
-@property(nonatomic, readonly) BlastDoorStickerTapBack *stickerTapback;
-@property(nonatomic, readonly) BlastDoorTapBack *tapback;
-@property(nonatomic, readonly) BlastDoorMessage *textMessage;
-@property(nonatomic, readonly) unsigned long long type;
-@property(nonatomic, readonly) BlastDoorTypingIndicator *typingIndicator;
 
 @end
 

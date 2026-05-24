@@ -6,14 +6,11 @@
 
 #import <CoreSuggestions/SGLabeledObject.h>
 
-@class NSString, SGPostalAddressComponents;
+@class NSString;
 
 @interface SGPostalAddress : SGLabeledObject
 {
     NSString *_cachedAddress;
-    struct _opaque_pthread_mutex_t _cachedAddressLock;
-    NSString *_rawAddress;
-    SGPostalAddressComponents *_components;
 }
 
 + (id);
@@ -35,8 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *address;
-@property(readonly, nonatomic) SGPostalAddressComponents *components; // @synthesize components=_components;
-@property(readonly, nonatomic) NSString *rawAddress; // @synthesize rawAddress=_rawAddress;
 
 @end
 

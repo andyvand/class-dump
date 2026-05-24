@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PodcastsFoundation.DownloadableURLOptions
 {
     void urlRawString;
-    _Bool nonAppInitiated;
 }
 
 - (id);
@@ -18,12 +17,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)ICLOUD_ADP_NETWORK_ERROR_ALERT_MESSAGE;
 - (void)Uy_2Uy_SaySiG-VGAAy_CUy_<USo17OS_dispatch_queueCGSiGGGSiSgG;
 
 // Remaining properties
-@property(nonatomic) _Bool nonAppInitiated; // @synthesize nonAppInitiated;
-@property(nonatomic, readonly) NSURL *url;
 @property(nonatomic, readonly) NSString *urlRawString;
 
 @end

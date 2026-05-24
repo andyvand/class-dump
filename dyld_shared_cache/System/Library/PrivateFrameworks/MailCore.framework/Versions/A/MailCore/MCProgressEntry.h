@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSSet, NSTimer;
-@protocol MCProgressEntryDelegate;
+@class NSMutableSet;
 
 @interface MCProgressEntry
 {
     NSMutableSet *_progresses;
-    NSMutableSet *_progressesWithObservers;
-    _Bool _overrideConditions;
-    _Bool _userRequestedOverride;
-    _Atomic _Bool _hasScheduledRefresh;
-    _Bool _canDeferWork;
-    _Bool _suspended;
-    _Bool _hasBeenSuspended;
-    id <MCProgressEntryDelegate> _delegate;
-    long long _completedUnitCount;
-    long long _totalUnitCount;
-    double _fractionCompleted;
-    unsigned long long _unsatisfiedConditions;
-    NSTimer *_finishTimer;
 }
 
 + (id);
@@ -41,8 +27,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (double);
-- (void);
+- (double)C;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -53,10 +39,10 @@
 - (_Bool);
 - (void);
 - (double);
+- (id)˟;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)unsafeFinalizeIngestion;
 - (void);
 - (void);
 - (void);
@@ -64,26 +50,11 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)@;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool canDeferWork; // @synthesize canDeferWork=_canDeferWork;
-@property(nonatomic) long long completedUnitCount; // @synthesize completedUnitCount=_completedUnitCount;
-@property(nonatomic) __weak id <MCProgressEntryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double finishDelay;
-@property(retain, nonatomic) NSTimer *finishTimer; // @synthesize finishTimer=_finishTimer;
 @property(nonatomic) double fractionCompleted; // @synthesize fractionCompleted=_fractionCompleted;
-@property(nonatomic) _Bool hasBeenSuspended; // @synthesize hasBeenSuspended=_hasBeenSuspended;
-@property(readonly, nonatomic) _Bool hasSignificantDeferrableWork;
-@property(readonly, copy, nonatomic) NSSet *observedProgressKeypaths;
-@property(nonatomic) _Bool overrideConditions;
-@property(readonly, copy, nonatomic) NSArray *progresses;
-@property(readonly, nonatomic) _Bool shouldDisplay;
-@property(nonatomic) _Bool suspended; // @synthesize suspended=_suspended;
-@property(nonatomic) long long totalUnitCount; // @synthesize totalUnitCount=_totalUnitCount;
-@property(nonatomic) unsigned long long unsatisfiedConditions; // @synthesize unsatisfiedConditions=_unsatisfiedConditions;
-@property(nonatomic) _Bool userRequestedOverride;
 
 @end
 

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMDaemonProtocol;
-
 @interface IMDaemonConnection
 {
     id queue;
-    id setupQueue;
-    id isInvokingSetup;
-    id listener;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (void)upsPaused=%d failed with error=%@;
+- (void)transportToken[%@];
+- (void)[%s] %s:(void (^)(void))arg1 %d jitterQueueSize=%d and averageQueueSize=%f exceed desiredQueueSize=%d by threshold=%d. Marking samples at timestamp=%llu late. audioPulls=%u highAverageQueueSizeCount=%d;
+- (void)izeCount=%d;
+- (void)rame received. Error=%d;
+- (CDUnknownBlockType)delegate could not be loaded;
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -30,9 +25,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isConnected;
-@property(nonatomic, copy) CDUnknownBlockType onSetupComplete;
-@property(nonatomic, readonly) id <IMDaemonProtocol> remoteObjectProxy;
-@property(nonatomic, readonly) id <IMDaemonProtocol> synchronousRemoteObjectProxy;
 
 @end
 

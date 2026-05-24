@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFIntegerCharacteristicDatabaseID, NSArray, NSNumber;
+@class NSNumber;
 @protocol MKFHome;
 
 @protocol MKFIntegerCharacteristic
 - (id <MKFHome>)!xCùqð1Â0@ù
 × ;
-- (NSNumber *)tifier:payload:messageResponseHandler: /* Error: Ran out of types for this method. */;
+- (NSNumber *)_handleAccessHomeInviteFromAccount:mergeID:idsInvitationIdentifier:payload:messageResponseHandler: /* Error: Ran out of types for this method. */;
 - (NSNumber *)kArchive session identifier:%@ /* Error: Ran out of types for this method. */;
 - (void)log event;
-- (void)AudioConfigurationCodecConfigurations;
+- (void)kSupportedAudioConfigurationCodecConfigurations;
 - (NSNumber *)lientConnectionsManager;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFIntegerCharacteristicDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *maximumValue;
-@property(copy, nonatomic) NSNumber *minimumValue;
-@property(copy, nonatomic) NSNumber *stepValue;
-@property(retain, nonatomic) NSArray *validValues;
 @end
 

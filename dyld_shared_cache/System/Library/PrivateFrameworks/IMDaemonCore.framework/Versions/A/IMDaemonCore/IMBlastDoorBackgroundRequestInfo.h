@@ -11,8 +11,8 @@
     NSString *_chatId;
 }
 
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void)ume request for persistent task is allowed to proceed;
 

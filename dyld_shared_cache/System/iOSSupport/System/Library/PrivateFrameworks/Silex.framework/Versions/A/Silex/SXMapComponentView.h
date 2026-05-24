@@ -6,25 +6,11 @@
 
 #import <Silex/SXMediaComponentView.h>
 
-@class MKMapView, NSArray, NSCache, NSString, SXFullscreenCanvasViewController, SXMapSnapShotter, SXMediaEngageEvent, UIBarButtonItem, UIImageView, UISegmentedControl, UITapGestureRecognizer;
-@protocol SXDocumentTitleProviding;
+@class MKMapView;
 
 @interface SXMapComponentView : SXMediaComponentView
 {
     MKMapView *_mapView;
-    UITapGestureRecognizer *_tapGesture;
-    NSArray *_annotations;
-    id <SXDocumentTitleProviding> _documentTitleProvider;
-    UIBarButtonItem *_doneBarButtonItem;
-    SXFullscreenCanvasViewController *_fullScreenCanvasViewController;
-    UISegmentedControl *_segmentedControl;
-    NSArray *_toolbarItems;
-    SXMapSnapShotter *_snapShotter;
-    UIImageView *_imageView;
-    CDUnknownBlockType _snapShotCancelHandler;
-    NSCache *_cachedSnapshots;
-    SXMediaEngageEvent *_activeMediaEngageEvent;
-    CDStruct_02837cd9 _mapRect;
 }
 
 - (void);
@@ -48,11 +34,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,47 +53,28 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (CDStruct_02837cd9);
-- (void);
-- (void);
-- (id);
+- (void)K;
+- (CDStruct_90e2a262);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)u
+;
 - (id);
 - (void);
 - (void)0@ù
 × ;
-- (id)dateVisibleBoundsIfNeeded;
+- (id)updateVisibleBoundsIfNeeded;
 - (void)R,N;
 - (id)V_tags;
-- (CDStruct_2b0c6e0b)ComponentSizerFactory;
+- (CDStruct_2b0c6e0b)SXEmbedVideoComponentSizerFactory;
 - (void)@;
 - (void)Wæ?;
 
 // Remaining properties
-@property(retain, nonatomic) SXMediaEngageEvent *activeMediaEngageEvent; // @synthesize activeMediaEngageEvent=_activeMediaEngageEvent;
-@property(retain, nonatomic) NSArray *annotations; // @synthesize annotations=_annotations;
-@property(readonly, nonatomic) NSCache *cachedSnapshots; // @synthesize cachedSnapshots=_cachedSnapshots;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXDocumentTitleProviding> documentTitleProvider; // @synthesize documentTitleProvider=_documentTitleProvider;
-@property(retain, nonatomic) UIBarButtonItem *doneBarButtonItem; // @synthesize doneBarButtonItem=_doneBarButtonItem;
-@property(retain, nonatomic) SXFullscreenCanvasViewController *fullScreenCanvasViewController; // @synthesize fullScreenCanvasViewController=_fullScreenCanvasViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) CDStruct_02837cd9 mapRect; // @synthesize mapRect=_mapRect;
 @property(retain, nonatomic) MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(retain, nonatomic) UISegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(copy, nonatomic) CDUnknownBlockType snapShotCancelHandler; // @synthesize snapShotCancelHandler=_snapShotCancelHandler;
-@property(readonly, nonatomic) SXMapSnapShotter *snapShotter; // @synthesize snapShotter=_snapShotter;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITapGestureRecognizer *tapGesture; // @synthesize tapGesture=_tapGesture;
-@property(retain, nonatomic) NSArray *toolbarItems; // @synthesize toolbarItems=_toolbarItems;
 
 @end
 

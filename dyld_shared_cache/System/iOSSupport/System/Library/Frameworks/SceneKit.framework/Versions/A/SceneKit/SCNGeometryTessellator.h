@@ -9,17 +9,9 @@
 @interface SCNGeometryTessellator
 {
     NSMutableSet *_clients;
-    _Bool _adaptive;
-    _Bool _screenSpace;
-    float _maximumEdgeLength;
-    float _edgeTessellationFactor;
-    float _insideTessellationFactor;
-    float _tessellationFactorScale;
-    long long _smoothingMode;
-    unsigned long long _partitionMode;
 }
 
-+ (_Bool);
++ (_Bool)addressBookFieldLabelPatternMatchers2;
 - (void);
 - (void);
 - (long long);
@@ -34,14 +26,14 @@
 - (double);
 - (void);
 - (_Bool);
-- (CDStruct_9b587744);
+- (CDStruct_9d37c1eb);
 - (void);
 - (double);
+- (void)drawingContinuations;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)h6;
 - (id);
-- (id);
+- (id)ndStyleID;
 - (id);
 - (void);
 - (_Bool);
@@ -243,14 +235,7 @@
 - (void)çÀ;
 
 // Remaining properties
-@property(nonatomic, getter=isAdaptive) _Bool adaptive;
-@property(nonatomic) double edgeTessellationFactor;
-@property(nonatomic) double insideTessellationFactor;
-@property(nonatomic) double maximumEdgeLength;
-@property(nonatomic, getter=isScreenSpace) _Bool screenSpace;
-@property(nonatomic) long long smoothingMode;
 @property(nonatomic) double tessellationFactorScale;
-@property(nonatomic) unsigned long long tessellationPartitionMode;
 
 @end
 

@@ -9,14 +9,6 @@
 @interface AppStoreKit.GenericPage : AppStoreKit.BasePage
 {
     id shelfOrdering;
-    id shelfMapping;
-    id title;
-    id presentationOptions;
-    id nextPage;
-    id isIncomplete;
-    id uber;
-    id shareAction;
-    id loadCompletedAction;
 }
 
 @end

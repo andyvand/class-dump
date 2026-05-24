@@ -6,26 +6,22 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSMutableArray, NSString, TRIDownloadOptions;
-@protocol TRITaskQueueStateProviding;
-
 @interface TRIScheduleFetchExperimentNotificationsTask : TRIBaseTask
 {
     _Bool _rollbacksOnly;
-    NSMutableArray *_nextTasks;
-    TRIDownloadOptions *_options;
 }
 
 + (id);
 + (id);
 + (_Bool);
+- (id)setAssociatedAssetCloudIdentifier:(int)arg1;
+- (id)sceneData;
+- (id)eceived notification %@ 
+;
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
-- (void);
+- (void)T;
 - (void)1Â0@ù
 × ;
 - (id)activeTargetingRuleIndex:%@ targetedFactorPackSetId:%@ targetedTargetingRuleIndex:%@ status:%@ namespaces:%@ artifact:%@> /* Error: Ran out of types for this method. */;
@@ -33,18 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
 @property(readonly, nonatomic) int taskType;
 
 @end

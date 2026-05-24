@@ -15,7 +15,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)iori);
 - (id);
 - (id);
 - (_Bool);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool toggle;
-@property(nonatomic) _Bool value;
 
 @end
 

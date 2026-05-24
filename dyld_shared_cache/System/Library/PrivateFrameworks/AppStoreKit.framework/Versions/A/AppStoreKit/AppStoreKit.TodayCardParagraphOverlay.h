@@ -9,7 +9,6 @@
 @interface AppStoreKit.TodayCardParagraphOverlay : AppStoreKit.TodayCardOverlay
 {
     id paragraph;
-    id style;
 }
 
 @end

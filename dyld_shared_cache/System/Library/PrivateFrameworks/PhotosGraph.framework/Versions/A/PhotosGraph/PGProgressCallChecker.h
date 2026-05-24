@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface PGProgressCallChecker
 {
     double _timestampOfLastCallToProgress;
-    double _timestampOfLastRecordedCallToProgress;
-    unsigned long long _numberOfCallsToProgressSinceLastRecordedCall;
-    NSObject<OS_os_log> *_loggingConnection;
-    double _lastProgress;
-    _Bool _wasStopped;
-    _Bool _reportMemoryUsage;
-    NSString *_taskName;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)RawValue;
 - (id);
 - (id);
 - (void);
 - (void)tTitlingQuestionFactory.m;
 
 // Remaining properties
-@property(nonatomic) _Bool reportMemoryUsage; // @synthesize reportMemoryUsage=_reportMemoryUsage;
 @property(copy, nonatomic) NSString *taskName; // @synthesize taskName=_taskName;
 
 @end

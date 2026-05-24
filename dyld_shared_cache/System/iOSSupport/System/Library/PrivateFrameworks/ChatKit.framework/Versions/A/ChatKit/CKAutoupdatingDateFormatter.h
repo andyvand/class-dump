@@ -11,7 +11,7 @@
     NSString *_template;
 }
 
-- (void);
+- (void)ICInlineDrawingChangeCoalescer;
 - (id);
 - (id);
 - (void);

@@ -4,6 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, NSSharingServicePicker, NSString, NSURL, NSUndoManager;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (NSUndoManager *)eDoorbellChime;
+- (void)ssorySettingKeyPath;
+- (void)ServerIdentifier;
+- (void)D,N;
+- (void)ring",C;
+- (NSArray *)pointVersion;
+- (_Bool)tadataCache;
+- (NSArray *)ng",&,V_lastNotifiedDestinationIdentifier;
+- (NSSharingServicePicker *),V_currentSessionID;
+- (NSString *)ring",&,N,V_value;
+- (NSDictionary *)ring",&,N,V_uuidStr;
+- (NSArray *)N,V_threadNetworkID;
+- (struct _NSRange)g",&,N,V_targetIdentifier;
+- (NSArray *)twareVersion;
+- (long long)setAlgorithm;
+- (_Bool)",&,N,V_routerIPv4;
+- (NSDictionary *)ifier;
+- (_Bool)ring",&,N,V_outputVoiceLanguageCode;
+- (_Bool)otificationUUID;
+- (void)etworkSSID;
+- (void)V_networkGatewayMacAddress;
+- (void)_modelIdentifier;
+- (void)String",&,N,V_metricIdentifier;
+- (_Bool)@"NSString",&,N,V_mediaRouteIdString;
+- (NSArray *)T@"NSString",&,N,V_leftDestinationIdentifier;
+- (NSArray *)String",&,N,V_lastPrimaryClientConnectMessageFailUnderlyingErrorDomainHH2;
+- (_Bool)ain;
+- (void)T@"NSString",&,N,V_lastKnownStageUnderlyingErrorDomain;
+- (void)"NSString",&,N,V_lastKnownStageErrorString;
+- (NSArray *)h;
+- (NSArray *),&,N,V_inputLanguageCode;
+- (NSURL *)me;
 @end
 

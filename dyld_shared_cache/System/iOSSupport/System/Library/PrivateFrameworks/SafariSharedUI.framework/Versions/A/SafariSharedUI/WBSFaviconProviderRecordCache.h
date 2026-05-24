@@ -9,7 +9,6 @@
 @interface WBSFaviconProviderRecordCache
 {
     NSMutableDictionary *_iconURLStringToInfoDictionary;
-    NSMutableDictionary *_iconUUIDToURLStringDictionary;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)mobileAssetController:didFailRetrieve: /* Error: Ran out of types for this method. */;
 
 @end
 

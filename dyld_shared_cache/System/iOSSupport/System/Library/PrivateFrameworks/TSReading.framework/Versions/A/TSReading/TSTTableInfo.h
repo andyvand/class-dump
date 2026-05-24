@@ -6,56 +6,48 @@
 
 #import <TSReading/TSDDrawableInfo.h>
 
-@class NSObject, NSString, TSDInfoGeometry, TSKDocumentRoot, TSPObject, TSTEditingState, TSTMasterLayout, TSTTableModel, TSTTablePartitioner;
-@protocol TSDContainerInfo, TSDOwningAttachment;
+@class TSKDocumentRoot, TSTTableModel;
 
 @interface TSTTableInfo : TSDDrawableInfo
 {
     TSTTableModel *mTableModel;
-    _Bool mIsFormulaEditing;
-    _Bool mHasReference;
-    CDStruct_0441cfb5 mEditingCellID;
-    CDStruct_0441cfb5 mPreviousEditingCellID;
-    TSTTablePartitioner *mPartitioner;
-    TSTMasterLayout *mMasterLayout;
-    TSTEditingState *mEditingState;
 }
 
 + (id);
-+ (id);
-+ (unsigned short);
-+ (unsigned short);
++ (id)<v;
++ (unsigned short);
++ (unsigned short)&;
 + (id);
 + (_Bool);
++ (void)/?;
 + (void);
-+ (void);
+- (void)==nil;
+- (void)ediaPlayer.MPCModelGenericAVItem.streaming_playback.;
+- (void)y URLs:(id)arg1 %@;
+- (void)ubscription asset [first asset requires online keys];
+- (id)hat has no dataSourceState:(_Bool)arg1 sectionID=%@;
+- (unsigned long long)ral Repeat One enumerator;
+- (id)position:%ld afterContentItemID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)PrepareForCreateStation;
+- (_Bool)e;
+- (void)n-changed;
+- (void)ed;
+- (void)ation-background;
+- (void)eporterQueue;
+- (void)3.2f,%d;
+- (void)e,Level,Time [ms],Thermal;
+- (void)unavailable;
+- (void)ed;
+- (void)untManager] subscription status handler not called;
+- (void)ayback session could not be created.;
+- (void)ting on model lookup request for ;
+- (_Bool)eason for remaining on item asset load after configuration;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (CDStruct_0441cfb5);
-- (void);
-- (id);
-- (void);
+- (id)from application music player parameters;
+- (CDStruct_bd4d8e6b)item loaded duration changed [duration changed for non-current item] - item: /* Error: Ran out of types for this method. */;
+- (void)undTask failed to start - category:(CDUnknownBlockType)arg1;
+- (id)AVAudioSession setActive:false] failed with error  /* Error: Ran out of types for this method. */;
+- (void)DeleteItemFromLibraryCodingKeys;
 - (long long);
 - (id);
 - (id);
@@ -67,22 +59,22 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
 - (Class);
 - (id);
-- (CDStruct_5f1f7aa9);
-- (CDStruct_0441cfb5);
-- (void);
+- (CDStruct_f5d1269f);
+- (CDStruct_bd4d8e6b);
+- (void)|;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)c]LI;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -95,9 +87,9 @@
 - (Class);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)zR;
 - (id);
 - (void);
 - (id);
@@ -105,43 +97,14 @@
 - (void);
 - (_Bool);
 - (Class);
-- (void);
+- (void)H;
 - (int);
 - (void)nfiguration"40@0:(id)arg1 8@"UITextView"16@"UITextItem"24@"UIMenu"32;
 - (void);
 - (void)raryDirectory.AbPtYx/Sources/AlderShared/tables/TSTTableTile.mm;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @dynamic anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText;
-@property(nonatomic) long long contentWritingDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) TSKDocumentRoot *documentRoot;
-@property(nonatomic) CDStruct_0441cfb5 editingCellID; // @synthesize editingCellID=mEditingCellID;
-@property(readonly, nonatomic) CDStruct_5f1f7aa9 editingCellRange;
-@property(retain, nonatomic) TSTEditingState *editingState; // @synthesize editingState=mEditingState;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText; // @dynamic floatingAboveText;
-@property(nonatomic, getter=isFormulaEditing) _Bool formulaEditing; // @synthesize formulaEditing=mIsFormulaEditing;
-@property(copy, nonatomic) TSDInfoGeometry *geometry; // @dynamic geometry;
-@property(nonatomic) _Bool hasReference; // @synthesize hasReference=mHasReference;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText; // @dynamic inlineWithText;
-@property(readonly, nonatomic) TSTMasterLayout *masterLayout;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment; // @dynamic owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse; // @dynamic owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo; // @dynamic parentInfo;
-@property(readonly, nonatomic) TSTTablePartitioner *partitioner;
-@property(readonly, nonatomic) CDStruct_0441cfb5 previousEditingCellID; // @synthesize previousEditingCellID=mPreviousEditingCellID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TSTTableModel *tableModel;
 
 @end
 

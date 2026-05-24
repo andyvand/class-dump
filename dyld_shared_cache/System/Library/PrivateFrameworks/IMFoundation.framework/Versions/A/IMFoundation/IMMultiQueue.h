@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface IMMultiQueue
 {
     NSMutableDictionary *_queueMap;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -18,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)rarPredictedContextProtocol>";
 - (id);
 - (id);
 - (void);

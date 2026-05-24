@@ -7,6 +7,8 @@
 @class UIView;
 
 @protocol _UICalendarViewDecorationProviding
+- (void)requestSubscriptionTo:(UIView *)arg1 account: /* Error: Ran out of types for this method. */;
+- (UIView *);
 - (UIView *)uto invalidation of scene:%{public}@; assertionsCount:%lu; assertion:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -7,20 +7,16 @@
 @interface UnknownClass (WFCoreGraphicsSupport)
 + (id);
 + (id);
++ (id)&{;
 + (id);
 + (id);
-+ (id);
-- (struct CGVector);
-- (struct CGSize);
+- (struct CGVector);
+- (struct CGSize)|;
 - (struct CGRect);
 - (struct CGAffineTransform);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform wf_CGAffineTransformValue;
 @property(readonly, nonatomic) struct CGPoint wf_CGPointValue;
-@property(readonly, nonatomic) struct CGRect wf_CGRectValue;
-@property(readonly, nonatomic) struct CGSize wf_CGSizeValue;
-@property(readonly, nonatomic) struct CGVector wf_CGVectorValue;
 @end
 

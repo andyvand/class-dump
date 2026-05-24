@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIFocusCollectionViewSectionContainerGuide;
+@class _UIFocusCollectionViewSectionContainerGuide;
 
 __attribute__((visibility("hidden")))
 @interface _UISectionFocusContainerGuidePackage
 {
     _UIFocusCollectionViewSectionContainerGuide *_sectionFocusGuide;
-    _UIFocusCollectionViewSectionContainerGuide *_sectionEndFocusGuide;
-    NSArray *_focusGuides;
 }
 
 - (void);
@@ -19,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)evaluatedByTimeSensitiveModel;
 - (void)tælþ¦13|ælþí¥13ælþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *focusGuides; // @synthesize focusGuides=_focusGuides;
-@property(retain, nonatomic) _UIFocusCollectionViewSectionContainerGuide *sectionEndFocusGuide; // @synthesize sectionEndFocusGuide=_sectionEndFocusGuide;
 @property(retain, nonatomic) _UIFocusCollectionViewSectionContainerGuide *sectionFocusGuide; // @synthesize sectionFocusGuide=_sectionFocusGuide;
 
 @end

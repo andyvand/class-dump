@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)timestamp:(id)arg1;
++ (void)cinematicVideoRenderingVersion;
++ (void)bestCropRectV2ForAspectRatio:withFocusRegion:sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:outputCropScore: /* Error: Ran out of types for this method. */;
 
 @end
 

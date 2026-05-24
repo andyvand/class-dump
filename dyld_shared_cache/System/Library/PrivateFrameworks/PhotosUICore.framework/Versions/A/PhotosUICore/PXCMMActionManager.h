@@ -10,7 +10,6 @@
 @interface PXCMMActionManager
 {
     id <PXCMMActionPerformerDelegate> _performerDelegate;
-    NSMutableDictionary *_performerClassByType;
 }
 
 - (id);
@@ -20,13 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)dyForAnalysis;
+- (id)	;
+- (id)isReadyForAnalysis;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *performerClassByType; // @synthesize performerClassByType=_performerClassByType;
-@property(nonatomic) __weak id <PXCMMActionPerformerDelegate> performerDelegate; // @synthesize performerDelegate=_performerDelegate;
 
 @end
 

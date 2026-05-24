@@ -9,27 +9,23 @@
 @interface ICDrawingCommand
 {
     _Bool _hidden;
-    ICDrawingCommandData *_data;
-    struct TopoID _timestamp;
 }
 
-- (unsigned int);
+- (unsigned int)s/A/Heimdal;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (struct TopoID);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (void)0ø¨ø;
 
 // Remaining properties
 @property(readonly, nonatomic) ICDrawingCommandData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) struct TopoID timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

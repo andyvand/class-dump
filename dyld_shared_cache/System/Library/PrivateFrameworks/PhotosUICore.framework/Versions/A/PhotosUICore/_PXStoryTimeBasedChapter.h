@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSObject, NSString;
-@protocol NSCopying;
+@class NSDateInterval, NSString;
 
 @interface _PXStoryTimeBasedChapter
 {
     NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
-    NSDateInterval *_dateInterval;
-    NSString *_firstAssetLocalIdentifier;
 }
 
 - (void);
@@ -21,24 +17,27 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void);
+- (void); /* frame */ 
+		DeclareForeColorU; 
+		void main() 
+		{ 
+			lowp vec4 imageColor = SampleTexture0; 
+			DoFilter0(imageColor); 
+			lowp vec4 frameColor = SampleTexture1; 
+			gl_FragColor = uColor * vec4(vec3(frameColor.rgb + imageColor.rgb * (1. - frameColor.a)), 1.); 
+		} 
+		;
+- (void)'�N";
+- (id)stringForCropVariantType:(struct _NSZone *)arg1;
 - (id);
-- (id);
-- (id)yAssetFetcher;
+- (id)_TtC12PhotosUICore41GenerativeStoryEventAmbiguityAssetFetcher;
 - (void)led on the update queue;
-- (id)nformation;
+- (id)SearchProcessingPopoverInformation;
 - (void);
 - (id)y¶;
 
 // Remaining properties
 @property(retain, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) NSDateInterval *extendedDateIntervalForComparisonWithAssetDates;
-@property(copy, nonatomic) NSString *firstAssetLocalIdentifier; // @synthesize firstAssetLocalIdentifier=_firstAssetLocalIdentifier;
-@property(readonly, nonatomic) NSObject<NSCopying> *identifier;
-@property(readonly, nonatomic) NSString *localizedSubtitle;
-@property(readonly, nonatomic) NSString *localizedTitle;
 
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineFMCDailyAssessments
 {
     unsigned long long _timestamp;
-    NSMutableArray *_assessments;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);

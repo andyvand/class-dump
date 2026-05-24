@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface AMSAccountCachedServerStringCore
 {
     id cachedValue;
-    id token;
 }
 
-- (id);
+- (id)hasEnabledMiCByDefault;
 - (id);
 - (id);
 - (void);
@@ -24,11 +23,7 @@
 wi ÝÛ¦oqÅ¸¨Õa¶ËÍ°ygÓ®K6ÿáU(.Sçù0M{²Ï¬Ñec×ªÉ´} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSDate *expiration;
-@property(nonatomic, readonly) _Bool isStale;
-@property(nonatomic, retain) id token; // @synthesize token;
-@property(nonatomic, readonly) NSString *value;
 
 @end
 

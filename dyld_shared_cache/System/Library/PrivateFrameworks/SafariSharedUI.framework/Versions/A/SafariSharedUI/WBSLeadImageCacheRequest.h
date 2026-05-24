@@ -9,18 +9,16 @@
 @interface WBSLeadImageCacheRequest : WBSSiteMetadataRequest
 {
     _Bool _allowDownloading;
-    _Bool _allowRetries;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowDownloading; // @synthesize allowDownloading=_allowDownloading;
-@property(readonly, nonatomic) _Bool allowRetries; // @synthesize allowRetries=_allowRetries;
 
 @end
 

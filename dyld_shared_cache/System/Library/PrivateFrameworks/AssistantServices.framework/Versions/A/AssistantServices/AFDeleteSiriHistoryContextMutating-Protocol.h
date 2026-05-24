@@ -5,5 +5,8 @@
 //
 
 @protocol AFDeleteSiriHistoryContextMutating
+- (void);
+- (void);
+- (void)linkLatency512ms;
 @end
 

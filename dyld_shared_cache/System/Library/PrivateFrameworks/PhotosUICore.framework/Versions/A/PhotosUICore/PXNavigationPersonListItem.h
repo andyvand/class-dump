@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id)coveringRange;
+- (id)px_coveringRange;
 - (void)èbÊu¶Tf;
 
 @end

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADBevel, OADColor;
+@class OADBevel;
 
 __attribute__((visibility("hidden")))
 @interface OADShape3D
 {
     OADBevel *mTopBevel;
-    OADBevel *mBottomBevel;
-    OADColor *mExtrusionColor;
-    float mExtrusionHeight;
-    OADColor *mContourColor;
-    float mContourWidth;
-    float mShapeDepth;
-    int mMaterial;
 }
 
 + (id);
 - (id);
 - (float);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -37,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore;
 - (unsigned long long);
 - (_Bool);
 - (id);

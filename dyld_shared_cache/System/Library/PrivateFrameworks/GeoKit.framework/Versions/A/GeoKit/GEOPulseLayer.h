@@ -9,19 +9,16 @@
 @interface GEOPulseLayer
 {
     NSTimer *animationTimer;
-    struct CGRect startingFrame;
-    struct CGSize originalSize;
-    float animationProgress;
 }
 
-+ (struct CGImage *);
-- (void);
-- (void);
-- (void);
-- (void);
++ (struct CGImage *)lic}@Privacy acknowledgement is not needed. acknowledgedVersion = %{public}@ | currentVersion = %{public}@;
+- (void)the account active if we successfully authenticate it.;
+- (void)attestation failed with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)teKeys:%{public}lu, options.style:%{public}lu /* Error: Ran out of types for this method. */;
+- (void)okup failed for no GS token;
 - (void);
 - (id);
-- (void);
+- (void)defaultPathComponentsForPartDefinition: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSNotification;
+
 @protocol NSControlTextEditingDelegate
 
 @optional
-- (void);
+- (NSArray *);
+- (void)setAxis:(NSNotification *)arg1;
 - (_Bool)ÐæpC¸CG¤I¨IÐI¬KMìNPODQlSÔS#TUUdU1äU2ÔW@XØXLY¬YÜYPZÄZ8[¤[H\X\ \¨\È\;
 @end
 

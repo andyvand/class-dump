@@ -9,14 +9,13 @@
 @interface ConversationKit.ShareViewController : PlatformViewController
 {
     id backgroundSendUtility;
-    id collaborationInitiationManager;
 }
 
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_originLocationEstimationCompletedEventKitLookup;
 - (void)nüÿ×=ÿÿ;
 
 @end

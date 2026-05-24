@@ -6,14 +6,12 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNFullTextSearchContactPredicate : CNPredicate
 {
     NSString *_searchString;
-    NSArray *_containerIdentifiers;
-    NSArray *_groupIdentifiers;
 }
 
 + (_Bool);
@@ -22,29 +20,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kNetworkEventSRVCCStarted;
 - (_Bool);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long)_unhandledExceptionHandler;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)h;
 - (void)1Â0@ù
 × ;
 - (id)id fetch contacts data, length:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *containerIdentifiers; // @synthesize containerIdentifiers=_containerIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

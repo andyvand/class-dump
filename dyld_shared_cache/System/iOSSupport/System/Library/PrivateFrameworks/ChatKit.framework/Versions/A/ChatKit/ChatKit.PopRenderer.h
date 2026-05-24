@@ -7,13 +7,6 @@
 @interface ChatKit.PopRenderer
 {
     id parameters;
-    id passes;
-    id device;
-    id pixelFormat;
-    id explosionRenderer;
-    id gaussianBlurRenderer;
-    id vectorBlurRenderer;
-    id intermediateTexture;
 }
 
 @end

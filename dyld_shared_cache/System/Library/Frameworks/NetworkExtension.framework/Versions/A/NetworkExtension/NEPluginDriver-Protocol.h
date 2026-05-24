@@ -5,6 +5,7 @@
 //
 
 @protocol NEPluginDriver
+- (void);
 - (void)Â0@ù
 × ;
 @end

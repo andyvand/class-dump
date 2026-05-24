@@ -7,7 +7,7 @@
 @class NSError;
 
 @interface UnknownClass (CATIDSAdditions)
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

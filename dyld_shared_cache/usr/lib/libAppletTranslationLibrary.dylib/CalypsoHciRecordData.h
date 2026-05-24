@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface CalypsoHciRecordData
 {
     unsigned char sfi;
-    unsigned char recordId;
-    NSData *content;
 }
 
 - (unsigned char);
@@ -21,11 +17,9 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (id);
 - (void);
-- (void)enericExpressOffset;
+- (void)genericExpressOffset;
 
 // Remaining properties
-@property(retain) NSData *content; // @synthesize content;
-@property unsigned char recordId; // @synthesize recordId;
 @property unsigned char sfi; // @synthesize sfi;
 
 @end

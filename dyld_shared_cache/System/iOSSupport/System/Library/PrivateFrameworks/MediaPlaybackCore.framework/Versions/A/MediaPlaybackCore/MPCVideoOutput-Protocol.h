@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerLayer, NSString, UIViewController;
+@class AVPlayerLayer;
 @protocol MPCVideoOutputDelegate;
 
 @protocol MPCVideoOutput
+- (void);
 - (void)0@ù
 × ;
 - (void)sset";
@@ -17,24 +18,8 @@
 - (_Bool)rror"24;
 - (void)on.begin;
 - (struct CGRect);
-- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPictureInPicturePlayback;
-@property(nonatomic) _Bool allowsVideoFrameAnalysis;
-@property(nonatomic) _Bool canStartPictureInPictureAutomaticallyFromInline;
-@property(nonatomic) _Bool exitsFullScreenWhenPlaybackEnds;
-@property(readonly, nonatomic, getter=isExternalPlaybackActive) _Bool externalPlaybackActive;
-@property(nonatomic) _Bool hidesVideoPlayerBackground;
-@property(readonly, nonatomic, getter=isPictureInPictureActive) _Bool pictureInPictureActive;
-@property(readonly, nonatomic) AVPlayerLayer *playerLayer;
-@property(readonly, nonatomic) UIViewController *playerViewController;
-@property(readonly, nonatomic) struct CGSize presentationSize;
-@property(readonly, nonatomic, getter=isReadyForDisplay) _Bool readyForDisplay;
-@property(nonatomic) _Bool showsPlaybackControls;
-@property(readonly, nonatomic) struct CGRect videoBounds;
-@property(nonatomic) _Bool videoEnabled;
-@property(copy, nonatomic) NSString *videoGravity;
 @property(nonatomic) __weak id <MPCVideoOutputDelegate> videoOutputDelegate;
 @end
 

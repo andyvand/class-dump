@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface UXCollectionViewLayoutInvalidationContext
 {
     NSMutableDictionary *_invalidatedSupplementaryViews;
-    NSArray *_updateItems;
-    struct {
-        unsigned int invalidateDataSource:1;
-        unsigned int invalidateEverything:1;
-        unsigned int invalidateContentSize:1;
-    } _invalidationContextFlags;
 }
 
 - (void);
@@ -31,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool invalidateDataSourceCounts;
 @property(readonly, nonatomic) _Bool invalidateEverything;
 
 @end

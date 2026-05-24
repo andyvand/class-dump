@@ -6,39 +6,25 @@
 
 #import <AuthKit/AKAppleIDAuthenticationContext.h>
 
-@class AKChangePasswordController, AKCommandLineUtilities, AKForgotPasswordController, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface AKAppleIDAuthenticationCommandLineContext : AKAppleIDAuthenticationContext
 {
     _Bool _termsAccepted;
-    NSNumber *_secondFactorCode;
-    long long _verificationType;
-    NSString *_currentPassword;
-    NSString *_phoneNumber;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSDate *_birthday;
-    NSString *_recoveryKey;
-    NSString *_localSecret;
-    NSString *_countryCode;
-    NSString *_smsSecurityCode;
-    AKCommandLineUtilities *_utility;
-    NSString *_rootPath;
-    AKChangePasswordController *_changePasswordController;
-    AKForgotPasswordController *_forgotPasswordController;
 }
 
 + (id);
 + (id);
-- (long long);
+- (long long)1
+;
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -61,22 +47,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id):(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)Ij;
 - (id);
 - (id);
 - (id);
@@ -86,7 +72,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -102,29 +88,7 @@
 ý}YJª+Ôû½ëÐ¡ÓHo¢Â)nev®;¸2LÂÝ½§æÏD¾5¼ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *birthday; // @synthesize birthday=_birthday;
-@property(retain, nonatomic) AKChangePasswordController *changePasswordController; // @synthesize changePasswordController=_changePasswordController;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *currentPassword; // @synthesize currentPassword=_currentPassword;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) AKForgotPasswordController *forgotPasswordController; // @synthesize forgotPasswordController=_forgotPasswordController;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(copy, nonatomic) NSString *localSecret; // @synthesize localSecret=_localSecret;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(copy, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(readonly, nonatomic) NSString *rootPath; // @synthesize rootPath=_rootPath;
-@property(copy, nonatomic) NSNumber *secondFactorCode; // @synthesize secondFactorCode=_secondFactorCode;
 @property(retain, nonatomic) NSString *smsSecurityCode; // @synthesize smsSecurityCode=_smsSecurityCode;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool termsAccepted; // @synthesize termsAccepted=_termsAccepted;
-@property(readonly, nonatomic) AKCommandLineUtilities *utility; // @synthesize utility=_utility;
-@property(readonly, nonatomic) long long verificationType; // @synthesize verificationType=_verificationType;
 
 @end
 

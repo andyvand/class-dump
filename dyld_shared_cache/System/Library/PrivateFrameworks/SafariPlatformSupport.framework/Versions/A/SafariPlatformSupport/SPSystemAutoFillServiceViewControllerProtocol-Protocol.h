@@ -5,5 +5,6 @@
 //
 
 @protocol SPSystemAutoFillServiceViewControllerProtocol
+- (void)�A@9A;
 @end
 

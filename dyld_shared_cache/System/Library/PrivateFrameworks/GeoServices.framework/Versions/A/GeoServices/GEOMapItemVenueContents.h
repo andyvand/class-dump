@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEOMapItemVenueContents
 {
     NSString *_title;
-    NSArray *_items;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)device (%{public}lu);
+- (id);
 - (id);
 - (void)4ÕþÙí46ì4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

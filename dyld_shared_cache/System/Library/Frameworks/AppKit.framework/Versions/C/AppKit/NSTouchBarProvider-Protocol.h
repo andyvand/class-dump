@@ -7,7 +7,7 @@
 @class NSTouchBar;
 
 @protocol NSTouchBarProvider
-- (NSTouchBar *)Row;
+- (NSTouchBar *)_inSelectedTableRow;
 
 // Remaining properties
 @property(readonly) NSTouchBar *touchBar;

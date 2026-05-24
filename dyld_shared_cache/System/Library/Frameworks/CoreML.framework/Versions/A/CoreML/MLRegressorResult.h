@@ -5,24 +5,21 @@
 //
 
 @class MLMultiArray;
-@protocol MLFeatureProvider;
 
 @interface MLRegressorResult
 {
     MLMultiArray *_predictedValue;
-    id <MLFeatureProvider> _additionalFeatures;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)lCreatePixelBuffer returned %d.;
 
 // Remaining properties
-@property(readonly) id <MLFeatureProvider> additionalFeatures; // @synthesize additionalFeatures=_additionalFeatures;
 @property(readonly) MLMultiArray *predictedValue; // @synthesize predictedValue=_predictedValue;
 
 @end

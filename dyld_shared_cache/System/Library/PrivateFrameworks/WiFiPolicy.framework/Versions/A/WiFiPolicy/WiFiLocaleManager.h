@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSObject, NSString, WiFiLocationManager;
-@protocol OS_dispatch_queue, OS_dispatch_source, WiFiLocaleManagerDelegate;
-
 @interface WiFiLocaleManager
 {
     _Bool _localeCheckSuspended;
-    unsigned char _isWaitingForLocationUpdate;
-    unsigned char _testModeEnabled;
-    int _localeSource;
-    int _aggressiveRetryAttemptsRemaining;
-    int _testMcc;
-    id <WiFiLocaleManagerDelegate> _delegate;
-    NSString *_localeCountryCode;
-    double _localeTimeout;
-    double _localeLastUpdatedTime;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_localeTimer;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    NSDateFormatter *_dateFormatter;
-    WiFiLocationManager *_locationManager;
-    NSString *_testHost11d;
-    NSString *_testPeer;
-    NSString *_testTimeZoneCC;
-    NSString *_testUserDefaults;
 }
 
 + (id);
@@ -38,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (int);
 - (void);
@@ -48,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)letionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -61,7 +40,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{optional<std::string>=(?=c{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}})B}{optional<double>=(?=cd)B}{optional<siri::ontology::UsoIdentifier::NluComponent>=(?=ci)B}{optional<unsigned int>=(?=cI)B}{optional<unsigned int>=(?=cI)B}}16B136 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -84,9 +63,11 @@
 - (int);
 - (int);
 - (id);
-- (id);
-- (double);
-- (id);
+- (id)sh seq=%u TS=%u:%@
+ /* Error: Ran out of types for this method. */;
+- (double)d to convert group peer identifier %'@ into UUID
+;
+- (id)!;
 - (double);
 - (void);
 - (id);
@@ -95,41 +76,16 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)udget30Duration;
-- (id)breason;
-- (id)tions;
+- (void)_powerBudget30Duration;
+- (id)_lastDisconnectSubreason;
+- (id)filterconditions;
 - (void)0@"WiFiUsageChannel"8@"NSMutableSet"16^B24;
-- (int)ION_5G_MS;
+- (int)SCAN_DURATION_5G_MS;
 - (id)Map:0x%02X /* Error: Ran out of types for this method. */;
 - (id)1;
 
 // Remaining properties
-@property int aggressiveRetryAttemptsRemaining; // @synthesize aggressiveRetryAttemptsRemaining=_aggressiveRetryAttemptsRemaining;
-@property(retain) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WiFiLocaleManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned char isWaitingForLocationUpdate; // @synthesize isWaitingForLocationUpdate=_isWaitingForLocationUpdate;
 @property _Bool localeCheckSuspended; // @synthesize localeCheckSuspended=_localeCheckSuspended;
-@property(retain) NSString *localeCountryCode; // @synthesize localeCountryCode=_localeCountryCode;
-@property double localeLastUpdatedTime; // @synthesize localeLastUpdatedTime=_localeLastUpdatedTime;
-@property int localeSource; // @synthesize localeSource=_localeSource;
-@property double localeTimeout; // @synthesize localeTimeout=_localeTimeout;
-@property(retain) NSObject<OS_dispatch_source> *localeTimer; // @synthesize localeTimer=_localeTimer;
-@property(retain) WiFiLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSObject<OS_dispatch_source> *retryTimer; // @synthesize retryTimer=_retryTimer;
-@property(readonly) Class superclass;
-@property(retain) NSString *testHost11d; // @synthesize testHost11d=_testHost11d;
-@property int testMcc; // @synthesize testMcc=_testMcc;
-@property unsigned char testModeEnabled; // @synthesize testModeEnabled=_testModeEnabled;
-@property(retain) NSString *testPeer; // @synthesize testPeer=_testPeer;
-@property(retain) NSString *testTimeZoneCC; // @synthesize testTimeZoneCC=_testTimeZoneCC;
-@property(retain) NSString *testUserDefaults; // @synthesize testUserDefaults=_testUserDefaults;
 
 @end
 

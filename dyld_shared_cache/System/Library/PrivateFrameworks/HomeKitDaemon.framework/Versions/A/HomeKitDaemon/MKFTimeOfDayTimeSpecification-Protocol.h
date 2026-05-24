@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFTimeOfDayTimeSpecificationDatabaseID, NSNumber;
+@class NSNumber;
 
 @protocol MKFTimeOfDayTimeSpecification
-- (void)ueue:(NSNumber *)arg1 idsStreamService:device:delegate: /* Error: Ran out of types for this method. */;
+- (void)initWithSessionUUID:(NSNumber *)arg1 logIdentifier:workQueue:idsStreamService:device:delegate: /* Error: Ran out of types for this method. */;
 - (void)esidentSyncManager;
 - (NSNumber *)Sending cancellation for existing sent invite %@;
 - (NSNumber *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFTimeOfDayTimeSpecificationDatabaseID *databaseID;
 @property(copy, nonatomic) NSNumber *hour;
-@property(copy, nonatomic) NSNumber *minute;
 @end
 

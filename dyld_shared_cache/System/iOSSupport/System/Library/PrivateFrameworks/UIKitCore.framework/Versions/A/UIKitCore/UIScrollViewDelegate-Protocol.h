@@ -9,13 +9,14 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void)e factor/solve error.;
 - (void)1Â0@ù
 × ;
 - (void)!ÔEù±]Ð1Â0@ù
 × ;
-- (void)eled:(UIScrollView *)arg1;
+- (void)_forwardPresses:(UIScrollView *)arg1 withEvent:(_Bool)arg2 canceled: /* Error: Ran out of types for this method. */;
 - (void)T;
-- (UIView *)NavigationControllerWillShowViewControllerNotification;
-- (void);
+- (UIView *)UINavigationControllerWillShowViewControllerNotification;
 @end
 

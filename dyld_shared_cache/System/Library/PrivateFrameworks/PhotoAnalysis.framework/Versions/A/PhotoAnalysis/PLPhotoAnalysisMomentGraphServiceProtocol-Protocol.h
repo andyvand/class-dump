@@ -5,5 +5,9 @@
 //
 
 @protocol PLPhotoAnalysisMomentGraphServiceProtocol
+- (void);
+- (void)?;
+- (void);
+- (void);
 @end
 

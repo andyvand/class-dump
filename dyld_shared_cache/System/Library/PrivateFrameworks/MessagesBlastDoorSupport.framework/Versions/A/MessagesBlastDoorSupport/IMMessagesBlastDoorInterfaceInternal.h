@@ -7,7 +7,6 @@
 @interface IMMessagesBlastDoorInterfaceInternal
 {
     id bd;
-    id type;
 }
 
 + (_Bool);
@@ -27,36 +26,36 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setInvalidationHandler:(id)arg1;
+- (id)_fastVisualTempoTarget;
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ated  is not String,  will remove stored Feedback upload;
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id)serverChangeToken;
+- (void);
+- (id);
+- (id);
+- (id)prefersMediaPresentationSettingsMenuGroupTitle;
+- (void)_volumeButtonFullScreenSize;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)ary/Frameworks/AVRouting.framework/Versions/A/AVRouting;
 - (void);
 - (void);
 

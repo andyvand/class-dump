@@ -9,7 +9,6 @@
 @interface BRDbRowObjectID : BRFileObjectID
 {
     unsigned long long _rowId;
-    unsigned char _type;
 }
 
 + (_Bool);

@@ -4,55 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSDateComponents, NSLocale, NSString, NSTimeZone, UIColor, _UIDatePickerChineseCalendar, _UIDatePickerDateRange;
+@class NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerDataModel
 {
     NSLocale *_effectiveLocale;
-    NSCalendar *_effectiveCalendar;
-    _UIDatePickerChineseCalendar *_chineseWrapperCalendar;
-    NSCalendar *_lastSelectedDateComponentsCalendar;
-    _Bool _roundsToMinuteInterval;
-    long long _datePickerStyle;
-    long long _datePickerMode;
-    NSLocale *_locale;
-    NSCalendar *_calendar;
-    NSTimeZone *_timeZone;
-    NSDate *_date;
-    NSDateComponents *_lastSelectedDateComponents;
-    _UIDatePickerDateRange *_dateRange;
-    long long _minuteInterval;
-    NSString *_customFontDesign;
-    UIColor *_customTextColor;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
+- (void)16@"NSDate"24Q32Q40q48@?<v@?>56;
+- (void)20@28;
+- (void)storeMessage:(id)arg1 forceReplace:modifyError:modifyFlags:flagMask:updateMessageCache:calculateUnreadCount:reindexMessage:isCloudImport: /* Error: Ran out of types for this method. */;
+- (void)storeAttachmentWithTransfer:(id)arg1 withChatGUID: /* Error: Ran out of types for this method. */;
+- (_Bool)replacedNicknameForHandleIDInHandledMapIfNeeded:nickname: /* Error: Ran out of types for this method. */;
+- (void)refreshIDStatusForDestinations:service:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
+- (long long)fetchIgnoredNicknameHandlesWithReply: /* Error: Ran out of types for this method. */;
+- (id)enumerateIndexesUsingBlock: /* Error: Ran out of types for this method. */;
+- (id)deferredUnreadCountRefresh;
+- (id)_chatsForMessageGUID:enableVerboseLogging: /* Error: Ran out of types for this method. */;
+- (_Bool)_capabilities;
+- (id)_proxyPassword;
+- (id)shID;
+- (id);
+- (id)IMDaemonCoreIncomingMessageTracking;
+- (id)IMDaemonCoreMessageReceivedTimingAdditions;
+- (id)ignorePlayedReceipts;
+- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (void)E;
 - (void);
 - (long long);
 - (long long);
@@ -61,9 +46,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)nSequenceViewHorizontalAlignmentConstraint: /* Error: Ran out of types for this method. */;
-- (void)ureRecognizerShouldBeginWithEvent:(id)arg1;
-- (void)mmingIgnoreTouches;
+- (id)setMainActionButtonSequenceViewHorizontalAlignmentConstraint: /* Error: Ran out of types for this method. */;
+- (void)_exteriorPanGestureRecognizerShouldBeginWithEvent:(id)arg1;
+- (void)shouldDimmingIgnoreTouches;
 - (void);
 - (void);
 - (id);
@@ -71,26 +56,7 @@ __attribute__((visibility("hidden")))
 d;
 
 // Remaining properties
-@property(copy, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(retain, nonatomic) NSString *customFontDesign; // @synthesize customFontDesign=_customFontDesign;
-@property(retain, nonatomic) UIColor *customTextColor; // @synthesize customTextColor=_customTextColor;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) long long datePickerMode; // @synthesize datePickerMode=_datePickerMode;
 @property(nonatomic) long long datePickerStyle; // @synthesize datePickerStyle=_datePickerStyle;
-@property(readonly, nonatomic) _UIDatePickerDateRange *dateRange; // @synthesize dateRange=_dateRange;
-@property(readonly, nonatomic) NSCalendar *effectiveCalendar;
-@property(readonly, nonatomic) NSDate *effectiveDate;
-@property(readonly, copy, nonatomic) NSDateComponents *effectiveDateComponents;
-@property(readonly, nonatomic) NSLocale *effectiveLocale;
-@property(readonly, nonatomic) _Bool followsSystemHourCycle;
-@property(readonly, nonatomic) NSCalendar *formattingCalendar;
-@property(retain, nonatomic) NSDateComponents *lastSelectedDateComponents; // @synthesize lastSelectedDateComponents=_lastSelectedDateComponents;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSDate *maximumDate;
-@property(retain, nonatomic) NSDate *minimumDate;
-@property(nonatomic) long long minuteInterval; // @synthesize minuteInterval=_minuteInterval;
-@property(nonatomic) _Bool roundsToMinuteInterval; // @synthesize roundsToMinuteInterval=_roundsToMinuteInterval;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

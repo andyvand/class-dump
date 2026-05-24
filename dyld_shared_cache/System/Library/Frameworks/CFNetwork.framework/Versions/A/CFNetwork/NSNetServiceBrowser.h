@@ -9,21 +9,18 @@
 @interface NSNetServiceBrowser
 {
     id _netServiceBrowser;
-    id _delegate;
-    void *_reserved;
-    _Bool _includesPeerToPeer;
 }
 
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (struct __CFNetServiceBrowser *);
-- (void);
-- (void);
+- (void)1;
+- (void)alpha_info_for_masking_colors;
 - (void);
 - (id);
 - (id);
@@ -33,7 +30,6 @@
 
 // Remaining properties
 @property id <NSNetServiceBrowserDelegate> delegate;
-@property _Bool includesPeerToPeer; // @synthesize includesPeerToPeer=_includesPeerToPeer;
 
 @end
 

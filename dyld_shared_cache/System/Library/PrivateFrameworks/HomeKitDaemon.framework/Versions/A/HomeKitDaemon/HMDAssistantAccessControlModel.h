@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantAccessControlModel : HMDBackingStoreModelObject
@@ -17,12 +17,7 @@ __attribute__((visibility("hidden")))
 - (id)9(:|: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accessoryModelIDs; // @dynamic accessoryModelIDs;
-@property(copy, nonatomic) NSNumber *activityNotificationsEnabledForPersonalRequests; // @dynamic activityNotificationsEnabledForPersonalRequests;
-@property(retain, nonatomic) NSString *changeTag; // @dynamic changeTag;
 @property(copy, nonatomic) NSNumber *enabled; // @dynamic enabled;
-@property(copy, nonatomic) NSNumber *options; // @dynamic options;
-@property(copy, nonatomic) NSArray *siriEndpointAccessoryModelUUIDs; // @dynamic siriEndpointAccessoryModelUUIDs;
 
 @end
 

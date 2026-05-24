@@ -5,5 +5,7 @@
 //
 
 @protocol CRKStudentDaemonXPCInterface
+- (void);
+- (void);
 @end
 

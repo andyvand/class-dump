@@ -5,5 +5,21 @@
 //
 
 @protocol VFXWorldRendererDelegate
+
+@optional
+- (void)ry %@;
+- (void)rchive attachment from temp directory %@;
+- (void)ment;
+- (void)insertion needed.;
+- (void)message_attachments and attachments table. No insertion needed.;
+- (void)(SELECT MIN(age) FROM undonated_partials_percentiles WHERE percentile=19) as partial_age_p95
+          FROM undonated_partials
+    ),
+    donated_partials AS (
+        SELECT *
+          FROM with_age
+         WHERE is_partial
+           AND is_donated
+           AND ;
 @end
 

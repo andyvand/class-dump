@@ -11,7 +11,7 @@
     CDPContext *_context;
 }
 
-- (void);
+- (void)initWithAssetType:(_Bool)arg1 majorTargetBuild:minorTargetBuild:usingPolicies:usingExtensions: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
-@property(nonatomic) _Bool hasDisabledKeychainExplicitly;
 
 @end
 

@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVPrioritizedSize
 {
     NSMutableArray *_requiredPrioritySizes;
-    NSMutableArray *_veryHighPrioritySizes;
-    NSMutableArray *_highPrioritySizes;
-    NSMutableArray *_mediumPrioritySizes;
-    NSMutableArray *_lowPrioritySizes;
-    struct CGSize _currentTotalSize;
 }
 
 + (id);
@@ -31,17 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
-- (id);
+- (void)h;
+- (id)n::SCSessionState_IsValid(value) /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGSize currentTotalSize; // @synthesize currentTotalSize=_currentTotalSize;
-@property(retain, nonatomic) NSMutableArray *highPrioritySizes; // @synthesize highPrioritySizes=_highPrioritySizes;
-@property(retain, nonatomic) NSMutableArray *lowPrioritySizes; // @synthesize lowPrioritySizes=_lowPrioritySizes;
-@property(retain, nonatomic) NSMutableArray *mediumPrioritySizes; // @synthesize mediumPrioritySizes=_mediumPrioritySizes;
 @property(retain, nonatomic) NSMutableArray *requiredPrioritySizes; // @synthesize requiredPrioritySizes=_requiredPrioritySizes;
-@property(retain, nonatomic) NSMutableArray *veryHighPrioritySizes; // @synthesize veryHighPrioritySizes=_veryHighPrioritySizes;
 
 @end
 

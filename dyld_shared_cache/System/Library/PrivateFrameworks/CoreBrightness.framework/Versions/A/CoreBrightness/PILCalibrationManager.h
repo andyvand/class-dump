@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_os_log;
-
 __attribute__((visibility("hidden")))
 @interface PILCalibrationManager
 {
     unsigned int _service;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (id);
-- (id);
+- (id)(;
 - (long long);
 - (id);
 - (id);

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTPodcastPlaylistSettings, MTSyncInfo, NSOrderedSet, NSSet, NSString;
-
 @interface MTPlaylist
 {
 }
@@ -27,36 +25,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)Q*;
+- (_Bool)Iq4;
 - (_Bool)´.Òÿüÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *addedEpisodes; // @dynamic addedEpisodes;
-@property(nonatomic) int containerOrder; // @dynamic containerOrder;
-@property(retain, nonatomic) MTPodcastPlaylistSettings *defaultSettings; // @dynamic defaultSettings;
-@property(retain, nonatomic) NSSet *deletedEpisodes; // @dynamic deletedEpisodes;
-@property(nonatomic) long long downloadedCount; // @dynamic downloadedCount;
-@property(retain, nonatomic) NSOrderedSet *episodes; // @dynamic episodes;
-@property(nonatomic) long long flags; // @dynamic flags;
-@property(nonatomic) double generatedDate; // @dynamic generatedDate;
-@property(nonatomic) _Bool hidden; // @dynamic hidden;
-@property(nonatomic) _Bool includesAllPodcasts;
 @property(readonly, nonatomic) _Bool isFolder;
-@property(readonly, nonatomic) _Bool isITunesPlaylist;
-@property(nonatomic) _Bool isItunesPlaylist;
-@property(nonatomic) _Bool isUngroupedList;
-@property(nonatomic) long long mediaLibraryId; // @dynamic mediaLibraryId;
-@property(nonatomic) long long parentMediaLibraryId; // @dynamic parentMediaLibraryId;
-@property(retain, nonatomic) NSOrderedSet *podcasts; // @dynamic podcasts;
-@property(retain, nonatomic) NSOrderedSet *settings; // @dynamic settings;
-@property(nonatomic) _Bool showInHome; // @dynamic showInHome;
-@property(nonatomic) long long sortOrder; // @dynamic sortOrder;
-@property(retain, nonatomic) MTSyncInfo *syncInfo; // @dynamic syncInfo;
-@property(retain, nonatomic) NSString *title; // @dynamic title;
-@property(nonatomic) long long unplayedCount; // @dynamic unplayedCount;
-@property(nonatomic) double updatedDate; // @dynamic updatedDate;
-@property(retain, nonatomic) NSString *uuid; // @dynamic uuid;
 
 @end
 

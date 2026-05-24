@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessorySettingsLocalMessageHandler, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDMessageRouter, HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMFMessageDispatcher, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingsMessenger
 {
     NSUUID *_messageTargetUUID;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDMessageRouter> _messageRouter;
-    HMDAccessorySettingsLocalMessageHandler *_messageHandler;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 + (id)rìyD;
-- (void);
+- (void)endingRules rules %@ at path %@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)setNumberOfDaysInAggregations:(id)arg1;
+- (void)setNumberOfAssetsBySceneNode:(id)arg1;
 - (id);
 - (id)Aà°!äCùð1Â0@ù
 × ;
@@ -36,22 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
 @property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) HMDAccessorySettingsLocalMessageHandler *messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly) id <HMDMessageRouter> messageRouter; // @synthesize messageRouter=_messageRouter;
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

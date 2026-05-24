@@ -13,14 +13,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)was found;
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfUnits;
-@property(readonly, nonatomic) unsigned long long unit;
 
 @end
 

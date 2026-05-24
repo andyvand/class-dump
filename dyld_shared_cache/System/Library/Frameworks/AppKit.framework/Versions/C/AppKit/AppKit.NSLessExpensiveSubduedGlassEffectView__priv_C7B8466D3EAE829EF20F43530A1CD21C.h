@@ -11,23 +11,18 @@
 @interface AppKit.NSLessExpensiveSubduedGlassEffectView__priv_C7B8466D3EAE829EF20F43530A1CD21C : NSView
 {
     id filterView;
-    id accessibilityBorderView;
-    id contentHolderView;
-    id _contentView;
-    id luma;
 }
 
 - (long long);
 - (id);
 - (void);
 - (void);
-- (id)NSResponderDebugInfoWithAction:(struct CGRect)arg1;
+- (id)_startCollectingNSResponderDebugInfoWithAction:(struct CGRect)arg1;
 - (id);
 - (void)Lÿy;
 
 // Remaining properties
 @property(nonatomic, readonly) NSViewCornerConfiguration *_cornerConfiguration;
-@property(nonatomic, readonly) long long _scrollPocketElementStyle;
 
 @end
 

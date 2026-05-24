@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDCloudShareTrustManager, HMDHome, NSString;
+
 @protocol HMDCloudShareTrustManagerDataSource
+- (NSString *);
+- (HMDHome *)4@32;
+- (_Bool)ter eraseWithCompletion:(HMDCloudShareTrustManager *)arg1 ]_block_invoke;
 @end
 

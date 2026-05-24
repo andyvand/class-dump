@@ -6,18 +6,14 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebLogAction : AMSUIWebAction
 {
     _Bool _sensitive;
-    long long _level;
-    NSString *_message;
 }
 
-- (id);
-- (id);
+- (id)new build version:%@, previously on:%@ /* Error: Ran out of types for this method. */;
+- (id)PriorityAssetSpecifiers;
 - (unsigned char);
 - (_Bool);
 - (void);
@@ -28,17 +24,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property long long level; // @synthesize level=_level;
-@property(retain) NSString *message; // @synthesize message=_message;
-@property _Bool sensitive; // @synthesize sensitive=_sensitive;
-@property(readonly) Class superclass;
 
 @end
 

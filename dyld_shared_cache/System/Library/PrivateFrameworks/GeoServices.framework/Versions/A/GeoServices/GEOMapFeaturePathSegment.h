@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapFeatureRoad;
-
 @interface GEOMapFeaturePathSegment
 {
     struct vector<GEOLocationCoordinate3D, std::allocator<GEOLocationCoordinate3D>> _coordinates;
-    double _length;
-    GEOMapFeatureRoad *_road;
 }
 
 - (id);
 - (id);
 - (CDStruct_39925896);
-- (unsigned long long);
+- (unsigned long long)$;
 - (id);
 - (double);
 - (id);
 - (void)=6ô3;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long coordinateCount;
 @property(readonly, nonatomic) double length; // @synthesize length=_length;
-@property(readonly, nonatomic) GEOMapFeatureRoad *road; // @synthesize road=_road;
 
 @end
 

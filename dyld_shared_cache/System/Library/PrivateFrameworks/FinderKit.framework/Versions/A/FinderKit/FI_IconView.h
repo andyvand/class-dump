@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void);
+- (void)S;
 - (int);
 - (void);
 - (void);

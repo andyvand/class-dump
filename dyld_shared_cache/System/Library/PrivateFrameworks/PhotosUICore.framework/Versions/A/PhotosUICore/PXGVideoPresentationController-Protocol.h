@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol PXGVideoPresentationController
+- (void);
+- (void);
 - (NSString *)HAssets;
 
 // Remaining properties
-@property(readonly, nonatomic) long long actualPlayState;
-@property(readonly, nonatomic) long long desiredPlayState;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isCrossfadingFromStillToVideoEnabled;
 @end
 

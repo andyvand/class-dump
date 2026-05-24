@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface TZVersionInfo
 {
     NSString *_tzDataVersion;
     NSString *_bundleVersion;
-    NSString *_icuTZSchemaVersion;
-    NSArray *_changedFiles;
-    NSDictionary *_alertZones;
-    NSNumber *_shouldAlertAll;
-    NSURL *_diskLocation;
 }
 
-+ (id);
++ (id)!;
 + (id);
 + (id);
 + (id);
@@ -31,28 +26,22 @@
 - (void);
 - (void);
 - (void);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)+Ik8M	;
 - (id);
 - (_Bool);
-- (long long);
+- (long long)T;
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSDictionary *alertZones; // @synthesize alertZones=_alertZones;
 @property(retain) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(retain) NSArray *changedFiles; // @synthesize changedFiles=_changedFiles;
-@property(retain) NSURL *diskLocation; // @synthesize diskLocation=_diskLocation;
-@property(retain) NSString *icuTZSchemaVersion; // @synthesize icuTZSchemaVersion=_icuTZSchemaVersion;
-@property(retain) NSNumber *shouldAlertAll; // @synthesize shouldAlertAll=_shouldAlertAll;
 @property(retain) NSString *tzDataVersion; // @synthesize tzDataVersion=_tzDataVersion;
-@property(readonly) NSString *versionString;
 
 @end
 

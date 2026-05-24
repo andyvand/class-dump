@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorLiteTapback, NSString;
+@class NSString;
 
 @interface BlastDoorLiteRelayTextMessage
 {
@@ -12,17 +12,14 @@
 }
 
 - (id);
+- (id)dd}40{CGSize=dd}56@72;
 - (id);
-- (id);
-- (id);
+- (id)H8;
 - (id);
 - (void)É®Ä`;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *chatIdentifier;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *plainTextBody;
-@property(nonatomic, readonly) BlastDoorLiteTapback *tapback;
 
 @end
 

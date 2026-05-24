@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableData;
-
 @interface PPNeuralNetworkBuilder
 {
     unsigned long long _prevSize;
-    unsigned long long _nlayers;
-    NSMutableData *_descriptors;
-    NSMutableArray *_weightsAndBiases;
-    _Bool _haveOutputLayer;
-    _Bool _done;
 }
 
 - (id);

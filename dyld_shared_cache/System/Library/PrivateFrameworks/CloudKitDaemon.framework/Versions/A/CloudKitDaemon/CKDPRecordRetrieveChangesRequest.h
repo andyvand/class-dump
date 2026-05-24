@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAssetsToDownload, CKDPRecordZoneIdentifier, CKDPRequestedFields, NSData;
+@class CKDPAssetsToDownload;
 
 @interface CKDPRecordRetrieveChangesRequest
 {
     CKDPAssetsToDownload *_assetsToDownload;
-    unsigned int _maxChanges;
-    int _requestedChangeTypes;
-    CKDPRequestedFields *_requestedFields;
-    NSData *_syncContinuationToken;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    _Bool _ignoreCallingDeviceChanges;
-    _Bool _includeMergeableDeltas;
-    _Bool _newestFirst;
-    struct {
-        unsigned int maxChanges:1;
-        unsigned int requestedChangeTypes:1;
-        unsigned int ignoreCallingDeviceChanges:1;
-        unsigned int includeMergeableDeltas:1;
-        unsigned int newestFirst:1;
-    } _has;
 }
 
 + (id);
+- (void)UsoTaskBuilder_noVerb_common_SearchObject;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
 - (void);
@@ -47,9 +32,11 @@
 - (int);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)at for conduit source.
+;
+- (unsigned long long)ark.  Skip transcode. 
+;
+- (void);
 - (id);
 - (int);
 - (_Bool);
@@ -58,42 +45,25 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)__DATA_DIRTY;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)message, label) VALUES (?, ?);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)
 × ;
-- (Class)equestForURL:error: /* Error: Ran out of types for this method. */;
+- (Class)handleShareAccessRequestForURL:error: /* Error: Ran out of types for this method. */;
 - (unsigned int)Ôý;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPAssetsToDownload *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(readonly, nonatomic) _Bool hasAssetsToDownload;
-@property(nonatomic) _Bool hasIgnoreCallingDeviceChanges;
-@property(nonatomic) _Bool hasIncludeMergeableDeltas;
-@property(nonatomic) _Bool hasMaxChanges;
-@property(nonatomic) _Bool hasNewestFirst;
-@property(nonatomic) _Bool hasRequestedChangeTypes;
-@property(readonly, nonatomic) _Bool hasRequestedFields;
 @property(readonly, nonatomic) _Bool hasSyncContinuationToken;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) _Bool ignoreCallingDeviceChanges; // @synthesize ignoreCallingDeviceChanges=_ignoreCallingDeviceChanges;
-@property(nonatomic) _Bool includeMergeableDeltas; // @synthesize includeMergeableDeltas=_includeMergeableDeltas;
-@property(nonatomic) unsigned int maxChanges; // @synthesize maxChanges=_maxChanges;
-@property(nonatomic) _Bool newestFirst; // @synthesize newestFirst=_newestFirst;
-@property(nonatomic) int requestedChangeTypes; // @synthesize requestedChangeTypes=_requestedChangeTypes;
-@property(retain, nonatomic) CKDPRequestedFields *requestedFields; // @synthesize requestedFields=_requestedFields;
-@property(retain, nonatomic) NSData *syncContinuationToken; // @synthesize syncContinuationToken=_syncContinuationToken;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

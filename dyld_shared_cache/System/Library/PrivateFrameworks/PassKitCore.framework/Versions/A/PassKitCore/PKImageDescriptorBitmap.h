@@ -11,7 +11,6 @@
 @interface PKImageDescriptorBitmap : PKImageDescriptor
 {
     NSData *_imageHash;
-    PKImage *_image;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)CoreRoutineMapItemSourceForwardGeocode;
 - (void)bnailData:%lu;  /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -9,7 +9,6 @@
 @interface AppleMediaServicesUI.MarketingItemModel : AppleMediaServicesUI.DynamicModel
 {
     id _offerHints;
-    id _seed;
 }
 
 @end

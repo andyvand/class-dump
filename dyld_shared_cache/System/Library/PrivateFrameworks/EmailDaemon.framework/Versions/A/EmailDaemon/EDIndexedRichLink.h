@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedMessageID, EDPersistedRichLinkID;
+@class EDPersistedMessageID;
 
 @interface EDIndexedRichLink
 {
     EDPersistedMessageID *messageID;
-    EDPersistedRichLinkID *richLinkID;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_PhotoMemory;
 - (long long);
 - (_Bool);
 - (void)BlockInDatabase called before database setup is complete;
 - (id)Ü;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) EDPersistedMessageID *messageID; // @synthesize messageID;
-@property(nonatomic, readonly) EDPersistedRichLinkID *richLinkID; // @synthesize richLinkID;
 
 @end
 

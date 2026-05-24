@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.CoreDataStoreActivityDistributionLogEvent
 {
     id storeType;
-    id indexOfDistribution;
-    id accessCount;
-    id loadedCount;
-    id unloadedCount;
-    void coreAnalyticsEventName;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (id);
@@ -25,9 +19,7 @@
 - (void)ø¯>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
 
 @end
 

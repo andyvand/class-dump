@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)itemContainerViewForSwipeActionController: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (_Bool);

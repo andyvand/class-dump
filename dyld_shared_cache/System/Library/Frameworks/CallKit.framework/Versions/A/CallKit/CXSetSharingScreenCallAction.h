@@ -6,28 +6,24 @@
 
 #import <CallKit/CXCallAction.h>
 
-@class CXScreenShareAttributes;
-
 @interface CXSetSharingScreenCallAction : CXCallAction
 {
     _Bool _sharingScreen;
-    CXScreenShareAttributes *_attributes;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)QMI_ERR_VINYL_NOCAPABLE_UICC;
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)+;
+- (void)audioTraits;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CXScreenShareAttributes *attributes; // @synthesize attributes=_attributes;
 @property(nonatomic, getter=isSharingScreen) _Bool sharingScreen; // @synthesize sharingScreen=_sharingScreen;
 
 @end

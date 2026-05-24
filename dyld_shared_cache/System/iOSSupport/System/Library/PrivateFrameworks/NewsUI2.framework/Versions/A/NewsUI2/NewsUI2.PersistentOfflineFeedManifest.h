@@ -7,11 +7,6 @@
 @interface NewsUI2.PersistentOfflineFeedManifest
 {
     id name;
-    id lastKnownValue;
-    id lastKnownCreatedAt;
-    id lastKnownUpdatedAt;
-    id contentContext;
-    id updatedAtSetting;
 }
 
 @end

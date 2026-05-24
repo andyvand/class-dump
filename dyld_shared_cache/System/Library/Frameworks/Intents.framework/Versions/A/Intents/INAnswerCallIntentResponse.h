@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INConnectedCall, NSArray, NSString;
-
 @interface INAnswerCallIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)saveURL;
 + (int);
 + (long long);
 + (_Bool);
@@ -20,34 +18,24 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (long long);
+- (id)am;
 - (id);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (long long);
+- (void)@32@0:(id)arg1 8@16@24;
+- (id);
+- (id);
+- (id)\s;
+- (void)!= NULL;
+- (id);
+- (id);
+- (long long)_INPBGetCarLockStatusIntent;
 - (long long)Øÿ;
 - (void)@gúÿ;
 
 // Remaining properties
-@property(copy) INConnectedCall *answeredCall;
-@property(copy) NSArray *callRecords;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long statusCode;
-@property(readonly) Class superclass;
 
 @end
 

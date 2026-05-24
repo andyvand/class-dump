@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification;
+
 @protocol NSTextDelegate
+
+@optional
+- (_Bool);
+- (_Bool)AgeRangeAccountStoreProviding;
+- (void)multiUserConfidentScoreThresholdForPhId:(NSNotification *)arg1;
 @end
 

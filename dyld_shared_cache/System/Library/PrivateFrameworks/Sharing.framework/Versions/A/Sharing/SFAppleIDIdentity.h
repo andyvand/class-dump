@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface SFAppleIDIdentity
 {
     NSString *_encDSID;
-    NSString *_intermediateCertificateSerialNumber;
-    _Bool _linkedToCurrentUser;
-    NSString *_accountIdentifier;
-    NSString *_altDSID;
-    NSString *_appleID;
-    NSDate *_certificateExpirationDate;
-    NSData *_certificatePersistentReference;
-    NSDate *_intermediateCertificateExpirationDate;
-    NSData *_intermediateCertificatePersistentReference;
-    NSDate *_lastValidationAttemptDate;
-    NSDate *_lastValidationDate;
-    NSDate *_modificationDate;
-    NSData *_privateKeyPersistentReference;
-    NSString *_serialNumber;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -37,10 +23,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)S;
 - (void);
 - (void);
 - (void);
@@ -52,19 +38,19 @@
 - (_Bool);
 - (void);
 - (struct __SecCertificate *);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (struct __SecIdentity *);
 - (struct __SecCertificate *);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)curtain;
+- (void)not array;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)BluetoothHCILEBroadcomAddIRKToList:addressType:address:outLEextOpcode:outIRKListAvailableSpace: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -75,23 +61,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(retain, nonatomic) NSDate *certificateExpirationDate; // @synthesize certificateExpirationDate=_certificateExpirationDate;
-@property(readonly, nonatomic) _Bool certificateExpired;
-@property(retain, nonatomic) NSData *certificatePersistentReference; // @synthesize certificatePersistentReference=_certificatePersistentReference;
-@property(retain, nonatomic) NSDate *intermediateCertificateExpirationDate; // @synthesize intermediateCertificateExpirationDate=_intermediateCertificateExpirationDate;
-@property(readonly, nonatomic) _Bool intermediateCertificateExpired;
-@property(retain, nonatomic) NSData *intermediateCertificatePersistentReference; // @synthesize intermediateCertificatePersistentReference=_intermediateCertificatePersistentReference;
-@property(readonly, nonatomic) NSString *intermediateCertificateSerialNumber;
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(retain, nonatomic) NSDate *lastValidationAttemptDate; // @synthesize lastValidationAttemptDate=_lastValidationAttemptDate;
-@property(retain, nonatomic) NSDate *lastValidationDate; // @synthesize lastValidationDate=_lastValidationDate;
-@property(nonatomic) _Bool linkedToCurrentUser; // @synthesize linkedToCurrentUser=_linkedToCurrentUser;
-@property(retain, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(readonly, nonatomic) _Bool needsRenewal;
-@property(retain, nonatomic) NSData *privateKeyPersistentReference; // @synthesize privateKeyPersistentReference=_privateKeyPersistentReference;
-@property(retain, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

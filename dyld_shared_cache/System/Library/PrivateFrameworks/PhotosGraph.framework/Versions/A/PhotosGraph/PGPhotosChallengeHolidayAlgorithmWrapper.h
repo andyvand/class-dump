@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGGraph, PHPhotoLibrary;
+@class PGGraph;
 
 @interface PGPhotosChallengeHolidayAlgorithmWrapper
 {
     PGGraph *_graph;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (unsigned short);
+- (id)eventTapManager:(id)arg1 passivelyTappedKeyboardEvent:withProxy: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)nceHighRecallThreshold;
+- (void)confidenceHighRecallThreshold;
 - (id);
 - (id)tripDateInterval;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

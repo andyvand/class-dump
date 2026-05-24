@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegationNetServiceTXTRecord, NSArray, NSMutableArray, NSNetService, NSObject, NSString;
+@class NSNetService, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationProviderNetService
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSObject<OS_dispatch_queue> *_netServiceStreamResolutionQueue;
-    NSMutableArray *_resolutionCompletionHandlers;
-    long long _state;
-    ICDelegationNetServiceTXTRecord *_txtRecord;
-    NSNetService *_netService;
 }
 
 - (void);
@@ -24,28 +18,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)retrieveBestArtworkTokensForEntityPersistentID:entityType:artworkType:retrievalTime:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ExperienceAvailable=%{BOOL}u (oldValue=%{BOOL}u);
+- (void)ing albumLikedState=%lld (oldValue=%lld);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void)ñXñ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSArray *delegationAccountUUIDs;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *deviceName;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSNetService *netService; // @synthesize netService=_netService;
-@property(readonly, nonatomic) long long securityMode;
-@property(readonly) Class superclass;
 
 @end
 

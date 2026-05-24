@@ -6,50 +6,40 @@
 
 #import <UIKitCore/_UIBarContentView.h>
 
-@class NSLayoutConstraint, NSMapTable, _UIBarButtonItemData, _UIButtonBar, _UIPointerInteractionAssistant;
+@class _UIButtonBar;
 
 __attribute__((visibility("hidden")))
 @interface _UIToolbarContentView : _UIBarContentView
 {
     _UIButtonBar *_buttonBar;
-    _UIPointerInteractionAssistant *_assistant;
-    NSLayoutConstraint *_buttonBarLeadingConstraint;
-    NSLayoutConstraint *_buttonBarTrailingConstraint;
-    NSMapTable *_absorptionTable;
-    double _standardEdgeSpacing;
-    _Bool _compactMetrics;
-    long long _itemDistribution;
-    _UIBarButtonItemData *_plainItemAppearance;
-    _UIBarButtonItemData *_doneItemAppearance;
-    struct NSDirectionalEdgeInsets _padding;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets)R;
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (double)1Â0@ù
 × ;
 - (void)tion"16;
-- (unsigned long long)iewWillAppear:(id)arg1;
+- (unsigned long long)viewController:(id)arg1 viewWillAppear: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¼%d&ü'T)+;
 - (void)earchHidNavigationBar` true because navigationItem has no searchController and search bar is not hosted by navigation bar. self if a %@. viewController is a %@. navigationItem = %@;
 - (double)m reference angle mode requested for an unknown contextID (%i). Returning "unknown".;
 - (void)B;
 - (void);
-- (_Bool)xSize;
+- (_Bool)maxSize;
 - (void)ayout!;
 - (long long).;
 - (double)subtitle='%@';
-- (void)valuet;
-- (void)tionViewDiffableDataSourceReorderingHandlersC;
+- (void)SS3key_yp5valuet;
+- (void)So52UICollectionViewDiffableDataSourceReorderingHandlersC;
 - (struct NSDirectionalEdgeInsets);
 - (void);
 - (void)À;
@@ -61,11 +51,7 @@ __attribute__((visibility("hidden")))
 - (void)ßÐÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool compactMetrics; // @synthesize compactMetrics=_compactMetrics;
-@property(copy, nonatomic) _UIBarButtonItemData *doneItemAppearance; // @synthesize doneItemAppearance=_doneItemAppearance;
-@property(nonatomic) long long itemDistribution; // @synthesize itemDistribution=_itemDistribution;
 @property(nonatomic) struct NSDirectionalEdgeInsets padding; // @synthesize padding=_padding;
-@property(copy, nonatomic) _UIBarButtonItemData *plainItemAppearance; // @synthesize plainItemAppearance=_plainItemAppearance;
 
 @end
 

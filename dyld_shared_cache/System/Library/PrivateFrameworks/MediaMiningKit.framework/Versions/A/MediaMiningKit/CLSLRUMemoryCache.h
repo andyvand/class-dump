@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSRecursiveLock;
-
 @interface CLSLRUMemoryCache
 {
     unsigned long long _numberOfSlots;
-    NSMapTable *_cacheDictionary;
-    NSRecursiveLock *_recursiveLock;
-    struct _CLSLRUMemoryCacheList *_leastRecentUsedList;
-    NSMapTable *_leastRecentUsedDictionary;
 }
 
 - (unsigned long long);
 - (void);
-- (id);
+- (id)kgRequiredLabels;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)setMusicCurationOverrideDictionary:(unsigned long long)arg1;
+- (void)_featureType;
+- (id)y) %.2f%%;
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)isSunsetSunrise;
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentUsedSlots;
 @property(nonatomic) unsigned long long numberOfSlots; // @synthesize numberOfSlots=_numberOfSlots;
 
 @end

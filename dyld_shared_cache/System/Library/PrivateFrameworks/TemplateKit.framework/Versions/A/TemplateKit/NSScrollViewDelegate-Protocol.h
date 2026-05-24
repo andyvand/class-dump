@@ -6,14 +6,15 @@
 
 @protocol NSScrollViewDelegate
 
+@optional
+- (void);
+- (_Bool);
+- (_Bool)setBlockIdleStatus: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
 @property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
 
 @end
 

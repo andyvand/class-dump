@@ -7,15 +7,6 @@
 @interface SwiftUI.SceneBridge
 {
     id sceneBridgePublishers;
-    id window;
-    id initialUserActivity;
-    id viewGraph;
-    id _preferredActivationConditions;
-    id defaultActivationConditions;
-    id userActivityTrackingInfo;
-    id userActivityPreferenceSeed;
-    id activationConditionsPreferenceSeed;
-    id enqueuedEvents;
 }
 
 @end

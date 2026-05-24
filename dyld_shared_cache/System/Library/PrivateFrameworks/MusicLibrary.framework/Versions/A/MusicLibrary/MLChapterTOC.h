@@ -8,20 +8,20 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (unsigned int);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (id)_clientBundleIdentifier;
+- (id)_clientBackgroundTransitionObserverToken;
+- (id)_checkForAndHandleExcessiveRecoveryAttemptsForPathManager:(unsigned int)arg1 sqliteErrorHandler: /* Error: Ran out of types for this method. */;
+- (unsigned int)_checkEnableStateOnIdle;
+- (unsigned int)_checkDenyPolicy;
+- (_Bool)Version;
+- (unsigned int)Value;
+- (unsigned int)us;
+- (unsigned int)geToken;
+- (unsigned int)Q,R,N,V_minCloudStorageTier;
+- (unsigned int)adEntitled;
 - (void *);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)e",R,&,N;
+- (unsigned int)V_subRelationshipEntityName;
 
 @end
 

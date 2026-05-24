@@ -11,7 +11,7 @@
 - (id);
 - (id);
 - (id);
-- (void)tedIntroductions:(id)arg1;
+- (void)setIncludeAcceptedIntroductions:(id)arg1;
 
 @end
 

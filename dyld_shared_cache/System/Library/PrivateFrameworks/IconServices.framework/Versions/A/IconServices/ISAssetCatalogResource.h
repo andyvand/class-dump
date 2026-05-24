@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICatalog, IFImageBag, NSString;
-@protocol ISCompositorRecipe;
+@class CUICatalog;
 
 @interface ISAssetCatalogResource
 {
     _Bool _disableSubtype;
-    IFImageBag *_imageBag;
-    CUICatalog *_catalog;
-    NSString *_imageName;
-    long long _layoutDirection;
-    unsigned long long _platform;
-    long long _appearance;
-    long long _appearanceVariant;
-    id <ISCompositorRecipe> _suggestedRecipe;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)category;
++ (id)beginning;
++ (id)attributedSubstringFromRange:(id)arg1;
++ (id)?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}8^{__CFString=}16^{__DDScanner={__CFRuntimeBase=QAQ}^{__DDLRTable}^{__DDLexer}^{__DDCache}^{__DDTokenCache}^{__DDLexemCache}^{__DDScanQuery}^{__DDScanQuery}[7^{__DDLookupTable}]^{__CFString}d^{__CFData}^{DDSourceMatchCache}^{__CFArray}^{__CFArray}qqqq*@?db1b1CSC^{__CFLocale}iiC^{__CFArray}^{__CFArray}}24^{__CFString=}32C40;
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ictionary}qCf}16;
+- (id)@16Q24@32@40;
+- (id)32@0:(id)arg1 8@16@?24;
+- (id)ispatch_source>";
+- (_Bool)16Q24;
+- (_Bool)writeSourceFromRawData:(long long)arg1 source:(id)arg2 signature:withReply: /* Error: Ran out of types for this method. */;
+- (_Bool)writeSourceFromJSONFile:(long long)arg1 source:withReply: /* Error: Ran out of types for this method. */;
+- (_Bool)setLanguageHighConfidence: /* Error: Ran out of types for this method. */;
+- (void)hasSuffix:(struct CGImage *)arg1;
+- (long long)extractStartDate:startTimezone:endDate:endTimezone:allDayRef:referenceDate:referenceTimezone: /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)-61*;
 - (id);
 - (void);
 - (id);
@@ -47,34 +38,13 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)_clearInCallWWANOverrideTimerLocked;
 - (void);
 - (void)iiiI^}24;
 - (long long)øÿ"Ó&Pk;
 
 // Remaining properties
-@property long long appearance; // @synthesize appearance=_appearance;
-@property long long appearanceVariant; // @synthesize appearanceVariant=_appearanceVariant;
-@property(readonly) long long assetAppearance;
 @property(readonly) CUICatalog *catalog; // @synthesize catalog=_catalog;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disableSubtype; // @synthesize disableSubtype=_disableSubtype;
-@property(readonly) unsigned long long hash;
-@property(readonly) IFImageBag *imageBag; // @synthesize imageBag=_imageBag;
-@property(readonly) NSString *imageName; // @synthesize imageName=_imageName;
-@property long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property unsigned long long platform; // @synthesize platform=_platform;
-@property(readonly, getter=isPrecomposed) _Bool precomposed;
-@property(retain) id <ISCompositorRecipe> suggestedRecipe; // @synthesize suggestedRecipe=_suggestedRecipe;
-@property(readonly) Class superclass;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 
 @end
 

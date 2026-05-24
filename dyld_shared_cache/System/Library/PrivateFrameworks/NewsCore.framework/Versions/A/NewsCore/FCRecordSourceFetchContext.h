@@ -7,8 +7,6 @@
 @interface FCRecordSourceFetchContext
 {
     _Bool _refresh;
-    unsigned long long _cachePolicy;
-    double _maxCachedAge;
 }
 
 @end

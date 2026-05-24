@@ -5,5 +5,6 @@
 //
 
 @protocol UIKeyboardInputModeIndicatorControllerDelegate
+- (void)S;
 @end
 

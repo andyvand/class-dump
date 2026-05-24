@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCloudSyncUploadReasonLogEvent
 {
     long long _legacyPushCount;
-    long long _homeZonePushCount;
-    long long _homeManagerPushCount;
-    NSString *_saveReason;
 }
 
 + (id)pMessageTimerDelegate>";
 + (id)t}.16P for request identifier %{public,uuid_t}.16P from home:(id)arg1 %{public}@ count:(_Bool)arg2 %lu for characteristic write actions;
 + (id)user's remote access changed, so notifying clients of current settings;
-- (id);
+- (id)er] Subscribe to trip:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (long long);
@@ -26,10 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)SessionOnAuthCompletion();
 
 // Remaining properties
-@property(readonly) long long homeManagerPushCount; // @synthesize homeManagerPushCount=_homeManagerPushCount;
-@property(readonly) long long homeZonePushCount; // @synthesize homeZonePushCount=_homeZonePushCount;
 @property(readonly) long long legacyPushCount; // @synthesize legacyPushCount=_legacyPushCount;
-@property(readonly, nonatomic) NSString *saveReason; // @synthesize saveReason=_saveReason;
 
 @end
 

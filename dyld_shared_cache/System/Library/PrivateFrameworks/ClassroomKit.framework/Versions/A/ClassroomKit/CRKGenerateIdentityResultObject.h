@@ -9,7 +9,6 @@
 @interface CRKGenerateIdentityResultObject
 {
     NSData *_certificateData;
-    NSData *_privateKeyData;
 }
 
 + (_Bool);
@@ -17,13 +16,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *certificateData; // @synthesize certificateData=_certificateData;
-@property(copy, nonatomic) NSData *privateKeyData; // @synthesize privateKeyData=_privateKeyData;
 
 @end
 

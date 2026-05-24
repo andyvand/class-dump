@@ -7,8 +7,6 @@
 @interface HomeKitCore.XPCSubscription
 {
     id continuation;
-    id changes;
-    id id;
 }
 
 - (void);

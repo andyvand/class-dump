@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (id);
++ (id)attributesAtIndex:longestEffectiveRange:inRange: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);

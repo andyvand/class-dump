@@ -9,12 +9,11 @@
 @interface IPAPhotoAdjustmentPipeline
 {
     NSString *_platform;
-    unsigned long long _version;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)CMTimeFlags;
++ (id)NAVAssetExportSessionStatus;
 + (void);
 + (id)]_block_invoke;
 - (_Bool);
@@ -26,11 +25,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)setFrameProperties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

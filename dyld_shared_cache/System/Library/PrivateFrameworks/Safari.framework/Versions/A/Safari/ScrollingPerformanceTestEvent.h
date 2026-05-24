@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ScrollingPerformanceTestEvent
 {
     struct CGPoint _safari_locationInWindow;
-    struct CGPoint _safari_location;
-    double _safari_deltaY;
-    unsigned long long _safari_phase;
-    unsigned long long _safari_momentumPhase;
-    double _safari_timestamp;
 }
 
 - (id);
@@ -22,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
+- (double)-@  ;
 - (double);
+- (unsigned int)!ɚ;
 - (double);
-- (unsigned int);
-- (double);
-- (struct __CGEvent *);
+- (struct __CGEvent *);
 - (double);
 - (unsigned long long);
-- (double);
+- (double)networkUsageChanged: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (unsigned long long);
 - (struct CGPoint);

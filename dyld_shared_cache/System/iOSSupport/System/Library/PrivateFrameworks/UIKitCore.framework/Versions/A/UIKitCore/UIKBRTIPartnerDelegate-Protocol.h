@@ -4,18 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UIDictationInputModeOptions, UIKeyboardInputMode, UIKeyboardTaskQueue, UIResponder;
-@protocol UIAsyncTextInputClient, UIWKInteractionViewProtocol;
+@class NSDictionary, UIDictationInputModeOptions, UIKeyboardInputMode, UIKeyboardTaskQueue, UIResponder, UITextInputTraits;
+@protocol UIAsyncTextInputClient, UITextInput, UIWKInteractionViewProtocol;
 
 @protocol UIKBRTIPartnerDelegate
+- (UITextInputTraits *);
+- (void)collectionExistsWithPersistentID:groupingType: /* Error: Ran out of types for this method. */;
+- (void)canFetchMediaDataFromSender;
+- (void);
+- (void)(;
 - (void)¡;
 - (_Bool)
 × ;
 - (void)Qeð1Â0@ù
 × ;
-- (void)ection:(UIDictationInputModeOptions *)arg1;
-- (void)ateCenterBarConstraints;
-- (void)nly:returningDeviceMetricsOfFirstLine: /* Error: Ran out of types for this method. */;
+- (void)setPreviousMoveDirection:(UIDictationInputModeOptions *)arg1;
+- (void)_updateCenterBarConstraints;
+- (void)_drawTextInRect:baselineCalculationOnly:returningDeviceMetricsOfFirstLine: /* Error: Ran out of types for this method. */;
 - (void)tion:(UIKeyboardInputMode *)arg1;
 - (void)R,N,V__cggetriWorkspaceSize;
 - (NSDictionary *)LayoutConstraint",R,&,N,V_bottomBarInsetGuideConstraint;
@@ -24,30 +29,31 @@
 - (void)ÿ*þÿ¹îÿ;
 - (void)a translate session;
 - (void)splayContents"8Q16^B24;
-- (void)olorCandidateVerticalLight;
+- (void)UIKBColorCandidateVerticalLight;
 - (UIKeyboardTaskQueue *)nally reloading the same delegate;
 - (void)MorphableProvider;
 - (UIResponder<UIAsyncTextInputClient> *);
 - (UIResponder<UIWKInteractionViewProtocol> *);
 - (void)q;
 - (void){\;
-- (void)hLevelIncrement;
+- (void)ProposedDepthLevelIncrement;
 - (_Bool)zþ;
 - (void)ç²þ!213ç²þ;
-- (_Bool)ge;
+- (_Bool)HearingDevicePairedEarDidChangeMessage;
 - (void)34°þ;
-- (void)ion;
+- (void)_UISurfaceLightConfiguration;
 - (_Bool);
 - (void)°ß;
 - (void)oþðjR0;
-- (void)rollerWantsAnimation;
+- (void)__Key_searchControllerWantsAnimation;
 - (void);
-- (_Bool)kgroundMaterial;
+- (_Bool)SearchBarBackgroundMaterial;
+- (UIResponder<UITextInput> *)ElementStyle;
 - (void)33ünþ;
-- (_Bool)ider;
+- (_Bool)CellProvider;
 - (UIResponder *)"n;
 - (void)Ì¾R0©»33hö;
-- (void)roperties;
+- (void)AugmentedTitleViewProperties;
 - (_Bool)3Ôù{þ;
 - (void)ø;
 - (void)§zþ¸§zþ;
@@ -77,9 +83,6 @@
 - (void)\;
 
 // Remaining properties
-@property(nonatomic) _Bool canSuggestSupplementalItemsForCurrentSelection;
-@property(readonly, nonatomic) _Bool needAutofillLogin;
-@property(nonatomic) _Bool performingRemoteTextOperations;
 @property(readonly, nonatomic) UIKeyboardTaskQueue *taskQueue;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PGWallpaperSuggesterProtocol
++ (_Bool)setIsMenuController: /* Error: Ran out of types for this method. */;
 @end
 

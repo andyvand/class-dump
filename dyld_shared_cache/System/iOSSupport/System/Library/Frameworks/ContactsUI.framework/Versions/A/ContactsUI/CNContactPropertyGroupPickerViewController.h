@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSString, UITableView;
-@protocol CNContactGroupPickerDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNContactPropertyGroupPickerViewController
 {
     NSArray *_pickableGroups;
-    UITableView *_tableView;
-    NSArray *_prohibitedPropertyKeys;
-    id <CNContactGroupPickerDelegate> _groupPickerDelegate;
-    CNContact *_contact;
 }
 
 + (id);
@@ -29,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)canCreateNewMapping;
+- (void)ropertydata blob);;
 - (void);
 - (long long);
 - (void);
@@ -43,16 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ!âÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <CNContactGroupPickerDelegate> groupPickerDelegate; // @synthesize groupPickerDelegate=_groupPickerDelegate;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *prohibitedPropertyKeys; // @synthesize prohibitedPropertyKeys=_prohibitedPropertyKeys;
-@property(readonly) Class superclass;
 
 @end
 

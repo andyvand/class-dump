@@ -7,43 +7,35 @@
 @interface GEOTileSetUsage
 {
     unsigned int _count;
-    int _style;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_style:1;
-    } _flags;
 }
 
-+ (_Bool)erchantAdditionalData:(id)arg1;
++ (_Bool)setMerchantAdditionalData:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (id)!;
+- (void)5;
+- (void)generateDeviceAudioLogging:(id)arg1 speechId: /* Error: Ran out of types for this method. */;
+- (unsigned long long)H;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id)ifier"b1"read_throttleReqType"b1"wrote_anyField"b1};
-- (id)owAtDistance;
-- (id)s;
+- (id)hasShowAtDistance;
+- (id)GEOProbeCrumbs;
 - (id)tionsReadAllFrom can only be called once per object;
 - (void)NULL REFERENCES subscriptions(rowid) ON UPDATE CASCADE ON DELETE CASCADE,    data_pk INT NOT NULL REFERENCES data(rowid) ON UPDATE CASCADE ON DELETE CASCADE,    UNIQUE(subscription_pk, data_pk)    ON CONFLICT REPLACE    );;
 - (unsigned int)e_serialization): /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned int count;
-@property(nonatomic) _Bool hasCount;
 @property(nonatomic) _Bool hasStyle;
-@property(nonatomic) int style;
 
 @end
 

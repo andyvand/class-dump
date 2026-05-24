@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)_updatePendingTransferMapForContext:(id)arg1 completedTransfer:(int)arg2;
 
 @end
 

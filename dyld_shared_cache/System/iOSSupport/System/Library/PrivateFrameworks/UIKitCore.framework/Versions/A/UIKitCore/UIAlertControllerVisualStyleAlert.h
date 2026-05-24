@@ -10,27 +10,27 @@
 {
 }
 
-- (double);
-- (double);
+- (double)the kSMSDefaultsAllowedKey;
+- (double)cessing;
 - (struct UIEdgeInsets);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)g delivery receipt %@;
+- (_Bool)We got an error trying to remove %@ from the pending map %@;
+- (_Bool)P;
 - (long long);
 - (id);
-- (id);
+- (id)XH;
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (struct UIEdgeInsets);
 - (void);
-- (double);
+- (double)C;
 - (double);
 - (double);
 - (id);
-- (id)Grabber;
+- (id)insetsContentViewForGrabber;
 - (double)a;
 
 @end

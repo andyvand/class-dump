@@ -7,11 +7,6 @@
 @interface TPPBAncientEpoch
 {
     unsigned long long _candidateEpoch;
-    unsigned long long _myEpoch;
-    struct {
-        unsigned int candidateEpoch:1;
-        unsigned int myEpoch:1;
-    } _has;
 }
 
 - (void);
@@ -22,21 +17,18 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)@(;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)X) was expected but not enough data provided. (actual length = %lu, expected minimum %u).;
+- (id)re(APEndpointDescriptionRef, CFIndex);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long candidateEpoch; // @synthesize candidateEpoch=_candidateEpoch;
-@property(nonatomic) _Bool hasCandidateEpoch;
 @property(nonatomic) _Bool hasMyEpoch;
-@property(nonatomic) unsigned long long myEpoch; // @synthesize myEpoch=_myEpoch;
 
 @end
 

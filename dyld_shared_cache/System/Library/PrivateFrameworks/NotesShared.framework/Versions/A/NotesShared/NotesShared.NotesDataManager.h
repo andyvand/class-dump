@@ -7,10 +7,9 @@
 @interface NotesShared.NotesDataManager
 {
     id context;
-    id didStartSharedContext;
 }
 
-- (void);
+- (void)!;
 - (id);
 - (void);
 

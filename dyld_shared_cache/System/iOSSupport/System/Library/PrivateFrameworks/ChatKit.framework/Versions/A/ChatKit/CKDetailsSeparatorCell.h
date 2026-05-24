@@ -6,14 +6,10 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class UIView;
-
 __attribute__((visibility("hidden")))
 @interface CKDetailsSeparatorCell : CKDetailsCell
 {
     _Bool _indentSeparator;
-    double _leadingSpace;
-    UIView *_separatorView;
 }
 
 + (double);
@@ -25,14 +21,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (void);
-- (id)udioPlayerDidFinishPlaying:(long long)arg1 successfully:(id)arg2;
+- (void)(!;
+- (id)audioPlayerDidFinishPlaying:(long long)arg1 successfully:(id)arg2;
 - (void),,;
 
 // Remaining properties
-@property(nonatomic) _Bool indentSeparator; // @synthesize indentSeparator=_indentSeparator;
 @property(nonatomic) double leadingSpace; // @synthesize leadingSpace=_leadingSpace;
-@property(readonly, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end
 

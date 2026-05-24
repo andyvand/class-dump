@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     unsigned long long _syllableCount;
 }
 
-- (id);
+- (id)ID %@ (%@);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)ing interval;
+- (void)ctionary",&,N,V_parsedArgSearchTermDictFromQU;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long syllableCount; // @synthesize syllableCount=_syllableCount;

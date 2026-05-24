@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIVector, NSNumber;
+@class CIVector;
 
 __attribute__((visibility("hidden")))
 @interface CIGaussianGradient : CIFilter
 {
     CIVector *inputCenter;
-    CIColor *inputColor0;
-    CIColor *inputColor1;
-    NSNumber *inputRadius;
 }
 
 + (id);
@@ -31,9 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) CIColor *inputColor0; // @synthesize inputColor0;
-@property(retain, nonatomic) CIColor *inputColor1; // @synthesize inputColor1;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

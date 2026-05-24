@@ -5,9 +5,9 @@
 //
 
 @protocol TIAssetManaging
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType enabledInputModeIdentifiersProviderBlock;
-@property(copy, nonatomic) CDUnknownBlockType preferencesProviderBlock;
 @end
 

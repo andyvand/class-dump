@@ -7,12 +7,12 @@
 @class NSArray, _INPBCondition;
 
 @protocol _INPBActivityList
++ (Class)P;
+- (_Bool);
+- (_INPBCondition *)language %@ #EventClassification;
 - (void)BLE;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activities;
-@property(readonly, nonatomic) unsigned long long activitiesCount;
-@property(retain, nonatomic) _INPBCondition *condition;
-@property(readonly, nonatomic) _Bool hasCondition;
 @end
 

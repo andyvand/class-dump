@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableSet, NSString;
 
 @interface QLSqliteDatabase
 {
     NSString *_path;
-    struct sqlite3 *_db;
-    _Bool _isCorrupted;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long transactionCount;
-    NSMutableDictionary *_statementCache;
-    NSMapTable *_statementsInUseTable;
-    NSString *_tracingPrefix;
-    NSMutableSet *_uniqueStrings;
 }
 
 + (void);
-- (void);
+- (void)J;
 - (void);
 - (id);
 - (void);
@@ -35,7 +26,7 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)P;
 - (unsigned long long);
 - (void);
 - (id);
@@ -57,24 +48,24 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (void)!;
+- (id);
 - (void);
+- (void);
+- (void)Kit INFO:(%@) ACCT UPDATE:Will not try to update Apple account for user=%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)JqVM%B;
+- (_Bool)Passes:authorization:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void *);
@@ -84,8 +75,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool isCorrupted; // @synthesize isCorrupted=_isCorrupted;
-@property(retain) NSString *tracingPrefix; // @synthesize tracingPrefix=_tracingPrefix;
 @property(retain, nonatomic) NSMutableSet *uniqueStrings; // @synthesize uniqueStrings=_uniqueStrings;
 
 @end

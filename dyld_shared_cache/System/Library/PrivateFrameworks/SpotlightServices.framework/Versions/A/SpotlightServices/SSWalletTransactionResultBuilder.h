@@ -6,46 +6,36 @@
 
 #import <SpotlightServices/SSWalletResultBuilder.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface SSWalletTransactionResultBuilder : SSWalletResultBuilder
 {
     NSString *_businessName;
-    NSNumber *_transactionAmount;
-    NSString *_currencyCode;
-    NSString *_date;
-    NSString *_cashBackPercentage;
-    NSArray *_descriptions;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)MutableArray";
+- (id)webView:decidePolicyForNavigationAction:preferences:decisionHandler: /* Error: Ran out of types for this method. */;
+- (id)webView:authenticationChallenge:shouldAllowDeprecatedTLS: /* Error: Ran out of types for this method. */;
+- (_Bool)waitingForPlayback;
+- (id)viewDidMoveToWindow;
+- (id)updateButtonForAudioFile;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id)A;
 - (id);
-- (void)ryHighImpact:isMailCategoryPromotions:documentEmbeddingAvailable:has_query_text_embedding:kMDItemTextContent_QUPP_ARG_SEARCH_TERM:kMDItemSubject_QUPP_ARG_SEARCH_TERM:kMDItemTextContent_QUPP_ARG_PERSON:kMDItemTextContent_QUPP_ARG_LOCATION:kMDItemAuthors_QUPP_ARG_SEARCH_TERM:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT:kMDItemTextContent_QUPP_ARG_TIME:kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM:kMDItemSubject_QUPP_ARG_LOCATION:kMDItemSubject_QUPP_ARG_PERSON:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL:kMDItemAppEntityTitle_QUPP_ARG_LOCATION:kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT:kMDItemAuthors_QUPP_ARG_PERSON_SENDER:kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL:kMDItemAuthors_QUPP_ARG_PERSON:kMDItemSubject_QUPP_ARG_TIME:kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER:kMDItemAuthors_QUPP_ARG_LOCATION: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)initWithSparseL1:denseL1:isMailCategoryHighImpact:isMailCategoryPromotions:documentEmbeddingAvailable:has_query_text_embedding:kMDItemTextContent_QUPP_ARG_SEARCH_TERM:kMDItemSubject_QUPP_ARG_SEARCH_TERM:kMDItemTextContent_QUPP_ARG_PERSON:kMDItemTextContent_QUPP_ARG_LOCATION:kMDItemAuthors_QUPP_ARG_SEARCH_TERM:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT:kMDItemTextContent_QUPP_ARG_TIME:kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM:kMDItemSubject_QUPP_ARG_LOCATION:kMDItemSubject_QUPP_ARG_PERSON:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL:kMDItemAppEntityTitle_QUPP_ARG_LOCATION:kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT:kMDItemAuthors_QUPP_ARG_PERSON_SENDER:kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL:kMDItemAuthors_QUPP_ARG_PERSON:kMDItemSubject_QUPP_ARG_TIME:kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER:kMDItemAuthors_QUPP_ARG_LOCATION: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *businessName; // @synthesize businessName=_businessName;
-@property(retain, nonatomic) NSString *cashBackPercentage; // @synthesize cashBackPercentage=_cashBackPercentage;
-@property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) NSString *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSArray *descriptions; // @synthesize descriptions=_descriptions;
-@property(retain, nonatomic) NSNumber *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
 
 @end
 

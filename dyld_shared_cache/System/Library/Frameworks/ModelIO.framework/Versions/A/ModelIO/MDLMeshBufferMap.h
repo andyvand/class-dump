@@ -7,12 +7,11 @@
 @interface MDLMeshBufferMap
 {
     CDUnknownBlockType _deallocator;
-    void *_bytes;
 }
 
 - (id);
-- (void);
-- (void *);
+- (void)eEuclidInstance(withLocale:clientID:encoderType:initFlag:) /* Error: Ran out of types for this method. */;
+- (void *)_locked_reloadVariantCompletedPublishers;
 - (void);
 
 // Remaining properties

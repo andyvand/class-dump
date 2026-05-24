@@ -18,7 +18,7 @@
 - (id);
 - (void)
 × ;
-- (void)w;
+- (void)_publisherLogoImageView;
 
 @end
 

@@ -10,49 +10,56 @@ __attribute__((visibility("hidden")))
 @interface NSComboBoxAquaduckVisualProvider
 {
     NSTextFieldBezelConfiguration *bezelConfiguration;
-    id textFieldCell;
-    id textField;
-    id $__lazy_storage_$_hostingView;
-    id $__lazy_storage_$_labelView;
-    id cellOverridesDrawingMethods;
-    id comboBoxOverridesDrawingMethods;
 }
 
 - (_Bool);
 - (int);
-- (struct CGRect);
+- (struct CGRect)typeRequiresRedemptionNonce;
 - (void);
-- (void);
-- (id);
-- (int);
-- (struct CGRect);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (struct CGSize);
-- (id);
-- (double);
+- (void)%@ - is there a specialization;
+- (id)e and received server trust, marking as secure;
+- (int)aemon:(id)arg1 %@;
+- (struct CGRect);
+- (id);
+- (struct CGRect):(struct CGRect)arg1 outEOF:(CDUnknownBlockType)arg2 ];
+- (void)_onqueue_informationalResponseArrived;
+- (void)kCFSOCKSNegotiationMethodKey;
+- (void)kConditionalConnectionOnBehalfOfPairedDevice;
+- (struct CGRect)led to allocate a CFDataRef of size %ld.;
+- (void)_ID > 0 ORDER BY time_stamp ASC LIMIT %d);
+- (struct CGSize)IBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (id)	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
+- (double))8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
 - (void);
 - (_Bool);
 - (double);
 - (id);
 - (void);
-- (CDStruct_507282ca)rementCounterForName] called for counter "%@" that doesn't exist;
+- (CDStruct_c3b9c2ee)rementCounterForName] called for counter "%@" that doesn't exist;
 - (void)Ôþÿ;
 - (void)gÈ¾E;
 - (struct NSEdgeInsets)¬ÿTäùG;
 
 // Remaining properties
-@property(nonatomic, readonly) double _buttonWidth;
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) _Bool allowsTextTightening;
-@property(nonatomic, readonly) double bezelCellSizeHeightPadding;
 @property(nonatomic, retain) NSTextFieldBezelConfiguration *bezelConfiguration; // @synthesize bezelConfiguration;
-@property(nonatomic, readonly) _Bool wantsSeparatedSubviews;
 
 @end
 

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPPBEvaluationRecord
 {
     long long _deviceId;
-    NSString *_contents;
-    struct {
-        unsigned int deviceId:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)g;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -30,15 +24,12 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contents; // @synthesize contents=_contents;
-@property(nonatomic) long long deviceId; // @synthesize deviceId=_deviceId;
 @property(readonly, nonatomic) _Bool hasContents;
-@property(nonatomic) _Bool hasDeviceId;
 
 @end
 

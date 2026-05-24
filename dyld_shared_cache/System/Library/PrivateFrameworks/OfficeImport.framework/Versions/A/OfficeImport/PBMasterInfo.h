@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, PDSlideMaster;
+@class PDSlideMaster;
 
 __attribute__((visibility("hidden")))
 @interface PBMasterInfo
 {
     PDSlideMaster *mSlideMaster;
-    NSMutableArray *mTgtSlideLayoutArray;
-    unsigned int mMainPbRef;
-    unsigned int mTitlePbRef;
-    NSDictionary *mLayoutMap;
-    void *mSrcTextStyling;
-    unsigned int mXmlMainMasterId;
-    NSMutableDictionary *mXmlLayoutMap;
-    _Bool mUseXmlBlobs;
 }
 
 - (_Bool);
@@ -27,23 +19,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void))a;
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)R;
+- (unsigned int);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)¬;
 
 // Remaining properties
-@property(nonatomic) _Bool useXmlBlobs; // @synthesize useXmlBlobs=mUseXmlBlobs;
 @property(nonatomic) unsigned int xmlMainMasterId; // @synthesize xmlMainMasterId=mXmlMainMasterId;
 
 @end

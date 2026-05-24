@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (double);
 - (double);
+- (double)_refinementIntermediatesBuffer;
 - (double);
-- (double);
-- (double)gVelocityThreshold: /* Error: Ran out of types for this method. */;
+- (double)setBeginningVelocityThreshold: /* Error: Ran out of types for this method. */;
 - (double);
 - (double)a;
 

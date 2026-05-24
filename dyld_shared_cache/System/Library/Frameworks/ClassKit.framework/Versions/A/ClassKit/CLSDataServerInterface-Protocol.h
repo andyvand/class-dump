@@ -5,5 +5,32 @@
 //
 
 @protocol CLSDataServerInterface
+- (oneway void);
+- (oneway void)ylib;
+- (oneway void)ibswift_Concurrency.dylib;
+- (oneway void)ftObjectiveC.dylib;
+- (oneway void)/lib/swift/libswiftCoreFoundation.dylib;
+- (oneway void)Versions/A/CoreAnalytics;
+- (oneway void);
+- (oneway void)nationalTextSearch;
+- (oneway void)ersions/A/MobileKeyBag;
+- (oneway void);
+- (oneway void)vateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo;
+- (oneway void)brary/Frameworks/Accelerate.framework/Versions/A/Accelerate;
+- (oneway void)rivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking;
+- (oneway void)h;
+- (oneway void)ucore.A.dylib;
+- (oneway void);
+- (oneway void)ork/Versions/A/ProactiveSupport;
+- (oneway void)__DATA_DIRTY;
+- (oneway void)__DATA;
+- (oneway void)__data;
+- (oneway void)__objc_dataobj;
+- (oneway void)__objc_intobj;
+- (oneway void)__objc_superrefs__DATA_CONST;
+- (oneway void)__DATA_CONST;
+- (oneway void)dr;
+- (oneway void)buffer size %zd too large. 
+;
 @end
 

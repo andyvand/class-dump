@@ -6,45 +6,32 @@
 
 #import <MapKit/_MKResizingLayer.h>
 
-@class CALayer, NSColor;
-
 __attribute__((visibility("hidden")))
 @interface _MKCalloutLayer : _MKResizingLayer
 {
     struct CGImage *_contentImage;
-    CALayer *_leftLayer;
-    CALayer *_rightLayer;
-    CDStruct_8c1c1341 _metrics;
-    long long _arrowPosition;
-    double _arrowOffset;
-    NSColor *_fillColor;
-    NSColor *_strokeColor;
 }
 
-- (struct CGImage *);
+- (struct CGImage *)y;
 - (void);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (id);
-- (CDStruct_8c1c1341);
+- (id)R:dimension or stride mismatch /* Error: Ran out of types for this method. */;
+- (CDStruct_bdf93072);
 - (double);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
-- (id);
-- (void);
+- (id)ession queue;
+- (void)>;
 - (id);
 - (void);
 - (void);
 - (void)Ô ;
-- (void);
+- (void)setControl: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double arrowOffset; // @synthesize arrowOffset=_arrowOffset;
 @property(nonatomic) long long arrowPosition; // @synthesize arrowPosition=_arrowPosition;
-@property(retain, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(nonatomic) CDStruct_8c1c1341 metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
 
 @end
 

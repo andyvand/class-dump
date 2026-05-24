@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMAllServicesWarmupEnded, NLXSchemaCDMAllServicesWarmupFailed, NLXSchemaCDMAllServicesWarmupStarted, NSData;
+@class NLXSchemaCDMAllServicesWarmupStarted;
 
 @interface NLXSchemaCDMAllServicesWarmupContext : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMAllServicesWarmupStarted *_startedOrChanged;
-    NLXSchemaCDMAllServicesWarmupEnded *_ended;
-    NLXSchemaCDMAllServicesWarmupFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,39 +18,32 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs12/p12_key.c;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!HGùñÞ°1Â0@ù
 × ;
 - (id)ime;
-- (id)asClientSilenceProbability: /* Error: Ran out of types for this method. */;
+- (id)setHasClientSilenceProbability: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaCDMAllServicesWarmupEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaCDMAllServicesWarmupFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMAllServicesWarmupStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

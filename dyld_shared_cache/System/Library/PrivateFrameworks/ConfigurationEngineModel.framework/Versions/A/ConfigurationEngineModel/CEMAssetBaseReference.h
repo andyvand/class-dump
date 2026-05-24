@@ -6,24 +6,20 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMAssetBaseReference : CEMPayloadBase
 {
     NSString *_payloadDataURL;
-    NSString *_payloadContentType;
-    NSNumber *_payloadSize;
-    NSString *_payloadHashSHA256;
-    NSArray *_payloadCertificatePinningIdentifiers;
 }
 
++ (id)__objc_data;
 + (id);
 + (id);
-+ (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)(a;
 - (id);
 - (id);
 - (id);
@@ -36,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *payloadCertificatePinningIdentifiers; // @synthesize payloadCertificatePinningIdentifiers=_payloadCertificatePinningIdentifiers;
-@property(copy, nonatomic) NSString *payloadContentType; // @synthesize payloadContentType=_payloadContentType;
 @property(copy, nonatomic) NSString *payloadDataURL; // @synthesize payloadDataURL=_payloadDataURL;
-@property(copy, nonatomic) NSString *payloadHashSHA256; // @synthesize payloadHashSHA256=_payloadHashSHA256;
-@property(copy, nonatomic) NSNumber *payloadSize; // @synthesize payloadSize=_payloadSize;
 
 @end
 

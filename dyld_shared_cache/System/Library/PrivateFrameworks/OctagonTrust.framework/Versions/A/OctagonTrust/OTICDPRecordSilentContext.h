@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OTCDPRecoveryInformation, OTEscrowAuthenticationInformation;
+@class OTEscrowAuthenticationInformation;
 
 @interface OTICDPRecordSilentContext
 {
     OTEscrowAuthenticationInformation *_authInfo;
-    OTCDPRecoveryInformation *_cdpInfo;
 }
 
 - (void);
@@ -19,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)k0;
+- (unsigned long long)fferRequestInternal";
 - (_Bool);
 - (void);
 - (_Bool);
@@ -30,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) OTEscrowAuthenticationInformation *authInfo; // @synthesize authInfo=_authInfo;
-@property(retain, nonatomic) OTCDPRecoveryInformation *cdpInfo; // @synthesize cdpInfo=_cdpInfo;
-@property(readonly, nonatomic) _Bool hasAuthInfo;
 @property(readonly, nonatomic) _Bool hasCdpInfo;
 
 @end

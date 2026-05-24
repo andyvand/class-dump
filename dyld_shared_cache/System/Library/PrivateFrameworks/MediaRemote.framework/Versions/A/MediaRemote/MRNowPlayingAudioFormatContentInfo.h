@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, _MRMRNowPlayingAudioFormatContentInfoProtobuf;
-
 @interface MRNowPlayingAudioFormatContentInfo
 {
     _Bool _eligibleForSpatialization;
-    _Bool _spatialized;
-    int _pid;
-    NSString *_bundleID;
-    long long _intendedSpatialExperience;
-    long long _resolvedSpatialExperience;
-    long long _renderingMode;
-    NSNumber *_audioSessionID;
-    NSNumber *_audioFormat;
-    NSNumber *_channelCount;
-    NSString *_bestAvailableContent;
 }
 
 - (int);
@@ -31,12 +19,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)AFSiriTaskDelivering;
 - (id);
 - (_Bool);
 - (id);
@@ -44,30 +32,14 @@
 × ;
 - (void)Identifier;
 - (void)ÄÛíÝ;
-- (long long)teRecommendation;
-- (long long)n;
+- (long long)MRUIContextRouteRecommendation;
+- (long long)kMRMediaRemoteCommandInfoCurrentQueueEndAction;
 - (id)airedDevices];
-- (id)y;
+- (id)kMRPlaybackSessionUserInfoKey;
 - (id)¥µz;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *audioFormat; // @synthesize audioFormat=_audioFormat;
-@property(readonly, copy, nonatomic) NSString *audioFormatDescription;
-@property(readonly, nonatomic) NSNumber *audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(readonly, nonatomic) long long bestAvailableAudioFormat;
-@property(readonly, copy, nonatomic) NSString *bestAvailableAudioFormatDescription;
-@property(readonly, nonatomic) NSString *bestAvailableContent; // @synthesize bestAvailableContent=_bestAvailableContent;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSNumber *channelCount; // @synthesize channelCount=_channelCount;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic, getter=isEligibleForSpatialization) _Bool eligibleForSpatialization; // @synthesize eligibleForSpatialization=_eligibleForSpatialization;
-@property(nonatomic) long long intendedSpatialExperience; // @synthesize intendedSpatialExperience=_intendedSpatialExperience;
-@property(readonly, nonatomic, getter=isMultichannel) _Bool multichannel;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) _MRMRNowPlayingAudioFormatContentInfoProtobuf *protobuf;
-@property(nonatomic) long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) long long resolvedSpatialExperience; // @synthesize resolvedSpatialExperience=_resolvedSpatialExperience;
-@property(readonly, nonatomic, getter=isSpatialized) _Bool spatialized; // @synthesize spatialized=_spatialized;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface _IMBalloonBundleApp : IMBalloonApp
 {
     long long _pluginLoadToken;
-    Class _bubbleClass;
-    Class _browserClass;
-    Class _dataSourceClass;
 }
 
 - (_Bool);
@@ -23,13 +20,13 @@
 - (_Bool);
 - (_Bool);
 - (Class);
-- (Class);
+- (Class)|;
 - (void);
 - (void);
 - (long long);
 - (id);
 - (Class);
-- (void);
+- (void)' or 'TRUSTED_AND_UNTRUSTED_CONTEXTS';
 - (void)|ñ°ñÌõ;
 
 @end

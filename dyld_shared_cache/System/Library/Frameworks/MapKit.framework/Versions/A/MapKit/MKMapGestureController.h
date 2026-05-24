@@ -4,76 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKCompassView, MKMapView, MKRotationFilter, MKScaleView, NSClickGestureRecognizer, NSObject, NSPanGestureRecognizer, NSString, VKCompoundAnimation, VKTimedAnimation, _MKDirectionalArrowRecognizer, _MKDirectionalPanGestureRecognizer, _MKMagnificationGestureRecognizer, _MKMouseDownGestureRecognizer, _MKRotationGestureRecognizer;
-@protocol MKMapGestureControllerDelegate, OS_dispatch_source;
+@class MKMapView, MKScaleView;
 
 __attribute__((visibility("hidden")))
 @interface MKMapGestureController
 {
     MKMapView *_mapView;
-    id <MKMapGestureControllerDelegate> _delegate;
-    MKScaleView *_scaleView;
-    MKCompassView *_compassView;
-    _MKMouseDownGestureRecognizer *_mouseDownGestureRecognizer;
-    NSPanGestureRecognizer *_panGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_panRotationGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_panTiltGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_panZoomGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_otherButtonPanRotationGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_otherButtonPanTiltGestureRecognizer;
-    NSClickGestureRecognizer *_doubleClickGestureRecognizer;
-    _MKMagnificationGestureRecognizer *_pinchGestureRecognizer;
-    _MKRotationGestureRecognizer *_rotationGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_scaleDragGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_compassDragRotationGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_compassDragTiltGestureRecognizer;
-    _MKDirectionalPanGestureRecognizer *_compassDragSimultaneousRotationGestureRecognizer;
-    _Bool _compassRotateBeganInPositiveDirection;
-    _MKDirectionalArrowRecognizer *_arrowPanGestureRecognizer;
-    _MKDirectionalArrowRecognizer *_arrowRotateGestureRecognizer;
-    _MKDirectionalArrowRecognizer *_arrowZoomGestureRecognizer;
-    _MKDirectionalArrowRecognizer *_activeArrowGestureRecognizer;
-    VKTimedAnimation *_currentArrowAnimation;
-    _Bool _isFullRotatingFromArrows;
-    long long _gestureCount;
-    double _lastScale;
-    double _lastMagnification;
-    double _lastRotation;
-    double _pinchFactorAverageInGesture;
-    double _lastPinchUpdateTimestamp;
-    double _lastRotationInGestureDelta;
-    double _lastRotationUpdateTimestamp;
-    double _lastRotationVelocity;
-    struct CGPoint _rotationDragStartPoint;
-    struct CGPoint _rotationDragCursorStartPoint;
-    struct CGPoint _tiltDragStartPoint;
-    struct CGPoint _tiltDragCursorStartPoint;
-    struct CGPoint _zoomDragStartPoint;
-    struct CGPoint _zoomDragCursorStartPoint;
-    double _lastZoomDragTranslation;
-    _Bool _panning;
-    _Bool _pinching;
-    _Bool _rotating;
-    _Bool _dragRotating;
-    _Bool _dragTilting;
-    _Bool _dragZooming;
-    struct CGPoint _scrollTranslation;
-    _Bool _isScrollDecelerating;
-    NSObject<OS_dispatch_source> *_scrollMomentumTimer;
-    long long _scrollBehavior;
-    struct CGPoint _lastArrowScrollTranslationDelta;
-    double _arrowZoomSpeed;
-    double _arrowZoomStartTimestamp;
-    _Bool _zoomEnabled;
-    _Bool _scrollEnabled;
-    _Bool _tiltEnabled;
-    _Bool _rotationEnabled;
-    MKRotationFilter *_rotationFilter;
-    _Bool _rotationSnappingEnabled;
-    VKCompoundAnimation *_panDecelerationAnimationGroup;
-    VKTimedAnimation *_pinchDecelerationAnimation;
-    VKTimedAnimation *_rotationDecelerationAnimation;
-    _Bool _handlingTrackpadScroll;
 }
 
 - (void);
@@ -83,38 +19,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@9;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)nt Read sandbox extension for payload path '%{public}@' with error:(id)arg1 %s.;
+- (void)er - ready to return results;
+- (void)PowerTableElection;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)setChangesCount:(id)arg1;
+- (void)replaceInferiorValueInMultiValue:(id)arg1 withEntryAtIndex:fromMultiValue:forProperty: /* Error: Ran out of types for this method. */;
+- (void)classification;
+- (_Bool)addIndex:(id)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -122,33 +58,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)opportuneSpeakAudioProviderUUID;
+- (_Bool)PhraseId={TRIGGERED_PHRASE_ID}&triggerScore={TRIGGER_SCORE};
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)thCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)i;
+- (void)initWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)1;
 - (void)onImage"16@?0d8;
-- (void)ketball;
+- (void)MKPOICategoryBasketball;
 
 // Remaining properties
-@property(retain, nonatomic) MKCompassView *compassView; // @synthesize compassView=_compassView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKMapGestureControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSClickGestureRecognizer *doubleClickGestureRecognizer; // @synthesize doubleClickGestureRecognizer=_doubleClickGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isRotationEnabled) _Bool rotationEnabled; // @synthesize rotationEnabled=_rotationEnabled;
-@property(retain, nonatomic) MKRotationFilter *rotationFilter; // @synthesize rotationFilter=_rotationFilter;
-@property(nonatomic, getter=isRotationSnappingEnabled) _Bool rotationSnappingEnabled; // @synthesize rotationSnappingEnabled=_rotationSnappingEnabled;
 @property(retain, nonatomic) MKScaleView *scaleView; // @synthesize scaleView=_scaleView;
-@property(nonatomic, getter=isScrollEnabled) _Bool scrollEnabled; // @synthesize scrollEnabled=_scrollEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTiltEnabled) _Bool tiltEnabled; // @synthesize tiltEnabled=_tiltEnabled;
-@property(nonatomic, getter=isZoomEnabled) _Bool zoomEnabled; // @synthesize zoomEnabled=_zoomEnabled;
 
 @end
 

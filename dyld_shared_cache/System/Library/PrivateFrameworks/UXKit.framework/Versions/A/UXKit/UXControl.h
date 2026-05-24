@@ -9,19 +9,13 @@
 @interface UXControl : UXView
 {
     _Bool _highlighted;
-    _Bool _selected;
-    _Bool _enabled;
-    _Bool _ignoresMultiClick;
-    _Bool _sendsActionOnMouseDown;
-    id _target;
-    SEL _action;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (void)result with civic protections info:(id)arg1 %{public}@, priority:(SEL)arg2 %{public}@, strategy:%{public}@, displayAsset:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,12 +34,6 @@
 - (void)ÿáú>e;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(nonatomic) _Bool ignoresMultiClick; // @synthesize ignoresMultiClick=_ignoresMultiClick;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) _Bool sendsActionOnMouseDown; // @synthesize sendsActionOnMouseDown=_sendsActionOnMouseDown;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

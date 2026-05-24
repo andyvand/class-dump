@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-- (void)ta: /* Error: Ran out of types for this method. */;
+- (void)issueContentKeyRequests:forInitializationData: /* Error: Ran out of types for this method. */;
 
 @end
 

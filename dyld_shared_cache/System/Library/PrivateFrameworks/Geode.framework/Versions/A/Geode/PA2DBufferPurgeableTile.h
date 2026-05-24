@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PA2DBufferPurgeableTile : PA2DBufferMutableTile
 {
     int _pendingPurgeLevel;
-    unsigned long long _accessCount;
-    unsigned long long _appliedAccessCount;
 }
 
 - (void);
@@ -25,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)oint=dd}{CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48 /* Error: Ran out of types for this method. */;
 
 @end
 

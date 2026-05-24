@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MFRouteChangeMetadata
+- (_Bool)account:didChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isAirplay;
-@property(nonatomic, readonly) NSString *routeDescription;
 @end
 

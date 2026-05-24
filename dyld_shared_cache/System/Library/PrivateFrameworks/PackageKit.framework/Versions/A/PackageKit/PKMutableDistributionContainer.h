@@ -15,15 +15,15 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)|;
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSError *error; // @synthesize error=_error;

@@ -7,18 +7,6 @@
 @interface MRCroppingSprite
 {
     float mModelViewProjectionMatrix[16];
-    _Bool mPreservesImageAspectRatio;
-    _Bool mHitIsActive;
-    _Bool mNeedsInSpriteCoordinates;
-    _Bool _usesOwnMatrixForHitTest;
-    unsigned char mMeshType;
-    double mRotation;
-    struct CGPoint mPosition;
-    struct CGSize mHalfSize;
-    struct CGSize mSpriteCoordinatesFactor;
-    struct CGPoint mSpriteCoordinatesOffset;
-    struct CGRect mInnerRect;
-    struct CGRect mOuterRect;
 }
 
 + (void);
@@ -28,32 +16,32 @@
 + (void);
 + (void);
 - (_Bool);
-- (struct CGPoint);
-- (struct CGSize);
+- (struct CGPoint)setMinorVersion: /* Error: Ran out of types for this method. */;
+- (struct CGSize)setMajorVersion: /* Error: Ran out of types for this method. */;
+- (void)fc_millisecondTimeIntervalSince1970;
+- (void)appConfiguration;
+- (void)appAnalyticsSportsEventsBaseURLForConfiguration:(struct CGSize)arg1;
+- (void)_appConfigurationManager;
+- (void)URLSession:(struct CGRect)arg1 task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (void)ring",R,C,N;
+- (void)uploadEnvelopeBatch:(unsigned char)arg1 withURL:valuesByHTTPHeaderField:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (unsigned char);
+- (void);
+- (_Bool)ithCompletion:] /* Error: Ran out of types for this method. */;
+- (struct CGRect)sterContentTypes:withEventName:] /* Error: Ran out of types for this method. */;
+- (_Bool)33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
+- (unsigned char)sFromStore:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -67,22 +55,11 @@
 - (struct CGRect);
 - (void);
 - (double);
-- (id);
+- (id);
 - (struct CGPoint);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize halfSize; // @synthesize halfSize=mHalfSize;
-@property(nonatomic) _Bool hitIsActive; // @synthesize hitIsActive=mHitIsActive;
-@property(nonatomic) struct CGRect innerRect; // @synthesize innerRect=mInnerRect;
-@property(nonatomic) unsigned char meshType; // @synthesize meshType=mMeshType;
-@property(nonatomic) _Bool needsInSpriteCoordinates; // @synthesize needsInSpriteCoordinates=mNeedsInSpriteCoordinates;
-@property(nonatomic) struct CGRect outerRect; // @synthesize outerRect=mOuterRect;
 @property(readonly, nonatomic) struct CGPoint position; // @synthesize position=mPosition;
-@property(nonatomic) _Bool preservesImageAspectRatio; // @synthesize preservesImageAspectRatio=mPreservesImageAspectRatio;
-@property(readonly, nonatomic) double rotation; // @synthesize rotation=mRotation;
-@property(nonatomic) struct CGSize spriteCoordinatesFactor; // @synthesize spriteCoordinatesFactor=mSpriteCoordinatesFactor;
-@property(nonatomic) struct CGPoint spriteCoordinatesOffset; // @synthesize spriteCoordinatesOffset=mSpriteCoordinatesOffset;
-@property(nonatomic) _Bool usesOwnMatrixForHitTest; // @synthesize usesOwnMatrixForHitTest=_usesOwnMatrixForHitTest;
 
 @end
 

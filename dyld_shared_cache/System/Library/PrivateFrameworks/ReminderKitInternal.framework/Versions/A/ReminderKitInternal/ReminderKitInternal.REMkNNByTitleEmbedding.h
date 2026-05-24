@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.REMkNNByTitleEmbedding
 {
     id labels;
-    id vectors;
-    id version;
 }
 
 @end

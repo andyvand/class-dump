@@ -4,39 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene, FBSceneWorkspace, NSMutableDictionary, NSPointerArray, NSStatusItem, NSStatusItemHostingView, NSString;
-@protocol FBSceneClientProcess, NSStatusItemHostDelegate;
+@protocol NSStatusItemHostDelegate;
 
 @interface NSStatusItemHost
 {
     id <NSStatusItemHostDelegate> _delegate;
-    _Bool _seenSceneResume;
-    NSString *_debugClientIdentifier;
-    FBScene *_scene;
-    FBSceneWorkspace *_workspace;
-    int _pid;
-    NSString *_bundleIdentifier;
-    id <FBSceneClientProcess> _client;
-    NSStatusItemHostingView *_hostingView;
-    NSPointerArray *_hostingViews;
-    NSStatusItem *_positioningItem;
-    unsigned long long _replicantSerial;
-    NSMutableDictionary *_auxiliaryViews;
-    _Bool _clientRequestsVisibility;
-    _Bool _allowsRemoval;
-    _Bool _neverClip;
-    _Bool _applicationItem;
-    _Bool _terminateOnRemoval;
-    NSString *_persistentIdentifier;
 }
 
-+ (id);
-+ (_Bool);
++ (id)not support currentRequest property;
++ (_Bool){{{{){8{b;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -53,29 +34,29 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)whitespaceCharacterSet;
+- (void)signedURLRequestWithURLRequest:callingPID:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
+- (id);
+- (id)@;
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (int);
-- (id);
-- (CDStruct_4c969caf);
+- (id)@;
+- (CDStruct_6ad76789);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)q,N,V_lineCountAdjustment;
+- (id)P;
 - (_Bool);
-- (void)lectionViewNestedDocumentView;
+- (void)_NSCollectionViewNestedDocumentView;
 - (id);
 - (void)°ø;
 - (id)¬;
@@ -83,27 +64,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool allowsRemoval; // @synthesize allowsRemoval=_allowsRemoval;
-@property _Bool applicationItem; // @synthesize applicationItem=_applicationItem;
-@property(readonly) CDStruct_4c969caf auditToken;
-@property(readonly) NSString *bundleIdentifier;
 @property _Bool clientRequestsVisibility; // @synthesize clientRequestsVisibility=_clientRequestsVisibility;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <NSStatusItemHostDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool invalid;
-@property(readonly) NSStatusItemHostingView *itemView;
-@property _Bool neverClip; // @synthesize neverClip=_neverClip;
-@property(copy) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(readonly) int pid;
-@property(retain) NSStatusItem *positioningItem;
-@property(readonly) FBScene *scene;
-@property(readonly) Class superclass;
-@property _Bool terminateOnRemoval; // @synthesize terminateOnRemoval=_terminateOnRemoval;
 
 @end
 

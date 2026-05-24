@@ -7,7 +7,10 @@
 @class CNContact, EAEmailAddressSet;
 
 @protocol EMBlockedSenderReader
-- (_Bool)er:(CNContact *)arg1;
+- (_Bool);
+- (_Bool);
+- (EAEmailAddressSet *)for ratelimit %f;
+- (_Bool)numberWithInteger:(CNContact *)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) EAEmailAddressSet *blockedSenderEmailAddresses;

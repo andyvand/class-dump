@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, PHAssetCollection;
+@class NSString, PHFetchResult;
 
 @protocol _PXSharedLibrarySharingSuggestionContainer
+- (NSString *);
+- (PHFetchResult *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *px_sl_containedSharingSuggestionObjectIDs;
-@property(readonly, nonatomic) NSArray *px_sl_containedSharingSuggestions;
-@property(readonly, nonatomic) PHAssetCollection *px_sl_containerCollection;
 @property(readonly, nonatomic) NSString *px_sl_identifier;
-@property(readonly, nonatomic) NSString *px_sl_title;
 @end
 

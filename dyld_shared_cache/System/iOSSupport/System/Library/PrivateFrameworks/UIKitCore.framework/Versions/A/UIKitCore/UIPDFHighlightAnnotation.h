@@ -11,10 +11,10 @@
     struct CGColor *_highLightColor;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (Class);
+- (_Bool)ancelling scheduled messages for them.;
+- (void)lay message through Blastdoor;
+- (void)sage through Blastdoor name=(%@); reason=(%@);
+- (Class)hasWrittenSharedWithYouContentAvailable;
 - (int);
 - (void);
 - (void)ô¿þ;

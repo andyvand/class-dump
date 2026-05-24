@@ -9,11 +9,10 @@
 @interface ABCPeriodicMaintenanceActivity
 {
     NSMutableArray *_activities;
-    unsigned long long _nextActivityIndex;
 }
 
 + (void);
-+ (const char *);
++ (const char *)raise:format: /* Error: Ran out of types for this method. */;
 + (long long);
 + (id);
 - (void);

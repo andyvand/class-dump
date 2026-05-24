@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMUser, MCXPrefObject;
+@class ADMUser;
 
 @interface FCMCXHelper
 {
     ADMUser *_admUser;
-    MCXPrefObject *_mcxManager;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
++ (id)entifier:(id)arg1 didSelectOffer: /* Error: Ran out of types for this method. */;
++ (id)initWithSharingInstanceIdentifier:(id)arg1 passThumbnailImageURL:criteriaIdentifier:didSelectOffer: /* Error: Ran out of types for this method. */;
+- (void)initWithThreshold:isEnabled: /* Error: Ran out of types for this method. */;
+- (void)initWithSupportedTerminal:(id)arg1 referralSource:(id)arg2;
+- (void)initWithSupportedNetworks:(id)arg1;
+- (void)initWithSupportedBLEAdvertisingVersions:(id)arg1 supportedBLEUWBProtocolVersions:(id)arg2 supportedExpeditedTransactionProtocolVersions: /* Error: Ran out of types for this method. */;
+- (void)initWithSuiteName:(id)arg1;
+- (void)initWithSubcredentialIdentifier:shareValidationType:shareValidationContainers: /* Error: Ran out of types for this method. */;
+- (id)initWithStatementIdentifier:(id)arg1 transactionDate:transactionAmount:suggestedAmountCategory: /* Error: Ran out of types for this method. */;
+- (id)r:(id)arg1 accountKeyIdentifier:(id)arg2 idType:learnMoreURL:proofingErrorMessage: /* Error: Ran out of types for this method. */;
+- (id)initWithShareableMetadata:(id)arg1;
 - (_Bool);
 - (id);
 - (void);

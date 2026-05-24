@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol UIActivityViewControllerObjectManipulationDelegate
+- (NSArray *)T(;
+
+@optional
+- (NSString *);
+- (_Bool);
 @end
 

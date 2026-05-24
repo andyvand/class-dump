@@ -9,7 +9,6 @@
 @interface TUEmergencyMediaItem
 {
     NSString *_assetId;
-    long long _emergencyMediaType;
 }
 
 + (_Bool);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *assetId; // @synthesize assetId=_assetId;
-@property(nonatomic) long long emergencyMediaType; // @synthesize emergencyMediaType=_emergencyMediaType;
 
 @end
 

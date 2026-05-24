@@ -9,13 +9,12 @@
 @interface PKPassRelevantDate
 {
     NSDateInterval *_interval;
-    NSDate *_date;
 }
 
 + (id);
 + (_Bool)0@ù
 × ;
-- (id);
+- (id)q ;
 - (id);
 - (id);
 - (id);
@@ -25,21 +24,18 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setHasHeNullZeroAgg:(id)arg1;
+- (void)reTxBytes;
 - (id);
 - (void);
-- (id);
-- (id)panded;
-- (void);
+- (id);
+- (id)backgroundMediaExpanded;
+- (void)keySigningResponse;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) NSDate *effectiveEndDate;
 @property(readonly, copy, nonatomic) NSDate *effectiveStartDate;
-@property(readonly, copy, nonatomic) NSDateInterval *interval; // @synthesize interval=_interval;
 
 @end
 

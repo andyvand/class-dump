@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (EMBiomeAdditions)
 - (id);
 - (id);
-- (unsigned long long);
-- (int);
-- (int);
+- (unsigned long long)=;
+- (int)p=;
+- (int)ƣT:(unsigned long long)arg1 =;
 - (int);
 - (int);
 - (int);
@@ -20,12 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool enable;

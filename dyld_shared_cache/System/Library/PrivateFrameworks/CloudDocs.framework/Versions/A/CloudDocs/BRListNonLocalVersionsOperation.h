@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSPermanentStorage, NSError, NSMutableArray, NSMutableDictionary, NSString, NSURL;
-@protocol BRNonLocalVersionSending;
+@class NSURL;
 
 @interface BRListNonLocalVersionsOperation
 {
     NSURL *_documentURL;
-    NSMutableArray *_versions;
-    NSMutableDictionary *_versionsByEtag;
-    GSPermanentStorage *_versionsStore;
-    id <BRNonLocalVersionSending> _sender;
-    _Bool _executing;
-    _Bool _finished;
-    _Bool _includeCachedVersions;
-    BOOL _state;
-    CDUnknownBlockType _fetchingVersionsDoneBlock;
 }
 
-- (oneway void);
+- (oneway void)*o;
 - (oneway void);
 - (oneway void);
 - (_Bool);
@@ -42,28 +32,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void) @;
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void)ns/A/MetalPerformanceShadersGraph;
 - (_Bool)R] Failed publishing document at %@ - %@%@;
 - (void)er _stopWatchingItemIDRecusively:(_Bool)arg1 itemIDsInItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error;
 @property(nonatomic, getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(copy, nonatomic) CDUnknownBlockType fetchingVersionsDoneBlock; // @synthesize fetchingVersionsDoneBlock=_fetchingVersionsDoneBlock;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeCachedVersions; // @synthesize includeCachedVersions=_includeCachedVersions;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableArray *versions; // @synthesize versions=_versions;
 
 @end
 

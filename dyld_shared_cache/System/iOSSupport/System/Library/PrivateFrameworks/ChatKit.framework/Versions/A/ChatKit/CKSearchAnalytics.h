@@ -4,41 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStream, NSDate, NSNumber, NSString;
+@class BMStream;
 
 @interface CKSearchAnalytics
 {
     BMStream *_eventStream;
-    NSString *_sessionID;
-    unsigned long long _queryID;
-    NSDate *_sessionStartedDate;
-    long long _previousPresentationReason;
 }
 
-+ (_Bool);
++ (_Bool)e;
 + (id)Ik¨³ÿIkgµÿkQµÿikÌSµÿik8³ÿQkèfµÿ;
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (void)filteredAttributedSubstring:(long long)arg1 fromRange:forPlainText:forStandardizedText:fixAttachments:insertListMarkers:context: /* Error: Ran out of types for this method. */;
+- (id)_supportsPlainLink;
+- (unsigned long long)_subtitleTextViewHeightConstraint;
+- (id)ic_popUpBelowView:extraSpacing: /* Error: Ran out of types for this method. */;
+- (long long),V_managedObjectChangeController;
 - (void);
 - (void);
+- (void)$;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (int);
-- (int);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)dW<YXZ[];
+- (int)or %@;
+- (id)ed to append attributed string:%@ /* Error: Ran out of types for this method. */;
+- (int)s. This is a powerful security option for some users, however, if you forget this password, you will lose access to these locked notes and Apple will not be able to recover your password.;
+- (int)arate password just for your locked notes. This is a powerful security option for some users, however, if you forget this password, you will lose access to these locked notes and Apple will not be able to recover your password.;
+- (id)assword?;
+- (void)magenta;
+- (_Bool)to find attachment range in note;
+- (id)t already has one.;
 - (int);
 - (id);
 - (void);
@@ -52,11 +48,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) BMStream *eventStream; // @synthesize eventStream=_eventStream;
-@property(readonly, nonatomic) NSNumber *millisecondsSinceSessionStarted;
-@property(nonatomic) long long previousPresentationReason; // @synthesize previousPresentationReason=_previousPresentationReason;
-@property(readonly, nonatomic) unsigned long long queryID; // @synthesize queryID=_queryID;
-@property(readonly, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly, nonatomic) NSDate *sessionStartedDate; // @synthesize sessionStartedDate=_sessionStartedDate;
 
 @end
 

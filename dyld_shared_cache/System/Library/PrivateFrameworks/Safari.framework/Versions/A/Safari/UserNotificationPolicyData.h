@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UserNotificationPolicyData
 {
     NSString *_displayName;
-    NSImage *_icon;
-    int _policy;
-    NSDate *_dateAdded;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (int);
-- (id);
+- (int)IMDaemonListenerChatDatabaseProtocol;
+- (id);
 - (id);
 - (id);
 - (void)!DùÑ¢°1Â0@ù
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)¸;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) int policy; // @synthesize policy=_policy;
 
 @end
 

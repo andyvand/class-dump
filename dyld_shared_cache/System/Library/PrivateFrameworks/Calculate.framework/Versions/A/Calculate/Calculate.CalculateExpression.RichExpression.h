@@ -7,16 +7,6 @@
 @interface Calculate.CalculateExpression.RichExpression
 {
     id parent;
-    id _replaceOperand;
-    id pushOperand;
-    id offset;
-    id editable;
-    id needsUpdate;
-    id activeError;
-    id tokens;
-    id _isSingleTerm;
-    id _hasExponent;
-    id _isWrapped;
 }
 
 @end

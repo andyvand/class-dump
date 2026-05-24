@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __HMFOSUnfairLock : HMFUnfairLock
 {
     struct os_unfair_lock_s _internal;
-    unsigned int _internalOptions;
 }
 
 - (void);

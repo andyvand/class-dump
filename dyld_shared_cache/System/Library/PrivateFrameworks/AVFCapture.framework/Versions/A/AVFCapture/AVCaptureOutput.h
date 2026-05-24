@@ -11,39 +11,40 @@
     AVCaptureOutputInternal *_outputInternal;
 }
 
-+ (id);
-+ (id);
++ (id)es
+;
++ (id)c_ivar=}8r*16r*24^v32;
 + (long long);
 + (id);
 + (id);
 + (void)Ë¡-@R¸Î@ff6AÃõA;
+- (_Bool),V_alertIconURL;
+- (void)tring",C,N,V_language;
+- (id)parseWithError:(id)arg1;
+- (unsigned int)f;
+- (id);
+- (id)|J;
+- (void)not decompress input data;
+- (struct CGSize)r;
+- (id)PEGDestination(CGImageSourceRef, size_t, CGImageDestinationRef, CGFloat, CGFloat);
+- (_Bool)ruct MSVArc4State *_MSVNanoIDSharedArc4State(void)_block_invoke;
+- (void)scalarFunctionImplementation(sqlite3_context *, int, sqlite3_value **);
+- (void)d/%d;
+- (void)PrivateFrameworks;
+- (void)amReader _compressedDataForData:(struct CGAffineTransform *)arg1 ];
+- (id)ture.m;
+- (id)is an array. To stream an array into the value of a dictionary key use startArrayForKey:(id)arg1;
+- (_Bool)retain;
+- (_Bool)presentable;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)entityForName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (void);
-- (struct CGSize);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (void);
+- (struct CGRect);
+- (_Bool)c;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -57,23 +58,21 @@
 - (void);
 - (void);
 - (id);
-- (id)rimaryConnectionID:(id)arg1;
-- (void)yCaptureEnabled:(id)arg1;
-- (void)dNoiseRemovalEnabled;
-- (void)usRangeRestriction;
-- (id)rmat;
+- (id)setMultiCamClientCompositingPrimaryConnectionID:(id)arg1;
+- (void)setBurstQualityCaptureEnabled:(id)arg1;
+- (void)_windNoiseRemovalEnabled;
+- (void)_autoFocusRangeRestriction;
+- (id)_activeDepthDataFormat;
 - (void)apturePrioritizationEnabled,V_fastCapturePrioritizationEnabled;
 - (void)B,N,GisPrimaryConstituentDeviceSwitchingBehaviorForRecordingEnabled;
 - (id)`¢;
 - (void)d¨©,®®;
 - (void)on.capturesession.device_orientation_change_queue;
 - (int)upported: /* Error: Ran out of types for this method. */;
-- (_Bool)MetadataObjectTypes;
+- (_Bool)availableMetadataObjectTypes;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *connections;
-@property(nonatomic, getter=isDeferredStartEnabled) _Bool deferredStartEnabled;
-@property(readonly, nonatomic, getter=isDeferredStartSupported) _Bool deferredStartSupported;
 
 @end
 

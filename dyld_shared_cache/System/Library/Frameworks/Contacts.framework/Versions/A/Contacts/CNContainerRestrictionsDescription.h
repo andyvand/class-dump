@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)eventPropertiesToMatch;
+- (_Bool)e_2;
 - (Class)Ô!q&ð!4Eù1*Ð1Â0@ù
 × ;
 

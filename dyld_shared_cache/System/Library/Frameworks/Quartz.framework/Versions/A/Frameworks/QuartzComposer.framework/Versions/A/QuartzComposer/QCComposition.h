@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface QCComposition
 {
     NSArray *_protocols;
-    NSDictionary *_attributes;
-    NSArray *_inputKeys;
-    NSArray *_outputKeys;
-    id _backing;
-    NSString *_identifier;
-    double _timestamp;
-    _Bool _stateOK;
 }
 
 + (_Bool);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (void)ueWillChange;
-+ (id)domVertex_weights4domVE;
-- (id);
++ (void)_C3DRotationValueWillChange;
++ (id)N7domSkin17domVertex_weights4domVE;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)eased, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name, sync_redownload_params) SELECT item_pid, store_item_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name, IFNULL(sync_redownload_params, '') FROM item_store;
 - (id);
 - (void);
 - (id);

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSString, NSXMLParser;
+@class NSXMLParser;
 
 @interface _ECSVGProfileExtractor
 {
     NSXMLParser *_parser;
-    NSString *_namespace;
-    NSString *_version;
-    NSString *_baseProfile;
-    _Atomic _Bool _hasParsed;
-    NSConditionLock *_parseLock;
 }
 
 - (void);
@@ -21,13 +16,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

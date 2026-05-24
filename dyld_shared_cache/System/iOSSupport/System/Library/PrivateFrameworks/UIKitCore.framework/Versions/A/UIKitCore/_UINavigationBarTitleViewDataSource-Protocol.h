@@ -8,15 +8,17 @@
 @protocol _UINavigationBarAugmentedTitleView;
 
 @protocol _UINavigationBarTitleViewDataSource
+- (void);
+- (double)trackIdentifiers;
 - (void)!¤Cùñ]1Â0@ù
 × ;
 - (void);
 - (void)c°1Â0@ù
 × ;
-- (double)ainer:(UIView<_UINavigationBarAugmentedTitleView> *)arg1;
+- (double)setScopeBarContainer:(UIView<_UINavigationBarAugmentedTitleView> *)arg1;
 - (void);
-- (CDStruct_c3b9c2ee)scape;
-- (void)ateStatusBar:(UIView<_UINavigationBarAugmentedTitleView> *)arg1 duration:force: /* Error: Ran out of types for this method. */;
+- (CDStruct_c3b9c2ee)forceFullHeightInLandscape;
+- (void)_legacySetRotatableViewOrientation:(UIView<_UINavigationBarAugmentedTitleView> *)arg1 updateStatusBar:duration:force: /* Error: Ran out of types for this method. */;
 - (double)_isDisplayingShortcutViewController;
 @end
 

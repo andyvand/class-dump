@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)?0@"FBSSettings"8@16;
 - (int);
 
 @end

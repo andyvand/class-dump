@@ -7,10 +7,6 @@
 @interface ChronoKit.CHDMonotonicTimer
 {
     id timer;
-    id lock;
-    id invalidated;
-    id time;
-    id interval;
 }
 
 @end

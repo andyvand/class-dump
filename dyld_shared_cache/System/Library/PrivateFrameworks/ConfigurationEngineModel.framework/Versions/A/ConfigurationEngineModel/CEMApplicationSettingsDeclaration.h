@@ -6,19 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMApplicationSettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadDiagnosticSubmission;
-    NSNumber *_payloadAppAnalytics;
-    NSNumber *_payloadAllowDiagnosticSubmission;
-    NSArray *_payloadAutonomousSingleAppModePermittedAppIDs;
-    NSNumber *_payloadAllowActivityContinuation;
-    NSNumber *_payloadAllowEnterpriseAppTrust;
-    NSNumber *_payloadAllowDiagnosticSubmissionModification;
-    NSNumber *_payloadAllowAutomaticAppUpdates;
-    NSNumber *_payloadAllowAutomaticAppUpdatesModification;
 }
 
 + (id);
@@ -56,22 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowActivityContinuation; // @synthesize payloadAllowActivityContinuation=_payloadAllowActivityContinuation;
-@property(copy, nonatomic) NSNumber *payloadAllowAutomaticAppUpdates; // @synthesize payloadAllowAutomaticAppUpdates=_payloadAllowAutomaticAppUpdates;
-@property(copy, nonatomic) NSNumber *payloadAllowAutomaticAppUpdatesModification; // @synthesize payloadAllowAutomaticAppUpdatesModification=_payloadAllowAutomaticAppUpdatesModification;
-@property(copy, nonatomic) NSNumber *payloadAllowDiagnosticSubmission; // @synthesize payloadAllowDiagnosticSubmission=_payloadAllowDiagnosticSubmission;
-@property(copy, nonatomic) NSNumber *payloadAllowDiagnosticSubmissionModification; // @synthesize payloadAllowDiagnosticSubmissionModification=_payloadAllowDiagnosticSubmissionModification;
-@property(copy, nonatomic) NSNumber *payloadAllowEnterpriseAppTrust; // @synthesize payloadAllowEnterpriseAppTrust=_payloadAllowEnterpriseAppTrust;
-@property(copy, nonatomic) NSNumber *payloadAppAnalytics; // @synthesize payloadAppAnalytics=_payloadAppAnalytics;
-@property(copy, nonatomic) NSArray *payloadAutonomousSingleAppModePermittedAppIDs; // @synthesize payloadAutonomousSingleAppModePermittedAppIDs=_payloadAutonomousSingleAppModePermittedAppIDs;
 @property(copy, nonatomic) NSNumber *payloadDiagnosticSubmission; // @synthesize payloadDiagnosticSubmission=_payloadDiagnosticSubmission;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFEncodedTypedValue, WFImage;
-@protocol WFPropertyListObject;
+@class NSString;
 
 @interface WFDialogListItem
 {
     _Bool _selected;
-    _Bool _showingStaticContent;
-    _Bool _hasImage;
-    _Bool _hasSubtitle;
-    _Bool _hasAltText;
-    _Bool _hideSubtitle;
-    NSString *_identifier;
-    id <WFPropertyListObject> _serializedPossibleState;
-    NSString *_title;
-    WFEncodedTypedValue *_encodedTypedValue;
-    NSString *_subtitle;
-    WFImage *_image;
 }
 
 + (_Bool);
@@ -28,13 +16,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)2z;
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)R#j;
+- (_Bool)*{;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long):: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -45,22 +33,11 @@
 - (id);
 - (void)0@ù
 × ;
-- (_Bool)o36WFOutOfProcessWorkflowControllerHost_p;
+- (_Bool)So36WFOutOfProcessWorkflowControllerHost_p;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) WFEncodedTypedValue *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(readonly, nonatomic) _Bool hasAltText; // @synthesize hasAltText=_hasAltText;
-@property(readonly, nonatomic) _Bool hasImage; // @synthesize hasImage=_hasImage;
-@property(readonly, nonatomic) _Bool hasSubtitle; // @synthesize hasSubtitle=_hasSubtitle;
-@property(nonatomic) _Bool hideSubtitle; // @synthesize hideSubtitle=_hideSubtitle;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) WFImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, nonatomic) id <WFPropertyListObject> serializedPossibleState; // @synthesize serializedPossibleState=_serializedPossibleState;
-@property(readonly, nonatomic) _Bool showingStaticContent; // @synthesize showingStaticContent=_showingStaticContent;
 @property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

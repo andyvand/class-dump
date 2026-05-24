@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)CVDisplayLinkSetPaused %s;
 - (id);
 
 @end

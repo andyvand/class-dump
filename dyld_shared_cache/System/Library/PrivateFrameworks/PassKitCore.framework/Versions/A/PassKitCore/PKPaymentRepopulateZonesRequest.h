@@ -13,7 +13,7 @@
     NSArray *_cloudStoreZoneNames;
 }
 
-- (id);
+- (id)J@9_;
 - (id);
 - (id);
 - (void)uspended-lost-mode;

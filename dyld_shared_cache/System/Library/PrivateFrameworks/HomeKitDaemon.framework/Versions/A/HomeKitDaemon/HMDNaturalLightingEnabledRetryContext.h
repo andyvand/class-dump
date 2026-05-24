@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface HMDNaturalLightingEnabledRetryContext
 {
     _Bool _naturalLightingEnabled;
-    unsigned long long _retryCount;
-    CDUnknownBlockType _completion;
 }
 
-- (id);
+- (id)te}@ for %{private}@;
 - (_Bool);
-- (id)ateCachedData;
-- (CDUnknownBlockType)dleAccessoryConnectedNotification: /* Error: Ran out of types for this method. */;
+- (id)invalidateCachedData;
+- (CDUnknownBlockType)handleAccessoryConnectedNotification: /* Error: Ran out of types for this method. */;
 - (id)ublic}@Found mergeID %@ for destination %@, new attribute %@;
 - (void)Item"8;
 - (unsigned long long);
 - (void)|?;
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly) _Bool naturalLightingEnabled; // @synthesize naturalLightingEnabled=_naturalLightingEnabled;
 @property unsigned long long retryCount; // @synthesize retryCount=_retryCount;
 
 @end

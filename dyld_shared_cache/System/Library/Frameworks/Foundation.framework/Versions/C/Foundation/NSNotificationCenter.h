@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _NotificationCenterActorQueueManager;
-
 @interface NSNotificationCenter
 {
     struct __CFNotificationCenter *_impl;
-    struct os_unfair_lock_s actorQueueManagerLock;
-    _NotificationCenterActorQueueManager *_actorQueueManager;
 }
 
 @end

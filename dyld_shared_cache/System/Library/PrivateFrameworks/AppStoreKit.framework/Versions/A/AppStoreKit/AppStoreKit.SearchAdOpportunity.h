@@ -7,10 +7,6 @@
 @interface AppStoreKit.SearchAdOpportunity
 {
     id instanceId;
-    id eventPayloads;
-    id searchAd;
-    id missedOpportunityReason;
-    id id;
 }
 
 @end

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCurrentAccessorySetupMetricDispatcher, HMFActivity;
+@class HMDCurrentAccessorySetupMetricDispatcher, HMDFetchedAccessorySettingsController, HMFActivity, NSString;
 @protocol HMEEventForwarder, HMELastEventStoreReadHandle, HMMLogEventSubmitting;
 
 @protocol HMDFetchedAccessorySettingsControllerDataSource
-- (id <HMELastEventStoreReadHandle>)tLocalData: /* Error: Ran out of types for this method. */;
+- (NSString *)_iconAttributeKey;
+- (NSString *)ervice:(HMDFetchedAccessorySettingsController *)arg1 %{private}@;
+- (void)6;
+- (id <HMELastEventStoreReadHandle>)doesSaveReasonNotAffectLocalData: /* Error: Ran out of types for this method. */;
 - (id <HMEEventForwarder>)eMessaging.ModernTransport;
 - (id <HMMLogEventSubmitting>)%@, state = %@, home = %@  ;
-- (HMDCurrentAccessorySetupMetricDispatcher *)onKeyLockDataType;
+- (HMDCurrentAccessorySetupMetricDispatcher *)kShowMatterLockNotificationKeyLockDataType;
 - (HMFActivity *);
 - (double)ories;
 
 // Remaining properties
-@property(readonly) HMDCurrentAccessorySetupMetricDispatcher *currentAccessorySetupMetricDispatcher;
 @property(readonly) id <HMEEventForwarder> eventForwarder;
-@property(readonly) id <HMELastEventStoreReadHandle> eventStoreReadHandle;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly) HMFActivity *setupActivity;
-@property double setupStartTimestamp;
 @end
 

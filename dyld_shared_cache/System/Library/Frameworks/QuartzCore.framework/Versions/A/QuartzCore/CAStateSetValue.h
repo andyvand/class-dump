@@ -11,29 +11,27 @@
 @interface CAStateSetValue : CAStateElement
 {
     NSString *_keyPath;
-    id _value;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)AccountMoved;
 - (void);
-- (void);
+- (void):(id)arg1 s;
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)-;
+- (id)loop %@;
+- (_Bool);
 - (id);
 - (void)8;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain, nonatomic) id value;
 
 @end
 

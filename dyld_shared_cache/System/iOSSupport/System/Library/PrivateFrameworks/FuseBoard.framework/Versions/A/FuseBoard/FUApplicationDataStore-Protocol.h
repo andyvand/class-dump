@@ -7,8 +7,12 @@
 @class NSSet;
 
 @protocol FUApplicationDataStore
+- (NSSet *);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *scenePersistenceIdentifiers;
+// Error: Property attributes should begin with the type ('T') attribute, property name: v16@0:8
+// Property attributes: v24@0:8@"NSSet"16
+
 @end
 

@@ -11,10 +11,6 @@
 @interface WBSPageTestController : WBSTestController
 {
     _Bool _allowsContentJavaScript;
-    _Bool _allowsNetworkAccess;
-    _Bool _allowsMetaRefresh;
-    _Bool _allowsExtensions;
-    id <WBSPageTestDelegate> _delegate;
 }
 
 - (unsigned long long);
@@ -25,16 +21,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)u;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsContentJavaScript; // @synthesize allowsContentJavaScript=_allowsContentJavaScript;
-@property(readonly, nonatomic) _Bool allowsExtensions; // @synthesize allowsExtensions=_allowsExtensions;
-@property(readonly, nonatomic) _Bool allowsMetaRefresh; // @synthesize allowsMetaRefresh=_allowsMetaRefresh;
-@property(readonly, nonatomic) _Bool allowsNetworkAccess; // @synthesize allowsNetworkAccess=_allowsNetworkAccess;
 @property __weak id <WBSPageTestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long pageTestType;
 
 @end
 

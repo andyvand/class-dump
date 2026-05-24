@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallAcceptReceived
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    unsigned int _isVideo;
-    unsigned int _onLockScreen;
-    CDStruct_8254a500 _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)߈;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -43,14 +37,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface MUISearchSuggestionCategoryScope
 {
     NSString *_title;
-    NSString *_identifier;
-    NSString *_parsecScope;
-    CDUnknownBlockType _predicateApplier;
 }
 
 + (id);
@@ -20,17 +17,14 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void)rget (%{public}@);
 - (void);
-- (void);
 - (id);
 - (id);
-- (void)essibilitySelectedTextRanges: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilitySelectedTextRanges: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *parsecScope; // @synthesize parsecScope=_parsecScope;
-@property(copy, nonatomic) CDUnknownBlockType predicateApplier; // @synthesize predicateApplier=_predicateApplier;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

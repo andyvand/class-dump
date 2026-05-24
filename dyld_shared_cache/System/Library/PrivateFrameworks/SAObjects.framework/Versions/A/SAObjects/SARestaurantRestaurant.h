@@ -6,14 +6,14 @@
 
 #import <SAObjects/SALocalSearchBusiness2.h>
 
-@class NSArray, NSURL;
+@class NSArray;
 
 @interface SARestaurantRestaurant : SALocalSearchBusiness2
 {
 }
 
++ (id)R;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -29,10 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attributeSet;
-@property(copy, nonatomic) NSArray *makeReservationPunchOuts;
-@property(copy, nonatomic) NSURL *menuLink;
-@property(copy, nonatomic) NSArray *openings;
-@property(copy, nonatomic) NSArray *orderDeliveryPunchOuts;
 
 @end
 

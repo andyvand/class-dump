@@ -9,7 +9,6 @@
 @interface PXLikeSharedAlbumAssetsAction : PXAssetsAction
 {
     _Bool _like;
-    long long _mediaType;
 }
 
 + (_Bool);
@@ -22,11 +21,10 @@
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isLike) _Bool like; // @synthesize like=_like;
 @property(readonly, nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
 
 @end

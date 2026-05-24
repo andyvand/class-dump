@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface TSKPicaFormatter
 {
     NSString *mPicaSeparator;
-    NSNumber *mMinimum;
-    NSNumber *mMaximum;
 }
 
+- (void)] - items:(id)arg1;
+- (id)B;
+- (id)Code;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
+- (void)k;
+- (_Bool);
 - (id);
-- (id);
+- (id)(!;
 - (id)on_private) pImportParagraphAttributes:paragraphStyle:] /* Error: Ran out of types for this method. */;
 - (id)youtContext:(id)arg1:EQKitLayoutContext(EQKitLayoutManager &, const EQKitLayoutContext &, id<EQKitLayoutNode>, NSInteger, bool, EQKit::Script::Cramped::Style) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *maximum; // @synthesize maximum=mMaximum;
-@property(copy, nonatomic) NSNumber *minimum; // @synthesize minimum=mMinimum;
 @property(copy, nonatomic) NSString *picaSeparator; // @synthesize picaSeparator=mPicaSeparator;
 
 @end

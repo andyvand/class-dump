@@ -9,26 +9,20 @@
 @interface MLPrecisionRecallCurve
 {
     NSArray *_precisionValues;
-    NSArray *_precisionConfidenceThresholds;
-    NSArray *_recallValues;
-    NSArray *_recallConfidenceThresholds;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Unknown;
+- (id)MTLIndexTypeUInt16;
+- (id)_lock::unlock:not locked /* Error: Ran out of types for this method. */;
+- (id)D;
+- (id)Tl;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *precisionConfidenceThresholds; // @synthesize precisionConfidenceThresholds=_precisionConfidenceThresholds;
 @property(readonly, nonatomic) NSArray *precisionValues; // @synthesize precisionValues=_precisionValues;
-@property(readonly, nonatomic) NSArray *recallConfidenceThresholds; // @synthesize recallConfidenceThresholds=_recallConfidenceThresholds;
-@property(readonly, nonatomic) NSArray *recallValues; // @synthesize recallValues=_recallValues;
 
 @end
 

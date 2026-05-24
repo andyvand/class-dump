@@ -11,10 +11,10 @@
     NSURL *_assertionStorageFileURL;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)setHasCompanionDeviceDiscoveryContext:(id)arg1;
+- (id)setHasCommandPayloadCharacterCount: /* Error: Ran out of types for this method. */;
+- (id)setHasCmInitialStartupItemCreationToReadyToPlayDurationInMs:(id)arg1;
+- (id)setHasClassifierModelType: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -9,58 +9,12 @@
 @interface NewsArticles.ArticleViewerViewController
 {
     id observableScrollView;
-    id styler;
-    id eventHandler;
-    id pageViewController;
-    id pageBlueprintProvider;
-    id blueprintProvider;
-    id coverViewManager;
-    id eventManager;
-    id prewarm;
-    id barCompressionManager;
-    id barCompressionAnimationFactory;
-    id barCompressionNavigationItemStash;
-    id articleViewerImpressionManager;
-    id interstitialAdManager;
-    id paidAccessChecker;
-    id featureManager;
-    id featureTransitions;
-    id hasPresentedFirstPage;
-    id pageSheetPresentationObserver;
-    id commands;
-    id onPagePresented;
-    id state;
-    id _isPagingEnabled;
-    id shareMenuItemManager;
-    id featureAvailability;
-    id offlineManager;
-    id bundleSubscriptionManager;
-    id pendingPageIdentifier;
-    id tipManager;
-    id tipConfigFactory;
-    id sharedItemManager;
-    id searchInArticleModule;
-    id searchInArticleViewController;
-    id currentlyPlayingObservable;
-    id tabBarAccessoryManager;
-    id audioMessagingStyler;
-    id narrativeAudioState;
-    id issueCoverContainerView;
-    id _windowTitle;
-    id pageKind;
-    id featurePromotionManager;
-    id featurePromotionPresenter;
-    id featurePromotionTask;
-    id feedConfigurationFactory;
-    id $__lazy_storage_$_bottomPaletteViewController;
-    id $__lazy_storage_$_bottomPalettePlugin;
-    id pocketStatusBarView;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)?;
+- (void)<˟;
 - (id);
 - (id);
 - (void);
@@ -70,14 +24,13 @@
 - (id);
 - (void);
 - (void);
-- (void)iss;
+- (void)dismiss;
 - (long long)hxÌÿ53;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *preferredFocusEnvironments;
-@property(nonatomic, readonly) long long preferredStatusBarStyle;
 
 @end
 

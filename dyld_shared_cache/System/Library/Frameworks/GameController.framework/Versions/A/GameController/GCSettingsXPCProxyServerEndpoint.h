@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCSProfile, NSString;
-@protocol GCSettingsXPCProxyRemoteClientEndpointInterface, GCSettingsXPCProxyServerEndpointDelegate, NSObject><NSCopying><NSSecureCoding, _GCControllerComponentDescription, _GCIPCEndpointConnection;
+@class GCSProfile;
+@protocol GCSettingsXPCProxyRemoteClientEndpointInterface;
 
 __attribute__((visibility("hidden")))
 @interface GCSettingsXPCProxyServerEndpoint
 {
     id <GCSettingsXPCProxyRemoteClientEndpointInterface> _clientEndpoint;
-    id <_GCIPCEndpointConnection> _connection;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    unsigned long long _pendingUpdates;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    GCSProfile *_settingsProfile;
-    id <GCSettingsXPCProxyServerEndpointDelegate> _delegate;
-    id _userInfo;
 }
 
 - (void);
@@ -30,27 +22,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id));
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GCSettingsXPCProxyServerEndpointDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) id <_GCControllerComponentDescription> receiverDescription;
 @property(retain, nonatomic) GCSProfile *settingsProfile; // @synthesize settingsProfile=_settingsProfile;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

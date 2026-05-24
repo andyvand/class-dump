@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDBulletinNotificationRegistrationSource, HMDCameraSignificantEventFaceClassificationResolver, HMDDoorbellPressTracker, HMDHome, HMDNotificationConditionEvaluator, HMFMessageDispatcher, HMFTimer, NSArray, NSMutableDictionary, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraBulletinNotificationManager
 {
     _Bool _currentPrimary;
-    struct os_unfair_lock_s _lock;
-    NSUUID *_messageTargetUUID;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSMutableDictionary *_observersByCameraIdentifier;
-    HMDCameraSignificantEventFaceClassificationResolver *_faceClassificationResolver;
-    HMDAppleAccountManager *_accountManager;
-    NSNotificationCenter *_notificationCenter;
-    HMDDoorbellPressTracker *_doorbellPressTracker;
-    HMDNotificationConditionEvaluator *_evaluator;
-    HMFTimer *_synchronizeWithPrimaryDebounceTimer;
-    CDUnknownBlockType _synchronizeWithPrimaryDebounceTimerFactory;
 }
 
 + (id);
 + (id);
 + (id);
 + (id)ìB;
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)_postedStateIsReady;
+- (CDUnknownBlockType)ing;
+- (id)sharedTripInvalidatedWithError: /* Error: Ran out of types for this method. */;
+- (void)igationListener not creating state, no delegate;
+- (void)flight:(id)arg1 %{private}@;
+- (void)hRequiresUserConfirmationOfSharingIdentityWithCompletion:(_Bool)arg1 ];
 - (void);
 - (id);
 - (id);
@@ -50,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id){;
 - (id);
 - (id);
 - (id);
@@ -66,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -96,10 +82,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (id):characteristic: /* Error: Ran out of types for this method. */;
-- (id)lLightingAction;
+- (id)enableTestDataNotificationWithAccessory:characteristic: /* Error: Ran out of types for this method. */;
+- (id)castIfNaturalLightingAction;
 - (id)%{public}@Failed to save account %@:%@ /* Error: Ran out of types for this method. */;
-- (void)yToSharedUsers;
+- (void)relayToSharedUsers;
 - (struct os_unfair_lock_s)8^B16;
 - (void)å}&TÂ	ÿ;
 - (id)D=;
@@ -107,38 +93,7 @@ __attribute__((visibility("hidden")))
 - (id)B;
 
 // Remaining properties
-@property(readonly) HMDAppleAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(readonly) NSArray *cameraAccessModeRegistrations;
-@property(readonly) NSArray *cameraAccessModeRegistrationsForCurrentDevice;
-@property(readonly) NSArray *cameraReachabilityRegistrations;
-@property(readonly) NSArray *cameraReachabilityRegistrationsForCurrentDevice;
-@property(readonly) NSArray *cameraSignificantEventRegistrations;
-@property(readonly) NSArray *cameraSignificantEventRegistrationsForCurrentDevice;
-@property _Bool currentPrimary; // @synthesize currentPrimary=_currentPrimary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDoorbellPressTracker *doorbellPressTracker; // @synthesize doorbellPressTracker=_doorbellPressTracker;
-@property(readonly) HMDNotificationConditionEvaluator *evaluator; // @synthesize evaluator=_evaluator;
-@property(readonly) HMDCameraSignificantEventFaceClassificationResolver *faceClassificationResolver; // @synthesize faceClassificationResolver=_faceClassificationResolver;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) NSMutableDictionary *observersByCameraIdentifier; // @synthesize observersByCameraIdentifier=_observersByCameraIdentifier;
-@property(readonly) HMDBulletinNotificationRegistrationSource *source;
-@property(readonly) Class superclass;
-@property(retain) HMFTimer *synchronizeWithPrimaryDebounceTimer; // @synthesize synchronizeWithPrimaryDebounceTimer=_synchronizeWithPrimaryDebounceTimer;
-@property(copy) CDUnknownBlockType synchronizeWithPrimaryDebounceTimerFactory; // @synthesize synchronizeWithPrimaryDebounceTimerFactory=_synchronizeWithPrimaryDebounceTimerFactory;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

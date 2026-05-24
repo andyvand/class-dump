@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRDetectedLineRegion, CRRecognizedTextRegion, NSObject, NSString;
-@protocol CRScriptCategory, CRTextRecognizerDecodingTransientResult;
+@class CRDetectedLineRegion;
 
 @interface CRFeatureSequenceRecognitionInfo
 {
     float _scale;
-    CRDetectedLineRegion *_lineRegion;
-    long long _orientationAdjustment;
-    double _orientationConfidence;
-    NSString *_orientationOutputResult;
-    NSObject<CRScriptCategory> *_sequenceScriptCategory;
-    NSString *_sequenceScriptOutputResult;
-    CRRecognizedTextRegion *_recognizedTextRegion;
-    unsigned long long _layoutDirection;
-    NSObject<CRTextRecognizerDecodingTransientResult> *_transientDecodingResult;
-    struct CGSize _featureImageSize;
-    struct CGRect _bounds;
-    struct CGRect _rotatedROI;
 }
 
 - (id);
-- (void)haracterSet;
+- (void)symbolCharacterSet;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CRDetectedLineRegion *lineRegion;
-@property(readonly) Class superclass;
 
 @end
 

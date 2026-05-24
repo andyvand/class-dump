@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorCollaborationNoticeAction
 {
@@ -14,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)e not enabled;
 - (void)Y¾jÂÿI¾`ÊÉÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *guidStrings;
-@property(nonatomic, readonly) long long type;
 
 @end
 

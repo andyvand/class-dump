@@ -6,26 +6,19 @@
 
 #import <MapKit/MKOverlayRenderer.h>
 
-@class GEOTileKeyList, NSImage, NSNumber, NSObject, VKRasterTileOverlayProviderData;
-@protocol OS_dispatch_queue;
+@class GEOTileKeyList, NSNumber;
 
 @interface MKTileOverlayRenderer : MKOverlayRenderer
 {
     GEOTileKeyList *_pendingRequests;
-    NSObject<OS_dispatch_queue> *_pendingRequestsLock;
-    _Bool _externalSubclassOverridesDrawingMethods;
-    VKRasterTileOverlayProviderData *_rasterProvider;
-    unsigned long long _loopsRemaining;
-    NSImage *_colorMap;
-    NSNumber *_visibleKeyframeOverride;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id)StartDate;
+- (void)og response in debug mode, using lastPowerlogResponse instead;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -33,19 +26,17 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)stems;
-- (id)icsDidSelectAction:target:eventValue:moduleMetadata:feedbackDelegateSelector:actionRichProviderId:classification: /* Error: Ran out of types for this method. */;
+- (void)	?׀;
+- (void)24@0:(double)arg1 8@"NSString"16;
+- (void)P;
+- (void)refreshStationSystems;
+- (id)infoCardAnalyticsDidSelectAction:target:eventValue:moduleMetadata:feedbackDelegateSelector:actionRichProviderId:classification: /* Error: Ran out of types for this method. */;
 - (void)ïÿZ?<ê	;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *colorMap; // @synthesize colorMap=_colorMap;
-@property(readonly, nonatomic, getter=_visibleKeyframeIndex) unsigned long long visibleKeyframeIndex;
 @property(retain, nonatomic) NSNumber *visibleKeyframeOverride; // @synthesize visibleKeyframeOverride=_visibleKeyframeOverride;
 
 @end

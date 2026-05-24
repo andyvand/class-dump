@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NewsSubscription.PaidBundleViaOfferSettings;
-
 @interface NewsUI2.FeatureAvailability
 {
     id featureAvailabilityProvider;
-    id observers;
-    id $__lazy_storage_$_isContentStoreFrontSupported;
 }
 
 - (id);
@@ -21,9 +17,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)prepareTap:maxFrames:processingFormat: /* Error: Ran out of types for this method. */;
+- (_Bool)tedArtworkForIdentifierFuture [nullcontroller - init];
+- (_Bool)nic.NetworkPredictionAssessment;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -34,13 +30,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool)	;
 - (_Bool);
-- (_Bool)picTagFeedGroupKnobs;
+- (_Bool)SportsEventTopicTagFeedGroupKnobs;
 - (_Bool)d÷;
 - (_Bool)²þÅícüÍ²þ;
 - (_Bool);
@@ -54,43 +50,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowCIPBestOffer;
-@property(nonatomic, readonly) _Bool allowInAppMessages;
-@property(nonatomic, readonly) _Bool allowPaidBundleViaOffer;
-@property(nonatomic, readonly) _Bool allowSIWAOnMac;
-@property(nonatomic, readonly) _Bool allowSharingAlways;
-@property(nonatomic, readonly) _Bool appleMagazineContent;
-@property(nonatomic, readonly) _Bool articleLinkBehaviorImprovementsEnabled;
-@property(nonatomic, readonly) _Bool configurableOffersEnabled;
-@property(nonatomic, readonly) _Bool dimNonSubscriberContentOffline;
-@property(nonatomic, readonly) _Bool featurePromotionEnabled;
-@property(nonatomic, readonly) _Bool imagesInStepsEnabled;
-@property(nonatomic, readonly) _Bool ingredientScalingEnabled;
-@property(nonatomic, readonly) _Bool interstellarEnabled;
-@property(nonatomic, readonly) _Bool localOnboardingEnabled;
-@property(nonatomic, readonly) _Bool multipartRecipesEnabled;
-@property(nonatomic, readonly) _Bool narrativeAudio;
-@property(nonatomic, readonly) _Bool nutritionInfoEnabled;
-@property(nonatomic, readonly) NewsSubscription.PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
-@property(nonatomic, readonly) _Bool puzzlesEnabled;
-@property(nonatomic, readonly) _Bool puzzlesGameCenterEnabled;
-@property(nonatomic, readonly) _Bool recipeHistoryFeedEnabled;
-@property(nonatomic, readonly) _Bool recipeNotesEnabled;
-@property(nonatomic, readonly) _Bool recipeRatingsEnabled;
-@property(nonatomic, readonly) _Bool recipeUnitConversionEnabled;
-@property(nonatomic, readonly) _Bool sportsNativeAdsEnabled;
-@property(nonatomic, readonly) _Bool useContinueReading;
-@property(nonatomic, readonly) _Bool useFineGrainedNewsletterManagement;
-@property(nonatomic, readonly) _Bool useFood;
-@property(nonatomic, readonly) _Bool useMoreFromIssueEOA;
 @property(nonatomic, readonly) _Bool useMoreToReadEOA;
-@property(nonatomic, readonly) _Bool useMultipleNativeAds;
-@property(nonatomic, readonly) _Bool useNewsArticleSearch;
-@property(nonatomic, readonly) _Bool useNotificationsV2;
-@property(nonatomic, readonly) _Bool useOfflineMode;
-@property(nonatomic, readonly) _Bool useSearchInArticle;
-@property(nonatomic, readonly) _Bool useWelcomeSeries;
-@property(nonatomic, readonly) _Bool widgetUpsellFeaturesEnabled;
 
 @end
 

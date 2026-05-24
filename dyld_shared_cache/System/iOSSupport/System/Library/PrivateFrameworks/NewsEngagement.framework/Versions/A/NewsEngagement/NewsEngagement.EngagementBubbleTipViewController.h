@@ -7,15 +7,16 @@
 @interface NewsEngagement.EngagementBubbleTipViewController
 {
     id bubbleTipSizing;
+    id;
 }
 
-- (id);
+- (id)CGSize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}24@216;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
 
 @end

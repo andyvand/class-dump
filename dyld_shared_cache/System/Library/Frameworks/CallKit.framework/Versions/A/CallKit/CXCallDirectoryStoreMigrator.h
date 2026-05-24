@@ -9,11 +9,9 @@
 @interface CXCallDirectoryStoreMigrator
 {
     CXCallDirectoryStore *_store;
-    CDUnknownBlockType _storeCreationBlock;
-    CDUnknownBlockType _retrieveExtensionBlock;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)1;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -21,13 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)"16@"NSString"24@"NSString"32@?<v@?@"NSError">40;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType retrieveExtensionBlock; // @synthesize retrieveExtensionBlock=_retrieveExtensionBlock;
 @property(retain, nonatomic) CXCallDirectoryStore *store; // @synthesize store=_store;
-@property(copy, nonatomic) CDUnknownBlockType storeCreationBlock; // @synthesize storeCreationBlock=_storeCreationBlock;
 
 @end
 

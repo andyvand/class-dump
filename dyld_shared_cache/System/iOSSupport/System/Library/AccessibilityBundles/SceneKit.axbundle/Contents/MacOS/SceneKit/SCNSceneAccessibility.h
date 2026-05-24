@@ -11,13 +11,13 @@
 }
 
 + (_Bool);
-+ (Class);
-+ (id);
-+ (void);
++ (Class);
++ (id);
++ (void));
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 
 @end

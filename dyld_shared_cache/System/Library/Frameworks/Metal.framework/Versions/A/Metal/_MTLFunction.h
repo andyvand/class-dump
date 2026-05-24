@@ -6,52 +6,34 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class MTLDebugInstrumentationData, MTLType, NSArray, NSData, NSDictionary, NSObject, NSString;
-@protocol MTLDevice, MTLFunctionHandle, OS_dispatch_data;
+@protocol MTLDevice;
 
 @interface _MTLFunction : _MTLObjectWithLabel
 {
     id <MTLDevice> _device;
-    unsigned long long _functionType;
-    NSString *_name;
-    void *_libraryData;
-    id _vendorPrivate;
-    NSArray *_vertexAttributes;
-    NSArray *_functionConstants;
-    NSDictionary *_functionConstantDictionary;
-    unsigned long long _options;
-    NSObject<OS_dispatch_data> *_precompiledOutput;
-    MTLDebugInstrumentationData *_debugInstrumentationData;
-    MTLType *_returnType;
-    NSArray *_arguments;
-    NSArray *_bindings;
-    NSString *_unpackedFilePath;
-    CDStruct_41a22ec7 _functionConstantSpecializationHash;
-    NSArray *_relocations;
-    NSObject<OS_dispatch_data> *_reflectionData;
-    NSArray *_importedSymbols;
-    NSArray *_importedLibraries;
 }
 
-- (void);
+- (void)>0.01</real> <key>faces.maxBlurDistFromFocus</key> <real>0.00074405000000000001</real> <key>faces.maxBlurOnEyes</key> <real>0.0022000000000000001</real> <key>highlightBoostGain</key> <real>0.5</real> <key>lumaNoiseModelCoeff</key> <real>0.9</real> <key>lumaNoiseScale</key> <real>0.0025000000000000001</real> <key>maxBlur</key> <real>0.029999999999999999</real> <key>nSamples</key> <real>100</real> <key>relativeWeightThreshold</key> <real>0.0063120187260210497</real> <key>sharpRadius</key> <real>0.25</real> <key>softRadius</key> <real>1.5</real> <key>spatialWeightSoftMax</key> <real>1.05</real> <key>spatialWeightSoftMin</key> <real>0.94999999999999996</real> </dict> <key>RenderingV3</key> <dict> <key>preFilterRadius</key> <real>1</real> <key>preFilterBlurStrength</key> <real>0.05</real> <key>maxBlur</key> <real>0.03</real> <key>sharpRadius</key> <real>0.25</real> <key>softRadius</key> <real>1.5</real> <key>lumaNoiseModelCoeff</key> <real>0.9</real> <key>highlightBoostGain</key> <real>0.5</real> <key>nRings</key> <real>9</real> <key>basePixelWeight</key> <real>1E-12</real> <key>antiAliasBlurStrength</key> <real>0.6</real> <key>antiAliasRadius</key> <real>7</real> <key>relativeWeightThreshold</key> <real>0.00631201872602105</real> <key>alphaEpsilon</key> <real>0.05</real> <key>alphaGain</key> <real>2.0</real> <key>shapeObstructionCoeff</key> <real>0.7</real> <key>ringAmplitude</key> <real>2.0</real> <key>ringSharpness</key> <real>100.0</real> <key>xhlrbIterations</key> <real>50</real> <key>xhlrbBlurRadiusT0</key> <real>0.0025</real> <key>xhlrbBlurRadiusT1</key> <real>0.0075</real> <key>xhlrbMaxIntensityT0</key> <real>0.9</real> <key>xhlrbMaxIntensityT1</key> <real>1.0</real> <key>xhlrbMinIntensityT0</key> <real>0.0</real> <key>xhlrbMinIntensityT1</key> <real>0.2</real> <key>xhlrbExposureScoreT0</key> <real>1.0</real> <key>xhlrbExposureScoreT1</key> <real>5.0</real> <key>xhlrbClippedPixelsT0</key> <real>1.0</real> <key>xhlrbClippedPixelsT1</key> <real>5.0</real> <key>xhlrbRecoveryScoreT</key> <real>0.5</real> <key>xhlrbPreFilterGain</key> <real>25.0</real> <key>xhlrbWeightGain</key> <real>4.0</real> <key>xhlrbIntensityGain</key> <real>2.0</real> <key>faces.maxBlurOnEyes</key> <real>0.0022</real> <key>faces.maxBlurDistFromFocus</key> <real>7.4405e-04</real> <key>faces.eyeToEyebrowRatio</key> <real>1.4</real> <key>faces.linearBlurGrowthM</key> <real>0.01</real> <key>faces.linearBlurGrowthC</key> <real>2.7901e-4</real> <key>faces.distToBlurScaling</key> <real>0.091</real> <key>faces.capMultip</key> <real>1.0</real> <key>faces.gainMultip</key> <real>1.0</real> <key>faces.chinThetaLimit</key> <real>1.0</real> <key>faces.chinThetaMultip</key> <real>1.0</real> <key>faces.chinVectorSnapping</key> <real>0.5</real> </dict> <key>SLM</key> <dict> <key>fallbackFocusROI_height</key> <real>0.10000000000000001</real> <key>fallbackFocusROI_left</key> <real>0.45000000000000001</real> <key>fallbackFocusROI_top</key> <real>0.45000000000000001</real> <key>fallbackFocusROI_width</key> <real>0.10000000000000001</real> <key>maxFGBlur</key> <real>0.00020000000000000001</real> <key>shiftDeadZone</key> <real>0.29999999999999999</real> <key>simulatedAperture</key> <real>4.5</real> <key>zeroShiftPercentile</key> <real>0.75</real> </dict> <key>BlurMapSmoothing</key> <dict> <key>nIterations</key> <real>5</real> <key>originalBlurValueT0</key> <real>0.2</real> <key>originalBlurValueT1</key> <real>0.5</real> <key>localMinimumBlurValueT0</key> <real>0.05</real> <key>localMinimumBlurValueT1</key> <real>0.3</real> </dict> </dict> </plist>;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)E;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
+- (id)005B00310037005D;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned int);
+- (id)z;
+- (unsigned int)ZN5caulk5alloc14base_allocator9formatter24summarize_blocks_by_sizeINS0_18tracking_allocatorINS0_17global_page_cacheEEEEEvRT_mEUlNS0_12region_usageENS0_5blockEE_;
 - (void);
 - (id);
-- (void *);
+- (void *))
+
+)2		;
 - (id);
 - (const CDStruct_41a22ec7 *)!¸Aùqs01Â0@ù
 × ;
@@ -60,57 +42,20 @@
 - (const CDStruct_41a22ec7 *)MTLRenderPipelineDescriptorPrivate="attachments"@"MTLRenderPipelineColorAttachmentDescriptorArrayInternal""rtBlendDescHash"[8Q]"depthAttachmentPixelFormat"Q"stencilAttachmentPixelFormat"Q"tessellationPartitionMode"Q"maxTessellationFactor"Q"tessellationFactorScaleEnabled"B"tessellationFactorFormat"Q"tessellationControlPointIndexType"Q"tessellationFactorStepFunction"Q"tessellationOutputWindingOrder"Q"postVertexDumpBufferIndex"Q"supportIndirectCommandBuffers"B"shaderValidation"q"shaderValidationState"q"textureWriteRoundingMode"q""(?="sampleCount"Q"rasterSampleCount"Q)"sampleMask"Q""(?="sampleCoverageHash"I"sampleCoverage"f)"paddingToRemove"Q"colorSampleCount"Q""(?="miscHash"[2I]""{?="alphaToCoverageEnabled"b2"alphaToOneEnabled"b2"rasterizationEnabled"b1"inputPrimitiveTopology"b2"private1"b1"depthStencilWriteDisabled"b1"openGLMode"b1"sampleCoverageInvert"b1"private5"b1"vertexAmplificationMode"b1"twoSideEnabled"b1"pointSizeOutputVS"b1"pointCoordLowerLeft"b1"pointSmoothEnabled"b1"clipDistanceEnableMask"b8"alphaTestFunc"b3"alphaTestEnabled"b1"logicOp"b4"logicOpEnabled"b1"forceResourceIndex"b1"forceSoftwareVertexFetch"b1"objectThreadgroupSizeIsMultipleOfThreadExecutionWidth"b1"meshThreadgroupSizeIsMultipleOfThreadExecutionWidth"b1"internalPipeline"b1"private9"b6})"vertexDepthCompareClampMask"I"fragmentDepthCompareClampMask"I"resourceIndex"Q"label"@"NSString""vertexFunction"@"<MTLFunction>""fragmentFunction"@"<MTLFunction>""vertexDescriptor"@"MTLVertexDescriptorInternal""objectFunction"@"<MTLFunction>""meshFunction"@"<MTLFunction>""objectThreadsPerThreadgroup_DO_NOT_USE_WILL_BE_REMOVED"{?="width"Q"height"Q"depth"Q}"meshThreadsPerThreadgroup_DO_NOT_USE_WILL_BE_REMOVED"{?="width"Q"height"Q"depth"Q}"maxPipelineChildren"{?="width"Q"height"Q"depth"Q}"pipelineMemoryLength"Q"objectBuffers"@"MTLPipelineBufferDescriptorArrayInternal""meshBuffers"@"MTLPipelineBufferDescriptorArrayInternal""maxTotalThreadsPerObjectThreadgroup"Q"maxTotalThreadsPerMeshThreadgroup"Q"vertexBuffers"@"MTLPipelineBufferDescriptorArrayInternal""fragmentBuffers"@"MTLPipelineBufferDescriptorArrayInternal""driverCompilerOptions"@"NSDictionary""gpuCompilerSPIOptions"@"NSDictionary""pipelineLibrary"@"<MTLPipelineLibrary>""pad0"^v"pad1"^v"pluginData"@"NSDictionary""needsCustomBorderColorSamplers"B"maxVertexAmplificationCount"I"binaryArchives"@"NSArray""compilerTimeoutInSeconds"Q"vertexLinkedFunctions"@"MTLLinkedFunctions""fragmentLinkedFunctions"@"MTLLinkedFunctions""objectLinkedFunctions"@"MTLLinkedFunctions""meshLinkedFunctions"@"MTLLinkedFunctions""vertexPreloadedLibraries"@"NSArray""fragmentPreloadedLibraries"@"NSArray""objectPreloadedLibraries"@"NSArray""meshPreloadedLibraries"@"NSArray""maxVertexStackCallDepth"Q"maxFragmentStackCallDepth"Q"supportAddingVertexBinaryFunctions"B"supportAddingFragmentBinaryFunctions"B"maxMeshStackCallDepth"Q"maxObjectStackCallDepth"Q"supportAddingMeshBinaryFunctions"B"supportAddingObjectBinaryFunctions"B"profileControl"@"MTLProfileControl""explicitVisibilityGroupID"I"maxAccelerationStructureTraversalDepth"Q"requiredThreadsPerObjectThreadgroup"{?="width"Q"height"Q"depth"Q}"requiredThreadsPerMeshThreadgroup"{?="width"Q"height"Q"depth"Q}"name"@"NSString""colorAttachmentMappingState"q"fragmentGlobalConstantsTag"Q"vertexGlobalConstantsTag"Q"meshGlobalConstantsTag"Q"objectGlobalConstantsTag"Q"tileGlobalConstantsTag"Q};
 - (id)MTLAccelerationStructure>"16r^v24@"NSArray"32@"MTLAccelerationStructureDescriptor"40;
 - (id)ng>, CompareFunctionIdHash, CompareFunctionIdHash, std::allocator<std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>>>="__table_"{__hash_table<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, std::__unordered_map_hasher<MTLHashKey, std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, CompareFunctionIdHash, CompareFunctionIdHash>, std::__unordered_map_equal<MTLHashKey, std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, CompareFunctionIdHash, CompareFunctionIdHash>, std::allocator<std::pair<const MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<MTLHashKey, std::tuple<unsigned long long, unsigned long long, unsigned long long, unsigned long long>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)orResourceType:(id)arg1 indices:indexCount: /* Error: Ran out of types for this method. */;
-- (id)rWithDescriptor:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ons:withTileSize:numRegions: /* Error: Ran out of types for this method. */;
-- (id)fferCurrent;
+- (void)reserveResourceIndicesForResourceType:(id)arg1 indices:indexCount: /* Error: Ran out of types for this method. */;
+- (id)newCompilerWithDescriptor:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)convertSparseTileRegions:toPixelRegions:withTileSize:numRegions: /* Error: Ran out of types for this method. */;
+- (id)_kernelCommandBufferCurrent;
 - (id);
 - (id)t log buffer size;
 - (id);
-- (id)_options;
+- (id)function_options;
 - (unsigned int)teDescriptor;
-- (id)hreads_per_threadgroup;
+- (id)required_threads_per_threadgroup;
 - (unsigned long long);
 
 // Remaining properties
-@property NSArray *arguments; // @dynamic arguments;
-@property(readonly) NSArray *bindings; // @dynamic bindings;
-@property(readonly) unsigned long long bitCodeOffset; // @dynamic bitCodeOffset;
-@property(nonatomic) unsigned char bitcodeType; // @dynamic bitcodeType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData; // @synthesize debugInstrumentationData=_debugInstrumentationData;
-@property(readonly, copy) NSString *description;
 @property(readonly) id <MTLDevice> device; // @synthesize device=_device;
-@property(copy) NSString *filePath; // @dynamic filePath;
-@property NSArray *functionConstants; // @dynamic functionConstants;
-@property(readonly) NSDictionary *functionConstantsDictionary;
-@property(readonly, nonatomic) id <MTLFunctionHandle> functionHandle;
-@property(readonly) NSObject<OS_dispatch_data> *functionInputs; // @dynamic functionInputs;
-@property(readonly) unsigned long long functionType; // @synthesize functionType=_functionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *importedLibraries; // @synthesize importedLibraries=_importedLibraries;
-@property(readonly) NSArray *importedSymbols; // @synthesize importedSymbols=_importedSymbols;
-@property(copy) NSString *label; // @dynamic label;
-@property(readonly) void *libraryData; // @synthesize libraryData=_libraryData;
-@property long long lineNumber; // @dynamic lineNumber;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) _Bool needsFunctionConstantValues; // @dynamic needsFunctionConstantValues;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) long long patchControlPointCount; // @dynamic patchControlPointCount;
-@property(readonly) unsigned long long patchType; // @dynamic patchType;
-@property NSData *pluginData; // @dynamic pluginData;
-@property NSObject<OS_dispatch_data> *precompiledOutput; // @dynamic precompiledOutput;
-@property(copy, nonatomic) NSArray *relocations; // @dynamic relocations;
-@property(readonly) unsigned long long renderTargetArrayIndexType; // @dynamic renderTargetArrayIndexType;
-@property MTLType *returnType; // @dynamic returnType;
-@property(readonly) NSArray *stageInputAttributes; // @dynamic stageInputAttributes;
-@property(readonly) Class superclass;
-@property(copy) NSString *unpackedFilePath; // @synthesize unpackedFilePath=_unpackedFilePath;
-@property(readonly) id vendorPrivate; // @synthesize vendorPrivate=_vendorPrivate;
-@property NSArray *vertexAttributes; // @dynamic vertexAttributes;
 
 @end
 

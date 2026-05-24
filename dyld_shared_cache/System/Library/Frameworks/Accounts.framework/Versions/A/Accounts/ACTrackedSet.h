@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface ACTrackedSet
 {
     NSMutableSet *_underlyingSet;
-    NSMutableDictionary *_changesDictionary;
 }
 
 + (id);
@@ -27,18 +26,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)J;
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)=;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (id);

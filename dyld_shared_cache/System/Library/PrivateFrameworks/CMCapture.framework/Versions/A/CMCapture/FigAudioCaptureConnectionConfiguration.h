@@ -9,16 +9,11 @@
 @interface FigAudioCaptureConnectionConfiguration : FigCaptureConnectionConfiguration
 {
     int _audioCaptureMode;
-    _Bool _windNoiseRemovalEnabled;
-    _Bool _audioZoomEnabled;
-    int _builtInMicrophonePosition;
-    double _builtInMicrophoneRequiredSampleRate;
-    unsigned int _spatialAudioChannelLayoutTag;
 }
 
 - (unsigned int);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (int);
 - (_Bool);
@@ -30,17 +25,12 @@
 - (int);
 - (id);
 - (void);
-- (void)alizedSNRThreshold;
-- (id)Pool;
+- (void)_autoFlashColorConstancyNormalizedSNRThreshold;
+- (id)BWDeferredContainerPixelBufferPool;
 - (id);
 
 // Remaining properties
 @property(nonatomic) int audioCaptureMode; // @synthesize audioCaptureMode=_audioCaptureMode;
-@property(nonatomic) _Bool audioZoomEnabled; // @synthesize audioZoomEnabled=_audioZoomEnabled;
-@property(nonatomic) int builtInMicrophonePosition; // @synthesize builtInMicrophonePosition=_builtInMicrophonePosition;
-@property(nonatomic) double builtInMicrophoneRequiredSampleRate; // @synthesize builtInMicrophoneRequiredSampleRate=_builtInMicrophoneRequiredSampleRate;
-@property(nonatomic) unsigned int spatialAudioChannelLayoutTag; // @synthesize spatialAudioChannelLayoutTag=_spatialAudioChannelLayoutTag;
-@property(nonatomic) _Bool windNoiseRemovalEnabled; // @synthesize windNoiseRemovalEnabled=_windNoiseRemovalEnabled;
 
 @end
 

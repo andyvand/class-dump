@@ -9,12 +9,11 @@
 @interface AppKit.NSScrollPocket.PocketBlur__priv_EC3F85FAB7755D56E669206D2B17725B : AppKit.NSScrollPocket.BackdropView__priv_EC3F85FAB7755D56E669206D2B17725B
 {
     id blur;
-    id pocketMaskPortal;
 }
 
 - (id);
 - (void);
-- (id)thVBLFilter:(struct CGRect)arg1;
+- (id)_startGestureScrollWithVBLFilter:(struct CGRect)arg1;
 - (void)LTÐÿùóFA;
 - (void)O$gE;
 

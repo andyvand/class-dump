@@ -14,9 +14,9 @@
 + (_Bool);
 - (id);
 - (void);
+- (unsigned long long)`;
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void)showOutOfNetworkSheetForServices:(id)arg1 usingWindow:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long voiceGuidanceLevel; // @synthesize voiceGuidanceLevel=_voiceGuidanceLevel;

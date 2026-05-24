@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     double _offset;
 }
 
-- (id);
+- (id);
 - (void);
 - (double) ¢£|£;
 

@@ -18,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int defaultOutputIndex;
-@property(readonly, nonatomic) unsigned int inferenceOuputIndex;
 
 @end
 

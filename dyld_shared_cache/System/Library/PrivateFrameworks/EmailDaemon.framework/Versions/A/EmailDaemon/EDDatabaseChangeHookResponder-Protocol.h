@@ -5,5 +5,8 @@
 //
 
 @protocol EDDatabaseChangeHookResponder
+
+@optional
+- (void)A;
 @end
 

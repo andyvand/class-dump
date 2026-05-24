@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface ABNamedImageWrapper
 {
     NSImage *_image;
-    NSString *_name;
 }
 
 + (id);
 - (void);
+- (id)w",&,N,V_learnMoreEncrypt;
 - (id);
-- (id);
-- (void);
+- (void)importSubscriptionKeybag:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void)ñ©Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

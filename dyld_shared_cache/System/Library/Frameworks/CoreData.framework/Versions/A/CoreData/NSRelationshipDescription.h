@@ -6,35 +6,27 @@
 
 #import <CoreData/NSPropertyDescription.h>
 
-@class NSData, NSEntityDescription, NSString;
+@class NSEntityDescription;
 
 @interface NSRelationshipDescription : NSPropertyDescription
 {
     void *_reserved5;
-    void *_reserved6;
-    NSEntityDescription *_destinationEntity;
-    NSString *_lazyDestinationEntityName;
-    NSRelationshipDescription *_inverseRelationship;
-    NSString *_lazyInverseRelationshipName;
-    unsigned long long _maxCount;
-    unsigned long long _minCount;
-    unsigned long long _deleteRule;
 }
 
 + (_Bool);
-+ (void)yTokenGenerationIdentifier;
++ (void)NSQueryTokenGenerationIdentifier;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (void)!;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -42,30 +34,23 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)@9;
 - (void);
-- (id);
+- (id)6;
 - (unsigned long long)
 × ;
 - (_Bool)t multiple result sets!!!;
 - (id)T %@ = MAX((SELECT %@ FROM %@ WHERE %@ = '%@'), (SELECT CASE WHEN (SELECT COUNT(*) FROM %@ )== 0 THEN 0 ELSE (SELECT MAX(%@) FROM %@) END)) WHERE %@ = '%@';
-- (unsigned long long)sFileBackedFuture;
+- (unsigned long long)NSIsFileBackedFuture;
 
 // Remaining properties
-@property unsigned long long deleteRule;
 @property(nonatomic) NSEntityDescription *destinationEntity;
-@property(nonatomic) NSRelationshipDescription *inverseRelationship;
-@property unsigned long long maxCount;
-@property unsigned long long minCount;
-@property(getter=isOrdered) _Bool ordered;
-@property(readonly, getter=isToMany) _Bool toMany;
-@property(readonly, copy) NSData *versionHash;
 
 @end
 

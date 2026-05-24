@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDEventModel.h>
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDDurationEventModel : HMDEventModel
 {
@@ -18,14 +16,7 @@ __attribute__((visibility("hidden")))
 + (Class)× ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSNumber *duration; // @dynamic duration;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

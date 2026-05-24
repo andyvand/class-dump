@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)a;
 + (_Bool);
 + (id);
 + (void);

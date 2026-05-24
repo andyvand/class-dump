@@ -9,14 +9,10 @@
 @interface NFValueAddedServiceCard
 {
     _Bool _userInterventionRequired;
-    int _type;
-    NSData *_identifier;
-    NSData *_token;
-    NSData *_data;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)rror loading origin of suggested value %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -30,14 +26,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ds found;
 
 // Remaining properties
-@property(retain) NSData *data; // @synthesize data=_data;
 @property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSData *token; // @synthesize token=_token;
-@property int type; // @synthesize type=_type;
-@property _Bool userInterventionRequired; // @synthesize userInterventionRequired=_userInterventionRequired;
 
 @end
 

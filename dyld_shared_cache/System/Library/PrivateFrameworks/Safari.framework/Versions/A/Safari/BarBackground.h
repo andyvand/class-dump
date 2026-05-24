@@ -6,18 +6,10 @@
 
 #import <Safari/KeyLoopSplicingContainerView.h>
 
-@class NSTrackingArea, NSView;
-@protocol BarBackgroundMouseTrackingDelegate;
-
 __attribute__((visibility("hidden")))
 @interface BarBackground : KeyLoopSplicingContainerView
 {
     _Bool _becomingFirstResponder;
-    NSView *_mainContentContainerView;
-    NSTrackingArea *_trackingArea;
-    _Bool _mouseDownCanMoveWindow;
-    NSView *_contentView;
-    id <BarBackgroundMouseTrackingDelegate> _mouseTrackingDelegate;
 }
 
 - (void);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool))?;
 - (id);
 - (void);
 - (void);
@@ -40,9 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)ÚÝ<y/;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
 @property _Bool mouseDownCanMoveWindow; // @synthesize mouseDownCanMoveWindow=_mouseDownCanMoveWindow;
-@property(nonatomic) __weak id <BarBackgroundMouseTrackingDelegate> mouseTrackingDelegate; // @synthesize mouseTrackingDelegate=_mouseTrackingDelegate;
 
 @end
 

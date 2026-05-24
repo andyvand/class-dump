@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MTLToolsPerfCounterMailbox
 {
     void *_requester;
-    struct vector<std::pair<NSData *, unsigned long>, std::allocator<std::pair<NSData *, unsigned long>>> _data;
-    struct __wrap_iter<std::pair<NSData *, unsigned long>*> {
-        void *__i_;
-    } _iterator;
 }
 
 - (void);

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface COMAPPLEFELDSPARPROTOCOLVersionedPersonalizationVector
 {
     NSData *_bundleSubscribedVector;
-    NSString *_bundleSubscribedVectorVersion;
-    NSData *_personalizationVector;
-    NSData *_sportsFavoritesVector;
-    NSData *_sportsUuidVector;
-    NSString *_version;
 }
 
 - (_Bool);
@@ -40,24 +35,13 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`b;
 - (id);
-- (void)ersion;
-- (id)AltImageURL;
+- (void)contentTypePatchVersion;
+- (id)_sportsLogoAltImageURL;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *bundleSubscribedVector; // @synthesize bundleSubscribedVector=_bundleSubscribedVector;
-@property(retain, nonatomic) NSString *bundleSubscribedVectorVersion; // @synthesize bundleSubscribedVectorVersion=_bundleSubscribedVectorVersion;
-@property(readonly, nonatomic) _Bool hasBundleSubscribedVector;
-@property(readonly, nonatomic) _Bool hasBundleSubscribedVectorVersion;
 @property(readonly, nonatomic) _Bool hasPersonalizationVector;
-@property(readonly, nonatomic) _Bool hasSportsFavoritesVector;
-@property(readonly, nonatomic) _Bool hasSportsUuidVector;
-@property(readonly, nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *personalizationVector; // @synthesize personalizationVector=_personalizationVector;
-@property(retain, nonatomic) NSData *sportsFavoritesVector; // @synthesize sportsFavoritesVector=_sportsFavoritesVector;
-@property(retain, nonatomic) NSData *sportsUuidVector; // @synthesize sportsUuidVector=_sportsUuidVector;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

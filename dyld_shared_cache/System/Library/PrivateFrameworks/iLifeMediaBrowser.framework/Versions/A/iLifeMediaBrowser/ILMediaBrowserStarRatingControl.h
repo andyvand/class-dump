@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ILMediaBrowserStarRatingControl
 {
     NSString *mStarString;
-    NSString *mBulletString;
-    NSDictionary *mTextAttrs;
-    NSDictionary *mTextDimAttrs;
-    long long mIntValue;
-    id mTarget;
-    SEL mSelector;
-    _Bool mIsTracking;
-    struct CGSize mStarSize;
-    _Bool mDrawBorder;
-    _Bool mDrawBackground;
-    long long mMinimumRanking;
-    long long mMaximumRanking;
-    _Bool mShouldAcceptFirstMouse;
-    _Bool mShouldHandleKeyDown;
-    double mFontSize;
-    double mExtraSpacing;
 }
 
 - (double);
@@ -48,12 +32,12 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ateFrameworks/FeedbackService.framework/Versions/A/FeedbackService;
 - (void)ÿØN@P;
 
 @end

@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)itionAdjustmentForState:style: /* Error: Ran out of types for this method. */;
-+ (id)y;
++ (id)backgroundImagePositionAdjustmentForState:style: /* Error: Ran out of types for this method. */;
++ (id)_updateSublayerGeometry;
 + (Class);
 
 @end

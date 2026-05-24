@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputSynchronizerInternal, NSArray, NSObject, NSString;
-@protocol AVCaptureDataOutputSynchronizerDelegate, OS_dispatch_queue;
+@class AVCaptureDataOutputSynchronizerInternal, NSArray;
 
 @interface AVCaptureDataOutputSynchronizer
 {
@@ -13,14 +12,14 @@
 }
 
 + (void)st) environment.;
+- (void)r] Background Task #%ld ended;
+- (void)ckgroundTaskProvider] Background Task #%ld started (%{public}@);
+- (void)sizing needed, all destinations already exist on disk.;
+- (void)rkServiceResizeRequest;
+- (id)q;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -35,22 +34,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ACDClient;
 - (id);
 - (void);
-- (id)Slider;
+- (id)AVCaptureSlider;
 
 // Remaining properties
 @property(readonly, retain) NSArray *dataOutputs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <AVCaptureDataOutputSynchronizerDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

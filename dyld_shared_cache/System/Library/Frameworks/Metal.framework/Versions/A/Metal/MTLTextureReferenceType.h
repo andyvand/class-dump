@@ -14,10 +14,7 @@
 + (id)Ü¦ãÿ§è;
 
 // Remaining properties
-@property(readonly) unsigned long long access; // @dynamic access;
-@property(readonly) _Bool isDepthTexture; // @dynamic isDepthTexture;
 @property(readonly) unsigned long long textureDataType; // @dynamic textureDataType;
-@property(readonly) unsigned long long textureType; // @dynamic textureType;
 
 @end
 

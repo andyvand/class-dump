@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamFragment
 {
     NSData *_data;
-    NSNumber *_sequenceNumber;
-    NSDate *_date;
-    NSString *_type;
 }
 
 + (id)¬B;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)@;
+- (unsigned long long)c@;
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id)oteUserClientCloudShareRepairRequest:(struct _NSZone *)arg1;
+- (id)handleRemoteUserClientCloudShareRepairRequest:(struct _NSZone *)arg1;
 - (id)c}@Starting thread network;
 - (void)t.matching;
 
 // Remaining properties
 @property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSDate *date; // @synthesize date=_date;
-@property(readonly, getter=isInitial) _Bool initial;
-@property(readonly, copy) NSNumber *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly, copy) NSString *type; // @synthesize type=_type;
 
 @end
 

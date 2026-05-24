@@ -6,27 +6,24 @@
 
 #import <UIKitCore/UIImageView.h>
 
-@class NSLayoutConstraint, NSString, UIInterfaceAction;
+@class NSLayoutConstraint, UIInterfaceAction;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionImagePropertyView : UIImageView
 {
     NSLayoutConstraint *_imageWidthConstraint;
-    NSLayoutConstraint *_imageHeightConstraint;
-    UIInterfaceAction *_action;
-    NSString *_imageProperty;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (_Bool)setAccount: /* Error: Ran out of types for this method. */;
+- (void)saveNoticeEventHistory;
+- (void)saveNicknameForRecordID:(id)arg1 handleID:(id)arg2 userNickname: /* Error: Ran out of types for this method. */;
+- (id)lastKnownHybridState;
+- (id)isEquivalentToHandle: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)owIDMap! ;
+- (void){BOOL}d hadQOI:%{BOOL}d wantsReceipt:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void)gPipelineComponent> Started processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -36,15 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UIInterfaceAction *action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *imageProperty; // @synthesize imageProperty=_imageProperty;
-@property(readonly, nonatomic) _Bool isUsedToOccupySpaceIfNoImage;
-@property(readonly) Class superclass;
 
 @end
 

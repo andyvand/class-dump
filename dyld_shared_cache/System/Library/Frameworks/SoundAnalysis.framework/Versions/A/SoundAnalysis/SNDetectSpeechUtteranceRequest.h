@@ -10,7 +10,7 @@
 }
 
 + (_Bool);
-- (double);
+- (double)6C;
 - (id);
 - (id);
 - (id);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) double decisionDelay;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

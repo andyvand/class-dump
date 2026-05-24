@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface MRCriticalSectionToken
 {
     _Bool _invalidated;
-    NSUUID *_requestID;
 }
 
 - (void);
 - (void);
+- (id)�!;
 - (id);
 - (id);
-- (id);
-- (_Bool)questMessage;
+- (_Bool)hasMicrophoneConnectionRequestMessage;
 - (void)oved;
 
 // Remaining properties
 @property(nonatomic) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, nonatomic) NSUUID *requestID; // @synthesize requestID=_requestID;
 
 @end
 

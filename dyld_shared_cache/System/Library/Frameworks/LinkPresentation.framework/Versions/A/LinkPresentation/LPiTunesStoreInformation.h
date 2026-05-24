@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, SKCloudServiceController;
+@class SKCloudServiceController;
 
 @interface LPiTunesStoreInformation
 {
     SKCloudServiceController *_cloudServiceController;
-    NSMapTable *_changeHandlers;
-    unsigned long long _capabilities;
-    _Bool _hasUpdatedCapabilities;
-    NSString *_storefrontIdentifier;
-    _Bool _capabilitiesAreOverridden;
-    _Bool _storefrontIdentifierIsOverridden;
 }
 
 + (id);
@@ -31,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (unsigned long long);
 - (void);
@@ -39,7 +33,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long capabilities;
-@property(readonly, copy) NSString *storefrontIdentifier;
 
 @end
 

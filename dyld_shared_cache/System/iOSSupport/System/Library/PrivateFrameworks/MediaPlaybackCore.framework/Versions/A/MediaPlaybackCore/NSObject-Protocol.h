@@ -7,16 +7,21 @@
 @class NSString, Protocol;
 
 @protocol NSObject
+- (Class)IAP_DURATION_DAY;
+- (id)ocalizer;
+- (id)collectionAppIcons;
+- (id)collectionAdamIds;
+- (id)g.Category;
+- (Class)h.EditorialSearchResultType.Heading.Story;
+- (_Bool)code;
+- (_Bool);
 - (_Bool)v32@0:(Protocol *)arg1 8@"NSString"16@?<B@?@"MPCPlaybackEngineEvent"@"<MPCPlaybackEngineEventStreamCursor>">24;
 - (struct _NSZone *)ifier:) /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

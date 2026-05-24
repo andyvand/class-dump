@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface EMTSentencePieceProcessor
 {
     struct unique_ptr<sentencepiece::SentencePieceProcessor, std::default_delete<sentencepiece::SentencePieceProcessor>> _processor;
-    NSURL *_modelURL;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (vector_64acebbd);
++ (vector_64acebbd);
 + (basic_string_cc40eacf);
 + (vector_5ed94be2);
+- (id)eIO;
 - (id);
+- (id)__cfstring;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)¤
 ;

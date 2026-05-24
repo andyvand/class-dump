@@ -10,34 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _UIMagicMorphView : UIView
 {
     id lock;
-    id destinations;
-    id milestones;
-    UIView *clippingView;
-    id contentSizeDidChange;
-    id $__lazy_storage_$_traitObserver;
-    id $__lazy_storage_$_contentWidth;
-    id $__lazy_storage_$_contentHeight;
-    id $__lazy_storage_$_insets;
-    id $__lazy_storage_$_cornerRadii;
-    id allDestinationsAreOpaque;
-    id magicMoveItems;
-    _Bool wantsEdgeAntialiasing;
-    _Bool crossBlurWhenMorphing;
-    _Bool appliesBackgroundFromView;
-    unsigned long long preferredMorphingAxis;
-    id currentMorphingAxis;
-    float shadowIntensity;
-    id overrideCornerRadii;
-    id overrideBounds;
-    UIView *backgroundView;
-    id savedGlassState;
-    id multiLayerAssertion;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)sset:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (void)imer;
+- (void)ve a thumbnail.;
+- (void)dChangeForChatGUIDs:(unsigned long long)arg1 ];
 - (void);
 - (void);
 - (void);
@@ -49,18 +27,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (float);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)payloadShowInLockScreen;
 - (void);
 - (id);
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)TableIndexOverlaySelectionViewCollectionViewLayoutAttributes;
+- (id)_UICollectionTableIndexOverlaySelectionViewCollectionViewLayoutAttributes;
 - (id)DÚ+d;
 - (void)ørh;
 - (void)FìÜ×l;
@@ -69,15 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)´}w;
 
 // Remaining properties
-@property(nonatomic) _Bool appliesBackgroundFromView; // @synthesize appliesBackgroundFromView;
-@property(nonatomic, retain) UIView *backgroundView; // @synthesize backgroundView;
 @property(nonatomic, retain) UIView *clippingView; // @synthesize clippingView;
-@property(nonatomic) _Bool clipsContentToBounds;
-@property(nonatomic) _Bool crossBlurWhenMorphing; // @synthesize crossBlurWhenMorphing;
-@property(nonatomic) unsigned long long preferredMorphingAxis; // @synthesize preferredMorphingAxis;
-@property(nonatomic) float shadowIntensity; // @synthesize shadowIntensity;
-@property(nonatomic) _Bool userInteractionEnabled;
-@property(nonatomic) _Bool wantsEdgeAntialiasing; // @synthesize wantsEdgeAntialiasing;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)vingQueue;
++ (id)UtilitiesDefaultsOrderSavingQueue;
 
 @end
 

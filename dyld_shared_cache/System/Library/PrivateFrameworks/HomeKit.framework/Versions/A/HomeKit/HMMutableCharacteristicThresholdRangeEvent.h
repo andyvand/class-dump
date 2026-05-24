@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMCharacteristicThresholdRangeEvent.h>
 
-@class HMCharacteristic, HMNumberRange;
+@class HMCharacteristic;
 
 @interface HMMutableCharacteristicThresholdRangeEvent : HMCharacteristicThresholdRangeEvent
 {
@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) HMCharacteristic *characteristic; // @dynamic characteristic;
-@property(copy, nonatomic) HMNumberRange *thresholdRange; // @dynamic thresholdRange;
 @end
 

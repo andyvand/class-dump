@@ -5,5 +5,9 @@
 //
 
 @protocol CNKGameControllerResponder
+- (_Bool)gQr;
+- (_Bool)r;
+- (_Bool);
+- (void)zQr;
 @end
 

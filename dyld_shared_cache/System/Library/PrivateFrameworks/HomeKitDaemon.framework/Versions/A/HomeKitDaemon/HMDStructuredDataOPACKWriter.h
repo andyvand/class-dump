@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSMutableData *_output;
 }
 
-- (void);
-- (void)e_dismissedHomePodHasNonMemberMediaAccountWarning_writeVersion;
+- (void) ;
+- (void)root_home_dismissedHomePodHasNonMemberMediaAccountWarning_writeVersion;
 
 @end
 

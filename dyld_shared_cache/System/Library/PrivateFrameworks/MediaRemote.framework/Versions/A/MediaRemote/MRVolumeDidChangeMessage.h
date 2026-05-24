@@ -6,21 +6,17 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class NSString;
-
 @interface MRVolumeDidChangeMessage : MRProtocolMessage
 {
 }
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)logoutAccount: /* Error: Ran out of types for this method. */;
+- (unsigned long long):%d) (LN:%d) (FNE:%d) (LNE:%d) /* Error: Ran out of types for this method. */;
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *endpointUID;
-@property(readonly, nonatomic) NSString *outputDeviceUID;
 @property(readonly, nonatomic) float volume;
 
 @end

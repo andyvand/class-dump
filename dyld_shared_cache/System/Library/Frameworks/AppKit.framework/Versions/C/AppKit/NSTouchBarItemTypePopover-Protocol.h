@@ -5,6 +5,7 @@
 //
 
 @protocol NSTouchBarItemTypePopover
+- (void);
 
 // Remaining properties
 @property(readonly) _Bool isPresented;

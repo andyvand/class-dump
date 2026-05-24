@@ -7,9 +7,6 @@
 @interface AppStoreKit.ModernAppStateController
 {
     id backing;
-    id deviceAppFetcher;
-    id purchaseHistoryDataSource;
-    id stateMachines;
 }
 
 @end

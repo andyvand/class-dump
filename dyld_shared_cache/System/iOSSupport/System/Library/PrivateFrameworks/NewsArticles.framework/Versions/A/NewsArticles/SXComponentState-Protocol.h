@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol SXComponentState
+- (NSString *)iewController"16@"<QLPreviewItem>"24@"NSURL"32;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

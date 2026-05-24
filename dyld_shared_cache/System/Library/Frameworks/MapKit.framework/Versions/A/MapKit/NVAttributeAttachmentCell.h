@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     double verticalOffset;
 }
 
-- (void);
+- (void)nvolvedIdentifiers;
 - (double);
-- (void);
+- (void)service;
 - (struct CGPoint);
 
 // Remaining properties

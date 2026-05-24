@@ -10,7 +10,7 @@
 
 + (id);
 - (id);
-- (void)patchQueueSchedulerWithName: /* Error: Ran out of types for this method. */;
+- (void)serialDispatchQueueSchedulerWithName: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface MTLFunctionConstantInternal : MTLFunctionConstant
 {
     NSString *_name;
-    unsigned long long _type;
-    unsigned long long _index;
-    _Bool _required;
 }
 
 - (void);
@@ -24,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)7;
 
 @end
 

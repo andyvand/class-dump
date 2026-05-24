@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABPersonListController, NSArray, NSManagedObjectContext, NSUndoManager;
-@protocol ABCreatePersonCommandDelegate;
+@class ABPersonListController;
 
 @interface ABCreatePersonCommand
 {
     ABPersonListController *_personListController;
-    NSManagedObjectContext *_managedObjectContext;
-    NSUndoManager *_undoManager;
-    NSArray *_parentGroupIDs;
-    ABAccount *_destinationAccount;
-    id <ABCreatePersonCommandDelegate> _delegate;
-    ABAddressBook *_addressBook;
-    _Bool _ignoresGuardianRestrictions;
 }
 
-+ (id);
++ (id)Migrate;
 - (void);
 - (void);
 - (void);
@@ -31,27 +23,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)s to 60s before;
+- (id)base64EncodedStringWithOptions: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void)__MNDepartureMinimumArrivalDistanceCondition;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(retain) id <ABCreatePersonCommandDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) ABAccount *destinationAccount; // @synthesize destinationAccount=_destinationAccount;
-@property _Bool ignoresGuardianRestrictions; // @synthesize ignoresGuardianRestrictions=_ignoresGuardianRestrictions;
-@property(retain) NSArray *parentGroupIDs; // @synthesize parentGroupIDs=_parentGroupIDs;
 @property(retain) ABPersonListController *personListController; // @synthesize personListController=_personListController;
-@property(retain) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end
 

@@ -7,17 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.AccountCheck.Actor__priv_BAC31B783841EFE4230ECED7FCABD8CC
 {
     id $defaultActor;
-    id sessionConfiguration;
-    id testDeviceReferenceProtocol;
-    id readinessSink;
-    id entitlements;
-    id tccChecker;
-    id accountFactory;
-    id accountObserverToken;
-    id tccObserverToken;
-    id authTokenRenewalObserverTokenAndAccountID;
-    id resolvedBundleID;
-    id state;
 }
 
 @end

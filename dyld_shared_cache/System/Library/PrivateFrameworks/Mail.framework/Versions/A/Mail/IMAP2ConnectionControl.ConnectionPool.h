@@ -7,30 +7,6 @@
 @interface IMAP2ConnectionControl.ConnectionPool
 {
     id logger;
-    id queue;
-    id logName;
-    id configuration;
-    id engineID;
-    id didTearDown;
-    id connections;
-    id engine;
-    id nextConnectionID;
-    id backoff;
-    id backoffTimer;
-    id backoffLoggingRateLimit;
-    id checkForStallTimer;
-    id lastError;
-    id connectionStateDidChange;
-    id stateCapture;
-    id enqueuedEvents;
-    id pendingCancel;
-    id pendingCancelTimer;
-    id collectDataTransferTimer;
-    id dataTransferReportAccumulator;
-    id nextCredentialsRequestID;
-    id credentialsState;
-    id lastLogAllConnectionStates;
-    id connectionTraits;
 }
 
 @end

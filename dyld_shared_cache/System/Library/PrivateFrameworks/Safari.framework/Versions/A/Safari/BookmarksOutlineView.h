@@ -6,7 +6,7 @@
 
 #import <Safari/OutlineViewPlus.h>
 
-@class NSSearchField, SidebarSearchFieldView;
+@class SidebarSearchFieldView;
 @protocol BookmarksOutlineViewDelegate;
 
 __attribute__((visibility("hidden")))
@@ -33,8 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak id <BookmarksOutlineViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) NSSearchField *searchField;
-@property(readonly, nonatomic) SidebarSearchFieldView *searchFieldView; // @synthesize searchFieldView=_searchFieldView;
 
 @end
 

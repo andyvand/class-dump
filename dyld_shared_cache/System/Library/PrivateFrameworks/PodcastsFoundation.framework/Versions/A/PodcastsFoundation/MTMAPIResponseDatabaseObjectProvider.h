@@ -9,16 +9,11 @@
 @interface MTMAPIResponseDatabaseObjectProvider
 {
     id response;
-    id databaseObjectsCache;
-    id needsParsing;
-    id showsFRC;
-    id episodesFRC;
-    id <PodcastsFoundation.MAPIResponseDatabaseObjectProviderDelegate> delegate;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

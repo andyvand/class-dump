@@ -6,19 +6,16 @@
 
 #import <Vision/VNStatefulRequest.h>
 
-@class NSArray, VNImageBuffer, VNImageRegistrationSignature;
+@class NSArray;
 
 @interface VNTrackHomographicImageRegistrationRequest : VNStatefulRequest
 {
     unsigned long long _previousRequestRevision;
-    struct CGRect _previousRegionOfInterest;
-    VNImageBuffer *_previousImageBuffer;
-    VNImageRegistrationSignature *_previousImageRegistrationSignature;
 }
 
 + (const CDStruct_3a02d5a8 *);
 - (_Bool);
-- (id);
+- (id)createDirectoryAtPath:(CDUnknownBlockType)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)s;
 - (_Bool);

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, RBSAssertion;
+@class NSString;
 
 @interface MSVExtendableBackgroundTaskProvider
 {
     NSString *_domain;
-    NSString *_name;
-    double _invalidationDuration;
-    struct os_unfair_recursive_lock_s _lock;
-    RBSAssertion *_assertion;
-    double _assertionCreatedTime;
-    unsigned int _assertionInvalidationNonce;
-    NSString *_explanationForExtension;
-    unsigned long long _lastIdentifier;
-    NSMutableDictionary *_expirationHandlers;
-    NSMutableDictionary *_timeoutGuards;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long))@9;
 - (void);
 - (long long);
 - (void);
@@ -31,17 +21,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)+
+
+*;
+- (void)v^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

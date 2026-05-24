@@ -16,11 +16,11 @@
 + (_Bool)%@
 ;
 - (double);
-- (_Bool);
+- (_Bool)ing mark as reviewed command pipeline;
 - (id);
 - (unsigned long long);
-- (_Bool)agOffset;
-- (void)ngCellMarginWidth:(id)arg1;
+- (_Bool)trailingDragOffset;
+- (void)setDefaultLeadingCellMarginWidth:(id)arg1;
 - (id)ion;
 
 // Remaining properties

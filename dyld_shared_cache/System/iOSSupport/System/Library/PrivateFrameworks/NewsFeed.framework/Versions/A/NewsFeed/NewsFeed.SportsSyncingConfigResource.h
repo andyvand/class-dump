@@ -7,14 +7,6 @@
 @interface NewsFeed.SportsSyncingConfigResource
 {
     id sportsFavoritesSyncMap;
-    id $__lazy_storage_$_umcIDs;
-    id $__lazy_storage_$_tagIDs;
-    id $__lazy_storage_$_teamUMCIDToTagIDMap;
-    id $__lazy_storage_$_leagueUMCIDToTagIDMap;
-    id $__lazy_storage_$_teamUMCIDs;
-    id $__lazy_storage_$_teamTagIDs;
-    id $__lazy_storage_$_leagueUMCIDs;
-    id $__lazy_storage_$_leagueTagIDs;
 }
 
 @end

@@ -6,8 +6,6 @@
 
 #import <Intents/INIntentResolutionResult.h>
 
-@class NSString;
-
 @interface INSpeakableStringResolutionResult : INIntentResolutionResult
 {
 }
@@ -15,18 +13,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)eworks/CoreAnalytics.framework/Versions/A/CoreAnalytics;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

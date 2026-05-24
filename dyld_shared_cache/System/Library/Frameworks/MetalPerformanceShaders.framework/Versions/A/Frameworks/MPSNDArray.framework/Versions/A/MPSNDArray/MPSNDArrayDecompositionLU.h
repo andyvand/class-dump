@@ -6,12 +6,11 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryMultiDestinationKernel.h>
 
-@class MPSMatrixDecompositionLU, MPSNDArrayIdentity;
+@class MPSMatrixDecompositionLU;
 
 @interface MPSNDArrayDecompositionLU : MPSNDArrayMultiaryMultiDestinationKernel
 {
     MPSMatrixDecompositionLU *_mlu;
-    MPSNDArrayIdentity *_identity;
 }
 
 + (const struct MPSLibraryInfo *);

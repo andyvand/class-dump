@@ -9,7 +9,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -21,6 +21,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isInformational) _Bool informational; // @dynamic informational;
-@property(readonly, nonatomic) _Bool mr_isMediaRemoteError;
 @end
 

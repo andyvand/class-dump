@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SAUITemplateTabularDataRowStyleRule : AceObject
 {
@@ -17,26 +17,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_';
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)Pod;
+- (id)propertyPod;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *minimumHeight;
-@property(copy, nonatomic) NSNumber *rowCount;
-@property(copy, nonatomic) NSNumber *rowStartIndex;
-@property(copy, nonatomic) NSNumber *showTopBorder;
-@property(readonly) Class superclass;
 
 @end
 

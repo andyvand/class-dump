@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CKDDownloadAssetsOperationInfo
 {
     _Bool _shouldFetchAssetContentInMemory;
-    _Bool _shouldCloneFileInAssetCache;
-    _Bool _fetchingAssetsForRereference;
-    NSArray *_assetsToDownload;
-    CDUnknownBlockType _cloneContextReturnBlock;
-    NSArray *_assetsToDownloadInMemory;
-    NSArray *_assetURLInfosToFillOut;
 }
 
 - (void);
@@ -29,17 +21,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void):(_Bool)arg1 A;
 - (id);
 - (void)u/d:%lu/%lu, %lu connections (%lu created)) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assetURLInfosToFillOut; // @synthesize assetURLInfosToFillOut=_assetURLInfosToFillOut;
-@property(retain, nonatomic) NSArray *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(retain, nonatomic) NSArray *assetsToDownloadInMemory; // @synthesize assetsToDownloadInMemory=_assetsToDownloadInMemory;
-@property(copy, nonatomic) CDUnknownBlockType cloneContextReturnBlock; // @synthesize cloneContextReturnBlock=_cloneContextReturnBlock;
-@property(nonatomic) _Bool fetchingAssetsForRereference; // @synthesize fetchingAssetsForRereference=_fetchingAssetsForRereference;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
 @property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
 
 @end

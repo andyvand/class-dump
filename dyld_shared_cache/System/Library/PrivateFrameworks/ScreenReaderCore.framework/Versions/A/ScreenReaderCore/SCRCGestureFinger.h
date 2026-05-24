@@ -7,16 +7,14 @@
 @interface SCRCGestureFinger
 {
     unsigned long long _identifier;
-    struct CGPoint _location;
-    double _pressure;
 }
 
 - (id);
 - (id);
 - (long long);
 - (unsigned long long);
-- (struct CGPoint);
-- (double);
+- (struct CGPoint)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (double)(	?׀;
 
 @end
 

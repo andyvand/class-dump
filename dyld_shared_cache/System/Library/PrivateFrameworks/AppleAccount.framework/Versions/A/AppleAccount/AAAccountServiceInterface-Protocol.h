@@ -5,5 +5,6 @@
 //
 
 @protocol AAAccountServiceInterface
+- (void)oUninstallObsoletePayloads no obsolete payloads;
 @end
 

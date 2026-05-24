@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSCache *_cache;
 }
 
-+ (id)ationInfoWithHeading: /* Error: Ran out of types for this method. */;
++ (id)_locationInfoWithHeading: /* Error: Ran out of types for this method. */;
+- (id)oteLayerTree/RemoteLayerTreeDrawingAreaProxy.mm 321:(id)arg1 Invalid message dispatched %{public}s;
+- (void)d declarativeNetRequest rules;
 - (id);
-- (void);
-- (id);
-- (void)p:modifiers: /* Error: Ran out of types for this method. */;
+- (void)imageForIconID:contentScale:sizeGroup:modifiers: /* Error: Ran out of types for this method. */;
 
 @end
 

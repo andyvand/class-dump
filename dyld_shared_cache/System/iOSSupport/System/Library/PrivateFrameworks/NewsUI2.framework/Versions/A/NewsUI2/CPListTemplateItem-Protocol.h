@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol CPListTemplateItem
+- (id)(;
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(readonly, copy, nonatomic) NSString *text;
-@property(retain, nonatomic) id userInfo;
 @end
 

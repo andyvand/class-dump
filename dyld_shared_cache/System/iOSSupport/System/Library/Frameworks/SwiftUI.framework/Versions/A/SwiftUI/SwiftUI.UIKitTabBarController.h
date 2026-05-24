@@ -7,21 +7,17 @@
 @interface SwiftUI.UIKitTabBarController
 {
     id popoverBridge;
-    id update;
-    id bottomAccessoryHost;
-    id sidebarBottomBarHost;
-    id backgroundHost;
 }
 
 + (_Bool);
+- (id)BlueprintLayoutCollection;
+- (void)R;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)={CGPoint=dd}{CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (void)istTestComparator;
+- (void)DisplayListTestComparator;
 
 @end
 

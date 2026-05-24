@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ANCSchemaANCUserResponseEvaluated : SISchemaInstrumentationMessage
 {
     int _userResponseCategory;
-    CDStruct_de58dd69 _has;
 }
 
 - (int);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (id);
-- (id)tAudioPacket: /* Error: Ran out of types for this method. */;
+- (id)setTimeToReceiveFirstAudioPacket: /* Error: Ran out of types for this method. */;
 - (id)D6;
-- (id)chedAliasTypes;
+- (id)matchedAliasTypes;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUserResponseCategory;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int userResponseCategory; // @synthesize userResponseCategory=_userResponseCategory;
 
 @end

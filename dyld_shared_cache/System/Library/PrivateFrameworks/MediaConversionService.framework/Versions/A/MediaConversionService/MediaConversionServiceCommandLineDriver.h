@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSProgress, PAImageConversionServiceClient, PAVideoConversionServiceClient;
+@class NSMutableArray;
 
 @interface MediaConversionServiceCommandLineDriver
 {
     _Bool _verbose;
-    _Bool _showProgress;
-    _Bool _replaceExistingOutput;
-    _Bool _waitForSignalAfterCompletion;
-    _Bool _pauseAtStart;
-    _Bool _launchServiceAtStart;
-    _Bool _pauseAfterLaunchingService;
-    NSMutableArray *_conversionOptionSets;
-    NSProgress *_conversionProgress;
-    PAImageConversionServiceClient *_imageConversionServiceClient;
-    PAVideoConversionServiceClient *_videoConversionServiceClient;
 }
 
 + (id);
 + (_Bool);
 + (void);
 + (id);
-+ (void);
-+ (const char *);
-+ (struct option *);
++ (void)ext-align;
++ (const char *)24@?0@"NSView"8@16;
++ (struct option *)ew<LPTextStyleable>"8Q16^B24;
 + (void);
 + (id);
 - (_Bool);
@@ -39,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (int);
 - (int);
@@ -52,8 +42,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)T@"HMBCloudCredentialsAvailabilityListener",R,N,V_credentialsAvailabilityListener;
+- (void)tried;
 - (_Bool);
 - (void);
 - (id);
@@ -62,21 +52,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)bluetoothDeviceEntityRelevanceTimeOfDayFeatures;
 - (int);
 
 // Remaining properties
 @property(retain) NSMutableArray *conversionOptionSets; // @synthesize conversionOptionSets=_conversionOptionSets;
-@property(retain) NSProgress *conversionProgress; // @synthesize conversionProgress=_conversionProgress;
-@property(retain) PAImageConversionServiceClient *imageConversionServiceClient; // @synthesize imageConversionServiceClient=_imageConversionServiceClient;
-@property _Bool launchServiceAtStart; // @synthesize launchServiceAtStart=_launchServiceAtStart;
-@property _Bool pauseAfterLaunchingService; // @synthesize pauseAfterLaunchingService=_pauseAfterLaunchingService;
-@property _Bool pauseAtStart; // @synthesize pauseAtStart=_pauseAtStart;
-@property _Bool replaceExistingOutput; // @synthesize replaceExistingOutput=_replaceExistingOutput;
-@property _Bool showProgress; // @synthesize showProgress=_showProgress;
-@property _Bool verbose; // @synthesize verbose=_verbose;
-@property(retain) PAVideoConversionServiceClient *videoConversionServiceClient; // @synthesize videoConversionServiceClient=_videoConversionServiceClient;
-@property _Bool waitForSignalAfterCompletion; // @synthesize waitForSignalAfterCompletion=_waitForSignalAfterCompletion;
 
 @end
 

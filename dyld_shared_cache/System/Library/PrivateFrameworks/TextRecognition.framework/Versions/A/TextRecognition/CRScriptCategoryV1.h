@@ -20,12 +20,12 @@
 + (unsigned long long);
 + (id);
 + (id);
-+ (float);
++ (float)processNavigationResponseAfterBackgroundLoadHasBeenCommittedIfNecessary;
 + (id);
 + (id);
 + (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -33,14 +33,6 @@
 
 // Remaining properties
 @property(readonly) NSString *categoryName;
-@property(readonly) unsigned long long categoryRevision;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

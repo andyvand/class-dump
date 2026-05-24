@@ -11,16 +11,6 @@
 @interface MPSMatrixVectorMultiplication : MPSMatrixBinaryKernel
 {
     id <MPSExternalMatrixVectorMultiplication> _plugin;
-    _Bool _transpose;
-    unsigned long long _batchStart;
-    unsigned long long _batchSize;
-    double _alpha;
-    double _beta;
-    unsigned long long _M;
-    unsigned long long _N;
-    CDStruct_67e7699a _resultMatrixOrigin;
-    CDStruct_67e7699a _primarySourceMatrixOrigin;
-    CDStruct_67e7699a _secondarySourceMatrixOrigin;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -29,13 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (CDStruct_67e7699a);
-- (CDStruct_67e7699a);
-- (CDStruct_67e7699a);
+- (CDStruct_14f26992);
+- (CDStruct_14f26992);
+- (CDStruct_14f26992);
 - (unsigned long long);
 - (void);
 - (void);
@@ -43,15 +33,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long M; // @synthesize M=_M;
-@property(nonatomic) unsigned long long N; // @synthesize N=_N;
-@property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(readonly, nonatomic) double beta; // @synthesize beta=_beta;
 @property(readonly, nonatomic) _Bool transpose; // @synthesize transpose=_transpose;
 
 @end

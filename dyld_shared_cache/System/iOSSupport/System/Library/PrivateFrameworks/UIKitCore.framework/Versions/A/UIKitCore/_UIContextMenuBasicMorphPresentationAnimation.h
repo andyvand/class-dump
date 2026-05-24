@@ -6,64 +6,53 @@
 
 #import <UIKitCore/_UIContextMenuPresentationAnimation.h>
 
-@class UITargetedPreview, UIViewFloatAnimatableProperty, _UIContextMenuLayoutArbiterOutput, _UIContextMenuReparentingContainerView, _UIGroupCompletion, _UIPortalView;
-
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuBasicMorphPresentationAnimation : _UIContextMenuPresentationAnimation
 {
     _Bool _isSingleItemMenu;
-    UITargetedPreview *_sourcePreview;
-    _UIPortalView *_reparentingPortalView;
-    _UIContextMenuReparentingContainerView *_reparentingContainerView;
-    UIViewFloatAnimatableProperty *_animationProgress;
-    CDUnknownBlockType _reparentingAnimationBlock;
-    CDUnknownBlockType _accessoryAnimationBlock;
-    _UIContextMenuLayoutArbiterOutput *_expandedLayout;
-    _UIGroupCompletion *_groupCompletion;
-    UITargetedPreview *_stashedDismissalPreview;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)44@"NSString"52@?<v@?>60;
+- (void)SString"32;
+- (void)56@0:(id)arg1 8@16@24@32d40@48;
+- (void)@24B32B36B40;
+- (void)B52B56B60@?64;
+- (void)supportsCapability:(_Bool)arg1;
+- (void)setShouldForceServerStatusRefresh:(id)arg1;
+- (void)setMessageBodyData:(id)arg1;
+- (void)purgedAttachmentsForChat:(CDUnknownBlockType)arg1 services:limit: /* Error: Ran out of types for this method. */;
+- (id)isSensitiveContent:contentAttachmentType:useBlastDoor:withChatID:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)isSatelliteContinuityEnabled;
+- (CDUnknownBlockType)isSafeToDeleteAttachmentPath: /* Error: Ran out of types for this method. */;
+- (void)handleScheduledMessageUpdateCommandWithPipeline:(id)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)existingChatForIDs:account:displayName:groupID:style: /* Error: Ran out of types for this method. */;
+- (_Bool)_visitedChats;
+- (id)_processRecordChange:(id)arg1;
+- (id)_processReceivedSMSMessage:(id)arg1 storageContext:receivedViaRelay:serviceName:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)ndStyleIdentifier;
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (void)%@;
+- (id)ile safe render success with output URLs:%@ /* Error: Ran out of types for this method. */;
+- (void)et aux video asset fileURL for aux video copy dest, bad transfer/data (assetPath %@ auxAssetPath %@);
+- (void)singPipelineComponent> Has replication source %@ but service session rejected message, dropping;
+- (void)ion created:%@ /* Error: Ran out of types for this method. */;
+- (void)ID (%@) found, checking client groupID (%@);
+- (id)Received Fresh ChatSessionClose For Message GUID:%@ /* Error: Ran out of types for this method. */;
+- (id)session close for message:%@ /* Error: Ran out of types for this method. */;
+- (void)perty update:%@ /* Error: Ran out of types for this method. */;
+- (void)fier:%@, fromIdentifier:%@, chat:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)uest to get count of purged assets for chats %@ on services %@;
+- (void)on the next sync. Error code:%llu /* Error: Ran out of types for this method. */;
+- (_Bool)er (chat:%@) rather than chat from participants (chat:%@). /* Error: Ran out of types for this method. */;
+- (CDStruct_9253ee8c)FILE name="%@" width="%ld" height="%ld" datasize="%llu";
+- (id)ont-style:(id)arg1 italic;;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (CDStruct_d52ce5d2);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)m: /* Error: Ran out of types for this method. */;
+- (id),;;
 - (id);
 - (_Bool);
 - (id);
@@ -77,15 +66,7 @@ __attribute__((visibility("hidden")))
 - (id)PËü[_;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType accessoryAnimationBlock; // @synthesize accessoryAnimationBlock=_accessoryAnimationBlock;
-@property(retain, nonatomic) UIViewFloatAnimatableProperty *animationProgress; // @synthesize animationProgress=_animationProgress;
-@property(retain, nonatomic) _UIContextMenuLayoutArbiterOutput *expandedLayout; // @synthesize expandedLayout=_expandedLayout;
-@property(retain, nonatomic) _UIGroupCompletion *groupCompletion; // @synthesize groupCompletion=_groupCompletion;
 @property(nonatomic) _Bool isSingleItemMenu; // @synthesize isSingleItemMenu=_isSingleItemMenu;
-@property(copy, nonatomic) CDUnknownBlockType reparentingAnimationBlock; // @synthesize reparentingAnimationBlock=_reparentingAnimationBlock;
-@property(retain, nonatomic) _UIContextMenuReparentingContainerView *reparentingContainerView; // @synthesize reparentingContainerView=_reparentingContainerView;
-@property(retain, nonatomic) _UIPortalView *reparentingPortalView; // @synthesize reparentingPortalView=_reparentingPortalView;
-@property(retain, nonatomic) UITargetedPreview *stashedDismissalPreview; // @synthesize stashedDismissalPreview=_stashedDismissalPreview;
 
 @end
 

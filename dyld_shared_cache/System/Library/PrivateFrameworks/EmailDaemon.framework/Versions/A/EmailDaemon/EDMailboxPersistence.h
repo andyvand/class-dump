@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMailboxPersistenceStatistics, EDMailboxProvider, EDPersistenceDatabase, EDPersistenceHookRegistry, EMCoreAnalyticsCollector, NSBackgroundActivityScheduler, NSIndexSet, NSMutableDictionary, NSSet, NSString;
+@class NSBackgroundActivityScheduler;
 
 @interface EDMailboxPersistence
 {
     struct os_unfair_lock_s _changeObserversByIdentifierLock;
-    NSBackgroundActivityScheduler *_statisticsReportingScheduler;
-    NSMutableDictionary *_changeObserversByIdentifier;
-    EMCoreAnalyticsCollector *_analyticsCollector;
-    EDMailboxProvider *_mailboxProvider;
-    EDPersistenceDatabase *_database;
-    EDPersistenceHookRegistry *_hookRegistry;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -49,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -73,22 +67,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allMailboxObjectIDs;
-@property(readonly, nonatomic) EMCoreAnalyticsCollector *analyticsCollector; // @synthesize analyticsCollector=_analyticsCollector;
-@property(retain, nonatomic) NSMutableDictionary *changeObserversByIdentifier; // @synthesize changeObserversByIdentifier=_changeObserversByIdentifier;
-@property(retain, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSIndexSet *frecentMailboxes;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(retain, nonatomic) EDMailboxProvider *mailboxProvider; // @synthesize mailboxProvider=_mailboxProvider;
-@property(readonly, nonatomic) EDMailboxPersistenceStatistics *statistics;
 @property(retain, nonatomic) NSBackgroundActivityScheduler *statisticsReportingScheduler; // @synthesize statisticsReportingScheduler=_statisticsReportingScheduler;
-@property(readonly) Class superclass;
 
 @end
 

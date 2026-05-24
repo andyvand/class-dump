@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol CCSetEnumerator;
+@class NSURL;
 
 @interface CKVSnapshotManager
 {
     NSURL *_rootDirectoryURL;
-    NSObject<CCSetEnumerator> *_setEnumerator;
 }
 
 + (id);

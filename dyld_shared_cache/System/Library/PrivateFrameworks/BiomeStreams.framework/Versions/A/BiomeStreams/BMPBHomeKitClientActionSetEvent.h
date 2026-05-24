@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBHomeKitClientBase, NSMutableArray, NSString;
+@class NSString;
 
 @interface BMPBHomeKitClientActionSetEvent
 {
     NSString *_actionSetName;
-    NSString *_actionSetType;
-    NSString *_actionSetUniqueIdentifier;
-    NSMutableArray *_associatedAccessoryUniqueIdentifiers;
-    BMPBHomeKitClientBase *_base;
-    NSString *_homeName;
 }
 
 + (Class);
@@ -39,9 +34,9 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)needsAccessibilityElements;
 - (id);
 - (id);
 - (void);
@@ -50,17 +45,7 @@
 - (id)ìÿÿ>;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionSetName; // @synthesize actionSetName=_actionSetName;
-@property(retain, nonatomic) NSString *actionSetType; // @synthesize actionSetType=_actionSetType;
-@property(retain, nonatomic) NSString *actionSetUniqueIdentifier; // @synthesize actionSetUniqueIdentifier=_actionSetUniqueIdentifier;
-@property(retain, nonatomic) NSMutableArray *associatedAccessoryUniqueIdentifiers; // @synthesize associatedAccessoryUniqueIdentifiers=_associatedAccessoryUniqueIdentifiers;
-@property(retain, nonatomic) BMPBHomeKitClientBase *base; // @synthesize base=_base;
-@property(readonly, nonatomic) _Bool hasActionSetName;
-@property(readonly, nonatomic) _Bool hasActionSetType;
-@property(readonly, nonatomic) _Bool hasActionSetUniqueIdentifier;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasHomeName;
-@property(retain, nonatomic) NSString *homeName; // @synthesize homeName=_homeName;
 
 @end
 

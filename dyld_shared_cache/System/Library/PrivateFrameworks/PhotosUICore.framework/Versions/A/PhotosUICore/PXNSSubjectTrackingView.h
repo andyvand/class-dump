@@ -6,17 +6,16 @@
 
 #import <PhotosUICore/PXSubjectTrackingView.h>
 
-@class NSClickGestureRecognizer, NSString;
+@class NSClickGestureRecognizer;
 @protocol PXNSSubjectTrackingViewActionDelegate;
 
 @interface PXNSSubjectTrackingView : PXSubjectTrackingView
 {
     id <PXNSSubjectTrackingViewActionDelegate> _actionDelegate;
-    NSClickGestureRecognizer *_clickRecognizer;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (_Bool);
@@ -28,15 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PXNSSubjectTrackingViewActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
 @property(retain, nonatomic) NSClickGestureRecognizer *clickRecognizer; // @synthesize clickRecognizer=_clickRecognizer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

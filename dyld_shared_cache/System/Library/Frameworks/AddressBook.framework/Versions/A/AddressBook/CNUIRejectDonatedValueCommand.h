@@ -6,25 +6,23 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNDonationStore, CNLabeledValue;
+@class CNDonationStore;
 
 @interface CNUIRejectDonatedValueCommand : CNUIUndoableCommand
 {
     CNDonationStore *_donationStore;
-    CNLabeledValue *_donatedValueToReject;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNLabeledValue *donatedValueToReject; // @synthesize donatedValueToReject=_donatedValueToReject;
 @property(retain, nonatomic) CNDonationStore *donationStore; // @synthesize donationStore=_donationStore;
 
 @end

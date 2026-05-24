@@ -6,31 +6,12 @@
 
 #import <Contacts/CNFetchRequest.h>
 
-@class CNChangeHistoryAnchor, NSArray, NSData, NSString;
-
 @interface CNChangeHistoryFetchRequest : CNFetchRequest
 {
     _Bool _shouldUnifyResults;
-    _Bool _mutableObjects;
-    _Bool _includeGroupChanges;
-    _Bool _enforceClientIdentifier;
-    _Bool _includeChangeAnchors;
-    _Bool _includeChangeIDs;
-    _Bool _includeExternalIDs;
-    _Bool _includeImagesChanged;
-    _Bool _includeLabeledValueChanges;
-    _Bool _includeLinkingChanges;
-    _Bool _includeMeCardChanges;
-    _Bool _shouldDeferFullSync;
-    NSData *_startingToken;
-    NSArray *_additionalContactKeyDescriptors;
-    NSArray *_excludedTransactionAuthors;
-    long long _resultType;
-    NSString *_clientIdentifier;
-    NSString *_containerIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)$%;
 - (_Bool);
 - (void);
 - (void);
@@ -43,7 +24,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (id);
@@ -54,7 +35,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (void);
@@ -64,43 +45,24 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool)v28@0:8C16q20 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (long long)@ù
 × ;
 - (_Bool)@ù
 × ;
 - (void)Match";
-- (void)re:(id)arg1 accountStore:notificationCenter: /* Error: Ran out of types for this method. */;
+- (void)initWithContactStore:(id)arg1 accountStore:notificationCenter: /* Error: Ran out of types for this method. */;
 - (id)_$!<SisterInLawWifesBrothersWife>!$_;
 - (void)Øháÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalContactKeyDescriptors; // @synthesize additionalContactKeyDescriptors=_additionalContactKeyDescriptors;
-@property(readonly, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, nonatomic, getter=shouldEnforceClientIdentifer) _Bool enforceClientIdentifier; // @synthesize enforceClientIdentifier=_enforceClientIdentifier;
-@property(copy, nonatomic) NSArray *excludedTransactionAuthors; // @synthesize excludedTransactionAuthors=_excludedTransactionAuthors;
-@property(nonatomic) _Bool includeChangeAnchors; // @synthesize includeChangeAnchors=_includeChangeAnchors;
-@property(nonatomic) _Bool includeChangeIDs; // @synthesize includeChangeIDs=_includeChangeIDs;
-@property(nonatomic) _Bool includeExternalIDs; // @synthesize includeExternalIDs=_includeExternalIDs;
-@property(nonatomic) _Bool includeGroupChanges; // @synthesize includeGroupChanges=_includeGroupChanges;
-@property(nonatomic) _Bool includeImagesChanged; // @synthesize includeImagesChanged=_includeImagesChanged;
-@property(nonatomic) _Bool includeLabeledValueChanges; // @synthesize includeLabeledValueChanges=_includeLabeledValueChanges;
-@property(nonatomic) _Bool includeLinkingChanges; // @synthesize includeLinkingChanges=_includeLinkingChanges;
-@property(nonatomic) _Bool includeMeCardChanges; // @synthesize includeMeCardChanges=_includeMeCardChanges;
-@property(nonatomic) _Bool mutableObjects; // @synthesize mutableObjects=_mutableObjects;
 @property(nonatomic) long long resultType; // @synthesize resultType=_resultType;
-@property(nonatomic) _Bool shouldDeferFullSync; // @synthesize shouldDeferFullSync=_shouldDeferFullSync;
-@property(nonatomic) _Bool shouldUnifyResults; // @synthesize shouldUnifyResults=_shouldUnifyResults;
-@property(readonly, nonatomic) CNChangeHistoryAnchor *startingAnchor;
-@property(copy, nonatomic) NSData *startingToken; // @synthesize startingToken=_startingToken;
-@property(nonatomic) _Bool unifyResults;
 
 @end
 

@@ -4,51 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDateFormatter;
+@class NSArray, NSData;
 
 @interface ML3StoreItemTrackData
 {
     NSArray *_lookupItems;
-    NSData *_trackData;
-    NSArray *_parsedStoreItemsImportProperties;
-    NSDateFormatter *_storePlatformDateFormatter;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)_changeHandlingNotificationObserver;
+- (id)_addPhotosKnowledgeGraphAvailabilityToProcessingSnapshot:photoLibrary:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_MISUSE_21_withCode:(id)arg1;
+- (id)__cachedShiftedLocation;
+- (id)stringFromByteCount:countStyle: /* Error: Ran out of types for this method. */;
+- (id)N,S_setDidCalculateDiffs:(id)arg1;
+- (id)ransient,V_transient;
+- (double)ildEnabled;
+- (_Bool)setDateCreated:(id)arg1;
+- (_Bool)setDataHandler:(id)arg1;
+- (_Bool)setCustomTitle:(id)arg1;
+- (_Bool)T@"PLPhotoLibrary",&,N,V_photoLibrary;
+- (_Bool)@"PLPhotoKitVariationCache",R;
+- (_Bool)butes",&,D,N;
+- (_Bool),D,N;
+- (_Bool)rson",&,N,V_person;
+- (_Bool)",&,D,N;
+- (id)nOldPick:(id)arg1 ,V__anOldPick;
+- (id)apshotJournal;
+- (id)"PLGraphNode",&,D,N;
+- (long long)@"PLFileBackedLogger",&,N,V_logger;
+- (id)Authorization",R,N,V_connectionAuthorization;
+- (id)originalRequest;
+- (id)orientationAdjustmentController;
+- (id)openForWritingUsingBlock:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)onDemandInstallAdjustedFullSizeVideoComplementResourceIfPresent;
+- (id),R,N,V_mainFileMetadata;
+- (id)EncryptionManager",R;
+- (_Bool)invitationState;
 - (void)est from unknown hasher algorithm;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *parsedStoreItemsImportProperties;
-@property(readonly, nonatomic) unsigned long long trackCount;
 @property(readonly, nonatomic) NSData *trackData;
 
 @end

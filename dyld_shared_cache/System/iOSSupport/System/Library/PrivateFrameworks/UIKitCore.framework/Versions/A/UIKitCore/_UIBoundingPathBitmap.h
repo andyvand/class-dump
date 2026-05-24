@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)e length;
 - (id);
-- (void);
+- (void)@"<MTLEvent>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)nInputModes:(id)arg1;
-- (id)age;
-- (id)alue:(struct _UIIntegralRect)arg1 fromAngle:(struct _UIIntegralCornerRadii)arg2 toAngle: /* Error: Ran out of types for this method. */;
+- (void)performWithoutExtensionInputModes:(id)arg1;
+- (id)_textFromCameraImage;
+- (id)_applyScaleFactor:(struct _UIIntegralRect)arg1 toValue:(struct _UIIntegralCornerRadii)arg2 fromAngle:toAngle: /* Error: Ran out of types for this method. */;
 - (struct _UIBoundingPathBitmapData)crubberEditingGlassRight.png;
 - (id);
 - (id)ÿö;

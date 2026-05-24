@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor, UIImage, UIView;
-
 @protocol _MKBalloonCalloutViewConfiguring
 
+@optional
+- (_Bool);
+
 // Remaining properties
-@property(readonly, nonatomic, getter=_balloonCalloutShouldCenterWhenOffscreen) _Bool balloonCalloutShouldCenterWhenOffscreen;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_balloonCalloutShouldCenterWhenOffscreen
-
-@property(readonly, nonatomic, getter=_balloonCalloutShouldShowArrow) _Bool balloonCalloutShouldShowArrow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_balloonCalloutShouldShowArrow
-
 @property(readonly, nonatomic, getter=_balloonCalloutStyle) long long balloonCalloutStyle;
-@property(readonly, nonatomic, getter=_balloonContentView) UIView *balloonContentView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N,G_balloonContentView
-
-@property(readonly, nonatomic, getter=_balloonImage) UIImage *balloonImage;
-@property(readonly, nonatomic, getter=_balloonImageTintColor) UIColor *balloonImageTintColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N,G_balloonImageTintColor
-
-@property(readonly, nonatomic, getter=_balloonInnerStrokeColor) UIColor *balloonInnerStrokeColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N,G_balloonInnerStrokeColor
-
-@property(readonly, nonatomic, getter=_balloonMaterial) UIBlurEffect *balloonMaterial;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBlurEffect",?,R,N,G_balloonMaterial
-
-@property(readonly, nonatomic, getter=_balloonStrokeColor) UIColor *balloonStrokeColor;
-@property(readonly, nonatomic, getter=_balloonTintColor) UIColor *balloonTintColor;
 @end
 

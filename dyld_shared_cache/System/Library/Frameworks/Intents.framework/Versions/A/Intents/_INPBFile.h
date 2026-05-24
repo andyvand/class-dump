@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _INPBURLValue;
+@class NSData;
 
 @interface _INPBFile
 {
     struct {
         unsigned int removedOnCompletion:1;
     } _has;
-    _Bool _removedOnCompletion;
-    NSData *_bookmarkData;
-    NSData *_data;
-    _INPBURLValue *_fileURL;
-    NSString *_filename;
-    NSString *_typeIdentifier;
 }
 
 + (_Bool);
@@ -31,44 +25,26 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)V";
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)poraryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/engine/tb_cipher.c;
 - (_Bool);
 - (id);
+- (void)proxcard (clientID=%{public}@);
+- (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
-- (_Bool)rchType;
-- (void)rAttributeIntentResponse;
-- (void)rIntentResponseCodeUnspecified;
+- (id)(	;
+- (_Bool)hasLocationSearchType;
+- (void)_INPBSetTimerAttributeIntentResponse;
+- (void)INSetClimateSettingsInCarIntentResponseCodeUnspecified;
 - (id)irikit.intent.messages.SetMessageAttributeIntent;
-- (void)ormatStringLanguageCode;
+- (void)INIntentParameterPromptDialogFormatStringLanguageCode;
 - (id)#;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *bookmarkData; // @synthesize bookmarkData=_bookmarkData;
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBURLValue *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly, nonatomic) _Bool hasBookmarkData;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasFileURL;
-@property(readonly, nonatomic) _Bool hasFilename;
-@property(nonatomic) _Bool hasRemovedOnCompletion;
-@property(readonly, nonatomic) _Bool hasTypeIdentifier;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool removedOnCompletion; // @synthesize removedOnCompletion=_removedOnCompletion;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end
 

@@ -7,16 +7,6 @@
 @interface FamilyCircleUI.ChecklistScoringEngine
 {
     id checklistRankingConfigStore;
-    id rankMax;
-    id impossibleSortOrder;
-    id hiddenItems;
-    id categorySortOrder;
-    id itemSortOrder;
-    id definition;
-    id itemMap;
-    id categoryMaxItems;
-    id sorter;
-    id cancellables;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray, NSMutableDictionary;
 
 @interface PKToolPickerItemManager
 {
     NSMutableDictionary *_itemMap;
-    NSMutableArray *_uniqueItemsForSetup;
 }
 
 - (void);

@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDSafariCKBookmarksMigrationFinishedEvent
 {
     unsigned long long _duration;
-    unsigned long long _timestamp;
-    NSString *_errorCode;
-    NSString *_errorDomain;
-    int _migratorType;
-    int _result;
-    struct {
-        unsigned int duration:1;
-        unsigned int timestamp:1;
-        unsigned int migratorType:1;
-        unsigned int result:1;
-    } _has;
 }
 
 - (void);
@@ -41,7 +28,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -49,29 +36,18 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)X;
+- (id)w";
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
-- (int);
+- (int)#;
 - (void);
 - (void);
-- (void)acklistCounts;
+- (void)clearExcludedDueToAJBlacklistCounts;
 - (id)¬áêÿmLo´G;
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSString *errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasMigratorType;
-@property(nonatomic) _Bool hasResult;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int migratorType; // @synthesize migratorType=_migratorType;
-@property(nonatomic) int result; // @synthesize result=_result;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

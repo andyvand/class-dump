@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)insertDictationResult: /* Error: Ran out of types for this method. */;
 + (void);
 - (_Bool);
 - (long long);
@@ -24,9 +24,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
+- (id)__PKApplyRadioCellAccessibility_super;
 
 @end
 

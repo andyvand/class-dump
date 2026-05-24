@@ -12,14 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _HMCameraSettingsControl : _HMCameraControl
 {
     HMCharacteristic *_nightVision;
-    HMCharacteristic *_currentHorizontalTilt;
-    HMCharacteristic *_targetHorizontalTilt;
-    HMCharacteristic *_currentVerticalTilt;
-    HMCharacteristic *_targetVerticalTilt;
-    HMCharacteristic *_opticalZoom;
-    HMCharacteristic *_digitalZoom;
-    HMCharacteristic *_imageRotation;
-    HMCharacteristic *_imageMirroring;
 }
 
 - (id);
@@ -27,32 +19,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)_֔;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)T(;
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)F'
+;
 - (id);
 - (void)alAudioStreamSetting;
 
 // Remaining properties
-@property(retain, nonatomic) HMCharacteristic *currentHorizontalTilt; // @synthesize currentHorizontalTilt=_currentHorizontalTilt;
-@property(retain, nonatomic) HMCharacteristic *currentVerticalTilt; // @synthesize currentVerticalTilt=_currentVerticalTilt;
-@property(retain, nonatomic) HMCharacteristic *digitalZoom; // @synthesize digitalZoom=_digitalZoom;
-@property(retain, nonatomic) HMCharacteristic *imageMirroring; // @synthesize imageMirroring=_imageMirroring;
-@property(retain, nonatomic) HMCharacteristic *imageRotation; // @synthesize imageRotation=_imageRotation;
 @property(retain, nonatomic) HMCharacteristic *nightVision; // @synthesize nightVision=_nightVision;
-@property(retain, nonatomic) HMCharacteristic *opticalZoom; // @synthesize opticalZoom=_opticalZoom;
-@property(retain, nonatomic) HMCharacteristic *targetHorizontalTilt; // @synthesize targetHorizontalTilt=_targetHorizontalTilt;
-@property(retain, nonatomic) HMCharacteristic *targetVerticalTilt; // @synthesize targetVerticalTilt=_targetVerticalTilt;
 
 @end
 

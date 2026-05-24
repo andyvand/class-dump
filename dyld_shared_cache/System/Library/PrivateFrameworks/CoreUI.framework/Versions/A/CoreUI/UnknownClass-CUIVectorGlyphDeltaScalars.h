@@ -11,7 +11,6 @@
 - (struct CGAffineTransform);
 
 // Remaining properties
-@property(readonly) struct CGAffineTransform cgAffineTransformValue;
 @property(readonly) CDStruct_c3b9c2ee deltaScalarsValue;
 @end
 

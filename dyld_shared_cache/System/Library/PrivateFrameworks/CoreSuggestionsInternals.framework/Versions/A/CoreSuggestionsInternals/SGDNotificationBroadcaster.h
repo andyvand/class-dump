@@ -8,13 +8,13 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)superview;
++ (void)substringFromIndex:(id)arg1;
++ (void)subTitleOverrideForAccount:(id)arg1;
++ (void)strongSelf;
++ (void)stringWithFormat:(id)arg1;
++ (void)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
++ (void)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
 + (unsigned long long);
 
 @end

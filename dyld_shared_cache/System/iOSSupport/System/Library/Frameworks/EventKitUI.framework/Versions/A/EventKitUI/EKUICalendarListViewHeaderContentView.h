@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUICalendarListContentConfiguration, NSArray, NSLayoutConstraint, NSString, UILabel;
+@class EKUICalendarListContentConfiguration;
 @protocol UIContentConfiguration;
 
 @interface EKUICalendarListViewHeaderContentView
 {
     EKUICalendarListContentConfiguration *_configuration;
-    UILabel *_weekDayLabel;
-    UILabel *_altCalendarLabel;
-    UILabel *_weekNumberLabel;
-    NSLayoutConstraint *_trailingMarginConstraint;
-    NSLayoutConstraint *_accessibilityLeadingMarginConstraint;
-    _Bool _activatedConstraintsIsForAccessibilityLayout;
-    NSArray *_activatedConstraints;
 }
 
 + (double);
++ (double)S%s;
 + (double);
-+ (double);
-+ (double);
++ (double)s;
+- (void);
+- (id)0ox;
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void)CharactersInRange:withString: /* Error: Ran out of types for this method. */;
+- (id)getChangeAfterAnchor:(struct CGRect)arg1 changeInfo: /* Error: Ran out of types for this method. */;
+- (void)stringByReplacingCharactersInRange:withString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) id <UIContentConfiguration> configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

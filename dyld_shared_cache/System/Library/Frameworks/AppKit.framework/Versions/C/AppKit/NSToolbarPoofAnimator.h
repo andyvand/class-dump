@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSPoofView, NSWindow;
+@class NSWindow;
 
 @interface NSToolbarPoofAnimator
 {
     NSWindow *_poofWindow;
-    NSPoofView *_poofWindowImageView;
-    NSToolbarPoofAnimator *_selfRetainedPoof;
-    NSDictionary *_callbackInfo;
 }
 
++ (void)_bytesToWrite;
 + (void);
-+ (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)rExtraction.;
+- (void)%@ [%ld];
+- (void)NSURLDownloadDecoderMIMEType;
 - (void);
 
 // Remaining properties

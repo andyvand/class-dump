@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMAttributableContent;
-
 @interface IMChip
 {
     long long type;
-    id <IMAttributableContent> chip;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)assbook.payment.pnr.payment.authorized;
 - (long long);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)eFrameworks/SafetyMonitor.framework/SafetyMonitor;
 
 // Remaining properties
-@property(nonatomic, readonly) id <IMAttributableContent> chip; // @synthesize chip;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

@@ -6,15 +6,9 @@
 
 #import <CoreData/NSPropertyDescription.h>
 
-@class NSData, NSString;
-
 @interface NSAttributeDescription : NSPropertyDescription
 {
     unsigned short _type;
-    _Atomic Class _attributeValueClass;
-    NSString *_valueTransformerName;
-    NSString *_attributeValueClassName;
-    id _defaultValue;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)8e;
 - (void);
 - (_Bool);
 - (void);
@@ -37,51 +31,41 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (Class);
+- (Class)h|;
 - (void);
-- (int);
+- (int)v;
 - (_Bool);
 - (_Bool);
+- (unsigned long long)a;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)];
+- (id)e;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)K;
 - (id);
 - (_Bool);
-- (id)ogResetSyncNotification: /* Error: Ran out of types for this method. */;
+- (id)logResetSyncNotification: /* Error: Ran out of types for this method. */;
 - (_Bool)u;
 - (void)DÂ;
 
 // Remaining properties
-@property _Bool allowsCloudEncryption;
-@property _Bool allowsExternalBinaryDataStorage;
-@property unsigned long long attributeType;
-@property(copy) NSString *attributeValueClassName;
-@property(retain) id defaultValue;
-@property _Bool isFileBackedFuture;
-@property _Bool preserveValueOnDeletionInPersistentHistory;
-@property _Bool preservesValueInHistoryOnDeletion;
 @property(readonly, nonatomic) _Bool usesMergeableStorage;
-@property(copy) NSString *valueTransformerName;
-@property(readonly, copy) NSData *versionHash;
 
 @end
 

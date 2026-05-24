@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, PLUSSchemaPLUSMediaConfiguredState, PLUSSchemaPLUSMediaSuggestionEvaluation, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSMediaEvaluationSummaryReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalRequestId;
-    NSString *_resultCandidateId;
-    int _playUserFeedback;
-    PLUSSchemaPLUSMediaSuggestionEvaluation *_suggestionEvaluation;
-    NSArray *_groundTruthSummaries;
-    PLUSSchemaPLUSMediaConfiguredState *_configuredState;
-    struct {
-        unsigned int playUserFeedback:1;
-    } _has;
-    _Bool _hasOriginalRequestId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasSuggestionEvaluation;
-    _Bool _hasConfiguredState;
 }
 
 - (id);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,44 +33,33 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (id);
+- (void)PM;
+- (void);
+- (void);
+- (void);
+- (void)E;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)a session to change.;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)anscriptEventId;
+- (id)_hasTranscriptEventId;
 - (id)TB,N,V_hasFlowPluginInputContext;
-- (void)TER__COMMONTCC__PROMPTTOENABLEAPP__APPNAME;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__COMMONTCC__PROMPTTOENABLEAPP__APPNAME;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSMediaConfiguredState *configuredState; // @synthesize configuredState=_configuredState;
-@property(copy, nonatomic) NSArray *groundTruthSummaries; // @synthesize groundTruthSummaries=_groundTruthSummaries;
-@property(nonatomic) _Bool hasConfiguredState; // @synthesize hasConfiguredState=_hasConfiguredState;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasPlayUserFeedback;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSuggestionEvaluation; // @synthesize hasSuggestionEvaluation=_hasSuggestionEvaluation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
-@property(nonatomic) int playUserFeedback; // @synthesize playUserFeedback=_playUserFeedback;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) PLUSSchemaPLUSMediaSuggestionEvaluation *suggestionEvaluation; // @synthesize suggestionEvaluation=_suggestionEvaluation;
 
 @end
 

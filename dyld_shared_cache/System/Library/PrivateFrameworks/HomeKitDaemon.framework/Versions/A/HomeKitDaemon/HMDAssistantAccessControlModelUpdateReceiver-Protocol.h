@@ -5,5 +5,7 @@
 //
 
 @protocol HMDAssistantAccessControlModelUpdateReceiver
+- (void)18;
+- (void);
 @end
 

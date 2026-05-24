@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDLegacyModel.h>
 
-@class NSData, NSNumber;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDLegacyV0Model : HMDLegacyModel
@@ -14,14 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)auntFathersElderBrothersWife;
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *cloudBlob; // @dynamic cloudBlob;
-@property(retain, nonatomic) NSData *cloudBlobV2; // @dynamic cloudBlobV2;
-@property(retain, nonatomic) NSNumber *cloudBlobsReadOnly; // @dynamic cloudBlobsReadOnly;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SearchToolQUSignals
 {
     _Bool _isSingle;
-    _Bool _isPlural;
-    _Bool _isCardEventSearch;
-    unsigned long long _llmQUIntentType;
-    unsigned long long _inferredLlmQUIntentType;
-    NSDictionary *_signalsPerTool;
 }
 
 - (id);
@@ -25,19 +18,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (unsigned long long);
+- (id)LPComponentView<LPTextStyleable><LPSubtitleButtonContainer>";
+- (unsigned long long)setMediaTopCaptionBar: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void)SON_SENDER:kMDItemAuthors_QUPP_ARG_LOCATION: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long inferredLlmQUIntentType; // @synthesize inferredLlmQUIntentType=_inferredLlmQUIntentType;
-@property(nonatomic) _Bool isCardEventSearch; // @synthesize isCardEventSearch=_isCardEventSearch;
-@property(nonatomic) _Bool isPlural; // @synthesize isPlural=_isPlural;
-@property(nonatomic) _Bool isSingle; // @synthesize isSingle=_isSingle;
 @property(nonatomic) unsigned long long llmQUIntentType; // @synthesize llmQUIntentType=_llmQUIntentType;
-@property(retain, nonatomic) NSDictionary *signalsPerTool; // @synthesize signalsPerTool=_signalsPerTool;
 
 @end
 

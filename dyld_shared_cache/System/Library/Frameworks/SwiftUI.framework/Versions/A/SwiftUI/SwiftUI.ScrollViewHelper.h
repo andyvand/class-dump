@@ -7,34 +7,6 @@
 @interface SwiftUI.ScrollViewHelper
 {
     id _layoutState;
-    id _phaseState;
-    id _prefetchState;
-    id _containerSize;
-    id axes;
-    id lastEnvironment;
-    id properties;
-    id contentMargins;
-    id scrollContentBackground;
-    id options;
-    id updateFlags;
-    id hasScrollPosition;
-    id defaultDismissKeyboardMode;
-    id delegate;
-    id scrollView;
-    id lastScrollOffset;
-    id decelerationBias;
-    id beginPanningOffset;
-    id isAnimationCheckPending;
-    id pendingTargetOffsetRequest;
-    id lastTargetOffsetState;
-    id lastPhase;
-    id lastVelocity;
-    id lastOffsetChange;
-    id lastBoundsSize;
-    id ignoreUpdates;
-    id pendingUpdate;
-    id $__lazy_storage_$_scrollIndicatorObserver;
-    id accessoryPlacementInsets;
 }
 
 - (void);

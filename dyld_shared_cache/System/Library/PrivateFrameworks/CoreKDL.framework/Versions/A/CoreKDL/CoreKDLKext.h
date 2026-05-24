@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CoreKDLKext
 {
     NSString *_CDHash;
-    NSString *_teamID;
-    NSString *_bundleID;
-    NSString *_bundleIDHash;
-    NSString *_version;
 }
 
 + (id);
@@ -26,27 +22,21 @@
 - (id);
 - (id);
 - (id);
+- (void)mapRelationshipKey:(id)arg1 toModelClass:mediaKitType:attributePayloadTransform: /* Error: Ran out of types for this method. */;
+- (id)mapPropertyKey:toPayloadKeyPaths:valueTransformerFunction: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)XParticipant">32B40B44q48;
+- (void)removeBrowser:(id)arg1;
+- (void)_text;
+- (void)derStackedImageCardSection",&,N;
+- (void)ientSelectedNamespace",&,D,N;
 - (id);
 
 // Remaining properties
 @property(retain) NSString *CDHash; // @synthesize CDHash=_CDHash;
-@property(retain) NSData *CDHashData;
-@property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain) NSString *bundleIDHash; // @synthesize bundleIDHash=_bundleIDHash;
-@property(retain) NSData *bundleIDHashData;
-@property(retain) NSString *teamID; // @synthesize teamID=_teamID;
-@property(retain) NSString *version; // @synthesize version=_version;
 
 @end
 

@@ -9,6 +9,7 @@
 }
 
 + (id);
++ (id));
 + (id);
 + (id);
 + (id);
@@ -22,20 +23,19 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)setEvaluationContext: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)ableExpressionsResult33_B326533A8C8BDB78762DB928B56DC222LLP;
++ (id);
++ (id)@?;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 
 @end
 

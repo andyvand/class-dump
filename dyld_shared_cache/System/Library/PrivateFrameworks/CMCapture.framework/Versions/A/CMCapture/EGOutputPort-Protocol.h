@@ -7,6 +7,7 @@
 @class EGOutput;
 
 @protocol EGOutputPort
+- (EGOutput *)on;
 
 // Remaining properties
 @property(readonly, nonatomic) EGOutput *upstreamNodeOutput;

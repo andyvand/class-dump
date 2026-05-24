@@ -12,22 +12,16 @@ __attribute__((visibility("hidden")))
 @interface ITMediaItem : ITMediaEntity
 {
     unsigned long long _nameOrder;
-    unsigned long long _albumOrder;
-    unsigned long long _artistOrder;
-    unsigned long long _genreOrder;
-    unsigned long long _composerOrder;
-    unsigned long long _albumArtistOrder;
-    ITLibMediaItem *_itLibMediaItem;
 }
 
-+ (unsigned long long);
++ (unsigned long long)to initialize BMTextInputSessionStream, please consult error logs for cause;
+- (id);
+- (id)rtreedepth;
+- (id)extension;
+- (id)streamsTriggeringUpdate;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)ioOnlyAssets;
+- (void)presentsOptimizedUserInterfaceWhenPlayingFetchedAudioOnlyAssets;
 
 // Remaining properties
 @property(readonly, nonatomic) ITLibMediaItem *itLibMediaItem; // @synthesize itLibMediaItem=_itLibMediaItem;

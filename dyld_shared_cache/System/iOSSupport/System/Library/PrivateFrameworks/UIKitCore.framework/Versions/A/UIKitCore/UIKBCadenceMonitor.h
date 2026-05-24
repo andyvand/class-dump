@@ -4,56 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDelayedAction;
-
 __attribute__((visibility("hidden")))
 @interface UIKBCadenceMonitor
 {
     _Bool _isUserTyping;
-    float _cadence;
-    float _confidence;
-    float _typingAvg;
-    int _touchCount;
-    double _gapAvg;
-    double _prevTouchDown;
-    UIDelayedAction *_touchLogTimer;
 }
 
 - (void);
 - (void);
 - (float);
-- (id);
+- (id);
 - (void);
+- (void)guid for filePath:(id)arg1 %s;
+- (void):(int)arg1 %@;
+- (void)over to gizmo. Bailing;
+- (void)returned nil result, bail.;
+- (void)%d);
+- (id)Within Time Interval:(id)arg1 %f);
+- (id)@ similar to:(id)arg1 %@   (Skip Services:(id)arg2 %@   Skip GUIDs:%@   Within Time Interval:%f) /* Error: Ran out of types for this method. */;
+- (double)erUpdate:%{BOOL}d Current nickname dict:%@. /* Error: Ran out of types for this method. */;
+- (void)and style %hhu need to have their last addressed handle updated to %@ or their last addressed sim id updated to %@;
+- (_Bool)h versionID [%ld] for chat:%@ /* Error: Ran out of types for this method. */;
+- (double)%@/%@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (_Bool);
-- (double);
-- (void);
-- (void);
+- (void)newRenderPipelineStateWithAdditionalBinaryFunctions:error: /* Error: Ran out of types for this method. */;
 - (int);
-- (void);
+- (void)applicationMusicPlayer:(float)arg1 connect;
 - (float);
 - (id);
 - (float)ionController.contentSwipe;
-- (void)ary;
+- (void)Stationary;
 - (void)à=g;
 
 // Remaining properties
-@property(nonatomic) float cadence; // @synthesize cadence=_cadence;
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) double gapAvg; // @synthesize gapAvg=_gapAvg;
 @property(nonatomic) _Bool isUserTyping; // @synthesize isUserTyping=_isUserTyping;
-@property(nonatomic) double prevTouchDown; // @synthesize prevTouchDown=_prevTouchDown;
-@property(nonatomic) int touchCount; // @synthesize touchCount=_touchCount;
-@property(retain, nonatomic) UIDelayedAction *touchLogTimer; // @synthesize touchLogTimer=_touchLogTimer;
-@property(nonatomic) float typingAvg; // @synthesize typingAvg=_typingAvg;
 
 @end
 

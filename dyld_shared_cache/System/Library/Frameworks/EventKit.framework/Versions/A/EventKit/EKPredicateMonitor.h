@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSMutableDictionary, NSObject, NSPredicate, NSString;
-@protocol OS_dispatch_queue;
+@class EKEventStore;
 
 @interface EKPredicateMonitor
 {
     EKEventStore *_store;
-    CDUnknownBlockType _block;
-    unsigned long long _options;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _receivedGeneration;
-    int _predicateGeneration;
-    NSMutableDictionary *_predicateUpdateCompletionCallbackBlocks;
-    struct os_unfair_lock_s _lock;
-    unsigned int _token;
-    NSPredicate *_predicate;
-    unsigned long long _propertyFilter;
 }
 
-+ (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)kMRApplicationActivityHasEndedNotification;
++ (unsigned long long)supportedCommand;
 - (void);
 - (void);
 - (unsigned long long);
+- (void)#;
+- (id)l;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)d originClient for origin %{public}@;
 - (void);
 - (void);
 - (id);
@@ -41,15 +30,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly, nonatomic) unsigned long long propertyFilter; // @synthesize propertyFilter=_propertyFilter;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBluetoothHeadphoneInEarDetectionState, AFNotifyObserver, AFSettingsConnection, AFSiriAudioRoute, NSHashTable, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AFSiriAudioRoute;
 
 @interface AFSiriHeadphonesMonitor
 {
     unsigned long long _sessionState;
-    unsigned long long _wirelessSplitterSessionActive;
-    AFBluetoothHeadphoneInEarDetectionState *_inEarDetectionState;
-    _Bool _guestConnected;
-    _Bool _inWirelessSplitterSessionStateValid;
-    AFSettingsConnection *_settingsConnection;
-    AFNotifyObserver *_pairedInfoChangeObserver;
-    AFNotifyObserver *_inEarDetectionStateObserver;
-    AFNotifyObserver *_wirelessSplitterSessionObserver;
-    AFNotifyObserver *_wirelessGuestConnectionObserver;
-    NSString *_btAddress;
-    NSString *_routeName;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_btQueue;
-    NSHashTable *_delegates;
-    NSMutableSet *_notificationPostAssertions;
-    CDUnknownBlockType _internalGestureTestingHandler;
-    long long _scheduledHeadGesture;
-    AFSiriAudioRoute *_currentAudioRoute;
 }
 
 + (id);
@@ -45,31 +26,24 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)=;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)configuration could not create metadata;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)te:(id)arg1;
+- (void)_advertiseWith:(id)arg1 afterDelay:(unsigned long long)arg2 maxInterval:(unsigned long long)arg3 thenExecute: /* Error: Ran out of types for this method. */;
 - (void),R,N,V_enablementFlow;
 
 // Remaining properties
 @property(retain, nonatomic) AFSiriAudioRoute *currentAudioRoute; // @synthesize currentAudioRoute=_currentAudioRoute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

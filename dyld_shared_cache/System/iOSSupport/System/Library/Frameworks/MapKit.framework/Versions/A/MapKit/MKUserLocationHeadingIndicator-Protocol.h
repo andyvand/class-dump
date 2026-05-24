@@ -7,11 +7,13 @@
 @class UITraitCollection;
 
 @protocol MKUserLocationHeadingIndicator
+- (void);
+- (void);
+- (void)pendingFetchesForCacheKeys;
+- (void);
 - (UITraitCollection *)lloutStyle,V_calloutStyle;
 
 // Remaining properties
-@property(nonatomic) unsigned long long mapType;
 @property(nonatomic) double minimumAccuracyRadius;
-@property(retain, nonatomic) UITraitCollection *traitCollection;
 @end
 

@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class INMediaSearch, INPrivateSearchForMediaIntentData, NSArray, NSString;
+@class NSArray;
 
 @interface INSearchForMediaIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -21,29 +21,20 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)9h;
+- (id);
+- (void)!m;
+- (id);
+- (void)setLastHitDateOfAllCachedThumbnailsToDate:(id)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_basicFileIdentifierForURL:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSArray *mediaItems;
-@property(readonly, copy) INMediaSearch *mediaSearch;
-@property(copy) INPrivateSearchForMediaIntentData *privateSearchForMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

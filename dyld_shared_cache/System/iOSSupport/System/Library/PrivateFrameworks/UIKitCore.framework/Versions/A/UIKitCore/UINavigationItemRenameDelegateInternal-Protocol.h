@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSURL, UINavigationItem;
+
 @protocol UINavigationItemRenameDelegateInternal
+
+@optional
+- (NSURL *)_deleteAttachmentsAndReturnBytesDeleted:(UINavigationItem *)arg1;
+- (void)_dedupeRequestIfNeeded:(UINavigationItem *)arg1 responseHandler:(NSError *)arg2;
+- (void)_decompressFileAtPath:(UINavigationItem *)arg1 toPath:(NSURL *)arg2 withCompletionBlock: /* Error: Ran out of types for this method. */;
 @end
 

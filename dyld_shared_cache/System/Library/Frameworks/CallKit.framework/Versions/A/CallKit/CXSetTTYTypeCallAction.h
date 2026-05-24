@@ -18,7 +18,7 @@
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)hasSocialPosts;
 - (id);
 
 // Remaining properties

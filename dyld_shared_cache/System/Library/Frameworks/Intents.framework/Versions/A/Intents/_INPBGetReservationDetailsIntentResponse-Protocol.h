@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, _INPBReservationWrapper;
 
 @protocol _INPBGetReservationDetailsIntentResponse
+- (_INPBReservationWrapper *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *reservations;
-@property(readonly, nonatomic) unsigned long long reservationsCount;
 @end
 

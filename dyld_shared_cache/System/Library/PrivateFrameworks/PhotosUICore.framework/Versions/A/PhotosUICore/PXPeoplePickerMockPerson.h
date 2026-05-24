@@ -9,23 +9,21 @@
 @interface PXPeoplePickerMockPerson
 {
     NSString *_mockName;
-    NSString *_mockLocalIdentifier;
 }
 
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id)epeats:(struct _NSZone *)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *mockLocalIdentifier; // @synthesize mockLocalIdentifier=_mockLocalIdentifier;
 @property(retain, nonatomic) NSString *mockName; // @synthesize mockName=_mockName;
 
 @end

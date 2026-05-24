@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol CKAlertControllerDelegate;
 
 @interface CKAlertController
 {
     _Bool _wantsWindowedPresentation;
-    _Bool _preserveModalPresentationStyle;
-    _Bool _shouldHidePresentingWindow;
-    id <CKAlertControllerDelegate> _alertDelegate;
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)ICTableTextAttachment;
 - (_Bool);
 - (void);
+- (void);
+- (void)1ButtonStyleP;
+- (_Bool);
+- (void)s;
 - (void);
 - (id);
 - (_Bool);
@@ -31,18 +27,7 @@
 - (void)x¨iÿA:(_Bool)arg1 8Î3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions; // @dynamic actions;
 @property(nonatomic) __weak id <CKAlertControllerDelegate> alertDelegate; // @synthesize alertDelegate=_alertDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool preserveModalPresentationStyle; // @synthesize preserveModalPresentationStyle=_preserveModalPresentationStyle;
-@property(nonatomic) _Bool shouldHidePresentingWindow; // @synthesize shouldHidePresentingWindow=_shouldHidePresentingWindow;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsWindowedPresentation; // @synthesize wantsWindowedPresentation=_wantsWindowedPresentation;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface SASFinishSpeech : SABaseCommand
 {
@@ -16,21 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *endpoint;
-@property(copy, nonatomic) NSArray *featuresAtEndpoint;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *orderedContext;
-@property(nonatomic) long long packetCount;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSDictionary *serverFeatureLatencyDistribution;
-@property(readonly) Class superclass;
-@property(nonatomic) double totalAudioRecorded;
 
 @end
 

@@ -18,7 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)ions;
 - (id);
 - (id);
 

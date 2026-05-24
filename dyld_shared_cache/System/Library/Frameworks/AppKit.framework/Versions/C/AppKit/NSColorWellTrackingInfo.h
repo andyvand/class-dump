@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSColorWellTrackingInfo
 {
     _Bool startedWithShiftDown;
-    _Bool startedAsActive;
-    _Bool startedInsideColor;
-    _Bool exclusive;
-    struct CGPoint startLocalPoint;
 }
 
 @end

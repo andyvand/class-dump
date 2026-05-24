@@ -10,14 +10,9 @@ __attribute__((visibility("hidden")))
 @interface OADOuterShadowEffect : OADShadowEffect
 {
     float mXScale;
-    float mYScale;
-    float mXSkew;
-    float mYSkew;
-    int mAlignment;
-    _Bool mRotateWithShape;
 }
 
-- (float);
+- (float)(;
 - (float);
 - (float);
 - (float);
@@ -29,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (int);
+- (unsigned long long)P;
+- (int)rH;
 - (_Bool);
-- (id);
+- (id)P;
 - (void)8?;
 
 @end

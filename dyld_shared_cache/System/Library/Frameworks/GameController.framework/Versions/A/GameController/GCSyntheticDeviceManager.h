@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCSSettingsStore, NSMapTable, NSObject, _GCControllerManagerServer;
-@protocol GCUserDefaults, OS_dispatch_mach, OS_dispatch_queue;
+@class _GCControllerManagerServer;
 
 @interface GCSyntheticDeviceManager
 {
     _GCControllerManagerServer *_server;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct IONotificationPort *_notifyPort;
-    unsigned int _service;
-    unsigned int _connect;
-    unsigned long long _kernelClientGeneration;
-    unsigned int _upcallPort;
-    NSObject<OS_dispatch_mach> *_upcallMachChannel;
-    struct __CFDictionary *_3pSyntheticControllerMatchingCriteria;
-    unsigned int _3pSyntheticControllerPublishedNotification;
-    unsigned int _3pSyntheticControllerTerminatedNotification;
-    unsigned long long _3pSyntheticControllerCount;
-    id <GCUserDefaults> _defaults;
-    _Bool _disabledByPreference;
-    GCSSettingsStore *_settingsStore;
-    NSMapTable *_syntheticDevices;
 }
 
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);

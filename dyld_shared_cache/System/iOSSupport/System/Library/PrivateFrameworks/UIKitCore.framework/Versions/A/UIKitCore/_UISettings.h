@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)out CK metadata;
 + (id);
 + (id);
 + (id);
@@ -20,7 +20,7 @@
 + (id);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)oxySend:(id)arg1 preferredCallerID:(id *)arg2;
 - (void)
 × ;
 - (id);

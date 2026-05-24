@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, WDAContent, WDDocument, WDText;
+@class NSNumber, WDText;
 
 __attribute__((visibility("hidden")))
 @interface WDATextBox
 {
     WDText *mText;
-    unsigned long long mNextTextBoxId;
-    _Bool mOle;
-    _Bool _isMultiColumn;
-    WDDocument *mDocument;
-    WDAContent *mParent;
-    NSNumber *_flowSequence;
-    NSNumber *_flowId;
 }
 
 - (void);
@@ -40,11 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak WDDocument *document; // @synthesize document=mDocument;
-@property(retain) NSNumber *flowId; // @synthesize flowId=_flowId;
 @property(retain) NSNumber *flowSequence; // @synthesize flowSequence=_flowSequence;
-@property _Bool isMultiColumn; // @synthesize isMultiColumn=_isMultiColumn;
-@property __weak WDAContent *parent; // @synthesize parent=mParent;
 
 @end
 

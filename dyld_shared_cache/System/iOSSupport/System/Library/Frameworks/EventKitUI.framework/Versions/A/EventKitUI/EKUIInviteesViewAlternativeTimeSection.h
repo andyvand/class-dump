@@ -4,130 +4,85 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKInviteeAlternativeTimeSearcher, NSArray, NSMutableSet, NSString, NSTimeZone;
+@class NSString;
 
 @interface EKUIInviteesViewAlternativeTimeSection
 {
     _Bool _hasCheckedRow;
-    _Bool _availabilityRequestInProgress;
-    _Bool _initialSearchInProgress;
-    _Bool _searchExhausted;
-    _Bool _searcherHasError;
-    CDUnknownBlockType _showMoreAlternativeTimesTapped;
-    NSTimeZone *_timeZone;
-    NSString *_cachedTimeCellReuseIdentifier;
-    NSString *_cachedConflictSearchCellReuseIdentifier;
-    unsigned long long _reuseIdentifierVersion;
-    CDUnknownBlockType _tableViewCellHook;
-    CDUnknownBlockType _newTimeChosen;
-    CDUnknownBlockType _showPreviewOfEventAtTime;
-    NSMutableSet *_rowsShowingAllParticipants;
-    NSArray *_alternativeTimes;
-    long long _lastCheckedRow;
-    unsigned long long _maximumNumberOfTimeSlotsToShow;
-    EKInviteeAlternativeTimeSearcher *_availabilitySearcher;
 }
 
 - (id);
+- (CDUnknownBlockType)xX%s;
+- (_Bool)@m+s;
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (_Bool);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
+- (void)D%s;
+- (void);
+- (void);
+- (void)%s;
+- (void)%s;
+- (void);
+- (void)x.%s;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)%s;
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)D%s;
+- (void);
+- (id)s;
+- (unsigned long long)&s;
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)%s;
 - (CDUnknownBlockType);
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)Y%s;
+- (unsigned long long);
 - (double);
 - (_Bool);
 - (double);
 - (long long);
 - (Class);
-- (id);
+- (id)s;
 - (void);
-- (void);
-- (id);
+- (void)s;
+- (id)s;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)%s;
+- (id)Y%s;
 - (id);
+- (unsigned long long)&s;
+- (_Bool);
+- (_Bool)&s;
+- (id);
+- (_Bool);
+- (void);
+- (id)ı@{;
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void)xtViewDidChange: /* Error: Ran out of types for this method. */;
+- (void)textViewDidChange: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)È_¤;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alternativeTimes; // @synthesize alternativeTimes=_alternativeTimes;
-@property(nonatomic) _Bool availabilityRequestInProgress; // @synthesize availabilityRequestInProgress=_availabilityRequestInProgress;
-@property(retain, nonatomic) EKInviteeAlternativeTimeSearcher *availabilitySearcher; // @synthesize availabilitySearcher=_availabilitySearcher;
-@property(retain, nonatomic) NSString *cachedConflictSearchCellReuseIdentifier; // @synthesize cachedConflictSearchCellReuseIdentifier=_cachedConflictSearchCellReuseIdentifier;
 @property(retain, nonatomic) NSString *cachedTimeCellReuseIdentifier; // @synthesize cachedTimeCellReuseIdentifier=_cachedTimeCellReuseIdentifier;
-@property(readonly, nonatomic) Class customTimeCellClass;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCheckedRow; // @synthesize hasCheckedRow=_hasCheckedRow;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long initialNumberOfTimeSlotsToShow;
-@property(nonatomic) _Bool initialSearchInProgress; // @synthesize initialSearchInProgress=_initialSearchInProgress;
-@property(nonatomic) long long lastCheckedRow; // @synthesize lastCheckedRow=_lastCheckedRow;
-@property(nonatomic) unsigned long long maximumNumberOfTimeSlotsToShow; // @synthesize maximumNumberOfTimeSlotsToShow=_maximumNumberOfTimeSlotsToShow;
-@property(copy, nonatomic) CDUnknownBlockType newTimeChosen; // @synthesize newTimeChosen=_newTimeChosen;
-@property(nonatomic) unsigned long long reuseIdentifierVersion; // @synthesize reuseIdentifierVersion=_reuseIdentifierVersion;
-@property(retain, nonatomic) NSMutableSet *rowsShowingAllParticipants; // @synthesize rowsShowingAllParticipants=_rowsShowingAllParticipants;
-@property(nonatomic) _Bool searchExhausted; // @synthesize searchExhausted=_searchExhausted;
-@property(nonatomic) _Bool searcherHasError; // @synthesize searcherHasError=_searcherHasError;
-@property(readonly, nonatomic) NSArray *searcherTimeSlots;
-@property(readonly, nonatomic) _Bool searchingForMoreTimes;
-@property(copy, nonatomic) CDUnknownBlockType showMoreAlternativeTimesTapped; // @synthesize showMoreAlternativeTimesTapped=_showMoreAlternativeTimesTapped;
-@property(copy, nonatomic) CDUnknownBlockType showPreviewOfEventAtTime; // @synthesize showPreviewOfEventAtTime=_showPreviewOfEventAtTime;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType tableViewCellHook; // @synthesize tableViewCellHook=_tableViewCellHook;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

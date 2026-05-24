@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol MTLCommandBufferEncoderInfo
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *debugSignposts;
-@property(readonly, nonatomic) long long errorState;
 @property(readonly, nonatomic) NSString *label;
 @end
 

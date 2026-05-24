@@ -6,66 +6,48 @@
 
 #import <EventKitUI/EKCalendarItemEditItem.h>
 
-@class EKDateTimeCell, EKUIPopupTableViewCell, EKUITableViewCell, NSDate, NSString, UIDatePicker, UITableViewCell;
-
 __attribute__((visibility("hidden")))
 @interface EKCalendarItemRecurrenceEditItem : EKCalendarItemEditItem
 {
     long long _repeatType;
-    long long _originalRepeatType;
-    NSDate *_repeatEnd;
-    NSDate *_originalRepeatEnd;
-    NSString *_customRepeatDescription;
-    EKUIPopupTableViewCell *_repeatCell;
-    UITableViewCell *_customCell;
-    EKDateTimeCell *_endDateCell;
-    EKUITableViewCell *_endDatePickerCell;
-    UIDatePicker *_endDatePicker;
-    _Bool _showingDatePicker;
 }
 
 + (id);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)s;
+- (unsigned long long)%s;
+- (id).&s;
+- (unsigned long long)%s;
+- (id)%s;
+- (void)s;
+- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void)/*s;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)S%s;
+- (void)%s;
+- (id)s;
+- (void);
+- (unsigned long long)s;
+- (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void)tifyDidStartEditing;
+- (unsigned long long)__objc_classlist__DATA_CONST;
+- (void)notifyDidStartEditing;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

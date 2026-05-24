@@ -5,6 +5,7 @@
 //
 
 @protocol _UIBanner
+- (void);
 - (void)proxyEncodingAnimationsForTarget:controlMessageTarget: /* Error: Ran out of types for this method. */;
 - (void)3¬D¶þÛ03<mþÛ03ìnþ;
 @end

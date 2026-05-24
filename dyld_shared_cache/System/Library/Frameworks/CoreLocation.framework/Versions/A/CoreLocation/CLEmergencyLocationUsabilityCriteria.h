@@ -7,34 +7,24 @@
 @interface CLEmergencyLocationUsabilityCriteria
 {
     _Bool _vuncCheckRequiredForUsability;
-    _Bool _altitudeStitchingEnabled;
-    unsigned int _minUsableIntegrity;
-    double _maxUsableAge;
-    double _maxUsableHunc;
-    double _maxUsableVunc;
 }
 
-- (_Bool);
+- (_Bool)bt;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)8vt;
 - (void);
 - (void);
 - (unsigned int);
-- (double);
+- (double)W~;
 - (double);
 - (double);
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool altitudeStitchingEnabled; // @synthesize altitudeStitchingEnabled=_altitudeStitchingEnabled;
-@property(nonatomic) double maxUsableAge; // @synthesize maxUsableAge=_maxUsableAge;
-@property(nonatomic) double maxUsableHunc; // @synthesize maxUsableHunc=_maxUsableHunc;
-@property(nonatomic) double maxUsableVunc; // @synthesize maxUsableVunc=_maxUsableVunc;
-@property(nonatomic) unsigned int minUsableIntegrity; // @synthesize minUsableIntegrity=_minUsableIntegrity;
 @property(nonatomic) _Bool vuncCheckRequiredForUsability; // @synthesize vuncCheckRequiredForUsability=_vuncCheckRequiredForUsability;
 
 @end

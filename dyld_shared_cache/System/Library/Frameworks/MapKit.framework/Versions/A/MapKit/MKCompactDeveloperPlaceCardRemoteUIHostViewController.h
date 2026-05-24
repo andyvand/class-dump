@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)Index:withObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (void)exchangeObjectAtIndex:withObjectAtIndex: /* Error: Ran out of types for this method. */;
 
 @end
 

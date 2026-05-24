@@ -6,22 +6,20 @@
 
 #import <UIKitCore/_UICellAccessoryConfiguration.h>
 
-@class NSString, UIFont;
+@class NSString;
 
 @interface _UICellAccessoryConfigurationBadge : _UICellAccessoryConfiguration
 {
     _Bool _adjustsFontForContentSizeCategory;
-    NSString *_text;
-    UIFont *_font;
 }
 
 + (_Bool)ers - they should only forward them;
-- (id);
+- (id)Location;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool)SentinelPoint:(id)arg1;
-- (void)eTouchKeyplaneName;
+- (_Bool)setSentinelPoint:(id)arg1;
+- (void)preTouchKeyplaneName;
 - (id)regroundAccessoryView;
 - (void)sionTouchpadFeedbackDelegate>",W,N;
 - (id)led because no builder is registered for scene session role "%@".;
@@ -32,8 +30,6 @@
 - (void)\)hþ;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsFontForContentSizeCategory; // @synthesize adjustsFontForContentSizeCategory=_adjustsFontForContentSizeCategory;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

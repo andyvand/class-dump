@@ -9,7 +9,6 @@
 @interface AVPlaybackCoordinationMediumParticipant
 {
     AVWeakReference *_weakReferenceToPlaybackCoordinator;
-    NSUUID *_participantIdentifier;
 }
 
 - (id);

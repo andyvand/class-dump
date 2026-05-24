@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken, BSMachPortTaskNameRight, NSString;
-
 @interface BSProcessHandle
 {
     _Bool _resolvedBundleID;
-    int _pid;
-    NSString *_bundleID;
-    BSAuditToken *_auditToken;
-    NSString *_name;
-    BSMachPortTaskNameRight *_taskNameRight;
 }
 
 + (id);
@@ -25,7 +18,7 @@
 + (id);
 + (id);
 + (void);
-+ (id)nitWithPort:(int)arg1;
++ (id)initWithPort:(int)arg1;
 
 @end
 

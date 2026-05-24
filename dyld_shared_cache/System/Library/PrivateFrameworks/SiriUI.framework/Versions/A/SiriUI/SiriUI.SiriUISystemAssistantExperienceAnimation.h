@@ -7,11 +7,6 @@
 @interface SiriUI.SiriUISystemAssistantExperienceAnimation
 {
     id view;
-    id preAnimationBlock;
-    id animationBlock;
-    id completionHandler;
-    id animateNext;
-    id duration;
 }
 
 - (id);

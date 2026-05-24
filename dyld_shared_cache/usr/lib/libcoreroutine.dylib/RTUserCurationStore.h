@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTUserCurationStore : RTStore
 {
 }
@@ -17,22 +15,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)alue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (void)pdpStateValueForAccount:(id)arg1;
+- (void)ary=},V_options;
 - (void);
 - (void);
 - (id);
 - (id)tive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

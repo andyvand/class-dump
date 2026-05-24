@@ -8,14 +8,10 @@ __attribute__((visibility("hidden")))
 @interface BWRingBuffer
 {
     void *_ringBuffer;
-    int _outputIndex;
-    int _inputIndex;
-    int _length;
-    unsigned long long _typeSize;
 }
 
-- (void);
-- (unsigned long long)nsions;
+- (void)OITSUNumberFormat;
+- (unsigned long long)OriginalCameraIntrinsicMatrixReferenceDimensions;
 
 @end
 

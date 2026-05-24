@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSSet *_attendees;
 }
 
-+ (_Bool);
++ (_Bool)es from device=%{public}@(%{public}@) destination=%{public}@, session=%{public}@;
 - (id);
 - (id);
 - (id);

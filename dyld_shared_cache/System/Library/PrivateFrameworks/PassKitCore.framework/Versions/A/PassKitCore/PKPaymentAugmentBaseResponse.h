@@ -11,7 +11,6 @@
 @interface PKPaymentAugmentBaseResponse : PKPaymentWebServiceResponse
 {
     NSData *_networkMerchantIdentifier;
-    long long _cryptogramType;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)preferences:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cryptogramType; // @synthesize cryptogramType=_cryptogramType;
 @property(readonly, copy, nonatomic) NSData *networkMerchantIdentifier; // @synthesize networkMerchantIdentifier=_networkMerchantIdentifier;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKApplyWebServiceRequest : PKPaymentWebServiceRequest
 {
     NSString *_referrerIdentifier;
-    NSDictionary *_experimentDetails;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -24,11 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)dPlacement;
+- (void);
+- (void)appleCardDashboardPlacement;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *experimentDetails; // @synthesize experimentDetails=_experimentDetails;
 @property(copy, nonatomic) NSString *referrerIdentifier; // @synthesize referrerIdentifier=_referrerIdentifier;
 
 @end

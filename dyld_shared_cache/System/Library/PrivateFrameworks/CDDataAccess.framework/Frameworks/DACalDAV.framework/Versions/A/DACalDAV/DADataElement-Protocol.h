@@ -5,5 +5,7 @@
 //
 
 @protocol DADataElement
+- (_Bool);
+- (_Bool);
 @end
 

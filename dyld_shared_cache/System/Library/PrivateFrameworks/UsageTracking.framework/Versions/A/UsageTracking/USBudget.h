@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSString;
 
 @interface USBudget
 {
     NSString *_identifier;
-    NSSet *_categoryIdentifiers;
-    NSSet *_bundleIdentifiers;
-    NSSet *_exemptBundleIdentifiers;
-    NSSet *_webDomains;
-    NSString *_calendarIdentifier;
-    NSDictionary *_schedule;
-    long long _type;
 }
 
 + (_Bool);
@@ -25,27 +18,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ocalPillRadius;
 - (id);
 - (long long);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)vU;
+- (id)h"cx!c8"$8"c$;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(readonly, copy) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(readonly, copy) NSSet *categoryIdentifiers; // @synthesize categoryIdentifiers=_categoryIdentifiers;
-@property(readonly, copy) NSSet *exemptBundleIdentifiers; // @synthesize exemptBundleIdentifiers=_exemptBundleIdentifiers;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSSet *items;
-@property(readonly, copy) NSDictionary *schedule; // @synthesize schedule=_schedule;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(readonly, copy) NSSet *webDomains; // @synthesize webDomains=_webDomains;
 
 @end
 

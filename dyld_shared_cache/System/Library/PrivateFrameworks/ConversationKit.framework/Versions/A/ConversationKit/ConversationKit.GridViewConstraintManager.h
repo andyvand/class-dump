@@ -7,14 +7,6 @@
 @interface ConversationKit.GridViewConstraintManager
 {
     id organicConstraints;
-    id organicConstraintsCaptionsTranscript;
-    id dominoOrganicConstraints;
-    id fullScreenConstraints;
-    id fullScreenConstraintsCaptionsTranscript;
-    id topAnchor;
-    id horizontalAnchor;
-    id organicBottomConstraint;
-    id dominoBottomAnchor;
 }
 
 @end

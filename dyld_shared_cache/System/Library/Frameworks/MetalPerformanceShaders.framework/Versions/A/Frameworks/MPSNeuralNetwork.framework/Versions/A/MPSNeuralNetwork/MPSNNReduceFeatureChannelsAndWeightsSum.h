@@ -13,7 +13,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id)w.r.t data %lu are not available in image with %lu feature channels at offset %lu
 ;
 

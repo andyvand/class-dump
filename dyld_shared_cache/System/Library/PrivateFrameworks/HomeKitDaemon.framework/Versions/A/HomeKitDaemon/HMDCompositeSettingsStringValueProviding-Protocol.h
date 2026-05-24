@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol HMDCompositeSettingsStringValueProviding
-- (NSString *)tProfileEnabled_Object: /* Error: Ran out of types for this method. */;
+- (NSString *)addUsersWithMediaContentProfileEnabled_Object: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *stringValue;

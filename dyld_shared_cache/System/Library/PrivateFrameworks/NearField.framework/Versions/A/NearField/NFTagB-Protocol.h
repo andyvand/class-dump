@@ -7,14 +7,13 @@
 @class NSData;
 
 @protocol NFTagB
+- (_Bool)tJobTitleKey(void);
+- (double)ABSearchElementUIRulesBoxBorderColor;
+- (NSData *)availableForFaceTime;
+- (_Bool)ass(void)_block_invoke;
+- (NSData *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *applicationData;
-@property(readonly, nonatomic) _Bool applicationDataCoding;
 @property(readonly, copy, nonatomic) NSData *pupi;
-@property(readonly, copy, nonatomic) NSData *selectedAID;
-@property(readonly, nonatomic) unsigned char sfgi;
-@property(readonly, nonatomic) double sfgt;
-@property(readonly, nonatomic) _Bool supportsPACE;
 @end
 

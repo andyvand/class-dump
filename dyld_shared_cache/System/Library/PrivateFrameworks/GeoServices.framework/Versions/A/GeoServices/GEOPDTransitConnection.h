@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitConnection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_entityNameString;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned long long _muid;
-    NSMutableArray *_transitLabels;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_entityNameString:1;
-        unsigned int read_mapsId:1;
-        unsigned int read_transitLabels:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)";
+- (void)rowWithTitle:(id)arg1 childSettingsKeyPath: /* Error: Ran out of types for this method. */;
+- (id)ation:timeoutThresholdInSec:triggerType:audioStreamHoldingDurationInSec:audioRecordType:deviceId:attendingListeningType:pauseDurationThreshold:maxPauseDelay: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"GEOXPCConnection";
-- (id)ickLinkItems;
+- (id)_secondaryQuickLinkItems;
 - (id)tà;
 - (void);
 

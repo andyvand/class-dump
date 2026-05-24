@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 @interface CKDAssetHandle
 {
     NSNumber *_itemID;
-    NSUUID *_UUID;
-    NSString *_path;
-    NSNumber *_volumeIndex;
-    NSNumber *_fileID;
-    NSNumber *_generationID;
-    NSDate *_lastUsedTime;
-    NSData *_fileSignature;
-    NSNumber *_status;
-    NSDate *_modTime;
-    NSNumber *_fileSize;
-    NSNumber *_chunkCount;
-    NSNumber *_isCloned;
-    NSData *_boundaryKeyHash;
 }
 
 + (id)";
@@ -31,35 +18,41 @@
 - (id);
 - (id);
 - (void);
+- (void)__const;
+- (id)kZ;
 - (void);
+- (_Bool);
 - (id);
+- (id);
+- (void)setDriverAvailabilityLatencyFromChipReset:(id)arg1;
+- (id)dedIEList;
+- (id)igger:%@ /* Error: Ran out of types for this method. */;
 - (void);
+- (void)ef_indexWhereObjectWouldBeInserted:(id)arg1 usingComparator: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)DhZnq1eUV666b7j8V1apF7zQdcVc1GHqBMRfeagBk0
+ktB5PgRQ4hFX3OAbfjSVnmuPVuHznBbS/1f/ABuTlJJjO592E9JVo0IwQDAPBgNV
+HRMBAf8EBTADAQH/MB0GA1UdDgQWBBTHKW8b5x+bDXk9PC/lPsufj3wUEzAOBgNV
+HQ8BAf8EBAMCAQYwCgYIKoZIzj0EAwMDZwAwZAIwXsNPIuolYDriFDkULrsZy81O
+yAk4v7Y4f1p86Ox2J7g4xdGIwAyLw/JNRKGoHGpVAjBk20GA6ZvKKoO+HvE9v2xu
+wiVPsqk37xSmgK+RHJDMMy+hrhJVsCsBzeYpI9Cz4sI=
+-----END CERTIFICATE-----;
 - (id);
 - (void);
 - (void);
 - (id)@ùQÛ°1Â0@ù
 × ;
-- (void)ons:(id)arg1 count: /* Error: Ran out of types for this method. */;
-- (_Bool)icationBundleIdentifierOverrideForTCC;
+- (void)setPermissions:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (_Bool)applicationBundleIdentifierOverrideForTCC;
 - (void)ì;
 - (void)public key for the owner participant;
-- (id)match;
-- (id)ount;
+- (id)zoneProtectionInfoTagMismatch;
+- (id)AnonymousAccount;
 - (_Bool);
 - (id)o generate delta proto with error:%@ /* Error: Ran out of types for this method. */;
 - (id):%@ /* Error: Ran out of types for this method. */;
@@ -70,21 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSData *boundaryKeyHash; // @synthesize boundaryKeyHash=_boundaryKeyHash;
-@property(retain, nonatomic) NSNumber *chunkCount; // @synthesize chunkCount=_chunkCount;
-@property(retain, nonatomic) NSNumber *fileID; // @synthesize fileID=_fileID;
-@property(retain, nonatomic) NSData *fileSignature; // @synthesize fileSignature=_fileSignature;
-@property(retain, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
-@property(retain, nonatomic) NSNumber *generationID; // @synthesize generationID=_generationID;
-@property(retain, nonatomic) NSNumber *isCloned; // @synthesize isCloned=_isCloned;
 @property(retain, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(retain, nonatomic) NSDate *lastUsedTime; // @synthesize lastUsedTime=_lastUsedTime;
-@property(retain, nonatomic) NSDate *modTime; // @synthesize modTime=_modTime;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSNumber *status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSNumber *usesMMCSVersion2;
-@property(retain, nonatomic) NSNumber *volumeIndex; // @synthesize volumeIndex=_volumeIndex;
 
 @end
 

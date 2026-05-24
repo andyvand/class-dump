@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSObject, NSString, NSURL, SSRSpeakerRecognitionScorer, SSRVoiceProfile;
-@protocol OS_dispatch_queue;
+@class SSRSpeakerRecognitionScorer;
 
 @interface SSRVoiceProfileRetrainerPSR
 {
     unsigned long long _maximumSpeakerVectors;
-    float _psrScore;
-    float _bestTriggerScore;
-    _Bool _psrTimedout;
-    SSRSpeakerRecognitionScorer *_psrScorer;
-    SSRVoiceProfile *_voiceProfile;
-    unsigned long long _spIdType;
-    NSURL *_configFilePath;
-    NSURL *_resourceFilePath;
-    NSString *_configVersion;
-    NSURL *_psrModelFilePath;
-    NSDictionary *_comparativeModels;
-    unsigned long long _currUttLengthInMs;
-    NSData *_speakerVector;
-    unsigned long long _speakerVectorSize;
-    unsigned long long _processedAudioDurationMs;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (void)$;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void),	;
 - (void);
 - (void);
 - (unsigned long long);
@@ -64,40 +47,18 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)h%;
+- (void)N14CoreNavigation3CLP8LogEntry15TropicalSavanna9TimeStampE;
 - (void);
 - (id);
-- (id);
 - (void);
-- (id)JsonFilePath;
+- (id);
+- (id)B;
+- (void);
+- (id)debugUtteranceJsonFilePath;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *comparativeModels; // @synthesize comparativeModels=_comparativeModels;
-@property(retain, nonatomic) NSURL *configFilePath; // @synthesize configFilePath=_configFilePath;
-@property(retain, nonatomic) NSString *configVersion; // @synthesize configVersion=_configVersion;
-@property(nonatomic) unsigned long long currUttLengthInMs; // @synthesize currUttLengthInMs=_currUttLengthInMs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool implicitTrainingRequired;
-@property(readonly, nonatomic) NSURL *modelFilePath;
-@property(nonatomic) unsigned long long processedAudioDurationMs; // @synthesize processedAudioDurationMs=_processedAudioDurationMs;
-@property(retain, nonatomic) NSURL *psrModelFilePath; // @synthesize psrModelFilePath=_psrModelFilePath;
 @property(retain, nonatomic) SSRSpeakerRecognitionScorer *psrScorer; // @synthesize psrScorer=_psrScorer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSURL *resourceFilePath; // @synthesize resourceFilePath=_resourceFilePath;
-@property(readonly, nonatomic) unsigned long long retrainerType;
-@property(nonatomic) unsigned long long spIdType; // @synthesize spIdType=_spIdType;
-@property(retain, nonatomic) NSData *speakerVector; // @synthesize speakerVector=_speakerVector;
-@property(nonatomic) unsigned long long speakerVectorSize; // @synthesize speakerVectorSize=_speakerVectorSize;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SSRVoiceProfile *voiceProfile; // @synthesize voiceProfile=_voiceProfile;
 
 @end
 

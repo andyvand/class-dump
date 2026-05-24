@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CLSCurationDebugStateEntry
 {
     unsigned long long _state;
-    NSString *_reason;
-    NSString *_agent;
-    NSString *_stage;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *agent; // @synthesize agent=_agent;
-@property(readonly) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) NSString *stage; // @synthesize stage=_stage;
 @property(readonly) unsigned long long state; // @synthesize state=_state;
 
 @end

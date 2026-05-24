@@ -8,15 +8,6 @@
 {
     id _accessory;
     id activated;
-    id appex;
-    id capability;
-    id consumedExtension;
-    id dispatchQueue;
-    id device;
-    id featureSession;
-    id sessionIdentity;
-    id state;
-    id transportStateRestoreIdentifier;
 }
 
 @end

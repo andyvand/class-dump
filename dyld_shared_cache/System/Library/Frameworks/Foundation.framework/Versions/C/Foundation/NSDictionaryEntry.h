@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface NSDictionaryEntry
 {
     struct __CFSet *dictionary;
-    NSData *data;
-    long long size;
-    long long mtime;
 }
 
 - (void);

@@ -5,25 +5,19 @@
 //
 
 @class NSString;
-@protocol MTLAccelerationStructure, MTLDevice;
+@protocol MTLAccelerationStructure, MTLDevice, MTLTexture;
 
 @protocol MTLHeap
+- (id <MTLTexture>);
+- (id <MTLDevice>)) ;
+- (void),;
 - (unsigned long long)!´AùQi61Â0@ù
 × ;
-- (id <MTLAccelerationStructure>)tchBufferSPI:(unsigned long long)arg1 atIndex:stages: /* Error: Ran out of types for this method. */;
+- (id <MTLAccelerationStructure>)setToolsDispatchBufferSPI:(unsigned long long)arg1 atIndex:stages: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ane;
-- (unsigned long long)eue;
+- (unsigned long long)MTLCountersCommandQueue;
 
 // Remaining properties
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long size;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) long long type;
-@property(readonly) unsigned long long usedSize;
 @end
 

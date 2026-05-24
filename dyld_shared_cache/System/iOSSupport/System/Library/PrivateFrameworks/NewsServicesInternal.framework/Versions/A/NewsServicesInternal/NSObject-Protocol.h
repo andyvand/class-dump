@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (_Bool)zingItem>"16@?<v@?@"NSDictionary">24;
+- (oneway void)ic}@;
+- (unsigned long long);
+- (id)OS[l;
+- (_Bool)forYou;
+- (id)hore>";
+
+@optional
+- (NSString *)om.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/utility/UIDevice_TSUAdditions.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

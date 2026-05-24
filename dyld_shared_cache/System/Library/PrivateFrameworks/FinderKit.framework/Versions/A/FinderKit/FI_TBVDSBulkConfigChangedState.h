@@ -8,16 +8,12 @@ __attribute__((visibility("hidden")))
 @interface FI_TBVDSBulkConfigChangedState
 {
     _Bool _sortByChanged;
-    _Bool _groupByChanged;
-    _Bool _checkChildrenForTagsChanged;
-    struct unique_function<void ()> _sortByCompletionHandler;
-    struct unique_function<void ()> _groupByCompletionHandler;
 }
 
-- (void *);
+- (void *);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void *);
@@ -28,11 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)¤,;
 
 // Remaining properties
-@property _Bool checkChildrenForTagsChanged; // @synthesize checkChildrenForTagsChanged=_checkChildrenForTagsChanged;
-@property _Bool groupByChanged; // @synthesize groupByChanged=_groupByChanged;
-@property(readonly) void *groupByCompletionHandler; // @synthesize groupByCompletionHandler=_groupByCompletionHandler;
 @property _Bool sortByChanged; // @synthesize sortByChanged=_sortByChanged;
-@property(readonly) void *sortByCompletionHandler; // @synthesize sortByCompletionHandler=_sortByCompletionHandler;
 
 @end
 

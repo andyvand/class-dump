@@ -9,7 +9,6 @@
 @interface LXLanguageIdentifierResult
 {
     NSLocale *_locale;
-    double _probability;
 }
 
 - (double);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) double probability; // @synthesize probability=_probability;
 
 @end
 

@@ -4,55 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSDictionary, NSNumber;
 
 @interface ASDSubscriptionEntitlement
 {
     NSDictionary *_dictionary;
-    unsigned long long _segment;
-    _Bool _hasFamily;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSNumber *appAdamID;
-@property(readonly, copy) NSNumber *appVersion;
-@property(readonly) _Bool autoRenewEnabled;
-@property(readonly, copy) NSString *chargeCountryCode;
-@property(readonly, copy) NSString *chargeCurrencyCode;
-@property(readonly, copy) NSNumber *chargeStoreFrontID;
-@property(readonly, copy) NSString *entitlementOriginType;
-@property(readonly, copy) NSNumber *entitlementSourceAdamID;
-@property(readonly, copy) NSDate *expiryDate;
-@property(readonly, copy) NSString *externalSubscriptionID;
-@property(readonly, copy) NSNumber *familyID;
-@property(readonly, copy) NSNumber *familyRank;
-@property(readonly, copy) NSNumber *featureAccessTypeID;
-@property(readonly, copy) NSNumber *freeTrialPeriodID;
-@property(readonly) _Bool hasFamily;
-@property(readonly, copy) NSNumber *inAppAdamID;
-@property(readonly, copy) NSString *inAppVersion;
-@property(readonly, copy) NSNumber *initialPurchaseTimestamp;
-@property(readonly) _Bool isInGracePeriod;
-@property(readonly) _Bool isOfferPeriod;
-@property(readonly) _Bool isPurchaser;
-@property(readonly) _Bool isTrialPeriod;
-@property(readonly, getter=isNewsAppPurchase) _Bool newsAppPurchase;
-@property(readonly, copy) NSString *offerID;
-@property(readonly, copy) NSNumber *originalPurchaseDownloadID;
-@property(readonly, copy) NSString *poolType;
-@property(readonly, copy) NSString *productCode;
-@property(readonly, copy) NSNumber *promoScenarioID;
-@property(readonly, copy) NSNumber *purchasabilityType;
-@property(readonly, copy) NSNumber *purchaseDownloadID;
-@property(readonly, copy) NSNumber *quantity;
-@property(readonly) unsigned long long segment;
-@property(readonly, copy) NSNumber *serviceBeginsTimestamp;
-@property(readonly, copy) NSDate *startDate;
-@property(readonly, copy) NSNumber *subscriptionBundleID;
-@property(readonly, copy) NSString *vendorAdHocOfferID;
-@property(readonly, copy) NSString *vendorID;
 
 @end
 

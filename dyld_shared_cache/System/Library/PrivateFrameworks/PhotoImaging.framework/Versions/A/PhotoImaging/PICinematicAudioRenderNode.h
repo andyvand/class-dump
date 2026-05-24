@@ -7,9 +7,6 @@
 @interface PICinematicAudioRenderNode
 {
     double _dialogMixBias;
-    long long _renderingStyle;
-    double _cachedDialogMixBias;
-    long long _cachedRenderingStyle;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (id);
 - (double);
 - (long long);
-- (double);
+- (double)T;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -31,10 +28,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) double cachedDialogMixBias; // @synthesize cachedDialogMixBias=_cachedDialogMixBias;
-@property(nonatomic) long long cachedRenderingStyle; // @synthesize cachedRenderingStyle=_cachedRenderingStyle;
 @property(nonatomic) double dialogMixBias; // @synthesize dialogMixBias=_dialogMixBias;
-@property(nonatomic) long long renderingStyle; // @synthesize renderingStyle=_renderingStyle;
 
 @end
 

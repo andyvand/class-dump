@@ -7,14 +7,13 @@
 @interface ASKLoadResourceOperation
 {
     CDUnknownBlockType _outputBlock;
-    long long __loadReason;
 }
 
-+ (id);
-- (CDUnknownBlockType);
++ (id)o;
+- (CDUnknownBlockType)o;
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setLoadReason:) long long _loadReason; // @synthesize _loadReason=__loadReason;
-@property(copy) CDUnknownBlockType outputBlock; // @synthesize outputBlock=_outputBlock;
 
 @end
 

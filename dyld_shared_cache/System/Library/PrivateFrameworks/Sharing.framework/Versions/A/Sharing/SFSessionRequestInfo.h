@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SFSessionRequestInfo
 {
     NSString *_requestID;
-    NSDictionary *_options;
-    NSDictionary *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (id)6;
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void)Ðÿÿ¸þÿ¨êþÿ~þÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSDictionary *request; // @synthesize request=_request;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

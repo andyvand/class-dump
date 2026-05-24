@@ -9,25 +9,21 @@
 @interface FBSDisplayLayoutMonitorConfiguration
 {
     BSServiceConnectionEndpoint *_endpoint;
-    _Bool _needsUserInteractivePriority;
-    CDUnknownBlockType _transitionHandler;
 }
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (_Bool);
+- (id)h;
+- (void)`;
 - (id);
-- (void);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)A;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) BSServiceConnectionEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(nonatomic) _Bool needsUserInteractivePriority; // @synthesize needsUserInteractivePriority=_needsUserInteractivePriority;
-@property(copy, nonatomic) CDUnknownBlockType transitionHandler; // @synthesize transitionHandler=_transitionHandler;
 
 @end
 

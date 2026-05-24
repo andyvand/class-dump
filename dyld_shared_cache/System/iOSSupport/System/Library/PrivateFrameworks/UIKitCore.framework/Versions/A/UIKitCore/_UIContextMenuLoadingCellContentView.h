@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIActivityIndicatorView *_activityIndicatorView;
 }
 
-- (void);
+- (void)removeObjectsForKeys:(id)arg1;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)s %llu messages (limit %llu);
+- (id)sages.IMPendingReplicatedMessageCache;
+- (id)-retraction-received-timeout;
 - (id);
-- (id);
-- (id);
-- (id)rTVOnly;
+- (id)_cancelAllPressesForTVOnly;
 - (void)0U];
 
 // Remaining properties

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EWSEffectiveRightsType
 {
     _Bool _CreateAssociated;
-    _Bool _CreateContents;
-    _Bool _CreateHierarchy;
-    _Bool _Delete;
-    _Bool _Modify;
-    _Bool _Read;
-    _Bool _ViewPrivateItems;
 }
 
 + (id);
@@ -22,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -36,19 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool CreateAssociated; // @synthesize CreateAssociated=_CreateAssociated;
-@property(nonatomic) _Bool CreateContents; // @synthesize CreateContents=_CreateContents;
-@property(nonatomic) _Bool CreateHierarchy; // @synthesize CreateHierarchy=_CreateHierarchy;
-@property(nonatomic) _Bool Delete; // @synthesize Delete=_Delete;
-@property(nonatomic) _Bool Modify; // @synthesize Modify=_Modify;
-@property(nonatomic) _Bool Read; // @synthesize Read=_Read;
-@property(nonatomic) _Bool ViewPrivateItems; // @synthesize ViewPrivateItems=_ViewPrivateItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

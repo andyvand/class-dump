@@ -27,10 +27,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Q;
+- (_Bool);
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -49,7 +49,7 @@
 - (void);
 - (id)!¸Eù1D&Ð1Â0@ù
 × ;
-- (_Bool)TextShadow;
+- (_Bool)colorForPanelTextShadow;
 
 // Remaining properties
 @property(retain) NSDate *backOffEndDate; // @synthesize backOffEndDate=_backOffEndDate;

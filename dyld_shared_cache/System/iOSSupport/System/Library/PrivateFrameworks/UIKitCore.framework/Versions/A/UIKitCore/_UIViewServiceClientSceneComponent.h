@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken, NSString, NSUUID, NSXPCConnection, UIWindowScene, _UIViewServiceSceneDelegate;
+@class NSString, UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceClientSceneComponent
 {
     UIWindowScene *_windowScene;
-    _UIViewServiceSceneDelegate *_sceneDelegate;
-    NSXPCConnection *_auxiliaryConnection;
 }
 
 - (void);
@@ -23,23 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)SNumber",C,N,V_payloadAllowMarketplaceAppInstallation;
 - (void);
 - (void)G^¾7Sg;
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *auxiliaryConnection; // @synthesize auxiliaryConnection=_auxiliaryConnection;
-@property(nonatomic) _Bool clientViewControllerIsReady;
-@property(readonly, nonatomic) NSUUID *contextToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) BSAuditToken *hostAuditToken;
 @property(readonly, nonatomic) NSString *serviceViewControllerClassName;
-@property(readonly) Class superclass;
 
 @end
 

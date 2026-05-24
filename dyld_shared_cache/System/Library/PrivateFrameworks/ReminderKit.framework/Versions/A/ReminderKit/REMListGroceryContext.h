@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMList;
+@class REMList;
 
 @interface REMListGroceryContext
 {
@@ -14,17 +14,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)mainQueue] instead.;
 - (id);
 - (void);
 - (void)ë!4Fùñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *groceryLocaleID;
 @property(retain, nonatomic) REMList *list; // @synthesize list=_list;
-@property(readonly, nonatomic) _Bool shouldCategorizeGroceryItems;
-@property(readonly, nonatomic) _Bool shouldSuggestConversionToGroceryList;
 
 @end
 

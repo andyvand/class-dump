@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface BMAprioriPatternMiner
 {
     _Bool _shouldStop;
-    NSArray *_items;
-    NSArray *_indexBaskets;
-    unsigned long long _maxItemsetSize;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)presentationController:willPresentWithAdaptiveStyle:transitionCoordinator: /* Error: Ran out of types for this method. */;
+- (void)presentTrimControllerForMediaObject:(_Bool)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *indexBaskets; // @synthesize indexBaskets=_indexBaskets;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) unsigned long long maxItemsetSize; // @synthesize maxItemsetSize=_maxItemsetSize;
 @property _Bool shouldStop; // @synthesize shouldStop=_shouldStop;
 
 @end

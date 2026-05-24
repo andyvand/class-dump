@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface NUScheduledItem
 {
     unsigned long long _scheduledTime;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
 }
 
 - (id);
@@ -24,8 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly) unsigned long long scheduledTime; // @synthesize scheduledTime=_scheduledTime;
 
 @end

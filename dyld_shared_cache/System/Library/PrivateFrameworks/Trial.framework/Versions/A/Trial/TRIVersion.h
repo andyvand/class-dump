@@ -9,8 +9,6 @@
 @interface TRIVersion
 {
     NSNumber *_majorVersion;
-    NSNumber *_minorVersion;
-    NSNumber *_patchVersion;
 }
 
 + (id);
@@ -20,9 +18,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
-- (id);
+- (id)T@"_SFPBSearchWebCommand",&,N,V_searchWebCommand;
 - (id);
 - (id);
 - (_Bool);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly, nonatomic) NSNumber *minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly, nonatomic) NSNumber *patchVersion; // @synthesize patchVersion=_patchVersion;
 
 @end
 

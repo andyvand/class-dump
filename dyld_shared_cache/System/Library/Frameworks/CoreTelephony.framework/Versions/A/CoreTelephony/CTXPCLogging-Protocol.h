@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol CTXPCLogging
+- (NSString *)__StandardOutPath;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
 @property(readonly, nonatomic) NSString *ct_shortName;
 @end
 

@@ -11,15 +11,10 @@
 @interface SCNDistanceConstraint : SCNConstraint
 {
     SCNNode *_target;
-    float _minimumDistance;
-    float _maximumDistance;
-    _Bool _keepTargetDirection;
-    struct SCNVector3 _targetDirection;
-    float _maximumDirectionAngle;
 }
 
 + (id);
-+ (id);
++ (id)t;
 + (_Bool);
 - (void);
 - (void);
@@ -30,18 +25,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)N;
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)album_artist WHERE album_artist.album_artist_pid=? AND liked_state=? LIMIT 1;
 - (id);
 - (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double maximumDistance;
-@property(nonatomic) double minimumDistance;
 @property(retain, nonatomic) SCNNode *target;
 
 @end

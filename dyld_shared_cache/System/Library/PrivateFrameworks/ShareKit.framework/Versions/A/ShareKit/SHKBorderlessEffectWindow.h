@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     _Bool noSourceWindow;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (struct CGRect);

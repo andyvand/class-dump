@@ -9,16 +9,14 @@
 @interface CloudKit.CloudCoreContainerImplementation : CKContainerImplementation
 {
     id sessionID;
-    id invalidationHandler;
-    id sessionInvalidationRegistrationToken;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)a;
+- (void)coordinateAccessWithIntents:(id)arg1 queue:byAccessor: /* Error: Ran out of types for this method. */;
 - (void)tP9;
 
 @end

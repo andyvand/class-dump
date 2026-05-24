@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDSharingInbound, NSMutableDictionary, NSMutableSet, NSObject, SFDeviceDiscovery, SFService;
-@protocol DEDSharingInboundDelegate, OS_dispatch_queue, OS_dispatch_semaphore;
+@class DEDSharingInbound;
 
 @interface DEDSharingConnection
 {
     _Bool _listenForClients;
-    _Bool _started;
-    DEDSharingInbound *_sharingInbound;
-    id <DEDSharingInboundDelegate> _controller;
-    NSMutableDictionary *_pongingDevices;
-    NSMutableDictionary *_deviceSessions;
-    NSMutableDictionary *_discoveredDevices;
-    NSObject<OS_dispatch_queue> *_run_queue;
-    NSObject<OS_dispatch_semaphore> *_bluetoothSessionSemaphore;
-    SFService *_pingService;
-    SFDeviceDiscovery *_pingDiscovery;
-    NSMutableSet *_visiblePingUUIDs;
-    SFService *_workerService;
-    SFDeviceDiscovery *_pongDiscovery;
-    CDUnknownBlockType _deviceStatusCallback;
 }
 
 + (void):8@16@24q32@40q48@?56@?64 /* Error: Ran out of types for this method. */;
@@ -52,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -62,23 +47,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -87,31 +61,28 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)s;
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id)nts: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)@0:8 /* Error: Ran out of types for this method. */;
+- (id)configureListenForClients: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_semaphore> *bluetoothSessionSemaphore; // @synthesize bluetoothSessionSemaphore=_bluetoothSessionSemaphore;
-@property __weak id <DEDSharingInboundDelegate> controller; // @synthesize controller=_controller;
-@property(retain) NSMutableDictionary *deviceSessions; // @synthesize deviceSessions=_deviceSessions;
-@property(copy) CDUnknownBlockType deviceStatusCallback; // @synthesize deviceStatusCallback=_deviceStatusCallback;
-@property(retain) NSMutableDictionary *discoveredDevices; // @synthesize discoveredDevices=_discoveredDevices;
-@property _Bool listenForClients; // @synthesize listenForClients=_listenForClients;
-@property(retain, nonatomic) SFDeviceDiscovery *pingDiscovery; // @synthesize pingDiscovery=_pingDiscovery;
-@property(retain, nonatomic) SFService *pingService; // @synthesize pingService=_pingService;
-@property(retain, nonatomic) SFDeviceDiscovery *pongDiscovery; // @synthesize pongDiscovery=_pongDiscovery;
-@property(retain) NSMutableDictionary *pongingDevices; // @synthesize pongingDevices=_pongingDevices;
-@property(retain) NSObject<OS_dispatch_queue> *run_queue; // @synthesize run_queue=_run_queue;
 @property(retain) DEDSharingInbound *sharingInbound; // @synthesize sharingInbound=_sharingInbound;
-@property _Bool started; // @synthesize started=_started;
-@property(retain) NSMutableSet *visiblePingUUIDs; // @synthesize visiblePingUUIDs=_visiblePingUUIDs;
-@property(retain, nonatomic) SFService *workerService; // @synthesize workerService=_workerService;
 
 @end
 

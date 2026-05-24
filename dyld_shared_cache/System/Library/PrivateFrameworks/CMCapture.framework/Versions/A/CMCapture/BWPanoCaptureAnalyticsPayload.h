@@ -10,77 +10,44 @@ __attribute__((visibility("hidden")))
 @interface BWPanoCaptureAnalyticsPayload
 {
     NSString *_portType;
-    float _scalingFactor;
-    float _minAbsTranslationX;
-    float _maxAbsTranslationX;
-    float _aveAbsTranslationX;
-    float _minAbsTranslationY;
-    float _maxAbsTranslationY;
-    float _aveAbsTranslationY;
-    float _exposureTime;
-    float _minLuxValue;
-    float _maxLuxValue;
-    float _averageLuxValue;
-    float _focusDistance;
-    unsigned int _numFrames;
 }
 
 - (void);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (float);
+- (float);;
 - (float);
-- (float);
-- (float);
+- (float);
 - (float);
 - (float);
 - (void);
 - (void);
 - (unsigned int);
+- (void)ot found for %@ in %@;
 - (void);
 - (void);
 - (void);
-- (void);
+- (float)union_list;
+- (float);
+- (id);
 - (float);
+- (void);
 - (float);
 - (id);
-- (float);
-- (void);
-- (float);
-- (id);
 - (void);
 - (id);
-- (float);
+- (float);
 - (void);
-- (float)PMotionData;
-- (id)ingAngle;
+- (float)useISPMotionData;
+- (id)UpdatedPanningAngle;
 
 // Remaining properties
-@property(nonatomic) float aveAbsTranslationX; // @synthesize aveAbsTranslationX=_aveAbsTranslationX;
-@property(nonatomic) float aveAbsTranslationY; // @synthesize aveAbsTranslationY=_aveAbsTranslationY;
-@property(nonatomic) float averageLuxValue; // @synthesize averageLuxValue=_averageLuxValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float exposureTime; // @synthesize exposureTime=_exposureTime;
-@property(nonatomic) float focusDistance; // @synthesize focusDistance=_focusDistance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float maxAbsTranslationX; // @synthesize maxAbsTranslationX=_maxAbsTranslationX;
-@property(nonatomic) float maxAbsTranslationY; // @synthesize maxAbsTranslationY=_maxAbsTranslationY;
-@property(nonatomic) float maxLuxValue; // @synthesize maxLuxValue=_maxLuxValue;
-@property(nonatomic) float minAbsTranslationX; // @synthesize minAbsTranslationX=_minAbsTranslationX;
-@property(nonatomic) float minAbsTranslationY; // @synthesize minAbsTranslationY=_minAbsTranslationY;
-@property(nonatomic) float minLuxValue; // @synthesize minLuxValue=_minLuxValue;
-@property(nonatomic) unsigned int numFrames; // @synthesize numFrames=_numFrames;
 @property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) float scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
 
 @end
 

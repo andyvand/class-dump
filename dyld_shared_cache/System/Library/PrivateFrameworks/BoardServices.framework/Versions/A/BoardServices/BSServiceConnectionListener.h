@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSService, BSServiceConnectionEndpoint, BSServiceDomain, BSServiceSpecification, NSString;
-@protocol BSInvalidatable;
+@class BSServiceDomain, NSString;
 
 @interface BSServiceConnectionListener
 {
     BSServiceDomain *_domain;
-    BSService *_service;
-    NSString *_instance;
-    CDUnknownBlockType _lock_handler;
-    id <BSInvalidatable> _registrationLock_assertion;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _registrationLock;
-    _Bool _lock_activated;
-    _Bool _lock_invalidated;
-    BSServiceConnectionEndpoint *_lock_endpoint;
 }
 
++ (id)h;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (void);
 - (id);
@@ -32,24 +22,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)inary yet?
+;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *domain; // @dynamic domain;
-@property(readonly, copy, nonatomic) BSServiceConnectionEndpoint *endpoint; // @synthesize endpoint=_lock_endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *instance; // @synthesize instance=_instance;
-@property(readonly, copy, nonatomic) NSString *service; // @dynamic service;
-@property(readonly, nonatomic) BSServiceSpecification *specification; // @dynamic specification;
-@property(readonly) Class superclass;
 
 @end
 

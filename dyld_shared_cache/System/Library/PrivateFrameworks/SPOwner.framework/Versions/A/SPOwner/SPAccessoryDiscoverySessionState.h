@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)tionSharingMedium;
 - (void);
 
 // Remaining properties

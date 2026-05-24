@@ -10,7 +10,7 @@
 }
 
 - (long long);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) long long soundPrintVersion; // @synthesize soundPrintVersion=_soundPrintVersion;

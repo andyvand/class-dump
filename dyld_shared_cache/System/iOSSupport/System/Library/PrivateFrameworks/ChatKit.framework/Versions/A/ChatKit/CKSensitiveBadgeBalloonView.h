@@ -13,11 +13,11 @@
     UIView *_commSafetyBadgeView;
 }
 
-- (void);
+- (void)boldSystemFontOfSize:(id)arg1;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)displaySecureTextUsingPlainText;
 - (void);
 
 // Remaining properties

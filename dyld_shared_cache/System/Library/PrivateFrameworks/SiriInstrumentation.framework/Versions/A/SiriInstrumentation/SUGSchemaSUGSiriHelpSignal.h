@@ -6,24 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SUGSchemaSUGSiriHelpSignal : SISchemaInstrumentationMessage
 {
     unsigned int _depthFromActiveSignal;
-    NSString *_signalValue;
-    int _signalType;
-    struct {
-        unsigned int depthFromActiveSignal:1;
-        unsigned int signalType:1;
-    } _has;
-    _Bool _hasSignalValue;
 }
 
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)Ԫ#;
 - (void);
 - (void);
 - (_Bool);
@@ -37,23 +28,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long):8@"NSData"16@?<v@?@"NSError">24 /* Error: Ran out of types for this method. */;
+- (_Bool)setEnableCustomAttributeFixing:(id)arg1;
+- (_Bool)is_played;
 - (id);
 - (id);
-- (id)onsAfter;
-- (id)rScoreWhenCompleted;
-- (void)_ENUSWORKOUTA;
+- (id)deleteNumberOfActionsAfter;
+- (id)_hasUserAsrScoreWhenCompleted;
+- (void)VOICENAME_ENUSWORKOUTA;
 
 // Remaining properties
 @property(nonatomic) unsigned int depthFromActiveSignal; // @synthesize depthFromActiveSignal=_depthFromActiveSignal;
-@property(nonatomic) _Bool hasDepthFromActiveSignal;
-@property(nonatomic) _Bool hasSignalType;
-@property(nonatomic) _Bool hasSignalValue; // @synthesize hasSignalValue=_hasSignalValue;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int signalType; // @synthesize signalType=_signalType;
-@property(copy, nonatomic) NSString *signalValue; // @synthesize signalValue=_signalValue;
 
 @end
 

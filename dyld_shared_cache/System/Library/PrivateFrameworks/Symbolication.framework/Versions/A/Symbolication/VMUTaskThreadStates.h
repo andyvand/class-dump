@@ -7,22 +7,18 @@
 @interface VMUTaskThreadStates
 {
     unsigned int _threadCount;
-    unsigned int _threadStateSize;
-    void *_threadStates;
-    unsigned long long *_stackPointers;
 }
 
 - (void);
 - (void *);
 - (unsigned long long);
 - (id);
-- (unsigned int);
+- (unsigned int)!;
 - (id);
 - (unsigned int);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int threadCount; // @synthesize threadCount=_threadCount;
-@property(readonly, nonatomic) unsigned int threadStateSize; // @synthesize threadStateSize=_threadStateSize;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface PKFieldMetadata
 {
     _Bool _shouldIgnoreField;
-    _Bool _foundExplicitlyRequestedPass;
-    NSArray *_associatedPassIdentifiers;
 }
 
 + (_Bool);
@@ -18,15 +16,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)%;
+- (id);
 - (void);
-- (void)entTransaction;
+- (void)peerPaymentTransaction;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *associatedPassIdentifiers; // @synthesize associatedPassIdentifiers=_associatedPassIdentifiers;
-@property(readonly, nonatomic) _Bool foundExplicitlyRequestedPass; // @synthesize foundExplicitlyRequestedPass=_foundExplicitlyRequestedPass;
-@property(readonly, nonatomic) _Bool shouldIgnoreField; // @synthesize shouldIgnoreField=_shouldIgnoreField;
 
 @end
 

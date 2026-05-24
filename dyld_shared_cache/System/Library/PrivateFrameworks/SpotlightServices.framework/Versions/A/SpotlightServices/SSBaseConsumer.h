@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMBiomeScheduler, BPSSink, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SSBaseConsumer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_indexQueue;
-    BMBiomeScheduler *_scheduler;
-    BPSSink *_sink;
-    NSString *_identifier;
 }
 
-+ (id);
++ (id)_lp_strictlyDecodeObjectOfClasses:forKey: /* Error: Ran out of types for this method. */;
 + (id)re;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)setVerticalAlignment:(id)arg1;
+- (id)setMinimumNumberOfLinesToVerticallyCenter:(id)arg1;
+- (id)setMinimumMediaCornerRadius:(id)arg1;
+- (id)setColor: /* Error: Ran out of types for this method. */;
+- (id)loadVideoWithURL:(id)arg1;
+- (id)isWaitingForPlayback;
 - (void);
 - (id);
 - (void);
@@ -34,8 +30,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ecodeObjectOfClass:forKey: /* Error: Ran out of types for this method. */;
-- (_Bool)LaunchCountOld;
+- (void)decodeObjectOfClass:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)_kMDItemRankingLaunchCountOld;
 
 @end
 

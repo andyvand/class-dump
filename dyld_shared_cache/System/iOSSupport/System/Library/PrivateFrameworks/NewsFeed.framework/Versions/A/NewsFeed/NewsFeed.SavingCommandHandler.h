@@ -7,10 +7,6 @@
 @interface NewsFeed.SavingCommandHandler
 {
     id readingList;
-    id paidAccessChecker;
-    id featureAvailability;
-    id recipeBox;
-    id recipeAccessProvider;
 }
 
 @end

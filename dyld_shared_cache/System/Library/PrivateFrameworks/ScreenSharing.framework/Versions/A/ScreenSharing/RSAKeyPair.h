@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface RSAKeyPair
 {
     struct __SecKey *rsaPublicKey;
-    struct __SecKey *rsaPrivateKey;
-    NSData *rsaPrivateKeyData;
-    NSData *rsaPublicKeyData;
 }
 
 + (struct __SecKey *);
 + (_Bool);
-+ (id);
++ (id)A;
 + (unsigned char);
 + (struct __SecKey *);
 + (void);
@@ -29,8 +26,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (struct __SecKey *)R(;
 + (struct __SecKey *);
-+ (struct __SecKey *);
 + (id);
 + (void);
 + (void);
@@ -57,22 +54,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (struct __SecKey *);
 - (struct __SecKey *)ource/SSPreauthorizedUDPServer.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSData *rsaPrivateKeyData; // @synthesize rsaPrivateKeyData;
-@property(retain) NSData *rsaPublicKeyData; // @synthesize rsaPublicKeyData;
-@property(readonly) Class superclass;
 
 @end
 

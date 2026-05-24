@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _GCGamepadEventKeyboardEventAdapter, _GCGamepadEventKeyboardEventAdapterConfig;
-@protocol _GCKeyboardEventSourceDescription;
+@class _GCGamepadEventKeyboardEventAdapterConfig;
 
 @interface _GCGamepadEventKeyboardEventAdapterDescription
 {
     _GCGamepadEventKeyboardEventAdapterConfig *_config;
-    id <_GCKeyboardEventSourceDescription> _sourceDescription;
-    _GCGamepadEventKeyboardEventAdapter *_materializedObject;
 }
 
 + (_Bool);
@@ -23,13 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSL1CandidateQueue
 {
     struct __CFBinaryHeap *_sparseQueue;
-    struct __CFBinaryHeap *_denseQueue;
-    struct __CFBinaryHeap *_hybridQueue;
-    struct __CFBinaryHeap *_scoreQueue;
-    NSString *_bundleID;
 }
 
-- (void);
+- (void)1;
 - (void);
 
 @end

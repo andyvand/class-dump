@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXDisplayAssetVideoContentDeliveryStrategy
 {
     _Bool _isStreamingAllowed;
-    _Bool _isNetworkAccessAllowed;
-    _Bool _isAudioAllowed;
-    long long _quality;
-    struct CGSize _targetSize;
-    CDStruct_e83c9415 _segmentTimeRange;
 }
 
 + (id);
@@ -21,28 +14,22 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_e83c9415);
+- (CDStruct_e83c9415)@;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)38`;
 - (void)1Â0@ù
 × ;
-- (id)arySummaryPresenter;
+- (id)librarySummaryPresenter;
 - (id);
 - (long long);
 - (void)(hÿ!bMt/;;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
-@property(nonatomic) _Bool isAudioAllowed; // @synthesize isAudioAllowed=_isAudioAllowed;
-@property(nonatomic) _Bool isNetworkAccessAllowed; // @synthesize isNetworkAccessAllowed=_isNetworkAccessAllowed;
-@property(nonatomic) _Bool isStreamingAllowed; // @synthesize isStreamingAllowed=_isStreamingAllowed;
 @property(nonatomic) long long quality; // @synthesize quality=_quality;
-@property(nonatomic) CDStruct_e83c9415 segmentTimeRange; // @synthesize segmentTimeRange=_segmentTimeRange;
-@property(nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

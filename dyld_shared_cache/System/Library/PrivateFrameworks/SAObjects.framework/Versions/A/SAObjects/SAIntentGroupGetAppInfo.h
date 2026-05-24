@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *appIdentifyingInfo;
-@property(nonatomic) _Bool shouldSearchLocallyOnly;
 
 @end
 

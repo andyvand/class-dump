@@ -6,14 +6,10 @@
 
 #import <AppKit/NSTableUpdateItem.h>
 
-@class NSTableRowView;
-
 __attribute__((visibility("hidden")))
 @interface NSTableUpdateMoveItem : NSTableUpdateItem
 {
     _Bool _selected;
-    _Bool _hidden;
-    NSTableRowView *_viewBeingMoved;
 }
 
 - (void);

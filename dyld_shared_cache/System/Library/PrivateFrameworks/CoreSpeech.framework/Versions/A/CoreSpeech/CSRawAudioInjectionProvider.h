@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSRawAudioInjectionProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
-    NSObject<OS_dispatch_source> *_audioFeedTimer;
-    struct __sFILE *_fp;
 }
 
 + (void);
@@ -28,9 +25,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)\;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)];
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,13 +49,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)insertString:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)tchFallbackAudioSessionReleaseProvider;
+- (void)fetchFallbackAudioSessionReleaseProvider;
 - (void)[CSSiriSpeechRecorder _playStopAlertIfNecessaryForReason:(_Bool)arg1 error:] /* Error: Ran out of types for this method. */;
 - (float):(unsigned long long)arg1 to:] /* Error: Ran out of types for this method. */;
 - (float)r _runVoiceProfileRetrainerWithAsset:(unsigned long long)arg1 withSecureAsset:withLanguageCode:] /* Error: Ran out of types for this method. */;
@@ -66,9 +63,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *audioFeedTimer; // @synthesize audioFeedTimer=_audioFeedTimer;
-@property(nonatomic) struct __sFILE *fp; // @synthesize fp=_fp;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

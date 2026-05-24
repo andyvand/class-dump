@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface ETOptimizerDefinition
 {
     long long _type;
-    NSDictionary *_optimizationParameters;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long)ed to load Stocks provider;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *optimizationParameters; // @synthesize optimizationParameters=_optimizationParameters;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

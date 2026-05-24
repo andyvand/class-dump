@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/NURenderJob.h>
 
-@class CIRenderTask, NSDictionary, NUStorageImageBuffer;
+@class NSDictionary;
 
 @interface NUImageDataJob : NURenderJob
 {
     NSDictionary *_data;
-    NUStorageImageBuffer *_renderBuffer;
-    CIRenderTask *_renderTask;
 }
 
 - (_Bool);
@@ -23,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)selectedSpeed;
 - (void);
 - (id);
 - (id);

@@ -6,7 +6,7 @@
 
 #import <iCalendar/ICSComponent.h>
 
-@class ICSDate, ICSDuration, NSArray, NSString;
+@class NSArray;
 
 @interface ICSAvailable : ICSComponent
 {
@@ -16,14 +16,6 @@
 
 // Remaining properties
 @property(retain) NSArray *attach; // @dynamic attach;
-@property(retain) NSArray *attendee; // @dynamic attendee;
-@property(retain) ICSDate *created; // @dynamic created;
-@property(retain) ICSDate *dtend; // @dynamic dtend;
-@property(retain) ICSDate *dtstamp; // @dynamic dtstamp;
-@property(retain) ICSDate *dtstart; // @dynamic dtstart;
-@property(retain) ICSDuration *duration; // @dynamic duration;
-@property(retain) NSArray *rrule; // @dynamic rrule;
-@property(retain) NSString *uid; // @dynamic uid;
 
 @end
 

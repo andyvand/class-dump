@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTermsAndConditions, NSArray, NSString;
+@class INTermsAndConditions;
 
 @protocol INGetAvailableRestaurantReservationBookingsIntentResponseExport
-- (long long)ason;
+- (INTermsAndConditions *)j;
+- (void)3;
+- (void);
+- (id)(;
+- (long long)hasAddTasksIntentContactEventTriggerUnsupportedReason;
 
 // Remaining properties
-@property(readonly) NSArray *availableBookings;
 @property(readonly) long long code;
-@property(copy) NSString *localizedBookingAdvisementText;
-@property(copy) NSString *localizedRestaurantDescriptionText;
-@property(copy) INTermsAndConditions *termsAndConditions;
 @end
 

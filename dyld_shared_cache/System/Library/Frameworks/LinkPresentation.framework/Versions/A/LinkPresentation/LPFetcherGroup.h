@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPFetcherConfiguration, NSMutableArray, NSString;
+@class LPFetcherConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherGroup
 {
     LPFetcherConfiguration *_configuration;
-    long long _responsePolicy;
-    CDUnknownBlockType _completionHandler;
-    NSMutableArray *_tasks;
-    _Bool _doneAddingFetchers;
-    _Bool _done;
-    _Bool _cancelled;
-    unsigned int _loggingID;
-    NSString *_description;
 }
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id)z;
 - (void);
 - (void);
 - (void);
@@ -31,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)C;
 - (void)°!ôBùHÐ1Â0@ù
 × ;
 

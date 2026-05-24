@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVFlowPluginLoadContextFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    _Bool _hasPluginCached;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int hasPluginCached:1;
-    } _has;
 }
 
 - (void);
@@ -25,7 +18,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)GEODirectionsRequest"8;
 - (void);
 - (void);
 - (unsigned long long);
@@ -33,17 +26,13 @@
 - (_Bool);
 - (id);
 - (id)TITYSchemaIDENTITYAskUserForDisambiguationDecisionReported";
-- (id)hemaINFERENCEWorkoutsAppSelectionTrainingIndependentSignals;
+- (id)INFERENCESchemaINFERENCEWorkoutsAppSelectionTrainingIndependentSignals;
 - (id)(´;
 - (void)²';
 - (unsigned int)¤,;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasHasPluginCached;
-@property(nonatomic) _Bool hasPluginCached; // @synthesize hasPluginCached=_hasPluginCached;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

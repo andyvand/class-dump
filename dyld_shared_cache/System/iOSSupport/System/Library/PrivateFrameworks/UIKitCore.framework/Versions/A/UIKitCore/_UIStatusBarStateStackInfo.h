@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _UIStatusBarStateStackInfo
 {
     int _hostPID;
-    long long _statusBarOrientationWithoutHost;
-    double _statusBarHeightWithoutHost;
 }
 
 - (double);
 - (void);
 - (void);
-- (long long);
+- (long long)aven't sent an auto reply in the last %ld messages.;
 - (int);
 - (void)¡;
 
 // Remaining properties
-@property int hostPID; // @synthesize hostPID=_hostPID;
-@property double statusBarHeightWithoutHost; // @synthesize statusBarHeightWithoutHost=_statusBarHeightWithoutHost;
 @property long long statusBarOrientationWithoutHost; // @synthesize statusBarOrientationWithoutHost=_statusBarOrientationWithoutHost;
 
 @end

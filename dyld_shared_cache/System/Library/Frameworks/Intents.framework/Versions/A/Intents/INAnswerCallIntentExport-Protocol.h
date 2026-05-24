@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol INAnswerCallIntentExport
 
 // Remaining properties
 @property long long audioRoute;
-@property(copy) NSString *callIdentifier;
 @end
 

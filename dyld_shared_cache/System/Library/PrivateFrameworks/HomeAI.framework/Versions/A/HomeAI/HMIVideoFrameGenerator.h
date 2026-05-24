@@ -11,8 +11,8 @@
     HMIVideoAssetReader *_reader;
 }
 
-- (id);
-- (void);
+- (id)q;
+- (void);
 - (id);
 - (void);
 

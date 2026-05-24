@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerRestrictionEntryTimer
 {
     id date;
-    id timer;
 }
 
 @end

@@ -7,44 +7,32 @@
 @interface AWDSiriServerConnectionOpen
 {
     unsigned long long _duration;
-    unsigned long long _timestamp;
-    int _connectionType;
-    struct {
-        unsigned int duration:1;
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-    } _has;
 }
 
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)@;
+- (unsigned long long)B;
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
+- (_Bool)i;
+- (void);
+- (void);
+- (void)ǐ;
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)z;
 
 // Remaining properties
-@property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

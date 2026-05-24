@@ -17,9 +17,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)/	8	M	%	>	(	;
+- (_Bool)microbe;
+- (void)o;
 - (id);
 - (id);
 - (id);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) HMImmutableSettingsProtoStringValueEvent *value; // @synthesize value=_value;
 
 @end
 

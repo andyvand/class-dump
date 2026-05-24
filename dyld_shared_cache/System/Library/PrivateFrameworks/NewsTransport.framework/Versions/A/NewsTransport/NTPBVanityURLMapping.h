@@ -11,22 +11,22 @@
     NSMutableArray *_paths;
 }
 
-+ (Class);
++ (Class)_stateQueue_audioSessionCategoryOptions;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
+- (unsigned long long)=dd}16;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_Daemon_SKDiskBased reclaimPurgableSpace]_block_invoke;
+- (_Bool)u TagRecords and Results record:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
 - (void)"agedPersonalizationScore"b1"agedUserFeedbackScore"b1"autoSubscribeCtr"b1"computedGlobalScoreCoefficient"b1"diversifiedPersonalizationScore"b1"featureCtr"b1"globalScore"b1"paidNonpaidSubscriptionCtr"b1"personalizationScore"b1"subscribedChannelCtr"b1"userFeedbackScore"b1"displayRank"b1"groupType"b1"parentFeedType"b1"adSupportedChannel"b1"isPaidSubscriberToSourceChannel"b1};
-- (void)d:(id)arg1;
-- (id)nalyticsEventIdentifier;
+- (void)setContentViewedId:(id)arg1;
+- (id)hasAppAnalyticsEventIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *paths; // @synthesize paths=_paths;

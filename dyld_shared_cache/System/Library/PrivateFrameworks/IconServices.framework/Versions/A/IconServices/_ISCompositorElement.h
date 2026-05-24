@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol ISCompositorRecipe, ISCompositorResourceProvider;
+@protocol ISCompositorRecipe;
 
 __attribute__((visibility("hidden")))
 @interface _ISCompositorElement
 {
     id <ISCompositorRecipe> _recipe;
-    NSMutableDictionary *_resourceByName;
 }
 
 - (id);
@@ -20,23 +18,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ntially busted ALS? %s!!! (timeout=%f)
+;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) id <ISCompositorRecipe> recipe; // @synthesize recipe=_recipe;
-@property(readonly) NSMutableDictionary *resourceByName; // @synthesize resourceByName=_resourceByName;
-@property(readonly) id <ISCompositorResourceProvider> resourceProvider;
-@property(readonly) Class superclass;
 
 @end
 

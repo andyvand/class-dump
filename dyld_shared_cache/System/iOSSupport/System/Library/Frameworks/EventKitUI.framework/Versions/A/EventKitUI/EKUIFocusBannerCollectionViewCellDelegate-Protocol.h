@@ -5,5 +5,8 @@
 //
 
 @protocol EKUIFocusBannerCollectionViewCellDelegate
+
+@optional
+- (void);
 @end
 

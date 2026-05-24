@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID;
-@property(nonatomic) long long sessionEventType;
 @end
 

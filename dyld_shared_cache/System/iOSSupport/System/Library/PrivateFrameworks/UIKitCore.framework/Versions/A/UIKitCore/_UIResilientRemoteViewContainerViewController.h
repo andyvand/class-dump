@@ -6,18 +6,11 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSExtension, _UIWaitingForRemoteViewContainerViewController;
-@protocol NSCopying;
+@class NSExtension;
 
 @interface _UIResilientRemoteViewContainerViewController : UIViewController
 {
     UIViewController *_remoteViewController;
-    _Bool _delayingDisplayOfRemoteView;
-    NSExtension *_extension;
-    id <NSCopying> _extensionRequestIdentifier;
-    UIViewController *_containedViewController;
-    _UIWaitingForRemoteViewContainerViewController *_waitingController;
-    UIViewController *_errorViewController;
 }
 
 + (id);
@@ -26,14 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)nd"16;
+- (id)username;
+- (void)updateSMSHandshakeState: /* Error: Ran out of types for this method. */;
+- (_Bool)setNumReadReceiptsV1WithQOINoChat: /* Error: Ran out of types for this method. */;
+- (void)setNumMessagesSent: /* Error: Ran out of types for this method. */;
+- (void)yNotification {notification:%s} /* Error: Ran out of types for this method. */;
+- (void)ation change reason is NSUbiquitousKeyValueStoreAccountChange.;
+- (void)hive for handle ID:(_Bool)arg1 %@;
 - (void);
 - (id);
 - (void);
@@ -48,13 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *containedViewController; // @synthesize containedViewController=_containedViewController;
-@property(nonatomic) _Bool delayingDisplayOfRemoteView; // @synthesize delayingDisplayOfRemoteView=_delayingDisplayOfRemoteView;
-@property(retain, nonatomic) UIViewController *errorViewController; // @synthesize errorViewController=_errorViewController;
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(copy, nonatomic) id <NSCopying> extensionRequestIdentifier; // @synthesize extensionRequestIdentifier=_extensionRequestIdentifier;
-@property(readonly, nonatomic) id remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(retain, nonatomic) _UIWaitingForRemoteViewContainerViewController *waitingController; // @synthesize waitingController=_waitingController;
 
 @end
 

@@ -14,7 +14,7 @@
 - (oneway void);
 - (id);
 - (id);
-- (void)ntRecoveryContext;
+- (void)AKAccountRecoveryContext;
 
 @end
 

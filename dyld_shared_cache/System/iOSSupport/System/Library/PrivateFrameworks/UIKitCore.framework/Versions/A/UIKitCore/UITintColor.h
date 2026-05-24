@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned long long);
-- (_Bool)utton:(id)arg1;
-- (id)dSplitTransitionIfNeeded;
+- (_Bool)setButton:(id)arg1;
+- (id)_endSplitTransitionIfNeeded;
 - (id)ctionLayoutSectionSolver>",R,N,V_solution;
 - (_Bool)o be in paused or stopped state when deallocating while Active. Actual state %i;
 - (struct CGColor *);

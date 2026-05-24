@@ -7,30 +7,23 @@
 @interface PKRegion
 {
     int _shape;
-    _Bool _isExclusive;
-    struct vec4 _halfExtent;
-    struct shared_ptr<PKCPathHolder> _path;
-    int _regionOp;
-    int _shape2;
-    struct vec4 _halfExtent2;
-    struct shared_ptr<PKCPathHolder> _path2;
 }
 
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)R		)*�;
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id)`;
+- (id);
+- (void)?;
 - (id);
 - (id);
 - (struct CGPath *);

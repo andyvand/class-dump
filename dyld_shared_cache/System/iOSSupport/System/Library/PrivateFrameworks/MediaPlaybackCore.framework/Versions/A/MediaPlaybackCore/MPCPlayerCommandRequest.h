@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCMediaRemoteController, MPCPlayerPath, NSDictionary, NSString;
+@class NSString;
 
 @interface MPCPlayerCommandRequest
 {
     unsigned int _command;
-    NSString *_label;
-    NSString *_originalLabel;
-    NSDictionary *_options;
-    NSDictionary *_userInitiatedOptions;
-    MPCMediaRemoteController *_controller;
-    MPCPlayerPath *_playerPath;
-    CDUnknownBlockType _statusTransformer;
 }
 
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (id)allowListedDataclassesForAppleAccountClassBasic;
+- (CDUnknownBlockType)need to auto-enable:%@ /* Error: Ran out of types for this method. */;
+- (void)atisfying:(id)arg1 %@;
+- (void).;
+- (void)ԝ;
 - (id);
 - (id);
 - (id);
@@ -37,14 +30,7 @@
 - (void)%{public}@ (%@);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int command; // @synthesize command=_command;
-@property(readonly, nonatomic) MPCMediaRemoteController *controller; // @synthesize controller=_controller;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(readonly, copy, nonatomic) NSString *originalLabel; // @synthesize originalLabel=_originalLabel;
-@property(readonly, nonatomic) MPCPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(copy, nonatomic) CDUnknownBlockType statusTransformer; // @synthesize statusTransformer=_statusTransformer;
-@property(copy, nonatomic) NSDictionary *userInitiatedOptions; // @synthesize userInitiatedOptions=_userInitiatedOptions;
 
 @end
 

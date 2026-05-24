@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIEnvironment, UIButton;
+@class AVTUIEnvironment;
 
 @interface AVTCarouselPlusButtonView
 {
     _Bool _highlighted;
-    _Bool _allowHighlight;
-    AVTUIEnvironment *_environment;
-    UIButton *_button;
-    struct CGSize _maxItemSize;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool)× ;
-- (id)tScrollIndicatorInsets: /* Error: Ran out of types for this method. */;
+- (id)setScrollIndicatorInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowHighlight; // @synthesize allowHighlight=_allowHighlight;
-@property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;
 @property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(nonatomic) struct CGSize maxItemSize; // @synthesize maxItemSize=_maxItemSize;
 
 @end
 

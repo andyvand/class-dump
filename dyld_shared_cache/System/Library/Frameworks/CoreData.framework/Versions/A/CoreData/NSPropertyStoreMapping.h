@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id)cordAsset;
+- (id)encodedRecordAsset;
 
 @end
 

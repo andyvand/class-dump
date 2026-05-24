@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSView, SOEffectPickerButtonController, SOEffectPickerUnsentMessage, SOVerticalPillView;
-@protocol SOEffectPickerViewControllerDelegate;
+@class NSMutableArray, SOEffectPickerUnsentMessage;
 
 @interface SOEffectPickerViewController
 {
     NSMutableArray *_descriptors;
-    SOVerticalPillView *_verticalPill;
-    NSView *_messageBubble;
-    id <SOEffectPickerViewControllerDelegate> _delegate;
-    SOEffectPickerButtonController *_selectedDescriptor;
-    SOEffectPickerUnsentMessage *_unsentMessage;
 }
 
 - (void);
@@ -32,22 +26,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)h;
+- (id)@;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SOEffectPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SOEffectPickerButtonController *selectedDescriptor; // @synthesize selectedDescriptor=_selectedDescriptor;
-@property(readonly) Class superclass;
 @property(retain) SOEffectPickerUnsentMessage *unsentMessage; // @synthesize unsentMessage=_unsentMessage;
 
 @end

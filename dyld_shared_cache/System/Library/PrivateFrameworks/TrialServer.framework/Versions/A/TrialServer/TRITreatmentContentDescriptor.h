@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIAppContainer;
+@class NSString;
 
 @interface TRITreatmentContentDescriptor
 {
     NSString *_treatmentId;
-    TRIAppContainer *_container;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id)deserializedMetadataFromCameraClientMetadata:(id)arg1 error:(id)arg2;
+- (id)setProcessedAdditionalSampleBytes:(id)arg1;
+- (id)removeTrack:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void)!°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) TRIAppContainer *container; // @synthesize container=_container;
 @property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end

@@ -5,5 +5,10 @@
 //
 
 @protocol NSImmediateActionAnimationController
+
+@optional
+- (void);
+- (void);
+- (void)age list item fetch timeout.;
 @end
 

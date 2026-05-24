@@ -7,6 +7,7 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsAppConnectionImprover.m;
 - (void)/Library/Sandbox/rootless.conf;
 - (void);
 @end

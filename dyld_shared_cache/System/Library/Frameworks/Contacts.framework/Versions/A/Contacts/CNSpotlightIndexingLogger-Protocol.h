@@ -5,5 +5,10 @@
 //
 
 @protocol CNSpotlightIndexingLogger
+- (void);
+- (void);
+- (void)4;
+- (void)43;
+- (void)-;
 @end
 

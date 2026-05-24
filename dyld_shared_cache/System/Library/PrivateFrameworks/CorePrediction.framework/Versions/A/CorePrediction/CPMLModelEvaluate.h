@@ -4,54 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPMLSchema, CPMLStorageManager, NSMutableArray, NSNumber, NSString;
-@protocol CPMLAlgorithmProtocol;
-
 @interface CPMLModelEvaluate
 {
     _Bool enableCacheString;
-    _Bool keepInMemory;
-    _Bool shouldFail;
-    struct sqlite3 *db;
-    int countRows;
-    NSMutableArray *modelSchema;
-    NSMutableArray *vectorPositions;
-    NSNumber *maxRemoveTrainingRow;
-    NSString *serializeFunction;
-    NSString *machineLearningAlgo;
-    struct CPMLAlgorithm *cpMLAlgo;
-    struct CPMLSerialization *trainerCPDeSerializer;
-    void *cpRemapper;
-    CPMLSchema *cpmlSchema;
-    void *trainerCPStatistics;
-    struct CPMLDelegate *_cpmlDelegate;
-    struct CPMLTunableData *cpTuneableData;
-    int mapFunction;
-    struct vector<int, std::allocator<int>> boundedRemappedValues;
-    struct CPMLDelegateEngine *_delegateEngine;
-    CPMLStorageManager *_storageManager;
-    id <CPMLAlgorithmProtocol> _delegateAlgorithm;
 }
 
-- (_Bool);
+- (_Bool)Q32@0:(id)arg1 8@16q24;
+- (void)y";
+- (void)rCoordinator>";
+- (void *)CGPoint=dd}24;
+- (int)tionView";
+- (id)gnizer";
+- (id)reRecognizer"24;
+- (id)stureRecognizer"16@"NSGestureRecognizer"24;
+- (id)nizer"16;
+- (id)4;
+- (id)ecognizer"16@"NSEvent"24;
+- (void)CGSize=dd}}24q56;
+- (id)entBrowserViewControllerDelegate>";
+- (void)ype"24;
+- (void)RL"24^@32;
+- (void)"NSURL"24;
+- (id)iewControllerDelegate>"16;
 - (void);
-- (void);
-- (void *);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)_!;
 - (void);
 
 @end

@@ -6,28 +6,22 @@
 
 #import <ChatKit/CKStampButtonChatItem.h>
 
-@class IMHandle, NSString;
-
 @interface CKParticipantChangeChatItem : CKStampButtonChatItem
 {
 }
 
 - (id);
-- (_Bool);
+- (_Bool)@ %@;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (long long)ze;
-- (id)ubvariant;
+- (long long)messageAcknowledgmentButtonSize;
+- (id)subvariant;
 
 // Remaining properties
 @property(readonly, nonatomic) long long changeType;
-@property(readonly, nonatomic) NSString *errorText;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly, nonatomic) IMHandle *handle;
-@property(readonly, nonatomic) _Bool unattributed;
 
 @end
 

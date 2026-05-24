@@ -7,13 +7,11 @@
 @class NSData, NSString;
 
 @protocol NFCISO7816Tag
+- (void);
+- (_Bool)3;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *applicationData;
-@property(readonly, copy, nonatomic) NSData *historicalBytes;
 @property(readonly, copy, nonatomic) NSData *identifier;
 @property(readonly, retain, nonatomic) NSString *initialSelectedAID;
-@property(readonly, nonatomic) _Bool proprietaryApplicationDataCoding;
-@property(readonly, nonatomic) _Bool supportsPACE;
 @end
 

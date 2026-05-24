@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface OADLinearShade : OADShade
 {
     float mAngle;
-    _Bool mIsAngleOverridden;
-    _Bool mScaled;
-    _Bool mIsScaledOverridden;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (void);
 - (void);
@@ -26,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (float);
-- (void);
+- (void);
 - (id);
 - (id);
 

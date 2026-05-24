@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PXSectionedDataSourceManager, UIView;
 @protocol CKMessagesCarouselViewDelegate;
 
 @interface CKMessagesCarouselView
 {
     Class viewClass;
-    UIView *sizingView;
-    NSMutableDictionary *sizeCache;
-    id <CKMessagesCarouselViewDelegate> _carouselDelegate;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (Class);
-- (Class);
-- (_Bool);
++ (id)t;
+- (id)populatedRows;
+- (id)pointingHandCursor;
+- (id)playerState;
+- (Class)performHighlightUpdatesForRange:(unsigned int)arg1 inTextStorage:(id)arg2 updates: /* Error: Ran out of types for this method. */;
+- (Class)performHighlightUpdatesForRange:(long long)arg1 inTextStorage:(id)arg2 updates: /* Error: Ran out of types for this method. */;
+- (_Bool)failedAttempts;
+- (void)attributesByHighlightingAttributes:(Class)arg1 withHighlightColor: /* Error: Ran out of types for this method. */;
+- (void)Type;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)converting HTML to attributed string:%@ /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (id);
-- (void);
+- (void)`;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMessagesCarouselViewDelegate> carouselDelegate; // @synthesize carouselDelegate=_carouselDelegate;
-@property(retain, nonatomic) PXSectionedDataSourceManager *dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

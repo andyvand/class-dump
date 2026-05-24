@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class NSString;
-
 @interface DOMHTMLUListElement : DOMHTMLElement
 {
 }
@@ -19,7 +17,6 @@
 
 // Remaining properties
 @property _Bool compact;
-@property(copy) NSString *type;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol FamilyCircleUI.AgeRangeSharingAlertProtocol
+- (void);
+- (void);
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PEGASUSSchemaPEGASUSAlternateQuerySuggestionTier1 : SISchemaInstrumentationMessage
 {
@@ -23,19 +23,18 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)F0;
+- (_Bool)8;
+- (_Bool)n sender:(id)arg1 %@;
 - (id);
 - (id)!¸@ùñÝ1Â0@ù
 × ;
-- (id);
+- (id)_failureReasonIndex;
 - (id)",&,N,V_failed;
 - (void)valueDisambiguation.items.value.primitive.app.bundleId;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternateQuerySuggestionCandidateTier1s; // @synthesize alternateQuerySuggestionCandidateTier1s=_alternateQuerySuggestionCandidateTier1s;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

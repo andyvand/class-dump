@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAudioStreamCodecConfiguration, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface HMDSupportedSiriAudioConfigurations
 {
     long long _siriInputType;
-    NSArray *_supportedConfigurations;
-    HAPAudioStreamCodecConfiguration *_selectedConfiguration;
 }
 
 - (long long);
@@ -20,12 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)rted error response;
-- (void)er_audioDuckingEnabled_value;
+- (void)root_general_accessibility_vision_voiceOver_audioDuckingEnabled_value;
 
 // Remaining properties
-@property(retain, nonatomic) HAPAudioStreamCodecConfiguration *selectedConfiguration; // @synthesize selectedConfiguration=_selectedConfiguration;
 @property(nonatomic) long long siriInputType; // @synthesize siriInputType=_siriInputType;
-@property(retain, nonatomic) NSArray *supportedConfigurations; // @synthesize supportedConfigurations=_supportedConfigurations;
 
 @end
 

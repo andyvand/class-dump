@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface CRKFetchLogEventsRequest
 {
     NSDate *_cursorDate;
-    NSString *_sessionToken;
 }
 
 + (Class);
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *cursorDate; // @synthesize cursorDate=_cursorDate;
-@property(copy, nonatomic) NSString *sessionToken; // @synthesize sessionToken=_sessionToken;
 
 @end
 

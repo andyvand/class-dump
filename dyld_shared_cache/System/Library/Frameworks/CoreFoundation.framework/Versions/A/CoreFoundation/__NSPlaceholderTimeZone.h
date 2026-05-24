@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (double);
 
 @end

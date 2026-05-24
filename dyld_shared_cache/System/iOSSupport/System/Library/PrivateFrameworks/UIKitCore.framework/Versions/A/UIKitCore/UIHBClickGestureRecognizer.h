@@ -6,23 +6,20 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSArray, NSString, UIPressesEvent;
+@class UIPressesEvent;
 
 @interface UIHBClickGestureRecognizer : UIGestureRecognizer
 {
     UIPressesEvent *_registeredEventForTerminalEvents;
-    unsigned long long _lastSeenClickCount;
-    _Bool _recognizesOnPressPhaseBegan;
-    unsigned long long _clickCount;
 }
 
-- (_Bool);
+- (_Bool)tion ID %@ operationGroupName %@;
 - (void);
 - (void);
+- (void);7;
 - (void);
 - (void);
-- (void);
-- (id)eviousBackEntry;
+- (id)previousBackEntry;
 - (unsigned long long)emInfo.m;
 - (void)q;
 - (void);
@@ -33,16 +30,7 @@
 - (void)phÿ-6;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedPressTypes;
 @property(nonatomic) unsigned long long clickCount; // @synthesize clickCount=_clickCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool recognizesOnPressPhaseBegan; // @synthesize recognizesOnPressPhaseBegan=_recognizesOnPressPhaseBegan;
-@property(readonly) Class superclass;
 
 @end
 

@@ -17,9 +17,9 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id)StartingAtView:(struct _NSZone *)arg1;
+- (id);
+- (id);
+- (id)_findLastViewInKeyViewLoopStartingAtView:(struct _NSZone *)arg1;
 - (void)`C;
 
 // Remaining properties

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLGeocoder, CLLocationManager, CNContactStore, MKLocalSearch, MKLocalSearchCompleter, NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue, PKAddressSearchModelDelegate;
+@class CLLocationManager, NSArray;
 
 @interface PKAddressSearchModel
 {
     NSArray *_contactsSearchResults;
-    NSArray *_completionSearchResults;
-    NSArray *_recentsSearchResults;
-    id <PKAddressSearchModelDelegate> _delegate;
-    CLLocationManager *_locationManager;
-    MKLocalSearchCompleter *_completer;
-    CLGeocoder *_geocoder;
-    MKLocalSearch *_localSearch;
-    CNContactStore *_contactStore;
-    NSObject<OS_dispatch_queue> *_resultsQueue;
 }
 
 - (void);
@@ -26,46 +16,30 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Ӱ;
+- (void);
 - (void);
+- (void)(>;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)A9i;
 - (id);
-- (void)es:(id)arg1;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)_hasManuallyAddedSecureElementPasses:(id)arg1;
 - (void)tDeviceProvisioningData"8@"NSError"16;
 - (void);
 - (void)3 ;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MKLocalSearchCompleter *completer; // @synthesize completer=_completer;
-@property(readonly, nonatomic) NSArray *completionSearchResults;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSArray *contactsSearchResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKAddressSearchModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CLGeocoder *geocoder; // @synthesize geocoder=_geocoder;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKLocalSearch *localSearch; // @synthesize localSearch=_localSearch;
 @property(retain, nonatomic) CLLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) NSArray *recentsSearchResults; // @synthesize recentsSearchResults=_recentsSearchResults;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultsQueue; // @synthesize resultsQueue=_resultsQueue;
-@property(readonly) Class superclass;
 
 @end
 

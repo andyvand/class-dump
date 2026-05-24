@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UISplitViewController;
+@class UISplitViewController;
 
 @interface _UISplitViewControllerStyle
 {
@@ -20,13 +20,13 @@
 - (double);
 - (struct NSDirectionalEdgeInsets);
 - (unsigned long long);
+- (double)SNumber"24@"NSString"32@"NSString"40@"NSString"48;
 - (double);
-- (double);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)startFinalizingTransfer:(long long)arg1 updateByteCounts: /* Error: Ran out of types for this method. */;
+- (id)setPrivateWorkQueue:(long long)arg1;
+- (_Bool)sendReadReceiptForMessage:toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool)sendNotifyRecipientCommandForIDs:style:onServices:message: /* Error: Ran out of types for this method. */;
+- (_Bool)sendLazuliSpamReport:isBot:spamType:account: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id)gments"b1"translucentBackground"b1"appearanceNeedsUpdate"b1"selectionIndicatorDragged"b1"useInnerSegmentSpacing"b1"adjustsForContentSizeCategory"b1"focusUpdatedBeforeSelection"b1"useDynamicShadow"b1"animatingOutDynamicShadow"b1"animatingSeleciton"b1"animatingHoverOut"b1"styleProviderSupportsExtraTraitCollectionChanges"b1"styleProviderSupportsFocusWithoutSelection"b1"styleProviderSupportsHidingSelectionOnFocusUpdate"b1"styleProviderSupportsSegmentHighlightAnimation"b1"appCustomizedSelectedVisualEffect"b1"overridesCustomInfoViewForSegments"b1"styleProviderSupportsFeedbackGeneration"b1"styleProviderSupportsLegacyActiveSegmentControl"b1"hasBackdropView"b1"hasMaterial"b1"forceUseGlass"b1"backdropIsVisualEffectView"b1"shouldPlayFeedback"b1"styleProviderSupportsGlassProvider"b1"styleProviderWantsLensView"b1"styleProviderWantsC2Animation"b1"useSpringBoardVibrancy"b1"styleProviderWantsFreeSlidingSelection"b1"shouldLiftLensView"b1};
@@ -36,14 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsColumnResize;
-@property(readonly, nonatomic) _Bool allowsSceneResize;
-@property(readonly, nonatomic) _Bool alwaysHideSidebarToggleButton;
-@property(readonly, nonatomic) double maximumRubberbandingDistance;
-@property(readonly, nonatomic) UIColor *primaryBackgroundColor;
-@property(readonly, nonatomic) double separatorWidth;
 @property(nonatomic) _Bool showsSeparators; // @synthesize showsSeparators=_showsSeparators;
-@property(readonly, nonatomic) __weak UISplitViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
 
 @end
 

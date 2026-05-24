@@ -9,7 +9,7 @@
     id sceneDidDisconnectObserverBlocks;
 }
 
-- (void);
+- (void)failed;
 
 @end
 

@@ -8,15 +8,15 @@
 @protocol GEOTransitIconDataSource, GEOTransitShieldDataSource, GEOTransitTextDataSource;
 
 @protocol GEOTransitArtworkDataSource
+- (id <GEOTransitTextDataSource>)s] Persistence returned %ld moves / copies.;
+- (id <GEOTransitShieldDataSource>)lbox}s] Completed UIDBATCHES. %ld message batch(es):%{public}s (window of interest:%{public}s) /* Error: Ran out of types for this method. */;
+- (id <GEOTransitShieldDataSource>)ibrary test_waitForMessageNotificationsToFinish];
+- (id <GEOTransitIconDataSource>)test_waitForSpotlightOperationsToFinish];
+- (_Bool)ointerArray"8;
+- (int);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityText;
 @property(readonly, nonatomic) int artworkSourceType;
-@property(readonly, nonatomic) int artworkUseType;
-@property(readonly, nonatomic) _Bool hasRoutingIncidentBadge;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> iconDataSource;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> iconFallbackShieldDataSource;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> shieldDataSource;
-@property(readonly, nonatomic) id <GEOTransitTextDataSource> textDataSource;
 @end
 

@@ -18,9 +18,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (id);
-- (void);
+- (void)B9h;
 - (id);
 - (id)ce we appear to have a DEP config set;
 

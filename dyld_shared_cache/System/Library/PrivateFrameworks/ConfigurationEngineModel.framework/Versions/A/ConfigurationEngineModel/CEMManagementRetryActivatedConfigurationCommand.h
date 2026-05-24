@@ -11,35 +11,26 @@
 @interface CEMManagementRetryActivatedConfigurationCommand : CEMCommandBase
 {
     NSString *_payloadActivationIdentifier;
-    NSString *_payloadConfigurationIdentifier;
 }
 
 + (id);
 + (id);
++ (id)__const;
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)~;
+- (id)!`!j*;
 - (id);
-- (id);
-- (id);
+- (id)h8;
 - (_Bool);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)VOT bundle from path:(id)arg1 %@;
 - (id);
-- (void);
+- (void)ibressl/libressl-2.2/ssl/bio_ssl.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadActivationIdentifier; // @synthesize payloadActivationIdentifier=_payloadActivationIdentifier;
-@property(copy, nonatomic) NSString *payloadConfigurationIdentifier; // @synthesize payloadConfigurationIdentifier=_payloadConfigurationIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

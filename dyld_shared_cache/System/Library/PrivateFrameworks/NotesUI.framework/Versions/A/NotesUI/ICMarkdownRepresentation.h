@@ -9,14 +9,12 @@
 @interface ICMarkdownRepresentation
 {
     _Bool _keepOriginalAttributes;
-    _Bool _filterConflictingAttributes;
-    NSAttributedString *_markdown;
 }
 
 + (id);
-+ (id);
++ (id)A;
 + (_Bool);
-+ (id);
++ (id)?;
 + (id);
 - (void);
 - (void);
@@ -27,11 +25,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)oDoParagraphs;
+- (void)_trackedToDoParagraphs;
 
 // Remaining properties
-@property(nonatomic) _Bool filterConflictingAttributes; // @synthesize filterConflictingAttributes=_filterConflictingAttributes;
-@property(nonatomic) _Bool keepOriginalAttributes; // @synthesize keepOriginalAttributes=_keepOriginalAttributes;
 @property(retain, nonatomic) NSAttributedString *markdown; // @synthesize markdown=_markdown;
 
 @end

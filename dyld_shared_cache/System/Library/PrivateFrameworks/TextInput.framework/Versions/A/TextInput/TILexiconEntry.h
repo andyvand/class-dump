@@ -9,10 +9,6 @@
 @interface TILexiconEntry
 {
     unsigned int _slotID;
-    NSString *_userInput;
-    NSString *_documentText;
-    struct CGImage *_focusedSecureLabel;
-    struct CGImage *_unfocusedSecureLabel;
 }
 
 + (id);
@@ -24,11 +20,11 @@
 - (struct CGImage *);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)¤
 ¾
@@ -36,10 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *documentText; // @synthesize documentText=_documentText;
-@property(readonly, nonatomic) struct CGImage *focusedSecureLabel; // @synthesize focusedSecureLabel=_focusedSecureLabel;
-@property(readonly, nonatomic) unsigned int slotID; // @synthesize slotID=_slotID;
-@property(readonly, nonatomic) struct CGImage *unfocusedSecureLabel; // @synthesize unfocusedSecureLabel=_unfocusedSecureLabel;
-@property(readonly, nonatomic) NSString *userInput; // @synthesize userInput=_userInput;
 
 @end
 

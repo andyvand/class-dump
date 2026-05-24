@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController;
-@protocol ASCredentialRequestPaneViewControllerDelegate;
+@class NSViewController;
 
 @interface ASCredentialRequestContainerViewController
 {
     NSViewController *_rootViewController;
-    id <ASCredentialRequestPaneViewControllerDelegate> _paneDelegate;
 }
 
 - (void);
@@ -25,15 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <ASCredentialRequestPaneViewControllerDelegate> paneDelegate; // @synthesize paneDelegate=_paneDelegate;
 @property(readonly, nonatomic) NSViewController *rootViewController; // @synthesize rootViewController=_rootViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,55 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigAudioCaptureConnectionConfiguration, FigCaptureSourceConfiguration, FigDepthDataCaptureConnectionConfiguration, FigMetadataItemCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration, NSArray, NSDictionary, NSString;
+@class FigCaptureSourceConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkPipelineConfiguration
 {
     FigCaptureSourceConfiguration *_primaryCameraConfiguration;
-    FigVideoCaptureConnectionConfiguration *_primaryVideoConnectionConfiguration;
-    NSArray *_videoConnectionConfigurations;
-    FigAudioCaptureConnectionConfiguration *_audioConnectionConfiguration;
-    FigMetadataItemCaptureConnectionConfiguration *_cameraDebugInfoMetadataConnectionConfiguration;
-    NSArray *_detectedObjectMetadataConnectionConfigurations;
-    FigDepthDataCaptureConnectionConfiguration *_depthDataConnectionConfiguration;
-    CDStruct_79c71658 _depthOutputDimensions;
-    FigVideoCaptureConnectionConfiguration *_stillImageConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_sceneClassifierConnectionConfiguration;
-    struct FigCaptureVideoTransform _videoSourceCaptureTransform;
-    NSDictionary *_visConfigurationsByConnectionID;
-    _Bool _boxedMetadataPostVISEnabled;
-    CDStruct_08002bce _smartCameraPipelineVersion;
-    _Bool _offlineVISEnabled;
-    NSArray *_portTypesWithGeometricDistortionCorrectionInVISEnabled;
-    _Bool _vitalityScoringEnabled;
-    _Bool _captureDeviceHasOverCaptureEnabled;
-    _Bool _overCaptureEnabled;
-    _Bool _frameReconstructionEnabled;
-    _Bool _semanticStyleRenderingEnabled;
-    _Bool _P3ToBT2020ConversionEnabled;
-    int _maxLossyCompressionLevel;
-    _Bool _videoSTFEnabled;
-    _Bool _videoGreenGhostMitigationEnabled;
-    _Bool _ispFastSwitchEnabled;
-    _Bool _trueVideoCaptureEnabled;
-    _Bool _cinematicAudioEnabled;
-    NSString *_clientApplicationID;
-    long long _maximumAllowedInFlightCompressedBytes;
-    _Bool _lightSourceMaskAndKeypointDescriptorDataEnabled;
-    struct BWLensSmudgeDetectionConfiguration _lensSmudgeDetectionConfiguration;
-    _Bool _depthDataDeliveryEnabled;
-    _Bool _lowResImageUsedByVideoEncoderEnabled;
-    _Bool _smartStyleRenderingEnabled;
-    _Bool _smartStyleReversibilityEnabled;
-    _Bool _videoGreenGhostOfflineMetadataEnabled;
-    _Bool _videoGreenGhostOfflineLightSourceMaskEnabled;
-    _Bool _lowLatencyStabilizationEnabled;
-    _Bool _proResRawCaptureEnabled;
-    int _smartStyleRenderingMethod;
 }
 
-- (void);
+- (void)B,VmWidowControlOverridden;
 
 @end
 

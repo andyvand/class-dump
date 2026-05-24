@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSDate;
+@class CLPlacemark;
 
 @interface MapsSuggestionsTrip
 {
     CLPlacemark *_placemark;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (id);
@@ -21,9 +19,7 @@
 - (void)"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

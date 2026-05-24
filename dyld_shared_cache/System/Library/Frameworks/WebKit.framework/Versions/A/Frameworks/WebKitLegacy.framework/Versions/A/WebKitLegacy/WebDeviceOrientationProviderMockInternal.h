@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)!Cùq'1Â0@ù
 × ;
-- (id)entWithNodesAsParagraphs: /* Error: Ran out of types for this method. */;
+- (id)_documentFragmentWithNodesAsParagraphs: /* Error: Ran out of types for this method. */;
 
 @end
 

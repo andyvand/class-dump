@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, INIntentResponse, NSSet;
-
 @interface INCExtensionTransactionState
 {
     long long _type;
-    INIntent *_intent;
-    INIntentResponse *_intentResponse;
-    NSSet *_userActivities;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly, nonatomic) INIntentResponse *intentResponse; // @synthesize intentResponse=_intentResponse;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSSet *userActivities; // @synthesize userActivities=_userActivities;
 
 @end
 

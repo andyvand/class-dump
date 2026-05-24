@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (void);
-- (id);
++ (void)";
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;

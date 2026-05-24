@@ -5,15 +5,12 @@
 //
 
 @protocol _UIFloatingTabBarContentStateProviding
-- (_Bool)epthLevel;
+- (_Bool)VP_SQID_NUM_NATIVE_ALU_INSTRUCTIONS;
+- (_Bool)fullHeightUntransformedFrameForDepthLevel;
 - (_Bool)¿7G;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCustomizableItem) _Bool customizableItem;
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(readonly, nonatomic, getter=isEditing) _Bool editing;
 @property(readonly, nonatomic) _Bool hasSelectionHighlight;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
 @end
 

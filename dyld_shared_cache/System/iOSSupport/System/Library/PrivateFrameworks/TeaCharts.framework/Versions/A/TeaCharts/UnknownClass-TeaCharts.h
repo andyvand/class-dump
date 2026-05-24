@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (TeaCharts)
-+ (id);
++ (id)|;
 @end
 

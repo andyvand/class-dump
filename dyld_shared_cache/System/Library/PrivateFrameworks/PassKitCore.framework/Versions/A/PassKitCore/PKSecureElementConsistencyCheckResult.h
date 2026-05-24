@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PKSecureElementConsistencyCheckResult
 {
     NSArray *_requestedActions;
-    long long _cleanupActions;
-    NSDictionary *_summary;
-    NSArray *_registerRegions;
 }
 
 - (id);
 - (id);
 - (long long);
+- (id)I;
 - (id);
-- (id);
-- (id);
-- (void)L_PAYMENT_CATEGORY_NEW_PURCHASES_MESSAGE_NO_DATE;
+- (id)"!;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_NEW_PURCHASES_MESSAGE_NO_DATE;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cleanupActions; // @synthesize cleanupActions=_cleanupActions;
-@property(readonly, nonatomic) NSArray *registerRegions; // @synthesize registerRegions=_registerRegions;
 @property(readonly, nonatomic) NSArray *requestedActions; // @synthesize requestedActions=_requestedActions;
-@property(readonly, nonatomic) NSDictionary *summary; // @synthesize summary=_summary;
 
 @end
 

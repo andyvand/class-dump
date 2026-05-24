@@ -6,25 +6,23 @@
 
 #import <AuthKit/AKDictionaryBackedModel.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AKSimpleProfileImageResponseGroup : AKDictionaryBackedModel
 {
     NSString *_groupTitle;
-    NSArray *_images;
 }
 
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (void)4@DC;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupTitle; // @synthesize groupTitle=_groupTitle;
-@property(retain, nonatomic) NSArray *images; // @synthesize images=_images;
 
 @end
 

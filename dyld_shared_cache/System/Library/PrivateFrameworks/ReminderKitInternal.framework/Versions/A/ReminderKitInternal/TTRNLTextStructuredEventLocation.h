@@ -7,8 +7,6 @@
 @interface TTRNLTextStructuredEventLocation
 {
     long long _locationType;
-    long long _proximity;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -17,13 +15,11 @@
 - (struct _NSRange);
 - (void);
 - (long long);
-- (void);
+- (void)@76@0:(long long)arg1 8B16@20^@28^@36@44@52@60@68;
 - (long long)	
 ;
 
 // Remaining properties
-@property(nonatomic) long long locationType; // @synthesize locationType=_locationType;
-@property(nonatomic) long long proximity; // @synthesize proximity=_proximity;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end

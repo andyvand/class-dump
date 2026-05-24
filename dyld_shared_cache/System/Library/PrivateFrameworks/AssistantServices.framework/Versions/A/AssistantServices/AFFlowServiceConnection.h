@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface AFFlowServiceConnection
 {
     NSXPCConnection *_connection;
-    unsigned long long _pendingTransactionCount;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)ring",C,N,V_aceHost;

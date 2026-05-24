@@ -6,15 +6,11 @@
 
 #import <Safari/SafariWebBookmark.h>
 
-@class NSArray, NSCountedSet, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface SafariWebBookmarkList : SafariWebBookmark
 {
     NSMutableArray *_threadUnsafeChildren;
-    NSCountedSet *_threadUnsafeChildWrappers;
-    _Bool _threadUnsafeAutomaticallyOpensInTabs;
-    int _wbFolderId;
-    NSString *_tabGroupUUID;
 }
 
 + (id);
@@ -28,7 +24,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -49,7 +45,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -72,14 +68,7 @@
 - (void)¼;
 
 // Remaining properties
-@property(readonly) _Bool automaticallyOpensInTabs; // @synthesize automaticallyOpensInTabs=_threadUnsafeAutomaticallyOpensInTabs;
-@property(readonly, nonatomic) _Bool canAcceptLeafChildren;
-@property(readonly, copy, nonatomic) NSArray *folderAndLeafChildren;
-@property(readonly, copy, nonatomic) NSArray *leafChildren;
 @property(readonly, nonatomic) unsigned long long numberOfDescendants;
-@property(readonly, nonatomic, getter=isReadingListFolder) _Bool readingListFolder;
-@property(copy, nonatomic) NSString *tabGroupUUID; // @synthesize tabGroupUUID=_tabGroupUUID;
-@property(nonatomic) int wbFolderId; // @synthesize wbFolderId=_wbFolderId;
 
 @end
 

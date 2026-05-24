@@ -7,7 +7,6 @@
 @interface ChronoKit.RemoteActivityArchiveBudgetStore
 {
     id backingStore;
-    id lockingBudgets;
 }
 
 @end

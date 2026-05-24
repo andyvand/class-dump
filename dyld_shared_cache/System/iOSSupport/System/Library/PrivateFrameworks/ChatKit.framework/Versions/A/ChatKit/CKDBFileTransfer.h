@@ -4,48 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessage, NSDictionary, NSError, NSString, NSURL;
+@class NSString;
 
 @interface CKDBFileTransfer
 {
     _Bool _isSticker;
-    _Bool _isIrisAsset;
-    _Bool _hideAttachment;
-    _Bool _isDirectory;
-    _Bool _isFromMomentShare;
-    _Bool _isScreenshot;
-    NSString *_guid;
-    NSURL *_fileURL;
-    NSURL *_thumbnailURL;
-    NSDictionary *_transcoderUserInfo;
-    NSDictionary *_stickerUserInfo;
-    NSDictionary *_attributionInfo;
-    NSString *_filename;
-    NSString *_originalFilename;
-    NSString *_irisVideoPath;
-    NSString *_adaptiveImageGlyphContentIdentifier;
-    NSString *_adaptiveImageGlyphContentDescription;
-    long long _commSafetySensitive;
-    long long _updateReason;
-    NSURL *_shareURL;
-    NSString *_audioTranscriptionText;
-    unsigned long long _stickerEffectType;
-    NSURL *_animatedImageCacheURL;
-    long long _transferState;
-    long long _previewGenerationState;
 }
 
+- (void)t;
 - (void);
-- (void);
+- (_Bool)n;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)i;
+- (id)e;
+- (id)T;
+- (_Bool)er record from error saving share for %@ %@ %@;
+- (void)%@;
+- (id)<;
 - (_Bool);
 - (id);
 - (id);
@@ -71,7 +47,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)U";
 - (long long);
 - (id);
 - (id);
@@ -80,7 +56,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)H.;
 - (id)q4¯ïÿ;
 - (id)d;
 - (void);
@@ -88,52 +64,7 @@
 - (id)8*5¬/;
 
 // Remaining properties
-@property(retain, nonatomic) IMMessage *IMMessage; // @dynamic IMMessage;
-@property(readonly, copy, nonatomic) NSString *adaptiveImageGlyphContentDescription; // @synthesize adaptiveImageGlyphContentDescription=_adaptiveImageGlyphContentDescription;
-@property(readonly, copy, nonatomic) NSString *adaptiveImageGlyphContentIdentifier; // @synthesize adaptiveImageGlyphContentIdentifier=_adaptiveImageGlyphContentIdentifier;
-@property(readonly, copy, nonatomic) NSURL *animatedImageCacheURL; // @synthesize animatedImageCacheURL=_animatedImageCacheURL;
-@property(copy, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(readonly, nonatomic) NSString *audioTranscriptionText; // @synthesize audioTranscriptionText=_audioTranscriptionText;
-@property(readonly, nonatomic) long long commSafetySensitive; // @synthesize commSafetySensitive=_commSafetySensitive;
-@property(readonly, nonatomic) unsigned long long currentBytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDownloadable) _Bool downloadable;
-@property(readonly, nonatomic, getter=isDownloading) _Bool downloading;
-@property(readonly, copy, nonatomic) NSError *error;
-@property(readonly, nonatomic, getter=isFileDataReady) _Bool fileDataReady;
-@property(readonly, nonatomic) _Bool fileIsAnimated;
-@property(readonly, copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic, getter=isFileURLFinalized) _Bool fileURLFinalized;
 @property(copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly, copy, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hideAttachment; // @synthesize hideAttachment=_hideAttachment;
-@property(readonly, copy, nonatomic) NSString *irisVideoPath; // @synthesize irisVideoPath=_irisVideoPath;
-@property(readonly, nonatomic) _Bool isAdaptiveImageGlyph;
-@property(readonly, nonatomic) _Bool isDirectory; // @synthesize isDirectory=_isDirectory;
-@property(readonly, nonatomic) _Bool isFromMomentShare; // @synthesize isFromMomentShare=_isFromMomentShare;
-@property(readonly, nonatomic) _Bool isIrisAsset; // @synthesize isIrisAsset=_isIrisAsset;
-@property(readonly, nonatomic) _Bool isScreenshot; // @synthesize isScreenshot=_isScreenshot;
-@property(readonly, nonatomic) _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(readonly, copy, nonatomic) NSString *originalFilename; // @synthesize originalFilename=_originalFilename;
-@property(nonatomic) long long previewGenerationState; // @synthesize previewGenerationState=_previewGenerationState;
-@property(readonly, nonatomic, getter=isRejected) _Bool rejected;
-@property(readonly, nonatomic, getter=isReset) _Bool reset;
-@property(readonly, nonatomic, getter=isRestoring) _Bool restoring;
-@property(readonly, copy, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(nonatomic) unsigned long long stickerEffectType; // @synthesize stickerEffectType=_stickerEffectType;
-@property(readonly, copy, nonatomic) NSDictionary *stickerUserInfo; // @synthesize stickerUserInfo=_stickerUserInfo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isThumbnail) _Bool thumbnail;
-@property(readonly, copy, nonatomic) NSURL *thumbnailURL; // @synthesize thumbnailURL=_thumbnailURL;
-@property(readonly, nonatomic) unsigned long long totalBytes;
-@property(readonly, copy, nonatomic) NSDictionary *transcoderUserInfo; // @synthesize transcoderUserInfo=_transcoderUserInfo;
-@property(nonatomic) long long transferState; // @synthesize transferState=_transferState;
-@property(readonly, nonatomic) long long updateReason; // @synthesize updateReason=_updateReason;
 
 @end
 

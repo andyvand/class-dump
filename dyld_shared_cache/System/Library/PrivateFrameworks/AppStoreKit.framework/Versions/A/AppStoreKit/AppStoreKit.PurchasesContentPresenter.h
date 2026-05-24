@@ -9,22 +9,6 @@
 @interface AppStoreKit.PurchasesContentPresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id purchaseHistory;
-    id accountStore;
-    id familyMember;
-    id purchases;
-    id updatedPurchases;
-    id appStateControllerReady;
-    id shouldRefreshContentView;
-    id observer;
-    id purchasesContentModes;
-    id term;
-    id showMacOSCompatibleIOSApps;
-    id appleSilicon;
-    id appleSiliconAccessQueue;
-    id appStateController;
-    id mode;
-    id canHidePurchases;
 }
 
 - (void);

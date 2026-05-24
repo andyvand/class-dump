@@ -27,12 +27,7 @@
 - (id)"2h;
 
 // Remaining properties
-@property(nonatomic) float backgroundEnergyPercentile;
 @property(nonatomic, copy) NSArray *fileURLs;
-@property(nonatomic) float foregroundEnergyPercentile;
-@property(nonatomic) CDStruct_198678f7 hangoverDuration;
-@property(nonatomic) CDStruct_198678f7 minSegmentDuration;
-@property(nonatomic) float similarityThreshold;
 
 @end
 

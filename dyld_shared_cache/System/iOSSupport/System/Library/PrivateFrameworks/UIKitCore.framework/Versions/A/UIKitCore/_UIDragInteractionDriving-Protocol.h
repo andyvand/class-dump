@@ -5,7 +5,7 @@
 //
 
 @class NSArray, UIGestureRecognizer, UIView;
-@protocol UIDragInteractionEffect, _UIDragInteractionDriverDelegate;
+@protocol _UIDragInteractionDriverDelegate;
 
 @protocol _UIDragInteractionDriving
 - (void);
@@ -22,18 +22,19 @@
 - (double)1e°1Â0@ù
 × ;
 - (_Bool)peToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
-- (void)dbackTypes;
-- (_Bool)on:(UIGestureRecognizer *)arg1;
-- (_Bool)oller: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1;
-- (_Bool)textOnBackdropViewLayer;
+- (void)supportedFeedbackTypes;
+- (_Bool)setSuppressingCandidateSelection:(UIGestureRecognizer *)arg1;
+- (_Bool)segueWithDestinationViewController: /* Error: Ran out of types for this method. */;
+- (void)keyboardReachabilityDistribution:(_Bool)arg1;
+- (_Bool)initWithTextInputTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)didCallRenderInContextOnBackdropViewLayer;
 - (void)_repeatedPushViewController:(double)arg1 canBeAllowedInParentSplitViewController: /* Error: Ran out of types for this method. */;
-- (void)ntextID;
-- (void)aseDescription;
-- (UIView *)erIncrementingHiddenManagementCountForKey:withIncrement:bitFlagValue: /* Error: Ran out of types for this method. */;
+- (void)_latestHoverEventsByContextID;
+- (void)_debuggableEquationBaseDescription;
+- (UIView *)_bitFlagValueAfterIncrementingHiddenManagementCountForKey:withIncrement:bitFlagValue: /* Error: Ran out of types for this method. */;
 - (void)Frame;
 - (double)_UIDebugMacHelperUtilities;
-- (NSArray *)edValue;
+- (NSArray *)_UICollectionViewTrackedValue;
 - (_Bool);
 - (void)SelectedPollAction '%{sensitive}@';
 - (void (^)(UIDragItem *))ndler cannot currently mutate visible items for layouts containing estimated items. Please file an enhancement request on UICollectionView.;
@@ -41,29 +42,9 @@
 - (void)Ñ435æ;
 
 @optional
-- (_Bool);
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool additionalTouchesCancelLift;
-@property(copy, nonatomic) NSArray *allowedTouchTypes;
-@property(nonatomic) _Bool allowsSimultaneousRecognitionDuringLift;
-@property(nonatomic) _Bool automaticallyAddsFailureRelationships;
-@property(nonatomic) double cancellationDelay;
-@property(nonatomic) _Bool cancellationTimerEnabled;
-@property(nonatomic) double competingLongPressDelay;
-@property(nonatomic) _Bool competingLongPressOnLift;
 @property(nonatomic) __weak id <_UIDragInteractionDriverDelegate> delegate;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) struct CGPoint initialLocationInWindow;
-@property(readonly, nonatomic) id <UIDragInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIDragInteractionEffect>",?,R,N
-
-@property(readonly, copy, nonatomic) CDUnknownBlockType itemUpdater;
-@property(nonatomic) double liftDelay;
-@property(nonatomic) double liftMoveHysteresis;
-@property(readonly, nonatomic) _Bool shouldAnimateLift;
-@property(nonatomic) __weak UIView *view;
 @end
 

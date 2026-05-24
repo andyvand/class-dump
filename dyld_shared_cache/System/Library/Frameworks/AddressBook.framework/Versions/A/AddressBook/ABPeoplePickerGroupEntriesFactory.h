@@ -9,19 +9,17 @@
 @interface ABPeoplePickerGroupEntriesFactory : ABAbstractGroupEntriesFactory
 {
     _Bool _includeAllContacts;
-    _Bool _includeDirectories;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)3;
+- (id);
+- (id)*ht8I	;
 
 // Remaining properties
 @property _Bool includeAllContacts; // @synthesize includeAllContacts=_includeAllContacts;
-@property _Bool includeDirectories; // @synthesize includeDirectories=_includeDirectories;
 
 @end
 

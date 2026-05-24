@@ -7,35 +7,15 @@
 @class NSSet, NSString, SXFollowingCondition;
 
 @protocol SXCondition
-- (SXFollowingCondition *)r;
-- (NSSet *)ayout;
+- (NSString *);
+- (double);
+- (NSString *);
+- (NSString *)hBE9;
+- (NSString *)@;
+- (SXFollowingCondition *)longPressGestureRecognizer;
+- (NSSet *)childrenForLayout;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *app;
-@property(readonly, nonatomic) NSString *configurationKey;
-@property(readonly, nonatomic) NSString *experimentTreatmentGroup;
-@property(readonly, nonatomic) SXFollowingCondition *following;
-@property(readonly, nonatomic) long long horizontalSizeClass;
-@property(readonly, nonatomic) unsigned long long maxColumns;
-@property(readonly, nonatomic) NSString *maxContentSizeCategory;
-@property(readonly, nonatomic) NSString *maxSpecVersion;
-@property(readonly, nonatomic) double maxViewportAspectRatio;
-@property(readonly, nonatomic) double maxViewportWidth;
-@property(readonly, nonatomic) unsigned long long minColumns;
-@property(readonly, nonatomic) NSString *minContentSizeCategory;
-@property(readonly, nonatomic) NSString *minSpecVersion;
-@property(readonly, nonatomic) double minViewportAspectRatio;
 @property(readonly, nonatomic) double minViewportWidth;
-@property(readonly, nonatomic) unsigned long long newsletterSubscriptionStatus;
-@property(readonly, nonatomic) NSString *offerIdentifier;
-@property(readonly, nonatomic) long long offerUpsellScenario;
-@property(readonly, nonatomic) NSString *platform;
-@property(readonly, nonatomic) unsigned long long preferredColorScheme;
-@property(readonly, nonatomic) long long subscriptionActivationEligibility;
-@property(readonly, nonatomic) NSString *subscriptionStatus;
-@property(readonly, nonatomic) unsigned long long testing;
-@property(readonly, nonatomic) NSSet *types;
-@property(readonly, nonatomic) long long verticalSizeClass;
-@property(readonly, nonatomic) NSString *viewLocation;
 @end
 

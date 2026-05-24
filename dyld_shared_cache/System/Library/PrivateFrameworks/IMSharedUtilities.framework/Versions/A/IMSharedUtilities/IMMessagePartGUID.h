@@ -9,16 +9,12 @@
 @interface IMMessagePartGUID
 {
     NSString *_prefix;
-    unsigned long long _partNumber;
-    NSString *_messageGUID;
-    NSString *_encodedMessagePartGUID;
-    struct IMMessagePartRanges _ranges;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
-- (struct _NSRange);
++ (id)k,!;
++ (_Bool);
+- (struct _NSRange);
 - (unsigned long long);
 - (struct _NSRange);
 - (id);
@@ -31,22 +27,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)v16@?0@"PKExpressPassInformation"8;
+- (_Bool);
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (struct IMMessagePartRanges)IsKnownContact: /* Error: Ran out of types for this method. */;
+- (struct IMMessagePartRanges)anyParticipantIsKnownContact: /* Error: Ran out of types for this method. */;
 - (void)failedToCreateFileStream;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *encodedMessagePartGUID; // @synthesize encodedMessagePartGUID=_encodedMessagePartGUID;
-@property(readonly, copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(readonly, nonatomic) struct _NSRange messageGUIDRange;
-@property(readonly, nonatomic) unsigned long long partNumber; // @synthesize partNumber=_partNumber;
-@property(readonly, nonatomic) struct _NSRange partNumberRange;
-@property(readonly, copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(readonly, nonatomic) struct _NSRange prefixRange;
 @property(readonly, nonatomic) struct IMMessagePartRanges ranges; // @synthesize ranges=_ranges;
 
 @end

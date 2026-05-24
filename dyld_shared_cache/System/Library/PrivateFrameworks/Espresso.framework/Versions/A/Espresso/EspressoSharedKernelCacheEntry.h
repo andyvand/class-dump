@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)or, 512>::PartitionStore(typename std::enable_if_t<is_persistent<A>::value, A>::meta_info_s) [ALLOCATOR = vi_onefixedsize_disk_allocator, SIZE = 512, A = vi_onefixedsize_disk_allocator] /* Error: Ran out of types for this method. */;
 - (void)¤;
 
 // Remaining properties

@@ -6,36 +6,24 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebEngagementAction : AMSUIWebAction
 {
     NSDictionary *_event;
-    NSArray *_messagePlacements;
-    NSString *_messageServiceType;
 }
 
+- (id)Weekly;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_hashes;
 - (void)uest"24^@32;
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSDictionary *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *messagePlacements; // @synthesize messagePlacements=_messagePlacements;
-@property(readonly) NSString *messageServiceType; // @synthesize messageServiceType=_messageServiceType;
-@property(readonly) Class superclass;
 
 @end
 

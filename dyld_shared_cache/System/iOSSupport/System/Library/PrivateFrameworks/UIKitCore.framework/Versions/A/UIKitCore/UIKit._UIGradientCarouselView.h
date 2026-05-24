@@ -9,13 +9,11 @@
 @interface UIKit._UIGradientCarouselView : UIView
 {
     id configuration;
-    id gradientLayer;
-    id animationKey;
 }
 
-- (id);
+- (id)4H;
 - (void);
-- (id)imationSnapshotWindow;
+- (id)_UIWindowSceneUserInterfaceStyleAnimationSnapshotWindow;
 - (void) X;
 
 @end

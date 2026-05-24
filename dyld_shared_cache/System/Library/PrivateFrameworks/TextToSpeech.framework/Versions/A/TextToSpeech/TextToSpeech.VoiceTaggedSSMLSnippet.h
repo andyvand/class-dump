@@ -9,23 +9,19 @@
 @interface TextToSpeech.VoiceTaggedSSMLSnippet
 {
     void ssml;
-    void voiceName;
-    void language;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void)T;
 - (void)¦ÿÿG;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *language;
 @property(nonatomic, copy) NSString *ssml;
-@property(nonatomic, copy) NSString *voiceName;
 
 @end
 

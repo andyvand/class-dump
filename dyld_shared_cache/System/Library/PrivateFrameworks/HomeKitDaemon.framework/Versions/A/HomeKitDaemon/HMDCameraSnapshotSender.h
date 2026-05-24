@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDCameraSnapshotSessionInfo, HMDDevice, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotSender
 {
     NSUUID *_uniqueIdentifier;
-    HMDDevice *_device;
-    HMDAccessory *_accessory;
-    HMDCameraSnapshotSessionInfo *_snapshotSessionInfo;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)Eiÿ;
-- (id);
+- (id)_isUserVisibleDuplicateOfSameClassObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (id)ñÐ1Â0@ù
 × ;
 - (id)6;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMDDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDCameraSnapshotSessionInfo *snapshotSessionInfo; // @synthesize snapshotSessionInfo=_snapshotSessionInfo;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

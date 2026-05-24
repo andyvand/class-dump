@@ -9,11 +9,6 @@
 @interface _MRPreloadedPlaybackSessionInfo
 {
     NSString *_playbackSessionIdentifier;
-    int _playbackSessionPriority;
-    NSString *_playbackSessionRevision;
-    struct {
-        unsigned int playbackSessionPriority:1;
-    } _has;
 }
 
 - (void);
@@ -25,25 +20,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)ansitionInfoData;
+- (id)y/PrivateFrameworks/GenerativeModels.framework/Contents/MacOS/GenerativeModels;
+- (void)_transitionInfoData;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlaybackSessionIdentifier;
-@property(nonatomic) _Bool hasPlaybackSessionPriority;
-@property(readonly, nonatomic) _Bool hasPlaybackSessionRevision;
-@property(retain, nonatomic) NSString *playbackSessionIdentifier; // @synthesize playbackSessionIdentifier=_playbackSessionIdentifier;
-@property(nonatomic) int playbackSessionPriority; // @synthesize playbackSessionPriority=_playbackSessionPriority;
-@property(retain, nonatomic) NSString *playbackSessionRevision; // @synthesize playbackSessionRevision=_playbackSessionRevision;
 
 @end
 

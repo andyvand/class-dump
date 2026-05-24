@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id)B;
+- (void)*D;
 
 @end
 

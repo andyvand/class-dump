@@ -5,13 +5,10 @@
 //
 
 @class NSArray;
-@protocol AXNotificationObserverDelegate;
 
 @interface AXNotificationObserver
 {
     struct __AXObserver *_observer;
-    id <AXNotificationObserverDelegate> _delegate;
-    NSArray *_notifications;
 }
 
 - (id);
@@ -26,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <AXNotificationObserverDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSArray *notifications; // @synthesize notifications=_notifications;
 
 @end

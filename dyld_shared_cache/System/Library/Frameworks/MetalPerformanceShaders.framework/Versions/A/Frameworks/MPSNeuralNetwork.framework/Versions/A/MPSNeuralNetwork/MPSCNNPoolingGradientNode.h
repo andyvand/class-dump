@@ -9,9 +9,6 @@
 @interface MPSCNNPoolingGradientNode : MPSNNGradientFilterNode
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
 }
 
 + (id);
@@ -20,13 +17,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)diateStates;
+- (unsigned long long)_storeAllIntermediateStates;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
 @property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) unsigned long long strideInPixelsX; // @synthesize strideInPixelsX=_strideInPixelsX;
-@property(readonly, nonatomic) unsigned long long strideInPixelsY; // @synthesize strideInPixelsY=_strideInPixelsY;
 
 @end
 

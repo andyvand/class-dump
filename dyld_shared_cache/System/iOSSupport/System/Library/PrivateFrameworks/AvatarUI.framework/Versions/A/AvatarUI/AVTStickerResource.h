@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUINSURL, NSURL, UIImage;
+@class AVTUINSURL;
 
 @interface AVTStickerResource
 {
     _Bool _prereleaseSticker;
-    UIImage *_image;
-    AVTUINSURL *_internalURL;
-    struct CGRect _clippingRect;
 }
 
 + (_Bool);
@@ -25,15 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) AVTUINSURL *internalURL; // @synthesize internalURL=_internalURL;
-@property(nonatomic, getter=isPrereleaseSticker) _Bool prereleaseSticker; // @synthesize prereleaseSticker=_prereleaseSticker;
 
 @end
 

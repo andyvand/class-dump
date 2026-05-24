@@ -6,8 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSDate, NSNumber, NSObject, NSString;
-@protocol NSSecureCoding;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSCKMetadataEntry : NSManagedObject
@@ -19,13 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue;
 @property(retain, nonatomic) NSNumber *boolValueNum; // @dynamic boolValueNum;
-@property(retain, nonatomic) NSDate *dateValue; // @dynamic dateValue;
-@property(retain, nonatomic) NSNumber *integerValue; // @dynamic integerValue;
-@property(retain, nonatomic) NSString *key; // @dynamic key;
-@property(retain, nonatomic) NSString *stringValue; // @dynamic stringValue;
-@property(retain, nonatomic) NSObject<NSSecureCoding> *transformedValue; // @dynamic transformedValue;
 
 @end
 

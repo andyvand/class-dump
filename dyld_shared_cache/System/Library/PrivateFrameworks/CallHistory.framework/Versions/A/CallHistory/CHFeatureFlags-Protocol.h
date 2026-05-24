@@ -5,14 +5,11 @@
 //
 
 @protocol CHFeatureFlags
+- (_Bool)et.trashedState;
+- (_Bool)modelConfig;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool callHistorySearchEnabled;
 @property(readonly, nonatomic) _Bool increaseCallHistoryEnabled;
-@property(readonly, nonatomic) _Bool isDefaultDialerEnabled;
-@property(readonly, nonatomic) _Bool isDualSimParityEnabled;
-@property(readonly, nonatomic) _Bool junkFilteringEnabled;
-@property(readonly, nonatomic) _Bool keepCallsEnabled;
-@property(readonly, nonatomic) _Bool newCallHistoryStoreEnabled;
 @end
 

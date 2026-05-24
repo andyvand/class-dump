@@ -11,14 +11,14 @@
     CDUnknownBlockType _action;
 }
 
++ (id)<;
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)rror"12;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

@@ -6,29 +6,22 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UIBarButtonItem, UIMoreListCellLayoutManager, UITableView;
+@class NSArray, UITableView;
 
 @interface UIMoreListController : UIViewController
 {
     UITableView *_table;
-    _Bool _allowsCustomizing;
-    _Bool _disableCustomizing;
-    _Bool _hideNavigationBar;
-    NSArray *_moreViewControllers;
-    UIMoreListCellLayoutManager *_layoutManager;
-    UIBarButtonItem *_moreEditButtonItem;
-    _Bool _moreViewControllersChanged;
 }
 
 - (void);
 - (void);
+- (void)r fetching exit record %@, ignoring;
+- (_Bool)messageID:%@ /* Error: Ran out of types for this method. */;
+- (id)service:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@ full %@ %@ %@;
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)<;
 - (id);
 - (void);
 - (_Bool);
@@ -48,16 +41,7 @@
 - (void)ø7ÿ* Ï@µk;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCustomizing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *moreViewControllers;
-@property(nonatomic) _Bool moreViewControllersChanged;
-@property(readonly) Class superclass;
 
 @end
 

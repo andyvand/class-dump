@@ -4,52 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UISliderTrackConfiguration
 {
     id _configuration;
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (id);
-- (long long);
-- (float);
++ (id)P;
+- (_Bool)Account has no usable alias's;
+- (id)ctive;
+- (long long)ered;
+- (float)UID:%@ } /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (double);
 - (void);
 - (float);
 - (void);
-- (id);
+- (id);
 - (float);
 - (id);
 - (void);
 - (long long);
 - (long long)!(Fùñ]Ð1Â0@ù
 × ;
-- (_Bool)ighted;
-- (void)ed:(id)arg1;
+- (_Bool)adjustsImageWhenHighlighted;
+- (void)_setPointerLocked:(id)arg1;
 - (id)8I;
 - (float)ticDimension.;
 - (void)ßl;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTickValuesOnly;
-@property(nonatomic, readonly) long long behavior;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) float maximumEnabledValue;
-@property(nonatomic) float minimumEnabledValue;
-@property(nonatomic, readonly) double neutralPosition;
-@property(nonatomic) float neutralValue;
-@property(nonatomic, readonly) float snappingDistance;
-@property(nonatomic, readonly) long long tickStyle;
-@property(nonatomic, readonly) NSArray *ticks;
-@property(nonatomic, readonly) _Bool ticksAreEvenlySpaced;
 
 @end
 

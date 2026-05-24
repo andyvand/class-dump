@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSAlignmentOffset : SISchemaInstrumentationMessage
 {
     int _startCharacterIdx;
-    int _endCharacterIdx;
-    struct {
-        unsigned int startCharacterIdx:1;
-        unsigned int endCharacterIdx:1;
-    } _has;
 }
 
 - (int);
@@ -27,23 +20,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int)iC;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)A;
+- (_Bool)sages;
 - (id);
 - (id)0@ù
 × ;
-- (id)tAllocationStatus;
+- (id)_experimentAllocationStatus;
 - (id)ted",&,N,V_patternExecuted;
 
 // Remaining properties
-@property(nonatomic) int endCharacterIdx; // @synthesize endCharacterIdx=_endCharacterIdx;
-@property(nonatomic) _Bool hasEndCharacterIdx;
-@property(nonatomic) _Bool hasStartCharacterIdx;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int startCharacterIdx; // @synthesize startCharacterIdx=_startCharacterIdx;
 
 @end

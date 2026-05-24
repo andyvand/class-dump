@@ -14,7 +14,7 @@
 
 - (void)ðÌè !Ð!;
 - (void)hField:(struct CGPoint)arg1 ];
-- (void)CornerType;
+- (void)SafeAreaCornerType;
 
 @end
 

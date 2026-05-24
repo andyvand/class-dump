@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSPushToken, NSString;
+@class NSString;
 
 @interface IDSURI
 {
     NSString *_prefixedURI;
-    NSString *_serviceLoggingHint;
 }
 
 + (id);
@@ -31,9 +30,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (id)sferredURLs importedURLs ;
 - (id);
-- (id);
-- (id);
+- (id)h?;
 - (_Bool);
 - (id);
 - (void);
@@ -43,25 +42,10 @@
 - (id)fiableEncodingHash:%@> /* Error: Ran out of types for this method. */;
 - (id)p pushToken:%@, verificationState:%@> /* Error: Ran out of types for this method. */;
 - (id)onse failed due to invalid channel-number.;
-- (id)odingKeys;
+- (id)ClearCodingKeys;
 
 // Remaining properties
-@property(readonly, nonatomic) long long FZIDType;
-@property(readonly, nonatomic) long long IDSIDType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isTemporaryURI;
-@property(readonly, nonatomic) _Bool isTokenURI;
 @property(retain, nonatomic) NSString *prefixedURI; // @synthesize prefixedURI=_prefixedURI;
-@property(readonly, nonatomic) IDSPushToken *pushToken;
-@property(retain, nonatomic) NSString *serviceLoggingHint; // @synthesize serviceLoggingHint=_serviceLoggingHint;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IDSURI *tokenFreeURI;
-@property(readonly, nonatomic) NSString *unprefixedURI;
 
 @end
 

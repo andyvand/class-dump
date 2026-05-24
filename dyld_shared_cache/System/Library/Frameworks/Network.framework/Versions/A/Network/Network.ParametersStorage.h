@@ -9,14 +9,9 @@
 @interface Network.ParametersStorage
 {
     id internalStorage;
-    id storageLock;
-    id accountIDStorage;
-    id bundleIDStorage;
-    id attributedBundleStorage;
-    id attributionContextStorage;
 }
 
-- (void);
+- (void)1,1 image instead that is all black;
 - (id);
 - (id);
 - (id);
@@ -24,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *redactedDescription;
 
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface PKProtobufCloudStoreZoneInvitation
 {
     double _dateCreated;
-    NSString *_containerIdentifier;
-    NSData *_shareInvitationToken;
-    NSString *_shareURL;
-    unsigned int _version;
-    NSString *_zoneName;
-    struct {
-        unsigned int dateCreated:1;
-    } _has;
 }
 
 - (id);
@@ -26,40 +16,30 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void)ix8;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (double);
-- (_Bool);
-- (void);
+- (_Bool)="timestamp"b1"duration"b1};
+- (void)ample2Cca;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool)edCardData.;
-- (void)LE;
+- (void)VERIFICATION_ATTEMPT_LIMIT_REACHED_TITLE;
 - (id)±;
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(nonatomic) double dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, nonatomic) _Bool hasContainerIdentifier;
-@property(nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasShareInvitationToken;
-@property(readonly, nonatomic) _Bool hasShareURL;
-@property(readonly, nonatomic) _Bool hasZoneName;
-@property(retain, nonatomic) NSData *shareInvitationToken; // @synthesize shareInvitationToken=_shareInvitationToken;
-@property(retain, nonatomic) NSString *shareURL; // @synthesize shareURL=_shareURL;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
-@property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

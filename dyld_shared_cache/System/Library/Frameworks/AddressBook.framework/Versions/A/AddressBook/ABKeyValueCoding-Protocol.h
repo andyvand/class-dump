@@ -5,5 +5,8 @@
 //
 
 @protocol ABKeyValueCoding
+
+@optional
+- (id);
 @end
 

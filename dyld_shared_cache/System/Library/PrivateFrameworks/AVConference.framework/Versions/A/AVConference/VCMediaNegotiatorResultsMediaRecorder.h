@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorResultsMediaRecorder
 {
     unsigned int _capabilities;
-    int _imageType;
-    int _videoCodec;
 }
 
 - (void);
@@ -21,8 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned int capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic) int imageType; // @synthesize imageType=_imageType;
-@property(nonatomic) int videoCodec; // @synthesize videoCodec=_videoCodec;
 
 @end
 

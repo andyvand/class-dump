@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _NS2DVelocityFilter;
-
 @interface _NSScrollingPredominantAxisFilter
 {
     long long _predominantAxisMode;
-    _NS2DVelocityFilter *_velocityFilter;
 }
 
 + (void)NH;
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
+- (void)dealloc;
+- (_Bool)DeviceSupportsContextualVolume;
+- (long long)Tr9qG122eEQiKGfr6EGRdQ;
 - (void);
 - (void);
 - (void);
+- (void)21S;
+- (void)P;
 - (id);
 
 // Remaining properties

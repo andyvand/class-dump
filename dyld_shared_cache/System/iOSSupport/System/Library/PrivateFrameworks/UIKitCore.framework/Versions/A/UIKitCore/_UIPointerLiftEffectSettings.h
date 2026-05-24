@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void)etOriginalBackgroundConfiguration: /* Error: Ran out of types for this method. */;
+- (void)setOriginalBackgroundConfiguration: /* Error: Ran out of types for this method. */;
 
 @end
 

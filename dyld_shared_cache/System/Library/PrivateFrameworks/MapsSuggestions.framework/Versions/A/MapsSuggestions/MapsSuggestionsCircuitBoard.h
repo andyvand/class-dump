@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MapsSuggestionsCircuitBoard
 {
     struct Queue _queue;
-    struct _Config {
-        NSArray *circuits;
-        NSArray *triggers;
-        NSArray *conditions;
-    } _config;
 }
 
 - (id);
@@ -23,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)T(C@9;
 - (id);
 - (id);
 - (void);
@@ -33,13 +26,7 @@
 - (id)ineSource];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSSuggestion, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSSuggestionMatchResult : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_suggestionId;
-    PLUSSchemaPLUSSuggestion *_generatedSuggestion;
-    _Bool _hasSuggestionId;
-    _Bool _hasGeneratedSuggestion;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -31,18 +28,14 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)on update handler if business name fetch completes;
 - (id);
 - (id);
-- (id)tializationContext;
+- (id)_initializationContext;
 - (id)ewriteContext;
-- (void)ODE_AI;
+- (void)COUNTRYCODE_AI;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSSuggestion *generatedSuggestion; // @synthesize generatedSuggestion=_generatedSuggestion;
-@property(nonatomic) _Bool hasGeneratedSuggestion; // @synthesize hasGeneratedSuggestion=_hasGeneratedSuggestion;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *suggestionId; // @synthesize suggestionId=_suggestionId;
 
 @end

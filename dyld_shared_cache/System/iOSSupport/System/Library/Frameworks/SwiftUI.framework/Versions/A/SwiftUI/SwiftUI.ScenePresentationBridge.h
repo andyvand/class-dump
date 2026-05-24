@@ -7,8 +7,6 @@
 @interface SwiftUI.ScenePresentationBridge
 {
     id presentedSceneValueSeed;
-    id encoder;
-    id host;
 }
 
 @end

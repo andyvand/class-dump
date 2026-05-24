@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _EARLanguageDetectorRequestContext;
+@class NSDictionary;
 
 @interface _EARLanguageDetectorLoggingInfo
 {
     NSDictionary *_loggingDict;
-    _EARLanguageDetectorRequestContext *_context;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)iragana:(id)arg1 ][:script=Katakana:]]]{1} /* Error: Ran out of types for this method. */;
+- (id)H;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) _EARLanguageDetectorRequestContext *context; // @synthesize context=_context;
 @property(copy, nonatomic) NSDictionary *loggingDict; // @synthesize loggingDict=_loggingDict;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol TUGameOverlayControllerDelegate
+- (void);
 @end
 

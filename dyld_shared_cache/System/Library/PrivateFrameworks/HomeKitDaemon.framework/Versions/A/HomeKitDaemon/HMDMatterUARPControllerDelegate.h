@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryFirmwareUpdateManager, NSString;
+@class HMDAccessoryFirmwareUpdateManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterUARPControllerDelegate
@@ -15,20 +15,13 @@ __attribute__((visibility("hidden")))
 + (id)\²;
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)o;
 - (void)B16@?0@"HMDLightProfileNaturalLightingAction"8;
 - (id);
 
 // Remaining properties
 @property(readonly) __weak HMDAccessoryFirmwareUpdateManager *accessoryFirmwareUpdateManager; // @synthesize accessoryFirmwareUpdateManager=_accessoryFirmwareUpdateManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

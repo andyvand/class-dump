@@ -11,7 +11,7 @@
 - (UICollectionViewCell *);
 
 @optional
-- (long long)stDegenerateBaselineCalculation;
+- (long long)__guardAgainstDegenerateBaselineCalculation;
 - (_Bool)÷<ø;
 - (NSArray *)UIKBRenderFactoryWordsSystemCompactFontName;
 - (NSIndexPath *)tor, timer;

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerPath, MPCPlayerResponse;
+@class MPCPlayerResponse;
 
 @interface _MPCPlayerCommand
 {
     MPCPlayerResponse *_response;
-    MPCPlayerPath *_playerPath;
 }
 
 - (id);
-- (id);
+- (id)~CNrGugCZ5AcPJanJsKab-vGKKGyOdK0s8SsE87s/Library/Caches/com.apple.xbs/TemporaryDirectory.uVtTw3/Sources/PodcastsUI/PodcastsUI/PodcastsUI/Extensions/UIKit/UIImage+IMAdditions.m;
 - (id);
 - (id);
 - (void)eueFA is OFF];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MPCPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
 @property(readonly, nonatomic) MPCPlayerResponse *response; // @synthesize response=_response;
 
 @end

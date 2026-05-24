@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TIInputContextHistory;
+@class TIInputContextHistory;
 
 @interface NSInputContextHistory
 {
     TIInputContextHistory *_tiInputContextHistory;
 }
 
-+ (id);
++ (id)nitWithResumeData with unknown body type;
 - (void);
 - (id);
+- (id)	;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)SProgress"16@0:(id)arg1 8;
+- (void)_setPrivacyProxyStrictFailClosed: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *recipientIdentifiers;
-@property(readonly, nonatomic) NSSet *recipientNames;
-@property(readonly, nonatomic) NSSet *senderIdentifiers;
 @property(readonly, nonatomic) TIInputContextHistory *tiInputContextHistory; // @synthesize tiInputContextHistory=_tiInputContextHistory;
 
 @end

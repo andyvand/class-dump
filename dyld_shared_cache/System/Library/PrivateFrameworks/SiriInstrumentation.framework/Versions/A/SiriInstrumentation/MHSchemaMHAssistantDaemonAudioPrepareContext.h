@@ -6,48 +6,39 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAssistantDaemonAudioPrepareEnded, MHSchemaMHAssistantDaemonAudioPrepareStarted, NSData;
+@class MHSchemaMHAssistantDaemonAudioPrepareStarted;
 
 @interface MHSchemaMHAssistantDaemonAudioPrepareContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAssistantDaemonAudioPrepareStarted *_startedOrChanged;
-    MHSchemaMHAssistantDaemonAudioPrepareEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
+- (_Bool)P;
+- (void);
+- (void);
+- (void);
+- (void)A;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)&;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)mber of chars;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id)1Â0@ù
 × ;
-- (id)asIsMediaEntitySyncEnabled:(id)arg1;
+- (id)setHasIsMediaEntitySyncEnabled:(id)arg1;
 - (id)MLASRSchemaDODMLASRContextualReplayBiomeRecordCreated",&,N,V_contextualReplayBiomeRecordCreated;
 - (void)âÿN1Y»!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioPrepareEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioPrepareStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

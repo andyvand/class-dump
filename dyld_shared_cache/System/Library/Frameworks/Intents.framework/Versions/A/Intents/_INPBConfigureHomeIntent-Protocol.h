@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata;
+@class NSArray, _INPBHomeEntity, _INPBIntentMetadata;
 
 @protocol _INPBConfigureHomeIntent
-- (_Bool)UnsupportedReason;
+- (_INPBHomeEntity *)k;
+- (_INPBIntentMetadata *)nged;
+- (_Bool)_updateAlarmIntentAlarmUnsupportedReason;
 - (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entities;
-@property(readonly, nonatomic) unsigned long long entitiesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

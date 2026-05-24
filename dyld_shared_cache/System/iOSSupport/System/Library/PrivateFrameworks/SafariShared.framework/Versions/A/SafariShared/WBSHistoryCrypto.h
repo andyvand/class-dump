@@ -21,7 +21,6 @@
 - (void)È;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *cryptographicKey;
 @property(readonly, nonatomic) NSData *salt; // @synthesize salt=_salt;
 
 @end

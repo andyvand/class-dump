@@ -5,6 +5,10 @@
 //
 
 @protocol PLAssetsdDebugServiceProtocol
+- (id);
+- (id);
+- (id);
+- (id);
 - (id)led;
 @end
 

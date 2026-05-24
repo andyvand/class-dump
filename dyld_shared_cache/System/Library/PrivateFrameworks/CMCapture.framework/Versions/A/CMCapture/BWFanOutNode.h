@@ -6,21 +6,13 @@
 
 #import <CMCapture/BWNode.h>
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface BWFanOutNode : BWNode
 {
     id *_outputsCArray;
-    _Bool *_outputsDiscardsAttachedMedia;
-    NSMutableDictionary *_outputsAllowedAttachedMediaKeys;
-    NSMutableDictionary *_outputsDisallowedAttachedMediaKeys;
-    int _outputsCount;
-    struct os_unfair_lock_s _extendedOutputsLock;
-    NSMutableArray *_extendedOutputs;
 }
 
 + (void)-[BWImageQueueSinkNode configurationWithID:updatedFormat:didBecomeLiveForInput:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)llTm;
 - (void);
 - (id);
 - (id)ic}@ Already monitoring for FigAssetWriter writing video notifications;
@@ -37,7 +29,7 @@
 - (void);
 - (void);
 - (void)utput:(id)arg1 videoCaptureOutputsArrayBySourceDeviceType[underlyingDeviceTypeNum][0] toInput:(int)arg2 metadataSynchronizerNode.inputs[inputCount++] pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
-- (id)syncStillImage;
+- (id)cmiofcs_captureAsyncStillImage;
 - (void)d to install subgraph %@ with a duplicate name! Forbidden;
 
 @end

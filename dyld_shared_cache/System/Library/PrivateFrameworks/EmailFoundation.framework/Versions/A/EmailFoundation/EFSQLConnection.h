@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, NSURL;
+@class NSHashTable;
 
 @interface EFSQLConnection
 {
     NSHashTable *_preparedStatements;
-    struct sqlite3 *_sqlDB;
-    NSURL *_url;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (_Bool);
+- (id)mirror input:(id)arg1 %{public}@;
+- (_Bool);
 - (_Bool);
 - (struct sqlite3 *);
 - (id);
@@ -28,7 +26,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)ontext",R,C,N,V_powerContext;
 - (_Bool);
 - (void);
 - (id);
@@ -39,16 +37,7 @@
 - (_Bool)0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isOpen;
 @property(readonly, nonatomic) struct sqlite3 *sqlDB; // @synthesize sqlDB=_sqlDB;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

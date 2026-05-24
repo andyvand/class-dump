@@ -6,27 +6,25 @@
 
 #import <Catalyst/CATSessionMessage.h>
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface CATSessionMessageResume : CATSessionMessage
 {
     NSUUID *_sessionUUID;
-    NSDictionary *_clientUserInfo;
 }
 
-+ (_Bool);
++ (_Bool)_threadID;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (id)ùÑ> ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *clientUserInfo; // @synthesize clientUserInfo=_clientUserInfo;
 @property(copy, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end

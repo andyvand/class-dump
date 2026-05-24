@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDate;
+
 @protocol CADNotificationMonitorInterface
+- (void)ChangeNotification.;
+- (void)yingController] <%@> Deallocating.;
+- (void)Republish Error:(void (^)(int, NSArray *))arg1 Tried to restrict to %@ but %@ was accepted.;
+- (void)nection restored. Re-initializing;
+- (void)d %@;
+- (void)Notification %@;
+- (void)ternalDevicePairingSession)] Opening Security Session in State = %ld usingSystemPairing = %s;
+- (void)t critical section for requestID:(void (^)(int, NSArray *, NSArray *))arg1 %@. error:%@ /* Error: Ran out of types for this method. */;
+- (void)n updated:(NSDate *)arg1 type=%@ | clusterUID=%{public}@ | leaderUID=%{public}@;
 @end
 

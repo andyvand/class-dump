@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISEmbossedEffect
 {
     double _range;
-    unsigned long long _variant;
-    struct CGSize _offset;
 }
 
 - (id);
@@ -24,16 +20,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property struct CGSize offset; // @synthesize offset=_offset;
-@property double range; // @synthesize range=_range;
-@property(readonly) Class superclass;
-@property unsigned long long variant; // @synthesize variant=_variant;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPURLSessionACAuthContext, NSObject, NSString, PPCExtensibleSSOAuthenticator;
-@protocol OS_dispatch_queue;
+@class HLPURLSessionACAuthContext, PPCExtensibleSSOAuthenticator;
 
 @interface HLPURLSessionACAuthHandler
 {
     HLPURLSessionACAuthContext *_authenticationContext;
     HLPURLSessionACAuthContext *_authContext;
-    PPCExtensibleSSOAuthenticator *_ssoAuthenticator;
-    NSObject<OS_dispatch_queue> *_syncQueue;
 }
 
 + (_Bool);
@@ -30,16 +27,7 @@
 
 // Remaining properties
 @property(copy, nonatomic) HLPURLSessionACAuthContext *authContext; // @synthesize authContext=_authContext;
-@property(readonly, copy, nonatomic) HLPURLSessionACAuthContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PPCExtensibleSSOAuthenticator *ssoAuthenticator; // @synthesize ssoAuthenticator=_ssoAuthenticator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
 
 @end
 

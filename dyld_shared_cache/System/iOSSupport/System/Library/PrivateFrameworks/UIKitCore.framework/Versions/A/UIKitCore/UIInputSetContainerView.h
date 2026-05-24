@@ -6,34 +6,30 @@
 
 #import <UIKitCore/UIInputSetHostView.h>
 
-@class NSMutableDictionary, NSString, UIInputActiveSetContainerView, UIKBRenderConfig, UIScreen;
+@class UIKBRenderConfig;
 
 __attribute__((visibility("hidden")))
 @interface UIInputSetContainerView : UIInputSetHostView
 {
     UIKBRenderConfig *_renderConfig;
-    NSMutableDictionary *_hostedViews;
-    _Bool _disableGeometryObserverNotifications;
-    UIInputActiveSetContainerView *_containerForKeyplaneViews;
-    struct CGPoint _offsetOrigin;
 }
 
 + (_Bool);
 + (_Bool)× ;
+- (void)hello request C;
 - (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint)er";
 - (id);
 - (void);
 - (_Bool){CGSize=dd}{CGSize=dd}}16;
-- (_Bool)oresGeometryChanges: /* Error: Ran out of types for this method. */;
+- (_Bool)setIgnoresGeometryChanges: /* Error: Ran out of types for this method. */;
 - (id)OrName>",R,N,V__imageOrName;
-- (struct CGRect)dding;
+- (struct CGRect)verticalPadding;
 - (void)Ä;
 - (void)blic,name=id}p;
 - (void);
 - (id)n on this version of iOS;
-- (void)itingModeLightenSourceOver;
+- (void)UICompositingModeLightenSourceOver;
 - (id);
 - (void);
 - (void);
@@ -44,15 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)á9o;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) UIScreen *hostingScreen;
 @property(nonatomic) struct CGPoint offsetOrigin; // @synthesize offsetOrigin=_offsetOrigin;
-@property(readonly) Class superclass;
 
 @end
 

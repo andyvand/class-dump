@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
-
 __attribute__((visibility("hidden")))
 @interface SFExpandableTextField
 {
     _Bool _minimized;
-    _Bool _isURLText;
-    NSAttributedString *_fullString;
 }
 
 - (_Bool);
@@ -19,12 +15,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
+- (void)removeConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)ddressEndpoint",&,V_startAddress;
+- (void)s %d, original %u, decrypted %zu);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void)wHelp:(id)arg1;
+- (void)chooseIdentityPanelShowHelp:(id)arg1;
 
 @end
 

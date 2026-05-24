@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface CSVoiceTriggerStatistics
 {
     unsigned long long _triggerCount;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _consecutiveVTRejects;
-    unsigned long long _firstPassTriggerCount;
-    unsigned long long _consecutiveFalseFirstPassTriggersPerHour;
-    NSObject<OS_dispatch_source> *_hourPowerTimer;
-    NSMutableArray *_vtEstimationStatistics;
-    NSMutableDictionary *_vtDailyMetadata;
-    _Bool _vtEstimationStatisticsAreStale;
-    _Bool _vtDailyMetadataIsStale;
-    unsigned long long _consecutivePHSRejects;
-    double _lastPHSReject;
 }
 
-+ (id)tionBlk;
-- (void);
++ (id)_pendingBuiltInVoiceTriggerCompletionBlk;
+- (void)nfo=%@;
 - (int);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)sSon>!$_;
+- (void)56F-D8822258B2E1;
 - (void);
 - (id);
 - (double);
+- (unsigned long long)anyAccountHasMoreThanOneWritablePerson: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)writeReadOnlyVersion1ToOutputStream:options:md5Context:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned long long);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -56,14 +42,6 @@
 
 // Remaining properties
 @property unsigned long long consecutivePHSRejects; // @synthesize consecutivePHSRejects=_consecutivePHSRejects;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property double lastPHSReject; // @synthesize lastPHSReject=_lastPHSReject;
-@property(readonly) Class superclass;
 
 @end
 

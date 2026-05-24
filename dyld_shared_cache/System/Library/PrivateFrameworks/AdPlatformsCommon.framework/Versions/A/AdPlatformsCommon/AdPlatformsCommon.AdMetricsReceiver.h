@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.AdMetricsReceiver
 {
     id sessionProvider;
-    id eventProducer;
-    id telemetryRecorder;
 }
 
 @end

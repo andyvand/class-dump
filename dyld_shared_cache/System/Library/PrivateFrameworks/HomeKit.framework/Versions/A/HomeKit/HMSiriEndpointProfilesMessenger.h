@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMSiriEndpointProfilesMessenger
 {
     NSUUID *_messageTargetUUID;
-    HMFMessageDispatcher *_messageDispatcher;
 }
 
 + (id);
 + (id)ic.allowiTunesAccount;
 - (void);
 - (void);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (void)reator;
+- (void)HMSettingsCreator;
 - (id)houldOrderAscending:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
 @property(readonly, copy) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

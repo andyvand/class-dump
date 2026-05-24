@@ -16,7 +16,7 @@
 + (id)@"CNChangeHistoryRemoveSubgroupFromGroupEvent"16;
 - (void);
 - (id);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (void);

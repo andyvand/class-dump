@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface _MMScriptResolver
 {
     CDUnknownBlockType _block;
-    NSMutableSet *_tokens;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)aŦ;
+- (void);
 - (void)0@ù
 × ;
 

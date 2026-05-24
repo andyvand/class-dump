@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSObject, NSOperationQueue, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSOperationQueue, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface QLServerSatellite
 {
     NSUUID *_identifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_connection;
-    NSMapTable *_requests;
-    NSMapTable *_requestReplyBlocks;
-    NSArray *_generatorIDs;
-    NSString *_sandboxVariant;
-    int _architecture;
-    NSString *_customName;
-    _Bool _shouldDie;
-    int _satelliteError;
-    _Bool _forThumbnailAgent;
-    NSOperationQueue *_coordinationQueue;
 }
 
 - (void);
@@ -30,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)7;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -49,22 +36,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)pe;
+- (_Bool)contentType;
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *coordinationQueue; // @synthesize coordinationQueue=_coordinationQueue;
-@property(copy) NSString *customName; // @synthesize customName=_customName;
-@property _Bool forThumbnailAgent; // @synthesize forThumbnailAgent=_forThumbnailAgent;
-@property(retain) NSArray *generatorIDs; // @synthesize generatorIDs=_generatorIDs;
-@property(copy) NSString *sandboxVariant; // @synthesize sandboxVariant=_sandboxVariant;
 
 @end
 

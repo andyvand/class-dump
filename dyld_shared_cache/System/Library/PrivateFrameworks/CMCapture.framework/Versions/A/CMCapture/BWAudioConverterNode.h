@@ -11,26 +11,22 @@
 @interface BWAudioConverterNode : BWNode
 {
     NSDictionary *_settings;
-    struct OpaqueFigSampleBufferProcessor *_audioCompressionSBP;
-    _Bool _cinematicAudioCapture;
-    _Bool _multiCamClientCompositingEnabled;
-    _Bool _expectsToRecordOnlyOnce;
 }
 
 + (void)ed on this device;
-- (_Bool);
+- (_Bool)initWithBlock:parent: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (void)i;
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)y;
 - (void)Ôà;
 - (id);
 - (id)received;

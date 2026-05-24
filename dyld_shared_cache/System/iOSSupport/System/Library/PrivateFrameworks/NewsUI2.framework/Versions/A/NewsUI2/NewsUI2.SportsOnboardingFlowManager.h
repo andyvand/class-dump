@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsOnboardingFlowManager
 {
     id featureAvailability;
-    id sportsOnboardingManager;
-    id sportsSyncManager;
-    id pendingRoute;
 }
 
 @end

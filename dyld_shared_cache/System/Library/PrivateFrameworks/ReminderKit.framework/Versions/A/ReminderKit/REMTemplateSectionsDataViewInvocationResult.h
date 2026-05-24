@@ -11,23 +11,22 @@
 @interface REMTemplateSectionsDataViewInvocationResult : REMStoreInvocationResult
 {
     NSArray *_templateStorages;
-    NSArray *_templateSectionStorages;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)Language-114
+;
 - (void);
-- (id);
+- (id);
 - (void)Ñr 1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *templateSectionStorages; // @synthesize templateSectionStorages=_templateSectionStorages;
 @property(readonly, nonatomic) NSArray *templateStorages; // @synthesize templateStorages=_templateStorages;
 
 @end

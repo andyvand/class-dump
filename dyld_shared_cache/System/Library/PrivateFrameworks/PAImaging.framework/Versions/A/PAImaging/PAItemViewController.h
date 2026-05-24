@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSView, PACanvasItemView, PAItemController, PAItemView;
-@protocol OS_dispatch_queue, PANUMediaView;
+@class PACanvasItemView, PAItemController;
 
 @interface PAItemViewController
 {
     PAItemController *_itemController;
-    NSObject<OS_dispatch_queue> *_readyQueue;
-    CDUnknownBlockType _readyHandler;
-    _Bool _ready;
-    CDUnknownBlockType _errorHandler;
-    PACanvasItemView *_canvasViewImpl;
 }
 
 - (void);
@@ -24,12 +18,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -41,13 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) PACanvasItemView *canvasView; // @dynamic canvasView;
 @property(retain) PACanvasItemView *canvasViewImpl; // @synthesize canvasViewImpl=_canvasViewImpl;
-@property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly) PAItemView *itemView;
-@property(readonly) NSView<PANUMediaView> *mediaView;
-@property(readonly, getter=isReady) _Bool ready; // @synthesize ready=_ready;
-@property(copy) CDUnknownBlockType readyHandler;
 
 @end
 

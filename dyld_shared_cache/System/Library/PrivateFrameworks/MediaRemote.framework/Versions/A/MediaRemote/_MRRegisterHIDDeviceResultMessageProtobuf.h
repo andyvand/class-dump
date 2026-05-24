@@ -7,11 +7,6 @@
 @interface _MRRegisterHIDDeviceResultMessageProtobuf
 {
     unsigned int _deviceIdentifier;
-    unsigned int _errorCode;
-    struct {
-        unsigned int deviceIdentifier:1;
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (void);
@@ -23,19 +18,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ingFromStorage:(unsigned int)arg1;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)r:] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void)eOutputDevices;
 - (unsigned int)assets;
 
 // Remaining properties
-@property(nonatomic) unsigned int deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasDeviceIdentifier;
 @property(nonatomic) _Bool hasErrorCode;
 
 @end

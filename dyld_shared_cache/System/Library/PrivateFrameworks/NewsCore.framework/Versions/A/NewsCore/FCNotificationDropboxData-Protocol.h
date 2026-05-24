@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol FCNotificationDropboxData
+- (NSString *);
+- (NSString *)+;
+- (int)@);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *baseURLString;
-@property(readonly, nonatomic) int deviceDigestMode;
-@property(readonly, copy, nonatomic) NSString *deviceToken;
-@property(readonly, copy, nonatomic) NSString *notificationUserID;
-@property(readonly, copy, nonatomic) NSString *storefrontID;
 @end
 

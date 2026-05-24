@@ -7,9 +7,6 @@
 @interface AXCoreUtilities.AXMigratingUnKeyedDecoding
 {
     id codingPath;
-    id data;
-    id $__lazy_storage_$_currentArray;
-    id currentIndex;
 }
 
 @end

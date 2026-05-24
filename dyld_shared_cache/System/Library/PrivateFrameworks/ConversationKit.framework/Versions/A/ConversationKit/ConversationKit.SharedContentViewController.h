@@ -9,24 +9,16 @@
 @interface ConversationKit.SharedContentViewController : PlatformViewController
 {
     id delegate;
-    _Bool isPipped;
-    id isPaused;
-    id isZoomEnabled;
-    id isContentTransformEnabled;
-    id participant;
-    id scrollView;
-    id sharedContentView;
-    id avatarImageQueue;
 }
 
+- (id)8;
 - (id);
-- (id);
-- (void);
+- (void)v@z;
 - (void);
 - (_Bool);
 - (struct CGSize);
-- (_Bool);
-- (void);
+- (_Bool)Qr;
+- (void)H_Qr;
 - (struct CGRect);
 - (id);
 - (id);

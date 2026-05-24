@@ -7,11 +7,11 @@
 @class HMFMessageDispatcher, NSArray, NSUUID;
 
 @protocol HMDHomeResidentMessagingContext
+- (NSArray *)rolSharing;
+- (HMFMessageDispatcher *)setSourceAppWindowRect: /* Error: Ran out of types for this method. */;
 - (NSUUID *)for accountInfo:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *enabledResidents;
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher;
 @end
 

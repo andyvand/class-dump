@@ -12,28 +12,24 @@ __attribute__((visibility("hidden")))
 @interface NSTableHeaderCellView : NSView
 {
     NSTableHeaderView *_tableHeaderView;
-    NSCell *_cell;
-    _Bool _selected;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id)c}@peer %{public}@%{public}@ on transport %{public}@ due to no changes;
 - (id);
-- (id);
-- (id)ge:(struct CGRect)arg1;
+- (id)removeChildrenOfIndexRange:(struct CGRect)arg1;
 - (void)set_Si5index_{Dh7elementtADt;
-- (void)PreventBadBoundsScale;
+- (void)NSViewPreventBadBoundsScale;
 - (_Bool);
 
 // Remaining properties
 @property(retain) NSCell *cell; // @synthesize cell=_cell;
-@property(getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property NSTableHeaderView *tableHeaderView; // @synthesize tableHeaderView=_tableHeaderView;
 
 @end
 

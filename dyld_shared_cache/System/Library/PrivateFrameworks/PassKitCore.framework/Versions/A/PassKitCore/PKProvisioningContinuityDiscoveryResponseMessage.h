@@ -17,10 +17,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)_;
+- (id)
+;
 - (_Bool);
-- (void)reet1;
+- (void)invalidStreet1;
 
 // Remaining properties
 @property(readonly, nonatomic) PKContinuityProximityVerification *proximityVerification; // @synthesize proximityVerification=_proximityVerification;

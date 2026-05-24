@@ -5,5 +5,9 @@
 //
 
 @protocol HLPURLSessionCustomAuthHandling
++ (_Bool);
+
+@optional
+- (void);
 @end
 

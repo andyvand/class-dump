@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, RTBiomeManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationStore, RTLearnedVisit, RTPlaceTypeClassifierMetricsCalculator, RTPlatform;
+@class RTBiomeManager;
 
 @interface RTLearnedPlaceTypeInferenceGenerator
 {
     RTBiomeManager *_biomeManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTPlaceTypeClassifierMetricsCalculator *_placeTypeClassifierMetricsCalculator;
-    RTPlatform *_platform;
-    NSMutableArray *_placeStats;
-    RTLearnedVisit *_firstVisit;
-    RTLearnedVisit *_lastVisit;
-    NSDictionary *_placeStatsUUIDStringsToMLFeaturesMap;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)CSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
++ (id)aerobic;
 + (id);
 - (void);
 - (_Bool);
@@ -41,33 +32,33 @@
 - (id);
 - (id);
 - (id);
+- (id)NSDictionary"24B32;
+- (id)setRecordTypeForReading:(id)arg1;
+- (id)setQueryWatches:(id)arg1;
+- (id)setQueryEscrowKey:(id)arg1;
+- (id)setPrimarySerializedEscrowRecord:(id)arg1;
+- (id)setObject:(_Bool)arg1 forKeyedSubscript:(unsigned long long)arg2;
+- (id)setNeedPassword:(unsigned long long)arg1;
+- (id)setMirrorKey:(id)arg1 service:(id)arg2 type:publicIdentity: /* Error: Ran out of types for this method. */;
+- (id)setLrcSerializedEscrowRecord:(id)arg1;
+- (id)_iCDPHSMWalrus;
+- (id)scrowKey;
+- (id)dIDStatment;
+- (id)ping error with possible identity %@:%@ /* Error: Ran out of types for this method. */;
+- (void)claim;
+- (void)upDBREscrow;
+- (id)StingrayData failed, NULL classicContent;
+- (id)d;
+- (id)ficial error injected (%@/%@);
+- (id)8q16q24@"NSError"32;
 - (id);
 - (id);
+- (id)sks:0x%x /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)cationRequest:(id)arg1 ];
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)harger;
@@ -77,15 +68,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTBiomeManager *biomeManager; // @synthesize biomeManager=_biomeManager;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTLearnedVisit *firstVisit; // @synthesize firstVisit=_firstVisit;
-@property(retain, nonatomic) RTLearnedVisit *lastVisit; // @synthesize lastVisit=_lastVisit;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) NSMutableArray *placeStats; // @synthesize placeStats=_placeStats;
-@property(retain, nonatomic) NSDictionary *placeStatsUUIDStringsToMLFeaturesMap; // @synthesize placeStatsUUIDStringsToMLFeaturesMap=_placeStatsUUIDStringsToMLFeaturesMap;
-@property(retain, nonatomic) RTPlaceTypeClassifierMetricsCalculator *placeTypeClassifierMetricsCalculator; // @synthesize placeTypeClassifierMetricsCalculator=_placeTypeClassifierMetricsCalculator;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
 
 @end
 

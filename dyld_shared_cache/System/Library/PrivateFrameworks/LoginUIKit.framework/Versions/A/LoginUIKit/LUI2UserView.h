@@ -6,31 +6,15 @@
 
 #import <LoginUIKit/LUI2View.h>
 
-@class AVTView, LUI2DarkenView, LUI2TextField, LUI2TrackedAvatarBackgroundView, LUI2TrackedImageView, NSImageView, NSStackView, NSString, NSTextField, NSView, NSVisualEffectView;
+@class NSImageView;
 
 @interface LUI2UserView : LUI2View
 {
     _Bool _enabled;
-    _Bool _canShowAvatar;
-    _Bool _avatarShown;
-    _Bool _selectedInternal;
-    id _target;
-    SEL _action;
-    id _representedObject;
-    LUI2TrackedImageView *_userPicture;
-    AVTView *_userAvatar;
-    LUI2TrackedAvatarBackgroundView *_userAvatarBackground;
-    LUI2TextField *_userName;
-    NSTextField *_avatarDebugInfo;
-    NSImageView *_loggedInIndicator;
-    NSView *_userSelection;
-    NSVisualEffectView *_backgroundView;
-    LUI2DarkenView *_darkenView;
-    NSStackView *_stackView;
 }
 
-+ (CDStruct_fa0fd69b);
-+ (CDStruct_fa0fd69b);
++ (CDStruct_3817e2c3)@y);
++ (CDStruct_3817e2c3);
 + (struct CGSize);
 + (void)ñC&1Â0@ù
 × ;
@@ -48,48 +32,48 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)iN;
 - (id);
 - (id);
 - (id);
-- (void);
-- (double);
-- (id);
-- (void);
-- (_Bool);
+- (void)(!;
+- (double)T;
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)RA;
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void)a;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (SEL);
-- (void);
+- (SEL);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -100,32 +84,7 @@
 - (void);
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(retain) NSTextField *avatarDebugInfo; // @synthesize avatarDebugInfo=_avatarDebugInfo;
-@property _Bool avatarShown; // @synthesize avatarShown=_avatarShown;
-@property(retain) NSVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property _Bool canShowAvatar; // @synthesize canShowAvatar=_canShowAvatar;
-@property(retain) LUI2DarkenView *darkenView; // @synthesize darkenView=_darkenView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSImageView *loggedInIndicator; // @synthesize loggedInIndicator=_loggedInIndicator;
-@property(getter=isLoggedInIndicatorHidden) _Bool loggedInIndicatorHidden;
-@property(retain) id representedObject; // @synthesize representedObject=_representedObject;
-@property(getter=isSelected) _Bool selected;
-@property _Bool selectedInternal; // @synthesize selectedInternal=_selectedInternal;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
-@property(readonly) AVTView *userAvatar; // @synthesize userAvatar=_userAvatar;
-@property(readonly) LUI2TrackedAvatarBackgroundView *userAvatarBackground; // @synthesize userAvatarBackground=_userAvatarBackground;
-@property(readonly) LUI2TextField *userName; // @synthesize userName=_userName;
-@property(readonly) LUI2TrackedImageView *userPicture; // @synthesize userPicture=_userPicture;
-@property(retain) NSView *userSelection; // @synthesize userSelection=_userSelection;
 
 @end
 

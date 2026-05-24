@@ -6,47 +6,35 @@
 
 #import <EventKit/EKSerializableObject.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface EKSerializableParticipant : EKSerializableObject
 {
     NSString *_name;
-    NSString *_emailAddress;
-    NSString *_phoneNumber;
-    NSURL *_url;
-    long long _participantRole;
-    long long _participantStatus;
-    long long _participantType;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id)ng)(CFStringRef));
+- (id)f;
+- (id)ceeding to verify step.;
 - (void);
+- (void);
+- (long long)verifyPrimeSignature:error: /* Error: Ran out of types for this method. */;
+- (long long)unsignedIntegerWithUnsignedInteger: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (long long);
-- (void);
-- (long long);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)Frameworks/IOSurface.framework/Versions/A/IOSurface;
+- (void)(;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long participantRole; // @synthesize participantRole=_participantRole;
-@property(nonatomic) long long participantStatus; // @synthesize participantStatus=_participantStatus;
-@property(nonatomic) long long participantType; // @synthesize participantType=_participantType;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

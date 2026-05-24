@@ -6,26 +6,24 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class DMFControlGroupIdentifier, NSArray;
+@class DMFControlGroupIdentifier;
 
 @interface DMFLeaveControlGroupRequest : DMFTaskRequest
 {
     DMFControlGroupIdentifier *_groupIdentifier;
-    NSArray *_leaderIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)	;
+- (void)ion;
 
 // Remaining properties
 @property(retain, nonatomic) DMFControlGroupIdentifier *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(copy, nonatomic) NSArray *leaderIdentifiers; // @synthesize leaderIdentifiers=_leaderIdentifiers;
 
 @end
 

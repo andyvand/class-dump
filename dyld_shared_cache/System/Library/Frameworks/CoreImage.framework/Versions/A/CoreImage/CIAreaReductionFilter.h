@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
-- (id)tions: /* Error: Ran out of types for this method. */;
+- (id)+ ;
+- (id)initWithCVPixelBuffer:properties:options: /* Error: Ran out of types for this method. */;
 - (id)ktqyqtqvQf`ogbZittttt}{y}nzy~drosekhk]jgjjlllllllbbbbBQJR7G<N____wwww{{{{\iejhhhhvvvvoluqyYleuoxt{Yne{Kh]z}xnqxt~zzvz|xt|q{yyywy7PAfVcZn;
 
 @end

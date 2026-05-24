@@ -7,9 +7,6 @@
 @interface MediaPlaybackCore.OverlappingTransitionTimeImpl
 {
     double startItemSourceTime;
-    double startItemTargetTime;
-    double endItemSourceTime;
-    double endItemTargetTime;
 }
 
 - (double);
@@ -22,10 +19,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double endItemSourceTime; // @synthesize endItemSourceTime;
-@property(nonatomic) double endItemTargetTime; // @synthesize endItemTargetTime;
 @property(nonatomic) double startItemSourceTime; // @synthesize startItemSourceTime;
-@property(nonatomic) double startItemTargetTime; // @synthesize startItemTargetTime;
 
 @end
 

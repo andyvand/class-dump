@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
-
 @interface _PSDBSCAN
 {
     unsigned long long _minPts;
-    double _eps;
-    NSMutableArray *_pointsArray;
-    NSMutableSet *_visitedPoints;
-    NSMutableArray *_noisePoints;
-    NSMutableSet *_clusteredPoints;
-    NSMutableArray *_clusters;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)_hasAceId;
+- (void)_followup;
+- (void)_durationSelfTriggerSuppressionWasActiveInSeconds;
+- (id)_debugSessionConnectionSnapshotCaptured;
+- (id)_contextualReplayBiomeRecordCreated;
+- (unsigned long long)_contextCollectorFetchContext;
+- (void)_contentAgeInSeconds;
+- (id)_clientProcessAssetAvailabilityStatus;
+- (id)_appUsageCountForEntityFromSiri1Hr;
+- (void)_appUsageCount14Days;
+- (id)_appContactFreqForMessages1Day;
+- (void)_answerSynthesisTime;
+- (void)DetectionType;
+- (void)tInUsingApp10Min;
+- (id)larInstant;
 - (void);
 - (id);
 - (double);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableSet *clusteredPoints; // @synthesize clusteredPoints=_clusteredPoints;
-@property(retain) NSMutableArray *clusters; // @synthesize clusters=_clusters;
-@property(readonly) double eps; // @synthesize eps=_eps;
 @property(readonly) unsigned long long minPts; // @synthesize minPts=_minPts;
-@property(retain) NSMutableArray *noisePoints; // @synthesize noisePoints=_noisePoints;
-@property(retain) NSMutableArray *pointsArray; // @synthesize pointsArray=_pointsArray;
-@property(retain) NSMutableSet *visitedPoints; // @synthesize visitedPoints=_visitedPoints;
 
 @end
 

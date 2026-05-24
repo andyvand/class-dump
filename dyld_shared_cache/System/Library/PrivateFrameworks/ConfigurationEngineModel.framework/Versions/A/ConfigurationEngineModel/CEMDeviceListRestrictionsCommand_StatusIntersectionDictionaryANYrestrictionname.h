@@ -16,10 +16,10 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)is.voice.bubbles;
 - (id);
 - (void);
 

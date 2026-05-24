@@ -6,25 +6,12 @@
 
 #import <MapKit/MKPlaceSectionViewController.h>
 
-@class MKPlaceSectionRowView, NSArray, NSMutableAttributedString, NSString, UIButton, UIView, _MKPlaceActionButtonController;
-@protocol GEOTransitLineItem, MKPlaceHeaderButtonsViewControllerDelegate, _MKPlaceActionControlledButton, _MKPlaceItem;
+@class MKPlaceSectionRowView;
+@protocol _MKPlaceItem;
 
 @interface MKPlaceHeaderButtonsViewController : MKPlaceSectionViewController
 {
     MKPlaceSectionRowView *_buttonsContainerView;
-    NSArray *_constraints;
-    UIButton<_MKPlaceActionControlledButton> *_primaryButton;
-    UIButton<_MKPlaceActionControlledButton> *_alternatePrimaryButton;
-    UIButton<_MKPlaceActionControlledButton> *_secondaryButton;
-    NSMutableAttributedString *_currentETAString;
-    _Bool _resizableViewsDisabled;
-    id <_MKPlaceItem> _placeItem;
-    id <GEOTransitLineItem> _lineItem;
-    id <MKPlaceHeaderButtonsViewControllerDelegate> _delegate;
-    unsigned long long _primaryButtonType;
-    _MKPlaceActionButtonController *_alternatePrimaryButtonController;
-    _MKPlaceActionButtonController *_secondaryButtonController;
-    NSArray *_buttons;
 }
 
 - (void);
@@ -36,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -52,7 +39,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)qA;
 - (id);
 - (id);
 - (void);
@@ -61,27 +48,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void)teDistance;
+- (void)h;
+- (void)centerCoordinateDistance;
 - (id)ation provider [%@](%p) for %@ did resume location updates;
 
 // Remaining properties
-@property(retain, nonatomic) _MKPlaceActionButtonController *alternatePrimaryButtonController; // @synthesize alternatePrimaryButtonController=_alternatePrimaryButtonController;
-@property(readonly, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(readonly, nonatomic) UIView *contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKPlaceHeaderButtonsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <GEOTransitLineItem> lineItem; // @synthesize lineItem=_lineItem;
 @property(retain, nonatomic) id <_MKPlaceItem> placeItem; // @synthesize placeItem=_placeItem;
-@property(nonatomic) unsigned long long primaryButtonType; // @synthesize primaryButtonType=_primaryButtonType;
-@property(nonatomic) _Bool resizableViewsDisabled; // @synthesize resizableViewsDisabled=_resizableViewsDisabled;
-@property(retain, nonatomic) _MKPlaceActionButtonController *secondaryButtonController; // @synthesize secondaryButtonController=_secondaryButtonController;
-@property(readonly) Class superclass;
 
 @end
 

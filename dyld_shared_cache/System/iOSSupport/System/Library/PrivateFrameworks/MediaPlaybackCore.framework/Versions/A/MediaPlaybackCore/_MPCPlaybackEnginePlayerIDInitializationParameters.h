@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, MPNowPlayingInfoCenter, MPRemoteCommandCenter, NSArray, NSString;
+@class MPNowPlayingInfoCenter;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlaybackEnginePlayerIDInitializationParameters
 {
     MPNowPlayingInfoCenter *_nowPlayingInfoCenter;
-    MPRemoteCommandCenter *_remoteCommandCenter;
-    AVAudioSession *_audioSession;
-    NSString *_playerID;
-    NSArray *_eventStreamConsumers;
 }
 
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);
@@ -25,18 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)c}@] sectionedIdentifierList:dataSourceDidUpdateItems:inSection:| committing edit [data source updated items] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AVAudioSession *audioSession; // @synthesize audioSession=_audioSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *eventStreamConsumers; // @synthesize eventStreamConsumers=_eventStreamConsumers;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MPNowPlayingInfoCenter *nowPlayingInfoCenter; // @synthesize nowPlayingInfoCenter=_nowPlayingInfoCenter;
-@property(readonly, copy, nonatomic) NSString *playerID; // @synthesize playerID=_playerID;
-@property(readonly, nonatomic) MPRemoteCommandCenter *remoteCommandCenter; // @synthesize remoteCommandCenter=_remoteCommandCenter;
-@property(readonly) Class superclass;
 
 @end
 

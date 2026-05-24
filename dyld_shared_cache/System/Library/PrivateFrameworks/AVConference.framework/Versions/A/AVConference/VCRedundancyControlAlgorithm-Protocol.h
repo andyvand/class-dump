@@ -7,7 +7,6 @@
 @protocol VCRedundancyControlAlgorithm
 
 // Remaining properties
-@property(readonly, nonatomic) double redundancyInterval;
 @property(readonly, nonatomic) unsigned int redundancyPercentage;
 @end
 

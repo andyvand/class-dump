@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol UITraitChangeRegistration;
+
 @protocol UITraitChangeObservableInternal
+- (id <UITraitChangeRegistration>)handleTranscriptBackgroundCommandWithPipeline:(NSArray *)arg1 input:(id)arg2 completionBlock:(SEL)arg3;
+- (id <UITraitChangeRegistration>)handleSyndicatedActionWithPipeline:(NSArray *)arg1 input:(void (^)(id <UITraitEnvironment>, UITraitCollection *))arg2 completionBlock: /* Error: Ran out of types for this method. */;
 @end
 

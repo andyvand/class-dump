@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationControllerLogEvent
 {
     NSString *_isTriggeredOnControllerDevice;
-    NSString *_userPrivilege;
 }
 
 - (id);
-- (id);
+- (id)with error code:%ld, %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)numV2Keys;
 
 // Remaining properties
 @property(readonly, copy) NSString *isTriggeredOnControllerDevice; // @synthesize isTriggeredOnControllerDevice=_isTriggeredOnControllerDevice;
-@property(readonly, copy) NSString *userPrivilege; // @synthesize userPrivilege=_userPrivilege;
 
 @end
 

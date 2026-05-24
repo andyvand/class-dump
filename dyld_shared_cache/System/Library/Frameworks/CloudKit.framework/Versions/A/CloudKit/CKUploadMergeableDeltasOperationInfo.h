@@ -11,21 +11,19 @@
 @interface CKUploadMergeableDeltasOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_deltas;
-    NSArray *_replacementRequests;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)sEvent;
+- (void)CKSyncEngineWillFetchChangesEvent;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *deltas; // @synthesize deltas=_deltas;
-@property(copy, nonatomic) NSArray *replacementRequests; // @synthesize replacementRequests=_replacementRequests;
 
 @end
 

@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)scriptor"16@?<v@?@"<MTLFunction>"@"NSError">24;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 
 @end

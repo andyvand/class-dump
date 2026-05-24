@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFMediaMetadata;
+@class SFMediaMetadata;
 
 @protocol SFOpenMediaCommand
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientSelectedBundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFMediaMetadata *mediaMetadata;
 @end
 

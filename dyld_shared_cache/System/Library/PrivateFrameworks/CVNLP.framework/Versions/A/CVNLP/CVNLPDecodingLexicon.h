@@ -7,11 +7,9 @@
 @interface CVNLPDecodingLexicon
 {
     struct _LXLexicon *_lexicon;
-    unsigned long long _priority;
-    struct _LXCursor *__rootCursor;
 }
 
-+ (id);
++ (id)1ADE;
 + (id);
 + (struct _LXLexicon *);
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct _LXCursor *_rootCursor; // @synthesize _rootCursor=__rootCursor;
-@property(readonly, nonatomic) struct _LXLexicon *lexicon; // @synthesize lexicon=_lexicon;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 
 @end
 

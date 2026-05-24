@@ -6,38 +6,26 @@
 
 #import <Photos/PHAssetPropertySet.h>
 
-@class NSData, NSDate;
-
 @interface PHAssetSceneAnalysisProperties : PHAssetPropertySet
 {
     short _sceneAnalysisVersion;
-    short _privateEncryptedComputeAnalysisVersion;
-    short _privateEncryptedComputeLocationAnalysisVersion;
-    NSDate *_sceneAnalysisTimestamp;
-    NSData *_distanceIdentity;
-    NSDate *_privateEncryptedComputeAnalysisTimestamp;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id)hSuggestionPropertyCount;
++ (id)_unfair_lock_s=I},V_mediaLock;
++ (id)PHSearchSuggestionPropertyCount;
 + (id)2æ@u;
-- (short);
+- (short)tingAttributeController;
 - (id);
+- (short);
 - (short);
-- (short);
-- (id);
+- (id)blueComponent;
 - (id);
 - (void)et;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *distanceIdentity; // @synthesize distanceIdentity=_distanceIdentity;
-@property(readonly, nonatomic) NSDate *privateEncryptedComputeAnalysisTimestamp; // @synthesize privateEncryptedComputeAnalysisTimestamp=_privateEncryptedComputeAnalysisTimestamp;
-@property(readonly, nonatomic) short privateEncryptedComputeAnalysisVersion; // @synthesize privateEncryptedComputeAnalysisVersion=_privateEncryptedComputeAnalysisVersion;
-@property(readonly, nonatomic) short privateEncryptedComputeLocationAnalysisVersion; // @synthesize privateEncryptedComputeLocationAnalysisVersion=_privateEncryptedComputeLocationAnalysisVersion;
-@property(readonly, nonatomic) NSDate *sceneAnalysisTimestamp; // @synthesize sceneAnalysisTimestamp=_sceneAnalysisTimestamp;
 @property(readonly, nonatomic) short sceneAnalysisVersion; // @synthesize sceneAnalysisVersion=_sceneAnalysisVersion;
 
 @end

@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChat;
+@class IMDChat, NSArray;
 
 @protocol IMMessageMomentShareProcessingParameter
+- (NSArray *)q;
+- (IMDChat *);
 
 // Remaining properties
 @property(retain, nonatomic) IMDChat *chat;

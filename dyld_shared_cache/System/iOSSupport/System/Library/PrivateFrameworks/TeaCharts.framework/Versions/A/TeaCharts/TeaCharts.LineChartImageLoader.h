@@ -7,7 +7,6 @@
 @interface TeaCharts.LineChartImageLoader
 {
     id imageGenerator;
-    id styler;
 }
 
 @end

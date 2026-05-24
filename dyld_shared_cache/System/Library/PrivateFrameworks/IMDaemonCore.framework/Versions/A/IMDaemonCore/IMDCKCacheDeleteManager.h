@@ -4,59 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPurgedAttachmentHandler, NSString;
+@class IMPurgedAttachmentHandler;
 
 @interface IMDCKCacheDeleteManager
 {
     _Bool _alreadyCapturedErrorWithAutoBugCapture;
-    _Bool _allowsWritingToDisk;
-    _Bool _deviceLowOnDiskSpace;
-    _Bool _isUsingCentralizedModel;
-    _Bool _isUpdatingAttachmentFileSizes;
-    IMPurgedAttachmentHandler *_purgedAttachmentHandler;
 }
 
 + (id)ID %s;
 - (long long);
 - (_Bool);
+- (_Bool)setShowsBorderOnlyWhileMouseInside: /* Error: Ran out of types for this method. */;
+- (long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)!;
+- (_Bool)4;
+- (_Bool);
+- (id)nullIfExpr;
+- (void).CommentStmt;
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (long long);
 - (void);
 - (id);
 - (long long);
+- (void);
+- (id);
+- (long long)RemoteIsSameDevice;
 - (void);
 - (id)ÔÁZ°!LCù1¯°1Â0@ù
 × ;
@@ -67,19 +62,7 @@
 - (unsigned long long)f' date-read:(id)arg1 '%f' date-played:(id)arg2 '%f' transfer guids:(unsigned long long)arg3 '%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsWritingToDisk; // @synthesize allowsWritingToDisk=_allowsWritingToDisk;
-@property(nonatomic) _Bool alreadyCapturedErrorWithAutoBugCapture; // @synthesize alreadyCapturedErrorWithAutoBugCapture=_alreadyCapturedErrorWithAutoBugCapture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDeviceLowOnDiskSpace) _Bool deviceLowOnDiskSpace; // @synthesize deviceLowOnDiskSpace=_deviceLowOnDiskSpace;
-@property(readonly) unsigned long long hash;
-@property _Bool isUpdatingAttachmentFileSizes; // @synthesize isUpdatingAttachmentFileSizes=_isUpdatingAttachmentFileSizes;
-@property(nonatomic) _Bool isUsingCentralizedModel; // @synthesize isUsingCentralizedModel=_isUsingCentralizedModel;
 @property(retain, nonatomic) IMPurgedAttachmentHandler *purgedAttachmentHandler; // @synthesize purgedAttachmentHandler=_purgedAttachmentHandler;
-@property(readonly) Class superclass;
 
 @end
 

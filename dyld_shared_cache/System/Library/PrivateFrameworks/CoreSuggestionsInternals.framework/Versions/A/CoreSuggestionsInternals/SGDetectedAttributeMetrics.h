@@ -11,21 +11,21 @@
     PETEventTracker2 *_pet2Tracker;
 }
 
-+ (id);
++ (id);
++ (void);
++ (void);
++ (void)__DATA_CONST;
++ (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
++ (id)f;
++ (void)_pinToSuperviewButBottom;
++ (void)_oauth2ViewContainer;
 + (id);
 - (id);
-- (void);
-- (id);
+- (void)systemFontOfSize:(id)arg1;
+- (id)initWithCoder:(id)arg1;
 - (void)ä3;
 
 // Remaining properties

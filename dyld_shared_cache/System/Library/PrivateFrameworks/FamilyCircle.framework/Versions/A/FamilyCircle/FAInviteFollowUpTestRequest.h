@@ -9,7 +9,7 @@
     id familyCircleRequest;
 }
 
-- (void);
+- (void)@"NSString"16@?0@"NSURL"8;
 - (void);
 - (id);
 - (void);

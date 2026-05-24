@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ManageSubscriptionsRequest
 {
     NSString *_familyID;
-    NSString *_sceneID;
 }
 
 + (_Bool);
@@ -21,12 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)onqueue_completeSwitchTask:withSessionState: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *familyID; // @synthesize familyID=_familyID;
-@property(retain, nonatomic) NSString *sceneID; // @synthesize sceneID=_sceneID;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (id)ant:(struct CGRect)arg1;
+- (id)constraintGreaterThanOrEqualToConstant:(struct CGRect)arg1;
 
 @end
 

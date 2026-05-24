@@ -10,25 +10,21 @@ __attribute__((visibility("hidden")))
 @interface FI_TGenericPropertyValueExtractorStub : FI_IPropertyValueExtractor
 {
     function_0c9508b9 _valueExtractor;
-    function_0dcf08a0 _needsUpdateGetter;
-    function_37a5b018 _isApplicableGetter;
 }
 
-- (function_0c9508b9);
+- (function_0c9508b9);
 - (void);
 - (void);
 - (void);
-- (function_0dcf08a0);
+- (function_e4fc2820);
 - (_Bool);
 - (_Bool);
-- (function_37a5b018);
+- (function_bd37e46c);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) function_37a5b018 isApplicableGetter; // @synthesize isApplicableGetter=_isApplicableGetter;
-@property(nonatomic) function_0dcf08a0 needsUpdateGetter; // @synthesize needsUpdateGetter=_needsUpdateGetter;
 @property(nonatomic) function_0c9508b9 valueExtractor; // @synthesize valueExtractor=_valueExtractor;
 
 @end

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIHoverStyle, UIShape;
+@class UIHoverStyle;
 
 @protocol _UIContextMenuCellLayout
+- (UIHoverStyle *);
+- (long long);
 - (void);
 - (long long)linear focus movement.;
 - (id)Nullable __strong, SEL _Nonnull, BOOL (^ _Nonnull __strong)(id  _Nonnull __strong, BOOL * _Nonnull));
 
 // Remaining properties
-@property(readonly, nonatomic) UIShape *contentShape;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(readonly, nonatomic) long long labelTextAlignment;
 @property(readonly, nonatomic) long long layoutSize;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 @end
 

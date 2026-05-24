@@ -18,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *availableJointGroupNames;
 @property(readonly, copy) NSArray *availableJointNames;
 
 @end

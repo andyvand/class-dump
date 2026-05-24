@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSImage, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface NSSharingItem
 {
     NSURL *_url;
-    NSURL *_coordinatedURL;
-    NSString *_type;
-    NSString *_string;
-    NSData *_data;
-    NSImage *_sourceImage;
-    NSImage *_shareImage;
-    struct CGRect _sourceFrame;
-    struct CGRect _sourceImageContentRect;
-    struct CGRect _shareImageContentRect;
 }
 
 + (_Bool);
@@ -37,36 +28,26 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (struct CGRect);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)buildMenuWithExcludedSections: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (id)e;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)$;
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void)setPopover: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *coordinatedURL; // @synthesize coordinatedURL=_coordinatedURL;
-@property(retain) NSData *data; // @synthesize data=_data;
-@property(retain) NSImage *image; // @dynamic image;
-@property(retain) NSImage *shareImage; // @synthesize shareImage=_shareImage;
-@property struct CGRect shareImageContentRect; // @synthesize shareImageContentRect=_shareImageContentRect;
-@property struct CGRect sourceFrame; // @synthesize sourceFrame=_sourceFrame;
-@property(retain) NSImage *sourceImage; // @synthesize sourceImage=_sourceImage;
-@property struct CGRect sourceImageContentRect; // @synthesize sourceImageContentRect=_sourceImageContentRect;
-@property(retain) NSString *string; // @synthesize string=_string;
 @property(retain) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

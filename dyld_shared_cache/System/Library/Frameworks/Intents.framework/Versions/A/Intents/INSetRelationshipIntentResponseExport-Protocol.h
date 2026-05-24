@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INContactCard;
-
 @protocol INSetRelationshipIntentResponseExport
-- (long long)f_isSystem;
+- (void)eady to accept data connection from server;
+- (long long)if_isSystem;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INContactCard *meCard;
 @end
 

@@ -7,10 +7,6 @@
 @interface SkyLight.PKGSystemStatusIndicatorsSpring.SpringBehavior__priv_87FE1EE3101D9959C103B7B6E6890EE2
 {
     id dampingRatio;
-    id response;
-    id tension;
-    id friction;
-    id settlingDuration;
 }
 
 @end

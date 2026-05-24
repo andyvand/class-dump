@@ -8,21 +8,15 @@ __attribute__((visibility("hidden")))
 @interface NSConcreteMutableData
 {
     unsigned int _reserved:1;
-    unsigned int _needToZero:1;
-    unsigned int _hasVM:1;
-    unsigned int _retainCount:29;
-    unsigned long long _length;
-    unsigned long long _capacity;
-    void *_bytes;
 }
 
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
+- (id)ꃋ?;
 - (id);
-- (id);
-- (void);
+- (void)";
 - (_Bool);
 - (void);
 - (const void *);

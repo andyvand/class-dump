@@ -9,9 +9,6 @@
 @interface MTLResourceViewPoolDescriptor
 {
     NSString *_label;
-    unsigned long long _resourceViewCount;
-    _Bool _forceBaseResourceID;
-    unsigned long long _baseResourceID;
 }
 
 - (void);
@@ -26,13 +23,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)esetCommandBuffer;
+- (void)resetCommandBuffer;
 
 // Remaining properties
-@property(nonatomic) unsigned long long baseResourceID;
 @property(nonatomic) _Bool forceBaseResourceID;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned long long resourceViewCount; // @synthesize resourceViewCount=_resourceViewCount;
 
 @end
 

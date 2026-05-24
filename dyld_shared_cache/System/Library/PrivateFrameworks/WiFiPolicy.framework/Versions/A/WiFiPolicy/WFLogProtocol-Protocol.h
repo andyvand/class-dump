@@ -7,15 +7,12 @@
 @class NSNumber;
 
 @protocol WFLogProtocol
+- (unsigned long long)classSessionRejected: /* Error: Ran out of types for this method. */;
 - (void)°!DGù¥ð1Â0@ù
 × ;
 - (void)ays:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(getter=getLogLevelEnable) unsigned long long logLevelEnable;
-@property(getter=getLogLevelPersist) unsigned long long logLevelPersist;
 @property(copy, getter=getLogLifespanInDays) NSNumber *logLifespanInDays;
-@property(getter=getLogPrivacy) unsigned long long logPrivacy;
-@property(getter=getMaxFileSizeInMB) unsigned long long maxSizeInKb;
 @end
 

@@ -4,66 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEHelper, NSData, NSDictionary, NSKeyedUnarchiver, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface NEConfigurationManager
 {
     NSString *_description;
-    struct {
-        char _field1[32];
-    } *_authorization;
-    struct os_unfair_lock_s _lock;
-    _Bool _hasReadPermission;
-    _Bool _isVPNPublicAPI;
-    _Bool _isVPNPrivateAPI;
-    _Bool _isNEHelper;
-    _Bool _isSynchronous;
-    _Bool _isSyncedOnQueue;
-    _Bool _hasVPNAPIEntitlement;
-    _Bool _appGroupsChanged;
-    int _changedNotifyToken;
-    NSString *_pluginType;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_outerQueue;
-    NSDictionary *_currentIndex;
-    NSObject<OS_dispatch_queue> *_changedQueue;
-    CDUnknownBlockType _changedHandler;
-    NSMutableDictionary *_loadedIndex;
-    NSMutableDictionary *_loadedConfigurations;
-    NSKeyedUnarchiver *_decoder;
-    long long _generation;
-    NEHelper *_helper;
-    NSData *_SCPreferencesSignature;
-    NSMutableDictionary *_appGroupMap;
-    NSUUID *_userUUID;
-    long long _configurationChangeSource;
 }
 
++ (id)setDeviceDidDisconnectHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id)amused;
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id)om.apple.xbs/TemporaryDirectory.705AQZ/Sources/Sharing/Framework/SFCodableCGImage.swift;
+- (_Bool)d yet
+;
+- (void)SenderCompositeName;
+- (void);
+- (void);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (void);
+- (id);
+- (void)__swift5_types;
+- (long long)_refreshTimeInterval;
+- (void)ence;
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -89,15 +61,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)vePacket: /* Error: Ran out of types for this method. */;
+- (void)receivePacket: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool appGroupsChanged; // @synthesize appGroupsChanged=_appGroupsChanged;
-@property long long configurationChangeSource; // @synthesize configurationChangeSource=_configurationChangeSource;
 @property _Bool hasVPNAPIEntitlement; // @synthesize hasVPNAPIEntitlement=_hasVPNAPIEntitlement;
-@property(copy) CDUnknownBlockType incomingMessageHandler;
-@property(readonly) NSString *pluginType; // @synthesize pluginType=_pluginType;
-@property(readonly) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

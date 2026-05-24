@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener, WBSHistoryConnectionProxy;
+@class NSXPCListener;
 @protocol WBSCompletionListVendorForHistoryServiceDataSource;
 
 @interface WBSCompletionListVendorForHistoryService
 {
     NSXPCListener *_xpcListener;
-    WBSHistoryConnectionProxy *_historyProxy;
-    CDUnknownBlockType _completionListItemsCallback;
-    id <WBSCompletionListVendorForHistoryServiceDataSource> _dataSource;
 }
 
 - (void);
@@ -26,13 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <WBSCompletionListVendorForHistoryServiceDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

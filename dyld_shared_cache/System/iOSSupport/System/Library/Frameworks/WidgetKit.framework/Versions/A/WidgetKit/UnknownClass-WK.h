@@ -7,7 +7,7 @@
 @class INAppIntent;
 
 @interface UnknownClass (WK)
-- (id);
+- (id)actionWithTitle:style:handler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) INAppIntent *_wk_asMigratedAppIntent;

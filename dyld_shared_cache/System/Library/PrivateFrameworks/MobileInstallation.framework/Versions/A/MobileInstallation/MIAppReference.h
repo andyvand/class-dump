@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIAppIdentity, NSUUID;
+@class NSUUID;
 
 @interface MIAppReference
 {
     unsigned int _uid;
-    NSUUID *_referenceUUID;
-    MIAppIdentity *_identity;
-    unsigned long long _domain;
 }
 
 + (_Bool);
 + (_Bool);
 - (id);
 - (id);
+- (id)rm_createNewResourcesIn:(id)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -29,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) MIAppIdentity *identity; // @synthesize identity=_identity;
 @property(readonly, nonatomic) NSUUID *referenceUUID; // @synthesize referenceUUID=_referenceUUID;
-@property(readonly, nonatomic) unsigned int uid; // @synthesize uid=_uid;
 
 @end
 

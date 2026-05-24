@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPRTPStreamingControlCommandWrapper, HAPTLVUnsignedNumberValue, NSData, NSString;
+@class NSData;
 
 @interface HAPRTPStreamingControlRequest
 {
     NSData *_sessionIdentifier;
-    HAPRTPStreamingControlCommandWrapper *_command;
-    HAPTLVUnsignedNumberValue *_videoTier;
-    HAPTLVUnsignedNumberValue *_videoSSRC;
-    HAPTLVUnsignedNumberValue *_audioTier;
-    HAPTLVUnsignedNumberValue *_audioSSRC;
 }
 
 + (id);
+- (id)!;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,19 +34,7 @@
 - (id)accessories;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *audioSSRC; // @synthesize audioSSRC=_audioSSRC;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *audioTier; // @synthesize audioTier=_audioTier;
-@property(retain, nonatomic) HAPRTPStreamingControlCommandWrapper *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *videoSSRC; // @synthesize videoSSRC=_videoSSRC;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *videoTier; // @synthesize videoTier=_videoTier;
 
 @end
 

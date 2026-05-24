@@ -11,10 +11,10 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id)aring;
+- (id)_DKBluetoothMetadataKey__isUserWearing;
 
 @end
 

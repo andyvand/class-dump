@@ -4,66 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABDebugPanelExperimentBranch, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOABExperimentAssignment
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOABDebugPanelExperimentBranch *_debugExperimentBranch;
-    NSString *_offlineAbJson;
-    NSString *_querySubstring;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _placeRequestType;
-    int _serviceType;
-    struct {
-        unsigned int has_placeRequestType:1;
-        unsigned int has_serviceType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_debugExperimentBranch:1;
-        unsigned int read_offlineAbJson:1;
-        unsigned int read_querySubstring:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)IsHandsFreeProfileEnabled:(id)arg1;
++ (_Bool)setHasMapSettingsIsHandsFreeProfileEnabled:(id)arg1;
 - (void);
 - (void);
-- (void);
+- (void)apiUsageLog;
 - (id);
-- (id);
+- (id)>?$@ AdAhB;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (int);
 - (void);
 - (void);
+- (id)didStopRecordingWithError:(int)arg1;
+- (void)_hardStopAndRestartAudioQueueIfNeeded;
+- (void)o:(int)arg1 ];
+- (int)gered;
 - (id);
 - (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)ces;
+- (int)mapsui_cardBackgroundColor;
 - (_Bool);
 - (id);
 - (id);
 - (void)Q·*ð1Â0@ù
 × ;
-- (int);
-- (id)rrideLocale:(struct _NSZone *)arg1;
+- (int)tappedProactiveTrayItem;
+- (id)localizationURLStringIfNecessaryForActiveTileSet:(struct _NSZone *)arg1 tileKey:overrideLocale: /* Error: Ran out of types for this method. */;
 - (id)Ì*;
 - (id)departureFrequency :%f
   departureFrequencyValidUntil :%@ /* Error: Ran out of types for this method. */;
@@ -73,17 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOABDebugPanelExperimentBranch *debugExperimentBranch;
-@property(readonly, nonatomic) _Bool hasDebugExperimentBranch;
-@property(readonly, nonatomic) _Bool hasOfflineAbJson;
-@property(nonatomic) _Bool hasPlaceRequestType;
-@property(readonly, nonatomic) _Bool hasQuerySubstring;
 @property(nonatomic) _Bool hasServiceType;
-@property(retain, nonatomic) NSString *offlineAbJson;
-@property(nonatomic) int placeRequestType;
-@property(retain, nonatomic) NSString *querySubstring;
-@property(nonatomic) int serviceType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

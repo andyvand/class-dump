@@ -14,13 +14,13 @@
     id widthForKerningAdjustment;
 }
 
-- (struct CGRect);
-- (id);
+- (struct CGRect)chat validation has been disabled. Considering the chat validated.;
+- (id)`;
 - (id)0@ù
 × ;
-- (id)Descriptor;
+- (id)UIAlertControllerDescriptor;
 - (id)aluatedObjectCache init];
-- (void)ollerPHAsset;
+- (void)UIImagePickerControllerPHAsset;
 - (void)ðûþ±È;
 
 // Remaining properties

@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, UIApplicationShortcutIcon;
+@class NSString;
 
 @interface UIApplicationShortcutItem
 {
     _Bool _sectionHeader;
-    NSString *_type;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
-    UIApplicationShortcutIcon *_icon;
-    id _targetContentIdentifier;
-    NSData *_userInfoData;
-    unsigned long long _activationMode;
 }
 
-+ (id);
-+ (id);
++ (id)albumArtistRepresentativeItemPersistentID;
++ (id)?	;
 - (id);
+- (void)hJ;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)compoundPredicate;
 - (id);
 - (unsigned long long);
 - (id)0@ù
@@ -35,17 +28,17 @@
 × ;
 - (id)=dd}88q104{CACornerRadii={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}112d176;
 - (id)16@"NSAttributedString"24{_NSRange=QQ}32@"WTContext"48B56;
-- (void)idateFavoriteOrder:(id)arg1;
-- (unsigned long long)forSegmentType:barMetrics: /* Error: Ran out of types for this method. */;
-- (_Bool)KeyBackgroundColorName;
-- (id)youtAxisForGroup:(id)arg1;
-- (void)ctionView:(id)arg1 dataOwnerForDropSession:withDestinationIndexPath: /* Error: Ran out of types for this method. */;
+- (void)validateFavoriteOrder:(id)arg1;
+- (unsigned long long)setContentPositionAdjustment:forSegmentType:barMetrics: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultKeyBackgroundColorName;
+- (id)_layoutAxisForGroup:(id)arg1;
+- (void)_collectionView:(id)arg1 dataOwnerForDropSession:withDestinationIndexPath: /* Error: Ran out of types for this method. */;
 - (id),G_isContextualSharingAllowed,S_setContextualSharingAllowed:(id)arg1;
 - (id)",&,N;
 - (id)C;
 - (void)cy exception "Hosted search should take a different code path". Here's the call stack:(id)arg1 %@;
-- (id)dentifier;
-- (void)oncentricCorner;
+- (id)correctionIdentifier;
+- (void)ConcentricCorner;
 - (id)ùà;
 - (void);
 - (id)Ú1ÿ;
@@ -55,23 +48,7 @@
 - (void)Zo;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activationMode; // @synthesize activationMode=_activationMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIApplicationShortcutIcon *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly) id representedObjectForMenuItem;
-@property(nonatomic, getter=isSectionHeader) _Bool sectionHeader; // @synthesize sectionHeader=_sectionHeader;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) id targetContentIdentifier; // @synthesize targetContentIdentifier=_targetContentIdentifier;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic) NSDictionary *userInfo;
-@property(copy, nonatomic) NSData *userInfoData; // @synthesize userInfoData=_userInfoData;
+@property(readonly, copy, nonatomic) NSString *localizedTitle;
 
 @end
 

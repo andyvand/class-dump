@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSSet, NSString;
-
 @interface FCCKZoneSchema
 {
     _Bool _shouldEncryptRecordNames;
-    _Bool _shouldUseZoneWidePCS;
-    _Bool _shouldUseSecureContainer;
-    NSString *_zoneName;
-    CKRecordZoneID *_zoneID;
-    NSSet *_staticRecordNames;
 }
 
 - (id);

@@ -9,7 +9,6 @@
 @interface MELoader
 {
     NSMutableDictionary *_exporters;
-    NSMutableDictionary *_exporterProperties;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)v;
 - (id);
 - (id);
 - (id);

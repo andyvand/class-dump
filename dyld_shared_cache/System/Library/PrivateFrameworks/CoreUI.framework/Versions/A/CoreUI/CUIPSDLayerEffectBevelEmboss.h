@@ -6,21 +6,9 @@
 
 #import <CoreUI/CUIPSDLayerEffectComponent.h>
 
-@class CUIColor;
-
 @interface CUIPSDLayerEffectBevelEmboss : CUIPSDLayerEffectComponent
 {
     unsigned long long _blurSize;
-    unsigned long long _softenSize;
-    short _angle;
-    unsigned long long _altitude;
-    unsigned int _direction;
-    int _highlightBlendMode;
-    CUIColor *_highlightColor;
-    double _highlightOpacity;
-    int _shadowBlendMode;
-    CUIColor *_shadowColor;
-    double _shadowOpacity;
 }
 
 - (_Bool);
@@ -33,10 +21,10 @@
 - (id);
 - (double);
 - (int);
-- (unsigned long long);
+- (unsigned long long)T;
 - (int);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
@@ -46,24 +34,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (unsigned int);
-- (id);
+- (id)ruleLessThanOrEqualToAnchor:constant:priority:identifier: /* Error: Ran out of types for this method. */;
+- (unsigned int)constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id)(;
 - (void);
 - (void)Í0Î;
 
 // Remaining properties
-@property unsigned long long altitude; // @synthesize altitude=_altitude;
-@property short angle; // @synthesize angle=_angle;
 @property unsigned long long blurSize; // @synthesize blurSize=_blurSize;
-@property unsigned int direction; // @synthesize direction=_direction;
-@property int highlightBlendMode; // @synthesize highlightBlendMode=_highlightBlendMode;
-@property(retain) CUIColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property double highlightOpacity; // @synthesize highlightOpacity=_highlightOpacity;
-@property int shadowBlendMode; // @synthesize shadowBlendMode=_shadowBlendMode;
-@property(retain) CUIColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property double shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property unsigned long long softenSize; // @synthesize softenSize=_softenSize;
 
 @end
 

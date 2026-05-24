@@ -12,24 +12,22 @@ __attribute__((visibility("hidden")))
 @interface FI_TPropertyColumnPreviewDateTextFieldController : FI_TPropertyDateTextFieldController
 {
     NSString *_previewOptionKey;
-    _Bool _userDisabled;
 }
 
 + (id);
 - (_Bool);
 - (void);
-- (optional_a670fce5);
+- (optional_b0be1e53);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)onsTableInMenu;
+- (_Bool)showSuggestionsTableInMenu;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *previewOptionKey; // @synthesize previewOptionKey=_previewOptionKey;
-@property(nonatomic, getter=isUserDisabled) _Bool userDisabled; // @synthesize userDisabled=_userDisabled;
 
 @end
 

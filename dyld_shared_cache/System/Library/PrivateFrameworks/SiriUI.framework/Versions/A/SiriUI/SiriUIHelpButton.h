@@ -7,7 +7,6 @@
 @interface SiriUIHelpButton
 {
     _Bool _animatingEmphasis;
-    _Bool _emphasized;
 }
 
 - (double);
@@ -15,7 +14,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)tj78	;
 - (void);
 
 @end

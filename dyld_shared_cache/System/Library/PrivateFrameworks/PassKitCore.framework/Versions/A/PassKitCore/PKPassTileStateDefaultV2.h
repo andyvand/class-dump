@@ -6,17 +6,11 @@
 
 #import <PassKitCore/PKPassTileState.h>
 
-@class PKPassTileAccessory, PKPassTileImage, PKPassTileValue;
+@class PKPassTileValue;
 
 @interface PKPassTileStateDefaultV2 : PKPassTileState
 {
     PKPassTileValue *_title;
-    PKPassTileValue *_body;
-    PKPassTileImage *_bodyImage;
-    PKPassTileValue *_footer;
-    long long _preferredStyle;
-    PKPassTileAccessory *_accessory;
-    PKPassTileAccessory *_secondaryAccessory;
 }
 
 + (_Bool);
@@ -28,27 +22,21 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)k ;
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)cachedPeersOnOther;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)PKPaymentPrepareTransactionDetailsRequest;
 - (void):%tu bytes> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) PKPassTileAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) PKPassTileValue *body; // @synthesize body=_body;
-@property(retain, nonatomic) PKPassTileImage *bodyImage; // @synthesize bodyImage=_bodyImage;
-@property(retain, nonatomic) PKPassTileValue *footer; // @synthesize footer=_footer;
-@property(nonatomic) long long preferredStyle; // @synthesize preferredStyle=_preferredStyle;
-@property(retain, nonatomic) PKPassTileAccessory *secondaryAccessory; // @synthesize secondaryAccessory=_secondaryAccessory;
 @property(retain, nonatomic) PKPassTileValue *title; // @synthesize title=_title;
 
 @end

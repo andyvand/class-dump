@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface RTXPCListener
 {
     NSString *_machServiceName;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_connectedClients;
-    NSMutableArray *_disconnectedClients;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
@@ -30,17 +26,7 @@
 - (void)eter not satisfying:distanceThresholdArray.count > 0 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *connectedClients; // @synthesize connectedClients=_connectedClients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableArray *disconnectedClients; // @synthesize disconnectedClients=_disconnectedClients;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

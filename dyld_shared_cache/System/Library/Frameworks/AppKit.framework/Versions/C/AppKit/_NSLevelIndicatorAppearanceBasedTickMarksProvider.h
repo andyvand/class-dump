@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLevelIndicatorCell, NSMutableArray, NSString;
+@class NSLevelIndicatorCell;
 
 __attribute__((visibility("hidden")))
 @interface _NSLevelIndicatorAppearanceBasedTickMarksProvider
 {
     NSLevelIndicatorCell *_cell;
-    NSMutableArray *_tickMarkViews;
-    long long _previousNumberOfTickMarks;
-    long long _previousNumberOfMajorTickMarks;
 }
 
-+ (void);
++ (void);
 + (void);
 + (id);
 + (id);
 + (void);
-- (struct CGRect);
+- (struct CGRect)v9YZN998zL0OLA3q6SpPQA;
 - (void);
 - (void);
 - (id);
@@ -33,13 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak NSLevelIndicatorCell *cell; // @synthesize cell=_cell;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

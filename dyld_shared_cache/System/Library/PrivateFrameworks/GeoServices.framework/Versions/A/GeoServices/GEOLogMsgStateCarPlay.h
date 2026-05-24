@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCarInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateCarPlay
 {
     PBUnknownFields *_unknownFields;
-    GEOCarInfo *_carInfo;
-    _Bool _isConnected;
-    struct {
-        unsigned int has_isConnected:1;
-    } _flags;
 }
 
-+ (_Bool)SumElevationGainCm:(id)arg1;
++ (_Bool)setHasSumElevationGainCm:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ΐ;
 - (id);
 - (id);
 - (void);
@@ -42,11 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOCarInfo *carInfo;
-@property(readonly, nonatomic) _Bool hasCarInfo;
 @property(nonatomic) _Bool hasIsConnected;
-@property(nonatomic) _Bool isConnected;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

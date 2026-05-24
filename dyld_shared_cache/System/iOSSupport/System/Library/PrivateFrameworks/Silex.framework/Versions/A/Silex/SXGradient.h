@@ -9,22 +9,16 @@
 @interface SXGradient
 {
     NSArray *_colors;
-    NSArray *_locations;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
 }
 
 - (struct CGPoint);
 - (id);
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)a;
 - (void)"NSMutableArray"16;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, nonatomic) struct CGPoint endPoint; // @synthesize endPoint=_endPoint;
-@property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 @property(readonly, nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
 
 @end

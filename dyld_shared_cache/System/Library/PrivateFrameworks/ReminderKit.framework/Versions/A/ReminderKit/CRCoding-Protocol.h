@@ -5,5 +5,6 @@
 //
 
 @protocol CRCoding
+- (id);
 @end
 

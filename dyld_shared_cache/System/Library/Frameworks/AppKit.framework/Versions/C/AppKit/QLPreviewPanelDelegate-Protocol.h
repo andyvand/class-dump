@@ -7,6 +7,7 @@
 @protocol QLPreviewPanelDelegate
 
 @optional
-- (id)w;
+- (_Bool);
+- (id)stackView;
 @end
 

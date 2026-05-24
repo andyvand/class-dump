@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
+@class NSObject;
 @protocol OS_nw_path;
 
 @interface CPLNetworkState
 {
     _Bool _cellularRestricted;
-    _Bool _inAirplaneMode;
-    NSObject<OS_nw_path> *_networkPath;
 }
 
 - (_Bool);
@@ -20,25 +18,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)#ÕÿÑüo©úg©ø_©öW©ôO©ý{	©ýC÷ªóªõªùªô;
-- (_Bool)ÐÊP;
-- (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)�;
 - (void)
 × ;
 - (_Bool)Fïèx;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUseNetwork;
-@property(readonly, nonatomic, getter=isCellular) _Bool cellular;
-@property(readonly, nonatomic, getter=isCellularRestricted) _Bool cellularRestricted; // @synthesize cellularRestricted=_cellularRestricted;
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic, getter=isConstrained) _Bool constrained;
-@property(readonly, nonatomic, getter=isInAirplaneMode) _Bool inAirplaneMode; // @synthesize inAirplaneMode=_inAirplaneMode;
 @property(readonly, nonatomic) NSObject<OS_nw_path> *networkPath; // @synthesize networkPath=_networkPath;
-@property(readonly, nonatomic) NSDictionary *plistDescription;
 
 @end
 

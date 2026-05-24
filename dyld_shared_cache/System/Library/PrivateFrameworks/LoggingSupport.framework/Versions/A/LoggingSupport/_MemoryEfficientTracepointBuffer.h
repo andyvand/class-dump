@@ -6,25 +6,13 @@
 
 #import <LoggingSupport/_BaseTracepointBuffer.h>
 
-@class CatalogsCache, DataCache, NSMutableDictionary, NSMutableOrderedSet;
-
 __attribute__((visibility("hidden")))
 @interface _MemoryEfficientTracepointBuffer : _BaseTracepointBuffer
 {
     struct tp_element *_traceEvents;
-    NSMutableDictionary *_oversizeTable;
-    unsigned long long _ocount;
-    unsigned long long _osize;
-    NSMutableOrderedSet *_uuids;
-    CatalogsCache *catalogCache;
-    DataCache *dataCache;
-    NSMutableDictionary *storeArray;
-    struct os_timesync_time_entry_s *_tsEntries;
-    unsigned long long _tscount;
-    unsigned long long _tssize;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (struct tp_element *);
 - (void);
@@ -40,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

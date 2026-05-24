@@ -9,15 +9,12 @@
 @interface UIKit.NavigationBarLargeTitleView : _UITouchPassthroughView
 {
     id largeTitleView;
-    id reparentingHelper;
-    id preferredHeight;
-    id recipientScrollViewRemovedFromWindowHandler;
 }
 
 - (id);
 - (void);
 - (void);
-- (id)iewControllerRestoration;
+- (id)UIViewControllerRestoration;
 - (void)sition:completed:] /* Error: Ran out of types for this method. */;
 - (double)>c¼Ç^;
 - (void)ýÙ8Ól;

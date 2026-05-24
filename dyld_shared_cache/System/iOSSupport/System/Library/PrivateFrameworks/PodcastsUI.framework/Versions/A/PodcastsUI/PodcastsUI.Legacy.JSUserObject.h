@@ -9,7 +9,6 @@
 @interface PodcastsUI.Legacy.JSUserObject
 {
     id accountStore;
-    id isPersonalizationEnabled;
 }
 
 - (id);
@@ -21,9 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *accountIdentifier;
-@property(nonatomic, readonly) NSString *dsid;
-@property(nonatomic, readonly) NSString *firstName;
-@property(nonatomic, readonly) NSString *lastName;
 
 @end
 

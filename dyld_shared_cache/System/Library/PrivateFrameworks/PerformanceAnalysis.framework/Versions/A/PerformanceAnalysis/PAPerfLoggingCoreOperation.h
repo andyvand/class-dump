@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PAPerfLoggingCoreOperation
 {
     NSString *_operationName;
-    NSString *_operationCategory;
-    NSString *_processName;
-    NSString *_matchingCategoryRegexString;
-    NSString *_matchingNameRegexString;
-    NSString *_matchingProcessNameRegexString;
-    int _pid;
-    NSMutableArray *_intervalList;
-    NSMutableDictionary *_dictionaryOfIntervalTypesEventArrays;
-    NSMutableArray *_intervalTypesSeenOrder;
-    double _startTimeInSec;
-    double _endTimeInSec;
-    unsigned long long _serialNumber;
-    NSDictionary *_intervalDataDictionary;
-    NSMutableDictionary *_contextProcessingConfigurationsForAllIntervalTypes;
-    NSMutableArray *_slowWSUpdateInfoArray;
-    unsigned int _numSlowWSUpdates;
-    _Bool _hasSeenWSUpdate;
 }
 
 + (id);
@@ -35,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (void);
@@ -53,24 +36,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (int);
-- (id);
+- (int)MPSGraphOperationEncodable;
+- (id)H;
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) double endTimeInSec; // @synthesize endTimeInSec=_endTimeInSec;
-@property(readonly) _Bool hasSeenWSUpdate; // @synthesize hasSeenWSUpdate=_hasSeenWSUpdate;
-@property(readonly) unsigned int numSlowWSUpdates; // @synthesize numSlowWSUpdates=_numSlowWSUpdates;
-@property(copy, nonatomic) NSString *operationCategory; // @synthesize operationCategory=_operationCategory;
 @property(copy, nonatomic) NSString *operationName; // @synthesize operationName=_operationName;
-@property(readonly) int pid; // @synthesize pid=_pid;
-@property(copy, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(readonly) unsigned long long serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly) NSArray *slowWSUpdateInfoArray;
-@property(readonly) double startTimeInSec; // @synthesize startTimeInSec=_startTimeInSec;
 
 @end
 

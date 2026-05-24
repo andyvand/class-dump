@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceAddress
 {
     NSUUID *_idsIdentifier;
-    NSString *_idsDestination;
 }
 
 + (id);
@@ -23,12 +22,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)dleTTRTimerFired:(struct _NSZone *)arg1;
-- (void)BULLETIN_BODY_ADAPTIVE_TEMPERATURE_ONBOARDING;
+- (id)handleTTRTimerFired:(struct _NSZone *)arg1;
+- (void)CLIMATE_BULLETIN_BODY_ADAPTIVE_TEMPERATURE_ONBOARDING;
 
 // Remaining properties
-@property(readonly, getter=isCurrentDevice) _Bool currentDevice;
-@property(readonly, nonatomic) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
 @property(readonly, nonatomic) NSUUID *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
 
 @end

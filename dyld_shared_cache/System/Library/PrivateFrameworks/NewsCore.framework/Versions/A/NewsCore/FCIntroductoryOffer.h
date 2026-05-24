@@ -9,27 +9,21 @@
 @interface FCIntroductoryOffer
 {
     int _offerType;
-    unsigned long long _numOfPeriods;
-    NSString *_priceFormatted;
-    NSString *_subscriptionPeriodInISO_8601;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (int);
 - (unsigned long long);
 - (void);
+- (void)allocatorIS3_EEEE;
+- (id)lete %f phase %@ overallProgress %f;
 - (void);
-- (id);
-- (void);
-- (void)BackgroundImageContentModeLarge;
+- (void)navigationChromeBackgroundImageContentModeLarge;
 
 // Remaining properties
-@property(nonatomic) unsigned long long numOfPeriods; // @synthesize numOfPeriods=_numOfPeriods;
-@property(nonatomic) int offerType; // @synthesize offerType=_offerType;
 @property(copy, nonatomic) NSString *priceFormatted; // @synthesize priceFormatted=_priceFormatted;
-@property(copy, nonatomic) NSString *subscriptionPeriodInISO_8601; // @synthesize subscriptionPeriodInISO_8601=_subscriptionPeriodInISO_8601;
 
 @end
 

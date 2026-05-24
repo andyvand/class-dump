@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface OCFont
 {
     _Bool _bold;
-    _Bool _italic;
-    OCFontSubfamily *_subfamily;
 }
 
 + (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
 - (void)ÌØ	;
 
 // Remaining properties
-@property(nonatomic) _Bool bold; // @synthesize bold=_bold;
-@property(nonatomic) _Bool italic; // @synthesize italic=_italic;
 @property(readonly, nonatomic) OCFontSubfamily *subfamily; // @synthesize subfamily=_subfamily;
 
 @end

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol VNRequestClassProviding
+- (Class)_memojiMetadata;
 
 // Remaining properties
 @property(readonly, copy) NSString *requestClassName;

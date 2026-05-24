@@ -6,22 +6,12 @@
 
 #import <Safari/StartPageTouchIconSectionProvider.h>
 
-@class BookmarkAddressEditingPopoverViewController, NSAppearance, NSArray, NSString, NSTimer, SafariWebBookmarkList, WBSPair, WBTabGroup;
-@protocol StartPageFavoritesSectionProviderDelegate;
+@class BookmarkAddressEditingPopoverViewController, WBTabGroup;
 
 __attribute__((visibility("hidden")))
 @interface StartPageFavoritesSectionProvider : StartPageTouchIconSectionProvider
 {
     BookmarkAddressEditingPopoverViewController *_addressEditingController;
-    SafariWebBookmarkList *_favorites;
-    SafariWebBookmarkList *_currentFolder;
-    NSArray *_currentFolderContent;
-    WBSPair *_sourceIndexPathAndFolderUUID;
-    NSTimer *_hoverTimer;
-    _Bool _shouldHideSectionWhenBaseFolderIsEmpty;
-    NSAppearance *_backgroundAppearance;
-    WBTabGroup *_tabGroup;
-    id <StartPageFavoritesSectionProviderDelegate> _delegate;
 }
 
 - (id);
@@ -52,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,8 +53,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -90,12 +80,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void):(id)arg1;
 - (void);
-- (void);
-- (id);
+- (id)PPM:channelHasData failure:client %@ is not found /* Error: Ran out of types for this method. */;
 - (long long)¢ð1Â0@ù
 × ;
-- (id)owingIdentifiedAddressBookLabelToOverridePreferredIdentifier:(id)arg1;
+- (id)addressBookMatchesForProperty:(id)arg1 key:(id)arg2 label:contact:allowingIdentifiedAddressBookLabelToOverridePreferredIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool)pt (Experimental Preferences);
 - (void)¬;
 - (_Bool)À;
@@ -103,17 +93,6 @@ __attribute__((visibility("hidden")))
 - (void).;
 
 // Remaining properties
-@property(readonly, nonatomic) SafariWebBookmarkList *currentFavoritesBookmarkList;
-@property(readonly, nonatomic) int currentFolderID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <StartPageFavoritesSectionProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldHideSectionWhenBaseFolderIsEmpty; // @synthesize shouldHideSectionWhenBaseFolderIsEmpty=_shouldHideSectionWhenBaseFolderIsEmpty;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WBTabGroup *tabGroup; // @synthesize tabGroup=_tabGroup;
 
 @end

@@ -6,29 +6,17 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class NSObject, RPPeopleDiscovery, _CDContextualKeyPath;
-@protocol OS_os_log;
-
 @interface _DKUserNearbyMonitor : _DKMonitor
 {
     _Bool _enabled;
-    _Bool _sensorTrackingEnabled;
-    int _shouldMonitorToken;
-    int _loginNotifyToken;
-    unsigned int _discoveryFlags;
-    NSObject<OS_os_log> *_log;
-    _CDContextualKeyPath *_userNearbyKeyPath;
-    long long _previousLevel;
-    RPPeopleDiscovery *_discovery;
-    unsigned long long _activeConsoleUser;
 }
 
 + (id);
-+ (id);
++ (id);
 - (long long);
 - (id);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +24,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)<;
 - (long long);
 - (int);
 - (void);
@@ -47,15 +35,15 @@
 - (void);
 - (void);
 - (long long);
+- (void)cloudCacheGetDescriptionForRecordWithScopedIdentifier:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_writeTransactionBlocker;
+- (void);
+- (void)ld not read vector traffic max zoom.;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)k;
 - (_Bool);
 - (id);
 - (void);
@@ -64,16 +52,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeConsoleUser; // @synthesize activeConsoleUser=_activeConsoleUser;
-@property(retain, nonatomic) RPPeopleDiscovery *discovery; // @synthesize discovery=_discovery;
-@property(nonatomic) unsigned int discoveryFlags; // @synthesize discoveryFlags=_discoveryFlags;
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) int loginNotifyToken; // @synthesize loginNotifyToken=_loginNotifyToken;
-@property(nonatomic) long long previousLevel; // @synthesize previousLevel=_previousLevel;
-@property(nonatomic) _Bool sensorTrackingEnabled; // @synthesize sensorTrackingEnabled=_sensorTrackingEnabled;
-@property(nonatomic) int shouldMonitorToken; // @synthesize shouldMonitorToken=_shouldMonitorToken;
-@property(retain, nonatomic) _CDContextualKeyPath *userNearbyKeyPath; // @synthesize userNearbyKeyPath=_userNearbyKeyPath;
 
 @end
 

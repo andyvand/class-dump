@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)st be >= lossImageSize ({%lu %lu %lu}));
 @end
 

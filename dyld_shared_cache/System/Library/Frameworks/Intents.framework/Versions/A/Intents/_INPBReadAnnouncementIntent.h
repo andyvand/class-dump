@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBReadAnnouncementIntent
 {
@@ -12,10 +12,6 @@
         unsigned int readType:1;
         unsigned int userNotificationType:1;
     } _has;
-    int _readType;
-    int _userNotificationType;
-    _INPBIntentMetadata *_intentMetadata;
-    NSString *_startAnnouncementIdentifier;
 }
 
 + (_Bool);
@@ -34,7 +30,7 @@
 - (void);
 - (int);
 - (int);
-- (id);
+- (id)9;
 - (id);
 - (void);
 - (unsigned long long);
@@ -48,21 +44,7 @@
 - (void)ome filter;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasReadType;
-@property(readonly, nonatomic) _Bool hasStartAnnouncementIdentifier;
-@property(nonatomic) _Bool hasUserNotificationType;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int readType; // @synthesize readType=_readType;
-@property(copy, nonatomic) NSString *startAnnouncementIdentifier; // @synthesize startAnnouncementIdentifier=_startAnnouncementIdentifier;
-@property(readonly) Class superclass;
-@property(nonatomic) int userNotificationType; // @synthesize userNotificationType=_userNotificationType;
 
 @end
 

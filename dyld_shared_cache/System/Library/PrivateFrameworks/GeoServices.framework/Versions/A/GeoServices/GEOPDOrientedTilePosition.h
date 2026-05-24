@@ -7,19 +7,6 @@
 @interface GEOPDOrientedTilePosition
 {
     int _altitude;
-    unsigned int _pitch;
-    unsigned int _roll;
-    unsigned int _x;
-    unsigned int _yaw;
-    unsigned int _y;
-    struct {
-        unsigned int has_altitude:1;
-        unsigned int has_pitch:1;
-        unsigned int has_roll:1;
-        unsigned int has_x:1;
-        unsigned int has_yaw:1;
-        unsigned int has_y:1;
-    } _flags;
 }
 
 + (_Bool)setIfChained:(id)arg1;
@@ -27,7 +14,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)T@"VNFaceLandmarkRegion3D",R,V_noseCrest;
 - (void);
 - (_Bool);
 - (void);
@@ -35,9 +22,9 @@
 - (void);
 - (id);
 - (id);
+- (void)_objectOfCustomClass:(_Bool)arg1 fromArchiveDictionary: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)elfTriggerController;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -48,13 +35,13 @@
 - (void);
 - (void)"read_poPox"b1"read_unitNumber"b1"read_unitTypeId"b1"wrote_anyField"b1};
 - (id)EOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@32;
-- (_Bool)teChanged;
-- (int)ce:didRemoveSubscriptionWithIdentifier: /* Error: Ran out of types for this method. */;
-- (void)lternateResourceURLIndex:(unsigned int)arg1;
-- (id)figuration;
+- (_Bool)travelStateChanged;
+- (int)subscriptionPersistence:didRemoveSubscriptionWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setAlternateResourceURLIndex:(unsigned int)arg1;
+- (id)_headerButtonsConfiguration;
 - (unsigned int)ix4x3}*QQQSSCB},R,N;
 - (id)0#;
-- (id);
+- (id)RAP_LOOK_AROUND_IMAGE_QUALITY_FORM;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int)¸;
@@ -62,18 +49,7 @@
 - (unsigned int)_þq;
 
 // Remaining properties
-@property(nonatomic) int altitude;
-@property(nonatomic) _Bool hasAltitude;
-@property(nonatomic) _Bool hasPitch;
-@property(nonatomic) _Bool hasRoll;
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasYaw;
-@property(nonatomic) unsigned int pitch;
-@property(nonatomic) unsigned int roll;
-@property(nonatomic) unsigned int x;
-@property(nonatomic) unsigned int y;
-@property(nonatomic) unsigned int yaw;
 
 @end
 

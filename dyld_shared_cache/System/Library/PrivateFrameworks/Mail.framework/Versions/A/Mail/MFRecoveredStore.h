@@ -15,25 +15,23 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id))y?Uqa;
+- (id))y?Qqa;
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ka	;
 - (_Bool);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (void)ì*;
 - (id)Þÿÿ;
-- (void)loadedWhenAddingCompleteRange;
+- (void)bytesAlreadyDownloadedWhenAddingCompleteRange;
 - (void)Y±ÿ£;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long approximateMessageCount;
-@property(readonly, copy, nonatomic) NSArray *messagesForImporter;
 @property(readonly, copy, nonatomic) NSArray *pathsToImport; // @synthesize pathsToImport=_pathsToImport;
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecord, CKDPRecordIdentifier, NSString;
+@class NSString;
 
 @interface CKDPRecordMoveRequest
 {
     NSString *_destinationEtag;
-    CKDPRecord *_destinationRecord;
-    NSString *_destinationRecordProtectionInfoTag;
-    NSString *_destinationZoneProtectionInfoTag;
-    NSString *_originEtag;
-    CKDPRecordIdentifier *_originId;
-    int _semantics;
-    _Bool _merge;
-    struct {
-        unsigned int semantics:1;
-        unsigned int merge:1;
-    } _has;
 }
 
 + (id);
@@ -43,15 +32,17 @@
 - (id);
 - (id);
 - (int);
-- (void);
+- (void);
 - (id);
 - (void);
-- (int);
+- (int)|
+;
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)x%04X] (avsync) previous sbufEndOutputPTS %1.3f, current sbufOutputPTS %1.3f (diff=%1.3f), nextRemoteMediaTimestamp %1.3f, new nextRemoteMediaTimestamp %1.3f. [ Sbuf=%p. sbufPTS=%1.3f sbufDuration=%1.3f sbufOuptutPTS=%1.3f sbufOutputDuration=%1.3f ] 
+;
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -61,26 +52,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (Class)escription: /* Error: Ran out of types for this method. */;
+- (Class)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (void)$Ô;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destinationEtag; // @synthesize destinationEtag=_destinationEtag;
-@property(retain, nonatomic) CKDPRecord *destinationRecord; // @synthesize destinationRecord=_destinationRecord;
-@property(retain, nonatomic) NSString *destinationRecordProtectionInfoTag; // @synthesize destinationRecordProtectionInfoTag=_destinationRecordProtectionInfoTag;
-@property(retain, nonatomic) NSString *destinationZoneProtectionInfoTag; // @synthesize destinationZoneProtectionInfoTag=_destinationZoneProtectionInfoTag;
-@property(readonly, nonatomic) _Bool hasDestinationEtag;
-@property(readonly, nonatomic) _Bool hasDestinationRecord;
-@property(readonly, nonatomic) _Bool hasDestinationRecordProtectionInfoTag;
-@property(readonly, nonatomic) _Bool hasDestinationZoneProtectionInfoTag;
-@property(nonatomic) _Bool hasMerge;
-@property(readonly, nonatomic) _Bool hasOriginEtag;
-@property(readonly, nonatomic) _Bool hasOriginId;
 @property(nonatomic) _Bool hasSemantics;
-@property(nonatomic) _Bool merge; // @synthesize merge=_merge;
-@property(retain, nonatomic) NSString *originEtag; // @synthesize originEtag=_originEtag;
-@property(retain, nonatomic) CKDPRecordIdentifier *originId; // @synthesize originId=_originId;
-@property(nonatomic) int semantics; // @synthesize semantics=_semantics;
 
 @end
 

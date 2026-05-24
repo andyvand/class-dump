@@ -7,14 +7,10 @@
 @interface NewsFeed.SharingIssueURLActivityItemSource
 {
     id issueURL;
-    id issueTitle;
-    id issueDescription;
-    id issueCoverDate;
-    id linkPresentationSource;
 }
 
 - (id);
-- (id);
+- (id)C@9;
 - (id);
 - (id);
 - (void) : 1 /* Error: Ran out of types for this method. */;

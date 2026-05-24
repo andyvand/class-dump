@@ -6,7 +6,7 @@
 
 #import <BackBoardServices/BKSHIDEventSimpleProvenance.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface BKSMutableHIDEventSimpleProvenance : BKSHIDEventSimpleProvenance
 {
@@ -14,22 +14,12 @@
 
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int eventType; // @dynamic eventType;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *signature; // @dynamic signature;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long timestamp; // @dynamic timestamp;
-@property(nonatomic) long long versionedPID; // @dynamic versionedPID;
 
 @end
 

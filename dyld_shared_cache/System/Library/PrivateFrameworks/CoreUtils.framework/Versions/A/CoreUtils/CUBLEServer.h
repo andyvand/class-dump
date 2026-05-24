@@ -4,68 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBPeripheralManager, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CUBLEServer
 {
     CDUnknownBlockType _activateCompletion;
-    NSMutableSet *_connections;
-    _Bool _invalidateCalled;
-    CBPeripheralManager *_peripheralManager;
-    struct LogCategory *_ucat;
-    unsigned short _listenPSM;
-    unsigned short _listeningPSM;
-    CDUnknownBlockType _connectionStartedHandler;
-    CDUnknownBlockType _connectionEndedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
 }
 
 - (void);
-- (void);
+- (void)completionAttributes;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)_hostBAASignature;
+- (void)KCJoiningAcceptSession;
 - (unsigned short);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned short);
+- (unsigned short);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType)created;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType connectionEndedHandler; // @synthesize connectionEndedHandler=_connectionEndedHandler;
 @property(copy, nonatomic) CDUnknownBlockType connectionStartedHandler; // @synthesize connectionStartedHandler=_connectionStartedHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned short listenPSM; // @synthesize listenPSM=_listenPSM;
-@property(nonatomic) unsigned short listeningPSM; // @synthesize listeningPSM=_listeningPSM;
-@property(readonly) Class superclass;
 
 @end
 

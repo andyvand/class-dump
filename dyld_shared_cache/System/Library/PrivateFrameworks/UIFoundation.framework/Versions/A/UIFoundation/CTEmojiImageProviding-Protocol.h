@@ -5,5 +5,7 @@
 //
 
 @protocol CTEmojiImageProviding
+- (struct CGImage *)_point;
+- (struct CGImage *)_performBatchingCallouts:(double)arg1;
 @end
 

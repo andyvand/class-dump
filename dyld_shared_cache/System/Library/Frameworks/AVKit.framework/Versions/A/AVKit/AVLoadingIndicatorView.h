@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVLoadingIndicatorView
 {
     NSProgressIndicator *_progressIndicatorView;
-    _Bool _isAnimatingProgressIndicator;
 }
 
 - (void);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ngRef llvm:(struct CGRect)arg1:getTypeName() [DesiredTypeName = MeshShaderSWAuxiliaryShadersPass] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

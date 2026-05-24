@@ -20,13 +20,13 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
++ (id)q!;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)DENTITY_TYPE_INVALID);
 + (id);
 + (id);
 

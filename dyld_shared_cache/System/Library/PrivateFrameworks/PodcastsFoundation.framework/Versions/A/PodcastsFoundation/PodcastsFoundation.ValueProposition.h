@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.ValueProposition
 {
     id price;
-    id priceForDisplay;
 }
 
 @end

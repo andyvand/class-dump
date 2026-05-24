@@ -10,8 +10,8 @@
 {
 }
 
-- (BOOL);
-- (_Bool);
+- (BOOL)initWithTarget:selector:delay:maximumDelay:callOnMainThread: /* Error: Ran out of types for this method. */;
+- (_Bool)cannotLockInfoAlertWithReason: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);

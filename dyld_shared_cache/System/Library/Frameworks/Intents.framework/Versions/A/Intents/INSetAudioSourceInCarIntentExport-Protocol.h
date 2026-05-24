@@ -5,9 +5,10 @@
 //
 
 @protocol INSetAudioSourceInCarIntentExport
+- (void);
+- (long long);
 
 // Remaining properties
 @property long long audioSource;
-@property long long relativeAudioSourceReference;
 @end
 

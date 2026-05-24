@@ -7,19 +7,18 @@
 @interface ICTTZoomController
 {
     double _zoomFactor;
-    double _checklistZoomFactor;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)(A;
+- (id)A;
 - (id);
 - (double);
 - (id);
@@ -28,7 +27,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double checklistZoomFactor; // @synthesize checklistZoomFactor=_checklistZoomFactor;
 @property(nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
 
 @end

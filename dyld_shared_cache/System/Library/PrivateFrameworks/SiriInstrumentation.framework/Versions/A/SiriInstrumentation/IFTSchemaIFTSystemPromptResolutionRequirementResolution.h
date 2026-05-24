@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTSystemPromptResolutionRequirementResolution : SISchemaInstrumentationMessage
 {
     _Bool _isRequirementSatisfied;
-    struct {
-        unsigned int isRequirementSatisfied:1;
-    } _has;
 }
 
 - (void);
@@ -24,18 +19,16 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)@;
 - (id)t!Dù1àÐ1Â0@ù
 × ;
 - (id)"CNVSchemaCNVIntentEagerExecutionCancelled",&,N,V_cancelled;
-- (id)LOWSchemaFLOWContactTier1;
+- (id)FLOWSchemaFLOWContactTier1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRequirementSatisfied;
 @property(nonatomic) _Bool isRequirementSatisfied; // @synthesize isRequirementSatisfied=_isRequirementSatisfied;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

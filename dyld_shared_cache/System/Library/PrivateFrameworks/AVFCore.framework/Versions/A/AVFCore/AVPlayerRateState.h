@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVPlayerRateState
 {
     float _rate;
-    _Bool _automaticallyWaitsToMinimizeStalling;
-    _Bool _usesLegacyAutomaticWaitingBehavior;
-    long long _timeControlStatus;
-    NSString *_reasonForWaitingToPlay;
 }
 
 - (id);
@@ -22,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -31,14 +25,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
-- (float)nLayerInstruction;
+- (float)AVVideoCompositionLayerInstruction;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool automaticallyWaitsToMinimizeStalling; // @synthesize automaticallyWaitsToMinimizeStalling=_automaticallyWaitsToMinimizeStalling;
 @property(readonly, nonatomic) float rate; // @synthesize rate=_rate;
-@property(readonly, nonatomic) NSString *reasonForWaitingToPlay; // @synthesize reasonForWaitingToPlay=_reasonForWaitingToPlay;
-@property(readonly, nonatomic) long long timeControlStatus; // @synthesize timeControlStatus=_timeControlStatus;
-@property(readonly, nonatomic) _Bool usesLegacyAutomaticWaitingBehavior; // @synthesize usesLegacyAutomaticWaitingBehavior=_usesLegacyAutomaticWaitingBehavior;
 
 @end
 

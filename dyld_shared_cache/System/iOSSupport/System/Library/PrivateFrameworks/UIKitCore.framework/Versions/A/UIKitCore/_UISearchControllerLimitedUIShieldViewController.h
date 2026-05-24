@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)oring feature enabled:(id)arg1 always TRUE;
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)hadowIntensity;
+- (void)_collapsedShadowIntensity;
 - (void)Ë3;
 
 // Remaining properties

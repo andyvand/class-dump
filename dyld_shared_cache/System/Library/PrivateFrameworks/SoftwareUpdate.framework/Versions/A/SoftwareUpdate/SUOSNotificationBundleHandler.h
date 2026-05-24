@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface SUOSNotificationBundleHandler
 {
     _Bool _mdmInitiatedNotificationBundleInstall;
-    _Bool _notificationPending;
-    _Bool _notificationBundleExists;
-    CDUnknownBlockType _notificationBundleDidChangeHandler;
-    NSString *_notificationBundlePath;
-    NSDate *_deferralDate;
 }
 
 + (id);
@@ -28,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)/;
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8;
 - (id);
 - (void);
 - (void);
@@ -46,11 +41,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSDate *deferralDate; // @synthesize deferralDate=_deferralDate;
-@property _Bool mdmInitiatedNotificationBundleInstall; // @synthesize mdmInitiatedNotificationBundleInstall=_mdmInitiatedNotificationBundleInstall;
-@property(copy, nonatomic) CDUnknownBlockType notificationBundleDidChangeHandler; // @synthesize notificationBundleDidChangeHandler=_notificationBundleDidChangeHandler;
-@property(nonatomic) _Bool notificationBundleExists; // @synthesize notificationBundleExists=_notificationBundleExists;
-@property(readonly) NSString *notificationBundlePath; // @synthesize notificationBundlePath=_notificationBundlePath;
-@property(nonatomic) _Bool notificationPending; // @synthesize notificationPending=_notificationPending;
 
 @end
 

@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol IMReplyContext
+- (NSString *)Vad_GetSpeechProbabilitySoftValue failed! error=%d;
+- (_Bool)iled! error=%d;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool replyIsFromMe;
-@property(readonly, copy, nonatomic) NSString *replyMessageGUID;
 @end
 

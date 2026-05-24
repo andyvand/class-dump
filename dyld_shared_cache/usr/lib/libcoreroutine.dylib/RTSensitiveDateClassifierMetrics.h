@@ -9,12 +9,6 @@
 @interface RTSensitiveDateClassifierMetrics
 {
     int _currentLocationSignalEnvironmentType;
-    NSDate *_startDate;
-    NSDate *_gatingSignalDate;
-    long long _lookbackWindowCategory;
-    long long _currentLocationAvailability;
-    long long _parkedCarSignalAvailability;
-    unsigned long long _wifiAPCount;
 }
 
 - (unsigned long long);
@@ -25,29 +19,23 @@
 - (void);
 - (void);
 - (long long);
-- (long long);
-- (id);
+- (long long);
+- (id);
 - (int);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)submitRequest:(id)arg1 complete: /* Error: Ran out of types for this method. */;
+- (void)B,V_iCDP;
+- (void)t an lock assertion continue w/o one;
+- (void)cFetchAndProcessChangesIfNoRecentFetch timed out;
+- (void)eds repair;
+- (id);
+- (id)A;
 - (void)Dictionary",&,N,V_pipelines;
 - (void)faulting to Unknown.;
 - (void)n %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long currentLocationAvailability; // @synthesize currentLocationAvailability=_currentLocationAvailability;
-@property(nonatomic) int currentLocationSignalEnvironmentType; // @synthesize currentLocationSignalEnvironmentType=_currentLocationSignalEnvironmentType;
-@property(retain, nonatomic) NSDate *gatingSignalDate; // @synthesize gatingSignalDate=_gatingSignalDate;
-@property(nonatomic) long long lookbackWindowCategory; // @synthesize lookbackWindowCategory=_lookbackWindowCategory;
-@property(nonatomic) long long parkedCarSignalAvailability; // @synthesize parkedCarSignalAvailability=_parkedCarSignalAvailability;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long wifiAPCount; // @synthesize wifiAPCount=_wifiAPCount;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface CEMApplicationAutonomousSingleAppModeDeclaration_AllowedApplicationsItem : CEMPayloadBase
 {
     NSString *_payloadBundleIdentifier;
-    NSString *_payloadTeamIdentifier;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadBundleIdentifier; // @synthesize payloadBundleIdentifier=_payloadBundleIdentifier;
-@property(copy, nonatomic) NSString *payloadTeamIdentifier; // @synthesize payloadTeamIdentifier=_payloadTeamIdentifier;
 
 @end
 

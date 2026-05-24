@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PPDecayedFeedbackCounts
 {
     double _engagedExplicitly;
-    double _engagedImplicitly;
-    double _rejectedExplicitly;
-    double _rejectedImplicitly;
-    NSDate *_latestDate;
 }
 
 - (double);
@@ -26,10 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double engagedExplicitly; // @synthesize engagedExplicitly=_engagedExplicitly;
-@property(readonly, nonatomic) double engagedImplicitly; // @synthesize engagedImplicitly=_engagedImplicitly;
-@property(readonly, nonatomic) NSDate *latestDate; // @synthesize latestDate=_latestDate;
-@property(readonly, nonatomic) double rejectedExplicitly; // @synthesize rejectedExplicitly=_rejectedExplicitly;
-@property(readonly, nonatomic) double rejectedImplicitly; // @synthesize rejectedImplicitly=_rejectedImplicitly;
 
 @end
 

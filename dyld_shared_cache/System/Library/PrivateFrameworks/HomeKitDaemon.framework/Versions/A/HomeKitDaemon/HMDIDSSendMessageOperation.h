@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteMessageDestination, HMFMessage, NSArray, NSString;
 @protocol HMDIDSService;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSSendMessageOperation
 {
     double _timeout;
-    HMDRemoteMessageDestination *_destination;
-    NSString *_messageIdentifier;
-    id <HMDIDSService> _service;
-    HMFMessage *_message;
 }
 
 + (id);
-+ (double)ypeDNSSD;
++ (double)HMDNetworkRouterAdvertisementProtocolTypeDNSSD;
 + (id)ýÿÆc(¦B;
 - (id);
 - (id);
@@ -31,29 +26,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)À»;
 - (id)d;
-- (void)essoryLossDetectionTimeInSec;
+- (void)BTLEAccessoryLossDetectionTimeInSec;
 - (void)h">;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFMessage *message; // @synthesize message=_message;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) id <HMDIDSService> service; // @synthesize service=_service;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol SOHelperReceiverProtocol
+- (void);
+- (void)_TtC12SiriOntology44UsoTaskBuilder_request_common_SiriPossession;
 @end
 

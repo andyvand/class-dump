@@ -54,7 +54,7 @@
 }
 
 + (id);
-- (void);
+- (void)uild playback context:(struct TSTCellStorage *)arg1 %@;
 - (_Bool);
 - (id);
 - (void);

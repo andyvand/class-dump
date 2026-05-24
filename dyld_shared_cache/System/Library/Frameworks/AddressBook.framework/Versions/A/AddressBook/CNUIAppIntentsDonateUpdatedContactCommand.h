@@ -6,12 +6,11 @@
 
 #import <AddressBook/CNUIUndoableCommand.h>
 
-@class CNContact, CNContactsAppIntentDonation;
+@class CNContact;
 
 @interface CNUIAppIntentsDonateUpdatedContactCommand : CNUIUndoableCommand
 {
     CNContact *_contact;
-    CNContactsAppIntentDonation *_donation;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly) CNContact *contact; // @synthesize contact=_contact;
-@property(retain) CNContactsAppIntentDonation *donation; // @synthesize donation=_donation;
 
 @end
 

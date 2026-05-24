@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSOpenApplicationService, FBSSystemAppProxy;
+@class FBSSystemAppProxy;
 
 @interface FBSSystemService
 {
     FBSSystemAppProxy *_systemAppProxy;
-    FBSOpenApplicationService *_defaultOpenApplicationService;
 }
 
 + (id);
@@ -33,14 +32,14 @@
 - (void);
 - (void);
 - (void);
+- (void)PLACE_SEARCH;
 - (void);
 - (void);
+- (id)orization.exportBytes;
+- (void)_channelsPerFrame;
+- (void)_phoneticOrganization;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)_lock_lastConnectedGenerationCount;
 - (void);
 - (void);
 

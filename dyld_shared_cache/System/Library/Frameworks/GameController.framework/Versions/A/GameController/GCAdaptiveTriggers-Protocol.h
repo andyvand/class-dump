@@ -7,11 +7,12 @@
 @class GCDeviceAdaptiveTriggersPayload, GCDeviceAdaptiveTriggersStatusPayload;
 
 @protocol GCAdaptiveTriggers
+- (void)0t;
+- (GCDeviceAdaptiveTriggersPayload *);
+- (GCDeviceAdaptiveTriggersStatusPayload *);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersStatusPayload *leftStatus;
 @property(retain, nonatomic) GCDeviceAdaptiveTriggersPayload *leftTrigger;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersStatusPayload *rightStatus;
-@property(retain, nonatomic) GCDeviceAdaptiveTriggersPayload *rightTrigger;
 @end
 

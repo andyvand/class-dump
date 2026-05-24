@@ -6,14 +6,12 @@
 
 #import <OfficeImport/OADGraphic.h>
 
-@class OADOrientedBounds, OADShapeGeometry, OADTextBody;
+@class OADOrientedBounds, OADShapeGeometry;
 
 __attribute__((visibility("hidden")))
 @interface OADShape : OADGraphic
 {
     OADShapeGeometry *mGeometry;
-    OADTextBody *mTextBody;
-    OADOrientedBounds *mTextOrientedBounds;
 }
 
 - (id);
@@ -24,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)	;
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Frameworks/Accounts.framework/Versions/A/Accounts;
 - (int);
-- (void)ions;
+- (void)endTimeConditions;
 - (id)e;
 - (void);
 

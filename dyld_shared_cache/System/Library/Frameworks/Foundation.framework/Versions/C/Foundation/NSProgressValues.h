@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSProgressValues
 {
     NSMutableDictionary *_userInfo;
-    struct _NSProgressFraction _selfFraction;
-    struct _NSProgressFraction _childFraction;
-    double _remoteFractionCompleted;
-    NSString *_localizedDescription;
-    NSString *_localizedAdditionalDescription;
-    NSString *_kind;
-    long long _portionOfParent;
-    _Bool _isCancellable;
-    _Bool _isPausable;
-    _Bool _isCancelled;
-    _Bool _isPaused;
-    _Bool _usingChildUserInfo;
-    _Bool _isPrioritizable;
 }
 
 + (id);
 + (id);
-+ (_Bool)r;
++ (_Bool)Neuter;
 - (void);
 - (void);
 - (double);

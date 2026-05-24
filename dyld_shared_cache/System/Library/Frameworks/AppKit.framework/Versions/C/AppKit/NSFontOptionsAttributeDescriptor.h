@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface NSFontOptionsAttributeDescriptor
 {
     NSString *_name;
-    Class _allowedClass;
 }
 
-+ (id);
-- (id);
++ (id)_kCFHTTPCookiePolicyPropertySiteForCookies;
+- (id)@"NSURLCredential">40;
 - (void);
 - (id);
 - (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) Class allowedClass; // @synthesize allowedClass=_allowedClass;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

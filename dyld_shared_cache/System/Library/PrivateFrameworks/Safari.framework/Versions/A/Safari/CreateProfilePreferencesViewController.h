@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ColorPickerWellViewController, NSButton, NSGridCell, NSPopUpButton, NSString, NSTextField, ProfileIconPickerViewController, ProfilesPreferences, WBSNamedColorOption;
+@class NSButton, NSString;
 
 __attribute__((visibility("hidden")))
 @interface CreateProfilePreferencesViewController
 {
     NSString *_newProfileFavoritesFolderServerID;
-    NSString *_newProfileIcon;
-    NSString *_newProfileName;
-    WBSNamedColorOption *_newProfileColor;
-    _Bool _hasManuallySelectedColor;
-    _Bool _shouldPickNewColor;
-    ColorPickerWellViewController *_colorPickerWellViewController;
-    ProfileIconPickerViewController *_profileIconPickerViewController;
-    ProfilesPreferences *_profilesPreferences;
-    NSButton *_createProfileButton;
-    NSButton *_createNewFavoritesRadioButton;
-    NSButton *_useExistingFavoritesRadioButton;
-    NSPopUpButton *_favoritesPopUpButton;
-    NSTextField *_nameTextField;
-    NSGridCell *_symbolsCell;
-    NSGridCell *_colorPickerWellCell;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
+- (void)U;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (id);
@@ -61,21 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak NSGridCell *colorPickerWellCell; // @synthesize colorPickerWellCell=_colorPickerWellCell;
-@property __weak NSButton *createNewFavoritesRadioButton; // @synthesize createNewFavoritesRadioButton=_createNewFavoritesRadioButton;
 @property __weak NSButton *createProfileButton; // @synthesize createProfileButton=_createProfileButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak NSPopUpButton *favoritesPopUpButton; // @synthesize favoritesPopUpButton=_favoritesPopUpButton;
-@property(readonly) unsigned long long hash;
-@property __weak NSTextField *nameTextField; // @synthesize nameTextField=_nameTextField;
-@property(nonatomic) __weak ProfilesPreferences *profilesPreferences; // @synthesize profilesPreferences=_profilesPreferences;
-@property(readonly) Class superclass;
-@property __weak NSGridCell *symbolsCell; // @synthesize symbolsCell=_symbolsCell;
-@property __weak NSButton *useExistingFavoritesRadioButton; // @synthesize useExistingFavoritesRadioButton=_useExistingFavoritesRadioButton;
 
 @end
 

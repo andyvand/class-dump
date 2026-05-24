@@ -4,54 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMActivityRegistry, EMRemoteConnection, NSArray, NSMutableDictionary, NSString;
-@protocol EFCancelable, EMActivityObserver;
+@class EMRemoteConnection;
+@protocol EFCancelable;
 
 __attribute__((visibility("hidden")))
 @interface _EMActivityRegistryObserverWrapper
 {
     id <EFCancelable> _observerCancelable;
-    NSMutableDictionary *_trackedActivities;
-    struct os_unfair_lock_s _lock;
-    EMRemoteConnection *_connection;
-    EMActivityRegistry *_registry;
-    id <EMActivityObserver> _observer;
 }
 
+- (id);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void)HMDHomeNFCReaderKeyManagerOverrides;
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)(!Ț;
 - (void);
+- (id);
+- (void)tem/Library/Frameworks/Contacts.framework/Versions/A/Contacts;
 - (void);
-- (void)STERDAY;
+- (void)UPDATED_YESTERDAY;
 - (id);
 
 // Remaining properties
-@property(retain) NSArray *activities;
 @property(retain) EMRemoteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <EMActivityObserver> observer; // @synthesize observer=_observer;
-@property __weak EMActivityRegistry *registry; // @synthesize registry=_registry;
-@property(readonly) Class superclass;
 
 @end
 

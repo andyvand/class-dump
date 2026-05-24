@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _MPCReportingController
 {
     MPCPlaybackEngine *_playbackEngine;
-    MPCLyricsReportingController *_lyricsReportingController;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)dditionalItemsIfNeededWithCount:%ldâ¦ | additional loading skipped [data source doesn't support loading more] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MPCLyricsReportingController *lyricsReportingController; // @synthesize lyricsReportingController=_lyricsReportingController;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
 
 @end
 

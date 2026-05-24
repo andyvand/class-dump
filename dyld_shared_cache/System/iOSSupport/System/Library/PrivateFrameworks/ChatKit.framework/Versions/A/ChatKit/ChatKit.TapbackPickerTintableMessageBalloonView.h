@@ -7,8 +7,6 @@
 @interface ChatKit.TapbackPickerTintableMessageBalloonView
 {
     id wantsPileDestOut;
-    id primaryBalloon;
-    id tintBalloon;
 }
 
 - (id);

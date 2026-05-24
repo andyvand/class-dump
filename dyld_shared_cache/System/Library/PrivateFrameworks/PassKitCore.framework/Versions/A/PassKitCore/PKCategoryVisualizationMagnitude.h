@@ -9,8 +9,6 @@
 @interface PKCategoryVisualizationMagnitude
 {
     NSString *_passUniqueIdentifier;
-    long long _bucket;
-    double _magnitude;
 }
 
 + (_Bool)X"Ð! Dùî%Ð1Â0@ù
@@ -18,18 +16,16 @@
 - (void);
 - (id);
 - (void);
-- (double);
+- (double)`;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasHeOmitxTxnstsAck;
 - (long long);
 - (void);
-- (void)esult;
+- (void)paymentOfferActionResult;
 
 // Remaining properties
-@property(nonatomic) long long bucket; // @synthesize bucket=_bucket;
-@property(nonatomic) double magnitude; // @synthesize magnitude=_magnitude;
 @property(copy, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
 
 @end

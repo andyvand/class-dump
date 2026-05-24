@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDNameNumberProvider, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ISDNameNumberMapping
 {
     NSString *_mappingName;
-    int _last;
-    NSMutableDictionary *_nameToNumber;
-    NSMutableDictionary *_numberToName;
-    ISDNameNumberProvider *_providedBy;
-    NSString *_zeroMapping;
 }
 
 - (void);

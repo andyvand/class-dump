@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, PLATFORMProvisionalConnectedComponentsByClock, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLATFORMProvisionalConnectedComponentsWrapper : SISchemaTopLevelUnionType
 {
     SISchemaUUID *_clockIdentifier;
-    PLATFORMProvisionalConnectedComponentsByClock *_msg;
-    _Bool _hasClockIdentifier;
-    _Bool _hasMsg;
-    unsigned long long _whichEventtype;
 }
 
 - (unsigned long long);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -34,23 +30,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ilename:(id)arg1 %@;
 - (id);
 - (id);
 - (id)r!FùÝ°1Â0@ù
 × ;
 - (id)ndpointerAccessibleContext";
-- (id)sRequestTimeBeginMs;
+- (id)_hasRequestTimeBeginMs;
 - (_Bool)d!#X2°7;
 - (void)CHUSERALIGNMENTCONFIDENCESCORE_LOW;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(nonatomic) _Bool hasClockIdentifier; // @synthesize hasClockIdentifier=_hasClockIdentifier;
-@property(nonatomic) _Bool hasMsg; // @synthesize hasMsg=_hasMsg;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PLATFORMProvisionalConnectedComponentsByClock *msg; // @synthesize msg=_msg;
-@property(readonly, nonatomic) unsigned long long whichEventtype; // @synthesize whichEventtype=_whichEventtype;
 
 @end
 

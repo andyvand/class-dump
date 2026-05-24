@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSURL, PKTextInputDebugLogEntryRerun, PKTextInputDebugSharpenerLog, UILabel, UITableView;
+@class NSURL, UITableView;
 
 @interface PKTextInputDebugSharpenerLogViewController
 {
     NSURL *_sharpenerLogURL;
-    UITableView *__mainTableView;
-    UILabel *__tableHeaderLabel;
-    PKTextInputDebugLogEntryRerun *__currentEntryRerun;
-    NSMutableDictionary *__rerunResultsBySection;
-    PKTextInputDebugSharpenerLog *_sharpenerLog;
 }
 
 + (_Bool);
@@ -36,7 +31,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)UpdateRoutes;
 - (long long);
 - (void);
 - (long long);
@@ -45,19 +40,7 @@
 - (void)n",R,N;
 
 // Remaining properties
-@property(retain, nonatomic) PKTextInputDebugLogEntryRerun *_currentEntryRerun; // @synthesize _currentEntryRerun=__currentEntryRerun;
 @property(retain, nonatomic) UITableView *_mainTableView; // @synthesize _mainTableView=__mainTableView;
-@property(readonly, nonatomic) NSMutableDictionary *_rerunResultsBySection; // @synthesize _rerunResultsBySection=__rerunResultsBySection;
-@property(retain, nonatomic) UILabel *_tableHeaderLabel; // @synthesize _tableHeaderLabel=__tableHeaderLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKTextInputDebugSharpenerLog *sharpenerLog; // @synthesize sharpenerLog=_sharpenerLog;
-@property(readonly, nonatomic) NSURL *sharpenerLogURL; // @synthesize sharpenerLogURL=_sharpenerLogURL;
-@property(readonly) Class superclass;
 
 @end
 

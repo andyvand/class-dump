@@ -7,22 +7,14 @@
 @interface _UIFluidSliderInteractionUpdate
 {
     _Bool _tracking;
-    _Bool _atTarget;
-    double _value;
-    long long _interactionState;
-    long long _type;
-    double __unclampedValue;
-    struct CGRect _trackBounds;
-    struct CGRect _barFrame;
-    struct CGAffineTransform _trackTransform;
 }
 
 - (struct CGAffineTransform);
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@"NSString"40@"NSString"48@"NSString"56@"NSString"64;
+- (void)"16@"NSArray"24C32@"NSArray"36;
 - (_Bool);
 - (void);
 - (double);
@@ -30,7 +22,7 @@
 - (long long)1Â0@ù
 × ;
 - (double)s;
-- (void);
+- (void)UIImageLoadingPrivate;
 - (struct CGRect)r is no longer connected to a focus system. Ignoring joystick movement request.;
 - (long long)ocate data stores for %ld rows in section %ld. Consider using fewer rows;
 - (void)apple.UIKit._UIFlexInteraction.Pan;
@@ -38,14 +30,6 @@
 - (void)a;
 
 // Remaining properties
-@property(nonatomic) double _unclampedValue; // @synthesize _unclampedValue=__unclampedValue;
-@property(nonatomic, getter=isAtTarget) _Bool atTarget; // @synthesize atTarget=_atTarget;
-@property(nonatomic) struct CGRect barFrame; // @synthesize barFrame=_barFrame;
-@property(nonatomic) long long interactionState; // @synthesize interactionState=_interactionState;
-@property(nonatomic) struct CGRect trackBounds; // @synthesize trackBounds=_trackBounds;
-@property(nonatomic) struct CGAffineTransform trackTransform; // @synthesize trackTransform=_trackTransform;
-@property(nonatomic, getter=isTracking) _Bool tracking; // @synthesize tracking=_tracking;
-@property(nonatomic) long long type; // @synthesize type=_type;
 @property(nonatomic) double value; // @synthesize value=_value;
 
 @end

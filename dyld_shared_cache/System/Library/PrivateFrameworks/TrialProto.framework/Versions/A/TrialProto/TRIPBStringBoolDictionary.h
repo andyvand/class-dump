@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBStringBoolDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -20,17 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)W(;
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)qAC;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)RawByte:(_Bool)arg1;
+- (void)writeRawByte:(_Bool)arg1;
 - (void)SiriLinkFlowAutoShortcuts;
 
 // Remaining properties

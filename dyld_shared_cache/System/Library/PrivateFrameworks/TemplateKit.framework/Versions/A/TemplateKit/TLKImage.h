@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSImage;
+@class NSCache;
 
 @interface TLKImage
 {
     _Bool _isTemplate;
-    _Bool _supportsFastPathShadow;
-    _Bool _badgeWantsPlatter;
-    NSImage *_uiImage;
-    double _aspectRatio;
-    unsigned long long _cornerRoundingStyle;
-    double _cornerRadius;
-    TLKImage *_badgeImage;
-    NSCache *_imageCache;
-    struct CGSize _size;
 }
 
 + (id);
@@ -33,17 +24,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)R7;
 - (unsigned long long);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)ly;
 - (void);
 - (id);
 - (_Bool);
@@ -55,17 +46,7 @@
 - (double),N,V_titleLabel;
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(retain, nonatomic) TLKImage *badgeImage; // @synthesize badgeImage=_badgeImage;
-@property(nonatomic) _Bool badgeWantsPlatter; // @synthesize badgeWantsPlatter=_badgeWantsPlatter;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) unsigned long long cornerRoundingStyle; // @synthesize cornerRoundingStyle=_cornerRoundingStyle;
-@property(readonly) _Bool hasMultipleRepresentations;
 @property(retain) NSCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(nonatomic) _Bool isTemplate; // @synthesize isTemplate=_isTemplate;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) _Bool supportsFastPathShadow; // @synthesize supportsFastPathShadow=_supportsFastPathShadow;
-@property(retain, nonatomic) NSImage *uiImage; // @synthesize uiImage=_uiImage;
 
 @end
 

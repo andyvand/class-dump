@@ -6,18 +6,11 @@
 
 #import <HTTPServer/DDAbstractLogger.h>
 
-@class NSCalendar, NSString;
+@class NSCalendar;
 
 @interface DDTTYLogger : DDAbstractLogger
 {
     NSCalendar *calendar;
-    unsigned long long calendarUnitFlags;
-    NSString *appName;
-    char *app;
-    unsigned long long appLen;
-    NSString *processID;
-    char *pid;
-    unsigned long long pidLen;
 }
 
 + (id);
@@ -28,13 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

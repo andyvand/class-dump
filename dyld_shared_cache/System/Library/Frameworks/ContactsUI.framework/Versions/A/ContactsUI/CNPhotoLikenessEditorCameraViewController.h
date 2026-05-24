@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDeviceInput, AVCaptureStillImageOutput, AVCaptureVideoPreviewLayer, NSImageView, NSString, _CNCameraSessionState;
+@class _CNCameraSessionState;
 
 @interface CNPhotoLikenessEditorCameraViewController
 {
     double _viewFinderCornerRadius;
-    _CNCameraSessionState *_sessionState;
-    AVCaptureDeviceInput *_videoDeviceInput;
-    AVCaptureStillImageOutput *_stillImageOutput;
-    AVCaptureVideoPreviewLayer *_videoPreviewLayer;
-    long long _setupResult;
-    unsigned long long _screenID;
-    NSImageView *_cameraOff;
 }
 
 + (id);
@@ -27,46 +20,32 @@
 - (long long);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
+- (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (void);
+- (void);
+- (id);
+- (void)q;
 - (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ush:(id)arg1;
+- (void)push:(id)arg1;
 
 // Remaining properties
-@property(retain) NSImageView *cameraOff; // @synthesize cameraOff=_cameraOff;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long screenID; // @synthesize screenID=_screenID;
 @property(retain, nonatomic) _CNCameraSessionState *sessionState; // @synthesize sessionState=_sessionState;
-@property(nonatomic) long long setupResult; // @synthesize setupResult=_setupResult;
-@property(retain, nonatomic) AVCaptureStillImageOutput *stillImageOutput; // @synthesize stillImageOutput=_stillImageOutput;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVCaptureDeviceInput *videoDeviceInput; // @synthesize videoDeviceInput=_videoDeviceInput;
-@property(retain, nonatomic) AVCaptureVideoPreviewLayer *videoPreviewLayer; // @synthesize videoPreviewLayer=_videoPreviewLayer;
-@property double viewFinderCornerRadius; // @synthesize viewFinderCornerRadius=_viewFinderCornerRadius;
 
 @end
 

@@ -14,15 +14,15 @@
 + (_Bool)0@ù
 × ;
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)entifier:(id)arg1 forValue:roundingToExponent: /* Error: Ran out of types for this method. */;
-- (void)eligibleLearnMoreURL;
+- (_Bool)eOmitxSuccess"b1"heOmitxTxnsts"b1"heOmitxTxnstsAck"b1"heOmitxUlmucfg"b1"heOmitxUlmucfgAck"b1};
+- (void)hBeforeDecision;
+- (id)initWithIdentifier:(id)arg1 forValue:roundingToExponent: /* Error: Ran out of types for this method. */;
+- (void)ineligibleLearnMoreURL;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceTap; // @synthesize deviceTap=_deviceTap;

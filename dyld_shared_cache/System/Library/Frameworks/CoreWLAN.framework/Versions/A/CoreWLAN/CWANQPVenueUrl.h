@@ -13,11 +13,11 @@
     NSArray *_venueUrlList;
 }
 
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (id);
 
 // Remaining properties

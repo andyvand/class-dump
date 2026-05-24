@@ -6,14 +6,10 @@
 
 #import <Metal/MTLBindingInternal.h>
 
-@class MTLTensorExtents, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLTensorBindingInternal : MTLBindingInternal
 {
     long long _tensorDataType;
-    unsigned long long _indexType;
-    MTLTensorExtents *_dimensions;
 }
 
 - (long long);
@@ -22,26 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)?;
 - (id)Bytes"I"deviceLinearReadOnlyTextureAlignmentBytes"I"maxFunctionConstantIndices"I"maxComputeThreadgroupMemoryAlignmentBytes"I"maxInterpolatedComponents"I"maxTessellationFactor"I"maxIndirectBuffers"I"maxIndirectTextures"I"maxIndirectSamplers"I"maxIndirectSamplersPerDevice"I"maxFenceInstances"I"maxViewportCount"I"maxCustomSamplePositions"I"maxVertexAmplificationFactor"I"maxVertexAmplificationCount"I"maxTextureBufferWidth"I"maxComputeAttributes"I"maxIOCommandsInFlight"I"maxPredicatedNestingDepth"I"maxAccelerationStructureLevels"I"maxConstantBufferArguments"I"maxBufferLength"Q};
 
 // Remaining properties
-@property(readonly) unsigned long long access;
-@property(readonly, getter=isArgument) _Bool argument;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) MTLTensorExtents *dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long index;
-@property(readonly) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
 @property(readonly) long long tensorDataType; // @synthesize tensorDataType=_tensorDataType;
-@property(readonly) long long type;
-@property(readonly, getter=isUsed) _Bool used;
 
 @end
 

@@ -4,48 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MUIMessageListSupplementaryViewModel
 {
     _Bool _shouldDisplaySupplementaryView;
-    NSString *_supplementaryKind;
-    long long _sectionIndex;
-    long long _displayReason;
 }
 
 + (id);
-+ (id);
++ (id)B;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void)tUserOverrideForNumberOfOverrides: /* Error: Ran out of types for this method. */;
+- (id)qa;
+- (void)resetUserOverrideForNumberOfOverrides: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayReason; // @synthesize displayReason=_displayReason;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long sectionIndex; // @synthesize sectionIndex=_sectionIndex;
 @property(nonatomic) _Bool shouldDisplaySupplementaryView; // @synthesize shouldDisplaySupplementaryView=_shouldDisplaySupplementaryView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *supplementaryKind; // @synthesize supplementaryKind=_supplementaryKind;
 
 @end
 

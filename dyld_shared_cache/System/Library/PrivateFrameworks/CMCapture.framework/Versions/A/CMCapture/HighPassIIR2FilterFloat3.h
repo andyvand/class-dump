@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HighPassIIR2FilterFloat3
 {
     id _lowPassBuffer1;
-    id _lowPassBuffer2;
-    _Bool _isFilterInitialized;
-    id _filteredValue;
 }
 
 - (id);

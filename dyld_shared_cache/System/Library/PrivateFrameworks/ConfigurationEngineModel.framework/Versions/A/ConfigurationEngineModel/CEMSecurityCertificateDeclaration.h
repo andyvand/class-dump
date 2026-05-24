@@ -27,19 +27,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)SpokenContentMacroLanguageDisambiguations;
+- (id)2yypAH_pGAGGGypAH_pG;
+- (void)ESSION PARAMETERS;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadCertificateIdentifier; // @synthesize payloadCertificateIdentifier=_payloadCertificateIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

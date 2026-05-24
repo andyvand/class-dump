@@ -25,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)stringByAppendingFormat: /* Error: Ran out of types for this method. */;
+- (void)c;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

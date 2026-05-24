@@ -4,7 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ML3DatabaseImport, NSString;
+
 @protocol MLMediaLibraryServiceProtocol
+- (void)_contextSaveFailedWithNSValidationRelationshipExceedsMaximumCountError:(NSString *)arg1;
+- (void)_cachedPrimaryAppleAccount;
+- (void)Predicates:(ML3DatabaseImport *)arg1 options:(unsigned long long)arg2;
+- (void)__userFavoriteIndexes;
+- (void)__idleStateTransitionOneTimeAction;
+- (void)M	0	>	2	/	;
+- (void);
+- (void)HMCameraControl;
+- (void);
+- (void)eryP;
 - (void)× ;
 @end
 

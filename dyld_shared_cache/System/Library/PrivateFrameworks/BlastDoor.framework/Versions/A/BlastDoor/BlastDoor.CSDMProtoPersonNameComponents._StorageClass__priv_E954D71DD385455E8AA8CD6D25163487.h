@@ -7,12 +7,6 @@
 @interface BlastDoor.CSDMProtoPersonNameComponents._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _namePrefix;
-    id _givenName;
-    id _middleName;
-    id _familyName;
-    id _nameSuffix;
-    id _nickname;
-    id _phoneticRepresentation;
 }
 
 @end

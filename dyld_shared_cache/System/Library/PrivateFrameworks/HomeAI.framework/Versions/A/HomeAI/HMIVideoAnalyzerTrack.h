@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIVideoAnalyzerBlob, NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface HMIVideoAnalyzerTrack
 {
     unsigned long long _trackIndex;
-    NSMutableSet *_eventClasses;
-    NSMutableArray *_blobs;
-    NSMutableArray *_analysisTimeStamps;
-    unsigned long long _stationaryBlobIndex;
 }
 
 - (unsigned long long);
@@ -26,22 +22,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)!q`;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)	;
+- (id));
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly) NSMutableArray *analysisTimeStamps; // @synthesize analysisTimeStamps=_analysisTimeStamps;
 @property(readonly) NSMutableArray *blobs; // @synthesize blobs=_blobs;
-@property(readonly) NSMutableSet *eventClasses; // @synthesize eventClasses=_eventClasses;
-@property(readonly) HMIVideoAnalyzerBlob *lastBlob;
-@property unsigned long long stationaryBlobIndex; // @synthesize stationaryBlobIndex=_stationaryBlobIndex;
-@property(readonly) unsigned long long trackIndex; // @synthesize trackIndex=_trackIndex;
 
 @end
 

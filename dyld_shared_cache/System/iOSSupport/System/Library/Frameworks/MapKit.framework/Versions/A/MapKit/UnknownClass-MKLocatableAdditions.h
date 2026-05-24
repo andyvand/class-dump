@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MKLocatableAdditions)
-- (void);
+- (void)(A@9 ;
 @end
 

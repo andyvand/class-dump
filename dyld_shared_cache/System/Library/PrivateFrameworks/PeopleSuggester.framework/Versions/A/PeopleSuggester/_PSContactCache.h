@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, IDSIDQueryController, NSData, NSObject, NSString, _PASLock;
-@protocol NSObject, OS_dispatch_queue;
+@class CNContactStore;
 
 @interface _PSContactCache
 {
     CNContactStore *_contactStore;
-    NSData *_changeHistoryToken;
-    id <NSObject> _notificationCenterToken;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    _PASLock *_cachedContactForHandle;
-    _PASLock *_cachedFaceTimeableHandleForContactIdentifier;
-    IDSIDQueryController *_idsQueryController;
-    NSString *_faceTimeServiceName;
 }
 
 + (id);
@@ -26,30 +18,24 @@
 - (id);
 - (id);
 - (id);
+- (void)H;
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id)\ ;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)..;
+- (void)DEVICE_CHANNEL_ID_267;
 - (void);
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

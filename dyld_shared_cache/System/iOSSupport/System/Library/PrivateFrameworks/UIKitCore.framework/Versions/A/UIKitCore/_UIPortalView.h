@@ -6,30 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAPortalLayer, NSSet, NSString;
-
 @interface _UIPortalView : UIView
 {
     _Bool _forwardsClientHitTestingToSourceView;
-    _Bool __geometryFrozen;
-    _Bool __prefersClientLayer;
-    UIView *_sourceView;
-    NSString *_name;
-    NSSet *__additionalAnimatableKeyPaths;
 }
 
-+ (Class);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
++ (Class)_storeCloudID;
+- (_Bool)#;
+- (id)@;
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
+- (void);
+- (void)plete Request Version 2;
+- (void);
+- (id)i;
 - (id);
 - (void);
 - (void);
@@ -52,49 +45,27 @@
 - (id)32@0:8@"UIView<UITableConstantsCellProviding>"16@"UIColor"24 /* Error: Ran out of types for this method. */;
 - (void)";
 - (_Bool)roller"24@"UIViewController"32q40;
-- (void)ntViews;
-- (void)alizedSubtitle;
-- (id)justsFontForContentSizeCategory;
-- (void)ceDelegate;
-- (void)ontext;
+- (void)_textAttachmentViews;
+- (void)_localizedSubtitle;
+- (id)_hasResolvedAdjustsFontForContentSizeCategory;
+- (void)_dragSourceDelegate;
+- (void)_adaptiveTransitionContext;
 - (_Bool)ib;
-- (void)ted:(struct CGRect)arg1;
+- (void)_setTargetRect:(struct CGRect)arg1 inView:animated: /* Error: Ran out of types for this method. */;
 - (_Bool)UITextDropRequest;
-- (void)witchControl;
+- (void)UISwitchControl;
 - (id)/;
 - (_Bool)image=%p error.domain=%@ error.code=%ld;
 - (void);
-- (void)nNotification;
-- (_Bool)tViewDidScroll;
+- (void)UIKeyboardPrivateInteractiveDismissalDidBeginNotification;
+- (_Bool)UIKeyboardEmojiCollectionInputViewDidScroll;
 - (void)s.;
 - (_Bool)er acceptAutocorrectionWithCompletionHandler:requestedByRemoteInputDestination:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)13dËoþi13,ß¥þQ13ß¥þ;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_additionalAnimatableKeyPaths, setter=_setAdditionalAnimatableKeypaths:) NSSet *_additionalAnimatableKeyPaths; // @synthesize _additionalAnimatableKeyPaths=__additionalAnimatableKeyPaths;
-@property(nonatomic, setter=_setAllowedInContextTransform:) _Bool _allowedInContextTransform;
 @property(nonatomic, getter=_isGeometryFrozen, setter=_setGeometryFrozen:) _Bool _geometryFrozen; // @synthesize _geometryFrozen=__geometryFrozen;
-@property(nonatomic, getter=_prefersClientLayer, setter=_setPrefersClientLayer:) _Bool _prefersClientLayer; // @synthesize _prefersClientLayer=__prefersClientLayer;
-@property(nonatomic) _Bool allowsBackdropGroups; // @dynamic allowsBackdropGroups;
-@property(nonatomic) _Bool allowsHitTesting; // @dynamic allowsHitTesting;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forwardsClientHitTestingToSourceView; // @synthesize forwardsClientHitTestingToSourceView=_forwardsClientHitTestingToSourceView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidesSourceLayerInOtherPortals;
-@property(nonatomic) _Bool hidesSourceView; // @dynamic hidesSourceView;
-@property(nonatomic) _Bool matchesAlpha; // @dynamic matchesAlpha;
-@property(nonatomic) _Bool matchesPosition; // @dynamic matchesPosition;
-@property(nonatomic) _Bool matchesTransform; // @dynamic matchesTransform;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) CAPortalLayer *portalLayer; // @dynamic portalLayer;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(nonatomic) double sourceViewAlphaScale;
-@property(readonly) Class superclass;
 
 @end
 

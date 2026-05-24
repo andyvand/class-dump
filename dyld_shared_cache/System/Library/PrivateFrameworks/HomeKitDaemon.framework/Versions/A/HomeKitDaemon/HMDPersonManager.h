@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone, HMDDatabaseZoneManager, HMDPersonCoreDataManager, HMFTimer, NSObject, NSSet, NSString, NSUUID;
-@protocol HMDFeaturesDataSource, HMDPersonManagerSettings, OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersonManager
 {
     NSString *_logIdentifier;
-    NSUUID *_UUID;
-    HMDPersonCoreDataManager *_coreDataManager;
-    HMBLocalZone *_localZone;
-    HMBCloudZone *_cloudZone;
-    HMFTimer *_unassociatedFaceCropsCleanupTimer;
-    unsigned long long _fetchBatchLimit;
-    CDUnknownBlockType _unassociatedFaceCropsCleanupTimerFactory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDDatabaseZoneManager *_zoneManager;
-    NSSet *_dataInterfaces;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
-+ (id);
++ (id)MSPSharedTripVirtualReceiverStartLiveUpdates;
 + (id)g;;
 - (void);
 - (void);
@@ -42,22 +30,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)"MSPSharedTripSharingIdentity"24;
+- (_Bool)editObjectsWithIdentifiers:(id)arg1 usingBarrierBlock:(id)arg2 completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_currentState;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,8 +42,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)4;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,14 +96,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (id);
 - (id)!$Gù°1Â0@ù
 × ;
-- (id)rIdentifier;
-- (id)ithError: /* Error: Ran out of types for this method. */;
+- (id)ckContainerIdentifier;
+- (id)_closeAllSocketsWithError: /* Error: Ran out of types for this method. */;
 - (void)HMDAccessory",W,V_accessory;
 - (id)error:(%@): /* Error: Ran out of types for this method. */;
 - (id)retrieving problem flags.;
@@ -125,31 +113,7 @@ __attribute__((visibility("hidden")))
 - (void)omeMediaSystemHandler.addedMediaSystem.failure;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly) HMDPersonCoreDataManager *coreDataManager; // @synthesize coreDataManager=_coreDataManager;
-@property(readonly, getter=isCurrentDeviceAvailableResident) _Bool currentDeviceAvailableResident;
-@property(readonly, getter=isDataAvailable) _Bool dataAvailable;
-@property(readonly) NSSet *dataInterfaces; // @synthesize dataInterfaces=_dataInterfaces;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property unsigned long long fetchBatchLimit; // @synthesize fetchBatchLimit=_fetchBatchLimit;
-@property(readonly) unsigned long long hash;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
 @property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, copy) id <HMDPersonManagerSettings> settings;
-@property(readonly) _Bool sharesFaceClassifications;
-@property(readonly) Class superclass;
-@property(readonly) _Bool syncsPersonData;
-@property(retain) HMFTimer *unassociatedFaceCropsCleanupTimer; // @synthesize unassociatedFaceCropsCleanupTimer=_unassociatedFaceCropsCleanupTimer;
-@property(copy) CDUnknownBlockType unassociatedFaceCropsCleanupTimerFactory; // @synthesize unassociatedFaceCropsCleanupTimerFactory=_unassociatedFaceCropsCleanupTimerFactory;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly) HMDDatabaseZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
-@property(readonly, copy) NSString *zoneName;
 
 @end
 

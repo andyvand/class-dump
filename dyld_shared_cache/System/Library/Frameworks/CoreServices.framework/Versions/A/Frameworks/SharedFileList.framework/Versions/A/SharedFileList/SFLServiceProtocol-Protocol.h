@@ -5,5 +5,6 @@
 //
 
 @protocol SFLServiceProtocol
+- (void);
 @end
 

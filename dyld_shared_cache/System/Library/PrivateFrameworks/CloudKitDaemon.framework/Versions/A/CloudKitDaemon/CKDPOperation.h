@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPIdentifier, NSData, NSString;
+@class CKDPIdentifier;
 
 @interface CKDPOperation
 {
     CKDPIdentifier *_anonymousCKUserID;
-    NSString *_operationUUID;
-    NSData *_requestSignature;
-    int _type;
-    _Bool _last;
-    _Bool _synchronousMode;
-    struct {
-        unsigned int type:1;
-        unsigned int last:1;
-        unsigned int synchronousMode:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)stop::common_Announcement /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -29,15 +19,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)recordNumber:(id)arg1 recordData: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_protocolDriverDescriptorDictionaryRelease;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -48,27 +38,16 @@
 - (id);
 - (void);
 - (_Bool);
-- (int);
-- (_Bool);
-- (id)s;
+- (int)A;
+- (_Bool)incorrectTrackingPreventionSaltSize;
+- (id)holdAllOperations;
 - (_Bool)rieveRequest",&,N;
 - (void)4;
 - (void);
 - (void)tion's container was invalid when requesting container specific info:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPIdentifier *anonymousCKUserID; // @synthesize anonymousCKUserID=_anonymousCKUserID;
-@property(readonly, nonatomic) _Bool hasAnonymousCKUserID;
-@property(nonatomic) _Bool hasLast;
 @property(readonly, nonatomic) _Bool hasOperationUUID;
-@property(readonly, nonatomic) _Bool hasRequestSignature;
-@property(nonatomic) _Bool hasSynchronousMode;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool last; // @synthesize last=_last;
-@property(retain, nonatomic) NSString *operationUUID; // @synthesize operationUUID=_operationUUID;
-@property(retain, nonatomic) NSData *requestSignature; // @synthesize requestSignature=_requestSignature;
-@property(nonatomic) _Bool synchronousMode; // @synthesize synchronousMode=_synchronousMode;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

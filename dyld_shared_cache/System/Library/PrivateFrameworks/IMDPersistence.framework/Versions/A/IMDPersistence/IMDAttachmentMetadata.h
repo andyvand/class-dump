@@ -9,30 +9,24 @@
 @interface IMDAttachmentMetadata
 {
     void permanentAttachmentGUID;
-    void messageGUID;
-    _Bool fromMe;
-    void handleID;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)_passPhraseAlternateMessageTextField;
 - (id);
 - (void);
 - (void)id as a_id, message_date as m_date FROM message_attachment_join ma JOIN (SELECT cm.message_id as message_id, cm.message_date as message_date FROM message m JOIN chat_message_join cm WHERE m.cache_has_attachments = 1 AND cm.chat_id AND cm.chat_id = ? AND m.rowid = cm.message_id) as tmp WHERE ma.message_id = tmp.message_id) as tmp2 WHERE a.rowid = tmp2.a_id ORDER BY tmp2.m_date DESC LIMIT ?;
 
 // Remaining properties
-@property(nonatomic) _Bool fromMe; // @synthesize fromMe;
-@property(nonatomic, copy) NSString *handleID;
-@property(nonatomic, copy) NSString *messageGUID;
 @property(nonatomic, copy) NSString *permanentAttachmentGUID;
 
 @end

@@ -10,20 +10,20 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)_checkRequestThrottle;
+- (void)_checkOffersRequestLimitedByAllowedServiceIdentifiers:(id)arg1;
+- (void)_checkOffersRequestLimitedByAllowedServiceIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)_checkOfferRequestEncoder;
+- (void)_checkHeaderSizeAndTriggerAutoBugCaptureIfNeeded:(id)arg1;
+- (void)_checkForCombinediTunesAccount;
+- (void)_buildRequestTask;
+- (void)_buildRequestParametersWithError:(id)arg1;
+- (void)_buildPaymentRequest;
+- (void)_boolFromDatabaseForKey:(id)arg1 defaultValue:domain:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_bodyObjectFromRequest:(SEL)arg1;
+- (void)_beginFlushIntervalWithStyle:events: /* Error: Ran out of types for this method. */;
+- (void)_beginDate;
+- (void)_baseQueryDictionaryForIdentifier:(id)arg1 numValues: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)accessibilityVerticalScrollBar;
+- (_Bool)@"AXFTextPosition",&,N,V_currentPosition;
+- (id)N;
 - (id);
 - (double);
 - (void)oraryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Core/PGGraphEntityTranslator.m;

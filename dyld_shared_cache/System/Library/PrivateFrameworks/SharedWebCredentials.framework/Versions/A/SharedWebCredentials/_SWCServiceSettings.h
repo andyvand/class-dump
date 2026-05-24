@@ -4,44 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, _SWCGeneration, _SWCServiceSpecifier;
+@class NSDictionary, NSMutableDictionary;
 
 @interface _SWCServiceSettings
 {
     NSMutableDictionary *_dict;
-    unsigned int _hasChanges:1;
-    _SWCServiceSpecifier *_serviceSpecifier;
-    _SWCGeneration *_generation;
 }
 
 + (void);
 + (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (id);
+- (id)EFy;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)PILMinimumAchievableAutoBrightness;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) _SWCGeneration *generation; // @synthesize generation=_generation;
-@property(readonly) _Bool hasChanges;
-@property(readonly) _SWCServiceSpecifier *serviceSpecifier; // @synthesize serviceSpecifier=_serviceSpecifier;
 
 @end
 

@@ -7,24 +7,20 @@
 @interface _PSContactCatalogTaskMetrics
 {
     double _processingTime;
-    double _timeSinceLastRun;
-    long long _status;
 }
 
-+ (void);
-- (double);
-- (void);
-- (void);
-- (double);
++ (void)_appUsageCountFromSiri6Hrs;
+- (double)_flowHandlerId;
+- (void)_exist;
+- (void)_evaluationResult;
+- (double)_countFactoryAssets;
 - (void);
 - (id);
-- (id);
+- (id)i;
 - (long long);
 
 // Remaining properties
 @property(nonatomic) double processingTime; // @synthesize processingTime=_processingTime;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) double timeSinceLastRun; // @synthesize timeSinceLastRun=_timeSinceLastRun;
 
 @end
 

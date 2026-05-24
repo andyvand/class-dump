@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLServiceVendor, CLSilo, NSString;
+@class CLSilo;
 @protocol CLIntersiloUniverse;
 
 @interface CLIntersiloService
 {
     CLSilo *_silo;
-    CLServiceVendor *_vendor;
-    _Bool _valid;
 }
 
 + (id);
@@ -31,17 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CLSilo *silo; // @synthesize silo=_silo;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <CLIntersiloUniverse> universe;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
-@property(readonly, nonatomic) CLServiceVendor *vendor; // @synthesize vendor=_vendor;
 
 @end
 

@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSXPCConnection;
-@protocol CXNetworkExtensionMessageControllerHostConnectionDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CXNetworkExtensionMessageControllerHostConnection
 {
     struct os_unfair_lock_s _accessorLock;
-    id <CXNetworkExtensionMessageControllerHostConnectionDelegate> _delegate;
-    NSString *_applicationIdentifier;
-    NSSet *_capabilities;
-    NSXPCConnection *_connection;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -33,17 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(readonly, copy, nonatomic) NSSet *capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXNetworkExtensionMessageControllerHostConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

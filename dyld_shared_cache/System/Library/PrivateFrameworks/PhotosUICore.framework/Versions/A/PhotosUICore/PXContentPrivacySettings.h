@@ -9,17 +9,9 @@
 @interface PXContentPrivacySettings : PXSettings
 {
     _Bool _shouldAlwaysShowUnlockButtonInContentUnavailableViews;
-    _Bool _shouldLockAfterScreenLocked;
-    _Bool _shouldLockAfterScreenSaverStarts;
-    _Bool _shouldLockWhenAppWindowIsBackgroundedAfterDelay;
-    _Bool _shouldLockAfterDelayWhenLeavingViewHierarchy;
-    long long _simulationMode;
-    long long _simulatedAuthenticationType;
-    long long _authenticationBehaviorUponAppearing;
-    double _autolockTimeout;
 }
 
-+ (id);
++ (id)resources;
 + (id)§*Sb: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
@@ -31,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)q;
 - (void);
 - (void);
 - (_Bool);
@@ -44,14 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long authenticationBehaviorUponAppearing; // @synthesize authenticationBehaviorUponAppearing=_authenticationBehaviorUponAppearing;
-@property(nonatomic) double autolockTimeout; // @synthesize autolockTimeout=_autolockTimeout;
-@property(nonatomic) _Bool shouldAlwaysShowUnlockButtonInContentUnavailableViews; // @synthesize shouldAlwaysShowUnlockButtonInContentUnavailableViews=_shouldAlwaysShowUnlockButtonInContentUnavailableViews;
-@property(nonatomic) _Bool shouldLockAfterDelayWhenLeavingViewHierarchy; // @synthesize shouldLockAfterDelayWhenLeavingViewHierarchy=_shouldLockAfterDelayWhenLeavingViewHierarchy;
-@property(nonatomic) _Bool shouldLockAfterScreenLocked; // @synthesize shouldLockAfterScreenLocked=_shouldLockAfterScreenLocked;
-@property(nonatomic) _Bool shouldLockAfterScreenSaverStarts; // @synthesize shouldLockAfterScreenSaverStarts=_shouldLockAfterScreenSaverStarts;
-@property(nonatomic) _Bool shouldLockWhenAppWindowIsBackgroundedAfterDelay; // @synthesize shouldLockWhenAppWindowIsBackgroundedAfterDelay=_shouldLockWhenAppWindowIsBackgroundedAfterDelay;
-@property(nonatomic) long long simulatedAuthenticationType; // @synthesize simulatedAuthenticationType=_simulatedAuthenticationType;
 @property(nonatomic) long long simulationMode; // @synthesize simulationMode=_simulationMode;
 
 @end

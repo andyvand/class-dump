@@ -4,64 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, SpotlightReceiverConfig;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class SpotlightReceiverConfig;
 
 @interface SpotlightReceiverConnection
 {
     SpotlightReceiverConfig *_primaryConfig;
-    NSArray *_configs;
-    _Atomic _Bool _disabled;
-    long long _setupOnce;
-    _Bool _wantsHTML;
-    _Bool _wantsText;
-    _Bool _setupComplete;
-    _Bool _skipFileProviderItems;
-    int _supportedJobs;
-    _Atomic unsigned int _requestCount;
-    NSObject<OS_dispatch_queue> *_senderQueue;
-    double _minDate;
-    NSObject<OS_dispatch_semaphore> *_setupSemaphore;
 }
 
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)*=;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)nts.PersonRelationship.;
+- (void)ing condition entry type:(id)arg1 '%d' on '%s;
 - (_Bool);
 - (double);
 - (id);
 - (_Bool);
 - (int);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)MaintenanceWakeAssertion;
+- (void)%d.  Limits will appear as 0MB and not fatal.
+;
+- (id)) buffer elements;
 - (void);
 - (void);
 - (id);
@@ -69,7 +57,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)cause REM account is missing {acAccount:%@ %{public}@}. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -77,22 +65,11 @@
 - (void);
 - (void);
 - (void)andler:(id)arg1;
-- (unsigned int)SetWithCharactersInString: /* Error: Ran out of types for this method. */;
+- (unsigned int)characterSetWithCharactersInString: /* Error: Ran out of types for this method. */;
 - (_Bool),V_contentType;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *configs;
-@property(nonatomic) double minDate; // @synthesize minDate=_minDate;
-@property(copy, nonatomic) SpotlightReceiverConfig *primaryConfig; // @synthesize primaryConfig=_primaryConfig;
-@property(readonly, nonatomic) _Atomic unsigned int requestCount; // @synthesize requestCount=_requestCount;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *senderQueue; // @synthesize senderQueue=_senderQueue;
-@property _Bool setupComplete; // @synthesize setupComplete=_setupComplete;
-@property(retain) NSObject<OS_dispatch_semaphore> *setupSemaphore; // @synthesize setupSemaphore=_setupSemaphore;
-@property(nonatomic) _Bool skipFileProviderItems; // @synthesize skipFileProviderItems=_skipFileProviderItems;
 @property(readonly, nonatomic) int supportedJobs; // @synthesize supportedJobs=_supportedJobs;
-@property(readonly, nonatomic) _Bool unresponsive;
-@property(nonatomic) _Bool wantsHTML; // @synthesize wantsHTML=_wantsHTML;
-@property(nonatomic) _Bool wantsText; // @synthesize wantsText=_wantsText;
 
 @end
 

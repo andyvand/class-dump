@@ -5,14 +5,11 @@
 //
 
 @class NSString;
-@protocol P256PrivateKeyProtocol;
 
 __attribute__((visibility("hidden")))
 @interface FullKey
 {
     int _keyStore;
-    id <P256PrivateKeyProtocol> _key;
-    NSString *_keychainTag;
 }
 
 + (id);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)"ƁR;
 - (id);
 - (int);
 - (id);
@@ -31,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) id <P256PrivateKeyProtocol> key; // @synthesize key=_key;
-@property(readonly) int keyStore; // @synthesize keyStore=_keyStore;
 @property(retain) NSString *keychainTag; // @synthesize keychainTag=_keychainTag;
 
 @end

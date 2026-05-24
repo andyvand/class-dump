@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (id);
+- (void)SIndexPath"32@40;
+- (id)nt query with index %d;
 - (void);
 - (void);
 

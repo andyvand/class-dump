@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSString;
+@class CNContactStore;
 
 @interface CNUIContactFetchDescription
 {
     _Bool _unified;
-    _Bool _fetchAsynchronously;
-    _Bool _fetchingDuringLaunch;
-    CNContactStore *_mainContactStore;
-    CNContactStore *_alternateContactStore;
-    NSString *_contactIdentifier;
-    NSArray *_keysToFetch;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)/;
+- (id)8;
+- (id)\;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *alternateContactStore; // @synthesize alternateContactStore=_alternateContactStore;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) _Bool fetchAsynchronously; // @synthesize fetchAsynchronously=_fetchAsynchronously;
-@property(readonly, nonatomic) _Bool fetchingDuringLaunch; // @synthesize fetchingDuringLaunch=_fetchingDuringLaunch;
-@property(readonly, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
 @property(readonly, nonatomic) CNContactStore *mainContactStore; // @synthesize mainContactStore=_mainContactStore;
-@property(readonly, nonatomic) _Bool unified; // @synthesize unified=_unified;
 
 @end
 

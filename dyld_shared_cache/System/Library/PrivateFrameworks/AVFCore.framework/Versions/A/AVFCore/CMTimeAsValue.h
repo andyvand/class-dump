@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)a;
 - (id);
-- (id);
+- (id)P;
 - (Class);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)tusID;
+- (_Bool)^p;
 - (long long);
 - (_Bool);
 - (long long);
@@ -35,8 +35,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (const char *);
 - (long long);
-- (unsigned long long):options:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long)thSavedPhotosAlbum;
+- (unsigned long long)_commonInitWithAsset:options:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)compatibleWithSavedPhotosAlbum;
 
 @end
 

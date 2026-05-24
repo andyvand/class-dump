@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDWiFiNWActivityStateBin
 {
     unsigned long long _residentTime;
-    NSString *_state;
-    struct {
-        unsigned int residentTime:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Ri;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)Hw;
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
+- (unsigned long long)_;
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
+- (void)+;
+- (id)I;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasResidentTime;
 @property(readonly, nonatomic) _Bool hasState;
-@property(nonatomic) unsigned long long residentTime; // @synthesize residentTime=_residentTime;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
 
 @end
 

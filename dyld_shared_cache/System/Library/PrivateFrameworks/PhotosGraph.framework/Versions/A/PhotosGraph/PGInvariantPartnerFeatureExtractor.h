@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)imageURLAndLuminanceWithItemIndex: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

@@ -7,11 +7,6 @@
 @interface AppStoreKit.CompleteMyBundleController
 {
     id objectGraph;
-    id delegate;
-    id personalizedOfferContext;
-    id currentlyObservedChildrenIds;
-    id lastCurrentlyObservedChildPurchaseStates;
-    id personalizedOfferDeterminationWorkItem;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBalloonPluginPayloadWrapper, BlastDoorEncodedAttachments, NSString;
+@class NSString;
 
 @interface BlastDoorCombinedPluginAttachment
 {
@@ -18,9 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorEncodedAttachments *attachments;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorBalloonPluginPayloadWrapper *payload;
 
 @end
 

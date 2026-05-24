@@ -4,56 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSTextAttachment, NSTextAttachmentViewProvider, NSTextLayoutFragment, _NSTextAttachmentLayoutContext;
-@protocol NSTextLocation;
+@class _NSTextAttachmentLayoutContext;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextAttachmentLayoutInfo
 {
     _NSTextAttachmentLayoutContext *_layoutContext;
-    id <NSTextLocation> _location;
-    long long _locationOffsetFromBase;
-    NSDictionary *_attributes;
-    NSTextAttachment *_textAttachment;
-    NSTextAttachmentViewProvider *_textAttachmentViewProvider;
-    NSTextLayoutFragment *_textLayoutFragment;
-    struct __CTRunDelegate *_runDelegate;
-    struct CGRect _bounds;
-    struct CGRect _proposedLineFragment;
-    double _baselineOffset;
-    double _horizontalOffset;
-    _Bool _isBoundsValid;
-    _Bool _isLineFragmentLayout;
-    struct CGRect _resolvedAttachmentFrame;
 }
 
+- (id)ks/DiskArbitration.framework/DiskArbitration;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id)`[;
+- (void);
 - (id);
-- (struct __CTRunDelegate *);
-- (struct CGRect);
+- (struct __CTRunDelegate *)eopleSuggesterContext";
+- (struct CGRect)onID=%{signpost.telemetry:string2,public}@  enableTelemetry=YES  /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGPoint);
 - (void);
 - (id);
 
 // Remaining properties
-@property struct CGPoint attachmentFrameOrigin; // @dynamic attachmentFrameOrigin;
-@property(readonly, copy) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(readonly) _NSTextAttachmentLayoutContext *layoutContext; // @synthesize layoutContext=_layoutContext;
-@property(readonly) id <NSTextLocation> location; // @dynamic location;
-@property(readonly) struct CGRect resolvedAttachmentFrame; // @synthesize resolvedAttachmentFrame=_resolvedAttachmentFrame;
-@property(readonly) struct __CTRunDelegate *runDelegate; // @dynamic runDelegate;
-@property(readonly) NSTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;
-@property(retain) NSTextAttachmentViewProvider *textAttachmentViewProvider; // @dynamic textAttachmentViewProvider;
 
 @end
 

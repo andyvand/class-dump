@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXTextAttributionProviding;
-
 @interface SXTextTangierEditingController
 {
     _Bool _startingInitialSelectionDrag;
-    id <SXTextAttributionProviding> _textAttributionProvider;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)5
+h;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)!DCùïÐ1Â0@ù
 × ;
-- (void)h: /* Error: Ran out of types for this method. */;
+- (void)convertColumnRange:minimumColumnLength: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool startingInitialSelectionDrag; // @synthesize startingInitialSelectionDrag=_startingInitialSelectionDrag;
-@property(readonly, nonatomic) id <SXTextAttributionProviding> textAttributionProvider; // @synthesize textAttributionProvider=_textAttributionProvider;
 
 @end
 

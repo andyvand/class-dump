@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSNumber;
+@class CIImage;
 
 @interface GUBilateralConvolution
 {
     CIImage *_inputImage;
-    NSArray *_inputPoints;
-    NSArray *_inputWeights;
-    NSNumber *_inputEdgeDetail;
-    NSNumber *_inputVersion;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
@@ -22,8 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 + (id);
@@ -42,17 +38,13 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (id)`;
+- (void)C;
 - (id);
-- (void);
-- (id);
-- (void)ssary: /* Error: Ran out of types for this method. */;
+- (void)orientationAdjustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSNumber *inputEdgeDetail; // @synthesize inputEdgeDetail=_inputEdgeDetail;
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain) NSArray *inputPoints; // @synthesize inputPoints=_inputPoints;
-@property(retain) NSNumber *inputVersion; // @synthesize inputVersion=_inputVersion;
-@property(retain) NSArray *inputWeights; // @synthesize inputWeights=_inputWeights;
 
 @end
 

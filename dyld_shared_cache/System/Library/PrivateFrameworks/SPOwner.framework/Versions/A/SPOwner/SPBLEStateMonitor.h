@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, NSString;
-@protocol SPBLEStateMonitorDelegate;
-
 __attribute__((visibility("hidden")))
 @interface SPBLEStateMonitor
 {
     unsigned long long _bleState;
-    id <SPBLEStateMonitorDelegate> _delegate;
-    CBCentralManager *_centralManager;
 }
 
 - (unsigned long long);
@@ -29,15 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long bleState; // @synthesize bleState=_bleState;
-@property(retain, nonatomic) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SPBLEStateMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

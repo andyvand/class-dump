@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCNContactIdentifier, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ABCNInMemoryState
 {
     NSMutableDictionary *_contactsByIdentifier;
-    NSMutableDictionary *_groupsByIdentifier;
-    ABCNContactIdentifier *_meCardIdentifier;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id)Cù11*ð1Â0@ù

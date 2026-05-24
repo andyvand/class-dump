@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMPArtworkSourceInfo, NSError, NSString;
+@class AMPArtworkSourceInfo;
 
 @interface AMPSetArtworkResponse
 {
     unsigned int _status;
-    AMPArtworkSourceInfo *_info;
-    NSError *_error;
-    NSString *_uuid;
-    unsigned long long _imageDataHash;
 }
 
 + (_Bool);
@@ -32,11 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long imageDataHash; // @synthesize imageDataHash=_imageDataHash;
 @property(retain, nonatomic) AMPArtworkSourceInfo *info; // @synthesize info=_info;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

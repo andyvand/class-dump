@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFIcon;
-@protocol WFPropertyListObject;
+@class NSString;
 
 @interface WFConcreteRunnableEntry
 {
     NSString *_identifier;
-    NSString *_uniqueIdentifier;
-    NSString *_name;
-    WFIcon *_entryIcon;
-    WFIcon *_accessoryIcon;
-    id <WFPropertyListObject> _serializedParameterState;
 }
 
 + (_Bool);
+- (id)fu:{ /* Error: Ran out of types for this method. */;
+- (id)z;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)ping news item with unparsable URL %@;
 - (id);
 - (void)ñ^Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WFIcon *accessoryIcon; // @synthesize accessoryIcon=_accessoryIcon;
-@property(readonly, nonatomic) WFIcon *entryIcon; // @synthesize entryIcon=_entryIcon;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) id <WFPropertyListObject> serializedParameterState; // @synthesize serializedParameterState=_serializedParameterState;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

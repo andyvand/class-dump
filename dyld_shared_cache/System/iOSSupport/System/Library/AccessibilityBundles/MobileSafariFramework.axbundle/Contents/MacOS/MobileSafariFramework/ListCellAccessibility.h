@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)*;
++ (id)insertFavoriteTab: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (unsigned long long);
 
 @end

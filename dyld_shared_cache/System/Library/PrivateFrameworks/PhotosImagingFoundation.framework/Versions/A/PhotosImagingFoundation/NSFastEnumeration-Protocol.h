@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)%d):(CDStruct_70511ce9 *)arg1 %{public}@;
 @end
 

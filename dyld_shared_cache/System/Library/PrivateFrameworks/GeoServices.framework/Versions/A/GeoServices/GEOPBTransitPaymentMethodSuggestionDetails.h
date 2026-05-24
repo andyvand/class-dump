@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitPaymentMethodSuggestionDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_educationalScreenAssets;
-    GEOFormattedString *_educationalScreenHeader;
-    NSMutableArray *_educationalScreenPaymentBodys;
-    unsigned long long _paymentMethodRegionMuid;
-    GEOFormattedString *_suggestionBody;
-    GEOFormattedString *_suggestionTitle;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_paymentMethodRegionMuid:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_educationalScreenAssets:1;
-        unsigned int read_educationalScreenHeader:1;
-        unsigned int read_educationalScreenPaymentBodys:1;
-        unsigned int read_suggestionBody:1;
-        unsigned int read_suggestionTitle:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)nueExperienceShown:(id)arg1;
++ (_Bool)setHasVenueExperienceShown:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -45,7 +25,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -64,14 +44,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)P\;
+- (void)hardwareConfig;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)4;
 - (id)SceneNode}^{GeoCodecsDaVinciMaterialMap}^SSSSSC},R,N;
 - (id)P±x{ò;
@@ -79,17 +59,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *educationalScreenAssets;
-@property(retain, nonatomic) GEOFormattedString *educationalScreenHeader;
-@property(retain, nonatomic) NSMutableArray *educationalScreenPaymentBodys;
-@property(readonly, nonatomic) _Bool hasEducationalScreenHeader;
 @property(nonatomic) _Bool hasPaymentMethodRegionMuid;
-@property(readonly, nonatomic) _Bool hasSuggestionBody;
-@property(readonly, nonatomic) _Bool hasSuggestionTitle;
-@property(nonatomic) unsigned long long paymentMethodRegionMuid;
-@property(retain, nonatomic) GEOFormattedString *suggestionBody;
-@property(retain, nonatomic) GEOFormattedString *suggestionTitle;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

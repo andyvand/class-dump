@@ -14,30 +14,30 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (id);
++ (void);
 + (void);
 + (_Bool);
++ (id);
++ (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
++ (_Bool);
 + (_Bool);
 + (void);
 + (void);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (void)-@( ;
 + (void);
-+ (void)Result:(id)arg1;
++ (_Bool);
++ (void);
++ (void);
++ (void);
++ (void)_notifyPSYWithResult:(id)arg1;
 
 @end
 

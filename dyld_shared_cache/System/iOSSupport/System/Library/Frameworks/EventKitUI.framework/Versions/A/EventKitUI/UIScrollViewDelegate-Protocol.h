@@ -9,6 +9,11 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)ewControllerWithEvent:(UIScrollView *)arg1 delegate:context:canvasView: /* Error: Ran out of types for this method. */;
+- (void){;
+- (void);
+- (void)fTravelAssistance=dddddddddBBBBBidd};
+- (void)SUUID";
+- (_Bool)xǱe;
+- (void)eventDetailViewControllerWithEvent:(UIScrollView *)arg1 delegate:context:canvasView: /* Error: Ran out of types for this method. */;
 @end
 

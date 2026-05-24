@@ -7,9 +7,6 @@
 @interface SwiftUI.KeyViewProxyCache
 {
     id focusBridge;
-    id elementProxies;
-    id version;
-    id containers;
 }
 
 @end

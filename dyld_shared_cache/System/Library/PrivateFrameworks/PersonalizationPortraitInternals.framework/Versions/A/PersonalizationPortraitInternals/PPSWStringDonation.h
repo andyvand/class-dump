@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPSource;
+@class NSString;
 
 @interface PPSWStringDonation
 {
     void uniqueId;
-    double absoluteTimestamp;
-    PPSource *source;
-    void extractionContent;
-    _Bool shouldConsume;
 }
 
 - (void);
@@ -23,18 +19,14 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (id);
 - (void)ù
 × ;
-- (void)idUpdateGuidanceState: /* Error: Ran out of types for this method. */;
+- (void)navigationListener:didUpdateGuidanceState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp;
-@property(nonatomic, copy) NSString *extractionContent;
-@property(nonatomic) _Bool shouldConsume; // @synthesize shouldConsume;
-@property(nonatomic, retain) PPSource *source; // @synthesize source;
 @property(nonatomic, copy) NSString *uniqueId;
 
 @end

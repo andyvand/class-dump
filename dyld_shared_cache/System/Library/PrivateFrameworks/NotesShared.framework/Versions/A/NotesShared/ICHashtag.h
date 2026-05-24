@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class CKRecord, CKRecordID, CSSearchableItemAttributeSet, ICAccount, NSDate, NSManagedObjectContext, NSManagedObjectID, NSString;
+@class CKRecordID;
 
 @interface ICHashtag : ICCloudSyncingObject
 {
@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (void);
++ (void)setDownloadCompletionBlock:(id)arg1;
 + (id);
 + (id);
 + (id);
@@ -37,56 +37,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) ICAccount *account; // @dynamic account;
-@property(readonly, copy, nonatomic) NSString *contentIdentifier;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, copy, nonatomic) NSString *dataSourceIdentifier;
-@property(readonly, nonatomic) long long databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayText; // @dynamic displayText;
-@property(readonly, nonatomic) _Bool hasPresentableContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDeletable;
-@property(readonly, nonatomic) _Bool isHiddenFromIndexing;
-@property(readonly, nonatomic) _Bool isHiddenFromSearch;
-@property(readonly, nonatomic) _Bool isInICloudAccount;
-@property(readonly, nonatomic) _Bool isMovable;
-@property(readonly, nonatomic) _Bool isValidObject;
-@property(readonly, copy, nonatomic) NSString *loggingDescription;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSDate *modificationDate;
-@property(readonly, nonatomic) _Bool needsToBeDeletedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBeFetchedFromCloud;
-@property(readonly, nonatomic) _Bool needsToBePushedToCloud;
-@property(readonly, nonatomic) _Bool needsToSaveUserSpecificRecord;
-@property(readonly, nonatomic) unsigned long long numberOfCommonRecordAssets;
-@property(readonly, nonatomic) unsigned long long numberOfUserSpecificRecordAssets;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @property(readonly, copy, nonatomic) CKRecordID *recordID;
-@property(readonly, copy, nonatomic) NSString *recordType;
-@property(readonly, copy, nonatomic) NSString *searchDomainIdentifier;
-@property(readonly, copy, nonatomic) NSString *searchIndexingIdentifier;
-@property(readonly, nonatomic) _Bool searchResultCanBeDeletedFromNoteContext;
-@property(readonly, nonatomic) unsigned long long searchResultType;
-@property(readonly, nonatomic) unsigned long long searchResultsSection;
-@property(readonly, nonatomic) CSSearchableItemAttributeSet *searchableItemAttributeSet;
-@property(readonly) CSSearchableItemAttributeSet *searchableItemViewAttributeSet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CSSearchableItemAttributeSet",?,R
-
-@property(readonly, nonatomic) _Bool shouldAlwaysDownloadAssets;
-@property(copy, nonatomic) NSString *standardizedContent; // @dynamic standardizedContent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CSSearchableItemAttributeSet *userActivityContentAttributeSet;
-@property(readonly, copy, nonatomic) CKRecordID *userSpecificRecordID;
-@property(readonly, copy, nonatomic) NSString *userSpecificRecordType;
-@property(readonly, retain, nonatomic) CKRecord *userSpecificServerRecord;
-@property(readonly, nonatomic) long long visibilityTestingType;
-@property(readonly, nonatomic) _Bool wantsUserSpecificRecord;
 
 @end
 

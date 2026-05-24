@@ -10,11 +10,11 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)g",R,C,N,V_domain;
 - (id);
 - (id);
 - (void);
-- (void)onfiguration;
+- (void)CombinedMatchedTransitionSourceConfiguration;
 
 @end
 

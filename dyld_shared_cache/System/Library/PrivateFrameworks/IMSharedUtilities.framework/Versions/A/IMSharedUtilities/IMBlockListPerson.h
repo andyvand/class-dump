@@ -9,12 +9,9 @@
 @interface IMBlockListPerson
 {
     CNContact *_cnPerson;
-    NSString *_identifier;
-    NSString *_cachedFullName;
-    NSString *_cachedCompanyName;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -24,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ELIGIBILITY_ERROR_REGION_MISMATCH_MESSAGE;
 - (id);
 - (void);
 - (id);
@@ -32,10 +29,6 @@
 - (void)ÏÒ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cachedCompanyName; // @synthesize cachedCompanyName=_cachedCompanyName;
-@property(retain, nonatomic) NSString *cachedFullName; // @synthesize cachedFullName=_cachedFullName;
-@property(readonly, nonatomic) CNContact *cnPerson; // @synthesize cnPerson=_cnPerson;
-@property(readonly, nonatomic) NSString *fullName;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

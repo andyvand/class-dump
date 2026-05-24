@@ -14,12 +14,12 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)[<;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)pe;
+- (id)DismissedBroadwayDiscoverability;
+- (void)RepresentationType;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *conversationListSIMShortNameDictionary; // @synthesize conversationListSIMShortNameDictionary=_conversationListSIMShortNameDictionary;

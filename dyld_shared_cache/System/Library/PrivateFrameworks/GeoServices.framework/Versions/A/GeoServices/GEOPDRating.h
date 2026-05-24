@@ -4,46 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRating
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_appleRatingCategorys;
-    double _maxScore;
-    NSMutableArray *_reviewSummarys;
-    double _score;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _numRatingsUsedForScore;
-    int _ratingType;
-    struct {
-        unsigned int has_maxScore:1;
-        unsigned int has_score:1;
-        unsigned int has_numRatingsUsedForScore:1;
-        unsigned int has_ratingType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_appleRatingCategorys:1;
-        unsigned int read_reviewSummarys:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)_speechRecordingEventListenerConnection;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)NSError">32;
-- (id)ookupBrandParameters;
+- (id)_merchantLookupBrandParameters;
 - (id)°×ØÀØ\ÚxÛ;
 - (void)}>Ê®F@;
 

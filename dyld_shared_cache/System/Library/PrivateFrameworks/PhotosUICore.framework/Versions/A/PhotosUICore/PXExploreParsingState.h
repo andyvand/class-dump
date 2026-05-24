@@ -7,16 +7,6 @@
 @interface PXExploreParsingState
 {
     _Bool _canIgnoreNextHeroSide;
-    _Bool _didMoveBestItemOutOfNextShortRow;
-    _Bool _didMoveBestItemOutOfPreviousShortRowIntoHeroRow;
-    long long _parseLocation;
-    double _buildingBlockAspectRatio;
-    long long _nextRowType;
-    long long _nextHeroSide;
-    long long _numberOfConsecutiveMediumHeroRows;
-    long long _effectiveLargeHeroDensity;
-    long long _numberOfColumnsOverride;
-    long long _lastHeroRowTag;
 }
 
 - (void);
@@ -24,18 +14,18 @@
 - (void);
 - (void);
 - (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)u;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,16 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double buildingBlockAspectRatio; // @synthesize buildingBlockAspectRatio=_buildingBlockAspectRatio;
-@property(readonly, nonatomic) _Bool canIgnoreNextHeroSide; // @synthesize canIgnoreNextHeroSide=_canIgnoreNextHeroSide;
-@property(nonatomic) _Bool didMoveBestItemOutOfNextShortRow; // @synthesize didMoveBestItemOutOfNextShortRow=_didMoveBestItemOutOfNextShortRow;
-@property(nonatomic) _Bool didMoveBestItemOutOfPreviousShortRowIntoHeroRow; // @synthesize didMoveBestItemOutOfPreviousShortRowIntoHeroRow=_didMoveBestItemOutOfPreviousShortRowIntoHeroRow;
-@property(nonatomic) long long effectiveLargeHeroDensity; // @synthesize effectiveLargeHeroDensity=_effectiveLargeHeroDensity;
-@property(nonatomic) long long lastHeroRowTag; // @synthesize lastHeroRowTag=_lastHeroRowTag;
-@property(nonatomic) long long nextHeroSide; // @synthesize nextHeroSide=_nextHeroSide;
-@property(nonatomic) long long nextRowType; // @synthesize nextRowType=_nextRowType;
-@property(nonatomic) long long numberOfColumnsOverride; // @synthesize numberOfColumnsOverride=_numberOfColumnsOverride;
-@property(nonatomic) long long numberOfConsecutiveMediumHeroRows; // @synthesize numberOfConsecutiveMediumHeroRows=_numberOfConsecutiveMediumHeroRows;
 @property(nonatomic) long long parseLocation; // @synthesize parseLocation=_parseLocation;
 
 @end

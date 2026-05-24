@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKBillPaymentSelectedSuggestedAmountData
 {
     NSString *_statementIdentifier;
-    NSDate *_transactionDate;
-    unsigned long long _suggestedAmountCategory;
-    NSDecimalNumber *_transactionAmount;
 }
 
 + (id);
@@ -24,30 +21,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)9h;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)";
+- (unsigned long long)!;
+- (_Bool)hasDurationOffline;
 - (void);
 - (id);
-- (void)rdMessageDate;
+- (void)LastPhysicalCardMessageDate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *statementIdentifier; // @synthesize statementIdentifier=_statementIdentifier;
-@property(nonatomic) unsigned long long suggestedAmountCategory; // @synthesize suggestedAmountCategory=_suggestedAmountCategory;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDecimalNumber *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
-@property(copy, nonatomic) NSDate *transactionDate; // @synthesize transactionDate=_transactionDate;
 
 @end
 

@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)heck;
++ (void)k;
 - (_Bool);
 
 @end

@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)led:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

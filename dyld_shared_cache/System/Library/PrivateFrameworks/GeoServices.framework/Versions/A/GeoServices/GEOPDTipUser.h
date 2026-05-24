@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPhoto, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTipUser
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDPhoto *_image;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_9fa62941 _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)observeValueForKeyPath:(id)arg1 ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (id)inAttendingWindow;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)globalBrandId"b1"read_isSuggesteds"b1"read_isoCountryCodes"b1"read_scopedBrandInfos"b1"wrote_anyField"b1};
-- (id)tring;
+- (id)_searchContextSubstring;
 - (id)n;
 - (void);
 

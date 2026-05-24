@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitTripStop
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_stopInfos;
 }
 
 + (id);
-- (id);
-- (void);
+- (id)X;
+- (void)testRecipeEatsRingerButton;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)lityTimeRange=II{?=b1b1}};
-- (id)tCurrentUpdateType:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)_setCurrentUpdateType:completionBlock: /* Error: Ran out of types for this method. */;
 - (id)
 ;
 - (void);

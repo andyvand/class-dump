@@ -9,55 +9,40 @@
 @interface TSDTextureContext
 {
     id <TSDAnimationSession> _session;
-    _Bool _isMagicMove;
-    _Bool _shouldAddFinal;
-    _Bool _shouldAddReversedFinal;
-    _Bool _shouldAddMagicMoveObjectOnly;
-    _Bool _shouldNotAddContainedReps;
-    _Bool _shouldNotAddShapeAttributes;
-    _Bool _shouldNotAddText;
-    _Bool _shouldNotCacheTexture;
-    _Bool _shouldSeparateReflection;
-    _Bool _shouldSeparateShadow;
-    _Bool _shouldSeparateStroke;
-    _Bool _shouldSeparateText;
-    _Bool _shouldDistortToFit;
-    _Bool _shouldForceTextureGeneration;
-    _Bool _shouldAddNoShapeAttributes;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)rkQueue;
+- (_Bool)oad any player item;
+- (_Bool)terrupted by ;
+- (_Bool)ention error;
+- (_Bool)Services are unavailable;
+- (_Bool)assetLoading;
 - (_Bool);
+- (_Bool)e - error: /* Error: Ran out of types for this method. */;
+- (_Bool)ion participatesInInterruptions to true - error: /* Error: Ran out of types for this method. */;
+- (_Bool)Category: /* Error: Ran out of types for this method. */;
+- (_Bool)er:- setAudioSession: /* Error: Ran out of types for this method. */;
+- (_Bool)transitionStartSourceTime;
+- (_Bool)dRamps;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)item:(_Bool)arg1;
+- (void)mpedNotification received for current item:(_Bool)arg1;
+- (void)me jump [;
+- (void)AVPlayerItemTimeJumpedReasonKey;
 - (void);
+- (void)ve transition time observers;
+- (void)VPlayer observations:(_Bool)arg1;
+- (void)ating buffering rate;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Non loadable item in user queue;
+- (void)reForSetQueue - identifier:(_Bool)arg1;
+- (void)ntifier:(_Bool)arg1;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (unsigned long long);
@@ -66,21 +51,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isMagicMove; // @synthesize isMagicMove=_isMagicMove;
 @property(nonatomic) id <TSDAnimationSession> session; // @synthesize session=_session;
-@property(nonatomic) _Bool shouldAddFinal; // @synthesize shouldAddFinal=_shouldAddFinal;
-@property(nonatomic) _Bool shouldAddMagicMoveObjectOnly; // @synthesize shouldAddMagicMoveObjectOnly=_shouldAddMagicMoveObjectOnly;
-@property(nonatomic) _Bool shouldAddReversedFinal; // @synthesize shouldAddReversedFinal=_shouldAddReversedFinal;
-@property(nonatomic) _Bool shouldDistortToFit; // @synthesize shouldDistortToFit=_shouldDistortToFit;
-@property(nonatomic) _Bool shouldForceTextureGeneration; // @synthesize shouldForceTextureGeneration=_shouldForceTextureGeneration;
-@property(nonatomic) _Bool shouldNotAddContainedReps; // @synthesize shouldNotAddContainedReps=_shouldNotAddContainedReps;
-@property(nonatomic) _Bool shouldNotAddShapeAttributes; // @synthesize shouldNotAddShapeAttributes=_shouldAddNoShapeAttributes;
-@property(nonatomic) _Bool shouldNotAddText; // @synthesize shouldNotAddText=_shouldNotAddText;
-@property(nonatomic) _Bool shouldNotCacheTexture; // @synthesize shouldNotCacheTexture=_shouldNotCacheTexture;
-@property(nonatomic) _Bool shouldSeparateReflection; // @synthesize shouldSeparateReflection=_shouldSeparateReflection;
-@property(nonatomic) _Bool shouldSeparateShadow; // @synthesize shouldSeparateShadow=_shouldSeparateShadow;
-@property(nonatomic) _Bool shouldSeparateStroke; // @synthesize shouldSeparateStroke=_shouldSeparateStroke;
-@property(nonatomic) _Bool shouldSeparateText; // @synthesize shouldSeparateText=_shouldSeparateText;
 
 @end
 

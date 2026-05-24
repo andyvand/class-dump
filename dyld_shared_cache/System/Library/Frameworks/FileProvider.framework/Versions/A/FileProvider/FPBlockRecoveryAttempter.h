@@ -5,14 +5,11 @@
 //
 
 @class NSError;
-@protocol FPXOperationService;
 
 __attribute__((visibility("hidden")))
 @interface FPBlockRecoveryAttempter
 {
     CDUnknownBlockType _recoveryBlock;
-    id <FPXOperationService> _fpxOperationService;
-    NSError *_expectedError;
 }
 
 - (void);

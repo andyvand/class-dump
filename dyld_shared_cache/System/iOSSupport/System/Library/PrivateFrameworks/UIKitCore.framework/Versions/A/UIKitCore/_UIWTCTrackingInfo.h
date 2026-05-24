@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableAttributedString, NSMutableDictionary, NSMutableIndexSet, NSUUID, UIWritingToolsCoordinatorContext, _UITextAssistantReplacementTracker, _UIWTCUndoRoller;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _UIWTCTrackingInfo
 {
     _Bool _streaming;
-    _Bool _showingOriginal;
-    NSMutableDictionary *_anticipationAnimationPreviews;
-    NSMutableDictionary *_removalAnimationPreviews;
-    NSMutableDictionary *_insertionAnimationPreviews;
-    NSMutableDictionary *_customAnimationFillColorsBySubrangeIndex;
-    UIWritingToolsCoordinatorContext *_acceptedEvaluationContext;
-    UIWritingToolsCoordinatorContext *_proposedEvaluationContext;
-    _UITextAssistantReplacementTracker *_replacementTracker;
-    NSMutableArray *_anticipationAnimationSubranges;
-    NSMutableArray *_removalAnimationSubranges;
-    NSMutableArray *_insertionAnimationSubranges;
-    NSMutableIndexSet *_finishedAnticipationSubrangeIndexes;
-    NSMutableIndexSet *_finishedRemovalSubrangeIndexes;
-    NSMutableIndexSet *_finishedInsertionSubrangeIndexes;
-    NSMutableIndexSet *_landedReplacementSubrangeIndexes;
-    NSMutableAttributedString *_currentProofreadingText;
-    NSMutableDictionary *_proofreadingSuggestionIDsPerDeliveryID;
-    NSMutableDictionary *_backingProofreadingSuggestionStatePerSuggestionID;
-    NSUUID *_savedReviewingProofreadingSuggestionID;
-    NSMutableDictionary *_decorationContainerViewsPerRange;
-    _UIWTCUndoRoller *_undoRoller;
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -44,14 +23,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (id);
@@ -80,36 +59,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)%s options:(id)arg1 %ld pendingKeys:%{public}ld /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool)SString * _Nonnull _UIBoundingPathBitmapDataDescription(const _UIBoundingPathBitmapData);
-- (void)DataSourceC;
+- (void)So22__UIDiffableDataSourceC;
 
 // Remaining properties
-@property(retain, nonatomic) UIWritingToolsCoordinatorContext *acceptedEvaluationContext; // @synthesize acceptedEvaluationContext=_acceptedEvaluationContext;
-@property(readonly, nonatomic) NSMutableDictionary *anticipationAnimationPreviews; // @synthesize anticipationAnimationPreviews=_anticipationAnimationPreviews;
-@property(retain, nonatomic) NSMutableArray *anticipationAnimationSubranges; // @synthesize anticipationAnimationSubranges=_anticipationAnimationSubranges;
-@property(retain, nonatomic) NSMutableDictionary *backingProofreadingSuggestionStatePerSuggestionID; // @synthesize backingProofreadingSuggestionStatePerSuggestionID=_backingProofreadingSuggestionStatePerSuggestionID;
 @property(readonly, nonatomic) NSUUID *contextID;
-@property(retain, nonatomic) NSMutableAttributedString *currentProofreadingText; // @synthesize currentProofreadingText=_currentProofreadingText;
-@property(readonly, nonatomic) NSMutableDictionary *customAnimationFillColorsBySubrangeIndex; // @synthesize customAnimationFillColorsBySubrangeIndex=_customAnimationFillColorsBySubrangeIndex;
-@property(retain, nonatomic) NSMutableDictionary *decorationContainerViewsPerRange; // @synthesize decorationContainerViewsPerRange=_decorationContainerViewsPerRange;
-@property(retain, nonatomic) NSMutableIndexSet *finishedAnticipationSubrangeIndexes; // @synthesize finishedAnticipationSubrangeIndexes=_finishedAnticipationSubrangeIndexes;
-@property(retain, nonatomic) NSMutableIndexSet *finishedInsertionSubrangeIndexes; // @synthesize finishedInsertionSubrangeIndexes=_finishedInsertionSubrangeIndexes;
-@property(retain, nonatomic) NSMutableIndexSet *finishedRemovalSubrangeIndexes; // @synthesize finishedRemovalSubrangeIndexes=_finishedRemovalSubrangeIndexes;
-@property(readonly, nonatomic) NSMutableDictionary *insertionAnimationPreviews; // @synthesize insertionAnimationPreviews=_insertionAnimationPreviews;
-@property(retain, nonatomic) NSMutableArray *insertionAnimationSubranges; // @synthesize insertionAnimationSubranges=_insertionAnimationSubranges;
-@property(retain, nonatomic) NSMutableIndexSet *landedReplacementSubrangeIndexes; // @synthesize landedReplacementSubrangeIndexes=_landedReplacementSubrangeIndexes;
-@property(retain, nonatomic) NSMutableDictionary *proofreadingSuggestionIDsPerDeliveryID; // @synthesize proofreadingSuggestionIDsPerDeliveryID=_proofreadingSuggestionIDsPerDeliveryID;
-@property(retain, nonatomic) UIWritingToolsCoordinatorContext *proposedEvaluationContext; // @synthesize proposedEvaluationContext=_proposedEvaluationContext;
-@property(readonly, nonatomic) NSMutableDictionary *removalAnimationPreviews; // @synthesize removalAnimationPreviews=_removalAnimationPreviews;
-@property(retain, nonatomic) NSMutableArray *removalAnimationSubranges; // @synthesize removalAnimationSubranges=_removalAnimationSubranges;
-@property(retain, nonatomic) _UITextAssistantReplacementTracker *replacementTracker; // @synthesize replacementTracker=_replacementTracker;
-@property(copy, nonatomic) NSUUID *savedReviewingProofreadingSuggestionID; // @synthesize savedReviewingProofreadingSuggestionID=_savedReviewingProofreadingSuggestionID;
-@property(nonatomic) _Bool showingOriginal; // @synthesize showingOriginal=_showingOriginal;
-@property(nonatomic, getter=isStreaming) _Bool streaming; // @synthesize streaming=_streaming;
-@property(retain, nonatomic) _UIWTCUndoRoller *undoRoller; // @synthesize undoRoller=_undoRoller;
 
 @end
 

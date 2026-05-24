@@ -6,34 +6,20 @@
 
 #import <authinstall/AppleTypeCRetimerRestoreInfoHelperOS.h>
 
-@class FTABFileOS, FTABSubfileOS, NSData, NSDictionary;
+@class FTABFileOS, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AppleTypeCRetimerFirmwareRequestCreatorOS : AppleTypeCRetimerRestoreInfoHelperOS
 {
     FTABFileOS *_ftab;
-    FTABSubfileOS *_rkos;
-    FTABSubfileOS *_rrko;
-    unsigned char _tagNumber;
-    unsigned short _chipID;
-    unsigned short _boardID;
-    unsigned char _securityEpoch;
-    unsigned char _productionStatus;
-    unsigned char _securityMode;
-    unsigned char _securityDomain;
-    unsigned long long _ecid;
-    NSData *_nonce;
-    unsigned char _chipRev;
-    _Bool _demote;
-    NSDictionary *_requestDictionary;
 }
 
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool)serverMessage;
+- (id)gs;
+- (void)e;
+- (id)MessageFlagChange",&,N,V_serverChange;
+- (id)[deg] to [m];
+- (void);
 
 // Remaining properties
 @property(readonly) NSDictionary *requestDictionary; // @synthesize requestDictionary=_requestDictionary;

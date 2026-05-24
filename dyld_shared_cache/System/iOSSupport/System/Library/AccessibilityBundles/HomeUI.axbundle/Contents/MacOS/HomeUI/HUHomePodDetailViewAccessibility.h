@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
-- (_Bool);
++ (void);
+- (_Bool)B;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)__MUPhotoTileViewAccessibility_super;
 
 @end
 

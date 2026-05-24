@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSTimer;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface WindowOcclusionTracker
 {
     NSMutableSet *_trackedWindows;
-    NSTimer *_waitForWindowsToSettleHandler;
-    _Bool _registeredForWindowMovementNotifications;
 }
 
 - (void);

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)didChangeValueForKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

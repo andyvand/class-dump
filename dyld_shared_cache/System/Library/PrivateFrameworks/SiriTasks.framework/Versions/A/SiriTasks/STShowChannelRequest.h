@@ -12,9 +12,9 @@
 }
 
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)nt, std:(id)arg1:__1::allocator<unsigned int> >=^I^I{__compressed_pair<unsigned int *, std::__1::allocator<unsigned int> >=^I}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

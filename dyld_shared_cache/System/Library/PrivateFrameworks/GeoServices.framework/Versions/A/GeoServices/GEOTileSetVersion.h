@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOTileSetVersion
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOTileSetRegion *_availableTiles;
-    unsigned long long _availableTilesCount;
-    unsigned long long _availableTilesSpace;
-    struct GEOGenericTile *_genericTiles;
-    unsigned long long _genericTilesCount;
-    unsigned long long _genericTilesSpace;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _identifier;
-    unsigned int _supportedLanguagesVersion;
-    unsigned int _timeToLiveSeconds;
-    struct {
-        unsigned int has_supportedLanguagesVersion:1;
-        unsigned int has_timeToLiveSeconds:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_availableTiles:1;
-        unsigned int read_genericTiles:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
@@ -38,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)b1};
-- (id)anceFeedback;
-- (id)ansitStation;
+- (id)hasSignGuidanceFeedback;
+- (id)GEOMapFeatureTransitStation;
 - (void);
 
 @end

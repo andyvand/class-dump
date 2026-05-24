@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingEventObserver, HMDDevice, HMDHomeActivityStateLogEventAnalyzer, HMDNetworkObserver, HMDThreadNetworkObserver, NSArray;
+@class HMDCameraRecordingEventObserver, HMDDevice, HMDThreadNetworkObserver, NSArray;
 
 @protocol HMDHouseholdMetricsDataSource
+- (void)@9;
+- (NSArray *);
 - (HMDDevice *)mThirdPartyMediaAccessories;
 - (HMDCameraRecordingEventObserver *)for accessory %@;
 - (HMDThreadNetworkObserver *)senceRegionStatus;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDCameraRecordingEventObserver *cameraRecordingEventObserver;
 @property(readonly, nonatomic) HMDDevice *currentDevice;
-@property(readonly, nonatomic) NSArray *devicesOnCurrentAccount;
-@property(retain, nonatomic) HMDHomeActivityStateLogEventAnalyzer *homeActivityStateLogEventAnalyzer;
-@property(readonly, nonatomic) NSArray *homeDataSources;
-@property(readonly, nonatomic) HMDNetworkObserver *networkObserver;
-@property(readonly, nonatomic) HMDThreadNetworkObserver *threadNetworkObserver;
 @end
 

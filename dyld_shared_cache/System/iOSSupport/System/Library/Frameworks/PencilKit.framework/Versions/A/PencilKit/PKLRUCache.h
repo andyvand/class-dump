@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, PKLRUCacheItem;
+@class PKLRUCacheItem;
 
 @interface PKLRUCache
 {
     PKLRUCacheItem *_firstItem;
-    PKLRUCacheItem *_lastItem;
-    PKLRUCacheItem *_freeItems;
-    NSMapTable *_itemTable;
-    unsigned long long _currentCost;
-    NSMutableArray *_freeKeys;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _totalCostLimit;
-    long long _freeItemCount;
 }
 
 - (void);
@@ -37,12 +29,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8T;
 - (void)ä¤;
 
 // Remaining properties
-@property(nonatomic) long long freeItemCount; // @synthesize freeItemCount=_freeItemCount;
-@property(readonly, nonatomic) long long freeKeyCount;
 @property(nonatomic) unsigned long long totalCostLimit; // @synthesize totalCostLimit=_totalCostLimit;
 
 @end

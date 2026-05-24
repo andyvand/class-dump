@@ -8,7 +8,7 @@
 {
 }
 
-+ (struct _LXLexicon *);
++ (struct _LXLexicon *);
 + (struct _LXLexicon *);
 
 @end

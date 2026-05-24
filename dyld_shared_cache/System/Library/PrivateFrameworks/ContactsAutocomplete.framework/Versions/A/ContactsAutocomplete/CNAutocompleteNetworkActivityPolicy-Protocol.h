@@ -5,5 +5,6 @@
 //
 
 @protocol CNAutocompleteNetworkActivityPolicy
+- (_Bool);
 @end
 

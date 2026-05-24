@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber;
+@class NSDictionary;
 
 @interface AMSFamilyInfoLookupResult
 {
     _Bool _cached;
-    _Bool _headOfHouseholdSharingPayment;
-    NSArray *_familyMembers;
-    NSNumber *_headOfHouseholdICloudDSID;
 }
 
 + (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)loadUnreadCountReportsFullReplacement;
+- (id);
 - (_Bool)3e°Cße¬Ø±#;²ëäx\[ýå,;
 - (void)¬2kõÕK$ºÞ@`þ/±ÄZzä5«/±`þÞ@±/þ`@Þº$KÕõk`þÞ@/±õkKÕº$CÝýc²,öhHÖ¹'lòÒL#½¹'HÖöhÀ^~à1¯uëËU:¤¯1^Àà~:¤ËUuë²,ýcCÝ¹'HÖöh£=RÌìröhHÖ¹'höÖH'¹ÝCcý,²¹'öhHÖ,²cýÝC$ºÕKkõ/±`þÞ@µ+údDÚÞ@`þ/±XïòÀcÂØòº°x¨8ic4úùÉé=ñø{Z /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isCached) _Bool cached; // @synthesize cached=_cached;
 @property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *familyMembers; // @synthesize familyMembers=_familyMembers;
-@property(readonly) NSNumber *headOfHouseholdICloudDSID; // @synthesize headOfHouseholdICloudDSID=_headOfHouseholdICloudDSID;
-@property(readonly, getter=isHeadOfHouseholdSharingPayment) _Bool headOfHouseholdSharingPayment; // @synthesize headOfHouseholdSharingPayment=_headOfHouseholdSharingPayment;
 
 @end
 

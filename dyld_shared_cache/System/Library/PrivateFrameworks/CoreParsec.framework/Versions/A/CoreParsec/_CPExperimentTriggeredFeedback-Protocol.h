@@ -7,12 +7,15 @@
 @class NSData, NSString, _CPCounterfactualInfo;
 
 @protocol _CPExperimentTriggeredFeedback
+- (void)essProxy>>, KeyTraits = WTF:(_CPCounterfactualInfo *)arg1:HashTraits<WTF::WeakPtr<WebKit::NetworkProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ric<WebCore:(NSString *)arg1:MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::RemoteMediaSessionProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::RemoteMediaSessionProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::RemoteMediaSessionProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_CPCounterfactualInfo *)<API::InspectorExtension>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<API::InspectorExtension>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::RefPtr<API::InspectorExtension>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::RefPtr<API::InspectorExtension>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<API::InspectorExtension>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::RefPtr<API::InspectorExtension>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *)sembly Debugger;
+- (NSData *);
+- (id);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *codepathId;
-@property(retain, nonatomic) _CPCounterfactualInfo *counterfactual;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long queryID;
-@property(nonatomic) unsigned long long timestamp;
 @end
 

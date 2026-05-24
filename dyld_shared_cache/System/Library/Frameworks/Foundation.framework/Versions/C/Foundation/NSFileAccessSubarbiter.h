@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileAccessArbiter, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NSFileAccessSubarbiter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSFileAccessArbiter *_realSubarbiter;
 }
 
 - (id);
-- (void);
+- (void);
 - (oneway void);
-- (oneway void);
+- (oneway void);
 - (oneway void);
 - (id);
-- (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -36,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

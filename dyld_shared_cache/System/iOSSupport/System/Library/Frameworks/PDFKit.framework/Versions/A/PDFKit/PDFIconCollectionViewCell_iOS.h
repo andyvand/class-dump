@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, PDFPage, UIButton, UIImageView, UIView;
+@class UIButton, UIView;
 
 __attribute__((visibility("hidden")))
 @interface PDFIconCollectionViewCell_iOS
 {
     UIView *_overlayView;
-    NSLayoutConstraint *_ratioConstraint;
-    NSLayoutConstraint *_imageViewWidthConstraint;
-    NSLayoutConstraint *_imageViewHeightConstraint;
-    UIButton *_actionsButton;
-    UIImageView *_imageView;
-    PDFPage *_page;
 }
 
 - (void);
@@ -23,24 +17,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)>";
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void)ggedNode=}16;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *actionsButton; // @synthesize actionsButton=_actionsButton;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) PDFPage *page; // @synthesize page=_page;
 
 @end
 

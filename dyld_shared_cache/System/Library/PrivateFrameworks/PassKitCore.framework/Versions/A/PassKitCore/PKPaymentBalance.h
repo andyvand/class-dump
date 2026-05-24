@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSSet, NSString, PKCurrencyAmount;
+@class NSSet;
 
 @interface PKPaymentBalance
 {
     _Bool _isPrimary;
-    _Bool _isExpired;
-    NSSet *_identifiers;
-    NSDecimalNumber *_value;
-    NSString *_currencyCode;
-    long long _exponent;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSDate *_lastUpdateDate;
-    NSDate *_expirationDate;
-    NSString *_preformattedString;
-    NSArray *_componentBalances;
 }
 
 - (void);
@@ -45,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -53,37 +42,23 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (_Bool);
+- (void)AKSidecarControllerDelegate;
+- (_Bool)setHasSockNetInet6DgramDns:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id)
 × ;
 - (id)gInvitation"24Q32@?<v@?@"PKAppletSubcredentialSharingInvitation"@"NSError">40;
-- (_Bool)r;
-- (id)dIngester:(id)arg1 didFailToIngestCardWithError:resetProvisioning:isRecoverable: /* Error: Ran out of types for this method. */;
-- (id)alInfoFields;
+- (_Bool)organizer;
+- (id)contactlessCardIngester:(id)arg1 didFailToIngestCardWithError:resetProvisioning:isRecoverable: /* Error: Ran out of types for this method. */;
+- (id)_additionalInfoFields;
 - (void)assUpgradePrecursorPassAction"8;
 - (id);
 - (id)!òÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *componentBalances; // @synthesize componentBalances=_componentBalances;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, nonatomic) PKCurrencyAmount *currencyValue;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) long long exponent; // @synthesize exponent=_exponent;
-@property(readonly, nonatomic) NSString *formattedValue;
 @property(copy, nonatomic) NSSet *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, nonatomic) _Bool isCurrency;
-@property(nonatomic) _Bool isExpired; // @synthesize isExpired=_isExpired;
-@property(nonatomic) _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
-@property(copy, nonatomic) NSDate *lastUpdateDate; // @synthesize lastUpdateDate=_lastUpdateDate;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(copy, nonatomic) NSString *preformattedString; // @synthesize preformattedString=_preformattedString;
-@property(copy, nonatomic) NSDecimalNumber *value; // @synthesize value=_value;
 
 @end
 

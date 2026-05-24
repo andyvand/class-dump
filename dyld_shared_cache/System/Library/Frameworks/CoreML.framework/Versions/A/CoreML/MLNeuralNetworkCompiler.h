@@ -14,7 +14,7 @@
 + (id);
 + (_Bool);
 + (void);
-+ (id);
++ (id)CLELS,%{public}@,isAltitudeUsableForFirstUpdate,NO;
 + (id);
 + (id);
 + (id);

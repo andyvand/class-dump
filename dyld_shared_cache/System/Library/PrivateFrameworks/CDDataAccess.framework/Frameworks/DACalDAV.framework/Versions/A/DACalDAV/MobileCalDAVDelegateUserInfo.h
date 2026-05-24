@@ -9,9 +9,6 @@
 @interface MobileCalDAVDelegateUserInfo
 {
     _Bool _allowWrite;
-    NSString *_principalPath;
-    NSString *_displayName;
-    NSString *_uid;
 }
 
 + (id);
@@ -28,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowWrite; // @synthesize allowWrite=_allowWrite;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(retain, nonatomic) NSString *principalPath; // @synthesize principalPath=_principalPath;
-@property(retain, nonatomic) NSString *uid; // @synthesize uid=_uid;
 
 @end
 

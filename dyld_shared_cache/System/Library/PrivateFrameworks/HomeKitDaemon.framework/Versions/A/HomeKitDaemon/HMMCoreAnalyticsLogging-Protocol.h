@@ -7,25 +7,14 @@
 @class NSDictionary, NSString, NSUUID;
 
 @protocol HMMCoreAnalyticsLogging
+- (NSDictionary *)Timebase activateWithHandler:] /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 @optional
-- (NSUUID *)ers;
+- (NSString *);
+- (NSUUID *)listEphemeralContainers;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
 @property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @end
 

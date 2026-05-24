@@ -5,5 +5,7 @@
 //
 
 @protocol CKModifySubscriptionsOperationCallbacks
+- (void)
+	;
 @end
 

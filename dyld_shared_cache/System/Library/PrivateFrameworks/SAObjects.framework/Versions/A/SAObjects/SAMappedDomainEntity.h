@@ -6,32 +6,23 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SAMappedDomainEntity : AceObject
 {
 }
 
+- (void);
+- (id);
+- (id)h;
+- (id)!;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)Error">24;
+- (id)/~;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *usoGraphPayload;
 
 @end
 

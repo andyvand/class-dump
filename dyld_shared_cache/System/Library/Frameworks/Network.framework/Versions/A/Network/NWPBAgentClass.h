@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface NWPBAgentClass
 {
     NSString *_domain;
-    NSString *_type;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)1A;
 - (_Bool);
-- (_Bool);
-- (id)ltUploadProgressState;
+- (id)_defaultUploadProgressState;
 - (id)@;
 - (void)@;
 

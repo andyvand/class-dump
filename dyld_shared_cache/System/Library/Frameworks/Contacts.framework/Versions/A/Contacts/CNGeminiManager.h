@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactsEnvironment, CoreTelephonyClient, NSMapTable, NSObject, NSString, TUCallProviderManager;
-@protocol OS_dispatch_queue;
+@class CNContactsEnvironment;
 
 @interface CNGeminiManager
 {
     CNContactsEnvironment *_environment;
-    CoreTelephonyClient *_coreTelephonyClient;
-    TUCallProviderManager *_callProviderManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_delegateToQueue;
-    unsigned long long _dataSourceExclusions;
 }
 
 + (_Bool);
@@ -32,12 +26,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)URLForDirectory:(id)arg1 inDomain:appropriateForURL:create:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)N,V_peerID;
+- (id)anging;
 - (id);
 - (id);
 - (id);
@@ -49,14 +43,7 @@
 - (void)kXC<´;
 
 // Remaining properties
-@property(nonatomic) unsigned long long dataSourceExclusions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
+@property(nonatomic) unsigned long long dataSourceExclusions; // @synthesize dataSourceExclusions=_dataSourceExclusions;
 
 @end
 

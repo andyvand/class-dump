@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBResumeWorkoutIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_workoutName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)|;
 - (id);
 - (void);
 - (unsigned long long);
@@ -31,17 +29,7 @@
 - (void)acBookAir;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasWorkoutName;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDataString *workoutName; // @synthesize workoutName=_workoutName;
 
 @end
 

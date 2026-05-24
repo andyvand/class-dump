@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _EARRelevantTextContext
 {
     NSString *_leftContext;
-    NSString *_rightContext;
-    NSArray *_preItnLeftContext;
-    NSArray *_preItnRightContext;
-    struct os_unfair_lock_s _contextUpdateLock;
-    _Bool _disambiguationActive;
-    _Bool _cursorInVisibleText;
-    _Bool _favorCommandSuppression;
-    _Bool _abortCommandSuppression;
-    _Bool _undoEvent;
-    _Bool _utteranceStartedWithSelectedText;
-    _Bool _leftContextWasAppended;
-    _Bool _leftContextEndsWithAppendedAutoPunctuation;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -54,14 +42,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool abortCommandSuppression; // @synthesize abortCommandSuppression=_abortCommandSuppression;
-@property _Bool cursorInVisibleText; // @synthesize cursorInVisibleText=_cursorInVisibleText;
 @property _Bool disambiguationActive; // @synthesize disambiguationActive=_disambiguationActive;
-@property _Bool favorCommandSuppression; // @synthesize favorCommandSuppression=_favorCommandSuppression;
-@property _Bool leftContextEndsWithAppendedAutoPunctuation; // @synthesize leftContextEndsWithAppendedAutoPunctuation=_leftContextEndsWithAppendedAutoPunctuation;
-@property _Bool leftContextWasAppended; // @synthesize leftContextWasAppended=_leftContextWasAppended;
-@property _Bool undoEvent; // @synthesize undoEvent=_undoEvent;
-@property _Bool utteranceStartedWithSelectedText; // @synthesize utteranceStartedWithSelectedText=_utteranceStartedWithSelectedText;
 
 @end
 

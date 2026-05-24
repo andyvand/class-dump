@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSettingMetadata, INSpeakableString, NSString;
+@class INSettingMetadata;
 
 @interface INOpenSettingIntent : INIntent
 {
@@ -14,7 +14,7 @@
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)QLThumbnailAdditionEntry;
 - (id);
 - (id);
 - (void);
@@ -33,15 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) INSpeakableString *searchQuery;
 @property(readonly, copy) INSettingMetadata *settingMetadata;
-@property(readonly) Class superclass;
 
 @end
 

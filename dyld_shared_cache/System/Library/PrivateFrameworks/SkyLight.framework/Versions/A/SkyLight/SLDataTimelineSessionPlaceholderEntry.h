@@ -6,24 +6,19 @@
 
 #import <SkyLight/SLDataTimelineSessionEntry.h>
 
-@protocol SLDataTimelineSessionProcessCollection;
-
 __attribute__((visibility("hidden")))
 @interface SLDataTimelineSessionPlaceholderEntry : SLDataTimelineSessionEntry
 {
 }
 
-+ (id);
-- (id);
-- (_Bool);
-- (id);
++ (id)CLOB;
+- (id)tion from model with digest { %@ }%@;
+- (_Bool)ON_CLOSE failed (_qGTC):%d /* Error: Ran out of types for this method. */;
+- (id)_PK) SELECT RAISE(FAIL, 'Batch delete failed due to mandatory MTM nullify inverse on %@/%@') FROM ZCTE_INTERMEDIATE T0 WHERE (0 == (SELECT COUNT(*) FROM %@ T1 where T1.%@ = T0.%@ and T1.%@ != OLD.Z_PK));
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int auditID; // @dynamic auditID;
 @property(readonly, nonatomic) unsigned int cgID; // @dynamic cgID;
-@property(readonly, nonatomic) _Bool currentSnapshotMember;
-@property(readonly, nonatomic) id <SLDataTimelineSessionProcessCollection> processData;
 
 @end
 

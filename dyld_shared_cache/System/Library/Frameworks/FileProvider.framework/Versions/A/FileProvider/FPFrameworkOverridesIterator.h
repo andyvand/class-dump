@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSInvocation;
+@class NSArray;
 
 @interface FPFrameworkOverridesIterator
 {
     NSArray *_overrides;
-    unsigned char _mightBeFPURL;
-    unsigned char _checkURL;
-    CDUnknownBlockType _noSuitableModuleFoundHandler;
-    unsigned long long _currentIndex;
-    NSInvocation *_invocation;
 }
 
 + (id);
 + (id);
 + (void);
-+ (void);
++ (void)on invalidatePersistableContentKey:(id)arg1 options:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 - (id);
 - (void);
-- (void);
+- (void));
 - (void);
 - (id);
 - (id);

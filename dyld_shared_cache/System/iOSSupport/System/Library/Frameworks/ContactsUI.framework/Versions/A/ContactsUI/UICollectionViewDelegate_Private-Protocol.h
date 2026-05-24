@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, UICollectionView, UIContextMenuConfiguration;
+@class NSArray, NSIndexPath, UICollectionView, UIContextMenuConfiguration, _UIContextMenuStyle;
 
 @protocol UICollectionViewDelegate_Private
 
 @optional
-- (_Bool);
-- (NSArray *)ginalContacts:(UICollectionView *)arg1 shadowCopyOfReadonlyContact:(UIContextMenuConfiguration *)arg2 editingLinkedContacts:(CDStruct_96a80611)arg3 contactStore:parentGroup:parentContainer:containerContext:groupContext:ignoresParentalRestrictions:saveWasAuthorized: /* Error: Ran out of types for this method. */;
-- (UIContextMenuConfiguration *)sSupported;
-- (NSIndexPath *)phore;
+- (NSIndexPath *);
+- (UIContextMenuConfiguration *)k];
+- (void);
+- (_UIContextMenuStyle *)h;
+- (NSArray *)initWithContact:(UICollectionView *)arg1 mutableContact:(UIContextMenuConfiguration *)arg2 originalContacts:(CDStruct_96a80611)arg3 shadowCopyOfReadonlyContact:editingLinkedContacts:contactStore:parentGroup:parentContainer:containerContext:groupContext:ignoresParentalRestrictions:saveWasAuthorized: /* Error: Ran out of types for this method. */;
+- (UIContextMenuConfiguration *)areTelephonyCallsSupported;
+- (NSIndexPath *)_asyncShouldPerformSemaphore;
 @end
 

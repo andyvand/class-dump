@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAutoReloadPaymentMethod;
+@class NSString;
 
 @interface PKPassBalance
 {
     NSString *_identifier;
-    PKAutoReloadPaymentMethod *_paymentMethod;
 }
 
 + (_Bool);
@@ -17,15 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)result_success_count;
+- (void);
 - (id);
-- (id)mationWithCompletion:(id)arg1;
-- (void)onBeginValidateMessage;
+- (id)appleAccountInformationWithCompletion:(id)arg1;
+- (void)PKSubcredentialInvitationBeginValidateMessage;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKAutoReloadPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
 
 @end
 

@@ -7,22 +7,6 @@
 @interface SiriInference.UnifiedContactGenerator
 {
     id spanMatcher;
-    id contactStore;
-    id signalProviders;
-    id meCard;
-    id config;
-    id plusTrialFactors;
-    id e3TrialFactors;
-    id ucgTrialFactors;
-    id plusSuggestionHandler;
-    id tokenizer;
-    id triggerLogger;
-    id relationshipLocalizer;
-    id e3Orchestrator;
-    id asrE3VectorDbApi;
-    id asrE3EmbedderApi;
-    id phoneSequenceFetcher;
-    id $__lazy_storage_$_semanticRelationshipMapping;
 }
 
 @end

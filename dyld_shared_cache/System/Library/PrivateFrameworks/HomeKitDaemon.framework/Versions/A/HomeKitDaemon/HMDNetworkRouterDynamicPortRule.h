@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HMDNetworkRouterAdvertisementProtocol, HMDNetworkRouterLANIdentifierList, HMDNetworkRouterProtocol, HMDNetworkRouterRuleDirection, HMDNetworkRouterServiceType, NSString;
+@class HMDNetworkRouterRuleDirection;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterDynamicPortRule
 {
     HMDNetworkRouterRuleDirection *_direction;
-    HMDNetworkRouterLANIdentifierList *_lanIdentifierList;
-    HMDNetworkRouterProtocol *_protocol;
-    HMDNetworkRouterAdvertisementProtocol *_advertisementProtocol;
-    HAPTLVUnsignedNumberValue *_flags;
-    HMDNetworkRouterServiceType *_serviceType;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)momentNodeFingerprintsDataFrameWithVersion:(id)arg1 forMomentNodes:(id *)arg2 withGraph:progressReporter:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id),N,V_shieldText;
+- (id)GEOTransitArtworkSourceTypeIcon;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id)&;
+- (id);
+- (void)H;
 - (_Bool);
 - (_Bool);
-- (id)cludeUWBCompatibility:(struct _NSZone *)arg1;
+- (id)isCurrentDeviceCompatibleWithAliroVersion:(struct _NSZone *)arg1 includeUWBCompatibility: /* Error: Ran out of types for this method. */;
 - (id)icResponse",&,N,V_characteristicResponse;
 - (void)ÿÿÿÿ;
 - (id)hô\°P;
 - (void), device IDS:(id)arg1 %@) support network diagnostic:%@, controller enabled diagnostic:%@, use network diagnostics:%@, shouldFilterOutNDFSymptoms:%@ /* Error: Ran out of types for this method. */;
-- (void)r;
+- (void)HMDLogEventHAPMetricsEventAnalyzerHAPIPReceivedHTTPEventsCounter;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMDNetworkRouterAdvertisementProtocol *advertisementProtocol; // @synthesize advertisementProtocol=_advertisementProtocol;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDNetworkRouterRuleDirection *direction; // @synthesize direction=_direction;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *flags; // @synthesize flags=_flags;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterLANIdentifierList *lanIdentifierList; // @synthesize lanIdentifierList=_lanIdentifierList;
-@property(retain, nonatomic) HMDNetworkRouterProtocol *protocol; // @synthesize protocol=_protocol;
-@property(retain, nonatomic) HMDNetworkRouterServiceType *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

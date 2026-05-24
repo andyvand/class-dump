@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (double);
+- (double)_endIfNeeded:(long long)arg1;
 - (void)ìmÿ;
 
 // Remaining properties

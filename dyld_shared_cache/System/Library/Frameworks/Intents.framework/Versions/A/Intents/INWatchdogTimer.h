@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface INWatchdogTimer
 {
     double _interval;
-    NSObject<OS_dispatch_source> *_timerSource;
-    _Bool _isStopped;
-    double _remainingInterval;
-    double _startTime;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (void);
-- (void);
+- (void)B;
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void)`;
+- (_Bool);
+- (void)per_ant_rssi;
 - (id);
 - (void);
 - (void);
-- (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool)dentTypeUnsupportedReason;
+- (_Bool)incidentTypeUnsupportedReason;
 - (void)m.apple.intents.interaction.donation;
 
 @end

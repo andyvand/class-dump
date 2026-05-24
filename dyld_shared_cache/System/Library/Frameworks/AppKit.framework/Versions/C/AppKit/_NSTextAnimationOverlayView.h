@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _NSTextAnimationOverlayView : NSView
 {
     CDUnknownBlockType _renderer;
-    struct _NSRange _glyphRange;
 }
 
 - (void);
-- (void);
+- (void)ected type;
 - (struct _NSRange);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)DATA_TOO_LARGE;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property struct _NSRange glyphRange; // @synthesize glyphRange=_glyphRange;
 @property(copy) CDUnknownBlockType renderer; // @synthesize renderer=_renderer;
 
 @end

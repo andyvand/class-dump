@@ -9,8 +9,6 @@
 @interface TRIPBBoolUInt64Dictionary
 {
     TRIPBMessage *_autocreator;
-    unsigned long long _values[2];
-    _Bool _valueSet[2];
 }
 
 - (void);
@@ -31,8 +29,8 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (void)ceFlow;
+- (void)נ;
+- (void)IntelligenceFlow;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

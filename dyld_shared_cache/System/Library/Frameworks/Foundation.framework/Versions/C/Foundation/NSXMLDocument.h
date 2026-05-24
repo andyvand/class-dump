@@ -6,29 +6,18 @@
 
 #import <Foundation/NSXMLNode.h>
 
-@class NSArray, NSData, NSString, NSXMLDTD, NSXMLElement;
+@class NSString;
 
 @interface NSXMLDocument : NSXMLNode
 {
     NSString *_encoding;
-    NSString *_version;
-    NSXMLDTD *_docType;
-    NSArray *_children;
-    _Bool _childrenHaveMutated;
-    _Bool _standalone;
-    char padding[2];
-    NSXMLElement *_rootElement;
-    NSString *_URI;
-    id _extraIvars;
-    unsigned long long _fidelityMask;
-    unsigned long long _contentKind;
 }
 
-+ (Class);
++ (Class);
 + (void);
-+ (void);
++ (void);
 + (id);
-+ (void);
++ (void)B;
 + (_Bool);
 + (id);
 - (_Bool);
@@ -37,22 +26,22 @@
 - (void);
 - (void);
 - (void);
+- (void)R	;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)';
 - (id);
 - (id);
 - (unsigned long long);
@@ -60,14 +49,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)S;
 - (id);
 - (void);
 - (struct _xmlDoc *);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)C;
 - (id);
 - (void);
 - (void);
@@ -77,7 +66,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -98,13 +87,7 @@
 - (id)$gý<0kØÿÿÿ;
 
 // Remaining properties
-@property(copy) NSXMLDTD *DTD;
-@property(copy) NSString *MIMEType;
-@property(readonly, copy) NSData *XMLData;
 @property(copy) NSString *characterEncoding;
-@property unsigned long long documentContentKind;
-@property(getter=isStandalone) _Bool standalone;
-@property(copy) NSString *version;
 
 @end
 

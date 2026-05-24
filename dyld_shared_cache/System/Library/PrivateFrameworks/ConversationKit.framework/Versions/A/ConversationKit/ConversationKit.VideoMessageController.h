@@ -7,24 +7,6 @@
 @interface ConversationKit.VideoMessageController
 {
     id _state;
-    id mostRecentActiveConversation;
-    id mostRecentLocalHandle;
-    id isVideoSensitive;
-    id videoMessageSendSoundPlayer;
-    id viewStateReadyForVideoMessageRecording;
-    id isVideoMessagingEnabled;
-    id hasActiveOrPendingRecordingSession;
-    id currentRecordingUUID;
-    id _latestVideoMessageURL;
-    id latestVideoMessageSandboxURL;
-    id _momentsController;
-    id callCenter;
-    id warmedMomentsController;
-    id sendingInProgress;
-    id ignoresStateUpdates;
-    id countdownSink;
-    id subscriptions;
-    id countdownShown;
 }
 
 - (void);

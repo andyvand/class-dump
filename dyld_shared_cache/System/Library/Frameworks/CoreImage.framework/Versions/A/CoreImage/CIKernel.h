@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CIKernel
 {
     void *_priv;
-    _Bool _unassociatedAlpha;
 }
 
 - (void);
@@ -23,14 +20,14 @@
 - (void);
 - (SEL);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)F;
 - (void);
 - (void *);
-- (_Bool);
+- (_Bool);
 - (void);
-- (struct CGSize);
+- (struct CGSize)Bp;
 - (id);
 - (_Bool);
 - (id);
@@ -39,7 +36,7 @@
 - (id);
 - (int)±ò/°1Â0@ù
 × ;
-- (id)ibrary:(id)arg1 constants:error: /* Error: Ran out of types for this method. */;
+- (id)kernelWithFunctionName:(id)arg1 fromMetalLibrary:constants:error: /* Error: Ran out of types for this method. */;
 - (id)M_zIaYpcbXejjjjtsot}}|}~i{x    _okv0C0WCL=Wlmmmxxxxmmmm]]\]GTMUSSOSNMAUZ`Zdwwww]rrvDYOhPUHbXf^o}{ozxgyv££££¬¬¬¬©©©©t~xt~\mdzknfqnnnnXg`k=ZOiYicpzzzzyyyyhmkma^Ucjg`j{}}}}q~~~wwwwjjjjHVObYkln{²²²²¹¹¹¹©©©©   }bpjwee[hSTE[&D1YAYMg}}}}pup}}~]ql|Sg`w{{{{||||{{{{{{{{pvq~^}{kvq~]sny}|pyx}fmirP\RfU_Vgqxwx¦¦¦¦ªªªªooooddddQaYfnniulNf]u=XJluuuu}}}}Wpi|hrkzzzzzkvpyu~¦¦¦¦««««¡¡¡¡o}}}}yyyyewsy~yb}y¡¡¡««««qWpn{6TIgBSI]LZS^ffffoooouuuuyyyyq~Qe\wwyxszyWtrhuqavspzy}aojrbd[iWham{{{{r~yp~~~~mmmmGSGZTRHT]]]]hhhhVealKd`s}}}}||||Ac[ssuqxyhxw{kickCYOf^olrzzzzvurw}{w}¥¨¨¨¨¨¨_i_sgjajppppttttlxvy§§§¥¥{mmlmQ\Qdxxxxry}|Yh_qK_Skarlx¡¡¡¡¡¡¡¡[us^kfw_pozrz|}||||jzz{u|{|^qkxYcYsSg]rosnvxxxxuuruGg_vc{zA^Sq@]Qpz\tln|w    ££££¢¤   }Re[qjkbkiwsz¡ ¡¡r}utpuckdqvvsvq~~||||ttotNf^w;
 - (_Bool)sform(image, d + vec2(0.0, +1.500)));
   vec2 mm0 = (pass < 9.000000e-01) ? p0.rr :p0.rg;
@@ -58,14 +55,7 @@
 - (id)¬k;
 
 // Remaining properties
-@property(nonatomic) _Bool canReduceOutputChannels;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) int outputFormat;
-@property(nonatomic) struct CGSize outputGroupSize;
 @property(nonatomic) _Bool perservesAlpha;
-@property(readonly, nonatomic) _Bool preservesOpacity;
-@property(nonatomic) _Bool preservesRange;
-@property(readonly, nonatomic) _Bool unassociatedAlpha; // @synthesize unassociatedAlpha=_unassociatedAlpha;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSURL;
-
 @interface WBSReaderAvailabilityCheckResult
 {
     _Bool _readerAvailable;
-    _Bool _dominantContentIframe;
-    _Bool _isSameDocumentNavigation;
-    _Bool _doesPageUseSearchEngineOptimizationMetadata;
-    NSArray *_textSamples;
-    NSURL *_canonicalURL;
 }
 
 + (_Bool);
@@ -26,24 +19,18 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)copyDataToPasteboard: /* Error: Ran out of types for this method. */;
+- (id)IKImageBrowserGroupFooterLayer;
 - (id);
-- (id);
+- (void)_metadataValid;
 - (void);
-- (void);
-- (id);
+- (id)ATDeviceSessionBackedDevicePairingTerminal.m;
 - (id);
 - (void)ì;
 - (_Bool)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *canonicalURL; // @synthesize canonicalURL=_canonicalURL;
-@property(readonly, nonatomic) NSDictionary *combinedMetadataForTests;
-@property(nonatomic) _Bool doesPageUseSearchEngineOptimizationMetadata; // @synthesize doesPageUseSearchEngineOptimizationMetadata=_doesPageUseSearchEngineOptimizationMetadata;
-@property(nonatomic, getter=hasDominantContentIframe) _Bool dominantContentIframe; // @synthesize dominantContentIframe=_dominantContentIframe;
-@property(nonatomic) _Bool isSameDocumentNavigation; // @synthesize isSameDocumentNavigation=_isSameDocumentNavigation;
 @property(nonatomic, getter=isReaderAvailable) _Bool readerAvailable; // @synthesize readerAvailable=_readerAvailable;
-@property(copy, nonatomic) NSArray *textSamples; // @synthesize textSamples=_textSamples;
 
 @end
 

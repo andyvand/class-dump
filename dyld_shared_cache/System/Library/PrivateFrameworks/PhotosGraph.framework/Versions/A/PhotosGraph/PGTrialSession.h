@@ -13,13 +13,13 @@
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)_selectedRowsChanged:(id)arg1;
+- (id)T@"NSMutableDictionary",R,N,V_overrides;
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)fTimeMatches;
+- (void)routineNumberOfTimeMatches;
 
 // Remaining properties
 @property(retain, nonatomic) TRIClient *trialClient; // @synthesize trialClient=_trialClient;

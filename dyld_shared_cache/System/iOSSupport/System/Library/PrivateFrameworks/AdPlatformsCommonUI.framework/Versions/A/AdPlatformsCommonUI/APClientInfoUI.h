@@ -15,8 +15,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)subscriptionActivationEligibilityDidChangeFromEligibility:(id)arg1 to: /* Error: Ran out of types for this method. */;
+- (id)initWithDictionaryRepresentation:exactly: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

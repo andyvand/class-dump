@@ -8,26 +8,22 @@ __attribute__((visibility("hidden")))
 @interface RTLocationEstimationState
 {
     long long i;
-    double time;
-    double X[2];
-    double errPro[2];
-    double errEst[2];
 }
 
 - (void);
 - (void);
+- (void)	;
 - (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (void);
+- (double)e3_stmt=},V_updateWatch;
+- (double)ata",&,N,V_masterKeyId;
+- (double)tityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
+- (void)kPCSSetupMetadata;
 - (long long);
-- (id);
-- (id);
+- (id)ay-address from sessionInfo.;
+- (id)=;
 - (double);
 - (void);
-- (id);
+- (id);
 
 @end
 

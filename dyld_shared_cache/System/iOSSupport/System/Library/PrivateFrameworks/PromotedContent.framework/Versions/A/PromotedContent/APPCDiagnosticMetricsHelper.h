@@ -7,17 +7,12 @@
 @interface APPCDiagnosticMetricsHelper
 {
     id contextIdentifier;
-    id promotedContentIdentifier;
-    id primitiveCreator;
-    id notificationOwner;
-    id metricEventsTracking;
-    unsigned long long networkType;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

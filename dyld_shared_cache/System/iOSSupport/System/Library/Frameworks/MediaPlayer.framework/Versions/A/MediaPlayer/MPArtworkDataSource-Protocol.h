@@ -5,5 +5,8 @@
 //
 
 @protocol MPArtworkDataSource
+
+@optional
+- (void);
 @end
 

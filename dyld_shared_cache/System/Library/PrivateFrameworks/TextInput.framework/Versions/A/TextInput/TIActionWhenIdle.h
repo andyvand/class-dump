@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSInvocation *_invocation;
 }
 
-+ (id);
++ (id)gth %tu;
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)ԏ;
 - (id);
 - (void)À
 ;
@@ -25,8 +25,8 @@ __attribute__((visibility("hidden")))
 ¾
 °
 ;
-- (void)st;
-- (id)efixLength;
+- (void)dadaist;
+- (id)KeyboardInlineCompletionsPrefixLength;
 
 // Remaining properties
 @property(retain, nonatomic) NSInvocation *invocation; // @synthesize invocation=_invocation;

@@ -6,28 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView, UIStatusBarStyleAttributes;
+@class UIStatusBarStyleAttributes;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarBackgroundView : UIView
 {
     UIStatusBarStyleAttributes *_style;
-    UIImageView *_glowView;
-    _Bool _glowEnabled;
-    _Bool _suppressGlow;
 }
 
+- (void)IMServiceReachabilityResponseHandler;
+- (void)f;
+- (id)ng dispatch queue to nil;
+- (_Bool)nitorConfiguring>"8;
+- (void)5-OverrideChatHandleInfo;
+- (void)uled Message update command;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
+- (id)!ɚ;
+- (id)*;
+- (id)ces/libressl/libressl-2.2/ssl/s3_srvr.c;
 - (void)¸úb;
 
 @end

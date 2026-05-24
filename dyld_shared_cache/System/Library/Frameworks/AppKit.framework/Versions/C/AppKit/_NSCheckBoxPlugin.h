@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
     } _checkBoxPluginFlags;
 }
 
-+ (_Bool);
++ (_Bool)ds;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (Class);
+- (Class);
 - (_Bool);
 
 @end

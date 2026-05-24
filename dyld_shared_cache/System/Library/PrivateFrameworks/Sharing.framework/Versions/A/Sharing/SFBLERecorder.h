@@ -5,14 +5,10 @@
 //
 
 @class NSMutableArray;
-@protocol SFBLERecorderReplayDelegate;
 
 @interface SFBLERecorder
 {
     NSMutableArray *_recordings;
-    unsigned long long _replayIndex;
-    long long _payloadType;
-    id <SFBLERecorderReplayDelegate> _replayDelegate;
 }
 
 - (void);
@@ -21,13 +17,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)`N;
 - (_Bool);
-- (void);
+- (void)receiveTransfers;
 
 // Remaining properties
 @property(readonly, nonatomic) long long payloadType; // @synthesize payloadType=_payloadType;
-@property(nonatomic) __weak id <SFBLERecorderReplayDelegate> replayDelegate; // @synthesize replayDelegate=_replayDelegate;
 
 @end
 

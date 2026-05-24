@@ -6,72 +6,64 @@
 
 #import <ChatKit/CKRecipientSelectionController.h>
 
-@class CKSIMSelectionFieldView, CKSenderIdentity, NSArray, NSString;
-@protocol CKComposeRecipientSelectionControllerDelegate;
-
 @interface CKComposeRecipientSelectionController : CKRecipientSelectionController
 {
     _Bool _fromFieldIdentityChanged;
-    _Bool _hasUserSetContextPreference;
-    _Bool _firstAppear;
-    _Bool _contactPreferredContextSelected;
-    CKSenderIdentity *_selectedSenderIdentity;
-    NSString *_simID;
-    CDUnknownBlockType _sendBlock;
-    CKSIMSelectionFieldView *_simSelectionFieldView;
 }
 
+- (void)_mathNotesNotesInSource;
+- (id)InlineAttachmentManagement_UI;
+- (id)ICCollaborationAnalyticsTracker;
+- (_Bool)ICAccountObject;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)7GG;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)graphStylestG;
 - (double);
-- (id);
-- (id);
+- (id)g;
+- (id)10objectTypet;
 - (void);
 - (_Bool);
+- (id)IeAgH_;
+- (void)SSearchableItemCG.|9_pG;
+- (void)b;
+- (id);
+- (_Bool).;
+- (_Bool)o;
+- (_Bool)ed out waiting for reload to complete;
+- (_Bool)t attachment for:%@ at %@ /* Error: Ran out of types for this method. */;
+- (_Bool)t… {account:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (_Bool)adataData %d;
+- (_Bool)implemented;
+- (double)dRange out of bounds;
+- (_Bool)eted %lld notes;
+- (id);
+- (void)+;
+- (id)attachment-thumbnail-queue;
+- (id)ICExpansionStateItemTypeObjectID;
+- (void)Breaking == YES;
 - (id);
 - (void);
 - (void);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)(
+;
 - (void);
 - (void);
-- (_Bool);
+- (void)	9
+;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id));
 - (void);
 - (void);
 - (void);
@@ -85,7 +77,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)E;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -95,31 +87,13 @@
 - (_Bool);
 - (void);
 - (void)initWithAssets: /* Error: Ran out of types for this method. */;
-- (void)atitem_unloadsizes;
-- (id)xPathDictionaryV3Key;
+- (void)chatitem_unloadsizes;
+- (id)kCKBrowserSelectionControllerIndexPathDictionaryV3Key;
 - (void)ýrj9;
 - (void)°å2;
 
 // Remaining properties
-@property(nonatomic) _Bool contactPreferredContextSelected; // @synthesize contactPreferredContextSelected=_contactPreferredContextSelected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKComposeRecipientSelectionControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *expandedRecipients;
-@property(nonatomic, getter=isFirstAppear) _Bool firstAppear; // @synthesize firstAppear=_firstAppear;
-@property(nonatomic) _Bool fromFieldIdentityChanged; // @synthesize fromFieldIdentityChanged=_fromFieldIdentityChanged;
-@property(nonatomic) _Bool hasUserSetContextPreference; // @synthesize hasUserSetContextPreference=_hasUserSetContextPreference;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *proposedRecipients;
-@property(readonly, nonatomic) NSString *selectedLastAddressedOrDefaultHandle;
-@property(readonly, nonatomic) CKSenderIdentity *selectedSenderIdentity; // @synthesize selectedSenderIdentity=_selectedSenderIdentity;
 @property(copy, nonatomic) CDUnknownBlockType sendBlock; // @synthesize sendBlock=_sendBlock;
-@property(copy, nonatomic) NSString *simID; // @synthesize simID=_simID;
-@property(retain, nonatomic) CKSIMSelectionFieldView *simSelectionFieldView; // @synthesize simSelectionFieldView=_simSelectionFieldView;
-@property(readonly) Class superclass;
 
 @end
 

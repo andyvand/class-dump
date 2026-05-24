@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface PPEventMetricsLogger
 {
-    struct _opaque_pthread_mutex_t _lock;
-    NSString *_path;
-    NSMutableArray *_loggedInteractionsSummary;
-    NSObject<OS_dispatch_source> *_persistenceTimerSource;
-    NSObject<OS_dispatch_queue> *_interactionsWriteQueue;
-    double _storeCreationDate;
+    struct _opaque_pthread_mutex_t {
+        long long __sig;
+        char __opaque[56];
+    } _lock;
 }
 
 + (unsigned long long);
@@ -30,19 +25,19 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)ibutesForCharacterIndex:%d] found a cache result:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)int=dd}{CGSize=dd}}8;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
+- (void)coltypes":(id)arg1;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)$;
+- (id)receiverIsCandidateForDefaultAppleSMSFilter:(id)arg1;
 - (void);
 - (void);
 - (void)g"32@"NSString"40@?<v@?B@"NSError">48;

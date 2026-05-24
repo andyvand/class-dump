@@ -7,28 +7,18 @@
 @interface PXDayAssetsSectionBodyLayoutSpec
 {
     long long _numberOfColumns;
-    double _interitemSpacing;
-    double _horizontalMargin;
-    CDStruct_2bd92d94 _bodyCornerRadius;
-    _Bool _useHorizontalContentGuideInsets;
-    _Bool _allowsVideoPlaybackAtAnySize;
 }
 
 - (id);
-- (CDStruct_2bd92d94);
+- (CDStruct_c2259bfa);
 - (_Bool);
 - (_Bool);
-- (double);
-- (double);
+- (double)C;
+- (double)@;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsVideoPlaybackAtAnySize; // @synthesize allowsVideoPlaybackAtAnySize=_allowsVideoPlaybackAtAnySize;
-@property(readonly, nonatomic) CDStruct_2bd92d94 bodyCornerRadius; // @synthesize bodyCornerRadius=_bodyCornerRadius;
-@property(readonly, nonatomic) double horizontalMargin; // @synthesize horizontalMargin=_horizontalMargin;
-@property(readonly, nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
 @property(readonly, nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(readonly, nonatomic) _Bool useHorizontalContentGuideInsets; // @synthesize useHorizontalContentGuideInsets=_useHorizontalContentGuideInsets;
 
 @end
 

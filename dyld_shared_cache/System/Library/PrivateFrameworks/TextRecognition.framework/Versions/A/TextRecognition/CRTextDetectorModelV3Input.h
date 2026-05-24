@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface CRTextDetectorModelV3Input
 {
     struct __CVBuffer *_img_input;
@@ -14,11 +12,10 @@
 - (void);
 - (id);
 - (struct __CVBuffer *);
-- (id);
-- (id)talBaseline;
+- (id)2;
+- (id)horizontalBaseline;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) struct __CVBuffer *img_input; // @synthesize img_input=_img_input;
 
 @end

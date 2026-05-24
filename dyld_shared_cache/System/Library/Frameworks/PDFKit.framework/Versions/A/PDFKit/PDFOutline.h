@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFAction, PDFDestination, PDFDocument, PDFOutlinePrivate;
+@class PDFDocument, PDFOutlinePrivate;
 
 @interface PDFOutline
 {
@@ -27,37 +27,30 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)requestSiriSyncDataWithValidity:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
+- (id)performRemoteSignInTaskWithRequest:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)_type INTEGER NOT NULL DEFAULT 0, interest_data BLOB, artwork_variant_type INTEGER NOT NULL DEFAULT 0, UNIQUE (artwork_token, artwork_source_type, artwork_variant_type));
+- (id){;
 - (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)!*;
 - (void);
 - (id);
 - (void)Qäð1Â0@ù
 × ;
-- (void)eDictionaryUpdatingEditsDisableAppearanceOverride:(_Bool)arg1;
-- (_Bool)it2_DrawNodeBoundingBoxes;
+- (void)_syncAppearanceDictionaryUpdatingEditsDisableAppearanceOverride:(_Bool)arg1;
+- (_Bool)PDFKit2_DrawNodeBoundingBoxes;
 
 // Remaining properties
-@property(retain, nonatomic) PDFAction *action;
-@property(retain, nonatomic) PDFDestination *destination;
 @property(readonly, nonatomic) __weak PDFDocument *document;
-@property(readonly, nonatomic) unsigned long long index;
-@property(nonatomic) _Bool isOpen;
-@property(copy, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long numberOfChildren;
-@property(readonly, nonatomic) PDFOutline *parent;
 
 @end
 

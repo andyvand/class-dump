@@ -4,54 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWInferenceResult, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface BWVariableFrameRateSelector
 {
     float _suggestedFrameRate;
-    int _mode;
-    float _integrationTimeFrom60To30;
-    float _integrationTimeFrom30To24;
-    float _integrationTimeFrom30BackTo60;
-    NSMutableDictionary *_vfrAEMaxGainsByPortType;
-    NSMutableDictionary *_variableFrameRateInfo;
-    struct os_unfair_lock_s _variableFrameRateInfoLock;
-    int _frameRateConversionStatus;
-    _Bool _lastStabilityFlag;
-    _Bool _deviceMotionEnabled;
-    _Bool _sceneMotionEnabled;
-    _Bool _zoomInProgress;
-    struct BWSmartCameraScene _sceneMotionAEInLowLight;
-    struct BWSmartCameraScene _sceneMotionAEInHighLight;
-    struct BWSmartCameraScene _deviceMotionInLowLight;
-    struct BWSmartCameraScene _deviceMotionInHighLight;
-    struct BWSmartCameraScene _aeLimits;
-    struct BWSmartCameraScene _zoomRequest;
-    struct BWSmartCameraScene _flickerDetected;
-    struct BWSmartCameraScene _waterSceneDetected;
-    float _previousEITForAELimitsReached;
-    int _globalMotionAE;
-    NSMutableDictionary *_highLightSceneMotionThresholdsByPortType;
-    NSMutableDictionary *_lowLightSceneMotionThresholdsByPortType;
-    CDStruct_bf7dff04 _lastQuaternion;
-    CDStruct_bf7dff04 _lastQuaternionDiff;
-    _Bool _testRun;
-    _Bool _frameRateConversionInVISNodeEnabled;
-    _Bool _teleAutoVideoFrameRateAllows24FPS;
-    BWInferenceResult *_mostRecentInferenceResult;
-    struct os_unfair_lock_s _smartCameraLock;
-    struct {
-        int reason;
-        int mode;
-        float fromFR;
-        float toFR;
-        CDStruct_1b6d18a9 time;
-        _Bool isSceneStable;
-        _Bool aeLimitsReached;
-        _Bool waterSceneDetected;
-        int currentFrameRate;
-    } _state;
 }
 
 + (void)om.apple.avfoundation;
@@ -59,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (float);
-- (void);
-- (void);
+- (void)=;
+- (void)PMParagraphMapper;
 
 // Remaining properties
 @property(readonly, nonatomic) float suggestedFrameRate;

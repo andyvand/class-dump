@@ -7,11 +7,6 @@
 @interface NewsUI2.RecipeBoxSearchDatabase
 {
     id $defaultActor;
-    id lazyStore;
-    id recipeService;
-    id tagService;
-    id recipeFactory;
-    id recipeUserDataManager;
 }
 
 @end

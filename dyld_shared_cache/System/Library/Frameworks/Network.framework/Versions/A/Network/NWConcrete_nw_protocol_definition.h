@@ -4,54 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_nw_object;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_protocol_definition
 {
     struct nw_protocol_identifier identifier;
-    unsigned char unique_identifier[16];
-    int variant;
-    struct nw_protocol_definition_common_state *common_state;
-    struct nw_protocol_definition_extended_state *extended_state;
-    CDUnknownFunctionPointerType allocate_options;
-    CDUnknownFunctionPointerType copy_options;
-    CDUnknownFunctionPointerType deallocate_options;
-    CDUnknownFunctionPointerType check_equality_options;
-    CDUnknownFunctionPointerType compare_options;
-    CDUnknownFunctionPointerType serialize_options;
-    CDUnknownFunctionPointerType deserialize_options;
-    CDUnknownFunctionPointerType allocate_metadata;
-    CDUnknownFunctionPointerType deallocate_metadata;
-    CDUnknownFunctionPointerType compare_metadata;
-    CDUnknownFunctionPointerType serialize_metadata;
-    CDUnknownFunctionPointerType deserialize_metadata;
-    NSObject<OS_nw_object> *swift_protocol_identifier;
-    unsigned int framer:1;
-    unsigned int supports_replies:1;
-    unsigned int message_is_stream:1;
-    unsigned int receive_single_message:1;
-    unsigned int multipath:1;
-    unsigned int supports_discontiguous_data:1;
-    unsigned int has_global_definition:1;
-    unsigned int is_proxy:1;
-    unsigned int serialize_in_parameters:1;
 }
 
-- (void);
+- (void)ProgressSpinnerIndeterminate;
 - (id);
-- (id);
+- (id)D;
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

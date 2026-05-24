@@ -6,18 +6,14 @@
 
 #import <ViewBridge/NSVB_TargetedProxy.h>
 
-@class NSString, NSVB_ViewServiceFencingControlProxy;
-
 __attribute__((visibility("hidden")))
 @interface NSVB_ViewServiceBehaviorProxy : NSVB_TargetedProxy
 {
     unsigned int _scope;
-    NSVB_ViewServiceFencingControlProxy *_fencingControlProxy;
-    struct os_unfair_lock_s _retainReleaseLock;
 }
 
 + (id);
-+ (id);
++ (id)f;
 - (struct os_unfair_lock_s *);
 - (void);
 - (void);
@@ -28,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned int scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
 
 @end
 

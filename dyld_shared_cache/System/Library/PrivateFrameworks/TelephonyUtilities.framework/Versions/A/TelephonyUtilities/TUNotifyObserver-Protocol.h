@@ -5,11 +5,12 @@
 //
 
 @protocol TUNotifyObserver
-- (void)ce:(void (^)(void))arg1 delegate:queue: /* Error: Ran out of types for this method. */;
+- (_Bool)B;
+- (void);
+- (void (^)(void));
+- (void)initWithService:(void (^)(void))arg1 delegate:queue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType callback;
-@property(readonly, nonatomic, getter=isObserving) _Bool observing;
-@property(readonly, nonatomic) unsigned long long state;
 @end
 

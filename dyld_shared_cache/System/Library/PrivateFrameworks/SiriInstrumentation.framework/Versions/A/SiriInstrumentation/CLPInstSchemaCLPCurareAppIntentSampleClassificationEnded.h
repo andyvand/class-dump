@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaCLPCurareAppIntentSampleClassificationEnded : SISchemaInstrumentationMessage
 {
     float _probability;
-    CDStruct_92c2b2eb _has;
 }
 
 - (void);
@@ -26,12 +23,10 @@
 - (_Bool);
 - (id);
 - (id)NKActionParameterDisambiguationEnded";
-- (id)tionContext;
+- (id)FLOWSchemaFLOWNotificationContext;
 - (id)ðü`ýýHÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProbability;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float probability; // @synthesize probability=_probability;
 
 @end

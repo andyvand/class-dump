@@ -5,12 +5,10 @@
 //
 
 @class UIView;
-@protocol AVTPresenterDelegate;
 
 @protocol AVTObjectViewController
 
 // Remaining properties
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate;
 @property(readonly, nonatomic) UIView *view;
 @end
 

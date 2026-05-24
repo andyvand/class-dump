@@ -18,22 +18,22 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (struct _NSRange);
-- (id);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
+- (void)ic:(id)arg1 %@;
+- (void)via merge to %@;
+- (struct _NSRange)sory _invokeDidUpdateSupportsWalletKeyDelegate:] /* Error: Ran out of types for this method. */;
+- (id)ey:(struct _NSRange)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (struct _NSRange)kUpdateRoomForAccessoryRequestKey;
+- (struct _NSRange)tiveMatter;
+- (struct _NSRange)atterWEDSupport;
+- (struct _NSRange)esThreadRouter;
+- (long long)supportsTargetControl;
+- (struct CGRect)%@;
+- (id)PM.mk.uf;
 - (long long);
-- (struct CGRect);
 - (id);
-- (long long);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
+- (struct CGRect)e %@ (%@) in hmf_appendObject;
+- (id));
+- (id)1;
 - (id);
 - (id);
 - (id);

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString;
+@class NSAttributedString;
 
 @interface CUIKORContentStrings
 {
     NSAttributedString *_combinedString;
-    NSAttributedString *_titleString;
-    NSAttributedString *_locationString;
-    NSAttributedString *_timeString;
-    NSAttributedString *_trailingString;
 }
 
 - (id);
@@ -26,15 +22,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setModalPresentationStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *combinedString; // @synthesize combinedString=_combinedString;
-@property(retain, nonatomic) NSAttributedString *locationString; // @synthesize locationString=_locationString;
-@property(readonly, nonatomic) NSArray *nonNilComponents;
-@property(retain, nonatomic) NSAttributedString *timeString; // @synthesize timeString=_timeString;
-@property(retain, nonatomic) NSAttributedString *titleString; // @synthesize titleString=_titleString;
-@property(retain, nonatomic) NSAttributedString *trailingString; // @synthesize trailingString=_trailingString;
 
 @end
 

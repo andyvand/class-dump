@@ -5,5 +5,6 @@
 //
 
 @protocol NSXPCSharedListenerManager
+- (void);
 @end
 

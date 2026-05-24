@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTLocalePair, NSData;
+@class MTSchemaMTLocalePair;
 
 @interface MTSchemaMTLocalePairResolved : SISchemaInstrumentationMessage
 {
     MTSchemaMTLocalePair *_localePair;
-    _Bool _hasLocalePair;
 }
 
 - (void);
@@ -21,20 +20,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)messageDigest;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)imentDigestsReported;
-- (id)pe;
-- (void)ppType;
+- (id)hasAnyEventType;
+- (void)FLOWSchemaFLOWProtectedAppType;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLocalePair; // @synthesize hasLocalePair=_hasLocalePair;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MTSchemaMTLocalePair *localePair; // @synthesize localePair=_localePair;
 
 @end

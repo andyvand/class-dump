@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)ot generate URL for location:(id)arg1 [%@];
 - (id);
 
 @end

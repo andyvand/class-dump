@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFPresenceEventDatabaseID, NSArray, NSNumber, NSString;
+@class NSArray, NSNumber;
 @protocol MKFHome;
 
 @protocol MKFPresenceEvent
+- (NSArray *)ng"40;
+- (void)_saveStoredSessionsWriteError;
+- (NSArray *)intentHandlingStatus;
 - (id <MKFHome>);
-- (NSNumber *)Timer;
+- (NSNumber *)VideoAttributesDowngradeDebouceTimer;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *activation;
-@property(readonly, copy, nonatomic) MKFPresenceEventDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) NSArray *guests;
-@property(readonly) id <MKFHome> home;
-@property(copy, nonatomic) NSString *presenceType;
-@property(readonly, retain, nonatomic) NSArray *users;
 @end
 

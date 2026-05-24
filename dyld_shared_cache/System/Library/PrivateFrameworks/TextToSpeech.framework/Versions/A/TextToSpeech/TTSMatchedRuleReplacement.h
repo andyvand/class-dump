@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TTSRegexMatch, TTSRuleReplacement;
+@class TTSRegexMatch;
 
 @interface TTSMatchedRuleReplacement
 {
     TTSRegexMatch *_match;
-    NSString *_replacement;
-    TTSRuleReplacement *_ruleReplacement;
 }
 
 - (void);
@@ -18,13 +16,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)äÜóÿÿÿÿÿø;
 
 // Remaining properties
 @property(retain, nonatomic) TTSRegexMatch *match; // @synthesize match=_match;
-@property(retain, nonatomic) NSString *replacement; // @synthesize replacement=_replacement;
-@property(nonatomic) __weak TTSRuleReplacement *ruleReplacement; // @synthesize ruleReplacement=_ruleReplacement;
 
 @end
 

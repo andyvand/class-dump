@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, XQueryError, XQueryProlog;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface XQueryContextInternal
 {
     NSMutableArray *_variables;
-    NSMutableDictionary *_globals;
-    NSMutableDictionary *_documentCache;
-    NSMutableDictionary *_URLCache;
-    NSMutableDictionary *_contextNamespaces;
-    NSMutableArray *_inScopeNamespaces;
-    struct __CFDictionary *_baseURINodes;
-    XQueryError *_error;
-    NSDate *_currentDateTime;
-    XQueryProlog *_prolog;
-    id _client;
-    id _contextItem;
-    unsigned long long _position;
-    unsigned long long _last;
-    _Bool _ordered;
 }
 
-+ (id);
++ (id)enabled;
 - (_Bool);
 - (id);
 - (void);
@@ -44,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)v&;
+- (id)HJ;
 - (void);
 - (id);
 - (_Bool);
@@ -53,18 +39,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownFunctionPointerType);
+- (id)1;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)obcEngagedContentWithDeadline:(id)arg1 toppingOff: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
+- (unsigned long long)s both SourceType and AppEntityType is non-photos;
+- (id)ch_context}^{icu_regex}^{levenstein_automaton}(?=If)(?=I{?=b2b2b20b1b7})}8I16;
+- (void)bH;
 - (void);
 - (unsigned long long);
 - (void);

@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (id)Enabled =;
 - (id);
-- (id);
-- (void);
+- (void)B@;
 
 @end
 

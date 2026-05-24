@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateController, IMKCandidateDefinitionUnit, IMKCandidateLayoutUnit, IMKCandidateView;
+@class IMKCandidateController;
 
 @interface IMKCandidateUIElement
 {
     IMKCandidateController *_candidateController;
-    IMKCandidateView *_candidateView;
-    IMKCandidateDefinitionUnit *_definitionUnit;
 }
 
 - (void);
@@ -26,19 +24,16 @@
 - (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)';
+- (unsigned long long)Drop and re-select the next candidate as primary connection, since no packet flowing for %f seconds;
+- (id)error:%x. /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)ªd;
 
 // Remaining properties
 @property(nonatomic) IMKCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) IMKCandidateView *candidateView; // @synthesize candidateView=_candidateView;
-@property(retain, nonatomic) IMKCandidateDefinitionUnit *definitionUnit; // @synthesize definitionUnit=_definitionUnit;
-@property(readonly, nonatomic) IMKCandidateLayoutUnit *layoutUnit;
 
 @end
 

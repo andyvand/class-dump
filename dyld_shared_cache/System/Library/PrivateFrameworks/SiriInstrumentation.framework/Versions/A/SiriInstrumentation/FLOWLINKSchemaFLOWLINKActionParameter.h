@@ -6,30 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWLINKSchemaFLOWLINKActionParameter : SISchemaInstrumentationMessage
 {
     NSString *_name;
-    _Bool _isArray;
-    int _type;
-    struct {
-        unsigned int isArray:1;
-        unsigned int type:1;
-    } _has;
-    _Bool _hasName;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)*;
 - (void);
 - (_Bool);
-- (void);
+- (void), error:(_Bool)arg1 %@;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)not in allow list;
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -40,21 +33,15 @@
 - (void)!EùqàÐ1Â0@ù
 × ;
 - (id)ILAssetAcquisitionFailed";
-- (id)rideRequestFailed;
+- (id)TTMSchemaTTMOverrideRequestFailed;
 - (id)ÜXÜ;
-- (void)REREASON_PRE_FLIGHT_CHECK_FAILURE;
+- (void)ORCHINTELLIGENCEFLOWFAILUREREASON_PRE_FLIGHT_CHECK_FAILURE;
 - (_Bool)Z;";
 - (void)n#;
 - (void)§Ø±-%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsArray;
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool isArray; // @synthesize isArray=_isArray;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDPrivacyManager
 {
     NSObject<OS_dispatch_queue> *_privacyManagerQueue;
-    NSMutableSet *_operations;
 }
 
 + (id);
@@ -18,14 +17,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)peration for directory %{public}@ because it failed with error:(id)arg1 %{public}@;
 - (id);
 - (id);
 - (id);
 - (void)Ì;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *operations; // @synthesize operations=_operations;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *privacyManagerQueue; // @synthesize privacyManagerQueue=_privacyManagerQueue;
 
 @end

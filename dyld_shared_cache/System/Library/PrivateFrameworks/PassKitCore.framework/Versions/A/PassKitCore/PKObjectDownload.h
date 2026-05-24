@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSURLSessionDataTask;
+@class NSMutableSet;
 
 @interface PKObjectDownload
 {
     NSMutableSet *_completionHandlers;
-    NSURLSessionDataTask *_task;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(copy, nonatomic) NSURLSessionDataTask *task; // @synthesize task=_task;
 
 @end
 

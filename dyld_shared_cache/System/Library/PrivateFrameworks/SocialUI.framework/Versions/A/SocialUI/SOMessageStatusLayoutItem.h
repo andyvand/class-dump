@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class);
 - (long long)e-addressing;
 
 @end

@@ -7,9 +7,6 @@
 @interface (extension in AVFoundation):__C.AVAssetImageGenerator.ImageGeneratorMonitor__priv_2DD7301E6C0D923453A00B88140607DE
 {
     id generator;
-    id yieldCount;
-    id yieldHandler;
-    id finishHandler;
 }
 
 @end

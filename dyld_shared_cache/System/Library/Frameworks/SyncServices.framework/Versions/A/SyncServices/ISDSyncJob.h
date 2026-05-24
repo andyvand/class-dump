@@ -7,23 +7,18 @@
 @interface ISDSyncJob
 {
     id _target;
-    id _context;
-    SEL _selector;
-    _Bool _canRunWithRunningSyncPlans;
-    _Bool _shouldRunBeforePendingSyncPlans;
-    _Bool _isRunning;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (void)vailableForWriting;
+- (void)isDatabaseAvailableForWriting;
 
 @end
 

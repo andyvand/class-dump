@@ -4,75 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, NSDate, NSString;
-
 @interface IMDChatMemberStatusChangeContext
 {
     unsigned char _style;
-    _Bool _silently;
-    _Bool _unattributed;
-    int _status;
-    NSString *_handleID;
-    NSString *_fromHandleID;
-    NSString *_unformattedNumber;
-    NSString *_countryCode;
-    NSString *_chatIdentifier;
-    IMDAccount *_account;
-    NSString *_destinationCallerID;
-    NSDate *_messageTime;
-    NSString *_messageID;
 }
 
-- (id);
+- (id)hh8;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)H;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)TH;
+- (id);
 - (id);
 - (void);
+- (_Bool)B;
+- (void);
+- (void);
+- (void);
+- (id)_ֈ;
 - (id);
+- (void)G;
+- (id);
 - (unsigned char);
 - (id);
-- (void);
+- (void)createFileAtPath:(int)arg1 contents:attributes: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (id);
+- (id)llX;
 - (void);
-- (void);
+- (void);
 - (void)16@24@32@40@48;
 - (void)À£Ä±;
 - (id)on [v2];
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSString *destinationCallerID; // @synthesize destinationCallerID=_destinationCallerID;
-@property(retain, nonatomic) NSString *fromHandleID; // @synthesize fromHandleID=_fromHandleID;
-@property(retain, nonatomic) NSString *handleID; // @synthesize handleID=_handleID;
-@property(retain, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(retain, nonatomic) NSDate *messageTime; // @synthesize messageTime=_messageTime;
-@property(nonatomic) _Bool silently; // @synthesize silently=_silently;
 @property(nonatomic) int status; // @synthesize status=_status;
-@property(nonatomic) unsigned char style; // @synthesize style=_style;
-@property(nonatomic) _Bool unattributed; // @synthesize unattributed=_unattributed;
-@property(retain, nonatomic) NSString *unformattedNumber; // @synthesize unformattedNumber=_unformattedNumber;
 
 @end
 

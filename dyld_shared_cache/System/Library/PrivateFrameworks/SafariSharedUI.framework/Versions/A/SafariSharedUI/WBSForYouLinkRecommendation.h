@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDate, NSImage, NSMutableSet, NSNumber, NSSet, NSString, NSURL, NSUUID;
+@class NSMutableSet, NSString;
 
 @interface WBSForYouLinkRecommendation
 {
     NSMutableSet *_originalQueries;
-    NSImage *_appIcon;
-    NSString *_simplifiedURLString;
-    NSString *_title;
-    NSString *_footnote;
-    NSURL *_pageURL;
-    NSURL *_imageURL;
-    NSImage *_image;
-    CNContact *_contact;
-    NSImage *_contactImage;
-    NSDate *_lastSeenDate;
-    id _sourceID;
-    NSString *_bundleIdentifier;
-    NSString *_secondarySourceIdentifier;
-    unsigned long long _source;
-    unsigned long long _topicSource;
-    NSUUID *_uniqueIdentifier;
-    NSNumber *_cachedScore;
 }
 
 - (unsigned long long);
@@ -37,57 +20,36 @@
 - (id);
 - (void);
 - (id);
+- (id)Y;
+- (void);
 - (id);
+- (void);
+- (id);
+- (void)screenDescriberDidFinishDescribingElements:(id)arg1;
+- (id);
+- (id);
+- (id);
+- (id)4(;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)?;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ateRemovedForDeviceWithUUIDString: /* Error: Ran out of types for this method. */;
+- (void)_singleExtensionStates:withStateRemovedForDeviceWithUUIDString: /* Error: Ran out of types for this method. */;
 - (id)¼;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *appIcon;
-@property(readonly, copy, nonatomic) NSString *badgeBundleIdentifier;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSNumber *cachedScore; // @synthesize cachedScore=_cachedScore;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) NSImage *contactImage; // @synthesize contactImage=_contactImage;
-@property(copy, nonatomic) NSString *footnote; // @synthesize footnote=_footnote;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, nonatomic) NSDate *lastSeenDate; // @synthesize lastSeenDate=_lastSeenDate;
-@property(readonly, copy, nonatomic) NSSet *originalQueries;
-@property(readonly, copy, nonatomic) NSString *originalQueriesString;
-@property(readonly, nonatomic) NSURL *pageURL; // @synthesize pageURL=_pageURL;
-@property(readonly, nonatomic) _Bool prefersLeadImage;
-@property(copy, nonatomic) NSString *secondarySourceIdentifier; // @synthesize secondarySourceIdentifier=_secondarySourceIdentifier;
-@property(readonly, copy, nonatomic) NSString *simplifiedURLString; // @synthesize simplifiedURLString=_simplifiedURLString;
-@property(readonly, nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(retain, nonatomic) id sourceID; // @synthesize sourceID=_sourceID;
-@property(readonly, nonatomic) NSImage *sourceIcon;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long topicSource; // @synthesize topicSource=_topicSource;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

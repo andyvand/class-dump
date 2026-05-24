@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, PLEntryNotificationOperatorComposition;
+@class NSDate;
 
 @interface PLUserActiveStateService
 {
     NSDate *_lastUnplugTime;
-    NSDate *_lastPluggedInTime;
-    double _pluggedInTime;
-    unsigned long long _userActiveNotificationHandle;
-    PLEntryNotificationOperatorComposition *_batteryNotification;
-    NSNumber *_pluggedInState;
-    NSDictionary *_cachedBatteryMetrics;
 }
 
 + (id);
@@ -30,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -38,22 +32,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (void)SigFig: /* Error: Ran out of types for this method. */;
+- (void)roundToSigFigDouble:withSigFig: /* Error: Ran out of types for this method. */;
 - (id)0x%X;
-- (double)ions;
+- (double)SOC_VMAX_Transitions;
 - (void)ramTlc(551):Cannot add 11 elements to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLEntryNotificationOperatorComposition *batteryNotification; // @synthesize batteryNotification=_batteryNotification;
-@property(retain) NSDictionary *cachedBatteryMetrics; // @synthesize cachedBatteryMetrics=_cachedBatteryMetrics;
-@property(retain) NSDate *lastPluggedInTime; // @synthesize lastPluggedInTime=_lastPluggedInTime;
-@property(retain) NSDate *lastUnplugTime; // @synthesize lastUnplugTime=_lastUnplugTime;
 @property(retain) NSDate *lastUserInactiveTime;
-@property(retain) NSNumber *pluggedInState; // @synthesize pluggedInState=_pluggedInState;
-@property double pluggedInTime; // @synthesize pluggedInTime=_pluggedInTime;
-@property unsigned long long userActiveNotificationHandle; // @synthesize userActiveNotificationHandle=_userActiveNotificationHandle;
 
 @end
 

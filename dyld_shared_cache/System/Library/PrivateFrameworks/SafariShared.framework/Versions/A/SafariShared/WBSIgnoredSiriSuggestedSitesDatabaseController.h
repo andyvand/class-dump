@@ -9,8 +9,8 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

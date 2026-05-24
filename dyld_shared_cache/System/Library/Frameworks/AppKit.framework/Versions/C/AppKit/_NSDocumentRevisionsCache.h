@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSDocumentRevisionsController, NSMapTable, NSMutableOrderedSet;
+@class NSDocumentRevisionsController;
 
 __attribute__((visibility("hidden")))
 @interface _NSDocumentRevisionsCache
 {
     NSDocumentRevisionsController *controller;
-    NSMapTable *_costs;
-    NSCountedSet *pinnedRevisions;
-    NSMutableOrderedSet *unpinnedRevisions;
-    id vmPressureSourceID;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)ificate property;
+- (void)w6W4Wwg;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)nnection"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32;
 - (void);
 - (void);
 - (id);

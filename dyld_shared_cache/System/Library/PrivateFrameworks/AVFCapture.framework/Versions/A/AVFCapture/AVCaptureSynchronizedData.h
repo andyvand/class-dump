@@ -12,14 +12,14 @@
 }
 
 + (void);
-- (void);
-- (void);
+- (void)compare:(CDStruct_1b6d18a9)arg1;
+- (void)_descriptionForLyricsInfoType:(CDStruct_1b6d18a9)arg1;
 - (_Bool);
-- (_Bool);
-- (int);
-- (CDStruct_1b6d18a9);
-- (id);
-- (void);
+- (_Bool)/;
+- (int)tementWithString:… | failed to create statement [] error=%{public}@ /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)a descendent of <p> or <span>.;
+- (id)MSVPropertyListEncoder.m;
+- (void)e"16@?<v@?@"NSArray"@"NSError">24;
 - (CDStruct_1b6d18a9);
 
 // Remaining properties

@@ -18,11 +18,11 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
-- (_Bool);
+- (_Bool)TB,V_isObservingModel;
 - (void);
-- (void)tems:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
+- (void)_appendShuffledItems:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelAlbumKind *albumKind; // @synthesize albumKind=_albumKind;

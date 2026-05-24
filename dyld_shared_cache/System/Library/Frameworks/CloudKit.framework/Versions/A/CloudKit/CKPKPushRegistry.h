@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, PKPushRegistry;
+@class NSHashTable;
 
 @interface CKPKPushRegistry
 {
     NSHashTable *_delegates;
-    PKPushRegistry *_pushRegistry;
 }
 
 + (id);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -23,15 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKPushRegistry *pushRegistry; // @synthesize pushRegistry=_pushRegistry;
-@property(readonly) Class superclass;
 
 @end
 

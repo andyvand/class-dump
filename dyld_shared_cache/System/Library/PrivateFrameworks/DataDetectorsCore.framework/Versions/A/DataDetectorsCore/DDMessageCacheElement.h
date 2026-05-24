@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DDMessageCacheElement
 {
     NSString *_text;
-    NSDate *_date;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)fetchRemotePasteboardForProcess:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDate *date; // @synthesize date=_date;
 @property(retain) NSString *text; // @synthesize text=_text;
 
 @end

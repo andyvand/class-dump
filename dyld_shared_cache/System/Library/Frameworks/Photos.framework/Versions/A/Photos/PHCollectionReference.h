@@ -11,7 +11,6 @@
 @interface PHCollectionReference : PHObjectReference
 {
     NSString *_transientIdentifier;
-    NSString *_transientTitle;
 }
 
 + (id);
@@ -22,12 +21,10 @@
 - (id);
 - (id);
 - (void),V_libraryURL;
-- (_Bool)vityAnalyzer;
+- (_Bool)SCSensitivityAnalyzer;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool transient;
-@property(readonly, copy, nonatomic) NSString *transientIdentifier; // @synthesize transientIdentifier=_transientIdentifier;
-@property(readonly, copy, nonatomic) NSString *transientTitle; // @synthesize transientTitle=_transientTitle;
 
 @end
 

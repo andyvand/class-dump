@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECDKIMVerifiableMessage, ECRawMessageHeaders, NSArray, NSData;
+@class NSArray;
 
 @interface ECDKIMVerificationContext
 {
     _Bool _requireFullBodySignature;
-    NSArray *_dkimSignatureHeaders;
-    ECDKIMVerifiableMessage *_verifiableMessage;
 }
 
-- (id);
-- (void);
+- (id)ata item %@ has not yet been loaded; we're about to force it;
+- (void)PIP stopping, pending restore of user interface presentation will start after dismissal transition completes;
 - (_Bool);
-- (id);
+- (id)r mark view count;
 - (void);
 - (void);
 - (id);
+- (id)UnsubscribeChannel;
 - (id);
-- (id);
-- (void);
+- (void)ramework;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *bodyData;
 @property(copy, nonatomic) NSArray *dkimSignatureHeaders; // @synthesize dkimSignatureHeaders=_dkimSignatureHeaders;
-@property(readonly, nonatomic) ECRawMessageHeaders *headers;
-@property(nonatomic) _Bool requireFullBodySignature; // @synthesize requireFullBodySignature=_requireFullBodySignature;
-@property(readonly, nonatomic) ECDKIMVerifiableMessage *verifiableMessage; // @synthesize verifiableMessage=_verifiableMessage;
 
 @end
 

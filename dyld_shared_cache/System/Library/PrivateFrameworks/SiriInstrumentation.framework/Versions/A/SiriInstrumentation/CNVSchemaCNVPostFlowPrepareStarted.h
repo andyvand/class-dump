@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVPostFlowPrepareStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)ibressl-2.2/crypto/engine/eng_table.c;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)meterIndex"b1};
-- (id)MHAssistantDaemonAudioTwoShotTransitionStarted;
+- (id)MHSchemaMHAssistantDaemonAudioTwoShotTransitionStarted;
 - (id)`Z;
 - (_Bool)C	$;
 - (_Bool)a(;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

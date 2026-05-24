@@ -17,7 +17,7 @@
 + (unsigned long long)£¤8§Ü§ð§ø§P¨D©ªÌªÜ«ø¬­¬®L¯H°°ä±
 ð³äµ3Ä¹;
 - (void);
-- (void)letionHandler: /* Error: Ran out of types for this method. */;
+- (void)linkURLString:withMetadataInfoForURLString:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)N,V_lastRequestWasInUserLoadedWebpage;
 
 @end

@@ -5,56 +5,40 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
+@protocol OS_dispatch_queue;
 
 @interface SDDirtyIdleTimer
 {
     unsigned int _resetCount;
-    unsigned int _dirtyCount;
-    unsigned long long _idleTimeout;
-    unsigned long long _dirtyTimeout;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
-    NSObject<OS_dispatch_source> *_idleTimer;
-    unsigned long long _idleStartTime;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
-- (void);
-- (void);
+- (void)handleFetchPresenceMapMessage:(id)arg1;
+- (void)handleFetchPersonFaceCropsMessage:(unsigned long long)arg1;
+- (void)handleFetchMultiuserSettingsRequest:(unsigned int)arg1;
+- (id)handleEnabledRegistrations:(id)arg1;
+- (id)handleDisabledRegistrations: /* Error: Ran out of types for this method. */;
+- (unsigned int)ock:errorBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (unsigned int);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (CDUnknownBlockType);
 - (void);
+- (void);
+- (void);
+- (void)RaTable_10_Cell2;
+- (unsigned long long);
+- (void);
+- (id)refreshReason;
+- (unsigned long long)initWithSelector:propertyDataType:andQualifierDataType: /* Error: Ran out of types for this method. */;
+- (void)XX;
+- (CDUnknownBlockType)j;
+- (void);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) unsigned int dirtyCount; // @synthesize dirtyCount=_dirtyCount;
-@property(nonatomic) unsigned long long dirtyTimeout; // @synthesize dirtyTimeout=_dirtyTimeout;
-@property(nonatomic) unsigned long long idleStartTime; // @synthesize idleStartTime=_idleStartTime;
-@property(nonatomic) unsigned long long idleTimeout; // @synthesize idleTimeout=_idleTimeout;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *idleTimer; // @synthesize idleTimer=_idleTimer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned int resetCount; // @synthesize resetCount=_resetCount;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end
 

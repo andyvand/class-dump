@@ -6,28 +6,11 @@
 
 #import <Silex/SXComponentView.h>
 
-@class NFPendingPromise, NFStateMachine, NSString, SWContainerViewController, SXComponentExposureMonitor, SXWebContentComponentExposureEvent, SXWebContentComponentInteractionManager, UIActivityIndicatorView, UILabel, UITapGestureRecognizer;
-@protocol SWLoadingPolicyProvider, SWNavigationManager, SWReachabilityProvider, SXAnalyticsReporting, SXLayoutInvalidator, SXResourceDataSource, SXWebContentConfigurationProvider, SXWebContentDataSourceProviding;
+@protocol SXAnalyticsReporting;
 
 @interface SXWebContentComponentView : SXComponentView
 {
     id <SXAnalyticsReporting> _analyticsReporting;
-    SWContainerViewController *_containerViewController;
-    id <SXWebContentConfigurationProvider> _configurationProvider;
-    id <SWNavigationManager> _navigationManager;
-    SXWebContentComponentInteractionManager *_interactionManager;
-    id <SWReachabilityProvider> _reachabilityProvider;
-    id <SXResourceDataSource> _resourceDataSource;
-    id <SWLoadingPolicyProvider> _loadingPolicyProvider;
-    id <SXLayoutInvalidator> _layoutInvalidator;
-    NFStateMachine *_stateMachine;
-    UIActivityIndicatorView *_loadingIndicator;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    UILabel *_errorLabel;
-    NFPendingPromise *_invalidationPromise;
-    SXComponentExposureMonitor *_componentExposureMonitor;
-    SXWebContentComponentExposureEvent *_componentExposureEvent;
-    id <SXWebContentDataSourceProviding> _dataSourceProvider;
 }
 
 - (void);
@@ -38,73 +21,50 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)G;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)d;
 - (void);
 - (void)ù
 × ;
 - (void)
 × ;
-- (id)th: /* Error: Ran out of types for this method. */;
+- (id)descriptorForIndexPath: /* Error: Ran out of types for this method. */;
 - (id)olbarItems;
 - (id)*V½­;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;
-@property(retain, nonatomic) SXWebContentComponentExposureEvent *componentExposureEvent; // @synthesize componentExposureEvent=_componentExposureEvent;
-@property(readonly, nonatomic) SXComponentExposureMonitor *componentExposureMonitor; // @synthesize componentExposureMonitor=_componentExposureMonitor;
-@property(readonly, nonatomic) id <SXWebContentConfigurationProvider> configurationProvider; // @synthesize configurationProvider=_configurationProvider;
-@property(readonly, nonatomic) SWContainerViewController *containerViewController; // @synthesize containerViewController=_containerViewController;
-@property(readonly, nonatomic) id <SXWebContentDataSourceProviding> dataSourceProvider; // @synthesize dataSourceProvider=_dataSourceProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UILabel *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SXWebContentComponentInteractionManager *interactionManager; // @synthesize interactionManager=_interactionManager;
-@property(retain, nonatomic) NFPendingPromise *invalidationPromise; // @synthesize invalidationPromise=_invalidationPromise;
-@property(readonly, nonatomic) id <SXLayoutInvalidator> layoutInvalidator; // @synthesize layoutInvalidator=_layoutInvalidator;
-@property(readonly, nonatomic) UIActivityIndicatorView *loadingIndicator; // @synthesize loadingIndicator=_loadingIndicator;
-@property(readonly, nonatomic) id <SWLoadingPolicyProvider> loadingPolicyProvider; // @synthesize loadingPolicyProvider=_loadingPolicyProvider;
-@property(readonly, nonatomic) id <SWNavigationManager> navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
-@property(readonly, nonatomic) id <SXResourceDataSource> resourceDataSource; // @synthesize resourceDataSource=_resourceDataSource;
-@property(readonly, nonatomic) NFStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.JSLegacyPackageIndex
 {
     id scriptURL;
-    id properties;
-    id bagOverrides;
 }
 
 @end

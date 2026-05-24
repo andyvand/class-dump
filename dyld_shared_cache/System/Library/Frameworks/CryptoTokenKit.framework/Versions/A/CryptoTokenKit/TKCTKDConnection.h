@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSXPCConnection, NSXPCInterface, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface TKCTKDConnection
 {
     NSXPCListenerEndpoint *_serverEndpoint;
-    NSXPCConnection *_serverConnection;
-    _Bool _namedConnection;
-    NSNumber *_targetUID;
-    NSXPCInterface *_exportedInterface;
-    id _exportedObject;
-    _Bool __testing_noAutomaticReconnect;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -29,16 +23,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)G;
 
 // Remaining properties
-@property(nonatomic) _Bool _testing_noAutomaticReconnect; // @synthesize _testing_noAutomaticReconnect=__testing_noAutomaticReconnect;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *configurationEndpoint;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint;
-@property(retain, nonatomic) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(retain, nonatomic) id exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly, nonatomic) NSXPCConnection *serverConnection;
 
 @end
 

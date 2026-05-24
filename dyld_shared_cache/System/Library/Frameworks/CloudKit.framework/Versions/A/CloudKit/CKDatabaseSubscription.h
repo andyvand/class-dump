@@ -13,10 +13,10 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)";
 + (void)owAaAGkXofHpiyZoLQ/Library/Caches/com.apple.xbs/TemporaryDirectory.4IIpKq/Sources/CloudKit/Sources/CloudKit/CKItems/CKShare.m;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

@@ -7,20 +7,15 @@
 @interface AXMVisionFeatureAestheticsResult
 {
     float _aestheticScore;
-    float _wellFramedSubjectScore;
-    float _pleasantCompositionScore;
-    float _wellChosenBackgroundScore;
-    float _noiseScore;
-    float _failureScore;
 }
 
-+ (_Bool);
++ (_Bool)m";
 - (id);
 - (float);
 - (float);
 - (float);
 - (float);
-- (float);
+- (float);
 - (float);
 - (id);
 - (id);
@@ -28,11 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float aestheticScore; // @synthesize aestheticScore=_aestheticScore;
-@property(readonly, nonatomic) float failureScore; // @synthesize failureScore=_failureScore;
-@property(readonly, nonatomic) float noiseScore; // @synthesize noiseScore=_noiseScore;
-@property(readonly, nonatomic) float pleasantCompositionScore; // @synthesize pleasantCompositionScore=_pleasantCompositionScore;
-@property(readonly, nonatomic) float wellChosenBackgroundScore; // @synthesize wellChosenBackgroundScore=_wellChosenBackgroundScore;
-@property(readonly, nonatomic) float wellFramedSubjectScore; // @synthesize wellFramedSubjectScore=_wellFramedSubjectScore;
 
 @end
 

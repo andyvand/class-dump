@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAUSTitleCardSection.h>
 
-@class NSString, SAUIImageResource;
-
 @interface SAUSRichTitleCardSection : SAUSTitleCardSection
 {
 }
@@ -20,16 +18,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool centered;
-@property(copy, nonatomic) NSString *contentRatingText;
-@property(copy, nonatomic) NSString *subtitle;
-@property(retain, nonatomic) SAUIImageResource *titleImage;
 
 @end
 

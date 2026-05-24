@@ -7,13 +7,6 @@
 @interface NewsUI2.EmailSignupViewController
 {
     id model;
-    id eventHandler;
-    id obController;
-    id micaView;
-    id imageView;
-    id contentViewHeightConstraint;
-    id signupButton;
-    id notNowButton;
 }
 
 - (void);

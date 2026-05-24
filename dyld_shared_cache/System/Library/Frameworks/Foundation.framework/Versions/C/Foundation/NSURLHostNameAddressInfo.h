@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSURLHostNameAddressInfo
 {
     double timestamp;
-    struct addrinfo *addressInfo;
 }
 
 + (id);

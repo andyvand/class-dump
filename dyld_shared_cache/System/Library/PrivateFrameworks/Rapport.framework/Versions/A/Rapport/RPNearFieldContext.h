@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSUUID;
+@class NSString;
 
 @interface RPNearFieldContext
 {
     NSString *_applicationLabel;
-    NSArray *_supportedApplicationLabels;
-    NSData *_pkData;
-    NSUUID *_bonjourListenerUUID;
 }
 
 + (_Bool);
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)t.m:(id)arg1 156;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *applicationLabel; // @synthesize applicationLabel=_applicationLabel;
-@property(readonly, nonatomic) NSUUID *bonjourListenerUUID; // @synthesize bonjourListenerUUID=_bonjourListenerUUID;
-@property(readonly, copy, nonatomic) NSData *pkData; // @synthesize pkData=_pkData;
-@property(readonly, copy, nonatomic) NSArray *supportedApplicationLabels; // @synthesize supportedApplicationLabels=_supportedApplicationLabels;
 
 @end
 

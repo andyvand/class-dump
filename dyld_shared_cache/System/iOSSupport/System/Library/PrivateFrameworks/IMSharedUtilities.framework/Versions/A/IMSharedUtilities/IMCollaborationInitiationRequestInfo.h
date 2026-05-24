@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerSetupInfo, CKShare, TUSandboxExtendedURL, _SWCollaborationMetadata, _SWCollaborationShareOptions;
-
 @interface IMCollaborationInitiationRequestInfo
 {
     long long _type;
-    _SWCollaborationShareOptions *_options;
-    _SWCollaborationMetadata *_metadata;
-    TUSandboxExtendedURL *_url;
-    CKShare *_share;
-    CKContainerSetupInfo *_containerSetupInfo;
 }
 
 + (_Bool);
@@ -37,12 +30,7 @@
 - (id)4gPë;
 
 // Remaining properties
-@property(retain, nonatomic) CKContainerSetupInfo *containerSetupInfo; // @synthesize containerSetupInfo=_containerSetupInfo;
-@property(retain, nonatomic) _SWCollaborationMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) _SWCollaborationShareOptions *options; // @synthesize options=_options;
-@property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) TUSandboxExtendedURL *url; // @synthesize url=_url;
 
 @end
 

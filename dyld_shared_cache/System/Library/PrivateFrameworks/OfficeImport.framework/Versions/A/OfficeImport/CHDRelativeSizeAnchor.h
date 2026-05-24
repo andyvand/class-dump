@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CHDRelativeSizeAnchor : CHDAnchor
 {
     struct CGPoint mFrom;
-    struct CGPoint mTo;
 }
 
 - (void);

@@ -6,13 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface DMFUpdateEnqueuedCommandsRequest : DMFTaskRequest
 {
     NSString *_organizationIdentifier;
-    NSArray *_addCommands;
-    NSArray *_removeCommands;
 }
 
 + (_Bool);
@@ -25,14 +23,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)constraintsForVisibleLabelAndVisibleDividerLine;
+- (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *addCommands; // @synthesize addCommands=_addCommands;
 @property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(copy, nonatomic) NSArray *removeCommands; // @synthesize removeCommands=_removeCommands;
 
 @end
 

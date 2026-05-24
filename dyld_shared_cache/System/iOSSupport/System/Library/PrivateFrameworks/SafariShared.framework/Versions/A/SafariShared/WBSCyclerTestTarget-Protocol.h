@@ -5,5 +5,6 @@
 //
 
 @protocol WBSCyclerTestTarget
+- (void);
 @end
 

@@ -7,20 +7,18 @@
 @interface VSBlockBasedValueTransformer
 {
     CDUnknownBlockType _transformationBlock;
-    CDUnknownBlockType _reverseTransformationBlock;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (id)ntroller>="fWeakObject"@"FI_IPropertyValueController"};
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType reverseTransformationBlock; // @synthesize reverseTransformationBlock=_reverseTransformationBlock;
 @property(copy, nonatomic) CDUnknownBlockType transformationBlock; // @synthesize transformationBlock=_transformationBlock;
 
 @end

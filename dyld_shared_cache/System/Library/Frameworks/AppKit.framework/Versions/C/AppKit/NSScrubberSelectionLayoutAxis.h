@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSScrubberSelectionLayoutAxis
 {
@@ -15,20 +13,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (_Bool);
+- (_Bool)2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool floatingSelection;
-@property(readonly) unsigned long long hash;
-@property long long itemAlignment; // @synthesize itemAlignment=_itemAlignment;
-@property(readonly) Class superclass;
 
 @end
 

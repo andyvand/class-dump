@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PVFace, PVImage;
+@class PVFace;
 
 @interface PVFaceCropSourceDescriptor
 {
     PVFace *_face;
-    PVImage *_image;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)gError: /* Error: Ran out of types for this method. */;
+- (id)initWithFrequentCityLabels:version:graph:cityManager:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)errorForPhotoVisionErrorCode:localizedDescription:underlyingError: /* Error: Ran out of types for this method. */;
 
 @end
 

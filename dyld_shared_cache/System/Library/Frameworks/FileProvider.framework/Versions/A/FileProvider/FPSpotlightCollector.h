@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPSpotlightQueryDescriptor, NSDate, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol FPSpotlightCollectorDelegate, OS_dispatch_queue;
+@class NSMutableDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface FPSpotlightCollector
 {
     NSMutableDictionary *_itemsByBundleAndCSID;
-    NSMutableDictionary *_itemsByProviderAndCollaborationIdentifier;
-    _Bool _suspended;
-    unsigned long long _numberOfRecoveryAttempts;
-    NSDate *_lastStartOfRecovery;
-    NSMapTable *_queryToMountPoint;
-    _Bool _gathering;
-    id <FPSpotlightCollectorDelegate> _delegate;
-    FPSpotlightQueryDescriptor *_queryDescriptor;
-    unsigned long long _itemsOrigin;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    NSMutableSet *_observers;
-    NSMutableArray *_queries;
 }
 
++ (id)city;
 + (id);
-+ (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)M;
+- (void)M;
+- (void)M;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -53,35 +41,28 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)*;
+- (void);
+- (void);
+- (void)e.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void)in moves;
-- (void)used;
+- (void)paused;
 
 // Remaining properties
-@property(nonatomic) __weak id <FPSpotlightCollectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isGathering) _Bool gathering; // @synthesize gathering=_gathering;
-@property(nonatomic) unsigned long long itemsOrigin; // @synthesize itemsOrigin=_itemsOrigin;
-@property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(retain, nonatomic) NSMutableArray *queries; // @synthesize queries=_queries;
-@property(readonly, nonatomic) FPSpotlightQueryDescriptor *queryDescriptor; // @synthesize queryDescriptor=_queryDescriptor;
-@property(readonly, nonatomic, getter=isSuspended) _Bool suspended;
 
 @end
 

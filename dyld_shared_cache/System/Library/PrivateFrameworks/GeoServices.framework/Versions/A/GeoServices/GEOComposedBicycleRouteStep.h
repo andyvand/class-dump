@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)_cn_truncateAtLength:(id)arg1 addEllipsisIfTrunctated:(id)arg2;
+- (id)_cn_trimLeadingWhitespace;
 
 @end
 

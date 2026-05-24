@@ -11,20 +11,21 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)l;
 + (void)esEntry=%@;
 - (void);
-- (id);
+- (id)nfo URL!;
 - (void);
-- (id);
-- (int);
+- (id)loadDefaultValuesWithCompletionHandler:(id)arg1;
+- (int)JJ
+;
 - (void);
 - (void)SoCStatsPMGRCounters;
 

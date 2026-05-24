@@ -6,46 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, NSIndexPath, NSString, UICollectionViewDiffableDataSource, UIHoverGestureRecognizer, UIImpactFeedbackGenerator, UIMenu, UIPanGestureRecognizer, _UIContinuousSelectionGestureRecognizer, _UIDiffuseShadowView, _UIEditMenuCollectionView, _UIEditMenuPageButton;
-@protocol _UIEditMenuListViewDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuListView : UIView
 {
     NSString *_backgroundMaterialGroupName;
-    double _largestPageWidth;
-    double _verticalContentHeight;
-    double _additionalWidthFromInteraction;
-    struct CGSize _paginationContainerSize;
-    struct {
-        unsigned int pagination:1;
-    } _needsUpdate;
-    _Bool _shouldHandoffOnLift;
-    id <_UIEditMenuListViewDelegate> _delegate;
-    long long _arrowDirection;
-    long long _axis;
-    unsigned long long _preferredElementDisplayMode;
-    UIView *_titleView;
-    UIMenu *_displayedMenu;
-    UIView *_customBackgroundPlatterView;
-    UIView *_backgroundView;
-    _UIDiffuseShadowView *_shadowView;
-    CAShapeLayer *_maskLayer;
-    UIView *_menuContainerView;
-    _UIEditMenuCollectionView *_collectionView;
-    UIView *_titleContainerView;
-    UIView *_titleSeparatorView;
-    UICollectionViewDiffableDataSource *_dataSource;
-    _UIEditMenuPageButton *_leftButton;
-    _UIEditMenuPageButton *_rightButton;
-    _UIContinuousSelectionGestureRecognizer *_selectionGestureRecognizer;
-    UIHoverGestureRecognizer *_hoverGestureRecognizer;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UIImpactFeedbackGenerator *_feedbackGenerator;
-    double _lastFeedbackTime;
-    NSIndexPath *_highlightedIndexPath;
-    NSIndexPath *_hoveredIndexPath;
-    NSIndexPath *_scrubbedIndexPath;
 }
 
 + (double);
@@ -55,56 +21,56 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)40;
+- (void)0:(id)arg1 8@16d24;
+- (id)syncTaskType;
+- (_Bool)startingPeriodicSyncSetByCloudKitHooks;
+- (id)startingPeriodicSyncSetByCloudKitHooks;
+- (void)setAllowList:(id)arg1 account:(id)arg2;
+- (unsigned long long)registerMessagesGroupUUIDForConversationUUID: /* Error: Ran out of types for this method. */;
+- (id)isHSATrusted;
+- (double)initWithChatStatus:chat:style:displayName:groupID:handleInfo: /* Error: Ran out of types for this method. */;
+- (struct CGSize)fetchMMSReportJunkCarrierAddressForPhoneNumber:(id)arg1 simID:(struct CGSize)arg2;
+- (id)cachedUnreadReports;
+- (id)aa_primaryAppleAccountWithPreloadedDataclasses;
+- (id)_zoneIdentifierForOperation: /* Error: Ran out of types for this method. */;
+- (id)_updateNetworkMonitorWithRemoteHost: /* Error: Ran out of types for this method. */;
+- (id)_handleModifyRecordsOperation: /* Error: Ran out of types for this method. */;
+- (id)_deferredReplicatedMessageReleaseWithAllowedMessage:outgoingProxyBlock: /* Error: Ran out of types for this method. */;
+- (id),R,N,V_serviceSessionDelegates;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (double);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void)nCore30ClientConnectionRouteProvidingP;
 - (struct CGSize);
 - (void);
+- (void), localeID:(id)arg1 %s, preferredLocalization:%s /* Error: Ran out of types for this method. */;
+- (double)s;
+- (void)es associated with IMCloudKitAppleIDSecurityLevelHSA2.;
+- (void)ch;
+- (void)ding message to session:(id)arg1 %@  chatGUID:%@ /* Error: Ran out of types for this method. */;
+- (double)or while deleting messages %@;
+- (_Bool)andle:(struct CGSize)arg1 %@, senderName:%@, conversationID:%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)eleted.;
+- (struct CGSize)ound a chat bot sip handle %@, for %@;
+- (void)tering disabled;
+- (_Bool)%p>, ;
+- (_Bool)message blastdoor object from result:<%@ %p>,  /* Error: Ran out of types for this method. */;
+- (void)arking row %lld as failed to upload ***;
+- (struct CGSize)p to download of %@;
+- (void)D %@ on Service %@ but allowing it to be processed since original message had an error;
+- (void)ave an error (found msg service %@);
+- (void)plicate message for GUID %@ on Service %@ and it did not have an error (found msg service %@);
+- (void)ntities %@;
+- (void)@;
+- (double)********** Requesting registered URIs but we don't have an IDSAccount, please file a radar ********** State:(double)arg1 service session = %@, accounts = %@;
+- (_Bool)DidCheckForDuplicateChats;
 - (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -122,14 +88,14 @@ __attribute__((visibility("hidden")))
 - (long long)!àDùq`ð1Â0@ù
 × ;
 - (id);
-- (void)edBackgroundView;
+- (void)_selectedBackgroundView;
 - (_Bool)orm;
 - (id)ontinuationProgress;
 - (id)r, %@, passed to %@. Expected %@ or %@. This is an internal UISplitViewController problem.;
 - (void)ontrolStateHighlighted.;
 - (_Bool)startInteraction. This is unexpected, please file a radar.;
 - (_Bool)d-detection-pattern.dd.address;
-- (void)cket;
+- (void)UIHideScrollPocket;
 - (void)wLayoutAttributes"8@"<_UICollectionLayoutSectionSolver>"16@"_UICollectionLayoutFramesQueryResult"24^B32;
 - (id)s with duplicate identifiers. Element: /* Error: Ran out of types for this method. */;
 - (id);
@@ -140,40 +106,7 @@ __attribute__((visibility("hidden")))
 - (id)Øic;
 
 // Remaining properties
-@property(nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;
-@property(nonatomic) long long axis; // @synthesize axis=_axis;
-@property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) _UIEditMenuCollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(readonly, nonatomic) UIView *customBackgroundPlatterView; // @synthesize customBackgroundPlatterView=_customBackgroundPlatterView;
-@property(readonly, nonatomic) UICollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <_UIEditMenuListViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIMenu *displayedMenu; // @synthesize displayedMenu=_displayedMenu;
-@property(readonly, nonatomic) UIImpactFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSIndexPath *highlightedIndexPath; // @synthesize highlightedIndexPath=_highlightedIndexPath;
-@property(readonly, nonatomic) UIHoverGestureRecognizer *hoverGestureRecognizer; // @synthesize hoverGestureRecognizer=_hoverGestureRecognizer;
-@property(retain, nonatomic) NSIndexPath *hoveredIndexPath; // @synthesize hoveredIndexPath=_hoveredIndexPath;
-@property(readonly, nonatomic) double lastFeedbackTime; // @synthesize lastFeedbackTime=_lastFeedbackTime;
-@property(readonly, nonatomic) _UIEditMenuPageButton *leftButton; // @synthesize leftButton=_leftButton;
-@property(readonly, nonatomic) CAShapeLayer *maskLayer; // @synthesize maskLayer=_maskLayer;
-@property(readonly, nonatomic) UIView *menuContainerView; // @synthesize menuContainerView=_menuContainerView;
-@property(readonly, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(nonatomic) unsigned long long preferredElementDisplayMode; // @synthesize preferredElementDisplayMode=_preferredElementDisplayMode;
-@property(readonly, nonatomic) _UIEditMenuPageButton *rightButton; // @synthesize rightButton=_rightButton;
-@property(retain, nonatomic) NSIndexPath *scrubbedIndexPath; // @synthesize scrubbedIndexPath=_scrubbedIndexPath;
-@property(readonly, nonatomic) _Bool scrubbingEnabled;
-@property(readonly, nonatomic) _UIContinuousSelectionGestureRecognizer *selectionGestureRecognizer; // @synthesize selectionGestureRecognizer=_selectionGestureRecognizer;
-@property(readonly, nonatomic) _UIDiffuseShadowView *shadowView; // @synthesize shadowView=_shadowView;
-@property(readonly, nonatomic) _Bool shouldHandoffOnLift; // @synthesize shouldHandoffOnLift=_shouldHandoffOnLift;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIView *titleContainerView; // @synthesize titleContainerView=_titleContainerView;
-@property(readonly, nonatomic) UIView *titleSeparatorView; // @synthesize titleSeparatorView=_titleSeparatorView;
-@property(readonly, nonatomic) UIView *titleView; // @synthesize titleView=_titleView;
 
 @end
 

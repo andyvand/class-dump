@@ -11,7 +11,7 @@
     PKTiledCanvasView *_view;
 }
 
-- (void);
+- (void);
 - (id);
 - (void)ickerViewLeftConstraint;
 - (void)-´;

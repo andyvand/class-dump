@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKPrecursorPassUpgradeRequestAction
 {
     NSString *_localizedActionText;
-    unsigned long long _actionType;
-    NSURL *_actionURL;
 }
 
 - (void);
@@ -20,15 +18,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)serverModeDuration"b1"splitModeDuration"b1"startingRSSI"b1"totalDuration"b1"totalPeerCount"b1"csaDuringDfspMode"b1"csaToDfsChannel"b1"dfsProxyMode"b1"inRetroMode"b1"peerIsSDB"b1"selfIsSDB"b1};
 - (void);
 - (id)5;
 - (void)PrecursorPassAction"8;
-- (void)lue;
+- (void)hasStoredValue;
 
 // Remaining properties
-@property(nonatomic) unsigned long long actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) NSURL *actionURL; // @synthesize actionURL=_actionURL;
 @property(retain, nonatomic) NSString *localizedActionText; // @synthesize localizedActionText=_localizedActionText;
 
 @end

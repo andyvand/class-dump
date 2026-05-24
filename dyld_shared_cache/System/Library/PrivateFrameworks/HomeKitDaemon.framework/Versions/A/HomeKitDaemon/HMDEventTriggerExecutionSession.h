@@ -6,29 +6,12 @@
 
 #import <HomeKitDaemon/HMDEventTriggerSession.h>
 
-@class HMDEventTriggerUserConfirmationSession, HMDPredicateUtilities, HMDTriggerConfirmationTimer, HMFTimer, NSArray, NSMapTable, NSMutableArray, NSMutableSet, NSPredicate, NSString;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface HMDEventTriggerExecutionSession : HMDEventTriggerSession
 {
     _Bool _actionSetExecutionInProgress;
-    _Bool _restoreInProgress;
-    _Bool _executionCompleteCalled;
-    NSMutableArray *_triggerEvents;
-    NSMutableArray *_causingDevices;
-    NSArray *_endEvents;
-    NSArray *_monitorEvents;
-    unsigned long long _executionState;
-    HMDPredicateUtilities *_predicateUtilities;
-    NSArray *_actionSets;
-    NSPredicate *_evaluationCondition;
-    NSArray *_recurrences;
-    HMDEventTriggerUserConfirmationSession *_userConfirmationSession;
-    HMDTriggerConfirmationTimer *_secureTriggerConfirmationTimer;
-    HMFTimer *_startCharacteristicsMonitorTimer;
-    NSMapTable *_writeRequests;
-    NSMutableSet *_mediaProfiles;
-    double _executionStartTime;
 }
 
 + (id);
@@ -36,20 +19,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)writeToURL:options:error: /* Error: Ran out of types for this method. */;
+- (void)messagesIdentifiers;
+- (void)ntFormattedAddress:(id)arg1 transactionTime:transactionType:transactionLocation: /* Error: Ran out of types for this method. */;
+- (void)hasDefaultTransitType;
+- (void)_processFetchedStatus:(id)arg1 forHandle: /* Error: Ran out of types for this method. */;
+- (void)N,V_system;
+- (void);
+- (id);
+- (id)02MzA2ShIJIRqCiHnwREARgBL69LPoVcBYBGISCTJrzmZ68ERAEfH7kujA6FXAcMI7;
+- (void)iAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -78,12 +61,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)v32@0:8S16@"PGHighlightItemList"20S28 /* Error: Ran out of types for this method. */;
+- (id)GEOAddress"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)u;
+- (void)initWithType:(unsigned long long)arg1;
+- (unsigned long long)allContactIDsMatchingEmailAddress:orPhoneNumber: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -94,30 +77,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool actionSetExecutionInProgress; // @synthesize actionSetExecutionInProgress=_actionSetExecutionInProgress;
-@property(readonly, nonatomic) NSArray *actionSets; // @synthesize actionSets=_actionSets;
-@property(readonly, nonatomic) NSMutableArray *causingDevices; // @synthesize causingDevices=_causingDevices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *endEvents; // @synthesize endEvents=_endEvents;
-@property(readonly, nonatomic) NSPredicate *evaluationCondition; // @synthesize evaluationCondition=_evaluationCondition;
-@property(nonatomic) _Bool executionCompleteCalled; // @synthesize executionCompleteCalled=_executionCompleteCalled;
-@property(readonly, nonatomic) double executionStartTime; // @synthesize executionStartTime=_executionStartTime;
-@property(nonatomic) unsigned long long executionState; // @synthesize executionState=_executionState;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableSet *mediaProfiles; // @synthesize mediaProfiles=_mediaProfiles;
-@property(retain, nonatomic) NSArray *monitorEvents; // @synthesize monitorEvents=_monitorEvents;
-@property(readonly, nonatomic) HMDPredicateUtilities *predicateUtilities; // @synthesize predicateUtilities=_predicateUtilities;
-@property(readonly, nonatomic) NSArray *recurrences; // @synthesize recurrences=_recurrences;
-@property(nonatomic) _Bool restoreInProgress; // @synthesize restoreInProgress=_restoreInProgress;
-@property(retain, nonatomic) HMDTriggerConfirmationTimer *secureTriggerConfirmationTimer; // @synthesize secureTriggerConfirmationTimer=_secureTriggerConfirmationTimer;
-@property(retain, nonatomic) HMFTimer *startCharacteristicsMonitorTimer; // @synthesize startCharacteristicsMonitorTimer=_startCharacteristicsMonitorTimer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableArray *triggerEvents; // @synthesize triggerEvents=_triggerEvents;
-@property(readonly, nonatomic) HMDEventTriggerUserConfirmationSession *userConfirmationSession; // @synthesize userConfirmationSession=_userConfirmationSession;
 @property(readonly, nonatomic) NSMapTable *writeRequests; // @synthesize writeRequests=_writeRequests;
 
 @end

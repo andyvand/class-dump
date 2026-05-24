@@ -6,48 +6,40 @@
 
 #import <ContactsUI/CNContactListUndoableAction.h>
 
-@class CNContactStore, CNUIExternalComponentsFactory, NSArray;
+@class CNUIExternalComponentsFactory;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListRemoveContactsFromGroupAction : CNContactListUndoableAction
 {
     _Bool _confirmAction;
-    CNUIExternalComponentsFactory *_componentsFactory;
-    CNContactStore *_contactStore;
-    long long _originalContactCount;
-    NSArray *_actions;
 }
 
 + (id);
 + (id)1Â0@ù
 × ;
-+ (id)UsesBrandedCallFormat: /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (id)setUsesBrandedCallFormat: /* Error: Ran out of types for this method. */;
+- (_Bool)R;
 - (void);
 - (void);
+- (void)@9	;
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)M9;
 - (_Bool);
-- (_Bool);
 - (void);
+- (id)dismissedInlineSelectionModulePublisher;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)ement;
 - (void)&,N,V_styleDividerView;
 - (void);
 - (id)H;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
 @property(readonly, nonatomic) CNUIExternalComponentsFactory *componentsFactory; // @synthesize componentsFactory=_componentsFactory;
-@property(nonatomic) _Bool confirmAction; // @synthesize confirmAction=_confirmAction;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(nonatomic) long long originalContactCount; // @synthesize originalContactCount=_originalContactCount;
 
 @end
 

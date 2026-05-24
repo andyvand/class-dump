@@ -8,13 +8,6 @@
 {
     id feedbackForm;
     id formStub;
-    id ded;
-    id user;
-    id formResponse;
-    id devicesController;
-    id draftingController;
-    id parentViewController;
-    id startCompletion;
 }
 
 - (void);

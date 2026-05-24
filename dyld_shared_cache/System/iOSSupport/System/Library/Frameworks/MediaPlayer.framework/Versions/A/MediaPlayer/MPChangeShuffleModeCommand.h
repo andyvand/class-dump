@@ -11,15 +11,14 @@
 @interface MPChangeShuffleModeCommand : MPRemoteCommand
 {
     NSArray *_supportedShuffleTypes;
-    long long _currentShuffleType;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)_rowexpr;
+- (id)tionComparableP;
 - (void)",R,N,V_remoteCommandCenter;
 
 // Remaining properties

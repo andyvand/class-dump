@@ -9,17 +9,15 @@
 @interface TSWPURLDragItem : TSWPDragItem
 {
     struct CGPoint _canvasDragPoint;
-    struct _NSRange _range;
 }
 
-- (id);
-- (id);
+- (id)after unknown item (in identifier list):(id)arg1 %@;
+- (id);
 - (struct CGPoint);
 - (struct _NSRange);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint canvasDragPoint; // @synthesize canvasDragPoint=_canvasDragPoint;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

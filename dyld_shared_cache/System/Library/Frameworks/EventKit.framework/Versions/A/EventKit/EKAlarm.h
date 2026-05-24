@@ -6,7 +6,7 @@
 
 #import <EventKit/EKObject.h>
 
-@class EKCalendar, EKCalendarItem, EKStructuredLocation, NSArray, NSData, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface EKAlarm : EKObject
 {
@@ -15,25 +15,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUID;
-@property(copy, nonatomic) NSDate *absoluteDate;
-@property(copy, nonatomic) NSData *bookmark;
-@property(retain, nonatomic) NSURL *bookmarkURL;
-@property(readonly, nonatomic) EKCalendarItem *calendarItemOwner;
-@property(readonly, nonatomic) EKCalendar *calendarOwner;
-@property(nonatomic, getter=isDefaultAlarm) _Bool defaultAlarm;
-@property(copy, nonatomic) NSString *emailAddress;
-@property(retain, nonatomic) NSString *externalID;
-@property(readonly, nonatomic) _Bool isAbsolute;
-@property(nonatomic) _Bool isSnoozed;
-@property(retain, nonatomic) EKAlarm *originalAlarm;
-@property(readonly, nonatomic) EKObject *owner;
-@property(nonatomic) long long proximity;
-@property(nonatomic) double relativeOffset;
-@property(copy, nonatomic) NSArray *snoozedAlarms;
-@property(copy, nonatomic) NSString *soundName; // @synthesize soundName=_soundName;
-@property(copy, nonatomic) EKStructuredLocation *structuredLocation;
 @property(nonatomic) long long type;
-@property(copy, nonatomic) NSURL *url;
 @end
 

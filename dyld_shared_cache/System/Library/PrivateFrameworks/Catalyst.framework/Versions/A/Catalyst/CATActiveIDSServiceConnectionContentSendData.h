@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface CATActiveIDSServiceConnectionContentSendData
 {
     struct _NSRange mSegmentRange;
-    NSData *mUnderlyingDataSegment;
-    NSNumber *_sequenceNumber;
-    unsigned long long _dataNumber;
-    unsigned long long _segmentNumber;
-    unsigned long long _totalSegments;
 }
 
 + (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)erOfEmbeddingMatchedAssets"b1"totalNumberOfMetadataMatchedAssets"b1"assetEstimationOffAmount"b1"assetsRetrieved"b1"collectionsRetrieved"b1};
+- (unsigned long long)tachmentTypes"b1"countNgramMatchInAttachmentTypes"b1"countUnigramPrefixMatchInAttachmentTypes"b1"countBigramPrefixMatchInAttachmentTypes"b1"countNgramPrefixMatchInAttachmentTypes"b1"countUnigramMatchInAttachmentNames"b1"countBigramMatchInAttachmentNames"b1"countNgramMatchInAttachmentNames"b1"countUnigramPrefixMatchInAttachmentNames"b1"countBigramPrefixMatchInAttachmentNames"b1"countNgramPrefixMatchInAttachmentNames"b1};
 - (id);
 - (long long);
 - (void);
-- (id)thIdentifier: /* Error: Ran out of types for this method. */;
+- (id)cancelInvitationWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, nonatomic) unsigned long long dataNumber; // @synthesize dataNumber=_dataNumber;
-@property(readonly, copy, nonatomic) NSData *dataSegment;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) unsigned long long segmentNumber; // @synthesize segmentNumber=_segmentNumber;
 @property(readonly, nonatomic) NSNumber *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly, nonatomic) unsigned long long totalSegments; // @synthesize totalSegments=_totalSegments;
 
 @end
 

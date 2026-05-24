@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSValue;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface SCNUIBindableView
 {
     NSObject *observer;
-    NSString *observedKeyPath;
-    id target;
-    SEL action;
-    NSValue *_value;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)d8;
+- (id)-;
 - (SEL);
 - (void)6;
 - (void)1.f;
@@ -615,9 +611,7 @@ __attribute__((visibility("hidden")))
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action;
 @property(nonatomic) __weak id target; // @synthesize target;
-@property(readonly, nonatomic) NSValue *value; // @synthesize value=_value;
 
 @end
 

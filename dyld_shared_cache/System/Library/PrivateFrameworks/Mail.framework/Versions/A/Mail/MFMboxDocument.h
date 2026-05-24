@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDateFormatter, NSMutableSet, NSString;
-@protocol MCMailAccount, MCMailbox;
+@class NSData, NSMutableSet;
 
 @interface MFMboxDocument
 {
     NSMutableSet *_uniqueStrings;
-    NSData *_fromSpace;
-    NSData *_space;
-    NSData *_newline;
-    NSData *_headersSeparator;
-    NSDateFormatter *_ctimeDateFormatter;
-    NSData *_mboxData;
-    NSData *_newlineFromSpace;
-    unsigned long long _fromSpaceStaticLength;
-    NSArray *_messagesToExport;
-    CDStruct_a3227609 _fromSpaceRegularExpression;
 }
 
 + (_Bool);
@@ -28,21 +17,24 @@
 - (void);
 - (id);
 - (void);
+- (void)j
+J,
+
+*;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (CDStruct_a3227609);
+- (CDStruct_d5ae6b26)(;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)qA;
 - (id);
 - (id);
 - (id);
@@ -55,8 +47,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)stopSpeaking: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -66,9 +58,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)ilboxName: /* Error: Ran out of types for this method. */;
-- (void)bitemDidAppearAtURL:(id *)arg1;
-- (void)DStatement;
+- (void)actionWithID:toCreateMailbox:mailboxName: /* Error: Ran out of types for this method. */;
+- (void)presentedSubitemDidAppearAtURL:(id *)arg1;
+- (void)conversationIDForRowIDStatement;
 - (_Bool);
 - (void);
 - (void)kie!;
@@ -76,32 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MCMailAccount> account;
-@property(readonly, nonatomic) _Bool canCompact;
-@property(readonly, nonatomic) NSDateFormatter *ctimeDateFormatter; // @synthesize ctimeDateFormatter=_ctimeDateFormatter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @property(readonly, copy, nonatomic) NSData *fromSpace; // @synthesize fromSpace=_fromSpace;
-@property(readonly, nonatomic) CDStruct_a3227609 fromSpaceRegularExpression; // @synthesize fromSpaceRegularExpression=_fromSpaceRegularExpression;
-@property(readonly, nonatomic) unsigned long long fromSpaceStaticLength; // @synthesize fromSpaceStaticLength=_fromSpaceStaticLength;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *headersSeparator; // @synthesize headersSeparator=_headersSeparator;
-@property(readonly) _Bool isReadOnly;
-@property(readonly, nonatomic) id <MCMailbox> mailbox;
-@property(readonly, copy, nonatomic) NSData *mboxData; // @synthesize mboxData=_mboxData;
-@property(readonly, copy, nonatomic) NSArray *messagesForImporter;
-@property(readonly, copy, nonatomic) NSArray *messagesToExport; // @synthesize messagesToExport=_messagesToExport;
-@property(readonly, copy, nonatomic) NSData *newline; // @synthesize newline=_newline;
-@property(readonly, copy, nonatomic) NSData *newlineFromSpace; // @synthesize newlineFromSpace=_newlineFromSpace;
-@property(readonly, copy, nonatomic) NSData *space; // @synthesize space=_space;
-@property(readonly) Class superclass;
 
 @end
 

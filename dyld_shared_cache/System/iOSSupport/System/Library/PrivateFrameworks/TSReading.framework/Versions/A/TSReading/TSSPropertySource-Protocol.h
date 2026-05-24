@@ -5,5 +5,7 @@
 //
 
 @protocol TSSPropertySource
+- (int);
+- (double)NMPCPlaybackSessionManagerErrorCode;
 @end
 

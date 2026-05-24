@@ -6,19 +6,16 @@
 
 #import <QuartzCore/CAAnimation.h>
 
-@class CAValueFunction, NSString;
+@class NSString;
 
 @interface CAPropertyAnimation : CAAnimation
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
-@property(getter=isAdditive) _Bool additive;
-@property(getter=isCumulative) _Bool cumulative;
 @property(copy) NSString *keyPath;
-@property(retain) CAValueFunction *valueFunction;
 
 @end
 

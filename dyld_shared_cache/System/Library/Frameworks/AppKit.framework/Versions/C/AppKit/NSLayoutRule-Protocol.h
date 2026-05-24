@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, NSString;
 
 @protocol NSLayoutRule
-- (NSString *)ns;
+- (NSArray *)c2ZyLSF00uEyREloINiqVA;
+- (NSString *)NSCGSDockNotifications;
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSString *ruleDescription;
 @end
 

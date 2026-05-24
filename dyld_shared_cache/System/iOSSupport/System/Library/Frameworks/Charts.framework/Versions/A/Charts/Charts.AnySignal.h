@@ -8,8 +8,6 @@
 {
     id isValid;
     id someInputHasChanged;
-    id sources;
-    id targets;
 }
 
 @end

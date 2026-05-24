@@ -6,14 +6,11 @@
 
 #import <AudioServerDriver/ASDDSPItemInfo.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface ASDDSPGraphInfo : ASDDSPItemInfo
 {
     NSString *_path;
-    NSString *_text;
-    NSArray *_includePaths;
-    NSDictionary *_substitutions;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)NSt3__114default_deleteIN4siri12dialogengine14VariableObjectEEE;
 - (void);
 - (_Bool);
 - (id);
@@ -30,10 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *includePaths; // @synthesize includePaths=_includePaths;
 @property(copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(copy, nonatomic) NSDictionary *substitutions; // @synthesize substitutions=_substitutions;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

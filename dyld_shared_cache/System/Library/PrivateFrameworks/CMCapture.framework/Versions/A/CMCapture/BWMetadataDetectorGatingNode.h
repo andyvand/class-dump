@@ -6,30 +6,12 @@
 
 #import <CMCapture/BWFanOutNode.h>
 
-@class BWMetadataDetectorGatingOutputController, BWNodeOutput, BWPixelBufferPool, BWSceneStabilityMonitor, NSMutableArray, NSObject, NSString;
-@protocol BWMetadataDetectedResultsObserver, OS_dispatch_group;
+@class BWNodeOutput;
 
 __attribute__((visibility("hidden")))
 @interface BWMetadataDetectorGatingNode : BWFanOutNode
 {
     BWNodeOutput *_mrcOutput;
-    BWNodeOutput *_appClipCodeOutput;
-    BWNodeOutput *_textLocalizationOutput;
-    BWMetadataDetectorGatingOutputController *_mrcOutputController;
-    BWMetadataDetectorGatingOutputController *_appClipCodeOutputController;
-    BWMetadataDetectorGatingOutputController *_textLocalizationOutputController;
-    NSMutableArray *_outputControllers;
-    _Bool _lowPowerModeEnabled;
-    NSObject<OS_dispatch_group> *_detectorsAvailableGroup;
-    _Bool _needsSynchronization;
-    struct OpaqueVTPixelTransferSession *_transferSession;
-    BWPixelBufferPool *_outputBufferPool;
-    CDStruct_79c71658 _outputBufferPoolDimensions;
-    struct os_unfair_lock_s _sceneLock;
-    struct BWSmartCameraScene _qrCodeScene;
-    struct BWSmartCameraScene _appClipCodeScene;
-    struct BWSmartCameraScene _textScene;
-    BWSceneStabilityMonitor *_sceneStabilityMonitor;
 }
 
 + (void)ingBufferForStabilizedTrajectoryHomographies:] /* Error: Ran out of types for this method. */;
@@ -52,19 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeOutput *appClipCodeOutput; // @synthesize appClipCodeOutput=_appClipCodeOutput;
-@property(readonly, nonatomic) id <BWMetadataDetectedResultsObserver> appClipCodeResultsObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) BWNodeOutput *mrcOutput; // @synthesize mrcOutput=_mrcOutput;
-@property(readonly, nonatomic) id <BWMetadataDetectedResultsObserver> mrcResultsObserver;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) BWNodeOutput *textLocalizationOutput; // @synthesize textLocalizationOutput=_textLocalizationOutput;
-@property(readonly, nonatomic) id <BWMetadataDetectedResultsObserver> textLocalizationResultsObserver;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PhotosUICore.WallpaperItemListManager
 {
     id parentItemListManager;
-    id libraryFilterStateObservation;
-    id libraryFilterViewMode;
-    id isFeaturedContentAllowed;
-    id photoLibrary;
 }
 
 - (void);

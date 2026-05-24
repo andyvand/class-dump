@@ -5,7 +5,96 @@
 //
 
 @protocol HMDWACScanner
-- (void)Dispatcher:notificationCenter:metricsEventDispatcher:targetDevice:dataSource:delegate: /* Error: Ran out of types for this method. */;
-- (void)leNotificationPayload;
+- (void)+ diff3 * pix3.rgb + diff4 * pix4.rgb + diff5 * pix5.rgb + diff6 * pix6.rgb + diff7 * pix7.rgb,
+diff1 + diff2 + diff3 + diff4 + diff5 + diff6 + diff7);
+}
+kernel vec4 bilateralAdd_7(sampler src, sampler sums, float slope, vec2 offset1, vec2 offset2, vec2 offset3, vec2 offset4,
+vec2 offset5, vec2 offset6, vec2 offset7, vec4 weight1, vec3 weight2, float sumWeight)
+{
+vec4 sum;
+sum = sample(sums, samplerCoord(sums))*sumWeight;
+return sum + bilateralRow_7(src, slope, offset1, offset2, offset3, offset4, offset5, offset6, offset7, weight1, weight2);
+}
+vec4 bilateralRow_8(sampler src, float slope, vec2 offset1, vec2 offset2, vec2 offset3, vec2 offset4, vec2 offset5, vec2 offset6,
+vec2 offset7, vec2 offset8, vec4 weight1, vec4 weight2)
+{
+float diff1, diff2, diff3, diff4, diff5, diff6, diff7, diff8;
+vec2 coord;
+vec4 pix1, pix2, pix3, pix4, pix5, pix6, pix7, pix8, center;
+coord = destCoord();
+center = sample(src, samplerCoord(src));
+pix1 = sample(src, samplerTransform(src, coord + offset1));
+pix2 = sample(src, samplerTransform(src, coord + offset2));
+pix3 = sample(src, samplerTransform(src, coord + offset3));
+pix4 = sample(src, samplerTransform(src, coord + offset4));
+pix5 = sample(src, samplerTransform(src, coord + offset5));
+pix6 = sample(src, samplerTransform(src, coord + offset6));
+pix7 = sample(src, samplerTransform(src, coord + offset7));
+pix8 = sample(src, samplerTransform(src, coord + offset8));
+diff1 = luminanceWeight(pix1, center, slope) * weight1.x;
+diff2 = luminanceWeight(pix2, center, slope) * weight1.y;
+diff3 = luminanceWeight(pix3, center, slope) * weight1.z;
+diff4 = luminanceWeight(pix4, center, slope) * weight1.w;
+diff5 = luminanceWeight(pix5, center, slope) * weight2.x;
+diff6 = luminanceWeight(pix6, center, slope) * weight2.y;
+diff7 = luminanceWeight(pix7, center, slope) * weight2.z;
+diff8 = luminanceWeight(pix8, center, slope) * weight2.w;
+return vec4(diff1 * pix1.rgb + diff2 * pix2.rgb + diff3 * pix3.rgb + diff4 * pix4.rgb + diff5 * pix5.rgb + diff6 * pix6.rgb + diff7 * pix7.rgb + diff8 * pix8.rgb,
+diff1 + diff2 + diff3 + diff4 + diff5 + diff6 + diff7 + diff8);
+}
+kernel vec4 bilateralAdd_8(sampler src, sampler sums, float slope, vec2 offset1, vec2 offset2, vec2 offset3, vec2 offset4, vec2 offset5,
+vec2 offset6, vec2 offset7, vec2 offset8, vec4 weight1, vec4 weight2, float sumWeight)
+{
+vec4 sum;
+sum = sample(sums, samplerCoord(sums))*sumWeight;
+return sum + bilateralRow_8(src, slope, offset1, offset2, offset3, offset4, offset5, offset6, offset7, offset8, weight1, weight2);
+}
+vec4 bilateralRow_9(sampler src, float slope, vec2 offset1, vec2 offset2, vec2 offset3, vec2 offset4, vec2 offset5, vec2 offset6, vec2 offset7,
+vec2 offset8, vec2 offset9, vec4 weight1, vec4 weight2, float weight3)
+{
+float diff1, diff2, diff3, diff4, diff5, diff6, diff7, diff8, diff9;
+vec2 coord;
+vec4 pix1, pix2, pix3, pix4, pix5, pix6, pix7, pix8, pix9, center;
+coord = destCoord();
+center = sample(src, samplerCoord(src));
+pix1 = sample(src, samplerTransform(src, coord + offset1));
+pix2 = sample(src, samplerTransform(src, coord + offset2));
+pix3 = sample(src, samplerTransform(src, coord + offset3));
+pix4 = sample(src, samplerTransform(src, coord + offset4));
+pix5 = sample(src, samplerTransform(src, coord + offset5));
+pix6 = sample(src, samplerTransform(src, coord + offset6));
+pix7 = sample(src, samplerTransform(src, coord + offset7));
+pix8 = sample(src, samplerTransform(src, coord + offset8));
+pix9 = sample(src, samplerTransform(src, coord + offset9));
+diff1 = luminanceWeight(pix1, center, slope) * weight1.x;
+diff2 = luminanceWeight(pix2, center, slope) * weight1.y;
+diff3 = luminanceWeight(pix3, center, slope) * weight1.z;
+diff4 = luminanceWeight(pix4, center, slope) * weight1.w;
+diff5 = luminanceWeight(pix5, center, slope) * weight2.x;
+diff6 = luminanceWeight(pix6, center, slope) * weight2.y;
+diff7 = luminanceWeight(pix7, center, slope) * weight2.z;
+diff8 = luminanceWeight(pix8, center, slope) * weight2.w;
+diff9 = luminanceWeight(pix9, center, slope) * weight3;
+return vec4(diff1 * pix1.rgb + diff2 * pix2.rgb + diff3 * pix3.rgb + diff4 * pix4.rgb + diff5 * pix5.rgb + diff6 * pix6.rgb + diff7 * pix7.rgb + diff8 * pix8.rgb + diff9 * pix9.rgb,
+diff1 + diff2 + diff3 + diff4 + diff5 + diff6 + diff7 + diff8 + diff9);
+}
+kernel vec4 bilateralAdd_9(sampler src, sampler sums, float slope, vec2 offset1, vec2 offset2, vec2 offset3, vec2 offset4, vec2 offset5,
+vec2 offset6, vec2 offset7, vec2 offset8, vec2 offset9, vec4 weight1, vec4 weight2, float weight3, float sumWeight)
+{
+vec4 sum;
+sum = sample(sums, samplerCoord(sums))*sumWeight;
+return sum + bilateralRow_9(src, slope, offset1, offset2, offset3, offset4, offset5, offset6, offset7, offset8, offset9,
+weight1, weight2, weight3);
+}
+kernel vec4 bilateralFinalize(sampler sums)
+{
+vec4 sum;
+sum = sample(sums, samplerCoord(sums));
+return vec4(sum.rgb / max(sum.a, 0.001), 1.0);
+}
+
+;
+- (void)initWithMessageTargetUUID:messageDispatcher:notificationCenter:metricsEventDispatcher:targetDevice:dataSource:delegate: /* Error: Ran out of types for this method. */;
+- (void)actionSetsDisableNotificationPayload;
 @end
 

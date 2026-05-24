@@ -11,7 +11,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ne_isPictureInPictureActive;
 @property(readonly, nonatomic) _Bool ne_isPictureInPicturePossible;
 @end
 

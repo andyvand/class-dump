@@ -5,6 +5,7 @@
 //
 
 @protocol _UIFeedbackPlayer_Internal
-- (_Bool)tsMessage;
+- (void);
+- (_Bool)_noResultsMessage;
 @end
 

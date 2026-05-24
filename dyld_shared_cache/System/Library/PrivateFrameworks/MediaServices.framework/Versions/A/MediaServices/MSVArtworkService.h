@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSXPCConnection;
+@class NSOperationQueue;
 
 @interface MSVArtworkService
 {
     NSOperationQueue *_serviceThrottlingOperationQueue;
-    NSOperationQueue *_serviceColorAnalysisOperationQueue;
-    NSXPCConnection *_serverConnection;
 }
 
 + (id);
@@ -18,17 +16,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *serverConnection; // @synthesize serverConnection=_serverConnection;
-@property(retain, nonatomic) NSOperationQueue *serviceColorAnalysisOperationQueue; // @synthesize serviceColorAnalysisOperationQueue=_serviceColorAnalysisOperationQueue;
 @property(retain, nonatomic) NSOperationQueue *serviceThrottlingOperationQueue; // @synthesize serviceThrottlingOperationQueue=_serviceThrottlingOperationQueue;
 
 @end

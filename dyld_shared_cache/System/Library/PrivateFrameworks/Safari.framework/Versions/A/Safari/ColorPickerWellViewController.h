@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ColorPickerCollectionViewController, ColorPickerWell, NSArray;
-@protocol ColorPickerWellViewControllerDelegate;
+@class ColorPickerCollectionViewController;
 
 __attribute__((visibility("hidden")))
 @interface ColorPickerWellViewController
 {
     ColorPickerCollectionViewController *_colorPickerCollectionViewController;
-    NSArray *_colors;
-    long long _selectedIndex;
-    ColorPickerWell *_colorWell;
-    NSArray *_colorOptions;
-    id <ColorPickerWellViewControllerDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (long long);
-- (id);
+- (id)ens:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *colorOptions; // @synthesize colorOptions=_colorOptions;
-@property(nonatomic) __weak id <ColorPickerWellViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
 
 @end

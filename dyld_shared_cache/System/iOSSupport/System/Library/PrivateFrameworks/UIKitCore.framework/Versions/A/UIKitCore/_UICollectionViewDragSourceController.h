@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSString, UICollectionView, UIDragInteraction, _UICollectionViewDragAndDropController, _UICollectionViewDragSourceControllerDragState, _UICollectionViewDragSourceControllerSessionState;
-@protocol UIDragSession;
+@class UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewDragSourceController
 {
     UICollectionView *_collectionView;
-    UIDragInteraction *_dragInteraction;
-    _UICollectionViewDragAndDropController *_delegate;
-    _UICollectionViewDragSourceControllerSessionState *_sessionState;
-    _UICollectionViewDragSourceControllerDragState *_dragState;
 }
 
 + (id)Ä·þ;
 - (void);
 - (id);
-- (void);
+- (void)__DATA_CONST;
 - (id);
-- (long long);
+- (long long)hPreventMove:(id)arg1 withPreventAppSheet:(id)arg2 withSMIMEEnabled:withSMIMESigningEnabled:withSMIMESigningCertificateUUID:withSMIMEEncryptionEnabled:withSMIMEEncryptionCertificateUUID:withSMIMEEnablePerMessageSwitch:withDisableMailRecentsSyncing:withAllowMailDrop:withIncomingMailServerIMAPPathPrefix:withIncomingCredentials:withOutgoingCredentials:withSMIMESigningOverrideable:withSMIMESigningCertificateUUIDOverrideable:withSMIMEEncryptByDefault:withSMIMEEncryptByDefaultOverrideable:withSMIMEEncryptionCertificateUUIDOverrideable:withSMIMEEnableEncryptionPerMessageSwitch: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)isEnablingCloudLibraryDestructive;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void)!@ù1c°1Â0@ù
@@ -39,22 +34,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long)t"b1"pagingUp"b1"pagingDown"b1"lastHorizontalDirection"b1"lastVerticalDirection"b1"dontScrollToTop"b1"scrollingToTop"b1"scrollingDirectionalPress"b1"singleFingerPan"b1"autoscrolling"b1"automaticContentOffsetAdjustmentDisabled"b1"animateAutomaticContentOffsetAdjustments"b1"skipStartOffsetAdjustment"b1"delegateScrollViewDidScroll"b1"delegateScrollViewDidZoom"b1"delegateContentSizeForZoomScale"b1"delegateScrollViewDidChangeContentSize"b1"delegateScrollViewDidChangeAdjustedContentInset"b1"delegateWasNonNil"b1"preserveCenterDuringRotation"b1"delaysTrackingWhileDecelerating"b1"avoidJumpOnInterruptedBounceWithDelayedTrackingWhileDecelerating"b1"pinnedZoomMin"b1"pinnedXMin"b1"pinnedYMin"b1"pinnedXMax"b1"pinnedYMax"b1"staysCenteredDuringPinch"b1"wasDelayingPinchForSystemGestures"b1"disableContentOffsetRounding"b1"alwaysDisableContentOffsetRounding"b1"adjustedDecelerationTargetX"b1"adjustedDecelerationTargetY"b1"hasScrolled"b1"wantsConstrainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
 - (id)32@0:8@16B24B28 /* Error: Ran out of types for this method. */;
-- (void);
-- (void)orRightSide: /* Error: Ran out of types for this method. */;
-- (id)tyForPosition: /* Error: Ran out of types for this method. */;
-- (void)tFieldViewControllerViewLeftConstraint;
-- (id)onalSelectionInsets:(id)arg1;
-- (_Bool)tSearch;
+- (void)setBarFrame:(id)arg1;
+- (void)edgeMaskImageForRightSide: /* Error: Ran out of types for this method. */;
+- (id)affinityForPosition: /* Error: Ran out of types for this method. */;
+- (void)_textFieldViewControllerViewLeftConstraint;
+- (id)_setAdditionalSelectionInsets:(id)arg1;
+- (_Bool)_highlightedDocumentBeforeSubsequentSearch;
 - (void)h;
 - (id);
 - (id)FocusSystem;
 - (_Bool)rverInteraction",&,N,V_appearanceObserverInteraction;
 - (void)mpletion;
-- (void)SwipeGestureRecognizer;
-- (void)vailableSpace:(id)arg1;
+- (void)barHideOnSwipeGestureRecognizer;
+- (void)_computeSizesForAvailableSpace:(id)arg1;
 - (id)sories:(id)arg1;
-- (void)ation2:(id)arg1;
-- (void)UIFocusEffectManager;
+- (void)_addAnimation2:(id)arg1;
+- (void)_UIFocusEffectManager;
 - (id)0òódù;
 - (long long)¸;
 - (void)ow setDelegate:(id)arg1 ] no longer supports non-UIViewControllers. The delegate should always be the window's rootViewController. Window:(id)arg2 %@, delegate:(unsigned long long)arg3 %@;
@@ -66,16 +61,16 @@ __attribute__((visibility("hidden")))
 - (id)policy cache:Failed to find the container path for Safari. /* Error: Ran out of types for this method. */;
 - (void)(%@) that is not a windowScene;
 - (_Bool)ngInteractionEvents];
-- (id)ess_FIELD_SEARCH_TERMS;
-- (void)trolDelete;
-- (_Bool)ne;
+- (id)Address_FIELD_SEARCH_TERMS;
+- (void)controlDelete;
+- (_Bool)UIKBKeyInteractionTypeUnderline;
 - (void)is unavailable.;
 - (id)LOCK call stacks;
-- (void)BehaviorOutsideWindow;
+- (void)DiffableDataSourceSnapshotApplyBehaviorOutsideWindow;
 - (_Bool)KeyWindow;
-- (id)ntentGuide;
+- (id)UIViewReadableContentGuide;
 - (void)þ;
-- (void)istMetricsCellMetrics;
+- (void)CoreListMetricsCellMetrics;
 - (id);
 - (void)Â];
 - (long long)¸JÿMê;
@@ -85,23 +80,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, nonatomic) long long currentSessionItemCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak _UICollectionViewDragAndDropController *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSIndexPath *dragFromIndexPath;
-@property(readonly, nonatomic) NSArray *dragFromIndexPaths;
-@property(nonatomic) __weak UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(readonly, nonatomic) _Bool dragItemsCreatedForReordering;
-@property(readonly, nonatomic) id <UIDragSession> dragSession;
-@property(retain, nonatomic) _UICollectionViewDragSourceControllerDragState *dragState; // @synthesize dragState=_dragState;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isActive;
-@property(retain, nonatomic) _UICollectionViewDragSourceControllerSessionState *sessionState; // @synthesize sessionState=_sessionState;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,9 @@
 @protocol SLDataTimelineProcessWindows;
 
 @protocol SLDataTimelineProcess
+- (id <SLDataTimelineProcessWindows>)instructionCount;
 
 // Remaining properties
 @property(readonly, nonatomic) int pid;
-@property(readonly, nonatomic) id <SLDataTimelineProcessWindows> windowData;
 @end
 

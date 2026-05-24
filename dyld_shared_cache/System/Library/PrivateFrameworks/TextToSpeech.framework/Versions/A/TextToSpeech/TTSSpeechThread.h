@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPort, NSRunLoop;
+@class NSObject, NSPort;
 @protocol OS_voucher;
 
 @interface TTSSpeechThread
 {
     NSPort *_machPort;
-    NSRunLoop *_threadRunLoop;
-    NSObject<OS_voucher> *_voucher;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

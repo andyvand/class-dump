@@ -7,7 +7,6 @@
 @interface AppleMediaServicesUI.AddFundsModel
 {
     id _clientInfo;
-    id _metricsOverlay;
 }
 
 @end

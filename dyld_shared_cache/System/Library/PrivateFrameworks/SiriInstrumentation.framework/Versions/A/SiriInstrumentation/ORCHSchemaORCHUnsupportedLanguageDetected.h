@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHUnsupportedLanguageDetected : SISchemaInstrumentationMessage
 {
     int _languageDetected;
-    struct {
-        unsigned int languageDetected:1;
-    } _has;
 }
 
 - (void);
@@ -22,19 +17,17 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)on service:(id)arg1 %@  limit:%lld  (Results:%ld) /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ñÝ1Â0@ù
 × ;
-- (id)tampRefId;
+- (id)_eventGeneratedTimestampRefId;
 - (id)SchemaQDEntitiesRanked",&,N,V_entitiesRanked;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLanguageDetected;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int languageDetected; // @synthesize languageDetected=_languageDetected;
 
 @end

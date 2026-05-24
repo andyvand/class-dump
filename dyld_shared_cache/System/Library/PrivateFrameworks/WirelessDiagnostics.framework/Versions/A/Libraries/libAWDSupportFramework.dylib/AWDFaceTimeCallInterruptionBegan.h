@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallInterruptionBegan
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    unsigned int _isAudioInterrupted;
-    unsigned int _isVideo;
-    unsigned int _isVideoInterrupted;
-    int _linkQuality;
-    unsigned int _onLockScreen;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int isAudioInterrupted:1;
-        unsigned int isVideo:1;
-        unsigned int isVideoInterrupted:1;
-        unsigned int linkQuality:1;
-        unsigned int onLockScreen:1;
-    } _has;
 }
 
 - (void);
@@ -36,7 +20,7 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (_Bool);
+- (_Bool)T);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,7 +28,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -64,20 +48,7 @@
 - (void)±Ùÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsAudioInterrupted;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasIsVideoInterrupted;
-@property(nonatomic) _Bool hasLinkQuality;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isAudioInterrupted; // @synthesize isAudioInterrupted=_isAudioInterrupted;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int isVideoInterrupted; // @synthesize isVideoInterrupted=_isVideoInterrupted;
-@property(nonatomic) int linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -7,6 +7,6 @@
 @class HVConsumerReply, HVConsumptionContext;
 
 @protocol HVUserActivityConsumer
-- (HVConsumerReply *)me:(HVConsumptionContext *)arg1 allowedServerInterface:allowedClientInterface:requestHandler:validateConnection:setupClientProxy:interruptionHandler:invalidationHandler: /* Error: Ran out of types for this method. */;
+- (HVConsumerReply *)shouldAcceptConnection:(HVConsumptionContext *)arg1 serviceName:allowedServerInterface:allowedClientInterface:requestHandler:validateConnection:setupClientProxy:interruptionHandler:invalidationHandler: /* Error: Ran out of types for this method. */;
 @end
 

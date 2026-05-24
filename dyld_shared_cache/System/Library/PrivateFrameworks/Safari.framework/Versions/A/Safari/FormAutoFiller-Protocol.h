@@ -5,5 +5,7 @@
 //
 
 @protocol FormAutoFiller
+- (void);
+- (void);
 @end
 

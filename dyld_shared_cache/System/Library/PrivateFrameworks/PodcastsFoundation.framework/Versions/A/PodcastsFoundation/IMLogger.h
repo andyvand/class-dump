@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSRegularExpression, NSString;
+@class NSString;
 
 @interface IMLogger
 {
     NSString *_auxPath;
-    NSFileHandle *_fileHandle;
-    NSString *_filter;
-    NSString *_runtimeOverride;
-    int _pid;
-    NSString *_procName;
-    _Bool _logTofileOnly;
-    NSRegularExpression *_runtimeOverrideRegex;
 }
 
-+ (void);
-+ (void);
++ (void);
++ (void);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)h8?kA;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,7 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filter; // @synthesize filter=_filter;
-@property(copy) NSString *runtimeOverride; // @synthesize runtimeOverride=_runtimeOverride;
 
 @end
 

@@ -4,39 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEODirectionsFeedback
 {
     PBDataReader *_reader;
-    NSMutableArray *_alightNotificationFeedbacks;
-    NSData *_directionResponseID;
-    NSMutableArray *_guidanceFeedbacks;
-    NSMutableArray *_modalitys;
-    NSMutableArray *_stepFeedbacks;
-    NSMutableArray *_trafficRerouteFeedbacks;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isCarplayConnected;
-    struct {
-        unsigned int has_isCarplayConnected:1;
-        unsigned int read_alightNotificationFeedbacks:1;
-        unsigned int read_directionResponseID:1;
-        unsigned int read_guidanceFeedbacks:1;
-        unsigned int read_modalitys:1;
-        unsigned int read_stepFeedbacks:1;
-        unsigned int read_trafficRerouteFeedbacks:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
++ (Class)SessionTask"24;
++ (Class)untry;
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)rFirstQueryToken:(id)arg1;
++ (_Bool)setHasPrefixTokenIsNumberFirstQueryToken:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -49,36 +29,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tactsPersistence.framework/Versions/A/ContactsPersistence;
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)@"NSXPCConnection"16;
+- (_Bool)URLSession:task:didCompleteWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)untsCache;
+- (unsigned long long)_CNACAccountStaticProvider;
+- (id)_CNACAccountStoreBasedProvider;
+- (id)CNTaskTimeProfileLogging;
 - (id);
-- (id);
-- (id);
+- (void)servableWithResult: /* Error: Ran out of types for this method. */;
+- (void)k was requested to be performed off the main thread, but scheduler %{public}@ is performing on the main thread;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)undation;
+- (void)ciated classes;
+- (unsigned long long)ic Falkland Islands;
+- (id)d Islands;
+- (id)Ethiopia;
+- (void);
+- (void)[;
 - (void);
 - (void);
 - (id);
+- (_Bool)!;
+- (id);
 - (void);
+- (void)setIsTimerPlayingOnAccessory:(id)arg1 isTimerPlaying: /* Error: Ran out of types for this method. */;
+- (id)e stopAudioStreamWithOutError:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)#;
 - (void);
 - (void);
 - (unsigned long long);
@@ -87,21 +67,13 @@
 - (id);
 - (void);
 - (id)setHasDistanceFromDeviceLocation:(struct _NSZone *)arg1;
-- (id)esourceTile;
-- (id)_PRECISE;
+- (id)GEORegionalResourceTile;
+- (id)LOCATION_TYPE_PRECISE;
 - (id)H0;
 - (void)ìê;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *alightNotificationFeedbacks;
-@property(retain, nonatomic) NSData *directionResponseID;
-@property(retain, nonatomic) NSMutableArray *guidanceFeedbacks;
 @property(readonly, nonatomic) _Bool hasDirectionResponseID;
-@property(nonatomic) _Bool hasIsCarplayConnected;
-@property(nonatomic) _Bool isCarplayConnected;
-@property(retain, nonatomic) NSMutableArray *modalitys;
-@property(retain, nonatomic) NSMutableArray *stepFeedbacks;
-@property(retain, nonatomic) NSMutableArray *trafficRerouteFeedbacks;
 
 @end
 

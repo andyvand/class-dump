@@ -4,113 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MIPSmartPlaylistInfo
 {
     unsigned int _evaluationOrder;
-    int _limitKind;
-    unsigned int _limitOrder;
-    unsigned int _limitValue;
-    NSData *_smartCriteria;
-    _Bool _dynamic;
-    _Bool _enabledItemsOnly;
-    _Bool _filtered;
-    _Bool _genius;
-    _Bool _limited;
-    _Bool _reverseLimitOrder;
-    struct {
-        unsigned int evaluationOrder:1;
-        unsigned int limitKind:1;
-        unsigned int limitOrder:1;
-        unsigned int limitValue:1;
-        unsigned int dynamic:1;
-        unsigned int enabledItemsOnly:1;
-        unsigned int filtered:1;
-        unsigned int genius:1;
-        unsigned int limited:1;
-        unsigned int reverseLimitOrder:1;
-    } _has;
 }
 
+- (id)Tq,N,V_resetCloudLibraryMode;
+- (void)loudNameSource;
+- (void)ximumDistance;
+- (void)=},R,&,N,V_intersectedCollectionIds;
+- (void)sectedAssetIds;
+- (void){__CFArray=},R,&,N,V_intersectedAssetIds;
+- (void)type;
+- (void)eTier;
+- (void)tCount;
+- (void)berOfResults;
+- (void)iguationType;
+- (void)egory;
+- (void)TQ,R,N,V_categoriesType;
+- (void)chSize;
+- (void)chedTotalNumberOfIndexedAssets;
+- (void)m;
+- (void)ackIndex;
+- (_Bool)sArea;
+- (unsigned int),R,V_migrationContext;
+- (int)T@"PLMigrationContext",R,V_migrationContext;
+- (_Bool)SString",R,N,V_cplTaskIdentifier;
+- (_Bool)ng",R,N;
+- (_Bool)isEnumeratingDirectoryPostOrder;
+- (_Bool),V_reason;
+- (_Bool)isEmpty;
+- (_Bool)pgradeClient;
+- (_Bool)g",C,N,Vuuid;
+- (_Bool)initWithSuggestionTemplate:firstGroup:secondGroup:dateLastUsed: /* Error: Ran out of types for this method. */;
+- (_Bool)_sex;
+- (_Bool)initWithPlaceInfosForOrderType: /* Error: Ran out of types for this method. */;
+- (_Bool)e",&,N,V_ALAssetsGroupFilterPredicate;
+- (void)_assumeNoExistingResources;
+- (unsigned int)vorite;
+- (_Bool)setPostDelayedSaveActionsReply: /* Error: Ran out of types for this method. */;
+- (_Bool),V_photosEntityStore;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned int);
-- (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void));
 - (unsigned long long);
 - (unsigned int);
+- (_Bool)initWithWeekDayRules:(id)arg1;
+- (void)HMAccessoryResetUARPDeviceMessage;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)setCurrentValue:(struct _NSZone *)arg1;
 - (id);
 - (void)ù
 × ;
 - (void)ECT name_order FROM sort_map WHERE name = IFNULL(album_artist.sort_album_artist, ML3SortString(album_artist.album_artist))), 0), sort_order_section = IFNULL((SELECT name_section FROM sort_map WHERE name = IFNULL(album_artist.sort_album_artist, ML3SortString(album_artist.album_artist))), 0), name_order = IFNULL((SELECT name_order FROM sort_map WHERE name = IFNULL(album_artist.album_artist, '')), 0);
 
 // Remaining properties
-@property(nonatomic) _Bool dynamic; // @synthesize dynamic=_dynamic;
-@property(nonatomic) _Bool enabledItemsOnly; // @synthesize enabledItemsOnly=_enabledItemsOnly;
-@property(nonatomic) unsigned int evaluationOrder; // @synthesize evaluationOrder=_evaluationOrder;
-@property(nonatomic) _Bool filtered; // @synthesize filtered=_filtered;
-@property(nonatomic) _Bool genius; // @synthesize genius=_genius;
 @property(nonatomic) _Bool hasDynamic;
-@property(nonatomic) _Bool hasEnabledItemsOnly;
-@property(nonatomic) _Bool hasEvaluationOrder;
-@property(nonatomic) _Bool hasFiltered;
-@property(nonatomic) _Bool hasGenius;
-@property(nonatomic) _Bool hasLimitKind;
-@property(nonatomic) _Bool hasLimitOrder;
-@property(nonatomic) _Bool hasLimitValue;
-@property(nonatomic) _Bool hasLimited;
-@property(nonatomic) _Bool hasReverseLimitOrder;
-@property(readonly, nonatomic) _Bool hasSmartCriteria;
-@property(nonatomic) int limitKind; // @synthesize limitKind=_limitKind;
-@property(nonatomic) unsigned int limitOrder; // @synthesize limitOrder=_limitOrder;
-@property(nonatomic) unsigned int limitValue; // @synthesize limitValue=_limitValue;
-@property(nonatomic) _Bool limited; // @synthesize limited=_limited;
-@property(nonatomic) _Bool reverseLimitOrder; // @synthesize reverseLimitOrder=_reverseLimitOrder;
-@property(retain, nonatomic) NSData *smartCriteria; // @synthesize smartCriteria=_smartCriteria;
 
 @end
 

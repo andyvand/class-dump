@@ -6,18 +6,12 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString, SCContentSharingPicker, SCContentSharingPickerConfiguration;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, VCScreenCapturePickerDelegate;
+@class SCContentSharingPicker;
 
 __attribute__((visibility("hidden")))
 @interface VCScreenCapturePicker : VCObject
 {
     SCContentSharingPicker *_picker;
-    id <VCScreenCapturePickerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_semaphore> *_pickerUpdateSemaphore;
-    _Bool _active;
-    SCContentSharingPickerConfiguration *_pickerConfiguration;
 }
 
 - (void);
@@ -34,19 +28,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool)calFrameHeight;
+- (id)";
+- (_Bool)LocalFrameHeight;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SCContentSharingPickerConfiguration *pickerConfiguration; // @synthesize pickerConfiguration=_pickerConfiguration;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,12 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (UIView *)keWithInk:(UIScrollView *)arg1 rollAngleDelta: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)protoSupportedHandleType;
+- (void)_ObjCLivePhotoAttachmentInfoWrapper;
+- (void);
+- (void);
+- (UIView *)recordStrokeWithInk:(UIScrollView *)arg1 rollAngleDelta: /* Error: Ran out of types for this method. */;
 - (void);
 @end
 

@@ -12,31 +12,28 @@ __attribute__((visibility("hidden")))
 @interface CKTranscriptAbstractLabelCell : CKTranscriptCell
 {
     _Bool _wantsContactImageLayout;
-    _Bool _wantsOffsetForReplyLine;
 }
 
 + (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ableNote>"44@0:8@"NSString"16@"NSAttributedString"24B32^@36 /* Error: Ran out of types for this method. */;
+- (_Bool)"NSMutableIndexSet";
+- (_Bool)QQ}40q56;
+- (void)modelForStyleAttributes:(_Bool)arg1 filterAttributes:pasteboardAttributedString: /* Error: Ran out of types for this method. */;
+- (void)migrateNote:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)tG;
 - (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_setWantsUnderlineForAccessibilityButtonShapesEnabled:(struct CGRect)arg1;
+- (id)ckShouldUpdatewhatsNewFeatureViewTitleLabelFont;
 - (void)SgtGGANGANGtGGG;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText;
-@property(nonatomic) _Bool wantsContactImageLayout; // @synthesize wantsContactImageLayout=_wantsContactImageLayout;
-@property(nonatomic) _Bool wantsOffsetForReplyLine; // @synthesize wantsOffsetForReplyLine=_wantsOffsetForReplyLine;
 
 @end
 

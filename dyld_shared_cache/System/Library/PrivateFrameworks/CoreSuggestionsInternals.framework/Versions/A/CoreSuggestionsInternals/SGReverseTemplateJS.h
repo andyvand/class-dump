@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSContext, JSVirtualMachine, NSISO8601DateFormatter, NSMutableArray, NSObject, NSString, NSURL, SGReverseTemplatesJSDataDetectors, _PASNotificationToken;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class JSVirtualMachine;
 
 @interface SGReverseTemplateJS
 {
     JSVirtualMachine *_jsVM;
-    NSMutableArray *_memoryMappedFiles;
-    NSMutableArray *_memoryMappedFileNames;
-    JSContext *_jsContext;
-    SGReverseTemplatesJSDataDetectors *_dd;
-    _PASNotificationToken *_assetUpdateToken;
-    NSURL *_assetPath;
-    NSString *_localeIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_memoryPressureQueue;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    NSISO8601DateFormatter *_dateFormatter;
 }
 
 + (id);
@@ -43,24 +31,24 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)eworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (id)G;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)__objc_classname__TEXT;
 - (void);
 - (id);
 - (id);

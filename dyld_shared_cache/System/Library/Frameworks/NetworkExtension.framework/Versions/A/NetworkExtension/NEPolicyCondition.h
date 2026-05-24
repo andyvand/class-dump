@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, NWAddressEndpoint;
-
 @interface NEPolicyCondition
 {
     _Bool _negative;
-    _Bool _exactMatch;
-    unsigned char _prefix;
-    unsigned char _localNetworksFlags;
-    unsigned short _ipProtocol;
-    unsigned short _packetFilterTags;
-    unsigned short _schemePort;
-    int _pid;
-    int _pid_version;
-    unsigned int _uid;
-    unsigned int _domainFilter;
-    unsigned int _interfaceFlags;
-    unsigned int _interfaceEflags;
-    unsigned int _interfaceXflags;
-    unsigned int _trafficClassStart;
-    unsigned int _trafficClassEnd;
-    unsigned int _clientFlags;
-    unsigned int _platform;
-    unsigned int _sdkVersion;
-    unsigned int _minSDKVersion;
-    long long _conditionType;
-    NSUUID *_applicationUUID;
-    NSString *_accountIdentifier;
-    NSString *_domain;
-    NSString *_url;
-    NSString *_interfaceName;
-    NWAddressEndpoint *_startAddress;
-    NWAddressEndpoint *_endAddress;
-    NSString *_customEntitlement;
-    NSString *_agentDomain;
-    NSString *_agentType;
-    NSString *_signingIdentifier;
 }
 
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)ession][serverHandleIncomingData] max packet size from client is:(id)arg1 0x%x.
+;
++ (id)O;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)TI,N,V_requestedErrorCode;
++ (id);
++ (id)padding:(unsigned short)arg1 %u;
 + (id);
 + (id);
 + (id);
@@ -54,6 +40,8 @@
 + (id);
 + (id);
 + (id);
++ (id)_startStatsTimer;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -61,34 +49,14 @@
 + (id);
 + (id);
 + (id);
++ (id)9*?;
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)der;
++ (id)NEFilterPacketProvider;
 + (id)/æÿ;
 - (id);
 - (id);
@@ -97,14 +65,12 @@
 - (_Bool);
 - (void);
 - (void)ngs"24@?<v@?@"NSError">32;
-- (_Bool)ithUTF8String: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithUTF8String: /* Error: Ran out of types for this method. */;
 - (long long)NERelay;
 - (id);
 
 // Remaining properties
 @property long long conditionType; // @synthesize conditionType=_conditionType;
-@property _Bool exactMatch; // @synthesize exactMatch=_exactMatch;
-@property(getter=isNegative) _Bool negative; // @synthesize negative=_negative;
 
 @end
 

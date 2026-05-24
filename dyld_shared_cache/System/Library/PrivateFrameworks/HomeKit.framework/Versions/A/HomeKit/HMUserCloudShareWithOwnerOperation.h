@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKShare, HMUser, NSObject, NSString, NSUUID;
+@class NSObject, NSUUID;
 @protocol OS_os_log;
 
 @interface HMUserCloudShareWithOwnerOperation
 {
     NSObject<OS_os_log> *_logger;
-    _Bool _allowWriteAccess;
-    CDUnknownBlockType _completion;
-    NSUUID *_operationID;
-    HMUser *_currentUser;
-    HMUser *_ownerUser;
-    CKShare *_share;
-    CKContainer *_container;
-    CDUnknownBlockType _analyticsEventSender;
 }
 
-+ (id)essCodeValue;
++ (id)accessCodeValue;
 - (void);
 - (void);
-- (id);
+- (id)^8
+;
 - (id);
 - (void);
 - (_Bool);
@@ -31,32 +24,18 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id);
+- (void)~;
+- (id)neologist;
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (id)loudAvailableINTAsString: /* Error: Ran out of types for this method. */;
-- (void)eleteAfterExecutionPolicy;
+- (id)iCloudAvailableINTAsString: /* Error: Ran out of types for this method. */;
+- (void)HMTriggerDeleteAfterExecutionPolicy;
 - (id)»!êÍ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowWriteAccess; // @synthesize allowWriteAccess=_allowWriteAccess;
-@property(readonly) CDUnknownBlockType analyticsEventSender; // @synthesize analyticsEventSender=_analyticsEventSender;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) HMUser *currentUser; // @synthesize currentUser=_currentUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSUUID *operationID; // @synthesize operationID=_operationID;
-@property(readonly, nonatomic) HMUser *ownerUser; // @synthesize ownerUser=_ownerUser;
-@property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(readonly) Class superclass;
 
 @end
 

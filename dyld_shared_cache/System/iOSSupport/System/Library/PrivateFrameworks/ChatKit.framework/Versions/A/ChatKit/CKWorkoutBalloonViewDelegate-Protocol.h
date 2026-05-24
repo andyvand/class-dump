@@ -5,5 +5,6 @@
 //
 
 @protocol CKWorkoutBalloonViewDelegate
+- (void)WKUIDelegate;
 @end
 

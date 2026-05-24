@@ -23,7 +23,7 @@
 + (id);
 + (id);
 + (vector_9651d273);
-+ (vector_926a3350);
++ (vector_4858b34d);
 + (void);
 + (id);
 + (id);
@@ -58,7 +58,7 @@
 + (id);
 + (id);
 + (vector_9651d273);
-+ (vector_9651d273);
++ (vector_9651d273);
 + (vector_9651d273);
 + (double);
 + (struct CGRect);
@@ -66,7 +66,8 @@
 + (struct CGRect);
 + (double);
 + (vector_9651d273);
-+ (struct CGRect);
++ (struct CGRect)JB
+H;
 
 @end
 

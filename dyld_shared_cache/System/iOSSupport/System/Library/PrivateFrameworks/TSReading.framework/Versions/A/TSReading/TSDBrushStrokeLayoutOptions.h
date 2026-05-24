@@ -9,13 +9,11 @@
 @interface TSDBrushStrokeLayoutOptions
 {
     NSArray *_patternOffsetsBySubpath;
-    NSArray *_transparencyLayersBySubpath;
-    double _strokeEnd;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)ateFrameworks/AssistantServices.framework/AssistantServices;
 - (void);
 - (double);
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *patternOffsetsBySubpath; // @synthesize patternOffsetsBySubpath=_patternOffsetsBySubpath;
-@property(nonatomic) double strokeEnd; // @synthesize strokeEnd=_strokeEnd;
-@property(copy, nonatomic) NSArray *transparencyLayersBySubpath; // @synthesize transparencyLayersBySubpath=_transparencyLayersBySubpath;
 
 @end
 

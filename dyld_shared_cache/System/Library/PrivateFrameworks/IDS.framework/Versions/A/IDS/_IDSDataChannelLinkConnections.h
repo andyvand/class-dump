@@ -9,7 +9,6 @@
 @interface _IDSDataChannelLinkConnections
 {
     _IDSDataChannelLinkConnection *_udp;
-    _IDSDataChannelLinkConnection *_qpod;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(retain) _IDSDataChannelLinkConnection *qpod; // @synthesize qpod=_qpod;
 @property(retain) _IDSDataChannelLinkConnection *udp; // @synthesize udp=_udp;
 
 @end

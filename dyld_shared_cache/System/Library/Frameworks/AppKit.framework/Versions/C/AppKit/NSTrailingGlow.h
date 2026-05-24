@@ -6,23 +6,13 @@
 
 #import <AppKit/NSView.h>
 
-@class CAShapeLayer, NSColor, NSString, TUIGlowEffect;
+@class NSColor;
 @protocol NSTrailingGlowDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTrailingGlow : NSView
 {
     NSColor *_glowColor;
-    double _minOpacity;
-    double _maxOpacity;
-    double _trailOpacity;
-    CAShapeLayer *_shapeLayer;
-    TUIGlowEffect *_glowEffect;
-    struct CGRect _previousIndicatorFrame;
-    _Bool _needsToUpdateAnimation;
-    _Bool _reverseDirection;
-    id <NSTrailingGlowDelegate> _delegate;
-    CDUnknownBlockType _transitionBlock;
 }
 
 + (void);
@@ -31,33 +21,25 @@ __attribute__((visibility("hidden")))
 × ;
 + (_Bool)qâ3ð1Â0@ù
 × ;
-- (_Bool);
-- (void);
+- (_Bool)cr;
+- (void)Sources/MobileGestalt/libMobileGestalt/MGIOMFBSupport.c;
 - (struct CGPath *);
 - (_Bool);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_shouldSkipPreferredClientCertificateLookup;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)etSelectedContentFrame:(struct CGRect)arg1 options: /* Error: Ran out of types for this method. */;
-- (_Bool)B20AA1257E16D4018E27D921D92487C833TextFormattingListStylesMenuItems;
-- (void)ousPreparationAssertMainThread;
+- (void)initWithIndexes:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (id)setSelectedContentFrame:(struct CGRect)arg1 options: /* Error: Ran out of types for this method. */;
+- (_Bool)_TtC6AppKitP33_B20AA1257E16D4018E27D921D92487C833TextFormattingListStylesMenuItems;
+- (void)_NSAsynchronousPreparationAssertMainThread;
 - (void)¡Øo@;
 - (void)Ì³ÛÿäXó E;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <NSTrailingGlowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType transitionBlock; // @synthesize transitionBlock=_transitionBlock;
 
 @end
 

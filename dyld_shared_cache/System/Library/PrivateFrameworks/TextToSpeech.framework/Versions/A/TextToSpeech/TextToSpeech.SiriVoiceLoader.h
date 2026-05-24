@@ -7,9 +7,6 @@
 @interface TextToSpeech.SiriVoiceLoader
 {
     id $__lazy_storage_$_queue;
-    id technology;
-    id type;
-    id priority;
 }
 
 @end

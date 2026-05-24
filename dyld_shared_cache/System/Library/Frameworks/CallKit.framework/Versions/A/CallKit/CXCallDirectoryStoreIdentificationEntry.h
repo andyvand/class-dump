@@ -9,18 +9,16 @@
 @interface CXCallDirectoryStoreIdentificationEntry
 {
     NSString *_extensionBundleIdentifier;
-    NSString *_localizedLabel;
 }
 
-- (void);
-- (void);
+- (void)bilities = %i%i%i >;
+- (void)once update and measuring blessed system recoveryOS policies;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(copy, nonatomic) NSString *localizedLabel; // @synthesize localizedLabel=_localizedLabel;
 
 @end
 

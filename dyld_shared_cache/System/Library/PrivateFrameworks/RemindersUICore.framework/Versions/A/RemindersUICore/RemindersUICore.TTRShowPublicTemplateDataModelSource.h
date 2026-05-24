@@ -9,11 +9,6 @@
 @interface RemindersUICore.TTRShowPublicTemplateDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id listRepresentation;
-    id fallbackProperties;
-    id store;
-    id publicTemplateObjectID;
-    id dataViewMonitor;
 }
 
 @end

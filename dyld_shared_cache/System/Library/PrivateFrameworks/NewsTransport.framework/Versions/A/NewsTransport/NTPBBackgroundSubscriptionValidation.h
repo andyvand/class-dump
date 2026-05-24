@@ -9,19 +9,13 @@
 @interface NTPBBackgroundSubscriptionValidation
 {
     NSString *_errorCode;
-    NSString *_errorMessage;
-    int _resultType;
-    NSString *_sourceChannelId;
-    struct {
-        unsigned int resultType:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id)removeObserver:name:object: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)OOL _isSuggestion(MapsSuggestionsEntry *__strong);
 - (id);
 - (void);
 - (_Bool);
@@ -30,25 +24,18 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id)om/analyticseventsv2/async;
+- (_Bool)40;
 - (id);
 - (id);
 - (void);
 - (int);
-- (void)ChannelId;
+- (void)hasNotificationSourceChannelId;
 - (void)V_widgetEventImmediateUploadPopulationFloor;
 - (id)¤-×ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(readonly, nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorMessage;
 @property(nonatomic) _Bool hasResultType;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

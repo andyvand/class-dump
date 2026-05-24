@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetBinarySettingIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)v@?B>32;
++ (int)operationWithThumbnailRequest:(long long)arg1;
++ (long long)isEqualToFormat:(int)arg1;
++ (_Bool)initWithSize:(long long)arg1 scale:representationTypes: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool);
 - (long long);
 - (void);
 - (void);
@@ -28,26 +26,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)removeObjectsInArray:(id)arg1;
 - (long long);
 - (id);
-- (void);
+- (void)N:(id)arg1 Added %lu new scan results to cache for interface %@ (total:%lu) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (long long)ipientUnsupportedReason: /* Error: Ran out of types for this method. */;
+- (long long)StringAsShareETAIntentRecipientUnsupportedReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *errorDetail;
-@property(readonly) unsigned long long hash;
-@property long long oldValue;
-@property(readonly) Class superclass;
-@property long long updatedValue;
 
 @end
 

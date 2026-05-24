@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MUContentViewControllerLiveTextProtocol
+- (_Bool)J;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool liveTextActiveTextSelectionExists;
-@property(nonatomic) _Bool liveTextEnabled;
-@property(nonatomic) _Bool liveTextVisualSearchEnabled;
-@property(readonly, nonatomic) NSString *visualSearchInfoButtonFilledGlyphName;
-@property(readonly, nonatomic) NSString *visualSearchInfoButtonGlyphName;
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVHapticClient, NSArray, NSMutableArray;
+@class AVHapticClient;
 
 @interface AVHapticPlayer
 {
     AVHapticClient *_client;
-    _Bool _resourcesAllocated;
-    unsigned long long _behavior;
-    NSMutableArray *_channelArray;
-    CDUnknownBlockType _connectionErrorHandler;
-    CDUnknownBlockType _stopRunningHandler;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)regularTicketQuantity;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -34,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,7 +40,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -62,14 +57,14 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)ightTplIfEEiEELNS_10GallicTypeE4EEEEENS_3FstIS8_EEEE;
+- (unsigned long long);
 - (id);
 - (double);
 - (id);
@@ -77,14 +72,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long behavior; // @synthesize behavior=_behavior;
-@property(readonly, nonatomic) NSArray *channels;
 @property(readonly) AVHapticClient *client; // @synthesize client=_client;
-@property(copy) CDUnknownBlockType connectionErrorHandler;
-@property(readonly) double currentMediaTime;
-@property(readonly) double hapticLatency;
-@property(readonly) _Bool resourcesAllocated; // @synthesize resourcesAllocated=_resourcesAllocated;
-@property(copy) CDUnknownBlockType stopRunningHandler; // @synthesize stopRunningHandler=_stopRunningHandler;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSObject;
-@protocol OS_dispatch_queue;
+@class CKContainer;
 
 @interface IMSyndicationUtilities
 {
@@ -26,7 +25,6 @@
 - (void)0.ÿÿJnÿÿ,.ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *attributionFetchQueue;
 @property(retain, nonatomic) CKContainer *ckContainer; // @synthesize ckContainer=_ckContainer;
 
 @end

@@ -8,11 +8,6 @@
 {
     id connection;
     id serverStartupToken;
-    id queue;
-    id calloutQueue;
-    id queue_alarmObservers;
-    id queue_observedAlarms;
-    id queue_isSubscribedToAlarmUpdates;
 }
 
 - (void);

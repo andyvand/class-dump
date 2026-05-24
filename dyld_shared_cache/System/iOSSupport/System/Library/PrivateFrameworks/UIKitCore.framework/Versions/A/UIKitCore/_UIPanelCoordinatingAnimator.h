@@ -6,34 +6,30 @@
 
 #import <UIKitCore/UIViewPropertyAnimator.h>
 
-@class NSMutableArray, NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPanelCoordinatingAnimator : UIViewPropertyAnimator
 {
     _Bool _wasCancelled;
-    _Bool _isInStartAnimation;
-    NSMutableArray *_clientCompletions;
-    NSMutableArray *_lateAnimations;
-    UIView *_containerView;
 }
 
 - (void);
 - (id);
 - (void);
 - (void)nnot animate deleted cell because it already has an animation. Updates:(long long)arg1 %@; Cell:(_Bool)arg2 %@;
-- (void)ityIndicatorViewStyleStatusBarLockScreenSync;
+- (void)UIActivityIndicatorViewStyleStatusBarLockScreenSync;
 - (long long)6@?0@8;
-- (_Bool)uration;
+- (_Bool)contentUnavailableConfiguration;
 - (double)¬;
-- (id)iffCtcSg;
+- (id)yxG_xSo14BSSettingsDiffCtcSg;
 - (_Bool);
 - (struct CGAffineTransform);
 - (_Bool)0;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)ion;
+- (_Bool)_UIReducedLaunchSceneConnectionOptionDefinition;
 - (void)à[;
 - (_Bool)R)ÒÂ[;
 - (id)¨«\;
@@ -43,25 +39,7 @@ __attribute__((visibility("hidden")))
 - (long long)Ø^;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
 @property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration;
 
 @end
 

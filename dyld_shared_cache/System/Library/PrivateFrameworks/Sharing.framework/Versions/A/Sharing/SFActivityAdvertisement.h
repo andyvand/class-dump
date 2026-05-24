@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFPeerDevice;
-
 @interface SFActivityAdvertisement
 {
     long long _advertisementVersion;
-    NSData *_advertisementPayload;
-    NSDictionary *_options;
-    SFPeerDevice *_device;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)=;
+- (void)@;
 - (id);
 - (void)Q;
 
 // Remaining properties
-@property(readonly, copy) NSData *advertisementPayload; // @synthesize advertisementPayload=_advertisementPayload;
 @property(readonly) long long advertisementVersion; // @synthesize advertisementVersion=_advertisementVersion;
-@property(readonly, retain) SFPeerDevice *device; // @synthesize device=_device;
-@property(readonly, copy) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

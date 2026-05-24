@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
-
 @interface MCFileWrapper
 {
     _Bool _isRemoteAttachment;
-    NSString *_contentID;
-    NSString *_mimeType;
-    NSArray *_whereFroms;
-    NSDate *_dateSent;
-    NSDate *_dateReceived;
-    NSString *_senderName;
-    NSString *_senderEmailAddress;
-    NSArray *_recipientNames;
-    NSArray *_recipientEmailAddress;
-    NSString *_messageID;
-    unsigned long long _imageBytes;
-    struct CGSize _imageSize;
 }
 
-+ (id);
++ (id);
 
 @end
 

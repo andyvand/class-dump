@@ -18,20 +18,8 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *applicationData;
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *historicalBytes;
 @property(readonly, copy, nonatomic) NSData *identifier;
 @property(readonly, retain, nonatomic) NSString *initialSelectedAID;
-@property(readonly, nonatomic) _Bool proprietaryApplicationDataCoding;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsPACE;
 
 @end
 

@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (NSString *)vettingPhone;
+- (unsigned long long)$;
+- (_Bool)`;
+- (_Bool)dismissPictureInPictureByRestoringToRect:(Class)arg1 inWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct _NSZone *);
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

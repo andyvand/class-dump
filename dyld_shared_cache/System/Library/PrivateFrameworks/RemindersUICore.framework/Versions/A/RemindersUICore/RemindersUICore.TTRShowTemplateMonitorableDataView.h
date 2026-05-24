@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRShowTemplateMonitorableDataView
 {
     id template;
-    id sortingStyle;
 }
 
 @end

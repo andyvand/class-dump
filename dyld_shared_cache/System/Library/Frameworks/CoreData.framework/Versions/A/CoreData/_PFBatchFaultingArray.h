@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCachingFetchRequest, NSManagedObjectContext, NSString, _PFArray;
-
 __attribute__((visibility("hidden")))
 @interface _PFBatchFaultingArray
 {
     int _cd_rc;
-    unsigned int _count;
-    _PFArray *_array;
-    unsigned int *_entryFlags;
-    NSManagedObjectContext *_moc;
-    NSCachingFetchRequest *_request;
-    unsigned int _batchSize;
-    unsigned int *_LRUBatches;
-    struct _PFBatchFaultingArrayFlags _flags;
 }
 
 + (void)t an unhandled exception.;
@@ -25,54 +15,48 @@ __attribute__((visibility("hidden")))
 + (_Bool)not using a cascade delete rule .;
 + (Class)der.;
 + (id)Àî÷ÿ;
-- (unsigned long long);
+- (unsigned long long)_;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (Class);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (Class)a;
+- (id)ǀ;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
+- (id)m;
+- (void);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id)addClientToken:(id)arg1 forAccountIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)\;
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)readBigEndianFixed32;
 - (id)roperties.
 ;
 - (unsigned long long)it.activity.export;
 - (id)±È;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,57 +6,38 @@
 
 #import <OSAnalytics/OSAReport.h>
 
-@class NSMutableArray, NSSet, NSString;
+@class NSString;
 
 @interface OSAJetsamReport : OSAReport
 {
     NSString *_largestProcess;
-    NSString *_largestActiveApp;
-    NSMutableArray *_killedActiveApps;
-    unsigned long long _wiredBytes;
-    unsigned int _killed_or_suspended_count;
-    _Bool _isSuspendedOnlyJetsam;
-    struct jetsam_snapshot *_snapshot;
-    NSString *_event_reason;
-    unsigned long long _event_code;
-    _Bool _aleFlag;
-    NSSet *_visibilityEndowmentState;
-    NSSet *_audioAssertionState;
-    NSMutableArray *_zones;
-    NSMutableArray *_tags;
 }
 
-+ (int);
-+ (struct jetsam_snapshot *);
++ (int)ollView",&,D;
++ (struct jetsam_snapshot *)&,N,V_wrappedImage;
 + (long long);
-- (void);
-- (void);
+- (void)RoundedSections;
+- (void)N,V_runViewSource;
+- (id)tButton",&,N,V_leadingTextButton;
+- (unsigned long long)ceView",&,V_unempasizedSelectionHaloView;
+- (void)ueView",&,D,N;
+- (_Bool)xilliaryTextView",&,D;
+- (void)T@"SearchUIWatchListState",&,V_state;
+- (void)stState",&,N,V_watchListState;
+- (void)Manager",&,N,V_manager;
+- (void)tionView",W,N,V_cardSectionView;
 - (id);
-- (unsigned long long);
-- (void);
+- (void)E;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
+- (id)<;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_quickTypePredictionWithTrigger:(_Bool)arg1 searchContext:(CDUnknownBlockType)arg2 timeoutInMilliseconds:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

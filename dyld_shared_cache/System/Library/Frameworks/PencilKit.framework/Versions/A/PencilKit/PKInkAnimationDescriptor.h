@@ -7,7 +7,6 @@
 @interface PKInkAnimationDescriptor
 {
     double _duration;
-    double _sizeDelta;
 }
 
 - (double);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double sizeDelta; // @synthesize sizeDelta=_sizeDelta;
 
 @end
 

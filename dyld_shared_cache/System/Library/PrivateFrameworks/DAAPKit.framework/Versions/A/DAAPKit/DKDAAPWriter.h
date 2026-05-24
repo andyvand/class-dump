@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSOutputStream;
+@class NSOutputStream;
 
 @interface DKDAAPWriter
 {
     unsigned long long _state;
-    NSError *_error;
-    NSOutputStream *_outputStream;
-    NSMutableArray *_containerStack;
 }
 
 - (void);
@@ -37,13 +34,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)T@"SPBeaconManager",&,V_beaconManager;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *containerStack; // @synthesize containerStack=_containerStack;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

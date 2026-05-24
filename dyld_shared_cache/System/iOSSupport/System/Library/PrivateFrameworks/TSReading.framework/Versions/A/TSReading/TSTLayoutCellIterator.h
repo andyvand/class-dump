@@ -6,26 +6,17 @@
 
 #import <TSReading/TSTCellIterator.h>
 
-@class TSTCell, TSTMasterLayout, TSTTableModel;
+@class TSTMasterLayout;
 
 @interface TSTLayoutCellIterator : TSTCellIterator
 {
     TSTMasterLayout *mMasterLayout;
-    CDStruct_5f1f7aa9 mLayoutRange;
-    CDStruct_0441cfb5 mLayoutCellID;
-    TSTCell *mLayoutCell;
-    CDStruct_6188ab8e mModelIteratorData;
-    _Bool mQueriedModel;
-    _Bool mModelIteratorHasCell;
-    unsigned short mNumberOfLayoutColumns;
-    unsigned short mNumberOfColumns;
-    unsigned short mNumberOfRows;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)UserActions;
+- (id)InternalPlayerActions;
+- (id)CoordinatorActions;
 - (id);
 - (id);
 - (id);
@@ -34,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) TSTMasterLayout *masterLayout; // @synthesize masterLayout=mMasterLayout;
-@property(readonly, nonatomic) TSTTableModel *tableModel;
 
 @end
 

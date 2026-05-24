@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface MKPlaceActionDataProvider
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)apple.energybudgetingdebug.queryPowerlog;
+- (_Bool)energy;
 - (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canShowCallAction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInSupportedCustomRouteRegion;
-@property(readonly, nonatomic) NSURL *messagesForBusinessURL;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAddingPhotos;
 @property(readonly, nonatomic) _Bool supportsMessagesForBusiness;
 
 @end

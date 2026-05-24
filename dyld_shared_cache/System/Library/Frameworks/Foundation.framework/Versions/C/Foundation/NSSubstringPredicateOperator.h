@@ -13,7 +13,7 @@
 
 + (_Bool)t call %s in %@;
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);

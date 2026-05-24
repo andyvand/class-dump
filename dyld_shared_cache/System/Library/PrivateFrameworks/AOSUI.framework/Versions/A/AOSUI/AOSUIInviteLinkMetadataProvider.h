@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface AOSUIInviteLinkMetadataProvider
 {
     AAMessagesInviteContext *_context;
-    unsigned long long _inviteType;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)¡ò!ÌGùQY1Â0@ù

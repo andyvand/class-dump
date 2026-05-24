@@ -7,7 +7,6 @@
 @protocol MTLMotionEstimationPipeline
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long textureHeight;
 @property(readonly, nonatomic) unsigned long long textureWidth;
 @end
 

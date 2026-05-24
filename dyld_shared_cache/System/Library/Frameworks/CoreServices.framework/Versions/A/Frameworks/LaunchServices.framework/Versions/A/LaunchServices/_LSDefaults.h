@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableDictionary, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _LSDefaults
 {
     NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSURL *_baseSystemContainerURL;
-    NSURL *_systemContainerURL;
-    NSURL *_systemGroupContainerURL;
-    NSData *_hmacSecret;
-    NSMutableDictionary *_darwinNotificationNames;
-    unsigned int _darwinNotificationNamesUID;
-    struct os_unfair_lock_s _darwinNotificationNamesLock;
-    _Bool _inSyncBubble;
-    _Bool _inXCTestRigInsecure;
-    _Bool _appleInternal;
-    _Bool _isServer;
-    _Bool _hasServer;
-    _Bool _allowClientSideDatabaseCreation;
-    _Bool _inEducationMode;
-    _Bool _hasPersistentPreferences;
-    _Bool _usingEphemeralStorage;
-    long long _currentDisplayGamut;
-    _Bool _isLightweightSystemServer;
 }
 
 + (id)DL;
@@ -38,26 +20,26 @@
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (_Bool);
+- (id)<;
+- (_Bool);
+- (long long)l;
+- (id);
+- (id),;
+- (id)g_viewIcNS_11char_traitsIcEEEERbEEEEUliSA_SB_E_SC_EE;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -71,7 +53,7 @@
 - (unsigned int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)8 ;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -87,58 +69,19 @@
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)ndex %lu) is not a MTL4BinaryFunction.;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)Bytes: /* Error: Ran out of types for this method. */;
-- (_Bool)resolve_applicationState;
+- (_Bool)trustedCDHashesWithContext:tableID:unitID:unitBytes: /* Error: Ran out of types for this method. */;
+- (_Bool)_LSRecord_resolve_applicationState;
 - (void);
 - (id)%@), source %@>;
 
 // Remaining properties
-@property(readonly) NSData *HMACSecret;
-@property(readonly, nonatomic) _Bool abortIfMayNotMapDatabase;
-@property(readonly) _Bool allowClientSideDatabaseCreation; // @synthesize allowClientSideDatabaseCreation=_allowClientSideDatabaseCreation;
-@property(readonly, nonatomic) _Bool allowsAlternateIcons;
-@property(readonly) _Bool alwaysUseDebugOpenWithMenus; // @dynamic alwaysUseDebugOpenWithMenus;
-@property(readonly, nonatomic, getter=isAppleInternal) _Bool appleInternal; // @synthesize appleInternal=_appleInternal;
-@property(readonly) long long concurrentInstallOperations;
 @property(readonly) unsigned int currentSchemaVersion;
-@property(readonly) NSURL *databaseContainerDirectoryURL;
-@property(readonly) double databaseSaveInterval;
-@property(readonly) double databaseSaveLatency;
-@property(readonly) unsigned short databaseStoreFileMode;
-@property(readonly) NSURL *databaseStoreFileURL;
-@property(readonly) NSURL *dbRemoveDBOnStartupURL;
-@property(readonly) NSURL *defaultAppQueryStateURL;
-@property(readonly) _Bool hasPersistentPreferences; // @synthesize hasPersistentPreferences=_hasPersistentPreferences;
-@property _Bool hasServer; // @synthesize hasServer=_hasServer;
-@property(readonly) NSURL *identifiersFileURL;
-@property(readonly, getter=isInEducationMode) _Bool inEducationMode; // @synthesize inEducationMode=_inEducationMode;
-@property(readonly, getter=isInSyncBubble) _Bool inSyncBubble; // @synthesize inSyncBubble=_inSyncBubble;
-@property(readonly, nonatomic, getter=isInXCTestRigInsecure) _Bool inXCTestRigInsecure; // @synthesize inXCTestRigInsecure=_inXCTestRigInsecure;
-@property(readonly, nonatomic) _Bool issueSandboxExceptionsIfMayNotMapDatabase;
-@property(getter=isLightweightSystemServer) _Bool lightweightSystemServer; // @synthesize lightweightSystemServer=_isLightweightSystemServer;
-@property(readonly) _Bool markLocalizationsStoredInDatabase; // @dynamic markLocalizationsStoredInDatabase;
-@property(readonly) _Bool nsExtensionUsesLSSettingsStore; // @dynamic nsExtensionUsesLSSettingsStore;
-@property(readonly) NSURL *preferencesFileURL;
-@property(readonly) NSArray *preferredLocalizations; // @dynamic preferredLocalizations;
-@property(readonly) NSURL *queriedSchemesMapFileURL;
-@property(readonly, getter=isRegionChina) _Bool regionChina; // @dynamic regionChina;
-@property(readonly) NSURL *securePreferencesFileURL;
-@property(getter=isServer) _Bool server; // @synthesize server=_isServer;
-@property(readonly) NSURL *settingsStoreFileURL;
-@property(readonly) NSURL *systemContainerURL;
-@property(readonly) NSURL *systemContentDatabaseStoreFileURL;
-@property(readonly) NSURL *systemGroupContainerURL;
-@property(readonly, getter=isSystemServer) _Bool systemServer; // @dynamic systemServer;
-@property(readonly, nonatomic) NSURL *trustedSignatureDatabaseURL;
-@property(readonly) NSURL *unremappableDatabaseStoreFileURL;
-@property(readonly, getter=isUserServer) _Bool userServer; // @dynamic userServer;
-@property(readonly, getter=isUsingEphemeralStorage) _Bool usingEphemeralStorage; // @synthesize usingEphemeralStorage=_usingEphemeralStorage;
 
 @end
 

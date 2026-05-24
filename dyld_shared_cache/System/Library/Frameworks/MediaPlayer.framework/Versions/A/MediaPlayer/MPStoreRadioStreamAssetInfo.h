@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRadioStreamAssetInfo, NSURL;
+@class ICStoreRadioStreamAssetInfo;
 
 @interface MPStoreRadioStreamAssetInfo
 {
     ICStoreRadioStreamAssetInfo *_internalInfo;
-    _Bool _iTunesStoreStream;
 }
 
 - (id);
@@ -21,17 +20,12 @@
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id)(;
 - (long long);
-- (void)supportedOptions;
+- (void)_supportedOptions;
 
 // Remaining properties
 @property(readonly, nonatomic) long long flavor;
-@property(nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream; // @synthesize iTunesStoreStream=_iTunesStoreStream;
-@property(readonly, copy, nonatomic) NSURL *keyCertificateURL;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL;
-@property(readonly, nonatomic) long long streamProtocol;
-@property(readonly, copy, nonatomic) NSURL *streamURL;
 
 @end
 

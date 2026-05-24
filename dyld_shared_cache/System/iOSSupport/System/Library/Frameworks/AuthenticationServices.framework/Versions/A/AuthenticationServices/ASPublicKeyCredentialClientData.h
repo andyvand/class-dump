@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface ASPublicKeyCredentialClientData
 {
     NSData *_challenge;
-    NSString *_origin;
-    NSString *_topOrigin;
-    long long _crossOrigin;
 }
 
 - (id);
@@ -19,18 +16,15 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)=;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)t message date:%@ /* Error: Ran out of types for this method. */;
+- (void)is_pending_review;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(nonatomic) long long crossOrigin; // @synthesize crossOrigin=_crossOrigin;
-@property(retain, nonatomic) NSString *origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) NSString *topOrigin; // @synthesize topOrigin=_topOrigin;
 
 @end
 

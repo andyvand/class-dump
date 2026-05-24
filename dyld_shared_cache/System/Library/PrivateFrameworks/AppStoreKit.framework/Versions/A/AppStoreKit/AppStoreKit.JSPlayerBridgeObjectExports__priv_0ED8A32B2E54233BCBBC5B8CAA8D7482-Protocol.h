@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol AppStoreKit.JSPlayerBridgeObjectExports__priv_0ED8A32B2E54233BCBBC5B8CAA8D7482
+- (_Bool)o;
+- (NSString *)f;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isUnderThirteen;
 @property(nonatomic, readonly) NSString *playerID;
 @end
 

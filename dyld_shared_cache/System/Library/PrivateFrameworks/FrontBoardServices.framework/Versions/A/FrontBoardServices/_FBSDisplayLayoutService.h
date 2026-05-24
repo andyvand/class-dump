@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, BSServiceConnectionEndpoint, BSServiceDispatchQueue, FBSDisplayLayout, NSMapTable, NSString;
+@class BSServiceConnectionEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface _FBSDisplayLayoutService
 {
     BSServiceConnectionEndpoint *_endpoint;
-    BSServiceDispatchQueue *_callOutQueue;
-    BSServiceConnection *_connection;
-    struct os_unfair_lock_s _lock;
-    NSMapTable *_lock_keyedObservers;
-    FBSDisplayLayout *_lock_layout;
-    unsigned long long _lock_layoutGeneration;
 }
 
 - (void);
@@ -26,17 +20,11 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (void);
 - (id);
-- (id);
+- (id)stringWithPeople:(id)arg1 options:(BOOL)arg2 error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

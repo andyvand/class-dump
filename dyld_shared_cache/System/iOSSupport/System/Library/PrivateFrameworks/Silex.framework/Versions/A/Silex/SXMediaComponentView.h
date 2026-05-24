@@ -6,17 +6,11 @@
 
 #import <Silex/SXComponentView.h>
 
-@class NSString, SXMediaExposureEvent;
-@protocol SXAnalyticsReporting;
+@class SXMediaExposureEvent;
 
 @interface SXMediaComponentView : SXComponentView
 {
     _Bool _isDisplayingMedia;
-    id <SXAnalyticsReporting> _analyticsReporting;
-    SXMediaExposureEvent *_mediaExposureEvent;
-    double _minimumVisibleY;
-    double _maximumVisibleY;
-    struct CGRect _visibleBounds;
 }
 
 - (void);
@@ -48,19 +42,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDisplayingMedia; // @synthesize isDisplayingMedia=_isDisplayingMedia;
-@property(nonatomic) double maximumVisibleY; // @synthesize maximumVisibleY=_maximumVisibleY;
 @property(retain, nonatomic) SXMediaExposureEvent *mediaExposureEvent; // @synthesize mediaExposureEvent=_mediaExposureEvent;
-@property(nonatomic) double minimumVisibleY; // @synthesize minimumVisibleY=_minimumVisibleY;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect visibleBounds; // @synthesize visibleBounds=_visibleBounds;
 
 @end
 

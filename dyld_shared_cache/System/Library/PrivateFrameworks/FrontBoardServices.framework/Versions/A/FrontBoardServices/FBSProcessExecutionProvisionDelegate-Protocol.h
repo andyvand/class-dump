@@ -5,5 +5,6 @@
 //
 
 @protocol FBSProcessExecutionProvisionDelegate
+- (void);
 @end
 

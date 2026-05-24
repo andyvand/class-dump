@@ -6,28 +6,21 @@
 
 #import <Photos/PHObject.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface PHCloudSharedAlbumInvitationRecord : PHObject
 {
     _Bool _isMine;
-    NSString *_cloudGUID;
-    NSString *_albumGUID;
-    NSString *_inviteeFirstName;
-    NSString *_inviteeLastName;
-    NSString *_inviteeHashedPersonID;
-    NSNumber *_invitationState;
-    NSNumber *_invitationStateLocal;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)environmentMonitorDidChangeThermalLevel: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id)ÿìÎÙ;
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (id);
@@ -43,21 +36,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)tBaseVersion: /* Error: Ran out of types for this method. */;
+- (void)setBaseVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *albumGUID; // @synthesize albumGUID=_albumGUID;
 @property(retain, nonatomic) NSString *cloudGUID; // @synthesize cloudGUID=_cloudGUID;
-@property(readonly, nonatomic) NSNumber *invitationState; // @synthesize invitationState=_invitationState;
-@property(readonly, nonatomic) NSNumber *invitationStateLocal; // @synthesize invitationStateLocal=_invitationStateLocal;
-@property(readonly, nonatomic) __weak NSString *inviteeEmail;
-@property(readonly, nonatomic) __weak NSArray *inviteeEmails;
-@property(readonly, nonatomic) NSString *inviteeFirstName; // @synthesize inviteeFirstName=_inviteeFirstName;
-@property(retain, nonatomic) NSString *inviteeHashedPersonID; // @synthesize inviteeHashedPersonID=_inviteeHashedPersonID;
-@property(readonly, nonatomic) NSString *inviteeLastName; // @synthesize inviteeLastName=_inviteeLastName;
-@property(readonly, nonatomic) __weak NSString *inviteePhone;
-@property(readonly, nonatomic) __weak NSArray *inviteePhones;
-@property(readonly, nonatomic) _Bool isMine; // @synthesize isMine=_isMine;
 
 @end
 

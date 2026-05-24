@@ -7,9 +7,6 @@
 @interface _MRRegisterForGameControllerEventsMessageProtobuf
 {
     int _inputModeFlags;
-    struct {
-        unsigned int inputModeFlags:1;
-    } _has;
 }
 
 - (void);
@@ -25,12 +22,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)MasteredVersion;
 
 // Remaining properties
 @property(nonatomic) _Bool hasInputModeFlags;
-@property(nonatomic) int inputModeFlags; // @synthesize inputModeFlags=_inputModeFlags;
 
 @end
 

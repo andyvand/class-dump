@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSQLiteConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ICSQLiteConnection;
 
 @interface ICPlayActivityTable
 {
     ICSQLiteConnection *_databaseConnection;
-    NSString *_databasePath;
-    NSObject<OS_dispatch_queue> *_serialAccessQueue;
 }
 
 + (id);
@@ -28,9 +25,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (void);
-- (void)tworkForPurchaseHistoryID:configuration:completion: /* Error: Ran out of types for this method. */;
+- (void)importItemArtworkForPurchaseHistoryID:configuration:completion: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

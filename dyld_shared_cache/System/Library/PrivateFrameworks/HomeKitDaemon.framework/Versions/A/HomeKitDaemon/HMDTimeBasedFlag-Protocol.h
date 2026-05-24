@@ -5,5 +5,8 @@
 //
 
 @protocol HMDTimeBasedFlag
+- (unsigned long long),N,V_senderRules;
+- (void)ady recorded as blocked, not expired;
+- (unsigned long long)nts, but state doesn't have routeInfo;
 @end
 

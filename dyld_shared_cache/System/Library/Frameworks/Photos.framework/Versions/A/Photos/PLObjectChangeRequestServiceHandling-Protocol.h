@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @protocol PLObjectChangeRequestServiceHandling
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
 @property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @end
 

@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATError, NSData;
-
 @interface GATSchemaGATRegisterMediaEventFailed : SISchemaInstrumentationMessage
 {
     int _errorDomain;
-    int _errorCode;
-    GATSchemaGATError *_error;
-    GATSchemaGATError *_underlyingError;
-    CDStruct_7b2c8649 _has;
-    _Bool _hasError;
-    _Bool _hasUnderlyingError;
 }
 
 - (void);
@@ -30,16 +22,16 @@
 - (id);
 - (void);
 - (void);
+- (id)booleanForKey:forType: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)@;
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (unsigned long long)eventHandlingDelegate;
+- (_Bool));
+- (void);
+- (_Bool)A;
 - (int);
 - (id);
 - (id)mberOfMobileAssetEliminates"b1"numberOfMobileAssetScans"b1"countFactoryAssetInBytes"b1"countFactoryAssets"b1"sizeInBytesPSUSAssets"b1"countPSUSAssetsMobileAsset"b1"totalBytesDownloaded"b1"totalNumberOfBytesDownloaded"b1};
@@ -52,15 +44,7 @@
 - (int)H³zÿ÷S²+;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATError *error; // @synthesize error=_error;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasUnderlyingError; // @synthesize hasUnderlyingError=_hasUnderlyingError;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) GATSchemaGATError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface SiriOntologyProtobuf.Google_Protobuf_Option._StorageClass__priv_8C6E60E2A3AE3ABFA78CA3ACB62E2EFB
 {
     id _name;
-    id _value;
 }
 
 @end

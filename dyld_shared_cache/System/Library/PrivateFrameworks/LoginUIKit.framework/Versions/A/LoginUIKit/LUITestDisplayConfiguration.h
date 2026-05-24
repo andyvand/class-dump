@@ -7,8 +7,6 @@
 @interface LUITestDisplayConfiguration
 {
     _Bool _isMainDisplay;
-    double _height;
-    double _width;
 }
 
 + (id);
@@ -16,16 +14,13 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)~;
 - (long long);
-- (double);
+- (double)B;
 - (_Bool)etionQueue:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double height; // @synthesize height=_height;
 @property(readonly) _Bool isMainDisplay; // @synthesize isMainDisplay=_isMainDisplay;
-@property(readonly) long long tag;
-@property(readonly) double width; // @synthesize width=_width;
 
 @end
 

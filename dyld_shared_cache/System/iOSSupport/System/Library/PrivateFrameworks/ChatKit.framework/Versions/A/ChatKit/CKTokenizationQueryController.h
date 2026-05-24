@@ -13,21 +13,21 @@
     NSArray *_searchTokens;
 }
 
-+ (unsigned long long);
++ (unsigned long long)e;
+- (_Bool)SString"32@0:8@"NSFilePromiseProvider"16@"NSString"24 /* Error: Ran out of types for this method. */;
+- (id)setSelectedFont:(id)arg1 isMultiple: /* Error: Ran out of types for this method. */;
+- (_Bool)parseExtendedAttribute:(id)arg1 token:markdown: /* Error: Ran out of types for this method. */;
+- (_Bool)paragraphStyleForRange:(id)arg1 inTextView:inTextStorage:ignoreTypingAttributes: /* Error: Ran out of types for this method. */;
+- (unsigned long long)attributedStringWithNSTextTablesForColumns:rows:context: /* Error: Ran out of types for this method. */;
+- (id)_finalAttachmentID;
+- (unsigned long long)ICSearchTextCheckingResult;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)y;
+- (id)a;
+- (id)eform:(id)arg1 %@;
+- (void)Creating a temporary one.;
+- (_Bool)enableEditor();
+- (void)attachment_thumb_video_camera_icon;
 - (void);
 - (id);
 - (void)}};

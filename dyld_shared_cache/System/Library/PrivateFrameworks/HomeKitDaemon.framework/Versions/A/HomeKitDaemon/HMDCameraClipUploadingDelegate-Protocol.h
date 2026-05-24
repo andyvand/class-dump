@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraClipUploadingDelegate
+- (void)nsaction;
 @end
 

@@ -6,7 +6,7 @@
 
 @interface UnknownClass (Asset)
 + (id);
-- (id);
+- (id)navigationListener:(id)arg1 didUpdateRideSelections:(id)arg2;
 - (id)ü~¤>;
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol HMDAuthServerDelegate
+- (void)Closing connection;
+- (void)isparityValue;
 @end
 

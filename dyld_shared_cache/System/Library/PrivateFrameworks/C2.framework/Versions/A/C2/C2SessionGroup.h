@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2Session, NSArray, NSString;
+@class NSString;
 
 @interface C2SessionGroup
 {
     NSString *_configurationName;
-    C2Session *_pinnedSessionAllowingExpiredDNS;
-    C2Session *_pinnedSession;
-    C2Session *_unpinnedSession;
 }
 
 - (void);
@@ -22,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)�!;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -32,11 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *configurationName; // @synthesize configurationName=_configurationName;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(retain, nonatomic) C2Session *pinnedSession; // @synthesize pinnedSession=_pinnedSession;
-@property(retain, nonatomic) C2Session *pinnedSessionAllowingExpiredDNS; // @synthesize pinnedSessionAllowingExpiredDNS=_pinnedSessionAllowingExpiredDNS;
-@property(readonly, nonatomic) NSArray *sessions;
-@property(retain, nonatomic) C2Session *unpinnedSession; // @synthesize unpinnedSession=_unpinnedSession;
 
 @end
 

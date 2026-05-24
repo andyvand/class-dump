@@ -7,12 +7,10 @@
 @interface ConversationKit.Defaults.Observation
 {
     id key;
-    id userDefault;
-    id onChange;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

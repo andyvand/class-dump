@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, _DKHistogram;
+@class NSDate;
 
 @interface _DKPredictionTimeline
 {
     NSDate *_startDate;
-    NSArray *_transitionDates;
-    _DKHistogram *_startHistogram;
-    _DKHistogram *_endHistogram;
-    NSArray *_values;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)T6;
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,16 +30,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)cached_content_type;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate;
-@property(retain, nonatomic) _DKHistogram *endHistogram; // @synthesize endHistogram=_endHistogram;
 @property(readonly, nonatomic) NSDate *startDate;
-@property(retain, nonatomic) _DKHistogram *startHistogram; // @synthesize startHistogram=_startHistogram;
-@property(readonly, nonatomic) NSArray *transitionDates;
 
 @end
 

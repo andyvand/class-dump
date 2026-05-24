@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSDictionary, NSString;
+@class NSBundle, NSDictionary;
 
 @interface IMDService
 {
     NSBundle *_bundle;
-    Class _sessionClass;
-    NSString *_internalName;
-    NSDictionary *_accountDefaults;
-    NSDictionary *_serviceDefaults;
-    NSDictionary *_serviceProperties;
-    NSDictionary *_cachedServiceDefaults;
-    NSDictionary *_cachedSetupServiceDefaults;
-    _Bool _blockPrefWriting;
-    unsigned int _idSensitivity;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)ariant;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (Class);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)a;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -51,21 +42,21 @@
 - (id);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)IntoClause;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)z;
 - (Class);
 - (id);
 - (id);
@@ -77,12 +68,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (_Bool)tifyPSYDataSent;
+- (_Bool)_notifyPSYDataSent;
 - (_Bool);
 - (long long);
 - (void);
@@ -94,49 +85,7 @@
 - (void)aData/MessageSyncZoneMetaData.db;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak Class accountClass;
-@property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) unsigned long long caseInsensitivityByHandleType;
-@property(readonly, nonatomic) _Bool chatsIgnoreLoginStatus;
-@property(readonly, nonatomic) NSDictionary *defaultAccountSettings;
-@property(readonly, nonatomic) _Bool demandsBroadcasting;
-@property(readonly, nonatomic) _Bool disallowDeactivation;
-@property(readonly, nonatomic, getter=isDiscontinued) _Bool discontinued;
-@property(readonly, nonatomic) NSString *encryptionCapability;
-@property(readonly, nonatomic) _Bool fallbackHashIsContentBased;
-@property(readonly, nonatomic) _Bool groupIDIsHistoricalIdentifier;
-@property(readonly, nonatomic) _Bool groupsMergeDisplayNames;
-@property(readonly, nonatomic) _Bool handleIDInsensitivityIsCarrierBased;
-@property(readonly, nonatomic) unsigned int idSensitivity; // @synthesize idSensitivity=_idSensitivity;
-@property(readonly, nonatomic, getter=isIDSBased) _Bool idsBased;
-@property(readonly, nonatomic) _Bool ignoresNetworkConnectivity;
-@property(readonly, nonatomic) NSString *internalName;
-@property(readonly, nonatomic) _Bool needsLogin;
-@property(readonly, nonatomic) _Bool needsPassword;
-@property(readonly, nonatomic) long long protocolVersion;
-@property(readonly, nonatomic) NSArray *relayMessageDelegates;
-@property(readonly, nonatomic) NSArray *replicationServices;
-@property(readonly, nonatomic) long long replicationSourceID;
-@property(readonly, nonatomic) long long replicationSourceIDForSending;
-@property(readonly, nonatomic) _Bool requiresHost;
-@property(readonly, nonatomic) _Bool requiresSingleAccount;
-@property(readonly, nonatomic) NSDictionary *serviceDefaults;
-@property(readonly, nonatomic) NSDictionary *serviceDefaultsForSetup;
-@property(readonly, nonatomic) NSString *serviceDomain;
 @property(retain, nonatomic) NSDictionary *serviceProperties; // @synthesize serviceProperties=_serviceProperties;
-@property(readonly, nonatomic) __weak Class sessionClass;
-@property(readonly, nonatomic) _Bool shouldBeAlwaysLoggedIn;
-@property(readonly, nonatomic) _Bool shouldCreateActiveAccounts;
-@property(readonly, nonatomic) _Bool shouldForceAccountsActive;
-@property(readonly, nonatomic) _Bool shouldForceAccountsConnected;
-@property(readonly, nonatomic) _Bool supportsAuthorization;
-@property(readonly, nonatomic) _Bool supportsDatabase;
-@property(readonly, nonatomic) _Bool supportsMutatingGroupMembers;
-@property(readonly, nonatomic) _Bool supportsOneSessionForAllAccounts;
-@property(readonly, nonatomic) _Bool supportsRegistration;
-@property(readonly, nonatomic) _Bool supportsRelay;
-@property(readonly, nonatomic) long long transcodeTarget;
-@property(readonly, nonatomic) _Bool wantsNullHostReachability;
 
 @end
 

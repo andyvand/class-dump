@@ -5,5 +5,6 @@
 //
 
 @protocol CKTranscriptPhotoStackCellDelegate
+- (void)NotesCIDURLProtocol;
 @end
 

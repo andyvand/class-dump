@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (VTReprompt)
 - (id);
 - (id);
@@ -28,7 +26,7 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)I;
 - (long long);
 - (long long);
 - (long long);
@@ -45,34 +43,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsMultiUserThresholds;
 @property(readonly, nonatomic) _Bool containsSpeakerRecognitionCategory;
-@property(readonly, nonatomic) float inRequestReferenceAudioLengthInSecs;
-@property(readonly, nonatomic) float inRequestSegmentLengthInSecs;
-@property(readonly, nonatomic) float inRequestSegmentSpkrIdScoreThreshold;
-@property(readonly, nonatomic) unsigned long long invocationUserMinAudioDurationRequired;
-@property(readonly, nonatomic) float invocationUserThreshold;
-@property(readonly, nonatomic) NSString *keywordDetectorNDAPIConfigFilePath;
-@property(readonly, nonatomic) NSString *keywordDetectorQuasarConfigFilePath;
-@property(readonly, nonatomic) unsigned long long maxAllowedEnrollmentUtterances;
-@property(readonly, nonatomic) long long multiUserConfidentScoreThreshold;
-@property(readonly, nonatomic) long long multiUserDeltaScoreThreshold;
-@property(readonly, nonatomic) long long multiUserHighScoreThreshold;
-@property(readonly, nonatomic) long long multiUserLowScoreThreshold;
-@property(readonly, nonatomic) float pruningExplicitUttThresholdPSR;
-@property(readonly, nonatomic) float pruningExplicitUttThresholdSAT;
-@property(readonly, nonatomic) unsigned long long pruningNumRetentionUtterance;
-@property(readonly, nonatomic) float pruningThresholdPSR;
-@property(readonly, nonatomic) float pruningThresholdSAT;
-@property(readonly, nonatomic) float psrCombinationWeight;
-@property(readonly, nonatomic) float satImplicitProfileDeltaThreshold;
-@property(readonly, nonatomic) float satImplicitProfileThreshold;
-@property(readonly, nonatomic) _Bool satImplicitTrainingEnabled;
-@property(readonly, nonatomic) float satScoreThreshold;
-@property(readonly, nonatomic) float satVTImplicitThreshold;
-@property(readonly, nonatomic) float snrThreshold;
-@property(readonly, nonatomic) _Bool useSpeakerRecognitionAsset;
-@property(readonly, nonatomic) _Bool useTDTIEnrollment;
-@property(readonly, nonatomic) NSString *voiceProfilePruningCookie;
 @end
 

@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface PrivacyProxyServiceStatus
 {
     unsigned long long _serviceStatus;
-    NSArray *_networkStatuses;
-    NSDictionary *_details;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)rFrameForVideo:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)if;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)ring",R,N,V_phoneticMiddleName;
 - (id);
-- (id);
+- (id)appendRangeCharacteristic:withRole: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)lay:(int)arg1;
+- (id)setFallbackDelay:(int)arg1;
 
 // Remaining properties
-@property(retain) NSDictionary *details; // @synthesize details=_details;
-@property(retain) NSArray *networkStatuses; // @synthesize networkStatuses=_networkStatuses;
 @property unsigned long long serviceStatus; // @synthesize serviceStatus=_serviceStatus;
 
 @end

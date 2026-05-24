@@ -11,7 +11,6 @@
 @interface REMListsDataViewInvocation_changeTrackingFetchByObjectIDIncludingConcealed : REMStoreInvocation
 {
     _Bool _includeMarkedForDeletionOnly;
-    NSArray *_objectIDs;
 }
 
 + (_Bool);
@@ -22,13 +21,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool includeMarkedForDeletionOnly; // @synthesize includeMarkedForDeletionOnly=_includeMarkedForDeletionOnly;
 @property(readonly, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
 
 @end

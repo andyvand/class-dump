@@ -6,51 +6,11 @@
 
 #import <SocialUI/SOChatViewController.h>
 
-@class AVAudioPlayer, AVAudioRecorder, CPKPopover, IMAccount, NSAttributedString, NSButton, NSLayoutConstraint, NSPopover, NSStackView, NSString, NSTextField, NSTextStorage, NSView, SOFlexibleScrollView, SOInputLine, SOInputLineContainer, SOInputVibrantView, SOPreviewingWaveformContainerView, SORecordingWaveformContainerView, SORecordingWaveformView;
-@protocol SOInputLineViewControllerDelegate;
+@class CPKPopover, NSStackView;
 
 @interface SOInputLineViewController : SOChatViewController
 {
     CPKPopover *_smileyPopover;
-    _Bool _delegateRespondsToInputLineTextDidChange;
-    _Bool _delegateRespondsToInputLineDidEnter;
-    _Bool _delegateRespondsToUndoManager;
-    _Bool _alwaysHideAdditionalControls;
-    _Bool _showsSmileyButton;
-    _Bool _showsEffectPickerButton;
-    _Bool _showAudioMessageButton;
-    _Bool _showStopRecordingButton;
-    int _viewControllerMode;
-    id <SOInputLineViewControllerDelegate> _delegate;
-    SOInputLineContainer *_inputLineContainer;
-    SOFlexibleScrollView *_scrollView;
-    SOInputLine *_inputLine;
-    SOInputVibrantView *_vibrantView;
-    double _leadingTextInputMargin;
-    double _trailingTextInputMargin;
-    NSButton *_smileyButton;
-    NSButton *_effectPickerButton;
-    NSLayoutConstraint *_minimumHeightConstraint;
-    NSLayoutConstraint *_maximumHeightConstraint;
-    NSLayoutConstraint *_fontSubstitutionMinimumHeight;
-    NSLayoutConstraint *_smileyButtonWidthConstraint;
-    NSLayoutConstraint *_effectPickerButtonWidthConstraint;
-    NSLayoutConstraint *_inputBorderContentsTrailingConstraint;
-    IMAccount *_watchedAccount;
-    SORecordingWaveformView *_waveformView;
-    NSTextField *_audioRecordingTimestamp;
-    NSButton *_audioMessageButton;
-    NSView *_audioRecordingView;
-    SORecordingWaveformContainerView *_recordingView;
-    NSButton *_stopRecordingButton;
-    NSView *_audioPreviewView;
-    SOPreviewingWaveformContainerView *_previewingView;
-    NSButton *_cancelRecordingButton;
-    NSButton *_sendRecordingButton;
-    AVAudioRecorder *_recorder;
-    AVAudioPlayer *_player;
-    NSPopover *_effectPickerPopover;
-    NSString *_expressiveSendStyleID;
 }
 
 - (id);
@@ -66,7 +26,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -83,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -170,15 +130,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)e=}24d32Q40;
+- (id)vitalityBehaviorShouldEndPlayingAtPhoto:(id)arg1;
+- (_Bool)videoPlayerForPlayer:(id)arg1;
+- (id)videoDidPlayToEnd;
+- (id)_videoSize;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)migrateUserRoleAccountsFrom:(id)arg1 toDestinationSystem:(id)arg2;
+- (id)migrateLockdownModeSetting;
+- (_Bool)customPathsSystemToSystemSizeFinal;
 - (void);
 - (void);
 - (void);
@@ -192,68 +152,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (double)Ô ;
 - (id)elable>"16@"NSArray"24;
-- (void)i:(id)arg1;
-- (_Bool)lRangeToVisible:(id)arg1;
+- (void)setAnimatedEmoji:(id)arg1;
+- (_Bool)scrollRangeToVisible:(id)arg1;
 - (_Bool)reenSharingPopUpButtonViewController;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysHideAdditionalControls; // @synthesize alwaysHideAdditionalControls=_alwaysHideAdditionalControls;
-@property __weak NSButton *audioMessageButton; // @synthesize audioMessageButton=_audioMessageButton;
-@property __weak NSView *audioPreviewView; // @synthesize audioPreviewView=_audioPreviewView;
-@property(retain, nonatomic) NSTextField *audioRecordingTimestamp; // @synthesize audioRecordingTimestamp=_audioRecordingTimestamp;
-@property __weak NSView *audioRecordingView; // @synthesize audioRecordingView=_audioRecordingView;
-@property(retain, nonatomic) NSButton *cancelRecordingButton; // @synthesize cancelRecordingButton=_cancelRecordingButton;
-@property(readonly, nonatomic) _Bool containsAudioMessage; // @dynamic containsAudioMessage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SOInputLineViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSButton *effectPickerButton; // @synthesize effectPickerButton=_effectPickerButton;
-@property(nonatomic) __weak NSLayoutConstraint *effectPickerButtonWidthConstraint; // @synthesize effectPickerButtonWidthConstraint=_effectPickerButtonWidthConstraint;
-@property(nonatomic) __weak NSPopover *effectPickerPopover; // @synthesize effectPickerPopover=_effectPickerPopover;
-@property(retain, nonatomic) NSString *expressiveSendStyleID; // @synthesize expressiveSendStyleID=_expressiveSendStyleID;
-@property(retain, nonatomic) NSLayoutConstraint *fontSubstitutionMinimumHeight; // @synthesize fontSubstitutionMinimumHeight=_fontSubstitutionMinimumHeight;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSLayoutConstraint *inputBorderContentsTrailingConstraint; // @synthesize inputBorderContentsTrailingConstraint=_inputBorderContentsTrailingConstraint;
-@property(retain, nonatomic) SOInputLine *inputLine; // @synthesize inputLine=_inputLine;
-@property(retain, nonatomic) SOInputLineContainer *inputLineContainer; // @synthesize inputLineContainer=_inputLineContainer;
-@property(retain, nonatomic) NSAttributedString *inputLineContents; // @dynamic inputLineContents;
-@property(nonatomic) double leadingTextInputMargin; // @synthesize leadingTextInputMargin=_leadingTextInputMargin;
-@property(nonatomic) double maximumHeight; // @dynamic maximumHeight;
-@property(nonatomic) __weak NSLayoutConstraint *maximumHeightConstraint; // @synthesize maximumHeightConstraint=_maximumHeightConstraint;
-@property(nonatomic) double minimumHeight; // @dynamic minimumHeight;
-@property(nonatomic) __weak NSLayoutConstraint *minimumHeightConstraint; // @synthesize minimumHeightConstraint=_minimumHeightConstraint;
-@property(retain, nonatomic) AVAudioPlayer *player; // @synthesize player=_player;
-@property(retain, nonatomic) SOPreviewingWaveformContainerView *previewingView; // @synthesize previewingView=_previewingView;
-@property(retain, nonatomic) AVAudioRecorder *recorder; // @synthesize recorder=_recorder;
-@property(readonly, getter=isRecording) _Bool recording;
-@property(retain, nonatomic) SORecordingWaveformContainerView *recordingView; // @synthesize recordingView=_recordingView;
-@property(retain, nonatomic) SOFlexibleScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) NSButton *sendRecordingButton; // @synthesize sendRecordingButton=_sendRecordingButton;
-@property(nonatomic) _Bool showAudioMessageButton; // @synthesize showAudioMessageButton=_showAudioMessageButton;
-@property(nonatomic) _Bool showStopRecordingButton; // @synthesize showStopRecordingButton=_showStopRecordingButton;
-@property(nonatomic) _Bool showsEffectPickerButton; // @synthesize showsEffectPickerButton=_showsEffectPickerButton;
-@property(nonatomic) _Bool showsSmileyButton; // @synthesize showsSmileyButton=_showsSmileyButton;
-@property(retain, nonatomic) NSButton *smileyButton; // @synthesize smileyButton=_smileyButton;
-@property(nonatomic) __weak NSLayoutConstraint *smileyButtonWidthConstraint; // @synthesize smileyButtonWidthConstraint=_smileyButtonWidthConstraint;
 @property(readonly, nonatomic) NSStackView *stackView; // @dynamic stackView;
-@property(retain, nonatomic) NSButton *stopRecordingButton; // @synthesize stopRecordingButton=_stopRecordingButton;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTextStorage *textStorage; // @dynamic textStorage;
-@property(nonatomic) double trailingTextInputMargin; // @synthesize trailingTextInputMargin=_trailingTextInputMargin;
-@property(retain, nonatomic) SOInputVibrantView *vibrantView; // @synthesize vibrantView=_vibrantView;
-@property(nonatomic) int viewControllerMode; // @synthesize viewControllerMode=_viewControllerMode;
-@property(retain, nonatomic) IMAccount *watchedAccount; // @synthesize watchedAccount=_watchedAccount;
-@property(retain, nonatomic) SORecordingWaveformView *waveformView; // @synthesize waveformView=_waveformView;
 
 @end
 

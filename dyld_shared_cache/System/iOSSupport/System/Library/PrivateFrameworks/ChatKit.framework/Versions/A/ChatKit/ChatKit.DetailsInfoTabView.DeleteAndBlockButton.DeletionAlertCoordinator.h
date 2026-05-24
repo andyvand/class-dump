@@ -7,11 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.DeleteAndBlockButton.DeletionAlertCoordinator
 {
     id _presentDeleteAndBlockAlert;
-    id _presentStopSharingLocationAlert;
-    id _shouldDeleteConversation;
-    id conversation;
-    id coordinator;
-    id _$observationRegistrar;
 }
 
 @end

@@ -12,11 +12,6 @@ __attribute__((visibility("hidden")))
 @interface EMCellStyle : CMStyle
 {
     EMCellStyleWrapper *_emStyle;
-    int _edCellType;
-    double _columnWidth;
-    double _contentWidth;
-    _Bool _truncateContents;
-    _Bool _resolvedProperties;
 }
 
 + (id);
@@ -26,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

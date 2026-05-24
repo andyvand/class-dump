@@ -12,7 +12,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id).unlocked;
 - (void)DecodingConfigurationProvidingP;
 
 @end

@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPointerArray, NSString, _NSCGSWindowOrderingProperties;
+@class NSArray, NSPointerArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSCGSWindowLocalOrderingState
 {
     NSPointerArray *_orderedWindows;
-    _NSCGSWindowOrderingProperties *_properties;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)DeviceSupportsWirelessChargingEnergyUseNotification;
+- (void)ellular-radio;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)j;
 - (void)UIKeyedUnarchiver decodeBoolForKey:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *orderedWindows;
-@property(readonly) _NSCGSWindowOrderingProperties *properties;
-@property(readonly) Class superclass;
 
 @end
 

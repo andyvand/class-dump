@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene, NSHashTable, NSMutableSet, NSString;
+@class NSHashTable;
 
 @interface UIApplicationSceneDeactivationManager
 {
     NSHashTable *_assertions;
-    NSMutableSet *_eligibleScenes;
-    FBScene *_updatingScene;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)t;
 - (id);
 - (void);
 - (id);
 - (id)!;
 - (void)ù
 × ;
-- (id)edBackgroundColor;
-- (unsigned long long)port;
-- (_Bool)rDuringRotation;
-- (_Bool)ion;
-- (void)ainerSizeForBoundsSize:(id)arg1 allowingOverflow:(id)arg2;
+- (id)tableCellDisabledBackgroundColor;
+- (unsigned long long)sharedPlatformSupport;
+- (_Bool)preservesCenterDuringRotation;
+- (_Bool)modern_isCapturingContentForAdditionalRenderingDestination;
+- (void)_containerSizeForBoundsSize:(id)arg1 allowingOverflow:(id)arg2;
 - (void)_headerFooterView;
 - (id)@"NSAttributedString",C,N,G_attributedMessage,S_setAttributedMessage: /* Error: Ran out of types for this method. */;
 - (void),Z|þ½43¤Z|þ½43P[|þ½43;
@@ -39,13 +37,7 @@
 - (id)õgÿ$îz;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

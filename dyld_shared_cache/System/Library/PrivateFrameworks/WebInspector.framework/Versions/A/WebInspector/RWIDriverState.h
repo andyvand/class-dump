@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface RWIDriverState
 {
     _Bool _active;
-    NSSet *_sessionIdentifiers;
 }
 
 + (id);
 + (_Bool);
 + (id);
-+ (id)tus: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)setStatus: /* Error: Ran out of types for this method. */;
+- (void)Th;
 - (id);
 - (void);
 - (id);
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(copy, nonatomic) NSSet *sessionIdentifiers; // @synthesize sessionIdentifiers=_sessionIdentifiers;
 
 @end
 

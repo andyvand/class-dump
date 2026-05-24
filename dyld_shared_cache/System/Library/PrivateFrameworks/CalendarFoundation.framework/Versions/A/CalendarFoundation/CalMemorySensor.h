@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 @interface CalMemorySensor
 {
     unsigned long long _interval;
-    NSObject<OS_dispatch_source> *_timer;
-    unsigned long long _usage;
-    CDUnknownBlockType _fireBlock;
 }
 
 - (void);
@@ -31,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType fireBlock; // @synthesize fireBlock=_fireBlock;
-@property(readonly, nonatomic) unsigned long long usage; // @synthesize usage=_usage;
 
 @end
 

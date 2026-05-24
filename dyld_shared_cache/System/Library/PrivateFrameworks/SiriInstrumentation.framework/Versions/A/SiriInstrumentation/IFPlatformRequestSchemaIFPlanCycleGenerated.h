@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFPlatformRequestSchemaIFPlanCycleGenerated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_planCycleId;
-    _Bool _hasPlanCycleId;
 }
 
 - (void);
@@ -22,10 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)initWithRecipient:location:placemark:label:trigger:type:locationType:recurring: /* Error: Ran out of types for this method. */;
 - (id)!CùàÐ1Â0@ù
 × ;
 - (id)entMetadata;
@@ -33,8 +32,6 @@
 - (void)@©Êÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlanCycleId; // @synthesize hasPlanCycleId=_hasPlanCycleId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *planCycleId; // @synthesize planCycleId=_planCycleId;
 
 @end

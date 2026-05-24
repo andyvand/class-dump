@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NFCardMigrationPaymentTransaction
 {
     NSString *_appletIdentifier;
-    NSData *_payload;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void);
-- (void);
-- (void)hivedObjectOfClasses:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)'H;
+- (void)unarchivedObjectOfClasses:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appletIdentifier; // @synthesize appletIdentifier=_appletIdentifier;
-@property(readonly, nonatomic) NSData *payload; // @synthesize payload=_payload;
 
 @end
 

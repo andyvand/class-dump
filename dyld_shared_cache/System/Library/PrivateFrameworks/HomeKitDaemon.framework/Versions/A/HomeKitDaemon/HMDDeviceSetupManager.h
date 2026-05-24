@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreFollowUpManager, NSNotificationCenter;
-@protocol HMDarwinNotificationProvider;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceSetupManager
 {
     struct os_unfair_lock_s _lock;
-    int _proxSetupNotificationToken;
-    _Bool _running;
-    HMDCoreFollowUpManager *_followUpManager;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDarwinNotificationProvider> _darwinNotificationProvider;
 }
 
 + (id)eristics changed for widget %@ to %@;
@@ -29,10 +23,7 @@ Accessory: /* Error: Ran out of types for this method. */;
 - (id)6Þÿ¢Èß@;
 
 // Remaining properties
-@property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider; // @synthesize darwinNotificationProvider=_darwinNotificationProvider;
-@property(readonly) HMDCoreFollowUpManager *followUpManager; // @synthesize followUpManager=_followUpManager;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, getter=isRunning) _Bool running; // @synthesize running=_running;
 
 @end
 

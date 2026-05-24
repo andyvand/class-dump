@@ -6,46 +6,19 @@
 
 #import <Metal/MTL4PipelineDescriptor.h>
 
-@class MTL4FunctionDescriptor, MTL4RenderPipelineColorAttachmentDescriptorArray, MTL4StaticLinkingDescriptor;
-
 @interface MTL4MeshRenderPipelineDescriptor : MTL4PipelineDescriptor
 {
     _Bool _objectThreadgroupSizeIsMultipleOfThreadExecutionWidth;
-    _Bool _meshThreadgroupSizeIsMultipleOfThreadExecutionWidth;
-    _Bool _rasterizationEnabled;
-    _Bool _supportObjectBinaryLinking;
-    _Bool _supportMeshBinaryLinking;
-    _Bool _supportFragmentBinaryLinking;
-    MTL4StaticLinkingDescriptor *_fragmentStaticLinkingDescriptor;
-    MTL4StaticLinkingDescriptor *_meshStaticLinkingDescriptor;
-    MTL4StaticLinkingDescriptor *_objectStaticLinkingDescriptor;
-    long long _supportIndirectCommandBuffers;
-    MTL4FunctionDescriptor *_objectFunctionDescriptor;
-    MTL4FunctionDescriptor *_meshFunctionDescriptor;
-    MTL4FunctionDescriptor *_fragmentFunctionDescriptor;
-    unsigned long long _maxTotalThreadsPerObjectThreadgroup;
-    unsigned long long _maxTotalThreadsPerMeshThreadgroup;
-    unsigned long long _payloadMemoryLength;
-    unsigned long long _maxTotalThreadgroupsPerMeshGrid;
-    unsigned long long _rasterSampleCount;
-    long long _alphaToCoverageState;
-    long long _alphaToOneState;
-    unsigned long long _maxVertexAmplificationCount;
-    MTL4RenderPipelineColorAttachmentDescriptorArray *_colorAttachments;
-    long long _colorAttachmentMappingState;
-    unsigned long long _colorSampleCount;
-    CDStruct_da2e99ad _requiredThreadsPerObjectThreadgroup;
-    CDStruct_da2e99ad _requiredThreadsPerMeshThreadgroup;
 }
 
 - (void);
 - (void);
+- (void)q-;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)@;
+- (id);
+- (id)&;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -66,17 +39,51 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)ixel.rgb) * gi);
+  float sat = max(max(rgbsat.r, rgbsat.g), rgbsat.b);
+  float skin = ((min(pixel.r - pixel.g, (pixel.g * 2.0) - pixel.b) * 4.0) * (1.0 - rgbsat.r)) * gi;
+  skin = 1.500000e-01 + (clamp(skin, 0.0, 1.0) * 7.000000e-01);
+  float boost = dot(vvec, vec4(1.0, sat, sat * sat, (sat * sat) * sat)) * (1.0 - skin);
+  pixel = clamp(pixel + ((pixel - gray) * boost), 0.0, 1.0);
+  pixel.a = pixel0.a;
+  pixel.rgb += pdelta.rgb;
+  return pixel;
+}
+;
+- (void)al:context:tileTask:] /* Error: Ran out of types for this method. */;
+- (void)sum += sample(image, samplerTransform(image, dc + vec2(-delt3.x, delta.y))) * w7.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt2.x, delta.y))) * w7.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delta.x, delta.y))) * w7.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(0.0, delta.y))) * w7.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(delta.x, delta.y))) * w8.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt2.x, delta.y))) * w8.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt3.x, delta.y))) * w8.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt3.x, delt2.y))) * w8.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt2.x, delt2.y))) * w9.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delta.x, delt2.y))) * w9.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(0.0, delt2.y))) * w9.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(delta.x, delt2.y))) * w9.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt2.x, delt2.y))) * w10.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt3.x, delt2.y))) * w10.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt3.x, delt3.y))) * w10.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delt2.x, delt3.y))) * w10.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(-delta.x, delt3.y))) * w11.x;
+  sum += sample(image, samplerTransform(image, dc + vec2(0.0, delt3.y))) * w11.y;
+  sum += sample(image, samplerTransform(image, dc + vec2(delta.x, delt3.y))) * w11.z;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt2.x, delt3.y))) * w11.w;
+  sum += sample(image, samplerTransform(image, dc + vec2(delt3.x, delt3.y))) * w12.x;
+  return sum;
+}
+;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)0K?;
+- (void);
+- (unsigned long long)R_709_2' [%s]
+;
+- (void)OphthalmicThicknessMapThresholdQualityRating;
 - (void);
 - (id);
 - (void);
@@ -84,7 +91,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)sendInputSessionSessAction:(_Bool)arg1 client: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (CDStruct_da2e99ad);
@@ -95,37 +102,12 @@
 - (id);
 - (long long);
 - (CDStruct_da2e99ad)ay"""(?="preloadedLibraries"@"NSArray""insertLibraries"@"NSArray")"pipelineLibrary"@"<MTLPipelineLibrary>""supportIndirectCommandBuffers"B"shaderValidation"q"shaderValidationState"q"textureWriteRoundingMode"q"forceResourceIndex"B"resourceIndex"Q"globalConstantsTag"Q"pluginData"@"NSDictionary""needsCustomBorderColorSamplers"B"openGLMode"b1"openCLMode"b1"internalPipeline"b1"reserved"b29"functionPointers"@"NSArray""linkedFunctions"@"MTLLinkedFunctions""maxStackCallDepth"Q"supportAddingBinaryFunctions"B"compilerTimeoutInSeconds"Q"profileControl"@"MTLProfileControl""maxAccelerationStructureTraversalDepth"Q"requiredThreadsPerThreadgroup"{?="width"Q"height"Q"depth"Q}"name"@"NSString"};
-- (void)nable_acceleration_structure_viewer_instrumentation;
+- (void)enable_acceleration_structure_viewer_instrumentation;
 - (long long)ñ;
 - (unsigned long long)Ø;
 
 // Remaining properties
-@property(nonatomic) long long alphaToCoverageState; // @synthesize alphaToCoverageState=_alphaToCoverageState;
-@property(nonatomic) long long alphaToOneState; // @synthesize alphaToOneState=_alphaToOneState;
-@property(nonatomic) long long colorAttachmentMappingState; // @synthesize colorAttachmentMappingState=_colorAttachmentMappingState;
-@property(readonly) MTL4RenderPipelineColorAttachmentDescriptorArray *colorAttachments; // @synthesize colorAttachments=_colorAttachments;
 @property(nonatomic) unsigned long long colorSampleCount; // @synthesize colorSampleCount=_colorSampleCount;
-@property(copy, nonatomic) MTL4FunctionDescriptor *fragmentFunctionDescriptor; // @synthesize fragmentFunctionDescriptor=_fragmentFunctionDescriptor;
-@property(copy, nonatomic) MTL4StaticLinkingDescriptor *fragmentStaticLinkingDescriptor; // @synthesize fragmentStaticLinkingDescriptor=_fragmentStaticLinkingDescriptor;
-@property(nonatomic) unsigned long long maxTotalThreadgroupsPerMeshGrid; // @synthesize maxTotalThreadgroupsPerMeshGrid=_maxTotalThreadgroupsPerMeshGrid;
-@property(nonatomic) unsigned long long maxTotalThreadsPerMeshThreadgroup; // @synthesize maxTotalThreadsPerMeshThreadgroup=_maxTotalThreadsPerMeshThreadgroup;
-@property(nonatomic) unsigned long long maxTotalThreadsPerObjectThreadgroup; // @synthesize maxTotalThreadsPerObjectThreadgroup=_maxTotalThreadsPerObjectThreadgroup;
-@property(nonatomic) unsigned long long maxVertexAmplificationCount; // @synthesize maxVertexAmplificationCount=_maxVertexAmplificationCount;
-@property(copy, nonatomic) MTL4FunctionDescriptor *meshFunctionDescriptor; // @synthesize meshFunctionDescriptor=_meshFunctionDescriptor;
-@property(copy, nonatomic) MTL4StaticLinkingDescriptor *meshStaticLinkingDescriptor; // @synthesize meshStaticLinkingDescriptor=_meshStaticLinkingDescriptor;
-@property(nonatomic) _Bool meshThreadgroupSizeIsMultipleOfThreadExecutionWidth; // @synthesize meshThreadgroupSizeIsMultipleOfThreadExecutionWidth=_meshThreadgroupSizeIsMultipleOfThreadExecutionWidth;
-@property(copy, nonatomic) MTL4FunctionDescriptor *objectFunctionDescriptor; // @synthesize objectFunctionDescriptor=_objectFunctionDescriptor;
-@property(copy, nonatomic) MTL4StaticLinkingDescriptor *objectStaticLinkingDescriptor; // @synthesize objectStaticLinkingDescriptor=_objectStaticLinkingDescriptor;
-@property(nonatomic) _Bool objectThreadgroupSizeIsMultipleOfThreadExecutionWidth; // @synthesize objectThreadgroupSizeIsMultipleOfThreadExecutionWidth=_objectThreadgroupSizeIsMultipleOfThreadExecutionWidth;
-@property(nonatomic) unsigned long long payloadMemoryLength; // @synthesize payloadMemoryLength=_payloadMemoryLength;
-@property(nonatomic) unsigned long long rasterSampleCount; // @synthesize rasterSampleCount=_rasterSampleCount;
-@property(nonatomic, getter=isRasterizationEnabled) _Bool rasterizationEnabled; // @synthesize rasterizationEnabled=_rasterizationEnabled;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerMeshThreadgroup; // @synthesize requiredThreadsPerMeshThreadgroup=_requiredThreadsPerMeshThreadgroup;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerObjectThreadgroup; // @synthesize requiredThreadsPerObjectThreadgroup=_requiredThreadsPerObjectThreadgroup;
-@property(nonatomic) _Bool supportFragmentBinaryLinking; // @synthesize supportFragmentBinaryLinking=_supportFragmentBinaryLinking;
-@property(nonatomic) long long supportIndirectCommandBuffers; // @synthesize supportIndirectCommandBuffers=_supportIndirectCommandBuffers;
-@property(nonatomic) _Bool supportMeshBinaryLinking; // @synthesize supportMeshBinaryLinking=_supportMeshBinaryLinking;
-@property(nonatomic) _Bool supportObjectBinaryLinking; // @synthesize supportObjectBinaryLinking=_supportObjectBinaryLinking;
 
 @end
 

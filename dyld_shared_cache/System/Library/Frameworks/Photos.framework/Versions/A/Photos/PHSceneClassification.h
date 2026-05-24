@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PHSceneClassification
 {
     unsigned long long _extendedSceneIdentifier;
-    double _confidence;
-    long long _packedBoundingBoxRect;
-    double _startTime;
-    double _duration;
-    long long _classificationType;
-    NSString *_thumbnailIdentifier;
-    struct CGRect _boundingBox;
 }
 
 - (id);
@@ -25,20 +16,20 @@
 - (double);
 - (long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)MPModelRelationshipLibraryPinArtist;
 - (id);
 - (struct CGRect);
 - (void);
 - (unsigned long long);
+- (_Bool)!;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)ndle identifier from connection %@;
 - (long long);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
-- (unsigned int)upIdentifierForUtilityCollectionType: /* Error: Ran out of types for this method. */;
+- (unsigned int)searchLookupIdentifierForUtilityCollectionType: /* Error: Ran out of types for this method. */;
 - (void)Classification;
 
 @end

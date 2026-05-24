@@ -5,5 +5,6 @@
 //
 
 @protocol AFArbitrationEventUpdatesDelegate
+- (void)B;
 @end
 

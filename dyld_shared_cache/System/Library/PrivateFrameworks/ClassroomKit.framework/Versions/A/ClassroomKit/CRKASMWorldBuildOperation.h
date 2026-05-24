@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMRosterProviderEnvironment, NSArray, NSDictionary, NSSet;
-@protocol CRKClassKitCurrentUser;
+@class CRKASMRosterProviderEnvironment;
 
 @interface CRKASMWorldBuildOperation
 {
     CRKASMRosterProviderEnvironment *_environment;
-    id <CRKClassKitCurrentUser> _classKitCurrentUser;
-    NSArray *_classKitClasses;
-    NSDictionary *_classKitLocationsByLocationID;
-    NSSet *_manageableLocationIDs;
-    NSDictionary *_classKitPersonsByClassID;
-    NSDictionary *_trustedClassKitPersonsByClassID;
 }
 
 + (id);
@@ -45,19 +38,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!�;
 - (void);
 - (_Bool);
 - (id)O/!;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *classKitClasses; // @synthesize classKitClasses=_classKitClasses;
-@property(retain, nonatomic) id <CRKClassKitCurrentUser> classKitCurrentUser; // @synthesize classKitCurrentUser=_classKitCurrentUser;
-@property(copy, nonatomic) NSDictionary *classKitLocationsByLocationID; // @synthesize classKitLocationsByLocationID=_classKitLocationsByLocationID;
-@property(copy, nonatomic) NSDictionary *classKitPersonsByClassID; // @synthesize classKitPersonsByClassID=_classKitPersonsByClassID;
 @property(readonly, nonatomic) CRKASMRosterProviderEnvironment *environment; // @synthesize environment=_environment;
-@property(copy, nonatomic) NSSet *manageableLocationIDs; // @synthesize manageableLocationIDs=_manageableLocationIDs;
-@property(copy, nonatomic) NSDictionary *trustedClassKitPersonsByClassID; // @synthesize trustedClassKitPersonsByClassID=_trustedClassKitPersonsByClassID;
 
 @end
 

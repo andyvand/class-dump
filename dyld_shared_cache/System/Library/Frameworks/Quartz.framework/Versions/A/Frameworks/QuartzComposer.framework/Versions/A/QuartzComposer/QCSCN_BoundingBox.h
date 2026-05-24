@@ -7,7 +7,6 @@
 @interface QCSCN_BoundingBox
 {
     struct _SCNVector3 min;
-    struct _SCNVector3 max;
 }
 
 + (int);
@@ -22,7 +21,6 @@
 - (struct _SCNVector3);
 
 // Remaining properties
-@property struct _SCNVector3 max; // @synthesize max;
 @property struct _SCNVector3 min; // @synthesize min;
 
 @end

@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCConfigurationManager, AnalyticsWorkspace, DiagnosticCaseStorageAnalytics, DiagnosticCaseSummaryAnalytics, DiagnosticLiaison, DiagnosticStatisticsManager, DiagnosticsController, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol DiagnosticCaseManagerStorageDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class AnalyticsWorkspace, DiagnosticLiaison;
 
 @interface DiagnosticCaseManager
 {
     AnalyticsWorkspace *_workspace;
-    NSMutableArray *_pendingStatisticsUpdateCases;
-    NSMutableSet *_reportOutlets;
-    long long _saveCount;
-    NSMutableArray *_requestedReportGenerators;
-    DiagnosticCaseStorageAnalytics *_caseStorageAnalytics;
-    DiagnosticCaseSummaryAnalytics *_caseSummaryAnalytics;
-    DiagnosticStatisticsManager *_statsManager;
-    DiagnosticsController *_diagnosticsController;
-    DiagnosticLiaison *_liaison;
-    NSObject<OS_dispatch_source> *periodicTimer;
-    _Bool _initializationComplete;
-    NSMutableSet *sessionsWaitingToEnd;
-    NSMutableDictionary *activeProbes;
-    NSMutableDictionary *activeIDSMessages;
-    NSMutableDictionary *_activeTransactions;
-    _Bool _shouldPurgeStorageAfterSave;
-    unsigned int _avgCasesPerDay;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_reportGenerators;
-    NSMutableArray *_activeCases;
-    NSMutableArray *_totalCases;
-    id <DiagnosticCaseManagerStorageDelegate> _storageDelegate;
 }
 
 + (int);
@@ -59,74 +36,74 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)setDidPrevClientSaveOverlapWithEndTimestamp:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id)!;
+- (void);
+- (void);
+- (void);
+- (void)R;
+- (id);
+- (id)`;
+- (int)˟;
+- (void);
+- (id);
+- (_Bool);
+- (void)0Z;
+- (void);
+- (id);
+- (long long)6;
+- (id)_enableVerboseLogging;
+- (void)@"NSDictionary"24@?<v@?@"NSError">32;
+- (_Bool)safeObjectForKey:(id)arg1 ofClass: /* Error: Ran out of types for this method. */;
+- (void)uestCancelScan] New pending event:(id)arg1 %{public}@;
+- (void)d an error when attempting to fetch documentation for the current build:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)loadUpdateBrain] Using currentUUID for update:(id)arg1 %{public}@;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
+- (_Bool)$;
 - (void);
 - (void);
+- (void)requiresLocationAccess;
+- (void)findFirstConvergenceBetweenRoute:andRoute: /* Error: Ran out of types for this method. */;
+- (void)ization status:(id)arg1 %s, purpose:(_Bool)arg2 %s;
+- (id)pdate;
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (_Bool)z;
 - (int);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (int);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/evp_asn1.c;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned int);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (unsigned int)cessTotalUnitCount;
+- (void)emporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDDebug_macOS.m:(id)arg1 18 :(id)arg2 Not supported on macOS;
+- (void)ASDSubscriptionEntitlementsNewsDidChangeNotification;
+- (void)ctory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDCoding_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
+- (id)sectionEntryWithIdentifier:(id)arg1 name: /* Error: Ran out of types for this method. */;
+- (void)ABAttributedStringAdditions;
+- (void)UNBLOCK_VCARD;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -142,23 +119,7 @@
 - (void)nalytics";
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSMutableArray *activeCases; // @synthesize activeCases=_activeCases;
-@property(nonatomic) unsigned int avgCasesPerDay; // @synthesize avgCasesPerDay=_avgCasesPerDay;
-@property(readonly, nonatomic) ABCConfigurationManager *configManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) DiagnosticsController *diagnosticsController;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) DiagnosticLiaison *liaison; // @synthesize liaison=_liaison;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSMutableDictionary *reportGenerators; // @synthesize reportGenerators=_reportGenerators;
-@property(readonly, nonatomic) DiagnosticStatisticsManager *statsManager; // @synthesize statsManager=_statsManager;
-@property(nonatomic) __weak id <DiagnosticCaseManagerStorageDelegate> storageDelegate; // @synthesize storageDelegate=_storageDelegate;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSMutableArray *totalCases; // @synthesize totalCases=_totalCases;
 
 @end
 

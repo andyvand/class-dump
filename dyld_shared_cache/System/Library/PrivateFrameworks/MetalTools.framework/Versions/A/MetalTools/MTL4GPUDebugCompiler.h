@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -35,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˿;
 - (void);
 - (void);
 - (void);

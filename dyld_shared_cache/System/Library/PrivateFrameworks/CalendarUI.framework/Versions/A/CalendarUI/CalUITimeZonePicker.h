@@ -11,20 +11,17 @@
 @interface CalUITimeZonePicker : EKUIPopUpButton
 {
     _Bool _supportsFloating;
-    _Bool _includeGMT;
-    _Bool _useShortenedLabels;
-    id <CalUITimeZonePickerDelegate> _delegate;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (id);
@@ -33,23 +30,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)Skc;
+- (id))L;
+- (void)!;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__AUTH_CONST;
 
 // Remaining properties
 @property __weak id <CalUITimeZonePickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool includeGMT; // @synthesize includeGMT=_includeGMT;
-@property _Bool supportsFloating; // @synthesize supportsFloating=_supportsFloating;
-@property _Bool useShortenedLabels; // @synthesize useShortenedLabels=_useShortenedLabels;
 
 @end
 

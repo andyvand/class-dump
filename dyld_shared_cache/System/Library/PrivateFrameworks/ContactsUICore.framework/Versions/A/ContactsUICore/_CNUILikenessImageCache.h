@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNQueue, CNUnfairLock, NSObject;
+@class CNCache, NSObject;
 @protocol OS_dispatch_source;
 
 @interface _CNUILikenessImageCache
 {
     CNCache *_cache;
-    CNQueue *_evictionQueue;
-    CNUnfairLock *_lock;
-    NSObject<OS_dispatch_source> *_memoryMonitoringSource;
 }
 
 - (void);
@@ -23,16 +20,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)rCache>",&,N,V_parentContainerCache;
 - (void);
 - (id);
 - (void)0@48@56@64@72@80@88;
 - (void)*Rþÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) CNQueue *evictionQueue; // @synthesize evictionQueue=_evictionQueue;
-@property(retain, nonatomic) CNUnfairLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *memoryMonitoringSource; // @synthesize memoryMonitoringSource=_memoryMonitoringSource;
 
 @end

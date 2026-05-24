@@ -7,13 +7,6 @@
 @interface RTLocationAwarenessManagerConfig
 {
     double _heartbeatIntervalResolution;
-    double _maxHeartbeatInterval;
-    double _dispatchTimerLeeway;
-    double _requiredHorizontalAccuracy;
-    double _activeDuration;
-    double _minMetricSubmissionAge;
-    double _maxHorizontalAccuracyForCoarseLocation;
-    double _highAccuracyLocationRequestDuration;
 }
 
 - (double);
@@ -24,20 +17,13 @@
 - (id);
 - (double);
 - (id);
-- (double);
+- (double);
 - (double)
 × ;
-- (double)pResponse;
+- (double)tipResponse;
 
 // Remaining properties
-@property(readonly, nonatomic) double activeDuration; // @synthesize activeDuration=_activeDuration;
-@property(readonly, nonatomic) double dispatchTimerLeeway; // @synthesize dispatchTimerLeeway=_dispatchTimerLeeway;
 @property(readonly, nonatomic) double heartbeatIntervalResolution; // @synthesize heartbeatIntervalResolution=_heartbeatIntervalResolution;
-@property(readonly, nonatomic) double highAccuracyLocationRequestDuration; // @synthesize highAccuracyLocationRequestDuration=_highAccuracyLocationRequestDuration;
-@property(readonly, nonatomic) double maxHeartbeatInterval; // @synthesize maxHeartbeatInterval=_maxHeartbeatInterval;
-@property(readonly, nonatomic) double maxHorizontalAccuracyForCoarseLocation; // @synthesize maxHorizontalAccuracyForCoarseLocation=_maxHorizontalAccuracyForCoarseLocation;
-@property(readonly, nonatomic) double minMetricSubmissionAge; // @synthesize minMetricSubmissionAge=_minMetricSubmissionAge;
-@property(readonly, nonatomic) double requiredHorizontalAccuracy; // @synthesize requiredHorizontalAccuracy=_requiredHorizontalAccuracy;
 
 @end
 

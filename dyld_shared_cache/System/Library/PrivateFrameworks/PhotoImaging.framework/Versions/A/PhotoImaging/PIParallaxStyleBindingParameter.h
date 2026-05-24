@@ -15,12 +15,12 @@
 
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)PortraitMinorVersion: /* Error: Ran out of types for this method. */;
+- (void)setPortraitMinorVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *variableName; // @synthesize variableName=_variableName;

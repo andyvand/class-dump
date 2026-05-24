@@ -7,27 +7,19 @@
 @interface NewsFeed.DebugFormatSelectPackageViewController
 {
     id editor;
-    id editorURL;
-    id styler;
-    id debugFormatService;
-    id coverViewManager;
-    id templates;
-    id selectedTemplate;
-    id tableView;
-    id $__lazy_storage_$_nextBarButtonItem;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long)(;
 - (void)±c1<Änþ±c1«þ;
 - (void)¥:xðíþ /* Error: Ran out of types for this method. */;
 - (void);

@@ -6,31 +6,22 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOPlaceFreeSpaceRequest : GEOXPCRequest
 {
     unsigned long long _freeBytes;
 }
 
-+ (Class);
++ (Class)setObject:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)fo;
+- (_Bool)4;
+- (void)labelInfo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long freeBytes; // @synthesize freeBytes=_freeBytes;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

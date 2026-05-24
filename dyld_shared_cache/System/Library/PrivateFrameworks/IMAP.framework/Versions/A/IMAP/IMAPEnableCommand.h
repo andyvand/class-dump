@@ -18,10 +18,10 @@
 - (long long);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id)!;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)s/com.apple.xbs/TemporaryDirectory.QC0Hdk/Sources/SyncServices2/SyncServices/ISDDataManager.m;
 - (id);
 - (void);
 

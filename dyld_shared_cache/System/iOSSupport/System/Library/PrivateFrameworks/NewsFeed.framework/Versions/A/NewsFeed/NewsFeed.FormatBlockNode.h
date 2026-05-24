@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatBlockNode
 {
     id _identifier;
-    id blockIdentifier;
-    id _throws;
-    id _options;
-    id _selectors;
 }
 
 @end

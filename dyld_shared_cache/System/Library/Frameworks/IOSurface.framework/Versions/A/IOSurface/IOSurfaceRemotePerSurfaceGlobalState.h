@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 @interface IOSurfaceRemotePerSurfaceGlobalState
 {
     struct os_unfair_lock_s _lock;
-    unsigned int _csid;
-    void *_mapped_address;
-    unsigned long long _mapped_size;
-    NSObject<OS_xpc_object> *_extraData;
 }
 
 + (id);

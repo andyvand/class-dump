@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioTrackDetailsInteractor
 {
     id delegate;
-    id dataManager;
-    id commandCenter;
 }
 
 @end

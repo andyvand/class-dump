@@ -5,9 +5,14 @@
 //
 
 @protocol PSITableDelegate
-- (id)nitizedErrorFromError: /* Error: Ran out of types for this method. */;
-- (id)es: /* Error: Ran out of types for this method. */;
-- (id):identifier:adjustmentEnvelope:processingBlock: /* Error: Ran out of types for this method. */;
+- (id)`;
+- (id)*E'
+;
+- (id)A5/H'
+;
+- (id)sanitizedErrorFromError: /* Error: Ran out of types for this method. */;
+- (id)initWithPayloadAttributes: /* Error: Ran out of types for this method. */;
+- (id)_processEnabledAdjustmentFromAssetAdjustments:identifier:adjustmentEnvelope:processingBlock: /* Error: Ran out of types for this method. */;
 - (id)file at:%@ /* Error: Ran out of types for this method. */;
 @end
 

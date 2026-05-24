@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSDictionary;
 
 @protocol SFFillToolFileParameterCommand
+- (NSData *)<;
+- (NSDictionary *)!`a;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(copy, nonatomic) NSString *filePath;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -7,12 +7,10 @@
 @class NSString, NSURL;
 
 @protocol MTLFunctionLogDebugLocation
-- (NSString *)MTLPipelineLibrary;
+- (NSURL *);
+- (NSString *)_MTLPipelineLibrary;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) unsigned long long column;
 @property(readonly, nonatomic) NSString *functionName;
-@property(readonly, nonatomic) unsigned long long line;
 @end
 

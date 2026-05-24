@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRRegisterLatest, NSString;
 @protocol ICCRDataType><ICCRCoding;
 
 @interface ICCROrderedSetElement
 {
     id <ICCRDataType><ICCRCoding> _value;
-    ICCRRegisterLatest *_index;
 }
 
 + (id);
-- (id);
+- (id)downloaderFinished;
 - (void);
 - (id);
 - (void);
@@ -23,7 +21,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)e;
 - (void);
 - (id);
 - (void);
@@ -31,17 +29,9 @@
 - (void)P²\³!8µ!¨¶D·$¸ä¸¨¹
 ¬ºH»Ø»!°½;
 - (void)) was found to have contents which won't render properly pre-iOS 16.1. Bumping notes version for the attachment from %lld to %lld.;
-- (void)entyDeletedFolderAlert;
+- (void)didShowMoveToRecentyDeletedFolderAlert;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ICCRRegisterLatest *index; // @synthesize index=_index;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <ICCRDataType><ICCRCoding> value; // @synthesize value=_value;
 
 @end

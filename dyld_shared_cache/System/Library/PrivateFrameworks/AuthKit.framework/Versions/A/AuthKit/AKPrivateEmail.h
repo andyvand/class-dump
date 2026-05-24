@@ -9,8 +9,6 @@
 @interface AKPrivateEmail
 {
     NSString *_key;
-    NSString *_clientAppBundleId;
-    NSString *_privateEmailAddress;
 }
 
 + (_Bool);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)\;
 - (id);
 - (id);
 - (void);
@@ -26,9 +24,7 @@
 - (void)n;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *clientAppBundleId; // @synthesize clientAppBundleId=_clientAppBundleId;
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, copy, nonatomic) NSString *privateEmailAddress; // @synthesize privateEmailAddress=_privateEmailAddress;
 
 @end
 

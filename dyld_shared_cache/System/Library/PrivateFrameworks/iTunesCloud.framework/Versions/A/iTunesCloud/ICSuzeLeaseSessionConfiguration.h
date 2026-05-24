@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext;
-
 @interface ICSuzeLeaseSessionConfiguration
 {
     id _leaseID;
-    long long _mediaType;
-    ICStoreRequestContext *_requestContext;
 }
 
 - (id);
@@ -22,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id leaseID; // @synthesize leaseID=_leaseID;
-@property(readonly, nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
 
 @end
 

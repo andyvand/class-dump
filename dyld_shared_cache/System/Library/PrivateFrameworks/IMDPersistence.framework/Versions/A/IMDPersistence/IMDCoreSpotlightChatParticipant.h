@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class NSString;
 
 @interface IMDCoreSpotlightChatParticipant
 {
     _Bool _isSender;
-    NSString *_handleID;
-    CNContact *_contact;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)flag_group;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(readonly, copy, nonatomic) NSString *handleID; // @synthesize handleID=_handleID;
-@property(readonly, nonatomic) _Bool isSender; // @synthesize isSender=_isSender;
 
 @end
 

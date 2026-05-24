@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSStackView, NSTextField;
-@protocol AVTouchBarMediaSelectionControlling, AVTouchBarMediaSelectionViewControllerDelegate;
+@class NSTextField;
+@protocol AVTouchBarMediaSelectionControlling;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarMediaSelectionViewController
 {
     NSTextField *_audioLabel;
-    NSTextField *_legibleLabel;
-    NSStackView *_audioOptionsContainerView;
-    NSStackView *_legibleOptionsContainerView;
-    id <AVTouchBarMediaSelectionControlling> _playerController;
-    id <AVTouchBarMediaSelectionViewControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)s/A/CoreImage;
+- (void)temProtectedConfiguration -> %p(TouchIDEnabled:%d,UnlockEnabled:%d,IdentificationEnabled:%d,LoginEnabled:%d,UnlockTokenMaxLifetime:%d)
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)<;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVTouchBarMediaSelectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) id <AVTouchBarMediaSelectionControlling> playerController; // @synthesize playerController=_playerController;
 
 @end

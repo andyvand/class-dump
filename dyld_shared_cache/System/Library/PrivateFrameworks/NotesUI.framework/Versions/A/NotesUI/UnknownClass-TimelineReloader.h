@@ -11,7 +11,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool objc_reloadsTimelinesAutomatically;
 @property(nonatomic) _Bool reloadsTimelinesAutomatically;
 @end
 

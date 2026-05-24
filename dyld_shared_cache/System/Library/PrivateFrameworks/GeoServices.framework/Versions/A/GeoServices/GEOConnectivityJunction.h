@@ -10,12 +10,11 @@
 }
 
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)xedThresholdRC:extraDelayMs:continuityWindowDuration:speechDetectedThreshold: /* Error: Ran out of types for this method. */;
 - (id)³²5+<;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int pointsOnRoadCount;
-@property(readonly, nonatomic) unsigned int pointsOnRoadIndex;
 
 @end
 

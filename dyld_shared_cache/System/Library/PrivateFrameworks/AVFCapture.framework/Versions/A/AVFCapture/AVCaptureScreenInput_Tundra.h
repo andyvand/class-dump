@@ -11,37 +11,43 @@
 @interface AVCaptureScreenInput_Tundra : AVCaptureInput_Tundra
 {
     AVCaptureScreenInputInternal_Tundra *_internal;
-    _Bool removesDuplicateFrames;
 }
 
 + (id);
 + (void)#vedbolg;
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (unsigned int)algorithm;
+- (void)_dictionaryClosingTagData;
+- (void)_assertionInvalidationNonce;
+- (void)",R,N,V_protocol;
+- (void),V_serverConnection;
+- (void),N,V_uuid;
+- (void)spatch_queue>",&,N,V_queue;
+- (_Bool)@"NSData",&,N,V_tabPrefixData;
+- (void)ords;
 - (struct OpaqueCMClock *);
-- (int);
-- (int);
-- (_Bool);
-- (_Bool);
-- (int);
+- (int)der=%p Encountered end event;
+- (int)undTaskProvider %p Task #%ld ended;
+- (_Bool)pending write source;
+- (_Bool)rceState=%d;
+- (int)Reading is invalid. writerSourceState=%d;
+- (id)file:%@?mode=memory&cache=shared /* Error: Ran out of types for this method. */;
+- (_Bool)StreamReader.m;
+- (void)Default_Oversize;
+- (void)RConnection.serialQueue;
+- (int)ertyList-1.0.dtd">
+<plist version="1.0">
+;
+- (unsigned int)itunes:key /* Error: Ran out of types for this method. */;
+- (int)>
+sourceURL:(unsigned int)arg1 %@
+destinationURL:(void *)arg2 %@
+destinationCompressionQuality:(unsigned int)arg3 %g
+destinationFormat:JPEG /* Error: Ran out of types for this method. */;
+- (struct CGRect)MSVArtworkServiceConversionRequestSourceURL;
+- (void)size
+;
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (int);
-- (unsigned int);
-- (int);
-- (struct CGRect);
-- (void);
-- (id);
-- (void);
+- (void)serviceAllowedTrafficClassifiersDidReset: /* Error: Ran out of types for this method. */;
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
@@ -51,12 +57,7 @@
 - (struct CGRect)tUserPreferredCamera backtrace, set to %@: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool capturesCursor;
-@property(nonatomic) _Bool capturesMouseClicks;
-@property(nonatomic) struct CGRect cropRect;
 @property(nonatomic) CDStruct_1b6d18a9 minFrameDuration;
-@property(nonatomic) _Bool removesDuplicateFrames; // @synthesize removesDuplicateFrames;
-@property(nonatomic) double scaleFactor;
 
 @end
 

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDEVCharger, NSArray;
+@class GEOPDEVCharger;
 
 @interface GEOEVChargerAvailability
 {
     GEOPDEVCharger *_charger;
-    long long _aggregatedAvailable;
-    long long _aggregatedTotal;
-    NSArray *_supportedTypes;
-    unsigned long long _totalEVChargers;
-    unsigned long long _availableEVChargers;
-    unsigned long long _ttlSeconds;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (long long);
-- (long long);
-- (int);
-- (void);
+- (unsigned long long)l %s from keychain:%@ /* Error: Ran out of types for this method. */;
+- (long long)Accounts:(id)arg1 %@ %@;
+- (long long)rror updating family circle CardDAV ACAccounts:(id)arg1 %@ %@;
+- (int)Serbia;
+- (void)pple.findmy.findmylocate.friendshipservice;
 - (int);
 - (unsigned long long);
 - (int);
@@ -33,11 +27,7 @@
 - (void)${Þÿf;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_availabilityStatus) int availabilityStatus;
-@property(nonatomic) unsigned long long availableEVChargers; // @synthesize availableEVChargers=_availableEVChargers;
-@property(readonly, nonatomic, getter=_realTimePlugAvailabilityStatus) int realTimePlugAvailabilityStatus;
 @property(nonatomic) unsigned long long totalEVChargers; // @synthesize totalEVChargers=_totalEVChargers;
-@property(nonatomic) unsigned long long ttlSeconds; // @synthesize ttlSeconds=_ttlSeconds;
 
 @end
 

@@ -6,17 +6,14 @@
 
 #import <CoreData/CDDCloudKitMessage.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CDDCloudKitScheduleActivityMessage : CDDCloudKitMessage
 {
     unsigned long long _activityType;
-    NSString *_storePath;
 }
 
 + (_Bool);
-- (void);
+- (void)9;
 - (id);
 - (void);
 

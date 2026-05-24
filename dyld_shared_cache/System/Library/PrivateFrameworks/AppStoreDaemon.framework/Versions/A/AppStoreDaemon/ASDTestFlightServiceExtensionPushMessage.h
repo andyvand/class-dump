@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface ASDTestFlightServiceExtensionPushMessage
 {
     NSDictionary *_userInfo;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
+- (id)=;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)h;
+- (id)able to start recovery session, server missing Apple ID (%@) or Session ID (%@);
+- (void)I;
+- (id)Stopped;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end

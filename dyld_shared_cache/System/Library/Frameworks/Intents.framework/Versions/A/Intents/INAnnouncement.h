@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSNumber, NSURL;
 
 @interface INAnnouncement
 {
     NSURL *_speechDataURL;
-    NSString *_identifier;
-    NSString *_speechDataTranscription;
 }
 
 + (id);
@@ -21,32 +19,21 @@
 - (id);
 - (id);
 - (id);
+- (id)2;
+- (id);
+- (unsigned long long)setInterruptionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)SString",&,N,V_cachedIdentifier;
+- (void)= nil || request.filters[i].bssid != nil || request.filters[i].frameType != 0;
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)e:(unsigned long long)arg1 filename:bundleIdentifier:codableDescriptionClass: /* Error: Ran out of types for this method. */;
+- (id)_codableDescriptionWithDictionary:(unsigned long long)arg1 intentDefinitionNamespace:filename:bundleIdentifier:codableDescriptionClass: /* Error: Ran out of types for this method. */;
 - (void)hServices.applicationUnregistered;
 - (id)âM;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *endTime;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *speechDataTranscription; // @synthesize speechDataTranscription=_speechDataTranscription;
-@property(readonly, copy) NSURL *speechDataURL; // @synthesize speechDataURL=_speechDataURL;
 @property(readonly, copy) NSNumber *startTime;
-@property(readonly) Class superclass;
 
 @end
 

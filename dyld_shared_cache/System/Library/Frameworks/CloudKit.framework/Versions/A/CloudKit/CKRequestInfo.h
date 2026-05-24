@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @interface CKRequestInfo
 {
     NSString *_requestUUID;
-    NSDictionary *_responseHTTPHeaders;
-    NSDictionary *_w3cNavigationTiming;
-    NSArray *_requestOperations;
-    NSString *_operationClassName;
 }
 
 + (_Bool);
@@ -20,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)	yS?;
+- (void)0;
 - (void);
 - (id);
 - (id);
@@ -29,11 +25,7 @@
 - (void)\;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *operationClassName; // @synthesize operationClassName=_operationClassName;
 @property(retain, nonatomic) NSArray *requestOperations; // @synthesize requestOperations=_requestOperations;
-@property(readonly, copy, nonatomic) NSString *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly, copy, nonatomic) NSDictionary *responseHTTPHeaders; // @synthesize responseHTTPHeaders=_responseHTTPHeaders;
-@property(readonly, copy, nonatomic) NSDictionary *w3cNavigationTiming; // @synthesize w3cNavigationTiming=_w3cNavigationTiming;
 
 @end
 

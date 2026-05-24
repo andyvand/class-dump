@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXSmallCollectionLayoutMetrics;
-
 @interface PXSmallCollectionLayoutGenerator
 {
     struct _PXLayoutGeometry *_geometries;
-    struct _PXCornerSpriteIndexes _cornerSpriteIndexes;
-    struct CGRect _pageRect;
-    _Bool _isPrepared;
-    long long _numberOfItems;
 }
 
 + (long long);
@@ -34,7 +28,6 @@
 - (unsigned long long)d}Q{?={?=qiIq}{?=qiIq}{?=qiIq}{?={?=qiIq}q}c}q{?={CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}32r^q40q48^B56;
 
 // Remaining properties
-@property(copy, nonatomic) PXSmallCollectionLayoutMetrics *metrics; // @dynamic metrics;
 @property(readonly, nonatomic) long long numberOfItems; // @synthesize numberOfItems=_numberOfItems;
 
 @end

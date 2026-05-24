@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HUDController, InputSource, NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface HUDWindowController
 {
     NSArray *inputs;
-    long long inputsCount;
-    InputSource *fCurrentInputSource;
-    NSArray *fDisabledInputSources;
-    struct ProcessSerialNumber fTargetApp;
-    NSNumber *fTargetDocRef;
-    _Bool fIsSecureMode;
-    _Bool fHotKeysRegistered;
-    _Bool fSourceListContainsOnlyCurrentSource;
-    HUDController *hudViewController;
-    unsigned short hotKeyChar;
-    unsigned short hotVirtualKey;
-    unsigned int hotModifiers;
-    _Bool _ignoreNextFlagChangedEvent;
-    _Bool _inlineSwicherVisible;
-    struct ProcessSerialNumber _targetSwitcher;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (struct ProcessSerialNumber);
+- (struct ProcessSerialNumber)C;
 - (_Bool);
 - (void);
 - (void);
@@ -58,18 +43,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)>;
 - (unsigned short);
 - (unsigned int);
 - (void);
 - (void);
-- (unsigned short);
+- (unsigned short)>;
 - (void);
 - (id);
 - (_Bool);
 - (struct EventHotKeyID);
 - (id);
-- (struct __CFData *);
+- (struct __CFData *)C;
 - (void);
 - (void);
 - (_Bool);
@@ -83,39 +68,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
-@property InputSource *currentInputSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct EventHotKeyID escapeHotKeyID;
-@property(nonatomic) _Bool eventCaptureOurs;
-@property(retain) NSArray *fDisabledInputSources; // @synthesize fDisabledInputSources;
-@property(readonly) unsigned long long hash;
-@property unsigned short hotKeyChar; // @synthesize hotKeyChar;
-@property unsigned int hotModifiers; // @synthesize hotModifiers;
-@property unsigned short hotVirtualKey; // @synthesize hotVirtualKey;
-@property(readonly, nonatomic) _Bool hudActive;
-@property(readonly, nonatomic) _Bool hudObscure;
-@property(retain) HUDController *hudViewController;
-@property(readonly, nonatomic) _Bool hudVisible;
 @property(nonatomic) _Bool ignoreNextFlagChangedEvent; // @synthesize ignoreNextFlagChangedEvent=_ignoreNextFlagChangedEvent;
-@property(nonatomic) _Bool inlineSwicherVisible; // @synthesize inlineSwicherVisible=_inlineSwicherVisible;
-@property(readonly, nonatomic) _Bool inlineSwitcherEnalbed;
-@property(retain) NSArray *inputs; // @synthesize inputs;
-@property long long inputsCount; // @synthesize inputsCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsMouse;
-@property struct ProcessSerialNumber *targetApp;
-@property struct ProcessSerialNumber targetSwitcher; // @synthesize targetSwitcher=_targetSwitcher;
-@property(retain) NSNumber *targetTSMDocument;
 
 @end
 

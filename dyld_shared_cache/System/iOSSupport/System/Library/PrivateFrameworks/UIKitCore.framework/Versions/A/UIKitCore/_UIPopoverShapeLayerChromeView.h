@@ -6,29 +6,22 @@
 
 #import <UIKitCore/_UIPopoverStandardChromeView.h>
 
-@class UIVisualEffectView, _UIPopoverGlassBackground, _UIPopoverShapeLayerView;
+@class UIVisualEffectView;
 
 @interface _UIPopoverShapeLayerChromeView : _UIPopoverStandardChromeView
 {
     UIVisualEffectView *_effectView;
-    _UIPopoverGlassBackground *_glassView;
-    long long _requestedBackgroundStyle;
-    long long _backgroundStyle;
-    _Bool _popoverBackgroundColorIsOpaque;
-    _Bool _arrowVisible;
-    _UIPopoverShapeLayerView *_shapeLayerMaskView;
-    _UIPopoverShapeLayerView *_shapeLayerStrokeView;
 }
 
-+ (id);
-+ (double);
++ (id)Available %@;
++ (double)setPayloadDisableRedirect: /* Error: Ran out of types for this method. */;
 + (double)ÿ7µ ;
 + (double);
 - (double);
 - (id);
 - (_Bool);
 - (long long);
-- (double);
+- (double)ommand;
 - (void);
 - (void);
 - (void);
@@ -42,20 +35,20 @@
 × ;
 - (void)0@ù
 × ;
-- (void)uration: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)esponse: /* Error: Ran out of types for this method. */;
-- (double)Hidden: /* Error: Ran out of types for this method. */;
-- (id)geCell;
+- (void)systemImageNamed:withConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)readableTypeIdentifiersForItemProvider;
+- (_Bool)initWithSmartPollsResponse: /* Error: Ran out of types for this method. */;
+- (double)_positionToolbarHidden: /* Error: Ran out of types for this method. */;
+- (id)_hasImageInLargeCell;
 - (void)_empty;
-- (void)tePreferredFocusEnvironmentsForMovementRequest: /* Error: Ran out of types for this method. */;
+- (void)_delegatePreferredFocusEnvironmentsForMovementRequest: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)_bottomAlignsPopoverIfSourceViewNotSet,S_setBottomAlignsPopoverIfSourceViewNotSet:,V__bottomAlignsPopoverIfSourceViewNotSet /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÿÿÿÿì;
 - (void)abBarAppearance has been set;
-- (void)CSo16UIViewControllerCSgIggo_;
+- (void)So7NSCoderCSo16UIViewControllerCSgIggo_;
 - (id)k/TelephonyUtilities;
-- (void)yDescendantDragging;
+- (void)IsAnyDescendantDragging;
 - (void)úë;
 - (long long);
 - (id);

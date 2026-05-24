@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)fo: /* Error: Ran out of types for this method. */;
+- (void)MSASModelDidReceiveNewServerSideConfiguration:info: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

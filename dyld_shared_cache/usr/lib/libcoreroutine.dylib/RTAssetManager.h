@@ -6,29 +6,26 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTAssetProcessor, RTDarwinNotificationHelper, RTDefaultsManager, RTXPCActivityManager;
+@class RTAssetProcessor;
 
 @interface RTAssetManager : RTService
 {
     RTAssetProcessor *_assetProcessor;
-    RTDefaultsManager *_defaultsManager;
-    RTDarwinNotificationHelper *_notificationHelper;
-    RTXPCActivityManager *_xpcActivityManager;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)setShareePublicKeyData:(id)arg1;
+- (id)\;
+- (void)iled to fetch identity from security within timeout;
+- (void)town;
+- (id)0@"NSArray"8@"PCSMTT"16@"NSError"24;
+- (id)8@"NSError"16;
+- (id)NSURLError;
+- (void)nableWithResults:(CDUnknownBlockType)arg1 %@;
+- (id)registrySyncIdentifierEnterprise;
 - (void);
 - (void);
 - (void);
@@ -52,9 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTAssetProcessor *assetProcessor; // @synthesize assetProcessor=_assetProcessor;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
-@property(retain, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

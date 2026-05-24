@@ -22,9 +22,9 @@
 + (id);
 + (void);
 - (id);
-- (long long);
-- (id);
-- (SEL);
+- (long long)KN;
+- (id):(double)arg1 ;
+- (SEL)]lK;
 - (id);
 
 // Remaining properties

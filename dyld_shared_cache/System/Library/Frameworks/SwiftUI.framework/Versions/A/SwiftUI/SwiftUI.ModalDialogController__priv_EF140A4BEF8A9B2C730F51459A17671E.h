@@ -7,8 +7,6 @@
 @interface SwiftUI.ModalDialogController__priv_EF140A4BEF8A9B2C730F51459A17671E
 {
     id sceneID;
-    id configuration;
-    id renderingHost;
 }
 
 @end

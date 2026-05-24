@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @interface _INPBGetCarPowerLevelStatusIntent
 {
     struct _has;
-    _INPBDataString *_carName;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -21,27 +19,17 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)H;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)cal device (%{public}@), not adding (%{public}@);
 - (id);
 - (id);
-- (void);
+- (void)+;
 - (_Bool)kMetadata;
 - (void)ality sensor;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName; // @synthesize carName=_carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

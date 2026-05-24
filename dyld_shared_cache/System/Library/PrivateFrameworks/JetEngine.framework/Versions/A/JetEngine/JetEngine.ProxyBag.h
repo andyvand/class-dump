@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface JetEngine.ProxyBag
 {
     id bag;
 }
 
 - (id);
-- (id);
+- (id):(id)arg1 *;
 - (id);
 - (void);
 - (id);
@@ -23,14 +21,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)ä]ÆÿÍSi	D;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *expirationDate;
 @property(nonatomic, readonly) _Bool expired;
-@property(nonatomic, readonly) NSString *profile;
-@property(nonatomic, readonly) NSString *profileVersion;
 
 @end
 

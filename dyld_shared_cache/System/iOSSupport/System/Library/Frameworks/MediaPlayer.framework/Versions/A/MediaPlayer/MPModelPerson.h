@@ -13,12 +13,11 @@
 }
 
 + (id);
-+ (id);
-+ (void);
-+ (void);
++ (id);
++ (void)municationSafetyResultEvent:unable to convert BMPBCommunicationSafetyResultContentType enum value:%@ /* Error: Ran out of types for this method. */;
++ (void)o convert BMPBCommunicationSafetyResultEventType enum value:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSocialPosts; // @dynamic hasSocialPosts;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
 
 @end

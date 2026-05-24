@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface RTBluePOIModel
 {
     NSUUID *_identifier;
-    NSString *_url;
-    NSDictionary *_featureToHashedApMapping;
-    NSString *_featureToHashedApMappingDataURL;
 }
 
 @end

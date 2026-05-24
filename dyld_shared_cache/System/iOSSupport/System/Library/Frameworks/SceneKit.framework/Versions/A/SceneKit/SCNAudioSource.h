@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioFile, AVAudioPCMBuffer, NSString, NSURL;
+@class AVAudioFile;
 
 @interface SCNAudioSource
 {
     AVAudioFile *_audioFile;
-    AVAudioPCMBuffer *_audioBuffer;
-    NSURL *_audioURL;
-    NSString *_audioName;
-    _Bool _loops;
-    _Bool _shouldStream;
-    _Bool _loaded;
-    _Bool positional;
-    float volume;
-    float rate;
-    float reverbBlend;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)formMetadata;
 - (void);
 - (_Bool);
 - (id);
@@ -32,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -45,7 +35,7 @@
 - (id);
 - (double);
 - (long long);
-- (void);
+- (void)setPageOverlayViewProvider:(float)arg1;
 - (void);
 - (float);
 - (id);
@@ -53,18 +43,13 @@
 - (void);
 - (void);
 - (id)mObject}{__C3DEngineStats=IIIIIIIIIIIIIIIIIIIIIIIIdddddddddddddddIIIIIIIIIIIIIIIIIdIdIdddd[60d]Idd}{Cache=[8I]Ii^{__C3DBlendStates}I^{__C3DRasterizerStates}^{__C3DMesh}^{__C3DMeshElement}IIiI^vii}{?=[2I][5i][46{?=iII}][46I]^?^?^?^?^?^?^?^?^?}[2{VolatileObject=^{__C3DArray}II^{__CFArray}}]^{__C3DArray}I^{__CFDictionary}}16;
-- (id)mentCount;
+- (id)cornerSegmentCount;
 - (void). Cannot compute shadow parameters.;
 - (float)ng ']';
 - (void)ÌxÞÿ[ê;
 
 // Remaining properties
-@property(nonatomic) _Bool loops; // @synthesize loops=_loops;
 @property(nonatomic, getter=isPositional) _Bool positional; // @synthesize positional;
-@property(nonatomic) float rate; // @synthesize rate;
-@property(nonatomic) float reverbBlend; // @synthesize reverbBlend;
-@property(nonatomic) _Bool shouldStream; // @synthesize shouldStream=_shouldStream;
-@property(nonatomic) float volume; // @synthesize volume;
 
 @end
 

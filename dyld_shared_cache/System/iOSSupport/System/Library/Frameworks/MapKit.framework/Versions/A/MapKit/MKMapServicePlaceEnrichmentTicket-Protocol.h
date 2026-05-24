@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServicePlaceEnrichmentTicket
+- (void)_chat:(void (^)(GEOEnrichmentData *, NSError *))arg1 sendReadReceiptForMessages:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

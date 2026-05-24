@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
-
 @interface NSInputManager
 {
     id _currentClient;
-    id _server;
-    id _bundleObj;
-    id _keybindings;
-    NSString *_trueName;
-    NSString *_connectionName;
-    NSString *_hostName;
-    NSString *_procToExec;
-    NSString *_visibleName;
-    NSString *_bundleName;
-    NSString *_language;
-    NSImage *_image;
-    unsigned int _flags;
-    NSString *_keyBindingsName;
 }
 
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (_Bool)U;
++ (void)_readData;
++ (void)t statement;
++ (void)_respectsAllowsCellularAccessForDiscretionaryTasks;
++ (void)_allowsRetryForBackgroundDataTasks;
++ (id)(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
 + (void);
 + (void);
 + (id);
@@ -45,19 +43,45 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)suspendStreamWithCompletionBlock:(id)arg1;
+- (void)set_legacySocketStreamProperties:(id *)arg1;
+- (struct CGRect)setCancellationHandler:(struct _NSRange)arg1;
+- (void)applyOverrides:(SEL)arg1 forTaskWithIdentifier:(id)arg2;
+- (id)__NSCFBackgroundAVAggregateAssetDownloadTask;
 - (void);
-- (struct CGRect);
-- (void);
+- (_Bool)idStartAppWake:called with ID:%@, when we already had an app wake with ID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)entry %u (`%.*s':(id)arg1 `%.*s'), nelem:%u; capacity:%u /* Error: Ran out of types for this method. */;
+- (_Bool)_kCFNTimingDataNStatWifiRXPackets;
+- (void)on End) %@
+(Connect End) %@
+(Request Start) %@
+(Request End) %@
+(Response Start) %@
+(Response End) %@
+(Protocol Name) %@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)@;
 - (void);
 - (id);
 - (_Bool);
@@ -69,7 +93,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)U13block_pointerFvP11FINodeEventE;
 - (id);
 - (_Bool);
 - (id)_define: /* Error: Ran out of types for this method. */;

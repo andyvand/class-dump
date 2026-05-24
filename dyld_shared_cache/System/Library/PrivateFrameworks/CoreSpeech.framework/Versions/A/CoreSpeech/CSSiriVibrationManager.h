@@ -10,8 +10,6 @@
 @interface CSSiriVibrationManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    long long _ringVibrationState;
-    long long _silentVibrationState;
 }
 
 + (id);

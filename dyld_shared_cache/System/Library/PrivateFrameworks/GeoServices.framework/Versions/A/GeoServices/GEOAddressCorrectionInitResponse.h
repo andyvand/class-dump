@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOAddressCorrectionInitResponse
 {
     PBDataReader *_reader;
-    NSString *_addressID;
-    GEOLocation *_addressLocation;
-    NSMutableArray *_address;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _numberOfVisitsBucketSize;
-    int _statusCode;
-    struct {
-        unsigned int has_numberOfVisitsBucketSize:1;
-        unsigned int has_statusCode:1;
-        unsigned int read_addressID:1;
-        unsigned int read_addressLocation:1;
-        unsigned int read_address:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)core:(id)arg1;
++ (_Bool)setHasMapsSuggestionsIsTouristScore:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
+- (void)concatMapWithObservable:(id)arg1 transform:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (void)concatMapWithObservable:(id)arg1 transform:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (unsigned int)CNScheduler;
+- (_Bool)ity, ZIP, State, Country;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,7 +36,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_runAssetQuery:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -62,7 +46,7 @@
 - (id);
 - (void)1·*ð1Â0@ù
 × ;
-- (id)LastUpdate;
+- (id)minSecondsSinceLastUpdate;
 - (id)ÈT;
 - (id)DirectionsTrafficBannerRequestQueuing;
 - (id);
@@ -72,15 +56,7 @@
 - (void)Ì)©ÿKH;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *address;
-@property(retain, nonatomic) NSString *addressID;
-@property(retain, nonatomic) GEOLocation *addressLocation;
-@property(readonly, nonatomic) _Bool hasAddressID;
-@property(readonly, nonatomic) _Bool hasAddressLocation;
-@property(nonatomic) _Bool hasNumberOfVisitsBucketSize;
 @property(nonatomic) _Bool hasStatusCode;
-@property(nonatomic) unsigned int numberOfVisitsBucketSize;
-@property(nonatomic) int statusCode;
 
 @end
 

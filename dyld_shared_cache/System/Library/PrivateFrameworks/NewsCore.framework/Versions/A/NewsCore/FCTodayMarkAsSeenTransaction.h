@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FCTodayMarkAsSeenTransaction
 {
     NSString *_articleID;
-    NSString *_clusterID;
-    long long _articleVersion;
-    NSDate *_seenDate;
 }
 
 + (_Bool);
@@ -20,19 +17,16 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)qa;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)ator;
-- (void)eight;
+- (id)_generator;
+- (void)metaGroupingRelatednessKWeight;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(readonly, nonatomic) long long articleVersion; // @synthesize articleVersion=_articleVersion;
-@property(readonly, copy, nonatomic) NSString *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, copy, nonatomic) NSDate *seenDate; // @synthesize seenDate=_seenDate;
 
 @end
 

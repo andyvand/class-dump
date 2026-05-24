@@ -4,50 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionView, UIColor, _UIListSeparatorConfiguration;
-@protocol NSCollectionLayoutEnvironment_Private, UITableConstants;
+@class UICollectionView;
 
 @interface _UICollectionViewListLayoutSectionConfiguration
 {
     _Bool _stylesFirstItemAsHeader;
-    _Bool _sectionHeaderHugsContent;
-    _Bool _hasCompactSectionSpacing;
-    _Bool __apiVersion;
-    _UIListSeparatorConfiguration *_separatorConfiguration;
-    CDUnknownBlockType _itemSeparatorHandler;
-    long long _appearanceStyle;
-    double _cornerRadius;
-    double _rowHeight;
-    double _sectionHeaderHeight;
-    double _sectionFooterHeight;
-    double _estimatedRowHeight;
-    double _estimatedSectionHeaderHeight;
-    double _estimatedSectionFooterHeight;
-    double _headerTopPadding;
-    long long _separatorStyle;
-    CDUnknownBlockType _separatorInsetProvider;
-    CDUnknownBlockType _leadingSwipeActionsConfigurationProvider;
-    CDUnknownBlockType _trailingSwipeActionsConfigurationProvider;
-    CDUnknownBlockType _willBeginSwipingHandler;
-    CDUnknownBlockType _didEndSwipingHandler;
-    UICollectionView *_collectionView;
-    id <NSCollectionLayoutEnvironment_Private> _layoutEnvironment;
-    NSString *__headerElementKind;
-    NSString *__footerElementKind;
-    UIColor *__backgroundColor;
 }
 
 + (id);
 - (double);
 - (_Bool);
-- (long long);
+- (long long)D9;
 - (double);
 - (void);
-- (double);
-- (CDUnknownBlockType);
-- (double);
-- (_Bool);
-- (void);
+- (double);
+- (CDUnknownBlockType)payloadFilterExtensionPoints;
+- (double),C,N,V_statusAllowed;
+- (_Bool)ration.system.camera;
+- (void)AdminHostInfo;
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -58,10 +32,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)em.;
 - (id);
-- (void);
-- (id);
+- (void)hasLoadedValuesForPropertySet:(_Bool)arg1;
+- (id)kCount;
 - (id);
 - (double);
 - (_Bool);
@@ -88,18 +62,18 @@
 × ;
 - (id)"16;
 - (double)plicitlyShowsSearchResultsController"b1"searchFieldIsBeginningEditing"b1"hidesNavigationBarDuringPresentation"b2"shouldDeferSettingSearchSuggestions"b3"suggestionHasBeenSelected"b1"pendingClearSearchSuggestions"b1"ignoresSearchSuggestionsForStackedSearch"b1"usesSearchSuggestionsMenuForStackedSearch"b1"hasPendingSuggestionMenuRefresh"b1"hasSuppressedSuggestionMenuBeforeHorizontalSizeClassChange"b1"wasShowingSuggestionsWhenChangedToInline"b1"isLayingOutNavigationBarToActivateInlineSearch"b1"isDismissingOrAboutToDismiss"b1"hasDeferredActivation"b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2"hideSearchResultsDivider"b1};
-- (struct _UIListGeometry)ontrollerCallbacks;
+- (struct _UIListGeometry)transitionViewShouldUseViewControllerCallbacks;
 - (void)ent:(CDUnknownBlockType)arg1;
-- (double)aysShowsSeparator;
-- (_Bool)ayers;
-- (double)abelBackgroundColor;
+- (double)menuTitleAlwaysShowsSeparator;
+- (_Bool)_updateNormalImageLayers;
+- (double)_updateDetailLabelBackgroundColor;
 - (long long)_prefersSolidColorHardPocket;
-- (double)ustomizeMenu: /* Error: Ran out of types for this method. */;
-- (void)nt;
-- (double)debarKeyCommandAction;
+- (double)_ensureFirstCategoryMenuIsApplicationMenuWithBuilder:appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
+- (void)_animatingTargetColumnCount;
+- (double)_allowsTriggeringSidebarKeyCommandAction;
 - (id)UICalendarDataModel",&,N,V_dataModel;
 - (double),&,N,G_contentViewController,S_setContentViewController:,V_contentViewController /* Error: Ran out of types for this method. */;
-- (double)cification;
+- (double)_UISceneHostingSceneSpecification;
 - (double)ÿÿ¤;
 - (id)äÑ<Ô;
 - (void)Tùù;
@@ -112,12 +86,12 @@
 - (void)userInterfaceStyle;
 - (void)ointerInteraction.entranceAnimator.%@;
 - (id)@;
-- (double)iewController;
+- (double)UnloadedViewController;
 - (id)e;
 - (void)utViewHost.m;
-- (void)rollerStackManagerSceneComponentKey;
+- (void)_UIAlertControllerStackManagerSceneComponentKey;
 - (void)¯;
-- (void);
+- (void)So10BSSettingsCSg;
 - (_Bool);
 - (void);
 - (void)FÛþ;
@@ -126,36 +100,7 @@
 - (long long)X;
 
 // Remaining properties
-@property(nonatomic, getter=_isAPIVersion) _Bool _apiVersion; // @synthesize _apiVersion=__apiVersion;
-@property(retain, nonatomic) UIColor *_backgroundColor; // @synthesize _backgroundColor=__backgroundColor;
-@property(copy, nonatomic) NSString *_footerElementKind; // @synthesize _footerElementKind=__footerElementKind;
-@property(copy, nonatomic) NSString *_headerElementKind; // @synthesize _headerElementKind=__headerElementKind;
-@property(copy, nonatomic, getter=_itemSeparatorHandler, setter=_setItemSeparatorHandler:) CDUnknownBlockType _itemSeparatorHandler; // @synthesize _itemSeparatorHandler;
-@property(copy, nonatomic, getter=_separatorConfiguration, setter=_setSeparatorConfiguration:) _UIListSeparatorConfiguration *_separatorConfiguration; // @synthesize _separatorConfiguration;
-@property(readonly, nonatomic, getter=_separatorConfigurationNoCopy) _UIListSeparatorConfiguration *_separatorConfigurationNoCopy;
-@property(nonatomic) long long appearanceStyle; // @synthesize appearanceStyle=_appearanceStyle;
 @property(readonly, nonatomic, getter=_collectionView) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, nonatomic, getter=_constants) id <UITableConstants> constants;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(copy, nonatomic) CDUnknownBlockType didEndSwipingHandler; // @synthesize didEndSwipingHandler=_didEndSwipingHandler;
-@property(nonatomic) double estimatedRowHeight; // @synthesize estimatedRowHeight=_estimatedRowHeight;
-@property(nonatomic) double estimatedSectionFooterHeight; // @synthesize estimatedSectionFooterHeight=_estimatedSectionFooterHeight;
-@property(nonatomic) double estimatedSectionHeaderHeight; // @synthesize estimatedSectionHeaderHeight=_estimatedSectionHeaderHeight;
-@property(nonatomic) _Bool hasCompactSectionSpacing; // @synthesize hasCompactSectionSpacing=_hasCompactSectionSpacing;
-@property(nonatomic) double headerTopPadding; // @synthesize headerTopPadding=_headerTopPadding;
-@property(readonly, nonatomic, getter=_layoutEnvironment) id <NSCollectionLayoutEnvironment_Private> layoutEnvironment; // @synthesize layoutEnvironment=_layoutEnvironment;
-@property(copy, nonatomic) CDUnknownBlockType leadingSwipeActionsConfigurationProvider; // @synthesize leadingSwipeActionsConfigurationProvider=_leadingSwipeActionsConfigurationProvider;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(nonatomic) double sectionFooterHeight; // @synthesize sectionFooterHeight=_sectionFooterHeight;
-@property(nonatomic) double sectionHeaderHeight; // @synthesize sectionHeaderHeight=_sectionHeaderHeight;
-@property(nonatomic) _Bool sectionHeaderHugsContent; // @synthesize sectionHeaderHugsContent=_sectionHeaderHugsContent;
-@property(nonatomic) struct NSDirectionalEdgeInsets separatorInset;
-@property(copy, nonatomic) CDUnknownBlockType separatorInsetProvider; // @synthesize separatorInsetProvider=_separatorInsetProvider;
-@property(nonatomic) long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(nonatomic) _Bool stylesFirstItemAsHeader; // @synthesize stylesFirstItemAsHeader=_stylesFirstItemAsHeader;
-@property(copy, nonatomic) CDUnknownBlockType trailingSwipeActionsConfigurationProvider; // @synthesize trailingSwipeActionsConfigurationProvider=_trailingSwipeActionsConfigurationProvider;
-@property(readonly, nonatomic, getter=_wantsSwipeActions) _Bool wantsSwipeActions;
-@property(copy, nonatomic) CDUnknownBlockType willBeginSwipingHandler; // @synthesize willBeginSwipingHandler=_willBeginSwipingHandler;
 
 @end
 

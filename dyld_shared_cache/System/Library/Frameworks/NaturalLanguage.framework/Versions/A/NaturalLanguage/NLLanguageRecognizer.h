@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface NLLanguageRecognizer
 {
     void *_identifier;
-    NSArray *_languageConstraints;
-    NSDictionary *_languageHints;
-    long long _model;
 }
 
 + (id);
@@ -37,7 +32,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)=;
 + (id);
 + (_Bool);
 + (id);
@@ -51,15 +46,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)24;
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *dominantLanguage;
-@property(copy, nonatomic) NSArray *languageConstraints;
-@property(copy, nonatomic) NSDictionary *languageHints;
 @property(readonly, nonatomic) long long model; // @synthesize model=_model;
 
 @end

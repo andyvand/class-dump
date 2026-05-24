@@ -6,28 +6,24 @@
 
 #import <AppKit/NSImageView.h>
 
-@class NSToolbarItem;
-
 __attribute__((visibility("hidden")))
 @interface NSToolbarItemImageRepresentationView : NSImageView
 {
     struct NSEdgeInsets _alignmentRectInsets;
-    NSToolbarItem *_representedItem;
 }
 
-- (id);
+- (id)CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/IORegistryUtilities/MGIOKitHelper.m;
 - (void);
+- (void);
+- (id)Forced;
 - (void);
-- (id);
-- (void);
-- (void)eAlias;
-- (void);
+- (void)IconDeleteAlias;
+- (void)ConnectionManager;
 - (struct NSEdgeInsets);
 - (void)AE;
 
 // Remaining properties
 @property struct NSEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(retain) NSToolbarItem *representedItem; // @synthesize representedItem=_representedItem;
 
 @end
 

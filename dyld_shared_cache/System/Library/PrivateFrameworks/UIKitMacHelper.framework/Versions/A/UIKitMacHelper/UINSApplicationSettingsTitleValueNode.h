@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsTitleValueNode : UINSApplicationSettingsDefaultsSettingsNode
 {
     NSArray *_values;
-    NSArray *_localizedValueTitles;
 }
 
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *localizedValueTitles; // @synthesize localizedValueTitles=_localizedValueTitles;
 @property(readonly, copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end

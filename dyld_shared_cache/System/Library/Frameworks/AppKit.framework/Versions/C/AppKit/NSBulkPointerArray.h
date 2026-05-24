@@ -4,52 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerFunctions;
-
 __attribute__((visibility("hidden")))
 @interface NSBulkPointerArray
 {
     void **_cArray;
-    unsigned long long _count;
-    unsigned long long _capacity;
-    NSPointerFunctions *_pointerFuncs;
-    unsigned long long _pointerFuncOptions;
 }
 
 + (void);
 + (id);
 + (id)1Â0@ù
 × ;
-+ (id)ancelButtonTarget:(unsigned long long)arg1;
-- (void *);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
++ (id)setCancelButtonTarget:(unsigned long long)arg1;
+- (void *)set_allowsCellularOverride:(void *)arg1;
+- (void)rangeOfCharacterFromSet:(id)arg1;
+- (void)initWithResumeData:(struct _NSRange)arg1 delegate:path: /* Error: Ran out of types for this method. */;
+- (_Bool)_skipUnlink;
+- (_Bool)_shouldUsePipelineHeuristics;
+- (void)ountOfBytesExpectedToReceive;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)\.;
 - (void **);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void *)3ð1Â0@ù
 × ;
-- (id)tativelyForReordering:(struct _NSZone *)arg1;
-- (id)leViewOverridingDrawBackgroundDisablesContentBackgroundEffect;
+- (id)_endItemAnimationsWithInvalidationContext:(struct _NSZone *)arg1 tentativelyForReordering: /* Error: Ran out of types for this method. */;
+- (id)NSTableViewOverridingDrawBackgroundDisablesContentBackgroundEffect;
 - (void)4@?0@8@"NSArray"16;
 - (unsigned long long)remove;
-- (id)SingleLineMode;
+- (id)NSControlUsesSingleLineMode;
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;

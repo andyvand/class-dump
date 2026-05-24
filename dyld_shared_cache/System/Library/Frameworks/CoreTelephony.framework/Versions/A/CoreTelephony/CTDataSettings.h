@@ -7,25 +7,21 @@
 @interface CTDataSettings
 {
     _Bool _cellularDataEnabled;
-    _Bool _airplaneModeEnabled;
-    _Bool _cellularDataCapable;
 }
 
-+ (_Bool);
++ (_Bool)stomurl.cfurlconnection;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)}s failed %{public}@;
 - (id);
-- (_Bool);
+- (_Bool)/;
 - (void),N;
 - (_Bool)FwR;
 
 // Remaining properties
-@property(nonatomic, getter=isAirplaneModeEnabled) _Bool airplaneModeEnabled; // @synthesize airplaneModeEnabled=_airplaneModeEnabled;
-@property(nonatomic, getter=isCellularDataCapable) _Bool cellularDataCapable; // @synthesize cellularDataCapable=_cellularDataCapable;
 @property(nonatomic, getter=isCellularDataEnabled) _Bool cellularDataEnabled; // @synthesize cellularDataEnabled=_cellularDataEnabled;
 
 @end

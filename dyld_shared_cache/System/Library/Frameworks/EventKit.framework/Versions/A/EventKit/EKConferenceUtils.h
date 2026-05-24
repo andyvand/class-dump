@@ -8,25 +8,27 @@
 {
 }
 
++ (void)ller] <%@> End loading data. Response:(id)arg1 %@.;
++ (id)ding updates;
++ (id)Change for %@. Skipping update;
++ (void)Error encoding to XPC message:(id)arg1 %@ object:(id)arg2 %@;
++ (id)l did change:(id)arg1 supportsVolumeControl=%{BOOL}u, canSetVolume=%{BOOL}u, volumeControlType=%{public}@, effectiveVolumeCapabilities=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
++ (void)anged for configuration %{public}@ for endpoint %{public}@;
++ (void)nt device %p discoveryOutputDevicesChanged for configuration %{public}@ for endpoint %{public}@;
++ (void)de changes;
++ (double)yingPlayerClient *__strong, NSArray<MSVCallback *> *__strong, MRPlaybackQueueRequest *__strong, MRContentItem *__strong);
++ (void)allowsEmptySelection;
++ (id)MRGroupSessionEventOptionEventType;
++ (void)MRGroupSessionEventOptionDiscoveredSessionIdentifier;
++ (id)MRGroupSessionEventOptionSessionIdentifier;
++ (id)MRPlaybackQueueRequestCopy(MRPlaybackQueueRequestRef);
++ (void)p {
+ %@ 
+};
 + (void);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (double);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (id)ROUTE_NAMES_CONCAT_DELIMITER;
++ (id)Stationary;
++ (id)known(%ld);
 + (id);
 + (id);
 

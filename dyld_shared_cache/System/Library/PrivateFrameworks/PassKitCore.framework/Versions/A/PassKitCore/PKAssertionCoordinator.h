@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, PKXPCService;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 @interface PKAssertionCoordinator
 {
     NSHashTable *_acquiredAssertions;
-    PKXPCService *_remoteService;
-    NSObject<OS_dispatch_queue> *_coordinatorSerialQueue;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)currentQuery;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void),V_minimumReceiveAmount;
 - (id)ESSAGE;
-- (void)st;
+- (void)manifest;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

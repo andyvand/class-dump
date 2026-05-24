@@ -7,6 +7,7 @@
 @protocol UIContentConfiguration;
 
 @protocol UIContentView
+- (id <UIContentConfiguration>);
 
 // Remaining properties
 @property(copy, nonatomic) id <UIContentConfiguration> configuration;

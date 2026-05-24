@@ -11,7 +11,6 @@
 @interface iCloudFMIPAuthenticateResponse : iCloudAccountResponse
 {
     NSDictionary *_tokens;
-    NSDictionary *_appleAccountInfo;
 }
 
 - (id);

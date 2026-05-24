@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface TKTokenKeyExchangeParameters
 {
     long long _requestedSize;
-    NSData *_sharedInfo;
 }
 
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)uthentication.Authorization.checkCanAuthorizeWithCompletion;
 
 // Remaining properties
 @property(readonly) long long requestedSize; // @synthesize requestedSize=_requestedSize;
-@property(readonly, copy) NSData *sharedInfo; // @synthesize sharedInfo=_sharedInfo;
 
 @end
 

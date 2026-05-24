@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSArray;
 @protocol UINSWindow;
 
 @interface _UIWindowToolbarController
 {
     id <UINSWindow> _hostWindow;
-    NSArray *_itemIdentifiers;
-    NSString *_centeredItemIdentifier;
-    NSSet *_templateItems;
-    _Bool _hasExplicitToolbar;
 }
 
-+ (id);
++ (id):%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool):8@16@24B32@36@44@52@60B68@72 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)snaop_sdf_results_formatter_node_t;
 - (id);
 - (void);
 - (id);
@@ -35,10 +31,7 @@
 - (id)So7UIColorCABIeyBya_;
 
 // Remaining properties
-@property(nonatomic) _Bool autoHidesToolbarInFullScreen;
-@property(copy, nonatomic) NSString *centeredItemIdentifier; // @synthesize centeredItemIdentifier=_centeredItemIdentifier;
 @property(copy, nonatomic) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(copy, nonatomic) NSSet *templateItems; // @synthesize templateItems=_templateItems;
 
 @end
 

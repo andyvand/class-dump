@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMNode.h>
 
-@class DOMAbstractView, DOMDocumentType, DOMElement, DOMHTMLCollection, DOMHTMLElement, DOMImplementation, DOMStyleSheetList, NSString, WebFrame;
+@class WebFrame;
 
 @interface DOMDocument : DOMNode
 {
@@ -14,35 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, copy) NSString *URL;
-@property(readonly) DOMElement *activeElement;
-@property(readonly) DOMHTMLCollection *anchors;
-@property(readonly) DOMHTMLCollection *applets;
-@property(retain) DOMHTMLElement *body;
-@property(readonly, copy) NSString *characterSet;
-@property(copy) NSString *charset;
-@property(copy) NSString *cookie;
-@property(readonly, copy) NSString *defaultCharset;
-@property(readonly) DOMAbstractView *defaultView;
-@property(readonly) DOMDocumentType *doctype;
-@property(readonly) DOMElement *documentElement;
-@property(copy) NSString *documentURI;
-@property(readonly, copy) NSString *domain;
-@property(readonly) DOMHTMLCollection *forms;
-@property(readonly) DOMHTMLCollection *images;
-@property(readonly) DOMImplementation *implementation;
-@property(readonly, copy) NSString *inputEncoding;
-@property(readonly, copy) NSString *lastModified;
-@property(readonly) DOMHTMLCollection *links;
-@property(readonly, copy) NSString *preferredStylesheetSet;
-@property(readonly, copy) NSString *readyState;
-@property(readonly, copy) NSString *referrer;
-@property(copy) NSString *selectedStylesheetSet;
-@property(readonly) DOMStyleSheetList *styleSheets;
-@property(copy) NSString *title;
 @property(readonly, nonatomic) WebFrame *webFrame;
-@property(readonly, copy) NSString *xmlEncoding;
-@property _Bool xmlStandalone;
-@property(copy) NSString *xmlVersion;
 @end
 

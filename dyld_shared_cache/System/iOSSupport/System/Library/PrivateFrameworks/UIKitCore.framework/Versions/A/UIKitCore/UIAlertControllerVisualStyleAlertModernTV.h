@@ -12,20 +12,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
+- (id)rchived records;
+- (_Bool)hats for messageID:%@   chats:%@ /* Error: Ran out of types for this method. */;
+- (id)PersistentTaskGroup;
+- (long long)middle;
+- (double);
+- (double);
+- (id);
 - (id);
-- (_Bool);
 - (id);
+- (double);
+- (long long);
 - (long long);
 - (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (double);
-- (long long);
-- (long long);
-- (double);
-- (double);
+- (double);;
 - (double);
 - (double);
 - (double);
@@ -34,12 +34,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (double);
-- (struct CGSize);
+- (struct CGSize)m;
 - (id);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (double);
-- (_Bool);
+- (double)<o;
+- (_Bool)=;
 - (void);
 - (double);
 - (double);

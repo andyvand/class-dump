@@ -4,58 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBSpatialInteractionFilter, NSArray, NSData, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_xpc_object;
+@class NSData;
 
 @interface CBSpatialInteractionSession
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateCompletion;
-    NSObject<OS_dispatch_source> *_advertiseRateTimer;
-    _Bool _changesPending;
-    NSMutableDictionary *_deviceMap;
-    _Bool _direct;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSMutableDictionary *_peerMap;
-    struct LogCategory *_ucat;
-    NSObject<OS_xpc_object> *_xpcCnx;
-    _Bool _enableEPAForLEAdvertisement;
-    BOOL _bleRSSIThresholdHint;
-    unsigned char _bleRSSIThresholdOrder;
-    unsigned int _systemOverrideFlags;
-    int _advertiseRate;
-    unsigned int _controlFlags;
-    int _scanRate;
-    int _scanRateOverride;
-    int _scanRateScreenOff;
-    unsigned int _uwbTokenFlags;
-    unsigned int _clientID;
-    unsigned int _internalFlags;
-    long long _bluetoothState;
-    CDUnknownBlockType _bluetoothStateChangedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    CDUnknownBlockType _systemOverrideHandler;
-    CDUnknownBlockType _advertisingAddressChangedHandler;
-    NSData *_advertisingAddressData;
-    CDUnknownBlockType _aopDataHandler;
-    CDUnknownBlockType _measurementHandler;
-    CDUnknownBlockType _tokenChangedHandler;
-    NSData *_tokenData;
-    NSData *_uwbConfigData;
-    NSData *_presenceConfigData;
-    NSData *_clientIrkData;
-    NSData *_clientIdentifierData;
-    CBSpatialInteractionFilter *_filter;
-    NSData *_identifierData;
-    NSData *_irkData;
-    NSObject<OS_xpc_object> *_testListenerEndpoint;
 }
 
 + (id);
@@ -66,10 +19,10 @@
 - (int);
 - (_Bool);
 - (void);
-- (int);
-- (void);
-- (void);
-- (id);
+- (int)@?,C,N,V_completionHandler;
+- (void)AVPlayerItemOutputInternal;
+- (void)dentifier;
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -88,7 +41,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)$Q;
 - (id);
 - (void);
 - (void);
@@ -96,28 +49,28 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ab;
 - (CDUnknownBlockType);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (CDUnknownBlockType)unarchiveCompletionBlock;
+- (void)initWithLabel:(id)arg1 color: /* Error: Ran out of types for this method. */;
+- (void)eligibleActionsForDroppingItems:underItem: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (void);
+- (void)<P;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -129,9 +82,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)icsXPCServices:(unsigned int)arg1 error when sending (%d) message:%s /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)4@0:8@"NSPortMessage"16 /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)artition.;
 - (void);
 - (id);
 - (void);
@@ -144,69 +97,33 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)PLXPCBatchedMessage;
 - (void)^&Ð!;
 - (int)*1Â0@ù
 × ;
 - (void)0@ù
 × ;
 - (CDUnknownBlockType);
-- (BOOL)gs: /* Error: Ran out of types for this method. */;
-- (id)irection: /* Error: Ran out of types for this method. */;
-- (void)imityServiceHomeKitSetupPtr:(id)arg1 end: /* Error: Ran out of types for this method. */;
+- (BOOL)setOldDiscoveryFlags: /* Error: Ran out of types for this method. */;
+- (id)setCrownRotationDirection: /* Error: Ran out of types for this method. */;
+- (void)_parseProximityServiceHomeKitSetupPtr:(id)arg1 end: /* Error: Ran out of types for this method. */;
 - (void)SendEventHandler;
-- (unsigned char)formTCCCheck;
+- (unsigned char)performTCCCheck;
 - (void)R;
 - (void)(;
 - (id)failed:direct, %@, %@ /* Error: Ran out of types for this method. */;
 - (void)nk;
 - (void)tedly;
 - (unsigned int)4F68-ACE6-E036ABE50781;
-- (void)ed;
+- (void)kCBMsgArgModesSupported;
 - (void):%@ is not a valid peripheral /* Error: Ran out of types for this method. */;
 - (void)CID:(id)arg1 %u %@;
 - (unsigned int)red;
 
 // Remaining properties
-@property(nonatomic) int advertiseRate; // @synthesize advertiseRate=_advertiseRate;
-@property(copy, nonatomic) CDUnknownBlockType advertisingAddressChangedHandler; // @synthesize advertisingAddressChangedHandler=_advertisingAddressChangedHandler;
 @property(copy, nonatomic) NSData *advertisingAddressData; // @synthesize advertisingAddressData=_advertisingAddressData;
-@property(copy, nonatomic) CDUnknownBlockType aopDataHandler; // @synthesize aopDataHandler=_aopDataHandler;
-@property(nonatomic) BOOL bleRSSIThresholdHint; // @synthesize bleRSSIThresholdHint=_bleRSSIThresholdHint;
-@property(nonatomic) unsigned char bleRSSIThresholdOrder; // @synthesize bleRSSIThresholdOrder=_bleRSSIThresholdOrder;
-@property(readonly, nonatomic) long long bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property(copy, nonatomic) CDUnknownBlockType bluetoothStateChangedHandler; // @synthesize bluetoothStateChangedHandler=_bluetoothStateChangedHandler;
-@property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(copy) NSData *clientIdentifierData; // @synthesize clientIdentifierData=_clientIdentifierData;
-@property(copy) NSData *clientIrkData; // @synthesize clientIrkData=_clientIrkData;
-@property(nonatomic) unsigned int controlFlags; // @synthesize controlFlags=_controlFlags;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
-@property(readonly, copy) NSArray *discoveredDevices;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) _Bool enableEPAForLEAdvertisement; // @synthesize enableEPAForLEAdvertisement=_enableEPAForLEAdvertisement;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CBSpatialInteractionFilter *filter; // @synthesize filter=_filter;
-@property(copy, nonatomic) NSData *identifierData; // @synthesize identifierData=_identifierData;
-@property(nonatomic) unsigned int internalFlags; // @synthesize internalFlags=_internalFlags;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSData *irkData; // @synthesize irkData=_irkData;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType measurementHandler; // @synthesize measurementHandler=_measurementHandler;
-@property(copy) NSData *presenceConfigData; // @synthesize presenceConfigData=_presenceConfigData;
-@property(nonatomic) int scanRate; // @synthesize scanRate=_scanRate;
-@property(nonatomic) int scanRateOverride; // @synthesize scanRateOverride=_scanRateOverride;
-@property(nonatomic) int scanRateScreenOff; // @synthesize scanRateScreenOff=_scanRateScreenOff;
-@property(readonly, nonatomic) unsigned int systemOverrideFlags; // @synthesize systemOverrideFlags=_systemOverrideFlags;
-@property(copy, nonatomic) CDUnknownBlockType systemOverrideHandler; // @synthesize systemOverrideHandler=_systemOverrideHandler;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *testListenerEndpoint; // @synthesize testListenerEndpoint=_testListenerEndpoint;
-@property(copy, nonatomic) CDUnknownBlockType tokenChangedHandler; // @synthesize tokenChangedHandler=_tokenChangedHandler;
-@property(copy, nonatomic) NSData *tokenData; // @synthesize tokenData=_tokenData;
-@property(copy) NSData *uwbConfigData; // @synthesize uwbConfigData=_uwbConfigData;
-@property(nonatomic) unsigned int uwbTokenFlags; // @synthesize uwbTokenFlags=_uwbTokenFlags;
 
 @end
 

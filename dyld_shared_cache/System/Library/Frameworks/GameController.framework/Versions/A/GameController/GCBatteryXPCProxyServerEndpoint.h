@@ -4,53 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceBattery, NSString;
-@protocol GCBatteryXPCProxyRemoteClientEndpointInterface, GCBatteryXPCProxyServerEndpointDelegate, NSObject><NSCopying><NSSecureCoding, _GCControllerComponentDescription, _GCIPCEndpointConnection;
+@protocol GCBatteryXPCProxyRemoteClientEndpointInterface, _GCControllerComponentDescription;
 
 __attribute__((visibility("hidden")))
 @interface GCBatteryXPCProxyServerEndpoint
 {
     id <GCBatteryXPCProxyRemoteClientEndpointInterface> _clientEndpoint;
-    id <_GCIPCEndpointConnection> _connection;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    unsigned long long _pendingUpdates;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    GCDeviceBattery *_battery;
-    id <GCBatteryXPCProxyServerEndpointDelegate> _delegate;
-    id _userInfo;
 }
 
-- (void);
+- (void)5;
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)reverseTransformation;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GCDeviceBattery *battery; // @synthesize battery=_battery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GCBatteryXPCProxyServerEndpointDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) id <_GCControllerComponentDescription> receiverDescription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

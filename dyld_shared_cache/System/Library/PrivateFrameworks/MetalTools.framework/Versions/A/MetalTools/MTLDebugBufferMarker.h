@@ -9,10 +9,9 @@
 @interface MTLDebugBufferMarker
 {
     NSString *_label;
-    struct _NSRange _range;
 }
 
-- (void);
+- (void);
 - (id);
 - (struct _NSRange);
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

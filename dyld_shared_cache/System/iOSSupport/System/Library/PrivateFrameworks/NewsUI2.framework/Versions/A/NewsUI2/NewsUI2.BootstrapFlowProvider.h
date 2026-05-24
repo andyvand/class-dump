@@ -7,11 +7,6 @@
 @interface NewsUI2.BootstrapFlowProvider
 {
     id resolver;
-    id featureAvailability;
-    id articleLinkBehaviorConfigManager;
-    id appLaunchMethodChecker;
-    id welcomeStatus;
-    id $__lazy_storage_$_currentOnboardingExperience;
 }
 
 @end

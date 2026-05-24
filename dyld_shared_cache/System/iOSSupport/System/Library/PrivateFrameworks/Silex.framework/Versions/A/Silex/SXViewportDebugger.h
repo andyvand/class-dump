@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXViewport, SXViewportDebuggerOverlayView;
+@class SXViewport;
 
 @interface SXViewportDebugger
 {
     SXViewport *_viewport;
-    SXViewportDebuggerOverlayView *_dynamicBoundsView;
-    SXViewportDebuggerOverlayView *_appearStateIndicator;
 }
 
 - (void);
@@ -26,15 +24,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) SXViewportDebuggerOverlayView *appearStateIndicator; // @synthesize appearStateIndicator=_appearStateIndicator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SXViewportDebuggerOverlayView *dynamicBoundsView; // @synthesize dynamicBoundsView=_dynamicBoundsView;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end

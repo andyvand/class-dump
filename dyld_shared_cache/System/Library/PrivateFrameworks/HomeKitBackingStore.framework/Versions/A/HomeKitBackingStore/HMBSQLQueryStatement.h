@@ -13,7 +13,7 @@
     NSDictionary *_arguments;
 }
 
-- (id);
+- (id)E;
 - (id);
 - (id);
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFXPCSession, AKPrivateEmailClientImpl, NSString;
-@protocol AKPrivateEmailUIProvider;
+@class AAFXPCSession, AKPrivateEmailClientImpl;
 
 @interface AKPrivateEmailController
 {
     AKPrivateEmailClientImpl *_clientImpl;
-    AAFXPCSession *_remoteService;
 }
 
 - (void);
@@ -21,12 +19,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -36,15 +34,7 @@
 - (id)S¯e¸Ô+G3¶Sñ×ò0-²á%Á/¹â¾l`Ú§.%eV<÷ffÐ£U§D}{ ÎÚäGæ¢RÀ×ì­'ÿÃL5î$dMXõlÅD~sö÷ßß§0îéÏqÆyu0r]H:yw¡í_Ù[zìx®Ä /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AAFXPCSession *remoteService; // @synthesize remoteService=_remoteService;
-@property(readonly) Class superclass;
-@property(retain) id <AKPrivateEmailUIProvider> uiProvider;
 
 @end
 

@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (id)initWithPreferences:(double)arg1;
 + (id);
 + (void);
++ (id);
++ (id);
++ (id);
++ (void);
 
 @end
 

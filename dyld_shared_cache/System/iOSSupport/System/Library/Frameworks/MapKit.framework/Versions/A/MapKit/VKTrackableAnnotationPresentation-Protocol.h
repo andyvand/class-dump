@@ -5,17 +5,13 @@
 //
 
 @protocol VKTrackableAnnotationPresentation
+- (CDStruct_c3b9c2ee)locationManager:didVisit: /* Error: Ran out of types for this method. */;
 - (double)ù1Â0@ù
 × ;
 - (void)©\ª;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingAccuracy) _Bool animatingAccuracy;
-@property(readonly, nonatomic) struct VKEdgeInsets annotationTrackingEdgeInsets;
-@property(readonly, nonatomic) double minimumAccuracy;
-@property(nonatomic) double presentationAccuracy;
 @property(nonatomic) CDStruct_c3b9c2ee presentationCoordinate;
-@property(nonatomic) _Bool tracking;
 @end
 

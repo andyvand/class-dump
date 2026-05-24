@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2Session, NSString;
+@class C2Session;
 
 __attribute__((visibility("hidden")))
 @interface C2SessionTLSCache
 {
     C2Session *_pinnedSession;
-    C2Session *_unpinnedSession;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)[;
 - (id);
 - (void);
 - (id);
@@ -26,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) C2Session *pinnedSession; // @synthesize pinnedSession=_pinnedSession;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) C2Session *unpinnedSession; // @synthesize unpinnedSession=_unpinnedSession;
 
 @end
 

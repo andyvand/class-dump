@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     id _value;
 }
 
+- (id)recentsController;
 - (id);
-- (id);
-- (id);
+- (id)pending;
 - (void);
-- (id)tCachedSystemAnimationFence: /* Error: Ran out of types for this method. */;
+- (id)_setCachedSystemAnimationFence: /* Error: Ran out of types for this method. */;
 - (void):0 /* Error: Ran out of types for this method. */;
 - (id)b;
 

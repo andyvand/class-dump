@@ -6,16 +6,14 @@
 
 #import <TSReading/TSDContentAnimation.h>
 
-@class CAMediaTimingFunction, NSArray;
+@class NSArray;
 
 @interface TSDContentAnimationGroup : TSDContentAnimation
 {
     NSArray *_animations;
-    CAMediaTimingFunction *_timingFunction;
-    double _duration;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -24,12 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)tableView:(id)arg1 estimatedHeightForFooterInSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *animations; // @synthesize animations=_animations;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
 
 @end
 

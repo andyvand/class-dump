@@ -5,5 +5,8 @@
 //
 
 @protocol PKUserCodable
+
+@optional
+- (id);
 @end
 

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGroupData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDGroupParams
 {
     PBUnknownFields *_unknownFields;
-    GEOPDGroupData *_groupData;
-    int _actionDataItemIndex;
-    int _groupButtonType;
-    struct {
-        unsigned int has_actionDataItemIndex:1;
-        unsigned int has_groupButtonType:1;
-    } _flags;
 }
 
-+ (_Bool)ZilchIndex:(id)arg1;
++ (_Bool)setHintFirstAnnouncementZilchIndex:(id)arg1;
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (_Bool);
@@ -34,7 +27,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -44,19 +37,13 @@
 - (_Bool);
 - (void);
 - (id)"b1"has_transactionLocationAge"b1"has_transactionTimestamp"b1"has_transactionStatus"b1"has_transactionType"b1"has_coarseLocationUsed"b1"has_enableBrandMuidFallback"b1"has_fuzzyMatched"b1"has_isNonApplePayFpanTransaction"b1"read_unknownFields"b1"read_appIdentifier"b1"read_currentLocationHintMetadata"b1"read_identityMerchantInformation"b1"read_industryCategory"b1"read_merchantCode"b1"read_merchantInformation"b1"read_paymentNetwork"b1"read_rawMerchantCode"b1"read_terminalId"b1"read_transactionCurrencyCode"b1"read_transactionId"b1"read_transactionLocation"b1"read_warsawMerchantIdentifier"b1"wrote_anyField"b1};
-- (id)eballOutsideOfMapsPredictedEntryDate;
+- (id)_dodgeballOutsideOfMapsPredictedEntryDate;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int actionDataItemIndex;
-@property(nonatomic) int groupButtonType;
-@property(retain, nonatomic) GEOPDGroupData *groupData;
-@property(nonatomic) _Bool hasActionDataItemIndex;
 @property(nonatomic) _Bool hasGroupButtonType;
-@property(readonly, nonatomic) _Bool hasGroupData;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -6,31 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaSiriResponseContext, SISchemaUUID;
+@class NSString;
 
 @interface SISchemaUUFRSaid : SISchemaInstrumentationMessage
 {
     NSString *_dialogIdentifier;
-    SISchemaSiriResponseContext *_siriResponseContext;
-    NSString *_aceViewID;
-    NSString *_aceViewClass;
-    int _sonicResponse;
-    int _responseCategory;
-    SISchemaUUID *_subRequestId;
-    struct {
-        unsigned int sonicResponse:1;
-        unsigned int responseCategory:1;
-    } _has;
-    _Bool _hasDialogIdentifier;
-    _Bool _hasSiriResponseContext;
-    _Bool _hasAceViewID;
-    _Bool _hasAceViewClass;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
 - (int);
-- (id);
+- (id)Z;
 - (void);
 - (void);
 - (void);
@@ -66,31 +51,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)iconBundlePath;
 - (_Bool);
-- (_Bool);
+- (_Bool)ERE index_state != 2 AND (((associated_message_type not between 2000 and 2007) and associated_message_type != 0) or item_type != 0);
+- (id)P;
 - (id);
-- (id);
-- (id)e;
-- (id)d;
+- (id)deleteHasSiriLocale;
+- (id)_hasElectionTimerEnded;
 - (void)CDMSERVICETYPE_CATI_PROTO;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceViewClass; // @synthesize aceViewClass=_aceViewClass;
-@property(copy, nonatomic) NSString *aceViewID; // @synthesize aceViewID=_aceViewID;
 @property(copy, nonatomic) NSString *dialogIdentifier; // @synthesize dialogIdentifier=_dialogIdentifier;
-@property(nonatomic) _Bool hasAceViewClass; // @synthesize hasAceViewClass=_hasAceViewClass;
-@property(nonatomic) _Bool hasAceViewID; // @synthesize hasAceViewID=_hasAceViewID;
-@property(nonatomic) _Bool hasDialogIdentifier; // @synthesize hasDialogIdentifier=_hasDialogIdentifier;
-@property(nonatomic) _Bool hasResponseCategory;
-@property(nonatomic) _Bool hasSiriResponseContext; // @synthesize hasSiriResponseContext=_hasSiriResponseContext;
-@property(nonatomic) _Bool hasSonicResponse;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int responseCategory; // @synthesize responseCategory=_responseCategory;
-@property(retain, nonatomic) SISchemaSiriResponseContext *siriResponseContext; // @synthesize siriResponseContext=_siriResponseContext;
-@property(nonatomic) int sonicResponse; // @synthesize sonicResponse=_sonicResponse;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 
 @end
 

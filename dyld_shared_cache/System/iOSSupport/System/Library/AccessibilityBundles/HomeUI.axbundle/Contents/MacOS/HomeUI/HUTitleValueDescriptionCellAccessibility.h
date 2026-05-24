@@ -14,7 +14,7 @@
 + (id);
 + (void);
 - (_Bool);
-- (id);
+- (id)validateProtocol:hasMethod:isInstanceMethod:isRequired: /* Error: Ran out of types for this method. */;
 
 @end
 

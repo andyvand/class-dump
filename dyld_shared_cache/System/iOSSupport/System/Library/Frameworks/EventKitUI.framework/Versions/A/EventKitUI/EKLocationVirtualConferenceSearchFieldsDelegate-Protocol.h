@@ -5,5 +5,8 @@
 //
 
 @protocol EKLocationVirtualConferenceSearchFieldsDelegate
+- (void)s;
+- (void)&s;
+- (void);
 @end
 

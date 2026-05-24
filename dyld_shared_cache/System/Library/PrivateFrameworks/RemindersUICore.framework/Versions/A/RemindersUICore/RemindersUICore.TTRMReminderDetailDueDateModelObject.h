@@ -7,21 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailDueDateModelObject
 {
     id _dueDateOn;
-    id _dueDateText;
-    id _dueDateToggleVisible;
-    id _dueDateAccessibilityText;
-    id _dueDatePickerViewModel;
-    id _dueTimeOn;
-    id _dueTimeText;
-    id _dueTimePickerViewModel;
-    id _timeZoneText;
-    id _recurrence;
-    id _recurrenceEnd;
-    id _isCustomRecurrenceToggledOn;
-    id _earlyAlertOptions;
-    id _earlyAlertPickerViewModel;
-    id _earlyAlertDescriptionViewModel;
-    id _$observationRegistrar;
 }
 
 @end

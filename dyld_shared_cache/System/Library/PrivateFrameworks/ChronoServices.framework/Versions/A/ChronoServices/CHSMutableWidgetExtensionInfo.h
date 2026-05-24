@@ -6,7 +6,7 @@
 
 #import <ChronoServices/CHSWidgetExtensionInfo.h>
 
-@class NSArray, NSDate, NSObject, NSString, NSURL;
+@class NSString;
 
 @interface CHSMutableWidgetExtensionInfo : CHSWidgetExtensionInfo
 {
@@ -26,7 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)
+kJ?;
 - (void);
 - (void);
 - (void);
@@ -39,38 +40,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)objectForKeyedSubscript:(id)arg1;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activityURLs; // @dynamic activityURLs;
-@property(nonatomic) _Bool allowsMixedLocalizations; // @dynamic allowsMixedLocalizations;
-@property(copy, nonatomic) NSArray *availableLocalizations; // @dynamic availableLocalizations;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @dynamic bundleIdentifier;
-@property(copy, nonatomic) NSURL *bundleURL; // @dynamic bundleURL;
-@property(copy, nonatomic) NSString *containerBundleIdentifier; // @dynamic containerBundleIdentifier;
-@property(copy, nonatomic) NSURL *containerURL; // @dynamic containerURL;
-@property(copy, nonatomic) NSArray *controlConfigurations; // @dynamic controlConfigurations;
-@property(copy, nonatomic) NSString *dataProtectionLevel; // @dynamic dataProtectionLevel;
-@property(copy, nonatomic) NSArray *descriptors; // @dynamic descriptors;
-@property(nonatomic) _Bool disablesImplicitDiscovery; // @dynamic disablesImplicitDiscovery;
-@property(copy, nonatomic) NSString *effectiveContainerBundleIdentifier; // @dynamic effectiveContainerBundleIdentifier;
-@property(retain, nonatomic) NSObject *entitlements; // @dynamic entitlements;
-@property(nonatomic) _Bool isDevelopmentExtension; // @dynamic isDevelopmentExtension;
-@property(copy, nonatomic) NSDate *lastModifiedDate; // @dynamic lastModifiedDate;
-@property(copy, nonatomic) NSArray *liveControlURLs; // @dynamic liveControlURLs;
-@property(copy, nonatomic) NSArray *livePlaceholderControlURLs; // @dynamic livePlaceholderControlURLs;
-@property(copy, nonatomic) NSArray *nominatedContainerBundleIdentifiers; // @dynamic nominatedContainerBundleIdentifiers;
-@property(copy, nonatomic) NSArray *placeholderURLs; // @dynamic placeholderURLs;
-@property(copy, nonatomic) NSArray *previewControlURLs; // @dynamic previewControlURLs;
-@property(copy, nonatomic) NSString *sdkVersion; // @dynamic sdkVersion;
-@property(copy, nonatomic) NSArray *snapshotURLs; // @dynamic snapshotURLs;
-@property(copy, nonatomic) NSURL *systemDataContainerURL; // @dynamic systemDataContainerURL;
-@property(copy, nonatomic) NSArray *timelineURLs; // @dynamic timelineURLs;
-@property(copy, nonatomic) NSString *version; // @dynamic version;
-@property(nonatomic) _Bool wantsLocation; // @dynamic wantsLocation;
-@property(copy, nonatomic) NSArray *widgetConfigurations; // @dynamic widgetConfigurations;
 
 @end
 

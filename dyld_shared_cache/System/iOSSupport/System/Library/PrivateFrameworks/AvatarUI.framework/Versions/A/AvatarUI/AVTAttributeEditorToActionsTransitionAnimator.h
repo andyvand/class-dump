@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIEnvironment, NSString;
-@protocol AVTViewLayoutInfo;
+@class AVTUIEnvironment;
 
 @interface AVTAttributeEditorToActionsTransitionAnimator
 {
     _Bool _RTL;
-    AVTUIEnvironment *_environment;
-    id <AVTViewLayoutInfo> _avtViewLayoutInfo;
-    double _userInfoViewHeight;
 }
 
 + (struct UIEdgeInsets);
@@ -20,23 +16,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double)?;
 - (void);
 - (id);
-- (void);
+- (void)5Q]};
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool RTL; // @synthesize RTL=_RTL;
-@property(readonly, nonatomic) id <AVTViewLayoutInfo> avtViewLayoutInfo; // @synthesize avtViewLayoutInfo=_avtViewLayoutInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double userInfoViewHeight; // @synthesize userInfoViewHeight=_userInfoViewHeight;
 
 @end
 

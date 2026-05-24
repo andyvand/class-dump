@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSWindow;
+
 @protocol NSWindowDelegate
+
+@optional
+- (NSWindow *)y	<;
+- (void)y	H;
+- (void)y	h;
+- (void);
+- (NSArray *)qa;
+- (void)?;
+- (void);
+- (void)Panther Settings for W;
 @end
 

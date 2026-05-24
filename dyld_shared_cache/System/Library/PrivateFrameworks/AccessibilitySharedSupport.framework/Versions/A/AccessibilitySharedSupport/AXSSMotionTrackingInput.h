@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AXSSMotionTrackingInput
 {
@@ -21,22 +21,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)ty; rejecting connection %{public}@;
+- (void)NNSHTTPCookiePropertyKey;
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCamera;
-@property(readonly, nonatomic) _Bool isHIDDevice;
-@property(readonly, nonatomic) _Bool isVideoFile;
 @property(readonly, copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, copy, nonatomic) NSDictionary *plistDictionary;
-@property(readonly, nonatomic) _Bool supportsExpressions;
-@property(readonly, nonatomic) _Bool supportsLookAtPoint;
-@property(readonly, nonatomic) unsigned long long trackingType; // @dynamic trackingType;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier; // @dynamic uniqueIdentifier;
 
 @end
 

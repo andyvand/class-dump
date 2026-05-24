@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _UITraitStorageList
 {
     id _topLevelObject;
-    NSArray *_traitStorages;
-    NSSet *_descendants;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)arget:(id)arg1 selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
-- (void)h_queueC;
+- (void)timerWithTimeInterval:(id)arg1 target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
+- (void)So17OS_dispatch_queueC;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *descendants; // @synthesize descendants=_descendants;
 @property(readonly, nonatomic) __weak id topLevelObject; // @synthesize topLevelObject=_topLevelObject;
-@property(readonly, nonatomic) NSArray *traitStorages; // @synthesize traitStorages=_traitStorages;
 
 @end
 

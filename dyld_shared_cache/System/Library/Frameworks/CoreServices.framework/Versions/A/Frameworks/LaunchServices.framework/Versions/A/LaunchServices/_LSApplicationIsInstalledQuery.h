@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ectArgumentEncoder>"24@0:8@"NSArray"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCLocalAreasMapping, FCOnce, NSDate;
-@protocol FCContentContext, FCLocalAreasProvider;
+@class FCAsyncSerialQueue;
 
 @interface FCLocalAreasManager
 {
     FCAsyncSerialQueue *_queue;
-    id <FCContentContext> _contentContext;
-    FCLocalAreasMapping *_localAreasMapping;
-    NSDate *_localAreasMappingFetchDate;
-    FCOnce *_loadFromCacheOnce;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)estionsDistanceFromHereToEntry(MapsSuggestionsEntry *__strong _Nonnull, CLLocationDistance * _Nonnull);
 - (id);
 - (void);
+- (id)infoPlistLoctablePromiseWithError: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)UserToolBox migrateUserCustomImages:(id)arg1 fromSourceSystem:toDestinationSystem:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (void)nBetweenForYouGroupsWeekday;
+- (void)editorialArticleVersion;
+- (void)minimumDurationBetweenForYouGroupsWeekday;
 - (id)`´ëÿ=éE;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCLocalAreasProvider> cachedLocalAreasProvider;
-@property(retain, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, nonatomic) FCOnce *loadFromCacheOnce; // @synthesize loadFromCacheOnce=_loadFromCacheOnce;
-@property(retain) FCLocalAreasMapping *localAreasMapping; // @synthesize localAreasMapping=_localAreasMapping;
-@property(retain) NSDate *localAreasMappingFetchDate; // @synthesize localAreasMappingFetchDate=_localAreasMappingFetchDate;
 @property(retain, nonatomic) FCAsyncSerialQueue *queue; // @synthesize queue=_queue;
 
 @end

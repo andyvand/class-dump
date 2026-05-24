@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)queryInterpretationMetadata"b1"read_queryNeuralRewriteMetadata"b1"read_queryNeuralSegmentMetadata"b1"read_queryNormalizerMetadata"b1"read_queryPoiMetadata"b1"read_querySpellCorrectionMetadata"b1"read_querySynonymMetadata"b1"read_queryTagMetadata"b1"read_queryTokenImportanceMetadata"b1"read_queryTokenizerMetadata"b1"read_queryTransliterMetadata"b1"read_rawQueryTokenizerMetadata"b1"read_rewrittenQuery"b1"read_richBrandMetadata"b1"read_tokenSynonymMetadata"b1"wrote_anyField"b1};
-- (id)etIndexs;
+- (id)_styleSheetIndexs;
 - (id)p»¾;
 
 @end

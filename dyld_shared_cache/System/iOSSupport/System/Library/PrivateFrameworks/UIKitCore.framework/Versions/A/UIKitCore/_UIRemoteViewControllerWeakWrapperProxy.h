@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void)outRTL:(id)arg1;
 - (id)putDestination handleKeyboardUIDidChange:(SEL)arg1 ]_block_invoke  Keyboard destination updating keyboardPosition %@ for %@ transition using %@;
 - (id)of sections:(id)arg1 %ld;
-- (void)ightSceneDelegate;
+- (void)_UIIntelligenceLightSceneDelegate;
 
 @end
 

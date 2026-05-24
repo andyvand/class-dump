@@ -7,12 +7,6 @@
 @interface NewsUI2.QueryLocalNewsEngagementDonorProperty
 {
     id id;
-    id configuration;
-    id followedLocalNewsTagIDs;
-    id localNewsRegions;
-    id fetchedRegions;
-    id locationRegionManager;
-    id tagController;
 }
 
 @end

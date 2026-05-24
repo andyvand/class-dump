@@ -6,7 +6,7 @@
 
 #import <TSReading/TSWPiOSCanvasViewController.h>
 
-@class TSAInteractiveCanvasController, UIGestureRecognizer;
+@class UIGestureRecognizer;
 
 @interface TIACanvasViewController : TSWPiOSCanvasViewController
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property UIGestureRecognizer *hyperlinkGestureRecognizer;
-@property(readonly, nonatomic) TSAInteractiveCanvasController *interactiveCanvasController;
 
 @end
 

@@ -9,26 +9,22 @@
 @interface CRKFetchChaptersRequest
 {
     NSString *_path;
-    NSString *_identifierType;
-    NSString *_identifier;
 }
 
 + (Class);
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)?;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)?;;
+- (void)T2;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *identifierType; // @synthesize identifierType=_identifierType;
 @property(copy, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end

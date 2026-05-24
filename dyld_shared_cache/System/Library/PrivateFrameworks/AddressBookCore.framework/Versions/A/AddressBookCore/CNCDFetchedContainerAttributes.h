@@ -7,16 +7,14 @@
 @interface CNCDFetchedContainerAttributes
 {
     _Bool _isGuardianRestricted;
-    int _iOSLegacyIdentifier;
 }
 
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)r;
 
 // Remaining properties
 @property(readonly) int iOSLegacyIdentifier; // @synthesize iOSLegacyIdentifier=_iOSLegacyIdentifier;
-@property(readonly) _Bool isGuardianRestricted; // @synthesize isGuardianRestricted=_isGuardianRestricted;
 
 @end
 

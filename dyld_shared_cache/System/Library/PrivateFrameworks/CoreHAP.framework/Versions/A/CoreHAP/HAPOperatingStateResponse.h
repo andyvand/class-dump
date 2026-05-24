@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPOperatingStateAbnormalReasonsWrapper, HAPOperatingStateWrapper, NSString;
+@class HAPOperatingStateWrapper;
 
 @interface HAPOperatingStateResponse
 {
     HAPOperatingStateWrapper *_state;
-    HAPOperatingStateAbnormalReasonsWrapper *_abnormalReasons;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -27,15 +26,7 @@
 - (void)in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}{coap_address_t=I(?={sockaddr=CC[14c]}{sockaddr_in=CCS{in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}}i{coap_socket_t=iS^{coap_session_t}^{coap_endpoint_t}}^{coap_endpoint_t}^{coap_context_t}^vSCi^{coap_queue_t}Q[8C]Q^{coap_pdu_t}QQQQQ*Q*Q^vI{coap_fixed_point_t=SS}{coap_fixed_point_t=SS}Ii}16Q24;
 
 // Remaining properties
-@property(retain, nonatomic) HAPOperatingStateAbnormalReasonsWrapper *abnormalReasons; // @synthesize abnormalReasons=_abnormalReasons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPOperatingStateWrapper *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

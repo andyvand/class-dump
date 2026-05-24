@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)ng peer %'@;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)SPredicate";
+- (_Bool)me;
+- (_Bool)has_unseen_mention;
 - (id);
 - (id);
-- (id)mbiguationsLastTwentyEightDays;
-- (id)cuted;
-- (_Bool)MISSALREASON_ADVERTISEMENT_MITIGATION;
-- (_Bool)1P_EXCLUSIVE;
-- (void);
+- (id)deleteNumSelectedAppDisambiguationsLastTwentyEightDays;
+- (id)_hasUeiDictationVoiceCommandExecuted;
+- (_Bool)DISMISSALREASON_ADVERTISEMENT_MITIGATION;
+- (_Bool)INFERENCEAPPSELECTIONUSERPERSONA_1P_EXCLUSIVE;
+- (void)INFERENCESchemaINFERENCECandidateType;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

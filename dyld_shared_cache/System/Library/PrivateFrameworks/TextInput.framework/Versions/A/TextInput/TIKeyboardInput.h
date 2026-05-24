@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIHandwritingStrokes, TIKeyboardCandidate, TIKeyboardOutput, TIKeyboardTouchEvent;
-@protocol NSCopying><NSObject><NSSecureCoding;
+@class NSString;
 
 @interface TIKeyboardInput
 {
@@ -26,19 +25,10 @@
             unsigned int shrinkSegment:1;
         } fields;
     } _flags;
-    _Bool _backspace;
-    TIKeyboardCandidate *_acceptedCandidate;
-    NSString *_inputManagerHint;
-    TIHandwritingStrokes *_handwritingStrokes;
-    NSString *_string;
-    TIKeyboardTouchEvent *_touchEvent;
-    TIKeyboardOutput *_output;
-    long long _transliterationType;
-    double _timestamp;
 }
 
 + (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
@@ -75,7 +65,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)predicateForAssetsIncludedInMoments;
 - (id);
 - (id);
 - (double);
@@ -88,28 +78,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TIKeyboardCandidate *acceptedCandidate; // @synthesize acceptedCandidate=_acceptedCandidate;
-@property(nonatomic, getter=isAutoshifted) _Bool autoshifted;
-@property(nonatomic, getter=isBackspace) _Bool backspace; // @synthesize backspace=_backspace;
-@property(nonatomic, getter=isDoubleSpace) _Bool doubleSpace;
-@property(nonatomic, getter=isExpandSegment) _Bool expandSegment;
-@property(nonatomic, getter=isFlick) _Bool flick;
-@property(nonatomic, getter=isGesture) _Bool gesture;
-@property(copy, nonatomic) TIHandwritingStrokes *handwritingStrokes; // @synthesize handwritingStrokes=_handwritingStrokes;
-@property(copy, nonatomic) NSString *inputManagerHint; // @synthesize inputManagerHint=_inputManagerHint;
-@property(nonatomic, getter=isMultitap) _Bool multitap;
-@property(copy, nonatomic) id <NSCopying><NSObject><NSSecureCoding> object;
-@property(retain, nonatomic) TIKeyboardOutput *output; // @synthesize output=_output;
-@property(nonatomic, getter=isPopupVariant) _Bool popupVariant;
-@property(nonatomic, getter=isRapidDelete) _Bool rapidDelete;
-@property(nonatomic, getter=isShiftDown) _Bool shiftDown;
-@property(nonatomic, getter=isShrinkSegment) _Bool shrinkSegment;
 @property(copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(nonatomic, getter=isSynthesizedByAcceptingCandidate) _Bool synthesizedByAcceptingCandidate;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) TIKeyboardTouchEvent *touchEvent; // @synthesize touchEvent=_touchEvent;
-@property(nonatomic) long long transliterationType; // @synthesize transliterationType=_transliterationType;
-@property(nonatomic, getter=isUppercase) _Bool uppercase;
 
 @end
 

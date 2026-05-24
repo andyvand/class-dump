@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface _NSScrollerStyleRecommender
 {
     long long lastRecommendedScrollerStyle;
-    NSTimer *scrollerStyleRecommendationUpdateTimer;
-    _Bool isListeningForDevicesChangedNotification;
 }
 
 + (id);
@@ -20,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
+- (void)log>";
+- (void)1;;
+- (void)RingerButtonNormalizedCGRect;
+- (long long)grEfqkFsEkgnJH1nl9sodw;
+- (void)kNFgPRIA8Q;
 - (void);
 - (void);
 - (void);

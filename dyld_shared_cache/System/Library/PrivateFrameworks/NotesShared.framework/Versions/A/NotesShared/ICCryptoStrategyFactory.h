@@ -12,8 +12,8 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool);
++ (id)actualInstallPathForBundleIdentifier:(id)arg1;
 + (id);
 + (id);
 + (long long);

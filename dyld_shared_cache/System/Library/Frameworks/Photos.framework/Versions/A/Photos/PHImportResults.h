@@ -6,18 +6,11 @@
 
 #import <Photos/PHImportExceptionRecorder.h>
 
-@class NSDate, NSError, NSMutableArray, NSMutableDictionary, NSString, PHImportException, PHImportSource;
+@class NSDate;
 
 @interface PHImportResults : PHImportExceptionRecorder
 {
     unsigned char _result;
-    PHImportSource *_importSource;
-    NSMutableArray *_importRecords;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSMutableDictionary *_pmrInfo;
-    NSString *_uuid;
-    PHImportException *_highestPriorityException;
 }
 
 + (id);
@@ -48,23 +41,13 @@
 - (id);
 - (unsigned char)0@ù
 × ;
-- (void)ageDecoding:(unsigned char)arg1;
-- (void)rtOrder:(id)arg1;
+- (void)setUseSharedImageDecoding:(unsigned char)arg1;
+- (void)setCustomObjectIDSortOrder:(id)arg1;
 - (void)stringByAppendingPathComponent: /* Error: Ran out of types for this method. */;
 - (void)(5ðÿûueÓ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly) NSError *error;
-@property(readonly) unsigned long long failedToImportCount;
-@property(readonly) PHImportException *highestPriorityException; // @synthesize highestPriorityException=_highestPriorityException;
-@property(retain, nonatomic) NSMutableArray *importRecords; // @synthesize importRecords=_importRecords;
-@property(readonly) PHImportSource *importSource; // @synthesize importSource=_importSource;
-@property(readonly) unsigned long long importedCount;
-@property(retain, nonatomic) NSMutableDictionary *pmrInfo; // @synthesize pmrInfo=_pmrInfo;
-@property(nonatomic) unsigned char result; // @synthesize result=_result;
 @property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(retain) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

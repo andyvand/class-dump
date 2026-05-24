@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSFileHandle, NSString;
+@class NSFileHandle;
 
 @interface UASharedPasteboardInfo
 {
     NSFileHandle *_dataFile;
-    long long _dataSize;
-    NSArray *_items;
-    NSString *_sharedDataPath;
-    NSDictionary *_sandboxExtensions;
 }
 
 + (_Bool);
-- (id);
+- (id)F;
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -36,10 +32,6 @@
 
 // Remaining properties
 @property(retain) NSFileHandle *dataFile; // @synthesize dataFile=_dataFile;
-@property long long dataSize; // @synthesize dataSize=_dataSize;
-@property(copy) NSArray *items; // @synthesize items=_items;
-@property(copy) NSDictionary *sandboxExtensions; // @synthesize sandboxExtensions=_sandboxExtensions;
-@property(copy) NSString *sharedDataPath; // @synthesize sharedDataPath=_sharedDataPath;
 
 @end
 

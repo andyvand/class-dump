@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSColor, PDFView;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFRenderingProperties
 {
     PDFView *_pdfView;
-    long long _displayBox;
-    _Bool _shouldAntiAlias;
-    double _greekingThreshold;
-    long long _interpolationQuality;
-    double _lineWidthThreshold;
-    NSColor *_pageColor;
-    NSAppearance *_appearance;
-    _Bool _darkMode;
-    NSColor *_pageBackgroundColor;
-    _Bool _enableRoundPageCorners;
-    _Bool _enablePageShadows;
-    _Bool _enableTileEdgeColoring;
-    _Bool _enableAccessibilityDrawing;
-    _Bool _enableTileUpdates;
-    _Bool _enableBackgroundImages;
-    _Bool _isUsingPDFExtensionView;
-    struct CGColorSpace *_deviceColorSpace;
-    long long _appearanceStyle;
-    NSColor *_darkModePageBackgroundColor;
 }
 
 + (struct CGMatrixFilter);
@@ -42,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)dC;
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (double);
@@ -66,37 +47,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)Tz;
 - (long long);
-- (_Bool);
+- (_Bool)@Couldn't find mediaProfile:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)order INTEGER NOT NULL DEFAULT 0, album_artist_order_section INTEGER NOT NULL DEFAULT 0, composer_pid INTEGER NOT NULL DEFAULT 0, composer_order INTEGER NOT NULL DEFAULT 0, composer_order_section INTEGER NOT NULL DEFAULT 0, genre_id INTEGER NOT NULL DEFAULT 0, genre_order INTEGER NOT NULL DEFAULT 0, genre_order_section INTEGER NOT NULL DEFAULT 0, disc_number INTEGER NOT NULL DEFAULT 0, track_number INTEGER NOT NULL DEFAULT 0, episode_sort_id INTEGER NOT NULL DEFAULT 0, base_location_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0, in_my_library INTEGER NOT NULL DEFAULT 0, is_compilation INTEGER NOT NULL DEFAULT 0, date_added INTEGER NOT NULL DEFAULT 0, show_composer INTEGER NOT NULL DEFAULT 0);
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(nonatomic) long long appearanceStyle; // @synthesize appearanceStyle=_appearanceStyle;
-@property(readonly, nonatomic, getter=isDarkMode) _Bool darkMode;
-@property(retain, nonatomic) NSColor *darkModePageBackgroundColor; // @synthesize darkModePageBackgroundColor=_darkModePageBackgroundColor;
-@property(nonatomic) struct CGColorSpace *deviceColorSpace;
-@property(nonatomic) long long displayBox;
-@property(nonatomic) _Bool enableBackgroundImages;
-@property(nonatomic) _Bool enablePageShadows;
-@property(nonatomic) _Bool enableRoundPageCorners;
-@property(nonatomic) _Bool enableTileUpdates;
-@property(nonatomic) double greekingThreshold;
-@property(nonatomic) long long interpolationQuality;
-@property(nonatomic) _Bool isUsingPDFExtensionView;
-@property(nonatomic) double lineWidthThreshold;
-@property(readonly, nonatomic) NSColor *pageBackgroundColor;
-@property(retain, nonatomic) NSColor *pageColor;
-@property(readonly) double pageCornerRadius;
 @property(nonatomic, setter=setPDFView:) __weak PDFView *pdfView;
-@property(nonatomic) _Bool shouldAntiAlias;
 
 @end
 

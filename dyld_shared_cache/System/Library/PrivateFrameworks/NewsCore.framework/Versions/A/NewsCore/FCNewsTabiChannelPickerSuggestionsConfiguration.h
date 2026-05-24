@@ -6,14 +6,11 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class FCNewsTabiChannelPickerSuggestionsInputOutputConfiguration, FCNewsTabiChannelPickerSuggestionsUserContextConfiguration;
+@class FCNewsTabiChannelPickerSuggestionsInputOutputConfiguration;
 
 @interface FCNewsTabiChannelPickerSuggestionsConfiguration : FCNewsTabiEndpointConfiguration
 {
     _Bool _filterLocationSuggestionsOnlyToAppleNewsLocal;
-    FCNewsTabiChannelPickerSuggestionsInputOutputConfiguration *_bundleInputOutputConfiguration;
-    FCNewsTabiChannelPickerSuggestionsInputOutputConfiguration *_nonBundleInputOutputConfiguration;
-    FCNewsTabiChannelPickerSuggestionsUserContextConfiguration *_userContextConfiguration;
 }
 
 - (id);
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsTabiChannelPickerSuggestionsInputOutputConfiguration *bundleInputOutputConfiguration; // @synthesize bundleInputOutputConfiguration=_bundleInputOutputConfiguration;
-@property(nonatomic) _Bool filterLocationSuggestionsOnlyToAppleNewsLocal; // @synthesize filterLocationSuggestionsOnlyToAppleNewsLocal=_filterLocationSuggestionsOnlyToAppleNewsLocal;
-@property(retain, nonatomic) FCNewsTabiChannelPickerSuggestionsInputOutputConfiguration *nonBundleInputOutputConfiguration; // @synthesize nonBundleInputOutputConfiguration=_nonBundleInputOutputConfiguration;
-@property(retain, nonatomic) FCNewsTabiChannelPickerSuggestionsUserContextConfiguration *userContextConfiguration; // @synthesize userContextConfiguration=_userContextConfiguration;
 
 @end
 

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_trackedEvents;
 }
 
-- (_Bool);
-- (void)text:(id)arg1;
-- (_Bool)MovementRequest:(id)arg1;
+- (_Bool)SSL_CTX_set_trust;
+- (void)setActions:(id)arg1 forContext:(id)arg2;
+- (_Bool)_focusEventRecognizer:(id)arg1 didRecognizeFocusMovementRequest:(id)arg2;
 - (void)¹üG?o;·Q: /* Error: Ran out of types for this method. */;
 - (long long)ð[];
 - (void)q;

@@ -6,21 +6,17 @@
 
 #import <CMCapture/BWNode.h>
 
-@class GVSOverscanPredictor, NSDictionary;
-@protocol BWVISOverscanPredictionDelegate;
+@class GVSOverscanPredictor;
 
 __attribute__((visibility("hidden")))
 @interface BWVISOverscanPredictionNode : BWNode
 {
     GVSOverscanPredictor *_visOverscanPredictor;
-    NSDictionary *_cameraInfoByPortType;
-    float _visInputAspectRatio;
-    id <BWVISOverscanPredictionDelegate> _delegate;
 }
 
-+ (void)ausingRecording;
++ (void)PausingRecording;
 - (id);
-- (void);
+- (void)CMDiagramShapeHierarchyMapper;
 - (void);
 - (void);
 - (id);

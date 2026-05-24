@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NTPBTocExposure
 {
     int _precedingLocation;
-    NSData *_tocExposureId;
-    struct {
-        unsigned int precedingLocation:1;
-    } _has;
 }
 
+- (id)initWithMemory:andMemoryKeyAsset: /* Error: Ran out of types for this method. */;
+- (void)initWithEmailAddress:(id)arg1 contact: /* Error: Ran out of types for this method. */;
+- (void)initWithCoder:(int)arg1;
+- (void)hasUpdatedAvailableCurations;
+- (id)errorForReachingMaxSubscriptionLimitWithAlbumTitle:(int)arg1;
+- (int)errorDidChange;
+- (_Bool)distanceFromBottomChromeTextToGrid;
+- (_Bool)deviceMaximumEDRHeadroomStops;
+- (int)collectionHasFixedOrder;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)initWithUpdateHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ls:(id)arg1 %@;
+- (_Bool)ing sync <%{public}@>;
 - (id);
 - (id);
-- (void)ionValueBaseline;
+- (void)unmuteImpressionValueBaseline;
 
 // Remaining properties
 @property(nonatomic) _Bool hasPrecedingLocation;
-@property(readonly, nonatomic) _Bool hasTocExposureId;
-@property(nonatomic) int precedingLocation; // @synthesize precedingLocation=_precedingLocation;
-@property(retain, nonatomic) NSData *tocExposureId; // @synthesize tocExposureId=_tocExposureId;
 
 @end
 

@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponentsFormatter, NSDateFormatter, NSLocale, NSNumberFormatter;
+@class NSLocale;
 
 @interface BSDateFormatterCache
 {
     NSLocale *_locale;
-    NSDateFormatter *_dayOfWeekFormatter;
-    NSDateFormatter *_dayOfWeekWithTimeFormatter;
-    NSDateFormatter *_dayMonthYearFormatter;
-    NSDateFormatter *_shortDayMonthTimeFormatter;
-    NSDateFormatter *_abbrevDayOfWeekWithMonthDayFormatter;
-    NSDateFormatter *_abbrevDayMonthFormatter;
-    NSDateFormatter *_abbrevDayMonthTimeFormatter;
-    NSDateFormatter *_timeFormatter;
-    NSDateFormatter *_relativeDateTimeFormatter;
-    NSDateFormatter *_relativeDateFormatter;
-    NSDateFormatter *_dayOfWeekMonthDayFormatter;
-    NSDateFormatter *_multiLineDayOfWeekMonthDayFormatter;
-    NSDateFormatter *_timeNoAMPMFormatter;
-    NSDateFormatter *_longYMDHMSZFormatter;
-    NSDateFormatter *_longYMDHMSZPosixLocaleFormatter;
-    NSDateFormatter *_longYMDHMSNoSpaceFormatter;
-    NSNumberFormatter *_decimalFormatter;
-    NSDateComponentsFormatter *_durationFormatter;
-    NSNumberFormatter *_timerNumberFormatter;
-    NSDateComponentsFormatter *_abbreviatedTimerFormatter;
-    NSDateComponentsFormatter *_alarmSnoozeFormatter;
 }
 
 + (id);
@@ -37,30 +16,30 @@
 - (void);
 - (id);
 - (id);
+- (id)GM;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)name:%@ origID:%@%@ %lu> /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

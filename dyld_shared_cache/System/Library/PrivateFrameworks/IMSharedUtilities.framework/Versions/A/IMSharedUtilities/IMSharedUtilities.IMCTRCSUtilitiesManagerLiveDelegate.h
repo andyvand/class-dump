@@ -10,7 +10,7 @@
 }
 
 - (_Bool);
-- (id);
+- (id)ple.passbook.peerpayment.cip.contact-apple;
 - (void)÷ß¡LyeÜ;
 
 @end

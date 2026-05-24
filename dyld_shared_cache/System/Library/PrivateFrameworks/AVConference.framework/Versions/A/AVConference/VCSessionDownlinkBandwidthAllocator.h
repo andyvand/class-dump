@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionDownlinkBandwidthAllocator
 {
     NSMutableDictionary *_allocatedMediaEntriesForClients;
-    unsigned int _maxConcurrentVideoClients;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableArray *_clients;
-    NSMutableDictionary *_selectedMediaEntriesForClients;
-    NSMutableArray *_sortedMediaEntries;
-    struct opaqueRTCReporting *_reportingAgent;
-    _Bool _forceFullBandwidth;
 }
 
 + (id);
@@ -25,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -38,7 +30,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool forceFullBandwidth; // @synthesize forceFullBandwidth=_forceFullBandwidth;
 @property(readonly, nonatomic) unsigned long long simultaneousTalkers;
 
 @end

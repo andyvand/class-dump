@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureConnection, AVCaptureSession, AVCaptureVideoPreviewLayerInternal, NSString;
+@class AVCaptureSession, AVCaptureVideoPreviewLayerInternal;
 
 @interface AVCaptureVideoPreviewLayer
 {
@@ -16,15 +16,15 @@
 + (void)º ¾eNÇ?³$@M-[Ñ?¿&kÔCÒ¿;
 - (void);
 - (struct CGAffineTransform);
+- (id)/;
+- (void)2;
+- (_Bool)age with ID %@";
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)p on migration.;
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -37,35 +37,35 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)AppleIDSignInSettings;
 - (void);
 - (void);
 - (struct CGRect);
-- (struct CGPoint);
-- (struct CGAffineTransform);
+- (struct CGPoint);
+- (struct CGAffineTransform)h;
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)wideDigitalFlashAvailableShallowDepthOfFieldEffectsEnabled;
+- (void)initWithSinkID:(_Bool)arg1 captureDevice:inferenceScheduler: /* Error: Ran out of types for this method. */;
+- (void)Count;
+- (void)geometricDistortionCoefficients;
 - (_Bool);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ovie;
+- (void)lHasSettableBooleanProperty( exposureControlID );
+- (void)StereoPhotoSNRDifferenceSecondarySNRThreshold;
 - (long long);
 - (void);
 - (void);
@@ -84,19 +84,19 @@
 - (id);
 - (void);
 - (double);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)5T;
+- (void)ck failed.;
+- (void)N3mrc12_GLOBAL__N_116PyramidAllocatorILNS_25PyramidGenerationBehaviorE0EEE;
 - (long long);
-- (id);
+- (id)a	;
 - (_Bool)36@0:8^{OpaqueCMIOGraph=}16i24I28I32 /* Error: Ran out of types for this method. */;
-- (id)EndRenderingThumbnails:(id)arg1;
-- (void)stPreviewFrameDisplayed:(_Bool)arg1;
-- (void)Identifiers;
-- (id)eadyDiscovered: /* Error: Ran out of types for this method. */;
+- (id)videoThumbnailOutputWillEndRenderingThumbnails:(id)arg1;
+- (void)_updatePreferredDynamicRangeForFirstPreviewFrameDisplayed:(_Bool)arg1;
+- (void)_metadataIdentifiers;
+- (id)_isDeviceAlreadyDiscovered: /* Error: Ran out of types for this method. */;
 - (void)_gesturesEnabledKey;
 - (void)ntCaptureSettings:delegate:connections: /* Error: Ran out of types for this method. */;
-- (_Bool)erStageControlModeKey;
+- (_Bool)_centerStageControlModeKey;
 - (void)AVCaptureDeviceInputInternal_Tundra;
 - (_Bool)olCenterModules >>>> %s:%{private}@ hiddenModes:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)for preference domain %{public}@;
@@ -117,17 +117,7 @@
 - (_Bool)_;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyAdjustsMirroring;
-@property(readonly, nonatomic) AVCaptureConnection *connection;
-@property(nonatomic, getter=isDeferredStartEnabled) _Bool deferredStartEnabled;
-@property(readonly, nonatomic, getter=isDeferredStartSupported) _Bool deferredStartSupported;
-@property(nonatomic, getter=isMirrored) _Bool mirrored;
-@property(readonly, nonatomic, getter=isMirroringSupported) _Bool mirroringSupported;
-@property(nonatomic) long long orientation;
-@property(readonly, nonatomic, getter=isOrientationSupported) _Bool orientationSupported;
-@property(readonly, nonatomic, getter=isPreviewing) _Bool previewing;
 @property(retain, nonatomic) AVCaptureSession *session;
-@property(copy) NSString *videoGravity;
 
 @end
 

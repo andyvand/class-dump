@@ -9,16 +9,6 @@
 @interface SIRINLUAsrTokenInformation
 {
     _Bool _addSpaceAfter;
-    _Bool _removeSpaceAfter;
-    _Bool _removeSpaceBefore;
-    unsigned int _beginIndex;
-    unsigned int _endIndex;
-    int _startMilliSeconds;
-    int _endMilliSeconds;
-    NSString *_postITNText;
-    NSString *_phoneSequence;
-    NSString *_ipaPhoneSequence;
-    double _confidenceScore;
 }
 
 + (_Bool);
@@ -37,12 +27,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)response;
 - (double);
 - (id);
 - (id);
@@ -52,17 +42,7 @@
 - (void)logy.UsoTaskBuilder_delete_common_JournalEntry;
 
 // Remaining properties
-@property(nonatomic) _Bool addSpaceAfter; // @synthesize addSpaceAfter=_addSpaceAfter;
-@property(nonatomic) unsigned int beginIndex; // @synthesize beginIndex=_beginIndex;
-@property(nonatomic) double confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) unsigned int endIndex; // @synthesize endIndex=_endIndex;
-@property(nonatomic) int endMilliSeconds; // @synthesize endMilliSeconds=_endMilliSeconds;
-@property(retain, nonatomic) NSString *ipaPhoneSequence; // @synthesize ipaPhoneSequence=_ipaPhoneSequence;
-@property(retain, nonatomic) NSString *phoneSequence; // @synthesize phoneSequence=_phoneSequence;
 @property(retain, nonatomic) NSString *postITNText; // @synthesize postITNText=_postITNText;
-@property(nonatomic) _Bool removeSpaceAfter; // @synthesize removeSpaceAfter=_removeSpaceAfter;
-@property(nonatomic) _Bool removeSpaceBefore; // @synthesize removeSpaceBefore=_removeSpaceBefore;
-@property(nonatomic) int startMilliSeconds; // @synthesize startMilliSeconds=_startMilliSeconds;
 
 @end
 

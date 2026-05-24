@@ -6,23 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
-
 @interface ORCHSchemaORCHFlowOutputSubmitted : SISchemaInstrumentationMessage
 {
     int _flowOutputSubmissionId;
-    _Bool _flowCommandReceived;
-    _Bool _flowCommandResponseError;
-    SISchemaUUID *_aceCommandId;
-    NSArray *_aceViewIds;
-    SISchemaUUID *_subRequestId;
-    struct {
-        unsigned int flowOutputSubmissionId:1;
-        unsigned int flowCommandReceived:1;
-        unsigned int flowCommandResponseError:1;
-    } _has;
-    _Bool _hasAceCommandId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -45,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);
@@ -54,7 +40,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -66,23 +52,12 @@
 - (id);
 - (id)!FùÞ°1Â0@ù
 × ;
-- (id)d;
-- (id)onseGenerationInferenceTime;
+- (id)_bobbleEnabled;
+- (id)responseGenerationInferenceTime;
 - (void)eIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *aceCommandId; // @synthesize aceCommandId=_aceCommandId;
-@property(copy, nonatomic) NSArray *aceViewIds; // @synthesize aceViewIds=_aceViewIds;
-@property(nonatomic) _Bool flowCommandReceived; // @synthesize flowCommandReceived=_flowCommandReceived;
-@property(nonatomic) _Bool flowCommandResponseError; // @synthesize flowCommandResponseError=_flowCommandResponseError;
 @property(nonatomic) int flowOutputSubmissionId; // @synthesize flowOutputSubmissionId=_flowOutputSubmissionId;
-@property(nonatomic) _Bool hasAceCommandId; // @synthesize hasAceCommandId=_hasAceCommandId;
-@property(nonatomic) _Bool hasFlowCommandReceived;
-@property(nonatomic) _Bool hasFlowCommandResponseError;
-@property(nonatomic) _Bool hasFlowOutputSubmissionId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 
 @end
 

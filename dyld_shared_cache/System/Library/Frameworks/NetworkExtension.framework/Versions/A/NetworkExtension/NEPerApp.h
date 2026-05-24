@@ -9,17 +9,14 @@
 @interface NEPerApp
 {
     _Bool _noRestriction;
-    _Bool _restrictDomains;
-    NSArray *_appRules;
-    NSArray *_excludedDomains;
 }
 
-+ (_Bool);
++ (_Bool)setRatchetCounter: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,21 +24,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)on data length (%d).;
+- (void)on31IDSRealTimeGroupSessionDelegatePAA11Distributed01_G9ActorStubRzrlE12receiveEventyyAA0bcdeK0VYaKFTE;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void)terfaceParameters"16@?<v@?@"NEVirtualInterfaceParameters">24;
-- (_Bool)lowTCPEncapsulation:(id)arg1;
+- (_Bool)setAllowTCPEncapsulation:(id)arg1;
 - (id)ekey followup KE);
 
 // Remaining properties
 @property(copy) NSArray *appRules; // @synthesize appRules=_appRules;
-@property(copy) NSArray *excludedDomains; // @synthesize excludedDomains=_excludedDomains;
-@property _Bool noRestriction; // @synthesize noRestriction=_noRestriction;
-@property _Bool restrictDomains; // @synthesize restrictDomains=_restrictDomains;
 
 @end
 

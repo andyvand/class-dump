@@ -6,23 +6,19 @@
 
 #import <CMCapture/BWNodeMessage.h>
 
-@class BWFormat;
-
 @interface BWNodeConfigurationLiveMessage : BWNodeMessage
 {
     long long _configurationID;
-    BWFormat *_updatedFormat;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (long long);
 - (id);
 
 // Remaining properties
 @property(readonly) long long configurationID;
-@property(readonly) BWFormat *updatedFormat;
 
 @end
 

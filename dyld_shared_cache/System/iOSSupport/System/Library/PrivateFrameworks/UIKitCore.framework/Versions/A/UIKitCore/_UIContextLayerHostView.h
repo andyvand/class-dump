@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)_performWithExclusiveAccessForDataProviderEntityClass:block: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)SSet",C,N,V_cleanupBlocks;
 - (void)V_locations;
-- (void)cesDidUpdateNotification;
+- (void)UIKeyboardPreferencesDidUpdateNotification;
 - (void)tacked;
 - (id)ayoutData in _95161DEFFEF46EC64A409C69AE26E635);
 - (void)®Uþÿ;

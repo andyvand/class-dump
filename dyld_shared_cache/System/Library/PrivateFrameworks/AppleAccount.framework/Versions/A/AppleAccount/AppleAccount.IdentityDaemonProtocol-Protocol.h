@@ -5,5 +5,6 @@
 //
 
 @protocol AppleAccount.IdentityDaemonProtocol
+- (void)uthentication-services-credential-provider-ui;
 @end
 

@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id background;
-    id borders;
-    id cornerRadius;
-    id shadow;
-    id tintColor;
-    id ignoresSmartInvertColors;
-    id autoPlayback;
-    id autoPictureInPicture;
-    id playbackOverlay;
-    id playbackRestriction;
 }
 
 @end

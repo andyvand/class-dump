@@ -13,19 +13,19 @@
     NSNumber *_compatibilityVersion;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ediaStateTracker"16@"<MutableMediaSource>"24;
+- (id)_loadOnboardingSectionProvider;
 - (id);
 - (_Bool);
 - (void);

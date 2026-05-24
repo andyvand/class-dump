@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PKProvisioningSupportData
 {
     NSDictionary *_encryptedSupportDataDictionary;
-    NSString *_sid;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)`";
+- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)_flowDurationMilliseconds;
 - (id);
 - (id);
-- (void)sueDate;
+- (void)documentIssueDate;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSDictionary *encryptedSupportDataDictionary; // @synthesize encryptedSupportDataDictionary=_encryptedSupportDataDictionary;
-@property(retain, nonatomic) NSString *sid; // @synthesize sid=_sid;
-@property(readonly, nonatomic) unsigned long long supportDataType;
 
 @end
 

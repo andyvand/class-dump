@@ -7,21 +7,15 @@
 @interface HMIVideoAnalyzerBlob
 {
     unsigned short _blobID;
-    float _blobArea;
-    CDStruct_1b6d18a9 _timeStamp;
-    struct CGRect _boundingBox;
 }
 
 - (id);
 - (unsigned short);
-- (float);
+- (float)P;
 - (CDStruct_1b6d18a9);
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly) float blobArea; // @synthesize blobArea=_blobArea;
-@property(readonly) unsigned short blobID; // @synthesize blobID=_blobID;
-@property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
 @property(readonly) CDStruct_1b6d18a9 timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end

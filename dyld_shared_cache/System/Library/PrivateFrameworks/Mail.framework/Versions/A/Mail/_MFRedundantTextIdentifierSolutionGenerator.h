@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface _MFRedundantTextIdentifierSolutionGenerator
 {
     CDStruct_f9502b4c *_replyBuffer;
-    CDStruct_f9502b4c *_originalBuffer;
-    long long _replyLength;
-    long long _originalLength;
-    NSDictionary *_originalAttachmentContextsByURL;
-    NSDictionary *_replyAttachmentContextsByURL;
 }
 
 - (long long);
 - (CDStruct_f9502b4c *);
-- (id);
+- (id)k;
 - (CDStruct_f9502b4c *);
 - (id);
 - (id);
@@ -29,12 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *originalAttachmentContextsByURL; // @synthesize originalAttachmentContextsByURL=_originalAttachmentContextsByURL;
-@property(readonly, nonatomic) CDStruct_f9502b4c *originalBuffer; // @synthesize originalBuffer=_originalBuffer;
-@property(readonly, nonatomic) long long originalLength; // @synthesize originalLength=_originalLength;
-@property(readonly, copy, nonatomic) NSDictionary *replyAttachmentContextsByURL; // @synthesize replyAttachmentContextsByURL=_replyAttachmentContextsByURL;
 @property(readonly, nonatomic) CDStruct_f9502b4c *replyBuffer; // @synthesize replyBuffer=_replyBuffer;
-@property(readonly, nonatomic) long long replyLength; // @synthesize replyLength=_replyLength;
 
 @end
 

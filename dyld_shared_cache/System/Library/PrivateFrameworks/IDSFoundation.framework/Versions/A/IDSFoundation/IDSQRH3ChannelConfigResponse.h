@@ -7,7 +7,6 @@
 @interface IDSQRH3ChannelConfigResponse
 {
     unsigned int _effectiveConfigCounter;
-    unsigned int _effectiveIdleTimeoutSeconds;
 }
 
 - (void);
@@ -19,13 +18,12 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setOBEXBrowseRootDirectory:(id)arg1;
+- (void)underErr;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int effectiveConfigCounter; // @synthesize effectiveConfigCounter=_effectiveConfigCounter;
 @property(nonatomic) unsigned int effectiveIdleTimeoutSeconds; // @synthesize effectiveIdleTimeoutSeconds=_effectiveIdleTimeoutSeconds;
 
 @end

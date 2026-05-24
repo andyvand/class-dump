@@ -5,5 +5,12 @@
 //
 
 @protocol NSPreferencesModule
+- (void)st;
+- (_Bool);
+- (void)nexpected libSysConfig3 payload state;
+- (void)ecodeSysConfig3 returned NULL;
+- (_Bool)data greater than UINT32_MAX;
+- (void)static and will never generate a notification;
+- (void);
 @end
 

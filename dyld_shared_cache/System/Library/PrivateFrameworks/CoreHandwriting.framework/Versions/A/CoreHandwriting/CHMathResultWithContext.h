@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTokenizedMathResult, NSSet;
+@class CHTokenizedMathResult;
 
 @interface CHMathResultWithContext
 {
     CHTokenizedMathResult *_result;
-    NSSet *_declaredVariables;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)È ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *declaredVariables; // @synthesize declaredVariables=_declaredVariables;
 @property(retain, nonatomic) CHTokenizedMathResult *result; // @synthesize result=_result;
 
 @end

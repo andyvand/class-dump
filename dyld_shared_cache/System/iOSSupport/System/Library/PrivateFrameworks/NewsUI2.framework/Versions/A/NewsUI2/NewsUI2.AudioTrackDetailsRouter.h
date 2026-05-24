@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioTrackDetailsRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id navigator;
 }
 
 @end

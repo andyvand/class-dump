@@ -9,9 +9,6 @@
 @interface _DPPiRapporEncoderResult
 {
     NSData *_phi0;
-    NSData *_otherPhi;
-    unsigned long long _numberOfOtherPhi;
-    unsigned long long _numberOfEncodedIndices;
 }
 
 + (id);
@@ -19,14 +16,11 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)passwordsViewController:fillVerificationCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfEncodedIndices; // @synthesize numberOfEncodedIndices=_numberOfEncodedIndices;
-@property(readonly, nonatomic) unsigned long long numberOfOtherPhi; // @synthesize numberOfOtherPhi=_numberOfOtherPhi;
-@property(readonly, nonatomic) NSData *otherPhi; // @synthesize otherPhi=_otherPhi;
 @property(readonly, nonatomic) NSData *phi0; // @synthesize phi0=_phi0;
 
 @end

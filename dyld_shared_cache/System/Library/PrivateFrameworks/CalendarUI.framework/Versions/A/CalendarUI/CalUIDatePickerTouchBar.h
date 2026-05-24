@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIEventTimeViewController, NSButton, NSDate, NSLayoutConstraint, NSSegmentedControl, NSString, NSTouchBar;
 @protocol CalUIDatePickerTouchBarDelegate;
 
 @interface CalUIDatePickerTouchBar
 {
     _Bool _hasDuration;
-    _Bool _allDay;
-    long long _barStyle;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    id <CalUIDatePickerTouchBarDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    CalUIEventTimeViewController *_eventTimeController;
-    NSButton *_allDayButton;
-    NSSegmentedControl *_dateSelector;
-    NSLayoutConstraint *_datePickerWidthConstraint;
 }
 
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
@@ -47,10 +36,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (long long);
+- (void);
+- (long long)F;
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -61,24 +50,7 @@
 - (id)alendarGadgetView;
 
 // Remaining properties
-@property _Bool allDay; // @synthesize allDay=_allDay;
-@property(retain) NSButton *allDayButton; // @synthesize allDayButton=_allDayButton;
-@property(nonatomic) long long barStyle; // @synthesize barStyle=_barStyle;
-@property(retain) NSLayoutConstraint *datePickerWidthConstraint; // @synthesize datePickerWidthConstraint=_datePickerWidthConstraint;
-@property(retain) NSSegmentedControl *dateSelector; // @synthesize dateSelector=_dateSelector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CalUIDatePickerTouchBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) CalUIEventTimeViewController *eventTimeController; // @synthesize eventTimeController=_eventTimeController;
-@property _Bool hasDuration; // @synthesize hasDuration=_hasDuration;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

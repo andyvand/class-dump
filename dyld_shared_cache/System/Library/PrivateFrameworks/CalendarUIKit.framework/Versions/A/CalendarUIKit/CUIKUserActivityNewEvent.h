@@ -6,50 +6,36 @@
 
 #import <CalendarUIKit/CUIKUserActivity.h>
 
-@class NSDate, NSString, NSTimeZone, NSURL;
+@class NSDate;
 
 @interface CUIKUserActivityNewEvent : CUIKUserActivity
 {
     _Bool _allDay;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSTimeZone *_timeZone;
-    NSString *_title;
-    NSURL *_url;
-    NSString *_notes;
-    NSString *_location;
 }
 
-- (id);
+- (id)SYSTEM_JAPAN_Ferry_Sunflower;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)on:]' were both nil {remTemplate.objectID:%@} /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)hdr10_mixLUTFromTCControl:(id)arg1 TCControlConstr:withFactor: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ra;
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)ationMethod;
+- (void)EventCreationMethod;
 
 // Remaining properties
-@property _Bool allDay; // @synthesize allDay=_allDay;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) NSString *location; // @synthesize location=_location;
-@property(retain) NSString *notes; // @synthesize notes=_notes;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) NSURL *url; // @synthesize url=_url;
 
 @end
 

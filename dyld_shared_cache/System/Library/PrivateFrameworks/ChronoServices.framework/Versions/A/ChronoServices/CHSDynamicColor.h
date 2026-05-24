@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSColor, NSDictionary;
+@class BSColor;
 
 @interface CHSDynamicColor
 {
     BSColor *_sameColor;
-    NSDictionary *_colors;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)P;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSameColor;

@@ -11,19 +11,18 @@
 @interface NSIdentityGlyphInfo : NSGlyphInfo
 {
     NSFont *_font;
-    unsigned int _glyph;
 }
 
-+ (id);
++ (id);
 + (_Bool);
-+ (void)hivedDataWithRootObject: /* Error: Ran out of types for this method. */;
++ (void)archivedDataWithRootObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Z;
 - (unsigned short);
 - (id);
 

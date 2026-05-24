@@ -17,6 +17,6 @@
 - (_Bool)ði÷ÿÿ4è
 ;
 - (void)Jÿÿÿ;
-- (_Bool)iling;
+- (_Bool)NavigationBarTrailing;
 @end
 

@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface ABVCardFileSerializer
 {
     NSString *_basePath;
-    NSMutableArray *_filenames;
 }
 
 + (id);
-+ (id);
++ (id)';
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
+- (void)";
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)default;
 - (void);
 - (id);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
-@property(readonly, nonatomic) NSArray *filenames;
 
 @end
 

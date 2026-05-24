@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMDAskToParser
 {
     id urlParser;
-    id payload;
-    id url;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)7;
+- (_Bool)_removeEventsMatching: /* Error: Ran out of types for this method. */;
 - (void)a.guid, a.is_sticker, a.transfer_name, a.filename FROM attachment a JOIN (SELECT ma.attachment_id as a_id, message_date as m_date FROM message_attachment_join ma JOIN (SELECT cm.message_id as message_id, cm.message_date as message_date FROM message m JOIN chat_message_join cm WHERE m.cache_has_attachments = 1 AND cm.chat_id AND cm.chat_id = ? AND m.rowid = cm.message_id) as tmp WHERE ma.message_id = tmp.message_id) as tmp2 WHERE a.rowid = tmp2.a_id ORDER BY tmp2.m_date DESC LIMIT ?;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isValid;
-@property(nonatomic, readonly) NSString *notificationText;
-@property(nonatomic, readonly) NSString *questionIdentifier;
-@property(nonatomic, readonly) NSString *summary;
 
 @end
 

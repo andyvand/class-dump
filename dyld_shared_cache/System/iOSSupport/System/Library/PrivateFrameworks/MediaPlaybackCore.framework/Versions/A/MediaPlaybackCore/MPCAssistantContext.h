@@ -11,7 +11,7 @@
     MPCAssistantDiscovery *_discovery;
 }
 
-- (void);
+- (void)g Shared Streams for account %@;
 - (id);
 - (void)ng tap [VA is not available] - item:%{public}@ /* Error: Ran out of types for this method. */;
 

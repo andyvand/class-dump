@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIColor, UIFont;
+@class NSString;
 
 @interface _UIContentViewLabelConfiguration
 {
@@ -19,35 +19,23 @@
         unsigned int hasCustomizedAllowsDefaultTighteningForTruncation:1;
         unsigned int hasCustomizedAdjustsFontForContentSizeCategory:1;
     } _configurationFlags;
-    _Bool _adjustsFontSizeToFitWidth;
-    _Bool _allowsDefaultTighteningForTruncation;
-    _Bool _adjustsFontForContentSizeCategory;
-    NSString *_text;
-    UIFont *_font;
-    UIColor *_textColor;
-    long long _textAlignment;
-    long long _lineBreakMode;
-    NSAttributedString *_attributedText;
-    long long _numberOfLines;
-    double _minimumScaleFactor;
-    UIColor *_highlightedTextColor;
 }
 
 + (_Bool)etFromBottom];
 - (void);
 - (void);
-- (void);
+- (void)oAppID;
 - (long long);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)#;
+- (void)buildWithIdentifier:(id)arg1 withCardDAVAccountDescription:withCardDAVHostName:withCardDAVPrincipalURL:withCardDAVUseSSL:withCardDAVPort:withCommunicationServiceRules:withCardDAVCredentials: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)a valid server now playing object.;
 - (void);
 - (id);
 - (void);
@@ -64,9 +52,9 @@
 - (void)ùb1Â0@ù
 × ;
 - (void)entAsyncDeliveryTarget>";
-- (_Bool)edWhileDragging:(id)arg1;
-- (void)ctangleOfInterestAt:(id)arg1 kind: /* Error: Ran out of types for this method. */;
-- (void)angeCount;
+- (_Bool)setUserInteractionEnabledWhileDragging:(id)arg1;
+- (void)rectangleOfInterestAt:(id)arg1 kind: /* Error: Ran out of types for this method. */;
+- (void)_changeCount;
 - (id)IFeedbackDiscretePlayable>",&,N,V_userInteractingThresholdFeedback;
 - (void)"UITabBarAppearance",C,N,V_scrollEdgeAppearance;
 - (id)nt",&,N,V_documentToSearch;
@@ -81,7 +69,7 @@
 - (void);
 - (void)the completion handler was never called.;
 - (long long);
-- (id)ardFocusWithoutFirstResponderNotification;
+- (id)_UIRemoteKeyboardsServiceWantsKeyboardFocusWithoutFirstResponderNotification;
 - (id)TouchTypeIndirect, UITouchTypeStylus, or UITouchTypeIndirectPointer;
 - (void)ndexPath"24;
 - (_Bool)APayloadValueMissingKeyboardOrientationLandscapeUnknown(void);
@@ -103,31 +91,7 @@
 - (void)Úc;
 
 // Remaining properties
-@property(nonatomic, setter=_setAdjustsFontForContentSizeCategory:) _Bool _adjustsFontForContentSizeCategory; // @synthesize _adjustsFontForContentSizeCategory;
-@property(nonatomic, setter=_setAdjustsFontSizeToFitWidth:) _Bool _adjustsFontSizeToFitWidth; // @synthesize _adjustsFontSizeToFitWidth;
-@property(nonatomic, setter=_setAllowsDefaultTighteningForTruncation:) _Bool _allowsDefaultTighteningForTruncation; // @synthesize _allowsDefaultTighteningForTruncation;
-@property(copy, nonatomic, setter=_setAttributedText:) NSAttributedString *_attributedText; // @synthesize _attributedText;
-@property(readonly, nonatomic) long long _effectiveTextAlignment;
-@property(retain, nonatomic, setter=_setFont:) UIFont *_font; // @synthesize _font;
-@property(readonly, nonatomic) _Bool _hasNonEmptyPlainTextOnly;
-@property(nonatomic, setter=_setLineBreakMode:) long long _lineBreakMode; // @synthesize _lineBreakMode;
-@property(nonatomic, setter=_setMinimumScaleFactor:) double _minimumScaleFactor; // @synthesize _minimumScaleFactor;
-@property(nonatomic, setter=_setNumberOfLines:) long long _numberOfLines; // @synthesize _numberOfLines;
 @property(copy, nonatomic, setter=_setText:) NSString *_text; // @synthesize _text;
-@property(nonatomic, setter=_setTextAlignment:) long long _textAlignment; // @synthesize _textAlignment;
-@property(retain, nonatomic, setter=_setTextColor:) UIColor *_textColor; // @synthesize _textColor;
-@property(nonatomic) _Bool adjustsFontForContentSizeCategory;
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth;
-@property(nonatomic) _Bool allowsDefaultTighteningForTruncation;
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(retain, nonatomic) UIFont *font;
-@property(retain, nonatomic) UIColor *highlightedTextColor; // @synthesize highlightedTextColor=_highlightedTextColor;
-@property(nonatomic) long long lineBreakMode;
-@property(nonatomic) double minimumScaleFactor;
-@property(nonatomic) long long numberOfLines;
-@property(copy, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) UIColor *textColor;
 
 @end
 

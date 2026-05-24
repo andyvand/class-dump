@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UIInteraction;
+
 @protocol _UIInteractiveHighlighting
+- (void)_compatibilityService;
+
+@optional
+- (void)addObserver:(id <UIInteraction>)arg1 selector:name:object: /* Error: Ran out of types for this method. */;
+- (long long)_wentOfflineWithAccount:(id <UIInteraction>)arg1;
+- (_Bool)_didReceivePotentialCollaborationMessage:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (void)};
 @end
 

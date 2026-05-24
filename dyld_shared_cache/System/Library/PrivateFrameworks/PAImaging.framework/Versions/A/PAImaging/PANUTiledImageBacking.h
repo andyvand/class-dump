@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPARegion, NSMutableDictionary, NSObject, NSString, PADevice;
+@class NSObject;
 @protocol NUPurgeableSurfaceImage, OS_dispatch_queue;
 
 @interface PANUTiledImageBacking
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_textureCache;
-    PADevice *_device;
-    IPARegion *_validRegion;
-    struct CGSize _borderSize;
-    struct CGSize _tileSize;
-    int _format;
-    id <NUPurgeableSurfaceImage> _image;
 }
 
 - (id);
-- (id);
+- (id));
 - (id);
 - (unsigned long long);
-- (CDStruct_c3523bfd);
-- (void);
+- (CDStruct_0973877e);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +31,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (struct CGSize);
+- (struct CGSize)orotation;
 - (void);
 - (id);
 - (id);
@@ -50,14 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NUPurgeableSurfaceImage> image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

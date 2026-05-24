@@ -8,8 +8,6 @@
 - (void)t;
 
 // Remaining properties
-@property struct CGRect bounds;
-@property struct CGPoint center;
 @property long long objectType;
 @end
 

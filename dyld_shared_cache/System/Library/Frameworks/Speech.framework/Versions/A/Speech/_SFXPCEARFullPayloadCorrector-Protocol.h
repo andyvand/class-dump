@@ -5,5 +5,6 @@
 //
 
 @protocol _SFXPCEARFullPayloadCorrector
+- (oneway void);
 @end
 

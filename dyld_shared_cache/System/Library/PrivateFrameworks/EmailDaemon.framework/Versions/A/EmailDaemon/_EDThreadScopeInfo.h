@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface _EDThreadScopeInfo
 {
     _Bool _needsUpdate;
-    long long _databaseID;
-    NSDate *_lastViewedDate;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)/;
 - (void);
 - (id);
 - (long long);
@@ -39,8 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
-@property(retain, nonatomic) NSDate *lastViewedDate; // @synthesize lastViewedDate=_lastViewedDate;
-@property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
 
 @end
 

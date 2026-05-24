@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SOAuthorizationResultClientImpl
 {
     CDUnknownBlockType _authorizationHandleResponseCompletion;
-    CDUnknownBlockType _authorizationHandleCredentialCompletion;
 }
 
 - (void);
 - (void);
+- (CDUnknownBlockType)yF';
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)3;
+- (void)?;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType authorizationHandleCredentialCompletion; // @synthesize authorizationHandleCredentialCompletion=_authorizationHandleCredentialCompletion;
 @property(copy) CDUnknownBlockType authorizationHandleResponseCompletion; // @synthesize authorizationHandleResponseCompletion=_authorizationHandleResponseCompletion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

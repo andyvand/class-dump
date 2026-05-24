@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSStackView, NSString, NSView;
-@protocol ActivityNoticeViewDelegate;
+@class NSStackView, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ActivityNoticeView
 {
     NSStackView *_containerStackView;
-    NSLayoutConstraint *_containerLeadingConstraint;
-    NSLayoutConstraint *_containerTrailingConstraint;
-    id <ActivityNoticeViewDelegate> _delegate;
-    NSString *_titleText;
-    NSString *_messageText;
-    NSView *_leadingAccessoryView;
-    NSView *_trailingAccessoryView;
 }
 
 - (id);
@@ -30,16 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)earchpartyd.SPCommand.ErrorDomain;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <ActivityNoticeViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long dismissalMode;
-@property(retain, nonatomic) NSView *leadingAccessoryView; // @synthesize leadingAccessoryView=_leadingAccessoryView;
-@property(readonly, copy, nonatomic) NSString *messageText; // @synthesize messageText=_messageText;
 @property(readonly, copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
-@property(retain, nonatomic) NSView *trailingAccessoryView; // @synthesize trailingAccessoryView=_trailingAccessoryView;
 
 @end
 

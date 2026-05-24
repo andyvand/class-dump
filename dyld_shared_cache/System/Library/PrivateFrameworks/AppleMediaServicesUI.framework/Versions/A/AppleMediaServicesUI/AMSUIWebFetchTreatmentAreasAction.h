@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebFetchTreatmentAreasAction : AMSUIWebAction
 {
     NSArray *_namespaceIds;
-    NSArray *_topicIds;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)pending assertions...;
+- (void)-op);
+- (void):(id)arg1 (%{public}@);
+- (id)IDs for clientID, manager interface is nil for asset type:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ymentAuthorizationController"16@"PKServiceProviderPurchase"24@?<v@?q>32;
 
 // Remaining properties
 @property(retain) NSArray *namespaceIds; // @synthesize namespaceIds=_namespaceIds;
-@property(retain) NSArray *topicIds; // @synthesize topicIds=_topicIds;
 
 @end
 

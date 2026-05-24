@@ -17,8 +17,9 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id)t:(id)arg1 %s
+;
++ (_Bool)wordDetectorHelper:(id)arg1 firstPassConfigPath:(out id *)arg2 %@;
 + (_Bool);
 + (_Bool);
 + (long long);
@@ -28,21 +29,21 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id)!ð!ÈFùá1Â0@ù
 × ;
 - (_Bool);
+- (_Bool);;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)i;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (long long);
+- (_Bool)--;
+- (_Bool);
+- (id)refreshingScanSSID;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -52,7 +53,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NUIdentifier *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) long long type;
 
 @end

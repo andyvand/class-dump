@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTLDebugInstrumentationData, MTLType, NSArray, NSDictionary, NSString;
-@protocol MTLDevice, MTLFunctionHandle;
+@class NSArray, NSString;
 
 @interface MTLToolsFunction : MTLToolsObject
 {
@@ -17,12 +16,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)EUlPvPKhjjfPbE_FvSI_SK_jjfSL_EEE;
 - (long long);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)rceNetworkInterfacePrefs = %@
+  targetPrefs                 = %@%s
+  targetNetworkInterfacePrefs = %@%s;
+- (id)*;
 - (id);
 - (long long);
 - (id);
@@ -33,17 +34,17 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long) ;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)?;
+- (id)c ;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (const CDStruct_41a22ec7 *);
+- (const CDStruct_5af0f983 *)m ;
 - (id);
 - (id);
 - (void);
@@ -51,42 +52,14 @@
 - (id)0@ù
 × ;
 - (id)mage:(unsigned long long)arg1 options:(id *)arg2;
-- (id)olWithDescriptor:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)escriptor:dynamicLinkingDescriptor:error: /* Error: Ran out of types for this method. */;
-- (id)ctCommandBuffers;
+- (id)newTextureViewPoolWithDescriptor:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)newComputePipelineStateWithDescriptor:dynamicLinkingDescriptor:error: /* Error: Ran out of types for this method. */;
+- (id)_supportsIndirectCommandBuffers;
 - (id)mmandBufferWithAllocator to reuse the command buffer (at index %lu).;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) NSArray *arguments;
-@property(readonly) NSArray *bindings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
 @property(readonly, copy) NSString *filePath;
-@property(readonly) NSDictionary *functionConstantsDictionary;
-@property(readonly, nonatomic) id <MTLFunctionHandle> functionHandle;
-@property(readonly) unsigned long long functionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *importedLibraries;
-@property(readonly) NSArray *importedSymbols;
-@property(copy) NSString *label;
-@property(readonly) long long lineNumber;
-@property(readonly) NSString *name;
-@property(readonly) unsigned long long options;
-@property(readonly) long long patchControlPointCount;
-@property(readonly) unsigned long long patchType;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly) unsigned long long renderTargetArrayIndexType;
-@property(readonly) MTLType *returnType;
-@property(readonly) NSArray *stageInputAttributes;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *unpackedFilePath;
-@property(readonly) NSArray *vertexAttributes;
 
 @end
 

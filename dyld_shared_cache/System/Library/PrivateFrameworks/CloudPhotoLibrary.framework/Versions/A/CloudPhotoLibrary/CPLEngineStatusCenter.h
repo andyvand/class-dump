@@ -6,16 +6,9 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, NSDate, NSMutableDictionary, NSMutableSet, NSString;
-
 @interface CPLEngineStatusCenter : CPLEngineStorage
 {
     unsigned long long _currentGeneration;
-    NSDate *_transactionStartDate;
-    NSMutableSet *_persistedScopedIdentifiers;
-    NSMutableDictionary *_pendingTransientStatuses;
-    NSMutableSet *_pendingDeletedTransientStatuses;
-    NSMutableDictionary *_transientStatuses;
 }
 
 - (_Bool);
@@ -23,7 +16,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
@@ -31,14 +24,14 @@
 - (id);
 - (void);
 - (_Bool);
-- (id)]juøj5ø²]àª°]àªý{C©ôOB©öWA©ÿÿ_Ö;
-- (id)A5;
 - (id);
-- (void);
+- (id)E;
 - (id);
+- (void)vB;
+- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -48,15 +41,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasStatusChanges;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

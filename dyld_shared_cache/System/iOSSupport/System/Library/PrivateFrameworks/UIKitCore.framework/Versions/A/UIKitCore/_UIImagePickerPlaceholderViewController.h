@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)hasActualParentChatId;
+- (_Bool)Handles:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hidesPlaceholderNavigationBar; // @synthesize hidesPlaceholderNavigationBar=_hidesPlaceholderNavigationBar;

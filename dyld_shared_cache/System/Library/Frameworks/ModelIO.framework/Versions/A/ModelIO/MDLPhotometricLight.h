@@ -6,14 +6,11 @@
 
 #import <ModelIO/MDLPhysicallyPlausibleLight.h>
 
-@class MDLTexture, NSData, NSMutableData;
+@class MDLTexture;
 
 @interface MDLPhotometricLight : MDLPhysicallyPlausibleLight
 {
     void *_iesLight;
-    NSMutableData *_sphericalHarmonicsCoefficients;
-    MDLTexture *_lightCubeMap;
-    unsigned long long _sphericalHarmonicsLevel;
 }
 
 - (unsigned long long);
@@ -24,16 +21,14 @@
 - (void);
 - (struct CGColor *);
 - (id);
-- (void);
+- (void);
 - (float);
-- (id);
-- (void);
+- (id)sion descriptor must be nonnull for PMLEspressoTrainingPlan initWithPlist;
+- (void)WHERE                    (name = "SignificantPhoneNumber" AND version LIKE "%1.1%")                OR (name = "SignificantPhoneNumber" AND version LIKE "%1.2%")                OR (name = "SignificantEmailAddress" AND version LIKE "%1.1%")                OR (name = "SignificantEmailAddress" AND version LIKE "%1.2%")                OR (name = "SignificantPostalAddress" AND version LIKE "%1.1%")                OR (name = "SignificantPostalAddress" AND version LIKE "%1.2%")                OR (name = "SelfIdentification" AND version LIKE "%1.1%")                OR (name = "STSQP")                );
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MDLTexture *lightCubeMap; // @synthesize lightCubeMap=_lightCubeMap;
-@property(readonly, copy, nonatomic) NSData *sphericalHarmonicsCoefficients;
-@property(readonly, nonatomic) unsigned long long sphericalHarmonicsLevel; // @synthesize sphericalHarmonicsLevel=_sphericalHarmonicsLevel;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSView;
-@protocol GlyphMethods, OS_dispatch_queue;
+@class NSView;
+@protocol GlyphMethods;
 
 @interface LAUIPKGlyphWrapper
 {
     _Bool _hidden;
-    _Bool _fastAnimations;
-    _Bool _grayedOut;
-    NSView *_view;
-    NSView<GlyphMethods> *_glyphView;
-    NSView<GlyphMethods> *_idleTouchID;
-    NSObject<OS_dispatch_queue> *_glyphQueue;
 }
 
 + (id);
@@ -33,17 +27,11 @@
 - (double);
 - (_Bool);
 - (void);
-- (id);
+- (id)#;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool fastAnimations; // @synthesize fastAnimations=_fastAnimations;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *glyphQueue; // @synthesize glyphQueue=_glyphQueue;
 @property(readonly, nonatomic) NSView<GlyphMethods> *glyphView; // @synthesize glyphView=_glyphView;
-@property(nonatomic) _Bool grayedOut; // @synthesize grayedOut=_grayedOut;
-@property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) NSView<GlyphMethods> *idleTouchID; // @synthesize idleTouchID=_idleTouchID;
-@property(readonly, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end
 

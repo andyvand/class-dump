@@ -9,32 +9,19 @@
 @interface UIKit.NavigationButtonBar.GroupLayout
 {
     id bar;
-    id isDirty;
-    id group;
-    id itemViewGenerator;
-    id isFixed;
-    id critical;
-    id isOnlyGroupInSection;
-    id metrics;
-    id itemLayouts;
-    id configuredItemLayouts;
-    id representativeLayout;
-    id suppressCustomSpacing;
-    id _compact;
-    id _spilled;
 }
 
 - (id);
-- (struct CGRect);
+- (struct CGRect).;
+- (void)Dictionary"56B64B68B72;
+- (id)N,V_payloadDblclickbehaviorImmutable;
 - (void);
+- (id)eOffset is expected to align with chunks when a signature is validated;
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)V;
 - (void)ù
 × ;
-- (void)tring:(id)arg1;
+- (void)promptTypeForInputString:(id)arg1;
 - (void)ate, extents:(id)arg1 - complete:%s
 
  - lowLatency:%s /* Error: Ran out of types for this method. */;

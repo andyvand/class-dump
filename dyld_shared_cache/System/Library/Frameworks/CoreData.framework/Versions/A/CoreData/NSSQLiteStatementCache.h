@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSQLEntity, NSSQLiteStatement;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLiteStatementCache
 {
     NSSQLEntity *_entity;
-    NSSQLiteStatement *_insertStatementCache;
-    NSSQLiteStatement *_batchInsertStatementCache;
-    NSSQLiteStatement *_deletionStatementCache;
-    NSSQLiteStatement *_faultingStatementCache;
-    NSMutableDictionary *_toManyRelationshipStatementCache;
-    struct __CFDictionary *_correlationInsertCache;
-    struct __CFDictionary *_correlationDeleteCache;
-    struct __CFDictionary *_correlationMasterReorderCache;
-    struct __CFDictionary *_correlationMasterReorderCachePart2;
-    struct __CFDictionary *_correlationReorderCache;
 }
 
-- (void);
-- (id)moveAllActions;
+- (void);
+- (id)removeAllActions;
 
 @end
 

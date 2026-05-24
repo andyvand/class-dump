@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CNPhotoPickerActionButton, CNPhotoPickerActionsModel, NSString, UIStackView, UIView;
-@protocol CNPhotoPickerActionsViewControllerDelegate, CNPhotoPickerActionsViewControllerLayout;
+@class UIStackView;
+@protocol CNPhotoPickerActionsViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerActionsViewController
 {
     id <CNPhotoPickerActionsViewControllerDelegate> _delegate;
-    CNPhotoPickerActionsModel *_actionsModel;
-    UIStackView *_buttonsView;
-    UIView *_imageContainerView;
-    UIView *_transitionContainerView;
-    CAShapeLayer *_clippingLayer;
-    CNPhotoPickerActionButton *_editButton;
-    CNPhotoPickerActionButton *_duplicateButton;
-    CNPhotoPickerActionButton *_deleteButton;
-    id <CNPhotoPickerActionsViewControllerLayout> _currentLayout;
 }
 
 + (id)0@ù
 × ;
 - (void);
-- (void);
+- (void)4_;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)I;
 - (void);
 - (void);
 - (void);
@@ -39,51 +30,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
+- (double)`;
 - (double);
 - (double);
-- (double);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void)hlightedPropertyIdentifier;
+- (id)h;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)_highlightedPropertyIdentifier;
 - (id)tion;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNPhotoPickerActionsModel *actionsModel; // @synthesize actionsModel=_actionsModel;
 @property(retain, nonatomic) UIStackView *buttonsView; // @synthesize buttonsView=_buttonsView;
-@property(retain, nonatomic) CAShapeLayer *clippingLayer; // @synthesize clippingLayer=_clippingLayer;
-@property(retain, nonatomic) id <CNPhotoPickerActionsViewControllerLayout> currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNPhotoPickerActionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) CNPhotoPickerActionButton *deleteButton; // @synthesize deleteButton=_deleteButton;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNPhotoPickerActionButton *duplicateButton; // @synthesize duplicateButton=_duplicateButton;
-@property(retain, nonatomic) CNPhotoPickerActionButton *editButton; // @synthesize editButton=_editButton;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *imageContainerView; // @synthesize imageContainerView=_imageContainerView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *transitionContainerView; // @synthesize transitionContainerView=_transitionContainerView;
 
 @end
 

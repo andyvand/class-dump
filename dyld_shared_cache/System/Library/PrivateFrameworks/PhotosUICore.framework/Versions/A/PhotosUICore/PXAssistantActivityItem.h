@@ -7,18 +7,16 @@
 @interface PXAssistantActivityItem
 {
     _Bool _enabled;
-    double _progress;
 }
 
-- (void);
-- (id);
+- (void)origin"{?="x"d"y"d}"size"{?="width"d"height"d}};
+- (id);
 - (_Bool);
 - (double)mageProviderCache startRequest for %ld;
 - (void)24@?0@"NSString"8@16;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
 
 @end
 

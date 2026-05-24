@@ -6,32 +6,22 @@
 
 #import <CoreMediaStream/MSASAssetTransferer.h>
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet;
-@protocol MSASAssetUploaderDelegate;
-
 @interface MSASAssetUploader : MSASAssetTransferer
 {
     _Bool _didEncounterNetworkConditionError;
-    int _state;
-    NSMutableArray *_itemsInFlight;
-    NSMutableDictionary *_assetCollectionsToItemInFlightMap;
-    NSMutableDictionary *_assetToAssetCollectionMap;
-    NSMutableArray *_finishedAssetCollections;
-    NSMutableSet *_assetCollectionsWithAuthorizationError;
-    NSMutableDictionary *_assetCollectionGUIDToRequestorContext;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Rh&;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)***********s;
+- (void)filename '%s';
+- (void)NSt3__114default_deleteIN4siri12dialogengine12ObjectSchemaEEE;
 - (void);
 - (void);
 - (void);
@@ -41,9 +31,9 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)enerOperatorComposition",&,V_AccessoryMotionXPCListener;
+- (void)_block_invoke;
+- (void)PCPU1_CLKOFF;
 - (int);
 - (id);
 - (void);
@@ -51,28 +41,20 @@
 - (void);
 - (void);
 - (id);
+- (void)a;
 - (void);
 - (void);
+- (id)/;
 - (void);
+- (void)privateQuery;
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *assetCollectionGUIDToRequestorContext; // @synthesize assetCollectionGUIDToRequestorContext=_assetCollectionGUIDToRequestorContext;
-@property(retain, nonatomic) NSMutableDictionary *assetCollectionsToItemInFlightMap; // @synthesize assetCollectionsToItemInFlightMap=_assetCollectionsToItemInFlightMap;
-@property(retain, nonatomic) NSMutableSet *assetCollectionsWithAuthorizationError; // @synthesize assetCollectionsWithAuthorizationError=_assetCollectionsWithAuthorizationError;
-@property(retain, nonatomic) NSMutableDictionary *assetToAssetCollectionMap; // @synthesize assetToAssetCollectionMap=_assetToAssetCollectionMap;
-@property(nonatomic) __weak id <MSASAssetUploaderDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool didEncounterNetworkConditionError; // @synthesize didEncounterNetworkConditionError=_didEncounterNetworkConditionError;
-@property(retain, nonatomic) NSMutableArray *finishedAssetCollections; // @synthesize finishedAssetCollections=_finishedAssetCollections;
-@property(retain, nonatomic) NSMutableArray *itemsInFlight; // @synthesize itemsInFlight=_itemsInFlight;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

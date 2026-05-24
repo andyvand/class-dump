@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray;
-@protocol CNContactChangesObserver;
-
 __attribute__((visibility("hidden")))
 @interface CNContactChangesObserverProxy
 {
     _Bool _unify;
-    id <CNContactChangesObserver> _observer;
-    NSArray *_keysToFetch;
-    CNContact *_contactSnapshot;
 }
 
 - (void)8@"NSNumber"16@?<v@?@"NSNumber"@"NSError">24;

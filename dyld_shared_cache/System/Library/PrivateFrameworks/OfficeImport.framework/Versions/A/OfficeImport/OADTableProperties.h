@@ -6,20 +6,12 @@
 
 #import <OfficeImport/OADDrawableProperties.h>
 
-@class NSArray, NSString, OADTableStyle;
+@class OADTableStyle;
 
 __attribute__((visibility("hidden")))
 @interface OADTableProperties : OADDrawableProperties
 {
     OADTableStyle *mStyle;
-    _Bool mRightToLeft;
-    _Bool mFirstRow;
-    _Bool mFirstColumn;
-    _Bool mLastRow;
-    _Bool mLastColumn;
-    _Bool mBandRow;
-    _Bool mBandColumn;
-    NSArray *mEffects;
 }
 
 + (id);
@@ -27,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)E;
 - (void);
 - (_Bool);
 - (void);
@@ -49,13 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

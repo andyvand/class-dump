@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNSoundPrintExtractorBase
 {
     id graphImpl;
-    id blockSize;
 }
 
 @end

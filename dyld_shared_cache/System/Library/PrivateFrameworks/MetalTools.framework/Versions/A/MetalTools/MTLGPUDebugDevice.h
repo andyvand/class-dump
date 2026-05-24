@@ -6,40 +6,11 @@
 
 #import <MetalTools/MTLToolsDevice.h>
 
-@class MTLGPUDebugSynchronizedResidencySet, NSData, NSMutableArray, NSMutableDictionary, NSSet;
-@protocol MTLBuffer, MTLComputePipelineState, MTLDepthStencilState, MTLRenderPipelineState;
+@protocol MTLRenderPipelineState;
 
 @interface MTLGPUDebugDevice : MTLToolsDevice
 {
     struct MetalBufferHeap bufferHeap;
-    struct Options boundsCheckOptions;
-    struct GPUDebugDeviceOptions deviceOptions;
-    struct GPUDebugBufferDescriptorHeap globalBufferHeap;
-    struct TextureTypeTable textureTypeTable;
-    struct BVHTypeTable accelerationStructureTypeTable;
-    struct GPUDebugConstantBufferCache constantBufferCache;
-    struct GlobalResidentBufferList globalICBBufferResidentList;
-    id <MTLBuffer> uncheckedBuffer;
-    NSSet *psoEnableChecksList;
-    NSSet *psoDisableChecksList;
-    NSMutableDictionary *bufferStackTraces;
-    struct atomic<int> _currentEncoderID;
-    MTLGPUDebugSynchronizedResidencySet *_synchronizedResidencySet;
-    NSData *_boundsCheckOptionsData;
-    NSMutableArray *_argumentDescriptors;
-    struct once_flag _deviceInitFlag;
-    struct once_flag _icbPipelineInit;
-    id <MTLRenderPipelineState> _icbInheritVertexPipelineState;
-    id <MTLRenderPipelineState> _icbInheritNoneVertexPipelineState;
-    id <MTLRenderPipelineState> _icbInheritBuffersVertexPipelineState;
-    id <MTLRenderPipelineState> _icbInheritBothVertexPipelineState;
-    id <MTLRenderPipelineState> _icbInheritBothMeshVertexPipelineState;
-    id <MTLDepthStencilState> _icbDepthStencilState;
-    id <MTLComputePipelineState> _icbInheritComputePipelineState;
-    id <MTLComputePipelineState> _icbInheritNoneComputePipelineState;
-    id <MTLComputePipelineState> _icbInheritBuffersComputePipelineState;
-    id <MTLComputePipelineState> _icbInheritBothComputePipelineState;
-    id <MTLComputePipelineState> _accelerationStructureComputePipelineState;
 }
 
 - (void);
@@ -72,19 +43,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)S);
 - (id);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)?;
 - (void);
 - (id);
 - (id);
@@ -94,23 +65,23 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
+- (void));
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
 - (id);
@@ -121,31 +92,31 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)d, %d or %d, but is set to %d;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)( ;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)1 ;
 - (id);
 - (void);
 - (void);
 - (CDStruct_14f26992);
-- (id);
-- (id);
+- (id) ;
+- (id) ;
 - (id);
 - (id);
 - (id);
@@ -160,8 +131,8 @@
 - (id);
 - (id)_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *> *> *[], std:(unsigned long long)arg1:(unsigned long long)arg2 __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void), std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, NSString *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)onData:(id)arg1 toBuffer:(unsigned long long)arg2;
-- (id)essTable;
+- (id)writeAccelerationStructureSerializationData:(id)arg1 toBuffer:(unsigned long long)arg2;
+- (id)endEncodingAndRetrieveProgramAddressTable;
 - (id)MTL4DebugRenderCommandEncoder setRenderPipelineState:(id)arg1 ];
 - (id)rt MTLTransformTypeComponent;
 - (id)hreadsPerThreadgroup.depth(%lu))(%lu) must be > 0.;
@@ -170,7 +141,7 @@
 - (_Bool)stream Validation;
 - (_Bool)(%s) is not filterable.;
 - (_Bool)and the compute command encoder must be associated with the same device.;
-- (void)SAGE;
+- (void)MTL_SHADER_VALIDATION_RESOURCE_USAGE;
 - (void)e %@;
 - (_Bool);
 - (id);
@@ -204,19 +175,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLDepthStencilState> ICB_DepthStencilState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_Both_ComputePipelineState;
-@property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_Both_Mesh_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_Both_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_Buffers_ComputePipelineState;
-@property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_Buffers_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_None_ComputePipelineState;
-@property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_None_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> ICB_Inherit_PSO_ComputePipelineState;
 @property(readonly, nonatomic) id <MTLRenderPipelineState> ICB_Inherit_PSO_VertexPipelineState;
-@property(readonly, nonatomic) id <MTLComputePipelineState> accelerationStructureComputePipelineState; // @synthesize accelerationStructureComputePipelineState=_accelerationStructureComputePipelineState;
-@property(readonly, nonatomic) _Bool supportsResourceUsageValidation;
-@property(readonly, retain) MTLGPUDebugSynchronizedResidencySet *synchronizedResidencySet;
 
 @end
 

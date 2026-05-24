@@ -6,39 +6,29 @@
 
 #import <EmailCore/ECTransferActionReplayer.h>
 
-@class NSString;
-@protocol ECIMAPLocalActionReplayerDelegate, ECIMAPServerInterface;
+@protocol ECIMAPServerInterface;
 
 @interface ECTransferActionIMAPReplayer : ECTransferActionReplayer
 {
     id <ECIMAPServerInterface> serverInterface;
-    id <ECIMAPLocalActionReplayerDelegate> delegate;
 }
 
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)creen presentation once complete. %@;
+- (id)trolsView.;
+- (_Bool)t initialize this unless AVSecondScreenDebugHUDEnabled()!;
+- (_Bool)g nor convertible to one;
+- (id)elegate completed. Dismissing.;
+- (id)l transition completes;
+- (id)s Setting dynamic range:(id)arg1 %@, on playerLayer:(id)arg2 %@;
+- (_Bool)T;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ECIMAPLocalActionReplayerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <ECIMAPServerInterface> serverInterface; // @synthesize serverInterface;
-@property(readonly) Class superclass;
 
 @end
 

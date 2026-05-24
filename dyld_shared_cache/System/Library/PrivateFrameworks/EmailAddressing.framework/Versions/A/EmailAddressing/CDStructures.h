@@ -14,9 +14,9 @@ struct _NSRange {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long state;
-    id *itemsPtr;
-    unsigned long long *mutationsPtr;
-    unsigned long long extra[5];
-} CDStruct_58648341;
+    unsigned long long _field1;
+    id *_field2;
+    unsigned long long *_field3;
+    unsigned long long _field4[5];
+} CDStruct_70511ce9;
 

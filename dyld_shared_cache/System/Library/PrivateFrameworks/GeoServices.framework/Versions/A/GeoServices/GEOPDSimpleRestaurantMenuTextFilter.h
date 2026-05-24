@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PBUnknownFields *_unknownFields;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)_handleConnectionInterrupted;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)wnFields"b1"read_commandFormatteds"b1"read_detailFormatteds"b1"read_noticeFormatteds"b1"read_priceFormatteds"b1"wrote_anyField"b1};
-- (id)stLanguages;
+- (id)_resetBestLanguages;
 - (id)¬TôY[´\@]ÌdäeüfgühÌil n	rðs8tu@x;
 - (void);
 

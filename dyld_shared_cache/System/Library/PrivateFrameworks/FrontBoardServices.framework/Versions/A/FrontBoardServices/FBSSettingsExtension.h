@@ -15,7 +15,7 @@
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id)NSt3__120__shared_ptr_pointerIPN5kaldi6quasar27NeuralNgramDeterministicFstIN3fst6ArcTplINS4_17TropicalWeightTplIfEEiEEEENS_14default_deleteIS9_EENS_9allocatorIS9_EEEE;
 + (Class);
 + (id);
 + (id)rred=%@ new=%@ available=%@;

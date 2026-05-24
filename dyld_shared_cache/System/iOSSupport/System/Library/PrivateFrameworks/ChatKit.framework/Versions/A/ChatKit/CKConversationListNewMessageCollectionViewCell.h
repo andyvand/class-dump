@@ -6,7 +6,6 @@
 
 #import <ChatKit/CKConversationListEmbeddedCollectionViewCell.h>
 
-@class NSString;
 @protocol CKConversationListCollectionViewCellDelegate;
 
 __attribute__((visibility("hidden")))
@@ -17,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 + (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)cancelCurrentAudioRecordingSessionWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)acceptShareWithMetadata:attemptNumber:container:accountID:fetchObjectWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 requestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)Body;
+- (void)activityType = ;
 - (id);
 - (id);
 - (void);
@@ -30,14 +29,7 @@ __attribute__((visibility("hidden")))
 - (void),.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CKConversationListCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

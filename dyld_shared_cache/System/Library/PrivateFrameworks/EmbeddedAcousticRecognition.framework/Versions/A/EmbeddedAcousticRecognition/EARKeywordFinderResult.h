@@ -11,8 +11,8 @@
     NSArray *_correctedUtterances;
 }
 
-- (id);
-- (id);
+- (id)(tokenize=ab_cf_tokenizer language="%@" collator="%@", %@);;
+- (id)C;
 - (id);
 - (void)¼´;
 

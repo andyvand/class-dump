@@ -5,5 +5,6 @@
 //
 
 @protocol BSXPCCoding
+- (void)wnloadTask"32;
 @end
 

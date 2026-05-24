@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, OITSUProgressContext, TCProgressStage;
+@class OITSUProgressContext;
 
 __attribute__((visibility("hidden")))
 @interface TCProgressContext
 {
     OITSUProgressContext *m_parentProgressContext;
-    TCProgressStage *m_currentStage;
-    NSDate *m_lastReportTime;
-    NSMutableArray *m_stackOfBranches;
 }
 
 + (id);
@@ -32,8 +29,8 @@ __attribute__((visibility("hidden")))
 + (double);
 + (void);
 + (void);
-+ (void)nt:(double)arg1;
-- (id);
++ (void)readTextAlignment:(double)arg1;
+- (id);
 - (id);
 - (id);
 - (void);

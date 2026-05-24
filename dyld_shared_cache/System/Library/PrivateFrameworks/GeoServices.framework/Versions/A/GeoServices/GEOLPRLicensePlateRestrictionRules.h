@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PBDataReader;
+@class NSData, PBDataReader;
 
 @interface GEOLPRLicensePlateRestrictionRules
 {
     PBDataReader *_reader;
-    NSMutableArray *_licensePlateRegions;
-    NSData *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _createTime;
-    struct {
-        unsigned int read_licensePlateRegions:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool):(id)arg1;
++ (Class)<v@?@"<NSCopying>"@>8;
++ (_Bool)setHasSearchEnrichmentIsWarmingSheetTriggered:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned int createTime;
-@property(retain, nonatomic) NSMutableArray *licensePlateRegions;
 @property(retain, nonatomic) NSData *version;
 
 @end

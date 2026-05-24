@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerProviderItem, CNPhotoPickerVariantsManager, CNVisualIdentityEditablePrimaryAvatarViewController, NSArray, NSLayoutConstraint, NSString, UICollectionView;
-@protocol CNVisualIdentityAvatarStyleEditorViewControllerDelegate;
+@class CNPhotoPickerProviderItem, UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface CNVisualIdentityAvatarStyleEditorViewController
 {
     CNPhotoPickerProviderItem *_providerItem;
-    CNVisualIdentityEditablePrimaryAvatarViewController *_editableAvatarViewController;
-    id <CNVisualIdentityAvatarStyleEditorViewControllerDelegate> _delegate;
-    UICollectionView *_styleCollectionView;
-    NSLayoutConstraint *_avatarViewSizeConstraint;
-    NSLayoutConstraint *_avatarViewTopConstraint;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    NSArray *_variantProviderItems;
 }
 
 - (id);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -34,14 +26,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)qA;
+- (double)k;
 - (void);
 - (id);
 - (id);
@@ -55,27 +47,13 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (struct CGSize);
 - (long long);
-- (void);
-- (void)thBadges:scope: /* Error: Ran out of types for this method. */;
+- (void)SQ;
+- (void)avatarImageForContacts:withBadges:scope: /* Error: Ran out of types for this method. */;
 - (id)onController.m;
-- (id)l;
+- (id)fontTooSmall;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *avatarViewSizeConstraint; // @synthesize avatarViewSizeConstraint=_avatarViewSizeConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *avatarViewTopConstraint; // @synthesize avatarViewTopConstraint=_avatarViewTopConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNVisualIdentityAvatarStyleEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNVisualIdentityEditablePrimaryAvatarViewController *editableAvatarViewController; // @synthesize editableAvatarViewController=_editableAvatarViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CNPhotoPickerProviderItem *providerItem; // @synthesize providerItem=_providerItem;
 @property(retain, nonatomic) UICollectionView *styleCollectionView; // @synthesize styleCollectionView=_styleCollectionView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *variantProviderItems; // @synthesize variantProviderItems=_variantProviderItems;
-@property(retain, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
 
 @end
 

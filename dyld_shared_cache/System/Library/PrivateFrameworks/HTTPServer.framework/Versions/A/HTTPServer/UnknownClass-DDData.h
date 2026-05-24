@@ -6,7 +6,7 @@
 
 @interface UnknownClass (DDData)
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

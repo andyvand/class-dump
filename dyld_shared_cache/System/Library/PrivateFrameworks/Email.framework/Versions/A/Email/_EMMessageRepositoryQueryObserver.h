@@ -4,60 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFManualCancelationToken, EMMessageRepository, EMObjectID, EMQuery, NSString;
-@protocol EFCancelable, EFScheduler, EMQueryResultsObserver;
+@class EMMessageRepository, EMObjectID;
 
 __attribute__((visibility("hidden")))
 @interface _EMMessageRepositoryQueryObserver
 {
     EMMessageRepository *_repository;
-    EMQuery *_query;
-    id <EMQueryResultsObserver> _observer;
-    EFManualCancelationToken *_token;
-    id <EFScheduler> _recoveryScheduler;
-    struct os_unfair_lock_s _recoveryLock;
-    long long _recoveryAttempt;
-    _Bool _recoveryIsScheduled;
-    EMObjectID *_observationIdentifier;
-    id <EFCancelable> _remoteCancelable;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)roupSession;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)@;
 - (void);
 - (void);
+- (void)(;
+- (void)(r@;
 - (void);
 - (void);
+- (void)@;
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@;
+- (void)@;
+- (id)#;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EMObjectID *observationIdentifier; // @synthesize observationIdentifier=_observationIdentifier;
-@property(retain) id <EFCancelable> remoteCancelable; // @synthesize remoteCancelable=_remoteCancelable;
-@property(readonly) Class superclass;
 
 @end
 

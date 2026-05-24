@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDServerConnection, NSObject, NSSet;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AnalyticsAgent
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AWDServerConnection *_symptomsAWDConnection;
-    NSSet *_awdSymptomsConfiguredMetricIds;
 }
 
-+ (int);
-+ (id);
++ (int)KECHAINRECOVERY_SECURITY_CODE_ERROR_MESSAGE;
++ (id)s/A/FindMyDeviceUI;
 + (id);
 + (int);
 + (void);
++ (id)setPercentEncodedQuery:(id)arg1;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -28,24 +26,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ď;
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)hasUpdatedPronouns;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *awdSymptomsConfiguredMetricIds; // @synthesize awdSymptomsConfiguredMetricIds=_awdSymptomsConfiguredMetricIds;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) AWDServerConnection *symptomsAWDConnection; // @synthesize symptomsAWDConnection=_symptomsAWDConnection;
 
 @end
 

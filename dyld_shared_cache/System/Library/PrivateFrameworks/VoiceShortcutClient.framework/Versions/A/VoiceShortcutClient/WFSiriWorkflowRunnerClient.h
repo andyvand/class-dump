@@ -6,14 +6,11 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunnerClient.h>
 
-@class NSString, NSXPCListener, WFPausedShortcutData, WFSiriExecutionMetrics;
-@protocol WFSiriWorkflowRunnerClientDelegate;
+@class NSXPCListener, WFSiriExecutionMetrics;
 
 @interface WFSiriWorkflowRunnerClient : WFWorkflowRunnerClient
 {
     WFSiriExecutionMetrics *_siriExecutionMetrics;
-    NSXPCListener *_dialogRequestListener;
-    WFPausedShortcutData *_pausedData;
 }
 
 - (id);
@@ -23,19 +20,19 @@
 - (void);
 - (void);
 - (void);
+- (id)"{;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)|;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)|;
 - (void);
-- (void);
-- (id);
-- (long long);
-- (long long);
+- (id)|;
+- (long long)z;
+- (long long)|;
 - (void);
 - (void);
 - (void);
@@ -43,17 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WFSiriWorkflowRunnerClientDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSXPCListener *dialogRequestListener; // @synthesize dialogRequestListener=_dialogRequestListener;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WFPausedShortcutData *pausedData; // @synthesize pausedData=_pausedData;
-@property(retain, nonatomic) WFSiriExecutionMetrics *siriExecutionMetrics; // @synthesize siriExecutionMetrics=_siriExecutionMetrics;
-@property(readonly) Class superclass;
 
 @end
 

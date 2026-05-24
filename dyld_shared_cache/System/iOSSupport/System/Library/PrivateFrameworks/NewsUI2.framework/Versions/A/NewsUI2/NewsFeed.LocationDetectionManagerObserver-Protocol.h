@@ -5,5 +5,6 @@
 //
 
 @protocol NewsFeed.LocationDetectionManagerObserver
+- (void)SMSystem_FileManager_Traditional;
 @end
 

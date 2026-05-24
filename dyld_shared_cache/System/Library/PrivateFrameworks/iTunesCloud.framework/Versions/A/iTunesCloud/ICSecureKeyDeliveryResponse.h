@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreDialogResponse, NSData, NSDate, NSError;
+@class ICStoreDialogResponse;
 
 @interface ICSecureKeyDeliveryResponse
 {
     ICStoreDialogResponse *_dialog;
-    NSError *_serverError;
-    unsigned long long _bulkRefreshWaitInterval;
-    NSDate *_rentalExpirationDate;
-    NSDate *_rentalPlaybackStartDate;
-    NSDate *_renewalDate;
-    NSData *_serverPlaybackContextData;
-    NSData *_contentKeyContextData;
-    long long _status;
-    long long _failureType;
 }
 
 - (void);
@@ -34,9 +25,9 @@
 - (unsigned long long);
 - (long long);
 - (void);
+- (id)%s:Warning:failed to create directory at %@:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
@@ -44,16 +35,7 @@
 - (id)pressure level status=%u;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bulkRefreshWaitInterval; // @synthesize bulkRefreshWaitInterval=_bulkRefreshWaitInterval;
-@property(copy, nonatomic) NSData *contentKeyContextData; // @synthesize contentKeyContextData=_contentKeyContextData;
 @property(copy, nonatomic) ICStoreDialogResponse *dialog; // @synthesize dialog=_dialog;
-@property(readonly, nonatomic) long long failureType; // @synthesize failureType=_failureType;
-@property(copy, nonatomic) NSDate *renewalDate; // @synthesize renewalDate=_renewalDate;
-@property(copy, nonatomic) NSDate *rentalExpirationDate; // @synthesize rentalExpirationDate=_rentalExpirationDate;
-@property(copy, nonatomic) NSDate *rentalPlaybackStartDate; // @synthesize rentalPlaybackStartDate=_rentalPlaybackStartDate;
-@property(copy, nonatomic) NSError *serverError; // @synthesize serverError=_serverError;
-@property(copy, nonatomic) NSData *serverPlaybackContextData; // @synthesize serverPlaybackContextData=_serverPlaybackContextData;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

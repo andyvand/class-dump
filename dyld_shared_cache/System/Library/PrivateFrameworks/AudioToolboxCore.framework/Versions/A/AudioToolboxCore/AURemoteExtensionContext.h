@@ -9,8 +9,6 @@
 @interface AURemoteExtensionContext
 {
     AURemoteHost *_host;
-    _Bool _isUIExtension;
-    AUAudioUnitViewService *_viewService;
 }
 
 + (id);
@@ -19,9 +17,9 @@
 + (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)<bool>={__cxx_atomic_impl<bool, std:(id)arg1:__cxx_atomic_base_impl<bool>>=AB}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{vector<AMCP::Utility::Dispatch_Queue::Event_Source, std::allocator<AMCP::Utility::Dispatch_Queue::Event_Source>>=^{Event_Source}^{Event_Source}{?=^{Event_Source}}}{mutex={_opaque_pthread_mutex_t=q[56c]}}{atomic<long long>={__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=Aq}}@{optional<applesauce::dispatch::group>=(?=c{group={object=@}})B}}16 /* Error: Ran out of types for this method. */;
+- (void)ar;
+- (id);
 - (void)4l4;
 - (id)ÄcÆÀ'tOÁ³#ÁläÐÁ»;
 

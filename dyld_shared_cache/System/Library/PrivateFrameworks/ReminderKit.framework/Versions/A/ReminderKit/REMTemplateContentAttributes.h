@@ -7,10 +7,6 @@
 @interface REMTemplateContentAttributes
 {
     _Bool _hasDisplayDate;
-    _Bool _hasHashtags;
-    _Bool _hasLocationTriggersOrVehicleEventTriggers;
-    _Bool _hasImageAttachments;
-    long long _reminderCount;
 }
 
 + (_Bool);
@@ -27,10 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasDisplayDate; // @synthesize hasDisplayDate=_hasDisplayDate;
-@property(readonly, nonatomic) _Bool hasHashtags; // @synthesize hasHashtags=_hasHashtags;
-@property(readonly, nonatomic) _Bool hasImageAttachments; // @synthesize hasImageAttachments=_hasImageAttachments;
-@property(readonly, nonatomic) _Bool hasLocationTriggersOrVehicleEventTriggers; // @synthesize hasLocationTriggersOrVehicleEventTriggers=_hasLocationTriggersOrVehicleEventTriggers;
 @property(readonly, nonatomic) long long reminderCount; // @synthesize reminderCount=_reminderCount;
 
 @end

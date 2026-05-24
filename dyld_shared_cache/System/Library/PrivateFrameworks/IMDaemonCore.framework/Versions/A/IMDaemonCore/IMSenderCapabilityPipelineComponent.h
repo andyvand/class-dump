@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet;
+@class NSSet;
 
 @interface IMSenderCapabilityPipelineComponent
 {
     NSSet *_registrationProperties;
-    NSData *_pushToken;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id).;
 - (void);
 - (void)°(;
 - (id)object %@ %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
 @property(retain, nonatomic) NSSet *registrationProperties; // @synthesize registrationProperties=_registrationProperties;
 
 @end

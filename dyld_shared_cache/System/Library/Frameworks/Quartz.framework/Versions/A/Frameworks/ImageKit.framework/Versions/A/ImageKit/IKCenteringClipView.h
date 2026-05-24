@@ -11,13 +11,13 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)deleteWebHistoryForURL:(struct CGSize)arg1 webApplication:clientBundleURLWrapper:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)deleteWebHistoryForURL:(double)arg1 webApplication:clientBundleURLWrapper:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (void);
 - (void);
 

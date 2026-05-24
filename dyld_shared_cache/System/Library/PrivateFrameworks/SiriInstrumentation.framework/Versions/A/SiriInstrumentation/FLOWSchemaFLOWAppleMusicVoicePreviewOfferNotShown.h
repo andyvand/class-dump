@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWAppleMusicVoicePreviewOfferNotShown : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
-- (id);
+- (id)8;
 - (int);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id);
 - (id)timation"b1"enrollmentUtteranceCount"b1"jsEnrollmentUtteranceCount"b1"lowEnrollmentSpeakerSimilarityScoreCounts"b1};
@@ -30,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

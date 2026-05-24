@@ -9,16 +9,15 @@
 @interface AppKit._NSLatencyLightView : AppKit._NSSoftOutlineView
 {
     id accessibilityDisplayOptionsDidChangeObserver;
-    id maskType;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
-- (void);
-- (id):(struct CGRect)arg1 inRect: /* Error: Ran out of types for this method. */;
-- (double)HotRegion:makeVisibleBoundsPtr:keepVisibleBoundsPtr:displayPtr: /* Error: Ran out of types for this method. */;
+- (void)с";
+- (id)_slowPathDrawEmptyColumnsForView:(struct CGRect)arg1 inRect: /* Error: Ran out of types for this method. */;
+- (double)_isMouseInMenuBarHotRegion:makeVisibleBoundsPtr:keepVisibleBoundsPtr:displayPtr: /* Error: Ran out of types for this method. */;
 - (void)WA;
 - (void)C;
 - (void);

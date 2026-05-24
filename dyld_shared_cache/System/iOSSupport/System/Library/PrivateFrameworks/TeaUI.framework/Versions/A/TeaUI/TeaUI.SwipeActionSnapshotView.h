@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)notificationItemIDs;
+- (id)setUnsubscribeImpressionValueBaseline:(struct CGRect)arg1;
 - (void);
 
 @end

@@ -9,15 +9,12 @@
 @interface IMKCandidateData
 {
     NSArray *_keys;
-    NSMutableDictionary *_keysToCandidates;
-    NSArray *_candidates;
-    _Bool _shouldShowGroups;
 }
 
 + (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -32,12 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *candidates;
-@property(readonly, nonatomic) _Bool hasGroups;
-@property(readonly, nonatomic) _Bool isShowingEmptyCandidate;
-@property(retain, nonatomic) NSArray *keys; // @synthesize keys=_keys;
 @property(retain, nonatomic) NSMutableDictionary *keysToCandidates; // @synthesize keysToCandidates=_keysToCandidates;
-@property(nonatomic) _Bool shouldShowGroups; // @synthesize shouldShowGroups=_shouldShowGroups;
 
 @end
 

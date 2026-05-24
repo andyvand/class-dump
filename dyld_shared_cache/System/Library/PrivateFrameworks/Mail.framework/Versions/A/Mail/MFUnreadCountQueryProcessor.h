@@ -4,50 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, NSObject, NSString;
-@protocol MFMailboxDisplayCountUpdater, MFSearchableIndexQueryResultProcessorDelegate, OS_dispatch_queue;
-
 @interface MFUnreadCountQueryProcessor
 {
     struct os_unfair_lock_s _logPrefixStringLock;
-    _Bool _useTotalCount;
-    _Bool _cancelled;
-    id <MFSearchableIndexQueryResultProcessorDelegate> _delegate;
-    id <MFMailboxDisplayCountUpdater> _displayCountUpdater;
-    NSString *_logIdentifier;
-    NSCountedSet *_seenMailMessageIDs;
-    NSMutableDictionary *_persistentIDToMailMessageID;
-    NSObject<OS_dispatch_queue> *_seenMailMessageIDsQueue;
-    NSString *_logPrefixString;
 }
 
 + (id);
 - (_Bool);
 - (void);
+- (void)q!;
+- (id);
+- (id)@9 ;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool)B;
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id)MUICatchUpFeedbackFeature;
 - (id);
 - (void);
 - (void);
@@ -57,22 +45,6 @@
 
 // Remaining properties
 @property(getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFSearchableIndexQueryResultProcessorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <MFMailboxDisplayCountUpdater> displayCountUpdater; // @synthesize displayCountUpdater=_displayCountUpdater;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(retain, nonatomic) NSString *logPrefixString; // @synthesize logPrefixString=_logPrefixString;
-@property(retain, nonatomic) NSMutableDictionary *persistentIDToMailMessageID; // @synthesize persistentIDToMailMessageID=_persistentIDToMailMessageID;
-@property(retain, nonatomic) NSCountedSet *seenMailMessageIDs; // @synthesize seenMailMessageIDs=_seenMailMessageIDs;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *seenMailMessageIDsQueue; // @synthesize seenMailMessageIDsQueue=_seenMailMessageIDsQueue;
-@property(readonly) _Bool shouldCancel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useTotalCount; // @synthesize useTotalCount=_useTotalCount;
 
 @end
 

@@ -5,24 +5,22 @@
 //
 
 @class AKAuthorization, NSError;
-@protocol AKCredential;
 
 @interface AMSPurchaseSIWAAuthorizationResult
 {
     NSError *_error;
-    AKAuthorization *_authorization;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (unsigned long long);
+- (void)%;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)cyControllerDelegate>";
 - (void);
 - (id);
 - (void)·«òvÎWøAp*/×#>iÁM9èÚä;
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain) AKAuthorization *authorization; // @synthesize authorization=_authorization;
-@property(readonly) id <AKCredential> authorizationCredential;
-@property(retain) NSError *error; // @synthesize error=_error;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeBoxBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id decorationProviderFactory;
 }
 
 @end

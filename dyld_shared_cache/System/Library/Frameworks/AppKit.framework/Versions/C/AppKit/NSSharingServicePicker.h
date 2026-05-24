@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSDictionary, NSMenu, NSMenuItem, NSSharingServicePickerReserved, NSView;
-@protocol NSSharingServicePickerDelegate;
+@class NSArray, NSSharingServicePickerReserved;
 
 @interface NSSharingServicePicker
 {
     NSSharingServicePickerReserved *_reserved;
-    NSMenu *rolloverMenu;
-    CALayer *rolloverLayer;
-    CALayer *innerBorderLayer;
-    NSView *owner;
-    NSArray *shareServices;
-    NSArray *mainServices;
-    NSArray *_applicationServices;
-    NSArray *_excludedSharingServiceNames;
-    NSDictionary *_shareKitInfo;
 }
 
 + (id);
@@ -27,10 +17,6 @@
 
 // Remaining properties
 @property(copy) NSArray *applicationServices;
-@property __weak id <NSSharingServicePickerDelegate> delegate;
-@property(copy) NSArray *excludedSharingServiceNames;
-@property(copy) NSDictionary *shareKitInfo;
-@property(readonly) NSMenuItem *standardShareMenuItem;
 
 @end
 

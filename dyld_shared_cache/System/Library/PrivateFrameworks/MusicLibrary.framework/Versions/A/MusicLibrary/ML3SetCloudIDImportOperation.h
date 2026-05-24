@@ -12,15 +12,14 @@ __attribute__((visibility("hidden")))
 @interface ML3SetCloudIDImportOperation : ML3ImportOperation
 {
     NSArray *_trackInfo;
-    NSArray *_playlistInfo;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)reportCompletionWithData:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)popNextJobToRun;
+- (_Bool)placeAnnotation;
+- (unsigned long long)}@ found asset %{public}@ with uuid %{public}@;
 - (void);
-- (void)eKey;
+- (void)_ML3AutofilledTracksArePurgeableKey;
 
 @end
 

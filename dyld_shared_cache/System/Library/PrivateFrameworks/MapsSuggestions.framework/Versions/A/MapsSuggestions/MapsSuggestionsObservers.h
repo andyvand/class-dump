@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSString;
 
 @interface MapsSuggestionsObservers
 {
     NSString *_name;
-    struct Queue _callbackQueue;
-    NSHashTable *_innerObservers;
 }
 
 - (_Bool);
@@ -28,13 +26,6 @@
 - (void)psSuggestionsSignalType, MSg::Signal>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

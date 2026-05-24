@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestination, CTLazuliOperationID, CTLazuliSpamReportInformation;
+@class CTLazuliDestination;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCReportSpamRequest : CTXPCSubscriptionContextRequest
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
++ (id)";
 - (id);
 - (void);
 - (id);
@@ -25,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliDestination *destination;
-@property(readonly, nonatomic) CTLazuliOperationID *operationID;
-@property(readonly, nonatomic) CTLazuliSpamReportInformation *spamReportInfo;
 
 @end
 

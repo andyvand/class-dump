@@ -6,26 +6,19 @@
 
 #import <ImageKit/IKLinkedListLink.h>
 
-@class IKCacheNode, NSBitmapImageRep, NSData, NSString;
+@class IKCacheNode;
 
 @interface IKCacheRamNode : IKLinkedListLink
 {
     IKCacheNode *_parent;
-    unsigned int _cacheUsedByBitmapRep;
-    unsigned int _cacheUsedByJpegData;
-    unsigned int _session;
-    int _rawDataFormat;
-    _Bool _isInPriorityList;
-    NSBitmapImageRep *_bitmapRep;
-    NSData *_data;
 }
 
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)c;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -47,16 +40,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Id:(id)arg1 originAppId:score:matchScore:priorInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

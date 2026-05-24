@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFSignedData_Ivars
 {
     NSData *data;
-    NSData *signature;
 }
 
 - (void);

@@ -9,10 +9,10 @@
     int _maxLength;
 }
 
-- (int);
+- (int)_setAccountTelemetryOptInConfig:altDSID:authController:accountManager:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);

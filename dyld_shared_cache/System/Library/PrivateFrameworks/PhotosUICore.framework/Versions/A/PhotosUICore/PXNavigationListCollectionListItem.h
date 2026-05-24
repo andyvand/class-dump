@@ -6,23 +6,22 @@
 
 #import <PhotosUICore/PXNavigationListItem.h>
 
-@class NSString, PHCollectionList;
+@class PHCollectionList;
 
 @interface PXNavigationListCollectionListItem : PXNavigationListItem
 {
     PHCollectionList *_collection;
-    NSString *_collectionIdentifier;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)pPhotoLibraryForTesting;
+- (id)px_appPhotoLibraryForTesting;
 - (id)public}@]:Context is already at top of stock:%@. Total:%tu /* Error: Ran out of types for this method. */;
 - (void)|îç)zµ0k;
 - (id)/;

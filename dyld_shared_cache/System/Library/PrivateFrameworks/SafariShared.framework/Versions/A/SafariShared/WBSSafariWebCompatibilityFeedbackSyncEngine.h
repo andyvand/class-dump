@@ -13,13 +13,13 @@
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
-- (id);
+- (void)`;
+- (id)C9;
 - (void);
 
 @end

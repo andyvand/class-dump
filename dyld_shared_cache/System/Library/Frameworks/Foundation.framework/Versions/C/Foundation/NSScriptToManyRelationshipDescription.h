@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface NSScriptToManyRelationshipDescription : NSScriptPropertyDescription
 {
     unsigned int _plistAppleEventCode;
-    _Bool _isLocationRequiredToCreate;
-    _Bool _shouldByDefaultInsertAtBeginning;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (id);

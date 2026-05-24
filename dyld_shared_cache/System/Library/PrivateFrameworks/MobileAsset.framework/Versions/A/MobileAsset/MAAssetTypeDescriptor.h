@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface MAAssetTypeDescriptor
 {
     _Bool _isSecure;
-    NSString *_assetType;
-    NSDictionary *_typeDescriptor;
 }
 
 + (id);
@@ -27,12 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *assetProperties; // @dynamic assetProperties;
-@property(readonly, nonatomic) NSArray *assetSpecifiers; // @dynamic assetSpecifiers;
 @property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(readonly, nonatomic) _Bool isSecure; // @synthesize isSecure=_isSecure;
-@property(readonly, nonatomic) _Bool shouldMakeDataVault; // @dynamic shouldMakeDataVault;
-@property(readonly, nonatomic) _Bool shouldRemoveV1Assets; // @dynamic shouldRemoveV1Assets;
 
 @end
 

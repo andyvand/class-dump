@@ -7,9 +7,6 @@
 @interface SWLayoutGuide
 {
     struct CGRect _bounds;
-    struct CGRect _contentFrame;
-    struct CGRect _contentSafeAreaFrame;
-    struct CGRect _systemSafeAreaFrame;
 }
 
 - (struct CGRect);
@@ -19,13 +16,10 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect)o;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(readonly, nonatomic) struct CGRect contentSafeAreaFrame; // @synthesize contentSafeAreaFrame=_contentSafeAreaFrame;
-@property(readonly, nonatomic) struct CGRect systemSafeAreaFrame; // @synthesize systemSafeAreaFrame=_systemSafeAreaFrame;
 
 @end
 

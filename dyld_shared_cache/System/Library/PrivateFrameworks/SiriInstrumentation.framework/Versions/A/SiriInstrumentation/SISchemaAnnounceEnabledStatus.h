@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaAnnounceNotifications;
-
 @interface SISchemaAnnounceEnabledStatus : SISchemaInstrumentationMessage
 {
     _Bool _announceMessagesEnabled;
-    _Bool _announceCallsEnabled;
-    SISchemaAnnounceNotifications *_announceNotifications;
-    struct {
-        unsigned int announceMessagesEnabled:1;
-        unsigned int announceCallsEnabled:1;
-    } _has;
-    _Bool _hasAnnounceNotifications;
 }
 
 - (void);
@@ -25,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,27 +25,22 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)8{;
+- (_Bool)app-action-authorization;
+- (_Bool)c  ON c.ROWID=crmj.chat_id AND c.guid=? JOIN message AS m  ON m.ROWID=crmj.message_id AND crmj.ck_sync_state=1;;
 - (id);
-- (id);
-- (id)FollowUpPosted;
-- (id)core;
-- (void)Event;
+- (id)onverter_CreateForCGToCVImageFormat().
+;
+- (id)coreFollowUpPosted;
+- (id)_affinityScore;
+- (void)lidSpeechTranslationEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool announceCallsEnabled; // @synthesize announceCallsEnabled=_announceCallsEnabled;
 @property(nonatomic) _Bool announceMessagesEnabled; // @synthesize announceMessagesEnabled=_announceMessagesEnabled;
-@property(retain, nonatomic) SISchemaAnnounceNotifications *announceNotifications; // @synthesize announceNotifications=_announceNotifications;
-@property(nonatomic) _Bool hasAnnounceCallsEnabled;
-@property(nonatomic) _Bool hasAnnounceMessagesEnabled;
-@property(nonatomic) _Bool hasAnnounceNotifications; // @synthesize hasAnnounceNotifications=_hasAnnounceNotifications;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

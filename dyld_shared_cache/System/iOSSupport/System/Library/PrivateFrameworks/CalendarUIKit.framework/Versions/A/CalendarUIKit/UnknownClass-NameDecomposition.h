@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NameDecomposition)
-+ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);

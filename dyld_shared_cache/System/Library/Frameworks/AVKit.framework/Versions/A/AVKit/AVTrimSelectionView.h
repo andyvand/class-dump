@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface AVTrimSelectionView
 {
     NSImage *_selectionImage;
-    unsigned long long _trimViewStyle;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)aryPass];
 - (void);
 
 // Remaining properties

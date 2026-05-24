@@ -9,7 +9,7 @@
     CDUnknownBlockType _handler;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)É_Z7tW

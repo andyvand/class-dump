@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DDURLMatch
 {
     struct _NSRange _range;
-    NSString *_url;
 }
 
 - (id);

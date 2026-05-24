@@ -5,5 +5,7 @@
 //
 
 @protocol _DASActivitySchedulerClient
+- (void);
+- (void);
 @end
 

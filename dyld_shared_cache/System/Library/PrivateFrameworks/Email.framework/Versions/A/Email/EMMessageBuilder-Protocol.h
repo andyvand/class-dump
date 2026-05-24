@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMSearchableMessageID, NSUUID;
+@class NSUUID;
 
 @protocol EMMessageBuilder
+- (void)_;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *documentID;
-@property(copy, nonatomic) EMSearchableMessageID *searchableMessageID;
 @end
 

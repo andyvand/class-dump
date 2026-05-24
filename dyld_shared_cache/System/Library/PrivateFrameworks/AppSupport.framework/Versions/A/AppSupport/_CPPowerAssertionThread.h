@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimer;
+@class NSTimer;
 
 @interface _CPPowerAssertionThread
 {
     NSTimer *_timer;
-    NSDate *_earliest;
 }
 
 - (void);

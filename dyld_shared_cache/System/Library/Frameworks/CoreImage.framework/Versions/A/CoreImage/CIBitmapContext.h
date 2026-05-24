@@ -17,12 +17,12 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 
 @end
 

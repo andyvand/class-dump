@@ -9,14 +9,13 @@
 @interface WBSCredentialExtractionHelperConnectionManager
 {
     NSMutableSet *_clients;
-    NSXPCConnection *_credentialExtractionHelperConnection;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)P;
+- (id)c;
 - (void);
 - (void)èN;
 

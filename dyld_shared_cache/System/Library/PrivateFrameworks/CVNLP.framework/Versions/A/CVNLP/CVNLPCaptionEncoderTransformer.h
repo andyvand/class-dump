@@ -9,22 +9,18 @@
 @interface CVNLPCaptionEncoderTransformer : CVNLPCaptionEncoder
 {
     void *encoderPlan;
-    void *encoderCtx;
-    CDStruct_2bc666a5 encoderNet;
-    vector_64acebbd encoderInputNames;
-    CDStruct_0a65202a attFeatsBlob;
 }
 
 - (id);
+- (void)�1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)1H;
 - (void);
 - (id);
-- (void);
+- (void)|Y;
 
 @end
 

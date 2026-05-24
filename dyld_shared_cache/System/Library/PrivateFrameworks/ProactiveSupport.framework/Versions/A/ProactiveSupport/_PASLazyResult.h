@@ -7,22 +7,20 @@
 @interface _PASLazyResult
 {
     id _data;
-    struct _opaque_pthread_mutex_t _lock;
-    CDUnknownBlockType _block;
 }
 
 - (id);
-- (void);
+- (void)s for event:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)%f  
+;
+- (id)isNoTel;
+- (void)setX_calendarserver_private_comment: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id result;
-@property(readonly, nonatomic) id resultIfAvailable;
 
 @end
 

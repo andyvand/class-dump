@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface IOKNotificationPort
 {
     struct IONotificationPort *_port;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -18,14 +14,12 @@
 - (id);
 - (unsigned int);
 - (id);
-- (struct IONotificationPort *);
+- (struct IONotificationPort *)T(;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int machPort;
 @property(readonly, nonatomic) struct IONotificationPort *port; // @synthesize port=_port;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

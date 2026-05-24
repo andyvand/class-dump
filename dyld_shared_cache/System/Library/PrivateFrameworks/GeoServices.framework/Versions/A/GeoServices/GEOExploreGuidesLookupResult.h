@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOExploreGuides, GEOPDExploreGuides, GEOPDExploreGuidesLookupParameters, GEOPDExplorePlace, NSString, NSURL;
+@class GEOExploreGuides, GEOPDExploreGuidesLookupParameters;
 
 @interface GEOExploreGuidesLookupResult
 {
     GEOPDExploreGuidesLookupParameters *_exploreGuidesLookupParameters;
-    GEOPDExplorePlace *_explorePlace;
-    GEOPDExploreGuides *_pdExploreGuides;
-    int _punchoutType;
-    int _searchProviderID;
-    unsigned long long _searchUID;
-    GEOExploreGuides *_exploreGuides;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_imageTemplateURL;
 }
 
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)NSString"24B32;
 - (id);
 - (id);
 - (id);
@@ -31,10 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) GEOExploreGuides *exploreGuides; // @synthesize exploreGuides=_exploreGuides;
-@property(readonly, copy, nonatomic) NSString *imageTemplateURL; // @synthesize imageTemplateURL=_imageTemplateURL;
-@property(readonly, nonatomic) NSURL *punchInURL;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

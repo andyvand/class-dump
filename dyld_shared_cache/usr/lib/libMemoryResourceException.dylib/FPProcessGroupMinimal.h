@@ -9,7 +9,6 @@
 @interface FPProcessGroupMinimal
 {
     NSMutableSet *_processes;
-    unsigned long long _hashValue;
 }
 
 - (id);

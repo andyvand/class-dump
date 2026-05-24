@@ -10,23 +10,21 @@
 @interface AVCVirtualTTYDevice
 {
     AVConferenceXPCClient *_connection;
-    id _delegate;
-    _Bool _isStarted;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)7;
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)h;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) id <AVCVirtualTTYDeviceDelegate> delegate;

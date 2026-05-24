@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void)bjectForKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (void)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
 
 @end
 

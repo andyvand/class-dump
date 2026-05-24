@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSObject;
+@class NSArray, NSObject;
 @protocol OS_nw_protocol_metadata;
 
 __attribute__((visibility("hidden")))
@@ -15,15 +15,13 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)1.size() == parray->vector2.size()), dumping backtrace:%{public}s /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id):] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (unsigned long long)*tc;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long redirectCount;
-@property(readonly, copy, nonatomic) NSDateInterval *taskInterval;
 @property(readonly, copy, nonatomic) NSArray *transactionMetrics;
 
 @end

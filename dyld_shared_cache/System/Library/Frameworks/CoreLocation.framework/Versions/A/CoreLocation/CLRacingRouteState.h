@@ -7,16 +7,6 @@
 @interface CLRacingRouteState
 {
     double _latitude;
-    double _longitude;
-    double _altitude;
-    double _odometer;
-    double _timestamp;
-    double _timeSinceStart;
-    double _offRouteTime;
-    double _distanceSinceStart;
-    double _offRouteDistance;
-    double _averagePace;
-    double _distanceAlongReference;
 }
 
 + (_Bool);
@@ -31,23 +21,13 @@
 - (double);
 - (double);
 - (void);
-- (id);
-- (double);
+- (id)setIntersectionFunctionTable:(struct _NSZone *)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (double)setFragmentGlobalConstantsSize: /* Error: Ran out of types for this method. */;
 - (double);
 - (double)y,tripID,%{public}s;
 
 // Remaining properties
-@property(readonly, nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(readonly, nonatomic) double averagePace; // @synthesize averagePace=_averagePace;
-@property(readonly, nonatomic) double distanceAlongReference; // @synthesize distanceAlongReference=_distanceAlongReference;
-@property(readonly, nonatomic) double distanceSinceStart; // @synthesize distanceSinceStart=_distanceSinceStart;
 @property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) double odometer; // @synthesize odometer=_odometer;
-@property(readonly, nonatomic) double offRouteDistance; // @synthesize offRouteDistance=_offRouteDistance;
-@property(readonly, nonatomic) double offRouteTime; // @synthesize offRouteTime=_offRouteTime;
-@property(readonly, nonatomic) double timeSinceStart; // @synthesize timeSinceStart=_timeSinceStart;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

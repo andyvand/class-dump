@@ -6,36 +6,31 @@
 
 #import <PodcastsUI/MTURLSessionManager.h>
 
-@class MTImageStore, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface MTImageDownloader : MTURLSessionManager
 {
     _Bool _hasPurgedTemporaryResourcesDirectory;
-    NSMutableDictionary *_clientRequestsByUrl;
-    MTImageStore *_imageStore;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    NSObject<OS_dispatch_queue> *_imageWorkQueue;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id);
+- (_Bool)0;
+- (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (double);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (_Bool);
@@ -43,11 +38,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)tadctadc;
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ecvsecvs;
 - (id);
 - (void);
 - (id);
@@ -65,10 +60,6 @@ GGAJGAEyAFr×GGGGG;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *clientRequestsByUrl; // @synthesize clientRequestsByUrl=_clientRequestsByUrl;
-@property(nonatomic) _Bool hasPurgedTemporaryResourcesDirectory; // @synthesize hasPurgedTemporaryResourcesDirectory=_hasPurgedTemporaryResourcesDirectory;
-@property(retain, nonatomic) MTImageStore *imageStore; // @synthesize imageStore=_imageStore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *imageWorkQueue; // @synthesize imageWorkQueue=_imageWorkQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
 
 @end
 

@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)startRocketEffectWithProgressStateSource: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

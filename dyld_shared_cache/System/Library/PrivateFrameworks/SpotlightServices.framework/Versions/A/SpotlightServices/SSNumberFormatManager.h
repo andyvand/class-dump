@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSByteCountFormatter, NSNumberFormatter;
+@class NSNumberFormatter;
 
 @interface SSNumberFormatManager
 {
     NSNumberFormatter *_numberFormatter;
-    NSByteCountFormatter *_byteCountFormatter;
-    NSNumberFormatter *_currencyFormatter;
 }
 
++ (id)er";
++ (id)bagForProfile:(id)arg1 profileVersion:(id)arg2;
 + (id);
-+ (id);
-+ (id);
-+ (void)GB;
++ (void)en_GB;
+- (void)ignoresInvertColors;
+- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void)WithReply: /* Error: Ran out of types for this method. */;
+- (void)getFTEStringsWithReply: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain) NSByteCountFormatter *byteCountFormatter; // @synthesize byteCountFormatter=_byteCountFormatter;
-@property(retain) NSNumberFormatter *currencyFormatter; // @synthesize currencyFormatter=_currencyFormatter;
 @property(retain) NSNumberFormatter *numberFormatter; // @synthesize numberFormatter=_numberFormatter;
 
 @end

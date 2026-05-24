@@ -6,16 +6,16 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSNumber, NSSet, NSString;
+@class NSSet;
 
 @interface INMoveFileIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setExternalThumbnailGeneratorDataHash:(long long)arg1;
++ (int)coordinateAccessWithIntents:(long long)arg1 queue:byAccessor: /* Error: Ran out of types for this method. */;
++ (long long)associateThumbnailImagesDictionary:(int)arg1 serializedQuickLookMetadata:(int)arg2 withDocumentAtURL:(_Bool)arg3 error: /* Error: Ran out of types for this method. */;
++ (_Bool)_typesForWhichUpdateBlockHasBeenCalled;
 + (_Bool);
 - (void);
 - (void);
@@ -23,43 +23,29 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)ao;
 - (void);
 - (void);
+- (id)@"<NSValidatedUserInterfaceItem>"24B32;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)_syntheticDeviceElementValueChangedHandler;
 - (id);
 - (void);
+- (id);
+- (void)sel += tagName.toLowerCase();        }        let idAttr = elem.getAttribute('id');        if (idAttr) {            sel += '#'+idAttr;        }        let nameAttr = elem.getAttribute('name');        if (nameAttr) {            sel += '[name='+nameAttr+']';        }        let typeAttr = elem.getAttribute('type');        if (typeAttr) {            sel += '[type='+typeAttr+']';        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('click', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id)yle;
-- (long long)tusIntentExport;
+- (long long)INShareFocusStatusIntentExport;
 - (void)Oð·;
 
 // Remaining properties
-@property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *destinationName;
-@property(copy) NSArray *entityNames;
 @property(copy) NSSet *entityTypeSet;
-@property unsigned long long entityTypes;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *overwrite;
-@property(copy) NSString *sourceName;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

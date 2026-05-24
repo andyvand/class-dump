@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _MFAtomAttachment
 {
     _MFAtomLayoutView *_atomView;
-    id _representedObject;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (struct CGRect);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _MFAtomLayoutView *atomView; // @synthesize atomView=_atomView;
-@property(readonly, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
 
 @end
 

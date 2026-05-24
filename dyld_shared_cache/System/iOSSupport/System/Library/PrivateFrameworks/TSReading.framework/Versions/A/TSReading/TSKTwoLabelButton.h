@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, UIImageView, UILabel;
+@class UILabel;
 
 @interface TSKTwoLabelButton
 {
     UILabel *mSecondLabel;
-    UIImageView *mImageView;
-    UIImage *mNormalStateImage;
-    UIImage *mHighlightedStateImage;
-    UIImage *mDisabledStateImage;
-    UIColor *mSecondLabelTextColor;
 }
 
+- (void)ion can be turned into an event [;
 - (void);
-- (void);
-- (void);
+- (void)source timeStamp ;
+- (void)ning mode [MF shortcut on resolution] - Stopping playback;
+- (id)g stall condition;
+- (id)eparing for pause;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)q;
+- (void)W@;
 - (void);
 - (void);
 - (id);
@@ -37,12 +32,7 @@
 - (_Bool)omURL:(id)arg1 useFileCoordination:(id)arg2 ];
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *disabledStateImage; // @synthesize disabledStateImage=mDisabledStateImage;
-@property(retain, nonatomic) UIImage *highlightedStateImage; // @synthesize highlightedStateImage=mHighlightedStateImage;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=mImageView;
-@property(retain, nonatomic) UIImage *normalStateImage; // @synthesize normalStateImage=mNormalStateImage;
 @property(retain, nonatomic) UILabel *secondLabel; // @synthesize secondLabel=mSecondLabel;
-@property(retain, nonatomic) UIColor *secondLabelTextColor; // @synthesize secondLabelTextColor=mSecondLabelTextColor;
 
 @end
 

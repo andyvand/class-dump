@@ -6,18 +6,18 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SATTSGetUnspeakableRangeOfText : SABaseClientBoundCommand
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void))#;
 - (id);
 - (id);
 - (id);
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSArray *texts;
 
 @end
 

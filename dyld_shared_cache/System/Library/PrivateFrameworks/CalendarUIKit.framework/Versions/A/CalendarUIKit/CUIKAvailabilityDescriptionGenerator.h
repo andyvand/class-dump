@@ -8,17 +8,17 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)CPLMinimumBatteryLevelForAutoOverrideSystemBudget;
++ (id)ides;
++ (id)should be implemented by subclasses;
++ (id)ve been throttled until %@ and will resume during the next sync session;
++ (id)UNADJUSTED;
++ (id)ches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLFeature.m;
++ (id)cope;
++ (id)t spot;
++ (id)y/Engine/Storage/CPLEngineScope.m;
++ (id)ary/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineScope.m;
++ (id)ld/%ld>;
 
 @end
 

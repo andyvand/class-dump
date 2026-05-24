@@ -6,32 +6,15 @@
 
 #import <TimeSync/TSDCKernelClock.h>
 
-@class NSArray, NSString, TSClock, _TSF_TSDgPTPClock;
+@class NSArray, _TSF_TSDgPTPClock;
 
 @interface TSDCgPTPClock : TSDCKernelClock
 {
     _TSF_TSDgPTPClock *_gPTPClock;
-    struct {
-        _Bool syncInfoValid;
-        unsigned char syncFlags;
-        unsigned long long timeSyncTime;
-        struct IOTS_U128 domainTime;
-        unsigned long long cumulativeScaledRate;
-        unsigned long long inverseCumulativeScaledRate;
-        unsigned long long grandmasterID;
-        unsigned short localPortNumber;
-    } _timeInfo[8];
-    TSClock *_timeSyncClock;
-    unsigned char _clockPriority1;
-    unsigned char _clockPriority2;
-    unsigned char _clockClass;
-    unsigned char _clockAccuracy;
-    NSArray *_gptpPath;
-    unsigned long long _grandmasterIdentity;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (unsigned long long);
@@ -66,25 +49,25 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (CDStruct_4e4c37a4);
-- (CDStruct_4e4c37a4);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (CDStruct_4e4c37a4);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (CDStruct_4bcfbbae);
+- (CDStruct_4bcfbbae);
 - (unsigned long long);
 - (_Bool);
+- (unsigned long long)@;
+- (CDStruct_4bcfbbae);
 - (_Bool);
-- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned char);
@@ -97,7 +80,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -112,21 +95,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned char clockAccuracy; // @synthesize clockAccuracy=_clockAccuracy;
-@property(nonatomic) unsigned char clockClass; // @synthesize clockClass=_clockClass;
-@property(readonly, nonatomic) unsigned long long clockIdentity;
-@property(nonatomic) unsigned char clockPriority1; // @synthesize clockPriority1=_clockPriority1;
-@property(nonatomic) unsigned char clockPriority2; // @synthesize clockPriority2=_clockPriority2;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *gptpPath; // @synthesize gptpPath=_gptpPath;
-@property(nonatomic) unsigned long long grandmasterIdentity; // @synthesize grandmasterIdentity=_grandmasterIdentity;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *ports;
-@property(readonly) Class superclass;
 
 @end
 

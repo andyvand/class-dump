@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallMetrics;
+@class NSString;
 
 @protocol _INPBStartVideoCallIntentResponse
+- (unsigned long long);
+- (NSString *);
+- (void);
+- (void)];
+- (void);
 
 // Remaining properties
 @property(nonatomic) int audioRoute;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasMetrics;
-@property(readonly, nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) _INPBCallMetrics *metrics;
-@property(copy, nonatomic) NSString *status;
-@property(copy, nonatomic) NSArray *targetContacts;
-@property(readonly, nonatomic) unsigned long long targetContactsCount;
 @end
 

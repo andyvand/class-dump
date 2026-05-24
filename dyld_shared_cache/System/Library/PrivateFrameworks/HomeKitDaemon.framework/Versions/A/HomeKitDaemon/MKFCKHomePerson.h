@@ -6,20 +6,18 @@
 
 #import <HomeKitDaemon/MKFCKPerson.h>
 
-@class MKFCKHome, MKFCKPhotosPerson, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKHomePerson : MKFCKPerson
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)}S_a;
+- (_Bool)filteredSetUsingPredicate:(id)arg1;
+- (_Bool)rent connection:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(retain, nonatomic) MKFCKPhotosPerson *linkedPhotosPerson; // @dynamic linkedPhotosPerson;
 @property(copy, nonatomic) NSUUID *linkedSharedPhotosPersonModelID; // @dynamic linkedSharedPhotosPersonModelID;
 
 @end

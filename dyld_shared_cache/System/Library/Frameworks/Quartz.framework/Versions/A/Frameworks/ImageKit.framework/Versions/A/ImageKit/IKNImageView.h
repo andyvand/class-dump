@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKNImageLayer, IKNImageViewHandler, IKNRootLayer, IKStatusLayer, NSArray, NSColor, NSString;
+@class IKNRootLayer, NSString;
 
 @interface IKNImageView
 {
     IKNRootLayer *_rootLayer;
-    IKNImageLayer *_imageLayer;
-    IKNImageViewHandler *_imageViewHandler;
-    double _rotation;
-    IKStatusLayer *_statusLayer;
-    NSArray *_selections;
-    _Bool _isDoubleClickEvent;
-    id _delegate;
-    NSColor *_backgroundColor;
-    _Bool _enabled;
-    _Bool _wasAcceptingMouseEvents;
-    long long _trackingRectTag;
-    double _progress;
-    struct CGImage *_cgImage;
 }
 
 + (struct CGImage *);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *);
 - (double);
 - (void);
 - (void);
@@ -34,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,11 +42,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
-- (struct CGRect *);
+- (struct CGRect *);
 - (_Bool);
 - (void);
 - (void);
@@ -75,37 +62,37 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)鸟;
+- (id)A;
 - (void);
+- (void)6@?<v@?@"NSError">24;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)restrictWeb;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)_unverifiedPsiSearchIndex;
 - (id);
 - (void);
 - (double);
 - (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)setFailureInjectionDelegate:(struct CGRect)arg1;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (struct CGRect);
+- (struct CGRect)_stringForPlaceholderBundleWithString: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (double);
@@ -119,22 +106,6 @@
 - (void);
 
 // Remaining properties
-@property NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property id delegate; // @synthesize delegate=_delegate;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property _Bool forceSelectionInsideView;
-@property(readonly) IKNImageLayer *imageLayer; // @synthesize imageLayer=_imageLayer;
-@property(readonly) struct CGSize imageSize;
-@property(readonly) IKNImageViewHandler *imageViewHandler; // @synthesize imageViewHandler=_imageViewHandler;
-@property double progress; // @synthesize progress=_progress;
-@property long long resolution;
-@property(readonly) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;
-@property double rotation;
-@property struct CGRect selectionRect;
-@property NSArray *selections; // @synthesize selections=_selections;
-@property _Bool selectionsCanBeModified;
-@property _Bool selectionsCanRotate;
-@property _Bool singleSelection;
 @property(copy) NSString *statusText;
 
 @end

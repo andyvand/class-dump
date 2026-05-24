@@ -6,19 +6,13 @@
 
 #import <MediaPlayer/MPAVRoute.h>
 
-@class MRAVOutputDevice, NSArray;
-
 @interface MPAVOutputDeviceRoute : MPAVRoute
 {
     void *_logicalLeaderOutputDevice;
-    NSArray *_roomRoutes;
-    NSArray *_clusterMemberRoutes;
-    NSArray *_clusterCompositionMembers;
-    NSArray *_outputDevices;
 }
 
-+ (long long);
-+ (void *);
++ (long long)�;
++ (void *)rks/GenerativeModels.framework/Versions/A/GenerativeModels;
 + (id)
 × ;
 - (_Bool);
@@ -41,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,10 +47,10 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)<	;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)nces"32@?<v@?q@"WKWebpagePreferences">40;
 - (id);
 - (id);
 - (_Bool);
@@ -66,7 +60,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)scheduleTask:afterDelay:withUserData: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -82,20 +76,13 @@
 - (id);
 - (_Bool)aÀÐ!ÀDùqA1Â0@ù
 × ;
-- (_Bool)istID: /* Error: Ran out of types for this method. */;
-- (void)PModelPropertyAlbumIsClassical__MAPPING_MISSING__;
+- (_Bool)setStoreAlbumArtistID: /* Error: Ran out of types for this method. */;
+- (void)__MPModelPropertyAlbumIsClassical__MAPPING_MISSING__;
 - (_Bool)n={ .tokenID=%lld, .tokenRevision=%d, .databaseStorage={ .options={%d}, .occurrenceCount=%d } };
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *clusterMemberRoutes;
-@property(readonly, nonatomic) NSArray *dnsNames;
-@property(readonly, nonatomic, getter=isGroupLeader) _Bool groupLeader;
-@property(readonly, nonatomic) void *logicalLeaderOutputDevice; // @synthesize logicalLeaderOutputDevice=_logicalLeaderOutputDevice;
-@property(readonly, nonatomic) MRAVOutputDevice *outputDevice;
-@property(readonly, nonatomic) NSArray *outputDevices; // @synthesize outputDevices=_outputDevices;
 @property(readonly, nonatomic, getter=isPhoneLocalRoute) _Bool phoneLocalRoute;
-@property(readonly, nonatomic) NSArray *roomRoutes;
 
 @end
 

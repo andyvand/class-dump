@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVMetadataGroup.h>
 
-@class AVDateRangeMetadataGroupInternal, NSArray, NSDate, NSString;
+@class AVDateRangeMetadataGroupInternal, NSString;
 
 @interface AVDateRangeMetadataGroup : AVMetadataGroup
 {
@@ -27,25 +27,19 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id)unreasonable number of sections;
 - (_Bool);
+- (id)SECURITY;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)uestedTimeToleranceAfter: /* Error: Ran out of types for this method. */;
+- (id)z;
+- (id)F;
+- (id)setRequestedTimeToleranceAfter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *cueingOptions;
-@property(readonly, nonatomic, getter=_dateRangeMetadataGroupInternal) AVDateRangeMetadataGroupInternal *dateRangeMetadataGroupInternal;
-@property(readonly, nonatomic) NSDate *discoveryTimestamp;
-@property(readonly, copy, nonatomic) NSDate *endDate;
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly, nonatomic) NSDate *modificationTimestamp;
-@property(readonly, copy, nonatomic) NSDate *startDate;
 
 @end
 

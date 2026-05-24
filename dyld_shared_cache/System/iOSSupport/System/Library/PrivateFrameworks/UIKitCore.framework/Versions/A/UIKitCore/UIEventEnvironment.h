@@ -4,41 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet, UIApplication, UIEvent, UIMotionEvent, UIPhysicalKeyboardEvent, UIPressesEvent, UIRemoteControlEvent, UIWheelEvent;
+@class NSSet, UIApplication;
 
 __attribute__((visibility("hidden")))
 @interface UIEventEnvironment
 {
     UIApplication *_application;
-    NSMutableArray *_eventQueue;
-    UIEvent *_event;
-    UIMotionEvent *_motionEvent;
-    UIRemoteControlEvent *_remoteControlEvent;
-    NSMutableDictionary *_dragEventsByContextAndSessionIDPair;
-    _Bool _isSystemApplication;
-    double _commitTimeForTouchEvents;
-    double _beginTimeForTouchEvents;
-    double _deadlineTimeForTouchEvents;
-    NSMutableSet *_windowsWithActiveTouchMaps;
-    _Bool _hasSeenAnyPencilEvents;
-    UIPressesEvent *_fallbackPressesEvent;
-    UIPhysicalKeyboardEvent *_fallbackPhysicalKeyboardEvent;
-    UIWheelEvent *_fallbackWheelEvent;
-    NSMapTable *_eventRegistryByScene;
-    NSHashTable *_invalidatedAndDisconnectedScenes;
-    NSMapTable *_pressesMapByScene;
-    NSMapTable *_currentNudgePressTypeByScene;
-    NSMutableDictionary *_fallbackPressMap;
-    NSMapTable *_currentTouchByScene;
-    struct __CFDictionary *_touchMapsByWindow;
-    long long _disableTouchCoalescingCount;
-    NSMutableDictionary *_estimatedTouchRecordsByContextIDAndEstimationIndex;
-    NSMutableArray *_estimatedTouchRecordsInIncomingOrder;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)setPayloadUseConfigurationAttributeInternalIPSubnet:(long long)arg1;
 - (void);
 - (struct __CFDictionary *);
 - (void);
@@ -50,13 +26,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)p"`%;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)le;
 - (id);
 - (id);
 - (id);
@@ -78,22 +54,22 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Ô ;
 - (void);
-- (id)ableViewStyle;
-- (void)oardAdjustment:(id)arg1;
-- (id)htColor;
-- (void)eFromConfiguration;
-- (_Bool)ufferFromRect:padding:gamut: /* Error: Ran out of types for this method. */;
+- (id)tableViewStyle;
+- (void)setPendingKeyboardAdjustment:(id)arg1;
+- (id)darkInactiveSidebarHighlightColor;
+- (void)_styleFromConfiguration;
+- (_Bool)_createRenderingBufferFromRect:padding:gamut: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ionView;
-- (void)n:(long long)arg1;
+- (void)initWithAction:(long long)arg1;
 - (id)abelImage",&,N,V_image;
 - (void)C,N,V_originalUpdateItems;
-- (id)r;
+- (id)_UIKBDelegateAwareInputController;
 - (_Bool)üÂ¸Å<Æ;
 - (struct __CFDictionary *);
 - (id);
-- (id)ormMinHeight;
-- (id)ckForSceneMovingScreens;
+- (id)UISolariumStackedImageContainerModifyTransformMinHeight;
+- (id)stackForSceneMovingScreens;
 - (id)the UIBarButtonItem's style;
 - (id);
 - (void);
@@ -107,8 +83,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) UIApplication *application; // @synthesize application=_application;
-@property(retain, nonatomic) NSMutableArray *eventQueue; // @synthesize eventQueue=_eventQueue;
 @property(readonly, nonatomic) NSSet *windowsWithActiveTouchMaps; // @synthesize windowsWithActiveTouchMaps=_windowsWithActiveTouchMaps;
 
 @end

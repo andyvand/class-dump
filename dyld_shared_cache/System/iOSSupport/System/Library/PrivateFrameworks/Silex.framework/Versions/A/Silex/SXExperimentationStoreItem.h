@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SXExperimentationStoreItem
 {
     NSString *_experimentIdentifier;
-    NSString *_treatmentGroup;
-    NSDate *_startDate;
-    NSDate *_expiryDate;
 }
 
 - (id);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *experimentIdentifier; // @synthesize experimentIdentifier=_experimentIdentifier;
-@property(retain, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSString *treatmentGroup; // @synthesize treatmentGroup=_treatmentGroup;
 
 @end
 

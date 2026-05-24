@@ -11,11 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(%d);
+- (void)ansferMessage:(id)arg1 resource transfer type %d does not support cancelReason;
+- (void)age:made %u pieces from %u length at %u per fragment /* Error: Ran out of types for this method. */;
+- (void), need at least %lu
+;
+- (void)before messageUUIDLength, offset %u packet length %u
+;
 - (void);
 
 @end

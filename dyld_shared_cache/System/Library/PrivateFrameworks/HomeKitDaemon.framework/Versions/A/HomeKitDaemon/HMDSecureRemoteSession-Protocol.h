@@ -5,15 +5,14 @@
 //
 
 @class HMDDevice;
-@protocol HMFMessageTransportDelegate;
 
 @protocol HMDSecureRemoteSession
+- (void);
 - (void)
 × ;
 - (void)Øóÿ;
 
 // Remaining properties
-@property __weak id <HMFMessageTransportDelegate> delegate;
 @property(readonly) HMDDevice *device;
 @end
 

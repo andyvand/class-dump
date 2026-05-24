@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface OSASafeCreateDirectoryOptions
 {
     _Bool _createIntermediates;
-    _Bool _fileProtectionNone;
-    NSNumber *_userID;
-    NSNumber *_groupID;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)lts;
+- (_Bool)eviewPlatter,V_inPreviewPlatter;
+- (_Bool)omputeBlock;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h weight at index %lu;
 - (void);
 
 // Remaining properties
 @property _Bool createIntermediates; // @synthesize createIntermediates=_createIntermediates;
-@property _Bool fileProtectionNone; // @synthesize fileProtectionNone=_fileProtectionNone;
-@property(copy) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(copy) NSNumber *userID; // @synthesize userID=_userID;
 
 @end
 

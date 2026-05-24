@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SearchUIX)
-+ (id);
++ (id)AVAssetResourceLoaderDelegate;
 - (long long);
 
 // Remaining properties

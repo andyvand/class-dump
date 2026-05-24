@@ -9,8 +9,6 @@
 @interface MediaPlaybackCore.MediaServicesInterruptedState : MediaPlaybackCore.PausedState
 {
     id event;
-    id interruptedState;
-    id interruptedItem;
 }
 
 @end

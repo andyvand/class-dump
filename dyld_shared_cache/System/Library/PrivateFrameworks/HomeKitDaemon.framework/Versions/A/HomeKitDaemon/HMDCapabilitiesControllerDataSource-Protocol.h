@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCapabilities;
+@class HMAccessoryCapabilities, NSUUID;
 @protocol HMEEventForwarder, HMELastEventStoreReadHandle;
 
 @protocol HMDCapabilitiesControllerDataSource
-- (id <HMELastEventStoreReadHandle>)ies:user:deviceIdsDestination: /* Error: Ran out of types for this method. */;
+- (NSUUID *)et with local identifier:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSUUID *);
+- (id <HMELastEventStoreReadHandle>)disableNotificationForMediaProfile:mediaProperties:user:deviceIdsDestination: /* Error: Ran out of types for this method. */;
 - (HMAccessoryCapabilities *)	;
 - (id <HMEEventForwarder>)pe;
 @end

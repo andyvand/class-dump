@@ -5,5 +5,6 @@
 //
 
 @protocol PPNamedEntityClientProtocol
+- (void);
 @end
 

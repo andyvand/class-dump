@@ -7,6 +7,19 @@
 @protocol NSPServerCommands
 
 @optional
-- (void)¼Fù×;
+- (void))%ٚ	;
+- (void);
+- (void)5�h0;
+- (void)6;
+- (void)<;
+- (void);
+- (void);
+- (void)R;
+- (void)+;
+- (void)=;
+- (void)ssionPrediction"24;
+- (void)poraryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLPowerAssertion.m;
+- (void);
+- (void)P;
 @end
 

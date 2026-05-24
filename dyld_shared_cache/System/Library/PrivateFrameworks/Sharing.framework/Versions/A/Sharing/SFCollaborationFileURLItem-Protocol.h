@@ -13,12 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *fileURL;
-@property(readonly, nonatomic) _Bool hasSeparateSendCopyRepresentation;
-@property(readonly, nonatomic) _Bool isCollaborativeURL;
-@property(readonly, nonatomic) _Bool isInSharedFolder;
-@property(readonly, nonatomic) _Bool isLocalStorage;
-@property(readonly, nonatomic) _Bool isShared;
-@property(readonly, nonatomic) _Bool isThirdPartyFileProviderBacked;
-@property(readonly, nonatomic) _Bool isiCloudDrive;
 @end
 

@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlace, GEOPDPlaceRequest, GEORPTransitLineTileInfo, GEORPTransitPoiCorrections, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPTransitPoiFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPTransitPoiCorrections *_corrections;
-    NSMutableArray *_directionsRequests;
-    NSMutableArray *_directionsResponses;
-    GEOPDPlaceRequest *_placeRequest;
-    GEOPDPlace *_place;
-    GEORPTransitLineTileInfo *_transitLineTileInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _correctionType;
-    struct {
-        unsigned int has_correctionType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_corrections:1;
-        unsigned int read_directionsRequests:1;
-        unsigned int read_directionsResponses:1;
-        unsigned int read_placeRequest:1;
-        unsigned int read_place:1;
-        unsigned int read_transitLineTileInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)Lists:(id)arg1;
++ (_Bool)setLocalizedChangeLists:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)sistentStore"8@?0;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -61,18 +39,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)RK;
+- (void)P;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
+- (void)r",&,N,V_zeroFilter;
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -80,27 +58,15 @@
 - (void);
 - (id)try}}}}16;
 - (void)atchReverseGeocodingResult"b1"read_batchSpatialLookupResult"b1"read_brandLookupResult"b1"read_browseCategorySuggestionResult"b1"read_canonicalSearchResult"b1"read_categorySearchResult"b1"read_childPlaceLookupByCategoryResult"b1"read_collectionSuggestionResult"b1"read_exploreGuidesLookupResult"b1"read_extendedGeoLookupResult"b1"read_externalTransitLookupResult"b1"read_featureIdGeocodingResult"b1"read_geocodingResult"b1"read_groundViewLabelResult"b1"read_guidesHomeResult"b1"read_ipGeoLookupResult"b1"read_locationDirectedSearchResult"b1"read_mapsHomeResult"b1"read_mapsIdentifierPlaceLookupResult"b1"read_mapsSearchHomeResult"b1"read_merchantLookupResult"b1"read_nearbySearchResult"b1"read_offlineRegionNameResult"b1"read_placeCollectionLookupResult"b1"read_placeDescriptorResolutionResult"b1"read_placeGlobalCommonResult"b1"read_placeLookupResult"b1"read_placeRefinementResult"b1"read_placecardEnrichmentResult"b1"read_poiAtAddressLookupResult"b1"read_popularNearbySearchResult"b1"read_publisherViewResult"b1"read_queryUnderstandingResult"b1"read_reverseGeocodingResult"b1"read_searchCapabilitiesResult"b1"read_searchFieldPlaceholderResult"b1"read_searchResult"b1"read_searchZeroKeywordCategorySuggestionResult"b1"read_searchZeroKeywordWithSearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (_Bool)Title;
+- (_Bool)tipTitle;
 - (id)ggestion:sessionData:traits: /* Error: Ran out of types for this method. */;
-- (id)rsionForRegion: /* Error: Ran out of types for this method. */;
+- (id)dataVersionForRegion: /* Error: Ran out of types for this method. */;
 - (id)ôÔ;
 - (id)6@"NSString"24@"NSError"32;
 - (void)Lª¶àP@;
 
 // Remaining properties
-@property(nonatomic) int correctionType;
-@property(retain, nonatomic) GEORPTransitPoiCorrections *corrections;
-@property(retain, nonatomic) NSMutableArray *directionsRequests;
-@property(retain, nonatomic) NSMutableArray *directionsResponses;
 @property(nonatomic) _Bool hasCorrectionType;
-@property(readonly, nonatomic) _Bool hasCorrections;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasPlaceRequest;
-@property(readonly, nonatomic) _Bool hasTransitLineTileInfo;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeRequest;
-@property(retain, nonatomic) GEORPTransitLineTileInfo *transitLineTileInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

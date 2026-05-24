@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPLanguage, NSButton, NSLayoutConstraint, NSTextField;
+@class NSLayoutConstraint;
 
 @interface IPLanguageCellView
 {
     _Bool _primary;
-    _Bool _canDrag;
-    _Bool _capitalizeLanguageNames;
-    _Bool _truncateLanguageNames;
-    NSLayoutConstraint *_textFieldTrailingConstraint;
-    NSTextField *_localizedLanguageTextField;
-    NSTextField *_primaryLanguageLabel;
-    NSButton *_infoButton;
-    IPLanguage *_language;
 }
 
+- (void)cornerRadius;
+- (_Bool)copyImageFromC3DImage: /* Error: Ran out of types for this method. */;
+- (id)ationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
+- (void)convexSweepTestWithShape:(_Bool)arg1 fromTransform:toTransform:options: /* Error: Ran out of types for this method. */;
+- (void)convertPosition:(id)arg1 toNode: /* Error: Ran out of types for this method. */;
+- (void)continuousCollisionDetectionThreshold;
+- (void)coneWithTopRadius:(id)arg1 bottomRadius:height: /* Error: Ran out of types for this method. */;
+- (void)computePipelineStateForKernel:(_Bool)arg1 constants:constantsHash: /* Error: Ran out of types for this method. */;
+- (void)computePipelineStateForKernel:(_Bool)arg1;
+- (id)colorMatchingComputePipelineStateForBiPlanarPixelBufferWithFormatType:pixelBufferYCbCrMatrix:pixelBufferColorPrimaries:pixelBufferTransferFunction:sourceColorSpace:destinationColorSpace:renderContext: /* Error: Ran out of types for this method. */;
+- (id)changeColor: /* Error: Ran out of types for this method. */;
+- (void)bufferOffset;
+- (id)bloomIteration;
+- (_Bool)attachment;
+- (void)adjustsShadowProjection;
+- (_Bool)addUIForImageProperty: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)_sharedLayoutManager;
 - (_Bool);
 - (void);
 - (id);
@@ -48,15 +40,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool canDrag; // @synthesize canDrag=_canDrag;
-@property _Bool capitalizeLanguageNames; // @synthesize capitalizeLanguageNames=_capitalizeLanguageNames;
-@property __weak NSButton *infoButton; // @synthesize infoButton=_infoButton;
-@property(retain) IPLanguage *language; // @synthesize language=_language;
-@property __weak NSTextField *localizedLanguageTextField; // @synthesize localizedLanguageTextField=_localizedLanguageTextField;
-@property(getter=isPrimary) _Bool primary; // @synthesize primary=_primary;
-@property __weak NSTextField *primaryLanguageLabel; // @synthesize primaryLanguageLabel=_primaryLanguageLabel;
 @property __weak NSLayoutConstraint *textFieldTrailingConstraint; // @synthesize textFieldTrailingConstraint=_textFieldTrailingConstraint;
-@property _Bool truncateLanguageNames; // @synthesize truncateLanguageNames=_truncateLanguageNames;
 
 @end
 

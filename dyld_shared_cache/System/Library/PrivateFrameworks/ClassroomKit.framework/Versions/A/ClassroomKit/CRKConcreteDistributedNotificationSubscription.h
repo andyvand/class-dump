@@ -9,8 +9,6 @@
 @interface CRKConcreteDistributedNotificationSubscription
 {
     _Bool _active;
-    NSString *_name;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
@@ -19,15 +17,13 @@
 - (id);
 - (struct __CFNotificationCenter *);
 - (void);
-- (_Bool);
+- (_Bool)>>>="__tree_"{__tree<std::__value_type<unsigned int, std::atomic<float>>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, std::atomic<float>>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, std::atomic<float>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"mActiveNode"{weak_ptr<adm::graph::DSPNode>="__ptr_"^{DSPNode}"__cntrl_"^{__shared_weak_count}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

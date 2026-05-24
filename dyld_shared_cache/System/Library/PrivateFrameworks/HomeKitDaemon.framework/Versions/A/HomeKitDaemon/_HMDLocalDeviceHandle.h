@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool)ð-¤.Y/ô1;
 - (id);
-- (id);
+- (id)eed to be reset;
 - (id);
 - (id);
 - (unsigned long long);

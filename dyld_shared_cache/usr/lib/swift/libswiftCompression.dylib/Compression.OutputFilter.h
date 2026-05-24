@@ -7,10 +7,6 @@
 @interface Compression.OutputFilter
 {
     id _stream;
-    id _buf;
-    id _bufCapacity;
-    id _writeFunc;
-    id _finalized;
 }
 
 @end

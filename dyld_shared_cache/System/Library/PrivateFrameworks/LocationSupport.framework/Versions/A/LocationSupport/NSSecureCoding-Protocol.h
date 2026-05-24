@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)ioApplication privateCreateAudioApplicationInServer:]E3$_2FvvEEE /* Error: Ran out of types for this method. */;
 @end
 

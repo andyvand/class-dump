@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRMReminderCellNotesViewController
 {
     id presenter;
-    id suggestionMenuUtils;
-    id notesTextField;
-    id firstResponderChangeFilter;
-    id changeDetailCapturer;
-    id programmaticTextUpdateCounter;
 }
 
 - (id);

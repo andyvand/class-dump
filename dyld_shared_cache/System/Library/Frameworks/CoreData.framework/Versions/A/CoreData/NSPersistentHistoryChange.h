@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectID, NSPersistentHistoryTransaction, NSSet;
-
 @interface NSPersistentHistoryChange
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -18,11 +16,6 @@
 
 // Remaining properties
 @property(readonly) long long changeID;
-@property(readonly) long long changeType;
-@property(readonly, copy) NSManagedObjectID *changedObjectID;
-@property(readonly, copy) NSDictionary *tombstone;
-@property(readonly) NSPersistentHistoryTransaction *transaction;
-@property(readonly, copy) NSSet *updatedProperties;
 
 @end
 

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)ctions;
+- (id)setTipLastShownDate: /* Error: Ran out of types for this method. */;
+- (void)allowsCardActions;
 
 // Remaining properties
 @property(readonly, nonatomic) ContactsUI.FindMyLocateSession *findMyLocateSession; // @synthesize findMyLocateSession=_findMyLocateSession;

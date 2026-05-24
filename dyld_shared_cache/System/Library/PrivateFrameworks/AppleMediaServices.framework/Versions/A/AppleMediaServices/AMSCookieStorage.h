@@ -10,8 +10,8 @@
 
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
++ (id)onListener _deactivateForReason:(id)arg1 options:(id *)arg2 context:completion:]_block_invoke /* Error: Ran out of types for this method. */;
++ (id)ble:(id)arg1 %@ | eligible:(id)arg2 %@ | active:(id)arg3 %@ | intended :%ld | resolved :%ld | rendering :%ld | pid:%i | bundleID:%@> /* Error: Ran out of types for this method. */;
 
 @end
 

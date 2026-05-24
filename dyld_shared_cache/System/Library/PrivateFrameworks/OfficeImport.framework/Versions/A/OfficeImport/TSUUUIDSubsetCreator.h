@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TSUUUIDSetStore;
+@class TSUUUIDSetStore;
 
 __attribute__((visibility("hidden")))
 @interface TSUUUIDSubsetCreator
 {
     TSUUUIDSetStore *_uuidSetStore;
-    vector_f7949aeb _baseUuidVector;
-    NSMutableDictionary *_createdSubsetsByRange;
 }
 
 - (unsigned int);
 - (id);
-- (id);
+- (id)@y	@9)	;
 - (const void *);
 - (id);
 - (void)m.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/NSString_TSUAdditions.m;
 
 // Remaining properties
 @property(readonly) const void *baseUuidVector; // @synthesize baseUuidVector=_baseUuidVector;
-@property(readonly) TSUUUIDSetStore *uuidSetStore; // @synthesize uuidSetStore=_uuidSetStore;
 
 @end
 

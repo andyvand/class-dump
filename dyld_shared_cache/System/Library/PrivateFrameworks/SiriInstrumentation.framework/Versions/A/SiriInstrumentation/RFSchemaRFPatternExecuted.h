@@ -6,27 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface RFSchemaRFPatternExecuted : SISchemaInstrumentationMessage
 {
     NSString *_patternId;
-    int _pattern;
-    int _mode;
-    NSString *_responseViewId;
-    struct {
-        unsigned int pattern:1;
-        unsigned int mode:1;
-    } _has;
-    _Bool _hasPatternId;
-    _Bool _hasResponseViewId;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (_Bool);
 - (void);
 - (void);
@@ -40,30 +31,22 @@
 - (id);
 - (int);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)Error copying file:%s /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool), chat_identifier, service_name, room_name, account_login, is_archived, last_addressed_handle, display_name, group_id, is_filtered, successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat LEFT OUTER JOIN chat_message_join on    chat_id == chat.rowid WHERE    original_group_id = ? AND    service_name = ? ORDER BY    chat_message_join.message_date DESC LIMIT    1;;
 - (void);
 - (id);
 - (id);
 - (_Bool)qÞ1Â0@ù
 × ;
-- (int)asYAcceleration;
-- (id)onFeatureSets:(id)arg1;
+- (int)hasYAcceleration;
+- (id)addActionFeatureSets:(id)arg1;
 - (id)N,V_queuedAtTimestampHourInMs;
-- (void)ning;
+- (void)isAppRunning;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMode;
-@property(nonatomic) _Bool hasPattern;
-@property(nonatomic) _Bool hasPatternId; // @synthesize hasPatternId=_hasPatternId;
-@property(nonatomic) _Bool hasResponseViewId; // @synthesize hasResponseViewId=_hasResponseViewId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
-@property(nonatomic) int pattern; // @synthesize pattern=_pattern;
 @property(copy, nonatomic) NSString *patternId; // @synthesize patternId=_patternId;
-@property(copy, nonatomic) NSString *responseViewId; // @synthesize responseViewId=_responseViewId;
 
 @end
 

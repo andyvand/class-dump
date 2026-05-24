@@ -7,19 +7,10 @@
 @interface NewsSubscription.BundleSoftPaywallViewProvider
 {
     id delegate;
-    id dataProvider;
-    id styler;
-    id viewModel;
-    id bundleSoftPaywallView;
-    id renderer;
-    id layoutAttributesFactory;
-    id images;
-    id badgeImages;
-    id videoFileURL;
 }
 
 - (_Bool);
-- (id);
+- (id)dLineEndsForBrush:inSVGDoc:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

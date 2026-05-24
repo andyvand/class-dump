@@ -5,5 +5,8 @@
 //
 
 @protocol SASerializable
+
+@optional
++ (id)setAccessibilitySelectedAXFTextRange:(const void *)arg1;
 @end
 

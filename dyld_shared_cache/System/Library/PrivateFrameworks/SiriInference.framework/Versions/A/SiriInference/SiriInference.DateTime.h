@@ -7,12 +7,6 @@
 @interface SiriInference.DateTime
 {
     id date;
-    id time;
-    id definedValue;
-    id recurrencePattern;
-    id temporalIntent;
-    id occurringIn;
-    id userDefinedProperties;
 }
 
 @end

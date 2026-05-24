@@ -9,7 +9,6 @@
 @interface ASAuthorizationPublicKeyCredentialPRFAssertionInputValues
 {
     void saltInput1;
-    void saltInput2;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *saltInput1;
-@property(nonatomic, readonly) NSData *saltInput2;
 
 @end
 

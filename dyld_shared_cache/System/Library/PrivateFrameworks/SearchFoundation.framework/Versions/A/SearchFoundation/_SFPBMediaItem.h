@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBImage, _SFPBPunchout, _SFPBText;
+@class NSString;
 
 @interface _SFPBMediaItem
 {
     NSString *_title;
-    _SFPBText *_subtitleText;
-    _SFPBImage *_thumbnail;
-    _SFPBImage *_reviewGlyph;
-    _SFPBImage *_overlayImage;
-    NSString *_reviewText;
-    _SFPBPunchout *_punchout;
-    NSArray *_subtitleCustomLineBreakings;
-    NSArray *_buyOptions;
-    NSString *_contentAdvisory;
-    _SFPBImage *_contentAdvisoryImage;
 }
 
+- (id)h";
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -42,8 +32,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)Type"b1"revision"b1};
+- (id)authServiceClientTokenTimeToLive;
 - (id);
 - (void);
 - (id);
@@ -52,10 +42,10 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)q;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)performSuggestionsSearch:(id)arg1 queryQueue:suggestionsHandler: /* Error: Ran out of types for this method. */;
+- (id)e not supported by PHAssetResource:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -64,24 +54,6 @@
 - (void)"RFSummaryItemStandardCardSection";
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *buyOptions; // @synthesize buyOptions=_buyOptions;
-@property(copy, nonatomic) NSString *contentAdvisory; // @synthesize contentAdvisory=_contentAdvisory;
-@property(retain, nonatomic) _SFPBImage *contentAdvisoryImage; // @synthesize contentAdvisoryImage=_contentAdvisoryImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBImage *overlayImage; // @synthesize overlayImage=_overlayImage;
-@property(retain, nonatomic) _SFPBPunchout *punchout; // @synthesize punchout=_punchout;
-@property(retain, nonatomic) _SFPBImage *reviewGlyph; // @synthesize reviewGlyph=_reviewGlyph;
-@property(copy, nonatomic) NSString *reviewText; // @synthesize reviewText=_reviewText;
-@property(copy, nonatomic) NSArray *subtitleCustomLineBreakings; // @synthesize subtitleCustomLineBreakings=_subtitleCustomLineBreakings;
-@property(retain, nonatomic) _SFPBText *subtitleText; // @synthesize subtitleText=_subtitleText;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBImage *thumbnail; // @synthesize thumbnail=_thumbnail;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

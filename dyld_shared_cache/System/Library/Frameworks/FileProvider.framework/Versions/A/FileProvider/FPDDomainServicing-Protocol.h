@@ -4,7 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FPItemID, NSData;
+
 @protocol FPDDomainServicing
+- (void)glanceDisplayName;
+- (void);
+- (void)structFlattenedMembers;
+- (void)guration_Capture inclusive;
+- (void)@0:(NSData *)arg1 8@"CTXPCServiceSubscriptionContext"16@"CTLazuliGroupChatParticipantList"24@"CTLazuliGroupChatParticipantList"32@"CTLazuliOperationResult"40;
+- (void)08;
+- (void)i;
+- (void)P;
+- (void)@0:(FPItemID *)arg1 8^{_NSZone=}16;
 - (void)an FPFS provider;
 @end
 

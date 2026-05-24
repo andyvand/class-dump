@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ery.typeIdentifier.custom.bundleId;
 + (void);
 
 @end

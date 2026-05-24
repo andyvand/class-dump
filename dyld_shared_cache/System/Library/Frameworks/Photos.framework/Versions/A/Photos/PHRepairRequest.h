@@ -6,13 +6,11 @@
 
 #import <Photos/PHMediaRequest.h>
 
-@class NSSet, PHAssetResource, PLProgressFollower;
+@class PHAssetResource, PLProgressFollower;
 
 @interface PHRepairRequest : PHMediaRequest
 {
     PLProgressFollower *_progressFollower;
-    PHAssetResource *_resource;
-    NSSet *_errorCodes;
 }
 
 - (id);
@@ -25,7 +23,6 @@
 - (void)q,R,N,V_pixelHeight;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *errorCodes; // @synthesize errorCodes=_errorCodes;
 @property(readonly, nonatomic) PHAssetResource *resource; // @synthesize resource=_resource;
 
 @end

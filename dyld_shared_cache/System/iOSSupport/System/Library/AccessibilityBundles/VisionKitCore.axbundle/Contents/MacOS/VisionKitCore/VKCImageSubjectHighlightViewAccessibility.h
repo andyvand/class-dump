@@ -18,7 +18,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)h~;
 - (id);
 
 @end

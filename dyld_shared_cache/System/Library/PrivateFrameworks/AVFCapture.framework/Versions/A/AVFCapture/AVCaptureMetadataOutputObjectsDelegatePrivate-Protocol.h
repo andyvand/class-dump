@@ -5,5 +5,8 @@
 //
 
 @protocol AVCaptureMetadataOutputObjectsDelegatePrivate
+
+@optional
+- (void)AudioAttributes",&,N,V_audioAttributes;
 @end
 

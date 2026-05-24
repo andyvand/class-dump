@@ -7,17 +7,6 @@
 @interface NewsSubscription.SubscriptionsStartupTask
 {
     id group;
-    id executionPhase;
-    id manageSubscriptionsURLProvider;
-    id bundlePurchasePrewarmer;
-    id familySharingStatusManager;
-    id purchaseManager;
-    id subscriptionFeatureAvailability;
-    id subscriptionStatusChecker;
-    id subscriptionStatusCheckBlocker;
-    id bundleArticleSoftPaywallMeter;
-    id sceneStateManager;
-    id inAppMessageCoordinator;
 }
 
 @end

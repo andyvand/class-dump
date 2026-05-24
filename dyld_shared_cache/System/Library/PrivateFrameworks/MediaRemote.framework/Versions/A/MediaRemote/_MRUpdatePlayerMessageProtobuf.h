@@ -20,14 +20,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)S_dispatch_group>",&,V_group;
+- (id)sion.assistant.not-ready;
 - (void);
-- (void)utDevices;
+- (void)clusterAwareOutputDevices;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

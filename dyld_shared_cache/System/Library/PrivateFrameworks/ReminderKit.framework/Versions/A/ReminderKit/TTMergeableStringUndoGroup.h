@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface TTMergeableStringUndoGroup
 {
     NSMutableDictionary *_seen;
-    NSMutableArray *_commands;
 }
 
 - (void);
@@ -23,22 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)±r Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *commands; // @synthesize commands=_commands;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *seen; // @synthesize seen=_seen;
-@property(readonly) Class superclass;
 
 @end
 

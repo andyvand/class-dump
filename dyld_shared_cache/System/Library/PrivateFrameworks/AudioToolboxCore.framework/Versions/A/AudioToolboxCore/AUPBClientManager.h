@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCConnection;
-@protocol AUPBRegistrarHosting, OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AUPBClientManager
 {
     NSXPCConnection *mRegistrarConnection;
-    id <AUPBRegistrarHosting> mProxyInterface;
-    NSMutableArray *mRemoteServers;
-    struct vector<PropertyListener, std::allocator<PropertyListener>> mPropertyListeners;
-    struct vector<NewServerListener, std::allocator<NewServerListener>> mNewServerListeners;
-    unsigned int mServerRefCounter;
-    NSObject<OS_dispatch_queue> *mTouchServersQueue;
-    int mNotifyToken;
-    _Bool mValidToken;
-    _Bool mConnectionAcknowledged;
 }
 
 + (id)AS file, in which packets are not necessarily byte-aligned;
 + (id)Ü;
 - (void);
+- (int)R;
+- (int);
 - (int);
-- (int);
-- (int);
-- (int);
+- (int);
 - (id);
 - (int);
 - (int);
-- (int);
+- (int);
 - (void);
-- (void);
+- (void)Ti;
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (struct OpaqueAUPB *);
+- (int);
 - (int);
-- (int);
-- (void);
-- (unsigned long long);
+- (void)@9;
+- (unsigned long long);
 - (void);
 - (void);
 - (oneway void);
@@ -58,13 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

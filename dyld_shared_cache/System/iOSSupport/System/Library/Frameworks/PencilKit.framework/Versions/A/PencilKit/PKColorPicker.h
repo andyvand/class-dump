@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, _PKColorPickerView;
+@class _PKColorPickerView;
 @protocol PKColorPickerDelegate;
 
 @interface PKColorPicker
 {
     id <PKColorPickerDelegate> _delegate;
-    _PKColorPickerView *_colorPickerView;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)5n7;
 - (void);
 - (id);
 - (id);
@@ -30,15 +29,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)es:(id)arg1 inputScale:start: /* Error: Ran out of types for this method. */;
+- (void)drawingBeganWithStroke:(id)arg1 inputType:activeInputProperties:inputScale:start: /* Error: Ran out of types for this method. */;
 - (void)ÔH$I;
 - (void)Äaóÿ^6;
 
 // Remaining properties
 @property(retain, nonatomic) _PKColorPickerView *colorPickerView; // @synthesize colorPickerView=_colorPickerView;
-@property(nonatomic) long long colorUserInterfaceStyle;
-@property(nonatomic) __weak id <PKColorPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIColor *selectedColor;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILMediaManager, NSMutableDictionary, NSOperationQueue, NSRecursiveLock;
+@class ILMediaManager;
 
 @interface ILChangeManager
 {
     ILMediaManager *_plugin;
-    NSOperationQueue *_operationQueue;
-    NSMutableDictionary *_groupToOperationMap;
-    NSRecursiveLock *_stateLock;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)'%@';
 
 @end
 

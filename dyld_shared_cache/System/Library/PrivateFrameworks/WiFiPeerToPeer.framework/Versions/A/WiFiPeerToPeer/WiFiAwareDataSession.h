@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, WiFiAwareDiscoveryResult, WiFiAwareInternetSharingConfiguration, WiFiAwareMulticastConfiguration, WiFiAwarePairingMetadata, WiFiAwarePublishDatapathServiceSpecificInfo, WiFiAwarePublishServiceSpecificInfo, WiFiMACAddress, WiFiP2PXPCConnection;
-@protocol WiFiAwareDataSessionDelegate, WiFiAwareDataSessionPairingDelegate;
+@class WiFiAwareDiscoveryResult, WiFiP2PXPCConnection;
 
 @interface WiFiAwareDataSession
 {
     WiFiP2PXPCConnection *_xpcConnection;
-    NSNumber *_datapathID;
-    WiFiMACAddress *_initiatorDataAddress;
-    long long _internetSharingPolicy;
-    _Bool _pairingCachingEnabled;
-    unsigned int _localInterfaceIndex;
-    WiFiAwareDiscoveryResult *_discoveryResult;
-    long long _serviceType;
-    WiFiAwarePublishDatapathServiceSpecificInfo *_serviceSpecificInfo;
-    NSString *_passphrase;
-    NSData *_pmk;
-    NSData *_pmkID;
-    WiFiAwareInternetSharingConfiguration *_internetSharingConfiguration;
-    WiFiAwareMulticastConfiguration *_multicastConfiguration;
-    id <WiFiAwareDataSessionPairingDelegate> _pairingDelegate;
-    long long _pairingMethod;
-    WiFiAwarePublishServiceSpecificInfo *_pairSetupServiceSpecificInfo;
-    NSString *_pinCode;
-    long long _connectionMode;
-    WiFiAwarePairingMetadata *_pairingMetadata;
-    id <WiFiAwareDataSessionDelegate> _delegate;
 }
 
 - (void);
@@ -37,8 +16,8 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)R!;
 - (id);
 - (id);
 - (id);
@@ -78,12 +57,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)u;
 - (long long);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,35 +72,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)M;
 
 // Remaining properties
-@property(nonatomic) long long connectionMode; // @synthesize connectionMode=_connectionMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WiFiAwareDataSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) WiFiAwareDiscoveryResult *discoveryResult; // @synthesize discoveryResult=_discoveryResult;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) WiFiAwareInternetSharingConfiguration *internetSharingConfiguration; // @synthesize internetSharingConfiguration=_internetSharingConfiguration;
-@property(readonly, nonatomic) long long internetSharingPolicy;
-@property(readonly, nonatomic) WiFiMACAddress *localDataAddress;
-@property(readonly, nonatomic) unsigned int localInterfaceIndex; // @synthesize localInterfaceIndex=_localInterfaceIndex;
-@property(copy, nonatomic) WiFiAwareMulticastConfiguration *multicastConfiguration; // @synthesize multicastConfiguration=_multicastConfiguration;
-@property(copy, nonatomic) WiFiAwarePublishServiceSpecificInfo *pairSetupServiceSpecificInfo; // @synthesize pairSetupServiceSpecificInfo=_pairSetupServiceSpecificInfo;
-@property _Bool pairingCachingEnabled; // @synthesize pairingCachingEnabled=_pairingCachingEnabled;
-@property(nonatomic) __weak id <WiFiAwareDataSessionPairingDelegate> pairingDelegate; // @synthesize pairingDelegate=_pairingDelegate;
-@property(copy, nonatomic) WiFiAwarePairingMetadata *pairingMetadata; // @synthesize pairingMetadata=_pairingMetadata;
-@property long long pairingMethod; // @synthesize pairingMethod=_pairingMethod;
-@property(readonly, nonatomic) NSString *passphrase; // @synthesize passphrase=_passphrase;
-@property(retain, nonatomic) NSString *pinCode; // @synthesize pinCode=_pinCode;
-@property(readonly, nonatomic) NSData *pmk; // @synthesize pmk=_pmk;
-@property(readonly, nonatomic) NSData *pmkID; // @synthesize pmkID=_pmkID;
-@property(readonly, nonatomic) WiFiAwarePublishDatapathServiceSpecificInfo *serviceSpecificInfo; // @synthesize serviceSpecificInfo=_serviceSpecificInfo;
-@property(readonly, nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

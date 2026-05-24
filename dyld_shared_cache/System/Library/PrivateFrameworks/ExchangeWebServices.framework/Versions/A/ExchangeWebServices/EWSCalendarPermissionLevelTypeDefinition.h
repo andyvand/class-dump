@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)tWithDatabaseURI:(id)arg1 %{public}@ options:%lu… | opening database for creation [failed readonly open] result=%d /* Error: Ran out of types for this method. */;
 
 @end
 

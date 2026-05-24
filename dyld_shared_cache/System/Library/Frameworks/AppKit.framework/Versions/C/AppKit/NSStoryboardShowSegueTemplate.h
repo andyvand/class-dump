@@ -15,7 +15,7 @@
 
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)Download; use NSURLSession ;
 - (id);
 - (void);
 - (void);

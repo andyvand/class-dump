@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSUUID;
+@class NSString;
 
 @protocol MTLLibrarySPI
+- (NSString *);
+- (void);
 
 // Remaining properties
-@property(readonly) NSData *bitcodeData;
-@property(readonly) NSArray *externFunctionNames;
-@property(readonly, copy) NSUUID *libraryIdentifier;
 @property(copy) NSString *overrideTriple;
-@property(nonatomic) _Bool shaderValidationEnabled;
 @end
 

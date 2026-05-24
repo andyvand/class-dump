@@ -9,14 +9,6 @@
 @interface AppleMediaServicesUI.RegulatoryAgeVerificationWebTask
 {
     id account;
-    id accountParameters;
-    id bag;
-    id metrics;
-    id viewController;
-    id userInfo;
-    id taskPromise;
-    id webVC;
-    void enablementBagKey;
 }
 
 - (void);

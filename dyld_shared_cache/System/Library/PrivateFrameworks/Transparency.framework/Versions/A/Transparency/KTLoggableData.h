@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSError, NSNumber, NSString;
+@class NSData;
 
 @interface KTLoggableData
 {
     _Bool _supportConditionalEnforcement;
-    _Bool _successfulSync;
-    _Bool _ktCapable;
-    _Bool _marked;
-    _Bool _notInSyncedData;
-    NSData *_deviceID;
-    NSData *_clientData;
-    NSData *_signature;
-    NSString *_build;
-    NSString *_product;
-    NSNumber *_version;
-    unsigned long long _result;
-    NSError *_failure;
-    NSDate *_markExpiryDate;
-    NSData *_deviceIdHash;
-    NSData *_clientDataHash;
 }
 
 + (id);
@@ -31,45 +16,45 @@
 + (void);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool)startLocation;
 - (_Bool);
-- (_Bool);
+- (_Bool)};
 - (void);
 - (void);
 - (void);
+- (void);!;
+- (void);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)C;
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id)F;
+- (id)PHMediaFormatConversionSource;
 - (id);
+- (void);
+- (void);
+- (id)oundation.framework/Versions/C/Foundation;
+- (_Bool);
+- (void);
+- (void)ize=dd}}16;
+- (id);
+- (id)odelLoader lightweightLanguageModelForLanguageLocales:(struct _NSZone *)arg1 ];
+- (void);
+- (id)state updates for %{public}@;
 - (unsigned long long);
 - (id);
 - (void);
@@ -78,22 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *build; // @synthesize build=_build;
-@property(retain) NSData *clientData; // @synthesize clientData=_clientData;
-@property(retain) NSData *clientDataHash; // @synthesize clientDataHash=_clientDataHash;
-@property(copy) NSData *deviceID; // @synthesize deviceID=_deviceID;
 @property(retain) NSData *deviceIdHash; // @synthesize deviceIdHash=_deviceIdHash;
-@property(retain) NSError *failure; // @synthesize failure=_failure;
-@property _Bool ktCapable; // @synthesize ktCapable=_ktCapable;
-@property(retain) NSDate *markExpiryDate; // @synthesize markExpiryDate=_markExpiryDate;
-@property _Bool marked; // @synthesize marked=_marked;
-@property _Bool notInSyncedData; // @synthesize notInSyncedData=_notInSyncedData;
-@property(copy) NSString *product; // @synthesize product=_product;
-@property unsigned long long result; // @synthesize result=_result;
-@property(copy) NSData *signature; // @synthesize signature=_signature;
-@property _Bool successfulSync; // @synthesize successfulSync=_successfulSync;
-@property _Bool supportConditionalEnforcement; // @synthesize supportConditionalEnforcement=_supportConditionalEnforcement;
-@property(copy) NSNumber *version; // @synthesize version=_version;
 
 @end
 

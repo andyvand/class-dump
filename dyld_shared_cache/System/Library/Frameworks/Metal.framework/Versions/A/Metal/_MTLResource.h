@@ -17,20 +17,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
+- (unsigned long long)it returned:%d
+ /* Error: Ran out of types for this method. */;
+- (id)k`;
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (unsigned long long)iner;
+- (unsigned long long)container;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long accelerationStructureUniqueIdentifier;
 @property(readonly) unsigned long long allocationID;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly, nonatomic) unsigned long long colorSpaceConversionMatrix;
-@property(readonly, nonatomic) unsigned long long compressionFootprint;
-@property(readonly) long long compressionType;
-@property(readonly) long long sparseBufferTier;
-@property(readonly) long long sparseTextureTier;
 
 @end
 

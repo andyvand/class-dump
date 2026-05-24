@@ -7,13 +7,10 @@
 @interface GEOPDPlaceSummaryLayoutUnitServerOverride
 {
     unsigned int _serverOverrideIdentifier;
-    struct {
-        unsigned int has_serverOverrideIdentifier:1;
-    } _flags;
 }
 
-+ (_Bool)gencyRoutes:(id)arg1;
-- (void);
++ (_Bool)setIncludeContingencyRoutes:(id)arg1;
+- (void)there is no open store;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -21,19 +18,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Interrupted;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)1"has_connectionType"b1"has_dlMedThroughput"b1"has_dlPeakThroughput"b1"has_environment"b1"has_ftCounter"b1"has_ftFacetimeAction"b1"has_ftFacetimePacketLoss"b1"has_ftFacetimeTimeDelay"b1"has_latency"b1"has_messageTrigger"b1"has_messageType"b1"has_motionState"b1"has_ulMedThroughput"b1"has_ulPeakThroughput"b1"has_wifiBand"b1"has_wifiCca"b1"has_wifiChannelWidth"b1"has_wifiChannel"b1"has_wifiEstimatedBW"b1"has_wifiPhyMode"b1"has_wifiQbssLoad"b1"has_wifiRxPhyRate"b1"has_wifiRxRetry"b1"has_wifiStationCount"b1"has_wifiTxPER"b1"has_wifiTxPhyRate"b1"has_wrmAudioErasure"b1"has_wrmVideoErasure"b1"has_cellIsLimitedService"b1"has_cellIsNoService"b1"has_cellIsRoaming"b1"has_cellNpnStatus"b1"has_isCallFailed"b1"has_isEmergency"b1"has_lowInternetDL"b1"has_lowInternetUL"b1"has_wifiCaptiveNetworks"b1"has_wrmAlertedMode"b1"has_wrmIsPCDetected"b1"has_wrmIsStallDetected"b1"read_callID"b1"read_cellGCI"b1"read_cellHomePLMN2"b1"read_cellHomePLMN"b1"read_cellRatType"b1"read_cellServiceProvider2"b1"read_cellServiceProvider"b1"read_ftIRATRecommendationReason"b1"read_ftIRATRecommendation"b1"read_location"b1"wrote_anyField"b1};
-- (id)ocationUncertainty;
+- (id)_locationUncertainty;
 - (id)¬;
-- (id)ult;
+- (id)canonical_search_result;
 
 // Remaining properties
 @property(nonatomic) _Bool hasServerOverrideIdentifier;
-@property(nonatomic) unsigned int serverOverrideIdentifier;
 
 @end
 

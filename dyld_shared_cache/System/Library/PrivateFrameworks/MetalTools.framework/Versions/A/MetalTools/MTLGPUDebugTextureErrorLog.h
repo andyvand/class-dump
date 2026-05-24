@@ -9,8 +9,6 @@
 @interface MTLGPUDebugTextureErrorLog : MTLGPUDebugGPULog
 {
     unsigned char _expectedTextureType;
-    unsigned char _actualTextureType;
-    int _errorReason;
 }
 
 - (void);
@@ -22,9 +20,7 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned char actualTextureType; // @synthesize actualTextureType=_actualTextureType;
 @property(nonatomic) int errorReason; // @synthesize errorReason=_errorReason;
-@property(nonatomic) unsigned char expectedTextureType; // @synthesize expectedTextureType=_expectedTextureType;
 
 @end
 

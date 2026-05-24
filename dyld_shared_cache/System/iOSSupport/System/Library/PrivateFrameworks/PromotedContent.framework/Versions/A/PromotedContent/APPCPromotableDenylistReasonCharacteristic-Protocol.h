@@ -7,11 +7,11 @@
 @class NSArray;
 
 @protocol APPCPromotableDenylistReasonCharacteristic
+- (NSArray *);
+- (NSArray *)ContentShortcutsStorageManagerType;
+- (NSArray *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *campaignCategories;
-@property(nonatomic, readonly) NSArray *campaignKeywords;
 @property(nonatomic, readonly) NSArray *globalCategories;
-@property(nonatomic, readonly) NSArray *globalKeywords;
 @end
 

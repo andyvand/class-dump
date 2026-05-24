@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MSSubscribedStream;
 @protocol MSSubscriberDelegate;
 
 @protocol MSSubscriber
+- (void)accessory=%@ eventID=%u;
+- (MSSubscribedStream *)}@Unable to publish state for domain:%@, not configured /* Error: Ran out of types for this method. */;
+- (void);
+- (void)alled on an already-connecting transport;
+- (void)snapshot file is present in cache for %@;
 
 // Remaining properties
 @property(nonatomic) id <MSSubscriberDelegate> delegate;

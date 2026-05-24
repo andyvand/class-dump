@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface AFWatchdogTimer
 {
     double _interval;
-    NSObject<OS_dispatch_source> *_timerSource;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _timeoutHandler;
-    _Bool _isStopped;
-    double _remainingInterval;
-    double _startTime;
-    struct os_unfair_lock_s _timerLock;
 }
 
 - (void);
-- (void);
+- (void)PKForceBrowseProductsSearchUIKey;
 - (id);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (_Bool);
@@ -30,7 +20,7 @@
 - (id);
 - (_Bool);
 - (double);
-- (void)dvertising: /* Error: Ran out of types for this method. */;
+- (void)_endAdvertising: /* Error: Ran out of types for this method. */;
 
 @end
 

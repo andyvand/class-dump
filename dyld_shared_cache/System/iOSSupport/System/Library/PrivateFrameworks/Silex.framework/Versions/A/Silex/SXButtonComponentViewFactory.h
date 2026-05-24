@@ -6,12 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@protocol SXActionComponentInteractionHandlerFactory, SXComponentInteractionHandlerManager;
+@protocol SXActionComponentInteractionHandlerFactory;
 
 @interface SXButtonComponentViewFactory : SXComponentViewFactory
 {
     id <SXActionComponentInteractionHandlerFactory> _interactionHandlerFactory;
-    id <SXComponentInteractionHandlerManager> _interactionHandlerManager;
 }
 
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionComponentInteractionHandlerFactory> interactionHandlerFactory; // @synthesize interactionHandlerFactory=_interactionHandlerFactory;
-@property(readonly, nonatomic) id <SXComponentInteractionHandlerManager> interactionHandlerManager; // @synthesize interactionHandlerManager=_interactionHandlerManager;
 
 @end
 

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDataPersister, NSData;
+@class NSData;
 
 @interface ICNotePasteboardData
 {
     NSData *_attributedStringData;
-    ICDataPersister *_dataPersister;
 }
 
-+ (id);
++ (id)interfaceWithProtocol:(id)arg1;
 + (_Bool);
 - (id);
 - (id);
+- (id)_lastProgressReported;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)clientRejectsConfigUUID:(id)arg1;
 - (void)8N;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *attributedStringData; // @synthesize attributedStringData=_attributedStringData;
-@property(readonly, nonatomic) ICDataPersister *dataPersister; // @synthesize dataPersister=_dataPersister;
 
 @end
 

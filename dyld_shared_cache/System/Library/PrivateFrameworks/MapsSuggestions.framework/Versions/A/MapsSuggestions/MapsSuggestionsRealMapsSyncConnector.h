@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol MapsSuggestionsMapsSyncConnectorDelegate;
 
 @interface MapsSuggestionsRealMapsSyncConnector
 {
     id <MapsSuggestionsMapsSyncConnectorDelegate> _delegate;
-    NSArray *storeSubscriptionTypes;
 }
 
 - (id);
@@ -29,16 +28,7 @@
 - (void)"16@0:(id)arg1 8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MapsSuggestionsMapsSyncConnectorDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *storeSubscriptionTypes; // @synthesize storeSubscriptionTypes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

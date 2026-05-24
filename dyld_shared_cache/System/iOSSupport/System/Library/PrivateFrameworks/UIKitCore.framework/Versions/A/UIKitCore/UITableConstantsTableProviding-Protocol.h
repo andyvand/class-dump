@@ -7,13 +7,13 @@
 @class UIColor, UIScrollView;
 
 @protocol UITableConstantsTableProviding
+- (long long)Q}32@48@56@64@72@80@88;
+- (_Bool)eply: /* Error: Ran out of types for this method. */;
+- (UIColor *)_shouldUpgradeExistingMessage:input: /* Error: Ran out of types for this method. */;
+- (UIColor *));
 - (UIScrollView *)m;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_accessoryBaseColor) UIColor *accessoryBaseColor;
-@property(readonly, nonatomic, getter=_multiselectCheckmarkColor) UIColor *multiselectCheckmarkColor;
 @property(readonly, nonatomic, getter=_scrollView) UIScrollView *scrollView;
-@property(readonly, nonatomic, getter=_sectionContentInsetFollowsLayoutMargins) _Bool sectionContentInsetFollowsLayoutMargins;
-@property(readonly, nonatomic, getter=_tableStyle) long long tableStyle;
 @end
 

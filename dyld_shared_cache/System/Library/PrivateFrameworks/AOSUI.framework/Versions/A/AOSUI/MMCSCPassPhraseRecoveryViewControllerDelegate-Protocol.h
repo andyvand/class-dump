@@ -5,5 +5,8 @@
 //
 
 @protocol MMCSCPassPhraseRecoveryViewControllerDelegate
+
+@optional
+- (void));
 @end
 

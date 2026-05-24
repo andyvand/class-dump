@@ -5,5 +5,7 @@
 //
 
 @protocol TRITaskQueuing
+- (void);
+- (unsigned long long)R,N,V_stats;
 @end
 

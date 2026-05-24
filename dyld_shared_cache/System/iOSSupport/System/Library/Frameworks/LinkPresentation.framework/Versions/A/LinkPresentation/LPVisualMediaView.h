@@ -6,93 +6,61 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class CATextLayer, LPImage, LPImageViewStyle, LPVideo, LPVisualMedia, LPVisualMediaViewConfiguration, LPVisualMediaViewStyle, NSString, UIGestureRecognizer, UIImageView, UIView;
+@class LPVideo, LPVisualMediaViewConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface LPVisualMediaView : LPComponentView
 {
     LPVideo *_video;
-    LPVisualMediaViewStyle *_style;
-    LPImage *_posterFrame;
-    LPImageViewStyle *_posterFrameStyle;
-    LPVisualMediaViewConfiguration *_configuration;
-    UIView *_playButtonContainerView;
-    UIView *_playButtonView;
-    UIView *_muteButtonContainerView;
-    UIImageView *_muteButtonView;
-    UIView *_videoPlaceholderView;
-    UIView *_visualEffectView;
-    UIView *_pulsingLoadView;
-    UIView *_containerView;
-    UIView *_playbackView;
-    CATextLayer *_debugIndicator;
-    UIGestureRecognizer *_tapRecognizer;
-    UIGestureRecognizer *_playButtonTapRecognizer;
-    _Bool _playing;
-    _Bool _hasBuilt;
-    _Bool _wasPlayingOrWaitingToPlayWhenUnparented;
-    _Bool _wasPlayingWhenSuspended;
-    _Bool _showingPlayButton;
-    _Bool _waitingForPlaybackDueToAutoPlay;
-    _Bool _hasEverPlayed;
-    unsigned long long _lastInteractionTimestamp;
-    unsigned long long _playbackWatchdogTimerID;
-    unsigned int _loggingID;
-    _Bool _usesSharedAudioSession;
-    _Bool _allowsUserInteractionWithVideoPlayer;
-    _Bool _waitingForPlayback;
-    _Bool _fullScreen;
-    double _volume;
-    LPVisualMedia *_media;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)transcriptFooterNoteBodyFont;
+- (void)transcriptEditingUnselectedImage;
+- (void)transcriptDrawerContactImageDiameter;
+- (void)transcriptDrawerContactImage;
+- (double)transcriptCustomStatusImageEdgeInsets;
+- (void)transcriptCollectionViewControllerShouldScrollToBottomForLocalSentMessage: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewControllerDidAddTapback:(_Bool)arg1 tapbackChatItem: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewControllerComputedInsets: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewControllerBottomDockingPadding: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewControllerBlockContactButtonTapped: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:willEndContextMenuInteractionWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:(id)arg1 willDisplayBalloonForGUID:withIndexPath:withOriginY: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(_Bool)arg1 shouldSetupFullscreenEffectUI: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(_Bool)arg1 balloonView:longPressedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)transcriptBackground:(_Bool)arg1 enumerateVisbleBalloonChatItemGUIDsInReverse:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)traitCollectionByModifyingTraits: /* Error: Ran out of types for this method. */;
+- (void)trailingSwipeActionsConfigurationForIndexPath: /* Error: Ran out of types for this method. */;
+- (void)trackSelectedGuid:selectionState: /* Error: Ran out of types for this method. */;
+- (id)touchLifetime;
+- (void)toggleAutomaticallyTranslate;
+- (unsigned long long)toggleAutocapitalization;
+- (_Bool)titleViewWithConversation:tapHandler: /* Error: Ran out of types for this method. */;
+- (id)threadOriginator;
+- (void)textViewContainerView;
+- (void)textView:writingToolsIgnoredRangesInEnclosingRange: /* Error: Ran out of types for this method. */;
+- (_Bool)textView:willDismissEditMenuWithAnimator: /* Error: Ran out of types for this method. */;
+- (_Bool)textView:textItemMenuWillEndForTextItem:animator: /* Error: Ran out of types for this method. */;
+- (void)textStyleCommandsWithAction:configureImages:configureAttributedTitles:activeTextStyles:selectedText: /* Error: Ran out of types for this method. */;
+- (void)textFieldShouldBeginEditing: /* Error: Ran out of types for this method. */;
+- (void)textFieldDidEndEditing:reason: /* Error: Ran out of types for this method. */;
+- (void)textFieldDidChangeSelection:(_Bool)arg1;
+- (void)textFieldDidBeginEditing:(_Bool)arg1;
+- (id)textEffectsEditMenuForTextInRange: /* Error: Ran out of types for this method. */;
+- (void)textEffectCoordinator:explodeConfigurationForTextViewIdentifier: /* Error: Ran out of types for this method. */;
+- (void)textAlignmentInsets;
+- (void)testPerformSearchDelegate;
+- (_Bool)targetApplicationRecord;
+- (void)tapbackKeyboardInputContext;
+- (void)tapbackButtonFrameForFullScreenBalloonViewController: /* Error: Ran out of types for this method. */;
+- (void)systemName;
+- (void)systemMinimumLayoutMarginsForFullScreenBalloonViewController:(id)arg1;
+- (id)superFormatTranslation;
+- (id)summaryOfVCard:error: /* Error: Ran out of types for this method. */;
+- (void)suggestionGenerator;
+- (id)suggestedActionsMenuAdditionalHeightWithChatBotActionButton: /* Error: Ran out of types for this method. */;
+- (void)COLLABORATION_ERROR_MISSING_FILE_FOR_URL_TITLE;
+- (_Bool)FSM_CONTROL_BUTTON_TITLE_CONFETTI;
 - (void);
 - (_Bool);
 - (id);
@@ -101,54 +69,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (unsigned int);
-- (id);
+- (unsigned int)SetTtytype;
+- (id)somersault;
 - (void);
 - (_Bool);
 - (void);
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void)@9:(id)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)3557;
+- (void)143557;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool allowsUserInteractionWithVideoPlayer; // @synthesize allowsUserInteractionWithVideoPlayer=_allowsUserInteractionWithVideoPlayer;
 @property(readonly, copy, nonatomic) LPVisualMediaViewConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFullScreen) _Bool fullScreen; // @synthesize fullScreen=_fullScreen;
-@property(nonatomic) _Bool hasEverPlayed; // @synthesize hasEverPlayed=_hasEverPlayed;
-@property(readonly, nonatomic) _Bool hasMuteControl;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long lastInteractionTimestamp;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) unsigned int loggingID; // @synthesize loggingID=_loggingID;
-@property(readonly, nonatomic) LPVisualMedia *media; // @synthesize media=_media;
-@property(nonatomic, getter=isMuted) _Bool muted;
-@property(readonly, nonatomic) UIView *playbackView; // @synthesize playbackView=_playbackView;
-@property(nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly, nonatomic) _Bool shouldAutoPlay;
-@property(readonly, nonatomic) _Bool shouldShowMuteButton;
-@property(readonly, nonatomic) _Bool shouldUnmuteWhenUserAdjustsVolume;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double unobscuredAreaFraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool usesSharedAudioSession; // @synthesize usesSharedAudioSession=_usesSharedAudioSession;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
-@property(nonatomic, getter=isWaitingForPlayback) _Bool waitingForPlayback; // @synthesize waitingForPlayback=_waitingForPlayback;
 
 @end
 

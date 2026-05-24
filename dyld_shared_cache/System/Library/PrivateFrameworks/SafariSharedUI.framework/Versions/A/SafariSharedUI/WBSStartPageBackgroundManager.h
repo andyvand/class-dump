@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSMutableDictionary, NSObject, NSString, NSURL, WBSCGImage;
+@class NSObject, WBSCGImage;
 @protocol OS_dispatch_queue;
 
 @interface WBSStartPageBackgroundManager
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_imageReadWriteQueue;
-    WBSCGImage *_prefetchedImage;
-    NSURL *_prefetchedImageURL;
-    NSString *_lastPrefetchedFilePath;
-    struct atomic<long long> _prefetchingCoalescingDelay;
-    NSURL *_imageURL;
-    NSAppearance *_appearance;
-    struct os_unfair_lock_s _imageLock;
-    WBSCGImage *_prefetchedImageThumbnail;
-    double _prefetchedImageLuminance;
-    NSMutableDictionary *_backgroundImageIdentifierToImage;
-    NSMutableDictionary *_backgroundImageIdentifierToLuminance;
-    NSMutableDictionary *_imageURLToTileRequired;
-    WBSCGImage *_image;
 }
 
 + (_Bool);
@@ -33,11 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -73,35 +59,28 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)9h;
 - (void);
 - (id);
+- (id);
+- (_Bool)4;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)r:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WBSCGImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

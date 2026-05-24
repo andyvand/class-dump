@@ -7,11 +7,6 @@
 @interface AppStoreKit.IndeterminateProgressConfiguration
 {
     id isActive;
-    id metrics;
-    id alignment;
-    id outlineShapeSize;
-    id theme;
-    id hasBeenUnapplied;
 }
 
 @end

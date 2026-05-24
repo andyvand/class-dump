@@ -6,12 +6,11 @@
 
 #import <AddressBook/ABBrowsingGroupEntry.h>
 
-@class ABAddressBook, ABSmartGroup;
+@class ABAddressBook;
 
 @interface ABSmartGroupBrowsingGroupEntry : ABBrowsingGroupEntry
 {
     ABAddressBook *_addressBook;
-    ABSmartGroup *_smartGroup;
 }
 
 - (id);
@@ -30,10 +29,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)|;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Directory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_pmaps.c;
 - (id);
 - (id);
 - (void)¡@!¨DùÑ©°1Â0@ù
@@ -41,7 +40,6 @@
 
 // Remaining properties
 @property(readonly, retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly, retain) ABSmartGroup *smartGroup; // @synthesize smartGroup=_smartGroup;
 
 @end
 

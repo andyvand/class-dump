@@ -7,9 +7,6 @@
 @interface NSSNewsAnalyticsEnvelopeDescriptor
 {
     int _contentType;
-    int _contentTypeVersion;
-    int _contentTypeMinorVersion;
-    int _contentTypePatchVersion;
 }
 
 - (id);
@@ -18,13 +15,10 @@
 - (int);
 - (id);
 - (int);
-- (int);
+- (int)missingData;
 
 // Remaining properties
 @property(readonly, nonatomic) int contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) int contentTypeMinorVersion; // @synthesize contentTypeMinorVersion=_contentTypeMinorVersion;
-@property(readonly, nonatomic) int contentTypePatchVersion; // @synthesize contentTypePatchVersion=_contentTypePatchVersion;
-@property(readonly, nonatomic) int contentTypeVersion; // @synthesize contentTypeVersion=_contentTypeVersion;
 
 @end
 

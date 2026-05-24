@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTLazuliChatBotMenuL1
 {
     NSString *_displayText;
-    NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)omCache:%d networkTransactionMetrics:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)p;
 - (id);
 - (void);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(retain, nonatomic) NSArray *list; // @synthesize list=_list;
 
 @end
 

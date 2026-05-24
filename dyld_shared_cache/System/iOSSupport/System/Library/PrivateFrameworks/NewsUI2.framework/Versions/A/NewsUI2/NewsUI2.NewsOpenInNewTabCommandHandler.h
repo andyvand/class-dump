@@ -7,8 +7,6 @@
 @interface NewsUI2.NewsOpenInNewTabCommandHandler
 {
     id navigator;
-    id sceneProvider;
-    id contentAvailabilityValidator;
 }
 
 @end

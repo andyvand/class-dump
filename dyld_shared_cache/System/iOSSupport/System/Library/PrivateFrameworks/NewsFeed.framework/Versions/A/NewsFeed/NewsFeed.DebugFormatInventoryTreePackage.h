@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatInventoryTreePackage
 {
     id id;
-    id editor;
-    id debugPackage;
-    id _accessories;
-    id _entries;
 }
 
 @end

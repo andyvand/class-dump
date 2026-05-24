@@ -4,49 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKBitmapFIFO, CHBoxcarFilterPointFIFO, CHPointStrokeFIFO, CHQuadCurvePointFIFO, NSColor, NSTrackingArea;
-@protocol AKSignatureViewLiveDelegate;
-
 @interface AKSignatureView
 {
     struct CGPoint _lastPoint;
-    id _trackingTouchID;
-    double _lastSetNeedsDisplayCallToSuperTime;
-    struct CGRect _accumulatedSignatureDirtyRect;
-    _Bool _isAddingPointWithoutSmoothing;
-    _Bool _startedTouchDrawing;
-    NSColor *_strokeColor;
-    double _minPressure;
-    double _maxPressure;
-    double _minThickness;
-    double _maxThickness;
-    unsigned long long _totalPointsAdded;
-    double _currentWeight;
-    double _strokeStartTime;
-    CHPointStrokeFIFO *_strokeFIFO;
-    CHBoxcarFilterPointFIFO *_boxcarFIFO;
-    CHQuadCurvePointFIFO *_interpolatingFIFO;
-    AKBitmapFIFO *_bitmapFifo;
-    NSTrackingArea *_trackingArea;
-    id <AKSignatureViewLiveDelegate> _liveDelegate;
-    struct CGPoint _strokeStartLocation;
-    struct CGPoint _strokeLastLocation;
-    struct CGRect _aggregateInvalid;
-    struct CGRect _unionDrawingRect;
 }
 
 - (struct CGRect);
 - (unsigned long long);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGPoint);
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,12 +35,12 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (double);
-- (double);
+- (double);
 - (struct CGPath *);
 - (id);
 - (id);
@@ -82,7 +56,7 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -97,40 +71,20 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)fetchAnnotationsWithCompletion:deliveredOnQueue: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect aggregateInvalid; // @synthesize aggregateInvalid=_aggregateInvalid;
-@property(retain, nonatomic) AKBitmapFIFO *bitmapFifo; // @synthesize bitmapFifo=_bitmapFifo;
-@property(retain, nonatomic) CHBoxcarFilterPointFIFO *boxcarFIFO; // @synthesize boxcarFIFO=_boxcarFIFO;
 @property(nonatomic) double currentWeight; // @synthesize currentWeight=_currentWeight;
-@property(readonly, nonatomic) double interfaceScale;
-@property(retain, nonatomic) CHQuadCurvePointFIFO *interpolatingFIFO; // @synthesize interpolatingFIFO=_interpolatingFIFO;
-@property _Bool isAddingPointWithoutSmoothing; // @synthesize isAddingPointWithoutSmoothing=_isAddingPointWithoutSmoothing;
-@property(nonatomic) __weak id <AKSignatureViewLiveDelegate> liveDelegate; // @synthesize liveDelegate=_liveDelegate;
-@property(nonatomic) double maxPressure; // @synthesize maxPressure=_maxPressure;
-@property(nonatomic) double maxThickness; // @synthesize maxThickness=_maxThickness;
-@property(nonatomic) double minPressure; // @synthesize minPressure=_minPressure;
-@property(nonatomic) double minThickness; // @synthesize minThickness=_minThickness;
-@property _Bool startedTouchDrawing; // @synthesize startedTouchDrawing=_startedTouchDrawing;
-@property(retain, nonatomic) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(retain, nonatomic) CHPointStrokeFIFO *strokeFIFO; // @synthesize strokeFIFO=_strokeFIFO;
-@property struct CGPoint strokeLastLocation; // @synthesize strokeLastLocation=_strokeLastLocation;
-@property struct CGPoint strokeStartLocation; // @synthesize strokeStartLocation=_strokeStartLocation;
-@property double strokeStartTime; // @synthesize strokeStartTime=_strokeStartTime;
-@property unsigned long long totalPointsAdded; // @synthesize totalPointsAdded=_totalPointsAdded;
-@property(retain) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
-@property(nonatomic) struct CGRect unionDrawingRect; // @synthesize unionDrawingRect=_unionDrawingRect;
 
 @end
 

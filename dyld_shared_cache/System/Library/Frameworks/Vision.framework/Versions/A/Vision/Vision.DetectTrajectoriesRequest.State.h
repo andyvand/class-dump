@@ -7,9 +7,6 @@
 @interface Vision.DetectTrajectoriesRequest.State
 {
     id processor;
-    id lastAnalyzedTimeStamp;
-    id lastResult;
-    id targetImageDimensionForContourDetection;
 }
 
 @end

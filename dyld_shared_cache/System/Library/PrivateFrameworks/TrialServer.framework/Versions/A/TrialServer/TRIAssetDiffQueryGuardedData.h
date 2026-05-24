@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface TRIAssetDiffQueryGuardedData
 {
     NSMutableDictionary *recordIdsForTargetAssetIds;
-    NSDate *retryAfter;
-    NSError *error;
 }
 
 - (void)TRISQLiteCKDatabaseFailureInjectionDelegate";

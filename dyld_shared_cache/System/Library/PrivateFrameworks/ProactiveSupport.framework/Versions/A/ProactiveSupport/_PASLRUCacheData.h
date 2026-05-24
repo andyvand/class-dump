@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface _PASLRUCacheData
 {
     NSMutableDictionary *items;
-    NSMutableArray *keysMRU;
 }
 
 - (id);
-- (void);
+- (void)setX_apple_travel_duration: /* Error: Ran out of types for this method. */;
 
 @end
 

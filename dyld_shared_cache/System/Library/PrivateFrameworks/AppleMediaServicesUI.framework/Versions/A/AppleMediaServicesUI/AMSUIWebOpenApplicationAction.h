@@ -6,7 +6,7 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebOpenApplicationAction : AMSUIWebAction
@@ -14,22 +14,14 @@ __attribute__((visibility("hidden")))
     NSString *_bundleIdentifier;
 }
 
-- (id);
-- (id);
+- (id)}@;
+- (id)!= 0;
 - (id);
 - (void);
 - (void)0:8@"WKWebView"16@"NSString"24@"WKFrameInfo"32@?<v@?>40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

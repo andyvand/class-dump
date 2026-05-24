@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRUserDefaultsObserver
 {
     id userDefaultsKey;
-    id block;
-    id userDefaults;
-    id removed;
 }
 
 - (void);

@@ -6,6 +6,6 @@
 
 @interface UnknownClass (FirstResponder)
 + (id);
-- (void);
+- (void);
 @end
 

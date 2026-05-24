@@ -5,21 +5,10 @@
 //
 
 @class AVPlayerController;
-@protocol AVDesktopGestureControllerDelegate;
 
 @interface AVDesktopGestureController
 {
     _Bool _jKeyDown;
-    _Bool _kKeyDown;
-    _Bool _lKeyDown;
-    _Bool _dontScrubBecauseOfJump;
-    double _deltaX;
-    double _deltaY;
-    double _eventBeginTime;
-    double _momentumEndTime;
-    double _rateAtEventBegan;
-    AVPlayerController *_playerController;
-    id <AVDesktopGestureControllerDelegate> _delegate;
 }
 
 - (_Bool);
@@ -33,15 +22,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)Ȭ;
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)lastCloudConfigurationDownload;
+- (void);
+- (void)(;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AVDesktopGestureControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
 
 @end

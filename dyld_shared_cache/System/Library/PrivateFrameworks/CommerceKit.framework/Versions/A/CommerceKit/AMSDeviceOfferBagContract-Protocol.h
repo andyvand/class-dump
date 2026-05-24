@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly) AMSBagValue *appleMusicDeviceOfferDeepLink;
-@property(readonly) AMSBagValue *iCloudDeviceOfferDeepLink;
 @end
 

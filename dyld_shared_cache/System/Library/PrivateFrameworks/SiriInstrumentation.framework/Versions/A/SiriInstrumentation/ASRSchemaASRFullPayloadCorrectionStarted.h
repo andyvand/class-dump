@@ -6,43 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRFullPayloadCorrectionStarted : SISchemaInstrumentationMessage
 {
     unsigned long long _utteranceStartTimeInNs;
-    unsigned long long _utteranceEndTimeInNs;
-    struct {
-        unsigned int utteranceStartTimeInNs:1;
-        unsigned int utteranceEndTimeInNs:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)NSArray";
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)lativeCount;
+- (id)spotlightRelativeCount;
 - (id)T+¼+;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasUtteranceEndTimeInNs;
-@property(nonatomic) _Bool hasUtteranceStartTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long utteranceEndTimeInNs; // @synthesize utteranceEndTimeInNs=_utteranceEndTimeInNs;
 @property(nonatomic) unsigned long long utteranceStartTimeInNs; // @synthesize utteranceStartTimeInNs=_utteranceStartTimeInNs;
 
 @end

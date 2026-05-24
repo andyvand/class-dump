@@ -5,5 +5,7 @@
 //
 
 @protocol NSOSPServiceExportedToHostProtocol
+- (void)OC Generation string;
+- (void)y redirected;
 @end
 

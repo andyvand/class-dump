@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSVBTestedFault
 {
     double _probability;
-    unsigned int _tested;
-    unsigned int _taken;
 }
 
 + (id);

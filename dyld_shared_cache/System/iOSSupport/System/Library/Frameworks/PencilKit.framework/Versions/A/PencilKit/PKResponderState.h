@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKToolPicker, UIResponder;
+@class UIResponder;
 
 @interface PKResponderState
 {
     long long _toolPickerVisibility;
-    PKToolPicker *_activeToolPicker;
-    UIResponder *__responder;
 }
 
 - (long long);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak UIResponder *_responder; // @synthesize _responder=__responder;
-@property(retain, nonatomic) PKToolPicker *activeToolPicker; // @synthesize activeToolPicker=_activeToolPicker;
-@property(nonatomic) long long toolPickerVisibility; // @synthesize toolPickerVisibility=_toolPickerVisibility;
 
 @end
 

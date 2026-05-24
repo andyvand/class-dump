@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GLKEffect, GLKEffectPropertyTexture, GLKEffectPropertyTransform, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface GLKSkyboxEffect
 {
     union _GLKVector3 _center;
-    float _xSize;
-    float _ySize;
-    float _zSize;
-    GLKEffectPropertyTexture *_textureCubeMap;
-    GLKEffectPropertyTransform *_transform;
-    NSString *_label;
-    unsigned char _effectStale;
-    unsigned char _centerChanged;
-    unsigned int _vao;
-    unsigned int _positionVBO;
-    unsigned int _texCoordVBO;
-    unsigned int _programName;
-    NSMutableArray *_propertyArray;
-    GLKEffect *_effect;
 }
 
 - (float);
@@ -32,14 +18,14 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (unsigned char);
 - (void);
@@ -56,26 +42,12 @@
 - (union _GLKVector3);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)dingAudioSessionAssertion = %@;
+- (void);
+- (void)!!;
 
 // Remaining properties
-@property(nonatomic) union _GLKVector3 center; // @synthesize center=_center;
-@property(nonatomic) unsigned char centerChanged; // @synthesize centerChanged=_centerChanged;
-@property(nonatomic) GLKEffect *effect; // @synthesize effect=_effect;
-@property(nonatomic) unsigned char effectStale; // @synthesize effectStale=_effectStale;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned int positionVBO; // @synthesize positionVBO=_positionVBO;
-@property(nonatomic) unsigned int programName; // @synthesize programName=_programName;
 @property(readonly, nonatomic) NSMutableArray *propertyArray; // @synthesize propertyArray=_propertyArray;
-@property(nonatomic) unsigned int texCoordVBO; // @synthesize texCoordVBO=_texCoordVBO;
-@property(readonly, nonatomic) GLKEffectPropertyTexture *textureCubeMap; // @synthesize textureCubeMap=_textureCubeMap;
-@property(readonly, nonatomic) GLKEffectPropertyTransform *transform; // @synthesize transform=_transform;
-@property(nonatomic) unsigned int vao; // @synthesize vao=_vao;
-@property(nonatomic) float xSize; // @synthesize xSize=_xSize;
-@property(nonatomic) float ySize; // @synthesize ySize=_ySize;
-@property(nonatomic) float zSize; // @synthesize zSize=_zSize;
 
 @end
 

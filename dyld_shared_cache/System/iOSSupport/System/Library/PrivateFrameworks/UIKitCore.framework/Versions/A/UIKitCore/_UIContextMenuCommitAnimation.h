@@ -4,73 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UIContextMenuCommitContainerView, _UIPortalView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuCommitAnimation
 {
     double _sourceRadius;
-    double _destinationRadius;
-    UIView *_source;
-    UIView *_destination;
-    UIView *_container;
-    UIView *_morphContainer;
-    UIView *_sourceSnapshotView;
-    UIView *_sourceTransformView;
-    UIView *_destinationTransformView;
-    UIView *_originalContentSnapshotView;
-    _UIPortalView *_destinationContentPortalView;
-    _UIContextMenuCommitContainerView *_animationContainer;
-    unsigned long long _animationCount;
 }
 
 - (id);
 - (id);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)2@0:(id)arg1 8q16@?<v@?@>24;
+- (void)g"40@"NSString"48;
+- (void)ionary"24@"NSString"32@"NSNumber"40@"NSString"48;
+- (void)validationStatusForAlias:(id)arg1;
+- (void)setConsumedSessionPayloads:(id)arg1;
+- (void)setCompletedUnitCount:(id)arg1;
+- (void)relayPriorityMessageFor:(id)arg1;
+- (id)didJoinChat:style:displayName:groupID:handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
+- (id)conversationManager:kickedMembersChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id)_onWriteComplete:(id)arg1 error:(id)arg2 shouldWriteMore:activity:completion: /* Error: Ran out of types for this method. */;
+- (id)IMDCollaborationNoticeDispatcher;
+- (id)IMDNotificationResponseUtilitiesAdditions;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)eared purgeable flags under %@;
+- (void)Store history token updated.;
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
 - (id)
 × ;
-- (void)ations:(id)arg1;
+- (void)_unregisterAuxiliaryChildEnvironmentForTraitInvalidations:(id)arg1;
 - (id)lor",&,N,G_titleTextColor,S_setTitleTextColor:,V_titleTextColor /* Error: Ran out of types for this method. */;
 - (void)T;
-- (void)troller;
+- (void)VCOperatorCreateViewController;
 - (id)R;
 - (void)×þ;
 - (void)ªc;
 
 // Remaining properties
-@property(retain, nonatomic) _UIContextMenuCommitContainerView *animationContainer; // @synthesize animationContainer=_animationContainer;
-@property(nonatomic) unsigned long long animationCount; // @synthesize animationCount=_animationCount;
-@property(retain, nonatomic) UIView *container; // @synthesize container=_container;
-@property(retain, nonatomic) UIView *destination; // @synthesize destination=_destination;
-@property(retain, nonatomic) _UIPortalView *destinationContentPortalView; // @synthesize destinationContentPortalView=_destinationContentPortalView;
-@property(nonatomic) double destinationRadius; // @synthesize destinationRadius=_destinationRadius;
-@property(retain, nonatomic) UIView *destinationTransformView; // @synthesize destinationTransformView=_destinationTransformView;
-@property(retain, nonatomic) UIView *morphContainer; // @synthesize morphContainer=_morphContainer;
-@property(retain, nonatomic) UIView *originalContentSnapshotView; // @synthesize originalContentSnapshotView=_originalContentSnapshotView;
 @property(retain, nonatomic) UIView *source; // @synthesize source=_source;
-@property(nonatomic) double sourceRadius; // @synthesize sourceRadius=_sourceRadius;
-@property(retain, nonatomic) UIView *sourceSnapshotView; // @synthesize sourceSnapshotView=_sourceSnapshotView;
-@property(retain, nonatomic) UIView *sourceTransformView; // @synthesize sourceTransformView=_sourceTransformView;
 
 @end
 

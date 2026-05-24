@@ -11,13 +11,11 @@
 @interface PGCurationSceneTrait : PGCurationTrait
 {
     CLSSceneConfidenceThresholdHelper *_helper;
-    NSSet *_sceneNames;
-    unsigned long long _targetNumberOfMatches;
 }
 
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long)d}}16;
+- (void)objectAtIndexedSubscript:(unsigned long long)arg1;
+- (id)_describeFromFocusedElement: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSSet *sceneNames; // @synthesize sceneNames=_sceneNames;
-@property(nonatomic) unsigned long long targetNumberOfMatches; // @synthesize targetNumberOfMatches=_targetNumberOfMatches;
 
 @end
 

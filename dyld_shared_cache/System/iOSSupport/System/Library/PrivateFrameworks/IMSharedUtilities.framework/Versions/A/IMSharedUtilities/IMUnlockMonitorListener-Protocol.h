@@ -5,5 +5,8 @@
 //
 
 @protocol IMUnlockMonitorListener
+
+@optional
+- (void)A;
 @end
 

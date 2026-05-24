@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SGStringMappingTransformer
 {
     NSDictionary *_mappings;
 }
 
-+ (id);
++ (id)ripts:(id)arg1 %d;
 - (id);
 - (id);
 - (id);
@@ -26,14 +26,7 @@
 - (void)m_0_h_in;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSDictionary *mappings; // @synthesize mappings=_mappings;
-@property(readonly) Class superclass;
 
 @end
 

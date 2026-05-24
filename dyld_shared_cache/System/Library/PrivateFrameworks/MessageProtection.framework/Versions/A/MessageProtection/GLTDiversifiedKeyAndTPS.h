@@ -9,16 +9,14 @@
 @interface GLTDiversifiedKeyAndTPS
 {
     NSData *_trackingPreventionSalt;
-    struct __SecKey *_diversifiedKey;
 }
 
-- (id);
+- (id)h;
 - (id);
 - (struct __SecKey *);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct __SecKey *diversifiedKey; // @synthesize diversifiedKey=_diversifiedKey;
 @property(readonly, nonatomic) NSData *trackingPreventionSalt; // @synthesize trackingPreventionSalt=_trackingPreventionSalt;
 
 @end

@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)t;
 - (id)tsRect:(struct CGRect)arg1 forRequestID: /* Error: Ran out of types for this method. */;
 - (void);
 

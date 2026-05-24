@@ -9,27 +9,21 @@
 @interface EKVirtualConferenceRoomType
 {
     NSString *_title;
-    NSString *_identifier;
-    NSString *_extensionBundleIdentifier;
-    NSString *_originatingExtensionIdentifier;
 }
 
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)fetchRecordingStartDate: /* Error: Ran out of types for this method. */;
+- (_Bool)	;
+- (id)<html;
 - (id);
 - (void)#ð!ìEù12'ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) NSString *originatingExtensionIdentifier; // @synthesize originatingExtensionIdentifier=_originatingExtensionIdentifier;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

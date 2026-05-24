@@ -9,10 +9,6 @@
 @interface ASDExtensionMonitor
 {
     NSDictionary *_extensionAttributes;
-    id _matchingContext;
-    struct os_unfair_lock_s _lock;
-    NSArray *_extensions;
-    CDUnknownBlockType _updateHandler;
 }
 
 - (void);
@@ -24,7 +20,6 @@
 
 // Remaining properties
 @property(readonly) NSArray *extensions;
-@property(copy, nonatomic) CDUnknownBlockType updateHandler;
 
 @end
 

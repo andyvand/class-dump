@@ -6,24 +6,23 @@
 
 #import <Mail/MFSizeEngine.h>
 
-@class MFRemoteStoreAccount, NSArray, NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface MFRemoteStoreSizeEngine : MFSizeEngine
 {
     NSMutableDictionary *_usageByMailbox;
-    NSMutableSet *_mailboxesToSize;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)];
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -32,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MFRemoteStoreAccount *account; // @dynamic account;
-@property(readonly, copy) NSArray *allUsageByMailboxKeys;
 @property(readonly) unsigned long long countOfMailboxesToSize;
 
 @end

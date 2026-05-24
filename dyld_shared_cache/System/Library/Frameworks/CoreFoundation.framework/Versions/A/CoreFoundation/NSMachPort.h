@@ -11,9 +11,6 @@
 @interface NSMachPort : NSPort
 {
     id <NSMachPortDelegate> _delegate;
-    unsigned long long _flags;
-    unsigned long long _retainCount;
-    unsigned int _machPort;
 }
 
 

@@ -9,18 +9,15 @@
 @interface CUIKIntegrationAlertAction
 {
     CDUnknownBlockType _handler;
-    NSString *_title;
-    long long _style;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long)G;
 - (id);
-- (void)d: /* Error: Ran out of types for this method. */;
+- (void)setIsEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

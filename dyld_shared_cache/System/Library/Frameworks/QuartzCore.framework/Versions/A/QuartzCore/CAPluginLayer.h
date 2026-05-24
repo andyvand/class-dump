@@ -29,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property unsigned int pluginFlags;
-@property(copy) NSString *pluginGravity;
-@property unsigned long long pluginId;
 @property(copy) NSString *pluginType;
 
 @end

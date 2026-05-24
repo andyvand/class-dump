@@ -9,25 +9,23 @@
 @interface NTPBScoredTagID
 {
     float _score;
-    NSString *_tagId;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long),N,V_hasTargetVisibilityOffset;
+- (_Bool)m/Library/Caches/com.apple.SystemMigrationPathCache;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (float);
 - (void);
-- (void)ueBaseline: /* Error: Ran out of types for this method. */;
+- (void)setSavedClickValueBaseline: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float score; // @synthesize score=_score;
 @property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end

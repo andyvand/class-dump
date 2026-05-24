@@ -6,25 +6,21 @@
 
 #import <WebKitLegacy/DOMEvent.h>
 
-@class DOMNode, NSString;
+@class DOMNode;
 
 @interface DOMMutationEvent : DOMEvent
 {
 }
 
+- (id)`!;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)\q;
+- (void);
 - (id);
 - (unsigned short);
-- (id);
+- (id)tring",C,N,V_localizedContentRating;
 
 // Remaining properties
-@property(readonly) unsigned short attrChange;
-@property(readonly, copy) NSString *attrName;
-@property(readonly, copy) NSString *newValue;
-@property(readonly, copy) NSString *prevValue;
 @property(readonly) DOMNode *relatedNode;
 
 @end

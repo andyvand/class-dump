@@ -9,20 +9,17 @@
 @interface EDIndexedMessage
 {
     EDPersistedMessageID *messageID;
-    _Bool hasBodyData;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
-- (_Bool);
-- (void)UniqueQueryLogging;
+- (_Bool);
+- (void)SQLUniqueQueryLogging;
 - (id)ä;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool hasBodyData; // @synthesize hasBodyData;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) EDPersistedMessageID *messageID; // @synthesize messageID;
 
 @end

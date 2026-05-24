@@ -6,16 +6,11 @@
 
 #import <ModelIO/MDLLight.h>
 
-@class MDLTexture, NSData, NSMutableData;
-@protocol MDLTransformComponent;
+@class MDLTexture;
 
 @interface MDLLightProbe : MDLLight
 {
     MDLTexture *_reflectiveTexture;
-    MDLTexture *_irradianceTexture;
-    NSMutableData *_sphericalHarmonicsCoefficients;
-    id <MDLTransformComponent> _transform;
-    unsigned long long _sphericalHarmonicsLevel;
 }
 
 - (unsigned long long);
@@ -24,17 +19,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)essionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE               );
+- (void)'SignificantPhoneNumber'                   WHEN name = 'SignificantPhoneNumber' THEN name                   WHEN name = 'dataDetectionSignificantPhraseAddressLogistic' THEN 'SignificantPostalAddress'                   WHEN name = 'SignificantPostalAddress' THEN name                   WHEN name = 'dataDetectionSignificantPhraseEmailLogistic' THEN 'SignificantEmailAddress'                   WHEN name = 'SignificantEmailAddress' THEN name                   WHEN name = 'selfIdentificationPhraseLogistic' THEN 'SelfIdentification'                   WHEN name = 'SelfId.Covariates' THEN 'SelfIdentification'                   WHEN name = 'SelfIdentification' THEN name                   WHEN name = 'STSQP' AND version = '1.2' THEN name                   ELSE NULL               END,               sd_version = CASE                   WHEN version = '1.1' THEN 'TW=12&NG=3&FV=1.1'                   WHEN version = 'TW=12&NG=3&FV=1.1' THEN version                   WHEN version = '1.2' THEN version                   ELSE NULL               END;
+- (id)SError"32;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) MDLTexture *irradianceTexture; // @synthesize irradianceTexture=_irradianceTexture;
 @property(readonly, retain, nonatomic) MDLTexture *reflectiveTexture; // @synthesize reflectiveTexture=_reflectiveTexture;
-@property(readonly, copy, nonatomic) NSData *sphericalHarmonicsCoefficients;
-@property(readonly, nonatomic) unsigned long long sphericalHarmonicsLevel; // @synthesize sphericalHarmonicsLevel=_sphericalHarmonicsLevel;
 
 @end
 

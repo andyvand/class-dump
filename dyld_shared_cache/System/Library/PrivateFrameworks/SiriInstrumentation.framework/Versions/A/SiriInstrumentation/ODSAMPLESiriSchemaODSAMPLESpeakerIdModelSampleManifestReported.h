@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleManifestReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_userSamplingId;
-    NSArray *_odsampleIds;
-    int _collectionStatus;
-    struct {
-        unsigned int collectionStatus:1;
-    } _has;
-    _Bool _hasUserSamplingId;
 }
 
 - (id);
@@ -40,21 +34,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)^_;
 - (_Bool);
 - (id);
 - (id)!\Gù1Þ°1Â0@ù
 × ;
 - (id)mestampNs;
-- (id);
+- (id)hasHashedHomeId;
 - (void)ionTier1.eventEntities;
 
 // Remaining properties
-@property(nonatomic) int collectionStatus; // @synthesize collectionStatus=_collectionStatus;
-@property(nonatomic) _Bool hasCollectionStatus;
-@property(nonatomic) _Bool hasUserSamplingId; // @synthesize hasUserSamplingId=_hasUserSamplingId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *odsampleIds; // @synthesize odsampleIds=_odsampleIds;
 @property(retain, nonatomic) SISchemaUUID *userSamplingId; // @synthesize userSamplingId=_userSamplingId;
 
 @end

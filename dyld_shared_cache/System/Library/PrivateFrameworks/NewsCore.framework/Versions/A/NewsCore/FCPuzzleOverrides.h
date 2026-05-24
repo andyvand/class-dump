@@ -9,14 +9,6 @@
 @interface FCPuzzleOverrides
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_puzzleDescription;
-    NSString *_author;
-    NSString *_teaserClue;
-    NSString *_teaserAnswer;
-    NSString *_teaserInfo;
-    NSString *_teaserDirection;
-    NSString *_teaserNumber;
 }
 
 - (id);
@@ -27,19 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (id)ture;
-- (void)allsEnabledLevel;
+- (id)personalizedMultiplierPostBaselineCurvature;
+- (void)paywallsEnabledLevel;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *author; // @synthesize author=_author;
-@property(readonly, nonatomic) NSString *puzzleDescription; // @synthesize puzzleDescription=_puzzleDescription;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *teaserAnswer; // @synthesize teaserAnswer=_teaserAnswer;
-@property(readonly, nonatomic) NSString *teaserClue; // @synthesize teaserClue=_teaserClue;
-@property(readonly, nonatomic) NSString *teaserDirection; // @synthesize teaserDirection=_teaserDirection;
-@property(readonly, nonatomic) NSString *teaserInfo; // @synthesize teaserInfo=_teaserInfo;
-@property(readonly, nonatomic) NSString *teaserNumber; // @synthesize teaserNumber=_teaserNumber;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

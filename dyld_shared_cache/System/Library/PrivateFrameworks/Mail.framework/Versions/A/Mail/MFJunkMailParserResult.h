@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface MFJunkMailParserResult
 {
     void plainText;
-    long long characterCount;
-    void imageURLs;
-    void otherURLs;
 }
 
-- (id);
+- (id)�2;
 - (id);
 - (id);
 - (id);
@@ -22,9 +19,6 @@
 - (void)rxL(jnyrMc;BZjYNKi\wK}qQ|9@|J|KwuzIFwe]xio>k|g}GtR;
 
 // Remaining properties
-@property(nonatomic, readonly) long long characterCount; // @synthesize characterCount;
-@property(nonatomic, readonly) NSSet *imageURLs;
-@property(nonatomic, readonly) NSSet *otherURLs;
 @property(nonatomic, readonly) NSString *plainText;
 
 @end

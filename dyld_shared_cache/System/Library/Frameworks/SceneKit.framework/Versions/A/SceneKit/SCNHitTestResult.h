@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode;
-
 @interface SCNHitTestResult
 {
     struct __C3DHitTestResult *_result;
@@ -17,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)U;
 - (struct SCNVector3);
 - (struct SCNVector3);
 - (struct CGPoint);
@@ -28,25 +26,12 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
+- (void)W;
 - (id);
 - (id)w°@î²{?;
 
 // Remaining properties
-@property(readonly, nonatomic) SCNNode *boneNode;
-@property(readonly, nonatomic) long long faceIndex;
-@property(readonly, nonatomic) long long geometryIndex;
-@property(readonly, nonatomic) struct SCNVector3 localCoordinates;
-@property(readonly, nonatomic) struct SCNVector3 localNormal;
-@property(readonly, nonatomic) struct CATransform3D modelTransform;
-@property(readonly, nonatomic) SCNNode *node;
 @property(readonly, nonatomic) id simdLocalCoordinates;
-@property(readonly, nonatomic) id simdLocalNormal;
-@property(readonly, nonatomic) CDStruct_95fa7c00 simdModelTransform;
-@property(readonly, nonatomic) id simdWorldCoordinates;
-@property(readonly, nonatomic) id simdWorldNormal;
-@property(readonly, nonatomic) struct SCNVector3 worldCoordinates;
-@property(readonly, nonatomic) struct SCNVector3 worldNormal;
 
 @end
 

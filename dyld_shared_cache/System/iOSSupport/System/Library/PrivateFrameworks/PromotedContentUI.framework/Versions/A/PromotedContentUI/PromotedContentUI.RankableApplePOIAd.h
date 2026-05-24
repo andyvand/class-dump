@@ -7,15 +7,6 @@
 @interface PromotedContentUI.RankableApplePOIAd
 {
     id instanceId;
-    id adTransparencyPayload;
-    id impressionId;
-    id candidateId;
-    id slotInfo;
-    id metadataBlob;
-    id capInfo;
-    id duplicateOrganicPosition;
-    id clientMissedOpportunityReasonCodes;
-    id policyInfo;
 }
 
 @end

@@ -9,18 +9,6 @@
 @interface SGMIMetricsSubmodelsStats
 {
     SGMIMetricsSubmodelStats *_attachmentsStats;
-    SGMIMetricsSubmodelStats *_conversationStats;
-    SGMIMetricsSubmodelStats *_domainFromSenderStats;
-    SGMIMetricsSubmodelStats *_listIdStats;
-    SGMIMetricsSubmodelStats *_mailboxStats;
-    SGMIMetricsSubmodelStats *_mailboxTypeStats;
-    SGMIMetricsSubmodelStats *_personCCRecipientsStats;
-    SGMIMetricsSubmodelStats *_personFromSenderInDyadicConversationStats;
-    SGMIMetricsSubmodelStats *_personFromSenderStats;
-    SGMIMetricsSubmodelStats *_personToRecipientsStats;
-    SGMIMetricsSubmodelStats *_standardMailRulesStats;
-    SGMIMetricsSubmodelStats *_subjectContentStats;
-    SGMIMetricsSubmodelStats *_subjectCountStatsStats;
 }
 
 - (id);
@@ -29,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -39,25 +27,25 @@
 - (void);
 - (void);
 - (id);
+- (id)__TEXT;
+- (id)__swift_as_entry__TEXT;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_lp_stringByTrimmingWhitespace;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)b/libobjc.A.dylib;
 - (id);
 - (id);
 - (_Bool);
@@ -66,7 +54,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)etry=YES ;
 - (_Bool);
 - (void);
 - (id);
@@ -74,32 +62,7 @@
 - (void)8;
 
 // Remaining properties
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *attachmentsStats; // @synthesize attachmentsStats=_attachmentsStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *conversationStats; // @synthesize conversationStats=_conversationStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *domainFromSenderStats; // @synthesize domainFromSenderStats=_domainFromSenderStats;
-@property(readonly, nonatomic) _Bool hasAttachmentsStats;
-@property(readonly, nonatomic) _Bool hasConversationStats;
-@property(readonly, nonatomic) _Bool hasDomainFromSenderStats;
-@property(readonly, nonatomic) _Bool hasListIdStats;
-@property(readonly, nonatomic) _Bool hasMailboxStats;
-@property(readonly, nonatomic) _Bool hasMailboxTypeStats;
-@property(readonly, nonatomic) _Bool hasPersonCCRecipientsStats;
-@property(readonly, nonatomic) _Bool hasPersonFromSenderInDyadicConversationStats;
 @property(readonly, nonatomic) _Bool hasPersonFromSenderStats;
-@property(readonly, nonatomic) _Bool hasPersonToRecipientsStats;
-@property(readonly, nonatomic) _Bool hasStandardMailRulesStats;
-@property(readonly, nonatomic) _Bool hasSubjectContentStats;
-@property(readonly, nonatomic) _Bool hasSubjectCountStatsStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *listIdStats; // @synthesize listIdStats=_listIdStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *mailboxStats; // @synthesize mailboxStats=_mailboxStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *mailboxTypeStats; // @synthesize mailboxTypeStats=_mailboxTypeStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *personCCRecipientsStats; // @synthesize personCCRecipientsStats=_personCCRecipientsStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *personFromSenderInDyadicConversationStats; // @synthesize personFromSenderInDyadicConversationStats=_personFromSenderInDyadicConversationStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *personFromSenderStats; // @synthesize personFromSenderStats=_personFromSenderStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *personToRecipientsStats; // @synthesize personToRecipientsStats=_personToRecipientsStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *standardMailRulesStats; // @synthesize standardMailRulesStats=_standardMailRulesStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *subjectContentStats; // @synthesize subjectContentStats=_subjectContentStats;
-@property(retain, nonatomic) SGMIMetricsSubmodelStats *subjectCountStatsStats; // @synthesize subjectCountStatsStats=_subjectCountStatsStats;
 
 @end
 

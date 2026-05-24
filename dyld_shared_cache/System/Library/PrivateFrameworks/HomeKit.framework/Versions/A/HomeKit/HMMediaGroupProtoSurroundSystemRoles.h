@@ -9,15 +9,12 @@
 @interface HMMediaGroupProtoSurroundSystemRoles
 {
     NSString *_frontLeftDestinationIdentifier;
-    NSString *_frontRightDestinationIdentifier;
-    NSString *_rearLeftDestinationIdentifier;
-    NSString *_rearRightDestinationIdentifier;
 }
 
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -26,26 +23,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)waterski;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)¤;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *frontLeftDestinationIdentifier; // @synthesize frontLeftDestinationIdentifier=_frontLeftDestinationIdentifier;
-@property(retain, nonatomic) NSString *frontRightDestinationIdentifier; // @synthesize frontRightDestinationIdentifier=_frontRightDestinationIdentifier;
 @property(readonly, nonatomic) _Bool hasFrontLeftDestinationIdentifier;
-@property(readonly, nonatomic) _Bool hasFrontRightDestinationIdentifier;
-@property(readonly, nonatomic) _Bool hasRearLeftDestinationIdentifier;
-@property(readonly, nonatomic) _Bool hasRearRightDestinationIdentifier;
-@property(retain, nonatomic) NSString *rearLeftDestinationIdentifier; // @synthesize rearLeftDestinationIdentifier=_rearLeftDestinationIdentifier;
-@property(retain, nonatomic) NSString *rearRightDestinationIdentifier; // @synthesize rearRightDestinationIdentifier=_rearRightDestinationIdentifier;
 
 @end
 

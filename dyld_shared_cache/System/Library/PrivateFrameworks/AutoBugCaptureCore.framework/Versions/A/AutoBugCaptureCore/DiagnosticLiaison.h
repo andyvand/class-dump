@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PrimaryInterfaceUtils;
-@protocol DiagnosticLiaisonDelegate, OS_dispatch_queue;
+@class NSObject, PrimaryInterfaceUtils;
+@protocol OS_dispatch_queue;
 
 @interface DiagnosticLiaison
 {
     PrimaryInterfaceUtils *_interfaceUtils;
-    id <DiagnosticLiaisonDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -31,30 +29,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)rgeInfo:(id)arg1;
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <DiagnosticLiaisonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

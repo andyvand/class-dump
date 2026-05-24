@@ -11,7 +11,7 @@
     NSDictionary *_trialClientDict;
 }
 
-+ (id)Frames;
++ (id)_numberOfVoicingFrames;
 - (_Bool);
 - (id);
 - (void);

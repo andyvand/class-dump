@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreDialogResponse, ICURLAggregatedPerformanceMetrics, NSDate, NSDictionary, NSError;
+@class NSDate, NSDictionary;
 
 @interface ICRadioResponse
 {
     NSDate *_expirationDate;
-    ICURLAggregatedPerformanceMetrics *_performanceMetrics;
-    NSDictionary *_responseDictionary;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)invalid:%@, skipping iuob check /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -30,12 +28,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *contentDictionary;
-@property(readonly, copy, nonatomic) ICStoreDialogResponse *dialog;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics; // @synthesize performanceMetrics=_performanceMetrics;
-@property(readonly, copy, nonatomic) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly, copy, nonatomic) NSError *serverError;
-@property(readonly, nonatomic) long long version;
 
 @end
 

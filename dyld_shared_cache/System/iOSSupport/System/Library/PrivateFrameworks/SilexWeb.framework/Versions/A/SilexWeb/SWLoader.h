@@ -9,17 +9,15 @@
 @interface SWLoader
 {
     NSURL *_URL;
-    CDUnknownBlockType _loadBlock;
 }
 
 + (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) CDUnknownBlockType loadBlock; // @synthesize loadBlock=_loadBlock;
 
 @end

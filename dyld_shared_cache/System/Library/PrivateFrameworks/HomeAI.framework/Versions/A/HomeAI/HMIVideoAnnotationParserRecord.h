@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HMIVideoAnnotationParserRecord
 {
     double _timeStamp;
-    struct CGRect _boundingBox;
 }
 
 - (id);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly) double timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator, NSString;
+@class NSArray, NSString;
 
 @interface NSPersistentContainer
 {
     NSArray *_storeDescriptions;
-    NSString *_name;
-    NSManagedObjectContext *_viewContext;
-    NSPersistentStoreCoordinator *_storeCoordinator;
 }
 
 + (id);
@@ -19,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)@;
 + (id);
 + (id);
 + (Class);
@@ -40,11 +37,7 @@
 - (id)éÐÿ;
 
 // Remaining properties
-@property(readonly) NSManagedObjectModel *managedObjectModel;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_storeCoordinator;
-@property(copy) NSArray *persistentStoreDescriptions;
-@property(readonly) NSManagedObjectContext *viewContext; // @synthesize viewContext=_viewContext;
 
 @end
 

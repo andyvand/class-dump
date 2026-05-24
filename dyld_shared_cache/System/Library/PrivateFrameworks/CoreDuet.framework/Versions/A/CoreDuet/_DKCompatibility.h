@@ -7,7 +7,6 @@
 @interface _DKCompatibility
 {
     long long _min;
-    long long _max;
 }
 
 + (id);
@@ -15,8 +14,8 @@
 + (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)8#;
+- (void)8@"MTLIndirectCommandBufferDescriptor"16Q24Q32;
 - (id);
 - (unsigned long long);
 - (id);
@@ -25,7 +24,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long max; // @synthesize max=_max;
 @property(nonatomic) long long min; // @synthesize min=_min;
 
 @end

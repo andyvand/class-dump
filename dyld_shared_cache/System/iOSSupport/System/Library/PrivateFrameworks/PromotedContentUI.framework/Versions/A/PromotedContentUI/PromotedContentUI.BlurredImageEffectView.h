@@ -7,12 +7,11 @@
 @interface PromotedContentUI.BlurredImageEffectView
 {
     id imageView;
-    id blurView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)@;
 
 @end
 

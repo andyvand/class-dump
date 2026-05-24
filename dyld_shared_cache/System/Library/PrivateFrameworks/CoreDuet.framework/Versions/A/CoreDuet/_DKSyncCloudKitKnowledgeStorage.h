@@ -4,70 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, CKContainer, CKServerChangeToken, NSHashTable, NSMutableDictionary, NSMutableSet, NSOperation, NSString, _CDPeriodicSchedulerJob, _DKSyncPeerStatusTracker, _DKThrottledActivity;
-@protocol _DKKeyValueStore, _DKSyncRemoteKnowledgeStorageFetchDelegate;
-
 @interface _DKSyncCloudKitKnowledgeStorage
 {
     _Bool _started;
-    id <_DKKeyValueStore> _keyValueStore;
-    _DKThrottledActivity *_activityThrottler;
-    _DKSyncPeerStatusTracker *_tracker;
-    _CDPeriodicSchedulerJob *_updateSourceDeviceIdentifiersPeriodicJob;
-    _Bool _cloudSyncAvailablityObserverRegistered;
-    CKContainer *_container;
-    APSConnection *_connection;
-    double _updateSourceDeviceIdentifiersBackoffTimeInterval;
-    NSMutableDictionary *_zoneIDsBySourceDeviceID;
-    NSMutableDictionary *_recordZonesByZoneID;
-    _Bool _databaseChangesExist;
-    _Bool _isPrewarmed;
-    NSMutableSet *_zoneIDsWithAdditionChanges;
-    NSMutableSet *_zoneIDsWithDeletionChanges;
-    NSMutableSet *_zoneIDsWithUnrecoverableDecryptionErrors;
-    CKServerChangeToken *_fetchDatabaseChangesServerChangeToken;
-    NSOperation *_previousDependentOperation;
-    NSHashTable *_outstandingOperations;
-    _Bool _available;
-    id <_DKSyncRemoteKnowledgeStorageFetchDelegate> _delegate;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
+- (void)&;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)?soo?sos?sos?sot?sotCso Cso%Cso-Cso.Cso/Cso3Cso4Cso5Cso6Cso7Cso8Cso9Cso=CsoACso_CsobCsodCsofCsogCsohCsolCsomCsonCsopCsorCsou*so;
 - (void);
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
-- (long long): /* Error: Ran out of types for this method. */;
-- (void)nts;
+- (long long)predicateForEventsWithCreationInDateRangeFromAfter:to: /* Error: Ran out of types for this method. */;
+- (void)_didDeleteSyncedEvents;
 - (void)le %{public}@ is already in persistedDisabledBundles; skipping;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

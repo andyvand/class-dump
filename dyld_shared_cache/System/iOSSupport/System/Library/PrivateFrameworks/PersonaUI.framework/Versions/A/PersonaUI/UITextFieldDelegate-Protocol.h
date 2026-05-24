@@ -5,5 +5,10 @@
 //
 
 @protocol UITextFieldDelegate
+
+@optional
+- (_Bool);
+- (void)Ԫ#;
+- (void)T`";
 @end
 

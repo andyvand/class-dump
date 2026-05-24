@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
+
+@optional
+- (_Bool)(=;
+- (_Bool)_pluginPayloadAttachmentPathsForMessage:(UIGestureRecognizer *)arg1;
 @end
 

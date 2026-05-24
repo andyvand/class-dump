@@ -10,13 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _UINavigationBarHostedViewContainer : _UITouchPassthroughView
 {
     id hostedViews;
-    id wrapperViews;
-    id disappearingViews;
-    id temporaryViews;
 }
 
 - (id);
-- (id)rView;
+- (id)UITableViewWrapperView;
 - (void)k;
 
 @end

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKTapbackViewDelegate;
-
 @interface CKTapbackGlyphView
 {
     double attributionScaleFactor;
-    struct UIEdgeInsets platterEdgeInsets;
-    void delegate;
-    _Bool isSelected;
 }
 
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
+- (void)tag;
+- (struct UIEdgeInsets)agedObject<ICFolderObject>",R,C,N;
+- (void)@"ICNote",R,W,N,V_note;
+- (void)",N,&,Vnote;
+- (void)kableTextView;
 - (double);
 - (void);
 - (void);
@@ -26,15 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_didAddRecipientFromTypedQuery;
 - (void)ì®#ÿ1$;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected;
-@property(nonatomic, readonly) struct UIEdgeInsets platterEdgeInsets; // @synthesize platterEdgeInsets;
 
 @end
 

@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSMutableData, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface SiriUIURLSessionImageDownload
 {
     struct CGSize _fitToSize;
-    NSMutableData *_downloadedData;
-    CDUnknownBlockType _progressHandler;
-    id _client;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_renderTimer;
-    _Bool _newDataAvailableToRender;
-    struct CGImageSource *_imageSource;
-    unsigned long long _lastUpdatedLength;
-    _Bool _finished;
-    _Bool _hasSentFinished;
-    NSColor *_backgroundFillColor;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)sVisualEffects;
 - (void)0@ù
 × ;
 

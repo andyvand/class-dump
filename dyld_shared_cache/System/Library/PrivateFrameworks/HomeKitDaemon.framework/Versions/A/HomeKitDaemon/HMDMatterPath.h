@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, MTRAttributePath, MTRClusterPath, MTRCommandPath, MTREventPath, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterPath
 {
     NSUUID *_uuid;
-    HMDAccessory *_accessory;
-    MTRClusterPath *_clusterPath;
-    MTRAttributePath *_attributePath;
-    MTRCommandPath *_commandPath;
-    MTREventPath *_eventPath;
 }
 
 + (id);
@@ -23,7 +18,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool)°EiøMjHO¼P;
 + (id)B;
-- (void);
+- (void)containerURLForSecurityApplicationGroupIdentifier:(id)arg1;
+- (id)Bookmark;
+- (id)mFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
 - (id);
 - (id);
 - (id);
@@ -34,45 +31,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)orientation of %u;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (id);
-- (id)device:(struct _NSZone *)arg1 delegate:idsProxyStreamService: /* Error: Ran out of types for this method. */;
+- (id)initWithSessionInfo:(struct _NSZone *)arg1 workQueue:device:delegate:idsProxyStreamService: /* Error: Ran out of types for this method. */;
 - (id)_TtC13HomeKitDaemon12ProfilePhoto;
 - (id)Dà§(©\ª«à­°4±èµ · ¸Ô¹tº;
 - (void)è;
 - (id)nt. Creating home is not allowed.;
 - (id)g failed. event:%@ error:%@ /* Error: Ran out of types for this method. */;
 - (void)participant from share:(id)arg1 No equal participant exists on the share;
-- (void)oldEnd;
+- (void)AutomatedHoldEnd;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) NSNumber *attributeID;
-@property(readonly, nonatomic) MTRAttributePath *attributePath; // @synthesize attributePath=_attributePath;
-@property(readonly, nonatomic) NSNumber *clusterID;
-@property(readonly, nonatomic) MTRClusterPath *clusterPath; // @synthesize clusterPath=_clusterPath;
-@property(readonly, nonatomic) NSNumber *commandID;
-@property(readonly, nonatomic) MTRCommandPath *commandPath; // @synthesize commandPath=_commandPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSNumber *endpointID;
-@property(readonly, nonatomic) NSNumber *eventID;
-@property(readonly, nonatomic) MTREventPath *eventPath; // @synthesize eventPath=_eventPath;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

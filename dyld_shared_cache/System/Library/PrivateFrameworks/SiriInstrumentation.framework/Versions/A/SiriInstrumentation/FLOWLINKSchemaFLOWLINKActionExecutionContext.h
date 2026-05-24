@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionExecutionEnded, FLOWLINKSchemaFLOWLINKActionExecutionStarted, NSData;
+@class FLOWLINKSchemaFLOWLINKActionExecutionStarted;
 
 @interface FLOWLINKSchemaFLOWLINKActionExecutionContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionExecutionStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLINKActionExecutionEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -22,31 +18,26 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)tailspin_dump_option_min_trace_buffer_duration_sec;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)caseInsensitiveCompare:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Failed";
-- (id)xt;
+- (id)SUTSchemaTestContext;
 - (id)HØ pH;
 - (void)2t­ï/%;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionExecutionEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionExecutionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

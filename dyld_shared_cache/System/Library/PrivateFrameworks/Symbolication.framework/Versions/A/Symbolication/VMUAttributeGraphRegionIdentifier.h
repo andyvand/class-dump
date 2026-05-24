@@ -7,14 +7,13 @@
 @interface VMUAttributeGraphRegionIdentifier
 {
     unsigned long long attributeGraphVMRegionBaseAddress;
-    id oldAttributeGraphVMRegionBaseAddresses;
 }
 
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)d;
+- (void)nimation complete — notifying clients;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long attributeGraphVMRegionBaseAddress; // @synthesize attributeGraphVMRegionBaseAddress;

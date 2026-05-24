@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABRecordContext, NSMutableDictionary;
+@class ABRecordContext;
 
 @interface ABImportRecordFactory
 {
     ABRecordContext *_recordContext;
-    NSMutableDictionary *_importedUidMap;
 }
 
 - (id);

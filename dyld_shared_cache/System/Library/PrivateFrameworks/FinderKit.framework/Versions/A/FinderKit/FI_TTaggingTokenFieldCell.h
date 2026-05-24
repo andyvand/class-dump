@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TTaggingTokenFieldCell
 {
     NSObject *_objectValue;
-    _Bool _didAddLastTagPlaceholder;
 }
 
 - (double);
@@ -18,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGSize);
+- (id)unemphasizedSelectedContentBackgroundColor;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)P;
+- (id){;
 - (void);
 
 @end

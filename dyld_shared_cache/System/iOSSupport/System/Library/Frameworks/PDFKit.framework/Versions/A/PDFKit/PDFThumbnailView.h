@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PDFView, UIColor, UIView;
-@protocol PDFThumbnailCollectionViewInterface, PDFThumbnailContextMenuDelegate, PDFThumbnailDataSourceDelegate, PDFThumbnailIconsViewProtocol;
+@class PDFView;
+@protocol PDFThumbnailContextMenuDelegate;
 
 @interface PDFThumbnailView
 {
     PDFView *_pdfView;
-    struct CGSize _thumbnailSize;
-    UIColor *_backgroundColor;
-    long long _layoutMode;
-    struct UIEdgeInsets _contentInset;
-    UIView<PDFThumbnailCollectionViewInterface> *_iconsView;
-    long long _style;
-    id <PDFThumbnailContextMenuDelegate> thumbnailContextMenuDelegate;
-    id <PDFThumbnailDataSourceDelegate> _thumbnailDataSourceDelegate;
 }
 
 - (id);
@@ -37,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
@@ -45,11 +37,11 @@
 - (void);
 - (id);
 - (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)ected strokes;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
@@ -58,16 +50,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak PDFView *PDFView;
-@property(nonatomic) _Bool allowsPageReordering;
-@property(copy, nonatomic) UIColor *backgroundColor;
-@property(nonatomic) struct UIEdgeInsets contentInset;
-@property(nonatomic) long long layoutMode;
-@property(readonly, nonatomic) NSArray *selectedPages;
 @property(nonatomic) __weak id <PDFThumbnailContextMenuDelegate> thumbnailContextMenuDelegate; // @synthesize thumbnailContextMenuDelegate;
-@property(nonatomic) __weak id <PDFThumbnailDataSourceDelegate> thumbnailDataSourceDelegate; // @synthesize thumbnailDataSourceDelegate=_thumbnailDataSourceDelegate;
-@property(readonly, nonatomic) id <PDFThumbnailIconsViewProtocol> thumbnailIconsView;
-@property(nonatomic) struct CGSize thumbnailSize;
 
 @end
 

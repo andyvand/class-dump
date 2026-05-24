@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, TUDelegateController;
+@class TUDelegateController;
 @protocol TUKeyValueDataSource><TUMutableKeyValueDataSource;
 
 @interface TUConfiguration
 {
     id <TUKeyValueDataSource><TUMutableKeyValueDataSource> _dataSource;
-    TUDelegateController *_delegateController;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)S;
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -25,27 +24,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)_clientHelpers;
 - (id)or"24;
-- (void)eldModeDigits:forProvider: /* Error: Ran out of types for this method. */;
+- (void)sendFieldModeDigits:forProvider: /* Error: Ran out of types for this method. */;
 - (void)tyVoiceWithMedia;
-- (id)dReason;
+- (id)disconnectedReason;
 
 // Remaining properties
-@property(nonatomic) unsigned long long announceCalls;
-@property(retain, nonatomic) NSURL *conversationLinkBaseURL;
-@property(retain, nonatomic) NSString *conversationLinkBaseURLString;
-@property(readonly, nonatomic) id <TUKeyValueDataSource><TUMutableKeyValueDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) TUDelegateController *delegateController; // @synthesize delegateController=_delegateController;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool simulateFatalPersistentStoreError;
-@property(nonatomic) _Bool simulateInternationalCall;
-@property(readonly) Class superclass;
 
 @end
 

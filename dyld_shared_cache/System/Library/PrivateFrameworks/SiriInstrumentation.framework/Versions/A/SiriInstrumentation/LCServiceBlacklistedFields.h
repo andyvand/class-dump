@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface LCServiceBlacklistedFields : SISchemaInstrumentationMessage
 {
@@ -18,24 +18,23 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)J;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)!PFù±ß°1Â0@ù
 × ;
-- (id)ion;
+- (id)mediaSuggestion;
 - (id)SUTSchemaTestGeneratedTurnID;
 - (void)1;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *blackListedFields; // @synthesize blackListedFields=_blackListedFields;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

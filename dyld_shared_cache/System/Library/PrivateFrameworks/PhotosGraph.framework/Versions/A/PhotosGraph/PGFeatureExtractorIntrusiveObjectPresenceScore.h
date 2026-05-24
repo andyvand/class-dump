@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)entPeopleWallpaperSuggester;
+- (id)requestTranslatingWebpageToLocale:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGAmbientPeopleWallpaperSuggester;
 
 @end
 

@@ -7,6 +7,7 @@
 @class INSpeakableString;
 
 @protocol INEndWorkoutIntentExport
+- (INSpeakableString *);
 
 // Remaining properties
 @property(copy) INSpeakableString *workoutName;

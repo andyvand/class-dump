@@ -7,38 +7,33 @@
 #import <Catalyst/CATOperation.h>
 
 @class CATTaskRequest, NSUUID;
-@protocol CATTaskOperationNotificationDelegate;
 
 @interface CATTaskOperation : CATOperation
 {
     CATTaskRequest *_request;
-    id <CATTaskOperationNotificationDelegate> _notificationDelegate;
-    NSUUID *_remoteUUID;
 }
 
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)setCropInfo:smallIcon: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)m;
 - (id);
 - (void);
-- (void);
+- (void)catalogURL;
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)le_client;
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <CATTaskOperationNotificationDelegate> notificationDelegate; // @synthesize notificationDelegate=_notificationDelegate;
 @property(copy, nonatomic) NSUUID *remoteUUID; // @synthesize remoteUUID=_remoteUUID;
-@property(readonly, nonatomic) CATTaskRequest *request; // @synthesize request=_request;
 
 @end
 

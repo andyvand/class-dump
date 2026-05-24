@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol NSCollectionLayoutContainer, _NSDataSourceSnapshotTranslating;
+@protocol NSCollectionLayoutContainer;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionLayoutEnvironment
 {
     _Bool __wantsCollapsedTopSpacing;
-    id <NSCollectionLayoutContainer> _container;
-    NSObject *_traitCollection;
-    id <_NSDataSourceSnapshotTranslating> __dataSourceSnapshot;
-    long long __sectionIndex;
 }
 
 - (id);
@@ -26,25 +21,14 @@ __attribute__((visibility("hidden")))
 - (void)0@ù
 × ;
 - (void)ô;
-- (void)EnableTextInputContextBasedAutoFill;
+- (void)NSEnableTextInputContextBasedAutoFill;
 - (id)ì°L@;
 - (void)Ùÿ¤IÈC;
 - (id)õ¸65G;
 - (void)u»ÿ>&ÀrI;
 
 // Remaining properties
-@property(retain, nonatomic) id <_NSDataSourceSnapshotTranslating> _dataSourceSnapshot; // @synthesize _dataSourceSnapshot=__dataSourceSnapshot;
-@property(nonatomic) long long _sectionIndex; // @synthesize _sectionIndex=__sectionIndex;
-@property(nonatomic) _Bool _wantsCollapsedTopSpacing; // @synthesize _wantsCollapsedTopSpacing=__wantsCollapsedTopSpacing;
 @property(retain, nonatomic) id <NSCollectionLayoutContainer> container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

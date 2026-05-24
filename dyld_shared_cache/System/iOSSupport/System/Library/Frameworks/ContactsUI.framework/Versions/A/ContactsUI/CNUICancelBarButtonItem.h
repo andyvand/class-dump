@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)addIDSServiceAvailabilityListener:selector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType didTapHandler; // @synthesize didTapHandler=_didTapHandler;

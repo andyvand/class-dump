@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPMLDB, CPMLSchema, CPMLStorageManager, NSDictionary;
-@protocol CPMLAlgorithmProtocol;
-
 @interface CPMLTrainer
 {
     _Bool shouldFail;
-    struct sqlite3 *modelDB;
-    NSDictionary *modelPlist;
-    CPMLDB *cpmlDB;
-    struct CPMLCDB *cpCDB;
-    struct CPMLAlgorithm *cpMLAlgo;
-    void *cpRemapper;
-    CPMLSchema *cpmlSchema;
-    void *trainerCPStatistics;
-    struct CPMLSerialization *trainerCPSerializer;
-    struct CPMLTunableData *cpTuneableData;
-    int mapFunction;
-    struct CPMLDelegate *_cpmlDelegate;
-    CPMLStorageManager *_storageManager;
-    id <CPMLAlgorithmProtocol> _theDelegate;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)SArray"24@0:(_Bool)arg1 8@"NSPasteboard"16;
+- (id)0:(id)arg1 8;
+- (id)ViewSeparatorTrackingAdapter>"16;
+- (id)cumentBrowserViewController>"16@0:(id)arg1 8;
+- (void)16@"NSTouch"24;
 - (void);
 - (void);
 

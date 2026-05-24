@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSData;
 
 @interface DESMMappedFile
 {
     NSData *_data;
-    NSURL *_fileURL;
 }
 
-- (int);
+- (int)didate.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
 - (void *);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 
 @end
 

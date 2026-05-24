@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBUserProofingEvent
 {
     double _absoluteTimestamp;
-    NSString *_age;
-    NSString *_deviceLanguage;
-    NSString *_ethnicity;
-    NSString *_gender;
-    NSString *_gestureAssessment;
-    NSString *_issuer;
-    NSString *_livenessAssessment;
-    NSString *_proofingDecision;
-    NSString *_skinTone;
-    CDStruct_d3e759b0 _has;
 }
 
 - (void);
@@ -28,12 +16,12 @@
 - (void);
 - (id);
 - (id);
+- (_Bool).;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
 - (id);
@@ -41,17 +29,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)atDescription failed;
+- (id)ger to VCCallsession with callID=%d (in VideoConference) <<<<<;
 - (id);
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)@9h;
 - (id);
 - (_Bool);
 - (id);
@@ -64,26 +52,7 @@
 - (void)þÿ+,-./012;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *age; // @synthesize age=_age;
-@property(retain, nonatomic) NSString *deviceLanguage; // @synthesize deviceLanguage=_deviceLanguage;
-@property(retain, nonatomic) NSString *ethnicity; // @synthesize ethnicity=_ethnicity;
-@property(retain, nonatomic) NSString *gender; // @synthesize gender=_gender;
-@property(retain, nonatomic) NSString *gestureAssessment; // @synthesize gestureAssessment=_gestureAssessment;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasAge;
-@property(readonly, nonatomic) _Bool hasDeviceLanguage;
-@property(readonly, nonatomic) _Bool hasEthnicity;
-@property(readonly, nonatomic) _Bool hasGender;
-@property(readonly, nonatomic) _Bool hasGestureAssessment;
-@property(readonly, nonatomic) _Bool hasIssuer;
-@property(readonly, nonatomic) _Bool hasLivenessAssessment;
-@property(readonly, nonatomic) _Bool hasProofingDecision;
-@property(readonly, nonatomic) _Bool hasSkinTone;
-@property(retain, nonatomic) NSString *issuer; // @synthesize issuer=_issuer;
-@property(retain, nonatomic) NSString *livenessAssessment; // @synthesize livenessAssessment=_livenessAssessment;
-@property(retain, nonatomic) NSString *proofingDecision; // @synthesize proofingDecision=_proofingDecision;
-@property(retain, nonatomic) NSString *skinTone; // @synthesize skinTone=_skinTone;
 
 @end
 

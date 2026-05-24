@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MSAttachment
 {
     _Bool _isReferenced;
-    NSData *_data;
-    NSString *_filename;
-    NSString *_contentIDWithoutScheme;
 }
 
 + (_Bool);
@@ -22,18 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)chFeedRequest] [Full Fetch] Starting;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Delegate"@"<PKPhysicsContactDelegate>"};
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contentIDWithoutScheme; // @synthesize contentIDWithoutScheme=_contentIDWithoutScheme;
-@property(copy) NSData *data; // @synthesize data=_data;
-@property(copy) NSString *filename; // @synthesize filename=_filename;
-@property _Bool isReferenced; // @synthesize isReferenced=_isReferenced;
 
 @end
 

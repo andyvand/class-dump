@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     NSArray *_effects;
 }
 
-+ (_Bool)WritingToolsAllowedInputOptions;
++ (_Bool)UIWritingToolsAllowedInputOptions;
 - (id);
 - (long long);
-- (void);
+- (void)hF;
 - (id);
-- (id);
-- (id);
+- (id)  ;
+- (id)24q28;
 - (unsigned long long);
 - (_Bool);
-- (_Bool)Value:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)setUIKitScalarValue:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)n;
+- (_Bool)direction;
 - (void)ñG×#`;
 
 @end

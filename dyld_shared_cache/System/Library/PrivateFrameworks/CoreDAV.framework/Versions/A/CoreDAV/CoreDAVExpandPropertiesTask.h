@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (void);
+- (void)9h;
+- (id)_titleDateContainer;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

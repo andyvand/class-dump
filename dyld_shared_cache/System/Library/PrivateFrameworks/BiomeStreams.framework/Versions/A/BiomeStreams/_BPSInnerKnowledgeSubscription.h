@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DKEventQuery;
-@protocol BPSSubscriber, _DKKnowledgeQuerying;
+@protocol BPSSubscriber;
 
 @interface _BPSInnerKnowledgeSubscription
 {
     struct os_unfair_lock_s _lock;
-    _Bool _recursion;
-    id <BPSSubscriber> _downstream;
-    id <_DKKnowledgeQuerying> _knowledgeStore;
-    _DKEventQuery *_query;
-    long long _pendingDemand;
-    id _next;
-    long long _offset;
-    long long _remaining;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)I);
 - (id);
 - (void);
 - (void);
@@ -35,7 +26,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)t	;
 - (void)tuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³ ´µ¶¡¢·¸¹º»¼½¾¿ÀÁÂÃÄÅÆ£ÇÈÉÊËÌÍÎ¤ÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝ¥Þßàáâãäåæçèé¦êëìíîïðñòóôõö÷øùúû§üýþÿ;
 - (long long),;
 - (void)ÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÿÿÿÿÿÿÿÿÿÿÞÿÿàáÿÿÿÿÿÿ;
@@ -44,13 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(retain, nonatomic) id <_DKKnowledgeQuerying> knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
-@property(retain, nonatomic) id next; // @synthesize next=_next;
-@property(nonatomic) long long offset; // @synthesize offset=_offset;
-@property(nonatomic) long long pendingDemand; // @synthesize pendingDemand=_pendingDemand;
-@property(retain, nonatomic) _DKEventQuery *query; // @synthesize query=_query;
-@property(nonatomic) _Bool recursion; // @synthesize recursion=_recursion;
-@property(nonatomic) long long remaining; // @synthesize remaining=_remaining;
 
 @end
 

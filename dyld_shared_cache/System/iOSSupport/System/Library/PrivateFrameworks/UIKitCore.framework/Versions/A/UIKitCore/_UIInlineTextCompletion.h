@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIKeyboardCandidate;
+@class TIKeyboardCandidate;
 
 __attribute__((visibility("hidden")))
 @interface _UIInlineTextCompletion
@@ -14,20 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)joinChat:(id)arg1 handleInfo:(id)arg2 style:groupID:joinProperties: /* Error: Ran out of types for this method. */;
 - (id)áÐ! BùQb1Â0@ù
 × ;
 - (id)
 × ;
 - (id)iguration",&,N,S_setSheetConfiguration:,V__sheetConfiguration /* Error: Ran out of types for this method. */;
 - (id),N,V_leadingBar;
-- (void)tationMode;
+- (void)UIApplicationSceneInterfaceOrientationMode;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *candidate;
 @property(readonly, copy, nonatomic) TIKeyboardCandidate *completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) NSString *input;
-@property(readonly, copy, nonatomic) TIKeyboardCandidate *source; // @synthesize source=_source;
 
 @end
 

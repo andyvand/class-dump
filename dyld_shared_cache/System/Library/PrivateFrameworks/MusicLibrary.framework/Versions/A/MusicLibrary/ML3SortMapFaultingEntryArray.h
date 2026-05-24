@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, NSMutableDictionary;
+@class ML3DatabaseConnection;
 
 __attribute__((visibility("hidden")))
 @interface ML3SortMapFaultingEntryArray
 {
     ML3DatabaseConnection *_connection;
-    NSMutableDictionary *_dirtyInserts;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)I;
 - (void);
 - (void);
 - (unsigned long long);

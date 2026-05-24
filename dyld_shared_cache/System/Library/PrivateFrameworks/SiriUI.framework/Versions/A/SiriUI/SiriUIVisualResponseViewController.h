@@ -6,25 +6,22 @@
 
 #import <SiriUI/SiriUISnippetViewController.h>
 
-@class NSString, NSView;
+@class NSView;
 @protocol VRXVisualResponse;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIVisualResponseViewController : SiriUISnippetViewController
 {
     struct CGSize _lastContentSize;
-    _Bool _stoleKeyWindow;
-    _Bool _isPresentedWithSmartDialogText;
-    NSView<VRXVisualResponse> *_visualResponse;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (double);
@@ -35,20 +32,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)!;
+- (void);
 - (void);
 - (void)Áx!(GùQ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) NSView<VRXVisualResponse> *visualResponse; // @synthesize visualResponse=_visualResponse;
 
 @end

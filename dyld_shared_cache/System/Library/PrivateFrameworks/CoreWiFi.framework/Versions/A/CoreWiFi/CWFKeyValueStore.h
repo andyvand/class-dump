@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUbiquitousKeyValueStore;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CWFKeyValueStore
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSUbiquitousKeyValueStore *_ubiquitousKVS;
-    _Bool _activated;
-    long long _type;
-    NSString *_identifier;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (void);
@@ -43,10 +36,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isActivated) _Bool activated; // @synthesize activated=_activated;
-@property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

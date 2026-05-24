@@ -7,8 +7,6 @@
 @interface NewsFeed.FeaturePromotionViewModelFactory
 {
     id stringFactory;
-    id imageFactory;
-    id commandCenter;
 }
 
 @end

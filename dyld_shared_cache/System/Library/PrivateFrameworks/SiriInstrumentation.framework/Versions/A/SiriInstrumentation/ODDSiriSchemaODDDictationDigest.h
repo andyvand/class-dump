@@ -6,21 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDDictationCounts, ODDSiriSchemaODDDictationDimensions;
+@class ODDSiriSchemaODDDictationDimensions;
 
 @interface ODDSiriSchemaODDDictationDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDDictationDimensions *_dimensions;
-    ODDSiriSchemaODDDictationCounts *_counts;
-    NSArray *_turnIds;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)i;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,7 +29,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ead boot-uuid in order to locate personalized data root..bailing
+;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -43,17 +40,12 @@
 - (id)0@ù
 × ;
 - (id)registerMediaDurationInSeconds;
-- (id)SinceAppLastLaunched;
+- (id)_numMinutesSinceAppLastLaunched;
 - (id)pple.aiml.siri.nlx.NLXClientEvent.NLXLegacyNLContextTier1;
 - (void)marrsContextualSpanMatcherEndedTier1;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDDictationCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDDictationDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *turnIds; // @synthesize turnIds=_turnIds;
 
 @end
 

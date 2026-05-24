@@ -9,9 +9,6 @@
 @interface NTPBPersonalizedTodaySectionSpecificConfig
 {
     unsigned long long _maxArticlesShown;
-    NSMutableArray *_mandatoryArticles;
-    NSMutableArray *_personalizedArticles;
-    CDStruct_df5cdcef _has;
 }
 
 + (Class);
@@ -25,11 +22,11 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
+- (unsigned long long)E BEHAVIOR:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (_Bool)ess;
 - (void);
 - (_Bool);
 - (void);
@@ -43,10 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMaxArticlesShown;
 @property(retain, nonatomic) NSMutableArray *mandatoryArticles; // @synthesize mandatoryArticles=_mandatoryArticles;
-@property(nonatomic) unsigned long long maxArticlesShown; // @synthesize maxArticlesShown=_maxArticlesShown;
-@property(retain, nonatomic) NSMutableArray *personalizedArticles; // @synthesize personalizedArticles=_personalizedArticles;
 
 @end
 

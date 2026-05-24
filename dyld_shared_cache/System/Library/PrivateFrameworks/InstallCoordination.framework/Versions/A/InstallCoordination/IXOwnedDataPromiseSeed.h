@@ -7,12 +7,10 @@
 #import <InstallCoordination/IXDataPromiseSeed.h>
 
 @class NSURL;
-@protocol MILocationProtocol;
 
 @interface IXOwnedDataPromiseSeed : IXDataPromiseSeed
 {
     NSURL *_stagingBaseDir;
-    id <MILocationProtocol> _location;
 }
 
 + (id);
@@ -29,7 +27,6 @@
 - (void)¸;
 
 // Remaining properties
-@property(retain, nonatomic) id <MILocationProtocol> location; // @synthesize location=_location;
 @property(retain, nonatomic) NSURL *stagingBaseDir; // @synthesize stagingBaseDir=_stagingBaseDir;
 
 @end

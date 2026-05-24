@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateComponents, NSString;
+@class NSString;
 
 @protocol HMTimerTriggerBuilderPrivate
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long recurrenceDays;
-@property(copy, nonatomic) NSArray *recurrences;
 @property(copy, nonatomic) NSString *significantEvent;
-@property(copy, nonatomic) NSDateComponents *significantEventOffset;
 @end
 

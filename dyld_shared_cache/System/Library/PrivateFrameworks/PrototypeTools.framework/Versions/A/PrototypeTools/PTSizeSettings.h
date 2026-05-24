@@ -9,22 +9,19 @@
 @interface PTSizeSettings : PTSettings
 {
     double _width;
-    double _height;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void)C�@;
 - (struct CGSize);
-- (id);
+- (id)u';
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)i;
 
 // Remaining properties
-@property(nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) struct CGSize sizeValue;
 @property(nonatomic) double width; // @synthesize width=_width;
 
 @end

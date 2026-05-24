@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSString;
 @protocol GEOCompletionItem;
 
 @interface MKLocalSearchCompletion
 {
     id <GEOCompletionItem> _item;
-    unsigned long long _serverSectionIndex;
-    unsigned long long _serverItemIndexInSection;
-    NSString *_sourceID;
-    NSString *_localizedSectionHeader;
-    MKMapItem *_mapItem;
-    _Bool _alreadySentFeedback;
-    _Bool _shouldDisplayNoResults;
-    _Bool _shouldEnableRAPForNoResults;
-    _Bool _supportsOfflineDownload;
-    MKLocalSearchCompletion *_directionIntentOrigin;
-    MKLocalSearchCompletion *_directionIntentDestination;
 }
 
 @end

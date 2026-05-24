@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFCommandReference;
+@class NSString;
 
 @interface RFPreview
 {
     NSString *_text;
-    SFCommandReference *_command_reference;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)itemPropertiesToFetch;
 - (unsigned long long);
-- (id);
+- (id)ameInWindow.height;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)er:(id)arg1;
+- (id)earchAttributes.adjustmentVersion;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandReference *command_reference; // @synthesize command_reference=_command_reference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

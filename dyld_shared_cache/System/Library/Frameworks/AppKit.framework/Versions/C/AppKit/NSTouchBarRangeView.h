@@ -11,34 +11,32 @@
 @interface NSTouchBarRangeView : NSView
 {
     NSColor *_tintColor;
-    unsigned long long _handleMask;
 }
 
-+ (struct CGSize);
-+ (id);
-- (_Bool);
++ (struct CGSize)6;
++ (id)pleted;
+- (_Bool)NULL;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (struct CGSize);
-- (double);
-- (void);
+- (double)_allowsResponseMonitoringDuringBodyTranmission;
+- (void)0d;
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (id):(struct CGRect)arg1;
-- (id)nBackgroundForKeyedState:underKey:forIdentifier:inWindow: /* Error: Ran out of types for this method. */;
+- (id)setRotationInDegrees:(struct CGRect)arg1;
+- (id)addObjectInBackgroundForKeyedState:underKey:forIdentifier:inWindow: /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets);
 - (void)ÆE;
 
 // Remaining properties
-@property unsigned long long handleMask; // @synthesize handleMask=_handleMask;
 @property(retain) NSColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end

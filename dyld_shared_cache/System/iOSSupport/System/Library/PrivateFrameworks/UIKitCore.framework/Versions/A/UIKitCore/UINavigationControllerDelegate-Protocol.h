@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINavigationController;
+@class UINavigationController, UIViewController;
 @protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning;
 
 @protocol UINavigationControllerDelegate
 
 @optional
-- (id <UIViewControllerAnimatedTransitioning>)leTypeIdentifiers:(UINavigationController *)arg1;
+- (void)tableView:(UINavigationController *)arg1 previewForDismissingContextMenuWithConfiguration:(UIViewController *)arg2;
+- (id <UIViewControllerAnimatedTransitioning>)addAcceptableTypeIdentifiers:(UINavigationController *)arg1;
 - (void)oard:(UINavigationController *)arg1 %s);
-- (id <UIViewControllerInteractiveTransitioning>)X;
+- (id <UIViewControllerInteractiveTransitioning>)setInputModeListFromLocationX;
 @end
 

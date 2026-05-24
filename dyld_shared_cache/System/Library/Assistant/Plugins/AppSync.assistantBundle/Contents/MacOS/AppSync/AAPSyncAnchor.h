@@ -9,29 +9,28 @@
 @interface AAPSyncAnchor
 {
     unsigned long long _mainIndex;
-    unsigned long long _subIndex;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
++ (id)E{;
++ (id);
 + (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)heD|;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)AXMapArea;
 - (void);
 - (id);
-- (long long);
+- (long long)Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *stringRepresentation;

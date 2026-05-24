@@ -17,21 +17,21 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (void)pointerAtIndex:(unsigned long long)arg1;
 - (void);
-- (void);
-- (void);
+- (void)F;
 - (void);
 - (double);
 - (double);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void)oment at %s;
-- (id)ringContextMaximumLowLightScore;
+- (id)PGSinglePersonWallpaperAssetSuggesterFilteringContextMaximumLowLightScore;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol NAPlayingAudioInfoProviding
+- (id)own;
 
 // Remaining properties
 @property(nonatomic, readonly) id currentlyPlaying;

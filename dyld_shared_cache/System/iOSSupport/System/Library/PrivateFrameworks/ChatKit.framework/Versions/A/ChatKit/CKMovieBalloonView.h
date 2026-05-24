@@ -6,48 +6,39 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class AVPlayer, AVPlayerItem, AVPlayerLayer, CKMovieMediaObject, ChatKit.CKBalloonMaskLayer;
-@protocol CKMovieBalloonViewDelegate;
+@class AVPlayerItem, CKMovieMediaObject;
 
 @interface CKMovieBalloonView : CKImageBalloonView
 {
     CKMovieMediaObject *_mediaObject;
-    AVPlayerItem *_avPlayerItem;
-    AVPlayer *_avPlayer;
-    AVPlayerLayer *_avPlayerLayer;
-    ChatKit.CKBalloonMaskLayer *_videoPlayerMaskLayer;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)rangeInOriginalStringCorrespondingToRange: /* Error: Ran out of types for this method. */;
+- (void)rangeHasOrNeedsHighlights:(id)arg1 inTextStorage: /* Error: Ran out of types for this method. */;
+- (void)coalescingUndoGroupForStringDelegate;
+- (void)_tokens;
+- (void)_textZoomFactor;
+- (void),V_rippler;
 - (_Bool);
+- (id));
+- (void);
+- (void)I;
+- (id)der;
+- (id)was removed from the folder;
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)
+;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=setAVPlayer:) AVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;
 @property(retain, nonatomic, setter=setAVPlayerItem:) AVPlayerItem *avPlayerItem; // @synthesize avPlayerItem=_avPlayerItem;
-@property(retain, nonatomic, setter=setAVPlayerLayer:) AVPlayerLayer *avPlayerLayer; // @synthesize avPlayerLayer=_avPlayerLayer;
-@property(nonatomic) __weak id <CKMovieBalloonViewDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) CKMovieMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *videoPlayerMaskLayer; // @synthesize videoPlayerMaskLayer=_videoPlayerMaskLayer;
 
 @end
 

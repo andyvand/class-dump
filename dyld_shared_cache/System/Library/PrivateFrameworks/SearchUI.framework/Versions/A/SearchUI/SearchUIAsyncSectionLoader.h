@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SFSearchResult;
+@class NSArray;
 @protocol SearchUIAsyncSectionLoaderDelegate;
 
 @interface SearchUIAsyncSectionLoader
 {
     id <SearchUIAsyncSectionLoaderDelegate> _delegate;
-    SFSearchResult *_searchResult;
-    unsigned long long _queryId;
-    NSArray *_objectCache;
-    NSString *_sectionIdentifier;
 }
 
 + (_Bool);
@@ -29,23 +25,19 @@
 - (void);
 - (void);
 - (id);
+- (id)nyDemand;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)%@, characteristicType=%@, characteristicProperties=%@, userDescription=%@, bluetoothFormat=%@, validRange=%@, stepValue=%@, validValues=%@, validValuesRange=%@>;
 - (void);
 - (id);
-- (void);
+- (void)Size=dd}}16;
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property __weak id <SearchUIAsyncSectionLoaderDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSArray *objectCache; // @synthesize objectCache=_objectCache;
-@property(readonly) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(readonly) SFSearchResult *searchResult; // @synthesize searchResult=_searchResult;
-@property(readonly) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
 
 @end
 

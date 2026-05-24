@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseTable, NSArray;
+@class ML3DatabaseTable;
 
 @interface ML3DatabaseForeignKeyConstraint
 {
     ML3DatabaseTable *_foreignTable;
-    NSArray *_localColumns;
-    NSArray *_foreignColumns;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ation;
+- (id)CServicePhotos,V_clientAuthorizedForTCCServicePhotos;
+- (id)che",&,N,V_visitsCache;
+- (id)sandboxExtensionsByPathForClient:pathManager:libraryAccessRole: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)edia_type SET count = count + ? WHERE container_pid = ? AND media_type = ?;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *foreignColumns; // @synthesize foreignColumns=_foreignColumns;
 @property(readonly, nonatomic) ML3DatabaseTable *foreignTable; // @synthesize foreignTable=_foreignTable;
-@property(readonly, nonatomic) NSArray *localColumns; // @synthesize localColumns=_localColumns;
 
 @end
 

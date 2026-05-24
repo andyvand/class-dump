@@ -11,7 +11,7 @@
     NSData *_data;
 }
 
-- (unsigned long long);
+- (unsigned long long)ent";
 - (void);
 - (const void *);
 - (id);
@@ -19,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) const void *bytes;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned long long length;
 
 @end
 

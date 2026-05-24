@@ -9,7 +9,6 @@
 @interface IMDCKDatabaseManager
 {
     CKContainer *_manateeContainer;
-    CKContainer *_nickNameContainer;
 }
 
 + (id)t style is not supported %hhu;
@@ -23,14 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (id)cess;
+- (id)acquireAssertionToUnsuspendProcess;
 - (void)¤À,¤;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CKContainer *manateeContainer; // @synthesize manateeContainer=_manateeContainer;
-@property(readonly, nonatomic) CKContainer *nickNameContainer; // @synthesize nickNameContainer=_nickNameContainer;
-@property(readonly, nonatomic) CKContainer *truthContainer;
 
 @end
 

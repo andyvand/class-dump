@@ -10,20 +10,19 @@ __attribute__((visibility("hidden")))
 @interface GEOMapFeatureAccessFinder
 {
     _GEOMapFeatureAccessRequest *_existingRequest;
-    _GEOMapFeatureAccessRequestParameters *_requestParameters;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (Sphere_67aef8b0);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)isString:(id)arg1 localizedCaseInsensitiveEqualToOther: /* Error: Ran out of types for this method. */;
+- (Sphere_4051e99a)initWithFirst:(CDStruct_c3b9c2ee)arg1 second:(double)arg2;
+- (_Bool)initWithFileManager:(const void *)arg1 urlSessionFactory:(vector_5d44c0e6)arg2;
+- (_Bool)initWithFeatureFlags:(const void *)arg1;
+- (_Bool)initWithFamilyMember:(const void *)arg1;
+- (_Bool)initWithExplanation:(const void *)arg1 target:(id)arg2 attributes: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)il - %@;
 - (void)Ô3;
 
 // Remaining properties

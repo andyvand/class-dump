@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)`;
+- (id)rangeOfString:(struct CGRect)arg1 options: /* Error: Ran out of types for this method. */;
 
 @end
 

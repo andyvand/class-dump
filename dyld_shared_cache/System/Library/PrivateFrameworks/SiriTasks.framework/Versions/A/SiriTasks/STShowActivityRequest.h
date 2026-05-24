@@ -7,14 +7,13 @@
 @interface STShowActivityRequest
 {
     long long _dataType;
-    long long _view;
 }
 
 + (_Bool);
 - (id);
+- (id)p;
 - (id);
-- (id);
-- (void);
+- (void)esponse";
 - (long long);
 - (long long);
 

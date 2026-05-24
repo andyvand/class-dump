@@ -7,7 +7,6 @@
 @interface QCParameterInfo
 {
     int type;
-    unsigned long long size;
 }
 
 + (id);

@@ -8,7 +8,6 @@
 {
     id tableViewController;
     id tableView;
-    id $__lazy_storage_$_cardController;
 }
 
 - (id);

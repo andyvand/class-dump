@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDAnalyticsMultiUserSettings
 {
     _Bool _isOwner;
-    NSArray *_multiUserSettingsValuesByKeyPaths;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void)Ã;
 
 // Remaining properties
-@property _Bool isOwner; // @synthesize isOwner=_isOwner;
 @property(copy) NSArray *multiUserSettingsValuesByKeyPaths; // @synthesize multiUserSettingsValuesByKeyPaths=_multiUserSettingsValuesByKeyPaths;
 
 @end

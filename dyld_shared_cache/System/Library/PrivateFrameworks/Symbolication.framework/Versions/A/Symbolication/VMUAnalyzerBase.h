@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VMUDebugTimer, VMUProcessObjectGraph, VMUVMRegionIdentifier;
+@class VMUProcessObjectGraph;
 
 @interface VMUAnalyzerBase
 {
     VMUProcessObjectGraph *_graph;
-    VMUVMRegionIdentifier *_regionIdentifier;
-    VMUDebugTimer *_debugTimer;
 }
 
-+ (id);
-- (id);
++ (id)v;
+- (id);
 - (void);
 - (id);
 - (const char *);
-- (void);
+- (void)R;
 
 // Remaining properties
 @property(readonly, nonatomic) const char *analyzerName;

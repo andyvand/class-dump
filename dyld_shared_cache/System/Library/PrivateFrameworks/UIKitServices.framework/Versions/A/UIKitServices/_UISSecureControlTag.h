@@ -11,28 +11,22 @@
 @interface _UISSecureControlTag : UISSlotTag
 {
     _UISSecureControlCategory *_category;
-    double _cornerRadius;
-    long long _cornerStyle;
-    struct CGColor *_baseForegroundColor;
-    struct CGColor *_baseBackgroundColor;
-    unsigned long long _imagePlacement;
-    struct CGSize _size;
 }
 
 + (unsigned long long);
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (unsigned int);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)lowButtonDelegate>";
+- (unsigned long long)48@0:(id)arg1 8@16@24{CGSize=dd}32;
 - (void);
-- (long long);
+- (long long)P;
 - (id);
 - (unsigned long long);
-- (struct CGColor *);
-- (unsigned long long);
+- (struct CGColor *)on:%@   /* Error: Ran out of types for this method. */;
+- (unsigned long long)@;
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
@@ -40,17 +34,11 @@
 - (id);
 - (id);
 - (struct CGColor *);
-- (double);
+- (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColor *baseBackgroundColor; // @synthesize baseBackgroundColor=_baseBackgroundColor;
-@property(readonly, nonatomic) struct CGColor *baseForegroundColor; // @synthesize baseForegroundColor=_baseForegroundColor;
 @property(readonly, nonatomic) _UISSecureControlCategory *category; // @synthesize category=_category;
-@property(readonly, nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) long long cornerStyle; // @synthesize cornerStyle=_cornerStyle;
-@property(readonly, nonatomic) unsigned long long imagePlacement; // @synthesize imagePlacement=_imagePlacement;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

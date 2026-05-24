@@ -7,7 +7,6 @@
 @interface PencilKit.RecognitionSearchController
 {
     id $defaultActor;
-    id strokeProvider;
 }
 
 @end

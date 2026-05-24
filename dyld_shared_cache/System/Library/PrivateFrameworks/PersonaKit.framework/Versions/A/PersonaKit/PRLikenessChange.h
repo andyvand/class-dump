@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface PRLikenessChange
 {
     NSString *_identifier;
-    unsigned long long _type;
-    NSString *_changedLikenessID;
-    NSNumber *_changedLikenessVersion;
-    NSArray *_dirtyLikenessProperties;
 }
 
 + (id);
@@ -22,21 +18,17 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)s;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *changedLikenessID; // @synthesize changedLikenessID=_changedLikenessID;
-@property(copy, nonatomic) NSNumber *changedLikenessVersion; // @synthesize changedLikenessVersion=_changedLikenessVersion;
-@property(copy, nonatomic) NSArray *dirtyLikenessProperties; // @synthesize dirtyLikenessProperties=_dirtyLikenessProperties;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -6,13 +6,12 @@
 
 #import <AOSUI/MMScriptInterface.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _MMCompoundScriptInterface : MMScriptInterface
 {
     NSMutableArray *_stagedInterfaces;
-    NSArray *_unstagedInvocations;
 }
 
 + (id);
@@ -22,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)U13;
+- (unsigned long long)j;
 - (id);
 - (id);
 - (id);

@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithDisplayName:(id)arg1 emailAddresses:contactIdentifier:recentsIdentifier:sourceType: /* Error: Ran out of types for this method. */;
 - (id)K¼þ®?;
 
 @end

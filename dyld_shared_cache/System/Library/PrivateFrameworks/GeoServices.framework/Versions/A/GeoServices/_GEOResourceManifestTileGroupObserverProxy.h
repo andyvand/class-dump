@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface _GEOResourceManifestTileGroupObserverProxy
 {
     NSHashTable *_observers;
-    struct os_unfair_lock_s _observersLock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

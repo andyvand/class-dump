@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface WBSAutoFillScriptInfo
 {
     NSURL *_url;
-    NSString *_source;
 }
 
 - (id);
-- (void)eportMetrics;
+- (void)WBSPrivacyReportMetrics;
 
 @end
 

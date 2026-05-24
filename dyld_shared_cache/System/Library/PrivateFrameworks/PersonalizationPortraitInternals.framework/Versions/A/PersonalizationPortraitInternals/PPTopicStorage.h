@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PPDKStorage, PPRecordStorageHelper, PPSQLDatabase, PPSourceStorage, PPTrialWrapper;
-@protocol OS_dispatch_queue;
+@class NSString, PPSQLDatabase;
 
 @interface PPTopicStorage
 {
     PPSQLDatabase *_db;
-    PPDKStorage *_dkStorage;
-    id _deletionObserver;
-    PPRecordStorageHelper *_storageHelper;
-    PPSourceStorage *_sourceStorage;
-    PPTrialWrapper *_trialWrapper;
-    NSObject<OS_dispatch_queue> *_populateDatabaseQueue;
 }
 
-- (void);
+- (void)pg_query__alter_database_set_stmt__free_unpacked;
 - (_Bool);
 - (void);
 - (void);
@@ -29,13 +22,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)D;
+- (unsigned int);
+- (_Bool)8!p<;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
+- (_Bool)alias is not a phone number, using %@ instead;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -44,11 +37,11 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)_stateLock_emergencyNumbersSet;
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -59,7 +52,7 @@
 × ;
 - (void)1Â0@ù
 × ;
-- (id)e;
+- (id)quantizedScore;
 - (_Bool)ix_loc_records_cll_longitude ON loc_records (cll_longitude_degrees);
 - (id)val > 1.0;
 

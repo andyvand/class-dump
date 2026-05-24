@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TRIEagerExitManager, TRIServerContext, TRITaskQueue, TRIXPCActivityManager, TRIXPCServerContextPromise;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TRIDServer
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    TRIServerContext *_context;
-    TRITaskQueue *_taskQueue;
-    TRIXPCServerContextPromise *_promise;
-    TRIXPCActivityManager *_xpcActivityManager;
-    TRIEagerExitManager *_eagerExitManager;
-    _Bool _isRunning;
 }
 
 + (id);
@@ -29,10 +23,10 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void)0@ù
 × ;

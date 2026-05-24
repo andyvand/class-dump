@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol CBXpcConnectionDelegate, OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol CBXpcConnectionDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CBXpcConnection
 {
     NSObject<OS_dispatch_queue> *_eventQueue;
-    NSMutableDictionary *_options;
-    int _sessionType;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    _Bool _uiAppIsBackgrounded;
-    _Bool _xpcConnectionConnected;
-    CDUnknownBlockType _whbReplyHandler;
-    NSMutableDictionary *_whbRemoteToLocalUuidMap;
-    id <CBXpcConnectionDelegate> _delegate;
 }
 
 - (void);
@@ -32,26 +23,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)DRStatusStateSessionClose;
+- (void);
+- (id)5;
+- (id);
+- (void);
+- (void)_source>",&,N,V_powerlogReportTimer;
+- (void)ChargingStateIntervals;
+- (id);
+- (void)";
 - (void)× ;
 - (void)SArray"@"NSError">16;
-- (void)mainingAdvancedMatchingRule;
+- (void)getRemainingAdvancedMatchingRule;
 
 // Remaining properties
 @property(nonatomic) __weak id <CBXpcConnectionDelegate> delegate; // @synthesize delegate=_delegate;

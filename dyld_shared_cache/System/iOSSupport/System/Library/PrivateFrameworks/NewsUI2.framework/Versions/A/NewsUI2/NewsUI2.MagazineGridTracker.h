@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazineGridTracker
 {
     id tracker;
-    id channelDataFactory;
-    id magazineGridModelLoader;
-    id newsActivityManager;
-    id contentAvailabilityValidator;
 }
 
 @end

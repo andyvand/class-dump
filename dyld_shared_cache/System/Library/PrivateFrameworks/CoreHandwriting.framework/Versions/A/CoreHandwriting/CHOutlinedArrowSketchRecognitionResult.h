@@ -9,11 +9,9 @@
 @interface CHOutlinedArrowSketchRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _center;
-    struct CGSize _size;
-    struct CGPoint _controlPoint;
 }
 
-+ (_Bool);
++ (_Bool)_flashSustainTime;
 - (id);
 - (struct CGPoint);
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly) struct CGPoint center; // @synthesize center=_center;
-@property(readonly) struct CGPoint controlPoint; // @synthesize controlPoint=_controlPoint;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

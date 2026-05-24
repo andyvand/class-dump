@@ -9,21 +9,20 @@
 @interface AVAudioIOClient
 {
     AVAudioIOController *_ioController;
-    shared_ptr_f81f53c0 _impl;
 }
 
-- (_Bool);
-- (void);
-- (_Bool);
-- (shared_ptr_f81f53c0);
-- (_Bool);
+- (_Bool)ppPush",C,V_appPush;
+- (void)NEConfigurationCommandHandling;
+- (_Bool)NEIKEv2IPv4DHCPAttribute;
+- (shared_ptr_e362ef8b)NEHotspotConfigurationManager;
+- (_Bool)NEAgentTunnelExtension;
+- (id)NEExtensionAppPushProviderHostContext;
+- (_Bool)NEFilterControlProvider;
+- (CDUnknownBlockType)_TtC16NetworkExtensionP33_8A6EAEC7B0CD28E3C1D36D746A66647F43NEIKEv2KeyExchangeHandlerCryptoKitMLKEM1024;
+- (_Bool)56;
 - (id);
 - (_Bool);
-- (CDUnknownBlockType);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)numTSPChunkProcessed;
 - (void);
 - (id);
 - (_Bool);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AVAudioIOController *IOController;
-@property(copy, nonatomic) CDUnknownBlockType IOEventBlock;
-@property(readonly, nonatomic) _Bool inputEnabled;
-@property(readonly, nonatomic) _Bool outputEnabled;
 
 @end
 

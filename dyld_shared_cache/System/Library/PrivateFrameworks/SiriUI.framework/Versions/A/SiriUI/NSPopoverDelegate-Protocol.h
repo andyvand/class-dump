@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSPopover, NSWindow;
+
 @protocol NSPopoverDelegate
+
+@optional
+- (void)R);
+- (NSWindow *)offsetFromPosition:(NSPopover *)arg1 toPosition: /* Error: Ran out of types for this method. */;
 @end
 

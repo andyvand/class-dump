@@ -9,13 +9,11 @@
 @interface NSDraggingImageComponent
 {
     NSString *_key;
-    id _contents;
-    struct CGRect _frame;
 }
 
 + (id);
 + (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)%@ [%ld];
 - (id);
 - (void);
 - (id);
@@ -29,8 +27,6 @@
 - (void)^Sh;
 
 // Remaining properties
-@property(retain) id contents; // @synthesize contents=_contents;
-@property struct CGRect frame; // @synthesize frame=_frame;
 @property(copy) NSString *key; // @synthesize key=_key;
 
 @end

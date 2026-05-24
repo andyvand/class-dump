@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAGKLinkedAnswer.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SAGKNewsLinkedAnswer : SAGKLinkedAnswer
 {
@@ -16,14 +16,13 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)@;
+- (id)9h;
+- (void)A�H;
+- (id)h;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *publicationDate;
-@property(copy, nonatomic) NSString *source;
 
 @end
 

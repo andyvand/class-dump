@@ -9,7 +9,6 @@
 @interface SPPeerTrustDataIntegrity
 {
     SPDataIntegrityCheck *_peerTrustRecord;
-    SPDataIntegrityCheck *_messagingDestination;
 }
 
 + (_Bool);
@@ -20,11 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)deChanged:(struct _NSZone *)arg1 );
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) SPDataIntegrityCheck *messagingDestination; // @synthesize messagingDestination=_messagingDestination;
 @property(copy, nonatomic) SPDataIntegrityCheck *peerTrustRecord; // @synthesize peerTrustRecord=_peerTrustRecord;
 
 @end

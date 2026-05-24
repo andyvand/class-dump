@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEORingThrottler
 {
     struct vector<(anonymous namespace)::Timestamp, std::allocator<(anonymous namespace)::Timestamp>> _lastRequestTimes;
-    unsigned int _currentIndex;
-    double _timeWindow;
 }
 
 - (_Bool);
 - (double);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)glassView;
 - (unsigned long long);
-- (id)fos;
-- (_Bool)nChina;
+- (id)clearSegmentNameInfos;
+- (_Bool)SmartInterfaceSelectionIsShiftedInChina;
 - (void)SP@;
 - (double)I@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timeWindow; // @synthesize timeWindow=_timeWindow;
 
 @end

@@ -4,46 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIActivityIndicatorView, UIColor, UILabel;
+@class UILabel;
 
 @interface EKUIInviteesViewConflictSearchCell
 {
     UILabel *_label;
-    NSArray *_persistentConstraints;
-    double _leftInset;
-    UIActivityIndicatorView *_spinner;
-    UIColor *_originalLabelFontColor;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (void)&s;
+- (id);
+- (void);
+- (void)s;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (double);
+- (void);
+- (double)for input %@ with transformers 
+%@;
 - (id);
 - (void);
 - (id);
 - (void)
 × ;
-- (void)llerDidCancel: /* Error: Ran out of types for this method. */;
+- (void)timeZoneViewControllerDidCancel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(nonatomic) double leftInset; // @synthesize leftInset=_leftInset;
-@property(retain, nonatomic) UIColor *originalLabelFontColor; // @synthesize originalLabelFontColor=_originalLabelFontColor;
-@property(retain, nonatomic) NSArray *persistentConstraints; // @synthesize persistentConstraints=_persistentConstraints;
-@property(retain, nonatomic) UIActivityIndicatorView *spinner; // @synthesize spinner=_spinner;
 
 @end
 

@@ -7,17 +7,15 @@
 @interface MNRouteDivergenceOverlappingSectionComponent
 {
     unsigned long long _routeIndex;
-    GEOPolylineCoordinateRange_1706676a _range;
 }
 
 - (void);
 - (id);
-- (struct GEOPolylineCoordinateRange);
+- (GEOPolylineCoordinateRange_e9365640);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setPointOfInterestHandoffEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) GEOPolylineCoordinateRange_3ad5eabb range; // @synthesize range=_range;
 @property(nonatomic) unsigned long long routeIndex; // @synthesize routeIndex=_routeIndex;
 
 @end

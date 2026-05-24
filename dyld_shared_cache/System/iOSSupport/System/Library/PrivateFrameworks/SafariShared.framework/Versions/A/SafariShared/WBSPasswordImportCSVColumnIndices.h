@@ -7,11 +7,6 @@
 @interface WBSPasswordImportCSVColumnIndices
 {
     unsigned long long _urlIndex;
-    unsigned long long _usernameIndex;
-    unsigned long long _passwordIndex;
-    unsigned long long _otpAuthURLIndex;
-    unsigned long long _notesEntryIndex;
-    unsigned long long _titleIndex;
 }
 
 - (unsigned long long);
@@ -24,12 +19,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long notesEntryIndex; // @synthesize notesEntryIndex=_notesEntryIndex;
-@property(readonly, nonatomic) unsigned long long otpAuthURLIndex; // @synthesize otpAuthURLIndex=_otpAuthURLIndex;
-@property(readonly, nonatomic) unsigned long long passwordIndex; // @synthesize passwordIndex=_passwordIndex;
-@property(readonly, nonatomic) unsigned long long titleIndex; // @synthesize titleIndex=_titleIndex;
 @property(readonly, nonatomic) unsigned long long urlIndex; // @synthesize urlIndex=_urlIndex;
-@property(readonly, nonatomic) unsigned long long usernameIndex; // @synthesize usernameIndex=_usernameIndex;
 
 @end
 

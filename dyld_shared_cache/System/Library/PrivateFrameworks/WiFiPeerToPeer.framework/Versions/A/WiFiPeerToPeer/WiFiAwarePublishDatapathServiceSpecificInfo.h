@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WiFiAwarePublishDatapathServiceSpecificInfo
 {
     unsigned short _servicePort;
-    long long _protocolType;
-    NSString *_hostname;
 }
 
 + (_Bool);
 - (_Bool);
 - (unsigned short);
 - (id);
-- (long long);
+- (long long))*;
 - (id);
 - (id);
 - (_Bool);
@@ -28,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *hostname; // @synthesize hostname=_hostname;
 @property(readonly, nonatomic) long long protocolType; // @synthesize protocolType=_protocolType;
-@property(readonly, nonatomic) unsigned short servicePort; // @synthesize servicePort=_servicePort;
 
 @end
 

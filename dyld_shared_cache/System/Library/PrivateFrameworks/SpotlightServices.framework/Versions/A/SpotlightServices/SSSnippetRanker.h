@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SSSnippetRanker
 {
     NSString *_fullText;
-    NSString *_query;
-    NSArray *_terms;
 }
 
 - (int);
+- (id)olorView";
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)language:isCJK:fuzzyThreshold:options: /* Error: Ran out of types for this method. */;
+- (void)initWithQuery:language:isCJK:fuzzyThreshold:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fullText; // @synthesize fullText=_fullText;
-@property(readonly, nonatomic) NSString *query; // @synthesize query=_query;
-@property(readonly, nonatomic) NSArray *terms; // @synthesize terms=_terms;
 
 @end
 

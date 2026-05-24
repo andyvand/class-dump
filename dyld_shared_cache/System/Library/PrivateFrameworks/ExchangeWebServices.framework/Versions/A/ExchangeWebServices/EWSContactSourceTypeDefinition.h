@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)already stopped - not handling event %lu;
 
 @end
 

@@ -11,10 +11,9 @@
 @interface IMDelayedInvocationTrampoline : IMInvocationTrampoline
 {
     NSArray *_modes;
-    double _delay;
 }
 
-- (id);
+- (id)SError">24;
 - (void);
 - (void);
 

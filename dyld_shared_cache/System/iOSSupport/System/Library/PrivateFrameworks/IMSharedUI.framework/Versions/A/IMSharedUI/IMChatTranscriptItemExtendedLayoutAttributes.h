@@ -9,11 +9,9 @@
 @interface IMChatTranscriptItemExtendedLayoutAttributes : IMChatTranscriptItemLayoutAttributes
 {
     long long _layoutOrientation;
-    double _topMargin;
-    struct CGSize _drawableSize;
 }
 
-- (void);
+- (void)rces/WebKit_iosmac/Source/WebKit/NetworkProcess/SharedWorker/WebSharedWorkerServerConnection.cpp 112:(double)arg1 Invalid message dispatched %{public}s;
 - (id);
 - (double);
 - (void);
@@ -22,9 +20,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) struct CGSize drawableSize; // @synthesize drawableSize=_drawableSize;
 @property(nonatomic) long long layoutOrientation; // @synthesize layoutOrientation=_layoutOrientation;
-@property(nonatomic) double topMargin; // @synthesize topMargin=_topMargin;
 
 @end
 

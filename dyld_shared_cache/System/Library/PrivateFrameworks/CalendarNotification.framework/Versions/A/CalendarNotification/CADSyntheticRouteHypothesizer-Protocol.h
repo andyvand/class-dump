@@ -7,10 +7,10 @@
 @class CADRouteHypothesis;
 
 @protocol CADSyntheticRouteHypothesizer
-- (void (^)(void));
+- (void);
+- (void (^)(void))_callbackQueue;
 
 // Remaining properties
 @property(retain, nonatomic) CADRouteHypothesis *currentCADRouteHypothesis;
-@property(readonly, nonatomic) CDUnknownBlockType updateHandler;
 @end
 

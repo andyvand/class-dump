@@ -7,7 +7,7 @@
 @interface UnknownClass (VSKeyValueBinding)
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (void);

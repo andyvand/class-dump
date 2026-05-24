@@ -7,18 +7,12 @@
 @interface CGBitmapFormat
 {
     unsigned int _bitmapInfo;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _bitsPerComponent;
-    unsigned long long _bitsPerPixel;
-    unsigned long long _bytesPerRow;
-    struct CGColorSpace *_colorSpace;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGImage *);
 - (void);
 - (void);
@@ -29,19 +23,13 @@
 - (id);
 - (struct CGColorSpace *);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)copyItemAtURL:toURL:error: /* Error: Ran out of types for this method. */;
+- (void));
 - (void);
 - (void);
 - (void)8z;
 
 // Remaining properties
-@property unsigned int bitmapInfo; // @synthesize bitmapInfo=_bitmapInfo;
-@property unsigned long long bitsPerComponent; // @synthesize bitsPerComponent=_bitsPerComponent;
-@property unsigned long long bitsPerPixel; // @synthesize bitsPerPixel=_bitsPerPixel;
-@property unsigned long long bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
-@property(retain) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property unsigned long long height; // @synthesize height=_height;
 @property unsigned long long width; // @synthesize width=_width;
 
 @end

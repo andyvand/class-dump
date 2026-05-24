@@ -8,10 +8,10 @@
 {
 }
 
+- (id)tWindowRect;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)createCGImage:fromRect:format:colorSpace:deferred: /* Error: Ran out of types for this method. */;
 - (void)ostics: /* Error: Ran out of types for this method. */;
 
 @end

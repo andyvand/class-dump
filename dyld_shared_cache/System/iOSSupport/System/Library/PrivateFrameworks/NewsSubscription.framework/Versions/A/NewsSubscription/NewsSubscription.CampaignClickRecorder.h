@@ -7,7 +7,6 @@
 @interface NewsSubscription.CampaignClickRecorder
 {
     id patterns;
-    id bridgedCampaignClickRecorder;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol STBlockingViewServiceDelegate
+- (void)soundCheckMediaKind;
 @end
 

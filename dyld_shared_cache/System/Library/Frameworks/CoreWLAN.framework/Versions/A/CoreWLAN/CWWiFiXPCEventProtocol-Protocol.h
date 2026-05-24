@@ -5,5 +5,11 @@
 //
 
 @protocol CWWiFiXPCEventProtocol
+- (void);
+- (void)#;
+- (void);
+- (void)L-;
+- (void)rformanceShaders/MPSNDArray/Kernels/MPSNDArrayMultiaryKernel.mm;
+- (void)or 8 bits;
 @end
 

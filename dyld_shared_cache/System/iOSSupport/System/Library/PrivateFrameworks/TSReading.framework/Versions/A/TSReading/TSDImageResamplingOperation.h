@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDImageProvider, TSPObjectContext;
+@class TSDImageProvider;
 
 @interface TSDImageResamplingOperation
 {
     TSDImageProvider *mImageProvider;
-    struct CGSize mDesiredSize;
-    NSString *mDisplayName;
-    struct CGPath *mMaskingPath;
-    TSPObjectContext *mObjectContext;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (struct CGPath *);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -31,11 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGSize desiredSize; // @synthesize desiredSize=mDesiredSize;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=mDisplayName;
 @property(retain, nonatomic) TSDImageProvider *imageProvider; // @synthesize imageProvider=mImageProvider;
-@property(nonatomic) struct CGPath *maskingPath; // @synthesize maskingPath=mMaskingPath;
-@property(retain, nonatomic) TSPObjectContext *objectContext; // @synthesize objectContext=mObjectContext;
 
 @end
 

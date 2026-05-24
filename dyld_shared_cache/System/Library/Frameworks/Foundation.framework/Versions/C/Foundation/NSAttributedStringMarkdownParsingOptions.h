@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSAttributedStringMarkdownParsingOptions
 {
     _Bool _allowsExtendedAttributes;
-    _Bool _appliesSourcePositionAttributes;
-    long long _interpretedSyntax;
-    long long _failurePolicy;
-    NSString *_languageCode;
 }
 
 + (id);
-+ (id);
++ (id)~;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)XXT;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id)ausingHandler:(struct _NSZone *)arg1;
+- (id)setPausingHandler:(struct _NSZone *)arg1;
 - (long long);
 - (void)­¯.k,Gÿ;
 
 // Remaining properties
 @property _Bool allowsExtendedAttributes; // @synthesize allowsExtendedAttributes=_allowsExtendedAttributes;
-@property _Bool appliesSourcePositionAttributes; // @synthesize appliesSourcePositionAttributes=_appliesSourcePositionAttributes;
-@property long long failurePolicy; // @synthesize failurePolicy=_failurePolicy;
-@property long long interpretedSyntax; // @synthesize interpretedSyntax=_interpretedSyntax;
-@property(copy) NSString *languageCode; // @synthesize languageCode=_languageCode;
 
 @end
 

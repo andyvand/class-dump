@@ -8,13 +8,9 @@
 {
     id state;
     id xpcConnection;
-    id dismissBlock;
-    id onEnd;
-    id messageComposeRequest;
-    id remoteController;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

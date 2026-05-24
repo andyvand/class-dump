@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface STCommunicationSafetyStateCoreAnalyticsEvent
 {
     _Bool _communicationSafetyEnabled;
 }
 
 + (id);
-- (id);
-- (_Bool);
+- (id)p_local_status) SELECT album_pid, album, sort_album, album_artist_pid, representative_item_pid, artwork_cache_id, grouping_key, cloud_status, user_rating, all_compilations, feed_url, season_number, album_year, keep_local, keep_local_status FROM album;
+- (_Bool)ocation_id = 400 WHERE item_pid IN (SELECT item_pid FROM item JOIN base_location USING(base_location_id) WHERE path = '/var/mobile/Media/Podcasts');
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) _Bool communicationSafetyEnabled; // @synthesize communicationSafetyEnabled=_communicationSafetyEnabled;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 
 @end
 

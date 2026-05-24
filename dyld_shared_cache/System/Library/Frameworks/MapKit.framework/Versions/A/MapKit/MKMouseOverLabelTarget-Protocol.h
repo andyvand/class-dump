@@ -5,5 +5,6 @@
 //
 
 @protocol MKMouseOverLabelTarget
+- (void)dynamicCache;
 @end
 

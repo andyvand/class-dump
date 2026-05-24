@@ -6,28 +6,24 @@
 
 #import <PassKitCore/PKWebServiceResponse.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PKWebServiceForbiddenResponse : PKWebServiceResponse
 {
     NSNumber *_errorCode;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)lizedSummaryItemsTitle;
-- (void)hirdparty;
-- (id)YMENT_CONTACT_ITEM_INCORRECT_PHONETIC_NAME;
+- (void)localizedSummaryItemsTitle;
+- (void)thirdparty;
+- (id)IN_APP_PAYMENT_CONTACT_ITEM_INCORRECT_PHONETIC_NAME;
 - (id)ZLìb~ÿZLc~ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

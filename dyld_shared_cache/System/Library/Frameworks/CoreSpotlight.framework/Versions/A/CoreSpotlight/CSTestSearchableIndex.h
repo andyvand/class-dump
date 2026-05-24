@@ -11,7 +11,7 @@
     unsigned int _user;
 }
 
-+ (id);
++ (id);
 - (id);
 
 @end

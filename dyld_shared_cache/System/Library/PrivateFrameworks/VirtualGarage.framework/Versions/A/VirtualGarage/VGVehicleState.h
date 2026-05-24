@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMeasurement, NSNumber, NSString;
+@class NSNumber;
 
 @interface VGVehicleState
 {
     _Bool _isCharging;
-    NSString *_identifier;
-    NSDate *_dateOfUpdate;
-    long long _origin;
-    NSMeasurement *_currentEVRange;
-    NSMeasurement *_maxEVRange;
-    NSMeasurement *_minBatteryCapacity;
-    NSMeasurement *_currentBatteryCapacity;
-    NSMeasurement *_maxBatteryCapacity;
-    NSString *_consumptionArguments;
-    NSString *_chargingArguments;
-    unsigned long long _activeConnector;
-    NSNumber *_batteryPercentage;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -41,7 +29,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_mostRecentTextFromChronologicalConversationHistory:(id)arg1;
 - (id);
 - (id);
 - (long long);
@@ -49,19 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activeConnector; // @synthesize activeConnector=_activeConnector;
 @property(readonly, nonatomic) NSNumber *batteryPercentage; // @synthesize batteryPercentage=_batteryPercentage;
-@property(readonly, nonatomic) NSString *chargingArguments; // @synthesize chargingArguments=_chargingArguments;
-@property(readonly, nonatomic) NSString *consumptionArguments; // @synthesize consumptionArguments=_consumptionArguments;
-@property(readonly, nonatomic) NSMeasurement *currentBatteryCapacity; // @synthesize currentBatteryCapacity=_currentBatteryCapacity;
-@property(readonly, nonatomic) NSMeasurement *currentEVRange; // @synthesize currentEVRange=_currentEVRange;
-@property(readonly, nonatomic) NSDate *dateOfUpdate; // @synthesize dateOfUpdate=_dateOfUpdate;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isCharging; // @synthesize isCharging=_isCharging;
-@property(readonly, nonatomic) NSMeasurement *maxBatteryCapacity; // @synthesize maxBatteryCapacity=_maxBatteryCapacity;
-@property(readonly, nonatomic) NSMeasurement *maxEVRange; // @synthesize maxEVRange=_maxEVRange;
-@property(readonly, nonatomic) NSMeasurement *minBatteryCapacity; // @synthesize minBatteryCapacity=_minBatteryCapacity;
-@property(readonly, nonatomic) long long origin; // @synthesize origin=_origin;
 
 @end
 

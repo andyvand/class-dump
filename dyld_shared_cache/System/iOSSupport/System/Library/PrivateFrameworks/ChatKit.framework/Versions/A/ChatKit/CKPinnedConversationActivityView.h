@@ -4,71 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CKPinnedConversationActivitySnapshot, NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CKPinnedConversationActivityView
 {
     _Bool _suppressingActivity;
-    _Bool _showContentAlignmentDebugFrames;
-    long long _activityItemOriginationDirection;
-    NSMutableArray *_activityItemViews;
-    NSMutableArray *_contactItemViews;
-    CKPinnedConversationActivitySnapshot *_latestSnapshot;
-    CAShapeLayer *_innerContentAlignmentDebugLayer;
-    CAShapeLayer *_outerContentAlignmentDebugLayer;
-    CAShapeLayer *_activityItemAttachmentCircleDebugLayer;
-    CAShapeLayer *_originationPointDebugLayer;
-    struct CGPoint _activityItemOriginationPoint;
-    struct CGRect _avatarFrame;
-    struct CGRect _innerContentAlignmentFrame;
-    struct CGRect _outerContentAlignmentFrame;
-    struct CGRect _activityItemOriginationSubAvatarFrame;
 }
 
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)initWithTimestamp:(double)arg1 replicaID:(struct CGRect)arg2 range:(long long)arg3;
+- (void)currentRunLoop;
+- (void)currentReachabilityStatus;
+- (void)control:(_Bool)arg1 textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
+- (void)attachmentBrickZoomFactors;
+- (void)attachmentBrickZoomFactor;
+- (void)attachmentBoundsIncludingMarginsFromAttachmentBounds:(id)arg1;
+- (void)_textStorageDocumentsBeingUpdated;
+- (void)_textLayoutManager;
+- (void)_associatedObjectIdentifier;
+- (void)ive;
+- (void)wing;
+- (void)ontrollerObject;
+- (void)chemeHandler;
+- (void)Handler",&,N,V_scriptMessageHandler;
+- (void)stopObservingButtonIfNecessary: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (struct CGRect);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)numberLiteral;
 - (struct CGRect);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (struct CGRect);
+- (_Bool)teCG;
+- (id)t;
+- (id).;
+- (id)e;
+- (double)l;
+- (double)C;
+- (double) %;
+- (struct CGRect)erating PDF:%@:%ld /* Error: Ran out of types for this method. */;
+- (void)extra time to generate it:(id)arg1 %@;
+- (long long)u** moved the note;
+- (id)ody** moved the note;
 - (void);
-- (long long);
-- (id);
+- (struct CGRect)**Somebody** removed %lld subfolders;
+- (struct CGPoint)folders;
+- (long long)oved %lld notes;
+- (double)moved the subfolder;
+- (id)older;
 - (void);
-- (struct CGRect);
-- (struct CGPoint);
-- (long long);
-- (double);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)ICNoteAddPasswordFirstTimeMessageCompletedKey;
+- (id)displayWindow;
+- (void)erge];
+- (void)DrawingID;
 - (struct CGPoint);
 - (id);
 - (void);
@@ -82,29 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *activityItemAttachmentCircleDebugLayer; // @synthesize activityItemAttachmentCircleDebugLayer=_activityItemAttachmentCircleDebugLayer;
-@property(nonatomic) long long activityItemOriginationDirection; // @synthesize activityItemOriginationDirection=_activityItemOriginationDirection;
-@property(nonatomic) struct CGPoint activityItemOriginationPoint; // @synthesize activityItemOriginationPoint=_activityItemOriginationPoint;
-@property(nonatomic) struct CGRect activityItemOriginationSubAvatarFrame; // @synthesize activityItemOriginationSubAvatarFrame=_activityItemOriginationSubAvatarFrame;
 @property(retain, nonatomic) NSMutableArray *activityItemViews; // @synthesize activityItemViews=_activityItemViews;
-@property(nonatomic) struct CGRect avatarFrame; // @synthesize avatarFrame=_avatarFrame;
-@property(retain, nonatomic) NSMutableArray *contactItemViews; // @synthesize contactItemViews=_contactItemViews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayedContacts;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CAShapeLayer *innerContentAlignmentDebugLayer; // @synthesize innerContentAlignmentDebugLayer=_innerContentAlignmentDebugLayer;
-@property(nonatomic) struct CGRect innerContentAlignmentFrame; // @synthesize innerContentAlignmentFrame=_innerContentAlignmentFrame;
-@property(retain, nonatomic) CKPinnedConversationActivitySnapshot *latestSnapshot; // @synthesize latestSnapshot=_latestSnapshot;
-@property(retain, nonatomic) CAShapeLayer *originationPointDebugLayer; // @synthesize originationPointDebugLayer=_originationPointDebugLayer;
-@property(retain, nonatomic) CAShapeLayer *outerContentAlignmentDebugLayer; // @synthesize outerContentAlignmentDebugLayer=_outerContentAlignmentDebugLayer;
-@property(nonatomic) struct CGRect outerContentAlignmentFrame; // @synthesize outerContentAlignmentFrame=_outerContentAlignmentFrame;
-@property(nonatomic) _Bool showContentAlignmentDebugFrames; // @synthesize showContentAlignmentDebugFrames=_showContentAlignmentDebugFrames;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSuppressingActivity) _Bool suppressingActivity; // @synthesize suppressingActivity=_suppressingActivity;
 
 @end
 

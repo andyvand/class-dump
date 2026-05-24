@@ -14,7 +14,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)classic_time_between_uses_std_dur_4;
 - (void);
 
 @end

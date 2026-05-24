@@ -7,25 +7,23 @@
 @interface TRICKRecordProgress
 {
     unsigned long long _size;
-    unsigned long long _transferred;
 }
 
-+ (id);
++ (id)facePositionAcceptable:(unsigned long long)arg1 imageAspect:(unsigned long long)arg2;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)$;
 - (_Bool);
-- (id);
+- (id)ontentRectChanged:(unsigned long long)arg1 cameraWillSwitch:camera:orentation:aspect:contentRect: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly, nonatomic) unsigned long long transferred; // @synthesize transferred=_transferred;
 
 @end
 

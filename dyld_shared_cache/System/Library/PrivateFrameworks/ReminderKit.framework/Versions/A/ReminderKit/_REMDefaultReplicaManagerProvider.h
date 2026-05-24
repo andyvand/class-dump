@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMStore;
+@class REMStore;
 
 @interface _REMDefaultReplicaManagerProvider
 {
@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)equest;
 - (id);
 - (id);
 - (void)
@@ -20,14 +20,7 @@
 - (id)ld, lists.count:(id)arg1 %ld, smartLists.count:%ld, templates.count:%ld, reminders.count:%ld, listSections.count:%ld>, smartListSections.count:%ld, templateSections.count:%ld> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

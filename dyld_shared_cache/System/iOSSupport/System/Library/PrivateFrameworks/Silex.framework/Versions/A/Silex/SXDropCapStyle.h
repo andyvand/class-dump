@@ -6,9 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, UIColor;
-@protocol SXTextStyleFontAttributes;
-
 @interface SXDropCapStyle : SXJSONObject
 {
 }
@@ -16,21 +13,7 @@
 + (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXTextStyleFontAttributes> fontAttributes; // @dynamic fontAttributes;
-@property(readonly, nonatomic) NSString *fontName; // @dynamic fontName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long numberOfCharacters; // @dynamic numberOfCharacters;
 @property(readonly, nonatomic) long long numberOfLines; // @dynamic numberOfLines;
-@property(readonly, nonatomic) long long numberOfRaisedLines; // @dynamic numberOfRaisedLines;
-@property(readonly, nonatomic) long long padding; // @dynamic padding;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIColor *textColor; // @dynamic textColor;
 
 @end
 

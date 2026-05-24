@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBRFAvatarImage
 {
     int _image_style;
-    NSArray *_contact_ids;
 }
 
 - (int);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)p;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id)propertyKeyForEntityKey:(id)arg1;
+- (id)%@ (%lu) <%p>;
 - (id);
 - (id);
 - (void):8@"SFSafariTableOfContentsCardSection"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contact_ids; // @synthesize contact_ids=_contact_ids;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

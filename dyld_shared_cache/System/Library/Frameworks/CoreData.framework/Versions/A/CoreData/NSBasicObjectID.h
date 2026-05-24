@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSBasicObjectID : _NSCoreManagedObjectID
 {
     int _cd_rc;
-    id _referenceData;
 }
 
 + (char *);
+- (id);
+- (void)aN;
 - (id);
-- (void);
-- (id);
-- (id)te:(id)arg1;
+- (id)setDelegate:(id)arg1;
 
 @end
 

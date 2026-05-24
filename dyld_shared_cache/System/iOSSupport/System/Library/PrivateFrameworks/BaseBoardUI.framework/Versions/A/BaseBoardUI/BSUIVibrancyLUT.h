@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, NSString, NSURL, UIImage;
+@class NSString;
 
 @interface BSUIVibrancyLUT
 {
     NSString *_lutIdentifier;
-    NSURL *_bundleURL;
-    double _blend;
-    NSString *_toIdentifier;
-    UIImage *_interpolatedLutImage;
 }
 
 + (void);
 - (_Bool);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (double);
@@ -31,29 +27,16 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)W,N,V_canvasView;
 - (_Bool);
 - (id);
-- (id);
+- (id)recoverableMessageCount;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) double blend; // @synthesize blend=_blend;
-@property(readonly, copy, nonatomic) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *groupName;
-@property(readonly) unsigned long long hash;
-@property(copy) UIImage *interpolatedLutImage; // @synthesize interpolatedLutImage=_interpolatedLutImage;
-@property(readonly, copy, nonatomic) NSString *lutIdentifier; // @synthesize lutIdentifier=_lutIdentifier;
-@property(readonly, copy, nonatomic) CAFilter *resolvedLUTFilter;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
 
 @end
 

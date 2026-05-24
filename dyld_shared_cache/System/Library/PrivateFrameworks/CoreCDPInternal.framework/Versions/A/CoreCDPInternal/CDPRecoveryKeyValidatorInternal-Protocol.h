@@ -5,5 +5,6 @@
 //
 
 @protocol CDPRecoveryKeyValidatorInternal
+- (void)GisUserInterfaceEnabled;
 @end
 

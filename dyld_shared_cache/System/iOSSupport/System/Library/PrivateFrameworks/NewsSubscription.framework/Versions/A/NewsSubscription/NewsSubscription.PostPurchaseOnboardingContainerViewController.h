@@ -7,13 +7,12 @@
 @interface NewsSubscription.PostPurchaseOnboardingContainerViewController
 {
     id lastShownViewController;
-    id onDismissal;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)for a drawable which isn't a child of the group.;
 - (void);
 
 @end

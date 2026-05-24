@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, _UIInterfaceActionSeparatorConstraintController;
+@class _UIInterfaceActionSeparatorConstraintController;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionBlankSeparatorView : UIView
@@ -19,24 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (double);
-- (double);
-- (id);
+- (double)initWithRequestID:pushToken:fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
+- (double)_replayControllerNeedsSync;
+- (id)u;
 - (void)!èBùq`1Â0@ù
 × ;
 - (void)È¯R0²43¸;
 
 // Remaining properties
-@property(nonatomic) double constantAxisDimension;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalLineLeadingInset; // @synthesize horizontalLineLeadingInset=_horizontalLineLeadingInset;
 @property(readonly, retain, nonatomic) _UIInterfaceActionSeparatorConstraintController *separatorViewConstraints; // @synthesize separatorViewConstraints=_separatorViewConstraints;
-@property(readonly) Class superclass;
 
 @end
 

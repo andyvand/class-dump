@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface FFFeatureSetIdentifier
 {
     NSString *_featureGroupName;
-    NSString *_featureSetName;
 }
 
 + (id);
-- (id);
+- (id)Q16^B24;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *featureGroupName; // @synthesize featureGroupName=_featureGroupName;
-@property(readonly, nonatomic) NSString *featureSetName; // @synthesize featureSetName=_featureSetName;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface QCSCN_TextureOffscreenRenderingSource : QCSCN_TextureSource
 {
     struct CGSize _fboSize;
-    struct CGSize _textureSize;
-    struct __C3DFramebuffer *_fbo;
-    struct __C3DFXRenderTarget *_renderTarget;
-    struct __C3DTexture *_texture;
 }
 
 - (void);

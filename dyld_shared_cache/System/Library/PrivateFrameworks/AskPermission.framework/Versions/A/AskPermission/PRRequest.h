@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface PRRequest
 {
     _Bool _requestedOnThisDevice;
-    NSString *_requestID;
-    NSString *_ask;
-    NSDictionary *_requestInfo;
-    unsigned long long _requestStatus;
-    NSNumber *_requesterDSID;
-    NSNumber *_responderDSID;
-    NSString *_clientIdentifier;
-    NSDate *_dateAddedToLocalCache;
-    NSString *_statusDescription;
 }
 
 + (_Bool);
@@ -37,7 +28,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)sionInfoProtobuf",&,N,V_groupSessionInfo;
 - (id);
 - (id);
 - (void);
@@ -48,16 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSString *ask; // @synthesize ask=_ask;
-@property(copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(copy) NSDate *dateAddedToLocalCache; // @synthesize dateAddedToLocalCache=_dateAddedToLocalCache;
 @property(copy) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy) NSDictionary *requestInfo; // @synthesize requestInfo=_requestInfo;
-@property unsigned long long requestStatus; // @synthesize requestStatus=_requestStatus;
-@property _Bool requestedOnThisDevice; // @synthesize requestedOnThisDevice=_requestedOnThisDevice;
-@property(copy) NSNumber *requesterDSID; // @synthesize requesterDSID=_requesterDSID;
-@property(copy) NSNumber *responderDSID; // @synthesize responderDSID=_responderDSID;
-@property(readonly) NSString *statusDescription; // @synthesize statusDescription=_statusDescription;
 
 @end
 

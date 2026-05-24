@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TQueuedPopoverController, NSArrayController, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropProgressController
 {
     struct recursive_mutex _lock;
-    struct TFENode _targetNode;
-    FI_TQueuedPopoverController *_popoverController;
-    double _percentComplete;
-    struct TString _stateText;
-    _Bool _indeterminateProgress;
-    NSArrayController *_allViewArrayController;
-    struct TNotificationCenterObserver _popoverHostScrollViewWillMoveToWindowObserver;
-    struct TNotificationCenterObserver _popoverWillCloseObserver;
-    struct TKeyValueObserver _currentSFOperationEventObserver;
-    struct TKeyValueObserver _percentCompleteObserver;
-    _Bool _isTornDown;
-    _Bool _inlineProgressIsHidden;
 }
 
 + (void);
 + (void);
 + (void);
-+ (struct TString);
++ (struct TString)A;
 + (void);
 + (void);
 + (void);
@@ -35,14 +21,14 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool))@9;
 + (_Bool);
 + (_Bool);
 + (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -61,11 +47,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)ndoManager"24@0:8@"NSWindow"16 /* Error: Ran out of types for this method. */;
+- (void)set_contentView:(_Bool)arg1;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)setMiddleName: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -75,18 +61,7 @@ __attribute__((visibility("hidden")))
 - (double)E4$_27vJEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool indeterminateProgress; // @synthesize indeterminateProgress=_indeterminateProgress;
 @property(nonatomic) _Bool inlineProgressIsHidden; // @synthesize inlineProgressIsHidden=_inlineProgressIsHidden;
-@property(readonly) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(readonly, copy) NSString *stateText;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
 
 @end
 

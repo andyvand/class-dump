@@ -6,44 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTFailureError;
-
 @interface STSchemaSTHallucinationDetectionFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    STSchemaSTFailureError *_stError;
-    CDStruct_6555f803 _has;
-    _Bool _hasStError;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (id)?׀;
 - (id);
-- (id);
-- (int);
-- (_Bool);
+- (int)activeNavigationSessionTraceSymLink;
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)!;
+- (unsigned long long)showVPPInviteForCurrentUser:orgName: /* Error: Ran out of types for this method. */;
+- (_Bool)egate;
+- (_Bool)mentInfo BLOB;;
 - (void);
 - (id);
 - (id);
-- (id)r1;
-- (id)ationValidationTime;
-- (void)IR_NUMBER;
-- (void)ENSIONNAME_ODDI_EXPERIMENTATION_EXTENSION;
+- (id)deleteMarrsQueryRewriteEvaluatedTier1;
+- (id)_hasResponseGenerationValidationTime;
+- (void)RFCOMPONENT_SUMMARY_ITEM_PAIR_NUMBER;
+- (void)ODDEXTENSIONNAME_ODDI_EXPERIMENTATION_EXTENSION;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStError; // @synthesize hasStError=_hasStError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) STSchemaSTFailureError *stError; // @synthesize stError=_stError;
 
 @end
 

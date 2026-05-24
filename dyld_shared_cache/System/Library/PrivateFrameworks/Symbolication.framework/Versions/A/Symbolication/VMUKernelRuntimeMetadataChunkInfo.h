@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VMUClassInfo;
-
 __attribute__((visibility("hidden")))
 @interface VMUKernelRuntimeMetadataChunkInfo
 {
     _Bool isMetaclass;
-    unsigned int type;
-    VMUClassInfo *owningClassInfo;
 }
 
 - (void);

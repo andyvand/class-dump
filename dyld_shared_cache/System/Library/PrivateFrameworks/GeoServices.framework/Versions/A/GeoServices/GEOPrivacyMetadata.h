@@ -9,23 +9,9 @@
 @interface GEOPrivacyMetadata
 {
     PBUnknownFields *_unknownFields;
-    _Bool _isManagedAccount;
-    _Bool _isMismatchedStorefrontDeviceRegion;
-    _Bool _isOptedIntoFamiliarRoutePreservation;
-    _Bool _isSharedIpadForEducation;
-    _Bool _isUnderageAccount;
-    _Bool _suppressLogging;
-    struct {
-        unsigned int has_isManagedAccount:1;
-        unsigned int has_isMismatchedStorefrontDeviceRegion:1;
-        unsigned int has_isOptedIntoFamiliarRoutePreservation:1;
-        unsigned int has_isSharedIpadForEducation:1;
-        unsigned int has_isUnderageAccount:1;
-        unsigned int has_suppressLogging:1;
-    } _flags;
 }
 
-+ (_Bool)eUsed:(id)arg1;
++ (_Bool)setIsHandsFreeProfileUsed:(id)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -38,26 +24,27 @@
 - (id);
 - (void);
 - (void);
+- (void)rror expiring audit trail files;
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)ntAsset exists:(id)arg1 %{public}@;
+- (id)(;
+- (_Bool)A;
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)B
+;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id)lter"b1"read_entityFilter"b1"read_etaFilter"b1"read_evChargerFilter"b1"read_exploreGuidesFilter"b1"read_externalActionFilter"b1"read_factoidFilter"b1"read_flyoverFilter"b1"read_forwardInfoFilter"b1"read_groundViewLabelFilter"b1"read_guideGroupFilter"b1"read_hikeAssociatedInfoFilter"b1"read_hikeGeometryFilter"b1"read_hikeSummaryFilter"b1"read_hoursFilter"b1"read_iconFilter"b1"read_iso3166CodeFilter"b1"read_labelGeometryFilter"b1"read_linkedServiceFilter"b1"read_localizedNamesFilter"b1"read_locationEventFilter"b1"read_messageLinkFilter"b1"read_offlineAreaFilter"b1"read_photoFilter"b1"read_placeCollectionFilter"b1"read_placeCollectionItemFilter"b1"read_placeInfoFilter"b1"read_placeQuestionnaireFilter"b1"read_placecardLayoutConfigurationFilter"b1"read_placecardUrlFilter"b1"read_poiClaimFilter"b1"read_poiEventFilter"b1"read_priceDescriptionFilter"b1"read_protoTypeContainerFilter"b1"read_publisherFilter"b1"read_quickLinkFilter"b1"read_rapFilter"b1"read_ratingFilter"b1"read_rawAttributeFilter"b1"read_refreshIdFilter"b1"read_relatedPlaceFilter"b1"read_restaurantReservationLinkFilter"b1"read_resultSnippetFilter"b1"read_reviewFilter"b1"read_searchResultPlacePhotoFilter"b1"read_simpleRestaurantMenuTextFilter"b1"read_spatialLookupFilter"b1"read_storefrontFacesFilter"b1"read_storefrontFilter"b1"read_storefrontPresentationFilter"b1"read_styleAttributesFilter"b1"read_supportsOfflineMapsFilter"b1"read_templatePlaceFilter"b1"read_textBlockFilter"b1"read_tipFilter"b1"read_tokenizerResultFilter"b1"read_toolTipFilter"b1"read_trailHeadFilter"b1"read_transitAssociatedInfoFilter"b1"read_transitAttributionFilter"b1"read_transitIncidentFilter"b1"read_transitInfoFilter"b1"read_transitInfoSnippetFilter"b1"read_transitPaymentMethodInfoFilter"b1"read_transitScheduleFilter"b1"read_transitTripGeometryFilter"b1"read_transitTripStopFilter"b1"read_transitTripStopTimeFilter"b1"read_transitVehiclePositionFilter"b1"read_vendorAmenitiesFilter"b1"read_venueInfoFilter"b1"read_visitedPlacesMetaDataFilter"b1"read_visualEvidenceFilter"b1"read_walletCategoryInformationFilter"b1"read_wifiFingerprintFilter"b1"wrote_anyField"b1};
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)isherIds;
-- (id)alueType;
-- (void)e;
+- (_Bool)initWithRise:transit:set: /* Error: Ran out of types for this method. */;
+- (void)clearPublisherIds;
+- (id)_valueType;
+- (void)_licensePlateTemplate;
 - (id)WøW;
 - (id);
 - (void)ü;
@@ -68,19 +55,7 @@
 - (void)lI@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsManagedAccount;
-@property(nonatomic) _Bool hasIsMismatchedStorefrontDeviceRegion;
-@property(nonatomic) _Bool hasIsOptedIntoFamiliarRoutePreservation;
-@property(nonatomic) _Bool hasIsSharedIpadForEducation;
 @property(nonatomic) _Bool hasIsUnderageAccount;
-@property(nonatomic) _Bool hasSuppressLogging;
-@property(nonatomic) _Bool isManagedAccount;
-@property(nonatomic) _Bool isMismatchedStorefrontDeviceRegion;
-@property(nonatomic) _Bool isOptedIntoFamiliarRoutePreservation;
-@property(nonatomic) _Bool isSharedIpadForEducation;
-@property(nonatomic) _Bool isUnderageAccount;
-@property(nonatomic) _Bool suppressLogging;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

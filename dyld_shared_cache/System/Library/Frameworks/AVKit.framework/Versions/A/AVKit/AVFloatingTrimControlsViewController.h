@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (struct CGSize);
-- (long long);
-- (id);
-- (CDStruct_83cd8af5);
+- (struct CGSize)IO.framework/Versions/A/ImageIO;
+- (long long)__swift5_builtin__TEXT;
+- (id)__swift5_fieldmd__TEXT;
+- (CDStruct_d2b197d1)__swift5_assocty__TEXT;
 - (void);
 - (id);
 - (long long);

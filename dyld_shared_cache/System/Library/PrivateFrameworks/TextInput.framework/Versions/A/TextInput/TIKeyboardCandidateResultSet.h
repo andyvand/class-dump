@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TIKeyboardCandidate, TIKeyboardIntermediateText;
-
 @interface TIKeyboardCandidateResultSet
 {
     _Bool _excludedExtensionCandidates;
-    _Bool _inputManagerHasPendingCandidatesUpdate;
-    NSArray *_candidates;
-    unsigned long long _initialSelectedIndex;
-    TIKeyboardCandidate *_defaultCandidate;
-    NSArray *_sortMethods;
-    NSDictionary *_sortMethodGroups;
-    NSDictionary *_indexTitles;
-    NSDictionary *_showExtensionCandidates;
-    NSArray *_disambiguationCandidates;
-    unsigned long long _generatedCandidateCount;
-    unsigned long long _batchCandidateLocation;
-    unsigned long long _selectedDisambiguationCandidateIndex;
-    NSArray *_proactiveTriggers;
-    NSString *_committedText;
-    TIKeyboardIntermediateText *_uncommittedText;
-    TIKeyboardCandidate *_acceptedCandidate;
 }
 
 + (id);

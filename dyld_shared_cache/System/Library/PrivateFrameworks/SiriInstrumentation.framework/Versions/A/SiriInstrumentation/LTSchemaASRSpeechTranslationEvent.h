@@ -6,30 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LTSchemaASRSpeechTranslationEvent : SISchemaInstrumentationMessage
 {
     NSString *_requestID;
-    NSString *_selectedLocale;
-    unsigned int _timeToFirstPartialMs;
-    unsigned int _timeToFinalResultMs;
-    unsigned int _latencyFinalResultMs;
-    unsigned int _timeToSendFirstAudioPacket;
-    unsigned int _timeToReceiveFirstAudioPacket;
-    unsigned int _numAudioPacket;
-    unsigned int _timeToSendFinishAudio;
-    struct {
-        unsigned int timeToFirstPartialMs:1;
-        unsigned int timeToFinalResultMs:1;
-        unsigned int latencyFinalResultMs:1;
-        unsigned int timeToSendFirstAudioPacket:1;
-        unsigned int timeToReceiveFirstAudioPacket:1;
-        unsigned int numAudioPacket:1;
-        unsigned int timeToSendFinishAudio:1;
-    } _has;
-    _Bool _hasRequestID;
-    _Bool _hasSelectedLocale;
 }
 
 - (unsigned int);
@@ -43,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -75,40 +56,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)*;
+- (void)g*;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`";
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (void):(id)arg1;
+- (void)setAccelerationDatas:(id)arg1;
 - (id)tarted",&,N,V_startedOrChanged;
 - (id);
-- (_Bool)NAME_SAKURA;
+- (_Bool)VOICENAME_SAKURA;
 - (void)v)­ëê!;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLatencyFinalResultMs;
-@property(nonatomic) _Bool hasNumAudioPacket;
-@property(nonatomic) _Bool hasRequestID; // @synthesize hasRequestID=_hasRequestID;
-@property(nonatomic) _Bool hasSelectedLocale; // @synthesize hasSelectedLocale=_hasSelectedLocale;
-@property(nonatomic) _Bool hasTimeToFinalResultMs;
-@property(nonatomic) _Bool hasTimeToFirstPartialMs;
-@property(nonatomic) _Bool hasTimeToReceiveFirstAudioPacket;
-@property(nonatomic) _Bool hasTimeToSendFinishAudio;
-@property(nonatomic) _Bool hasTimeToSendFirstAudioPacket;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int latencyFinalResultMs; // @synthesize latencyFinalResultMs=_latencyFinalResultMs;
-@property(nonatomic) unsigned int numAudioPacket; // @synthesize numAudioPacket=_numAudioPacket;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) NSString *selectedLocale; // @synthesize selectedLocale=_selectedLocale;
-@property(nonatomic) unsigned int timeToFinalResultMs; // @synthesize timeToFinalResultMs=_timeToFinalResultMs;
-@property(nonatomic) unsigned int timeToFirstPartialMs; // @synthesize timeToFirstPartialMs=_timeToFirstPartialMs;
-@property(nonatomic) unsigned int timeToReceiveFirstAudioPacket; // @synthesize timeToReceiveFirstAudioPacket=_timeToReceiveFirstAudioPacket;
-@property(nonatomic) unsigned int timeToSendFinishAudio; // @synthesize timeToSendFinishAudio=_timeToSendFinishAudio;
-@property(nonatomic) unsigned int timeToSendFirstAudioPacket; // @synthesize timeToSendFirstAudioPacket=_timeToSendFirstAudioPacket;
 
 @end
 

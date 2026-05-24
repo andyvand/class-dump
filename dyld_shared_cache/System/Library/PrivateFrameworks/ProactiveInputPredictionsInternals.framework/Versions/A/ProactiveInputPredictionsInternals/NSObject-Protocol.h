@@ -7,14 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)uestOptions";
+- (oneway void)unt;
+- (NSString *)CKDOperationCallbackProxy;
+- (id);
+- (_Bool)rom size {%lf, %lf}. Returning %f. Use PFSizeGetAspectRatioWithDefault() to provide a value for this case.;
+- (id)ublic}@ with queue destination %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

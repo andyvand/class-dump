@@ -7,10 +7,6 @@
 @interface TeaUI.ContextMenuGroup
 {
     id title;
-    id subtitle;
-    id image;
-    id style;
-    id items;
 }
 
 @end

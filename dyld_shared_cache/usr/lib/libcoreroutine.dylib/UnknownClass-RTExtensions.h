@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (RTExtensions)
-+ (id);
-+ (id);
++ (id)accountStatus;
++ (id)accountEligibleForMBRestoreForDSID:(id)arg1 error:(long long)arg2;
 @end
 

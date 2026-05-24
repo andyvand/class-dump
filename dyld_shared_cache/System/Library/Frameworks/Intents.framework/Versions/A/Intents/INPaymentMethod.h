@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSString;
-
 @interface INPaymentMethod
 {
     long long _type;
-    NSString *_name;
-    INImage *_icon;
-    NSString *_identificationHint;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)B,SP *;
+- (id)buttonLeftShoulder;
+- (id)";
+- (id)e SSL connection;
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)didRegisterForConnectedAPUpdateEventsWithClientID:(id)arg1 predicateData:XPCConnection: /* Error: Ran out of types for this method. */;
+- (void)c for %{public}@[%{public}@] - {duration:(id)arg1 %{public}@ denyListRemoveReason:%{public}@ prunedCount:%{public}@} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)archAlarm:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
-- (long long)ientUnsupportedReason:(id)arg1;
+- (id)confirmSearchAlarm:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (long long)StringAsShareETAIntentRecipientUnsupportedReason:(id)arg1;
 - (_Bool)l°m;
-- (void)erm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideDateTimeRangeOptionsForSearchForMessages:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)­;
 - (id)¸'Nºh;
 
 // Remaining properties
-@property(readonly) INImage *_keyImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) INImage *icon; // @synthesize icon=_icon;
-@property(readonly, copy) NSString *identificationHint; // @synthesize identificationHint=_identificationHint;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

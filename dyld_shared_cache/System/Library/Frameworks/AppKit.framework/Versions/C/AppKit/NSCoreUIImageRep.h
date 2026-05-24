@@ -9,24 +9,22 @@
 @interface NSCoreUIImageRep : NSImageRep
 {
     struct __CFDictionary *_coreUIImageOptions;
-    struct __CFString *_cocoaName;
-    _Bool _template;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)_expectedTotalBytes;
 - (struct __CFDictionary *);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
-- (void);
-- (id);
+- (void)P;
+- (id)s/TemporaryDirectory.WBOEkW/Sources/boringssl/crypto/evp/p_x25519.c;
 - (id);
 - (void)!XCùqà31Â0@ù
 × ;
 - (_Bool);
-- (id)ationContextClass;
+- (id)_invalidationContextClass;
 - (_Bool)o;
 
 @end

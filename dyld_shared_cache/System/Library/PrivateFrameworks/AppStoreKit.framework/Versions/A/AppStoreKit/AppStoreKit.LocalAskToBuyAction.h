@@ -9,7 +9,6 @@
 @interface AppStoreKit.LocalAskToBuyAction : AppStoreKit.Action
 {
     id adamId;
-    id completion;
 }
 
 @end

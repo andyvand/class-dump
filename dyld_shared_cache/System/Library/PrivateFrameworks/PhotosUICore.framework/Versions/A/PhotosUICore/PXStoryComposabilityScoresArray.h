@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXStoryComposabilityScoresArray
 {
     struct vector<PXStoryAutoEditComposabilityScores, std::allocator<PXStoryAutoEditComposabilityScores>> _scores;
@@ -13,24 +11,17 @@
 
 - (id);
 - (CDStruct_b2fbf00d);
+- (id)ment to handle the new case.;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ationEnabled:(struct _NSZone *)arg1;
+- (id)cleanAperture;
+- (id)setGyroStabilizationEnabled:(struct _NSZone *)arg1;
 - (id).currentSongResource;
 - (unsigned long long)o library alert;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

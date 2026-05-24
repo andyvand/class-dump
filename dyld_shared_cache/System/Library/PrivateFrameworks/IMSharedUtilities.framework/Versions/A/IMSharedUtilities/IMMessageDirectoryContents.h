@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCombinedDirectoryContents, IMDirectoryContents, NSArray;
+@class NSArray;
 
 @interface IMMessageDirectoryContents
 {
     _Bool _needsGathering;
-    IMDirectoryContents *_messagesDirectoryContents;
-    IMDirectoryContents *_metaDataDirectoryContents;
-    IMCombinedDirectoryContents *_allDirectoryContents;
-    NSArray *_directoryContents;
 }
 
 - (void);
@@ -23,15 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)veKey;
+- (id)ences:com.apple.preferences.softwareupdate /* Error: Ran out of types for this method. */;
+- (void)contentIsSensitiveKey;
 
 // Remaining properties
-@property(readonly, nonatomic) IMCombinedDirectoryContents *allDirectoryContents; // @synthesize allDirectoryContents=_allDirectoryContents;
 @property(readonly, nonatomic) NSArray *directoryContents; // @synthesize directoryContents=_directoryContents;
-@property(readonly, nonatomic) IMDirectoryContents *messagesDirectoryContents; // @synthesize messagesDirectoryContents=_messagesDirectoryContents;
-@property(readonly, nonatomic) IMDirectoryContents *metaDataDirectoryContents; // @synthesize metaDataDirectoryContents=_metaDataDirectoryContents;
-@property(nonatomic) _Bool needsGathering; // @synthesize needsGathering=_needsGathering;
 
 @end
 

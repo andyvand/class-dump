@@ -8,12 +8,12 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
 + (_Bool);
+- (id)H-;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)<CoreMLModelSecurityProtocol>";
 - (_Bool);
 - (void);
 - (id);

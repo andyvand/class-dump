@@ -7,21 +7,13 @@
 @class NSArray, NSString;
 
 @protocol HMFObject
++ (NSString *)!`-;
 
 @optional
 - (NSArray *)ing controller for state %ld, home:%@ /* Error: Ran out of types for this method. */;
 - (NSString *)g TTSU :%@. Going to save it to keychain store /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSString *shortDescription;
 @end
 

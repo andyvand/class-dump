@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerResponse, MPNowPlayingInfoLanguageOption, NSArray, NSString;
+@class MPCPlayerResponse;
 
 @interface MPCPlayerLanguageOptionGroup
 {
     unsigned long long _currentIndex;
-    _Bool _allowEmptySelection;
-    NSArray *_options;
-    MPCPlayerResponse *_response;
 }
 
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)B;
+- (id)PageRenderController;
 - (id);
 - (void)%2i %{public}@ô¤ NETWORK TASK END           %{public}@ [%.3fs];
 - (id)natedOperation for non-paginated request:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowEmptySelection; // @synthesize allowEmptySelection=_allowEmptySelection;
-@property(readonly, nonatomic) unsigned long long indexOfSelectedOption;
-@property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) unsigned long long numberOfOptions;
-@property(readonly, nonatomic) NSArray *options; // @synthesize options=_options;
 @property(readonly, nonatomic) __weak MPCPlayerResponse *response; // @synthesize response=_response;
-@property(readonly, nonatomic) MPNowPlayingInfoLanguageOption *selectedOption;
 
 @end
 

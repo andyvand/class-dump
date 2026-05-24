@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFScrollViewPrivate;
+@class PDFScrollViewPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFScrollView
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)�C;
 - (void);
 - (void);
-- (void);
+- (void)supportedAlgorithms;
 - (id);
 - (void);
 - (void)
@@ -35,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)24@?0@8@"NSArray"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, WBSPasswordBreachChecker, WBSPasswordBreachContext, WBSPasswordBreachQueuedPasswordBagManager, WBSPasswordBreachResults;
-@protocol OS_os_transaction, WBSPasswordBreachCredentialSource;
-
 @interface WBSPasswordBreachManager
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_os_transaction> *_sessionTransaction;
-    WBSPasswordBreachContext *_context;
-    id <WBSPasswordBreachCredentialSource> _credentialSource;
-    WBSPasswordBreachChecker *_checker;
-    WBSPasswordBreachResults *_results;
-    WBSPasswordBreachQueuedPasswordBagManager *_bagManager;
 }
 
-+ (id);
++ (id);
 + (void);
 + (_Bool);
 + (void);
 + (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

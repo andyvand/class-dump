@@ -11,7 +11,6 @@
 @interface PKPassAuxiliaryCapabilitySignatureIdentityAccountKeyCreationMetadata : PKPassAuxiliaryCapabilityKeyCreationMetadata
 {
     NSString *_subcredentialIdentifier;
-    NSString *_existingAccountKeyIdentifier;
 }
 
 + (_Bool)X"°!Ð@ùî%1Â0@ù
@@ -22,14 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Unspecified;
 - (id);
 - (id);
-- (id)ifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)ambiguousPassUniqueIdentifierForTransactionWithServiceIdentifier:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)ject of class %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *existingAccountKeyIdentifier; // @synthesize existingAccountKeyIdentifier=_existingAccountKeyIdentifier;
 @property(readonly, nonatomic) NSString *subcredentialIdentifier; // @synthesize subcredentialIdentifier=_subcredentialIdentifier;
 
 @end

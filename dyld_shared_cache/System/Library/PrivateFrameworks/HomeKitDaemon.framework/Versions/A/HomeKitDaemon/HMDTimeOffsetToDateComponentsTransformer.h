@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id):(id)arg1 presenceAuth:(id *)arg2 dataSource: /* Error: Ran out of types for this method. */;
-+ (Class)t: /* Error: Ran out of types for this method. */;
++ (id)initWithName:(id)arg1 uuid:(id *)arg2 defaultRoomUUID:owner:homeManager:presenceAuth:dataSource: /* Error: Ran out of types for this method. */;
++ (Class)addAccessoriesWithPersonalRequestsEnabled_Object: /* Error: Ran out of types for this method. */;
 + (Class);
-- (id);
+- (id)_placemarksFromLocationsOfInterest:(id)arg1;
 
 @end
 

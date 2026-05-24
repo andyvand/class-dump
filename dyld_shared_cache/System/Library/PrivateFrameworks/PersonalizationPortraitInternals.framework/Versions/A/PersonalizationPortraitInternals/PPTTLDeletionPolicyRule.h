@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PPTTLDeletionPolicyRule
 {
     NSString *_bundleIdentifier;
-    NSString *_groupIdentifier;
-    NSNumber *_maxAgeSeconds;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly, nonatomic) NSNumber *maxAgeSeconds; // @synthesize maxAgeSeconds=_maxAgeSeconds;
 
 @end
 

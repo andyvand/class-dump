@@ -7,8 +7,8 @@
 @class UIColor, UITraitCollection;
 
 @protocol _UISceneHostingTraitCollectionPropagationSettings
-- (UIColor *)er;
-- (void)yboardTransitionInhibitStart;
+- (UIColor *)_delegateViewController;
+- (void)_UISplitKeyboardTransitionInhibitStart;
 - (UITraitCollection *);
 - (void)À;
 

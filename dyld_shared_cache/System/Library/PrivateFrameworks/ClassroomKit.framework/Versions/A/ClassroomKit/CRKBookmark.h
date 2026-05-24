@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface CRKBookmark
 {
     NSString *_name;
-    NSURL *_URL;
-    NSArray *_children;
-    NSString *_identifier;
 }
 
 + (id);
@@ -19,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)N6google8protobuf8internal23RepeatedPtrFieldWrapperINSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEE;
 - (void);
 - (void);
 - (id);
@@ -45,12 +42,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, nonatomic, getter=isFavoritesFolder) _Bool favoritesFolder;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isReadingListFolder) _Bool readingListFolder;
 
 @end
 

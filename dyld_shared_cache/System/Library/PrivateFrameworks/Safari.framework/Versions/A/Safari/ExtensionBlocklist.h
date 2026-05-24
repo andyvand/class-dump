@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSTimer, NSURL;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface ExtensionBlocklist
 {
     NSArray *_appExtensionEntries;
-    NSURL *_xProtectMetaPlistURL;
-    NSDate *_previousXProtectMetaPlistModificationDate;
-    NSTimer *_xProtectUpdateTimer;
-    _Bool _activelyReading;
 }
 
 + (id);

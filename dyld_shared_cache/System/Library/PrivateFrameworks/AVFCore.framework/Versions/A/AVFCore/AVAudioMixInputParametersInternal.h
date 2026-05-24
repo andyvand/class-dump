@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMutableScheduledAudioParameters, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVAudioMixInputParametersInternal
 {
     int trackID;
-    AVMutableScheduledAudioParameters *scheduledAudioParameters;
-    NSString *audioTimePitchAlgorithm;
-    struct opaqueMTAudioProcessingTap *tap;
-    NSMutableArray *effects;
 }
 
 @end

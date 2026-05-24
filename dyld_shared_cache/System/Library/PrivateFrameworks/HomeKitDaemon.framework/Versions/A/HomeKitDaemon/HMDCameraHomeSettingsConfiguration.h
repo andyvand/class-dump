@@ -10,15 +10,11 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraHomeSettingsConfiguration
 {
     _Bool _faceClassificationEnabled;
-    _Bool _owner;
-    NSArray *_cameraSettings;
-    NSArray *_userSettings;
-    unsigned long long _enabledResidentsDeviceCapabilities;
 }
 
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)uniqueMemoryIdentifierWithMemoryLabel:featureNodes: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -26,10 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *cameraSettings; // @synthesize cameraSettings=_cameraSettings;
-@property(readonly) unsigned long long enabledResidentsDeviceCapabilities; // @synthesize enabledResidentsDeviceCapabilities=_enabledResidentsDeviceCapabilities;
-@property(readonly, getter=isFaceClassificationEnabled) _Bool faceClassificationEnabled; // @synthesize faceClassificationEnabled=_faceClassificationEnabled;
-@property(readonly, getter=isOwner) _Bool owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) NSArray *userSettings; // @synthesize userSettings=_userSettings;
 
 @end
 

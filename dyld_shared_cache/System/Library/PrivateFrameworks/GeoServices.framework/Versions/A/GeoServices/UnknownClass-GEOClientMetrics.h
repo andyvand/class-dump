@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (GEOClientMetrics)
-- (void);
+- (void)orks/RunningBoardServices.framework/RunningBoardServices;
 @end
 

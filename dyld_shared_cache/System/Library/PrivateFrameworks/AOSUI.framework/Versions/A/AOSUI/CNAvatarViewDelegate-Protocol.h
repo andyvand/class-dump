@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage;
+
 @protocol CNAvatarViewDelegate
+
+@optional
+- (NSImage *)b;
+- (_Bool);
+- (_Bool);
+- (void)(Q;
 @end
 

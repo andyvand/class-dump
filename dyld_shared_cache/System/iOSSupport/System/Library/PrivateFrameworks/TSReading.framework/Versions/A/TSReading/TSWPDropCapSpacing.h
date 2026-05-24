@@ -7,45 +7,33 @@
 @interface TSWPDropCapSpacing
 {
     _Bool _allowSpanParagraphs;
-    unsigned long long _lineCount;
-    unsigned long long _elevatedLineCount;
-    unsigned long long _followingLineCount;
-    double _padding;
-    unsigned long long _flags;
-    double _maxWidthFactor;
 }
 
 + (id);
+- (void)alidateSystemTime(MPCPlaybackEngineEventType  _Nonnull __strong, uint64_t);
+- (void)h;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)queueCommandType;
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)Code;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
+- (unsigned long long)+;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)ction observer.;
 - (id);
 - (unsigned long long);
 - (void);
 - (double)if -layerUpdatesPaused is overridden;
-- (void)Notification;
+- (void)TSDCanvasDidZoomNotification;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSpanParagraphs; // @synthesize allowSpanParagraphs=_allowSpanParagraphs;
-@property(nonatomic) unsigned long long elevatedLineCount; // @synthesize elevatedLineCount=_elevatedLineCount;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(nonatomic) unsigned long long followingLineCount; // @synthesize followingLineCount=_followingLineCount;
 @property(nonatomic) unsigned long long lineCount; // @synthesize lineCount=_lineCount;
-@property(nonatomic) double maxWidthFactor; // @synthesize maxWidthFactor=_maxWidthFactor;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
 
 @end
 

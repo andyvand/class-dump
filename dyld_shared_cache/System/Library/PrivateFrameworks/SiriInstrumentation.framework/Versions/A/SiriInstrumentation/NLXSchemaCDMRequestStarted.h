@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMTurnInput, NSData, NSString;
+@class NLXSchemaCDMTurnInput;
 
 @interface NLXSchemaCDMRequestStarted : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMTurnInput *_currentTurnInput;
-    int _serviceGraphName;
-    NSString *_loggableSharedUserId;
-    CDStruct_e361df26 _has;
-    _Bool _hasCurrentTurnInput;
-    _Bool _hasLoggableSharedUserId;
 }
 
 - (void);
@@ -35,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)gB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ts/ts_asn1.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,12 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NLXSchemaCDMTurnInput *currentTurnInput; // @synthesize currentTurnInput=_currentTurnInput;
-@property(nonatomic) _Bool hasCurrentTurnInput; // @synthesize hasCurrentTurnInput=_hasCurrentTurnInput;
-@property(nonatomic) _Bool hasLoggableSharedUserId; // @synthesize hasLoggableSharedUserId=_hasLoggableSharedUserId;
-@property(nonatomic) _Bool hasServiceGraphName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(nonatomic) int serviceGraphName; // @synthesize serviceGraphName=_serviceGraphName;
 
 @end
 

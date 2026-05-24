@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDScannerResult, NSString, VNObservation;
+@class DDScannerResult;
 
 @interface VNDataDetectorResult
 {
     DDScannerResult *_scannerResult;
-    NSString *_shortDescription;
-    NSString *_value;
-    unsigned long long _type;
-    VNObservation *_originalObservation;
 }
 
 - (void);
@@ -26,15 +22,11 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id)azeLocationRadius;
+- (id)commonGazeLocationRadius;
 - (void)tElements(;
 
 // Remaining properties
-@property(retain, nonatomic) VNObservation *originalObservation; // @synthesize originalObservation=_originalObservation;
 @property(retain, nonatomic) DDScannerResult *scannerResult; // @synthesize scannerResult=_scannerResult;
-@property(retain, nonatomic) NSString *shortDescription; // @synthesize shortDescription=_shortDescription;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

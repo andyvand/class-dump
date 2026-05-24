@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSStartPageBackgroundImagesDataSource
 {
     NSObject<OS_dispatch_queue> *_imageLoadingQueue;
-    NSObject<OS_dispatch_queue> *_imageSavingQueue;
-    NSArray *_defaultImageURLs;
-    NSArray *_imageURLsWithLuminance;
-    NSMutableDictionary *_pendingImageThumbnailRequests;
-    NSMutableDictionary *_imageCache;
-    NSURL *_thumbnailsPath;
 }
 
-- (id);
+- (id)9h;
 - (id);
 - (id);
 - (long long);

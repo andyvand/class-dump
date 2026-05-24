@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface PXStoryTransitionProducerSegment
 {
     NSMutableArray *_clipLayouts;
-    CDStruct_c0304e72 *_infos;
-    long long _capacity;
-    long long _count;
-    CDStruct_ae7b37d2 _segmentInfo;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (CDStruct_ae7b37d2);
+- (CDStruct_1e69568f);
 - (void);
 - (void)osticAsSeedOrFCS;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *clipLayouts;
-@property(readonly, nonatomic) CDStruct_ae7b37d2 segmentInfo; // @synthesize segmentInfo=_segmentInfo;
+@property(readonly, nonatomic) CDStruct_1e69568f segmentInfo; // @synthesize segmentInfo=_segmentInfo;
 
 @end
 

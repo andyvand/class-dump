@@ -6,32 +6,22 @@
 
 #import <BiomeStreams/BMSource.h>
 
-@class BMAccessClient, BMComputeSourceClient, BMStoreConfig, BMStreamDatastoreWriter, NSMutableArray, NSObject;
-@protocol OS_os_transaction;
+@class BMComputeSourceClient, BMStreamDatastoreWriter;
 
 @interface BMStoreSource : BMSource
 {
     BMStreamDatastoreWriter *_writer;
-    BMStoreConfig *_config;
-    Class _eventDataClass;
-    BMAccessClient *_accessClient;
-    _Bool _shouldSendMetrics;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_os_transaction> *_transaction;
-    NSMutableArray *_pendingWrites;
-    id _lockStateRegistration;
-    BMComputeSourceClient *_computeSource;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)_processAltVideoStallStreamData:(id)arg1 streamGroupStats: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
+- (id)">16;
 - (id);
-- (id);
-- (void);
+- (void)@0:8@"NSArray"16@?<v@?@"NSDictionary"@"NSError">24 /* Error: Ran out of types for this method. */;
 - (id)";
 - (void)ÔÕÖ×Ø?ÚÛÜÝ¥Þßàáâãäåæçèé¦êëìíîïðñ;
 - (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿñÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:(_Bool)arg1 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿoÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ°ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ°ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïÿÿÙÿÿÿÿÿÿÿÿÿÿÑ
@@ -50,7 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) BMComputeSourceClient *computeSource; // @synthesize computeSource=_computeSource;
-@property(nonatomic) _Bool outOfProcess;
 
 @end
 

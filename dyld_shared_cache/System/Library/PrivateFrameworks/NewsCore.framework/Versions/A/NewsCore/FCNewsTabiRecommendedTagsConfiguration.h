@@ -6,15 +6,11 @@
 
 #import <NewsCore/FCNewsTabiEndpointConfiguration.h>
 
-@class FCNewsTabiRecommendedTagsContextConfiguration, FCNewsTabiRecommendedTagsInputOutputConfiguration;
+@class FCNewsTabiRecommendedTagsInputOutputConfiguration;
 
 @interface FCNewsTabiRecommendedTagsConfiguration : FCNewsTabiEndpointConfiguration
 {
     _Bool _filterLocationSuggestionsOnlyToAppleNewsLocal;
-    FCNewsTabiRecommendedTagsInputOutputConfiguration *_bundleInputOutputConfiguration;
-    FCNewsTabiRecommendedTagsInputOutputConfiguration *_nonBundleInputOutputConfiguration;
-    FCNewsTabiRecommendedTagsContextConfiguration *_contextConfiguration;
-    FCNewsTabiRecommendedTagsContextConfiguration *_userContextConfiguration;
 }
 
 - (id);
@@ -34,10 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsTabiRecommendedTagsInputOutputConfiguration *bundleInputOutputConfiguration; // @synthesize bundleInputOutputConfiguration=_bundleInputOutputConfiguration;
-@property(readonly, nonatomic) FCNewsTabiRecommendedTagsContextConfiguration *contextConfiguration; // @synthesize contextConfiguration=_contextConfiguration;
-@property(nonatomic) _Bool filterLocationSuggestionsOnlyToAppleNewsLocal; // @synthesize filterLocationSuggestionsOnlyToAppleNewsLocal=_filterLocationSuggestionsOnlyToAppleNewsLocal;
-@property(retain, nonatomic) FCNewsTabiRecommendedTagsInputOutputConfiguration *nonBundleInputOutputConfiguration; // @synthesize nonBundleInputOutputConfiguration=_nonBundleInputOutputConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecommendedTagsContextConfiguration *userContextConfiguration; // @synthesize userContextConfiguration=_userContextConfiguration;
 
 @end
 

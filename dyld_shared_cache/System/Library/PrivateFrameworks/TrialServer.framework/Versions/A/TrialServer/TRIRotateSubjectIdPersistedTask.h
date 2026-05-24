@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPBTimestamp;
-
 @interface TRIRotateSubjectIdPersistedTask
 {
 }
 
-+ (id);
++ (id)SignpostSupportObject;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceId; // @dynamic deviceId;
 @property(nonatomic) _Bool forceUpdate; // @dynamic forceUpdate;
-@property(nonatomic) _Bool hasDeviceId; // @dynamic hasDeviceId;
-@property(nonatomic) _Bool hasForceUpdate; // @dynamic hasForceUpdate;
-@property(nonatomic) _Bool hasNextRotationTimestamp; // @dynamic hasNextRotationTimestamp;
-@property(retain, nonatomic) TRIPBTimestamp *nextRotationTimestamp; // @dynamic nextRotationTimestamp;
 
 @end
 

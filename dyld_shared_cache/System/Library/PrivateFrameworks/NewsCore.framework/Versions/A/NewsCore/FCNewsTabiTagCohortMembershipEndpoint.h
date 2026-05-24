@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, FCNewsTabiTagCohortMembershipConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiTagCohortMembershipEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiTagCohortMembershipConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?!;
 - (id);
 - (void);
 - (id)!AùQ(	Ð1Â0@ù
@@ -26,8 +24,6 @@
 - (void)have a request type;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiTagCohortMembershipConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

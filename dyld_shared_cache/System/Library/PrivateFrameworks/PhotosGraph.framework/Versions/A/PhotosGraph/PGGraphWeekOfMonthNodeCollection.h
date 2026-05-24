@@ -10,9 +10,9 @@
 {
 }
 
++ (id)fontForAttributedString:(long long)arg1 atIndex:(id)arg2;
 + (id);
-+ (id);
-+ (unsigned long long);
++ (unsigned long long)D_SYM_MODEL;
 
 @end
 

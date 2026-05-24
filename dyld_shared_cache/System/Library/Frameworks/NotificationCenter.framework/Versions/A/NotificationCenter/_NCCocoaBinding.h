@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NCCocoaBinding
 {
     _Bool _observesSelf;
-    id _object;
-    NSString *_keyPath;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)etection. Error creating task.;
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (void)initWithLength:(CDUnknownBlockType)arg1 data:allocator:zone: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (void)N,V_allSystemwideClientDrawableIntervals;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(nonatomic) __weak id object; // @synthesize object=_object;
 
 @end

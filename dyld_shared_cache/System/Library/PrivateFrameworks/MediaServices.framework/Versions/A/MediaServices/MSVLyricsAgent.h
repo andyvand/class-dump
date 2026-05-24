@@ -11,22 +11,18 @@
 @interface MSVLyricsAgent : MSVLyricsXMLElement
 {
     NSString *_type;
-    NSString *_name;
-    NSString *_artistID;
 }
 
+- (void)J;
+- (id);
+- (id);
+- (id)_repeatableExpression;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)d to select a vehicle that is not in the garage.;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artistID; // @synthesize artistID=_artistID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

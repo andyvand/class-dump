@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WFImageSymbolConfiguration
 {
     double _pointSize;
-    NSArray *_hierarchicalColors;
-    unsigned long long _weight;
-    unsigned long long _representationType;
-    id _platformSymbolConfiguration;
 }
 
-+ (id);
++ (id){;
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)3|;
 - (double);
+- (id)S3|;
+- (id)3|;
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -38,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *hierarchicalColors; // @synthesize hierarchicalColors=_hierarchicalColors;
-@property(readonly, nonatomic) id platformSymbolConfiguration; // @synthesize platformSymbolConfiguration=_platformSymbolConfiguration;
-@property(readonly, nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
 @property(readonly, nonatomic) unsigned long long representationType; // @synthesize representationType=_representationType;
-@property(nonatomic) unsigned long long weight; // @synthesize weight=_weight;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions;
+@class ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions;
 
 @interface ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDigest : SISchemaInstrumentationMessage
 {
     ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions *_dimensions;
-    _Bool _hasDimensions;
 }
 
 - (void);
@@ -28,13 +27,11 @@
 - (id);
 - (id)N,V_rawNowPlayingRecencyCD;
 - (id)@"NSArray",C,N,V_siriCounts;
-- (id)aFailureCount;
+- (id)maFailureCount;
 - (void)essages.siriEventTypeUnion.dodmlClientEvent.audioFileResultTier1;
 
 // Remaining properties
 @property(retain, nonatomic) ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

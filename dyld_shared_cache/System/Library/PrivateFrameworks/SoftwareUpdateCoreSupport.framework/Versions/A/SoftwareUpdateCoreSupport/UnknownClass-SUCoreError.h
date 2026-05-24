@@ -5,32 +5,32 @@
 //
 
 @interface UnknownClass (SUCoreError)
-+ (id);
-+ (id);
-+ (_Bool);
-+ (long long);
-+ (id);
-+ (id);
++ (id)mouseSeed;
++ (id)mouseLocation;
++ (_Bool)measureMin:(id)arg1 max:ideal:stretchingPriority: /* Error: Ran out of types for this method. */;
++ (long long)maximumFrameLength;
++ (id)managesV4Navigation;
++ (id)config;
 - (unsigned long long);
 - (id);
 - (long long);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)minimumPaneCount;
+- (id)methodSignatureForSelector:(long long)arg1;
+- (long long)menuResponder;
+- (id)menuFormRepresentation;
 - (long long);
+- (_Bool)menuChangeDetector;
+- (id)control:didFailToFormatString:errorDescription: /* Error: Ran out of types for this method. */;
+- (id)continueTracking:at:inView: /* Error: Ran out of types for this method. */;
+- (id)contextWithPoint:radius: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (long long);
 @end

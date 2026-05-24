@@ -4,55 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerAudioFormat, MPCPlayerAudioRoute, MPCPlayerResponse, MPCPlayerResponseParticipant, MPModelGenericObject, MPNowPlayingInfoAudioFormat, NSArray, NSDictionary, NSIndexPath, NSString;
-@protocol MPCPlayerResponseItemMusicAudio;
+@class MPCPlayerResponse;
 
 @interface MPCPlayerResponseItem
 {
     unsigned long long _seekSupport;
-    _Bool _isFavoritable;
-    _Bool _placeholder;
-    _Bool _autoPlay;
-    _Bool _preview;
-    NSDictionary *_transitionInfo;
-    MPCPlayerAudioFormat *_preferredFormat;
-    MPCPlayerAudioFormat *_activeFormat;
-    unsigned long long _preferredTiers;
-    long long _activeFormatJustification;
-    NSArray *_alternateFormats;
-    MPCPlayerAudioRoute *_audioRoute;
-    NSString *_contentItemIdentifier;
-    NSString *_queueItemIdentifier;
-    long long _revision;
-    NSString *_localizedDurationString;
-    NSString *_explicitBadge;
-    NSArray *_languageOptionGroups;
-    MPCPlayerResponse *_response;
-    NSIndexPath *_indexPath;
-    MPModelGenericObject *_metadataObject;
-    MPCPlayerResponseParticipant *_enqueueingParticipant;
-    CDStruct_8b36af64 _duration;
 }
 
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (double)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)allowListedDataclassesForAppleAccountClassFull;
 - (id);
 - (id);
 - (id);
@@ -61,13 +21,30 @@
 - (id);
 - (id);
 - (id);
+- (id)ring",R,C;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id)Ke;
+- (id)respondsToSelector: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (CDStruct_8b36af64);
+- (CDStruct_ef20cf08);
 - (id);
 - (id);
 - (id);
@@ -83,39 +60,7 @@
 - (id)½ô];
 
 // Remaining properties
-@property(readonly, nonatomic) MPCPlayerAudioFormat *activeFormat; // @synthesize activeFormat=_activeFormat;
-@property(readonly, nonatomic) long long activeFormatJustification; // @synthesize activeFormatJustification=_activeFormatJustification;
-@property(readonly, nonatomic) NSArray *alternateFormats; // @synthesize alternateFormats=_alternateFormats;
-// Error: Property attributes should begin with the type ('T') attribute, property name: audioRoute
-// Property attributes: (null)
-
-@property(readonly, nonatomic, getter=isAutoPlay) _Bool autoPlay; // @synthesize autoPlay=_autoPlay;
-@property(readonly, copy, nonatomic) NSString *contentItemIdentifier; // @synthesize contentItemIdentifier=_contentItemIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_8b36af64 duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) MPCPlayerResponseParticipant *enqueueingParticipant; // @synthesize enqueueingParticipant=_enqueueingParticipant;
-@property(readonly, copy, nonatomic) NSString *explicitBadge; // @synthesize explicitBadge=_explicitBadge;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) NSArray *languageOptionGroups; // @synthesize languageOptionGroups=_languageOptionGroups;
-@property(readonly, copy, nonatomic) NSString *localizedDurationString; // @synthesize localizedDurationString=_localizedDurationString;
-@property(readonly, nonatomic) MPModelGenericObject *metadataObject; // @synthesize metadataObject=_metadataObject;
-@property(readonly, nonatomic) id <MPCPlayerResponseItemMusicAudio> musicAudio;
-@property(readonly, copy, nonatomic) MPNowPlayingInfoAudioFormat *nowPlayingAudioFormat;
-@property(readonly, nonatomic, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
-@property(readonly, nonatomic) MPCPlayerAudioFormat *preferredFormat; // @synthesize preferredFormat=_preferredFormat;
-@property(readonly, nonatomic) unsigned long long preferredTiers; // @synthesize preferredTiers=_preferredTiers;
-@property(readonly, nonatomic, getter=isPreview) _Bool preview; // @synthesize preview=_preview;
-@property(readonly, copy, nonatomic) NSString *queueItemIdentifier; // @synthesize queueItemIdentifier=_queueItemIdentifier;
 @property(readonly, nonatomic) __weak MPCPlayerResponse *response; // @synthesize response=_response;
-@property(readonly, nonatomic) long long revision; // @synthesize revision=_revision;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeUntilFirstAudioFrame;
-@property(readonly, copy, nonatomic) NSDictionary *transitionInfo; // @synthesize transitionInfo=_transitionInfo;
 
 @end
 

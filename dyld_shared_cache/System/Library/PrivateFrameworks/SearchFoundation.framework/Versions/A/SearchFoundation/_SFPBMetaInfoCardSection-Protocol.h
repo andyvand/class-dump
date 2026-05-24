@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBURL;
+@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage;
 
 @protocol _SFPBMetaInfoCardSection
-- (_SFPBImage *)ainsPersonalResult;
-- (int);
+- (_Bool);
+- (NSString *);
+- (void)$;
+- (void)str), kCFStringEncodingUTF8);
+- (_Bool)loadArtworkInfoForContainerSagaIDs:configuration:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)itemWithStoreAdamID: /* Error: Ran out of types for this method. */;
+- (void)addIndexingStateToAvailabilityStatus:(_SFPBImage *)arg1 error: /* Error: Ran out of types for this method. */;
+- (NSData *)photosGraphData;
+- (_SFPBColor *)X;
+- (_SFPBImage *)_containsPersonalResult;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(retain, nonatomic) _SFPBImage *badge;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) _SFPBURL *contentURL;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(retain, nonatomic) _SFPBURL *hostPageURL;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool trending;
-@property(copy, nonatomic) NSString *type;
 @end
 

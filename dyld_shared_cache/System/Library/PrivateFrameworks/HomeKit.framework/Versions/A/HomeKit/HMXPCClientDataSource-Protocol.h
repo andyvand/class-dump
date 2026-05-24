@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter;
+@class HMXPCClientConnectionProxy, NSNotificationCenter;
 @protocol HMDarwinNotificationProvider;
 
 @protocol HMXPCClientDataSource
-- (NSNotificationCenter *);
-- (id <HMDarwinNotificationProvider>)dWalletKeyMessageKeyOptions;
+- (HMXPCClientConnectionProxy *);
+- (id <HMDarwinNotificationProvider>)HMHomeAddWalletKeyMessageKeyOptions;
 
 // Remaining properties
-@property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider;
 @property(readonly) NSNotificationCenter *notificationCenter;
 @end
 

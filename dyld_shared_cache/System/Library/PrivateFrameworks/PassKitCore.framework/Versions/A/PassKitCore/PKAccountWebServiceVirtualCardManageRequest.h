@@ -6,31 +6,25 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKVirtualCardEncryptionFields;
+@class NSString, PKVirtualCardEncryptionFields;
 
 @interface PKAccountWebServiceVirtualCardManageRequest : PKAccountWebServiceRequest
 {
     PKVirtualCardEncryptionFields *_encryptionFields;
-    long long _action;
-    NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSString *_virtualCardIdentifier;
 }
 
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (id);
 - (id)lly added peer payment pass %s in state %ld;
-- (void)Title;
+- (void)learnMoreTitle;
 - (void);
 - (id)ðãæÿ;
 - (void)Ô;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *virtualCardIdentifier; // @synthesize virtualCardIdentifier=_virtualCardIdentifier;
 
 @end
 

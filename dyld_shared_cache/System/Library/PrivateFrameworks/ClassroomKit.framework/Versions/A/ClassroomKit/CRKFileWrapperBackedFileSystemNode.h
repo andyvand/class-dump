@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSFileWrapper, NSString;
+@class NSFileWrapper;
 
 @interface CRKFileWrapperBackedFileSystemNode
 {
     NSFileWrapper *_fileWrapper;
-    NSFileWrapper *_parentFileWrapper;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -27,12 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *children;
-@property(readonly, copy, nonatomic) NSData *content;
-@property(copy, nonatomic) NSString *fileName;
-@property(readonly, nonatomic) NSFileWrapper *fileWrapper; // @synthesize fileWrapper=_fileWrapper;
 @property(readonly, nonatomic) NSFileWrapper *parentFileWrapper; // @synthesize parentFileWrapper=_parentFileWrapper;
-@property(readonly, nonatomic) long long type;
 
 @end
 

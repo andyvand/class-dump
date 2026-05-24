@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)0x%08x) creating ACM Context;
++ (id)CP_SetupACMContextWithBootstrapToken;
++ (id)ng cdHash;
 
 @end
 

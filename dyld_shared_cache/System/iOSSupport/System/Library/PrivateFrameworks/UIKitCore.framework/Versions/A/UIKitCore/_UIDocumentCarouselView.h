@@ -6,60 +6,40 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableDictionary, NSString, UIPanGestureRecognizer, UITapGestureRecognizer, UIViewFloatAnimatableProperty;
+@class NSMutableDictionary;
 
 @interface _UIDocumentCarouselView : UIView
 {
     NSMutableDictionary *_containerViews;
-    UIViewFloatAnimatableProperty *_pagingFractionAnimatableProperty;
-    UIViewFloatAnimatableProperty *_revealAnimatableProperty;
-    unsigned long long _animationCount;
-    double _pagingFractionPanStart;
-    double _centerItemFraction;
-    unsigned long long _centerItemIndex;
-    _Bool _pagingEnabled;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    _Bool _lockedFocusEnvironmentForAnimation;
-    NSArray *_items;
 }
 
 - (void);
+- (void)"NSSet"24;
+- (void)setFlags:(long long)arg1;
+- (_Bool)handleEditMessageCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)al:%f /* Error: Ran out of types for this method. */;
+- (void)etting part %@ into parts at index:%d /* Error: Ran out of types for this method. */;
+- (void)allow handle(s) that have already been allowed, bailing. Handles:%@ /* Error: Ran out of types for this method. */;
+- (void)guid:(id)arg1 %@;
+- (void)ditions currently;
+- (void)IMItem"8;
+- (void)RELAY_ENROLLMENT_ALLOW;
+- (void)s to be identified and addressed.;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void)ing;
-- (id)eItemHostView;
-- (void)tivate:(struct CGRect)arg1;
-- (id)tForMenuFrame:(struct CGRect)arg1 previewFrame: /* Error: Ran out of types for this method. */;
-- (void)pdateReportFormatter;
+- (void)%x;
+- (void)keyRepeating;
+- (id)createItemHostView;
+- (void)_sceneWillDeactivate:(struct CGRect)arg1;
+- (id)_computedMenuAnchorPointForMenuFrame:(struct CGRect)arg1 previewFrame: /* Error: Ran out of types for this method. */;
+- (void)_UIFocusUpdateReportFormatter;
 - (void)Keyboards proxy]_block_invoke;
 - (void);
 - (void)+ÉØÜ\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPagingEnabled;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(nonatomic) _Bool lockedFocusEnvironmentForAnimation; // @synthesize lockedFocusEnvironmentForAnimation=_lockedFocusEnvironmentForAnimation;
-@property(readonly) Class superclass;
 
 @end
 

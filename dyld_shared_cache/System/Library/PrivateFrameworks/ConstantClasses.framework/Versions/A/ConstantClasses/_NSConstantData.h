@@ -10,7 +10,7 @@
 
 + (id);
 - (unsigned long long);
-- (void);
+- (void)setInterface:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (oneway void);
 - (unsigned long long);
 - (id);

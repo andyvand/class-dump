@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface HMIMotionDetection
 {
     float _motionScore;
-    NSArray *_motionVectors;
-    unsigned long long _motionMode;
-    struct CGSize _size;
-    struct CGRect _boundingBox;
 }
 
 + (id);
@@ -23,17 +17,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id))	;
 - (struct CGRect);
 - (struct CGSize);
 - (void);
 
 // Remaining properties
 @property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly) unsigned long long motionMode; // @synthesize motionMode=_motionMode;
-@property(readonly) float motionScore; // @synthesize motionScore=_motionScore;
-@property(readonly) NSArray *motionVectors; // @synthesize motionVectors=_motionVectors;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

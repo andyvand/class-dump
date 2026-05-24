@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (void);
-- (id)CharacteristicWithDatabaseID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)eEventCounter;
+- (id)findIntegerCharacteristicWithDatabaseID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)HMDLogEventMessageAnalyzerRemoteMessageTransportTypeSecureEventCounter;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;

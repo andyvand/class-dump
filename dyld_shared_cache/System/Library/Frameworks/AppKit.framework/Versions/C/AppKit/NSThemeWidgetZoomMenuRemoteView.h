@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     _Bool _runningMenu;
 }
 
-+ (id);
++ (id)HTTPMaximumConnectionsPerHost;
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)get file stats for trie mmap file <fd %d, file size %lld>:(double)arg1 [%d] %s;
+- (id)#;
 - (_Bool);
 - (id);
 - (void);

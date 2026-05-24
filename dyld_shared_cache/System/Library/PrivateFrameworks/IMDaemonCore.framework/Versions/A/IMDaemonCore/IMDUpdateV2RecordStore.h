@@ -11,15 +11,15 @@
     NSMutableDictionary *_recordNameToMessageItemMap;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)fontDilationStyle;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)";
 - (void)ÿ;
 
 // Remaining properties

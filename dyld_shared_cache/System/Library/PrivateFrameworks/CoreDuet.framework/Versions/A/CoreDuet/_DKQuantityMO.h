@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(nonatomic) double doubleValue; // @dynamic doubleValue;
-@property(nonatomic) long long quantityType; // @dynamic quantityType;
 @end
 

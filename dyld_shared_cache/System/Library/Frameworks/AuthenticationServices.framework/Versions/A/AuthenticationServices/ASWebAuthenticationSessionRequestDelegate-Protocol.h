@@ -5,5 +5,8 @@
 //
 
 @protocol ASWebAuthenticationSessionRequestDelegate
+
+@optional
+- (void);
 @end
 

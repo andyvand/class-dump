@@ -6,24 +6,18 @@
 
 #import <MailUI/MUIRichMessageCellBase.h>
 
-@class NSLayoutConstraint, NSString;
+@class NSLayoutConstraint;
 
 @interface RichMessageChildCellView : MUIRichMessageCellBase
 {
     NSLayoutConstraint *_stackViewLeadingConstraint;
-    NSLayoutConstraint *_senderLeadingConstraint;
-    NSLayoutConstraint *_statusSenderConstraint;
-    NSLayoutConstraint *_indicatorContainerViewLeadingConstraint;
-    NSLayoutConstraint *_dateTrailingConstraint;
-    NSLayoutConstraint *_stackViewTrailingConstraint;
-    NSLayoutConstraint *_statusAvatarConstraint;
 }
 
 + (id);
-+ (double);
++ (double);
 - (void);
-- (id);
-- (id);
+- (id));
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,6 +25,18 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -38,36 +44,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)etSubviews: /* Error: Ran out of types for this method. */;
+- (void)setSubviews: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *dateTrailingConstraint; // @synthesize dateTrailingConstraint=_dateTrailingConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutConstraint *indicatorContainerViewLeadingConstraint; // @synthesize indicatorContainerViewLeadingConstraint=_indicatorContainerViewLeadingConstraint;
-@property(readonly, nonatomic) unsigned long long numberOfSnippetLines;
-@property(nonatomic) __weak NSLayoutConstraint *senderLeadingConstraint; // @synthesize senderLeadingConstraint=_senderLeadingConstraint;
 @property(nonatomic) __weak NSLayoutConstraint *stackViewLeadingConstraint; // @synthesize stackViewLeadingConstraint=_stackViewLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *stackViewTrailingConstraint; // @synthesize stackViewTrailingConstraint=_stackViewTrailingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *statusAvatarConstraint; // @synthesize statusAvatarConstraint=_statusAvatarConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *statusSenderConstraint; // @synthesize statusSenderConstraint=_statusSenderConstraint;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreSuggestionsUI.SGFinanceKitServiceWrapper, CoreSuggestionsUI.SGTextProcessingServiceWrapper, NSObject;
-@protocol SGSuggestionsServiceMailProtocol, SGSuggestionsServiceMessagesProtocol;
+@class NSObject;
+@protocol SGSuggestionsServiceMailProtocol;
 
 @interface SGFoundInSuggestionGuardedData
 {
     NSObject<SGSuggestionsServiceMailProtocol> *_mailService;
-    NSObject<SGSuggestionsServiceMessagesProtocol> *_messageService;
-    CoreSuggestionsUI.SGTextProcessingServiceWrapper *_textProcessingService;
-    CoreSuggestionsUI.SGFinanceKitServiceWrapper *_financeKitService;
 }
 
 - (void);

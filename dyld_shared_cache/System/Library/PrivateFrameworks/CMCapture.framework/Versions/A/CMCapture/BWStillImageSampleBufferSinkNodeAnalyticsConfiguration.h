@@ -8,54 +8,34 @@ __attribute__((visibility("hidden")))
 @interface BWStillImageSampleBufferSinkNodeAnalyticsConfiguration
 {
     int _formatDimensionWidth;
-    int _formatDimensionHeight;
-    float _formatMaxFrameRate;
-    _Bool _isHighQualityPhotoWithVideoFormatSupported;
-    _Bool _isPhotoFormat;
-    _Bool _isTimeLapse;
-    unsigned int _pixelFormat;
-    _Bool _binned;
-    _Bool _isSemanticStyleRenderingSupported;
-    _Bool _fastCapturePrioritizationEnabled;
-    _Bool _isSmartStyleRenderingSupported;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)__TEXT;
+- (void)DoubleEnrollment;
+- (void)EDContentFormatsCollection;
+- (void)%g steps. Takes %g steps in parent stage %p starting at %g;
 - (void);
 - (int);
 - (void);
 - (_Bool);
 - (float);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool)y;
+- (void)tDetailKey.m;
 - (int);
-- (void)yPrioritization;
+- (void)clientRequestedQualityPrioritization;
 - (void);
 - (_Bool)ÿÉÿËÿÌÿ ÎÿªÐÿ²Òÿ¼ÔÿÅÖÿÐ×ÿÙÙÿßÙÿäÙÿæØÿKÄÿKÄÿKÄÿLÄÿLÄÿLÄÿLÄÿLÄÿMÄÿMÅÿMÅÿNÅÿNÅÿQÅÿZÇÿbÈÿkÊÿtËÿ~ÍÿÏÿÐÿÒÿ¢Ôÿ¬ÖÿµØÿ¾ÚÿÇÝÿÑßÿÚàÿááÿæâÿèâÿLÈÿLÈÿLÈÿLÈÿLÈÿMÈÿMÈÿMÈÿMÈÿNÈÿNÈÿNÉÿOÉÿOÉÿXÊÿaÌÿjÍÿsÏÿ~ÑÿÒÿÔÿÖÿ£Øÿ­Úÿ¶Üÿ¿ÞÿÈáÿÒãÿÛåÿâçÿççÿéèÿMËÿMËÿMËÿMËÿMËÿMËÿMËÿNËÿNËÿNËÿNËÿOËÿOËÿPËÿWÌÿ_ÍÿhÏÿrÐÿ|ÒÿÔÿÖÿ×ÿ£Ùÿ­Ûÿ¶Þÿ¿àÿÈãÿÓåÿÛçÿãéÿçêÿêêÿ;
 - (_Bool)6ÿ;ÿAÿGÿNÿTÿ[ÿbÿkÿsÿ|ÿÿÿ~ÿ|ÿ zÿ§xÿ­uÿ³tÿ·r;
 - (void)ÙÒÿïØÒÿðØÑÿoÐÇÿoÐÇÿoÐÇÿoÐÇÿoÐÇÿoÐÇÿoÐÇÿoÐÇÿnÐÆÿnÏÆÿnÏÆÿnÏÆÿvÐÇÿÑÇÿÑÈÿÒÉÿÓÊÿ£ÔËÿ¬ÕÍÿ´ÖÎÿ¼ØÐÿÃÙÑÿÉÚÒÿÐÜÔÿÕÝÕÿÚÞÖÿààÖÿåàÖÿêáÖÿïáÖÿòâÕÿóâÔÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿsÕÈÿuÕÈÿ~ÖÈÿ×ÊÿØËÿÙÌÿ£ÚÍÿ­ÛÏÿµÞÑÿ½ßÓÿÄáÔÿËâÕÿÒã×ÿØåØÿÝæØÿãèØÿééØÿîêØÿòëØÿõëØÿöë×ÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿvÙÉÿ|ÚÉÿÛÊÿÜËÿÝÍÿ¤àÑÿ­âÒÿµãÓÿ½åÕÿÅæÖÿÌç×ÿÓéØÿÚëÙÿßìÚÿåîÚÿëðÚÿññÚÿõñÚÿ÷òÙÿøòØÿyÝÊÿyÝÊÿyÝÊÿyÝÊÿyÝÊÿyÝÊÿyÝÊÿyÝÊÿyÝÊÿyÝÊÿyÜÊÿyÜÉÿyÜÉÿzÜÉÿÞËÿßÌÿâÐÿ¢äÒÿ¬åÓÿµçÔÿ½èÖÿÅê×ÿÌëØÿÔíÚÿÛïÛÿáñÛÿæòÛÿíôÛÿòöÚÿ÷÷Úÿù÷Úÿù÷ÙÿzÞËÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿzÞÊÿßÊÿàËÿäÐÿåÒÿªçÓÿ³èÔÿ»êÖÿÄë×ÿËíÙÿÔïÚÿÚñÛÿáóÛÿçõÛÿí÷ÚÿóøÚÿ÷ùÚÿúúÚÿúúÙÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÊÿ{ßÉÿ{ßÉÿ{ßÉÿ{ßÉÿ{ßÉÿàÊÿãÏÿåÑÿ¦æÒÿ¯èÓÿ¸éÕÿÁëÖÿÉí×ÿÒïÙÿÙñÙÿàóÚÿæõÚÿí÷ÙÿóøØÿ÷ùØÿúúØÿúú×ÿ;
 - (_Bool);
-- (unsigned int)onnectionHasEntitlement;
+- (unsigned int)_cfs_connectionHasEntitlement;
 - (void)MacBookPro11,3;
-- (_Bool)xLevelForSceneChangeMonitoring;
-- (_Bool)rter;
+- (_Bool)maxLuxLevelForSceneChangeMonitoring;
+- (_Bool)VideoConverter;
 
 // Remaining properties
-@property(nonatomic) _Bool binned; // @synthesize binned=_binned;
-@property(nonatomic) _Bool fastCapturePrioritizationEnabled; // @synthesize fastCapturePrioritizationEnabled=_fastCapturePrioritizationEnabled;
-@property(nonatomic) int formatDimensionHeight; // @synthesize formatDimensionHeight=_formatDimensionHeight;
 @property(nonatomic) int formatDimensionWidth; // @synthesize formatDimensionWidth=_formatDimensionWidth;
-@property(nonatomic) float formatMaxFrameRate; // @synthesize formatMaxFrameRate=_formatMaxFrameRate;
-@property(nonatomic) _Bool isHighQualityPhotoWithVideoFormatSupported; // @synthesize isHighQualityPhotoWithVideoFormatSupported=_isHighQualityPhotoWithVideoFormatSupported;
-@property(nonatomic) _Bool isPhotoFormat; // @synthesize isPhotoFormat=_isPhotoFormat;
-@property(nonatomic) _Bool isSemanticStyleRenderingSupported; // @synthesize isSemanticStyleRenderingSupported=_isSemanticStyleRenderingSupported;
-@property(nonatomic) _Bool isSmartStyleRenderingSupported; // @synthesize isSmartStyleRenderingSupported=_isSmartStyleRenderingSupported;
-@property(nonatomic) _Bool isTimeLapse; // @synthesize isTimeLapse=_isTimeLapse;
-@property(nonatomic) unsigned int pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

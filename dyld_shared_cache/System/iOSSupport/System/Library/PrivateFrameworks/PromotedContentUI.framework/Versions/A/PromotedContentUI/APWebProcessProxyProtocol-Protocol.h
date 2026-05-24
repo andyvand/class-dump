@@ -5,5 +5,11 @@
 //
 
 @protocol APWebProcessProxyProtocol
+- (void)face;
+- (void)ns;
+- (void)ity;
+- (void)Mode;
+- (void),N,V_primaryColor;
+- (void)Q,R,N,V_operation;
 @end
 

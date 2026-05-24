@@ -7,10 +7,10 @@
 @class NSDate;
 
 @protocol IMChatTranscriptStatusItem
+- (long long)for controlInfo type=kVCMediaControlInfoTypeIsDuplicatePacket, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (NSDate *)ncoder settings:%dx%d@%dfps, %d Kbps, %d IDR/sec, %s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateOfStatus;
-@property(readonly, nonatomic) long long expireStatusType;
 @property(readonly, nonatomic) long long statusType;
 @end
 

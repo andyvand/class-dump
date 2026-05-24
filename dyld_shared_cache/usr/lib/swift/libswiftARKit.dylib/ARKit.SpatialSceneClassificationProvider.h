@@ -8,8 +8,6 @@
 {
     id _cSpatialSceneClassificationProvider;
     id _cSpatialSceneClassificationConfiguration;
-    id updateQueue;
-    id updateContinuations;
 }
 
 @end

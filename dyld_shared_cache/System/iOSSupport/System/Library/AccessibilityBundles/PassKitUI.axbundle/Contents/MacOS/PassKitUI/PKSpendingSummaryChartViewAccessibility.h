@@ -11,12 +11,12 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilityTextViewTextOperationResponder;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)˿;
 - (id);
 - (id);
 - (_Bool);

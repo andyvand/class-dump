@@ -11,9 +11,6 @@
 @interface MKGradientPolylineRenderer : MKPolylineRenderer
 {
     NSArray *_colors;
-    NSArray *_externallySetColors;
-    NSArray *_locations;
-    NSArray *_externallySetLocations;
 }
 
 + (Class);
@@ -27,10 +24,9 @@
 - (id);
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)gestureRecognizerShouldBegin: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *colors;
 @property(readonly, copy, nonatomic) NSArray *locations;
 
 @end

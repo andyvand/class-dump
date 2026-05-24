@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSURL;
+@protocol NSSoundEngine;
+
 @protocol NSSoundEngineDelegate
+- (_Bool)hijklmnopqrstuvwxyz0123456789+/;
+- (NSData *);
+- (NSURL *),N,Sset_extractor:(id <NSSoundEngine>)arg1 ,V_extractor;
 @end
 

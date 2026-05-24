@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineSectionBarBlueprintViewCellProvider
 {
     id pillViewRenderer;
-    id sectionSelection;
-    id offlineProvider;
-    id unavailableItemAlpha;
 }
 
 @end

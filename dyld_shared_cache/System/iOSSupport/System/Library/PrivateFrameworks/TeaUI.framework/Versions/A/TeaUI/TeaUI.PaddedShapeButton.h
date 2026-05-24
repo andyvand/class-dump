@@ -7,26 +7,21 @@
 @interface TeaUI.PaddedShapeButton
 {
     struct CGPoint contentOffset;
-    id onTap;
-    id onMenuPresentation;
-    id _backgroundColor;
 }
 
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)FCPrivateDataSyncConditionTrue;
 - (_Bool);
 - (struct CGPoint);
-- (id);
+- (id)setThumbnailUltraHQMetadata:(struct CGRect)arg1;
 - (void);
 - (void)Ê;þÿRÿÿÂ;þÿäýÿ;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffset; // @synthesize contentOffset;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) _Bool highlighted;
 
 @end
 

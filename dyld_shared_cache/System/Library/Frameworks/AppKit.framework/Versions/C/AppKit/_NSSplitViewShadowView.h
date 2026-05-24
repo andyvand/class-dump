@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSSplitViewShadowView : NSView
 {
     double _shadowRevealAmount;
-    unsigned long long _shadowEdge;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool)T?%;
 - (double);
 - (unsigned long long);
 - (void);
@@ -22,11 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (struct CGSize);
+- (void)ds_isPastedCustomIcon;
+- (struct CGSize);
 
 // Remaining properties
-@property unsigned long long shadowEdge; // @synthesize shadowEdge=_shadowEdge;
 @property double shadowRevealAmount;
 
 @end

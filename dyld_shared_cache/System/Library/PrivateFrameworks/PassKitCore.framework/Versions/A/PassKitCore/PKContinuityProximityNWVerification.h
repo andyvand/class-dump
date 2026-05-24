@@ -14,7 +14,7 @@
 × ;
 - (id);
 - (id);
-- (id)data:(id)arg1 withFields:completion: /* Error: Ran out of types for this method. */;
+- (id)_populateDeviceMetadata:(id)arg1 withFields:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

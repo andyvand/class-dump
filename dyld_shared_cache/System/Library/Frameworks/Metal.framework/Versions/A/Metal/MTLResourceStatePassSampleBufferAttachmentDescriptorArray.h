@@ -10,8 +10,8 @@
 
 + (id)Ä;
 + (id);
-- (void)ZeroTextureWriteLOD;
-- (id)_Stencil8;
+- (void)_familySupportsNonZeroTextureWriteLOD;
+- (id)Depth24Unorm_Stencil8;
 
 @end
 

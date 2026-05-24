@@ -5,6 +5,6 @@
 //
 
 @protocol WBSDeallocationSentinelObserver
-- (void)orsIncludingShadowHosts;
+- (void)selectorsIncludingShadowHosts;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol SCKOperationThrottler
+- (void)Google_Protobuf_FileOptions;
 
 // Remaining properties
 @property _Bool suspended;

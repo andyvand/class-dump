@@ -7,7 +7,6 @@
 @interface TeaUI.KeyCommandScrollExclusionProvider
 {
     id invalidator;
-    id delegate;
 }
 
 @end

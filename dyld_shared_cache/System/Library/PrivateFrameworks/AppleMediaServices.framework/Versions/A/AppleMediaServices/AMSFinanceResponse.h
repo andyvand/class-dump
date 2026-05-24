@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSFinanceAuthenticateResponse, AMSFinanceDialogResponse, AMSFinancePaymentSheetResponse, AMSURLTaskInfo, NSArray, NSDictionary, NSError, NSURL;
+@class AMSFinanceAuthenticateResponse;
 
 @interface AMSFinanceResponse
 {
     AMSFinanceAuthenticateResponse *_cachedAuthenticateResponse;
-    AMSFinanceDialogResponse *_cachedDialogResponse;
-    AMSFinancePaymentSheetResponse *_cachedPaymentSheetResponse;
-    NSDictionary *_responseDictionary;
-    AMSURLTaskInfo *_taskInfo;
-    long long _dialogKind;
 }
 
 + (id);
@@ -21,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (long long);
+- (void)im_boolForKey:(id)arg1 defaultValue: /* Error: Ran out of types for this method. */;
+- (id)ToContactIDs. The incoming handle map will be dropped. Error:%@ /* Error: Ran out of types for this method. */;
+- (long long)IMAddressBookInvalidateCacheNotification;
 - (id);
 - (id);
 - (void);
@@ -37,7 +32,7 @@
 - (id);
 - (id);
 - (void);
-- (id)en:searchDirectory: /* Error: Ran out of types for this method. */;
+- (id)allFlagGroupsIncludingHidden:searchDirectory: /* Error: Ran out of types for this method. */;
 - (id)billing info failed for no active iTunes account;
 - (void)"$ÂÄ"$Ä"$ïÄ"$rÄ"$Ä"$¶Ä"$ÊÄ"$JÄ"$ÉÄ"$6Ä"$ãÄ"$¹Ä"$FÄ"$LÄ"$nÄ"$ýÄ"$Ä"$@Ä"$&Ä"$
 Ä"$ÿÄ"$>Ä"$/Ä"$Ä"$Ä"$Ä"$Ä"$âÄ"$+Ä"$AÄ"$¥Ä"$Ä"$IÄ"$çÄ"$óÄ"$Ä"$ØÄ"$)Ä"$ÔÄ"$_Ä"$ñÄ"$Ä"$XÄ"$,Ä"$mÄ"$	Ä"$RÄ"$ëÄ"$VÄ"$Ä"$¬Ä"$Ä"$øÄ"$pÄ"$Ä"$Ä"$Ä"$PÄ"$qÄ"$#Ä"$Ä"$éÄ"$EÄ"$ºÄ"$ÏÄ"$9Ä"$Ä"$ÆÄ"$Ä"$Ä"$ÍÄ"$§Ä"$kÄ"$"Ä"$ËÄ"$öÄ"${Ä"$sÄ"$vÄ"$ìÄ"$ÞÄ"$®Ä"$UÄ"$Ä"$zÄ"$}Ä"$ÛÄ"$Ä"$×Ä"$¸Ä"$<Ä"$üÄ"$uÄ"$Ä"$Ä"$jÄ"$µÄ"$Ä"$Ä"$Ä"$¿Ä"$SÄ"$Ä"$tÄ"$Ä"$Ä"$êÄ"$0Ä"$ôÄ"$(Ä"$Ä"$GÄ"$Ä"$MÄ"$Ä"$Ä"$Ä"$÷Ä"$±Ä"$bÄ"$1Ä"$?Ä"$ðÄ"$èÄ"$õÄ"$wÄ"$Ä"$ÌÄ"$àÄ"$Ä"$ÁÄ"$ Ä"$Ä"$²Ä"$ßÄ"$©Ä"$Ä"$¤Ä"$ÖÄ"$-Ä"$WÄ"$lÄ"$\Ä"$2Ä"$Ä"$ÃÄ"$¼Ä"$~Ä"$Ä"$¡Ä"$Ä"$Ä"$¦Ä"$;
@@ -48,18 +43,7 @@ càõLÉÀä¡7	èJXM^îw­Yÿnä¹»A¶ÿå=í/pù\!û;~	p�
 - (id);
 
 // Remaining properties
-@property(readonly) ACAccount *account;
-@property(readonly) NSArray *actions;
 @property(retain) AMSFinanceAuthenticateResponse *cachedAuthenticateResponse; // @synthesize cachedAuthenticateResponse=_cachedAuthenticateResponse;
-@property(retain) AMSFinanceDialogResponse *cachedDialogResponse; // @synthesize cachedDialogResponse=_cachedDialogResponse;
-@property(retain) AMSFinancePaymentSheetResponse *cachedPaymentSheetResponse; // @synthesize cachedPaymentSheetResponse=_cachedPaymentSheetResponse;
-@property(readonly) long long dialogKind; // @synthesize dialogKind=_dialogKind;
-@property(readonly) NSArray *pingURLs;
-@property(retain) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly) NSError *serverError;
-@property(readonly) _Bool supportedProtocolVersion;
-@property(retain) AMSURLTaskInfo *taskInfo; // @synthesize taskInfo=_taskInfo;
-@property(readonly) NSURL *versionMismatchURL;
 
 @end
 

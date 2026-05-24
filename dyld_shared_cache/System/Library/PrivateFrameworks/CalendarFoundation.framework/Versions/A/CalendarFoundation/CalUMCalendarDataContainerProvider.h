@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CalUMCalendarDataContainerProvider
 {
 }
@@ -16,17 +14,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)O;
+- (id)MSRHcuHeader_t=II}{MSRHcuEntryHeader_t=II}{?={?=(?={?=iIB(?={?=BI{?=III}{?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?=IIIII}{?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?={?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}{?=fff}}{?=IIII}{?={?=II}{?=III}}})})}}{MSRHcuEntryHeader_t=II}{?=[4{?=b11b11b10}][4{?=b12b12b8}][4{?=b11b11b10}]}}24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIGKGameCenterFriendPlayerViewWrapper;
 @protocol CNUICoreParentContainerProvider;
 
 @interface ContactsUICore.ActionsProvider__priv_B36447D588C06954708674886B340C63
 {
     id <CNUICoreParentContainerProvider> containerProvider;
-    _Bool allowsEditing;
-    _Bool allowsActions;
-    CNUIGKGameCenterFriendPlayerViewWrapper *gameCenterPlayerViewWrapper;
-    _Bool shouldShowInlineActions;
 }
 
 - (_Bool);
@@ -29,7 +24,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (id);
 - (id);
@@ -37,14 +32,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)saveRequestToUpdateContactListByAddingContacts:toContainer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsActions; // @synthesize allowsActions;
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing;
 @property(nonatomic, retain) id <CNUICoreParentContainerProvider> containerProvider; // @synthesize containerProvider;
-@property(nonatomic, retain) CNUIGKGameCenterFriendPlayerViewWrapper *gameCenterPlayerViewWrapper; // @synthesize gameCenterPlayerViewWrapper;
-@property(nonatomic) _Bool shouldShowInlineActions; // @synthesize shouldShowInlineActions;
 
 @end
 

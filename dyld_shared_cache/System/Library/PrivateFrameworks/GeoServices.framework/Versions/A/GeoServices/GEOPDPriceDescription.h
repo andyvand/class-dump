@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPriceDescription
 {
     PBUnknownFields *_unknownFields;
-    NSString *_priceDescription;
 }
 
 + (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)t<OS_dispatch_queue>"24;
-- (id)port;
+- (id)_mapViewLocationPuckInViewport;
 - (id)¥;
 - (void);
 

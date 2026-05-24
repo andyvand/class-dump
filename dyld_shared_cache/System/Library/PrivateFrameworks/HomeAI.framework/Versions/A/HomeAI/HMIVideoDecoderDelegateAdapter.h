@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMIVideoDecoderDelegateAdapter
 {
     CDUnknownBlockType _decoderDidDecodeSampleBuffer;
-    CDUnknownBlockType _decoderDidFailWithError;
 }
 
 - (void);
@@ -21,15 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy) CDUnknownBlockType decoderDidDecodeSampleBuffer; // @synthesize decoderDidDecodeSampleBuffer=_decoderDidDecodeSampleBuffer;
-@property(copy) CDUnknownBlockType decoderDidFailWithError; // @synthesize decoderDidFailWithError=_decoderDidFailWithError;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

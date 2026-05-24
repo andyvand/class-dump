@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)_timeValue;
 + (id);
 + (void);
 - (unsigned long long);

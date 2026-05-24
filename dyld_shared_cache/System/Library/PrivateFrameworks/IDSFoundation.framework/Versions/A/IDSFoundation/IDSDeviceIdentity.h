@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccountIdentity, IDSMPFullDeviceIdentity, IDSMPFullLegacyIdentity, NSString;
-@protocol ENDevicePublicKey;
+@class IDSMPFullLegacyIdentity;
 
 @interface IDSDeviceIdentity
 {
     IDSMPFullLegacyIdentity *_legacyIdentity;
-    IDSMPFullDeviceIdentity *_modernIdentity;
-    IDSAccountIdentity *_accountIdentity;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@	;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id):error:lastCall: /* Error: Ran out of types for this method. */;
+- (id)initWithResponseCode:error:lastCall: /* Error: Ran out of types for this method. */;
 - (void)iceMail Sync;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <ENDevicePublicKey> devicePublicKey;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IDSMPFullLegacyIdentity *legacyIdentity; // @synthesize legacyIdentity=_legacyIdentity;
-@property(readonly, nonatomic) IDSMPFullDeviceIdentity *modernIdentity; // @synthesize modernIdentity=_modernIdentity;
-@property(readonly) Class superclass;
 
 @end
 

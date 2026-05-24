@@ -11,20 +11,13 @@
 @interface CEMApplicationListActiveNSExtensionsCommand_StatusExtensionsItem : CEMPayloadBase
 {
     NSString *_statusBundleIdentifier;
-    NSString *_statusExtensionPoint;
-    NSString *_statusDisplayName;
-    NSString *_statusContainerDisplayName;
-    NSString *_statusContainerIdentifier;
-    NSString *_statusPath;
-    NSString *_statusVersion;
-    NSString *_statusUserElection;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,27 +25,20 @@
 - (id);
 - (id);
 - (void);
+- (void)h;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)mmmmmmmmmmmnmmmommmm............mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnmmmmmmmmmmmmmmm..................pppp.ppppppppppppppppppppppppppp.pp.p..p.pppppppppp.pppp.p.p......p....p.p.p.ppp.pp.p..p.p.p.p.p.pp.p..pppp.ppppppp.pppp.pppp.p.pppppppppp.ppppppppppppppppp.....ppp.ppppp.ppppppppppppppppp..................................................................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *statusBundleIdentifier; // @synthesize statusBundleIdentifier=_statusBundleIdentifier;
-@property(copy, nonatomic) NSString *statusContainerDisplayName; // @synthesize statusContainerDisplayName=_statusContainerDisplayName;
-@property(copy, nonatomic) NSString *statusContainerIdentifier; // @synthesize statusContainerIdentifier=_statusContainerIdentifier;
-@property(copy, nonatomic) NSString *statusDisplayName; // @synthesize statusDisplayName=_statusDisplayName;
-@property(copy, nonatomic) NSString *statusExtensionPoint; // @synthesize statusExtensionPoint=_statusExtensionPoint;
-@property(copy, nonatomic) NSString *statusPath; // @synthesize statusPath=_statusPath;
-@property(copy, nonatomic) NSString *statusUserElection; // @synthesize statusUserElection=_statusUserElection;
-@property(copy, nonatomic) NSString *statusVersion; // @synthesize statusVersion=_statusVersion;
 
 @end
 

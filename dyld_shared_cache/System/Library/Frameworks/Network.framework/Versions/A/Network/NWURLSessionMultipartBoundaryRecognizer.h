@@ -8,14 +8,9 @@ __attribute__((visibility("hidden")))
 @interface NWURLSessionMultipartBoundaryRecognizer
 {
     char *_pattern;
-    unsigned long long _patternLength;
-    char *_rollbackBuffer;
-    unsigned long long _rollbackBufferCapacity;
-    unsigned long long _start;
-    unsigned long long _end;
 }
 
-- (void);
+- (void)nvalid; toc range is outside file;
 
 @end
 

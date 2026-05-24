@@ -4,91 +4,80 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXDatabase, NSString, NSURL;
+@class CXDatabase;
 
 @interface CXCallDirectoryStore
 {
     _Bool _temporary;
-    CXDatabase *_database;
-    long long _lastAddBlockingEntriesCount;
-    NSString *_addBlockingEntriesInsertPhoneNumberBlockingEntrySQL;
-    long long _lastRemoveBlockingEntriesCount;
-    NSString *_removeBlockingEntriesSQL;
-    long long _lastAddIdentificationEntriesCount;
-    NSString *_addIdentificationEntriesInsertLabelsSQL;
-    NSString *_addIdentificationEntriesInsertPhoneNumberIdentificationEntrySQL;
-    long long _lastAddPhoneNumbersCount;
-    NSString *_addPhoneNumbersSQL;
-    long long _lastRemoveIdentificationEntriesCount;
-    NSString *_removeIdentificationEntriesSQL;
 }
 
 + (id);
 + (_Bool);
-+ (id);
-- (id);
-- (_Bool);
++ (id)%@; serviceName = %@; clientID = %@; privateEmail = %@; groupID = %@;;
+- (id)%@:%i /* Error: Ran out of types for this method. */;
+- (_Bool)9daeTArrayI11daeSmartRefI23domFx_clearcolor_commonEE;
 - (long long);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)uR� ;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (long long);
 - (id);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (id);
-- (void);
-- (_Bool);
+- (void)a
+;
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (long long);
+- (id);
+- (void);
+- (_Bool);
+- (long long);
+- (_Bool)P;
+- (_Bool);
+- (_Bool);
+- (long long);
+- (id)T@"NSString",C,V_customPlaceholderText;
+- (long long)lH;
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (long long)th_splat;
+- (id);
+- (void);
+- (_Bool)fileExistsAtPath:(id)arg1;
+- (void){public}@ with response %{public}@;
+- (_Bool)eUInt8 only supports NSNumber.;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)";
+- (id);
+- (long long);
+- (void);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)M;
+- (id);
+- (id)MPMutableUniversalStoreIdentifiers;
+- (_Bool);
+- (_Bool)MPModelPropertySongGaplessInfo;
+- (long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (long long);
 - (_Bool);
@@ -98,13 +87,13 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)_recordGroupIdentifierForExitCleanup:(long long)arg1 completionHandler:(id)arg2;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)sendBlueprintsWithCompletionHandler:(id)arg1;
 - (_Bool);
 - (long long);
 - (id);
@@ -120,22 +109,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *addBlockingEntriesInsertPhoneNumberBlockingEntrySQL; // @synthesize addBlockingEntriesInsertPhoneNumberBlockingEntrySQL=_addBlockingEntriesInsertPhoneNumberBlockingEntrySQL;
-@property(copy, nonatomic) NSString *addIdentificationEntriesInsertLabelsSQL; // @synthesize addIdentificationEntriesInsertLabelsSQL=_addIdentificationEntriesInsertLabelsSQL;
-@property(copy, nonatomic) NSString *addIdentificationEntriesInsertPhoneNumberIdentificationEntrySQL; // @synthesize addIdentificationEntriesInsertPhoneNumberIdentificationEntrySQL=_addIdentificationEntriesInsertPhoneNumberIdentificationEntrySQL;
-@property(copy, nonatomic) NSString *addPhoneNumbersSQL; // @synthesize addPhoneNumbersSQL=_addPhoneNumbersSQL;
-@property(readonly, nonatomic, getter=isCorrupt) _Bool corrupt;
 @property(retain, nonatomic) CXDatabase *database; // @synthesize database=_database;
-@property(nonatomic) long long lastAddBlockingEntriesCount; // @synthesize lastAddBlockingEntriesCount=_lastAddBlockingEntriesCount;
-@property(nonatomic) long long lastAddIdentificationEntriesCount; // @synthesize lastAddIdentificationEntriesCount=_lastAddIdentificationEntriesCount;
-@property(nonatomic) long long lastAddPhoneNumbersCount; // @synthesize lastAddPhoneNumbersCount=_lastAddPhoneNumbersCount;
-@property(nonatomic) long long lastRemoveBlockingEntriesCount; // @synthesize lastRemoveBlockingEntriesCount=_lastRemoveBlockingEntriesCount;
-@property(nonatomic) long long lastRemoveIdentificationEntriesCount; // @synthesize lastRemoveIdentificationEntriesCount=_lastRemoveIdentificationEntriesCount;
-@property(copy, nonatomic) NSString *removeBlockingEntriesSQL; // @synthesize removeBlockingEntriesSQL=_removeBlockingEntriesSQL;
-@property(copy, nonatomic) NSString *removeIdentificationEntriesSQL; // @synthesize removeIdentificationEntriesSQL=_removeIdentificationEntriesSQL;
-@property(readonly, nonatomic) long long schemaVersion;
-@property(nonatomic, getter=isTemporary) _Bool temporary; // @synthesize temporary=_temporary;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

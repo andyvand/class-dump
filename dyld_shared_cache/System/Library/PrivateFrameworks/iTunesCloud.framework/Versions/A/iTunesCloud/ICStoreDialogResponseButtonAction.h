@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ICStoreDialogResponseButtonAction
 {
@@ -23,13 +23,7 @@
 - (id)change:"%{public}@". Posting %@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *URLString;
 @property(readonly, copy, nonatomic) NSDictionary *actionDictionary; // @synthesize actionDictionary=_actionDictionary;
-@property(readonly, copy, nonatomic) NSString *buyParams;
-@property(readonly, copy, nonatomic) NSString *itemName;
-@property(readonly, copy, nonatomic) NSString *kind;
-@property(readonly, copy, nonatomic) NSString *subtarget;
-@property(readonly, nonatomic) long long type;
 
 @end
 

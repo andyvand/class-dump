@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatPackageTreeViewController
 {
     id editor;
-    id styler;
-    id model;
-    id $__lazy_storage_$_hostingController;
 }
 
 - (id);

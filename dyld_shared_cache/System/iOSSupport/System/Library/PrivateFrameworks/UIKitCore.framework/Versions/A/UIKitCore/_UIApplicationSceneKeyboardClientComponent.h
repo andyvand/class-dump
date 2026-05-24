@@ -9,16 +9,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (struct UIEdgeInsets);
-- (_Bool);
+- (_Bool)24B228q232q240@?<v@?>248;
+- (struct UIEdgeInsets)eedsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)_submitStorageMetricsWithError: /* Error: Ran out of types for this method. */;
 - (void)Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isKeyboardDockDisabled;
 @property(readonly, nonatomic) struct UIEdgeInsets minimumKeyboardPadding;
-@property(readonly, nonatomic) _Bool suppressKeyboardFocusRequests;
 
 @end
 

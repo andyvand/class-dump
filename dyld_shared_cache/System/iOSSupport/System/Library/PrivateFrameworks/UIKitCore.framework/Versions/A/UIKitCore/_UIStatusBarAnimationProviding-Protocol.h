@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIStatusBarHideAnimationParameters, UIStatusBarStyleAnimationParameters;
+@class UIStatusBarStyleAnimationParameters;
 
 @protocol _UIStatusBarAnimationProviding
-- (UIStatusBarStyleAnimationParameters *)Range;
+- (UIStatusBarStyleAnimationParameters *)targetRange;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_preferredStatusBarHideAnimationParameters) UIStatusBarHideAnimationParameters *preferredStatusBarHideAnimationParameters;
 @property(readonly, nonatomic, getter=_preferredStatusBarStyleAnimationParameters) UIStatusBarStyleAnimationParameters *preferredStatusBarStyleAnimationParameters;
-@property(readonly, nonatomic) long long preferredStatusBarUpdateAnimation;
 @end
 

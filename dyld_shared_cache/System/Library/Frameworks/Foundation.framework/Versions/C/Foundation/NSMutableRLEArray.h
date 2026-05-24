@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9h;
 - (id)Offset"q"utf8NextCodePoint"q"utf16CurrentCodePointLength"q"line"q"column"q};
 
 @end

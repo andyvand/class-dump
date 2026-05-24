@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)uerURL: /* Error: Ran out of types for this method. */;
+- (void)setPirPrivacyPassIssuerURL: /* Error: Ran out of types for this method. */;
 - (id)3IDEA;
 
 @end

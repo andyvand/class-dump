@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVAudioHardwareSelectorItem
 {
     struct SelectorControlItem _serverState;
 }
 
-- (id);
+- (id)NEFilterDataExtensionProviderProtocol;
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)stream;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long ID;
-@property(readonly, nonatomic) unsigned int kind;
-@property(readonly, nonatomic) NSString *name;
 
 @end
 

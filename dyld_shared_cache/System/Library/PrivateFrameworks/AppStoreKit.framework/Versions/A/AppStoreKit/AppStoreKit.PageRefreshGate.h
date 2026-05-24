@@ -7,14 +7,6 @@
 @interface AppStoreKit.PageRefreshGate
 {
     id performRefresh;
-    id policy;
-    id viewIsVisible;
-    id appIsForegrounded;
-    id isVisible;
-    id lastOffscreenDate;
-    id delayedRefresh;
-    id displayDeviceDrivenContentChanged;
-    id displayDeviceDrivenContentChangeToken;
 }
 
 @end

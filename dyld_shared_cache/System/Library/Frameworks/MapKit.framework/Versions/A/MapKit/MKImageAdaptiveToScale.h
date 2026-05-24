@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKCustomImageRepAdaptiveToScale, NSCache;
-
 __attribute__((visibility("hidden")))
 @interface MKImageAdaptiveToScale
 {
     CDUnknownBlockType _vkImageWithScale;
-    NSCache *_vkImageCache;
-    MKCustomImageRepAdaptiveToScale *_backingImageRep;
 }
 
 - (id);
@@ -20,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
+- (id)rectory at path %{public}@ %{public}@;
 - (id);
-- (id);
-- (void)ureCount:text:locale: /* Error: Ran out of types for this method. */;
+- (void)getClusterImageTextForClusterFeatureCount:text:locale: /* Error: Ran out of types for this method. */;
 
 @end
 

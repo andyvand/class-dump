@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SRFTextRequest;
-
 @interface SiriUILaunchOptions
 {
     long long _screenID;
-    long long _inputMode;
-    SRFTextRequest *_textRequest;
-    struct CGRect _originFrame;
 }
 
 + (_Bool);
@@ -28,10 +23,7 @@
 - (long long)Controller",&,N,V_saeVoiceTrainingController;
 
 // Remaining properties
-@property(nonatomic) long long inputMode; // @synthesize inputMode=_inputMode;
 @property(nonatomic) struct CGRect originFrame; // @synthesize originFrame=_originFrame;
-@property(nonatomic) long long screenID; // @synthesize screenID=_screenID;
-@property(copy, nonatomic) SRFTextRequest *textRequest; // @synthesize textRequest=_textRequest;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <IOBluetoothUI/IOBluetoothConcreteDeviceController.h>
 
-@class NSButton, NSString, NSTableView, ObjectTableDataSource;
+@class NSButton;
 
 @interface IOBluetoothConcreteServiceBrowserController : IOBluetoothConcreteDeviceController
 {
     NSButton *mRefreshServicesButton;
-    NSTableView *mServicesTableView;
-    ObjectTableDataSource *mServicesTableDataSource;
-    _Bool mSDPQueryInProgress;
 }
 
 + (id);
@@ -44,13 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

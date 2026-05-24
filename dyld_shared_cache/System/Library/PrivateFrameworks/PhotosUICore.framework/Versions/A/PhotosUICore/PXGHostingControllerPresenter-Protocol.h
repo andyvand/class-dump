@@ -8,7 +8,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double displayScale;
 @property(readonly, nonatomic) struct CGSize size;
 @end
 

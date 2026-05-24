@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface CTServiceDisconnectionStatus
 {
     _Bool _activationFailure;
-    int _contextType;
-    int _error;
-    NSString *_apnName;
-    NSNumber *_connectionMask;
-    NSNumber *_rawCauseCode;
-    NSNumber *_pdp;
 }
 
-+ (_Bool);
++ (_Bool)f AVAssetReader (using -addOutput:) and calling -startReading on that asset reader /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -32,7 +24,7 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)instanceId;
 - (_Bool);
 - (id);
 - (void)
@@ -40,13 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool activationFailure; // @synthesize activationFailure=_activationFailure;
-@property(retain, nonatomic) NSString *apnName; // @synthesize apnName=_apnName;
-@property(retain, nonatomic) NSNumber *connectionMask; // @synthesize connectionMask=_connectionMask;
 @property(nonatomic) int contextType; // @synthesize contextType=_contextType;
-@property(nonatomic) int error; // @synthesize error=_error;
-@property(retain, nonatomic) NSNumber *pdp; // @synthesize pdp=_pdp;
-@property(retain, nonatomic) NSNumber *rawCauseCode; // @synthesize rawCauseCode=_rawCauseCode;
 
 @end
 

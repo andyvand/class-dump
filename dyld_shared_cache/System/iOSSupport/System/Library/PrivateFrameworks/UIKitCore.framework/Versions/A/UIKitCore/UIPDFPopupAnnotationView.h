@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UIImage *_image;
 }
 
-- (void);
+- (void)_payloadAllowWallpaperModification;
 - (void);
 
 @end

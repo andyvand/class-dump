@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMMediaError, DOMTimeRanges, NSString;
+@class DOMMediaError;
 
 @interface DOMHTMLMediaElement : DOMHTMLElement
 {
@@ -18,14 +18,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id).;
 - (unsigned short);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)]M;
 - (double);
 - (void);
 - (_Bool);
@@ -43,7 +43,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)to encode request for delegateChallengeTokenUrl, error:%{public}@ /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (unsigned short);
@@ -57,38 +57,12 @@
 - (id);
 - (void);
 - (void)ef0fggÄk°oÜo¨qràr$s@sPuuvvtx|y;
-- (void);
+- (void)Download;
 - (_Bool)ÿÿ;
 - (void);
 
 // Remaining properties
-@property _Bool autoplay;
-@property(readonly) DOMTimeRanges *buffered;
-@property _Bool controls;
-@property(copy) NSString *crossOrigin;
-@property(readonly, copy) NSString *currentSrc;
-@property double currentTime;
-@property _Bool defaultMuted;
-@property double defaultPlaybackRate;
-@property(readonly) double duration;
-@property(readonly) _Bool ended;
 @property(readonly) DOMMediaError *error;
-@property _Bool loop;
-@property(copy) NSString *mediaGroup;
-@property _Bool muted;
-@property(readonly) unsigned short networkState;
-@property(readonly) _Bool paused;
-@property double playbackRate;
-@property(readonly) DOMTimeRanges *played;
-@property(copy) NSString *preload;
-@property(readonly) unsigned short readyState;
-@property(readonly) DOMTimeRanges *seekable;
-@property(readonly) _Bool seeking;
-@property(copy) NSString *src;
-@property double volume;
-@property _Bool webkitClosedCaptionsVisible;
-@property(readonly) _Bool webkitHasClosedCaptions;
-@property _Bool webkitPreservesPitch;
 
 @end
 

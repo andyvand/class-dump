@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol CALNSuggestedEventNotificationDataSource
+- (void)ipv4Address;
+- (NSArray *)cancelOperation: /* Error: Ran out of types for this method. */;
 @end
 

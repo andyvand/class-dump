@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (id)ode;
-- (void)rLaunch:(id)arg1;
+- (id)cplReturnCode;
+- (void)cancelScheduledForcedTaskForLaunch:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *faces;

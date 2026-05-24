@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol INSetBinarySettingIntentResponseExport
-- (long long)icationType;
+- (NSString *);
+- (void)hostAppAuditToken;
+- (long long)hasUserNotificationType;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *errorDetail;
-@property long long oldValue;
-@property long long updatedValue;
 @end
 

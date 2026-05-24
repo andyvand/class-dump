@@ -5,5 +5,6 @@
 //
 
 @protocol EMOutgoingMessageRepositoryInterfaceObserver
+- (void)p;
 @end
 

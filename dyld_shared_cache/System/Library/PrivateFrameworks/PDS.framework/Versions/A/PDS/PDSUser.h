@@ -9,7 +9,6 @@
 @interface PDSUser
 {
     BOOL _userType;
-    NSString *_userID;
 }
 
 + (id);
@@ -17,18 +16,17 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)initWithClientConnection:(id)arg1;
+- (unsigned long long);
+- (_Bool)!;
+- (void)o not use map vector;
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (BOOL);
+- (BOOL);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *userID; // @synthesize userID=_userID;
-@property(readonly, nonatomic) BOOL userType; // @synthesize userType=_userType;
 
 @end
 

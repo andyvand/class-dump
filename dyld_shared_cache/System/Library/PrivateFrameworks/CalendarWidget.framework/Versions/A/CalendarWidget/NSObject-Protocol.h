@@ -7,15 +7,21 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)memories and %lu with local memories.
+	Enrichment date range:%@ - %@ /* Error: Ran out of types for this method. */;
+- (id)lu without local memories and %lu with local memories.
+	Enrichment date range:%@ - %@ /* Error: Ran out of types for this method. */;
+- (id)hMemoriesEnrichmentProcessor] Found %lu Memory nodes to enrich out of %lu without local memories and %lu with local memories.
+	Enrichment date range:(SEL)arg1 %@ - %@;
+- (id)whose lastEnrichmentDate is nil.;
+- (id)and %lu with local memories whose lastEnrichmentDate is nil.;
+- (Class)%tu memory nodes (%tu recently enriched).;
+- (oneway void);
+- (NSString *)P;
+- (id);
 - (struct _NSZone *)]K³+¸ûê%GtGGSg_Dë%tGG\ë%GA_Góë%G_AXtGG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

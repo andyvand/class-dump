@@ -7,15 +7,6 @@
 @interface ChatKit.LegacyStoragePluginCounts
 {
     id cachedDate;
-    id totalSpaceOfAttachments;
-    id spaceSavedByDeletingNonSyncedAttachments;
-    id nonPurgableFileTypeToSizeMap;
-    id messageDirectoryContents;
-    id totalSpaceOfNonPurgeableAttachments;
-    id spaceTakenBySyncedConversations;
-    id spaceTakenByUnsyncedConversations;
-    id spaceSavedByAutoDeletingMessages;
-    id didCalculateForCloudKit;
 }
 
 @end

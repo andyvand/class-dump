@@ -11,12 +11,12 @@
     TSURetainedPointerKeyDictionary *_layerStates;
 }
 
+- (void)RawValue;
+- (_Bool)noFiltersSelected;
+- (id)nowDate;
+- (id)format;
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void))	;
 
 // Remaining properties
 @property(retain, nonatomic) TSURetainedPointerKeyDictionary *layerStates; // @synthesize layerStates=_layerStates;

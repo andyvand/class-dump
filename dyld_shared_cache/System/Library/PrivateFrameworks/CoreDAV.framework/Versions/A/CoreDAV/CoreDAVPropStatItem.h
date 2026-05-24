@@ -6,23 +6,20 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVErrorItem, CoreDAVLeafItem;
+@class CoreDAVLeafItem;
 
 @interface CoreDAVPropStatItem : CoreDAVItem
 {
     CoreDAVLeafItem *_status;
-    CoreDAVItem *_prop;
-    CoreDAVErrorItem *_errorItem;
-    CoreDAVLeafItem *_responseDescription;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)addContact:toContainerWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVErrorItem *errorItem; // @synthesize errorItem=_errorItem;
-@property(retain, nonatomic) CoreDAVItem *prop; // @synthesize prop=_prop;
-@property(retain, nonatomic) CoreDAVLeafItem *responseDescription; // @synthesize responseDescription=_responseDescription;
 @property(retain, nonatomic) CoreDAVLeafItem *status; // @synthesize status=_status;
 
 @end

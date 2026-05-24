@@ -7,14 +7,6 @@
 @interface XavierNews.ClusteringJournal
 {
     id candidateGroups;
-    id currentGroup;
-    id currentEvents;
-    id currentRequirements;
-    id inventory;
-    id results;
-    id configuration;
-    id date;
-    id mode;
 }
 
 @end

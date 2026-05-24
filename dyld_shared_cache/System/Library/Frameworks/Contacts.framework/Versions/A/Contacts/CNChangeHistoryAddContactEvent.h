@@ -11,8 +11,6 @@
 @interface CNChangeHistoryAddContactEvent : CNChangeHistoryEvent
 {
     CNContact *_contact;
-    NSString *_containerIdentifier;
-    NSString *_contactIdentifier;
 }
 
 + (unsigned long long);
@@ -24,21 +22,20 @@
 - (id);
 - (void);
 - (id);
+- (id)cannot cancel an MT call;
 - (id);
+- (unsigned long long)@;
+- (void)) for %s
+;
+- (_Bool);
 - (id);
-- (unsigned long long);
 - (void);
-- (_Bool);
 - (id);
-- (void);
-- (id);
-- (void)arnAboutLackOfPosterAPIAccess;
-- (id)list;
+- (void)warnAboutLackOfPosterAPIAccess;
+- (id)plist;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
 
 @end
 

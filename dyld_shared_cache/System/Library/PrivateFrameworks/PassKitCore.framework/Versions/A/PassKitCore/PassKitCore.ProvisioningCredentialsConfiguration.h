@@ -7,9 +7,6 @@
 @interface PassKitCore.ProvisioningCredentialsConfiguration
 {
     id credentials;
-    id availableDestinationDevices;
-    id secureElementReservation;
-    id tracker;
 }
 
 @end

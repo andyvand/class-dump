@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTApp : SISchemaInstrumentationMessage
 {
     NSString *_bundleId;
-    _Bool _hasBundleId;
 }
 
 - (void);
@@ -21,20 +20,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)gth, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?) AND m.ROWID >= ? AND m.item_type == 0  AND m.is_read == 0 ORDER BY cm.chat_id, cm.message_id DESC LIMIT ?;;
 - (_Bool);
 - (id);
 - (id);
-- (void)hortcutContext;
-- (id)yMusicEnabled:(id)arg1;
-- (_Bool)ontext;
+- (void)deleteVoiceShortcutContext;
+- (id)setHasIsThirdPartyMusicEnabled:(id)arg1;
+- (_Bool)STSchemaSTSpotlightContext;
 - (id)d,;
 - (void)`l­o#;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

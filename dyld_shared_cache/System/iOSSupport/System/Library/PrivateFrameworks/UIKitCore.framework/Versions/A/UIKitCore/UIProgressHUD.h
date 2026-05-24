@@ -6,27 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIActivityIndicatorView, UIImageView, UILabel, UIWindow;
+@class UIActivityIndicatorView;
 
 @interface UIProgressHUD : UIView
 {
     UIActivityIndicatorView *_progressIndicator;
-    UILabel *_progressMessage;
-    UIImageView *_doneView;
-    UIWindow *_parentWindow;
-    struct {
-        unsigned int isShowing:1;
-        unsigned int isShowingText:1;
-        unsigned int fixedFrame:1;
-        unsigned int reserved:30;
-    } _progressHUDFlags;
 }
 
 - (void);
+- (void)v?;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)nComplexChars:withMinLength:withRequireAlphanumeric:withPinHistory:withMaxGracePeriod:withMinutesUntilFailedLoginReset:withChangeAtNextAuth:withManualFetchingWhenRoaming:withAllowFingerprintForUnlock:withAllowFingerprintModification:withAllowPasscodeModification:withAllowAutoUnlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

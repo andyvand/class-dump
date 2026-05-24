@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapSnapshotOptions, MKPointOfInterestFilter;
+@class MKMapSnapshotOptions;
 
 @interface MKLookAroundSnapshotOptions
 {
@@ -13,18 +13,16 @@
 
 - (void);
 - (id);
-- (id);
+- (id)er;
 - (struct CGSize);
 - (void);
 - (void);
 - (id)!h@ùq*°1Â0@ù
 × ;
-- (void)Provider: /* Error: Ran out of types for this method. */;
+- (void)initForExternalBusiness:id:ofContentProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_options, setter=_setOptions:) MKMapSnapshotOptions *options; // @synthesize options=_options;
-@property(copy, nonatomic) MKPointOfInterestFilter *pointOfInterestFilter;
-@property(nonatomic) struct CGSize size;
 
 @end
 

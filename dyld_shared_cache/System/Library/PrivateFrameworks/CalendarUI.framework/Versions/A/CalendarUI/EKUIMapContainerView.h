@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void)e;
+- (void)pointSize;
 
 // Remaining properties
 @property(retain) EKUIMapView *mapView; // @synthesize mapView=_mapView;

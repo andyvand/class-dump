@@ -4,55 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAccessibilityState, AFAudioPlaybackRequest, AFClientConfiguration, NSDate, NSString;
+@class AFClientConfiguration;
 
 @interface _AFClientConfigurationMutation
 {
     AFClientConfiguration *_base;
-    AFAccessibilityState *_accessibilityState;
-    long long _deviceRingerSwitchState;
-    _Bool _isDeviceInCarDNDMode;
-    _Bool _isDeviceInStarkMode;
-    _Bool _supportsCarPlayVehicleData;
-    _Bool _isDeviceWatchAuthenticated;
-    _Bool _areAnnouncementRequestsPermittedByPresentationWhileActive;
-    float _outputVolume;
-    AFAudioPlaybackRequest *_tapToSiriAudioPlaybackRequest;
-    AFAudioPlaybackRequest *_twoShotAudioPlaybackRequest;
-    NSDate *_deviceSetupFlowBeginDate;
-    NSDate *_deviceSetupFlowEndDate;
-    _Bool _carOwnsMainAudio;
-    _Bool _isEyesFreeDevice;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasAccessibilityState:1;
-        unsigned int hasDeviceRingerSwitchState:1;
-        unsigned int hasIsDeviceInCarDNDMode:1;
-        unsigned int hasIsDeviceInStarkMode:1;
-        unsigned int hasSupportsCarPlayVehicleData:1;
-        unsigned int hasIsDeviceWatchAuthenticated:1;
-        unsigned int hasAreAnnouncementRequestsPermittedByPresentationWhileActive:1;
-        unsigned int hasOutputVolume:1;
-        unsigned int hasTapToSiriAudioPlaybackRequest:1;
-        unsigned int hasTwoShotAudioPlaybackRequest:1;
-        unsigned int hasDeviceSetupFlowBeginDate:1;
-        unsigned int hasDeviceSetupFlowEndDate:1;
-        unsigned int hasCarOwnsMainAudio:1;
-        unsigned int hasIsEyesFreeDevice:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)TK;
 - (id);
 - (id);
 - (_Bool);
@@ -67,21 +36,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (float);
+- (float);
 - (void);
 - (_Bool);
 - (void);
-- (id)ringOptInStatusHistory;
-- (void)alGestureTestingHandler;
+- (id)siriDataSharingOptInStatusHistory;
+- (void)_internalGestureTestingHandler;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

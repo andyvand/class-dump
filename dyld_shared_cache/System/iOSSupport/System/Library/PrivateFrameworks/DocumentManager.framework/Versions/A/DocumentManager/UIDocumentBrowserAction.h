@@ -4,37 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPProviderDomain, NSArray, NSPredicate, NSString, UIDocumentBrowserActionDescriptor, UIImage;
+@class NSString;
 
 @interface UIDocumentBrowserAction
 {
     _Bool _supportsMultipleItems;
-    _Bool _requiresResolvedItems;
-    _Bool _requiresFullyFormedItems;
-    _Bool _requiresVersioning;
-    _Bool _performActionExitsEditMode;
-    _Bool _requiresAuthentication;
-    NSString *_identifier;
-    NSString *_localizedTitle;
-    long long _availability;
-    UIImage *_image;
-    NSArray *_supportedContentTypes;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _resolvedHandler;
-    CDUnknownBlockType _unresolvedHandler;
-    NSString *_uiActionProviderIdentifier;
-    FPProviderDomain *_uiActionProviderDomain;
-    long long _style;
-    long long _navigationSide;
-    unsigned long long _menuSortOrder;
-    NSPredicate *_filteringPredicate;
-    long long _actionStyle;
-    UIImage *_imageOnlyForContextMenu;
-    NSString *_localizedCompactTitle;
-    UIDocumentBrowserActionDescriptor *_uiActionDescriptor;
 }
 
-+ (_Bool);
++ (_Bool)G;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -50,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,19 +51,19 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)_updateCloseButtonVisibility;
 - (void);
 - (id);
 - (void);
 - (long long);
+- (id)nt AFTER DELETE ON attachment BEGIN   SELECT delete_attachment_path(OLD.filename); END;;
 - (id);
-- (id);
-- (void);
+- (void)";
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)0@"ASAuthorizationRequest"8;
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -96,30 +73,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long actionStyle; // @synthesize actionStyle=_actionStyle;
-@property(nonatomic) long long availability; // @synthesize availability=_availability;
-@property(retain, nonatomic) NSPredicate *filteringPredicate; // @synthesize filteringPredicate=_filteringPredicate;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIImage *imageOnlyForContextMenu; // @synthesize imageOnlyForContextMenu=_imageOnlyForContextMenu;
-@property(copy, nonatomic) NSString *localizedCompactTitle; // @synthesize localizedCompactTitle=_localizedCompactTitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(nonatomic) unsigned long long menuSortOrder; // @synthesize menuSortOrder=_menuSortOrder;
-@property(nonatomic) long long navigationSide; // @synthesize navigationSide=_navigationSide;
-@property(nonatomic) _Bool performActionExitsEditMode; // @synthesize performActionExitsEditMode=_performActionExitsEditMode;
-@property(nonatomic) _Bool requiresAuthentication; // @synthesize requiresAuthentication=_requiresAuthentication;
-@property(nonatomic) _Bool requiresFullyFormedItems; // @synthesize requiresFullyFormedItems=_requiresFullyFormedItems;
-@property(nonatomic) _Bool requiresResolvedItems; // @synthesize requiresResolvedItems=_requiresResolvedItems;
-@property(nonatomic) _Bool requiresVersioning; // @synthesize requiresVersioning=_requiresVersioning;
-@property(copy, nonatomic) CDUnknownBlockType resolvedHandler; // @synthesize resolvedHandler=_resolvedHandler;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSArray *supportedContentTypes; // @synthesize supportedContentTypes=_supportedContentTypes;
-@property(nonatomic) _Bool supportsMultipleItems; // @synthesize supportsMultipleItems=_supportsMultipleItems;
-@property(retain, nonatomic) UIDocumentBrowserActionDescriptor *uiActionDescriptor; // @synthesize uiActionDescriptor=_uiActionDescriptor;
-@property(copy, nonatomic) FPProviderDomain *uiActionProviderDomain; // @synthesize uiActionProviderDomain=_uiActionProviderDomain;
-@property(copy, nonatomic) NSString *uiActionProviderIdentifier; // @synthesize uiActionProviderIdentifier=_uiActionProviderIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType unresolvedHandler; // @synthesize unresolvedHandler=_unresolvedHandler;
 
 @end
 

@@ -6,40 +6,28 @@
 
 #import <SpotlightServices/SPSearchEntity.h>
 
-@class NSArray, NSDateComponents, NSDictionary, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface SPSearchContactEntity : SPSearchEntity
 {
     NSMutableArray *_allNames;
-    NSMutableArray *_allPhoneNumbers;
-    NSMutableArray *_allEmailAddresses;
-    NSDictionary *_rankTerms;
-    NSString *_name;
-    NSString *_contactIdentifier;
-    NSString *_personIdentifier;
-    NSString *_personQueryIdentifier;
-    NSDateComponents *_birthdayComponents;
-    NSArray *_phoneNumbers;
-    NSArray *_addresses;
-    NSArray *_rawPhoneNumbers;
-    NSArray *_emailAddresses;
 }
 
-+ (id);
-+ (id);
++ (id)laybackInformation";
++ (id)PressGestureRecognizer";
++ (_Bool)eviewSnapshotRequest";
 + (_Bool);
-+ (_Bool);
+- (id)32@0:8@?16@?24 /* Error: Ran out of types for this method. */;
+- (id)setQuery:(id)arg1;
+- (id)setNumberOfItems:(id)arg1;
+- (_Bool)setInterruptionHandler:(id)arg1;
+- (void)setHasSpineOnRight:(id)arg1;
+- (id)initWithAttributedString: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (id);
 - (id);
@@ -48,25 +36,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)PAMediaConversionServiceConversionStartDateKey;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void)ch_norm_count:ordered_first_term_position:prefixMatch:queryBreakDown:isVirtualField:locale: /* Error: Ran out of types for this method. */;
-- (id)_first_term_position;
+- (id)kMDItemTopic_ordered_prefix_first_term_position;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;
-@property(readonly, nonatomic) NSDateComponents *birthdayComponents; // @synthesize birthdayComponents=_birthdayComponents;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(readonly, nonatomic) NSString *personQueryIdentifier; // @synthesize personQueryIdentifier=_personQueryIdentifier;
-@property(readonly, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(readonly, nonatomic) NSArray *rawPhoneNumbers; // @synthesize rawPhoneNumbers=_rawPhoneNumbers;
 
 @end
 

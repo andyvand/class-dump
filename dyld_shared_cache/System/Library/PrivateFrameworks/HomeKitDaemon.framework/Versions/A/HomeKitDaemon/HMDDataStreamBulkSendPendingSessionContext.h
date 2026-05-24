@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer;
-
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamBulkSendPendingSessionContext
 {
     CDUnknownBlockType _sessionStartCallback;
-    HMFTimer *_handleOpenRequestResponseTimer;
-    HMFTimer *_sendCloseEventTimer;
 }
 
-- (_Bool);
+- (_Bool)iconAttributeValue;
+- (void)_serviceNamesByActiveHandle;
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)found existing capability for single destination %{private}@;
+- (id)r updates for both services;
 - (id);
 - (id);
 - (void)service characteristics for ;
 
 // Remaining properties
-@property(retain) HMFTimer *handleOpenRequestResponseTimer; // @synthesize handleOpenRequestResponseTimer=_handleOpenRequestResponseTimer;
-@property(retain) HMFTimer *sendCloseEventTimer; // @synthesize sendCloseEventTimer=_sendCloseEventTimer;
 @property(readonly) CDUnknownBlockType sessionStartCallback; // @synthesize sessionStartCallback=_sessionStartCallback;
-@property(readonly) _Bool shouldCloseSessionWithTimeoutReason;
 
 @end
 

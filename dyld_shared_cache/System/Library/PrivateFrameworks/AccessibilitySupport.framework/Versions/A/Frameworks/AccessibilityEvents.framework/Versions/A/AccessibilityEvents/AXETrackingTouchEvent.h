@@ -5,16 +5,10 @@
 //
 
 @class NSDate;
-@protocol NSObject><NSCopying;
 
 @interface AXETrackingTouchEvent
 {
     NSDate *_timestamp;
-    NSDate *_touchStartTimestamp;
-    id <NSObject><NSCopying> _identity;
-    unsigned long long _phase;
-    struct CGPoint _location;
-    struct CGPoint _normalizedLocation;
 }
 
 + (id);
@@ -23,24 +17,19 @@
 - (void);
 - (struct CGPoint);
 - (unsigned long long);
-- (id);
+- (id)s;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (struct CGPoint);
+- (id)ment;
+- (struct CGPoint)I;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NSObject><NSCopying> identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) struct CGPoint normalizedLocation; // @synthesize normalizedLocation=_normalizedLocation;
-@property(nonatomic) unsigned long long phase; // @synthesize phase=_phase;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSDate *touchStartTimestamp; // @synthesize touchStartTimestamp=_touchStartTimestamp;
 
 @end
 

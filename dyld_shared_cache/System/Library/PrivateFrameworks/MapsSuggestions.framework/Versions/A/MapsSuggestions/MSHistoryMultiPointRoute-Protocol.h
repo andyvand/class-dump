@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStorageRouteRequestStorage, NSData;
-
 @protocol MSHistoryMultiPointRoute
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool navigationInterrupted;
-@property(nonatomic) short routeProgressWaypointIndex;
-@property(retain, nonatomic) GEOStorageRouteRequestStorage *routeRequestStorage;
-@property(retain, nonatomic) NSData *sharedETAData;
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSString, UARPAccessoryID;
+@class UARPAccessoryID;
 
 @interface UARPAccessory
 {
     UARPAccessoryID *_id;
-    NSMutableArray *_internalPendingAssets;
-    _Bool _reachable;
-    _Bool _assetTransfersPaused;
-    NSMutableSet *_pendingClientPropertyQueries;
-    NSArray *_partnerSerialNumbers;
-    _Bool _userInitiatedFirmwareStaging;
-    _Bool _userInitiatedFirmwareApply;
-    _Bool _enableFirmwareDownloadOnDemand;
-    unsigned int _firmwareUpdateBytesTransferred;
-    unsigned int _firmwareUpdateBytesTotal;
-    NSString *_availableFirmwareVersion;
-    NSString *_filepathCurrentAsset;
 }
 
 + (id)ization SoC Live Nonce;

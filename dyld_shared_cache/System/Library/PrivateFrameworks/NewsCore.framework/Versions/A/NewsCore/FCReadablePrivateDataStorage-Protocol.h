@@ -5,5 +5,6 @@
 //
 
 @protocol FCReadablePrivateDataStorage
+- (void);
 @end
 

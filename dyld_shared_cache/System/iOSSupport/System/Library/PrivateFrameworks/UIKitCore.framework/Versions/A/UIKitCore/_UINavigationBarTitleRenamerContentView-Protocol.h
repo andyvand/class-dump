@@ -5,12 +5,10 @@
 //
 
 @protocol _UINavigationBarTitleRenamerContentView
+- (void (^)(double));
 - (long long)6R0Ñ 130;
-- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double horizontalTextInset;
-@property(copy, nonatomic) CDUnknownBlockType horizontalTextInsetDidChangeCallback;
 @property(nonatomic) long long textAlignment;
 @end
 

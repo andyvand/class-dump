@@ -23,15 +23,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)thod %d with error 0x%x;
 
 // Remaining properties
 @property(copy) NSString *align;
-@property int height;
-@property(copy) NSString *name;
-@property(copy) NSString *src;
-@property(copy) NSString *type;
-@property int width;
 
 @end
 

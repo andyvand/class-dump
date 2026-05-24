@@ -5,5 +5,7 @@
 //
 
 @protocol HMDNotificationConditionHandler
+- (_Bool)[GS] _validParticipant %@ -> %@ in %@;
+- (_Bool)te}@ (id %@ state %@);
 @end
 

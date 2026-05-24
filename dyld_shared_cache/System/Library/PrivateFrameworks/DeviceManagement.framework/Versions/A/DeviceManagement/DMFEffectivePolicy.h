@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface DMFEffectivePolicy
 {
     _Bool _downtimeEnforced;
-    NSString *_type;
-    NSSet *_excludedIdentifiers;
-    NSDictionary *_currentPoliciesByIdentifier;
-    NSDictionary *_prioritiesByIdentifier;
-    long long _defaultPolicy;
-    unsigned long long _defaultPriority;
 }
 
 + (id);
@@ -28,30 +22,23 @@
 - (long long);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)h;
 - (long long);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)eResult"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *currentPoliciesByIdentifier; // @synthesize currentPoliciesByIdentifier=_currentPoliciesByIdentifier;
-@property(readonly, nonatomic) long long defaultPolicy; // @synthesize defaultPolicy=_defaultPolicy;
-@property(readonly, nonatomic) unsigned long long defaultPriority; // @synthesize defaultPriority=_defaultPriority;
-@property(readonly, nonatomic) _Bool downtimeEnforced; // @synthesize downtimeEnforced=_downtimeEnforced;
-@property(readonly, copy, nonatomic) NSSet *excludedIdentifiers; // @synthesize excludedIdentifiers=_excludedIdentifiers;
-@property(readonly, nonatomic) _Bool hasRestrictivePolicies;
-@property(readonly, copy, nonatomic) NSDictionary *prioritiesByIdentifier; // @synthesize prioritiesByIdentifier=_prioritiesByIdentifier;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

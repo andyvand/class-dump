@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, NSArray, PGManager;
-@protocol PGGraphDataModelEnrichmentManagerDelegate;
+@class PGManager;
 
 @interface PGGraphDataModelEnrichmentManager
 {
     _Bool _forceRun;
-    NSArray *_enrichmentProcessors;
-    unsigned long long _enrichmentContext;
-    CLSCurationContext *_curationContext;
-    PGManager *_manager;
-    id <PGGraphDataModelEnrichmentManagerDelegate> _delegate;
 }
 
 + (id);
@@ -22,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)set_elementTraversalStrategy:(_Bool)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -32,18 +26,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void)Roots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/Data Model Enrichment/HighlightCollection/PGHighlightItemRestorer.m;
 
 // Remaining properties
-@property(readonly, nonatomic) CLSCurationContext *curationContext; // @synthesize curationContext=_curationContext;
-@property(nonatomic) __weak id <PGGraphDataModelEnrichmentManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long enrichmentContext; // @synthesize enrichmentContext=_enrichmentContext;
-@property(readonly, nonatomic) NSArray *enrichmentProcessors; // @synthesize enrichmentProcessors=_enrichmentProcessors;
-@property(nonatomic) _Bool forceRun; // @synthesize forceRun=_forceRun;
 @property(readonly, nonatomic) PGManager *manager; // @synthesize manager=_manager;
 
 @end

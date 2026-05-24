@@ -7,18 +7,19 @@
 @interface AVExposureBiasRange
 {
     float _minExposureBias;
-    float _maxExposureBias;
 }
 
 + (id);
-- (id);
-- (_Bool);
-- (float);
-- (float);
+- (id)N,V_databaseURL;
+- (_Bool)MSVRandomDistribution;
+- (float)"1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+ /* Error: Ran out of types for this method. */;
+- (float)out of bounds;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float maxExposureBias; // @synthesize maxExposureBias=_maxExposureBias;
 @property(readonly, nonatomic) float minExposureBias; // @synthesize minExposureBias=_minExposureBias;
 
 @end

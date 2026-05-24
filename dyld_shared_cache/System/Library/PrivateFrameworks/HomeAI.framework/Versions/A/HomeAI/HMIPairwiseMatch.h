@@ -7,8 +7,6 @@
 @interface HMIPairwiseMatch
 {
     float _score;
-    unsigned long long _firstIndex;
-    unsigned long long _secondIndex;
 }
 
 - (unsigned long long);
@@ -18,8 +16,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long firstIndex; // @synthesize firstIndex=_firstIndex;
-@property(readonly) float score; // @synthesize score=_score;
-@property(readonly) unsigned long long secondIndex; // @synthesize secondIndex=_secondIndex;
 
 @end
 

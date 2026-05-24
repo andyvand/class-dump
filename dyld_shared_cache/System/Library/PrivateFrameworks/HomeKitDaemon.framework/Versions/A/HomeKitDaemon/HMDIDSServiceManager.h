@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDIDSActivityMonitor, HMDIDSActivityMonitorBroadcaster, HMDIDSActivityMonitorObserver, NSMutableDictionary, NSMutableSet, NSObject, NSString, _HMDIDSProxyLinkPreferenceAssertion;
-@protocol HMDIDSService, HMDIDSServiceManagerNotificationCenter, OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSServiceManager
 {
     NSMutableSet *_applicationBundleIdentifiersThatNeedWakingMessages;
-    HMDIDSActivityMonitorObserver *_activityObserver;
-    HMDIDSActivityMonitorBroadcaster *_activityBroadcaster;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDIDSActivityMonitor *_activityMonitor;
-    _HMDIDSProxyLinkPreferenceAssertion *_proxyLinkPreferenceAssertion;
-    id <HMDIDSServiceManagerNotificationCenter> _notificationCenter;
-    NSMutableDictionary *_services;
 }
 
 + (id);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 + (id)ËQÿ;
 - (id);
 - (id);
-- (void);
+- (void)2;
 - (void);
 - (id);
 - (void);
@@ -35,19 +27,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)ray",C,N,V_accessories;
 - (void)not found;
-- (void)iceCode;
+- (void)siriLanguageVoiceCode;
 
 // Remaining properties
-@property(readonly) HMDIDSActivityMonitorBroadcaster *activityBroadcaster; // @synthesize activityBroadcaster=_activityBroadcaster;
-@property(readonly) HMDIDSActivityMonitorObserver *activityObserver; // @synthesize activityObserver=_activityObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) id <HMDIDSService> service;
-@property(readonly) Class superclass;
 
 @end
 

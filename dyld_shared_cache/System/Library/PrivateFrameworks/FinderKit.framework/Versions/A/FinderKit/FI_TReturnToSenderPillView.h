@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TAllowsVibrancyView, FI_TImageView, FI_TRoundImageView, FI_TTextField, NSColor, NSImage, NSString, NSVisualEffectView, SYDocumentSender;
+@class FI_TRoundImageView, NSColor;
 
 __attribute__((visibility("hidden")))
 @interface FI_TReturnToSenderPillView
 {
     FI_TRoundImageView *_imageView;
-    FI_TTextField *_textLabel;
-    FI_TImageView *_chevronView;
-    NSVisualEffectView *_blurView;
-    FI_TAllowsVibrancyView *_opaqueBackgroundView;
-    _Bool _shouldDrawBackgroundBlur;
-    struct unique_function<void ()> _configureWhenAddedToWindowFunctor;
-    NSColor *_preferredBackgroundColor;
-    SYDocumentSender *_sender;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)0;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -41,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSImage *image;
 @property(readonly, nonatomic) NSColor *preferredBackgroundColor; // @synthesize preferredBackgroundColor=_preferredBackgroundColor;
-@property(readonly, nonatomic) SYDocumentSender *sender; // @synthesize sender=_sender;
-@property(copy, nonatomic) NSString *senderName;
 
 @end
 

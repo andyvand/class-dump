@@ -9,18 +9,16 @@
 @interface _UITabBarControllerVisualStyle_Phone : _UITabBarControllerVisualStyle
 {
     id scrollPocketContainerInteraction;
-    id containerWrapperView;
-    id $__lazy_storage_$_containerView;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ngPipelineComponent> No chat found, going to create one later;
+- (void)for task;
+- (void)number of attachment metadata batches to fetch %@;
+- (void)or object %@ and key %@ shouldOverrideIfExists %@;
+- (void)ecordCompletionBlock;
+- (long long)ching exit record successfully;
+- (_Bool)ccount:%@       service:%@  defaults:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)rnalSecurity is true, allowing reporting;
 - (void);
 - (void);
 - (void);
@@ -29,7 +27,7 @@
 - (_Bool);
 - (id);
 - (struct UIEdgeInsets);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -38,10 +36,7 @@
 - (void) ÿÙI©p;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool ignoresDefaultTabBarVisibilityAnimation;
-@property(nonatomic, readonly) _Bool supportsFocusGestures;
 @property(nonatomic, readonly) _Bool supportsShowingMoreItem;
-@property(nonatomic, readonly) _Bool wantsDefaultTabBar;
 
 @end
 

@@ -6,41 +6,24 @@
 
 #import <MediaMiningKit/CLSSocialService.h>
 
-@class CLSLocationCache, CLSPersonIdentity, CNContact, CNContactStore, GDVisualIdentifierViewPerson, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol CLSSocialServiceContactsDelegate, GDVisualIdentifierView, OS_os_log, SGSuggestionsServiceContactsProtocol;
+@class NSMutableDictionary, NSObject;
+@protocol OS_os_log;
 
 @interface CLSSocialServiceContacts : CLSSocialService
 {
     NSObject<OS_os_log> *_log;
-    CNContactStore *_contactStore;
-    CLSLocationCache *_locationCache;
-    CNContact *_meContact;
-    id <GDVisualIdentifierView> _visualIdentifierView;
-    CLSPersonIdentity *_mePerson;
-    GDVisualIdentifierViewPerson *_meViewPerson;
-    NSMutableArray *_allPersons;
-    NSMutableDictionary *_personsForCNIdentifiers;
-    NSMutableDictionary *_personsInContactStoreForCNIdentifiers;
-    NSMutableDictionary *_personsForGDIdentifiers;
-    NSMutableDictionary *_personsForLocalIdentifier;
-    id <SGSuggestionsServiceContactsProtocol> _suggestionsService;
-    id <CLSSocialServiceContactsDelegate> _delegate;
-    NSMutableDictionary *_personByFullName;
-    NSMutableSet *_nonFoundFullNames;
-    NSMutableDictionary *_personByHandle;
-    NSMutableSet *_nonFoundHandles;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (void);
@@ -49,14 +32,14 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (unsigned long long)?;
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (float);
@@ -84,22 +67,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)SDySSypGIghHr_;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CLSSocialServiceContactsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableSet *nonFoundFullNames; // @synthesize nonFoundFullNames=_nonFoundFullNames;
-@property(retain, nonatomic) NSMutableSet *nonFoundHandles; // @synthesize nonFoundHandles=_nonFoundHandles;
 @property(retain, nonatomic) NSMutableDictionary *personByFullName; // @synthesize personByFullName=_personByFullName;
-@property(retain, nonatomic) NSMutableDictionary *personByHandle; // @synthesize personByHandle=_personByHandle;
 
 @end
 

@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPScorecard, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPPoiEnrichment
 {
     PBDataReader *_reader;
-    NSMutableArray *_images;
-    GEORPScorecard *_scorecard;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_images:1;
-        unsigned int read_scorecard:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)e:(id)arg1;
++ (_Bool)setLayoutType:(id)arg1;
 - (void);
-- (id);
+- (id)initWithStoreDescription:readOnly: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -34,8 +24,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)16B24;
+- (void)SSVLKFSChannelBitset;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -43,16 +33,14 @@
 - (id);
 - (void);
 - (id)read_abBranchInfo"b1"read_abClientMetadata"b1"read_additionalEnabledMarkets"b1"read_businessChatPreflightIdentifiers"b1"read_debugApiKey"b1"read_deviceCountryCode"b1"read_deviceDisplayLanguage"b1"read_deviceExtendedLocation"b1"read_deviceHistoricalLocations"b1"read_deviceKeyboardLanguage"b1"read_deviceSku"b1"read_deviceSpokenLanguage"b1"read_displayRegion"b1"read_localizationCapabilities"b1"read_mapsSuggestionsTouristInfo"b1"read_preferredDisplayCurrencySymbol"b1"wrote_anyField"b1};
-- (id)ands;
+- (id)clearPreferredBrands;
 - (id) ;
-- (id)rnativeStringCondition;
+- (id)_alternativeStringCondition;
 - (void)(last_returned_size_) > (0): /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasScorecard;
-@property(retain, nonatomic) NSMutableArray *images;
-@property(retain, nonatomic) GEORPScorecard *scorecard;
 
 @end
 

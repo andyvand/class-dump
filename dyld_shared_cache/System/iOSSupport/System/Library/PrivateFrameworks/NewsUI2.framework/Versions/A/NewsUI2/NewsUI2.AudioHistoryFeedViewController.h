@@ -7,15 +7,13 @@
 @interface NewsUI2.AudioHistoryFeedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
 }
 
 - (id);
 - (id);
 - (void);
 - (void)0;
-- (void)ratorViewLayoutAttributes;
+- (void)MyMagazinesSectionHeaderSeparatorViewLayoutAttributes;
 - (void)%ÂY;
 
 @end

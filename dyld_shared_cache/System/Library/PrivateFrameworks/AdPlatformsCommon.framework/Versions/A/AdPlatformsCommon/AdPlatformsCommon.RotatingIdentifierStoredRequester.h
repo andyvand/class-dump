@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.RotatingIdentifierStoredRequester
 {
     id backingStore;
-    id supplySource;
-    id $__lazy_storage_$_processId;
 }
 
 @end

@@ -4,63 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class NSMutableArray;
 
 @interface CKDOperationMetrics
 {
     _Bool _walrusEnabled;
-    NSDate *_startDate;
-    double _duration;
-    double _queueing;
-    double _executing;
-    unsigned long long _bytesUploaded;
-    unsigned long long _bytesDownloaded;
-    unsigned long long _connections;
-    unsigned long long _connectionsCreated;
-    unsigned long long _bytesFulfilledByPeers;
-    unsigned long long _bytesFulfilledLocally;
-    unsigned long long _networkServiceType;
-    unsigned long long _bytesResumed;
-    unsigned long long _recordsUploaded;
-    unsigned long long _recordsDownloaded;
-    unsigned long long _recordsDeleted;
-    unsigned long long _assetsUploaded;
-    unsigned long long _assetsUploadedFileSize;
-    unsigned long long _assetsDownloaded;
-    unsigned long long _assetsDownloadedFileSize;
-    unsigned long long _requestCount;
-    unsigned long long _retries;
-    unsigned long long _zoneishKeysRolled;
-    unsigned long long _perRecordKeysRolled;
-    unsigned long long _zoneKeysRolled;
-    unsigned long long _shareKeysRolled;
-    unsigned long long _keyRollsSkippedBySizeCheck;
-    unsigned long long _identitiesRolledOnRecordSave;
-    unsigned long long _identitiesRolledOnZoneSave;
-    unsigned long long _failedIdentityRollAttempts;
-    unsigned long long _zoneKeysRemoved;
-    unsigned long long _zoneishKeysRemoved;
-    unsigned long long _recordKeysRemoved;
-    unsigned long long _keysNotRemoved;
-    unsigned long long _adopterCapabilityCheckValidationFailures;
-    NSString *_adopterCapabilityCheckValidationFailureTypes;
-    unsigned long long _adopterCapabilityCheckResult;
-    unsigned long long _requiredFeatureSetValidationFailures;
-    NSString *_requiredFeatureSetValidationFailureTypes;
-    NSSet *_zoneIDs;
-    NSMutableDictionary *_requestOperationCountsByType;
-    NSMutableDictionary *_totalBytesByChunkProfile;
-    NSMutableDictionary *_chunkCountByChunkProfile;
-    NSMutableDictionary *_fileCountByChunkProfile;
-    NSMutableArray *_ranges;
-    NSMutableSet *_requestUUIDs;
 }
 
 + (unsigned long long);
 + (id);
 + (unsigned long long);
-+ (_Bool);
-- (void);
++ (_Bool);
+- (void)UsoTask_open_common_Window;
 - (void);
 - (void);
 - (void);
@@ -70,10 +25,10 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -90,7 +45,7 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -98,42 +53,44 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (id){ptr}] Skipping audio HAL device creation because audio stream of type %@ has't been set up.
+;
+- (_Bool)audioHoseManagerBuffered_setCryptorForAllHoses;
+- (void)sages!
+;
+- (void)us sdpsession_stopNetworkClock(APSenderSessionRef);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (unsigned long long);
+- (id)_handle3BarsRelevancyAdded:removed: /* Error: Ran out of types for this method. */;
+- (void)hasStorageError;
+- (void);
+- (unsigned long long)ss:]_block_invoke_5 /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (void);
 - (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (void)f;
+- (unsigned long long);
+- (unsigned long long);
+- (double);
 - (_Bool);
+- (id)@"NSArray"40@0:8@"EDInMemoryThreadCollection"16@"NSArray"24q32 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (double);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)cted database is unavailable. Skipping updating cached messages;
+- (void)gorizationResultMap:(id)arg1 ];
 - (void);
 - (id);
 - (void);
@@ -158,12 +115,12 @@
 - (unsigned long long)
 × ;
 - (void);
-- (void)registeredAssetHandlesWithIDs:(id)arg1 deleteUnregisteredAssetHandlesWithIDs: /* Error: Ran out of types for this method. */;
-- (void)ken;
+- (void)unregisterItemsAndDeleteUnregisteredAssetHandlesWithIDs:(id)arg1 deleteUnregisteredAssetHandlesWithIDs: /* Error: Ran out of types for this method. */;
+- (void)lastFailediCloudAuthToken;
 - (id)heduled;
 - (void)ry",&,N,V_delegateWrappersByOperationID;
 - (id);
-- (void)Response;
+- (void)setBadgeCountResponse;
 - (unsigned long long)eating a share PCS:%@ /* Error: Ran out of types for this method. */;
 - (void)zone %@:(unsigned long long)arg1 %@;
 - (unsigned long long)cord PCS master key since we cleaned up tombstoned key(s) on record %@;
@@ -174,60 +131,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long adopterCapabilityCheckResult; // @synthesize adopterCapabilityCheckResult=_adopterCapabilityCheckResult;
-@property(retain) NSString *adopterCapabilityCheckValidationFailureTypes; // @synthesize adopterCapabilityCheckValidationFailureTypes=_adopterCapabilityCheckValidationFailureTypes;
-@property unsigned long long adopterCapabilityCheckValidationFailures; // @synthesize adopterCapabilityCheckValidationFailures=_adopterCapabilityCheckValidationFailures;
-@property unsigned long long assetsDownloaded; // @synthesize assetsDownloaded=_assetsDownloaded;
-@property unsigned long long assetsDownloadedFileSize; // @synthesize assetsDownloadedFileSize=_assetsDownloadedFileSize;
-@property unsigned long long assetsUploaded; // @synthesize assetsUploaded=_assetsUploaded;
-@property unsigned long long assetsUploadedFileSize; // @synthesize assetsUploadedFileSize=_assetsUploadedFileSize;
-@property unsigned long long bytesDownloaded; // @synthesize bytesDownloaded=_bytesDownloaded;
-@property unsigned long long bytesFulfilledByPeers; // @synthesize bytesFulfilledByPeers=_bytesFulfilledByPeers;
-@property unsigned long long bytesFulfilledLocally; // @synthesize bytesFulfilledLocally=_bytesFulfilledLocally;
-@property unsigned long long bytesResumed; // @synthesize bytesResumed=_bytesResumed;
-@property unsigned long long bytesUploaded; // @synthesize bytesUploaded=_bytesUploaded;
-@property(retain, nonatomic) NSMutableDictionary *chunkCountByChunkProfile; // @synthesize chunkCountByChunkProfile=_chunkCountByChunkProfile;
-@property unsigned long long connections; // @synthesize connections=_connections;
-@property unsigned long long connectionsCreated; // @synthesize connectionsCreated=_connectionsCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double duration; // @synthesize duration=_duration;
-@property double executing; // @synthesize executing=_executing;
-@property unsigned long long failedIdentityRollAttempts; // @synthesize failedIdentityRollAttempts=_failedIdentityRollAttempts;
-@property(retain, nonatomic) NSMutableDictionary *fileCountByChunkProfile; // @synthesize fileCountByChunkProfile=_fileCountByChunkProfile;
-@property(readonly) unsigned long long hash;
-@property unsigned long long identitiesRolledOnRecordSave; // @synthesize identitiesRolledOnRecordSave=_identitiesRolledOnRecordSave;
-@property unsigned long long identitiesRolledOnZoneSave; // @synthesize identitiesRolledOnZoneSave=_identitiesRolledOnZoneSave;
-@property unsigned long long keyRollsSkippedBySizeCheck; // @synthesize keyRollsSkippedBySizeCheck=_keyRollsSkippedBySizeCheck;
-@property unsigned long long keysNotRemoved; // @synthesize keysNotRemoved=_keysNotRemoved;
-@property unsigned long long networkServiceType; // @synthesize networkServiceType=_networkServiceType;
-@property unsigned long long perRecordKeysRolled; // @synthesize perRecordKeysRolled=_perRecordKeysRolled;
-@property double queueing; // @synthesize queueing=_queueing;
 @property(retain, nonatomic) NSMutableArray *ranges; // @synthesize ranges=_ranges;
-@property(readonly) NSArray *rangesCopy;
-@property unsigned long long recordKeysRemoved; // @synthesize recordKeysRemoved=_recordKeysRemoved;
-@property unsigned long long recordsDeleted; // @synthesize recordsDeleted=_recordsDeleted;
-@property unsigned long long recordsDownloaded; // @synthesize recordsDownloaded=_recordsDownloaded;
-@property unsigned long long recordsUploaded; // @synthesize recordsUploaded=_recordsUploaded;
-@property unsigned long long requestCount; // @synthesize requestCount=_requestCount;
-@property(retain, nonatomic) NSMutableDictionary *requestOperationCountsByType; // @synthesize requestOperationCountsByType=_requestOperationCountsByType;
-@property(retain) NSMutableSet *requestUUIDs; // @synthesize requestUUIDs=_requestUUIDs;
-@property(retain) NSString *requiredFeatureSetValidationFailureTypes; // @synthesize requiredFeatureSetValidationFailureTypes=_requiredFeatureSetValidationFailureTypes;
-@property unsigned long long requiredFeatureSetValidationFailures; // @synthesize requiredFeatureSetValidationFailures=_requiredFeatureSetValidationFailures;
-@property unsigned long long retries; // @synthesize retries=_retries;
-@property unsigned long long shareKeysRolled; // @synthesize shareKeysRolled=_shareKeysRolled;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *totalBytesByChunkProfile; // @synthesize totalBytesByChunkProfile=_totalBytesByChunkProfile;
-@property _Bool walrusEnabled; // @synthesize walrusEnabled=_walrusEnabled;
-@property(retain) NSSet *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
-@property unsigned long long zoneKeysRemoved; // @synthesize zoneKeysRemoved=_zoneKeysRemoved;
-@property unsigned long long zoneKeysRolled; // @synthesize zoneKeysRolled=_zoneKeysRolled;
-@property unsigned long long zoneishKeysRemoved; // @synthesize zoneishKeysRemoved=_zoneishKeysRemoved;
-@property unsigned long long zoneishKeysRolled; // @synthesize zoneishKeysRolled=_zoneishKeysRolled;
 
 @end
 

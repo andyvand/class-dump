@@ -25,6 +25,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -40,8 +41,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)rolType did change:(long long)arg1 supportsVolumeControl=%{BOOL}u, canSetVolume=%{BOOL}u, volumeControlType=%{public}@, effectiveVolumeCapabilities=%{public}@ for context:(id)arg2 %{public}@ - %{public}@;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXAssistantTemplateViewController;
+@class NSString;
 
 @interface PXAssistantStepContext
 {
     NSString *_identifier;
-    PXAssistantTemplateViewController *_viewController;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) PXAssistantTemplateViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

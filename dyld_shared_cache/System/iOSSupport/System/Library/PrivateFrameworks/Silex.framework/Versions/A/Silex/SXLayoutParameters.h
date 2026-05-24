@@ -9,8 +9,6 @@
 @interface SXLayoutParameters
 {
     SXLayoutOptions *_layoutOptions;
-    unsigned long long _layoutType;
-    double _expectedDuration;
 }
 
 - (id);
@@ -22,9 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double expectedDuration; // @synthesize expectedDuration=_expectedDuration;
 @property(readonly, nonatomic) SXLayoutOptions *layoutOptions; // @synthesize layoutOptions=_layoutOptions;
-@property(readonly, nonatomic) unsigned long long layoutType; // @synthesize layoutType=_layoutType;
 
 @end
 

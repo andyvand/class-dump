@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSTextField, NSTimer, SORecognitionTextBalloonBackgroundView_Glass;
+@class NSTextField;
 
 @interface SORecognitionTextBalloonController
 {
     NSTextField *_textField;
-    NSLayoutConstraint *_textFieldWidthLayoutConstraint;
-    SORecognitionTextBalloonBackgroundView_Glass *_glass;
-    NSTimer *_autoCloseTimer;
-    struct CGPoint _centerPoint;
-    double _maximumTextFieldWidth;
-    _Bool _drawDownward;
-    _Bool _isClosingBubbleWindow;
-    long long _mostRecentMessageType;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)T;
+- (void);
 - (void);
 - (struct CGPoint);
 - (double);

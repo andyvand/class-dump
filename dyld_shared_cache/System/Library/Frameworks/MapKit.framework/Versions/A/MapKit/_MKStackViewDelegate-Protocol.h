@@ -5,5 +5,8 @@
 //
 
 @protocol _MKStackViewDelegate
+
+@optional
+- (double)%;
 @end
 

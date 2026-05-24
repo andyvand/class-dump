@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCGImageSnapshotRep, NSImage;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface _NSImageLayerContents
 {
     NSImage *_image;
-    double _scale;
-    NSCGImageSnapshotRep *_cachedSnapshot;
 }
 
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)d;
 - (void);
 - (void);
 - (void *);

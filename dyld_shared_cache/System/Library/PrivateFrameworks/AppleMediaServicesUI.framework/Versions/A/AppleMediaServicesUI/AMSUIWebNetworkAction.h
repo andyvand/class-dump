@@ -6,63 +6,44 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, NSDictionary, NSString, NSURL;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebNetworkAction : AMSUIWebAction
 {
     _Bool _includeAuthKitTokens;
-    _Bool _includeiCloudTokens;
-    _Bool _requiresCellularAccess;
-    _Bool _usePrimaryKeychain;
-    ACAccount *_account;
-    NSString *_body;
-    NSString *_gsTokenIdentifier;
-    NSDictionary *_headers;
-    NSString *_method;
-    NSString *_signatureData;
-    NSURL *_URL;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (_Bool)L ;
+- (void)the auto asset:(_Bool)arg1 %{public}@;
+- (void)y;
+- (void)for namespace id:(_Bool)arg1 %d;
+- (void)s;
+- (id)%@ for query:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)uisticAssetType is provided in the query does not support auto asset:%@ /* Error: Ran out of types for this method. */;
+- (id)Updated:(id)arg1 %@
+];
+- (_Bool)__InstallDate;
+- (_Bool)_ContentVersion;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id)unfocusedSecureLabel;
+- (void)slotID;
 - (void);
+- (id);
 - (void);
+- (void)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)NavigationAction"24@"WKDownload"32;
 - (void)LSession",&,V_urlSession;
 - (id);
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSString *body; // @synthesize body=_body;
-@property(retain) NSString *gsTokenIdentifier; // @synthesize gsTokenIdentifier=_gsTokenIdentifier;
-@property(retain) NSDictionary *headers; // @synthesize headers=_headers;
-@property _Bool includeAuthKitTokens; // @synthesize includeAuthKitTokens=_includeAuthKitTokens;
-@property _Bool includeiCloudTokens; // @synthesize includeiCloudTokens=_includeiCloudTokens;
-@property(retain) NSString *method; // @synthesize method=_method;
-@property _Bool requiresCellularAccess; // @synthesize requiresCellularAccess=_requiresCellularAccess;
-@property(retain) NSString *signatureData; // @synthesize signatureData=_signatureData;
-@property _Bool usePrimaryKeychain; // @synthesize usePrimaryKeychain=_usePrimaryKeychain;
 
 @end
 

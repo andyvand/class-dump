@@ -7,7 +7,6 @@
 @interface (extension in ReminderKitInternal):Foundation.URL.SecurityScopedURLHolder__priv_C4CF88CCEEBFE10B546F9B83C3AB9A6B
 {
     id associatedKey;
-    id fileURL;
 }
 
 @end

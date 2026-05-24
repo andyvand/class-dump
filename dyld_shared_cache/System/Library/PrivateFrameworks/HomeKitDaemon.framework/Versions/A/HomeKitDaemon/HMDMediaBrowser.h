@@ -4,53 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMDUnassociatedAppleMediaAccessory, HMFTimer, NSArray, NSMapTable, NSMutableSet, NSObject, NSString;
-@protocol HMDMRAVRoutingDiscoverySession, HMDMediaBrowserDataSource, HMDMediaBrowserDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaBrowser
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_accessoryAdvertisements;
-    NSMapTable *_currentBrowseOperations;
-    _Bool _discoverUnassociatedAccessories;
-    _Bool _updateAvailableOutputDevices;
-    id <HMDMediaBrowserDelegate> _delegate;
-    HMDHomeManager *_homeManager;
-    HMFTimer *_discoveryPollTimer;
-    NSMutableSet *_identifiersOfAssociatedMediaAccessories;
-    NSMutableSet *_mediaEndpoints;
-    id <HMDMediaBrowserDataSource> _dataSource;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    id <HMDMRAVRoutingDiscoverySession> _discoverySession;
-    id _discoverySessionCallbackToken;
 }
 
 + (id);
 + (id);
 + (id)zB;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)h
+;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)r writing to tool close connection;
 - (void);
 - (id);
+- (void)@&;
+- (id);
+- (void);
+- (id)speechAlternativeRanksMiddleNameRank;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id)0@ù
 × ;
-- (id)FromWorkingStore: /* Error: Ran out of types for this method. */;
-- (id)guringStateController;
-- (id)homeToUserMap;
+- (id)setResidentSelectionInfoFromWorkingStore: /* Error: Ran out of types for this method. */;
+- (id)configuringStateController;
+- (id)_homeToUserMap;
 - (void)airInfo;
 - (void)	
 ;
@@ -65,20 +53,7 @@ __attribute__((visibility("hidden")))
 - (id):(id)arg1 ÿ)Äeà?;
 
 // Remaining properties
-@property(readonly, copy) NSArray *accessoryAdvertisements;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) HMDUnassociatedAppleMediaAccessory *currentAccessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <HMDMRAVRoutingDiscoverySession> discoverySession; // @synthesize discoverySession=_discoverySession;
-@property(retain, nonatomic) id discoverySessionCallbackToken; // @synthesize discoverySessionCallbackToken=_discoverySessionCallbackToken;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) Class superclass;
 
 @end
 

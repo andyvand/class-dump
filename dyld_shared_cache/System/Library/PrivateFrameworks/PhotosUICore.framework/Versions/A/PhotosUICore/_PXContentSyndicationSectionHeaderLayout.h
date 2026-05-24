@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXAssetCollectionActionManager, PXAssetsDataSource, PXContentSyndicationSectionHeaderView, PXPhotosLayoutSpec, PXSelectionSnapshot, SLHighlight;
-@protocol PXContentSyndicationSocialLayerHighlightProvider, PXDisplayAsset;
+@class PXAssetsDataSource;
 
 @interface _PXContentSyndicationSectionHeaderLayout
 {
     _Bool _isInSelectMode;
-    PXPhotosLayoutSpec *_spec;
-    PXSelectionSnapshot *_selectionSnapshot;
-    PXAssetsDataSource *_dataSource;
-    id <PXContentSyndicationSocialLayerHighlightProvider> _socialLayerHighlightProvider;
-    id <PXDisplayAsset> _referenceAssetForHighlight;
-    PXContentSyndicationSectionHeaderView *_sectionHeaderContentView;
-    SLHighlight *_socialLayerHighlight;
-    PXAssetCollectionActionManager *_assetCollectionManager;
-    struct PXSimpleIndexPath _sectionIndexPath;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (struct PXSimpleIndexPath);
 - (id);
 - (id);
@@ -41,29 +31,20 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)setCurrentTime:duration:rate:isWaiting:animated: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void); 
+					color = mix(color, borderColor, borderAlpha); 
+				} 
+			else 
+				color = borderColor * SpriteEdgeSoftenerPremultiplied(vInSpriteCoordinates, invRadii); 
+			gl_FragColor = color; 
+		} 
+		;
 - (void)SaveConfirmation;
 
 // Remaining properties
-@property(retain, nonatomic) PXAssetCollectionActionManager *assetCollectionManager; // @synthesize assetCollectionManager=_assetCollectionManager;
 @property(retain, nonatomic) PXAssetsDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInSelectMode; // @synthesize isInSelectMode=_isInSelectMode;
-@property(retain, nonatomic) id <PXDisplayAsset> referenceAssetForHighlight; // @synthesize referenceAssetForHighlight=_referenceAssetForHighlight;
-@property(retain, nonatomic) PXContentSyndicationSectionHeaderView *sectionHeaderContentView; // @synthesize sectionHeaderContentView=_sectionHeaderContentView;
-@property(nonatomic) struct PXSimpleIndexPath sectionIndexPath; // @synthesize sectionIndexPath=_sectionIndexPath;
-@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
-@property(retain, nonatomic) SLHighlight *socialLayerHighlight; // @synthesize socialLayerHighlight=_socialLayerHighlight;
-@property(readonly, nonatomic) id <PXContentSyndicationSocialLayerHighlightProvider> socialLayerHighlightProvider; // @synthesize socialLayerHighlightProvider=_socialLayerHighlightProvider;
-@property(retain, nonatomic) PXPhotosLayoutSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
 
 @end
 

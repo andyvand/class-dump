@@ -6,47 +6,26 @@
 
 #import <UIKitCore/UIDynamicBehavior.h>
 
-@class NSArray, PKExtendedPhysicsBody, PKPhysicsJoint;
+@class NSArray;
 
 @interface UIAttachmentBehavior : UIDynamicBehavior
 {
     struct CGPoint _anchorPoint;
-    struct CGPoint _anchorPointA;
-    struct CGPoint _anchorPointB;
-    PKExtendedPhysicsBody *_anchorBody;
-    PKPhysicsJoint *_joint;
-    double _damping;
-    double _frequency;
-    double _length;
-    struct CGVector _axis;
-    unsigned long long _attachmentType;
-    long long _type;
-    struct {
-        unsigned int dampingSet:1;
-        unsigned int frequencySet:1;
-        unsigned int lengthSet:1;
-        unsigned int rangeSet:1;
-        unsigned int frictionTorqueSet:1;
-        unsigned int isRevolute:1;
-    } _stateFlags;
-    long long _attachedBehaviorType;
-    double _frictionTorque;
-    CDStruct_ef18196a _attachmentRange;
 }
 
-+ (id);
-+ (id);
++ (id)transfer:(id)arg1 %@ error:(struct CGPoint)arg2 %@;
++ (id)fer generated for guid:(id)arg1 %@;
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)Received an empty message guid;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (double);
 - (long long);
 - (void);
@@ -57,12 +36,12 @@
 - (void);
 - (CDStruct_c3b9c2ee);
 - (id);
-- (double);
+- (double)identifierSetAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
-- (void)uiringRasterizationAndAlphaHack;
-- (id)ragOrDropAnimationAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_transitioningBetweenMaterialsRequiringRasterizationAndAlphaHack;
+- (id)_isCellInvolvedInDragOrDropAnimationAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void)6^B24;
 - (struct CGPoint);
 - (void);
@@ -71,14 +50,7 @@
 - (void)xÿ;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint anchorPoint;
-@property(readonly, nonatomic) long long attachedBehaviorType; // @synthesize attachedBehaviorType=_attachedBehaviorType;
-@property(nonatomic) CDStruct_c3b9c2ee attachmentRange; // @synthesize attachmentRange=_attachmentRange;
-@property(nonatomic) double damping;
-@property(nonatomic) double frequency;
-@property(nonatomic) double frictionTorque; // @synthesize frictionTorque=_frictionTorque;
 @property(readonly, copy, nonatomic) NSArray *items;
-@property(nonatomic) double length;
 
 @end
 

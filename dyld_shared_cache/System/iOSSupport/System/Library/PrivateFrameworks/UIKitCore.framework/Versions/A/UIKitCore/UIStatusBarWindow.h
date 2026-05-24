@@ -26,12 +26,12 @@
 × ;
 - (id)qc°1Â0@ù
 × ;
-- (_Bool)unpacedFractionCompleteForAnimation:inLayer:duration: /* Error: Ran out of types for this method. */;
-- (struct CGRect)oViewControllers;
-- (long long)creen: /* Error: Ran out of types for this method. */;
-- (struct CGRect)e;
+- (_Bool)_unpacedFractionCompleteForAnimation:inLayer:duration: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_tabBarItemsToViewControllers;
+- (long long)_resolvedDataSourceFilterTypeForScreen: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_dragMovementPhase;
 - (id)TB,N,S_setHideSearchResultsDivider:(struct CGRect)arg1;
-- (_Bool)alView;
+- (_Bool)_UIContainerWindowPortalView;
 - (_Bool)nt=dd}{CGSize=dd}}8;
 - (struct UIEdgeInsets);
 - (struct CGRect);

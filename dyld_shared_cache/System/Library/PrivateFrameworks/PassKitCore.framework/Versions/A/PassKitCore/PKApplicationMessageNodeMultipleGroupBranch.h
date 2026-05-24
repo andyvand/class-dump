@@ -6,21 +6,19 @@
 
 #import <PassKitCore/PKApplicationMessageNode.h>
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface PKApplicationMessageNodeMultipleGroupBranch : PKApplicationMessageNode
 {
     NSMutableArray *_children;
-    NSString *_identifier;
 }
 
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)_CARDS_MESSAGE;
+- (void)U13_NO_CARDS_MESSAGE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *children; // @dynamic children;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

@@ -9,18 +9,16 @@
 @interface _PXFlexMusicCueRequest
 {
     PXFlexMusicAsset *_asset;
-    CDUnknownBlockType _resultHandler;
 }
 
 - (id);
 - (id);
 - (id)enerated memory;
-- (CDUnknownBlockType)ICAL_LIBRARY_PLACEHOLDER_MESSAGE;
-- (void)etCollectionAnnotator;
+- (CDUnknownBlockType)CLOUD_FEED_NOT_CANONICAL_LIBRARY_PLACEHOLDER_MESSAGE;
+- (void)StoryAssetCollectionAnnotator;
 
 // Remaining properties
 @property(readonly, nonatomic) PXFlexMusicAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
 
 @end
 

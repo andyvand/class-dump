@@ -8,15 +8,6 @@
 {
     id fileType;
     id fileManager;
-    id videoSettings;
-    id delegate;
-    id outputURL;
-    id isRecording;
-    id fileName;
-    id writer;
-    id writerInput;
-    id startTimestamp;
-    id currentTimestamp;
 }
 
 @end

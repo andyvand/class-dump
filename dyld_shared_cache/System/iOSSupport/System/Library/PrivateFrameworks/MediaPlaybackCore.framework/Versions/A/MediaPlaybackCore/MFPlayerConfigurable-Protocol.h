@@ -5,10 +5,9 @@
 //
 
 @protocol MFPlayerConfigurable
-- (_Bool)edSessionParticipant;
+- (_Bool)MPCSharedSessionParticipant;
 
 // Remaining properties
-@property(nonatomic) _Bool isMuted;
 @property(nonatomic) float relativeVolume;
 @end
 

@@ -9,12 +9,11 @@
 @interface GEOSearchSessionData
 {
     double _analyticsShortSessionCreateTime;
-    GEOPDSSearchSessionData *_searchSessionData;
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id)@?>24;
 - (id);
 - (void);
 

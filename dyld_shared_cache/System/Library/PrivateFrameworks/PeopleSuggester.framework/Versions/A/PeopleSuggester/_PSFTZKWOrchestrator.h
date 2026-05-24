@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, _CDInteractionStore, _PSCalendarEventPredictorDelegateWrapper, _PSFTZKWConfig, _PSKNNZKWATXDelegateWrapper, _PSSuggestionFromTextPredictorDelegateWrapper;
-@protocol OS_dispatch_queue;
+@class _PSCalendarEventPredictorDelegateWrapper, _PSFTZKWConfig;
 
 @interface _PSFTZKWOrchestrator
 {
     _PSCalendarEventPredictorDelegateWrapper *_calendarDelegateWrapper;
-    _PSSuggestionFromTextPredictorDelegateWrapper *_unstructuredCalendarDelegateWrapper;
-    _PSSuggestionFromTextPredictorDelegateWrapper *_unstructuredRemindersDelegateWrapper;
-    _PSKNNZKWATXDelegateWrapper *_faceTimeInteractionModelDelegateWrapper;
-    _PSKNNZKWATXDelegateWrapper *_fallbackInteractionModelDelegateWrapper;
-    NSMutableArray *_clientModels;
-    _PSFTZKWConfig *_config;
-    _CDInteractionStore *_interactionStore;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
-- (id);
+- (id)q;
+- (void)ViewController;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties

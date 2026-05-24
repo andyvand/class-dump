@@ -5,5 +5,8 @@
 //
 
 @protocol AFSettingsDelegate
+
+@optional
+- (void)ctionSums:%@ /* Error: Ran out of types for this method. */;
 @end
 

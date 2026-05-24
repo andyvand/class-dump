@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVAssetReaderOutput.h>
 
-@class AVAssetReaderTrackOutputInternal, AVAssetTrack, NSDictionary, NSString;
+@class AVAssetReaderTrackOutputInternal;
 
 @interface AVAssetReaderTrackOutput : AVAssetReaderOutput
 {
@@ -14,9 +14,9 @@
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)xm;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -24,26 +24,23 @@
 - (id);
 - (struct opaqueCMSampleBuffer *);
 - (unsigned int);
-- (id);
-- (struct opaqueCMSampleBuffer *);
+- (id)in_1;
+- (struct opaqueCMSampleBuffer *)UN5.R;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)M;
+- (_Bool)@;
+- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)TKXPCConnectionDelegate;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isAttachedToAdaptor) _Bool attachedToAdaptor;
-@property(copy, nonatomic) NSString *audioTimePitchAlgorithm;
-@property(readonly, nonatomic) NSDictionary *outputSettings;
-@property(readonly, nonatomic) AVAssetTrack *track;
 
 @end
 

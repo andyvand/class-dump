@@ -6,12 +6,11 @@
 
 #import <PhotoImaging/PIParallaxFilter.h>
 
-@class NSDictionary, PIParallaxStyleRecipe;
+@class PIParallaxStyleRecipe;
 
 @interface PIParallaxRecipeFilter : PIParallaxFilter
 {
     PIParallaxStyleRecipe *_recipe;
-    NSDictionary *_parameters;
 }
 
 - (id);
@@ -22,14 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)O;
 - (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)setMainTrackSourceIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
 @property(retain, nonatomic) PIParallaxStyleRecipe *recipe; // @synthesize recipe=_recipe;
-@property(readonly, nonatomic) NSDictionary *resolvedParameters;
 
 @end
 

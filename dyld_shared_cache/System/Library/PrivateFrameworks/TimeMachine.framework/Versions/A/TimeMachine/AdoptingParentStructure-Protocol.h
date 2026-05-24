@@ -5,5 +5,6 @@
 //
 
 @protocol AdoptingParentStructure
+- (_Bool);
 @end
 

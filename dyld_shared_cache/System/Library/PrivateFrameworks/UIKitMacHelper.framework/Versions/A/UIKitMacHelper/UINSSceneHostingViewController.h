@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSInputView, UINSSceneViewController, UIWindowScene;
-@protocol UINSSceneHostingViewControllerDelegate;
+@class NSString, UINSInputView;
 
 @interface UINSSceneHostingViewController
 {
     NSString *_sceneIdentifier;
-    NSString *_persistentIdentifier;
-    UIWindowScene *_windowScene;
-    UINSSceneViewController *_sceneViewController;
-    _Bool _didFinishInitializing;
-    _Bool _encounteredViewWillAppear;
-    _Bool _didResumeSceneResize;
-    id <UINSSceneHostingViewControllerDelegate> _delegate;
 }
 
 - (id);
@@ -27,19 +19,19 @@
 - (struct CGRect);
 - (struct CGPoint);
 - (struct CGPoint);
-- (void);
+- (void)JB;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
+- (struct CGRect)36d1944d1952d1960d1968d1976d1984d1992d2000d2008d2016d2024d2032d2040d2048d2056d2064d2072d2080d2088d2096d2104d2112d2120d2128d2136d2144d2152d2160d2168d2176d2184d2192d2200d2208d2216d2224d2232d2240d2248d2256d2264d2272d2280d2288d2296d2304d2312d2320d2328d2336d2344d2352d2360d2368d2376d2384d2392d2400d2408d2416d2424d2432d2440d2448d2456d2464d2472d2480d2488d2496d2504d2512d2520d2528d2536d2544d2552d2560d2568d2576d2584d2592d2600d2608d2616d2624d2632d2640d2648d2656d2664d2672d2680d2688d2696d2704d2712d2720d2728d2736d2744d2752d2760d2768d2776d2784d2792d2800d2808d2816d2824d2832d2840d2848d2856d2864d2872d2880d2888d2896d2904d2912d2920d2928d2936d2944d2952d2960d2968d2976d2984d2992d3000d3008d3016d3024d3032d3040d3048d3056d3064d3072d3080d3088d3096d3104d3112d3120d3128d3136d3144d3152d3160d3168d3176d3184d3192;
+- (void)ing"16B24B28B32B36;
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
@@ -47,10 +39,7 @@
 - (void);
 
 // Remaining properties
-@property __weak id <UINSSceneHostingViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) UINSInputView *inputView;
-@property(readonly) NSString *sceneIdentifier;
-@property(readonly) UIWindowScene *windowScene;
 
 @end
 

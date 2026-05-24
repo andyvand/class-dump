@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface IDSBaseMessageSigningData
 {
     _Bool _includeIcloudBAAHeaders;
-    NSData *_sha256Digest;
-    NSData *_requestBody;
-    NSNumber *_serverTimestamp;
 }
 
-- (id);
+- (id)R;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)i;
 - (void)loy.managedassets.ft;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool includeIcloudBAAHeaders; // @synthesize includeIcloudBAAHeaders=_includeIcloudBAAHeaders;
-@property(readonly, nonatomic) NSData *requestBody; // @synthesize requestBody=_requestBody;
-@property(readonly, nonatomic) NSNumber *serverTimestamp; // @synthesize serverTimestamp=_serverTimestamp;
 @property(readonly, nonatomic) NSData *sha256Digest; // @synthesize sha256Digest=_sha256Digest;
 
 @end

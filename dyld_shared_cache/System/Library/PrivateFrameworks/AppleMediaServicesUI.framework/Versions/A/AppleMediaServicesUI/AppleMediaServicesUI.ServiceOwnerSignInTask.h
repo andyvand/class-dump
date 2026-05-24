@@ -7,7 +7,6 @@
 @interface AppleMediaServicesUI.ServiceOwnerSignInTask
 {
     id request;
-    id presenter;
 }
 
 @end

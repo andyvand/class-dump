@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSMutableArray, NSMutableDictionary, NSObject, NSString, SLHighlightCenter;
-@protocol OS_dispatch_queue, WBSStartPageSuggestionsProviderDelegate;
+@class NSArray, SLHighlightCenter;
 
 @interface WBSHighlightManager
 {
     SLHighlightCenter *_highlightCenter;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSCache *_linkDataCache;
-    NSMutableArray *_deferredAttributionPresenters;
-    NSMutableDictionary *_highlightToAttributionViewMap;
-    _Bool _isFetchingHighlights;
-    id <WBSStartPageSuggestionsProviderDelegate> _suggestionsProviderDelegate;
-    NSArray *_highlights;
 }
 
 + (void);
@@ -25,39 +17,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)&
+;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)raint;
+- (void)declineButtonTrailingConstraint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic, setter=_setHighlights:) NSArray *highlights; // @synthesize highlights=_highlights;
-@property(readonly, nonatomic) _Bool isFetchingHighlights; // @synthesize isFetchingHighlights=_isFetchingHighlights;
-@property(readonly, nonatomic) NSString *providerSectionIdentifier;
-@property(readonly, copy, nonatomic) NSArray *suggestions;
-@property(nonatomic) __weak id <WBSStartPageSuggestionsProviderDelegate> suggestionsProviderDelegate; // @synthesize suggestionsProviderDelegate=_suggestionsProviderDelegate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol TRINamespaceFactorProviding
+- (void)PHSearchSuggestionCategoriesTypeLongExposure;
+- (unsigned int)N;
 @end
 

@@ -9,14 +9,6 @@
 @interface MediaPlaybackCore.PausedState : MediaPlaybackCore.TransportableState
 {
     id reason;
-    id metadata;
-    id playbackDidStopWasProcessed;
-    id signalOnEnter;
-    id playbackDidStartEvent;
-    id prepareForPlaybackEvent;
-    id fadeOut;
-    id timeContinuity;
-    id suppressed;
 }
 
 @end

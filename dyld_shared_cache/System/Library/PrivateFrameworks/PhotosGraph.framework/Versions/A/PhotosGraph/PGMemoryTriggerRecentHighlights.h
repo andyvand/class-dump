@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)_thirdPartyMenuExtraIsOpen:(id)arg1 controller:(id)arg2 initialVisibleWindowCount: /* Error: Ran out of types for this method. */;
+- (unsigned long long)@"NSError"16;
 - (void)Number of Highlight group nodes:%lu
  /* Error: Ran out of types for this method. */;
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString, SUCoreDiag;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SUCoreFSM
 {
     _Bool _isActive;
-    _Bool _performingEvent;
-    NSString *_fsmName;
-    NSString *_instanceName;
-    NSString *_fullName;
-    NSDictionary *_stateTable;
-    NSMutableDictionary *_usageTable;
-    unsigned long long _untrackedOccurrences;
-    NSString *_startState;
-    SUCoreDiag *_diag;
-    NSString *_currentState;
-    NSMutableDictionary *_registeredActionTable;
-    NSString *_pendingFollowupEvent;
-    id _pendingFollowupInfo;
-    NSObject<OS_dispatch_queue> *_extendedStateQueue;
 }
 
 - (void);
@@ -34,8 +19,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -63,12 +48,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)containsObject:(id)arg1;
+- (void)KECHAINBACKUP_RANDOM_SECURITY_CODE_CONFIRM_PROMPT;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ubscription - options=%{public}@;
 - (id);
 - (void);
 - (id);
@@ -76,24 +61,10 @@
 - (void);
 - (void)0@ù
 × ;
-- (id)ctVersion: /* Error: Ran out of types for this method. */;
+- (id)setSplatRollbackProductVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) SUCoreDiag *diag; // @synthesize diag=_diag;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *extendedStateQueue; // @synthesize extendedStateQueue=_extendedStateQueue;
-@property(readonly, retain, nonatomic) NSString *fsmName; // @synthesize fsmName=_fsmName;
 @property(readonly, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly, retain, nonatomic) NSString *instanceName; // @synthesize instanceName=_instanceName;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(retain, nonatomic) NSString *pendingFollowupEvent; // @synthesize pendingFollowupEvent=_pendingFollowupEvent;
-@property(retain, nonatomic) id pendingFollowupInfo; // @synthesize pendingFollowupInfo=_pendingFollowupInfo;
-@property(nonatomic) _Bool performingEvent; // @synthesize performingEvent=_performingEvent;
-@property(readonly, nonatomic) NSMutableDictionary *registeredActionTable; // @synthesize registeredActionTable=_registeredActionTable;
-@property(readonly, nonatomic) NSString *startState; // @synthesize startState=_startState;
-@property(readonly, nonatomic) NSDictionary *stateTable; // @synthesize stateTable=_stateTable;
-@property(nonatomic) unsigned long long untrackedOccurrences; // @synthesize untrackedOccurrences=_untrackedOccurrences;
-@property(retain, nonatomic) NSMutableDictionary *usageTable; // @synthesize usageTable=_usageTable;
 
 @end
 

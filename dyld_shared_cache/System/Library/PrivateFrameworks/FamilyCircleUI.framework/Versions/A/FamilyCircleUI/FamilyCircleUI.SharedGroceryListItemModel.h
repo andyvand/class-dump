@@ -7,11 +7,6 @@
 @interface FamilyCircleUI.SharedGroceryListItemModel
 {
     id _isLoading;
-    id _showAccountUpdateAlert;
-    id _showGenericErrorAlert;
-    id remindersStore;
-    id aidaAccountManager;
-    id _$observationRegistrar;
 }
 
 @end

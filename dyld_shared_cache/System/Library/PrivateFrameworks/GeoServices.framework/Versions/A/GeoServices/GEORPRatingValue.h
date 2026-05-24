@@ -9,38 +9,33 @@
 @interface GEORPRatingValue
 {
     GEOLocalizedString *_categoryName;
-    int _score;
-    CDStruct_f58e6c32 _flags;
 }
 
-+ (_Bool)actionSession:(id)arg1;
++ (_Bool)setListInteractionSession:(id)arg1;
 - (_Bool);
+- (void)s:(id)arg1 %s;
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void);
+- (void)_fetchAudioProviderWithContext:(id)arg1;
+- (unsigned long long)`;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)pportsRoadComplexities"b1"has_supportsRouteCameraInputUpdates"b1"has_supportsRouteNameRanges"b1"has_supportsSilentRouteUpdates"b1"has_supportsSpeedTrapAnnouncements"b1"has_supportsTrafficCameras"b1"has_supportsUserIncidentReports"b1"has_supportsWalkingSuggestionsAfterParking"b1"has_supportsWaypointRoutes"b1"has_willSendEvDirectionsFeedback"b1"read_unknownFields"b1"read_supportedElevationModels"b1"read_supportedTransitFeatures"b1"read_supportsMultipointRoutings"b1"read_abAssignInfo"b1"read_advisoryClientCapabilities"b1"read_appMajorVersion"b1"read_appMinorVersion"b1"read_artworkCapabilities"b1"read_deviceCountryCode"b1"read_deviceSku"b1"read_displayLanguages"b1"read_displayRegion"b1"read_formattedStringClientCapabilities"b1"read_hardwareModel"b1"read_hardwareClass"b1"read_localizationCapabilities"b1"read_osVersion"b1"read_requestTime"b1"read_userCurrentTimezone"b1"read_walkingSupportedFeatures"b1"wrote_anyField"b1};
-- (id)nstraints;
-- (int)t;
+- (id)constraints;
+- (int)GEORPFeedbackTdmFraudNotificationResult;
 - (id)è;
 - (id)lFrom can only be called once per object;
 - (void)¨;
 - (void)Sè¼Æ.ûO@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocalizedString *categoryName;
 @property(readonly, nonatomic) _Bool hasCategoryName;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) int score;
 
 @end
 

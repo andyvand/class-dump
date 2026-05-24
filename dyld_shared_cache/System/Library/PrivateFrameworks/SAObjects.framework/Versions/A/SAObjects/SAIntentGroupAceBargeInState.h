@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface SAIntentGroupAceBargeInState : AceObject
 {
@@ -16,22 +16,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bargeInModes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *durationSincePreviousTTSFinish;
-@property(copy, nonatomic) NSNumber *durationSincePreviousTTSStart;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

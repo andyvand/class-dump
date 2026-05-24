@@ -7,17 +7,13 @@
 @class NSString;
 
 @protocol MPMutableIdentifierSet
-- (_Bool)resentationForVisualIdentity:withSize:video: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSString *)/;
+- (NSString *);
+- (NSString *)!;
+- (_Bool)representationForVisualIdentity:withSize:video: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *containerUniqueID;
-@property(copy, nonatomic) NSString *contentItemID;
-@property(copy, nonatomic) NSString *handoffCorrelationID;
-@property(copy, nonatomic) NSString *lyricsID;
-@property(copy, nonatomic) NSString *opaqueID;
-@property(nonatomic, getter=isPlaceholder) _Bool placeholder;
-@property(nonatomic) _Bool shouldExcludeFromShuffle;
-@property(copy, nonatomic) NSString *vendorID;
-@property(copy, nonatomic) NSString *versionHash;
 @end
 

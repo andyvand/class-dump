@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SiriCoreSQLiteTableConstraint
 {
     NSString *_name;
-    long long _type;
-    NSArray *_columnNames;
 }
 
-+ (id);
-+ (id);
-- (id);
++ (id)AdditionalCursorInteractions;
++ (id)dTime;
+- (id)QueryComponentCr;
 - (id);
 - (long long);
 - (id);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *columnNames; // @synthesize columnNames=_columnNames;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

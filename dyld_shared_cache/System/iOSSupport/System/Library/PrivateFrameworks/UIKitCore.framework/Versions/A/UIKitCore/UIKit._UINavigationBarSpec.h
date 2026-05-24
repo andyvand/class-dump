@@ -12,9 +12,9 @@
 }
 
 + (id);
-- (void);
+- (void)RestoredAllContentFromCloudKit;
 - (id);
-- (void)cusedItemHightlightVisible: /* Error: Ran out of types for this method. */;
+- (void)_setFocusedItemHightlightVisible: /* Error: Ran out of types for this method. */;
 - (id)l;
 - (void)¸&ÿ¥A;
 

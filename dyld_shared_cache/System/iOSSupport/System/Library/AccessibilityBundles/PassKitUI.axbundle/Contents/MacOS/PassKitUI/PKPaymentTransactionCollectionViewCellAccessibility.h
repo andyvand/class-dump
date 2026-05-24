@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)AXVKCImageTextSelectionViewAccessibilityElement;
 + (void);
 - (_Bool);
 - (id);

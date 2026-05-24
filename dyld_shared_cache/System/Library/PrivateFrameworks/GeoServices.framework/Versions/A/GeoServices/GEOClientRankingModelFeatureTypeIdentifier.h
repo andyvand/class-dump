@@ -11,9 +11,9 @@
     long long _featureType;
 }
 
-- (id);
-- (long long);
-- (id);
+- (id)orderedSetHash:(long long)arg1;
+- (long long)LABEL_FORMAT;
+- (id)TriggerDailyStats]_block_invoke;
 - (long long);
 
 // Remaining properties

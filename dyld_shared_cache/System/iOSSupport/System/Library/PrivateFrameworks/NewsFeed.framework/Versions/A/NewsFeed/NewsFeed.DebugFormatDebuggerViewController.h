@@ -9,8 +9,6 @@
 @interface NewsFeed.DebugFormatDebuggerViewController : NewsFeed.DebugFormatInspectorPaneViewController
 {
     id debuggerPaneViewController;
-    id editor;
-    id selectedCallStackFrame;
 }
 
 - (id);

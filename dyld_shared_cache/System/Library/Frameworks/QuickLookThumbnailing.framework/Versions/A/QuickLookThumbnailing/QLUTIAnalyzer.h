@@ -17,12 +17,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)EspressoDataFrameImageAttachment;
 + (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)I;
 - (id);
 - (id);
 - (void);

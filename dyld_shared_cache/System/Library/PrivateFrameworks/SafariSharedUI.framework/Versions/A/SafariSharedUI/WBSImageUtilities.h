@@ -13,7 +13,7 @@
 + (id);
 + (struct CGSize);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MPStoreLyricsResponse
 {
     NSString *_lyricsContent;
-    NSString *_lyricsID;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *lyricsContent; // @synthesize lyricsContent=_lyricsContent;
-@property(retain, nonatomic) NSString *lyricsID; // @synthesize lyricsID=_lyricsID;
 
 @end
 

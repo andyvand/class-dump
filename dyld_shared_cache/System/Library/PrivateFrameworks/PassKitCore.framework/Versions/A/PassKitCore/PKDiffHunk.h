@@ -9,9 +9,6 @@
 @interface PKDiffHunk
 {
     NSString *_key;
-    id _oldValue;
-    id _newValue;
-    NSString *_message;
 }
 
 + (id);
@@ -24,21 +21,18 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(@9J*;
 - (id);
-- (_Bool);
+- (_Bool)hasTcpECNIntOnAvgRTT;
 - (void);
 - (id)
 × ;
-- (long long)dRegions;
-- (void)te;
-- (void)ificationCode;
+- (long long)_supportedRegions;
+- (void)virtualcardstatusupdate;
+- (void)verificationCode;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) id valueNew; // @synthesize valueNew=_newValue;
-@property(retain, nonatomic) id valueOld; // @synthesize valueOld=_oldValue;
 
 @end
 

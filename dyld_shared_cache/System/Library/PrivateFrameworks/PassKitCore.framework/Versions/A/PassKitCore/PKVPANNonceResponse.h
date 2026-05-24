@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void)ntifier;
-- (id)VICE_REDEEM_ACCOUNT_INVALID_STATE_ERROR_MESSAGE;
+- (void)fpanDescriptorIdentifier;
+- (id)ACCOUNT_SERVICE_REDEEM_ACCOUNT_INVALID_STATE_ERROR_MESSAGE;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;

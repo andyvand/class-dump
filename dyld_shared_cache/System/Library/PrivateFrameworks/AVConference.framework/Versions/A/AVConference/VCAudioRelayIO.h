@@ -6,38 +6,17 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSString;
-@protocol VCBasebandCodecNotifications;
-
 @interface VCAudioRelayIO : VCObject
 {
     _Bool _usePacketThread;
-    struct PacketThread_s *_packetThread;
-    _Bool _isRunning;
-    struct tagVCAudioFrameFormat _clientFormat;
-    struct tagVCAudioFrameFormat _relayFormat;
-    struct tagVCAudioRelayIOContext _micContext;
-    struct tagVCAudioRelayIOContext _speakerContext;
-    unsigned int _micTimestamp;
-    struct opaqueVCAudioBufferList *_micBuffer;
-    float _micPowerRMS;
-    unsigned int _speakerTimestamp;
-    struct opaqueVCAudioBufferList *_speakerBuffer;
-    float _speakerPowerRMS;
-    CDUnknownFunctionPointerType _updateRemoteCodecInfoCallback;
-    void *_updateRemoteCodecInfoContext;
-    CDUnknownBlockType _startCompletionHandler;
-    struct _VCRemoteCodecInfo _remoteCodecInfo;
-    id _relay;
-    _Bool _realtimeCatchUpEnabled;
 }
 
-- (void *);
+- (void *);
 - (CDUnknownFunctionPointerType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (unsigned int);
 - (const struct tagVCAudioRelayIOContext *);
-- (void *);
+- (void *);
 - (struct opaqueVCAudioBufferList *);
 - (void);
 - (void);
@@ -45,19 +24,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)k;
 - (const struct tagVCAudioFrameFormat *);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (double);
-- (struct PacketThread_s *);
+- (struct PacketThread_s *);
 - (unsigned int);
 - (float);
 - (const struct tagVCAudioRelayIOContext *);
@@ -73,8 +52,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (const struct tagVCAudioFrameFormat *);
+- (void)ĉR_;
+- (const struct tagVCAudioFrameFormat *)A;
 - (_Bool);
 - (CDUnknownFunctionPointerType);
 - (void);
@@ -93,37 +72,7 @@
 - (_Bool)%;
 
 // Remaining properties
-@property(nonatomic) const struct tagVCAudioFrameFormat *clientFormat;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
-@property(readonly, nonatomic) struct opaqueVCAudioBufferList *micBuffer; // @synthesize micBuffer=_micBuffer;
-@property CDUnknownFunctionPointerType micCallback;
-@property void *micCallbackContext;
 @property(readonly) const struct tagVCAudioRelayIOContext *micContext;
-@property float micPowerRMS; // @synthesize micPowerRMS=_micPowerRMS;
-@property unsigned int micTimestamp; // @synthesize micTimestamp=_micTimestamp;
-@property(readonly) struct PacketThread_s *packetThread; // @synthesize packetThread=_packetThread;
-@property(readonly) double preferredIODuration;
-@property(nonatomic, getter=isRealtimeCatchUpEnabled) _Bool realtimeCatchUpEnabled; // @synthesize realtimeCatchUpEnabled=_realtimeCatchUpEnabled;
-@property id <VCBasebandCodecNotifications> relay;
-@property(readonly) const struct tagVCAudioFrameFormat *relayFormat;
-@property(nonatomic) const struct _VCRemoteCodecInfo *remoteCodecInfo;
-@property(readonly, nonatomic) struct opaqueVCAudioBufferList *speakerBuffer; // @synthesize speakerBuffer=_speakerBuffer;
-@property CDUnknownFunctionPointerType speakerCallback;
-@property void *speakerCallbackContext;
-@property(readonly) const struct tagVCAudioRelayIOContext *speakerContext;
-@property float speakerPowerRMS; // @synthesize speakerPowerRMS=_speakerPowerRMS;
-@property unsigned int speakerTimestamp; // @synthesize speakerTimestamp=_speakerTimestamp;
-@property(copy) CDUnknownBlockType startCompletionHandler; // @synthesize startCompletionHandler=_startCompletionHandler;
-@property(readonly) Class superclass;
-@property CDUnknownFunctionPointerType updateRemoteCodecInfoCallback; // @synthesize updateRemoteCodecInfoCallback=_updateRemoteCodecInfoCallback;
-@property void *updateRemoteCodecInfoContext; // @synthesize updateRemoteCodecInfoContext=_updateRemoteCodecInfoContext;
-@property _Bool usePacketThread; // @synthesize usePacketThread=_usePacketThread;
 
 @end
 

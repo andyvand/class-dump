@@ -6,27 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CADisplayLink, NSMutableArray, NSMutableIndexSet, UIKBHandwritingQuadCurvePointFIFO;
+@class UIKBHandwritingQuadCurvePointFIFO;
 
 @interface UIKeyboardPathEffectView : UIView
 {
     _Bool _increasedContrastEnabled;
-    _Bool _done;
-    UIKBHandwritingQuadCurvePointFIFO *_pointInterpolator;
-    double _startTime;
-    NSMutableArray *_paths;
-    NSMutableIndexSet *_pointDecayQueue;
-    CADisplayLink *_pointDecayDisplayLink;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)service set correctly?;
+- (id), canMakeDowngradeRoutingCheck:%@
+message:%@
+account:%@
+account.service:%@
+ /* Error: Ran out of types for this method. */;
+- (_Bool)g transfers;
+- (void)editedMessageGUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
 - (void);
 - (void);
 - (id);
@@ -38,10 +36,10 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)b;
 - (void)1Â0@ù
 × ;
-- (int)thHierarchicalColors: /* Error: Ran out of types for this method. */;
+- (int)_configurationWithHierarchicalColors: /* Error: Ran out of types for this method. */;
 - (id)icsTraits",&,N,V_emojiGraphicsTraits;
 - (void)this method is no longer supported - ignoring update to boundarySupplementaryItems;
 - (long long)°uÿ;
@@ -52,13 +50,7 @@
 - (_Bool)`gÕ²i;
 
 // Remaining properties
-@property(nonatomic) _Bool done; // @synthesize done=_done;
-@property(nonatomic) _Bool increasedContrastEnabled; // @synthesize increasedContrastEnabled=_increasedContrastEnabled;
-@property(retain, nonatomic) NSMutableArray *paths; // @synthesize paths=_paths;
-@property(retain, nonatomic) CADisplayLink *pointDecayDisplayLink; // @synthesize pointDecayDisplayLink=_pointDecayDisplayLink;
-@property(retain, nonatomic) NSMutableIndexSet *pointDecayQueue; // @synthesize pointDecayQueue=_pointDecayQueue;
 @property(retain, nonatomic) UIKBHandwritingQuadCurvePointFIFO *pointInterpolator; // @synthesize pointInterpolator=_pointInterpolator;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end
 

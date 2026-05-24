@@ -5,5 +5,6 @@
 //
 
 @protocol PLTableThumbResourceKey
+- (id)c;
 @end
 

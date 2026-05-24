@@ -6,24 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFMutableNetService, HMFNetManager, NSArray, NSMutableArray, NSObject, NSString, _HMFCFHTTPServer;
-@protocol HMFHTTPServerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HMFHTTPServer : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_connections;
-    NSMutableArray *_requestHandlers;
-    unsigned long long _port;
-    double _connectionIdleTimeout;
-    _HMFCFHTTPServer *_internal;
-    id <HMFHTTPServerDelegate> _delegate;
-    NSString *_serviceType;
-    NSString *_name;
-    unsigned long long _options;
-    HMFMutableNetService *_netService;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    HMFNetManager *_netManager;
 }
 
 + (id)ý°!<Eù{Ð1Â0@ù
@@ -41,26 +29,26 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)>/A5A;
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)initWithContext:messengerFactory:metricsDispatcher: /* Error: Ran out of types for this method. */;
+- (void)anning for software update repeatedly on accessory with identifier:(id)arg1 %@;
 - (void);
 - (id);
 - (id);
@@ -70,24 +58,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property double connectionIdleTimeout; // @synthesize connectionIdleTimeout=_connectionIdleTimeout;
-@property(readonly, copy) NSArray *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFHTTPServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _HMFCFHTTPServer *internal; // @synthesize internal=_internal;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) HMFNetManager *netManager; // @synthesize netManager=_netManager;
-@property(readonly, nonatomic) HMFMutableNetService *netService; // @synthesize netService=_netService;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) unsigned long long port; // @synthesize port=_port;
-@property(readonly, copy) NSArray *requestHandlers;
-@property(readonly, copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

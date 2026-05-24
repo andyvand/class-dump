@@ -9,8 +9,6 @@
 @interface NUKeyframeSequenceDouble4 : NUKeyframeSequence
 {
     id _scale;
-    id _bias;
-    id *_values;
 }
 
 - (id);

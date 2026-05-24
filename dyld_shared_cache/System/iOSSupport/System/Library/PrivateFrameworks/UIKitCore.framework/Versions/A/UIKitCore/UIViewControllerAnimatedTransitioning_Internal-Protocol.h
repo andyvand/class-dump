@@ -5,34 +5,26 @@
 //
 
 @class UIView;
-@protocol UIViewControllerContextTransitioning;
+@protocol UIViewControllerContextTransitioning, UIViewControllerInteractiveTransitioning, _UINavigationToolbarTransitionController;
 
 @protocol UIViewControllerAnimatedTransitioning_Internal
 
 @optional
-- (void)ttomTabBar;
+- (_Bool)sendMessage:toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool)sendMessage:toChat:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool)sendCounterProposalToPerson:properties:conference: /* Error: Ran out of types for this method. */;
+- (id <_UINavigationToolbarTransitionController>)_handleStringsForChat:(id <UIViewControllerContextTransitioning>)arg1;
+- (id <UIViewControllerInteractiveTransitioning>)SMSStorageController;
+- (double);
+- (long long)};
+- (UIView *);
+- (void)_isHidingBottomTabBar;
 - (_Bool)wTopSeparator:(id <UIViewControllerContextTransitioning>)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *_navigationBarTransitionOverlay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
 @property(readonly, nonatomic) long long _navigationBarTransitionVariant;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldAnimateBottomBarVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldCrossFadeBottomBars;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldCrossFadeNavigationBarVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
 
 @end
 

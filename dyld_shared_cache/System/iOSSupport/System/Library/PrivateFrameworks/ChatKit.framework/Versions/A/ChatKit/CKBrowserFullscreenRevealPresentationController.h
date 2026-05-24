@@ -4,53 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBrowserFullscreenRevealDimmingView, UIStatusBar, UIStatusBarWindow, UIView;
+@class CKBrowserFullscreenRevealDimmingView;
 
 __attribute__((visibility("hidden")))
 @interface CKBrowserFullscreenRevealPresentationController
 {
     _Bool _presenting;
-    _Bool _dismissing;
-    CDUnknownBlockType _dismissHandler;
-    CKBrowserFullscreenRevealDimmingView *_dimmingView;
-    UIStatusBar *_statusBar;
-    UIStatusBarWindow *_statusBarWindow;
-    unsigned long long _statusBarResizeMask;
-    UIView *_presentingSnapshotView;
-    struct CGRect _presentingSnapshotFrame;
 }
 
 - (unsigned long long);
-- (void);
-- (void);
+- (void)invalidFormatForAudioTap;
+- (void)ObjectWillChangePublisher;
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)I;
 - (void);
 - (id);
-- (id);
+- (id)x+;
+- (void);
+- (void)=;
 - (void);
+- (void)jL;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
-- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType)W;
 - (id);
 - (void)rray",&,N,V_deferredInsertMediaObjectBlocks;
 - (id);
 - (void);
-- (void)cker;
-- (void)ication;
+- (void)_saveSticker;
+- (void)CKAudioSessionControllerSessionOptionsWillChangeNotification;
 - (struct CGRect);
 - (id);
 - (id);
@@ -61,14 +53,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CKBrowserFullscreenRevealDimmingView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(copy, nonatomic) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(nonatomic, getter=isDismissing) _Bool dismissing; // @synthesize dismissing=_dismissing;
-@property(nonatomic, getter=isPresenting) _Bool presenting; // @synthesize presenting=_presenting;
-@property(nonatomic) struct CGRect presentingSnapshotFrame; // @synthesize presentingSnapshotFrame=_presentingSnapshotFrame;
-@property(retain, nonatomic) UIView *presentingSnapshotView; // @synthesize presentingSnapshotView=_presentingSnapshotView;
-@property(retain, nonatomic) UIStatusBar *statusBar; // @synthesize statusBar=_statusBar;
-@property(nonatomic) unsigned long long statusBarResizeMask; // @synthesize statusBarResizeMask=_statusBarResizeMask;
-@property(retain, nonatomic) UIStatusBarWindow *statusBarWindow; // @synthesize statusBarWindow=_statusBarWindow;
 
 @end
 

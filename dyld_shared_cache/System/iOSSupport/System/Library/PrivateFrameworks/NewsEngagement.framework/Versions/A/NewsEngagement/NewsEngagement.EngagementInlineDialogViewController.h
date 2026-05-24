@@ -8,17 +8,12 @@
 {
     id placement;
     id identifier;
-    id source;
-    id trigger;
-    id messageID;
-    id offer;
-    id appearanceInfo;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ViewLayout"16{CGSize=dd}24;
+- (id)rConfiguration";
+- (id)4@0:(id)arg1 8Q16;
+- (id)ze=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}24@216;
 - (id);
 - (id);
 - (id);

@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESProfileSliceResolutionRequestStarted : SISchemaInstrumentationMessage
 {
     unsigned int _sliceLabel;
-    struct {
-        unsigned int sliceLabel:1;
-    } _has;
 }
 
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)es/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDExternalManifestResponse_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);ַ~O;
+- (_Bool)user info for processing task:(id)arg1 %@;
 - (id);
 - (id);
-- (id)ol;
+- (id)_resolveTool;
 - (id)_isIntentInTopFiveRelevance;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSliceLabel;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int sliceLabel; // @synthesize sliceLabel=_sliceLabel;
 
 @end

@@ -7,7 +7,7 @@
 @interface UnknownClass (SGUITinting)
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)yValuePair<WTF:(id)arg1:(struct CGSize)arg2 String, WTF::Ref<WebKit::WebExtensionContextProxy>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::Ref<WebKit::WebExtensionContextProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id):(id)arg1:KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::Ref<WebKit::WebExtensionContextProxy>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::Ref<WebKit::WebExtensionContextProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

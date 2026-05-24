@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (id)!Fù1eÐ1Â0@ù
 × ;
-- (struct CGPoint)dShowSystemInputAssistantItems;
-- (struct CGPoint)n;
+- (struct CGPoint)shouldShowSystemInputAssistantItems;
+- (struct CGPoint)layoutSection;
 - (struct UIEdgeInsets);
 - (double)TextAttributesTransformer;
 

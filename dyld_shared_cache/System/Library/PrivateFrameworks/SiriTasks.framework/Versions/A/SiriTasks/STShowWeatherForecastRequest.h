@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, STCity, STWeatherCurrentConditions, STWeatherUnits;
+@class STWeatherCurrentConditions;
 
 @interface STShowWeatherForecastRequest
 {
     STWeatherCurrentConditions *_currentConditions;
-    NSArray *_hourlyForecasts;
-    STCity *_city;
-    STWeatherUnits *_units;
-    long long _forecastType;
 }
 
 + (_Bool);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id){;
+- (id)p;
 - (id);
 - (id);
 - (id);

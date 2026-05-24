@@ -7,7 +7,6 @@
 @interface Speech.PhoneticNeighbor
 {
     id name;
-    id distance;
 }
 
 @end

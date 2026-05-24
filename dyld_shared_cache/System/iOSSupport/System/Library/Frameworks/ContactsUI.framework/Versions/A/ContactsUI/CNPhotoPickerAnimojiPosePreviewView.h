@@ -6,27 +6,25 @@
 
 #import <ContactsUI/CNPhotoPickerPreviewView.h>
 
-@class AVTView, CAShapeLayer;
+@class AVTView;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerAnimojiPosePreviewView : CNPhotoPickerPreviewView
 {
     AVTView *_avtView;
-    CAShapeLayer *_clippingLayer;
 }
 
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
+- (void)T;
 - (void);
-- (void);
-- (void);
+- (void)_imageAttachment;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTView *avtView; // @synthesize avtView=_avtView;
-@property(retain, nonatomic) CAShapeLayer *clippingLayer; // @synthesize clippingLayer=_clippingLayer;
 
 @end
 

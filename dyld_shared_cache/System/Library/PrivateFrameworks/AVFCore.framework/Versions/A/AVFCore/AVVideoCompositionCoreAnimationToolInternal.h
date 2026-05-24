@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface AVVideoCompositionCoreAnimationToolInternal
 {
     CALayer *animationLayer;
-    int auxiliaryTrackID;
-    NSArray *postProcessingVideoLayers;
-    long long way;
 }
 
 @end

@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPopoverPresentationController, UIView, UIViewController;
+@class UIViewController;
 
 @interface _UIPopoverHostManagerPopoverCreationConfiguration
 {
     _Bool _showsArrow;
-    UIViewController *_contentViewController;
-    UIView *_sourceView;
-    unsigned long long _permittedArrowDirections;
-    long long _userInterfaceStyle;
-    CDUnknownBlockType _completionBlock;
-    UIPopoverPresentationController *_creatingPopoverPresentationController;
-    struct CGSize _contentSize;
-    struct CGRect _sourceRectInParentUIWindow;
 }
 
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)notifyDidSendMessageID:shouldNotify: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)__MPModelPropertyPodcastEpisodeShareURL__MAPPING_MISSING__;
+- (void)_activationMethodForContextMenuInteraction:(id)arg1;
 - (unsigned long long)edback loop.%@;
-- (void)anslationJitterAnimation;
+- (void)YTranslationJitterAnimation;
 - (CDUnknownBlockType)Asked for view at index path %@ but already have size cached!;
 - (void)d}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40@"NSTextContainer"72{_NSRange=QQ}80^B96;
 - (void)oþ°|R0;
@@ -40,15 +32,7 @@
 - (struct CGSize)?;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
 @property(retain, nonatomic) UIViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(nonatomic) __weak UIPopoverPresentationController *creatingPopoverPresentationController; // @synthesize creatingPopoverPresentationController=_creatingPopoverPresentationController;
-@property(nonatomic) unsigned long long permittedArrowDirections; // @synthesize permittedArrowDirections=_permittedArrowDirections;
-@property(nonatomic) _Bool showsArrow; // @synthesize showsArrow=_showsArrow;
-@property(nonatomic) struct CGRect sourceRectInParentUIWindow; // @synthesize sourceRectInParentUIWindow=_sourceRectInParentUIWindow;
-@property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 
 @end
 

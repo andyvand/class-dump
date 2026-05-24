@@ -6,45 +6,34 @@
 
 #import <AppKit/NSView.h>
 
-@class NSSliderKnob;
 @protocol NSSliderTickMarksDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSSliderTickMarks : NSView
 {
     CDStruct_6717dab8 _drawingState;
-    id <NSSliderTickMarksDelegate> _delegate;
-    NSSliderKnob *_knobMaskView;
-    _Bool _maskOnly;
-    _Bool _usesModernStyle;
-    struct CGRect *_tickMarkRectCache;
-    unsigned long long _tickMarkRectCacheLen;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct CGRect);
 - (CDStruct_6717dab8);
-- (void);
+- (void)ready to wake app for uuid %@ for session %@ with identifier %@;
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)e;
 - (_Bool);
 - (id);
-- (void);
-- (id)ptDrop:(struct CGRect)arg1 item:childIndex: /* Error: Ran out of types for this method. */;
+- (void)reeSetCharacterIndexForGlyphAtIndex invalid char index 3;
+- (id)outlineView:(struct CGRect)arg1 acceptDrop:item:childIndex: /* Error: Ran out of types for this method. */;
 - (void)8Nd;
 
 // Remaining properties
 @property __weak id <NSSliderTickMarksDelegate> delegate;
-@property CDStruct_6717dab8 drawingState;
-@property struct CGRect knobMaskFrame;
-@property _Bool maskOnly;
-@property _Bool usesModernStyle;
 
 @end
 

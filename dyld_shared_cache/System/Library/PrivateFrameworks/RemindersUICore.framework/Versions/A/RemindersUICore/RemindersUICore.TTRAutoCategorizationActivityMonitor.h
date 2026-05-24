@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRAutoCategorizationActivityMonitor
 {
     id currentActivity;
-    id backgroundQueue;
-    id isMonitoring;
-    id daemonDidLaunchToken;
-    id currentActivitySubject;
 }
 
 - (void);

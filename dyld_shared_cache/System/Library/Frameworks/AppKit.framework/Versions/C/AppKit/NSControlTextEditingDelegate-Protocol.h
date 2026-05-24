@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSNotification;
+
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (void);
+- (NSArray *);
+- (_Bool)owsWCA;
+- (void)blockQuoteIntentWithIdentity:(NSNotification *)arg1 nestedInsideIntent: /* Error: Ran out of types for this method. */;
 - (void)%lu out of bounds of empty array];
 - (_Bool)id);
 @end

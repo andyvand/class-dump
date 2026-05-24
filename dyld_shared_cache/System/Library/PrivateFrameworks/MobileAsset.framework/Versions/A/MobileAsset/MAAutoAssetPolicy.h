@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface MAAutoAssetPolicy
 {
     _Bool _userInitiated;
-    _Bool _interestAcrossTermination;
-    _Bool _lockAcrossTermination;
-    _Bool _lockAcrossReboot;
-    _Bool _lockAcrossOTAUpdate;
-    _Bool _lockInhibitsEmergencyRemoval;
-    long long _waitForNewestSecs;
-    long long _unlockAfterUsageSecs;
-    long long _preventGarbageCollectionSecs;
-    NSDictionary *_additionalPolicyControl;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)initWithPayload:(id)arg1 aad:psk:pskID:keyRef: /* Error: Ran out of types for this method. */;
+- (void)allowPostQuantumKeyExchangeFallback;
+- (id)";
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)tionOrAutoPauseUpdate;
+- (_Bool)n, identifier, %@, visit, %{sensitive}@;
 - (_Bool);
 - (void);
 - (id);
@@ -46,20 +35,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)tanceStagedFromOSBuild;
+- (_Bool)_latestDownloadedAtomicInstanceStagedFromOSBuild;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalPolicyControl; // @synthesize additionalPolicyControl=_additionalPolicyControl;
-@property(nonatomic) _Bool interestAcrossTermination; // @synthesize interestAcrossTermination=_interestAcrossTermination;
-@property(nonatomic) _Bool lockAcrossOTAUpdate; // @synthesize lockAcrossOTAUpdate=_lockAcrossOTAUpdate;
-@property(nonatomic) _Bool lockAcrossReboot; // @synthesize lockAcrossReboot=_lockAcrossReboot;
-@property(nonatomic) _Bool lockAcrossTermination; // @synthesize lockAcrossTermination=_lockAcrossTermination;
-@property(nonatomic) _Bool lockInhibitsEmergencyRemoval; // @synthesize lockInhibitsEmergencyRemoval=_lockInhibitsEmergencyRemoval;
-@property(nonatomic) long long preventGarbageCollectionSecs; // @synthesize preventGarbageCollectionSecs=_preventGarbageCollectionSecs;
-@property(nonatomic) long long unlockAfterUsageSecs; // @synthesize unlockAfterUsageSecs=_unlockAfterUsageSecs;
 @property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
-@property(nonatomic) long long waitForNewestSecs; // @synthesize waitForNewestSecs=_waitForNewestSecs;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Append)
-- (void);
+- (void)W;
 - (void);
 @end
 

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SearchableWKView, _WKThumbnailView;
+@class SearchableWKView;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerWebViewThumbnailView
 {
     SearchableWKView *_wkView;
-    id _snapshotRequestToken;
-    _Bool _snapshotIsPending;
-    _Bool _receivedSnapshotRequestWhileSnapshotWasPending;
-    _WKThumbnailView *_thumbnailView;
-    _Bool _visibleToUser;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -34,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) SearchableWKView *boundWKView;
-@property(nonatomic) _Bool visibleToUser; // @synthesize visibleToUser=_visibleToUser;
 
 @end
 

@@ -11,13 +11,13 @@
 
 + (id);
 + (_Bool);
-- (long long);
+- (long long)faceID=%d,lockoutState=%08x>;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)e [stackId=;
+- (void)<<;
 - (id);
 - (long long);
 - (id)orFavoriteRank(uint64_t, _Bool);

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDDevice, HMDMessageDispatcher, NSMutableDictionary, NSString;
+@class HMDMessageDispatcher;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraResidentMessageHandler
 {
     struct os_unfair_lock_s _lock;
-    HMDAccessory *_accessory;
-    HMDMessageDispatcher *_messageDispatcher;
-    NSString *_logIdentifier;
-    NSMutableDictionary *_queuedMessagesByDeviceIdentifier;
 }
 
 + (id)ëB;
-- (void);
-- (void);
-- (void);
+- (void)ime is now around %@.;
+- (void)sharing;
+- (void)Shared Trip] text message body (no destination name);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)h8);
 - (id);
 - (void);
 - (void);
@@ -36,20 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
 @property(readonly) HMDMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) NSMutableDictionary *queuedMessagesByDeviceIdentifier; // @synthesize queuedMessagesByDeviceIdentifier=_queuedMessagesByDeviceIdentifier;
-@property(readonly) HMDDevice *remoteAccessDevice;
-@property(readonly, getter=isRemoteAccessDeviceReachable) _Bool remoteAccessDeviceReachable;
-@property(readonly) Class superclass;
-@property(readonly, getter=isUsingCompanionForRemoteAccessDevice) _Bool usingCompanionForRemoteAccessDevice;
 
 @end
 

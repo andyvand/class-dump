@@ -9,13 +9,9 @@
 @interface GEOTripInfo
 {
     PBUnknownFields *_unknownFields;
-    _Bool _hasVisitedFirstStop;
-    struct {
-        unsigned int has_hasVisitedFirstStop:1;
-    } _flags;
 }
 
-+ (_Bool)tNetworkMetrics:(id)arg1;
++ (_Bool)setNetworkMetrics:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -24,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)`&;
+- (void)opportuneSpeakBehaviorMonitor:(id)arg1 didStartStreamWithContext:audioProviderUUID:successfully:option: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -33,15 +29,13 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)ts: /* Error: Ran out of types for this method. */;
+- (id)initWithError:traits: /* Error: Ran out of types for this method. */;
 - (id)cation",N,&,VlastLocation;
 - (id)b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8@16d24;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasHasVisitedFirstStop;
-@property(nonatomic) _Bool hasVisitedFirstStop;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

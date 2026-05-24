@@ -7,9 +7,6 @@
 @interface ChatKit.DetailsInfoTab
 {
     id _currentSelection;
-    id _defaultTitle;
-    id _position;
-    id _$observationRegistrar;
 }
 
 @end

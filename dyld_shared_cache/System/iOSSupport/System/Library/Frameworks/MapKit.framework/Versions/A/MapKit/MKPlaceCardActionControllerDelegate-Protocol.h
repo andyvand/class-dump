@@ -5,5 +5,13 @@
 //
 
 @protocol MKPlaceCardActionControllerDelegate
+- (void)qA;
+- (void);
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

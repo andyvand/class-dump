@@ -6,24 +6,21 @@
 
 #import <SceneKit/SCNAction.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SCNActionSequence : SCNAction
 {
     void *_mycaction;
-    NSArray *_actions;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)monogramTitleExtraInfoKey;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 @end
 

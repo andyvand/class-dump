@@ -5,5 +5,9 @@
 //
 
 @protocol IMSyncedSettingsManaging
+
+@optional
+- (void)sportSessionMultiLink already started;
+- (void)nnels=%u;
 @end
 

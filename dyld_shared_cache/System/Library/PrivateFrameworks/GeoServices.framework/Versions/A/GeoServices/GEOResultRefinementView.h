@@ -11,8 +11,8 @@
     NSArray *_sections;
 }
 
-- (id);
-- (id);
+- (id)coordinatorWithCacheKey:(id)arg1 storeDescription:createIfNeeded: /* Error: Ran out of types for this method. */;
+- (id)Or;
 - (id)1"read_iconFallbackShield"b1"read_icon"b1"read_sfSymbol"b1"read_shield"b1"wrote_anyField"b1};
 - (void)EOPDSearchKeyValuePairList",&,N;
 - (void);

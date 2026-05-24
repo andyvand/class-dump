@@ -9,7 +9,6 @@
 @interface IKFinderReflectiveIconCell : IKFinderCell
 {
     id _currentRenderedImage;
-    float _rotation;
 }
 
 - (float);
@@ -27,7 +26,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (float);
+- (float)%;
 - (_Bool);
 - (double);
 - (struct CGRect);
@@ -39,8 +38,8 @@
 - (void);
 - (double);
 - (float);
-- (void);
-- (void);
+- (void)1;
+- (void)setSymbolEffectOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property float rotation; // @synthesize rotation=_rotation;

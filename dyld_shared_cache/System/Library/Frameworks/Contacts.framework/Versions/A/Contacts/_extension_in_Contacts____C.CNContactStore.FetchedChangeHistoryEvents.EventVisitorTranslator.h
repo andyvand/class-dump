@@ -10,11 +10,11 @@
 }
 
 - (void);
+- (void)`;
+- (id)A;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void)ialNumber;
+- (void)serialNumber;
 
 @end
 

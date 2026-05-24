@@ -6,29 +6,24 @@
 
 #import <IMAP/IMAPPersistenceTaskOperation.h>
 
-@class ECLocalMessageAction, ECLocalMessageActionResults;
-@protocol IMAPMessageActionPersistResultsOperationDelegate;
+@class ECLocalMessageAction;
 
 @interface IMAPMessageActionPersistResultsOperation : IMAPPersistenceTaskOperation
 {
     ECLocalMessageAction *_messageAction;
-    ECLocalMessageActionResults *_results;
-    id <IMAPMessageActionPersistResultsOperationDelegate> _delegate;
 }
 
+- (id)9;
 - (id);
-- (id);
-- (id);
+- (id)tionSo17NSManagedObjectIDC4moidtGtG;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)@;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <IMAPMessageActionPersistResultsOperationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) ECLocalMessageAction *messageAction; // @synthesize messageAction=_messageAction;
-@property(readonly, nonatomic) ECLocalMessageActionResults *results; // @synthesize results=_results;
 
 @end
 

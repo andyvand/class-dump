@@ -7,6 +7,7 @@
 @interface Charts.SgArea.Points
 {
     id points;
+    id;
 }
 
 @end

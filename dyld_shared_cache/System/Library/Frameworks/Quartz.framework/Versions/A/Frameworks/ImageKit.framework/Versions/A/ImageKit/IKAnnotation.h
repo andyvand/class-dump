@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKComposer, IKImageLayer, IKKnobLayer;
+@class IKKnobLayer;
 
 @interface IKAnnotation
 {
     IKKnobLayer *_knobLayer;
-    IKComposer *_composer;
-    IKImageLayer *_imageLayer;
-    _Bool _selected;
-    _Bool _dashed;
-    double _borderColors[4];
-    double _backgroundColors[4];
-    double _shadowColors[4];
-    _Bool _supportsUndo;
 }
 
 + (double);
@@ -28,17 +20,17 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)alidateForDelete:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);

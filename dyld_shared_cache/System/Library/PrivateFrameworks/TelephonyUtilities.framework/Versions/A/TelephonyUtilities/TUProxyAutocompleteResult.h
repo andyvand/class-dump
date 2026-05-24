@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResult, CNContact, NSArray, NSString;
+@class CNAutocompleteResult;
 
 @interface TUProxyAutocompleteResult
 {
@@ -13,7 +13,8 @@
 
 - (void);
 - (_Bool);
-- (long long);
+- (long long);
+- (id)0;
 - (id);
 - (id);
 - (id);
@@ -25,29 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ionEnabled;
+- (void)transcriptTranslationEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) CNAutocompleteResult *autocompleteResult; // @synthesize autocompleteResult=_autocompleteResult;
-@property(readonly) CNContact *backingContact;
-@property(readonly) NSString *backingContactId;
-@property(readonly) NSString *backingContactIdentifier;
-@property(readonly) NSString *callerId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *destinationId;
-@property(readonly) NSString *displayName;
-@property(readonly) NSArray *handles;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *idsCanonicalDestinations;
-@property(readonly) NSString *isoCountryCode;
-@property(readonly) long long mostRecentCallType;
-@property(readonly) _Bool mostRecentCallWasMissed;
-@property(readonly) Class superclass;
 
 @end
 

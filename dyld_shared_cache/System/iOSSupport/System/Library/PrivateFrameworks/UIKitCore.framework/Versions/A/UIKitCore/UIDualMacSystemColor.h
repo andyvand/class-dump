@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     id <UINSColor> _darkMacSystemColor;
 }
 
-- (id);
+- (id)ChatSyncCompleted;
 - (void);
 - (id)ÌØ×`n;
 

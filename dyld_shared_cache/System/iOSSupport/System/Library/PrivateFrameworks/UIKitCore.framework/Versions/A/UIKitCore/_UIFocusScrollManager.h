@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, UIScreen, _UIFocusDisplayLinkScrollAnimator;
+@class UIScreen, _UIFocusDisplayLinkScrollAnimator;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusScrollManager
 {
     UIScreen *_screen;
-    _UIFocusDisplayLinkScrollAnimator *_scrollAnimator;
-    NSHashTable *_stackVisitedScrollingContainers;
 }
 
 - (struct CGPoint);
-- (id);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)count"24;
+- (void)setReplicationSourceServiceName:(id)arg1;
+- (struct CGPoint)_isPrimaryMessageStore;
+- (struct CGPoint)_didUpgradeOrRestoreFromBackup;
+- (struct CGPoint)mpts:(id)arg1 account:(id)arg2 completionBlock:(struct CGPoint)arg3;
+- (void)_idSensitivity;
+- (void)packetsExpected;
+- (void)tionHandlers;
+- (void)account:(id)arg1 conference:(struct CGPoint)arg2 receivedResponseToInvitationFrom:properties: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)l payloads from unknown senders:(id)arg1 %@;
 - (id);
-- (_Bool);
+- (_Bool)CMFItemType;
 - (id)HeaderHeight;
 - (void)[;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak UIScreen *screen; // @synthesize screen=_screen;
 @property(readonly, nonatomic) _UIFocusDisplayLinkScrollAnimator *scrollAnimator; // @synthesize scrollAnimator=_scrollAnimator;
-@property(readonly, nonatomic) NSHashTable *stackVisitedScrollingContainers; // @synthesize stackVisitedScrollingContainers=_stackVisitedScrollingContainers;
 
 @end
 

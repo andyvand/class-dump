@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CloudFamilyAnalysisPETContactEvents, NSString;
+@class NSString;
 
 @interface CloudFamilyAnalysisPETCloudFamilyAnalysisEvent
 {
     int _batch;
-    NSString *_collectionId;
-    CloudFamilyAnalysisPETContactEvents *_contactEvents;
-    NSString *_sessionId;
 }
 
-- (void);
+- (void)m;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)1;
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
+- (void)kCFProxyAutoConfigurationURLKey;
 - (id);
 - (id);
 - (void);
@@ -35,10 +32,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) int batch; // @synthesize batch=_batch;
 @property(retain, nonatomic) NSString *collectionId; // @synthesize collectionId=_collectionId;
-@property(retain, nonatomic) CloudFamilyAnalysisPETContactEvents *contactEvents; // @synthesize contactEvents=_contactEvents;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
 
 @end
 

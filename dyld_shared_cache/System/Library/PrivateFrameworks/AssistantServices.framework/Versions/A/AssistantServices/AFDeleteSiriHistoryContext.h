@@ -9,23 +9,18 @@
 @interface AFDeleteSiriHistoryContext
 {
     NSString *_successTitle;
-    NSString *_successBody;
-    NSString *_successButtonText;
-    NSString *_errorTitle;
-    NSString *_errorBody;
-    NSString *_errorButtonText;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_securityTypes;
+- (id)paymentShippingAddressInvalidErrorWithKey:(CDUnknownBlockType)arg1 localizedDescription: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -38,11 +33,6 @@
 - (void)ceInfo",R,C,N,V_localDevice;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *errorBody; // @synthesize errorBody=_errorBody;
-@property(readonly, copy, nonatomic) NSString *errorButtonText; // @synthesize errorButtonText=_errorButtonText;
-@property(readonly, copy, nonatomic) NSString *errorTitle; // @synthesize errorTitle=_errorTitle;
-@property(readonly, copy, nonatomic) NSString *successBody; // @synthesize successBody=_successBody;
-@property(readonly, copy, nonatomic) NSString *successButtonText; // @synthesize successButtonText=_successButtonText;
 @property(readonly, copy, nonatomic) NSString *successTitle; // @synthesize successTitle=_successTitle;
 
 @end

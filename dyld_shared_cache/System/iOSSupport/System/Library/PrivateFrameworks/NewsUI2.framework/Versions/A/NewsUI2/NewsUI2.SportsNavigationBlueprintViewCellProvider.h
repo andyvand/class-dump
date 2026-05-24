@@ -7,9 +7,6 @@
 @interface NewsUI2.SportsNavigationBlueprintViewCellProvider
 {
     id delegate;
-    id styler;
-    id sportsTagStyler;
-    id renderer;
 }
 
 @end

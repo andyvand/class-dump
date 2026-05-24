@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSData;
 
 @protocol WBSSettingsSyncEngineAccess
+- (_Bool)@;
+
+@optional
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backgroundImageAppearanceIsLight;
-@property(readonly, nonatomic) _Bool backgroundImageExists;
 @property(readonly, nonatomic) NSArray *syncSettingsUpDictionary;
 @end
 

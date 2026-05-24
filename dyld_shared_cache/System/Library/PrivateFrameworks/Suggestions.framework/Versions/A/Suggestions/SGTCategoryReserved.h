@@ -10,13 +10,9 @@ __attribute__((visibility("hidden")))
 @interface SGTCategoryReserved
 {
     NSString *displayName;
-    unsigned long long position;
-    _Bool showsImagesInMenu;
-    _Bool proposesCompletion;
-    _Bool uniquifiersDrawBelow;
 }
 
-- (void);
+- (void)_MUBaseImage;
 
 @end
 

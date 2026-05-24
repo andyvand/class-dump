@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, VNAsyncStatus, VNCanceller, VNRequestConfiguration, VNWarningRecorder;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 @interface VNRequest
 {
     CDUnknownBlockType _completionHandler;
-    VNRequestConfiguration *_configuration;
-    VNWarningRecorder *_warningRecorder;
-    VNAsyncStatus *_asyncStatus;
-    struct os_unfair_lock_s _asyncStatusLock;
-    VNCanceller *_canceller;
-    _Bool _cancellationTriggered;
-    struct os_unfair_lock_s _cancellationResourcesLock;
-    NSObject<OS_dispatch_semaphore> *_cancellationSemaphore;
-    NSObject<OS_dispatch_queue> *_cancellationQueue;
-    unsigned long long _revision;
-    unsigned long long _serialNumber;
-    unsigned long long _executionNanoseconds;
-    NSArray *_results;
 }
 
 @end

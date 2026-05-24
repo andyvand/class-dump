@@ -9,20 +9,11 @@
 @interface _UXFlowLayoutRow
 {
     NSMutableArray *_items;
-    struct CGSize _rowSize;
-    struct CGRect _rowFrame;
-    long long _index;
-    _Bool _isValid;
-    _Bool _complete;
-    long long _verticalAlignement;
-    long long _horizontalAlignement;
-    _Bool _fixedItemSize;
-    _UXFlowLayoutSection *_section;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (id);
 - (void);
@@ -37,18 +28,12 @@
 - (struct CGRect);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (void)
 × ;
 - (id)ge"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"skipCellsUpdateDuringResizing"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"accessibilityDelegateShouldPrepareAccessibilitySection"b1"accessibilityDelegateAXRoleDescription"b1"viewIsPrepared"b1"performingHitTest"b1};
 
 // Remaining properties
-@property(nonatomic) _Bool complete; // @synthesize complete=_complete;
-@property(nonatomic) _Bool fixedItemSize; // @synthesize fixedItemSize=_fixedItemSize;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(nonatomic) struct CGRect rowFrame; // @synthesize rowFrame=_rowFrame;
-@property(nonatomic) struct CGSize rowSize; // @synthesize rowSize=_rowSize;
 @property(nonatomic) _UXFlowLayoutSection *section; // @synthesize section=_section;
 
 @end

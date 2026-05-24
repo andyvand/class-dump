@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSObject, WKFrameInfo, WKWebView;
+@protocol NSSecureCoding;
+
 @protocol _WKInputDelegate
+
+@optional
+- (void)_accessibilityFindSearchResult:(WKWebView *)arg1 withString:(NSDictionary *)arg2;
+- (void)_accessibilityFindElementInDirection:(WKWebView *)arg1 searchType:(NSDictionary *)arg2 allowOutOfBoundsChild:(WKFrameInfo *)arg3 startingTouchContainer:(WKFrameInfo *)arg4 honorGroups:(NSObject<NSSecureCoding> *)arg5;
+- (void)_accessibilityFindDescendant:(WKWebView *)arg1 shouldStopAtLeafNodes:(NSDictionary *)arg2;
 @end
 

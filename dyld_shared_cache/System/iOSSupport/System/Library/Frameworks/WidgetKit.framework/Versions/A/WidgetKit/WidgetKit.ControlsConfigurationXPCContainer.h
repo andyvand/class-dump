@@ -7,13 +7,12 @@
 @interface WidgetKit.ControlsConfigurationXPCContainer
 {
     id controls;
-    id tokens;
 }
 
 + (void);
 + (_Bool);
 - (id);
-- (id);
+- (id):Z /* Error: Ran out of types for this method. */;
 - (void);
 - (void)fçÿÿÿÿÿ¼;
 

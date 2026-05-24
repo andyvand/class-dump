@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSColor;
+@class NSBezierPath;
 
 __attribute__((visibility("hidden")))
 @interface SOLabeledBadgeStrokeView
 {
     NSBezierPath *_path;
-    NSColor *_color;
-    double _width;
 }
 
 - (void);
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)8@"<VFXWorldRenderer>"16^24;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(retain, nonatomic) NSBezierPath *path; // @synthesize path=_path;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

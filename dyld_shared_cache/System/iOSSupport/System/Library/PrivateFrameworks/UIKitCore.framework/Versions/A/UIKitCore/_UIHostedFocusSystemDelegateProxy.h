@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIHostedFocusSystem;
+@class _UIHostedFocusSystem;
 @protocol _UIHostedFocusSystemDelegate;
 
 __attribute__((visibility("hidden")))
@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     id <_UIHostedFocusSystemDelegate> _delegate;
 }
 
+- (id)initWithName:(id)arg1 managedObjectModel:(id)arg2;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)id type provided for plist.;
 - (id);
 - (id);
 - (_Bool)witchVisualElement"16B24;
@@ -24,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <_UIHostedFocusSystemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

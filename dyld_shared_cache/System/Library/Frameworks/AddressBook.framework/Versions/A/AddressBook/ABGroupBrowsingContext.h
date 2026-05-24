@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABGroup, NSString;
+@class ABAccount;
 
 @interface ABGroupBrowsingContext
 {
     ABAccount *_account;
-    ABGroup *_group;
-    NSString *_groupLabel;
-    _Bool _canCreateGroups;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void)Á@Ð!lFùª°1Â0@ù
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, retain) ABAccount *account; // @synthesize account=_account;
-@property(readonly) _Bool canCreateGroups; // @synthesize canCreateGroups=_canCreateGroups;
-@property(readonly, retain) ABGroup *group; // @synthesize group=_group;
-@property(readonly, copy) NSString *groupLabel; // @synthesize groupLabel=_groupLabel;
 
 @end
 

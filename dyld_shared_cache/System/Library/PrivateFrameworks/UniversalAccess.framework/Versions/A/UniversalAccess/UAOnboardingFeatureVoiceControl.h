@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)on";
+- (void)hemaFLActionEvaluationEnded";
 - (_Bool);
 - (id);
 

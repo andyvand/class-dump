@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAsset, CKDPMergeableDeltaMetadata, NSData;
+@class CKDPAsset;
 
 @interface CKDPMergeableDelta
 {
     CKDPAsset *_asset;
-    NSData *_data;
-    CKDPAsset *_encryptedAsset;
-    NSData *_encryptedData;
-    CKDPMergeableDeltaMetadata *_metadata;
-    int _payload;
-    struct {
-        unsigned int payload:1;
-    } _has;
 }
 
 - (void);
@@ -27,46 +19,36 @@
 - (int);
 - (void);
 - (_Bool);
+- (id)";
+- (id);
+- (_Bool);
+- (void)integerValue;
+- (void);
+- (unsigned long long)%{ptr}] %s[0x%04X] nowRemoteMediaTime %1.6f (%lld/%d); no messages for hose [%{ptr}] (%@); wanted idx %u (seq# %u); available idx %u (seq# %d ts %1.3f)
+;
+- (_Bool);
+- (void)_roamCandidatesPerBandWhenSuccessful;
+- (int)canPerformActionWithSampleRate: /* Error: Ran out of types for this method. */;
+- (_Bool)7);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 - (id)!PEù1Üð1Â0@ù
 × ;
 - (_Bool)ontainerPCSServiceIfManatee;
-- (void)perationUUIDsInResponse;
+- (void)DropOperationUUIDsInResponse;
 - (void)et asset handles %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) CKDPAsset *encryptedAsset; // @synthesize encryptedAsset=_encryptedAsset;
-@property(retain, nonatomic) NSData *encryptedData; // @synthesize encryptedData=_encryptedData;
-@property(readonly, nonatomic) _Bool hasAsset;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasEncryptedAsset;
-@property(readonly, nonatomic) _Bool hasEncryptedData;
 @property(readonly, nonatomic) _Bool hasMetadata;
-@property(nonatomic) _Bool hasPayload;
-@property(retain, nonatomic) CKDPMergeableDeltaMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) int payload; // @synthesize payload=_payload;
 
 @end
 

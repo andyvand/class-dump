@@ -7,9 +7,6 @@
 @interface PhotosUICore.HighlightsHitTestResult
 {
     id level;
-    id item;
-    id displayItem;
-    void px_photosViewTouchableHitTestResultTouchAction;
 }
 
 - (CDUnknownBlockType);

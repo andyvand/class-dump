@@ -9,8 +9,6 @@
 @interface PLHIDEventOperatorComposition
 {
     struct __IOHIDEventSystemClient *_eventSystemClient;
-    CDUnknownBlockType _operatorBlock;
-    PLOperator *_operator;
 }
 
 - (struct __IOHIDEventSystemClient *);
@@ -24,9 +22,7 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property struct __IOHIDEventSystemClient *eventSystemClient; // @synthesize eventSystemClient=_eventSystemClient;
 @property(retain) PLOperator *operator; // @synthesize operator=_operator;
-@property(copy, nonatomic) CDUnknownBlockType operatorBlock; // @synthesize operatorBlock=_operatorBlock;
 
 @end
 

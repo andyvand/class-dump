@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C3DownloadChunkContext, CKDMMCSItem, CKDMMCSItemGroupContext, NSString;
-@protocol CKDMMCSItemReaderWriterProtocol;
+@class CKDMMCSItemGroupContext;
 
 @interface CKDMMCSTestEncryptedItemReader
 {
     CKDMMCSItemGroupContext *_MMCSRequest;
-    CKDMMCSItem *_MMCSItem;
-    id <CKDMMCSItemReaderWriterProtocol> _underlyingItemReader;
 }
 
 - (id);
@@ -20,29 +17,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)"NSData",&,N,V_peerIdentifier;
 - (_Bool);
 - (void);
 - (id);
-- (void)Changes;
+- (void)maxChanges;
 - (void)ss;
 - (_Bool)PCS fetch operation %{public}@ already has PCS data %@. Ignoring the fetch callback with %@/%@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDMMCSItem *MMCSItem; // @synthesize MMCSItem=_MMCSItem;
 @property(retain, nonatomic) CKDMMCSItemGroupContext *MMCSRequest; // @synthesize MMCSRequest=_MMCSRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) C3DownloadChunkContext *downloadChunkContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"C3DownloadChunkContext",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <CKDMMCSItemReaderWriterProtocol> underlyingItemReader; // @synthesize underlyingItemReader=_underlyingItemReader;
 
 @end
 

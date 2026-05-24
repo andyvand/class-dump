@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (struct _SsrwPropVariant *);
+- (struct _SsrwPropVariant *)q`;
 - (id);
 - (void);
 - (void);

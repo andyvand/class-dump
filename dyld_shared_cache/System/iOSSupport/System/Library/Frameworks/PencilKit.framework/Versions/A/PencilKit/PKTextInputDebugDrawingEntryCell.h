@@ -9,13 +9,12 @@
 @interface PKTextInputDebugDrawingEntryCell
 {
     UIImageView *_drawingImageView;
-    PKDrawing *_drawing;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)cterLocation: /* Error: Ran out of types for this method. */;
+- (void)set_insertionCharacterLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;

@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MABinaryAdjacency, PGGraph, PGGraphAddressNodeCollection;
+@class PGGraph;
 
 @interface PGGraphLocationHelper
 {
     PGGraph *_graph;
-    struct os_unfair_lock_s _locationHelperLock;
-    MABinaryAdjacency *_countryNodesByLocationNode;
-    MABinaryAdjacency *_stateNodesByLocationNode;
-    MABinaryAdjacency *_countyNodesByLocationNode;
-    MABinaryAdjacency *_cityNodesByLocationNode;
-    MABinaryAdjacency *_districtNodesByLocationNode;
-    MABinaryAdjacency *_streetNodesByLocationNode;
-    MABinaryAdjacency *_numberNodesByLocationNode;
-    MABinaryAdjacency *_locationNodesByCountryNode;
-    MABinaryAdjacency *_locationNodesByStateNode;
-    MABinaryAdjacency *_locationNodesByCountyNode;
-    MABinaryAdjacency *_locationNodesByCityNode;
-    MABinaryAdjacency *_locationNodesByDistrictNode;
-    MABinaryAdjacency *_locationNodesByStreetNode;
-    MABinaryAdjacency *_locationNodesByNumberNode;
-    MABinaryAdjacency *_addressNodesByAreaNode;
-    MABinaryAdjacency *_areaNodesByAddressNode;
-    MABinaryAdjacency *_momentNodesByAddressNode;
-    MABinaryAdjacency *_addressNodesByMomentNode;
-    PGGraphAddressNodeCollection *_addressNodes;
 }
 
 + (id);
@@ -37,6 +17,19 @@
 - (id);
 - (id);
 - (id);
+- (id)set_attributesToInclude:(id)arg1;
+- (id)setSelectedChildControllers:(id)arg1;
+- (id)_searchChildrenCandidatesForElement: /* Error: Ran out of types for this method. */;
+- (id)_colorAttribute:(id)arg1 forAttributedString:atIndex: /* Error: Ran out of types for this method. */;
+- (id)_cleanupAttributedString: /* Error: Ran out of types for this method. */;
+- (id),V__keyFocusTracker;
+- (id)initWithFormat: /* Error: Ran out of types for this method. */;
+- (id)ration",&,N,V_configuration;
+- (id)finishObserving;
+- (id)end;
+- (id),&,N,V_menuControllerSubMenuController;
+- (id)ode;
+- (_Bool)ElementController",&,N,S_setKeyboardFocusedElementController:(id)arg1 ,V__keyboardFocusedElementController;
 - (id);
 - (id);
 - (id);
@@ -48,42 +41,29 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)$;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)_֖;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

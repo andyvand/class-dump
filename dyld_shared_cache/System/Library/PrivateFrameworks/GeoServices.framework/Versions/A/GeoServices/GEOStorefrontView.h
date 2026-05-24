@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStorefrontImagery;
-
 @interface GEOStorefrontView
 {
     unsigned long long _identifier;
-    GEOStorefrontImagery *_imageryInfo;
-    struct GEOOrientedPosition _lookAt;
 }
 
 - (struct GEOOrientedPosition);
 - (id);
-- (id);
+- (id)updatePersistentStoresWithBuilder:oldUrls:newUrls:resultBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long)ilter",R,N;
 - (void)gµÀQ@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) GEOStorefrontImagery *imageryInfo; // @synthesize imageryInfo=_imageryInfo;
-@property(readonly, nonatomic) struct GEOOrientedPosition lookAt; // @synthesize lookAt=_lookAt;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsSubscription.MastheadPaywallConfigurationProvider
 {
     id configurationManager;
-    id offerManager;
-    id offerOverrideProvider;
-    id feedContextFactory;
-    id bundlePurchasePrewarmer;
-    id bundleSubscriptionManager;
 }
 
 @end

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDXPCClientConnection, HMFTimer, HMReportContext, NSMutableArray, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCMessageReportingSession
 {
     NSUUID *_UUID;
-    HMReportContext *_reportContext;
-    HMDXPCClientConnection *_xpcClientConnection;
-    NSMutableArray *_responseMessagePayloads;
-    HMFTimer *_endSessionTimer;
-    HMFTimer *_consumeSessionResultsTimer;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -32,11 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain) HMFTimer *consumeSessionResultsTimer; // @synthesize consumeSessionResultsTimer=_consumeSessionResultsTimer;
-@property(retain) HMFTimer *endSessionTimer; // @synthesize endSessionTimer=_endSessionTimer;
-@property(readonly, copy) HMReportContext *reportContext; // @synthesize reportContext=_reportContext;
-@property(readonly) NSMutableArray *responseMessagePayloads; // @synthesize responseMessagePayloads=_responseMessagePayloads;
-@property __weak HMDXPCClientConnection *xpcClientConnection; // @synthesize xpcClientConnection=_xpcClientConnection;
 
 @end
 

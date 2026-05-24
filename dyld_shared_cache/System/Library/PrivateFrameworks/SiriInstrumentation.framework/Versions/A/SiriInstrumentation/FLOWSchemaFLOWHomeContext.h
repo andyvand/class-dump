@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWHomeContext : SISchemaInstrumentationMessage
 {
     unsigned int _homeCount;
-    unsigned int _homePodCount;
-    unsigned int _appleTvCount;
-    _Bool _hasCurrentHome;
-    struct {
-        unsigned int homeCount:1;
-        unsigned int homePodCount:1;
-        unsigned int appleTvCount:1;
-        unsigned int hasCurrentHome:1;
-    } _has;
 }
 
 - (void);
@@ -39,8 +28,8 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned int);
+- (void);
+- (unsigned int);
 - (unsigned int);
 - (id);
 - (void);
@@ -53,15 +42,7 @@
 - (id)Þ;
 
 // Remaining properties
-@property(nonatomic) unsigned int appleTvCount; // @synthesize appleTvCount=_appleTvCount;
-@property(nonatomic) _Bool hasAppleTvCount;
-@property(nonatomic) _Bool hasCurrentHome; // @synthesize hasCurrentHome=_hasCurrentHome;
-@property(nonatomic) _Bool hasHasCurrentHome;
-@property(nonatomic) _Bool hasHomeCount;
-@property(nonatomic) _Bool hasHomePodCount;
 @property(nonatomic) unsigned int homeCount; // @synthesize homeCount=_homeCount;
-@property(nonatomic) unsigned int homePodCount; // @synthesize homePodCount=_homePodCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

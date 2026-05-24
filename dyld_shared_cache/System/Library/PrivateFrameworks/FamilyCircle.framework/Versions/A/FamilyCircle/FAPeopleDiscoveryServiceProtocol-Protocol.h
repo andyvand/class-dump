@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMutableSet;
+
 @protocol FAPeopleDiscoveryServiceProtocol
+- (void)detailType;
+- (void)reviews;
+- (NSMutableSet *)ApiQuotaLimitExceeded;
 @end
 

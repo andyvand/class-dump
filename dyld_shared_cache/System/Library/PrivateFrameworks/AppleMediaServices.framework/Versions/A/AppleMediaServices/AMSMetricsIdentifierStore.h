@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSMetricsDatabase, AMSProcessInfo, NSString;
+@class AMSMetricsDatabase;
 
 @interface AMSMetricsIdentifierStore
 {
     AMSMetricsDatabase *_database;
-    _Bool _includeAccountMatchStatus;
-    _Bool _isActiveITunesAccountRequired;
-    _Bool _shouldEmitDiagnosticFields;
-    _Bool _shouldEmitPreviousUserId;
-    ACAccount *_account;
-    AMSProcessInfo *_clientInfo;
-    NSString *_domain;
-    double _resetInterval;
-    AMSMetricsIdentifierStore *_debugUserIdStore;
 }
 
 + (id);
++ (id)@;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)historicalMessageGUIDsDeleted:(id)arg1 chatGUIDs:(id)arg2 queryID:(id)arg3;
 + (id);
 + (long long);
 + (_Bool);
@@ -34,12 +25,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)setConnectionStateCallback:(id)arg1 withQueue:(id)arg2;
++ (void)BoardServices.framework/Contents/MacOS/FrontBoardServices;
 + (void);
-+ (void);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id)®;
@@ -65,31 +56,23 @@
 - (id);
 - (void);
 - (id);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)o create destination filepath;
 - (_Bool);
 - (id);
 - (void);
 - (double);
 - (id);
-- (void)Lock;
+- (void)_currentCancellableDataTaskPromiseLock;
 - (id)WÞÁ³×íOQ6nõ\sÖ*._ÂyhÙò½ç[±ñ÷ãtÑpG
 àèj»VX?ém Õá²8¡«DHia)&Nêû4ë$þB¹Äøö>kT@'É{oAâüKq9rÆElÍºÜIÐÔ~ØÇÌÀP	Î¼©;Y£-¾!¿|xÊc®^JLwF(Æ÷ì 9±l»¤¼°¬5¨jhec[µEº=7bó6"¶Òö:páTøñ0ÕÀ%Gà,²u /* Error: Ran out of types for this method. */;
 - (void)/v½ø)¼[mNÝ¥v¹ßaö'arö±;
 
 // Remaining properties
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
 @property(retain, nonatomic) AMSMetricsIdentifierStore *debugUserIdStore; // @synthesize debugUserIdStore=_debugUserIdStore;
-@property(retain) NSString *domain; // @synthesize domain=_domain;
-@property _Bool includeAccountMatchStatus; // @synthesize includeAccountMatchStatus=_includeAccountMatchStatus;
-@property _Bool isActiveITunesAccountRequired; // @synthesize isActiveITunesAccountRequired=_isActiveITunesAccountRequired;
-@property double resetInterval; // @synthesize resetInterval=_resetInterval;
-@property _Bool shouldEmitDiagnosticFields; // @synthesize shouldEmitDiagnosticFields=_shouldEmitDiagnosticFields;
-@property _Bool shouldEmitPreviousUserId; // @synthesize shouldEmitPreviousUserId=_shouldEmitPreviousUserId;
 
 @end
 

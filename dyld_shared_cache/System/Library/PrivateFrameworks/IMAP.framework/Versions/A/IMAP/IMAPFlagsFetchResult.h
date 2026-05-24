@@ -16,12 +16,11 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *flagsArray; // @synthesize flagsArray=_flagsArray;
-@property(readonly, nonatomic) long long messageFlags;
 
 @end
 

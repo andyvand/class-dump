@@ -10,29 +10,22 @@ __attribute__((visibility("hidden")))
 @interface _UIDynamicValueConvergenceAnimation : _UIDynamicAnimation
 {
     CDUnknownBlockType _applier;
-    double _value;
-    double _targetValue;
-    double _convergenceRate;
-    double _minimumDifference;
 }
 
 - (void);
+- (void)"NSData"32@"NSString"40@"NSString"48@"IDSMessageContext"56;
+- (double)isEmojiTapbacksEnabled;
+- (id)deleteCommandDictionaryWithIncomingDictionary:(double)arg1 inferredRecoverableDeleteForLegacyCommandsWithDate:(double)arg2;
+- (_Bool)16;
 - (void);
 - (double);
-- (id);
-- (_Bool);
 - (void);
-- (double);
-- (void);
-- (double);
-- (void)ShapeInsets;
+- (double)with %@;
+- (void)_largeItemContentShapeInsets;
 - (double),W,N;
 - (void)Øm\;
 
 // Remaining properties
-@property(nonatomic) double convergenceRate; // @synthesize convergenceRate=_convergenceRate;
-@property(nonatomic) double minimumDifference; // @synthesize minimumDifference=_minimumDifference;
-@property(nonatomic) double targetValue; // @synthesize targetValue=_targetValue;
 @property(nonatomic) double value; // @synthesize value=_value;
 
 @end

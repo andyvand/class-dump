@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSSet, NSString;
-@protocol _NSCollectionLayoutAuxiliaryOffsets;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionPreferredSizes
 {
     NSMutableDictionary *_sizes;
-    NSMutableIndexSet *_indexes;
-    NSMutableDictionary *_supplementarySizesDict;
-    long long _frameOffset;
-    id <_NSCollectionLayoutAuxiliaryOffsets> _supplementaryBaseOffsets;
 }
 
 - (id);
-- (id);
+- (id)` L`l(a!@e;
 - (id);
 - (id);
 - (void);
 - (long long);
+- (void)nnerFlags>="__value"I}"__tail"(__union<std:(id)arg1:(id)arg2 __variant_detail:(long long)arg3:_Trait::_Available, 27UL>=))))))))))))))))))))))))))))"__index"I}}}"fTask"{shared_ptr<TNodeTask>="__ptr_"^{TNodeTask}"__cntrl_"^{__shared_weak_count}}"fNotifier"{TRef<TDSNotifier *, TRetainReleasePolicy<TDSNotifier *>>="fRef"^{TDSNotifier}}} /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)UICTFontTextStyleFootnote2;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)n;
+- (id)initWithRecipientIdentifiers:senderIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)draggingDestination;
 - (id)ä,;
 - (id)<;
 - (void)lTable should include cell %@.;
@@ -38,17 +33,7 @@ __attribute__((visibility("hidden")))
 - (id)hhö;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSSet *elementKinds;
 @property(nonatomic) long long frameOffset; // @synthesize frameOffset=_frameOffset;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSIndexSet *indexes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <_NSCollectionLayoutAuxiliaryOffsets> supplementaryBaseOffsets; // @synthesize supplementaryBaseOffsets=_supplementaryBaseOffsets;
 
 @end
 

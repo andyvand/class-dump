@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CalDarwinNotificationListener
 {
     _Bool _listening;
-    NSString *_notificationName;
-    CDUnknownBlockType _callback;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id)__TEXT;
 - (id);
 - (void);
-- (id);
+- (id)(%s)
+;
 - (_Bool);
 - (void);
+- (void)M;
+- (id)rolog contains more than one empty ordering declaration;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)closeOrHideWindowWithScene:] /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
-- (void);
+- (void)I;
 - (id)!BùQ£'1Â0@ù
 × ;
-- (_Bool)ontainers;
+- (_Bool)accountsWithSpecificContainers;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(nonatomic) _Bool listening; // @synthesize listening=_listening;
-@property(readonly, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

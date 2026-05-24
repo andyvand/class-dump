@@ -11,13 +11,13 @@
     struct OpaqueFigSubtitleBackdropCALayerInternal *bdLayerInternal;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -27,7 +27,7 @@
 × ;
 - (void)ve number of entries;
 - (id)erForIMSC[%p];
-- (void)tExportPresetAppleM4V1080pHD;
+- (void)AVAssetExportPresetAppleM4V1080pHD;
 
 @end
 

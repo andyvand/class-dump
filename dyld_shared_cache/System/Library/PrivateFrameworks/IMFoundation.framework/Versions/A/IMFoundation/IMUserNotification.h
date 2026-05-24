@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IMUserNotification
 {
     id _reserved;
@@ -31,23 +29,12 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (double);
+- (id)objectAtIndexedSubscript: /* Error: Ran out of types for this method. */;
+- (double)a;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long displayFlags;
-@property(readonly, retain, nonatomic) NSDictionary *displayInformation;
 @property(readonly, retain, nonatomic) id identifier;
-@property(retain, nonatomic) NSString *representedApplicationBundle;
-@property(nonatomic) _Bool requireUserInteraction;
-@property(readonly, nonatomic) unsigned long long response;
-@property(readonly, nonatomic) unsigned long long responseFlags;
-@property(readonly, retain, nonatomic) NSDictionary *responseInformation;
-@property(nonatomic) _Bool showInLockScreen;
-@property(readonly, nonatomic) double timeout;
-@property(retain, nonatomic) NSDictionary *userInfo;
-@property(nonatomic) _Bool usesNotificationCenter;
 
 @end
 

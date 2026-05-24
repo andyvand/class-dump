@@ -9,11 +9,6 @@
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata
 {
     COMAPPLEFELDSPARPROTOCOLLIVERPOOLContentAndRelevanceInfo *_contentAndRelevanceInfo;
-    float _flowRate;
-    int _ontologyLevel;
-    float _quality;
-    float _subscriptionRate;
-    CDStruct_c1a1871c _has;
 }
 
 - (id);
@@ -25,20 +20,20 @@
 - (void);
 - (id);
 - (id);
-- (_Bool)favoriteClusterMinSizeMultiplier;
-- (void)unt;
-- (void)ics:(float)arg1;
-- (_Bool)tiplier;
+- (_Bool)hasExpandedAutofavoriteClusterMinSizeMultiplier;
+- (void)cohortsCount;
+- (void)addTopics:(float)arg1;
+- (_Bool)_metaGroupingHighestScoringRelativeScoreMultiplier;
 - (float)_draftArticle;
 - (id)icity;
 - (float)ring",&,N,V_sportsTheme;
 - (float)Config;
 - (void),V_desiredFields;
-- (void)FELDSPARPROTOCOLLIVERPOOLCohort;
-- (int)iption_type;
-- (void)kScore;
-- (void)iversification_penalty_half_life;
-- (void)e_type;
+- (void)COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohort;
+- (int)subscription_type;
+- (void)rawUserFeedbackScore;
+- (void)diversification_penalty_half_life;
+- (void)device_type;
 - (_Bool);
 - (void)ðÿ;
 - (_Bool)°ZÝÿ6BÃê;
@@ -47,16 +42,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLContentAndRelevanceInfo *contentAndRelevanceInfo; // @synthesize contentAndRelevanceInfo=_contentAndRelevanceInfo;
-@property(nonatomic) float flowRate; // @synthesize flowRate=_flowRate;
-@property(readonly, nonatomic) _Bool hasContentAndRelevanceInfo;
 @property(nonatomic) _Bool hasFlowRate;
-@property(nonatomic) _Bool hasOntologyLevel;
-@property(nonatomic) _Bool hasQuality;
-@property(nonatomic) _Bool hasSubscriptionRate;
-@property(nonatomic) int ontologyLevel; // @synthesize ontologyLevel=_ontologyLevel;
-@property(nonatomic) float quality; // @synthesize quality=_quality;
-@property(nonatomic) float subscriptionRate; // @synthesize subscriptionRate=_subscriptionRate;
 
 @end
 

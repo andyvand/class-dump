@@ -6,14 +6,9 @@
 
 #import <CoreHandwriting/CHPostprocessingStepModifyingOriginalTokens.h>
 
-@class CHPatternNetwork;
-
 @interface CHRemoveSpacesFromSpecialFieldsStep : CHPostprocessingStepModifyingOriginalTokens
 {
     _Bool _capitalizationToSplit;
-    _Bool _convertToLowercase;
-    CHPatternNetwork *_patternFST;
-    long long _patternType;
 }
 
 - (id);

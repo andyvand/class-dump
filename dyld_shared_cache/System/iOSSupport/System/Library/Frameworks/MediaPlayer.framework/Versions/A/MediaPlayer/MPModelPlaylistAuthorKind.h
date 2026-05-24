@@ -11,10 +11,10 @@
     unsigned long long _variants;
 }
 
-+ (id);
++ (id)materializedView;
 + (id);
 - (unsigned long long);
-- (id);
+- (id)stepSizeFrames;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;

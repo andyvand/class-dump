@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXAXCustomRotorProvider;
+@class SXAXCustomRotorProvider;
 @protocol SXScrollViewDelegate;
 
 @interface SXScrollView
 {
     id <SXScrollViewDelegate> _scrollViewDelegate;
-    SXAXCustomRotorProvider *_customRotorProvider;
 }
 
 - (void);
@@ -18,11 +17,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)leArchive.Access;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,15 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SXAXCustomRotorProvider *customRotorProvider; // @synthesize customRotorProvider=_customRotorProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isBouncing;
-@property(nonatomic) __weak id <SXScrollViewDelegate> scrollViewDelegate; // @synthesize scrollViewDelegate=_scrollViewDelegate;
-@property(readonly) Class superclass;
 
 @end
 

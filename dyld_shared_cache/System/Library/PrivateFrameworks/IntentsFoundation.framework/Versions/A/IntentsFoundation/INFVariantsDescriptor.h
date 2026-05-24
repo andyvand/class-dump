@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface INFVariantsDescriptor
 {
     unsigned long long _plurality;
-    unsigned long long _gender;
 }
 
 + (id);
-+ (id);
++ (id)rtFrequency"b1"reportFrequencyBase"b1"triggers"b1"metricType"b1"reportTransportAllowExpensiveAccess"b1"reportTransportAllowPowerNapScheduling"b1};
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
+- (id)1k;
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (_Bool);
-- (id);
+- (id)T;
 - (void);
-- (unsigned long long);
+- (unsigned long long)Code;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *dictionaryKey;
-@property(nonatomic) unsigned long long gender; // @synthesize gender=_gender;
 @property(nonatomic) unsigned long long plurality; // @synthesize plurality=_plurality;
 
 @end

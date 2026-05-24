@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, GEOStyleAttributes, NSArray, NSString;
-@protocol GEOServerFormattedString, GEOTransitArtworkDataSource;
-
 @interface GEOComposedRouteVisualInfo
 {
     int _shieldType;
-    unsigned long long _type;
-    id <GEOServerFormattedString> _title;
-    id <GEOServerFormattedString> _detail;
-    GEOComposedString *_titleString;
-    GEOComposedString *_detailString;
-    GEOStyleAttributes *_styleAttributes;
-    id <GEOTransitArtworkDataSource> _icon;
-    NSArray *_laneChangeInfos;
-    GEOComposedString *_phoneticName;
-    NSString *_shieldText;
-    GEOPolylineCoordinateRange_482ebfc6 _routeCoordinateRange;
-    CDStruct_071ac149 _startCoordinate;
-    CDStruct_071ac149 _endCoordinate;
 }
 
 + (id);
@@ -34,43 +18,30 @@
 + (_Bool)rite checksum into extended attributes:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (struct GEOPolylineCoordinateRange);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDStruct_39925896);
+- (id)operationWithQualityOfService:(unsigned long long)arg1 block:(id)arg2;
+- (id)operationQueueSchedulerWithMaxConcurrentOperationCount:(unsigned long long)arg1;
+- (id)getObjectValue:(id)arg1 forString:(unsigned long long)arg2 errorDescription:(id)arg3;
+- (id)getCharacters:(id)arg1 range:(id)arg2;
+- (CDStruct_39925896)onnull;
 - (unsigned long long);
 - (CDStruct_39925896);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)secondPassLastAudioPacketReceptionTime;
+- (unsigned long long)_serviceCenter;
 - (id);
 - (void);
 - (id)'Ð!Aù±¸*ð1Â0@ù
 × ;
-- (int)portEmissionsTagging: /* Error: Ran out of types for this method. */;
+- (int)setSupportEmissionsTagging: /* Error: Ran out of types for this method. */;
 - (id)hift coordinate:%{private}@ will not resolve territory information. /* Error: Ran out of types for this method. */;
 - (id)BldgDecoderV16decodeERNS0_11BuildingCfgEPKcmRKNSt3__18functionIFNS0_11ArrayBufferEmRKNS_4gpcc20AttributeDescriptionEEEEE3$_2;
 - (void)@³;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerFormattedString> detail; // @synthesize detail=_detail;
-@property(readonly, nonatomic) GEOComposedString *detailString; // @synthesize detailString=_detailString;
-@property(readonly, nonatomic) CDStruct_39925896 endCoordinate; // @synthesize endCoordinate=_endCoordinate;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) NSArray *laneChangeInfos; // @synthesize laneChangeInfos=_laneChangeInfos;
-@property(readonly, nonatomic) GEOComposedString *phoneticName; // @synthesize phoneticName=_phoneticName;
-@property(readonly, nonatomic) GEOPolylineCoordinateRange_38d3edb7 routeCoordinateRange; // @synthesize routeCoordinateRange=_routeCoordinateRange;
-@property(readonly, nonatomic) NSString *shieldText; // @synthesize shieldText=_shieldText;
-@property(readonly, nonatomic) int shieldType; // @synthesize shieldType=_shieldType;
-@property(readonly, nonatomic) CDStruct_39925896 startCoordinate; // @synthesize startCoordinate=_startCoordinate;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
-@property(readonly, nonatomic) id <GEOServerFormattedString> title; // @synthesize title=_title;
-@property(readonly, nonatomic) GEOComposedString *titleString; // @synthesize titleString=_titleString;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

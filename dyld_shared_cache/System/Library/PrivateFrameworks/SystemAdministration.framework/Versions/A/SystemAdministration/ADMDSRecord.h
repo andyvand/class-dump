@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMDSNode, NSString;
-
 @interface ADMDSRecord
 {
     unsigned int mRecordReference;
-    NSString *mRecordName;
-    NSString *mRecordType;
-    ADMDSNode *mNode;
 }
 
 + (long long);
@@ -23,25 +18,25 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)x;
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (id);
+- (_Bool)orage logical volume has an incorrect size. You should run whole-disk repair.;
+- (void);
+- (_Bool)v32@?0@8@16^B24;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)i;
 - (id);
 - (_Bool);
-- (_Bool):intoString: /* Error: Ran out of types for this method. */;
+- (_Bool)scanUpToString:intoString: /* Error: Ran out of types for this method. */;
 
 @end
 

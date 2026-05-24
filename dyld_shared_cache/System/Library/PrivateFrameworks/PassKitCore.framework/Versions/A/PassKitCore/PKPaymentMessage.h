@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKPaymentMessage
 {
     _Bool _allowDeepLinkToApp;
-    _Bool _hasAssociatedPaymentApplication;
-    _Bool _archived;
-    NSString *_identifier;
-    NSString *_serviceIdentifier;
-    NSString *_content;
-    NSString *_actionTitle;
-    NSURL *_actionURL;
-    NSDate *_messageDate;
-    NSDate *_expirationDate;
-    unsigned long long _messageType;
 }
 
 + (_Bool);
@@ -27,7 +17,7 @@
 + (id)0@0:(id)arg1 8@16@24^@32;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,13 +28,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)q:(id)arg1;
+- (id)!;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)setIncomingCount:(id)arg1;
+- (unsigned long long)clearProfiles;
 - (void);
 - (void);
 - (id);
@@ -53,7 +43,7 @@
 × ;
 - (void)%Ð1Â0@ù
 × ;
-- (id)MapsTransactionInsight;
+- (id)_fkMapsTransactionInsight;
 - (id)getting the pass at url %@;
 - (id)d:Websocket task already exists /* Error: Ran out of types for this method. */;
 - (void)records in database %@, zone %@ %@:%@
@@ -62,18 +52,7 @@
 - (id)ið;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionTitle; // @synthesize actionTitle=_actionTitle;
-@property(copy, nonatomic) NSURL *actionURL; // @synthesize actionURL=_actionURL;
-@property(nonatomic) _Bool allowDeepLinkToApp; // @synthesize allowDeepLinkToApp=_allowDeepLinkToApp;
-@property(nonatomic, getter=isArchived) _Bool archived; // @synthesize archived=_archived;
-@property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) _Bool hasAssociatedPaymentApplication; // @synthesize hasAssociatedPaymentApplication=_hasAssociatedPaymentApplication;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *messageDate; // @synthesize messageDate=_messageDate;
-@property(nonatomic) unsigned long long messageType; // @synthesize messageType=_messageType;
-@property(copy, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

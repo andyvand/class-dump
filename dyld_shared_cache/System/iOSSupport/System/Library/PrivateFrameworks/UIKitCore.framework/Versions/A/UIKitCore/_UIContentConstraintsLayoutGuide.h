@@ -12,42 +12,30 @@ __attribute__((visibility("hidden")))
 @interface _UIContentConstraintsLayoutGuide : UILayoutGuide
 {
     _Bool _wantsMaximumSizeConstraintsActive;
-    _Bool _wantsMinimumSizeConstraintsActive;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSLayoutConstraint *_maximumWidthConstraint;
-    NSLayoutConstraint *_maximumHeightConstraint;
-    NSLayoutConstraint *_minimumWidthConstraint;
-    NSLayoutConstraint *_minimumHeightConstraint;
-    struct CGSize _maximumSize;
-    struct CGSize _minimumSize;
-    struct UIEdgeInsets _edgeInsets;
 }
 
 - (_Bool);
 - (_Bool);
+- (id)chatForChatIdentifier:style:account:updatingAccount: /* Error: Ran out of types for this method. */;
+- (id)chat:uncachedAttachmentCountUpdated: /* Error: Ran out of types for this method. */;
+- (id)cStringUsingEncoding: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)...;
+- (void);
+- (id)_;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)0^;
 - (struct UIEdgeInsets);
 - (id);
-- (struct CGSize)e:withEvent: /* Error: Ran out of types for this method. */;
+- (struct CGSize)responder:class:receivedPresses:inPhase:withEvent: /* Error: Ran out of types for this method. */;
 - (void)ÿÿz;
 - (void)vþÿ;
 - (struct CGSize)one of the constraints in the following list is one you don't want. 
@@ -63,19 +51,7 @@ The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSLayoutConstraint *bottomConstraint; // @synthesize bottomConstraint=_bottomConstraint;
-@property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
 @property(readonly, nonatomic) NSLayoutConstraint *leadingConstraint; // @synthesize leadingConstraint=_leadingConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *maximumHeightConstraint; // @synthesize maximumHeightConstraint=_maximumHeightConstraint;
-@property(nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;
-@property(readonly, nonatomic) NSLayoutConstraint *maximumWidthConstraint; // @synthesize maximumWidthConstraint=_maximumWidthConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *minimumHeightConstraint; // @synthesize minimumHeightConstraint=_minimumHeightConstraint;
-@property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(readonly, nonatomic) NSLayoutConstraint *minimumWidthConstraint; // @synthesize minimumWidthConstraint=_minimumWidthConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *topConstraint; // @synthesize topConstraint=_topConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *trailingConstraint; // @synthesize trailingConstraint=_trailingConstraint;
-@property(readonly, nonatomic) _Bool wantsMaximumSizeConstraintsActive; // @synthesize wantsMaximumSizeConstraintsActive=_wantsMaximumSizeConstraintsActive;
-@property(readonly, nonatomic) _Bool wantsMinimumSizeConstraintsActive; // @synthesize wantsMinimumSizeConstraintsActive=_wantsMinimumSizeConstraintsActive;
 
 @end
 

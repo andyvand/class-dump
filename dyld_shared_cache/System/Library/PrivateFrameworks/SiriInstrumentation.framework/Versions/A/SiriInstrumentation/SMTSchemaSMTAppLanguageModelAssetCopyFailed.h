@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SMTSchemaSMTAppLanguageModelAssetCopyFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)APSRingBufferCreate;
+- (void)H;
+- (unsigned long long)perDevice;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMCSBypassIndexVersionCheckV1;
 - (id);
 - (id);
-- (id)d;
-- (id)gory;
-- (_Bool)ZeroDetectionCompleted;
+- (id)deleteIsCloudConnected;
+- (id)_hasIntentCategory;
+- (_Bool)enrollmentZeroDetectionCompleted;
 - (_Bool)com.apple.aiml.siri.executor.ExecutorClientEvent.ExecutorAppIntentCallContext;
 - (void)n!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

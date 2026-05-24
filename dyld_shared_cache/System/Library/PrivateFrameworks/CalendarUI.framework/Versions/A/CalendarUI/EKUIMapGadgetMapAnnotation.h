@@ -9,30 +9,19 @@
 @interface EKUIMapGadgetMapAnnotation
 {
     NSString *_title;
-    NSString *_subtitle;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)	;
 - (struct CLLocationCoordinate2D);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

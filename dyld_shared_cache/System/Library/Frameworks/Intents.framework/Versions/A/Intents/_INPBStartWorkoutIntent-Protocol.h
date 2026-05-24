@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDataString, _INPBDouble, _INPBIntentMetadata, _INPBWorkoutCustomization;
+@class NSArray, _INPBDouble, _INPBIntentMetadata, _INPBWorkoutCustomization;
 
 @protocol _INPBStartWorkoutIntent
-- (_Bool)ntityNames:sourceType:sourceName:destinationType:destinationName:properties: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)X[;
+- (_Bool)6;
+- (_INPBWorkoutCustomization *);
+- (unsigned long long)j;
+- (_INPBDouble *)q;
+- (int)ccec_cp=QQ^{cczp_funcs}[1Q]}24;
+- (_INPBIntentMetadata *)T@"NSString",R,V_volumeName;
+- (void);
+- (_Bool)initWithEntityTypes:entityNames:sourceType:sourceName:destinationType:destinationName:properties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *associatedItems;
-@property(readonly, nonatomic) unsigned long long associatedItemsCount;
-@property(retain, nonatomic) _INPBWorkoutCustomization *customization;
-@property(retain, nonatomic) _INPBDouble *goalValue;
-@property(readonly, nonatomic) _Bool hasCustomization;
-@property(readonly, nonatomic) _Bool hasGoalValue;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsBuiltInWorkoutType;
-@property(nonatomic) _Bool hasIsOpenEnded;
-@property(nonatomic) _Bool hasIsVoiceOnly;
-@property(nonatomic) _Bool hasSequenceLabel;
-@property(nonatomic) _Bool hasWorkoutGoalUnitType;
-@property(nonatomic) _Bool hasWorkoutLocationType;
-@property(readonly, nonatomic) _Bool hasWorkoutName;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool isBuiltInWorkoutType;
-@property(nonatomic) _Bool isOpenEnded;
-@property(nonatomic) _Bool isVoiceOnly;
-@property(nonatomic) int sequenceLabel;
-@property(nonatomic) int workoutGoalUnitType;
-@property(nonatomic) int workoutLocationType;
-@property(retain, nonatomic) _INPBDataString *workoutName;
 @end
 

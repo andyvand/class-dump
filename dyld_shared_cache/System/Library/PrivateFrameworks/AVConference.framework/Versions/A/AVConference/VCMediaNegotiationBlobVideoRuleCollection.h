@@ -8,22 +8,12 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobVideoRuleCollection
 {
     unsigned int _formats;
-    unsigned int _formatsExt1;
-    int _operation;
-    unsigned int _preferredFormat;
-    unsigned int _preferredFormatExt1;
-    int _transport;
-    struct {
-        unsigned int formatsExt1:1;
-        unsigned int preferredFormat:1;
-        unsigned int preferredFormatExt1:1;
-    } _has;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -35,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void);
-- (void);
+- (void),;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -45,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int)40@44B52@56i64@68^@76;
-- (_Bool)iewSetVirtualCaptureAttributes;
+- (_Bool)previewSetVirtualCaptureAttributes;
 - (unsigned int)to switch from Multiway to OneToOne;
 - (int)itWithMediaController:statisticsCollector:] /* Error: Ran out of types for this method. */;
 - (void)ØÄ¨´;
@@ -53,14 +43,6 @@ __attribute__((visibility("hidden")))
 - (unsigned int)øNëñì%;
 
 // Remaining properties
-@property(nonatomic) unsigned int formats; // @synthesize formats=_formats;
-@property(nonatomic) unsigned int formatsExt1; // @synthesize formatsExt1=_formatsExt1;
-@property(nonatomic) _Bool hasFormatsExt1;
-@property(nonatomic) _Bool hasPreferredFormat;
-@property(nonatomic) _Bool hasPreferredFormatExt1;
-@property(nonatomic) int operation; // @synthesize operation=_operation;
-@property(nonatomic) unsigned int preferredFormat; // @synthesize preferredFormat=_preferredFormat;
-@property(nonatomic) unsigned int preferredFormatExt1; // @synthesize preferredFormatExt1=_preferredFormatExt1;
 @property(nonatomic) int transport; // @synthesize transport=_transport;
 
 @end

@@ -7,8 +7,6 @@
 @interface ChronoServices.CHSActivitySubscription__priv_94FD4DB1545722BE3BD737A605538724
 {
     id payloadHandler;
-    id activityID;
-    id calloutQueue_invalidated;
 }
 
 - (id);

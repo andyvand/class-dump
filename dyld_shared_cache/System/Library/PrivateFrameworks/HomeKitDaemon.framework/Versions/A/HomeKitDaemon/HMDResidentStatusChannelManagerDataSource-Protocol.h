@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDHome, HMDProcessMonitor, HMFPreferences, NSBackgroundActivityScheduler, NSNotificationCenter, NSObject;
-@protocol HMDFeaturesDataSource, HMFTimerProvider, OS_dispatch_queue;
+@class HMDAppleAccountManager, HMDHome, HMDResidentStatusChannel, HMDResidentStatusChannelV2, HMFPreferences, NSBackgroundActivityScheduler, NSNotificationCenter, NSObject;
+@protocol HMDFeaturesDataSource, OS_dispatch_queue;
 
 @protocol HMDResidentStatusChannelManagerDataSource
+- (HMDResidentStatusChannelV2 *);
+- (HMDResidentStatusChannel *);
+- (NSBackgroundActivityScheduler *)evelForContact cleaning up and calling completion handler with type %{public}@ for contact %{private}@;
 - (HMDHome *);
 - (HMFPreferences *)0@ù
 × ;
-- (id <HMDFeaturesDataSource>)eRawEventReportDictionary:flow:hapAccessory: /* Error: Ran out of types for this method. */;
-- (NSObject<OS_dispatch_queue> *)racteristicID;
+- (id <HMDFeaturesDataSource>)handleRawEventReportDictionary:flow:hapAccessory: /* Error: Ran out of types for this method. */;
+- (NSObject<OS_dispatch_queue> *)_characteristicID;
 - (HMDAppleAccountManager *)ssociated destinations;
 - (NSNotificationCenter *):unassociatedFaceCropUUID /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) HMDAppleAccountManager *appleAccountManager;
-@property(readonly) NSBackgroundActivityScheduler *commonToDedicatedTopicMigrationScheduler;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
-@property(readonly, nonatomic) __weak HMDHome *home;
 @property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly) HMFPreferences *preferences;
-@property(readonly) HMDProcessMonitor *processMonitor;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) id <HMFTimerProvider> timerProvider;
 @end
 

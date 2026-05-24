@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)defined values to lower case. This is required for XHTML documents. ;
 
 @end
 

@@ -7,9 +7,9 @@
 @class NSArray, NSString;
 
 @protocol MTLCounterSet
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, copy) NSArray *counters;
 @property(readonly, copy) NSString *name;
 @end
 

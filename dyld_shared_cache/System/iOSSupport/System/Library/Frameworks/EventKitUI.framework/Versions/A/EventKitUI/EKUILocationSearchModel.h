@@ -4,65 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLGeocoder, CLLocation, CLLocationManager, CNContactStore, CRSearchQuery, EKEventStore, EKOccurrenceCacheLocationSearch, EKStructuredLocation, EKStructuredLocationWithImage, MKLocalSearch, MKLocalSearchCompleter, NSArray, NSCharacterSet, NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSString;
-@protocol CNCancelable, EKUILocationSearchModelDelegate, GEOMapServiceCompletionTicket, OS_dispatch_queue;
+@class CLLocationManager, EKStructuredLocation;
 
 @interface EKUILocationSearchModel
 {
     CLLocationManager *_locationManager;
-    MKLocalSearchCompleter *_completer;
-    EKStructuredLocation *_currentLocation;
-    CLLocation *_currentImpreciseLocation;
-    EKStructuredLocationWithImage *_locationFromMapsURL;
-    CLGeocoder *_geocoder;
-    MKLocalSearch *_localSearch;
-    CNContactStore *_contactStore;
-    id <CNCancelable> _contactsSearchToken;
-    NSObject<OS_dispatch_queue> *_recentsQueue;
-    NSObject<OS_dispatch_queue> *_eventsQueue;
-    NSObject<OS_dispatch_queue> *_customConferenceQueue;
-    EKEventStore *_eventStore;
-    EKOccurrenceCacheLocationSearch *_eventsSearch;
-    CRSearchQuery *_currentRecentsSearch;
-    NSCharacterSet *_whitespaceAndNewlineCharacterSet;
-    NSObject<OS_dispatch_queue> *_conferenceRoomProcessingQueue;
-    NSOperationQueue *_conferenceRoomOperationQueue;
-    NSMutableArray *_mutableConferenceRoomSearchResults;
-    NSMutableDictionary *_conferenceRoomAddressesToConferenceRooms;
-    NSMutableArray *_recentsSearchResults;
-    NSMutableArray *_frequentsSearchResults;
-    NSMutableArray *_eventsSearchResults;
-    NSMutableArray *_contactsSearchResults;
-    NSMutableArray *_allPossibleVirtualConferenceRooms;
-    NSMutableArray *_virtualConferenceRoomSearchResults;
-    unsigned long long _supportedSearchTypes;
-    NSArray *_mapCompletionSearchResults;
-    NSArray *_textualSearchResults;
-    NSArray *_virtualConferenceCustomSearchResults;
-    id <EKUILocationSearchModelDelegate> _delegate;
 }
 
++ (id)hfwl;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (void),Z;
+- (id)s;
+- (id)xX%s;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void).{;
+- (id);
+- (unsigned long long)h{;
 - (id);
 - (void);
 - (void);
+- (void)n;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,62 +44,39 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)<{;
+- (void){;
+- (void){;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)f;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)riTasks.framework/Versions/A/SiriTasks;
+- (void);
 - (id);
-- (void)alueColor;
-- (void)pientView:composeRecipientForContact: /* Error: Ran out of types for this method. */;
+- (void)I;
+- (id);
+- (void)valueColor;
+- (void)composeRecipientView:composeRecipientForContact: /* Error: Ran out of types for this method. */;
 - (void)eObject is of the wrong type;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *conferenceRoomSearchResults;
-@property(readonly, nonatomic) NSArray *contactsSearchResults; // @synthesize contactsSearchResults=_contactsSearchResults;
 @property(retain, nonatomic) EKStructuredLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKUILocationSearchModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *eventsSearchResults; // @synthesize eventsSearchResults=_eventsSearchResults;
-@property(readonly, nonatomic) NSArray *frequentsSearchResults; // @synthesize frequentsSearchResults=_frequentsSearchResults;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <GEOMapServiceCompletionTicket> lastTicket;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<GEOMapServiceCompletionTicket>",?,&,N
-
-@property(readonly, nonatomic) EKStructuredLocationWithImage *locationFromMapsURL; // @synthesize locationFromMapsURL=_locationFromMapsURL;
-@property(readonly, nonatomic) NSArray *mapCompletionSearchResults; // @synthesize mapCompletionSearchResults=_mapCompletionSearchResults;
-@property(readonly, nonatomic) NSArray *recentsSearchResults; // @synthesize recentsSearchResults=_recentsSearchResults;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long supportedSearchTypes; // @synthesize supportedSearchTypes=_supportedSearchTypes;
-@property(readonly, nonatomic) NSArray *textualSearchResults; // @synthesize textualSearchResults=_textualSearchResults;
-@property(readonly, nonatomic) NSArray *virtualConferenceCustomSearchResults; // @synthesize virtualConferenceCustomSearchResults=_virtualConferenceCustomSearchResults;
-@property(readonly, nonatomic) NSArray *virtualConferenceRoomSearchResults; // @synthesize virtualConferenceRoomSearchResults=_virtualConferenceRoomSearchResults;
 
 @end
 

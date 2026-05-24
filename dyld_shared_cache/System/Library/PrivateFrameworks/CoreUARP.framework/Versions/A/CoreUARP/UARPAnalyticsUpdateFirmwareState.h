@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSObject, UARPAccessoryID, UARPAssetID, UARPUpdateFirmwareAnalyticsEventFrameworkParams;
-@protocol OS_os_log;
+@class NSDate, UARPAccessoryID;
 
 @interface UARPAnalyticsUpdateFirmwareState
 {
     NSDate *_startDate;
-    long long _state;
-    NSObject<OS_os_log> *_log;
-    unsigned long long _stagingDurationSeconds;
-    NSDate *_stagingDurationStart;
-    unsigned long long _stagingIterations;
-    _Bool _stagingUserInitiated;
-    NSNumber *_stagingStatus;
-    unsigned long long _analyticsApplyDurationSeconds;
-    NSDate *_analyticsApplyDurationStart;
-    NSNumber *_analyticsApplyUserInitiated;
-    NSNumber *_analyticsApplyStatus;
-    UARPAccessoryID *_accessoryID;
-    UARPAssetID *_assetID;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)+;
 - (id);
 - (id);
-- (void);
+- (void)programmer error to attempt to start again.;
 - (id);
-- (id);
+- (id),V_performanceMetricsOverlay;
 - (id);
 - (void);
 - (_Bool);
@@ -42,9 +28,6 @@
 
 // Remaining properties
 @property(readonly) UARPAccessoryID *accessoryID; // @synthesize accessoryID=_accessoryID;
-@property(readonly) unsigned long long age;
-@property(readonly) UARPAssetID *assetID; // @synthesize assetID=_assetID;
-@property(readonly) UARPUpdateFirmwareAnalyticsEventFrameworkParams *eventParams;
 
 @end
 

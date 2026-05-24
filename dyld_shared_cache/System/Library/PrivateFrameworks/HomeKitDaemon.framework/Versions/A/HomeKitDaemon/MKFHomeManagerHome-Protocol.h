@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManagerHomeHandle, MKFHomeManagerHomeDatabaseID, NSDate, NSNumber;
+@class HMDHomeManagerHomeHandle, NSNumber;
 @protocol MKFHomeManager;
 
 @protocol MKFHomeManagerHome
+- (void) ;
+- (NSNumber *)DragEvent:] /* Error: Ran out of types for this method. */;
 - (HMDHomeManagerHomeHandle *)!Aù1Â0@ù
 × ;
 - (id <MKFHomeManager>);
@@ -15,11 +17,6 @@
 - (void)emove:(HMDHomeManagerHomeHandle *)arg1 );
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeManagerHomeDatabaseID *databaseID;
 @property(copy, nonatomic) NSNumber *deleted;
-@property(retain, nonatomic) HMDHomeManagerHomeHandle *handle;
-@property(readonly, retain, nonatomic) id <MKFHomeManager> homeManager;
-@property(retain, nonatomic) id <MKFHomeManager> homeManagerPrimary;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

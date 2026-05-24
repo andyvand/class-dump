@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject;
-@protocol OS_dispatch_data;
-
 @interface IDSNWQPodParameters
 {
     _Bool _isServer;
-    unsigned int _clientConnectionID;
-    unsigned int _serverConnectionID;
-    NSData *_clientSecret;
-    NSData *_serverSecret;
 }
 
 - (id);
@@ -26,20 +19,12 @@
 - (id);
 - (unsigned int);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void)sponseCode;
+- (void)responseCode;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int clientConnectionID; // @synthesize clientConnectionID=_clientConnectionID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *clientConnectionIDDispatchData;
-@property(readonly, nonatomic) NSData *clientSecret; // @synthesize clientSecret=_clientSecret;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *clientSecretDispatchData;
-@property(readonly, nonatomic) _Bool isServer; // @synthesize isServer=_isServer;
-@property(readonly, nonatomic) unsigned int serverConnectionID; // @synthesize serverConnectionID=_serverConnectionID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *serverConnectionIDDispatchData;
-@property(readonly, nonatomic) NSData *serverSecret; // @synthesize serverSecret=_serverSecret;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *serverSecretDispatchData;
 
 @end
 

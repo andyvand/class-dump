@@ -4,41 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureAudioPreviewOutput, AVCaptureDeviceInput, AVCaptureDeviceInputSourceItem, AVCaptureDeviceSelectionController, AVCaptureFileOutput, AVCaptureQualityItem, AVCaptureSession, AVTouchBarCaptureInputSourceItem, NSArray, NSNumber, NSObject, NSString;
-@protocol AVCaptureControllerDelegate, OS_dispatch_source;
+@class AVCaptureSession;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureController
 {
     AVCaptureSession *_session;
-    _Bool _sessionHasBeenSet;
-    AVCaptureFileOutput *_fileOutput;
-    id _didStartRunningObserver;
-    id _didStopRunningObserver;
-    NSObject<OS_dispatch_source> *_recordingTimeAndSizeTimer;
-    NSNumber *_previouslyRecordedFileSize;
-    double _previouslyRecordedTime;
-    _Bool _audioPreviewMuted;
-    float _audioPreviewVolume;
-    NSObject<OS_dispatch_source> *_audioLevelIndicatorTimer;
-    AVCaptureAudioPreviewOutput *_captureAudioPreviewOutput;
-    NSArray *_captureQualityItems;
-    AVCaptureQualityItem *_selectedQualityItem;
-    _Bool _shouldSelectAssociatedAudioInputSourceItems;
-    long long _discoveringWirelessCaptureDevicesCount;
-    long long _cameraAuthorizationStatus;
-    long long _microphoneAuthorizationStatus;
-    _Bool _videoPreviewEnabled;
-    _Bool _audioPreviewEnabled;
-    _Bool _wantsDefaultConfiguration;
-    _Bool _captureSessionRunning;
-    _Bool _canStartRecording;
-    id <AVCaptureControllerDelegate> _delegate;
-    long long _status;
-    double _recordedTime;
-    NSNumber *_recordedFileSize;
-    double _audioLevel;
-    AVCaptureDeviceSelectionController *_captureDeviceSelectionController;
 }
 
 + (id);
@@ -75,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -85,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -97,16 +68,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)?;
 - (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (double);
+- (void)iftsimd.dylib;
+- (double)os.dylib;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -153,96 +124,28 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
+- (void);
+- (id)isGoogleABEnabledForSearchEnginePreferenceObserver: /* Error: Ran out of types for this method. */;
+- (void)ents;
+- (id)nt.createElement("H3");n.id="summary-header",t.appendChild(n);let i=document.createElement("p");i.id="sidebar-summary-text-id-1",t.appendChild(i);let o=document.createElement("div");o.id="tableOfContents-container",o.style.display="none";let l=document.createElement("H3");l.id="tableOfContents-header",o.appendChild(l);let a=document.createElement("ol");a.id="tableOfContents-list",o.appendChild(a),e.appendChild(t),e.appendChild(o),document.body.appendChild(e)},createPageFromNode:function(e){let t=document.createElement("div");t.className="page",this.articleIsLTR||t.classList.add("rtl");let n=document.createElement("div");n.className="page-number",t.appendChild(n);let i=this.displayTitleInformation,o=document.createElement("h1");if(o.className="title",o.textContent=i.titleText,i.linkURL&&i.linkIsForExternalPage){let e=document.createElement("a");e.href=i.linkURL,i.linkIsTargetBlank&&e.setAttribute("target","_blank"),e.appendChild(o),o=e}if(o.setAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY,READER_UNIQUE_ID_TITLE),t.appendChild(o),this.displaySubhead){let e=document.createElement("h2");e.className="subhead",e.textContent=this.displaySubhead,e.setAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY,READER_UNIQUE_ID_SUBHEAD),t.appendChild(e)}if(this.metadataElement&&this.metadataElement.innerText){let e=document.createElement("div");for(e.className="metadata";this.metadataElement.firstChild;)e.appendChild(this.metadataElement.firstChild);t.appendChild(e)}let l=e.tagName;if("PRE"===l||"CODE"===l)t.appendChild(e);else for(;e.firstChild;)t.appendChild(e.firstChild);document.getElementById("article").insertBefore(t,incomingPagePlaceholder()),ReaderJS._isJavaScriptEnabled()&&ReaderJSController.replaceSimpleTweetsWithRichTweets(this.optionsForTweetCreation()),ReaderAppearanceJS.layOutContent(ShouldRestoreReadingPosition.No),updatePageNumbers(),restoreInitialArticleScrollPositionIfPossible();for(let e of t.querySelectorAll("img"))e.onload=function(e){let t=e.target;ReaderAppearanceJS.setImageOrVideoShouldLayOutBeyondTextColumnIfAppropriate(t,ReaderAppearanceJS.canLayOutContentMaintainingAspectRatioBeyondTextColumn()),t.onload=null};this._fixImageElementsWithinPictureElements()},optionsForTweetCreation:function(){let e={dnt:!0},t=ReaderAppearanceJS._theme();return t&&t.tweetTheme&&(e.theme=t.tweetTheme),e},removeAttribute:function(e,t){let n=e.querySelectorAll("["+t+"]");for(let e of n)e.removeAttribute(t)},preparePrintingMailingFrame:function(){let e=this.printingMailingFrameElementId(),t=document.getElementById(e);t&&document.body.removeChild(t),t=this.sanitizedFullArticleFrame(),t.id=e},sanitizedFullArticleFrame:function(){let e=document.createElement("iframe");e.style.display="none",e.style.position="absolute",document.body.appendChild(e);let t=e.contentDocument,n=document.createElement("base");n.href=this.originalURL,t.head.appendChild(n);let i=document.createElement("div");i.className="original-url";let o=document.createElement("a");o.href=this.originalURL,o.textContent=this.originalURL,i.appendChild(document.createElement("br")),i.appendChild(o),i.appendChild(document.createElement("br")),i.appendChild(document.createElement("br")),t.body.appendChild(i),t.body.appendChild(this.sanitizedFullArticle()),t.head.appendChild(document.getElementById("print").cloneNode(!0));let l=t.createElement("title");return l.innerText=document.title,t.head.appendChild(l),e},getArticleHeadingElements:function(){const e=ReaderJSController.originalArticleFinder();var t={};let n=e.articleSubhead();n&&(t.subheadline=n);let i=e.adoptableMetadataBlock();return i&&(t.articleMetadata=plaintextVersionOfNodeAppendingNewlinesBetweenBlockElements(i)),t},sanitizedFullArticle:function(){let e=document.getElementById("article").cloneNode(!0);e.removeAttribute("tabindex");const t=e.querySelectorAll(".title");for(let e=1,n=t.length;e<n;++e)t[e].remove();for(let t of e.querySelectorAll(".page-number, #incoming-page-placeholder, #onDeviceSummaryButton"))t.remove();if(prepareTweetsInPrintingMailingFrame(e),this._shouldConvertRelativeURLsToAbsoluteURLsWhenPrintingOrMailing){const t=/^http:\/\/|^https:\/\/|^data:/i;let n=e.querySelectorAll("img, video, audio, source");for(let e of n){let n=e.getAttribute("src");t.test(n)||e.setAttribute("src",e.src)}}for(let t of e.querySelectorAll(".extendsBeyondTextColumn"))stopExtendingElementBeyondTextColumn(t);for(let t of e.querySelectorAll(".delimeter"))t.innerText="\u2022";e.classList.add(ReaderAppearanceJS.currentFontCSSClassName());let n=ReaderAppearanceJS.currentFontCSSFontFamilyName();n&&(e.style.fontFamily=n),ReaderAppearanceJS.currentFontUsesSystemFont()&&e.classList.add("system"),e.classList.add("exported");ReaderJSController.originalArticleFinder();for(let t of e.getElementsByTagName("*"))t.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);let i=document.getElementById("article-content").sheet.cssRules,o=i.length;for(let t=0;t<o;++t){let n=i[t].selectorText,o=i[t].style;if(!o)continue;let l=o.cssText;e.matches(n)&&e.style&&(e.style.cssText+=l);for(let t of e.querySelectorAll(n))t.style&&(t.style.cssText+=l)}return e},printingMailingFrameElementId:function(){return"printing-mailing-frame"},canLoadNextPage:function(){if(this.readerOperationMode!=ReaderOperationMode.Normal)return!0;let e=document.querySelectorAll(".page"),t=e[e.length-1].getBoundingClientRect(),n=this._distanceFromBottomOfArticleToStartLoadingNextPage();return!!isNaN(n)||!(t.bottom-window.scrollY>n)},setCachedNextPageURL:function(e){e?(this.cachedNextPageURL=e,ReaderJSController.didChangeNextPageLoadingState(!1)):this.setNextPageURL(e)},loadNextPage:function(){null!=this.cachedNextPageURL&&(this.setNextPageURL(this.cachedNextPageURL),this.cachedNextPageURL=null,ReaderJSController.didChangeNextPageLoadingState(!0))},resumeCachedNextPageLoadIfNecessary:function(){ReaderJS.cachedNextPageURL&&ReaderJS.canLoadNextPage()&&ReaderJS.loadNextPage()},setDocumentIsVisible:function(e){this._documentIsVisible=e,this._readerForegroundednessMayHaveChanged(),e&&ReaderAppearanceJS.layOutContent()},setReaderIsActive:function(e){this._readerIsActive=e,this._readerForegroundednessMayHaveChanged()},readerIsForeground:function(){return this._documentIsVisible&&this._readerIsActive},_readerForegroundednessMayHaveChanged:function(){let e=this.readerIsForeground();this._readerIsForeground!==e&&(e?this.readerWillBecomeVisible():this.readerWillEnterBackground(),ReadingPositionStabilizerJS.setTrackPosition(e),this._readerIsForeground=e)},readerWillBecomeVisible:function(){document.body.classList.remove("cached"),this.resumeCachedNextPageLoadIfNecessary();for(let e of document.querySelectorAll("iframe")){let t=this.cachedIframeURLMap.get(e);t&&(e.src=t,this.cachedIframeURLMap.delete(e))}this._readerIsActive&&requestAnimationFrame((function(){ReadingPositionStabilizerJS.applyScrollPositionFromOriginalPage()}))},readerWillEnterBackground:function(){(ReaderJS.isLoadingNextPage()||ReaderJS.loadingNextPageManuallyStopped)&&this.pauseLoadingNextPage();for(let e of document.querySelectorAll("audio"))e.pause();for(let e of document.querySelectorAll("video"))e.hasAttribute("data-reader-silent-looped-animation")||e.pause();for(let e of document.querySelectorAll("iframe")){e.src&&(this.cachedIframeURLMap.set(e,e.src),e.removeAttribute("src"))}},_fixImageElementsWithinPictureElements:function(){requestAnimationFrame((function(){let e=!1,t=document.querySelectorAll("#article picture img");for(let n of t){let t=n.previousElementSibling;if(t)n.remove(),t.after(n),e=!0;else{let t=n.parentElement;n.remove(),t.appendChild(n),e=!0}}e&&ReaderAppearanceJS.layOutContent()}))},serializedDocumentElementForPrintingOrMailing:async function(e){const t=Promise.withResolvers();globalThis.ReaderJSController=new class{readerOperationMode(){return ReaderOperationMode.OffscreenFetching}doneLoadingReaderPage(){t.resolve()}initialConfiguration(){return e}articleScrolled(){}cachedTopScrollOffset(){return 0}clearNextPageArticleFinder(){}contentIsReadyForDisplay(){}didChangeNextPageLoadingState(){}goBack(){}goForward(){}initialArticleScrollPosition(){return null}isInStickyMode(){return!1}log(){}makeFontAvailableIfNecessary(){}maxDistanceForLoadingNextPage(){}nextPageArticleFinder(){}nextPageLoadComplete(){}prepareNextPageFrame(){}setArticleBaseURLString(e){}replaceSimpleTweetsWithRichTweets(){}requestDeactivationFromUserAction(){}requestOnDeviceSummary(){}reportReaderEvent(){}},ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),await t.promise;const n=ReaderJS.sanitizedFullArticleFrame();if(!n?.contentDocument?.documentElement)throw new Error("Unable to render article");return webkit.serializeNode(n.contentDocument.documentElement,{deep:!0})}};let fetchNextPageArticlePromiseWithCanceller=null;ReadingPositionStabilizer=function(){this.elementTouchingTopOfViewport=null,this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=0,this._trackingScrolling=!1,this._hasEverScrolled=!1},ReadingPositionStabilizer.prototype={initialize:function(){this.setTrackPosition(!0);const e=250;this._checkForUpdatedContentSoon=this.debounce(e)._checkForUpdatedContentNow,this.windowDidResize=this.debounce(e)._windowDidResize},setTrackPosition:function(e){if(e===this._trackingScrolling)return;this._trackingScrolling=e;const t=250;this._debouncedDidScroll||(this._debouncedDidScroll=this.debounce(t)._didScroll),e?window.addEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0}):window.removeEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0})},_windowDidResize:function(){this._hasEverScrolled&&this._updatePosition(!1)},contentWasReloaded:function(){this._updatePosition(!1)},_didScroll:function(){this._trackingScrolling&&(this._hasEverScrolled=!0,this._updatePosition(!1))},_updatePosition:function(e=!0){let t=firstContentElementAfterTopOfViewport();if(!t)return void(this.elementTouchingTopOfViewport=null);this.elementTouchingTopOfViewport=t;let n=this.elementTouchingTopOfViewport.getBoundingClientRect();this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=n.height>0?n.top/n.height:0,this._originalPageScrollSyncAndContentRefreshIsAllowed()&&ReaderJS.readerIsForeground()&&(this._pushScrollPositionToOriginalPage(),e&&this._checkForUpdatedContentSoon())},_pushScrollPositionToOriginalPage:function(){const e=ReaderJSController.originalArticleFinder(),[t,n]=this.uniqueIDAndScrollRatioOfElementPinnedToTop();t&&e.scrollToElementWithUniqueID(t,n)},applyScrollPositionFromOriginalPage:async function(){let e=ReaderJSController.originalArticleFinder().uniqueIDAndScrollRatioOfElementPinnedToTop();e instanceof Promise&&(e=await e);const[t,n]=e;t&&this.tryToScrollToUniqueIDAndRatio(t,n)},_checkForUpdatedContentNow:async function(){await ReaderJS.reloadArticlePreservingScrollPositionIfArticleNodeContentHasChanged()},restorePosition:function(){if(!this.elementTouchingTopOfViewport)return;let e=this.elementTouchingTopOfViewport.getBoundingClientRect(),t=document.scrollingElement.scrollTop+e.top-e.height*this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio;t>0&&(document.scrollingElement.scrollTop=t),this._updatePosition()},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){if(!this.elementTouchingTopOfViewport)return[null,null];return[this.elementTouchingTopOfViewport.getAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY),this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio]},tryToScrollToUniqueIDAndRatio:function(e,t){const n=document.querySelector("["+READER_UNIQUE_ID_ATTRIBUTE_KEY+"='"+e+"']");if(!n)return!1;const i=n.getBoundingClientRect();return!!i.height&&(document.scrollingElement.scrollTop=i.top-t*i.height+window.scrollY,this._updatePosition(!1),!0)},_originalPageScrollSyncAndContentRefreshIsAllowed:function(){return!document.body.classList.contains("watch")}},document.addEventListener("visibilitychange",handleVisibilityChange,!1);var ContentAwareScrollerJS=new ContentAwareScroller,ReaderAppearanceJS=new ReaderAppearanceController,ReadingPositionStabilizerJS=new ReadingPositionStabilizer,ReaderJS=new ReaderController;window.addEventListener("load",(async function(){function e(){window.dispatchEvent(new CustomEvent("readerLoaded"))}if(!isReaderViewInSeparateProcess)return ReaderJS.loaded(),void e();ReaderJS.setOriginalURL(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)%@;
 - (void);
 - (_Bool);
 - (long long);
 - (void);
-- (struct CGSize)forKey: /* Error: Ran out of types for this method. */;
+- (struct CGSize)encodeObject:forKey: /* Error: Ran out of types for this method. */;
 - (_Bool)rror:Internal Inconsistency. Synthesized playback speeds should not be represented by selectable menu items. /* Error: Ran out of types for this method. */;
 - (_Bool)q;
 
 // Remaining properties
-@property(readonly) AVCaptureDeviceInput *audioInput;
-@property(readonly) NSArray *audioInputSourceItems;
-@property double audioLevel; // @synthesize audioLevel=_audioLevel;
-@property(getter=isAudioPreviewEnabled) _Bool audioPreviewEnabled; // @synthesize audioPreviewEnabled=_audioPreviewEnabled;
-@property(nonatomic) _Bool audioPreviewMuted;
-@property(nonatomic) float audioPreviewVolume;
-@property(readonly) NSArray *audioTouchBarInputSourceItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) long long cameraAuthorizationStatus;
-@property(readonly) NSArray *cameraInputSourceItems;
 @property(readonly) _Bool canAssociateAudioAndVideoDevices;
-@property(readonly) _Bool canPauseRecording;
-@property(readonly) _Bool canResumeRecording;
-@property _Bool canStartRecording; // @synthesize canStartRecording=_canStartRecording;
-@property(readonly) _Bool canStopRecording;
-@property(retain) AVCaptureDeviceSelectionController *captureDeviceSelectionController; // @synthesize captureDeviceSelectionController=_captureDeviceSelectionController;
-@property(copy) NSArray *captureQualityItems;
-@property(getter=isCaptureSessionRunning) _Bool captureSessionRunning; // @synthesize captureSessionRunning=_captureSessionRunning;
-@property(readonly) struct CGSize contentDimensions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVCaptureControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *deviceDisabledDescription;
-@property(readonly) NSString *deviceErrorDescription;
-@property(readonly) AVCaptureFileOutput *fileOutput;
-@property(getter=isFinishingRecording) _Bool finishingRecording;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long microphoneAuthorizationStatus;
-@property(readonly) NSArray *microphoneInputSourceItems;
-@property(readonly, getter=isPaused) _Bool paused;
-@property(retain) NSNumber *recordedFileSize; // @synthesize recordedFileSize=_recordedFileSize;
-@property double recordedTime; // @synthesize recordedTime=_recordedTime;
-@property(readonly, getter=isRecording) _Bool recording;
-@property(readonly) NSArray *screenInputSourceItems;
-@property(readonly) NSArray *screenTouchBarInputSourceItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) AVCaptureDeviceInputSourceItem *selectedAudioInputSourceItem;
-@property(readonly) AVTouchBarCaptureInputSourceItem *selectedAudioTouchBarInputSourceItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AVTouchBarCaptureInputSourceItem",?,R
-
-@property(retain) AVCaptureQualityItem *selectedQualityItem;
-@property(readonly) AVTouchBarCaptureInputSourceItem *selectedScreenTouchBarInputSourceItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AVTouchBarCaptureInputSourceItem",?,R
-
-@property(readonly) AVCaptureDeviceInputSourceItem *selectedVideoInputSourceItem;
-@property(readonly) AVTouchBarCaptureInputSourceItem *selectedVideoTouchBarInputSourceItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AVTouchBarCaptureInputSourceItem",?,R
-
-@property(readonly) AVCaptureSession *session;
-@property(readonly) _Bool sessionHasBeenSet;
-@property(readonly) NSArray *speakerInputSourceItems;
-@property(readonly) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(readonly) AVCaptureDeviceInput *videoInput;
-@property(getter=isVideoPreviewEnabled) _Bool videoPreviewEnabled; // @synthesize videoPreviewEnabled=_videoPreviewEnabled;
-@property(readonly) NSArray *videoTouchBarInputSourceItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property _Bool wantsDefaultConfiguration; // @synthesize wantsDefaultConfiguration=_wantsDefaultConfiguration;
 
 @end
 

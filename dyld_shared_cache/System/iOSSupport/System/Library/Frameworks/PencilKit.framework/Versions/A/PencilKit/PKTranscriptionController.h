@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, NSString, PKProgressAlertController, PKRecognitionSessionManager, PKStrokeSelection;
-@protocol PKAttachment;
+@class PKRecognitionSessionManager;
 
 @interface PKTranscriptionController
 {
     _Bool _shouldCancel;
-    _Bool _didReceiveTranscription;
-    _Bool _didShowHUD;
-    int _transcriptionType;
-    id <PKAttachment> _attachment;
-    PKStrokeSelection *_strokeSelection;
-    PKRecognitionSessionManager *_recognitionManager;
-    PKProgressAlertController *_progressAlertController;
-    NSProgress *_currentProgress;
-    NSString *_textTranscription;
 }
 
 - (int);
@@ -50,24 +40,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)RotatingIdentifierTelemetryDelivery;
 - (_Bool);
 - (void);
 - (void);
-- (void)gEnabled:(id)arg1;
+- (void)setStylusDrawingEnabled:(id)arg1;
 - (void)GestureRecognizer",&,N,V_rulerGestureRecognizer;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKAttachment> attachment; // @synthesize attachment=_attachment;
-@property(retain, nonatomic) NSProgress *currentProgress; // @synthesize currentProgress=_currentProgress;
-@property(nonatomic) _Bool didReceiveTranscription; // @synthesize didReceiveTranscription=_didReceiveTranscription;
-@property(nonatomic) _Bool didShowHUD; // @synthesize didShowHUD=_didShowHUD;
-@property(retain, nonatomic) PKProgressAlertController *progressAlertController; // @synthesize progressAlertController=_progressAlertController;
 @property(nonatomic) __weak PKRecognitionSessionManager *recognitionManager; // @synthesize recognitionManager=_recognitionManager;
-@property(nonatomic) _Bool shouldCancel; // @synthesize shouldCancel=_shouldCancel;
-@property(retain, nonatomic) PKStrokeSelection *strokeSelection; // @synthesize strokeSelection=_strokeSelection;
-@property(copy, nonatomic) NSString *textTranscription; // @synthesize textTranscription=_textTranscription;
-@property(nonatomic) int transcriptionType; // @synthesize transcriptionType=_transcriptionType;
 
 @end
 

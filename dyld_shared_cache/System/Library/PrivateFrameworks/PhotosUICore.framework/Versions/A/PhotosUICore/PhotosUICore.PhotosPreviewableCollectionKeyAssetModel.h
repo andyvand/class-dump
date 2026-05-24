@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosPreviewableCollectionKeyAssetModel
 {
     id collection;
-    id _initialKeyAsset;
-    id _firstAssetModels;
-    id _$observationRegistrar;
 }
 
 @end

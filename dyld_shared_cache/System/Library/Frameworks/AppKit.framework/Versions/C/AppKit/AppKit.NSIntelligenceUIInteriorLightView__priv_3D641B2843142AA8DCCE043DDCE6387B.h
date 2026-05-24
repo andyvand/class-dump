@@ -9,15 +9,11 @@
 @interface AppKit.NSIntelligenceUIInteriorLightView__priv_3D641B2843142AA8DCCE043DDCE6387B : NSView
 {
     id filterValues;
-    id increasePowerLevel;
-    id lightView;
-    id visualEffectView;
-    id accessibilityDisplayOptionsDidChangeObserver;
 }
 
 - (void);
 - (id);
-- (id)tesTrailingDivider:(struct CGRect)arg1;
+- (id)_splitView:(struct CGRect)arg1 arrangedViewEncapsulatesTrailingDivider: /* Error: Ran out of types for this method. */;
 - (void)8Ãÿc@bE;
 
 @end

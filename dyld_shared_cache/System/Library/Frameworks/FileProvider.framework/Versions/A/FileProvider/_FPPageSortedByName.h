@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
-- (const void *);
+- (unsigned long long);
+- (const void *)GetRegulatedRATsSwitchEnabledRequest;
 
 @end
 

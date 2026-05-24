@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id);
 - (id):restoration class for object does not conform to UIObjectRestoration protocol:Class is %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);

@@ -6,36 +6,25 @@
 
 #import <FileProvider/FPOperation.h>
 
-@class FPSpotlightIndexer, NSArray, NSData, NSError;
+@class FPSpotlightIndexer, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FPSpotlightIndexOneBatchOperation : FPOperation
 {
     FPSpotlightIndexer *_indexer;
-    _Bool _isInitialIndexing;
-    _Bool _isOutOfBandIndexing;
-    unsigned long long _logSection;
-    _Bool _passExpectedState;
-    NSArray *_updatedItems;
-    NSArray *_deletedItemIDs;
-    NSArray *_searchableItems;
-    NSData *_nextAnchor;
-    NSError *_fetchError;
-    long long _indexReason;
-    CDUnknownBlockType _canIndexFromCurrentState;
 }
 
 - (_Bool);
+- (void)Tm;
 - (void);
+- (id)"@"NSError">24;
 - (void);
+- (id);;
 - (id);
 - (void);
+- (long long)CycleDate:billingCycleSupported:carrierSpaceSupported:workspaceName:workspacePath: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
+- (id)AllowEmergencyRegistrationInLimitedAccessOnWiFi;
 - (void);
 - (void);
 - (void);
@@ -49,13 +38,6 @@ __attribute__((visibility("hidden")))
 - (void)ð;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType canIndexFromCurrentState; // @synthesize canIndexFromCurrentState=_canIndexFromCurrentState;
-@property(retain, nonatomic) NSArray *deletedItemIDs; // @synthesize deletedItemIDs=_deletedItemIDs;
-@property(retain, nonatomic) NSError *fetchError; // @synthesize fetchError=_fetchError;
-@property(nonatomic) long long indexReason; // @synthesize indexReason=_indexReason;
-@property(retain, nonatomic) NSData *nextAnchor; // @synthesize nextAnchor=_nextAnchor;
-@property(nonatomic) _Bool passExpectedState; // @synthesize passExpectedState=_passExpectedState;
-@property(retain, nonatomic) NSArray *searchableItems; // @synthesize searchableItems=_searchableItems;
 @property(retain, nonatomic) NSArray *updatedItems; // @synthesize updatedItems=_updatedItems;
 
 @end

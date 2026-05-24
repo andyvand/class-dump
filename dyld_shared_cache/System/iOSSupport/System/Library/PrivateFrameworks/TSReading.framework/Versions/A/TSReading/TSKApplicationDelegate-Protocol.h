@@ -5,5 +5,9 @@
 //
 
 @protocol TSKApplicationDelegate
+
+@optional
+- (_Bool)roller - Unable to resetQueue [no player];
+- (long long);
 @end
 

@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_queue, OS_nw_path_monitor;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFNetworkAvailability
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _notifyToken;
-    struct AvailabilityState _state;
-    NSObject<OS_nw_path_monitor> *_pathMonitor;
-    NSHashTable *_observers;
 }
 
 + (id);
-- (void);
+- (void)groupingIdentifier;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)_takeWallpaperPresentationAssertionWithCompletion:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool)SessionActive;
-- (void)n: /* Error: Ran out of types for this method. */;
+- (_Bool)isAudioSessionActive;
+- (void)assistantConnection:openApplicationWithBundleID:URL:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

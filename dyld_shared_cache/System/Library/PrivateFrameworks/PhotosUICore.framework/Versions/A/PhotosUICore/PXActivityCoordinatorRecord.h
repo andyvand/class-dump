@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (_Bool);
 - (void);

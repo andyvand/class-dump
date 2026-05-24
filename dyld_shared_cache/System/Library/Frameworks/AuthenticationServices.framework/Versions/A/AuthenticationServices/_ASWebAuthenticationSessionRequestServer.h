@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, _ASWebAuthenticationSessionRequestServerDelegate;
+@class NSMutableArray;
+@protocol _ASWebAuthenticationSessionRequestServerDelegate;
 
 @interface _ASWebAuthenticationSessionRequestServer
 {
     NSMutableArray *_requestQueue;
-    NSMutableSet *_requestsInProgress;
-    NSMutableDictionary *_requestsToCompletionHandlers;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableDictionary *_browserApplicationIdentifierToConnection;
-    id <_ASWebAuthenticationSessionRequestServerDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)titlesForTitlesWordsAfterLeadingTruncation:toFitInWidth:withFont: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

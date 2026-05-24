@@ -7,6 +7,7 @@
 @protocol FCCoreConfiguration;
 
 @protocol FCCoreConfigurationManager
+- (void);
 - (void)due to device obsoletion;
 - (void);
 

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBLocation;
+@class _INPBLocation;
 
 @protocol _INPBListRideOptionsIntent
-- (_Bool)e;
+- (_INPBLocation *);
+- (_Bool)course;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBLocation *dropOffLocation;
-@property(readonly, nonatomic) _Bool hasDropOffLocation;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasPickupLocation;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBLocation *pickupLocation;
 @end
 

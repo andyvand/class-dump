@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APUnfairLock, NSMutableArray;
+@class NSMutableArray;
 
 @interface PCRingBuffer
 {
     NSMutableArray *_ringBuffer;
-    APUnfairLock *_lock;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) APUnfairLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSMutableArray *ringBuffer; // @synthesize ringBuffer=_ringBuffer;
 
 @end

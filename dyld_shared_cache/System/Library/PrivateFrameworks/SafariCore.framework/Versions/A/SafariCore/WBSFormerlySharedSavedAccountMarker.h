@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface WBSFormerlySharedSavedAccountMarker
 {
     NSString *_passwordManagerCredentialIdentifier;
-    NSString *_nameOfGroupCredentialWasLastSharedIn;
 }
 
 - (id);
@@ -17,13 +16,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)sing mapping for MPModelRelationshipPlaylistAuthorSocialProfile;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSString *nameOfGroupCredentialWasLastSharedIn; // @synthesize nameOfGroupCredentialWasLastSharedIn=_nameOfGroupCredentialWasLastSharedIn;
 @property(readonly, copy, nonatomic) NSString *passwordManagerCredentialIdentifier; // @synthesize passwordManagerCredentialIdentifier=_passwordManagerCredentialIdentifier;
 
 @end

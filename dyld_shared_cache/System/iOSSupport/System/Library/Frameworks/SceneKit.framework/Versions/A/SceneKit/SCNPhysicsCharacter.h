@@ -6,7 +6,7 @@
 
 #import <SceneKit/SCNPhysicsBehavior.h>
 
-@class SCNPhysicsBody, SCNPhysicsWorld;
+@class SCNPhysicsBody;
 
 @interface SCNPhysicsCharacter : SCNPhysicsBehavior
 {
@@ -16,11 +16,6 @@
         double velocity;
         double jumpSpeed;
     } _definition;
-    struct btCharacterControllerInterface *_characterController;
-    void *_ghostObject;
-    struct btOverlapFilterCallback *_filterCallback;
-    struct btCapsuleShape *_capsuleShape;
-    SCNPhysicsWorld *_world;
 }
 
 - (void);
@@ -35,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)for known key %@.;
 - (void))]]
                              , sampler          u_diffuseTextureSampler            [[ sampler(2), function_constant(use_diffuse_map)]]
                              , texture2d<float> u_specularTexture                  [[ texture(3), function_constant(use_specular_map)]]
@@ -465,7 +460,6 @@ __DoFragmentModifier__
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double jumpSpeed;
 @property(nonatomic) double velocity;
 
 @end

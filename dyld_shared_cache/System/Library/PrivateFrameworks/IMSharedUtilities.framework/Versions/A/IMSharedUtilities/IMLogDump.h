@@ -10,7 +10,7 @@
 }
 
 + (id)´;
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -27,7 +27,7 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)VERIFICATION_CHANNEL_FIELDS;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldCollectPowerWifiStats; // @synthesize shouldCollectPowerWifiStats=_shouldCollectPowerWifiStats;

@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TCPBufferPool
 {
     int poolSize;
-    struct tagBufferNode *head;
-    struct tagBufferNode *tail;
-    struct tagBufferNode *avail;
-    int poolLock;
 }
 
 - (void);

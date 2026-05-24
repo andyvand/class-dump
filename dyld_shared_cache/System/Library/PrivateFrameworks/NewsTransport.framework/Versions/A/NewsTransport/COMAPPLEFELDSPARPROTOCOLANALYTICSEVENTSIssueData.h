@@ -4,56 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface COMAPPLEFELDSPARPROTOCOLANALYTICSEVENTSIssueData
 {
     NSString *_issueId;
-    int _issueType;
-    NSMutableArray *_topicIds;
-    _Bool _isBundlePaid;
-    CDStruct_e072d072 _has;
 }
 
-+ (Class);
-- (unsigned long long);
++ (Class)animationPlayerForKey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)audioClassification;
+- (id)audioAsset;
+- (void);
+- (void)actionPerformer:(_Bool)arg1 dismissViewController:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_updateQueue_seekToPlaybackTimeRangeStartIfNeeded;
+- (id)_stateQueue_newPresentationStateFromCurrentWithPresenter:(int)arg1;
+- (_Bool)_setDataSourceIndex: /* Error: Ran out of types for this method. */;
+- (void)_queue_downloadableAssetForAsset:resourceType: /* Error: Ran out of types for this method. */;
+- (void)_presentAlertControllerForCurrentCPLStateIfNeededWithCompletionHandler:(id)arg1;
+- (id)_playbackRateTitle;
+- (_Bool)_percentCompletedForUpload;
+- (int)_pauseResolutionActionConfirmationAlertTitle;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)H*;
 - (_Bool);
-- (_Bool);
+- (_Bool)U;
 - (void);
-- (id);
+- (id)u;
 - (id);
 - (void)breakingNewsArticleCount;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsBundlePaid;
 @property(readonly, nonatomic) _Bool hasIssueId;
-@property(nonatomic) _Bool hasIssueType;
-@property(nonatomic) _Bool isBundlePaid; // @synthesize isBundlePaid=_isBundlePaid;
-@property(retain, nonatomic) NSString *issueId; // @synthesize issueId=_issueId;
-@property(nonatomic) int issueType; // @synthesize issueType=_issueType;
-@property(retain, nonatomic) NSMutableArray *topicIds; // @synthesize topicIds=_topicIds;
 
 @end
 

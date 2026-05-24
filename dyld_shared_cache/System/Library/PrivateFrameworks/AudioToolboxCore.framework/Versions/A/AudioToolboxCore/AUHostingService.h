@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AURemoteHost, NSXPCConnection;
+@class AURemoteHost;
 
 __attribute__((visibility("hidden")))
 @interface AUHostingService
 {
     AURemoteHost *_host;
-    NSXPCConnection *_connection;
-    struct AudioComponentDescription _componentDescription;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> _instanceUUID;
 }
 
 + (_Bool);
 + (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);

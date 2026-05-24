@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorRelayGroupDisplayNameMutationEnvelope, BlastDoorRelayGroupParticipantMutationEnvelope, NSString;
+@class NSString;
 
 @interface BlastDoorRelayGroupMutationWrapper
 {
@@ -15,14 +15,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)denylistEnabled;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorRelayGroupDisplayNameMutationEnvelope *displayName;
-@property(nonatomic, readonly) BlastDoorRelayGroupParticipantMutationEnvelope *participant;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

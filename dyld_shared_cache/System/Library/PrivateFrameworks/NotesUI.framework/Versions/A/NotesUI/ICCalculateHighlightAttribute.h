@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSString;
-
 @interface ICCalculateHighlightAttribute
 {
     unsigned long long _type;
-    NSArray *_errors;
 }
 
-- (id);
-- (id);
+- (id)setHasMaxScrollDepth: /* Error: Ran out of types for this method. */;
+- (id)iReachable;
 - (void);
 - (id);
 - (long long);
@@ -26,16 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void)actor;
+- (void)_checklistZoomFactor;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSColor *color;
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(readonly, copy, nonatomic) NSArray *suggestions;
-@property(readonly, copy, nonatomic) NSString *tooltip;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSColor *underlineColor;
-@property(readonly, nonatomic) long long underlineStyle;
 
 @end
 

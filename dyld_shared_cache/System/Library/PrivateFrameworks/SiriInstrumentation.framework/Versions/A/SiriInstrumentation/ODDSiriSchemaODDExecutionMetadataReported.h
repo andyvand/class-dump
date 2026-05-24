@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDExecutionMetadataReported : SISchemaInstrumentationMessage
 {
     int _extensionName;
-    int _executionStatus;
-    int _scheduleType;
-    struct {
-        unsigned int extensionName:1;
-        unsigned int executionStatus:1;
-        unsigned int scheduleType:1;
-    } _has;
 }
 
 - (void);
@@ -47,13 +38,7 @@
 - (id)"MHSchemaMHRaiseToSpeakTriggered",&,N,V_rtsTriggered;
 
 // Remaining properties
-@property(nonatomic) int executionStatus; // @synthesize executionStatus=_executionStatus;
 @property(nonatomic) int extensionName; // @synthesize extensionName=_extensionName;
-@property(nonatomic) _Bool hasExecutionStatus;
-@property(nonatomic) _Bool hasExtensionName;
-@property(nonatomic) _Bool hasScheduleType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int scheduleType; // @synthesize scheduleType=_scheduleType;
 
 @end
 

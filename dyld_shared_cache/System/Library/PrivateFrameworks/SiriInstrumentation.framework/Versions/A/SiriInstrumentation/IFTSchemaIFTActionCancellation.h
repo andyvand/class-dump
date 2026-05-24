@@ -6,25 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
-
 @interface IFTSchemaIFTActionCancellation : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_cancelledActionStatementId;
-    IFTSchemaIFTStatementId *_statementId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasCancelledActionStatementId;
-    _Bool _hasStatementId;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -36,7 +29,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)?36;
 - (id)At!ü@ùà1Â0@ù
 × ;
 - (id)n;
@@ -47,13 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTStatementId *cancelledActionStatementId; // @synthesize cancelledActionStatementId=_cancelledActionStatementId;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasCancelledActionStatementId; // @synthesize hasCancelledActionStatementId=_hasCancelledActionStatementId;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end
 

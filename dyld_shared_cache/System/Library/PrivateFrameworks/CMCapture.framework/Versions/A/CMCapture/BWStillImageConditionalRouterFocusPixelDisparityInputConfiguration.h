@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (unsigned int);
+- (unsigned int);;
 - (unsigned int);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int defaultOutputIndex;
-@property(readonly, nonatomic) unsigned int focusPixelDisparityInputOutputIndex;
 
 @end
 

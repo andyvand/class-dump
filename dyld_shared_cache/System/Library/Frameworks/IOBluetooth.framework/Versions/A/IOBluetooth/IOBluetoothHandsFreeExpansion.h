@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothHostController, NSDate;
+@class NSDate;
 @protocol IOBluetoothHandsFreeDelegate;
 
 @interface IOBluetoothHandsFreeExpansion
 {
     NSDate *_lastUpdatedInputVolume;
-    NSDate *_lastUpdatedOutputVolume;
-    IOBluetoothHostController *_hostController;
-    _Bool _disconnectAfterDisconnectingSCO;
-    _Bool _xaplSent;
-    unsigned short _SCOConnectionHandle;
-    unsigned char _codecID;
-    id <IOBluetoothHandsFreeDelegate> _delegate;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -38,14 +31,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned short SCOConnectionHandle; // @synthesize SCOConnectionHandle=_SCOConnectionHandle;
-@property unsigned char codecID; // @synthesize codecID=_codecID;
 @property id <IOBluetoothHandsFreeDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool disconnectAfterDisconnectingSCO; // @synthesize disconnectAfterDisconnectingSCO=_disconnectAfterDisconnectingSCO;
-@property(retain) IOBluetoothHostController *hostController; // @synthesize hostController=_hostController;
-@property(retain) NSDate *lastUpdatedInputVolume; // @synthesize lastUpdatedInputVolume=_lastUpdatedInputVolume;
-@property(retain) NSDate *lastUpdatedOutputVolume; // @synthesize lastUpdatedOutputVolume=_lastUpdatedOutputVolume;
-@property _Bool xaplSent; // @synthesize xaplSent=_xaplSent;
 
 @end
 

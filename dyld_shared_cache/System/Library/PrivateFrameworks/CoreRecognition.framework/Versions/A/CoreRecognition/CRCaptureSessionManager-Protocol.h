@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
-@protocol AVCaptureVideoDataOutputSampleBufferDelegate;
-
 @protocol CRCaptureSessionManager
+- (_Bool));
+- (void)9q;
+- (struct CGPoint);
+- (_Bool)!;
+- (long long)H;
+- (void)`;
+- (long long)layer;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cameraMode;
 @property(nonatomic) long long cameraPosition;
-@property struct CGSize cameraResolution;
-@property __weak id <AVCaptureVideoDataOutputSampleBufferDelegate> captureSessionDelegate;
-@property(retain) NSString *currentDeviceID;
-@property _Bool enableMetadataOutput;
-@property(nonatomic) long long exposureMode;
-@property(nonatomic) long long focusMode;
-@property(readonly, nonatomic) CALayer *previewLayer;
-@property long long targetFocusDistance;
-@property(nonatomic) long long torchMode;
-@property(nonatomic) long long whiteBalanceMode;
 @end
 

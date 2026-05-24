@@ -9,14 +9,6 @@
 @interface WBSCloudHistoryConfiguration
 {
     _Bool _shouldBatchSaveRecords;
-    _Bool _shouldUseLongLivedOperationsToSaveRecords;
-    NSString *_singleDeviceSaveChangesThrottlingPolicyString;
-    NSString *_multipleDeviceSaveChangesThrottlingPolicyString;
-    NSString *_singleDeviceFetchChangesThrottlingPolicyString;
-    NSString *_multipleDeviceFetchChangesThrottlingPolicyString;
-    NSString *_syncCircleSizeRetrievalThrottlingPolicyString;
-    unsigned long long _maximumRequestCharacterCount;
-    double _syncWindow;
 }
 
 - (double);
@@ -31,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
@@ -42,22 +34,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property unsigned long long maximumRequestCharacterCount; // @synthesize maximumRequestCharacterCount=_maximumRequestCharacterCount;
-@property(retain) NSString *multipleDeviceFetchChangesThrottlingPolicyString; // @synthesize multipleDeviceFetchChangesThrottlingPolicyString=_multipleDeviceFetchChangesThrottlingPolicyString;
-@property(retain) NSString *multipleDeviceSaveChangesThrottlingPolicyString; // @synthesize multipleDeviceSaveChangesThrottlingPolicyString=_multipleDeviceSaveChangesThrottlingPolicyString;
-@property(readonly) _Bool shouldBatchSaveRecords; // @synthesize shouldBatchSaveRecords=_shouldBatchSaveRecords;
-@property(readonly) _Bool shouldUseLongLivedOperationsToSaveRecords; // @synthesize shouldUseLongLivedOperationsToSaveRecords=_shouldUseLongLivedOperationsToSaveRecords;
-@property(retain) NSString *singleDeviceFetchChangesThrottlingPolicyString; // @synthesize singleDeviceFetchChangesThrottlingPolicyString=_singleDeviceFetchChangesThrottlingPolicyString;
 @property(retain) NSString *singleDeviceSaveChangesThrottlingPolicyString; // @synthesize singleDeviceSaveChangesThrottlingPolicyString=_singleDeviceSaveChangesThrottlingPolicyString;
-@property(retain) NSString *syncCircleSizeRetrievalThrottlingPolicyString; // @synthesize syncCircleSizeRetrievalThrottlingPolicyString=_syncCircleSizeRetrievalThrottlingPolicyString;
-@property double syncWindow; // @synthesize syncWindow=_syncWindow;
 
 @end
 

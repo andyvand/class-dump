@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVKVODispatcher, AVTwoPartKeyPath, AVWeakReference, NSObject, NSString;
-@protocol AVCallbackCancellation, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVKeyPathDependency
 {
     NSObject<OS_dispatch_queue> *_subObjectRegistrationQueue;
-    AVKVODispatcher *_KVODispatcher;
-    AVWeakReference *_weakReferenceToObject;
-    NSString *_dependentKey;
-    AVTwoPartKeyPath *_dependencyKeyPath;
-    id <AVCallbackCancellation> _leafPropertyChangeNotifier;
 }
 
 + (void)th;
@@ -25,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)"16@?<v@?@"NSArray">24;
 
 @end
 

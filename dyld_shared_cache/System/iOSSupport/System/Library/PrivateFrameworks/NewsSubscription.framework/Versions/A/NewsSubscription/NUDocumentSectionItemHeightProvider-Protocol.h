@@ -5,5 +5,6 @@
 //
 
 @protocol NUDocumentSectionItemHeightProvider
+- (double);
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryAnchor, CNContact, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CNChangeHistoryContactChange
 {
     NSString *_contactIdentifier;
-    long long _changeType;
-    CNContact *_contact;
-    NSArray *_linkedContactIdentifiers;
-    CNChangeHistoryAnchor *_changeAnchor;
-    NSNumber *_changeID;
-    NSString *_externalID;
-    NSNumber *_imagesChanged;
-    NSString *_linkToPersonUUID;
-    NSString *_personLinkUUID;
-    NSString *_externalURI;
-    NSString *_externalModificationTag;
 }
 
 + (_Bool);
@@ -40,34 +29,23 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ready has some bearer information!;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)o be rebuilt;
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void);
-- (void)exingWithClientState: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)willStartIndexingWithClientState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CNChangeHistoryAnchor *changeAnchor; // @synthesize changeAnchor=_changeAnchor;
-@property(retain, nonatomic) NSNumber *changeID; // @synthesize changeID=_changeID;
 @property(nonatomic) long long changeType; // @synthesize changeType=_changeType;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
-@property(retain, nonatomic) NSString *externalModificationTag; // @synthesize externalModificationTag=_externalModificationTag;
-@property(retain, nonatomic) NSString *externalURI; // @synthesize externalURI=_externalURI;
-@property(retain, nonatomic) NSNumber *imagesChanged; // @synthesize imagesChanged=_imagesChanged;
-@property(retain, nonatomic) NSString *linkToPersonUUID; // @synthesize linkToPersonUUID=_linkToPersonUUID;
-@property(copy, nonatomic) NSArray *linkedContactIdentifiers; // @synthesize linkedContactIdentifiers=_linkedContactIdentifiers;
-@property(retain, nonatomic) NSString *personLinkUUID; // @synthesize personLinkUUID=_personLinkUUID;
 
 @end
 

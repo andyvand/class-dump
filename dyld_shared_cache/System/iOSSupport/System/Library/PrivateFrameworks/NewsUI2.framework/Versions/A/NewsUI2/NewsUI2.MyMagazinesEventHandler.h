@@ -7,9 +7,6 @@
 @interface NewsUI2.MyMagazinesEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

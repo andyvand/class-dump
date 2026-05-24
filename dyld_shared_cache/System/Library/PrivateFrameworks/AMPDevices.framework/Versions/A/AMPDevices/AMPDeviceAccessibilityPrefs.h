@@ -7,14 +7,6 @@
 @interface AMPDeviceAccessibilityPrefs
 {
     _Bool _enableVoiceOver;
-    _Bool _enableZoom;
-    _Bool _invertDisplay;
-    _Bool _speakAutofillText;
-    _Bool _useMonoAudio;
-    _Bool _showClosedCaptions;
-    _Bool _closedCaptionsSupported;
-    _Bool _isUnsupportedLanguage;
-    _Bool _invertColorsSupported;
 }
 
 + (_Bool);
@@ -30,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)?׷;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,14 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool closedCaptionsSupported; // @synthesize closedCaptionsSupported=_closedCaptionsSupported;
-@property(nonatomic) _Bool enableVoiceOver; // @synthesize enableVoiceOver=_enableVoiceOver;
-@property(nonatomic) _Bool enableZoom; // @synthesize enableZoom=_enableZoom;
-@property(nonatomic) _Bool invertColorsSupported; // @synthesize invertColorsSupported=_invertColorsSupported;
-@property(nonatomic) _Bool invertDisplay; // @synthesize invertDisplay=_invertDisplay;
-@property(nonatomic) _Bool isUnsupportedLanguage; // @synthesize isUnsupportedLanguage=_isUnsupportedLanguage;
-@property(nonatomic) _Bool showClosedCaptions; // @synthesize showClosedCaptions=_showClosedCaptions;
-@property(nonatomic) _Bool speakAutofillText; // @synthesize speakAutofillText=_speakAutofillText;
-@property(nonatomic) _Bool useMonoAudio; // @synthesize useMonoAudio=_useMonoAudio;
 
 @end
 

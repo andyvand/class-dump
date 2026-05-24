@@ -6,22 +6,13 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class PGGraphAddressNode, PGGraphBusinessNode, PGGraphLocationCityNode, PGGraphNode, PGGraphPersonNode;
-@protocol PGGraphLocationOrArea;
-
 @interface PGFoodieMemoryTitleGenerator : PGTitleGenerator
 {
     long long _type;
-    PGGraphLocationCityNode *_cityNode;
-    PGGraphBusinessNode *_businessNode;
-    PGGraphPersonNode *_personNode;
-    PGGraphAddressNode *_addressNode;
-    PGGraphNode<PGGraphLocationOrArea> *_tripLocationNode;
-    unsigned long long _tripTitleLocationType;
 }
 
 - (id);
-- (id);
+- (id)b;
 - (id);
 - (id);
 - (id);

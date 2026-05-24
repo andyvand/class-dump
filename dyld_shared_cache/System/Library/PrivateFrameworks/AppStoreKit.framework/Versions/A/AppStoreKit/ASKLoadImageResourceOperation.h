@@ -6,46 +6,37 @@
 
 #import <AppStoreKit/ASKLoadResourceOperation.h>
 
-@class AMSURLSession, NSObject, NSURLRequest, NSURLSessionDataTask;
-@protocol ASKResourceDataConsumer, OS_dispatch_queue;
+@class AMSURLSession;
 
 @interface ASKLoadImageResourceOperation : ASKLoadResourceOperation
 {
     AMSURLSession *_session;
-    NSURLRequest *_urlRequest;
-    NSURLSessionDataTask *_task;
-    id <ASKResourceDataConsumer> _dataConsumer;
-    NSObject<OS_dispatch_queue> *_dataConsumerQueue;
 }
 
++ (id)o;
++ (id)o;
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
+- (id)o;
+- (id)o;
+- (void)o;
+- (id)o;
+- (id)o;
+- (id)constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)Gc;
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (void)ûÿ.?ûÿ;
 - (void)LayoutP;
 - (_Bool)@KÿïØ	LKÿ©ïØ	XKÿ©ïØ	pKÿ©ïØ	KÿÉïØ	´KÿiïØ	ÀKÿqïØ	ÌKÿIïØ	ØKÿïØ	äKÿ)ïØ	ðKÿ)ïØ	ÄÿqïØ	ôKÿ©ïØ	üKÿyïØ	Lÿ;
 - (_Bool)¥ÿÙ	À?ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASKResourceDataConsumer> dataConsumer; // @synthesize dataConsumer=_dataConsumer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dataConsumerQueue; // @synthesize dataConsumerQueue=_dataConsumerQueue;
 @property(retain, nonatomic) AMSURLSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) NSURLSessionDataTask *task; // @synthesize task=_task;
-@property(readonly, nonatomic) NSURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
 
 @end
 

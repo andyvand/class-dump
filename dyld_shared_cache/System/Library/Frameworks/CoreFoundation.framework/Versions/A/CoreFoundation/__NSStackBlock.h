@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (oneway void);
-- (id);
+- (id),	;
 - (id);
 
 @end

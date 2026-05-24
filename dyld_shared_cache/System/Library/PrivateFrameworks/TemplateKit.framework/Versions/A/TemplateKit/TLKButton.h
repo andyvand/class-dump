@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSImage, NSView, TLKImageView, TLKTapContainerButton;
+@class TLKTapContainerButton;
 
 @interface TLKButton
 {
     _Bool _toggled;
-    _Bool _indeterminate;
-    NSImage *_untoggledImage;
-    NSImage *_toggledImage;
-    NSImage *_overlayImage;
-    TLKTapContainerButton *_button;
-    CAShapeLayer *_outerProgressLayer;
-    CAShapeLayer *_innerProgressLayer;
-    double _progress;
-    TLKImageView *_imageView;
-    NSView *_backgroundView;
-    struct CGSize _fixedSize;
 }
 
 + (id);
-+ (id);
++ (id);
 + (CDStruct_afa449f9);
 - (void);
 - (void);
@@ -38,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (void);
@@ -60,37 +49,23 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (double);
+- (void)payloadAllowAirPlayIncomingRequests;
+- (id)UnableToPerform;
+- (void)ڭ;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
 @property(retain, nonatomic) TLKTapContainerButton *button; // @synthesize button=_button;
-@property(nonatomic) __weak NSView *containerView;
-@property(nonatomic) struct CGSize fixedSize; // @synthesize fixedSize=_fixedSize;
-@property(readonly) NSView *hitView;
-@property(readonly) NSImage *imageOnImageView;
-@property(retain, nonatomic) TLKImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic, getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
-@property(retain, nonatomic) CAShapeLayer *innerProgressLayer; // @synthesize innerProgressLayer=_innerProgressLayer;
-@property(retain, nonatomic) CAShapeLayer *outerProgressLayer; // @synthesize outerProgressLayer=_outerProgressLayer;
-@property(retain, nonatomic) NSImage *overlayImage; // @synthesize overlayImage=_overlayImage;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(nonatomic, getter=isToggled) _Bool toggled; // @synthesize toggled=_toggled;
-@property(retain, nonatomic) NSImage *toggledImage; // @synthesize toggledImage=_toggledImage;
-@property(retain, nonatomic) NSImage *untoggledImage; // @synthesize untoggledImage=_untoggledImage;
 
 @end
 

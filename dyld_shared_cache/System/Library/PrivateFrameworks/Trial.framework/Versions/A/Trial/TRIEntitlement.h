@@ -9,13 +9,13 @@
 }
 
 + (_Bool);
++ (id)allPasswordCredentialItemsInPersonalKeychain;
++ (id)ookmarksSync.SyncAgentDidFinishLaunching;
++ (_Bool)STConversation asynchronously for bundle identifier:(id)arg1 %{public}@;
 + (id);
 + (id);
-+ (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

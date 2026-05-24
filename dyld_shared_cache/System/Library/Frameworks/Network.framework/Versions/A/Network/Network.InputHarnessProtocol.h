@@ -7,13 +7,6 @@
 @interface Network.InputHarnessProtocol
 {
     id outputHandler;
-    id local;
-    id remote;
-    id parameters;
-    id path;
-    id completion;
-    id inputAvailableCompletion;
-    id logString;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksController;
 @protocol BookmarkFolderPickerMenuControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkFolderPickerMenuController
 {
     id <BookmarkFolderPickerMenuControllerDelegate> _delegate;
-    BookmarksController *_bookmarksController;
 }
 
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (id);
@@ -23,12 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)or:%@, retval:%d, operation:%d} /* Error: Ran out of types for this method. */;
 - (void);
 - (void)8;
 
 // Remaining properties
-@property(readonly, nonatomic) BookmarksController *bookmarksController; // @synthesize bookmarksController=_bookmarksController;
 @property(nonatomic) __weak id <BookmarkFolderPickerMenuControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRLayer, MRLayerEffect, NSString;
-@protocol MRSlidePositionSupport;
+@class MRLayer;
 
 @interface MRHitBlob
 {
     unsigned char _currentLayoutIndex;
-    MRLayer *_outerLayer;
-    MRLayerEffect *_effectLayer;
-    NSString *_innerPath;
-    NSString *_elementID;
-    id _clientObject;
-    id <MRSlidePositionSupport> _proxyForSlide;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@16@24@32@?40;
+- (void)";
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned char);
+- (id)`;
+- (_Bool)%lu telemetry event groups;
+- (id)newsEdgeAppConfig;
+- (unsigned char)CellularRadioAccessTechnology;
 - (struct CGSize);
 - (id);
 - (id);
@@ -38,16 +31,7 @@
 - (double)?ff?ff¿;
 
 // Remaining properties
-@property(readonly) double aspectRatio;
-@property(retain) id clientObject; // @synthesize clientObject=_clientObject;
-@property(nonatomic) unsigned char currentLayoutIndex; // @synthesize currentLayoutIndex=_currentLayoutIndex;
-@property(retain) MRLayerEffect *effectLayer; // @synthesize effectLayer=_effectLayer;
-@property(copy) NSString *elementID; // @synthesize elementID=_elementID;
-@property(copy) NSString *innerPath; // @synthesize innerPath=_innerPath;
-@property(readonly) struct CGSize innerResolution;
-@property(readonly) NSString *mediaType;
 @property(retain) MRLayer *outerLayer; // @synthesize outerLayer=_outerLayer;
-@property id <MRSlidePositionSupport> proxyForSlide; // @synthesize proxyForSlide=_proxyForSlide;
 
 @end
 

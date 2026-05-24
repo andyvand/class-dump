@@ -6,27 +6,22 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSDate;
 
 @interface _DKWakeRequestMonitor : _DKMonitor
 {
     _Bool _updateTimerResumed;
-    int _wakeRequestToken;
-    NSDate *_nextUserVisibleWakeRequestDate;
-    NSString *_nextUserVisibleWakeRequestor;
-    NSObject<OS_dispatch_source> *_updateTimer;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)bugTreeNode",R,W,V_parent;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (int);
 - (void);
 - (id);
@@ -40,9 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *nextUserVisibleWakeRequestDate; // @synthesize nextUserVisibleWakeRequestDate=_nextUserVisibleWakeRequestDate;
-@property(retain, nonatomic) NSString *nextUserVisibleWakeRequestor; // @synthesize nextUserVisibleWakeRequestor=_nextUserVisibleWakeRequestor;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *updateTimer; // @synthesize updateTimer=_updateTimer;
-@property(nonatomic) int wakeRequestToken; // @synthesize wakeRequestToken=_wakeRequestToken;
 
 @end
 

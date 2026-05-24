@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSServiceManager, NSArray, NSDate, NSObject, NSSet;
-@protocol OS_os_log;
+@class NSArray;
 
 @interface PGSuggestionNotificationProfile
 {
     NSArray *_existingSuggestions;
-    CLSServiceManager *_serviceManager;
-    _Bool _eligibleForNotification;
-    unsigned char _userType;
-    NSSet *_shareParticipantContactIdentifiers;
-    NSDate *_dateOfLastNotification;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 + (double);
-+ (unsigned char);
++ (unsigned char);
 - (_Bool);
 - (id);
 - (unsigned char);
 - (unsigned char);
-- (id);
-- (_Bool);
-- (id);
+- (id)entTapProxy=}36;
+- (_Bool)_handleInfoChangedContentIncreased:previousElementInfo: /* Error: Ran out of types for this method. */;
+- (id)__keyboardFocusedApplicationController;
 - (void);
 - (void);
 - (void)m5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Graph/People Inferences/Relationship/Relationship Analyzers/PGRelationshipNightOutAnalyzer.m;
-- (id)entNodeCG;
+- (id)SaySo17PGGraphMomentNodeCG;
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateOfLastNotification;
 @property(readonly, nonatomic) _Bool eligibleForNotification;
-@property(nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) unsigned char userType;
 
 @end
 

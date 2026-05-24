@@ -6,17 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface RedEyeChannel : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputChannel;
-    NSNumber *inputParam1;
-    NSNumber *inputParam2;
-    NSNumber *inputParam3;
-    NSNumber *inputParam4;
 }
 
 - (id);

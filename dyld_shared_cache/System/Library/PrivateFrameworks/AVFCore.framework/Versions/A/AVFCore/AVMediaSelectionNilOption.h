@@ -6,26 +6,21 @@
 
 #import <AVFCore/AVMediaSelectionOption.h>
 
-@class AVWeakReference, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface AVMediaSelectionNilOption : AVMediaSelectionOption
 {
     id _groupID;
-    id _groupMediaType;
-    NSDictionary *_dictionary;
-    AVWeakReference *_weakReferenceToGroup;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)!8;
+- (id)#;
 - (id);
 - (_Bool);
-- (id);
+- (id):%@ /* Error: Ran out of types for this method. */;
 - (_Bool)e;
 
 @end

@@ -6,18 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class CKQuery, CKQueryCursor, CKRecordZoneID, NSArray, NSDictionary;
+@class CKQuery;
 
 @interface CKQueryOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _shouldFetchAssetContent;
-    _Bool _fetchAllResults;
-    CKQuery *_query;
-    CKRecordZoneID *_zoneID;
-    CKQueryCursor *_cursor;
-    unsigned long long _resultsLimit;
-    NSArray *_desiredKeys;
-    NSDictionary *_assetTransferOptionsByKey;
 }
 
 + (_Bool);
@@ -25,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)Z;
 - (id);
 - (id);
 - (id);
@@ -35,14 +28,7 @@
 - (unsigned long long)nd chunk with signature %s in local cache;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByKey; // @synthesize assetTransferOptionsByKey=_assetTransferOptionsByKey;
-@property(retain, nonatomic) CKQueryCursor *cursor; // @synthesize cursor=_cursor;
-@property(retain, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(nonatomic) _Bool fetchAllResults; // @synthesize fetchAllResults=_fetchAllResults;
 @property(retain, nonatomic) CKQuery *query; // @synthesize query=_query;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

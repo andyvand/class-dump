@@ -6,43 +6,25 @@
 
 #import <CMCapture/FigCaptureSinkPipeline.h>
 
-@class BWCompressedShotBufferNode, BWDepthConverterNode, BWFigVideoCaptureDevice, BWPortraitHDRStagingNode, BWSISNode, BWStillImageBravoDisparityNode, BWStillImageCoordinatorNode, BWStillImageSampleBufferSinkNode, NSArray, NSString;
+@class BWFigVideoCaptureDevice, NSArray;
 
 @interface FigCaptureStillImageSinkPipeline : FigCaptureSinkPipeline
 {
     BWFigVideoCaptureDevice *_captureDevice;
-    BWStillImageCoordinatorNode *_stillImageCoordinatorNode;
-    BWStillImageSampleBufferSinkNode *_stillImageSinkNode;
-    BWStillImageBravoDisparityNode *_stillImageDisparityNode;
-    BWDepthConverterNode *_stillImageDepthConverterNode;
-    BWPortraitHDRStagingNode *_portraitHDRStagingNode;
-    BWSISNode *_legacySISNode;
 }
 
 + (id);
-+ (void)Matrix;
-- (void);
++ (void)DeviceRGBToXYZMatrix;
+- (void)eletedTable;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)contactMatchesWithContact:limitTo:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)mporter:document observation received:%s /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) BWCompressedShotBufferNode *compressedShotBufferNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *nodes;
-@property(readonly, nonatomic) BWPortraitHDRStagingNode *portraitHDRStagingNode;
-@property(readonly, nonatomic) NSString *sinkID;
-@property(readonly, nonatomic) BWStillImageCoordinatorNode *stillImageCoordinatorNode;
-@property(readonly, nonatomic) BWStillImageSampleBufferSinkNode *stillImageSinkNode;
-@property(readonly) Class superclass;
 
 @end
 

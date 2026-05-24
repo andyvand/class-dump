@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDecimalNumber, NSSet, NSString;
-
 @interface PKPeerPaymentQuoteItem
 {
     _Bool _preservesCurrentBalance;
-    unsigned long long _type;
-    NSDecimalNumber *_exchangeRate;
-    NSDecimalNumber *_sendAmount;
-    NSString *_sendAmountCurrency;
-    NSDecimalNumber *_receiveAmount;
-    NSString *_receiveAmountCurrency;
-    NSDecimalNumber *_totalAmount;
-    NSString *_totalAmountCurrency;
-    NSDecimalNumber *_fees;
-    NSString *_feesCurrency;
-    NSString *_dpanIdentifier;
-    NSString *_countryCode;
-    NSSet *_supportedFundingSourceCountryCodes;
-    NSArray *_supportedNetworks;
-    NSString *_merchantIdentifier;
-    unsigned long long _merchantCapabilities;
-    NSData *_nonce;
 }
 
 + (id);
@@ -39,9 +20,9 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (id)_};
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,31 +30,14 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ewayBE"b1"rttGatewayBK"b1"rttGatewayVI"b1"rttGatewayVO"b1"rttPrimaryDnsBE"b1"rttPrimaryDnsBK"b1"rttPrimaryDnsVI"b1"rttPrimaryDnsVO"b1};
+- (void)Count;
 - (id)utoFillCardCredential"@"NSError">48;
 - (id)talAddress:(id)arg1;
 - (void)@"<PKPaymentValidating>"8;
 - (id)ce;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(readonly, copy, nonatomic) NSDecimalNumber *exchangeRate; // @synthesize exchangeRate=_exchangeRate;
-@property(readonly, copy, nonatomic) NSDecimalNumber *fees; // @synthesize fees=_fees;
-@property(readonly, copy, nonatomic) NSString *feesCurrency; // @synthesize feesCurrency=_feesCurrency;
-@property(readonly, nonatomic) unsigned long long merchantCapabilities; // @synthesize merchantCapabilities=_merchantCapabilities;
-@property(readonly, copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(readonly, copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(readonly, nonatomic) _Bool preservesCurrentBalance; // @synthesize preservesCurrentBalance=_preservesCurrentBalance;
-@property(readonly, copy, nonatomic) NSDecimalNumber *receiveAmount; // @synthesize receiveAmount=_receiveAmount;
-@property(readonly, copy, nonatomic) NSString *receiveAmountCurrency; // @synthesize receiveAmountCurrency=_receiveAmountCurrency;
-@property(readonly, copy, nonatomic) NSDecimalNumber *sendAmount; // @synthesize sendAmount=_sendAmount;
-@property(readonly, copy, nonatomic) NSString *sendAmountCurrency; // @synthesize sendAmountCurrency=_sendAmountCurrency;
-@property(readonly, copy, nonatomic) NSSet *supportedFundingSourceCountryCodes; // @synthesize supportedFundingSourceCountryCodes=_supportedFundingSourceCountryCodes;
-@property(readonly, copy, nonatomic) NSArray *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;
-@property(readonly, copy, nonatomic) NSDecimalNumber *totalAmount; // @synthesize totalAmount=_totalAmount;
-@property(readonly, copy, nonatomic) NSString *totalAmountCurrency; // @synthesize totalAmountCurrency=_totalAmountCurrency;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

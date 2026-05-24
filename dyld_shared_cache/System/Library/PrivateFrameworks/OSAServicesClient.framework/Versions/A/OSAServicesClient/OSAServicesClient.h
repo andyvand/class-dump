@@ -5,12 +5,10 @@
 //
 
 @class NSXPCConnection;
-@protocol OTAAgentServices;
 
 @interface OSAServicesClient
 {
     NSXPCConnection *_connection;
-    id <OTAAgentServices> _synchRemoteObjectProxy;
 }
 
 + (id);

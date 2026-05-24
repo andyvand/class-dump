@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)groundColor;
-- (_Bool);
+- (_Bool)#;
 
 @end
 

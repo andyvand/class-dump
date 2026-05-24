@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSURL;
-@protocol TMMachineStoreInfo;
+@class NSString;
 
 @protocol TMVolumeStoreInfo
+- (NSString *)nSpringboardAlert(void);
 
 // Remaining properties
-@property(readonly) NSDate *dateBackupCompleted;
-@property(readonly, copy) NSString *fstype;
-@property(readonly) _Bool isCaseSensitive;
-@property(readonly) id <TMMachineStoreInfo> machineStoreInfo;
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSURL *url;
-@property(readonly, copy) NSString *volumeGroupUUID;
-@property(readonly, copy) NSNumber *volumeRole;
-@property(readonly, copy) NSString *volumeUUID;
 @end
 

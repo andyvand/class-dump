@@ -9,7 +9,6 @@
 @interface NSRelativeSpecifier : NSScriptObjectSpecifier
 {
     unsigned long long _relativePosition;
-    NSScriptObjectSpecifier *_baseSpecifier;
 }
 
 - (void);
@@ -27,7 +26,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain) NSScriptObjectSpecifier *baseSpecifier;
 @property unsigned long long relativePosition;
 
 @end

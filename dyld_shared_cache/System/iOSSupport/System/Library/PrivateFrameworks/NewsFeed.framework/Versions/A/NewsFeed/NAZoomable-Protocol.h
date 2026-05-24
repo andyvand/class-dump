@@ -5,5 +5,7 @@
 //
 
 @protocol NAZoomable
+- (_Bool);
+- (_Bool)P;
 @end
 

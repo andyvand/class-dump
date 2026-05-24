@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKOROccurrenceState;
-
 @interface CUIKORContentImageRequest
 {
     long long _requestId;
-    unsigned long long _options;
-    CUIKOROccurrenceState *_state;
-    CDUnknownBlockType _resultHandler;
 }
 
-- (id)=;
+- (id);
 - (unsigned long long);
 - (id);
 - (CDUnknownBlockType)0@ù
@@ -23,10 +18,7 @@
 - (long long)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) long long requestId; // @synthesize requestId=_requestId;
-@property(readonly, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(readonly, nonatomic) CUIKOROccurrenceState *state; // @synthesize state=_state;
 
 @end
 

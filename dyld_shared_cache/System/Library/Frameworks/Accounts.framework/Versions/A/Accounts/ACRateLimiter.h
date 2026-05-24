@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ACRateLimiter
 {
     _Bool _isVacuumInProgress;
-    unsigned long long _maximum;
-    double _timeInterval;
-    NSObject<OS_dispatch_queue> *_instanceQueue;
-    NSObject<OS_dispatch_queue> *_vacuumQueue;
-    NSMutableDictionary *_keyToSimpleRateLimiter;
-    double _vacuumTimeInterval;
-    NSDate *_nextVacuumDate;
 }
 
-- (double);
+- (double);
 - (id);
 - (void);
 - (id);
@@ -40,13 +33,6 @@
 
 // Remaining properties
 @property(readonly) NSObject<OS_dispatch_queue> *instanceQueue; // @synthesize instanceQueue=_instanceQueue;
-@property _Bool isVacuumInProgress; // @synthesize isVacuumInProgress=_isVacuumInProgress;
-@property(retain) NSMutableDictionary *keyToSimpleRateLimiter; // @synthesize keyToSimpleRateLimiter=_keyToSimpleRateLimiter;
-@property(readonly) unsigned long long maximum; // @synthesize maximum=_maximum;
-@property(retain) NSDate *nextVacuumDate; // @synthesize nextVacuumDate=_nextVacuumDate;
-@property(readonly) double timeInterval; // @synthesize timeInterval=_timeInterval;
-@property(readonly) NSObject<OS_dispatch_queue> *vacuumQueue; // @synthesize vacuumQueue=_vacuumQueue;
-@property(readonly) double vacuumTimeInterval; // @synthesize vacuumTimeInterval=_vacuumTimeInterval;
 
 @end
 

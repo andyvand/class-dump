@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GLKMesh, GLKMeshBuffer, NSString;
-
 @interface GLKSubmesh
 {
     unsigned int _type;
-    unsigned int _mode;
-    int _elementCount;
-    GLKMeshBuffer *_elementBuffer;
-    GLKMesh *_mesh;
-    NSString *_name;
 }
 
 - (id);
 - (id);
 - (int);
 - (unsigned int);
-- (id);
+- (id),V_modelNonMaximumSuppressionThreshold;
 - (id);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GLKMeshBuffer *elementBuffer; // @synthesize elementBuffer=_elementBuffer;
-@property(readonly, nonatomic) int elementCount; // @synthesize elementCount=_elementCount;
-@property(readonly, nonatomic) __weak GLKMesh *mesh; // @synthesize mesh=_mesh;
-@property(readonly, nonatomic) unsigned int mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

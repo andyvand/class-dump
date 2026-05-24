@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface MPButton
 {
     unsigned int _holding:1;
-    UIView *_hitTestDebugView;
-    _Bool _hitTestDebugEnabled;
-    double _holdDelayInterval;
-    struct UIEdgeInsets _alignmentRectInsets;
-    struct UIEdgeInsets _hitRectInsets;
 }
 
 + (struct UIEdgeInsets);
@@ -26,16 +19,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)keyPathForAppDataDictionary;
+- (void)z;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (void)0@ù
 × ;
 - (void)bindBoolValue:toParameterNamed: /* Error: Ran out of types for this method. */;
@@ -45,10 +38,6 @@
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(nonatomic) struct UIEdgeInsets hitRectInsets; // @synthesize hitRectInsets=_hitRectInsets;
-@property(nonatomic) _Bool hitTestDebugEnabled; // @synthesize hitTestDebugEnabled=_hitTestDebugEnabled;
-@property(nonatomic) double holdDelayInterval; // @synthesize holdDelayInterval=_holdDelayInterval;
-@property(readonly, nonatomic, getter=isHolding) _Bool holding;
 
 @end
 

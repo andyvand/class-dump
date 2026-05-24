@@ -8,8 +8,8 @@
 - (void)Á;
 - (void)
 × ;
-- (void):(double)arg1 type:(void (^)(void))arg2;
-- (void)ssDuration;
+- (void)dataForItemIndex:(double)arg1 type:(void (^)(void))arg2;
+- (void)_showMenuPressDuration;
 - (void)´	;
 @end
 

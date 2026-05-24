@@ -7,19 +7,16 @@
 @interface PXGRenderFrame
 {
     struct __CVBuffer *_pixelBuffer;
-    long long _frameID;
 }
 
 - (id);
 - (long long);
 - (void);
 - (struct CGSize);
-- (struct __CVBuffer *)Keys;
+- (struct __CVBuffer *)CodingKeys;
 
 // Remaining properties
 @property(readonly, nonatomic) long long frameID; // @synthesize frameID=_frameID;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

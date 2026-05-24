@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPassAuxiliaryCapabilityKeyCreationMetadata, PKPassAuxiliaryRegistrationRequirement;
+@class PKPassAuxiliaryRegistrationRequirement;
 
 @interface PKAuxiliaryCapabilityKeyCreationMetadataResponseEntry
 {
     PKPassAuxiliaryRegistrationRequirement *_capability;
-    PKPassAuxiliaryCapabilityKeyCreationMetadata *_metadata;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PKPassAuxiliaryRegistrationRequirement *capability; // @synthesize capability=_capability;
-@property(readonly, nonatomic) PKPassAuxiliaryCapabilityKeyCreationMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

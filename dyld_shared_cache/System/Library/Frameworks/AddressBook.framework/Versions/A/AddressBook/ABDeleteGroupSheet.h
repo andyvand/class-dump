@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow;
+@class NSWindow;
 
 @interface ABDeleteGroupSheet
 {
     NSWindow *_window;
-    NSString *_groupName;
-    int _containmentPersonality;
-    unsigned long long _memberCount;
 }
 
 - (void);
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)X;
 - (void);
 - (id);
 - (unsigned long long);
@@ -27,9 +24,6 @@
 - (void)ÿ;
 
 // Remaining properties
-@property int containmentPersonality; // @synthesize containmentPersonality=_containmentPersonality;
-@property(copy) NSString *groupName; // @synthesize groupName=_groupName;
-@property unsigned long long memberCount; // @synthesize memberCount=_memberCount;
 @property(retain) NSWindow *window; // @synthesize window=_window;
 
 @end

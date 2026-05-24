@@ -13,9 +13,9 @@
     PLDateRangeTitleGenerator *_dateRangeTitleGenerator;
 }
 
-- (id);
-- (void);
-- (double);
+- (id)screenRightOfScreen:(id)arg1 closestToPoint:(unsigned short)arg2;
+- (void)currentTokenRange;
+- (double)dUV$VZ;
 - (id);
 - (id);
 - (_Bool);

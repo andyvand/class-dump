@@ -12,9 +12,9 @@
     NSObject<OS_dispatch_queue> *_myriadEmergencyCallingQueue;
 }
 
-- (void);
+- (void)[b7;
 - (id);
-- (void)tInStatus;
+- (void)_newOptInStatus;
 
 @end
 

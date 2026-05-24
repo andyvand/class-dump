@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAIntentGroupProtobufMessage *intent;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *intentResponse;
 
 @end
 

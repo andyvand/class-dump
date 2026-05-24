@@ -6,30 +6,22 @@
 
 #import <HomeKitDaemon/HMDBackgroundOperation.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAuditHH2KeysForBackupOperation : HMDBackgroundOperation
 {
 }
 
 + (_Bool);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (id)òÐÿgD;
 - (_Bool);
-- (long long);
+- (long long)portraitEffectSchema;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,8 +14,8 @@
 }
 
 + (id);
-+ (unsigned short);
-- (id);
++ (unsigned short)n;
+- (id)AMSMediaRestrictionsSetupProfileLockTask;
 - (void);
 
 @end

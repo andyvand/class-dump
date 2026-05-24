@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
-
 @interface IMEventListenerResponse
 {
     _Bool _success;
-    NSDictionary *_userInfo;
-    NSError *_error;
 }
 
 - (id);
@@ -24,16 +20,7 @@
 - (void)d _sharePersonalAvailabilityWithSKHandle. canShare:(_Bool)arg1 %ld, didShare:%ld, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=didSucceed) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

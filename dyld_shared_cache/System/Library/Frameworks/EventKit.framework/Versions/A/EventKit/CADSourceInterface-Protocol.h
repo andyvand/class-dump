@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDate;
+
 @protocol CADSourceInterface
+- (void)PlayingController] %@ NotifyInvalidated %@;
+- (void)@;
+- (void)ontroller] %@ NotifyLoadResponse %@ %@;
+- (void)evice] ParentGroupID mismatch on <%@:(NSDate *)arg1 %@> :(int)arg2 <%@> -> <%@>;
+- (void)ng due to ASE change.;
+- (void)oller] <%@> Begin resolving player path for endpoint %@.;
+- (void)<%@> Deallocating.;
+- (void)ract connection;
+- (void){public}@;
+- (void)%{public}@...;
+- (void)er with includesPeerToPeer = %@;
+- (void)PairingSession(MRExternalDevicePairingSession)] Legacy pairing success.;
+- (void)text] NotifyChanges took %lf seconds;
 @end
 

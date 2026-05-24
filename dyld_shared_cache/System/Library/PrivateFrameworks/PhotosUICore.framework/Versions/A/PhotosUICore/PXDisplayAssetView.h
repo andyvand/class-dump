@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString, PUPhotosAssetDebugOverlayView, PXDisplayAssetCombinedOverlayView, PXDisplayAssetContentView, PXDisplayAssetViewModel, PXImageRequester, PXRegionOfInterest, PXUIMediaProvider, PXUpdater;
-@protocol PXDisplayAsset;
-
 @interface PXDisplayAssetView
 {
     _Bool _isPerformingLayout;
-    _Bool _allowsTextSelection;
-    id <PXDisplayAsset> _asset;
-    PXUIMediaProvider *_mediaProvider;
-    long long _preferredImageDynamicRange;
-    NSArray *_stringsToHighlight;
-    NSArray *_sceneIdentifiersToHighlight;
-    NSArray *_audioIdentifiersToHighlight;
-    NSArray *_humanActionIdentifiersToHighlight;
-    NSArray *_personLocalIdentifiersToHighlight;
-    unsigned long long _options;
-    PXUpdater *_updater;
-    PXDisplayAssetViewModel *_viewModel;
-    PXDisplayAssetCombinedOverlayView *_overlayView;
-    PXDisplayAssetContentView *_contentView;
-    PUPhotosAssetDebugOverlayView *_debugOverlayView;
-    struct CGSize _viewportSize;
 }
 
 + (void);
@@ -36,7 +17,7 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)9;
 - (long long);
 - (_Bool);
 - (id);
@@ -73,21 +54,21 @@
 - (struct CGRect);
 - (void);
 - (long long);
-- (id);
+- (id).;
 - (void);
 - (struct CGSize);
 - (void);
+- (void)ng;
+- (id)5R;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)Center;
 - (id);
 - (void);
 - (id)r_"^^v"__deleter_"{__bucket_list_deallocator<std:(struct CGRect)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<PXTileIdentifier, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)n;
+- (void)_updateShouldAutoHideMuteToggleButton;
 - (void)BundleIdentifier in %@;
 - (id)ult cachedCountOfAssetsWithMediaType:] /* Error: Ran out of types for this method. */;
 - (void);
@@ -98,35 +79,7 @@
 - (void)Ðp?;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsTextSelection; // @synthesize allowsTextSelection=_allowsTextSelection;
-@property(retain, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(copy, nonatomic) NSArray *audioIdentifiersToHighlight; // @synthesize audioIdentifiersToHighlight=_audioIdentifiersToHighlight;
-@property(readonly, nonatomic) PXRegionOfInterest *contentRegionOfInterest;
-@property(retain, nonatomic) PXDisplayAssetContentView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) NSImage *currentImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) PUPhotosAssetDebugOverlayView *debugOverlayView; // @synthesize debugOverlayView=_debugOverlayView;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *humanActionIdentifiersToHighlight; // @synthesize humanActionIdentifiersToHighlight=_humanActionIdentifiersToHighlight;
-@property(readonly, nonatomic) struct CGRect imageFrame;
-@property(readonly, nonatomic) PXImageRequester *imageRequester;
-@property(retain, nonatomic) PXUIMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) PXDisplayAssetCombinedOverlayView *overlayView; // @synthesize overlayView=_overlayView;
-@property(copy, nonatomic) NSArray *personLocalIdentifiersToHighlight; // @synthesize personLocalIdentifiersToHighlight=_personLocalIdentifiersToHighlight;
-@property(nonatomic) long long preferredImageDynamicRange; // @synthesize preferredImageDynamicRange=_preferredImageDynamicRange;
-@property(copy, nonatomic) NSArray *sceneIdentifiersToHighlight; // @synthesize sceneIdentifiersToHighlight=_sceneIdentifiersToHighlight;
-@property(nonatomic) struct CGRect stillImageContentsRect;
-@property(copy, nonatomic) NSArray *stringsToHighlight; // @synthesize stringsToHighlight=_stringsToHighlight;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXDisplayAssetContentView *underlyingContentView;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) PXDisplayAssetViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(nonatomic) struct CGSize viewportSize; // @synthesize viewportSize=_viewportSize;
 
 @end
 

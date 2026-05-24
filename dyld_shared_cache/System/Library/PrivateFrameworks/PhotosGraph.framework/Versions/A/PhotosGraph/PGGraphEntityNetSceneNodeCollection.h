@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)AXATextAlignmentValue;
 + (Class);
 - (void);
 - (void);

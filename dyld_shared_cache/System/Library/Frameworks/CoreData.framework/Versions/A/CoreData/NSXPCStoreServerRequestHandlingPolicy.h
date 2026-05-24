@@ -10,7 +10,7 @@
 
 + (void);
 - (id);
-- (_Bool);
+- (_Bool)j;
 - (_Bool);
 - (id);
 - (id);

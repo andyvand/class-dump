@@ -6,8 +6,6 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCVideoControlsCommand : _MPCPlayerCommand
 {
@@ -21,13 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

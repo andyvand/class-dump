@@ -5,6 +5,6 @@
 //
 
 @protocol _UIScrollViewScrollObserver
-- (void)ew;
+- (void)_presentationContainerEffectView;
 @end
 

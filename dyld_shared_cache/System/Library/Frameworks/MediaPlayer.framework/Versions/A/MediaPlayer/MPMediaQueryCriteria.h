@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface MPMediaQueryCriteria
 {
     NSMutableSet *_filterPredicates;
-    unsigned long long _entityOrder;
-    long long _groupingType;
-    unsigned long long _entityLimit;
-    NSArray *_orderingProperties;
-    NSSet *_itemPropertiesToFetch;
-    NSSet *_collectionPropertiesToFetch;
-    _Bool _useSections;
-    _Bool _ignoreSystemFilterPredicates;
-    _Bool _ignoreRestrictionsPredicates;
-    _Bool _includeNonLibraryEntities;
-    _Bool _includeEntitiesWithBlankNames;
-    NSDictionary *_orderingDirectionMappings;
 }
 
 - (_Bool);
@@ -52,30 +40,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)_;
+- (_Bool)nitionBlock;
 - (id);
 - (_Bool);
 - (void)
 × ;
-- (void)rAVPlayerItem: /* Error: Ran out of types for this method. */;
+- (void)_addObservationsForAVPlayerItem: /* Error: Ran out of types for this method. */;
 - (void)dler completion deallocated without being called. event=%@;
 - (_Bool)ePrivate homeManagerDidUpdateHomes:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *collectionPropertiesToFetch; // @synthesize collectionPropertiesToFetch=_collectionPropertiesToFetch;
-@property(nonatomic) unsigned long long entityLimit; // @synthesize entityLimit=_entityLimit;
-@property(nonatomic) unsigned long long entityOrder; // @synthesize entityOrder=_entityOrder;
-@property(readonly, nonatomic) _Bool excludesEntitiesWithBlankNames;
-@property(copy, nonatomic) NSSet *filterPredicates; // @synthesize filterPredicates=_filterPredicates;
-@property(nonatomic) long long groupingType; // @synthesize groupingType=_groupingType;
-@property(nonatomic) _Bool ignoreRestrictionsPredicates; // @synthesize ignoreRestrictionsPredicates=_ignoreRestrictionsPredicates;
-@property(nonatomic) _Bool ignoreSystemFilterPredicates; // @synthesize ignoreSystemFilterPredicates=_ignoreSystemFilterPredicates;
-@property(nonatomic) _Bool includeEntitiesWithBlankNames; // @synthesize includeEntitiesWithBlankNames=_includeEntitiesWithBlankNames;
-@property(nonatomic) _Bool includeNonLibraryEntities; // @synthesize includeNonLibraryEntities=_includeNonLibraryEntities;
-@property(copy, nonatomic) NSSet *itemPropertiesToFetch; // @synthesize itemPropertiesToFetch=_itemPropertiesToFetch;
-@property(copy, nonatomic) NSDictionary *orderingDirectionMappings; // @synthesize orderingDirectionMappings=_orderingDirectionMappings;
-@property(copy, nonatomic) NSArray *orderingProperties; // @synthesize orderingProperties=_orderingProperties;
 @property(readonly, nonatomic) _Bool specifiesPlaylistItems;
 
 @end

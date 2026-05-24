@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAState, CAStateControllerUndo, NSMutableArray, NSTimer;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface CAStateControllerLayer
 {
     CALayer *_layer;
-    CAState *_currentState;
-    CAStateControllerUndo *_undoStack;
-    NSMutableArray *_transitions;
-    NSTimer *_nextTimer;
-    CAState *_nextState;
-    float _nextSpeed;
 }
 
 - (void);
@@ -24,14 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)destination-out;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CAState *currentState; // @synthesize currentState=_currentState;
 @property(readonly) CALayer *layer; // @synthesize layer=_layer;
-@property(readonly) CAStateControllerUndo *undoStack; // @synthesize undoStack=_undoStack;
 
 @end
 

@@ -9,22 +9,19 @@
 @interface NTPBPaywallDescription
 {
     NSString *_channelPaywall;
-    NSString *_hardPaywall;
-    NSString *_leakyPaywall;
-    NSString *_promotionalPaywall;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)31;
+- (_Bool),N,V_effectView;
+- (_Bool)identify Unverified Name:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (id);
@@ -37,14 +34,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelPaywall; // @synthesize channelPaywall=_channelPaywall;
-@property(retain, nonatomic) NSString *hardPaywall; // @synthesize hardPaywall=_hardPaywall;
 @property(readonly, nonatomic) _Bool hasChannelPaywall;
-@property(readonly, nonatomic) _Bool hasHardPaywall;
-@property(readonly, nonatomic) _Bool hasLeakyPaywall;
-@property(readonly, nonatomic) _Bool hasPromotionalPaywall;
-@property(retain, nonatomic) NSString *leakyPaywall; // @synthesize leakyPaywall=_leakyPaywall;
-@property(retain, nonatomic) NSString *promotionalPaywall; // @synthesize promotionalPaywall=_promotionalPaywall;
 
 @end
 

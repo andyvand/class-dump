@@ -5,11 +5,14 @@
 //
 
 @protocol AVAudioIOController
+- (_Bool)oviderProtocol",C,V_protocol;
+- (struct AudioPresentationTimeStamp)createTCPConnectionToEndpoint:enableTLS:TLSParameters:delegate: /* Error: Ran out of types for this method. */;
+- (struct AVAudioTimeInterval);
+- (void)_additionalAddressesUpdateBlock;
+- (long long)tch;
+- (struct AVAudioIOPeriod)NEFilterControlExtensionProviderProtocol;
 
 // Remaining properties
 @property(readonly, nonatomic) struct AVAudioIOPeriod IOPeriod;
-@property(readonly, nonatomic) struct AVAudioTimeInterval dynamicLatency;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly, nonatomic) _Bool supportsDynamicLatency;
 @end
 

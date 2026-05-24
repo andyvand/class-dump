@@ -6,65 +6,48 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, QDSchemaQDSubComponentEnded, QDSchemaQDSubComponentFailed, QDSchemaQDSubComponentStarted, SISchemaUUID;
+@class QDSchemaQDSubComponentStarted;
 
 @interface QDSchemaQDSubComponentContext : SISchemaInstrumentationMessage
 {
     QDSchemaQDSubComponentStarted *_startedOrChanged;
-    QDSchemaQDSubComponentEnded *_ended;
-    QDSchemaQDSubComponentFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
+- (_Bool)!;
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)TSPSaveMeasurements;
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ons_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)FROM chat_message_join cmj_inner        INNER JOIN message m ON m.ROWID = cmj_inner.message_id        WHERE cmj_inner.chat_id = chat.rowid            AND m.is_finished = 1 AND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid HAVING    chat_message_join.message_date < ? ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (id);
 - (id);
-- (id)Remote;
+- (id)_usageScoreRadioRemote;
 - (id)d;
-- (void)NOWN;
+- (void)GATUSECASE_UNKNOWN;
 - (id)ÕÿM²üS#;
 
 // Remaining properties
-@property(retain, nonatomic) QDSchemaQDSubComponentEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) QDSchemaQDSubComponentFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) QDSchemaQDSubComponentStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

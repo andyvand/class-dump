@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNTask, NSString;
+@class NSString;
 
 @interface ABLoadRemoteImagesOperation
 {
     NSString *_contactIdentifier;
-    CNTask *_task;
-    CDUnknownBlockType _callbackBlock;
-    long long _tag;
-    _Bool _debuggingWhereImagesCameFrom;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (void);
+- (long long)ring"16@"NSDictionary"24@?<v@?i>32;
+- (void)ientID:event handler fired peerPID=%d %@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

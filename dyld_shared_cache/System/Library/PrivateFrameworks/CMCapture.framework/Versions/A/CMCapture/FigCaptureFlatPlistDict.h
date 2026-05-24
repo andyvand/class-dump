@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureFlatPlistDict
 {
     FigCaptureFlatPlist *_flatPlist;
-    const CDStruct_e993e376 *_bplist;
-    unsigned long long _offset;
-    unsigned long long _count;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)Cancelled,S_setCancelled:,V_cancelled /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (unsigned long long)ÿt®ÿÿx«ÿ;
 

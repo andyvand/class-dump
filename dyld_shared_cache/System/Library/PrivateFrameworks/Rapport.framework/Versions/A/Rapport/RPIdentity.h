@@ -4,46 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSString, NSUUID;
+@class NSDate;
 
 @interface RPIdentity
 {
     _Bool _userAdded;
-    _Bool _disabled;
-    _Bool _present;
-    int _type;
-    int _source;
-    unsigned int _revisionID;
-    NSArray *_accessGroups;
-    NSString *_accountAltDSID;
-    NSString *_accountID;
-    NSDictionary *_acl;
-    NSString *_contactID;
-    NSDate *_dateAdded;
-    NSDate *_dateExpires;
-    NSDate *_dateRemoved;
-    NSData *_deviceIRKData;
-    NSData *_edPKData;
-    NSData *_edSKData;
-    unsigned long long _featureFlags;
-    NSUUID *_homeKitUserIdentifier;
-    NSString *_identifier;
-    NSString *_idsDeviceID;
-    NSString *_mediaRemoteID;
-    NSString *_mediaRouteID;
-    NSString *_model;
-    NSString *_name;
-    NSString *_sendersKnownAlias;
-    struct __SecKey *_sepPrivateKey;
-    NSArray *_allUsedSendersKnownAliases;
-    NSData *_btIRKData;
-    NSData *_btAddress;
-    NSDate *_dateAcknowledged;
-    NSDate *_dateRequested;
-    unsigned long long _disabledUntilTicks;
 }
 
-+ (_Bool);
++ (_Bool)9;
 + (id);
 + (_Bool);
 - (void);
@@ -53,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -61,14 +29,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)_CDContextMetadataTransitionDateKey;
 - (void);
 - (id);
-- (void);
+- (void)convertStringsToQuasarTokens:(id)arg1 offset: /* Error: Ran out of types for this method. */;
+- (id)mpl::Open(),  /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)_5 o_5_N r\;
+- (id)elevantTextContext *__strong, std::shared_ptr<quasar::corrective_reranking::Parser>, const FormattingInfo &, BOOL, BOOL, const vector<double> &, const std::vector<entity_retrieval::PersonalEntityMention> &, NSUInteger, int64_t, int64_t) /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (void);
@@ -77,7 +45,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -90,8 +58,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -106,14 +74,14 @@
 - (int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (struct __SecKey *);
 - (unsigned int);
-- (_Bool);
+- (_Bool)1;
 - (void);
 - (id);
 - (id);
@@ -129,45 +97,13 @@
 - (void);
 - (id)BùÑZ)1Â0@ù
 × ;
-- (_Bool)Endpoint: /* Error: Ran out of types for this method. */;
+- (_Bool)updateWithFamilyEndpoint: /* Error: Ran out of types for this method. */;
 - (void)initWithDispatchQueue:(unsigned long long)arg1;
 - (_Bool)tream Server, CT %lu;
 - (void)om.apple.rapport.NearbyInvitation;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accessGroups; // @synthesize accessGroups=_accessGroups;
-@property(copy, nonatomic) NSString *accountAltDSID; // @synthesize accountAltDSID=_accountAltDSID;
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(copy, nonatomic) NSDictionary *acl; // @synthesize acl=_acl;
-@property(copy, nonatomic) NSArray *allUsedSendersKnownAliases; // @synthesize allUsedSendersKnownAliases=_allUsedSendersKnownAliases;
-@property(copy, nonatomic) NSData *btAddress; // @synthesize btAddress=_btAddress;
-@property(copy, nonatomic) NSData *btIRKData; // @synthesize btIRKData=_btIRKData;
-@property(copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
 @property(copy, nonatomic) NSDate *dateAcknowledged; // @synthesize dateAcknowledged=_dateAcknowledged;
-@property(copy, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(copy, nonatomic) NSDate *dateExpires; // @synthesize dateExpires=_dateExpires;
-@property(copy, nonatomic) NSDate *dateRemoved; // @synthesize dateRemoved=_dateRemoved;
-@property(copy, nonatomic) NSDate *dateRequested; // @synthesize dateRequested=_dateRequested;
-@property(copy, nonatomic) NSData *deviceIRKData; // @synthesize deviceIRKData=_deviceIRKData;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(nonatomic) unsigned long long disabledUntilTicks; // @synthesize disabledUntilTicks=_disabledUntilTicks;
-@property(copy, nonatomic) NSData *edPKData; // @synthesize edPKData=_edPKData;
-@property(copy, nonatomic) NSData *edSKData; // @synthesize edSKData=_edSKData;
-@property(nonatomic) unsigned long long featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(copy, nonatomic) NSUUID *homeKitUserIdentifier; // @synthesize homeKitUserIdentifier=_homeKitUserIdentifier;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *idsDeviceID; // @synthesize idsDeviceID=_idsDeviceID;
-@property(copy, nonatomic) NSString *mediaRemoteID; // @synthesize mediaRemoteID=_mediaRemoteID;
-@property(copy, nonatomic) NSString *mediaRouteID; // @synthesize mediaRouteID=_mediaRouteID;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool present; // @synthesize present=_present;
-@property(nonatomic) unsigned int revisionID; // @synthesize revisionID=_revisionID;
-@property(copy, nonatomic) NSString *sendersKnownAlias; // @synthesize sendersKnownAlias=_sendersKnownAlias;
-@property(readonly, nonatomic) struct __SecKey *sepPrivateKey; // @synthesize sepPrivateKey=_sepPrivateKey;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) _Bool userAdded; // @synthesize userAdded=_userAdded;
 
 @end
 

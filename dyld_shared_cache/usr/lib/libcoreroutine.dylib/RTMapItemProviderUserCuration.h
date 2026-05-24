@@ -6,13 +6,11 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTMapItemProviderUserCurationParameters, RTUserCurationStore, RTVisitStore;
+@class RTUserCurationStore;
 
 @interface RTMapItemProviderUserCuration : RTMapItemProviderBase
 {
     RTUserCurationStore *_userCurationStore;
-    RTVisitStore *_visitStore;
-    RTMapItemProviderUserCurationParameters *_parameters;
 }
 
 - (id);
@@ -26,16 +24,7 @@
 - (id)Provider;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) RTMapItemProviderUserCurationParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) RTUserCurationStore *userCurationStore; // @synthesize userCurationStore=_userCurationStore;
-@property(readonly, nonatomic) RTVisitStore *visitStore; // @synthesize visitStore=_visitStore;
 
 @end
 

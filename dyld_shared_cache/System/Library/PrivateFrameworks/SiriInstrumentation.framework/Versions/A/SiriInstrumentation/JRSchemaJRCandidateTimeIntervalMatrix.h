@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRCandidateTimeIntervalMatrix : SISchemaInstrumentationMessage
 {
@@ -15,25 +15,24 @@
 
 - (void);
 - (unsigned long long);
-- (float);
+- (float);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Z;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)?;
 - (id)1Â0@ù
 × ;
 - (id),V_frontend;
-- (id)RISETUPPHSEnrollmentUIStarted;
+- (id)SIRISETUPSchemaSIRISETUPPHSEnrollmentUIStarted;
 - (void)Ó$";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *logOfIntervalUntilStartTimeInSeconds; // @synthesize logOfIntervalUntilStartTimeInSeconds=_logOfIntervalUntilStartTimeInSeconds;
 
 @end

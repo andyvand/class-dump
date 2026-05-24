@@ -7,10 +7,6 @@
 @interface Network.NetworkAgent.NetworkAgentBackingClass
 {
     id data;
-    id uuid;
-    id networkAgentType;
-    id flags;
-    id generation;
 }
 
 @end

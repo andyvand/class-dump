@@ -4,15 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudDatabase, HMBCloudZoneID, HMBLocalDatabase, HMDDatabaseFetchZonesResult;
+@class HMBCloudDatabase, HMBCloudZoneID, HMBLocalDatabase, HMDDatabaseFetchZonesResult, NAFuture;
 
 @protocol HMDDatabase
+- (NAFuture *)$	;
+- (HMDDatabaseFetchZonesResult *);
+- (NAFuture *);
 - (HMDDatabaseFetchZonesResult *)MDBackingStoreCacheGroup",&,N,V_group;
-- (HMBLocalDatabase *)ccountIdentifier;
+- (HMBLocalDatabase *)_HMDIDSAccountIdentifier;
 - (HMBCloudZoneID *)âÓ;
 
 // Remaining properties
 @property(readonly) HMBCloudDatabase *cloudDatabase;
-@property(readonly) HMBLocalDatabase *localDatabase;
 @end
 

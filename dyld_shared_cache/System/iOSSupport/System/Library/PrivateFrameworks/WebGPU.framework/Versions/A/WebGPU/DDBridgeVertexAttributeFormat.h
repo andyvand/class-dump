@@ -8,21 +8,17 @@
 {
     long long semantic;
     unsigned long long format;
-    long long layoutIndex;
-    long long offset;
 }
 
 - (long long);
-- (id);
-- (id);
-- (long long);
+- (id);
+- (id)(Parameter Summary);
+- (long long);
 - (unsigned long long);
 - (long long)nonymous class)::operator()(auto &) const [arg:auto = const WGSL::ConstantValue] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long format; // @synthesize format;
-@property(nonatomic, readonly) long long layoutIndex; // @synthesize layoutIndex;
-@property(nonatomic, readonly) long long offset; // @synthesize offset;
 @property(nonatomic, readonly) long long semantic; // @synthesize semantic;
 
 @end

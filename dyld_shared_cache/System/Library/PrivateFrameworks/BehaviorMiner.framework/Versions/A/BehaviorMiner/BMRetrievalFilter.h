@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface BMRetrievalFilter
 {
     long long _operand;
-    long long _inclusionOperator;
-    NSSet *_items;
-    NSSet *_types;
 }
 
 + (id);
@@ -20,18 +15,15 @@
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (long long)Activity groupActivity is nil;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)kA;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long inclusionOperator; // @synthesize inclusionOperator=_inclusionOperator;
-@property(retain, nonatomic) NSSet *items; // @synthesize items=_items;
 @property(nonatomic) long long operand; // @synthesize operand=_operand;
-@property(retain, nonatomic) NSSet *types; // @synthesize types=_types;
 
 @end
 

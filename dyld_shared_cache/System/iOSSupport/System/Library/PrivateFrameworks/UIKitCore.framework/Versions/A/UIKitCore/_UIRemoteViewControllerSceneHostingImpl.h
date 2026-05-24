@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSXPCConnection, _UIRemoteViewController, _UIRemoteViewService, _UISceneHostingController, _UISheetPresentationControllerConfiguration, _UIViewServiceHostSceneComponent, _UIViewServiceHostSession;
-@protocol _UIRemoteSheet_Internal;
+@class _UISceneHostingController;
 
 __attribute__((visibility("hidden")))
 @interface _UIRemoteViewControllerSceneHostingImpl
 {
     _UISceneHostingController *_sceneHostingController;
-    _UIViewServiceHostSceneComponent *_hostComponent;
-    _UIViewServiceHostSession *_session;
-    NSString *_requestedViewControllerClassName;
-    CDUnknownBlockType _connectionHandler;
-    _UIRemoteViewController *_strongSelf;
-    NSXPCConnection *_auxiliaryConnection;
-    CDStruct_183601bc _flags;
-    _UIRemoteViewController *_owningRemoteViewController;
-    _UIRemoteViewService *_service;
 }
 
 + (id);
@@ -31,50 +21,50 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (long long);
+- (void)updateEngroupCreationDate: /* Error: Ran out of types for this method. */;
+- (void)reflectMarkAsReviewedToPeerDevicesForChatGUIDs: /* Error: Ran out of types for this method. */;
+- (void)messageWithGUID:registerAttachments: /* Error: Ran out of types for this method. */;
+- (void)enhancedStorageMetrics;
+- (void)downloadFileTransferWithLocalURL:(id)arg1;
+- (void)downloadAttachmentAssets;
+- (void)deleteMessagesWithChatIdentifiers:(id)arg1 style:(id)arg2 onServices: /* Error: Ran out of types for this method. */;
+- (void)deleteMessagesFromTombStoneTableWithRecordIDs:(id)arg1;
+- (_Bool)decryptionKey;
+- (void)commentThreshold;
+- (id);
+- (void)_submitStorageMetricsWithError:(_Bool)arg1;
+- (void)noteItemProcessed:(id)arg1 batchContext: /* Error: Ran out of types for this method. */;
+- (void)n:hadQOI:wantsDeliveryReceipt:messageContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
+- (void)SDyֲj1ypGSg;
+- (id)ableP;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)1#;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)available from IMDCKRecordSaltManager could not create CKRecord!;
+- (void)record metadata for recordName:(id)arg1 %s!;
+- (id)library. syndicationLibrary:%@ /* Error: Ran out of types for this method. */;
+- (id)e set correctly?;
+- (void)e;
+- (void)IMItem from IMDMessageRecordRef:(long long)arg1 %@[outgoing:(id)arg2 %{BOOL}d sender=%@; service=%@; encrypted=%{BOOL}d; handle=%@; destinationCallerID= %@, unformatted=%@; country=%@; roomName='%@'; flags=0x%llx; subject='%@' text='%@' messageID:%lld GUID:'%@' sortID:%lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)@);
+- (void)kname upload has completed -- sending out of band nickname updates;
 - (void);
 - (void);
 - (int);
-- (CDStruct_4c969caf);
-- (void);
+- (CDStruct_6ad76789);
+- (void)ice;
 - (id);
 - (void);
 - (void);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (void);
+- (void)initWithTelevision:(id)arg1;
 - (void);
 - (void)0@ù
 × ;
@@ -85,17 +75,17 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)A°!àFùdÐ1Â0@ù
 × ;
-- (void)TemplateWithIdentifier:(_Bool)arg1;
-- (void)eadingConcentricLayoutPoint;
-- (_Bool)tSuppressesHiddenSideEffects: /* Error: Ran out of types for this method. */;
-- (void)yNames;
+- (void)_segueTemplateWithIdentifier:(_Bool)arg1;
+- (void)_bottomLeadingConcentricLayoutPoint;
+- (_Bool)setSuppressesHiddenSideEffects: /* Error: Ran out of types for this method. */;
+- (void)_cachedKeyNames;
 - (void);
-- (id)ceHandler_block_invoke_7;
+- (id)__preFenceHandler_block_invoke_7;
 - (void)_filetype(struct ui_archive_entry *);
 - (unsigned long long)ry"8@"_UIDefinitionDictionary"16;
 - (void)ng Tools;
-- (unsigned long long)2CAPresentationModifierCG;
-- (void)gmentView;
+- (unsigned long long)SDySiSo22CAPresentationModifierCG;
+- (void)SegmentView;
 - (id)pÇR0§23;
 - (id)
 ;
@@ -104,31 +94,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UIRemoteSheet_Internal> _containedRemoteSheet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<_UIRemoteSheet_Internal>",?,R,N
-
-@property(readonly, nonatomic) NSSet *_keyboardSceneLayers;
-@property(readonly, nonatomic) __weak _UIRemoteViewController *_owningRemoteViewController; // @synthesize _owningRemoteViewController;
-@property(readonly, nonatomic) _Bool _remoteSheetAllowsConnection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _UIRemoteViewService *_remoteViewService; // @synthesize _remoteViewService=_service;
-@property(readonly, nonatomic) id _serviceViewControllerProxy;
-@property(retain, nonatomic, setter=_setSheetConfiguration:) _UISheetPresentationControllerConfiguration *_sheetConfiguration;
-@property(nonatomic, setter=_setViewClipsToBounds:) _Bool _viewClipsToBounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inheritsSecurity;
-@property(readonly, nonatomic) CDStruct_4c969caf serviceAuditToken;
-@property(readonly, nonatomic) int serviceProcessIdentifier;
-@property(nonatomic) _Bool serviceViewShouldShareTouchesWithHost;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,7 @@
 @class CNContact;
 
 @interface UnknownClass (SSABPersonExtensions)
-- (id);
+- (id)_sendResponse:toResponseHandlersForRequests:didReceiveNewData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CNContact *cnContact;

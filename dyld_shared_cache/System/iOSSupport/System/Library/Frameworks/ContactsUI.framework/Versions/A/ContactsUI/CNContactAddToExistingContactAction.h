@@ -6,35 +6,26 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContact, CNContactPickerViewController, NSString;
+@class CNContact, CNContactPickerViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNContactAddToExistingContactAction : CNContactAction
 {
     CNContact *_chosenContact;
-    CNContactPickerViewController *_contactPicker;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)`;
+- (void);
+- (void)@;
 - (void);
 - (void)N,V_cardMedicalIDGroup;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *chosenContact; // @synthesize chosenContact=_chosenContact;
 @property(retain, nonatomic) CNContactPickerViewController *contactPicker; // @synthesize contactPicker=_contactPicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

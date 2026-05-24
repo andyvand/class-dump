@@ -13,9 +13,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
-- (id);
+- (id)ting PaperKit indexable content for %@;
+- (CDUnknownBlockType)%@, error:%@ /* Error: Ran out of types for this method. */;
+- (id)ICMoveDecisionTypePreventWithAdditionalStep;
 - (id)p¯°;
 - (id)Ã:Ô. /* Error: Ran out of types for this method. */;
 

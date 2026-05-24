@@ -11,12 +11,11 @@
 @interface PKMutableXARArchive : PKXARArchive
 {
     NSMutableArray *_signers;
-    _Bool _mutable;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (id);
 - (_Bool);

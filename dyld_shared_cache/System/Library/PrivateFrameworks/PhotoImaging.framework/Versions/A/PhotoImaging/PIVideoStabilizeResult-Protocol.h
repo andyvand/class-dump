@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @protocol PIVideoStabilizeResult
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long analysisType;
 @property(readonly, copy, nonatomic) NSArray *keyframes;
-@property(readonly, nonatomic) NSDictionary *rawHomographies;
-@property(readonly, nonatomic) CDStruct_996ac03c stabCropRect;
 @end
 

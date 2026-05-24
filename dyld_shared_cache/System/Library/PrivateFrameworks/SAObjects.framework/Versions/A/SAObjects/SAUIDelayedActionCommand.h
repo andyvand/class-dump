@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface SAUIDelayedActionCommand : SADomainCommand
 {
@@ -19,12 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CoreUtils;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSNumber *timerValue;
 
 @end
 

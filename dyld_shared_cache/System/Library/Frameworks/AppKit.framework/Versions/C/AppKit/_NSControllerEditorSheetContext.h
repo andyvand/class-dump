@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSControllerEditorSheetContext
 {
     id _delegate;
-    SEL _didCommitSelector;
-    void *_embeddedContextInfo;
 }
 
 @end

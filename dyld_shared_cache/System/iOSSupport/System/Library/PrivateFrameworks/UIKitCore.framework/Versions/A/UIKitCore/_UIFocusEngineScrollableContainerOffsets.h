@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIFocusEnvironmentScrollableContainerTuple;
-@protocol UIScrollViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusEngineScrollableContainerOffsets
 {
     _Bool _adjustsTargetsOnContentOffsetChanges;
-    _UIFocusEnvironmentScrollableContainerTuple *_environmentScrollableContainer;
-    id <UIScrollViewDelegate> _scrollDelegate;
-    double _convergenceRate;
-    CDUnknownBlockType _completion;
-    struct CGPoint _startContentOffset;
-    struct CGPoint _lastContentOffset;
-    struct CGPoint _lastRoundedOffset;
-    struct CGPoint _targetContentOffset;
-    struct CGPoint _lastVelocity;
 }
 
 - (struct CGPoint);
@@ -28,33 +16,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)et"24@"NSString"32@?<v@?B>40;
+- (struct CGPoint)outgoingRelayMessageTimerMap;
+- (struct CGPoint)originalSenderForCollaborationHighlight: /* Error: Ran out of types for this method. */;
+- (id)ialEmergencyQuestionnaireReceived: /* Error: Ran out of types for this method. */;
+- (_Bool)IMDSpamFilteringHelper;
+- (double)&;
+- (void);
+- (struct CGPoint)buildWithIdentifier:withComappleEnergySaverdesktopACPower:withComappleEnergySaverportableACPower:withComappleEnergySaverportableBatteryPower:withComappleEnergySaverdesktopSchedule:withSleepDisabled:withDestroyFVKeyOnStandby: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGPoint);
-- (struct CGPoint);
+- (void);
 - (id);
-- (_Bool);
-- (double);
-- (void);
-- (struct CGPoint);
-- (void);
-- (struct CGPoint);
-- (void);
-- (id);
-- (void)ckingLayerColor:(id)arg1;
+- (void)setBackingLayerColor:(id)arg1;
 - (CDUnknownBlockType)ueTemplate",N,V___currentStoryboardSegueTemplate;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsTargetsOnContentOffsetChanges; // @synthesize adjustsTargetsOnContentOffsetChanges=_adjustsTargetsOnContentOffsetChanges;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) double convergenceRate; // @synthesize convergenceRate=_convergenceRate;
-@property(retain, nonatomic) _UIFocusEnvironmentScrollableContainerTuple *environmentScrollableContainer; // @synthesize environmentScrollableContainer=_environmentScrollableContainer;
-@property(nonatomic) struct CGPoint lastContentOffset; // @synthesize lastContentOffset=_lastContentOffset;
-@property(nonatomic) struct CGPoint lastRoundedOffset; // @synthesize lastRoundedOffset=_lastRoundedOffset;
-@property(nonatomic) struct CGPoint lastVelocity; // @synthesize lastVelocity=_lastVelocity;
-@property(retain, nonatomic) id <UIScrollViewDelegate> scrollDelegate; // @synthesize scrollDelegate=_scrollDelegate;
-@property(nonatomic) struct CGPoint startContentOffset; // @synthesize startContentOffset=_startContentOffset;
-@property(nonatomic) struct CGPoint targetContentOffset; // @synthesize targetContentOffset=_targetContentOffset;
 
 @end
 

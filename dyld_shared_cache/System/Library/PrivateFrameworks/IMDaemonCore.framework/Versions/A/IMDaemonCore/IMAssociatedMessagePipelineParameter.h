@@ -6,13 +6,9 @@
 
 #import <IMDaemonCore/IMTextMessagePipelineParameter.h>
 
-@class NSString;
-
 @interface IMAssociatedMessagePipelineParameter : IMTextMessagePipelineParameter
 {
     long long _associatedMessageType;
-    NSString *_associatedMessageFallbackHash;
-    struct _NSRange _associatedMessageRange;
 }
 
 - (void);
@@ -23,12 +19,10 @@
 - (void);
 - (long long);
 - (struct _NSRange);
-- (id);
+- (id);
 - (void)ready spawned TTR for this version, don't do it anymore;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *associatedMessageFallbackHash; // @synthesize associatedMessageFallbackHash=_associatedMessageFallbackHash;
-@property(nonatomic) struct _NSRange associatedMessageRange; // @synthesize associatedMessageRange=_associatedMessageRange;
 @property(nonatomic) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;
 
 @end

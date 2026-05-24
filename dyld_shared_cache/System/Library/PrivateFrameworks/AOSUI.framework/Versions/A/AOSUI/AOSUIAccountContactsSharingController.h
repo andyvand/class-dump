@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAMessagesInviteContext, NSSharingService, NSString, NSWindow;
+@class NSSharingService;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIAccountContactsSharingController
 {
     NSSharingService *_messageSharingService;
-    NSWindow *_hostWindow;
-    CDUnknownBlockType _sharingCompletion;
-    AAMessagesInviteContext *_inviteContext;
 }
 
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)K)?1	3;
 - (void);
+- (void)?;
 - (void);
-- (void);
-- (id);
+- (id)` a%;
 - (id);
 - (id);
 - (id);
@@ -32,17 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain, nonatomic) AAMessagesInviteContext *inviteContext; // @synthesize inviteContext=_inviteContext;
 @property(retain, nonatomic) NSSharingService *messageSharingService; // @synthesize messageSharingService=_messageSharingService;
-@property(copy, nonatomic) CDUnknownBlockType sharingCompletion; // @synthesize sharingCompletion=_sharingCompletion;
-@property(readonly) Class superclass;
 
 @end
 

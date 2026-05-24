@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SASTItemGroup;
+@class NSArray;
 
 @interface SASTViewTemplateAction : AceObject
 {
@@ -18,22 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SASTItemGroup *itemGroupView;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *viewTitle;
 
 @end
 

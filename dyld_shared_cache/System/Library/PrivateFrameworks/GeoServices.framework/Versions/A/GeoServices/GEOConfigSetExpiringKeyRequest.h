@@ -6,17 +6,14 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface GEOConfigSetExpiringKeyRequest : GEOXPCRequest
 {
     NSString *_keyString;
-    unsigned long long _keyOptions;
-    NSDate *_expireTime;
-    NSString *_expireOSVersion;
 }
 
-+ (Class);
++ (Class)SLYahooLoginTokenRequest;
 - (void);
 - (void);
 - (id);
@@ -25,25 +22,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)localizedStringFromNumber:numberStyle: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void)rected;
-- (void)Data;
+- (void)_corrected;
+- (void)timestampData;
 - (id)X;
 - (void)5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *expireOSVersion; // @synthesize expireOSVersion=_expireOSVersion;
-@property(retain, nonatomic) NSDate *expireTime; // @synthesize expireTime=_expireTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long keyOptions; // @synthesize keyOptions=_keyOptions;
 @property(retain, nonatomic) NSString *keyString; // @synthesize keyString=_keyString;
-@property(readonly) Class superclass;
 
 @end
 

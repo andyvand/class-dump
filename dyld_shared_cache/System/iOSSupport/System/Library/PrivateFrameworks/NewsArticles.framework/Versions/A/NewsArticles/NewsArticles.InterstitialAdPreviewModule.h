@@ -7,7 +7,6 @@
 @interface NewsArticles.InterstitialAdPreviewModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

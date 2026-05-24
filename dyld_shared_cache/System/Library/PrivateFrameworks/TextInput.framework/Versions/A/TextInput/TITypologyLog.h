@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableSet, NSString, NSUUID, TIKeyboardState, TIRollingLog;
-@protocol TITypologyLogDelegate;
+@class NSString;
 
 @interface TITypologyLog
 {
     unsigned long long _typologyLogVersion;
-    unsigned long long _traceLogVersion;
-    id <TITypologyLogDelegate> _delegate;
-    NSUUID *_uuid;
-    unsigned long long _partIndex;
-    NSDate *_date;
-    NSString *_systemVersion;
-    NSString *_buildVersion;
-    NSString *_clientIdentifier;
-    NSDictionary *_config;
-    TIRollingLog *_records;
-    TIRollingLog *_traceRecords;
-    NSMutableSet *_loggedRecordClasses;
-    TIKeyboardState *_lastKeyboardState;
 }
 
 + (id);
-+ (id);
++ (id)_compiledUserEditedAssetsFromSourceMemory:(id)arg1 andTargetMemory: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 + (_Bool);
@@ -39,17 +25,17 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)_numberOfIncomingInteractionsWithConversation;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)initWithPattern:options:error: /* Error: Ran out of types for this method. */;
+- (void)additionalAssetAttributes;
 - (_Bool);
-- (id);
-- (id);
+- (id)er %@;
+- (id)olation queue;
 - (id);
 - (id);
 - (void);
@@ -77,14 +63,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)(L`a;
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (unsigned long long)etionEventTimestamp;
+- (id)h;
+- (unsigned long long)removeCompletionEventTimestamp;
 - (_Bool);
 - (unsigned long long)Ì;
 - (id)/	>			G	 ;
@@ -95,28 +81,10 @@
 ;
 - (id)Ë	²	¿		;
 - (id)¨	Á				;
-- (id)aconsciousness;
+- (id)infraconsciousness;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
 @property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) NSDictionary *config; // @synthesize config=_config;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) __weak id <TITypologyLogDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) TIKeyboardState *lastKeyboardState; // @synthesize lastKeyboardState=_lastKeyboardState;
-@property(retain, nonatomic) NSMutableSet *loggedRecordClasses; // @synthesize loggedRecordClasses=_loggedRecordClasses;
-@property(readonly, nonatomic) unsigned long long maxNumRecords;
-@property(readonly, nonatomic) unsigned long long numTraceRecords;
-@property(readonly, nonatomic) unsigned long long numTypologyRecords;
-@property(readonly, nonatomic) unsigned long long partIndex; // @synthesize partIndex=_partIndex;
-@property(readonly, nonatomic) NSString *recommendedTraceLogFilename;
-@property(readonly, nonatomic) NSString *recommendedTypologyLogFilename;
-@property(readonly, nonatomic) TIRollingLog *records; // @synthesize records=_records;
-@property(readonly, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property(readonly, nonatomic) unsigned long long traceLogVersion; // @synthesize traceLogVersion=_traceLogVersion;
-@property(readonly, nonatomic) TIRollingLog *traceRecords; // @synthesize traceRecords=_traceRecords;
-@property(readonly, nonatomic) unsigned long long typologyLogVersion; // @synthesize typologyLogVersion=_typologyLogVersion;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

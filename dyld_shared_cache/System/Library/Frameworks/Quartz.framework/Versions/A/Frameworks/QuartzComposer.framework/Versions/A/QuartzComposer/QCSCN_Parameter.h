@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface QCSCN_Parameter
 {
@@ -15,13 +15,12 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id), comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version, classical_work, classical_movement, classical_movement_count, classical_movement_number) SELECT item_pid, title, sort_title, IFNULL(disc_count, 0), IFNULL(track_count, 0), total_time_ms, IFNULL(year, 0), location, file_size, integrity, is_audible_audio_book, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, IFNULL(bpm, 0), genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, IFNULL(category_id, 0), location_kind_id, version, display_version, classical_work, classical_movement, classical_movement_count, classical_movement_number FROM item_extra;
 - (void);
-- (id);
+- (id)_VARYING_PER_CONTROL_POINT(in, out)          ;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *options;
 @property(copy, nonatomic) NSString *semantic;
 
 @end

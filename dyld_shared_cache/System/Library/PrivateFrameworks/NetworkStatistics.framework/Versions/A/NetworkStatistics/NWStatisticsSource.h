@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NWStatisticsManager;
 @protocol NWStatisticsSourceDelegate;
 
 @interface NWStatisticsSource
 {
     unsigned int _filter;
-    struct nstat_counts _last_counts;
-    _Bool _removing;
-    unsigned int _provider;
-    id <NWStatisticsSourceDelegate> _delegate;
-    NWStatisticsManager *_manager;
-    unsigned long long _reference;
-    unsigned long long _countsSeqno;
-    unsigned long long _descriptorSeqno;
 }
 
 + (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)layerID;
 - (void);
-- (unsigned long long);
-- (int);
+- (unsigned long long)initWithExperiment:treatmentId:taskAttributing:requiresTreatmentInstallation: /* Error: Ran out of types for this method. */;
+- (int);
 - (id);
-- (unsigned long long);
+- (unsigned long long)webView:didReceiveAuthenticationChallenge:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)Source*;
 - (_Bool);
 - (const struct nstat_counts *);
 - (id);
 - (void);
-- (void);
+- (void)@"NSMutableArray",&,V_operations;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)TIPreferencesAnalyzerRegistry;
 - (unsigned int);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)T;
 - (unsigned long long);
 - (id);
 - (void);
@@ -50,16 +41,7 @@
 - (_Bool)O;
 
 // Remaining properties
-@property(readonly) const struct nstat_counts *_nstat_counts;
-@property unsigned long long countsSeqno; // @synthesize countsSeqno=_countsSeqno;
 @property(retain) id <NWStatisticsSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property unsigned long long descriptorSeqno; // @synthesize descriptorSeqno=_descriptorSeqno;
-@property(readonly) NWStatisticsManager *manager; // @synthesize manager=_manager;
-@property(readonly) unsigned int provider; // @synthesize provider=_provider;
-@property unsigned long long reference; // @synthesize reference=_reference;
-@property _Bool removing; // @synthesize removing=_removing;
-@property(readonly) unsigned long long snapshotRevision;
-@property(readonly) unsigned long long sourceIdentifier;
 
 @end
 

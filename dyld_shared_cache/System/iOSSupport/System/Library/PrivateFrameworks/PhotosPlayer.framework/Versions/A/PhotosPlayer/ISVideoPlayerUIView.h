@@ -9,9 +9,6 @@
 @interface ISVideoPlayerUIView
 {
     ISAVPlayerUIView *_playerView;
-    _Bool _videoLayerReadyForDisplay;
-    ISWrappedAVPlayer *_videoPlayer;
-    struct CGRect _contentsRect;
 }
 
 - (id);
@@ -22,7 +19,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)backgroundImage;
 - (id);
 - (_Bool);
 - (void);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;
-@property(readonly, nonatomic) _Bool videoLayerReadyForDisplay; // @synthesize videoLayerReadyForDisplay=_videoLayerReadyForDisplay;
-@property(copy, nonatomic) CDUnknownBlockType videoLayerReadyForDisplayChangeHandler;
 @property(retain, nonatomic) ISWrappedAVPlayer *videoPlayer; // @synthesize videoPlayer=_videoPlayer;
 
 @end

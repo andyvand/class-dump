@@ -6,33 +6,27 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFActivity, NSData, NSDictionary;
+@class HMFActivity;
 
 __attribute__((visibility("hidden")))
 @interface HMFHTTPResponseInternal : HMFObject
 {
     HMFActivity *_activity;
-    long long _statusCode;
-    NSDictionary *_headerFields;
-    NSData *_body;
 }
 
+- (void);
+- (id);
+- (void)P;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
+- (id)S.ActivityStateHoldEndDate.Key;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id)ppendNumber: /* Error: Ran out of types for this method. */;
+- (id)hmf_appendNumber: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) HMFActivity *activity; // @synthesize activity=_activity;
-@property(copy, nonatomic) NSData *body; // @synthesize body=_body;
-@property(copy, nonatomic) NSDictionary *headerFields; // @synthesize headerFields=_headerFields;
 @property(readonly, nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end

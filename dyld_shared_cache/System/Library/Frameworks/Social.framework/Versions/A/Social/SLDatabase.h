@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator, NSString;
+@class NSString;
 
 @interface SLDatabase
 {
     NSString *_modelPath;
-    NSString *_storePath;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSManagedObjectContext *_managedObjectContext;
-    NSManagedObjectModel *_managedObjectModel;
 }
 
 - (id);

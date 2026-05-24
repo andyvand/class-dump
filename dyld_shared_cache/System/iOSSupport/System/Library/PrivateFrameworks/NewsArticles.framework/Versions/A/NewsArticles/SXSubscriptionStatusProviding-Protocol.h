@@ -5,9 +5,9 @@
 //
 
 @protocol SXSubscriptionStatusProviding
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long bundleSubscriptionStatus;
-@property(readonly, nonatomic) long long channelSubscriptionStatus;
 @end
 

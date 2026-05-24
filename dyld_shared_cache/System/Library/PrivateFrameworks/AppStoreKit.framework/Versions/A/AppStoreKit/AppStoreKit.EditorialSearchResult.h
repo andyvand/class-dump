@@ -9,23 +9,6 @@
 @interface AppStoreKit.EditorialSearchResult : AppStoreKit.SearchResult
 {
     id type;
-    id title;
-    id subtitle;
-    id tagline;
-    id editorialArtwork;
-    id editorialVideo;
-    id iconArtwork;
-    id collectionAdamIds;
-    id collectionAppIcons;
-    id lockup;
-    id editorialDisplayOptions;
-    id artworkGridType;
-    id appEventFormattedDates;
-    id mediaOverlayStyle;
-    id tintColor;
-    id badgeText;
-    id badgeArtwork;
-    id clickAction;
 }
 
 @end

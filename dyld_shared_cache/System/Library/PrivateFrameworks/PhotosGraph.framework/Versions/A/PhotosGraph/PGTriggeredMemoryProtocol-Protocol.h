@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSIndexSet;
+@class NSDate;
 
 @protocol PGTriggeredMemoryProtocol
+- (void);
+- (double)previousResultsWithLimit: /* Error: Ran out of types for this method. */;
+- (NSDate *)desOnWorkerQueue:busyStateIncrementer:isSwitchingViewStyles:]E4$_10vJEEE /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *blockableFeatures;
 @property(readonly, nonatomic) NSDate *creationDate;
-@property(nonatomic) double electionScore;
-@property(readonly, nonatomic) long long photosGraphVersion;
-@property(readonly, nonatomic) NSIndexSet *triggerTypes;
-@property(readonly, nonatomic) NSDictionary *validityIntervalByTriggerType;
 @end
 

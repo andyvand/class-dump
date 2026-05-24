@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize);
-- (id);
-- (void)IndexPath: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (id)r;
+- (void)stickerCellForIndexPath: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaLLMQUPerfMetrics : SISchemaInstrumentationMessage
 {
     unsigned int _llmquOverallDurationInMs;
-    unsigned int _llmquPromptGenerationDurationInMs;
-    unsigned int _llmquPreWarmModelDurationInMs;
-    unsigned int _llmquInferenceDurationInMs;
-    unsigned int _llmquPostProcessFilterDurationInMs;
-    struct {
-        unsigned int llmquOverallDurationInMs:1;
-        unsigned int llmquPromptGenerationDurationInMs:1;
-        unsigned int llmquPreWarmModelDurationInMs:1;
-        unsigned int llmquInferenceDurationInMs:1;
-        unsigned int llmquPostProcessFilterDurationInMs:1;
-    } _has;
 }
 
 - (void);
@@ -51,26 +38,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)secondsRemaining;
+- (_Bool)ABDefaultCardViewStyleNoPhotoEditingProvider;
+- (_Bool)(void)_block_invoke;
 - (id);
 - (id);
-- (id)zed;
-- (id)verFallbackDeprecated;
+- (id)deleteIsPersonalized;
+- (id)_hasNlv3ServerFallbackDeprecated;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLlmquInferenceDurationInMs;
-@property(nonatomic) _Bool hasLlmquOverallDurationInMs;
-@property(nonatomic) _Bool hasLlmquPostProcessFilterDurationInMs;
-@property(nonatomic) _Bool hasLlmquPreWarmModelDurationInMs;
-@property(nonatomic) _Bool hasLlmquPromptGenerationDurationInMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int llmquInferenceDurationInMs; // @synthesize llmquInferenceDurationInMs=_llmquInferenceDurationInMs;
 @property(nonatomic) unsigned int llmquOverallDurationInMs; // @synthesize llmquOverallDurationInMs=_llmquOverallDurationInMs;
-@property(nonatomic) unsigned int llmquPostProcessFilterDurationInMs; // @synthesize llmquPostProcessFilterDurationInMs=_llmquPostProcessFilterDurationInMs;
-@property(nonatomic) unsigned int llmquPreWarmModelDurationInMs; // @synthesize llmquPreWarmModelDurationInMs=_llmquPreWarmModelDurationInMs;
-@property(nonatomic) unsigned int llmquPromptGenerationDurationInMs; // @synthesize llmquPromptGenerationDurationInMs=_llmquPromptGenerationDurationInMs;
 
 @end
 

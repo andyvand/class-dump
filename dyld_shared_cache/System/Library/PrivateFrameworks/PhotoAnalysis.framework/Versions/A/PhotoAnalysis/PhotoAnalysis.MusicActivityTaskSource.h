@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.MusicActivityTaskSource
 {
     id $defaultActor;
-    id logger;
 }
 
 @end

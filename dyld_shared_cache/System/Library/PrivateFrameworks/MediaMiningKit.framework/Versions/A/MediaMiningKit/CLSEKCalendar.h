@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface CLSEKCalendar
 {
     _Bool _hasSharees;
-    NSSet *_shareesAndOwner;
-    NSString *_calendarIdentifier;
 }
 
 - (_Bool);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(readonly) _Bool hasSharees; // @synthesize hasSharees=_hasSharees;
-@property(readonly) NSSet *shareesAndOwner; // @synthesize shareesAndOwner=_shareesAndOwner;
 
 @end
 

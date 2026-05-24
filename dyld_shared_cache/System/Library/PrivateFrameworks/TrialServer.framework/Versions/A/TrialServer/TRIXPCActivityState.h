@@ -7,7 +7,6 @@
 @interface TRIXPCActivityState
 {
     unsigned long long _futureCompletionStatus;
-    unsigned long long _capabilities;
 }
 
 + (id);
@@ -21,10 +20,9 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)PAMediaConversionServiceUnitTestSupportCoreImageGraphDumpPathsKey;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
 @property(readonly, nonatomic) unsigned long long futureCompletionStatus; // @synthesize futureCompletionStatus=_futureCompletionStatus;
 
 @end

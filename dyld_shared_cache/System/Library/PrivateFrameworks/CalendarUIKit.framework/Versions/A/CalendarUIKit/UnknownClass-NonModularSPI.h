@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NonModularSPI)
-+ (id)q;
++ (id);
 @end
 

@@ -9,28 +9,22 @@
 @interface MTColorTheme
 {
     _Bool _isBackgroundLight;
-    UIColor *_backgroundColor;
-    UIColor *_primaryTextColor;
-    UIColor *_secondaryTextColor;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)currentStream;
+- (id)cnk_hasTooManyCallsForCallWaitingBanner;
+- (id)bottomControlsViewForViewController: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool isBackgroundLight; // @synthesize isBackgroundLight=_isBackgroundLight;
-@property(retain, nonatomic) UIColor *primaryTextColor; // @synthesize primaryTextColor=_primaryTextColor;
-@property(retain, nonatomic) UIColor *secondaryTextColor; // @synthesize secondaryTextColor=_secondaryTextColor;
 
 @end
 

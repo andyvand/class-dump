@@ -10,32 +10,23 @@ __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentAutomatedTestVBLPreprocessFilter : _NSScrollingConcurrentVBLPreprocessFilter
 {
     long long _scrollLaps;
-    long long _currentLeg;
-    double _scrollStepSize;
-    long long _scrollAxis;
-    double _minScrollValue;
-    double _maxScrollValue;
 }
 
+- (void)ystem/libdispatch.dylib;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (long long);
-- (long long);
+- (void)ylib;
+- (void)ith error %d;
+- (void)owed was zero length;
+- (void)AMFDRDecodeTrustObject;
+- (double)UserIntentPhysicalButtonNormalizedCGRect;
+- (long long)ThreadRadioCapability;
+- (long long)SpatialAudioProfileCapability;
 - (double);
 - (double);
 - (id);
 
 // Remaining properties
-@property double maxScrollValue; // @synthesize maxScrollValue=_maxScrollValue;
-@property double minScrollValue; // @synthesize minScrollValue=_minScrollValue;
-@property long long scrollAxis; // @synthesize scrollAxis=_scrollAxis;
 @property long long scrollLaps; // @synthesize scrollLaps=_scrollLaps;
-@property double scrollStepSize; // @synthesize scrollStepSize=_scrollStepSize;
 
 @end
 

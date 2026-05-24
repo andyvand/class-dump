@@ -6,13 +6,11 @@
 
 #import <Slideshows/MEPlugin.h>
 
-@class NSArray, NSMutableArray, NSOperationQueue;
+@class NSOperationQueue;
 
 @interface MEPluginHTML5 : MEPlugin
 {
     NSOperationQueue *_imageQueue;
-    NSMutableArray *_imageOperations;
-    NSArray *_sizesToCreate;
 }
 
 + (void);
@@ -22,7 +20,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

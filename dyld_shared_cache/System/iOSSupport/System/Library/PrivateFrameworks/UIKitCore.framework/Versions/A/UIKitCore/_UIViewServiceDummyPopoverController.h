@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)ctContextMenuGroupLocation;
+- (void)recoverableMessagesMetadata;
+- (void)_chatFetchRecordZoneChangesOptionsDictionaryUsingToken:(id)arg1 zoneID:(_Bool)arg2 resultsLimit: /* Error: Ran out of types for this method. */;
+- (void)_UICompactContextMenuGroupLocation;
 - (_Bool)pleFenceProvider.m;
 - (void)llPocketContainerInteractionCSgG;
 

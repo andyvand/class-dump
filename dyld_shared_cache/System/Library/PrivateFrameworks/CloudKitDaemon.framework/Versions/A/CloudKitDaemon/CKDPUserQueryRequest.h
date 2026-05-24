@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPUserAlias, NSMutableArray, NSString;
+@class CKDPUserAlias;
 
 @interface CKDPUserQueryRequest
 {
     CKDPUserAlias *_alias;
-    NSString *_oBSOLETEPcsServiceType;
-    NSMutableArray *_sortedBys;
-    _Bool _publicKeyRequested;
-    struct {
-        unsigned int publicKeyRequested:1;
-    } _has;
 }
 
 + (Class);
-+ (id);
++ (id)A;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)onal<CA::StreamDescription>=""(?="__null_state_"c"__val_"{StreamDescription="mSampleRate"d"mFormatID"I"mFormatFlags"I"mBytesPerPacket"I"mFramesPerPacket"I"mBytesPerFrame"I"mChannelsPerFrame"I"mBitsPerChannel"I"mReserved"I})"__engaged_"B}"mRequestedOutputFormat"{optional<CA::StreamDescription>=""(?="__null_state_"c"__val_"{StreamDescription="mSampleRate"d"mFormatID"I"mFormatFlags"I"mBytesPerPacket"I"mFramesPerPacket"I"mBytesPerFrame"I"mChannelsPerFrame"I"mBitsPerChannel"I"mReserved"I})"__engaged_"B}"mRequestedOutputChannelLayout"{optional<CA::ChannelLayout>=""(?="__null_state_"c"__val_"{ChannelLayout="mStorage"{vector<char, std::allocator<char>>="__begin_"*"__end_"*""{?="__cap_"*}}})"__engaged_"B}"mRequestedBufferFrameSize"{optional<unsigned int>=""(?="__null_state_"c"__val_"I)"__engaged_"B}"mStreamIDs"{vector<std::string, std::allocator<std::string>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}"mDSPSettings"{optional<adm::DSPSettings>=""(?="__null_state_"c"__val_"{DSPSettings="mContentCreationSettings"{optional<adm::ContentCreationSettings>=""(?="__null_state_"c"__val_"{ContentCreationSettings="mInputPortType"I"mInputPortSubType"I"mInputSubPortType"I"mOutputPortType"I"mOutputPortSubType"I"mOutputSubPortType"I"mIsSharePlayActive"B"mFIRFilterIDs"{ArrayRef="mObject"{ObjectRef<const __CFArray *>="mCFObject"^{__CFArray}}}})"__engaged_"B}})"__engaged_"B}}"mDeviceDescriptions"{vector<adm::DeviceDescription, std::allocator<adm::DeviceDescription>>="__begin_"^{DeviceDescription}"__end_"^{DeviceDescription}""{?="__cap_"^{DeviceDescription}}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)$;
+- (unsigned long long)ioEngineRef, CFDictionaryRef);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
@@ -45,17 +39,11 @@
 - (id);
 - (id);
 - (id);
-- (Class)rviceActivities;
+- (Class)kPCSServiceActivities;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPUserAlias *alias; // @synthesize alias=_alias;
 @property(readonly, nonatomic) _Bool hasAlias;
-@property(readonly, nonatomic) _Bool hasOBSOLETEPcsServiceType;
-@property(nonatomic) _Bool hasPublicKeyRequested;
-@property(retain, nonatomic) NSString *oBSOLETEPcsServiceType; // @synthesize oBSOLETEPcsServiceType=_oBSOLETEPcsServiceType;
-@property(nonatomic) _Bool publicKeyRequested; // @synthesize publicKeyRequested=_publicKeyRequested;
-@property(retain, nonatomic) NSMutableArray *sortedBys; // @synthesize sortedBys=_sortedBys;
 
 @end
 

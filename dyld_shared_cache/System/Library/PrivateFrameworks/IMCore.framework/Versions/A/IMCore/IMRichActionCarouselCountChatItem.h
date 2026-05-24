@@ -11,20 +11,17 @@
 @interface IMRichActionCarouselCountChatItem : IMTranscriptChatItem
 {
     IMHandle *_handle;
-    long long _selectedIndex;
-    long long _totalCount;
 }
 
-+ (id);
-- (id);
-- (long long);
++ (id)d, hostTime jumped latestMicHostTime=%f to inHostTime=%f;
+- (id)edTargetBitrate=%d;
+- (long long)T;
 - (id);
 - (long long);
 - (void)4~xyüz|ð¤ô{|Ì}X¨~Dt(Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly, nonatomic) long long totalCount; // @synthesize totalCount=_totalCount;
 
 @end
 

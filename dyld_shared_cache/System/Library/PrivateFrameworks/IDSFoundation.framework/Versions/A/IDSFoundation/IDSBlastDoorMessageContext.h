@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface IDSBlastDoorMessageContext
 {
     _Bool _isInvitationService;
-    unsigned int _payloadType;
-    NSString *_topic;
-    NSNumber *_command;
 }
 
 - (id);
 - (void);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void)ps.eta;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *command; // @synthesize command=_command;
-@property(readonly, nonatomic) _Bool isInvitationService; // @synthesize isInvitationService=_isInvitationService;
-@property(nonatomic) unsigned int payloadType; // @synthesize payloadType=_payloadType;
 @property(readonly, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end

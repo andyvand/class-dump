@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PLPowerNode
 {
     NSString *_name;
-    double _fgEnergy;
-    double _bgEnergy;
-    double _fgTime;
-    double _bgTime;
-    double _bgAudioTime;
-    double _bgLocationTime;
-    NSArray *_rootNodeEnergyRows;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void):(double)arg1;
 - (void);
-- (void);
-- (id);
+- (id)~;
 - (id);
 - (double);
 - (double);
@@ -36,19 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)d;
 - (void);
 - (void);
 
 // Remaining properties
-@property double bgAudioTime; // @synthesize bgAudioTime=_bgAudioTime;
-@property double bgEnergy; // @synthesize bgEnergy=_bgEnergy;
-@property double bgLocationTime; // @synthesize bgLocationTime=_bgLocationTime;
-@property double bgTime; // @synthesize bgTime=_bgTime;
-@property double fgEnergy; // @synthesize fgEnergy=_fgEnergy;
-@property double fgTime; // @synthesize fgTime=_fgTime;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSArray *rootNodeEnergyRows; // @synthesize rootNodeEnergyRows=_rootNodeEnergyRows;
 
 @end
 

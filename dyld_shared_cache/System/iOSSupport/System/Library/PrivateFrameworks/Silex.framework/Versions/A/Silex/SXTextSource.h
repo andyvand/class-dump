@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSMutableIndexSet, NSString, SXTextSourceDefaults;
-@protocol SXDocumentLanguageProviding, SXFontAttributesConstructor, SXSmartFieldFactory, SXTextSourceDataSource, SXTextStyleFontDescribing;
+@class SXTextSourceDefaults;
+@protocol SXTextSourceDataSource;
 
 @interface SXTextSource
 {
     id <SXTextSourceDataSource> _dataSource;
-    NSString *_string;
-    SXTextSourceDefaults *_defaults;
-    id <SXSmartFieldFactory> _smartFieldFactory;
-    NSMutableIndexSet *_deletedRangeOffsets;
-    NSMutableIndexSet *_insertedRangeOffsets;
-    NSMutableIndexSet *_rangesExcludedOfParagraphSpacing;
-    id <SXFontAttributesConstructor> _fontAttributeConstructor;
-    id <SXTextStyleFontDescribing> _defaultFontDescribing;
-    id <SXDocumentLanguageProviding> _documentLanguageProvider;
 }
 
 - (void);
@@ -36,7 +27,7 @@
 - (int);
 - (int);
 - (id);
-- (id);
+- (id)h;
 - (long long);
 - (id);
 - (id);
@@ -54,23 +45,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)U;
 - (id);
 - (void)áÝ°!lBùïÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <SXTextSourceDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) id <SXTextStyleFontDescribing> defaultFontDescribing; // @synthesize defaultFontDescribing=_defaultFontDescribing;
 @property(readonly, nonatomic) SXTextSourceDefaults *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) NSMutableIndexSet *deletedRangeOffsets; // @synthesize deletedRangeOffsets=_deletedRangeOffsets;
-@property(readonly, nonatomic) id <SXDocumentLanguageProviding> documentLanguageProvider; // @synthesize documentLanguageProvider=_documentLanguageProvider;
-@property(readonly, nonatomic) id <SXFontAttributesConstructor> fontAttributeConstructor; // @synthesize fontAttributeConstructor=_fontAttributeConstructor;
-@property(retain, nonatomic) NSMutableIndexSet *insertedRangeOffsets; // @synthesize insertedRangeOffsets=_insertedRangeOffsets;
-@property(readonly, nonatomic) NSLocale *locale;
-@property(retain, nonatomic) NSMutableIndexSet *rangesExcludedOfParagraphSpacing; // @synthesize rangesExcludedOfParagraphSpacing=_rangesExcludedOfParagraphSpacing;
-@property(readonly, nonatomic) id <SXSmartFieldFactory> smartFieldFactory; // @synthesize smartFieldFactory=_smartFieldFactory;
-@property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

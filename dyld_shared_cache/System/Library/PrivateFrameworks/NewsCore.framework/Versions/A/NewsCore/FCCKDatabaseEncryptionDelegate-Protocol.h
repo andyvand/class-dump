@@ -5,5 +5,6 @@
 //
 
 @protocol FCCKDatabaseEncryptionDelegate
+- (void)NSString"8@"NSString"16@"NSString"24;
 @end
 

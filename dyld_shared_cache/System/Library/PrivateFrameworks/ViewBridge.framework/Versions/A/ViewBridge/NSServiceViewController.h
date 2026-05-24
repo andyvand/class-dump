@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSServiceViewControllerAuxiliary, NSString, NSViewServiceMarshal, NSWindow;
-@protocol NSSecureCoding;
+@class NSServiceViewControllerAuxiliary, NSViewServiceMarshal;
 
 @interface NSServiceViewController
 {
     NSServiceViewControllerAuxiliary *_aux;
-    unsigned int _superLoadViewInProgress:1;
-    unsigned int _setViewIgnoredGeometry:1;
-    struct os_unfair_lock_s _retainReleaseLock;
 }
 
 + (void);
 + (void);
 + (_Bool);
-+ (id);
++ (id)^;
 + (_Bool);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (unsigned long long);
 + (_Bool);
 + (void);
 + (unsigned int);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (unsigned long long);
@@ -42,7 +38,7 @@
 + (id);
 + (id)6@0:8@"NSString"16B24B28B32 /* Error: Ran out of types for this method. */;
 + (id)tifier:(struct _NSZone *)arg1 frameInScreenCoords:hostWindowKind:hostWindowBase:reply:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void);
+- (void)q`;
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -50,7 +46,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)L;
 - (struct os_unfair_lock_s *);
 - (id);
 - (_Bool);
@@ -67,22 +63,22 @@
 - (_Bool);
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)`I;
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)7;
 - (_Bool);
 - (unsigned int);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)T;
 - (void);
 - (void);
 - (id);
@@ -104,55 +100,40 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)�(S;
+- (id)';
 - (id);
 - (id);
 - (CDStruct_4c969caf);
-- (void);
-- (void);
-- (id);
+- (void)6$;
+- (void);
+- (id)�;
 - (void);
 - (id);
 - (id);
 - (oneway void);
 - (id);
-- (id);
+- (id)b;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)nished;
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id)Á-°!,Gù}1°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) _Bool allowsImplicitResizeRequests;
-@property(readonly) _Bool allowsWindowFrameOriginChanges;
-@property(readonly) unsigned int callsToSetViewCount;
-@property(readonly) _Bool controllerIsMarzipan;
-@property(readonly) CDStruct_4c969caf hostAppAuditToken;
-@property(readonly) NSObject<NSSecureCoding> *hostAppClientParameters;
-@property(readonly) unsigned int hostSDKVersion;
-@property(readonly) _Bool isValid;
-@property(readonly) _Bool makesExplicitResizeRequests;
 @property NSViewServiceMarshal *marshal;
-@property(readonly) _Bool mostRecentCallToSetViewWasNonNil;
-@property(readonly) NSString *remoteViewIdentifier;
-@property(readonly) struct CGSize remoteViewSize;
-@property(readonly) NSString *serviceViewControllerIdentifier;
-@property(readonly) NSWindow *serviceWindow;
-@property(readonly) _Bool windowSizeConstraintsShouldTrackRemoteView;
 
 @end
 

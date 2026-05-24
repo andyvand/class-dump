@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingMediaContainer, HMDCameraRecordingMediaContainerParameters, NSData;
+@class HMDCameraRecordingMediaContainer;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingMediaContainerConfiguration
 {
     HMDCameraRecordingMediaContainer *_container;
-    HMDCameraRecordingMediaContainerParameters *_parameters;
 }
 
 + (_Bool)¤%;8?Æ;
@@ -26,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDCameraRecordingMediaContainer *container; // @synthesize container=_container;
-@property(readonly, copy, nonatomic) HMDCameraRecordingMediaContainerParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

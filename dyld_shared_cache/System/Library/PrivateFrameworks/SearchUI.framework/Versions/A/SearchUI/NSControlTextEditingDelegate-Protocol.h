@@ -9,8 +9,9 @@
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (_Bool)cessfully set in the amai object;
 - (void)ù2Ð1Â0@ù
 × ;
-- (_Bool)ExitVersionBrowser:(NSControl *)arg1;
+- (_Bool)windowWillExitVersionBrowser:(NSControl *)arg1;
 @end
 

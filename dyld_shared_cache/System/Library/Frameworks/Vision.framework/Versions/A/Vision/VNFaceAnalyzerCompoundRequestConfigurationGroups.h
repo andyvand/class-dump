@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface VNFaceAnalyzerCompoundRequestConfigurationGroups
 {
     NSMutableDictionary *_generalConfigurations;
-    NSMutableDictionary *_observationGroupConfigurations;
 }
 
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (unsigned long long);

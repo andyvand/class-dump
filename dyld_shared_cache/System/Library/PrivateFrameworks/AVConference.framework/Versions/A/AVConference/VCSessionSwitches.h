@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCSessionSwitches
 {
     unsigned long long _switches;
-    NSString *_conversationID;
 }
 
 + (float);
@@ -19,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties

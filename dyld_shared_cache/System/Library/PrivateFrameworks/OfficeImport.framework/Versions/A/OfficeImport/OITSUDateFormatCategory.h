@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface OITSUDateFormatCategory
 {
     struct __CFDateFormatter *_initialFormatter;
-    NSMutableArray *_entries;
 }
 
 - (id);
@@ -19,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 
 @end

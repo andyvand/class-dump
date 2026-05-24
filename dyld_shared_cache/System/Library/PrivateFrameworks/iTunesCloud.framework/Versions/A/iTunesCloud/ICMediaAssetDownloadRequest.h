@@ -6,31 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICContentKeySession, ICStoreMediaResponseItem, ICStoreRequestContext, ICURLRequest, ICURLResponse, ICURLSession, NSData, NSError, NSMutableDictionary, NSNumber, NSString, NSURL;
+@class ICStoreRequestContext, NSURL;
 
 @interface ICMediaAssetDownloadRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    ICStoreMediaResponseItem *_storeMediaResponseItem;
-    NSMutableDictionary *_additionalHTTPHeaderFields;
-    ICURLSession *_downloadSession;
-    ICURLRequest *_request;
-    ICURLResponse *_response;
-    ICContentKeySession *_contentKeySession;
-    NSError *_keyDeliveryError;
-    _Bool _allowsCellularData;
-    _Bool _allowsProxyCellularData;
-    _Bool _allowsCellularFallback;
-    _Bool _allowDownloadOnConstrainedNetworks;
-    _Bool _discretionary;
-    _Bool _requiresPower;
-    _Bool _prefersHLSAsset;
-    _Bool _prefersLossless;
-    _Bool _prefersMultichannel;
-    NSURL *_destinationURL;
-    NSData *_resumeData;
-    NSNumber *_minimumBitrate;
-    NSNumber *_maximumSampleRate;
 }
 
 - (void);
@@ -58,16 +38,16 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (id);
+- (void)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v};
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)lientAvailabilityService;
+- (void)ICCloudClientAvailabilityService;
 - (_Bool)CåÎ|iÒë9ôQ³êgä­´ÚÁ¿ð&$©0»Í²Û8Oö~"u#ÓÙub-ù­Ñ0®ÛÌþ[ÂA¸°«³ÐçqK[Øü5Ý\ÍÀÞ·¥lçh=u½ðS=c£uõ²3S!`äEáÙ¶òûUªë;Ë%®Ä¶³e®ÎÔÇY]2NëÐIwc1ËØå¸óèÕ<éÏE:§Â±xl'?fLZ^vÇVH²ªUf¿+·R<êÅ
 ¨<W«¿;
 ÐõlÛPúóþ^n*î_z¦)jì3W
@@ -76,26 +56,7 @@
 - (id)zôÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowDownloadOnConstrainedNetworks; // @synthesize allowDownloadOnConstrainedNetworks=_allowDownloadOnConstrainedNetworks;
-@property(nonatomic) _Bool allowsCellularData; // @synthesize allowsCellularData=_allowsCellularData;
-@property(nonatomic) _Bool allowsCellularFallback; // @synthesize allowsCellularFallback=_allowsCellularFallback;
-@property(nonatomic) _Bool allowsProxyCellularData; // @synthesize allowsProxyCellularData=_allowsProxyCellularData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(nonatomic, getter=isDiscretionary) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *maximumSampleRate; // @synthesize maximumSampleRate=_maximumSampleRate;
-@property(copy, nonatomic) NSNumber *minimumBitrate; // @synthesize minimumBitrate=_minimumBitrate;
-@property(nonatomic) _Bool prefersHLSAsset; // @synthesize prefersHLSAsset=_prefersHLSAsset;
-@property(nonatomic) _Bool prefersLossless; // @synthesize prefersLossless=_prefersLossless;
-@property(nonatomic) _Bool prefersMultichannel; // @synthesize prefersMultichannel=_prefersMultichannel;
-@property(nonatomic) _Bool requiresPower; // @synthesize requiresPower=_requiresPower;
-@property(copy, nonatomic) NSData *resumeData; // @synthesize resumeData=_resumeData;
-@property(readonly) Class superclass;
 
 @end
 

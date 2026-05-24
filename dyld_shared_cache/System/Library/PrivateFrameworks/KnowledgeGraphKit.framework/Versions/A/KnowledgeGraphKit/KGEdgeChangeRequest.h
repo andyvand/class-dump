@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol KGEdge;
 
 @interface KGEdgeChangeRequest
 {
     id <KGEdge> _edge;
-    NSDictionary *_properties;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <KGEdge> edge; // @synthesize edge=_edge;
-@property(readonly, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, TTRMUIPopUpButton;
-
 @interface TTRMUIPopUpButtonCell
 {
     _Bool _useAlternateTitle;
-    NSDictionary *_enabledTitleAttributes;
-    NSDictionary *_disabledTitleAttributes;
-    TTRMUIPopUpButton *_uiPopUpbutton;
 }
 
 - (_Bool);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)compactLandscapeTopOffsetRatio;
 - (id);
 - (id);
 - (id);
@@ -32,9 +27,6 @@
 - (void)mÿÄ¡;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *disabledTitleAttributes; // @synthesize disabledTitleAttributes=_disabledTitleAttributes;
-@property(copy, nonatomic) NSDictionary *enabledTitleAttributes; // @synthesize enabledTitleAttributes=_enabledTitleAttributes;
-@property(nonatomic) __weak TTRMUIPopUpButton *uiPopUpbutton; // @synthesize uiPopUpbutton=_uiPopUpbutton;
 @property(nonatomic) _Bool useAlternateTitle; // @synthesize useAlternateTitle=_useAlternateTitle;
 
 @end

@@ -4,44 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableSet, NSObject, NSSet, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_source, STMServiceProtocol;
+@class NSXPCConnection;
 
 @interface STMTelemetryController
 {
     double _telemetryDelay;
-    NSObject<OS_dispatch_source> *_timer;
-    NSXPCConnection *_connection;
-    NSObject<STMServiceProtocol> *_proxy;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableSet *_completionBlocks;
-    NSDate *_lastReceivedDataDate;
-    NSDate *_startCalculatingDate;
-    NSArray *_disks;
-    NSArray *_opticalDisks;
-    NSArray *_categories;
-    NSSet *_sidebarItems;
 }
 
 - (id);
-- (id);
+- (id)s;
+- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)`	;
 - (void);
 - (void);
 - (void);
@@ -49,15 +27,25 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void)(;
+- (void);
+- (void);
+- (void)?׀;
 - (void);
 - (id);
-- (id);
 - (void);
+- (id)P;
+- (void);
+- (void);
+- (id)assetPurgeFieldsPurgeabilityLevelFromPurgeabilityLevel: /* Error: Ran out of types for this method. */;
+- (void)dateInterval;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -67,16 +55,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSArray *categories; // @synthesize categories=_categories;
-@property(retain) NSMutableSet *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain) NSArray *disks; // @synthesize disks=_disks;
-@property(retain) NSDate *lastReceivedDataDate; // @synthesize lastReceivedDataDate=_lastReceivedDataDate;
-@property(retain) NSArray *opticalDisks; // @synthesize opticalDisks=_opticalDisks;
-@property(retain, nonatomic) NSObject<STMServiceProtocol> *proxy; // @synthesize proxy=_proxy;
-@property(retain) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(retain) NSSet *sidebarItems; // @synthesize sidebarItems=_sidebarItems;
-@property(retain) NSDate *startCalculatingDate; // @synthesize startCalculatingDate=_startCalculatingDate;
 
 @end
 

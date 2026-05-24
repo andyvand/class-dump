@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableString *_string;
 }
 
-- (id);
+- (id)ka;
 - (void);
 - (id);
 - (void);

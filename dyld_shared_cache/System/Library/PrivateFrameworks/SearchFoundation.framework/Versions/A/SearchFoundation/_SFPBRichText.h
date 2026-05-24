@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _SFPBGraphicalFloat, _SFPBText;
+@class _SFPBText;
 
 @interface _SFPBRichText
 {
     _SFPBText *_text;
-    _SFPBGraphicalFloat *_starRating;
-    NSString *_contentAdvisory;
-    NSArray *_icons;
-    NSArray *_formattedTextPieces;
 }
 
 @end

@@ -10,11 +10,6 @@
 @interface FBSProcessTerminationRequest
 {
     id <FBSProcess> _process;
-    NSString *_label;
-    unsigned long long _options;
-    long long _reportType;
-    long long _exceptionCode;
-    NSString *_explanation;
 }
 
 + (id);
@@ -27,12 +22,12 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)!;
 - (long long);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)@  e;
+- (id)clearScreenWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -40,19 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long exceptionCode; // @synthesize exceptionCode=_exceptionCode;
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) __weak id <FBSProcess> process; // @synthesize process=_process;
-@property(nonatomic) long long reportType; // @synthesize reportType=_reportType;
-@property(readonly) Class superclass;
 
 @end
 

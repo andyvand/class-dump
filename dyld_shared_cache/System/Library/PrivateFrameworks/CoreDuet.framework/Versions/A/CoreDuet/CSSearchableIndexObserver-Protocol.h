@@ -7,6 +7,11 @@
 @class NSArray;
 
 @protocol CSSearchableIndexObserver
-- (void):(NSArray *)arg1 deviceIdentifier:sequenceNumber: /* Error: Ran out of types for this method. */;
+- (void)initWithEventsToAdd:(NSArray *)arg1 eventIDsToDelete:deviceIdentifier:sequenceNumber: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void);
+- (void)ր;
+- (NSArray *);
 @end
 

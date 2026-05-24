@@ -4,17 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFCardViewAppearFeedback;
+
 @protocol SFFeedbackListener
 
 @optional
+- (void)?;
+- (void)!;
+- (void)G;
+- (void)stringForKeyHierarchy:(SFCardViewAppearFeedback *)arg1 subscriptionContext:error: /* Error: Ran out of types for this method. */;
+- (void);
 - (void)!\@ù1Æ!1Â0@ù
 × ;
 - (void);
 - (void)1Â0@ù
 × ;
 - (void)ionEngagementFeedback"16;
-- (void);
-- (void)ementFeedback;
+- (void)_CPCommandEngagementFeedback;
 - (void)ìê;
 @end
 

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface SPCBPeripheralKeyRequest
 {
     NSDate *_date;
-    NSArray *_requestParameters;
 }
 
 + (_Bool);
-- (id);
+- (id)V;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)scaleFactorForThumbnailWithSize:(id)arg1 constraints:targetPxSize:shouldScaleUpPreview:maxUpScale: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(copy, nonatomic) NSArray *requestParameters; // @synthesize requestParameters=_requestParameters;
 
 @end
 

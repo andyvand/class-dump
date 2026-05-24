@@ -7,8 +7,6 @@
 @interface FTCServiceMonitor
 {
     long long _availability;
-    long long _type;
-    int _token;
 }
 
 - (void);

@@ -5,5 +5,7 @@
 //
 
 @protocol WFExternalUIPresenterInterface
+- (void);
+- (void)z;
 @end
 

@@ -8,14 +8,12 @@ __attribute__((visibility("hidden")))
 @interface PGSpecificationBasedMusicCurator
 {
     id maxAppleMusicSongs;
-    id curationSpecification;
-    id fetchOptions;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)setAfterLaunch;
+- (void)maximumVelocityInKmhToResetAfterLaunch;
 
 @end
 

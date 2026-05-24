@@ -7,35 +7,22 @@
 @class NSColor, NSString;
 
 @protocol MKInfoCardTheme
+- (NSColor *);
+- (NSColor *)28@36;
+- (NSColor *)setBatchedTimerInFlight: /* Error: Ran out of types for this method. */;
+- (NSColor *)setBatchedTaskCache: /* Error: Ran out of types for this method. */;
+- (NSColor *)setBatchMessagesSentCount: /* Error: Ran out of types for this method. */;
+- (NSColor *)_xpcConnectionHelper;
+- (NSColor *)_updateType;
+- (NSColor *)_taskUUID;
+- (NSColor *)e BGSQL copy open database failed;
+- (NSString *)s;
+- (_Bool)ply:no response /* Error: Ran out of types for this method. */;
+- (NSColor *)BackgroundProcessing::TaskMetadata /* Error: Ran out of types for this method. */;
+- (NSColor *)BackgroundProcessing::SystemConditionsNetwork /* Error: Ran out of types for this method. */;
+- (NSColor *)BackgroundProcessing::SystemConditionsInUseOrMotion /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *buttonHighlightedColor;
-@property(readonly, nonatomic) NSColor *buttonNormalColor;
-@property(readonly, nonatomic) NSColor *cardBackgroundColor;
-@property(readonly, nonatomic) NSColor *disabledActionRowBackgroundColor;
-@property(readonly, nonatomic) NSColor *disabledActionRowTextColor;
-@property(readonly, nonatomic) NSColor *headerPrimaryButtonHighlightedColor;
-@property(readonly, nonatomic) NSColor *headerPrimaryButtonNormalColor;
-@property(readonly, nonatomic) NSColor *highlightedTintColor;
-@property(readonly, nonatomic) _Bool isDarkTheme;
-@property(readonly, nonatomic) NSString *javaScriptName;
-@property(readonly, nonatomic) NSColor *lightTextColor;
-@property(readonly, nonatomic) NSColor *normalActionRowBackgroundColor;
-@property(readonly, nonatomic) NSColor *normalActionRowBackgroundPressedColor;
-@property(readonly, nonatomic) NSColor *normalBackgroundColor;
-@property(readonly, nonatomic) NSColor *ratingBarBackgroundColor;
-@property(readonly, nonatomic) NSColor *ratingBarEndColor;
-@property(readonly, nonatomic) NSColor *ratingBarStartColor;
-@property(readonly, nonatomic) NSColor *rowColor;
-@property(readonly, nonatomic) NSColor *selectedRowColor;
-@property(readonly, nonatomic) NSColor *separatorLineColor;
-@property(readonly, nonatomic) NSColor *tertiaryTextColor;
-@property(readonly, nonatomic) NSColor *textColor;
 @property(readonly, nonatomic) unsigned long long themeType;
-@property(readonly, nonatomic) NSColor *tintColor;
-@property(readonly, nonatomic) NSColor *transitChevronBackgroundColor;
-@property(readonly, nonatomic) NSColor *transitDelayedTextColor;
-@property(readonly, nonatomic) NSColor *transitIncidentBackgroundColor;
-@property(readonly, nonatomic) NSColor *transitOntimeTextColor;
 @end
 

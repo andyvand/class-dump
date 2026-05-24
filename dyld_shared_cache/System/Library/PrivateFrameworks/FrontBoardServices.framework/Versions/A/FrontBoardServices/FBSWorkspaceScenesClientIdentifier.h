@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, BSServiceConnectionEndpoint, NSString;
-@protocol BSServiceConnectionHost;
+@class BSServiceConnectionEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface FBSWorkspaceScenesClientIdentifier
 {
     BSServiceConnectionEndpoint *_hostEndpoint;
-    BSServiceConnection<BSServiceConnectionHost> *_peer;
-    NSString *_description;
-    int _host;
 }
 
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (void);
 

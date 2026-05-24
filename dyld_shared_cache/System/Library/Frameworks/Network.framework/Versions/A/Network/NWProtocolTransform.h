@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NWEndpoint;
+@class NSObject;
 @protocol OS_nw_protocol_transform;
 
 @interface NWProtocolTransform
@@ -12,7 +12,7 @@
     NSObject<OS_nw_protocol_transform> *_internalTransform;
 }
 
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 - (void);
@@ -31,32 +31,23 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)rf (0x%x);
 - (id);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void)p;
 - (int);
 - (void)ublic}s called with null results;
-- (void)ndshake;
+- (void)nw_ws_options_set_skip_handshake;
 - (void);
 - (int);
 
 // Remaining properties
-@property(nonatomic) int dataMode;
-@property(nonatomic) _Bool disablePathFallback;
-@property(nonatomic) unsigned long long fallbackMode;
 @property(retain) NSObject<OS_nw_protocol_transform> *internalTransform; // @synthesize internalTransform=_internalTransform;
-@property(nonatomic) int multipathService;
-@property(nonatomic) _Bool noProxy;
-@property(nonatomic) _Bool prohibitDirect;
-@property(copy, nonatomic) NWEndpoint *replacementEndpoint;
-@property(nonatomic) _Bool tfo;
-@property(nonatomic) _Bool tfoNoCookie;
 
 @end
 

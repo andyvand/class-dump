@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDCoreSpotlightSearchableItemGenerator, NSNumber, NSString;
+@class IMDCoreSpotlightSearchableItemGenerator;
 
 @interface IMDCoreSpotlightIndexingManager
 {
@@ -15,18 +15,23 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)iPhone;
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -35,13 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)';
+- (id)@y;
 - (void);
 - (id);
 - (void);
@@ -52,15 +52,7 @@
 - (void)chmentRecordsFilteredUsingPredicate:limit:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setLastIndexDeleteReason:) NSNumber *_lastIndexDeleteReason;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMDCoreSpotlightSearchableItemGenerator *searchableItemGenerator; // @synthesize searchableItemGenerator=_searchableItemGenerator;
-@property(readonly) Class superclass;
 
 @end
 

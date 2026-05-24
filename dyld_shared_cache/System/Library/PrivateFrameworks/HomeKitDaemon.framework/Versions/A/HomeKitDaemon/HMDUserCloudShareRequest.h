@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserCloudShareRequest
 {
     NSUUID *_identifier;
-    NSDate *_startDate;
-    NSString *_containerID;
-    HMDHome *_home;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)ataSource;
-- (void)rifyZones;
+- (id)HMDCHIPAccessoryDataSource;
+- (void)VerifyZones;
 
 // Remaining properties
-@property(readonly) NSString *containerID; // @synthesize containerID=_containerID;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

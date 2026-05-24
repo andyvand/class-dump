@@ -8,7 +8,6 @@
 {
     id onChanged;
     id onEnd;
-    id panDelegate;
 }
 
 - (void);

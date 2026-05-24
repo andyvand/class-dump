@@ -11,14 +11,13 @@
 @interface FPModifyFavoritesOperation : FPTransformOperation
 {
     NSArray *_ranks;
-    _Bool _isUnfavorite;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)A>&!8DùÑç)Ð1Â0@ù
 × ;

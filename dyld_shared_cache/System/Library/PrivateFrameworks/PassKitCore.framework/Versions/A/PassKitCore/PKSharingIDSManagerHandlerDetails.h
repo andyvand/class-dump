@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAccountUser, PKFamilyMember;
+@class PKFamilyMember;
 
 @interface PKSharingIDSManagerHandlerDetails
 {
     PKFamilyMember *_familyMember;
-    PKAccountUser *_accountUser;
 }
 
 - (id);
@@ -17,13 +16,12 @@
 - (id);
 - (id);
 - (id);
+- (id)	;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)pass and non active device credential;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAccountUser *accountUser; // @synthesize accountUser=_accountUser;
 @property(readonly, nonatomic) PKFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
 
 @end

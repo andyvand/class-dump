@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLUniformTypeIdentifier;
-
 @protocol PLResourceIdentity
+- (unsigned int)in family permissions button action - skipping;
 - (_Bool)@"NSManagedObjectID",R,N,V_monthKeyAssetPrivate;
-- (unsigned int)t;
+- (unsigned int)thumbnailAsset;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isOriginalResource;
-@property(readonly, nonatomic) unsigned int recipeID;
 @property(readonly, nonatomic) unsigned int resourceType;
-@property(readonly, nonatomic) PLUniformTypeIdentifier *uniformTypeIdentifier;
-@property(readonly, nonatomic) unsigned int version;
 @end
 

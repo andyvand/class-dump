@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKAccessoryGroup, BKDevice, NSData, NSString, NSUUID;
+@class NSString;
 
 @interface BKAccessory
 {
     unsigned int _type;
-    NSUUID *_uuid;
-    unsigned int _flags;
-    NSString *_name;
-    BKAccessoryGroup *_accessoryGroup;
-    BKDevice *_device;
 }
 
 - (_Bool);
@@ -33,11 +28,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) BKAccessoryGroup *accessoryGroup; // @synthesize accessoryGroup=_accessoryGroup;
-@property(readonly, nonatomic) BKDevice *device; // @synthesize device=_device;
-@property(readonly, nonatomic) _Bool isRemovable;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSData *uid;
 
 @end
 

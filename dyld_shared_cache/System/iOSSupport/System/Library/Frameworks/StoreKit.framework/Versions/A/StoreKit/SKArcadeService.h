@@ -9,8 +9,8 @@
 }
 
 + (void);
-+ (void);
-+ (void);
++ (void)t using trait collection:(unsigned long long)arg1 %ld.;
++ (void)normalize interaction point using point %s.;
 
 @end
 

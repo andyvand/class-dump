@@ -5,5 +5,6 @@
 //
 
 @protocol RPPrivateDiscoveryXPCClientInterface
+- (void)h;
 @end
 

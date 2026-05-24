@@ -9,8 +9,6 @@
 @interface PhotosUICore.TungstenFirstFrameObserver
 {
     id __hostingController;
-    id __didRenderFirstFrame;
-    id _$observationRegistrar;
 }
 
 - (id);

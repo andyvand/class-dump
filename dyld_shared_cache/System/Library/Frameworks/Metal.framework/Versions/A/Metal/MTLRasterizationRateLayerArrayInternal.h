@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void)compilerMaximizationReferenceCount;
+- (void)_compilerMaximizationReferenceCount;
 - (id);
 
 @end

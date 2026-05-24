@@ -7,7 +7,6 @@
 @interface FamilyCircle.FACancelChildTransferRequest
 {
     id familyCircleRequest;
-    id email;
 }
 
 @end

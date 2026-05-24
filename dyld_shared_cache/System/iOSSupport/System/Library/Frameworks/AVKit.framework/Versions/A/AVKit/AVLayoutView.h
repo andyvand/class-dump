@@ -6,35 +6,16 @@
 
 #import <AVKit/AVView.h>
 
-@class AVCABackdropLayerView, AVCustomStackLayout, AVLayoutItemAttributes, NSArray, NSMutableArray, NSString, UIView, UIVisualEffectView;
-@protocol AVLayoutViewItem;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVLayoutView : AVView
 {
     _Bool _removed;
-    _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    _Bool _collapsedOrExcluded;
-    _Bool _collapsed;
-    _Bool _included;
-    _Bool _prefersLowQualityEffects;
-    _Bool _layoutDirty;
-    _Bool _stackLayoutNeedsUpdate;
-    AVLayoutItemAttributes *_layoutAttributes;
-    NSArray *_arrangedSubviews;
-    unsigned long long _shapeStyle;
-    NSString *_debugIdentifier;
-    NSMutableArray *_flattenedArrangedSubviewsInLayoutOrder;
-    AVCustomStackLayout *_currentStackLayout;
-    AVCABackdropLayerView *_backdropLayerView;
-    UIVisualEffectView *_secondaryMaterialOverlayView;
-    UIView<AVLayoutViewItem> *_targetViewForSecondaryMaterialOverlayView;
-    struct CGSize _extrinsicContentSize;
 }
 
 + (Class);
-- (unsigned long long);
+- (unsigned long long)CKDFetchArchivedRecordsOperation;
 - (void);
 - (void);
 - (_Bool);
@@ -47,81 +28,55 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets)EUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void)wifihistorical;
 - (id);
+- (id)Events is nil;
 - (_Bool);
 - (void);
+- (_Bool)LPImageAttachmentSubstitute;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)applyNativeCKValue:(_Bool)arg1 fromSource:associatingWith:toModel:propertyNamed: /* Error: Ran out of types for this method. */;
+- (id)tion;
+- (void)ata) SELECT ?1, ?2, ?3, COALESCE(external_id, randomblob(16)), 0, uuid FROM record_v2 WHERE store_v2_id = ?1 AND parent_uuid = ?4 AND model_data IS NOT NULL;
 - (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void)0@ù
 × ;
 - (void)!ðFù[Ð1Â0@ù
 × ;
-- (void)gurationForScrubbingGesturePlatformAdapter:(id)arg1;
+- (void)configurationForScrubbingGesturePlatformAdapter:(id)arg1;
 - (void)_contentView;
 - (void)delegate;
 - (void)x;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *arrangedSubviews; // @synthesize arrangedSubviews=_arrangedSubviews;
-@property(retain, nonatomic) AVCABackdropLayerView *backdropLayerView; // @synthesize backdropLayerView=_backdropLayerView;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded; // @synthesize collapsedOrExcluded=_collapsedOrExcluded;
-@property(nonatomic) struct NSDirectionalEdgeInsets contentLayoutMargins;
-@property(retain, nonatomic) AVCustomStackLayout *currentStackLayout; // @synthesize currentStackLayout=_currentStackLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
 @property(retain, nonatomic) NSMutableArray *flattenedArrangedSubviewsInLayoutOrder; // @synthesize flattenedArrangedSubviewsInLayoutOrder=_flattenedArrangedSubviewsInLayoutOrder;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic, getter=isLayoutDirty) _Bool layoutDirty; // @synthesize layoutDirty=_layoutDirty;
-@property(nonatomic) _Bool prefersLowQualityEffects; // @synthesize prefersLowQualityEffects=_prefersLowQualityEffects;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(retain, nonatomic) UIVisualEffectView *secondaryMaterialOverlayView; // @synthesize secondaryMaterialOverlayView=_secondaryMaterialOverlayView;
-@property(nonatomic) unsigned long long shapeStyle; // @synthesize shapeStyle=_shapeStyle;
-@property(nonatomic) _Bool stackLayoutNeedsUpdate; // @synthesize stackLayoutNeedsUpdate=_stackLayoutNeedsUpdate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView<AVLayoutViewItem> *targetViewForSecondaryMaterialOverlayView; // @synthesize targetViewForSecondaryMaterialOverlayView=_targetViewForSecondaryMaterialOverlayView;
 
 @end
 

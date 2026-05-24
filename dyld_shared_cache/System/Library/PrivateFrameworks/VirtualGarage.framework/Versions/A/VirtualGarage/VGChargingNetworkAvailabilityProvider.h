@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue, VGChargingNetworkAvailabilityProviderDelegate;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface VGChargingNetworkAvailabilityProvider
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <VGChargingNetworkAvailabilityProviderDelegate> _delegate;
-    NSArray *_suggestedNetworks;
-    NSArray *_otherNetworks;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *otherNetworks;
 @property(readonly, nonatomic) NSArray *suggestedNetworks;
-@property(readonly) Class superclass;
 
 @end
 

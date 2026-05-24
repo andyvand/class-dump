@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol PDSRemoteInternal
+- (void)%d;
+- (void)}@ Releasing busy count. Now busy = %d, UI busy = %d;
+- (void)g busy count. Now busy = %d, UI busy = %d;
+- (void)<rdar:(NSData *)arg1 //problem/11375454>!.;
+- (void)qlite3 operation failed with a SQLITE_BUSY. Please grab the crash report and attach to <rdar:(void (^)(NSDictionary *, NSError *))arg1 //problem/11375454>!.;
 @end
 

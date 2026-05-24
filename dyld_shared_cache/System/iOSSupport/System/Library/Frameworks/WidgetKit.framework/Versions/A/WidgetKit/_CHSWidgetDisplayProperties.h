@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)addAdditionalActionsToDictionaryRef:(id)arg1;
+- (id)addActionToDictionaryRef:(struct CGSize)arg1;
+- (id)addAKAnnotation:(double)arg1 toAnnotationDictionary:(unsigned long long)arg2;
+- (id)*;
 - (id);
 
 @end

@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
+- (void)showEnableAlert;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type;

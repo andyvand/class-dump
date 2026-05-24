@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBDateTimeRange, _INPBInteger, _INPBIntentMetadata, _INPBLocation, _INPBPaymentMethod;
+@class _INPBDateTimeRange, _INPBLocation;
 
 @protocol _INPBRequestRideIntent
-- (_Bool)asEndpointId;
+- (void);
+- (_INPBDateTimeRange *)k;
+- (_INPBLocation *)`;
+- (_Bool);
+- (_Bool)K;
+- (_Bool)hasEndpointId;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBLocation *dropOffLocation;
-@property(readonly, nonatomic) _Bool hasDropOffLocation;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasPartySize;
-@property(readonly, nonatomic) _Bool hasPaymentMethod;
-@property(readonly, nonatomic) _Bool hasPaymentMethodName;
-@property(readonly, nonatomic) _Bool hasPickupLocation;
-@property(readonly, nonatomic) _Bool hasPickupTime;
-@property(readonly, nonatomic) _Bool hasRideOptionName;
-@property(readonly, nonatomic) _Bool hasScheduledPickupTime;
-@property(nonatomic) _Bool hasUsesApplePayForPayment;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBInteger *partySize;
-@property(retain, nonatomic) _INPBPaymentMethod *paymentMethod;
-@property(retain, nonatomic) _INPBDataString *paymentMethodName;
-@property(retain, nonatomic) _INPBLocation *pickupLocation;
-@property(retain, nonatomic) _INPBDateTimeRange *pickupTime;
-@property(retain, nonatomic) _INPBDataString *rideOptionName;
-@property(retain, nonatomic) _INPBDateTimeRange *scheduledPickupTime;
-@property(nonatomic) _Bool usesApplePayForPayment;
 @end
 

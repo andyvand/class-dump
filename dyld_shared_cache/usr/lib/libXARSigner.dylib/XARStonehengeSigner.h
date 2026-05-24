@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface XARStonehengeSigner
 {
     NSString *_signingKey;
     long long _digestType;
-    NSURL *_inputXarFileURL;
-    NSURL *_outputXarFileURL;
-    NSArray *_certificates;
-    NSData *_digestToSign;
 }
 
 + (id);
@@ -32,18 +28,14 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(retain, nonatomic) NSData *digestToSign; // @synthesize digestToSign=_digestToSign;
-@property(readonly) long long digestType; // @synthesize digestType=_digestType;
 @property(retain, nonatomic) NSURL *inputXarFileURL; // @synthesize inputXarFileURL=_inputXarFileURL;
 @property(retain, nonatomic) NSURL *outputXarFileURL; // @synthesize outputXarFileURL=_outputXarFileURL;
-@property(readonly) NSString *signingKey; // @synthesize signingKey=_signingKey;
 
 @end
 

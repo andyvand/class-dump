@@ -6,15 +6,11 @@
 
 #import <QuartzComposer/QCObject.h>
 
-@class NSAffineTransform, QCRegion;
 @protocol QCImageProvider;
 
 @interface QCImage : QCObject
 {
     id <QCImageProvider> _provider;
-    NSAffineTransform *_transformation;
-    QCRegion *_domainOfDefinition;
-    void *_unused2[4];
 }
 
 + (void);
@@ -27,11 +23,19 @@
 + (id);
 + (id);
 + (id);
-+ (void)sforms;
++ (void)C3DTransformsStackSetTransforms;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (id)j	;
+- (id);
+- (id);
+- (id)9;
+- (id);
+- (id);
+- (id);
+- (id)67;
 - (id);
 - (id);
 - (id);
@@ -47,19 +51,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
-- (id);
+- (id);
 - (struct CGImage *);
 - (id);
 - (id);
@@ -75,14 +71,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)__DATA_CONST;
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)accessibilityWindow;
 - (id);
 
 @end

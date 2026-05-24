@@ -6,26 +6,25 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMAbstractView, DOMDocument, NSString, WebFrame;
+@class WebFrame;
 
 @interface DOMHTMLFrameElement : DOMHTMLElement
 {
     int _width;
-    int _height;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)h;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)MRContentItemMetadataProtobuf";
 - (id);
 - (void);
 - (id);
@@ -33,26 +32,13 @@
 - (int);
 - (int);
 - (id);
-- (void);
+- (void)lANEModel.ioSIDOptions=%u virtualANEModel.ioSIDErrorValue=%u;
 - (void);
 - (id)"8è¿;
 - (void)º\zO;
 
 // Remaining properties
-@property(readonly) DOMDocument *contentDocument;
 @property(readonly, nonatomic) WebFrame *contentFrame;
-@property(readonly) DOMAbstractView *contentWindow;
-@property(copy) NSString *frameBorder;
-@property(readonly) int height; // @synthesize height=_height;
-@property(copy) NSString *location;
-@property(copy) NSString *longDesc;
-@property(copy) NSString *marginHeight;
-@property(copy) NSString *marginWidth;
-@property(copy) NSString *name;
-@property _Bool noResize;
-@property(copy) NSString *scrolling;
-@property(copy) NSString *src;
-@property(readonly) int width; // @synthesize width=_width;
 
 @end
 

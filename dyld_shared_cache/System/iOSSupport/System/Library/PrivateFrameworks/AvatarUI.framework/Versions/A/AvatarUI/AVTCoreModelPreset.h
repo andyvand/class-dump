@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTPreset, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AVTCoreModelPreset
 {
     _Bool _defaultPreset;
-    NSDictionary *_tags;
-    AVTPreset *_preset;
 }
 
 + (id);
@@ -26,14 +24,9 @@
 - (id);
 - (id);
 - (void);
-- (id)ectClipping: /* Error: Ran out of types for this method. */;
+- (id)setCorrectClipping: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDefaultPreset) _Bool defaultPreset; // @synthesize defaultPreset=_defaultPreset;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, copy, nonatomic) NSString *localizedPairedName;
-@property(readonly, nonatomic) AVTPreset *preset; // @synthesize preset=_preset;
 @property(readonly, copy, nonatomic) NSDictionary *tags; // @synthesize tags=_tags;
 
 @end

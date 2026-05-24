@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, UITraitCollection, _UISystemIconAppearance;
+@class _UISystemIconAppearance;
 
 __attribute__((visibility("hidden")))
 @interface _UISystemIconAppearanceSceneComponent
@@ -12,14 +12,12 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int hasFetchedInitialAppearance;
     } _flags;
-    UIScene *_scene;
-    _UISystemIconAppearance *_appearance;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)etag;
+- (void)deleteReplayDBIfNotUnderFirstUnlock;
+- (id);
+- (void)er:%{private}s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -29,19 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)¸?«ÿ["ì;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) UITraitCollection *_traitOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITraitCollection",?,R,N
-
 @property(readonly, nonatomic) _UISystemIconAppearance *appearance; // @synthesize appearance=_appearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSRuleActionsType, EWSRulePredicatesType, NSString;
+@class NSString;
 
 @interface EWSRuleType
 {
     _Bool _IsEnabled;
-    _Bool _IsInError;
-    NSString *_RuleId;
-    NSString *_DisplayName;
-    long long _Priority;
-    EWSRulePredicatesType *_Conditions;
-    EWSRulePredicatesType *_Exceptions;
-    EWSRuleActionsType *_Actions;
 }
 
 + (id);
@@ -26,34 +19,20 @@
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)	;
 - (_Bool);
 - (id);
-- (id);
+- (id)kB;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)indexOfSelectedItem;
 - (void);
 - (void)4@ùQ%$ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) EWSRuleActionsType *Actions; // @synthesize Actions=_Actions;
-@property(retain, nonatomic) EWSRulePredicatesType *Conditions; // @synthesize Conditions=_Conditions;
-@property(copy, nonatomic) NSString *DisplayName; // @synthesize DisplayName=_DisplayName;
-@property(retain, nonatomic) EWSRulePredicatesType *Exceptions; // @synthesize Exceptions=_Exceptions;
-@property(nonatomic) _Bool IsEnabled; // @synthesize IsEnabled=_IsEnabled;
-@property(nonatomic) _Bool IsInError; // @synthesize IsInError=_IsInError;
-@property(nonatomic) long long Priority; // @synthesize Priority=_Priority;
 @property(copy, nonatomic) NSString *RuleId; // @synthesize RuleId=_RuleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

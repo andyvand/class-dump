@@ -7,12 +7,6 @@
 @interface TeaUI.CommandExecutionSource
 {
     id identifier;
-    id sourceView;
-    id sourceRect;
-    id sourceItem;
-    id location;
-    id commandTracker;
-    id onExecuteBlock;
 }
 
 @end

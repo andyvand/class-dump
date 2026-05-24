@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface DurationGroup
 {
     _Bool _wasChanged;
-    unsigned long long _groupId;
-    NSDate *_start;
-    NSDate *_end;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)lator was missing mapping for MPModelPropertySongVolumeAdjustment;
 - (unsigned long long);
 - (id);
 - (id)Ô ;
-- (void);
-- (void)onAdjustmentBakeInOptions;
+- (void)_needsPhotosKnowledgeGraph;
+- (void)PHAssetCreationAdjustmentBakeInOptions;
 - (void)ÿ;
 
 // Remaining properties
-@property(retain) NSDate *end; // @synthesize end=_end;
 @property(readonly) unsigned long long groupId; // @synthesize groupId=_groupId;
-@property(retain) NSDate *start; // @synthesize start=_start;
-@property _Bool wasChanged; // @synthesize wasChanged=_wasChanged;
 
 @end
 

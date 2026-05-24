@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDPhotoLibraryPerson
 {
     NSUUID *_UUID;
-    NSString *_name;
 }
 
-- (id);
-- (id);
+- (id)h_queue>",&,N,V_ioQueue;
+- (id)%lu blocked trip identifiers...;
 - (id);
 - (void);
 - (id);
@@ -24,11 +23,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (id)rom WiFi network info change notification:%@ /* Error: Ran out of types for this method. */;
-- (void)dingKey;
+- (void)HMDLightProfileEnableNaturalLightingCodingKey;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
 
 @end
 

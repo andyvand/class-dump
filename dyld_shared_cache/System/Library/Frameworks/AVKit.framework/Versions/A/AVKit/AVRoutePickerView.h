@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCustomRoutingController, AVMicaPackage, AVObservationController, AVOutputContext, AVPlayer, AVRoutePickerButton, AVRoutePickerRemoteViewController, AVRoutePickerViewRemoteViewService, NSColor, NSMutableDictionary, NSString;
-@protocol AVRoutePickerViewDelegate;
+@class AVObservationController;
 
 @interface AVRoutePickerView
 {
     AVObservationController *_observationController;
-    AVRoutePickerButton *_pickerButton;
-    AVMicaPackage *_pickerButtonMicaPackage;
-    NSColor *_defaultBorderedButtonColor;
-    NSColor *_defaultBorderlessButtonColor;
-    NSColor *_defaultHighlightButtonColor;
-    NSColor *_defaultActiveButtonColor;
-    NSMutableDictionary *_pickerButtonColors;
-    _Bool _airPlayActive;
-    AVRoutePickerRemoteViewController *_audioRoutesRemoteViewController;
-    AVOutputContext *_outputContext;
-    AVOutputContext *_defaultOutputContext;
-    _Bool _coordinatedPlaybackActive;
-    double _routePickerButtonImageHorizontalInset;
-    double _routePickerButtonImageVerticalInset;
-    _Bool _routeListAlwaysHasDarkAppearance;
-    _Bool _enabled;
-    _Bool _prioritizesVideoDevices;
-    NSString *_outputContextID;
-    _Bool _routePickerButtonRemainsHighlightedWhileRoutesPresented;
-    _Bool _included;
-    AVRoutePickerViewRemoteViewService *_routePickerViewRemoteViewService;
-    _Bool _routePickerButtonBordered;
-    _Bool canOnlyAppearInOverflowMenu;
-    _Bool included;
-    _Bool collapsed;
-    AVPlayer *_player;
-    long long _routingMethod;
-    id <AVRoutePickerViewDelegate> _delegate;
-    NSColor *_activeTintColor;
-    long long _routePickerButtonStyle;
-    AVCustomRoutingController *_customRoutingController;
 }
 
 - (void);
@@ -66,10 +34,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)__objc_ivar;
+- (void)__AUTH_CONST;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)__eh_frame;
 - (void);
 - (void);
 - (id);
@@ -85,8 +53,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)inlinePreviewQuickLookClientProperties;
+- (void)imageWrapperForType:(id)arg1 representation:(struct CGRect)arg2;
 - (long long);
 - (void);
 - (void);
@@ -96,47 +64,33 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (double);
+- (double)NSString",R,N,V_conversationIdentifier;
 - (void);
-- (_Bool);
+- (_Bool),V_subscriptionIDsToDelete;
 - (struct CGSize);
 - (id);
 - (_Bool);
+- (void);
 - (void);
+- (id).sinc.f32;
+- (id)_;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)y;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)M;
 - (id);
-- (void)eSelectedOption:(_Bool)arg1 withReason: /* Error: Ran out of types for this method. */;
+- (void)mediaOptionsController:(_Bool)arg1 didChangeSelectedOption:withReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *activeTintColor; // @synthesize activeTintColor=_activeTintColor;
-@property(retain, nonatomic) AVCustomRoutingController *customRoutingController; // @synthesize customRoutingController=_customRoutingController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVRoutePickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(nonatomic) _Bool prioritizesVideoDevices;
-@property(nonatomic, getter=isRoutePickerButtonBordered) _Bool routePickerButtonBordered; // @synthesize routePickerButtonBordered=_routePickerButtonBordered;
-@property(nonatomic) long long routePickerButtonStyle; // @synthesize routePickerButtonStyle=_routePickerButtonStyle;
 @property(nonatomic) long long routingMethod; // @synthesize routingMethod=_routingMethod;
-@property(readonly) Class superclass;
 
 @end
 

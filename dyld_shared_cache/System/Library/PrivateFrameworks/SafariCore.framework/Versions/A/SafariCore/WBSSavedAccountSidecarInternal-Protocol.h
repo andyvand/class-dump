@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WBSFileVaultRecoveryKeyDeviceInfo, WBSPair, WBSTOTPGenerator;
+@class NSString;
 
 @protocol WBSSavedAccountSidecarInternal
-- (NSString *)eInMemoryBookmarksToSideFile;
+- (void);
+- (void)R;
+- (_Bool);
+- (NSString *);
+- (NSString *)didSaveInMemoryBookmarksToSideFile;
 - (void)e);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalSites;
-@property(copy, nonatomic) NSString *customTitle;
-@property(retain, nonatomic) WBSFileVaultRecoveryKeyDeviceInfo *fileVaultRecoveryKeyDeviceInfo;
-@property(readonly, nonatomic) _Bool hasDataPreventingNonInteractiveMerge;
-@property(copy, nonatomic) NSArray *historyItems;
-@property(copy, nonatomic) NSString *notesEntry;
-@property(copy, nonatomic) NSString *originalContributorParticipantID;
-@property(copy, nonatomic) NSString *participantIDForUserThatMovedSavedAccountToRecentlyDeleted;
-@property(readonly, nonatomic) WBSPair *prefixedSharableDataForSidecarAndPasskeyAdditionsDictionaries;
-@property(retain, nonatomic) WBSTOTPGenerator *totpGenerator;
 @property(copy, nonatomic) NSString *user;
 @end
 

@@ -12,7 +12,7 @@
 }
 
 + (void);
-+ (id)entIdentityIgnoringFilterCount;
++ (id)eventNotificationsForCurrentIdentityIgnoringFilterCount;
 + (void)9_GGA0_GtGACG_ù_SgADyAByAGò_ACGAKyïÛSgGGSgADyAByAEyAAyAG_AZ+ßyADyADyAhKyA24_SgGGAKyXÛSgGG_Qo_SgtGG®_ACGA73_GSgADyAByAGßVyñWGACGA73_GADyAByAgAy___SgA91_yw[GSgw_SgtGA12_yAGSgGGA73_GADyAByAgAyADyY_A0_GSg_A111_P_SgtGACGA73_GSgAByAGHÄyA109_õryAG_dÍQo_GACGSgtG;
 - (id);
 - (_Bool);
@@ -24,12 +24,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)pGestureRecognizer",&,N,V_noOpTapGestureRecognizer;
 - (void);
 - (int);
 - (id);
-- (void)gWithHypothesis:(id)arg1 eta:location: /* Error: Ran out of types for this method. */;
-- (void)nYearlyRecurrence;
+- (void)timeToLeaveStringWithHypothesis:(id)arg1 eta:location: /* Error: Ran out of types for this method. */;
+- (void)prohibitsMultipleMonthsInYearlyRecurrence;
 
 @end
 

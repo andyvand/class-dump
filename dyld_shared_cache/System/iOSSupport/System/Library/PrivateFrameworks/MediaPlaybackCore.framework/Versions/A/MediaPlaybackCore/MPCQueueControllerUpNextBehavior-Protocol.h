@@ -4,10 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol MPCQueueControllerUpNextBehavior
+- (void);
+- (_Bool)shouldProvisionDataclass:(long long)arg1 forAccount:(NSString *)arg2;
+- (_Bool)r account:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)";
+
+@optional
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsQueueModifications;
 @property(readonly, nonatomic) _Bool hasUserMutations;
 @end
 

@@ -5,16 +5,11 @@
 //
 
 @protocol MPCVocalsControlCommand
+- (float)˟;
+- (long long);
 - (_Bool)ayed;
-- (float);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic, getter=isContinuous) _Bool continuous;
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(readonly, nonatomic) long long disabledReason;
-@property(readonly, nonatomic) float level;
-@property(readonly, nonatomic) float maxLevel;
-@property(readonly, nonatomic) float minLevel;
 @end
 

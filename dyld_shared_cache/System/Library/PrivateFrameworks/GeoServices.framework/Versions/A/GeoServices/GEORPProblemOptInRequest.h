@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPUserCredentials, NSData, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEORPProblemOptInRequest
 {
     PBDataReader *_reader;
-    NSData *_devicePushToken;
-    NSString *_problemId;
-    GEORPUserCredentials *_userCredentials;
-    NSString *_userEmail;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _didOptIn;
-    struct {
-        unsigned int has_didOptIn:1;
-        unsigned int read_devicePushToken:1;
-        unsigned int read_problemId:1;
-        unsigned int read_userCredentials:1;
-        unsigned int read_userEmail:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ct:(id)arg1;
++ (_Bool)setLicensePlateRestrictionImpact:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)valRequest"16@?<v@?@"CNCDDatabaseRemovalResult"@"NSError">24;
+- (void)NCDDatabasePreparationResult"@"NSError">24;
+- (id)copyImageHashValuesToContacts: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -50,32 +34,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)AudioRecordDeviceInfo"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)setIsCancelled:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (unsigned int);
+- (unsigned int),N;
 - (_Bool);
 - (id);
 - (void);
 - (id)oken"b1"read_hwMachine"b1"read_inputLanguage"b1"read_osRelease"b1"read_requestElements"b1"read_userCredentials"b1"read_userEmail"b1"read_userLocation"b1"wrote_anyField"b1};
 - (id)collectionComponentInfoForReason:count:traits: /* Error: Ran out of types for this method. */;
 - (id)¼X;
-- (id)rase;
+- (id)directionPhrase;
 - (Class)V(´;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *devicePushToken;
-@property(nonatomic) _Bool didOptIn;
-@property(readonly, nonatomic) _Bool hasDevicePushToken;
-@property(nonatomic) _Bool hasDidOptIn;
 @property(readonly, nonatomic) _Bool hasProblemId;
-@property(readonly, nonatomic) _Bool hasUserCredentials;
-@property(readonly, nonatomic) _Bool hasUserEmail;
-@property(retain, nonatomic) NSString *problemId;
-@property(retain, nonatomic) GEORPUserCredentials *userCredentials;
-@property(retain, nonatomic) NSString *userEmail;
 
 @end
 

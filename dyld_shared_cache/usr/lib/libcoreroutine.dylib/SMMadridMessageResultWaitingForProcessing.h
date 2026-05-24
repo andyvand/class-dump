@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SMMadridMessageResultWaitingForProcessing
 {
     _Bool _success;
-    NSString *_messageGUID;
-    NSError *_error;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (_Bool)nMO;
+- (_Bool)SMConversationMO;
 - (void)isStartOfProcessing,%d;
 - (void)t/stop dates:(_Bool)arg1 %@, %@, Passthrough;
 
 // Remaining properties
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
 @property(copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

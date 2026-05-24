@@ -6,21 +6,20 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SASTTemplateStarRating, SAUIDecoratedText;
 @protocol SASTTemplateAction;
 
 @interface SASTLocationListItem : AceObject
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)yb;
 - (void);
 - (void);
 - (id);
@@ -30,17 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <SASTTemplateAction> action; // @dynamic action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SAUIDecoratedText *formattedDistance;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SASTTemplateStarRating *rating;
-@property(retain, nonatomic) SAUIDecoratedText *subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SAUIDecoratedText *title;
 
 @end
 

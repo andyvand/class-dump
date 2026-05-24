@@ -5,6 +5,7 @@
 //
 
 @protocol ABGroupListRowView
+- (_Bool);
 - (_Bool)
 × ;
 - (_Bool)ormatter";

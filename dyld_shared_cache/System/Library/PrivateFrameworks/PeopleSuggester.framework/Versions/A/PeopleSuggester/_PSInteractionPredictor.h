@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSURL, _CDInteractionStore, _PSKNNModelConfiguration;
+@class _CDInteractionStore;
 
 @interface _PSInteractionPredictor
 {
     _CDInteractionStore *_interactionStore;
-    NSDictionary *_currentClusterDictionary;
-    NSDate *_currentArchiveDate;
-    NSMutableDictionary *_conversationIDMap;
-    _PSKNNModelConfiguration *_modelConfiguration;
-    NSURL *_compiledModelURL;
 }
 
 + (id);
@@ -22,27 +17,27 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)al/Source/Core/Controllers/KeychainController.swift;
 + (void);
-+ (_Bool);
++ (_Bool)r;
 - (double);
 - (id);
 - (id);
+- (id)q;
+- (id)R;
+- (void);
+- (id);
+- (void)_dataForImage:(id)arg1;
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)=;
 - (id);
 - (void);
 - (double);
-- (id);
+- (id)8)RiIi8	J;
 - (void);
 - (id);
 - (void);
@@ -51,7 +46,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)F
+;
 - (id);
 - (id);
 - (id);
@@ -62,12 +58,7 @@
 - (id)ror saving feedback event to knowledge store:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *compiledModelURL; // @synthesize compiledModelURL=_compiledModelURL;
-@property(retain, nonatomic) NSMutableDictionary *conversationIDMap; // @synthesize conversationIDMap=_conversationIDMap;
-@property(retain, nonatomic) NSDate *currentArchiveDate; // @synthesize currentArchiveDate=_currentArchiveDate;
-@property(retain, nonatomic) NSDictionary *currentClusterDictionary; // @synthesize currentClusterDictionary=_currentClusterDictionary;
 @property(retain, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
-@property(retain, nonatomic) _PSKNNModelConfiguration *modelConfiguration; // @synthesize modelConfiguration=_modelConfiguration;
 
 @end
 

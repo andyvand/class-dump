@@ -9,10 +9,9 @@
 @interface CWFWiFiNetworkSharingConnectedAPUpdate
 {
     NSArray *_connectedAPs;
-    unsigned long long _connectedAPsUpdateCounter;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (void);
 - (void);
 - (_Bool);
@@ -23,12 +22,11 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)pple.remoted.control;
 - (void)Network;
 
 // Remaining properties
 @property(copy) NSArray *connectedAPs; // @synthesize connectedAPs=_connectedAPs;
-@property unsigned long long connectedAPsUpdateCounter; // @synthesize connectedAPsUpdateCounter=_connectedAPsUpdateCounter;
 
 @end
 

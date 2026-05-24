@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGContactDetail;
+@class NSArray;
 
 @interface SGContactDetailsHolder
 {
     NSArray *_emailAddresses;
-    NSArray *_postalAddresses;
-    NSArray *_phoneNumbers;
-    NSArray *_instantMessageAddresses;
-    NSArray *_socialProfiles;
-    SGContactDetail *_birthday;
-    SGContactDetail *_photoPath;
 }
 
 - (void);
-- (id);
+- (id)fore travel;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)g tasks:(id)arg1 %@;
 - (void);
 - (void);
 - (id);
@@ -35,13 +29,7 @@
 - (id)d;
 
 // Remaining properties
-@property(retain, nonatomic) SGContactDetail *birthday; // @synthesize birthday=_birthday;
 @property(retain, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(retain, nonatomic) NSArray *instantMessageAddresses; // @synthesize instantMessageAddresses=_instantMessageAddresses;
-@property(retain, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(retain, nonatomic) SGContactDetail *photoPath; // @synthesize photoPath=_photoPath;
-@property(retain, nonatomic) NSArray *postalAddresses; // @synthesize postalAddresses=_postalAddresses;
-@property(retain, nonatomic) NSArray *socialProfiles; // @synthesize socialProfiles=_socialProfiles;
 
 @end
 

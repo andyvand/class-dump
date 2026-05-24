@@ -7,7 +7,8 @@
 @class NSUUID;
 
 @protocol _NSCollectionLayoutSupplementaryEnrolling
-- (void);
+- (void)lled with a NULL matching dictionary;
+- (long long);
 - (NSUUID *)o find proper bundle identifier for process.;
 @end
 

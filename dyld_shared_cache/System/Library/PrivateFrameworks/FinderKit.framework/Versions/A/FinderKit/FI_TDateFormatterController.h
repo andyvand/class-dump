@@ -10,39 +10,22 @@ __attribute__((visibility("hidden")))
 @interface FI_TDateFormatterController
 {
     FI_TValidatingDateFormatter *_shortDateTimeFormatter;
-    FI_TValidatingDateFormatter *_shortDateTimeFormatterRelative;
-    FI_TValidatingDateFormatter *_shortDateOnlyFormatter;
-    FI_TValidatingDateFormatter *_shortDateOnlyFormatterRelative;
-    FI_TValidatingDateFormatter *_mediumDateTimeFormatter;
-    FI_TValidatingDateFormatter *_mediumDateTimeFormatterRelative;
-    FI_TValidatingDateFormatter *_mediumDateOnlyFormatter;
-    FI_TValidatingDateFormatter *_mediumDateOnlyFormatterRelative;
-    FI_TValidatingDateFormatter *_longDateTimeFormatter;
-    FI_TValidatingDateFormatter *_longDateTimeFormatterRelative;
-    FI_TValidatingDateFormatter *_fullDateTimeFormatter;
-    FI_TValidatingDateFormatter *_fullDateTimeFormatterRelative;
-    FI_TValidatingDateFormatter *_fullDateOnlyFormatter;
-    FI_TValidatingDateFormatter *_fullDateOnlyFormatterRelative;
-    FI_TValidatingDateFormatter *_timeOnlyFormatter;
-    FI_TValidatingDateFormatter *_fileNameTimeFormatter;
-    FI_TValidatingDateFormatter *_fileNameDateTimeFormatter;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _observers;
 }
 
-+ (id);
++ (id)_setupTriangleSublayer;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)w"24q32;
+- (id)@0:(_Bool)arg1 8@"NSSplitView"16@"NSView"24;
+- (id)CGSize=dd}}56q88;
+- (id)nt=dd}{CGSize=dd}}52@0:(_Bool)arg1 8{CGPoint=dd}16d32i40Q44;
+- (id)tionManager";
+- (id)"NSArray"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)MigrateRulesFromLion;
+- (id)};
 - (void)ÿÿ;
 
 @end

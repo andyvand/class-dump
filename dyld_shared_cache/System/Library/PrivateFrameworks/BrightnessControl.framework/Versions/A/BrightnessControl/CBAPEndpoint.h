@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFKEndpointInterface, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class AFKEndpointInterface;
 
 @interface CBAPEndpoint
 {
     AFKEndpointInterface *_endpoint;
-    NSObject<OS_dispatch_queue> *_epQueue;
-    unsigned int _service;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned int);
 - (_Bool);
 - (id);
-- (void);
+- (void)A;
 
 @end
 

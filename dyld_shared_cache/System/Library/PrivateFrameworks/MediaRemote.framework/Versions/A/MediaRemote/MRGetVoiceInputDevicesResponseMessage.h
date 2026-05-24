@@ -13,13 +13,12 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)ageData:imageHash:) /* Error: Ran out of types for this method. */;
 - (id)vice modified;
 - (long long)Üuøÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *deviceIDs;
-@property(readonly, nonatomic) long long errorCode;
 
 @end
 

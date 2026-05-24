@@ -7,8 +7,11 @@
 @class NSString;
 
 @protocol AFPeerInfoMutating
+- (void)PDLastUsedPeerPaymentAlternateFundingSourcePassUniqueIdentifier;
+- (void);
+- (void)A;
 - (void)_homeKitRoomName;
-- (void)sContextVending;
+- (void)AFAnalyticsContextVending;
 - (void)er:(NSString *)arg1 %ld, suppressLateTrigger:%ld. /* Error: Ran out of types for this method. */;
 @end
 

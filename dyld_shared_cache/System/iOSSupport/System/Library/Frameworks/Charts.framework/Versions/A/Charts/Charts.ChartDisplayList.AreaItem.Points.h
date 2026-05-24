@@ -7,6 +7,7 @@
 @interface Charts.ChartDisplayList.AreaItem.Points
 {
     id storage;
+    id;
 }
 
 @end

@@ -4,49 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSpeedInfo, GEOTrafficControlDeviceInfo, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEODirectedRoadSegment
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _roadProperties;
-    double _beginFraction;
-    double _endFraction;
-    NSMutableArray *_geometrys;
-    long long _roadId;
-    GEOSpeedInfo *_speedInfo;
-    GEOTrafficControlDeviceInfo *_trafficControlDeviceInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _displayClass;
-    int _formOfWay;
-    unsigned int _functionalRoadClass;
-    unsigned int _laneCount;
-    unsigned int _lengthCm;
-    unsigned int _traversalTimeS;
-    struct {
-        unsigned int has_beginFraction:1;
-        unsigned int has_endFraction:1;
-        unsigned int has_roadId:1;
-        unsigned int has_displayClass:1;
-        unsigned int has_formOfWay:1;
-        unsigned int has_functionalRoadClass:1;
-        unsigned int has_laneCount:1;
-        unsigned int has_lengthCm:1;
-        unsigned int has_traversalTimeS:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_roadProperties:1;
-        unsigned int read_geometrys:1;
-        unsigned int read_speedInfo:1;
-        unsigned int read_trafficControlDeviceInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)ode:(id)arg1;
++ (Class)9@92;
++ (_Bool)setHasPreferredTransportMode:(id)arg1;
 - (unsigned int);
 - (id);
 - (id);
@@ -75,24 +41,24 @@
 - (int *);
 - (long long);
 - (unsigned int);
+- (_Bool)flatMap:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)eventWithResult: /* Error: Ran out of types for this method. */;
+- (_Bool)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (_Bool)boundedQueueWithCapacity: /* Error: Ran out of types for this method. */;
+- (_Bool)_calculationDependencies;
+- (_Bool)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned int);
+- (_Bool)dequeue;
+- (_Bool)eConnection;
+- (_Bool)_TtC18ContactsFoundation13CNDataEncoder;
+- (unsigned long long)CNWrappingCancelableToken;
+- (id)_CNOSTransactionInhibitor;
+- (id)CNObservableContractTerminationContext;
+- (unsigned int)CNVirtualFileManager;
 - (unsigned int);
 - (void);
-- (void);
-- (double);
+- (void)om.apple.application-identifier;
+- (double)Thailand;
 - (void);
 - (void);
 - (void);
@@ -105,53 +71,28 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)setHearstSecondPassRequests:(id)arg1;
+- (id)onAssets;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (double);
-- (void);
-- (_Bool);
+- (double)T;
+- (void)rotate;
+- (_Bool);
 - (id);
 - (void);
 - (int)× ;
-- (id)Set:(struct _NSZone *)arg1;
-- (unsigned int)ntReservationExtensionSupport;
-- (id)e;
-- (id)pe_VISIBLE;
+- (id)setHasDataSet:(struct _NSZone *)arg1;
+- (unsigned int)restaurantReservationExtensionSupport;
+- (id)GEOAddressCorrectionTaggedLocationResponse;
+- (id)ImpressionEventType_VISIBLE;
 - (id)(
 ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double beginFraction;
-@property(nonatomic) unsigned int displayClass;
-@property(nonatomic) double endFraction;
-@property(nonatomic) int formOfWay;
-@property(nonatomic) unsigned int functionalRoadClass;
-@property(retain, nonatomic) NSMutableArray *geometrys;
-@property(nonatomic) _Bool hasBeginFraction;
-@property(nonatomic) _Bool hasDisplayClass;
-@property(nonatomic) _Bool hasEndFraction;
-@property(nonatomic) _Bool hasFormOfWay;
-@property(nonatomic) _Bool hasFunctionalRoadClass;
-@property(nonatomic) _Bool hasLaneCount;
-@property(nonatomic) _Bool hasLengthCm;
 @property(nonatomic) _Bool hasRoadId;
-@property(readonly, nonatomic) _Bool hasSpeedInfo;
-@property(readonly, nonatomic) _Bool hasTrafficControlDeviceInfo;
-@property(nonatomic) _Bool hasTraversalTimeS;
-@property(nonatomic) unsigned int laneCount;
-@property(nonatomic) unsigned int lengthCm;
-@property(nonatomic) long long roadId;
-@property(readonly, nonatomic) int *roadProperties;
-@property(readonly, nonatomic) unsigned long long roadPropertiesCount;
-@property(retain, nonatomic) GEOSpeedInfo *speedInfo;
-@property(retain, nonatomic) GEOTrafficControlDeviceInfo *trafficControlDeviceInfo;
-@property(nonatomic) unsigned int traversalTimeS;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

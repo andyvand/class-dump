@@ -7,14 +7,12 @@
 @interface ContactsUICore.CAProxyImage
 {
     id image;
-    id colorSpace;
-    id state;
 }
 
-- (void *);
+- (void *)9;
 - (id);
 - (void *);
-- (void)duler:withContentHandler: /* Error: Ran out of types for this method. */;
+- (void)resolveLikenessesForContacts:workScheduler:withContentHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

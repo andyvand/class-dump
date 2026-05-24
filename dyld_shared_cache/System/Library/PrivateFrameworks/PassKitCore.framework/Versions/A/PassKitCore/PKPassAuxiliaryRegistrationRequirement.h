@@ -4,56 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPassAuxiliaryCapabilityKeyCreationMetadata;
+@class NSString;
 
 @interface PKPassAuxiliaryRegistrationRequirement
 {
     _Bool _canLocallyInvalidateRegistrationState;
-    _Bool _canLocallyValidateRegistrationState;
-    NSString *_identifier;
-    long long _numberOfKeys;
-    NSArray *_supportedVersions;
-    long long _registrationBackoffCounter;
-    PKPassAuxiliaryCapabilityKeyCreationMetadata *_keyCreationMetadata;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
+- (void)9)J?;
 - (void);
-- (void);
-- (long long);
-- (long long);
+- (long long)y;
+- (long long)L)	k`;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setHasAvgTimeBackoff:(id)arg1;
+- (void)tcpi_rttbest;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)annotations;
 - (unsigned long long)onPaymentPassEntry:invalid initializer. /* Error: Ran out of types for this method. */;
 - (void)cate.;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canLocallyInvalidateRegistrationState; // @synthesize canLocallyInvalidateRegistrationState=_canLocallyInvalidateRegistrationState;
-@property(readonly, nonatomic) _Bool canLocallyValidateRegistrationState; // @synthesize canLocallyValidateRegistrationState=_canLocallyValidateRegistrationState;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKPassAuxiliaryCapabilityKeyCreationMetadata *keyCreationMetadata; // @synthesize keyCreationMetadata=_keyCreationMetadata;
-@property(readonly, nonatomic) long long numberOfKeys; // @synthesize numberOfKeys=_numberOfKeys;
-@property(nonatomic) long long registrationBackoffCounter; // @synthesize registrationBackoffCounter=_registrationBackoffCounter;
-@property(readonly, nonatomic) unsigned long long role;
-@property(readonly, nonatomic) NSArray *supportedVersions; // @synthesize supportedVersions=_supportedVersions;
 
 @end
 

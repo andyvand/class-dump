@@ -7,14 +7,6 @@
 @interface HomeKitDaemon.LocalPresence.DefaultRoomPresencePublisher
 {
     id $defaultActor;
-    id presenceDetector;
-    id roomPresenceStorage;
-    id presenceUpdateTask;
-    id accessoryPresenceMap;
-    id observerByIdentifier;
-    id observerIdentifiersByRoom;
-    id notificationCenter;
-    id notificationHandlerTasks;
 }
 
 @end

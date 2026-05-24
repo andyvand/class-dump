@@ -5,6 +5,7 @@
 //
 
 @protocol SignpostOverrunChecking
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isPotentiallyLong) _Bool potentiallyLong;

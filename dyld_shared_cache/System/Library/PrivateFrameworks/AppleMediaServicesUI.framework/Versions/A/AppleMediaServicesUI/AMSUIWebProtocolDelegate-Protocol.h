@@ -5,5 +5,6 @@
 //
 
 @protocol AMSUIWebProtocolDelegate
+- (void);
 @end
 

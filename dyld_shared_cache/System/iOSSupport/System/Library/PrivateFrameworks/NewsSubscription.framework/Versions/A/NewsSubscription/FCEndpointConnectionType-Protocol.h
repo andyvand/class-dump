@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString, NSURL;
+
 @protocol FCEndpointConnectionType
+- (void)p_isCharIndex:(NSURL *)arg1 withinTextUnit:(NSDictionary *)arg2 inDirection:(NSString *)arg3;
 @end
 

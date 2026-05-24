@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSTTableHeaderInfo;
+
 @protocol TSTTableHeaderStorage
+- (unsigned int)MPCPlayActivityUtilitiesPlayEndEventSharedSessionParticipantCountKey;
+- (void)MPNowPlayingInfoCenter_MPCPlaybackEngine;
+- (void)ckCore.MPCModelGenericAVItem.sCompletionSerialQueue;
+- (unsigned int)state: /* Error: Ran out of types for this method. */;
+- (unsigned int)on settings from User Defaults;
+- (void)cannot be called on a managed session;
+- (unsigned int)BeatMatchedTransitionHasRendered;
+- (TSTTableHeaderInfo *)A;
+- (void);
+- (long long)PrivateFrameworks/NewsDaemon.framework/Versions/A/NewsDaemon;
 @end
 

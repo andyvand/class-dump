@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id)to delete %@ from disk, but it doesn't exist!;
 - (unsigned long long);
 - (oneway void);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (_Bool);

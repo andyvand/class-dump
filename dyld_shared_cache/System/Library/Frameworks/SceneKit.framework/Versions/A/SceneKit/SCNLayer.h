@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, NSString, SCNJitterer, SCNNode, SCNRenderer, SCNScene, SCNTechnique, SKScene;
-@protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, SCNSceneRendererDelegate;
+@class SCNJitterer, SCNScene;
 
 @interface SCNLayer
 {
     SCNJitterer *_jitterer;
-    SCNRenderer *_renderer;
-    SCNScene *_scene;
-    struct _CGLContextObject *_mainContext;
-    _Bool _drawForJittering;
-    _Bool _rendersIntoMaterial;
 }
 
 + (id);
@@ -29,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (double);
 - (unsigned long long);
 - (void);
@@ -38,7 +32,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -81,11 +75,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)x;
 - (unsigned long long);
-- (struct CGColorSpace *);
+- (struct CGColorSpace *)(	>	%	;
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (_Bool);
 - (void);
@@ -106,10 +100,10 @@
 - (void);
 - (void);
 - (void);
-- (void *);
-- (void);
+- (void *)�=_pSgytIegnnr_ytIegnnr_;
+- (void);
 - (id);
-- (void);
+- (void)tainer_new (container_pid INTEGER PRIMARY KEY, distinguished_kind INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, date_played INTEGER NOT NULL DEFAULT 0, name TEXT NOT NULL DEFAULT '', name_order INTEGER NOT NULL DEFAULT 0, is_owner INTEGER NOT NULL DEFAULT 1, is_editable INTEGER NOT NULL DEFAULT 0, parent_pid INTEGER NOT NULL DEFAULT 0, contained_media_type INTEGER NOT NULL DEFAULT 0, workout_template_id INTEGER NOT NULL DEFAULT 0, is_hidden INTEGER NOT NULL DEFAULT 0, is_ignorable_itunes_playlist INTEGER NOT NULL DEFAULT 0, description TEXT, play_count_user INTEGER NOT NULL DEFAULT 0, play_count_recent INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0, smart_evaluation_order INTEGER NOT NULL DEFAULT 0, smart_is_folder INTEGER NOT NULL DEFAULT 0, smart_is_dynamic INTEGER NOT NULL DEFAULT 0, smart_is_filtered INTEGER NOT NULL DEFAULT 0, smart_is_genius INTEGER NOT NULL DEFAULT 0, smart_enabled_only INTEGER NOT NULL DEFAULT 0, smart_is_limited INTEGER NOT NULL DEFAULT 0, smart_limit_kind INTEGER NOT NULL DEFAULT 0, smart_limit_order INTEGER NOT NULL DEFAULT 0, smart_limit_value INTEGER NOT NULL DEFAULT 0, smart_reverse_limit_order INTEGER NOT NULL DEFAULT 0, smart_criteria BLOB, play_order INTEGER NOT NULL DEFAULT 0, is_reversed INTEGER NOT NULL DEFAULT 0, album_field_order INTEGER NOT NULL DEFAULT 0, repeat_mode INTEGER NOT NULL DEFAULT 0, shuffle_items INTEGER NOT NULL DEFAULT 0, has_been_shuffled INTEGER NOT NULL DEFAULT 0, filepath TEXT NOT NULL DEFAULT '', is_saveable INTEGER NOT NULL DEFAULT 0, is_src_remote INTEGER NOT NULL DEFAULT 0, is_ignored_syncing INTEGER NOT NULL DEFAULT 0, container_type INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', cloud_share_url TEXT NOT NULL DEFAULT '', cloud_is_public INTEGER NOT NULL DEFAULT 0, cloud_is_visible INTEGER NOT NULL DEFAULT 0, cloud_is_subscribed INTEGER NOT NULL DEFAULT 0, cloud_is_curator_playlist INTEGER NOT NULL DEFAULT 0, cloud_author_store_id INTEGER NOT NULL DEFAULT 0, cloud_author_display_name TEXT NOT NULL DEFAULT '', cloud_author_store_url TEXT NOT NULL DEFAULT '', cloud_min_refresh_interval INTEGER NOT NULL DEFAULT 0, cloud_last_update_time INTEGER NOT NULL DEFAULT 0, cloud_user_count INTEGER NOT NULL DEFAULT 0, cloud_global_play_count INTEGER NOT NULL DEFAULT 0, cloud_global_like_count INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0, keep_local_status_reason INTEGER NOT NULL DEFAULT 0, keep_local_constraints INTEGER NOT NULL DEFAULT 0, external_vendor_identifier TEXT NOT NULL DEFAULT '', external_vendor_display_name TEXT NOT NULL DEFAULT '', external_vendor_container_tag TEXT NOT NULL DEFAULT '', is_external_vendor_playlist INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, cloud_is_sharing_disabled INTEGER NOT NULL DEFAULT 0, cloud_version_hash TEXT NOT NULL DEFAULT '', date_played_local INTEGER NOT NULL DEFAULT 0, cloud_author_handle TEXT NOT NULL DEFAULT '', cloud_universal_library_id TEXT NOT NULL DEFAULT '', should_display_index INTEGER NOT NULL DEFAULT 0, date_downloaded INTEGER NOT NULL DEFAULT 0, category_type_mask INTEGER NOT NULL DEFAULT 0, grouping_sort_key TEXT NOT NULL DEFAULT '', traits INTEGER NOT NULL DEFAULT 0, liked_state_changed_date INTEGER NOT NULL DEFAULT 0, is_collaborative INTEGER NOT NULL DEFAULT 0, collaborator_invite_options INTEGER NOT NULL DEFAULT 0, collaborator_permissions INTEGER NOT NULL DEFAULT 0, collaboration_invitation_link TEXT NOT NULL DEFAULT '', cover_artwork_recipe TEXT NOT NULL DEFAULT '', collaboration_invitation_url_expiration_date INTEGER NOT NULL DEFAULT 0 ,collaboration_join_request_pending INTEGER NOT NULL DEFAULT 0 ,collaborator_status INTEGER NOT NULL DEFAULT 0);
 - (void);
 - (double);
 - (id);
@@ -208,42 +202,7 @@
 - (void)Ya;
 
 // Remaining properties
-@property(readonly, nonatomic) AVAudioEngine *audioEngine;
-@property(readonly, nonatomic) AVAudioEnvironmentNode *audioEnvironmentNode;
-@property(retain, nonatomic) SCNNode *audioListener;
-@property(nonatomic) _Bool autoenablesDefaultLighting;
-@property(readonly, nonatomic) unsigned long long colorPixelFormat;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(readonly, nonatomic) void *context;
-@property(readonly, nonatomic) id <MTLRenderCommandEncoder> currentRenderCommandEncoder;
-@property(readonly, nonatomic) MTLRenderPassDescriptor *currentRenderPassDescriptor;
-@property(nonatomic) double currentTime;
-@property(readonly, nonatomic) struct CGRect currentViewport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long debugOptions;
-@property(nonatomic) __weak id <SCNSceneRendererDelegate> delegate;
-@property(readonly, nonatomic) unsigned long long depthPixelFormat;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isJitteringEnabled) _Bool jitteringEnabled;
-@property(nonatomic) _Bool loops;
-@property(retain, nonatomic) SKScene *overlaySKScene;
-@property(getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
-@property(readonly, nonatomic) unsigned long long renderingAPI;
 @property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) double sceneTime;
-@property(nonatomic) _Bool showsStatistics;
-@property(readonly, nonatomic) unsigned long long stencilPixelFormat;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) SCNTechnique *technique;
-@property(nonatomic, getter=isTemporalAntialiasingEnabled) _Bool temporalAntialiasingEnabled;
-@property(nonatomic) _Bool usesReverseZ;
-@property(readonly, nonatomic) struct CGColorSpace *workingColorSpace;
 
 @end
 

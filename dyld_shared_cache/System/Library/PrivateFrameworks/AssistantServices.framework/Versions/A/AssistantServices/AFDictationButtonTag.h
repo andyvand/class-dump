@@ -7,11 +7,6 @@
 @interface AFDictationButtonTag
 {
     _Bool _hasTrailingGutter;
-    unsigned int _secureName;
-    double _titleWidth;
-    long long _contentScaleLevel;
-    struct CGSize _size;
-    struct CGPoint _titleOrigin;
 }
 
 + (_Bool);
@@ -27,8 +22,8 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (double);
-- (void);
+- (double);
+- (void)86Z;
 - (id);
 - (struct CGSize);
 - (void);
@@ -36,12 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long contentScaleLevel; // @synthesize contentScaleLevel=_contentScaleLevel;
-@property(nonatomic) _Bool hasTrailingGutter; // @synthesize hasTrailingGutter=_hasTrailingGutter;
-@property(nonatomic) unsigned int secureName; // @synthesize secureName=_secureName;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) struct CGPoint titleOrigin; // @synthesize titleOrigin=_titleOrigin;
-@property(nonatomic) double titleWidth; // @synthesize titleWidth=_titleWidth;
 
 @end
 

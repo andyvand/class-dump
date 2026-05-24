@@ -12,14 +12,14 @@
 }
 
 - (void);
-- (id);
-- (_Bool);
-- (int);
+- (id)ng container view;
+- (_Bool)r creating PHAssetExportRequest:%@ /* Error: Ran out of types for this method. */;
+- (int)archResultCell"8@"UITraitCollection"16;
+- (void);
+- (void)DetailsViewConversationSettings;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 
 @end
 

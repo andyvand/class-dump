@@ -7,10 +7,6 @@
 @interface MediaPlaybackCore.AsyncAssetReaderSequence
 {
     id asset;
-    id unreadAssetTimeRange;
-    id continuation;
-    id stream;
-    id task;
 }
 
 @end

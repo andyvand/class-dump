@@ -7,7 +7,6 @@
 @interface NewsUI2.WebEmbedShareActivityItemSource
 {
     id shareURL;
-    id title;
 }
 
 - (id);
@@ -15,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)questData;
+- (void)SearchRequestData;
 
 @end
 

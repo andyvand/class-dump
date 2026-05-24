@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFPairingIdentity, MKFResidentDatabaseID, NSData, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFAppleMediaAccessory, MKFDevice, MKFHome;
+@class HMFPairingIdentity, NSData, NSUUID;
+@protocol MKFAppleMediaAccessory, MKFHome;
 
 @protocol MKFResident
+- (id <MKFAppleMediaAccessory>)unknown or incompatible transport type:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id <MKFHome>)
 × ;
 - (NSUUID *)áàð!Bù1Â0@ù
 × ;
-- (HMFPairingIdentity *)haracteristicDictionary;
+- (HMFPairingIdentity *)getCharacteristicDictionary;
 - (void)dler;
 - (void)version '%@' (%@/%@);
 - (void)«îþ ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAppleMediaAccessory> appleMediaAccessory;
-@property(readonly, copy, nonatomic) MKFResidentDatabaseID *databaseID;
-@property(retain, nonatomic) id <MKFDevice> device;
 @property(retain, nonatomic) NSData *deviceIRKData;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *idsDestination;
-@property(copy, nonatomic) NSUUID *idsIdentifier;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) HMFPairingIdentity *pairingIdentity;
-@property(copy, nonatomic) NSNumber *reachable;
-@property(retain, nonatomic) NSData *residentCapabilities;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

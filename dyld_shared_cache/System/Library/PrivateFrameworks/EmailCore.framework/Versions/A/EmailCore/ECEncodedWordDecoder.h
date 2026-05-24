@@ -4,46 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSData, NSNumber;
 
 @interface ECEncodedWordDecoder
 {
     NSNumber *_stringEncoding;
-    NSString *_language;
-    NSData *_headerData;
-    long long _encodedWordEncoding;
-    struct _NSRange _encodedTextRange;
 }
 
-- (void);
+- (void)decompress data (%{public}@ algorithm):(long long)arg1 %{public}@;
+- (void)@' is not recognized;
+- (id)roller hierarchy, AVMobileControlsViewController:%@ /* Error: Ran out of types for this method. */;
+- (long long)d bytes...;
+- (struct _NSRange):stream closed /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (long long);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)#;
+- (void);
+- (id);
 - (struct _NSRange);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (struct _NSRange);
 - (_Bool);
 - (id);
+- (id)_additionalCSSymbolicatorFlags;
 - (id);
-- (id);
-- (void);
+- (void)pertyName failed err:%d /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange encodedTextRange; // @synthesize encodedTextRange=_encodedTextRange;
-@property(nonatomic) long long encodedWordEncoding; // @synthesize encodedWordEncoding=_encodedWordEncoding;
 @property(readonly, copy, nonatomic) NSData *headerData; // @synthesize headerData=_headerData;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSNumber *stringEncoding; // @synthesize stringEncoding=_stringEncoding;
 
 @end
 

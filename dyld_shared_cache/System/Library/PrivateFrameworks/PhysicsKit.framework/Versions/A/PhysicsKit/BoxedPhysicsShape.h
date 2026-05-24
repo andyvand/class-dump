@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface BoxedPhysicsShape
 {
     int shapeType;
-    NSArray *points;
 }
 
 + (id);

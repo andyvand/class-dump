@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)blic}@) playerPath %{public}@. Posting MRNowPlayingSessionManagerActiveSessionWillBeHijackedByNativePlayback;
++ (id)!N9;
 
 @end
 

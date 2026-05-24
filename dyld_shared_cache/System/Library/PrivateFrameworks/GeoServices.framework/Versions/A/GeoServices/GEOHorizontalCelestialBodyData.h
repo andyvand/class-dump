@@ -7,18 +7,16 @@
 @interface GEOHorizontalCelestialBodyData
 {
     double _altitude;
-    double _azimuth;
 }
 
-- (double);
+- (double)asrFeaturesQueue;
+- (id)shot TTS prompt timeout is not handled due to context mismatch (fakeTwoShotPromptUUID = %@, _fakeTwoShotPromptUUID = %@).;
 - (id);
-- (id);
-- (double)x: /* Error: Ran out of types for this method. */;
+- (double)legAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(readonly, nonatomic) double azimuth; // @synthesize azimuth=_azimuth;
 
 @end
 

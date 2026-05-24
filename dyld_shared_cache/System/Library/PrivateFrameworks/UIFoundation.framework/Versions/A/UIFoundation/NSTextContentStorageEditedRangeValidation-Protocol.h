@@ -5,5 +5,6 @@
 //
 
 @protocol NSTextContentStorageEditedRangeValidation
+- (struct _NSRange)#@m;
 @end
 

@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntryViewBlurrableButtonContainer, NSString, UIButton, UIVisualEffectView;
-
 @interface CKEntryViewButton
 {
     BOOL _ckTintColor;
-    _Bool _wantsVibrancy;
-    _Bool _needsOversizedBlurContainer;
-    UIButton *_button;
-    long long _entryViewButtonType;
-    CKEntryViewBlurrableButtonContainer *_blurrableButtonContainer;
-    UIVisualEffectView *_vibrancyView;
 }
 
 + (void);
++ (id)ped user recordID:(id)arg1 %@;
++ (id);
++ (id);
++ (id);;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)hasAnyCustomFolders;
+- (void)initWithFormat: /* Error: Ran out of types for this method. */;
+- (void)s;
+- (void)ifier;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (long long);
-- (void);
-- (BOOL);
-- (id);
+- (id)(;
+- (long long)T;
+- (void)ned = ;
+- (BOOL)16@"NSString"20;
+- (id)able>;
 - (long long);
 - (_Bool);
 - (void);
@@ -52,28 +44,13 @@
 - (id);
 - (_Bool);
 - (double);
-- (void)mated;
+- (void)unanimated;
 - (void);
-- (void)ilsInlineContactCard;
+- (void)DetailsInlineContactCard;
 - (id)Ôk8N.;
 
 // Remaining properties
-@property(nonatomic) double blurRadius;
-@property(retain, nonatomic) CKEntryViewBlurrableButtonContainer *blurrableButtonContainer; // @synthesize blurrableButtonContainer=_blurrableButtonContainer;
-@property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) BOOL ckTintColor; // @synthesize ckTintColor=_ckTintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled, setter=setEnabled:) _Bool enabled;
 @property(nonatomic) long long entryViewButtonType; // @synthesize entryViewButtonType=_entryViewButtonType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool needsOversizedBlurContainer; // @synthesize needsOversizedBlurContainer=_needsOversizedBlurContainer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIVisualEffectView *vibrancyView; // @synthesize vibrancyView=_vibrancyView;
-@property(nonatomic) _Bool wantsVibrancy; // @synthesize wantsVibrancy=_wantsVibrancy;
 
 @end
 

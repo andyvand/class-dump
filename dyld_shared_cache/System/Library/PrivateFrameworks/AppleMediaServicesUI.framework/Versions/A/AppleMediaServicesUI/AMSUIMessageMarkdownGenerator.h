@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIMarkdownParser, AMSUIMessageMarkdownConfiguration, NSDictionary, NSMutableArray, NSMutableAttributedString, NSString;
+@class NSMutableAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIMessageMarkdownGenerator
 {
     _Bool _didParseEverything;
-    NSMutableAttributedString *_accumulator;
-    AMSUIMarkdownParser *_parser;
-    NSMutableArray *_attributeStack;
-    NSString *_symbol;
-    NSDictionary *_symbolAttributes;
-    AMSUIMessageMarkdownConfiguration *_configuration;
 }
 
 - (id);
@@ -34,42 +28,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id);
+- (void)L;
 - (void);
-- (void);
-- (void);
+- (void)M;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)tabase:%s (%d).  /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)candidateByReplacingWithCandidate:(id)arg1 input:(id)arg2;
 - (void);
 - (id);
-- (void)ws;
+- (void);
+- (void);
+- (id);
+- (void)viewWillLayoutSubviews;
 
 // Remaining properties
 @property(retain) NSMutableAttributedString *accumulator; // @synthesize accumulator=_accumulator;
-@property(retain) NSMutableArray *attributeStack; // @synthesize attributeStack=_attributeStack;
-@property(retain) AMSUIMessageMarkdownConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didParseEverything; // @synthesize didParseEverything=_didParseEverything;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSUIMarkdownParser *parser; // @synthesize parser=_parser;
-@property(readonly) Class superclass;
-@property(retain) NSString *symbol; // @synthesize symbol=_symbol;
-@property(retain) NSDictionary *symbolAttributes; // @synthesize symbolAttributes=_symbolAttributes;
 
 @end
 

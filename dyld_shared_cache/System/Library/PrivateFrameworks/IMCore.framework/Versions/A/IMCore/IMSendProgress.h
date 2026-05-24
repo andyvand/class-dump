@@ -4,54 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSTimer;
-@protocol IMSendProgressDelegate, IMSendProgressTimeDataSource;
+@protocol IMSendProgressTimeDataSource;
 
 @interface IMSendProgress
 {
     _Bool _startSendProgressImmediately;
-    _Bool _waitingForComposition;
-    _Bool _wasShowing;
-    float _cachedSendProgress;
-    id <IMSendProgressDelegate> _delegate;
-    id _context;
-    NSDictionary *_sendingItems;
-    id <IMSendProgressTimeDataSource> _timeDataSource;
-    NSTimer *_sendProgressTimer;
-    double _translationStartTime;
 }
 
-+ (Class);
++ (Class)%f;
+- (_Bool)nt=%d speechTimescaleCount=%d expandTimescaleCount=%d compressTimescaleCount=%d totaltimescaleRate=%f silenceTimescaleRate=%f speechTimescaleRate=%f;
+- (_Bool)axRedFrameRecoveryDepth[%f] redAudioFramesPlayed[%d] redAudioBytesPlayed[%d] totalFramesPlayed[%d] totalSpeechErasureRate[%f] totalWindowedErasureRate[%f] maxConsecutiveAudioErasures[%d], totalErasureCount[%u];
+- (void)hStartMode=%d targetPercentileToCover=%f shortTermWindowSize=%f longTermWindowSize=%f filterDRXBundleEnabled=%d minQSize5G=%f minQSizeCellular=%f targetSynchronizer=%p spikeManagement=%d skipDecodeOnSilence=%d skipJBDumpCreation=%d enableEnhancedJBAdaptations=%d;
+- (void)f maxQSize=%f highStartQSize=%f highStartMode=%d targetPercentileToCover=%f shortTermWindowSize=%f longTermWindowSize=%f filterDRXBundleEnabled=%d minQSize5G=%f minQSizeCellular=%f targetSynchronizer=%p spikeManagement=%d skipDecodeOnSilence=%d skipJBDumpCreation=%d enableEnhancedJBAdaptations=%d;
+- (double)unexpected wifi nw_interface_subtype_t %d;
+- (id)%@(%p) Invalid NWParameters;
+- (_Bool)@(%p) Cannot add remote endpoint=%p;
+- (void)t open library (AUDIODSP_COMPONENT_DYLIB=%s), VAD API may not be supported;
+- (void)o open log file;
+- (void)brary/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AVCMediaStreamConfig.m:(double)arg1 %d:Unexpected pixel format type:%d /* Error: Ran out of types for this method. */;
+- (void)e=%lu systemAudioCaptureMuteBehavior=%ld;
+- (void)t ID=%ld for mode=%ld direction=%ld;
+- (void)number of remote endpoints=%d, max remote endpoints supported=%d;
+- (void)ed;
+- (void)onDisabled=%d, sframeCipherSuite=%d;
+- (id)he VCAudioIO. error=%@;
+- (id)iant info;
+- (id)L packetFilter pointer;
+- (float)mode=%d, streamToken=%u error=%@;
+- (void)ta;
+- (void)=%s error=%s ;
+- (void)%s:%d compressed to %@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)file;
+- (unsigned long long)e context;
+- (void)s:%d Statistics history receives out of order statistics for totalByteReceived! /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (double);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)on creating listeners array;
 - (void);
 - (id);
-- (id);
-- (id);
-- (float);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (double);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -59,16 +49,7 @@
 - (void)X¹;
 
 // Remaining properties
-@property(nonatomic) float cachedSendProgress; // @synthesize cachedSendProgress=_cachedSendProgress;
-@property(nonatomic) __weak id context; // @synthesize context=_context;
-@property(nonatomic) __weak id <IMSendProgressDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSTimer *sendProgressTimer; // @synthesize sendProgressTimer=_sendProgressTimer;
-@property(copy, nonatomic) NSDictionary *sendingItems; // @synthesize sendingItems=_sendingItems;
-@property(nonatomic) _Bool startSendProgressImmediately; // @synthesize startSendProgressImmediately=_startSendProgressImmediately;
 @property(retain, nonatomic) id <IMSendProgressTimeDataSource> timeDataSource; // @synthesize timeDataSource=_timeDataSource;
-@property(nonatomic) double translationStartTime; // @synthesize translationStartTime=_translationStartTime;
-@property(nonatomic) _Bool waitingForComposition; // @synthesize waitingForComposition=_waitingForComposition;
-@property(nonatomic) _Bool wasShowing; // @synthesize wasShowing=_wasShowing;
 
 @end
 

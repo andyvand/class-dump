@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (AVTExtension)
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=avt_setSimdContentsTransform:) CDStruct_95fa7c00 avt_simdContentsTransform;
+@property(nonatomic, setter=avt_setSimdContentsTransform:) CDStruct_34f00414 avt_simdContentsTransform;
 @end
 

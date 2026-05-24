@@ -5,7 +5,7 @@
 //
 
 @protocol _UIAnimatedTextSpacerAnimation
-- (void)ion;
+- (void)_defaultInsetGroupedCellConfiguration;
 - (float)Þïîÿ;
 - (void)Allowed;
 

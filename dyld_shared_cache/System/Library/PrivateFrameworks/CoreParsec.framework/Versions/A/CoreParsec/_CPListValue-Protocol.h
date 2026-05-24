@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray, _CPValue;
 
 @protocol _CPListValue
+- (_CPValue *);
+- (id);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *values;
 @end
 

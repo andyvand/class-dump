@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface iconclassificationInput
 {
@@ -18,13 +16,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *)(|;
 - (void);
-- (id);
-- (id)rticalSpacing;
+- (id)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
+- (id)interCellVerticalSpacing;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) struct __CVBuffer *image_Placeholder; // @synthesize image_Placeholder=_image_Placeholder;
 
 @end

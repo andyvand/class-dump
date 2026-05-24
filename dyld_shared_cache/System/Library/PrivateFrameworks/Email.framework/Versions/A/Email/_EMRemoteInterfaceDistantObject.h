@@ -5,15 +5,11 @@
 //
 
 @class EMRemoteConnection;
-@protocol EMRemoteProxyGenerator;
 
 __attribute__((visibility("hidden")))
 @interface _EMRemoteInterfaceDistantObject
 {
     _Bool _synchronous;
-    EMRemoteConnection *_remoteInterface;
-    id <EMRemoteProxyGenerator> _proxyGenerator;
-    CDUnknownBlockType _reattemptHandler;
 }
 
 - (void);
@@ -29,16 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <EMRemoteProxyGenerator> proxyGenerator; // @synthesize proxyGenerator=_proxyGenerator;
-@property(readonly, copy, nonatomic) CDUnknownBlockType reattemptHandler; // @synthesize reattemptHandler=_reattemptHandler;
 @property(readonly, nonatomic) EMRemoteConnection *remoteInterface; // @synthesize remoteInterface=_remoteInterface;
-@property(readonly, nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
 
 @end
 

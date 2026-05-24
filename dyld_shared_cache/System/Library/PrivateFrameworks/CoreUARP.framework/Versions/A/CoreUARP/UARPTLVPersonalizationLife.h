@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)yet downloaded, out of %ld total requested:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned char life; // @synthesize life=_life;

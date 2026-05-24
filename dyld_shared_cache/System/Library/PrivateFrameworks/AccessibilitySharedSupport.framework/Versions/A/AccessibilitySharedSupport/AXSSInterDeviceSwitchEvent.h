@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AXSSInterDeviceSwitchEvent
 {
     _Bool _isDown;
-    NSString *_switchIdentifier;
-    NSString *_switchDisplayName;
-    NSString *_deviceIdentifier;
-    NSArray *_actions;
-    NSArray *_longPressActions;
 }
 
 - (id);
@@ -28,7 +23,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (id);
@@ -36,11 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(nonatomic) _Bool isDown; // @synthesize isDown=_isDown;
-@property(retain, nonatomic) NSArray *longPressActions; // @synthesize longPressActions=_longPressActions;
-@property(copy, nonatomic) NSString *switchDisplayName; // @synthesize switchDisplayName=_switchDisplayName;
 @property(copy, nonatomic) NSString *switchIdentifier; // @synthesize switchIdentifier=_switchIdentifier;
 
 @end

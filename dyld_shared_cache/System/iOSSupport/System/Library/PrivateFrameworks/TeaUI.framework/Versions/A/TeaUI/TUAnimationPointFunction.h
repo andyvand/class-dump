@@ -9,11 +9,6 @@
 @interface TUAnimationPointFunction
 {
     CAMediaTimingFunction *_timingFunction;
-    double _speed;
-    TUAnimationFloatFunction *_xFunction;
-    TUAnimationFloatFunction *_yFunction;
-    struct CGPoint _startValue;
-    struct CGPoint _endValue;
 }
 
 - (id);
@@ -27,19 +22,14 @@
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
-- (void);
+- (void)_avAssetResourceLoader;
 - (double);
 - (id);
 - (void);
 - (void)ÔåøÿæøÿDæøÿ|æøÿ¤æøÿÜæøÿçøÿ<çøÿdçøÿçøÿÌçøÿôçøÿ4èøÿèøÿ¸èøÿàèøÿéøÿàéøÿêøÿ@êøÿxêøÿ¨êøÿÐêøÿëøÿXëøÿëøÿ°ëøÿèëøÿ°ìøÿèìøÿíøÿHíøÿlíøÿ íøÿÌíøÿðíøÿ,îøÿpîøÿîøÿÐîøÿ;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint endValue; // @synthesize endValue=_endValue;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) struct CGPoint startValue; // @synthesize startValue=_startValue;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction; // @synthesize timingFunction=_timingFunction;
 @property(retain, nonatomic) TUAnimationFloatFunction *xFunction; // @synthesize xFunction=_xFunction;
-@property(retain, nonatomic) TUAnimationFloatFunction *yFunction; // @synthesize yFunction=_yFunction;
 
 @end
 

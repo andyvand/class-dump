@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)nitsCount;
++ (long long)payloadNumericSettingUnitsCount;
 - (id);
-- (id)ortIncidentIntentResponse;
+- (id)_INPBReportIncidentIntentResponse;
 
 @end
 

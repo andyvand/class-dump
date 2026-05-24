@@ -9,27 +9,25 @@
 @interface GEONumberData
 {
     PBUnknownFields *_unknownFields;
-    float _value;
-    CDStruct_38ef1b98 _flags;
 }
 
-+ (_Bool)tTime:(id)arg1;
++ (_Bool)setHasUsageEventTime:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)setStandardOutput:(_Bool)arg1;
+- (void)stateModelScore:(id)arg1 boost: /* Error: Ran out of types for this method. */;
+- (void)TTSVolumeChange:(id)arg1 forReason:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void)RL"b1"read_mapsURLShortenerURL"b1"read_muninBaseURL"b1"read_networkSelectionHarvestURL"b1"read_offlineDataBatchListURL"b1"read_offlineDataDownloadBaseURL"b1"read_offlineDataSizeURL"b1"read_poiBusynessActivityCollectionURL"b1"read_polyLocationShiftURL"b1"read_pressureProbeDataURL"b1"read_proactiveAppClipURL"b1"read_proactiveRoutingURL"b1"read_problemCategoriesURL"b1"read_problemOptInURL"b1"read_problemStatusURL"b1"read_problemSubmissionURL"b1"read_rapWebBundleURL"b1"read_realtimeTrafficProbeURL"b1"read_resourcesURL"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_tokenAuthenticationURL"b1"read_ugcLogDiscardURL"b1"read_webModuleBaseURL"b1"read_wifiConnectionQualityProbeURL"b1"read_wifiQualityTileURL"b1"read_wifiQualityURL"b1"wrote_anyField"b1};
 - (id)}24{Box<float, 2>={Matrix<float, 2, 1>=[2f]}{Matrix<float, 2, 1>=[2f]}}56@?72;
-- (float)licID:systemID:notationName: /* Error: Ran out of types for this method. */;
+- (float)parser:foundUnparsedEntityDeclarationWithName:publicID:systemID:notationName: /* Error: Ran out of types for this method. */;
 - (id)aleData;
 - (id)«°`TÈ;
 - (id)brary/BuildRoots/4~CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/descriptor_database.cc;
@@ -37,8 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) float value;
 
 @end
 

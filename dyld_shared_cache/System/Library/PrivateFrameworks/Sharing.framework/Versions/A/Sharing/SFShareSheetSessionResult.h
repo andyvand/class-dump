@@ -9,7 +9,6 @@
 @interface SFShareSheetSessionResult
 {
     _Bool _success;
-    NSNumber *_presentationMs;
 }
 
 + (_Bool);
@@ -17,13 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
 - (void)èþÿXcþÿ}þÿ6þÿ<þÿþÿÐþÿÒþÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *presentationMs; // @synthesize presentationMs=_presentationMs;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

@@ -6,45 +6,23 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class HMDHomeManagerHomeHandle, MKFHomeManagerHomeDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFHomeManager;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFHomeManagerHome : _MKFModel
 {
 }
 
-+ (id);
++ (id);
 + (Class);
 + (id);
 + (id);
-- (id);
+- (id)N;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeManagerHomeDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSNumber *deleted; // @dynamic deleted;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDHomeManagerHomeHandle *handle; // @dynamic handle;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHomeManager> homeManager; // @dynamic homeManager;
-@property(retain, nonatomic) id <MKFHomeManager> homeManagerPrimary; // @dynamic homeManagerPrimary;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

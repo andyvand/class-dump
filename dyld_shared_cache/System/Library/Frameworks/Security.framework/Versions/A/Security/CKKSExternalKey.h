@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CKKSExternalKey
 {
     NSString *_view;
-    NSString *_uuid;
-    NSString *_parentKeyUUID;
-    NSData *_keyData;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)%;
+- (id);
 - (id);
 - (void);
 - (id).agent;
 
 // Remaining properties
-@property(readonly) NSData *keyData; // @synthesize keyData=_keyData;
-@property(readonly) NSString *parentKeyUUID; // @synthesize parentKeyUUID=_parentKeyUUID;
-@property(readonly) NSString *uuid; // @synthesize uuid=_uuid;
 @property(readonly) NSString *view; // @synthesize view=_view;
 
 @end

@@ -6,21 +6,15 @@
 
 #import <IMCore/IMTranscriptPluginChatItem.h>
 
-@class IMItem, IMMessageItem, NSString;
+@class IMItem;
 
 @interface IMReplyContextTranscriptPluginChatItem : IMTranscriptPluginChatItem
 {
     _Bool _replyIsFromMe;
-    IMMessageItem *_messageItem;
-    IMItem *_parentItem;
-    NSString *_replyMessageGUID;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(readonly, nonatomic) IMMessageItem *messageItem; // @synthesize messageItem=_messageItem;
-@property(nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 @end
 

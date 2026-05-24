@@ -7,14 +7,11 @@
 @class UITraitCollection;
 
 @protocol AVMobileControlsStyleSheet
-- (UITraitCollection *)roller;
+- (struct UIEdgeInsets);
+- (double)<;
+- (UITraitCollection *)customRoutingController;
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets embeddedInlineInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets landscapeFullscreenInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets portraitFullscreenInsets;
-@property(readonly, nonatomic) double standardPaddingFullScreen;
-@property(readonly, nonatomic) double standardPaddingInline;
 @property(retain, nonatomic) UITraitCollection *traitCollection;
 @end
 

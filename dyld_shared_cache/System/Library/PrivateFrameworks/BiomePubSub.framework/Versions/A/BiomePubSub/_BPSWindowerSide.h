@@ -6,14 +6,11 @@
 
 #import <BiomePubSub/BPSSubscription.h>
 
-@class NSString, _BPSWindowerInner;
-@protocol NSCopying;
+@class _BPSWindowerInner;
 
 @interface _BPSWindowerSide : BPSSubscription
 {
     _BPSWindowerInner *_windowerInner;
-    id <NSCopying> _key;
-    NSString *_identifier;
 }
 
 - (id);
@@ -23,21 +20,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)6;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) id <NSCopying> key; // @synthesize key=_key;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _BPSWindowerInner *windowerInner; // @synthesize windowerInner=_windowerInner;
 
 @end

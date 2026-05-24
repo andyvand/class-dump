@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDateLabel, UILabel;
+@class UILabel;
 
 @interface CKBlackholeConversationListCell
 {
     UILabel *_fromLabel;
-    UIDateLabel *_dateLabel;
 }
 
+- (void)yytM+9G;
+- (id)tView"8Q16^B24;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id)coverSelectedButtonItem;
+- (id)_recoverSelectedButtonItem;
 - (void)P\½6k;
 
 // Remaining properties
-@property(retain, nonatomic) UIDateLabel *dateLabel; // @synthesize dateLabel=_dateLabel;
 @property(retain, nonatomic) UILabel *fromLabel; // @synthesize fromLabel=_fromLabel;
 
 @end

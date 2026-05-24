@@ -6,58 +6,48 @@
 
 #import <AppKit/NSWindow.h>
 
-@class CALayer, _NSFullScreenSpace;
+@class _NSFullScreenSpace;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileDividerWindow : NSWindow
 {
     _NSFullScreenSpace *_space;
-    unsigned long long _tileSpace;
-    unsigned long long _direction;
-    unsigned long long _verticalIndex;
-    unsigned long long _horizontalIndex;
-    _Bool _overrideDrivingLiveResize;
-    _Bool _drivingLiveResize;
-    _Bool _liveResizeMoved;
-    _Bool _shouldAbortLiveResize;
-    struct CGSize _spacing;
-    CALayer *_grabBarLayer;
 }
 
 + (id);
 - (unsigned long long);
+- (unsigned long long)q`;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)-performance-m1;
+- (void)-width;
+- (id)ity;
+- (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
+- (void)__oslogstring;
 - (void);
 - (void);
+- (id)@?@"NSData"@"NSURLResponse"@"NSError">24;
+- (id)set_blockTrackers: /* Error: Ran out of types for this method. */;
+- (void)respondedToWillBeginDelayedRequestCallback;
+- (void)challengeAttributeName;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)try background data task with identifier %lu because there is no such task;
+- (void)issue sandbox extension for file %@, errno = %{errno}d;
+- (void)ackground;
+- (void)saction_duration_ms=%u, response_status=%ld, cache_hit=%{bool}d};
+- (void);
 - (unsigned long long)$8´8d98:ä:Ü;<<@>Ì>@°? /* Error: Ran out of types for this method. */;
 - (struct CGSize)ñ;
 

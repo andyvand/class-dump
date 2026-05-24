@@ -11,8 +11,5 @@
 ?×(
 // Property attributes: àò1	?×¨cÑPø@ø¨CÑ
 
-// Error: Property attributes should begin with the type ('T') attribute, property name: ª w©âªãªäªy·[9©³:©¡ÃÑ
-// Property attributes: ªñÇåò0ÁÚ	"@ù(=
-
 @end
 

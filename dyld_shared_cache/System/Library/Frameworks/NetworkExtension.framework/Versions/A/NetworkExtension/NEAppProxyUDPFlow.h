@@ -6,7 +6,7 @@
 
 #import <NetworkExtension/NEAppProxyFlow.h>
 
-@class NSObject, NWEndpoint;
+@class NSObject;
 @protocol OS_nw_endpoint;
 
 @interface NEAppProxyUDPFlow : NEAppProxyFlow
@@ -22,12 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)n;
+- (id);
+- (id)ry/BuildRoots/4~CNqUugAAvzx29DAFgfxGNmMpOYRYrM_qnrnwWxQ/Library/Caches/com.apple.xbs/TemporaryDirectory.705AQZ/Sources/Sharing/Framework/SFUserDefaults.swift;
+- (void)passwordEncryption;
 
 // Remaining properties
-@property(readonly) NWEndpoint *localEndpoint;
 @property(readonly) NSObject<OS_nw_endpoint> *localFlowEndpoint; // @synthesize localFlowEndpoint=_localFlowEndpoint;
 
 @end

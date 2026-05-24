@@ -6,33 +6,22 @@
 
 #import <CoreML/MLNeuralNetworkV1Engine.h>
 
-@class ETTaskDefinition, ETTaskState, MLModelConfiguration, MLModelDescription, MLModelMetadata, MLParameterContainer, MLShufflingBatchProvider, MLUpdateProgressHandlers, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MLUpdateProgressHandlers;
 
 @interface MLNeuralNetworkUpdateEngine : MLNeuralNetworkV1Engine
 {
     _Bool _continueWithUpdate;
-    ETTaskState *_snapshot;
-    ETTaskDefinition *_task;
-    NSString *_lossTargetName;
-    NSDictionary *_classLabelToIndexMap;
-    MLUpdateProgressHandlers *_progressHandlers;
-    NSObject<OS_dispatch_queue> *_progressHandlersDispatchQueue;
-    NSDictionary *_coreMLToEspressoParamsMap;
-    NSString *_lossOutputName;
-    MLShufflingBatchProvider *_shuffableTrainingData;
-    MLParameterContainer *_parameterContainer;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)9;
 + (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -45,23 +34,23 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (id);
+- (void));
 - (void);
-- (void);
-- (id);
+- (id)�;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)T);
 - (void);
 - (id);
 - (void)ÀFù±þ0ð1Â0@ù
@@ -71,7 +60,7 @@
 - (id)ion>"24@0:(unsigned long long)arg1 8@"NSString"16;
 - (void)allowBackgroundGPUComputeSetting;
 - (_Bool)FeatureExtractorParameters",R,V_parameters;
-- (_Bool)ValueType;
+- (_Bool)MLModelStructureProgramNamedValueType;
 - (id)ü;
 - (unsigned long long)Ä°;
 - (void)rams;
@@ -80,31 +69,7 @@
 - (id)Ö¤è tÀèg+zY¬,ª»Ð³Å~¹·0PÖ"Uð ãA¤ÓhQ|òB<¬§§tí?(âÄ«åÌwB°lcTãX Ð5l!l/óÐQâIvWÃáè¡ÆUõõ¥/äEc¬;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *classLabelToIndexMap; // @synthesize classLabelToIndexMap=_classLabelToIndexMap;
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(nonatomic) _Bool continueWithUpdate; // @synthesize continueWithUpdate=_continueWithUpdate;
-@property(retain, nonatomic) NSDictionary *coreMLToEspressoParamsMap; // @synthesize coreMLToEspressoParamsMap=_coreMLToEspressoParamsMap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *lossOutputName; // @synthesize lossOutputName=_lossOutputName;
-@property(retain, nonatomic) NSString *lossTargetName; // @synthesize lossTargetName=_lossTargetName;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(retain, nonatomic) MLParameterContainer *parameterContainer; // @synthesize parameterContainer=_parameterContainer;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
 @property(retain, nonatomic) MLUpdateProgressHandlers *progressHandlers; // @synthesize progressHandlers=_progressHandlers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressHandlersDispatchQueue; // @synthesize progressHandlersDispatchQueue=_progressHandlersDispatchQueue;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(retain, nonatomic) MLShufflingBatchProvider *shuffableTrainingData; // @synthesize shuffableTrainingData=_shuffableTrainingData;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(retain, nonatomic) ETTaskState *snapshot; // @synthesize snapshot=_snapshot;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
-@property(retain, nonatomic) ETTaskDefinition *task; // @synthesize task=_task;
 
 @end
 

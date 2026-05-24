@@ -6,21 +6,11 @@
 
 #import <Sentry/STYSignpostsMonitorHelper.h>
 
-@class NSArray, NSObject, SignpostSupportSubsystemCategoryAllowlist, WRWorkflowProvider;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class SignpostSupportSubsystemCategoryAllowlist, WRWorkflowProvider;
 
 @interface STYWorkflowResponsivenessMonitorHelper : STYSignpostsMonitorHelper
 {
     SignpostSupportSubsystemCategoryAllowlist *_allowList;
-    int _periodLengthSec;
-    int _perDayLogLimit;
-    int _perPeriodLogLimit;
-    WRWorkflowProvider *_workflowProvider;
-    NSArray *_workflowEventTrackers;
-    NSObject<OS_dispatch_queue> *_settingsChangedCallbackQueue;
-    CDUnknownBlockType _settingsChangedCallback;
-    NSObject<OS_dispatch_source> *_perDayTimer;
-    NSObject<OS_dispatch_source> *_perPeriodTimer;
 }
 
 - (id);
@@ -59,14 +49,6 @@
 - (void);
 
 // Remaining properties
-@property int perDayLogLimit; // @synthesize perDayLogLimit=_perDayLogLimit;
-@property(retain) NSObject<OS_dispatch_source> *perDayTimer; // @synthesize perDayTimer=_perDayTimer;
-@property int perPeriodLogLimit; // @synthesize perPeriodLogLimit=_perPeriodLogLimit;
-@property(retain) NSObject<OS_dispatch_source> *perPeriodTimer; // @synthesize perPeriodTimer=_perPeriodTimer;
-@property int periodLengthSec;
-@property(copy) CDUnknownBlockType settingsChangedCallback; // @synthesize settingsChangedCallback=_settingsChangedCallback;
-@property(retain) NSObject<OS_dispatch_queue> *settingsChangedCallbackQueue; // @synthesize settingsChangedCallbackQueue=_settingsChangedCallbackQueue;
-@property(retain) NSArray *workflowEventTrackers; // @synthesize workflowEventTrackers=_workflowEventTrackers;
 @property(retain) WRWorkflowProvider *workflowProvider; // @synthesize workflowProvider=_workflowProvider;
 
 @end

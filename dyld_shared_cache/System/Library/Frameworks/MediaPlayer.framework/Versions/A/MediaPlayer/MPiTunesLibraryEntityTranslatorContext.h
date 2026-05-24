@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)IncludingPlaybackState: /* Error: Ran out of types for this method. */;
+- (void)_updateContentItemIncludingPlaybackState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *libraryID; // @synthesize libraryID=_libraryID;

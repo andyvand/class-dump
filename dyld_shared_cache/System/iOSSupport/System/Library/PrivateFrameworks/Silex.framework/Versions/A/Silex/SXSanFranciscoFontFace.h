@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol SXFontAttributes;
+@class NSString;
 
 @interface SXSanFranciscoFontFace
 {
     NSString *_fontName;
-    id <SXFontAttributes> _fontAttributes;
-    NSDictionary *_fontDescriptorAttributes;
 }
 
 - (id);
@@ -22,16 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXFontAttributes> fontAttributes; // @synthesize fontAttributes=_fontAttributes;
-@property(readonly, nonatomic) NSDictionary *fontDescriptorAttributes; // @synthesize fontDescriptorAttributes=_fontDescriptorAttributes;
 @property(readonly, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

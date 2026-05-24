@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)߈;
 + (struct CGImage *);
 + (struct CGImage *);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *));
 + (struct CGImage *);
 + (id);
 + (double);

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet, PGGraphHighlightTypeNodeCollection, PGGraphHolidayNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PGGraphSocialGroupNodeCollection;
+@class NSOrderedSet;
 
 @interface PGMoodKeywordComputer
 {
     NSOrderedSet *_orderedKeywords;
-    NSArray *_keywordsRegions;
-    PGGraphHolidayNodeCollection *_lunarNewYearHolidayNodes;
-    PGGraphHighlightTypeNodeCollection *_shortTripTypeNodeCollection;
-    PGGraphPersonNodeCollection *_familyOrPartnerPersonNodes;
-    PGGraphSocialGroupNodeCollection *_bestSocialGroupNodes;
-    PGGraphMomentNodeCollection *_natureMomentNodes;
 }
 
 - (id);
@@ -23,11 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)m
+-Am;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)mentController",&,N,S_setSharedKeyboardFocusedElementController:,V__sharedKeyboardFocusedElementController /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -46,13 +41,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) PGGraphSocialGroupNodeCollection *bestSocialGroupNodes; // @synthesize bestSocialGroupNodes=_bestSocialGroupNodes;
-@property(retain, nonatomic) PGGraphPersonNodeCollection *familyOrPartnerPersonNodes; // @synthesize familyOrPartnerPersonNodes=_familyOrPartnerPersonNodes;
-@property(retain, nonatomic) NSArray *keywordsRegions; // @synthesize keywordsRegions=_keywordsRegions;
-@property(retain, nonatomic) PGGraphHolidayNodeCollection *lunarNewYearHolidayNodes; // @synthesize lunarNewYearHolidayNodes=_lunarNewYearHolidayNodes;
-@property(retain, nonatomic) PGGraphMomentNodeCollection *natureMomentNodes; // @synthesize natureMomentNodes=_natureMomentNodes;
 @property(retain, nonatomic) NSOrderedSet *orderedKeywords; // @synthesize orderedKeywords=_orderedKeywords;
-@property(retain, nonatomic) PGGraphHighlightTypeNodeCollection *shortTripTypeNodeCollection; // @synthesize shortTripTypeNodeCollection=_shortTripTypeNodeCollection;
 
 @end
 

@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene, NSHashTable, NSString, UIScenePresentationContext, UIScenePresentationManager, UIView, _UIScenePresentationView, _UIScenePresenterOwner;
-@protocol NSCopying, NSCopying><_UIComparable, UIScenePresentation;
+@class UIScenePresentationManager;
 
 __attribute__((visibility("hidden")))
 @interface _UIScenePresenter
 {
     UIScenePresentationManager *_weakManager;
-    UIScenePresentationManager *_strongManager;
-    FBScene *_strongScene;
-    _UIScenePresenterOwner *_owner;
-    UIScenePresentationContext *_presentationContext;
-    double _initializeTime;
-    id <NSCopying><_UIComparable> _sortContext;
-    NSString *_identifier;
-    _Bool _invalidated;
-    _Bool _visibilityPropagationEnabled;
-    _UIScenePresentationView *_view;
-    NSHashTable *_observers;
-    _Bool _hosting;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)6;
+- (id)[h@)c;
 - (id);
 - (void);
-- (id);
+- (id)I;
+- (id)setNavigationBarHidden:(id)arg1;
+- (void)_contentItemIdentifiers;
+- (id)MPModelLibraryRequestContentRangeLocation;
 - (id);
 - (void);
 - (double);
@@ -47,14 +34,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)0@ù
 × ;
-- (void)ndSubmitEventToForm:(id)arg1 inFrame:withValues: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)ingSize:(id)arg1;
+- (void)webBrowserView:(id)arg1 willSendSubmitEventToForm:inFrame:withValues: /* Error: Ran out of types for this method. */;
+- (_Bool)setShouldUseVisualStyleAnimationControllerForPresentation: /* Error: Ran out of types for this method. */;
+- (id)setContentClippingSize:(id)arg1;
 - (void);
-- (void)set;
-- (id)igationItem;
-- (id)tion:(CDUnknownBlockType)arg1 toInterfaceOrientation: /* Error: Ran out of types for this method. */;
-- (id)ntViewCellProminence;
+- (void)defaultSelectedShadowVerticalOffset;
+- (id)_hasSetInitialNavigationItem;
+- (id)_durationForRotationFromInterfaceOrientation:(CDUnknownBlockType)arg1 toInterfaceOrientation: /* Error: Ran out of types for this method. */;
+- (id)_contentViewCellProminence;
 - (id)electionCommands;
 - (_Bool)utForEmptyUpdates: /* Error: Ran out of types for this method. */;
 - (void)R,N,V_defaultTraitCollection;
@@ -72,23 +59,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double _initializeTime; // @synthesize _initializeTime;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHosting) _Bool hosting; // @synthesize hosting=_hosting;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(readonly, nonatomic) __weak UIScenePresentationManager *manager;
-@property(readonly, copy, nonatomic) UIScenePresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(readonly, nonatomic) UIView<UIScenePresentation> *presentationView;
-@property(readonly, nonatomic) __weak FBScene *scene;
-@property(readonly, copy, nonatomic) id <NSCopying> sortContext; // @synthesize sortContext=_sortContext;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isVisibilityPropagationEnabled) _Bool visibilityPropagationEnabled; // @synthesize visibilityPropagationEnabled=_visibilityPropagationEnabled;
 
 @end
 

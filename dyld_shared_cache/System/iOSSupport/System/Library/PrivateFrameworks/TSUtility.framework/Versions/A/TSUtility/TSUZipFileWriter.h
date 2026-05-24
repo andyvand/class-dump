@@ -15,7 +15,7 @@
 
 + (void);
 - (id);
-- (id);
+- (id)n",N,R;
 - (void);
 
 @end

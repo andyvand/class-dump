@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFThrottler, NSMutableArray, NSMutableDictionary, NSUserDefaults;
+@class AXFThrottler;
 
 @interface UASettings
 {
     _Bool __performingUndoableModifications;
-    NSUserDefaults *_universalAccessUserDefaults;
-    AXFThrottler *__notificationPostingThrottler;
-    NSMutableDictionary *__propertiesToUndoAndTheirOriginalValues;
-    NSMutableArray *__orderedPropertiesToUndo;
 }
 
 - (id);
+- (void);;
+- (void)1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -37,10 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AXFThrottler *_notificationPostingThrottler; // @synthesize _notificationPostingThrottler=__notificationPostingThrottler;
-@property(retain, nonatomic) NSMutableArray *_orderedPropertiesToUndo; // @synthesize _orderedPropertiesToUndo=__orderedPropertiesToUndo;
-@property(nonatomic) _Bool _performingUndoableModifications; // @synthesize _performingUndoableModifications=__performingUndoableModifications;
-@property(retain, nonatomic) NSMutableDictionary *_propertiesToUndoAndTheirOriginalValues; // @synthesize _propertiesToUndoAndTheirOriginalValues=__propertiesToUndoAndTheirOriginalValues;
-@property(retain, nonatomic) NSUserDefaults *universalAccessUserDefaults; // @synthesize universalAccessUserDefaults=_universalAccessUserDefaults;
 
 @end
 

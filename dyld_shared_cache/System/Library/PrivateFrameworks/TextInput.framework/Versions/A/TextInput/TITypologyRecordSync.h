@@ -6,12 +6,11 @@
 
 #import <TextInput/TITypologyRecord.h>
 
-@class TIKeyboardConfiguration, TIKeyboardState;
+@class TIKeyboardState;
 
 @interface TITypologyRecordSync : TITypologyRecord
 {
     TIKeyboardState *_keyboardState;
-    TIKeyboardConfiguration *_keyboardConfig;
 }
 
 + (_Bool);
@@ -20,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)mpleted for %@ with no matches detected;
+- (void)egory = ? LIMIT 1;
 - (void);
 - (id);
 - (void);
@@ -31,11 +30,10 @@
 
 ­
 ;
-- (id)dly;
-- (void)ringless;
+- (id)unworldly;
+- (void)springless;
 
 // Remaining properties
-@property(retain, nonatomic) TIKeyboardConfiguration *keyboardConfig; // @synthesize keyboardConfig=_keyboardConfig;
 @property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
 
 @end

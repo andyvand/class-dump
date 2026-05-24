@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)hLocationCountryNode;
+- (long long)(;
+- (id)Error:error: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationCountryNode;
 
 @end
 

@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSiriQueryResult
 {
     double _confidence;
-    NSString *_domain;
-    NSString *_qid;
-    struct {
-        unsigned int confidence:1;
-    } _has;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)forceEnableWrongSpeakerIOBufferSize;
+- (_Bool)dioTap addAudioTapForStreamToken:tapType:enableAsyncTapStart:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)sortDescriptorWithKey:ascending: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (double);
 - (void);
 - (void)ú;
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasConfidence;
-@property(readonly, nonatomic) _Bool hasDomain;
 @property(readonly, nonatomic) _Bool hasQid;
-@property(retain, nonatomic) NSString *qid; // @synthesize qid=_qid;
 
 @end
 

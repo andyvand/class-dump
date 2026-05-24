@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFFont_RFSystemFont;
-
 @interface _SFPBRFFont
 {
     _Bool _applySmallCaps;
-    int _name;
-    _SFPBRFFont_RFSystemFont *_system;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
@@ -25,26 +20,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)queryForExtendedCuratedAssetsWithOptions:(id)arg1;
+- (id)----;
+- (id);
 - (id);
 - (void);
 - (void)ectionHeaderCardSection";
 
 // Remaining properties
-@property(nonatomic) _Bool applySmallCaps; // @synthesize applySmallCaps=_applySmallCaps;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRFFont_RFSystemFont *system; // @synthesize system=_system;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

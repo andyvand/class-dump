@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface ASDAppUsageStats
 {
     _Bool _isExtensionUsage;
-    NSString *_bundleID;
-    NSString *_bundleVersion;
-    NSString *_clipBundleID;
-    NSURL *_clipFullURL;
-    NSString *_clipLaunchReason;
-    NSString *_clipReferrerURL;
-    NSString *_clipReferrerBundleID;
-    NSString *_clipWebAppBundleID;
-    NSString *_containingBundleID;
-    NSDate *_endDate;
-    long long _eventTime;
-    NSNumber *_evid;
-    NSNumber *_itemID;
-    NSString *_itemName;
-    NSDate *_lastEventEndDate;
-    NSString *_launchReason;
-    NSString *_sourceStream;
-    NSDate *_startDate;
-    long long _usageTime;
-    long long _usageCount;
 }
 
 - (long long);
@@ -51,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)҆	;
 - (long long);
 - (void);
 - (void);
@@ -63,42 +43,22 @@
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)ed a new instance of SUMacControllerRosettaManager:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)__AUTH_CONST;
+- (id)ssory;
+- (id)ment:(struct _NSZone *)arg1 ];
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)4;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(copy, nonatomic) NSString *clipBundleID; // @synthesize clipBundleID=_clipBundleID;
-@property(copy, nonatomic) NSURL *clipFullURL; // @synthesize clipFullURL=_clipFullURL;
-@property(copy, nonatomic) NSString *clipLaunchReason; // @synthesize clipLaunchReason=_clipLaunchReason;
-@property(copy, nonatomic) NSString *clipReferrerBundleID; // @synthesize clipReferrerBundleID=_clipReferrerBundleID;
-@property(copy, nonatomic) NSString *clipReferrerURL; // @synthesize clipReferrerURL=_clipReferrerURL;
-@property(copy, nonatomic) NSString *clipWebAppBundleID; // @synthesize clipWebAppBundleID=_clipWebAppBundleID;
-@property(copy, nonatomic) NSString *containingBundleID; // @synthesize containingBundleID=_containingBundleID;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) long long eventTime; // @synthesize eventTime=_eventTime;
-@property(copy, nonatomic) NSNumber *evid; // @synthesize evid=_evid;
-@property(nonatomic) _Bool isExtensionUsage; // @synthesize isExtensionUsage=_isExtensionUsage;
-@property(copy, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(copy, nonatomic) NSString *itemName; // @synthesize itemName=_itemName;
-@property(copy, nonatomic) NSDate *lastEventEndDate; // @synthesize lastEventEndDate=_lastEventEndDate;
-@property(copy, nonatomic) NSString *launchReason; // @synthesize launchReason=_launchReason;
-@property(copy, nonatomic) NSString *sourceStream; // @synthesize sourceStream=_sourceStream;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) long long usageCount; // @synthesize usageCount=_usageCount;
-@property(nonatomic) long long usageTime; // @synthesize usageTime=_usageTime;
 
 @end
 

@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2StreamGroupEncodeDecodeFeatures
 {
     NSData *_encodeDecodeFeatures;
-    unsigned int _rtpPayload;
-    struct {
-        unsigned int rtpPayload:1;
-    } _has;
 }
 
 - (void);
@@ -23,23 +19,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)6;
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool)h;
 - (void);
 - (id);
-- (id);
+- (id)ns/A/CoreGraphics;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encodeDecodeFeatures; // @synthesize encodeDecodeFeatures=_encodeDecodeFeatures;
-@property(readonly, nonatomic) _Bool hasEncodeDecodeFeatures;
 @property(nonatomic) _Bool hasRtpPayload;
-@property(nonatomic) unsigned int rtpPayload; // @synthesize rtpPayload=_rtpPayload;
 
 @end
 

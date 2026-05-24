@@ -7,12 +7,6 @@
 @interface NewsUI2.SearchRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
-    id router;
-    id featureAvailability;
 }
 
 @end

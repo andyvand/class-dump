@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISystemNavigationAction;
-
 __attribute__((visibility("hidden")))
 @interface UIStatusBarComposedData
 {
     CDStruct_aa1ce654 _rawData;
-    _Bool _itemEnabled[52];
-    NSString *_doubleHeightStatus;
-    UISystemNavigationAction *_systemNavigationItem;
 }
 
-- (id);
+- (id)_copyRecordIDsToDeleteWithLimit: /* Error: Ran out of types for this method. */;
+- (void)ts:(id)arg1 withCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)eply in the last %ld messages.;
 - (id);
 - (id);
 - (CDStruct_aa1ce654 *);
-- (_Bool)opCount;
+- (_Bool)previewInteractionPopCount;
 - (id)_updateTextFormattingController;
 - (void)cÛÓb;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *doubleHeightStatus; // @synthesize doubleHeightStatus=_doubleHeightStatus;
 @property(readonly, nonatomic) CDStruct_aa1ce654 *rawData;
-@property(retain, nonatomic) UISystemNavigationAction *systemNavigationItem; // @synthesize systemNavigationItem=_systemNavigationItem;
 
 @end
 

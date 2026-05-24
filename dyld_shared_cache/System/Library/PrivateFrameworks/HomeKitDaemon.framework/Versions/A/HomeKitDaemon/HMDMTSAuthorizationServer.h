@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDUIDialogPresenter, NSString;
+@class HMDUIDialogPresenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDMTSAuthorizationServer
 {
     HMDUIDialogPresenter *_uiDialogPresenter;
-    CDUnknownBlockType _systemPreferenceReader;
-    HMDAppleAccountManager *_accountManager;
 }
 
 + (id)0ùÿ;
-- (id);
-- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType);
+- (void);
+- (id)on:(id)arg1 ]_block_invoke_3;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)TargetUUID:queue:dataSource:messageDispatcher:notificationCenter:requestMessageName:updateMessageName:multiHopFetchResponseMessageName:storeReadHandle:storeWriteHandle:logCategory: /* Error: Ran out of types for this method. */;
-- (void)diaBitMask;
+- (id)initWithMessageTargetUUID:queue:dataSource:messageDispatcher:notificationCenter:requestMessageName:updateMessageName:multiHopFetchResponseMessageName:storeReadHandle:storeWriteHandle:logCategory: /* Error: Ran out of types for this method. */;
+- (void)totalThirdPartyMediaBitMask;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDAppleAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType systemPreferenceReader; // @synthesize systemPreferenceReader=_systemPreferenceReader;
 @property(readonly, nonatomic) HMDUIDialogPresenter *uiDialogPresenter; // @synthesize uiDialogPresenter=_uiDialogPresenter;
 
 @end

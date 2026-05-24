@@ -6,16 +6,14 @@
 
 #import <CoreSuggestionsInternals/SGCuratedChangeNotificationsBaseListener.h>
 
-@class NSObject;
-@protocol NSObject, OS_dispatch_queue;
+@protocol NSObject;
 
 @interface SGCuratedChangeNotificationsAddressBookListener : SGCuratedChangeNotificationsBaseListener
 {
     id <NSObject> _notificationCenterToken;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
 }
 
-- (void)eId:confidence:schemaOrg:participants:eventActivities: /* Error: Ran out of types for this method. */;
+- (void)initWithType:categoryDescription:originBundleId:confidence:schemaOrg:participants:eventActivities: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

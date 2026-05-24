@@ -4,125 +4,76 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBrowserDragManager, IMBalloonPlugin, IMBalloonPluginDataSource, NSArray, NSData, NSNumber, NSString, UIView, UIViewController;
-@protocol CKBrowserViewControllerSendDelegate, UIViewControllerTransitioningDelegate;
+@class CKBrowserDragManager, NSArray, NSData, NSString, UIView, UIViewController;
+@protocol UIViewControllerTransitioningDelegate;
 
 @protocol CKBrowserViewControllerProtocol
+- (_Bool)ng"24@?<v@?@"ICEvernoteNote">32;
+- (_Bool)@68@0:8@16s24@28B36B40@44:52:60 /* Error: Ran out of types for this method. */;
+- (void)timestamp;
+- (void)setReplicaIDToUserIDDictData:(_Bool)arg1;
+- (void)setPreviewBehavior:(_Bool)arg1;
+- (void)removeAllButtons;
+- (_Bool)assignToPersistentStore: /* Error: Ran out of types for this method. */;
+- (_Bool)_outlineControllerObject;
+- (_Bool)_isReadingSelectionFromPasteboard;
+- (id)t",R,N,V_undoTarget;
+- (id)V_table;
+- (_Bool)onAnalyticsTracker",&,N,V_collaborationAnalyticsTracker;
+- (_Bool)acceptShareWithMetadata:managedObjectContext:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long)_So18NSAttributedStringCtc;
+- (void);
 - (_Bool)?]yº]]yþÈÑ¥]GG;
 
 @optional
+- (void)ebView"16@"WKSecurityOrigin"24@"WKFrameInfo"32@?<v@?q>40;
+- (void)}24@"NSView"56Q64;
+- (void):(id)arg1 8@16^{CGImage=}24d32@40;
+- (void)textController:(NSArray *)arg1 removedTrackedAttribute: /* Error: Ran out of types for this method. */;
+- (void)sortedArrayUsingComparator:(UIView *)arg1;
+- (void)shouldConvertAllDrawingsIfNeeded;
+- (void)sharedIndexer;
+- (void)rowLocationForRowIndex: /* Error: Ran out of types for this method. */;
+- (void)registerShareForObject:(void (^)(NSDictionary *))arg1 itemProvider:generateThumbnails:sharePreparationHandler: /* Error: Ran out of types for this method. */;
+- (NSData *)registerShareForObject:itemProvider:generateThumbnails: /* Error: Ran out of types for this method. */;
+- (void)registerForContactsChangedNotification;
+- (id)isAutoListInsertionDisabled;
+- (id <UIViewControllerTransitioningDelegate>)indexLessThanOrEqualToIndex: /* Error: Ran out of types for this method. */;
+- (long long)indentRange:byAmount:inTextStorage:textView: /* Error: Ran out of types for this method. */;
+- (void)faultingState;
+- (void)createMissingAttachmentsInTextStorage;
+- (_Bool)convertFontSizeArrayToMultipliersFromArray: /* Error: Ran out of types for this method. */;
+- (struct CGRect)le;
+- (NSArray *)T@"NSString",R,N,V_type;
+- (void)localZoomFactor;
+- (void)_contentSizeWidthConstraint;
+- (void)setUseConstraintBasedRendering: /* Error: Ran out of types for this method. */;
+- (UIView *)@"NSLayoutConstraint",&,N,V_webViewBottomConstraint;
+- (void)attributedStringWithAttachment:(long long)arg1;
+- (long long)NSPasteboardWriting;
+- (_Bool);
+- (void)intervalEnd;
+- (void)cachedPaper;
+- (CKBrowserDragManager *)mentionsCache;
+- (void)e_$_updateDelayer;
+- (void)ySPG;
+- (void)e;
+- (void)m;
+- (void)R;
+- (void)o;
+- (void)L;
+- (void)A;
+- (void)Converter from %@ to standard format with sample rate:%f; will continue without sample rate conversion /* Error: Ran out of types for this method. */;
+- (void)ICSystemPaperDrawingsHelper;
+- (void)titleLabelTapped:(NSArray *)arg1;
 - (UIViewController *)Ô ;
 - (NSString *);
-- (NSString *)s;
+- (NSString *)conversationSupportsInlineAdaptiveImageGlyphs;
 - (void)¶;
 - (unsigned long long)í)\yAAy¬&\y¶Ô_ABy½)\y_[â[GGSgQo_ÔGGO%\G;
 - (NSArray *)ary password:[%@] /* Error: Ran out of types for this method. */;
-- (NSNumber *);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *adamID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,&,N
-
-@property(readonly, nonatomic) unsigned long long badgeValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) IMBalloonPlugin *balloonPlugin;
-@property(retain, nonatomic) IMBalloonPluginDataSource *balloonPluginDataSource;
-@property(readonly, nonatomic) CKBrowserDragManager *browserDragManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CKBrowserDragManager",?,R,N
-
-@property(readonly, nonatomic) long long browserPresentationStyle;
-@property(readonly, nonatomic) _Bool canReplaceDataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) UIViewController *canvasViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewController",?,R,N
-
-@property(retain, nonatomic) NSData *conversationEngramID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,&,N
-
-@property(retain, nonatomic) NSString *conversationID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(nonatomic) long long currentBrowserConsumer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, nonatomic, getter=isDismissing) _Bool dismissing;
-@property(nonatomic) __weak UIView *dragTargetView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,W,N
-
-@property(copy, nonatomic) NSString *generatedSummary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSArray *generativeContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C,N
-
-@property(readonly, nonatomic) struct CGRect horizontalSwipeExclusionRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, nonatomic) _Bool inExpandedPresentation;
-@property(readonly, nonatomic) _Bool inFullScreenModalPresentation;
-@property(readonly, nonatomic) _Bool isAlive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool isBusiness;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isPrimaryViewController;
-@property(nonatomic) _Bool isiMessage;
-@property(readonly, nonatomic) _Bool mayBeKeptInViewHierarchy;
-@property(readonly, nonatomic) long long parentModalPresentationStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) __weak id <UIViewControllerTransitioningDelegate> parentTransitioningDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIViewControllerTransitioningDelegate>",?,R,W,N
-
-@property(retain, nonatomic) id pluginContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,&,N
-
 @property(retain, nonatomic) UIViewController *presentationViewController;
-@property(retain, nonatomic) NSArray *recipients;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,&,N
-
-@property(readonly, nonatomic) UIViewController *remoteViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewController",?,R,N
-
-@property(nonatomic) __weak id <CKBrowserViewControllerSendDelegate> sendDelegate;
-@property(retain, nonatomic) NSString *sender;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(nonatomic) _Bool shouldDisableSnapshotView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) _Bool shouldShowChatChrome;
-@property(readonly, nonatomic) _Bool shouldSuppressEntryView;
-@property(readonly, nonatomic) _Bool supportsQuickView;
-@property(readonly, nonatomic) _Bool wantsDarkUI;
-@property(readonly, nonatomic) _Bool wantsOpaqueUI;
-@property(readonly, nonatomic) _Bool wasExpandedPresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

@@ -6,56 +6,11 @@
 
 #import <CoreRecognition/CRCodeRedeemerLayer.h>
 
-@class AVCaptureDevice, AVCaptureSession, AVCaptureVideoDataOutput, AVCaptureVideoPreviewLayer, BoxLayer, CALayer, ErrorLayer, NSDate, NSDictionary, NSString, NSTimer;
-@protocol CALayerDelegate><CRCodeRedeemerLayerDelegate><CRCodeRedeemerLayerDelegatePrivate, CRCodeRedeemerLayerDebuggingDelegate;
+@protocol CRCodeRedeemerLayerDebuggingDelegate;
 
 @interface _CRCodeRedeemerLayer : CRCodeRedeemerLayer
 {
     id <CRCodeRedeemerLayerDebuggingDelegate> _debuggingDelegate;
-    AVCaptureSession *_session;
-    AVCaptureDevice *_inputDevice;
-    AVCaptureVideoPreviewLayer *_previewLayer;
-    AVCaptureVideoDataOutput *_videoDataOutput;
-    struct vImage_Buffer _lastvImageBuffer;
-    unsigned long long _cameraModel;
-    NSString *_cameraPreset;
-    CALayer *_containerLayer;
-    CALayer *_overlayLayer;
-    ErrorLayer *_errorTextLayer;
-    BoxLayer *_boxLayer;
-    struct CGPoint _oldPosition;
-    double _oldAngle;
-    struct CGSize _oldSize;
-    NSDate *_date;
-    NSDate *_boxFoundDate;
-    NSDate *_boxMovedTimestamp;
-    int _isCaptureModeOnly;
-    _Bool _isBatchModeOnly;
-    _Bool _isActiveRedeemer;
-    _Bool _isReadyForProcessing;
-    _Bool _isContinuousCapture;
-    _Bool _redeemerShowsMessageError;
-    long long _whiteBalanceMode;
-    long long _focusMode;
-    long long _exposureMode;
-    long long _torchMode;
-    long long _cameraMode;
-    unsigned long long _numberOfLinesInErrorText;
-    NSString *_currentCode;
-    double _confidenceThreshold;
-    double _sessionTimeout;
-    _Bool _isFirstBoxDetection;
-    _Bool _isCaptureUpsideDown;
-    _Bool _isLastCapture;
-    _Bool _sessionIsRunning;
-    struct CGColor *_defaultColor;
-    _Bool _isRectangleMoving;
-    NSTimer *_statusFadeTimer;
-    _Bool _cameraIsRunning;
-    NSDictionary *_lastRectangleInfos;
-    _Bool _foundBoundingBox;
-    id <CALayerDelegate><CRCodeRedeemerLayerDelegate><CRCodeRedeemerLayerDelegatePrivate> _delegate;
-    _Bool _videoQueueSuspended;
 }
 
 + (void);
@@ -65,6 +20,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,6 +37,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,27 +46,19 @@
 - (void);
 - (void);
 - (void);
+- (void)9q;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)(;
 - (double);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (struct CGPoint);
@@ -112,7 +67,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -133,12 +88,12 @@
 - (id);
 - (id);
 - (struct __CFArray *);
-- (id);
+- (id)	;
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)R3;
 - (void);
 - (void);
 - (struct CGSize);
@@ -153,17 +108,17 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)(;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)x;
+- (long long);
+- (void)?;
 - (long long);
 - (void);
-- (long long);
-- (void);
 - (id);
-- (id);
+- (id)QR;
 - (id);
 - (void);
 - (void);
@@ -172,57 +127,11 @@
 - (void);
 - (long long);
 - (unsigned long long);
-- (long long);
-- (void)tices:(id)arg1;
+- (long long)darkGrayColor;
+- (void)setTargetVertices:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *boxFoundDate; // @synthesize boxFoundDate=_boxFoundDate;
-@property(retain, nonatomic) BoxLayer *boxLayer; // @synthesize boxLayer=_boxLayer;
-@property(retain, nonatomic) NSDate *boxMovedTimestamp; // @synthesize boxMovedTimestamp=_boxMovedTimestamp;
-@property(nonatomic) long long cameraMode; // @synthesize cameraMode=_cameraMode;
-@property(nonatomic) unsigned long long cameraModel; // @synthesize cameraModel=_cameraModel;
-@property(retain, nonatomic) NSString *cameraPreset; // @synthesize cameraPreset=_cameraPreset;
-@property(nonatomic) double confidenceThreshold; // @synthesize confidenceThreshold=_confidenceThreshold;
-@property(retain, nonatomic) CALayer *containerLayer; // @synthesize containerLayer=_containerLayer;
-@property(copy, nonatomic) NSString *currentCode; // @synthesize currentCode=_currentCode;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <CRCodeRedeemerLayerDebuggingDelegate> debuggingDelegate; // @synthesize debuggingDelegate=_debuggingDelegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) ErrorLayer *errorTextLayer; // @synthesize errorTextLayer=_errorTextLayer;
-@property(nonatomic) long long exposureMode; // @synthesize exposureMode=_exposureMode;
-@property(nonatomic) long long focusMode; // @synthesize focusMode=_focusMode;
-@property(nonatomic) _Bool foundBoundingBox; // @synthesize foundBoundingBox=_foundBoundingBox;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVCaptureDevice *inputDevice; // @synthesize inputDevice=_inputDevice;
-@property(nonatomic) _Bool isActiveRedeemer; // @synthesize isActiveRedeemer=_isActiveRedeemer;
-@property(nonatomic) _Bool isBatchModeOnly; // @synthesize isBatchModeOnly=_isBatchModeOnly;
-@property(nonatomic) int isCaptureModeOnly; // @synthesize isCaptureModeOnly=_isCaptureModeOnly;
-@property(nonatomic) _Bool isCaptureUpsideDown; // @synthesize isCaptureUpsideDown=_isCaptureUpsideDown;
-@property(nonatomic) _Bool isContinuousCapture; // @synthesize isContinuousCapture=_isContinuousCapture;
-@property(nonatomic) _Bool isFirstBoxDetection; // @synthesize isFirstBoxDetection=_isFirstBoxDetection;
-@property(nonatomic) _Bool isLastCapture; // @synthesize isLastCapture=_isLastCapture;
-@property(nonatomic) _Bool isReadyForProcessing; // @synthesize isReadyForProcessing=_isReadyForProcessing;
-@property(nonatomic) _Bool isRectangleMoving; // @synthesize isRectangleMoving=_isRectangleMoving;
-@property(retain, nonatomic) NSDictionary *lastRectangleInfos; // @synthesize lastRectangleInfos=_lastRectangleInfos;
-@property(nonatomic) unsigned long long numberOfLinesInErrorText; // @synthesize numberOfLinesInErrorText=_numberOfLinesInErrorText;
-@property(nonatomic) double oldAngle; // @synthesize oldAngle=_oldAngle;
-@property(nonatomic) struct CGPoint oldPosition; // @synthesize oldPosition=_oldPosition;
-@property(nonatomic) struct CGSize oldSize; // @synthesize oldSize=_oldSize;
-@property(retain, nonatomic) CALayer *overlayLayer; // @synthesize overlayLayer=_overlayLayer;
-@property(retain, nonatomic) AVCaptureVideoPreviewLayer *previewLayer; // @synthesize previewLayer=_previewLayer;
-@property(nonatomic) _Bool redeemerShowsMessageError; // @synthesize redeemerShowsMessageError=_redeemerShowsMessageError;
-@property(retain, nonatomic) AVCaptureSession *session; // @synthesize session=_session;
-@property(nonatomic) _Bool sessionIsRunning; // @synthesize sessionIsRunning=_sessionIsRunning;
-@property(retain, nonatomic) NSTimer *statusFadeTimer; // @synthesize statusFadeTimer=_statusFadeTimer;
-@property(readonly) Class superclass;
-@property(nonatomic) long long torchMode; // @synthesize torchMode=_torchMode;
-@property(retain, nonatomic) AVCaptureVideoDataOutput *videoDataOutput; // @synthesize videoDataOutput=_videoDataOutput;
-@property _Bool videoQueueSuspended; // @synthesize videoQueueSuspended=_videoQueueSuspended;
-@property(nonatomic) long long whiteBalanceMode; // @synthesize whiteBalanceMode=_whiteBalanceMode;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSImage, NSString, NSWindow;
+@class NSString;
 
 @interface AKExtensionlessFollowUpHelperContext
 {
     NSString *_uniqueItemIdentifier;
-    NSString *_altDSID;
-    NSString *_urlKey;
-    NSString *_akAction;
-    NSDictionary *_additionalInfo;
-    NSWindow *_hostWindow;
-    NSImage *_displayImage;
 }
 
 + (_Bool);
@@ -22,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CalDateComponents:(id)arg1 byAddingDays:calendar: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -33,18 +27,12 @@
 - (void);
 - (id);
 - (void);
-- (void)ilStackView;
+- (void)expandableEmailStackView;
 - (id)DownInValueLabel;
 - (id)Image"@"NSString"@"NSError">8;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(copy, nonatomic) NSString *akAction; // @synthesize akAction=_akAction;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
 @property(copy, nonatomic) NSString *uniqueItemIdentifier; // @synthesize uniqueItemIdentifier=_uniqueItemIdentifier;
-@property(copy, nonatomic) NSString *urlKey; // @synthesize urlKey=_urlKey;
 
 @end
 

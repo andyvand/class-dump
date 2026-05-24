@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCoreAnalyticsCollector, NSMutableDictionary;
-@protocol EFScheduler;
+@class EMCoreAnalyticsCollector;
 
 @interface MSUserNotificationCenterAnalyticsLogger
 {
     _Bool _generatedSummarySupported;
-    EMCoreAnalyticsCollector *_coreAnalytics;
-    id <EFScheduler> _scheduler;
-    NSMutableDictionary *_notificationIntervals;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)T;
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)kit.printer-display-name;
 
 // Remaining properties
 @property(retain, nonatomic) EMCoreAnalyticsCollector *coreAnalytics; // @synthesize coreAnalytics=_coreAnalytics;
-@property(nonatomic) _Bool generatedSummarySupported; // @synthesize generatedSummarySupported=_generatedSummarySupported;
-@property(retain, nonatomic) NSMutableDictionary *notificationIntervals; // @synthesize notificationIntervals=_notificationIntervals;
-@property(readonly, nonatomic) id <EFScheduler> scheduler; // @synthesize scheduler=_scheduler;
 
 @end
 

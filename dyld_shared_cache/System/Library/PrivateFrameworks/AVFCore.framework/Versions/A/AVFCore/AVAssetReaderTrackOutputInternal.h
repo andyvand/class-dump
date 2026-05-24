@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetTrack, AVOutputSettings, AVWeakReference, NSString;
+@class AVAssetTrack;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetReaderTrackOutputInternal
 {
     AVAssetTrack *track;
-    AVOutputSettings *outputSettings;
-    NSString *audioTimePitchAlgorithm;
-    _Bool appliesPreferredTrackTransform;
-    _Bool limitsImageQueueCapacityToOneFrame;
-    AVWeakReference *weakReferenceToAttachedAdaptor;
 }
 
 @end

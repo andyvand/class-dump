@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDiscoveryDriver;
-@protocol PKApplicationWorkspaceProxy;
+@class PKDiscoveryDriver;
 
 @interface PKDiscoveryLSWatcher
 {
     PKDiscoveryDriver *_wdriver;
-    id <PKApplicationWorkspaceProxy> _workspace;
 }
 
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)antized values;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property __weak PKDiscoveryDriver *wdriver; // @synthesize wdriver=_wdriver;
-@property(retain) id <PKApplicationWorkspaceProxy> workspace; // @synthesize workspace=_workspace;
 
 @end
 

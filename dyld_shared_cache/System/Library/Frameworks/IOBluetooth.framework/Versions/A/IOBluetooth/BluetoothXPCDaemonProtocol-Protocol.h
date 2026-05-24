@@ -5,5 +5,9 @@
 //
 
 @protocol BluetoothXPCDaemonProtocol
+
+@optional
+- (void);
+- (void)`;
 @end
 

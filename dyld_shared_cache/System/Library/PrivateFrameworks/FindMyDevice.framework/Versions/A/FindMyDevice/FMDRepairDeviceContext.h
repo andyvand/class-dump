@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FMDRepairDeviceContext
 {
     NSArray *_selectedDevices;
-    NSArray *_searchIdentifiers;
-    NSString *_ephemeralToken;
-    long long _repairDeviceMode;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)20@0:(id)arg1 8{_PKStrokePoint=d{CGPoint=dd}ddddddddd}16d112;
+- (void)okePoint={_PKPoint=ff}ffSSSSSSfS}120@0:(id)arg1 8{_PKStrokePoint=d{CGPoint=dd}ddddddddd}16d112;
+- (void)"^{PKProtobufUnknownFields}"__cntrl_"^{__shared_weak_count}};
+- (void)NSRange=QQ}24;
+- (id)eak_count}}96;
+- (long long)Private={shared_ptr<PKStrokePathPointsShared>=^{PKStrokePathPointsShared}^{__shared_weak_count}}{vector<unsigned char, std::allocator<unsigned char>>=**{?=*}}}16Q56q64@72B80B84d88{shared_ptr<PKProtobufUnknownFields>=^{PKProtobufUnknownFields}^{__shared_weak_count}}96 /* Error: Ran out of types for this method. */;
+- (id)B"numValues"q"numValuesOverLimit"q"oldM"d"newM"d"oldS"d"newS"d"minValue"d"maxValue"d"limit"d"lock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (id)td::allocator<PKMetalPaintStrokePoint>>="__begin_"^{PKMetalPaintStrokePoint}"__end_"^{PKMetalPaintStrokePoint}""{?="__cap_"^{PKMetalPaintStrokePoint}}} /* Error: Ran out of types for this method. */;
+- (id)ndicator;
+- (void)s were added to %@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ephemeralToken; // @synthesize ephemeralToken=_ephemeralToken;
-@property(nonatomic) long long repairDeviceMode; // @synthesize repairDeviceMode=_repairDeviceMode;
-@property(retain, nonatomic) NSArray *searchIdentifiers; // @synthesize searchIdentifiers=_searchIdentifiers;
 @property(retain, nonatomic) NSArray *selectedDevices; // @synthesize selectedDevices=_selectedDevices;
 
 @end

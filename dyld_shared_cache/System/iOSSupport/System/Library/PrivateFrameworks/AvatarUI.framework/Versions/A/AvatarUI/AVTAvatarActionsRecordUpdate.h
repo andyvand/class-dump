@@ -9,7 +9,6 @@
 @interface AVTAvatarActionsRecordUpdate
 {
     _Bool _fromLeft;
-    id <AVTAvatarRecord> _avatarRecord;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(readonly, nonatomic) _Bool fromLeft; // @synthesize fromLeft=_fromLeft;
 
 @end
 

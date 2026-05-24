@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PKPaymentTransactionGroup;
-
 @interface PKBalanceSummary
 {
     _Bool _isLoading;
-    unsigned long long _summaryType;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    PKPaymentTransactionGroup *_orderedSpendingTransactions;
-    PKPaymentTransactionGroup *_orderedInterestCharges;
-    PKPaymentTransactionGroup *_orderedCredits;
-    PKPaymentTransactionGroup *_rewards;
 }
 
 - (void);
@@ -30,20 +21,13 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)Ti;
 - (void);
 - (void)aymentQuote:(id)arg1 %@ callback called.;
 - (void)passkit.payment.transaction.removed;
 - (_Bool)±±ÿ½ jeU ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(nonatomic) _Bool isLoading; // @synthesize isLoading=_isLoading;
-@property(retain, nonatomic) PKPaymentTransactionGroup *orderedCredits; // @synthesize orderedCredits=_orderedCredits;
-@property(retain, nonatomic) PKPaymentTransactionGroup *orderedInterestCharges; // @synthesize orderedInterestCharges=_orderedInterestCharges;
-@property(retain, nonatomic) PKPaymentTransactionGroup *orderedSpendingTransactions; // @synthesize orderedSpendingTransactions=_orderedSpendingTransactions;
-@property(retain, nonatomic) PKPaymentTransactionGroup *rewards; // @synthesize rewards=_rewards;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(nonatomic) unsigned long long summaryType; // @synthesize summaryType=_summaryType;
 
 @end

@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
+@class NSCollectionViewItem, NSView;
 
 @protocol NSCollectionViewDataSource
+- (NSCollectionViewItem *)isFromMe;
 
 @optional
-- (NSView *);
+- (NSView *)_mouseDownOnTransferButton;
 @end
 

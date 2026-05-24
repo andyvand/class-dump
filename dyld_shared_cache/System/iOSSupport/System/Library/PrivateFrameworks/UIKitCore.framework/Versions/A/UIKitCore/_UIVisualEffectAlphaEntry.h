@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id)qb°1Â0@ù
 × ;
 - (void);
-- (void)tatusBarTouchesAtPoint:(id)arg1 withEvent:excludingWindow: /* Error: Ran out of types for this method. */;
-- (void)berBandingReversalAccelerationCoefficient;
+- (void)_targetForStolenStatusBarTouchesAtPoint:(id)arg1 withEvent:excludingWindow: /* Error: Ran out of types for this method. */;
+- (void)GamePadRubberBandingReversalAccelerationCoefficient;
 - (id)tsComplete should only be called on a background scene;
 
 @end

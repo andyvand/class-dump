@@ -6,33 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaAnnounceCarPlayBannerTapped : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void),;
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)e"16;
+- (_Bool)rable_message_part AS rmp JOIN chat AS c  ON c.ROWID=rmp.chat_id JOIN message AS m  ON m.ROWID=rmp.message_id AND rmp.delete_date < ? AND rmp.ck_sync_state=1;;
 - (id);
-- (id);
-- (id)sationQualityComplexity;
-- (id)ds;
+- (id)cvPixelBuffer.
+;
+- (id)conversationQualityComplexity;
+- (id)_activeSessionDisplayIds;
 - (_Bool)escribedPlanRequestContext;
 - (_Bool).rejectedEntityTypes.bundleId;
 - (void)#³yE";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

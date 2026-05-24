@@ -9,8 +9,6 @@
 @interface ASCredentialServiceIdentifier
 {
     NSString *_displayName;
-    NSString *_identifier;
-    long long _type;
 }
 
 + (_Bool);
@@ -19,18 +17,16 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)neTask"8Q16^B24;
 - (long long);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)onHandler:(struct _NSZone *)arg1;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

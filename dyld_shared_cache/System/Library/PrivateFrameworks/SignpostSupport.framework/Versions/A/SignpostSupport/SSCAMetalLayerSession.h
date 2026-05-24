@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSString, SSCAMetalLayerStats, SSInflightCAMetalLayerIntervalStats, SSOnGlassCAMetalDrawableStats;
-
 @interface SSCAMetalLayerSession
 {
     _Bool _includeTimelines;
-    unsigned long long _layerID;
-    SSCAMetalLayerStats *_totalSessionStats;
-    double _timebaseRatio;
-    SSInflightCAMetalLayerIntervalStats *_inFlightStats;
-    NSMutableArray *_mutableStatsTimeline;
-    NSMutableArray *_mutableConfigurationTimeline;
-    NSMutableArray *_mutableOnGlassDrawableIntervalTimeline;
-    SSOnGlassCAMetalDrawableStats *_cachedStats;
 }
 
 - (id);
@@ -52,7 +42,7 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (float);
+- (float);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -63,28 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SSOnGlassCAMetalDrawableStats *cachedStats; // @synthesize cachedStats=_cachedStats;
-@property(readonly, nonatomic) NSArray *configurationTimeline;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SSInflightCAMetalLayerIntervalStats *inFlightStats; // @synthesize inFlightStats=_inFlightStats;
-@property(readonly, nonatomic) _Bool includeTimelines; // @synthesize includeTimelines=_includeTimelines;
-@property(readonly, nonatomic) unsigned long long layerID; // @synthesize layerID=_layerID;
-@property(readonly, nonatomic) NSMutableArray *mutableConfigurationTimeline; // @synthesize mutableConfigurationTimeline=_mutableConfigurationTimeline;
-@property(retain, nonatomic) NSMutableArray *mutableOnGlassDrawableIntervalTimeline; // @synthesize mutableOnGlassDrawableIntervalTimeline=_mutableOnGlassDrawableIntervalTimeline;
-@property(readonly, nonatomic) NSMutableArray *mutableStatsTimeline; // @synthesize mutableStatsTimeline=_mutableStatsTimeline;
-@property(readonly, nonatomic) SSOnGlassCAMetalDrawableStats *onGlassDrawableIntervalStats;
-@property(readonly, nonatomic) NSArray *onGlassDrawableIntervalTimeline;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) NSArray *statsTimeline;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
-@property(readonly, nonatomic) SSCAMetalLayerStats *totalSessionStats; // @synthesize totalSessionStats=_totalSessionStats;
 
 @end
 

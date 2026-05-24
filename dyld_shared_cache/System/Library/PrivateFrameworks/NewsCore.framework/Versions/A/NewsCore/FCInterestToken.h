@@ -16,7 +16,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)geContentMode;
+- (void)navigationChromeBackgroundImageContentMode;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType removeInterestBlock; // @synthesize removeInterestBlock=_removeInterestBlock;

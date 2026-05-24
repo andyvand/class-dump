@@ -17,8 +17,8 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)CBDSRangeHysteresisFactor;
 - (id);
 - (id);
 - (id);

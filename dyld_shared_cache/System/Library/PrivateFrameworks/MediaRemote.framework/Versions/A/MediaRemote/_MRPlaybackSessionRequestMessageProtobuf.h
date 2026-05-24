@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRNowPlayingPlayerPathProtobuf, _MRPlaybackSessionRequestProtobuf;
+@class _MRNowPlayingPlayerPathProtobuf;
 
 @interface _MRPlaybackSessionRequestMessageProtobuf
 {
     _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    _MRPlaybackSessionRequestProtobuf *_request;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)o;
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ExecuteOnRemoteRequest;
 - (void);
 - (void);
-- (void)harePlayHandoff;
-- (_Bool)nfoKey;
+- (void)_supportsSharePlayHandoff;
+- (_Bool)kMRMediaRemoteCommandResponseUserInfoKey;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPlayerPath;
 @property(readonly, nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) _MRPlaybackSessionRequestProtobuf *request; // @synthesize request=_request;
 
 @end
 

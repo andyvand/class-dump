@@ -5,5 +5,6 @@
 //
 
 @protocol NSBarLayoutDelegate
+- (double)c00gEZ/DQ;
 @end
 

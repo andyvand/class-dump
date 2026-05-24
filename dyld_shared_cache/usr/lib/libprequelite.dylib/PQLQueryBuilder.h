@@ -9,9 +9,6 @@
 @interface PQLQueryBuilder
 {
     NSMutableArray *_parameters;
-    unsigned char _spec[1000];
-    short _specLength;
-    NSError *lastError;
 }
 
 - (id);

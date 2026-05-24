@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface PPSocialHighlightEngagementProvider
 {
     NSMutableDictionary *_engagementsByKey;
-    unsigned long long _feedbackType;
-    CDUnknownBlockType _groupByBlock;
-    CDUnknownBlockType _keyBlock;
-    NSDate *_earliestDateToAccept;
-    _Bool _acceptOnlyPrimary;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)of %ld, stopping processing;
 - (void);
 
 @end

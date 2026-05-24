@@ -12,14 +12,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)realTimeAudioEngine_initializeLogging;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)ervices2;
+- (Class)kPCSWalletPaymentServices2;
 
 @end
 

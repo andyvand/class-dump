@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface STMDiskVolume
 {
     _Bool _isUserVolume;
-    NSString *_mountPath;
-    NSString *_name;
-    long long _usedSpace;
-    long long _availableSpace;
-    long long _purgeableSpace;
-    long long _bytesUsed;
-    NSArray *_categories;
 }
 
 + (_Bool);
@@ -34,20 +27,13 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (void);
 - (id)entifier:%@ - LocalizedTitle:%@ - representedObject.title:%@ - Size:%@ - representedObject.bytesUsed:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long availableSpace; // @synthesize availableSpace=_availableSpace;
-@property(nonatomic) long long bytesUsed; // @synthesize bytesUsed=_bytesUsed;
-@property(retain, nonatomic) NSArray *categories; // @synthesize categories=_categories;
-@property(nonatomic) _Bool isUserVolume; // @synthesize isUserVolume=_isUserVolume;
 @property(copy, nonatomic) NSString *mountPath; // @synthesize mountPath=_mountPath;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long purgeableSpace; // @synthesize purgeableSpace=_purgeableSpace;
-@property(nonatomic) long long usedSpace; // @synthesize usedSpace=_usedSpace;
 
 @end
 

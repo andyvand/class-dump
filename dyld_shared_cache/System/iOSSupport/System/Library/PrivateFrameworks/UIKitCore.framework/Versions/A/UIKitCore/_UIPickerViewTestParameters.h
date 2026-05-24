@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UIPickerViewTestParameters
 {
     NSString *_testName;
-    long long _remainingIterations;
-    long long _rowsToScroll;
-    long long _componentToScroll;
 }
 
 - (void)Á7ü´;

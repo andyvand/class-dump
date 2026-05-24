@@ -11,12 +11,13 @@
     NSData *_entropy;
 }
 
-- (_Bool);
+- (_Bool)9qa;
 - (void);
 - (id);
+- (void)components:(id)arg1 fromDate: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)%f err = %d sampleTime = Invalid
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -26,7 +27,6 @@
 - (void)server share participants;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *entropy; // @synthesize entropy=_entropy;
 @property(readonly, nonatomic) _Bool hasEntropy;
 
 @end

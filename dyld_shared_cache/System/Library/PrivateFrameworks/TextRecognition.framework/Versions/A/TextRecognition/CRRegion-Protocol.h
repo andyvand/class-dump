@@ -7,6 +7,7 @@
 @class CRNormalizedQuad;
 
 @protocol CRRegion
+- (CRNormalizedQuad *)_updateItemsFromReadingListFolderAndForceRebuildUnreadItems:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CRNormalizedQuad *boundingQuad;

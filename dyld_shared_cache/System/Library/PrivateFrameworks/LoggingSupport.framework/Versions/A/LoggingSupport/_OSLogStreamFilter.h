@@ -10,22 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _OSLogStreamFilter
 {
     NSMutableDictionary *_filter;
-    NSMutableDictionary *_pids;
-    NSMutableDictionary *_processes;
-    NSMutableDictionary *_processImagePaths;
-    NSMutableDictionary *_uids;
-    NSMutableDictionary *_subsystems;
-    NSMutableDictionary *_categories;
 }
 
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)setupRenderStateForRenderingStrokes:(id)arg1;
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -34,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)maxCount:(id)arg1 evictionHandler: /* Error: Ran out of types for this method. */;
-- (void)te;
+- (void)initWithName:(id)arg1 maxCount:evictionHandler: /* Error: Ran out of types for this method. */;
+- (void)predicate;
 - (void);
 
 // Remaining properties

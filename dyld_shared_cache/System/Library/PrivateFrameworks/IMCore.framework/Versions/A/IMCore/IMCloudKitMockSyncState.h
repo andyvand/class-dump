@@ -4,91 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 @interface IMCloudKitMockSyncState
 {
     _Bool _IMCloudKitSyncingEnabled;
-    _Bool _IMCloudKitIsSyncing;
-    _Bool _IMCloudKitSyncPaused;
-    _Bool _IMCloudKitIsEligibleForTruthZone;
-    _Bool _IMCloudKitIsInExitState;
-    _Bool _IMCloudKitIsRemovedFromBackup;
-    _Bool _IMCloudKitStartingPeriodicSync;
-    _Bool _IMCloudKitStartingInitialSync;
-    _Bool _IMCloudKitStartingDisableDevices;
-    unsigned long long _IMCloudKitSyncStatus;
-    unsigned long long _IMCloudKitSyncJobState;
-    NSDate *_IMCloudKitSyncDate;
-    NSDate *_IMCloudKitFullSyncCompletedDate;
-    NSDate *_IMCloudKitFullPartialSyncCompletedDate;
-    long long _IMCloudKitStartingEnabledSettingChange;
-    unsigned long long _IMCloudKitSyncControllerSyncState;
-    long long _IMCloudKitSyncControllerSyncType;
-    long long _IMCloudKitSyncControllerSyncRecordType;
-    NSArray *_IMCloudKitSyncErrors;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (void)o type=kVCMediaControlInfoTypeMediaTimestamp, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)] %s:(unsigned long long)arg1 %d setInfo failed for controlInfo type=kVCMediaControlInfoTypeMediaTimestamp, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)trol info=%p for audio. error=%x;
+- (void)Size, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)fo type=kVCMediaControlInfoTypePacketSize, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)%s:(id)arg1 %d setInfo failed for controlInfo type=kVCMediaControlInfoTypePacketSize, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)o=%p in control info=%p for audio. error=%x;
+- (void)ControlInfoTypeArrivalTime, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)[%s] %s:(long long)arg1 %d setInfo failed for controlInfo type=kVCMediaControlInfoTypeArrivalTime, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (void)length for FaceTime audio media control info;
+- (void)r connection stats;
+- (void)dio media control info;
+- (void)case;
+- (void)olInfoHeaderAudioV2 in LITTLE_ENDIAN case;
+- (void)49225282> Fix AFRC feedback FaceTimeMediaControlInfoHeaderAudioV2 in LITTLE_ENDIAN case;
+- (void)e build latest OR after <rdar:(_Bool)arg1 //problem/49225282> Fix AFRC feedback FaceTimeMediaControlInfoHeaderAudioV2 in LITTLE_ENDIAN case;
+- (void)AVConference build, please update to AVConference build latest OR after <rdar:(_Bool)arg1 //problem/49225282> Fix AFRC feedback FaceTimeMediaControlInfoHeaderAudioV2 in LITTLE_ENDIAN case;
+- (void)d The remote caller is likely in an incompatible AVConference build, please update to AVConference build latest OR after <rdar:(id)arg1 //problem/49225282> Fix AFRC feedback FaceTimeMediaControlInfoHeaderAudioV2 in LITTLE_ENDIAN case;
+- (void)eTime audio media control info, expecting %u;
+- (_Bool)udioHALPluginDevice-performStartIO;
+- (_Bool)er plug in with error:%i /* Error: Ran out of types for this method. */;
+- (id)ble to register audio server driver plug in with error:%i /* Error: Ran out of types for this method. */;
+- (long long)ug in with error:%i /* Error: Ran out of types for this method. */;
+- (long long)] %s:%d not able to register audio server driver plug in with error:%i /* Error: Ran out of types for this method. */;
+- (_Bool)rence for audio server driver plug in;
+- (_Bool)ver plug in;
+- (_Bool)d no driver reference for audio server driver plug in;
+- (_Bool)create audio server driver plug in;
+- (unsigned long long)ceived redundancyController update redundancyControler=%@ redundancyArrayCount=%u;
+- (unsigned long long)[%s] %s:%d %@(%p) VCVideoStream received redundancyController update redundancyControler=%@ redundancyArrayCount=%u /* Error: Ran out of types for this method. */;
+- (id)ancyArrayCount=%u;
+- (unsigned long long)ontroller update redundancyControler=%@ redundancyArrayCount=%u;
+- (_Bool)s] %s:%d VCVideoStream received redundancyController update redundancyControler=%@ redundancyArrayCount=%u /* Error: Ran out of types for this method. */;
+- (long long)etBitrate=%d, rateChangeCounter=%d;
+- (_Bool)vcrcRateController=%p gives targetBitrate=%d, rateChangeCounter=%d;
+- (_Bool)=%d;
+- (id)roller=%p gives targetBitrate=%d, rateChangeCounter=%d;
+- (id)eue, VideoStream is not running yet;
 - (id);
 - (void)`;
 
 // Remaining properties
-@property(retain) NSDate *IMCloudKitFullPartialSyncCompletedDate; // @synthesize IMCloudKitFullPartialSyncCompletedDate=_IMCloudKitFullPartialSyncCompletedDate;
-@property(retain) NSDate *IMCloudKitFullSyncCompletedDate; // @synthesize IMCloudKitFullSyncCompletedDate=_IMCloudKitFullSyncCompletedDate;
-@property _Bool IMCloudKitIsEligibleForTruthZone; // @synthesize IMCloudKitIsEligibleForTruthZone=_IMCloudKitIsEligibleForTruthZone;
-@property _Bool IMCloudKitIsInExitState; // @synthesize IMCloudKitIsInExitState=_IMCloudKitIsInExitState;
-@property _Bool IMCloudKitIsRemovedFromBackup; // @synthesize IMCloudKitIsRemovedFromBackup=_IMCloudKitIsRemovedFromBackup;
-@property _Bool IMCloudKitIsSyncing; // @synthesize IMCloudKitIsSyncing=_IMCloudKitIsSyncing;
-@property _Bool IMCloudKitStartingDisableDevices; // @synthesize IMCloudKitStartingDisableDevices=_IMCloudKitStartingDisableDevices;
-@property long long IMCloudKitStartingEnabledSettingChange; // @synthesize IMCloudKitStartingEnabledSettingChange=_IMCloudKitStartingEnabledSettingChange;
-@property _Bool IMCloudKitStartingInitialSync; // @synthesize IMCloudKitStartingInitialSync=_IMCloudKitStartingInitialSync;
-@property _Bool IMCloudKitStartingPeriodicSync; // @synthesize IMCloudKitStartingPeriodicSync=_IMCloudKitStartingPeriodicSync;
-@property long long IMCloudKitSyncControllerSyncRecordType; // @synthesize IMCloudKitSyncControllerSyncRecordType=_IMCloudKitSyncControllerSyncRecordType;
-@property unsigned long long IMCloudKitSyncControllerSyncState; // @synthesize IMCloudKitSyncControllerSyncState=_IMCloudKitSyncControllerSyncState;
-@property long long IMCloudKitSyncControllerSyncType; // @synthesize IMCloudKitSyncControllerSyncType=_IMCloudKitSyncControllerSyncType;
-@property(retain) NSDate *IMCloudKitSyncDate; // @synthesize IMCloudKitSyncDate=_IMCloudKitSyncDate;
-@property(retain) NSArray *IMCloudKitSyncErrors; // @synthesize IMCloudKitSyncErrors=_IMCloudKitSyncErrors;
-@property unsigned long long IMCloudKitSyncJobState; // @synthesize IMCloudKitSyncJobState=_IMCloudKitSyncJobState;
-@property _Bool IMCloudKitSyncPaused; // @synthesize IMCloudKitSyncPaused=_IMCloudKitSyncPaused;
-@property unsigned long long IMCloudKitSyncStatus; // @synthesize IMCloudKitSyncStatus=_IMCloudKitSyncStatus;
 @property _Bool IMCloudKitSyncingEnabled; // @synthesize IMCloudKitSyncingEnabled=_IMCloudKitSyncingEnabled;
 
 @end

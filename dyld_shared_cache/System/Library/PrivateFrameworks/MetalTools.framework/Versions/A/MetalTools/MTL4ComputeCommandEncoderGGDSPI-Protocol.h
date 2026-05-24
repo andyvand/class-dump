@@ -5,5 +5,7 @@
 //
 
 @protocol MTL4ComputeCommandEncoderGGDSPI
+- (void)hBC9h;
+- (void);
 @end
 

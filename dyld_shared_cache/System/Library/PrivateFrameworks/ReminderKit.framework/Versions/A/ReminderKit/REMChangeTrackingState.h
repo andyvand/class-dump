@@ -9,7 +9,6 @@
 @interface REMChangeTrackingState
 {
     REMChangeToken *_lastConsumedChangeToken;
-    NSDate *_lastConsumedDate;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) REMChangeToken *lastConsumedChangeToken; // @synthesize lastConsumedChangeToken=_lastConsumedChangeToken;
 @property(retain, nonatomic) NSDate *lastConsumedDate; // @synthesize lastConsumedDate=_lastConsumedDate;
 
 @end

@@ -7,7 +7,9 @@
 @protocol CKSharedAssetsControllerDelegate;
 
 @protocol CKSharedAssetsControllerProtocol
-- (unsigned long long)erTallDetent;
+- (void)ic_insertItemWithIdentifier:(struct CGPoint)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_webView:includeSensitiveMediaDeviceDetails: /* Error: Ran out of types for this method. */;
+- (unsigned long long)OpenWebViewControllerTallDetent;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKSharedAssetsControllerDelegate> delegate;

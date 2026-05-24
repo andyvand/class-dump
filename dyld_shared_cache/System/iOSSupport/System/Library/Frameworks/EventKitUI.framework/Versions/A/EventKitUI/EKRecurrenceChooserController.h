@@ -4,41 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, UIColor;
+@class NSDate;
 @protocol EKRecurrenceChooserControllerDelegate;
 
 @interface EKRecurrenceChooserController
 {
     id <EKRecurrenceChooserControllerDelegate> _delegate;
-    UIColor *_backgroundColor;
-    NSDate *_date;
 }
 
 + (int);
-- (void);
+- (void)%s;
 - (void);
 - (id);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)_password;
+- (void)ImageProcessorCLI;
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void)ide: /* Error: Ran out of types for this method. */;
+- (void)setViewHierarchyOverride: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(copy) NSDate *date; // @synthesize date=_date;
-@property __weak id <EKRecurrenceChooserControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long frequency;
 
 @end
 

@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol MTLRasterizationRateMapSPI
+- (unsigned long long);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) float minFactor;
 @property(readonly, nonatomic) unsigned long long mutability;
 @end
 

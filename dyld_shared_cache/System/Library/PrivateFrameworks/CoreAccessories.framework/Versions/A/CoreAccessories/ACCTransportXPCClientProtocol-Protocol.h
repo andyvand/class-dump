@@ -5,5 +5,6 @@
 //
 
 @protocol ACCTransportXPCClientProtocol
+- (void);
 @end
 

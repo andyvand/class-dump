@@ -7,24 +7,18 @@
 @interface NUTileInfo
 {
     long long _index;
-    CDStruct_d58201db _size;
-    CDStruct_996ac03c _frameRect;
-    CDStruct_996ac03c _contentRect;
 }
 
 + (id);
 - (id);
-- (CDStruct_996ac03c);
-- (CDStruct_912cb5d2);
+- (CDStruct_996ac03c)DRoAxZeUBxN3nJbevTWsHMjDjt3MNKK31HOLtjAB2Lu5snX5qloyp4Q8v/BDhwT2AptCZPh6MGlmGBK7R/p0xcDd5sHgKGUHZ8pgZAuVLldpdxEeINo5xRtum0zZYI4KYXxte4WEzhg5ksbVRi7AULkC5W7dfZvwWnpwjW35ZfQOSbuN4LNEdaLY77IXJFtKMCXF/zm3a6U/AiK1fyw6eyv0qbW8Znoetdm7SdInuG6EHqrlhzb+3F4x7UCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAKNqD5mzB+vTEPhcKdh81WBnSQVN5DAkn0p9el1qve9Iln62v2DbtOpqpO3JPP4hb6gord0nmTd1NlHxpg2GZ2F/J3620pa7EWsQIFEyEvNlNiwKo/AH76d2EaHMD8IgejcDehrUVLdXULq8kIWa2QsMtdeNsZPIPKUU1nb2HmOnjZfJ7MQm3KIrofVCV9OiWYNKPSqUV2q332pVRjdZ8KRZ4J1sb29JAQCGavrnJazMDE+fFG55w2Vi6DMlwTeD+gV6OYHbIkbu/1tHLXzXGdW6EzsGxKhNIsfhJ9yVU8U7psxHB5opJiAPl1k0QA63lO5MxLs39n78G6govhhN/5A==;
+- (CDStruct_912cb5d2);
 - (CDStruct_996ac03c);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly, nonatomic) CDStruct_996ac03c frameRect; // @synthesize frameRect=_frameRect;
 @property(readonly, nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
 
 @end
 

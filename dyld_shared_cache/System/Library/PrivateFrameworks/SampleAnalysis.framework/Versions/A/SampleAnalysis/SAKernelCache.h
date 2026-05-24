@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface SAKernelCache
 {
     NSUUID *_uuid;
-    NSArray *_binaryLoadInfos;
-    unsigned long long _loadAddress;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)accessibilityEmbeddedImageDescription;
 + (void)c leaf 0x%llx) backfilled to %d thread states (indexes %lu-%lu)
 ;
-- (unsigned long long);
+- (unsigned long long)C;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -28,28 +26,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)stringWithFormat:(id)arg1;
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (unsigned long long)shTable;
+- (unsigned long long)weakObjectsHashTable;
 - (id)°¨;
 
 // Remaining properties
-@property(retain) NSArray *binaryLoadInfos; // @synthesize binaryLoadInfos=_binaryLoadInfos;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long endAddress;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long loadAddress; // @synthesize loadAddress=_loadAddress;
-@property(readonly) unsigned long long startAddress;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long textSegmentsEndAddress;
-@property(readonly) unsigned long long textSegmentsStartAddress;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
-@protocol TBScore;
+@class NSString;
 
 @interface WiFiWalletPass
 {
     _Bool matched;
-    unsigned int venueType;
-    NSString *SSID;
-    NSString *password;
-    NSSet *attributes;
-    NSSet *accessPoints;
-    id <TBScore> qualityScore;
-    id <TBScore> popularityScore;
-    unsigned long long venueGroup;
-    unsigned long long type;
-    NSString *_uniqueIdentifier;
-    NSString *_passTypeIdentifier;
-    NSString *_serialNumber;
-    NSDate *_relevantDate;
-    NSString *_localizedDescription;
-    NSString *_captiveToken;
-    NSString *_captiveTokenAuthURL;
 }
 
 - (void);
@@ -36,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setL_refreshingWaiters: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (void);
@@ -45,13 +28,13 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)";
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)-;
 - (long long);
 - (id);
 - (id);
@@ -62,35 +45,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *SSID; // @synthesize SSID;
-@property(readonly, nonatomic) NSSet *accessPoints; // @synthesize accessPoints;
-@property(readonly, nonatomic) NSSet *attributes; // @synthesize attributes;
-@property(copy, nonatomic) NSString *captiveToken; // @synthesize captiveToken=_captiveToken;
-@property(copy, nonatomic) NSString *captiveTokenAuthURL; // @synthesize captiveTokenAuthURL=_captiveTokenAuthURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(nonatomic) _Bool matched; // @synthesize matched;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(copy, nonatomic) NSString *password; // @synthesize password;
-@property(readonly, nonatomic) id <TBScore> popularityScore; // @synthesize popularityScore;
-@property(readonly, nonatomic) id <TBScore> qualityScore; // @synthesize qualityScore;
-@property(readonly, copy, nonatomic) NSString *receivedFromDeviceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(copy, nonatomic) NSDate *relevantDate; // @synthesize relevantDate=_relevantDate;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, nonatomic) long long source;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type;
 @property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) unsigned long long venueGroup; // @synthesize venueGroup;
-@property(readonly, nonatomic) unsigned int venueType; // @synthesize venueType;
 
 @end
 

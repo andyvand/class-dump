@@ -5,5 +5,8 @@
 //
 
 @protocol UICollectionViewDelegateFlowLayout
+
+@optional
+- (struct UIEdgeInsets);
 @end
 

@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, STMRemoteExtensionContext;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface STMExtension
 {
     NSObject<OS_dispatch_queue> *_queue;
-    STMRemoteExtensionContext *_context;
 }
 
 + (id);
 + (id);
 + (id);
-- (long long);
+- (long long)q`;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -28,30 +27,24 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id),N,V_allowBattery;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString, SACalendarSource;
+@class SACalendarSource;
 
 @interface SACalendarDefaultSourceGetCompleted : SABaseCommand
 {
@@ -19,20 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) SACalendarSource *aceCalendarSource;
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

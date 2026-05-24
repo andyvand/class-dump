@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned long long);
-- (_Bool)te;
+- (_Bool)forceGestureDelegate;
 - (id)
 ;
 - (id)Ì¼uþM134°þ;

@@ -6,19 +6,11 @@
 
 #import <Slideshows/MUPoolObject.h>
 
-@class MRCroppingSprite, MRImage;
+@class MRImage;
 
 @interface MRReflectionsRenderable : MUPoolObject
 {
     MRImage *_slide;
-    MRCroppingSprite *_sprite;
-    float _modelViewMatrix[16];
-    struct CGPoint position;
-    struct CGSize size;
-    _Bool isShadow;
-    MRReflectionsRenderable *next;
-    _Bool needsFlipped;
-    _Bool isBreak;
 }
 
 + (CDStruct_32b7e343 *);

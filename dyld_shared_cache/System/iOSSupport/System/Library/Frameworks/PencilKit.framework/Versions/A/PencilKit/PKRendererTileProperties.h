@@ -7,11 +7,6 @@
 @interface PKRendererTileProperties
 {
     _Bool _sixChannelMode;
-    _Bool _extendedDynamicRange;
-    _Bool _transparentBlending;
-    long long _level;
-    struct CGPoint _offset;
-    struct CGAffineTransform _drawingTransform;
 }
 
 - (_Bool);
@@ -26,12 +21,7 @@
 - (long long)ÿw.]Ó;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform drawingTransform; // @synthesize drawingTransform=_drawingTransform;
-@property(readonly, nonatomic) _Bool extendedDynamicRange; // @synthesize extendedDynamicRange=_extendedDynamicRange;
 @property(readonly, nonatomic) long long level; // @synthesize level=_level;
-@property(readonly, nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) _Bool sixChannelMode; // @synthesize sixChannelMode=_sixChannelMode;
-@property(readonly, nonatomic) _Bool transparentBlending; // @synthesize transparentBlending=_transparentBlending;
 
 @end
 

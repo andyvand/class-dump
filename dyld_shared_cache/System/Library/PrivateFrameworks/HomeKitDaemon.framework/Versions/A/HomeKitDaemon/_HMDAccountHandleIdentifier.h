@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)\ã°ãåüå°æççèç<èÀèéìéñ;
-- (id);
-- (id);
-- (id);
+- (id)numberWithUnsignedLongLong:(id)arg1;
+- (id)b;
+- (id)pport pro mode;
 - (id);
 - (_Bool);
 - (void);
-- (id)MediaSessionRequestMessageInformation;
+- (id)HMDMediaSessionRequestMessageInformation;
 - (id)d;
-- (void)ed_removed;
+- (void)wed_removed;
 
 // Remaining properties
 @property(readonly, copy) HMDAccountHandle *accountHandle; // @synthesize accountHandle=_accountHandle;

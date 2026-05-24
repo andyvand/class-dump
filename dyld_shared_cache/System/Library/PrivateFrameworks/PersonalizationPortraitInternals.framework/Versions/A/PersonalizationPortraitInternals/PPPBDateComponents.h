@@ -9,31 +9,22 @@
 @interface PPPBDateComponents
 {
     NSString *_calendarIdentifier;
-    int _day;
-    int _month;
-    NSString *_timeZoneName;
-    int _year;
-    struct {
-        unsigned int day:1;
-        unsigned int month:1;
-        unsigned int year:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)dspGraph;
+- (void)V_audioInterruptionStartedTime;
+- (void)TTSRulesetRunner;
+- (_Bool)extraFast;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (void)4;
+- (id)PG_QUERY__TOKEN__ELSE;
+- (void)PG_QUERY__ON_CONFLICT_ACTION__ON_CONFLICT_ACTION_UNDEFINED;
 - (id);
 - (void);
 - (void);
@@ -51,16 +42,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(nonatomic) int day; // @synthesize day=_day;
-@property(readonly, nonatomic) _Bool hasCalendarIdentifier;
 @property(nonatomic) _Bool hasDay;
-@property(nonatomic) _Bool hasMonth;
-@property(readonly, nonatomic) _Bool hasTimeZoneName;
-@property(nonatomic) _Bool hasYear;
-@property(nonatomic) int month; // @synthesize month=_month;
-@property(retain, nonatomic) NSString *timeZoneName; // @synthesize timeZoneName=_timeZoneName;
-@property(nonatomic) int year; // @synthesize year=_year;
 
 @end
 

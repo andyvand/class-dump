@@ -7,12 +7,6 @@
 @interface NewsUI2.ContentAvailabilityValidator
 {
     id bundleSubscriptionManager;
-    id appConfigManager;
-    id offlineProvider;
-    id offlineContentManager;
-    id offlineFeedsSupervisor;
-    id puzzleTypeController;
-    id featureAvailability;
 }
 
 @end

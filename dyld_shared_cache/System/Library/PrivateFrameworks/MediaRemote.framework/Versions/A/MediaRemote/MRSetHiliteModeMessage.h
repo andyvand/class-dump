@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
+- (id)?';
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ved %@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hiliteMode;

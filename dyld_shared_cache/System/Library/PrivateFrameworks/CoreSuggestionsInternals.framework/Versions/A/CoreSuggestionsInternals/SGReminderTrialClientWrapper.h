@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)__DATA_CONST;
 - (id);
 - (void)Ä;
 

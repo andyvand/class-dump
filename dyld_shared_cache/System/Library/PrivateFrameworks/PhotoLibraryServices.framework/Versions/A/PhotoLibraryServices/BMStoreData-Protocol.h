@@ -5,5 +5,9 @@
 //
 
 @protocol BMStoreData
+
+@optional
++ (id)s;
+- (id)PLIOReportAgent_EventBackward_PRLUsageRStandby;
 @end
 

@@ -7,19 +7,18 @@
 @interface _PKProvisioningSEStorageManager
 {
     id secureElement;
-    id webService;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (id);
-- (void)FINED_SHARE_ADMIN_TITLE;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)PREDEFINED_SHARE_ADMIN_TITLE;
 
 @end
 

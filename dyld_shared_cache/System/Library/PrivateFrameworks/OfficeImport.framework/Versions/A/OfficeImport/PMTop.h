@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (Class);
 - (void);
-- (_Bool)atStrings;
+- (_Bool)_formatStrings;
 
 @end
 

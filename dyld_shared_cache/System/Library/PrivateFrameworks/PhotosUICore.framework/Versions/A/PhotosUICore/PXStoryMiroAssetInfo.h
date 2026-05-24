@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PXStoryMiroAssetInfo
 {
     _Bool _isUsed;
-    NSData *_dataRepresentation;
 }
 
 + (id);
@@ -21,7 +18,6 @@
 - (void)z´LT;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *dataRepresentation; // @synthesize dataRepresentation=_dataRepresentation;
 @property(nonatomic) _Bool isUsed; // @synthesize isUsed=_isUsed;
 
 @end

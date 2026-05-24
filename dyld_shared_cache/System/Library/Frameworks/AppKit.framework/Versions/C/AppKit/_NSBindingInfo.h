@@ -4,60 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValueTransformer;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSBindingInfo
 {
     NSString *_binding;
-    NSString *_key;
-    NSString *_partialControllerKey;
-    NSString *_partialObjectKey;
-    NSValueTransformer *_valueTransformer;
-    NSString *_valueTransformerName;
-    id _retainedController;
-    id _unretainedController;
-    struct __bindingFlags {
-        unsigned int _requiresDirectKeyValueCodingCall:1;
-        unsigned int _raisesForNotApplicableKeys:1;
-        unsigned int _validatesImmediately:1;
-        unsigned int _alwaysPresentsApplicationModalAlerts:1;
-        unsigned int _archiveNullPlaceholder:1;
-        unsigned int _archiveNoSelectionPlaceholder:1;
-        unsigned int _archiveMultipleValuesSelectionPlaceholder:1;
-        unsigned int _archiveNotApplicablePlaceholder:1;
-        unsigned int _binderSpecificFlags:8;
-        unsigned int _retainController:1;
-        unsigned int _isWeakBinding:1;
-        unsigned int _reservedBinding:14;
-    } _bindingFlags;
-    id _nullPlaceholder;
-    id _noSelectionPlaceholder;
-    id _multipleValuesSelectionPlaceholder;
-    id _notApplicablePlaceholder;
-    id _observingBinder;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)SupportsBurninMitigation;
+- (void)ts;
+- (void)DeviceSupportsStereoAudioRecording;
+- (_Bool)DeviceSupportsHypertensivePatternMeasurements;
+- (void)DeviceSupportsAODVibrancy;
+- (void)C4H2BA;
+- (void)GEsznZwAYGOa1a67QU1Uew;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool)c;
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -66,12 +40,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)@;
 - (id);
 - (void);
-- (id)lumn:(struct _NSZone *)arg1;
+- (id);
+- (void);
+- (id)defaultSortDescriptorPrototypeForTableColumn:(struct _NSZone *)arg1;
 - (id)to permanently delete all old versions of the document \U201C%@\U201D?;
 
 @end

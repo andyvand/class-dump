@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
+- (double)c;
 - (double);
-- (double);
-- (void);
+- (void)_enumerateUnorderedItemPersistentIDsUsingBlock:(double)arg1;
 - (void);
 - (CDUnknownBlockType)g1Â0@ù
 × ;
-- (void)tMenuWithPreferredDirection:(id)arg1 overrideMenu: /* Error: Ran out of types for this method. */;
+- (void)_presentEditMenuWithPreferredDirection:(id)arg1 overrideMenu: /* Error: Ran out of types for this method. */;
 - (void)	;
 
 // Remaining properties

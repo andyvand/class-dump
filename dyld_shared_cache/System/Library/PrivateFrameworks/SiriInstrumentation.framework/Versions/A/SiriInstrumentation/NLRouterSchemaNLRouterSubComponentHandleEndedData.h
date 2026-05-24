@@ -6,25 +6,24 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaHeuristicsHandleEndedData, NSData;
+@class NLRouterSchemaHeuristicsHandleEndedData;
 
 @interface NLRouterSchemaNLRouterSubComponentHandleEndedData : SISchemaInstrumentationMessage
 {
     NLRouterSchemaHeuristicsHandleEndedData *_heuristicsHandleEndedData;
-    _Bool _hasHeuristicsHandleEndedData;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)F;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)ibressl-2.2/crypto/pem/pem_info.c;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id)ysPromptOutcomeReceived;
@@ -32,9 +31,7 @@
 - (void)pr=ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeuristicsHandleEndedData; // @synthesize hasHeuristicsHandleEndedData=_hasHeuristicsHandleEndedData;
 @property(retain, nonatomic) NLRouterSchemaHeuristicsHandleEndedData *heuristicsHandleEndedData; // @synthesize heuristicsHandleEndedData=_heuristicsHandleEndedData;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

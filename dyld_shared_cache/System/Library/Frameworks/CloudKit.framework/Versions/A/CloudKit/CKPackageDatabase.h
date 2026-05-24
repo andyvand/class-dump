@@ -6,12 +6,11 @@
 
 #import <CloudKit/CKSQLiteTableGroup.h>
 
-@class CKPackageDirectoryTable, CKPackageReferenceTable;
+@class CKPackageDirectoryTable;
 
 @interface CKPackageDatabase : CKSQLiteTableGroup
 {
     CKPackageDirectoryTable *_directoryTable;
-    CKPackageReferenceTable *_referenceTable;
 }
 
 + (id);
@@ -29,7 +28,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,10 +38,10 @@
 - (id);
 - (id);
 - (id);
+- (id)kb;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)ۺrĨ;
 - (void)$;
 
 @end

@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)originalNote:(id)arg1 %@, folder:(id)arg2 %@, isPasswordProtected:%@, removingOriginalNote:%@}%s:%d /* Error: Ran out of types for this method. */;
++ (id)֊!;
++ (id);
 + (_Bool);
 + (id);
 

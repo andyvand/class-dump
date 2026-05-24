@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSString, NSView, SOSRSimpleLanguagePopUpButton;
-
 @interface SiriUISetupAlert
 {
     _Bool _showsPrivacyInformation;
-    _Bool _showsLanguageSelection;
-    NSString *_siriLanguageCode;
-    NSView *_ambiguousLanguageAccessoryView;
-    NSView *_unsupportedLanguageAccessoryView;
-    NSButton *_languageOneButton;
-    NSButton *_languageTwoButton;
-    SOSRSimpleLanguagePopUpButton *_languagePopUp;
-    NSString *_messageTextVTStringKey;
-    NSString *_informativeTextVTStringKey;
-    NSArray *_allSiriLanguageCodes;
-    NSArray *_supportedSiriLanguageCodes;
-    NSString *_bestSupportedLanguageCode;
 }
 
 - (id);
@@ -30,6 +16,7 @@
 - (void);
 - (void);
 - (void);
+- (void)v;
 - (void);
 - (void);
 - (void);
@@ -37,7 +24,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
@@ -47,12 +33,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)9;
+- (id)*	;
 - (id);
 - (void);
 - (void);
@@ -65,19 +51,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSArray *allSiriLanguageCodes; // @synthesize allSiriLanguageCodes=_allSiriLanguageCodes;
-@property(retain) NSView *ambiguousLanguageAccessoryView; // @synthesize ambiguousLanguageAccessoryView=_ambiguousLanguageAccessoryView;
-@property(retain) NSString *bestSupportedLanguageCode; // @synthesize bestSupportedLanguageCode=_bestSupportedLanguageCode;
-@property(retain) NSString *informativeTextVTStringKey; // @synthesize informativeTextVTStringKey=_informativeTextVTStringKey;
-@property __weak NSButton *languageOneButton; // @synthesize languageOneButton=_languageOneButton;
-@property __weak SOSRSimpleLanguagePopUpButton *languagePopUp; // @synthesize languagePopUp=_languagePopUp;
-@property __weak NSButton *languageTwoButton; // @synthesize languageTwoButton=_languageTwoButton;
-@property(retain) NSString *messageTextVTStringKey; // @synthesize messageTextVTStringKey=_messageTextVTStringKey;
-@property _Bool showsLanguageSelection; // @synthesize showsLanguageSelection=_showsLanguageSelection;
 @property _Bool showsPrivacyInformation; // @synthesize showsPrivacyInformation=_showsPrivacyInformation;
-@property(readonly) NSString *siriLanguageCode; // @synthesize siriLanguageCode=_siriLanguageCode;
-@property(retain) NSArray *supportedSiriLanguageCodes; // @synthesize supportedSiriLanguageCodes=_supportedSiriLanguageCodes;
-@property(retain) NSView *unsupportedLanguageAccessoryView; // @synthesize unsupportedLanguageAccessoryView=_unsupportedLanguageAccessoryView;
 
 @end
 

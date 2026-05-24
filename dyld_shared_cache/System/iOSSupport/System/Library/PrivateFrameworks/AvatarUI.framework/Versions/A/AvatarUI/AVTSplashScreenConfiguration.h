@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, NSString;
+@class AVPlayerItem;
 
 @interface AVTSplashScreenConfiguration
 {
     AVPlayerItem *_primaryPlayerItem;
-    AVPlayerItem *_secondaryPlayerItem;
-    NSString *_titleString;
-    NSString *_subTitleString;
-    NSString *_buttonString;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)?;
 - (id);
 - (id);
 - (void);
@@ -28,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buttonString; // @synthesize buttonString=_buttonString;
 @property(retain, nonatomic) AVPlayerItem *primaryPlayerItem; // @synthesize primaryPlayerItem=_primaryPlayerItem;
-@property(retain, nonatomic) AVPlayerItem *secondaryPlayerItem; // @synthesize secondaryPlayerItem=_secondaryPlayerItem;
-@property(retain, nonatomic) NSString *subTitleString; // @synthesize subTitleString=_subTitleString;
-@property(retain, nonatomic) NSString *titleString; // @synthesize titleString=_titleString;
 
 @end
 

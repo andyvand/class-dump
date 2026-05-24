@@ -4,59 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableAttributedString, NSMutableDictionary, NSTimer, UIColor;
+@class NSMutableAttributedString;
 @protocol CKTextEntryLayoutManagerMentionsDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKTextEntryLayoutManager
 {
     id <CKTextEntryLayoutManagerMentionsDelegate> _mentionsDelegate;
-    NSMutableAttributedString *_mentionAttributes;
-    UIColor *_currentMentionColor;
-    double _currentMentionScale;
-    UIColor *_currentMentionShadowColor;
-    NSMutableDictionary *_animationsByIdentifier;
-    NSTimer *_mentionTimer;
-    struct CGSize _currentMentionOffset;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)updateStringsForChangePassword;
+- (void)updateStringsForChangeModeTo;
+- (void)updateDivergedAttachmentsWithPassphrase:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)secondaryAuthenticationMode;
+- (void)resetCustomPasswordInfoAlertWithAccount: /* Error: Ran out of types for this method. */;
+- (void)ic_containsItemWithIdentifier:(id)arg1;
+- (void)ic_containsBlockAttachmentsInRange:(id)arg1;
+- (void)ic_constraints:(id)arg1 affectingViews: /* Error: Ran out of types for this method. */;
+- (void)deleteNote:(id)arg1;
+- (void)deleteFromLocalDatabase;
+- (void)deleteCharactersInRange:(struct CGSize)arg1;
+- (void)deleteBackwardForSpecialCasesInTextView:(id)arg1;
+- (void)clearCachedOrientedImage;
+- (id)ICAttachmentViewInitializing;
+- (id)ICCollapsibleThumbnailView;
+- (id)ICConstantAvailableTableWidthProvider;
 - (_Bool);
 - (void);
 - (id);
 - (double);
-- (struct CGSize);
+- (struct CGSize)G;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *animationsByIdentifier; // @synthesize animationsByIdentifier=_animationsByIdentifier;
-@property(retain, nonatomic) UIColor *currentMentionColor; // @synthesize currentMentionColor=_currentMentionColor;
-@property(nonatomic) struct CGSize currentMentionOffset; // @synthesize currentMentionOffset=_currentMentionOffset;
-@property(nonatomic) double currentMentionScale; // @synthesize currentMentionScale=_currentMentionScale;
-@property(retain, nonatomic) UIColor *currentMentionShadowColor; // @synthesize currentMentionShadowColor=_currentMentionShadowColor;
 @property(retain, nonatomic) NSMutableAttributedString *mentionAttributes; // @synthesize mentionAttributes=_mentionAttributes;
-@property(retain, nonatomic) NSTimer *mentionTimer; // @synthesize mentionTimer=_mentionTimer;
-@property(nonatomic) __weak id <CKTextEntryLayoutManagerMentionsDelegate> mentionsDelegate; // @synthesize mentionsDelegate=_mentionsDelegate;
 
 @end
 

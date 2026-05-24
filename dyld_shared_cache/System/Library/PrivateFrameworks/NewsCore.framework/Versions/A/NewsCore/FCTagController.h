@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetManager, FCCKContentDatabase, FCOperationThrottler, FCTagRecordSource, FCThreadSafeMapTable, FCThreadSafeMutableSet, NSMutableDictionary, NSString;
-@protocol FCCoreConfigurationManager;
+@class FCCKContentDatabase;
 
 @interface FCTagController
 {
     FCCKContentDatabase *_contentDatabase;
-    FCAssetManager *_assetManager;
-    FCTagRecordSource *_tagRecordSource;
-    id <FCCoreConfigurationManager> _configurationManager;
-    FCThreadSafeMapTable *_fastCache;
-    FCOperationThrottler *_tagPrefetchThrottler;
-    NSMutableDictionary *_prefetchedTags;
-    FCOperationThrottler *_tagRefreshThrottler;
-    FCThreadSafeMutableSet *_tagIDsNeedingRefresh;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)settings;
 - (id);
 - (id);
 - (void);
@@ -38,30 +29,23 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)isEqualToSet:(id)arg1;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)X;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id)à;
-- (void)ticleRecirculationSecondaryOntologyLevelConfig;
+- (void)shadowArticleRecirculationSecondaryOntologyLevelConfig;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool shouldPrefetchGlobalTags;
-@property(readonly) Class superclass;
 
 @end
 

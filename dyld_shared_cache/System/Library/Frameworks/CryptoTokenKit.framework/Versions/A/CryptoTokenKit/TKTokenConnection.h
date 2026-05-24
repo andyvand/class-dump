@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, NSXPCListener, TKToken;
+@class TKToken;
 
 __attribute__((visibility("hidden")))
 @interface TKTokenConnection
 {
     TKToken *_token;
-    NSXPCListener *_listener;
-    NSMapTable *_sessions;
-    id _initialKeepAlive;
 }
 
 - (void);
@@ -23,20 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)able to find class %s;
 - (id)°g;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id initialKeepAlive; // @synthesize initialKeepAlive=_initialKeepAlive;
-@property(readonly, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly, nonatomic) NSMapTable *sessions; // @synthesize sessions=_sessions;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) TKToken *token; // @synthesize token=_token;
 
 @end

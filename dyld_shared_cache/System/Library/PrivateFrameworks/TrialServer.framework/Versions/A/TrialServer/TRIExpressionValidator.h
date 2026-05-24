@@ -8,12 +8,12 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)policyWithAccessibilityDescription:(id)arg1;
+- (_Bool)playerItemWithAsset:(id)arg1;
+- (id)imagePropertiesFromImageSource:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)imageByColorMatchingWorkingSpaceToColorSpace:(id)arg1;
+- (_Bool)imageByColorMatchingColorSpaceToWorkingSpace:(id)arg1;
+- (id)getHOAChannelCount:(id)arg1 BEDChannelCount: /* Error: Ran out of types for this method. */;
 
 @end
 

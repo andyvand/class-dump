@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id)e(passes:(id)arg1 ) called with unknown pass;
-- (void)t;
+- (void)_bindingAmount;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id value; // @synthesize value=_value;

@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)initWithDictionary: /* Error: Ran out of types for this method. */;
 - (int);
 
 @end

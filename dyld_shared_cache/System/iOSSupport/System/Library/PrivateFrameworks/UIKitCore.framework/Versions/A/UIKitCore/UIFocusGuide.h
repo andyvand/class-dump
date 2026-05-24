@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UILayoutGuide.h>
 
-@class NSArray, NSString, UIView, _UIFocusGuideImpl;
+@class _UIFocusGuideImpl;
 
 @interface UIFocusGuide : UILayoutGuide
 {
     _Bool _automaticallyDisableWhenIntersectingFocus;
-    _UIFocusGuideImpl *_impl;
-    NSArray *_preferredFocusEnvironments;
 }
 
 + (Class);
@@ -26,8 +24,8 @@
 × ;
 - (struct CGRect)00c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}}16@0:(id)arg1 8;
 - (id)ransform=dddddd}d}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)humbnailAspectRatio:(id)arg1;
-- (void)atorWithName:(id)arg1 depthRange:block:allowedActionSourceTypes: /* Error: Ran out of types for this method. */;
+- (void)movieScrubberTrackViewThumbnailAspectRatio:(id)arg1;
+- (void)accumulatorWithName:(id)arg1 depthRange:block:allowedActionSourceTypes: /* Error: Ran out of types for this method. */;
 - (id)placeWithCandidateAction",R,N;
 - (id)localAuthenticationObserver;
 - (void)_UIKeyboardMediaServiceWarmUpConnection;
@@ -41,17 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFocusGuideImpl *_impl; // @synthesize _impl;
-@property(nonatomic, getter=_automaticallyDisableWhenIntersectingFocus, setter=_setAutomaticallyDisableWhenIntersectingFocus:) _Bool automaticallyDisableWhenIntersectingFocus; // @synthesize automaticallyDisableWhenIntersectingFocus=_automaticallyDisableWhenIntersectingFocus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *preferredFocusEnvironments; // @synthesize preferredFocusEnvironments=_preferredFocusEnvironments;
-@property(nonatomic) __weak UIView *preferredFocusedView;
-@property(readonly) Class superclass;
 
 @end
 

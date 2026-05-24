@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)L9X;<;
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long), view (parent %05llx, slice %d, level %d);
 
 @end
 

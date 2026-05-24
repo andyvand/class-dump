@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EMInternalMessageID
 {
     long long _databaseID;
-    NSString *_externalID;
 }
 
 - (id);
@@ -20,7 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, copy, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
 
 @end
 

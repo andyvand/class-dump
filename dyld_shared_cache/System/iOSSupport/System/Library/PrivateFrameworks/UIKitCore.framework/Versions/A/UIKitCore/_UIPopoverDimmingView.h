@@ -6,47 +6,33 @@
 
 #import <UIKitCore/UIDimmingView.h>
 
-@class NSString, UIView, _UIPassthroughScrollInteraction;
-@protocol _UIPopoverDimmingViewDelegate;
+@class _UIPassthroughScrollInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UIPopoverDimmingView : UIDimmingView
 {
     _Bool _lastHitTestWasPassedThrough;
-    _Bool _passThroughDismissalTaps;
-    _UIPassthroughScrollInteraction *_passthroughScrollInteraction;
-    UIView *_transitionContainerView;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)tifier:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)!´Dù]ð1Â0@ù
 × ;
 - (id);
-- (void)tting:(id)arg1;
-- (id)s;
+- (void)_previewItemController:(id)arg1 didDismissPreview:committing: /* Error: Ran out of types for this method. */;
+- (id)_animatesBackgroundEffects;
 - (void)4;
 - (id)= %p; ignoring invalid preferred attributes. Preferred attrs:%@; original attrs:%@. /* Error: Ran out of types for this method. */;
 - (void)e:(id)arg1 delayEndInputSession:]_block_invoke_3 /* Error: Ran out of types for this method. */;
-- (_Bool)V13AsyncLoadable_px1TAcDPRts_XP;
+- (_Bool)21UIIntelligenceSupport19IntelligenceElementV13AsyncLoadable_px1TAcDPRts_XP;
 - (void);
 - (_Bool)ÌA\;
 - (void)´×þ±È;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPassthroughScrollInteraction *_passthroughScrollInteraction; // @synthesize _passthroughScrollInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIPopoverDimmingViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool passThroughDismissalTaps; // @synthesize passThroughDismissalTaps=_passThroughDismissalTaps;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *transitionContainerView; // @synthesize transitionContainerView=_transitionContainerView;
 
 @end
 

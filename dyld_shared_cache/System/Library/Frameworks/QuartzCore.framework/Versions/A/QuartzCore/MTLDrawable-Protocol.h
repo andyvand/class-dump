@@ -5,10 +5,11 @@
 //
 
 @protocol MTLDrawable
+- (double)tSharesOperation.m;
+- (void);
 - (void)ment=i^{CGPoint}}8;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long drawableID;
 @property(readonly, nonatomic) double presentedTime;
 @end
 

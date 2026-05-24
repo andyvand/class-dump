@@ -10,23 +10,23 @@
 {
 }
 
+- (id)setEnableThreadingAssertions:(id)arg1;
+- (id)setCharacterAfterSelection:(id)arg1;
+- (id)lement",&,N,S_setCurrentInputMethodWindow:(unsigned long long)arg1 ,V__currentInputMethodWindow;
+- (_Bool)_frontmostApplicationController;
 - (id);
+- (id)(;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)kA;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (struct CLLocationCoordinate2D);
 
 @end

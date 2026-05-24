@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol IMAPPersistedMessage
+- (NSString *);
+- (long long)hJ;
 
 // Remaining properties
-@property(copy) NSArray *appleRemoteLinks;
-@property(readonly, nonatomic) long long libraryID;
 @property(copy) NSString *remoteID;
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INGetUserCurrentRestaurantReservationBookingsIntentResponseExport
-- (long long)ssureUnit;
+- (long long)hasBloodPressureUnit;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *userCurrentBookings;
 @end
 

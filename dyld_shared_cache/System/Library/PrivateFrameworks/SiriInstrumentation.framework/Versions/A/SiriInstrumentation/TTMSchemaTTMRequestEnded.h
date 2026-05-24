@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface TTMSchemaTTMRequestEnded : SISchemaInstrumentationMessage
 {
@@ -18,23 +18,22 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)rangeComparator;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)uid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE ROWID IN (SELECT message_id FROM chat_message_join WHERE message_id < ?) AND item_type = 0 ORDER BY ROWID DESC LIMIT ?;
+- (id)s animated - lets copy the first frame;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void)0@ù
 × ;
-- (id)Id;
-- (id)uest;
+- (id)deleteQueryId;
+- (id)_isPireneRequest;
 - (void)ActionDisambiguationsLastOneHour;
-- (void)N;
+- (void)ORCHUSERIDENTITYCLASSIFICATION_UNSURE_N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

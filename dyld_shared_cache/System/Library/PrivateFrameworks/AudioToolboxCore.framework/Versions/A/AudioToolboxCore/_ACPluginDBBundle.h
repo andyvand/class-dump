@@ -10,17 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _ACPluginDBBundle
 {
     NSString *mFullPath;
-    double mInfoPlistModDate;
-    double mRsrcModDate;
-    struct AudioComponentVector mBundleComponentVector;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)([;
 - (void);
 - (void)ðõ	;
 

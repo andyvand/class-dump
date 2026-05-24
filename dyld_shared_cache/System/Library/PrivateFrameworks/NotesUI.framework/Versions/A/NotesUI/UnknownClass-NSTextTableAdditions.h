@@ -6,10 +6,10 @@
 
 @interface UnknownClass (NSTextTableAdditions)
 - (id);
+- (id)!`m;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)d;
 - (id);
 - (id);
 - (id);

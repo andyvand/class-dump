@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MFEWSSyncFolderHierarchyBatch
 {
     _Bool _isFinalBatch;
-    NSString *_initialSyncState;
-    NSString *_finalSyncState;
-    NSArray *_createdFolders;
-    NSArray *_updatedFolders;
-    NSArray *_deletedFolderIDs;
 }
 
 - (id);
@@ -24,19 +19,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)q@;
 - (id);
 - (id);
 - (id);
 - (void)ÿÿ¼;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *createdFolders; // @synthesize createdFolders=_createdFolders;
-@property(copy, nonatomic) NSArray *deletedFolderIDs; // @synthesize deletedFolderIDs=_deletedFolderIDs;
-@property(copy, nonatomic) NSString *finalSyncState; // @synthesize finalSyncState=_finalSyncState;
 @property(copy, nonatomic) NSString *initialSyncState; // @synthesize initialSyncState=_initialSyncState;
-@property(nonatomic) _Bool isFinalBatch; // @synthesize isFinalBatch=_isFinalBatch;
-@property(copy, nonatomic) NSArray *updatedFolders; // @synthesize updatedFolders=_updatedFolders;
 
 @end
 

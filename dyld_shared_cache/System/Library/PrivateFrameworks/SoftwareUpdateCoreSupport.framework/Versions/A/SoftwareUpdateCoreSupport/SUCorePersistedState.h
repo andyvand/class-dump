@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface SUCorePersistedState
 {
     _Bool _defaultLevelLogging;
-    NSObject<OS_dispatch_queue> *_persistedStateQueue;
-    NSString *_persistencePath;
-    NSString *_versionPolicyLayer;
-    NSMutableDictionary *_persistedState;
-    NSString *_versionSUCore;
 }
 
 - (void);
@@ -41,13 +33,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)T�;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -57,7 +49,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (_Bool);
 - (id);
@@ -67,32 +59,27 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_codeView;
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (id)partialIntentDataAsData;
+- (void)p;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)l-;
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)";
 
 // Remaining properties
 @property(nonatomic) _Bool defaultLevelLogging; // @synthesize defaultLevelLogging=_defaultLevelLogging;
-@property(retain, nonatomic) NSMutableDictionary *persistedState; // @synthesize persistedState=_persistedState;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *persistedStateQueue; // @synthesize persistedStateQueue=_persistedStateQueue;
-@property(retain, nonatomic) NSString *persistencePath; // @synthesize persistencePath=_persistencePath;
-@property(retain, nonatomic) NSString *versionPolicyLayer; // @synthesize versionPolicyLayer=_versionPolicyLayer;
-@property(retain, nonatomic) NSString *versionSUCore; // @synthesize versionSUCore=_versionSUCore;
 
 @end
 

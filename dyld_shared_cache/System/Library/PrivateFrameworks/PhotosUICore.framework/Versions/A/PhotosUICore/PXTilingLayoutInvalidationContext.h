@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableArray, NSMutableIndexSet, NSString;
+@class NSIndexSet, NSMutableArray;
 
 @interface PXTilingLayoutInvalidationContext
 {
     NSMutableArray *_invalidatedTileIdentifiers;
-    NSMutableIndexSet *_invalidatedTileGroups;
-    _Bool _invalidatedAllTiles;
-    _Bool _invalidatedContentBounds;
-    _Bool _invalidatedScrollBounds;
-    _Bool _invalidatedVisibleRect;
-    _Bool _invalidatedScrollInfo;
-    NSString *_tag;
 }
 
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)rce;
+- (void)LemonadeMockBookmarksDataSource;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool invalidatedAllTiles; // @synthesize invalidatedAllTiles=_invalidatedAllTiles;
-@property(readonly, nonatomic) _Bool invalidatedContentBounds; // @synthesize invalidatedContentBounds=_invalidatedContentBounds;
-@property(readonly, nonatomic) _Bool invalidatedScrollBounds; // @synthesize invalidatedScrollBounds=_invalidatedScrollBounds;
-@property(readonly, nonatomic) _Bool invalidatedScrollInfo; // @synthesize invalidatedScrollInfo=_invalidatedScrollInfo;
 @property(readonly, nonatomic) NSIndexSet *invalidatedTileGroups;
-@property(readonly, nonatomic) _Bool invalidatedVisibleRect; // @synthesize invalidatedVisibleRect=_invalidatedVisibleRect;
-@property(copy, nonatomic) NSString *tag; // @synthesize tag=_tag;
 
 @end
 

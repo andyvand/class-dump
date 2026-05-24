@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreTelephonyClientMux;
-@protocol CTGestaltHelper;
-
 @interface CoreTelephonyClient
 {
     struct queue _userQueue;
-    CoreTelephonyClientMux *_mux;
-    id <CTGestaltHelper> _gestaltHelper;
-    id fDelegateAddr;
-    unsigned long long fOsStateHandle;
-    id _delegate;
 }
 
 + (id);
 
 // Remaining properties
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
 @property void *fDataAssertion; // @dynamic fDataAssertion;
 
 @end

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
-
 @interface RTLearnedPlaceTypeInferenceMO
 {
 }
 
++ (id)getCurrentIdentities:(id)arg1 result:(id)arg2;
 + (id);
-+ (id);
-+ (id);
++ (id)sh power event:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSUUID *learnedPlaceIdentifier; // @dynamic learnedPlaceIdentifier;
 @property(nonatomic) short metricSource; // @dynamic metricSource;
-@property(nonatomic) short placeType; // @dynamic placeType;
-@property(copy, nonatomic) NSUUID *sessionId; // @dynamic sessionId;
 
 @end
 

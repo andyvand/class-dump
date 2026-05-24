@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IPDateFormatExtra)
-- (id);
-- (void);
+- (id)computeBoundingSphereOmittingFloorsForNode:(id)arg1 sphere: /* Error: Ran out of types for this method. */;
+- (void)audioPlayerWithSource:(struct _NSRange)arg1;
 @end
 

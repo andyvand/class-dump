@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, HMDHomeManager, HMDLegacyCloudDatabase, HMDMutableHomeData, NSMutableDictionary, NSString;
-@protocol HMDAppleAccessoryPairingControllerDataSource;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccessoryPairingController
 {
     struct os_unfair_lock_s _lock;
-    id <HMDAppleAccessoryPairingControllerDataSource> _dataSource;
-    HMDHomeManager *_homeManager;
-    HMDLegacyCloudDatabase *_legacyCloudDatabase;
-    HMBLocalZone *_homeManagerZone;
-    HMBLocalZone *_blobZone;
-    NSMutableDictionary *_pairingHomes;
-    HMDMutableHomeData *_homeData;
 }
 
 + (id)C;
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)ry/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PILevelsFilter.m;
+- (_Bool)step(0.0, 1.0, 1.0 - i); float lowLuminosityDamp = smoothstep(0.0, 1.0, 25.0 * i); float hWeight = lowSaturationDamp * intensityDamp * lowLuminosityDamp; hueGamma -= 1; hueGamma *= hWeight; hueGamma += 1; bw = pow(bw, hueGamma); float bwSDR = clamp(bw * 12.0, 0.0, 1.0); float midLumWeight = bwSDR*(1.0 - bwSDR); float grayWeight = 1.0 - smoothstep(0.0, 1.0, chroma * 10.0); float nWeight = midLumWeight * grayWeight; neutralGamma -= 1; neutralGamma *= nWeight; neutralGamma *= -2; neutralGamma += 1; bw = pow(bw, neutralGamma); bw = bw * 12.0; bw = clamp(bw, 0.0, 12.0); float df0 = 0.812379; float result; if (bw < df0) { result = 1.8031*bw*bw*bw - 2.1972*bw*bw + 1.3823*bw; } else { float scale = 12.0 - df0; float x = (bw - df0) / scale; result = 1.8031*x*x*x - 2.1972*x*x + 1.3823*x; result = result * scale + df0; result -= 0.158305860; } bw = mix(bw, result,-phototone); return vec4(bw,bw,bw,imageHDR.a); };
 - (void);
 - (void);
 - (void);
@@ -37,29 +29,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)
 × ;
-- (id)utors: /* Error: Ran out of types for this method. */;
+- (id)initWithContributors: /* Error: Ran out of types for this method. */;
 - (void)s per request:(id)arg1 %@;
 - (id)o release power assertion, but it isn't valid?;
-- (void)gerCSg;
+- (void)So33HMDHomeHindsightCloudShareManagerCSg;
 - (id)6^B24;
-- (id)geAnalyzerTxSecureMessagesCountPeriodicRequestGroup;
+- (id)HMDLogEventMessageAnalyzerTxSecureMessagesCountPeriodicRequestGroup;
 - (void)¿èþ;
 
 // Remaining properties
-@property(retain) HMBLocalZone *blobZone; // @synthesize blobZone=_blobZone;
-@property(retain) id <HMDAppleAccessoryPairingControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMDMutableHomeData *homeData; // @synthesize homeData=_homeData;
 @property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(retain) HMBLocalZone *homeManagerZone; // @synthesize homeManagerZone=_homeManagerZone;
-@property(retain) HMDLegacyCloudDatabase *legacyCloudDatabase; // @synthesize legacyCloudDatabase=_legacyCloudDatabase;
-@property(retain) NSMutableDictionary *pairingHomes; // @synthesize pairingHomes=_pairingHomes;
-@property(readonly) Class superclass;
 
 @end
 

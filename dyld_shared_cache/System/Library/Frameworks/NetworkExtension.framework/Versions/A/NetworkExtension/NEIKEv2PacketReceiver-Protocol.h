@@ -5,5 +5,6 @@
 //
 
 @protocol NEIKEv2PacketReceiver
+- (void);
 @end
 

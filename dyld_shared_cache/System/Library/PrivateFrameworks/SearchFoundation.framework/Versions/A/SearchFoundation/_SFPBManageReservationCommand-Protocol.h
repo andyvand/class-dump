@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _SFPBManageReservationCommand
+- (NSData *)er",R,N,V_smartStyleIntensity;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool placeHolderProperty;
 @end
 

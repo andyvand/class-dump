@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (void);

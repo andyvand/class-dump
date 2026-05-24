@@ -7,24 +7,11 @@
 @interface NewsFeed.WebEmbedImageView
 {
     id identifier;
-    id onEmbedInteraction;
-    id onEmbedLinkInteraction;
-    id showSpinner;
-    id loader;
-    id imageView;
-    id imageIdentifier;
-    id activityIndicatorView;
-    id errorView;
-    id debugLabel;
-    id layoutGuideView;
-    id debugLoadView;
-    id loadingTask;
-    id state;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)ResultActionData;
+- (void)e9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/utility/TSUZipFileArchive.m;
 - (id)
 × ;
 - (void)xÁwþí`:Pù$ÿ /* Error: Ran out of types for this method. */;

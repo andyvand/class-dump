@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSError, NSLock, NSNumber, NSString, PKDistributionContainer;
-@protocol PKPackageSource;
+@class NSLock;
 
 @interface MSUProduct
 {
     _Bool _staged;
-    _Bool _evaluated;
-    _Bool _installable;
-    _Bool _visibleOnlyForPredicate;
-    NSString *_key;
-    NSDate *_postDate;
-    NSString *_buildVersion;
-    NSString *_updateVersion;
-    NSString *_updateType;
-    NSString *_stagedPrefix;
-    NSString *_stagedSuffix;
-    long long _criticalUpdateType;
-    double _criticalUpdateAutoInstallDelay;
-    NSDictionary *_extendedMetaInfoDictionary;
-    NSDictionary *_distributionURLsByLocalization;
-    NSArray *_packages;
-    NSError *_eligibilityError;
-    NSString *_displayName;
-    NSNumber *_displaySizeBytes;
-    NSString *_displayVersion;
-    NSData *_displayDescriptionData;
-    NSString *_displayDescriptionMIMEType;
-    NSLock *_distributionEvaluationLock;
-    PKDistributionContainer *__distributionContainer;
-    id <PKPackageSource> __createdContentLocatorPackageSource;
 }
 
 - (_Bool);
@@ -45,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,24 +40,24 @@
 - (long long);
 - (double);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
+- (id);
+- (id);
 - (void);
-- (id);
+- (_Bool);
+- (void)es/iMessageApps/;
+- (id)totalMessages;
+- (id)in lock down mode, refusing to decode background command.;
+- (id)NicknameiCloudAccountSignedInStatusKey;
+- (id)IMCloudKitSyncStepPreFlight;
+- (void);
+- (id);
+- (void);
+- (id)getPropertiesOfPage:forExtensionWithUUID:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -95,32 +70,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) id <PKPackageSource> _createdContentLocatorPackageSource; // @synthesize _createdContentLocatorPackageSource=__createdContentLocatorPackageSource;
-@property(retain) PKDistributionContainer *_distributionContainer; // @synthesize _distributionContainer=__distributionContainer;
-@property(retain) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly) id <PKPackageSource> contentLocatorPackageSource;
-@property double criticalUpdateAutoInstallDelay; // @synthesize criticalUpdateAutoInstallDelay=_criticalUpdateAutoInstallDelay;
-@property long long criticalUpdateType; // @synthesize criticalUpdateType=_criticalUpdateType;
-@property(retain) NSData *displayDescriptionData; // @synthesize displayDescriptionData=_displayDescriptionData;
-@property(retain) NSString *displayDescriptionMIMEType; // @synthesize displayDescriptionMIMEType=_displayDescriptionMIMEType;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSNumber *displaySizeBytes; // @synthesize displaySizeBytes=_displaySizeBytes;
-@property(retain) NSString *displayVersion; // @synthesize displayVersion=_displayVersion;
 @property(retain, nonatomic) NSLock *distributionEvaluationLock; // @synthesize distributionEvaluationLock=_distributionEvaluationLock;
-@property(readonly) NSDictionary *distributionURLsByLocalization; // @synthesize distributionURLsByLocalization=_distributionURLsByLocalization;
-@property(retain) NSError *eligibilityError; // @synthesize eligibilityError=_eligibilityError;
-@property(getter=isEvaluated) _Bool evaluated; // @synthesize evaluated=_evaluated;
-@property(retain) NSDictionary *extendedMetaInfoDictionary; // @synthesize extendedMetaInfoDictionary=_extendedMetaInfoDictionary;
-@property(getter=isInstallable) _Bool installable; // @synthesize installable=_installable;
-@property(readonly) NSString *key; // @synthesize key=_key;
-@property(retain) NSArray *packages; // @synthesize packages=_packages;
-@property(retain) NSDate *postDate; // @synthesize postDate=_postDate;
-@property(getter=isStaged) _Bool staged; // @synthesize staged=_staged;
-@property(retain) NSString *stagedPrefix; // @synthesize stagedPrefix=_stagedPrefix;
-@property(retain) NSString *stagedSuffix; // @synthesize stagedSuffix=_stagedSuffix;
-@property(retain) NSString *updateType; // @synthesize updateType=_updateType;
-@property(retain) NSString *updateVersion; // @synthesize updateVersion=_updateVersion;
-@property _Bool visibleOnlyForPredicate; // @synthesize visibleOnlyForPredicate=_visibleOnlyForPredicate;
 
 @end
 

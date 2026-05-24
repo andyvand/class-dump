@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)Q}32^B48;
 + (void);
 - (_Bool);
 - (unsigned long long);

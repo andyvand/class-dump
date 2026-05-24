@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SUCatalog;
+@class SUCatalog;
 
 __attribute__((visibility("hidden")))
 @interface SUPackageSource
 {
     SUCatalog *_catalog;
-    _Bool _packageSourceIsValid;
 }
 
 + (_Bool);
@@ -21,14 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)iceVersionKey - remoteDeviceVersion:(id)arg1 %u;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allPackageReferences;
-@property(retain) SUCatalog *catalog; // @synthesize catalog=_catalog;
 @property _Bool packageSourceIsValid; // @synthesize packageSourceIsValid=_packageSourceIsValid;
 
 @end

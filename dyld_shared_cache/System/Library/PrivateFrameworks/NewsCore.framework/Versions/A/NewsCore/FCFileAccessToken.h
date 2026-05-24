@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileCoordinator, NSURL;
-@protocol NSFileCoordinationRetainedAccess;
-
 @interface FCFileAccessToken
 {
     long long _type;
-    NSURL *_fileURL;
-    NSFileCoordinator *_fileCoordinator;
-    id <NSFileCoordinationRetainedAccess> _retainedAccess;
 }
 
 + (_Bool);
@@ -21,18 +15,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id);
+- (id)trafficRegistration:enabled:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)init];
 - (id)bÕÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSFileCoordinator *fileCoordinator; // @synthesize fileCoordinator=_fileCoordinator;
-@property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) id <NSFileCoordinationRetainedAccess> retainedAccess; // @synthesize retainedAccess=_retainedAccess;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

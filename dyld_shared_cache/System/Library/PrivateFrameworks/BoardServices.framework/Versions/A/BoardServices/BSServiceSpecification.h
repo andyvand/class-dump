@@ -9,9 +9,6 @@
 @interface BSServiceSpecification
 {
     NSDictionary *_options;
-    _Bool _derived;
-    _Bool _hiddenAtLaunch;
-    NSString *_identifier;
 }
 
 - (_Bool);
@@ -26,20 +23,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Q&;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=isDerived) _Bool derived; // @synthesize derived=_derived;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHiddenAtLaunch) _Bool hiddenAtLaunch; // @synthesize hiddenAtLaunch=_hiddenAtLaunch;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

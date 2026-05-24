@@ -5,5 +5,12 @@
 //
 
 @protocol CNContactViewControllerPrivateDelegate
+
+@optional
+- (void){;
+- (void)fz;
+- (void);
+- (void);
+- (void);
 @end
 

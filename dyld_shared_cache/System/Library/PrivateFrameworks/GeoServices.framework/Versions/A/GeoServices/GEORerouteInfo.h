@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface GEORerouteInfo
 {
     double _distancePenalty;
-    double _throttledReroutesPenalty;
-    double _penalty;
-    NSDate *_time;
-    double _distanceFromDestination;
 }
 
 + (_Bool)ry is empty.;
 - (void);
 - (void);
-- (double);
+- (double)(;
 - (double);
 - (id);
-- (void);
+- (void);
 - (id)L½;
 - (void)L;
 - (void)]S ³³(P@;
 
 // Remaining properties
-@property(nonatomic) double distanceFromDestination; // @synthesize distanceFromDestination=_distanceFromDestination;
 @property(readonly, nonatomic) double penalty; // @synthesize penalty=_penalty;
-@property(retain, nonatomic) NSDate *time; // @synthesize time=_time;
 
 @end
 

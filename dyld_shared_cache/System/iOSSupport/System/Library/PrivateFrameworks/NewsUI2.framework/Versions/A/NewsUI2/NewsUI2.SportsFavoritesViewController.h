@@ -7,17 +7,9 @@
 @interface NewsUI2.SportsFavoritesViewController
 {
     id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id blueprintLayoutProvider;
-    id lastComputedSize;
-    id selectionProvider;
-    id blueprintHorizontalShimView;
 }
 
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);

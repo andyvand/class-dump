@@ -10,25 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchZeroKeywordWithSearchResultsSuggestionParameters
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _blurredHourOfDay;
-    unsigned int _dayOfWeek;
-    unsigned int _maxCategories;
-    unsigned int _maxResultsPerCategory;
-    struct {
-        unsigned int has_blurredHourOfDay:1;
-        unsigned int has_dayOfWeek:1;
-        unsigned int has_maxCategories:1;
-        unsigned int has_maxResultsPerCategory:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)_archiveValueForKeyPath:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"b1};
-- (id)Types;
+- (id)_requestedEntryTypes;
 - (id)(èpéLë;
 - (void);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol ASDDiagnosticServiceProtocol
+- (void);
 @end
 

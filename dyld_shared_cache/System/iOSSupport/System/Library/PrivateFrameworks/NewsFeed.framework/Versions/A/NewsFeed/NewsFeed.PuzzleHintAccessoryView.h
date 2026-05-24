@@ -7,27 +7,10 @@
 @interface NewsFeed.PuzzleHintAccessoryView
 {
     id identifier;
-    id externalHorizontalPadding;
-    id height;
-    id sceneProvider;
-    id puzzleComponentsStyler;
-    id leftButton;
-    id rightButton;
-    id hintButton;
-    id keyboardButton;
-    id colorTheme;
-    id hintConfig;
-    id lastUsedWidth;
-    id lastUsedContentSizeCategory;
-    id buttonLength;
-    id minHeight;
-    id horizOuterPadding;
-    id hintPadding;
-    id arrowsSpacing;
 }
 
 - (id);
-- (void);
+- (void)ler:] /* Error: Ran out of types for this method. */;
 - (id)¡îÐ!¬Gùÿ1Â0@ù
 × ;
 - (void)pÈ;

@@ -11,18 +11,16 @@
 @interface MTLAccelerationStructureMotionBoundingBoxGeometryDescriptor : MTLAccelerationStructureGeometryDescriptor
 {
     NSArray *_boundingBoxBuffers;
-    unsigned long long _boundingBoxCount;
-    unsigned long long _boundingBoxStride;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (long long);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *boundingBoxBuffers; // @synthesize boundingBoxBuffers=_boundingBoxBuffers;
-@property(nonatomic) unsigned long long boundingBoxCount; // @synthesize boundingBoxCount=_boundingBoxCount;
-@property(nonatomic) unsigned long long boundingBoxStride; // @synthesize boundingBoxStride=_boundingBoxStride;
 
 @end
 

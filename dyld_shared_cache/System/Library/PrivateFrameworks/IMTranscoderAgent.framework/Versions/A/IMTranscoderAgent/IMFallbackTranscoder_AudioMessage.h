@@ -8,9 +8,10 @@
 {
 }
 
-- (void);
-- (id);
-- (void);
+- (void)Unknown metadata event type %'C.
+;
+- (id)snapInUseCoarseEstimation;
+- (void)_APKeyHolderCoreUtilsEncryptionContextDataStreamGetSeed;
 
 @end
 

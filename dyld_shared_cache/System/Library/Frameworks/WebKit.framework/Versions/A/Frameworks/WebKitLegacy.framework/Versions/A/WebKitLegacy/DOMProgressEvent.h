@@ -11,13 +11,11 @@
 }
 
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)J1BPJ1J1-;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) _Bool lengthComputable;
-@property(readonly) unsigned long long loaded;
-@property(readonly) unsigned long long total;
 
 @end
 

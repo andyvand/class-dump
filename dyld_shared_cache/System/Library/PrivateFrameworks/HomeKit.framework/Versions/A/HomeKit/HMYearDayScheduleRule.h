@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateInterval, NSString;
+@class NSDateInterval;
 
 @interface HMYearDayScheduleRule
 {
@@ -13,47 +13,28 @@
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)_PSCNAutocompleteFeedback:ERROR unarchiving Biome event:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)afterlife;
+- (id)expressivity;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(6;
 - (void),V_videoFileURLs;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(copy) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSDate *validFrom;
-@property(readonly, copy) NSDate *validUntil;
 
 @end
 

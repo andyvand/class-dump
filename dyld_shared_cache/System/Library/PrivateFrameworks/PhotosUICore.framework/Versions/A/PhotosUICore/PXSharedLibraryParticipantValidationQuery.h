@@ -9,7 +9,6 @@
 @interface PXSharedLibraryParticipantValidationQuery
 {
     _Bool _isValid;
-    NSString *_address;
 }
 
 - (id);
@@ -19,12 +18,11 @@
 - (_Bool);
 - (id)ormerDelegate>",R,W,N,V_assetCollectionActionPerformerDelegate;
 - (void)isUpdatingLayers to %{bool}d;
-- (id)ollectionActionPerformerErrorDomain;
+- (id)PXPHAssetCollectionActionPerformerErrorDomain;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
 
 @end
 

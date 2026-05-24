@@ -7,7 +7,6 @@
 @interface NewsUI2.MyMagazinesDataManager
 {
     id delegate;
-    id store;
 }
 
 @end

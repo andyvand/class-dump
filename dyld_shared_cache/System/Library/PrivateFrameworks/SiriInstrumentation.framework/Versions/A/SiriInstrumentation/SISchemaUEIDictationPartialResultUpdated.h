@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationPartialResultUpdated : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)checkServerQueueForQueue:withClient: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)E FROM chat_recoverable_message_join WHERE message_id IN ( SELECT message_id FROM chat_message_join);;
 - (id);
 - (id);
-- (id)teEntityTypeMentioned;
-- (id)ewarmContext;
+- (id)deleteEntityTypeMentioned;
+- (id)_hasAssistantDaemonAudioPrewarmContext;
 - (_Bool)m.apple.aiml.siri.qd.QDClientEvent;
-- (_Bool)T__PLAYFIRSTPREDICTION__TITLE;
+- (_Bool)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__PLAYFIRSTPREDICTION__TITLE;
 - (void)a;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

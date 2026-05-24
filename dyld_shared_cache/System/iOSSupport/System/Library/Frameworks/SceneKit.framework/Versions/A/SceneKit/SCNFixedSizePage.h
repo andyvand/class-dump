@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet;
 @protocol MTLBuffer;
 
 __attribute__((visibility("hidden")))
 @interface SCNFixedSizePage
 {
     id <MTLBuffer> _buffer;
-    unsigned long long _elementSize;
-    NSMutableIndexSet *_freeIndices;
 }
 
 - (id);

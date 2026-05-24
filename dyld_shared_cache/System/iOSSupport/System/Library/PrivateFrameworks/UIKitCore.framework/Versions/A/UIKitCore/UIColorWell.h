@@ -6,33 +6,25 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSString, UIColor, UIDragInteraction, UIDropInteraction, _UIColorWellVisualStyle;
+@class _UIColorWellVisualStyle;
 @protocol _UIColorWellDelegate;
 
 @interface UIColorWell : UIControl
 {
     _UIColorWellVisualStyle *_style;
-    UIDragInteraction *_dragInteraction;
-    UIDropInteraction *_dropInteraction;
-    _Bool _supportsAlpha;
-    _Bool _supportsEyedropper;
-    UIColor *_selectedColor;
-    NSString *_title;
-    double _maximumLinearExposure;
-    id <_UIColorWellDelegate> __delegate;
 }
 
-+ (id);
++ (id)ge back to it to tell it to not send relay messages in the future;
+- (_Bool).SMSReceivedRelayReadReceipt;
+- (void)ice name %@;
+- (void)@, has translated message parts;
+- (void)fetching archived messages as max batch attempt limit reached ********;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double);
@@ -41,8 +33,8 @@
 - (void);
 - (void)
 × ;
-- (void)nimationProgress:(id)arg1 completed: /* Error: Ran out of types for this method. */;
-- (_Bool)nningBehavior: /* Error: Ran out of types for this method. */;
+- (void)_updateWithAnimationProgress:(id)arg1 completed: /* Error: Ran out of types for this method. */;
+- (_Bool)_setUseLegacySectionHeaderFooterPinningBehavior: /* Error: Ran out of types for this method. */;
 - (id)tusBarDataStringEntry",C,N,V_dateEntry;
 - (void)olHost",&,N;
 - (id)TextInput>",R,N,G_proxyTextInput;
@@ -63,19 +55,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIColorWellDelegate> _delegate; // @synthesize _delegate=__delegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxGain;
-@property(nonatomic) double maximumLinearExposure; // @synthesize maximumLinearExposure=_maximumLinearExposure;
-@property(retain, nonatomic) UIColor *selectedColor; // @synthesize selectedColor=_selectedColor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAlpha; // @synthesize supportsAlpha=_supportsAlpha;
-@property(nonatomic) _Bool supportsEyedropper; // @synthesize supportsEyedropper=_supportsEyedropper;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

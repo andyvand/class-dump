@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)ing notice.;
 + (double);
 + (void);
 + (_Bool);
@@ -21,7 +21,7 @@
 + (_Bool);
 + (void);
 + (void);
-+ (void);
++ (void)eventWithStream:(CDUnknownBlockType)arg1 source:startDate:endDate:identifierStringValue:metadata: /* Error: Ran out of types for this method. */;
 + (void);
 + (double);
 + (_Bool);
@@ -33,8 +33,8 @@
 + (_Bool);
 + (id);
 + (id);
-+ (void);
-+ (_Bool);
++ (void)9_t;
++ (_Bool)C;
 + (_Bool);
 + (_Bool)
 × ;

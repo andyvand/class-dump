@@ -4,72 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AXShotflowNetwork
 {
     long long _modelType;
-    void *_espressoPlan;
-    void *_espressoContext;
-    struct {
-        void *plan;
-        int network_index;
-    } _espressoNetwork;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _logitsPosOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _logitsNegOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _offsetsOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _rollOutputs;
-    struct vector<std::shared_ptr<espresso_buffer_t>, std::allocator<std::shared_ptr<espresso_buffer_t>>> _yawOutputs;
-    unsigned long long _currentNetworkWidth;
-    unsigned long long _currentNetworkHeight;
-    int _version;
-    int _maxout_layers;
-    int _bins_neg_maxout;
-    _Bool _has_pose;
-    _Bool _pose_square;
-    _Bool _extra_default_boxes;
-    int _num_pos_classes;
-    struct vector<int, std::allocator<int>> _important_classes;
-    struct vector<NSString *, std::allocator<NSString *>> _model_labels;
-    int _num_ratios;
-    struct vector<float, std::allocator<float>> _ratios;
-    struct vector<float, std::allocator<float>> _default_boxes_sides;
-    struct vector<float, std::allocator<float>> _default_boxes_sides_normalized;
-    NSArray *_filterThreshold;
-    float _defaultBoxSizes[6][20][2];
-    struct vector<float, std::allocator<float>> _cell_starts_x;
-    struct vector<float, std::allocator<float>> _cell_starts_y;
-    float _input_aspect_ratio;
-    _Bool _keep_aspect_ratio;
-    _Bool _can_rotate;
-    float _input_height;
-    float _threshold;
 }
 
 + (id);
-+ (id);
++ (id)t;
 - (id);
-- (id);
-- (int);
+- (id)\|;
+- (int)0;
 - (void);
-- (id);
+- (id)z;
 - (id);
 - (unsigned long long);
 - (void);
 - (int);
-- (void);
+- (void)dress> >=^{}}};
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (float)wConfiguration;
+- (float)AXShotflowConfiguration;
 - (long long)"NSNumber"8@"NSNumber"16;
 
 // Remaining properties
-@property(nonatomic) long long modelType; // @synthesize modelType=_modelType;
 @property(readonly, nonatomic) unsigned long long preferredSmallSide;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

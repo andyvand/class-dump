@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFAPFADeviceDimensions;
-
 @interface PFAPFAEventMetadata : SISchemaInstrumentationMessage
 {
     unsigned long long _eventTimestampInMsSince1970;
-    PFAPFADeviceDimensions *_deviceDimensions;
-    CDStruct_5250209a _has;
-    _Bool _hasDeviceDimensions;
 }
 
 - (void);
@@ -23,28 +18,24 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void));
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)	;
 - (_Bool);
-- (_Bool);
+- (_Bool)ly Deleted | Finished clearing recoverable message tombstones;
 - (id);
 - (id)
 × ;
-- (id)aGroundTruthGenerated;
+- (id)_hasMediaGroundTruthGenerated;
 - (id)hasAnyEventPayload;
-- (void)RDATAPACKTASK_SEARCH_OR_MESSAGING;
+- (void)ASRDATAPACKTASK_SEARCH_OR_MESSAGING;
 
 // Remaining properties
-@property(retain, nonatomic) PFAPFADeviceDimensions *deviceDimensions; // @synthesize deviceDimensions=_deviceDimensions;
 @property(nonatomic) unsigned long long eventTimestampInMsSince1970; // @synthesize eventTimestampInMsSince1970=_eventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasDeviceDimensions; // @synthesize hasDeviceDimensions=_hasDeviceDimensions;
-@property(nonatomic) _Bool hasEventTimestampInMsSince1970;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

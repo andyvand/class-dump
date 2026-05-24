@@ -9,24 +9,22 @@
 @interface VMUNodeToStringMap
 {
     NSMutableArray *_strings;
-    struct unordered_map<NSString *, unsigned int, NSStringHashFunctor, NSStringEqualsFunctor, std::allocator<std::pair<NSString *const, unsigned int>>> _stringToIndexMap;
-    struct unordered_map<unsigned int, unsigned int, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>> _nodeToStringIndexMap;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned int);
-- (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (unsigned int);
 - (void);
+- (unsigned int);
+- (void)STIconCache;
 
 @end
 

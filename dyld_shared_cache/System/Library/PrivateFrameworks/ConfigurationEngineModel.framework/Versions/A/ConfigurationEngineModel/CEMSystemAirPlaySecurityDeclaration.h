@@ -11,11 +11,9 @@
 @interface CEMSystemAirPlaySecurityDeclaration : CEMConfigurationBase
 {
     NSString *_payloadSecurityType;
-    NSString *_payloadAccessType;
-    NSString *_payloadPassword;
 }
 
-+ (id);
++ (id)H;
 + (id);
 + (id);
 + (id);
@@ -33,21 +31,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)ioUnitGetProperty:(id)arg1 null size pointer;
 - (id);
-- (void);
+- (void).;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadAccessType; // @synthesize payloadAccessType=_payloadAccessType;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
 @property(copy, nonatomic) NSString *payloadSecurityType; // @synthesize payloadSecurityType=_payloadSecurityType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol MPShuffleableSectionedIdentifierListDelegate
+
+@optional
+- (void)eTh;
 @end
 

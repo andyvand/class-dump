@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFindInteraction, UIView;
-@protocol _UITextSearching;
+@class UIFindInteraction, UIView;
 
 @interface _UIFindInteraction
 {
     UIView *_view;
-    id <_UITextSearching> _searchableObject;
-    UIFindInteraction *_wrappedFindInteraction;
 }
 
+- (id)essBook;
+- (void);
+- (void)_routingTimerFired;
+- (void)_routingBehaviorsForCommand:(id)arg1;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (_Bool)_enumerateUnorderedItemPersistentIDsUsingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void)dð1Â0@ù
 × ;
-- (void)dinateSpace;
-- (id)utedMarkedText:selectedRange:inputString:searchString: /* Error: Ran out of types for this method. */;
-- (void)UIAssertionControllerSubject;
+- (void)gestureCoordinateSpace;
+- (id)setAttributedMarkedText:selectedRange:inputString:searchString: /* Error: Ran out of types for this method. */;
+- (void)_UIAssertionControllerSubject;
 - (void)*Òîÿ!þÿÒîÿ;
 - (void)w.;
 - (void);
@@ -38,18 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFindNavigatorVisible) _Bool findNavigatorVisible;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *replacementText;
-@property(copy, nonatomic) NSString *searchText;
-@property(nonatomic) __weak id <_UITextSearching> searchableObject; // @synthesize searchableObject=_searchableObject;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 @property(retain, nonatomic) UIFindInteraction *wrappedFindInteraction; // @synthesize wrappedFindInteraction=_wrappedFindInteraction;
 
 @end

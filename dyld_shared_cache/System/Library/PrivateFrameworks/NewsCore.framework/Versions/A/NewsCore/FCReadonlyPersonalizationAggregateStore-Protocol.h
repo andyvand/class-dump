@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class NSDictionary, NTPBPersonalizationAggregate;
 
 @protocol FCReadonlyPersonalizationAggregateStore
+- (NTPBPersonalizationAggregate *)_headerAttributesByIndexPath;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *allAggregates;
-@property(readonly, nonatomic) double decayRate;
-@property(readonly, nonatomic) unsigned long long scoringType;
 @end
 

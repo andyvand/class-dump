@@ -9,22 +9,18 @@
 @interface IMSPIHandle
 {
     IMHandle *_imHandle;
-    _Bool _haveFetchedIMHandle;
-    _Bool _isMe;
-    NSString *_address;
-    NSString *_countryCode;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)cognizer>="m_ptr"@"WKInspectorNodeSearchGestureRecognizer"};
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
+- (void)iB9hF9W;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -34,12 +30,6 @@
 
 // Remaining properties
 @property(retain) NSString *address; // @synthesize address=_address;
-@property(readonly) NSString *businessName;
-@property(readonly) NSString *cnContactID;
-@property(retain) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly) NSString *displayName;
-@property(readonly) _Bool isBusiness;
-@property _Bool isMe; // @synthesize isMe=_isMe;
 
 @end
 

@@ -7,24 +7,20 @@
 @interface PKImageDescriptor
 {
     _Bool _hasBackground;
-    long long _type;
-    long long _tintColor;
 }
 
 + (_Bool)X"!¬Gùî%1Â0@ù
 × ;
-- (id);
+- (id)Q;
 - (_Bool);
-- (id);
+- (id)@9	;
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)setAction:(id)arg1;
+- (void)CoreRoutineMapItemSourceLocalSearch;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasBackground; // @synthesize hasBackground=_hasBackground;
-@property(readonly, nonatomic) long long tintColor; // @synthesize tintColor=_tintColor;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

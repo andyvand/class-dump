@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_dispatch_queue, TPPublicKey;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TPTypedSignedData
 {
     _Bool _lastSigValidationResult;
-    NSData *_data;
-    NSData *_sig;
-    NSString *_sigTypeName;
-    id <TPPublicKey> _lastSigValidationPubkey;
-    NSObject<OS_dispatch_queue> *_sigValidationQueue;
 }
 
 - (id);
@@ -33,12 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) id <TPPublicKey> lastSigValidationPubkey; // @synthesize lastSigValidationPubkey=_lastSigValidationPubkey;
-@property(nonatomic) _Bool lastSigValidationResult; // @synthesize lastSigValidationResult=_lastSigValidationResult;
-@property(readonly, nonatomic) NSData *sig; // @synthesize sig=_sig;
 @property(readonly, nonatomic) NSString *sigTypeName; // @synthesize sigTypeName=_sigTypeName;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sigValidationQueue; // @synthesize sigValidationQueue=_sigValidationQueue;
 
 @end
 

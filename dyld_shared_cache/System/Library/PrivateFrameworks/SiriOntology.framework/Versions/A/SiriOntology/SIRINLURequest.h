@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SIRINLURequestID, SIRINLUTurnInput;
+@class SIRINLURequestID;
 
 @interface SIRINLURequest
 {
     SIRINLURequestID *_requestId;
-    SIRINLUTurnInput *_currentTurnInput;
-    NSArray *_previousTurnInputs;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) SIRINLUTurnInput *currentTurnInput; // @synthesize currentTurnInput=_currentTurnInput;
-@property(retain, nonatomic) NSArray *previousTurnInputs; // @synthesize previousTurnInputs=_previousTurnInputs;
 @property(retain, nonatomic) SIRINLURequestID *requestId; // @synthesize requestId=_requestId;
 
 @end

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADDrawableDefaults
 {
     OADDrawableCategoryDefaults *mShapeDefaults;
-    OADDrawableCategoryDefaults *mLineDefaults;
-    OADDrawableCategoryDefaults *mTextDefaults;
 }
 
 - (id);
@@ -29,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) OADDrawableCategoryDefaults *lineDefaults; // @synthesize lineDefaults=mLineDefaults;
 @property(retain, nonatomic) OADDrawableCategoryDefaults *shapeDefaults; // @synthesize shapeDefaults=mShapeDefaults;
-@property(retain, nonatomic) OADDrawableCategoryDefaults *textDefaults; // @synthesize textDefaults=mTextDefaults;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VSIdentityProvider;
+@class VSIdentityProvider;
 
 @interface VSIdentityProviderInfoQueryResult
 {
     VSIdentityProvider *_identityProvider;
-    NSString *_designatedAppBundleIdentifier;
 }
 
 - (void);
-- (void);
+- (void)qa;
 - (id);
 - (id);
-- (id);
+- (id)�N;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *designatedAppBundleIdentifier; // @synthesize designatedAppBundleIdentifier=_designatedAppBundleIdentifier;
 @property(copy, nonatomic) VSIdentityProvider *identityProvider; // @synthesize identityProvider=_identityProvider;
 
 @end

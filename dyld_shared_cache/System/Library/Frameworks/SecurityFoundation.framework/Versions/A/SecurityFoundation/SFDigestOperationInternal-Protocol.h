@@ -6,11 +6,10 @@
 
 @protocol SFDigestOperationInternal
 
-// Remaining properties
-@property(readonly, nonatomic, getter=_ccDigestInfo) const struct ccdigest_info *ccDigestInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tr^{ccdigest_info=QQQQ*^v^?^?i^?},?,R,N,G_ccDigestInfo
+@optional
+- (const struct ccdigest_info *)A;
 
+// Remaining properties
 @property(readonly, nonatomic, getter=_secKeyECDSAAlgorithm) struct __CFString *secKeyECDSAAlgorithm;
 @end
 

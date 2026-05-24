@@ -9,8 +9,6 @@
 @interface SCNSliderConstraint : SCNConstraint
 {
     unsigned long long _categoryBitMask;
-    struct SCNVector3 _offset;
-    float _radius;
 }
 
 + (id);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long collisionCategoryBitMask;
-@property(nonatomic) struct SCNVector3 offset;
-@property(nonatomic) double radius;
 
 @end
 

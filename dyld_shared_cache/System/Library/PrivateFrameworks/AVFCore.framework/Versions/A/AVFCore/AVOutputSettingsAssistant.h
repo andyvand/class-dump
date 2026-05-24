@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputSettingsAssistantInternal, NSDictionary, NSString;
+@class AVOutputSettingsAssistantInternal, NSDictionary;
 
 @interface AVOutputSettingsAssistant
 {
@@ -17,28 +17,26 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
++ (id)4We;
+- (id),N,V_nnetVersion;
+- (id)ctedTokens;
+- (CDStruct_1b6d18a9)_recognizeEmoji;
+- (struct opaqueCMFormatDescription *)ens;
+- (struct opaqueCMFormatDescription *)ialResultIndexList;
+- (void)quence;
+- (void)_EARJitProfile;
+- (void)_EARFormatter;
+- (void);
 - (id);
 - (CDStruct_1b6d18a9);
-- (struct opaqueCMFormatDescription *);
-- (struct opaqueCMFormatDescription *);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDStruct_1b6d18a9);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *audioSettings;
-@property(readonly, nonatomic) NSString *outputFileType;
-@property(readonly, nonatomic) NSDictionary *videoSettings;
 
 @end
 

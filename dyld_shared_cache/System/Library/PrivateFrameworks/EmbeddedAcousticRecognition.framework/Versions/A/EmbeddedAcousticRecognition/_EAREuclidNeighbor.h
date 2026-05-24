@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _EAREuclidNeighbor
 {
     NSString *_name;
-    NSNumber *_distance;
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)0Ä;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *distance; // @synthesize distance=_distance;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

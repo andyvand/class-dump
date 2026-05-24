@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLConfiguration, CPLEngineFeedbackManager, CPLEngineScheduler, CPLEngineStore, CPLEngineSyncManager, CPLEngineSystemMonitor, CPLEngineTransport, CPLMetrics, CPLPlatformObject, CPLStatus, NSArray, NSCountedSet, NSDate, NSError, NSHashTable, NSMutableDictionary, NSObject, NSString, NSURL;
-@protocol CPLEngineLibraryOwner, CPLEngineLibrarySupervisor, OS_dispatch_queue, OS_dispatch_source;
+@class NSArray;
 
 @interface CPLEngineLibrary
 {
     NSArray *_components;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_closingQueue;
-    NSMutableDictionary *_blocksToDispatchWhenLibraryAttaches;
-    NSHashTable *_attachedObjects;
-    NSHashTable *_invalidAttachedObjects;
-    id _currentChangeSessionToken;
-    id _pendingChangeSessionToken;
-    CDUnknownBlockType _pendingChangeSessionCompletionHandler;
-    NSError *_openingError;
-    CPLStatus *_status;
-    CPLMetrics *_metrics;
-    _Bool _closed;
-    _Bool _totalAssetCountHasBeenCalculated;
-    NSDate *_cachedLastQuarantineCountReportDate;
-    unsigned long long _totalAssetCount;
-    NSCountedSet *_holdTestAssertions;
-    CDUnknownBlockType _pingRequestToPushAllChanges;
-    NSObject<OS_dispatch_source> *_timerForPushRepositoryFlagsCountsHaveChanged;
-    NSDate *_mostRecentScopeStatusCountsDidChangeNotificationDate;
-    id _metricsObserver;
-    _Bool _isSystemLibrary;
-    _Bool _isAppLibrary;
-    _Bool _libraryIsCorrupted;
-    CPLPlatformObject *_platformObject;
-    NSString *_currentClosingComponentName;
-    NSString *_mainScopeIdentifier;
-    NSURL *_clientLibraryBaseURL;
-    NSURL *_cloudLibraryStateStorageURL;
-    NSURL *_cloudLibraryResourceStorageURL;
-    NSString *_libraryIdentifier;
-    unsigned long long _libraryOptions;
-    id <CPLEngineLibraryOwner> _owner;
-    id <CPLEngineLibrarySupervisor> _supervisor;
-    CPLEngineStore *_store;
-    CPLEngineScheduler *_scheduler;
-    CPLEngineSyncManager *_syncManager;
-    CPLEngineTransport *_transport;
-    CPLEngineSystemMonitor *_systemMonitor;
-    CPLEngineFeedbackManager *_feedback;
-    CPLConfiguration *_configuration;
 }
 
 + (_Bool);
@@ -58,7 +17,7 @@
 + (void);
 + (void);
 + (id);
-+ (void)ªYý{L©ôOK©öWJ©ø_I©é#HmÿCÿ_Ö#ÕÿÑöW©ôO©ý{©ýCõªóªô;
++ (void);
 + (void);
 + (double);
 + (double);
@@ -75,6 +34,7 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,11 +42,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`
+;
 - (void);
 - (void);
 - (void);
@@ -100,7 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (id);
 - (void);
@@ -116,7 +76,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (void);
 - (void);
@@ -126,10 +86,10 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)6bl_Y6_ITIUXOcODSms/Library/Caches/com.apple.xbs/TemporaryDirectory.AEg6Cp/Sources/FileProvider_executables/fssync/fpfs/enumerators/ChangeEnumerator.swift;
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
 - (void);
@@ -148,39 +108,39 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)�>;
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long)ôOA©ÿÃ;
-- (_Bool)@ùè§©÷ë©óÛ;
-- (void)@ùàªTõ;
-- (unsigned long long)ø_©öW©ôO©ý{©ýõªó;
-- (id)°eAù;
-- (void)ý{©ýC;
-- (id)àªpMjuøâªBàªý{B©ôOA©öWÃ¨ÿ#ÕÐÊP;
-- (void)@ù¨øàªUàªù;
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (unsigned long long);
 - (_Bool);
 - (void);
+- (unsigned long long);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)i;
+- (id)I;
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -190,7 +150,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -199,61 +159,14 @@
 - (void);
 - (void)
 × ;
-- (void)gledRecordsForScopesWithFiler: /* Error: Ran out of types for this method. */;
-- (_Bool)pungedState;
-- (void)endFeedbackToServerIfNecessary;
-- (void)t;
+- (void)transientRepository:didResetMingledRecordsForScopesWithFiler: /* Error: Ran out of types for this method. */;
+- (_Bool)_expungedState;
+- (void)sendFeedbackToServerIfNecessary;
+- (void)recordList;
 - (void)veTypes:(CDUnknownBlockType)arg1 %@, recordChangetype:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long busyState;
-@property(readonly, nonatomic) NSString *clientAppBundleIdentifier;
-@property(readonly, copy, nonatomic) NSURL *clientLibraryBaseURL; // @synthesize clientLibraryBaseURL=_clientLibraryBaseURL;
-@property(readonly, copy, nonatomic) NSURL *cloudLibraryResourceStorageURL; // @synthesize cloudLibraryResourceStorageURL=_cloudLibraryResourceStorageURL;
-@property(readonly, copy, nonatomic) NSURL *cloudLibraryStateStorageURL; // @synthesize cloudLibraryStateStorageURL=_cloudLibraryStateStorageURL;
-@property(readonly, nonatomic) CPLConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) _Bool containerHasBeenWiped;
-@property(readonly) NSString *currentClosingComponentName; // @synthesize currentClosingComponentName=_currentClosingComponentName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long estimatedCountOfRemainingRecordsDuringSharedLibraryExit;
-@property(copy, nonatomic) NSDate *exitDeleteTime;
-@property(readonly, nonatomic) CPLEngineFeedbackManager *feedback; // @synthesize feedback=_feedback;
-@property(nonatomic) _Bool hasChangesToProcess;
-@property(nonatomic) _Bool hasSomeSharedCollections;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool iCloudLibraryClientIsNotAuthenticated;
-@property(nonatomic) _Bool iCloudLibraryClientVersionTooOld;
-@property(nonatomic) _Bool iCloudLibraryExists;
-@property(nonatomic) _Bool iCloudLibraryHasBeenWiped;
-@property(readonly, nonatomic) NSDate *initialDownloadDate;
-@property(readonly, nonatomic) NSDate *initialSyncDate;
-@property(readonly, nonatomic) _Bool isAppLibrary; // @synthesize isAppLibrary=_isAppLibrary;
-@property(nonatomic) _Bool isExceedingQuota;
-@property(nonatomic) _Bool isExceedingSharedLibraryQuota;
-@property(nonatomic) _Bool isStuckInExitForSharedLibrary;
-@property(readonly, nonatomic) _Bool isSystemLibrary; // @synthesize isSystemLibrary=_isSystemLibrary;
-@property(nonatomic, getter=isKeychainCDPEnabled) _Bool keychainCDPEnabled;
-@property(readonly, copy, nonatomic) NSString *libraryIdentifier; // @synthesize libraryIdentifier=_libraryIdentifier;
 @property(readonly, nonatomic) _Bool libraryIsCorrupted; // @synthesize libraryIsCorrupted=_libraryIsCorrupted;
-@property(readonly, nonatomic) unsigned long long libraryOptions; // @synthesize libraryOptions=_libraryOptions;
-@property(readonly, nonatomic) NSString *mainScopeIdentifier; // @synthesize mainScopeIdentifier=_mainScopeIdentifier;
-@property(nonatomic) __weak id <CPLEngineLibraryOwner> owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(readonly, nonatomic) NSArray *processesInvolvedInSyncSessions;
-@property(readonly, nonatomic) CPLEngineScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(nonatomic) long long serverFeatureCompatibleVersion;
-@property(readonly, nonatomic) CPLEngineStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <CPLEngineLibrarySupervisor> supervisor; // @synthesize supervisor=_supervisor;
-@property(readonly, nonatomic) CPLEngineSyncManager *syncManager; // @synthesize syncManager=_syncManager;
-@property(readonly, nonatomic) CPLEngineSystemMonitor *systemMonitor; // @synthesize systemMonitor=_systemMonitor;
-@property(readonly, nonatomic) CPLEngineTransport *transport; // @synthesize transport=_transport;
-@property(nonatomic, getter=isUpgradeSuggestedToAccessAllPhotos) _Bool upgradeSuggestedToAccessAllPhotos;
-@property(nonatomic, getter=isWalrusEnabled) _Bool walrusEnabled;
 
 @end
 

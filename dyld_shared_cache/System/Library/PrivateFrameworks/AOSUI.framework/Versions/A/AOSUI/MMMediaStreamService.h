@@ -6,18 +6,12 @@
 
 #import <AOSUI/MMService.h>
 
-@class CPSConfigurationClient, MMPromptForLocalSecret, MMWebKitViewController, NSMutableDictionary, NSString;
+@class MMWebKitViewController;
 
 __attribute__((visibility("hidden")))
 @interface MMMediaStreamService : MMService
 {
     MMWebKitViewController *_webKitViewController;
-    _Bool _hasCheckedQuota;
-    _Bool _didEncounterLoadError;
-    NSString *_infoButtonURLString;
-    NSMutableDictionary *_cachedExitingStatus;
-    CPSConfigurationClient *_gSharedCPSConfigurationClient;
-    MMPromptForLocalSecret *_gSharedPromptForLocalSecret;
 }
 
 - (void);
@@ -57,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)aE3;
 - (_Bool);
 - (id);
 - (id);
@@ -69,7 +63,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id))
+?16q)3;
 - (id);
 - (id);
 - (id);
@@ -77,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)=q)3;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -87,11 +82,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Kk(3;
+- (void)K*
+j;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tion"16f24;
 - (id);
 - (void);
 - (void);
@@ -102,18 +98,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *cachedExitingStatus; // @synthesize cachedExitingStatus=_cachedExitingStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didEncounterLoadError; // @synthesize didEncounterLoadError=_didEncounterLoadError;
-@property(retain) CPSConfigurationClient *gSharedCPSConfigurationClient; // @synthesize gSharedCPSConfigurationClient=_gSharedCPSConfigurationClient;
-@property(retain) MMPromptForLocalSecret *gSharedPromptForLocalSecret; // @synthesize gSharedPromptForLocalSecret=_gSharedPromptForLocalSecret;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *infoButtonURLString; // @synthesize infoButtonURLString=_infoButtonURLString;
-@property(readonly) Class superclass;
 @property(retain) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
 
 @end

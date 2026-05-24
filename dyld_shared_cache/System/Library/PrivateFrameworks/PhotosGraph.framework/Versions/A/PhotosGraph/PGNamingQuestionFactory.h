@@ -14,8 +14,8 @@
 }
 
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)A;
+- (id)@;
 - (long long);
 - (unsigned short);
 - (void);

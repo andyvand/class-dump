@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _DKPREventData
 {
     unsigned long long _uncompressedLength;
-    NSData *_event;
-    unsigned int _version;
-    struct {
-        unsigned int uncompressedLength:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)7;
 - (_Bool);
 - (id);
 - (id);

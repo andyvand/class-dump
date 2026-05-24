@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSUserDefaults;
-@protocol OS_dispatch_group;
-
 @interface PRSModelManager
 {
     unsigned long long _activeCount;
-    NSObject<OS_dispatch_group> *_activeGroup;
-    NSObject<OS_dispatch_group> *_modelUpdateGroup;
-    _Bool _disablePolicy;
-    _Bool _trialEnabled;
-    NSString *_modelVersion;
-    NSString *_experimentId;
-    NSString *_modelType;
-    NSMutableDictionary *_models;
-    NSString *_otherModelsType;
-    NSMutableDictionary *_otherModels;
-    NSUserDefaults *_userDefaults;
 }
 
-+ (id);
++ (id);
 + (void);
 + (void);
 + (void);
 + (_Bool);
-+ (id);
++ (id)";
 - (id);
+- (void);
+- (_Bool)!;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (id)H;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)eventTapManager:activelyTappedGestureEvent:cgEvent:withProxy: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
-- (float *);
+- (float *);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)stallAggregation;
 - (_Bool);
 - (void);
 - (void);
@@ -57,23 +43,15 @@
 - (id);
 - (void)0@ù
 × ;
-- (void)onymsIndexes;
-- (void)nts;
+- (void)_synonymsIndexes;
+- (void)PRSRankingCosineComponents;
 - (void);
 - (id):values:feature:] /* Error: Ran out of types for this method. */;
 - (void)¿ðòh^	;
 - (id)èj	;
 
 // Remaining properties
-@property(nonatomic) _Bool disablePolicy; // @synthesize disablePolicy=_disablePolicy;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(retain, nonatomic) NSString *modelType; // @synthesize modelType=_modelType;
-@property(retain, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(retain, nonatomic) NSMutableDictionary *models; // @synthesize models=_models;
-@property(retain, nonatomic) NSMutableDictionary *otherModels; // @synthesize otherModels=_otherModels;
-@property(retain, nonatomic) NSString *otherModelsType; // @synthesize otherModelsType=_otherModelsType;
 @property(nonatomic) _Bool trialEnabled; // @synthesize trialEnabled=_trialEnabled;
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

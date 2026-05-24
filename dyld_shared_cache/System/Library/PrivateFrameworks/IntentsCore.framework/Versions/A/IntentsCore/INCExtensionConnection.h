@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCAppProxy, INCExtensionTransaction, INIntent, INWatchdogTimer, NSArray, NSObject, NSString, NSXPCConnection, NSXPCInterface, NSXPCListener, RBSAssertion;
-@protocol INIntentBackgroundHandlingAssertion, OS_dispatch_queue;
+@class INWatchdogTimer;
 
 @interface INCExtensionConnection
 {
     INWatchdogTimer *_requestTimer;
-    id <INIntentBackgroundHandlingAssertion> _backgroundHandlingAssertion;
-    RBSAssertion *_processAssertion;
-    struct os_unfair_lock_s _displayLayoutMonitorLock;
-    _Bool _shouldObserveLayout;
-    NSObject<OS_dispatch_queue> *_queue;
-    INCExtensionTransaction *_transaction;
-    NSXPCListener *_xpcListener;
-    INCAppProxy *_appProxy;
-    long long _supportedExtensionTypes;
-    long long _appProtectionPolicy;
-    NSArray *_extensionInputItems;
-    double _requestTimeoutInterval;
-    CDUnknownBlockType _timeoutHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _appHandler;
-    CDUnknownBlockType _remoteExtensionProxyProvider;
-    NSXPCInterface *_xpcInterface;
-    NSXPCConnection *_xpcConnection;
-    id _xpcObject;
 }
 
 + (void);
@@ -36,12 +16,12 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -67,12 +47,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (_Bool);
 - (double);
-- (_Bool);
-- (CDUnknownBlockType);
+- (_Bool), isDelete=%d)
+;
+- (CDUnknownBlockType)iCloud;
 - (id);
 - (void);
 - (void);
@@ -82,39 +63,14 @@
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)id transport service dictionary; skipping;
+- (id)[NFSecureElementManagerSession performPeerPaymentEnrollment:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *_queue; // @synthesize _queue;
 @property(nonatomic, setter=_setShouldObserveLayout:) _Bool _shouldObserveLayout; // @synthesize _shouldObserveLayout;
-@property(readonly, nonatomic) INCExtensionTransaction *_transaction; // @synthesize _transaction;
-@property(copy, nonatomic) CDUnknownBlockType appHandler; // @synthesize appHandler=_appHandler;
-@property(nonatomic) long long appProtectionPolicy; // @synthesize appProtectionPolicy=_appProtectionPolicy;
-@property(readonly, nonatomic) INCAppProxy *appProxy; // @synthesize appProxy=_appProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *extensionInputItems; // @synthesize extensionInputItems=_extensionInputItems;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) INIntent *intent;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType remoteExtensionProxyProvider; // @synthesize remoteExtensionProxyProvider=_remoteExtensionProxyProvider;
-@property(nonatomic) double requestTimeoutInterval; // @synthesize requestTimeoutInterval=_requestTimeoutInterval;
-@property(nonatomic) _Bool requiresTCC;
-@property(nonatomic) _Bool requiresTrustCheck;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long supportedExtensionTypes; // @synthesize supportedExtensionTypes=_supportedExtensionTypes;
-@property(copy, nonatomic) CDUnknownBlockType timeoutHandler; // @synthesize timeoutHandler=_timeoutHandler;
-@property(retain, nonatomic, setter=setXPCConnection:) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain, nonatomic, setter=setXPCInterface:) NSXPCInterface *xpcInterface; // @synthesize xpcInterface=_xpcInterface;
-@property(readonly, nonatomic) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
-@property(retain, nonatomic, setter=setXPCObject:) id xpcObject; // @synthesize xpcObject=_xpcObject;
 
 @end
 

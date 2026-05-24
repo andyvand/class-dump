@@ -6,29 +6,25 @@
 
 #import <Foundation/_NSURLBridge.h>
 
-@class NSData, NSNumber, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSSwiftURL : _NSURLBridge
 {
     id url;
-    id string;
-    id isDecomposable;
-    id hasNetLocation;
-    id hasPath;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void *);
 - (id);
@@ -48,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)o;
 - (id);
 - (id);
 - (id);
@@ -60,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)ptSetInt;
+- (id)tidyOptSetInt;
 - (id)º;
 - (id);
 - (void);
@@ -68,37 +64,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSURL *URLByDeletingLastPathComponent;
-@property(nonatomic, readonly) NSURL *URLByDeletingPathExtension;
-@property(nonatomic, readonly) NSString *_cfurlResourceSpecifier;
-@property(nonatomic, readonly) NSURL *_compatibilityAbsoluteURL;
-@property(nonatomic, readonly) unsigned int _encoding;
-@property(nonatomic, readonly) _Bool _isDecomposable;
-@property(nonatomic, readonly) NSString *_lastPathComponent;
-@property(nonatomic, readonly) NSString *_netLocation;
 @property(nonatomic, readonly) NSString *_originalString;
-@property(nonatomic) void *_resourceInfoPtr;
-@property(nonatomic, readonly) NSString *absoluteString;
-@property(nonatomic, readonly) NSURL *absoluteURL;
-@property(nonatomic, readonly) NSURL *baseURL;
-@property(nonatomic, readonly) Class classForCoder;
-@property(nonatomic, readonly) NSData *dataRepresentation;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool fileURL;
-@property(nonatomic, readonly) NSString *fragment;
-@property(nonatomic, readonly) _Bool hasDirectoryPath;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *host;
-@property(nonatomic, readonly) NSString *password;
-@property(nonatomic, readonly) NSString *path;
-@property(nonatomic, readonly) NSNumber *port;
-@property(nonatomic, readonly) NSString *query;
-@property(nonatomic, readonly) NSString *relativePath;
-@property(nonatomic, readonly) NSString *relativeString;
-@property(nonatomic, readonly) NSString *resourceSpecifier;
-@property(nonatomic, readonly) NSString *scheme;
-@property(nonatomic, readonly) NSURL *standardizedURL;
-@property(nonatomic, readonly) NSString *user;
 
 @end
 

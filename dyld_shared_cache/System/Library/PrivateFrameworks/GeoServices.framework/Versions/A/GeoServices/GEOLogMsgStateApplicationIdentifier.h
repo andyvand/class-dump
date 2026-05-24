@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateApplicationIdentifier
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_appIdentifier;
-    NSString *_appMajorVersion;
-    NSString *_appMinorVersion;
-    NSString *_processName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _appType;
-    _Bool _appDarkMode;
-    struct {
-        unsigned int has_appType:1;
-        unsigned int has_appDarkMode:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_appIdentifier:1;
-        unsigned int read_appMajorVersion:1;
-        unsigned int read_appMinorVersion:1;
-        unsigned int read_processName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tionsSiriEnabled:(id)arg1;
++ (_Bool)setHasSuggestionsSiriEnabled:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -40,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)sent for %{public}@ - Bailing out;
 - (void);
 - (id);
 - (_Bool);
@@ -51,18 +31,18 @@
 - (id);
 - (void);
 - (id)"GEOPDTransitScheduleFilter";
-- (id):(struct _NSZone *)arg1 networkActivity:error: /* Error: Ran out of types for this method. */;
+- (id)startRequest:(struct _NSZone *)arg1 callbackQueue:finished:networkActivity:error: /* Error: Ran out of types for this method. */;
 - (_Bool)nceUsageHeadsign: /* Error: Ran out of types for this method. */;
-- (_Bool)mitSpacingDelimiter: /* Error: Ran out of types for this method. */;
-- (int)ometry:(id)arg1 andLine:andStops:andCustodian: /* Error: Ran out of types for this method. */;
-- (void)elligenceFrameworkForRanking;
-- (id)referredTransportModeAsString: /* Error: Ran out of types for this method. */;
-- (id)ion;
+- (_Bool)setHasShouldOmitSpacingDelimiter: /* Error: Ran out of types for this method. */;
+- (int)outputForGeometry:(id)arg1 andLine:andStops:andCustodian: /* Error: Ran out of types for this method. */;
+- (void)_enableMapsIntelligenceFrameworkForRanking;
+- (id)preferredTransportModeAsString: /* Error: Ran out of types for this method. */;
+- (id)GEONavigation;
 - (_Bool)$;
 - (void)±°|aÉ;
 - (_Bool);
 - (id)transmitting user location for %s;
-- (_Bool)ort_direction_intent_suggestions;
+- (_Bool)support_direction_intent_suggestions;
 - (id)è;
 - (void);
 - (int)l¸;
@@ -74,19 +54,7 @@
 - (void)2ß4;
 
 // Remaining properties
-@property(nonatomic) _Bool appDarkMode;
-@property(retain, nonatomic) NSString *appIdentifier;
-@property(retain, nonatomic) NSString *appMajorVersion;
-@property(retain, nonatomic) NSString *appMinorVersion;
-@property(nonatomic) int appType;
-@property(nonatomic) _Bool hasAppDarkMode;
 @property(readonly, nonatomic) _Bool hasAppIdentifier;
-@property(readonly, nonatomic) _Bool hasAppMajorVersion;
-@property(readonly, nonatomic) _Bool hasAppMinorVersion;
-@property(nonatomic) _Bool hasAppType;
-@property(readonly, nonatomic) _Bool hasProcessName;
-@property(retain, nonatomic) NSString *processName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

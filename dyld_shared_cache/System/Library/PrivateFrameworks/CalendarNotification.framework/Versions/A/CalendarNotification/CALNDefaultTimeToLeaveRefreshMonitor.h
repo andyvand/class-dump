@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CALNTimeToLeaveRefreshMonitorDelegate, CALNTimeToLeaveRefreshStorage;
+@protocol CALNTimeToLeaveRefreshStorage;
 
 @interface CALNDefaultTimeToLeaveRefreshMonitor
 {
     _Bool _active;
-    _Bool _registeredForAlarms;
-    id <CALNTimeToLeaveRefreshMonitorDelegate> _delegate;
-    id <CALNTimeToLeaveRefreshStorage> _storage;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ss;
 - (void);
 - (void);
 - (id);
@@ -36,17 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CALNTimeToLeaveRefreshMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isRegisteredForAlarms) _Bool registeredForAlarms; // @synthesize registeredForAlarms=_registeredForAlarms;
 @property(readonly, nonatomic) id <CALNTimeToLeaveRefreshStorage> storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
 
 @end
 

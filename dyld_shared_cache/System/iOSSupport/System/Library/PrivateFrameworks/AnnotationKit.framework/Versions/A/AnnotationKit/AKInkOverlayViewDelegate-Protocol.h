@@ -5,5 +5,6 @@
 //
 
 @protocol AKInkOverlayViewDelegate
+- (void);
 @end
 

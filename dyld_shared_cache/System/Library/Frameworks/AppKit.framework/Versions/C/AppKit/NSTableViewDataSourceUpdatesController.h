@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableIndexSet, NSTableView;
+@class NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface NSTableViewDataSourceUpdatesController
 {
     NSTableView *_tableView;
-    NSMutableIndexSet *_rowsToRemove;
-    NSMutableIndexSet *_rowsToInsert;
-    NSMutableDictionary *_moveUpdates;
-    NSMutableIndexSet *_rowsToReload;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id)Ì-ÿ;
 - (id)<åÿ;

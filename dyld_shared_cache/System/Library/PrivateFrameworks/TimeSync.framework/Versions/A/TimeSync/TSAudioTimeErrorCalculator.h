@@ -9,25 +9,13 @@
 @interface TSAudioTimeErrorCalculator
 {
     long long _numberOfSamples;
-    long long _maxMeasurements;
-    long long _measurementsInBuffer;
-    const float *_channelASamples;
-    const float *_channelBSamples;
-    double *_sampleTimestamps;
-    double *_timeErrors;
-    _Bool _calculatedTimeError;
-    long long _interval;
-    long long _correlationLength;
-    long long _upscaleFactor;
-    double _samplingRate;
-    long long _correlationType;
-    _Bool _noCopy;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)S
+*;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -42,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *audioTimeErrors; // @dynamic audioTimeErrors;
-@property(readonly, copy, nonatomic) NSArray *timeErrors; // @dynamic timeErrors;
 
 @end
 

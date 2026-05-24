@@ -5,5 +5,8 @@
 //
 
 @protocol HMDSKPresenceDelegateV2
+
+@optional
+- (void);
 @end
 

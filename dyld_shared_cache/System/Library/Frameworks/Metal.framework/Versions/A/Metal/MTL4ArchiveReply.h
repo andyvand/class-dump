@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data;
+@class NSString;
 
 @interface MTL4ArchiveReply
 {
     NSString *_errorMessage;
-    unsigned long long _type;
-    NSObject<OS_dispatch_data> *_binary;
-    NSObject<OS_dispatch_data> *_reflectionBlock;
-    NSObject<OS_dispatch_data> *_airScript;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -28,12 +23,7 @@
 - (id)J;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *airScript; // @synthesize airScript=_airScript;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *binary; // @synthesize binary=_binary;
 @property(readonly, copy) NSString *errorMessage;
-@property(readonly) _Bool isError;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *reflectionBlock; // @synthesize reflectionBlock=_reflectionBlock;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end
 

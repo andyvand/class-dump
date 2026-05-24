@@ -6,103 +6,67 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSIndexPath, NSMutableArray, NSString, UIKBTree, UIKeyboardEmojiWellView, UIStackView;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiFamilyConfigurationView : UIView
 {
     double _metachronalRhythmAnimationStartTime;
-    _Bool _usesDarkStyle;
-    _Bool _hasSplitFontSupport;
-    UIView *_touchForwardingView;
-    NSMutableArray *_familyMemberStackViews;
-    UIView *_separatorView;
-    UIStackView *_previewWellStackView;
-    UIKeyboardEmojiWellView *_neutralWellView;
-    UIKeyboardEmojiWellView *_configuredWellView;
-    NSIndexPath *_lastSelectedIndexPath;
-    NSString *_baseEmojiString;
-    NSMutableArray *_selectedVariantIndices;
-    NSArray *_skinToneVariantRows;
-    NSArray *_variantDisplayRows;
-    UIKBTree *_representedKey;
 }
 
-+ (struct CGSize);
++ (struct CGSize)$;
 + (id);
-- (id);
+- (id)5;
 - (_Bool);
 - (void);
 - (void);
+- (id)So31BGNonRepeatingSystemTaskRequestCSg;
+- (id)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)n isPurgeable despite requesting it for %{private}s;
+- (void)quests:(_Bool)arg1 %{public}ld requests coalesced into %{public}ld unique identifiers;
+- (void)ombstones for recordIDs:(id)arg1 %s;
+- (void)ct %@ to CK. CreatedZones:(id)arg1 %@ DeletedZones:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ult item:(id)arg1 %@;
+- (void)d:(id)arg1 %@;
+- (id)message %@ as read as incoming message is older than the chat's last read message time;
+- (id)chment asset at %@, error %@;
+- (id)Nicknames - We had a problem writing a handle list update with key %@ -  %@;
+- (_Bool)OutgoingMessage not providing error to caller.;
+- (id)ilterRecipients:%@ requestProxySend:%@ for accounts %@ /* Error: Ran out of types for this method. */;
+- (id)PlaySoundsKey;
+- (id);
+- (void);
+- (void);
+- (void)8h;
+- (unsigned long long);
+- (void);
+- (_Bool)@9ZS:3Z3 /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)opportunityTracker;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void)eHandler;
+- (void)_previousCompleteHandler;
 - (id)N,V_smartActionCandidateRequest;
 - (void)´Ff;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *baseEmojiString; // @synthesize baseEmojiString=_baseEmojiString;
-@property(retain, nonatomic) UIKeyboardEmojiWellView *configuredWellView; // @synthesize configuredWellView=_configuredWellView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *familyMemberStackViews; // @synthesize familyMemberStackViews=_familyMemberStackViews;
-@property(nonatomic) _Bool hasSplitFontSupport; // @synthesize hasSplitFontSupport=_hasSplitFontSupport;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSIndexPath *lastSelectedIndexPath; // @synthesize lastSelectedIndexPath=_lastSelectedIndexPath;
-@property(retain, nonatomic) UIKeyboardEmojiWellView *neutralWellView; // @synthesize neutralWellView=_neutralWellView;
-@property(retain, nonatomic) UIStackView *previewWellStackView; // @synthesize previewWellStackView=_previewWellStackView;
-@property(retain, nonatomic) UIKBTree *representedKey; // @synthesize representedKey=_representedKey;
-@property(retain, nonatomic) NSMutableArray *selectedVariantIndices; // @synthesize selectedVariantIndices=_selectedVariantIndices;
-@property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(retain, nonatomic) NSArray *skinToneVariantRows; // @synthesize skinToneVariantRows=_skinToneVariantRows;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *touchForwardingView; // @synthesize touchForwardingView=_touchForwardingView;
 @property(nonatomic) _Bool usesDarkStyle; // @synthesize usesDarkStyle=_usesDarkStyle;
-@property(retain, nonatomic) NSArray *variantDisplayRows; // @synthesize variantDisplayRows=_variantDisplayRows;
 
 @end
 

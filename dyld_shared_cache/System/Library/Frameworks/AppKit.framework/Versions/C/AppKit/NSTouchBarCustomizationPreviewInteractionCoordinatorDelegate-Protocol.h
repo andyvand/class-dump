@@ -5,5 +5,7 @@
 //
 
 @protocol NSTouchBarCustomizationPreviewInteractionCoordinatorDelegate
+- (void);
+- (void);
 @end
 

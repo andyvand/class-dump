@@ -6,29 +6,23 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGFoodieMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
 + (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)apProxy=}36;
+- (void)CGEventTapProxy=}32;
+- (_Bool)_updateFont:withTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateCacheWithApplicationElements:applicationControllers: /* Error: Ran out of types for this method. */;
+- (id)_shouldExtendCandidateWord:(id)arg1 withSuffix:(id)arg2;
+- (id)Observation<NSObservable><NSObserver>",&,N,S_setMenuBarOwningApplicationObserver:,V__menuBarOwningApplicationObserver /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)LibCall_ACMContexRemoveCredentialsByTypeAndScope;
+- (unsigned long long)redentialManager_ClientLibs/common/LibCall.c;
+- (id)umn group;
 - (id);
 - (id);
 - (void);

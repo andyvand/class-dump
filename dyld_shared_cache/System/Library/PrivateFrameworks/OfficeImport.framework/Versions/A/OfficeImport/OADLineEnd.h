@@ -10,14 +10,9 @@ __attribute__((visibility("hidden")))
 @interface OADLineEnd : OADProperties
 {
     unsigned char mType;
-    unsigned char mWidth;
-    unsigned char mLength;
-    unsigned int mIsTypeOverridden:1;
-    unsigned int mIsWidthOverridden:1;
-    unsigned int mIsLengthOverridden:1;
 }
 
-+ (id);
++ (id)J;
 + (id);
 + (id);
 + (id);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned char);
 - (unsigned long long);
 - (unsigned char);

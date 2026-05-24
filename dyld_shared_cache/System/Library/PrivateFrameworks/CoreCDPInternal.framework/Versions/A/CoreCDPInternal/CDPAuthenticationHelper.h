@@ -8,14 +8,14 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (void)SafeAutoFillChoicesPopUpButtonViewControllerDelegate;
++ (void)SafariWKNavigationActionExtras;
++ (void)WKWebExtensionControllerDelegatePrivate;
++ (id)ClippingIconImageRenderer;
++ (id)ClippedItemsIndicator;
++ (void)BrowserWindowPersistentState;
++ (id)WKWebExtensionWindow;
++ (id)_ASAgentCredentialUpdateListenerProxy;
 
 @end
 

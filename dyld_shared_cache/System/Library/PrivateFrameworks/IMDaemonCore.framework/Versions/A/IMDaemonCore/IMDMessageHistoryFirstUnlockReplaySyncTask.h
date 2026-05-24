@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccountController, IMDReplayController, NSMutableDictionary, NSString;
+@class IMDAccountController, NSString;
 
 @interface IMDMessageHistoryFirstUnlockReplaySyncTask
 {
     NSString *_className;
-    IMDReplayController *_replayController;
-    IMDAccountController *_accountController;
-    NSMutableDictionary *_taskGroupedByServiceName;
-    CDUnknownBlockType _syncTaskCompletionBlock;
 }
 
-- (id);
-- (unsigned long long);
+- (id)C9;
+- (unsigned long long).;
 - (CDUnknownBlockType);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (void);
 - (id);
+- (void);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
+- (id)@;
 
 // Remaining properties
 @property(retain, nonatomic) IMDAccountController *accountController; // @synthesize accountController=_accountController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType syncTaskCompletionBlock; // @synthesize syncTaskCompletionBlock=_syncTaskCompletionBlock;
-@property(retain, nonatomic) NSMutableDictionary *taskGroupedByServiceName; // @synthesize taskGroupedByServiceName=_taskGroupedByServiceName;
 
 @end
 

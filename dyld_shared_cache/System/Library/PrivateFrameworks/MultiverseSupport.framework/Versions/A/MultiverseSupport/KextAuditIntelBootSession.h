@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
-
 @interface KextAuditIntelBootSession
 {
     unsigned char _csrStatus;
-    _Bool _sipStatus;
-    _Bool _secureBoot;
-    _Bool _valid;
-    unsigned int _csrConfig;
-    unsigned int _imkTypeTag;
-    int _instanceTag;
-    NSData *_kernelCDHash;
-    NSMutableArray *_kexts;
-    NSMutableArray *_errors;
 }
 
 + (_Bool);
@@ -28,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -42,29 +31,20 @@
 - (int);
 - (id);
 - (void);
-- (id);
+- (id)region, %{sensitive}@, clientIdentifier, %@;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)client LMv2 response;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property unsigned int csrConfig; // @synthesize csrConfig=_csrConfig;
 @property unsigned char csrStatus; // @synthesize csrStatus=_csrStatus;
-@property(retain) NSMutableArray *errors; // @synthesize errors=_errors;
-@property unsigned int imkTypeTag; // @synthesize imkTypeTag=_imkTypeTag;
-@property(readonly) int instanceTag; // @synthesize instanceTag=_instanceTag;
-@property(retain) NSData *kernelCDHash; // @synthesize kernelCDHash=_kernelCDHash;
-@property(retain) NSMutableArray *kexts; // @synthesize kexts=_kexts;
-@property _Bool secureBoot; // @synthesize secureBoot=_secureBoot;
-@property _Bool sipStatus; // @synthesize sipStatus=_sipStatus;
-@property _Bool valid; // @synthesize valid=_valid;
 
 @end
 

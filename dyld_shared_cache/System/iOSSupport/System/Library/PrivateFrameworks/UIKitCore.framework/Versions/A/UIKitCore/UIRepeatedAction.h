@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInvocation, NSObject, NSTimer;
-@protocol UIRepeatedActionDelegate;
+@class NSInvocation;
 
 __attribute__((visibility("hidden")))
 @interface UIRepeatedAction
 {
     _Bool _didCompletePreInvocationDelay;
-    _Bool _didCompleteInvocationDelay;
-    _Bool _disableRepeat;
-    _Bool _skipInitialFire;
-    double _preInvocationDelay;
-    double _invocationDelay;
-    double _repeatedDelay;
-    NSInvocation *_invocation;
-    id _invocationArgument;
-    NSTimer *_timer;
-    NSObject<UIRepeatedActionDelegate> *_delegate;
 }
 
 + (id);
-+ (id);
++ (id)C;
 - (void);
 - (void);
 - (void);
@@ -33,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (double);
-- (id);
-- (_Bool);
+- (id)g password fetcher with request ID:%@  session:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)9;
 - (_Bool);
 - (void);
 - (void);
@@ -45,16 +34,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)buildWithIdentifier:withEmailDomains:withWebDomains:withSafariPasswordAutoFillDomains: /* Error: Ran out of types for this method. */;
 - (void)áÿÐ!øFùñXÐ1Â0@ù
 × ;
 - (id)
 × ;
 - (void)44@0:(id)arg1 8@"UITraitCollection"16@"<_UICellConfigurationStateReadonly>"24B32q36;
 - (id)"NSArray"24@"NSString"32B40;
-- (void)formedContainerView;
+- (void)transformedContainerView;
 - (void)observeActivationConditionsDataWithBlock: /* Error: Ran out of types for this method. */;
-- (void)cs: /* Error: Ran out of types for this method. */;
+- (void)_independentBackgroundImageForBarMetrics: /* Error: Ran out of types for this method. */;
 - (void)\®ä³;
 - (id);
 - (void)Ld;
@@ -63,15 +52,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<UIRepeatedActionDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool disableRepeat; // @synthesize disableRepeat=_disableRepeat;
 @property(retain, nonatomic) NSInvocation *invocation; // @synthesize invocation=_invocation;
-@property(retain, nonatomic) id invocationArgument; // @synthesize invocationArgument=_invocationArgument;
-@property(nonatomic) double invocationDelay; // @synthesize invocationDelay=_invocationDelay;
-@property(nonatomic) double preInvocationDelay; // @synthesize preInvocationDelay=_preInvocationDelay;
-@property(nonatomic) double repeatedDelay; // @synthesize repeatedDelay=_repeatedDelay;
-@property(nonatomic) _Bool skipInitialFire; // @synthesize skipInitialFire=_skipInitialFire;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

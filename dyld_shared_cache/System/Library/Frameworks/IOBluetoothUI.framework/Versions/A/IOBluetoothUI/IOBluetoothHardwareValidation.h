@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IOBluetoothHardwareValidation
 {
     id mNoHardarePanel;
-    id mHardwareOffPanel;
-    id mBTDisabledPanel;
-    id mNoHWIcon;
-    id mNoHWText;
-    id mNoHWCancelButton;
-    id mHWOffIcon;
-    id mHWOffText;
-    id mHWOffOkButton;
-    id mHWOffCancelButton;
-    id mBTDisabledText;
-    id mBTDisabledCancelButton;
-    NSString *mCancelText;
 }
 
 - (int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

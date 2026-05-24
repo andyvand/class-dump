@@ -6,32 +6,23 @@
 
 #import <PodcastServices/PODContentChangeEntityData.h>
 
-@class NSString, PODArtwork, PODShow;
+@class PODArtwork;
 
 @interface PODShowArtworkChangeEntityData : PODContentChangeEntityData
 {
     PODArtwork *_artwork;
-    PODShow *_show;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)triggerScoreEvaluationAndRunActivities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PODArtwork *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PODShow *show; // @synthesize show=_show;
-@property(readonly) Class superclass;
 
 @end
 

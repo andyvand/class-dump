@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASPasskeyAssertionCredentialExtensionOutput, AuthenticationServicesCore.ASCPublicKeyCredentialAssertionExtensionOutputs, NSData, NSString;
+@class AuthenticationServicesCore.ASCPublicKeyCredentialAssertionExtensionOutputs, NSData;
 
 @interface ASPasskeyAssertionCredential
 {
     NSData *_userHandle;
-    NSString *_relyingParty;
-    NSData *_signature;
-    NSData *_clientDataHash;
-    NSData *_authenticatorData;
-    NSData *_credentialID;
-    ASPasskeyAssertionCredentialExtensionOutput *_extensionOutput;
 }
 
 + (id);
@@ -32,26 +26,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)fetchInteger64ForKey:(struct _NSZone *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *authenticatorData; // @synthesize authenticatorData=_authenticatorData;
-@property(readonly, copy, nonatomic) NSData *clientDataHash; // @synthesize clientDataHash=_clientDataHash;
 @property(nonatomic, readonly) AuthenticationServicesCore.ASCPublicKeyCredentialAssertionExtensionOutputs *coreExtensions;
-@property(readonly, copy, nonatomic) NSData *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) ASPasskeyAssertionCredentialExtensionOutput *extensionOutput; // @synthesize extensionOutput=_extensionOutput;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *relyingParty; // @synthesize relyingParty=_relyingParty;
-@property(readonly, copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSData *userHandle; // @synthesize userHandle=_userHandle;
 
 @end
 

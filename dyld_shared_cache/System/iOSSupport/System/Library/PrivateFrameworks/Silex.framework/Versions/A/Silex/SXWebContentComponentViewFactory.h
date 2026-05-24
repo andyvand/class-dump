@@ -6,25 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@class SWContainerViewController, SXComponentExposureMonitor;
-@protocol SWLoadingPolicyProvider, SWNavigationManager, SWReachabilityProvider, SXAnalyticsReportingProvider, SXLayoutInvalidator, SXResourceDataSourceProvider, SXWebContentComponentContentRuleProvider, SXWebContentComponentDeveloperSettingsProvider, SXWebContentComponentInteractionManagerFactory, SXWebContentConfigurationProvider, SXWebContentDataSourceProviding, TFResolver;
+@protocol TFResolver;
 
 @interface SXWebContentComponentViewFactory : SXComponentViewFactory
 {
     id <TFResolver> _resolver;
-    id <SXAnalyticsReportingProvider> _analyticsReportingProvider;
-    SWContainerViewController *_containerViewController;
-    id <SXWebContentConfigurationProvider> _configurationProvider;
-    id <SWNavigationManager> _navigationManager;
-    id <SXWebContentComponentInteractionManagerFactory> _interactionManagerFactory;
-    id <SWReachabilityProvider> _reachabilityProvider;
-    id <SXResourceDataSourceProvider> _resourceDataSourceProvider;
-    id <SWLoadingPolicyProvider> _loadingPolicyProvider;
-    id <SXLayoutInvalidator> _layoutInvalidator;
-    id <SXWebContentDataSourceProviding> _dataSourceProvider;
-    SXComponentExposureMonitor *_componentExposureMonitor;
-    id <SXWebContentComponentContentRuleProvider> _contentRuleProvider;
-    id <SXWebContentComponentDeveloperSettingsProvider> _developerSettingsProvider;
 }
 
 - (id);
@@ -45,23 +31,10 @@
 - (id);
 - (int);
 - (void);
-- (id)onverter: /* Error: Ran out of types for this method. */;
+- (id)layoutMarginsWithUnitConverter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;
-@property(readonly, nonatomic) SXComponentExposureMonitor *componentExposureMonitor; // @synthesize componentExposureMonitor=_componentExposureMonitor;
-@property(readonly, nonatomic) id <SXWebContentConfigurationProvider> configurationProvider; // @synthesize configurationProvider=_configurationProvider;
-@property(readonly, nonatomic) SWContainerViewController *containerViewController; // @synthesize containerViewController=_containerViewController;
-@property(readonly, nonatomic) id <SXWebContentComponentContentRuleProvider> contentRuleProvider; // @synthesize contentRuleProvider=_contentRuleProvider;
-@property(readonly, nonatomic) id <SXWebContentDataSourceProviding> dataSourceProvider; // @synthesize dataSourceProvider=_dataSourceProvider;
-@property(readonly, nonatomic) id <SXWebContentComponentDeveloperSettingsProvider> developerSettingsProvider; // @synthesize developerSettingsProvider=_developerSettingsProvider;
-@property(readonly, nonatomic) id <SXWebContentComponentInteractionManagerFactory> interactionManagerFactory; // @synthesize interactionManagerFactory=_interactionManagerFactory;
-@property(readonly, nonatomic) id <SXLayoutInvalidator> layoutInvalidator; // @synthesize layoutInvalidator=_layoutInvalidator;
-@property(readonly, nonatomic) id <SWLoadingPolicyProvider> loadingPolicyProvider; // @synthesize loadingPolicyProvider=_loadingPolicyProvider;
-@property(readonly, nonatomic) id <SWNavigationManager> navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
 @property(readonly, nonatomic) id <TFResolver> resolver; // @synthesize resolver=_resolver;
-@property(readonly, nonatomic) id <SXResourceDataSourceProvider> resourceDataSourceProvider; // @synthesize resourceDataSourceProvider=_resourceDataSourceProvider;
 
 @end
 

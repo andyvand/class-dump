@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface OSAReport
 {
     NSString *_incidentID;
-    NSString *_logType;
-    double _capture_time;
-    NSMutableArray *_notes;
-    NSMutableDictionary *_logWritingOptions;
-    NSString *_logfile;
-    NSString *_etlKey;
-    NSString *_oldLogFile;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (unsigned char);
-+ (unsigned int);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (id)ngTextButton;
++ (id)lueView",&,D,N;
++ (id)rsCardSectionView",W,N,V_cardSectionView;
++ (_Bool)Model",&,N,VtableModel;
++ (id)ILabel",&,D;
++ (unsigned char)imageView;
++ (unsigned int),V_titleImageView;
++ (id)ailView;
++ (_Bool)earchUIDetailedRowModel",&,N,VrowModel;
++ (_Bool)che",R;
 + (id);
 + (id)for unrecoverable deadlock;
 - (id);
-- (double);
+- (double);
 - (void);
 - (_Bool);
 - (double);
@@ -45,19 +38,15 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)debugDescription;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double capture_time; // @synthesize capture_time=_capture_time;
-@property(retain, nonatomic) NSString *etlKey; // @synthesize etlKey=_etlKey;
-@property(readonly, nonatomic) NSString *logfile; // @synthesize logfile=_logfile;
-@property(readonly, nonatomic) NSArray *notes; // @synthesize notes=_notes;
-@property(readonly) NSString *oldLogFile; // @synthesize oldLogFile=_oldLogFile;
 
 @end
 

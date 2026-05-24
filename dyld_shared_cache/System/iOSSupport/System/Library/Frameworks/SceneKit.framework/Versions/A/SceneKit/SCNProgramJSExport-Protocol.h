@@ -5,9 +5,13 @@
 //
 
 @class NSString;
-@protocol MTLLibrary, SCNProgramDelegate;
+@protocol MTLLibrary;
 
 @protocol SCNProgramJSExport
++ (id)F6;
+- (NSString *);
+- (void);
+- (void)R;
 - (id <MTLLibrary>)on(2*cpt[5].GetPosition() - cpt[6].GetPosition());
         cpt[8].SetPosition(2*cpt[9].GetPosition() - cpt[10].GetPosition());
         cpt[12].SetPosition(2*cpt[13].GetPosition() - cpt[14].GetPosition());
@@ -1552,15 +1556,6 @@ void main (void)
 };
 
 // Remaining properties
-@property(nonatomic) id <SCNProgramDelegate> delegate;
-@property(copy, nonatomic) NSString *fragmentFunctionName;
-@property(copy, nonatomic) NSString *fragmentShader;
-@property(copy, nonatomic) NSString *geometryShader;
-@property(retain, nonatomic) id <MTLLibrary> library;
-@property(nonatomic, getter=isOpaque) _Bool opaque;
-@property(copy, nonatomic) NSString *tessellationControlShader;
-@property(copy, nonatomic) NSString *tessellationEvaluationShader;
-@property(copy, nonatomic) NSString *vertexFunctionName;
 @property(copy, nonatomic) NSString *vertexShader;
 @end
 

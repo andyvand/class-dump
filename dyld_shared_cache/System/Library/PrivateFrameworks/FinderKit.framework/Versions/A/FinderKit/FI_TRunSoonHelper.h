@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface FI_TRunSoonHelper
 {
     struct unique_function<void ()> _functor;
-    int _dispatchType;
 }
 
-+ (void);
++ (void)automaticallyRiseToSetupAssistantLevelDuringSetupAssistant;
 - (void);
 - (void);
 - (id);

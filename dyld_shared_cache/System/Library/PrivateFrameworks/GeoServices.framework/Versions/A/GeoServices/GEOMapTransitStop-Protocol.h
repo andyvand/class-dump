@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEOMapRequest;
+
 @protocol GEOMapTransitStop
+- (GEOMapRequest *);
+- (GEOMapRequest *)defaultDatabaseDirectory;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long hallID;

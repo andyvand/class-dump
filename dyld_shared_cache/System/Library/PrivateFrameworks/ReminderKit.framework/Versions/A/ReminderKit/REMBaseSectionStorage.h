@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, REMObjectID, REMResolutionTokenMap;
+@class REMObjectID;
 
 @interface REMBaseSectionStorage
 {
     unsigned long long _storeGeneration;
-    unsigned long long _copyGeneration;
-    long long minimumSupportedVersion;
-    long long effectiveMinimumSupportedVersion;
-    REMObjectID *_objectID;
-    REMObjectID *_accountID;
-    REMObjectID *_parentID;
-    NSString *_displayName;
-    NSDate *_creationDate;
-    REMResolutionTokenMap *_resolutionTokenMap;
-    NSData *_resolutionTokenMapData;
 }
 
 + (id);
@@ -34,7 +24,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)ith error:(id)arg1 %{public}@;
 - (id);
 - (id);
 - (id);
@@ -43,14 +33,14 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (void)32@40;
+- (id)fetchLastVehicleEventsWithReply: /* Error: Ran out of types for this method. */;
+- (id)ateInterval,%@,tripDistance,%.1f,tripDistanceUncertainty,%.1f,modeOfTransportation,%llu,isConsumedByClustering,%d,tripSeqNumber,%d,tripSeqNumberMax,%d,originLat,%f,originLon,%f,dstLat,%f,dstLon,%f,tripCommuteID,%s;
+- (void)eshold > 0;
+- (_Bool);
 - (id);
 - (void)Ñr 1Â0@ù
 × ;
@@ -60,16 +50,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion;
-@property(readonly, nonatomic) long long minimumSupportedVersion;
 @property(retain, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) REMObjectID *parentID; // @synthesize parentID=_parentID;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(retain, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @synthesize resolutionTokenMap=_resolutionTokenMap;
-@property(retain, nonatomic) NSData *resolutionTokenMapData; // @synthesize resolutionTokenMapData=_resolutionTokenMapData;
 
 @end
 

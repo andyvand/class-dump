@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorAvatarImage, BlastDoorMorphology, BlastDoorWallpaper, NSData, NSString;
+@class NSString;
 
 @interface BlastDoorNickname
 {
     id nickname;
 }
 
+- (id)prepareTranscriptBackgroundChannel;
+- (id)share failed attempt:%ld error:%@ /* Error: Ran out of types for this method. */;
+- (id)ckedConversations];
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)valid;
+- (id)ConnectionInvalid;
 - (void)Cõ¡6V;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorAvatarImage *avatar;
-@property(nonatomic, readonly) NSData *avatarRecipe;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *firstName;
-@property(nonatomic, readonly) NSString *lastName;
-@property(nonatomic, readonly) BlastDoorMorphology *pronouns;
-@property(nonatomic, readonly) BlastDoorWallpaper *wallpaper;
 
 @end
 

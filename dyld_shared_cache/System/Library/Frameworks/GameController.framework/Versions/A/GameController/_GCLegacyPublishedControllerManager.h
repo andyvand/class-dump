@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
+@class NSObject, NSSet;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _GCLegacyPublishedControllerManager
 {
     NSObject<OS_dispatch_queue> *_sessionQueue;
-    NSSet *_devices;
 }
 
+- (id)0;
 - (id);
 - (id);
 - (id);
+- (void)&;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSSet *devices; // @synthesize devices=_devices;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

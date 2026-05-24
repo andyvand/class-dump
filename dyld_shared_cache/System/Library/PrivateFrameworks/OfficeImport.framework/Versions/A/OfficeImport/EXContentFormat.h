@@ -9,7 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)
+i(K
+k;
 
 @end
 

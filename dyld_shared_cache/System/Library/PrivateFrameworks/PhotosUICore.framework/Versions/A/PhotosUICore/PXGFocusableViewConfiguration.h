@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PXGFocusableViewDelegate;
 
 @interface PXGFocusableViewConfiguration
 {
     id <PXGFocusableViewDelegate> _delegate;
-    long long _focusability;
-    NSString *_debugName;
 }
 
 - (void);
@@ -24,25 +21,12 @@
 - (_Bool);
 - (void)!Gù8°1Â0@ù
 × ;
-- (id)ithCollectionsFetchResult:(struct _NSZone *)arg1;
+- (id)newConfigurationWithCollectionsFetchResult:(struct _NSZone *)arg1;
 - (id);
 - (void)¨¹-ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *debugName; // @synthesize debugName=_debugName;
 @property(nonatomic) __weak id <PXGFocusableViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long focusability; // @synthesize focusability=_focusability;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 
 @end
 

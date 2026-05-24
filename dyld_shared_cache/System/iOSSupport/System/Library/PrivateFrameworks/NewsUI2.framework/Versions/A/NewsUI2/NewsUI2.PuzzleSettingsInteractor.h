@@ -7,8 +7,6 @@
 @interface NewsUI2.PuzzleSettingsInteractor
 {
     id delegate;
-    id dataManager;
-    id scriptsManager;
 }
 
 @end

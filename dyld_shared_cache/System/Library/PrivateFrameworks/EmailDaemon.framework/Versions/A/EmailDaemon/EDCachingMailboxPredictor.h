@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSString;
 @protocol EDMailboxPredictor;
 
 @interface EDCachingMailboxPredictor
 {
     id <EDMailboxPredictor> _predictor;
-    NSCache *_cache;
-    NSMutableDictionary *_cacheKeysByProperty;
 }
 
 - (void);
@@ -24,22 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ilder_checkExistence_common_SafetySession;
 - (id);
 - (void)lê(ì;
 - (void)EFAULT 0,junk_level_set_by_user INTEGER NOT NULL DEFAULT 0,junk_level INTEGER NOT NULL DEFAULT 0,has_unflagged INTEGER NOT NULL DEFAULT 0,has_attachments INTEGER NOT NULL DEFAULT 0,count INTEGER NOT NULL,journaled INTEGER NOT NULL DEFAULT 0,UNIQUE(scope, conversation) ON CONFLICT ABORT);;
 
 // Remaining properties
-@property(retain, nonatomic) NSCache *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSMutableDictionary *cacheKeysByProperty; // @synthesize cacheKeysByProperty=_cacheKeysByProperty;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <EDMailboxPredictor> predictor; // @synthesize predictor=_predictor;
-@property(readonly) Class superclass;
 
 @end
 

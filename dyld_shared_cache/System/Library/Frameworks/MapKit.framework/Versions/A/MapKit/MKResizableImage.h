@@ -10,56 +10,37 @@ __attribute__((visibility("hidden")))
 @interface MKResizableImage
 {
     _Bool _alwaysStretches;
-    _Bool _needsInsetUpdate;
-    struct NSEdgeInsets _capInsets;
-    NSImage *topLeftCorner;
-    NSImage *topEdgeFill;
-    NSImage *topRightCorner;
-    NSImage *leftEdgeFill;
-    NSImage *centerFill;
-    NSImage *rightEdgeFill;
-    NSImage *bottomLeftCorner;
-    NSImage *bottomEdgeFill;
-    NSImage *bottomRightCorner;
 }
 
+- (void)ionWithClientID:XPC Connection back? %@ /* Error: Ran out of types for this method. */;
+- (id)(key:%@) /* Error: Ran out of types for this method. */;
+- (id)ated aggregated event #%@ (key:%@) /* Error: Ran out of types for this method. */;
+- (id)me:%@, eventDictionary:%@) /* Error: Ran out of types for this method. */;
+- (void)er.xpc;
+- (void)8;
+- (void)e.energybudgetingdebug.generateEnergyReport;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#;
 - (void);
-- (void);
-- (void);
+- (void)CNMAIDMapper;
+- (void)CNContactNameOrderImpl;
 - (void);
 - (struct CGRect);
-- (id);
-- (void)chButtonBackgroundStyle;
+- (id);
+- (void)pitchButtonBackgroundStyle;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *bottomEdgeFill; // @synthesize bottomEdgeFill;
-@property(retain, nonatomic) NSImage *bottomLeftCorner; // @synthesize bottomLeftCorner;
-@property(retain, nonatomic) NSImage *bottomRightCorner; // @synthesize bottomRightCorner;
-@property(retain, nonatomic) NSImage *centerFill; // @synthesize centerFill;
-@property(retain, nonatomic) NSImage *leftEdgeFill; // @synthesize leftEdgeFill;
-@property(retain, nonatomic) NSImage *rightEdgeFill; // @synthesize rightEdgeFill;
-@property(retain, nonatomic) NSImage *topEdgeFill; // @synthesize topEdgeFill;
 @property(retain, nonatomic) NSImage *topLeftCorner; // @synthesize topLeftCorner;
-@property(retain, nonatomic) NSImage *topRightCorner; // @synthesize topRightCorner;
 
 @end
 

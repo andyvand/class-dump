@@ -11,7 +11,6 @@
 @interface CNContactImageUpdateRequest : CNContactPosterDataUpdateRequest
 {
     NSNumber *_ignoredForRevertNumber;
-    NSString *_imageIdentifier;
 }
 
 + (id);
@@ -24,10 +23,9 @@
 - (void);
 - (id);
 - (void)ableContact"24;
-- (void)y:(id)arg1 destinationHandle:destinationContactIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithTransport:(id)arg1 directionality:destinationHandle:destinationContactIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ignoredForRevert;
 @property(readonly, copy, nonatomic) NSString *imageIdentifier; // @synthesize imageIdentifier=_imageIdentifier;
 
 @end

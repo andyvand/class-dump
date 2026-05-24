@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLQueueNode;
-
 __attribute__((visibility("hidden")))
 @interface NSURLQueue
 {
     unsigned long long count;
-    NSURLQueueNode *head;
-    NSURLQueueNode *tail;
-    id monitor;
-    _Bool waitOnTake;
-    _Bool _pad1;
-    _Bool _pad2;
-    _Bool _pad3;
 }
 
 + (id);

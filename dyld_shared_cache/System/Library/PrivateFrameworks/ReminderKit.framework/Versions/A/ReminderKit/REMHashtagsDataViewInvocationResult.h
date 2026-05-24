@@ -16,11 +16,11 @@
 + (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool){k;
 - (void);
+- (id)EmojiImages;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

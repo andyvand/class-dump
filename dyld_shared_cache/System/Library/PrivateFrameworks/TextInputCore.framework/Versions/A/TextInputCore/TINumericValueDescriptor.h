@@ -6,36 +6,26 @@
 
 #import <TextInputCore/TIMetricDescriptor.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface TINumericValueDescriptor : TIMetricDescriptor
 {
     NSString *_calculationExpression;
-    NSString *_calculationPrecondition;
-    NSNumber *_calculationDefaultValue;
-    NSArray *_calculationDependencies;
-    NSArray *_bucketThresholds;
-    NSArray *_bucketValues;
 }
 
 + (id);
+- (id)t %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (void)Qi°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bucketThresholds; // @synthesize bucketThresholds=_bucketThresholds;
-@property(readonly, nonatomic) NSArray *bucketValues; // @synthesize bucketValues=_bucketValues;
-@property(readonly, nonatomic) NSNumber *calculationDefaultValue; // @synthesize calculationDefaultValue=_calculationDefaultValue;
-@property(readonly, nonatomic) NSArray *calculationDependencies; // @synthesize calculationDependencies=_calculationDependencies;
 @property(readonly, nonatomic) NSString *calculationExpression; // @synthesize calculationExpression=_calculationExpression;
-@property(readonly, nonatomic) NSString *calculationPrecondition; // @synthesize calculationPrecondition=_calculationPrecondition;
 
 @end
 

@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)armReferenceType: /* Error: Ran out of types for this method. */;
++ (long long)StringAsAlarmReferenceType: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)tform:(id)arg1;
+- (id)StringAsSupportedPlatform:(id)arg1;
 
 @end
 

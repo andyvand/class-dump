@@ -6,12 +6,11 @@
 
 #import <Slideshows/MPAction.h>
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MPAnimationTrigger : MPAction
 {
     NSString *_animationKey;
-    NSMutableDictionary *_animationAttributes;
 }
 
 + (id);
@@ -29,7 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *animationAttributes; // @synthesize animationAttributes=_animationAttributes;
 @property(copy, nonatomic) NSString *animationKey; // @synthesize animationKey=_animationKey;
 
 @end

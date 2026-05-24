@@ -9,20 +9,18 @@
 @interface PXDragAndDropSettings : PXSettings
 {
     _Bool _useData;
-    _Bool _useFileProvider;
 }
 
 + (id)È: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool));
+- (_Bool)e;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool useData; // @synthesize useData=_useData;
-@property(nonatomic) _Bool useFileProvider; // @synthesize useFileProvider=_useFileProvider;
 
 @end
 

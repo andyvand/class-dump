@@ -7,16 +7,11 @@
 @interface CKDAssetCacheEvictionResult
 {
     unsigned long long _bytesCount;
-    unsigned long long _purgedBytesCount;
-    unsigned long long _purgeableBytesCount;
-    unsigned long long _filesCount;
-    unsigned long long _purgedFilesCount;
-    unsigned long long _purgeableFilesCount;
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -24,11 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bytesCount; // @synthesize bytesCount=_bytesCount;
-@property(readonly, nonatomic) unsigned long long filesCount; // @synthesize filesCount=_filesCount;
-@property(readonly, nonatomic) unsigned long long purgeableBytesCount; // @synthesize purgeableBytesCount=_purgeableBytesCount;
-@property(readonly, nonatomic) unsigned long long purgeableFilesCount; // @synthesize purgeableFilesCount=_purgeableFilesCount;
-@property(readonly, nonatomic) unsigned long long purgedBytesCount; // @synthesize purgedBytesCount=_purgedBytesCount;
-@property(readonly, nonatomic) unsigned long long purgedFilesCount; // @synthesize purgedFilesCount=_purgedFilesCount;
 
 @end
 

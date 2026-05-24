@@ -6,35 +6,32 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class EKEventAvailabilityEditItem, EKEventPrivacyLevelInlineEditItem;
+@class EKEventAvailabilityEditItem;
 
 @interface EKEventVisibilityEditItem : EKEventEditItem
 {
     EKEventAvailabilityEditItem *_availabilityEditItem;
-    EKEventPrivacyLevelInlineEditItem *_privacyLevelEditItem;
-    EKEventEditItem *_subitemOfLastDetailViewControllerRequested;
-    unsigned long long _lastKnownNumberOfSubitems;
 }
 
+- (_Bool)%s;
 - (_Bool);
+- (void)%s;
 - (_Bool);
+- (unsigned long long)s;
+- (double)&s;
+- (_Bool);
+- (_Bool)t&s;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)iled;
+- (id)entCell>"24{CGRect={CGPoint=dd}{CGSize=dd}}32Q64;
+- (void)setShowsMenuAsPrimaryAction: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double)ñ¹_f];
 

@@ -6,29 +6,26 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class NSString, UIImageView, UILabel, UIVisualEffectView;
-@protocol CKTitledImageBalloonViewDelegate;
+@class UIImageView;
 
 @interface CKTitledImageBalloonView : CKImageBalloonView
 {
     UIImageView *_chevron;
-    UILabel *_titleLabel;
-    UIVisualEffectView *_effectView;
 }
 
 - (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)gny_;
+- (struct UIEdgeInsets)d;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)_searchControllerOptions;
 - (void)E
 tFG	GÀHI
 ìKM ÌQôRÔSàT	XUU\V#8WX[¬[
@@ -40,10 +37,6 @@ tFG	GÀHI
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;
-@property(nonatomic) __weak id <CKTitledImageBalloonViewDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(copy, nonatomic) NSString *title;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

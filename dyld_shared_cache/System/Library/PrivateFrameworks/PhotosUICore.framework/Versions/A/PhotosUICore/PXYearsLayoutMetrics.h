@@ -7,12 +7,6 @@
 @interface PXYearsLayoutMetrics
 {
     long long _sizeClass;
-    long long _orientation;
-    double _interitemSpacing;
-    double _defaultItemAspectRatio;
-    double _multiColumnAspectRatio;
-    unsigned long long _layoutStyle;
-    struct NSEdgeInsets _padding;
 }
 
 - (void);
@@ -29,18 +23,12 @@
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (id)ay;
+- (id)simulatedSlowResourcesBufferingDelay;
 - (void)ÊÜúÿäkûÿ;
 - (struct NSEdgeInsets);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double defaultItemAspectRatio; // @synthesize defaultItemAspectRatio=_defaultItemAspectRatio;
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
-@property(nonatomic) unsigned long long layoutStyle; // @synthesize layoutStyle=_layoutStyle;
-@property(nonatomic) double multiColumnAspectRatio; // @synthesize multiColumnAspectRatio=_multiColumnAspectRatio;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
 @property(nonatomic) long long sizeClass; // @synthesize sizeClass=_sizeClass;
 
 @end

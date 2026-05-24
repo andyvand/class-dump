@@ -6,39 +6,11 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceRequest.h>
 
-@class NSArray, NSDecimalNumber, NSNumber, NSSet, NSString, NSURL, PKCurrencyAmount, PKPaymentDeviceMetadata, PKPaymentOffersSessionTransactionDetails;
+@class NSURL;
 
 @interface PKPaymentOfferWebServicePaymentOffers : PKPaymentOfferWebServiceRequest
 {
     _Bool _handoff;
-    _Bool _userInitiated;
-    short _merchantCategoryCode;
-    NSURL *_baseURL;
-    NSString *_criteriaIdentifier;
-    unsigned long long _context;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSString *_dpanIdentifier;
-    NSString *_fpanIdentifier;
-    NSString *_sessionIdentifier;
-    NSDecimalNumber *_amount;
-    NSString *_currencyCode;
-    NSString *_countryCode;
-    NSArray *_supportedNetworks;
-    long long _payLaterSuppressionMode;
-    NSString *_merchantIdentifier;
-    NSString *_originURL;
-    NSString *_webMerchantIdentifier;
-    NSString *_webMerchantName;
-    NSString *_merchantName;
-    NSNumber *_adamIdentifier;
-    NSString *_fraudAssessment;
-    NSSet *_merchandisingOfferIdentifiers;
-    PKPaymentDeviceMetadata *_deviceMetadata;
-    NSString *_challenge;
-    PKPaymentOffersSessionTransactionDetails *_transactionDetails;
-    PKCurrencyAmount *_userEnteredAmount;
-    unsigned long long _updateReason;
 }
 
 - (id);
@@ -50,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,66 +44,38 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id)@}T;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)?q;
+- (void)dlVocoderBitRate"b1"frameErasureRateMean"b1"jitterBufferResidencyTime95Percentile"b1"jitterBufferResidencyTimeMean"b1"jitterBufferResidencyTimeMedian"b1"jitterBufferUnderflowRateMean"b1"ratType"b1"rtpPacketLossRateMean"b1"ulVocoderBitRate"b1"vocoderSampleRate"b1"vocoderType"b1};
 - (id);
 - (void);
 - (id)dd}24;
-- (id)mSuggestion: /* Error: Ran out of types for this method. */;
+- (id)setUsedMaximumSuggestion: /* Error: Ran out of types for this method. */;
 - (void)x`Ø;
 - (void)_fpanIdentifier;
-- (void)tor;
-- (id)tivationCode;
+- (void)PayInThreeMonthsForTransactor;
+- (id)activationCode;
 - (id);
 - (_Bool): /* Error: Ran out of types for this method. */;
 - (void)÷ÿò m¢;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *adamIdentifier; // @synthesize adamIdentifier=_adamIdentifier;
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
 @property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSString *challenge; // @synthesize challenge=_challenge;
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(copy, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(copy, nonatomic) NSString *fraudAssessment; // @synthesize fraudAssessment=_fraudAssessment;
-@property(nonatomic) _Bool handoff; // @synthesize handoff=_handoff;
-@property(copy, nonatomic) NSSet *merchandisingOfferIdentifiers; // @synthesize merchandisingOfferIdentifiers=_merchandisingOfferIdentifiers;
-@property(nonatomic) short merchantCategoryCode; // @synthesize merchantCategoryCode=_merchantCategoryCode;
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(copy, nonatomic) NSString *merchantName; // @synthesize merchantName=_merchantName;
-@property(copy, nonatomic) NSString *originURL; // @synthesize originURL=_originURL;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(nonatomic) long long payLaterSuppressionMode; // @synthesize payLaterSuppressionMode=_payLaterSuppressionMode;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(copy, nonatomic) NSArray *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;
-@property(retain, nonatomic) PKPaymentOffersSessionTransactionDetails *transactionDetails; // @synthesize transactionDetails=_transactionDetails;
-@property(nonatomic) unsigned long long updateReason; // @synthesize updateReason=_updateReason;
-@property(retain, nonatomic) PKCurrencyAmount *userEnteredAmount; // @synthesize userEnteredAmount=_userEnteredAmount;
-@property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
-@property(copy, nonatomic) NSString *webMerchantIdentifier; // @synthesize webMerchantIdentifier=_webMerchantIdentifier;
-@property(copy, nonatomic) NSString *webMerchantName; // @synthesize webMerchantName=_webMerchantName;
 
 @end
 

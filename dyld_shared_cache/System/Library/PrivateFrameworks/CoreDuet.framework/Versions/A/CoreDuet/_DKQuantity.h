@@ -6,47 +6,36 @@
 
 #import <CoreDuet/_DKObject.h>
 
-@class NSString, _DKQuantityType;
-
 @interface _DKQuantity : _DKObject
 {
     double _doubleValue;
-    _DKQuantityType *_quantityType;
 }
 
 + (id);
-+ (id);
++ (id)j;
 + (id);
 + (_Bool);
-+ (id)bject:toType: /* Error: Ran out of types for this method. */;
++ (id)castObject:toType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)?;
 - (id);
 - (_Bool);
-- (double);
+- (double)TCCCreateIndirectObjectIdentityForFileProviderDomainFromPath;
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)V;
+- (id)c}@;
+- (id);
 - (long long);
-- (void);
+- (void)_protocol}^v^{nw_protocol}^v};
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(readonly) unsigned long long hash;
-@property(retain) _DKQuantityType *quantityType; // @synthesize quantityType=_quantityType;
-@property(readonly) Class superclass;
 
 @end
 

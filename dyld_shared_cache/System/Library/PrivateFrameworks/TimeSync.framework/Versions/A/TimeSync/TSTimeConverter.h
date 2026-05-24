@@ -12,13 +12,13 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (void);
-- (id)yPathsForValuesAffectingDestinationIPv4Address;
+- (id)keyPathsForValuesAffectingDestinationIPv4Address;
 
 @end
 

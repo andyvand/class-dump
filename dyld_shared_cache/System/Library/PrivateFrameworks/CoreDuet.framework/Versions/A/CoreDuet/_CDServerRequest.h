@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHTTPURLResponse, NSMutableData, NSMutableURLRequest, NSOperationQueue, NSString, NSURLSession;
-
 @interface _CDServerRequest
 {
     CDUnknownBlockType _responseHandler;
-    NSOperationQueue *_sessionQueue;
-    NSURLSession *_session;
-    NSMutableURLRequest *_request;
-    NSHTTPURLResponse *_httpResponse;
-    NSMutableData *_responseData;
 }
 
 - (void);
@@ -25,13 +18,7 @@
 - (void)_DKBluetoothMetadataKey__batteryLevelHeadphoneLeft;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

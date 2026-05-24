@@ -7,12 +7,6 @@
 @interface NewsUI2.EndOfArticleCoordinator
 {
     id tracker;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id articleFooterContext;
-    id trackerConfiguration;
-    id contentAvailabilityValidator;
-    id articleDataFactory;
 }
 
 @end

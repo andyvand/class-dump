@@ -12,19 +12,18 @@
 }
 
 + (id);
++ (id)erServiceProtocol><NSXPCProxyCreating>";
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)"{;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedName;
 @property(readonly, nonatomic) NSString *rawValue;
 
 @end

@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDSettingGroupModel
 {
 }
 
-+ (id);
++ (id)RawValue;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *hmbModelID;
-@property(readonly, nonatomic) NSUUID *hmbParentModelID;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) NSString *nameForKeyPath;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,12 +11,11 @@
 @interface TSDImageRenderingOperation : TSDSwatchRenderingOperation
 {
     TSDImageInfo *mImageInfo;
-    _Bool mShouldClipVertically;
 }
 
-- (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (void)a;
 - (void);
 - (id);
 - (void);

@@ -7,51 +7,35 @@
 @interface WFFloatingViewConfiguration
 {
     _Bool _usePillCornerRadius;
-    _Bool _appliesCornerRadiusDuringTouchDownOnly;
-    _Bool _colorizesShadow;
-    float _shadowOpacity;
-    long long _gradientDirection;
-    double _cornerRadius;
-    double _shadowRadius;
-    double _scalingFactor;
-    struct CGSize _shadowOffset;
 }
 
++ (id)T;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)T;
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)zg;
+- (void)*T;
 - (_Bool);
 - (_Bool);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (float);
 - (void);
 - (double);
 - (double);
-- (void);
+- (void)Interactable.aiff;
 - (struct CGSize)ÁL!@ù1V1Â0@ù
 × ;
 - (double)0";
-- (void)ontWeight;
+- (void)_symbolIconFontWeight;
 
 // Remaining properties
-@property(nonatomic) _Bool appliesCornerRadiusDuringTouchDownOnly; // @synthesize appliesCornerRadiusDuringTouchDownOnly=_appliesCornerRadiusDuringTouchDownOnly;
-@property(nonatomic) _Bool colorizesShadow; // @synthesize colorizesShadow=_colorizesShadow;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 @property(nonatomic) long long gradientDirection; // @synthesize gradientDirection=_gradientDirection;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
-@property(nonatomic) float shadowOpacity; // @synthesize shadowOpacity=_shadowOpacity;
-@property(nonatomic) double shadowRadius; // @synthesize shadowRadius=_shadowRadius;
-@property(nonatomic) _Bool usePillCornerRadius; // @synthesize usePillCornerRadius=_usePillCornerRadius;
 
 @end
 

@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMFTimer, NSDate, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeManagerHH2SharedUserLastSyncManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _valid;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHomeManager *_homeManager;
-    NSMutableArray *_userLastSyncs;
-    NSMutableDictionary *_homeToUserMap;
-    NSMutableSet *_managedMergeIDs;
-    NSDate *_creationDate;
-    HMFTimer *_delayTimer;
 }
 
 + (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)remainingTime;
+- (void)addSmsStrategyIdentifier:(id)arg1;
+- (_Bool)aking a stop;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,19 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)D %{public,uuid_t}.16P:%@ /* Error: Ran out of types for this method. */;
 - (void)ipant data:(id)arg1 %@;
 - (void)cessoryFirmwareUpdateSession _withOpenSocketDoBlock:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, getter=isValid) _Bool valid;
 
 @end

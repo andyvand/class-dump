@@ -6,25 +6,21 @@
 
 #import <MediaPlayer/MPRemoteCommandEvent.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MPSetPlaybackSessionCommandEvent : MPRemoteCommandEvent
 {
     NSString *_identifier;
-    NSString *_type;
-    NSData *_playbackSessionData;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)tent_KEY;
+- (void)__artistUploadedContent_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *playbackSessionData; // @synthesize playbackSessionData=_playbackSessionData;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

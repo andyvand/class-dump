@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface USOASRAlternative
 {
     NSString *_value;
-    NSNumber *_probability;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id);
@@ -22,7 +21,6 @@
 - (void)n_SiriFavorite;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *probability; // @synthesize probability=_probability;
 @property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

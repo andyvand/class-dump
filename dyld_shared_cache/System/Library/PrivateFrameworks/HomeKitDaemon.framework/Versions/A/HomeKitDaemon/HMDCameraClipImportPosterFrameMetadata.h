@@ -10,23 +10,17 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraClipImportPosterFrameMetadata
 {
     NSString *_resourcePath;
-    double _offset;
-    unsigned long long _width;
-    unsigned long long _height;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void)À;
 - (double)ÄIôÿ)=B;
 
 // Remaining properties
-@property(readonly) unsigned long long height; // @synthesize height=_height;
-@property(readonly) double offset; // @synthesize offset=_offset;
 @property(readonly, copy) NSString *resourcePath; // @synthesize resourcePath=_resourcePath;
-@property(readonly) unsigned long long width; // @synthesize width=_width;
 
 @end
 

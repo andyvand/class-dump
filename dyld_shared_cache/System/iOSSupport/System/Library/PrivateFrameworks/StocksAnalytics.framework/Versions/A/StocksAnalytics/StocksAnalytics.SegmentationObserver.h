@@ -7,6 +7,7 @@
 @interface StocksAnalytics.SegmentationObserver
 {
     id tracker;
+    id;
 }
 
 @end

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFPromise, NSURL;
+@class NSURL;
 
 @interface EDWebContentParserState
 {
     NSURL *_baseURL;
-    EFPromise *_dataDetectionPromise;
-    EFPromise *_remoteContentPromise;
-    EFPromise *_richLinkPromise;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)Messages;
+- (id)R�;
+- (id)=;
+- (void)numberOfMessages;
 - (void)== NSEqualToPredicateOperatorType) || (operatorType == NSNotEqualToPredicateOperatorType);
 - (id) ;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) EFPromise *dataDetectionPromise; // @synthesize dataDetectionPromise=_dataDetectionPromise;
-@property(retain, nonatomic) EFPromise *remoteContentPromise; // @synthesize remoteContentPromise=_remoteContentPromise;
-@property(retain, nonatomic) EFPromise *richLinkPromise; // @synthesize richLinkPromise=_richLinkPromise;
 
 @end
 

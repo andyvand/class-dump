@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _MKRouteContextBuilderCacheEntry
 {
     NSArray *_routeIDs;
-    NSArray *_overlapResults;
-    NSArray *_overlappingSections;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)updateAllLevelTimesWithLevel1Time:(id)arg1 withUpdateDuration: /* Error: Ran out of types for this method. */;
+- (void)setInvalidationHandler:(id)arg1;
+- (void)setInterruptionHandler:(id)arg1;
+- (id)_workQueue;
+- (id)%@ returnValue=%hd;
+- (id)D:%hd withKey:%@ withType:%@ returnValue=%hd /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)howTopSeparator: /* Error: Ran out of types for this method. */;
+- (void)setShowTopSeparator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *overlapResults; // @synthesize overlapResults=_overlapResults;
-@property(retain, nonatomic) NSArray *overlappingSections; // @synthesize overlappingSections=_overlappingSections;
 @property(retain, nonatomic) NSArray *routeIDs; // @synthesize routeIDs=_routeIDs;
 
 @end

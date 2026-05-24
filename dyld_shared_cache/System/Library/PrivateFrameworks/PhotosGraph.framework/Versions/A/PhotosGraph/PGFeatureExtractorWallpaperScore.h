@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ventLabelingConfigurationWrapper;
+- (id)retainTemplateIconsForHosts: /* Error: Ran out of types for this method. */;
+- (id)PGEventLabelingConfigurationWrapper;
 
 @end
 

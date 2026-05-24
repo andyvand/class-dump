@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SRDRecognizerDelegate;
-
 @interface SRDRecognizer
 {
     struct __RXRecognitionSystem *_recognitionSystem;
-    id <SRDRecognizerDelegate> _delegate;
-    unsigned long long _flags;
-    struct __RXRecognizer *_recognizer;
 }
 
 - (id);

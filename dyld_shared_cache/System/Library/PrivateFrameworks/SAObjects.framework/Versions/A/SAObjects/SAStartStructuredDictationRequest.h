@@ -13,12 +13,12 @@
 }
 
 + (id);
-+ (id);
++ (id)?;
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)l;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *structuredDictationType;

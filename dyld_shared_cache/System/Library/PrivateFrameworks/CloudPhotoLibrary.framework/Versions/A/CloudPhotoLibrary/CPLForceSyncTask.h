@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CPLForceSyncTask
 {
     _Bool _cancelled;
-    NSArray *_scopeIdentifiers;
-    NSString *_taskIdentifier;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)g dictionary from %@;
 - (void);
 - (id);
 - (_Bool);
@@ -25,8 +23,6 @@
 - (id)rectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineTransientRepository.m;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy, nonatomic) NSArray *scopeIdentifiers; // @synthesize scopeIdentifiers=_scopeIdentifiers;
 @property(copy, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end

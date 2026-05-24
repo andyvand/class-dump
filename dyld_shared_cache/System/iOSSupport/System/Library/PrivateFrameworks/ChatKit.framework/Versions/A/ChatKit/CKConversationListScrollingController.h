@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversationList, IMChatRegistry, NSMutableDictionary;
+@class CKConversationList;
 
 @interface CKConversationListScrollingController
 {
     _Bool _fetchingOlderConversations;
-    CKConversationList *_conversationList;
-    IMChatRegistry *_chatRegistry;
-    NSMutableDictionary *_filterModeToEarliestFetchedDate;
-    NSMutableDictionary *_filterModeToEarliestReachedDate;
 }
 
+- (void)<lPm;
 - (void);
+- (void);
 - (void);
+- (_Bool)h;
+- (id)o;
+- (id)ccountOperation ensureLegacyFolderIsValid:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,11 +32,7 @@
 - (id)T6è±/;
 
 // Remaining properties
-@property(readonly, nonatomic) IMChatRegistry *chatRegistry; // @synthesize chatRegistry=_chatRegistry;
 @property(readonly, nonatomic) CKConversationList *conversationList; // @synthesize conversationList=_conversationList;
-@property(nonatomic, getter=isFetchingOlderConversations) _Bool fetchingOlderConversations; // @synthesize fetchingOlderConversations=_fetchingOlderConversations;
-@property(retain, nonatomic) NSMutableDictionary *filterModeToEarliestFetchedDate; // @synthesize filterModeToEarliestFetchedDate=_filterModeToEarliestFetchedDate;
-@property(retain, nonatomic) NSMutableDictionary *filterModeToEarliestReachedDate; // @synthesize filterModeToEarliestReachedDate=_filterModeToEarliestReachedDate;
 
 @end
 

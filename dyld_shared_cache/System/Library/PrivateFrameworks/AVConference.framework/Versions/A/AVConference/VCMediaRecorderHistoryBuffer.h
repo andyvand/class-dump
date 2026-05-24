@@ -8,16 +8,11 @@ __attribute__((visibility("hidden")))
 @interface VCMediaRecorderHistoryBuffer
 {
     id _delegate;
-    unsigned int _bufferLength;
-    struct __CFArray *_timestampQueue;
-    struct __CFDictionary *_sampleMap;
-    unsigned int _lastTimestamp;
-    struct __CFAllocator *_timestampAllocator;
 }
 
 - (id);
 - (struct opaqueCMSampleBuffer *);
-- (int);
+- (int);
 - (void);
 - (void);
 - (id);

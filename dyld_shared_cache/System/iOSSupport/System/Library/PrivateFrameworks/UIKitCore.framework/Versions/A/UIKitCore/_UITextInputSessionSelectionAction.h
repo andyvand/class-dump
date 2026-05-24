@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (void);
-- (struct _NSRange);
-- (long long);
+- (struct _NSRange)__cstring;
+- (long long)setBufferPoolDescription:(id)arg1 audioDeviceUID:channels: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

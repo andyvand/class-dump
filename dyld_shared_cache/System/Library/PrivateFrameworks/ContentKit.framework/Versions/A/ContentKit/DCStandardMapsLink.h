@@ -6,13 +6,12 @@
 
 #import <ContentKit/DCMapsLink.h>
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface DCStandardMapsLink : DCMapsLink
 {
     NSURL *_URL;
-    NSDictionary *_queryDictionary;
 }
 
 + (id);
@@ -31,8 +30,46 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)key>
+		<dict>
+			<key>type</key>
+			<string>mat4</string>
+		</dict>
+		<key>u_floorPlane</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>u_floorFalloff</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>u_floorFalloffStart</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>SceneKit-Floor-depth</key>
+		<dict>
+			<key>type</key>
+			<string>depth</string>
+		</dict>
+		<key>SceneKit-Floor-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -43,7 +80,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSDictionary *queryDictionary; // @synthesize queryDictionary=_queryDictionary;
 
 @end
 

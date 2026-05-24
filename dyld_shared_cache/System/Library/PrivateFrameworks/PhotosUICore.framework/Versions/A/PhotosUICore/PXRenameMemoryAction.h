@@ -6,38 +6,28 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSString, PHMemory;
+@class PHMemory;
 
 @interface PXRenameMemoryAction : PXPhotosAction
 {
     _Bool _undoUserEdited;
-    PHMemory *_memory;
-    NSString *_redoTitle;
-    NSString *_undoTitle;
-    NSString *_redoSubtitle;
-    NSString *_undoSubtitle;
 }
 
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)R";
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)ibraryBottomPadding;
 
 // Remaining properties
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;
-@property(readonly, copy, nonatomic) NSString *redoSubtitle; // @synthesize redoSubtitle=_redoSubtitle;
-@property(readonly, copy, nonatomic) NSString *redoTitle; // @synthesize redoTitle=_redoTitle;
-@property(readonly, copy, nonatomic) NSString *undoSubtitle; // @synthesize undoSubtitle=_undoSubtitle;
-@property(readonly, copy, nonatomic) NSString *undoTitle; // @synthesize undoTitle=_undoTitle;
-@property(readonly, nonatomic) _Bool undoUserEdited; // @synthesize undoUserEdited=_undoUserEdited;
 
 @end
 

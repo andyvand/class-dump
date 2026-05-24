@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PXTimelineSchedulerOptions
 {
     double _timelineEntryDuration;
-    double _bestContentEntryDuration;
-    NSArray *_bestContentStartTimeHours;
-    unsigned long long _timelineForSize;
-    unsigned long long _timelineIndex;
-    unsigned long long _numberOfTimelines;
 }
 
 + (id);
@@ -21,25 +14,20 @@
 - (unsigned long long);
 - (double);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (void)Ï;
 
 // Remaining properties
-@property(nonatomic) double bestContentEntryDuration; // @synthesize bestContentEntryDuration=_bestContentEntryDuration;
-@property(retain, nonatomic) NSArray *bestContentStartTimeHours; // @synthesize bestContentStartTimeHours=_bestContentStartTimeHours;
-@property(nonatomic) unsigned long long numberOfTimelines; // @synthesize numberOfTimelines=_numberOfTimelines;
 @property(nonatomic) double timelineEntryDuration; // @synthesize timelineEntryDuration=_timelineEntryDuration;
-@property(nonatomic) unsigned long long timelineForSize; // @synthesize timelineForSize=_timelineForSize;
-@property(nonatomic) unsigned long long timelineIndex; // @synthesize timelineIndex=_timelineIndex;
 
 @end
 

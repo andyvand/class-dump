@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface GEOBluePOIAOI
 {
     NSData *_aoiData;
-    NSArray *_polygons;
 }
 
+- (id){;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *aoiData; // @synthesize aoiData=_aoiData;
-@property(readonly, nonatomic) NSArray *polygons; // @synthesize polygons=_polygons;
 
 @end
 

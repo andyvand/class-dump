@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXTextTangierFlowInfo, SXTextTangierFlowLayout, SXTextTangierFlowStorage, SXTextTangierStorage, SXTextTangierTextLayout, SXTextView;
-@protocol TSDRepDirectLayerHosting;
-
 @interface SXTangierTextRenderCollectorItem
 {
     _Bool _selectable;
-    SXTextTangierFlowInfo *_flowInfo;
-    SXTextTangierStorage *_storage;
-    SXTextTangierFlowStorage *_flowStorage;
-    NSString *_componentIdentifier;
-    SXTextView<TSDRepDirectLayerHosting> *_directLayerHost;
-    SXTextTangierTextLayout *_layout;
-    SXTextTangierFlowLayout *_flowLayout;
-    struct _NSRange _flowRange;
 }
 
 - (id);

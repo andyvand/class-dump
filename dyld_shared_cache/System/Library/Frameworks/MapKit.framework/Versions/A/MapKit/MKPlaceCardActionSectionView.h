@@ -6,61 +6,44 @@
 
 #import <MapKit/MKPlaceSectionRowView.h>
 
-@class MKPlaceCardActionItem, NSButton, NSLayoutConstraint;
-@protocol MKPlaceCardActionSectionViewDelegate;
+@class MKPlaceCardActionItem;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceCardActionSectionView : MKPlaceSectionRowView
 {
     _Bool _useMarginLayout;
-    _Bool _usingSmallFonts;
-    NSLayoutConstraint *_heightAnchor;
-    NSLayoutConstraint *_leftButtonYConstraint;
-    NSLayoutConstraint *_rightButtonYConstraint;
-    NSLayoutConstraint *_platterSizeConstraint;
-    _Bool _singleItemIsFullWidth;
-    MKPlaceCardActionItem *_leftItem;
-    MKPlaceCardActionItem *_rightItem;
-    NSButton *_rightButton;
-    NSButton *_leftButton;
-    id <MKPlaceCardActionSectionViewDelegate> _delegate;
 }
 
 + (void);
-+ (id);
-- (_Bool);
++ (id);
+- (_Bool)cpuEnergyBilledToOthers;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)0;
 - (void);
 - (void);
-- (id);
+- (id)u\;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)stem.B.dylib;
+- (void)SArray">32;
+- (id)DiagnosticsServiceInterface;
 - (void);
 - (id);
-- (void)illSelectLabelMarker: /* Error: Ran out of types for this method. */;
-- (void)awable:(id)arg1 forOverlay:level: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void)mapView:willSelectLabelMarker: /* Error: Ran out of types for this method. */;
+- (void)_removeDrawable:(id)arg1 forOverlay:level: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKPlaceCardActionSectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSButton *leftButton; // @synthesize leftButton=_leftButton;
 @property(retain, nonatomic) MKPlaceCardActionItem *leftItem; // @synthesize leftItem=_leftItem;
-@property(retain, nonatomic) NSButton *rightButton; // @synthesize rightButton=_rightButton;
-@property(retain, nonatomic) MKPlaceCardActionItem *rightItem; // @synthesize rightItem=_rightItem;
-@property(nonatomic) _Bool singleItemIsFullWidth; // @synthesize singleItemIsFullWidth=_singleItemIsFullWidth;
 
 @end
 

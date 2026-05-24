@@ -4,78 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, UIDragInteractionContextImpl, UIView, _UIDragSessionImpl;
-@protocol UIDragInteractionDelegate, UIDragInteractionEffect, _UIDragInteractionDefaultDriverProvider, _UIDragInteractionPresentationDelegate;
+@class UIView;
 
 @interface UIDragInteraction
 {
     _Bool _didSetEnabled;
-    _Bool _enabled;
-    _UIDragSessionImpl *_preliminarySession;
-    _UIDragSessionImpl *_sessionForAddingItems;
-    UIDragInteractionContextImpl *_interactionContext;
-    id <_UIDragInteractionDefaultDriverProvider> _defaultDriverProvider;
-    struct {
-        unsigned int itemsForBeginningSession:1;
-        unsigned int previewForLiftingItem:1;
-        unsigned int willAnimateLiftWithAnimator:1;
-        unsigned int sessionWillBegin:1;
-        unsigned int sessionAllowsMoveOperation:1;
-        unsigned int sessionIsRestrictedToDraggingApplication:1;
-        unsigned int prefersFullSizePreviewsForSession:1;
-        unsigned int sessionDidMove:1;
-        unsigned int willEndWithOperation:1;
-        unsigned int didEndWithOperation:1;
-        unsigned int sessionDidTransferItems:1;
-        unsigned int itemsForAddingToSession:1;
-        unsigned int sessionForAddingItems:1;
-        unsigned int willAddItems:1;
-        unsigned int previewForCancellingItem:1;
-        unsigned int willAnimateCancelWithAnimator:1;
-        unsigned int viewToSnapshotItem:1;
-        unsigned int allowsDragOverridingMasterSwitch:1;
-        unsigned int prepareForSession:1;
-        unsigned int liftAnimationDidChangeDirection:1;
-        unsigned int didCancelLiftWithoutDragging:1;
-        unsigned int shouldDelayCompetingGestureRecognizer:1;
-        unsigned int canExcludeCompetingGestureRecognizer:1;
-        unsigned int competingGestureRecognizerShouldDelayLift:1;
-        unsigned int dataOwnerForSession:1;
-        unsigned int dataOwnerForAddingToSession:1;
-        unsigned int sessionSupportsSystemDrag:1;
-        unsigned int customSpringAnimationBehaviorForCancellingItem:1;
-        unsigned int sessionPropertiesForSession:1;
-        unsigned int itemsForAddingToSessionAsync:1;
-        unsigned int itemsForAddingToSession3D:1;
-        unsigned int sessionForAddingItems3D:1;
-        unsigned int dynamicallyUpdatesPrefersFullSizePreviews:1;
-        unsigned int shouldBecomeDraggingSourceDelegate:1;
-        unsigned int delayForLiftBeginningAtLocation:1;
-    } _delegateImplements;
-    struct {
-        unsigned int previewForCancellingItem:1;
-        unsigned int willAnimateCancelWithAnimator:1;
-        unsigned int sessionDidEnd:1;
-    } _presentationDelegateImplements;
-    _Bool _allowsSimultaneousRecognitionDuringLift;
-    _Bool _cancellationTimerEnabled;
-    _Bool _competingLongPressOnLift;
-    _Bool _allowsPointerDragBeforeLiftDelay;
-    _Bool _automaticallyAddsFailureRelationships;
-    _Bool _allowsMultipleSessions;
-    _Bool _additionalTouchesCancelLift;
-    id <UIDragInteractionDelegate> _delegate;
-    UIView *_view;
-    NSSet *_initiationDrivers;
-    id <_UIDragInteractionPresentationDelegate> _presentationDelegate;
-    id <UIDragInteractionEffect> _interactionEffect;
-    double _liftDelay;
-    double _pointerLiftDelay;
-    double _cancellationDelay;
-    double _competingLongPressDelay;
-    double _liftMoveHysteresis;
-    double _pointerLiftMoveHysteresis;
-    NSArray *_allowedTouchTypes;
 }
 
 + (id);
@@ -86,9 +19,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)uthEnabled:(double)arg1 withDisableRedirect:withDisableMOBIKE:withUseConfigurationAttributeInternalIPSubnet:withEnablePFS:withEnableCertificateRevocationCheck:withNATKeepAliveOffloadEnable:withNATKeepAliveInterval:withAuthName:withAuthPassword:withDeadPeerDetectionRate:withProtocolType:withServerCertificateIssuerCommonName:withServerCertificateCommonName:withIKESecurityAssociationParameters:withChildSecurityAssociationParameters:withInterfaces: /* Error: Ran out of types for this method. */;
+- (_Bool)yloadAllowCloudNotes;
+- (void);
 - (_Bool);
 - (void);
 - (double);
@@ -100,19 +33,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)s=};
+- (_Bool)emID %llu does not match register itemID %llu;
 - (_Bool);
+- (void)performChangeImmediately: /* Error: Ran out of types for this method. */;
+- (double)es;
+- (_Bool)ng];
+- (id)tatusControllerCloudLibraryEnabledDidChangeNotification;
+- (void)resize nil image.;
 - (_Bool);
 - (void);
-- (double);
-- (_Bool);
-- (id);
+- (void)ћ
+;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
+- (double)(;
 - (void);
 - (void);
 - (void);
@@ -123,12 +57,12 @@
 - (double);
 - (long long);
 - (id);
-- (void);
+- (void)B;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void)1Â0@ù
 × ;
@@ -162,29 +96,29 @@
 - (void)@ù
 × ;
 - (id)4{CGPoint=dd}32@?48;
-- (void)wProvider:(id)arg1;
-- (_Bool)ClientSettingsWithTransitionBlock:(id)arg1;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (_Bool)olvedAppearanceForStyleName:styleConfiguration: /* Error: Ran out of types for this method. */;
-- (void)tDirection;
-- (unsigned long long)ensView;
-- (double)DismissMenuForConfiguration:animator: /* Error: Ran out of types for this method. */;
-- (_Bool)ontainerViewForSourceRect:(id)arg1;
-- (id)diom:(id)arg1;
-- (void)essesForPhase:(_Bool)arg1;
-- (_Bool)rTraitCollection: /* Error: Ran out of types for this method. */;
-- (void)eared;
-- (void)OriginalReorderingIndexPaths:(_Bool)arg1 targetIndexPaths: /* Error: Ran out of types for this method. */;
-- (void)ontentWidth: /* Error: Ran out of types for this method. */;
-- (void)eyboardEventsToScroll;
+- (void)zoomWithSourceViewProvider:(id)arg1;
+- (_Bool)updateUIClientSettingsWithTransitionBlock:(id)arg1;
+- (_Bool)updateRangedMagnifierAtPoint: /* Error: Ran out of types for this method. */;
+- (_Bool)resolvedAppearanceForStyleName:styleConfiguration: /* Error: Ran out of types for this method. */;
+- (void)owningViewInterfaceLayoutDirection;
+- (unsigned long long)lensView;
+- (double)editMenuInteraction:willDismissMenuForConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateRevealContainerViewForSourceRect:(id)arg1;
+- (id)_setUserInterfaceIdiom:(id)arg1;
+- (void)_pressesForPhase:(_Bool)arg1;
+- (_Bool)_percentageFontSizeForTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)_isAppearingOrAppeared;
+- (void)_getOriginalReorderingIndexPaths:(_Bool)arg1 targetIndexPaths: /* Error: Ran out of types for this method. */;
+- (void)_contentSizeCategoryForContentWidth: /* Error: Ran out of types for this method. */;
+- (void)_allowsKeyboardEventsToScroll;
 - (void);
-- (_Bool)sMemoji;
+- (_Bool)_supportsMemoji;
 - (id)_setIsAncestorOfFirstResponder:(id)arg1;
 - (void);
-- (void)eItemsInvalidationHandler;
-- (_Bool)rgetPosition;
+- (void)visibleItemsInvalidationHandler;
+- (_Bool)_targetPosition;
 - (id)erToUINibMap;
-- (_Bool)ectionTableIndexOverlaySelectionView;
+- (_Bool)_UICollectionTableIndexOverlaySelectionView;
 - (void)D;
 - (id)dt;
 - (id)E,F;
@@ -195,7 +129,7 @@
 - (void)ater than zero or UITableViewAutomaticDimension.;
 - (void);
 - (_Bool)ëá?;
-- (_Bool)AncestorSheetIDs;
+- (_Bool)DescendantHiddenAncestorSheetIDs;
 - (void);
 - (struct CAPoint3D)pW_;
 - (void)Òÿe;
@@ -212,34 +146,6 @@
 - (double)#Ü(l;
 
 // Remaining properties
-@property(nonatomic, getter=_isContextualSharingAllowed, setter=_setContextualSharingAllowed:) _Bool _contextualSharingAllowed;
-@property(nonatomic, getter=_additionalTouchesCancelLift, setter=_setAdditionalTouchesCancelLift:) _Bool additionalTouchesCancelLift; // @synthesize additionalTouchesCancelLift=_additionalTouchesCancelLift;
-@property(copy, nonatomic, getter=_allowedTouchTypes, setter=_setAllowedTouchTypes:) NSArray *allowedTouchTypes; // @synthesize allowedTouchTypes=_allowedTouchTypes;
-@property(nonatomic, getter=_allowsMultipleSessions, setter=_setAllowsMultipleSessions:) _Bool allowsMultipleSessions; // @synthesize allowsMultipleSessions=_allowsMultipleSessions;
-@property(nonatomic, getter=_allowsPointerDragBeforeLiftDelay, setter=_setAllowsPointerDragBeforeLiftDelay:) _Bool allowsPointerDragBeforeLiftDelay; // @synthesize allowsPointerDragBeforeLiftDelay=_allowsPointerDragBeforeLiftDelay;
-@property(nonatomic) _Bool allowsSimultaneousRecognitionDuringLift; // @synthesize allowsSimultaneousRecognitionDuringLift=_allowsSimultaneousRecognitionDuringLift;
-@property(nonatomic, getter=_automaticallyAddsFailureRelationships, setter=_setAutomaticallyAddsFailureRelationships:) _Bool automaticallyAddsFailureRelationships; // @synthesize automaticallyAddsFailureRelationships=_automaticallyAddsFailureRelationships;
-@property(nonatomic, getter=_cancellationDelay, setter=_setCancellationDelay:) double cancellationDelay; // @synthesize cancellationDelay=_cancellationDelay;
-@property(nonatomic, getter=_isCancellationTimerEnabled, setter=_setCancellationTimerEnabled:) _Bool cancellationTimerEnabled; // @synthesize cancellationTimerEnabled=_cancellationTimerEnabled;
-@property(nonatomic, getter=_competingLongPressDelay, setter=_setCompetingLongPressDelay:) double competingLongPressDelay; // @synthesize competingLongPressDelay=_competingLongPressDelay;
-@property(nonatomic, getter=_competingLongPressOnLift, setter=_setCompetingLongPressOnLift:) _Bool competingLongPressOnLift; // @synthesize competingLongPressOnLift=_competingLongPressOnLift;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <UIDragInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic, getter=_initiationDrivers, setter=_setInitiationDrivers:) NSSet *initiationDrivers; // @synthesize initiationDrivers=_initiationDrivers;
-@property(retain, nonatomic) id <UIDragInteractionEffect> interactionEffect; // @synthesize interactionEffect=_interactionEffect;
-@property(readonly, nonatomic, getter=_isActive) _Bool isActive;
-@property(nonatomic, getter=_liftDelay, setter=_setLiftDelay:) double liftDelay; // @synthesize liftDelay=_liftDelay;
-@property(nonatomic, getter=_liftMoveHysteresis, setter=_setLiftMoveHysteresis:) double liftMoveHysteresis; // @synthesize liftMoveHysteresis=_liftMoveHysteresis;
-@property(nonatomic, getter=_pointerLiftDelay, setter=_setPointerLiftDelay:) double pointerLiftDelay; // @synthesize pointerLiftDelay=_pointerLiftDelay;
-@property(nonatomic, getter=_pointerLiftMoveHysteresis, setter=_setPointerLiftMoveHysteresis:) double pointerLiftMoveHysteresis; // @synthesize pointerLiftMoveHysteresis=_pointerLiftMoveHysteresis;
-@property(nonatomic, getter=_presentationDelegate, setter=_setPresentationDelegate:) __weak id <_UIDragInteractionPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

@@ -5,16 +5,14 @@
 //
 
 @class CKShare;
-@protocol UINSCloudSharingControllerDelegate, UINSWindow;
+@protocol UINSCloudSharingControllerDelegate;
 
 @protocol UINSCloudSharingController
-- (void)r;
+- (void)res:(id <UINSCloudSharingControllerDelegate>)arg1 %d dev:%d ino:%lld /* Error: Ran out of types for this method. */;
+- (void)resizeUpCursor;
 - (CKShare *)event:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long availablePermissions;
 @property(nonatomic) __weak id <UINSCloudSharingControllerDelegate> delegate;
-@property(readonly, nonatomic) CKShare *share;
-@property(nonatomic) __weak id <UINSWindow> window;
 @end
 

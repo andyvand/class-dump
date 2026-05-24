@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class LPLinkView, NSClickGestureRecognizer, SFLinkPresentationCardSection;
+@class NSClickGestureRecognizer;
 
 @interface SearchUILinkPresentationCardSectionView : SearchUICardSectionView
 {
     NSClickGestureRecognizer *_linkPresentationTapped;
-    LPLinkView *_linkView;
 }
 
 + (_Bool);
@@ -20,16 +19,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)setOverrideAllowOpeningSensitiveURLs: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSClickGestureRecognizer *linkPresentationTapped; // @synthesize linkPresentationTapped=_linkPresentationTapped;
-@property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(retain, nonatomic) SFLinkPresentationCardSection *section; // @dynamic section;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCConfigHyperlinkText
 {
     NSString *_text;
-    NSArray *_links;
 }
 
 - (id);
-- (id);
+- (id)tionBarHidden;
 - (id);
 - (void)aController.m;
 - (id)øvuk8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *links; // @synthesize links=_links;
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

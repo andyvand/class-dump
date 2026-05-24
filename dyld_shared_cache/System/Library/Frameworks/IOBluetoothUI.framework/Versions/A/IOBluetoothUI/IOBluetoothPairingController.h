@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id)ort;
++ (id)abort;
 - (void);
 - (const struct IOBluetoothDeviceSearchAttributes *);
 - (id);
@@ -27,7 +27,7 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)session;
 - (void);
 
 @end

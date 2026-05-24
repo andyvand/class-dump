@@ -9,12 +9,6 @@
 @interface MediaPlaybackCore.JumpToTimeState : MediaPlaybackCore.State
 {
     id targetTime;
-    id metadata;
-    id initialLoadingShouldPlay;
-    id playbackDidStall;
-    id jumpToTimeInfo;
-    id suppressed;
-    id deferredPlayerEvent;
 }
 
 @end

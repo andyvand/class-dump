@@ -9,7 +9,6 @@
 @interface PXFeedbackManager
 {
     unsigned long long _feedbackCollectionType;
-    PXFeedbackCollector *_feedbackCollector;
 }
 
 + (id)Sgt;

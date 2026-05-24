@@ -9,8 +9,8 @@
 @protocol UICollectionViewDelegate
 
 @optional
-- (void)essColor;
-- (UITargetedPreview *)OffersEnabled;
+- (void)progressColor;
+- (UITargetedPreview *)configurableOffersEnabled;
 - (_Bool)0;
 - (UITargetedPreview *)	
 ;
@@ -26,15 +26,15 @@
 - (UITargetedPreview *);
 - (void);
 - (UIContextMenuConfiguration *)theme;
-- (void)outModelSelection;
-- (NSIndexPath *)ses;
+- (void)_layoutModelSelection;
+- (NSIndexPath *)AllCases;
 - (_Bool)
 ÿ;
 - (_Bool)÷vY;
 - (NSIndexPath *);
 - (void)­
 ;
-- (void)ItemTipTrait;
+- (void)FormatSourceItemTipTrait;
 - (void);
 - (_Bool)Ô|oþi
 2t·nþY

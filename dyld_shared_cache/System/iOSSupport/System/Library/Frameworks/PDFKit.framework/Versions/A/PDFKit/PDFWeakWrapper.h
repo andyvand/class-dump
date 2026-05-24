@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)ShaderKey, std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalShaderKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalShaderKey, std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, std::equal_to<(anonymous namespace)::PKMetalShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

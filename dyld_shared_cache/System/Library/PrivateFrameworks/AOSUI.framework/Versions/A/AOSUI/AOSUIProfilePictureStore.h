@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, CNContact, CNContactStore, NSImage;
+@class CNContact;
 
 @interface AOSUIProfilePictureStore
 {
     struct os_unfair_lock_s _profilePictureLock;
-    CNContactStore *_contactStore;
-    ACAccount *_account;
-    NSImage *_cachedImage;
-    struct CGRect _cachedImageCropRect;
-    NSImage *_croppedImage;
-    CNContact *_cachedContact;
 }
 
 + (id);
 + (id);
-+ (double);
++ (double);
 - (void);
-- (void);
+- (void)@ aE);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)km8_;
 - (id);
 - (id);
 - (struct CGRect);
@@ -50,10 +44,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CNContact *contact;
-@property(readonly, copy, nonatomic) NSImage *editorPicture;
-@property(readonly, nonatomic) struct CGRect imageCropRect;
-@property(readonly, copy, nonatomic) NSImage *profilePicture;
-@property(readonly, copy, nonatomic) NSImage *profilePictureDefaultDiameter;
 
 @end
 

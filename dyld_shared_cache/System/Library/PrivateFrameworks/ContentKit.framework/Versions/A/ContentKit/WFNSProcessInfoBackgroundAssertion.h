@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)/>;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;

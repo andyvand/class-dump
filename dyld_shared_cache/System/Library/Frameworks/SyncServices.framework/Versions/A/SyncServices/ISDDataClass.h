@@ -6,26 +6,19 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class ISDFileReference, NSMutableArray, NSString;
+@class NSString;
 
 @interface ISDDataClass : ISDDataObject
 {
     NSString *_name;
-    ISDFileReference *_bundleRef;
-    NSString *_uiHelperClassName;
-    NSString *_imagePath;
-    NSString *_appProviderIdentifier;
-    NSString *_category;
-    NSString *_longName;
-    NSMutableArray *_versionInfo;
 }
 
-+ (void)hange:forEntityName:remappedRecordIdentifier:formattedRecord:error:keepAwayFromServer: /* Error: Ran out of types for this method. */;
++ (void)applyChange:forEntityName:remappedRecordIdentifier:formattedRecord:error:keepAwayFromServer: /* Error: Ran out of types for this method. */;
 - (id);
 - (Class);
 - (id);
 - (void);
-- (void);
+- (void)87t@7e;
 - (void);
 - (void);
 - (_Bool);
@@ -42,12 +35,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)u;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);

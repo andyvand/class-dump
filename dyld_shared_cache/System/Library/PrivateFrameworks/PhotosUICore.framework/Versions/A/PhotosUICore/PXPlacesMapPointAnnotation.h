@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSString;
-@protocol PXPlacesMapAnnotationRenderer, PXPlacesMapSelectionHandler;
+@protocol PXPlacesMapAnnotationRenderer;
 
 @interface PXPlacesMapPointAnnotation
 {
     id <PXPlacesMapAnnotationRenderer> renderer;
-    id <PXPlacesMapSelectionHandler> selectionHandler;
-    NSOrderedSet *geotaggables;
-    long long index;
-    struct CLLocationCoordinate2D coordinate;
 }
 
 - (void);
@@ -21,36 +16,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)hyphenationMinimumCharactersBeforeWithValue:(id)arg1 withType: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CLLocationCoordinate2D)'°!TCù:ð1Â0@ù
 ×  /* Error: Ran out of types for this method. */;
-- (long long)State;
+- (long long)lockedState;
 - (id)äúÿÿÐÿÿÿ;
-- (void)vityNotifications;
+- (void)maxNumberOfAccountViewUnreadSharedAlbumsActivityNotifications;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSOrderedSet *geotaggables; // @synthesize geotaggables;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long index; // @synthesize index;
 @property __weak id <PXPlacesMapAnnotationRenderer> renderer; // @synthesize renderer;
-@property __weak id <PXPlacesMapSelectionHandler> selectionHandler; // @synthesize selectionHandler;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

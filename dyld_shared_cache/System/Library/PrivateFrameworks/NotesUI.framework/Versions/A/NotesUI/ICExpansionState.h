@@ -4,51 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectContext, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ICExpansionState
 {
     NSMutableDictionary *_expansionState;
-    NSManagedObjectContext *_modernViewContext;
-    NSManagedObjectContext *_legacyViewContext;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)g_;
 - (id);
 - (id);
-- (void)Scaling;
+- (void)_imageScaling;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *archiveDictionary;
 @property(retain, nonatomic) NSMutableDictionary *expansionState; // @synthesize expansionState=_expansionState;
-@property(retain, nonatomic) NSManagedObjectContext *legacyViewContext; // @synthesize legacyViewContext=_legacyViewContext;
-@property(retain, nonatomic) NSManagedObjectContext *modernViewContext; // @synthesize modernViewContext=_modernViewContext;
 
 @end
 

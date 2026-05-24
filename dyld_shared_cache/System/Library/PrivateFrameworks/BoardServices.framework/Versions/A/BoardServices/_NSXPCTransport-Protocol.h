@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_xpc_object;
+
 @protocol _NSXPCTransport
+- (void)a;
+- (void)eduplicated_symbol>;
+- (void)createVOXListItemWithDictionary:context: /* Error: Ran out of types for this method. */;
+- (NSObject<OS_xpc_object> *)setVoiceMailId:(NSObject<OS_xpc_object> *)arg1;
 - (unsigned int)ô;
 @end
 

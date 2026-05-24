@@ -19,9 +19,9 @@
 - (void)T°WþÿÿÿÿT;
 - (void);
 - (void);
-- (UITargetedDragPreview *)leted;
+- (UITargetedDragPreview *)isDeleted;
 - (void)lOÿ87;
-- (_Bool)Max;
+- (_Bool)iPhone11ProMax;
 - (_Bool)P;
 - (void)rþ;
 - (UITargetedDragPreview *)\Ã4#oþ4#oþ8Ìg;

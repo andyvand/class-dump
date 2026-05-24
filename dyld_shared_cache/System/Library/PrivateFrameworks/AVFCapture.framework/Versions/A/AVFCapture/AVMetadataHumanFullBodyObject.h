@@ -11,10 +11,10 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id),N,V_sourceImage;
+- (id)xtColorLight,V_tertiaryTextColorLight;
+- (id)N,GisSpatialRole,V_spatialRole;
+- (id)e;
 - (id);
 - (id);
 

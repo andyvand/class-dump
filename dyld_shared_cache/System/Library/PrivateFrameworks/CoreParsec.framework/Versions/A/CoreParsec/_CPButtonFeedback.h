@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPButtonFeedback
 {
     int _commandType;
-    NSString *_commandDetail;
-    unsigned long long _uniqueId;
-    unsigned long long _timestamp;
 }
 
-- (void);
-- (id);
+- (void)ontextMenuListenerProxy, Source = API:(id)arg1:Object] /* Error: Ran out of types for this method. */;
+- (id)WTF::HashTable<WTF::String, WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::WeakRef<API::ContentWorld>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::WeakRef<API::ContentWorld>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)`@9;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *commandDetail; // @synthesize commandDetail=_commandDetail;
-@property(nonatomic) int commandType; // @synthesize commandType=_commandType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

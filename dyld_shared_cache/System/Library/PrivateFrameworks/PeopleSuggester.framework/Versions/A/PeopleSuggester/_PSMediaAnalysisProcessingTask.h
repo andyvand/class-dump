@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MADPersonIdentificationRequest, NSDate, NSString, NSXPCConnection, _CDInteractionStore;
+@class NSXPCConnection;
 
 @interface _PSMediaAnalysisProcessingTask
 {
     NSXPCConnection *_connection;
-    _CDInteractionStore *_interactionStore;
-    MADPersonIdentificationRequest *_personIdentificationRequest;
-    NSDate *_bookmark;
-    NSString *_mediaAnalysisConfigurationPath;
 }
 
-+ (id)dHandle;
-- (id);
-- (_Bool);
-- (_Bool);
++ (id)suggestedHandle;
+- (id)_hasClientConversationMetadata;
+- (_Bool)_hasCitedText;
+- (_Bool)_hasCandidates;
+- (void)_fullPayloadCorrectionExperimentTier1;
+- (id)_conversionMetricType;
+- (void)_carplayTriggerMode;
+- (_Bool)_asrPostItnLinkId;
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)@;
 
 @end
 

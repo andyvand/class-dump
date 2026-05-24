@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraPowerAssertionHandler
 {
     unsigned int _powerAssertion;
-    NSMutableSet *_currentRequestHandlerSessionInfos;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
-+ (id);
++ (id)mpiled app predictor model;
 + (id)õÎÿ;
 - (void);
 - (id);
@@ -28,15 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *currentRequestHandlerSessionInfos; // @synthesize currentRequestHandlerSessionInfos=_currentRequestHandlerSessionInfos;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int powerAssertion; // @synthesize powerAssertion=_powerAssertion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

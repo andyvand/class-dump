@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 @interface FMFSynchronizer
 {
     _Bool _timeoutOccurred;
-    double _timeout;
-    NSObject<OS_dispatch_semaphore> *_sem;
-    NSString *_info;
 }
 
 - (void);
@@ -30,9 +24,6 @@
 - (id)queue>",&,N,V_connectionQueue;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *info; // @synthesize info=_info;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *sem; // @synthesize sem=_sem;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 @property(nonatomic) _Bool timeoutOccurred; // @synthesize timeoutOccurred=_timeoutOccurred;
 
 @end

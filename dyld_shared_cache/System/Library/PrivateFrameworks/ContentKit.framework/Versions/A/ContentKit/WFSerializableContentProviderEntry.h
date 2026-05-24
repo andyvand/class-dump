@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface WFSerializableContentProviderEntry
 {
     CDUnknownBlockType _serializationBlock;
-    CDUnknownBlockType _deserializationBlock;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType deserializationBlock; // @synthesize deserializationBlock=_deserializationBlock;
 @property(readonly, nonatomic) CDUnknownBlockType serializationBlock; // @synthesize serializationBlock=_serializationBlock;
 
 @end

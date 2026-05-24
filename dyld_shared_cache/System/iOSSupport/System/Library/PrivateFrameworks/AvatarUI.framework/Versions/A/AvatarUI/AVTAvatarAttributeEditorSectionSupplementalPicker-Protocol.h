@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *choices;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
 @end
 

@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, UIAction, UIBackgroundConfiguration, UIColor, UIMenu, UIView, UIViewController;
+@class UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UIDocumentUnavailableConfiguration
 {
     _Bool _enabled;
-    UIMenu *_primaryMenu;
-    UIMenu *_secondaryMenu;
-    NSArray *_pasteActionUTTypes;
-    NSURL *_documentURL;
-    unsigned long long _documentState;
-    NSString *_documentCreationIntent;
-    UIColor *_tintColor;
-    UIViewController *_browserViewController;
-    NSString *_title;
-    UIAction *_primaryAction;
-    UIAction *_secondaryAction;
-    UIView *_documentTargetView;
-    UIBackgroundConfiguration *_background;
-    UIView *_foregroundAccessoryView;
-    UIView *_backgroundAccessoryView;
 }
 
 - (void);
@@ -36,54 +21,39 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)8q16q24q32;
 - (void);
-- (void);
-- (void);
+- (void)systemProxySettingsFetcher:(id)arg1 retrievedAccount:password: /* Error: Ran out of types for this method. */;
+- (id)_itemIsEligibleForStorageControllerWithInput: /* Error: Ran out of types for this method. */;
+- (id)_applyTranscriptBackgroundChangesUsingSyncData: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)te for DeletedChatStore.;
+- (id)ith output URLs:%@ /* Error: Ran out of types for this method. */;
+- (id)to SMS Relay, However this device has requested to be enrolled before, Not allowing it to try again;
+- (id)ot able to create the subscription, we'll still try to write the exit record as we'll retry updating the subscription on imagent launch;
+- (unsigned long long)tDate:%@ /* Error: Ran out of types for this method. */;
+- (id)or could not init stickerInfoDictionary;
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool)!|AùY°1Â0@ù
 × ;
-- (_Bool)ons;
-- (void)vableItem;
+- (_Bool)sizeRestrictions;
+- (void)_isMovableItem;
 - (id)n;
 - (void)¬ ;
 - (id)¼zþÿ;
-- (id)ainment;
-- (id)rboseLoggingForStrictRepeatedPushAssertion;
+- (id)Entertainment;
+- (id)NavigationControllerVerboseLoggingForStrictRepeatedPushAssertion;
 - (void)\;
 - (void)C;
 - (_Bool);
 - (id)a;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *_documentCreationIntent; // @synthesize _documentCreationIntent;
-@property(nonatomic) unsigned long long _documentState; // @synthesize _documentState;
-@property(retain, nonatomic) NSURL *_documentURL; // @synthesize _documentURL;
-@property(nonatomic, getter=_isEnabled) _Bool _enabled; // @synthesize _enabled;
-@property(copy, nonatomic) NSArray *_pasteActionUTTypes; // @synthesize _pasteActionUTTypes;
-@property(copy, nonatomic) UIMenu *_primaryMenu; // @synthesize _primaryMenu;
-@property(copy, nonatomic) UIMenu *_secondaryMenu; // @synthesize _secondaryMenu;
-@property(retain, nonatomic) UIColor *_tintColor; // @synthesize _tintColor;
-@property(retain, nonatomic) UIBackgroundConfiguration *background; // @synthesize background=_background;
-@property(retain, nonatomic) UIView *backgroundAccessoryView; // @synthesize backgroundAccessoryView=_backgroundAccessoryView;
 @property(retain, nonatomic) UIViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
-@property(retain, nonatomic) UIView *documentTargetView; // @synthesize documentTargetView=_documentTargetView;
-@property(retain, nonatomic) UIView *foregroundAccessoryView; // @synthesize foregroundAccessoryView=_foregroundAccessoryView;
-@property(copy, nonatomic) UIAction *primaryAction; // @synthesize primaryAction=_primaryAction;
-@property(copy, nonatomic) UIAction *secondaryAction; // @synthesize secondaryAction=_secondaryAction;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

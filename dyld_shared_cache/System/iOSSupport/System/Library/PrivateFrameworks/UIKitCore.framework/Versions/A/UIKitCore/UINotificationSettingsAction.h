@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (id);
+- (id)S;
 - (id)0@ù
 × ;
-- (id)geViewAttributes;
-- (id)apterInfo;
+- (id)_updateImageViewAttributes;
+- (id)AdapterInfo;
 - (void)ÉÿÃå¹ðe;
 - (long long)ÿmÚøJh;
 

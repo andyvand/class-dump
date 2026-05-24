@@ -11,33 +11,25 @@
 @interface _UIMorphingView : UIView
 {
     _Bool _useOpacityPairFilter;
-    double _progress;
-    NSMutableOrderedSet *_contentViews;
-    UIView *_opacityPairSourceView;
-    struct CGRect _initialBounds;
 }
 
 - (_Bool);
-- (void);
+- (void)v40@0:(_Bool)arg1 8@"NSData"16@"NSString"24@"NSArray"32;
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
-- (id);
-- (void);
-- (id);
-- (void);
-- (double)ase;
+- (struct CGRect)translationLanguage;
+- (id)didReceiveMessageEditingUnsupportedHandleIDs:forMessageGUID:partIndex:previousMessage:backwardCompatibilityMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)encounteredIncompatibleMessage;
+- (id)king at name:%@ /* Error: Ran out of types for this method. */;
+- (void)nt deletion preference:(id)arg1 %{BOOL}d;
+- (double)Base;
 - (void)e is no next focused item, but updating focus to nil is not allowed.;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableOrderedSet *contentViews; // @synthesize contentViews=_contentViews;
-@property(nonatomic) struct CGRect initialBounds; // @synthesize initialBounds=_initialBounds;
-@property(nonatomic) __weak UIView *opacityPairSourceView; // @synthesize opacityPairSourceView=_opacityPairSourceView;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(nonatomic) _Bool useOpacityPairFilter; // @synthesize useOpacityPairFilter=_useOpacityPairFilter;
 
 @end
 

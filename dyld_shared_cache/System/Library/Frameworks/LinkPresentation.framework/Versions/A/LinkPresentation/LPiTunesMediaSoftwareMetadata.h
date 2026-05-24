@@ -6,21 +6,9 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, LPVideo, NSArray, NSString;
-
 @interface LPiTunesMediaSoftwareMetadata : LPSpecializationMetadata
 {
     _Bool _isMessagesOnlyApp;
-    NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_subtitle;
-    NSString *_genre;
-    NSString *_platform;
-    LPImage *_icon;
-    NSArray *_screenshots;
-    LPVideo *_previewVideo;
-    LPImage *_messagesAppIcon;
 }
 
 + (id);
@@ -44,7 +32,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id).CKManateeContainerTests.;
 - (id);
 - (unsigned long long);
 - (id);
@@ -53,33 +41,16 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)arrayWithObjects: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)tworkEvent;
 - (void);
 - (void);
 - (void);
 - (id)+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool isMessagesOnlyApp; // @synthesize isMessagesOnlyApp=_isMessagesOnlyApp;
-@property(retain, nonatomic) LPImage *messagesAppIcon; // @synthesize messagesAppIcon=_messagesAppIcon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) LPVideo *previewVideo; // @synthesize previewVideo=_previewVideo;
-@property(copy, nonatomic) NSArray *screenshots; // @synthesize screenshots=_screenshots;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 
 @end
 

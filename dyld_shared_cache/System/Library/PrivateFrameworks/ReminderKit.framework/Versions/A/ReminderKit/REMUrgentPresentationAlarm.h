@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ion error:(id)arg1 %@;
 - (void);
 - (id);
 - (void)±r ð1Â0@ù

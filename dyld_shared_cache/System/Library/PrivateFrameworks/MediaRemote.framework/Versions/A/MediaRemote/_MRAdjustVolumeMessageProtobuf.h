@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRRequestDetailsProtobuf;
-
 @interface _MRAdjustVolumeMessageProtobuf
 {
     int _adjustment;
-    _MRRequestDetailsProtobuf *_details;
-    NSString *_outputDeviceUID;
-    struct {
-        unsigned int adjustment:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)hu8h;
 - (int);
 - (int);
 - (_Bool);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)transitionToPasswordFailureForView:(id)arg1;
+- (id)mutablePlainString;
+- (_Bool)stBrandInfo;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ChangeExternally];
 - (void)Q,R;
 - (id)¬
  \ ä Ä·;
 - (void)e.MediaRemote.PlaybackQueue.serialQueue;
 
 // Remaining properties
-@property(nonatomic) int adjustment; // @synthesize adjustment=_adjustment;
-@property(retain, nonatomic) _MRRequestDetailsProtobuf *details; // @synthesize details=_details;
 @property(nonatomic) _Bool hasAdjustment;
-@property(readonly, nonatomic) _Bool hasDetails;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

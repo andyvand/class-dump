@@ -7,10 +7,9 @@
 @interface CTStewieSupport
 {
     _Bool _status;
-    _Bool _hwSupport;
 }
 
-+ (_Bool);
++ (_Bool)to the end time of the previous time range;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -18,12 +17,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)optionCallerIconBundlePath;
 - (id);
-- (_Bool);
+- (_Bool)A;
 
 // Remaining properties
-@property(nonatomic) _Bool hwSupport; // @synthesize hwSupport=_hwSupport;
 @property(nonatomic) _Bool status; // @synthesize status=_status;
 
 @end

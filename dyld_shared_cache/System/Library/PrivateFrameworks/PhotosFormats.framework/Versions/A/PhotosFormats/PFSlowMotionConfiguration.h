@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFSlowMotionRampConfiguration;
-
 @interface PFSlowMotionConfiguration
 {
     float _volumeDuringSlowMotion;
-    float _volumeDuringRampToSlowMotion;
-    PFSlowMotionRampConfiguration *_rampDown;
-    PFSlowMotionRampConfiguration *_rampUp;
 }
 
 - (float);
 - (float);
-- (id);
-- (id);
+- (id)System/Library/PrivateFrameworks/SpotlightIndex.framework/Versions/A/SpotlightIndex;
+- (id)works/Security.framework/Versions/A/Security;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) PFSlowMotionRampConfiguration *rampDown; // @synthesize rampDown=_rampDown;
-@property(readonly, retain, nonatomic) PFSlowMotionRampConfiguration *rampUp; // @synthesize rampUp=_rampUp;
-@property(readonly, nonatomic) float volumeDuringRampToSlowMotion; // @synthesize volumeDuringRampToSlowMotion=_volumeDuringRampToSlowMotion;
 @property(readonly, nonatomic) float volumeDuringSlowMotion; // @synthesize volumeDuringSlowMotion=_volumeDuringSlowMotion;
 
 @end

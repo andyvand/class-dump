@@ -7,7 +7,6 @@
 @interface AppKit.NSCoreSafeAreaHelper
 {
     id pendingSafeAreaInsets;
-    id lastParentSafeAreaInsets;
 }
 
 @end

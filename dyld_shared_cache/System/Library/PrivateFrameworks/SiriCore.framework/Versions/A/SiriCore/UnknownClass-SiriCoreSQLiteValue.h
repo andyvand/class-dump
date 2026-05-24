@@ -4,23 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (SiriCoreSQLiteValue)
-- (long long);
-- (id);
-- (id);
-- (id);
-- (const char *);
-- (id);
+- (long long)lags:%@
+	ConversationNotificationLevel:%ld
+	IsBlocked:%@
+	UnsubscribeType:%ld
+	Date:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (id)ssageItemID:%@ /* Error: Ran out of types for this method. */;
+- (id)rchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (id):%@
+	Mailboxes:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (const char *)Score:%@
+	UnsubscribeType:%ld
+	Date:%@
+	DisplayDate:%@
+	Mailboxes:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (id)gory:(_Bool)arg1 %@
+	BusinessLogoID:%@
+	IsVIP:%@
+	IsBlocked:%@
+	SearchResultType:%ld
+	SearchRelevanceScore:%@
+	UnsubscribeType:%ld
+	Date:%@
+	DisplayDate:%@
+	Mailboxes:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

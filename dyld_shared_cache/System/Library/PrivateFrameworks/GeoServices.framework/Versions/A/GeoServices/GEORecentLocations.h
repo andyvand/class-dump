@@ -11,7 +11,7 @@
     NSXPCConnection *_connection;
 }
 
-- (void);
+- (void)(;
 - (id);
 - (void)Ñ=ë-P@;
 

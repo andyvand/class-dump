@@ -5,6 +5,7 @@
 //
 
 @protocol MTLIntersectionFunctionTable
+- (void)zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCommon/source/IConfigurationManager_I.cpp;
 
 // Remaining properties
 @property(readonly) struct MTLResourceID gpuResourceID;

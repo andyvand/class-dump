@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSFileHandle;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIPreservedStateDirectory
 {
     NSArray *_publicWindowDictionaries;
-    NSFileHandle *_privateStateFileHandle;
 }
 
 + (_Bool)Ü¨\;
-- (_Bool);
+- (_Bool)ary/Frameworks/IOKit.framework/Versions/A/IOKit;
 - (id);
-- (id);
+- (id)psk_selection_block;
 - (void);
 - (_Bool);
 - (void)1ß3°1Â0@ù
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (id)ó¨D;
 
 // Remaining properties
-@property(readonly, copy) NSDate *modificationDate;
 @property(readonly, getter=isValid) _Bool valid;
 
 @end

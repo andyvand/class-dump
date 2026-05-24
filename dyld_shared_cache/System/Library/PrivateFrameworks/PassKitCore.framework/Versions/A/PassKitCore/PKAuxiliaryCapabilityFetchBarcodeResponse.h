@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)taticOverlayEmitter;
+- (void)staticOverlayEmitter;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *barcodes; // @synthesize barcodes=_barcodes;

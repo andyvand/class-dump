@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize)In;
+- (void)llerLiveTextProtocol>",R,N;
 
 @end
 

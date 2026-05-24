@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNFgBgE5MLInstanceSegmenterConfiguration, VNFgBgE5MLProcess;
+@class VNFgBgE5MLInstanceSegmenterConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface VNFgBgE5MLInstanceSegmenter
 {
     VNFgBgE5MLInstanceSegmenterConfiguration *_configuration;
-    VNFgBgE5MLProcess *_process;
 }
 
 + (id);
@@ -24,19 +23,18 @@ __attribute__((visibility("hidden")))
 - (struct ConnectedComponentResult);
 - (struct ConnectedComponentResult);
 - (struct ConnectedComponentResult);
-- (vector_179dff5a);
-- (vector_179dff5a);
+- (vector_ffe05210);
+- (vector_ffe05210);
 - (void);
 - (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (id)FPItemIsInPinnedFolder;
 - (void)orFaceId:faceId (%@) is not initialized /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) VNFgBgE5MLInstanceSegmenterConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) VNFgBgE5MLProcess *process; // @synthesize process=_process;
 
 @end
 

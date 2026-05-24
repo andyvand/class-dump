@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet, TSDCommandSelectionBehavior;
+
 @protocol TSDLayoutManipulatingTracker
+- (_Bool)MPCMusicSharePlayBehaviorError;
+- (_Bool)MPCQueueController;
+- (_Bool)able to open URL:' /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)indexPath:(NSSet *)arg1 %@;
+- (TSDCommandSelectionBehavior *)identifiers [modelKind.modelClass is not a subclass of MPModelObject] for identifiers:(NSSet *)arg1 %@;
+- (void);
 @end
 

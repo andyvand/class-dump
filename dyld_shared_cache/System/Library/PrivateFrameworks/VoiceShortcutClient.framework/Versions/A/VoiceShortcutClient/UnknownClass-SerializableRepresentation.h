@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SerializableRepresentation)
-- (id);
-- (id);
+- (id);
+- (id));
 @end
 

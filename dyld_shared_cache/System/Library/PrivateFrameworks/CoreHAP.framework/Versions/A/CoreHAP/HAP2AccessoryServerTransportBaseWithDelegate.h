@@ -6,8 +6,7 @@
 
 #import <CoreHAP/HAP2AccessoryServerTransportBase.h>
 
-@class NSString;
-@protocol HAP2AccessoryServerTransportCommon, HAP2AccessoryServerTransportDelegate;
+@protocol HAP2AccessoryServerTransportDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerTransportBaseWithDelegate : HAP2AccessoryServerTransportBase
@@ -18,20 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ndGETRequestToURL:timeout:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)sendGETRequestToURL:timeout:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <HAP2AccessoryServerTransportDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maxRequestTimeout;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransportCommon> underlyingTransport;
 
 @end
 

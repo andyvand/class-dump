@@ -4,49 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKFeatureManager, AKURLBag, AKURLSession;
 @protocol AKAccountManagerProtocol;
 
 @interface AKSimpleProfileManager
 {
     id <AKAccountManagerProtocol> _accountManager;
-    AKURLBag *_urlBag;
-    AKURLSession *_urlSession;
-    AKFeatureManager *_featureManager;
 }
 
 - (id);
 - (id);
+- (id)T;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)k;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
+- (id)(=;
 - (id);
-- (id);
-- (void);
+- (void)b;
 - (void)êDë
 hìîÄð4ñ;
 
 // Remaining properties
 @property(retain, nonatomic) id <AKAccountManagerProtocol> accountManager; // @synthesize accountManager=_accountManager;
-@property(retain, nonatomic) AKFeatureManager *featureManager; // @synthesize featureManager=_featureManager;
-@property(retain, nonatomic) AKURLBag *urlBag; // @synthesize urlBag=_urlBag;
-@property(retain, nonatomic) AKURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

@@ -13,7 +13,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport;
 - (void);
 - (id);
 

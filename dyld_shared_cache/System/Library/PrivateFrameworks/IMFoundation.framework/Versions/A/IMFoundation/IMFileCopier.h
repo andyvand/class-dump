@@ -4,66 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol IMFileCopierDelegate, OS_dispatch_queue;
-
 @interface IMFileCopier
 {
     _Bool _shouldCancel;
-    _Bool _didErrorOccur;
-    _Bool _inProgress;
-    id <IMFileCopierDelegate> _delegate;
-    NSURL *_inputURL;
-    NSURL *_outputURL;
-    id _identifier;
-    unsigned long long _operation;
-    void *_BOMCopier;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _callback;
 }
 
 - (void);
-- (id);
+- (id)8Q16Q24@32@?40;
+- (void)LocationsWithOptions:(void *)arg1 handler:] /* Error: Ran out of types for this method. */;
+- (id)_fetchPredominantMotionActivityTypeFromStartDate:toEndDate:withHandler:] /* Error: Ran out of types for this method. */;
+- (id)onActivityTypeFromStartDate:(id)arg1 toEndDate:(id)arg2 withHandler:(id)arg3 ];
+- (_Bool)tiesFromStartDate:endDate:handler:] /* Error: Ran out of types for this method. */;
+- (void)];
+- (id)ayManager setNoProgressTriggered:] /* Error: Ran out of types for this method. */;
+- (void)RTDefaultsSMTriggerDestinationMuteRouteDeviationTriggerWithinThresholdKey;
+- (void *)RTDefaultsSMTriggerDestinationAverageDrivingSpeedKey;
+- (void)RTDefaultsSMTriggerDestinationAverageWalkingSpeedKey;
+- (void);
+- (void);
 - (void);
 - (id);
+- (id)allowAutoCheckForNewerOverExpensive;
 - (id);
+- (void);
+- (void)%s %@, stream %@;
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)AudioSessionSetActiveImpl:flags: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
 - (unsigned long long);
 - (void))ð!EùñÖ,°1Â0@ù
 × ;
-- (void)ext:(unsigned long long)arg1 detectedProcess:triggerThresholdValues: /* Error: Ran out of types for this method. */;
+- (void)signatureWithDomain:(unsigned long long)arg1 type:subType:subtypeContext:detectedProcess:triggerThresholdValues: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property void *_BOMCopier; // @synthesize _BOMCopier;
-@property(copy) CDUnknownBlockType _callback; // @synthesize _callback;
-@property(retain) NSObject<OS_dispatch_queue> *_queue; // @synthesize _queue;
-@property id <IMFileCopierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool didErrorOccur; // @synthesize didErrorOccur=_didErrorOccur;
-@property(readonly, retain) id identifier; // @synthesize identifier=_identifier;
-@property _Bool inProgress; // @synthesize inProgress=_inProgress;
-@property(readonly, retain) NSURL *inputURL; // @synthesize inputURL=_inputURL;
-@property unsigned long long operation; // @synthesize operation=_operation;
-@property(readonly, retain) NSURL *outputURL; // @synthesize outputURL=_outputURL;
-@property(readonly, nonatomic) _Bool wasCancelled; // @synthesize wasCancelled=_shouldCancel;
 
 @end
 

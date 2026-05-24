@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)et in characteristicReference;
 - (void);
 
 // Remaining properties

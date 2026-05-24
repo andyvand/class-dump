@@ -14,8 +14,8 @@
 - (void);
 - (double);
 - (void);
-- (id);
-- (void)ontentsDidChangeFromSource: /* Error: Ran out of types for this method. */;
+- (id)applyLiveChangesToObject:(id)arg1;
+- (void)notifyContentsDidChangeFromSource: /* Error: Ran out of types for this method. */;
 
 @end
 

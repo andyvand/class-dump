@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSMutableSet, NSNumber, NSObject;
-@protocol CATIDSServiceConnectionDataAggregationDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CATIDSServiceConnectionDataAggregation
 {
     NSObject<OS_dispatch_queue> *mWorkQueue;
-    NSMutableDictionary *mDataSegmentsBySegmentNumber;
-    NSMutableSet *mPendingSegmentNumbers;
-    NSNumber *mStartingSequenceNumber;
-    NSNumber *mTotalSegments;
-    _Bool mPerformedInitialHydration;
-    id <CATIDSServiceConnectionDataAggregationDelegate> _delegate;
-    unsigned long long _dataNumber;
-    NSData *_totalData;
 }
 
 - (void);
@@ -28,19 +20,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(nonatomic) unsigned long long dataNumber; // @synthesize dataNumber=_dataNumber;
-@property(nonatomic) __weak id <CATIDSServiceConnectionDataAggregationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSData *totalData; // @synthesize totalData=_totalData;
 
 @end
 

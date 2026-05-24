@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFARepackagingExecutionFBFFailure, PFARepackagingExecutionSandboxError;
+@class PFARepackagingExecutionFBFFailure;
 
 @interface PFARepackagingExecutionFailure : SISchemaInstrumentationMessage
 {
     PFARepackagingExecutionFBFFailure *_fbfFailure;
-    PFARepackagingExecutionSandboxError *_sandboxError;
-    _Bool _hasFbfFailure;
-    _Bool _hasSandboxError;
-    unsigned long long _whichKind;
 }
 
 - (void);
@@ -30,24 +26,19 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)> Successfully deleted item at path:(id)arg1 %@  for transfer:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)hasOperationFailureReason;
+- (id)_hasOperationFailureReason;
 - (id)viceDigestReported;
-- (void)tion;
+- (void)minutesSinceLastActionDisambiguationForThisAction;
 
 // Remaining properties
 @property(retain, nonatomic) PFARepackagingExecutionFBFFailure *fbfFailure; // @synthesize fbfFailure=_fbfFailure;
-@property(nonatomic) _Bool hasFbfFailure; // @synthesize hasFbfFailure=_hasFbfFailure;
-@property(nonatomic) _Bool hasSandboxError; // @synthesize hasSandboxError=_hasSandboxError;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PFARepackagingExecutionSandboxError *sandboxError; // @synthesize sandboxError=_sandboxError;
-@property(readonly, nonatomic) unsigned long long whichKind; // @synthesize whichKind=_whichKind;
 
 @end
 

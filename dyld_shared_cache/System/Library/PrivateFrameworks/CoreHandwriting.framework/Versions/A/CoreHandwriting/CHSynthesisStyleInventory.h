@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSynthesisModelHashes, NSDate, NSMutableDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CHSynthesisStyleInventory
 {
     struct unique_ptr<CoreHandwriting::synthesis::fast_path::CHFastPathCharacterHolderMMap, std::default_delete<CoreHandwriting::synthesis::fast_path::CHFastPathCharacterHolderMMap>> _zhjaPrototypes;
-    struct unique_ptr<CoreHandwriting::synthesis::fast_path::CHFastPathCharacterHolderMMap, std::default_delete<CoreHandwriting::synthesis::fast_path::CHFastPathCharacterHolderMMap>> _koPrototypes;
-    _Bool _hasInventoryChanged;
-    CHSynthesisModelHashes *_synthesisModelHashes;
-    NSDate *_lastSavedDate;
-    NSMutableDictionary *_styles;
-    NSMutableDictionary *_sampleCountByCharacter;
-    NSURL *_inventoryStorageURL;
-    NSMutableDictionary *_fastPathCharacterStyles;
-    long long _characterInventoryVersion;
-    long long _currentSamplingTimestep;
-    double _characterStyleTimestamp;
-    NSObject<OS_dispatch_queue> *__workQueue;
-    CDUnknownBlockType _defaultStyleFastPathBlock;
-    NSMutableDictionary *_supportsPersonalization;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (long long);
@@ -41,13 +26,13 @@
 + (long long);
 + (long long);
 + (id);
-+ (long long);
++ (long long)JБ0;
 + (id);
-+ (id);
++ (id)JkJp;
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)_imageScalingUserScaled;
 - (void);
 - (void);
 - (void);
@@ -62,16 +47,16 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)S,;
 - (void);
 - (void);
 - (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)*;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -100,38 +85,39 @@
 - (id);
 - (CDUnknownBlockType);
 - (long long);
-- (id);
+- (id)
+q;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)Q;
 - (void);
-- (void);
-- (double);
+- (double)H;
 - (long long);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)8k!;
+- (void)i/8o;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)*;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)J-;
+- (void)udPhotoLibraryEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)x;
 - (id);
 - (id);
 - (id);
@@ -139,20 +125,7 @@
 - (void)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *_workQueue; // @synthesize _workQueue=__workQueue;
-@property(nonatomic) long long characterInventoryVersion; // @synthesize characterInventoryVersion=_characterInventoryVersion;
-@property(readonly, nonatomic) double characterStyleTimestamp; // @synthesize characterStyleTimestamp=_characterStyleTimestamp;
-@property(nonatomic) long long currentSamplingTimestep; // @synthesize currentSamplingTimestep=_currentSamplingTimestep;
-@property(readonly, nonatomic) CDUnknownBlockType defaultStyleFastPathBlock; // @synthesize defaultStyleFastPathBlock=_defaultStyleFastPathBlock;
-@property(retain, nonatomic) NSMutableDictionary *fastPathCharacterStyles; // @synthesize fastPathCharacterStyles=_fastPathCharacterStyles;
-@property(readonly, nonatomic) _Bool hasAllDigits;
-@property(nonatomic) _Bool hasInventoryChanged; // @synthesize hasInventoryChanged=_hasInventoryChanged;
-@property(readonly, nonatomic) NSURL *inventoryStorageURL; // @synthesize inventoryStorageURL=_inventoryStorageURL;
-@property(retain, nonatomic) NSDate *lastSavedDate; // @synthesize lastSavedDate=_lastSavedDate;
-@property(retain, nonatomic) NSMutableDictionary *sampleCountByCharacter; // @synthesize sampleCountByCharacter=_sampleCountByCharacter;
 @property(retain, nonatomic) NSMutableDictionary *styles; // @synthesize styles=_styles;
-@property(readonly, nonatomic) NSMutableDictionary *supportsPersonalization; // @synthesize supportsPersonalization=_supportsPersonalization;
-@property(retain, nonatomic) CHSynthesisModelHashes *synthesisModelHashes; // @synthesize synthesisModelHashes=_synthesisModelHashes;
 
 @end
 

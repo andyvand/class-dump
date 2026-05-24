@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CALNInMemoryNotificationStorage
 {
     NSMutableDictionary *_recordMap;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)?;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -27,15 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableDictionary *recordMap; // @synthesize recordMap=_recordMap;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

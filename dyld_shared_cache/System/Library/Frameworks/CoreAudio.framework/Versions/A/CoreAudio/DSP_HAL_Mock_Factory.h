@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DSP_HAL_Mock_PropertySet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DSP_HAL_Mock_Factory
 {
     int _featureFlag;
-    DSP_HAL_Mock_PropertySet *_libraryProperties;
 }
 
 - (void);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int featureFlag; // @synthesize featureFlag=_featureFlag;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) DSP_HAL_Mock_PropertySet *libraryProperties; // @synthesize libraryProperties=_libraryProperties;
-@property(readonly) Class superclass;
 
 @end
 

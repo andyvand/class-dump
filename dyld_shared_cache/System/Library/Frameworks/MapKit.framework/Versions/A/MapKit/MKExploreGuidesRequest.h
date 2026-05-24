@@ -4,47 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItemIdentifier, NSString;
 @protocol MKMapServiceExploreGuidesTicket;
 
 @interface MKExploreGuidesRequest
 {
     id <MKMapServiceExploreGuidesTicket> _ticket;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _loading;
-    _Bool _cancelled;
-    CDUnknownBlockType _completionHandler;
-    NSString *_airportCode;
-    NSString *_cityName;
-    MKMapItemIdentifier *_mapItemIdentifier;
-    unsigned long long _supportedPunchoutType;
-    struct CLLocationCoordinate2D _referenceLocation;
 }
 
-- (id);
-- (void);
+- (id)L;
+- (void)Z;
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (struct CLLocationCoordinate2D);
+- (id);
+- (void);
+- (struct CLLocationCoordinate2D)keyboard;
 - (void);
 - (_Bool)±*°1Â0@ù
 × ;
-- (void)ed;
+- (void)geoWaypointTyped;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *airportCode; // @synthesize airportCode=_airportCode;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) NSString *cityName; // @synthesize cityName=_cityName;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(retain, nonatomic) MKMapItemIdentifier *mapItemIdentifier; // @synthesize mapItemIdentifier=_mapItemIdentifier;
 @property(readonly, nonatomic) struct CLLocationCoordinate2D referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(readonly, nonatomic) unsigned long long supportedPunchoutType; // @synthesize supportedPunchoutType=_supportedPunchoutType;
 
 @end
 

@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSString;
+@class CDPContext;
 
 @interface CDPPiggybackingChannel
 {
     CDPContext *_context;
 }
 
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (void)_TtP6Safari26RWIInspectorActionDelegate_;
+- (unsigned long long)TabContentView;
+- (_Bool)NSAccessibilityButton;
+- (id)StartPageFeatureAvailabilityCollectionViewItem;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

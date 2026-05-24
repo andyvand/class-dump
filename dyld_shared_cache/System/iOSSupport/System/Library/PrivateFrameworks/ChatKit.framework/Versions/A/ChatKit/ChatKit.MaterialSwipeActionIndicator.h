@@ -9,18 +9,16 @@
 @interface ChatKit.MaterialSwipeActionIndicator : CKSwipeActionIndicator
 {
     id vibrancyStroke;
-    id materialView;
 }
 
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double blurRadius;
 @property(nonatomic, readonly) struct CGSize preferredSize;
 
 @end

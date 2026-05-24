@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RTStateTransitionOnePredEl
 {
     int _numOfTrans;
-    double _yield;
-    double _predResidualStart_s;
-    double _resUncStart_s;
-    double _predResidualStop_s;
-    double _resUncStop_s;
-    NSDate *_primaryStopDate;
-    double _latestTransTimeStart_s;
-    double _earliestTransTimeStart_s;
-    double _density;
-    unsigned long long _motionActivityType;
 }
 
 - (double);
@@ -38,26 +26,16 @@
 - (int);
 - (double);
 - (double);
-- (id);
+- (id)chicken;
 - (id);
 - (unsigned long long);
-- (void)lusterWithUUID:(unsigned long long)arg1 handler: /* Error: Ran out of types for this method. */;
+- (void)deleteTripClusterWithUUID:(unsigned long long)arg1 handler: /* Error: Ran out of types for this method. */;
 - (void)@, input predictedContextSources, %{sensitive}@;
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double density; // @synthesize density=_density;
-@property(nonatomic) double earliestTransTimeStart_s; // @synthesize earliestTransTimeStart_s=_earliestTransTimeStart_s;
-@property(nonatomic) double latestTransTimeStart_s; // @synthesize latestTransTimeStart_s=_latestTransTimeStart_s;
-@property(nonatomic) unsigned long long motionActivityType; // @synthesize motionActivityType=_motionActivityType;
 @property(nonatomic) int numOfTrans; // @synthesize numOfTrans=_numOfTrans;
-@property(nonatomic) double predResidualStart_s; // @synthesize predResidualStart_s=_predResidualStart_s;
-@property(nonatomic) double predResidualStop_s; // @synthesize predResidualStop_s=_predResidualStop_s;
-@property(retain, nonatomic) NSDate *primaryStopDate; // @synthesize primaryStopDate=_primaryStopDate;
-@property(nonatomic) double resUncStart_s; // @synthesize resUncStart_s=_resUncStart_s;
-@property(nonatomic) double resUncStop_s; // @synthesize resUncStop_s=_resUncStop_s;
-@property(nonatomic) double yield; // @synthesize yield=_yield;
 
 @end
 

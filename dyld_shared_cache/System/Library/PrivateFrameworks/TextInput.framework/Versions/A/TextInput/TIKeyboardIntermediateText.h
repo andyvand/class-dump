@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TIKeyboardIntermediateText
 {
     unsigned long long _selectionOffset;
-    NSString *_inputString;
-    NSString *_lastInputString;
-    NSString *_displayString;
-    long long _candidateOffset;
-    NSArray *_liveConversionSegments;
-    long long _highlightSegmentIndex;
-    NSString *_searchString;
 }
 
 + (id);
@@ -30,10 +23,10 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)predicateForUploadableAssetsWithCloudLocalStates: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)a;
 - (void);
 - (id);
 - (struct _NSRange)¯Í;
@@ -42,17 +35,10 @@
 ¨
 ;
 - (id)	Á	²	¾	;
-- (id)ril;
+- (id)april;
 
 // Remaining properties
-@property(readonly, nonatomic) long long candidateOffset; // @synthesize candidateOffset=_candidateOffset;
-@property(readonly, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(readonly, nonatomic) long long highlightSegmentIndex; // @synthesize highlightSegmentIndex=_highlightSegmentIndex;
 @property(readonly, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(readonly, nonatomic) NSString *lastInputString; // @synthesize lastInputString=_lastInputString;
-@property(readonly, nonatomic) NSArray *liveConversionSegments; // @synthesize liveConversionSegments=_liveConversionSegments;
-@property(readonly, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, nonatomic) struct _NSRange selectedRange;
 
 @end
 

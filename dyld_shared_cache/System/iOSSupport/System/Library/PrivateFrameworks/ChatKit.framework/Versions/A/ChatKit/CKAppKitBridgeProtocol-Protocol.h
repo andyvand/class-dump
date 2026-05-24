@@ -4,6 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CKAppKitBridgeProtocol
++ (void)rigin"24@"NSString"32@"NSString"40Q48Q56Q64Q72@?<v@?Q>80;
++ (void)d}}24;
++ (void)@"WKSecurityOrigin"24@"WKFrameInfo"32q40@?<v@?q>48;
++ (void)=QQ}36@52;
++ (void)0;
++ (void)int=dd}{CGSize=dd}}16{CGSize=dd}48;
++ (void)updateWebViewObscuredContentInsets;
++ (void)sortedArrayUsingComparator:(_Bool)arg1;
++ (_Bool)setDoneWidthConstraint:(NSString *)arg1;
++ (double)didIndex;
++ (void)containsRow: /* Error: Ran out of types for this method. */;
++ (void)containsOnlyStyle:inRange:inTextStorage: /* Error: Ran out of types for this method. */;
++ (NSString *)tionControllerDelegate>",W,N,V_collaborationControllerDelegate;
++ (void)nt is invalid;
+- (void)CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48;
+- (void)Items:(id)arg1 usingBlock:(unsigned long long)arg2;
+- (void)enumerateCellObjectsInCellSelectionContainingColumnIndices:(id)arg1 rowIndices:copyItems:usingBlock: /* Error: Ran out of types for this method. */;
 @end
 

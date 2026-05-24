@@ -7,6 +7,7 @@
 @class NSMutableIndexSet;
 
 @protocol ECFlagChangeMessageActionResultsBuilder
+- (NSMutableIndexSet *)ictureInPictureContentSourceTypeUnknown;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableIndexSet *completedUIDs;

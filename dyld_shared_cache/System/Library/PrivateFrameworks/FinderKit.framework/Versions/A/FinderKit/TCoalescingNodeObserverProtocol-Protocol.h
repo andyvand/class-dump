@@ -5,5 +5,10 @@
 //
 
 @protocol TCoalescingNodeObserverProtocol
+
+@optional
+- (void);
+- (void);
+- (void)q ;
 @end
 

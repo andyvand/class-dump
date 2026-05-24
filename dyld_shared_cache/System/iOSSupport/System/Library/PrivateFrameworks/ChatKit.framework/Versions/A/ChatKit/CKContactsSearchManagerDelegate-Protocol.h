@@ -5,6 +5,9 @@
 //
 
 @protocol CKContactsSearchManagerDelegate
+- (_Bool)@16@24B32{CGRect={CGPoint=dd}{CGSize=dd}}36B68;
+- (void)ndNotification:(_Bool)arg1;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldHideGroupsDonations;

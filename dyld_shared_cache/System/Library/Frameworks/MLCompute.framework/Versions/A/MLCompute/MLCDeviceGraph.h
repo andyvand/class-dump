@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCDevice, NSMutableArray, NSMutableSet;
+@class MLCDevice;
 
 @interface MLCDeviceGraph
 {
     MLCDevice *_device;
-    NSMutableArray *_graphLayerList;
-    NSMutableSet *_liveOutputs;
-    NSMutableSet *_liveInputs;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)MPSMatrixRowSwap;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MLCDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) NSMutableArray *graphLayerList; // @synthesize graphLayerList=_graphLayerList;
-@property(nonatomic) __weak NSMutableSet *liveInputs; // @synthesize liveInputs=_liveInputs;
-@property(nonatomic) __weak NSMutableSet *liveOutputs; // @synthesize liveOutputs=_liveOutputs;
 
 @end
 

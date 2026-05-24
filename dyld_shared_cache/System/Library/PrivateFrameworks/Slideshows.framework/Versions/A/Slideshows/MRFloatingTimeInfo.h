@@ -9,7 +9,6 @@
 @interface MRFloatingTimeInfo : MUPoolObject
 {
     double startTime;
-    double endTime;
 }
 
 + (CDStruct_32b7e343 *);

@@ -7,14 +7,13 @@
 @interface NewsFeed.DebugFormatCodeDisplayViewController
 {
     id loader;
-    id textView;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 

@@ -6,34 +6,15 @@
 
 #import <UIKitCore/_UIKeyboardUIInformation.h>
 
-@class NSString;
-
 @interface _UIKeyboardChangedInformation : _UIKeyboardUIInformation
 {
     _Bool _avoidIntersectability;
-    _Bool _multipleScenes;
-    _Bool _isOneness;
-    _Bool _automaticMinimizationEnabled;
-    _Bool _isFloating;
-    _Bool _shouldTakeSnapshot;
-    _Bool _shouldRestoreKeyboard;
-    int _hostProcessIdentifier;
-    int _processIdentifier;
-    NSString *_sourceSceneIdentityString;
-    NSString *_sourceDisplayIdentifier;
-    NSString *_sourceBundleIdentifier;
-    NSString *_hostBundleIdentifier;
-    double _keyboardIAVHeight;
-    NSString *_keyboardPreserveKey;
-    struct CGPoint _persistentOffset;
-    struct CGRect _keyboardPositionWithIAV;
-    struct CGRect _keyboardPositionWithRemoteIAV;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id)ÔAð!FùÑZÐ1Â0@ù
 × ;
 + (_Bool)tion context:%@
@@ -43,18 +24,18 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)igned;
 - (id);
-- (double);
-- (void);
-- (id);
-- (int);
-- (void);
+- (double)";
 - (void);
 - (id);
-- (void);
+- (int)due to error:%@ /* Error: Ran out of types for this method. */;
+- (void)eferenceData failed to create fileReferenceData;
+- (void)nt",R,N;
+- (id)MPIdentifierSetRadioStationEventID;
+- (void),	;
 - (_Bool);
 - (void)Ñ_1Â0@ù
 × ;
@@ -63,13 +44,13 @@
 - (id)@ù
 × ;
 - (void)te>";
-- (void)lag:(_Bool)arg1;
-- (void)rowth:(id)arg1;
-- (void)ingMode;
-- (void);
-- (id)stopDictationButton;
-- (_Bool);
-- (_Bool)tAnimation;
+- (void)setStatusBarHidden:(_Bool)arg1 animationParameters:changeApplicationFlag: /* Error: Ran out of types for this method. */;
+- (void)setFullBleedCenteredGrowth:(id)arg1;
+- (void)resizingMode;
+- (void)overrideDragWindowToPoint:(id)arg1;
+- (id)_stopDictationButton;
+- (_Bool)_setPosition:forItem: /* Error: Ran out of types for this method. */;
+- (_Bool)_contentScrollViewDidFinishContentOffsetAnimation;
 - (id)e;
 - (void)tring;
 - (id);
@@ -77,7 +58,7 @@
 - (_Bool)Ä;
 - (_Bool):%@ /* Error: Ran out of types for this method. */;
 - (int)(þÿ;
-- (struct CGRect)utBleedHeight;
+- (struct CGRect)inputBleedHeight;
 - (void);
 - (id)M[;
 - (id);
@@ -89,24 +70,7 @@
 - (void)`;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticMinimizationEnabled; // @synthesize automaticMinimizationEnabled=_automaticMinimizationEnabled;
-@property(nonatomic) _Bool avoidIntersectability; // @synthesize avoidIntersectability=_avoidIntersectability;
-@property(copy, nonatomic) NSString *hostBundleIdentifier; // @synthesize hostBundleIdentifier=_hostBundleIdentifier;
-@property(nonatomic) int hostProcessIdentifier; // @synthesize hostProcessIdentifier=_hostProcessIdentifier;
-@property _Bool isFloating; // @synthesize isFloating=_isFloating;
-@property(nonatomic) _Bool isOneness; // @synthesize isOneness=_isOneness;
-@property(readonly) double keyboardIAVHeight; // @synthesize keyboardIAVHeight=_keyboardIAVHeight;
 @property(readonly) struct CGRect keyboardPositionWithIAV; // @synthesize keyboardPositionWithIAV=_keyboardPositionWithIAV;
-@property struct CGRect keyboardPositionWithRemoteIAV; // @synthesize keyboardPositionWithRemoteIAV=_keyboardPositionWithRemoteIAV;
-@property(copy, nonatomic) NSString *keyboardPreserveKey; // @synthesize keyboardPreserveKey=_keyboardPreserveKey;
-@property(nonatomic) _Bool multipleScenes; // @synthesize multipleScenes=_multipleScenes;
-@property struct CGPoint persistentOffset; // @synthesize persistentOffset=_persistentOffset;
-@property(nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly) _Bool shouldRestoreKeyboard; // @synthesize shouldRestoreKeyboard=_shouldRestoreKeyboard;
-@property(nonatomic) _Bool shouldTakeSnapshot; // @synthesize shouldTakeSnapshot=_shouldTakeSnapshot;
-@property(copy, nonatomic) NSString *sourceBundleIdentifier; // @synthesize sourceBundleIdentifier=_sourceBundleIdentifier;
-@property(copy, nonatomic) NSString *sourceDisplayIdentifier; // @synthesize sourceDisplayIdentifier=_sourceDisplayIdentifier;
-@property(copy, nonatomic) NSString *sourceSceneIdentityString; // @synthesize sourceSceneIdentityString=_sourceSceneIdentityString;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PKPaymentOfferCapability
 {
     NSString *_fpanIdentifier;
-    NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSSet *_features;
-    NSString *_merchandisingIdentifier;
 }
 
 + (_Bool)áW"ð!¸Cùqî%Ð1Â0@ù
@@ -23,29 +19,25 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)%;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setIsTypingIndicator:(id)arg1;
+- (void);
+- (id)h(8ijh8	;
 - (id);
 - (id);
-- (id);
-- (id)yingBy:(id)arg1 withBehavior: /* Error: Ran out of types for this method. */;
+- (id)decimalNumberByMultiplyingBy:(id)arg1 withBehavior: /* Error: Ran out of types for this method. */;
 - (void)pdates;
 - (void)s;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *features; // @synthesize features=_features;
 @property(copy, nonatomic) NSString *fpanIdentifier; // @synthesize fpanIdentifier=_fpanIdentifier;
-@property(copy, nonatomic) NSString *merchandisingIdentifier; // @synthesize merchandisingIdentifier=_merchandisingIdentifier;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 
 @end
 

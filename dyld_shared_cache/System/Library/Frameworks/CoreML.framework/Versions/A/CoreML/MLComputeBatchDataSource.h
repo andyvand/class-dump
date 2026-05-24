@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLNeuralNetworkEngine;
 @protocol MLBatchProvider;
 
 @interface MLComputeBatchDataSource
 {
     _Bool _useForPrediction;
-    id <MLBatchProvider> _batchProvider;
-    MLNeuralNetworkEngine *_nnEngine;
-    unsigned long long _batchSize;
 }
 
-- (_Bool);
+- (_Bool)H;
 - (unsigned long long);
 - (id);
 - (id);
@@ -29,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <MLBatchProvider> batchProvider; // @synthesize batchProvider=_batchProvider;
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(readonly, nonatomic) MLNeuralNetworkEngine *nnEngine; // @synthesize nnEngine=_nnEngine;
-@property(readonly, nonatomic) _Bool useForPrediction; // @synthesize useForPrediction=_useForPrediction;
 
 @end
 

@@ -7,27 +7,23 @@
 @interface PKProtobufDeferredPaymentSummaryItem
 {
     double _deferredDate;
-    struct {
-        unsigned int deferredDate:1;
-    } _has;
 }
 
-- (void);
+- (void)V;
 - (void);
 - (double);
-- (_Bool);
-- (id);
+- (_Bool)";
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)"b1"ulVocoderBitRate"b1"vocoderSampleRate"b1"vocoderType"b1};
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double deferredDate; // @synthesize deferredDate=_deferredDate;
 @property(nonatomic) _Bool hasDeferredDate;
 
 @end

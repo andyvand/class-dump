@@ -7,8 +7,6 @@
 @interface FAXPCEventObserver
 {
     id stream;
-    id delegate;
-    id handlers;
 }
 
 - (id);

@@ -9,13 +9,9 @@
 @interface AWDWAAssociatedAPInfo
 {
     NSString *_deviceNameData;
-    NSString *_deviceNameElement;
-    NSString *_manufacturerElement;
-    NSString *_modelName;
-    NSString *_modelNumber;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -26,7 +22,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);
@@ -39,19 +35,10 @@
 - (id);
 - (void);
 - (id);
-- (id)MIndexType;
+- (id)cTLMIndexType;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceNameData; // @synthesize deviceNameData=_deviceNameData;
-@property(retain, nonatomic) NSString *deviceNameElement; // @synthesize deviceNameElement=_deviceNameElement;
-@property(readonly, nonatomic) _Bool hasDeviceNameData;
-@property(readonly, nonatomic) _Bool hasDeviceNameElement;
 @property(readonly, nonatomic) _Bool hasManufacturerElement;
-@property(readonly, nonatomic) _Bool hasModelName;
-@property(readonly, nonatomic) _Bool hasModelNumber;
-@property(retain, nonatomic) NSString *manufacturerElement; // @synthesize manufacturerElement=_manufacturerElement;
-@property(retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(retain, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
 
 @end
 

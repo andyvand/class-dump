@@ -16,12 +16,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-- (id);
++ (id)s;
+- (id)0;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)collectionView:draggingSession:endedAtPoint:dragOperation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *removable; // @synthesize removable=_removable;

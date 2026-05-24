@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MKFCameraAccessModeBulletinRegistration, MKFCameraReachabilityBulletinRegistration, MKFCameraSignificantEventBulletinRegistration;
+
 @protocol MKFHAPAccessoryPublicExtensions
+- (id <MKFCameraSignificantEventBulletinRegistration>)dy %@ messageID %{public}@;
+- (id <MKFCameraReachabilityBulletinRegistration>)roupSessionStorage clearing storage, %s;
+- (id <MKFCameraAccessModeBulletinRegistration>)stening to navigation;
 @end
 

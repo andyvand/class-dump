@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface ChatKit.CKDataDetectedLinkResult
 {
     struct _NSRange range;
-    void url;
 }
 
 - (id);
@@ -20,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) struct _NSRange range; // @synthesize range;
-@property(nonatomic, readonly) NSURL *url;
 
 @end
 

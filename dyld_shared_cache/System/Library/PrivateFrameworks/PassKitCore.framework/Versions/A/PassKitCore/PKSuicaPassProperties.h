@@ -9,12 +9,10 @@
 @interface PKSuicaPassProperties : PKTransitPassProperties
 {
     _Bool _balanceAllowedForCommute;
-    _Bool _lowBalanceGateNotificationEnabled;
-    _Bool _greenCarTicketUsed;
 }
 
 + (id);
-+ (Class);
++ (Class);
 
 @end
 

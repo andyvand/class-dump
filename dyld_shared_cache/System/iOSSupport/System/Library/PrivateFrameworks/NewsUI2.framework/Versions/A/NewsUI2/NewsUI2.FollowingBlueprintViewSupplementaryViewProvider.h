@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingBlueprintViewSupplementaryViewProvider
 {
     id followingHeaderViewRenderer;
-    id collapsibleStateManager;
 }
 
 @end

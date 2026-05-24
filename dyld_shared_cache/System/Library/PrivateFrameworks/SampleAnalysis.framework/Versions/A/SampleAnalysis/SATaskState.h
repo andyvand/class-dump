@@ -4,43 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, SATimestamp;
-
 @interface SATaskState
 {
     unsigned int _suspendCount;
-    unsigned int _faults;
-    unsigned int _pageins;
-    unsigned int _cowFaults;
-    unsigned int _latencyQos;
-    int _memoryLimitMB;
-    int _effectiveJetsamPriority;
-    int _requestedJetsamPriority;
-    int _assertionJetsamPriority;
-    SATimestamp *_startTimestamp;
-    SATimestamp *_endTimestamp;
-    unsigned long long _startSampleIndex;
-    unsigned long long _endSampleIndex;
-    unsigned long long _taskSizeInBytes;
-    unsigned long long _terminatedThreadsUserTimeInNs;
-    unsigned long long _terminatedThreadsSystemTimeInNs;
-    unsigned long long _terminatedThreadsInstructions;
-    unsigned long long _terminatedThreadsCycles;
-    NSSet *_donatingUniquePids;
-    unsigned long long _ssFlags;
-    unsigned long long _pagesGrabbedTotal;
-    unsigned long long _pagesGrabbedIOPLUPL;
-    unsigned long long _energyNJ;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)accessibilityMapSmartDescriptionDictionary;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)@;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
@@ -54,8 +30,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)%@;
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -72,14 +48,15 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)"NUAdjustmentSchema",R,N,V_schema;
+- (_Bool)te:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)c;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (void);
+- (void)`
+;
 - (int);
 - (id);
 - (id);
@@ -98,63 +75,7 @@
 ;
 
 // Remaining properties
-@property(readonly) int assertionJetsamPriority;
-@property(readonly) unsigned int cowFaults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSSet *donatingUniquePids;
-@property(readonly) int effectiveJetsamPriority;
-@property(readonly) unsigned long long endSampleIndex;
-@property(readonly) SATimestamp *endTimestamp;
-@property(readonly) unsigned long long energyNJ; // @synthesize energyNJ=_energyNJ;
-@property(readonly) unsigned int faults;
-@property(readonly) _Bool hasRunningBoardAssertion;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool isBoosted;
-@property(readonly) _Bool isDarwinBG;
-@property(readonly) _Bool isDarwinExtBG;
-@property(readonly) _Bool isDirty;
-@property(readonly) _Bool isForeground;
-@property(readonly) _Bool isFrozen;
-@property(readonly) _Bool isImpDonor;
-@property(readonly) _Bool isLiveImpDonor;
-@property(readonly) _Bool isNonVisible;
-@property(readonly) _Bool isPidSuspended;
-@property(readonly) _Bool isRunawayMitigated;
-@property(readonly) _Bool isRunningBoardActive;
-@property(readonly) _Bool isSuppressed;
-@property(readonly) _Bool isSuspended;
-@property(readonly) _Bool isTALEngaged;
-@property(readonly) _Bool isTaskResourceFlagged;
-@property(readonly) _Bool isTerminatedSnapshot;
-@property(readonly) _Bool isTimerThrottled;
-@property(readonly) _Bool isVisible;
-@property(readonly) unsigned int latencyQos;
-@property(readonly) int memoryLimitMB;
-@property(readonly) unsigned int pageins;
-@property(readonly) unsigned long long pagesGrabbedIOPLUPL; // @synthesize pagesGrabbedIOPLUPL=_pagesGrabbedIOPLUPL;
-@property(readonly) unsigned long long pagesGrabbedTotal; // @synthesize pagesGrabbedTotal=_pagesGrabbedTotal;
-@property(readonly) int requestedJetsamPriority;
-@property(readonly) unsigned long long ssFlags;
-@property(readonly) unsigned long long startSampleIndex;
-@property(readonly) SATimestamp *startTimestamp;
-@property(readonly) Class superclass;
-@property(readonly) unsigned int suspendCount;
-@property(readonly) unsigned long long taskSizeInBytes;
-@property(readonly) unsigned long long terminatedThreadsCpuTimeNs;
-@property(readonly) unsigned long long terminatedThreadsCycles;
-@property(readonly) unsigned long long terminatedThreadsInstructions;
-@property(readonly) unsigned long long terminatedThreadsSystemTimeInNs;
-@property(readonly) unsigned long long terminatedThreadsUserTimeInNs;
-@property(readonly) _Bool transitionIsTerminated;
-@property(readonly) unsigned long long transitionType;
-@property(readonly) _Bool wqExceededActiveConstrainedThreadLimit;
-@property(readonly) _Bool wqExceededConstrainedThreadLimit;
-@property(readonly) _Bool wqExceededCooperativeThreadLimit;
-@property(readonly) _Bool wqExceededTotalThreadLimit;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (id)pha:(id)arg1 epsilon:centered: /* Error: Ran out of types for this method. */;
+- (id)optimizerRMSPropWithDescriptor:(id)arg1 momentumScale:alpha:epsilon:centered: /* Error: Ran out of types for this method. */;
 
 @end
 

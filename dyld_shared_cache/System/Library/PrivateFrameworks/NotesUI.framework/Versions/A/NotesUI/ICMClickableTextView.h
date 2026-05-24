@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICPressableAttachmentAccessibilityElement, NSAttributedString;
 @protocol ICMClickableTextViewDelegate;
 
 @interface ICMClickableTextView
 {
     _Bool _isHighlighted;
-    id <ICMClickableTextViewDelegate> _clickDelegate;
-    NSAttributedString *_nonHighlightedClickableAttributedString;
-    NSAttributedString *_highlightedClickableAttributedString;
-    ICPressableAttachmentAccessibilityElement *_accessibilityLearnMoreProxyElement;
-    struct _NSRange _clickableRange;
 }
 
 - (void);
@@ -38,18 +32,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)aScriptMarkup: /* Error: Ran out of types for this method. */;
+- (void)_setAllowsJavaScriptMarkup: /* Error: Ran out of types for this method. */;
 - (_Bool)Í?;
 - (void)i;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ICPressableAttachmentAccessibilityElement *accessibilityLearnMoreProxyElement; // @synthesize accessibilityLearnMoreProxyElement=_accessibilityLearnMoreProxyElement;
 @property(nonatomic) __weak id <ICMClickableTextViewDelegate> clickDelegate; // @synthesize clickDelegate=_clickDelegate;
-@property(nonatomic) struct _NSRange clickableRange; // @synthesize clickableRange=_clickableRange;
-@property(retain, nonatomic) NSAttributedString *highlightedClickableAttributedString; // @synthesize highlightedClickableAttributedString=_highlightedClickableAttributedString;
-@property(nonatomic) _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
-@property(retain, nonatomic) NSAttributedString *nonHighlightedClickableAttributedString; // @synthesize nonHighlightedClickableAttributedString=_nonHighlightedClickableAttributedString;
 
 @end
 

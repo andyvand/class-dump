@@ -6,28 +6,23 @@
 
 #import <FMCoreLite/_FMObserverProxy.h>
 
-@class NSOperationQueue, NSString;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface _FMNotificationObserverProxy : _FMObserverProxy
 {
     id _notificationObserver;
-    NSOperationQueue *_observerQueue;
-    CDUnknownBlockType _observerBlock;
-    NSString *_notificationName;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)ifier;
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
-@property(readonly, copy, nonatomic) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
 @property(readonly, nonatomic) NSOperationQueue *observerQueue; // @synthesize observerQueue=_observerQueue;
 
 @end

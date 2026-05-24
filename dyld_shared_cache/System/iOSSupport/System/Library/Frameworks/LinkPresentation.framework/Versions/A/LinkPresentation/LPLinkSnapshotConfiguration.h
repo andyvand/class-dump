@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkRendererSizeClassParameters, UIColor, UITraitCollection;
+@class UITraitCollection;
 
 @interface LPLinkSnapshotConfiguration
 {
     _Bool _showDebugIndicators;
-    UITraitCollection *_traitCollection;
-    unsigned long long _preferredSizeClass;
-    LPLinkRendererSizeClassParameters *_sizeClassParameters;
-    double _scale;
-    UIColor *_overrideBackgroundColor;
-    struct CGSize _size;
-    struct CGSize _maximumSize;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)threadExecutionWidth;
+- (_Bool)thinkingDotOpacity;
+- (void)textStyleCommandsWithAction:(id)arg1 configureImages:configureAttributedTitles:selectedText: /* Error: Ran out of types for this method. */;
+- (void)textStyleCommandsWithAction:(_Bool)arg1 configureImages:configureAttributedTitles:activeTextStyles:selectedText: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)basicTextMessage_MessageType;
 - (double);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (struct CGSize);
 - (void)
@@ -39,13 +32,6 @@
 - (id)stalAddress",C,N,V_directionsDestinationAddressComponents;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;
-@property(retain, nonatomic) UIColor *overrideBackgroundColor; // @synthesize overrideBackgroundColor=_overrideBackgroundColor;
-@property(readonly, nonatomic) unsigned long long preferredSizeClass; // @synthesize preferredSizeClass=_preferredSizeClass;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool showDebugIndicators; // @synthesize showDebugIndicators=_showDebugIndicators;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(retain, nonatomic) LPLinkRendererSizeClassParameters *sizeClassParameters; // @synthesize sizeClassParameters=_sizeClassParameters;
 @property(readonly, retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end

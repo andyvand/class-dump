@@ -6,7 +6,6 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSString;
 @protocol SAAceSerializable;
 
 @interface SADialogConfiguration : SABaseAceObject
@@ -15,7 +14,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -24,15 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <SAAceSerializable> context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *gender;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *languageCode;
-@property(readonly) Class superclass;
 
 @end
 

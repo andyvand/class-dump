@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface AXElementVision__generated__Input
 {
     struct __CVBuffer *_image;
-    double _iouThreshold;
-    double _confidenceThreshold;
 }
 
-- (id);
-- (void);
+- (id)[|;
+- (void)o;
 - (void);
 - (double);
 - (double);
 - (void);
-- (struct __CVBuffer *);
-- (id);
-- (id)ions:(id)arg1;
+- (struct __CVBuffer *)ASDSoftwareUpdateMetrics";
+- (id)modificationDate;
+- (id)_initWithOptions:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) double confidenceThreshold; // @synthesize confidenceThreshold=_confidenceThreshold;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) struct __CVBuffer *image; // @synthesize image=_image;
-@property(nonatomic) double iouThreshold; // @synthesize iouThreshold=_iouThreshold;
 
 @end
 

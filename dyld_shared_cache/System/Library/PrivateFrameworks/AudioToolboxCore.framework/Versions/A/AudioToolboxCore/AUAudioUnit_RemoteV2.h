@@ -6,13 +6,10 @@
 
 #import <AudioToolboxCore/AUAudioUnit_XPC.h>
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface AUAudioUnit_RemoteV2 : AUAudioUnit_XPC
 {
     unique_ptr_2c7f7ead _service;
-    NSUUID *_auInstanceUUID;
 }
 
 - (_Bool);

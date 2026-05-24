@@ -7,25 +7,13 @@
 @interface MPSImageSIFTDescriptor
 {
     float _sigma;
-    unsigned long long _layersPerOctave;
-    unsigned long long _octaves;
-    _Bool _upscale;
-    float _contrastThreshold;
-    unsigned long long _edgeThreshold;
-    float _initialSigma;
-    unsigned long long _imageBoundary;
-    float _orientationRadius;
-    float _orientationWeight;
-    unsigned long long _orientationBins;
-    float _orientationThreshold;
-    unsigned long long _maximumKeyPoints;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H#;
 - (void);
 - (void);
 - (void);
@@ -39,7 +27,7 @@
 - (unsigned long long);
 - (float);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)#;
 - (float);
 - (unsigned long long);
 - (unsigned long long);
@@ -50,19 +38,7 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) float contrastThreshold; // @synthesize contrastThreshold=_contrastThreshold;
-@property(nonatomic) unsigned long long edgeThreshold; // @synthesize edgeThreshold=_edgeThreshold;
-@property(nonatomic) unsigned long long imageBoundary; // @synthesize imageBoundary=_imageBoundary;
-@property(nonatomic) float initialSigma; // @synthesize initialSigma=_initialSigma;
-@property(nonatomic) unsigned long long layersPerOctave; // @synthesize layersPerOctave=_layersPerOctave;
-@property(nonatomic) unsigned long long maximumKeyPoints; // @synthesize maximumKeyPoints=_maximumKeyPoints;
-@property(nonatomic) unsigned long long octaves; // @synthesize octaves=_octaves;
-@property(nonatomic) unsigned long long orientationBins; // @synthesize orientationBins=_orientationBins;
-@property(nonatomic) float orientationRadius; // @synthesize orientationRadius=_orientationRadius;
-@property(nonatomic) float orientationThreshold; // @synthesize orientationThreshold=_orientationThreshold;
-@property(nonatomic) float orientationWeight; // @synthesize orientationWeight=_orientationWeight;
 @property(nonatomic) float sigma; // @synthesize sigma=_sigma;
-@property(nonatomic) _Bool upscale; // @synthesize upscale=_upscale;
 
 @end
 

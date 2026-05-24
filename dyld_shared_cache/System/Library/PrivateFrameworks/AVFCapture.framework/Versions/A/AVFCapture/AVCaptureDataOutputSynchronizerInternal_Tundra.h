@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDataOutputSynchronizerInternal_Tundra
 {
     AVWeakReference *weakReferenceDelegate;
-    NSObject<OS_dispatch_queue> *clientQueue;
-    NSArray *dataOutputs;
 }
 
 @end

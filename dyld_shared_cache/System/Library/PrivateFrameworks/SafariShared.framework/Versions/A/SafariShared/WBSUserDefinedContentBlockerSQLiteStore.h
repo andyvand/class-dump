@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, WBSSQLiteDatabase;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface WBSUserDefinedContentBlockerSQLiteStore
 {
     NSURL *_databaseURL;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSSQLiteDatabase *_database;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -50,7 +47,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)ì;

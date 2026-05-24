@@ -9,22 +9,20 @@
 @interface DAECalendarDirectorySearchResult
 {
     NSString *_displayName;
-    NSString *_preferredAddress;
 }
 
-+ (_Bool);
++ (_Bool)n;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)NSt3__120__shared_ptr_emplaceIN4siri12dialogengine7ContextENS_9allocatorIS3_EEEE;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *preferredAddress; // @synthesize preferredAddress=_preferredAddress;
 
 @end
 

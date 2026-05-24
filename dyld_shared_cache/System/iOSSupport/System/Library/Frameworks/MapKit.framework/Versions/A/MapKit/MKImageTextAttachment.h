@@ -7,18 +7,16 @@
 @interface MKImageTextAttachment
 {
     double _verticalOffset;
-    double _maxHeight;
 }
 
 - (void);
-- (id);
+- (id);
 - (double);
 - (double);
 - (void);
 - (struct CGRect);
 
 // Remaining properties
-@property(nonatomic) double maxHeight; // @synthesize maxHeight=_maxHeight;
 @property(nonatomic) double verticalOffset; // @synthesize verticalOffset=_verticalOffset;
 
 @end

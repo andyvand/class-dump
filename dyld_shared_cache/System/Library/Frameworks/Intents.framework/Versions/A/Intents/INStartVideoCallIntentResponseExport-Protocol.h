@@ -5,10 +5,9 @@
 //
 
 @protocol INStartVideoCallIntentResponseExport
-- (long long)archResults:privateMediaIntentData: /* Error: Ran out of types for this method. */;
+- (long long)initWithAppSelectionEnabled:appInferred:audioSearchResults:privateMediaIntentData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property double timeToEstablishCall;
 @end
 

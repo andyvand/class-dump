@@ -7,18 +7,16 @@
 @interface ChatKit.CKSelectionViewController
 {
     id delegate;
-    id macToolbarController;
-    id $__lazy_storage_$_composeToolbarItem;
 }
 
 - (id);
+- (void)ic_sentenceRangeForRange:(id)arg1;
+- (void)hedResultsController",R,N,V_legacyNoteFetchedResultsController;
+- (void)alculateScrubberController;
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)u;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void)@"NSDictionary"8{_NSRange=QQ}16;
 
 @end

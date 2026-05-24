@@ -6,12 +6,9 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class NSArray;
-
 @interface RTWiFiManagerNotificationLinkStatusChanged : RTNotification
 {
     unsigned long long _linkStatus;
-    NSArray *_accessPoints;
 }
 
 - (id);
@@ -20,7 +17,6 @@
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;
 @property(readonly, nonatomic) unsigned long long linkStatus; // @synthesize linkStatus=_linkStatus;
 
 @end

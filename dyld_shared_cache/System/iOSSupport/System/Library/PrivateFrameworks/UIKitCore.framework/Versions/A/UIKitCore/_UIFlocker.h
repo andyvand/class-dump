@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UITargetedPreview, UIView, _UIDragBadge, _UIGroupCompletion;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIFlocker
 {
     _Bool _isFlocked;
-    unsigned long long _itemCount;
-    unsigned long long _badgeValue;
-    unsigned long long _settings;
-    UITargetedPreview *_primaryPlatterPreview;
-    NSArray *_secondaryPlatterViews;
-    CDUnknownBlockType _unflockPreviewProvider;
-    _UIGroupCompletion *_groupCompletion;
-    UIView *_containerView;
-    _UIDragBadge *_badge;
-    NSMutableArray *_ghostPortals;
 }
 
 - (void);
@@ -31,15 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (struct CGPoint);
-- (id);
-- (void);
-- (struct CGPoint);
+- (id)"16@"NSString"24@"NSString"32@"NSString"40C48;
+- (id)setRelayPushHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)isBIAWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
+- (id)autoReply;
+- (void)account:capabilitiesChanged: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)deleteSyncToken;
+- (id)de completed ok. :-D /* Error: Ran out of types for this method. */;
+- (void)me:(id)arg1 %@:removing this chat [%@] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)UserInfo;
 - (id);
 - (void);
 - (void);
@@ -51,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)á
 °!(@ùg°1Â0@ù
 × ;
-- (void)didateView;
+- (void)_alwaysRequireInlineCandidateView;
 - (unsigned long long)enter:didReceiveNotificationResponse:withCompletionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
 - (unsigned long long)teger);
 - (void)áÌÏ&\;
@@ -61,17 +51,7 @@ __attribute__((visibility("hidden")))
 - (id)q;
 
 // Remaining properties
-@property(retain, nonatomic) _UIDragBadge *badge; // @synthesize badge=_badge;
-@property(nonatomic) unsigned long long badgeValue; // @synthesize badgeValue=_badgeValue;
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) NSMutableArray *ghostPortals; // @synthesize ghostPortals=_ghostPortals;
-@property(retain, nonatomic) _UIGroupCompletion *groupCompletion; // @synthesize groupCompletion=_groupCompletion;
-@property(nonatomic) _Bool isFlocked; // @synthesize isFlocked=_isFlocked;
-@property(nonatomic) unsigned long long itemCount; // @synthesize itemCount=_itemCount;
-@property(retain, nonatomic) UITargetedPreview *primaryPlatterPreview; // @synthesize primaryPlatterPreview=_primaryPlatterPreview;
-@property(retain, nonatomic) NSArray *secondaryPlatterViews; // @synthesize secondaryPlatterViews=_secondaryPlatterViews;
-@property(nonatomic) unsigned long long settings; // @synthesize settings=_settings;
-@property(copy, nonatomic) CDUnknownBlockType unflockPreviewProvider; // @synthesize unflockPreviewProvider=_unflockPreviewProvider;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol WMClientWindowManagerDelegate
+
+@optional
+- (void);
 @end
 

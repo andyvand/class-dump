@@ -4,71 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKEditingManager, NSString;
-@protocol CUIKActionDelegate, CUIKCommitDelegate, CUIKDecisionDelegate, CUIKUndoDelegate;
+@class CUIKEditingManager;
+@protocol CUIKDecisionDelegate;
 
 @interface CUIKUndoableEditor
 {
     CUIKEditingManager *_editingManager;
-    id <CUIKDecisionDelegate> _decisionDelegate;
-    id <CUIKActionDelegate> _actionDelegate;
-    id <CUIKUndoDelegate> _undoDelegate;
-    id <CUIKCommitDelegate> _commitDelegate;
 }
 
-- (_Bool)ùáª+ÿ
-@ùé!*)@	«Æ=;
-- (void)àª®3;
-- (_Bool)ª® £Ñ.ëý¶QøWï7;
-- (_Bool)ª CÑ>ëýµRøu;
-- (void)T·øÃ;
-- (void)ª	Cøàª!;
-- (void)ªñª¼ðòÑ
-?×ñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (void)ù
-?×é;
-- (void)à,àRáªâªp±û;
-- (id)Ð10@ù
-?×é;
-- (_Bool)P$àRáªâª_¹ö;
-- (void)ÂqÝÒ0
-ÁÚâª?;
-- (void)ÿ ø u°;
-- (void)ð10@ù
-?×è;
-- (void);
-- (_Bool)	ªñÇåò0ÁÚ"@ùéªÚð10@ù
-?×é;
-- (void)ñªñGÁÚë@;
-- (void)ªõ;
-- (_Bool);
-- (_Bool)ûªöªùª÷ªø;
-- (_Bool)R;
-- (id)Ë©ø?;
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)*h;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void)CPLDisableWorkaroundFor101242629;
+- (void)@ (%@):(id)arg1 [DEFER] %@ %ld %@;
+- (void)ep"24@?0@"CPLEngineSyncManager"8@"CPLSyncSession"16;
+- (id)ying to get real cloudIdentifier while the library is not open;
+- (id)without finger print:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)SYSTEM_JAPAN_Tokyo_Wan_Ferry;
+- (void);
+- (_Bool);
+- (id)@9;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CUIKActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(nonatomic) __weak id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CUIKDecisionDelegate> decisionDelegate; // @synthesize decisionDelegate=_decisionDelegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <CUIKUndoDelegate> undoDelegate; // @synthesize undoDelegate=_undoDelegate;
 
 @end
 

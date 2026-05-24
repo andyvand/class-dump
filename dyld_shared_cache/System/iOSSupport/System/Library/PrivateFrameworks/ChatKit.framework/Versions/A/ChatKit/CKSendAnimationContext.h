@@ -4,63 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABackdropLayer, NSArray, NSString, UIImageView, UIView;
-
 @interface CKSendAnimationContext
 {
     _Bool _shouldRepeat;
-    _Bool _isSender;
-    _Bool _beginAnimationFromTranscriptPresentedState;
-    NSArray *_animatableViews;
-    NSArray *_animatableTextViews;
-    NSString *_impactIdentifier;
-    NSArray *_throwBalloonViews;
-    UIView *_containerView;
-    UIView *_behindGlassContainerView;
-    NSArray *_framesOfAddedChatItems;
-    CABackdropLayer *_backdropLayer;
-    NSArray *_messages;
-    NSArray *_throwBalloonViewAttributesCollection;
-    unsigned long long sendAnimationType;
-    UIImageView *audioRecordingPillViewSnapshot;
-    UIView *quickReplySnapshotView;
-    struct CGSize entryViewSize;
-    struct CGRect _quickReplySourceRect;
-    struct CGRect audioMessageSourceRect;
-    struct CGRect throwAnimationSourceRect;
 }
 
-- (id);
-- (id);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
+- (id)resetPasswordButton;
+- (id)resetNotesPasswordPressed: /* Error: Ran out of types for this method. */;
+- (struct CGRect)resetCustomPasswordConfirmationAlertWithAccount: /* Error: Ran out of types for this method. */;
+- (_Bool)isSharedRootObject;
+- (void)ic_shouldEnableBlockQuoteForAttachmentsOnlySelection;
+- (void)ic_shortParticipantName;
+- (void)ic_setParagraphStyleForWritingDirection:(struct CGRect)arg1 andAlignment: /* Error: Ran out of types for this method. */;
+- (void)ic_applicationHasKeyWindow;
+- (void)hasDivergedKey;
+- (void)hasDeepLink;
+- (void)defaultTitleForAttachmentType:(_Bool)arg1;
+- (void)createHashtagAttachmentIfApplicableWithHashtagText:(id)arg1 forHashtag:note:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)constraintGreaterThanOrEqualToConstant:(id)arg1;
+- (void)collaborationAnalyticsDelegate;
+- (void)allowsMentions;
+- (void)allowsDevicePasswordAuthentication;
+- (void)rocessingBlock:(id)arg1 completionBlock:fallbackBlock: /* Error: Ran out of types for this method. */;
+- (void)addOperationWithAttachment:(struct CGRect)arg1 size:scale:appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock: /* Error: Ran out of types for this method. */;
+- (void)accountSectionTypeForLegacyAccount:(id)arg1;
+- (void)accountName;
+- (unsigned long long)_showSelectorDelayer;
+- (struct CGRect)@"NSMutableSet",&,N,V_needsUpdateManagedObjectIDs;
+- (id)tManagedObjectIDs;
+- (id)noteSuggestionLimit;
+- (id)&: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (id);
-- (struct CGRect);
-- (id);
+- (id)o;
+- (struct CGRect)e;
+- (id)rsist thumbnail {key:%@, error:%s} /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -74,34 +53,7 @@
 - (id)¡¾jH(Æÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *animatableTextViews; // @synthesize animatableTextViews=_animatableTextViews;
-@property(copy, nonatomic) NSArray *animatableViews; // @synthesize animatableViews=_animatableViews;
-@property(nonatomic) struct CGRect audioMessageSourceRect; // @synthesize audioMessageSourceRect;
-@property(retain, nonatomic) UIImageView *audioRecordingPillViewSnapshot; // @synthesize audioRecordingPillViewSnapshot;
-@property(retain, nonatomic) CABackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;
-@property(nonatomic) _Bool beginAnimationFromTranscriptPresentedState; // @synthesize beginAnimationFromTranscriptPresentedState=_beginAnimationFromTranscriptPresentedState;
-@property(retain, nonatomic) UIView *behindGlassContainerView; // @synthesize behindGlassContainerView=_behindGlassContainerView;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize entryViewSize; // @synthesize entryViewSize;
-@property(copy, nonatomic) NSArray *framesOfAddedChatItems; // @synthesize framesOfAddedChatItems=_framesOfAddedChatItems;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *impactIdentifier; // @synthesize impactIdentifier=_impactIdentifier;
-@property(nonatomic) _Bool isSender; // @synthesize isSender=_isSender;
-@property(copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
-@property(retain, nonatomic) UIView *quickReplySnapshotView; // @synthesize quickReplySnapshotView;
-@property(nonatomic) struct CGRect quickReplySourceRect; // @synthesize quickReplySourceRect=_quickReplySourceRect;
 @property(nonatomic) unsigned long long sendAnimationType; // @synthesize sendAnimationType;
-@property(nonatomic) _Bool shouldRepeat; // @synthesize shouldRepeat=_shouldRepeat;
-@property(readonly, nonatomic) _Bool shouldUseQuickReplySourceRect;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect throwAnimationSourceRect; // @synthesize throwAnimationSourceRect;
-@property(copy, nonatomic) NSArray *throwBalloonViewAttributesCollection; // @synthesize throwBalloonViewAttributesCollection=_throwBalloonViewAttributesCollection;
-@property(copy, nonatomic) NSArray *throwBalloonViews; // @synthesize throwBalloonViews=_throwBalloonViews;
 
 @end
 

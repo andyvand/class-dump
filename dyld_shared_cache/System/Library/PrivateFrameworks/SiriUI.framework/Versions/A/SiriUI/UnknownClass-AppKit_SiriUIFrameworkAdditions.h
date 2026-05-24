@@ -6,7 +6,7 @@
 
 @interface UnknownClass (AppKit_SiriUIFrameworkAdditions)
 - (void);
-- (void);
-- (void)forItemsAtIndexPaths:(id)arg1;
+- (void)ions/A/AppIntents;
+- (void)collectionView:(id)arg1 draggingSession:willBeginAtPoint:forItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
 @end
 

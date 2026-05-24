@@ -6,36 +6,15 @@
 
 #import <Geode/DGSmartOperation.h>
 
-@class PASmartToneAutoSettings;
-
 @interface DGSmartToneOperation : DGSmartOperation
 {
     double _inputLight;
-    struct {
-        double exposure;
-        double contrast;
-        double brightness;
-        double shadows;
-        double highlights;
-        double black;
-        double rawHighlights;
-        double localLight;
-    } _smartSettings;
-    PASmartToneAutoSettings *_stats;
-    double _inputLocalLight;
-    double _offsetExposure;
-    double _offsetContrast;
-    double _offsetBrightness;
-    double _offsetShadows;
-    double _offsetHighlights;
-    double _offsetBlack;
-    double _offsetLocalLight;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -44,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (void);
 - (id);
 - (_Bool);
@@ -67,13 +46,13 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void)kPXFeedbackUserDislikedDetailViewReasonRelatedCollectionsMissing;
+- (void);
 - (double);
 - (void);
 - (double);
 - (unsigned long long);
-- (double);
+- (double)R;
 - (double);
 - (void);
 - (double);
@@ -90,23 +69,7 @@
 - (id)Fxó¿;
 
 // Remaining properties
-@property(nonatomic) double inputBlack;
-@property(nonatomic) double inputBrightness;
-@property(nonatomic) double inputContrast;
-@property(nonatomic) double inputExposure;
-@property(nonatomic) double inputHighlights;
 @property(nonatomic) double inputLight; // @synthesize inputLight=_inputLight;
-@property(nonatomic) double inputLocalLight;
-@property(readonly, nonatomic) double inputRawHighlights;
-@property(nonatomic) double inputShadows;
-@property(nonatomic) double offsetBlack; // @synthesize offsetBlack=_offsetBlack;
-@property(nonatomic) double offsetBrightness; // @synthesize offsetBrightness=_offsetBrightness;
-@property(nonatomic) double offsetContrast; // @synthesize offsetContrast=_offsetContrast;
-@property(nonatomic) double offsetExposure; // @synthesize offsetExposure=_offsetExposure;
-@property(nonatomic) double offsetHighlights; // @synthesize offsetHighlights=_offsetHighlights;
-@property(nonatomic) double offsetLocalLight; // @synthesize offsetLocalLight=_offsetLocalLight;
-@property(nonatomic) double offsetShadows; // @synthesize offsetShadows=_offsetShadows;
-@property(readonly, nonatomic) PASmartToneAutoSettings *statistics;
 
 @end
 

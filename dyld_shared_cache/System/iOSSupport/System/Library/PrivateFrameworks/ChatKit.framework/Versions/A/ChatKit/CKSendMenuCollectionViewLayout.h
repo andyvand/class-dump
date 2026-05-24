@@ -8,17 +8,14 @@ __attribute__((visibility("hidden")))
 @interface CKSendMenuCollectionViewLayout
 {
     id sendMenuLayoutDelegate;
-    id $__lazy_storage_$_dynamicAnimator;
-    id frozenCollectionViewContentSize;
-    id lastPanGestureRecognizerPositionInCollectionViewCoordinates;
 }
 
-- (void);
+- (void)postAlertForMovingLockedNotesToOtherAccountIsCopy:(struct CGRect)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
-- (struct CGSize)tSize;
+- (struct CGSize)updateContentSize;
 - (_Bool)î;
 - (id)¬¢;
 - (void);

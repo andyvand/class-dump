@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, UIScreen;
+@class NSMutableDictionary, UIScreen;
 
 __attribute__((visibility("hidden")))
 @interface UIKBGraphCache
@@ -22,16 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)Ã_×<jl;
 
 // Remaining properties
-@property(readonly) UIScreen *_intendedScreen;
-@property(readonly) NSDictionary *_options;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSMutableDictionary *graphCache; // @synthesize graphCache=_graphCache;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

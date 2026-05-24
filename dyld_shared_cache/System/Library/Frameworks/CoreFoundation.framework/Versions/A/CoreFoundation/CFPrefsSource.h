@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CFXPreferences, __CFPrefsWeakObservers;
+@class _CFXPreferences;
 
 __attribute__((visibility("hidden")))
 @interface CFPrefsSource
 {
     _CFXPreferences *_containingPreferences;
-    struct __CFDictionary *_dict;
-    __CFPrefsWeakObservers *_observers;
-    _Atomic long long _generationCount;
-    _Atomic _Atomic unsigned int *shmemEntry;
-    _Atomic unsigned int lastKnownShmemState;
-    struct os_unfair_lock_s _lock;
-    _Bool _isSearchList;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)H ;
 - (struct __CFString *);
 - (_Bool);
 - (long long);
@@ -32,22 +25,22 @@ __attribute__((visibility("hidden")))
 - (void)ðf¦~Ã¥³\AT¤|g¦`Nç;
 - (struct __CFArray *)Õyuo;
 - (void);
-- (void)tingsSearchIndexableDomainList;
-- (id)mportProgressReport;
+- (void)SUIASettingsSearchIndexableDomainList;
+- (id)FPImportProgressReport;
 - (struct __CFString *);
-- (id)ons;
+- (id)EMContentRequestOptions;
 - (void);
-- (_Bool)MapsTransactionInsight;
+- (_Bool)XPCMapsTransactionInsight;
 - (void);
 - (void);
 - (struct __CFDictionary *);
 - (void);
-- (void)eHUDPresentationRequest;
-- (void)ks;
+- (void)MRVolumeHUDPresentationRequest;
+- (void)CKFetchWebAuthTokenOperationCallbacks;
 - (_Bool);
 - (void *);
-- (id);
-- (void)SDiagnosticInformation;
+- (id)CTLazuliMessageID;
+- (void)CKPCSDiagnosticInformation;
 - (void *);
 - (int);
 - (id))J;

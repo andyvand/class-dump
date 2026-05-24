@@ -7,12 +7,9 @@
 @interface PencilKit.RendererKey__priv_45B1B8C2C17199CF2EF5F41F5CBE091B
 {
     id size;
-    id sixChannel;
-    id edr;
-    id transparentBlending;
 }
 
-- (id);
+- (id)0m3;
 - (long long);
 - (_Bool);
 - (id);

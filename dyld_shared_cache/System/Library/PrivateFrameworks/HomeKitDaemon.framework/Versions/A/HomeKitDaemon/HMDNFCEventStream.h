@@ -5,19 +5,16 @@
 //
 
 @class NSObject, NSString;
-@protocol HMDNFCEventStreamDelegate, OS_dispatch_queue, OS_xpc_object;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDNFCEventStream
 {
     NSString *_name;
-    id <HMDNFCEventStreamDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_xpc_object> *_event;
 }
 
 + (id)äB;
-- (id);
+- (id)ARefresh for %{private}@:(id)arg1 YES, no ETA updates sent at all yet;
 - (void);
 - (id);
 - (id);
@@ -30,16 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDNFCEventStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSObject<OS_xpc_object> *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

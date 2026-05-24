@@ -5,5 +5,6 @@
 //
 
 @protocol VCMediaRecorderDelegate
+- (void);
 @end
 

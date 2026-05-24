@@ -11,27 +11,23 @@
 @interface CEMNetworkContentCachingDeclaration_Ranges : CEMPayloadBase
 {
     NSString *_payloadType;
-    NSString *_payloadFirst;
-    NSString *_payloadLast;
 }
 
 + (id);
++ (id)/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer;
 + (id);
-+ (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (_Bool)ramework/Contents/MacOS/TextToSpeechVoiceBankingSupport;
+- (void);
+- (id);
+- (id)6;
+- (void)NULL-SHA;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadFirst; // @synthesize payloadFirst=_payloadFirst;
-@property(copy, nonatomic) NSString *payloadLast; // @synthesize payloadLast=_payloadLast;
 @property(copy, nonatomic) NSString *payloadType; // @synthesize payloadType=_payloadType;
 
 @end

@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRRemindersListInteractorSectionsCapability
 {
     id delegate;
-    id committer;
 }
 
 @end

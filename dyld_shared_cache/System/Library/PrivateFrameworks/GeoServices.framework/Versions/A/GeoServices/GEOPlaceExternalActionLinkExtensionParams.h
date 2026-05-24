@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDExtensionParams, NSMapTable;
+@class GEOPDExtensionParams;
 
 @interface GEOPlaceExternalActionLinkExtensionParams
 {
     GEOPDExtensionParams *_extensionParams;
-    NSMapTable *_attributionMap;
 }
 
 @end

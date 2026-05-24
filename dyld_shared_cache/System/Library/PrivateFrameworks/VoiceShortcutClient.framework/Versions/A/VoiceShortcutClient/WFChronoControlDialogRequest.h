@@ -6,12 +6,9 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class CHSControlIdentity;
-
 @interface WFChronoControlDialogRequest : WFDialogRequest
 {
     unsigned long long _controlType;
-    CHSControlIdentity *_controlIdentity;
 }
 
 + (_Bool);
@@ -19,12 +16,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)hannel"@"NSError">24;
 - (void)AU°!0Fùñ^Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CHSControlIdentity *controlIdentity; // @synthesize controlIdentity=_controlIdentity;
 @property(readonly, nonatomic) unsigned long long controlType; // @synthesize controlType=_controlType;
 
 @end

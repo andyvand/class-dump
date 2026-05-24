@@ -7,20 +7,6 @@
 @interface NewsUI2.MagazineFeedDataManager
 {
     id delegate;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedManager;
-    id feedPluginManager;
-    id accessQueue;
-    id lastRefreshDate;
-    id subscriptionService;
-    id historyService;
-    id puzzleStatsService;
-    id puzzleHistoryService;
-    id offlineManager;
-    id offlineFeedPrimer;
-    id offlineFeatures;
-    id _persistedConfigurationDate;
 }
 
 - (id);

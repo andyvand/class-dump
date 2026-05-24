@@ -6,37 +6,24 @@
 
 #import <AppKit/NSView.h>
 
-@class NSButton, NSCell, NSMutableArray, NSString;
-
 @interface NSFrameView : NSView
 {
     unsigned long long styleMask;
-    NSString *_title;
-    NSString *_subtitle;
-    NSCell *titleCell;
-    NSButton *closeButton;
-    NSButton *zoomButton;
-    NSButton *minimizeButton;
-    _Bool resizeByIncrement;
-    _Bool ___available_for_whatever;
-    unsigned char __unused_wasTabViewCount;
-    struct CGSize resizeParameter;
-    NSMutableArray *edgeResizingTrackingAreas;
 }
 
-+ (double);
-+ (struct CGSize);
-+ (struct CGSize);
++ (double)for this connection client!;
++ (struct CGSize)of transactions are %u;
++ (struct CGSize)nsaction count mismatch;
 + (void);
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect)"NSObject<OS_nw_error>"8;
 + (unsigned long long);
 + (id);
 + (_Bool)Aí/!X@ù±â3°1Â0@ù
 × ;
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -46,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)he with UUIDs from configuration %s;
 - (void);
 - (struct CGSize);
 - (id);
@@ -54,31 +41,31 @@
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGSize);
+- (id)weakObjectsHashTable;
+- (void)set_allowsVirtualInterfaces:(id)arg1;
+- (struct CGRect)dataFromTXTRecordDictionary:(struct CGRect)arg1;
+- (_Bool)credentialWithIdentity:certificates:persistence: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_adjustPriorityHint:(struct CGSRegionObject *)arg1 incremental: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_adjustPoolPriority;
+- (void)_obliterateAllBackgroundSessionsWithCompletionHandler:(struct CGRect)arg1;
+- (void)_isNonAppInitiated;
+- (struct CGRect)_finishCompletion;
+- (struct CGRect)addSecKeyProxy:(struct CGRect)arg1;
+- (id)OS_nw_endpoint>",&,N,V_hostOverride;
+- (double)_onqueue_postConnectConfiguration:parameters:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)le %s. Errno:%{errno}d /* Error: Ran out of types for this method. */;
+- (void)ound tasks:(id)arg1 %@. Valid schemes are http or https;
+- (void)c}@ StreamingZip Debug - init with resumeData OK.  Resume offset is %lld.;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)4;
+- (void)_kCFNTimingDataRemoteAddressAndPort;
+- (void)etion:(_Bool)arg1 ];
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -87,21 +74,21 @@
 - (id);
 - (void);
 - (double);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)GlyphAtIndex invalid glyph index %lu;
 - (void);
 - (void);
 - (id);
-- (void)ions:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)rname:(struct CGRect)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)filteredVelocity;
+- (void)setDesktopImageURL:(id)arg1 forScreen:options:error: /* Error: Ran out of types for this method. */;
+- (id)displayCompletionListRelativeToRect:(struct CGRect)arg1 ofView:matchingPartialUsername:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_filteredVelocity;
 - (struct CGRect)TVX[È[\\ P];
 - (void);
 - (id)ount > 0;

@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchCountryOccurrence
 {
     NSString *_alpha3CountryCode;
-    unsigned long long _occurrence;
-    struct {
-        unsigned int has_occurrence:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)ngVehicleSpecifications";
-- (id)fosModuleConfig;
+- (id)_placeInfosModuleConfig;
 - (id)ÔåÀæçè\éPê$ëìììàí´î¨ï|ðpñDò8óô;
 - (void);
 

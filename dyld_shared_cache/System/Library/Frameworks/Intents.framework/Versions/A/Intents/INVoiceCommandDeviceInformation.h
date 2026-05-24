@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface INVoiceCommandDeviceInformation
 {
     long long _deviceIdiom;
-    NSNumber *_isHomePodInUltimateMode;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)";
 - (long long);
-- (id);
+- (id)cureCoding>";
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setScanType:(id)arg1;
+- (void)n %lldms (schedule=%{public}@, index=%lu interval=(%{public}@));
 - (id);
 - (id);
 - (id)initWithEnableHeating:(unsigned long long)arg1 enableCooling:enableMassage:seat:level:relativeLevelSetting: /* Error: Ran out of types for this method. */;
@@ -29,15 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) long long deviceIdiom; // @synthesize deviceIdiom=_deviceIdiom;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *isHomePodInUltimateMode; // @synthesize isHomePodInUltimateMode=_isHomePodInUltimateMode;
-@property(readonly) Class superclass;
 
 @end
 

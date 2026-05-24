@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFDevice, FMLDevice, NSString;
+@class FMFDevice;
 
 @interface IMFindMyDevice
 {
     FMFDevice *_fmfDevice;
-    FMLDevice *_fmlDevice;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void)ÈÆ3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceName;
 @property(readonly, nonatomic) FMFDevice *fmfDevice; // @synthesize fmfDevice=_fmfDevice;
-@property(readonly, nonatomic) FMLDevice *fmlDevice; // @synthesize fmlDevice=_fmlDevice;
-@property(readonly, nonatomic) _Bool isThisDevice;
 
 @end
 

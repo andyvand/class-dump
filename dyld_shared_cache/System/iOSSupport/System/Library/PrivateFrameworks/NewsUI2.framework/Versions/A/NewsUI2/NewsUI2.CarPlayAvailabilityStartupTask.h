@@ -7,7 +7,6 @@
 @interface NewsUI2.CarPlayAvailabilityStartupTask
 {
     id featureAvailability;
-    id userDefaults;
 }
 
 @end

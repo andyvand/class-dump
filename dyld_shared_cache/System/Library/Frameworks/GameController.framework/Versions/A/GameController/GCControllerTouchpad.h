@@ -6,69 +6,47 @@
 
 #import <GameController/GCControllerElement.h>
 
-@class GCControllerButtonInput, GCControllerDirectionPad, NSString;
+@class GCControllerDirectionPad;
 
 @interface GCControllerTouchpad : GCControllerElement
 {
     float _touchpadRelativeWindowSize;
-    float _touchpadRelativeOriginBufferSize;
-    long long _touchState;
-    _Bool _leftBufferZone;
-    _Bool _beganTouchOutsideBounds;
-    float _previousButtonState;
-    struct CGPoint _absoluteWindowLocation;
-    struct CGPoint _absolutePosition;
-    struct CGPoint _absoluteTouchDownPosition;
-    struct CGPoint _relativePosition;
-    NSString *_descriptionName;
-    _Bool _reportsAbsoluteTouchSurfaceValues;
-    GCControllerButtonInput *_button;
-    CDUnknownBlockType _touchDown;
-    CDUnknownBlockType _touchMoved;
-    CDUnknownBlockType _touchUp;
-    GCControllerDirectionPad *_touchSurface;
 }
 
 - (id);
-- (long long);
+- (long long)+;
+- (CDUnknownBlockType)4;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (struct CGPoint);
 - (void);
+- (void)D;
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool),;
+- (struct CGPoint);
+- (_Bool);
 - (void);
-- (void);
-- (void);
+- (struct CGPoint);
+- (struct CGPoint);
+- (double)#;
+- (id);
+- (double);
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
-- (void);
 - (struct CGPoint);
-- (struct CGPoint);
-- (double);
-- (id);
-- (double);
-- (_Bool);
-- (struct CGPoint);
-- (_Bool);
-- (struct CGPoint);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)l;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)Reply: /* Error: Ran out of types for this method. */;
+- (id)arrayForKey:withReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) GCControllerButtonInput *button; // @synthesize button=_button;
-@property(nonatomic) _Bool reportsAbsoluteTouchSurfaceValues; // @synthesize reportsAbsoluteTouchSurfaceValues=_reportsAbsoluteTouchSurfaceValues;
-@property(copy, nonatomic) CDUnknownBlockType touchDown; // @synthesize touchDown=_touchDown;
-@property(copy, nonatomic) CDUnknownBlockType touchMoved; // @synthesize touchMoved=_touchMoved;
-@property(readonly, nonatomic) long long touchState; // @synthesize touchState=_touchState;
 @property(retain, nonatomic) GCControllerDirectionPad *touchSurface; // @synthesize touchSurface=_touchSurface;
-@property(copy, nonatomic) CDUnknownBlockType touchUp; // @synthesize touchUp=_touchUp;
 
 @end
 

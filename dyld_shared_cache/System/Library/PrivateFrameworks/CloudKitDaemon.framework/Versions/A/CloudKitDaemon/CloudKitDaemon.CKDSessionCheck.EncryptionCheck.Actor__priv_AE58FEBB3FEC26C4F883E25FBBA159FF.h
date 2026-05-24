@@ -7,16 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.EncryptionCheck.Actor__priv_AE58FEBB3FEC26C4F883E25FBBA159FF
 {
     id $defaultActor;
-    id sessionConfiguration;
-    id testDeviceReferenceProtocol;
-    id account;
-    id applicationID;
-    id readinessSink;
-    id keySyncRequest;
-    id keySyncRequestIdentityPublicKeyID;
-    id primaryServiceName;
-    id systemInteraction;
-    id identityActors;
 }
 
 @end

@@ -7,13 +7,6 @@
 @interface NewsSubscription.BundleSoftPaywallLayoutAttributesFactory
 {
     id styler;
-    id componentSizeProvider;
-    id smallMarginWidth;
-    id largeMarginWidth;
-    id smallSubscribeButtonSize;
-    id largeSubscribeButtonSize;
-    id smallButtonCapMarginWidth;
-    id largeButtonCapMarginWidth;
 }
 
 @end

@@ -11,20 +11,18 @@
 @interface AXVTitledHighlightView : AXVHighlightView
 {
     NSString *_titleText;
-    NSTextField *__titleTextField;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)(;
+- (id)isEqualToString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setTitleTextField:) NSTextField *_titleTextField; // @synthesize _titleTextField=__titleTextField;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

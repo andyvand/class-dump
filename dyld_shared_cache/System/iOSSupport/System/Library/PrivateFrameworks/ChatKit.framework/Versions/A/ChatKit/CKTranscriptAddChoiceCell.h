@@ -10,7 +10,7 @@
 {
 }
 
-- (double);
+- (double)sendPendingNotificationsAfterDelay:forNote: /* Error: Ran out of types for this method. */;
 
 @end
 

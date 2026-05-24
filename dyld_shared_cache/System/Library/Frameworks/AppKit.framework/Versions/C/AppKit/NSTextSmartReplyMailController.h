@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSString;
+@class NSEvent;
 
 __attribute__((visibility("hidden")))
 @interface NSTextSmartReplyMailController
@@ -19,19 +19,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGRect);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)kCFStreamPropertyFTPAttemptPersistentConnection;
+- (_Bool)J)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSEvent *lastHistoryEvent; // @synthesize lastHistoryEvent=_lastHistoryEvent;
-@property(readonly) Class superclass;
 
 @end
 

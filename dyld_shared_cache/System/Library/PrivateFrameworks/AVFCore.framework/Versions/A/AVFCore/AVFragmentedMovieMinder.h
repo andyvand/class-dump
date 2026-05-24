@@ -6,8 +6,6 @@
 
 #import <AVFCore/AVFragmentedAssetMinder.h>
 
-@class NSArray;
-
 @interface AVFragmentedMovieMinder : AVFragmentedAssetMinder
 {
 }
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) double mindingInterval;
-@property(readonly, nonatomic) NSArray *movies;
 
 @end
 

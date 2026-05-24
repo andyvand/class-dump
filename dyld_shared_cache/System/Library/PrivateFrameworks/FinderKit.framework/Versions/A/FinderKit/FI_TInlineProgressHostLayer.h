@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TInlineProgressHostLayer : FI_TInlineProgressBaseHostLayer
 {
     FI_TInlineCancelButtonLayer *_cancelLayer;
-    double _baselineOffset;
-    long long _userInterfaceLayoutDirection;
-    struct CGRect _iconFrame;
 }
 
 + (struct CGRect);
@@ -30,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGRect);
 - (void);
-- (_Bool);
+- (_Bool)positionAtStartOrEndOfWord;
 - (long long);
 - (void);
 - (id);
@@ -39,12 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)D3;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
 @property(nonatomic) _Bool canCancel;
-@property(readonly, nonatomic) struct CGRect cancelFrame;
-@property(nonatomic) _Bool cancelIsPressed;
-@property(readonly, nonatomic) struct CGRect iconFrame; // @synthesize iconFrame=_iconFrame;
-@property(nonatomic) long long userInterfaceLayoutDirection; // @synthesize userInterfaceLayoutDirection=_userInterfaceLayoutDirection;
 
 @end
 

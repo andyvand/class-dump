@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraGetSnapshotProtocol
+- (void)aa_lastName;
 @end
 

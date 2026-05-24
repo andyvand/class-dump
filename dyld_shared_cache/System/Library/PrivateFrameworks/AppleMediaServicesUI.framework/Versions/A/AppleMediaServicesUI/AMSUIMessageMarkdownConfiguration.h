@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont, NSParagraphStyle;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIMessageMarkdownConfiguration
 {
     NSColor *_color;
-    NSFont *_font;
-    NSParagraphStyle *_paragraphStyle;
-    NSColor *_strikeThroughColor;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)erlayLabel};
 - (id);
 - (void);
-- (void)thError: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)viewServiceDidTerminateWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSColor *color; // @synthesize color=_color;
-@property(retain) NSFont *font; // @synthesize font=_font;
-@property(retain) NSParagraphStyle *paragraphStyle; // @synthesize paragraphStyle=_paragraphStyle;
-@property(retain) NSColor *strikeThroughColor; // @synthesize strikeThroughColor=_strikeThroughColor;
 
 @end
 

@@ -4,42 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, RVItem, UIMenuElement;
-@protocol UINSMenu, UIRVPresenterHighlightDelegate;
+@class UIMenuElement;
 
 __attribute__((visibility("hidden")))
 @interface UINSMenuItem
 {
     _Bool _alternate;
-    _Bool _enabled;
-    _Bool _separatorItem;
-    _Bool _replacedBySubmenuItems;
-    _Bool _initialTargetWasNonNil;
-    UIMenuElement *_sourceUIMenuElement;
-    id _target;
-    NSString *_actionName;
-    NSString *_keyEquivalent;
-    unsigned long long _keyEquivalentModifiers;
-    long long _state;
-    long long _type;
-    NSDictionary *_properties;
-    NSDictionary *_validatedProperties;
-    id <UINSMenu> _submenu;
-    NSString *_title;
-    RVItem *_rvItem;
-    id <UIRVPresenterHighlightDelegate> _rvHighlighter;
-    id _initialTarget;
-    id <UINSMenu> _parentMenu;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -51,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)rt_soc_curr_dynamic_bin_2:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -61,45 +41,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
+- (void)setExpirationHandler:(id)arg1;
+- (void)H;
 - (void);
-- (void);
-- (void);
+- (long long)range.location >= 0;
 - (long long);
-- (long long);
 - (void);
 - (void);
-- (id);
+- (id)va;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(nonatomic, getter=isAlternate) _Bool alternate; // @synthesize alternate=_alternate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id initialTarget; // @synthesize initialTarget=_initialTarget;
-@property(readonly, nonatomic) _Bool initialTargetWasNonNil; // @synthesize initialTargetWasNonNil=_initialTargetWasNonNil;
-@property(copy, nonatomic) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
-@property(nonatomic) unsigned long long keyEquivalentModifiers; // @synthesize keyEquivalentModifiers=_keyEquivalentModifiers;
-@property(nonatomic) __weak id <UINSMenu> parentMenu; // @synthesize parentMenu=_parentMenu;
-@property(readonly, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(nonatomic, getter=isReplacedBySubmenuItems) _Bool replacedBySubmenuItems; // @synthesize replacedBySubmenuItems=_replacedBySubmenuItems;
-@property(retain, nonatomic) id <UIRVPresenterHighlightDelegate> rvHighlighter; // @synthesize rvHighlighter=_rvHighlighter;
-@property(retain, nonatomic) RVItem *rvItem; // @synthesize rvItem=_rvItem;
-@property(nonatomic, getter=isSeparatorItem) _Bool separatorItem; // @synthesize separatorItem=_separatorItem;
 @property(retain, nonatomic) UIMenuElement *sourceUIMenuElement; // @synthesize sourceUIMenuElement=_sourceUIMenuElement;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) id <UINSMenu> submenu; // @synthesize submenu=_submenu;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSDictionary *validatedProperties; // @synthesize validatedProperties=_validatedProperties;
 
 @end
 

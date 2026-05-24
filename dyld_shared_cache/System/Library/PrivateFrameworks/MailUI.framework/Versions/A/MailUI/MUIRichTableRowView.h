@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, NSTableView;
-@protocol MUIRichTableRowViewDelegate;
-
 @interface MUIRichTableRowView
 {
     _Bool _hideSeparator;
-    _Bool _shouldDrawSeparator;
-    NSTableView *_tableView;
-    id <MUIRichTableRowViewDelegate> _delegate;
-    unsigned long long _groupingStyle;
-    unsigned long long _priorityBorderStyle;
-    CALayer *_priorityBorderLayer;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)Jz!	;
 - (void);
 - (void);
 - (unsigned long long);
@@ -30,9 +21,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -40,34 +31,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)	;
+- (void);
+- (void)__objc_classname__TEXT;
 - (void);
 - (void);
+- (id)Tf,R;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)nderLeadingToSuperviewConstraint;
+- (void)senderLeadingToSuperviewConstraint;
 - (void)hç;
 - (id)ÿÿÿÿÿ*ÿÿ;
 - (id)u] Applying changes (%lu):%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MUIRichTableRowViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long groupingStyle; // @synthesize groupingStyle=_groupingStyle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideSeparator; // @synthesize hideSeparator=_hideSeparator;
-@property(retain, nonatomic) CALayer *priorityBorderLayer; // @synthesize priorityBorderLayer=_priorityBorderLayer;
-@property(nonatomic) unsigned long long priorityBorderStyle; // @synthesize priorityBorderStyle=_priorityBorderStyle;
 @property(nonatomic) _Bool shouldDrawSeparator; // @synthesize shouldDrawSeparator=_shouldDrawSeparator;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

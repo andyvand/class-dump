@@ -6,21 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface INFERENCESchemaINFERENCEDisambiguationPromptContext : SISchemaInstrumentationMessage
 {
     NSArray *_anonymizedEntitiesPresenteds;
-    NSString *_anonymizedEntitySelected;
-    _Bool _hasAnonymizedEntitySelected;
 }
 
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -29,20 +27,17 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)�;
 - (_Bool);
-- (_Bool);
+- (_Bool)0;
 - (id);
 - (id);
 - (id)pted;
-- (id)aNLXClientEventMetadata;
+- (id)NLXSchemaNLXClientEventMetadata;
 - (void)®Ùÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *anonymizedEntitiesPresenteds; // @synthesize anonymizedEntitiesPresenteds=_anonymizedEntitiesPresenteds;
-@property(copy, nonatomic) NSString *anonymizedEntitySelected; // @synthesize anonymizedEntitySelected=_anonymizedEntitySelected;
-@property(nonatomic) _Bool hasAnonymizedEntitySelected; // @synthesize hasAnonymizedEntitySelected=_hasAnonymizedEntitySelected;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

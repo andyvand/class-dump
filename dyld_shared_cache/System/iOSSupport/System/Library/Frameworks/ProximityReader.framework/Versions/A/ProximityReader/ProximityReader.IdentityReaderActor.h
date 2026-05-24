@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id connection;
-    id service;
 }
 
 @end

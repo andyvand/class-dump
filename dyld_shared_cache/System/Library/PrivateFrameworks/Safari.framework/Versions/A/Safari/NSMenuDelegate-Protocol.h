@@ -7,6 +7,8 @@
 @protocol NSMenuDelegate
 
 @optional
+- (long long);
+- (void)k";
 - (_Bool);
 @end
 

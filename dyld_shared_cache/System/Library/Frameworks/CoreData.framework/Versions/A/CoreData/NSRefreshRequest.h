@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSRefreshRequest : NSPersistentStoreRequest
 {
     NSSet *_refreshObjects;
-    unsigned int _refreshType;
 }
 
 - (void);

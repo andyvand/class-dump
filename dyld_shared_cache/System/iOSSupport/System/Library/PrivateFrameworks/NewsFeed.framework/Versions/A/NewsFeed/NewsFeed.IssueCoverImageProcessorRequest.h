@@ -7,11 +7,6 @@
 @interface NewsFeed.IssueCoverImageProcessorRequest
 {
     id cacheIdentifier;
-    id size;
-    id scale;
-    id corners;
-    id assetHandles;
-    id assetHandle;
 }
 
 @end

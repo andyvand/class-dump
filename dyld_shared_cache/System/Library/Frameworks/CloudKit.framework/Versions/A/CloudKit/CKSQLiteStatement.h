@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLite, NSError, NSMutableArray, NSString;
-
 @interface CKSQLiteStatement
 {
     _Bool _reset;
-    CKSQLite *_SQLite;
-    NSString *_SQL;
-    struct sqlite3_stmt *_handle;
-    NSError *_error;
-    NSMutableArray *_temporaryBoundObjects;
 }
 
 - (void);

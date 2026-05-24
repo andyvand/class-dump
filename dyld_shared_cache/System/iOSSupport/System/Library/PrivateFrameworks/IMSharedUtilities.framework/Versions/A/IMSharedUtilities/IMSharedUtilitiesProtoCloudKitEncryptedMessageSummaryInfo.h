@@ -9,7 +9,6 @@
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageSummaryInfo
 {
     NSData *_messageSummaryInfo;
-    NSData *_padding;
 }
 
 - (void);
@@ -26,14 +25,11 @@
 - (void);
 - (id);
 - (id);
-- (id)age;
+- (id)serviceLoginStatusMessage;
 - (void)disallowed by policy;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMessageSummaryInfo;
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(retain, nonatomic) NSData *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
 
 @end
 

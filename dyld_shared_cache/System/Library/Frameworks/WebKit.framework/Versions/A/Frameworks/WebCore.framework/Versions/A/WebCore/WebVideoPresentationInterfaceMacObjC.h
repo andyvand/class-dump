@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebVideoPresentationInterfaceMacObjC
 {
     struct CheckedPtr<WebCore::VideoPresentationInterfaceMac, WTF::RawPtrTraits<WebCore::VideoPresentationInterfaceMac>> _videoPresentationInterfaceMac;
-    struct CGSize _videoDimensions;
-    struct RetainPtr<PIPViewController> _pipViewController;
-    struct RetainPtr<NSViewController> _videoViewContainerController;
-    struct RetainPtr<WebVideoViewContainer> _videoViewContainer;
-    struct RetainPtr<WebAVPlayerLayer> _playerLayer;
-    int _pipState;
-    struct RetainPtr<NSWindow> _returningWindow;
-    struct CGRect _returningRect;
-    _Bool _playing;
-    _Bool _exitingToStandardFullscreen;
-    double _rate;
-    long long _timeControlStatus;
-    double _duration;
-    double _anchorTime;
-    double _elapsedTime;
-    _Bool _canSkipAd;
 }
 
 - (void);
@@ -38,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -49,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -84,21 +66,9 @@ cEiÀä]ðæºlùnK`½ùàWõç«cîðÝ}gáðÏTøðª¶ð×V÷
 hAKcÊã,èöbêìëütuâï±óëðÛoïçþ¤eøå5ðpÍàD/raèð³uìðûus®kébÞ¢bàn@ýIAæ@µÀüín¾åaàvÙtöìã:épLà§ècáäÝäëpV¦à/ÙgdieòåQÑfiliáo©ùa*,Æ5beaõð¥a®j^	eñ=àt­kiqe5Ãgî
 wering­æ>°opïìuznåðè±anåï<blïðçï$å
 j§|eÕëàX­ôÃouôÏdeòðÂá	`	ð)proððÌneçí­méìxÓinteractiva.canaìäìPìpÆ¾EõFÇì	cüm]?Øtarifnumíð /* Error: Ran out of types for this method. */;
-- (void)VTDolbyVisionDecoderCapability_SupportedProfiles;
+- (void)kVTDolbyVisionDecoderCapability_SupportedProfiles;
 
 // Remaining properties
-@property(nonatomic) _Bool canSkipAd; // @synthesize canSkipAd=_canSkipAd;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double estimatedElapsedTime;
-@property(nonatomic, getter=isExitingToStandardFullscreen) _Bool exitingToStandardFullscreen; // @synthesize exitingToStandardFullscreen=_exitingToStandardFullscreen;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isPlaybackStateEnabled) _Bool playbackStateEnabled;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(readonly) Class superclass;
 @property(nonatomic) struct CGSize videoDimensions; // @synthesize videoDimensions=_videoDimensions;
 
 @end

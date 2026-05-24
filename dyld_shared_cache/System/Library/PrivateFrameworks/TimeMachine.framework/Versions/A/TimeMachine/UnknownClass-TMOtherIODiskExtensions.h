@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface UnknownClass (TMOtherIODiskExtensions)
 + (id);
 - (id);
@@ -14,19 +12,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (struct TMCombinedStats);
+- (struct TMCombinedStats)#;
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -44,7 +42,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -80,14 +78,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSURL *tm_URLForRemounting;
-@property(readonly) _Bool tm_hasStickyExclusionExtendedAttribute;
-@property(readonly) _Bool tm_isAFP;
-@property(readonly) _Bool tm_isBackToMyMacURL;
-@property(readonly) _Bool tm_isHFSExtended;
-@property(readonly) _Bool tm_isNetworkReachable;
-@property(readonly) _Bool tm_isSMB;
 @property(readonly) _Bool tm_mayHaveExtendedAttributes;
-@property(readonly) NSURL *tm_noFollowURL;
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Seeding)
-- (void);
+- (void)BinaryOutcomeUseCaseV2>";
 @end
 

@@ -14,11 +14,11 @@
 + (id);
 + (void);
 - (_Bool);
-- (id);
+- (id)?0@"ABSPerson"8;
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)CKPhotosSearchController;
 
 @end
 

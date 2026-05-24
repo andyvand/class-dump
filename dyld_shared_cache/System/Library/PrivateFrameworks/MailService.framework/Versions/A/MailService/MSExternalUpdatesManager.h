@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue, NSPersistentStoreCoordinator;
+@class NSObject, NSPersistentStoreCoordinator;
 
 @interface MSExternalUpdatesManager
 {
     NSObject *_notificationsLock;
-    _Bool _registeredForNotifications;
-    _Bool _isMail;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSOperationQueue *_operationQueue;
 }
 
 + (id);
@@ -29,16 +25,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)*@9;
 - (id);
+- (id)Guard;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isMail; // @synthesize isMail=_isMail;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 @property(readonly, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
 
 @end

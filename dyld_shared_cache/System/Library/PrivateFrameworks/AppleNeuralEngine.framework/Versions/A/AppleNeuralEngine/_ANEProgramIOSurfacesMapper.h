@@ -9,8 +9,6 @@
 @interface _ANEProgramIOSurfacesMapper
 {
     _ANEDeviceController *_deviceController;
-    _ANEDeviceController *_controller;
-    unsigned long long _programHandle;
 }
 
 + (id);
@@ -21,18 +19,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)v40@0:8@"NSString"16@"NSString"24@"NSString"32 /* Error: Ran out of types for this method. */;
+- (void)_;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)drain_depth_p_0_00_at_charge_start_soc_curr_dynamic_bin_8;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _ANEDeviceController *controller; // @synthesize controller=_controller;
-@property(readonly, nonatomic) _ANEDeviceController *deviceController; // @synthesize deviceController=_deviceController;
-@property(readonly, nonatomic) unsigned long long programHandle; // @synthesize programHandle=_programHandle;
 
 @end
 

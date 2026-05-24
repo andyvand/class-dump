@@ -9,10 +9,10 @@
     id _wrappedObject;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 

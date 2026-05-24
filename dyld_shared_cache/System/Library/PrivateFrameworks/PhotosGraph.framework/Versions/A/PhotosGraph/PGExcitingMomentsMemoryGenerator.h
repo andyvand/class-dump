@@ -6,28 +6,21 @@
 
 #import <PhotosGraph/PGOverTimeMemoryGenerator.h>
 
-@class PGFeaturedTimePeriodMemoryConfiguration, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
-
 @interface PGExcitingMomentsMemoryGenerator : PGOverTimeMemoryGenerator
 {
     _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    _Bool _intersectRelevantAssetsForFeatures;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
 }
 
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (void)setLayoutHash:(_Bool)arg1;
+- (void)setIsPasswordField:(_Bool)arg1;
+- (_Bool)_isSystemMenuExtra;
+- (_Bool)_isPasswordField;
+- (id)_enumerateNonNilObserversOnDelegateQueueAndPerform:(id)arg1;
+- (id)cusedElementController;
+- (id)LibCall_ACMContextContainsCredentialTypeEx;
+- (unsigned long long)s.wifi.strength.4%@;
+- (unsigned long long)8@"AXKApplicationController"16@"AXKElementController"24;
 - (id);
 - (_Bool);
 - (id);

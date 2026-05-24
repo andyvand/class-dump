@@ -6,23 +6,19 @@
 
 #import <InternetAccounts/IAAccountSetupResult.h>
 
-@class NSError;
-
 @interface IAServerAccountSetupResult : IAAccountSetupResult
 {
     _Bool _isExistingAccount;
-    NSError *_setupError;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property _Bool isExistingAccount; // @synthesize isExistingAccount=_isExistingAccount;
-@property(retain) NSError *setupError; // @synthesize setupError=_setupError;
 
 @end
 

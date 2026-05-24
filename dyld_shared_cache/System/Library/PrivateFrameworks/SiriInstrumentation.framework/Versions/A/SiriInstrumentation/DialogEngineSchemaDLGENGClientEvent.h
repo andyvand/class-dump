@@ -6,56 +6,47 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class DialogEngineSchemaDLGENGClientEventMetadata, DialogEngineSchemaDLGENGNamedEntitiesUsed, NSData, SISchemaInstrumentationMessage;
+@class DialogEngineSchemaDLGENGClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface DialogEngineSchemaDLGENGClientEvent : SISchemaTopLevelUnionType
 {
     DialogEngineSchemaDLGENGClientEventMetadata *_eventMetadata;
-    DialogEngineSchemaDLGENGNamedEntitiesUsed *_DLGENGNamedEntitiesUsed;
-    _Bool _hasEventMetadata;
-    _Bool _hasDLGENGNamedEntitiesUsed;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
-- (unsigned long long);
+- (unsigned long long)ɾ;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)*	;
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
 - (id);
+- (id)ION_INVALID error.
+;
 - (int);
-- (id);
+- (id)NFLogGetLogger;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)romptType"b1};
-- (id)ectionDecisionMade;
-- (unsigned long long)HasSpeechStartPointDetected: /* Error: Ran out of types for this method. */;
-- (id)aReported;
+- (id)hasElectionDecisionMade;
+- (unsigned long long)setHasSpeechStartPointDetected: /* Error: Ran out of types for this method. */;
+- (id)PLUSSchemaPLUSContactSuggesterRequestMetadataReported;
 - (id)ÄÃ;
-- (int)tings;
+- (int)dataSharingSettings;
 - (void)@Ñ¸ÿy>²%;
 
 // Remaining properties
-@property(retain, nonatomic) DialogEngineSchemaDLGENGNamedEntitiesUsed *DLGENGNamedEntitiesUsed; // @synthesize DLGENGNamedEntitiesUsed=_DLGENGNamedEntitiesUsed;
-@property(retain, nonatomic) DialogEngineSchemaDLGENGClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasDLGENGNamedEntitiesUsed; // @synthesize hasDLGENGNamedEntitiesUsed=_hasDLGENGNamedEntitiesUsed;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

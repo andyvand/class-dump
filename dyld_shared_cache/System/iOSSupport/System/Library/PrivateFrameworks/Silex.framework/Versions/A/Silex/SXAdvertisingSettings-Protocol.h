@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXAutoPlacementLayout;
-
 @protocol SXAdvertisingSettings
 - (unsigned long long)lique;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bannerType;
-@property(readonly, nonatomic) struct _SXConvertibleValue distanceFromMedia;
 @property(readonly, nonatomic) unsigned long long frequency;
-@property(readonly, nonatomic) id <SXAutoPlacementLayout> layout;
 @end
 

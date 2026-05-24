@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 - (void)!4Gù1\Ð1Â0@ù
 × ;
 - (id);
-- (void)llapsedViewController:(id)arg1;
-- (_Bool)aticHidingBehavior;
-- (_Bool)stemAppearanceManager;
+- (void)setCollapsedViewController:(id)arg1;
+- (_Bool)_hasAutomaticHidingBehavior;
+- (_Bool)_UISystemAppearanceManager;
 - (_Bool)window:(id)arg1 <%{public}s:%{public}p>, contextId:0x%{public}X /* Error: Ran out of types for this method. */;
 
 @end

@@ -6,8 +6,6 @@
 
 #import <VoiceShortcutClient/WFDialogResponse.h>
 
-@class NSString;
-
 @interface WFConfirmInteractionDialogResponse : WFDialogResponse
 {
     unsigned long long _interactionResponseCode;
@@ -17,22 +15,15 @@
 + (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id){;
+- (id)S\z;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long interactionResponseCode; // @synthesize interactionResponseCode=_interactionResponseCode;
-@property(readonly) Class superclass;
 
 @end
 

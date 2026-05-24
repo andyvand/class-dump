@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, RTCReporting;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKAnalytics
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableArray *_payloadArray;
-    RTCReporting *_activeRTCReportingSession;
 }
 
 + (void);
 + (id);
 - (void);
-- (id);
+- (id)9u;
 - (id);
 - (id);
 - (void);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) RTCReporting *activeRTCReportingSession; // @synthesize activeRTCReportingSession=_activeRTCReportingSession;
 @property(readonly) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) NSMutableArray *payloadArray; // @synthesize payloadArray=_payloadArray;
 
 @end
 

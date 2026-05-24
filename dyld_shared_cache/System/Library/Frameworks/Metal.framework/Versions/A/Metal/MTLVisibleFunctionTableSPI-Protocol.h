@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 @protocol MTLVisibleFunctionTableSPI
-- (unsigned long long)Descriptor:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)Directory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/IStructureNode_I.cpp;
+- (unsigned long long)<;
+- (unsigned long long)u;
+- (unsigned long long)newTensorViewWithReshapedDescriptor:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)g pop}executeonly def/ND{noaccess def}executeonly def/NP{noaccess put}executeonly def/BlueValues[]def/MinFeature{16 16}def/password 5839 def/OtherSubrs[{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{16384 div 4 1 roll 16384 div 4 1 roll 16384 div 4 1 roll 16384 div 4 1 roll 0 0 matrix astore matrix currentmatrix exch concat}executeonly{setmatrix}executeonly]noaccess def
+;
+- (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> globalBuffer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,&,N
-
-@property(nonatomic) unsigned long long globalBufferOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long gpuHandle;
 @property(readonly, nonatomic) unsigned long long resourceIndex;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
 
 @end
 

@@ -7,8 +7,6 @@
 @interface CoreCDPUI.DeviceSelectionViewModel
 {
     id devices;
-    id onDeviceSelected;
-    id _$observationRegistrar;
 }
 
 @end

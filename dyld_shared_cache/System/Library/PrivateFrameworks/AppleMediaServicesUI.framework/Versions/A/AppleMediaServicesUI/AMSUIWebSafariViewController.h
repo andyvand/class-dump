@@ -6,69 +6,59 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSUICommonBarButtonItem, AMSUIWebAppearance, AMSUIWebClientContext, AMSUIWebSafariPageModel, AMSUIWebSafariWebView, NSString, NSURL, NSViewController;
+@class AMSUIWebAppearance;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebSafariViewController : AMSUICommonViewController
 {
     _Bool _shouldDismissOnCallback;
-    _Bool _shouldSetPresentationDelegate;
-    _Bool _didHandleDismiss;
-    _Bool _performingNavigation;
-    CDUnknownBlockType _actionHandler;
-    AMSUIWebAppearance *_appearance;
-    AMSUIWebClientContext *_context;
-    NSViewController *_placeholderPage;
-    AMSUIWebSafariPageModel *_model;
-    long long _pageState;
-    AMSUICommonBarButtonItem *_toolbarLeft;
-    AMSUICommonBarButtonItem *_toolbarRight;
-    AMSUIWebSafariWebView *_webView;
 }
 
+- (void)oteSyncStateByAssetType;
+- (id)assertionDueForUpdateSinceDate: /* Error: Ran out of types for this method. */;
+- (id),V_dataSource;
+- (_Bool)DDSAssetPolicy;
+- (_Bool)DDSTrialClientDelegate;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)successfully for asset type:(_Bool)arg1 (%{public}@);
+- (void)l update pending assertions:(id)arg1 %{public}@ for asset type:(id)arg2 %{public}@;
+- (void)assertions:(id)arg1 %{public}@ for asset type:(id)arg2 %{public}@;
+- (void){public}@;
+- (_Bool)emaining:%lu /* Error: Ran out of types for this method. */;
+- (long long)for query:%@ /* Error: Ran out of types for this method. */;
+- (void)Future:(id)arg1 %{public}@;
+- (_Bool)PriorityAssetSpecifiers;
+- (void)4;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void)WithLibrary] Deleting non-qualifying asset for device-library configuration %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)H
+ 
+;
 - (void);
 - (void);
 - (void);
@@ -79,35 +69,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)pairedVolume;
+- (id)Version.plist;
 - (void)ialogRequest"32@?<v@?@"AMSDialogResult"@"NSError">40;
 - (void)°5;
 - (void)t;
 - (id);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
 @property(retain) AMSUIWebAppearance *appearance; // @synthesize appearance=_appearance;
-@property(readonly) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didHandleDismiss; // @synthesize didHandleDismiss=_didHandleDismiss;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSUIWebSafariPageModel *model; // @synthesize model=_model;
-@property(readonly) NSURL *originalURL;
-@property long long pageState; // @synthesize pageState=_pageState;
-@property _Bool performingNavigation; // @synthesize performingNavigation=_performingNavigation;
-@property(retain) NSViewController *placeholderPage; // @synthesize placeholderPage=_placeholderPage;
-@property _Bool shouldDismissOnCallback; // @synthesize shouldDismissOnCallback=_shouldDismissOnCallback;
-@property _Bool shouldSetPresentationDelegate; // @synthesize shouldSetPresentationDelegate=_shouldSetPresentationDelegate;
-@property(readonly) Class superclass;
-@property(readonly) AMSUICommonBarButtonItem *toolbarLeft; // @synthesize toolbarLeft=_toolbarLeft;
-@property(readonly) AMSUICommonBarButtonItem *toolbarRight; // @synthesize toolbarRight=_toolbarRight;
-@property(readonly) AMSUIWebSafariWebView *webView; // @synthesize webView=_webView;
 
 @end
 

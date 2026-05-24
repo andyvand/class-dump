@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ABAbstractAccountConfiguration
 {
     _Bool _invalid;
@@ -21,24 +19,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)0:8@"DMUDSWrapper"16@"NSDictionary"24@?<v@?Bi>32 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void)iqueIDs;
+- (void)PredicateReferencedGroupUniqueIDs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, getter=isInvalid) _Bool invalid;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHExecutionRequestReceived : SISchemaInstrumentationMessage
 {
     int _preExecutionDecision;
-    _Bool _executionForRSKE;
-    int _commandSource;
-    struct {
-        unsigned int preExecutionDecision:1;
-        unsigned int executionForRSKE:1;
-        unsigned int commandSource:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +19,7 @@
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)9pM;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -37,22 +28,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)bitmask;
+- (id)_bitmask;
 - (id)MultiUserResultCandidateReceived",&,N,V_multiUserResultCandidate;
 
 // Remaining properties
-@property(nonatomic) int commandSource; // @synthesize commandSource=_commandSource;
-@property(nonatomic) _Bool executionForRSKE; // @synthesize executionForRSKE=_executionForRSKE;
-@property(nonatomic) _Bool hasCommandSource;
-@property(nonatomic) _Bool hasExecutionForRSKE;
-@property(nonatomic) _Bool hasPreExecutionDecision;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int preExecutionDecision; // @synthesize preExecutionDecision=_preExecutionDecision;
 
 @end

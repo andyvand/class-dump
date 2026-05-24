@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBBillPayeeValue, _INPBDateTimeRange, _INPBFinancialAccountValue, _INPBIntentMetadata, _INPBPaymentAmountValue, _INPBString;
+@class _INPBBillPayeeValue;
 
 @interface _INPBPayBillIntent
 {
     struct {
         unsigned int billType:1;
     } _has;
-    int _billType;
-    _INPBBillPayeeValue *_billPayee;
-    _INPBDateTimeRange *_dueDate;
-    _INPBFinancialAccountValue *_fromAccount;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBPaymentAmountValue *_transactionAmount;
-    _INPBString *_transactionNote;
-    _INPBDateTimeRange *_transactionScheduledDate;
 }
 
 + (_Bool);
@@ -29,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)A�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,8 +36,8 @@
 - (int);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)AUTH_ALERT_SIGN_UP_NOT_COMPLETED;
 - (id);
 - (id);
 - (void);
@@ -61,28 +53,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBBillPayeeValue *billPayee; // @synthesize billPayee=_billPayee;
-@property(nonatomic) int billType; // @synthesize billType=_billType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDateTimeRange *dueDate; // @synthesize dueDate=_dueDate;
-@property(retain, nonatomic) _INPBFinancialAccountValue *fromAccount; // @synthesize fromAccount=_fromAccount;
-@property(readonly, nonatomic) _Bool hasBillPayee;
-@property(nonatomic) _Bool hasBillType;
-@property(readonly, nonatomic) _Bool hasDueDate;
-@property(readonly, nonatomic) _Bool hasFromAccount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTransactionAmount;
-@property(readonly, nonatomic) _Bool hasTransactionNote;
-@property(readonly, nonatomic) _Bool hasTransactionScheduledDate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBPaymentAmountValue *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
-@property(retain, nonatomic) _INPBString *transactionNote; // @synthesize transactionNote=_transactionNote;
-@property(retain, nonatomic) _INPBDateTimeRange *transactionScheduledDate; // @synthesize transactionScheduledDate=_transactionScheduledDate;
 
 @end
 

@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSISEngine, NSObject, NSPointerArray, NSString, NSToolbar, NSTrackingSeparatorToolbarItem, NSURL, NSView, NSViewHost, NSWindow, UINSSceneViewController, UINSWindowProxyFocusHelper, UIScene, UIWindow;
-@protocol NSObject, NSSidebarTrackingAdapter, NSSplitViewItemSeparatorTrackingAdapter, UINSTouchBarCoordinator;
+@class UINSSceneViewController, UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface UINSWindowProxy
 {
     UINSSceneViewController *_sceneViewController;
-    NSWindow *_attachedWindow;
-    UINSWindowProxyFocusHelper *_focusHelper;
-    _Bool _areKVOObserversSetUp;
-    _Bool _autoHidesToolbarInFullScreen;
-    int _fauxModalStackCount;
-    NSObject<UINSTouchBarCoordinator> *_touchBarCoordinator;
-    long long _windowAppearance;
-    id <NSObject> _startLiveResizeObserver;
-    id <NSObject> _endLiveResizeObserver;
-    NSPointerArray *_uiWindows;
-    UIWindow *_keyUIWindow;
-    NSTrackingSeparatorToolbarItem *_primarySidebarSeparatorItem;
-    NSObject<NSSidebarTrackingAdapter> *_primarySidebarAdapter;
-    NSTrackingSeparatorToolbarItem *_supplementarySidebarSeparatorItem;
-    NSObject<NSSidebarTrackingAdapter> *_supplementarySidebarAdapter;
-    NSTrackingSeparatorToolbarItem *_inspectorSidebarSeparatorItem;
-    NSObject<NSSidebarTrackingAdapter> *_inspectorSidebarAdapter;
-    struct {
-        unsigned int hideWindowOnceAttached:1;
-    } _flags;
-    NSObject<NSSplitViewItemSeparatorTrackingAdapter> *_primarySplitViewItemSeparatorTrackingAdapter;
-    NSObject<NSSplitViewItemSeparatorTrackingAdapter> *_inspectorSplitViewItemSeparatorTrackingAdapter;
-    CDUnknownBlockType _toggleFullScreenOverride;
-    CDUnknownBlockType _representedDragItemsProvider;
-    UIWindow *_uiWindow;
 }
 
 + (id);
@@ -47,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)-*;
 - (id);
-- (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -58,6 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)JH;
 - (void);
 - (void);
 - (void);
@@ -66,8 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)r$;
 - (void);
 - (void);
 - (void);
@@ -80,7 +54,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Kc0EJc;
 - (void);
 - (void);
 - (void);
@@ -102,7 +76,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)rB;
 - (void);
 - (void);
 - (void);
@@ -156,94 +130,43 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)P;
+- (_Bool);
+- (void);
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)setAdjustedDuration: /* Error: Ran out of types for this method. */;
+- (void)ration_count_at_charge_start_soc_curr_dynamic_bin_4:(id)arg1 charge_duration_var_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:prev_1_drain_depth:prev_1_charge_duration:prev_1_drain_duration:prev_2_drain_depth:prev_2_charge_duration:prev_2_drain_duration:prev_3_drain_depth:prev_3_charge_duration:prev_3_drain_duration:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
+- (void)client:(id)arg1 setState:withHandler: /* Error: Ran out of types for this method. */;
+- (void)clearManualChargeLimit;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)ion_p_0_50_at_charge_start_secs_curr_dynamic_bin_4;
+- (id)",&,V_currentLocation;
+- (id)drain_depth_p_0_10_at_charge_start_soc_curr_dynamic_bin_12;
+- (_Bool)drain_duration_p_0_75_at_charge_start_secs_curr_dynamic_bin_4;
+- (id)ChargeSessions;
 - (void);
 - (id);
+- (void);
+- (id)WebKitPeerConnectionVideoScalingAdaptationDisabled;
 - (long long);
-- (void);
-- (void);
+- (void)[multi-move] ~ Error during PROPFIND.;
+- (void)#;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)reen: /* Error: Ran out of types for this method. */;
+- (_Bool)convertPointToScreen: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIScene *UIScene;
-@property(nonatomic, setter=_setHostedView:) __weak NSViewHost *_hostedView;
-@property(readonly) NSISEngine *_layoutEngine;
-@property(readonly, nonatomic) _Bool appearsKey;
-@property(readonly, nonatomic) _Bool appearsKeyIncludingSheets;
-@property(readonly, nonatomic) __weak NSWindow *attachedWindow;
-@property(nonatomic) _Bool autoHidesToolbarInFullScreen;
-@property(nonatomic) struct CGSize contentMinSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawsBottomDividerWhenTransparent;
-@property(nonatomic, getter=isExcludedFromWindowsMenu) _Bool excludedFromWindowsMenu;
-@property(readonly, nonatomic, getter=isFullscreen) _Bool fullscreen;
-@property(readonly, nonatomic) _Bool hasFullSizeContentView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect hostWindowContentFrame;
-@property(nonatomic) struct CGRect hostWindowFrame;
-@property(readonly, nonatomic, getter=isInLiveResize) _Bool inLiveResize;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *inspectorSidebarAdapter;
-@property(retain) NSObject<NSSplitViewItemSeparatorTrackingAdapter> *inspectorSplitViewItemSeparatorTrackingAdapter; // @synthesize inspectorSplitViewItemSeparatorTrackingAdapter=_inspectorSplitViewItemSeparatorTrackingAdapter;
-@property(readonly, nonatomic) _Bool isMovableByWindowBackground;
-@property(nonatomic) __weak UIWindow *keyUIWindow;
-@property(readonly, copy, nonatomic) NSString *persistentIdentifier;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *primarySidebarAdapter;
-@property(retain) NSObject<NSSplitViewItemSeparatorTrackingAdapter> *primarySplitViewItemSeparatorTrackingAdapter; // @synthesize primarySplitViewItemSeparatorTrackingAdapter=_primarySplitViewItemSeparatorTrackingAdapter;
-@property(copy, nonatomic) CDUnknownBlockType representedDragItemsProvider; // @synthesize representedDragItemsProvider=_representedDragItemsProvider;
-@property(copy) NSURL *representedURL;
-@property(readonly, copy, nonatomic) NSString *sceneIdentifier;
-@property(readonly, nonatomic) __weak NSView *sceneView;
-@property(readonly, nonatomic) __weak UINSSceneViewController *sceneViewController; // @synthesize sceneViewController=_sceneViewController;
-@property(retain) NSObject<NSSplitViewItemSeparatorTrackingAdapter> *splitViewItemSeparatorTrackingAdapter;
-@property(readonly) Class superclass;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *supplementarySidebarAdapter;
-@property(nonatomic) long long tabbingMode;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic, getter=isTitleHidden) _Bool titleHidden;
-@property(readonly, nonatomic) NSArray *titlebarAccessoryViewControllers;
-@property(nonatomic) _Bool titlebarAppearsTransparentWhenFullscreen;
-@property(nonatomic, getter=isTitlebarHidden) _Bool titlebarHidden;
-@property(nonatomic) long long titlebarSeparatorStyle;
-@property(nonatomic, getter=isTitlebarTransparent) _Bool titlebarTransparent;
-@property(copy, nonatomic) CDUnknownBlockType toggleFullScreenOverride; // @synthesize toggleFullScreenOverride=_toggleFullScreenOverride;
-@property(retain, nonatomic) NSToolbar *toolbar;
-@property(nonatomic) long long toolbarStyle;
-@property(retain, nonatomic) NSObject<UINSTouchBarCoordinator> *touchBarCoordinator;
 @property(retain, nonatomic) UIWindow *uiWindow; // @synthesize uiWindow=_uiWindow;
-@property(retain, nonatomic) NSArray *uiWindows;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
-@property(nonatomic) long long windowAppearance;
 
 @end
 

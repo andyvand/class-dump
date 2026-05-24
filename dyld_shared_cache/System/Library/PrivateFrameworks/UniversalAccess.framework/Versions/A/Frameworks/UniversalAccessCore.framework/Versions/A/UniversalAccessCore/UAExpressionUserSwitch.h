@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)initWithRecordsToSave:recordIDsToDelete: /* Error: Ran out of types for this method. */;
+- (void)implemented;
 - (void);
 - (id);
 

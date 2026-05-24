@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
@@ -14,20 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)¼ØB;
-- (void);
+- (void)initWithFeedbackRequestParameters:(id)arg1 userInfo:(unsigned long long)arg2 traits:(id)arg3;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 
 @end
 

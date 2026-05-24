@@ -6,41 +6,24 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class BPSSubscription, NSMutableArray, NSMutableDictionary, NSString;
-@protocol BMBookmark, BPSSubscriber;
+@class BPSSubscription;
 
 @interface _BPSFlatMapOuter : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _outerLock;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _downstreamLock;
-    _Bool _downstreamRecursive;
-    _Bool _innerRecursive;
-    _Bool _cancelledOrCompleted;
-    _Bool _outerFinished;
-    BPSSubscription *_outerSubscription;
-    id <BMBookmark> _outerBookmark;
-    id <BPSSubscriber> _downstream;
-    long long _downstreamDemand;
-    NSMutableDictionary *_subscriptions;
-    long long _nextInnerIndex;
-    long long _pendingSubscriptions;
-    NSMutableArray *_buffer;
-    long long _maxPublishers;
-    CDUnknownBlockType _map;
 }
 
-- (void);
+- (void)+;
 - (_Bool);
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (long long);
-- (void);
+- (long long)B;
+- (void)|;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (void);
@@ -54,11 +37,11 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)143542;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ler.audioMediaSelectionOptions;
 - (void);
 - (void);
 - (void);
@@ -70,30 +53,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)verifyStreamHealthFromV1:to:frameStore:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) _Bool cancelledOrCompleted; // @synthesize cancelledOrCompleted=_cancelledOrCompleted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) long long downstreamDemand; // @synthesize downstreamDemand=_downstreamDemand;
-@property(nonatomic) _Bool downstreamRecursive; // @synthesize downstreamRecursive=_downstreamRecursive;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool innerRecursive; // @synthesize innerRecursive=_innerRecursive;
-@property(copy, nonatomic) CDUnknownBlockType map; // @synthesize map=_map;
-@property(nonatomic) long long maxPublishers; // @synthesize maxPublishers=_maxPublishers;
-@property(nonatomic) long long nextInnerIndex; // @synthesize nextInnerIndex=_nextInnerIndex;
-@property(retain, nonatomic) id <BMBookmark> outerBookmark; // @synthesize outerBookmark=_outerBookmark;
-@property(nonatomic) _Bool outerFinished; // @synthesize outerFinished=_outerFinished;
 @property(retain, nonatomic) BPSSubscription *outerSubscription; // @synthesize outerSubscription=_outerSubscription;
-@property(nonatomic) long long pendingSubscriptions; // @synthesize pendingSubscriptions=_pendingSubscriptions;
-@property(retain, nonatomic) NSMutableDictionary *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(readonly) Class superclass;
 
 @end
 

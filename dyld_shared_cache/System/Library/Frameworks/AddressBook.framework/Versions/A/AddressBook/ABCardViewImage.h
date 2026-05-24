@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface ABCardViewImage
 {
     NSData *_imageData;
-    NSData *_largeImageData;
-    struct CGRect _clippingRect;
-    NSString *_imageType;
-    NSData *_memojiMetadata;
 }
 
 - (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (id)v;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)?g;
 - (void)á@°!dEù1ª°1Â0@ù
 × ;
 
 // Remaining properties
-@property struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
 @property(retain) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain) NSString *imageType; // @synthesize imageType=_imageType;
-@property(retain) NSData *largeImageData; // @synthesize largeImageData=_largeImageData;
-@property(retain) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKWebView;
+@class WKWebView;
 
 @interface EMWebViewScriptHandler
 {
     WKWebView *_webView;
-    NSString *_name;
-    CDUnknownBlockType _handler;
 }
 
 + (void);
@@ -20,19 +18,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)ateFrameworks/AuthKit.framework/Versions/A/AuthKit;
 - (id)ô;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak WKWebView *webView; // @synthesize webView=_webView;
 
 @end

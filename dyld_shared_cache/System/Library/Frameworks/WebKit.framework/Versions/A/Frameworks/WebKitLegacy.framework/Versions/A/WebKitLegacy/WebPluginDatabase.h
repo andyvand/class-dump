@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface WebPluginDatabase
 {
     NSMutableDictionary *plugins;
-    NSMutableSet *registeredMIMETypes;
-    NSArray *plugInPaths;
-    NSMutableSet *pluginInstanceViews;
 }
 
 + (id);
-+ (void);
++ (void)j;
 + (void);
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
+- (void)-;
 - (void);
-- (void);
+- (id);
+- (void)C;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)ase occurred however SiWA did not commence;
+- (id)k;
 - (void);
 - (void);
 

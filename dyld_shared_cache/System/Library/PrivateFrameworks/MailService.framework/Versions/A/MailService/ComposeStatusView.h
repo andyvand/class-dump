@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSMenu, NSPopUpButton, NSString, NSTextField;
+@class NSTextField;
 
 @interface ComposeStatusView
 {
     NSTextField *_messageSizeLabel;
-    NSTextField *_messageSizeTextField;
-    NSTextField *_imageSizePickerLabel;
-    NSPopUpButton *_imageSizePickerPopup;
-    NSTextField *_URLPickerLabel;
-    NSPopUpButton *_URLPickerButton;
 }
 
 + (id);
@@ -26,21 +21,21 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)qa;
 - (id);
 - (id);
 - (id);
@@ -53,22 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSPopUpButton *URLPickerButton; // @synthesize URLPickerButton=_URLPickerButton;
-@property(retain, nonatomic) NSTextField *URLPickerLabel; // @synthesize URLPickerLabel=_URLPickerLabel;
-@property(readonly, nonatomic) __weak NSMenu *URLPickerMenu;
-@property(readonly, nonatomic) _Bool canHideStatusBar;
-@property(readonly, nonatomic) __weak NSMenu *imageSizeMenu;
-@property(retain, nonatomic) NSTextField *imageSizePickerLabel; // @synthesize imageSizePickerLabel=_imageSizePickerLabel;
-@property(retain, nonatomic) NSPopUpButton *imageSizePickerPopup; // @synthesize imageSizePickerPopup=_imageSizePickerPopup;
-@property(retain, nonatomic) NSColor *messageSizeColor;
 @property(retain, nonatomic) NSTextField *messageSizeLabel; // @synthesize messageSizeLabel=_messageSizeLabel;
-@property(retain, nonatomic) NSTextField *messageSizeTextField; // @synthesize messageSizeTextField=_messageSizeTextField;
-@property(copy, nonatomic) NSString *messageSizeValue;
-@property(nonatomic) long long selectedImageConversionOption;
-@property(nonatomic) long long selectedSharingDisplayType;
-@property(nonatomic) _Bool showsImageSizePicker;
-@property(nonatomic) _Bool showsMessageSizeLabel;
-@property(nonatomic) _Bool showsURLPicker;
 
 @end
 

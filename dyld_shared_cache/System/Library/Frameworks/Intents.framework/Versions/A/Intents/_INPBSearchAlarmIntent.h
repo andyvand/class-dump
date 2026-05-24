@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBAlarmSearch, _INPBIntentMetadata;
+@class _INPBAlarmSearch;
 
 @interface _INPBSearchAlarmIntent
 {
     struct {
         unsigned int alarmSearchType:1;
     } _has;
-    int _alarmSearchType;
-    _INPBAlarmSearch *_alarmSearch;
-    NSArray *_alarms;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)B;
 - (int);
 - (int);
 - (void);
@@ -41,28 +37,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)NPBDateTimeRange",&,N,V_dateTimeRange;
-- (void)meTimerIntentResponseCodeSuccess;
-- (id)deStatusIntentResponse;
+- (void)INResumeTimerIntentResponseCodeSuccess;
+- (id)GetRideStatusIntentResponse;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarmSearch *alarmSearch; // @synthesize alarmSearch=_alarmSearch;
-@property(nonatomic) int alarmSearchType; // @synthesize alarmSearchType=_alarmSearchType;
-@property(copy, nonatomic) NSArray *alarms; // @synthesize alarms=_alarms;
-@property(readonly, nonatomic) unsigned long long alarmsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAlarmSearch;
-@property(nonatomic) _Bool hasAlarmSearchType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

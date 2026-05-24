@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface NTPBCacheCoordinatorHints
 {
     long long _version;
-    NSMutableArray *_cacheHints;
-    CDStruct_f20694ce _has;
 }
 
 @end

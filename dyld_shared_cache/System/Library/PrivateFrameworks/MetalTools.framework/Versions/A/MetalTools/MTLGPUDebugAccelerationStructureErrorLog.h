@@ -9,18 +9,16 @@
 @interface MTLGPUDebugAccelerationStructureErrorLog : MTLGPUDebugGPULog
 {
     unsigned long long _expectedAccelerationStructureType;
-    unsigned long long _actualAccelerationStructureType;
 }
 
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)(;
 
 // Remaining properties
-@property(nonatomic) unsigned long long actualAccelerationStructureType; // @synthesize actualAccelerationStructureType=_actualAccelerationStructureType;
 @property(nonatomic) unsigned long long expectedAccelerationStructureType; // @synthesize expectedAccelerationStructureType=_expectedAccelerationStructureType;
 
 @end

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale;
-
 @protocol CRLineWrappable
+
+@optional
+- (double)ption"8@"NSError"16;
 
 // Remaining properties
 @property unsigned long long lineWrappingType;
-@property(readonly) NSLocale *locale;
 @end
 

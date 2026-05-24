@@ -11,28 +11,23 @@
 
 - (double);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ontainer ADD COLUMN external_vendor_identifier TEXT NOT NULL DEFAULT '';
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property _Bool debugMode;
 @property(getter=isEnabled) _Bool enabled;
-@property double minimumEdgeAngle;
-@property double minimumEdgeLength;
-@property double minimumTriangleArea;
-@property double trimFactor;
 
 @end
 

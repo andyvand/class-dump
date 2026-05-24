@@ -70,32 +70,6 @@ struct BundleWrapperUpdateOperation {
     NSURL *_finalizedURL;
 };
 
-struct CFReleaser<__CSStoreAccessContext *> {
-    struct __CSStoreAccessContext *fItem;
-};
-
-struct CSMap {
-    unsigned int table;
-    struct CSMapCallbacks cb;
-    struct CSMapContext *context;
-    struct os_unfair_lock_s _lock;
-    unsigned int _generation;
-    struct _CSMapHeader *_header;
-    unsigned int *_keys;
-    unsigned int *_values;
-};
-
-struct CSMapCallbacks {
-    CDUnknownFunctionPointerType retainKey;
-    CDUnknownFunctionPointerType releaseKey;
-    CDUnknownFunctionPointerType getKeyHash;
-    CDUnknownFunctionPointerType keyMatchesData;
-    CDUnknownFunctionPointerType retainValue;
-    CDUnknownFunctionPointerType releaseValue;
-};
-
-struct CSMapContext;
-
 struct Context {
     struct LSContext *_contextPointer;
     struct LSContext _contextStorage;
@@ -168,151 +142,151 @@ struct LSBinding {
 };
 
 struct LSBundleBaseData {
-    unsigned int bookmark;
-    unsigned int container;
-    unsigned int execPath;
-    unsigned int exactIdentifier;
-    unsigned int teamID;
-    unsigned int platform;
-    int registrationTime;
-    struct LSVersionNumber version;
-    struct LSVersionNumber execSDKVersion;
-    unsigned int machOUUIDs;
-    unsigned int dataContainerAlias;
-    unsigned int bundleName;
-    unsigned int localizedShortDisplayName;
-    unsigned int displayName;
-    unsigned int localizedDisplayName;
-    unsigned int contextualUsageDescriptions;
-    unsigned int infoDictionary;
-    unsigned int entitlements;
-    unsigned int groupContainers;
-    unsigned char containingDirectoryClass;
-    unsigned char profileValidationState;
-    unsigned int intentDefinitionURLs;
-    unsigned short _sliceMask;
-    struct LSBundleBaseFlags flags;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    int _field7;
+    struct LSVersionNumber _field8;
+    struct LSVersionNumber _field9;
+    unsigned int _field10;
+    unsigned int _field11;
+    unsigned int _field12;
+    unsigned int _field13;
+    unsigned int _field14;
+    unsigned int _field15;
+    unsigned int _field16;
+    unsigned int _field17;
+    unsigned int _field18;
+    unsigned int _field19;
+    unsigned char _field20;
+    unsigned char _field21;
+    unsigned int _field22;
+    unsigned short _field23;
+    struct LSBundleBaseFlags _field24;
 };
 
 struct LSBundleBaseFlags {
-    unsigned int appleInternal:1;
-    unsigned int requiresObjCGarbageCollection:1;
-    unsigned int builtWithTSan:1;
-    unsigned int isLinkEnabled:1;
-    unsigned int isSecuredSystemContent:1;
-    unsigned int redactable:1;
-    unsigned int _reserved:1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
 };
 
 struct LSBundleData {
-    struct LSBundleBaseData base;
-    unsigned int _clas;
-    unsigned long long _bundleFlags;
-    unsigned int _plistContentFlags;
-    unsigned int _itemFlags;
-    unsigned char _iconFlags;
-    unsigned char _highResFlags;
-    unsigned char appNapFlags;
-    unsigned char eGPUFlags;
-    unsigned char safeApertureSystemFullScreenFlags;
-    unsigned char safeApertureAppFullScreenFlags;
-    unsigned char safeApertureWindowedFlags;
-    unsigned char gameModeFlags;
-    unsigned char identifiedGameFlags;
-    unsigned char systemHiddenFlags;
-    struct LSBundleMoreFlags moreFlags;
-    unsigned int _hfsType;
-    unsigned int _hfsCreator;
-    unsigned long long _inoBundle;
-    unsigned long long _inoExec;
-    int _mtime;
-    unsigned int minSystemVersionPlatform;
-    struct LSVersionNumber _minSystemVersion;
-    struct LSVersionNumber _maxSystemVersion;
-    unsigned int ownerUID;
-    int _executablemtime;
-    struct LSVersionNumber _execMinOSVersion;
-    unsigned long long sequenceNumber;
-    unsigned long long itemID;
-    unsigned int deviceFamilies;
-    unsigned int identifier;
-    unsigned int counterpartIdentifiers;
-    unsigned int equivalentBundleIdentifiers;
-    unsigned int categoryType;
-    unsigned int secondaryCategoryType;
-    unsigned int filename;
-    unsigned int bundleVersion;
-    unsigned int shortVersionString;
-    unsigned int installType;
-    unsigned long long installFailureReason;
-    unsigned int vendorName;
-    unsigned long long purchaserDSID;
-    unsigned long long downloaderDSID;
-    unsigned long long familyID;
-    unsigned int itemName;
-    unsigned long long storefront;
-    unsigned long long versionIdentifier;
-    unsigned int sourceAppBundleID;
-    unsigned int appVariant;
-    unsigned int managementDeclarationIdentifier;
-    unsigned long long ratingRank;
-    unsigned int ratingLabel;
-    unsigned long long genreID;
-    unsigned int genre;
-    unsigned int distributorInfo;
-    unsigned long long ratingRankEligibilityDomain;
-    unsigned int primaryIconName;
-    unsigned int iconsDict;
-    unsigned int iconFileNames;
-    unsigned int libraryPath;
-    unsigned int libraryItems;
-    unsigned int claims;
-    unsigned int types;
-    unsigned int services;
-    unsigned int alternateNames;
-    unsigned int alternateBundleIdentifiers;
-    unsigned int plugins;
-    unsigned int driverExtensions;
-    unsigned int extensionPoints;
-    unsigned int activityTypes;
-    unsigned int bgPermittedIDs;
-    unsigned int appContainerAlias;
-    unsigned char revision;
-    unsigned char retries;
-    unsigned char _reserved4;
-    unsigned int sandboxEnvironmentVariables;
-    unsigned int localizedNameWithContext[0];
-    unsigned int bundlePersonas;
-    unsigned int bundlePersonaTypes;
-    int recordModificationTime;
-    unsigned int supportedGameControllers;
-    unsigned int wrappedRelativePath;
-    unsigned int mobileInstallIDs;
-    unsigned int applicationManagementDomain;
-    unsigned int trustedCodeHashes;
-    unsigned int _reserved5;
+    struct LSBundleBaseData _field1;
+    unsigned int _field2;
+    unsigned long long _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned char _field6;
+    unsigned char _field7;
+    unsigned char _field8;
+    unsigned char _field9;
+    unsigned char _field10;
+    unsigned char _field11;
+    unsigned char _field12;
+    unsigned char _field13;
+    unsigned char _field14;
+    unsigned char _field15;
+    struct LSBundleMoreFlags _field16;
+    unsigned int _field17;
+    unsigned int _field18;
+    unsigned long long _field19;
+    unsigned long long _field20;
+    int _field21;
+    unsigned int _field22;
+    struct LSVersionNumber _field23;
+    struct LSVersionNumber _field24;
+    unsigned int _field25;
+    int _field26;
+    struct LSVersionNumber _field27;
+    unsigned long long _field28;
+    unsigned long long _field29;
+    unsigned int _field30;
+    unsigned int _field31;
+    unsigned int _field32;
+    unsigned int _field33;
+    unsigned int _field34;
+    unsigned int _field35;
+    unsigned int _field36;
+    unsigned int _field37;
+    unsigned int _field38;
+    unsigned int _field39;
+    unsigned long long _field40;
+    unsigned int _field41;
+    unsigned long long _field42;
+    unsigned long long _field43;
+    unsigned long long _field44;
+    unsigned int _field45;
+    unsigned long long _field46;
+    unsigned long long _field47;
+    unsigned int _field48;
+    unsigned int _field49;
+    unsigned int _field50;
+    unsigned long long _field51;
+    unsigned int _field52;
+    unsigned long long _field53;
+    unsigned int _field54;
+    unsigned int _field55;
+    unsigned long long _field56;
+    unsigned int _field57;
+    unsigned int _field58;
+    unsigned int _field59;
+    unsigned int _field60;
+    unsigned int _field61;
+    unsigned int _field62;
+    unsigned int _field63;
+    unsigned int _field64;
+    unsigned int _field65;
+    unsigned int _field66;
+    unsigned int _field67;
+    unsigned int _field68;
+    unsigned int _field69;
+    unsigned int _field70;
+    unsigned int _field71;
+    unsigned int _field72;
+    unsigned char _field73;
+    unsigned char _field74;
+    unsigned char _field75;
+    unsigned int _field76;
+    unsigned int _field77[0];
+    unsigned int _field78;
+    unsigned int _field79;
+    int _field80;
+    unsigned int _field81;
+    unsigned int _field82;
+    unsigned int _field83;
+    unsigned int _field84;
+    unsigned int _field85;
+    unsigned int _field86;
 };
 
 struct LSBundleMoreFlags {
-    unsigned int isWebBrowser:1;
-    unsigned int isMailClient:1;
-    unsigned int supportsControllerUserInteraction:1;
-    unsigned int isWrapper:1;
-    unsigned int isWrapped:1;
-    unsigned int supportsSpotlightQueryContinuation:1;
-    unsigned int supportsSpotlightActions:1;
-    unsigned int requiresNativeExecution:1;
-    unsigned int architecturePriorityIsForged:1;
-    unsigned int isCodeSigningInfoNotAuthoritative:1;
-    unsigned int isPlaygroundsApp:1;
-    unsigned int supportsLiveActivities:1;
-    unsigned int supportsLiveActivitiesFrequentUpdates:1;
-    unsigned int hasShellRole:1;
-    unsigned int requiresSecureLaunch:1;
-    unsigned int isManagedAppDistributor:1;
-    unsigned int hasSupportsGameModeKey:1;
-    unsigned int supportsGameMode:1;
-    unsigned int isOnCryptex:1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
 };
 
 struct LSContext {
@@ -341,35 +315,9 @@ struct LSPluginData {
     unsigned int _field10;
 };
 
-struct LSSchema {
-    unsigned int headerTable;
-    unsigned int bundleTable;
-    unsigned int claimTable;
-    unsigned int serviceTable;
-    unsigned int utypeTable;
-    struct {
-        struct CSMap map;
-    } bindableKeyMap;
-    struct {
-        struct CSMap map;
-        unsigned int bindingClass;
-        unsigned char isCaseInsensitive;
-    } bindingMaps[15];
-    unsigned int handlerPrefTable;
-    unsigned int containerTable;
-    unsigned int aliasTable;
-    unsigned int pluginTable;
-    unsigned int extensionPointTable;
-    unsigned int bindingListTable;
-    unsigned int propertyListTable;
-    unsigned int localizedStringTable;
-    unsigned int canonicalStringTable;
-    struct _LSSchemaCache *_cache;
-};
-
 struct LSSessionKey {
-    unsigned int uid;
-    _Bool systemSession;
+    unsigned int _field1;
+    _Bool _field2;
 };
 
 struct LSSliceData {
@@ -378,17 +326,13 @@ struct LSSliceData {
 };
 
 struct LSVersionNumber {
-    unsigned char _opaque[32];
+    unsigned char _field1[32];
 };
 
 struct LocalizedString {
     unsigned int _field1;
     unsigned int _field2;
     struct Flags _field3;
-};
-
-struct NotifyToken {
-    struct atomic<int> rawValue;
 };
 
 struct OpaqueAEDataStorageType;
@@ -434,8 +378,8 @@ struct PrefsCapabilityInfo {
 };
 
 struct ProcessSerialNumber {
-    unsigned int highLongOfPSN;
-    unsigned int lowLongOfPSN;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct Rect {
@@ -473,15 +417,11 @@ struct VolumeContainerResolutionAdapter {
     struct variant<unsigned int, NSURL *, NSError *> volumeURLOrContainerOrError;
 };
 
-struct _CSMapHeader;
-
 struct _FSInternetLocatorTypeInfo {
     id _field1;
     id _field2;
     unsigned int _field3;
 };
-
-struct _LSSchemaCache;
 
 struct _NSRange {
     unsigned long long _field1;
@@ -491,18 +431,6 @@ struct _NSRange {
 struct __CFArray;
 
 struct __CFString;
-
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
-struct atomic<int> {
-    struct __cxx_atomic_impl<int, std::__cxx_atomic_base_impl<int>> {
-        _Atomic int __a_value;
-    } __a_;
-};
 
 struct expected<LSApplicationRecord *, NSError *> {
     struct __conditional_no_unique_address<true, std::__expected_base<LSApplicationRecord *, NSError *>::__repr> {
@@ -530,7 +458,9 @@ struct map<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>, std::l
                 void *__left_;
             } __end_node_;
         } ;
-        CDStruct_a7186859 ;
+        struct {
+            unsigned long long __size_;
+        } ;
     } __tree_;
 };
 
@@ -546,22 +476,6 @@ struct optional<LaunchServices::BundleWrapperUpdateOperation> {
     union {
         char __null_state_;
         struct BundleWrapperUpdateOperation __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<NSError *> {
-    union {
-        char __null_state_;
-        NSError *__val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<NSString *> {
-    union {
-        char __null_state_;
-        NSString *__val_;
     } ;
     _Bool __engaged_;
 };
@@ -587,7 +501,7 @@ struct os_unfair_lock_s {
 };
 
 struct unfair_lock_mutex {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned int _field1;
 };
 
 struct unique_ptr<LaunchServices::BundleWrapperMutationOperation, std::default_delete<LaunchServices::BundleWrapperMutationOperation>> {
@@ -600,50 +514,6 @@ struct unique_ptr<LaunchServices::State, std::default_delete<LaunchServices::Sta
     struct {
         struct State *__ptr_;
     } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>, std::allocator<std::pair<_opaque_pthread_t *const, std::shared_ptr<LaunchServices::PerThreadContext>>>> {
-    struct __hash_table<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::__unordered_map_hasher<_opaque_pthread_t *, std::pair<_opaque_pthread_t *const, std::shared_ptr<LaunchServices::PerThreadContext>>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>>, std::__unordered_map_equal<_opaque_pthread_t *, std::pair<_opaque_pthread_t *const, std::shared_ptr<LaunchServices::PerThreadContext>>, std::equal_to<_opaque_pthread_t *>, std::hash<_opaque_pthread_t *>>, std::allocator<std::pair<_opaque_pthread_t *const, std::shared_ptr<LaunchServices::PerThreadContext>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, LSPluginData, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, LSPluginData>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, LSPluginData>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, LSPluginData>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, LSPluginData>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, LSPluginData>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
 };
 
 struct variant<unsigned int, NSURL *, NSError *> {
@@ -776,20 +646,12 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
     unsigned int val[8];
 } CDStruct_4c969caf;
 
 typedef struct {
     unsigned int *__cap_;
 } CDStruct_e46b4a8f;
-
-typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
 
 // Template types
 typedef struct expected<LSApplicationRecord *, NSError *> {

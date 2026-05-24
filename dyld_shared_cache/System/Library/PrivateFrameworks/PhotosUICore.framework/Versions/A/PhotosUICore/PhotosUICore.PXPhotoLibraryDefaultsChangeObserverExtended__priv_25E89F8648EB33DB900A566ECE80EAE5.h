@@ -10,8 +10,8 @@
 }
 
 - (void);
-- (id);
-- (void)nSession;
+- (id)73;
+- (void)GenerativeStoryDisambiguationSession;
 - (void);
 
 @end

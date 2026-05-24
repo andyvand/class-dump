@@ -7,7 +7,6 @@
 @interface NewsFeed.FeaturePromotionEligibilityChecker
 {
     id $defaultActor;
-    id eligibilityProviderFactory;
 }
 
 @end

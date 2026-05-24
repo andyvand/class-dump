@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileLoader, NSMutableArray, NSString, geo_isolater;
+@class GEOTileLoader;
 
 __attribute__((visibility("hidden")))
 @interface _GEOMapFeatureAccessRequest
 {
     GEOTileLoader *_tileLoader;
-    NSMutableArray *_clientIdentifiers;
-    geo_isolater *_clientIdentifiersIsolater;
 }
 
 - (id);
-- (void);
+- (void)l;
 - (id);
 - (void);
 - (void)þÿÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOTileLoader *tileLoader; // @synthesize tileLoader=_tileLoader;
 
 @end

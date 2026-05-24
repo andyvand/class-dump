@@ -4,45 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSIndexSet, NSString, NSURL, SGTCategory, SGTQueryGenius;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SGTSuggestionReserved
 {
     NSString *originalTypedString;
-    NSString *rawQueryString;
-    NSString *additionalRawQuery;
-    NSString *displayName;
-    NSString *uniquifierString;
-    NSString *queryString;
-    NSArray *attributeNames;
-    NSDictionary *additionalAttributes;
-    NSArray *suggestionValues;
-    id representedObject;
-    SGTQueryGenius *genius;
-    long long scope;
-    long long type;
-    SGTCategory *category;
-    NSURL *spotlightScope;
-    _Bool additionalRawQueryIsOr;
-    _Bool isExactMatch;
-    _Bool showsUniquifier;
-    _Bool useDefaultScope;
-    _Bool intermediateResult;
-    _Bool forceLastPosition;
-    _Bool enforceStrictMatch;
-    _Bool isTopHitCandidate;
-    _Bool isRecent;
-    NSIndexSet *titleHighlights;
-    NSIndexSet *uniquifierHighlights;
-    NSString *inputString;
-    double score;
-    _Bool lastWordMatched;
-    unsigned long long alignmentScore;
-    struct _NSRange replacementRange;
 }
 
-- (void);
+- (void)dataRepresentationEmbeddingSourceImageAndEditModel:error: /* Error: Ran out of types for this method. */;
 
 @end
 

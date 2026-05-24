@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOCTag, FPItem, NSObject, NSSet, NSString;
-@protocol DOCNode;
-
 @interface DOCConcreteLocation
 {
     _Bool _needsToResolveHierarchy;
-    _Bool _canBeRestored;
-    _Bool _isFPV2;
-    NSString *_originalSourceIdentifier;
-    NSObject<DOCNode> *_node;
-    NSString *_promptText;
-    NSString *_sourceIdentifier;
-    DOCTag *_representedTag;
-    NSString *_title;
-    NSString *_composedTitleFormat;
 }
 
 + (id);
@@ -30,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)ippingGUIDsQuery(int, int);
 + (_Bool);
 - (void);
 - (void);
@@ -38,37 +26,37 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id)_toolTipContourImageForCurrentEdgeLocation;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (_Bool)ork/Versions/A/AppIntents;
+- (void)ASAuthorizationPlatformPublicKeyCredentialDescriptor;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)7+;
 - (id);
 - (void);
 - (id);
@@ -77,24 +65,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSSet *attachedTags;
 @property _Bool canBeRestored; // @synthesize canBeRestored=_canBeRestored;
-@property(copy) NSString *composedTitleFormat; // @synthesize composedTitleFormat=_composedTitleFormat;
-@property(readonly, copy) NSString *displayName;
-@property(readonly) FPItem *fileProviderItem;
-@property(readonly) _Bool isContainer;
-@property _Bool isFPV2; // @synthesize isFPV2=_isFPV2;
-@property(readonly) _Bool isRoot;
-@property(readonly) _Bool isTaggedItemsSource;
-@property(readonly) _Bool isTrash;
-@property _Bool needsToResolveHierarchy; // @synthesize needsToResolveHierarchy=_needsToResolveHierarchy;
-@property(retain) NSObject<DOCNode> *node; // @synthesize node=_node;
-@property(copy) NSString *originalSourceIdentifier; // @synthesize originalSourceIdentifier=_originalSourceIdentifier;
-@property(copy) NSString *promptText; // @synthesize promptText=_promptText;
-@property(retain) DOCTag *representedTag; // @synthesize representedTag=_representedTag;
-@property(readonly) NSString *shortDescription;
-@property(copy) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

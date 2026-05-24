@@ -11,7 +11,7 @@
     NSDictionary *_membershipByMemberIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKTextDocumentTraits, NSMutableArray, NSString;
-@protocol IMKCandidateMenu, IMKTextDocument;
+@class IMKTextDocumentTraits, NSString;
 
 @interface IMKAbstractTextDocument
 {
     IMKTextDocumentTraits *_traits;
-    _Bool _showsWithMarking;
-    id <IMKCandidateMenu> _candidateMenu;
-    NSString *_textMarkedForUndo;
-    NSMutableArray *_textSegmentationCharacterCounts;
 }
 
 - (void);
@@ -21,18 +16,18 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)zU9;
+- (void)R	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)9;
 - (unsigned long long);
 - (void);
 - (void);
@@ -45,30 +40,30 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)`;
 - (unsigned long long);
 - (void);
 - (id);
+- (void)T;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned int);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (unsigned int);
-- (id);
-- (void);
-- (unsigned int);
 - (void);
 - (id);
 - (unsigned long long);
+- (id)}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}24^{?=IIII[9i][3I][9i]IIIIIIIIIIIIII{?=SSSS}[8{?=SSSSSSSs}]{?=SSSS}{?=SSS}{?=SSSSS}{?=SSSSS}[5{?=SSCSSSSSSSS[6C][6C]}]{?=SSCssssssss}[4{?=SSCSSCssssssss}]{?=SCCCC}{?=SS[256C]}{?=SCC}{?=SCCCCCC}SI}32;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)setStartTime: /* Error: Ran out of types for this method. */;
+- (id)_registeredUUIDServiceBlocks;
 - (id);
 - (void);
 - (id);
@@ -78,23 +73,7 @@
 - (id)tòÿ®ãåù;
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMKCandidateMenu> candidateMenu; // @synthesize candidateMenu=_candidateMenu;
-@property(readonly, nonatomic) id <IMKTextDocument> composingText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) _Bool hasSelection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *selectedText;
-@property(nonatomic) _Bool showsWithMarking; // @synthesize showsWithMarking=_showsWithMarking;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *text;
 @property(retain, nonatomic) NSString *textMarkedForUndo; // @synthesize textMarkedForUndo=_textMarkedForUndo;
-@property(readonly, nonatomic) NSMutableArray *textSegmentationCharacterCounts; // @synthesize textSegmentationCharacterCounts=_textSegmentationCharacterCounts;
-@property(readonly, nonatomic) IMKTextDocumentTraits *traits; // @synthesize traits=_traits;
 
 @end
 

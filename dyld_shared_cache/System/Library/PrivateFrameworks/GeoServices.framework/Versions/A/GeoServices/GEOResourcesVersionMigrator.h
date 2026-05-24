@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResourceManifestConfiguration, NSMutableArray, NSString, geo_isolater;
+@class GEOResourceManifestConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface GEOResourcesVersionMigrator
 {
     GEOResourceManifestConfiguration *_manifestConfiguration;
-    geo_isolater *_isolater;
-    NSMutableArray *_runningTasks;
 }
 
 - (void);
 - (id);
 - (id)
 × ;
-- (void)rator;
+- (void)GEOServiceURLsActiveTileGroupMigrator;
 - (id)eo.%s<%p>;
 - (void)^6P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

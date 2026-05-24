@@ -9,8 +9,6 @@
 @interface SSFrameBufferAVCMediaView : SSFrameBufferAVConferenceView
 {
     unsigned int _layerRotation;
-    struct CGPoint _scrollPoint;
-    struct CGRect _conferenceDimensions;
 }
 
 - (_Bool);
@@ -22,22 +20,19 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)A;
 - (struct SSPoint);
 - (struct SSPoint);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
+- (void)8@16@24@?32;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property struct CGRect conferenceDimensions; // @synthesize conferenceDimensions=_conferenceDimensions;
-@property unsigned int layerRotation; // @synthesize layerRotation=_layerRotation;
-@property struct CGPoint scrollPoint; // @synthesize scrollPoint=_scrollPoint;
-@property(readonly, getter=isUsingAVCMediaStream) _Bool usingAVCMediaStream;
 
 @end
 

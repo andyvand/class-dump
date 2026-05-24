@@ -14,7 +14,6 @@
 
 
 // Remaining properties
-@property(nonatomic) long long identifierType; // @dynamic identifierType;
 @property(retain, nonatomic) NSString *string; // @dynamic string;
 @end
 

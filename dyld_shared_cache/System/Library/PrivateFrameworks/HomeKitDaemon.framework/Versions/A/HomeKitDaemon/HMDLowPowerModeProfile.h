@@ -6,26 +6,16 @@
 
 #import <HomeKitDaemon/HMDAccessoryProfile.h>
 
-@class HAPSuspendedAccessory, HMFTimer, NSString;
-@protocol HMDLowPowerModeProfileDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDLowPowerModeProfile : HMDAccessoryProfile
 {
     CDUnknownBlockType _pendingWakeBlock;
-    NSString *_clientIdentifier;
-    unsigned long long _internalState;
-    unsigned long long _internalOldState;
-    unsigned long long _retryCount;
-    HMFTimer *_backoffTimer;
-    id <HMDLowPowerModeProfileDelegate> _delegate;
-    HAPSuspendedAccessory *_suspendedAccessory;
-    HMFTimer *_waitForWakeTimer;
-    NSString *_logIdentifier;
 }
 
 + (id);
-+ (id);
++ (id)decodeBoolForKey:(id)arg1;
 + (id)%óÿ´$âKE;
 - (void);
 - (void);
@@ -35,25 +25,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)typeAsString: /* Error: Ran out of types for this method. */;
+- (id)_synchronize;
+- (CDUnknownBlockType)_processFetchedServiceName:forHandle:permittedServiceNames: /* Error: Ran out of types for this method. */;
+- (id)transitLineItem;
+- (unsigned long long)blic}@;
+- (id);
+- (id);
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)g;
 - (void);
 - (void);
 - (void);
@@ -83,7 +73,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)hv;
 - (void)accessories:(id)arg1 %@;
 - (id)%lu;
 - (void)ing.session.timeline.manager;
@@ -94,23 +84,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMFTimer *backoffTimer; // @synthesize backoffTimer=_backoffTimer;
 @property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDLowPowerModeProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long internalOldState; // @synthesize internalOldState=_internalOldState;
-@property(nonatomic) unsigned long long internalState; // @synthesize internalState=_internalState;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType pendingWakeBlock; // @synthesize pendingWakeBlock=_pendingWakeBlock;
-@property(nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPSuspendedAccessory *suspendedAccessory; // @synthesize suspendedAccessory=_suspendedAccessory;
-@property(retain, nonatomic) HMFTimer *waitForWakeTimer; // @synthesize waitForWakeTimer=_waitForWakeTimer;
 
 @end
 

@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString, WBSOpenSearchURLTemplate, WBSURLSuffixChecker;
+@class WBSURLSuffixChecker;
 
 @interface WBSSearchProvider
 {
     WBSURLSuffixChecker *_suffixChecker;
-    NSString *_queryKey;
-    NSDictionary *_templateStringParameterValues;
-    _Bool _usesSearchTermsFromFragment;
-    _Bool _usesSecureSearchURL;
-    int _parsecSearchResultType;
-    long long _searchID;
-    NSString *_searchEngineIdentifier;
-    NSString *_shortName;
-    NSString *_displayName;
-    WBSOpenSearchURLTemplate *_searchURLTemplate;
-    WBSOpenSearchURLTemplate *_safeSearchURLTemplate;
-    NSDictionary *_safeSearchURLQueryParameters;
-    WBSOpenSearchURLTemplate *_suggestionsURLTemplate;
-    NSArray *_hostSuffixes;
-    NSArray *_pathPrefixes;
-    NSString *_carrierInfo;
-    NSSet *_homepageURLs;
-    NSArray *_languages;
-    NSArray *_userRegions;
-    NSDictionary *_topLevelDomains;
-    NSString *_scriptName;
-    NSString *_groupIdentifierQueryStringKey;
-    NSString *_parsecSearchIdentifier;
-    NSString *_parsecSearchSuggestionIdentifier;
-    unsigned long long _parsecSearchEndpointType;
 }
 
 + (id);
@@ -56,17 +31,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)ID;
 - (_Bool);
 - (id);
-- (id);
+- (id)";
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -85,43 +60,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)eAllFocusObserversForWebView: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)removeAllFocusObserversForWebView: /* Error: Ran out of types for this method. */;
 - (id)h?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken,WBSTelephoneLocalSuffixOrderedPartToken]):3===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):4===e.length?(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken],e[4].ControlOrderedParts=[WBSTelephoneExtensionOrderedPartToken]),k=e.length;continue}if(B===WBSContactBirthdayClassificationToken){const o=this.continuingFieldsInFormControls(t,S,!1,!1),r=o.length>1?++u:void 0,n=e.RequestType===WBSFormMetadataRequestTesting?"en-US":void 0;this.classifyDateFields(o,WBSContactBirthdayClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,WBSDateDayOrderedPartToken,r,n),k=o.length;continue}o.ControlClassification=B}else o.ControlLooksLikeEIDField?o.ControlClassification=WBSDeviceEIDClassificationToken:o.ControlLooksLikeIMEIField&&(o.ControlClassification=WBSDeviceIMEIClassificationToken);else f=!0,o.ControlClassification=WBSCreditCardTypeClassificationToken;else h=!0,o.ControlClassification=WBSCreditCardSecurityCodeClassificationToken}}}globalThis.FormMetadataClassificationJS=new FormMetadataClassification;
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *carrierInfo; // @synthesize carrierInfo=_carrierInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *groupIdentifierQueryStringKey; // @synthesize groupIdentifierQueryStringKey=_groupIdentifierQueryStringKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSSet *homepageURLs; // @synthesize homepageURLs=_homepageURLs;
-@property(readonly, copy, nonatomic) NSArray *hostSuffixes; // @synthesize hostSuffixes=_hostSuffixes;
-@property(readonly, copy, nonatomic) NSArray *languages; // @synthesize languages=_languages;
 @property(readonly, nonatomic) unsigned long long parsecSearchEndpointType; // @synthesize parsecSearchEndpointType=_parsecSearchEndpointType;
-@property(readonly, copy, nonatomic) NSString *parsecSearchIdentifier; // @synthesize parsecSearchIdentifier=_parsecSearchIdentifier;
-@property(readonly, nonatomic) int parsecSearchResultType; // @synthesize parsecSearchResultType=_parsecSearchResultType;
-@property(readonly, copy, nonatomic) NSString *parsecSearchSuggestionIdentifier; // @synthesize parsecSearchSuggestionIdentifier=_parsecSearchSuggestionIdentifier;
-@property(readonly, copy, nonatomic) NSArray *pathPrefixes; // @synthesize pathPrefixes=_pathPrefixes;
-@property(readonly, copy, nonatomic) NSDictionary *safeSearchURLQueryParameters; // @synthesize safeSearchURLQueryParameters=_safeSearchURLQueryParameters;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *safeSearchURLTemplate; // @synthesize safeSearchURLTemplate=_safeSearchURLTemplate;
-@property(readonly, copy, nonatomic) NSString *scriptName; // @synthesize scriptName=_scriptName;
-@property(readonly, copy, nonatomic) NSString *searchEngineIdentifier; // @synthesize searchEngineIdentifier=_searchEngineIdentifier;
-@property(readonly, nonatomic) long long searchID; // @synthesize searchID=_searchID;
-@property(readonly, nonatomic) _Bool searchShouldUseSafeSearchTemplate;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *searchURLTemplate; // @synthesize searchURLTemplate=_searchURLTemplate;
-@property(readonly, copy, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *suggestionsURLTemplate; // @synthesize suggestionsURLTemplate=_suggestionsURLTemplate;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDictionary *topLevelDomains; // @synthesize topLevelDomains=_topLevelDomains;
-@property(readonly, copy, nonatomic) NSArray *userRegions; // @synthesize userRegions=_userRegions;
-@property(readonly, nonatomic) _Bool usesSearchTermsFromFragment; // @synthesize usesSearchTermsFromFragment=_usesSearchTermsFromFragment;
-@property(readonly, nonatomic) _Bool usesSecureSearchURL; // @synthesize usesSecureSearchURL=_usesSecureSearchURL;
 
 @end
 

@@ -6,29 +6,15 @@
 
 #import <IMSharedUtilities/IMItem.h>
 
-@class NSDictionary, NSString;
-
 @interface IMGroupActionItem : IMItem
 {
     unsigned int _errorCode;
-    long long _actionType;
-    NSString *_otherCountryCode;
-    NSString *_otherHandle;
-    NSString *_otherUnformattedID;
-    NSDictionary *_messageSummaryInfo;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSDictionary *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
-@property(copy, nonatomic) NSDictionary *mmcsInfo;
-@property(retain, nonatomic) NSString *otherCountryCode; // @synthesize otherCountryCode=_otherCountryCode;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSString *otherUnformattedID; // @synthesize otherUnformattedID=_otherUnformattedID;
-@property(nonatomic) _Bool unattributed;
 
 @end
 

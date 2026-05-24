@@ -7,9 +7,6 @@
 @interface NewsAnalytics.PortraitEventProcessor
 {
     id jsonDecoder;
-    id topicStore;
-    id kPortraitTopicStoreClientIdentifier;
-    id kPortraitFeedbackMappingID;
 }
 
 @end

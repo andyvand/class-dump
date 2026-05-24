@@ -6,19 +6,14 @@
 
 #import <NetworkExtension/NEIKEv2RequestContext.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface NEIKEv2DeleteIKEContext : NEIKEv2RequestContext
 {
     _Bool _responseNeeded;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CDUnknownBlockType _callback;
 }
 
 - (void);
-- (id);
-- (void)s: /* Error: Ran out of types for this method. */;
+- (id)from SFNoThrowAsyncSequence {error: /* Error: Ran out of types for this method. */;
+- (void)setProposals: /* Error: Ran out of types for this method. */;
 - (int)scoped ifindex %lu;
 
 @end

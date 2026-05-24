@@ -6,21 +6,19 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSDictionary, NSString;
+@class ACAccount, NSString;
 
 @interface AALoginAccountRequest : AARequest
 {
     ACAccount *_account;
-    NSDictionary *_delegatesInfo;
-    NSString *_serverInfo;
 }
 
 + (Class);
-- (id);
-- (id);
-- (void)gValue;
-- (void)udTermsDisagreeResponse;
-- (id)eue;
+- (id)scheme = %s;
+- (id);
+- (void)longLongValue;
+- (void)AAiCloudTermsDisagreeResponse;
+- (id)upgradeTermsQueue;
 - (id)årë¸(sdzsþBp¯á4?pæ+ý¢R(OÀDâo)\¥E'>zy*îX=ëßì"Wä^ÏÉðå%ß"qúpÞýØ©¸Å4&ô½¦Ú¦ªJùg¿Ó$¹«M¨©ïÛÄEÐe¨	E¦ý	×Z«^yb¤¤°_GDd¹oÖ6PE@«Ó,@7_'ÒË±Cìü%¡1®BLA¾Þ-3½L»Þà/·jã¡K¸MlõáÐ±£®^áB=¦qÂç±ÁY>­]ZÀ¸È¬ä<§vkîÃúK*bsxø1¾aåÜOY8Á`5cëãëË;
 
 // Remaining properties

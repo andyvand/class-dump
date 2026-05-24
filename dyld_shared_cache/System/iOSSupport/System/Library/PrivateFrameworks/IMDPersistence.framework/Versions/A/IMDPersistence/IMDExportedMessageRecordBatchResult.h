@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMDExportedMessageRecordBatchResult
 {
     id pendingAssociations;
-    id missingMessageGUIDs;
-    id messageRecords;
-    id chatRecords;
-    id handleRecords;
-    id attachmentRecords;
-    id messageIDToAssociations;
-    id exportedMessageIDs;
 }
 
 + (_Bool);
@@ -31,11 +24,6 @@
 - (void)TRIGGER:Before deleting attachment, updated attributedBody and text /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *attachmentRecords;
-@property(nonatomic, readonly) NSDictionary *chatRecords;
-@property(nonatomic, readonly) NSArray *exportedMessageIDs;
-@property(nonatomic, readonly) NSDictionary *handleRecords;
-@property(nonatomic, readonly) NSDictionary *messageIDToAssociations;
 @property(nonatomic, readonly) NSDictionary *messageRecords;
 
 @end

@@ -7,16 +7,19 @@
 @class UIFont, UITableViewIndex;
 
 @protocol UITableViewIndexVisualStyle
+- (UITableViewIndex *)5;
+- (double)R))a
+!;
 - (double)g1Â0@ù
 × ;
 - (UIFont *)¨ª;
 - (void)__percentFullHeight;
 
+@optional
+- (void);
+- (void)O;
+
 // Remaining properties
-@property(retain, nonatomic) UIFont *font;
-@property(readonly, nonatomic) double indexWidth;
-@property(readonly, nonatomic) double lineSpacing;
-@property(readonly, nonatomic) double minLineSpacing;
 @property(nonatomic) __weak UITableViewIndex *tableViewIndex;
 @end
 

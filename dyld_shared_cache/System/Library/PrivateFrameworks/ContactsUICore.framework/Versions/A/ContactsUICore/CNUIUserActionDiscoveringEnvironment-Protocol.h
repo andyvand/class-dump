@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNUIIDSContactPropertyResolver;
-@protocol CNCapabilities, CNLSApplicationWorkspace, CNMCProfileConnection, CNSchedulerProvider, CNTUCallProviderManager, CNUIDefaultUserActionFetcher, CNUIRTTUtilities, CNUIUserActionTargetDiscovering;
+@protocol CNLSApplicationWorkspace, CNMCProfileConnection, CNSchedulerProvider;
 
 @protocol CNUIUserActionDiscoveringEnvironment
-- (CNContactStore *);
+- (id <CNMCProfileConnection>)webViewWebContentProcessDidTerminate: /* Error: Ran out of types for this method. */;
+- (id <CNLSApplicationWorkspace>)componentsFromString: /* Error: Ran out of types for this method. */;
+- (id <CNSchedulerProvider>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace;
-@property(readonly, nonatomic) id <CNTUCallProviderManager> callProviderManager;
-@property(readonly, nonatomic) id <CNCapabilities> capabilities;
-@property(readonly, nonatomic) CNContactStore *contactStore;
-@property(readonly, nonatomic) id <CNUIDefaultUserActionFetcher> defaultUserActionFetcher;
-@property(readonly, nonatomic) id <CNSchedulerProvider> highLatencySchedulerProvider;
-@property(readonly, nonatomic) CNUIIDSContactPropertyResolver *idsContactPropertyResolver;
-@property(readonly, nonatomic) id <CNMCProfileConnection> profileConnection;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider;
-@property(readonly, nonatomic) id <CNUIUserActionTargetDiscovering> targetDiscoveringHelper;
-@property(readonly, nonatomic) id <CNUIRTTUtilities> ttyUtilities;
 @end
 

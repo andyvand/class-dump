@@ -7,13 +7,6 @@
 @interface NewsFeed.WebEmbedDataSourceCache
 {
     id sportsLiveActivityManager;
-    id delegate;
-    id jsonCache;
-    id datastoreCache;
-    id cacheKeyMap;
-    id queue;
-    id operationQueue;
-    id observationTasks;
 }
 
 @end

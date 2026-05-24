@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface EDTwoCellAnchor : EDAnchor
 {
     struct EDCellAnchorMarker mFrom;
-    struct EDCellAnchorMarker mTo;
-    _Bool mIsRelative;
-    int mEditAs;
 }
 
 - (void);
-- (void);
+- (void) ;
 - (int);
 - (void);
 - (void);
 - (struct EDCellAnchorMarker);
 - (struct EDCellAnchorMarker);
-- (id);
+- (id),N,V_assetEvent;
 - (_Bool);
 - (id);
 

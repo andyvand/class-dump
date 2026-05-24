@@ -12,7 +12,7 @@
 
 + (void)g init! Quarantining Powerlog...;
 - (_Bool);
-- (id);
+- (id)tacts configured for Family, not sending event to Core Anlaytics;
 
 @end
 

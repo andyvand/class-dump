@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFPineBoardSystemStateObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_pineBoardStateGroup;
-    long long _pineBoardStateGroupDepth;
-    long long _pineBoardSystemState;
-    NSHashTable *_listeners;
 }
 
 + (id);
-- (long long);
+- (long long)RL;
 - (id);
 - (void);
 - (void);

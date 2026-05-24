@@ -7,6 +7,8 @@
 @protocol AVCAudioStreamDelegate
 
 @optional
+- (void)!";
+- (void);
 - (void)@L;
 @end
 

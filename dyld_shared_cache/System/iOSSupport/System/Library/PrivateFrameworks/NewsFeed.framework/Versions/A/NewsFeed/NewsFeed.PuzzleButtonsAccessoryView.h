@@ -7,8 +7,6 @@
 @interface NewsFeed.PuzzleButtonsAccessoryView
 {
     id identifier;
-    id height;
-    id spacing;
 }
 
 - (id);

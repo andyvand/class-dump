@@ -9,6 +9,6 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 @end
 

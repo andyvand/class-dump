@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_actionPropertyListDictionary;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)updateActiveNicknameRecords:(id)arg1;
+- (void)initWithIDSDestination:(SEL)arg1 latestDate:(id)arg2 latestReadReceiptDate:hasReceivedReadReceipt: /* Error: Ran out of types for this method. */;
+- (void)initWithGUID:(id)arg1 flag:lane:reason:userInfo:retryCount: /* Error: Ran out of types for this method. */;
+- (id)ersation:(SEL)arg1;
+- (_Bool)_relayMessageDict:(id)arg1 command:messageID:forcedCallerID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:sentToDevices:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (id)TimeRestrictions:(id)arg1 hasAttachments:sentToDevices:extraOptions:requiredCapabilities: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool)dsIntoBoundary:(id)arg1;
+- (_Bool)setTranslatesReferenceBoundsIntoBoundary:(id)arg1;
 - (id)style;
 - (id)an only be one UIApplication instance.;
 - (void)ÀPWþ;

@@ -7,8 +7,6 @@
 @interface RTCUtility.XPCConnection
 {
     id conn;
-    id delegate;
-    id targetQ;
 }
 
 @end

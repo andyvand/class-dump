@@ -9,8 +9,6 @@
 @interface WBSOnDeviceSearchSuggestionsModel
 {
     NSFileHandle *_modelFileHandle;
-    unsigned int _scoreSize;
-    unsigned int _addressSize;
 }
 
 - (unsigned int);
@@ -19,12 +17,11 @@
 - (unsigned int);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)a;
 - (_Bool);
 - (void)@¨;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int addressSize; // @synthesize addressSize=_addressSize;
 @property(readonly, nonatomic) unsigned int scoreSize; // @synthesize scoreSize=_scoreSize;
 
 @end

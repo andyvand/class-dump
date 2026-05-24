@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFReferentialCommand;
+@class SFReferentialCommand;
 
 @protocol SFCommandValue
+- (SFReferentialCommand *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFReferentialCommand *referentialCommand;
 @end
 

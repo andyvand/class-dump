@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface PKInterpolateColorAnimation
 {
     double _sourceRGBA[4];
-    double _destRGBA[4];
-    double _startTime;
-    double _duration;
-    UIColor *_endColorFallback;
 }
 
 - (id);

@@ -9,7 +9,6 @@
 @interface FCSelectorValue
 {
     NSString *_selector;
-    NSString *_value;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *selector; // @synthesize selector=_selector;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

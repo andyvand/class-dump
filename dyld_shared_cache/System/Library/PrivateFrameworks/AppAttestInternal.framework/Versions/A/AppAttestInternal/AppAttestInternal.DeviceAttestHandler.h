@@ -7,15 +7,11 @@
 @interface AppAttestInternal.DeviceAttestHandler
 {
     id $__lazy_storage_$_eligibilityManager;
-    id $__lazy_storage_$_identityManager;
-    id $__lazy_storage_$_attestationManager;
-    id auditToken;
-    id logger;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)contextWithAccount:(CDStruct_6ad76789)arg1 andTransaction: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 

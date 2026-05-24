@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaDictationEndPointStop : SISchemaInstrumentationMessage
 {
     int _dictationEndPointType;
-    CDStruct_78ff2909 _has;
 }
 
 - (void);
@@ -21,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)hasAnyMacOSCompatibleIOSVersion;
+- (_Bool)ccessoryViewProvider.m;
+- (_Bool)handle_id from chat_handle_join where chat_id = ? ORDER BY handle_id ASC;
 - (id);
-- (id);
-- (id)tream;
-- (id)tionProtocol;
+- (id);
+- (id)deleteAudioPacketContainingEndOfFirstWordReadyUpstream;
+- (id)_communicationProtocol;
 
 // Remaining properties
 @property(nonatomic) int dictationEndPointType; // @synthesize dictationEndPointType=_dictationEndPointType;
-@property(nonatomic) _Bool hasDictationEndPointType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

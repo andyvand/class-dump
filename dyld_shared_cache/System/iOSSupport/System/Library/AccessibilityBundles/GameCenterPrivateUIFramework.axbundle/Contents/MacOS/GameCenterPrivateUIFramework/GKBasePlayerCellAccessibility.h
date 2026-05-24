@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)UINavigationButtonAccessibility__PhotoLibrary__UIKit;
 - (_Bool);
 - (id);
 

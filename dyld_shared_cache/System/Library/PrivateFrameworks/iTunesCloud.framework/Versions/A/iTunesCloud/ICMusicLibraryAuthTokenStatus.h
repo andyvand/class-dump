@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicLibraryAuthToken, NSDate, NSError, NSString;
+@class ICMusicLibraryAuthToken;
 
 @interface ICMusicLibraryAuthTokenStatus
 {
     _Bool _shouldExcludeFromBackgroundRefresh;
-    _Bool _frozen;
-    ICMusicLibraryAuthToken *_token;
-    NSError *_lastError;
-    NSDate *_lastUpdatedDate;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)EXTENDED_ERROR_DATA;
+- (void);
+- (id);
+- (void)`;
+- (void)-;
+- (id)setOwnerPasswordErrorMsg: /* Error: Ran out of types for this method. */;
+- (_Bool)t(textureSampler1,aoTexCoord).x;
+	}
+	
+	//accum = texture2DRect(textureSampler1,TexCoord).x;
+	gl_FragColor =	vec4(accum,accum,accum,1.0) * texture2DRect(textureSampler0,TexCoord);
+	};
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)moteRequestingService;
+- (void)ICMusicSubscriptionStatusRemoteRequestingService;
 - (id)=NO %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(copy, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(nonatomic) _Bool shouldExcludeFromBackgroundRefresh; // @synthesize shouldExcludeFromBackgroundRefresh=_shouldExcludeFromBackgroundRefresh;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ICMusicLibraryAuthToken *token; // @synthesize token=_token;
 
 @end

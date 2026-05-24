@@ -10,10 +10,10 @@
 {
 }
 
+- (id)C+�"_pG;
+- (id)PixelBufferReceiver;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)yE`;
 
 @end
 

@@ -14,13 +14,13 @@
 + (id);
 + (_Bool);
 + (id);
-+ (double);
-+ (double);
++ (double)a!;
++ (double)!;
 + (id);
-+ (id);
++ (id)	J(;
 + (id);
 + (struct _NSRange);
-+ (unsigned long long);
++ (unsigned long long);
 + (unsigned long long);
 
 @end

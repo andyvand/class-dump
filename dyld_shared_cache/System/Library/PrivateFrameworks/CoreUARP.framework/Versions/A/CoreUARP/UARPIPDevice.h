@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log, UARPIPDeviceDelegate;
+@protocol UARPIPDeviceDelegate;
 
 @interface UARPIPDevice
 {
     id <UARPIPDeviceDelegate> _delegate;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_recvSource;
-    struct sockaddr *_socketAddress;
-    int _socketFileDescriptor;
-    unsigned char _socketAddressFamily;
-    unsigned int _socketAddressLength;
 }
 
 - (_Bool);

@@ -6,22 +6,10 @@
 
 #import <GameController/GCRacingWheel.h>
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _GCLogitechRacingWheel : GCRacingWheel
 {
     struct __IOHIDDevice *_device;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isOpen;
-    int _mode;
-    union {
-        struct LogitechWheelG920Report g920;
-        struct LogitechWheelG29ClassicReport g29Classic;
-        unsigned char raw[64];
-    } _report;
-    NSArray *_eventObservers;
 }
 
 - (void);
@@ -33,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

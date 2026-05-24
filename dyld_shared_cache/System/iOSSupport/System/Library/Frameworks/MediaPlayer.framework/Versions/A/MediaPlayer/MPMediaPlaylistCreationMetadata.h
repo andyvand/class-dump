@@ -9,9 +9,6 @@
 @interface MPMediaPlaylistCreationMetadata
 {
     NSString *_defaultAuthorDisplayName;
-    NSString *_name;
-    NSString *_authorDisplayName;
-    NSString *_descriptionText;
 }
 
 - (void);
@@ -24,8 +21,6 @@
 - (void)DidEnd;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *authorDisplayName; // @synthesize authorDisplayName=_authorDisplayName;
-@property(copy, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

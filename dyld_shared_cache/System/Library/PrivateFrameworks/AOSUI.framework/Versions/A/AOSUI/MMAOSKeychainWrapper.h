@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MMAOSKeychainWrapper
 {
     NSString *_accountName;
-    NSString *_serviceName;
-    NSLock *_lock;
-    _Bool _userCanceledKeychainUnlock;
 }
 
 + (id);
@@ -27,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)M;
 - (void);
-- (id);
+- (id)CS;
 - (void)
 × ;
-- (void)ngForKey:(id)arg1 value:table: /* Error: Ran out of types for this method. */;
+- (void)localizedStringForKey:(id)arg1 value:table: /* Error: Ran out of types for this method. */;
 
 @end
 

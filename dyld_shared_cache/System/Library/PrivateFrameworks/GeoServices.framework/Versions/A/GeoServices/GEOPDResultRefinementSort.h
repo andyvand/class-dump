@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementSort
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayName;
-    NSMutableArray *_sorts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _defaultSelectedElementIndex;
-    unsigned int _selectedElementIndex;
-    struct {
-        unsigned int has_defaultSelectedElementIndex:1;
-        unsigned int has_selectedElementIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayName:1;
-        unsigned int read_sorts:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)acceptEagerResultWithFeatures:featuresToLog: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id)eCoordinateRange={PolylineCoordinate=If}{PolylineCoordinate=If}}24@0:(struct _NSZone *)arg1 8Q16;
-- (id)rrence;
+- (id)_occurrence;
 - (id)p;
 - (void);
 

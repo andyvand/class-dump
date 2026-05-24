@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCoreLocationHintMetadata
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_coreLocationHints;
 }
 
 - (id);

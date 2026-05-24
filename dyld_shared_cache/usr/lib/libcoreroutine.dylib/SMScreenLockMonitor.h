@@ -10,12 +10,10 @@
 @interface SMScreenLockMonitor
 {
     int _screenLockNotificationToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handler;
 }
 
 - (int);
-- (void);
+- (void)PCSManateePrivateKey;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -23,9 +21,7 @@
 - (void)val,startDate,%@,endDate,%@,chunkInterval,%@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) int screenLockNotificationToken; // @synthesize screenLockNotificationToken=_screenLockNotificationToken;
 
 @end
 

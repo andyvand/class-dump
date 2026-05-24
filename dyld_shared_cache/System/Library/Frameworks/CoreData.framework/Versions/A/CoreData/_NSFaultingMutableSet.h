@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSPropertyDescription;
+@class NSManagedObject;
 
 __attribute__((visibility("hidden")))
 @interface _NSFaultingMutableSet
 {
     int _cd_rc;
-    struct _NSFaultingMutableSetFlags _flags;
-    id _realSet;
-    NSManagedObject *_source;
 }
 
 + (id)TE FROM Z_METADATA where Z_VERSION = 999;
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (Class);
 - (void);
@@ -34,40 +31,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)\�;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id)_listenerEndpoint;
+- (_Bool)@;
+- (id);
+- (id);
+- (void);
+- (void)qa	;
+- (_Bool);
+- (id)+;
+- (void);
+- (void);
 - (unsigned long long);
 - (id)th user defaults value "%@"
 ;
-- (id)itMirroringDelegateCheckedCKIdentityDefaultsKey;
+- (id)NSCloudKitMirroringDelegateCheckedCKIdentityDefaultsKey;
 - (unsigned long long)Trigger.m;
 - (void)eturn key for database encryption (error %d);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFault) _Bool fault;
-@property(readonly, nonatomic) NSPropertyDescription *relationship;
 @property(readonly, nonatomic) NSManagedObject *source;
 
 @end

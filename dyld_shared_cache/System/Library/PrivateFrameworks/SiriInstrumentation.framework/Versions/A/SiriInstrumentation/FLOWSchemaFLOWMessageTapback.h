@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWMessageTapback : SISchemaInstrumentationMessage
 {
     _Bool _isTapback;
-    _Bool _isTapbackRemoved;
-    _Bool _isGUITapback;
-    _Bool _tapbackWasChanged;
-    struct {
-        unsigned int isTapback:1;
-        unsigned int isTapbackRemoved:1;
-        unsigned int isGUITapback:1;
-        unsigned int tapbackWasChanged:1;
-    } _has;
 }
 
 - (_Bool);
@@ -42,7 +31,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)APFSVolumeGetVEKState;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -53,15 +42,7 @@
 - (id)¨JüJ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsGUITapback;
-@property(nonatomic) _Bool hasIsTapback;
-@property(nonatomic) _Bool hasIsTapbackRemoved;
-@property(nonatomic) _Bool hasTapbackWasChanged;
-@property(nonatomic) _Bool isGUITapback; // @synthesize isGUITapback=_isGUITapback;
 @property(nonatomic) _Bool isTapback; // @synthesize isTapback=_isTapback;
-@property(nonatomic) _Bool isTapbackRemoved; // @synthesize isTapbackRemoved=_isTapbackRemoved;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool tapbackWasChanged; // @synthesize tapbackWasChanged=_tapbackWasChanged;
 
 @end
 

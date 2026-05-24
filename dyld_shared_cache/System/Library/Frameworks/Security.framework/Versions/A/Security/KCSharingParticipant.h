@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface KCSharingParticipant
 {
     _Bool _isCurrentUser;
-    NSString *_participantID;
-    NSString *_handle;
-    long long _permissionLevel;
-    long long _inviteStatus;
-    KCSharingParticipant *_invitedBy;
-    NSData *_sharingInvitationData;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (long long);
@@ -27,30 +21,21 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id);
+- (id)*!;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)uration error;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *JSONObject;
-@property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) long long inviteStatus; // @synthesize inviteStatus=_inviteStatus;
-@property(readonly, nonatomic) __weak KCSharingParticipant *invitedBy; // @synthesize invitedBy=_invitedBy;
-@property(readonly, nonatomic) _Bool isCurrentUser; // @synthesize isCurrentUser=_isCurrentUser;
-@property(readonly, nonatomic) _Bool isOwner;
 @property(readonly, copy, nonatomic) NSString *longDescription;
-@property(readonly, copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(nonatomic) long long permissionLevel; // @synthesize permissionLevel=_permissionLevel;
-@property(readonly, nonatomic) NSData *sharingInvitationData; // @synthesize sharingInvitationData=_sharingInvitationData;
 
 @end
 

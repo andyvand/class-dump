@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRBoardColumnCollectionViewLayoutHelper
 {
     id itemClusters;
-    id topLevelItemSpacing;
-    id subtaskSpacing;
 }
 
 @end

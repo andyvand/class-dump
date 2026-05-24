@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDDevice, HMDHomeRemoteEventRouterClientController, NSNotificationCenter;
+@protocol HMELastEventStoreReadHandle, HMELastEventStoreWriteHandle;
+
 @protocol HMDHomeRemoteEventRouterClientControllerDataSource
+- (void);
+- (NSNotificationCenter *);
+- (_Bool);
+- (id <HMELastEventStoreWriteHandle>)_fetchSharingIdentityWithCompletion:(HMDHomeRemoteEventRouterClientController *)arg1;
+- (id <HMELastEventStoreReadHandle>)_fetchRequiresUserConfirmationOfSharingIdentityWithCompletion:(HMDHomeRemoteEventRouterClientController *)arg1;
+- (void)_verifyCurrentlyBlockedStatuses;
+- (HMDDevice *)s;
+- (HMDDevice *)N;
+- (void)reason:(HMDHomeRemoteEventRouterClientController *)arg1 %lu;
+- (void)le for initial state;
+- (void)ublic}@] only %lu/%lu participants are currently reachable for initial state;
 @end
 

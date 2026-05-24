@@ -4,54 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLogMsgEventLogDiscard
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_certificates;
-    NSData *_signature;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _trigger;
-    struct {
-        unsigned int has_trigger:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_certificates:1;
-        unsigned int read_signature:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)SslConnectionCount:(id)arg1;
++ (_Bool)setHasSslConnectionCount:(id)arg1;
 - (id);
 - (void);
 - (_Bool);
+- (void)fileURLWithPath:isDirectory: /* Error: Ran out of types for this method. */;
+- (unsigned long long)displayFormatterForComponents: /* Error: Ran out of types for this method. */;
+- (id)disableSuddenTermination;
+- (void)ty;
+- (int)e;
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)Aborting retries.;
+- (void);
+- (_Bool);
+- (id);
 - (unsigned long long);
+- (_Bool)o allocate NSMutableDictionary.;
+- (_Bool)";
 - (id);
 - (void);
-- (int);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id)ndPathPointIndex:(struct _NSZone *)arg1;
-- (id)pe;
+- (id)setStepEndPathPointIndex:(struct _NSZone *)arg1;
+- (id)childActionType;
 - (id)ater than number of paths. This is an error from the caller. Returning 0.;
 - (id)ÿÿ;
 - (id)@;
@@ -63,11 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *certificates;
-@property(readonly, nonatomic) _Bool hasSignature;
-@property(nonatomic) _Bool hasTrigger;
-@property(retain, nonatomic) NSData *signature;
-@property(nonatomic) int trigger;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

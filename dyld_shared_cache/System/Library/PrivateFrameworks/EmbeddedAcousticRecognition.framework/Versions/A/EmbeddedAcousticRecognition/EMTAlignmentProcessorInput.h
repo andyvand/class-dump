@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EMTAlignmentProcessorInput
 {
     NSString *_sourceText;
-    NSArray *_sourceTokens;
-    NSArray *_targetTokens;
-    NSString *_targetText;
-    NSArray *_spans;
-    NSArray *_wordTokens;
 }
 
 - (id);
@@ -27,11 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *sourceText; // @synthesize sourceText=_sourceText;
-@property(readonly, copy, nonatomic) NSArray *sourceTokens; // @synthesize sourceTokens=_sourceTokens;
-@property(readonly, copy, nonatomic) NSArray *spans; // @synthesize spans=_spans;
-@property(readonly, copy, nonatomic) NSString *targetText; // @synthesize targetText=_targetText;
-@property(readonly, copy, nonatomic) NSArray *targetTokens; // @synthesize targetTokens=_targetTokens;
-@property(readonly, copy, nonatomic) NSArray *wordTokens; // @synthesize wordTokens=_wordTokens;
 
 @end
 

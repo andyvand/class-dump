@@ -5,5 +5,9 @@
 //
 
 @protocol NLModelTrainerDelegate
+
+@optional
+- (_Bool)LocalizedSelectableScripts;
+- (void)Aran;
 @end
 

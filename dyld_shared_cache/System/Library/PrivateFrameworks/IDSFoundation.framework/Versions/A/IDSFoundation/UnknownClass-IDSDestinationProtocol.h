@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IDSDestinationProtocol)
-- (id)sDeliveryStatusKey;
+- (id)IDSSendParametersWantsDeliveryStatusKey;
 - (id);
 @end
 

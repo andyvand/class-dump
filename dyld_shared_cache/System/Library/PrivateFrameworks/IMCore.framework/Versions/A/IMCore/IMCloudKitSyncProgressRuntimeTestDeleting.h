@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)Rules:(id)arg1 Failed to create rules array;
 
 @end
 

@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSMutableDictionary, NSNumber, NSObject, NSString;
-@protocol NSObject, OS_dispatch_queue;
-
 @interface BUAccountsProvider
 {
     struct os_unfair_lock_s _observersLock;
-    struct os_unfair_lock_s _storeAccountCacheLock;
-    struct os_unfair_lock_s _appleAccountCacheLock;
-    struct os_unfair_lock_s _tccObserverLock;
-    int _tccObserverToken;
-    ACAccount *_primaryAppleAccount;
-    ACAccount *_activeStoreAccount;
-    ACAccount *_localStoreAccount;
-    id <NSObject> _appleAccountDidChangeNotificationRegisteredToken;
-    id <NSObject> _storeAccountDidChangeNotificationRegisteredToken;
-    NSNumber *_cachedIsPrimaryAccountManagedAppleID;
-    NSNumber *_cachedIsStoreAccountManagedAppleID;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    NSMutableDictionary *_notifyBlocks;
-    NSMutableDictionary *_observerHashTables;
-    NSMutableDictionary *_accountIdentifiers;
 }
 
 + (id);
@@ -32,7 +14,7 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void).>;
 - (void);
 - (void);
 - (void);
@@ -52,22 +34,22 @@
 - (void);
 - (void);
 - (id);
+- (id)r/;
 - (id);
 - (id);
+- (id)G;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)h;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -81,47 +63,18 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)};
+- (void)initWithTranscriptCollectionViewController:(id)arg1;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *accountIdentifiers; // @synthesize accountIdentifiers=_accountIdentifiers;
-@property(retain, nonatomic) ACAccount *activeStoreAccount; // @synthesize activeStoreAccount=_activeStoreAccount;
-@property(retain, nonatomic) id <NSObject> appleAccountDidChangeNotificationRegisteredToken; // @synthesize appleAccountDidChangeNotificationRegisteredToken=_appleAccountDidChangeNotificationRegisteredToken;
-@property(copy, nonatomic) NSNumber *cachedIsPrimaryAccountManagedAppleID; // @synthesize cachedIsPrimaryAccountManagedAppleID=_cachedIsPrimaryAccountManagedAppleID;
-@property(copy, nonatomic) NSNumber *cachedIsStoreAccountManagedAppleID; // @synthesize cachedIsStoreAccountManagedAppleID=_cachedIsStoreAccountManagedAppleID;
-@property(readonly, copy, nonatomic) NSString *currentStorefront;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasCloudKitEntitlement;
-@property(readonly, nonatomic) _Bool hasRecommendationsEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *iCloudAccountName;
-@property(readonly, copy, nonatomic) NSString *iCloudIdentity;
-@property(readonly, nonatomic) _Bool isGlobalICloudDriveSyncOptedIn;
-@property(readonly, nonatomic) _Bool isPrimaryAccountManagedAppleID;
-@property(readonly, nonatomic) _Bool isStoreAccountManagedAppleID;
-@property(readonly, nonatomic) _Bool isUserSignedInToiCloud;
-@property(readonly, nonatomic) _Bool isUserSignedInToiTunes;
-@property(readonly, nonatomic) NSNumber *lastUsedStoreAccountID;
-@property(retain, nonatomic) ACAccount *localStoreAccount; // @synthesize localStoreAccount=_localStoreAccount;
-@property(retain, nonatomic) NSMutableDictionary *notifyBlocks; // @synthesize notifyBlocks=_notifyBlocks;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *notifyQueue; // @synthesize notifyQueue=_notifyQueue;
-@property(retain, nonatomic) NSMutableDictionary *observerHashTables; // @synthesize observerHashTables=_observerHashTables;
-@property(retain, nonatomic) ACAccount *primaryAppleAccount; // @synthesize primaryAppleAccount=_primaryAppleAccount;
-@property(retain, nonatomic) id <NSObject> storeAccountDidChangeNotificationRegisteredToken; // @synthesize storeAccountDidChangeNotificationRegisteredToken=_storeAccountDidChangeNotificationRegisteredToken;
-@property(readonly) Class superclass;
-@property(nonatomic) int tccObserverToken; // @synthesize tccObserverToken=_tccObserverToken;
 
 @end
 

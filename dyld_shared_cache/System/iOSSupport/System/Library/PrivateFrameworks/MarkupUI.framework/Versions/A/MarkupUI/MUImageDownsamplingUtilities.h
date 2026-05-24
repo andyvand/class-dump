@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (struct CGSize);
 + (void);
 + (id);
 + (struct CGImageSource *);
-+ (double);
++ (double);
 + (_Bool);
 + (id);
 + (id);

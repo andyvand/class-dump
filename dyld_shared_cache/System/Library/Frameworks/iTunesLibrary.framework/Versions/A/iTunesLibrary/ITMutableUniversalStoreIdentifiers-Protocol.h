@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol ITMutableUniversalStoreIdentifiers
-- (unsigned long long)sE;
+- (NSArray *);
+- (unsigned long long)copyAuxiliaryImagesFromImageSource:toDestination:fromImageAtIndex:scaleFactor: /* Error: Ran out of types for this method. */;
+- (unsigned long long)s not string or boolean. TypeID is %lu.;
+- (unsigned long long)N26StoreServicesNotifications26CurrentUserPropertyChanged6ParamsE;
 
 // Remaining properties
 @property(nonatomic) unsigned long long adamID;
-@property(copy, nonatomic) NSArray *formerAdamIDs;
-@property(copy, nonatomic) NSString *globalPlaylistID;
-@property(nonatomic) unsigned long long purchasedAdamID;
-@property(nonatomic) unsigned long long reportingAdamID;
-@property(nonatomic) unsigned long long subscriptionAdamID;
-@property(copy, nonatomic) NSString *universalCloudLibraryID;
 @end
 

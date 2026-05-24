@@ -5,13 +5,11 @@
 //
 
 @class NSXPCConnection;
-@protocol MicActivityClientProtocol;
 
 __attribute__((visibility("hidden")))
 @interface MicActivityDXPCConnection
 {
     NSXPCConnection *connection;
-    id <MicActivityClientProtocol> server;
 }
 
 - (void);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)"h ;
 - (void)Èèx;
 - (id)EE;
 

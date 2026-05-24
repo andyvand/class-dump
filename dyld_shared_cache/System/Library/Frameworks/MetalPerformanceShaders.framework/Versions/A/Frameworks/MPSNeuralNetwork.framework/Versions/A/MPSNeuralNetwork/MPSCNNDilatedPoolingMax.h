@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dilationRateX;
-@property(readonly, nonatomic) unsigned long long dilationRateY;
 
 @end
 

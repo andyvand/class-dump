@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (struct CGPoint);
 - (double);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct CGPoint);
-- (double);
+- (struct CGPoint)elineComponent> Started processing;
+- (struct CGPoint)thread %@ (threadGuid %@ threadPart %@);
+- (struct CGPoint)f2DataForGroupTitleChangeItem called on object %@ %@;
+- (struct UIEdgeInsets)NamedGroupChats;
+- (struct UIEdgeInsets);-;%@;
+- (double)Array"8@"NSArray"16;
+- (struct CGPoint)e"8@"NSData"16@"NSData"24@"NSData"32@"NSError"40;
+- (double)X;
 - (double);
 - (double);
 - (double);
@@ -34,13 +34,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGPoint)
 × ;
-- (struct CGPoint)idatesInCurrentInputMode:ignoreHidePredictionTrait: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)shouldShowCandidateBarIfReceivedCandidatesInCurrentInputMode:ignoreHidePredictionTrait: /* Error: Ran out of types for this method. */;
 - (struct CGPoint)lyphRange: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ctMediaView;
-- (struct CGPoint);
+- (struct CGPoint)constructMediaView;
+- (struct CGPoint)_refreshDataSource;
 - (struct CGPoint)S;
 - (struct UIEdgeInsets)îÿ{þÿ;
-- (double)igurationBaseBackgroundColor;
+- (double)UIButtonConfigurationBaseBackgroundColor;
 
 @end
 

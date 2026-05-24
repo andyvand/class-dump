@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     long long _deletePostion;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
+- (void)saveTranslatedTranscribedTextForConversation:(long long)arg1 translatedText:isNew: /* Error: Ran out of types for this method. */;
+- (void)isRTTSupportedForContext:(id)arg1 excludeRelay: /* Error: Ran out of types for this method. */;
+- (void)isRTTSupportedForContext:(id)arg1;
+- (id)quest received on non-endpoint and non-host device. Ignoring request for call %@;
+- (long long)+[RTTConversation conversationWithCall:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 

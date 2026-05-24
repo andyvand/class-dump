@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface iconclassificationOutput
@@ -12,15 +12,14 @@ __attribute__((visibility("hidden")))
     MLMultiArray *_leaf_leaf_predictions_probabilities;
 }
 
+- (void)|;
+- (id);
+- (id);
+- (id)YQLExchangeToStocksKeyMap;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)ePosition:(id)arg1 inSeries: /* Error: Ran out of types for this method. */;
+- (id)interpolatedPitchValueForNormalizedTimePosition:(id)arg1 inSeries: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *leaf_leaf_predictions_probabilities; // @synthesize leaf_leaf_predictions_probabilities=_leaf_leaf_predictions_probabilities;
 
 @end

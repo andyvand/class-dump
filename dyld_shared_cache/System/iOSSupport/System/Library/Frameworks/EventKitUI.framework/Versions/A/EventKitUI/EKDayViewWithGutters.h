@@ -4,59 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DayTwoPartLabel, EKDayAllDayView, EKDayView, NSCalendar, NSDate, UILabel, UIView;
+@class NSCalendar, NSDate;
 
 @interface EKDayViewWithGutters
 {
     NSCalendar *_calendar;
-    EKDayAllDayView *_leftAllDayView;
-    EKDayAllDayView *_rightAllDayView;
-    long long _targetSizeClass;
-    _Bool _showWeekDayLabel;
-    _Bool _showWeekNumberLabel;
-    _Bool _showDividerLine;
-    NSDate *_currentDate;
-    UIView *_topLabelsContainer;
-    DayTwoPartLabel *_weekDayLabel;
-    UILabel *_weekNumberLabel;
-    UIView *_dividerLine;
-    UIView *_leftGutter;
-    UIView *_rightGutter;
-    EKDayView *_dayView;
-    double _gutterWidth;
-    double _allDayHeight;
 }
 
++ (id)@@;
 + (id);
 + (id);
++ (double);
 + (id);
-+ (double);
-+ (id);
-+ (id);
++ (id)tableAppShortcut;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)GKTurnBasedService>"@"<GKUtilityService>"@"<GKBulletinService>"@"<GKAnalyticsService>"@"<GKGameSessionService>"@"<GKTournamentService>">;
 - (void);
-- (void);
+- (void)ay";
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)liasest;
 - (void);
 - (double);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)__TEXT;
+- (id)e;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)outOfProcessWorkflowController:didStartFromWorkflowReference:dialogAttribution: /* Error: Ran out of types for this method. */;
+- (_Bool)WFImage;
+- (void)WFAppShortcutColorFetcherErrorDomain;
 - (id);
 - (id);
 - (id);
@@ -66,24 +50,12 @@
 - (_Bool)0@ù
 × ;
 - (void)entDetailTextCellHeaderDelegate>";
-- (void)sponse;
-- (double)edObjectIDs:updatedObjectIDs:deletedObjectIDs: /* Error: Ran out of types for this method. */;
+- (void)requestedResponse;
+- (double)mimicSaveAndCommitEvent:oldToNewObjectIDMap:insertedObjectIDs:updatedObjectIDs:deletedObjectIDs: /* Error: Ran out of types for this method. */;
 - (void)4{ûÿ;
 
 // Remaining properties
-@property(nonatomic) double allDayHeight; // @synthesize allDayHeight=_allDayHeight;
 @property(retain, nonatomic) NSDate *currentDate; // @synthesize currentDate=_currentDate;
-@property(retain, nonatomic) EKDayView *dayView; // @synthesize dayView=_dayView;
-@property(retain, nonatomic) UIView *dividerLine; // @synthesize dividerLine=_dividerLine;
-@property(nonatomic) double gutterWidth; // @synthesize gutterWidth=_gutterWidth;
-@property(readonly, nonatomic) UIView *leftGutter; // @synthesize leftGutter=_leftGutter;
-@property(readonly, nonatomic) UIView *rightGutter; // @synthesize rightGutter=_rightGutter;
-@property(nonatomic) _Bool showDividerLine; // @synthesize showDividerLine=_showDividerLine;
-@property(nonatomic) _Bool showWeekDayLabel; // @synthesize showWeekDayLabel=_showWeekDayLabel;
-@property(nonatomic) _Bool showWeekNumberLabel; // @synthesize showWeekNumberLabel=_showWeekNumberLabel;
-@property(retain, nonatomic) UIView *topLabelsContainer; // @synthesize topLabelsContainer=_topLabelsContainer;
-@property(retain, nonatomic) DayTwoPartLabel *weekDayLabel; // @synthesize weekDayLabel=_weekDayLabel;
-@property(retain, nonatomic) UILabel *weekNumberLabel; // @synthesize weekNumberLabel=_weekNumberLabel;
 
 @end
 

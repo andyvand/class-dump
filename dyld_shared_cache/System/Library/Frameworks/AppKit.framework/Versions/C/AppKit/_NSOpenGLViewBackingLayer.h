@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)a task with identifier %lu because there is no such task;
 - (void)istTouchBarItem"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)Insets:(_Bool)arg1;
-- (id)pCandidateItem;
+- (void)setHostContentSizeInsets:(_Bool)arg1;
+- (id)_invalidateDropCandidateItem;
 
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AXVLabeledBadgeView
 {
     unsigned long long __arrowOrientation;
-    unsigned long long __badgePresentation;
 }
 
 + (id);
@@ -16,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long _arrowOrientation; // @synthesize _arrowOrientation=__arrowOrientation;
-@property(nonatomic) unsigned long long _badgePresentation; // @synthesize _badgePresentation=__badgePresentation;
 
 @end
 

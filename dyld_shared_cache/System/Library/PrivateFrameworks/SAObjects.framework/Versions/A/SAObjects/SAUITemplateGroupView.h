@@ -14,8 +14,8 @@
 
 + (id);
 + (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignment;
-@property(copy, nonatomic) NSString *layoutStyle;
 
 @end
 

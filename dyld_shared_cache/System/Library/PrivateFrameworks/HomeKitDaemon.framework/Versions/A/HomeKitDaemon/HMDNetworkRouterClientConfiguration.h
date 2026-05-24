@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HMDNetworkRouterCredential, HMDNetworkRouterLANFirewallConfiguration, HMDNetworkRouterWANFirewallConfiguration, NSString, NSUUID;
+@class HAPTLVUnsignedNumberValue, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientConfiguration
 {
     HAPTLVUnsignedNumberValue *_clientIdentifier;
-    HAPTLVUnsignedNumberValue *_lanIdentifier;
-    HMDNetworkRouterCredential *_credential;
-    HMDNetworkRouterWANFirewallConfiguration *_wanFirewallConfiguration;
-    HMDNetworkRouterLANFirewallConfiguration *_lanFirewallConfiguration;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)momentInHighlight;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ister;
+- (id)anonymousUserId;
 - (id);
 - (id);
 - (void);
@@ -36,24 +32,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)ouldWaitToConfigure:(struct _NSZone *)arg1;
-- (id)riteVersion;
+- (id)isAdaptiveTemperatureAutomationsEnabledInHome:(struct _NSZone *)arg1 shouldWaitToConfigure: /* Error: Ran out of types for this method. */;
+- (id)root_doorbellChime_enabled_writeVersion;
 - (void)pple.private.homekit.state-dump;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) HMDNetworkRouterCredential *credential; // @synthesize credential=_credential;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSUUID *fingerprint;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterLANFirewallConfiguration *lanFirewallConfiguration; // @synthesize lanFirewallConfiguration=_lanFirewallConfiguration;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *lanIdentifier; // @synthesize lanIdentifier=_lanIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMDNetworkRouterWANFirewallConfiguration *wanFirewallConfiguration; // @synthesize wanFirewallConfiguration=_wanFirewallConfiguration;
 
 @end
 

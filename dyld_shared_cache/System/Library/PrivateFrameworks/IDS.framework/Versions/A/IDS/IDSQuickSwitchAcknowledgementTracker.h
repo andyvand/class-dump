@@ -9,13 +9,12 @@
 @interface IDSQuickSwitchAcknowledgementTracker
 {
     NSMutableSet *_delegateIdentifiers;
-    struct _opaque_pthread_mutex_t _delegateIdentifiersMutex;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_advertiseStateChangedHandler;
 - (_Bool);
 - (id);
 - (void);

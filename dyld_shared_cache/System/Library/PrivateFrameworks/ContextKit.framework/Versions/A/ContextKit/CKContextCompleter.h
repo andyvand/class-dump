@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContextResponse, NSArray, NSDate, NSLocale, NSMutableArray, NSString;
+@class CKContextResponse;
 
 @interface CKContextCompleter
 {
     CKContextResponse *_response;
-    NSString *_ignorePrefix;
-    NSLocale *_searchLocale;
-    _Atomic _Bool _discarded;
-    _Atomic _Bool _engaged;
-    _Atomic unsigned long long _inputKeystrokes;
-    NSArray *_couldHaveShown;
-    NSString *_input;
-    NSDate *_hideCompletionsAfterDate;
-    _Bool _hideZKW;
-    _Bool _hideCompletions;
-    unsigned long long _mustPrefixMatchLength;
-    NSMutableArray *_zkwResults;
-    unsigned long long _creationTime;
-    _Bool _likelyUnsolicited;
 }
 
+- (id)ed with status=%{BOOL}u;
+- (id)OR track modifications finished with status=%{BOOL}u;
+- (id)s OR accumulated enough adds OR track modifications finished with status=%{BOOL}u;
+- (void)rDeleteTracks=%{BOOL}u;
+- (void)s, addedArtistsOverThreshold=%{BOOL}u, updateOrDeleteTracks=%{BOOL}u;
+- (void)ding albumArtist=%{public}s trackImportItem=%{public}s, addedArtistsOverThreshold=%{BOOL}u, updateOrDeleteTracks=%{BOOL}u;
+- (void)bums count=%ld;
+- (void)d;
+- (id)not exist;
+- (void)ist;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)(4;
 - (void);
 - (void);
 

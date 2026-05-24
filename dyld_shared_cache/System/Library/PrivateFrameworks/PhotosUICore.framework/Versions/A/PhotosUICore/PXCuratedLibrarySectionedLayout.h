@@ -4,34 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableIndexSet, NSString, PXAssetsDataSource, PXAssetsSectionLayout, PXCuratedLibraryLayoutSpec, PXCuratedLibraryViewModel, PXGSpriteReference;
-
 @interface PXCuratedLibrarySectionedLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    PXAssetsDataSource *_currentDataSource;
-    long long _currentZoomLevel;
-    NSMutableIndexSet *_zoomLevelsPreferringDominantHeros;
-    long long *_accumulatedSectionItems;
-    long long _accumulatedSectionItemsCount;
-    _Bool _isUpdatingSublayouts;
-    long long _dataSourceIdentifierOfCachedSectionsWithSelectedItems;
-    NSIndexSet *_cachedSectionsWithSelectedItems;
-    _Bool _isInitialLoad;
-    _Bool _performedInitialLoad;
-    PXCuratedLibraryLayoutSpec *_spec;
-    PXCuratedLibraryViewModel *_viewModel;
-    double _lateralMargin;
-    id _lastVisibleDominantObjectReference;
-    PXGSpriteReference *_lastHitSpriteReference;
-    double _defaultInterlayoutSpacing;
-    long long _presentedZoomLevel;
-    PXAssetsDataSource *_presentedDataSource;
-    struct NSEdgeInsets _padding;
 }
 
 + (_Bool);
-+ (void);
++ (void);
 - (void);
 - (id);
 - (long long);
@@ -99,26 +78,7 @@
 - (id)p{>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultInterlayoutSpacing; // @synthesize defaultInterlayoutSpacing=_defaultInterlayoutSpacing;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id dominantHeroPreferences;
-@property(readonly, nonatomic) PXAssetsSectionLayout *dominantSectionLayout;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isInitialLoad; // @synthesize isInitialLoad=_isInitialLoad;
-@property(retain, nonatomic) PXGSpriteReference *lastHitSpriteReference; // @synthesize lastHitSpriteReference=_lastHitSpriteReference;
-@property(retain, nonatomic) id lastVisibleDominantObjectReference; // @synthesize lastVisibleDominantObjectReference=_lastVisibleDominantObjectReference;
-@property(nonatomic) double lateralMargin; // @synthesize lateralMargin=_lateralMargin;
-@property(readonly, nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(nonatomic) _Bool performedInitialLoad; // @synthesize performedInitialLoad=_performedInitialLoad;
-@property(readonly, nonatomic) PXAssetsDataSource *presentedDataSource; // @synthesize presentedDataSource=_presentedDataSource;
-@property(readonly, nonatomic) long long presentedZoomLevel; // @synthesize presentedZoomLevel=_presentedZoomLevel;
-@property(retain, nonatomic) PXCuratedLibraryLayoutSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

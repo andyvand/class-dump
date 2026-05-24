@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingsEventHelper
 {
     NSDictionary *_keyPathMap;
-    NSArray *_keyPaths;
 }
 
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)b;
+- (id)veResponse:(id)arg1 completionHandler:(id)arg2 ];
 - (id);
 - (void);
 

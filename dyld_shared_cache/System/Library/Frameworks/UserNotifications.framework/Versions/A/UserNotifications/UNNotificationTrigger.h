@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)7;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Rh;
 - (void);
 - (id);
 

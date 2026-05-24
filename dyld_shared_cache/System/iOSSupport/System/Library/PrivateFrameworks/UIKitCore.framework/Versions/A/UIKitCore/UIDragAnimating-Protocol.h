@@ -6,6 +6,6 @@
 
 @protocol UIDragAnimating
 - (void)out matching -beginIgnoringInteractionEvents. Ignoring.;
-- (void)ertionSubject;
+- (void)AlphaOverrideAssertionSubject;
 @end
 

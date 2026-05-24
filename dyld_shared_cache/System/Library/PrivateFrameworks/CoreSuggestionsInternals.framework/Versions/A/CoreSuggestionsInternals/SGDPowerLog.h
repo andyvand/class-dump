@@ -16,9 +16,9 @@
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)tableView:(unsigned long long)arg1 didRemoveRowView:forRow: /* Error: Ran out of types for this method. */;
++ (void)tableView:(id)arg1 didClickTableColumn:(unsigned long long)arg2;
++ (void)KEEP_LOCAL_COPY;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol ENGroupContextCacheMiddleware
+- (void);
+- (void);
 @end
 

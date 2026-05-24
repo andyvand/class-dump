@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface MPDispatchQueueExclusiveAccessToken
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    id _owner;
 }
 
 + (id);

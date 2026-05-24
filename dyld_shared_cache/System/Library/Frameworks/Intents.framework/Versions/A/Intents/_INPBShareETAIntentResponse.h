@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _INPBShareETAIntentResponse
 {
     CDStruct_95bda58d _mediums;
-    struct _has;
-    NSArray *_recipients;
 }
 
-+ (Class);
++ (Class)localDefaults;
 + (_Bool);
 - (void);
 - (unsigned long long);
@@ -27,31 +23,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)*;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)QyY;
 - (void);
 - (id);
 - (id);
 - (void)EpisodeReleaseDate;
 - (id)on;
-- (void)N_HOMEPOD;
+- (void)CALLS_ON_HOMEPOD;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int *mediums;
-@property(readonly, nonatomic) unsigned long long mediumsCount;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(readonly) Class superclass;
 
 @end
 

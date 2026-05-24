@@ -9,10 +9,10 @@
     id unhighlightPreviousItem;
 }
 
-- (void);
+- (void));
 - (void);
 - (id);
-- (void)ilityAttachmentStorage;
+- (void)AccessibilityAttachmentStorage;
 
 @end
 

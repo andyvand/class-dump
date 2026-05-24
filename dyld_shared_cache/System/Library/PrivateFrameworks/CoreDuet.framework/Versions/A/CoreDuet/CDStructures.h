@@ -22,10 +22,6 @@ struct _cdp_prediction_result {
     int _field4;
 };
 
-struct os_activity_scope_state_s {
-    unsigned long long opaque[2];
-};
-
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };

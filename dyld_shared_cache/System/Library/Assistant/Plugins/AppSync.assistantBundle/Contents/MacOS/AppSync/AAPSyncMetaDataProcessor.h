@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCondition, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AAPSyncMetaDataProcessor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_metaData;
-    unsigned long long _lastChangeOffset;
-    NSMutableDictionary *_appInfoCache;
-    unsigned long long _appInfoCacheStart;
-    unsigned long long _appInfoCacheEnd;
-    NSCondition *_appInfoCacheCheck;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)a{;
+- (void);
+- (void)D|;
 - (void);
 - (id);
 

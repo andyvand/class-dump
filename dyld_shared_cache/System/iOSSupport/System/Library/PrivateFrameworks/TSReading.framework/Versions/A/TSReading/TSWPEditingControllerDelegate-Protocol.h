@@ -6,39 +6,13 @@
 
 @protocol TSWPEditingControllerDelegate
 
+@optional
+- (void)T;
+- (void);
+- (void);
+- (_Bool));
+
 // Remaining properties
-@property(readonly, nonatomic) _Bool editorAllowsCaret;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsEditMenu;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsHyperlinkInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsListInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsMagnifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsParagraphMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsRubyInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) _Bool editorShouldAlwaysBeInParagraphMode;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N

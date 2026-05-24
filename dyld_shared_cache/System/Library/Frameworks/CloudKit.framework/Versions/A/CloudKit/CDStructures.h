@@ -35,11 +35,6 @@ struct _opaque_pthread_mutex_t {
 
 struct less<id>;
 
-struct objc_super {
-    id receiver;
-    Class super_class;
-};
-
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
@@ -71,19 +66,4 @@ typedef struct {
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;
-
-typedef struct {
-    unsigned long long *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_62a50c50;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int contents:1;
-} CDStruct_7e0a6dcb;
-
-typedef struct {
-    unsigned int type:1;
-} CDStruct_f953fb60;
 

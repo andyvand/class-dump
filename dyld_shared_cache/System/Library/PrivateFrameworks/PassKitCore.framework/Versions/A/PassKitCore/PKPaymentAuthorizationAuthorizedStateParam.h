@@ -6,51 +6,37 @@
 
 #import <PassKitCore/PKPaymentAuthorizationStateParam.h>
 
-@class NSString, PKApplePayTrustSignature, PKAuthorizedPeerPaymentQuote, PKPayment, PKPaymentRewrapResponseBase, PKPaymentToken, PKServiceProviderPurchase;
+@class PKPaymentToken;
 
 @interface PKPaymentAuthorizationAuthorizedStateParam : PKPaymentAuthorizationStateParam
 {
     PKPaymentToken *_paymentToken;
-    PKPayment *_payment;
-    PKPaymentRewrapResponseBase *_rewrapResponse;
-    PKServiceProviderPurchase *_purchase;
-    NSString *_purchaseTransactionIdentifier;
-    PKAuthorizedPeerPaymentQuote *_authorizedPeerPaymentQuote;
-    PKApplePayTrustSignature *_applePayTrustSignature;
-    NSString *_installmentAuthorizationToken;
 }
 
 + (id);
++ (id)5B;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)Th!8;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
+- (id)T;
 - (id);
-- (id);
-- (id);
+- (id)baseDuration;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PKApplePayTrustSignature *applePayTrustSignature; // @synthesize applePayTrustSignature=_applePayTrustSignature;
-@property(readonly, nonatomic) PKAuthorizedPeerPaymentQuote *authorizedPeerPaymentQuote; // @synthesize authorizedPeerPaymentQuote=_authorizedPeerPaymentQuote;
-@property(readonly, copy, nonatomic) NSString *installmentAuthorizationToken; // @synthesize installmentAuthorizationToken=_installmentAuthorizationToken;
-@property(retain, nonatomic) PKPayment *payment; // @synthesize payment=_payment;
 @property(retain, nonatomic) PKPaymentToken *paymentToken; // @synthesize paymentToken=_paymentToken;
-@property(retain, nonatomic) PKServiceProviderPurchase *purchase; // @synthesize purchase=_purchase;
-@property(copy, nonatomic) NSString *purchaseTransactionIdentifier; // @synthesize purchaseTransactionIdentifier=_purchaseTransactionIdentifier;
-@property(retain, nonatomic) PKPaymentRewrapResponseBase *rewrapResponse; // @synthesize rewrapResponse=_rewrapResponse;
 
 @end
 

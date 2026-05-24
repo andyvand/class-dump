@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
-- (void);
-- (void);
++ (Class)_updateSoundCheckVolumeNormalizationForPlayerItem;
+- (void)editedPartIndexes;
+- (void)editedMessagePartFileTransferGUIDs;
 - (id);
 - (void)w;
 

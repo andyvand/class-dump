@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRCommandResult, NSArray, NSError, NSNumber;
+@class NSArray;
 
 @interface MPCAssistantSendCommandResult
 {
     NSArray *_returnStatuses;
-    NSError *_error;
-    MRCommandResult *_commandResult;
-    NSNumber *_devicesControlled;
 }
 
 - (void);
+- (id)ount"16i24@"ACDAccountStore"28@"ACAccount"36;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)A9;
+- (id)aa_isAccountClass: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)essAudioTap %p - Starting processing audio queue;
 
 // Remaining properties
-@property(readonly, nonatomic) MRCommandResult *commandResult; // @synthesize commandResult=_commandResult;
-@property(copy, nonatomic) NSNumber *devicesControlled; // @synthesize devicesControlled=_devicesControlled;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSArray *returnStatuses; // @synthesize returnStatuses=_returnStatuses;
 
 @end

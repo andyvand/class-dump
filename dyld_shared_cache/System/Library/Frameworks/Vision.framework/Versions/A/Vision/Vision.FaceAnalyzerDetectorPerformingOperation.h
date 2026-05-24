@@ -7,8 +7,6 @@
 @interface Vision.FaceAnalyzerDetectorPerformingOperation
 {
     id requests;
-    id faceObservations;
-    id options;
 }
 
 @end

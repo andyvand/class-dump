@@ -13,7 +13,7 @@
     MPPlaybackArchive *_playbackArchive;
 }
 
-+ (_Bool);
++ (_Bool)hjv8h;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPPlaybackArchive *playbackArchive; // @synthesize playbackArchive=_playbackArchive;

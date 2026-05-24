@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAMediaContentRatingRestrictions : AceObject
 {
 }
@@ -16,27 +14,17 @@
 + (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id));
+- (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long appRestriction;
-@property(copy, nonatomic) NSString *countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long movieRestriction;
-@property(readonly) Class superclass;
-@property(nonatomic) long long tvRestriction;
 
 @end
 

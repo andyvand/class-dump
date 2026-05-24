@@ -8,7 +8,7 @@
 {
 }
 
-+ (struct _NSRange);
++ (struct _NSRange);
 + (id);
 + (id);
 + (id);

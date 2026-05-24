@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaClientTransportEventMetadata : SISchemaInstrumentationMessage
 {
     NSString *_eventTransmittedTimestampRefId;
-    long long _eventTransmittedRelativeToBootTimeTimestampNs;
-    long long _serverArrivedTimestampNs;
-    NSString *_arrivedServerPod;
-    struct {
-        unsigned int eventTransmittedRelativeToBootTimeTimestampNs:1;
-        unsigned int serverArrivedTimestampNs:1;
-    } _has;
-    _Bool _hasEventTransmittedTimestampRefId;
-    _Bool _hasArrivedServerPod;
 }
 
 - (void);
@@ -44,25 +35,18 @@
 - (long long);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)confirmAgentRequestedUpdateAll: /* Error: Ran out of types for this method. */;
+- (_Bool)tCNContactPreferredForNameKey(void);
+- (_Bool)er(c.chat_identifier) ;
 - (id);
-- (id);
-- (id)cySignals;
-- (id);
+- (id)* %f
+;
+- (id)deleteAppDependentFrequencyAndRecencySignals;
+- (id)_audioTopology;
 - (void)om.apple.aiml.siri.mh.MHClientEvent.MHRTSFalseRejectDetected;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *arrivedServerPod; // @synthesize arrivedServerPod=_arrivedServerPod;
-@property(nonatomic) long long eventTransmittedRelativeToBootTimeTimestampNs; // @synthesize eventTransmittedRelativeToBootTimeTimestampNs=_eventTransmittedRelativeToBootTimeTimestampNs;
 @property(copy, nonatomic) NSString *eventTransmittedTimestampRefId; // @synthesize eventTransmittedTimestampRefId=_eventTransmittedTimestampRefId;
-@property(nonatomic) _Bool hasArrivedServerPod; // @synthesize hasArrivedServerPod=_hasArrivedServerPod;
-@property(nonatomic) _Bool hasEventTransmittedRelativeToBootTimeTimestampNs;
-@property(nonatomic) _Bool hasEventTransmittedTimestampRefId; // @synthesize hasEventTransmittedTimestampRefId=_hasEventTransmittedTimestampRefId;
-@property(nonatomic) _Bool hasServerArrivedTimestampNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long serverArrivedTimestampNs; // @synthesize serverArrivedTimestampNs=_serverArrivedTimestampNs;
 
 @end
 

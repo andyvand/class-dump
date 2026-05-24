@@ -6,14 +6,9 @@
 
 #import <InputMethodKit/IMKUICandidateController.h>
 
-@class NSViewController;
-
 @interface IMKUICandidateTouchBarController : IMKUICandidateController
 {
     unsigned long long _numberOfSimilarWidthCandidates;
-    _Bool _secondaryCandidatesShowChevron;
-    double _surfaceWidth;
-    NSViewController *_viewController;
 }
 
 - (double);
@@ -27,14 +22,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (unsigned long long);
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)y(;
 - (void);
 - (struct CGSize);
 - (id);
@@ -42,18 +37,15 @@
 - (void);
 - (_Bool);
 - (double);
-- (void);
-- (id);
-- (_Bool);
+- (void);
+- (id)audioPowerSpectrumMeter:didUpdateLocalAudioPowerSpectrum:remoteAudioPowerSpectrums: /* Error: Ran out of types for this method. */;
+- (_Bool)inator-dealloc;
 - (id);
 - (void);
 - (double)c}@ -insertCharacters:'%{private}@' before:%{public}@ called /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long numberOfSimilarWidthCandidates; // @synthesize numberOfSimilarWidthCandidates=_numberOfSimilarWidthCandidates;
-@property(nonatomic) _Bool secondaryCandidatesShowChevron; // @synthesize secondaryCandidatesShowChevron=_secondaryCandidatesShowChevron;
-@property(nonatomic) double surfaceWidth; // @synthesize surfaceWidth=_surfaceWidth;
-@property(readonly, nonatomic) NSViewController *viewController;
 
 @end
 

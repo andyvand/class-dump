@@ -7,18 +7,16 @@
 @interface LUITestCommandsObserver
 {
     id _observer;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void)pdateTextLegibilityIfNeededWithImage:(id)arg1 displayID: /* Error: Ran out of types for this method. */;
-- (id)bjects;
+- (void);
+- (void)updateTextLegibilityIfNeededWithImage:(id)arg1 displayID: /* Error: Ran out of types for this method. */;
+- (id)allObjects;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(retain) id observer; // @synthesize observer=_observer;
 
 @end

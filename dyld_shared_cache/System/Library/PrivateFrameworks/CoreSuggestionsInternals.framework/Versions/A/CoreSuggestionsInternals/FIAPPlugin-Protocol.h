@@ -9,6 +9,8 @@
 @protocol FIAPPlugin
 
 @optional
+- (void);
+- (void)_InternalReply;
 - (FIAPResult *)iver deleteAllInteractionsWithBundleID:protectionClass:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties

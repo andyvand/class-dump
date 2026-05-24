@@ -5,6 +5,6 @@
 //
 
 @protocol CUIKCreateFamilyCalendarFlowControllerManagerDelegate
-- (void)àRáªâªñ¯õ;
+- (void);
 @end
 

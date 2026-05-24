@@ -9,17 +9,15 @@
 @interface PPCoalescedScoredTopic
 {
     unsigned short _occurrencesInSource;
-    PPScoredItem *_scoredTopic;
 }
 
 - (id);
 - (id);
 - (id);
 - (unsigned short);
-- (void)opicAlgorithms:namedEntityAlgorithms:weight: /* Error: Ran out of types for this method. */;
+- (void)topicsInText:isPlainText:source:cloudSync:language:topicAlgorithms:namedEntityAlgorithms:weight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short occurrencesInSource; // @synthesize occurrencesInSource=_occurrencesInSource;
 @property(readonly, nonatomic) PPScoredItem *scoredTopic; // @synthesize scoredTopic=_scoredTopic;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INDateComponentsRange, INSettingMetadata, INTemporalEventTrigger, NSString;
+@class INSettingMetadata;
 
 @interface INSetTemporalSettingIntent : INIntent
 {
@@ -38,17 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) long long action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) INSettingMetadata *settingMetadata;
-@property(readonly) Class superclass;
-@property(readonly, copy) INTemporalEventTrigger *temporalEventTrigger;
-@property(readonly, copy) INDateComponentsRange *timeValue;
 
 @end
 

@@ -4,56 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, _NSScrollingConcurrentConstantData, _NSScrollingConcurrentMainThreadSynchronizer, _NSScrollingConcurrentSharedData, _NSScrollingConcurrentVBLPreprocessFilter;
-@protocol _NSScrollStateEventListener;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentVBLMonitor
 {
     NSLock *_syncLock;
-    _Bool *_isCancelledPtr;
-    struct {
-        unsigned int isCursorInTarget:1;
-        unsigned int reserved:31;
-    } _flags;
-    struct CGRect _cursorTargetFrame;
-    id <_NSScrollStateEventListener> _scrollStateDelegate;
-    _NSScrollingConcurrentSharedData *_sharedData;
-    _NSScrollingConcurrentConstantData *_constantData;
-    _NSScrollingConcurrentVBLPreprocessFilter *_preprocessFilter;
-    _NSScrollingConcurrentMainThreadSynchronizer *_mainThreadSynchronizer;
-    struct work_interval_instance *_currentWorkIntervalInstance;
-    unsigned long long _currentSubmissionWakeUpTime;
-    unsigned long long _currentSubmissionDeadlineTime;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)Char:(id)arg1;
+- (void)led to get entitlement string;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)uilding.;
+- (id)iceTree:/ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct CGRect);
 - (id);
 - (void);
+- (void)etionary,V_discretionary;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)dateTitleTextFieldAndAccessibilityProperties;
+- (void);
+- (void)_updateTitleTextFieldAndAccessibilityProperties;
 - (void)ô35¸Ñ;
 
 // Remaining properties
-@property(retain) _NSScrollingConcurrentConstantData *constantData; // @synthesize constantData=_constantData;
 @property struct CGRect cursorTargetFrame; // @synthesize cursorTargetFrame=_cursorTargetFrame;
-@property(retain) _NSScrollingConcurrentMainThreadSynchronizer *mainThreadSynchronizer; // @synthesize mainThreadSynchronizer=_mainThreadSynchronizer;
-@property(retain) _NSScrollingConcurrentVBLPreprocessFilter *preprocessFilter; // @synthesize preprocessFilter=_preprocessFilter;
-@property(nonatomic) id <_NSScrollStateEventListener> scrollStateDelegate; // @synthesize scrollStateDelegate=_scrollStateDelegate;
-@property(retain) _NSScrollingConcurrentSharedData *sharedData; // @synthesize sharedData=_sharedData;
 
 @end
 

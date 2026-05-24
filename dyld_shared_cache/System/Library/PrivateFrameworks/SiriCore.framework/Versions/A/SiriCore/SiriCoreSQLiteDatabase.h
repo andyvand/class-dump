@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString;
+@class NSString;
 
 @interface SiriCoreSQLiteDatabase
 {
     struct sqlite3 *_handle;
-    NSCache *_cachedSQLiteStatementsByQueryString;
-    NSString *_path;
-    long long _dataProtectionClass;
-    long long _options;
 }
 
 - (id);
@@ -24,40 +20,39 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)but this request is already finished";
 - (_Bool);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
+- (id)20:(id)arg1 B(m),21:(id)arg2 AZ(deg),22:(long long)arg3 HDOP,23:(id)arg4 VDOP,24:(id)arg5 ODOM,25:(id)arg6 LP,26:(id)arg7 SA,27:(id *)arg8 R,28:VTOW,29:CTOW,30:TUNC,31:NS,32:MS,33:AgeOfPowerMode,34:SQI,35:verticalSpeed(m/s),36:vertcalSpeedAccuracy(m/s)
+ /* Error: Ran out of types for this method. */;
+- (_Bool)annot get ENUToECEFJacobian Jenu;
+- (_Bool)e to compute stec from all available layers,processed_layers,%u;
+- (_Bool)ZN11cnframework12ActiveObjectIN5raven32RavenIMUPreprocessorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_18AccelerometerEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)-+;.df`of[MGA=9>BJ48B<AAI@==95622(A-DBFHSCB=>8340104GHINSDDBA>765389BBDCN>=<95310-22>:(id *)arg1:>E433/.-+)''06;59>/0-,,+'%#(0L@ACJ;<:757<?602/#)+'3%,&* (!4 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)JSONObjectWith_CLRegionState:(id)arg1 info:(id)arg2;
+- (id);
+- (_Bool)ct={CGPoint=dd}{CGSize=dd}}132;
+- (_Bool)QhG;
 - (_Bool);
-- (void);
+- (_Bool);
+- (id)yState != %d;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long dataProtectionClass; // @synthesize dataProtectionClass=_dataProtectionClass;
-@property(readonly, nonatomic) long long options; // @synthesize options=_options;
 @property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end

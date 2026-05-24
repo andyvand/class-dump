@@ -7,20 +7,16 @@
 @interface PXStoryMultipartPanoramaParameters
 {
     CDStruct_cac3ced6 _transitionInfo;
-    CDStruct_f7388bc9 _normalizedKenBurnsEffectParameters;
-    CDStruct_bb38be21 _partDurationInfo;
 }
 
-- (CDStruct_bb38be21);
-- (CDStruct_f7388bc9);
+- (CDStruct_e96db414);
+- (CDStruct_3d940f03);
 - (id);
 - (id);
 - (CDStruct_cac3ced6)Ld7ÿ,3;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_f7388bc9 normalizedKenBurnsEffectParameters; // @synthesize normalizedKenBurnsEffectParameters=_normalizedKenBurnsEffectParameters;
-@property(readonly, nonatomic) CDStruct_bb38be21 partDurationInfo; // @synthesize partDurationInfo=_partDurationInfo;
-@property(readonly, nonatomic) CDStruct_cac3ced6 transitionInfo; // @synthesize transitionInfo=_transitionInfo;
+@property(readonly, nonatomic) CDStruct_3d940f03 normalizedKenBurnsEffectParameters; // @synthesize normalizedKenBurnsEffectParameters=_normalizedKenBurnsEffectParameters;
 
 @end
 

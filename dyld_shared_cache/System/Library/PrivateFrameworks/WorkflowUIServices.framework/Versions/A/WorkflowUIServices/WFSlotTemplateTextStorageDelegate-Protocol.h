@@ -5,5 +5,8 @@
 //
 
 @protocol WFSlotTemplateTextStorageDelegate
+
+@optional
+- (void);
 @end
 

@@ -7,15 +7,6 @@
 @interface AWDCoreRoutineStateModelConfidence
 {
     unsigned long long _timestamp;
-    unsigned int _confidence;
-    unsigned int _impossibleTransitions;
-    unsigned int _nearbyLocations;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int confidence:1;
-        unsigned int impossibleTransitions:1;
-        unsigned int nearbyLocations:1;
-    } _has;
 }
 
 - (void);
@@ -29,30 +20,23 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasImpossibleTransitions;
-@property(nonatomic) _Bool hasNearbyLocations;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int impossibleTransitions; // @synthesize impossibleTransitions=_impossibleTransitions;
-@property(nonatomic) unsigned int nearbyLocations; // @synthesize nearbyLocations=_nearbyLocations;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

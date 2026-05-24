@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTIDocumentState, RTIDocumentTraits, RTISessionOptions;
+@class RTISessionOptions;
 
 @interface RTIInputSystemClientSession
 {
     RTISessionOptions *_beginOptions;
-    RTIDocumentTraits *_documentTraits;
-    RTIDocumentState *_documentState;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTISessionOptions *beginOptions; // @synthesize beginOptions=_beginOptions;
-@property(retain, nonatomic) RTIDocumentState *documentState; // @synthesize documentState=_documentState;
-@property(retain, nonatomic) RTIDocumentTraits *documentTraits; // @synthesize documentTraits=_documentTraits;
 
 @end
 

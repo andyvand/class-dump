@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSDictionary, PXContextualMemoriesLocationSetting, PXContextualMemoriesPeopleSetting, PXContextualMemoriesTimeSetting;
+@class NSDictionary, PXContextualMemoriesTimeSetting;
 
 @interface PXContextualMemoriesSettings
 {
     NSDictionary *_extraParameters;
-    PXContextualMemoriesTimeSetting *_timeSetting;
-    PXContextualMemoriesLocationSetting *_locationSetting;
-    PXContextualMemoriesPeopleSetting *_peopleSetting;
-    NSArray *_settings;
 }
 
 - (id);
@@ -28,13 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date;
-@property(copy, nonatomic) NSDictionary *extraParameters; // @synthesize extraParameters=_extraParameters;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) PXContextualMemoriesLocationSetting *locationSetting; // @synthesize locationSetting=_locationSetting;
-@property(readonly, nonatomic) NSArray *peopleNames;
-@property(readonly, nonatomic) PXContextualMemoriesPeopleSetting *peopleSetting; // @synthesize peopleSetting=_peopleSetting;
-@property(readonly, nonatomic) NSArray *settings; // @synthesize settings=_settings;
 @property(readonly, nonatomic) PXContextualMemoriesTimeSetting *timeSetting; // @synthesize timeSetting=_timeSetting;
 
 @end

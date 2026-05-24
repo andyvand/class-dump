@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface WBSHistoryTombstone
 {
     NSString *_urlString;
-    NSData *_urlHash;
-    NSData *_urlSalt;
-    double _startTime;
-    double _endTime;
-    long long _generation;
-    NSString *_udid;
-    unsigned long long _attributes;
 }
 
 + (_Bool);
@@ -32,7 +25,7 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id));
 - (long long);
 - (_Bool)å;
 - (void);
@@ -42,16 +35,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) long long generation; // @synthesize generation=_generation;
-@property(readonly, nonatomic, getter=isSecure) _Bool secure;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) NSString *udid; // @synthesize udid=_udid;
-@property(readonly, nonatomic) NSData *urlHash; // @synthesize urlHash=_urlHash;
-@property(readonly, nonatomic) NSData *urlSalt; // @synthesize urlSalt=_urlSalt;
-@property(readonly, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

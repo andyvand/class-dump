@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSTimer;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UIDefaultFocusSoundPlayer
 {
     NSMutableDictionary *_urlPools;
-    NSMutableDictionary *_focusSoundPools;
-    NSObject<OS_dispatch_queue> *_soundQueue;
-    NSTimer *_unregisterTimer;
 }
 
 + (id)1VÿgdÊÐdk;
@@ -22,26 +18,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ring"32;
+- (void)loadHistoryForIDs:(id)arg1 style:(double)arg2 onServices:(double)arg3 limit:beforeGUID:afterGUID:threadIdentifier:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (void):(long long)arg1 threadIdentifier:(double)arg2 reply:(double)arg3;
 - (id);
 - (id);
-- (void);
+- (void)iled to get request from requestParams;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *focusSoundPools; // @synthesize focusSoundPools=_focusSoundPools;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *soundQueue; // @synthesize soundQueue=_soundQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTimer *unregisterTimer; // @synthesize unregisterTimer=_unregisterTimer;
 @property(retain, nonatomic) NSMutableDictionary *urlPools; // @synthesize urlPools=_urlPools;
 
 @end

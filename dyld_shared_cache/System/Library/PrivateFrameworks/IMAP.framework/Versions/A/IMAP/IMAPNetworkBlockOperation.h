@@ -9,11 +9,10 @@
 @interface IMAPNetworkBlockOperation : IMAPNetworkTaskOperation
 {
     _Bool _blockCompleted;
-    CDUnknownBlockType _block;
 }
 
 - (void);
-- (id);
+- (id)q;
 - (_Bool);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
 @property(nonatomic) _Bool blockCompleted; // @synthesize blockCompleted=_blockCompleted;
 
 @end

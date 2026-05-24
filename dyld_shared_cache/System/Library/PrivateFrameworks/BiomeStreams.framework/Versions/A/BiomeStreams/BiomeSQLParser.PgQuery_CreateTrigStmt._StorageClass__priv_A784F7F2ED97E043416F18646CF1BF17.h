@@ -7,19 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CreateTrigStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _trigname;
-    id _relation;
-    id _funcname;
-    id _args;
-    id _row;
-    id _timing;
-    id _events;
-    id _columns;
-    id _whenClause;
-    id _isconstraint;
-    id _transitionRels;
-    id _deferrable;
-    id _initdeferred;
-    id _constrrel;
 }
 
 @end

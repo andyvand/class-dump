@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface BMPBSiriPrivateLearningSELFEvent
 {
     double _absoluteTimestamp;
-    NSData *_eventData;
-    NSString *_uniqueId;
-    CDStruct_d3e759b0 _has;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)h#;
 - (id);
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -36,12 +31,7 @@
 - (void)ÑÒÓ;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSData *eventData; // @synthesize eventData=_eventData;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasEventData;
-@property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

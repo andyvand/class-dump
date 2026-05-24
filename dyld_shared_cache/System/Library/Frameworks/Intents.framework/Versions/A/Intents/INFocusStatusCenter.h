@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DNDAvailabilityService, INFocusStatus;
+@class DNDAvailabilityService;
 
 @interface INFocusStatusCenter
 {
@@ -12,16 +12,14 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (long long)(AC;
-- (void)llectionForGetCarLockStatus:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideCarNameOptionsCollectionForGetCarLockStatus:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long authorizationStatus;
-@property(readonly, nonatomic) INFocusStatus *focusStatus;
 @property(readonly, nonatomic) DNDAvailabilityService *service; // @synthesize service=_service;
 
 @end

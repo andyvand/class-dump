@@ -4,68 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUAppleIDClient, CUPairedPeer, NSArray, NSData, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface CUPairingSession
 {
     struct PairingSessionPrivate *_pairingSession;
-    NSMutableDictionary *_pairingStreams;
-    struct LogCategory *_ucat;
-    _Bool _localize;
-    unsigned int _flags;
-    int _peerDeviceClass;
-    unsigned int _pinType;
-    unsigned int _pinTypeActual;
-    unsigned int _sessionType;
-    NSDictionary *_acl;
-    NSDictionary *_aclActual;
-    NSDictionary *_additionalPeerInfo;
-    NSDictionary *_additionalSelfInfo;
-    NSArray *_allowedMACAddresses;
-    unsigned long long _selfAppFlags;
-    NSDictionary *_appInfoSelf;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSDictionary *_groupInfoSelf;
-    NSString *_fixedPIN;
-    unsigned long long _extraFlags;
-    NSString *_label;
-    NSString *_languageCode;
-    NSString *_localeIdentifier;
-    NSDictionary *_peerInfo;
-    NSString *_peerProductType;
-    NSData *_mfiCertificateData;
-    NSString *_mfiProductType;
-    NSString *_mfiSerialNumber;
-    NSData *_mfiToken;
-    NSString *_myAppleID;
-    CUAppleIDClient *_myAppleIDInfoClient;
-    NSString *_peerAppleID;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _promptForPINHandler;
-    CDUnknownBlockType _showPINHandlerEx;
-    CDUnknownBlockType _showPINHandler;
-    CDUnknownBlockType _hidePINHandler;
-    CDUnknownBlockType _sendDataHandler;
-    CDUnknownBlockType _sendMessageDataHandler;
-    CDUnknownBlockType _signDataHandler;
-    CDUnknownBlockType _verifySignatureHandler;
-    CDUnknownBlockType _copyIdentityHandler;
-    CDUnknownBlockType _findPeerHandler;
-    CDUnknownBlockType _savePeerHandler;
 }
 
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (void);
+- (id)y;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)E;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (int);
+- (int)kMDItemNamedLocation;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -75,7 +31,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)16;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
@@ -93,34 +49,34 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)failed, which means the DAG->_placeholderOps->size() and the kernel expected physical sources don't match;
 - (id);
 - (CDUnknownBlockType);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)	ka ;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)addWeightsOfLayerNormalizationLayer:(id)arg1 toNetwork: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
+- (void)y;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (void)__AUTH_CONST;
+- (void)encodeToCommandBuffer:primaryImage:secondaryImage:inState:destinationImage: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
+- (void)ghts.dataType:(id)arg1 0x%16.16llx;
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Ti;
 - (id);
 - (void);
 - (void);
@@ -130,15 +86,15 @@
 - (unsigned int);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id)Ro;
 - (id);
-- (id);
-- (id);
+- (id)x;
 - (void);
-- (void);
+- (void)ڃ;
 - (id);
 - (int);
 - (void);
@@ -146,12 +102,12 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
-- (unsigned int)erveValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
-- (void)ange;
-- (unsigned int)eenLockedToken;
+- (void)isProxy;
+- (unsigned int)observeValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (void)dualSimCapabilityDidChange;
+- (unsigned int)_screenLockedToken;
 - (id)ludeLLv4;
-- (id)d;
+- (id)Paired;
 - (id)ssionAppleIDVerifyPeer(PairingSessionRef, const uint8_t *, const uint8_t *);
 - (id)erver done
 ;
@@ -160,50 +116,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *acl; // @synthesize acl=_acl;
-@property(readonly, copy, nonatomic) NSDictionary *aclActual; // @synthesize aclActual=_aclActual;
-@property(copy, nonatomic) NSDictionary *additionalPeerInfo; // @synthesize additionalPeerInfo=_additionalPeerInfo;
-@property(copy, nonatomic) NSDictionary *additionalSelfInfo; // @synthesize additionalSelfInfo=_additionalSelfInfo;
-@property(copy, nonatomic) NSArray *allowedMACAddresses; // @synthesize allowedMACAddresses=_allowedMACAddresses;
-@property(readonly, copy, nonatomic) NSDictionary *appInfoPeer;
-@property(copy, nonatomic) NSDictionary *appInfoSelf; // @synthesize appInfoSelf=_appInfoSelf;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) CDUnknownBlockType copyIdentityHandler; // @synthesize copyIdentityHandler=_copyIdentityHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned long long extraFlags; // @synthesize extraFlags=_extraFlags;
-@property(copy, nonatomic) CDUnknownBlockType findPeerHandler; // @synthesize findPeerHandler=_findPeerHandler;
-@property(copy, nonatomic) NSString *fixedPIN; // @synthesize fixedPIN=_fixedPIN;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly, copy, nonatomic) NSDictionary *groupInfoPeer;
-@property(copy, nonatomic) NSDictionary *groupInfoSelf; // @synthesize groupInfoSelf=_groupInfoSelf;
-@property(copy, nonatomic) CDUnknownBlockType hidePINHandler; // @synthesize hidePINHandler=_hidePINHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) _Bool localize; // @synthesize localize=_localize;
-@property(copy, nonatomic) NSData *mfiCertificateData; // @synthesize mfiCertificateData=_mfiCertificateData;
-@property(copy, nonatomic) NSString *mfiProductType; // @synthesize mfiProductType=_mfiProductType;
-@property(copy, nonatomic) NSString *mfiSerialNumber; // @synthesize mfiSerialNumber=_mfiSerialNumber;
-@property(copy, nonatomic) NSData *mfiToken; // @synthesize mfiToken=_mfiToken;
-@property(copy, nonatomic) NSString *myAppleID; // @synthesize myAppleID=_myAppleID;
-@property(retain, nonatomic) CUAppleIDClient *myAppleIDInfoClient; // @synthesize myAppleIDInfoClient=_myAppleIDInfoClient;
-@property(readonly, nonatomic) CUPairedPeer *pairedPeer;
-@property(readonly, nonatomic) unsigned long long peerAppFlags;
-@property(copy, nonatomic) NSString *peerAppleID; // @synthesize peerAppleID=_peerAppleID;
-@property(nonatomic) int peerDeviceClass; // @synthesize peerDeviceClass=_peerDeviceClass;
-@property(readonly, copy, nonatomic) NSDictionary *peerInfo; // @synthesize peerInfo=_peerInfo;
-@property(copy, nonatomic) NSString *peerProductType; // @synthesize peerProductType=_peerProductType;
-@property(nonatomic) unsigned int pinType; // @synthesize pinType=_pinType;
-@property(readonly, nonatomic) unsigned int pinTypeActual; // @synthesize pinTypeActual=_pinTypeActual;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
-@property(copy, nonatomic) CDUnknownBlockType savePeerHandler; // @synthesize savePeerHandler=_savePeerHandler;
-@property(nonatomic) unsigned long long selfAppFlags; // @synthesize selfAppFlags=_selfAppFlags;
-@property(copy, nonatomic) CDUnknownBlockType sendDataHandler; // @synthesize sendDataHandler=_sendDataHandler;
-@property(copy, nonatomic) CDUnknownBlockType sendMessageDataHandler; // @synthesize sendMessageDataHandler=_sendMessageDataHandler;
-@property(nonatomic) unsigned int sessionType; // @synthesize sessionType=_sessionType;
-@property(copy, nonatomic) CDUnknownBlockType showPINHandler; // @synthesize showPINHandler=_showPINHandler;
-@property(copy, nonatomic) CDUnknownBlockType showPINHandlerEx; // @synthesize showPINHandlerEx=_showPINHandlerEx;
-@property(copy, nonatomic) CDUnknownBlockType signDataHandler; // @synthesize signDataHandler=_signDataHandler;
-@property(copy, nonatomic) CDUnknownBlockType verifySignatureHandler; // @synthesize verifySignatureHandler=_verifySignatureHandler;
 
 @end
 

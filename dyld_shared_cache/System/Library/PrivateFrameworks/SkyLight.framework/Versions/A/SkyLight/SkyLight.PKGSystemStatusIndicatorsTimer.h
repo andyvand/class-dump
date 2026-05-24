@@ -7,8 +7,6 @@
 @interface SkyLight.PKGSystemStatusIndicatorsTimer
 {
     id duration;
-    id block;
-    id state;
 }
 
 @end

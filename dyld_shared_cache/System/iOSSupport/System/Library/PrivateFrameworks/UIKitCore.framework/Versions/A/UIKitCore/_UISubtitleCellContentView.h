@@ -6,46 +6,38 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutRect, NSString, UIImageView, UILabel, _UIContentViewEditingController, _UISubtitleCellContentViewConfiguration;
+@class _UISubtitleCellContentViewConfiguration;
 
 @interface _UISubtitleCellContentView : UIView
 {
     _UISubtitleCellContentViewConfiguration *_animatingFromConfiguration;
-    _UISubtitleCellContentViewConfiguration *_animatingToConfiguration;
-    double _preferredMaxLayoutWidth;
-    _UIContentViewEditingController *_editingController;
-    _UISubtitleCellContentViewConfiguration *_configuration;
-    UIImageView *_imageView;
-    UILabel *_textLabel;
-    UILabel *_subtitleLabel;
-    CDUnknownBlockType _primaryTextFrameDidChangeHandler;
 }
 
-- (struct _UISubtitleCellContentViewSizes);
+- (struct _UISubtitleCellContentViewSizes)thInput created a detonated message for guid:(struct CGSize)arg1 %@;
 - (id);
 - (struct CGSize);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)\(;
+- (void)nk_instance_is_chunk_reference(v1);
+- (_Bool)tch timer [] remainingTime=%0.2gs;
+- (_Bool)or MPModelPropertyAlbumDownloadedTrackCount;
+- (void)must have the same count (%lu != %lu);
 - (void);
 - (id);
 - (void);
 - (void)!ðBùqf1Â0@ù
 × ;
-- (void)ition;
-- (void)omWindowsMenu:(struct UIEdgeInsets)arg1;
-- (void)ltOptions;
-- (id);
-- (id)usageSource;
-- (double)nuAtLocation3D: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)oresDynamicType;
-- (void)undImage;
-- (id)tentsDidChange;
+- (void)specularHighlightVerticalPosition;
+- (void)setExcludedFromWindowsMenu:(struct UIEdgeInsets)arg1;
+- (void)resultOptions;
+- (id)layoutBelowIfNeeded;
+- (id)_usageSource;
+- (double)_presentMenuAtLocation3D: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_ignoresDynamicType;
+- (void)_hasCustomBackgroundImage;
+- (id)_accessibility_navigationBarContentsDidChange;
 - (void),N,S_setPreferredHorizontalAlignment:(CDUnknownBlockType)arg1 ,V__preferredHorizontalAlignment;
 - (void),V_searchController;
 - (struct CGSize);
@@ -53,29 +45,12 @@
 - (struct CGSize)ing reuse of prefetched cell for reason isViewInReuseQueue(%d) inUpdateAnimation(%d):(struct CGSize)arg1 %@;
 - (void);
 - (_Bool)with no owning view.;
-- (double)ChangeNotification;
+- (double)UIMenuControllerMenuFrameDidChangeNotification;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _preventFocus;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic, setter=_setPrimaryTextFrameDidChangeHandler:) CDUnknownBlockType _primaryTextFrameDidChangeHandler; // @synthesize _primaryTextFrameDidChangeHandler;
-@property(readonly, nonatomic) struct CGRect _primaryTextLayoutFrame;
-@property(readonly, nonatomic) NSLayoutRect *_primaryTextLayoutRect;
 @property(copy, nonatomic) _UISubtitleCellContentViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

@@ -6,14 +6,12 @@
 
 #import <DataDetectors/DDMacAction.h>
 
-@class NSBundle, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DDMiscAction : DDMacAction
 {
     NSString *_controllerClassName;
-    NSBundle *_bundle;
-    _Bool _actionLoadedSuccessfully;
 }
 
 - (_Bool);
@@ -22,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)8;
 - (_Bool);
 - (_Bool);
 - (Class);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)Point="x"d"y"d}"end"{CGPoint="x"d"y"d}}"median"{?="start"{CGPoint="x"d"y"d}"end"{CGPoint="x"d"y"d}}"top"{?="start"{CGPoint="x"d"y"d}"end"{CGPoint="x"d"y"d}}})"__engaged_"B};
 - (id);
 - (void);
 

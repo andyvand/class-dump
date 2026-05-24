@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIAction;
+@class NSString;
 
 @interface _UISearchSuggestionItemGroup
 {
     NSString *_headerTitle;
-    UIAction *_headerAction;
-    NSArray *_suggestionItems;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)stored in AppleDouble file %@ into %@;
 - (void)Ù+;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAction *headerAction; // @synthesize headerAction=_headerAction;
 @property(readonly, copy, nonatomic) NSString *headerTitle; // @synthesize headerTitle=_headerTitle;
-@property(readonly, copy, nonatomic) NSArray *suggestionItems; // @synthesize suggestionItems=_suggestionItems;
 
 @end
 

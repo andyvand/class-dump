@@ -6,18 +6,12 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSLocale, NSNumberFormatter;
+@class NSNumberFormatter;
 
 __attribute__((visibility("hidden")))
 @interface NSUnitFormatter : NSFormatter
 {
     NSNumberFormatter *_numberFormatter;
-    unsigned long long _unitOptions;
-    long long _unitStyle;
-    struct UAMeasureFormat *_formatter;
-    struct UPluralRules *_prules;
-    _Bool _modified;
-    NSLocale *_locale;
 }
 
 + (_Bool)d return YES.;
@@ -44,10 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)°;
 
 // Remaining properties
-@property(copy) NSLocale *locale;
 @property(copy) NSNumberFormatter *numberFormatter;
-@property unsigned long long unitOptions;
-@property long long unitStyle;
 
 @end
 

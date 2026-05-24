@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDKeyboardDevice, NSData, NSString;
-@protocol BSInvalidatable;
+@class BKSHIDKeyboardDevice;
 
 @interface _BKSHIDKeyboardDeviceClientProxy
 {
     BKSHIDKeyboardDevice *_device;
-    id <BSInvalidatable> _lifetimeAssertion;
 }
 
 - (long long);
@@ -28,31 +26,14 @@
 - (id);
 - (void);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
-- (id);
+- (id),a;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool capsLockKeyHasLanguageSwitchLabel;
-@property(readonly, nonatomic) unsigned char countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *exclusivityIdentifier;
-@property(readonly, nonatomic) _Bool globeKeyLabelHasGlobeSymbol;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *language;
-@property(readonly, copy, nonatomic) NSString *layout;
-@property(readonly, copy, nonatomic) NSData *platformInputModeConfiguration;
 @property(readonly, nonatomic) unsigned long long senderID;
-@property(readonly, nonatomic) unsigned int standardType;
-@property(readonly, nonatomic) long long subinterfaceID;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *transport;
 
 @end
 

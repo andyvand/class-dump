@@ -9,18 +9,18 @@
 }
 
 + (void);
++ (void)interactionsFromStore:(long long)arg1 startDate:tillDate:withMechanisms:withAccount:withBundleIds:withTargetBundleIds:withDirections:singleRecipient:fetchLimit: /* Error: Ran out of types for this method. */;
++ (void)_numberOfBehavioralRulesAdvocating;
++ (void);
++ (void);
++ (void);
++ (void)Z;
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void);
 + (void)Á;
 
 @end

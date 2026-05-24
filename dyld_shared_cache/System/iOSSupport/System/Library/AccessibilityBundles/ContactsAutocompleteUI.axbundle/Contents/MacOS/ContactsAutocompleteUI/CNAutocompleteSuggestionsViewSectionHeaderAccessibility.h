@@ -12,8 +12,8 @@
 
 + (Class);
 + (id);
-+ (void);
-- (void);
++ (void)es/MobileSafariFramework.axbundle/Contents/MacOS/MobileSafariFramework;
+- (void)k(81;
 - (id);
 
 @end

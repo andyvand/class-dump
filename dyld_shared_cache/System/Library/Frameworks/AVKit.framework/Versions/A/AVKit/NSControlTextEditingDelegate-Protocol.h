@@ -7,6 +7,7 @@
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (void);
 - (void)Ô¡$°!\Eù±­ 1Â0@ù
 × ;
 - (_Bool)leSheet";

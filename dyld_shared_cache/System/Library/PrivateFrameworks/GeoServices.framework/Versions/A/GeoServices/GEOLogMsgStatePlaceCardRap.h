@@ -11,7 +11,7 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)uingDirections:(id)arg1;
++ (_Bool)setHasSupportsBannerQueuingDirections:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -22,8 +22,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)ForMKLocalizedHoursBuilderTest;
+- (void);
+- (id)testBusinessHoursWithPermanentlyClosedHoursTypeForMKLocalizedHoursBuilderTest;
 - (id),R,N,V_buildingID;
 - (id)tification for action "%@" extraInfo:%@ /* Error: Ran out of types for this method. */;
 - (id)ÿÿ;

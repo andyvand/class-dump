@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)stination;
-+ (id)ationCallbackMemoranda;
++ (id)currentInputDestination;
++ (id)animationCallbackMemoranda;
 + (Class)7Ðÿÿÿ;
 
 @end

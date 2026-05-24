@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKAuxiliaryCapabilityUnregisteredRequirements
 {
     NSString *_dpanIdentifier;
-    NSArray *_requirementIdentifiers;
 }
 
 - (id);
 - (id);
-- (id)loyaltyAmount;
+- (id)_loyaltyAmount;
 - (void)ockholm.express.enter;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(readonly, nonatomic) NSArray *requirementIdentifiers; // @synthesize requirementIdentifiers=_requirementIdentifiers;
 
 @end
 

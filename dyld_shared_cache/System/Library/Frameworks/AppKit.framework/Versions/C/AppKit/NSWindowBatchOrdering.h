@@ -8,19 +8,16 @@ __attribute__((visibility("hidden")))
 @interface NSWindowBatchOrdering
 {
     CDUnknownBlockType completionCallback;
-    struct NSWindowBatchOrderingTriplet *triplets;
-    unsigned long long tripletCount;
-    unsigned long long tripletCapacity;
 }
 
-- (void);
+- (void)dn;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (long long);
-- (_Bool);
-- (void);
+- (long long)R;
+- (_Bool)D:(long long)arg1 %@;
+- (void);
 - (void);
 - (void);
 - (id);

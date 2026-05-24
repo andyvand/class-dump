@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PXCPLActionManager, PXCPLStatusProviderMonitor, PXCPLUIStatus, PXObservable;
-@protocol PXCPLStatusProvider;
+@class NSDate, PXCPLStatusProviderMonitor;
 
 @interface PXCPLUIStatusProvider
 {
     PXCPLStatusProviderMonitor *_statusProviderMonitor;
-    PXObservable<PXCPLStatusProvider> *_statusProvider;
-    PXCPLUIStatus *_status;
-    PXCPLActionManager *_actionManager;
-    unsigned long long _presentationStyle;
-    NSDate *_currentDateForTesting;
 }
 
 - (void);
-- (id);
+- (id)R";
 - (id);
 - (id);
 - (id);
@@ -28,24 +22,14 @@
 - (void);
 - (id);
 - (id);
-- (id)ensBlurPaused;
+- (id)_cameraLensBlurPaused;
 - (id);
 - (unsigned long long)ion;
 - (void);
 - (void)Äÿþ½þ¾Ìßÿ½þ¾ìßÿ½þ¾¸ÿþ½þ¾;
 
 // Remaining properties
-@property(readonly, nonatomic) PXCPLActionManager *actionManager; // @synthesize actionManager=_actionManager;
 @property(copy, nonatomic) NSDate *currentDateForTesting; // @synthesize currentDateForTesting=_currentDateForTesting;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(readonly, nonatomic) PXCPLUIStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

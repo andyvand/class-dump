@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICTVUserState
 {
     _Bool _activeWatchKitUser;
-    _Bool _frozen;
 }
 
 + (_Bool);
@@ -17,24 +14,16 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Cg_int2x4;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)convertPoint:(CDUnknownBlockType)arg1 fromView: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, getter=isActiveWatchKitUser) _Bool activeWatchKitUser; // @synthesize activeWatchKitUser=_activeWatchKitUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

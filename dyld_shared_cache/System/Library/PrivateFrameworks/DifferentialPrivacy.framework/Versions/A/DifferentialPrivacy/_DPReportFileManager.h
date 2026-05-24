@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DPDaemonConnection;
+@class NSString;
 
 @interface _DPReportFileManager
 {
     NSString *_reportsDirectoryPath;
-    _DPDaemonConnection *_connection;
 }
 
 + (id);
@@ -22,10 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@0:8@"NSURL"16@?<v@?>24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _DPDaemonConnection *connection; // @synthesize connection=_connection;
 @property(copy, nonatomic) NSString *reportsDirectoryPath; // @synthesize reportsDirectoryPath=_reportsDirectoryPath;
 
 @end

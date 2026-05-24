@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long);
-- (id);
+- (long long)RL %@ for message %@ is already underway;
+- (id)entifier:(id)arg1 %@   chat:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

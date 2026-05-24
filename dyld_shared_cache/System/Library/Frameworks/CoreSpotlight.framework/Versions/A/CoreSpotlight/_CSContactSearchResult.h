@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface _CSContactSearchResult
 {
     NSString *_displayName;
-    NSPersonNameComponents *_nameComponents;
-    NSArray *_emailAddresses;
-    NSString *_contactIdentifier;
-    NSNumber *_recentsIdentifier;
-    unsigned long long _sourceType;
-    unsigned long long _scope;
 }
 
 + (id);
@@ -30,19 +24,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id):reason:userInfo: /* Error: Ran out of types for this method. */;
+- (id)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
 - (unsigned long long)[CSTopHitRanking] Processing - clientBundleID=%@ maxDenseCount=%ld, maxCount=%ld, itemsCount=%lu;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool contact;
-@property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, copy, nonatomic) NSPersonNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
-@property(readonly, nonatomic) _Bool recent;
-@property(readonly, copy, nonatomic) NSNumber *recentsIdentifier; // @synthesize recentsIdentifier=_recentsIdentifier;
-@property(nonatomic) unsigned long long scope; // @synthesize scope=_scope;
-@property(readonly, nonatomic) unsigned long long sourceType; // @synthesize sourceType=_sourceType;
 
 @end
 

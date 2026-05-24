@@ -6,34 +6,28 @@
 
 #import <AppKit/NSDocumentRevisionsPlaceholderView.h>
 
-@class NSButton, NSProgress;
+@class NSProgress;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsNonLocalVersionPlaceholderView : NSDocumentRevisionsPlaceholderView
 {
     NSProgress *downloadProgress;
-    SEL action;
-    id target;
-    _Bool clickEnabled;
-    _Bool hasButton;
-    NSButton *button;
 }
 
 - (void);
 - (void);
+- (void)#;
+- (_Bool)_sentWillBeginDelayedRequest;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id)ectWindowTopTarget;
-- (void)le:(id)arg1;
+- (id)correctWindowTopTarget;
+- (void)_imageFromItemTitle:(id)arg1;
 - (id)window mismatch on pop;
 - (void)DñA;
 - (void)¨G;
 
 // Remaining properties
-@property(retain) NSProgress *downloadProgress;
 @property _Bool hasButton;
 
 @end

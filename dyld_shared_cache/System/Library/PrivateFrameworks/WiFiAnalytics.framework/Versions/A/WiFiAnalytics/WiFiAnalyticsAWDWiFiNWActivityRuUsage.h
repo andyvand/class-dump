@@ -9,37 +9,35 @@
 @interface WiFiAnalyticsAWDWiFiNWActivityRuUsage
 {
     NSMutableArray *_rxs;
-    NSMutableArray *_txs;
 }
 
 + (Class);
 + (Class);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)�a;
 - (void);
-- (void);
-- (id);
+- (id).account is nil for -shouldUseExternalIdentifierAsDeletionKey {listID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)uePair:(struct _NSZone *)arg1:fromCfType(const CFTypeRef, CLNameValuePair &) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *rxs; // @synthesize rxs=_rxs;
-@property(retain, nonatomic) NSMutableArray *txs; // @synthesize txs=_txs;
 
 @end
 

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface, _EXHostViewControllerSession;
+@class NSString;
 @protocol MKPlaceCardContentSizeDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceCardRemoteUIHostViewController
 {
     NSString *_sceneIdentifier;
-    NSXPCInterface *_remoteObjectInterface;
-    double _preferredWidth;
-    _EXHostViewControllerSession *_session;
-    NSXPCConnection *_connection;
-    id <MKPlaceCardContentSizeDelegate> _placeCardContentSizeDelegate;
 }
 
 - (void);
@@ -23,24 +18,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)N;
 - (void);
 - (long long);
+- (void)buildDiagnosticIncidentEventForCaseSignature:handledResult:dampeningResult:closureType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)Attributes;
+- (void)markerStyleAttributes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <MKPlaceCardContentSizeDelegate> placeCardContentSizeDelegate; // @synthesize placeCardContentSizeDelegate=_placeCardContentSizeDelegate;
-@property(readonly) Class superclass;
 
 @end
 

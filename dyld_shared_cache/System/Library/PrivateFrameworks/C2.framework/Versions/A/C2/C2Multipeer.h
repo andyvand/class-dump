@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2MultipeerDiscovery, NSMutableDictionary, NSObject;
-@protocol C2MultipeerChunkDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface C2Multipeer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    C2MultipeerDiscovery *_listener;
-    NSMutableDictionary *_clientConnectionByPeer;
-    NSMutableDictionary *_serverConnectionByPeer;
-    NSMutableDictionary *_clientContextByRequestUUID;
-    id <C2MultipeerChunkDelegate> _chunkDelegate;
-    NSObject<OS_dispatch_queue> *_chunkDelegateQueue;
 }
 
 - (void);
@@ -30,23 +24,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)\;
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <C2MultipeerChunkDelegate> chunkDelegate; // @synthesize chunkDelegate=_chunkDelegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *chunkDelegateQueue; // @synthesize chunkDelegateQueue=_chunkDelegateQueue;
-@property(retain, nonatomic) NSMutableDictionary *clientConnectionByPeer; // @synthesize clientConnectionByPeer=_clientConnectionByPeer;
-@property(retain, nonatomic) NSMutableDictionary *clientContextByRequestUUID; // @synthesize clientContextByRequestUUID=_clientContextByRequestUUID;
-@property(retain, nonatomic) C2MultipeerDiscovery *listener; // @synthesize listener=_listener;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *serverConnectionByPeer; // @synthesize serverConnectionByPeer=_serverConnectionByPeer;
 
 @end
 

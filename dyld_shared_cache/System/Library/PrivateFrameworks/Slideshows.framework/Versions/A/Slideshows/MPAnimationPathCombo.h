@@ -11,8 +11,6 @@
 @interface MPAnimationPathCombo : MPAnimationPath
 {
     NSMutableDictionary *_animationPaths;
-    NSString *_operation;
-    NSString *_key;
 }
 
 + (id);
@@ -24,9 +22,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)rH;
 - (void);
 - (id);
 - (void);
@@ -36,7 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *operation; // @synthesize operation=_operation;
 
 @end
 

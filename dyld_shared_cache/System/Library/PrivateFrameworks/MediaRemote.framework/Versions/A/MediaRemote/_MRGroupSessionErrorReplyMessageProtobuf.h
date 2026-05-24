@@ -20,13 +20,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void)Date;
+- (void)!;
+- (id)P;
+- (id)asr_speech_profile_onscreen_entities;
+- (void)_lastQueueRequestDate;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
 @property(readonly, nonatomic) _Bool hasErrorMessage;
 
 @end

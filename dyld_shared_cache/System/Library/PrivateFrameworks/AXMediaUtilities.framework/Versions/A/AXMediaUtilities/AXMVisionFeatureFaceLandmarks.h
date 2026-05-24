@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface AXMVisionFeatureFaceLandmarks
 {
     _Bool _is3DLandmarks;
-    NSDictionary *_results;
 }
 
-+ (id);
-+ (_Bool);
++ (id)|;
++ (_Bool)2@0:8@16@24q32@40@48@56@64 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)t;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 
 // Remaining properties
 @property(nonatomic) _Bool is3DLandmarks; // @synthesize is3DLandmarks=_is3DLandmarks;
-@property(retain, nonatomic) NSDictionary *results; // @synthesize results=_results;
 
 @end
 

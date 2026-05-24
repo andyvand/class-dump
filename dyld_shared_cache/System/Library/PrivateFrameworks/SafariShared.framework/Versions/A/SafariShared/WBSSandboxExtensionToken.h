@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSSet, NSURL;
-@protocol OS_dispatch_queue;
+@class NSArray, NSURL;
 
 @interface WBSSandboxExtensionToken
 {
     NSArray *_extensions;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _stopAccessingRequestURLWhenDone;
-    NSURL *_requestURL;
 }
 
 - (id);
@@ -29,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *requestURL; // @synthesize requestURL=_requestURL;
-@property(readonly, nonatomic) NSURL *shortestAccessibleURL;
-@property(readonly, nonatomic) _Bool stopAccessingRequestURLWhenDone; // @synthesize stopAccessingRequestURLWhenDone=_stopAccessingRequestURLWhenDone;
-@property(readonly, copy, nonatomic) NSSet *urls;
 
 @end
 

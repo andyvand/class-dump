@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPDSecureBackupConfiguration, NSDictionary, NSString;
-@protocol CDPDSecureBackupDelegate, CDPDSecureBackupProxy, CDPStateUIProviderInternal;
+@class NSDictionary;
 
 @interface CDPDSOSSecureBackupController
 {
     _Bool fakeNearlyDepletedRecords;
-    CDPContext *_context;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    id <CDPDSecureBackupProxy> _secureBackupProxy;
-    NSDictionary *_cachedAccountInfo;
-    id <CDPDSecureBackupDelegate> _delegate;
-    CDPDSecureBackupConfiguration *_configuration;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)AutoFillCompletionUIPresentationController;
+- (id);
+- (id)ed in no update found;
 - (void);
 - (void);
 - (void);
@@ -38,7 +31,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (void);
@@ -49,23 +42,10 @@
 - (void);
 - (id);
 - (void)inistration.framework/SystemAdministration;
-- (id)owPreRecordResult;
+- (id)EscrowPreRecordResult;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *cachedAccountInfo; // @synthesize cachedAccountInfo=_cachedAccountInfo;
-@property(retain, nonatomic) CDPDSecureBackupConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CDPDSecureBackupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fakeNearlyDepletedRecords; // @synthesize fakeNearlyDepletedRecords;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CDPDSecureBackupProxy> secureBackupProxy; // @synthesize secureBackupProxy=_secureBackupProxy;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end
 

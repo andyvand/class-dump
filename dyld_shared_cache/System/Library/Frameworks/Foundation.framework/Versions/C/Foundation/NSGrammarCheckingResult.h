@@ -6,12 +6,9 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSArray;
-
 @interface NSGrammarCheckingResult : NSTextCheckingResult
 {
     struct _NSRange _range;
-    NSArray *_details;
 }
 
 + (_Bool)AppleEventDescriptor;
@@ -21,8 +18,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (struct _NSRange);
-- (void);
+- (struct _NSRange);
+- (void);
 - (unsigned long long)ºººº»¼½½½½½¾¾¿ÀÀÀÀÀÁÁÂÂÂÃÃÄÄÅÆÇÈÉÊËËËËÌÍÍÎÎÎÏÏÏÏÏÐÐÐÐÑÑÑÑÑÑÒÒÒÒÓÔÔÕÕÕÕÖÖÖ××ØØÙÙÙÙÚÛÜÝÝÞÞÞßààààààáâããããäååæçèéêêêêëìííîîîîîîîîîîïïïïïïïðñññòòòóóôõö÷øøøøùùúúúûûûüüýýþþþþÿÿ;
 
 @end

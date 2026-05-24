@@ -6,17 +6,15 @@
 
 #import <UIKitCore/_UIImageLoader.h>
 
-@class NSURLRequest, NSURLSession, NSURLSessionTask;
+@class NSURLRequest;
 
 __attribute__((visibility("hidden")))
 @interface _UINSURLRequestImageLoader : _UIImageLoader
 {
     NSURLRequest *_request;
-    NSURLSession *_session;
-    NSURLSessionTask *_task;
 }
 
-- (id);
+- (id)ubiquitousStoreQueue;
 - (void);
 - (_Bool);
 - (id);

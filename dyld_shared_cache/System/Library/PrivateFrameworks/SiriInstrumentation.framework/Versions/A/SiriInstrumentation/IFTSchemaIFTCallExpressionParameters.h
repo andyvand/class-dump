@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTCallExpressionParameters : SISchemaInstrumentationMessage
 {
     NSString *_callParameterName;
-    IFTSchemaIFTStatementId *_statementId;
-    _Bool _hasCallParameterName;
-    _Bool _hasStatementId;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -40,10 +37,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *callParameterName; // @synthesize callParameterName=_callParameterName;
-@property(nonatomic) _Bool hasCallParameterName; // @synthesize hasCallParameterName=_hasCallParameterName;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end
 

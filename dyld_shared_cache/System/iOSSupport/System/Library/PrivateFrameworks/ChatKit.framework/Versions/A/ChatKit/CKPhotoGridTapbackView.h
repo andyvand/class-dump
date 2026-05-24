@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAggregateAcknowledgmentBalloonView, NSString, PXAssetReference;
+@class CKAggregateAcknowledgmentBalloonView;
 
 @interface CKPhotoGridTapbackView
 {
     _Bool _needsAnimation;
-    unsigned long long _decorationOptions;
-    PXAssetReference *_userData;
-    CKAggregateAcknowledgmentBalloonView *_tapbackBalloonView;
-    struct CGRect _clippingRect;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)initWithSearchString:searchSuggestionType:isTopHit:foundAttachmentObjectID:sortableSearchableItem: /* Error: Ran out of types for this method. */;
+- (void)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
+- (void)addHashtagToNoteBodyIfMissing:(_Bool)arg1;
+- (void)_buttonIdentifiersToTouchBarItems;
 - (void);
 - (_Bool);
 - (void);
@@ -27,20 +23,21 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void)d notes welcome migration prompt…;
+- (void)ed notes welcome migration prompt… {account:(id)arg1 %@}%s:(id)arg2 %d;
+- (void)diverged mode alert for unknown password mode;
+- (void)for device password mode…;
+- (void)om password mode…;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ackwards compatibility alert for unknown password mode;
+- (void)backwards compatibility alert if needed… {account:(id)arg1 %@, mode:%@}%s:%d /* Error: Ran out of types for this method. */;
 - (Class);
-- (void);
-- (void);
-- (void);
+- (void)ate note because it's not authenticated — skipping {note:(id)arg1 %@};
+- (void)SyncAfterDidStopSharing;
+- (void)erDevice"8Q16^B24;
 - (id);
-- (id);
+- (id)1
+;
 - (struct CGRect);
 - (void);
 - (struct CGRect);
@@ -56,30 +53,7 @@
 - (void)|;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long decorationOptions; // @synthesize decorationOptions=_decorationOptions;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool needsAnimation; // @synthesize needsAnimation=_needsAnimation;
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CKAggregateAcknowledgmentBalloonView *tapbackBalloonView; // @synthesize tapbackBalloonView=_tapbackBalloonView;
-@property(copy, nonatomic) PXAssetReference *userData; // @synthesize userData=_userData;
 
 @end
 

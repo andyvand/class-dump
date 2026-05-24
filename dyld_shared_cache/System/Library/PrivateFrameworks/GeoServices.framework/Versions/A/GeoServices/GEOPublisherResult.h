@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDComponent, GEOPDPublisherResult, GEOPublisher;
+@class GEOPDPublisherResult, GEOPublisher;
 
 @interface GEOPublisherResult
 {
     GEOPDPublisherResult *_publisherResult;
-    GEOPDComponent *_publisherComponent;
-    GEOPublisher *_publisher;
 }
 
-+ (id);
-- (id);
++ (id);
+- (id);
 - (id);
 - (void);
 

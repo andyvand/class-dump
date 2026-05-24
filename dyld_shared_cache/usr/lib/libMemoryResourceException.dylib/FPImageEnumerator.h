@@ -9,10 +9,9 @@
 @interface FPImageEnumerator
 {
     NSArray *_images;
-    unsigned long long _index;
 }
 
-- (void);
+- (void)4;
 
 @end
 

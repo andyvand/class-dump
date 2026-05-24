@@ -7,6 +7,8 @@
 @protocol XCTInternalEntitlementChecking;
 
 @protocol XCTConnectionAccepting
+- (id <XCTInternalEntitlementChecking>);
+- (void);
 
 // Remaining properties
 @property __weak id <XCTInternalEntitlementChecking> internalEntitlementChecker;

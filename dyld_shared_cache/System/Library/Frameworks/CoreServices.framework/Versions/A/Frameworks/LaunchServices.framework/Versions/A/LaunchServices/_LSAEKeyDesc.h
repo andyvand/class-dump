@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     struct AEKeyDesc _keyDesc;
 }
 
-+ (_Bool);
++ (_Bool)^v16@"NSObject<OS_dispatch_data>"24Q32;
 - (id);
 - (id);
 - (id);

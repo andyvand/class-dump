@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SSTokenizedString
 {
     _Bool _shouldTokenize;
-    NSString *_locale;
-    NSString *_original;
-    NSArray *_tokens;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)q40@0:(id)arg1 8@16{CGSize=dd}24;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void):language:isCJK:experimentalWeight1:experimentalWeight2:currentTime: /* Error: Ran out of types for this method. */;
+- (void)initWithSearchString:queryID:language:isCJK:experimentalWeight1:experimentalWeight2:currentTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSString *locale; // @synthesize locale=_locale;
-@property(retain) NSString *original; // @synthesize original=_original;
-@property(retain) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

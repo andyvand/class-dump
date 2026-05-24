@@ -7,26 +7,6 @@
 @interface SiriOntology.Com_Apple_Siri_Product_Proto_PromptContext._StorageClass__priv_F2EBD59D06BFCF934A5518689A06A10D
 {
     id _dictationPrompt;
-    id _strictPrompt;
-    id _ambiguityTarget;
-    id _responseOptions;
-    id _domainHints;
-    id _promptTargetHints;
-    id _displayHints;
-    id _foregroundAppSubscribesToInAppSearch;
-    id _objectDisambiguation;
-    id _alertDomainHints;
-    id _backgroundDomainHints;
-    id _previousDomainName;
-    id _previousNldomainName;
-    id _listenAfterSpeaking;
-    id _assistantSignalState;
-    id _overridePromptingOnSpeechFailure;
-    id _disableAutoPunctuation;
-    id _currentTaskVerb;
-    id _taskID;
-    id _systemDialogActID;
-    id _usePlaceholderTaskVerb;
 }
 
 @end

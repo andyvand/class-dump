@@ -11,15 +11,15 @@
     NSXPCConnection *_connection;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)ecent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill) SELECT item_pid, IFNULL(user_rating, 0), IFNULL(needs_restore, 0), download_identifier, IFNULL(play_count_user, 0), IFNULL(play_count_recent, 0), IFNULL(has_been_played, 0), IFNULL(date_played, 0), IFNULL(date_skipped, 0), IFNULL(date_accessed, 0), IFNULL(is_alarm, 0), IFNULL(skip_count_user, 0), IFNULL(skip_count_recent, 0), IFNULL(remember_bookmark, 0), IFNULL(bookmark_time_ms, 0.0), IFNULL(hidden, 0), IFNULL(chosen_by_auto_fill, 0) FROM item_stats;
+- (void)grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version) SELECT item_pid, title, sort_title, disc_count, track_count, total_time_ms, year, location, file_size, integrity, is_compilation, is_audible_audio_book, date_created, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
+- (void)Size.;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)R);
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;

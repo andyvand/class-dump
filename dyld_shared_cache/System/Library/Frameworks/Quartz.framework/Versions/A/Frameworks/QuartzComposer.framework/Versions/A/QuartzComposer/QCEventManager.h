@@ -7,19 +7,17 @@
 @interface QCEventManager
 {
     struct __CFArray *_selectedPatches;
-    struct __CFArray *_selectedCount;
-    _Bool _interactive;
 }
 
 - (id);
-- (void);
+- (void)kN<kq;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)urchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name, sync_redownload_params, is_playlist_only) SELECT item_pid, store_item_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name, sync_redownload_params, is_foreign FROM item_store;
 
 // Remaining properties
 @property _Bool interactive; // @synthesize interactive=_interactive;

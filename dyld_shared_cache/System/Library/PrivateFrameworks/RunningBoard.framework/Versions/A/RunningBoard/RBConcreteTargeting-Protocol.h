@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBProcess, RBSProcessIdentity;
+@class RBProcess, RBSTarget;
 
 @protocol RBConcreteTargeting
+- (RBProcess *)7;
+- (RBSTarget *)setEmojiSearchEmojiKeyTaps: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *environment;
-@property(readonly, copy, nonatomic) RBSProcessIdentity *identity;
 @property(readonly, nonatomic) RBProcess *process;
-@property(readonly, nonatomic, getter=isSystem) _Bool system;
 @end
 

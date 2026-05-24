@@ -4,41 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryCompletionMetadata
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _completionSourceTypes;
-    CDStruct_95bda58d _tags;
-    NSString *_completion;
-    long long _popularity;
-    NSMutableArray *_tokens;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    float _score;
-    float _tagConfidence;
-    _Bool _isCompletematch;
-    struct {
-        unsigned int has_popularity:1;
-        unsigned int has_score:1;
-        unsigned int has_tagConfidence:1;
-        unsigned int has_isCompletematch:1;
-        unsigned int read_completionSourceTypes:1;
-        unsigned int read_tags:1;
-        unsigned int read_completion:1;
-        unsigned int read_tokens:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)attempt to set settings on a PTSection that already has settings;
+- (id)createRemoraHashResultFromPHash:firstPassTriggerEndTime: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessageRepository, NSArray;
+@class EMMessageRepository;
 
 @interface MUICategoryMailboxCountHelper
 {
     EMMessageRepository *_messageRepository;
-    NSArray *_mailboxes;
 }
 
 + (id);
@@ -20,10 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void)ings: /* Error: Ran out of types for this method. */;
+- (void)openHideMyEmailSettings: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *mailboxes; // @synthesize mailboxes=_mailboxes;
 @property(retain, nonatomic) EMMessageRepository *messageRepository; // @synthesize messageRepository=_messageRepository;
 
 @end

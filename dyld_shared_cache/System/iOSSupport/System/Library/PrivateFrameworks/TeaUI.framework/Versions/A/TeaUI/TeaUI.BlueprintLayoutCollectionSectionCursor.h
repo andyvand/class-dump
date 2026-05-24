@@ -7,14 +7,6 @@
 @interface TeaUI.BlueprintLayoutCollectionSectionCursor
 {
     id point;
-    id minX;
-    id maxX;
-    id minY;
-    id maxY;
-    id minWidth;
-    id maxWidth;
-    id minHeight;
-    id maxHeight;
 }
 
 @end

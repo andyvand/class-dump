@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)usesClassicLoadingMode;
+- (void)leUploadState:(_Bool)arg1 cannot initWithResumeData with nil body type;
 
 // Remaining properties
 @property _Bool concurrentScrollingDisabled; // @synthesize concurrentScrollingDisabled=_concurrentScrollingDisabled;

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface NSInputMethodUICandidateItemLayout
 {
     NSString *_identifier;
-    NSDictionary *_annotationAttributes;
-    NSDictionary *_titleAttributes;
-    NSMutableDictionary *_cellDictionary;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)ng a message to clear the UUID cache;
+- (void).necp_drop_dest.plist;
+- (id)"NSURLSession",R,W,D;
 - (id);
 - (id);
 - (void)!¤Eùñà3ð1Â0@ù
 × ;
 - (void);
-- (id)OfURLs:(struct _NSZone *)arg1 requestedBySourceApp:presentErrors:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_openDocumentsWithContentsOfURLs:(struct _NSZone *)arg1 requestedBySourceApp:presentErrors:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)ô;
 - (void)¬*A;
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *annotationAttributes; // @synthesize annotationAttributes=_annotationAttributes;
 @property(retain, nonatomic) NSMutableDictionary *cellDictionary; // @synthesize cellDictionary=_cellDictionary;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSDictionary *titleAttributes; // @synthesize titleAttributes=_titleAttributes;
 
 @end
 

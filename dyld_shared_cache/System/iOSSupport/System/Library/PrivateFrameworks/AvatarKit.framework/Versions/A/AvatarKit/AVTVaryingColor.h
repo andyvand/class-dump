@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVTVaryingColor
 {
     UIColor *_baseColor;
-    UIColor *_variationMinColor;
-    UIColor *_variationMaxColor;
 }
 
 - (id);

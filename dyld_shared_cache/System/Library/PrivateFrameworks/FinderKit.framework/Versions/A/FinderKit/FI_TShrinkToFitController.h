@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TRenameOperation, FI_TShrinkToFitTextView, NSFont, NSObject, NSString, NSTimer, NSWindow;
-@protocol TShrinkToFitDelegateProtocol;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface FI_TShrinkToFitController
 {
     NSTimer *_delayTimer;
-    struct TString _initialText;
-    struct _NSRange _selectionRange;
-    long long _maxNumLines;
-    _Bool _textGrowsUpwards;
-    struct TFENode _configuredNode;
-    struct TNSWeakPtr<NSObject<TShrinkToFitDelegateProtocol>> _weakDelegate;
-    _Bool _disableDeepClickLookUp;
-    FI_TShrinkToFitTextView *_stfTextView;
-    NSWindow *_parentWindow;
-    FI_TRenameOperation *_renameOp;
-    NSFont *_font;
-    double _globalFirstLineBaseline;
-    unsigned long long _maxUniChars;
-    long long _alignment;
-    long long _baseWritingDirection;
-    double _srcGlobalBaseline;
-    struct CGRect _maxGlobalFrame;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (void);
@@ -58,14 +40,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)?;
 - (long long);
-- (void);
+- (void)/;
 - (id);
 - (void)0@ù
 × ;
@@ -75,28 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) long long baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<TShrinkToFitDelegateProtocol> *delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableDeepClickLookUp; // @synthesize disableDeepClickLookUp=_disableDeepClickLookUp;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(readonly, nonatomic) double globalFirstLineBaseline; // @synthesize globalFirstLineBaseline=_globalFirstLineBaseline;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isEditing;
-@property(readonly, nonatomic) struct CGRect maxGlobalFrame; // @synthesize maxGlobalFrame=_maxGlobalFrame;
-@property(nonatomic) long long maxNumLines;
-@property(nonatomic) unsigned long long maxUniChars; // @synthesize maxUniChars=_maxUniChars;
-@property(readonly, nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly, nonatomic) FI_TRenameOperation *renameOp; // @synthesize renameOp=_renameOp;
 @property(readonly, nonatomic) double srcGlobalBaseline; // @synthesize srcGlobalBaseline=_srcGlobalBaseline;
-@property(readonly, nonatomic) FI_TShrinkToFitTextView *stfTextView; // @synthesize stfTextView=_stfTextView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool textGrowsUpwards;
 
 @end
 

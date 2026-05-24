@@ -6,44 +6,31 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSDictionary, NSString, PGPeopleWallpaperSuggesterFilteringContext, PGSinglePersonWallpaperAssetSuggesterDistancingContext, PGSinglePersonWallpaperAssetSuggesterScoringContext, PGWallpaperSuggestionAssetGater;
+@class NSDictionary, PGPeopleWallpaperSuggesterFilteringContext;
 
 @interface PGPeopleWallpaperSuggester : PGAbstractSuggester
 {
     NSDictionary *_suggesterByPersonLocalIdentifier;
-    PGSinglePersonWallpaperAssetSuggesterScoringContext *_scoringContext;
-    PGSinglePersonWallpaperAssetSuggesterDistancingContext *_distancingContext;
-    PGWallpaperSuggestionAssetGater *_assetGater;
-    PGPeopleWallpaperSuggesterFilteringContext *_primaryFilteringContext;
-    PGPeopleWallpaperSuggesterFilteringContext *_secondaryFilteringContext;
 }
 
++ (id)disableTRMStateAndInformUserIfNeeded;
++ (_Bool)d;
++ (_Bool);
++ (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)__DATA_CONST;
 - (id);
 - (void);
-- (id);
-- (void)onResults;
+- (id)C;
+- (void)snapshotFilenameForCurationResults;
 - (id)ÿHÔ!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *primaryFilteringContext; // @synthesize primaryFilteringContext=_primaryFilteringContext;
-@property(retain, nonatomic) PGPeopleWallpaperSuggesterFilteringContext *secondaryFilteringContext; // @synthesize secondaryFilteringContext=_secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

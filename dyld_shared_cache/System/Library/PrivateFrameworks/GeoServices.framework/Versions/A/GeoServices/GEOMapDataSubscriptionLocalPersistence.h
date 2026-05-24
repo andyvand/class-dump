@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileDB, NSString, geo_isolater;
-@protocol GEOMapDataSubscriptionPersistenceDelegate;
+@class geo_isolater;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapDataSubscriptionLocalPersistence
 {
     geo_isolater *_isolation;
-    id <GEOMapDataSubscriptionPersistenceDelegate> _delegate;
-    GEOTileDB *_db;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ither";
+- (id)URLSession:(id)arg1 task:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)lesInDirectory:File %@ compressed from %ld to %ld  /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)enable;
 - (void)3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GEOMapDataSubscriptionPersistenceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

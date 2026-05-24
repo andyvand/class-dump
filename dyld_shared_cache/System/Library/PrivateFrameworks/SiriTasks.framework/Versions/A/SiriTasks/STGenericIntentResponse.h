@@ -12,9 +12,9 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;

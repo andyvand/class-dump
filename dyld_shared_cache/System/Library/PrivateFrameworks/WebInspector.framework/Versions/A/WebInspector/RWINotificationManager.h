@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface RWINotificationManager
 {
     NSObject<OS_dispatch_queue> *_handlersQueue;
-    NSMutableDictionary *_handlers;
-    unsigned long long _nextRegistrationID;
-    NSObject<OS_dispatch_queue> *_sendQueue;
 }
 
 - (void);
@@ -27,15 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)D;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *handlers; // @synthesize handlers=_handlers;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *handlersQueue; // @synthesize handlersQueue=_handlersQueue;
-@property(nonatomic) unsigned long long nextRegistrationID; // @synthesize nextRegistrationID=_nextRegistrationID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *sendQueue; // @synthesize sendQueue=_sendQueue;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CGFloat)
-+ (id);
++ (id)`;
 + (id);
 + (id);
 + (id);

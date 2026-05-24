@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXColumnCalculator, SXLayoutContextFactory, SXUnitConverterFactory;
+@protocol SXColumnCalculator;
 
 @interface SXLayouterFactory
 {
     id <SXColumnCalculator> _columnCalculator;
-    id <SXLayoutContextFactory> _layoutContextFactory;
-    id <SXUnitConverterFactory> _unitConverterFactory;
 }
 
 - (id);
@@ -25,15 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXColumnCalculator> columnCalculator; // @synthesize columnCalculator=_columnCalculator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXLayoutContextFactory> layoutContextFactory; // @synthesize layoutContextFactory=_layoutContextFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXUnitConverterFactory> unitConverterFactory; // @synthesize unitConverterFactory=_unitConverterFactory;
 
 @end
 

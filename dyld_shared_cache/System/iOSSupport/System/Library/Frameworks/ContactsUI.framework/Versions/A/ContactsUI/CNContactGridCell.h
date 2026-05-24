@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarView, CNContact, CNContactFormatter, CNContactGridClippingView, CNQuickActionsManager, CNQuickActionsView, NSArray, NSDictionary, UILabel, UIView;
-@protocol CNAvatarViewDelegate><CNQuickActionsViewDelegate;
+@class CNAvatarView;
 
 __attribute__((visibility("hidden")))
 @interface CNContactGridCell
 {
     _Bool _showsContactOnTap;
-    CNContactFormatter *_contactFormatter;
-    id <CNAvatarViewDelegate><CNQuickActionsViewDelegate> _delegate;
-    NSDictionary *_nameTextAttributes;
-    NSArray *_actionCategories;
-    CNQuickActionsManager *_actionsManager;
-    CNAvatarView *_avatarView;
-    CNContactGridClippingView *_actionsClippingView;
-    UIView *_actionsContainerView;
-    CNQuickActionsView *_actionsView;
-    UILabel *_nameLabel;
-    struct CGSize _avatarSize;
-    struct UIEdgeInsets _avatarMargins;
 }
 
-+ (double);
++ (double)#;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (double);
-- (struct CGSize);
+- (struct CGSize)Q;
 - (struct UIEdgeInsets);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (void);
@@ -64,21 +51,7 @@ __attribute__((visibility("hidden")))
 - (void)î#A;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionCategories; // @synthesize actionCategories=_actionCategories;
-@property(retain, nonatomic) CNContactGridClippingView *actionsClippingView; // @synthesize actionsClippingView=_actionsClippingView;
-@property(retain, nonatomic) UIView *actionsContainerView; // @synthesize actionsContainerView=_actionsContainerView;
-@property(retain, nonatomic) CNQuickActionsManager *actionsManager; // @synthesize actionsManager=_actionsManager;
-@property(retain, nonatomic) CNQuickActionsView *actionsView; // @synthesize actionsView=_actionsView;
-@property(nonatomic) struct UIEdgeInsets avatarMargins; // @synthesize avatarMargins=_avatarMargins;
-@property(nonatomic) struct CGSize avatarSize; // @synthesize avatarSize=_avatarSize;
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) CNContact *contact;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(nonatomic) __weak id <CNAvatarViewDelegate><CNQuickActionsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double maximumActionsWidth;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(copy, nonatomic) NSDictionary *nameTextAttributes; // @synthesize nameTextAttributes=_nameTextAttributes;
-@property(nonatomic) _Bool showsContactOnTap; // @synthesize showsContactOnTap=_showsContactOnTap;
 
 @end
 

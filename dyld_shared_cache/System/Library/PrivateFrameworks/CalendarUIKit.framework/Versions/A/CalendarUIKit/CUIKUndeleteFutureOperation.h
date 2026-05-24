@@ -10,9 +10,9 @@
 {
 }
 
-- (id)?×;
+- (id);
 - (Class);
-- (_Bool),kb;
+- (_Bool);
 
 @end
 

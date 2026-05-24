@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface SPLocationFetchContext
 {
     _Bool _subscribe;
-    _Bool _reportDeviceEvents;
-    NSString *_cachePolicy;
-    NSArray *_searchIdentifiers;
-    NSArray *_searchPriority;
-    NSArray *_searchTypes;
-    NSArray *_searchLocationSources;
-    NSDictionary *_lastOnlineLocationInfo;
-    NSString *_bundleIdentifier;
-    struct _NSRange _primaryIndexRange;
 }
 
 + (_Bool);
@@ -38,25 +29,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)hPairingStatus:(id)arg1 lostModeInfo: /* Error: Ran out of types for this method. */;
+- (void)initWithPairingStatus:(id)arg1 lostModeInfo: /* Error: Ran out of types for this method. */;
 - (id)SPBeaconMonitorWrapper:Monitoring is paused. Clearing n/w off date & forceBeaconingOff. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(copy, nonatomic) NSDictionary *lastOnlineLocationInfo; // @synthesize lastOnlineLocationInfo=_lastOnlineLocationInfo;
-@property(nonatomic) struct _NSRange primaryIndexRange; // @synthesize primaryIndexRange=_primaryIndexRange;
-@property(nonatomic) _Bool reportDeviceEvents; // @synthesize reportDeviceEvents=_reportDeviceEvents;
-@property(copy, nonatomic) NSArray *searchIdentifiers; // @synthesize searchIdentifiers=_searchIdentifiers;
-@property(copy, nonatomic) NSArray *searchLocationSources; // @synthesize searchLocationSources=_searchLocationSources;
-@property(copy, nonatomic) NSArray *searchPriority; // @synthesize searchPriority=_searchPriority;
-@property(copy, nonatomic) NSArray *searchTypes; // @synthesize searchTypes=_searchTypes;
-@property(nonatomic) _Bool subscribe; // @synthesize subscribe=_subscribe;
 
 @end
 

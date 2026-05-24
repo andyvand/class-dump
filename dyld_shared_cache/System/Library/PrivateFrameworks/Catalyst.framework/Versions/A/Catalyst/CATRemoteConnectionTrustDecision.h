@@ -9,8 +9,6 @@
 @interface CATRemoteConnectionTrustDecision
 {
     CATRemoteConnection *mConnection;
-    _Atomic _Bool mHasResponded;
-    id _trust;
 }
 
 - (void);

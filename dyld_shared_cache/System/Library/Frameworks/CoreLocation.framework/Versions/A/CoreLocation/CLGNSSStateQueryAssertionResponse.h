@@ -9,10 +9,10 @@
     struct unique_ptr<CLGNSSStateQueryAssertionResponseInternal, std::default_delete<CLGNSSStateQueryAssertionResponseInternal>> fInternal;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
-- (void);
+- (void):failed to write alternate image - %s [%d] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)tDate;

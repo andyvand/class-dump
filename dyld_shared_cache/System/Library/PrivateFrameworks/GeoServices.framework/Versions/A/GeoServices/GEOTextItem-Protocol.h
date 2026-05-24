@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol GEOTextItem
+- (NSString *)<Q	;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *primaryText;

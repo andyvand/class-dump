@@ -26,19 +26,19 @@ __attribute__((visibility("hidden")))
     _UICoreUIWidget *_coreUIWidget;
 }
 
-+ (_Bool);
++ (_Bool)Notice, error:(id)arg1 %@;
 + (double);
 + (int);
 + (id);
 + (id);
 + (struct UIEdgeInsets)!ðCù±Yð1Â0@ù
 × ;
-+ (struct UIEdgeInsets)trackableState;
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
++ (struct UIEdgeInsets)_trackableState;
+- (void)_isRecordingReplayDB;
+- (void)_isConnectedOverBT:(id)arg1;
+- (void)Q;
+- (struct CGSize)found %d messages for number of ids:(id)arg1 %d on number of services:%d numberOfMessagesBefore:%d numberOfMessagesAfter:%d /* Error: Ran out of types for this method. */;
+- (void)marked as purgeable in our database but not marked purgeable on APFS;
 - (void);
 - (id)nRenamingWithRangeHandler;
 - (void)t	;

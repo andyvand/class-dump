@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     long long _enableCount;
 }
 
-+ (id)iveImageGlyphAttribute;
-- (void);
-- (void);
-- (void);
++ (id)AdaptiveImageGlyphAttribute;
+- (void)_hasBeenCalledBack;
+- (void)oundSession <%{public}@> attempting to reconnect to background transfer daemon;
+- (void)9;
 - (id);
 - (id);
 

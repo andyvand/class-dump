@@ -6,18 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, NSSet, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSMercuryCacheFetchTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSSet *_cacheTypeIDs;
-    NSString *_clientIdentifier;
-    AMSProcessInfo *_clientInfo;
-    NSString *_clientVersion;
-    NSString *_logKey;
 }
 
 + (id);
@@ -29,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)__objc_catlist;
+- (id)ur supported types:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -42,19 +35,6 @@
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSSet *cacheTypeIDs; // @synthesize cacheTypeIDs=_cacheTypeIDs;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(readonly) Class superclass;
 
 @end
 

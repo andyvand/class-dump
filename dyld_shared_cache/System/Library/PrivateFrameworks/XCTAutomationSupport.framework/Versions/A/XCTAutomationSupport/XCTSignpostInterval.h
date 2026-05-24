@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, XCTSignpostEvent;
+@class NSString;
 
 @interface XCTSignpostInterval
 {
     NSString *_subsystem;
-    NSString *_category;
-    NSString *_name;
-    XCTSignpostEvent *_beginEvent;
-    XCTSignpostEvent *_endEvent;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)ary";
+- (id)K;
 - (id);
 - (id);
 - (id);
@@ -30,10 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) XCTSignpostEvent *beginEvent; // @synthesize beginEvent=_beginEvent;
-@property(readonly, copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, copy, nonatomic) XCTSignpostEvent *endEvent; // @synthesize endEvent=_endEvent;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, copy, nonatomic) NSString *subsystem; // @synthesize subsystem=_subsystem;
 
 @end

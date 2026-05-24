@@ -7,6 +7,8 @@
 @protocol SXAdvertisingSettings;
 
 @protocol NUAdSettings
+- (id <SXAdvertisingSettings>)oChannelDictionary  dictionary doesn't contain %s
+;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisingSettings> debugAdvertisementSettings;

@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id)edForFocusSystemSceneComponent:(struct CGRect)arg1;
+- (id)_installFocusIfNeededForFocusSystemSceneComponent:(struct CGRect)arg1;
 - (void)4ñìÿ;
 - (id)_stacksWithChild;
-- (void)tionDefinitionStorageInvokable;
+- (void)_UISceneConnectionOptionDefinitionStorageInvokable;
 - (void)8Á[;
 
 // Remaining properties

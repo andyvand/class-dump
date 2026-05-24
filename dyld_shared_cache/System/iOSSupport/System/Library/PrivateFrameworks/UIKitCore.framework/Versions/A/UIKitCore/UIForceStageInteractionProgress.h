@@ -6,17 +6,14 @@
 
 #import <UIKitCore/UIInteractionProgress.h>
 
-@class NSObservation, NSString;
+@class NSObservation;
 
 @interface UIForceStageInteractionProgress : UIInteractionProgress
 {
     NSObservation *_observation;
-    _Bool _completed;
-    _Bool _started;
-    _Bool _completesAtTargetState;
 }
 
-- (void);
+- (void)parts have been retracted, marking message as read;
 - (_Bool);
 - (void);
 - (void);
@@ -26,13 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool completesAtTargetState; // @synthesize completesAtTargetState=_completesAtTargetState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

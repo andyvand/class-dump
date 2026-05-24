@@ -6,29 +6,25 @@
 
 #import <AVKit/AVPresentationContainerView.h>
 
-@class UIView;
-
 __attribute__((visibility("hidden")))
 @interface AVPlayerView : AVPresentationContainerView
 {
     _Bool _needsInitialLayout;
-    UIView *_contentView;
 }
 
 - (id);
 - (void);
+- (void)M.;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)B;
+- (_Bool)yNodeRef _Nonnull, __strong PFSceneTaxonomyNodeRefVisitor _Nonnull);
 - (void);
 - (void)1Â0@ù
 × ;
 - (id).;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
 @property(nonatomic) _Bool needsInitialLayout; // @synthesize needsInitialLayout=_needsInitialLayout;
 
 @end

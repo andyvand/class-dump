@@ -7,28 +7,10 @@
 @interface NewsUI2.FollowingTabGroupManager
 {
     id delegate;
-    id mainTabManager;
-    id blueprintProvider;
-    id tagImageApplier;
-    id tracker;
-    id commandCenter;
-    id followingSelection;
-    id placeholderImage;
-    id shortcutService;
-    id featureAvailability;
-    id bundleSubscriptionManager;
-    id subscriptionController;
-    id offlineProvider;
-    id contentAvailabilityValidator;
-    id offlineManager;
-    id tipManager;
-    id hiddenTabElement;
-    id hiddenTab;
-    id completionCoordinators;
 }
 
 - (id);
-- (void)arModuleType;
+- (void)MagazineSectionBarModuleType;
 
 @end
 

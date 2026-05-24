@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _CNContactImageFetchRequestPredicateBuilder
 {
     NSPredicate *_contactIdentifierClause;
-    NSPredicate *_recencyTypeClause;
-    NSPredicate *_deletedItemPolicyClause;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

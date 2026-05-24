@@ -7,11 +7,10 @@
 @interface NewsFeed.DebugFormatTableViewCell
 {
     id indicatorColor;
-    id circleView;
 }
 
 - (id);
-- (void);
+- (void)ldRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/utility/TSUZipWriter.m;
 - (void);
 - (id)$rûÿ;
 - (void);

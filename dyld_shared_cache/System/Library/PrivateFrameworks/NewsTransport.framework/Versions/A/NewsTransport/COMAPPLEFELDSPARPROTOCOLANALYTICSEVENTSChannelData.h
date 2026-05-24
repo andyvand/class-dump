@@ -7,13 +7,12 @@
 @interface COMAPPLEFELDSPARPROTOCOLANALYTICSEVENTSChannelData
 {
     _Bool _isBundleChannel;
-    CDStruct_8fa617c1 _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)actionInfoItemExistsAtPoint:(_Bool)arg1;
+- (void)_updateQueryFromConditions;
+- (_Bool)_serialQueue_invalidateAssetFetchResultsInAssetCollections: /* Error: Ran out of types for this method. */;
+- (_Bool)_playbackEndFavoriteButtonSpriteIndex;
 - (id);
 - (void);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsBundleChannel;
-@property(nonatomic) _Bool isBundleChannel; // @synthesize isBundleChannel=_isBundleChannel;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentType;
+@class _INPBIntentType;
 
 @interface _INPBIntentTypePhrases
 {
     struct _has;
-    _INPBIntentType *_intentType;
-    NSArray *_intentVocabularyExamples;
 }
 
 + (_Bool);
@@ -20,31 +18,21 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)n;
+- (id);
+- (void)_objectDescription;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentType;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentType *intentType; // @synthesize intentType=_intentType;
-@property(copy, nonatomic) NSArray *intentVocabularyExamples; // @synthesize intentVocabularyExamples=_intentVocabularyExamples;
-@property(readonly, nonatomic) unsigned long long intentVocabularyExamplesCount;
-@property(readonly) Class superclass;
 
 @end
 

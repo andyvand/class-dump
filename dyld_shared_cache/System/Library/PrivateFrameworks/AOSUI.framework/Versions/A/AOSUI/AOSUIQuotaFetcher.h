@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AOSUIQuotaFetcher
 {
     _Bool _serviceIsLimited;
-    _Bool _shouldShow;
-    _Bool _fetched;
-    struct os_unfair_lock_s _lock;
-    NSString *_accountID;
 }
 
 + (id);
@@ -22,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_8?k	b;
 - (_Bool);
 - (id);
 - (void);
@@ -30,14 +24,10 @@ __attribute__((visibility("hidden")))
 - (struct os_unfair_lock_s);
 - (void)1Â0@ù
 × ;
-- (void)dle:(struct os_unfair_lock_s)arg1;
+- (void)initWithID:(struct os_unfair_lock_s)arg1 status:ownerHandle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
 @property(nonatomic) _Bool fetched; // @synthesize fetched=_fetched;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(nonatomic) _Bool serviceIsLimited; // @synthesize serviceIsLimited=_serviceIsLimited;
-@property(nonatomic) _Bool shouldShow; // @synthesize shouldShow=_shouldShow;
 
 @end
 

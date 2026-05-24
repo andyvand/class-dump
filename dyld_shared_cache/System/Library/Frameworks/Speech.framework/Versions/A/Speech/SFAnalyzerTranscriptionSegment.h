@@ -9,19 +9,15 @@
 @interface SFAnalyzerTranscriptionSegment
 {
     NSArray *_text;
-    NSArray *_alternatives;
-    double _confidence;
 }
 
+- (id)[;
 - (id);
-- (id);
-- (id);
+- (id);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
 @property(readonly, copy, nonatomic) NSArray *text; // @synthesize text=_text;
 
 @end

@@ -9,7 +9,6 @@
 @interface PHPersistentChange
 {
     PHChange *_change;
-    PHPersistentChangeToken *_changeToken;
 }
 
 - (id);

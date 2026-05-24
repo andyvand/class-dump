@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)_t<Source, Target> &WTF:(id)arg1:downcast(Source &) [Target = API::Double, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (id)or<uint32_t> &);
 - (id);
 - (id);
 - (void);

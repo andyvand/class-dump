@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRUserIdentity, NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @interface MRPlaybackQueueParticipant
 {
     NSString *_identifier;
-    MRUserIdentity *_identity;
 }
 
 + (void);
@@ -19,20 +18,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_captionTextField;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Speech delegate %@ is incapable of performing two-shot prompt.;
 - (id);
 - (id);
 - (void)ionRequirements;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) MRUserIdentity *identity; // @synthesize identity=_identity;
 @property(readonly, nonatomic) NSData *protobufData;
 
 @end

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RTSSchemaRTSAccelerationData : SISchemaInstrumentationMessage
 {
     double _xAcceleration;
-    double _yAcceleration;
-    double _zAcceleration;
-    struct {
-        unsigned int xAcceleration:1;
-        unsigned int yAcceleration:1;
-        unsigned int zAcceleration:1;
-    } _has;
 }
 
 - (void);
@@ -32,27 +23,21 @@
 - (id);
 - (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long)toreDaemon/Stubs/ASDInstallManifestRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)B;
+- (void)prepareForReindexingWithReason:(double)arg1 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)__kmessageAttributedBodyKey;
 - (double);
 - (double);
 - (id);
 - (id);
 - (void);
-- (id)ionFixedDimensions;
+- (id)attentionInvocationFixedDimensions;
 - (id)tityFromSiri28Days;
 
 // Remaining properties
-@property(nonatomic) _Bool hasXAcceleration;
-@property(nonatomic) _Bool hasYAcceleration;
-@property(nonatomic) _Bool hasZAcceleration;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double xAcceleration; // @synthesize xAcceleration=_xAcceleration;
-@property(nonatomic) double yAcceleration; // @synthesize yAcceleration=_yAcceleration;
-@property(nonatomic) double zAcceleration; // @synthesize zAcceleration=_zAcceleration;
 
 @end
 

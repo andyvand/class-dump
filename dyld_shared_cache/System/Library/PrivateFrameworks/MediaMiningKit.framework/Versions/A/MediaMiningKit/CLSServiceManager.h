@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLRUMemoryCache, CLSPersonIdentity, CLSRoutineService, CLSSocialServiceCalendar, CLSSocialServiceContacts, CLSSocialServiceCoreNameParser, NSString;
+@class CLSPersonIdentity, CLSSocialServiceContacts;
 
 @interface CLSServiceManager
 {
     CLSSocialServiceContacts *_contactsService;
-    CLSSocialServiceCalendar *_calendarService;
-    CLSRoutineService *_routineService;
-    CLSSocialServiceCoreNameParser *_coreNameParserService;
-    CLSLRUMemoryCache *_personsCache;
-    CLSPersonIdentity *_mePerson;
 }
 
 + (id);
@@ -21,15 +16,15 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)%@` state.;
 - (id);
-- (id);
+- (id)iffYUVDirect:(_Bool)arg1 error reading t1Plus1 index %u (%s);
 - (void);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)provideFreeSlot;
 - (void);
 - (void);
 - (id);
@@ -37,9 +32,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)optionsByDomain;
+- (id)onesHome %@ andHome;
+- (id)rMultiModal-V1.0_DEPRECATED;
 - (void);
 - (id);
 - (void);
@@ -51,8 +46,8 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)0 ;
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -60,7 +55,7 @@
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)Exiting early.;
 - (id);
 - (id);
 - (id);
@@ -76,15 +71,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CLSPersonIdentity *mePerson; // @synthesize mePerson=_mePerson;
-@property(readonly) CLSRoutineService *routineService; // @synthesize routineService=_routineService;
-@property(readonly) Class superclass;
 
 @end
 

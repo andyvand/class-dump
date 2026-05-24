@@ -11,10 +11,9 @@
 @interface QCStructureReverse : QCPatch
 {
     QCStructurePort *inputStructure;
-    QCStructurePort *outputStructure;
 }
 
-+ (_Bool);
++ (_Bool)Versions/A/CoreMedia;
 + (_Bool);
 - (_Bool);
 

@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSColorPickerTouchBarItem, NSCustomTouchBarItem, NSGroupTouchBarItem, NSPopoverTouchBarItem, NSSegmentedControl, NSTouchBarItem, NSViewController;
-@protocol NSTextTouchBarItemControllerClient;
+@class NSButton, NSTouchBarItem;
 
 @interface NSTextTouchBarItemController
 {
     NSTouchBarItem *_colorPickerItem;
-    NSTouchBarItem *_textStyleItem;
-    NSTouchBarItem *_textAlignmentItem;
-    NSTouchBarItem *_textListItem;
-    NSTouchBarItem *_textFormatItem;
-    unsigned long long _textStyleState;
-    struct {
-        unsigned int loaded:1;
-        unsigned int narrowTextStyle:1;
-        unsigned int unused:30;
-    } _tcFlags;
-    id <NSTextTouchBarItemControllerClient> _client;
-    NSViewController *_textListViewController;
-    NSButton *_colorPicker;
-    NSSegmentedControl *_textStyle;
-    NSButton *_textAlignment;
-    NSSegmentedControl *_textAlignments;
-    NSButton *_textList;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)ions.dylib;
 - (id);
 - (id);
 - (id);
@@ -38,19 +20,21 @@
 - (id);
 - (id);
 - (void);
+- (void)Tp;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)workextension.necp.plist;
+- (void)40;
+- (void)loadState;
+- (void)om.apple.CFNetwork.LogSink[%s];
+- (void)EffectiveConfigurationVersion;
+- (void)he@%p> { %p };
+- (void)le.hstscache.persistqueue;
+- (id)o3H5iiAolGCJZqEyxafxOqywa0BoVO0J/6CjX0BqQh3jed8yax1Jz71vxPMoMGweNpCNI1ulpb4kMsImqVk0LJjNxxE46KwfK/zsmXvuc6yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (void)f8fgg
+gggg)g8ghh
+hhhh)h8hllmmnnpprruu;
 - (void);
 - (id);
 - (id);
@@ -67,20 +51,7 @@
 - (void)KC;
 
 // Remaining properties
-@property id <NSTextTouchBarItemControllerClient> client; // @synthesize client=_client;
 @property(retain) NSButton *colorPicker; // @synthesize colorPicker=_colorPicker;
-@property(readonly) NSColorPickerTouchBarItem *colorPickerItem; // @dynamic colorPickerItem;
-@property(readonly) NSViewController *effectiveTextListViewController; // @dynamic effectiveTextListViewController;
-@property(retain) NSButton *textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(readonly) NSPopoverTouchBarItem *textAlignmentItem; // @dynamic textAlignmentItem;
-@property(retain) NSSegmentedControl *textAlignments; // @synthesize textAlignments=_textAlignments;
-@property(readonly) NSGroupTouchBarItem *textFormatItem; // @dynamic textFormatItem;
-@property(retain) NSButton *textList; // @synthesize textList=_textList;
-@property(readonly) NSPopoverTouchBarItem *textListItem; // @dynamic textListItem;
-@property(retain) NSViewController *textListViewController; // @synthesize textListViewController=_textListViewController;
-@property(retain) NSSegmentedControl *textStyle; // @synthesize textStyle=_textStyle;
-@property(readonly) NSCustomTouchBarItem *textStyleItem; // @dynamic textStyleItem;
-@property _Bool usesNarrowTextStyleItem; // @dynamic usesNarrowTextStyleItem;
 
 @end
 

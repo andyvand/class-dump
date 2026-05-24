@@ -6,15 +6,11 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSArray, NSMutableSet, NSString;
-@protocol MTLDevice;
+@class NSArray, NSMutableSet;
 
 @interface MTLToolsResidencySet : MTLToolsObject
 {
     NSMutableSet *_allocations;
-    void *_committedAllocations;
-    NSMutableSet *_pendingAdds;
-    NSMutableSet *_pendingRemoves;
 }
 
 - (void);
@@ -27,7 +23,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -36,35 +32,15 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)?	;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAllocations;
 @property(readonly, copy) NSArray *allCommittedAllocations;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C
 
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationCount;
-@property(nonatomic) unsigned long long currentGeneration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(nonatomic) unsigned long long expiredGeneration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CRKToolCommandUserInfo
 {
@@ -18,7 +18,6 @@
 - (id)8LL$NPN;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end

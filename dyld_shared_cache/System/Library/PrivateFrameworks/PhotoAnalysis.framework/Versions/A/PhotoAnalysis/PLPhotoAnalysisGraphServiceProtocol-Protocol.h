@@ -4,8 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+
 @protocol PLPhotoAnalysisGraphServiceProtocol
-- (void)onOptionsDictionary;
+- (void)?*;
+- (void)PKyu;
 - (void);
+- (void)m GraphMetadata metadataKey=?1;
+- (void);
+- (void).;
+- (void)ft/libswiftIOKit.dylib;
+- (void)_mixedSummarizedFeatures;
+- (void)numberOfPersons;
+- (void)biguating event %{private}@:(NSString *)arg1 distance:(NSDictionary *)arg2 %.2f, maxDistance:(void (^)(_Bool, NSError *))arg3 %.2f, isMatchingLocationDistance:%@ /* Error: Ran out of types for this method. */;
+- (void)PGSinglePersonWallpaperAssetSuggesterCandidateFiltering;
+- (void)ormatOneLocation %@;
+- (void)ping;
+- (void)ih8;
+- (void)@;
+- (void)_suggestionOptionsDictionary;
 @end
 

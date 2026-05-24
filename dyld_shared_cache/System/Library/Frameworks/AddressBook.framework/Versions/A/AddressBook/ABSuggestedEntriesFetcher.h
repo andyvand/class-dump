@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABPersonEntry, NSMutableDictionary, NSString;
+@class ABAddressBook;
 
 @interface ABSuggestedEntriesFetcher
 {
     ABAddressBook *_addressBook;
-    NSString *_filterTerms;
-    NSMutableDictionary *_entries;
-    ABPersonEntry *_meEntry;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -45,9 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(retain, nonatomic) NSMutableDictionary *entries; // @synthesize entries=_entries;
-@property(retain, nonatomic) NSString *filterTerms; // @synthesize filterTerms=_filterTerms;
-@property(retain, nonatomic) ABPersonEntry *meEntry; // @synthesize meEntry=_meEntry;
 
 @end
 

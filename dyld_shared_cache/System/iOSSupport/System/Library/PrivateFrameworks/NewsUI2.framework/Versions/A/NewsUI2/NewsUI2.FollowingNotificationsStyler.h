@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingNotificationsStyler
 {
     id headerLabelTextProvider;
-    id baseStyler;
 }
 
 @end

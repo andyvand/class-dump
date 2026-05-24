@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaDestinationBackingStoreHandler, HMDMediaDestinationManagerMetricsDispatcher, HMDMediaDestinationMessageHandler, HMFStagedValue, HMMediaDestination, NSObject, NSString, NSUUID;
-@protocol HMDMediaDestinationManagerDataSource, HMDMediaDestinationManagerDelegate, OS_os_log;
+@class NSObject;
+@protocol HMDMediaDestinationManagerDataSource, OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationManager
 {
     NSObject<OS_os_log> *_logger;
-    _Bool _targetDevice;
-    NSUUID *_identifier;
-    HMDMediaDestinationMessageHandler *_messageHandler;
-    HMDMediaDestinationBackingStoreHandler *_backingStoreHandler;
-    id <HMDMediaDestinationManagerDataSource> _dataSource;
-    id <HMDMediaDestinationManagerDelegate> _delegate;
-    HMDMediaDestinationManagerMetricsDispatcher *_metricsDispatcher;
-    HMFStagedValue *_stagedAudioGroupIdentifier;
 }
 
 + (id)åe;
@@ -27,33 +19,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)Q24@32@40@48@?56;
+- (void)_postedStateIsReady;
+- (id)userCredentials;
+- (id)stringFromPersonNameComponents:(id)arg1;
+- (void)setInitialShareSessionWithMaps:(id)arg1;
+- (id)edImmutableObjects;
+- (void)on;
+- (void)mmutableObject>",R,N;
 - (id);
+- (id)n;
+- (_Bool)@;
+- (id);
+- (id);
 - (id);
-- (void);
+- (id)`;
 - (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)pipelineFiltersForShowingOriginalWithGeometry;
 - (id);
 - (void);
-- (void);
+- (void)v;
 - (id);
 - (id);
 - (id);
@@ -63,23 +55,7 @@ __attribute__((visibility("hidden")))
 - (void)portComplete;
 
 // Remaining properties
-@property(readonly) HMDMediaDestinationBackingStoreHandler *backingStoreHandler; // @synthesize backingStoreHandler=_backingStoreHandler;
-@property(readonly) HMMediaDestination *committedDestination;
 @property __weak id <HMDMediaDestinationManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaDestinationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) HMMediaDestination *destination;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) HMDMediaDestinationMessageHandler *messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(readonly) HMDMediaDestinationManagerMetricsDispatcher *metricsDispatcher; // @synthesize metricsDispatcher=_metricsDispatcher;
-@property(readonly) HMFStagedValue *stagedAudioGroupIdentifier; // @synthesize stagedAudioGroupIdentifier=_stagedAudioGroupIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, getter=isTargetDevice) _Bool targetDevice; // @synthesize targetDevice=_targetDevice;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface UIKit._UIPinchDismissSubInteraction
 {
     id parent;
-    void view;
-    id axis;
-    id gesture;
 }
 
 - (void);

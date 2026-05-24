@@ -6,27 +6,25 @@
 
 #import <Photos/PHFacePropertySet.h>
 
-@class NSString, PHFaceprint;
+@class PHFaceprint;
 
 @interface PHFaceClusteringProperties : PHFacePropertySet
 {
     PHFaceprint *_faceprint;
-    NSString *_groupingIdentifier;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id)rSandboxNoPermission;
++ (id)_overviewResolution;
++ (id)PHPhotosErrorSandboxNoPermission;
 + (id)H/ì;µ!?;
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)@;
+- (id)_minFilter;
+- (void)_errors;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFaceprint *faceprint; // @synthesize faceprint=_faceprint;
-@property(readonly, nonatomic) NSString *groupingIdentifier; // @synthesize groupingIdentifier=_groupingIdentifier;
 
 @end
 

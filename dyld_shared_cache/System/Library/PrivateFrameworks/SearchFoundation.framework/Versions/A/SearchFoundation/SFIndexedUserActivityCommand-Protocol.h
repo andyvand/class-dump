@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFIndexedUserActivityCommand
+- (NSString *)autolaunchApplicationPath;
 - (NSString *)æ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *userActivityRequiredString;
 @end
 

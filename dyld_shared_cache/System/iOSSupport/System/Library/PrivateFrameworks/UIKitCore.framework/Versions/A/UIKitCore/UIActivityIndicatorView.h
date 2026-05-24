@@ -6,37 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSProgressIndicator, NSString, UIColor, UIImageView, _UIActivityIndicatorMessageLabel, _UIActivityIndicatorViewArtworkCacheKey, _UIActivityIndicatorViewStyleView;
+@class NSProgressIndicator, UIImageView;
 
 @interface UIActivityIndicatorView : UIView
 {
     NSProgressIndicator *_wrappedProgressIndicator;
-    UIView *_wrappedProgressIndicatorView;
-    _Bool _wasAnimatingWhenAnimationsRemoved;
-    _UIActivityIndicatorViewStyleView *_styleView;
-    _Bool _animating;
-    _Bool _hidesWhenStopped;
-    _Bool _restartAnimationOnNextLayout;
-    _Bool _disableUpdateColorOnTraitCollectionChange;
-    _Bool _hasShadow;
-    _Bool _spinning;
-    long long _activityIndicatorViewStyle;
-    double _duration;
-    double _customWidth;
-    UIColor *_color;
-    UIImageView *_animatingImageView;
-    _UIActivityIndicatorMessageLabel *_messageLabel;
-    NSString *_message;
-    long long _actualActivityIndicatorViewStyle;
-    NSArray *_spokeImages;
-    NSArray *_spokeHighlightImages;
-    long long _spokeCount;
-    long long _spokeFrameRatio;
-    _UIActivityIndicatorViewArtworkCacheKey *_lastArtCacheKey;
-    _UIActivityIndicatorViewArtworkCacheKey *_lastHighlightArtCacheKey;
-    UIColor *_shadowColor;
-    double _width;
-    struct CGSize _shadowOffset;
 }
 
 + (id);
@@ -47,30 +21,7 @@
 + (struct CGSize)zÄîÿþtþÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setCustomWidth:) double _customWidth; // @synthesize _customWidth;
-@property(nonatomic) long long activityIndicatorViewStyle; // @synthesize activityIndicatorViewStyle=_activityIndicatorViewStyle;
-@property(readonly, nonatomic, getter=_actualActivityIndicatorViewStyle) long long actualActivityIndicatorViewStyle; // @synthesize actualActivityIndicatorViewStyle=_actualActivityIndicatorViewStyle;
-@property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
 @property(readonly, nonatomic, getter=_animatingImageView) UIImageView *animatingImageView; // @synthesize animatingImageView=_animatingImageView;
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_duration;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic, getter=_disableUpdateColorOnTraitCollectionChange) _Bool disableUpdateColorOnTraitCollectionChange; // @synthesize disableUpdateColorOnTraitCollectionChange=_disableUpdateColorOnTraitCollectionChange;
-@property(nonatomic) _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(nonatomic) _Bool hidesWhenStopped; // @synthesize hidesWhenStopped=_hidesWhenStopped;
-@property(readonly, nonatomic, getter=_lastArtCacheKey) _UIActivityIndicatorViewArtworkCacheKey *lastArtCacheKey; // @synthesize lastArtCacheKey=_lastArtCacheKey;
-@property(readonly, nonatomic, getter=_lastHighlightArtCacheKey) _UIActivityIndicatorViewArtworkCacheKey *lastHighlightArtCacheKey; // @synthesize lastHighlightArtCacheKey=_lastHighlightArtCacheKey;
-@property(retain, nonatomic, getter=_message, setter=_setMessage:) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic, getter=_messageLabel) _UIActivityIndicatorMessageLabel *messageLabel; // @synthesize messageLabel=_messageLabel;
-@property(readonly, nonatomic, getter=_restartAnimationOnNextLayout) _Bool restartAnimationOnNextLayout; // @synthesize restartAnimationOnNextLayout=_restartAnimationOnNextLayout;
-@property(retain, nonatomic) UIColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property(nonatomic) struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
-@property _Bool spinning; // @synthesize spinning=_spinning;
-@property(readonly, nonatomic, getter=_spokeCount) long long spokeCount; // @synthesize spokeCount=_spokeCount;
-@property(readonly, nonatomic, getter=_spokeFrameRatio) long long spokeFrameRatio; // @synthesize spokeFrameRatio=_spokeFrameRatio;
-@property(readonly, nonatomic, getter=_spokeHighlightImages) NSArray *spokeHighlightImages; // @synthesize spokeHighlightImages=_spokeHighlightImages;
-@property(readonly, nonatomic, getter=_spokeImages) NSArray *spokeImages; // @synthesize spokeImages=_spokeImages;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

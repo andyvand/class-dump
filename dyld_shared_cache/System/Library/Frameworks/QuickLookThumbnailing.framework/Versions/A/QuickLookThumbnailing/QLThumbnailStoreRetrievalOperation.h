@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSAddition, NSData, NSDictionary, NSError, NSObject, NSURL, QLThumbnailAddition;
-@protocol OS_os_activity, QLThumbnailGenerationRequest><NSXPCProxyCreating;
+@class NSError, NSURL;
 
 @interface QLThumbnailStoreRetrievalOperation
 {
     NSURL *_documentURL;
-    NSError *_error;
-    _Bool _finished;
-    _Bool _executing;
-    _Bool _allowsThumbnailGeneration;
-    _Bool _generateThumbnailsAtBackgroundPriority;
-    _Bool _thumbnailWasJustAutomaticallyGenerated;
-    NSObject<OS_os_activity> *_retrievalActivity;
-    NSObject<OS_os_activity> *_generationActivity;
-    QLThumbnailAddition *_addition;
-    id <QLThumbnailGenerationRequest><NSXPCProxyCreating> _thumbnailRequest;
-    NSURL *_destinationURL;
 }
 
 + (_Bool);
@@ -44,18 +32,18 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (id)on day of event at %@;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void)l;
 - (_Bool);
-- (void);
-- (void);
+- (void)6;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -65,20 +53,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) QLThumbnailAddition *addition; // @synthesize addition=_addition;
-@property _Bool allowsThumbnailGeneration; // @synthesize allowsThumbnailGeneration=_allowsThumbnailGeneration;
-@property(retain) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(retain) NSURL *documentURL; // @synthesize documentURL=_documentURL;
 @property(retain) NSError *error; // @synthesize error=_error;
-@property(nonatomic, getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) GSAddition *genStoreAddition;
-@property _Bool generateThumbnailsAtBackgroundPriority; // @synthesize generateThumbnailsAtBackgroundPriority=_generateThumbnailsAtBackgroundPriority;
-@property(readonly) NSData *serializedQuickLookMetadataDictionary;
-@property(readonly) NSDictionary *thumbnailImagesDictionary;
-@property(retain) id <QLThumbnailGenerationRequest><NSXPCProxyCreating> thumbnailRequest; // @synthesize thumbnailRequest=_thumbnailRequest;
-@property(readonly) _Bool thumbnailWasAutomaticallyGenerated;
-@property(readonly) _Bool thumbnailWasJustAutomaticallyGenerated; // @synthesize thumbnailWasJustAutomaticallyGenerated=_thumbnailWasJustAutomaticallyGenerated;
 
 @end
 

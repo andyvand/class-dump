@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @protocol MTMaterialFiltering
+- (double);
+- (NSArray *);
+- (double)@9h;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAverageColorEnabled) _Bool averageColorEnabled;
-@property(readonly, nonatomic) double backdropScale;
-@property(readonly, nonatomic, getter=isBlurAtEnd) _Bool blurAtEnd;
-@property(readonly, copy, nonatomic) NSString *blurInputQuality;
-@property(readonly, nonatomic) double blurRadius;
-@property(readonly, nonatomic) double brightness;
-@property(readonly, nonatomic) struct CAColorMatrix colorMatrix;
-@property(readonly, copy, nonatomic) NSDictionary *curvesValues;
 @property(readonly, nonatomic) double luminanceAmount;
-@property(readonly, copy, nonatomic) NSArray *luminanceValues;
-@property(readonly, nonatomic) double saturation;
-@property(readonly, copy, nonatomic) NSString *variableBlurInputMaskName;
-@property(readonly, nonatomic) double zoom;
 @end
 

@@ -4,46 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSString;
-@protocol NSImageDelegate, NSImageRepProvider;
+@class NSString;
 
 @interface NSImage
 {
     NSString *_name;
-    struct CGSize _size;
-    id <NSImageRepProvider> _reps;
-    NSColor *_backgroundColor;
-    id <NSImageDelegate> _imageDelegate;
-    struct CGRect _alignmentRectInNormalizedCoordinates;
-    NSString *_accessibilityDescriptionBacking;
-    struct NSEdgeInsets _capInsets;
-    long long _resizingMode;
-    NSDictionary *_configuration;
-    NSColor *_tintColor;
-    struct {
-        unsigned int scalable:1;
-        unsigned int dataRetained:1;
-        unsigned int uniqueWindow:1;
-        unsigned int sizeWasExplicitlySet:1;
-        unsigned int builtIn:1;
-        unsigned int needsToExpand:1;
-        unsigned int useEPSOnResolutionMismatch:1;
-        unsigned int matchesOnlyOnBestFittingAxis:1;
-        unsigned int colorMatchPreferred:1;
-        unsigned int multipleResolutionMatching:1;
-        unsigned int focusedWhilePrinting:1;
-        unsigned int archiveByName:1;
-        unsigned int unboundedCacheDepth:1;
-        unsigned int flipped:1;
-        unsigned int aliased:1;
-        unsigned int dirtied:1;
-        unsigned int cacheMode:2;
-        unsigned int sampleMode:3;
-        unsigned int resMatchPreferred:1;
-        unsigned int isTemplate:1;
-        unsigned int hasTrivialEdges:1;
-        unsigned int :8;
-    } _flags;
 }
 
 @end

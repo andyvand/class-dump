@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint);
+- (struct CGPoint);
 - (double);
-- (id);
+- (id)r basic message fromID:%@,  /* Error: Ran out of types for this method. */;
+- (double)attachment to disk on incoming:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ds;
+- (double)d-%@.data;
+- (double)Invalid Chat GUID;
+- (double)tionPipelineParameter %p; OUTPUT syndicationAction = %@>;
+- (double)ClientConnectionManager;
 - (double);
-- (struct CGPoint);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)b;
 
 @end
 

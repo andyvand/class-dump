@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void)g;
+- (void)recurring;
 
 // Remaining properties
 @property(readonly, nonatomic) PKExpressTransactionState *transactionState; // @synthesize transactionState=_transactionState;

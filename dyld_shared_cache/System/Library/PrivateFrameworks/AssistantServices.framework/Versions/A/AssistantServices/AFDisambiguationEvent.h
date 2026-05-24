@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface AFDisambiguationEvent
 {
     NSString *_itemIdentifier;
-    long long _selectionType;
-    NSDate *_date;
 }
 
 + (_Bool);
@@ -18,17 +16,15 @@
 - (id);
 - (id);
 - (id);
+- (void)|Sh;
+- (void)ut;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ening: /* Error: Ran out of types for this method. */;
+- (void)_stopListening: /* Error: Ran out of types for this method. */;
 - (id)Connection _dispatchCommand:isInterstitial:interstitialPhase:interstitialDelay:reply:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(nonatomic) long long selectionType; // @synthesize selectionType=_selectionType;
 
 @end
 

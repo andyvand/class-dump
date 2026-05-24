@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _ICLLQueueQuery;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLMoveQueueItemAction
 {
     NSString *_itemId;
-    int _position;
-    _ICLLQueueQuery *_queueQuery;
-    int _revision;
-    CDStruct_bf543796 _has;
 }
 
 - (id);

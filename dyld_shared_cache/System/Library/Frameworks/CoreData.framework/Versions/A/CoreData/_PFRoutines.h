@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 + (struct __CFDictionary *);
-+ (unsigned short);
++ (unsigned short);
 + (struct __CFDictionary *);
-+ (unsigned short *);
++ (unsigned short *);
 + (_Bool);
 + (id);
 + (id)ng while recording to-many changes.  New row = %@

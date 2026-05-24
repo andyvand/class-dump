@@ -7,17 +7,14 @@
 @interface EventKitUI._AppExtensionCalendarChooserHostView.HostCoordinator
 {
     id parent;
-    id identity;
-    id conn;
-    id configurationChangedPublisherSink;
 }
 
 - (void);
+- (void)s;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void)ataPath:pasteboardManager: /* Error: Ran out of types for this method. */;
+- (void)initWithDataPath:pasteboardManager: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVTSCNNodeModifications
 {
     float _verticalLensShift;
-    long long _projectionDirection;
-    double _fieldOfView;
-    NSString *_framingMode;
 }
 
 + (_Bool);
@@ -24,15 +19,12 @@
 - (long long);
 - (id);
 - (void);
+- (void)wB;
 - (void);
-- (void);
-- (double)orAccessibilityContentSizeCategory: /* Error: Ran out of types for this method. */;
+- (double)setAdjustsImageSizeForAccessibilityContentSizeCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double fieldOfView; // @synthesize fieldOfView=_fieldOfView;
-@property(retain, nonatomic) NSString *framingMode; // @synthesize framingMode=_framingMode;
 @property(nonatomic) long long projectionDirection; // @synthesize projectionDirection=_projectionDirection;
-@property(nonatomic) float verticalLensShift; // @synthesize verticalLensShift=_verticalLensShift;
 
 @end
 

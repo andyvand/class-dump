@@ -5,6 +5,17 @@
 //
 
 @protocol CPXProcessManaging
+- (unsigned char)NSCollateNoCase;
+- (void)IN %@;
+- (struct CPSProcessRec *)data.cloudkit.setup.push;
+- (struct CPSProcessRec *)with CloudKit in this process.;
+- (struct CPSProcessRec *)this persistent store actively syncing with CloudKit in this process.;
+- (struct CPSProcessRec *)because there is another instance of this persistent store actively syncing with CloudKit in this process.;
+- (struct CPSProcessRec *)loudKitMirroringDelegate scheduleExportAndStartAfterDate:(struct CPSProcessSerNum)arg1 ];
+- (_Bool)est '%@' because it does not have a zone.;
+- (_Bool)"24;
+- (struct CPSProcessRec *)statusNum;
+- (struct CPSProcessRec *);
 
 // Remaining properties
 @property(nonatomic) struct CPSProcessRec *processPendingKill;

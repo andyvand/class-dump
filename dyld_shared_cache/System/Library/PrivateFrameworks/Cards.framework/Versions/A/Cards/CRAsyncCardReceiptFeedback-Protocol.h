@@ -7,10 +7,11 @@
 @protocol CRCard;
 
 @protocol CRAsyncCardReceiptFeedback
+- (id <CRCard>)DGEnhanceOperation;
+- (id <CRCard>)RKEnhanceOperation;
+- (id <CRCard>)RKiPhotoRedEyeOperation;
 
 // Remaining properties
 @property(retain, nonatomic) id <CRCard> baseCard;
-@property(retain, nonatomic) id <CRCard> receivedCard;
-@property(retain, nonatomic) id <CRCard> requestedCard;
 @end
 

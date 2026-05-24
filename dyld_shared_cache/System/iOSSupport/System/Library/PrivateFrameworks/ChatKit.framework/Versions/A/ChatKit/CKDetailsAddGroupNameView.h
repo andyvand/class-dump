@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDetailsViewAddGroupNameViewUITextField, NSString, UILabel;
-@protocol CKDetailsAddGroupNameViewDelegate;
+@class UILabel;
 
 @interface CKDetailsAddGroupNameView
 {
     _Bool _enabled;
-    id <CKDetailsAddGroupNameViewDelegate> _delegate;
-    NSString *_groupName;
-    UILabel *_placeholderLabel;
-    CKDetailsViewAddGroupNameViewUITextField *_inputField;
 }
 
 + (double)lated;
 - (void);
-- (id);
+- (id)[;
 - (void);
 - (_Bool);
 - (void);
@@ -31,24 +26,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)luginDataSource: /* Error: Ran out of types for this method. */;
-- (id)isionPlatter;
+- (id)setBrowserPluginDataSource: /* Error: Ran out of types for this method. */;
+- (id)visionPlatter;
 - (void);
 - (void)á;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKDetailsAddGroupNameViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKDetailsViewAddGroupNameViewUITextField *inputField; // @synthesize inputField=_inputField;
 @property(retain, nonatomic) UILabel *placeholderLabel; // @synthesize placeholderLabel=_placeholderLabel;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-- (id);
++ (id)8d16d24d32;
+- (id)processResponseDictionary:withStorefrontIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

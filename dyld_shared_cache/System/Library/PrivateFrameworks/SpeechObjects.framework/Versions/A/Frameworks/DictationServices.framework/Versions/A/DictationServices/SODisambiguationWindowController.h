@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTableView, NSTextField;
+@class NSString, NSTableView;
 
 @interface SODisambiguationWindowController
 {
     NSTableView *_itemsTableView;
-    NSTextField *_titleTextField;
-    NSString *_title;
-    NSString *_message;
-    NSArray *_items;
 }
 
 + (id);
 - (void);
 - (void);
+- (void)tegrityEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_15MountStateEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id)eERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (long long)o;
 - (void);
-- (id);
-- (long long);
 - (void);
+- (id)_down_centerPartSmooth_HIGHLIGHTS.heic;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)_systemAlwaysShowScrollBars;
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *items; // @synthesize items=_items;
-@property(retain) NSString *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 @property(retain) NSString *title; // @synthesize title=_title;
 
 @end

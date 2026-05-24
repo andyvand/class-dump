@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAllCollectionsViewResultFilter, GEOPDPublisherSuggestionParameters, GEOPDViewportInfo, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAllCollectionsViewParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDPublisherSuggestionParameters *_publisherSuggestionParameters;
-    GEOPDAllCollectionsViewResultFilter *_resultFilter;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _numClientizedResults;
-    struct {
-        unsigned int has_numClientizedResults:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_publisherSuggestionParameters:1;
-        unsigned int read_resultFilter:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)Rk;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)o;
 - (_Bool);
 - (id);
 - (id)e"Q};

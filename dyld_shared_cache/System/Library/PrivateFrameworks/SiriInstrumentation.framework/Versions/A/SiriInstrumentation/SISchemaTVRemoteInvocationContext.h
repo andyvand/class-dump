@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaTVRemoteInvocationContext : SISchemaInstrumentationMessage
 {
     int _remoteType;
-    struct {
-        unsigned int remoteType:1;
-    } _has;
 }
 
 - (void);
@@ -21,19 +16,17 @@
 - (int);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_serviceConnectionInvalidated;
+- (_Bool)y added %lu sharing paired contacts to entries;
+- (_Bool)tem_message, is_sent, has_dd_results, is_service_message, is_forward, was_downgraded, is_archive, cache_has_attachments, cache_roomnames, was_data_detected, was_deduplicated FROM message_import ORDER BY message_import.order_date ASC, message_import.ROWID ASC;;
 - (id);
 - (id);
-- (id)DirectAction;
-- (id)coreBoosts;
+- (id)deleteDirectAction;
+- (id)_goodnessScoreBoosts;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRemoteType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int remoteType; // @synthesize remoteType=_remoteType;
 
 @end

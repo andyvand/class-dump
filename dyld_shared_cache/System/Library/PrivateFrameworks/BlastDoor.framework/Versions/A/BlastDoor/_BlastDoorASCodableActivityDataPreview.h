@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _BlastDoorASCodableActivitySnapshot;
-
 @interface _BlastDoorASCodableActivityDataPreview
 {
     double _date;
-    NSMutableArray *_achievements;
-    _BlastDoorASCodableActivitySnapshot *_activitySnapshot;
-    NSMutableArray *_workouts;
-    struct {
-        unsigned int date:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-- (unsigned long long);
+- (unsigned long long)ɚ;
 - (id);
 - (void);
 - (void);
@@ -39,10 +31,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (void);
-- (void);
+- (void)ay",R,N;
 - (id);
 - (void);
 - (id);
@@ -50,12 +42,7 @@
 - (_Bool)'¡Ã®;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *achievements; // @synthesize achievements=_achievements;
-@property(retain, nonatomic) _BlastDoorASCodableActivitySnapshot *activitySnapshot; // @synthesize activitySnapshot=_activitySnapshot;
-@property(nonatomic) double date; // @synthesize date=_date;
 @property(readonly, nonatomic) _Bool hasActivitySnapshot;
-@property(nonatomic) _Bool hasDate;
-@property(retain, nonatomic) NSMutableArray *workouts; // @synthesize workouts=_workouts;
 
 @end
 

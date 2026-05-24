@@ -9,29 +9,12 @@
 @interface MTLEmulationIndirectArgumentBufferLayout : _MTLIndirectArgumentBufferLayout
 {
     unsigned long long _stride;
-    unsigned long long _alignment;
-    void *_bufferIndices;
-    void *_textureIndices;
-    void *_samplerIndices;
-    void *_constantIndices;
-    void *_constantOffsets;
-    void *_visibleFunctionTableIndices;
-    void *_intersectionFunctionTableIndices;
-    void *_primitiveAccelerationStructureIndices;
-    void *_instanceAccelerationStructureIndices;
-    unsigned long long _bufferOffset;
-    unsigned long long _textureOffset;
-    unsigned long long _samplerOffset;
-    unsigned long long _visibleFunctionTableOffset;
-    unsigned long long _intersectionFunctionTableOffset;
-    unsigned long long _primitiveAccelerationStructureOffset;
-    unsigned long long _instanceAccelerationStructureOffset;
 }
 
 - (void *);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -49,7 +32,8 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ror %d
+;
 - (unsigned long long);
 - (unsigned int);
 

@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, NSLocale, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVMetadataEnumerator
 {
     struct OpaqueFigMetadataReader *_reader;
-    NSEnumerator *_arrayEnumerator;
-    id _key;
-    NSString *_keySpace;
-    NSLocale *_locale;
-    long long _count;
-    long long _index;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)y;
 - (void);
 - (void);
 - (id);

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, OITSUNoCopyDictionary;
+@class OITSUNoCopyDictionary;
 
 __attribute__((visibility("hidden")))
 @interface OITSULRUCache
 {
     OITSUNoCopyDictionary *mData;
-    NSMutableArray *mOrderedKeys;
-    unsigned long long mMax;
-    id mCallbackTarget;
-    SEL mCallback;
 }
 
 - (void);
-- (void);
+- (void))	;
 - (void);
 - (void);
 - (id);
@@ -26,15 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)J;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeys;
-@property(readonly, nonatomic) NSArray *allValues;
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) unsigned long long maxSize; // @synthesize maxSize=mMax;
 
 @end

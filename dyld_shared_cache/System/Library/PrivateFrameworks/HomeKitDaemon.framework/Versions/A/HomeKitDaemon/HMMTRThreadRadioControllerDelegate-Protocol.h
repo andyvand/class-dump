@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol HMMTRThreadRadioControllerDelegate
+- (void);
+- (long long)setShieldType:(id *)arg1;
+- (long long)setSharedTripGroupSessionInfo:(id *)arg1;
+- (long long)setProviderNames:(NSUUID *)arg1;
+- (long long)setPosition:(NSUUID *)arg1;
+- (void)ԥ;
 @end
 

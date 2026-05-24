@@ -6,78 +6,43 @@
 
 #import <TSReading/TSAViewController.h>
 
-@class NSArray, NSString, TIADocument, TSADebugViewController, TSADocumentRoot, TSAFindReplaceUIController, TSAInteractiveCanvasController, TSASyncResolveConflictViewController, TSDScrollView, TSDiOSCanvasViewController, TSKUIAlert, UIButton, UIScrollView;
-@protocol TSANavigatorViewController;
-
 @interface TSADocumentViewController : TSAViewController
 {
     _Bool _navigatorHidden;
-    TSDScrollView *_scrollView;
-    UIButton *_doneButton;
-    UIButton *_closeButton;
-    _Bool _registered;
-    _Bool _isPrintingDocument;
-    _Bool _printerOptionsShowing;
-    _Bool _inspectorIsCompletelyVisible;
-    long long _helpViewVisibleState;
-    TSDiOSCanvasViewController *_canvasViewController;
-    id <TSANavigatorViewController> _navigatorViewController;
-    TIADocument *_document;
-    _Bool _isDocumentLoaded;
-    _Bool _isClosingDocument;
-    _Bool _isAbandoningDocument;
-    TSAInteractiveCanvasController *_interactiveCanvasController;
-    TSADebugViewController *_debugViewController;
-    long long _documentMode;
-    _Bool _settingDocumentMode;
-    _Bool _shouldShowInstructionalText;
-    long long _documentModeBeforeReplaceController;
-    TSAFindReplaceUIController *_findReplaceUIController;
-    double _keyboardHeight;
-    double _contentFrameAnimationDuration;
-    _Bool _isHidingStatusBar;
-    struct CGPoint mSavedContentOffset;
-    double mSavedCanvasViewScale;
-    _Bool _waitingToZoomOut;
-    _Bool _scheduledBackgroundInit;
-    _Bool _isLandscapeOrientation;
-    _Bool _documentModeChangeInProgress;
-    double _footerHeightPadding;
-    _Bool _isPopoverGestureInFlight;
-    _Bool _preventDocumentModeChangesDuringSelectionChanges;
-    _Bool _editMenuTapGRWasEnabledForFind;
-    UIButton *_coachingTipsButton;
-    TSKUIAlert *_openDocumentKeepOrDeleteAlert;
-    UIButton *_sharingButton;
-    TSASyncResolveConflictViewController *__openDocumentResolveConflictViewController;
-    TSKUIAlert *__openDocumentUpdatedAlert;
-    TSKUIAlert *__openDocumentEvictionAlert;
 }
 
 + (void);
+- (void)SmartPlayerItemTransitionError;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Error;
 - (void);
 - (struct CGRect);
 - (struct _NSRange);
-- (double);
+- (double);
 - (float);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
 - (double);
+- (_Bool);
+- (id);
+- (void)PlayerPeriodicTimeSubscription;
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)SignatureProcessing;
 - (void);
 - (void);
 - (void);
@@ -86,15 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (double)NAVPlayerItemStatus;
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -109,15 +66,15 @@
 - (void);
 - (double);
 - (double);
+- (void)]<);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)?;
+- (_Bool);
 - (void);
 - (void);
+- (void)n;
 - (void);
 - (long long);
 - (void);
@@ -131,24 +88,24 @@
 - (void);
 - (long long);
 - (double);
-- (void);
+- (void);
 - (id);
 - (double);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)+;
+- (void)@0;
+- (void)h,;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)H;
 - (_Bool);
 - (id);
 - (void);
@@ -156,14 +113,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void).;
 - (long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -176,10 +133,10 @@
 - (id);
 - (id);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)R;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -198,7 +155,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -220,7 +177,7 @@
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -235,119 +192,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id)!Ä@ù11Â0@ù
 × ;
-- (void)rHitTesting;
-- (id)ECATEDTrendlineRSquaredParagraphStyleIndexProperty;
+- (void)topLevelRepsForHitTesting;
+- (id)TSCHChartInfoDEPRECATEDTrendlineRSquaredParagraphStyleIndexProperty;
 - (void)houldn't be creating _containingLayer again;
 - (struct CGRect)xÛX±;
 - (id)j¾;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *CJKLanguages;
-@property(retain, nonatomic) TSKUIAlert *_openDocumentEvictionAlert; // @synthesize _openDocumentEvictionAlert=__openDocumentEvictionAlert;
-@property(retain, nonatomic) TSASyncResolveConflictViewController *_openDocumentResolveConflictViewController; // @synthesize _openDocumentResolveConflictViewController=__openDocumentResolveConflictViewController;
-@property(retain, nonatomic, setter=_setOpenDocumentUpdatedAlert:) TSKUIAlert *_openDocumentUpdatedAlert; // @synthesize _openDocumentUpdatedAlert=__openDocumentUpdatedAlert;
-@property(readonly, nonatomic) _Bool allowEditMenuToAppear;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool allowImagePickerToAppear;
-@property(readonly, nonatomic) _Bool allowTextEditingToBegin;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *bidiLanguages;
-@property(readonly, nonatomic) UIScrollView *canvasScrollView; // @synthesize canvasScrollView=_scrollView;
-@property(retain, nonatomic) TSDiOSCanvasViewController *canvasViewController; // @synthesize canvasViewController=_canvasViewController;
-@property(readonly, nonatomic) _Bool chartDataEditorShowing;
-@property(readonly, nonatomic) NSString *closeDocumentButtonTitle;
-@property(readonly, nonatomic) UIButton *coachingTipsButton; // @synthesize coachingTipsButton=_coachingTipsButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) TSADebugViewController *debugViewController; // @synthesize debugViewController=_debugViewController;
-@property(retain, nonatomic) TSAInteractiveCanvasController *defaultInteractiveCanvasController;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool displaySharingButton;
-@property(readonly, retain, nonatomic) TIADocument *document; // @synthesize document=_document;
-@property(nonatomic) long long documentMode; // @synthesize documentMode=_documentMode;
-@property(readonly, retain, nonatomic) TSADocumentRoot *documentRoot;
 @property(nonatomic) _Bool editMenuTapGRWasEnabledForFind; // @synthesize editMenuTapGRWasEnabledForFind=_editMenuTapGRWasEnabledForFind;
-@property(readonly, nonatomic) TSAFindReplaceUIController *findReplaceUIController; // @synthesize findReplaceUIController=_findReplaceUIController;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidingStatusBar) _Bool hidingStatusBar; // @synthesize hidingStatusBar=_isHidingStatusBar;
-@property(retain, nonatomic) TSAInteractiveCanvasController *interactiveCanvasController; // @synthesize interactiveCanvasController=_interactiveCanvasController;
-@property(readonly, nonatomic) _Bool interactiveCanvasControllerAllowsHyperlinkInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isBiDiEnabled;
-@property(readonly, nonatomic) _Bool isCJKEnabled;
-@property(readonly, nonatomic) _Bool isCanvasFullScreen;
-@property(readonly, nonatomic) _Bool isCanvasInteractive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isClosingDocument; // @synthesize isClosingDocument=_isClosingDocument;
-@property(readonly, nonatomic) _Bool isDocumentLoaded; // @synthesize isDocumentLoaded=_isDocumentLoaded;
-@property(nonatomic) _Bool isLandscapeOrientation; // @synthesize isLandscapeOrientation=_isLandscapeOrientation;
-@property(readonly, nonatomic) _Bool isPopoverGestureInFlight; // @synthesize isPopoverGestureInFlight=_isPopoverGestureInFlight;
-@property(readonly, nonatomic) _Bool isPrintingCanvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isPrintingDocument; // @synthesize isPrintingDocument=_isPrintingDocument;
-@property(readonly, nonatomic) NSArray *listLanguages;
-@property(readonly, nonatomic) double modalToolbarTitleBaselineOffset;
-@property(readonly, nonatomic) long long modalToolbarTitleBaselineOffsetBarMetrics;
-@property(retain, nonatomic) id <TSANavigatorViewController> navigatorViewController; // @synthesize navigatorViewController=_navigatorViewController;
-@property(retain, nonatomic) TSKUIAlert *openDocumentKeepOrDeleteAlert; // @synthesize openDocumentKeepOrDeleteAlert=_openDocumentKeepOrDeleteAlert;
-@property(readonly, nonatomic) _Bool preventDocumentModeChangesDuringSelectionChanges; // @synthesize preventDocumentModeChangesDuringSelectionChanges=_preventDocumentModeChangesDuringSelectionChanges;
-@property(nonatomic) _Bool printerOptionsShowing; // @synthesize printerOptionsShowing=_printerOptionsShowing;
-@property(readonly, nonatomic) unsigned long long selectableWordLimit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) UIButton *sharingButton; // @synthesize sharingButton=_sharingButton;
-@property(readonly, nonatomic) _Bool shouldClipToScrollViewBoundsInVisibleBounds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldPopKnobsOutsideEnclosingScrollView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldResizeCanvasToScrollView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShowInstructionalText; // @synthesize shouldShowInstructionalText=_shouldShowInstructionalText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_shouldShowInstructionalText
-
-@property(readonly, nonatomic) _Bool shouldShowTextOverflowGlyphs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) struct CGSize sizeOfScrollViewEnclosingCanvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
-@property(readonly, nonatomic) _Bool spellCheckingSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool spellCheckingSuppressed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double viewHeaderHeight;
 
 @end
 

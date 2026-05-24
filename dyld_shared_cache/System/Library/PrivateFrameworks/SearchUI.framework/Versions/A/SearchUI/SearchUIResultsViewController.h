@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SearchUIResultsCollectionViewController;
-@protocol SFFeedbackListener, SearchUICommandDelegate, SearchUICustomViewProvider, SearchUIResultsAccessoryViewDelegate, SearchUIResultsInteractionDelegate, SearchUIResultsSizingDelegate;
+@class SearchUIResultsCollectionViewController;
 
 @interface SearchUIResultsViewController
 {
     _Bool _hasSelection;
-    _Bool _isForAboveFilterBarResults;
-    id <SearchUIResultsInteractionDelegate> _interactionDelegate;
-    id <SearchUIResultsSizingDelegate> _sizingDelegate;
-    id <SearchUIResultsAccessoryViewDelegate> _accessoryViewDelegate;
-    SearchUIResultsCollectionViewController *_controller;
 }
 
 - (_Bool);
@@ -30,76 +24,51 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)readPublicKeyForRemovedAccessoryName:iCloudIdentifier:error: /* Error: Ran out of types for this method. */;
+- (_Bool)",&,N,V_source;
+- (void)ontent-Format;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)ǜ;
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)lue in attributes dictionary at key %@:(id)arg1 %@;
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
+- (_Bool)�c;
+- (void);
+- (_Bool)X;
 - (id);
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)_accessibilityFirstContainedElement;
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)responseWithObject:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool)extSnippetWithResponseData: /* Error: Ran out of types for this method. */;
+- (_Bool)equest for URL %@;
+- (void);
+- (id)ate"24@"NSSet"32@?<v@?Q@"TRIClientRolloutArtifact"@"NSDate"@"NSError">40;
+- (void)- triald failed initialization;
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void)setInterItemSpacing:(_Bool)arg1;
+- (_Bool)performNextSnippetWithResponseData: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUIResultsAccessoryViewDelegate> accessoryViewDelegate; // @synthesize accessoryViewDelegate=_accessoryViewDelegate;
-@property(readonly) _Bool collectionViewIsFirstResponder;
-@property(nonatomic) __weak id <SearchUICommandDelegate> commandDelegate;
 @property(retain, nonatomic) SearchUIResultsCollectionViewController *controller; // @synthesize controller=_controller;
-@property(nonatomic) __weak id <SearchUICustomViewProvider> customViewProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableEmphasizedSelection;
-@property(nonatomic) _Bool dragInteractionEnabled;
-@property(nonatomic) __weak id <SFFeedbackListener> feedbackListener;
-@property(nonatomic) _Bool hasSelection; // @synthesize hasSelection=_hasSelection;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <SearchUIResultsInteractionDelegate> interactionDelegate; // @synthesize interactionDelegate=_interactionDelegate;
-@property _Bool isBelowVisibleFilterBar;
-@property(readonly) _Bool isForAboveFilterBarResults; // @synthesize isForAboveFilterBarResults=_isForAboveFilterBarResults;
-@property(retain, nonatomic) NSString *queryString;
-@property(nonatomic) _Bool scrollEnabled;
-@property(copy, nonatomic) NSArray *sections;
-@property(nonatomic) _Bool selectionShouldFillWidth;
-@property(nonatomic) _Bool singleClickExecutesCommands;
-@property(nonatomic) __weak id <SearchUIResultsSizingDelegate> sizingDelegate; // @synthesize sizingDelegate=_sizingDelegate;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInteractionEnabled;
 
 @end
 

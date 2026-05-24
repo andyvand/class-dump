@@ -5,15 +5,10 @@
 //
 
 @class PKMetalBuffer;
-@protocol MTLBuffer;
 
 @interface PKMetalStrokeRenderCacheBuffer
 {
     PKMetalBuffer *_buffer;
-    unsigned long long _offset;
-    unsigned long long _numVertices;
-    unsigned long long _vertexSize;
-    struct CGRect _bounds;
 }
 
 - (unsigned long long);
@@ -24,14 +19,10 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (unsigned long long)teAtomic;
+- (unsigned long long)_stateAtomic;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) unsigned long long numVertices; // @synthesize numVertices=_numVertices;
 @property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) id <MTLBuffer> vertexBuffer;
-@property(readonly, nonatomic) unsigned long long vertexSize; // @synthesize vertexSize=_vertexSize;
 
 @end
 

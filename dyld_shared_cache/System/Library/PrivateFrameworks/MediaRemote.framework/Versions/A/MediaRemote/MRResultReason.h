@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MRResultReason
 {
     _Bool _result;
-    NSString *_reason;
 }
 
 - (id);
-- (id);
+- (id)4S;
 - (id);
 - (_Bool);
 - (void)obuf",&,N,V_request;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(readonly, nonatomic) _Bool result; // @synthesize result=_result;
 
 @end

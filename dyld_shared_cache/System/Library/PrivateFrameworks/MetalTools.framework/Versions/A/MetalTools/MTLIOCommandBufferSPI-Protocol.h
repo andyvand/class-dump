@@ -8,7 +8,7 @@
 
 @protocol MTLIOCommandBufferSPI
 - (unsigned long long)__size_"Q}""{?="__max_load_factor_"f}}}"_device"@"MTLLegacySVDevice"};
-- (void)State:atIndex: /* Error: Ran out of types for this method. */;
+- (void)setComputePipelineState:atIndex: /* Error: Ran out of types for this method. */;
 - (void), UID:(id <MTLSharedEvent>)arg1 "%@";
 
 // Remaining properties

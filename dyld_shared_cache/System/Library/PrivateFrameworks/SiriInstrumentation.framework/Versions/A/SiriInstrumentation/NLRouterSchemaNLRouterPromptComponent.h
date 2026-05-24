@@ -6,20 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLRouterSchemaNLRouterPromptComponent : SISchemaInstrumentationMessage
 {
     int _componentType;
-    unsigned int _sizeInTokens;
-    struct {
-        unsigned int componentType:1;
-        unsigned int sizeInTokens:1;
-    } _has;
 }
 
 - (unsigned int);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (_Bool);
@@ -27,23 +20,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)eceived for message!;
 - (int);
-- (void);
+- (void)TeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ocsp/ocsp_srv.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)lanGenerationModelOutputError;
-- (id)lectionJointId: /* Error: Ran out of types for this method. */;
+- (id)setCrrCommsAppSelectionJointId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int componentType; // @synthesize componentType=_componentType;
-@property(nonatomic) _Bool hasComponentType;
-@property(nonatomic) _Bool hasSizeInTokens;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int sizeInTokens; // @synthesize sizeInTokens=_sizeInTokens;
 
 @end
 

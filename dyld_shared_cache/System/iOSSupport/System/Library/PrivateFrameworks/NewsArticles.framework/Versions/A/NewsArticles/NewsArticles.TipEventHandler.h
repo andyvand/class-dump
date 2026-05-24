@@ -7,8 +7,6 @@
 @interface NewsArticles.TipEventHandler
 {
     id interactor;
-    id router;
-    id tracker;
 }
 
 @end

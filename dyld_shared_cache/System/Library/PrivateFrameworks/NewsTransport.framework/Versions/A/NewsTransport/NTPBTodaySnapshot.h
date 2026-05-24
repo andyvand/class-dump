@@ -13,18 +13,18 @@
 
 + (Class);
 - (id);
+- (void)`;
 - (void);
-- (void);
+- (unsigned long long)setPlayerSettings: /* Error: Ran out of types for this method. */;
+- (_Bool)D (isRoleUser == YES));
+- (_Bool)ed as %{public}@;
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)owedFromGrouping"b1"isEligibleForFeaturePromotion"b1"isEligibleForFoodGrouping"b1"isEligibleForFoodGroupingIfAutofavorited"b1"isEligibleForFoodGroupingIfFavorited"b1"isEligibleForGrouping"b1"isEligibleForGroupingIfAutofavorited"b1"isEligibleForGroupingIfFavorited"b1"isHidden"b1"isManagedTopic"b1"isManagedTopicWinner"b1};
 

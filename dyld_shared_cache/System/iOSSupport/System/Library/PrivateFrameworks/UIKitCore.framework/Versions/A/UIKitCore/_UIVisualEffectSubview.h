@@ -6,27 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, _UIVisualEffectViewBackdropCaptureGroup;
-@protocol _UIVisualEffectViewParticipating, _UIVisualEffectViewSubviewMonitoring;
+@class NSArray;
+@protocol _UIVisualEffectViewSubviewMonitoring;
 
 @interface _UIVisualEffectSubview : UIView
 {
     NSArray *_filters;
-    _UIVisualEffectViewBackdropCaptureGroup *_primaryCaptureGroup;
-    UIView<_UIVisualEffectViewParticipating> *_containedView;
-    NSArray *_viewEffects;
-    id <_UIVisualEffectViewSubviewMonitoring> _subviewMonitor;
 }
 
 - (void);
 - (void);
+- (void)$@97 @98$@9;
+- (id)buildRequiredOnlyWithIdentifier:withHostName: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)initUsingLocalDeviceLibraryDestinationWithImportElements:usingLocalLibraryDestination:usingCloudLibraryDestination: /* Error: Ran out of types for this method. */;
+- (void)associated with data task] task=%{public}@;
 - (void);
 - (_Bool)¡°!`Eù1[ð1Â0@ù
 × ;
@@ -37,29 +33,17 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)meWithAlignmentRect: /* Error: Ran out of types for this method. */;
-- (id)rPoppingViewControler;
+- (id)_setFrameWithAlignmentRect: /* Error: Ran out of types for this method. */;
+- (id)_overrideTraitCollectionForPoppingViewControler;
 - (void);
 - (void)isHandlingWriting;
 - (void)sBlockedFromReset;
 - (id)[%@];
-- (void)FocusUpdateContextC;
+- (void)So20UIFocusUpdateContextC;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containedView; // @synthesize containedView=_containedView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableGroupFiltering;
-@property(copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIVisualEffectViewBackdropCaptureGroup *primaryCaptureGroup; // @synthesize primaryCaptureGroup=_primaryCaptureGroup;
 @property(nonatomic) __weak id <_UIVisualEffectViewSubviewMonitoring> subviewMonitor; // @synthesize subviewMonitor=_subviewMonitor;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *viewEffects; // @synthesize viewEffects=_viewEffects;
 
 @end
 

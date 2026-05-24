@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImageProperties, NSArray, NSData, NSImage, NSItemProvider, NSObject, NSString, NSURL;
-@protocol OS_dispatch_group;
+@class NSImage;
 
 @interface LPImage
 {
     NSImage *_originalPlatformImage;
-    NSImage *_decodedPlatformImage;
-    NSString *_MIMEType;
-    LPImageProperties *_properties;
-    LPImageProperties *_placeholderProperties;
-    NSItemProvider *_itemProvider;
-    LPImage *_imageLoadedFromItemProvider;
-    NSObject<OS_dispatch_group> *_itemProviderLoadGroup;
-    struct CGSize _pixelSize;
-    _Bool _isAnimated;
-    _Bool _hasComputedPixelSize;
-    long long _transparentRegions;
-    _Bool _hasComputedTransparentRegions;
-    _Bool _hasComputedIsAnimated;
-    _Bool _fallbackIcon;
-    _Bool _useLossyCompressionForEncodedData;
-    _Bool _isNonFallbackSymbolImage;
-    NSArray *_remoteURLsForEmailCompatibleOutput;
-    LPImage *_darkInterfaceAlternativeImage;
-    NSString *_symbolName;
-    NSImage *_platformImage;
-    NSURL *_fileURL;
-    NSObject<OS_dispatch_group> *__asynchronousLoadGroup;
-    NSData *__cachedAtomicData;
-    CDUnknownBlockType __alternateHTMLImageGenerator;
 }
 
 + (id);
@@ -41,9 +16,9 @@
 + (id);
 + (id);
 + (id);
++ (id)P;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)(;
 - (void);
 - (void);
 - (void);
@@ -52,7 +27,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)v;
 - (id);
 - (id);
 - (id);
@@ -83,14 +58,15 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
+- (id)BuilderProtocol_common_NumberSignP;
 - (id);
 - (id);
 - (id);
@@ -98,9 +74,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)GA1UdIwQYMBaAFOc0Ki4i
+3jlga7SUzneDYS8xoHw1MDgGA1UdHwQxMC8wLaAroCmGJ2h0dHA6Ly93d3cuYXBw
+bGUuY29tL2FwcGxlY2EvaXBob25lLmNybDANBgkqhkiG9w0BAQUFAAOCAQEAd13P
+Z3pMViukVHe9WUg8Hum+0I/0kHKvjhwVd/IMwGlXyU7DhUYWdja2X/zqj7W24Aq5
+7dEKm3fqqxK5XCFVGY5HI0cRsdENyTP7lxSiiTRYj2mlPedheCn+k6T5y0U4Xr40
+FXwWb2nWqCF1AgIudhgvVbxlvqcxUm8Zz7yDeJ0JFovXQhyO5fLUHRLCQFssAbf8
+B4i8rYYsBUhYTspVJcxVpIIltkYpdIRSIARA49HNvKK4hzjzMS/OhKQpVKw+OCEZ
+xptCVeN2pjbdt9uzi175oVo/u6B2ArKAW17u6XEHIdDMOe7cb33peVI6TD15W4MI
+pyQPbp8orlXe+tA8JA==
+-----END CERTIFICATE-----;
+- (id)of the invited email is needed;
 - (id);
 - (unsigned long long);
 - (void);
@@ -114,37 +98,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *MIMEType;
-@property(copy, nonatomic) CDUnknownBlockType _alternateHTMLImageGenerator; // @synthesize _alternateHTMLImageGenerator=__alternateHTMLImageGenerator;
-@property(readonly, nonatomic, getter=_isAnimated) _Bool _animated;
-@property(retain, setter=_setAsynchronousLoadGroup:) NSObject<OS_dispatch_group> *_asynchronousLoadGroup; // @synthesize _asynchronousLoadGroup=__asynchronousLoadGroup;
-@property(retain) NSData *_cachedAtomicData; // @synthesize _cachedAtomicData=__cachedAtomicData;
-@property(readonly, nonatomic) _Bool _canEncodeWithoutComputation;
-@property(retain, nonatomic, setter=_setDarkInterfaceAlternativeImage:) LPImage *_darkInterfaceAlternativeImage; // @synthesize _darkInterfaceAlternativeImage;
-@property(readonly, nonatomic) unsigned long long _encodedSize;
-@property(nonatomic, getter=_isFallbackIcon) _Bool _fallbackIcon; // @synthesize _fallbackIcon;
-@property(readonly, nonatomic) _Bool _hasTransparency;
-@property(readonly, nonatomic) _Bool _hasTransparencyInCenter;
-@property(readonly, nonatomic) _Bool _isImperceptible;
 @property(nonatomic, readonly) _Bool _isLowResolutionAsImage;
-@property(nonatomic) _Bool _isNonFallbackSymbolImage; // @synthesize _isNonFallbackSymbolImage;
-@property(readonly, retain, nonatomic) NSItemProvider *_itemProvider;
-@property(readonly, nonatomic) struct CGSize _pixelSize;
-@property(retain, nonatomic) NSArray *_remoteURLsForEmailCompatibleOutput; // @synthesize _remoteURLsForEmailCompatibleOutput;
-@property(readonly, copy, nonatomic) NSString *_srcsetForRemoteURLs;
-@property(readonly, copy, nonatomic) NSString *_symbolName; // @synthesize _symbolName;
-@property(nonatomic) _Bool _useLossyCompressionForEncodedData; // @synthesize _useLossyCompressionForEncodedData;
-@property(copy, nonatomic) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *platformImage; // @synthesize platformImage=_platformImage;
-@property(readonly, copy, nonatomic) LPImageProperties *properties;
-@property(readonly) Class superclass;
 
 @end
 

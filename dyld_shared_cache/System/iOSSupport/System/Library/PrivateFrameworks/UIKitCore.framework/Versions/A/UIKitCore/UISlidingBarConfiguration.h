@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
-
 @interface UISlidingBarConfiguration
 {
     union {
@@ -25,49 +23,36 @@
             unsigned int reserved:19;
         } flags;
     } _configurationFlags;
-    long long _supplementaryEdge;
-    double _minimumMainWidthFraction;
-    double _minimumMainWidthFractionForSecondColumn;
-    double _maximumMainWidth;
-    double _rubberBandExtension;
-    NSArray *_leadingWidths;
-    NSArray *_trailingWidths;
-    NSArray *_supplementaryWidths;
-    UIColor *_borderColor;
-    double __rawLeadingBorderWidth;
-    double __rawTrailingBorderWidth;
-    long long __leadingBackgroundStyle;
-    long long __trailingBackgroundStyle;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)newIntersectionFunctionTableWithDescriptor:(_Bool)arg1;
 - (id);
 - (double);
 - (long long);
 - (double);
+- (double)X;
+- (double);
+- (long long)after error %@;
+- (id);
+- (void);
+- (void)setTitle:(double)arg1 forState: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)led to create _tokenLookupStatement:(id)arg1 %@ %@;
+- (void)tor was missing mapping for MPModelPropertyTVEpisodeExplicitRating;
+- (_Bool);
 - (double);
 - (double);
-- (long long);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)P;
+- (_Bool);
 - (void);
 - (id)@ù
 × ;
@@ -80,22 +65,22 @@
 - (_Bool)Session>";
 - (double)orInterfaceOrientation"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"dataSourceSuppliesBeforeViewController"b1"dataSourceSuppliesAfterViewController"b1"dataSourceSuppliesPageCount"b1"dataSourceSuppliesPageNumber"b1};
 - (void)8{CGPoint=dd}16@32{CGRect={CGPoint=dd}{CGSize=dd}}40;
-- (void)uldPerformAction:(double)arg1 fromSender: /* Error: Ran out of types for this method. */;
-- (void)itles:(double)arg1;
-- (void)etDropPerformer:(double)arg1;
-- (_Bool)erForTransition:(id)arg1;
-- (_Bool)Repesentable: /* Error: Ran out of types for this method. */;
-- (void)ideOtherApplications:(long long)arg1;
-- (_Bool)Views;
-- (_Bool)cusLayerForItem:forClient: /* Error: Ran out of types for this method. */;
-- (void)ame:(double)arg1;
-- (void)e:(double)arg1;
+- (void)webView:(double)arg1 shouldPerformAction:fromSender: /* Error: Ran out of types for this method. */;
+- (void)setPossibleShortTitles:(double)arg1;
+- (void)setDropPerformer:(double)arg1;
+- (_Bool)preferredAnimationControllerForTransition:(id)arg1;
+- (_Bool)initWithUIButtonRepesentable: /* Error: Ran out of types for this method. */;
+- (void)hideOtherApplications:(long long)arg1;
+- (_Bool)hasAnyHostedViews;
+- (_Bool)_viewToAddFocusLayerForItem:forClient: /* Error: Ran out of types for this method. */;
+- (void)_localizeStandardTitle:(double)arg1 template:appName: /* Error: Ran out of types for this method. */;
+- (void)_effectiveTitleForTitle:(double)arg1;
 - (double)@"_UIDatePickerContainerViewController",&,N,V_containerViewController;
-- (void)uttonRect;
+- (void)_backButtonRect;
 - (id)escriptor;
 - (id)|;
 - (void)(ü;
-- (void)oundAppearance;
+- (void)_standardBackgroundAppearance;
 - (void)ightForFooterInTableView:(_Bool)arg1 methods.  Use viewForHeaderInTableView:instead. /* Error: Ran out of types for this method. */;
 - (void)viously-used email address or enter a new one. To remove one, go to Settings > General.;
 - (void)tlink:(_Bool)arg1 r:path:/System/Library/PrivateFrameworks/RemoteTextInput.framework/RemoteTextInput /* Error: Ran out of types for this method. */;
@@ -105,30 +90,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setLeadingBackgroundStyle:) long long _leadingBackgroundStyle; // @synthesize _leadingBackgroundStyle=__leadingBackgroundStyle;
-@property(nonatomic, setter=_setLeadingBorderWidthIsInPixels:) _Bool _leadingBorderWidthIsInPixels;
-@property(nonatomic, setter=_setRawLeadingBorderWidth:) double _rawLeadingBorderWidth; // @synthesize _rawLeadingBorderWidth=__rawLeadingBorderWidth;
-@property(nonatomic, setter=_setRawTrailingBorderWidth:) double _rawTrailingBorderWidth; // @synthesize _rawTrailingBorderWidth=__rawTrailingBorderWidth;
-@property(nonatomic, setter=_setSupplementaryAdoptsPrimaryBackgroundStyle:) _Bool _supplementaryAdoptsPrimaryBackgroundStyle;
-@property(nonatomic, setter=_setTrailingBackgroundStyle:) long long _trailingBackgroundStyle; // @synthesize _trailingBackgroundStyle=__trailingBackgroundStyle;
-@property(nonatomic, setter=_setTrailingBorderWidthIsInPixels:) _Bool _trailingBorderWidthIsInPixels;
-@property(nonatomic) _Bool allowMixedSideBySideAndOverlay;
-@property(nonatomic) _Bool allowTotalWidthGreaterThanParent;
 @property(nonatomic) _Bool borderAbuttingMainRendersAsShadow;
-@property(retain, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(nonatomic) _Bool forceOverlay;
-@property(nonatomic) _Bool leadingMayBeHidden;
-@property(copy, nonatomic) NSArray *leadingWidths; // @synthesize leadingWidths=_leadingWidths;
-@property(nonatomic) double maximumMainWidth; // @synthesize maximumMainWidth=_maximumMainWidth;
-@property(nonatomic) double minimumMainWidthFraction; // @synthesize minimumMainWidthFraction=_minimumMainWidthFraction;
-@property(nonatomic) double minimumMainWidthFractionForSecondColumn; // @synthesize minimumMainWidthFractionForSecondColumn=_minimumMainWidthFractionForSecondColumn;
-@property(nonatomic) double rubberBandExtension; // @synthesize rubberBandExtension=_rubberBandExtension;
-@property(nonatomic) _Bool shouldFadeStaticNavBarButton;
-@property(nonatomic) long long supplementaryEdge; // @synthesize supplementaryEdge=_supplementaryEdge;
-@property(nonatomic) _Bool supplementaryMayBeHidden;
-@property(copy, nonatomic) NSArray *supplementaryWidths; // @synthesize supplementaryWidths=_supplementaryWidths;
-@property(nonatomic) _Bool trailingMayBeHidden;
-@property(copy, nonatomic) NSArray *trailingWidths; // @synthesize trailingWidths=_trailingWidths;
 
 @end
 

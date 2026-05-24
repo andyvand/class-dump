@@ -4,7 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CDPRemoteDeviceSecretValidatorProtocolInternal
+- (void);
+- (void)disconnectFromAuthenticationSessionRequestServer;
+- (void)disableMechanism:(NSString *)arg1 error:(void (^)(_Bool, _Bool, NSError *))arg2;
+
+@optional
+- (void)$;
 
 // Remaining properties
 @property(nonatomic) unsigned long long supportedEscapeOfferMask;

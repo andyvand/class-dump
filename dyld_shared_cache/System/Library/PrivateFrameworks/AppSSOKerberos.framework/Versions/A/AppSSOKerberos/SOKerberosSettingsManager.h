@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)tents>"};
 - (id);
 - (_Bool);
 

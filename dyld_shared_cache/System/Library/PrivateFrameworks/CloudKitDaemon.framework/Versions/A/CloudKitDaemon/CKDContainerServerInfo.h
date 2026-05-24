@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CKDContainerServerInfo
 {
     NSURL *_publicCloudDBURL;
-    NSURL *_publicShareServiceURL;
-    NSURL *_publicDeviceServiceURL;
-    NSURL *_publicCodeServiceURL;
-    NSURL *_publicMetricsServiceURL;
-    NSString *_containerScopedUserID;
-    NSString *_orgAdminUserID;
-    long long _environment;
 }
 
 + (_Bool);
@@ -25,35 +18,28 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (unsigned long long)AuxAudioWithRedundancy;
 - (void);
-- (_Bool);
+- (id);
+- (void)currentCellularStatus;
+- (id)RoamScanFoundSSIDTransitionTarget;
+- (void);
+- (_Bool)gate>";
 - (void);
 - (id);
 - (void);
-- (long long)xCount:withError: /* Error: Ran out of types for this method. */;
-- (id)tructedAssetDownloadURL;
+- (long long)shareUsagesForContainerID:maxCount:withError: /* Error: Ran out of types for this method. */;
+- (id)constructedAssetDownloadURL;
 - (void);
 - (id)iv:/Ø¨üÿ|»ÿÔ# /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *containerScopedUserID; // @synthesize containerScopedUserID=_containerScopedUserID;
-@property(nonatomic) long long environment; // @synthesize environment=_environment;
-@property(copy, nonatomic) NSString *orgAdminUserID; // @synthesize orgAdminUserID=_orgAdminUserID;
 @property(copy, nonatomic) NSURL *publicCloudDBURL; // @synthesize publicCloudDBURL=_publicCloudDBURL;
-@property(copy, nonatomic) NSURL *publicCodeServiceURL; // @synthesize publicCodeServiceURL=_publicCodeServiceURL;
-@property(copy, nonatomic) NSURL *publicDeviceServiceURL; // @synthesize publicDeviceServiceURL=_publicDeviceServiceURL;
-@property(copy, nonatomic) NSURL *publicMetricsServiceURL; // @synthesize publicMetricsServiceURL=_publicMetricsServiceURL;
-@property(copy, nonatomic) NSURL *publicShareServiceURL; // @synthesize publicShareServiceURL=_publicShareServiceURL;
 
 @end
 

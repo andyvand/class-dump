@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface DCBGSTask
 {
     NSString *_taskID;
-    NSString *_observerID;
-    NSNumber *_refreshInterval;
-    CDUnknownBlockType _taskHandler;
 }
 
 - (CDUnknownBlockType);
@@ -21,14 +18,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)v
+;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *observerID; // @synthesize observerID=_observerID;
-@property(retain, nonatomic) NSNumber *refreshInterval; // @synthesize refreshInterval=_refreshInterval;
-@property(copy, nonatomic) CDUnknownBlockType taskHandler; // @synthesize taskHandler=_taskHandler;
 @property(retain, nonatomic) NSString *taskID; // @synthesize taskID=_taskID;
 
 @end

@@ -6,13 +6,11 @@
 
 #import <PencilKit/PKUndoCommand.h>
 
-@class NSArray, NSUUID;
+@class NSArray;
 
 @interface PKModifyStrokesGroupIDCommand : PKUndoCommand
 {
     NSArray *_strokes;
-    NSUUID *_groupID;
-    NSUUID *_oldGroupID;
 }
 
 + (id);
@@ -28,8 +26,6 @@
 - (void)ÿÿÿÿ,;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *groupID; // @synthesize groupID=_groupID;
-@property(readonly, nonatomic) NSUUID *oldGroupID; // @synthesize oldGroupID=_oldGroupID;
 @property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end

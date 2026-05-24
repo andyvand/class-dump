@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKTravelEngineHypothesis, NSDate, NSString;
+@class NSString;
 
 @interface CALNTriggeredEventNotificationData
 {
     NSString *_alarmID;
-    _Bool _isOffsetFromTravelTimeStart;
-    NSDate *_lastFireTimeOfAlertOffsetFromTravelTime;
-    EKTravelEngineHypothesis *_hypothesis;
-    _Bool _hasDisplayedLeaveByMessage;
-    _Bool _hasDisplayedLeaveNowMessage;
-    _Bool _hasDisplayedRunningLateMessage;
-    NSDate *_lastTimeNotificationAdded;
 }
 
 + (_Bool);
+- (id)R	;
 - (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)q@;
 - (id);
 - (id);
 - (id);
@@ -33,20 +26,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)z;
+- (id)usAndNextMonthDayNumberColor;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *alarmID; // @synthesize alarmID=_alarmID;
-@property(readonly, nonatomic) _Bool hasDisplayedLeaveByMessage; // @synthesize hasDisplayedLeaveByMessage=_hasDisplayedLeaveByMessage;
-@property(readonly, nonatomic) _Bool hasDisplayedLeaveNowMessage; // @synthesize hasDisplayedLeaveNowMessage=_hasDisplayedLeaveNowMessage;
-@property(readonly, nonatomic) _Bool hasDisplayedRunningLateMessage; // @synthesize hasDisplayedRunningLateMessage=_hasDisplayedRunningLateMessage;
-@property(readonly, copy, nonatomic) EKTravelEngineHypothesis *hypothesis; // @synthesize hypothesis=_hypothesis;
-@property(readonly, nonatomic) _Bool isOffsetFromTravelTimeStart; // @synthesize isOffsetFromTravelTimeStart=_isOffsetFromTravelTimeStart;
-@property(readonly, copy, nonatomic) NSDate *lastFireTimeOfAlertOffsetFromTravelTime; // @synthesize lastFireTimeOfAlertOffsetFromTravelTime=_lastFireTimeOfAlertOffsetFromTravelTime;
-@property(readonly, copy, nonatomic) NSDate *lastTimeNotificationAdded; // @synthesize lastTimeNotificationAdded=_lastTimeNotificationAdded;
 
 @end
 

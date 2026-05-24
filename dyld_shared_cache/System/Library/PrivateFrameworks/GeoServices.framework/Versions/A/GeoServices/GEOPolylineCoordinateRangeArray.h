@@ -7,7 +7,6 @@
 @interface GEOPolylineCoordinateRangeArray
 {
     struct vector<GEOPolylineCoordinateRange, std::allocator<GEOPolylineCoordinateRange>> _polylineCoordinateRanges;
-    unsigned long long _mutationsCount;
 }
 
 + (_Bool)ual to trafficColorOffsetsCount (%d). This is a server error.;
@@ -16,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void)ØK@;
 - (unsigned long long)Ù=:(CDStruct_70511ce9 *)arg1 ¼Ë4;

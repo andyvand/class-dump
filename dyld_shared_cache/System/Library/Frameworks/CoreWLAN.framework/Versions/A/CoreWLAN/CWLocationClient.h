@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWWiFiClient, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CWWiFiClient;
 
 @interface CWLocationClient
 {
     CWWiFiClient *_wifiClient;
-    NSString *_interfaceName;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_queue> *_queue;
-    double _interval;
-    double _channelInterval;
-    _Bool _isScanningDisabled;
-    _Bool _isScanningTemporarilyDisabled;
-    _Bool _acquiredCurrentLocation;
-    NSMutableDictionary *_channelHistoryMap;
-    NSMutableArray *_channelList;
-    unsigned long long _prevChannelIndex;
-    unsigned long long _channelIndex;
-    CDUnknownBlockType _scanResultsHandler;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)D4;
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

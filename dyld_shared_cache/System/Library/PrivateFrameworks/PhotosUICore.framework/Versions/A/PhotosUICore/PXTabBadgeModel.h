@@ -13,18 +13,11 @@
 
 - (void);
 - (void);
-- (id);
+- (id)(k;
 - (void)i;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *localizedString; // @synthesize localizedString=_localizedString;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,41 +5,33 @@
 //
 
 @class CDPContext;
-@protocol CDPDCircleProxy, CDPKeychainCircleProxy, CDPSecureChannelProxy;
+@protocol CDPKeychainCircleProxy;
 
 @interface CDPDSecureChannelContext
 {
     CDPContext *_context;
-    id <CDPKeychainCircleProxy> _keychainCircleProxy;
-    id <CDPSecureChannelProxy> _secureChannelProxy;
-    id <CDPDCircleProxy> _circleProxy;
-    unsigned long long _secureChannelType;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (void)WebSearchSuggestionsFetcherController;
+- (void)WebSearchSuggestionsFetcher;
+- (void)WebArchiveGenerationControllerNavigationDelegate;
+- (void)WebAppGeneralPreferences;
+- (unsigned long long)NSSearchFieldDelegate;
+- (id)VisualTabPickerSearchFieldDelegate;
+- (id)WBSFluidProgressControllerDelegate;
+- (void)TextFieldWithLimitedMaxLengthFormatter;
+- (_Bool)TextFieldWithEnforcedPrefixFormatter;
+- (id)TabDialogViewControllerDelegate;
+- (id)StartPagePopoverTogglesDataSource;
+- (void)PerSitePreferencePopUpButton;
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)startDownload: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPDCircleProxy> circleProxy; // @synthesize circleProxy=_circleProxy;
-@property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) id <CDPKeychainCircleProxy> keychainCircleProxy; // @synthesize keychainCircleProxy=_keychainCircleProxy;
-@property(retain, nonatomic) id <CDPSecureChannelProxy> secureChannelProxy; // @synthesize secureChannelProxy=_secureChannelProxy;
-@property(nonatomic) unsigned long long secureChannelType; // @synthesize secureChannelType=_secureChannelType;
 
 @end
 

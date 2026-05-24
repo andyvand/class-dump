@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, _GCIPCObjectRegistry, _GCIPCServiceRegistry;
+@protocol _GCIPCObjectRegistry;
 
 @protocol _GCIPCObjectMaterializationContext
 
 // Remaining properties
 @property(readonly) id <_GCIPCObjectRegistry> IPCObjectRegistry;
-@property(readonly) id <_GCIPCServiceRegistry> IPCServiceRegistry;
-@property(readonly) NSObject<OS_dispatch_queue> *targetQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R
-
 @end
 

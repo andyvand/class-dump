@@ -5,6 +5,7 @@
 //
 
 @protocol TLKCustomEdgeInsets
+- (void)SPI] %@ | SUCCESS | perform cleanup command response value:(struct NSEdgeInsets)arg1 %@;
 
 // Remaining properties
 @property(nonatomic) struct NSEdgeInsets customEdgeInsets;

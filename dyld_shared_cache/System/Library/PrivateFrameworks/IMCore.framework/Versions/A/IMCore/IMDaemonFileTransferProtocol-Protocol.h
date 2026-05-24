@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol IMDaemonFileTransferProtocol
+- (void);
+- (void)R);
+- (void)1;
+- (void)entEvent:(NSString *)arg1 tried to initialize with a non-BMNotesContentEvent proto;
+- (void)laborationNoticeDispatcher sendClearNotice:(NSString *)arg1 toHandles:] /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,19 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSData, NSDictionary, NSString, _MRPlaybackSessionRequestProtobuf;
+@class _MRPlaybackSessionRequestProtobuf;
 
 @interface MRPlaybackSessionRequest
 {
     _Bool _isPreflight;
-    NSString *_requestIdentifier;
-    NSString *_identifier;
-    NSString *_type;
-    MRPlayerPath *_destinationPlayerPath;
-    NSDictionary *_destinationCommandInfo;
 }
 
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)spotlightInternalIndexingUIEnabled;
+- (id)vailable;
+- (id)AppleLanguagePreferencesChangedNotification;
 - (void);
 - (_Bool);
 - (id);
@@ -24,28 +28,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)tial-result;
 - (id);
 - (void)origin;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data;
-@property(copy, nonatomic) NSDictionary *destinationCommandInfo; // @synthesize destinationCommandInfo=_destinationCommandInfo;
-@property(copy, nonatomic) MRPlayerPath *destinationPlayerPath; // @synthesize destinationPlayerPath=_destinationPlayerPath;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isPreflight; // @synthesize isPreflight=_isPreflight;
 @property(readonly, nonatomic) _MRPlaybackSessionRequestProtobuf *protobuf;
-@property(copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

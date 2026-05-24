@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface TIRevisionRateAnalysisSummary
 {
     _Bool _hasEmojiInput;
-    _Bool _hasCursorMovement;
-    NSNumber *_sessionAlignmentConfidence;
-    long long _tappedCount;
-    long long _autocorrectedCount;
-    long long _revisedCount;
-    long long _revisedAutocorrectionCount;
-    NSString *_inputMode;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)setTestUuid:(long long)arg1;
+- (void)setTelephonyClient:(long long)arg1;
+- (void)objectValueForKey:(long long)arg1 andContext:withClass:andDefaultValue: /* Error: Ran out of types for this method. */;
+- (long long)isEmergencyRTTSupportedForContext:excludeRelay: /* Error: Ran out of types for this method. */;
+- (long long)isEmergencyRTTSupportedByCarrierBundle;
 - (long long);
-- (long long);
-- (long long);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (id);
@@ -40,14 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)pupVariants;
 
 // Remaining properties
-@property(nonatomic) long long autocorrectedCount; // @synthesize autocorrectedCount=_autocorrectedCount;
-@property(nonatomic) _Bool hasCursorMovement; // @synthesize hasCursorMovement=_hasCursorMovement;
 @property(nonatomic) _Bool hasEmojiInput; // @synthesize hasEmojiInput=_hasEmojiInput;
-@property(retain, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) long long revisedAutocorrectionCount; // @synthesize revisedAutocorrectionCount=_revisedAutocorrectionCount;
-@property(nonatomic) long long revisedCount; // @synthesize revisedCount=_revisedCount;
-@property(retain, nonatomic) NSNumber *sessionAlignmentConfidence; // @synthesize sessionAlignmentConfidence=_sessionAlignmentConfidence;
-@property(nonatomic) long long tappedCount; // @synthesize tappedCount=_tappedCount;
 
 @end
 

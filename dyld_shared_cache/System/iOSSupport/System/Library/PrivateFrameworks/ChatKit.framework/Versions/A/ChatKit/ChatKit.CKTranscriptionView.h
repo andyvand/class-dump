@@ -7,14 +7,6 @@
 @interface ChatKit.CKTranscriptionView
 {
     id expansionState;
-    id textView;
-    id expansionButton;
-    id didTapExpansionButton;
-    id didResize;
-    id text;
-    id textColor;
-    id collapsedButtonColor;
-    id expandedButtonColor;
 }
 
 - (void);

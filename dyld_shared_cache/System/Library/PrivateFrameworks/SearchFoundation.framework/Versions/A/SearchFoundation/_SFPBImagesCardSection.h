@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBImagesCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    _Bool _borderless;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_images;
 }
 
-- (void);
+- (void)!+;
 - (void);
 - (id);
 - (id);
@@ -33,12 +23,12 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
-- (void);
-- (void);
+- (void))@m	!Am5;
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)ICRemoteRequestOperationExecutionContext;
+- (_Bool)ICUserIdentityStoreTestingBackend;
 - (id);
 - (id);
 - (void);
@@ -47,41 +37,23 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)movieData;
+- (id)%{public}@, due to needs capture scheduling;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)UiScale: /* Error: Ran out of types for this method. */;
+- (void)setUiScale: /* Error: Ran out of types for this method. */;
 - (int)o;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool borderless; // @synthesize borderless=_borderless;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

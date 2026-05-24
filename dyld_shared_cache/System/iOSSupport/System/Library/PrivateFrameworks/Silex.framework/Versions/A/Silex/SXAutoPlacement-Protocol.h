@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXAdvertisementPlacementType, SXSuggestedArticlesPlacementType;
+@protocol SXAdvertisementPlacementType;
 
 @protocol SXAutoPlacement
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisementPlacementType> advertisement;
-@property(readonly, nonatomic) id <SXSuggestedArticlesPlacementType> suggestedArticles;
 @end
 

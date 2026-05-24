@@ -9,10 +9,10 @@
     id _inner;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (id);
-- (id);
-- (void);
+- (id)(;
+- (void)cityZ:(id)arg1 quaternionX:quaternionY:quaternionZ:quaternionW:rotationArbitraryToTrueNorth:staticFlag:deltaPositionUncertaintyX:deltaPositionUncertaintyY:deltaPositionUncertaintyZ:deviceLocation:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UISlider;
+
 @protocol _UISliderFluidInteractionDelegate
+- (void)respondsToSelector:(UISlider *)arg1;
+- (void);
+
+@optional
+- (void);
+- (_Bool)DFA matching;
 @end
 

@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     int _dialAssistUserSettingsChangedToken;
 }
 
-+ (id)fier: /* Error: Ran out of types for this method. */;
++ (id)insertSubLayerInLayer:videoSlotIdentifier: /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
-- (id);
+- (id)4;
 
 // Remaining properties
 @property(readonly, nonatomic) int dialAssistUserSettingsChangedToken; // @synthesize dialAssistUserSettingsChangedToken=_dialAssistUserSettingsChangedToken;

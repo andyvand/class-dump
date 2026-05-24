@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (KeyPrefixSearch)
-- (id);
+- (id)hics.framework/Versions/A/CoreGraphics;
 @end
 

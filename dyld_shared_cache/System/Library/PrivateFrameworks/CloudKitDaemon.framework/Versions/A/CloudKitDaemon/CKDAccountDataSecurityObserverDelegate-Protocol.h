@@ -5,5 +5,6 @@
 //
 
 @protocol CKDAccountDataSecurityObserverDelegate
+- (void)yI;
 @end
 

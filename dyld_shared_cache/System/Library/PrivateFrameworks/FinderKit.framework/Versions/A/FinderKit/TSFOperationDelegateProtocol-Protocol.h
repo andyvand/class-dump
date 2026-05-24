@@ -5,5 +5,13 @@
 //
 
 @protocol TSFOperationDelegateProtocol
+
+@optional
+- (void)6;
+- (void);
+- (void)<;
+- (void)`;
+- (void)T;
+- (void)M9;
 @end
 

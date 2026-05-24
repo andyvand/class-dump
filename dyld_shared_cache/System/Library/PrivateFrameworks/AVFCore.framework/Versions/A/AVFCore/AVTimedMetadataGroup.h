@@ -6,31 +6,29 @@
 
 #import <AVFCore/AVMetadataGroup.h>
 
-@class AVTimedMetadataGroupInternal, NSArray;
+@class AVTimedMetadataGroupInternal;
 
 @interface AVTimedMetadataGroup : AVMetadataGroup
 {
     AVTimedMetadataGroupInternal *_priv;
 }
 
+- (id)e;
 - (id);
-- (id);
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *);
 - (id);
 - (struct opaqueCMSampleBuffer *);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)UnderlineColor;
 - (id);
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 @property(readonly, nonatomic, getter=_timedMetadataGroupInternal) AVTimedMetadataGroupInternal *timedMetadataGroupInternal;
 
 @end

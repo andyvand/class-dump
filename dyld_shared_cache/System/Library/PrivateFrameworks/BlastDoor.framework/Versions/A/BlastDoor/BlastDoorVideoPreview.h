@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorImage, BlastDoorVideoPreview_AudioFormat, BlastDoorVideoPreview_VideoFormat, NSString;
+@class NSString;
 
 @interface BlastDoorVideoPreview
 {
     id videoPreview;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)6@0:8 /* Error: Ran out of types for this method. */;
+- (id)P;
 - (_Bool);
 - (id);
 - (double);
@@ -24,15 +24,7 @@
 - (long long)bàV ;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorVideoPreview_AudioFormat *audioFormat;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long frame;
-@property(nonatomic, readonly) BlastDoorImage *image;
-@property(nonatomic, readonly) _Bool isAutoloop;
-@property(nonatomic, readonly) double timestamp;
-@property(nonatomic, readonly) long long trackCount;
-@property(nonatomic, readonly) BlastDoorVideoPreview_VideoFormat *videoFormat;
-@property(nonatomic, readonly) _Bool videoIsMonoskiAsset;
 
 @end
 

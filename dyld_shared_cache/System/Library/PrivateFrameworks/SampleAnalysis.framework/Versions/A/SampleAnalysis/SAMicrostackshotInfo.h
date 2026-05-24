@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SABootInfo;
+@class SABootInfo;
 
 @interface SAMicrostackshotInfo
 {
     int _processID;
-    int _threadOnBehalfOfProximatePid;
-    int _threadOnBehalfOfOriginPid;
-    SABootInfo *_bootInfo;
-    unsigned long long _microSnapshotFlags;
-    double _wallTime;
-    NSString *_processName;
-    NSUUID *_processMainBinaryUUID;
-    unsigned long long _processResourceCoalitionID;
-    unsigned long long _threadID;
 }
 
-- (int);
+- (int)L;
 - (int);
 - (unsigned long long);
 - (id);
@@ -34,15 +25,6 @@
 
 // Remaining properties
 @property(readonly) SABootInfo *bootInfo; // @synthesize bootInfo=_bootInfo;
-@property(readonly) unsigned long long microSnapshotFlags; // @synthesize microSnapshotFlags=_microSnapshotFlags;
-@property(readonly) int processID; // @synthesize processID=_processID;
-@property(readonly) NSUUID *processMainBinaryUUID; // @synthesize processMainBinaryUUID=_processMainBinaryUUID;
-@property(readonly) NSString *processName; // @synthesize processName=_processName;
-@property(readonly) unsigned long long processResourceCoalitionID; // @synthesize processResourceCoalitionID=_processResourceCoalitionID;
-@property(readonly) unsigned long long threadID; // @synthesize threadID=_threadID;
-@property(readonly) int threadOnBehalfOfOriginPid; // @synthesize threadOnBehalfOfOriginPid=_threadOnBehalfOfOriginPid;
-@property(readonly) int threadOnBehalfOfProximatePid; // @synthesize threadOnBehalfOfProximatePid=_threadOnBehalfOfProximatePid;
-@property(readonly) double wallTime; // @synthesize wallTime=_wallTime;
 
 @end
 

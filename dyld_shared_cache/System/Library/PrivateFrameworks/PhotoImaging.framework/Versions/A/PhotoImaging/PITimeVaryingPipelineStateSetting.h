@@ -7,8 +7,6 @@
 @interface PITimeVaryingPipelineStateSetting
 {
     long long _sampleMode;
-    CDStruct_1b6d18a9 _time;
-    CDStruct_1b6d18a9 _rawTime;
 }
 
 - (void);
@@ -16,12 +14,10 @@
 - (id);
 - (CDStruct_1b6d18a9);
 - (long long);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)viewWillResignOverlay: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_1b6d18a9 rawTime; // @synthesize rawTime=_rawTime;
-@property(nonatomic) long long sampleMode; // @synthesize sampleMode=_sampleMode;
 @property(nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
 
 @end

@@ -9,8 +9,6 @@
 @interface LUIBigClockFont
 {
     NSString *_identifier;
-    double _weight;
-    NSString *_fontName;
 }
 
 + (double);
@@ -19,12 +17,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (struct _NSRange);
 + (double);
-- (id);
-- (_Bool);
+- (id)C;
+- (_Bool)^;
 - (id);
 - (id);
 - (id);
@@ -33,9 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *fontName; // @synthesize fontName=_fontName;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) double weight; // @synthesize weight=_weight;
 
 @end
 

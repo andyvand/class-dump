@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface HMAccessoryDiagnosticsMetadata
 {
     NSString *_snapshotPath;
-    NSDictionary *_urlParameters;
-    NSURL *_privacyPolicyURL;
-    NSURL *_uploadDestination;
-    NSNumber *_consentVersion;
-    NSNumber *_uploadType;
 }
 
 + (_Bool);
@@ -21,22 +16,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)didConfigurePersistentStore;
+- (id)";
 - (void);
 - (id);
 - (id);
 - (void)in the setup payload are not zero - 0x%x;
 
 // Remaining properties
-@property(readonly) NSNumber *consentVersion; // @synthesize consentVersion=_consentVersion;
-@property(readonly) NSURL *privacyPolicyURL; // @synthesize privacyPolicyURL=_privacyPolicyURL;
 @property(readonly) NSString *snapshotPath; // @synthesize snapshotPath=_snapshotPath;
-@property(readonly) NSURL *uploadDestination; // @synthesize uploadDestination=_uploadDestination;
-@property(readonly) NSNumber *uploadType; // @synthesize uploadType=_uploadType;
-@property(readonly, copy) NSDictionary *urlParameters; // @synthesize urlParameters=_urlParameters;
 
 @end
 

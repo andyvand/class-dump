@@ -5,6 +5,6 @@
 //
 
 @protocol _MNLocationSimulationStateDelegate
-- (void)deRealtimeUpdates;
+- (void)GEODebugNavigationIncludeRealtimeUpdates;
 @end
 

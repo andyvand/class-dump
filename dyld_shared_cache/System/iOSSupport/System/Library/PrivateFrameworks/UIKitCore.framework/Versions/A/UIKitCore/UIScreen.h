@@ -4,69 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDisplay, FBSDisplayConfiguration, NSArray, NSDictionary, NSMutableSet, NSString, UISDisplayContext, UISoftwareDimmingWindow, UITraitCollection, _UIDragManager, _UIInteractiveHighlightEnvironment, _UIScreenBoundingPathUtilities, _UIScreenFixedCoordinateSpace, _UITypedStorage;
-@protocol _UIDisplayInfoProviding;
-
 @interface UIScreen
 {
     struct CGRect _unjailedReferenceBounds;
-    struct CGRect _referenceBounds;
-    long long _interfaceOrientation;
-    double _scale;
-    long long _gamut;
-    long long _userInterfaceIdiom;
-    UISDisplayContext *_initialDisplayContext;
-    NSDictionary *_capabilities;
-    NSArray *_availableDisplayModes;
-    double _pointsPerInch;
-    double _nativePointsPerMillimeter;
-    _UIScreenFixedCoordinateSpace *_fixedCoordinateSpace;
-    id <_UIDisplayInfoProviding> _displayInfoProvider;
-    FBSDisplayConfiguration *__displayConfiguration;
-    BKSHIDEventDisplay *__eventDisplay;
-    long long _screenType;
-    long long _lastUpdatedSceneUserInterfaceStyle;
-    double _sceneProvidedCornerRadius;
-    struct {
-        unsigned int bitsPerComponent:4;
-        unsigned int initialized:1;
-        unsigned int connected:1;
-        unsigned int needsDisconnection:1;
-        unsigned int hasSetOverscanCompensation:1;
-        unsigned int overscanCompensation:2;
-        unsigned int wantsWideContentMargins:1;
-        unsigned int queriedDeviceContentMargins:1;
-        unsigned int hasCalculatedPointsPerInch:1;
-        unsigned int rightHandDrive:1;
-        unsigned int carPlayNightModeEnabled:1;
-        unsigned int isUpdatingInterfaceOrientation:1;
-        unsigned int isContinuityDisplay:1;
-    } _screenFlags;
-    struct {
-        unsigned int isKnown:1;
-        unsigned int isSupported:1;
-        unsigned int isInRange:1;
-    } _carPlayHumanPresenceStatus;
-    _Bool _isFakeScreen;
-    _Bool _performingSystemSnapshot;
-    _Bool _wantsSoftwareDimming;
-    _Bool _captured;
-    _Bool __UIIBAlwaysProvidePeripheryInsets;
-    _Bool _mainScreen;
-    float _lastNotifiedBacklightLevel;
-    unsigned int __cgsDisplayId;
-    UITraitCollection *_defaultTraitCollection;
-    UITraitCollection *_overrideTraitCollection;
-    UITraitCollection *_lastNotifiedTraitCollection;
-    _UITypedStorage *_typedStorage;
-    NSString *_previousHardwareIdentifier;
-    NSMutableSet *_disconnectionPreventionAssertions;
-    UISoftwareDimmingWindow *_softwareDimmingWindow;
-    double _brightness;
-    _UIDragManager *_dragManager;
-    _UIInteractiveHighlightEnvironment *_interactiveHighlightEnvironment;
-    long long _referenceDisplayModeStatus;
-    _UIScreenBoundingPathUtilities *_boundingPathUtilities;
 }
 
 @end

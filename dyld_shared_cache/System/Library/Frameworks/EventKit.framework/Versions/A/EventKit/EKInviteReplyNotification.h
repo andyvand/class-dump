@@ -6,13 +6,13 @@
 
 #import <EventKit/EKNotification.h>
 
-@class EKCalendar, NSDate, NSString, NSURL;
+@class EKCalendar;
 
 @interface EKInviteReplyNotification : EKNotification
 {
 }
 
-+ (id);
++ (id)Connection] %{public}@ Parse Error. Disconnecting...;
 + (id);
 + (Class);
 - (id);
@@ -20,23 +20,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (void)s;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (void)Controller] <%@> Deallocating.;
+- (id)ctionDestination] %@ could not extract connection;
+- (void){public}@;
+- (id)_MRMediaRemoteOriginDidUnregisterNotification;
+- (id)_MRMediaRemoteOriginDidUnregisterNotification;
+- (void)oint=%@(%@), outputDevices=%@ originatingOutputDeviceUID=%@;
+- (id)ngth=%ld;
+- (_Bool)numberWithInteger: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -44,19 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alerted;
-@property(readonly, nonatomic) NSString *calendarName;
-@property(copy, nonatomic) NSDate *creationDate;
-@property(copy, nonatomic) NSString *inReplyTo;
 @property(readonly, nonatomic) EKCalendar *inviteReplyCalendar;
-@property(copy, nonatomic) NSString *shareeDisplayName;
-@property(readonly, nonatomic) NSString *shareeEmailAddress;
-@property(copy, nonatomic) NSString *shareeFirstName;
-@property(copy, nonatomic) NSString *shareeLastName;
-@property(readonly, nonatomic) NSString *shareePhoneNumber;
-@property(nonatomic) unsigned long long shareeStatus;
-@property(copy, nonatomic) NSURL *shareeURL;
-@property(copy, nonatomic) NSString *summary;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSURL, SFPhotosLibraryImage;
+@class NSData;
 
 @protocol SFMessageAttachment
+- (NSData *)queueEventWithContentReplaced: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *linkMetadata;
-@property(retain, nonatomic) SFPhotosLibraryImage *photosLibraryImage;
 @property(nonatomic) int type;
-@property(copy, nonatomic) NSURL *url;
 @end
 

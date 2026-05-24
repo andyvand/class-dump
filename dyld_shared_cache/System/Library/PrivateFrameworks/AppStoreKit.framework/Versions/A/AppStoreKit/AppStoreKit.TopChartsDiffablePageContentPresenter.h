@@ -7,14 +7,6 @@
 @interface AppStoreKit.TopChartsDiffablePageContentPresenter
 {
     id metricsPipeline;
-    id pageUrl;
-    id page;
-    id pendingPageRender;
-    id pageRenderMetrics;
-    id sidePackedPage;
-    id isFetchingPage;
-    id objectGraph;
-    id onPageFetched;
 }
 
 @end

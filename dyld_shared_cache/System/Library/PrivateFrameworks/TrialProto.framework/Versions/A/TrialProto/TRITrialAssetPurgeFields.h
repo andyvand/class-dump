@@ -7,9 +7,6 @@
 @interface TRITrialAssetPurgeFields
 {
     int _purgeabilityLevel;
-    struct {
-        unsigned int purgeabilityLevel:1;
-    } _has;
 }
 
 + (int);
@@ -17,21 +14,20 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void)lace still exists after removal at %{sensitive}@. Error:(int)arg1 %{public}@;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)for base version:(id)arg1 %@;
 - (_Bool);
-- (_Bool);
-- (int);
+- (int)countNgramMatchInRecipientEmailAddresses;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasPurgeabilityLevel;
-@property(nonatomic) int purgeabilityLevel; // @synthesize purgeabilityLevel=_purgeabilityLevel;
 
 @end
 

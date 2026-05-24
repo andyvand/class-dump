@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIBarCustomizerAnimator
@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_completions;
 }
 
-- (void);
-- (void);
+- (void)_relayMessageDict:(id)arg1 command:messageID:forcedCallerID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (void)shouldDisableScreenTimeRestrictions:callerID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id)te a new velocity;
-- (void);
+- (void)otherWindows;
 - (void)AAyAAyAAyÃ¾7¥.3G`¾.3yp¾7½¾7GG¾¾7Gø¤.3GRº.3G;
 - (void)lêþ[
 ;
@@ -26,14 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animations; // @synthesize animations=_animations;
-@property(retain, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

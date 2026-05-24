@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)tings"8{?=[2d]}16;
 - (int);
 
 @end

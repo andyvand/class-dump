@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDManagedObjectCodingChangeSetSummary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDManagedObjectCodingChangeSet
 {
     NSMutableDictionary *_changedObjects;
-    HMDManagedObjectCodingChangeSetSummary *_summary;
 }
 
-- (id);
+- (id)W;
 - (id);
 - (long long);
-- (id);
+- (id)32@0:8Q16@24 /* Error: Ran out of types for this method. */;
 - (_Bool)ing key. %@;
-- (void)yBitMask;
+- (void)homeCategoryBitMask;
 
 // Remaining properties
 @property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly) HMDManagedObjectCodingChangeSetSummary *summary;
 
 @end
 

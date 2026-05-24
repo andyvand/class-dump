@@ -7,9 +7,6 @@
 @interface UINibStringIDTable
 {
     struct UIStringIDTableBucket **table;
-    struct UIStringIDTableBucket *buckets;
-    unsigned long long hashMask;
-    unsigned long long count;
 }
 
 - (_Bool);

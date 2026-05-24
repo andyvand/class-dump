@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFSoftwareVersion, HMSoftwareUpdateDocumentationMetadata, MKFSoftwareUpdateDatabaseID, NSDate, NSNumber, NSString;
+@class HMSoftwareUpdateDocumentationMetadata, NSDate, NSString;
 @protocol MKFAccessory, MKFHome;
 
 @protocol MKFSoftwareUpdate
+- (NSString *)navigationListenerWaypointsUpdated: /* Error: Ran out of types for this method. */;
+- (HMSoftwareUpdateDocumentationMetadata *);
+- (void)wiFiGivenCallWithEntity;
+- (id <MKFAccessory>);
 - (id <MKFHome>)!èEùqÐ1Â0@ù
 × ;
-- (void)gory;
-- (NSNumber *);
-- (NSDate *)ge;
+- (void)accessoryCategory;
+- (NSDate *)RoomPresenceStorage;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFAccessory> accessory;
-@property(readonly, copy, nonatomic) MKFSoftwareUpdateDatabaseID *databaseID;
 @property(copy, nonatomic) NSString *displayableSoftwareVersion;
-@property(retain, nonatomic) HMSoftwareUpdateDocumentationMetadata *documentationMetadata;
-@property(copy, nonatomic) NSNumber *downloadSize;
-@property(readonly) id <MKFHome> home;
-@property(copy, nonatomic) NSNumber *installDuration;
-@property(copy, nonatomic) NSDate *releaseDate;
-@property(retain, nonatomic) HMFSoftwareVersion *softwareVersion;
-@property(copy, nonatomic) NSNumber *state;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, _ASWebAuthenticationSessionRequestServer;
+@class _ASWebAuthenticationSessionRequestServer;
 
 __attribute__((visibility("hidden")))
 @interface SafariLaunchAgent
 {
     _ASWebAuthenticationSessionRequestServer *_authenticationSessionRequestServer;
-    unsigned long long _requestsWaitingToBeEnqueued;
-    NSMutableDictionary *_browserApplicationIdentifierToApplicationRecord;
-    NSMutableDictionary *_xpcConnections;
-    NSMutableDictionary *_enabledTopicsToServiceNameSets;
-    NSMutableArray *_pendingAuthenticationSessionRequestIdentifiers;
-    id _pendingAuthenticationSessionUserNotification;
 }
 
 - (void);
@@ -30,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -44,13 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CKVocabularyItem
+- (NSString *)legate>",W,N,V_delegate;
 @end
 

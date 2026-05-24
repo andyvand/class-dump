@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (id);
+- (id)cfurl_cache_receiver_data d WHERE r.request_key=%q AND d.entry_ID=r.entry_ID;
 
 @end
 

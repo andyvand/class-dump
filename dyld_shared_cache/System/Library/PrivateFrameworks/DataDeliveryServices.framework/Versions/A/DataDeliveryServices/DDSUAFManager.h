@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol DDSUAFAssetProvider, DDSUAFManagerDataSource;
+@protocol DDSUAFAssetProvider;
 
 @interface DDSUAFManager
 {
     id <DDSUAFAssetProvider> _assetProvider;
-    id <DDSUAFManagerDataSource> _dataSource;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
++ (id)setHasCommsAppSelectionGroundTruthGenerated:(id)arg1;
++ (id)setHasCommonSignal:(id)arg1;
++ (id)setHasCommonForegroundBundleApp:(id)arg1;
+- (void)setHasDataSharingOptInState:(id)arg1;
+- (void)setHasDarwinConnectedDeviceWakeContext:(id)arg1;
+- (id)setHasCountsReportedAll:(id)arg1;
+- (void)setHasCoreFollowUpPosted:(id)arg1;
+- (id)setHasConversationQualityComplexity:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -28,14 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <DDSUAFAssetProvider> assetProvider; // @synthesize assetProvider=_assetProvider;
-@property(readonly, nonatomic) id <DDSUAFManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

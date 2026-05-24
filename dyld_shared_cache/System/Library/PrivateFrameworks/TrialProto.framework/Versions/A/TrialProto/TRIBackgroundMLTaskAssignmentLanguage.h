@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString, TRIPBUInt32Array;
+@class TRIPBUInt32Array;
 
 @interface TRIBackgroundMLTaskAssignmentLanguage : TRIPBMessage
 {
@@ -16,13 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TRIPBUInt32Array *bucketArray; // @dynamic bucketArray;
-@property(readonly, nonatomic) unsigned long long bucketArray_Count; // @dynamic bucketArray_Count;
-@property(copy, nonatomic) NSString *factorPackId; // @dynamic factorPackId;
-@property(copy, nonatomic) NSString *factorPackSetId; // @dynamic factorPackSetId;
-@property(nonatomic) _Bool hasFactorPackId; // @dynamic hasFactorPackId;
-@property(nonatomic) _Bool hasFactorPackSetId; // @dynamic hasFactorPackSetId;
-@property(retain, nonatomic) NSMutableArray *predicateArray; // @dynamic predicateArray;
-@property(readonly, nonatomic) unsigned long long predicateArray_Count; // @dynamic predicateArray_Count;
 
 @end
 

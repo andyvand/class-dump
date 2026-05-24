@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPassEntitlementsComposer, PKPredefinedSharedEntitlementSelection;
-@protocol NSCopying;
+@class PKPassEntitlementsComposer, PKPredefinedSharedEntitlementSelection;
 
 @interface PKPassEntitlementsComposerPredefinedSelectionEntry
 {
     PKPassEntitlementsComposer *_parentEntitlementComposer;
-    PKPredefinedSharedEntitlementSelection *_predefinedSelection;
-    NSArray *_entries;
 }
 
 - (void);
@@ -20,19 +17,10 @@
 - (void);
 - (id);
 - (id);
-- (void)oneticNameError;
+- (void)shippingPhoneticNameError;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NSCopying> identifier;
 @property(retain, nonatomic) PKPredefinedSharedEntitlementSelection *predefinedSelection; // @synthesize predefinedSelection=_predefinedSelection;
-@property(readonly) Class superclass;
 
 @end
 

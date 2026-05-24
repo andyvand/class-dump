@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, NSDate, NSMutableDictionary, NSString;
-@protocol CUIKPasteboard, CUIKPasteboardManagerCalendarProvider, CUIKPasteboardManagerEventStoreProvider;
+@protocol CUIKPasteboardManagerEventStoreProvider;
 
 @interface CUIKPasteboardManager
 {
     id <CUIKPasteboardManagerEventStoreProvider> _eventStoreProvider;
-    id <CUIKPasteboard> _pasteboard;
-    id <CUIKPasteboardManagerCalendarProvider> _calendarProvider;
-    NSMutableDictionary *_copiedEvents;
-    EKCalendar *_calendarForPaste;
-    NSDate *_dateForPaste;
 }
 
 + (id);
@@ -38,16 +32,10 @@
 - (_Bool);
 - (id);
 - (struct CGColor *);
-- (void)ionButton: /* Error: Ran out of types for this method. */;
+- (void)setShowAccountErrorActionButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

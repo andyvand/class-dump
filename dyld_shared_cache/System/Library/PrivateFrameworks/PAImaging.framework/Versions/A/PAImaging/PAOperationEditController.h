@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, PACompositionEditController;
+@class PACompositionEditController;
 
 @interface PAOperationEditController
 {
     PACompositionEditController *_compositionEditController;
-    NSUUID *_operationUUID;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -27,12 +26,10 @@
 - (void);
 - (id)ÔaÍÐ!`Bùqâð1Â0@ù
 × ;
-- (void)hCompletionBlock:(id)arg1;
+- (void)_autoComputeStraightenAndCropWithCompletionBlock:(id)arg1;
 
 // Remaining properties
-@property(readonly) __weak PACompositionEditController *compositionEditController; // @synthesize compositionEditController=_compositionEditController;
 @property(getter=isEnabled) _Bool enabled;
-@property(readonly) NSUUID *operationUUID; // @synthesize operationUUID=_operationUUID;
 
 @end
 

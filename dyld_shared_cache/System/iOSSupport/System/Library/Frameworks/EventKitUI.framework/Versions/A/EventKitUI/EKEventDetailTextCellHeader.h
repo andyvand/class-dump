@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIImageView, UILabel;
-@protocol EKEventDetailTextCellHeaderDelegate;
+@class UILabel;
 
 @interface EKEventDetailTextCellHeader
 {
     UILabel *_titleLabel;
-    UILabel *_showMoreLabel;
-    UIImageView *_showMoreChevron;
-    NSMutableArray *_constraints;
-    _Bool _showsShowMoreLabel;
-    id <EKEventDetailTextCellHeaderDelegate> _delegate;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)S%s;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)setAxis: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <EKEventDetailTextCellHeaderDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool showsShowMoreLabel; // @synthesize showsShowMoreLabel=_showsShowMoreLabel;
 
 @end

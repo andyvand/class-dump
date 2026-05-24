@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TCOfficeFontInfo
 {
     _Bool _isBold;
-    _Bool _isItalic;
-    NSString *_fullName;
 }
 
 + (id);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly, nonatomic) _Bool isBold; // @synthesize isBold=_isBold;
-@property(readonly, nonatomic) _Bool isItalic; // @synthesize isItalic=_isItalic;
 
 @end
 

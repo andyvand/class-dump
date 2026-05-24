@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol WBSOrderedTab
-- (NSString *)stReportedBytesLoaded: /* Error: Ran out of types for this method. */;
+- (NSString *)setLastReportedBytesLoaded: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *ancestorTabIdentifiers;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isPinnedTab;
-@property(readonly, nonatomic) double lastActivationTime;
-@property(readonly, nonatomic) _Bool shouldSelectOriginatingTabWhenClosed;
-@property(readonly, copy, nonatomic) NSString *windowIdentifier;
 @end
 

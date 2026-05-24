@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageCell, NSLayoutConstraint, NSMatrix, NSObject, NSProgressIndicator, NSSecureTextField, NSString, NSTextField, NSView;
+@class NSObject, NSString;
 @protocol SSConnectionPromptObserver;
 
 @interface SSConnectionAuthenticationViewController
 {
     NSObject<SSConnectionPromptObserver> *mPromptObserver;
-    double toggleExpandAmount;
-    NSTextField *mHostNameLabel;
-    NSMatrix *mGuestOrUserMatrix;
-    NSView *mNamePassContainer;
-    NSLayoutConstraint *mNamePassTopConstraint;
-    NSLayoutConstraint *mNamePassBottomConstraint;
-    NSLayoutConstraint *mNamePassLeftConstraint;
-    NSLayoutConstraint *mNamePassRightConstraint;
-    NSTextField *mUsernameLabel;
-    NSTextField *mUsernameField;
-    NSTextField *mPasswordLabel;
-    NSSecureTextField *mPasswordField;
-    NSButton *mSaveToKeychainCheckbox;
-    NSButton *mConnectButton;
-    NSProgressIndicator *mConnectingProgressSpinner;
-    NSTextField *mConnectingText;
-    NSImageCell *_mAppImage;
-    NSString *_unlocalizedKeyString;
 }
 
 - (_Bool);
@@ -44,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -62,7 +44,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -75,46 +57,20 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)_addDraggingDestinationViewForRowIndexes:(id)arg1 draggingStyle: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
+- (id)photoLibrary:(id)arg1 graph:(id)arg2 serviceManager: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)ÔKL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property NSImageCell *mAppImage; // @synthesize mAppImage=_mAppImage;
-@property NSButton *mConnectButton; // @synthesize mConnectButton;
-@property NSProgressIndicator *mConnectingProgressSpinner; // @synthesize mConnectingProgressSpinner;
-@property NSTextField *mConnectingText; // @synthesize mConnectingText;
-@property NSMatrix *mGuestOrUserMatrix; // @synthesize mGuestOrUserMatrix;
-@property NSTextField *mHostNameLabel; // @synthesize mHostNameLabel;
-@property NSLayoutConstraint *mNamePassBottomConstraint; // @synthesize mNamePassBottomConstraint;
-@property NSView *mNamePassContainer; // @synthesize mNamePassContainer;
-@property NSLayoutConstraint *mNamePassLeftConstraint; // @synthesize mNamePassLeftConstraint;
-@property NSLayoutConstraint *mNamePassRightConstraint; // @synthesize mNamePassRightConstraint;
-@property NSLayoutConstraint *mNamePassTopConstraint; // @synthesize mNamePassTopConstraint;
-@property NSSecureTextField *mPasswordField; // @synthesize mPasswordField;
-@property NSTextField *mPasswordLabel; // @synthesize mPasswordLabel;
-@property NSButton *mSaveToKeychainCheckbox; // @synthesize mSaveToKeychainCheckbox;
-@property NSTextField *mUsernameField; // @synthesize mUsernameField;
-@property NSTextField *mUsernameLabel; // @synthesize mUsernameLabel;
-@property NSString *password;
-@property id <SSConnectionPromptObserver> promptObserver; // @synthesize promptObserver=mPromptObserver;
-@property(readonly) Class superclass;
 @property NSString *unlocalizedKeyString; // @synthesize unlocalizedKeyString=_unlocalizedKeyString;
-@property NSString *username;
 
 @end
 

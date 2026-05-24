@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)FLCandidateIdentifier";
+- (void)tegory";
+- (void)o"b1"isMusicSubscriber"b1"appleMusicVoiceUserSubscriptionState"b1"appleMusicVoicePreviewOfferNotShown"b1"isAppleMusicVoiceEligible"b1"isSiriForAirPlayRequest"b1"airPlayTargetedDevicesCount"b1"airPlaySuccessfullyPlayingDevicesCount"b1"airPlayRouteSettingStatus"b1"userPersona"b1"wasOnScreenItemSelected"b1};
 - (_Bool);
 - (id);
 

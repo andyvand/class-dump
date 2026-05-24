@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID, RTBluePOITileMO, RTPolygon;
-
 @interface RTPointOfInterestMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)roll;
++ (id)ld
+    blockedStreams:%lld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool applePaySupport; // @dynamic applePaySupport;
-@property(retain, nonatomic) RTBluePOITileMO *bluePOITile; // @dynamic bluePOITile;
-@property(nonatomic) _Bool filtered; // @dynamic filtered;
-@property(nonatomic) _Bool fullyCoversTile; // @dynamic fullyCoversTile;
-@property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSNumber *locationLatitude; // @dynamic locationLatitude;
-@property(copy, nonatomic) NSNumber *locationLongitude; // @dynamic locationLongitude;
-@property(retain, nonatomic) NSNumber *muid; // @dynamic muid;
-@property(retain, nonatomic) RTPolygon *polygon; // @dynamic polygon;
 
 @end
 

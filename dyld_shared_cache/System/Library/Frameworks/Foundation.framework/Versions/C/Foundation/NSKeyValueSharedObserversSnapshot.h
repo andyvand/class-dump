@@ -9,8 +9,6 @@
 @interface NSKeyValueSharedObserversSnapshot
 {
     NSKeyValueObservationInfo *_cachedObservationInfo;
-    Class _observableClass;
-    Class _autonotifyingClass;
 }
 
 - (id);

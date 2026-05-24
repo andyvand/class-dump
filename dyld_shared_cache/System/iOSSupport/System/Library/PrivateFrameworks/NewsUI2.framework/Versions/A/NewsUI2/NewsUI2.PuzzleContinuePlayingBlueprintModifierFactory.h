@@ -7,10 +7,6 @@
 @interface NewsUI2.PuzzleContinuePlayingBlueprintModifierFactory
 {
     id modelFactory;
-    id paidAccessChecker;
-    id puzzleImageShareAttributeProvider;
-    id puzzleRankProvider;
-    id puzzleDifficultyDescriptionProvider;
 }
 
 @end

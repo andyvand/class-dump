@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INRideCompletionStatus, INRideDriver, INRideOption, INRideVehicle, NSArray, NSDate, NSString, NSUserActivity;
+@class NSArray, NSString, NSUserActivity;
 
 @protocol INRideStatusExport
+- (NSUserActivity *);
+- (void)ifi] AUTO-JOIN:(NSArray *)arg1 Preparing optimized channel/SSID list (maxBSSChannelAge=%lu, minBSSLocationAccuracy=%f, maxBSSLocationDistance=%f, maxBSSChannelCount=%lu, maxHiddenKnownNetworkSSIDAge=%lu, location=%{public}@, preferred=%{public}@);
 
 // Remaining properties
-@property(copy) NSArray *additionalActionActivities;
-@property(copy) INRideCompletionStatus *completionStatus;
-@property(copy) INRideDriver *driver;
-@property(copy) CLPlacemark *dropOffLocation;
-@property(copy) NSDate *estimatedDropOffDate;
-@property(copy) NSDate *estimatedPickupDate;
-@property(copy) NSDate *estimatedPickupEndDate;
-@property long long phase;
-@property(copy) CLPlacemark *pickupLocation;
 @property(copy) NSString *rideIdentifier;
-@property(copy) INRideOption *rideOption;
-@property(retain) NSUserActivity *userActivityForCancelingInApplication;
-@property(copy) INRideVehicle *vehicle;
-@property(copy) NSArray *waypoints;
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPStorableFeedbackItem
 {
     unsigned int _feedbackType;
-    NSString *_itemString;
-    CDStruct_00b579d7 _has;
 }
 
-- (void);
+- (void)PG_QUERY__ON_COMMIT_ACTION__ONCOMMIT_PRESERVE_ROWS;
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -25,17 +21,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)pK;
 - (id);
 - (id);
 - (void);
-- (unsigned int)idePathForAssetIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (unsigned int)assetDefaultBundleOverridePathForAssetIdentifier:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int feedbackType; // @synthesize feedbackType=_feedbackType;
 @property(nonatomic) _Bool hasFeedbackType;
-@property(readonly, nonatomic) _Bool hasItemString;
-@property(retain, nonatomic) NSString *itemString; // @synthesize itemString=_itemString;
 
 @end
 

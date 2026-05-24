@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, OS_xpc_remote_channel;
-@protocol OS_dispatch_io;
-
 @interface OS_xpc_remote_pending_stream
 {
     unsigned long long stream_id;
-    OS_xpc_remote_channel *channel;
-    NSObject<OS_dispatch_io> *io;
-    int direction;
-    CDUnknownBlockType completion_handler;
-    int error;
-    OS_xpc_remote_pending_stream *link_stqe_next;
 }
 
-- (void);
+- (void);
 
 @end
 

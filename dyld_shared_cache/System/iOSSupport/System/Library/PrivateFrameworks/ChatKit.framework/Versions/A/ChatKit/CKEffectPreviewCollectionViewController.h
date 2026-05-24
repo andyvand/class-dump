@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKFullScreenEffect, CKFullScreenEffectManager, CKMomentCollectionViewCell, NSString, NSTimer, UIView;
-@protocol CKEffectPreviewCollectionViewControllerDelegate;
+@class CKFullScreenEffectManager;
 
 @interface CKEffectPreviewCollectionViewController
 {
     _Bool _hideEffects;
-    id <CKEffectPreviewCollectionViewControllerDelegate> _delegate;
-    CKFullScreenEffect *_currentEffect;
-    NSTimer *_animationTimer;
-    CKFullScreenEffectManager *_fsem;
-    CKMomentCollectionViewCell *_currentCell;
-    NSString *_resizingSavedIdentifier;
-    UIView *_cellWrapper;
 }
 
-- (void);
+- (void)_webView:(id)arg1 shouldAllowPDFAtURL:toOpenFromFrame:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)e;
+- (void)laceCharactersInRange:(id)arg1 withString:input range %@ out of bound. self.length is %lu /* Error: Ran out of types for this method. */;
+- (id)t is the same as the current passphrase {account:%@} /* Error: Ran out of types for this method. */;
+- (id)ting attribute:%@ /* Error: Ran out of types for this method. */;
+- (id)tSizeCategory:useSingleLineA:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -46,14 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *animationTimer; // @synthesize animationTimer=_animationTimer;
-@property(retain, nonatomic) UIView *cellWrapper; // @synthesize cellWrapper=_cellWrapper;
-@property(retain, nonatomic) CKMomentCollectionViewCell *currentCell; // @synthesize currentCell=_currentCell;
-@property(nonatomic) __weak CKFullScreenEffect *currentEffect; // @synthesize currentEffect=_currentEffect;
-@property(nonatomic) __weak id <CKEffectPreviewCollectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) CKFullScreenEffectManager *fsem; // @synthesize fsem=_fsem;
-@property(nonatomic) _Bool hideEffects; // @synthesize hideEffects=_hideEffects;
-@property(retain, nonatomic) NSString *resizingSavedIdentifier; // @synthesize resizingSavedIdentifier=_resizingSavedIdentifier;
 
 @end
 

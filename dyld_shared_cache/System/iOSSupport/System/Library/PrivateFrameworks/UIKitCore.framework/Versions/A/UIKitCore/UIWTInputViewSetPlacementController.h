@@ -9,16 +9,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void)replaceTransferWithSafeTransfer:(struct CGRect)arg1 constraints:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)repairOffGridStatusWithHandleID:(struct CGRect)arg1 fromHandleID:completion: /* Error: Ran out of types for this method. */;
+- (void)repairInconsistentMergedChatsIfNecessary:(struct CGRect)arg1;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)%@;
+- (void)s:(unsigned long long)arg1 %@;
+- (id)to validate chat with GUID %@ service %@. Participants on chat found mismatch recipients of outgoing message with GUID %@. (added participants:%@ removed participants:%@) /* Error: Ran out of types for this method. */;
 - (id)plier must be non-nil;
 
 @end

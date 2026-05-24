@@ -7,9 +7,6 @@
 @interface NewsUI2.AutomationMyMagazinesStore
 {
     id state;
-    id badgeIssueIDs;
-    id testDataLoader;
-    id issueService;
 }
 
 @end

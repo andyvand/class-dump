@@ -5,12 +5,10 @@
 //
 
 @protocol RBLineStroke
+- (int);
 - (float)ì	;
 
 // Remaining properties
 @property(readonly, nonatomic) int lineCap;
-@property(readonly, nonatomic) int lineJoin;
-@property(readonly, nonatomic) float maxLineWidth;
-@property(readonly, nonatomic) float miterLimit;
 @end
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ISKVOProxyManager
 {
     NSMutableDictionary *_recordsByIdentifier;
-    NSObject<OS_dispatch_queue> *_recordsQueue;
 }
 
 + (id);
-- (void);
+- (void)_addedChildren;
 - (id);
 - (id);
 - (void);

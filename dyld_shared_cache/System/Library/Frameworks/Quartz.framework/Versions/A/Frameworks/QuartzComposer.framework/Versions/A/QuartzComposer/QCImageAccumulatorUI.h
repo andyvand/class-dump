@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSPopUpButton;
+@class NSPopUpButton;
 
 @interface QCImageAccumulatorUI : QCInspector
 {
     NSPopUpButton *formatMenu;
-    NSButton *continuousButton;
 }
 
 + (id);

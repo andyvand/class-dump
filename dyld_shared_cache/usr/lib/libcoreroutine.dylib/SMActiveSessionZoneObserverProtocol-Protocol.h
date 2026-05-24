@@ -5,5 +5,9 @@
 //
 
 @protocol SMActiveSessionZoneObserverProtocol
+- (void)C;
+
+@optional
+- (void);
 @end
 

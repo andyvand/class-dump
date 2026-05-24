@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPMClientUserClientInterface;
+@class PPMClientUserClientInterface;
 
 @interface PPMClient
 {
     unsigned int connect;
     unsigned int version;
-    PPMClientUserClientInterface *userClient;
-    NSString *identifier;
 }
 
 + (id);
@@ -20,27 +18,25 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
+- (id)not supported by the TSA;
 - (int);
+- (_Bool)\;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)1_17FastBooleanConfigENS_8functionIFbbbEEEEUlS3_E_NS_9allocatorIS2_EEEE;
 - (_Bool);
 - (void);
-- (void);
+- (void)H;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)able to load from network.;
 - (unsigned int);
 
 // Remaining properties
 @property unsigned int connect; // @synthesize connect;
-@property(retain) NSString *identifier; // @synthesize identifier;
 @property(retain) PPMClientUserClientInterface *userClient; // @synthesize userClient;
-@property unsigned int version; // @synthesize version;
 
 @end
 

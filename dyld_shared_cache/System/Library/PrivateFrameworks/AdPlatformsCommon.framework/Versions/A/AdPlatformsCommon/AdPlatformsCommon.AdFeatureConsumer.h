@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.AdFeatureConsumer
 {
     id featureFlags;
-    id publisher;
 }
 
 @end

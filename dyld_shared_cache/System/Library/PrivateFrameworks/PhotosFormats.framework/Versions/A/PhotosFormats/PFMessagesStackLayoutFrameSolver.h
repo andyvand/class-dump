@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PFMessagesStackLayoutFrameSolver
 {
     long long _stackedItemsCount;
-    double _normalizedVerticalInsets;
-    double _normalizedVerticalOffset;
-    double _normalizedSizeTransform;
-    double _rotationAngle;
-    NSArray *_normalizedHorizontalOffsets;
 }
 
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)x;
+- (double)4;
 - (double);
 - (double);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *normalizedHorizontalOffsets; // @synthesize normalizedHorizontalOffsets=_normalizedHorizontalOffsets;
-@property(nonatomic) double normalizedSizeTransform; // @synthesize normalizedSizeTransform=_normalizedSizeTransform;
-@property(nonatomic) double normalizedVerticalInsets; // @synthesize normalizedVerticalInsets=_normalizedVerticalInsets;
-@property(nonatomic) double normalizedVerticalOffset; // @synthesize normalizedVerticalOffset=_normalizedVerticalOffset;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
 @property(nonatomic) long long stackedItemsCount; // @synthesize stackedItemsCount=_stackedItemsCount;
 
 @end

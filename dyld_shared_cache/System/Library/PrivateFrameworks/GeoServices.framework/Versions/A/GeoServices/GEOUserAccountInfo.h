@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, geo_isolater;
+@class geo_isolater;
 
 @interface GEOUserAccountInfo
 {
     geo_isolater *_isolation;
-    ACAccountStore *_accountStore;
-    _Bool _hasCheckedPrimaryAccount;
-    ACAccount *_primaryICloudAccount;
-    _Bool _hasCheckedPrimaryAuthKitAccount;
-    ACAccount *_primaryAuthKitAccount;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)[filter %s %d %s] no frames returned from output handler;
 + (_Bool);
 + (_Bool);
 + (id)öw7;
@@ -29,8 +24,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id)sponseAlertSecondary;
+- (_Bool)OMapItemIdentifier",R,N;
+- (id)responseAlertSecondary;
 - (void)
 php_metadata_namespace, (	
 ruby_package- (	C

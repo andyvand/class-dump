@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PHAPrivateFederatedLearningFiltersDecoder
 {
     NSDictionary *_assetFeatureExtractorNameToClass;
-    NSDictionary *_graphFeatureExtractorNameToClass;
-    NSDictionary *_facesFeatureExtractorNameToClass;
-    NSDictionary *_assetPhotoLibraryFeatureExtractorNameToClass;
-    NSString *_fingerprintVersionString;
 }
 
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?q	;
+- (long long)@;
 - (id);
 - (long long);
 - (id);
-- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)tionDeliveryDate: /* Error: Ran out of types for this method. */;
+- (void)asyncNotifySharedLibrarySuggestionsWithNotificationDeliveryDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *assetFeatureExtractorNameToClass; // @synthesize assetFeatureExtractorNameToClass=_assetFeatureExtractorNameToClass;
-@property(readonly, nonatomic) NSDictionary *assetPhotoLibraryFeatureExtractorNameToClass; // @synthesize assetPhotoLibraryFeatureExtractorNameToClass=_assetPhotoLibraryFeatureExtractorNameToClass;
-@property(readonly, nonatomic) NSDictionary *facesFeatureExtractorNameToClass; // @synthesize facesFeatureExtractorNameToClass=_facesFeatureExtractorNameToClass;
-@property(readonly, nonatomic) NSString *fingerprintVersionString; // @synthesize fingerprintVersionString=_fingerprintVersionString;
-@property(readonly, nonatomic) NSDictionary *graphFeatureExtractorNameToClass; // @synthesize graphFeatureExtractorNameToClass=_graphFeatureExtractorNameToClass;
 
 @end
 

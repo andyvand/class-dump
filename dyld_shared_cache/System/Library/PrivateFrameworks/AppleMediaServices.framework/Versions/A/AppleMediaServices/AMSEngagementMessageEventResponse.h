@@ -13,9 +13,9 @@
     NSArray *_messageActions;
 }
 
+- (id):(id)arg1 %@;
 - (id);
-- (id);
-- (void)ms_objectAtIndex:(id)arg1;
+- (void)ams_objectAtIndex:(id)arg1;
 - (void)(zÊñ}ì#"Ô¨ëg?èífOE´cJ¬táXjs¼½ò2Æî(¿hás=ÔÝÄêÛFºeµÃóïyÕ¶!õÑõªZuSa/ASÆÛWï³nEª%L;
 
 // Remaining properties

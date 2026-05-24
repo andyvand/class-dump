@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet;
+@class NSArray;
 
 @interface PPParsedCSSI
 {
     NSArray *_identifiers;
-    NSMutableSet *_neStrings;
-    NSMutableSet *_topicStrings;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)re: /* Error: Ran out of types for this method. */;
+- (id)initWithItem:score: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(retain, nonatomic) NSMutableSet *neStrings; // @synthesize neStrings=_neStrings;
-@property(retain, nonatomic) NSMutableSet *topicStrings; // @synthesize topicStrings=_topicStrings;
 
 @end
 

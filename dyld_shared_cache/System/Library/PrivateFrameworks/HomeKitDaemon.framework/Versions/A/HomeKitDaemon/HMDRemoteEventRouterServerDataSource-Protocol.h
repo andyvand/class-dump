@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCurrentAccessorySetupMetricDispatcher;
+@class HMDCurrentAccessorySetupMetricDispatcher, HMDDevice, NSArray;
 
 @protocol HMDRemoteEventRouterServerDataSource
+- (HMDDevice *);
+- (NSArray *)_verifyCurrentlyUnblockedStatuses;
+- (_Bool)ate}@;
 - (_Bool)1Â0@ù
 × ;
-- (HMDCurrentAccessorySetupMetricDispatcher *)essageKey;
+- (HMDCurrentAccessorySetupMetricDispatcher *)HMDHomeCHIPNodeIDMessageKey;
 @end
 

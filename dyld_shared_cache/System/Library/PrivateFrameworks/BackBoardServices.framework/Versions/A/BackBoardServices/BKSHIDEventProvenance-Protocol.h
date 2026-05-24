@@ -7,8 +7,6 @@
 @protocol BKSHIDEventProvenance
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int eventType;
-@property(readonly, nonatomic) unsigned long long timestamp;
 @property(readonly, nonatomic) long long versionedPID;
 @end
 

@@ -9,13 +9,13 @@
     struct atomic<bool> _opening;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
 - (int);
-- (id);
+- (id)ԍ;
 
 @end
 

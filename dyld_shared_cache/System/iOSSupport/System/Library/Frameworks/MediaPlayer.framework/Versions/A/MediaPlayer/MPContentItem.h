@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItemArtwork, NSString;
-
 @interface MPContentItem
 {
     void *_mediaRemoteContentItem;
-    MPMediaItemArtwork *_artwork;
 }
 
 + (_Bool);
-+ (void);
-+ (void);
++ (void)legacyConfigHash;
++ (void)_rawValue;
 + (_Bool);
 - (void);
-- (id);
+- (id)_colname;
 - (void);
 - (void *);
 - (void);
-- (id);
+- (id)ytSg;
 - (id);
 - (void);
 - (void);
@@ -33,14 +30,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)/swift/libswiftMLCompute.dylib;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
-- (id);
+- (id)(;
 - (void)s;
 - (_Bool)forced uninitialized property:%@ /* Error: Ran out of types for this method. */;
 - (void)Ê
@@ -50,15 +47,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) void *_mediaRemoteContentItem; // @synthesize _mediaRemoteContentItem;
-@property(retain, nonatomic) MPMediaItemArtwork *artwork; // @synthesize artwork=_artwork;
-@property(nonatomic, getter=isContainer) _Bool container;
-@property(nonatomic, getter=isExplicitContent) _Bool explicitContent;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(nonatomic, getter=isPlayable) _Bool playable;
-@property(nonatomic) float playbackProgress;
-@property(nonatomic, getter=isStreamingContent) _Bool streamingContent;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

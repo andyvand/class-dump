@@ -5,5 +5,9 @@
 //
 
 @protocol PKTiledCanvasViewDelegate
+
+@optional
+- (void);
+- (_Bool);
 @end
 

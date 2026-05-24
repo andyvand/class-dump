@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     CSSearchQuery *currentQuery;
 }
 
-- (void);
+- (void)NSWindowDelegate;
 
 @end
 

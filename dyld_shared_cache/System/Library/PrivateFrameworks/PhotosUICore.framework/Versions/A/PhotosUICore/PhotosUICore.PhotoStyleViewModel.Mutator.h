@@ -7,10 +7,6 @@
 @interface PhotosUICore.PhotoStyleViewModel.Mutator
 {
     id observable;
-    id _mostFocusedPageIndex;
-    id _targetFocusedPageIndex;
-    id _viewMode;
-    id _selectedCollectionIndex;
 }
 
 @end

@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SYDStoreID;
+@class SYDStoreID;
 
 @interface SYDStoreConfiguration
 {
     SYDStoreID *_storeID;
-    NSString *_processName;
-    NSDictionary *_entitlementOverrides;
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *entitlementOverrides; // @synthesize entitlementOverrides=_entitlementOverrides;
-@property(copy, nonatomic) NSString *processName; // @synthesize processName=_processName;
 @property(retain, nonatomic) SYDStoreID *storeID; // @synthesize storeID=_storeID;
 
 @end

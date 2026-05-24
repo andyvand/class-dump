@@ -7,11 +7,6 @@
 @interface CHSActivityService
 {
     id connection;
-    id connectionClient;
-    id queue;
-    id queue_invalidated;
-    id queue_subscriptions;
-    id queue_activityServiceAssertion;
 }
 
 - (id);

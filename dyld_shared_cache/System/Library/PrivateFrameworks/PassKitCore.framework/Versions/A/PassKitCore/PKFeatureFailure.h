@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface PKFeatureFailure
 {
     unsigned long long _featureIdentifier;
-    NSNumber *_errorCode;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSString *_serverDescription;
 }
 
 + (_Bool)î%°1Â0@ù
@@ -23,8 +17,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)numDynSdbExitDueToRate;
+- (void)2;
 - (unsigned long long);
 - (id)_summary;
 - (void)t backed by an extended interface;
@@ -32,11 +26,7 @@
 - (id)pôûÿ²i$ ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;
 @property(readonly, nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, copy, nonatomic) NSString *serverDescription; // @synthesize serverDescription=_serverDescription;
 
 @end
 

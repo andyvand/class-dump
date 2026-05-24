@@ -11,14 +11,13 @@
 @interface NSSimpleRegularExpressionCheckingResult : NSRegularExpressionCheckingResult
 {
     NSRegularExpression *_regularExpression;
-    struct _NSRange _ranges[3];
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (struct _NSRange);
+- (id)	;
+- (struct _NSRange)';
 - (id);
 - (unsigned long long);
 - (id);

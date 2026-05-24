@@ -6,13 +6,11 @@
 
 #import <DifferentialPrivacy/_DPCMSRecord.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _DPCMSSequenceRecord : _DPCMSRecord
 {
     short _sequenceHashIndex;
-    NSData *_sequence;
-    NSString *_plainSequence;
 }
 
 + (id)Ñ.1Â0@ù
@@ -22,17 +20,15 @@
 - (short);
 - (id);
 - (id);
-- (void);
+- (void)AccountManagerWebsiteButton;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)b;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *plainSequence; // @synthesize plainSequence=_plainSequence;
 @property(retain, nonatomic) NSData *sequence; // @synthesize sequence=_sequence;
-@property(nonatomic) short sequenceHashIndex; // @synthesize sequenceHashIndex=_sequenceHashIndex;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UISEGestureFeature.h>
 
-@class NSArray, NSMutableIndexSet, NSString;
+@class NSArray, NSMutableIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface _UISEAllGestureFeature : _UISEGestureFeature
@@ -18,20 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)Qeð1Â0@ù
 × ;
-- (void)ogressForBreathing:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)setInteractionProgressForBreathing:(const struct _UISEGestureFeatureSample *)arg1;
 - (void)iew:(id)arg1 %@;
-- (id)rItemDataCSg;
+- (id)So17_UITabBarItemDataCSg;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *subfeatures; // @synthesize subfeatures=_subfeatures;
-@property(readonly) Class superclass;
 
 @end
 

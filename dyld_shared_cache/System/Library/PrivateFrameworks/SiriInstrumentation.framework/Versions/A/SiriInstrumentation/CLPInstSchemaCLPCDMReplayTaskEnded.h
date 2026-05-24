@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaCLPCDMReplayTaskEnded : SISchemaInstrumentationMessage
 {
     unsigned int _replayedSampleCount;
-    struct {
-        unsigned int replayedSampleCount:1;
-    } _has;
 }
 
 - (void);
@@ -28,12 +23,10 @@
 - (_Bool);
 - (id);
 - (id)led";
-- (id)LINKEntityDisambiguationStarted;
+- (id)FLOWLINKSchemaFLOWLINKEntityDisambiguationStarted;
 - (id)ôÊ8Ó;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReplayedSampleCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int replayedSampleCount; // @synthesize replayedSampleCount=_replayedSampleCount;
 
 @end

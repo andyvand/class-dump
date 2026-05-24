@@ -6,40 +6,34 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SAEmailSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
++ (id)case;
+- (void)a;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (void);
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id)X5;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *endDate;
-@property(copy, nonatomic) NSString *fromEmail;
-@property(copy, nonatomic) NSDate *startDate;
-@property(nonatomic) int status;
-@property(copy, nonatomic) NSString *subject;
-@property(copy, nonatomic) NSString *timeZoneId;
-@property(copy, nonatomic) NSString *toEmail;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject;
-@protocol NSCopying><NSSecureCoding;
+@class NSMutableDictionary;
 
 @interface _CDContextValue
 {
@@ -14,14 +13,14 @@
 
 + (_Bool);
 + (id);
-- (void);
+- (void)5;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)res Confirmation;
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)_repeated;
+- (id)INSaveParkingLocationIntentResponseCodeInProgress;
+- (void)alternativeProviderBundleIdentifier;
 - (id);
 - (id);
 - (id);
@@ -30,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastModifiedDate;
 @property(retain, nonatomic) NSMutableDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSObject<NSCopying><NSSecureCoding> *value;
 
 @end
 

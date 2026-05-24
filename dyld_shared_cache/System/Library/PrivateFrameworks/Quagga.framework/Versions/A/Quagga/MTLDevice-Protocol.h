@@ -4,10 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, NSArray, NSString;
-@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent;
+@class MTL4PipelineDataSetSerializerDescriptor, MTLArchitecture, MTLMeshRenderPipelineDescriptor, MTLSharedTextureHandle, NSString;
+@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTL4Compiler, MTL4CounterHeap, MTL4PipelineDataSetSerializer, MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent, MTLTexture;
 
 @protocol MTLDevice
+- (id <MTLBuffer>);
+- (id <MTLComputePipelineState>);
+- (unsigned long long)_writeMessageEntityToSnippetsDb: /* Error: Ran out of types for this method. */;
+- (id <MTLRenderPipelineState>)_handle_SQLITE_CONSTRAINT_COMMITHOOK:(MTLMeshRenderPipelineDescriptor *)arg1 onError:(unsigned long long)arg2;
+- (_Bool)SGRealtimeSuggestionsTuple;
+- (_Bool)ntManager:%@ status not supported for event extraction. /* Error: Ran out of types for this method. */;
+- (id <MTL4Compiler>);
+- (_Bool)d:%@ /* Error: Ran out of types for this method. */;
+- (id <MTL4CounterHeap>);
+- (id <MTLTexture>)setMinVideoFrameDurationInMilliseconds:(MTLSharedTextureHandle *)arg1;
+- (unsigned long long)isUltraHighResolutionZeroShutterLagSupported;
+- (id <MTLRenderPipelineState>)_timeOfFlightAssistedAutoFocusStreamingTimeAt8FPS;
+- (void)_shiftSmoothingFactor;
+- (_Bool)_convergeErrorOccurred;
+- (void)eEnabled;
+- (CDStruct_14f26992)the %{public}@ graph (possible hang%{public}@);
+- (_Bool)flushing;
+- (id <MTL4PipelineDataSetSerializer>)mat).  BWNodeOutput %p node:(MTL4PipelineDataSetSerializerDescriptor *)arg1 %@ forAttachedMediaKey:%@ /* Error: Ran out of types for this method. */;
+- (void)ewStitcherNode camera transition pool;
+- (id <MTLLibrary>));
 - (id <MTL4CommandAllocator>)È	;
 - (id <MTLEvent>)u;
 - (id <MTL4Archive>)êû;
@@ -17,26 +37,26 @@
 - (id <MTL4ArgumentTable>)ÈGÃ?&8ÀF¥1>ÉG#A×zÀU+Í@û°;?òáÀôj;
 - (id <MTLCommandQueue>)~?Ò­àÀáADÀ¥³?ÇÁMè À°Ä@ãê	Á9®@pÿ-?P5;
 - (_Bool)-;
-- (void);
 - (void);
 - (void);
 - (id <MTLRasterizationRateMap>);
 - (id <MTLFunctionHandle>);
+- (_Bool)r_;
 - (id <MTLDynamicLibrary>)onalImEES6_RNS3_INS_5ErrorEEERKNS3_IyEEE3$_1;
 - (id <MTLSharedEvent>)FvyEEE;
 - (void)IEImagePreprocessorERKNS_6Sample11PixelBufferERNSt3__18optionalINS_5ErrorEEERKNSB_IyEEE3$_0;
 - (id <MTLLibrary>)optionalINS_5ErrorEEERKNS4_IyEEE3$_0;
 - (id <MTLFence>)3E5RTRefTraitsIT_E4typeEEUlOSA_E_F17e5rt_error_code_tRKNS4_13E5RTInterfaceEEEE;
-- (id <MTL4CommandBuffer>)3DecoderResultE;
+- (id <MTL4CommandBuffer>)N5zxing13DecoderResultE;
 - (_Bool)elBufferERNS_8optionalINS2_5ErrorEEERKNSA_IyEEE3$_1FvyEEE;
 - (unsigned long long)agePreprocessor_Accelerate7prepareERNSt3__18optionalINS_5ErrorEEERKNS4_IyEEE3$_1;
-- (id <MTLFunctionHandle>)22ANMDModelMetadata_v1_4E;
-- (id <MTL4CommandAllocator>)rc12_GLOBAL__N_131PyramidGenerationSessionContextILNS_25PyramidGenerationBehaviorE1EE7performENSt3__18functionIFvONS4_8optionalINS4_17reference_wrapperINS_24PyramidGenerationSessionILS2_1EEEEEEEONS6_INS_5ErrorEEEEEEEUlvE_;
+- (id <MTLFunctionHandle>)N3mrc9inference4anmd12_GLOBAL__N_122ANMDModelMetadata_v1_4E;
+- (id <MTL4CommandAllocator>)ZN3mrc12_GLOBAL__N_131PyramidGenerationSessionContextILNS_25PyramidGenerationBehaviorE1EE7performENSt3__18functionIFvONS4_8optionalINS4_17reference_wrapperINS_24PyramidGenerationSessionILS2_1EEEEEEEONS6_INS_5ErrorEEEEEEEUlvE_;
 - (_Bool)dGenerationBehaviorE1EE8allocateERNS_8optionalINS2_5ErrorEEERKNS7_IyEEEUlyE_FvyEEE;
 - (_Bool)E0_;
 - (id <MTLSharedEvent>)orE0EE7performENSt3__18functionIFvONS4_8optionalINS4_17reference_wrapperINS_24PyramidGenerationSessionILS2_0EEEEEEEONS6_INS_5ErrorEEEEEEEUlvE_;
 - (MTLArchitecture *)KNSt3__18optionalI6CGRectEERNS9_INS_5ErrorEEERKNS9_IyEEEUlOT_OT0_E_;
-- (id <MTLIndirectCommandBuffer>)120PixelTransferSessionILNS_25PyramidGenerationBehaviorE1EE13transferImageERKNS_5CFRefIP10__CVBufferEES9_RKNSt3__18optionalI6CGRectEESF_RNSB_INS_5ErrorEEERKNSB_IyEEEUlyE0_;
+- (id <MTLIndirectCommandBuffer>)ZN3mrc12_GLOBAL__N_120PixelTransferSessionILNS_25PyramidGenerationBehaviorE1EE13transferImageERKNS_5CFRefIP10__CVBufferEES9_RKNSt3__18optionalI6CGRectEESF_RNSB_INS_5ErrorEEERKNSB_IyEEEUlyE0_;
 - (unsigned long long)aviorE1EE13transferImageERKNS_5CFRefIP10__CVBufferEES9_RKNSt3__18optionalI6CGRectEESF_RNSB_INS_5ErrorEEERKNSB_IyEEEUlyE_;
 - (_Bool)S2_5CFRefIP10__CVBufferEESC_RKNS_8optionalI6CGRectEESH_RNSD_INS2_5ErrorEEERKNSD_IyEEEUlyE_FvyEEE;
 - (unsigned long long)ÿÿÿÿÿ: /* Error: Ran out of types for this method. */;
@@ -48,48 +68,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) struct maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
-@property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

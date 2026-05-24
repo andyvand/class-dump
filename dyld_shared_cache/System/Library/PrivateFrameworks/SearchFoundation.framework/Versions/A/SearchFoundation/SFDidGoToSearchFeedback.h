@@ -11,26 +11,22 @@
 @interface SFDidGoToSearchFeedback : SFFeedback
 {
     NSString *_input;
-    unsigned long long _endpoint;
-    unsigned long long _triggerEvent;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)scanHexInt:(id)arg1;
 - (unsigned long long);
-- (void);
+- (void)interrupted for call directory manager %@;
 - (id);
-- (void);
-- (void);
+- (void)pell.m4r;
+- (void)addTWAINDevice:(id)arg1;
 - (void)hichMetadata;
 - (void);
 - (unsigned long long)8Êêÿ)ã?ù;
 
 // Remaining properties
-@property(nonatomic) unsigned long long endpoint; // @synthesize endpoint=_endpoint;
 @property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(nonatomic) unsigned long long triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 
 @end
 

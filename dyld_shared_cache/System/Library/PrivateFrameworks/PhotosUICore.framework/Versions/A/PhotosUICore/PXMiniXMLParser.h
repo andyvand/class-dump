@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSScanner;
+@class NSScanner;
 
 @interface PXMiniXMLParser
 {
     CDUnknownBlockType _parsedCharactersBlock;
-    CDUnknownBlockType _parsedTagBlock;
-    CDUnknownBlockType _parsedEntityBlock;
-    CDUnknownBlockType _parsedErrorBlock;
-    NSScanner *__scanner;
-    NSCharacterSet *__syntaxMarkerCharactersSet;
 }
 
 - (void);
@@ -30,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)ñø;
@@ -38,11 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSScanner *_scanner; // @synthesize _scanner=__scanner;
-@property(readonly, nonatomic) NSCharacterSet *_syntaxMarkerCharactersSet; // @synthesize _syntaxMarkerCharactersSet=__syntaxMarkerCharactersSet;
-@property(copy, nonatomic) CDUnknownBlockType parsedCharactersBlock; // @synthesize parsedCharactersBlock=_parsedCharactersBlock;
-@property(copy, nonatomic) CDUnknownBlockType parsedEntityBlock; // @synthesize parsedEntityBlock=_parsedEntityBlock;
-@property(copy, nonatomic) CDUnknownBlockType parsedErrorBlock; // @synthesize parsedErrorBlock=_parsedErrorBlock;
-@property(copy, nonatomic) CDUnknownBlockType parsedTagBlock; // @synthesize parsedTagBlock=_parsedTagBlock;
 
 @end
 

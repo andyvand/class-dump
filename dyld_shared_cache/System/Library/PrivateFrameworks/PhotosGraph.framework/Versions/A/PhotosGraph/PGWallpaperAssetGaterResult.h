@@ -7,9 +7,6 @@
 @interface PGWallpaperAssetGaterResult
 {
     _Bool _passesAnyGating;
-    _Bool _passesSegmentation;
-    _Bool _passesSettlingEffect;
-    _Bool _didTimeout;
 }
 
 - (void);
@@ -17,15 +14,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool didTimeout; // @synthesize didTimeout=_didTimeout;
-@property(readonly, nonatomic) _Bool passesAnyGating; // @synthesize passesAnyGating=_passesAnyGating;
 @property(nonatomic) _Bool passesSegmentation; // @synthesize passesSegmentation=_passesSegmentation;
-@property(nonatomic) _Bool passesSettlingEffect; // @synthesize passesSettlingEffect=_passesSettlingEffect;
 
 @end
 

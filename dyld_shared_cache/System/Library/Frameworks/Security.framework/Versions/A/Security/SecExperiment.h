@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SecExperimentConfig;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SecExperiment
 {
     _Bool _samplingDisabled;
-    NSString *_name;
-    SecExperimentConfig *_cachedConfig;
 }
 
 - (void);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -32,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) SecExperimentConfig *cachedConfig; // @synthesize cachedConfig=_cachedConfig;
-@property(readonly) NSString *identifier;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool samplingDisabled; // @synthesize samplingDisabled=_samplingDisabled;
 
 @end
 

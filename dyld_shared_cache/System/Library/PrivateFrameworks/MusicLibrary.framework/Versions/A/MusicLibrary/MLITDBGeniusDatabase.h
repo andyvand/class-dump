@@ -11,29 +11,29 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (unsigned int);
-- (id);
-- (_Bool);
-- (id);
++ (id)N,V_rebuildInProgress;
+- (void)_allChildrenPurgeableResourceDirectoryTypesForPathManager:(CDUnknownBlockType)arg1 libraryIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_addSpotlightSearchIndexingStatusToProcessingSnapshot:forTaskID:completedCount:totalCount:error: /* Error: Ran out of types for this method. */;
+- (_Bool)s,V_characterRecognitionAlgorithmVersion;
+- (_Bool)ate;
+- (_Bool)D,N;
+- (_Bool),N,V_userOrientation;
+- (_Bool)Height;
+- (unsigned int)OptimizeMode;
+- (unsigned long long)r;
+- (unsigned long long)on;
+- (id)kipped;
+- (id)N,V_templateType;
+- (id)mplateDateType;
+- (_Bool)syncedAlbumSubtitleStringFormat;
+- (_Bool)_automaticallyMergesContext;
+- (_Bool)PLManagedFolder",&,N,V_folder;
+- (_Bool)reter;
+- (unsigned long long)t",&,V_asset;
+- (unsigned int)ick:(id)arg1 ,V__anOldPick;
+- (id)n",&,D,N;
+- (_Bool)removeEmptyAlbumsAndFoldersForCloudResetInManagedObjectContext:(id *)arg1;
+- (id)spokenStringPermutationOfLanguageModelDictionary:givenPermutation:stringsTable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ML3MusicLibrary *musicLibrary;

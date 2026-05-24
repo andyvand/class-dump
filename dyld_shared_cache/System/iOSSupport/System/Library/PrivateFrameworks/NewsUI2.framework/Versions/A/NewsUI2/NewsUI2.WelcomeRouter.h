@@ -7,7 +7,6 @@
 @interface NewsUI2.WelcomeRouter
 {
     id controller;
-    id resolver;
 }
 
 @end

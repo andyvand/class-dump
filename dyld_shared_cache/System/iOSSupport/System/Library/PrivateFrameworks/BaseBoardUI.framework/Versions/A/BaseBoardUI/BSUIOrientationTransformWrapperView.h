@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, _BSUIOrientationTransformedContentView;
+@class _BSUIOrientationTransformedContentView;
 
 @interface BSUIOrientationTransformWrapperView
 {
     _BSUIOrientationTransformedContentView *_transformedView;
-    long long _contentOrientation;
-    long long _containerOrientation;
-    NSMutableArray *_hitTestViews;
 }
 
 - (void);
@@ -27,7 +24,7 @@
 - (long long);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)0;
 - (void);
 - (void);
 - (_Bool);
@@ -36,9 +33,9 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)ew";
+- (void)lerProvider;
 - (void);
 - (id);
 - (void);
@@ -46,10 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long containerOrientation; // @synthesize containerOrientation=_containerOrientation;
 @property(nonatomic) long long contentOrientation; // @synthesize contentOrientation=_contentOrientation;
-@property(readonly, nonatomic) NSArray *contentViews;
-@property(nonatomic, getter=isCounterTransformView) _Bool counterTransformView;
 
 @end
 

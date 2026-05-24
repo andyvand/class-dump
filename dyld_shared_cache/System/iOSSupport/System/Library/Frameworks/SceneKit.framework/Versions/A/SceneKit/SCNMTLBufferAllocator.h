@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SCNFixedSizePage;
 @protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface SCNMTLBufferAllocator
 {
     id <MTLDevice> _device;
-    unsigned long long _bufferSize;
-    unsigned long long _elementSize;
-    NSString *_name;
-    NSMutableArray *_pages;
-    SCNFixedSizePage *_currentAllocatorPage;
-    struct os_unfair_lock_s _allocatorLock;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)(
+;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bufferSize; // @synthesize bufferSize=_bufferSize;
-@property(readonly, nonatomic) unsigned long long elementSize; // @synthesize elementSize=_elementSize;
 
 @end
 

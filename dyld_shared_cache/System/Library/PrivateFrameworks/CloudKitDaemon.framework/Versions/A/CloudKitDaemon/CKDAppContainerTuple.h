@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKDApplicationID, CKPersona, NSString;
+@class CKDApplicationID;
 
 @interface CKDAppContainerTuple
 {
     CKDApplicationID *_applicationID;
-    CKContainerID *_containerID;
-    CKPersona *_persona;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)on:[%{ptr}] (%s) Parent:[%{ptr}]
+ /* Error: Ran out of types for this method. */;
+- (id)_curBTAudioBand;
+- (id);
+- (id);
+- (_Bool)>";
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Encrypting for conversationID:(id)arg1 %s;
 - (void)uldn't add public identity to per-participant PCS for participant %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CKDApplicationID *applicationID; // @synthesize applicationID=_applicationID;
-@property(readonly, copy, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, copy, nonatomic) CKPersona *persona; // @synthesize persona=_persona;
-@property(readonly, copy, nonatomic) NSString *personaID;
 
 @end
 

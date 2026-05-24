@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSNNImageNode, MPSNNStateNode, NSArray, NSMutableArray, NSString;
-@protocol MPSNNPadding;
+@class MPSNNImageNode, NSMutableArray;
 
 @interface MPSNNFilterNode
 {
     NSMutableArray *_sourceImages;
-    NSMutableArray *_sourceStates;
-    MPSNNImageNode *_resultImage;
-    NSMutableArray *_resultStates;
-    id <MPSNNPadding> _paddingPolicy;
-    NSString *_label;
 }
 
 - (id);
@@ -31,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (Class);
 - (void);
 - (id);
@@ -40,11 +34,7 @@
 - (id)value;
 
 // Remaining properties
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) id <MPSNNPadding> paddingPolicy; // @synthesize paddingPolicy=_paddingPolicy;
 @property(readonly, nonatomic) MPSNNImageNode *resultImage; // @synthesize resultImage=_resultImage;
-@property(readonly, nonatomic) MPSNNStateNode *resultState;
-@property(readonly, nonatomic) NSArray *resultStates;
 
 @end
 

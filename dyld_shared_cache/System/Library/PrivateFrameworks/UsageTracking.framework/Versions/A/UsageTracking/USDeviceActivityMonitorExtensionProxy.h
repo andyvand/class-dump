@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue_global;
+@class NSArray;
 
 @interface USDeviceActivityMonitorExtensionProxy
 {
     unsigned long long _timeoutInSeconds;
-    unsigned long long _timeoutLeewayInSeconds;
-    NSArray *_extensions;
-    NSObject<OS_dispatch_queue_global> *_timeoutQueue;
 }
 
 - (id);
@@ -32,16 +28,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSArray *extensions; // @synthesize extensions=_extensions;
-@property unsigned long long timeoutInSeconds; // @synthesize timeoutInSeconds=_timeoutInSeconds;
-@property unsigned long long timeoutLeewayInSeconds; // @synthesize timeoutLeewayInSeconds=_timeoutLeewayInSeconds;
-@property(readonly) NSObject<OS_dispatch_queue_global> *timeoutQueue; // @synthesize timeoutQueue=_timeoutQueue;
 
 @end
 

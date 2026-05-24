@@ -9,7 +9,6 @@
 @interface OAURLRequestSigner
 {
     OACredential *_credential;
-    int _signatureMethod;
 }
 
 - (id);
@@ -22,9 +21,9 @@
 - (id);
 - (int);
 - (Class);
-- (id);
-- (id);
-- (void);
+- (id)control:(id)arg1 textShouldEndEditing:(id)arg2;
+- (id)colorWithCalibratedRed:(id)arg1 green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)__objc_methlist;
 
 // Remaining properties
 @property(nonatomic) int signatureMethod; // @synthesize signatureMethod=_signatureMethod;

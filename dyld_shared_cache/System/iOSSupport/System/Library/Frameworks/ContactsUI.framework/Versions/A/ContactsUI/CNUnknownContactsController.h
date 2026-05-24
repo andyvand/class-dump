@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSString, UIViewController;
+@class CNContactStore;
 @protocol CNUnknownContactsControllerDelegate;
 
 @interface CNUnknownContactsController
 {
     id <CNUnknownContactsControllerDelegate> _delegate;
-    CNContactStore *_contactStore;
-    NSArray *_contacts;
-    UIViewController *_displayedController;
 }
 
-+ (id);
++ (id)showDeleteFailureAlert;
 - (void);
 - (void);
 - (_Bool);
@@ -23,25 +20,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (id);
-- (void)gCurrentCalendar;
-- (id)arViewControllerC;
+- (void)autoupdatingCurrentCalendar;
+- (id)So22CNAvatarViewControllerC;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUnknownContactsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIViewController *displayedController; // @synthesize displayedController=_displayedController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

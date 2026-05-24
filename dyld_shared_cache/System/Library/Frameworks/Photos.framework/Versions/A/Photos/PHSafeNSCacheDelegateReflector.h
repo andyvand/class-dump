@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
-
 @interface PHSafeNSCacheDelegateReflector
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_delegatesByCache;
 }
 
 + (void)ð1Â0@ù
 × ;
 + (id)È;
 - (id);
-- (void);
+- (void)c.A.dylib;
 - (void)on;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

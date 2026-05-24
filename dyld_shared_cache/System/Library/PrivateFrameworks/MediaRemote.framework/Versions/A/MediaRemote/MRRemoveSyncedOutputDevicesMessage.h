@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)a:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

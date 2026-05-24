@@ -6,33 +6,29 @@
 
 #import <MediaPlayer/MPModelLibraryRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MPModelLibrarySearchRequest : MPModelLibraryRequest
 {
     NSArray *_scopes;
-    long long _maximumResultsPerScope;
-    NSString *_searchString;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)IDStatus;
+- (id)@�;
 - (void);
-- (id);
+- (id)n;
 - (void);
-- (id)abled;
+- (id)selectionDisabled;
 - (void),V_persistentIDValue;
 - (void)Volume - Error getting master volume:(id)arg1 %{public}@;
 - (id)PropertySongHasCredits;
 
 // Remaining properties
-@property(nonatomic) long long maximumResultsPerScope; // @synthesize maximumResultsPerScope=_maximumResultsPerScope;
 @property(copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

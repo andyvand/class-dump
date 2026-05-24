@@ -11,19 +11,19 @@
 @optional
 - (void)A°!Dù±^ð1Â0@ù
 × ;
-- (void)eview;
-- (void)w:(UICollectionView *)arg1;
-- (UITargetedPreview *)luationStrategy:(UICollectionView *)arg1;
-- (_Bool)stration:(UICollectionView *)arg1 forIndexPath:(NSIndexPath *)arg2;
-- (UITargetedPreview *)ateTransitionToOrientation:(UICollectionView *)arg1 duration:(UIContextMenuConfiguration *)arg2 masterChange:(NSIndexPath *)arg3;
-- (void)ionSequenceView;
+- (void)defaultPreview;
+- (void)_keyboardWillHideOrShow:(UICollectionView *)arg1;
+- (UITargetedPreview *)_initWithWindowScene:(UICollectionView *)arg1 evaluationStrategy:(UIContextMenuConfiguration *)arg2;
+- (_Bool)_dequeueReusableCellWithRegistration:(UICollectionView *)arg1 forIndexPath:(NSIndexPath *)arg2;
+- (UITargetedPreview *)_animateTransitionToOrientation:(UICollectionView *)arg1 duration:(UIContextMenuConfiguration *)arg2 masterChange:(NSIndexPath *)arg3;
+- (void)_actionSequenceView;
 - (void)essedShadowRadius;
 - (void)Shadow;
 - (UICollectionViewTransitionLayout *)callyInset;
 - (void),GisNextEnabled;
 - (void)N,V_delegate;
-- (UIWindowSceneActivationConfiguration *)utton;
-- (UITargetedPreview *)UIModernSwitchVisualElementCacheKey;
+- (UIWindowSceneActivationConfiguration *)_NSBorderlessButton;
+- (UITargetedPreview *)_UIModernSwitchVisualElementCacheKey;
 - (void)hÄd´¨;
 - (UITargetedPreview *)^;
 - (UIContextMenuConfiguration *)$;
@@ -43,7 +43,7 @@ box:(NSIndexPath *)arg2 %s;
 - (_Bool)y.dictionary;
 - (_Bool)eturned a supplementary view that was not dequeued from the collection view using a supplementary registration or reuse identifier. Supplementary views must be retrieved by calling dequeueConfiguredReusableSupplementaryViewWithRegistration:(UICollectionView *)arg1 forIndexPath:(NSIndexPath *)arg2 or -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:. Collection view:%@; element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
 - (NSIndexPath *)%s is ignored.;
-- (_Bool)tification;
+- (_Bool)UIAccessibilityReduceMotionChangedNotification;
 - (_Bool)UIBarSection;
 - (void);
 - (_Bool)Å;

@@ -5,11 +5,12 @@
 //
 
 @protocol LPAudioPlayer
+- (float):8 /* Error: Ran out of types for this method. */;
+- (void)e=QQ}32@48@56;
 - (void);
 - (void)ð;
 
 // Remaining properties
 @property(readonly, nonatomic) float progress;
-@property(readonly, nonatomic) unsigned long long state;
 @end
 

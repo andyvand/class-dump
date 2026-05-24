@@ -7,55 +7,6 @@
 @interface UIKit.InProcessAnimationManager
 {
     id configurationState;
-    id advancingOnCommitDisabled;
-    id currentTickThread;
-    id animationThread;
-    id animationThreadRunLoop;
-    id animationThreadKeepAliveSemaphore;
-    id _preferredFrameRateRange;
-    id _updateReasonArray;
-    id preCommitBlocks;
-    id entries;
-    id newlyAddedEntries;
-    id postTickCallbacks;
-    id postTickEntries;
-    id preExitCallbacks;
-    id presentationModifierGroupRequestCallbacks;
-    id minimumFrameRates;
-    id maximumFrameRates;
-    id preferredFrameRates;
-    id updateReasons;
-    id numberOfEntriesNotAllowingVFD;
-    id numberOfEntriesRequiringFlushWithTransaction;
-    id updateRequest;
-    id driver;
-    id time;
-    id deltaTime;
-    id _refreshInterval;
-    id tickPrepQueue;
-    id tickQueue;
-    id entryLockingQueue;
-    id displayLinkAccessQueue;
-    id animationsShouldCompleteImmediatelyQueue;
-    id postTicksDelaySemaphore;
-    id isCommitting;
-    id processingPreCommits;
-    id waitingForAnimatorAdvancerToStart;
-    id displayLink;
-    id screen;
-    id screenDimmingNotificationToken;
-    id animationsSuspended;
-    id animationsShouldCompleteImmediately;
-    id skipNextFrame;
-    id displayLinkInvalidated;
-    id screenIsOff;
-    id presentationModifierRequestCount;
-    id presentationGroups;
-    id accumulatedNormalizedChange;
-    id appSuspended;
-    id observedWindowScenes;
-    id clean;
-    id dispatchAfterTickExitCallbacks;
 }
 
 + (void);

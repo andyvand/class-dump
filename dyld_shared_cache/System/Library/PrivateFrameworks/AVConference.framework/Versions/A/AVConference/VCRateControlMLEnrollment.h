@@ -12,11 +12,6 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlMLEnrollment : VCObject
 {
     NSString *_modelPath;
-    NSString *_recipeID;
-    unsigned int _nIteration;
-    _Bool _shouldGenerateLocalTrainingData;
-    unsigned int _reportingGroup;
-    NSString *_trialModelID;
 }
 
 - (int);
@@ -26,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (void);
 - (void);
@@ -40,16 +35,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_initialStartBoundary;
 - (id)zed=%d;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *modelPath; // @synthesize modelPath=_modelPath;
-@property(readonly, nonatomic) unsigned int nIteration; // @synthesize nIteration=_nIteration;
-@property(readonly, nonatomic) NSString *recipeID; // @synthesize recipeID=_recipeID;
-@property(readonly, nonatomic) unsigned int reportingGroup; // @synthesize reportingGroup=_reportingGroup;
-@property(readonly, nonatomic) _Bool shouldGenerateLocalTrainingData;
-@property(readonly, nonatomic) NSString *trialModelID; // @synthesize trialModelID=_trialModelID;
 
 @end
 

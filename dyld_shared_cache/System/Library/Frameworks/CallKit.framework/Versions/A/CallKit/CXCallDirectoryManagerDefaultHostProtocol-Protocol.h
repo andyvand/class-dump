@@ -5,5 +5,7 @@
 //
 
 @protocol CXCallDirectoryManagerDefaultHostProtocol
+- (oneway void);
+- (oneway void);
 @end
 

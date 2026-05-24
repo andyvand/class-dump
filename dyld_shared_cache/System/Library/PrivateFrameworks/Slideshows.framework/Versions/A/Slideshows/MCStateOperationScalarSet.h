@@ -12,8 +12,8 @@
 }
 
 + (id);
-- (void);
-- (double);
+- (void)Assembly;
+- (double);
 - (id);
 - (void);
 - (id);

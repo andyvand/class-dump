@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-@protocol EKUIViewHierarchy;
-
 @interface EKUIViewHierarchyFromComponents
 {
     double _ekui_width;
-    double _ekui_height;
-    id <EKUIViewHierarchy> _ekui_rootViewHierarchy;
-    long long _ekui_horizontalSizeClass;
-    long long _ekui_verticalSizeClass;
-    long long _ekui_interfaceOrientation;
-    UIColor *_ekui_tintColor;
-    struct CGSize _ekui_size;
-    struct CGAffineTransform _ekui_affineTransform;
 }
 
-+ (_Bool);
++ (_Bool)shortcutActionCount;
+- (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (long long);
-- (id);
+- (id);
+- (double)*+s;
+- (long long);
+- (id)s;
 - (struct CGSize);
-- (id);
+- (id)&s;
 - (long long);
 - (long long);
 - (double);
@@ -45,22 +34,7 @@
 - (void)icker";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGAffineTransform ekui_affineTransform; // @synthesize ekui_affineTransform=_ekui_affineTransform;
-@property(nonatomic) double ekui_height; // @synthesize ekui_height=_ekui_height;
-@property(nonatomic) long long ekui_horizontalSizeClass; // @synthesize ekui_horizontalSizeClass=_ekui_horizontalSizeClass;
-@property(nonatomic) long long ekui_interfaceOrientation; // @synthesize ekui_interfaceOrientation=_ekui_interfaceOrientation;
-@property(retain, nonatomic) id <EKUIViewHierarchy> ekui_rootViewHierarchy; // @synthesize ekui_rootViewHierarchy=_ekui_rootViewHierarchy;
 @property(nonatomic) struct CGSize ekui_size; // @synthesize ekui_size=_ekui_size;
-@property(retain, nonatomic) UIColor *ekui_tintColor; // @synthesize ekui_tintColor=_ekui_tintColor;
-@property(nonatomic) long long ekui_verticalSizeClass; // @synthesize ekui_verticalSizeClass=_ekui_verticalSizeClass;
-@property(nonatomic) double ekui_width; // @synthesize ekui_width=_ekui_width;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

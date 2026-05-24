@@ -4,11 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
+@class NSArray, NSUndoManager, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (NSUndoManager *)Ď;
+- (void);
+- (NSArray *);
+- (void)re passed;
+- (void)HasServerDefinedAllMailMailbox;
+- (void);
+- (void)&;
+- (void);
+- (void);
 - (void)× ;
 - (struct CGSize)0:(NSWindow *)arg1 8@16@24@?32;
 @end

@@ -7,21 +7,6 @@
 @interface UIBezierPath
 {
     struct CGPath *_path;
-    double *_lineDashPattern;
-    unsigned long long _lineDashPatternCount;
-    double _lineWidth;
-    double _miterLimit;
-    double _flatness;
-    double _lineDashPhase;
-    int _lineCapStyle;
-    int _lineJoinStyle;
-    _Bool _usesEvenOddFillRule;
-    struct CGPath *_immutablePath;
-    _Bool _immutablePathIsValid;
-    _Bool _isRoundedRect;
-    double _cornerRadius;
-    _Bool _hasContinuousCorners;
-    unsigned long long _cornerMask;
 }
 
 @end

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIForceMessage
 {
     _Bool _reset;
-    double touchForce;
-    unsigned long long stage;
-    double timestamp;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (unsigned long long);
-- (double);
+- (double)+;
 - (void);
 - (_Bool)0@ù
 × ;
@@ -27,16 +22,6 @@ __attribute__((visibility("hidden")))
 - (double)X [;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isReset) _Bool reset; // @synthesize reset=_reset;
-@property(nonatomic) unsigned long long stage; // @synthesize stage;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp; // @synthesize timestamp;
 @property(nonatomic) double touchForce; // @synthesize touchForce;
 
 @end

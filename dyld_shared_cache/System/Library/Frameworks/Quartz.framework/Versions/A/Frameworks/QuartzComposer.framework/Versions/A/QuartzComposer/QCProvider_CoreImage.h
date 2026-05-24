@@ -6,15 +6,11 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class CIImage, NSArray, QCRegion;
+@class CIImage;
 
 @interface QCProvider_CoreImage : QCImageProvider
 {
     CIImage *_image;
-    QCRegion *_domainOfDefinition;
-    NSArray *_pixelFormats;
-    NSArray *_textureFormats;
-    struct _opaque_pthread_mutex_t _mutex;
 }
 
 + (_Bool);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSDictionary;
 
 @interface ICStoreRadioStreamAssetInfo
 {
@@ -25,11 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long flavor;
-@property(readonly, nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream;
-@property(readonly, copy, nonatomic) NSURL *keyCertificateURL;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL;
-@property(readonly, nonatomic) long long streamProtocol;
-@property(readonly, copy, nonatomic) NSURL *streamURL;
 
 @end
 

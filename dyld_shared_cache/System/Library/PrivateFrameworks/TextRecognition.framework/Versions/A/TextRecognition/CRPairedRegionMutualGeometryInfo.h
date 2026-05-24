@@ -7,11 +7,6 @@
 @interface CRPairedRegionMutualGeometryInfo
 {
     _Bool _isCenterJustified;
-    double _inlineSpacingAlongBaseline;
-    struct CGVector _leftOffsetAlongBaseline;
-    struct CGVector _rightOffsetAlongBaseline;
-    struct CGVector _leadingOffsetAlongBaseline;
-    struct CGVector _trailingOffsetAlongBaseline;
 }
 
 - (struct CGVector);
@@ -19,16 +14,11 @@
 - (struct CGVector);
 - (struct CGVector);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 
 // Remaining properties
-@property(readonly) double inlineSpacingAlongBaseline; // @synthesize inlineSpacingAlongBaseline=_inlineSpacingAlongBaseline;
-@property(readonly) _Bool isCenterJustified; // @synthesize isCenterJustified=_isCenterJustified;
-@property(readonly) struct CGVector leadingOffsetAlongBaseline; // @synthesize leadingOffsetAlongBaseline=_leadingOffsetAlongBaseline;
 @property(readonly) struct CGVector leftOffsetAlongBaseline; // @synthesize leftOffsetAlongBaseline=_leftOffsetAlongBaseline;
-@property(readonly) struct CGVector rightOffsetAlongBaseline; // @synthesize rightOffsetAlongBaseline=_rightOffsetAlongBaseline;
-@property(readonly) struct CGVector trailingOffsetAlongBaseline; // @synthesize trailingOffsetAlongBaseline=_trailingOffsetAlongBaseline;
 
 @end
 

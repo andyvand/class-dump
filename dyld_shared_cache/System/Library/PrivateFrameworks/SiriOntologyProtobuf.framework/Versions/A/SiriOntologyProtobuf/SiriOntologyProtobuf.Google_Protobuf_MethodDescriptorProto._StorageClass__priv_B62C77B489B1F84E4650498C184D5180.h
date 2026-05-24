@@ -7,11 +7,6 @@
 @interface SiriOntologyProtobuf.Google_Protobuf_MethodDescriptorProto._StorageClass__priv_B62C77B489B1F84E4650498C184D5180
 {
     id _name;
-    id _inputType;
-    id _outputType;
-    id _options;
-    id _clientStreaming;
-    id _serverStreaming;
 }
 
 @end

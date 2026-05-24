@@ -5,5 +5,8 @@
 //
 
 @protocol CNLikenessEditorHostDelegate
+- (void);
+- (_Bool);
+- (void)R;
 @end
 

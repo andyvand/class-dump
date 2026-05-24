@@ -13,15 +13,15 @@
     AXMScreenGrabber *_screenGrabber;
 }
 
-+ (_Bool);
++ (_Bool)setTimeInSecondsSinceViewportEnteredForeground: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void)|;
 - (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXMScreenGrabber *screenGrabber; // @synthesize screenGrabber=_screenGrabber;

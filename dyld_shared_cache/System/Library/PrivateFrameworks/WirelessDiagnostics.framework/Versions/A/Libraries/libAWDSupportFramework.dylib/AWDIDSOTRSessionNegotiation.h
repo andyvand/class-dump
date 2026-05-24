@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSOTRSessionNegotiation
 {
     unsigned long long _duration;
-    unsigned long long _priority;
-    unsigned long long _timestamp;
-    unsigned int _result;
-    NSString *_service;
-    struct {
-        unsigned int duration:1;
-        unsigned int priority:1;
-        unsigned int timestamp:1;
-        unsigned int result:1;
-    } _has;
 }
 
 - (_Bool);
@@ -33,8 +21,8 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)9;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -46,22 +34,13 @@
 - (_Bool);
 - (void);
 - (unsigned int);
-- (void);
+- (void)p;
 - (void);
 - (unsigned long long)üÿ±È;
 - (void)éoHñ	;
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasPriority;
-@property(nonatomic) _Bool hasResult;
-@property(readonly, nonatomic) _Bool hasService;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned int result; // @synthesize result=_result;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

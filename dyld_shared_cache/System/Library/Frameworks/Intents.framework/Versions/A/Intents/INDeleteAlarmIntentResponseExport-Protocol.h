@@ -5,7 +5,7 @@
 //
 
 @protocol INDeleteAlarmIntentResponseExport
-- (long long)leSearchForMedia:completion: /* Error: Ran out of types for this method. */;
+- (long long)handleSearchForMedia:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber;
-
 @interface ASDPurchaseResult
 {
     _Bool _success;
-    NSError *_error;
-    NSNumber *_itemID;
 }
 
 + (_Bool);
@@ -18,12 +14,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)atch_info_form_of_way, match_info_road_class, match_info_shifted) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 - (_Bool);
-- (void);
+- (void)HJ)	
+J*=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

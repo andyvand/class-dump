@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSObject, NSString, NSXPCConnection, NSXPCInterface, SMSystem_Client;
-@protocol MigrationProgressEventsListener, SMDProgressProtocol;
+@class NSXPCInterface;
 
 @interface SMProgress_Client
 {
     _Bool _toAnotherMac;
-    _Bool _hostingWirelessAP;
-    _Bool _connectedToWirelessAP;
-    _Bool _stoppedObserving;
-    NSObject<MigrationProgressEventsListener> *_delegate;
-    SMSystem_Client *_sourceSystem;
-    NSString *_currentSystemName;
-    NSImage *_currentSystemDisplayIcon;
-    NSXPCInterface *_daemonInterface;
-    NSXPCInterface *_exportedInterface;
-    NSXPCConnection *_daemonConnection;
-    id <SMDProgressProtocol> _daemonProxy;
-    id _sourceSystemID;
-    unsigned long long _requestedClientScannerState;
-    id _observationContext;
 }
 
 + (id);
@@ -37,12 +22,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,7 +57,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -89,7 +74,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
@@ -104,30 +89,7 @@
 - (id)ock_invoke;
 
 // Remaining properties
-@property _Bool connectedToWirelessAP; // @synthesize connectedToWirelessAP=_connectedToWirelessAP;
-@property(retain) NSImage *currentSystemDisplayIcon; // @synthesize currentSystemDisplayIcon=_currentSystemDisplayIcon;
-@property(retain) NSString *currentSystemName; // @synthesize currentSystemName=_currentSystemName;
-@property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
 @property(retain) NSXPCInterface *daemonInterface; // @synthesize daemonInterface=_daemonInterface;
-@property(retain) id <SMDProgressProtocol> daemonProxy; // @synthesize daemonProxy=_daemonProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak NSObject<MigrationProgressEventsListener> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long effectiveConnectionMethod;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(readonly) NSString *fasterInterfaceRecommendation;
-@property(readonly) unsigned long long hash;
-@property _Bool hostingWirelessAP; // @synthesize hostingWirelessAP=_hostingWirelessAP;
-@property(retain) id observationContext; // @synthesize observationContext=_observationContext;
-@property unsigned long long requestedClientScannerState; // @synthesize requestedClientScannerState=_requestedClientScannerState;
-@property(retain) SMSystem_Client *sourceSystem; // @synthesize sourceSystem=_sourceSystem;
-@property(retain) id sourceSystemID; // @synthesize sourceSystemID=_sourceSystemID;
-@property _Bool stoppedObserving; // @synthesize stoppedObserving=_stoppedObserving;
-@property(readonly) Class superclass;
-@property _Bool toAnotherMac; // @synthesize toAnotherMac=_toAnotherMac;
 
 @end
 

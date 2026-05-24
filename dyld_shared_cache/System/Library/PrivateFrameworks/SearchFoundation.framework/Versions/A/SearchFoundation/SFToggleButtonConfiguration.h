@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage;
+@class NSString;
 
 @interface SFToggleButtonConfiguration
 {
     NSString *_untoggledTitle;
-    NSString *_toggledTitle;
-    SFImage *_untoggledImage;
-    SFImage *_toggledImage;
 }
 
 + (_Bool);
@@ -23,29 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)rceLoader"16@"AVAssetResourceRenewalRequest"24;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)requiringBacklightObservation;
 - (id);
+- (id)ers from feedback for memory %@:%@ /* Error: Ran out of types for this method. */;
+- (id)ass %@);
 - (id);
-- (id);
-- (id);
-- (void)sShouldPause;
+- (void)hasShouldPause;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SFImage *toggledImage; // @synthesize toggledImage=_toggledImage;
-@property(copy, nonatomic) NSString *toggledTitle; // @synthesize toggledTitle=_toggledTitle;
-@property(retain, nonatomic) SFImage *untoggledImage; // @synthesize untoggledImage=_untoggledImage;
 @property(copy, nonatomic) NSString *untoggledTitle; // @synthesize untoggledTitle=_untoggledTitle;
 
 @end

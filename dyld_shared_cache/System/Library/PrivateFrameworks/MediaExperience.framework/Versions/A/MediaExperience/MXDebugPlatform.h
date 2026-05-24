@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface MXDebugPlatform
 {
     NSObject<OS_os_log> *_logger;
-    NSObject<OS_dispatch_queue> *_sysdiagnoseBlockQueue;
-    NSMutableDictionary *_sysdiagnoseBlockRegistry;
 }
 
 + (id);
@@ -21,14 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (id);
-- (id);
+- (id)remoteControlSessionAvailable;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sysdiagnoseBlockQueue; // @synthesize sysdiagnoseBlockQueue=_sysdiagnoseBlockQueue;
-@property(readonly, nonatomic) NSMutableDictionary *sysdiagnoseBlockRegistry; // @synthesize sysdiagnoseBlockRegistry=_sysdiagnoseBlockRegistry;
 
 @end
 

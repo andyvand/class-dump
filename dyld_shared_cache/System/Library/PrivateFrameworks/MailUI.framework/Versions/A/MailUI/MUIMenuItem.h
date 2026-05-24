@@ -14,7 +14,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)ategory;
+- (void)recentGenericCategory;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

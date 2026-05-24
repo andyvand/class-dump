@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSSet, NSString;
+@class NSMutableSet, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface WebsiteDataRecordGroup
@@ -18,23 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)el:(id)arg1;
+- (void)setCreditCardNameLabel:(id)arg1;
 - (id)Ç;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *dataTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *identitiesURLs;
-@property(readonly, copy, nonatomic) NSString *profileIdentifier;
 @property(readonly, copy, nonatomic) NSSet *records;
-@property(readonly) Class superclass;
 
 @end
 

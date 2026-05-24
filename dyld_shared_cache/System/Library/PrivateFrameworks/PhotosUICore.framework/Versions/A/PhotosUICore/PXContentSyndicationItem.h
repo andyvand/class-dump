@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXAssetCollectionActionManager;
 @protocol PXDisplayAssetCollection;
 
 @interface PXContentSyndicationItem
@@ -14,14 +13,13 @@
 
 - (id);
 - (id);
-- (id);
+- (id)_tapCount;
 - (_Bool);
-- (id)hTitle:(struct _NSZone *)arg1 trackingRadar: /* Error: Ran out of types for this method. */;
+- (id)initWithTitle:(struct _NSZone *)arg1 trackingRadar: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) PXAssetCollectionActionManager *assetCollectionActionManager;
 
 @end
 

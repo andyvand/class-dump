@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UICollectionView, UIContextMenuConfiguration, UITargetedPreview;
+
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)orona;
+- (void)setDeferredSearchableItems:(UICollectionView *)arg1;
+- (UITargetedPreview *)e;
+- (UIContextMenuConfiguration *)D;
+- (void)ASPasswordSavingManagerRequest;
+- (void)eived new connection from server.;
+- (struct CGPoint)@;
+- (_Bool)QuoteColorGreenCorona;
 @end
 

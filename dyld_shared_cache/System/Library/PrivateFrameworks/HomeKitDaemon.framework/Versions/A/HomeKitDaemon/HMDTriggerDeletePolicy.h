@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)l;
-- (void);
+- (void);
+- (id)eeker;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)!;
 - (void);
 
 @end

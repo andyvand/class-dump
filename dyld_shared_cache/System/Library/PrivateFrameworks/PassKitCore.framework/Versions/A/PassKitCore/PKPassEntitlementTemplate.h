@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface PKPassEntitlementTemplate
 {
     NSDictionary *_rawDictionary;
-    NSBundle *_bundle;
-    NSDictionary *_fieldInserts;
 }
 
 - (void);
@@ -18,20 +16,14 @@
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id)ʗ;
 - (id);
 - (id);
 - (unsigned long long)ass %@;
-- (void)T_BALANCE;
+- (void)IN_APP_PAYMENT_ERROR_INSUFFICIENT_BALANCE;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clearGroupWhenSelected;
-@property(readonly, nonatomic) unsigned long long displayStyle;
-@property(readonly, nonatomic) long long groupRenderingPriority;
-@property(readonly, nonatomic) NSString *icon;
-@property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSString *localizedGroup;
 @property(readonly, nonatomic) NSString *localizedTitle;
 
 @end

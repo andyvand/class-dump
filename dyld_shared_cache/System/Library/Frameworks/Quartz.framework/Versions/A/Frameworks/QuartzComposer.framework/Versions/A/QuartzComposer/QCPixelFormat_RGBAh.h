@@ -19,7 +19,7 @@
 - (unsigned long long);
 - (int);
 - (unsigned int);
-- (struct _cl_image_format);
+- (struct _cl_image_format)9h;
 - (int);
 - (unsigned long long);
 - (unsigned int);

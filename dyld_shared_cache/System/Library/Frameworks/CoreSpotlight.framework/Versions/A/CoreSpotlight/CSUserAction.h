@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSObject, NSSet, NSString, NSUUID;
+@class NSObject, NSString;
 @protocol OS_xpc_object;
 
 @interface CSUserAction
 {
     NSString *_itemIdentifier;
-    NSString *_contentAction;
-    NSDictionary *_userInfo;
-    NSSet *_keywords;
-    unsigned long long _eligibility;
-    NSUUID *_uaIdentifier;
-    NSArray *_madeInitiallyCurrentDates;
-    NSArray *_madeCurrentDates;
-    NSArray *_madeCurrentEndDates;
-    NSArray *_sentToIndexerDates;
-    double _madeCurrentInterval;
 }
 
 + (id);
@@ -27,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)R%;
 - (id);
 - (id);
 - (id);
@@ -39,18 +29,42 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)?;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void) ;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ighttransferpositiveproducedheritageshippingabsolutereceivedrelevantbutton" violenceanywherebenefitslaunchedrecentlyalliancefollowedmultiplebulletinincludedoccurredinternal$(this).republic><tr><tdcongressrecordedultimatesolution<ul id="discoverHome</a>websitesnetworksalthoughentirelymemorialmessagescontinueactive">somewhatvictoriaWestern  title="LocationcontractvisitorsDownloadwithout right">
+measureswidth = variableinvolvedvirginianormallyhappenedaccountsstandingnationalRegisterpreparedcontrolsaccuratebirthdaystrategyofficialgraphicscriminalpossiblyconsumerPersonalspeakingvalidateachieved.jpg" />machines</h2>
+  keywordsfriendlybrotherscombinedoriginalcomposedexpectedadequatepakistanfollow" valuable</label>relativebringingincreasegovernorplugins/List of Header">" name=" (&quot;graduate</head>
+commercemalaysiadirectormaintain;height:(struct _NSZone *)arg1 schedulechangingback to catholicpatternscolor:#greatestsuppliesreliable</ul>
+		<select citizensclothingwatching<li id="specificcarryingsentence<center>contrastthinkingcatch(e)southernMichael merchantcarouselpadding:interior.split("lizationOctober ){returnimproved--&gt;
+
+coveragechairman.png" />subjectsRichard whateverprobablyrecoverybaseballjudgmentconnect..css" /> websitereporteddefault"/></a>
+electricscotlandcreationquantity. ISBN 0did not instance-search-" lang="speakersComputercontainsarchivesministerreactiondiscountItalianocriteriastrongly:'http:'script'coveringofferingappearedBritish identifyFacebooknumerousvehiclesconcernsAmericanhandlingdiv id="William provider_contentaccuracysection andersonflexibleCategorylawrence<script>layout="approved maximumheader"></table>Serviceshamiltoncurrent canadianchannels/themes//articleoptionalportugalvalue=""intervalwirelessentitledagenciesSearch" measuredthousandspending&hellip;new Date" size="pageNamemiddle" " /></a>hidden">sequencepersonaloverflowopinionsillinoislinks">
+	<title>versionssaturdayterminalitempropengineersectionsdesignerproposal="false"Españolreleasessubmit" er&quot;additionsymptomsorientedresourceright"><pleasurestationshistory.leaving  border=contentscenter">.
+
+Some directedsuitablebulgaria.show();designedGeneral conceptsExampleswilliamsOriginal"><span>search">operatorrequestsa &quot;allowingDocumentrevision. 
+
+The yourselfContact michiganEnglish columbiapriorityprintingdrinkingfacilityreturnedContent officersRussian generate-8859-1"indicatefamiliar qualitymargin:0 contentviewportcontacts-title">portable.length eligibleinvolvesatlanticonload="default.suppliedpaymentsglossary
+
+After guidance</td><tdencodingmiddle">came to displaysscottishjonathanmajoritywidgets.clinicalthailandteachers<head>
+	affectedsupportspointer;toString</small>oklahomawill be investor0" alt="holidaysResourcelicensed (which . After considervisitingexplorerprimary search" android"quickly meetingsestimate;return ;color:# height=approval, &quot; checked.min.js"magnetic></a></hforecast. While thursdaydvertise&eacute;hasClassevaluateorderingexistingpatients Online coloradoOptions"campbell<!-- end</span><<br />
+_popups|sciences,&quot; quality Windows assignedheight:<b classle&quot; value=" Companyexamples<iframe believespresentsmarshallpart of properly).
+
+The taxonomymuch of </span>
+" data-srtuguêsscrollTo project<head>
+attorneyemphasissponsorsfancyboxworld's wildlifechecked=sessionsprogrammpx;font- Projectjournalsbelievedvacationthompsonlightingand the special border=0checking</tbody><button Completeclearfix
+<head>
+article <sectionfindingsrole in popular  Octoberwebsite exposureused to  changesoperatedclickingenteringcommandsinformed numbers  </div>creatingonSubmitmarylandcollegesanalyticlistingscontact.loggedInadvisorysiblingscontent"s&quot;)s. This packagescheckboxsuggestspregnanttomorrowspacing=icon.pngjapanesecodebasebutton">gamblingsuch as , while </span> missourisportingtop:1px .</span>tensionswidth="2lazyloadnovemberused in height="cript">
+&nbsp;</<tr><td height:2/productcountry include footer" &lt;!-- title"></jquery.</form>
+(简体)(繁體)hrvatskiitalianoromânătürkçeاردوtambiénnoticiasmensajespersonasderechosnacionalserviciocontactousuariosprogramagobiernoempresasanunciosvalenciacolombiadespuésdeportesproyectoproductopúbliconosotroshistoriapresentemillonesmediantepreguntaanteriorrecursosproblemasantiagonuestrosopiniónimprimirmientrasaméricavendedorsociedadrespectorealizarregistropalabrasinterésentoncesespecialmiembrosrealidadcórdobazaragozapáginassocialesbloqueargestiónalquilersistemascienciascompletoversióncompletaestudiospúblicaobjetivoalicantebuscadorcantidadentradasaccionesarchivossuperiormayoríaalemaniafunciónúltimoshaciendoaquellosediciónfernandoambientefacebooknuestrasclientesprocesosbastantepresentareportarcongresopublicarcomerciocontratojóvenesdistritotécnicaconjuntoenergíatrabajarasturiasrecienteutilizarboletínsalvadorcorrectatrabajosprimerosnegocioslibertaddetallespantallapróximoalmeríaanimalesquiénescorazónsecciónbuscandoopcionesexteriorconceptotodavíagaleríaescribirmedicinalicenciaconsultaaspectoscríticadólaresjusticiadeberánperíodonecesitamantenerpequeñorecibidatribunaltenerifecancióncanariasdescargadiversosmallorcarequieretécnicodeberíaviviendafinanzasadelantefuncionaconsejosdifícilciudadesantiguasavanzadatérminounidadessánchezcampañasoftonicrevistascontienesectoresmomentosfacultadcréditodiversassupuestofactoressegundospequeñaгодаеслиестьбылобытьэтомЕслитогоменявсехэтойдажебылигодуденьэтотбыласебяодинсебенадосайтфотонегосвоисвойигрытожевсемсвоюлишьэтихпокаднейдомамиралиботемухотядвухсетилюдиделомиретебясвоевидечегоэтимсчеттемыценысталведьтемеводытебевышенамитипатомуправлицаоднагодызнаюмогудругвсейидеткиноодноделаделесрокиюнявесьЕстьразанашиاللهالتيجميعخاصةالذيعليهجديدالآنالردتحكمصفحةكانتاللييكونشبكةفيهابناتحواءأكثرخلالالحبدليلدروساضغطتكونهناكساحةناديالطبعليكشكرايمكنمنهاشركةرئيسنشيطماذاالفنشبابتعبررحمةكافةيقولمركزكلمةأحمدقلبييعنيصورةطريقشاركجوالأخرىمعناابحثعروضبشكلمسجلبنانخالدكتابكليةبدونأيضايوجدفريقكتبتأفضلمطبخاكثرباركافضلاحلىنفسهأيامردودأنهاديناالانمعرضتعلمداخلممكن /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -58,21 +72,10 @@
 - (void);
 - (void)è;
 - (id)fiers number:%lu /* Error: Ran out of types for this method. */;
-- (id)kMDItemRecentSpotlightEngagementQueries;
+- (id)_kMDItemRecentSpotlightEngagementQueries;
 - (unsigned long long);
 
 // Remaining properties
-@property(copy) NSString *contentAction; // @synthesize contentAction=_contentAction;
-@property unsigned long long eligibility; // @synthesize eligibility=_eligibility;
-@property(copy) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(retain) NSSet *keywords; // @synthesize keywords=_keywords;
-@property(copy, nonatomic) NSArray *madeCurrentDates; // @synthesize madeCurrentDates=_madeCurrentDates;
-@property(copy, nonatomic) NSArray *madeCurrentEndDates; // @synthesize madeCurrentEndDates=_madeCurrentEndDates;
-@property(nonatomic) double madeCurrentInterval; // @synthesize madeCurrentInterval=_madeCurrentInterval;
-@property(copy, nonatomic) NSArray *madeInitiallyCurrentDates; // @synthesize madeInitiallyCurrentDates=_madeInitiallyCurrentDates;
-@property(copy, nonatomic) NSArray *sentToIndexerDates; // @synthesize sentToIndexerDates=_sentToIndexerDates;
-@property(retain, nonatomic) NSUUID *uaIdentifier; // @synthesize uaIdentifier=_uaIdentifier;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *xpc_dictionary;
 
 @end

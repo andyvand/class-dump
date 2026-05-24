@@ -14,8 +14,8 @@
 + (id);
 + (id);
 + (double);
-+ (struct _NSRange);
-+ (struct _NSRange);
++ (struct _NSRange)A;
++ (struct _NSRange);
 + (struct _NSRange);
 + (_Bool);
 + (_Bool);
@@ -29,7 +29,7 @@
 - (double);
 - (void);
 - (id);
-- (id);
+- (id)<S=;
 
 // Remaining properties
 @property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;

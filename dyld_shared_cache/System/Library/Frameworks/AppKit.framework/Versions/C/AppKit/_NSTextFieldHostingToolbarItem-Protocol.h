@@ -5,5 +5,8 @@
 //
 
 @protocol _NSTextFieldHostingToolbarItem
+
+@optional
+- (void);
 @end
 

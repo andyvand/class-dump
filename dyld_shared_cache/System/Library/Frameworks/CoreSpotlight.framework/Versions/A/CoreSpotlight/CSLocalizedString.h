@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CSLocalizedString
 {
     _Bool _didTrySettingDefaultString;
-    NSString *_defaultString;
-    NSDictionary *_localizedStrings;
 }
 
 + (_Bool);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *defaultString; // @synthesize defaultString=_defaultString;
-@property(nonatomic) _Bool didTrySettingDefaultString; // @synthesize didTrySettingDefaultString=_didTrySettingDefaultString;
-@property(readonly, nonatomic) NSDictionary *localizedStrings; // @synthesize localizedStrings=_localizedStrings;
 
 @end
 

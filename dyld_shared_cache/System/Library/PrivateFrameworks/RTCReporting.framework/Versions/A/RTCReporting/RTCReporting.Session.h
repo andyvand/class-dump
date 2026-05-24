@@ -7,21 +7,6 @@
 @interface RTCReporting.Session
 {
     id $defaultActor;
-    id clientName;
-    id serviceName;
-    id clientType;
-    id allowedCategories;
-    id deniedCategories;
-    id generatedSessionID;
-    id connection;
-    id addingExtraFields;
-    id legacyConfig;
-    id queue;
-    id state;
-    id quiesceHandler;
-    id activeSends;
-    id baseTime;
-    id obfuscatedBaseTime;
 }
 
 @end

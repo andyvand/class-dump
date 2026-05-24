@@ -6,33 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, PEGASUSSchemaPEGASUSWebAnswerThumbnailTier1;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSWebAnswerCitationTier1 : SISchemaInstrumentationMessage
 {
     NSString *_url;
-    NSString *_sourceDomain;
-    NSString *_readableAttribution;
-    NSString *_citedText;
-    NSString *_enrichedUrl;
-    PEGASUSSchemaPEGASUSWebAnswerThumbnailTier1 *_thumbnail;
-    _Bool _hasUrl;
-    _Bool _hasSourceDomain;
-    _Bool _hasReadableAttribution;
-    _Bool _hasCitedText;
-    _Bool _hasEnrichedUrl;
-    _Bool _hasThumbnail;
 }
 
 - (id);
+- (void)B;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -47,38 +36,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)locatedRecoveryOSReleaseType;
 - (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_shouldLoadDonationProgress;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)eceived;
+- (id)_hasFirstIdentityReceived;
 - (_Bool)erFeedbackContentSource;
 - (id),V_audioInterface;
 - (id)BClientEvent.ABExperimentAllocationChanged;
-- (void)TOOTH_DEVICE_TYPE;
+- (void)QDENTITYCONTEXTTYPE_BLUETOOTH_DEVICE_TYPE;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *citedText; // @synthesize citedText=_citedText;
-@property(copy, nonatomic) NSString *enrichedUrl; // @synthesize enrichedUrl=_enrichedUrl;
-@property(nonatomic) _Bool hasCitedText; // @synthesize hasCitedText=_hasCitedText;
-@property(nonatomic) _Bool hasEnrichedUrl; // @synthesize hasEnrichedUrl=_hasEnrichedUrl;
-@property(nonatomic) _Bool hasReadableAttribution; // @synthesize hasReadableAttribution=_hasReadableAttribution;
-@property(nonatomic) _Bool hasSourceDomain; // @synthesize hasSourceDomain=_hasSourceDomain;
-@property(nonatomic) _Bool hasThumbnail; // @synthesize hasThumbnail=_hasThumbnail;
-@property(nonatomic) _Bool hasUrl; // @synthesize hasUrl=_hasUrl;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *readableAttribution; // @synthesize readableAttribution=_readableAttribution;
-@property(copy, nonatomic) NSString *sourceDomain; // @synthesize sourceDomain=_sourceDomain;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSWebAnswerThumbnailTier1 *thumbnail; // @synthesize thumbnail=_thumbnail;
 @property(copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end

@@ -4,31 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface AMPLanguageAwareString
 {
     id baseAttributedString;
-    id $__lazy_storage_$_attributedString;
-    id cachedTextStorage;
-    id knownBaseWritingDirections;
-    void string;
-    id $__lazy_storage_$_localizedLowercase;
-    id $__lazy_storage_$_localizedUppercase;
-    id $__lazy_storage_$_newlinesCollapsedToSpace;
-    id $__lazy_storage_$_trimmed;
-    void numbers;
-    void paragraphs;
-    void words;
-    id $__lazy_storage_$_fullRange;
-    id $__lazy_storage_$_isEmpty;
-    id $__lazy_storage_$_utf16Count;
-    id $__lazy_storage_$_utf32Count;
-    id $__lazy_storage_$_characterCount;
-    id $__lazy_storage_$_thresholdBaseWritingDirection;
 }
 
-+ (void);
++ (void);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -37,28 +20,28 @@
 + (void);
 - (id);
 - (long long);
-- (long long);
-- (long long);
+- (long long);
+- (long long)o;
 - (void);
 - (void);
+- (void)o;
 - (void);
 - (void);
-- (void);
 - (id);
+- (id)o;
+- (id);
+- (id)`wo;
+- (id)o;
 - (id);
+- (id)o;
+- (long long)o;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
+- (void)o;
 - (void);
 - (struct _NSRange);
 - (void);
 - (long long);
-- (id);
+- (id)g;
 - (id);
 - (id);
 - (long long);
@@ -73,20 +56,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) NSAttributedString *attributedString;
-@property(nonatomic) struct _NSRange fullRange;
-@property(nonatomic) _Bool isEmpty;
-@property(nonatomic) long long length;
-@property(nonatomic, retain) AMPLanguageAwareString *localizedLowercase;
-@property(nonatomic, retain) AMPLanguageAwareString *localizedUppercase;
-@property(nonatomic, retain) AMPLanguageAwareString *newlinesCollapsedToSpace;
-@property(nonatomic) long long numberOfCharacters;
-@property(nonatomic, readonly) NSArray *numbers;
-@property(nonatomic, readonly) NSArray *paragraphs;
-@property(nonatomic, readonly) NSString *string;
-@property(nonatomic) long long thresholdBaseWritingDirection;
-@property(nonatomic, retain) AMPLanguageAwareString *trimmed;
-@property(nonatomic) long long utf32Length;
-@property(nonatomic, readonly) NSArray *words;
 
 @end
 

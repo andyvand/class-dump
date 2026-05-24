@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionEdgeSpacingSolution
 {
     _Bool _isFlexible;
-    double _spacing;
 }
 
 - (_Bool);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFlexible;
 @property(nonatomic) double spacing; // @synthesize spacing=_spacing;
 
 @end

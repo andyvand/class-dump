@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FBSComponentScene
 {
     id _scene;
-    Class _extension;
 }
 
 - (id);
@@ -17,7 +14,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (Class);
+- (Class);
 - (Class);
 - (void);
 - (id);
@@ -29,22 +26,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)checkResourceIsReachableAndReturnError:(Class)arg1;
 - (id);
+- (id)TOAL;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)AIM-ID;
 - (Class);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

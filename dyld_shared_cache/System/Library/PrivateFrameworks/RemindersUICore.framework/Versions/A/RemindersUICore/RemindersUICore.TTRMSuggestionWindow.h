@@ -9,11 +9,10 @@
 }
 
 - (unsigned long long);
-- (id);
+- (id)tOSLog.dylib;
 - (_Bool)/ZÿP/Zÿ%;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeKeyWindow;
 @property(nonatomic, readonly) unsigned long long shadowOptions;
 
 @end

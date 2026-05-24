@@ -14,9 +14,9 @@
 }
 
 + (_Bool);
-+ (void)ntTraits:range: /* Error: Ran out of types for this method. */;
++ (void)applyFontTraits:range: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)hB;
 - (id);
 - (id);
 - (void);

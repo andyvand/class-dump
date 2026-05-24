@@ -7,9 +7,6 @@
 @interface NewsArticles.ReportConcernCommandHandler
 {
     id reportConcernModule;
-    id sceneProvider;
-    id historyService;
-    id paidAccessChecker;
 }
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEODataRequestThrottlerToken
 {
     double _createdAt;
-    CDStruct_d1a7ebee _kind;
-    NSString *_bundleId;
 }
 
 + (_Bool)pdate assertion is expired due to timeout:%{public}@ /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (id);
+- (id)bestPhraseId;
 - (void);
 - (_Bool);
 - (void);

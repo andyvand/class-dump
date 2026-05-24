@@ -11,19 +11,6 @@
 @interface QCAppleRemote : QCRunLoopPatch
 {
     QCBooleanPort *outputAvailable;
-    QCBooleanPort *outputUpSignal;
-    QCBooleanPort *outputDownSignal;
-    QCBooleanPort *outputPreviousSignal;
-    QCBooleanPort *outputNextSignal;
-    QCBooleanPort *outputPlaySignal;
-    QCBooleanPort *outputMenuSignal;
-    QCBooleanPort *outputSelectSignal;
-    _Bool _exclusive;
-    void *_hidDeviceInterface;
-    void *_queueInterface;
-    struct __CFRunLoopSource *_hidEventSource;
-    struct __CFDictionary *_cookies;
-    unsigned char _buttonsState;
 }
 
 + (id);
@@ -36,7 +23,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)w (album_artist_pid, album_artist, sort_album_artist, grouping_key, cloud_status, artist_artwork_token,representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status) SELECT album_artist_pid, album_artist, sort_album_artist, grouping_key, cloud_status, artist_artwork_token,representative_item_pid, representative_item_artwork_token, keep_local, keep_local_status FROM album_artist;
 - (void);
 - (void)bí;
 

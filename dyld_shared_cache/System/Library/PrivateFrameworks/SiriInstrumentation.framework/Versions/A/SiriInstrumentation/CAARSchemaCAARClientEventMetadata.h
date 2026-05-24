@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CAARSchemaCAARClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_caarId;
-    NSString *_resultCandidateId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasCaarId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasRequestId;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -43,14 +34,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)i(;
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)t;
 - (_Bool);
 - (id);
 - (id)tioInDecibels"b1"recognitionDurationInNs"b1"audioDurationInNs"b1"eagerEnabled"b1"utteranceDetectionEnabled"b1"utteranceConcatenationEnabled"b1"continuousListeningEnabled"b1"eagerCustomerPerceivedLatencyInNs"b1"cpuRealTimeFactor"b1"numLanguageModelEnrollmentDataStreams"b1"inverseTextNormalizationDurationInNs"b1"inverseTextNormalizationDurationForFinalResultInNs"b1"numberOfInverseTextNormalizationRuns"b1"secondaryPassDurationInNs"b1"numberOfSecondaryPassRuns"b1"cpuInstructionsInMillionsPerSecond"b1"appleNeuralEngineCpuTimeInNs"b1"pageInsWaitTimeInNs"b1"recognitionHardware"b1"numIngestedNeuralContextualBiasingEmbeddings"b1};
@@ -61,16 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *caarId; // @synthesize caarId=_caarId;
-@property(nonatomic) _Bool hasCaarId; // @synthesize hasCaarId=_hasCaarId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

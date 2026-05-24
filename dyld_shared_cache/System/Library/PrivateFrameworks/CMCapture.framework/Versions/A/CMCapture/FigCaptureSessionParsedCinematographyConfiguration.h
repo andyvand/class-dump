@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSessionParsedCameraSourceConfiguration, FigVideoCaptureConnectionConfiguration, NSArray;
+@class FigVideoCaptureConnectionConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureSessionParsedCinematographyConfiguration
 {
     FigVideoCaptureConnectionConfiguration *_videoPreviewSinkConnectionConfiguration;
-    NSArray *_videoCaptureConnectionConfigurations;
-    NSArray *_previewConnectionConfigurations;
-    FigCaptureSessionParsedCameraSourceConfiguration *_sourceConfiguration;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)playSetArcDirection:in_pRecord: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *previewConnectionConfigurations; // @synthesize previewConnectionConfigurations=_previewConnectionConfigurations;
-@property(readonly, nonatomic) FigCaptureSessionParsedCameraSourceConfiguration *sourceConfiguration; // @synthesize sourceConfiguration=_sourceConfiguration;
-@property(readonly, nonatomic) NSArray *videoCaptureConnectionConfigurations; // @synthesize videoCaptureConnectionConfigurations=_videoCaptureConnectionConfigurations;
 @property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoPreviewSinkConnectionConfiguration; // @synthesize videoPreviewSinkConnectionConfiguration=_videoPreviewSinkConnectionConfiguration;
 
 @end

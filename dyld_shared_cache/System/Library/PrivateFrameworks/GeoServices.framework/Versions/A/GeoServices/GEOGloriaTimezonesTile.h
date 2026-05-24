@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)y"24;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)etIncludeUnmatchedStrings:(struct _NSZone *)arg1;
-- (id)eRequest;
+- (id)setIncludeUnmatchedStrings:(struct _NSZone *)arg1;
+- (id)GEOLocationShiftingListCacheRequest;
 - (id)ead next refresh timestamp:%f /* Error: Ran out of types for this method. */;
 - (void)Ø«ÿ;
 

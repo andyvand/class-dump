@@ -7,12 +7,6 @@
 @interface NewsUI2.CuratedTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id todayFeedEngagementEventHandler;
-    id featureAvailability;
-    id puzzleHistoryService;
-    id cloudContext;
 }
 
 @end

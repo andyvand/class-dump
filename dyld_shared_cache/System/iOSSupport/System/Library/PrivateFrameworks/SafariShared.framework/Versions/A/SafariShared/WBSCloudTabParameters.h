@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NSUUID;
-
 @interface WBSCloudTabParameters
 {
     _Bool _pinned;
-    _Bool _showingReader;
-    double _lastViewedTime;
-    NSDictionary *_readerScrollPosition;
-    NSString *_sceneID;
-    NSString *_title;
-    NSURL *_url;
-    NSUUID *_uuid;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -29,23 +20,16 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)s;
+- (void)_allowedDomains;
 - (id)÷S;
 - (void);
 
 // Remaining properties
 @property(nonatomic) double lastViewedTime; // @synthesize lastViewedTime=_lastViewedTime;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(copy, nonatomic) NSDictionary *readerScrollPosition; // @synthesize readerScrollPosition=_readerScrollPosition;
-@property(copy, nonatomic) NSString *sceneID; // @synthesize sceneID=_sceneID;
-@property(nonatomic, getter=isShowingReader) _Bool showingReader; // @synthesize showingReader=_showingReader;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

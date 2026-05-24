@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue, SMMessagingServiceMessengerDelegate;
 
 @interface SMIDSMessenger
 {
     id <SMMessagingServiceMessengerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    IDSService *_idsService;
-    IDSService *_ownAccountIDSService;
-    NSMutableArray *_idsMessagesWaitingForAck;
 }
 
-+ (long long);
++ (long long)ExtractFDE;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,10 +32,10 @@
 - (void);
 - (void);
 - (void);
+- (id)U;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -48,18 +44,7 @@
 - (void)managedObject isKindOfClass:[RTLearnedVisitMO class]] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SMMessagingServiceMessengerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *idsMessagesWaitingForAck; // @synthesize idsMessagesWaitingForAck=_idsMessagesWaitingForAck;
-@property(retain, nonatomic) IDSService *idsService; // @synthesize idsService=_idsService;
-@property(retain, nonatomic) IDSService *ownAccountIDSService; // @synthesize ownAccountIDSService=_ownAccountIDSService;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

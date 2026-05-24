@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRVehicle, NSArray, NSDate, NSDictionary, NSMutableDictionary, NSTimeZone, _MNLPRPlate;
+@class GEOLPRVehicle;
 
 @interface MNLPRRuleMatcher
 {
     GEOLPRVehicle *_vehicle;
-    NSArray *_ruleSets;
-    unsigned long long _signpost;
-    _MNLPRPlate *_lastPlate;
-    NSDate *_lastDate;
-    NSTimeZone *_lastTimeZone;
-    NSDictionary *_usedRegions;
-    NSMutableDictionary *_usedRegionETAs;
 }
 
 - (id);

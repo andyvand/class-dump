@@ -7,9 +7,6 @@
 @interface (extension in AVFoundation):__C.AVAssetWriterInput.TaggedPixelBufferGroupReceiver
 {
     id writer;
-    id input;
-    id taggedPixelBufferGroupAdaptor;
-    id $__lazy_storage_$_mutablePixelBufferPool;
 }
 
 @end

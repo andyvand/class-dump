@@ -6,40 +6,10 @@
 
 #import <AVConference/VCMediaStreamSendGroup.h>
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, VCSessionUplinkVideoStreamController, VCVideoRule;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamSendGroup : VCMediaStreamSendGroup
 {
     int _captureSource;
-    _Atomic unsigned char _videoPriority;
-    unsigned char _lastVideoPriority;
-    _Bool _videoPriorityEnabled;
-    long long _maxSupportedMultiwayVideoResolution;
-    struct CGSize _maxScreenCaptureSize;
-    int _captureFrameRate;
-    int _maxSupportedCaptureFrameRate;
-    NSMutableSet *_videoPayloadTypes;
-    VCSessionUplinkVideoStreamController *_uplinkVideoStreamController;
-    struct tagVCMemoryPool *_videoRedundancyPool;
-    struct opaqueCMSimpleQueue *_videoRedundancyChangeEventQueue;
-    double _fecRatio;
-    VCVideoRule *_captureVideoRule;
-    NSMutableDictionary *_pendingActiveUplinkStreams;
-    NSMutableArray *_temporalStreamsIDs;
-    id _clientCaptureController;
-    unsigned int _activeTemporalTierBitmap;
-    id _videoSinkDelegate;
-    _Bool _isStreamInputCaptureSource;
-    _Bool _hasPeerSubscribedStreams;
-    _Bool _allowSuspendProvisionedStreams;
-    unsigned int _totalNumFramesReceived;
-    unsigned int _totalNumFramesProcessed;
-    unsigned int _mediaQueueSize;
-    _Bool _initTime;
-    _Bool _alwaysHDCaptureScreenEnabled;
-    _Bool _lowPowerModeEnabled;
-    _Bool _shouldSynchronizeSystemAudioStartWithAVCScreenCapture;
 }
 
 - (id);
@@ -48,31 +18,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)hQ5;
+- (id)&);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -90,14 +60,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -106,30 +76,19 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void)egotiatorSettings;
+- (id)setLaunchPath: /* Error: Ran out of types for this method. */;
+- (void)_negotiatorSettings;
 - (id)talled:(id)arg1 duration:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysHDCaptureScreenEnabled; // @synthesize alwaysHDCaptureScreenEnabled=_alwaysHDCaptureScreenEnabled;
 @property(nonatomic) int captureFrameRate; // @synthesize captureFrameRate=_captureFrameRate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool lowPowerModeEnabled; // @synthesize lowPowerModeEnabled=_lowPowerModeEnabled;
-@property(nonatomic) unsigned int mediaQueueSize; // @synthesize mediaQueueSize=_mediaQueueSize;
-@property(nonatomic) _Bool shouldSynchronizeSystemAudioStartWithAVCScreenCapture; // @synthesize shouldSynchronizeSystemAudioStartWithAVCScreenCapture=_shouldSynchronizeSystemAudioStartWithAVCScreenCapture;
-@property(readonly) Class superclass;
 
 @end
 

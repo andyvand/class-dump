@@ -6,12 +6,9 @@
 
 #import <HomeKit/HMCameraSignificantEvent.h>
 
-@class NSUUID;
-
 @interface HMCameraClipSignificantEvent : HMCameraSignificantEvent
 {
     double _timeOffsetWithinClip;
-    NSUUID *_clipUUID;
 }
 
 + (_Bool);
@@ -20,13 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)loadability;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSUUID *clipUUID; // @synthesize clipUUID=_clipUUID;
 @property(readonly) double timeOffsetWithinClip; // @synthesize timeOffsetWithinClip=_timeOffsetWithinClip;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
-@protocol TBTile;
+@class NSArray;
 
 @protocol TBFetchResponseTileItem
 - (NSArray *)tion:withChannelList:forInterface:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSArray *networks;
 @property(readonly, nonatomic) unsigned long long status;
-@property(readonly, nonatomic) id <TBTile> tile;
 @end
 

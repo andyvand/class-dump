@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PXVKImageAnalysis
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasDataDetectors;
 @property(readonly, nonatomic) _Bool hasTexts;
-@property(readonly, nonatomic) _Bool hasVisualSearchResults;
-@property(readonly, nonatomic) NSArray *resultItems;
 @end
 

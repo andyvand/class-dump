@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChat, NSObject;
-@protocol OS_dispatch_group;
+@class IMDChat;
 
 @interface IMDIncomingMessageTranslator
 {
     _Bool _translating;
-    IMDChat *_chat;
-    NSObject<OS_dispatch_group> *_group;
 }
 
 - (void);
@@ -19,15 +16,13 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)datagramChannelOptions;
 - (id);
 - (id);
 - (void)Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool translating; // @synthesize translating=_translating;
 
 @end
 

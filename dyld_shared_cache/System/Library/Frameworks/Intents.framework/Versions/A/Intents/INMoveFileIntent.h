@@ -6,14 +6,14 @@
 
 #import <Intents/INIntent.h>
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface INMoveFileIntent : INIntent
 {
 }
 
 + (_Bool);
-- (void);
+- (void)m;
 - (void);
 - (id);
 - (id);
@@ -23,12 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)T!m;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)24@0:8@"WebView"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -37,28 +37,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (id);
 - (void)¬óÿ;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *destinationName;
-@property(readonly, copy) NSString *destinationType;
-@property(readonly, copy) NSArray *entityNames;
 @property(copy) NSSet *entityTypeSet;
-@property(readonly) unsigned long long entityTypes;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *properties;
-@property(readonly, copy) NSString *sourceName;
-@property(readonly, copy) NSString *sourceType;
-@property(readonly) Class superclass;
 
 @end
 

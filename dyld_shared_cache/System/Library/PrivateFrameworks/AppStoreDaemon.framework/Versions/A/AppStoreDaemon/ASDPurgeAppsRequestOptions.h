@@ -6,17 +6,11 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface ASDPurgeAppsRequestOptions : ASDRequestOptions
 {
     _Bool _offloadOnly;
-    _Bool _performAvailablityCheck;
-    _Bool _skipLaunchCheck;
-    NSArray *_apps;
-    NSNumber *_desiredPurgeAmount;
-    long long _urgency;
-    NSString *_volume;
 }
 
 - (void);
@@ -30,21 +24,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)a;
+- (void)ENGINE_SET_DEFAULT_TYPE;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *apps; // @synthesize apps=_apps;
-@property(copy, nonatomic) NSNumber *desiredPurgeAmount; // @synthesize desiredPurgeAmount=_desiredPurgeAmount;
-@property(nonatomic) _Bool offloadOnly; // @synthesize offloadOnly=_offloadOnly;
-@property(nonatomic) _Bool performAvailablityCheck; // @synthesize performAvailablityCheck=_performAvailablityCheck;
-@property(nonatomic) _Bool skipLaunchCheck; // @synthesize skipLaunchCheck=_skipLaunchCheck;
-@property(nonatomic) long long urgency; // @synthesize urgency=_urgency;
-@property(copy, nonatomic) NSString *volume; // @synthesize volume=_volume;
 
 @end
 

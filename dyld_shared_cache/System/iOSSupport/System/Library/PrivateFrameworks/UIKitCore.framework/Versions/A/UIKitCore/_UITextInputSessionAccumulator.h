@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _UITextInputSessionAccumulator
 {
     unsigned long long _values[9];
-    NSString *_name;
-    long long _type;
-    CDUnknownBlockType _block;
-    struct _NSRange _depthRange;
 }
 
 + (id);
-+ (id)enItemProviders;
++ (id)_delegateSupportsOpenItemProviders;
 - (void);
 - (void);
-- (struct _NSRange);
+- (struct _NSRange)buildWithOrganizationName:withOrganizationAddress:withOrganizationPhone:withOrganizationEmail:withOrganizationMagic: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -29,18 +25,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Â0@ù
 × ;
-- (id)nt:(struct _NSZone *)arg1 forFirstItem:withOffset: /* Error: Ran out of types for this method. */;
+- (id)_baselineViewForConstraint:(struct _NSZone *)arg1 forFirstItem:withOffset: /* Error: Ran out of types for this method. */;
 - (void)lidatable>",&,N,V_stateCaptureToken;
 - (void)e at least 0.0, or UITableViewAutomaticDimension.;
 - (CDUnknownBlockType)¼2;
-- (void)tIndex;
-- (void)ualProviderC;
+- (void)UIPreviewDataAttachmentIndex;
+- (void)So23_UITabBarVisualProviderC;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) struct _NSRange depthRange; // @synthesize depthRange=_depthRange;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

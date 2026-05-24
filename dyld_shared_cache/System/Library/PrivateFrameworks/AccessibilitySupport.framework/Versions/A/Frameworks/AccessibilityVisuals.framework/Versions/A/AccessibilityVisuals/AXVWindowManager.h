@@ -7,19 +7,17 @@
 @interface AXVWindowManager
 {
     long long __lowestLevelWindowID;
-    long long __lowestWindowLevel;
 }
 
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, setter=_setLowestLevelWindowID:) long long _lowestLevelWindowID; // @synthesize _lowestLevelWindowID=__lowestLevelWindowID;
-@property(nonatomic, setter=_setLowestWindowLevel:) long long _lowestWindowLevel; // @synthesize _lowestWindowLevel=__lowestWindowLevel;
 
 @end
 

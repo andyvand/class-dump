@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface FCShortcut
 {
     _Bool _deprecated;
-    NSString *_identifier;
-    NSDate *_dateAdded;
-    NSNumber *_order;
-    unsigned long long _shortcutType;
 }
 
 - (unsigned long long);
@@ -20,18 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`B;
 - (id)"16@"NSString"24B32;
 - (void)/AppleInternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCMultiSourceHeadlinesOperation.m;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CKRecord *asCKRecord;
-@property(readonly, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(readonly, nonatomic, getter=isDeprecated) _Bool deprecated; // @synthesize deprecated=_deprecated;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSNumber *order; // @synthesize order=_order;
-@property(readonly, nonatomic) unsigned long long shortcutType; // @synthesize shortcutType=_shortcutType;
 
 @end
 

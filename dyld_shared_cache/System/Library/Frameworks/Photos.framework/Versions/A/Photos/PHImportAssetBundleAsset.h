@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)NSString",R,C,N,V_uniformTypeIdentifier;
 - (id)ïëÿ6V@ì;

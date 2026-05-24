@@ -6,60 +6,60 @@
 
 #import <CoreCDPInternal/CDPDRecoveryFlowController.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CDPDRecoveryValidatedJoinFlowController : CDPDRecoveryFlowController
 {
     NSArray *_cdpDevices;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)URLCompletionMatchBookmarkData;
+- (void)FrequentlyVisitedSite;
+- (_Bool)ToolbarGroupSubitemSegmentedControl;
+- (void)BrowserToolbarDelegate;
+- (void)TipKitSignaler;
+- (void)TabDialogContentOverlayView;
+- (void)TabContentViewDelegate;
+- (void)NSAccessibilityButton;
+- (void)TabButtonDelegate;
+- (void)SandboxFileExtensionController;
+- (void)SafeAutoFillChoicesPopUpButtonViewControllerDelegate;
+- (id)SafariWBSFaviconRequestsControllerExtras;
+- (id)SafariNSTextViewExtras;
+- (id)NSPasteboardTypeOwner;
+- (id)LinkMetadataPasteboardTypeOwner;
+- (void)BrowserExtras;
+- (void)SafariNSLayoutConstraintExtras;
+- (void)WebAppIconRecipe;
+- (id)WBSCloudExtensionStateProvider;
+- (id)SafariContentBlockerAppExtensionsController;
+- (id)RestrictedSandboxBroker;
+- (id)ResponsiveDesignContainerViewDelegate;
+- (void)SSReadingListCoordinating;
+- (id)ReadingListTableCellViewDelegate;
+- (id)ReaderContainerViewController;
+- (void)ProfileIconPickerViewController;
+- (id)PrivacyReportStartPageViewItem;
+- (void)PrivacyReportPopoverOutlineTopLevelRowView;
+- (void)PrivacyReportTileView;
+- (void)NSPrintPanelAccessorizing;
+- (void)PopupWindowUnifiedFieldViewController;
+- (void)PopoverTouchBarItemPlus;
+- (id)PasswordsPreferences;
+- (void);
+- (id)PagePreviewContainerView;
+- (id)NSImmediateActionAnimationController;
+- (id)PageCollectionController;
+- (id)OverlayStatusWindowController;
+- (id)OutlineViewPlus;
+- (id)OpenPageWithSimulatorMenuControllerExtras;
+- (id)OpaqueTabDialogDimmingView;
+- (id)MutableDraggingInfo;
+- (id)MenuTableRowView;
+- (id)PasswordsAuthorization;
+- (id)HomepageHostViewControllerDelegate;
+- (id)ForYouRecommendationMediator;
+- (void)FormCompletionPresentationContext;
 - (void);
 - (id);
 - (_Bool);
@@ -67,13 +67,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cdpDevices; // @synthesize cdpDevices=_cdpDevices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,35 +6,15 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class CHDAxis, CHDChart, CHDChartType, CHDSeries, CMDrawableMapper, CMState, EDResources;
+@class CHDChart, CMDrawableMapper;
 
 __attribute__((visibility("hidden")))
 @interface EMChartMapper : CMMapper
 {
     CHDChart *mChart;
-    CMState *mState;
-    EDResources *mResources;
-    CHDChartType *mMainType;
-    CHDSeries *mMainSeries;
-    CHDAxis *mBaseAxis;
-    CHDAxis *mPrimaryAxis;
-    CHDAxis *mSecondaryAxis;
-    _Bool mIsHorizontal;
-    _Bool mIsStacked;
-    _Bool mIsPercentStacked;
-    unsigned long long mPieIndex;
-    struct {
-        _Bool primaryCategoryHasDates;
-        _Bool secondaryCategoryHasDates;
-        _Bool primaryAxisHasDates;
-        _Bool secondaryAxisHasDates;
-    } mPlotInfos;
-    _Bool mHasDateCategory;
-    _Bool mHasPrimaryDateAxis;
-    _Bool mHasSecondaryDateAxis;
 }
 
-+ (struct CGColor *);
++ (struct CGColor *)/;
 - (id);
 - (id);
 - (id);
@@ -42,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)I;
+- (void);
+- (void)O;
 - (void);
 - (void)<;
 

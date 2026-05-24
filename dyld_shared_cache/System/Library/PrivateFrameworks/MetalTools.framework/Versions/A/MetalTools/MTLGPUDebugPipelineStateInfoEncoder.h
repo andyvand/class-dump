@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)a;
 - (id)(%u) must be < sample buffer sample count (%u) or MTLCounterDontSample;
 
 // Remaining properties

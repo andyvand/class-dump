@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SKHelperClient;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface SKSyncXPCCaller
 {
     NSObject<OS_dispatch_group> *_group;
-    SKHelperClient *_helperClient;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
 - (void);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(retain, nonatomic) SKHelperClient *helperClient; // @synthesize helperClient=_helperClient;
 
 @end
 

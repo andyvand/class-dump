@@ -6,54 +6,12 @@
 
 #import <ExchangeWebServices/EWSMeetingMessageType.h>
 
-@class EWSOccurrenceInfoType, EWSRecurrenceType, EWSSingleRecipientType, EWSTimeZoneDefinitionType, EWSTimeZoneType, NSArray, NSDateComponents, NSString;
-
 @interface EWSMeetingRequestMessageType : EWSMeetingMessageType
 {
     _Bool _IsAllDayEvent;
-    _Bool _IsMeeting;
-    _Bool _IsCancelled;
-    _Bool _IsRecurring;
-    _Bool _MeetingRequestWasSent;
-    _Bool _AllowNewTimeProposal;
-    _Bool _IsOnlineMeeting;
-    long long _MeetingRequestType;
-    long long _IntendedFreeBusyStatus;
-    NSDateComponents *_Start;
-    NSDateComponents *_End;
-    NSDateComponents *_OriginalStart;
-    long long _LegacyFreeBusyStatus;
-    NSString *_Location;
-    NSString *_When;
-    long long _CalendarItemType;
-    long long _MyResponseType;
-    EWSSingleRecipientType *_Organizer;
-    NSArray *_RequiredAttendees;
-    NSArray *_OptionalAttendees;
-    NSArray *_Resources;
-    long long _ConflictingMeetingCount;
-    long long _AdjacentMeetingCount;
-    NSArray *_ConflictingMeetings;
-    NSArray *_AdjacentMeetings;
-    NSString *_Duration;
-    NSString *_TimeZone;
-    NSDateComponents *_AppointmentReplyTime;
-    long long _AppointmentSequenceNumber;
-    long long _AppointmentState;
-    EWSRecurrenceType *_Recurrence;
-    EWSOccurrenceInfoType *_FirstOccurrence;
-    EWSOccurrenceInfoType *_LastOccurrence;
-    NSArray *_ModifiedOccurrences;
-    NSArray *_DeletedOccurrences;
-    EWSTimeZoneType *_MeetingTimeZone;
-    long long _ConferenceType;
-    NSString *_MeetingWorkspaceUrl;
-    NSString *_NetShowUrl;
-    EWSTimeZoneDefinitionType *_StartTimeZone;
-    EWSTimeZoneDefinitionType *_EndTimeZone;
 }
 
-+ (id);
++ (id)tGG_AIQo_t;
 - (void);
 - (void);
 - (void);
@@ -77,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)򜭔;
 - (void);
 - (void);
 - (void);
@@ -86,30 +44,30 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (long long);
 - (id);
+- (id);
+- (_Bool);
 - (long long);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
+- (long long);
+- (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (id)C;
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (long long);
@@ -130,56 +88,16 @@
 - (void);
 - (id);
 - (void);
+- (void)h;
+- (id)tableView:shouldSelectTableColumn: /* Error: Ran out of types for this method. */;
+- (void)iled to retrieve code-signing information for client process for the purposes of deriving its bundle identifier with error code %ld. This typically indicates that the process is not properly code-signed. This is a client-issue. Check the crash report for the process. PID:(id)arg1 %lld.;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)IsSubmittedSpecified;
+- (void);
+- (void)_IsSubmittedSpecified;
 - (void)ØHýÿå¿z*';
 
 // Remaining properties
-@property(nonatomic) long long AdjacentMeetingCount; // @synthesize AdjacentMeetingCount=_AdjacentMeetingCount;
-@property(copy, nonatomic) NSArray *AdjacentMeetings; // @synthesize AdjacentMeetings=_AdjacentMeetings;
-@property(nonatomic) _Bool AllowNewTimeProposal; // @synthesize AllowNewTimeProposal=_AllowNewTimeProposal;
-@property(retain, nonatomic) NSDateComponents *AppointmentReplyTime; // @synthesize AppointmentReplyTime=_AppointmentReplyTime;
-@property(nonatomic) long long AppointmentSequenceNumber; // @synthesize AppointmentSequenceNumber=_AppointmentSequenceNumber;
-@property(nonatomic) long long AppointmentState; // @synthesize AppointmentState=_AppointmentState;
-@property(nonatomic) long long CalendarItemType; // @synthesize CalendarItemType=_CalendarItemType;
-@property(nonatomic) long long ConferenceType; // @synthesize ConferenceType=_ConferenceType;
-@property(nonatomic) long long ConflictingMeetingCount; // @synthesize ConflictingMeetingCount=_ConflictingMeetingCount;
-@property(copy, nonatomic) NSArray *ConflictingMeetings; // @synthesize ConflictingMeetings=_ConflictingMeetings;
-@property(copy, nonatomic) NSArray *DeletedOccurrences; // @synthesize DeletedOccurrences=_DeletedOccurrences;
-@property(copy, nonatomic) NSString *Duration; // @synthesize Duration=_Duration;
-@property(retain, nonatomic) NSDateComponents *End; // @synthesize End=_End;
-@property(copy, nonatomic) EWSTimeZoneDefinitionType *EndTimeZone; // @synthesize EndTimeZone=_EndTimeZone;
-@property(retain, nonatomic) EWSOccurrenceInfoType *FirstOccurrence; // @synthesize FirstOccurrence=_FirstOccurrence;
-@property(nonatomic) long long IntendedFreeBusyStatus; // @synthesize IntendedFreeBusyStatus=_IntendedFreeBusyStatus;
-@property(nonatomic) _Bool IsAllDayEvent; // @synthesize IsAllDayEvent=_IsAllDayEvent;
-@property(nonatomic) _Bool IsCancelled; // @synthesize IsCancelled=_IsCancelled;
-@property(nonatomic) _Bool IsMeeting; // @synthesize IsMeeting=_IsMeeting;
-@property(nonatomic) _Bool IsOnlineMeeting; // @synthesize IsOnlineMeeting=_IsOnlineMeeting;
-@property(nonatomic) _Bool IsRecurring; // @synthesize IsRecurring=_IsRecurring;
-@property(retain, nonatomic) EWSOccurrenceInfoType *LastOccurrence; // @synthesize LastOccurrence=_LastOccurrence;
-@property(nonatomic) long long LegacyFreeBusyStatus; // @synthesize LegacyFreeBusyStatus=_LegacyFreeBusyStatus;
-@property(copy, nonatomic) NSString *Location; // @synthesize Location=_Location;
 @property(nonatomic) long long MeetingRequestType; // @synthesize MeetingRequestType=_MeetingRequestType;
-@property(nonatomic) _Bool MeetingRequestWasSent; // @synthesize MeetingRequestWasSent=_MeetingRequestWasSent;
-@property(retain, nonatomic) EWSTimeZoneType *MeetingTimeZone; // @synthesize MeetingTimeZone=_MeetingTimeZone;
-@property(copy, nonatomic) NSString *MeetingWorkspaceUrl; // @synthesize MeetingWorkspaceUrl=_MeetingWorkspaceUrl;
-@property(copy, nonatomic) NSArray *ModifiedOccurrences; // @synthesize ModifiedOccurrences=_ModifiedOccurrences;
-@property(nonatomic) long long MyResponseType; // @synthesize MyResponseType=_MyResponseType;
-@property(copy, nonatomic) NSString *NetShowUrl; // @synthesize NetShowUrl=_NetShowUrl;
-@property(copy, nonatomic) NSArray *OptionalAttendees; // @synthesize OptionalAttendees=_OptionalAttendees;
-@property(retain, nonatomic) EWSSingleRecipientType *Organizer; // @synthesize Organizer=_Organizer;
-@property(retain, nonatomic) NSDateComponents *OriginalStart; // @synthesize OriginalStart=_OriginalStart;
-@property(retain, nonatomic) EWSRecurrenceType *Recurrence; // @synthesize Recurrence=_Recurrence;
-@property(copy, nonatomic) NSArray *RequiredAttendees; // @synthesize RequiredAttendees=_RequiredAttendees;
-@property(copy, nonatomic) NSArray *Resources; // @synthesize Resources=_Resources;
-@property(retain, nonatomic) NSDateComponents *Start; // @synthesize Start=_Start;
-@property(copy, nonatomic) EWSTimeZoneDefinitionType *StartTimeZone; // @synthesize StartTimeZone=_StartTimeZone;
-@property(copy, nonatomic) NSString *TimeZone; // @synthesize TimeZone=_TimeZone;
-@property(copy, nonatomic) NSString *When; // @synthesize When=_When;
 
 @end
 

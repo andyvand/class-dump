@@ -5,6 +5,6 @@
 //
 
 @protocol CBPairingAgentParentDelegate
-- (_Bool);
+- (_Bool)handleCharacteristicsDiscovered:(int)arg1;
 @end
 

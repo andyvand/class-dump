@@ -6,38 +6,22 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutRect, NSString, UILabel, UILayoutGuide, UIListContentConfiguration, _UIContentViewEditingController, _UIListContentImageView;
+@class UIListContentConfiguration, _UIListContentImageView;
 
 @interface UIListContentView : UIView
 {
     UIListContentConfiguration *_animatingFromConfiguration;
-    UIListContentConfiguration *_animatingToConfiguration;
-    double _preferredMaxLayoutWidth;
-    _UIContentViewEditingController *_editingController;
-    struct {
-        unsigned int imageViewFrameInvalid:1;
-        unsigned int textLabelFrameInvalid:1;
-        unsigned int secondaryTextLabelFrameInvalid:1;
-    } _contentViewFlags;
-    UIListContentConfiguration *_configuration;
-    _UIListContentImageView *_imageView;
-    UILabel *_textLabel;
-    UILabel *_secondaryTextLabel;
-    CDUnknownBlockType _primaryTextFrameDidChangeHandler;
-    UILayoutGuide *_textLayoutGuide;
-    UILayoutGuide *_secondaryTextLayoutGuide;
-    UILayoutGuide *_imageLayoutGuide;
 }
 
 - (id);
 - (long long);
-- (struct CGSize);
+- (struct CGSize)23PipelineDataHandlerBase;
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)homeDidUpdatePrimaryResidentNetworkInfo:(struct CGRect)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,68 +29,40 @@
 - (void)ñ^°1Â0@ù
 × ;
 - (_Bool);
-- (void)ed:(id)arg1;
-- (id)butes: /* Error: Ran out of types for this method. */;
-- (void)estedPinchingDisabled:(id)arg1;
-- (_Bool)tModesForSiriLanguageFromInputModes:(id)arg1;
-- (void)ntrolKeyBackgroundColorName;
-- (void)VisibilityForWindow:(struct UIEdgeInsets)arg1 targetOrientation:animationParameters: /* Error: Ran out of types for this method. */;
-- (void)Action:group:acceptItemsFromDropSession: /* Error: Ran out of types for this method. */;
-- (id)arContainerView;
-- (void)dImageViewTraitCollection;
-- (id)s: /* Error: Ran out of types for this method. */;
-- (void)dAnimationStateForTracking:(struct CGRect)arg1;
+- (void)updateHoursFromDatePicker:(id)arg1 wheelsChanged: /* Error: Ran out of types for this method. */;
+- (id)sizeWithAttributes: /* Error: Ran out of types for this method. */;
+- (void)setWasNestedPinchingDisabled:(id)arg1;
+- (_Bool)filteredInputModesForSiriLanguageFromInputModes:(id)arg1;
+- (void)controlKeyBackgroundColorName;
+- (void)_updateVisibilityForWindow:(struct UIEdgeInsets)arg1 targetOrientation:animationParameters: /* Error: Ran out of types for this method. */;
+- (void)_tabBarController:sidebar:sidebarAction:group:acceptItemsFromDropSession: /* Error: Ran out of types for this method. */;
+- (id)_searchBarContainerView;
+- (void)_lastResolvedImageViewTraitCollection;
+- (id)_contentRectForBounds: /* Error: Ran out of types for this method. */;
+- (void)_addAnimationStateForTracking:(struct CGRect)arg1;
 - (id)ChangedDiscontinuouslyOnChange;
 - (double)ldDisableInteractionDuringTransitions;
-- (CDUnknownBlockType)ndowSceneDidUpdateEffectiveGeometry: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_presentingViewControllerWindowSceneDidUpdateEffectiveGeometry: /* Error: Ran out of types for this method. */;
 - (void)ay",&,N,V_ownedGroups;
-- (void)C5UIKitP33_A96866C2920FEF12151F6D0347E0D9CE21SheetLayoutAttributes;
+- (void)_TtC5UIKitP33_A96866C2920FEF12151F6D0347E0D9CE21SheetLayoutAttributes;
 - (id)@ÕüÕ;
 - (void);
 - (id)Ðs;
 - (struct CGSize);
 - (long long)mask animation;
 - (struct CGSize)d user info is not a property list, securely decoding;
-- (id)UpdateContextKey;
+- (id)UIFocusUpdateContextKey;
 - (struct CGSize)he %@ and %@ initializers.;
 - (id)ame:withItemList:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)AyÈ¿.3yj°;
 - (double);
-- (struct _UIListContentViewLayoutInfo)d;
+- (struct _UIListContentViewLayoutInfo)tnd;
 - (void);
 - (id)éÿ;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setDefaultListContentConfigurationProvider:) CDUnknownBlockType _defaultListContentConfigurationProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C,N,S_setDefaultListContentConfigurationProvider:
-
-@property(readonly, nonatomic) long long _listCellProminence;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long _listCellStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(copy, nonatomic, setter=_setPrimaryTextFrameDidChangeHandler:) CDUnknownBlockType _primaryTextFrameDidChangeHandler; // @synthesize _primaryTextFrameDidChangeHandler;
-@property(readonly, nonatomic) struct CGRect _primaryTextLayoutFrame;
-@property(readonly, nonatomic) NSLayoutRect *_primaryTextLayoutRect;
-@property(copy, nonatomic) UIListContentConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UILayoutGuide *imageLayoutGuide; // @synthesize imageLayoutGuide=_imageLayoutGuide;
 @property(readonly, nonatomic, getter=_imageView) _UIListContentImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic, getter=_secondaryTextLabel) UILabel *secondaryTextLabel; // @synthesize secondaryTextLabel=_secondaryTextLabel;
-@property(readonly, nonatomic) UILayoutGuide *secondaryTextLayoutGuide; // @synthesize secondaryTextLayoutGuide=_secondaryTextLayoutGuide;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_textLabel) UILabel *textLabel; // @synthesize textLabel=_textLabel;
-@property(readonly, nonatomic) UILayoutGuide *textLayoutGuide; // @synthesize textLayoutGuide=_textLayoutGuide;
 
 @end
 

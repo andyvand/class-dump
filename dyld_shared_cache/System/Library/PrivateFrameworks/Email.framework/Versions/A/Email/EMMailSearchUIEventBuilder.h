@@ -4,66 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMMailSearchUIEventDimensionContext, BMMailSearchUIEventResultSection, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface EMMailSearchUIEventBuilder
 {
     _Bool _hasSearchViewAppearedReason;
-    _Bool _hasSearchViewDisappearedReason;
-    _Bool _inputIsZKW;
-    _Bool _hasInputData;
-    _Bool _hasDisplayStartedData;
-    _Bool _hasDisplayEndedData;
-    _Bool _hasUserInteractionData;
-    _Bool _sessionIdResetIsInSearchView;
-    _Bool _hasSessionIdResetData;
-    int _searchViewAppearedReason;
-    int _searchViewDisappearedReason;
-    int _displayStartedReason;
-    int _displayEndedReason;
-    int _userInteractionType;
-    NSString *_sessionId;
-    NSNumber *_queryId;
-    long long _eventType;
-    NSArray *_inputTokens;
-    NSArray *_resultSections;
-    NSArray *_displayStartedSections;
-    NSNumber *_displayStartedInputToResultMs;
-    NSArray *_displayEndedSections;
-    BMMailSearchUIEventResultSection *_userInteractionSection;
-    NSNumber *_sessionIdResetStarted;
-    NSNumber *_sessionIdResetEnded;
-    BMMailSearchUIEventDimensionContext *_dimensionContext;
 }
 
 - (id);
 - (id);
+- (id)MediaRemoteVolume;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)HomeIntelligenceProtoPETActivityLoggerHMDService;
+- (void);
+- (void);
 - (void);
 - (void);
+- (void)MobileAssetUpdateInfo;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ObserverInterfaceInternal;
+- (void)Serializer;
 - (void);
 - (void);
 - (void);
@@ -73,7 +48,7 @@
 - (int);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -81,21 +56,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id)ResidentStatusProtobufSerializerPreferredResidentsList;
+- (int)ResidentStatusProtobufSerializerPreferredResidentsList;
 - (id);
+- (id)PersistentPayloadContainerResult;
 - (int);
+- (id)NetworkInfoPayloadSerializer;
+- (id)HMDCoreDataStoreActivityEventType;
 - (id);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)MADownloadResult;
+- (id)NNSBackgroundActivityResult;
+- (id)ValenciaContent;
+- (id)AlvaradoContent;
+- (id)MAPurgeResult;
+- (id)SCNetworkInterface;
 - (id);
 - (void);
 - (void);
@@ -103,7 +78,7 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)tartAttachmentImport (recursive!) %ld;
 - (void);
 - (id);
 - (void);
@@ -113,32 +88,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) BMMailSearchUIEventDimensionContext *dimensionContext; // @synthesize dimensionContext=_dimensionContext;
-@property(nonatomic) int displayEndedReason; // @synthesize displayEndedReason=_displayEndedReason;
-@property(copy, nonatomic) NSArray *displayEndedSections; // @synthesize displayEndedSections=_displayEndedSections;
-@property(retain, nonatomic) NSNumber *displayStartedInputToResultMs; // @synthesize displayStartedInputToResultMs=_displayStartedInputToResultMs;
-@property(nonatomic) int displayStartedReason; // @synthesize displayStartedReason=_displayStartedReason;
-@property(copy, nonatomic) NSArray *displayStartedSections; // @synthesize displayStartedSections=_displayStartedSections;
-@property(nonatomic) long long eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) _Bool hasDisplayEndedData; // @synthesize hasDisplayEndedData=_hasDisplayEndedData;
-@property(nonatomic) _Bool hasDisplayStartedData; // @synthesize hasDisplayStartedData=_hasDisplayStartedData;
-@property(nonatomic) _Bool hasInputData; // @synthesize hasInputData=_hasInputData;
-@property(nonatomic) _Bool hasSearchViewAppearedReason; // @synthesize hasSearchViewAppearedReason=_hasSearchViewAppearedReason;
-@property(nonatomic) _Bool hasSearchViewDisappearedReason; // @synthesize hasSearchViewDisappearedReason=_hasSearchViewDisappearedReason;
-@property(nonatomic) _Bool hasSessionIdResetData; // @synthesize hasSessionIdResetData=_hasSessionIdResetData;
-@property(nonatomic) _Bool hasUserInteractionData; // @synthesize hasUserInteractionData=_hasUserInteractionData;
-@property(nonatomic) _Bool inputIsZKW; // @synthesize inputIsZKW=_inputIsZKW;
-@property(copy, nonatomic) NSArray *inputTokens; // @synthesize inputTokens=_inputTokens;
-@property(retain, nonatomic) NSNumber *queryId; // @synthesize queryId=_queryId;
-@property(copy, nonatomic) NSArray *resultSections; // @synthesize resultSections=_resultSections;
-@property(nonatomic) int searchViewAppearedReason; // @synthesize searchViewAppearedReason=_searchViewAppearedReason;
-@property(nonatomic) int searchViewDisappearedReason; // @synthesize searchViewDisappearedReason=_searchViewDisappearedReason;
 @property(copy, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(retain, nonatomic) NSNumber *sessionIdResetEnded; // @synthesize sessionIdResetEnded=_sessionIdResetEnded;
-@property(nonatomic) _Bool sessionIdResetIsInSearchView; // @synthesize sessionIdResetIsInSearchView=_sessionIdResetIsInSearchView;
-@property(retain, nonatomic) NSNumber *sessionIdResetStarted; // @synthesize sessionIdResetStarted=_sessionIdResetStarted;
-@property(retain, nonatomic) BMMailSearchUIEventResultSection *userInteractionSection; // @synthesize userInteractionSection=_userInteractionSection;
-@property(nonatomic) int userInteractionType; // @synthesize userInteractionType=_userInteractionType;
 
 @end
 

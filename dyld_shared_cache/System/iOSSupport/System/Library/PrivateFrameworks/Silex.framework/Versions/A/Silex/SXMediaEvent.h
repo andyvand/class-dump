@@ -6,18 +6,9 @@
 
 #import <Silex/SXAnalyticsEvent.h>
 
-@class NSDictionary, NSString;
-
 @interface SXMediaEvent : SXAnalyticsEvent
 {
     unsigned long long _mediaType;
-    unsigned long long _galleryType;
-    unsigned long long _videoType;
-    NSString *_mediaId;
-    NSString *_componentIdentifier;
-    NSString *_componentType;
-    NSString *_componentRole;
-    NSDictionary *_metaData;
 }
 
 - (void);
@@ -26,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)renderer;
 - (id);
 - (void);
 - (void);
@@ -40,14 +31,7 @@
 - (unsigned long long)ue-UltraLight;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;
-@property(retain, nonatomic) NSString *componentRole; // @synthesize componentRole=_componentRole;
-@property(retain, nonatomic) NSString *componentType; // @synthesize componentType=_componentType;
-@property(nonatomic) unsigned long long galleryType; // @synthesize galleryType=_galleryType;
-@property(retain, nonatomic) NSString *mediaId; // @synthesize mediaId=_mediaId;
 @property(nonatomic) unsigned long long mediaType; // @synthesize mediaType=_mediaType;
-@property(retain, nonatomic) NSDictionary *metaData; // @synthesize metaData=_metaData;
-@property(nonatomic) unsigned long long videoType; // @synthesize videoType=_videoType;
 
 @end
 

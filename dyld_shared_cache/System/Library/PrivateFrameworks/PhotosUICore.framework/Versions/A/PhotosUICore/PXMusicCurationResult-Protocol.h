@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError;
+@class NSDictionary;
 
 @protocol PXMusicCurationResult
+- (NSDictionary *)5;
 - (_Bool)iwµTÄ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) _Bool isComplete;
 @property(readonly, copy, nonatomic) NSDictionary *songsByCategory;
 @end
 

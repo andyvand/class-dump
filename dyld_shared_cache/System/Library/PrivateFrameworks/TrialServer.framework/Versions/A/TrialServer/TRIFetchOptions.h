@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, TRIDownloadOptions;
+@class TRIDownloadOptions;
 
 @interface TRIFetchOptions
 {
     TRIDownloadOptions *_downloadOptions;
-    NSNumber *_cacheDeleteAvailableSpaceClass;
 }
 
-+ (id);
++ (id)firstObject;
+- (id);
+- (id)initWithLength:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)isImage;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *cacheDeleteAvailableSpaceClass; // @synthesize cacheDeleteAvailableSpaceClass=_cacheDeleteAvailableSpaceClass;
 @property(readonly, nonatomic) TRIDownloadOptions *downloadOptions; // @synthesize downloadOptions=_downloadOptions;
 
 @end

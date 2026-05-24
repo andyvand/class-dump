@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDStrokePattern, TSUColor;
+@class TSUColor;
 
 @protocol TSDMutableStroke
+- (void);
+- (void);
+- (void)A;
 
 // Remaining properties
-@property(nonatomic) double actualWidth;
-@property(nonatomic) int cap;
 @property(copy, nonatomic) TSUColor *color;
-@property(nonatomic) int join;
-@property(nonatomic) double miterLimit;
-@property(copy, nonatomic) TSDStrokePattern *pattern;
-@property(nonatomic) double width;
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol UIViewControllerPreviewingDelegate_Deprecated
+
+@optional
+- (UIViewController *);
+- (UIViewController *);
+- (void);
 @end
 

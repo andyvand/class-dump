@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)?="__size_"Q}""{?="__max_load_factor_"f}}};
 + (id);
 
 @end

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBBundlePropertiesBSXPCProvider, RBBundlePropertiesLSProvider, RBProcessIndex;
+@class RBBundlePropertiesLSProvider;
 @protocol RBBundlePropertiesManagerDelegate;
 
 @interface RBBundlePropertiesManager
 {
     RBBundlePropertiesLSProvider *_lsProvider;
-    RBBundlePropertiesBSXPCProvider *_xpcProvider;
-    RBProcessIndex *_processIndex;
-    id <RBBundlePropertiesManagerDelegate> _delegate;
-    struct os_unfair_lock_s _lock;
 }
 
+- (id)P;
 - (id);
-- (id);
-- (id);
+- (id)kMDItemPhotosBusinessCategories_strong;
 - (void);
 - (id);
-- (id);
+- (id)der:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -29,15 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <RBBundlePropertiesManagerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

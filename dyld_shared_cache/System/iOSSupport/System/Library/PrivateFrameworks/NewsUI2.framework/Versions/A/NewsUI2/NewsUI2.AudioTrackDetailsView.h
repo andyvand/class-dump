@@ -7,21 +7,6 @@
 @interface NewsUI2.AudioTrackDetailsView
 {
     id publisherNameLabel;
-    id publisherLogoImageViewContainer;
-    id publisherLogoImageView;
-    id headlineLabel;
-    id headphoneIconView;
-    id progressView;
-    id remainingTimeLabel;
-    id timeLabel;
-    id excerptLabel;
-    id playPauseButton;
-    id readButton;
-    id closeButton;
-    id attributionContainer;
-    id buttonStack;
-    id durationStack;
-    id publisherLogoImageWidthConstraint;
 }
 
 - (id);

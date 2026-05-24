@@ -6,13 +6,10 @@
 
 #import <CMCapture/BWStats.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface BWMedianStats : BWStats
 {
     long long _maxNumberOfSamplesForMedianCalculation;
-    NSMutableArray *_samples;
 }
 
 - (void);

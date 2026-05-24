@@ -7,8 +7,6 @@
 @interface TSBonjourIPv4Address
 {
     unsigned char _linkLayerAddress[6];
-    _Bool _hasLinkLayerAddress;
-    unsigned int _ipv4Address;
 }
 
 + (_Bool);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasLinkLayerAddress; // @synthesize hasLinkLayerAddress=_hasLinkLayerAddress;
-@property(readonly, nonatomic) unsigned int ipv4Address; // @synthesize ipv4Address=_ipv4Address;
-@property(readonly, nonatomic) const char *linkLayerAddress; // @dynamic linkLayerAddress;
 
 @end
 

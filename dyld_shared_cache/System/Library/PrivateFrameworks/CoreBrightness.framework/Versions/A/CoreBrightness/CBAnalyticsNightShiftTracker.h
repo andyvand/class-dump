@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface CBAnalyticsNightShiftTracker
 {
     double _modeChangeTimestamp;
-    _Bool _isEnabled;
 }
 
-- (id);
-- (void);
+- (id)8\;
+- (void)4	;
 - (void);
 - (_Bool);
 - (void)×#<

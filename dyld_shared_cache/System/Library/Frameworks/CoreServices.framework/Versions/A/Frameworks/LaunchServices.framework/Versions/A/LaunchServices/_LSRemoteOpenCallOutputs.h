@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _LSRemoteOpenCallOutputs
 {
     struct vector<ProcessSerialNumber, std::allocator<ProcessSerialNumber>> outPSNs;
-    NSURL *outAppURL;
-    _Bool outAppWasLaunched;
 }
 
-+ (_Bool);
++ (_Bool)0:8Q16Q24 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

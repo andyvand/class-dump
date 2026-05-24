@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRTimeZoneOverrideMenuPresenterCapability
 {
     id userDefaults;
-    id defaultTimeZone;
-    id currentTimeZone;
 }
 
 @end

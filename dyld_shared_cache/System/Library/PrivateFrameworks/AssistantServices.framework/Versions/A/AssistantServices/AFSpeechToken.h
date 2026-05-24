@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AFSpeechToken
 {
     _Bool _removeSpaceBefore;
-    _Bool _removeSpaceAfter;
-    NSString *_text;
-    NSString *_phoneSequence;
-    NSString *_ipaPhoneSequence;
-    long long _confidenceScore;
-    double _startTime;
-    double _silenceStartTime;
-    double _endTime;
-    NSNumber *_graphCost;
-    NSNumber *_acousticCost;
 }
 
 + (_Bool);
@@ -32,39 +22,29 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (double);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)0;
 - (void);
 - (_Bool);
 - (void);
 - (double);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)ng;
+- (void)_clientIsDeciding;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *acousticCost; // @synthesize acousticCost=_acousticCost;
-@property(nonatomic) long long confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(copy, nonatomic) NSNumber *graphCost; // @synthesize graphCost=_graphCost;
-@property(copy, nonatomic) NSString *ipaPhoneSequence; // @synthesize ipaPhoneSequence=_ipaPhoneSequence;
-@property(copy, nonatomic) NSString *phoneSequence; // @synthesize phoneSequence=_phoneSequence;
-@property(nonatomic) _Bool removeSpaceAfter; // @synthesize removeSpaceAfter=_removeSpaceAfter;
-@property(nonatomic) _Bool removeSpaceBefore; // @synthesize removeSpaceBefore=_removeSpaceBefore;
-@property(nonatomic) double silenceStartTime; // @synthesize silenceStartTime=_silenceStartTime;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

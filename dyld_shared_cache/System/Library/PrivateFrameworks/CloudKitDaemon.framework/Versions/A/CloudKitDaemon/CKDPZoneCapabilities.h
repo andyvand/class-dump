@@ -7,19 +7,6 @@
 @interface CKDPZoneCapabilities
 {
     int _sharingType;
-    _Bool _atomicSaves;
-    _Bool _ckql;
-    _Bool _fetchChanges;
-    _Bool _hierarchicalSharing;
-    _Bool _zoneSharing;
-    struct {
-        unsigned int sharingType:1;
-        unsigned int atomicSaves:1;
-        unsigned int ckql:1;
-        unsigned int fetchChanges:1;
-        unsigned int hierarchicalSharing:1;
-        unsigned int zoneSharing:1;
-    } _has;
 }
 
 - (_Bool);
@@ -31,25 +18,25 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)*Q}16@24;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (void)scriptionRef, FigEndpointStreamAudioFormatDescriptionRef *);
+- (unsigned long long)bStreamNotificationCallback(CMNotificationCenterRef, const void *, CFStringRef, const void *, CFTypeRef);
+- (void)PSAudioProtocolDriverHoseControlRef, OSStatus, Boolean);
+- (_Bool)s server;
 - (int);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)ed;
+- (void)NetworkUsageDayTimeInLastMonth;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (void):(_Bool)arg1 ];
+- (void)A;
 - (_Bool);
 - (void);
 - (id);
@@ -59,18 +46,7 @@
 - (void)_hasAttemptedShareUpdate;
 
 // Remaining properties
-@property(nonatomic) _Bool atomicSaves; // @synthesize atomicSaves=_atomicSaves;
-@property(nonatomic) _Bool ckql; // @synthesize ckql=_ckql;
-@property(nonatomic) _Bool fetchChanges; // @synthesize fetchChanges=_fetchChanges;
 @property(nonatomic) _Bool hasAtomicSaves;
-@property(nonatomic) _Bool hasCkql;
-@property(nonatomic) _Bool hasFetchChanges;
-@property(nonatomic) _Bool hasHierarchicalSharing;
-@property(nonatomic) _Bool hasSharingType;
-@property(nonatomic) _Bool hasZoneSharing;
-@property(nonatomic) _Bool hierarchicalSharing; // @synthesize hierarchicalSharing=_hierarchicalSharing;
-@property(nonatomic) int sharingType; // @synthesize sharingType=_sharingType;
-@property(nonatomic) _Bool zoneSharing; // @synthesize zoneSharing=_zoneSharing;
 
 @end
 

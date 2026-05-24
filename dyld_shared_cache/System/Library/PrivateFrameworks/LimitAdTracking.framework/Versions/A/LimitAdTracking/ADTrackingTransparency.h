@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ADTrackingTransparency
 {
 }
 
 - (_Bool);
-- (long long);
+- (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (id);
+- (id)b;
 - (void);
 - (long long);
 - (void);
@@ -40,19 +38,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) long long acknowledgedVersionForPersonalizedAds;
-@property(readonly, nonatomic) NSArray *adSwitchDisabledReasons;
-@property(nonatomic) _Bool crossAppTrackingAllowed;
-@property(readonly, nonatomic) long long crossAppTrackingAllowedSwitchDisabledReason;
 @property(readonly, nonatomic) _Bool crossAppTrackingAllowedSwitchEnabled;
-@property(readonly, nonatomic) long long latestVersionForPersonalizedAdsConsent;
-@property(nonatomic) _Bool personalizedAds;
-@property(readonly, nonatomic) _Bool personalizedAdsAvailable;
-@property(readonly, nonatomic) _Bool personalizedAdsAvailableForAdPlatforms;
-@property(readonly, nonatomic) long long personalizedAdsSwitchDisabledReason;
-@property(readonly, nonatomic) _Bool personalizedAdsSwitchEnabled;
-@property(readonly, nonatomic) _Bool shouldPresentPersonalizedAdsOnboarding;
-@property(readonly, nonatomic) _Bool shouldShowPersonalizedAdsToggle;
 
 @end
 

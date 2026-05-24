@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatVariableNode
 {
     id _identifier;
-    id _statements;
-    id flex;
 }
 
 @end

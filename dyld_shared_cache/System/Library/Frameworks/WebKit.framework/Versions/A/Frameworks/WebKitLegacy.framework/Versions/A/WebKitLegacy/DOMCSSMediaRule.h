@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMCSSRule.h>
 
-@class DOMCSSRuleList, DOMMediaList;
+@class DOMMediaList;
 
 @interface DOMCSSMediaRule : DOMCSSRule
 {
@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) DOMCSSRuleList *cssRules;
 @property(readonly) DOMMediaList *media;
 
 @end

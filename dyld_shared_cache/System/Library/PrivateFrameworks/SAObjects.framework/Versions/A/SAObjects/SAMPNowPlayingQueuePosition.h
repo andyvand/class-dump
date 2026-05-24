@@ -6,31 +6,21 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAMPNowPlayingQueuePosition : AceObject
 {
 }
 
 + (id);
 + (id);
-- (long long);
-- (void);
+- (long long);
+- (void)dpoint when this many frames are decoded.;
 - (id);
 - (id);
-- (long long);
-- (void)ation;
+- (long long)_;
+- (void)PostUpdatePersonalRequestSettingsNotification;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long index;
-@property(nonatomic) long long queueSize;
-@property(readonly) Class superclass;
 
 @end
 

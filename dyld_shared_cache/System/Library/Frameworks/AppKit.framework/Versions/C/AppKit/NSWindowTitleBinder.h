@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-+ (id);
-- (void);
++ (_Bool)sk;
++ (id)e Inc.;
+- (void);
 - (Class);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void)32;
+- (unsigned long long)e by requesting pending callbacks;
 
 @end
 

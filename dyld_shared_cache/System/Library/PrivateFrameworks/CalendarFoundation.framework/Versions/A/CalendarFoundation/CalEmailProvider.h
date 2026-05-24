@@ -8,7 +8,8 @@
 {
 }
 
-+ (void);
++ (void)RO
+O;
 + (void);
 + (void);
 + (void);

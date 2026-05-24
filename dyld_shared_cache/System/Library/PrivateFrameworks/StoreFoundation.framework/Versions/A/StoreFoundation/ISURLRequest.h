@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL;
+@class NSData;
 
 @interface ISURLRequest
 {
     NSData *_body;
-    NSString *_method;
-    NSDictionary *_queryStringDictionary;
-    double _timeoutInterval;
-    _Bool _retryAfterTimeout;
-    NSArray *_urls;
-    unsigned long long _cachePolicy;
-    NSDictionary *_customHeaders;
-    _Bool _resourceRequest;
-    _Bool _preventsIdleSystemSleep;
-    _Bool _suppressADIHeaders;
-    _Bool _alwaysSendGUID;
 }
 
 + (id);
@@ -35,8 +24,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)">16;
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -45,15 +34,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)initWithFileURL:(struct _NSZone *)arg1 automaticallyGenerated: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -62,19 +51,7 @@
 - (unsigned long long)logs;
 
 // Remaining properties
-@property(retain) NSArray *URLs; // @synthesize URLs=_urls;
-@property _Bool alwaysSendGUID; // @synthesize alwaysSendGUID=_alwaysSendGUID;
 @property(retain) NSData *body; // @synthesize body=_body;
-@property unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(retain) NSDictionary *customHeaders; // @synthesize customHeaders=_customHeaders;
-@property(retain) NSString *method; // @synthesize method=_method;
-@property _Bool preventsIdleSystemSleep; // @synthesize preventsIdleSystemSleep=_preventsIdleSystemSleep;
-@property(readonly) NSURL *primaryURL;
-@property(retain) NSDictionary *queryStringDictionary; // @synthesize queryStringDictionary=_queryStringDictionary;
-@property(readonly) _Bool resourceRequest; // @synthesize resourceRequest=_resourceRequest;
-@property _Bool retryAfterTimeout; // @synthesize retryAfterTimeout=_retryAfterTimeout;
-@property _Bool suppressADIHeaders; // @synthesize suppressADIHeaders=_suppressADIHeaders;
-@property double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
 
 @end
 

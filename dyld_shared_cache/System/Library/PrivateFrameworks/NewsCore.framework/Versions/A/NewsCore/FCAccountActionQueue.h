@@ -18,8 +18,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)g;
-- (void)eNativeAdsEnabledLevel;
+- (id)shadowMoreForYouTopicsConfig;
+- (void)useMultipleNativeAdsEnabledLevel;
 
 // Remaining properties
 @property(retain, nonatomic) FCPersistentDictionary *persistentDictionary; // @synthesize persistentDictionary=_persistentDictionary;

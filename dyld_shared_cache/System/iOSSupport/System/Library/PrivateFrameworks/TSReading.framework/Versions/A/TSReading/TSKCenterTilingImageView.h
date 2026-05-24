@@ -9,23 +9,19 @@
 @interface TSKCenterTilingImageView
 {
     UIImage *mLeftCapImage;
-    UIImage *mCenterTileImage;
-    UIImage *mRightCapImage;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ternalPlayerController - Saving playback resume time:(id)arg1;
+- (void)ayback;
+- (void)playbackWaitingToPlay:(id)arg1;
+- (id)ding asset task at ;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *centerTileImage; // @synthesize centerTileImage=mCenterTileImage;
 @property(retain, nonatomic) UIImage *leftCapImage; // @synthesize leftCapImage=mLeftCapImage;
-@property(retain, nonatomic) UIImage *rightCapImage; // @synthesize rightCapImage=mRightCapImage;
 
 @end
 

@@ -9,19 +9,16 @@
 @interface CUKalmanFilter
 {
     CUKalmanConfiguration *_config;
-    double _stateX;
-    double _stateU;
 }
 
 - (double);
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)E8/Library/Caches/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/grimoire/trie/config.h:(id)arg1 141:MARISA_CODE_ERROR:undefined node order /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double stateU; // @synthesize stateU=_stateU;
 @property(readonly, nonatomic) double stateX; // @synthesize stateX=_stateX;
 
 @end

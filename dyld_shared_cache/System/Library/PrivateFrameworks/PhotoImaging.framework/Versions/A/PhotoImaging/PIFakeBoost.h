@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSArray, NSString;
+@class CIImage;
 
 @interface PIFakeBoost
 {
     CIImage *_inputImage;
-    double _inputBoost;
-    NSString *_inputVersion;
-    NSArray *_inputParams;
 }
 
-+ (id);
-+ (id);
++ (id)(;
++ (id)*(;
 + (id);
 + (id)íg¡ð;
 - (void);
@@ -29,13 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void)pace;
+- (void)sRGBLinearColorSpace;
 
 // Remaining properties
-@property double inputBoost; // @synthesize inputBoost=_inputBoost;
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(copy) NSArray *inputParams; // @synthesize inputParams=_inputParams;
-@property(copy) NSString *inputVersion; // @synthesize inputVersion=_inputVersion;
 
 @end
 

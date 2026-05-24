@@ -8,14 +8,12 @@
 {
     id parent;
     id connection;
-    id remoteConnectionDidChange;
-    id identity;
 }
 
-- (void);
-- (void);
+- (void)_recordingsWithFetchRequest:(id)arg1;
+- (void)_recordingsFetchRequestForFolder:(id)arg1;
 - (id);
-- (void);
+- (void);
 
 @end
 

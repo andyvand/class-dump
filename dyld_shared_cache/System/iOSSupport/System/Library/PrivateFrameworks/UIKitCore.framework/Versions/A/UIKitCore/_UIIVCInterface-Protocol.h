@@ -7,7 +7,8 @@
 @protocol _UIIVCResponseDelegate;
 
 @protocol _UIIVCInterface
-- (void)r;
+- (void);
+- (void)_UIFocusMovementDirectionalPressGestureRecognizer;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIIVCResponseDelegate> responseDelegate;

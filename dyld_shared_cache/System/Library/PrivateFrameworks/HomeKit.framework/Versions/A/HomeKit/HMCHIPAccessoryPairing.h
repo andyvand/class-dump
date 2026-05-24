@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCHIPHome, NSNumber, NSUUID;
+@class NSUUID;
 
 @interface HMCHIPAccessoryPairing
 {
     NSUUID *_UUID;
-    NSNumber *_identifier;
-    HMCHIPHome *_home;
-    NSUUID *_systemCommissionerPairingUUID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 
 @end
 

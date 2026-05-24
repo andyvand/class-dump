@@ -9,9 +9,6 @@
 @interface PromotedContentUI.NewsAdView : APPCPromotedContentView
 {
     id newsAdView;
-    id nativeArticleOnDisplay;
-    id oldPercentageTimestamp;
-    id newPercentageTimestamp;
 }
 
 - (void);

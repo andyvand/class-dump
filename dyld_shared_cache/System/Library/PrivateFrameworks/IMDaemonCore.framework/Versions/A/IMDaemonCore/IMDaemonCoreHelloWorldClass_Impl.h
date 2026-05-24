@@ -7,7 +7,6 @@
 @interface IMDaemonCoreHelloWorldClass_Impl
 {
     id sharedUtilitiesHelloWorld;
-    id persistenceHelloWorld;
 }
 
 - (void);

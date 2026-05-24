@@ -9,11 +9,6 @@
 @interface CHSControlHost
 {
     CHSControlConfiguration *configuration;
-    id _serverConnection;
-    id _identifier;
-    id _loggingIdentifier;
-    id _activationState;
-    id _invalid;
 }
 
 - (id);
@@ -27,14 +22,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ive_recording_options_t, hwtrace_live_system_t);
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) CHSControlConfiguration *configuration; // @synthesize configuration;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) _Bool isActive;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id));
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)MUHoursSummaryViewAccessibility;
 
 @end
 

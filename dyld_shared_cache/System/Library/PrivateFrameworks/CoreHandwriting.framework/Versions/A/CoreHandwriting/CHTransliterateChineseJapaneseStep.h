@@ -9,12 +9,11 @@
 @interface CHTransliterateChineseJapaneseStep : CHPostprocessingStep
 {
     _Bool _transliterateSentences;
-    void **_icuTransliterator;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)meters required for fileIdentifier;
 
 @end
 

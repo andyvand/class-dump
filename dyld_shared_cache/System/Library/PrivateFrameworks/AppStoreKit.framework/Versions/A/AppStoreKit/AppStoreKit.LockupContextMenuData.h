@@ -7,7 +7,6 @@
 @interface AppStoreKit.LockupContextMenuData
 {
     id shareSheetData;
-    id shareAction;
 }
 
 @end

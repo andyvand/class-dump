@@ -9,7 +9,7 @@
 }
 
 + (double);
-- (id);
+- (id)&s;
 - (id);
 
 @end

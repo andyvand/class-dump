@@ -4,17 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFEventTriggerDatabaseID, NSArray, NSNumber, NSPredicate;
+@class NSArray, NSPredicate, NSUUID, Protocol;
+@protocol MKFCalendarEvent, MKFCharacteristicRangeEvent, MKFCharacteristicValueEvent, MKFDurationEvent, MKFEvent, MKFLocationEvent, MKFMatterAttributeValueEvent, MKFPresenceEvent, MKFSignificantTimeEvent;
 
 @protocol MKFEventTrigger
+- (void);
+- (id <MKFDurationEvent>)A;
+- (id <MKFCharacteristicValueEvent>)b;
+- (id <MKFSignificantTimeEvent>)setHasMatchedCoordinateOffset:(NSUUID *)arg1;
+- (id <MKFPresenceEvent>)setHasMapUiShownActiveNavMode:(NSUUID *)arg1;
+- (id <MKFMatterAttributeValueEvent>)setHasLastUpdatedDatetime:(NSUUID *)arg1;
+- (id <MKFLocationEvent>)setHasIconAttributeValue:(NSUUID *)arg1;
+- (id <MKFDurationEvent>)setHasHasRoutingIncidentBadge:(NSUUID *)arg1;
+- (id <MKFCharacteristicValueEvent>)setHasDroppedPinFloorOrdinal:(NSUUID *)arg1;
+- (id <MKFCharacteristicRangeEvent>)setHasCreatedTimestamp:(NSUUID *)arg1;
+- (id <MKFCalendarEvent>)setHasBlockingIncident:(NSUUID *)arg1;
+- (NSPredicate *)initWithLatitude:longitude: /* Error: Ran out of types for this method. */;
+- (id <MKFSignificantTimeEvent>)ndleValue;
+- (id <MKFPresenceEvent>)ing",&,N,V_fullDescription;
+- (id <MKFLocationEvent>)setCorrections:(NSUUID *)arg1;
+- (id <MKFDurationEvent>)serviceSpaceDidBecomeAvailable:(NSUUID *)arg1;
+- (id <MKFCharacteristicValueEvent>)service:(NSUUID *)arg1 account:didReceiveLocalNetworkHandshake:fromID:context: /* Error: Ran out of types for this method. */;
+- (id <MKFCharacteristicRangeEvent>)R,N;
+- (id <MKFCalendarEvent>)geHandlerQueue;
+- (id <MKFEvent>)removeObserver:(Protocol *)arg1;
 - (NSArray *)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFEventTriggerDatabaseID *databaseID;
 @property(retain, nonatomic) NSPredicate *evaluationCondition;
-@property(readonly, retain, nonatomic) NSArray *events;
-@property(copy, nonatomic) NSNumber *executeOnce;
-@property(copy, nonatomic) NSNumber *recurrenceDays;
 @end
 

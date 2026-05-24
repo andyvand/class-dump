@@ -7,22 +7,18 @@
 @interface AKBasicLoginSecondFactorActions
 {
     CDUnknownBlockType _regenerateCodeAction;
-    CDUnknownBlockType _codeEnteredAction;
-    CDUnknownBlockType _ak_cancelAction;
 }
 
 - (void);
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (void);
+- (id)"n;
+- (void)p;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType ak_cancelAction; // @synthesize ak_cancelAction=_ak_cancelAction;
-@property(copy, nonatomic) CDUnknownBlockType codeEnteredAction; // @synthesize codeEnteredAction=_codeEnteredAction;
 @property(copy, nonatomic) CDUnknownBlockType regenerateCodeAction; // @synthesize regenerateCodeAction=_regenerateCodeAction;
 
 @end

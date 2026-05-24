@@ -8,14 +8,6 @@
 {
     id overriddenStyle;
     id layoutStyle;
-    id bubbleTipSourceItem;
-    id bubbleTipSourceView;
-    id bubbleTipSourceRect;
-    id passthroughViews;
-    id toastCustomTabBarController;
-    id toastDismissDelayTimeInterval;
-    id permittedArrowDirections;
-    id bubbleTipSizing;
 }
 
 @end

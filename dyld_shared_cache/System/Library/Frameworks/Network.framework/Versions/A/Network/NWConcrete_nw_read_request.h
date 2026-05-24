@@ -4,53 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NWConcrete_nw_connection;
-@protocol OS_dispatch_data, OS_nw_array, OS_nw_content_context, OS_nw_error, OS_nw_fd_wrapper;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_read_request
 {
     NWConcrete_nw_read_request *next;
-    NWConcrete_nw_read_request *tail;
-    CDUnknownBlockType data_completion;
-    CDUnknownBlockType file_handler;
-    CDUnknownBlockType data_multiple_completion;
-    CDUnknownBlockType buffer_completion;
-    NWConcrete_nw_connection *connection;
-    unsigned int qos_class;
-    int variant;
-    unsigned long long min;
-    unsigned long long max;
-    unsigned long long progress;
-    NSObject<OS_nw_fd_wrapper> *fd;
-    void *progress_timer_source;
-    unsigned int progress_msecs;
-    char *buffer;
-    NSObject<OS_dispatch_data> *data;
-    NSObject<OS_nw_content_context> *context;
-    NSObject<OS_nw_content_context> *repliable_message;
-    NSObject<OS_nw_error> *error;
-    NSObject<OS_nw_array> *read_array;
-    NSObject<OS_nw_array> *context_array;
-    unsigned int reported:1;
-    unsigned int is_complete:1;
-    unsigned int file_progress_started:1;
-    unsigned int file_finished:1;
 }
 
-- (void);
+- (void)material;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURL;
-@protocol CAMLParserDelegate;
+@class NSURL;
 
 @interface CAMLParser
 {
@@ -22,26 +21,23 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)deletionsSo19CKServerChangeTokenC06changeE0Sb10moreComingtNНb_pG;
+- (id)1;
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (_Bool);
 - (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (id)ImageProvider:%.3gMB cached (%.3gMB purgeable); idle %.3gs -> %.3gs
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSURL *baseURL;
-@property __weak id <CAMLParserDelegate> delegate;
-@property(readonly) NSError *error;
-@property(readonly) id result;
 
 @end
 

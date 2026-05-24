@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INPauseTimerIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setObject:(long long)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
++ (int)destinationURL;
++ (long long)computeContentType;
++ (_Bool)associateThumbnailImagesDictionary:(long long)arg1 serializedQuickLookMetadata:withImmutableDocument:atURL:error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)agentConnectionEstablished;
+- (id).;
+- (void)enterprise;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)arsecCategory: /* Error: Ran out of types for this method. */;
+- (long long)StringAsParsecCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *pausedTimers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,26 +8,20 @@ __attribute__((visibility("hidden")))
 @interface NSBarItemAttributes
 {
     struct CGRect _frame;
-    double _reservedWidth;
-    double _alphaValue;
-    double _zPosition;
 }
 
-- (double);
+- (double)";
 - (void);
 - (void);
-- (double);
-- (id);
+- (double)fileHandleForWriting;
+- (id)primaryRecipients;
 - (struct CGRect);
-- (double)opUp;
+- (double)_pressAndHoldPopUp;
 - (void);
 - (void)ðÿÖ FB;
 
 // Remaining properties
-@property double alphaValue; // @synthesize alphaValue=_alphaValue;
-@property struct CGRect frame; // @synthesize frame=_frame;
 @property double reservedWidth; // @synthesize reservedWidth=_reservedWidth;
-@property double zPosition; // @synthesize zPosition=_zPosition;
 
 @end
 

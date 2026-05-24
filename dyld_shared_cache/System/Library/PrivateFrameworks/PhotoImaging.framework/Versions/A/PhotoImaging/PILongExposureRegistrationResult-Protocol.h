@@ -7,9 +7,9 @@
 @class VNImageHomographicAlignmentObservation;
 
 @protocol PILongExposureRegistrationResult
+- (VNImageHomographicAlignmentObservation *)ѓ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c extent;
 @property(readonly, copy) VNImageHomographicAlignmentObservation *observation;
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNPersistentStoreCoordinatorFactory, CNPersistentStoreCoordinatorUpdater, CNQueue, NSArray;
+@class CNCache;
 
 @interface CNPersistentStoreCoordinatorCache
 {
     CNCache *_cache;
-    CNQueue *_cacheQueue;
-    CNPersistentStoreCoordinatorFactory *_coordinatorFactory;
-    CNPersistentStoreCoordinatorUpdater *_coordinatorUpdater;
 }
 
 + (id);
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -39,11 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allCacheKeys;
 @property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) CNQueue *cacheQueue; // @synthesize cacheQueue=_cacheQueue;
-@property(readonly, nonatomic) CNPersistentStoreCoordinatorFactory *coordinatorFactory; // @synthesize coordinatorFactory=_coordinatorFactory;
-@property(readonly, nonatomic) CNPersistentStoreCoordinatorUpdater *coordinatorUpdater; // @synthesize coordinatorUpdater=_coordinatorUpdater;
 
 @end
 

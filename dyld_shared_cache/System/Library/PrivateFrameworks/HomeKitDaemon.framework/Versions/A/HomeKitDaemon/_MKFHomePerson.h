@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFPerson.h>
 
-@class MKFHomePersonDatabaseID, NSDate, NSString, NSUUID;
-@protocol MKFHome, MKFPhotosPerson;
+@class _MKFHome;
 
 __attribute__((visibility("hidden")))
 @interface _MKFHomePerson : _MKFPerson
@@ -19,24 +18,12 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)chunkNumberKey;
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomePersonDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(retain, nonatomic) id <MKFPhotosPerson> linkedPhotosPerson; // @dynamic linkedPhotosPerson;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
+@property(retain, nonatomic) _MKFHome *home; // @dynamic home;
 
 @end
 

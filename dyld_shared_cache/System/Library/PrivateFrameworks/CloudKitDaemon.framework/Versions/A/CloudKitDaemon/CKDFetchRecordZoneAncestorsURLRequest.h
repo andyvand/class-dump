@@ -6,15 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSMutableSet;
+@class NSArray, NSMutableDictionary;
 
 @interface CKDFetchRecordZoneAncestorsURLRequest : CKDURLRequest
 {
     NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByZoneID;
-    CDUnknownBlockType _ancestorsWereFetchedBlock;
-    NSMutableDictionary *_zoneIDsByRequestOperationUUID;
-    NSMutableSet *_accessedZoneIDs;
 }
 
 - (void);
@@ -28,7 +24,7 @@
 - (id)PCCKey;
 - (id)PUSH;
 - (void)a %@ identity;
-- (id)Cache;
+- (id)DeviceCapabilityUsageSQLCache;
 - (id)Error converting user record ID for inherited participant %@;
 - (id):(id)arg1 %@;
 - (void)URL host from properties %{public}@. Falling back to legacy hostname.;
@@ -38,10 +34,6 @@
 - (_Bool)vO;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *accessedZoneIDs; // @synthesize accessedZoneIDs=_accessedZoneIDs;
-@property(copy) CDUnknownBlockType ancestorsWereFetchedBlock; // @synthesize ancestorsWereFetchedBlock=_ancestorsWereFetchedBlock;
-@property(readonly, copy, nonatomic) NSDictionary *configurationsByZoneID; // @synthesize configurationsByZoneID=_configurationsByZoneID;
-@property(readonly, copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
 @property(retain, nonatomic) NSMutableDictionary *zoneIDsByRequestOperationUUID; // @synthesize zoneIDsByRequestOperationUUID=_zoneIDsByRequestOperationUUID;
 
 @end

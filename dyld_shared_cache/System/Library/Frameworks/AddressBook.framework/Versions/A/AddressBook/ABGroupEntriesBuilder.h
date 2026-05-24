@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroupEntry, NSArray, NSMutableArray;
+@class ABAddressBook;
 
 @interface ABGroupEntriesBuilder
 {
     ABAddressBook *_addressBook;
-    NSArray *_directoryAccounts;
-    NSArray *_smartGroups;
-    NSArray *_persistentAccounts;
-    ABAccount *_acceptedIntroductionsAccount;
-    NSMutableArray *_identifiersOfAccountsWithProvisionalEntryForNewGroup;
-    _Bool _includeAllContactsForEachAccount;
-    _Bool _includeDirectoriesHeader;
-    _Bool _includeLastImport;
-    _Bool _includeHeaders;
-    NSMutableArray *_allGroupEntries;
-    ABGroupEntry *_allDirectoriesGroupEntry;
-    ABGroupEntry *_firstDirectoryGroupEntry;
 }
 
 - (id);
@@ -28,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -53,37 +41,29 @@
 - (void);
 - (void);
 - (void);
+- (void)y;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)L;
+- (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) ABAccount *acceptedIntroductionsAccount; // @synthesize acceptedIntroductionsAccount=_acceptedIntroductionsAccount;
 @property(retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(retain) NSArray *directoryAccounts; // @synthesize directoryAccounts=_directoryAccounts;
-@property _Bool includeAllContactsForEachAccount; // @synthesize includeAllContactsForEachAccount=_includeAllContactsForEachAccount;
-@property _Bool includeDirectoriesHeader; // @synthesize includeDirectoriesHeader=_includeDirectoriesHeader;
-@property _Bool includeHeaders; // @synthesize includeHeaders=_includeHeaders;
-@property _Bool includeLastImport; // @synthesize includeLastImport=_includeLastImport;
-@property(retain) NSArray *persistentAccounts; // @synthesize persistentAccounts=_persistentAccounts;
-@property(retain) NSArray *smartGroups; // @synthesize smartGroups=_smartGroups;
 
 @end
 

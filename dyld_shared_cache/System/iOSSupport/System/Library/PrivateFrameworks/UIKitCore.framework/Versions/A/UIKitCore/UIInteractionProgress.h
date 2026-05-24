@@ -9,17 +9,12 @@
 @interface UIInteractionProgress
 {
     NSPointerArray *_observers;
-    double _previousPercentComplete;
-    double _previousUpdateTime;
-    double _mostRecentUpdateTime;
-    long long _atLeastTwoUpdates;
-    double _percentComplete;
 }
 
-- (long long);
-- (void);
+- (long long)error writing attachment records.;
+- (void)ge-spam-model-version;
 - (unsigned long long);
-- (void);
+- (void)registerNewsConsumer:(double)arg1 levelOfService: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

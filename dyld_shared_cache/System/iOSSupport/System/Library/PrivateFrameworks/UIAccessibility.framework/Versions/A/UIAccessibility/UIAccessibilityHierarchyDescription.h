@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIAccessibilityElementDescription;
+@class UIAccessibilityElementDescription;
 
 @interface UIAccessibilityHierarchyDescription
 {
     UIAccessibilityElementDescription *_rootElement;
-    NSArray *_leafElements;
 }
 
 + (_Bool);
@@ -17,13 +16,12 @@
 - (id);
 - (void);
 - (id);
+- (id)ock timed out after 5 minutes:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)Ds;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *leafElements; // @synthesize leafElements=_leafElements;
 @property(retain, nonatomic) UIAccessibilityElementDescription *rootElement; // @synthesize rootElement=_rootElement;
 
 @end

@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINibStringIDTable;
-
 @interface UINibDecoder
 {
     Class arrayClass;
-    Class setClass;
-    Class dictionaryClass;
-    Class *classes;
-    id *missingClasses;
-    struct UINibDecoderObjectEntry *objects;
-    struct UINibDecoderValue *values;
-    char *valueTypes;
-    void *valueData;
-    unsigned long long valueDataSize;
-    struct UINibDecoderHeader header;
-    id *objectsByObjectID;
-    unsigned int *longObjectClassIDs;
-    char *shortObjectClassIDs;
-    unsigned int *keyMasks;
-    long long inlinedValueKey;
-    struct UINibDecoderRecursiveState recursiveState;
-    UINibStringIDTable *keyIDTable;
-    id delegate;
-    struct UIKeyToKeyIDCache keyIDCache;
-    struct UIKeyAndScopeToValueCache valueCache;
-    long long lookupRounds;
-    long long maxPossibleLookupRounds;
-    long long failedByKeyMask;
-    long long savedByKeyMask;
 }
 
 + (id);
@@ -40,53 +14,51 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!H;
 - (id);
 - (struct UIEdgeInsets);
 - (struct CGAffineTransform);
 - (_Bool);
+- (_Bool)c;
+- (_Bool)1;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@9a;
 - (long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)P3U;
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)2fu;
+- (void)`;
 - (void);
 - (struct CGPoint);
 - (const char *);
-- (id);
+- (id)initWithName:protectionClass: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (struct CGSize);
-- (void *);
+- (void *);
 - (long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)N;
 - (int);
 - (float);
 - (long long);
 - (_Bool);
 - (double)1Â0@ù
 × ;
-- (long long)sPoint:(id)arg1;
-- (id);
+- (long long)containsPoint:(id)arg1;
+- (id)UIF_valueWithLineBreakContext:(id)arg1;
 - (int)$;
 
 // Remaining properties
 @property id delegate; // @synthesize delegate;
-@property(readonly, nonatomic, getter=isReusable) _Bool reusable;
-@property(readonly, nonatomic) long long uniqueIDForCurrentlyDecodingObject;
 
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCBasebandCongestionDetector, VCMediaStreamConfig;
+@class VCMediaStreamConfig;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamTransport
 {
     VCMediaStreamConfig *_streamConfig;
-    unsigned int _localSSRC;
-    struct tagHANDLE *_rtpHandle;
-    _Bool _isSRTPInitialized;
-    AVCBasebandCongestionDetector *_basebandCongestionDetector;
-    int _payloadType;
-    CDStruct_e3334dec _transportStreamInfo;
-    struct tagVCCryptor *_receiverSframeCryptor;
-    struct tagVCCryptor *_transmitterSframeCryptor;
-    _Bool _rtcpXREnabled;
-    void *_defaultMediaKeyIndex;
-    _Bool _encryptionInfoReceived;
 }
 
 + (_Bool);
@@ -31,24 +20,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (int);
-- (int);
+- (int)z;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)h;
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (double);
 - (struct tagHANDLE *);
 - (double);
 - (void);
-- (void);
+- (void);
 - (struct tagVCCryptor *);
 - (double);
 - (_Bool);
@@ -62,22 +51,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct tagVCCryptor *);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (long long);
-- (void);
-- (double);
+- (void)%s :(double)arg1 Failed in file - %s line - %i;
+- (double)king renderables for inactive registry;
 - (void);
 - (int);
 - (void);
@@ -86,24 +75,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVCBasebandCongestionDetector *basebandCongestionDetector; // @synthesize basebandCongestionDetector=_basebandCongestionDetector;
-@property(nonatomic, getter=isDecryptionTimeoutEnabled) _Bool decryptionTimeoutEnabled;
-@property(readonly, nonatomic) _Bool encryptionInfoReceived; // @synthesize encryptionInfoReceived=_encryptionInfoReceived;
-@property(readonly, nonatomic) unsigned short idsStreamId;
-@property(readonly, nonatomic) double lastReceivedRTCPPacketTime;
-@property(readonly, nonatomic) struct tagVCCryptor *receiverSframeCryptor; // @synthesize receiverSframeCryptor=_receiverSframeCryptor;
-@property(nonatomic, getter=isRTCPEnabled) _Bool rtcpEnabled;
-@property(readonly, nonatomic, getter=isRTCPSendEnabled) _Bool rtcpSendEnabled;
-@property(nonatomic) double rtcpSendInterval;
-@property(nonatomic, getter=isRTCPTimeoutEnabled) _Bool rtcpTimeoutEnabled;
-@property(nonatomic) double rtcpTimeoutInterval;
-@property(readonly, nonatomic, getter=isRTCPXREnabled) _Bool rtcpXREnabled;
-@property(readonly, nonatomic) struct tagHANDLE *rtpHandle; // @synthesize rtpHandle=_rtpHandle;
-@property(nonatomic, getter=isRTPTimeoutEnabled) _Bool rtpTimeoutEnabled;
-@property(nonatomic) double rtpTimeoutInterval;
 @property(readonly, nonatomic) VCMediaStreamConfig *streamConfig; // @synthesize streamConfig=_streamConfig;
-@property(nonatomic) long long streamDirection;
-@property(readonly, nonatomic) struct tagVCCryptor *transmitterSframeCryptor; // @synthesize transmitterSframeCryptor=_transmitterSframeCryptor;
 
 @end
 

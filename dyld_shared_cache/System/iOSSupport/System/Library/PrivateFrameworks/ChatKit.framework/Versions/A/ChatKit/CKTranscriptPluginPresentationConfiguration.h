@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface CKTranscriptPluginPresentationConfiguration
 {
     _Bool _shouldDisableSnapshotView;
-    UIView *_sourceView;
-    unsigned long long _permittedArrowDirections;
 }
 
-- (_Bool);
+- (_Bool)saveServerShare:persistParticipantEvents:accountID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long)d;
 - (void)ation:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long permittedArrowDirections; // @synthesize permittedArrowDirections=_permittedArrowDirections;
-@property(readonly, nonatomic) _Bool shouldDisableSnapshotView; // @synthesize shouldDisableSnapshotView=_shouldDisableSnapshotView;
 @property(readonly, nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end

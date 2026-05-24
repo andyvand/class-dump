@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface __CFNotification
 {
     id _name;
-    id _object;
-    id _userInfo;
-    _Bool _fouSemantics;
 }
 
 - (id);
@@ -19,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 
 @end

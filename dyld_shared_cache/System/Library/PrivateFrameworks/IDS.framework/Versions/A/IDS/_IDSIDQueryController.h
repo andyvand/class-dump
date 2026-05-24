@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSString;
 
 @interface _IDSIDQueryController
 {
     NSString *_listenerGUID;
-    NSMutableDictionary *_listeners;
-    NSMutableDictionary *_idStatusCache;
-    NSMutableDictionary *_transactionIDToBlockMap;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_serviceToken;
-    NSMapTable *_delegateToInfo;
-    NSMutableDictionary *_listenerIDToServicesMap;
-    id _delegateContext;
 }
 
 + (id);
 + (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)E;
 - (void);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
 - (void);
+- (void);
+- (_Bool)initWithUnlockEnabled:(id)arg1 remotePasscodeEnabled:(id)arg2;
+- (void)allObjects;
+- (id)_localizedAppName;
+- (void)uint32;
 - (long long);
 - (void);
 - (_Bool);
@@ -45,7 +34,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -54,10 +43,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)FileOperationPublisher;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)?4;
 - (void);
 - (void);
 - (_Bool);

@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDate, NSSet, NSString;
+@class NSColor, NSSet, NSString;
 
 @protocol PXMutableSyntheticAsset
-- (NSColor *)ageData;
+- (struct CGRect);
+- (NSSet *);
+- (struct CGSize)U;
+- (void)mShadersPerContextLock;
+- (NSColor *)thumbnailImageData;
 - (NSString *)$L|¤Ü<tØ;
 - (void)ridLayoutMetrics;
 - (void)rspective;
-- (void)ything;
+- (void)PXSharedLibraryAutoSharePolicyEverything;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect acceptableCropAssetRect;
-@property(nonatomic) struct CGRect acceptableCropRect;
-@property(nonatomic) float audioScore;
-@property(nonatomic) struct CGRect bestPlaybackAssetRect;
-@property(nonatomic) struct CGRect bestPlaybackRect;
-@property(nonatomic) double curationScore;
-@property(nonatomic) struct CGRect faceAreaAssetRect;
-@property(nonatomic) struct CGRect faceAreaRect;
-@property(nonatomic) long long faceCount;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSDate *localCreationDate;
-@property(copy, nonatomic) NSString *localizedGeoDescription;
-@property(nonatomic) unsigned long long mediaSubtypes;
-@property(nonatomic) long long mediaType;
-@property(nonatomic) long long playbackStyle;
-@property(nonatomic) struct CGRect preferredCropAssetRect;
-@property(nonatomic) struct CGRect preferredCropRect;
-@property(copy, nonatomic) NSSet *sceneClassifications;
-@property(nonatomic) struct CGSize size;
-@property(copy, nonatomic) NSColor *tintColor;
 @property(copy, nonatomic) NSString *uuid;
 @end
 

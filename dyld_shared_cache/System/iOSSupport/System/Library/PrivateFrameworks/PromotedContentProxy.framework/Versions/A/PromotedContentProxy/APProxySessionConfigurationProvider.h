@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APUnfairLock, NSArray, NSURL, NSURLSessionConfiguration;
+@class NSArray, NSURLSessionConfiguration;
 
 @interface APProxySessionConfigurationProvider
 {
     NSURLSessionConfiguration *_connectProxyConfig;
-    NSArray *_protocolClasses;
-    NSURL *_proxyURL;
-    NSURL *_defaultProxyURL;
-    APUnfairLock *_lock;
 }
 
 - (void);
@@ -20,19 +16,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SFUFileDataRepresentation;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *defaultProxyURL; // @synthesize defaultProxyURL=_defaultProxyURL;
-@property(readonly, nonatomic) APUnfairLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSArray *protocolClasses; // @synthesize protocolClasses=_protocolClasses;
-@property(retain, nonatomic) NSURL *proxyURL; // @synthesize proxyURL=_proxyURL;
 
 @end
 

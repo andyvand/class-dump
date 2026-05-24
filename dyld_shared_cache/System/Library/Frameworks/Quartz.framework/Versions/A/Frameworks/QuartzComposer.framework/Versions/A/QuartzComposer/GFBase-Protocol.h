@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol GFBase
+- (void);
+- (_Bool)ror:(NSDictionary *)arg1 _C3DSkinnerUpdateBoundingBox - skinned node has no position source;
 @end
 

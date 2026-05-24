@@ -11,11 +11,12 @@
 @interface TIWordSearchRomajiKana : TIWordSearchKana
 {
     Romakana *_romakana;
+    id;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)ry/Caches/com.apple.xbs/TemporaryDirectory.AUzpBv/Sources/CameraCapture/VideoProcessors/Portrait/CCPortrait/EspressoWrapper.m;
 
 @end
 

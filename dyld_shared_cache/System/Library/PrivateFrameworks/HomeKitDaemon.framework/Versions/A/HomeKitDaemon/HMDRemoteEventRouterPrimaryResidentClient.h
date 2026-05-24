@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSUUID *_primaryResidentIdentifier;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)uniqueRouteID;
+- (void)IV;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)tadata-full.config;
 

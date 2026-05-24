@@ -5,5 +5,11 @@
 //
 
 @protocol UAOnboardingOptionsDelegate
+
+@optional
+- (void)ore"b1};
+- (void)municationProtocol"b1"transportType"b1"operationType"b1"wasCached"b1"wasLocal"b1"wasRemoteAccessAllowed"b1"wasResidentFirstEnabled"b1"wasRapportSlow"b1"residentFirstDuration"b1"residentFirstErrorCode"b1"totalDuration"b1"finalErrorCode"b1"consecutiveFailureCount"b1};
+- (void)nalDevicesReported";
+- (void)overyContext";
 @end
 

@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationPickerInteractor
 {
     id editor;
-    id delegate;
-    id itemProviders;
-    id geoService;
-    id searchToken;
-    id searchText;
-    id mostRecentItems;
-    id pendingPlacemarkRequest;
 }
 
 @end

@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TISupplementalLexiconController;
-
 @protocol TITransientLexiconManaging
+- (struct _LXLexicon *)%@;
+- (struct _LXLexicon *);
+- (void)n 25;
 - (void)ÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) TISupplementalLexiconController *ensureSupplementalLexicons;
 @property(readonly, nonatomic) struct _LXLexicon *namedEntityLexicon;
-@property(readonly, nonatomic) struct _LXLexicon *namedEntityPhraseLexicon;
-@property(nonatomic, getter=isSupplementalLexiconSearchEnabled) _Bool supplementalLexiconSearchEnabled;
-@property(readonly, nonatomic) TISupplementalLexiconController *supplementalLexicons;
 @end
 

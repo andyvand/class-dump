@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBShowAppStoreSheetCommand
 {
     NSString *_storeIdentifier;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (void);
@@ -18,9 +17,9 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)setAssetMatchedAlbumUUIDs:(id)arg1;
+- (id)_mutableTemporalFaceObjectIDsAndUUIDs;
+- (id)ed failure with nil error;
 - (id);
 - (id);
 - (void);
@@ -28,16 +27,7 @@
 - (id);õ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

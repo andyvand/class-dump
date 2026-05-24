@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWMovingWindowStats, BWStats, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class NSString;
 
 @interface BWIntermediateJPEGCompressor
 {
     NSString *_name;
-    NSObject<OS_dispatch_semaphore> *_backPressureSemaphore;
-    unsigned long long _compressedBufferSize;
-    unsigned long long _compressedBufferPoolAllocationTimeoutMS;
-    float _compressionQuality;
-    float _compressionRate;
-    int _numberOfTimesWaitedOnBackPressureSemaphore;
-    int _jpegSurfacePoolLowWaterBufferCount;
-    int _jpegSurfacePoolHighWaterBufferCount;
-    _Bool _setupIsComplete;
-    struct CMPhotoSurfacePool *_surfacePool;
-    struct CMPhotoCompressionSession *_compressionSession;
-    struct __CFDictionary *_containerOptions;
-    NSMutableDictionary *_qualityControllerParameters;
-    struct __CFDictionary *_compressionOptions;
-    struct opaqueCMFormatDescription *_jpegFormatDescription;
-    BWStats *_overallWaitStats;
-    BWMovingWindowStats *_recentWaitStats;
 }
 
 + (void);

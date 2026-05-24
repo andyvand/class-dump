@@ -6,28 +6,21 @@
 
 #import <Metal/MTLBindingInternal.h>
 
-@class MTLStructTypeInternal;
-
 __attribute__((visibility("hidden")))
 @interface MTLBuiltInMeshArgument : MTLBindingInternal
 {
     unsigned short _builtInType;
-    unsigned short _builtInDataType;
-    unsigned short _meshVertexCount;
-    unsigned short _meshPrimitiveCount;
-    unsigned short _meshTopologyType;
-    MTLStructTypeInternal *_meshVertexStruct;
-    MTLStructTypeInternal *_meshPrimitiveStruct;
 }
 
-- (id);
+- (id)true;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)srcPix->bounds (%d,%d,%d,%d)
+;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);

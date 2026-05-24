@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PDFRenderingProperties;
-@protocol OS_dispatch_queue, PDFPageBackgroundManagerDelegate;
+@protocol PDFPageBackgroundManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageBackgroundManager
 {
     id <PDFPageBackgroundManagerDelegate> _documentDelegate;
-    PDFRenderingProperties *_renderingProperties;
-    unsigned long long _activePageIndex;
-    NSMutableDictionary *_backgroundImageCache[3];
-    NSObject<OS_dispatch_queue> *_workQueue;
-    _Bool _isCancled;
-    _Bool _isWorking;
-    _Bool _willForceUpdate;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -41,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)Qv1Â0@ù
 × ;
-- (void)ront: /* Error: Ran out of types for this method. */;
+- (void)bringSubviewToFront: /* Error: Ran out of types for this method. */;
 
 @end
 

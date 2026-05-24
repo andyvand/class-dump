@@ -5,14 +5,14 @@
 //
 
 @class NSViewController;
-@protocol REMReminderCreationPublicViewController, REMReminderCreationViewServiceViewController;
+@protocol REMReminderCreationPublicViewController;
 
 @interface REMReminderCreationRemoteViewController
 {
     NSViewController<REMReminderCreationPublicViewController> *_publicViewController;
 }
 
-+ (id);
++ (id)Highlighting message with guid %s.;
 + (id);
 - (id);
 - (void);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSViewController<REMReminderCreationPublicViewController> *publicViewController; // @synthesize publicViewController=_publicViewController;
-@property(readonly, nonatomic, getter=viewServiceViewController) id <REMReminderCreationViewServiceViewController> viewServiceViewController;
 
 @end
 

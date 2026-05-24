@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface FASettingsPresetPropertyCondition
 {
     void sourceProperty;
-    NSObject *operand;
-    NSObject *result;
 }
 
+- (id)scrollToTop;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ework/Versions/A/Security;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSObject *operand; // @synthesize operand;
-@property(nonatomic, readonly) NSObject *result; // @synthesize result;
 @property(nonatomic, readonly) NSString *sourceProperty;
 
 @end

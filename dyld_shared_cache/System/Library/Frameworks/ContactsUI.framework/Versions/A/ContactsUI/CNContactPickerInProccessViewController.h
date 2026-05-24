@@ -4,72 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABBookSearchField, ABGroupEntriesList, ABPersonEntriesList, ABPersonListSearchController, CNContactCardViewController, CNContactListController, CNContactListView, CNContactPickerFamilyMemberScope, CNContactPickerNotificationWatcher, CNContactPickerSearchController, CNContactStore, CNGroupListController, CNGroupListEntriesFactory, CNGroupListView, FAFamilyMember, NSArray, NSString;
-@protocol CNContactPickerInternalResponseDelegate;
+@class ABAddressBook, CNGroupListView;
 
 @interface CNContactPickerInProccessViewController
 {
     ABAddressBook *_addressBook;
-    CNContactStore *_contactStore;
-    CNContactPickerNotificationWatcher *_notificationWatcher;
-    CNContactPickerSearchController *_contactSearchController;
-    CNContactCardViewController *_contactCardViewController;
-    ABPersonEntriesList *_personEntriesList;
-    CNContactListController *_contactListController;
-    CNGroupListController *_groupListController;
-    CNGroupListEntriesFactory *_groupEntriesFactory;
-    ABGroupEntriesList *_groupEntriesList;
-    NSArray *_prohibitedPropertykeys;
-    id <CNContactPickerInternalResponseDelegate> _responseDelegate;
-    _Bool _editingSelectedContact;
-    _Bool _showSelectedContact;
-    _Bool _highlightSelectedContact;
-    _Bool _allowMultipleSelection;
-    ABPersonListSearchController *_searchController;
-    CNGroupListView *_groupListView;
-    CNContactListView *_contactListView;
-    ABBookSearchField *_searchField;
-    CNContactPickerFamilyMemberScope *_familyMemberScope;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
+- (_Bool)S;
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
+- (id)),;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)4s;
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -84,46 +63,23 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)39TerminalRegistrationControllerInterface;
+- (void)updateKeyViewLoop;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=shouldAllowMultipleSelection) _Bool allowMultipleSelection; // @synthesize allowMultipleSelection=_allowMultipleSelection;
-@property(retain) CNContactCardViewController *contactCardViewController; // @synthesize contactCardViewController=_contactCardViewController;
-@property(retain) CNContactListController *contactListController; // @synthesize contactListController=_contactListController;
-@property __weak CNContactListView *contactListView; // @synthesize contactListView=_contactListView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditingSelectedContact) _Bool editingSelectedContact; // @synthesize editingSelectedContact=_editingSelectedContact;
-@property(readonly, nonatomic) FAFamilyMember *familyMember;
-@property(retain) CNContactPickerFamilyMemberScope *familyMemberScope; // @synthesize familyMemberScope=_familyMemberScope;
-@property(retain) CNGroupListController *groupListController; // @synthesize groupListController=_groupListController;
 @property __weak CNGroupListView *groupListView; // @synthesize groupListView=_groupListView;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=shouldHighlightSelectedContact) _Bool highlightSelectedContact; // @synthesize highlightSelectedContact=_highlightSelectedContact;
-@property(readonly, nonatomic) NSArray *prohibitedPropertykeys; // @synthesize prohibitedPropertykeys=_prohibitedPropertykeys;
-@property __weak id <CNContactPickerInternalResponseDelegate> responseDelegate; // @synthesize responseDelegate=_responseDelegate;
-@property(readonly) ABPersonListSearchController *searchController; // @synthesize searchController=_searchController;
-@property __weak ABBookSearchField *searchField; // @synthesize searchField=_searchField;
-@property(getter=isSearchFieldVisible) _Bool searchFieldVisible;
-@property(readonly, nonatomic) NSArray *selectedContacts;
-@property(readonly, nonatomic, getter=shouldShowSelectedContact) _Bool showSelectedContact; // @synthesize showSelectedContact=_showSelectedContact;
-@property(readonly) Class superclass;
 
 @end
 

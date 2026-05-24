@@ -9,33 +9,25 @@
 @interface NEFilterReport
 {
     NEFilterFlow *_flow;
-    long long _action;
-    long long _event;
-    unsigned long long _bytesInboundCount;
-    unsigned long long _bytesOutboundCount;
 }
 
-+ (_Bool);
++ (_Bool)setPassword:forUsername:onService: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)q;
 - (unsigned long long);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (long long);
+- (long long)+;
 - (void);
-- (void)tEapProtocols: /* Error: Ran out of types for this method. */;
+- (void)setEapProtocols: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long action; // @synthesize action=_action;
-@property unsigned long long bytesInboundCount; // @synthesize bytesInboundCount=_bytesInboundCount;
-@property unsigned long long bytesOutboundCount; // @synthesize bytesOutboundCount=_bytesOutboundCount;
-@property(readonly) long long event; // @synthesize event=_event;
 @property(retain) NEFilterFlow *flow; // @synthesize flow=_flow;
 
 @end

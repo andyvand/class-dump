@@ -5,5 +5,12 @@
 //
 
 @protocol PKPaymentAuthorizationHostProtocol
+- (void)%;
+
+@optional
+- (void)ka;
+- (void)*;
+- (void);
+- (void);
 @end
 

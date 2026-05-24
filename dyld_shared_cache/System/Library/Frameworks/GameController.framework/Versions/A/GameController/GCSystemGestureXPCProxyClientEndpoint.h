@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, NSString;
-@protocol GCSystemGestureXPCProxyRemoteServerEndpointInterface, NSObject><NSCopying><NSSecureCoding;
+@class GCController;
+@protocol NSObject><NSCopying><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface GCSystemGestureXPCProxyClientEndpoint
 {
     GCController *_controller;
-    id <GCSystemGestureXPCProxyRemoteServerEndpointInterface> _serverEndpoint;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)%;
 - (id);
 - (void);
-- (id);
+- (id)touchOrAddThumbnailAddition:(id)arg1 forURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBTimestamp, _INPBURLValue;
+@class _INPBURLValue;
 
 @protocol _INPBReservation
+- (void);
+- (_Bool)7;
+- (_Bool)t perform scan with nil scan parameters for %@ on interface:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions;
-@property(readonly, nonatomic) unsigned long long actionsCount;
-@property(retain, nonatomic) _INPBTimestamp *bookingTime;
-@property(readonly, nonatomic) _Bool hasBookingTime;
-@property(readonly, nonatomic) _Bool hasItemReference;
-@property(readonly, nonatomic) _Bool hasReservationHolderName;
-@property(readonly, nonatomic) _Bool hasReservationNumber;
-@property(nonatomic) _Bool hasReservationStatus;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(retain, nonatomic) _INPBDataString *itemReference;
-@property(copy, nonatomic) NSString *reservationHolderName;
-@property(copy, nonatomic) NSString *reservationNumber;
-@property(nonatomic) int reservationStatus;
 @property(retain, nonatomic) _INPBURLValue *url;
 @end
 

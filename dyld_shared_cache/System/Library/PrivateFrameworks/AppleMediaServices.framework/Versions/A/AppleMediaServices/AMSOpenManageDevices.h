@@ -6,7 +6,6 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class NSString;
 @protocol AMSBagProtocol;
 
 @interface AMSOpenManageDevices : AMSTask
@@ -33,13 +32,6 @@ lvc&D}b!¥éY?1ÄþüÇ#±²Û8_E>åÊ[~.L WYYcÓèâ°Óú	 í'°
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

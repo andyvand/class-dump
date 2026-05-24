@@ -6,9 +6,6 @@
 
 #import <AppKit/NSTextField.h>
 
-@class NSArray, NSMenu, NSString;
-@protocol NSSearchFieldDelegate;
-
 @interface NSSearchField : NSTextField
 {
     struct {
@@ -16,12 +13,9 @@
         unsigned int _isSearching:1;
         unsigned int _reserved:29;
     } _sfFlags;
-    unsigned int _reserved2;
-    unsigned int _reserved3;
-    unsigned int _reserved4;
 }
 
-+ (_Bool);
++ (_Bool)ystemTask"8;
 + (void)Ð:H /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
@@ -29,12 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (id);
 - (_Bool);
@@ -46,31 +40,18 @@
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)a new leaf;
 - (_Bool);
 - (struct CGRect);
-- (void);
-- (unsigned long long);
+- (void)_sExpirationDate;
+- (unsigned long long)ServiceType;
 - (id);
-- (id);
-- (void);
+- (id)w;
+- (void)dptxbxtext;
 - (void);
 
 // Remaining properties
-@property(setter=_setFocusRingAnimationType:) long long _focusRingAnimationType;
-@property(readonly) struct CGRect cancelButtonBounds; // @dynamic cancelButtonBounds;
-@property unsigned long long controlSize;
-@property __weak id <NSSearchFieldDelegate> delegate;
 @property(getter=isEnabled) _Bool enabled;
-@property long long maximumRecents;
-@property(copy) NSArray *recentSearches;
-@property(copy) NSString *recentsAutosaveName;
-@property(readonly) struct CGRect searchButtonBounds; // @dynamic searchButtonBounds;
-@property(retain) NSMenu *searchMenuTemplate;
-@property(readonly) struct CGRect searchTextBounds; // @dynamic searchTextBounds;
-@property _Bool sendsSearchStringImmediately;
-@property _Bool sendsWholeSearchString;
-@property(readonly) NSString *stringValue;
 
 @end
 

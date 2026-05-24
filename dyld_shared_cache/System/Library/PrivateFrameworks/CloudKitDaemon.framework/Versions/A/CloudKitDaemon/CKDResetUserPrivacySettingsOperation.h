@@ -11,8 +11,8 @@
 }
 
 + (long long);
-- (_Bool);
-- (id);
+- (_Bool)chmentID %{public}@;
+- (id);
 - (void);
 - (int);
 

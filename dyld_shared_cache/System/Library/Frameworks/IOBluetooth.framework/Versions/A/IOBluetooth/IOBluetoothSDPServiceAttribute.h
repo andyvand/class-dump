@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothSDPDataElement;
-
 @interface IOBluetoothSDPServiceAttribute
 {
     unsigned short mAttributeID;
-    IOBluetoothSDPDataElement *mAttributeDataElement;
-    IOBluetoothSDPDataElement *mAttributeIDDataElement;
-    void *_mReserved;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);

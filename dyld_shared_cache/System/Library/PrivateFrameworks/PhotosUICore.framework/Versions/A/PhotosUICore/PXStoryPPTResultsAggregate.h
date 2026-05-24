@@ -9,7 +9,6 @@
 @interface PXStoryPPTResultsAggregate
 {
     NSMutableDictionary *_measureInfos;
-    NSMutableDictionary *_extraResultsDictionaryRepresentation;
 }
 
 - (id);

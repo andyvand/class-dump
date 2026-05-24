@@ -9,10 +9,6 @@
 @interface PXPhotosensitivityProcessing
 {
     struct os_unfair_lock_s _lock;
-    PSEVideoProcessor *_lock_processor;
-    struct CGSize _lock_poolSize;
-    struct __CVPixelBufferPool *_lock_pool;
-    _Bool _forceEnable;
 }
 
 + (_Bool)rderPersistenceController.sortOrder;
@@ -27,7 +23,6 @@
 - (void)À;
 
 // Remaining properties
-@property(nonatomic) _Bool forceEnable; // @synthesize forceEnable=_forceEnable;
 @property(readonly, nonatomic) PSEVideoProcessor *lock_processor;
 
 @end

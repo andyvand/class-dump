@@ -14,9 +14,9 @@
 }
 
 + (Class);
-- (id);
-- (id);
-- (void)orAccount:completion: /* Error: Ran out of types for this method. */;
+- (id)Error:(id)arg1 %d;
+- (id);
+- (void)signInFlowController:presentGenericTermsUIForAccount:completion: /* Error: Ran out of types for this method. */;
 - (id)Share;
 
 @end

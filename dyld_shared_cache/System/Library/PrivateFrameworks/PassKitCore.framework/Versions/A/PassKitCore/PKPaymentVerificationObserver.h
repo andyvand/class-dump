@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPassVerificationMethod, PKPaymentPass;
-@protocol PKPaymentVerificationObserverDelegate;
+@class NSString, PKPassVerificationMethod;
 
 @interface PKPaymentVerificationObserver
 {
     PKPassVerificationMethod *_verificationMethod;
-    _Bool _skipSourceCheck;
-    NSString *_identifier;
-    PKPaymentPass *_pass;
-    id <PKPaymentVerificationObserverDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)X;
 - (void);
 - (_Bool);
-- (id);
+- (id)TJA;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)SharingAcceptanceKey;
+- (void)PKSharingForceErrorAfterKMLStartSharingAcceptanceKey;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKPaymentVerificationObserverDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(nonatomic) _Bool skipSourceCheck; // @synthesize skipSourceCheck=_skipSourceCheck;
 
 @end
 

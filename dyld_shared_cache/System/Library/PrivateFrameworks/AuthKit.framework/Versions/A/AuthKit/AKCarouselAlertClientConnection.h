@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AKCarouselAlertClientConnection
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSXPCConnection *_xpcConnection;
 }
 
 + (id);
@@ -20,15 +19,14 @@
 - (void);
 - (id);
 - (id);
+- (id)iJ;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)!;
+- (void)ork/Versions/C/Foundation;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

@@ -4,86 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVApplicationStateMonitor, AVContentKeySession, AVMediaDataRequester, AVSampleBufferDisplayLayer, AVSampleBufferRenderSynchronizer, NSArray, NSError, NSMutableArray, NSObject, NSString;
-@protocol AVLoggingIdentifier, OS_dispatch_queue;
-
 @interface AVSampleBufferVideoRenderer
 {
     struct OpaqueFigVideoQueue *_videoQueue;
-    _Bool _outputObscured;
-    long long _status;
-    NSError *_error;
-    AVSampleBufferDisplayLayer *_weakDisplayLayer;
-    _Bool _containsDisplayLayer;
-    struct __CFArray *_figVideoTargets;
-    struct CGRect _previousSourceRect;
-    AVApplicationStateMonitor *_applicationStateMonitor;
-    _Bool _preventsDisplaySleepDuringVideoPlayback;
-    _Bool _preventsAutomaticBackgroundingDuringVideoPlayback;
-    _Bool _requiresFlushToResumeDecoding;
-    _Bool _disallowsVideoLayerDisplayCompositing;
-    _Bool _shouldWaitForVideoTarget;
-    _Bool _hasEverEnqueued;
-    _Bool _isRequestingMediaData;
-    AVMediaDataRequester *_mediaDataRequester;
-    _Bool _readyForDisplay;
-    _Bool _aboveHighWaterLevel;
-    _Bool _createVideoQueueFailed;
-    NSString *_preferredDynamicRange;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_videoQueueQueue;
-    NSObject<OS_dispatch_queue> *_layerQueue;
-    NSObject<OS_dispatch_queue> *_videoPerformanceMetricsQueue;
-    AVSampleBufferRenderSynchronizer *_weakReferenceToSynchronizer;
-    _Bool _addedToSynchronizer;
-    _Bool _controlTimebaseSetByUserIsInUse;
-    struct OpaqueCMTimebase *_controlTimebaseSetByUser;
-    struct OpaqueCMTimebase *_readOnlyVideoQueueTimebase;
-    struct OpaqueCMTimebase *_readOnlyRenderingTimebase;
-    NSMutableArray *_videoOutputs;
-    NSObject<OS_dispatch_queue> *_flushCallbackListQueue;
-    NSObject<OS_dispatch_queue> *_flushCallbackQueue;
-    NSMutableArray *_flushCallbacks;
-    NSObject<OS_dispatch_queue> *_queueForProtectingPrerollCompleteCallback;
-    CDUnknownBlockType _pendingPrerollCompleteCallback;
-    int _pendingPrerollRequestID;
-    NSObject<OS_dispatch_queue> *_queueForCallingPrerollCompleteCallback;
-    int _upcomingPTSExpectation;
-    CDStruct_1b6d18a9 _minimumUpcomingPTS;
-    AVContentKeySession *_weakContentKeySession;
-    struct opaqueCMFormatDescription *_lastFormatDescription;
-    struct OpaqueFigCPECryptor *_lastCryptor;
-    id <AVLoggingIdentifier> _loggingIdentifier;
 }
 
 + (void)compressionPropertyKey_PropagatePerFrameHDRDisplayMetadata must be an NSNumber;
 + (_Bool)again;
-- (id);
-- (struct OpaqueCMTimebase *);
+- (id)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
+- (struct OpaqueCMTimebase *)_translatorCompiler;
+- (_Bool)_leftContextForItn;
+- (void)_initWithTokens:(_Bool)arg1 preITNTokens: /* Error: Ran out of types for this method. */;
+- (void)alytics:(_Bool)arg1;
+- (_Bool)_globalLastKeyboardUsed;
+- (void)_formattedStringWithoutEmojiModifier:(_Bool)arg1;
+- (void)_firstResultAfterResume;
+- (void)_firstCandidateItnIntervalInTicks;
+- (void)_firstCandidateItnCount;
+- (void)vector<quasar:(_Bool)arg1:Token, std::allocator<quasar::Token>>=^{Token}^{Token}{?=^{Token}}},R,N,V_quasarTokens /* Error: Ran out of types for this method. */;
+- (void)quasar:(struct OpaqueCMTimebase *)arg1:NgramLmModel2>=^{NgramLmModel2}^{__shared_weak_count}},R,N,V_ngramModel /* Error: Ran out of types for this method. */;
+- (void)d_weak_count}},R,N,V_model;
+- (void)cator<quasar::language_detector::Locale>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<bool>=(?=cB)B}{optional<std::vector<quasar::language_detector::Locale>>=(?=c{vector<quasar::language_detector::Locale, std::allocator<quasar::language_detector::Locale>>=^{Locale}^{Locale}{?=^{Locale}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (_Bool)uasar::language_detector::Locale>, std::allocator<quasar::language_detector::Locale>>={__tree<quasar::language_detector::Locale, std::less<quasar::language_detector::Locale>, std::allocator<quasar::language_detector::Locale>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<bool>=(?=cB)B}{optional<std::vector<quasar::language_detector::Locale>>=(?=c{vector<quasar::language_detector::Locale, std::allocator<quasar::language_detector::Locale>>=^{Locale}^{Locale}{?=^{Locale}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)guage;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool),V_shouldGenerateVoiceCommandCandidates;
+- (void)mplete;
+- (_Bool)_vadGatingLevel;
+- (void)R,C,N,V_endOfSentenceLikelihood;
+- (_Bool)xL;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (id);
@@ -98,32 +51,32 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)x;
 - (int);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
-- (void);
+- (int)z;
 - (void);
 - (void);
+- (void);
 - (struct OpaqueCMTimebase *);
 - (id);
 - (_Bool);
 - (int);
 - (_Bool);
-- (void);
+- (void)@#T$x%;
 - (void);
 - (int);
 - (_Bool);
 - (_Bool);
-- (int);
-- (CDStruct_b7523c42);
+- (int)b;
+- (CDStruct_62e32a95);
 - (void);
 - (id);
-- (void);
+- (void)*P+,;
 - (void);
 - (struct OpaqueCMTimebase *);
 - (void);
@@ -132,45 +85,26 @@
 - (void);
 - (_Bool);
 - (struct OpaqueFigVideoQueue *);
-- (id);
+- (id)`;
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)esMoreVideoFramesInMemory: /* Error: Ran out of types for this method. */;
-- (_Bool)e;
+- (void)setReversesMoreVideoFramesInMemory: /* Error: Ran out of types for this method. */;
+- (_Bool)_rawValue;
 
 // Remaining properties
-@property(copy, nonatomic, getter=_STSLabel) NSString *STSLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=_disallowsVideoLayerDisplayCompositing, setter=_setDisallowsVideoLayerDisplayCompositing:) _Bool disallowsVideoLayerDisplayCompositing;
-@property(readonly) NSError *error;
-@property(readonly, nonatomic) _Bool hasSufficientMediaDataForReliablePlaybackStart;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool outputObscuredDueToInsufficientExternalProtection;
-@property(readonly, nonatomic) NSArray *outputs;
-@property(nonatomic) _Bool preventsAutomaticBackgroundingDuringVideoPlayback;
-@property(nonatomic) _Bool preventsCapture;
-@property(nonatomic) _Bool preventsDisplaySleepDuringVideoPlayback;
-@property(readonly, getter=isReadyForMoreMediaData) _Bool readyForMoreMediaData;
-@property(readonly) _Bool requiresFlushToResumeDecoding;
-@property(readonly) long long status;
-@property(readonly) Class superclass;
-@property(readonly, retain) struct OpaqueCMTimebase *timebase;
 
 @end
 

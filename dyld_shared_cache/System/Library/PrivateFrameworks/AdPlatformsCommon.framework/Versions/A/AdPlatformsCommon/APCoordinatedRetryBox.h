@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
 @protocol APRequestCoordinatorDelegate;
 
 @interface APCoordinatedRetryBox
 {
     _Bool _canRetry;
-    id <APRequestCoordinatorDelegate> _requestDelegate;
-    long long _requestType;
-    NSUUID *_requestID;
-    NSUUID *_requesterID;
 }
 
 - (void);
@@ -25,15 +20,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (long long)estCompletionBlockByRequestID;
+- (long long)requestCompletionBlockByRequestID;
 
 // Remaining properties
-@property _Bool canRetry; // @synthesize canRetry=_canRetry;
-@property(readonly, nonatomic) NSDictionary *diagnosticReportPayload;
 @property(readonly, nonatomic) __weak id <APRequestCoordinatorDelegate> requestDelegate; // @synthesize requestDelegate=_requestDelegate;
-@property(readonly, nonatomic) NSUUID *requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(readonly, nonatomic) NSUUID *requesterID; // @synthesize requesterID=_requesterID;
 
 @end
 

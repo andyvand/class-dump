@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (void);
+- (id)AutoFillCompletionUIPresentationController;
+- (void)PerSitePreferenceCheckBoxItemViewController;
 
 @end
 

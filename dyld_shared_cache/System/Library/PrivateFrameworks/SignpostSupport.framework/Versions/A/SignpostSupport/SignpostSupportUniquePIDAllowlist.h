@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)Debug entitlement was not requested. Please enable Factory Debug to fuse.;
 
 @end
 

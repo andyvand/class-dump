@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol IDSTestableLink
-- (_Bool);
+- (unsigned int);
+- (unsigned int)R;
+- (long long)T`;
 
 // Remaining properties
-@property(readonly) NSString *interfaceName;
-@property(readonly) long long ipFamily;
-@property(readonly) _Bool isConstrained;
-@property(readonly) _Bool isDelegated;
-@property(readonly) _Bool isExpensive;
-@property(readonly) long long kind;
 @property(readonly) BOOL linkID;
-@property(readonly) long long linkTestStatsPacketOverhead;
-@property(readonly) unsigned int localRAT;
-@property(readonly) unsigned int remoteRAT;
-@property(readonly) unsigned long long totalBytesReceived;
-@property(readonly) unsigned long long totalBytesSent;
-@property(readonly) unsigned long long totalPacketsReceived;
-@property(readonly) unsigned long long totalPacketsSent;
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol _UITraitOverrideDelegate
+- (void);
+
+@optional
+- (void)Session"32@"NSString"40@"NSData"48;
 @end
 

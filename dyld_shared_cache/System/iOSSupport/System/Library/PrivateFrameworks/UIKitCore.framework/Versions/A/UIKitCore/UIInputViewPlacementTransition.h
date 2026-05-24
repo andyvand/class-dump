@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewAnimationStyle, UIInputViewSetNotificationInfo, UIInputViewSetPlacement;
-@protocol NSObject, UIInputViewAnimationController;
+@class UIInputViewSetPlacement;
 
 __attribute__((visibility("hidden")))
 @interface UIInputViewPlacementTransition
 {
     _Bool cancelled;
-    int animationState;
-    UIInputViewSetPlacement *fromPlacement;
-    UIInputViewSetPlacement *toPlacement;
-    UIInputViewAnimationStyle *animationStyle;
-    UIInputViewSetNotificationInfo *notificationInfo;
-    unsigned long long notifications;
-    id <NSObject> animationContext;
-    id <UIInputViewAnimationController> animationController;
 }
 
 + (id);
@@ -26,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void)MPStoreModelTVShowCreatorBuilder;
 - (void);
 - (id);
 - (void);
@@ -34,28 +25,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)@ù
 × ;
-- (id)inerViewFromSuperview;
-- (id)InputViewInSet:includingIAV: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)ionSupportedInputModeIdentifiers;
-- (void)ler:(id)arg1;
+- (id)removeContainerViewFromSuperview;
+- (id)remoteIntrinsicContentSizeForInputViewInSet:includingIAV: /* Error: Ran out of types for this method. */;
+- (id)initWithCallOutQueue:replyHandler: /* Error: Ran out of types for this method. */;
+- (id)activeDictationSupportedInputModeIdentifiers;
+- (void)_setParentViewController:(id)arg1;
 - (id)tion",&,N,V_wrappedFindInteraction;
-- (void)en;
-- (void)tion;
+- (void)_percentFullScreen;
+- (void)_UIWindowWillMoveToNilSceneNotification;
 - (void);
 - (void)Ø/pþKTç;
 - (unsigned long long)=h;
 
 // Remaining properties
-@property(retain, nonatomic) id <NSObject> animationContext; // @synthesize animationContext;
-@property(retain, nonatomic) id <UIInputViewAnimationController> animationController; // @synthesize animationController;
-@property(nonatomic) int animationState; // @synthesize animationState;
-@property(retain, nonatomic) UIInputViewAnimationStyle *animationStyle; // @synthesize animationStyle;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled;
 @property(retain, nonatomic) UIInputViewSetPlacement *fromPlacement; // @synthesize fromPlacement;
-@property(retain, nonatomic) UIInputViewSetNotificationInfo *notificationInfo; // @synthesize notificationInfo;
-@property(nonatomic) unsigned long long notifications; // @synthesize notifications;
-@property(retain, nonatomic) UIInputViewSetPlacement *toPlacement; // @synthesize toPlacement;
 
 @end
 

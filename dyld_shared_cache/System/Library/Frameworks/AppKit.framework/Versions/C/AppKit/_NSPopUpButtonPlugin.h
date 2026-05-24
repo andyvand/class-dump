@@ -10,23 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _NSPopUpButtonPlugin : _NSSelectionBinderPlugin
 {
     unsigned long long _dynamicContentPlacementIndex;
-    struct __NSKeyValueCodingControllerModeType _modeWhileIgnoringPopUpPopulation;
-    id _dynamicallyGeneratedItems;
 }
 
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)W5kTfIuxkKpHVdWTk42C9A;
+- (void)_CTServerConnectionCopyMobileSubscriberNetworkCode;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -35,10 +33,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (Class);
-- (long long);
-- (_Bool);
+- (long long);
+- (_Bool);
 - (id);
-- (void);
+- (void)w_context>",R;
 - (void);
 
 @end

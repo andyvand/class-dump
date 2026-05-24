@@ -9,34 +9,21 @@
 @interface RemindersUICore.TTRMHashtagWrappingCollectionView : RemindersUICore.TTRNoAnimationContainerBoxView
 {
     id collectionViewDelegate;
-    id wrappingContainer;
-    id showsAllTagsButton;
-    id hashtagLabels;
-    id allowsEmptySelection;
-    id allowsExcludedSelection;
-    id populator;
-    id internalSelection;
-    id dropState;
-    id targetHashtagLabelForPerformingDrop;
-    id dynamicTypeSizeObserver;
-    id contentSizeCancellable;
-    id contentSizeCache;
-    id updateFlags;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long)ontroller"16Q24;
+- (unsigned long long)String";
+- (void)@32@40;
+- (void)_wrappingKey;
+- (struct CGSize);
+- (id)P;
+- (id);
 - (struct CGSize);
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (void)CSg;
+- (void)So14REMListStorageCSg;
 - (void);
 
 // Remaining properties

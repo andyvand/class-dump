@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -30,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)0;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *serviceProperties; // @synthesize serviceProperties=_serviceProperties;

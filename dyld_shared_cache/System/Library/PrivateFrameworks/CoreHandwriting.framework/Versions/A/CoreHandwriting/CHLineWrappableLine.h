@@ -4,48 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRNormalizedQuad, NSLocale, NSString, NSUUID;
+@class CRNormalizedQuad;
 
 @interface CHLineWrappableLine
 {
     CRNormalizedQuad *_boundingQuad;
-    unsigned long long _layoutDirection;
-    unsigned long long _lineWrappingType;
-    NSLocale *_locale;
-    NSString *_text;
-    unsigned long long _textRegionType;
-    NSUUID *_uuid;
 }
 
-+ (_Bool);
++ (_Bool)_filterCorrection;
 - (void);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)rd;
+- (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)d on customer install.;
 - (id);
 - (void)Ø$ø;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad; // @synthesize boundingQuad=_boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
 @property unsigned long long lineWrappingType; // @synthesize lineWrappingType=_lineWrappingType;
-@property(readonly) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly) Class superclass;
-@property(readonly) NSString *text; // @synthesize text=_text;
-@property(readonly) unsigned long long textRegionType; // @synthesize textRegionType=_textRegionType;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

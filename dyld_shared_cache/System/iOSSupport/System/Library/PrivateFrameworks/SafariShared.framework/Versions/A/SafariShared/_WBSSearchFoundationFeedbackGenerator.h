@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSNumber, NSString, SFRankingFeedback, SFSearchResult;
-@protocol _CompletionListRankingObserverFeedbackGeneratorDelegate;
+@class NSDate, SFRankingFeedback;
 
 @interface _WBSSearchFoundationFeedbackGenerator
 {
     NSDate *_rankingStartDate;
-    NSMutableArray *_sectionRankingFeedbackObjects;
-    NSString *_currentSectionBundleIdentifier;
-    NSMutableArray *_currentSectionResultRankingFeedbackObjects;
-    SFSearchResult *_hiddenSiriSuggestedWebsite;
-    NSNumber *_prefixNavigationalIntent;
-    _Bool _serverCompletionDidMatchFirstSearchSuggestionFrom3rdParty;
-    SFRankingFeedback *_rankingFeedback;
 }
 
 - (void);
@@ -29,21 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Solothurn;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_CompletionListRankingObserverFeedbackGeneratorDelegate> delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<_CompletionListRankingObserverFeedbackGeneratorDelegate>",?,W,N
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SFRankingFeedback *rankingFeedback; // @synthesize rankingFeedback=_rankingFeedback;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, IMHandle, NSArray, NSMutableArray, NSString;
+@class CNContact;
 
 @interface IMMe
 {
     CNContact *_cnContact;
-    NSString *_cnNickname;
-    NSString *_cnFirstName;
-    NSString *_cnFullName;
-    NSString *_cnLastName;
-    NSArray *_cnEmails;
-    NSMutableArray *_cnIMHandles;
-    NSMutableArray *_loginIMHandles;
 }
 
 + (id);
@@ -27,31 +20,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)$;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void)`d
+,;
+- (id);
+- (id)xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/UIProcess/API/C/WKUserContentExtensionStoreRef.cpp;
 - (id);
 - (id);
 - (id);
@@ -59,29 +53,13 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ilePathsToTmpLocation: /* Error: Ran out of types for this method. */;
+- (id)copyFilePathsToTmpLocation: /* Error: Ran out of types for this method. */;
 - (void)­;
 - (id)´
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) IMHandle *bestIMHandle;
 @property(retain, nonatomic) CNContact *cnContact; // @synthesize cnContact=_cnContact;
-@property(retain, nonatomic) NSArray *cnEmails; // @synthesize cnEmails=_cnEmails;
-@property(retain, nonatomic) NSString *cnFirstName; // @synthesize cnFirstName=_cnFirstName;
-@property(retain, nonatomic) NSString *cnFullName; // @synthesize cnFullName=_cnFullName;
-@property(retain, nonatomic) NSMutableArray *cnIMHandles; // @synthesize cnIMHandles=_cnIMHandles;
-@property(retain, nonatomic) NSString *cnLastName; // @synthesize cnLastName=_cnLastName;
-@property(retain, nonatomic) NSString *cnNickname; // @synthesize cnNickname=_cnNickname;
-@property(readonly, nonatomic) NSString *email;
-@property(readonly, nonatomic) NSArray *emails;
-@property(readonly, nonatomic) NSString *firstName;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) NSString *guid;
-@property(readonly, nonatomic) NSArray *imHandles;
-@property(readonly, nonatomic) NSString *lastName;
-@property(retain, nonatomic) NSMutableArray *loginIMHandles; // @synthesize loginIMHandles=_loginIMHandles;
-@property(readonly, nonatomic) NSString *nickname;
 
 @end
 

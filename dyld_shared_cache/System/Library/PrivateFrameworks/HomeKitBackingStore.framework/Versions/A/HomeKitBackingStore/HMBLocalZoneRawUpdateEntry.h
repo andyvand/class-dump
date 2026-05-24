@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModel, NSData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneRawUpdateEntry
 {
     NSData *_encoded;
-    HMBModel *_model;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSData *encoded; // @synthesize encoded=_encoded;
-@property(retain, nonatomic) HMBModel *model; // @synthesize model=_model;
 
 @end
 

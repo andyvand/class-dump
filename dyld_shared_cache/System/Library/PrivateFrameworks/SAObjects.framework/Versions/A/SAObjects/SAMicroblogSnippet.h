@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)7;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *microblogs;

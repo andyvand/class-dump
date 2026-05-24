@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXServiceDomain, NSString, Protocol;
+@class Protocol;
 
 __attribute__((visibility("hidden")))
 @interface CXChannelServiceDefinition
@@ -18,16 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) Protocol *clientXPCInterface;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) CXServiceDomain *domain;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) Protocol *serverXPCInterface;
-@property(readonly) Class superclass;
 
 @end
 

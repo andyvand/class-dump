@@ -5,5 +5,7 @@
 //
 
 @protocol SPLocalBeaconManagerXPCProtocol
+- (void);
+- (void);
 @end
 

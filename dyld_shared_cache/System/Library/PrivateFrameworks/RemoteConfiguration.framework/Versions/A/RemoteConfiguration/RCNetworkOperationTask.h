@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSHTTPURLResponse, NSMutableData, NSString;
+@class NSString;
 
 @interface RCNetworkOperationTask
 {
     NSString *_identifier;
-    NSHTTPURLResponse *_httpResponse;
-    CDUnknownBlockType _completionHandler;
-    NSMutableData *_dataStore;
 }
 
 - (void);
@@ -29,10 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) NSData *data;
-@property(retain, nonatomic) NSMutableData *dataStore; // @synthesize dataStore=_dataStore;
-@property(retain, nonatomic) NSHTTPURLResponse *httpResponse; // @synthesize httpResponse=_httpResponse;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

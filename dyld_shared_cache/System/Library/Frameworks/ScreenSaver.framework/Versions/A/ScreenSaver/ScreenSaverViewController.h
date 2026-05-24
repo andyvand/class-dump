@@ -7,21 +7,19 @@
 @interface ScreenSaverViewController
 {
     _Bool _initialAnimationState;
-    _Bool _didFirstResize;
 }
 
 - (void);
-- (void);
+- (void)hj8p;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)89;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool didFirstResize; // @synthesize didFirstResize=_didFirstResize;
 @property _Bool initialAnimationState; // @synthesize initialAnimationState=_initialAnimationState;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SPTagSeparationProtocol
+- (void)7;
 @end
 

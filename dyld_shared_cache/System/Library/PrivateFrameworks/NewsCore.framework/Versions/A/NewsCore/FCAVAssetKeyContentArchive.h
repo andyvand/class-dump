@@ -15,13 +15,13 @@
 
 + (_Bool);
 - (id);
+- (id)T;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (long long);
-- (void)ticleRecirculation;
+- (long long)__TEXT;
+- (void)disableThumbnailsForArticleRecirculation;
 - (id)þ;
 
 @end

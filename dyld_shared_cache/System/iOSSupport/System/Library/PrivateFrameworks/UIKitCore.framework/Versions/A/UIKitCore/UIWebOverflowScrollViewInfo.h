@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, UIView, UIWebOverflowScrollView;
+@class UIView, UIWebOverflowScrollView;
 
 __attribute__((visibility("hidden")))
 @interface UIWebOverflowScrollViewInfo
 {
     UIWebOverflowScrollView *_scrollView;
-    CALayer *_scrollViewLayer;
-    UIView *_oldSuperview;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)pletionHandler:(id)arg1;
+- (id)iceDataQueue;
+- (void)e range;
 - (id)clientContainerView;
 - (id)pearanceObserverInteraction;
 - (void);

@@ -7,12 +7,10 @@
 @interface NAPlayableArticleInfo
 {
     id articleId;
-    id listeningProgress;
-    id paused;
 }
 
 - (id);
-- (void)troller;
+- (void)blueprintViewController;
 
 @end
 

@@ -4,16 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSData, NSFileHandle, NSString, NSURL;
 
 @protocol HMDFileManager
+- (_Bool)_previousScreenSameCallWindowRect;
+- (_Bool)ystem version:(NSString *)arg1 %ld;
+- (_Bool);
+- (NSFileHandle *)a;
 - (_Bool)s entity:(NSURL *)arg1 %@;
 - (NSData *)o message router found for accessory:(NSURL *)arg1 %@;
-- (_Bool)toredCharacteristics;
+- (_Bool)monitoredCharacteristics;
 - (_Bool)ID;
 
 // Remaining properties
 @property(readonly, copy) NSURL *heroFrameStoreDirectoryURL;
-@property(readonly, copy) NSURL *legacyHeroFrameStoreDirectoryURL;
 @end
 

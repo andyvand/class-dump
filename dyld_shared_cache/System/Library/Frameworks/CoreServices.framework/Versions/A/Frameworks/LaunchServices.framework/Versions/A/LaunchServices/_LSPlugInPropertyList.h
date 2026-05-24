@@ -6,19 +6,14 @@
 
 #import <LaunchServices/_LSLazyPropertyList.h>
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _LSPlugInPropertyList : _LSLazyPropertyList
 {
     _LSLazyPropertyList *_infoPlist;
-    _LSLazyPropertyList *_sdkPlist;
-    NSDictionary *_mergedPlist;
-    struct os_unfair_lock_s _mergeLock;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)elineState>"24Q32;
+- (_Bool)!;
 - (id);
 - (void);
 - (id);

@@ -8,12 +8,12 @@
 
 @interface UnknownClass (NAUIAutolayoutDebugging)
 + (void);
-+ (void);
-+ (void);
++ (void);
++ (void)Vl;
 + (void);
 + (void);
 - (void);
-- (void);
+- (void)z;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -24,15 +24,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)l;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)z;
 
 // Remaining properties
 @property(retain, nonatomic, setter=naui_setDynamicFontTextStyleDescriptor:) NAUITextStyleDescriptor *naui_dynamicFontTextStyleDescriptor;

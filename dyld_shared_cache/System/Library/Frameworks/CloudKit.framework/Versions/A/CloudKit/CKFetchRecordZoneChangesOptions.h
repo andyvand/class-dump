@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKServerChangeToken, NSArray;
-
 @interface CKFetchRecordZoneChangesOptions
 {
     _Bool _fetchNewestChangesFirst;
-    _Bool _fetchChangesMadeByThisDevice;
-    CKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
-    NSArray *_desiredKeys;
 }
 
 + (_Bool);
@@ -20,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -35,11 +29,7 @@
 - (void)GIeghg_;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property _Bool fetchChangesMadeByThisDevice; // @synthesize fetchChangesMadeByThisDevice=_fetchChangesMadeByThisDevice;
 @property _Bool fetchNewestChangesFirst; // @synthesize fetchNewestChangesFirst=_fetchNewestChangesFirst;
-@property(copy, nonatomic) CKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 
 @end
 

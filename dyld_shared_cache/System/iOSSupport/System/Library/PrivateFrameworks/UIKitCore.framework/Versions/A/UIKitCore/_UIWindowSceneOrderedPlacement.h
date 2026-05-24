@@ -13,17 +13,17 @@
     UISScenePlacementConfiguration *_config;
 }
 
-+ (id);
++ (id);
 + (id);
 + (unsigned long long);
-- (id);
+- (id)SSo27IMServiceReachabilityResultCG;
 - (id);
 - (void)
 × ;
 - (_Bool)@0:(id)arg1 8{CGPoint=dd}16i32;
 - (id);
 - (id)ILabel",&,N,S_setAssociatedScalingLabel:(id)arg1;
-- (id)PickerControllerViewWidth;
+- (id)_UIImagePickerControllerViewWidth;
 - (void)rÎþÿ;
 
 // Remaining properties

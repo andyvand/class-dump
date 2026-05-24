@@ -9,9 +9,6 @@
 @interface Swift.__VaListBuilder : Swift._SwiftObject
 {
     id requiredAlignmentInBytes;
-    id count;
-    id allocated;
-    id storage;
 }
 
 @end

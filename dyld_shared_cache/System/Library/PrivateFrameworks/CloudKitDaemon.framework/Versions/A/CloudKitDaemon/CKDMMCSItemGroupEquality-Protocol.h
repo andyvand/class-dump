@@ -7,8 +7,9 @@
 @class CKAssetDownloadPreauthorization, NSString, NSURL;
 
 @protocol CKDMMCSItemGroupEquality
-- (NSString *)ID;
-- (NSURL *)tionIdentifier;
+- (NSString *);
+- (NSString *)aa_altDSID;
+- (NSURL *)_putPackageSectionIdentifier;
 - (CKAssetDownloadPreauthorization *)cordID",C,N,V_shareRecordID;
 @end
 

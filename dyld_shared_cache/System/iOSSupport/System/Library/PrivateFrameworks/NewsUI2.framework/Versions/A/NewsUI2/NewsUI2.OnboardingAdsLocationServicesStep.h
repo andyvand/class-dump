@@ -7,9 +7,6 @@
 @interface NewsUI2.OnboardingAdsLocationServicesStep
 {
     id viewControllerProvider;
-    id continueAction;
-    id manageAction;
-    id lazyShouldShow;
 }
 
 @end

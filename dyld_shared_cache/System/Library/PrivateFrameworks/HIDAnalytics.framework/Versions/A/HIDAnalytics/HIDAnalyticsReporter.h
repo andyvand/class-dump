@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableSet;
 
 @interface HIDAnalyticsReporter
 {
     NSMutableSet *_events;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

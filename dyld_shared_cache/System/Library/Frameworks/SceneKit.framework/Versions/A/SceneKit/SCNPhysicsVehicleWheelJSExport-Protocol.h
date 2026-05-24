@@ -7,6 +7,8 @@
 @class SCNNode;
 
 @protocol SCNPhysicsVehicleWheelJSExport
+- (void);
+- (void);
 - (id)loat3(float4x4 matrix, float3 src)
     {
         float3 dst  =  src.xxx * matrix[0].xyz;
@@ -667,17 +669,6 @@ inline float4 ComputeCascadedShadow(sampler shadow_sampler, float3 viewPos, floa
 - (SCNNode *)setEmissionDurationVariation:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property struct SCNVector3 axle;
-@property struct SCNVector3 connectionPosition;
-@property double frictionSlip;
-@property double maximumSuspensionForce;
-@property double maximumSuspensionTravel;
 @property(readonly) SCNNode *node;
-@property double radius;
-@property struct SCNVector3 steeringAxis;
-@property double suspensionCompression;
-@property double suspensionDamping;
-@property double suspensionRestLength;
-@property double suspensionStiffness;
 @end
 

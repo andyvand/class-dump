@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface TRIAllocationStatus
 {
     unsigned char _type;
-    NSDate *_date;
 }
 
 + (id);
@@ -17,9 +14,9 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)$^!( !($!(#!(";
 + (id);
 + (id);
 + (_Bool);
@@ -35,7 +32,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

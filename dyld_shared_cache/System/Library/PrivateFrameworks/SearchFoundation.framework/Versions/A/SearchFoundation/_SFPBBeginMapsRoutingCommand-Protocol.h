@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng;
+@class NSData, _SFPBLatLng;
 
 @protocol _SFPBBeginMapsRoutingCommand
-- (void);
+- (void);
+- (NSData *);
+- (void);
 
 // Remaining properties
-@property(nonatomic) int directionsMode;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBLatLng *location;
-@property(copy, nonatomic) NSData *mapsData;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute;
 @end
 

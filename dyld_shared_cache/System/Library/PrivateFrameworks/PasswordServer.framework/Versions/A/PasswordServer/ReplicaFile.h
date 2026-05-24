@@ -7,11 +7,6 @@
 @interface ReplicaFile
 {
     struct __CFDictionary *mReplicaDict;
-    struct __CFArray *mFlatReplicaArray;
-    _Bool mDirty;
-    struct timespec mReplicaFileModDate;
-    struct __CFString *mSelfName;
-    _Bool mRunningAsParent;
 }
 
 - (struct __CFDictionary *);
@@ -19,9 +14,9 @@
 - (id);
 - (id);
 - (void);
+- (id)";
 - (id);
-- (id);
-- (void);
+- (void)compressedSize;
 - (void);
 - (void);
 - (id);

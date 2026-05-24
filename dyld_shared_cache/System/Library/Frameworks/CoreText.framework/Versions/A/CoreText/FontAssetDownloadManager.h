@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface FontAssetDownloadManager
 {
     struct TCFRef<const __CFArray *> fDescriptors;
-    struct TCFRef<const __CFSet *> fMandatoryAttributes;
-    CDUnknownBlockType fProgressCallbackBlock;
-    NSMutableDictionary *fProgressParams;
-    NSMutableDictionary *fDownloadOptions;
-    NSMutableDictionary *fAssetToDescriptors;
 }
 
-- (void);
+- (void)Titlecase_Mapping;
 - (id);
 - (void)kÿ²LmÿLoÿLsÿ²LuÿLvÿLxÿLyÿ²M;
 

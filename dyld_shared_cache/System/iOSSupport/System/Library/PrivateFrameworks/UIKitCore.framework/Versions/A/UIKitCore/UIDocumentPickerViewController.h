@@ -6,42 +6,29 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSMutableArray, NSURL;
-@protocol UIDocumentPickerDelegate, UINSDocumentPickerViewController;
+@protocol UIDocumentPickerDelegate;
 
 @interface UIDocumentPickerViewController : UIViewController
 {
     id <UIDocumentPickerDelegate> _weak_delegate;
-    NSMutableArray *_securityScopedURLs;
-    id <UINSDocumentPickerViewController> _bridgedDocumentPickerViewController;
-    _Bool _ignoreApplicationEntitlementForImport;
-    _Bool _allowsMultipleSelection;
-    _Bool _isContentManaged;
-    _Bool _automaticallyDismissesAfterCompletion;
-    id <UIDocumentPickerDelegate> _delegate;
-    unsigned long long _documentPickerMode;
-    NSURL *_directoryURL;
-    NSArray *_documentTypes;
-    UIViewController *_childViewController;
-    NSArray *_uploadURLs;
 }
 
 + (_Bool);
+- (id);
+- (_Bool)%@ with low quality image mode on. Forcing size limit to be %@;
+- (void)st. Defaulting to %@;
+- (void)rted;
+- (void)different service;
+- (void)mark as reviewed command pipeline;
+- (unsigned long long)url to:%@ /* Error: Ran out of types for this method. */;
+- (id)Database;
+- (id)IMDCKMessageSyncCKOperationFactory;
+- (id)ScheduledMessageBlocklistObserver;
+- (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -53,7 +40,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -71,21 +58,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setMinimumComponentCount:(id)arg1;
+- (void)setMetadata:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)a;
+- (void)e:%@> /* Error: Ran out of types for this method. */;
 - (_Bool)
 × ;
 - (id)ñ\Ð1Â0@ù
 × ;
 - (void)estureHandlerDelegate>";
-- (id)mandWithTitle:imageName:action:input:modifierFlags: /* Error: Ran out of types for this method. */;
+- (id)commandWithTitle:imageName:action:input:modifierFlags: /* Error: Ran out of types for this method. */;
 - (long long)non-exclusive touch types. This value will be ignored.;
 - (void)UIAlertAction"8Q16^B24;
 - (void)id);
@@ -94,21 +81,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_ignoreApplicationEntitlementForImport, setter=_setIgnoreApplicationEntitlementForImport:) _Bool _ignoreApplicationEntitlementForImport; // @synthesize _ignoreApplicationEntitlementForImport;
-@property(retain, nonatomic) NSMutableArray *_securityScopedURLs; // @synthesize _securityScopedURLs;
-@property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property(nonatomic, getter=_automaticallyDismissesAfterCompletion, setter=_setAutomaticallyDismissesAfterCompletion:) _Bool automaticallyDismissesAfterCompletion; // @synthesize automaticallyDismissesAfterCompletion=_automaticallyDismissesAfterCompletion;
-@property(retain, nonatomic, getter=_childViewController, setter=_setChildViewController:) UIViewController *childViewController; // @synthesize childViewController=_childViewController;
-@property(nonatomic) __weak id <UIDocumentPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSURL *directoryURL; // @synthesize directoryURL=_directoryURL;
 @property(nonatomic) unsigned long long documentPickerMode; // @synthesize documentPickerMode=_documentPickerMode;
-@property(copy, nonatomic) NSArray *documentTypes; // @synthesize documentTypes=_documentTypes;
-@property(nonatomic, getter=_forPickingDownloadsFolder, setter=_setForPickingDownloadsFolder:) _Bool forPickingDownloadsFolder;
-@property(nonatomic, getter=_isContentManaged, setter=_setIsContentManaged:) _Bool isContentManaged; // @synthesize isContentManaged=_isContentManaged;
-@property(nonatomic) unsigned long long pickerUserInterfaceStyle;
-@property(nonatomic) _Bool shouldShowFileExtensions;
-@property(nonatomic, getter=_sourceIsManaged, setter=_setSourceIsManaged:) _Bool sourceIsManaged; // @dynamic sourceIsManaged;
-@property(copy, nonatomic) NSArray *uploadURLs; // @synthesize uploadURLs=_uploadURLs;
 
 @end
 

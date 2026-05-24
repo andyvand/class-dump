@@ -4,38 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, _UIAsyncInvocationObserver, _UIRemoteViewController, _UIRemoteViewService;
+@class FBSSceneSettings, FBSSettingsDiff, NSSet, NSString, _UIAsyncInvocation, _UIAsyncInvocationObserver, _UIRemoteViewController, _UIRemoteViewService;
 @protocol UIContentContainer;
 
 @protocol _UIRemoteViewControllerImpl
++ (_UIAsyncInvocation *)availabilityOffGridRecipientEncryptionValidationToken;
+- (_Bool);
+- (long long);
+- (void)updateLastAddressedHandle:forceUpdate: /* Error: Ran out of types for this method. */;
+- (void)setFetchedExitDateOnLaunch:(struct UIEdgeInsets)arg1;
+- (_UIRemoteViewService *)login;
+- (void)enumerateMessagesToRelayOnService:(FBSSettingsDiff *)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (_UIRemoteViewController *)downloadStickerPackWithGUID:isIncomingMessage:ignoreCache: /* Error: Ran out of types for this method. */;
+- (void)connection:(FBSSceneSettings *)arg1 didReceiveIncomingMessage: /* Error: Ran out of types for this method. */;
+- (NSSet *)accountShouldBeAlwaysLoggedIn;
+- (void)_processMessagesForRelayIfNeededMarkingAsRelayedUponSuccess:(struct CGRect)arg1;
+- (id)_notifyWidgetKitTimeline:(NSString *)arg1;
+- (void)_containsHandlesForTrustedData:(long long)arg1;
+- (void)IMDaemonListenerFileProviderProtocol>",R,N;
+- (void)ecordCG;
+- (void)*;
+- (int);
+- (void);
 - (void)0@ù
 × ;
 - (_Bool)!hCùQ^1Â0@ù
 × ;
-- (void);
 - (void)1Â0@ù
 × ;
 - (void)_updatePromptDelay;
-- (void)h;
+- (void)_hostingGraph;
 - (_Bool)redContentAlignment;
 - (void)vice:(id <UIContentContainer>)arg1 %p> Remote view controller invalidated:%@. /* Error: Ran out of types for this method. */;
 - (void)a different style;
 - (unsigned long long)session is %@;
 - (void)in available space;
 - (unsigned long long)id);
-- (NSArray *);
-- (_UIAsyncInvocationObserver *)UILightEffectTransitionHandle;
+- (_UIAsyncInvocationObserver *)_UILightEffectTransitionHandle;
 - (void)d tþ¹®43L!tþ¹®43H!tþ¹®43D!tþ;
 - (void)[;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *_keyboardSceneLayers;
 @property(readonly, nonatomic) __weak _UIRemoteViewController *_owningRemoteViewController;
-@property(readonly, nonatomic) _UIRemoteViewService *_remoteViewService;
-@property(readonly, nonatomic) id _serviceViewControllerProxy;
-@property(nonatomic) _Bool inheritsSecurity;
-@property(readonly, nonatomic) CDStruct_4c969caf serviceAuditToken;
-@property(readonly, nonatomic) int serviceProcessIdentifier;
-@property(nonatomic) _Bool serviceViewShouldShareTouchesWithHost;
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SafariSandboxBrokerConnection, SandboxFileExtensionController;
-
 __attribute__((visibility("hidden")))
 @interface SandboxExtensionPresentationController
 {
     long long _tag;
-    SandboxFileExtensionController *_sandboxExtensionController;
-    SafariSandboxBrokerConnection *_sandboxBrokerConnection;
 }
 
 - (id);
@@ -34,8 +30,6 @@ __attribute__((visibility("hidden")))
 - (void)Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) SafariSandboxBrokerConnection *sandboxBrokerConnection; // @synthesize sandboxBrokerConnection=_sandboxBrokerConnection;
-@property(readonly, nonatomic) SandboxFileExtensionController *sandboxExtensionController; // @synthesize sandboxExtensionController=_sandboxExtensionController;
 @property(nonatomic) long long tag; // @synthesize tag=_tag;
 
 @end

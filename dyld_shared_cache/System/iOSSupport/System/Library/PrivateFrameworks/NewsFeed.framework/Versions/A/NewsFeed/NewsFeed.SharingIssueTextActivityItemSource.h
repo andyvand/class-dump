@@ -7,14 +7,12 @@
 @interface NewsFeed.SharingIssueTextActivityItemSource
 {
     id issue;
-    id itemTitle;
-    id itemCoverDate;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)Ý$ÿ;
 

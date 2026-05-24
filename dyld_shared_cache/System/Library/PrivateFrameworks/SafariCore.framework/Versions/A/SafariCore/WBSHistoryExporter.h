@@ -11,10 +11,10 @@
 }
 
 + (id);
-+ (unsigned long long)untPenalty;
++ (unsigned long long)guessesRequiredWithPatternCountPenalty;
 + (id)%;
 - (id);
-- (void);
+- (void);
 - (void);
 
 @end

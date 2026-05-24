@@ -23,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSArray *spatialSpectrum;
 
 @end

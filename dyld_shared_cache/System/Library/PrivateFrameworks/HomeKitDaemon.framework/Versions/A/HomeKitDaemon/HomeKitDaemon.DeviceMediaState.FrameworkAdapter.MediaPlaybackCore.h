@@ -7,10 +7,9 @@
 @interface HomeKitDaemon.DeviceMediaState.FrameworkAdapter.MediaPlaybackCore
 {
     id updateStream;
-    id controller;
 }
 
-- (void);
+- (void)items, this should never happen;
 - (id);
 - (void)¸£>;
 

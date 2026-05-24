@@ -7,7 +7,6 @@
 @interface PFDayOfWeekSchedule
 {
     id dayOfWeek;
-    id calendar;
 }
 
 + (id);

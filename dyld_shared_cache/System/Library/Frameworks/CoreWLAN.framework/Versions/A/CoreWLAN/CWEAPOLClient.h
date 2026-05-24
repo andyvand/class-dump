@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CWEAPOLClient
 {
     NSString *_interfaceName;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    void *_eapolStore;
 }
 
 + (id);
@@ -22,12 +19,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (id);
 - (long long);
+- (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long);
 - (long long);
 - (id);
 - (void);
@@ -36,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) long long eapolClientControlMode;
-@property(readonly) long long eapolClientControlState; // @dynamic eapolClientControlState;
-@property(readonly) long long eapolClientStatus; // @dynamic eapolClientStatus;
-@property(readonly) long long eapolClientSupplicantState; // @dynamic eapolClientSupplicantState;
-@property(readonly) NSString *eapolClientUUID; // @dynamic eapolClientUUID;
 @property(copy) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly) _Bool userCancelledAuthentication; // @dynamic userCancelledAuthentication;
 
 @end
 

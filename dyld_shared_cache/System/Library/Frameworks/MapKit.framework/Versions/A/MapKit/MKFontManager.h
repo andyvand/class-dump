@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSString;
-
 @interface MKFontManager
 {
     _Bool _useSmallFont;
 }
 
 + (void);
-+ (id);
++ (id)create xpc dictionary for stats message;
 - (_Bool);
 - (id);
 - (id);
@@ -29,60 +27,24 @@
 - (id);
 - (id);
 - (id);
+- (id)@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)G;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSFont *attributionFont;
-@property(readonly, nonatomic) NSFont *bodyFont;
-@property(readonly, nonatomic) NSFont *boldBodyFont;
-@property(readonly, nonatomic) NSFont *boldSectionHeaderFont;
-@property(readonly, nonatomic) NSFont *brandTitleFont;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSFont *largeTitleFont;
-@property(readonly, nonatomic) NSFont *largeTitleFontStatic;
-@property(readonly, nonatomic) NSFont *largeTitleHeaderFont;
-@property(readonly, nonatomic) NSFont *lookAroundAttributionButtonFont;
-@property(readonly, nonatomic) NSFont *lookAroundButtonFont;
-@property(readonly, nonatomic) NSFont *lookAroundLabelFont;
-@property(readonly, nonatomic) NSFont *lookAroundSecondaryLabelFont;
-@property(readonly, nonatomic) NSFont *lookAroundTertiaryLabelFont;
-@property(readonly, nonatomic) NSFont *mediumBodyFont;
-@property(readonly, nonatomic) NSFont *mediumTitleFont;
-@property(readonly, nonatomic) NSFont *ratingCallToActionGlyphFont;
-@property(readonly, nonatomic) NSFont *ratingCallToActionHeaderLabelFont;
-@property(readonly, nonatomic) NSFont *ratingCallToActionLabelFont;
-@property(readonly, nonatomic) NSFont *ratingOverallFont;
-@property(readonly, nonatomic) NSFont *ratingOverallPercentageFont;
-@property(readonly, nonatomic) NSFont *recommendSubtitleFont;
-@property(readonly, nonatomic) NSFont *rowButtonFont;
-@property(readonly, nonatomic) NSFont *rowGlyphButtonFont;
-@property(readonly, nonatomic) NSFont *sectionHeaderButtonFont;
-@property(readonly, nonatomic) NSFont *sectionHeaderFont;
-@property(readonly, nonatomic) NSFont *semiboldButtonCellFont;
-@property(readonly, nonatomic) NSFont *smallAttributionFont;
-@property(readonly, nonatomic) NSFont *subtitleFont;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSFont *textBlurbFont;
 @property(nonatomic) _Bool useSmallFont; // @synthesize useSmallFont=_useSmallFont;
 
 @end

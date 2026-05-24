@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString, RFShowMoreOnTap;
+@class NSArray;
 
 @interface RFTextElement
 {
     NSArray *_formatted_text;
-    NSNumber *_line_limit;
-    RFShowMoreOnTap *_show_more_on_tap;
 }
 
 + (_Bool);
@@ -20,29 +18,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)mutableCopyWithZone:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)unblockPersonsInMemoriesWithBlockedPersonFeature:(id)arg1;
+- (id).%K.%K > %@;
 - (id);
 - (id);
 - (void)N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSArray *formatted_text; // @synthesize formatted_text=_formatted_text;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *line_limit; // @synthesize line_limit=_line_limit;
-@property(retain, nonatomic) RFShowMoreOnTap *show_more_on_tap; // @synthesize show_more_on_tap=_show_more_on_tap;
-@property(readonly) Class superclass;
 
 @end
 

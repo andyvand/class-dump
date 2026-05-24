@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NURenderTagGroup;
-@protocol NUDevice;
+@class NSMutableArray;
 
 @interface NURenderPipelineState
 {
     NSMutableArray *_groupStack;
-    _Bool _disableIntermediateCaching;
-    _Bool _enableTransparency;
-    _Bool _enforceEvenDimensions;
-    _Bool _doNotOverride;
-    _Bool _lowMemoryMode;
-    long long _serialNumber;
-    long long _evaluationMode;
-    long long _mediaComponentType;
-    long long _auxiliaryImageType;
-    long long _sampleMode;
-    long long _roundingPolicy;
-    long long _playbackDirection;
-    id <NUDevice> _device;
-    NSArray *_pipelineFilters;
-    NSDictionary *_videoFrames;
-    NSDictionary *_videoMetadataSamples;
-    NSArray *_videoSampleSlices;
-    NURenderTagGroup *_rootGroup;
-    NURenderTagGroup *_currentGroup;
-    unsigned long long _groupCount;
-    CDStruct_1e2b2e48 _scale;
-    CDStruct_1b6d18a9 _time;
-    CDStruct_1b6d18a9 _rawTime;
 }
 
 - (id);
@@ -90,29 +66,7 @@
 - (void);
 
 // Remaining properties
-@property long long auxiliaryImageType; // @synthesize auxiliaryImageType=_auxiliaryImageType;
-@property(readonly) NURenderTagGroup *currentGroup; // @synthesize currentGroup=_currentGroup;
-@property(retain, nonatomic) id <NUDevice> device; // @synthesize device=_device;
-@property _Bool disableIntermediateCaching; // @synthesize disableIntermediateCaching=_disableIntermediateCaching;
-@property _Bool doNotOverride; // @synthesize doNotOverride=_doNotOverride;
-@property _Bool enableTransparency; // @synthesize enableTransparency=_enableTransparency;
-@property _Bool enforceEvenDimensions; // @synthesize enforceEvenDimensions=_enforceEvenDimensions;
-@property long long evaluationMode; // @synthesize evaluationMode=_evaluationMode;
-@property(readonly) unsigned long long groupCount; // @synthesize groupCount=_groupCount;
-@property _Bool lowMemoryMode; // @synthesize lowMemoryMode=_lowMemoryMode;
-@property long long mediaComponentType; // @synthesize mediaComponentType=_mediaComponentType;
-@property(copy, nonatomic) NSArray *pipelineFilters; // @synthesize pipelineFilters=_pipelineFilters;
-@property long long playbackDirection; // @synthesize playbackDirection=_playbackDirection;
-@property CDStruct_1b6d18a9 rawTime; // @synthesize rawTime=_rawTime;
-@property(readonly) NURenderTagGroup *rootGroup; // @synthesize rootGroup=_rootGroup;
-@property long long roundingPolicy; // @synthesize roundingPolicy=_roundingPolicy;
-@property long long sampleMode; // @synthesize sampleMode=_sampleMode;
-@property CDStruct_912cb5d2 scale; // @synthesize scale=_scale;
 @property(readonly) long long serialNumber; // @synthesize serialNumber=_serialNumber;
-@property CDStruct_1b6d18a9 time; // @synthesize time=_time;
-@property(copy, nonatomic) NSDictionary *videoFrames; // @synthesize videoFrames=_videoFrames;
-@property(copy, nonatomic) NSDictionary *videoMetadataSamples; // @synthesize videoMetadataSamples=_videoMetadataSamples;
-@property(copy, nonatomic) NSArray *videoSampleSlices; // @synthesize videoSampleSlices=_videoSampleSlices;
 
 @end
 

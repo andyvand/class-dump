@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, UICellAccessoryManager;
+@class UICellAccessoryManager;
 
 __attribute__((visibility("hidden")))
 @interface UITableCellAccessoryLayout
 {
     UICellAccessoryManager *_manager;
-    unsigned long long _edge;
-    double _safeAreaInset;
-    CDUnknownBlockType _standardLayoutWidthProvider;
-    CDUnknownBlockType _disclosureLayoutWidthProvider;
-    CDUnknownBlockType _spacingBlock;
-    NSDictionary *_initialFrames;
-    NSDictionary *_finalFrames;
-    NSMutableDictionary *_initialAlphas;
-    NSMutableDictionary *_finalAlphas;
-    struct CGRect _totalFrame;
 }
 
 - (double);
 - (void);
+- (void)setPayloadFilterType:(unsigned long long)arg1;
 - (void);
+- (id),1;
 - (void);
-- (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (id);
+- (void)MPModelPropertyRadioStationEventStartTime;
+- (struct CGRect)(;
+- (id)P;
 - (void);
 - (void);
 - (double);
@@ -52,39 +42,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (id)NSMutableArray""javascript"@"NSMutableArray""css"@"NSMutableArray""error"@"NSMutableArray""warning"@"NSMutableArray""tip"@"NSMutableArray""log"@"NSMutableArray"};
-- (id)yleForAlertControllerStyle:traitCollection:descriptor: /* Error: Ran out of types for this method. */;
-- (void)dAssertCurrentKeyState:(id)arg1;
-- (double)tentViewControllerContainer: /* Error: Ran out of types for this method. */;
-- (void)gFeedbackIfNeeded;
-- (double)EndRect;
+- (id)visualStyleForAlertControllerStyle:traitCollection:descriptor: /* Error: Ran out of types for this method. */;
+- (void)shouldAssertCurrentKeyState:(id)arg1;
+- (double)_setWantsUnclippedContentViewControllerContainer: /* Error: Ran out of types for this method. */;
+- (void)_prepareUsingFeedbackIfNeeded;
+- (double)_hasEndRect;
 - (id),V_titleControl;
 - (void)only be used by approved clients.;
-- (struct CGRect)eManager;
-- (CDUnknownBlockType)ntrollerFormattingDescriptorListStyle;
+- (struct CGRect)_UISharedTextureManager;
+- (CDUnknownBlockType)NUITextFormattingViewControllerFormattingDescriptorListStyle;
 - (void)X;b;
 - (void)b;
 - (unsigned long long)®;
 
 // Remaining properties
-@property(readonly, nonatomic) double _disclosureLayoutWidth;
-@property(readonly, nonatomic) double _standardLayoutWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType disclosureLayoutWidthProvider; // @synthesize disclosureLayoutWidthProvider=_disclosureLayoutWidthProvider;
-@property(nonatomic) unsigned long long edge; // @synthesize edge=_edge;
-@property(retain, nonatomic) NSMutableDictionary *finalAlphas; // @synthesize finalAlphas=_finalAlphas;
-@property(retain, nonatomic) NSDictionary *finalFrames; // @synthesize finalFrames=_finalFrames;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *initialAlphas; // @synthesize initialAlphas=_initialAlphas;
-@property(retain, nonatomic) NSDictionary *initialFrames; // @synthesize initialFrames=_initialFrames;
-@property(nonatomic) __weak UICellAccessoryManager *manager; // @synthesize manager=_manager;
-@property(nonatomic) double safeAreaInset; // @synthesize safeAreaInset=_safeAreaInset;
-@property(copy, nonatomic) CDUnknownBlockType spacingBlock; // @synthesize spacingBlock=_spacingBlock;
-@property(copy, nonatomic) CDUnknownBlockType standardLayoutWidthProvider; // @synthesize standardLayoutWidthProvider=_standardLayoutWidthProvider;
-@property(readonly) Class superclass;
 @property(nonatomic) struct CGRect totalFrame; // @synthesize totalFrame=_totalFrame;
 
 @end

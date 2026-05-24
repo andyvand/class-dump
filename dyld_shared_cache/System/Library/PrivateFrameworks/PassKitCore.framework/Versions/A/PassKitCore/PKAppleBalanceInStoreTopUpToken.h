@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKAppleBalanceInStoreTopUpToken
 {
     NSString *_token;
-    long long _tokenType;
-    NSString *_tokenIdentifier;
-    NSDate *_expirationDate;
-    long long _state;
-    NSURL *_termsURL;
-    NSArray *_certificateChain;
-    NSData *_payload;
-    NSData *_signature;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -37,30 +29,22 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (long long);
-- (_Bool);
+- (long long)_sgtImage;
+- (_Bool)coreRoutineTransitionMotionTypeAutomotive;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id)
 × ;
-- (_Bool)s: /* Error: Ran out of types for this method. */;
+- (_Bool)discoveryService:receivedUpdatedDiscoveryArticleLayouts: /* Error: Ran out of types for this method. */;
 - (id)ÿ;
 - (void)IDSettings?iCloud;
 - (void)gn authToken;
 - (void)Ë;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *certificateChain; // @synthesize certificateChain=_certificateChain;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSURL *termsURL; // @synthesize termsURL=_termsURL;
 @property(copy, nonatomic) NSString *token; // @synthesize token=_token;
-@property(copy, nonatomic) NSString *tokenIdentifier; // @synthesize tokenIdentifier=_tokenIdentifier;
-@property(nonatomic) long long tokenType; // @synthesize tokenType=_tokenType;
 
 @end
 

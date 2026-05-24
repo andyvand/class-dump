@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct _opaque_pthread_rwlock_t {
-    long long __sig;
-    char __opaque[192];
+    long long _field1;
+    char _field2[192];
 };
 
 struct os_unfair_lock_s {

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBMessageAttachment, _SFPBURL;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBMessageCardSection
+- (void)R;
+- (void)A;
+- (unsigned long long)R%;
+- (void)P;
+- (int)�;
+- (NSArray *)T;
+- (NSString *):8@16@24i32 /* Error: Ran out of types for this method. */;
+- (_Bool)liveLink:didEncounterError:willRetry: /* Error: Ran out of types for this method. */;
+- (_Bool)isVPPLicensed;
+- (void);
+- (NSData *)"NSString",C,N,V_videoExportFileType;
+- (void)@;
 - (int)ß;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *audioMessageURL;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBMessageAttachment *messageAttachment;
-@property(nonatomic) int messageServiceType;
-@property(nonatomic) int messageStatus;
-@property(copy, nonatomic) NSString *messageText;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

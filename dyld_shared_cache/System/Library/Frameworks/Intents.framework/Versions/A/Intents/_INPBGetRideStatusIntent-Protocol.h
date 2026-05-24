@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBGetRideStatusIntent
-- (_Bool)tatusForBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)Jw/Sources/backupd/TimeMachine-Framework/StructureModels/TMBackup.m;
+- (_Bool)authorizationStatusForBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, DAStatusReport, DATaskManager, DATrustHandler, NSArray, NSData, NSDate, NSMapTable, NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString, NSURL;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class ACAccount, NSMutableDictionary;
 
 @interface DAAccount
 {
     ACAccount *_backingAccountInfo;
-    _Bool _hasInitted;
-    _Bool _shouldUseOpportunisticSockets;
-    _Bool _wasUserInitiated;
-    DAStatusReport *_statusReport;
-    NSMapTable *_consumers;
-    struct __CFURLStorageSession *_storageSession;
-    NSString *_clientToken;
-    DATaskManager *_taskManager;
-    NSObject<OS_xpc_object> *_xpcActivity;
-    int _continueCount;
-    _Bool _isFetchingAutomatically;
-    _Bool _shouldFailAllTasks;
-    _Bool _isValidating;
-    DATrustHandler *_trustHandler;
-    NSArray *_appIdsForPasswordPrompt;
-    NSString *_sourceApplicationBundleIdentifier;
-    NSMutableDictionary *_dataclassPropertyURLsByDataclass;
-    NSMutableArray *_pendingQueries;
-    NSObject<OS_dispatch_queue> *_pendingQueryQueue;
-    NSDate *_lastQueryStartedTime;
 }
 
 + (id);
@@ -37,49 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountDescription;
-@property(readonly, nonatomic) NSString *accountID;
-@property(readonly, nonatomic) NSArray *appIdsForPasswordPrompt; // @synthesize appIdsForPasswordPrompt=_appIdsForPasswordPrompt;
-@property(readonly, nonatomic) ACAccount *backingAccountInfo; // @synthesize backingAccountInfo=_backingAccountInfo;
-@property(readonly, nonatomic) NSString *changeTrackingID;
-@property(readonly, copy, nonatomic) NSString *clientToken;
-@property(nonatomic, setter=setDAAccountVersion:) int daAccountVersion;
 @property(retain, nonatomic) NSMutableDictionary *dataclassPropertyURLsByDataclass; // @synthesize dataclassPropertyURLsByDataclass=_dataclassPropertyURLsByDataclass;
-@property(copy, nonatomic) NSString *emailAddress;
-@property(copy, nonatomic) NSArray *emailAddresses;
-@property(readonly, nonatomic) long long enabledDataclassesBitmask;
-@property(retain, nonatomic) NSData *encryptionIdentityPersistentReference;
-@property(copy, nonatomic) NSString *host;
-@property(readonly, copy, nonatomic) NSData *identityPersist;
-@property(readonly, nonatomic) _Bool isChildAccount;
-@property(nonatomic) _Bool isValidating; // @synthesize isValidating=_isValidating;
-@property(readonly, nonatomic) int keychainAccessibilityType;
-@property(retain, nonatomic) NSDate *lastQueryStartedTime; // @synthesize lastQueryStartedTime=_lastQueryStartedTime;
-@property(copy, nonatomic) NSString *password;
-@property(retain, nonatomic) NSMutableArray *pendingQueries; // @synthesize pendingQueries=_pendingQueries;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *pendingQueryQueue; // @synthesize pendingQueryQueue=_pendingQueryQueue;
-@property(readonly, copy, nonatomic) NSString *persistentUUID;
-@property(nonatomic) long long port;
-@property(copy, nonatomic) NSString *principalPath;
-@property(copy, nonatomic) NSURL *principalURL;
-@property(readonly, nonatomic) NSString *scheduleIdentifier;
-@property(readonly, copy, nonatomic) NSString *scheme;
-@property(readonly, nonatomic) NSSet *serverComplianceClasses;
-@property(readonly, nonatomic) NSString *serverRoot;
-@property(readonly, nonatomic) _Bool shouldAutodiscoverAccountProperties;
-@property(nonatomic) _Bool shouldDoInitialAutodiscovery;
-@property(readonly, nonatomic) _Bool shouldFailAllTasks; // @synthesize shouldFailAllTasks=_shouldFailAllTasks;
-@property(nonatomic) _Bool shouldUseOpportunisticSockets; // @synthesize shouldUseOpportunisticSockets=_shouldUseOpportunisticSockets;
-@property(retain, nonatomic) NSData *signingIdentityPersistentReference;
-@property(copy, nonatomic) NSString *sourceApplicationBundleIdentifier; // @synthesize sourceApplicationBundleIdentifier=_sourceApplicationBundleIdentifier;
-@property(retain, nonatomic) DAStatusReport *statusReport; // @synthesize statusReport=_statusReport;
-@property(readonly, nonatomic) DATaskManager *taskManager; // @synthesize taskManager=_taskManager;
-@property(retain, nonatomic) DATrustHandler *trustHandler; // @synthesize trustHandler=_trustHandler;
-@property(nonatomic) _Bool useSSL;
-@property(copy, nonatomic) NSString *user;
-@property(readonly, nonatomic) NSString *userAgentHeader;
-@property(copy, nonatomic) NSString *username;
-@property(nonatomic) _Bool wasUserInitiated; // @synthesize wasUserInitiated=_wasUserInitiated;
 
 @end
 

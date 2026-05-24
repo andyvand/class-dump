@@ -5,5 +5,6 @@
 //
 
 @protocol UIMutableTransformerDelegate
+- (void);
 @end
 

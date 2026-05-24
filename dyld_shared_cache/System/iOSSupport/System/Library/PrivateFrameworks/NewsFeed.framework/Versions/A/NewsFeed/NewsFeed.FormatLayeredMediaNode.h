@@ -7,18 +7,6 @@
 @interface NewsFeed.FormatLayeredMediaNode
 {
     id _identifier;
-    id content;
-    id style;
-    id animation;
-    id size;
-    id resize;
-    id _adjustments;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id _selectors;
-    id flex;
 }
 
 @end

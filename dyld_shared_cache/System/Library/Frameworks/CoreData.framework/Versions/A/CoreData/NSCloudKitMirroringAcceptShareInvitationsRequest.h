@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSCloudKitMirroringAcceptShareInvitationsRequest : NSCloudKitMirroringRequest
 {
     NSArray *_shareURLsToAccept;
-    NSArray *_shareMetadatasToAccept;
 }
 
 - (void);

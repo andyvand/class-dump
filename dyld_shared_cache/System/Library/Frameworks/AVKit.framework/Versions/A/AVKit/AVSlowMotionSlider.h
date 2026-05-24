@@ -4,51 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSView;
-@protocol AVSlowMotionSliderDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AVSlowMotionSlider
 {
     double _minValue;
-    double _maxValue;
-    id <AVSlowMotionSliderDelegate> _delegate;
-    struct {
-        _Bool slowMotionSliderMouseDownEventTrackingBegan;
-        _Bool slowMotionSlider_tracksMouseDownEventWithCurrentValue;
-        _Bool slowMotionSliderMouseDownEventTrackingEnded;
-    } _delegateRespondsTo;
-    NSView *_trackView;
-    NSView *_minHandleView;
-    NSView *_maxHandleView;
-    _Bool _needsUpdateTrackAndHandles;
-    NSMutableArray *_layoutConstraints;
 }
 
 + (_Bool);
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)T@"NSMapTable",R,N;
 - (struct CGSize);
 - (double);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)transcode;
 - (void);
 - (double)TE;
 - (void)ÿGmË;
 
 // Remaining properties
-@property __weak id <AVSlowMotionSliderDelegate> delegate;
-@property double maxValue;
 @property double minValue;
 
 @end

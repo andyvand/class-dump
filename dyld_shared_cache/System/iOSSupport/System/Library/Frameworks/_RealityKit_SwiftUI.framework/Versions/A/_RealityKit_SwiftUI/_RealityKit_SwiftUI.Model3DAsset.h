@@ -8,10 +8,6 @@
 {
     id _entity;
     id _location;
-    id __availableAnimations;
-    id __selectedAnimation;
-    id _animationPlaybackController;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDThreadAccessoryInfo
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isMatter;
-    _Bool _isBatteryPowered;
-    _Bool _isThreadAccessoryInfoValid;
-    NSString *_name;
-    NSString *_ipAddress;
-    NSMutableDictionary *_threadAccessoryInfo;
 }
 
 - (id);
@@ -25,21 +19,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)minimumETADifferenceIncrement;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void)led to set local pairing identity;
-- (void)odecTypeCN;
+- (void)kAVCCodecTypeCN;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(nonatomic) _Bool isBatteryPowered; // @synthesize isBatteryPowered=_isBatteryPowered;
-@property(nonatomic) _Bool isMatter; // @synthesize isMatter=_isMatter;
-@property(nonatomic) _Bool isThreadAccessoryInfoValid; // @synthesize isThreadAccessoryInfoValid=_isThreadAccessoryInfoValid;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableDictionary *threadAccessoryInfo; // @synthesize threadAccessoryInfo=_threadAccessoryInfo;
 
 @end
 

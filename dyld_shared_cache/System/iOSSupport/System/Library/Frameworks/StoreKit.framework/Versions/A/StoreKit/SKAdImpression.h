@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SKAdImpression
 {
     NSNumber *_sourceAppStoreItemIdentifier;
-    NSNumber *_advertisedAppStoreItemIdentifier;
-    NSString *_adNetworkIdentifier;
-    NSNumber *_adCampaignIdentifier;
-    NSNumber *_sourceIdentifier;
-    NSString *_adImpressionIdentifier;
-    NSString *_adType;
-    NSString *_adDescription;
-    NSString *_adPurchaserName;
-    NSNumber *_timestamp;
-    NSString *_signature;
-    NSString *_version;
 }
 
+- (id)ple.jetpackassetd.xpc.workQueue;
+- (void)solved. Ensure you are passing a WrappedMetricsPipeline to JEMediaActivityHandler.;
+- (void)n:(id)arg1;
+- (void)archive while reading.;
+- (void);
+- (void)ry;
+- (void)move back to starting directory;
+- (void)le to read input data;
+- (id)m/WebObjects/SRVLoc.woa/wa/localize;
+- (id)tion/json;
+- (id)er responded with error: /* Error: Ran out of types for this method. */;
+- (id)om server response: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -49,18 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *adCampaignIdentifier; // @synthesize adCampaignIdentifier=_adCampaignIdentifier;
-@property(retain, nonatomic) NSString *adDescription; // @synthesize adDescription=_adDescription;
-@property(retain, nonatomic) NSString *adImpressionIdentifier; // @synthesize adImpressionIdentifier=_adImpressionIdentifier;
-@property(retain, nonatomic) NSString *adNetworkIdentifier; // @synthesize adNetworkIdentifier=_adNetworkIdentifier;
-@property(retain, nonatomic) NSString *adPurchaserName; // @synthesize adPurchaserName=_adPurchaserName;
-@property(retain, nonatomic) NSString *adType; // @synthesize adType=_adType;
-@property(retain, nonatomic) NSNumber *advertisedAppStoreItemIdentifier; // @synthesize advertisedAppStoreItemIdentifier=_advertisedAppStoreItemIdentifier;
-@property(retain, nonatomic) NSString *signature; // @synthesize signature=_signature;
 @property(retain, nonatomic) NSNumber *sourceAppStoreItemIdentifier; // @synthesize sourceAppStoreItemIdentifier=_sourceAppStoreItemIdentifier;
-@property(retain, nonatomic) NSNumber *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(retain, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

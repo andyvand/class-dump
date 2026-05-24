@@ -11,7 +11,7 @@
     double _cornerRadius;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (long long);
 - (void);

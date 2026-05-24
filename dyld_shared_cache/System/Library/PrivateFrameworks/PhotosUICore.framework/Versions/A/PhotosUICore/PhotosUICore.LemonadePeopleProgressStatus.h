@@ -7,17 +7,6 @@
 @interface PhotosUICore.LemonadePeopleProgressStatus
 {
     id _shouldEnableAddPeopleButton;
-    id _shouldShowProgressInfo;
-    id _detectionTypes;
-    id _status;
-    id photoLibrary;
-    id progressManager;
-    id $__lazy_storage_$_observerProxy;
-    id addPeopleResult;
-    id unverifiedPeopleResult;
-    id removedPeopleResult;
-    id id;
-    id _$observationRegistrar;
 }
 
 - (void);

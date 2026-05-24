@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_queue;
+@class _PASLock;
 
 @interface PPAppLaunchMonitor
 {
     _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_contextHandlerQueue;
 }
 
 + (id)unt:scoreInputSet: /* Error: Ran out of types for this method. */;
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void)Date;
+- (void)toDate;
 
 @end
 

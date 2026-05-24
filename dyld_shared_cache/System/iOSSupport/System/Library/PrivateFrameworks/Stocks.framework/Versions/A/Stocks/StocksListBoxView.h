@@ -12,9 +12,9 @@
 }
 
 - (void);
+- (id)Cm|;
 - (id);
-- (id);
-- (void);
+- (void)_directionalSlope;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *imageMaskColor; // @synthesize imageMaskColor=_imageMaskColor;

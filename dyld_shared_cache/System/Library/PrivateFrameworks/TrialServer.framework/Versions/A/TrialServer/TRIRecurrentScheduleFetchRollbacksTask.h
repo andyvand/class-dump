@@ -6,14 +6,11 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@protocol TRITaskAttributing;
 
 @interface TRIRecurrentScheduleFetchRollbacksTask : TRIBaseTask
 {
     id <TRITaskAttributing> _taskAttribution;
-    _Bool _isRepeatedInstance;
-    int taskType;
 }
 
 + (id);
@@ -34,18 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
 @property(readonly, nonatomic) int taskType; // @synthesize taskType;
 
 @end

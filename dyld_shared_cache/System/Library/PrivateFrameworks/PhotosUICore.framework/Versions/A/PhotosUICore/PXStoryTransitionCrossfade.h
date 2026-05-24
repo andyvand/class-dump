@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXStoryConcreteTransition.h>
 
-@class CAMediaTimingFunction, CASpringAnimation;
+@class CAMediaTimingFunction;
 
 @interface PXStoryTransitionCrossfade : PXStoryConcreteTransition
 {
     CAMediaTimingFunction *_animationCurve;
-    CASpringAnimation *_springAnimation;
 }
 
 - (id);

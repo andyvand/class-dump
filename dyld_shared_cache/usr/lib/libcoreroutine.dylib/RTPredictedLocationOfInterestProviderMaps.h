@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RTMapsSupportManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTPredictedLocationOfInterestProviderMaps
 {
     NSObject<OS_dispatch_queue> *_queue;
-    RTMapsSupportManager *_mapsSupportManager;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void):(id)arg1 %u;
+- (void);
 - (_Bool);
 - (id);
 - (id);
-- (id)hRestorationIdentifier;
+- (id)LaunchDaemonWithRestorationIdentifier;
 - (void)location;
 - (id)OF-STATE-OP;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RTMapsSupportManager *mapsSupportManager; // @synthesize mapsSupportManager=_mapsSupportManager;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CNContactRecentsReference
 {
     NSNumber *_recentContactID;
-    NSString *_domain;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)controller:sectionIndexTitleForSectionName: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)2Vec2=ff}ff})f}{b2Vec2=ff}f{b2Vec2=ff}f^{b2World}^{b2Body}^{b2Body}^{b2Fixture}i^{b2JointEdge}^{b2ContactEdge}ffffffff^v}16;
 - (void)tialTranslatingViewLeadingConstraintConstant;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(readonly, nonatomic) NSNumber *recentContactID; // @synthesize recentContactID=_recentContactID;
 
 @end

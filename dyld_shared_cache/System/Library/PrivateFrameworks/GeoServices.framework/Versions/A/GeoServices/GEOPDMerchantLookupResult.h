@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCategoryInformation, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDMerchantLookupResult
 {
     PBUnknownFields *_unknownFields;
-    GEOPDCategoryInformation *_categoryInfo;
-    _Bool _isMatchFromCoreLocationHint;
-    struct {
-        unsigned int has_isMatchFromCoreLocationHint:1;
-    } _flags;
 }
 
-+ (_Bool)apsAuthToken:(id)arg1;
++ (_Bool)setIcloudUserMapsAuthToken:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -24,13 +19,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)%;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)riSpeechRecorder speechControllerRequestsOperation:(id)arg1 forReason:completion:] /* Error: Ran out of types for this method. */;
+- (id)4;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -38,15 +33,11 @@
 - (id)1};
 - (id)_geo_withXPCData: /* Error: Ran out of types for this method. */;
 - (id)\ÔÕ;
-- (id)_DRIVING_DETAILS;
+- (id)ROUTING_DRIVING_DETAILS;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDCategoryInformation *categoryInfo;
 @property(readonly, nonatomic) _Bool hasCategoryInfo;
-@property(nonatomic) _Bool hasIsMatchFromCoreLocationHint;
-@property(nonatomic) _Bool isMatchFromCoreLocationHint;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

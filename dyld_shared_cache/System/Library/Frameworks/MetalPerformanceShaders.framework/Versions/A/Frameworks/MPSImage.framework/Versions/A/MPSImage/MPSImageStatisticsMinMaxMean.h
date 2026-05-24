@@ -6,39 +6,30 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@protocol MTLBuffer, MTLFunction;
-
 @interface MPSImageStatisticsMinMaxMean : MPSUnaryImageKernel
 {
     CDStruct_1e3be3a8 _clipRectSource;
-    id _strides;
-    id <MTLFunction> _defaultConversion;
-    id <MTLFunction> _colorConversionFunction;
-    id <MTLBuffer> _colorConversionData;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
+- (void),;
+- (id);
+- (id);
+- (CDStruct_1e3be3a8)<;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (CDStruct_1e3be3a8);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)ortAge:(id)arg1 donationProgress:pipelineCompletenessFirstTimeBucket:pipelineCompletenessSecondBucket:pipelineCompletenessThirdBucket: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)M3q?;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1e3be3a8 clipRectSource; // @synthesize clipRectSource=_clipRectSource;
-@property(retain, nonatomic) id <MTLBuffer> colorConversionData; // @synthesize colorConversionData=_colorConversionData;
-@property(retain, nonatomic) id <MTLFunction> colorConversionFunction; // @synthesize colorConversionFunction=_colorConversionFunction;
-@property(nonatomic) id strides; // @synthesize strides=_strides;
 
 @end
 

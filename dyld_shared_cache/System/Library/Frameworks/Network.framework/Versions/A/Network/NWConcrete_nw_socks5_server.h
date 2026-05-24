@@ -4,45 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_nw_array, OS_nw_dictionary, OS_nw_listener, OS_nw_parameters;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_socks5_server
 {
     unsigned long long ss_id;
-    NWConcrete_nw_socks5_server *ss_internally_retained_object;
-    struct os_unfair_lock_s ss_lock;
-    NSObject<OS_dispatch_queue> *ss_queue;
-    NSObject<OS_nw_parameters> *ss_parameters;
-    NSObject<OS_dispatch_queue> *ss_client_queue;
-    CDUnknownBlockType ss_state_handler;
-    CDUnknownBlockType ss_error;
-    NSObject<OS_nw_listener> *ss_listener;
-    NSObject<OS_nw_array> *ss_socks5_connections;
-    NSObject<OS_nw_dictionary> *ss_socks5_udp_associate_connections;
-    CDUnknownBlockType outer_connection_handler;
-    struct nw_shoes_statistics ss_stats;
-    unsigned long long ss_assertion_toggle_mach_time;
-    NSObject<OS_dispatch_source> *ss_assertion_timer;
-    unsigned int ss_assertion;
-    unsigned int ss_busy_count;
-    unsigned int ss_shoes:1;
-    unsigned int ss_assertion_timer_running:1;
 }
 
-- (void);
+- (void)CUIShapeEffectOutputOpacity;
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSSharingService, NSStackView, NSString, NSView;
-@protocol FASharingViewTransportDelegate;
+@class NSArray, NSView;
 
 @interface FASharingViewController
 {
     NSArray *_sharingServices;
-    NSMutableArray *_transportItems;
-    id <FASharingViewTransportDelegate> _delegate;
-    NSStackView *_transportStackView;
-    NSSharingService *_selectedService;
-    NSView *_transportView;
 }
 
 - (id);
@@ -25,18 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (void)øOpz;
-- (void);
+- (void)setBluetoothState: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (void)l¥¬¥;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) NSView *transportView; // @synthesize transportView=_transportView;
 
 @end

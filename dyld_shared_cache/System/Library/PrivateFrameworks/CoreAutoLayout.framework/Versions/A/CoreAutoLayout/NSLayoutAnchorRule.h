@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutAnchor, NSString;
+@class NSLayoutAnchor;
 
 @interface NSLayoutAnchorRule
 {
     NSLayoutAnchor *_firstAnchor;
-    NSLayoutAnchor *_secondAnchor;
-    long long _relation;
-    NSString *_identifier;
-    double _constant;
-    double _multiplier;
-    float _priority;
 }
 
 - (id);
@@ -22,33 +16,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)4;
 - (id);
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (long long);
+- (long long)%;
 - (id);
 - (id);
 - (double);
 - (float);
 
 // Remaining properties
-@property(readonly) double constant; // @synthesize constant=_constant;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSLayoutAnchor *firstAnchor; // @synthesize firstAnchor=_firstAnchor;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) double multiplier; // @synthesize multiplier=_multiplier;
-@property(readonly) float priority; // @synthesize priority=_priority;
-@property(readonly) long long relation; // @synthesize relation=_relation;
-@property(readonly, copy) NSString *ruleDescription;
-@property(readonly, copy) NSLayoutAnchor *secondAnchor; // @synthesize secondAnchor=_secondAnchor;
-@property(readonly) Class superclass;
 
 @end
 

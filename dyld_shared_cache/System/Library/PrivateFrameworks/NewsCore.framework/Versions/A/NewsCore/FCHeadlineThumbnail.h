@@ -9,10 +9,9 @@
 @interface FCHeadlineThumbnail
 {
     FCAssetHandle *_thumbnailAssetHandle;
-    struct CGSize _thumbnailSize;
 }
 
-+ (id)or:(id)arg1;
++ (id)addSubscriptionToTag:(id)arg1 notificationsEnabled:(struct CGSize)arg2 localData:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCAssetHandle *thumbnailAssetHandle; // @synthesize thumbnailAssetHandle=_thumbnailAssetHandle;
-@property(nonatomic) struct CGSize thumbnailSize; // @synthesize thumbnailSize=_thumbnailSize;
 
 @end
 

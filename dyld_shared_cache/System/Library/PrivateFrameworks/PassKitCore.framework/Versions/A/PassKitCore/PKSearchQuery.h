@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKSearchQuery
 {
     unsigned long long _domain;
-    NSString *_identifier;
-    NSString *_keyboardLanguage;
-    unsigned long long _type;
-    NSString *_text;
-    NSArray *_tokens;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
+- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -26,40 +23,33 @@
 - (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id)H;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_numberOfFilteredLocations;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)L;
 - (id);
 - (void);
 - (_Bool)0@ù
 × ;
 - (void)gibility:'%@';  /* Error: Ran out of types for this method. */;
-- (id)ENTITLEMENT_NAME;
+- (id)RESTRICTED_ACCESS_ENTITLEMENT_NAME;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long domain;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *keyboardLanguage; // @synthesize keyboardLanguage=_keyboardLanguage;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

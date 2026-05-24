@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol VNImageIdealImageSizeProviding
+- (NSArray *)I;
 
 // Remaining properties
 @property(readonly) NSArray *supportedImageSizeSet;

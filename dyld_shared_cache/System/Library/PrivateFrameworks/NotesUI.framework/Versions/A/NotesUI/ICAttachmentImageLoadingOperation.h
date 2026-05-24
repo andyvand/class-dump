@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSManagedObjectID, NSMutableArray, NSString, NSURL;
+@class NSCache;
 
 @interface ICAttachmentImageLoadingOperation
 {
     _Bool _forceFullSizeImage;
-    short _attachmentType;
-    NSString *_cacheKey;
-    NSCache *_cache;
-    NSManagedObjectID *_attachmentObjectID;
-    NSURL *_mediaURL;
-    NSMutableArray *_completionHandlers;
 }
 
 - (void);
@@ -41,13 +35,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObjectID *attachmentObjectID; // @synthesize attachmentObjectID=_attachmentObjectID;
-@property(nonatomic) short attachmentType; // @synthesize attachmentType=_attachmentType;
 @property(retain, nonatomic) NSCache *cache; // @synthesize cache=_cache;
-@property(copy, nonatomic) NSString *cacheKey; // @synthesize cacheKey=_cacheKey;
-@property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(nonatomic) _Bool forceFullSizeImage; // @synthesize forceFullSizeImage=_forceFullSizeImage;
-@property(retain, nonatomic) NSURL *mediaURL; // @synthesize mediaURL=_mediaURL;
 
 @end
 

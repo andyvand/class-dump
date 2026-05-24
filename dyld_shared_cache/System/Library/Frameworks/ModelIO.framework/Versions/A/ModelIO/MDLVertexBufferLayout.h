@@ -11,9 +11,11 @@
 
 - (id);
 - (id);
+- (unsigned long long)ViYwcaaS/CA4/QIDAQAB
+-----END PUBLIC KEY-----
+;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 

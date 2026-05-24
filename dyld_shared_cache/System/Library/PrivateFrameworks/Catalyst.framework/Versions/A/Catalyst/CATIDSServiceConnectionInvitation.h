@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-@protocol CATCancelable;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface CATIDSServiceConnectionInvitation
 {
     NSUUID *_connectionIdentifier;
-    id <CATCancelable> _assertion;
-    NSString *_senderAppleID;
-    NSString *_senderAddress;
-    unsigned long long _messagingVersion;
-    NSDictionary *_userInfo;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)e segmentation resource for asset:%{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)hasCountBigramPrefixMatchInAuthors;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CATCancelable> assertion; // @synthesize assertion=_assertion;
 @property(readonly, nonatomic) NSUUID *connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(readonly, nonatomic) unsigned long long messagingVersion; // @synthesize messagingVersion=_messagingVersion;
-@property(readonly, copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(readonly, copy, nonatomic) NSString *senderAppleID; // @synthesize senderAppleID=_senderAppleID;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

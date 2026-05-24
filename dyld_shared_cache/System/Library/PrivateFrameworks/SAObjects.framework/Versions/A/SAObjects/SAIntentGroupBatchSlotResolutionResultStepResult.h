@@ -6,14 +6,14 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SACommandFailed;
+@class NSString;
 
 @interface SAIntentGroupBatchSlotResolutionResultStepResult : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)_;
 - (void);
 - (void);
 - (void);
@@ -25,21 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (id)DEVICES;
+- (id)SCENE_INCLUDES_SECURED_DEVICES;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *base64EncodedProtobufMessage;
-@property(retain, nonatomic) SACommandFailed *commandFailed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *jsonEncodedSlotResolutionResult;
-@property(copy, nonatomic) NSString *keyPath;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *typeName;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PassKitCore.ProvisioningCarKeyStepFindSource
 {
     id context;
-    id credential;
-    id sharedState;
-    id continuityManager;
-    id completion;
 }
 
 - (id);

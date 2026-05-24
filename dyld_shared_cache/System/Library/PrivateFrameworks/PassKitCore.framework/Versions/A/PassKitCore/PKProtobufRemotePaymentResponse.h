@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufPayment;
+@class PKProtobufPayment;
 
 @interface PKProtobufRemotePaymentResponse
 {
     PKProtobufPayment *_payment;
-    NSString *_remotePaymentRequestIdentifier;
 }
 
 - (void);
@@ -18,22 +17,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)6A;
 - (void);
 - (unsigned long long);
+- (_Bool)?;
 - (_Bool);
-- (_Bool);
+- (id)hasTopDeviceClass;
+- (void);
+- (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)TimeoutSeconds;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPayment;
-@property(readonly, nonatomic) _Bool hasRemotePaymentRequestIdentifier;
-@property(retain, nonatomic) PKProtobufPayment *payment; // @synthesize payment=_payment;
-@property(retain, nonatomic) NSString *remotePaymentRequestIdentifier; // @synthesize remotePaymentRequestIdentifier=_remotePaymentRequestIdentifier;
 
 @end
 

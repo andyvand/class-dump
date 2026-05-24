@@ -7,8 +7,6 @@
 @interface NewsUI2.HistoryFeedBlueprintModifierFactory
 {
     id headlineModelFactory;
-    id sectionFactory;
-    id feedContextFactory;
 }
 
 @end

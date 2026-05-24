@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITraitCollection;
+@class UITraitCollection;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileControlsStyleSheet
 {
     UITraitCollection *_traitCollection;
-    double _statusBarHeightThreshold;
-    struct UIEdgeInsets _embeddedInlineInsets;
 }
 
 - (double);
@@ -19,29 +17,16 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (double);
-- (double);
-- (struct UIEdgeInsets);
+- (double)k;
+- (struct UIEdgeInsets));
 - (void);
 - (void)0@ù
 × ;
-- (id)iew;
-- (id)nimumValue;
+- (id)stopShowingCaptionPreview;
+- (id)_minimumValue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct UIEdgeInsets embeddedInlineInsets; // @synthesize embeddedInlineInsets=_embeddedInlineInsets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct UIEdgeInsets landscapeFullscreenInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets portraitFullscreenInsets;
-@property(readonly, nonatomic) double standardPaddingFullScreen;
-@property(readonly, nonatomic) double standardPaddingInline;
 @property(readonly, nonatomic) double statusBarHeightThreshold; // @synthesize statusBarHeightThreshold=_statusBarHeightThreshold;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

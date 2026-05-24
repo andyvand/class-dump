@@ -5,5 +5,8 @@
 //
 
 @protocol AVVisualAnalysisViewDelegate
+- (void)G;
+- (void);
+- (_Bool))IL.G;
 @end
 

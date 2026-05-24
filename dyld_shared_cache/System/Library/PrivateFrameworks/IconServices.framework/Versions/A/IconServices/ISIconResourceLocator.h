@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface ISIconResourceLocator
 {
     NSURL *_resourceDirectoryURL;
-    NSString *_bundleIdentifier;
-    NSDictionary *_iconsDictionary;
-    NSString *_preferedResourceName;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)_NSRange=QQ}16;
++ (id)NSNumber"24@"NSString"32@?<v@?B>40;
++ (id)resolvedDDResultFromOriginalQuery:mlSupportedTypes: /* Error: Ran out of types for this method. */;
++ (_Bool)t;
 - (void);
 - (void);
 - (void);
@@ -26,17 +23,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (id)RecommendedParallelizedSubdivisionMinimumDuration;
+- (void))!;
+- (void)MXRoutingContextModificationMetrics;
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool allowLocalizedIcon; // @dynamic allowLocalizedIcon;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy) NSDictionary *iconsDictionary; // @synthesize iconsDictionary=_iconsDictionary;
-@property(copy) NSString *preferedResourceName; // @synthesize preferedResourceName=_preferedResourceName;
 @property(retain) NSURL *resourceDirectoryURL; // @synthesize resourceDirectoryURL=_resourceDirectoryURL;
 
 @end

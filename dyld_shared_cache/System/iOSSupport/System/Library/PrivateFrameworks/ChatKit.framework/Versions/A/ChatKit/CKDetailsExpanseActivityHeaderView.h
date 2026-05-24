@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextView;
+@class UITextView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsExpanseActivityHeaderView
@@ -14,19 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id);
+- (id)e everything on recording attachment;
 - (void);
-- (void)tton;
+- (void)DeleteAndBlockButton;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UITextView *expanseActivityTextView; // @synthesize expanseActivityTextView=_expanseActivityTextView;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

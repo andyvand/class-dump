@@ -6,44 +6,31 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface GEOPlaceByIdentifiersRequest : GEOXPCRequest
 {
     int _resultProvider;
-    NSUUID *_requestUUID;
-    NSArray *_identifiers;
-    unsigned long long _options;
 }
 
-+ (Class);
-- (void);
++ (Class)setLatitude: /* Error: Ran out of types for this method. */;
+- (void)predicateWithSubstitutionVariables:(int)arg1;
 - (int);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
+- (_Bool);
+- (unsigned long long);
+- (void)isNetworkConstrained;
 - (id)ýÿÿÿÿÿÿÿ;
-- (void)rorCollectorE;
+- (void)N6google8protobuf10TextFormat6Parser10ParserImpl20ParserErrorCollectorE;
 - (void)©BA¨|;K@;
 - (id)y;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(nonatomic) int resultProvider; // @synthesize resultProvider=_resultProvider;
-@property(readonly) Class superclass;
 
 @end
 

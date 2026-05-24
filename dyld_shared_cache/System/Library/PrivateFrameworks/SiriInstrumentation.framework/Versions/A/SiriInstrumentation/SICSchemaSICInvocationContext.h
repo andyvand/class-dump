@@ -6,23 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SICSchemaSICInvocationCancelled, SICSchemaSICInvocationEnded, SICSchemaSICInvocationStarted;
+@class SICSchemaSICInvocationStarted;
 
 @interface SICSchemaSICInvocationContext : SISchemaInstrumentationMessage
 {
     SICSchemaSICInvocationStarted *_startedOrChanged;
-    SICSchemaSICInvocationEnded *_ended;
-    SICSchemaSICInvocationCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,31 +25,24 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setRequestCachePolicy: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)NoProgress:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)add_to_sync_deleted_attachments;
 - (id);
-- (id);
+- (id)H;
 - (void);
-- (id)ons;
+- (id)clearInterpretations;
 - (id)N,V_rawNowPlayingTotal;
-- (void);
+- (void)usageScoreMusicWithoutRadio;
 
 // Remaining properties
-@property(retain, nonatomic) SICSchemaSICInvocationCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) SICSchemaSICInvocationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SICSchemaSICInvocationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

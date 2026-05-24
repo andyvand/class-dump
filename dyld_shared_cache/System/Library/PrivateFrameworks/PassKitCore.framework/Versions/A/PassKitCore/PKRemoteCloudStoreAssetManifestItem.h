@@ -12,7 +12,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)__objc_methname;
 - (void);
 - (void);
 - (id);

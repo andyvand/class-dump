@@ -4,43 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSNumber, NSObject, NSString, RTDefaultsManager, RTDistanceCalculator, RTHealthKitManager, RTLocationManager, RTMotionActivityManager, RTPlatform, RTTimerManager, SMCMNoMovementMonitor, SMCMOdometer, SMSessionConfiguration, SMSessionMetricManager, SMSessionStore;
-@protocol OS_dispatch_queue, SMTriggerManagerProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SMSessionWorkoutMonitor
 {
     _Bool _isWorkoutPaused;
-    _Bool _endWorkoutReminderSettingEnabled;
-    id <SMTriggerManagerProtocol> sessionMonitorDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTHealthKitManager *_healthKitManager;
-    RTLocationManager *_locationManager;
-    RTPlatform *_platform;
-    RTTimerManager *_timerManager;
-    SMSessionMetricManager *_sessionMetricManager;
-    SMSessionStore *_sessionStore;
-    SMSessionConfiguration *_sessionConfiguration;
-    NSDate *_endWorkoutReminderDate;
-    NSDate *_latestWorkoutManualPauseDate;
-    NSDate *_latestWorkoutAutoPauseDate;
-    NSMutableDictionary *_timerIdentifierToTimers;
-    double _endWorkoutReminderTimeoutSettingEnabled;
-    double _endWorkoutReminderTimeoutSettingDisabled;
-    double _workoutManualPauseTimeout;
-    double _workoutAutoPauseTimeout;
-    NSNumber *_outdoorPedAutoPauseDistance;
-    double _outdoorPedAutoPauseDistanceThreshold;
-    SMCMNoMovementMonitor *_noMovementMonitor;
-    RTMotionActivityManager *_motionActivityManager;
-    SMCMOdometer *_cmOdometer;
 }
 
-+ (unsigned long long);
++ (unsigned long long)cFetchAndProcessChanges timed out;
 - (double);
 - (double);
-- (id);
+- (id)Y;
 - (void);
 - (void);
 - (void);
@@ -62,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
@@ -91,28 +66,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)fetchAccountWideSettingsDefaultWithForceFetch:configuration:error: /* Error: Ran out of types for this method. */;
+- (void)II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
+- (_Bool)&,V_lrcAESKey;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)iption source operation -- calling completion block with timeout error {completionBlock:(id)arg1 %@};
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (void)!(ð!´BùñB,Ð1Â0@ù
 × ;
@@ -122,42 +97,7 @@
 - (void)lic}.0f seconds, less than threshold %{public}.0f seconds. Not regenerating authorized location list.;
 
 // Remaining properties
-@property(retain, nonatomic) SMCMOdometer *cmOdometer; // @synthesize cmOdometer=_cmOdometer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) NSDate *endWorkoutReminderDate; // @synthesize endWorkoutReminderDate=_endWorkoutReminderDate;
-@property(nonatomic) _Bool endWorkoutReminderSettingEnabled; // @synthesize endWorkoutReminderSettingEnabled=_endWorkoutReminderSettingEnabled;
-@property(nonatomic) double endWorkoutReminderTimeoutSettingDisabled; // @synthesize endWorkoutReminderTimeoutSettingDisabled=_endWorkoutReminderTimeoutSettingDisabled;
-@property(nonatomic) double endWorkoutReminderTimeoutSettingEnabled; // @synthesize endWorkoutReminderTimeoutSettingEnabled=_endWorkoutReminderTimeoutSettingEnabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(nonatomic) _Bool isWorkoutPaused; // @synthesize isWorkoutPaused=_isWorkoutPaused;
-@property(retain, nonatomic) NSDate *latestWorkoutAutoPauseDate; // @synthesize latestWorkoutAutoPauseDate=_latestWorkoutAutoPauseDate;
-@property(retain, nonatomic) NSDate *latestWorkoutManualPauseDate; // @synthesize latestWorkoutManualPauseDate=_latestWorkoutManualPauseDate;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) SMCMNoMovementMonitor *noMovementMonitor; // @synthesize noMovementMonitor=_noMovementMonitor;
-@property(retain, nonatomic) NSNumber *outdoorPedAutoPauseDistance; // @synthesize outdoorPedAutoPauseDistance=_outdoorPedAutoPauseDistance;
-@property(nonatomic) double outdoorPedAutoPauseDistanceThreshold; // @synthesize outdoorPedAutoPauseDistanceThreshold=_outdoorPedAutoPauseDistanceThreshold;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SMSessionConfiguration *sessionConfiguration; // @synthesize sessionConfiguration=_sessionConfiguration;
-@property(retain, nonatomic) SMSessionMetricManager *sessionMetricManager; // @synthesize sessionMetricManager=_sessionMetricManager;
-@property(nonatomic) __weak id <SMTriggerManagerProtocol> sessionMonitorDelegate; // @synthesize sessionMonitorDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SMTriggerManagerProtocol>",?,W,N,VsessionMonitorDelegate
-
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *timerIdentifierToTimers; // @synthesize timerIdentifierToTimers=_timerIdentifierToTimers;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(nonatomic) double workoutAutoPauseTimeout; // @synthesize workoutAutoPauseTimeout=_workoutAutoPauseTimeout;
-@property(nonatomic) double workoutManualPauseTimeout; // @synthesize workoutManualPauseTimeout=_workoutManualPauseTimeout;
 
 @end
 

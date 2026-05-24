@@ -5,12 +5,13 @@
 //
 
 @protocol VKAnnotation
+- (void);
+- (CDStruct_c3b9c2ee);
+
+@optional
+- (double);
 
 // Remaining properties
 @property(nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(nonatomic) double course;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
 @end
 

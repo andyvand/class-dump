@@ -7,6 +7,8 @@
 @class NSDictionary;
 
 @protocol CXVoicemailObserverDataSource
+- (NSDictionary *);
+- (void)!;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *voicemailUUIDToVoicemailMap;

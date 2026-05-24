@@ -7,6 +7,7 @@
 @class MAGraphReference;
 
 @protocol MAGraphProxy
+- (MAGraphReference *)oardEvent"24^{__CGEvent=}32^{__CGEventTapProxy=}40;
 
 // Remaining properties
 @property(readonly) MAGraphReference *graphReference;

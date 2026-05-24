@@ -7,11 +7,6 @@
 @interface SwiftUI.DictionaryEncoder
 {
     id outputFormatting;
-    id dateEncodingStrategy;
-    id dataEncodingStrategy;
-    id nonConformingFloatEncodingStrategy;
-    id keyEncodingStrategy;
-    id userInfo;
 }
 
 @end

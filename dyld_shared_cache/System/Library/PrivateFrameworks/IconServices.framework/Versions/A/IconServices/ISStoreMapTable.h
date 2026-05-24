@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface ISStoreMapTable
 {
     struct os_unfair_lock_s _dataLock;
-    NSData *_data;
-    NSURL *_url;
-    unsigned long long _initialCapacity;
 }
 
 - (void);
@@ -22,24 +19,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)m;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)m;
 - (id);
 - (id);
 - (struct os_unfair_lock_s);
-- (void);
-- (unsigned long long);
+- (void)_hostPID;
+- (unsigned long long)ry:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)uÛ>/ýÛ>×Ü>=Ý>Ý>¤Þ>¡Þ>A(ß>¼®ß>75à>o»à>Aá>XÇá>
 Mâ>Òâ>Xã>3Ýã>=bä>çä>©kå>,ðå>tæ>­øæ>ª|ç>e;
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property struct os_unfair_lock_s dataLock; // @synthesize dataLock=_dataLock;
-@property(readonly) unsigned long long initialCapacity; // @synthesize initialCapacity=_initialCapacity;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

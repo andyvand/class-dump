@@ -5,5 +5,8 @@
 //
 
 @protocol FPOutputFormatter
+- (void);
+- (void);
+- (void);
 @end
 

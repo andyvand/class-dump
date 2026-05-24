@@ -15,8 +15,8 @@
 
 + (id);
 + (unsigned short);
-- (id);
-- (void);
+- (id)AMSMediaRestrictionsSetupTask;
+- (void)`F;
 
 @end
 

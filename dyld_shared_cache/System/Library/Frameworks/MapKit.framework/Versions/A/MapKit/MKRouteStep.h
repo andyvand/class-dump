@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRouteStep, MKPolyline, MKRouteStepPolyline, NSString;
+@class GEOComposedRouteStep;
 
 @interface MKRouteStep
 {
     GEOComposedRouteStep *_geoComposedRouteStep;
-    NSString *_instructions;
-    unsigned long long _transportType;
-    MKRouteStepPolyline *_polyline;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)airdropTempAuthTagData;
+- (id)teSignalDate();
 - (double);
-- (void)onSectionView:buttonWithActionItemPressed: /* Error: Ran out of types for this method. */;
-- (unsigned long long)Comparison:forRoute: /* Error: Ran out of types for this method. */;
+- (void)placeCardActionSectionView:buttonWithActionItemPressed: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_setAlternateRouteContextAnnotationETAComparison:forRoute: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double distance;
 @property(readonly, nonatomic, getter=_geoComposedRouteStep) GEOComposedRouteStep *geoComposedRouteStep; // @synthesize geoComposedRouteStep=_geoComposedRouteStep;
-@property(readonly, nonatomic) NSString *instructions; // @synthesize instructions=_instructions;
-@property(readonly, nonatomic) NSString *notice;
-@property(readonly, nonatomic) MKPolyline *polyline; // @synthesize polyline=_polyline;
-@property(readonly, nonatomic) unsigned long long transportType; // @synthesize transportType=_transportType;
 
 @end
 

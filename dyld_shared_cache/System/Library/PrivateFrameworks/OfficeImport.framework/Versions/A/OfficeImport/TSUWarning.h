@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface TSUWarning
 {
     long long _kind;
-    NSString *_message;
-    NSString *_detailMessage;
-    NSDictionary *_userInfo;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)q`;
 + (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)#;
+- (id);
 - (long long);
 - (id);
 - (unsigned long long);
@@ -38,11 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)tility/NSString_TSUAdditions.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *detailMessage; // @synthesize detailMessage=_detailMessage;
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) long long severity;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

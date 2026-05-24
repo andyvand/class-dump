@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPSocialHighlightStoreRequestKey
 {
     unsigned long long _limit;
-    NSString *_client;
-    NSString *_variant;
-    NSString *_reason;
 }
 
 + (id);
+- (id)/ directory typed;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)performSelector:withObject: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *client; // @synthesize client=_client;
 @property(readonly, nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) NSString *variant; // @synthesize variant=_variant;
 
 @end
 

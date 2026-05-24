@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableAttribute, NSArray, NSNumber, NSString;
-
 @interface INIntentSlotDescription
 {
     _Bool _isExtended;
-    _Bool _isPrivate;
-    Class _resolutionResultClass;
-    NSString *_name;
-    unsigned long long _tag;
-    NSString *_facadePropertyName;
-    NSString *_dataPropertyName;
-    long long _valueType;
-    long long _valueStyle;
-    NSArray *_resolveSelectorStrings;
-    NSArray *_provideOptionsSelectorStrings;
-    NSArray *_defaultValueSelectorStrings;
-    INCodableAttribute *_codableAttribute;
-    NSNumber *_rank;
 }
 
 @end

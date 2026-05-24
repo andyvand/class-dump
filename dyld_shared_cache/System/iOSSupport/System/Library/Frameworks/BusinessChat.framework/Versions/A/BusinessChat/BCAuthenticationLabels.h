@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BCAuthenticationLabels
 {
     NSString *_title;
     NSString *_subtitle;
-    NSString *_action;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)linkNode:(id)arg1 toNode:(id)arg2;
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id)`n;
 - (id);
 - (void);
+- (id);
+- (void)setRegistration",&,N,V_currentAssetRegistration;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *action; // @synthesize action=_action;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
 @property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 

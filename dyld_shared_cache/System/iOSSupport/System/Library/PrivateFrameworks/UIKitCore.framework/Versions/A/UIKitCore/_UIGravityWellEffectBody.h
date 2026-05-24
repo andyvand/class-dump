@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedPreview, UIView, _UIMorphPlatterViewBase;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIGravityWellEffectBody
 {
     UITargetedPreview *_preview;
-    _UIMorphPlatterViewBase *_effectView;
-    UIView *_anchorView;
-    double _distanceFromPrimaryBody;
-    struct CAPoint3D _positionInPrimaryContainer;
 }
 
 - (void);
 - (void);
-- (struct CAPoint3D);
-- (double);
+- (struct CAPoint3D)systemApplicationDidSuspendForEventsOnly;
+- (double)addRetractedPartIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,10 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *anchorView; // @synthesize anchorView=_anchorView;
-@property(nonatomic) double distanceFromPrimaryBody; // @synthesize distanceFromPrimaryBody=_distanceFromPrimaryBody;
-@property(retain, nonatomic) _UIMorphPlatterViewBase *effectView; // @synthesize effectView=_effectView;
-@property(nonatomic) struct CAPoint3D positionInPrimaryContainer; // @synthesize positionInPrimaryContainer=_positionInPrimaryContainer;
 @property(retain, nonatomic) UITargetedPreview *preview; // @synthesize preview=_preview;
 
 @end

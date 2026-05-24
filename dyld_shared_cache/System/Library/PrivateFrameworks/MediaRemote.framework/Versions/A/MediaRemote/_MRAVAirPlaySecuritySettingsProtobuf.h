@@ -9,10 +9,6 @@
 @interface _MRAVAirPlaySecuritySettingsProtobuf
 {
     NSString *_password;
-    int _securityType;
-    struct {
-        unsigned int securityType:1;
-    } _has;
 }
 
 - (id);
@@ -22,24 +18,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setTimeStyle:(id)arg1;
 - (_Bool);
 - (int);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)sion:(id)arg1;
+- (id)fetchInEarDetctionStateForBTAddress:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)Enabled:(int)arg1 ]_block_invoke;
+- (id)Gestures Enabled;
+- (void)transferOutputDevicesAddedCallbacksFromSession:(id)arg1 toSession: /* Error: Ran out of types for this method. */;
 - (void)B,R,N,GisCompanionEndpoint;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPassword;
-@property(nonatomic) _Bool hasSecurityType;
-@property(retain, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) int securityType; // @synthesize securityType=_securityType;
 
 @end
 

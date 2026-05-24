@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, NSSet;
+@class NSSet;
 
 @interface SignpostSupportUniquePIDFilter
 {
@@ -17,15 +17,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)st;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _compoundPredicateType;
-@property(readonly, nonatomic) _Bool _wantsNotEqual;
-@property(readonly, nonatomic) NSPredicate *predicateEquivalent;
-@property(readonly, nonatomic) NSSet *uniquePidSet; // @synthesize uniquePidSet=_uniquePidSet;
 
 @end
 

@@ -8,16 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentStoreCache
 {
     id _externalData;
-    unsigned long long _capacity;
-    struct {
-        long long _field1;
-        CDUnknownFunctionPointerType _field2;
-        CDUnknownFunctionPointerType _field3;
-        CDUnknownFunctionPointerType _field4;
-        CDUnknownFunctionPointerType _field5;
-    } *_externalDataValueCallbacks;
-    struct persistentStoreCacheFlags _persistentStoreCacheFlags;
-    struct os_unfair_lock_s _lock;
 }
 
 + (void)rviceName:%@ /* Error: Ran out of types for this method. */;

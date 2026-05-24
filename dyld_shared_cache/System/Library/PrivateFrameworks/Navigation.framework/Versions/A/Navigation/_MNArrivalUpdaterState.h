@@ -4,32 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOComposedRouteLeg, MNArrivalUpdater, MNLocation, _MNArrivalUpdaterDetails;
+@class MNArrivalUpdater;
 
 __attribute__((visibility("hidden")))
 @interface _MNArrivalUpdaterState
 {
     MNArrivalUpdater *_arrivalUpdater;
-    _MNArrivalUpdaterDetails *_details;
 }
 
+- (void)Y7P1
+;
+- (void)IsCompactTabRepresentationTraitKey;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)X7h2
+;
 - (void);
 - (void);
 - (double);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (_Bool)ListPaddingAnchor;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)EmptyMatchedTransitionSourceConfiguration;
+- (void)MatchedTransitionSourceConfiguration;
+- (_Bool)_ResolvedMatchedTransitionSourceConfiguration;
 - (_Bool);
 - (double);
 - (_Bool);
@@ -37,20 +38,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id)red RecoveryOS update brain instance for download;
 - (id);
 - (void)0@ù
 × ;
-- (id)ingValue;
+- (id)_stringValue;
 - (void)ayback;
 
 // Remaining properties
 @property(nonatomic) __weak MNArrivalUpdater *arrivalUpdater; // @synthesize arrivalUpdater=_arrivalUpdater;
-@property(retain, nonatomic) _MNArrivalUpdaterDetails *details; // @synthesize details=_details;
-@property(readonly, nonatomic) MNLocation *location;
-@property(readonly, nonatomic) GEOComposedRoute *route;
-@property(readonly, nonatomic) long long state;
-@property(readonly, nonatomic) GEOComposedRouteLeg *targetLeg;
 
 @end
 

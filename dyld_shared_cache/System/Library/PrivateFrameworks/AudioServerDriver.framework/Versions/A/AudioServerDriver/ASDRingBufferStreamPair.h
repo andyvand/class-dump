@@ -10,9 +10,6 @@
 @interface ASDRingBufferStreamPair
 {
     ASDStream *_inputStream;
-    ASDStream *_outputStream;
-    long long _ringBufferFrameCapacity;
-    id <ASDManagedRingBuffer> _ringBuffer;
 }
 
 - (void);
@@ -20,14 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)rKit %{public}@.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ASDStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(readonly, nonatomic) ASDStream *outputStream; // @synthesize outputStream=_outputStream;
 @property(readonly, nonatomic) id <ASDManagedRingBuffer> ringBuffer; // @synthesize ringBuffer=_ringBuffer;
-@property(nonatomic) long long ringBufferFrameCapacity; // @synthesize ringBufferFrameCapacity=_ringBufferFrameCapacity;
 
 @end
 

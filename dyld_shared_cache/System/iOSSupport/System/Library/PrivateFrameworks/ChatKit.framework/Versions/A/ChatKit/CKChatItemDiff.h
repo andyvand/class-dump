@@ -9,12 +9,10 @@
 @interface CKChatItemDiff
 {
     void inserted;
-    void removed;
-    void parentItemsToReload;
 }
 
 - (void);
-- (id);
+- (id)ICCloudSyncingObjectDidUpdateShare;
 - (id);
 - (void);
 - (id)ÔÁúð!HEùÑ°1Â0@ù
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSIndexSet *inserted;
-@property(nonatomic, copy) NSIndexSet *parentItemsToReload;
-@property(nonatomic, copy) NSIndexSet *removed;
 
 @end
 

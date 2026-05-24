@@ -6,21 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface DialogEngineSchemaDLGENGNamedEntitiesUsed : SISchemaInstrumentationMessage
 {
     int _catId;
-    NSArray *_namedEntities;
-    struct {
-        unsigned int catId:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -29,23 +23,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)Yes;
+- (id)p.;
 - (void);
-- (unsigned long long);
+- (unsigned long long)D-;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)HSchemaMHAssistantDaemonAudioStartRecordingContext";
-- (id)chemaPLUSMediaContributingGroundTruth;
+- (id)PLUSSchemaPLUSMediaContributingGroundTruth;
 - (id);
 - (void)Ø÷¸ÿ°a%;
 
 // Remaining properties
 @property(nonatomic) int catId; // @synthesize catId=_catId;
-@property(nonatomic) _Bool hasCatId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *namedEntities; // @synthesize namedEntities=_namedEntities;
 
 @end
 

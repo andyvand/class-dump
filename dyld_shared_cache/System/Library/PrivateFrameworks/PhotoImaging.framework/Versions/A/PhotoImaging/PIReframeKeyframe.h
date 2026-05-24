@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PIReframeKeyframe
 {
     CDStruct_1b6d18a9 _time;
-    CDStruct_1fe29af2 _homography;
 }
 
 + (id);
 - (id);
-- (CDStruct_1fe29af2);
+- (CDStruct_c27faaab);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)stopDeviceInfoThread;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) CDStruct_1fe29af2 homography; // @synthesize homography=_homography;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
 
 @end

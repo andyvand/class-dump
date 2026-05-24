@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AFSpeechVisualContextAndCorrectionsInfo
 {
     NSArray *_messagesContext;
-    NSString *_correctedText;
-    NSString *_recognizedText;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)#=;
 - (id);
-- (void)esponse: /* Error: Ran out of types for this method. */;
+- (void)_completeWithResponse: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *correctedText; // @synthesize correctedText=_correctedText;
 @property(copy, nonatomic) NSArray *messagesContext; // @synthesize messagesContext=_messagesContext;
-@property(copy, nonatomic) NSString *recognizedText; // @synthesize recognizedText=_recognizedText;
 
 @end
 

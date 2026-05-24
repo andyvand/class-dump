@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UIViewImplicitlyAnimating;
+
 @protocol UIViewControllerAnimatedTransitioning
+- (double)MailComposeViewController canSendMail] returns NO.;
+
+@optional
+- (id <UIViewImplicitlyAnimating>);
+- (void);
 @end
 

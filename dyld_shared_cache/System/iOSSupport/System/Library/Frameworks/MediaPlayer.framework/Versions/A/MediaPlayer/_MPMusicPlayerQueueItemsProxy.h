@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (void)ist;
+- (void)_currentTrackList;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPMusicPlayerApplicationController *controller; // @synthesize controller=_controller;

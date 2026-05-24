@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PIFaceObservationCache;
+@class PIFaceObservationCache;
 
 @interface PIPortraitAutoCalculator
 {
@@ -14,8 +14,8 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)R(;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -28,14 +28,7 @@
 - (void)setUpdateClockZPosition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) PIFaceObservationCache *faceObservationCache; // @synthesize faceObservationCache=_faceObservationCache;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

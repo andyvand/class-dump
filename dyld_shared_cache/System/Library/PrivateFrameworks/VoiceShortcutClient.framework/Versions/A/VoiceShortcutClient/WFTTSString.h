@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WFTTSString
 {
@@ -13,16 +13,15 @@
 
 + (id);
 - (id);
-- (id);
+- (id)2{;
 - (_Bool);
 - (id);
 - (void)!Bù±^ð1Â0@ù
 × ;
-- (id)ingWorkflowWithIdentifier:error: /* Error: Ran out of types for this method. */;
+- (id)stingWorkflowWithIdentifier:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *components; // @synthesize components=_components;
-@property(readonly, nonatomic) NSString *displayString;
 
 @end
 

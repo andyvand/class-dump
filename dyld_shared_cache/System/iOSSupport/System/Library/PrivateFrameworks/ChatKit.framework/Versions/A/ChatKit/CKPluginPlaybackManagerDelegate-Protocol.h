@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKPluginPlaybackManager;
+
 @protocol CKPluginPlaybackManagerDelegate
+- (void)imageForSubAttachment:(CKPluginPlaybackManager *)arg1 rotateForMacImageGallery:allowCached: /* Error: Ran out of types for this method. */;
 @end
 

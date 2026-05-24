@@ -7,9 +7,6 @@
 @interface ChronoKit.DuetWidgetViewEntry
 {
     id identity;
-    id startViewDate;
-    id staleContentDate;
-    id endViewDate;
 }
 
 @end

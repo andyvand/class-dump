@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface RTStateModelAggOutOfStateSelection
 {
     NSMutableArray *_selectOOStStates;
-    double _weeklyDensityCorrection;
-    double _dailyDensityCorrection;
 }
 
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)NEExtensionAppProxyProviderProtocol;
 - (void);
 - (double);
 - (double)izedLocation.maintenance;
 - (void)s, %{sensitive}@, count, %lu, error, %@;
 
 // Remaining properties
-@property(nonatomic) double dailyDensityCorrection; // @synthesize dailyDensityCorrection=_dailyDensityCorrection;
 @property(retain, nonatomic) NSMutableArray *selectOOStStates; // @synthesize selectOOStStates=_selectOOStStates;
-@property(nonatomic) double weeklyDensityCorrection; // @synthesize weeklyDensityCorrection=_weeklyDensityCorrection;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppStoreKit.ExponentialBackoff
 {
     id baseSleepInterval;
-    id maxSleepInterval;
-    id attemptsMade;
 }
 
 @end

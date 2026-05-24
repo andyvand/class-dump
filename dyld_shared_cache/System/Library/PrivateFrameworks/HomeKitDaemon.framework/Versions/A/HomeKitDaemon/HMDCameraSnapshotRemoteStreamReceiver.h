@@ -6,19 +6,17 @@
 
 #import <HomeKitDaemon/HMDCameraSnapshotReceiver.h>
 
-@class HMDCameraSnapshotIDSStreamReceiver, NSString;
 @protocol HMDCameraSnapshotRemoteStreamReceiverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotRemoteStreamReceiver : HMDCameraSnapshotReceiver
 {
     id <HMDCameraSnapshotRemoteStreamReceiverDelegate> _delegate;
-    HMDCameraSnapshotIDSStreamReceiver *_relayReceiver;
 }
 
 + (id)H;
-- (void);
-- (void);
+- (void)_validateCurrentConfigurationWithCompletion:(id)arg1;
+- (void)_initWithOwningContainer:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -33,15 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <HMDCameraSnapshotRemoteStreamReceiverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDCameraSnapshotIDSStreamReceiver *relayReceiver; // @synthesize relayReceiver=_relayReceiver;
-@property(readonly) Class superclass;
 
 @end
 

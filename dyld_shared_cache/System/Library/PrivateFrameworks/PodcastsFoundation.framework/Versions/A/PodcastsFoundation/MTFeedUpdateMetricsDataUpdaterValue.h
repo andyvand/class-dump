@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)te;
++ (id)preProcessHookDeniedUpdate;
 - (id);
 - (void);
 

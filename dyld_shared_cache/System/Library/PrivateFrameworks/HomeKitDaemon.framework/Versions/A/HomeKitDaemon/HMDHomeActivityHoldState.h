@@ -6,21 +6,20 @@
 
 #import <HomeKitDaemon/HMDHomeActivityState.h>
 
-@class HMDHomeActivityStateHoldInfo, HMFTimer, NSString;
+@class HMDHomeActivityStateHoldInfo, HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityHoldState : HMDHomeActivityState
 {
     HMDHomeActivityStateHoldInfo *_activityStateHoldInfo;
-    HMFTimer *_holdTimer;
 }
 
 + (unsigned long long);
 + (id)C;
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setFromIdentifier:(id)arg1;
+- (void)geoCollectionsSettingsPath;
+- (void)_transaction;
+- (void)_saveSendingRules;
 - (id);
 - (void);
 - (void);
@@ -37,15 +36,7 @@ __attribute__((visibility("hidden")))
   numTriggersFired:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) HMDHomeActivityStateHoldInfo *activityStateHoldInfo; // @synthesize activityStateHoldInfo=_activityStateHoldInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMFTimer *holdTimer; // @synthesize holdTimer=_holdTimer;
-@property(readonly) Class superclass;
 
 @end
 

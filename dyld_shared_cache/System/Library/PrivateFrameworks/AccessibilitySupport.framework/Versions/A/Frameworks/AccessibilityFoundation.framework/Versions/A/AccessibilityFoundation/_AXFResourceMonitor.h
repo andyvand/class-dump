@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _AXFResourceMonitor
 {
     struct os_unfair_lock_s __lock;
-    NSMutableDictionary *_resourceMonitoringList;
-    NSMutableDictionary *_monitoringResourceExceedingTimestamp;
 }
 
 + (id);
@@ -27,15 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)N14CoreNavigation3CLP8LogEntry11PrivateData17AccelerometerPaceE;
 - (id);
-- (struct os_unfair_lock_s);
-- (void);
+- (struct os_unfair_lock_s)AMAuthInstallBasebandICE3StitchFirmware;
+- (void),S_setPortraitAspectRatios:,V_portraitAspectRatios /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct os_unfair_lock_s _lock; // @synthesize _lock=__lock;
-@property(retain, nonatomic) NSMutableDictionary *monitoringResourceExceedingTimestamp; // @synthesize monitoringResourceExceedingTimestamp=_monitoringResourceExceedingTimestamp;
-@property(retain, nonatomic) NSMutableDictionary *resourceMonitoringList; // @synthesize resourceMonitoringList=_resourceMonitoringList;
 
 @end
 

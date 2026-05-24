@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessServer, BMXPCListener, NSMapTable, NSObject, NSString, NSXPCListenerEndpoint;
-@protocol BMFileServer, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BMAccessServiceListener
 {
     NSObject<OS_dispatch_queue> *_queue;
-    BMXPCListener *_listener;
-    unsigned long long _domain;
-    BMAccessServer *_accessServer;
-    id <BMFileServer> _fileServer;
-    NSMapTable *_clientSpecificListeners;
-    BMXPCListener *_coreDuetListener;
 }
 
 - (id);
@@ -28,7 +22,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)de?;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -37,15 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

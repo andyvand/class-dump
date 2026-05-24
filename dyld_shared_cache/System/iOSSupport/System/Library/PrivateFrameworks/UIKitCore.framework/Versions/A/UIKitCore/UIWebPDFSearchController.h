@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSOperationQueue, NSString, UIPDFDocument;
-@protocol UIWebPDFSearchControllerDelegate;
+@class NSArray;
 
 @interface UIWebPDFSearchController
 {
     unsigned long long _resultIndexWhenLimitHit;
-    _Bool _notifiedThatSearchBegin;
-    unsigned long long _pageIndexWhenLimitHit;
-    NSOperationQueue *_searchQueue;
-    NSMutableArray *_results;
-    NSString *_searchString;
-    UIPDFDocument *_documentToSearch;
-    NSObject<UIWebPDFSearchControllerDelegate> *searchDelegate;
-    unsigned long long startingPageIndex;
-    double documentScale;
-    unsigned long long resultLimit;
 }
 
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (unsigned long long)sendReachabilityResponse:requestID:toToken:toIdentifier:fromIdentifier: /* Error: Ran out of types for this method. */;
+- (void)isValidSMSFilterCapabilitiesOptions:(unsigned long long)arg1;
+- (void)initWithLocalDomain:(id)arg1 remoteDomain:localStorageDelegate:remoteStorageDelegate:watchSyncDelegate:syncConfigurationDelegate: /* Error: Ran out of types for this method. */;
+- (void)calculateAndSaveAliasesToDefaults;
+- (void)cachedStewieSharingChat;
+- (void)_numSSMFallbackResets;
+- (void)_newDeviceDidSignIntoiMessageWithRetryCount:(id)arg1;
+- (void)_networkDataAvailable;
+- (id)_networkChanged: /* Error: Ran out of types for this method. */;
+- (void)_minSizeForLargeAuxVideo;
 - (id);
 - (double);
 - (void);
@@ -40,30 +29,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)for cipher;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void)0@ù
 × ;
-- (void)nt: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ler: /* Error: Ran out of types for this method. */;
+- (void)indexPathForRowAtPoint: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_performNaturalIOSMacResizeTestUsingTestName:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)iveAnimations;
 - (void);
 - (void)d;
 - (id)|/Rÿ;
 
 // Remaining properties
-@property(nonatomic) double documentScale; // @synthesize documentScale;
-@property(retain, nonatomic) UIPDFDocument *documentToSearch; // @synthesize documentToSearch=_documentToSearch;
-@property(readonly, nonatomic) _Bool paused;
-@property(nonatomic) unsigned long long resultLimit; // @synthesize resultLimit;
 @property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(nonatomic) NSObject<UIWebPDFSearchControllerDelegate> *searchDelegate; // @synthesize searchDelegate;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, nonatomic) _Bool searching;
-@property(nonatomic) unsigned long long startingPageIndex; // @synthesize startingPageIndex;
 
 @end
 

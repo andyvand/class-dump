@@ -9,10 +9,6 @@
 @interface WBSPasswordBreachBloomFilter
 {
     unsigned int _capacity;
-    unsigned int _errorDenominator;
-    unsigned int _hashCount;
-    unsigned int _bucketCount;
-    NSData *_bucketData;
 }
 
 - (id);
@@ -20,7 +16,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

@@ -13,6 +13,15 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)*;
++ (id);
++ (id);
++ (id)�?;
 + (id);
 + (id);
 + (id);
@@ -36,19 +45,10 @@
 + (id);
 + (id);
 + (id);
++ (id)_	ka;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)d;
++ (id)redEyeThresholdKind;
 + (id)uuukkfkopmr[jcrS\NiXf\lmldoD^Rm^g\sk~z~ttqwespsppppVg`pYoi|¨¨¨¨o|z}kh_mnwww||||ggbgXXNYBNBUERGVRVPVVZOZmmmmYmiyXjfpkkikI_Wgbe^l]spvu|{~ox££££©©©©e{zprps^^Y^>G:M>H;M[_Y_vvvv¢¢­­­­    r}}}WWLX3B1IOPBVcmhvªªªª    k}{E]Rj^bYgdnioXqmv{{z{qxuvOc[iac\cnnnniyyzzlw|||avwwvvvvrrrr^hbohomo /* Error: Ran out of types for this method. */;
 + (id)fkkkkqvvvultrmvjjijJ[QbJ]SfyyyysrrrrW[X[UUQU````srrsxxxxbb^bM]U_llllswww{{z}x{wbxs|tslwNkd}ªªªªVkgtWc]grrrr^pmv{{{{~~~~`lhr<RFehg`hllkl?ZNlzupzJYLd4?+P?I:PUVLVGVNZ````eeeehf`hNaXpe{|}AZPiJXLderqxxwvxJ^Sigldravt~omho`bZjrqot~~~~yyyyffbf8J;]Uf`q[hgkDA3I+8#4#=JTMTkooo}ttttcb[cVc\dxxxxw~~||{|x|z¡¡¡¡bmhwanivttttc_VcY`Xg}}}}zzzzjjjjhhghwwwwy    ]pk}Wjcojjjj[f_kGf`y¨§©©°°°°¢¢¢¢{{CcSx}xWaUj@YMboooo||||i{wWkazZme}b~|y[us||||se{z{}{{¤¤¤¤etmYrl{{{{ssssuuuu}}}}z}xxxxitrygxv}{Oe[unmenvvvv|°°°°¹¹¹¹Zicq3F5VDZQ_ttttWmlr2LA^9D6O@MAQ``^`Xljrqxxxxxxxx{¨¨¨¨¥¥¥¥~mz|Wc^n_igkoooojjjjERJ[<KATJUNX[a\annnnyyyy{{{{foixzyvzxxxxllhlEXKcR`Vjs¨¨¨¨rvvz*E8VCC6C@@4@<K>Nggggoyxyt|y}yyyyuuuuzyvz{nttttXd[l^keu~{y~atp|~~~~yyxyK_Vk:OA_TVK[VYUYCUNU>NCR9K?S@RH\dkhm{z~p}~~Wmkw_qpw`xx|®®®®¬¬¬¬GXMc8H8R``_`{{{{§¦§§°°°°©©©©z|||zzzzkwwxlz{}`piyxwrxwmmfm;QCaNaYpI\Vd=QIY^^^^``````^`jjgjzzzzd|zayum~zsqjsJbXolojrokfoJ`XjqqqqyyyyuuuuH]Vkgd]giiiimmmmnnnniiiiF_Wiiplu|_rk|yqzy~jmhrbe]feeaekkkkqqqqnnnnG[Pk<^Tux~~TaYfTTFVBREXjicjz|||uuuuuccbcaaYabpjv££££¢¢¢¢uusuISEZ:G8NSSLSKZS\G_Yfrrorr¡¡¡¡_{xTh`t\han /* Error: Ran out of types for this method. */;
 + (id)ength < 0.0) ? pow(im.rgb, vec3(1.0 - (strength * gray))) :(im.rgb / ((strength + 1.0) - (im.rgb * strength)));
@@ -184,7 +184,7 @@ vec2 writeCoord () { return vec2(0.0); }
 + (id)UÕ?;
 + (id);
 + (id)?;
-- (id);
+- (id) ;
 - (void);
 - (_Bool);
 - (int);
@@ -195,8 +195,8 @@ vec2 writeCoord () { return vec2(0.0); }
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)malizedCoords:(id)arg1;
+- (_Bool)__objc_const;
+- (id)faceMaskParams:(id)arg1 useNormalizedCoords: /* Error: Ran out of types for this method. */;
 - (void)rjjjjGXO[[[[[M_Xd[lhs´´´´····vKj_yllbl\i^qfxti~|j|zl§§§§¸¸¸¸ÆÆÆÆÄÃÉÉ¤·½½XjbsIO@\`bZe^tsxl}|yyyyuuuu~~~~swwwwUfahggggppppwwwwttttZieiRZQ^TZP^ajhjtttthplqmmlmllllhhhh^^^^UUSUEUNWaaaaffffggggXe`jAa[q\tswwwwcccc__V_Zlin}}}}wzzzTnluk{zqpizgws]mexJVHeYaXfoooorrrrxupxªªªª´´´´¤¤¤¤izq~bvq~Nf[t}}{}¤¤¤¤¥£¥¥d}}{{{{eqorOc_kggggbbbbcdbdqqqq}}}}~~~~yyyyiiiiW[R^`c[fr|y¢¢¢ºººº¸¸¸¸¦¦¦¦ssqsJXM`ZSDZQ\QduusupWwwlojySkfw[ro{}}}}ttrt:(_Bool)arg1 WGlGh^}¤¤¤¤ktqyqtqvQf`ogbZittttt}{y}nzy~drosekhk]jgjjlllllllbbbbBQJR7G<N____wwww{{{{\iejhhhhvvvvoluqyYleuoxt{Yne{Kh]z}xnqxt~zzvz|xt|q{yyywy7PAfVcZn;
 
 @end

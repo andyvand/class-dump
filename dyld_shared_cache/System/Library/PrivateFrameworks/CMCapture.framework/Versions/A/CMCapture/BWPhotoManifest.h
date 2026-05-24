@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSArray;
 
 @interface BWPhotoManifest
 {
     NSArray *_photoDescriptors;
-    NSString *_captureRequestIdentifier;
-    struct os_unfair_lock_s _bufferPtrValueToPhotoDescriptorLock;
-    NSMutableDictionary *_bufferPtrValueToPhotoDescriptor;
 }
 
 + (_Bool)!!Ð!Fù$ð1Â0@ù
 × ;
-- (void);
+- (void)erline:lfStrikeOut:lfCharSet:lfOutPrecision:lfClipPrecision:lfQuality:pitch:family:lfFaceName:elfFullName:elfStyle:elfVersion:elfStyleSize:elfMatch:elfVendorId:elfCulture:index: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)stripHonorifics: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)E;
 - (id){public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *captureRequestIdentifier; // @synthesize captureRequestIdentifier=_captureRequestIdentifier;
 @property(readonly, nonatomic) NSArray *photoDescriptors; // @synthesize photoDescriptors=_photoDescriptors;
 
 @end

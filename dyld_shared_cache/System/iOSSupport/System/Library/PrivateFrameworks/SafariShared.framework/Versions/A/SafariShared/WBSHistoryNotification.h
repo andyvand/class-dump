@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface WBSHistoryNotification
 {
     NSString *_name;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
 - (id);
+- (id)s;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ix;
 - (void);
-- (id);
+- (id)pyramidwidthSegmentCount;
 - (void)ÀHô;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

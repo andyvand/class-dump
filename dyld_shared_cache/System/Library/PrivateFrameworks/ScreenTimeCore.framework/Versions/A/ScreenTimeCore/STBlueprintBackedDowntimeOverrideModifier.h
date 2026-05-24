@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STBlueprint, STDowntimeOverride;
+@class STBlueprint;
 
 @interface STBlueprintBackedDowntimeOverrideModifier
 {
     STBlueprint *_downtimeBlueprint;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)DROP TABLE item_store;
+- (id)6;
+- (id)ersion = 1150050;;
+- (_Bool)LT 0, location TEXT NOT NULL DEFAULT '', file_size INTEGER NOT NULL DEFAULT 0, integrity BLOB, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, category_id INTEGER DEFAULT 0, location_kind_id INTEGER NOT NULL DEFAULT 0;
+- (void)plist;
+- (void)NOT NULL DEFAULT '', sort_title TEXT, artwork_cache_id INTEGER NOT NULL DEFAULT 0, disc_count INTEGER DEFAULT 0, track_count INTEGER DEFAULT 0, total_time_ms REAL NOT NULL DEFAULT 0, year INTEGER DEFAULT 0, location TEXT NOT NULL DEFAULT '', file_size INTEGER NOT NULL DEFAULT 0, integrity BLOB, is_temporary_cloud_download INTEGER NOT NULL DEFAULT 0, is_streaming_quality INTEGER NOT NULL DEFAULT 0, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) STDowntimeOverride *activeOverride;
 @property(readonly) STBlueprint *downtimeBlueprint; // @synthesize downtimeBlueprint=_downtimeBlueprint;
 
 @end

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PMRMeasurementList;
+@class NSString;
 
 @interface PMRTimer
 {
     unsigned long long _tick;
-    PMRMeasurementList *_measurements;
-    struct mach_timebase_info _timebase;
-    NSString *_name;
 }
 
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);

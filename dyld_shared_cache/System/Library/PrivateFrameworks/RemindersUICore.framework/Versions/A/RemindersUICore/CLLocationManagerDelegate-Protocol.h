@@ -7,7 +7,9 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (void)topicFeedPublisherAggregateWeight;
 - (void);
-- (void)signmentHandler;
+- (void);
+- (void)removeAssignmentHandler;
 @end
 

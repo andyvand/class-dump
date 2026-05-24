@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)ighlightedTextColor;
+- (id)__kIMAccountControllerAccountWillBeRemovedNotification;
+- (void)highlightedTextColor;
 
 // Remaining properties
 @property(nonatomic) __weak id <_MKKVOProxyDelegate> delegate; // @synthesize delegate=_delegate;

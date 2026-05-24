@@ -5,6 +5,8 @@
 //
 
 @protocol PXGDecorationView
+- (void)updateHandwritingSummary:(unsigned long long)arg1;
+- (unsigned long long)@"NSHashTable",&,N,V_inlineDrawingViews;
 
 // Remaining properties
 @property(nonatomic) unsigned long long decorationOptions;

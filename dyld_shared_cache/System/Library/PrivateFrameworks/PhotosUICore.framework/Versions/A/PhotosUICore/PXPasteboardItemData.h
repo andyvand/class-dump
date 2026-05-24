@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL, PHAsset, PHObject, PHResourceLocalAvailabilityRequest;
+@class NSURL;
 
 @interface PXPasteboardItemData
 {
     _Bool _exportAsMaster;
-    _Bool _stripLocation;
-    _Bool _allowsResourceDownload;
-    PHObject *_object;
-    NSArray *_types;
-    NSURL *_fileURL;
-    NSString *_type;
-    PHAsset *_asset;
-    NSData *_cachedImageData;
-    PHResourceLocalAvailabilityRequest *_resourceRequest;
 }
 
 + (id);
@@ -28,7 +19,7 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -41,32 +32,16 @@
 - (id);
 - (void);
 - (id);
-- (void)tryAllowsMultipleLikeContributors;
+- (void)_activityEntryAllowsMultipleLikeContributors;
 - (void)ullable __strong));
-- (id)onousDeliveryRequired;
+- (id)InitialSynchronousDeliveryRequired;
 - (void);
 - (void)àEÿ=úþ;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsResourceDownload; // @synthesize allowsResourceDownload=_allowsResourceDownload;
-@property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) NSData *cachedImageData; // @synthesize cachedImageData=_cachedImageData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool exportAsMaster; // @synthesize exportAsMaster=_exportAsMaster;
 @property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PHObject *object; // @synthesize object=_object;
-@property(readonly, nonatomic) PHResourceLocalAvailabilityRequest *resourceRequest; // @synthesize resourceRequest=_resourceRequest;
-@property(readonly, nonatomic) _Bool stripLocation; // @synthesize stripLocation=_stripLocation;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSArray *types; // @synthesize types=_types;
 
 @end
 

@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet, NSString, UIScene, UIWindowScene;
-@protocol UINSWindow;
+@class UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneTouchBarCoordinator
 {
     UIWindowScene *_scene;
-    id <UINSWindow> _hostWindow;
-    NSMutableOrderedSet *_defaultProviders;
-    NSArray *_activeTouchBars;
-    _Bool _touchBarAvailable;
-    _Bool _needsUpdate;
 }
 
 + (void);
-- (void);
+- (void).!;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)wasZoneNotCreated:(id)arg1;
+- (void)wasQuotaExceededInError:(id)arg1;
 - (void);
 - (id);
 - (void);
-- (id)arNotification;
+- (id)_UIAlertWillAppearNotification;
 - (void);
-- (id)erModernIOSSwift;
-- (void)apping;
+- (id)_UINavigationBarVisualProviderModernIOSSwift;
+- (void)ViewTagMapping;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic, getter=isTouchBarAvailable) _Bool touchBarAvailable; // @synthesize touchBarAvailable=_touchBarAvailable;
-@property(readonly, nonatomic) NSArray *touchBars;
 
 @end
 

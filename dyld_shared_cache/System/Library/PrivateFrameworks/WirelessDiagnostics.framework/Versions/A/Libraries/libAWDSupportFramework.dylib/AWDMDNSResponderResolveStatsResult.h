@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AWDMDNSResponderResolveStatsResult
 {
     unsigned int _count;
-    NSData *_data;
-    unsigned int _serverID;
-    int _type;
-    struct {
-        unsigned int count:1;
-        unsigned int serverID:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (_Bool);
@@ -25,14 +15,14 @@
 - (unsigned int);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -48,14 +38,7 @@
 - (void)arkingEvents"b1"suppressedParkingEvents"b1};
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool hasCount;
-@property(readonly, nonatomic) _Bool hasData;
-@property(nonatomic) _Bool hasServerID;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int serverID; // @synthesize serverID=_serverID;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

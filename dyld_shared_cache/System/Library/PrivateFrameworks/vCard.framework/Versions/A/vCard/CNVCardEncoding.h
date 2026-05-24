@@ -9,7 +9,6 @@
 @interface CNVCardEncoding
 {
     NSString *_name;
-    unsigned long long _stringEncoding;
 }
 
 + (id);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) unsigned long long stringEncoding; // @synthesize stringEncoding=_stringEncoding;
 
 @end
 

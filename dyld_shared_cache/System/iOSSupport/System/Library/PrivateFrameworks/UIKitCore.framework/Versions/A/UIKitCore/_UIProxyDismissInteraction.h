@@ -9,8 +9,6 @@
 @interface _UIProxyDismissInteraction : _UIDismissInteraction
 {
     id trackingView;
-    id trackingViewDidBecomeVisible;
-    id originalTrackingViewPosition;
 }
 
 - (void);

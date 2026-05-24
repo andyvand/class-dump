@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAnimationPathScalar, NSDictionary;
+@class MRAnimationPathScalar;
 
 @interface MRAnimationContext
 {
     MRAnimationPathScalar *animationPath;
-    double *param1;
-    double *param2;
-    NSDictionary *state;
 }
 
 - (void);

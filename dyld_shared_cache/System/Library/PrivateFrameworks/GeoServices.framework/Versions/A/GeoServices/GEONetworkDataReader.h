@@ -9,10 +9,6 @@
 @interface GEONetworkDataReader
 {
     NSMutableData *_data;
-    unsigned long long _dataLength;
-    const void *_bytes;
-    unsigned long long _bookmarkOffset;
-    unsigned long long _offset;
 }
 
 - (void);

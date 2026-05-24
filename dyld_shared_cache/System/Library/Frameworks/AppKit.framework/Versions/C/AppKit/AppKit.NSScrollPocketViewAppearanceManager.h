@@ -7,11 +7,6 @@
 @interface AppKit.NSScrollPocketViewAppearanceManager
 {
     id pocket;
-    id context;
-    id _isAdapting;
-    id input;
-    id windowRelativeGeometry;
-    id _colorSchemes;
 }
 
 @end

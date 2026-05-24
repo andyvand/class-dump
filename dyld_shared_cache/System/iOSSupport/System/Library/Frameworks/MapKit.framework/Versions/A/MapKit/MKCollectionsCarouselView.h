@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOExploreGuides, MKPlaceCollectionsLogicController, NSObject, NSString, UICollectionView, UICollectionViewFlowLayout, UIStackView;
-@protocol MKCollectionCarouselAnalyticsDelegate, MKCollectionCarouselRoutingDelegate, MKCollectionsSizeProvider, OS_dispatch_queue, UIScrollViewDelegate;
+@class UICollectionView;
 
 @interface MKCollectionsCarouselView
 {
     CDStruct_7ddafc85 _collectionsConfiguration;
-    _Bool _hasDisplayedCollections;
-    NSObject<OS_dispatch_queue> *_utilityQueue;
-    UICollectionView *_collectionView;
-    UICollectionViewFlowLayout *_flowLayout;
-    MKPlaceCollectionsLogicController *_logicController;
-    id <MKCollectionsSizeProvider> _sizeController;
-    id <MKCollectionCarouselRoutingDelegate> _routingDelegate;
-    id <UIScrollViewDelegate> _scrollViewDelegate;
-    id <MKCollectionCarouselAnalyticsDelegate> _analyticsDelegate;
-    GEOExploreGuides *_exploreGuides;
-    long long _carouselContext;
-    UIStackView *_contentView;
 }
 
 + (double);
 + (double);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
@@ -40,7 +27,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Ѧ~;
 - (void);
 - (id);
 - (id);
@@ -63,40 +50,21 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)hasDefferedPinnedConversationsDidChangeNotification;
 - (struct CGPoint);
 - (double);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void)ueue;
+- (void)_queue;
 - (id)v²	;
 - (struct CGSize)Ä}:½
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKCollectionCarouselAnalyticsDelegate> analyticsDelegate; // @synthesize analyticsDelegate=_analyticsDelegate;
-@property(nonatomic) long long carouselContext; // @synthesize carouselContext=_carouselContext;
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(retain, nonatomic) UIStackView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOExploreGuides *exploreGuides; // @synthesize exploreGuides=_exploreGuides;
-@property(retain, nonatomic) UICollectionViewFlowLayout *flowLayout; // @synthesize flowLayout=_flowLayout;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKPlaceCollectionsLogicController *logicController; // @synthesize logicController=_logicController;
-@property(nonatomic) __weak id <MKCollectionCarouselRoutingDelegate> routingDelegate; // @synthesize routingDelegate=_routingDelegate;
-@property(nonatomic) __weak id <UIScrollViewDelegate> scrollViewDelegate; // @synthesize scrollViewDelegate=_scrollViewDelegate;
-@property(nonatomic) _Bool showsHorizontalScrollIndicator;
-@property(retain, nonatomic) id <MKCollectionsSizeProvider> sizeController; // @synthesize sizeController=_sizeController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,31 +5,22 @@
 //
 
 @class NSString;
-@protocol MapsSuggestions.MapsSuggestionsContactActivityDelegate;
 
 @interface MapsSuggestions.MapsSuggestionsContactActivity
 {
     id _biome;
-    id _contacts;
-    id _findMy;
-    id _networkRequester;
-    id _queue;
-    id _cacheForMapItems;
-    void uniqueName;
-    void contactActivityDelegate;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)tintedImageCache;
 - (id);
 - (id);
 - (id);
-- (void)ryIdentifier;
+- (void)walletCategoryIdentifier;
 
 // Remaining properties
-@property(nonatomic) __weak id <MapsSuggestions.MapsSuggestionsContactActivityDelegate> contactActivityDelegate; // @synthesize contactActivityDelegate;
 @property(nonatomic, copy) NSString *uniqueName;
 
 @end

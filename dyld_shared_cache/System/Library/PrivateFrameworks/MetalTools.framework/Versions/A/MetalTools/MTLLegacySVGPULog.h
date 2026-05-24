@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLLegacySVImageData, NSArray, NSString;
-@protocol MTLFunction, MTLFunctionLogDebugLocation;
+@class MTLLegacySVImageData, NSString;
 
 @interface MTLLegacySVGPULog
 {
     MTLLegacySVImageData *_image;
-    NSArray *_errorStackTrace;
-    unsigned long long _callIndex;
-    unsigned long long _type;
-    NSString *_encoderLabel;
-    id <MTLFunction> _function;
-    id <MTLFunctionLogDebugLocation> _debugLocation;
-    NSString *_pipelineIdentifier;
 }
 
 - (void);
@@ -39,22 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long callIndex; // @synthesize callIndex=_callIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <MTLFunctionLogDebugLocation> debugLocation; // @synthesize debugLocation=_debugLocation;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *encoderLabel; // @synthesize encoderLabel=_encoderLabel;
-@property(retain, nonatomic) NSArray *errorStackTrace; // @synthesize errorStackTrace=_errorStackTrace;
-@property(retain, nonatomic) id <MTLFunction> function; // @synthesize function=_function;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MTLLegacySVImageData *image; // @synthesize image=_image;
 @property(readonly, nonatomic) NSString *locationDescription;
-@property(retain, nonatomic) NSString *pipelineIdentifier; // @synthesize pipelineIdentifier=_pipelineIdentifier;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

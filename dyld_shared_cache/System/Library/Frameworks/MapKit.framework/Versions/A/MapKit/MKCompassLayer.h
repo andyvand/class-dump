@@ -10,37 +10,26 @@ __attribute__((visibility("hidden")))
 @interface MKCompassLayer
 {
     CALayer *_discLayer;
-    CALayer *_ringLayer;
-    CALayer *_headingLayer;
-    struct CGImage *_currentDiscImage2D;
-    struct CGImage *_currentDiscImage3D;
-    struct CGImage *_currentDiscMaskImage;
-    struct CGImage *_currentRingImage;
-    struct CGImage *_currentRingMaskImage;
-    struct CGImage *_currentHeadingImage;
-    _Bool _wants2dText;
-    long long _usage;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void)__AUTH_CONST;
 - (void);
+- (struct CGSize)fetchAllIdentifiers:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGSize);
-- (void);
-- (id);
-- (void);
+- (id)returned:%@
+ /* Error: Ran out of types for this method. */;
+- (void)m;
 - (long long);
+- (void)parseFullnameWithDefaultHMMClassifier: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)imentDescription;
+- (void)experimentDescription;
 - (void)èÄ:(long long)arg1 ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize preferredSize;
 @property(nonatomic) long long usage; // @synthesize usage=_usage;
-@property(nonatomic) _Bool wants2dText; // @synthesize wants2dText=_wants2dText;
 
 @end
 

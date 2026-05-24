@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCConnection, ScreenSaverConfigurationViewController;
-@protocol OS_os_transaction;
+@class NSMutableArray;
 
 @interface ScreenSaverExtensionManager
 {
     _Bool _isAnimating;
-    _Bool _isPreview;
-    NSMutableArray *_viewControllers;
-    ScreenSaverConfigurationViewController *_configurationViewViewController;
-    NSXPCConnection *_connection;
-    NSString *_bundleIdentifier;
-    NSObject<OS_os_transaction> *_osTransaction;
 }
 
 + (void);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -29,8 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)edgeTransform;
 - (id);
 - (void);
 - (id);
@@ -46,12 +39,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property __weak ScreenSaverConfigurationViewController *configurationViewViewController; // @synthesize configurationViewViewController=_configurationViewViewController;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property _Bool isPreview; // @synthesize isPreview=_isPreview;
-@property(retain) NSObject<OS_os_transaction> *osTransaction; // @synthesize osTransaction=_osTransaction;
 @property(retain) NSMutableArray *viewControllers; // @synthesize viewControllers=_viewControllers;
 
 @end

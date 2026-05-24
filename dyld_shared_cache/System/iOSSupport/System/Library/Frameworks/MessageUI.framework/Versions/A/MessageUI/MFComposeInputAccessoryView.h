@@ -17,12 +17,12 @@
 - (id);
 - (void);
 - (id);
+- (id)LPStreamingAudioPlayButtonControl;
+- (struct CGSize)"PKSelectionInteraction"24@0:8@"PKDataDetectorInteractionHelper"16 /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGSize);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)8;
 
 // Remaining properties
 @property(retain, nonatomic) UIToolbar *toolbar; // @synthesize toolbar=_toolbar;

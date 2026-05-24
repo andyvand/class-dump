@@ -7,19 +7,12 @@
 @interface ContactsUI.RepresentableSlotView.SlotCoordinator
 {
     id parent;
-    id cachedQueryStr;
-    id cachedIgnoredEmails;
-    id cachedIgnoredPhones;
-    id cachedTraits;
-    id cachedOrientation;
-    id cachedContentSizeCategory;
-    id containedSlotMaker;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ΰ;
 - (void)hedulerProvider>",R,N,V_schedulerProvider;
 
 @end

@@ -9,13 +9,11 @@
 @interface APSChannelSubscriptionFailure
 {
     int _failureReason;
-    NSString *_pushTopic;
-    NSString *_channelID;
 }
 
-- (id);
-- (void);
-- (int);
+- (id)cification5ModelEE3$_0;
+- (void);
+- (int);
 - (id);
 - (void);
 - (void);
@@ -23,8 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(nonatomic) int failureReason; // @synthesize failureReason=_failureReason;
 @property(retain, nonatomic) NSString *pushTopic; // @synthesize pushTopic=_pushTopic;
 
 @end

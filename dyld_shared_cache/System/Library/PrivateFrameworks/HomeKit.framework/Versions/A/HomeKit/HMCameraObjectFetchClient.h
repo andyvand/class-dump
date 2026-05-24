@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDestination, NSDictionary, NSMutableArray, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, NSUUID;
 
 @interface HMCameraObjectFetchClient
 {
     NSUUID *_UUID;
-    _HMContext *_context;
-    NSString *_messageName;
-    HMFMessageDestination *_destination;
-    NSDictionary *_payload;
-    Class _classForUnarchiving;
-    NSMutableArray *_fetchedObjects;
 }
 
 + (id)B011-CFAC559A3CFB;
@@ -29,33 +22,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9	6	$	@		>	;
+- (id)managedHandleForHandle:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)N %@;
+- (id)�;
 - (void)\¼;
 - (void)e:(id)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain) Class classForUnarchiving; // @synthesize classForUnarchiving=_classForUnarchiving;
-@property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMFMessageDestination *destination; // @synthesize destination=_destination;
 @property(readonly) NSMutableArray *fetchedObjects; // @synthesize fetchedObjects=_fetchedObjects;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly) Class superclass;
 
 @end
 

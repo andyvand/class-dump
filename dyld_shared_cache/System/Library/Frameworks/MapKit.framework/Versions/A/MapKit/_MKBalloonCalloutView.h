@@ -6,105 +6,69 @@
 
 #import <MapKit/MKCalloutView.h>
 
-@class CALayer, MKAnnotationView, MKImageView, NSColor, NSImage, NSView, _MKBezierPathView, _MKKVOProxy, _MKMarkerAnnotationBaseImageView;
+@class NSView;
 
 @interface _MKBalloonCalloutView : MKCalloutView
 {
     NSView *_shadowView;
-    NSView *_containerView;
-    NSColor *_balloonTintColor;
-    NSColor *_strokeColor;
-    NSColor *_innerStrokeColor;
-    NSColor *_imageTintColor;
-    MKImageView *_balloonBodyImageView;
-    MKImageView *_tailView;
-    NSView *_innerBackgroundView;
-    MKImageView *_imageView;
-    struct CGSize _intrinsicSize;
-    struct CGSize _shadowSize;
-    _Bool _originatesAsSmallBalloon;
-    double _croppedImageScale;
-    MKImageView *_contentViewMaskView;
-    NSView *_backgroundView;
-    _MKBezierPathView *_backgroundShapeView;
-    _MKMarkerAnnotationBaseImageView *_backgroundShapeGradientView;
-    _MKMarkerAnnotationBaseImageView *_rectangularImageView;
-    CALayer *_animationLayer;
-    _Bool _centerAnnotationWhenOffscreen;
-    _Bool _showsArrow;
-    _Bool _dismissed;
-    _MKKVOProxy *_kvoProxy;
-    MKAnnotationView *_observedAnnotationView;
-    NSView *_contentView;
-    long long _style;
-    NSImage *_image;
-    double _smallBalloonScale;
 }
 
+- (void)synchronousRemoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (double)batchMessagesSentCount;
+- (_Bool)_powerlogTimestampLast;
+- (void)_networkEnergy;
+- (void)_lastReportedTotalEnergy;
+- (void)numAggregations;
+- (void)PLClientLogAggregator;
+- (void)PLModelingUtilities;
+- (void)is %@ and the copy dest is %@;
+- (void)tEventDate = %@
+;
+- (void)ient to enqueue new quick energy snapshot;
+- (_Bool)udgetingdebug.lastReportedTotalEnergy;
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (double);
-- (struct CGRect);
+- (struct CGRect)C;
 - (void);
 - (void);
 - (struct CGRect);
 - (_Bool);
 - (long long);
 - (void);
-- (void);
+- (void)canWriteToAccountWithIdentifier:(id)arg1 fromSourceAccountIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)too long;
+- (void)PushNotificationForFacebookDidChangeEvent;
 - (void);
 - (void)ñ&Ð!Fù±*Ð1Â0@ù
 × ;
 - (void)Fùñ*°1Â0@ù
 × ;
-- (id)tForTransitLines:traits: /* Error: Ran out of types for this method. */;
-- (void)ollisionMode: /* Error: Ran out of types for this method. */;
-- (id)ironment:(long long)arg1;
-- (void)onstraint;
+- (id)ticketForTransitLines:traits: /* Error: Ran out of types for this method. */;
+- (void)setCollisionMode: /* Error: Ran out of types for this method. */;
+- (id)placeActionManager:(long long)arg1 didSelectAddToContactsUsingEnvironment: /* Error: Ran out of types for this method. */;
+- (void)_titleToBottomConstraint;
 - (id)d;
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *balloonTintColor; // @synthesize balloonTintColor=_balloonTintColor;
-@property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSColor *imageTintColor; // @synthesize imageTintColor=_imageTintColor;
-@property(copy, nonatomic) NSColor *innerStrokeColor; // @synthesize innerStrokeColor=_innerStrokeColor;
-@property(nonatomic) _Bool originatesAsSmallBalloon; // @synthesize originatesAsSmallBalloon=_originatesAsSmallBalloon;
-@property(nonatomic) _Bool showsArrow; // @synthesize showsArrow=_showsArrow;
-@property(nonatomic) double smallBalloonScale; // @synthesize smallBalloonScale=_smallBalloonScale;
-@property(copy, nonatomic) NSColor *strokeColor; // @synthesize strokeColor=_strokeColor;
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end

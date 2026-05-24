@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Validation)
-- (_Bool);
+- (_Bool)tore_artwork_token TEXT NOT NULL DEFAULT '');
 @end
 

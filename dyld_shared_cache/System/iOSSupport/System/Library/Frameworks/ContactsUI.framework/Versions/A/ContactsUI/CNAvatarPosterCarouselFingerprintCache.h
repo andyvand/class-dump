@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCacheChangeListener, CNCache, NSString;
+@class CNCache;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarPosterCarouselFingerprintCache
 {
     CNCache *_cache;
-    CNAvatarCacheChangeListener *_changeHistoryListener;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)4);
 - (void);
 - (void);
 - (void);
@@ -30,14 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) CNAvatarCacheChangeListener *changeHistoryListener; // @synthesize changeHistoryListener=_changeHistoryListener;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

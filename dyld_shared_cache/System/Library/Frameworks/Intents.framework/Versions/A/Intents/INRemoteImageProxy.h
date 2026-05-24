@@ -11,10 +11,9 @@
 @interface INRemoteImageProxy : INImage
 {
     NSString *_storageServiceIdentifier;
-    NSString *_proxyIdentifier;
 }
 
-+ (id);
++ (id)o;
 + (void);
 + (id);
 + (_Bool);
@@ -25,26 +24,25 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id);
+- (id)exit;
+- (id)CATE-----
+;
+- (void)CoreSpotlight.framework/Versions/A/CoreSpotlight;
+- (_Bool)nstruction Code;
+- (_Bool)initWithNetworkProfiles:(id)arg1;
+- (void)omic instance = %@;
 - (id);
 - (void)1¾(°1Â0@ù
 × ;
 - (id)nalsEnabled"b1"appSelectionSignalsFrequencyDenominator"b1"entityConfidenceSignalsEnabled"b1"entityConfidenceSignalsFrequencyDenominatorInternal"b1"entityConfidenceSignalsFrequencyDenominatorProd"b1"entityConfidenceSignalsMaxItemsToDisambiguate"b1"immediatelyStartPlayback"b1"isAmbiguousPlay"b1"isPersonalizedRequest"b1"shouldSuppressCommonWholeHouseAudioRoutes"b1};
-- (void)hTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideItemTypeOptionsCollectionForSearchForNotebookItems:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setProxyIdentifier:) NSString *_proxyIdentifier; // @synthesize _proxyIdentifier;
-@property(copy, nonatomic, setter=_setStorageServiceIdentifier:) NSString *_storageServiceIdentifier; // @synthesize _storageServiceIdentifier;
-@property(readonly, nonatomic) _Bool isValid;
 
 @end
 

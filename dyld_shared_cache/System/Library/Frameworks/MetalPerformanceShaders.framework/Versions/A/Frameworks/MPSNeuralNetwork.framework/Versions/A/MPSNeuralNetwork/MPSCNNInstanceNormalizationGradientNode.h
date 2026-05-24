@@ -6,8 +6,6 @@
 
 #import <MPSNeuralNetwork/MPSNNGradientFilterNode.h>
 
-@class NSString;
-
 @interface MPSCNNInstanceNormalizationGradientNode : MPSNNGradientFilterNode
 {
     unsigned long long _trainingStyle;
@@ -21,13 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long trainingStyle; // @synthesize trainingStyle=_trainingStyle;
 
 @end

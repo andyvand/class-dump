@@ -9,7 +9,6 @@
 @interface ChatKit.CKPhotoStackPhotoContentContainerView
 {
     UIView *contentView;
-    id containerViewMaskLayer;
 }
 
 - (id);

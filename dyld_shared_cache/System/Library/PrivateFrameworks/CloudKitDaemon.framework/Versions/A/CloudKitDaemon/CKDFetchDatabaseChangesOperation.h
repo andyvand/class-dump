@@ -6,33 +6,23 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKServerChangeToken, NSMutableArray, NSObject, NSString;
-@protocol CKFetchDatabaseChangesOperationCallbacks><CKDOperationCallbackProxy, OS_dispatch_group, OS_dispatch_queue;
+@class CKServerChangeToken;
 
 @interface CKDFetchDatabaseChangesOperation : CKDDatabaseOperation
 {
     _Bool _fetchAllChanges;
-    CDUnknownBlockType _recordZoneWithIDChangedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasPurgedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedDueToEncryptedDataResetBlock;
-    CDUnknownBlockType _serverChangeTokenUpdatedBlock;
-    CKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
-    unsigned long long _numRequestsSent;
-    NSObject<OS_dispatch_group> *_fetchZonesGroup;
-    NSMutableArray *_requestInfos;
 }
 
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)st void *, CFStringRef, const void *, CFTypeRef);
+- (void)fi semantics;
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)sure_sym_ctrl_is_queued %p
+;
 - (void);
 - (id);
 - (void);
@@ -46,41 +36,21 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (int);
-- (void);
+- (int)LOCAL:<%@> more recently added on local KVS, defer /* Error: Ran out of types for this method. */;
+- (void)TetraPB_TetraPublicPrekey;
 - (void);
 - (id);
-- (void)ToRemove:(id)arg1;
-- (id)ngesByDestinationRecordID;
-- (CDUnknownBlockType)pAttempts;
-- (_Bool)terForTCCAuthorizationEvents;
+- (void)setEncryptedAnonymousSharesToRemove:(id)arg1;
+- (id)moveChangesByDestinationRecordID;
+- (CDUnknownBlockType)maxUnwrapAttempts;
+- (_Bool)_registerForTCCAuthorizationEvents;
 - (void)Hð ,!#x$à&H1	À2h89´>ø?TE	àFtmÌmnìrXtH,8³P´x¸;
 - (void)rypt shared record %@;
 - (unsigned long long)ched successfully;
 - (unsigned long long)able values for operation %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue;
-@property(retain, nonatomic) id <CKFetchDatabaseChangesOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *fetchZonesGroup; // @synthesize fetchZonesGroup=_fetchZonesGroup;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long numRequestsSent; // @synthesize numRequestsSent=_numRequestsSent;
-@property(readonly, nonatomic) NSString *pipeliningDescription;
 @property(retain, nonatomic) CKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDChangedBlock; // @synthesize recordZoneWithIDChangedBlock=_recordZoneWithIDChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedBlock; // @synthesize recordZoneWithIDWasDeletedBlock=_recordZoneWithIDWasDeletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedDueToEncryptedDataResetBlock; // @synthesize recordZoneWithIDWasDeletedDueToEncryptedDataResetBlock=_recordZoneWithIDWasDeletedDueToEncryptedDataResetBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasPurgedBlock; // @synthesize recordZoneWithIDWasPurgedBlock=_recordZoneWithIDWasPurgedBlock;
-@property(retain, nonatomic) NSMutableArray *requestInfos; // @synthesize requestInfos=_requestInfos;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
-@property(copy, nonatomic) CDUnknownBlockType serverChangeTokenUpdatedBlock; // @synthesize serverChangeTokenUpdatedBlock=_serverChangeTokenUpdatedBlock;
-@property(readonly) Class superclass;
 
 @end
 

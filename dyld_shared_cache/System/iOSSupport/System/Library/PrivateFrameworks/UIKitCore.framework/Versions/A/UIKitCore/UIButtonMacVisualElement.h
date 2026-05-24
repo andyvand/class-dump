@@ -6,26 +6,32 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSColor, NSControl, _UINSView, _UIScrollPocketInteraction;
-@protocol UIButtonControl, UIButtonRepresentable;
+@class _UIScrollPocketInteraction;
+@protocol UIButtonControl;
 
 __attribute__((visibility("hidden")))
 @interface UIButtonMacVisualElement : UIView
 {
     id <UIButtonControl> buttonControl;
-    NSControl<UIButtonRepresentable> *_button;
-    _UINSView *_bridge;
 }
 
-+ (id);
++ (id)r chatid %@, will check if it needs to be sent to spam extension app;
 + (id);
 + (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)existing transfers.;
+- (void)e'll just re-download.;
+- (void)We don't have all the attachments yet, we'll just re-download.;
+- (void)rs, just moving along as a success!;
+- (void)OOL}d;
+- (void)done transfer set for:(id)arg1 %@   success:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void)ror cleaning up output path:(id)arg1 %@  error:%@ /* Error: Ran out of types for this method. */;
+- (void)at :(id)arg1 %@;
+- (void)ticipants:(id)arg1 %@ to 1:1 chat :%@ /* Error: Ran out of types for this method. */;
+- (void)omain, but groupID is non-nil:(id)arg1 %@. Please file a radar!;
+- (void)ledgments failed with error:(id)arg1 %@;
+- (void)rd as we'll retry updating the subscription on imagent launch;
+- (id)H;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -33,18 +39,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)d;
 - (id);
 - (void);
 - (id);
@@ -52,8 +50,8 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (CDStruct_c3b9c2ee)0@ù
 × ;
-- (void)tchTriggeredByASCIIToggle:(id)arg1;
-- (void)ReplacementElements:(id)arg1;
+- (void)setLastInputModeSwitchTriggeredByASCIIToggle:(id)arg1;
+- (void)_setReplacementElements:(id)arg1;
 - (struct CGSize)nge records for %@:(struct CGSize)arg1 %@
 ;
 - (void);
@@ -67,11 +65,6 @@ __attribute__((visibility("hidden")))
 - (id)ØEnÿø;
 
 // Remaining properties
-@property(nonatomic, getter=_isSelected, setter=_setSelected:) _Bool _selected;
-@property(retain, nonatomic) _UINSView *bridge; // @synthesize bridge=_bridge;
-@property(retain, nonatomic) NSControl<UIButtonRepresentable> *button; // @synthesize button=_button;
-@property(nonatomic) __weak id <UIButtonControl> buttonControl; // @synthesize buttonControl;
-@property(copy) NSColor *contentTintColor;
 @property(nonatomic, retain) _UIScrollPocketInteraction *scrollPocketInteraction;
 
 @end

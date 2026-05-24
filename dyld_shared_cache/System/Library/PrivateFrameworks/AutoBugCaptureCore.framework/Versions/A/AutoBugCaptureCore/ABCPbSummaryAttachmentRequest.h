@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ABCPbSummaryAttachmentRequest
 {
     NSString *_fileName;
-    unsigned int _fileSize;
-    struct {
-        unsigned int fileSize:1;
-    } _has;
 }
 
 - (_Bool);
@@ -24,21 +20,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_currentMapRegion;
 - (void);
-- (void);
+- (void)SeqNumRange *)_block_invoke;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned int)er;
+- (unsigned int)StorageDrivers_listener;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(nonatomic) unsigned int fileSize; // @synthesize fileSize=_fileSize;
 @property(readonly, nonatomic) _Bool hasFileName;
-@property(nonatomic) _Bool hasFileSize;
 
 @end
 

@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISlidingBarStateRequest, _UIPanelCoordinatingAnimator;
+@class UISlidingBarStateRequest;
 
 __attribute__((visibility("hidden")))
 @interface _UIPanelAnimationState
 {
     _Bool _isFinishingAnimation;
-    _Bool _shouldAssignOffscreenWidthsToStateRequest;
-    _Bool _animatorShouldCoordinate;
-    UISlidingBarStateRequest *_fromRequest;
-    UISlidingBarStateRequest *_toRequest;
-    double _progress;
-    long long _affectedSides;
-    _UIPanelCoordinatingAnimator *_animator;
 }
 
-+ (id);
-+ (id);
-+ (double)Changed;
++ (id)Existing transfer:(double)arg1 %lu/%lu %@;
++ (id)registered:%@ for message:%@ /* Error: Ran out of types for this method. */;
++ (double)_itemOrderingChanged;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (void);
+- (id)setReplicatedFallbackHistory: /* Error: Ran out of types for this method. */;
+- (_Bool)currentToneIdentifierForAlertType: /* Error: Ran out of types for this method. */;
+- (long long)conversationManager:avModeChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)roupProcessingPipelineComponent> already have message - nothing to converge;
 - (void);
 - (id);
 - (id);
@@ -43,15 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)pÿ;
 
 // Remaining properties
-@property(nonatomic) long long affectedSides; // @synthesize affectedSides=_affectedSides;
-@property(retain, nonatomic) _UIPanelCoordinatingAnimator *animator; // @synthesize animator=_animator;
-@property(nonatomic) _Bool animatorShouldCoordinate; // @synthesize animatorShouldCoordinate=_animatorShouldCoordinate;
 @property(copy, nonatomic) UISlidingBarStateRequest *fromRequest; // @synthesize fromRequest=_fromRequest;
-@property(nonatomic, setter=setFinishingAnimation:) _Bool isFinishingAnimation; // @synthesize isFinishingAnimation=_isFinishingAnimation;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(nonatomic) _Bool shouldAssignOffscreenWidthsToStateRequest; // @synthesize shouldAssignOffscreenWidthsToStateRequest=_shouldAssignOffscreenWidthsToStateRequest;
-@property(readonly, nonatomic) UISlidingBarStateRequest *stateRequest;
-@property(copy, nonatomic) UISlidingBarStateRequest *toRequest; // @synthesize toRequest=_toRequest;
 
 @end
 

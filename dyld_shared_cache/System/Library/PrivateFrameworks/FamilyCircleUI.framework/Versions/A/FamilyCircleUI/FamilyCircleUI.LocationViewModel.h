@@ -7,24 +7,12 @@
 @interface FamilyCircleUI.LocationViewModel
 {
     id _familyMembersSharingLocationWithMe;
-    id _parentCanToggleChildsLocation;
-    id _disableLocationToggles;
-    id _sharingLocationWithFamilyMembers;
-    id _childCanModifyLocationStatus;
-    id _membersAutomaticallySharing;
-    id screenTimeConnection;
-    id servicesStore;
-    id circleStore;
-    id fmlSession;
-    id locationListener;
-    id cancellables;
-    id wasLoadDataCalled;
 }
 
 + (id);
-+ (void);
++ (void)IFTSchemaASTPath;
 + (id);
-- (void)xAz;
+- (void)setAssetSetIndices: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)¨Xðôô !ä#;
 

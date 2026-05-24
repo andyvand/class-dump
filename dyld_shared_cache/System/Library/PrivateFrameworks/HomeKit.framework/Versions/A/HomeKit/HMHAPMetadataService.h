@@ -10,24 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMHAPMetadataService
 {
     NSString *_uuidStr;
-    NSString *_svcDescription;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)cted text.;
 - (id);
 - (void), ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *svcDescription; // @synthesize svcDescription=_svcDescription;
 @property(retain, nonatomic) NSString *uuidStr; // @synthesize uuidStr=_uuidStr;
 
 @end

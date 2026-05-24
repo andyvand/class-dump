@@ -8,9 +8,9 @@
 {
 }
 
-- (struct CGPoint);
-- (id);
-- (void)argetIndexPathAndDropProposalForSession:(id)arg1;
+- (struct CGPoint)ier;
+- (id)onary to replay %@;
+- (void)updateTargetIndexPathAndDropProposalForSession:(id)arg1;
 - (long long)ÿIJÐ;5n;
 
 // Remaining properties

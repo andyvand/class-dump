@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWSphereInteractionCalibrationAnalyticsPayload
 {
     long long _magneticFieldMagnitude;
-    NSString *_portType;
-    unsigned int _calibrationStatus;
-    int _sphereNeutralPositionError;
-    int _sphereNeutralPosition;
-    int _sphereMacroPositionError;
-    int _sphereMacroPosition;
 }
 
 - (int);
@@ -32,27 +24,14 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)mTooLowThreshold;
+- (void)TCBundleResourcePackage;
+- (id);
+- (id);
+- (id)equest of type %ld, priority %ld, UseFG %ld (%.2f ms), data %@, connectable %d, addr change %d, options %@, advertisementRequestedAt %llu, randomData %@;
+- (id)BackgroundShiftSumTooLowThreshold;
 
 // Remaining properties
-@property(nonatomic) unsigned int calibrationStatus; // @synthesize calibrationStatus=_calibrationStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long magneticFieldMagnitude; // @synthesize magneticFieldMagnitude=_magneticFieldMagnitude;
-@property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) int sphereMacroPosition; // @synthesize sphereMacroPosition=_sphereMacroPosition;
-@property(nonatomic) int sphereMacroPositionError; // @synthesize sphereMacroPositionError=_sphereMacroPositionError;
-@property(nonatomic) int sphereNeutralPosition; // @synthesize sphereNeutralPosition=_sphereNeutralPosition;
-@property(nonatomic) int sphereNeutralPositionError; // @synthesize sphereNeutralPositionError=_sphereNeutralPositionError;
-@property(readonly) Class superclass;
 
 @end
 

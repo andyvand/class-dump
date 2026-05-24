@@ -4,127 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPBaroCalibrationIndication, CLPLocationProcessingMetadata, CLPMotionActivity, CLPPipelineDiagnosticReport, CLPSatelliteReport, CLPVehicleType, NSMutableArray;
-
 @interface CLPLocation
 {
     double _latitude;
-    double _longitude;
-    double _timestamp;
-    float _altitude;
-    NSMutableArray *_appBundleIdIndices;
-    CLPBaroCalibrationIndication *_baroCalibrationIndication;
-    int _context;
-    float _course;
-    float _courseAccuracy;
-    CLPMotionActivity *_dominantMotionActivity;
-    int _floor;
-    float _horizontalAccuracy;
-    float _horzUncSemiMaj;
-    float _horzUncSemiMajAz;
-    float _horzUncSemiMin;
-    int _modeIndicator;
-    CLPMotionActivity *_motionActivity;
-    int _motionActivityConfidence;
-    int _motionActivityType;
-    CLPPipelineDiagnosticReport *_pipelineDiagnosticReport;
-    CLPLocationProcessingMetadata *_processingMetadata;
-    int _provider;
-    CLPMotionActivity *_rawMotionActivity;
-    CLPSatelliteReport *_satReport;
-    float _speed;
-    float _speedAccuracy;
-    CLPVehicleType *_vehicleType;
-    float _verticalAccuracy;
-    _Bool _isFromLocationController;
-    _Bool _isProactiveLocation;
-    _Bool _motionVehicleConnected;
-    _Bool _motionVehicleConnectedStateChanged;
-    struct {
-        unsigned int altitude:1;
-        unsigned int context:1;
-        unsigned int course:1;
-        unsigned int courseAccuracy:1;
-        unsigned int floor:1;
-        unsigned int horzUncSemiMaj:1;
-        unsigned int horzUncSemiMajAz:1;
-        unsigned int horzUncSemiMin:1;
-        unsigned int modeIndicator:1;
-        unsigned int motionActivityConfidence:1;
-        unsigned int motionActivityType:1;
-        unsigned int provider:1;
-        unsigned int speed:1;
-        unsigned int speedAccuracy:1;
-        unsigned int verticalAccuracy:1;
-        unsigned int isFromLocationController:1;
-        unsigned int isProactiveLocation:1;
-        unsigned int motionVehicleConnected:1;
-        unsigned int motionVehicleConnectedStateChanged:1;
-    } _has;
 }
 
 + (Class);
 
 // Remaining properties
-@property(nonatomic) float altitude; // @synthesize altitude=_altitude;
-@property(retain, nonatomic) NSMutableArray *appBundleIdIndices; // @synthesize appBundleIdIndices=_appBundleIdIndices;
-@property(retain, nonatomic) CLPBaroCalibrationIndication *baroCalibrationIndication; // @synthesize baroCalibrationIndication=_baroCalibrationIndication;
-@property(nonatomic) int context; // @synthesize context=_context;
-@property(nonatomic) float course; // @synthesize course=_course;
-@property(nonatomic) float courseAccuracy; // @synthesize courseAccuracy=_courseAccuracy;
-@property(retain, nonatomic) CLPMotionActivity *dominantMotionActivity; // @synthesize dominantMotionActivity=_dominantMotionActivity;
-@property(nonatomic) int floor; // @synthesize floor=_floor;
-@property(nonatomic) _Bool hasAltitude;
-@property(readonly, nonatomic) _Bool hasBaroCalibrationIndication;
-@property(nonatomic) _Bool hasContext;
-@property(nonatomic) _Bool hasCourse;
-@property(nonatomic) _Bool hasCourseAccuracy;
-@property(readonly, nonatomic) _Bool hasDominantMotionActivity;
-@property(nonatomic) _Bool hasFloor;
-@property(nonatomic) _Bool hasHorzUncSemiMaj;
-@property(nonatomic) _Bool hasHorzUncSemiMajAz;
-@property(nonatomic) _Bool hasHorzUncSemiMin;
-@property(nonatomic) _Bool hasIsFromLocationController;
-@property(nonatomic) _Bool hasIsProactiveLocation;
-@property(nonatomic) _Bool hasModeIndicator;
-@property(readonly, nonatomic) _Bool hasMotionActivity;
-@property(nonatomic) _Bool hasMotionActivityConfidence;
-@property(nonatomic) _Bool hasMotionActivityType;
-@property(nonatomic) _Bool hasMotionVehicleConnected;
-@property(nonatomic) _Bool hasMotionVehicleConnectedStateChanged;
-@property(readonly, nonatomic) _Bool hasPipelineDiagnosticReport;
-@property(readonly, nonatomic) _Bool hasProcessingMetadata;
-@property(nonatomic) _Bool hasProvider;
-@property(readonly, nonatomic) _Bool hasRawMotionActivity;
-@property(readonly, nonatomic) _Bool hasSatReport;
-@property(nonatomic) _Bool hasSpeed;
-@property(nonatomic) _Bool hasSpeedAccuracy;
-@property(readonly, nonatomic) _Bool hasVehicleType;
-@property(nonatomic) _Bool hasVerticalAccuracy;
-@property(nonatomic) float horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(nonatomic) float horzUncSemiMaj; // @synthesize horzUncSemiMaj=_horzUncSemiMaj;
-@property(nonatomic) float horzUncSemiMajAz; // @synthesize horzUncSemiMajAz=_horzUncSemiMajAz;
-@property(nonatomic) float horzUncSemiMin; // @synthesize horzUncSemiMin=_horzUncSemiMin;
-@property(nonatomic) _Bool isFromLocationController; // @synthesize isFromLocationController=_isFromLocationController;
-@property(nonatomic) _Bool isProactiveLocation; // @synthesize isProactiveLocation=_isProactiveLocation;
 @property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(nonatomic) int modeIndicator; // @synthesize modeIndicator=_modeIndicator;
-@property(retain, nonatomic) CLPMotionActivity *motionActivity; // @synthesize motionActivity=_motionActivity;
-@property(nonatomic) int motionActivityConfidence; // @synthesize motionActivityConfidence=_motionActivityConfidence;
-@property(nonatomic) int motionActivityType; // @synthesize motionActivityType=_motionActivityType;
-@property(nonatomic) _Bool motionVehicleConnected; // @synthesize motionVehicleConnected=_motionVehicleConnected;
-@property(nonatomic) _Bool motionVehicleConnectedStateChanged; // @synthesize motionVehicleConnectedStateChanged=_motionVehicleConnectedStateChanged;
-@property(retain, nonatomic) CLPPipelineDiagnosticReport *pipelineDiagnosticReport; // @synthesize pipelineDiagnosticReport=_pipelineDiagnosticReport;
-@property(retain, nonatomic) CLPLocationProcessingMetadata *processingMetadata; // @synthesize processingMetadata=_processingMetadata;
-@property(nonatomic) int provider; // @synthesize provider=_provider;
-@property(retain, nonatomic) CLPMotionActivity *rawMotionActivity; // @synthesize rawMotionActivity=_rawMotionActivity;
-@property(retain, nonatomic) CLPSatelliteReport *satReport; // @synthesize satReport=_satReport;
-@property(nonatomic) float speed; // @synthesize speed=_speed;
-@property(nonatomic) float speedAccuracy; // @synthesize speedAccuracy=_speedAccuracy;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) CLPVehicleType *vehicleType; // @synthesize vehicleType=_vehicleType;
-@property(nonatomic) float verticalAccuracy; // @synthesize verticalAccuracy=_verticalAccuracy;
 
 @end
 

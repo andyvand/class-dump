@@ -5,5 +5,10 @@
 //
 
 @protocol ACCTransportXPCServerProtocol
+- (void);
+- (void)P;
+- (void);
+- (void)C;
+- (void)(;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TIKeyboardApplicationStateResponses
+- (void)@  e;
 @end
 

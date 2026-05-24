@@ -10,7 +10,7 @@
 {
 }
 
-- (void)oordinatorVisualizationStorage;
+- (void)_TtC5UIKit46_UIWritingToolsCoordinatorVisualizationStorage;
 - (void)°ØÿQÊØbn;
 - (void)8Þn;
 - (void);

@@ -11,21 +11,21 @@
     SPAKE2Common *_common;
 }
 
-- (id);
+- (id) ;
 - (id);
 - (_Bool);
+- (_Bool)r( ;
 - (_Bool);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)T_;
 - (id);
 - (id);
 - (id);

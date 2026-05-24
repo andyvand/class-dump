@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMMemberships, REMSmartListChangeItem;
+@class REMSmartListChangeItem;
 
 @interface REMSmartListSectionContextChangeItem
 {
@@ -12,12 +12,12 @@
 }
 
 - (void);
+- (id)6;
+- (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)3;
 - (void)!xAùÑr °1Â0@ù
 × ;
 - (void)cument_DocObject}}};
@@ -25,10 +25,7 @@
 - (id)AÏ;
 
 // Remaining properties
-@property(nonatomic) _Bool shouldUpdateSectionsOrdering;
 @property(retain, nonatomic) REMSmartListChangeItem *smartListChangeItem; // @synthesize smartListChangeItem=_smartListChangeItem;
-@property(retain, nonatomic) REMMemberships *unsavedMembershipsOfRemindersInSections;
-@property(retain, nonatomic) NSArray *unsavedSectionIDsOrdering;
 
 @end
 

@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRDiscoverySessionConfigurationProtobuf
 {
     int _features;
-    NSString *_outputDeviceUID;
-    NSString *_routingContextUID;
-    unsigned int _targetSessionID;
-    _Bool _alwaysAllowUpdates;
-    _Bool _cachedDiscoveryEnabled;
-    _Bool _enableThrottling;
-    _Bool _populatesExternalDevice;
-    struct {
-        unsigned int features:1;
-        unsigned int targetSessionID:1;
-        unsigned int alwaysAllowUpdates:1;
-        unsigned int cachedDiscoveryEnabled:1;
-        unsigned int enableThrottling:1;
-        unsigned int populatesExternalDevice:1;
-    } _has;
 }
 
 - (void);
@@ -39,20 +22,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned int);
 - (void);
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)sendCoreAnalyticsSilverEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)_didChangeBusyState: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -61,31 +44,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)idChangeStateFrom:to:] /* Error: Ran out of types for this method. */;
+- (id)0000;
 - (_Bool);
 - (void);
-- (void)laybackSessionMigrateEndMessage:(_Bool)arg1;
-- (void)nt;
+- (void)setPlaybackSessionMigrateEndMessage:(_Bool)arg1;
+- (void)_hasAcceptedPrivacyAcknowledgement;
 - (_Bool)*ûÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysAllowUpdates; // @synthesize alwaysAllowUpdates=_alwaysAllowUpdates;
-@property(nonatomic) _Bool cachedDiscoveryEnabled; // @synthesize cachedDiscoveryEnabled=_cachedDiscoveryEnabled;
-@property(nonatomic) _Bool enableThrottling; // @synthesize enableThrottling=_enableThrottling;
-@property(nonatomic) int features; // @synthesize features=_features;
-@property(nonatomic) _Bool hasAlwaysAllowUpdates;
-@property(nonatomic) _Bool hasCachedDiscoveryEnabled;
-@property(nonatomic) _Bool hasEnableThrottling;
 @property(nonatomic) _Bool hasFeatures;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(nonatomic) _Bool hasPopulatesExternalDevice;
-@property(readonly, nonatomic) _Bool hasRoutingContextUID;
-@property(nonatomic) _Bool hasTargetSessionID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(nonatomic) _Bool populatesExternalDevice; // @synthesize populatesExternalDevice=_populatesExternalDevice;
-@property(retain, nonatomic) NSString *routingContextUID; // @synthesize routingContextUID=_routingContextUID;
-@property(nonatomic) unsigned int targetSessionID; // @synthesize targetSessionID=_targetSessionID;
 
 @end
 

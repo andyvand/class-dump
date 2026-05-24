@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableString, NSURL, NSXMLNode;
-
 __attribute__((visibility("hidden")))
 @interface NSXMLSAXParser
 {
     _Bool _hadError;
-    _Bool _afterEntityLookup;
-    _Bool _isSingleDTDNode;
-    long long _parserFlags;
-    unsigned long long _fidelityMask;
-    struct _xmlSAXHandler *_saxHandler;
-    struct _xmlParserCtxt *_context;
-    NSData *_data;
-    NSURL *_url;
-    NSXMLNode *_root;
-    NSXMLNode *_current;
-    id *_error;
-    NSMutableString *_content;
-    NSMutableString *_whitespace;
-    NSXMLNode *_text;
 }
 
-- (id);
+- (id)T
+;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -43,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct _xmlParserCtxt *);
+- (struct _xmlParserCtxt *);
 - (void)ÚÚÚÚÛÜÜÝÞÞÞßààààááááââããäääåååæææææçççççèèèèèèééêêêêëììííííîïïïðññòòóôôôõööööö÷÷øùùùùùùúúûüüüüüüýýþÿ;
 - (id);
 - (id);

@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSCNNConvolutionDescriptor, NSString;
 @protocol MPSCNNConvolutionDataSource;
 
 @interface TmpWeights
 {
     id <MPSCNNConvolutionDataSource> _parentObj;
-    MPSCNNConvolutionDescriptor *_convDesc;
-    _Bool _hasBias;
 }
 
 - (id);
 - (float *);
 - (void);
-- (id);
+- (id)S;
 - (id);
 - (unsigned int);
 - (void *);
 - (id);
 - (void);
-- (_Bool)HNorm_fw8_false;
+- (_Bool)MPSCNNNormalization_tex2darray_tex2darray_TGMCHNorm_fw8_false;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

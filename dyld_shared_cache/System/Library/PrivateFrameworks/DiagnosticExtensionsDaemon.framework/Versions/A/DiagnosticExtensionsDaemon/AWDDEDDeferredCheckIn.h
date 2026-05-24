@@ -7,15 +7,10 @@
 @interface AWDDEDDeferredCheckIn
 {
     unsigned long long _numtasks;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int numtasks:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
-- (id);
-- (void);
+- (id)sealMessage:authenticatedData:messageType:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:forceSizeOptimizations:resetState:encryptedAttributes:signedByFullIdentity:errors: /* Error: Ran out of types for this method. */;
+- (void)Request",&,N;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -24,8 +19,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)N6Z0uVT83BlI5psj0/Library/Caches/com.apple.xbs/TemporaryDirectory.xdBKDH/Sources/CoreNavigation/shared/cnprotobuf/CoreNavigationCLPGnssMsmtAnalysisToolData.pb.cc;
+- (void)X`;
 - (void);
 - (_Bool);
 - (void);
@@ -33,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumtasks;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long numtasks; // @synthesize numtasks=_numtasks;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

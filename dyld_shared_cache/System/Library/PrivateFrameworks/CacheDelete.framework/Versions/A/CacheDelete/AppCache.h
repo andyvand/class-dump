@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CacheDeleteVolume, NSDate, NSMutableSet, NSNumber, NSString, NSURL, TestTelemetry;
+@class NSString;
 
 @interface AppCache
 {
     _Bool _isDataseparated;
-    _Bool _isPlaceholder;
-    _Bool _isPlugin;
-    NSString *_identifier;
-    NSMutableSet *_bundleIdentifiers;
-    NSMutableSet *_groupContainerIdentifiers;
-    CacheDeleteVolume *_cdVol;
-    NSString *_personaUniqueString;
-    NSURL *_dataContainerURL;
-    NSURL *_userManagedAssetsURL;
-    NSNumber *_lastKnownCacheSize;
-    NSNumber *_lastKnownGroupCacheSize;
-    NSNumber *_lastKnownTmpSize;
-    NSNumber *_lastKnownFreespace;
-    NSDate *_lastUsed;
-    double _timestamp;
-    TestTelemetry *_telemetry;
 }
 
 + (void);
@@ -34,15 +18,15 @@
 + (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)0;
+- (id)t);
+- (void)nOnce is not supported for EAP security type.;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)setCumulativeInterval: /* Error: Ran out of types for this method. */;
+- (unsigned long long)recordIDsToDelete;
 - (double);
 - (void);
 - (id);
@@ -64,12 +48,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (int);
 - (id);
-- (id);
+- (id)'=�;
 - (void);
 - (_Bool);
 - (void);
@@ -77,23 +61,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(readonly, nonatomic) CacheDeleteVolume *cdVol; // @synthesize cdVol=_cdVol;
-@property(readonly, nonatomic) NSURL *dataContainerURL; // @synthesize dataContainerURL=_dataContainerURL;
-@property(retain, nonatomic) NSMutableSet *groupContainerIdentifiers; // @synthesize groupContainerIdentifiers=_groupContainerIdentifiers;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isDataseparated; // @synthesize isDataseparated=_isDataseparated;
-@property(readonly) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(readonly) _Bool isPlugin; // @synthesize isPlugin=_isPlugin;
-@property(retain, nonatomic) NSNumber *lastKnownCacheSize; // @synthesize lastKnownCacheSize=_lastKnownCacheSize;
-@property(retain, nonatomic) NSNumber *lastKnownFreespace; // @synthesize lastKnownFreespace=_lastKnownFreespace;
-@property(retain, nonatomic) NSNumber *lastKnownGroupCacheSize; // @synthesize lastKnownGroupCacheSize=_lastKnownGroupCacheSize;
-@property(retain, nonatomic) NSNumber *lastKnownTmpSize; // @synthesize lastKnownTmpSize=_lastKnownTmpSize;
-@property(retain, nonatomic) NSDate *lastUsed; // @synthesize lastUsed=_lastUsed;
-@property(readonly, nonatomic) NSString *personaUniqueString; // @synthesize personaUniqueString=_personaUniqueString;
-@property(retain, nonatomic) TestTelemetry *telemetry; // @synthesize telemetry=_telemetry;
-@property double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) NSURL *userManagedAssetsURL; // @synthesize userManagedAssetsURL=_userManagedAssetsURL;
 
 @end
 

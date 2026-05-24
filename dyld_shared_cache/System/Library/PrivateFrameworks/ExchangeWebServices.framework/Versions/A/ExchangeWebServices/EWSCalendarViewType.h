@@ -11,10 +11,9 @@
 @interface EWSCalendarViewType : EWSBasePagingType
 {
     NSDateComponents *_StartDate;
-    NSDateComponents *_EndDate;
 }
 
-+ (id);
++ (id)؈:HyA2FGR= /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *EndDate; // @synthesize EndDate=_EndDate;
 @property(retain, nonatomic) NSDateComponents *StartDate; // @synthesize StartDate=_StartDate;
 
 @end

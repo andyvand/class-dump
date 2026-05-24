@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHIntelligenceFlowRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -20,20 +17,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)I;
 - (id);
 - (id)
 × ;
-- (id)nded;
+- (id)_cdmTokenizationEnded;
 - (id)tiTurnListSelectionUnderstandingTier1",&,N,V_multiTurnListSelectionUnderstanding;
-- (_Bool)CKS;
-- (_Bool)CSchemaSCUndoType;
+- (_Bool)FLOWPEGASUSPRODUCTAREA_STOCKS;
+- (_Bool)SCSchemaSCUndoType;
 - (void)<%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

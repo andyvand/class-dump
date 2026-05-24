@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSURL, UARPSuperBinaryAsset;
-@protocol OS_os_log;
+@class NSURL;
 
 @interface UARPDynamicAssetCmapDatabase
 {
     NSURL *_url;
-    UARPSuperBinaryAsset *_asset;
-    NSMutableArray *_cmapDatabase;
-    NSObject<OS_os_log> *_log;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
+- (id)};
 - (id);
 - (id);
-- (id);
+- (_Bool)<;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)num values;
 - (id);
-- (id);
+- (id)AMSBagActiveAccountProvider;
 - (void);
-- (void);
+- (void)/usr/lib/swift/libswiftsimd.dylib;
 
 @end
 

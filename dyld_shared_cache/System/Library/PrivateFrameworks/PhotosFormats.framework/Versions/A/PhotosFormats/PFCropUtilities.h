@@ -14,19 +14,19 @@
 + (double);
 + (struct CGRect);
 + (struct CGSize);
-+ (struct CGRect);
++ (struct CGRect);
 + (id);
 + (double);
-+ (_Bool);
-+ (struct CGRect);
-+ (double);
++ (_Bool)CKDPUserAlias";
++ (struct CGRect)fetchPCSFromCacheForZoneWithZoneID:(double)arg1 databaseScope:(long long)arg2 localCacheOnly:(long long)arg3 unitTestOverrides:(unsigned long long)arg4 completionHandler:(unsigned long long)arg5;
++ (double);
 + (double);
 + (struct CGRect);
 + (id);
 + (struct CGRect);
 + (struct CGRect);
 + (struct CGRect);
-+ (struct CGSize);
++ (struct CGSize)gnss_preprocessor_need_to_add_rx_band_corr_unc_to_range_unc;
 + (struct CGRect);
 + (double);
 + (double);
@@ -34,7 +34,7 @@
 + (struct CGRect);
 + (struct CGRect);
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect)weakValue;
 
 @end
 

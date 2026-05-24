@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VSRemoteNotifier, VSSubscriptionPersistentContainer, VSSubscriptionPredicateFactory;
+@class VSRemoteNotifier;
 
 @interface VSSubscriptionRegistry
 {
     VSRemoteNotifier *_remoteNotifier;
-    VSSubscriptionPersistentContainer *_persistentContainer;
-    VSSubscriptionPredicateFactory *_predicateFactory;
 }
 
 - (id);
@@ -19,10 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -39,16 +37,7 @@
 - (void)ourceForAppWithBundleID:(CDUnknownBlockType)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) VSSubscriptionPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(retain, nonatomic) VSSubscriptionPredicateFactory *predicateFactory; // @synthesize predicateFactory=_predicateFactory;
 @property(retain, nonatomic) VSRemoteNotifier *remoteNotifier; // @synthesize remoteNotifier=_remoteNotifier;
-@property(readonly) Class superclass;
 
 @end
 

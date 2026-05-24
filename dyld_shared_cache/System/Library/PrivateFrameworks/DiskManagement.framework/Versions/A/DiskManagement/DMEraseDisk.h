@@ -9,19 +9,19 @@
     id _instPriv;
 }
 
++ (id);
 + (id);
-+ (id);
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
+- (int);
 - (id);
 - (id);
 - (int);
 - (int);
-- (void);
-- (id);
+- (void)TKExtensionClientTokenSession;
+- (id)ntentKeySession(AVContentKeyRequestSupport) contentKeyRequestDidProduceContentKey:(id)arg1 ]_block_invoke_2;
 - (id);
 - (void);
 

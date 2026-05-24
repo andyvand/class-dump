@@ -7,33 +7,25 @@
 @interface PXPlacesMapViewPort
 {
     double _zoomLevel;
-    double _pitch;
-    double _scale;
-    struct CGSize _viewSize;
-    CDStruct_02837cd9 _mapRect;
 }
 
 - (id);
 - (id);
-- (CDStruct_02837cd9);
+- (CDStruct_90e2a262);
 - (void);
 - (struct CGSize);
 - (void);
 - (double);
 - (_Bool);
-- (id)anges;
+- (id)sectionsWithKeyAssetChanges;
 - (double)String",C,N,V_actionConfirmationAlertTitle;
-- (void)geList;
-- (void)ieved;
+- (void)PXStoryCurationChangeList;
+- (void)Retrieved;
 - (void);
 - (double)8;
 
 // Remaining properties
-@property(nonatomic) CDStruct_02837cd9 mapRect; // @synthesize mapRect=_mapRect;
-@property(nonatomic) double pitch; // @synthesize pitch=_pitch;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) struct CGSize viewSize; // @synthesize viewSize=_viewSize;
-@property(nonatomic) double zoomLevel; // @synthesize zoomLevel=_zoomLevel;
+@property(nonatomic) CDStruct_90e2a262 mapRect; // @synthesize mapRect=_mapRect;
 
 @end
 

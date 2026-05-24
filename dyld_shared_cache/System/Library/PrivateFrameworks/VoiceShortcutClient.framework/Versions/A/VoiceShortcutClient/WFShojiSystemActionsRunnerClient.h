@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)z;
 - (void);
 
 // Remaining properties

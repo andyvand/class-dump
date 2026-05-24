@@ -7,46 +7,30 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
-- (unsigned long long)ed;
+- (long long)screenshotDisplay:error: /* Error: Ran out of types for this method. */;
+- (void)readableAppetiteChangesValueFromEnum:(CDStruct_4c83c94d)arg1;
+- (id <MTLTexture>)premiumPending;
+- (id <MTLTexture>)premiumCancellationPending;
+- (id <MTLTexture>)preferredUnitsForQuantityTypes:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id <MTLTexture>)preferredTransform;
+- (void)localeWithLocaleIdentifier:(void *)arg1;
+- (unsigned long long)d.;
+- (long long)D6FD323773F16CA6E39CD151831EDD57;
+- (unsigned long long)edges;
+- (id <MTLResource>);
+- (_Bool);
+- (struct __IOSurface *)T�;
+- (id <MTLTexture>)ontroller textViewDidChangeSelection to %d %d (markedTextRange %@);
+- (id <MTLBuffer>)matedTransitioning>"48@0:8@"UINavigationController"16q24@"UIViewController"32@"UIViewController"40 /* Error: Ran out of types for this method. */;
+- (CDStruct_a06f635e)(;
+- (unsigned long long)initialized;
+
+@optional
+- (unsigned long long)loadMutableData:withDataInRange: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithBundleIdentifier:localizedName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool allowGPUOptimizedContents;
-@property(readonly) unsigned long long arrayLength;
-@property(readonly) id <MTLBuffer> buffer;
-@property(readonly) unsigned long long bufferBytesPerRow;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) long long compressionType;
-@property(readonly) unsigned long long depth;
-@property(readonly) unsigned long long firstMipmapInTail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly, getter=isFramebufferOnly) _Bool framebufferOnly;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long height;
-@property(readonly) struct __IOSurface *iosurface;
-@property(readonly) unsigned long long iosurfacePlane;
-@property(readonly) _Bool isSparse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long mipmapLevelCount;
-@property(readonly) unsigned long long parentRelativeLevel;
-@property(readonly) unsigned long long parentRelativeSlice;
 @property(readonly) id <MTLTexture> parentTexture;
-@property(readonly) unsigned long long pixelFormat;
-@property(readonly) id <MTLTexture> remoteStorageTexture;
 @property(readonly) id <MTLResource> rootResource;
-@property(readonly) unsigned long long sampleCount;
-@property(readonly, getter=isShareable) _Bool shareable;
-@property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) struct swizzle;
-@property(readonly) unsigned long long tailSizeInBytes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long textureType;
-@property(readonly) unsigned long long usage;
-@property(readonly) unsigned long long width;
 @end
 

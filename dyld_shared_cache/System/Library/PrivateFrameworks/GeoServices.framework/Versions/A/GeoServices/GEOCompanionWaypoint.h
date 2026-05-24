@@ -4,70 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, GEOMapItemStorage, GEOWaypointTyped, NSData, NSString, PBDataReader;
+@class GEOLocation, PBDataReader;
 
 @interface GEOCompanionWaypoint
 {
     PBDataReader *_reader;
-    NSString *_findMyHandleID;
-    GEOMapItemStorage *_mapItem;
-    NSData *_routeData;
-    NSString *_searchString;
-    GEOWaypointTyped *_waypointTyped;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isCurrentLocation;
-    struct {
-        unsigned int has_isCurrentLocation:1;
-        unsigned int read_findMyHandleID:1;
-        unsigned int read_mapItem:1;
-        unsigned int read_routeData:1;
-        unsigned int read_searchString:1;
-        unsigned int read_waypointTyped:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)fsetM:(id)arg1;
++ (_Bool)setHasOffsetM:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_defaultDisplayNameOrder;
+- (_Bool);
+- (_Bool)_CNSamplingObservable;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)RBSDomainAttribute;
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)languageCodeUpdateMonitor;
+- (id)onitoring];
+- (void)!;
+- (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_pitchButton3DMinimumZoomLevelListener;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void)'Ð!Aù±¶*ð1Â0@ù
 × ;
-- (id)twork:(struct _NSZone *)arg1;
+- (id)setAlternateArtwork:(struct _NSZone *)arg1;
 - (id)$þ
 þ
 üþ
 lÿ
 Üÿ
 H;
-- (id)major_ver;
+- (id)request_app_id_major_ver;
 - (id);
 - (id);
 - (id)tainerWeakReferenceTagELm0ELm0ENS_29GEOGenericContainerLockingTagENS0_21_default_pointer_typeEE26removeAllMatchingPredicateENS6_8functionIFbRKS2_RKNS_13_geo_weak_ptrIS5_EEdmEEEEUlSH_SL_dmE_;
@@ -77,19 +59,7 @@ H;
 - (id)ø;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *findMyHandleID;
-@property(readonly, nonatomic) _Bool hasFindMyHandleID;
-@property(nonatomic) _Bool hasIsCurrentLocation;
-@property(readonly, nonatomic) _Bool hasMapItem;
-@property(readonly, nonatomic) _Bool hasRouteData;
-@property(readonly, nonatomic) _Bool hasSearchString;
-@property(readonly, nonatomic) _Bool hasWaypointTyped;
-@property(nonatomic) _Bool isCurrentLocation;
 @property(readonly, nonatomic) GEOLocation *location;
-@property(retain, nonatomic) GEOMapItemStorage *mapItem;
-@property(retain, nonatomic) NSData *routeData;
-@property(retain, nonatomic) NSString *searchString;
-@property(retain, nonatomic) GEOWaypointTyped *waypointTyped;
 
 @end
 

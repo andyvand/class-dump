@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
 @protocol PXTilingControllerPreheatHandler;
 
 @interface PXTilingControllerPreheatRecord
 {
     id <PXTilingControllerPreheatHandler> _preheatHandler;
-    void *_context;
-    unsigned long long _tileGroup;
-    NSIndexSet *_preheatedTileIndexes;
-    struct NSEdgeInsets _padding;
 }
 
 - (unsigned long long);
@@ -28,11 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) void *context; // @synthesize context=_context;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
 @property(readonly, nonatomic) __weak id <PXTilingControllerPreheatHandler> preheatHandler; // @synthesize preheatHandler=_preheatHandler;
-@property(retain, nonatomic) NSIndexSet *preheatedTileIndexes; // @synthesize preheatedTileIndexes=_preheatedTileIndexes;
-@property(nonatomic) unsigned long long tileGroup; // @synthesize tileGroup=_tileGroup;
 
 @end
 

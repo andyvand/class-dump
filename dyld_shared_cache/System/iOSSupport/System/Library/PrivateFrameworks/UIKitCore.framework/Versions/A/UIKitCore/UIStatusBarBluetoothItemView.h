@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     _Bool _shouldAnimateConnection;
 }
 
-- (_Bool);
+- (_Bool)_shouldSendBackwardsCompatibleUnreadCountUpdates;
 - (void);
-- (id);
-- (double);
+- (id)om message guid:%@ /* Error: Ran out of types for this method. */;
+- (double)nvalid;
 - (void)¯Fÿ¡ÕÌ]h;
 - (id)hoþ];
 

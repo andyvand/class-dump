@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSFilterPredicateVisitor
 {
     NSMutableArray *_predicateParts;
-    unsigned long long _predicatePartsCount;
-    _Bool _didFirstVisit;
-    _Bool _bail;
-    unsigned long long _visitingIndex;
-    NSString *_substitutedValue;
 }
 
 - (id);
+- (void)_kCFStreamPropertyProhibitInfraWiFi;
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (id)ternal, BOOL, NSLayoutDirection);
 - (void)M@;
 - (void)þÕ,|A;

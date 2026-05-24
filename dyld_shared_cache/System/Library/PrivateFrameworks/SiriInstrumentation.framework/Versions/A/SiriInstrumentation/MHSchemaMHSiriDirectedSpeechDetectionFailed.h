@@ -6,43 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHSiriDirectedSpeechDetectionFailed : SISchemaInstrumentationMessage
 {
     NSString *_errorMessage;
-    unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorMessage;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)setPrioritization: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)DL_BIND_FUNC;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)_id
+FROM
+chat_handle_join
+WHERE
+chat_id =  ? ;
 - (_Bool);
 - (id);
 - (id);
 - (id),&,N,V_sutFingerprint;
-- (id);
+- (id)_isMobileDataOn;
 - (void)ô^!;
 - (void)bï";
 - (unsigned int)ð(;
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorMessage; // @synthesize hasErrorMessage=_hasErrorMessage;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

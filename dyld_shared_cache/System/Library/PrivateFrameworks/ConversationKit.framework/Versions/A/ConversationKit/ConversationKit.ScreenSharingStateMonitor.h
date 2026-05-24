@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TUCall;
-
 @interface ConversationKit.ScreenSharingStateMonitor
 {
     id conversationController;
-    id observations;
-    id conversationControllerProvider;
-    _Bool isBroadcastingScreenSharing;
-    id screenSharingRemoteControllerObservation;
-    id currentlySharingParticipant;
-    TUCall *call;
 }
 
-- (_Bool);
+- (_Bool)[{;
 - (struct CGSize);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)T@"ABAddressBook",&,N;
+- (void)initWithDelay:(id)arg1 maximumDelay:queue:userInfo:unboundedFiringReasons: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)zýÿ;
 
 // Remaining properties
-@property(nonatomic, retain) TUCall *call; // @synthesize call;
-@property(nonatomic, readonly) struct CGSize currentlySharingParticipantContentsSize;
 @property(nonatomic) _Bool isBroadcastingScreenSharing; // @synthesize isBroadcastingScreenSharing;
 
 @end

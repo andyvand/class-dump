@@ -6,7 +6,7 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, RTUserCurationStore;
+@class RTUserCurationStore;
 
 @interface RTUserCurationManager : RTService
 {
@@ -15,29 +15,22 @@
 
 + (long long);
 + (id);
+- (id)t;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
+- (void)0;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)keychain;
 - (void);
 - (id);
 - (void)%@, CloudKit schema update in progress - error while adding persistent store, %@;
 - (void)Å+a;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) RTUserCurationStore *userCurationStore; // @synthesize userCurationStore=_userCurationStore;
 
 @end

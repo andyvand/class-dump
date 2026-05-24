@@ -8,22 +8,22 @@
 {
 }
 
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)rs section header in sidebar bookmarks view.;
++ (long long)AXSafariModalDialog;
++ (id)ccordionAnimationConstraint;
++ (id)@?0@"NSMenuItem"8Q16^B24;
++ (id)Are you sure you want to remove all data stored by the %zu displayed websites on your computer?;
++ (id)Are you sure you want to remove all data stored by the displayed website on your computer?;
++ (id)eDataDescriptor>"8@"<WebsiteDataDescriptor>"16;
++ (id)ptedSiteDataCellView"16B24;
++ (int)RemoveNowButton;
++ (int)Privacy preferences;
++ (id)RemoveAllWebsiteDataAlert;
++ (id)site Data;
++ (id)@"<WebsiteDataDescriptor>"8Q16^B24;
++ (id)es;
++ (id)entication;
++ (id)p;
 + (id);
 + (id);
 + (id);
@@ -31,13 +31,13 @@
 + (id);
 + (_Bool);
 + (unsigned int);
++ (id)\;
++ (id)(;
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool);
++ (id)@;
++ (id);
 + (id);
 + (_Bool);
 + (id);

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGElementIdentifierSet, NSArray;
+@class NSArray;
 
 @interface KGPropertyValueArray
 {
     NSArray *_values;
-    KGElementIdentifierSet *_elementIdentifiers;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)#;
 - (id);
 - (void);
+- (id);
+- (void)Failed to create XPC session; %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) KGElementIdentifierSet *elementIdentifiers; // @synthesize elementIdentifiers=_elementIdentifiers;
 @property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end

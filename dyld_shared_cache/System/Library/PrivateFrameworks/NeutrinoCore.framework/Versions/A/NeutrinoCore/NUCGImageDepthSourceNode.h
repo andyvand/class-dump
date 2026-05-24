@@ -9,8 +9,6 @@
 @interface NUCGImageDepthSourceNode : NUCGAuxiliaryImageSourceNode
 {
     _Bool _needsAspectRatioCorrection;
-    struct CGAffineTransform _aspectTransform;
-    CDStruct_d58201db _aspectMatchedPixelSize;
 }
 
 - (id);

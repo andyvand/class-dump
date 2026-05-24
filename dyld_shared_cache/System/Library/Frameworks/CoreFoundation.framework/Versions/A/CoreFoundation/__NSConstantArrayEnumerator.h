@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface __NSConstantArrayEnumerator : NSEnumerator
 {
     NSConstantArray *_underlyingArray;
-    unsigned long long _index;
 }
 
 - (id);

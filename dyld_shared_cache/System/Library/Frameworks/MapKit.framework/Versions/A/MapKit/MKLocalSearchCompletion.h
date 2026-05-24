@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCollectionResult, GEODirectionIntent, GEOPublisherResult, GEOResolvedItem, GEORetainedSearchMetadata, GEOSearchCategory, GEOServerResultScoreMetadata, GEOStorageCompletion, GEOStyleAttributes, MKMapItem, NSArray, NSString;
 @protocol GEOCompletionItem;
 
 @interface MKLocalSearchCompletion
 {
     id <GEOCompletionItem> _item;
-    unsigned long long _serverSectionIndex;
-    unsigned long long _serverItemIndexInSection;
-    NSString *_sourceID;
-    NSString *_localizedSectionHeader;
-    MKMapItem *_mapItem;
-    _Bool _alreadySentFeedback;
-    _Bool _shouldDisplayNoResults;
-    _Bool _shouldEnableRAPForNoResults;
-    _Bool _supportsOfflineDownload;
-    MKLocalSearchCompletion *_directionIntentOrigin;
-    MKLocalSearchCompletion *_directionIntentDestination;
 }
 
-- (id);
+- (id)%;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
@@ -41,18 +29,18 @@
 - (float);
 - (_Bool);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)_deviceSetupState;
+- (id)_deviceIDInputKeyMaterial;
+- (unsigned long long)_denyLowPowerModeScans;
+- (id)leClickInterval;
+- (id)mLimit;
+- (id)rbyActionAuthTagData;
+- (id)C,N,V_irkData;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)%@;
+- (id)airingPerformAction:(unsigned long long)arg1 peer %@, action %s;
+- (_Bool)kCBMsgArgTimeOfDay;
+- (_Bool)tors for peripheral %@ while delegate is either nil or does not implement peripheral:(struct CLLocationCoordinate2D *)arg1 didDiscoverDescriptorsForCharacteristic:error: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -68,54 +56,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)remoteMicVoiceTriggerEvent:activationInfo:hostTime: /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)40ObjectiveCConvertibleAttributedStringKeyP;
+- (id);
 - (id);
 - (long long)ùÑ*Ð1Â0@ù
 × ;
-- (void)sDelimeter;
+- (void)hoursDelimeter;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_alreadySentFeedback) _Bool alreadySentFeedback; // @synthesize alreadySentFeedback=_alreadySentFeedback;
-@property(readonly, nonatomic) long long autocompleteCellType;
-@property(readonly, nonatomic) GEOSearchCategory *category;
-@property(readonly, nonatomic) NSArray *childItems;
-@property(readonly, nonatomic) GEOResolvedItem *clientResolved;
-@property(readonly, nonatomic) GEOCollectionResult *collectionResult;
-@property(readonly, nonatomic) GEODirectionIntent *directionIntent;
-@property(retain, nonatomic) MKLocalSearchCompletion *directionIntentDestination; // @synthesize directionIntentDestination=_directionIntentDestination;
-@property(retain, nonatomic) MKLocalSearchCompletion *directionIntentOrigin; // @synthesize directionIntentOrigin=_directionIntentOrigin;
-@property(readonly, nonatomic, getter=_disambiguationRadiusMeters) float disambiguationRadiusMeters;
-@property(readonly, nonatomic) NSArray *displayLines;
-@property(readonly, nonatomic) long long entryTapBehavior;
 @property(readonly, nonatomic) id <GEOCompletionItem> geoCompletionItem;
-@property(readonly, nonatomic) GEOStorageCompletion *geoStorageCompletion;
-@property(readonly, nonatomic, getter=_hasDisambiguationRadiusMeters) _Bool hasDisambiguationRadiusMeters;
-@property(readonly, nonatomic) _Bool hasQueryAcceleratorAffordanceEnabled;
-@property(readonly, nonatomic) _Bool hasSortPriority;
-@property(readonly, nonatomic) GEOStyleAttributes *iconStyleAttributes;
-@property(copy, nonatomic) NSString *localizedSectionHeader; // @synthesize localizedSectionHeader=_localizedSectionHeader;
-@property(readonly, nonatomic) MKMapItem *mapItem;
-@property(readonly, nonatomic, getter=_placeType) int placeType;
-@property(readonly, nonatomic) GEOPublisherResult *publisherResult;
-@property(readonly, nonatomic) NSString *queryAcceleratorCompletionString;
-@property(readonly, nonatomic) NSArray *resultRefinements;
-@property(readonly, nonatomic) GEORetainedSearchMetadata *retainedSearchMetadata;
-@property(readonly, nonatomic) unsigned long long serverItemIndexInSection; // @synthesize serverItemIndexInSection=_serverItemIndexInSection;
-@property(readonly, nonatomic) GEOServerResultScoreMetadata *serverResultScoreMetadata;
-@property(readonly, nonatomic) unsigned long long serverSectionIndex; // @synthesize serverSectionIndex=_serverSectionIndex;
-@property(readonly, nonatomic) long long sortPriority;
-@property(copy, nonatomic) NSString *sourceID; // @synthesize sourceID=_sourceID;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) NSArray *subtitleHighlightRanges;
-@property(readonly, nonatomic, getter=_supportsOfflineDownload) _Bool supportsOfflineDownload; // @synthesize supportsOfflineDownload=_supportsOfflineDownload;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSArray *titleHighlightRanges;
-@property(readonly, nonatomic, getter=_type) long long type;
 
 @end
 

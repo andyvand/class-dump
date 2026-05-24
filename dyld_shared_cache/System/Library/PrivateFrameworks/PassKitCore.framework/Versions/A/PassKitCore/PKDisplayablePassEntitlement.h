@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, PKPassEntitlement, PKPassSharedEntitlement;
+@class NSString;
 
 @interface PKDisplayablePassEntitlement
 {
     NSString *_entitlementTemplate;
-    NSDictionary *_templateFields;
-    _Bool _clearGroupWhenSelected;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
-    NSString *_localizedGroup;
-    NSNumber *_value;
-    NSString *_iconName;
-    unsigned long long _displayStyle;
-    long long _groupPriority;
-    PKPassSharedEntitlement *_sharedEntitlement;
-    PKPassEntitlement *_entitlement;
 }
 
 + (id);
 + (void);
 + (void);
-+ (id);
-+ (id);
++ (id)8;
++ (id)setAssociatedTime:(id)arg1;
 + (_Bool)î%°1Â0@ù
 × ;
-- (id);
+- (id)X;
 - (void);
 - (void);
 - (void);
@@ -47,8 +36,8 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)hasVoltage0;
+- (void)tfph;
 - (void);
 - (id);
 - (id);
@@ -56,25 +45,15 @@
 - (id);
 - (id)Y"°!BùÑï%ð1Â0@ù
 × ;
-- (long long)trustedRelyingParty;
-- (id)te;
+- (long long)_trustedRelyingParty;
+- (id)_scheduledDate;
 - (void)ignatureKey:(id)arg1 %@;
 - (unsigned long long)s have been provided. We can't proceed to authorize the transaction.;
-- (void)irement;
+- (void)friendSharingVersionRequirement;
 - (id)®;
 
 // Remaining properties
-@property(nonatomic) _Bool clearGroupWhenSelected; // @synthesize clearGroupWhenSelected=_clearGroupWhenSelected;
-@property(nonatomic) unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(readonly, nonatomic) PKPassEntitlement *entitlement; // @synthesize entitlement=_entitlement;
-@property(readonly, nonatomic) NSString *entitlementIdentifier;
-@property(nonatomic) long long groupPriority; // @synthesize groupPriority=_groupPriority;
-@property(retain, nonatomic) NSString *iconName; // @synthesize iconName=_iconName;
-@property(retain, nonatomic) NSString *localizedGroup; // @synthesize localizedGroup=_localizedGroup;
-@property(retain, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
 @property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, nonatomic) PKPassSharedEntitlement *sharedEntitlement; // @synthesize sharedEntitlement=_sharedEntitlement;
-@property(retain, nonatomic) NSNumber *value; // @synthesize value=_value;
 
 @end
 

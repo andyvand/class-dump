@@ -6,17 +6,12 @@
 
 #import <MPSNDArray/MPSNDArrayUnaryKernel.h>
 
-@class NSNumber;
-
 @interface MPSNDArrayPadKernel : MPSNDArrayUnaryKernel
 {
     unsigned long long _edgeMode;
-    NSNumber *_constantValue;
-    double _constantValueImagPart;
-    struct MPSNDArrayPaddingSize _paddingSize;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *)g;
 - (void);
 - (struct MPSNDArrayPaddingSize);
 - (unsigned long long);
@@ -33,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *constantValue; // @synthesize constantValue=_constantValue;
-@property(nonatomic) double constantValueImagPart; // @synthesize constantValueImagPart=_constantValueImagPart;
 @property(readonly, nonatomic) unsigned long long edgeMode; // @synthesize edgeMode=_edgeMode;
-@property(readonly, nonatomic) struct MPSNDArrayPaddingSize paddingSize; // @synthesize paddingSize=_paddingSize;
 
 @end
 

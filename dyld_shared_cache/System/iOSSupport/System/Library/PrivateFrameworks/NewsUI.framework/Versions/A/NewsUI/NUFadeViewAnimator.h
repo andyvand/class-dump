@@ -7,8 +7,6 @@
 @interface NUFadeViewAnimator
 {
     double _fadeOutDuration;
-    double _fadeInDuration;
-    double _fadeInDelay;
 }
 
 - (double);
@@ -21,8 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double fadeInDelay; // @synthesize fadeInDelay=_fadeInDelay;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration=_fadeInDuration;
 @property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=_fadeOutDuration;
 
 @end

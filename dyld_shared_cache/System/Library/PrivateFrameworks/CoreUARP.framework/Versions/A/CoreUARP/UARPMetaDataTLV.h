@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface UARPMetaDataTLV
 {
     unsigned int _tlvType;
-    NSData *_tlvValue;
-    unsigned int _tlvLength;
 }
 
 + (id);
++ (id)x;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)to create decompression filestream;
++ (id)le;
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)AMSDelegateAuthenticateTask;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int tlvLength; // @synthesize tlvLength=_tlvLength;
 @property(readonly) unsigned int tlvType; // @synthesize tlvType=_tlvType;
 
 @end

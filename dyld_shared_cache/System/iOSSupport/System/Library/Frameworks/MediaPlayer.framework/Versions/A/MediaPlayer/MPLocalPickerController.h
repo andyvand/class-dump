@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaPickerConfiguration, MPMediaPickerController, NSMutableSet, NSString, UIBarButtonItem, UILabel;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerController
 {
     NSMutableSet *_mSelectedItems;
-    MPMediaPickerController *_mPickerController;
-    MPMediaPickerConfiguration *_mConfig;
-    UILabel *_mItemCountLabel;
-    UIBarButtonItem *_mDoneButton;
 }
 
 + (id);
@@ -29,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -43,21 +39,10 @@ __attribute__((visibility("hidden")))
 - (void)¡èÐ!°Dùñ?ð1Â0@ù
 × ;
 - (void)String",C,N,V_localizedShortTitle;
-- (void)ewControllerDidCollapse:(id)arg1;
+- (void)splitViewControllerDidCollapse:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MPMediaPickerConfiguration *mConfig; // @synthesize mConfig=_mConfig;
-@property(nonatomic) __weak UIBarButtonItem *mDoneButton; // @synthesize mDoneButton=_mDoneButton;
-@property(nonatomic) __weak UILabel *mItemCountLabel; // @synthesize mItemCountLabel=_mItemCountLabel;
-@property(nonatomic) __weak MPMediaPickerController *mPickerController; // @synthesize mPickerController=_mPickerController;
 @property(retain, nonatomic) NSMutableSet *mSelectedItems; // @synthesize mSelectedItems=_mSelectedItems;
-@property(readonly) Class superclass;
 
 @end
 

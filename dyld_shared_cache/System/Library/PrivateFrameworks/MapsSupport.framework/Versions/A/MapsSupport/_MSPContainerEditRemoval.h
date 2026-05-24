@@ -6,14 +6,12 @@
 
 #import <MapsSupport/_MSPContainerEdit.h>
 
-@class NSArray, NSIndexSet, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MSPContainerEditRemoval : _MSPContainerEdit
 {
     NSArray *_originalObjects;
-    NSArray *_removedImmutableObjects;
-    NSIndexSet *_indexesOfRemovedObjects;
 }
 
 - (void);
@@ -25,16 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSIndexSet *indexesOfRemovedObjects; // @synthesize indexesOfRemovedObjects=_indexesOfRemovedObjects;
 @property(readonly, nonatomic) NSArray *originalObjects; // @synthesize originalObjects=_originalObjects;
-@property(readonly, nonatomic) NSArray *removedImmutableObjects; // @synthesize removedImmutableObjects=_removedImmutableObjects;
-@property(readonly) Class superclass;
 
 @end
 

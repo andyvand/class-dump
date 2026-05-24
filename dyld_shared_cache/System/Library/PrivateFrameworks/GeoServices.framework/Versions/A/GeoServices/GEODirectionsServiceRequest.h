@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, GEODirectionsRequester;
+@class GEODirectionsRequest;
 
 @interface GEODirectionsServiceRequest
 {
     GEODirectionsRequest *_directionsRequest;
-    GEODirectionsRequester *_directionsRequester;
-    _Bool _isCancelled;
 }
 
 - (void);

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PXStoryPhotoKitMusicCurationProvider
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_stateQueue_cache;
-    NSMutableDictionary *_stateQueue_requests;
-    NSArray *_stateQueue_recentlyUsedFlexSongIDs;
-    NSArray *_stateQueue_recentlyUsedAppleMusicSongIDs;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
@@ -34,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -45,15 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSArray *recentlyUsedAppleMusicSongIDs;
-@property(retain, nonatomic) NSArray *recentlyUsedFlexSongIDs;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property(readonly, nonatomic) NSMutableDictionary *stateQueue_cache; // @synthesize stateQueue_cache=_stateQueue_cache;
-@property(retain, nonatomic) NSArray *stateQueue_recentlyUsedAppleMusicSongIDs; // @synthesize stateQueue_recentlyUsedAppleMusicSongIDs=_stateQueue_recentlyUsedAppleMusicSongIDs;
-@property(retain, nonatomic) NSArray *stateQueue_recentlyUsedFlexSongIDs; // @synthesize stateQueue_recentlyUsedFlexSongIDs=_stateQueue_recentlyUsedFlexSongIDs;
-@property(readonly, nonatomic) NSMutableDictionary *stateQueue_requests; // @synthesize stateQueue_requests=_stateQueue_requests;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -12,7 +12,7 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)nt %{public}@ has missing level.;
 
 @end

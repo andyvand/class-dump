@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
++ (id)IMSafetyMonitorCoordinator_Impl;
 + (id);
-+ (id);
-- (id);
+- (id)>;
 - (id);
 - (id);
 - (_Bool);
@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hasSystemPodcastApplication;
 - (id);
 - (id)Øm;
 - (void)KlÞ{øÿK­'rYõé;~w

@@ -5,31 +5,29 @@
 //
 
 @class NSObject;
-@protocol CNScheduler, CRRecentContactsLibraryAccess, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface CRRecentContactsLibrary
 {
     NSObject<OS_dispatch_queue> *_replyQueue;
-    id <CRRecentContactsLibraryAccess> _access;
-    id <CNScheduler> _deprecatedFutureSupportScheduler;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (CDUnknownBlockType);
++ (id);
++ (id);
 + (id);
 + (id);
 + (CDUnknownBlockType);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (CDUnknownBlockType);
-+ (id);
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
@@ -39,26 +37,26 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)rite_impl:(id)arg1:(id)arg2 State, std:(CDUnknownBlockType)arg3:__cxx_atomic_base_impl<caulk::concurrent::details::lf_read_sync_write_impl::State>>="__a_value"A{State}}}"mMutationLock"{unfair_lock="m_lock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}}}"mValueValid"{array<bool, 2UL>="__elems_"[2B]}"mValues"{array<caulk::concurrent::lf_read_synchronized_write<applesauce::dispatch::block<void (const MIDIEventList *, void *)>>::T_storage, 2UL>="__elems_"[2{T_storage="bytes"{array<std::byte, 8UL>="__elems_"[8C]}}]}}} /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (void);
+- (void)performSearchOperation:inCalendars:withEventStore:andSearchTerm: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)6;
 - (void);
 
 @end

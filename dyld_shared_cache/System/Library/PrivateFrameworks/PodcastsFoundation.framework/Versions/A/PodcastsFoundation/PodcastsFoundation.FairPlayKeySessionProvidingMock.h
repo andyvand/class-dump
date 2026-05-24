@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.FairPlayKeySessionProvidingMock
 {
     id sessionHandler;
-    id sessionKeyStoreHandler;
 }
 
 @end

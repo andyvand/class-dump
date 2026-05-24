@@ -6,26 +6,21 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class UIDelayedAction, UIScrollView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface UIScrollViewPagingSwipeGestureRecognizer : UIGestureRecognizer
 {
     UIScrollView *_scrollView;
-    UIDelayedAction *_swipeFailureDelay;
-    struct CGPoint _startLocation;
-    struct CGPoint _lastLocation;
-    double _lastTime;
-    int _directionalFailureCount;
 }
 
 + (_Bool);
 + (_Bool);
-- (void);
-- (void)oDeactivate:(id)arg1;
-- (void)mbolImageForDisplayMode:(id)arg1;
+- (void)payloadPluginBundleID;
+- (void)addLayoutViews:(id)arg1 layoutGuides:(id)arg2 constraintsToActivate:constraintsToDeactivate: /* Error: Ran out of types for this method. */;
+- (void)_fullScreenSymbolImageForDisplayMode:(id)arg1;
 - (void)itionalLayoutSolverUpdate",&,N,V_currentUpdate;
-- (void)llectionInputViewDidScroll;
+- (void)UIKeyboardEmojiCollectionInputViewDidScroll;
 - (void)reference>];
 - (id);
 - (void)Õ;

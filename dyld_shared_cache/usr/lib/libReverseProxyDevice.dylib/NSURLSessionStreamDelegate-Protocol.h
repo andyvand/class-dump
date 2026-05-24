@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionStreamDelegate
+
+@optional
+- (void);
 @end
 

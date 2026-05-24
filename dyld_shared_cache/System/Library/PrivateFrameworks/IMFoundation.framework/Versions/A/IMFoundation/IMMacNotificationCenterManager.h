@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSArray, NSString, NSUserNotificationCenter;
+@class APSConnection, NSArray;
 
 @interface IMMacNotificationCenterManager
 {
     NSArray *_topics;
-    APSConnection *_connection;
-    NSString *_identifier;
-    NSUserNotificationCenter *_center;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@40@48d56;
+- (void)i24;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void)ccdh_gp}^{ccrng_state}{?=b1b1b1b16}[1Q]},V_context;
 - (id);
+- (void)h;
+- (id)k;
+- (void);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUserNotificationCenter *center; // @synthesize center=_center;
 @property(retain, nonatomic) APSConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSArray *topics; // @synthesize topics=_topics;
 
 @end
 

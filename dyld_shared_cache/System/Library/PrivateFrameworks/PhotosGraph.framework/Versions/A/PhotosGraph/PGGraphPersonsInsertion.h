@@ -11,10 +11,9 @@
 @interface PGGraphPersonsInsertion : PGGraphChange
 {
     NSSet *_personLocalIdentifiers;
-    NSSet *_persons;
 }
 
-- (id);
+- (id)_AXKAlertButtonCell;
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *personLocalIdentifiers; // @synthesize personLocalIdentifiers=_personLocalIdentifiers;
-@property(readonly, nonatomic) NSSet *persons; // @synthesize persons=_persons;
 
 @end
 

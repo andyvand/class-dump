@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NTPBDate;
+@class NSData;
 
 @interface NTPBPrivateZoneSyncState
 {
     NSData *_changeToken;
-    NTPBDate *_lastCleanDate;
-    NTPBDate *_lastDirtyDate;
-    NSString *_zoneName;
 }
 
 - (void);
 - (id);
 - (_Bool);
+- (void)__DATA_CONST;
 - (void);
+- (unsigned long long)ck audio session. Error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ength];
+- (_Bool)lazyDropboxData;
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
 - (_Bool);
 - (_Bool);
-- (id)eNetworkCode: /* Error: Ran out of types for this method. */;
-- (id)BaselineRatePrior: /* Error: Ran out of types for this method. */;
-- (void)HasIosSettingsNotificationsSoundEnabled:(id)arg1;
-- (void);
+- (id)setMobileNetworkCode: /* Error: Ran out of types for this method. */;
+- (id)setHasTopicFeedBaselineRatePrior: /* Error: Ran out of types for this method. */;
+- (void)setHasIosSettingsNotificationsSoundEnabled:(id)arg1;
+- (void)adExposureIneligible;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *changeToken; // @synthesize changeToken=_changeToken;
-@property(readonly, nonatomic) _Bool hasChangeToken;
-@property(readonly, nonatomic) _Bool hasLastCleanDate;
-@property(readonly, nonatomic) _Bool hasLastDirtyDate;
 @property(readonly, nonatomic) _Bool hasZoneName;
-@property(retain, nonatomic) NTPBDate *lastCleanDate; // @synthesize lastCleanDate=_lastCleanDate;
-@property(retain, nonatomic) NTPBDate *lastDirtyDate; // @synthesize lastDirtyDate=_lastDirtyDate;
-@property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

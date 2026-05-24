@@ -9,8 +9,6 @@
 @interface IMSPICollaborationMessageListener
 {
     void delegate;
-    id listenerID;
-    id connection;
 }
 
 - (id);
@@ -18,9 +16,9 @@
 - (id);
 - (id);
 - (void);
+- (void)_isEmbeddedInTextView;
 - (void);
-- (void);
-- (void)C;
+- (void)So32IMDExportedAttachmentRecordBatchC;
 
 // Remaining properties
 @property(nonatomic) __weak id <IMSPICollaborationMessageListenerDelegate> delegate; // @synthesize delegate;

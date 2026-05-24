@@ -5,6 +5,6 @@
 //
 
 @protocol FCCacheInvalidating
-- (void)gageData;
+- (void)AnalyticsMediaEngageData;
 @end
 

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionProviderHostContext, NSArray, NSMutableDictionary, NSSet, NSString;
-@protocol CMIOExtensionSessionProviderDelegate;
+@class CMIOExtensionProviderHostContext;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionSessionProvider
 {
     struct os_unfair_lock_s _lock;
-    id <CMIOExtensionSessionProviderDelegate> _delegate;
-    CMIOExtensionProviderHostContext *_hostContext;
-    NSMutableDictionary *_propertyStates;
-    NSSet *_availableProperties;
-    NSArray *_deviceIDs;
-    NSMutableDictionary *_devicesMap;
-    NSMutableDictionary *_streamsMap;
-    NSString *_description;
-    _Bool _invalidated;
 }
 
 + (id);
@@ -35,35 +25,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)4;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)E;
+- (id)bility;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *availableProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CMIOExtensionSessionProviderDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *devices;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CMIOExtensionProviderHostContext *hostContext; // @synthesize hostContext=_hostContext;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly) Class superclass;
 
 @end
 

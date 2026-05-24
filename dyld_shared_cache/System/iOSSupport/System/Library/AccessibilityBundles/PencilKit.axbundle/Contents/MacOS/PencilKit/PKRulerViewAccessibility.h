@@ -14,7 +14,7 @@
 + (id);
 + (void);
 - (_Bool);
-- (id);
+- (id)_axLoadRewindButtonAccessibility: /* Error: Ran out of types for this method. */;
 
 @end
 

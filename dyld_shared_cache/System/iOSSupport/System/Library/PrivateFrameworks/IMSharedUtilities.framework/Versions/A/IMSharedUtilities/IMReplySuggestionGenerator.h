@@ -9,9 +9,9 @@
 }
 
 + (id);
++ (void)`B;
 + (void);
-+ (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);

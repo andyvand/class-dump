@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionViewTrackedValue
 {
     NSArray *_values;
-    long long _valuesCount;
-    long long _currentIndex;
-    _Bool _isAccumulating;
-    double _trackedValue;
 }
 
 - (double);

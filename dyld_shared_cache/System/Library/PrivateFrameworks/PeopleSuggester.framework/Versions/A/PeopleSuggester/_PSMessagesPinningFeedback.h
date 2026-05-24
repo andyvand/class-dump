@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface _PSMessagesPinningFeedback
 {
     long long _actionType;
-    long long _interactionMethod;
-    NSArray *_onboardingSuggestions;
-    NSArray *_actualPinnings;
-    NSString *_trialId;
-    NSDate *_eventDate;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (id);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
++ (id)exitWithReasonSync:(id)arg1;
+- (void)_hasCacheStoringContext;
+- (void)_hasAppLaunchRequired;
+- (id)_falseWakeWithSpeechNoMatchCount;
+- (long long)_enrollmentUtteranceDetected;
+- (id)_coreSpeechPreprocessorCompleted;
+- (id)_areAllPrimaryContactTokensInQuery;
+- (id)_appUsageCount6Hrs;
 - (id);
 - (long long);
 - (void);
@@ -35,11 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) NSArray *actualPinnings; // @synthesize actualPinnings=_actualPinnings;
-@property(readonly, nonatomic) NSDate *eventDate; // @synthesize eventDate=_eventDate;
-@property(nonatomic) long long interactionMethod; // @synthesize interactionMethod=_interactionMethod;
-@property(readonly, nonatomic) NSArray *onboardingSuggestions; // @synthesize onboardingSuggestions=_onboardingSuggestions;
 @property(copy, nonatomic) NSString *trialId; // @synthesize trialId=_trialId;
 
 @end

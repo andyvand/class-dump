@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface SGOutput
 {
     NSArray *_outputItems;
-    NSDictionary *_sourceMetadata;
-    NSArray *_exceptionTemplates;
-    NSDictionary *_jsMessageLogs;
 }
 
 - (id);
+- (id)_Builtin_float.dylib;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)negative number for script code from ICU:(id)arg1 %d;
+- (id).php;
 - (id);
 - (void)&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *exceptionTemplates; // @synthesize exceptionTemplates=_exceptionTemplates;
-@property(readonly, nonatomic) NSDictionary *jsMessageLogs; // @synthesize jsMessageLogs=_jsMessageLogs;
 @property(readonly, nonatomic) NSArray *outputItems; // @synthesize outputItems=_outputItems;
-@property(readonly, nonatomic) NSDictionary *sourceMetadata; // @synthesize sourceMetadata=_sourceMetadata;
 
 @end
 

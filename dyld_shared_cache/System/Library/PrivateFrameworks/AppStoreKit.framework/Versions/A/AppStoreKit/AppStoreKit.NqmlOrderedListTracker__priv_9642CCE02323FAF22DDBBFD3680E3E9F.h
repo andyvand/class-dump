@@ -7,7 +7,6 @@
 @interface AppStoreKit.NqmlOrderedListTracker__priv_9642CCE02323FAF22DDBBFD3680E3E9F
 {
     id currentBullet;
-    id bulletFormat;
 }
 
 @end

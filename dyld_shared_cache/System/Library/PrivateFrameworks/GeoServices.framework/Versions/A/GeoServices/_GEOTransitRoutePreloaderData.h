@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileKeyList, NSMutableArray, NSMutableSet, _GEOTransitPreloadCamera;
+@class GEOTileKeyList;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitRoutePreloaderData
 {
     GEOTileKeyList *_tilesLoadingOrLoaded;
-    GEOTileKeyList *_tilesReceived;
-    GEOTileKeyList *_tilesMissed;
-    NSMutableSet *_placecardsReceived;
-    NSMutableSet *_placecardsMissed;
-    NSMutableArray *_preloadBatches;
-    unsigned long long _currentBatchGeneration;
-    _GEOTransitPreloadCamera *_camera;
 }
 
 - (id);
@@ -32,21 +25,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)checkIfMainDatabaseInResultsIsPristine:(id)arg1 forCacheKey: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)ityAndAbove;
+- (id);
+- (void)getCityAndAbove;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _GEOTransitPreloadCamera *camera; // @synthesize camera=_camera;
-@property(nonatomic) unsigned long long currentBatchGeneration; // @synthesize currentBatchGeneration=_currentBatchGeneration;
-@property(retain, nonatomic) NSMutableSet *placecardsMissed; // @synthesize placecardsMissed=_placecardsMissed;
-@property(retain, nonatomic) NSMutableSet *placecardsReceived; // @synthesize placecardsReceived=_placecardsReceived;
-@property(retain, nonatomic) NSMutableArray *preloadBatches; // @synthesize preloadBatches=_preloadBatches;
 @property(retain, nonatomic) GEOTileKeyList *tilesLoadingOrLoaded; // @synthesize tilesLoadingOrLoaded=_tilesLoadingOrLoaded;
-@property(retain, nonatomic) GEOTileKeyList *tilesMissed; // @synthesize tilesMissed=_tilesMissed;
-@property(retain, nonatomic) GEOTileKeyList *tilesReceived; // @synthesize tilesReceived=_tilesReceived;
 
 @end
 

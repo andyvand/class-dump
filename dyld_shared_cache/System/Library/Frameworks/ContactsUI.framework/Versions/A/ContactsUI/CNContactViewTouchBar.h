@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAddFieldTouchBar, CNContact, CNUIUserActionListDataSource, CNUIVCardSharingTask, CNUserActionTouchBar, NSButton, NSGroupTouchBarItem, NSPopoverTouchBarItem, NSSharingServicePickerTouchBarItem, NSString, NSTouchBar;
+@class CNContact;
 @protocol CNContactViewTouchBarDelegate;
 
 @interface CNContactViewTouchBar
 {
     CNContact *_contact;
-    id <CNContactViewTouchBarDelegate> _delegate;
-    CNUIUserActionListDataSource *_userActionListDataSource;
-    NSTouchBar *_touchBar;
-    CNAddFieldTouchBar *_addFieldTouchBar;
-    NSPopoverTouchBarItem *_addFieldPopoverItem;
-    CNUserActionTouchBar *_userActionTouchBar;
-    NSButton *_editButton;
-    CNUIVCardSharingTask *_sharingTask;
-    NSSharingServicePickerTouchBarItem *_shareItem;
-    NSGroupTouchBarItem *_groupItem;
 }
 
 - (id);
@@ -35,11 +25,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6";
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)q@;
 - (id);
 - (id);
 - (id);
@@ -53,37 +43,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)eta_groupENS_8optionalIiEEEENS2_4slotIFvN10subscriber7SimSlotEENS_8functionISI_EEEENS2_5mutexEEEEEEEEE;
 - (id);
 - (id);
 - (void);
 - (id)`óÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSPopoverTouchBarItem *addFieldPopoverItem; // @synthesize addFieldPopoverItem=_addFieldPopoverItem;
-@property(retain, nonatomic) CNAddFieldTouchBar *addFieldTouchBar; // @synthesize addFieldTouchBar=_addFieldTouchBar;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CNContactViewTouchBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSButton *editButton; // @synthesize editButton=_editButton;
-@property(retain, nonatomic) NSGroupTouchBarItem *groupItem; // @synthesize groupItem=_groupItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSharingServicePickerTouchBarItem *shareItem; // @synthesize shareItem=_shareItem;
-@property(retain, nonatomic) CNUIVCardSharingTask *sharingTask; // @synthesize sharingTask=_sharingTask;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
-@property(nonatomic) __weak CNUIUserActionListDataSource *userActionListDataSource; // @synthesize userActionListDataSource=_userActionListDataSource;
-@property(retain, nonatomic) CNUserActionTouchBar *userActionTouchBar; // @synthesize userActionTouchBar=_userActionTouchBar;
 
 @end
 

@@ -6,28 +6,22 @@
 
 #import <SkyLight/SLSAsynchronousBridgedWindowManagementOperation.h>
 
-@class NSString;
-
 @interface SLSBridgedMoveManagedSpaceToDisplayIndexOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned int _index;
-    unsigned long long _spaceID;
-    NSString *_displayIdentifier;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)ENTITYID;
+- (id)m sqlite_master where name = 'ZTRANSACTION';
 - (id);
 - (unsigned long long);
-- (id);
+- (id)h;
 - (void);
-- (unsigned int);
+- (unsigned int)J!;
 - (void) ;
 
 // Remaining properties
-@property(readonly, copy) NSString *displayIdentifier; // @synthesize displayIdentifier=_displayIdentifier;
-@property(readonly) unsigned int index; // @synthesize index=_index;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

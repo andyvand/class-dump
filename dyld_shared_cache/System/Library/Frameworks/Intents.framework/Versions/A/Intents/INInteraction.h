@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, INIntentResponse, NSDateInterval, NSString, NSUUID, SAUISnippet;
+@class INIntent;
 
 @interface INInteraction
 {
     INIntent *_intent;
-    INIntentResponse *_intentResponse;
-    _Bool _donatedBySiri;
-    SAUISnippet *_snippet;
-    NSUUID *_contextExtensionUUID;
-    long long _intentHandlingStatus;
-    long long _direction;
-    NSDateInterval *_dateInterval;
-    NSString *_identifier;
-    NSString *_groupIdentifier;
 }
 
 @end

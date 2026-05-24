@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HAP2AccessoryServerController;
+
 @protocol HAP2AccessoryServerControllerFactory
+- (id <HAP2AccessoryServerController>);
 @end
 

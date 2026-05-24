@@ -7,31 +7,6 @@
 @interface NewsUI2.Router
 {
     id resolver;
-    id routerController;
-    id issueOfflineManager;
-    id articleOfflineManager;
-    id offlineIssueManager;
-    id contentUnavailableOfflineManager;
-    id puzzleOfflineManager;
-    id feedOfflineManager;
-    id recipeOfflineManager;
-    id offlineAlertControllerFactory;
-    id featureAvailability;
-    id readingList;
-    id metricsBuilder;
-    id offerManager;
-    id dynamicViewControllerFactory;
-    id amsUIWebViewControllerFactory;
-    id purchasePresenter;
-    id appConfigurationManager;
-    id sportsOnboardingFlowManager;
-    id landingPageDecider;
-    id feedAvailabilityService;
-    id contentAvailabilityValidator;
-    id offlineProvider;
-    id commandCenter;
-    id tipManager;
-    id appURLHandler;
 }
 
 @end

@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CSIATECHelper
 {
     unsigned int width;
-    unsigned int height;
-    unsigned int rowbytes;
-    unsigned int glInternalFormat;
-    unsigned int metalPixelFormat;
-    struct __CFBoolean *twiddled;
-    struct __CFData *data;
 }
 
 - (void);

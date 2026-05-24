@@ -9,20 +9,19 @@
 @interface TRIPBBoolObjectDictionary
 {
     TRIPBMessage *_autocreator;
-    id _values[2];
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Aq;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)timezone;
 - (void);
 - (id);
 - (id);
@@ -32,8 +31,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool)tIndex: /* Error: Ran out of types for this method. */;
-- (void)ouseBitacora;
+- (_Bool)rawValueAtIndex: /* Error: Ran out of types for this method. */;
+- (void)LighthouseBitacora;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

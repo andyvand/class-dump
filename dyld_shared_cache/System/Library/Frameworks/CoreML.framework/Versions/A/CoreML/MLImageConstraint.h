@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLImageSizeConstraint;
-
 @interface MLImageConstraint
 {
     long long _pixelsHigh;
-    long long _pixelsWide;
-    MLImageSizeConstraint *_sizeConstraint;
-    unsigned long long _pixelType;
 }
 
-+ (id);
++ (id);
 + (id);
 + (unsigned long long);
-+ (id);
++ (id)VL;
 + (id);
 + (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)F;
 - (unsigned int);
 - (id);
 - (unsigned long long);
@@ -31,8 +26,8 @@
 - (long long);
 - (long long);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)`;
+- (id)eoBitrateReceivedInBps, ;
 - (void);
 - (id);
 - (_Bool);
@@ -40,13 +35,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long imageHeight;
-@property(readonly) unsigned long long imageWidth;
-@property(readonly) unsigned int osType;
-@property(readonly, nonatomic) unsigned int pixelFormatType;
-@property(readonly) unsigned long long pixelType; // @synthesize pixelType=_pixelType;
-@property(readonly, nonatomic) long long pixelsHigh; // @synthesize pixelsHigh=_pixelsHigh;
-@property(readonly, nonatomic) long long pixelsWide; // @synthesize pixelsWide=_pixelsWide;
-@property(readonly, nonatomic) MLImageSizeConstraint *sizeConstraint; // @synthesize sizeConstraint=_sizeConstraint;
 
 @end
 

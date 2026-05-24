@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedGroupDebug
 {
     id debugGroup;
-    id debugFormatBlock;
 }
 
 @end

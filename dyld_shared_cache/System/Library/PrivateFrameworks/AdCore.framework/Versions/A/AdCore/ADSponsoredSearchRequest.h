@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADRotatingIdentifiers, ADTriggerContainer, ADUserTargetingProperties, NSString;
+@class NSString;
 
 @interface ADSponsoredSearchRequest
 {
     NSString *_deploymentID;
-    NSString *_experimentID;
-    int _featureEnabledBitmap;
-    NSString *_jsVersion;
-    ADUserTargetingProperties *_properties;
-    ADRotatingIdentifiers *_rotatingIdentifiers;
-    int _supportedODMLVersion;
-    NSString *_treatmentID;
-    ADTriggerContainer *_triggersContainer;
-    _Bool _clientExclusive;
-    _Bool _enableImagesForDupes;
-    _Bool _inAllocation;
-    _Bool _isBaseline;
-    _Bool _isTest;
-    struct {
-        unsigned int featureEnabledBitmap:1;
-        unsigned int supportedODMLVersion:1;
-        unsigned int clientExclusive:1;
-        unsigned int enableImagesForDupes:1;
-        unsigned int inAllocation:1;
-        unsigned int isBaseline:1;
-        unsigned int isTest:1;
-    } _has;
 }
 
 + (id);
@@ -40,8 +18,8 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)j26ELj26EdEES7_EEE;
+- (id)P;
 - (_Bool);
 - (void);
 - (id);
@@ -52,39 +30,39 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)&;
 - (unsigned long long);
-- (void);
+- (void)|!;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool)5%;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)20@?0d8I16;
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)showsVolumeControlsForContentWithNoAudio;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -96,34 +74,7 @@
 %@ (%@);
 
 // Remaining properties
-@property(nonatomic) _Bool clientExclusive; // @synthesize clientExclusive=_clientExclusive;
-@property(retain, nonatomic) NSString *deploymentID; // @synthesize deploymentID=_deploymentID;
-@property(nonatomic) _Bool enableImagesForDupes; // @synthesize enableImagesForDupes=_enableImagesForDupes;
-@property(retain, nonatomic) NSString *experimentID; // @synthesize experimentID=_experimentID;
-@property(nonatomic) int featureEnabledBitmap; // @synthesize featureEnabledBitmap=_featureEnabledBitmap;
-@property(nonatomic) _Bool hasClientExclusive;
-@property(readonly, nonatomic) _Bool hasDeploymentID;
-@property(nonatomic) _Bool hasEnableImagesForDupes;
-@property(readonly, nonatomic) _Bool hasExperimentID;
-@property(nonatomic) _Bool hasFeatureEnabledBitmap;
-@property(nonatomic) _Bool hasInAllocation;
-@property(nonatomic) _Bool hasIsBaseline;
-@property(nonatomic) _Bool hasIsTest;
-@property(readonly, nonatomic) _Bool hasJsVersion;
 @property(readonly, nonatomic) _Bool hasProperties;
-@property(readonly, nonatomic) _Bool hasRotatingIdentifiers;
-@property(nonatomic) _Bool hasSupportedODMLVersion;
-@property(readonly, nonatomic) _Bool hasTreatmentID;
-@property(readonly, nonatomic) _Bool hasTriggersContainer;
-@property(nonatomic) _Bool inAllocation; // @synthesize inAllocation=_inAllocation;
-@property(nonatomic) _Bool isBaseline; // @synthesize isBaseline=_isBaseline;
-@property(nonatomic) _Bool isTest; // @synthesize isTest=_isTest;
-@property(retain, nonatomic) NSString *jsVersion; // @synthesize jsVersion=_jsVersion;
-@property(retain, nonatomic) ADUserTargetingProperties *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) ADRotatingIdentifiers *rotatingIdentifiers; // @synthesize rotatingIdentifiers=_rotatingIdentifiers;
-@property(nonatomic) int supportedODMLVersion; // @synthesize supportedODMLVersion=_supportedODMLVersion;
-@property(retain, nonatomic) NSString *treatmentID; // @synthesize treatmentID=_treatmentID;
-@property(retain, nonatomic) ADTriggerContainer *triggersContainer; // @synthesize triggersContainer=_triggersContainer;
 
 @end
 

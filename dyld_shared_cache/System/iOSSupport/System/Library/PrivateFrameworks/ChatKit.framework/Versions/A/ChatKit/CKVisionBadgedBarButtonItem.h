@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu;
-
 @interface CKVisionBadgedBarButtonItem
 {
     id button;
-    id badgeView;
-    _Bool shouldShowBadge;
 }
 
-- (id);
+- (id)completionQueue;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void)ect;
+- (void)CKFullScreenEffectMediaObject;
 - (void);
-- (void)ing;
+- (void)AlwaysShowNicknameOnboarding;
 - (_Bool)Ä;
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) UIMenu *menu;
-@property(nonatomic) _Bool selected;
 @property(nonatomic) _Bool shouldShowBadge; // @synthesize shouldShowBadge;
 
 @end

@@ -9,21 +9,9 @@
 @interface GEOSearchResult
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _businessId;
-    unsigned int _localSearchProviderId;
-    unsigned int _resultIndex;
-    int _resultType;
-    _Bool _isEnrichedItem;
-    struct {
-        unsigned int has_businessId:1;
-        unsigned int has_localSearchProviderId:1;
-        unsigned int has_resultIndex:1;
-        unsigned int has_resultType:1;
-        unsigned int has_isEnrichedItem:1;
-    } _flags;
 }
 
-+ (_Bool)tTimestamp:(id)arg1;
++ (_Bool)setMapViewLocationTouristTimestamp:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -32,49 +20,39 @@
 - (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)istration>",R,N,V_legacyIdentifierRegistrar;
+- (_Bool)CNCDFetchRequest;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_sendCoreSpeechGradingDataToPeerId:(id)arg1 forLogType: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)R,N;
 - (_Bool);
 - (int);
 - (void);
 - (void);
 - (id)voriteSet"b1"has_mapFeatureIsSchoolFavoriteSet"b1"has_mapFeatureIsTransitFavoriteSet"b1"has_mapFeatureIsWorkFavoriteSet"b1"has_mapLaunchIsHandoff"b1"has_mapSettingsAvoidBusyRoads"b1"has_mapSettingsAvoidHighways"b1"has_mapSettingsAvoidHills"b1"has_mapSettingsAvoidStairs"b1"has_mapSettingsAvoidTolls"b1"has_mapSettingsDirectionsWakeDevice"b1"has_mapSettingsEBike"b1"has_mapSettingsFamiliarRoutes"b1"has_mapSettingsFindMyCarEnabled"b1"has_mapSettingsHeadingEnabled"b1"has_mapSettingsIsHandsFreeProfileEnabled"b1"has_mapSettingsLabelEnabled"b1"has_mapSettingsNotificationsEnabled"b1"has_mapSettingsPauseSpokenAudioEnabled"b1"has_mapSettingsReportingIncidentsEnabled"b1"has_mapSettingsSpeedLimitEnabled"b1"has_mapSettingsTrafficEnabled"b1"has_mapSettingsWalkingAvoidBusyRoads"b1"has_mapSettingsWalkingAvoidHills"b1"has_mapSettingsWalkingAvoidStairs"b1"has_mapUiShownAqiShown"b1"has_mapUiShownWeatherShown"b1"has_mapViewIsAdvancedMap"b1"has_mapViewIsGlobeProjection"b1"has_mapViewLocationIsTourist"b1"has_mapViewLocationPuckInViewport"b1"has_placeCardIsPersonAddressAvailable"b1"has_placeCardIsPersonLocationShared"b1"has_placeCardIsPersonPlacecard"b1"has_placeCardTransitAdvisoryBanner"b1"has_rideBookingAppEnabled"b1"has_rideBookingAppInstalled"b1"has_suggestionsSiriEnabled"b1"has_tableBookingAppEnabled"b1"has_tableBookingAppInstalled"b1"has_venueExperienceShown"b1"read_placeCardPossibleActions"b1"read_placeCardUnactionableUiElements"b1"read_account"b1"read_actionButtonDetailsState"b1"read_carPlayInfo"b1"read_curatedCollectionState"b1"read_deviceInputLocale"b1"read_deviceOutputLocale"b1"read_impressionObjectState"b1"read_lookAroundLocation"b1"read_mapLaunchLaunchUri"b1"read_mapLaunchReferringWebsite"b1"read_mapLaunchSourceAppId"b1"read_mapLaunchSourceHandoffDevice"b1"read_mapViewMapRegion"b1"read_mapsPlaceIdsState"b1"read_mapsServerMetadataSuggestionEntryDisplayeds"b1"read_mapsServerMetadataSuggestionEntryTappedOn"b1"read_mapsServerMetadata"b1"read_metroRegion"b1"read_photoSubmissionDetailsState"b1"read_placeCardPlaceActionDetailsActionUrl"b1"read_placeCardPlaceActionDetailsDestinationApp"b1"read_placeCardPlaceActionDetailsPhotoId"b1"read_placeCardPlaceActionDetailsRichProviderId"b1"read_placeCardPlaceActionDetailsShowcaseId"b1"read_placeCardPlaceActionDetailsTransitPlaceCardIncidentType"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageHeadsign"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitSystemName"b1"read_placeCardPlaceCardCategory"b1"read_placeCardRevealedPlaceCardModules"b1"read_placeCardState"b1"read_predExTrainingData"b1"read_ratingPhotoSubmissionDetailsState"b1"read_ratingSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
 - (unsigned long long)FlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@24@32;
-- (id)tion;
-- (id)ansitStopSummary;
+- (id)hasDistanceFromOriginToDestination;
+- (id)GEONavigationTransitStopSummary;
 - (void)route coordinates. Total point count is less than 2. Actual:(int)arg1 %d;
-- (id)eters;
+- (id)request_parameters;
 - (int)|ì;
 - (id)ü(;
 - (void)H£'Û¬P@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long businessId;
-@property(nonatomic) _Bool hasBusinessId;
-@property(nonatomic) _Bool hasIsEnrichedItem;
-@property(nonatomic) _Bool hasLocalSearchProviderId;
-@property(nonatomic) _Bool hasResultIndex;
 @property(nonatomic) _Bool hasResultType;
-@property(nonatomic) _Bool isEnrichedItem;
-@property(nonatomic) unsigned int localSearchProviderId;
-@property(nonatomic) unsigned int resultIndex;
-@property(nonatomic) int resultType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

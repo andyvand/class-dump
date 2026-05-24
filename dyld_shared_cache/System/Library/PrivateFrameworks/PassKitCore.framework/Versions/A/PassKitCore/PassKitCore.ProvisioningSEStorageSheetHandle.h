@@ -7,14 +7,10 @@
 @interface PassKitCore.ProvisioningSEStorageSheetHandle
 {
     id context;
-    id appletTypes;
-    id lock;
-    id valid;
-    id presented;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

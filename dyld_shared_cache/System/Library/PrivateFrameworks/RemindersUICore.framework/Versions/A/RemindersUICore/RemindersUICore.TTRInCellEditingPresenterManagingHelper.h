@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRInCellEditingPresenterManagingHelper
 {
     id delegate;
-    id reminderEditingComponents;
-    id activeInCellEditingPresenter;
-    id editingTarget;
-    id textInputPrimaryLanguageObserver;
-    id textInputPrimaryLanguageCancellable;
 }
 
 @end

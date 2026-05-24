@@ -4,81 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, GEOCyclingOptions, GEOTransitOptions, GEOWalkingOptions, GEOWaypointNameProperties, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORouteAttributes
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _additionalTransportTypes;
-    CDStruct_95bda58d _initialPromptTypes;
-    CDStruct_95bda58d _uiContexts;
-    struct GEOTimepoint _timepoint;
-    GEOAutomobileOptions *_automobileOptions;
-    GEOCyclingOptions *_cyclingOptions;
-    GEOWaypointNameProperties *_destinationInfo;
-    NSString *_phoneticLocaleIdentifier;
-    GEOTransitOptions *_transitOptions;
-    GEOWalkingOptions *_walkingOptions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _basicPointsToBeIncluded;
-    int _destinationType;
-    int _mainTransportType;
-    int _trafficType;
-    unsigned int _walkingLimitMeters;
-    _Bool _directZilchByLaneFlowlines;
-    _Bool _enableExperimentalMode;
-    _Bool _includeContingencyRoutes;
-    _Bool _includeHistoricTravelTime;
-    _Bool _includeLaneGuidance;
-    _Bool _includeManeuverIcons;
-    _Bool _includePhonetics;
-    _Bool _includeTrafficAlongRoute;
-    _Bool _includeTrafficIncidents;
-    _Bool _includeZilchPoints;
-    _Bool _includeCellularCoverage;
-    _Bool _includeCrossLanguagePhonetics;
-    _Bool _includeLaneWidths;
-    _Bool _includeRouteSegmentInfo;
-    _Bool _includeRoutingPathLeg;
-    _Bool _useMetricThreshold;
-    struct {
-        unsigned int has_timepoint:1;
-        unsigned int has_basicPointsToBeIncluded:1;
-        unsigned int has_destinationType:1;
-        unsigned int has_mainTransportType:1;
-        unsigned int has_trafficType:1;
-        unsigned int has_walkingLimitMeters:1;
-        unsigned int has_directZilchByLaneFlowlines:1;
-        unsigned int has_enableExperimentalMode:1;
-        unsigned int has_includeContingencyRoutes:1;
-        unsigned int has_includeHistoricTravelTime:1;
-        unsigned int has_includeLaneGuidance:1;
-        unsigned int has_includeManeuverIcons:1;
-        unsigned int has_includePhonetics:1;
-        unsigned int has_includeTrafficAlongRoute:1;
-        unsigned int has_includeTrafficIncidents:1;
-        unsigned int has_includeZilchPoints:1;
-        unsigned int has_includeCellularCoverage:1;
-        unsigned int has_includeCrossLanguagePhonetics:1;
-        unsigned int has_includeLaneWidths:1;
-        unsigned int has_includeRouteSegmentInfo:1;
-        unsigned int has_includeRoutingPathLeg:1;
-        unsigned int has_useMetricThreshold:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_additionalTransportTypes:1;
-        unsigned int read_initialPromptTypes:1;
-        unsigned int read_uiContexts:1;
-        unsigned int read_automobileOptions:1;
-        unsigned int read_cyclingOptions:1;
-        unsigned int read_destinationInfo:1;
-        unsigned int read_phoneticLocaleIdentifier:1;
-        unsigned int read_transitOptions:1;
-        unsigned int read_walkingOptions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 @end

@@ -9,14 +9,6 @@
 @interface Swift.__RawDictionaryStorage : Swift.__SwiftNativeNSDictionary
 {
     id _count;
-    id _capacity;
-    id _scale;
-    id _reservedScale;
-    id _extra;
-    id _age;
-    id _seed;
-    id _rawKeys;
-    id _rawValues;
 }
 
 - (id);

@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-@protocol WBSTranslationAvailabilityProviding;
+@class NSArray;
 
 @interface WBSTranslationAvailability
 {
     struct os_unfair_lock_s _lock;
-    id <WBSTranslationAvailabilityProviding> _availabilityProvider;
-    NSArray *_cachedAvailableLocalePairs;
-    _Bool _hasCheckedAvailableLocalePairs;
-    NSNumber *_cachedTranslationAvailableInCurrentRegion;
-    NSArray *_cachedUserPreferredLocales;
-    NSArray *_availableInCurrentRegionCompletionHandlers;
-    NSArray *_availableLocalePairsCompletionHandlers;
 }
 
-+ (id);
++ (id)Sd6offset_t;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void);
@@ -33,13 +25,6 @@
 - (void)safari_longestEdgeInPixels;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSArray *userPreferredTargetLocales;
 
 @end

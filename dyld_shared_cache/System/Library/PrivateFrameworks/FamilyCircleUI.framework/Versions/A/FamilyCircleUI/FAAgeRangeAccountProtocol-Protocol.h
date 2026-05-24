@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol FAAgeRangeAccountProtocol
+- (long long)_copyUpdatedRecord;
 
 // Remaining properties
 @property(readonly, getter=accountID) NSString *accountID;
-@property(readonly, nonatomic) long long entryPoint;
 @end
 

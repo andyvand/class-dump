@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CWFNetworkDenyListItem
 {
     NSMutableArray *_denyListMetrics;
-    _Bool _enterprisePolicy;
-    CWFScanResult *_scanResultForNetworkDenyListItem;
-    NSMutableArray *_denyListTriggers;
-    NSMutableArray *_statesCurrent;
-    NSMutableArray *_statesHistory;
 }
 
 - (_Bool);
@@ -42,11 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)ion",&,N,V__homeLocationAuthorization;
 
 // Remaining properties
-@property(retain) NSMutableArray *denyListTriggers; // @synthesize denyListTriggers=_denyListTriggers;
-@property _Bool enterprisePolicy; // @synthesize enterprisePolicy=_enterprisePolicy;
 @property(retain) CWFScanResult *scanResultForNetworkDenyListItem; // @synthesize scanResultForNetworkDenyListItem=_scanResultForNetworkDenyListItem;
-@property(retain) NSMutableArray *statesCurrent; // @synthesize statesCurrent=_statesCurrent;
-@property(retain) NSMutableArray *statesHistory; // @synthesize statesHistory=_statesHistory;
 
 @end
 

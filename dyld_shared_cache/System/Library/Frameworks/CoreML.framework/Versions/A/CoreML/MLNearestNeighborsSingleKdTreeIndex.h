@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _KDNode;
-
 @interface MLNearestNeighborsSingleKdTreeIndex
 {
     vector_926a3350 vData;
-    vector_85d7f63b vIndices;
-    unsigned long long _numDimensions;
-    unsigned long long _leafSize;
-    _KDNode *_root;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)BufferArg;
+- (void)ject:(unsigned long long)arg1 atIndexedSubscript:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (vector_7f81098b);
@@ -27,9 +21,9 @@
 - (void);
 - (id);
 - (id);
-- (vector_7f81098b);
+- (vector_7f81098b);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -37,9 +31,7 @@
 - (void)processing does not conform to custom model protocol;
 
 // Remaining properties
-@property(nonatomic) unsigned long long leafSize; // @synthesize leafSize=_leafSize;
 @property(nonatomic) unsigned long long numDimensions; // @synthesize numDimensions=_numDimensions;
-@property(retain, nonatomic) _KDNode *root; // @synthesize root=_root;
 
 @end
 

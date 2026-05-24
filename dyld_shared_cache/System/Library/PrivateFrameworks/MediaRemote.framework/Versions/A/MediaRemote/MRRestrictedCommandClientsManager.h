@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void)jj8;
+- (id)hu8;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void),V_updateActiveSystemEndpointMessage;
 
 // Remaining properties

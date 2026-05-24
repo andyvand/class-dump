@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, PKCatalog;
+@class NSSet;
 
 @interface PKGroupsControllerSnapshot
 {
     NSSet *_passes;
-    NSDictionary *_states;
-    NSDictionary *_annotations;
-    PKCatalog *_catalog;
 }
 
 + (_Bool)0@ù
@@ -25,15 +22,11 @@
 - (id);
 - (void);
 - (id);
-- (void)erOfKeys;
+- (void)numberOfKeys;
 - (id)Òÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *annotations; // @synthesize annotations=_annotations;
-@property(readonly, copy, nonatomic) NSDictionary *annotationsByPassUniqueID;
-@property(readonly, nonatomic) PKCatalog *catalog; // @synthesize catalog=_catalog;
 @property(readonly, copy, nonatomic) NSSet *passes; // @synthesize passes=_passes;
-@property(readonly, copy, nonatomic) NSDictionary *states; // @synthesize states=_states;
 
 @end
 

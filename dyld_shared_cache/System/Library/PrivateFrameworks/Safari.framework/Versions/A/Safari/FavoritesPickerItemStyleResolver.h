@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerItemStyleResolver
 {
     NSArray *_favorites;
-    NSCountedSet *_hostCounts;
 }
 
 - (int);

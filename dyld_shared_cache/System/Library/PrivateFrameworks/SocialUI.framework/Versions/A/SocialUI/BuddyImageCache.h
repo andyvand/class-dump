@@ -9,7 +9,6 @@
 @interface BuddyImageCache
 {
     NSMutableDictionary *_abPersonIDToImageData;
-    NSMutableDictionary *_abPersonIDToConsumeTag;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *abPersonIDToConsumeTag; // @synthesize abPersonIDToConsumeTag=_abPersonIDToConsumeTag;
 @property(readonly, nonatomic) NSMutableDictionary *abPersonIDToImageData; // @synthesize abPersonIDToImageData=_abPersonIDToImageData;
 
 @end

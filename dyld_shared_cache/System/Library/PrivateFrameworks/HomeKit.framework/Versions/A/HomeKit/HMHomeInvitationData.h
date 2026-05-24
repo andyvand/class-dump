@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface HMHomeInvitationData
 {
     NSUUID *_identifier;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    long long _invitationState;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (void);
-- (long long);
+- (void)N7morphun8analysis10PlAnalyzerE;
+- (long long)H+
+;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)OS;
 - (void);
 - (id);
 - (void)xÇ<È`tÖÖ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long invitationState; // @synthesize invitationState=_invitationState;
-@property(readonly, copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

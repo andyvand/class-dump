@@ -7,10 +7,9 @@
 @class NSDate;
 
 @protocol _CDDateRangeProtocol
+- (NSDate *)configuration;
 
 // Remaining properties
-@property(readonly) double duration;
-@property(readonly) NSDate *endDate;
 @property(readonly) NSDate *startDate;
 @end
 

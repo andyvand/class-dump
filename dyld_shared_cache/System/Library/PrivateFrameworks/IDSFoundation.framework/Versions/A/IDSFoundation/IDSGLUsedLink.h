@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSGLUsedLink
 {
     unsigned int _linkID;
-    NSString *_localIP;
-    NSString *_serverIP;
 }
 
 - (void);
@@ -19,15 +15,13 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)(;
 - (unsigned long long);
-- (_Bool);
-- (void)TheGridMode;
+- (_Bool)handleCreditOutOfSync;
+- (void)OffTheGridMode;
 
 // Remaining properties
 @property unsigned int linkID; // @synthesize linkID=_linkID;
-@property(retain) NSString *localIP; // @synthesize localIP=_localIP;
-@property(retain) NSString *serverIP; // @synthesize serverIP=_serverIP;
 
 @end
 

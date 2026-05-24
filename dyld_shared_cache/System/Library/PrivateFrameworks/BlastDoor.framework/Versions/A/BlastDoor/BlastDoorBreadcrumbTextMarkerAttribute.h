@@ -11,16 +11,14 @@
     id breadcrumbTextMarkerAttribute;
 }
 
+- (id)<UITextPasteConfigurationSupporting>"16@"NSAttributedString"24@"UITextRange"32;
 - (id);
 - (id);
-- (id);
-- (struct _NSRange);
-- (void)Keys;
+- (struct _NSRange)siriDidTapOutsideContent;
+- (void)ListPickerCodingKeys;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *breadcrumbText;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

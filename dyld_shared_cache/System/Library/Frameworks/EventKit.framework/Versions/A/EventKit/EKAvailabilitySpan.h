@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface EKAvailabilitySpan
 {
     long long _type;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
+- (id)e"8;
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)4#;
 - (id);
 - (void);
 - (void);
@@ -25,15 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -4,20 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNUIGKGameCenterFriendPlayerViewWrapper;
+@class CNContact, NSArray;
 @protocol CNUICoreParentContainerProvider;
 
 @protocol CNUIContactCardActionsProvider
+- (void);
+- (void)#;
+- (void);
+- (NSArray *);
+- (void)HQ@9;
+
+@optional
+- (_Bool);
+- (NSArray *);
+- (void);
+- (CNContact *)initWithTitle:location:locationWithoutPrediction:preferredLocation:startDate:endDate:isAllDay:isTimeSensitive:launchURL:isLocationEvent:eventID:eventObjectID:appEntityIdentifier:organizerPhoneNumber:organizerEmailAddress:calendarIdentifier:eventRepresentationDictionary:legacyIdentifier:mapItemURL:conferenceURL:conferenceURLIsBroadcast:mailtoURL:hasSuggestedLocation:eventHasAlarms:alarmID:isOffsetFromTravelTimeStart:lastFireTimeOfAlertOffsetFromTravelTime:allowsLocationAlerts:hypothesis:travelAdvisoryTimelinessPeriod:forceDisplayOfNewTravelAdvisoryHypotheses:travelAdvisoryDisabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsActions;
-@property(nonatomic) _Bool allowsEditing;
-@property(readonly) CNContact *contact;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContact",?,R
-
 @property(nonatomic) __weak id <CNUICoreParentContainerProvider> containerProvider;
-@property(readonly, nonatomic) CNUIGKGameCenterFriendPlayerViewWrapper *gameCenterPlayerViewWrapper;
-@property(nonatomic) _Bool shouldShowInlineActions;
 @end
 

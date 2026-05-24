@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextPosition;
+
 @protocol UITextInputTokenizer
+- (UITextPosition *)"d"radius2"d"threshold"d};
 @end
 

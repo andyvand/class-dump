@@ -13,34 +13,27 @@
 }
 
 + (id);
-+ (long long);
++ (long long));
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)!;
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
++ (void)(;
 + (void);
-+ (void);
-+ (void);
-+ (id);
++ (void);
++ (id)swiftOSLog.dylib;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType brandLogoArtworkCatalogBlock; // @dynamic brandLogoArtworkCatalogBlock;
-@property(nonatomic) long long curatorKind; // @dynamic curatorKind;
-@property(nonatomic) long long curatorSubKind; // @dynamic curatorSubKind;
-@property(copy, nonatomic) NSString *editorNotes; // @dynamic editorNotes;
-@property(copy, nonatomic) CDUnknownBlockType editorialArtworkCatalogBlock; // @dynamic editorialArtworkCatalogBlock;
-@property(copy, nonatomic) NSString *handle; // @dynamic handle;
-@property(copy, nonatomic) NSString *shortEditorNotes; // @dynamic shortEditorNotes;
 @property(copy, nonatomic) NSString *shortName; // @dynamic shortName;
 
 @end

@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)AppLimitWarningUserNotificationBody;
+- (id)Preferences;
 
 @end
 

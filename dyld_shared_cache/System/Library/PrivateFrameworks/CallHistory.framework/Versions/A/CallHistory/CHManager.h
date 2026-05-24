@@ -6,38 +6,14 @@
 
 #import <CallHistory/CHSynchronizedLoggable.h>
 
-@class CHPhoneBookIOSManager, NSArray, NSDate, NSPredicate, NSString;
-@protocol CHFeatureFlags, SyncManagerProtocol;
-
 @interface CHManager : CHSynchronizedLoggable
 {
     _Bool _showsTelephonyCalls;
-    _Bool _showsFaceTimeVideoCalls;
-    _Bool _showsFaceTimeAudioCalls;
-    _Bool _generateSyncTransactions;
-    _Bool _finishedLoadingAllCalls;
-    _Bool _cacheIsDirty;
-    _Bool _shouldLoadOlderCalls;
-    _Bool _reCoalesce;
-    unsigned int _limitingCallTypes;
-    NSPredicate *_preFetchingPredicate;
-    NSDate *_limitingStartDate;
-    NSDate *_limitingEndDate;
-    NSArray *_limitingCallKinds;
-    NSPredicate *_postFetchingPredicate;
-    NSString *_coalescingStrategy;
-    NSArray *_recentCalls;
-    CHPhoneBookIOSManager *_phoneBookManager;
-    id <CHFeatureFlags> _featureFlags;
-    long long _numberOfUnseenMissedCalls;
-    id <SyncManagerProtocol> _syncManager;
-    NSArray *_uncoalescedRecentCalls;
-    NSArray *_uncoalescedUnFilteredRecentCalls;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -47,18 +23,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (id);
+- (void):(id)arg1 8@16q24@32@40@48B56@60;
+- (void)notifyComputeCacheDidLoadForLibrary:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)migratePostProcessingWithProgressUnitCount:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)forceFetchingAlbumReload;
+- (id)fileURLForNonAdjustedMediumThumbnailFile;
+- (void)_postProcessIsValidDateSource:(id)arg1;
+- (void)PLChangeHandlingNotificationObserver;
+- (void)g new picked key face %@;
+- (_Bool):Dropped %tu unmatched %@ payloads /* Error: Ran out of types for this method. */;
+- (long long)s;
+- (void)ource>"16^B24;
+- (id)PLPhotosHighlightEnrichmentStateAssetMetadataAndScenesProcessed;
 - (void);
 - (double);
 - (void);
@@ -87,38 +63,38 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned int);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)ubFrame incorrect parameter;
+- (void);
+- (void)0)"81*#92+$:3,%;4-&<5.'=6/>7? /* Error: Ran out of types for this method. */;
+- (unsigned long long)p;
+- (void);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)?;
+- (void):(_Bool)arg1;
 - (void);
 - (id);
 - (void);
@@ -128,15 +104,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void).
+
+;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)>		;
+- (id)0	?	/	2	;
 - (void);
 - (void);
-- (long long);
-- (void);
+- (long long)de_to.plist;
+- (void)bodice;
 - (id);
 - (id);
 - (void);
@@ -145,14 +123,14 @@
 - (id);
 - (void);
 - (void);
+- (void)@"NSURL"24@?<v@?@"NSURL"B@"NSError">32;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)c=;
+- (id)*K;
 - (void);
 - (id)0@ù
 × ;
-- (id)diateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

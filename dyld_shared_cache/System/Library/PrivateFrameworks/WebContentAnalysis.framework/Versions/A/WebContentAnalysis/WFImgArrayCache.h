@@ -9,8 +9,6 @@
 @interface WFImgArrayCache
 {
     NSMutableString *imageAlternativeDescriptions;
-    long long numberOfUnknownSizedImages;
-    long long numberOfKnownImagePixels;
 }
 
 + (id);

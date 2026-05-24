@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, GEOAutomobileOptions, MapsSuggestionsCanKicker, MapsSuggestionsDonater, MapsSuggestionsETARequester, MapsSuggestionsETARequirements, MapsSuggestionsManager, MapsSuggestionsMutableWeakEntries, MapsSuggestionsPredictor, MapsSuggestionsVirtualGarage, NSMutableDictionary, NSObject, NSString;
-@protocol MapsSuggestionsNetworkRequester, MapsSuggestionsTimer, OS_dispatch_queue;
+@class CLLocation, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsTracker
 {
     NSObject<OS_dispatch_queue> *_queue;
-    MapsSuggestionsETARequirements *_requirements;
-    id <MapsSuggestionsTimer> _refreshTimer;
-    double _refreshInterval;
-    double _refreshLeeway;
-    double _refreshDeferTime;
-    int _transportType;
-    MapsSuggestionsManager *_manager;
-    NSMutableDictionary *_etaTitleFormatters;
-    NSMutableDictionary *_distanceTitleFormatters;
-    NSMutableDictionary *_etaChargeTitleFormatters;
-    _Bool _shouldBeRunning;
-    MapsSuggestionsETARequester *_etaRequester;
-    MapsSuggestionsDonater *_donater;
-    MapsSuggestionsCanKicker *_currentLocationWiper;
-    NSMutableDictionary *_previousETAs;
-    id _transportTypeChangedListener;
-    MapsSuggestionsVirtualGarage *_virtualGarage;
-    int _mapType;
-    GEOAutomobileOptions *_automobileOptions;
-    CLLocation *_currentLocation;
-    MapsSuggestionsMutableWeakEntries *_trackedEntries;
-    id <MapsSuggestionsNetworkRequester> _networkRequester;
-    MapsSuggestionsPredictor *_predictor;
 }
 
 - (void);
@@ -61,20 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
 @property(retain) CLLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int mapType; // @synthesize mapType=_mapType;
-@property(retain, nonatomic) id <MapsSuggestionsNetworkRequester> networkRequester; // @synthesize networkRequester=_networkRequester;
-@property(retain, nonatomic) MapsSuggestionsPredictor *predictor; // @synthesize predictor=_predictor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MapsSuggestionsMutableWeakEntries *trackedEntries; // @synthesize trackedEntries=_trackedEntries;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

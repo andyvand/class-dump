@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @protocol EMQueryBuilder
+- (void)D;
+- (NSDictionary *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *label;
 @property(nonatomic) long long limit;
-@property(nonatomic) unsigned long long queryOptions;
-@property(copy, nonatomic) NSArray *sortDescriptors;
-@property(copy, nonatomic) CSSuggestion *suggestion;
-@property(copy, nonatomic) NSDictionary *targetClassOptions;
 @end
 

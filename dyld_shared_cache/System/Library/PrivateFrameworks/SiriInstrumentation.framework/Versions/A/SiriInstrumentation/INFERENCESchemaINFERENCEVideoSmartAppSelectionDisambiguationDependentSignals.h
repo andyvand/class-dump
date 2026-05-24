@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEVideoSmartAppSelectionDisambiguationDependentSignals : SISchemaInstrumentationMessage
 {
     _Bool _isDisambiguatedApp;
-    int _modelAppConfidence;
-    int _disambiguationAppOrdinal;
-    struct {
-        unsigned int isDisambiguatedApp:1;
-        unsigned int modelAppConfidence:1;
-        unsigned int disambiguationAppOrdinal:1;
-    } _has;
 }
 
 - (void);
@@ -43,17 +34,11 @@
 - (id);
 - (id)Ñß°1Â0@ù
 × ;
-- (id)SpeechNoMatchCount;
-- (id)ComponentEnded;
+- (id)falseWakeWithSpeechNoMatchCount;
+- (id)QDSchemaQDSubComponentEnded;
 
 // Remaining properties
-@property(nonatomic) int disambiguationAppOrdinal; // @synthesize disambiguationAppOrdinal=_disambiguationAppOrdinal;
-@property(nonatomic) _Bool hasDisambiguationAppOrdinal;
-@property(nonatomic) _Bool hasIsDisambiguatedApp;
-@property(nonatomic) _Bool hasModelAppConfidence;
 @property(nonatomic) _Bool isDisambiguatedApp; // @synthesize isDisambiguatedApp=_isDisambiguatedApp;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int modelAppConfidence; // @synthesize modelAppConfidence=_modelAppConfidence;
 
 @end
 

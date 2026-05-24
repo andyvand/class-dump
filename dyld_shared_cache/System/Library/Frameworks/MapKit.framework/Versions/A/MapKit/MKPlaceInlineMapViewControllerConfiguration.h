@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken;
-
 @interface MKPlaceInlineMapViewControllerConfiguration
 {
     _Bool _useWindowTraitCollectionForUserInterfaceStyle;
-    _Bool _suppressLookAround;
-    _Bool _suppressSectionHeader;
-    _Bool _showMapAttribution;
-    GEOApplicationAuditToken *_mapSnapshotAuditToken;
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ousResponseTimestamp=%@ to lastResponseTimestamp=%@;
+- (_Bool)napshot for  coalitionID=%llu;
+- (_Bool)ng cpu energy from coalitions snapshot for  coalitionID=%llu;
+- (_Bool)BackgroundProcessing::SystemConditionsInUseOrMotion /* Error: Ran out of types for this method. */;
+- (void)Date=%@, currentStartDate=%@, endDate=%@, cpuEnergySnapshot=%@, networkEnergySnapshot=%@, openCount=%f, startCount=%f;
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void):forScale: /* Error: Ran out of types for this method. */;
+- (void)\;
+- (id);
+- (void)newFillColorForStyleAttributes:forScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEOApplicationAuditToken *mapSnapshotAuditToken; // @synthesize mapSnapshotAuditToken=_mapSnapshotAuditToken;
-@property(nonatomic) _Bool showMapAttribution; // @synthesize showMapAttribution=_showMapAttribution;
-@property(nonatomic) _Bool suppressLookAround; // @synthesize suppressLookAround=_suppressLookAround;
-@property(nonatomic) _Bool suppressSectionHeader; // @synthesize suppressSectionHeader=_suppressSectionHeader;
 @property(nonatomic) _Bool useWindowTraitCollectionForUserInterfaceStyle; // @synthesize useWindowTraitCollectionForUserInterfaceStyle=_useWindowTraitCollectionForUserInterfaceStyle;
 
 @end

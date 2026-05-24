@@ -6,7 +6,7 @@
 
 #import <SafariServices/_SFBookmark.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface _SFBookmarkLeaf : _SFBookmark
 {
@@ -21,14 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

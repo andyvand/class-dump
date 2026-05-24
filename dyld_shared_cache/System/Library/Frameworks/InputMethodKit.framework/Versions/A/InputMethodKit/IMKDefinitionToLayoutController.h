@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateController, IMKCandidateData, IMKCandidateUIProperties, IMKDefinitionToLayoutConstraint, IMKLayout;
+@class IMKCandidateController;
 
 @interface IMKDefinitionToLayoutController
 {
     _Bool _verticallyAligned;
-    Class _layoutUnitClass;
-    IMKCandidateController *_candidateController;
-    IMKDefinitionToLayoutConstraint *_constraints;
-    IMKCandidateData *_candidateData;
-    IMKCandidateUIProperties *_UIProperties;
 }
 
 - (void);
@@ -26,26 +21,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R		;
 - (_Bool);
 - (id);
 - (id);
 - (Class);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)_transcriberOptions;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) IMKCandidateUIProperties *UIProperties; // @synthesize UIProperties=_UIProperties;
 @property(nonatomic) IMKCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) IMKCandidateData *candidateData; // @synthesize candidateData=_candidateData;
-@property(retain, nonatomic) IMKDefinitionToLayoutConstraint *constraints; // @synthesize constraints=_constraints;
-@property(readonly, nonatomic) IMKLayout *layout;
-@property(nonatomic) Class layoutUnitClass; // @synthesize layoutUnitClass=_layoutUnitClass;
-@property(nonatomic, getter=isVerticallyAligned) _Bool verticallyAligned; // @synthesize verticallyAligned=_verticallyAligned;
 
 @end
 

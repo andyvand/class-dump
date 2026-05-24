@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface _ANEIOSurfaceObject
 {
     struct __IOSurface *_ioSurface;
-    NSNumber *_startOffset;
 }
 
 + (id);
 + (id);
 + (struct __IOSurface *);
 + (struct __IOSurface *);
-+ (id);
++ (id)naissanceSession] Endpoint features:(struct __IOSurface *)arg1 %u;
 + (id);
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)setRunningPromises: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct __IOSurface *);
@@ -31,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct __IOSurface *ioSurface; // @synthesize ioSurface=_ioSurface;
-@property(readonly, nonatomic) NSNumber *startOffset; // @synthesize startOffset=_startOffset;
 
 @end
 

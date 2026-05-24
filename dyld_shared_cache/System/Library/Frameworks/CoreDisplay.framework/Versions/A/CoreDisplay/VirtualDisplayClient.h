@@ -11,16 +11,6 @@ __attribute__((visibility("hidden")))
 @interface VirtualDisplayClient
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_terminationHandlerQueue;
-    CDUnknownBlockType _terminationHandler;
-    void *_arg;
-    unsigned int _displayID;
-    unsigned int _serverRPC_port;
-    unsigned int _proxyRPC_port;
-    unsigned int _clientHandler_port;
-    unsigned int _vendorID;
-    unsigned int _productID;
-    NSString *_name;
 }
 
 - (void);
@@ -34,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)DNDMutableContactHandle;
 
 @end
 

@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)@9;
 + (id);
 + (id);
 - (void);
@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)ply result:(id)arg1 %llx;
+- (void)40@0:8@16{CGSize=dd}24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_DPMetricsCollector> metricsCollector; // @synthesize metricsCollector=_metricsCollector;

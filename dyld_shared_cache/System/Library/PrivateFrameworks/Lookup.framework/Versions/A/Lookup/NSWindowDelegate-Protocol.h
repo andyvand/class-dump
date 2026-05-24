@@ -4,9 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSNotification;
+
 @protocol NSWindowDelegate
 
 @optional
+- (NSArray *);
+- (void);
+- (void);
+- (void)tionBlock:(NSNotification *)arg1 ];
+- (void)n explicit value %s, ignoring ko;
+- (void)magic_cookie_glitch;
+- (void)�;
+- (void));
+- (void)__TEXT;
 - (struct CGSize)ÔA$ð!Eùq1Â0@ù
 × ;
 @end

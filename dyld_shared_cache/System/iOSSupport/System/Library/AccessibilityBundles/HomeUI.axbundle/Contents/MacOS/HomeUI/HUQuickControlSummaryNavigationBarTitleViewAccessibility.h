@@ -14,7 +14,7 @@
 + (id);
 + (void);
 - (id);
-- (id);
+- (id)length;
 
 @end
 

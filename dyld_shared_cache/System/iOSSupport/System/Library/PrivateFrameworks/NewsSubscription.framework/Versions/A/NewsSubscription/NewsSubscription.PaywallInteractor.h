@@ -7,16 +7,9 @@
 @interface NewsSubscription.PaywallInteractor
 {
     id delegate;
-    id tracker;
-    id dataManager;
-    id webAccessAuthenticatorFactory;
-    id webAccessAuthenticator;
-    id webAccessConversionEventReporter;
-    id paidBundleViaOfferFeatureAvailability;
-    id personalizedPaywallDataService;
 }
 
-- (id);
+- (id)Layout p_destroyDynamicCopies];
 - (void);
 - (void);
 

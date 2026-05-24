@@ -7,8 +7,6 @@
 @interface AccessibilitySharedSupport.AccessibilityActionHIDReceiver
 {
     id systemClient;
-    id queue;
-    id delegate;
 }
 
 @end

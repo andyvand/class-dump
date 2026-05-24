@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSMutableDictionary, NSSet, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistryRuntimeAdapter
 {
     struct os_unfair_lock_s _lock;
-    HMDHome *_home;
-    NSMutableDictionary *_characteristicRegistrations;
-    NSMutableDictionary *_characteristicThresholds;
-    NSMutableDictionary *_actionSetRegistrations;
-    NSMutableDictionary *_userUUIDs;
 }
 
 + (id)B;
@@ -27,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)navigationListener:(id)arg1 didUpdateActiveRouteData: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -52,26 +47,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)xel = color; pixel.r = _curve_sample_HDR(pixel.r, table, domain, normalizer).r; pixel.g = _curve_sample_HDR(pixel.g, table, domain, normalizer).g; pixel.b = _curve_sample_HDR(pixel.b, table, domain, normalizer).b; float lum0 = dot(pixel.rgb, vec3(0.3, 0.59, 0.11)); float lum1 = _curve_sample_HDR(lum0, table, domain, normalizer).a; float lum1c = clamp(lum1, -8.0 * abs(lum0), 8.0 * abs(lum0)); float lum_scale = (lum0 == 0.0 ? 0.0 :(id)arg1 lum1c / lum0); float lum_offset = lum1 - lum1c; pixel.rgb = lum_scale * pixel.rgb + lum_offset; pixel.rgb = min(pixel.rgb, 1.0); return pixel; };
 - (id)!<EùñÐ1Â0@ù
 × ;
 - (void)0FE2A2;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *actionSetRegistrations; // @synthesize actionSetRegistrations=_actionSetRegistrations;
-@property(readonly) NSMutableDictionary *characteristicRegistrations; // @synthesize characteristicRegistrations=_characteristicRegistrations;
-@property(readonly, copy) NSSet *characteristicRegistrationsSnapshot;
-@property(readonly) NSMutableDictionary *characteristicThresholds; // @synthesize characteristicThresholds=_characteristicThresholds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSSet *enabledCharacteristicRegistrations;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *userUUIDs; // @synthesize userUUIDs=_userUUIDs;
 
 @end
 

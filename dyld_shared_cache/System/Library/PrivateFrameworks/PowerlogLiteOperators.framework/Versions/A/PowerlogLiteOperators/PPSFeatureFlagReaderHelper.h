@@ -11,7 +11,7 @@
     NSXPCConnection *_connectionToServer;
 }
 
-- (id);
+- (id)_fetchHeroFrameURLForSignificantEventModel: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

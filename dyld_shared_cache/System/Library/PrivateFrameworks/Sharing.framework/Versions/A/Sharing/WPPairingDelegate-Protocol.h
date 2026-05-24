@@ -7,6 +7,7 @@
 @protocol WPPairingDelegate
 
 @optional
+- (void)rator.iChat;
 - (void);
 @end
 

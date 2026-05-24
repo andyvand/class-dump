@@ -7,9 +7,6 @@
 @interface AppStoreKit.ShelfContextMenu
 {
     id menu;
-    id actionRunner;
-    id onMenuOpen;
-    id onMenuClose;
 }
 
 - (void);

@@ -6,25 +6,22 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
-
 @interface VNRecognizeTextRequest : VNImageBasedRequest
 {
     _Bool indeterminate;
-    CDUnknownBlockType progressHandler;
 }
 
 + (id);
-+ (Class);
++ (Class)];
 + (const CDStruct_3a02d5a8 *);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (long long);
 - (id);
 - (float);
@@ -35,9 +32,9 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)D DVD-R;
+- (id)Failed to destroy temporary store at %s:(unsigned long long)arg1 %s;
+- (void)ter>!$_;
 - (void)f,%f:%u:%u:%lu /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (CDUnknownBlockType);
@@ -46,23 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyDetectsLanguage;
-@property(copy, nonatomic) NSArray *customWords;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool indeterminate; // @synthesize indeterminate;
 @property(nonatomic) _Bool keepResourcesLoaded;
-@property(nonatomic) float minimumTextHeight;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler;
-@property(copy, nonatomic) NSArray *recognitionLanguages;
-@property(nonatomic) long long recognitionLevel;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesLanguageCorrection;
 
 @end
 

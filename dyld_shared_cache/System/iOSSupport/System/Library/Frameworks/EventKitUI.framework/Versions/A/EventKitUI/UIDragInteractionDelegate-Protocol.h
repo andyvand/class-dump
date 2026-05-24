@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedDragPreview;
+@class NSArray, UIDragInteraction, UITargetedDragPreview;
+@protocol UIDragSession;
 
 @protocol UIDragInteractionDelegate
+- (NSArray *)getOutputWithCompletionHandler:(UIDragInteraction *)arg1 ];
 
 @optional
+- (id <UIDragSession>)g",R,C,N,V_parent;
+- (void);
+- (UITargetedDragPreview *)$i;
 - (UITargetedDragPreview *)
 × ;
 - (_Bool)d the original container event view controller;

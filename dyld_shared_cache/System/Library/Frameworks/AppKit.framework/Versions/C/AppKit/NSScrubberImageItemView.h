@@ -6,12 +6,11 @@
 
 #import <AppKit/NSScrubberItemView.h>
 
-@class NSImage, NSImageView;
+@class NSImageView;
 
 @interface NSScrubberImageItemView : NSScrubberItemView
 {
     NSImageView *_imageView;
-    unsigned long long _alignment;
 }
 
 - (void);
@@ -20,15 +19,13 @@
 - (id);
 - (void);
 - (id);
+- (void)D	;
 - (void);
-- (void);
-- (id)mumNumberOfLines;
-- (id)tObjectsAtIndexes:avoidsEmptySelection: /* Error: Ran out of types for this method. */;
+- (id)maximumNumberOfLines;
+- (id)_selectObjectsAtIndexes:avoidsEmptySelection: /* Error: Ran out of types for this method. */;
 - (void)ck were specified; only one is allowed;
 
 // Remaining properties
-@property(copy) NSImage *image;
-@property unsigned long long imageAlignment;
 @property(readonly) NSImageView *imageView; // @synthesize imageView=_imageView;
 
 @end

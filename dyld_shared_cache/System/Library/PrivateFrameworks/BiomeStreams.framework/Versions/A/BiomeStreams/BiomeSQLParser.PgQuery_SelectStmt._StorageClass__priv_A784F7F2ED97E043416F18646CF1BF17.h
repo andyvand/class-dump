@@ -7,24 +7,6 @@
 @interface BiomeSQLParser.PgQuery_SelectStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _distinctClause;
-    id _intoClause;
-    id _targetList;
-    id _fromClause;
-    id _whereClause;
-    id _groupClause;
-    id _havingClause;
-    id _windowClause;
-    id _valuesLists;
-    id _sortClause;
-    id _limitOffset;
-    id _limitCount;
-    id _limitOption;
-    id _lockingClause;
-    id _withClause;
-    id _op;
-    id _all;
-    id _larg;
-    id _rarg;
 }
 
 @end

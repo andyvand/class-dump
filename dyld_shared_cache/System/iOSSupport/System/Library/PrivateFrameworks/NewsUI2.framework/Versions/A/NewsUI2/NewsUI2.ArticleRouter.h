@@ -7,11 +7,6 @@
 @interface NewsUI2.ArticleRouter
 {
     id controller;
-    id linkHandler;
-    id actionHandler;
-    id navigator;
-    id sceneProvider;
-    id tracker;
 }
 
 @end

@@ -7,16 +7,13 @@
 @interface TSUCFSetEnumerator
 {
     void *mInlineObjects[16];
-    const void **mObjects;
-    long long mCount;
-    long long mIndex;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)setObject:(CDStruct_70511ce9 *)arg1 forUncopiedKey:(id *)arg2;
 
 @end
 

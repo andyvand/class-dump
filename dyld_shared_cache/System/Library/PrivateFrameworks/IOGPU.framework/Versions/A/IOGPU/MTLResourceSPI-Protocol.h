@@ -5,12 +5,11 @@
 //
 
 @protocol MTLResourceSPI
+- (_Bool)C;
+- (unsigned long long);
 - (unsigned long long)"^{IOGPUClientSharedRO}"virtualAddress"^v"options"Q"storageMode"Q"cpuCacheMode"Q"responsibleProcess"i"purgeableState"Q"purgeableAllowed"B"heap"@"IOGPUMetalHeap""resource"@"IOGPUMetalResource""offset"Q"length"Q"pinned"B"labelLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}"metadataVirtualAddress"^v"remoteStorageResource"@"IOGPUMetalResource"};
 
 // Remaining properties
-@property(readonly) unsigned long long allocationID;
-@property(readonly) unsigned long long protectionOptions;
 @property int responsibleProcess;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 @end
 

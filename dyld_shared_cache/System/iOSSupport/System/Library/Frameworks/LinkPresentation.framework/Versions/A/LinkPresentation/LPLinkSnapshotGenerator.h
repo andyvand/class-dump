@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface LPLinkSnapshotGenerator
 {
     NSXPCConnection *_connectionToService;
-    NSMutableDictionary *_pendingCompletionHandlers;
-    unsigned int _nextRequestID;
-    _Bool _active;
 }
 
+- (void)threadOriginator;
+- (void)setStringValue: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)_handleID;
 - (void)á÷°!HDùq1Â0@ù
 × ;
 

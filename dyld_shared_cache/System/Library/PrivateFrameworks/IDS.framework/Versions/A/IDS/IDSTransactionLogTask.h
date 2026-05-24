@@ -9,8 +9,8 @@
     CDUnknownBlockType _completionBlock;
 }
 
-- (void);
-- (CDUnknownBlockType);
+- (void)C;
+- (CDUnknownBlockType));
 - (void)
 × ;
 - (void)al",&,N,V_seal;

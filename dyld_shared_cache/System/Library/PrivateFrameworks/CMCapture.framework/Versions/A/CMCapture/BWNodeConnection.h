@@ -4,75 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWNodeInput, BWNodeOutput, BWPipelineStage, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class BWNodeInput;
 
 @interface BWNodeConnection
 {
     BWNodeInput *_input;
-    BWNodeOutput *_output;
-    BWNodeInput *_bypassInput;
-    BWPipelineStage *_pipelineStage;
-    BWNodeConnection *_bypassConnection;
-    _Bool _waitingForDeferredAttach;
-    _Bool _waitingForDeferredResume;
-    _Bool _waitingForDeferredResumeForEventsOnly;
-    struct os_unfair_lock_s _suspensionLock;
-    _Atomic _Bool _suspended;
-    _Atomic int _messageTypeToWaitForBeforeSuspension;
-    _Bool _resuming;
-    _Bool _bypassed;
-    _Bool _wantsMessageCachingWhileSuspended;
-    _Bool _messageCachingEnabled;
-    _Bool _resumedForEventsOnly;
-    NSMutableArray *_messagesToPropagate;
-    _Atomic long long _allowedLiveConfigurationID;
-    NSObject<OS_dispatch_queue> *_messageDispatchQueue;
-    _Bool _allowsSuspensionWithoutPipelineStage;
 }
 
 + (void)inputs;
 - (_Bool);
-- (id);
+- (id)allelTimeNode";
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)key type;
 - (_Bool);
 - (id);
+- (id);
+- (void)setByAddingObjectsFromArray:(_Bool)arg1;
+- (_Bool)floatingRangeWithUTCStartDate:endDate: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (void)V_faceStabilizationSigmaMultiplierForFaceFiltering;
 - (_Bool)ÿsuÿÿtvÿÿuwÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsSuspensionWithoutPipelineStage; // @synthesize allowsSuspensionWithoutPipelineStage=_allowsSuspensionWithoutPipelineStage;
-@property(readonly) _Bool bypassed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) BWNodeInput *input;
-@property(readonly) NSObject<OS_dispatch_queue> *messageDispatchQueue;
-@property(readonly) BWNodeOutput *output;
-@property(readonly) BWPipelineStage *pipelineStage;
-@property(readonly) Class superclass;
-@property(readonly) _Bool suspended;
-@property(nonatomic) _Bool wantsMessageCachingWhileSuspended; // @synthesize wantsMessageCachingWhileSuspended=_wantsMessageCachingWhileSuspended;
 
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSPopover, NSWindow;
+
 @protocol NSPopoverDelegate
+
+@optional
+- (_Bool);
+- (NSWindow *)R:(NSPopover *)arg1;
 @end
 

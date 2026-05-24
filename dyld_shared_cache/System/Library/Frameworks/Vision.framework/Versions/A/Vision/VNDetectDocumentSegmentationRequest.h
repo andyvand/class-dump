@@ -13,8 +13,8 @@
 }
 
 + (const CDStruct_3a02d5a8 *);
-- (id);
-- (id)e;
+- (id)saving contact:(unsigned long long)arg1 %@;
+- (id)NVNHumanBodyPose3DObservationJointName;
 - (_Bool)ÿ!&¾;
 
 // Remaining properties

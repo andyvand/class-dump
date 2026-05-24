@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSSet;
-
 @interface WFContentItemRegistry
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_lock_contentItemClassesByType;
-    NSMutableSet *_lock_allItemClasses;
-    NSSet *_lock_allOwnedObjectClasses;
 }
 
 - (void);
@@ -32,13 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allOwnedObjectClasses;
-@property(readonly, nonatomic) NSSet *allOwnedTypes;
-@property(readonly, nonatomic) NSSet *contentItemClasses;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSMutableSet *lock_allItemClasses; // @synthesize lock_allItemClasses=_lock_allItemClasses;
-@property(readonly, nonatomic) NSSet *lock_allOwnedObjectClasses; // @synthesize lock_allOwnedObjectClasses=_lock_allOwnedObjectClasses;
-@property(readonly, nonatomic) NSMutableDictionary *lock_contentItemClassesByType; // @synthesize lock_contentItemClassesByType=_lock_contentItemClassesByType;
 
 @end
 

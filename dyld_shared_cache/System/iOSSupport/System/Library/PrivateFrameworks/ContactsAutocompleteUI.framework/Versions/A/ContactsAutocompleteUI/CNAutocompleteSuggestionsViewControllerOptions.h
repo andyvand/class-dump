@@ -7,8 +7,6 @@
 @interface CNAutocompleteSuggestionsViewControllerOptions
 {
     _Bool _supplementSuggestionsWithZKWRecipients;
-    unsigned long long _searchType;
-    long long _maxNumberOfSuggestions;
 }
 
 - (_Bool);
@@ -20,9 +18,7 @@
 - (long long);
 
 // Remaining properties
-@property long long maxNumberOfSuggestions; // @synthesize maxNumberOfSuggestions=_maxNumberOfSuggestions;
 @property unsigned long long searchType; // @synthesize searchType=_searchType;
-@property(nonatomic) _Bool supplementSuggestionsWithZKWRecipients; // @synthesize supplementSuggestionsWithZKWRecipients=_supplementSuggestionsWithZKWRecipients;
 
 @end
 

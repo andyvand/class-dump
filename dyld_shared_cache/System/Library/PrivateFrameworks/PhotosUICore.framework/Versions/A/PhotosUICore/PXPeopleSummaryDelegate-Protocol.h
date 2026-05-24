@@ -5,5 +5,6 @@
 //
 
 @protocol PXPeopleSummaryDelegate
+- (unsigned long long);
 @end
 

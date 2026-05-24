@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSData;
 
 @interface CTPNRRequestType
 {
     NSData *_pushToken;
-    NSString *_embedded;
-    NSNumber *_attemptCount;
-    NSArray *_pnrReqList;
-    NSString *_sessionToken;
 }
 
-+ (_Bool);
++ (_Bool)e buffers are not supported; you must provide CMSampleBuffers containing encoded video;
 - (void);
 - (void);
 - (id);
@@ -29,18 +25,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)evaluateCorePolicy:(id)arg1 options:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *attemptCount; // @synthesize attemptCount=_attemptCount;
-@property(retain, nonatomic) NSString *embedded; // @synthesize embedded=_embedded;
-@property(retain, nonatomic) NSArray *pnrReqList; // @synthesize pnrReqList=_pnrReqList;
 @property(retain, nonatomic) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(retain, nonatomic) NSString *sessionToken; // @synthesize sessionToken=_sessionToken;
 
 @end
 

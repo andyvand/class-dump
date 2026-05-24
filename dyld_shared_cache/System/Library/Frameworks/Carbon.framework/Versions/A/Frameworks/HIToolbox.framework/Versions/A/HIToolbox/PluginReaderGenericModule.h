@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PluginReaderGenericModule
 {
     NSMutableDictionary *_inputMethodInformation;
-    NSDictionary *_wordList;
-    NSString *_fileName;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)R?!;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)kc;
+- (id)numberWithInt: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool)m.apple.ironwood.support;

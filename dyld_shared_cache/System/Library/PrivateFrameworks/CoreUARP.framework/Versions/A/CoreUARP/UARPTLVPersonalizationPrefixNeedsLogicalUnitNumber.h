@@ -12,14 +12,14 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (unsigned int);
++ (id);
++ (id)l;
++ (unsigned int)valid localURL.;
 - (id);
 - (void);
 - (unsigned char);
 - (id);
-- (id);
+- (id)ACLVersionForAccount:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned char prefixNeedsLogicalUnitNumber; // @synthesize prefixNeedsLogicalUnitNumber=_prefixNeedsLogicalUnitNumber;

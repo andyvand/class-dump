@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface PILRawCalibration
 {
     long long _type;
-    CDStruct_123c8ea9 _fdrCalibration;
-    CDStruct_9fb4ccff _edtCalibration;
 }
 
 - (void);
 - (void);
-- (CDStruct_123c8ea9);
-- (CDStruct_9fb4ccff);
+- (CDStruct_f11ef4ef);
+- (CDStruct_41396c36);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_9fb4ccff edtCalibration; // @synthesize edtCalibration=_edtCalibration;
-@property(nonatomic) CDStruct_123c8ea9 fdrCalibration; // @synthesize fdrCalibration=_fdrCalibration;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

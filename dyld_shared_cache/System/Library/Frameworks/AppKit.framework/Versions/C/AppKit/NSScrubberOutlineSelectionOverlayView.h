@@ -9,9 +9,6 @@
 @interface NSScrubberOutlineSelectionOverlayView : NSScrubberSelectionView
 {
     unsigned int _previousDrawSelected:1;
-    unsigned int _previousDrawHighlight:1;
-    unsigned int _allowsHighlight:1;
-    unsigned int _reservedOverlayFlags:29;
 }
 
 - (_Bool);
@@ -19,14 +16,14 @@
 - (void);
 - (double);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)((t;
+- (void)Xx;
 - (struct __CFDictionary *);
 - (id);
 - (void);
 - (void);
-- (id)eled;
+- (id)menuCanceled;
 - (struct NSEdgeInsets)Ô}ÿxtÿ@;
 
 // Remaining properties

@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol IMSyncedSettingsRemoteStorageDelegate
+- (void)_usesAuxiliarySession;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *dictionaryRepresentation;

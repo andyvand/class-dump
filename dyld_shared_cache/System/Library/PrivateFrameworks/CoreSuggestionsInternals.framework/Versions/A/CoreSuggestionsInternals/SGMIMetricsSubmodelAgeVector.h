@@ -7,21 +7,6 @@
 @interface SGMIMetricsSubmodelAgeVector
 {
     float _conversationAge;
-    float _domainFromSenderAge;
-    float _personCCRecipientsAge;
-    float _personFromSenderAge;
-    float _personFromSenderInDyadicConversationAge;
-    float _personToRecipientsAge;
-    float _subjectContentAge;
-    struct {
-        unsigned int conversationAge:1;
-        unsigned int domainFromSenderAge:1;
-        unsigned int personCCRecipientsAge:1;
-        unsigned int personFromSenderAge:1;
-        unsigned int personFromSenderInDyadicConversationAge:1;
-        unsigned int personToRecipientsAge:1;
-        unsigned int subjectContentAge:1;
-    } _has;
 }
 
 - (float);
@@ -32,11 +17,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
@@ -44,8 +29,8 @@
 - (float);
 - (float);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,27 +41,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)aching object for key <(%{private, mask.hash}@)> from daemon in store <(%@)>;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)?;
 
 // Remaining properties
-@property(nonatomic) float conversationAge; // @synthesize conversationAge=_conversationAge;
-@property(nonatomic) float domainFromSenderAge; // @synthesize domainFromSenderAge=_domainFromSenderAge;
-@property(nonatomic) _Bool hasConversationAge;
-@property(nonatomic) _Bool hasDomainFromSenderAge;
-@property(nonatomic) _Bool hasPersonCCRecipientsAge;
 @property(nonatomic) _Bool hasPersonFromSenderAge;
-@property(nonatomic) _Bool hasPersonFromSenderInDyadicConversationAge;
-@property(nonatomic) _Bool hasPersonToRecipientsAge;
-@property(nonatomic) _Bool hasSubjectContentAge;
-@property(nonatomic) float personCCRecipientsAge; // @synthesize personCCRecipientsAge=_personCCRecipientsAge;
-@property(nonatomic) float personFromSenderAge; // @synthesize personFromSenderAge=_personFromSenderAge;
-@property(nonatomic) float personFromSenderInDyadicConversationAge; // @synthesize personFromSenderInDyadicConversationAge=_personFromSenderInDyadicConversationAge;
-@property(nonatomic) float personToRecipientsAge; // @synthesize personToRecipientsAge=_personToRecipientsAge;
-@property(nonatomic) float subjectContentAge; // @synthesize subjectContentAge=_subjectContentAge;
 
 @end
 

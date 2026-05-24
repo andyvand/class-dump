@@ -5,7 +5,11 @@
 //
 
 @protocol _UIBarButtonItemGroupOwner
+- (void)mber",C,N,V_payloadShutDownDisabledWhileLoggedIn;
 - (void)edPreferredSymbolConfiguration"b1"hasCustomizedTintColor"b1"hasCustomizedCornerRadius"b1"hasCustomizedMaximumSize"b1"hasCustomizedAccessibilityIgnoresInvertColors"b1};
 - (void)pple.uikit.backgroundTaskAssertionQueue;
+
+@optional
+- (void)IMRecoverJunkCommandProcessingPipelineComponent;
 @end
 

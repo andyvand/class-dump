@@ -4,58 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSString, TIKeyboardLayout, TISKEvent;
+@class NSMutableDictionary, TISKEvent;
 
 __attribute__((visibility("hidden")))
 @interface TISKSessionStats
 {
     TISKEvent *_startTimerEvent;
-    double _currentTypingStart;
-    _Bool _isEmpty;
-    NSMutableDictionary *_keyedMetrics;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSString *_identifier;
-    NSString *_version;
-    NSString *_inputMode;
-    NSMutableArray *_sessionIds;
-    TIKeyboardLayout *_layout;
 }
 
 + (_Bool);
 - (void);
 - (id);
+- (void)";
+- (void)ttyCall:(id)arg1 didSendRemoteString:forUtterance: /* Error: Ran out of types for this method. */;
+- (id)setHasReceivedRTTCall: /* Error: Ran out of types for this method. */;
+- (id)sendToTTYDeviceWithString:(id)arg1;
+- (id)sendText:(id)arg1;
+- (id)integerValueForKey:(id)arg1 withDefaultValue: /* Error: Ran out of types for this method. */;
+- (id)_messageProcessingQueue;
+- (_Bool)_devices;
+- (id);
+- (void)Sender didn't match. Paired device id:(id)arg1 %@, idsID:%@, senderID:%@, senderIDS:%@ /* Error: Ran out of types for this method. */;
+- (id)te device received text %@;
+- (id)ed a message type for update messages:(id)arg1 %@;
+- (void)tty_worker_queue;
 - (void);
 - (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)foundThisTask;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)terQueries;
+- (void)tring",&,N,V_resultId;
 - (void);
 - (id);
 - (id);
@@ -64,20 +54,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)
 × ;
-- (id)gnedText;
+- (id)_alignedText;
 - (void)_filterParameterLoader;
 - (void)ÚÛÜÝÞßàáâãP;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) _Bool isEmpty; // @synthesize isEmpty=_isEmpty;
 @property(retain, nonatomic) NSMutableDictionary *keyedMetrics; // @synthesize keyedMetrics=_keyedMetrics;
-@property(retain, nonatomic) TIKeyboardLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) NSMutableArray *sessionIds; // @synthesize sessionIds=_sessionIds;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

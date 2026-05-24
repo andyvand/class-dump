@@ -4,75 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBExternalAnalyticsConfig
 {
     NSString *_analyticsBaseUrl;
-    NSString *_analyticsId;
-    NSString *_eventQueryParameterName;
-    NSMutableArray *_proxyHostNames;
-    NSMutableArray *_queryParameterConfigs;
-    NSMutableArray *_vpnProfileNames;
-    _Bool _usesProxyProfile;
-    struct {
-        unsigned int usesProxyProfile:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)nil == (entryManager);
 - (_Bool);
 - (id);
 - (void);
+- (void)responseContentVersion;
 - (void);
-- (void);
-- (void);
+- (void)N15InputTranscoder10PlistBiMapIjNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)setAppFolderData:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (_Bool)RecipeHistoryObserver;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)ride:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (void)ationEnabledChannelsRefreshFrequency;
+- (void)notificationEnabledChannelsRefreshFrequency;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *analyticsBaseUrl; // @synthesize analyticsBaseUrl=_analyticsBaseUrl;
-@property(retain, nonatomic) NSString *analyticsId; // @synthesize analyticsId=_analyticsId;
-@property(retain, nonatomic) NSString *eventQueryParameterName; // @synthesize eventQueryParameterName=_eventQueryParameterName;
 @property(readonly, nonatomic) _Bool hasAnalyticsBaseUrl;
-@property(readonly, nonatomic) _Bool hasAnalyticsId;
-@property(readonly, nonatomic) _Bool hasEventQueryParameterName;
-@property(nonatomic) _Bool hasUsesProxyProfile;
-@property(retain, nonatomic) NSMutableArray *proxyHostNames; // @synthesize proxyHostNames=_proxyHostNames;
-@property(retain, nonatomic) NSMutableArray *queryParameterConfigs; // @synthesize queryParameterConfigs=_queryParameterConfigs;
-@property(nonatomic) _Bool usesProxyProfile; // @synthesize usesProxyProfile=_usesProxyProfile;
-@property(retain, nonatomic) NSMutableArray *vpnProfileNames; // @synthesize vpnProfileNames=_vpnProfileNames;
 
 @end
 

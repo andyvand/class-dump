@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface STSchemaSTGeneralSearchEndedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_catId;
-    NSString *_staticDialogId;
-    _Bool _hasLinkId;
-    _Bool _hasCatId;
-    _Bool _hasStaticDialogId;
 }
 
 - (id);
@@ -29,30 +24,24 @@
 - (void);
 - (void);
 - (id);
+- (void)showCDPEnableSheet:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)setiCloudDesktopAndDocumentsEnabled:(_Bool)arg1 withWindow:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)sendInvitationToContact:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)launchPrivacyLinks:withCallback: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (unsigned long long)setProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)ABMapsLaunchRequest;
+- (_Bool)ame);
+- (id)P;
 - (id);
 - (id)deleteLastQueryDecorationEventToPlanCreatedTime;
-- (id)ationTime;
-- (void)SISSOURCE_OSPREY_CACHED_SYNTHESIS;
+- (id)_hasQueryDecorationFetchDynamicEnumerationTime;
+- (void)TTSSYNTHESISSOURCE_OSPREY_CACHED_SYNTHESIS;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *catId; // @synthesize catId=_catId;
-@property(nonatomic) _Bool hasCatId; // @synthesize hasCatId=_hasCatId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasStaticDialogId; // @synthesize hasStaticDialogId=_hasStaticDialogId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *staticDialogId; // @synthesize staticDialogId=_staticDialogId;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol IASUnifiedProgressProtocol
+- (void)/;
+- (void);
 @end
 

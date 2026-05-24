@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, NSURL, UIImage;
+@class NSAttributedString, NSString;
 
 @interface MKMapAttribution
 {
     NSAttributedString *_string;
-    NSURL *_url;
-    NSURL *_plainTextFileURL;
-    UIImage *_providerImage;
-    NSString *_providerString;
-    NSString *_providerName;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)H;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)age;
+- (void)_sourceImage;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *plainTextFileURL; // @synthesize plainTextFileURL=_plainTextFileURL;
-@property(readonly, nonatomic) UIImage *providerImage; // @synthesize providerImage=_providerImage;
-@property(readonly, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
 @property(readonly, nonatomic) NSString *providerString; // @synthesize providerString=_providerString;
-@property(readonly, nonatomic) NSAttributedString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

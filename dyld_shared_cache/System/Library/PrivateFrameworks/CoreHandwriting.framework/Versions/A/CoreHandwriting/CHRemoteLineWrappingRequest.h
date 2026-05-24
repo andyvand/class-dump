@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface CHRemoteLineWrappingRequest
 {
     _Bool _enableCachingIfAvailable;
-    NSArray *_lineWrappableGroups;
-    NSDictionary *_options;
 }
 
-+ (_Bool);
-+ (Class)tangleFitToSquareLengthRatioThreshold;
++ (_Bool)_hideNonSelectedKnobs;
++ (Class)HWRRectangleFitToSquareLengthRatioThreshold;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)hData;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -29,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enableCachingIfAvailable; // @synthesize enableCachingIfAvailable=_enableCachingIfAvailable;
-@property(readonly, nonatomic) NSArray *lineWrappableGroups; // @synthesize lineWrappableGroups=_lineWrappableGroups;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

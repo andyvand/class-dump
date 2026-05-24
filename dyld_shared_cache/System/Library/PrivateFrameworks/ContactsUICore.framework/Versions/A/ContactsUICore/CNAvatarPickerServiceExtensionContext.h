@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNAvatarPickerServiceExtensionProtocol;
 
 @interface CNAvatarPickerServiceExtensionContext
@@ -12,26 +11,19 @@
     id <CNAvatarPickerServiceExtensionProtocol> _exportedObject;
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
+- (void)q@;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)hlightedProperties;
+- (void)shouldColorEmphasizeHighlightedProperties;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak id <CNAvatarPickerServiceExtensionProtocol> exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

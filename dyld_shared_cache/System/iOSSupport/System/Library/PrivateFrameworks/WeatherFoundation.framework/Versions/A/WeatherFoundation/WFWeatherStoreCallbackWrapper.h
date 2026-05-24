@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WFWeatherStoreCallbackWrapper
 {
     _Bool _executedCompletionBlock;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _requestType;
-    CDUnknownBlockType _forecastRetrievalCompletionBlock;
-    CDUnknownBlockType _aqiScaleRetrievalCompletionBlock;
 }
 
 - (void);
@@ -29,10 +25,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType aqiScaleRetrievalCompletionBlock; // @synthesize aqiScaleRetrievalCompletionBlock=_aqiScaleRetrievalCompletionBlock;
-@property(readonly, nonatomic) _Bool executedCompletionBlock; // @synthesize executedCompletionBlock=_executedCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType forecastRetrievalCompletionBlock; // @synthesize forecastRetrievalCompletionBlock=_forecastRetrievalCompletionBlock;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 @property(nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
 
 @end

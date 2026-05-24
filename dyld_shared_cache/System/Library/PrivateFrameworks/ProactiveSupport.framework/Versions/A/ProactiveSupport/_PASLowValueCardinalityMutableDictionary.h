@@ -9,7 +9,6 @@
 @interface _PASLowValueCardinalityMutableDictionary
 {
     NSMutableArray *_objectsAndKeys;
-    unsigned long long _count;
 }
 
 - (id);
@@ -17,10 +16,10 @@
 - (void);
 - (id);
 - (id);
+- (id)Ԇ;
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)#;
+- (void)setYear: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowUrgentAlarmPrintingDataModelSource
 {
     id store;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

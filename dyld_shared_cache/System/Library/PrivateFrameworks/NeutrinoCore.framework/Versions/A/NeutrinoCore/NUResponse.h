@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface NUResponse
 {
     id _result;
-    NSError *_error;
 }
 
 - (id);
@@ -17,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ameterEncodableP;
 - (id);
 - (id);
 - (void);
@@ -25,7 +22,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(retain) id result; // @synthesize result=_result;
 
 @end

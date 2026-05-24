@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AnalyticsWorkspace, DiagnosticCaseUsageAnalytics, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface DiagnosticStatisticsManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AnalyticsWorkspace *_workspace;
-    DiagnosticCaseUsageAnalytics *_caseUsageSpace;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -23,11 +21,11 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)reDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableApp_macOS.m:(id)arg1 50 :(id)arg2 Not supported on macOS;
 - (long long);
 - (id);
 - (void);

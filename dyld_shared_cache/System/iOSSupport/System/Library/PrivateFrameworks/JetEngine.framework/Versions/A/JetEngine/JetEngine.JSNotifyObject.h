@@ -12,7 +12,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)inlineUnifiedMessagePresenter;
 - (void)unsignedIntegerValue;
 
 @end

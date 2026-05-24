@@ -6,20 +6,15 @@
 
 #import <NewsCore/FCCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FCRefreshNotificationsForChannelsCommand : FCCommand
 {
     int _deviceDigestMode;
-    NSArray *_channelIDs;
-    NSArray *_paidChannelIDs;
-    NSString *_userID;
-    NSString *_deviceToken;
-    NSString *_storefrontID;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -28,7 +23,7 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (id);
@@ -39,11 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *channelIDs; // @synthesize channelIDs=_channelIDs;
-@property(nonatomic) int deviceDigestMode; // @synthesize deviceDigestMode=_deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
-@property(copy, nonatomic) NSArray *paidChannelIDs; // @synthesize paidChannelIDs=_paidChannelIDs;
-@property(copy, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
-@property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

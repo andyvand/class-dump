@@ -11,17 +11,13 @@
 @interface NSScriptValueTypeDescription : NSScriptTypeDescription
 {
     NSString *_name;
-    unsigned int _appleEventCode;
-    NSString *_objcClassName;
-    SEL _cachedObjcCreationMethodSelector;
-    _Bool _isHidden;
 }
 
 + (id);
 - (SEL);
 - (SEL);
 - (SEL);
-- (SEL);
+- (SEL);
 - (id);
 - (id);
 - (id);
@@ -31,8 +27,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)layoutWithLayoutTag: /* Error: Ran out of types for this method. */;
+- (_Bool)ImplEPN2LM22CompositeLanguageModelEjtE3$_0FjRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKN10applesauce2CF9StringRefEEEE;
 
 @end
 

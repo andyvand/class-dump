@@ -7,7 +7,6 @@
 @interface DMFPrioritizedPolicy
 {
     long long _priority;
-    long long _policy;
 }
 
 + (id);
@@ -16,14 +15,13 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (long long);
+- (_Bool)(;
+- (void)(;
 - (long long);
-- (_Bool);
-- (void);
-- (long long);
-- (long long);
+- (long long)3;
 
 // Remaining properties
-@property(nonatomic) long long policy; // @synthesize policy=_policy;
 @property(nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end

@@ -6,23 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDAssistantExperimentCounts, ODDSiriSchemaODDAssistantExperimentDimensions, ODDSiriSchemaODDAssistantExperimentTuples;
+@class ODDSiriSchemaODDAssistantExperimentDimensions;
 
 @interface ODDSiriSchemaODDAssistantExperimentDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantExperimentDimensions *_dimensions;
-    ODDSiriSchemaODDAssistantExperimentCounts *_counts;
-    ODDSiriSchemaODDAssistantExperimentTuples *_tuples;
-    NSArray *_turnIds;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
-    _Bool _hasTuples;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)헷;
 - (void);
 - (void);
 - (void);
@@ -40,7 +34,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -51,18 +45,11 @@
 × ;
 - (id)rsCount;
 - (id)startedOrChanged;
-- (id)ICRULE_REMINDERRULE;
-- (void)OCKEY;
+- (id)NLROUTERTRIGGEREDHEURISTICRULE_REMINDERRULE;
+- (void)PEGASUSSPORTNAME_HOCKEY;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantExperimentCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantExperimentDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(nonatomic) _Bool hasTuples; // @synthesize hasTuples=_hasTuples;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantExperimentTuples *tuples; // @synthesize tuples=_tuples;
-@property(copy, nonatomic) NSArray *turnIds; // @synthesize turnIds=_turnIds;
 
 @end
 

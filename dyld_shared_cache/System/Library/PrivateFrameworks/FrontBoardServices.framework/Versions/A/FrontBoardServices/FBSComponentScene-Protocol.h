@@ -5,5 +5,6 @@
 //
 
 @protocol FBSComponentScene
+- (void);
 @end
 

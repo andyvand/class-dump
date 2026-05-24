@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPhoto, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDIcon
 {
     PBUnknownFields *_unknownFields;
-    GEOPDPhoto *_image;
-    int _iconType;
-    _Bool _canBeDisplayedInPlaceCardHeader;
-    struct {
-        unsigned int has_iconType:1;
-        unsigned int has_canBeDisplayedInPlaceCardHeader:1;
-    } _flags;
 }
 
 - (id);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)codeAccuracyHint"b1"has_placeTypeHint"b1"has_resultProviderId"b1"has_supportCoordinatesOnlyRefinement"b1"read_unknownFields"b1"read_addressHint"b1"read_addressObjectHint"b1"read_formattedAddressLineHints"b1"read_locationHint"b1"read_mapsId"b1"read_placeNameHint"b1"wrote_anyField"b1};
-- (id)ror: /* Error: Ran out of types for this method. */;
+- (id)_establishHardLinkIfPossibleForResource:toResource:error: /* Error: Ran out of types for this method. */;
 - (id)ôf;
 - (void);
 

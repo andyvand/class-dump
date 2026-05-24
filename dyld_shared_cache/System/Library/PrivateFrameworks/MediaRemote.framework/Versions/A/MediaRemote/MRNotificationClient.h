@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSOrderedSet;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRNotificationClient
 {
     unsigned long long _registeredNowPlayingObservers;
-    NSObject<OS_dispatch_queue> *_customNotificationsQueue;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSOrderedSet *_nowPlayingNotifications;
-    NSOrderedSet *_routesChangedNotifications;
-    NSOrderedSet *_volumeControlNotifications;
-    NSOrderedSet *_externalScreenNotifications;
-    NSOrderedSet *_originNotifications;
-    NSOrderedSet *_supportedCommandsNotifications;
-    NSOrderedSet *_voiceInputNotifications;
-    NSOrderedSet *_errorNotifications;
-    NSMutableArray *_subscribedWakingPlayerPaths;
-    _Bool _receivesExternalScreenTypeChangedNotifications;
-    _Bool _receivesSupportedCommandsNotifications;
-    _Bool _receivesRoutesChangedNotifications;
-    _Bool _receivesVolumeControlNotifications;
-    _Bool _receivesOriginChangedNotifications;
-    _Bool _receivesPlaybackErrorNotifications;
-    _Bool _receivesVoiceInputRecordingStateNotifications;
 }
 
 + (id);
@@ -40,18 +21,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)lu);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
+- (void)is not in the users contacts, not eligible to receive availability subscription invitation.;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -65,14 +46,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue;
-@property(nonatomic) _Bool receivesExternalScreenTypeChangedNotifications; // @synthesize receivesExternalScreenTypeChangedNotifications=_receivesExternalScreenTypeChangedNotifications;
-@property(nonatomic) _Bool receivesOriginChangedNotifications; // @synthesize receivesOriginChangedNotifications=_receivesOriginChangedNotifications;
-@property(nonatomic) _Bool receivesPlaybackErrorNotifications; // @synthesize receivesPlaybackErrorNotifications=_receivesPlaybackErrorNotifications;
-@property(nonatomic) _Bool receivesRoutesChangedNotifications; // @synthesize receivesRoutesChangedNotifications=_receivesRoutesChangedNotifications;
-@property(nonatomic) _Bool receivesSupportedCommandsNotifications; // @synthesize receivesSupportedCommandsNotifications=_receivesSupportedCommandsNotifications;
-@property(nonatomic) _Bool receivesVoiceInputRecordingStateNotifications; // @synthesize receivesVoiceInputRecordingStateNotifications=_receivesVoiceInputRecordingStateNotifications;
-@property(nonatomic) _Bool receivesVolumeControlNotifications; // @synthesize receivesVolumeControlNotifications=_receivesVolumeControlNotifications;
-@property(readonly, nonatomic, getter=isRegisteredForNowPlayingNotifications) _Bool registeredForNowPlayingNotifications;
 
 @end
 

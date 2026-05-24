@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _GEOAggregateProgress
 {
     NSMutableArray *_observedChildren;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id)r:(long long)arg1;
+- (void)works/BiomeStreams.framework/Versions/A/BiomeStreams;
+- (_Bool)us code %@;
+- (id)setExclusiveSetIdentifier:(long long)arg1;
 - (void);
 
 @end

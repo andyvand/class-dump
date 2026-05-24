@@ -7,17 +7,6 @@
 @interface SoundAnalysis.SNAudioRecordingQueueScheduler
 {
     id id;
-    id eventHandlerQueue;
-    id eventHandlerQueueFundsSpent;
-    id eventHandlerQueueFundsEarned;
-    id eventHandlerQueueStopped;
-    id bufferHandler;
-    id interruptionHandler;
-    id transaction;
-    id recordFormat;
-    id lastAudioHeartbeatTime;
-    id lastProcessingHeartbeatTime;
-    id unhealthyBufferCount;
 }
 
 @end

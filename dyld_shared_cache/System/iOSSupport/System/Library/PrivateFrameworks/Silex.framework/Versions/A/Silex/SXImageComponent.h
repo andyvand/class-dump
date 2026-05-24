@@ -6,7 +6,7 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface SXImageComponent : SXComponent
 {
@@ -18,12 +18,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityCaption; // @dynamic accessibilityCaption;
-@property(readonly, nonatomic) NSString *caption; // @dynamic caption;
-@property(readonly, nonatomic) NSAttributedString *captionWithLocalizedRoleForSpeaking;
 @property(readonly, nonatomic) NSString *imageIdentifier; // @dynamic imageIdentifier;
-@property(readonly, nonatomic) _Bool shouldBeExposedToAssistiveTechnology;
-@property(readonly, nonatomic) _Bool userControllable; // @dynamic userControllable;
 
 @end
 

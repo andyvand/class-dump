@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, QCPatch;
-
 @interface QCRenderingManager
 {
     struct _QCExecutionArray *_patches;
-    struct _QCExecutionStride *_iterationStride;
-    struct _QCIterationStack *_iterationStack;
-    double _nextIdleTime;
-    double _previousExecutionTime;
-    NSDictionary *_previousArguments;
-    unsigned long long _previousPatchCount;
-    unsigned long long _subpatchesCount;
-    unsigned long long _iteration;
-    unsigned long long *_indices;
-    unsigned long long _indicesCapacity;
-    _Bool _canReset;
-    struct CGRect _dirtyRect;
-    struct CGRect _previousDirtyRect;
-    struct CGRect _dod;
-    QCPatch *_rootPatch;
-    _Bool _needsRender;
-    _Bool _isIterator;
-    void *_unused[4];
 }
 
-+ (void)ource;
++ (void)meshSource;
 - (double);
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);

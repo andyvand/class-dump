@@ -7,6 +7,7 @@
 @interface WeatherAppSupport.PrecipitationTotalHeroStringBuilder
 {
     id precipitationCalculator;
+    id;
 }
 
 @end

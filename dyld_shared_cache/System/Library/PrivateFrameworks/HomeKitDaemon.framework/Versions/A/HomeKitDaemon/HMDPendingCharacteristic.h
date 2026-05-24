@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicWriteRequest, NSObject;
-@protocol OS_dispatch_queue;
+@class HMDCharacteristicWriteRequest;
 
 __attribute__((visibility("hidden")))
 @interface HMDPendingCharacteristic
 {
     HMDCharacteristicWriteRequest *_writeRequest;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
-- (id);
-- (CDUnknownBlockType)ayloadForHome:notificationEnabled:characteristics:characteristicsErrorsMap: /* Error: Ran out of types for this method. */;
+- (id)MSPShareETAMessageQueueInitialIntervalKey;
+- (CDUnknownBlockType)notificationUpdateMessagePayloadForHome:notificationEnabled:characteristics:characteristicsErrorsMap: /* Error: Ran out of types for this method. */;
 - (id)orAccessoryFinder;
-- (void)tterBulletinRegistration;
+- (void)MKFMatterBulletinRegistration;
 
 // Remaining properties
-@property(readonly) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(readonly) HMDCharacteristicWriteRequest *writeRequest; // @synthesize writeRequest=_writeRequest;
 
 @end

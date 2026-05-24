@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache;
-
 @interface CNAvatarPickerExtensionDiscoveryManager
 {
     id _extensionMatchToken;
-    CNCache *_cache;
-    CNCache *_extensionViewCompletionHandlers;
 }
 
 + (id);
@@ -29,16 +25,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)(;
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNCache *cache; // @synthesize cache=_cache;
 @property(retain, nonatomic) id extensionMatchToken; // @synthesize extensionMatchToken=_extensionMatchToken;
-@property(retain, nonatomic) CNCache *extensionViewCompletionHandlers; // @synthesize extensionViewCompletionHandlers=_extensionViewCompletionHandlers;
 
 @end
 

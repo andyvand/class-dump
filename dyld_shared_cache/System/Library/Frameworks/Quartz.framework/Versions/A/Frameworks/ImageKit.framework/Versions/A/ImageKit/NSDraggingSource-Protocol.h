@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDraggingSession;
+
 @protocol NSDraggingSource
+- (unsigned long long)ntainsWebDomain:(NSDraggingSession *)arg1 ];
+
+@optional
+- (_Bool)entifier with error:(NSDraggingSession *)arg1 %{public}@;
+- (void)teWithDictionaryRepresentation:(NSDraggingSession *)arg1 inContext:(struct CGPoint)arg2 error:] /* Error: Ran out of types for this method. */;
+- (void)supportsPasscodeActivity;
+- (void)lastFamilyCheckinDate;
 @end
 

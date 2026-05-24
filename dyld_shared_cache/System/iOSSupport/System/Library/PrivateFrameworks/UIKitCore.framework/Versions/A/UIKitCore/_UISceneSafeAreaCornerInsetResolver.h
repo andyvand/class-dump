@@ -9,10 +9,10 @@
 }
 
 + (_Bool)7yvýÿ_pSgyScMYccGSg;
-- (struct _UICornerInsets);
-- (id);
+- (struct _UICornerInsets)=;
+- (id);
 - (id)ate"24;
-- (void)n;
+- (void)_preventSelectionViewActivation;
 
 @end
 

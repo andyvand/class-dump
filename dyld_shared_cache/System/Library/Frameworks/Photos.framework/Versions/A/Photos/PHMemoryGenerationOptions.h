@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSArray, NSDate, NSDictionary, PHPhotoLibrary;
-
 @interface PHMemoryGenerationOptions
 {
     unsigned long long _reason;
-    NSDate *_date;
-    CLLocation *_location;
-    NSArray *_peopleNames;
-    NSArray *_existingMemories;
-    NSArray *_blockedMemories;
-    NSDictionary *_extraParameters;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (void);
@@ -24,29 +15,22 @@
 - (id);
 - (id);
 - (void);
+- (id)"%;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)_updateSagaInProgressChangedHandler;
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)ction"24;
+- (id);
+- (id);
 - (void)king;
 - (id)rainingType = %d)));
 - (void)ÖÿÅ;
 - (void)ìÿeTpì;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *blockedMemories; // @synthesize blockedMemories=_blockedMemories;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSArray *existingMemories; // @synthesize existingMemories=_existingMemories;
-@property(retain, nonatomic) NSDictionary *extraParameters; // @synthesize extraParameters=_extraParameters;
-@property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSArray *peopleNames; // @synthesize peopleNames=_peopleNames;
-@property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 
 @end

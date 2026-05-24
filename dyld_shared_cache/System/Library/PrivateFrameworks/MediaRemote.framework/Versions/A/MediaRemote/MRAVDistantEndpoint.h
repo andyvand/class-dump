@@ -6,24 +6,15 @@
 
 #import <MediaRemote/MRAVEndpoint.h>
 
-@class MRAVDistantOutputDevice, MRDistantExternalDevice, NSArray, NSObject, NSString, NSXPCListenerEndpoint;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRAVDistantEndpoint : MRAVEndpoint
 {
     _Bool _canModifyGroupMembership;
-    long long _connectionType;
-    NSString *_localizedName;
-    NSString *_uniqueIdentifier;
-    MRDistantExternalDevice *_distantExternalDevice;
-    NSObject<OS_dispatch_queue> *_externalDeviceQueue;
-    NSArray *_distantOutputDevices;
-    NSArray *_distantPersonalOutputDevices;
-    MRAVDistantOutputDevice *_distantGroupLeader;
-    NSXPCListenerEndpoint *_externalDeviceListenerEndpoint;
 }
 
-+ (id);
++ (id)tentAcrossInvocations:associatedDataStore: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -40,14 +31,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)sInvocations:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -56,16 +47,11 @@
 - (id);
 - (_Bool)ate"32@"IDSMessageContext"40;
 - (id)PlaybackCustomDataQueueProtobuf",&,N,V_customData;
-- (void)ProductInfo;
+- (void)MRCBProductInfo;
 - (void)h;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MRDistantExternalDevice *distantExternalDevice; // @synthesize distantExternalDevice=_distantExternalDevice;
-@property(retain, nonatomic) MRAVDistantOutputDevice *distantGroupLeader; // @synthesize distantGroupLeader=_distantGroupLeader;
-@property(copy, nonatomic) NSArray *distantOutputDevices; // @synthesize distantOutputDevices=_distantOutputDevices;
-@property(copy, nonatomic) NSArray *distantPersonalOutputDevices; // @synthesize distantPersonalOutputDevices=_distantPersonalOutputDevices;
-@property(retain, nonatomic) NSXPCListenerEndpoint *externalDeviceListenerEndpoint; // @synthesize externalDeviceListenerEndpoint=_externalDeviceListenerEndpoint;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *externalDeviceQueue; // @synthesize externalDeviceQueue=_externalDeviceQueue;
 
 @end

@@ -7,10 +7,11 @@
 @class NSString;
 
 @protocol PGSocialGroupMember
+- (void)allScreens;
+- (long long);
+- (NSString *);
 
 // Remaining properties
-@property(readonly) NSString *contactIdentifier;
 @property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) NSString *name;
 @end
 

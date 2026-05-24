@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, _UILegibilitySettings;
+@class UIColor;
 
 @interface _UIVibrantSettings
 {
     long long _style;
-    UIColor *_referenceColor;
-    _UILegibilitySettings *_legibilitySettings;
-    double _referenceContrast;
-    UIColor *_tintColor;
-    UIColor *_shimmerColor;
-    UIColor *_chevronShimmerColor;
-    UIColor *_highlightColor;
-    UIColor *_highlightLimitingColor;
 }
 
-+ (id);
-- (id);
++ (id)S relay.;
+- (id)�;
 - (id);
 - (void);
 - (void);
@@ -32,26 +24,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)guid or original guid found in transfers for guid:(struct CGRect)arg1 %s attachmentPath:%s /* Error: Ran out of types for this method. */;
 - (long long);
 - (unsigned long long);
 - (_Bool)iceAccelerationDictationPromptDelegate>";
 - (void)textRangeAdjustmentInteraction:(id)arg1 selectionMoved:withTouchPoint: /* Error: Ran out of types for this method. */;
-- (id)orEnabled;
+- (id)_buttonGlyphColorEnabled;
 - (id);
 - (void)SDySS6©;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *chevronShimmerColor; // @synthesize chevronShimmerColor=_chevronShimmerColor;
-@property(retain, nonatomic) UIColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(retain, nonatomic) UIColor *highlightLimitingColor; // @synthesize highlightLimitingColor=_highlightLimitingColor;
-@property(readonly, nonatomic) _UILegibilitySettings *legibilitySettings; // @synthesize legibilitySettings=_legibilitySettings;
-@property(readonly, nonatomic) UIColor *referenceColor; // @synthesize referenceColor=_referenceColor;
-@property(readonly, nonatomic) double referenceContrast; // @synthesize referenceContrast=_referenceContrast;
-@property(retain, nonatomic) UIColor *shimmerColor; // @synthesize shimmerColor=_shimmerColor;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 @property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end

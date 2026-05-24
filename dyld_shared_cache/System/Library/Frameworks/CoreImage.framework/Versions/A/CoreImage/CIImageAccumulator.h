@@ -10,7 +10,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -25,11 +25,10 @@
 - (id);
 - (void);
 - (void);
-- (int): /* Error: Ran out of types for this method. */;
+- (int)setDrawEdgesFirst: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) struct CGRect extent;
-@property(readonly) int format;
 
 @end
 

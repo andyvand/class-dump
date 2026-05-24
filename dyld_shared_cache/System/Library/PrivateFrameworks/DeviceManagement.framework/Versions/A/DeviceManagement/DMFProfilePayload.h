@@ -9,11 +9,6 @@
 @interface DMFProfilePayload
 {
     NSString *_type;
-    NSString *_identifier;
-    long long _payloadVersion;
-    NSString *_displayName;
-    NSString *_organization;
-    NSString *_payloadDescription;
 }
 
 + (_Bool);
@@ -25,19 +20,14 @@
 - (long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)";
+- (id)S;
+- (void)_selectedResults;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *organization; // @synthesize organization=_organization;
-@property(readonly, copy, nonatomic) NSString *payloadDescription; // @synthesize payloadDescription=_payloadDescription;
-@property(readonly, nonatomic) long long payloadVersion; // @synthesize payloadVersion=_payloadVersion;
 @property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

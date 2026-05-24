@@ -8,15 +8,15 @@
 {
 }
 
-+ (struct CGSize);
++ (struct CGSize);
 + (struct CGImage *);
 + (id);
 + (struct CGImage *);
 + (struct CGImage *);
 + (_Bool);
 + (struct CGColor *);
-+ (id);
-+ (struct CGImage *);
++ (id);
++ (struct CGImage *)T(;
 + (id);
 + (struct CGColor *);
 + (id);

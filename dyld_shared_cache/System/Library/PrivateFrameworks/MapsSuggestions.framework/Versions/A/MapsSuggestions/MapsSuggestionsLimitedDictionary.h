@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MapsSuggestionsLimitedDictionary
 {
     unsigned long long _maxCapacity;
-    NSMutableDictionary *_dict;
-    NSMutableDictionary *_hits;
-    NSMutableArray *_order;
-    unsigned long long _totalHits;
-    unsigned long long _totalMisses;
 }
 
 - (unsigned long long);
@@ -23,20 +18,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)4;
 - (id);
 - (unsigned long long);
 - (void)4@?<v@?@"NSData"@"NSData"@"NSData"@"NSError">32;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

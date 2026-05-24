@@ -6,16 +6,11 @@
 
 #import <CoreHandwriting/CHGroupingPostprocessingStep.h>
 
-@class CHBottomUpStrokeGroupingStrategy, NSSet;
-@protocol CHStrokeProvider;
+@class NSSet;
 
 @interface CHSplitTextMathStep : CHGroupingPostprocessingStep
 {
     CDUnknownBlockType _additionalRecognitionBlock;
-    id <CHStrokeProvider> _strokeProvider;
-    CHBottomUpStrokeGroupingStrategy *_leftToRightBottomUpStrategy;
-    CHBottomUpStrokeGroupingStrategy *_rightToLeftBottomUpStrategy;
-    NSSet *_allowedSymbolsInTextPrefix;
 }
 
 - (void);

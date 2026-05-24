@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     unsigned int _chipID;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned int);
@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)slider:didChangeScrubbingRate: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 
 // Remaining properties

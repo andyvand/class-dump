@@ -6,12 +6,11 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNSmartCamObservation : VNObservation
 {
     NSArray *_smartCamprints;
-    NSString *_smartCamprintVersion;
 }
 
 + (id);
@@ -21,17 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithOperationIdentifier:(id)arg1 sourceItem:domainVersion:snapshotVersion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)vation;
+- (void)VNSaliencyImageObservation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *smartCamprintVersion; // @synthesize smartCamprintVersion=_smartCamprintVersion;
 @property(copy, nonatomic) NSArray *smartCamprints; // @synthesize smartCamprints=_smartCamprints;
 
 @end

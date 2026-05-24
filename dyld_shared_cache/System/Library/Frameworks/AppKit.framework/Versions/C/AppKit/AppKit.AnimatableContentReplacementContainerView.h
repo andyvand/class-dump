@@ -13,7 +13,7 @@
 
 - (id);
 - (struct CGSize);
-- (id)ngWidgetOn:(struct CGRect)arg1;
+- (id)_spaceToLeaveForFloatingTrailingWidgetOn:(struct CGRect)arg1;
 - (void)XBbÿ
 ðE;
 

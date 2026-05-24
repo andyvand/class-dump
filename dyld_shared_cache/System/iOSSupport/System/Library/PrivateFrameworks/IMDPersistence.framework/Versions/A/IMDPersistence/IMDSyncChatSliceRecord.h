@@ -9,22 +9,20 @@
 @interface IMDSyncChatSliceRecord
 {
     void serviceName;
-    void ckRecordID;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
+- (id)Bca@ cm;
 - (void)olver:Error! being called in a process that is not in IMDPersistenceAgent! /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *ckRecordID;
 @property(nonatomic, copy) NSString *serviceName;
 
 @end

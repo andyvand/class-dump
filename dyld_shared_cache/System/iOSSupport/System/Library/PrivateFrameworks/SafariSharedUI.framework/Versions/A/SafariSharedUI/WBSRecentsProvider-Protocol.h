@@ -7,9 +7,9 @@
 @class NSSet, WBSRecentsStore;
 
 @protocol WBSRecentsProvider
+- (NSSet *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *recentItems;
 @property(nonatomic) __weak WBSRecentsStore *recentsStore;
 @end
 

@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString, NSUUID;
-@protocol HMDAccessorySettingGroupDataSource;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingGroup
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_settings;
-    NSMutableSet *_groups;
-    HMDAccessorySettingGroup *_mediaSystemSettingGroup;
-    NSUUID *_parentIdentifier;
-    NSString *_keyPath;
-    id <HMDAccessorySettingGroupDataSource> _dataSource;
-    NSUUID *_identifier;
-    NSString *_name;
 }
 
-+ (id);
-+ (id);
++ (id)numberOfMeaningfulMoments;
++ (id)numberOfMatchedMessageGroups;
 + (_Bool)|^;
 + (id)/C;
-- (id);
-- (_Bool);
+- (id).MSPContainerPreventAssertionsForDuplicateStorageIdentifiers;
+- (_Bool)Server purgeExpiredBlockedTripIdentifiers];
 - (id);
 - (id);
 - (void);
@@ -43,15 +34,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setIncludeDuplicatesAlbums:(id)arg1;
+- (void)localizedSynonymsForHolidayName:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)~{;
 - (id);
 - (id);
-- (id);
+- (id)MediaAnalysisResultAttributesKey;
 - (id);
 - (id);
 - (id);
@@ -65,30 +56,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)!EùqÐ1Â0@ù
 × ;
-- (id)wareVersion;
+- (id)currentSoftwareVersion;
 - (id)¬ãþÿÿÿÿ;
 - (id);
 - (id)unt%d;
-- (id)ceProperties;
+- (id)serviceProperties;
 - (void)%v?;
 - (id)\s?;
 
 // Remaining properties
-@property __weak id <HMDAccessorySettingGroupDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *groups;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property __weak HMDAccessorySettingGroup *mediaSystemSettingGroup; // @synthesize mediaSystemSettingGroup=_mediaSystemSettingGroup;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
 @property(copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly, copy) NSArray *settings;
-@property(readonly) Class superclass;
 
 @end
 

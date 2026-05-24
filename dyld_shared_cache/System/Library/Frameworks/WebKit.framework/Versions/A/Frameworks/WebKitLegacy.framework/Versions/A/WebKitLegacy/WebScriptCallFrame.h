@@ -9,14 +9,13 @@
 @interface WebScriptCallFrame
 {
     WebScriptCallFramePrivate *_private;
-    id _userInfo;
 }
 
+- (id)j;;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)c}@] Failed to determine dialog request.;
 - (void);
 - (id)$Aù'°1Â0@ù
 × ;

@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTL4ToolsCommandEncoder.h>
 
-@class NSString;
-@protocol MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer;
+@protocol MTL4ArgumentTable;
 
 @interface MTL4ToolsMachineLearningCommandEncoder : MTL4ToolsCommandEncoder
 {
@@ -27,17 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandAllocator> commandAllocator;
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
 @property(readonly, nonatomic) id <MTL4ArgumentTable> currentArgumentTable; // @synthesize currentArgumentTable=_currentArgumentTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

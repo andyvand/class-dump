@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXMemoriesFeedLayoutMetrics;
-
 @interface PXMemoriesFeedLayoutGenerator
 {
     _Bool _includeDateHeader;
-    _Bool _isFirstHeader;
 }
 
 - (void);
@@ -20,8 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool includeDateHeader; // @synthesize includeDateHeader=_includeDateHeader;
-@property(nonatomic) _Bool isFirstHeader; // @synthesize isFirstHeader=_isFirstHeader;
-@property(copy, nonatomic) PXMemoriesFeedLayoutMetrics *metrics; // @dynamic metrics;
 
 @end
 

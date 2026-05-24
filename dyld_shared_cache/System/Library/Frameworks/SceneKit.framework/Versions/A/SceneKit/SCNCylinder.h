@@ -9,11 +9,6 @@
 @interface SCNCylinder : SCNGeometry
 {
     double _cylinderradius;
-    double _cylinderheight;
-    double _cylinderradialSpan;
-    long long _cylinderheightSegmentCount;
-    long long _cylinderradialSegmentCount;
-    long long _cylinderprimitiveType;
 }
 
 + (id);
@@ -25,7 +20,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -144,9 +139,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @property(nonatomic) double radius;
 
 @end

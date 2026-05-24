@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSLocationCache, NSArray, NSObject, NSString;
-@protocol GEOMapServiceTicket, OS_os_log;
+@class NSArray;
 
 @interface CLSLocationQueryPerformer
 {
     _Bool _isCancelled;
-    NSArray *_geoLocations;
-    id <GEOMapServiceTicket> _ticket;
-    NSArray *_regions;
-    double _precision;
-    NSObject<OS_os_log> *_loggingConnection;
-    CLSLocationCache *_locationCache;
-    CDStruct_95c2efd7 _statistics;
 }
 
-+ (id);
++ (id)w;
 + (unsigned long long);
 + (double);
 - (_Bool);
@@ -31,35 +23,21 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)__AUTH_CONST;
 - (void);
-- (CDStruct_95c2efd7);
+- (CDStruct_889e84b8);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *geoLocations; // @synthesize geoLocations=_geoLocations;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) CLSLocationCache *locationCache; // @synthesize locationCache=_locationCache;
-@property(nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(nonatomic) double precision; // @synthesize precision=_precision;
-@property(readonly, copy, nonatomic) NSArray *regions; // @synthesize regions=_regions;
-@property(nonatomic) CDStruct_95c2efd7 statistics; // @synthesize statistics=_statistics;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <GEOMapServiceTicket> ticket; // @synthesize ticket=_ticket;
 
 @end
 

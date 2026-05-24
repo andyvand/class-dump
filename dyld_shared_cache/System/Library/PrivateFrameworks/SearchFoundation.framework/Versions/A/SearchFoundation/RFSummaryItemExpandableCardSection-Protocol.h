@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFSummaryItemAttribution, RFTextProperty, RFVisualProperty;
+@class NSDictionary, RFTextProperty;
 
 @protocol RFSummaryItemExpandableCardSection
+- (void);
+- (void)@;
+- (RFTextProperty *)_isDisclosing;
+- (void);
+- (NSDictionary *);
 
 // Remaining properties
-@property(retain, nonatomic) RFSummaryItemAttribution *attribution;
-@property(retain, nonatomic) RFTextProperty *attribution_caveat;
-@property(nonatomic) _Bool attribution_ignores_expansion;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *expanding_component_content;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (void)t map for chat with chatGUID:(id)arg1 %s;
+- (_Bool)MessageReceivedMarkUnreadRequest;
+- (id)pted, ignoring;
+- (void)%@/%@;
+- (_Bool)no result cached yet?;
 - (void);
 - (id)ð!è@ùÑ[°1Â0@ù
 × ;

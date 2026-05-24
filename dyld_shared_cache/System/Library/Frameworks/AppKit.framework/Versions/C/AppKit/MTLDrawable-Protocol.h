@@ -5,12 +5,11 @@
 //
 
 @protocol MTLDrawable
+- (double);
 - (unsigned long long)Ô ;
-- (void)edRange;
-- (void);
+- (void)_previousSelectedRange;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long drawableID;
 @property(readonly, nonatomic) double presentedTime;
 @end
 

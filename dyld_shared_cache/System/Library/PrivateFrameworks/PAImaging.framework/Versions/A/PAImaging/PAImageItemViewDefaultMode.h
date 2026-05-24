@@ -6,15 +6,11 @@
 
 #import <PAImaging/PAImageItemViewMode.h>
 
-@class NSString, PAImageType, PAMultiLevelImage;
+@class NSString, PAImageType;
 
 @interface PAImageItemViewDefaultMode : PAImageItemViewMode
 {
     NSString *_targetKey;
-    _Bool _isTransitioningFromOtherMode;
-    PAMultiLevelImage *_lastValidImage;
-    _Bool _allAssetClientsMarkedReady;
-    PAImageType *_imageType;
 }
 
 + (id);
@@ -22,12 +18,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)&;
 - (void);
 - (id);
 - (_Bool);

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAMPPhotoInfoProvider, GEODefaultPhotoInfoProvider, NSArray, NSString;
+@class NSArray;
 @protocol GEOPhotoInfoProvider;
 
 __attribute__((visibility("hidden")))
 @interface GEOPhotoInfoSource
 {
     NSArray *_originalPhotoContent;
-    GEOAMPPhotoInfoProvider *_ampPhotoInfoProvider;
-    GEODefaultPhotoInfoProvider *_defaultPhotoInfoProvider;
 }
 
-- (double);
+- (double)Q16Q24;
 - (id);
 - (id);
 - (id);
@@ -24,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allPhotoInfoProviders;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <GEOPhotoInfoProvider> principalPhotoInfoProvider;
-@property(readonly) Class superclass;
 
 @end
 

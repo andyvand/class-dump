@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface PXOneUpSharePlayAsset
 {
     _Bool _isSpatialPresentation;
-    short _spatialMediaType;
-    NSString *_uuid;
-    long long _mediaType;
-    unsigned long long _mediaSubtypes;
-    long long _playbackStyle;
-    unsigned long long _pixelWidth;
-    unsigned long long _pixelHeight;
-    double _duration;
-    NSNumber *_hdrGain;
-    NSNumber *_focalLength;
-    NSNumber *_focalLengthIn35mm;
-    NSString *_localizedGeoDescription;
-    NSDate *_creationDate;
-    CDStruct_1b6d18a9 _photoIrisStillDisplayTime;
-    CDStruct_1b6d18a9 _photoIrisVideoDuration;
 }
 
 - (void);
@@ -44,7 +29,7 @@
 - (short);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (struct CGRect);
 - (long long);
 - (CDStruct_1b6d18a9);
@@ -57,24 +42,24 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)?�;
 - (float);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)R5;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
 - (double);
-- (void);
+- (void)ANFIssueCoverViewProvider;
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -82,8 +67,8 @@
 - (_Bool);
 - (_Bool)}{CGSize=dd}}^v}312@"<NSObject>"504;
 - (void)24@0:(id)arg1 8@"PXPhotosContentInlinePlaybackController"16;
-- (id)ctionList;
-- (_Bool)ctRatio;
+- (id)px_fetchRootProjectCollectionList;
+- (_Bool)buildingBlockAspectRatio;
 - (id);
 - (id)en (probably an unbalanced call):%@ /* Error: Ran out of types for this method. */;
 - (id)nForPlacement(PXCPLCloudQuotaConciseSourcePlacement);
@@ -96,101 +81,6 @@
 - (double)%>;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect acceptableCropRect;
-@property(readonly, nonatomic) double aspectRatio;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) float audioScore;
-@property(readonly, nonatomic) unsigned long long burstSelectionTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) long long compactSCSensitivityAnalysis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) Class defaultImageProviderClass;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) struct CGRect faceAreaRect;
-@property(readonly, nonatomic, getter=isFavorite) _Bool favorite;
-@property(readonly, nonatomic) NSData *fetchColorNormalizationData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(retain, nonatomic) NSNumber *focalLength; // @synthesize focalLength=_focalLength;
-@property(retain, nonatomic) NSNumber *focalLengthIn35mm; // @synthesize focalLengthIn35mm=_focalLengthIn35mm;
-@property(readonly, nonatomic) _Bool hasPeopleSceneMidOrGreaterConfidence;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *hdrGain; // @synthesize hdrGain=_hdrGain;
-@property(readonly, nonatomic) NSDate *importDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R,N
-
-@property(readonly, nonatomic) _Bool isAutoPlaybackEligibilityEstimated;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isContentAnalyzedAsPreviewable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isEligibleForAutoPlayback;
-@property(readonly, nonatomic) _Bool isInCloud;
-@property(readonly, nonatomic) _Bool isInSharedLibrary;
-@property(readonly, nonatomic) _Bool isSpatialMedia;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool isSpatialPresentation; // @synthesize isSpatialPresentation=_isSpatialPresentation;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 livePhotoStillDisplayTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{?=qiIq},?,R,N
-
-@property(readonly, nonatomic) CDStruct_1b6d18a9 livePhotoVideoDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{?=qiIq},?,R,N
-
-@property(readonly, nonatomic) NSDate *localCreationDate;
-@property(retain, nonatomic) NSString *localizedGeoDescription; // @synthesize localizedGeoDescription=_localizedGeoDescription;
-@property(nonatomic) unsigned long long mediaSubtypes; // @synthesize mediaSubtypes=_mediaSubtypes;
-@property(nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) _Bool needsSensitivityProtection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long originalFileSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(nonatomic) CDStruct_1b6d18a9 photoIrisStillDisplayTime; // @synthesize photoIrisStillDisplayTime=_photoIrisStillDisplayTime;
-@property(nonatomic) CDStruct_1b6d18a9 photoIrisVideoDuration; // @synthesize photoIrisVideoDuration=_photoIrisVideoDuration;
-@property(nonatomic) unsigned long long pixelHeight; // @synthesize pixelHeight=_pixelHeight;
-@property(nonatomic) unsigned long long pixelWidth; // @synthesize pixelWidth=_pixelWidth;
-@property(nonatomic) long long playbackStyle; // @synthesize playbackStyle=_playbackStyle;
-@property(readonly, nonatomic) unsigned short playbackVariation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TS,?,R,N
-
-@property(readonly, nonatomic) struct CGRect preferredCropRect;
-@property(readonly, nonatomic) _Bool representsBurst;
-@property(readonly, nonatomic) unsigned long long sensitivityAnalysisState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(nonatomic) short spatialMediaType; // @synthesize spatialMediaType=_spatialMediaType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long thumbnailIndex;
-@property(readonly, nonatomic) unsigned long long thumbnailVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 @property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

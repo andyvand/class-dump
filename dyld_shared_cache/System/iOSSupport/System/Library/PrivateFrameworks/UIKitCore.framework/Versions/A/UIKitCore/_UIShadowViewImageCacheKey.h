@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _UIShadowViewImageCacheKey
 {
     double _scale;
-    double _size;
-    unsigned long long _options;
 }
 
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool)={CGPoint=dd}{CGSize=dd}}48;
-- (_Bool)ationEventToUIHost:(id)arg1 withOptionalObject: /* Error: Ran out of types for this method. */;
-- (id)onfiguration:(double)arg1;
-- (id)ment;
+- (_Bool)forwardDictationEventToUIHost:(id)arg1 withOptionalObject: /* Error: Ran out of types for this method. */;
+- (id)_updateFromPreviousConfiguration:(double)arg1;
+- (id)_accumulatedMovement;
 
 @end
 

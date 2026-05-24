@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSSet, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistryCoreDataAdapter
@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id)mutableData;
+- (id)minimalStrategyIdentifiers;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -42,43 +42,43 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -87,24 +87,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)shadowSrcBlue;
 - (id)!°DùñÐ1Â0@ù
 × ;
 - (void)any;
 
 // Remaining properties
-@property(readonly, copy) NSSet *actionSetRegistrations;
-@property(readonly, copy) NSSet *characteristicRegistrations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSSet *enabledCharacteristicRegistrations;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSSet *mediaRegistrations;
-@property(readonly) Class superclass;
 
 @end
 

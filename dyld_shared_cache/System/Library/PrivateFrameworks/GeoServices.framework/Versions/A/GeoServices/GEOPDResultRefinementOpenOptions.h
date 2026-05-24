@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementTime, GEOPDResultRefinementToggle, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementOpenOptions
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayName;
-    GEOPDResultRefinementTime *_openAt;
-    GEOPDResultRefinementToggle *_openNow;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayName:1;
-        unsigned int read_openAt:1;
-        unsigned int read_openNow:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)_voiceIdentificationTraining_allowsWithoutResultCandidate;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)o;
+- (id);
 - (id)@"GEORPRatingValue";
-- (id)notifyOpportunisticManifestUpdateCompletionHandlers: /* Error: Ran out of types for this method. */;
+- (id)_notifyOpportunisticManifestUpdateCompletionHandlers: /* Error: Ran out of types for this method. */;
 - (id)Do;
 - (void);
 

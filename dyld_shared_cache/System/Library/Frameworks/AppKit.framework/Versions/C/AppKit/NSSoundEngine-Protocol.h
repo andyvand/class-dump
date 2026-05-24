@@ -5,14 +5,17 @@
 //
 
 @protocol NSSoundEngine
+- (void)local0;
+- (void)te failed;
+- (_Bool)g was NULL;
+- (double)_deviceFormatedForContentProtection;
 - (id)rderedHasBeenSet"b1"backgroundStyleIsEmphasized"b1};
-- (void)tViewProviderForTextParagraphAnchoredAttachment:(double)arg1;
+- (void)textAttachmentViewProviderForTextParagraphAnchoredAttachment:(double)arg1;
 - (_Bool)activateUsingEvent: /* Error: Ran out of types for this method. */;
-- (double)nedController;
+- (double)_retainedController;
 - (_Bool);
 
 // Remaining properties
-@property double currentTime;
 @property(readonly) double duration;
 @end
 

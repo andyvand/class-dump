@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 __attribute__((visibility("hidden")))
 @interface DDScannerObject
 {
@@ -44,14 +42,10 @@ __attribute__((visibility("hidden")))
         struct __CFArray *_field30;
         struct __CFArray *_field31;
     } *_scanner;
-    int _type;
-    _Bool _hasBasicType;
-    long long _jobIdentifier;
-    NSXPCConnection *_connectionToService;
 }
 
 - (void);
-- (void);
+- (void)fetchUserActivityWithUUID:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

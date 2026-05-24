@@ -16,8 +16,8 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)h:(id)arg1 y;
+- (void)16@0:(id)arg1 8;
 - (void)AU°!TEùñ^Ð1Â0@ù
 × ;
 

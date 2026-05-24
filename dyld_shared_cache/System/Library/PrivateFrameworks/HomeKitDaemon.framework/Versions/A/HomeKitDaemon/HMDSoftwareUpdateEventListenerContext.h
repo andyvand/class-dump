@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMSoftwareUpdateDescriptor, NSString;
-@protocol HMELastEventStoreReadHandle, HMESubscriptionProviding;
+@class HMDAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdateEventListenerContext
 {
     HMDAccessory *_accessory;
-    id <HMESubscriptionProviding> _subscriptionProvider;
-    id <HMELastEventStoreReadHandle> _eventStoreReadHandle;
 }
 
 + (id)ÚLÿð÷ñÐB;
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)t:(id)arg1 %{private}@;
 - (id);
 - (id);
 - (id);
-- (id)hangedProperties;
+- (id)changedProperties;
 - (void)mary Address:%@, Additional MAC Addresses:%@> /* Error: Ran out of types for this method. */;
 - (void)pt>;
 
 // Remaining properties
 @property(readonly) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMELastEventStoreReadHandle> eventStoreReadHandle; // @synthesize eventStoreReadHandle=_eventStoreReadHandle;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMSoftwareUpdateDescriptor *softwareUpdateDescriptorForLastEvent;
-@property(readonly) long long softwareUpdateStatusForLastEvent;
-@property(readonly) id <HMESubscriptionProviding> subscriptionProvider; // @synthesize subscriptionProvider=_subscriptionProvider;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *topicForSoftwareUpdateDescriptor;
 
 @end
 

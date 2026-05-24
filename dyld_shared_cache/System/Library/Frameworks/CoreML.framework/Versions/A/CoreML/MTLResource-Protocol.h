@@ -5,9 +5,13 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLHeap;
 
 @protocol MTLResource
+- (unsigned long long)!;
+- (NSString *)0;
+- (unsigned long long)�;
+- (void)q;
 - (unsigned long long)ÀZ¬ÿÿÿÿÿ;
 - (unsigned long long)lxäp¨
 d«Ô«
@@ -21,14 +25,6 @@ v[	ò¶[ú&XÓ3È´/îÚ÷ÁO^ZvýõJ¾æÖ¡õÀçF.OÖ /* Error: Ran out 
 - (id <MTLHeap>);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

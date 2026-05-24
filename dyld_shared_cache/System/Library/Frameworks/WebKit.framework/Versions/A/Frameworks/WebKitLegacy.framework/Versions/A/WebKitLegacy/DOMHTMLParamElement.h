@@ -12,20 +12,17 @@
 {
 }
 
-- (void);
+- (void)AMSSQLiteSchemaMigration;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!S;
 - (id);
 - (void);
-- (void);
+- (void)ioSurface!;
 
 // Remaining properties
 @property(copy) NSString *name;
-@property(copy) NSString *type;
-@property(copy) NSString *value;
-@property(copy) NSString *valueType;
 
 @end
 

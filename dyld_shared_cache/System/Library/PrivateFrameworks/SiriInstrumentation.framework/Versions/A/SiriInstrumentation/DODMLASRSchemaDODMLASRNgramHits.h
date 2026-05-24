@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface DODMLASRSchemaDODMLASRNgramHits : SISchemaInstrumentationMessage
 {
@@ -20,20 +20,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)btParmPairModeOn;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)FERENCESchemaINFERENCENotebookAppSelectionTrainingIndependentSignals";
-- (id)DFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel;
+- (id)ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel;
 - (id)`"";
 - (void)x0·ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hits; // @synthesize hits=_hits;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSData, NSString, NSURL;
 
 @protocol SFRequestAppClipInstallCommand
+- (NSString *)checkResourceIsReachableAndReturnError: /* Error: Ran out of types for this method. */;
+- (NSData *);;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSURL *url;
 @end
 

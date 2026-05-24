@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow, NSWindowController, VCUIBadgedTextOverlayController;
+@class NSWindow;
 
 @interface SOSelectionOverlayManager
 {
     NSWindow *_textSelectionWindow;
-    NSWindowController *_textSelectionWindowController;
-    VCUIBadgedTextOverlayController *_correctionsViewController;
-    NSString *_selectedString;
 }
 
 + (id);
 + (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -30,17 +27,7 @@
 - (id);
 
 // Remaining properties
-@property VCUIBadgedTextOverlayController *correctionsViewController; // @synthesize correctionsViewController=_correctionsViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property NSString *selectedString; // @synthesize selectedString=_selectedString;
-@property(readonly) Class superclass;
 @property NSWindow *textSelectionWindow; // @synthesize textSelectionWindow=_textSelectionWindow;
-@property NSWindowController *textSelectionWindowController; // @synthesize textSelectionWindowController=_textSelectionWindowController;
 
 @end
 

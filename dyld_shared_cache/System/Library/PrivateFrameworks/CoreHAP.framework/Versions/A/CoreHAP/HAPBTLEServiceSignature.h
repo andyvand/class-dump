@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HAPBTLEServiceSignature
 {
     _Bool _authenticated;
-    NSUUID *_serviceType;
-    NSNumber *_serviceInstanceID;
-    unsigned long long _serviceProperties;
-    NSArray *_linkedServices;
 }
 
 - (id);
@@ -22,14 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)parameterListAtIndex: /* Error: Ran out of types for this method. */;
 - (void)"HAPHTTPClient"16@"HMFNetAddress"24;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAuthenticated) _Bool authenticated; // @synthesize authenticated=_authenticated;
-@property(readonly, nonatomic) NSArray *linkedServices; // @synthesize linkedServices=_linkedServices;
-@property(readonly, copy, nonatomic) NSNumber *serviceInstanceID; // @synthesize serviceInstanceID=_serviceInstanceID;
-@property(readonly, nonatomic) unsigned long long serviceProperties; // @synthesize serviceProperties=_serviceProperties;
 @property(readonly, copy, nonatomic) NSUUID *serviceType; // @synthesize serviceType=_serviceType;
 
 @end

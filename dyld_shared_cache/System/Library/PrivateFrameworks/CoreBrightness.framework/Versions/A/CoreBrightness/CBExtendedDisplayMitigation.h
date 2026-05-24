@@ -11,13 +11,12 @@ __attribute__((visibility("hidden")))
 @interface CBExtendedDisplayMitigation
 {
     NSObject<OS_os_log> *_logHandle;
-    _Bool _isActive;
 }
 
-+ (_Bool);
++ (_Bool)l;
 - (float);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 

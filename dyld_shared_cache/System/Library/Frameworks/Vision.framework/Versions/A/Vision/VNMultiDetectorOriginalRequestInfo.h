@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface VNMultiDetectorOriginalRequestInfo
 {
     NSString *_originatingRequestSpecifierKey;
-    unsigned long long _originalRequestResultsIndex;
 }
 
 + (id);
 + (id)*Ð1Â0@ù
 × ;
-+ (id)ror:(id)arg1;
++ (id)defaultFilterThresholdsForOptions:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)AppleNetParser;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long originalRequestResultsIndex; // @synthesize originalRequestResultsIndex=_originalRequestResultsIndex;
 @property(readonly, nonatomic) NSString *originatingRequestSpecifierKey; // @synthesize originatingRequestSpecifierKey=_originatingRequestSpecifierKey;
 
 @end

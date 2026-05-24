@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHSearchQueryQUToken, PHSearchSuggestion;
+@class PHSearchSuggestion;
 
 @interface PHSearchQueryAnnotation
 {
     PHSearchSuggestion *_suggestion;
-    PHSearchQueryQUToken *_QUToken;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)?׀;
 + (_Bool);
 + (id);
 + (id);
@@ -24,23 +23,21 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)ipant=%@ customEvent=%@>;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id)ers:context:changesError: /* Error: Ran out of types for this method. */;
+- (id)_findNonUserVerifiedGroupUUIDWithMembers:context:changesError: /* Error: Ran out of types for this method. */;
 - (void)e;
 
 // Remaining properties
-@property(readonly, nonatomic) PHSearchQueryQUToken *QUToken; // @synthesize QUToken=_QUToken;
-@property(readonly, nonatomic) unsigned long long ambiguityType;
 @property(retain, nonatomic) PHSearchSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 
 @end

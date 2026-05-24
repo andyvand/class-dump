@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol IDSXPCGroupSessionKeyValueDelivery;
+@class NSString;
 
 @interface IDSGroupSessionKeyValueDelivery
 {
     NSString *_sessionID;
-    CDUnknownBlockType _setupXPCCompletionHandler;
-    double _setupTime;
-    id <IDSXPCGroupSessionKeyValueDelivery> _xpc;
-    NSMutableArray *_deliveryHandlers;
 }
 
 + (void);
 + (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void)C;
 - (void);
 - (void);
 - (id);

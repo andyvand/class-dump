@@ -6,21 +6,12 @@
 
 #import <UIKitCore/_UIFindNavigatorViewLayout.h>
 
-@class NSLayoutConstraint, UISegmentedControl, UIStackView, UISwitch, UIView;
+@class UIStackView, UISwitch;
 
 __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorViewLayout_Mac : _UIFindNavigatorViewLayout
 {
     UIStackView *_verticalStackView;
-    UIStackView *_findStackView;
-    UIStackView *_replaceStackView;
-    UIStackView *_firstLineControlsStackView;
-    UIStackView *_secondLineControlsStackView;
-    UIView *_doneButtonSpacer;
-    NSLayoutConstraint *_lineEqualWidthsConstraint;
-    UISwitch *_replaceToggleSwitch;
-    UISegmentedControl *_nextPreviousSegmentedControl;
-    UISegmentedControl *_replaceReplaceAllSegmentedControl;
 }
 
 - (_Bool);
@@ -28,19 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)sizeOfAssetForRecord: /* Error: Ran out of types for this method. */;
+- (id)simulateMessageReceive:serviceName:groupID:handles:sender: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
+- (id)postSyncStateToRTC:category:reportDictionary: /* Error: Ran out of types for this method. */;
+- (void)0;
 - (struct CGSize)Ôa°!PDù1dð1Â0@ù
 × ;
-- (id)ck;
+- (id)_createFeatureBlock;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UISegmentedControl *nextPreviousSegmentedControl; // @synthesize nextPreviousSegmentedControl=_nextPreviousSegmentedControl;
-@property(retain, nonatomic) UISegmentedControl *replaceReplaceAllSegmentedControl; // @synthesize replaceReplaceAllSegmentedControl=_replaceReplaceAllSegmentedControl;
 @property(retain, nonatomic) UISwitch *replaceToggleSwitch; // @synthesize replaceToggleSwitch=_replaceToggleSwitch;
 
 @end

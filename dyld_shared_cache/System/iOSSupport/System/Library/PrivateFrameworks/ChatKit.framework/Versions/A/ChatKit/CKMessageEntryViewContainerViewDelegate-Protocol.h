@@ -5,5 +5,6 @@
 //
 
 @protocol CKMessageEntryViewContainerViewDelegate
+- (void)D,N;
 @end
 

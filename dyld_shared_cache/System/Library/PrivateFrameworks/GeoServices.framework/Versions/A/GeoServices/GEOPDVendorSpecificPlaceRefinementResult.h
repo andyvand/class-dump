@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PBUnknownFields *_unknownFields;
 }
 
-- (id);
-- (void);
+- (id)@;
+- (void)48@0:(id)arg1 8@16@"NSString"24@"NSString"32@?<v@?@"NSError">40;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)@60@0:(struct _NSZone *)arg1 8{?=dd}16d32@40@48i56;
-- (id)ldMatchNoQueryStateSuggestions;
+- (id)_shouldMatchNoQueryStateSuggestions;
 - (id)(à\tT`¢¤<¦Ø§ü©;
 - (void);
 

@@ -4,17 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UARPAccessory;
+@class NSError, NSString, UARPAccessory;
 
 @protocol UARPControllerDelegateProtocol
 
 @optional
+- (void);
+- (void)initWithCoordinates:(UARPAccessory *)arg1 subType:(NSString *)arg2 motion:(NSError *)arg3 swipeMask:progress:positionX:positionY:velocityX:velocityY:velocityZ:flags:flavor:withEvent: /* Error: Ran out of types for this method. */;
+- (void)(;
+- (void)synchronizeInputs;
+- (void)ondition is set to None;
+- (void)4;
 - (void)1Â0@ù
 × ;
 - (void)!àð!ÀFù°1Â0@ù
 × ;
-- (void)aitingOperations;
-- (void)eLostHandler:(UARPAccessory *)arg1;
+- (void)waitingOperations;
+- (void)setDeviceLostHandler:(UARPAccessory *)arg1;
 - (void)erInfo;
 - (void)$;
 - (void)itted migration test failed with result %lu items %@;

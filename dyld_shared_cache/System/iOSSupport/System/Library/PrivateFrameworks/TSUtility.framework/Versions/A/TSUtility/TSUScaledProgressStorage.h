@@ -9,8 +9,8 @@
     double mMaxValue;
 }
 
-- (double);
-- (void);
+- (double);
+- (void)p_KeyboardWillChangeFrame:(double)arg1;
 
 // Remaining properties
 @property double maxValue; // @synthesize maxValue=mMaxValue;

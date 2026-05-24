@@ -6,14 +6,11 @@
 
 #import <Vision/VNRecognizedText.h>
 
-@class CROutputRegion, NSArray, NSAttributedString;
+@class CROutputRegion, NSAttributedString;
 
 @interface VNRecognizedTextBlock : VNRecognizedText
 {
     CROutputRegion *_crOutputRegion;
-    unsigned long long _requestRevision;
-    NSAttributedString *_attributedString;
-    NSArray *_baselines;
 }
 
 + (_Bool);
@@ -22,21 +19,19 @@
 - (id);
 - (id);
 - (id);
+- (id)gatherErrorsForInteractions:(id)arg1 evaluationObjects:suppressionDelegate: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)S;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (float);
+- (float)jumpToMainScheduler;
 - (void)(retain count = %ld, type = %u). Error %d;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, copy, nonatomic) NSArray *baselines; // @synthesize baselines=_baselines;
-@property(readonly, nonatomic, getter=getRecognizedLanguages) NSArray *recognizedLanguages;
 
 @end
 

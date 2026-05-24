@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSPersistentStoreCoordinator, NSString;
-@protocol CNCDIOSLegacyIdentifierRegistration;
+@class NSPersistentStoreCoordinator;
 
 @interface CNCDInMemoryPersistenceBackend
 {
     NSPersistentStoreCoordinator *_coordinator;
-    NSMutableArray *_containers;
-    id <CNCDIOSLegacyIdentifierRegistration> _iOSLegacyIdentifierRegistrar;
-    NSArray *_accounts;
 }
 
 - (void);
@@ -37,17 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
-@property(retain, nonatomic) NSMutableArray *containers; // @synthesize containers=_containers;
 @property(retain, nonatomic) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <CNCDIOSLegacyIdentifierRegistration> iOSLegacyIdentifierRegistrar; // @synthesize iOSLegacyIdentifierRegistrar=_iOSLegacyIdentifierRegistrar;
-@property(readonly) Class superclass;
 
 @end
 

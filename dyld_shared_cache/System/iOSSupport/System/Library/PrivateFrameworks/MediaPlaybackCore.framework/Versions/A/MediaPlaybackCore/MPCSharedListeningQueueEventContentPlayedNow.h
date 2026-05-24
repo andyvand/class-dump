@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelGenericObject, NSArray;
+@class MPModelGenericObject;
 
 @interface MPCSharedListeningQueueEventContentPlayedNow
 {
     MPModelGenericObject *_container;
-    NSArray *_items;
-    MPModelGenericObject *_startItem;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelGenericObject *container; // @synthesize container=_container;
-@property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, copy, nonatomic) MPModelGenericObject *startItem; // @synthesize startItem=_startItem;
 
 @end
 

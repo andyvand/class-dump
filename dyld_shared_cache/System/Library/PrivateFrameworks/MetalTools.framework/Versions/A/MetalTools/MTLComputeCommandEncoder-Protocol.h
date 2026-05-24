@@ -5,6 +5,15 @@
 //
 
 @protocol MTLComputeCommandEncoder
+- (void);
+- (void)T;
+- (void);
+- (void)4~CNptugACN3W_4k-DtasoCXqs57ewYWDhgDWoJE8/Library/Caches/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/grimoire/trie/../vector/bit-vector.h:(const id *)arg1 135:(unsigned long long)arg2 MARISA_FORMAT_ERROR:(unsigned long long)arg3 temp_num_1s > size_;
+- (void)w;
+- (void)ring_viewIcNS_11char_traitsIcEEEERbEEEiEUlmSE_SF_E_FvmSE_SF_EEE;
+- (void)T;
+- (void)%J;
+- (void)O);
 
 // Remaining properties
 @property(readonly) unsigned long long dispatchType;

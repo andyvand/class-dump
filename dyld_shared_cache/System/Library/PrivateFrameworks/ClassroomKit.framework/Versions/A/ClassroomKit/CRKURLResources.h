@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSNumber;
+@class NSMutableDictionary;
 
 @interface CRKURLResources
 {
@@ -22,15 +22,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)TStickerPagingController";
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDirectory) NSNumber *directory;
-@property(readonly, copy, nonatomic) NSNumber *documentIdentifier;
-@property(readonly, nonatomic) NSDate *lastModificationDate;
 @property(readonly, copy, nonatomic) NSMutableDictionary *resources; // @synthesize resources=_resources;
-@property(readonly, nonatomic) unsigned long long size;
 
 @end
 

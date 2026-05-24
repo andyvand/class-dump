@@ -9,24 +9,20 @@
 @interface NTPBTodayQueueConfig
 {
     unsigned long long _widgetVisibleSectionsLimit;
-    NSMutableArray *_todaySectionConfigs;
-    struct {
-        unsigned int widgetVisibleSectionsLimit:1;
-    } _has;
 }
 
 + (Class);
-- (unsigned long long);
-- (void);
+- (unsigned long long)47388;
+- (void)H;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)Ȃ;
+- (unsigned long long)playerSettings;
+- (_Bool)rrorOccurred:(id)arg1 ];
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)haseIDs:(id)arg1 %@;
 - (void);
 - (id);
 - (id);
@@ -37,9 +33,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) _Bool hasWidgetVisibleSectionsLimit;
 @property(retain, nonatomic) NSMutableArray *todaySectionConfigs; // @synthesize todaySectionConfigs=_todaySectionConfigs;
-@property(nonatomic) unsigned long long widgetVisibleSectionsLimit; // @synthesize widgetVisibleSectionsLimit=_widgetVisibleSectionsLimit;
 
 @end
 

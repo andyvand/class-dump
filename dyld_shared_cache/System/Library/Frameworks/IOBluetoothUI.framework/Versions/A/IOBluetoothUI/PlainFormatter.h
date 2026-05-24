@@ -9,10 +9,6 @@
 @interface PlainFormatter
 {
     NSMutableCharacterSet *_characterSet;
-    int _maxChars;
-    _Bool _allowDigits;
-    _Bool _allowLetters;
-    _Bool _allowDashesAndUnderscores;
 }
 
 + (id);

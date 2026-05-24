@@ -4,121 +4,66 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAdopterCapabilitiesCheckRequest, CKDPAdopterCapabilitiesSaveRequest, CKDPAnonymousShareAddRequest, CKDPAnonymousShareRemoveRequest, CKDPArchiveRecordsRequest, CKDPAssetUploadTokenRetrieveRequest, CKDPBundlesForContainerRequest, CKDPCodeFunctionInvokeRequest, CKDPDeleteContainerRequest, CKDPFetchArchivedRecordsRequest, CKDPMarkAssetBrokenRequest, CKDPMergeableDeltaMetadataRetrieveRequest, CKDPMergeableDeltaReplaceRequest, CKDPMergeableDeltaRetrieveRequest, CKDPMergeableDeltaSaveRequest, CKDPNotificationMarkReadRequest, CKDPNotificationSyncRequest, CKDPOperation, CKDPQueryRetrieveRequest, CKDPRecordDeleteRequest, CKDPRecordMoveRequest, CKDPRecordResolveTokenRequest, CKDPRecordRetrieveChangesRequest, CKDPRecordRetrieveRequest, CKDPRecordRetrieveVersionsRequest, CKDPRecordSaveRequest, CKDPRequestOperationHeader, CKDPSetBadgeCountRequest, CKDPShareAcceptRequest, CKDPShareAccessRequest, CKDPShareDeclineRequest, CKDPSharePcsIdentityRequest, CKDPShareSelfRemoveRequest, CKDPShareUsageSaveRequest, CKDPShareVettingInitiateRequest, CKDPSubscriptionCreateRequest, CKDPSubscriptionDeleteRequest, CKDPSubscriptionRetrieveRequest, CKDPTokenRegistrationRequest, CKDPTokenUnregistrationRequest, CKDPUpdateMissingAssetStatusRequest, CKDPUserAvailableQuotaRequest, CKDPUserPrivacySettingsBatchLookupRequest, CKDPUserPrivacySettingsResetRequest, CKDPUserPrivacySettingsRetrieveRequest, CKDPUserPrivacySettingsUpdateRequest, CKDPUserQueryRequest, CKDPUserRetrieveRequest, CKDPWebAuthTokenRetrieveRequest, CKDPZoneDeleteRequest, CKDPZoneDescendantsRetrieveRequest, CKDPZoneRetrieveAncestorsRequest, CKDPZoneRetrieveChangesRequest, CKDPZoneRetrieveRequest, CKDPZoneSaveRequest, CKDPZoneUsageSaveRequest;
+@class CKDPAdopterCapabilitiesCheckRequest;
 
 @interface CKDPRequestOperation
 {
     CKDPAdopterCapabilitiesCheckRequest *_adopterCapabilitiesCheckRequest;
-    CKDPAdopterCapabilitiesSaveRequest *_adopterCapabilitiesSaveRequest;
-    CKDPAnonymousShareAddRequest *_anonymousShareAddRequest;
-    CKDPAnonymousShareRemoveRequest *_anonymousShareRemoveRequest;
-    CKDPArchiveRecordsRequest *_archiveRecordsRequest;
-    CKDPAssetUploadTokenRetrieveRequest *_assetUploadTokenRetrieveRequest;
-    CKDPBundlesForContainerRequest *_bundlesForContainerRequest;
-    CKDPDeleteContainerRequest *_deleteContainerRequest;
-    CKDPFetchArchivedRecordsRequest *_fetchArchivedRecordsRequest;
-    CKDPCodeFunctionInvokeRequest *_functionInvokeRequest;
-    CKDPRequestOperationHeader *_header;
-    CKDPMarkAssetBrokenRequest *_markAssetBrokenRequest;
-    CKDPMergeableDeltaMetadataRetrieveRequest *_mergeableDeltaMetadataRetrieveRequest;
-    CKDPMergeableDeltaReplaceRequest *_mergeableDeltaReplaceRequest;
-    CKDPMergeableDeltaRetrieveRequest *_mergeableDeltaRetrieveRequest;
-    CKDPMergeableDeltaSaveRequest *_mergeableDeltaSaveRequest;
-    CKDPNotificationMarkReadRequest *_notificationMarkReadRequest;
-    CKDPNotificationSyncRequest *_notificationSyncRequest;
-    CKDPQueryRetrieveRequest *_queryRetrieveRequest;
-    CKDPRecordDeleteRequest *_recordDeleteRequest;
-    CKDPRecordMoveRequest *_recordMoveRequest;
-    CKDPRecordResolveTokenRequest *_recordResolveTokenRequest;
-    CKDPRecordRetrieveChangesRequest *_recordRetrieveChangesRequest;
-    CKDPRecordRetrieveRequest *_recordRetrieveRequest;
-    CKDPRecordRetrieveVersionsRequest *_recordRetrieveVersionsRequest;
-    CKDPRecordSaveRequest *_recordSaveRequest;
-    CKDPOperation *_request;
-    CKDPSetBadgeCountRequest *_setBadgeCountRequest;
-    CKDPShareAcceptRequest *_shareAcceptRequest;
-    CKDPShareAccessRequest *_shareAccessRequest;
-    CKDPShareDeclineRequest *_shareDeclineRequest;
-    CKDPSharePcsIdentityRequest *_sharePcsIdentityRequest;
-    CKDPShareSelfRemoveRequest *_shareSelfRemoveRequest;
-    CKDPShareUsageSaveRequest *_shareUsageSaveRequest;
-    CKDPShareVettingInitiateRequest *_shareVettingInitiateRequest;
-    CKDPSubscriptionCreateRequest *_subscriptionCreateRequest;
-    CKDPSubscriptionDeleteRequest *_subscriptionDeleteRequest;
-    CKDPSubscriptionRetrieveRequest *_subscriptionRetrieveRequest;
-    CKDPTokenRegistrationRequest *_tokenRegistrationRequest;
-    CKDPTokenUnregistrationRequest *_tokenUnregistrationRequest;
-    CKDPUpdateMissingAssetStatusRequest *_updateMissingAssetStatusRequest;
-    CKDPUserAvailableQuotaRequest *_userAvailableQuotaRequest;
-    CKDPUserPrivacySettingsBatchLookupRequest *_userPrivacySettingsBatchLookupRequest;
-    CKDPUserPrivacySettingsResetRequest *_userPrivacySettingsResetRequest;
-    CKDPUserPrivacySettingsRetrieveRequest *_userPrivacySettingsRetrieveRequest;
-    CKDPUserPrivacySettingsUpdateRequest *_userPrivacySettingsUpdateRequest;
-    CKDPUserQueryRequest *_userQueryRequest;
-    CKDPUserRetrieveRequest *_userRetrieveRequest;
-    CKDPWebAuthTokenRetrieveRequest *_webAuthTokenRetrieveRequest;
-    CKDPZoneDeleteRequest *_zoneDeleteRequest;
-    CKDPZoneDescendantsRetrieveRequest *_zoneDescendantsRetrieveRequest;
-    CKDPZoneRetrieveAncestorsRequest *_zoneRetrieveAncestorsRequest;
-    CKDPZoneRetrieveChangesRequest *_zoneRetrieveChangesRequest;
-    CKDPZoneRetrieveRequest *_zoneRetrieveRequest;
-    CKDPZoneSaveRequest *_zoneSaveRequest;
-    CKDPZoneUsageSaveRequest *_zoneUsageSaveRequest;
 }
 
 - (id);
 - (void);
+- (id)UsoTaskBuilder_noVerb_commonAlarm_AlarmAttribute;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)UsoEntity_common_PersonProperty;
+- (_Bool));
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void);
+- (void);
+- (void)i;
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)Q;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id)tZ�`N;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -130,56 +75,47 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (_Bool);
 - (id);
-- (void);
+- (id)(;
+- (id);
+- (id)tate
+;
+- (id)endpointAggregate_destroyAggregateStreamsWithNoMembers;
+- (void)etion [%{ptr}], context [%{ptr}]
+;
+- (unsigned long long), startMediaTime = %1.3f (%ld/%ld), anchorRemoteMediaTime = %1.3f (%ld/%d), firstRemoteMediaTime = %1.3f (%ld/%d) pauseRemoteMediaTime = %1.3f (%ld/%d) 
+;
+- (id)lld/%d)
+;
+- (void)initialVolume;
+- (void)APKeyHolderSharedKey;
+- (id)oint failure %@
+;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)%;
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -187,16 +123,31 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void)removeCategoryForBusinessWithExternalID:(id)arg1 withLastModifiedDate: /* Error: Ran out of types for this method. */;
+- (void)Object<OS_dispatch_queue>",&,N,V_processingQueue;
+- (id);
+- (id);
+- (void)h size:(id)arg1 %lu
+;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)I;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -217,10 +168,32 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)c1:71:8b:cb:30:cd:d3:15:21:e0:27:30:35:8a:76:8e:c2:23:fb:44:22:bd:96:f6:aa:55:bf:4d:11:b1:0e:c4:7f:cf:86:8d:f8:30:dd:80:48:5d:9e:41:4e:e0:29:96:25:cc:d6:4a:0d:47:05:87:c4:61:f6:b0:1e:1a:da:48:56:a3:c1:c1:56:95:b3:4e:84:82:1b:a5:4d:d3:d0:5d:60:cf:fd:e5:75:3c:91:13:e2:e4:f1:60:4a:58:93:de:3f:e9:3c:bf:da:c9:f6:ef:9b:9e:b1:6e:78:9e:81:f6:e7:4c:09:b3:1c:87:25:bf:8f:6e:3f:d6:03:53:1e:09:a3:5b:00:4b:9e:98:fb:ae:13:86:e4:47:6a:1a:44:f8:15:c8:fb:30:c7:bd:b0:e8:8c:ac:2d:73:08:af:ed:b2:e8:f5:6d:a1:e2:d9:45:de:d5:b9:98:89:16:72
+-----BEGIN CERTIFICATE-----
+MIIDdjCCAl6gAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBgDELMAkGA1UEBhMCVVMx
+EzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRp
+b24gQXV0aG9yaXR5MTQwMgYDVQQDFCtbVEVTVF0gQXBwbGUgaVBob25lIENlcnRp
+ZmljYXRpb24gQXV0aG9yaXR5MB4XDTA3MDMyMTA2MjA1MFoXDTIyMDMxMjA2MjA1
+MFowYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xFTATBgNVBAsT
+DEFwcGxlIGlQaG9uZTEnMCUGA1UEAxQeW1RFU1RdIEFwcGxlIGlQaG9uZSBBY3Rp
+dmF0aW9uMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzYmXsSN3d7UTU8f77
+wm9C0IIJAwCmAeixBwkmWxJl239RFe9PRbOPzk0WHTiEARBXToxx4V7eZxR12kia
+TG/wRWVm6Jy1okz0U8HsmGKQsJS+EvKgrFx3FgdzclqXulBOZzBSHvAwTo+ypNPR
++vhmeYeRL6HvTuZBjZQYKeDyzwIDAQABo4GbMIGYMA4GA1UdDwEB/wQEAwIHgDAM
+BgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTAbzpKG+1R3Z2jS8BB9moR+auL8TAfBgNV
+HSMEGDAWgBRFokypiltKJ16Fpk0FHCdEpYd2FzA4BgNVHR8EMTAvMC2gK6Aphido
+dHRwOi8vd3d3LmFwcGxlLmNvbS9hcHBsZWNhL2lwaG9uZS5jcmwwDQYJKoZIhvcN
+AQEFBQADggEBAA5PVQCdHkx1KOh5u9tcXMxFk0bTOxQALVuwjC4VPhlgQyVZf3s6
+snzPwpbdsNdwWo4oxMwyLPTCQ+PhH7Ox3+yG3UOTRWChUwW6anBDRBGhnt3BcYvL
+MM3TFSHgJzA1inaOwiP7RCK9lvaqVb9NEbEOxH/Pho34MN2ASF2eQU7gKZYlzNZK
+DUcFh8Rh9rAeGtpIVqPBwVaVs06EghulTdPQXWDP/eV1PJET4uTxYEpYk94/6Ty/
+2sn275uesW54noH250wJsxyHJb+Pbj/WA1MeCaNbAEuemPuuE4bkR2oaRPgVyPsw
+x72w6IysLXMIr+2y6PVtoeLZRd7VuZiJFnI=
+-----END CERTIFICATE-----
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -232,134 +205,23 @@
 - (_Bool)Ô ;
 - (id)ngsRetrieveResponse";
 - (_Bool)B28@0:8@"CKSQLite"16i24 /* Error: Ran out of types for this method. */;
-- (void)sStatus:(id)arg1;
-- (_Bool)eTransitionGroup;
-- (void)k:(id)arg1 didReceiveResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setHasStatus:(id)arg1;
+- (_Bool)_stateTransitionGroup;
+- (void)URLSession:(id)arg1 dataTask:didReceiveResponse:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)perationClassName;
 - (void);
-- (_Bool)ionResponsesType;
-- (id)ID:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)assetAuthorizationResponsesType;
+- (id)enumerateKnownAppContainerAccountTuplesForAccountID:usingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Ì;
-- (_Bool)Cache;
+- (_Bool)IdentityCache;
 - (void)ed to save new throttle:(id)arg1 %{public}@;
 - (void)kage in field %{public}@ and index %ld of record %@;
 - (id)[;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPAdopterCapabilitiesCheckRequest *adopterCapabilitiesCheckRequest;
-@property(retain, nonatomic) CKDPAdopterCapabilitiesSaveRequest *adopterCapabilitiesSaveRequest;
-@property(retain, nonatomic) CKDPAnonymousShareAddRequest *anonymousShareAddRequest;
-@property(retain, nonatomic) CKDPAnonymousShareRemoveRequest *anonymousShareRemoveRequest;
-@property(retain, nonatomic) CKDPArchiveRecordsRequest *archiveRecordsRequest;
-@property(retain, nonatomic) CKDPAssetUploadTokenRetrieveRequest *assetUploadTokenRetrieveRequest;
-@property(retain, nonatomic) CKDPBundlesForContainerRequest *bundlesForContainerRequest;
-@property(retain, nonatomic) CKDPDeleteContainerRequest *deleteContainerRequest;
-@property(retain, nonatomic) CKDPFetchArchivedRecordsRequest *fetchArchivedRecordsRequest;
-@property(retain, nonatomic) CKDPCodeFunctionInvokeRequest *functionInvokeRequest;
-@property(readonly, nonatomic) _Bool hasAdopterCapabilitiesCheckRequest;
-@property(readonly, nonatomic) _Bool hasAdopterCapabilitiesSaveRequest;
-@property(readonly, nonatomic) _Bool hasAnonymousShareAddRequest;
-@property(readonly, nonatomic) _Bool hasAnonymousShareRemoveRequest;
-@property(readonly, nonatomic) _Bool hasArchiveRecordsRequest;
-@property(readonly, nonatomic) _Bool hasAssetUploadTokenRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasBundlesForContainerRequest;
-@property(readonly, nonatomic) _Bool hasDeleteContainerRequest;
-@property(readonly, nonatomic) _Bool hasFetchArchivedRecordsRequest;
 @property(readonly, nonatomic) _Bool hasFunctionInvokeRequest;
-@property(readonly, nonatomic) _Bool hasHeader;
-@property(readonly, nonatomic) _Bool hasMarkAssetBrokenRequest;
-@property(readonly, nonatomic) _Bool hasMergeableDeltaMetadataRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasMergeableDeltaReplaceRequest;
-@property(readonly, nonatomic) _Bool hasMergeableDeltaRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasMergeableDeltaSaveRequest;
-@property(readonly, nonatomic) _Bool hasNotificationMarkReadRequest;
-@property(readonly, nonatomic) _Bool hasNotificationSyncRequest;
-@property(readonly, nonatomic) _Bool hasQueryRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasRecordDeleteRequest;
-@property(readonly, nonatomic) _Bool hasRecordMoveRequest;
-@property(readonly, nonatomic) _Bool hasRecordResolveTokenRequest;
-@property(readonly, nonatomic) _Bool hasRecordRetrieveChangesRequest;
-@property(readonly, nonatomic) _Bool hasRecordRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasRecordRetrieveVersionsRequest;
-@property(readonly, nonatomic) _Bool hasRecordSaveRequest;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(readonly, nonatomic) _Bool hasSetBadgeCountRequest;
-@property(readonly, nonatomic) _Bool hasShareAcceptRequest;
-@property(readonly, nonatomic) _Bool hasShareAccessRequest;
-@property(readonly, nonatomic) _Bool hasShareDeclineRequest;
-@property(readonly, nonatomic) _Bool hasSharePcsIdentityRequest;
-@property(readonly, nonatomic) _Bool hasShareSelfRemoveRequest;
-@property(readonly, nonatomic) _Bool hasShareUsageSaveRequest;
-@property(readonly, nonatomic) _Bool hasShareVettingInitiateRequest;
-@property(readonly, nonatomic) _Bool hasSubscriptionCreateRequest;
-@property(readonly, nonatomic) _Bool hasSubscriptionDeleteRequest;
-@property(readonly, nonatomic) _Bool hasSubscriptionRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasTokenRegistrationRequest;
-@property(readonly, nonatomic) _Bool hasTokenUnregistrationRequest;
-@property(readonly, nonatomic) _Bool hasUpdateMissingAssetStatusRequest;
-@property(readonly, nonatomic) _Bool hasUserAvailableQuotaRequest;
-@property(readonly, nonatomic) _Bool hasUserPrivacySettingsBatchLookupRequest;
-@property(readonly, nonatomic) _Bool hasUserPrivacySettingsResetRequest;
-@property(readonly, nonatomic) _Bool hasUserPrivacySettingsRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasUserPrivacySettingsUpdateRequest;
-@property(readonly, nonatomic) _Bool hasUserQueryRequest;
-@property(readonly, nonatomic) _Bool hasUserRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasWebAuthTokenRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasZoneDeleteRequest;
-@property(readonly, nonatomic) _Bool hasZoneDescendantsRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasZoneRetrieveAncestorsRequest;
-@property(readonly, nonatomic) _Bool hasZoneRetrieveChangesRequest;
-@property(readonly, nonatomic) _Bool hasZoneRetrieveRequest;
-@property(readonly, nonatomic) _Bool hasZoneSaveRequest;
-@property(readonly, nonatomic) _Bool hasZoneUsageSaveRequest;
-@property(retain, nonatomic) CKDPRequestOperationHeader *header; // @synthesize header=_header;
-@property(retain, nonatomic) CKDPMarkAssetBrokenRequest *markAssetBrokenRequest;
-@property(retain, nonatomic) CKDPMergeableDeltaMetadataRetrieveRequest *mergeableDeltaMetadataRetrieveRequest;
-@property(retain, nonatomic) CKDPMergeableDeltaReplaceRequest *mergeableDeltaReplaceRequest;
-@property(retain, nonatomic) CKDPMergeableDeltaRetrieveRequest *mergeableDeltaRetrieveRequest;
-@property(retain, nonatomic) CKDPMergeableDeltaSaveRequest *mergeableDeltaSaveRequest;
-@property(retain, nonatomic) CKDPNotificationMarkReadRequest *notificationMarkReadRequest;
-@property(retain, nonatomic) CKDPNotificationSyncRequest *notificationSyncRequest;
-@property(retain, nonatomic) CKDPQueryRetrieveRequest *queryRetrieveRequest;
-@property(retain, nonatomic) CKDPRecordDeleteRequest *recordDeleteRequest;
-@property(retain, nonatomic) CKDPRecordMoveRequest *recordMoveRequest;
-@property(retain, nonatomic) CKDPRecordResolveTokenRequest *recordResolveTokenRequest;
-@property(retain, nonatomic) CKDPRecordRetrieveChangesRequest *recordRetrieveChangesRequest;
-@property(retain, nonatomic) CKDPRecordRetrieveRequest *recordRetrieveRequest;
-@property(retain, nonatomic) CKDPRecordRetrieveVersionsRequest *recordRetrieveVersionsRequest;
-@property(retain, nonatomic) CKDPRecordSaveRequest *recordSaveRequest;
-@property(retain, nonatomic) CKDPOperation *request; // @synthesize request=_request;
-@property(retain, nonatomic) CKDPSetBadgeCountRequest *setBadgeCountRequest;
-@property(retain, nonatomic) CKDPShareAcceptRequest *shareAcceptRequest;
-@property(retain, nonatomic) CKDPShareAccessRequest *shareAccessRequest;
-@property(retain, nonatomic) CKDPShareDeclineRequest *shareDeclineRequest;
-@property(retain, nonatomic) CKDPSharePcsIdentityRequest *sharePcsIdentityRequest;
-@property(retain, nonatomic) CKDPShareSelfRemoveRequest *shareSelfRemoveRequest;
-@property(retain, nonatomic) CKDPShareUsageSaveRequest *shareUsageSaveRequest;
-@property(retain, nonatomic) CKDPShareVettingInitiateRequest *shareVettingInitiateRequest;
-@property(retain, nonatomic) CKDPSubscriptionCreateRequest *subscriptionCreateRequest;
-@property(retain, nonatomic) CKDPSubscriptionDeleteRequest *subscriptionDeleteRequest;
-@property(retain, nonatomic) CKDPSubscriptionRetrieveRequest *subscriptionRetrieveRequest;
-@property(retain, nonatomic) CKDPTokenRegistrationRequest *tokenRegistrationRequest;
-@property(retain, nonatomic) CKDPTokenUnregistrationRequest *tokenUnregistrationRequest;
-@property(retain, nonatomic) CKDPUpdateMissingAssetStatusRequest *updateMissingAssetStatusRequest;
-@property(retain, nonatomic) CKDPUserAvailableQuotaRequest *userAvailableQuotaRequest;
-@property(retain, nonatomic) CKDPUserPrivacySettingsBatchLookupRequest *userPrivacySettingsBatchLookupRequest;
-@property(retain, nonatomic) CKDPUserPrivacySettingsResetRequest *userPrivacySettingsResetRequest;
-@property(retain, nonatomic) CKDPUserPrivacySettingsRetrieveRequest *userPrivacySettingsRetrieveRequest;
-@property(retain, nonatomic) CKDPUserPrivacySettingsUpdateRequest *userPrivacySettingsUpdateRequest;
-@property(retain, nonatomic) CKDPUserQueryRequest *userQueryRequest;
-@property(retain, nonatomic) CKDPUserRetrieveRequest *userRetrieveRequest;
-@property(retain, nonatomic) CKDPWebAuthTokenRetrieveRequest *webAuthTokenRetrieveRequest;
-@property(retain, nonatomic) CKDPZoneDeleteRequest *zoneDeleteRequest;
-@property(retain, nonatomic) CKDPZoneDescendantsRetrieveRequest *zoneDescendantsRetrieveRequest;
-@property(retain, nonatomic) CKDPZoneRetrieveAncestorsRequest *zoneRetrieveAncestorsRequest;
-@property(retain, nonatomic) CKDPZoneRetrieveChangesRequest *zoneRetrieveChangesRequest;
-@property(retain, nonatomic) CKDPZoneRetrieveRequest *zoneRetrieveRequest;
-@property(retain, nonatomic) CKDPZoneSaveRequest *zoneSaveRequest;
-@property(retain, nonatomic) CKDPZoneUsageSaveRequest *zoneUsageSaveRequest;
 
 @end
 

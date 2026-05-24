@@ -5,5 +5,8 @@
 //
 
 @protocol LPThemeClient
+
+@optional
+- (void);
 @end
 

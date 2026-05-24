@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTLDevice, MTLTexture;
-
 @interface MPSImage
 {
     void *_device;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _featureChannels;
-    unsigned long long _featureChannelsLayout;
-    unsigned long long _featureChannelFormat;
-    unsigned long long _numberOfImages;
-    unsigned long long _textureType;
-    NSString *_label;
-    struct MPSPixelInfo _pixelInfo;
-    MPSImage *_parent;
-    struct MPSAutoTexture _texture;
-    _Bool _updatedAlready;
 }
 
 + (id);
 - (unsigned long long);
-- (void);
+- (void)`l;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)J;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -68,24 +53,10 @@
 - (id)unable to transcode texture to CGImage>
 	%@
 ;
-- (unsigned long long)6;
+- (unsigned long long)MPSDataTypeUInt16;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long featureChannelFormat; // @synthesize featureChannelFormat=_featureChannelFormat;
-@property(readonly, nonatomic) unsigned long long featureChannels; // @synthesize featureChannels=_featureChannels;
 @property(readonly, nonatomic) unsigned long long featureChannelsLayout; // @synthesize featureChannelsLayout=_featureChannelsLayout;
-@property(readonly, nonatomic) unsigned long long height; // @synthesize height=_height;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) unsigned long long numberOfImages; // @synthesize numberOfImages=_numberOfImages;
-@property(readonly, retain, nonatomic) MPSImage *parent; // @synthesize parent=_parent;
-@property(readonly, nonatomic) unsigned long long pixelFormat;
-@property(readonly, nonatomic) unsigned long long pixelSize;
-@property(readonly, nonatomic) unsigned long long precision;
-@property(readonly, nonatomic) id <MTLTexture> texture;
-@property(readonly, nonatomic) unsigned long long textureType;
-@property(readonly, nonatomic) unsigned long long usage;
-@property(readonly, nonatomic) unsigned long long width; // @synthesize width=_width;
 
 @end
 

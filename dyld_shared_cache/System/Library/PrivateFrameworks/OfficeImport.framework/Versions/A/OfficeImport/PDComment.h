@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PDComment
 {
     struct CGPoint mPosition;
-    NSString *mText;
-    unsigned long long mAuthorId;
-    NSDate *mDate;
-    unsigned int mIndex;
-    PDComment *parent;
-    NSString *_author;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (id);
@@ -31,14 +25,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned int);
-- (void)laySetTextColour:(struct CGPoint)arg1 in_pRecord: /* Error: Ran out of types for this method. */;
+- (void)playSetTextColour:(struct CGPoint)arg1 in_pRecord: /* Error: Ran out of types for this method. */;
 - (void)Ø;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *author; // @synthesize author=_author;
-@property(retain) PDComment *parent; // @synthesize parent;
 
 @end
 

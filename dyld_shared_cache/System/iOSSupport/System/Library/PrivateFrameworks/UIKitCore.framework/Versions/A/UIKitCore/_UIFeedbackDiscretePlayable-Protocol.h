@@ -5,6 +5,7 @@
 //
 
 @protocol _UIFeedbackDiscretePlayable
+- (_Bool)ۣ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isHighPriority) _Bool highPriority;

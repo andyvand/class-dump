@@ -11,15 +11,14 @@
 @interface _DKLowPowerModeMonitor : _DKMonitor
 {
     BMSource *_source;
-    NSNumber *_lowPowerModeStatus;
 }
 
-+ (id);
++ (id);
 + (id);
 + (void);
 + (_Bool);
 + (id);
-- (void);
+- (void)vertexInput_normal;
 - (void);
 - (void);
 - (void);

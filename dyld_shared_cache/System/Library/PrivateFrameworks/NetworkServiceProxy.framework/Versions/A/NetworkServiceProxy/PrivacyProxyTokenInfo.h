@@ -7,12 +7,9 @@
 @interface PrivacyProxyTokenInfo
 {
     unsigned long long _cachedTokens;
-    unsigned long long _agentTokens;
-    unsigned long long _agentLowWaterMark;
-    unsigned long long _cacheLowWaterMark;
 }
 
-+ (_Bool);
++ (_Bool)generateDerivativesForChange:derivativesFilter:fingerprintScheme:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -27,9 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long agentLowWaterMark; // @synthesize agentLowWaterMark=_agentLowWaterMark;
-@property(nonatomic) unsigned long long agentTokens; // @synthesize agentTokens=_agentTokens;
-@property(nonatomic) unsigned long long cacheLowWaterMark; // @synthesize cacheLowWaterMark=_cacheLowWaterMark;
 @property(nonatomic) unsigned long long cachedTokens; // @synthesize cachedTokens=_cachedTokens;
 
 @end

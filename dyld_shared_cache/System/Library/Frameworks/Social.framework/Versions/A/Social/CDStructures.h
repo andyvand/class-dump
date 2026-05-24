@@ -27,13 +27,18 @@ struct CGSize {
     double _field2;
 };
 
+struct _NSRange {
+    unsigned long long _field1;
+    unsigned long long _field2;
+};
+
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    long long version;
-    void *info;
-    CDUnknownFunctionPointerType retain;
-    CDUnknownFunctionPointerType release;
-    CDUnknownFunctionPointerType copyDescription;
-} CDStruct_4210025a;
+    long long _field1;
+    void *_field2;
+    CDUnknownFunctionPointerType _field3;
+    CDUnknownFunctionPointerType _field4;
+    CDUnknownFunctionPointerType _field5;
+} CDStruct_e097db04;
 

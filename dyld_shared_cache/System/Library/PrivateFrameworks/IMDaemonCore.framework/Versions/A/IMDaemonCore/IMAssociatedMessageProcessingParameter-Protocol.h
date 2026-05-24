@@ -5,5 +5,6 @@
 //
 
 @protocol IMAssociatedMessageProcessingParameter
+- (long long);
 @end
 

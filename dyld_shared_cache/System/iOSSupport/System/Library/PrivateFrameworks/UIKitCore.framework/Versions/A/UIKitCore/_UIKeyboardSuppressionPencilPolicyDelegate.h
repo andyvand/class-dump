@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIKeyboardSuppressionPencilPolicyDelegate
 {
     _Bool _isQueryingLocaleIdentifier;
-    _Bool _suppressLocaleIdentifier;
-    NSString *_overrideLocaleIdentifier;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void)Êyþ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *_overrideLocaleIdentifier; // @synthesize _overrideLocaleIdentifier;
 @property(nonatomic) _Bool _suppressLocaleIdentifier; // @synthesize _suppressLocaleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

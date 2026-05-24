@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (_Bool)y9;
+- (oneway void)$s7SwiftUI4ViewP23ImagePlaygroundInternalE06symbolD5Style33_FB63CD870BBCA651B4D614EB66CD210ALLQryF;
+- (id)";
+- (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 @end

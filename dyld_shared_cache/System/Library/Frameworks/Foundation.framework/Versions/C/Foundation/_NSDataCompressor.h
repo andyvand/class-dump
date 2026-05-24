@@ -14,16 +14,12 @@ __attribute__((visibility("hidden")))
         unsigned long long src_size;
         void *state;
     } _stream;
-    int _operation;
-    int _status;
-    CDUnknownBlockType _dataHandler;
-    unsigned char _buffer[1024];
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)S3_INS3_INS0_13TokenMetadataENS5_ISC_EEEENS5_ISE_EEEERKNS0_17LinguisticContextEE3$_1;
 - (_Bool)iqÿÿÿÿÿð;
 
 @end

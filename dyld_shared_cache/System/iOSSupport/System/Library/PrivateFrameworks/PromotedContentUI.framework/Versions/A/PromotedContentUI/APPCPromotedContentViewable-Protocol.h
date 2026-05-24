@@ -5,6 +5,7 @@
 //
 
 @protocol APPCPromotedContentViewable
+- (long long)vent.;
 
 // Remaining properties
 @property(nonatomic, readonly) long long privacyMarkerPosition;

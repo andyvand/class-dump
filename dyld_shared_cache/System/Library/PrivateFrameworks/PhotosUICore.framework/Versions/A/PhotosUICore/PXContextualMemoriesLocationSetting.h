@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLPlacemark, NSString, PXLocationStream, _PXCompletionHandlerManager;
-
 @interface PXContextualMemoriesLocationSetting
 {
     _Bool _monitorsCurrentLocation;
-    CLPlacemark *_placemark;
-    unsigned long long _locationState;
-    PXLocationStream *_locationStream;
-    _PXCompletionHandlerManager *_completionHandlerManager;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 + (id);
@@ -23,10 +16,10 @@
 + (id);
 + (id);
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -45,32 +38,13 @@
 - (id);
 - (id);
 - (struct CLLocationCoordinate2D);
-- (id)Handler;
+- (id)cancellationHandler;
 - (id)estructiveAssetsAction initWithAssets:] /* Error: Ran out of types for this method. */;
 - (id)SharedLibraryAssistantSummaryViewController initWithCoder:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _PXCompletionHandlerManager *completionHandlerManager; // @synthesize completionHandlerManager=_completionHandlerManager;
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *headerTitle;
-@property(readonly, nonatomic) CLLocation *location;
-@property(nonatomic) unsigned long long locationState; // @synthesize locationState=_locationState;
-@property(retain, nonatomic) PXLocationStream *locationStream; // @synthesize locationStream=_locationStream;
-@property(nonatomic) _Bool monitorsCurrentLocation; // @synthesize monitorsCurrentLocation=_monitorsCurrentLocation;
-@property(retain, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;
-@property(readonly, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXLabeledValue, PXSmartAlbumCondition;
-@protocol PXSmartAlbumQueryDelegate;
+@class NSString, PXSmartAlbumCondition;
 
 @protocol PXSmartAlbumQuery
 - (void)%!ÀFù8Ð1Â0@ù
@@ -16,12 +15,6 @@
 - (void)lu%{public}@, movingToPersonal:(void (^)(id, NSError *))arg1 %lu%{public}@ };
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canPersistChanges;
-@property(retain, nonatomic) NSArray *conditions;
-@property(retain, nonatomic) PXLabeledValue *conjunctionValue;
-@property(readonly, nonatomic) NSArray *conjunctionValues;
-@property(nonatomic) __weak id <PXSmartAlbumQueryDelegate> delegate;
-@property(readonly, nonatomic) NSString *statusString;
 @property(retain, nonatomic) NSString *title;
 @end
 

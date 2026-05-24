@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError;
+
 @protocol NAPromise
+- (_Bool)$_;
+- (_Bool)tryToFreeDiskSpace:(id)arg1 actuallyFreedSpace:(NSError *)arg2 includeOriginals:error: /* Error: Ran out of types for this method. */;
+- (void (^)(NSError *))it is closed. Should try again later;
+- (_Bool);
 @end
 

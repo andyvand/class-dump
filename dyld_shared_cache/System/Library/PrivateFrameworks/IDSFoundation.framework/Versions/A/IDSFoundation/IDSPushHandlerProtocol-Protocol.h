@@ -5,6 +5,8 @@
 //
 
 @protocol IDSPushHandlerProtocol
+- (void);
+- (void)knowledgestore;
 - (void)´¸T1¶áWÐ
 ;
 @end

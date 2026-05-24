@@ -5,6 +5,7 @@
 //
 
 @protocol SXOfferUpsellScenarioProviding
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long offerUpsellScenario;

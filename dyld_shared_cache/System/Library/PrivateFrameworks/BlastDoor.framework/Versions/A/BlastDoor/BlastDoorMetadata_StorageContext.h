@@ -18,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isFromStorage;
-@property(nonatomic, readonly) _Bool isLastFromStorage;
 
 @end
 

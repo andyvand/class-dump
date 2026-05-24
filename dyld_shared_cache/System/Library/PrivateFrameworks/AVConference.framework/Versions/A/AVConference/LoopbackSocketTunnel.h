@@ -5,18 +5,11 @@
 //
 
 @class NSObject;
-@protocol LoopbackSocketTunnelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface LoopbackSocketTunnel
 {
     unsigned short _port;
-    int sockFD;
-    struct sockaddr_in sa;
-    struct sockaddr_in vtpSA;
-    NSObject *optionalArg;
-    NSObject<LoopbackSocketTunnelDelegate> *_delegate;
-    _Bool foundVTPIP;
 }
 
 - (void);

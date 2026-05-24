@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     PDFViewControllerPrivate *_private;
 }
 
-- (void);
+- (void)[;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 - (void);

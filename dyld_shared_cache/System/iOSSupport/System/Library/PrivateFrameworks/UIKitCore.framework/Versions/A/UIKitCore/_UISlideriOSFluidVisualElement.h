@@ -6,17 +6,12 @@
 
 #import <UIKitCore/_UISlideriOSVisualElement.h>
 
-@class NSArray, NSString, UISlider, UISliderDataModel, _UIFluidSliderInteraction;
+@class _UIFluidSliderInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UISlideriOSFluidVisualElement : _UISlideriOSVisualElement
 {
     _UIFluidSliderInteraction *_fluidInteraction;
-    double _thumbPosition;
-    struct CGRect _trackBounds;
-    struct CGAffineTransform _trackTransform;
-    unsigned long long _fluidUpdateSource;
-    _Bool _changeWithVolumeButtons;
 }
 
 - (void);
@@ -24,51 +19,37 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)ray"28@"NSString"36@"NSString"44@"NSString"52@"NSString"60;
+- (void)2@"NSArray"36@?<v@?Q>44;
+- (_Bool)setWasDetectedAsSWYSpam: /* Error: Ran out of types for this method. */;
+- (id)isOnTelephonyCall;
+- (void)historyQuery:(double)arg1 chatID:(_Bool)arg2 services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
+- (void)fetchChatRecordsFilteredUsingPredicate:(_Bool)arg1 sortedUsingDescriptors:limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_numberOfChatsToFetch;
+- (void)_markMessageAsRead:(float)arg1 inChat:(float)arg2 withCompletionHandler:(float)arg3;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)l with error %@;
+- (void)PerScope;
+- (void)MPLocalPickerAlbumViewController;
 - (void)0@ù
 × ;
 - (void)°1Â0@ù
 × ;
 - (void);
-- (_Bool)NotificationInfo: /* Error: Ran out of types for this method. */;
-- (void)TargetRect:(struct CGRect)arg1 forced: /* Error: Ran out of types for this method. */;
-- (id)tyStickers;
+- (_Bool)setNotificationInfo: /* Error: Ran out of types for this method. */;
+- (void)_updateMenuPositionAnimated:(struct CGRect)arg1 reuseTargetRect:forced: /* Error: Ran out of types for this method. */;
+- (id)_isFirstPartyStickers;
 - (void)ismissGestureRecognizer;
 - (struct CGRect);;
 - (_Bool)to collapse %@ column into itself. Split view controller:(id)arg1 %@;
-- (void)rollView;
+- (void)ScrollView;
 - (void)¨.3GAFGALGG;
 - (void)";
 - (void)-43¨©zþ43¨©zþ43¨©zþ;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalTrackingViews;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @property(nonatomic) _Bool changeWithVolumeButtons; // @synthesize changeWithVolumeButtons=_changeWithVolumeButtons;
-@property(retain, nonatomic) UISliderDataModel *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long fluidUpdateSource;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UISlider *slider;
-@property(readonly) Class superclass;
 
 @end
 

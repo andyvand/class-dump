@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMVendorDataStore
 {
     _HMContext *_context;
-    NSUUID *_uuid;
 }
 
 + (id)le-UWB;
+- (void)[;
 - (void);
-- (void);
 - (id);
+- (id)8
+0
+;
 - (id);
-- (id);
-- (id);
+- (id)֘;
 - (id);
 - (void)"NSDictionary">40;
-- (void)ttingValue;
+- (void)HMSettingValue;
 
 // Remaining properties
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

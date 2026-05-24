@@ -6,33 +6,25 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, AMSUIWebClientContext, NSArray, NSString;
+@class ACAccount, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebMediaAction : AMSUIWebAction
 {
     NSArray *_bundleIdentifiers;
-    NSString *_clientIdentifier;
-    NSString *_clientVersion;
-    NSArray *_itemIdentifiers;
-    NSArray *_includedResultKeys;
-    NSString *_method;
-    long long _type;
-    NSString *_urlString;
-    ACAccount *_account;
 }
 
+- (id)blic}lu);
+- (id)lector"8B16@"NSURL"20@"MAAutoAssetStatus"28@"NSError"36;
 - (id);
 - (id);
-- (id);
-- (id);
+- (void)SEARCH_PERSON_RELATIONSHIP_PARTNER;
+- (id)%d;
 - (void);
 - (id);
+- (id)(;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)shouldAddModifierSymbolsToWordCharacters;
 - (void);
 - (void);
 - (void);
@@ -40,29 +32,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)UUID";
-- (id)ant: /* Error: Ran out of types for this method. */;
+- (id)constraintEqualToConstant: /* Error: Ran out of types for this method. */;
 - (id)n;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(retain) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *includedResultKeys; // @synthesize includedResultKeys=_includedResultKeys;
-@property(retain) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(retain) NSString *method; // @synthesize method=_method;
-@property(readonly) Class superclass;
-@property long long type; // @synthesize type=_type;
-@property(retain) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

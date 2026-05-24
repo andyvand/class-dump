@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterFirewallRuleWANAddressRange, NSArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleWANSubject
 {
     NSArray *_hostnames;
-    NSArray *_addresses;
-    HMDNetworkRouterFirewallRuleWANAddressRange *_addressRange;
 }
 
-- (id);
-- (id);
+- (id)onListener"16@"GEOComposedWaypoint"24Q32;
+- (id)arrived %@ closed %@;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id)eaming control end request:%@ /* Error: Ran out of types for this method. */;
-- (void)CESSORY_LEGACYWAC_TITLE;
+- (void)ACCESSORY_LEGACYWAC_TITLE;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDNetworkRouterFirewallRuleWANAddressRange *addressRange; // @synthesize addressRange=_addressRange;
-@property(readonly, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;
 @property(readonly, nonatomic) NSArray *hostnames; // @synthesize hostnames=_hostnames;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSPersistentCloudKitContainerOptions, NSString, NSURL;
+@class NSMutableDictionary, NSPersistentCloudKitContainerOptions;
 
 @interface NSPersistentStoreDescription
 {
     NSMutableDictionary *_options;
-    NSString *_type;
-    NSString *_configuration;
-    NSURL *_url;
 }
 
 + (id);
@@ -24,17 +21,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)`";
+- (_Bool)#;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -42,9 +39,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)|;
 - (_Bool);
-- (id);
+- (id)	;
 - (id);
 - (_Bool);
 - (void);
@@ -56,17 +53,7 @@
 ;
 
 // Remaining properties
-@property(copy) NSURL *URL; // @synthesize URL=_url;
 @property(retain) NSPersistentCloudKitContainerOptions *cloudKitContainerOptions;
-@property(copy) NSString *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy, nonatomic) NSDictionary *options;
-@property(getter=isReadOnly) _Bool readOnly;
-@property _Bool shouldAddStoreAsynchronously;
-@property _Bool shouldInferMappingModelAutomatically;
-@property _Bool shouldMigrateStoreAutomatically;
-@property(readonly, copy, nonatomic) NSDictionary *sqlitePragmas;
-@property double timeout;
-@property(copy) NSString *type; // @synthesize type=_type;
 
 @end
 

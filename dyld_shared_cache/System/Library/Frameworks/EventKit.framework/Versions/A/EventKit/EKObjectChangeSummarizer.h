@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)nRef, MROriginRef);
++ (id)kMRMediaRemotePlaybackErrorUserInfoKey;
 
 @end
 

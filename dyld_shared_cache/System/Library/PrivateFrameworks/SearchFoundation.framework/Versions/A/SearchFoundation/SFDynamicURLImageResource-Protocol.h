@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSData;
 
 @protocol SFDynamicURLImageResource
+- (void);
+- (double)ction could be found with UUID %@. All pending transactions:%@ /* Error: Ran out of types for this method. */;
+- (NSData *)|3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *formatURL;
-@property(copy, nonatomic) NSArray *imageOptions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double pixelHeight;
 @property(nonatomic) double pixelWidth;
-@property(nonatomic) _Bool supportsResizing;
 @end
 

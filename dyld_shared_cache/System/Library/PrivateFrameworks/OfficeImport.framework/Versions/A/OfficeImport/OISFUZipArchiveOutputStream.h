@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, OISFUCryptoKey, OISFUMoveableFileOutputStream, OISFUZipFreeSpaceEntry, OISFUZipOutputEntry;
-@protocol SFUOutputStream;
+@class OISFUMoveableFileOutputStream;
 
 __attribute__((visibility("hidden")))
 @interface OISFUZipArchiveOutputStream
 {
     OISFUMoveableFileOutputStream *mOutputStream;
-    OISFUCryptoKey *mCryptoKey;
-    NSData *mPassphraseHint;
-    NSData *mEncryptedDocumentUuid;
-    NSMutableArray *mEntries;
-    OISFUZipOutputEntry *mCurrentEntry;
-    OISFUZipOutputEntry *mLastEntryInFile;
-    id <SFUOutputStream> mEntryOutputStream;
-    char *mBuffer;
-    NSMutableArray *mFreeList;
-    OISFUZipFreeSpaceEntry *mCurrentFreeSpace;
-    unsigned long long mFreeBytes;
 }
 
 + (_Bool);
@@ -35,16 +23,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (unsigned int);
 - (void);
 - (_Bool);
-- (void);
+- (void)'C)?
+k@;
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -55,13 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

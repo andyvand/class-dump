@@ -10,8 +10,8 @@
 
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)apiConfigModdedHash;
+- (id)leDictionary";
 - (void);
 
 @end

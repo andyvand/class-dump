@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChatRegistry, IMDMessageStore, IMDiMessageIDSTrustedData;
+@class IMDAccount;
 
 @interface IMChatSessionCloseProcessingPipelineComponent
 {
     IMDAccount *_account;
-    IMDMessageStore *_messageStore;
-    IMDChatRegistry *_chatRegistry;
-    IMDiMessageIDSTrustedData *_idsTrustedData;
 }
 
 - (id);
 - (id);
-- (id):(id)arg1 account: /* Error: Ran out of types for this method. */;
+- (id)didReceiveMessageDeliveryReceiptForMessageID:(id)arg1 date:account: /* Error: Ran out of types for this method. */;
 - (void)etrieve object context;
 
 @end

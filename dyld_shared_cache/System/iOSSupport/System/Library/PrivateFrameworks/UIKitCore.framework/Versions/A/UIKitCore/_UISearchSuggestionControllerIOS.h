@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UISearchSuggestionControllerIOSBase.h>
 
-@class NSString, UIContextMenuInteraction, UITapGestureRecognizer;
+@class UIContextMenuInteraction, UITapGestureRecognizer;
 
 @interface _UISearchSuggestionControllerIOS : _UISearchSuggestionControllerIOSBase
 {
@@ -17,9 +17,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)is;
 - (_Bool);
-- (_Bool);
+- (_Bool)8;
 - (void);
 - (void);
 - (void);
@@ -29,22 +29,14 @@
 × ;
 - (void);
 - (void)nfo;
-- (void)undColor;
-- (id)sion;
+- (void)foregroundColor;
+- (id)_ContentVersion;
 - (void);
 - (void)m¨13I-;
 - (id)þ¦#;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIContextMenuInteraction *menuInteraction; // @synthesize menuInteraction=_menuInteraction;
-@property(retain, nonatomic) UITapGestureRecognizer *suggestionsRecoveryGesture; // @synthesize suggestionsRecoveryGesture=_suggestionsRecoveryGesture;
-@property(readonly) Class superclass;
 
 @end
 

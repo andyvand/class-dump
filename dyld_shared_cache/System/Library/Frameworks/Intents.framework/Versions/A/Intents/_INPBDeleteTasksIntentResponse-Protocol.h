@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol _INPBDeleteTasksIntentResponse
+- (void)/;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *deletedTasks;
-@property(readonly, nonatomic) unsigned long long deletedTasksCount;
 @end
 

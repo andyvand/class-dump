@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface EMListUnsubscribePostValues
 {
     NSURL *_oneClickURL;
-    NSString *_postContent;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_rem_accountObjectID;
 - (void);
 - (void)=Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *oneClickURL; // @synthesize oneClickURL=_oneClickURL;
-@property(readonly, nonatomic) NSString *postContent; // @synthesize postContent=_postContent;
 
 @end
 

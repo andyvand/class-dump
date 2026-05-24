@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (id);
+- (id)mmcs_request_type_as_c_string;
 - (_Bool);
 - (void)1Â0@ù
 × ;
 - (void)ollection">24;
 - (id)16{_NSRange=QQ}24;
-- (void)lPairingUI;
-- (void)eenSceneLifetime;
+- (void)hasSeenPencilPairingUI;
+- (void)__extendsScreenSceneLifetime;
 - (double)bstandard performance in cell autosizing. Please leave the contentView's translatesAutoresizingMaskIntoConstraints true or else provide constraints between the contentView and the cell. %@;
 
 // Remaining properties

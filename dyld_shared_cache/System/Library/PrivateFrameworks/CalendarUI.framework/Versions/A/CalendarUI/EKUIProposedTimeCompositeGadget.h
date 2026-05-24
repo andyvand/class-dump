@@ -6,12 +6,11 @@
 
 #import <CalendarUI/EKUICompositeGadget.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface EKUIProposedTimeCompositeGadget : EKUICompositeGadget
 {
     NSMutableArray *_proposedTimeGadgets;
-    NSArray *_existingConstraints;
 }
 
 + (id);
@@ -20,22 +19,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)P;
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)B;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)?<q!Y;
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *existingConstraints; // @synthesize existingConstraints=_existingConstraints;
 @property(retain) NSMutableArray *proposedTimeGadgets; // @synthesize proposedTimeGadgets=_proposedTimeGadgets;
 
 @end

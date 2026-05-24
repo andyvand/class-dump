@@ -7,10 +7,9 @@
 @interface ReminderKitInternal.TemporaryOverride__priv_BCDA9BEAAF9519B32B6DBABA4FDACDFF
 {
     id overridesToRestore;
-    id finishCalled;
 }
 
-- (void);
+- (void)ZHENGZHOU_Zhengzhou_Metro_Line_OneFour;
 - (id);
 - (void)Ð;
 

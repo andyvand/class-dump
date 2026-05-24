@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDNWDeviceReport, AWDNWL2Report, NSString;
-
 @interface AWDNWActivity
 {
     unsigned long long _activityDomain;
-    unsigned long long _activityLabel;
-    unsigned long long _investigationID;
-    unsigned long long _timestamp;
-    NSString *_activityUUID;
-    NSString *_bundleID;
-    AWDNWDeviceReport *_deviceReport;
-    AWDNWL2Report *_l2Report;
-    NSString *_parentActivityUUID;
-    _Bool _isRetry;
-    struct {
-        unsigned int activityDomain:1;
-        unsigned int activityLabel:1;
-        unsigned int investigationID:1;
-        unsigned int timestamp:1;
-        unsigned int isRetry:1;
-    } _has;
 }
 
 - (void);
@@ -35,7 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	
+J;
 - (void);
 - (id);
 - (id);
@@ -51,7 +34,7 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)@9;
 - (id);
 - (void);
 - (id);
@@ -59,41 +42,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (_Bool)U;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)!;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id))=;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activityDomain; // @synthesize activityDomain=_activityDomain;
-@property(nonatomic) unsigned long long activityLabel; // @synthesize activityLabel=_activityLabel;
-@property(retain, nonatomic) NSString *activityUUID; // @synthesize activityUUID=_activityUUID;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) AWDNWDeviceReport *deviceReport; // @synthesize deviceReport=_deviceReport;
-@property(nonatomic) _Bool hasActivityDomain;
-@property(nonatomic) _Bool hasActivityLabel;
-@property(readonly, nonatomic) _Bool hasActivityUUID;
-@property(readonly, nonatomic) _Bool hasBundleID;
-@property(readonly, nonatomic) _Bool hasDeviceReport;
-@property(nonatomic) _Bool hasInvestigationID;
-@property(nonatomic) _Bool hasIsRetry;
-@property(readonly, nonatomic) _Bool hasL2Report;
-@property(readonly, nonatomic) _Bool hasParentActivityUUID;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long investigationID; // @synthesize investigationID=_investigationID;
-@property(nonatomic) _Bool isRetry; // @synthesize isRetry=_isRetry;
-@property(retain, nonatomic) AWDNWL2Report *l2Report; // @synthesize l2Report=_l2Report;
-@property(retain, nonatomic) NSString *parentActivityUUID; // @synthesize parentActivityUUID=_parentActivityUUID;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

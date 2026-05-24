@@ -9,17 +9,9 @@
 @interface SiriInference.VideoAppSelectionModelInput
 {
     id AppUsage_7d;
-    id EntityAbsoluteCount_2min;
-    id EntityAbsoluteCount_10min;
-    id EntityAbsoluteCount_1hr;
-    id EntityAbsoluteCount_6hr;
-    id EntityAbsoluteCount_1day;
-    id EntityAbsoluteCount_7day;
-    id raw_foregroundAppSignal;
-    id LastForegroundApp;
 }
 
-- (id);
+- (id);
 - (id)nOutputP;
 
 // Remaining properties

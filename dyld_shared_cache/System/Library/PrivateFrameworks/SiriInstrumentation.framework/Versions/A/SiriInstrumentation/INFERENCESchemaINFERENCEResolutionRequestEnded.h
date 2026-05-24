@@ -6,15 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEResolutionRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)ridgeOSIgnoreMinimumVersionCheck:(_Bool)arg1 %@
+;
 - (id);
 - (void);
 - (void);
@@ -25,15 +23,13 @@
 - (id)
 × ;
 - (id)ons;
-- (id)PLUSMediaGroundTruthSummary;
+- (id)PLUSSchemaPLUSMediaGroundTruthSummary;
 - (_Bool)È=ÿ;
 - (_Bool)¯®vÉ$;
 - (void)ÿo°Ú(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

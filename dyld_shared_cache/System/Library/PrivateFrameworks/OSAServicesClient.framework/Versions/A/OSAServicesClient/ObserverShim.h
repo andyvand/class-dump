@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol OSADiagnosticObserver;
 
 @interface ObserverShim
@@ -13,23 +12,16 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)4;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <OSADiagnosticObserver> observer; // @synthesize observer=_observer;
-@property(readonly) Class superclass;
 
 @end
 

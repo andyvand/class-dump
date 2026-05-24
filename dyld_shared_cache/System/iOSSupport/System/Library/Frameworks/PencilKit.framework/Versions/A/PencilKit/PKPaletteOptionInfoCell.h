@@ -11,11 +11,10 @@
 @interface PKPaletteOptionInfoCell : PKPaletteOptionCell
 {
     UILabel *_textLabel;
-    UILabel *_subTextLabel;
 }
 
 - (id);
-- (void)nalDelegate;
+- (void)PKPaletteViewInternalDelegate;
 
 @end
 

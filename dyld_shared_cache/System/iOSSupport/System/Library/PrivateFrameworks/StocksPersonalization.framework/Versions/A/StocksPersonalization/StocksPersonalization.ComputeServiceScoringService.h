@@ -8,13 +8,11 @@
 {
     id isSubscribed;
     id computeService;
-    id articleFeaturesFactory;
-    id paidAccessChecker;
-    id prepareForUseDeduper;
 }
 
 - (id);
-- (void);
+- (void)p
+;
 
 @end
 

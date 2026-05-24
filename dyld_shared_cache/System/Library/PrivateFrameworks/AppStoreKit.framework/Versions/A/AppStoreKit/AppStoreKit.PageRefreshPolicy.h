@@ -7,9 +7,6 @@
 @interface AppStoreKit.PageRefreshPolicy
 {
     id strategy;
-    id updateDelayInterval;
-    id shouldSendEventsForPageExit;
-    id refreshForDeviceDrivenContentChange;
 }
 
 @end

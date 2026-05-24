@@ -6,14 +6,12 @@
 
 #import <UIKitMacHelper/_UINSGameModuleView.h>
 
-@class NSPanGestureRecognizer, NSString;
+@class NSPanGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UINSGameModuleSliderView : _UINSGameModuleView
 {
     NSPanGestureRecognizer *_resizeGr;
-    double _resizeStart;
-    _Bool _resizeMin;
 }
 
 - (void);
@@ -26,13 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

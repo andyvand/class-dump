@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKPackageEnumerator.h>
 
-@class CKPackageTableBase, NSEnumerator;
+@class CKPackageTableBase;
 
 @interface CKPackageTableEntryEnumerator : CKPackageEnumerator
 {
     CKPackageTableBase *_packageTable;
-    unsigned long long _fetchIndex;
-    NSEnumerator *_entryEnumerator;
 }
 
 - (id);

@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICPBDGSFinishDelegationResponse, ICPBDGSStartDelegationResponse;
+@class ICPBDGSFinishDelegationResponse;
 
 __attribute__((visibility("hidden")))
 @interface ICPBDGSResponse
 {
     ICPBDGSFinishDelegationResponse *_finishDelegationResponse;
-    unsigned int _requestUniqueID;
-    ICPBDGSStartDelegationResponse *_startDelegationResponse;
-    struct {
-        unsigned int requestUniqueID:1;
-    } _has;
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)64EncodedStringWithOptions: /* Error: Ran out of types for this method. */;
+- (void)base64EncodedStringWithOptions: /* Error: Ran out of types for this method. */;
 
 @end
 

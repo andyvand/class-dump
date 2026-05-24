@@ -6,37 +6,31 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSString;
+@class NSString;
 
 @interface AAAuthenticateRequest : AARequest
 {
     NSString *_username;
-    NSString *_password;
-    NSString *_authToken;
-    ACAccount *_account;
 }
 
-+ (Class);
++ (Class)#;
+- (id)MCCloudConfiguration.fetchConfigurationWithCompletionBlock no connection;
+- (id)tchConfigurationWithCompletionBlock call through;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ned unhandled fts_info value %d;
+- (void);
+- (id)CPMLNaiveBayesStorageManager;
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void)ompletion: /* Error: Ran out of types for this method. */;
-- (id)ESSAGE_TITLE;
+- (void)fetchSuggestedCustodiansForUpsellWithTelemetryFlowID:completion: /* Error: Ran out of types for this method. */;
+- (id)INHERITANCE_INVITE_MESSAGE_TITLE;
 - (id)ïRgåXEüv»©áÒ´ø¿u]HiFñ+NÑR/âþL/õUùÆ"6ÞQ2b-QeÀR³ó+1d5BW$Võ@TO#sø,ä[(Ò×÷KpûÄC²ãÔ5ç½ÿðÍæTÃasTÂ¥gnâ±3SÓg;
 - (void)9im imôimimimimEimSimimim½im:(id)arg1 im¹imÃim&imZim@imÂim)impimRim.imVim2im(imöimnimáim8imiméim?im©imdim]imimÏimeimimÜimzim!imGimimimÙimimÌim{imWimãimòim¼imUimim>imõim¬imimÐimim5im¶imºimlimim,imÄimiimgimoimimJimimimùimOimimüimimfimim im³imbimçimÒimóim­imÎimèimðimÕimµimimimim²im¦imñimPim_imimimFim±im§im·imsimÓim×im/imimim4imrimDim`imÿimimkimimXimim|imîimúimcimimTimþim»imÈim«imtim6imÇimuimûim"imimAimªimýimyimimÀim+imÖim%imëimimÛimim\imËimimhim£imim3imÁim1imjimimimàim;
 
 // Remaining properties
-@property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) NSString *authToken; // @synthesize authToken=_authToken;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 @property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

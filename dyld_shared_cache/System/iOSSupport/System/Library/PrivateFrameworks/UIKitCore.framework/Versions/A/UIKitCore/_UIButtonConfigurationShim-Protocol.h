@@ -5,50 +5,43 @@
 //
 
 @class NSAttributedString, NSString, UIBackgroundConfiguration, UIColor, UIImage, UIImageSymbolConfiguration;
+@protocol _UIButtonConfigurationShim;
 
 @protocol _UIButtonConfigurationShim
+- (long long)isUnfinished;
+- (UIImageSymbolConfiguration *)6;
+- (void);
+- (_Bool)v16@?0@"NSObject"8;
+- (long long);
+- (long long)CloneCompleteRequest;
+- (id <_UIButtonConfigurationShim>)invalid size for serialized fileReferenceData;
+- (double)importSubscriptionContainerArtworkForPersistentID:artworkVariantType:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)t path] videoArtworkCacheURL=%{public}@;
+- (NSAttributedString *)MPMediaLibraryDisplayValuesDidChangeNotification;
 - (NSString *);
 - (_Bool)ð1Â0@ù
 × ;
 - (long long)
 × ;
 - (UIImage *)age=}48@0:8{CGSize=dd}16d32@40 /* Error: Ran out of types for this method. */;
-- (long long)xPathForIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)currentIndexPathForIdentifier: /* Error: Ran out of types for this method. */;
 - (id)accessoryViewHorizontalAlignment;
-- (_Bool)tterShadow;
-- (void)ailingWidth;
-- (long long)napshotViewStart;
+- (_Bool)_updatePlatterShadow;
+- (void)_trailingWidth;
+- (long long)_headerSnapshotViewStart;
 - (double)V_pasteResult;
 - (UIColor *)nputViewController",&,N,V_assistantViewController;
 - (UIColor *)h^;
 - (NSAttributedString *)service when there isn't text; _UITextServiceSessionContext.textWithContext is nil.;
 - (_Bool)ere's a request to install the Keyboard Camera grabber when it already exists;
 - (long long)CADisplayLink was invalidated;
-- (long long);
 - (UIImage *);
-- (NSString *)ProgressWindowSuppressed;
-- (_Bool)nknown;
-- (NSAttributedString *)opStyle;
+- (NSString *)ActivityContinuationProgressWindowSuppressed;
+- (_Bool)IAPayloadValueMissingKeyboardOrientationLandscapeUnknown;
+- (NSAttributedString *)SearchBarUsesAutomaticBackdropStyle;
 - (UIBackgroundConfiguration *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *attributedSubtitle;
-@property(copy, nonatomic) NSAttributedString *attributedTitle;
 @property(readonly, nonatomic) UIBackgroundConfiguration *background;
-@property(readonly, nonatomic) long long buttonSize;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets contentInsets;
-@property(readonly, nonatomic) long long cornerStyle;
-@property(retain, nonatomic) UIImage *image;
-@property(readonly, nonatomic) double imagePadding;
-@property(readonly, nonatomic) unsigned long long imagePlacement;
-@property(readonly, nonatomic) long long macIdiomStyle;
-@property(copy, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfigurationForImage;
-@property(readonly, nonatomic) _Bool showsActivityIndicator;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) long long subtitleLineBreakMode;
-@property(copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) long long titleAlignment;
-@property(readonly, nonatomic) long long titleLineBreakMode;
-@property(readonly, nonatomic) double titlePadding;
 @end
 

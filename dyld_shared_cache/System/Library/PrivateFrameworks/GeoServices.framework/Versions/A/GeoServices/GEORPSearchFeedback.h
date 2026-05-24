@@ -4,54 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPSearchFeedbackContext, GEORPSearchFeedbackCorrections, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPSearchFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPSearchFeedbackContext *_context;
-    GEORPSearchFeedbackCorrections *_corrections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_c6f0c348 _flags;
 }
 
-+ (_Bool)r:(id)arg1;
++ (_Bool)setLocalContactIdentifier:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool)H;
 - (id);
 - (void);
-- (void);
+- (void)Y;
+- (id)essoryInfo";
+- (void)_voiceIdentificationTraining_withoutResultCandidateSharedUserId;
+- (void)[CSEndpointerAssetManager _fetchEndpointMobileAssetWithLanguage:(unsigned long long)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)_updateETA;
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (void)× ;
 - (id)"read_entryPoints"b1"read_mapRegion"b1"read_name"b1"read_phoneticAddress"b1"read_phoneticLocaleIdentifier"b1"read_phoneticName"b1"read_roadAccessPoints"b1"read_spokenAddress"b1"read_spokenName"b1"read_spokenStructuredAddress"b1"read_timezone"b1"wrote_anyField"b1};
-- (id)nRouteAt: /* Error: Ran out of types for this method. */;
+- (id)coordinateOnRouteAt: /* Error: Ran out of types for this method. */;
 - (id)ÔÜ;
-- (id)OMPLETION_SOURCE_TYPE_GLOV;
+- (id)COMPLETION_SOURCE_TYPE_GLOV;
 - (_Bool);
 - (void)0b;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPSearchFeedbackContext *context;
-@property(retain, nonatomic) GEORPSearchFeedbackCorrections *corrections;
 @property(readonly, nonatomic) _Bool hasContext;
-@property(readonly, nonatomic) _Bool hasCorrections;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

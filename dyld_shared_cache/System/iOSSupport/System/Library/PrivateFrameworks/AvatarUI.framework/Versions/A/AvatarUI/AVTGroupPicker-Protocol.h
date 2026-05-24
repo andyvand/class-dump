@@ -5,14 +5,13 @@
 //
 
 @class NSArray;
-@protocol AVTGroupPickerDelegate;
 
 @protocol AVTGroupPicker
+- (id)*;
+- (void)aAccessExpress;
 - (void)tarAttributeEditorSection>"8;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVTGroupPickerDelegate> delegate;
 @property(readonly, nonatomic) NSArray *groupItems;
-@property(nonatomic) long long selectedGroupIndex;
 @end
 

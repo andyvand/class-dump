@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PKColor, PKDiscoveryCallToAction, PKDiscoveryItem, PKDiscoveryMedia;
+@class NSString;
 
 @interface PKDiscoveryCard
 {
     NSString *_itemIdentifier;
-    NSDictionary *_backgroundMediaByKey;
-    NSString *_headingKey;
-    NSString *_titleKey;
-    NSString *_inlineDescriptionKey;
-    PKColor *_backgroundColor;
-    PKDiscoveryCallToAction *_callToAction;
-    long long _foregroundContentMode;
-    long long _largeCardTemplateType;
-    NSString *_heading;
-    NSString *_title;
-    NSString *_inlineDescription;
-    PKDiscoveryItem *_item;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
 - (void);
-- (long long);
+- (long long)*a;
 - (id);
 - (id);
 - (id);
@@ -41,33 +29,20 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (void);
+- (_Bool)hasTimeToDNSStartMsecs;
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id)TrustSignature: /* Error: Ran out of types for this method. */;
-- (id)equestDate;
+- (id)authorizationDidAuthorizeApplePayTrustSignature: /* Error: Ran out of types for this method. */;
+- (id)_requestDate;
 - (id)Ø\;
-- (void)n;
+- (void)spendingSummaryViewMerchantButton;
 
 // Remaining properties
-@property(readonly, nonatomic) PKColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) PKDiscoveryMedia *backgroundMedia;
-@property(readonly, nonatomic) PKDiscoveryMedia *backgroundMediaCropped;
-@property(readonly, nonatomic) PKDiscoveryMedia *backgroundMediaExpanded;
-@property(readonly, nonatomic) PKDiscoveryCallToAction *callToAction; // @synthesize callToAction=_callToAction;
-@property(readonly, nonatomic) long long foregroundContentMode; // @synthesize foregroundContentMode=_foregroundContentMode;
 @property(retain, nonatomic) NSString *heading; // @synthesize heading=_heading;
-@property(readonly, nonatomic) NSString *headingKey; // @synthesize headingKey=_headingKey;
-@property(readonly, nonatomic) NSString *inlineDescription; // @synthesize inlineDescription=_inlineDescription;
-@property(readonly, nonatomic) NSString *inlineDescriptionKey; // @synthesize inlineDescriptionKey=_inlineDescriptionKey;
-@property(nonatomic) __weak PKDiscoveryItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) long long largeCardTemplateType; // @synthesize largeCardTemplateType=_largeCardTemplateType;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSString *titleKey; // @synthesize titleKey=_titleKey;
 
 @end
 

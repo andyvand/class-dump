@@ -14,7 +14,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)d AND id>:(id)arg1 _sequence_offset ORDER BY id;
 - (id);
 - (void)RenderPipeline";
 

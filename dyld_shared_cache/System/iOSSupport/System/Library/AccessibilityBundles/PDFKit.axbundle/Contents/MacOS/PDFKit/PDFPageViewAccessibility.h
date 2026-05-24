@@ -28,13 +28,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)1;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 @end
 

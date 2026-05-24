@@ -6,17 +6,14 @@
 
 #import <AOSUI/AOSUIAccountContactBaseViewModel.h>
 
-@class NSView;
 @protocol AAOBBulletedWelcomeControllerModelProtocol;
 
 @interface AOSUIAccountContactSplashScreenViewModel : AOSUIAccountContactBaseViewModel
 {
     id <AAOBBulletedWelcomeControllerModelProtocol> _model;
-    NSView *_contentView;
-    long long _templateContentViewLayout;
 }
 
-- (long long);
+- (long long)E);
 - (void);
 - (id);
 - (void);

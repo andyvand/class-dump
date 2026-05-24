@@ -11,13 +11,13 @@
     NSDate *_date;
 }
 
-- (id);
-- (double);
-- (id);
+- (id)s;
+- (double)Y%s;
+- (id)Z{;
 - (void);
 - (struct CGSize);
 - (void);
-- (void)eekDayInitialsAdjustTop;
+- (void)weekDayInitialsAdjustTop;
 
 // Remaining properties
 @property(retain) NSDate *date; // @synthesize date=_date;

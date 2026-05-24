@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     NSError *_error;
 }
 
++ (id)MSPShareETAMessageQueueDelayIntervalKey;
++ (id)MSPShareETAMessageQueueInitialIntervalKey;
++ (id)MSPShareETAPermitSatelliteMessageServicesKey;
 + (id);
-+ (id);
-+ (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)@Merge resulted in changes, posting update notification;
 - (void)object IDs for MKFCKSharedHome;
-- (void)ounce_enabled_value;
+- (void)root_announce_enabled_value;
 
 @end
 

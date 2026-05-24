@@ -4,41 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCServiceSubscriptionContext, CWFInterface, CoreTelephonyClient, NSDictionary, NSHashTable, NSMutableSet, NSObject, NSString, NWNetworkOfInterestManager, NWPathEvaluator;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICEnvironmentMonitor
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSHashTable *_observers;
-    struct os_unfair_recursive_lock_s _observersLock;
-    NWPathEvaluator *_networkPathEvaluator;
-    int _thermalNotificationToken;
-    CoreTelephonyClient *_telephonyClient;
-    int _telephonyStatusIndicator;
-    CTXPCServiceSubscriptionContext *_dataSubscriptionContext;
-    NSDictionary *_cellSignalInfo;
-    CWFInterface *_wifiInterface;
-    NWNetworkOfInterestManager *_noiManager;
-    NSMutableSet *_networksOfInterest;
-    int _batteryNotificationToken;
-    int _powerSourceNotificationToken;
-    _Bool _charging;
-    _Bool _remoteServerReachable;
-    _Bool _remoteServerLikelyReachable;
-    _Bool _currentNetworkLinkExpensive;
-    _Bool _wifiAssociated;
-    _Bool _ethernetWired;
-    _Bool _wiFiActive;
-    _Bool _networkConstrained;
-    long long _networkType;
-    long long _lastKnownNetworkType;
-    unsigned long long _currentNetworkLinkQuality;
-    unsigned long long _currentThermalLevel;
-    double _currentBatteryLevel;
-    NSString *_telephonyOperatorName;
-    NSString *_telephonyRegistrationStatus;
 }
 
 + (id);
@@ -46,27 +17,70 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)geometryWithSources:elements:sourceChannels: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_debugDrawer;
+- (void);
 - (void);
 - (id);
+- (long long);
+- (id);
+- (void);
 - (_Bool);
 - (long long);
 - (_Bool);
+- (void);
 - (_Bool);
-- (double);
-- (unsigned long long);
+- (void)stackViewTopConstraint;
+- (id);
+- (_Bool);
+- (long long);
+- (_Bool)`;
+- (_Bool);
+- (double)if (abs(shadow - 0.5) >= 0.4375) {
+//            if (shadow <= 0.0625 && shadow >= 0.9375) { // no penumbra
+            } else { // penumbra
+                //smooth all samples
+                for(; i<largeKernelSize; i++){
+                    //get z in light map
+                    vec2 pt = ptLightScreen + (kernel[i]*filteringSizeFactor);
+                    float lightDepth = texture2DRect(lightDepthSampler, pt).x;
+                    
+                    totalAccum += clamp(zThreshold * (distLight - lightDepth), 0.0, 1.0);
+                }
+                
+                shadow = totalAccum / float(largeKernelSize); // 1 / 32
+                
+                //debug
+                //color.r = 1.0;
+            }
+#endif
+            
+        }
+    }
+    
+#if USE_BLUR    
+    //blur mode
+    gl_FragColor = vec4(1.0 - shadow, 0.0,0.0, 1.0);//todo:write in depth texture
+#else
+    //apply shadow on color buffer
+    gl_FragColor = mix(color.rgba, vec4(shadowColor.rgb, 1.0), shadowColor.a * shadow);
+#endif
+}
+
+ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ct(colorMap, TexCoord + vec2(1.0, -1.0));
+		average     += texture2DRect(colorMap, TexCoord + vec2(-1.0, 0.0));
+		average     += texture2DRect(colorMap, TexCoord + vec2(1.0, 0.0));
+		average     += texture2DRect(colorMap, TexCoord + vec2(-1.0, 1.0));
+		average     += texture2DRect(colorMap, TexCoord + vec2(0.0, 1.0));
+		average     += texture2DRect(colorMap, TexCoord + vec2(1.0, 1.0));
+
+		average += color;
+		average /= 9.0;
+
+		gl_FragColor = factor * average + (1.0-factor) * color;
+	}
+};
 - (_Bool);
 - (long long);
 - (void);
@@ -75,17 +89,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)";
 - (long long);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
 - (void);
@@ -94,32 +108,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCharging) _Bool charging; // @synthesize charging=_charging;
-@property(readonly, nonatomic) double currentBatteryLevel; // @synthesize currentBatteryLevel=_currentBatteryLevel;
-@property(readonly, nonatomic, getter=isCurrentNetworkLinkExpensive) _Bool currentNetworkLinkExpensive; // @synthesize currentNetworkLinkExpensive=_currentNetworkLinkExpensive;
-@property(readonly, nonatomic, getter=isCurrentNetworkLinkHighQuality) _Bool currentNetworkLinkHighQuality;
-@property(readonly, nonatomic) unsigned long long currentNetworkLinkQuality; // @synthesize currentNetworkLinkQuality=_currentNetworkLinkQuality;
-@property(readonly, nonatomic) unsigned long long currentThermalLevel; // @synthesize currentThermalLevel=_currentThermalLevel;
-@property(readonly, nonatomic) long long currentThermalPressureLevel;
-@property(readonly, nonatomic) long long currentThermalState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEthernetWired) _Bool ethernetWired; // @synthesize ethernetWired=_ethernetWired;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long lastKnownNetworkType; // @synthesize lastKnownNetworkType=_lastKnownNetworkType;
-@property(readonly, nonatomic, getter=isNetworkConstrained) _Bool networkConstrained; // @synthesize networkConstrained=_networkConstrained;
-@property(readonly, nonatomic) long long networkType; // @synthesize networkType=_networkType;
-@property(readonly, nonatomic, getter=isRemoteServerLikelyReachable) _Bool remoteServerLikelyReachable; // @synthesize remoteServerLikelyReachable=_remoteServerLikelyReachable;
-@property(readonly, nonatomic, getter=isRemoteServerReachable) _Bool remoteServerReachable; // @synthesize remoteServerReachable=_remoteServerReachable;
-@property(readonly, nonatomic) NSDictionary *signalInfo;
-@property(readonly, nonatomic) NSDictionary *signalStrength;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *telephonyOperatorName; // @synthesize telephonyOperatorName=_telephonyOperatorName;
-@property(readonly, copy, nonatomic) NSString *telephonyRegistrationStatus; // @synthesize telephonyRegistrationStatus=_telephonyRegistrationStatus;
-@property(readonly, nonatomic, getter=isWiFiActive) _Bool wiFiActive; // @synthesize wiFiActive=_wiFiActive;
-@property(readonly, nonatomic, getter=isWiFiAssociated) _Bool wifiAssociated; // @synthesize wifiAssociated=_wifiAssociated;
 
 @end
 

@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NTPBLRUCacheEntry
 {
     unsigned long long _lastAccessed;
-    NSData *_key;
-    NSData *_value;
-    struct {
-        unsigned int lastAccessed:1;
-    } _has;
 }
 
+- (void)sePredicate:(unsigned long long)arg1 options:ignoreSharedLibraryFilters: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)beginMusicDucking;
+- (_Bool)_updateQueue_playRequestIntervalSignpost;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)Ko;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -33,16 +26,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasLastAccessed;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(nonatomic) unsigned long long lastAccessed; // @synthesize lastAccessed=_lastAccessed;
-@property(retain, nonatomic) NSData *value; // @synthesize value=_value;
 
 @end
 

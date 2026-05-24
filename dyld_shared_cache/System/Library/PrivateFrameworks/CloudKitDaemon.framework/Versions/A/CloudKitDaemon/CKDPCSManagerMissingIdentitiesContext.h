@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAccount, CKDContainer, NSMutableSet;
+@class CKDAccount;
 
 @interface CKDPCSManagerMissingIdentitiesContext
 {
     CKDAccount *_account;
-    NSMutableSet *_servicesWithMissingIdentities;
-    NSMutableSet *_missingIdentityPublicKeys;
-    CKDContainer *_container;
 }
 
 - (void);
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (id)tart:nonDiscretionary:error: /* Error: Ran out of types for this method. */;
-- (id)n;
+- (id)handleDiscretionaryOperationShouldStart:nonDiscretionary:error: /* Error: Ran out of types for this method. */;
+- (id)CKDModifyRecordsOperation;
 - (void)etrieveResponseUploadToken on %@;
 - (void)ì;
 
 // Remaining properties
 @property(retain, nonatomic) CKDAccount *account; // @synthesize account=_account;
-@property(nonatomic) __weak CKDContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) NSMutableSet *missingIdentityPublicKeys; // @synthesize missingIdentityPublicKeys=_missingIdentityPublicKeys;
-@property(retain, nonatomic) NSMutableSet *servicesWithMissingIdentities; // @synthesize servicesWithMissingIdentities=_servicesWithMissingIdentities;
 
 @end
 

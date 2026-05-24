@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccountRepository, ABUserDefaults;
+@class ABAccountRepository;
 
 @interface ABDefaultAccountPreference
 {
     ABAccountRepository *_repository;
-    ABUserDefaults *_preferences;
 }
 
 + (id);
@@ -19,10 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)qA;
 - (void);
 - (id);
-- (void);
+- (void)setIsChatbot: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

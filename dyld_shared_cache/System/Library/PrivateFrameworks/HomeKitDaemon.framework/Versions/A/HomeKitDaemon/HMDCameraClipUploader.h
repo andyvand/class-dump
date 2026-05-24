@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, HMCameraClipEncryptionManager, NAFuture, NSDate, NSDictionary, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol HMDCameraClipUploaderFactory, HMDCameraClipUploadingDelegate, OS_dispatch_queue;
+@class NSDate, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipUploader
 {
     NSUUID *_clipUUID;
-    id <HMDCameraClipUploadingDelegate> _delegate;
-    NSDate *_startDate;
-    double _targetFragmentDuration;
-    long long _quality;
-    HMBLocalZone *_localZone;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_logIdentifier;
-    HMCameraClipEncryptionManager *_encryptionManager;
-    id <HMDCameraClipUploaderFactory> _factory;
-    NSMutableArray *_operations;
-    NAFuture *_didCreateClipFuture;
 }
 
 + (id)ºÿ;
-- (void);
+- (void)DeviceIdentityIssueClientCertificateWithCompletion;
 - (id);
 - (id);
 - (_Bool);
@@ -34,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (_Bool);
 - (void);
@@ -42,11 +30,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)semanticalDedupingUsesAdaptiveSimilarStacking;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -61,26 +49,7 @@ __attribute__((visibility("hidden")))
 - (id)a=;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *clipUUID; // @synthesize clipUUID=_clipUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraClipUploadingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NAFuture *didCreateClipFuture; // @synthesize didCreateClipFuture=_didCreateClipFuture;
-@property(readonly) HMCameraClipEncryptionManager *encryptionManager; // @synthesize encryptionManager=_encryptionManager;
-@property(readonly) id <HMDCameraClipUploaderFactory> factory; // @synthesize factory=_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) NSMutableArray *operations; // @synthesize operations=_operations;
-@property(readonly) long long quality; // @synthesize quality=_quality;
 @property(readonly, copy) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) Class superclass;
-@property(readonly) double targetFragmentDuration; // @synthesize targetFragmentDuration=_targetFragmentDuration;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

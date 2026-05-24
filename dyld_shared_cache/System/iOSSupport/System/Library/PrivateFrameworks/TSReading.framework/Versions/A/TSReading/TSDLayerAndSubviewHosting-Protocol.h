@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, TSDCanvasSubviewsController, UIView, UIViewController;
+@class CALayer, TSDCanvasSubviewsController, UIView;
 
 @protocol TSDLayerAndSubviewHosting
+- (CALayer *)aPlaybackCore/MPCMediaRemoteController;
+- (TSDCanvasSubviewsController *)FailedToDecodeDialogActionOptions;
 - (UIView *)PTextMagnifierRanged underlayImageName];
 
 // Remaining properties
-@property(readonly, retain, nonatomic) CALayer *containerLayer;
-@property(readonly, retain, nonatomic) UIView *containerView;
-@property(readonly, retain, nonatomic) UIViewController *containerViewController;
-@property(readonly, retain, nonatomic) TSDCanvasSubviewsController *subviewsController;
 @property(readonly, retain, nonatomic) CALayer *topLevelTilingLayer;
 @end
 

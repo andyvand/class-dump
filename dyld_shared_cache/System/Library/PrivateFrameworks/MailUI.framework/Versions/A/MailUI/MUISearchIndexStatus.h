@@ -7,8 +7,6 @@
 @interface MUISearchIndexStatus
 {
     unsigned long long _messageBodiesIndexed;
-    unsigned long long _totalMessages;
-    unsigned long long _messagesInLargestRemoteAccount;
 }
 
 - (unsigned long long);
@@ -19,11 +17,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isNotFullyIndexed;
-@property(readonly, nonatomic) unsigned long long messageBodiesIndexed; // @synthesize messageBodiesIndexed=_messageBodiesIndexed;
 @property(readonly, nonatomic) unsigned long long messagesInLargestRemoteAccount; // @synthesize messagesInLargestRemoteAccount=_messagesInLargestRemoteAccount;
-@property(readonly, nonatomic) long long scenario;
-@property(readonly, nonatomic) unsigned long long totalMessages; // @synthesize totalMessages=_totalMessages;
 
 @end
 

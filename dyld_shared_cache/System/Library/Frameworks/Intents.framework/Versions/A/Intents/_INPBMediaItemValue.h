@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBImageValue, _INPBPrivateMediaItemValueData, _INPBValueMetadata;
+@class NSString;
 
 @interface _INPBMediaItemValue
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    NSString *_artist;
-    _INPBImageValue *_artwork;
-    NSString *_assetInfo;
-    NSString *_identifier;
-    NSArray *_namedEntities;
-    _INPBPrivateMediaItemValueData *_privateMediaItemValueData;
-    NSString *_title;
-    NSArray *_topics;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (Class);
@@ -43,10 +33,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)isInternalBuild;
+- (unsigned long long)3;
 - (_Bool);
-- (id);
+- (id)ed;
 - (id);
 - (int);
 - (_Bool);
@@ -54,54 +44,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (int);
+- (int)`;
 - (_Bool);
 - (id)! FùQ¿(Ð1Â0@ù
 × ;
-- (id)UnsupportedReason;
+- (id)_searchForMediaIntentMediaItemsUnsupportedReason;
 - (id)_fullName;
-- (_Bool)AttributeMetadataINIntentResponseParameterMetadataDefaultUnit;
+- (_Bool)__INCodableTimeIntervalAttributeMetadataINIntentResponseParameterMetadataDefaultUnit;
 - (_Bool)g8i;
 - (void),Ê;
-- (void)ualCodeIntent;
+- (void)INGetVisualCodeIntent;
 - (_Bool)kit.intent.GetReservationDetailsIntentResponse;
 - (void);
 - (id)%BQJÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) _INPBImageValue *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) NSString *assetInfo; // @synthesize assetInfo=_assetInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArtist;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasAssetInfo;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPrivateMediaItemValueData;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *namedEntities; // @synthesize namedEntities=_namedEntities;
-@property(readonly, nonatomic) unsigned long long namedEntitiesCount;
-@property(retain, nonatomic) _INPBPrivateMediaItemValueData *privateMediaItemValueData; // @synthesize privateMediaItemValueData=_privateMediaItemValueData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSArray *topics; // @synthesize topics=_topics;
-@property(readonly, nonatomic) unsigned long long topicsCount;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

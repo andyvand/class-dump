@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet;
+@class NSArray;
 
 @interface AKSegmentedCtrl
 {
     unsigned long long _selectionType;
-    unsigned long long _selectedSegment;
-    NSArray *_images;
-    NSArray *_buttons;
-    NSMutableOrderedSet *_selectionStack;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void), schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE date > ?   AND item_type == 0   AND error != 0   AND is_from_me == 1   AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT ?;;
 - (long long);
 - (void);
 - (void);
@@ -37,7 +33,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)kSceneSourceUseSafeMode;
 - (void);
 - (id);
 - (void);
@@ -45,11 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
 @property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(nonatomic) unsigned long long selectedSegment; // @synthesize selectedSegment=_selectedSegment;
-@property(retain, nonatomic) NSMutableOrderedSet *selectionStack; // @synthesize selectionStack=_selectionStack;
-@property(nonatomic) unsigned long long selectionType; // @synthesize selectionType=_selectionType;
 
 @end
 

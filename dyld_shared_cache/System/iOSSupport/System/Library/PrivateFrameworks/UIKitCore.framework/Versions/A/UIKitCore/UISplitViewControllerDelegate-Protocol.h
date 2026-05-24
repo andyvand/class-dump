@@ -5,5 +5,10 @@
 //
 
 @protocol UISplitViewControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (void)}};
 @end
 

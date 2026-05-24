@@ -4,63 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSMutableArray, SSPlistDataReader, spotlight_l3_1;
+@class NSCondition, SSPlistDataReader;
 
 @interface L3ModelManager
 {
     NSCondition *_condition;
-    _Bool _loaded;
-    spotlight_l3_1 *_model;
-    SSPlistDataReader *_bundleDict;
-    SSPlistDataReader *_localeDict;
-    NSMutableArray *_idFeatureConfigs;
-    NSMutableArray *_denseFeatureConfigs;
 }
 
-+ (struct _MDPlistContainer *);
-+ (const char *);
-+ (long long);
-+ (float);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
++ (struct _MDPlistContainer *)initWithHost:(id)arg1 leadingText:leadingStyle:trailingText:trailingStyle:button:balancingMode: /* Error: Ran out of types for this method. */;
++ (const char *)attributedString;
++ (long long)arrayByAddingObject:(CDStruct_04aed232 *)arg1;
++ (float)applyToAllViews:(CDStruct_04aed232 *)arg1;
++ (_Bool)animationDidStart:(CDStruct_04aed232 *)arg1;
++ (id)animateOut;
++ (id)animateInViews;
++ (id)animateFromOldFrame:(CDStruct_04aed232 *)arg1 oldMediaBackgroundFrame:(const char *)arg2 oldCaptionBarView: /* Error: Ran out of types for this method. */;
++ (id)alphaComponent;
+- (void)tadataProviderSpecialization"16;
+- (void)RegularExpression"16@0:(id)arg1 8;
+- (void)0:(id)arg1 8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSURLSessionDownloadTask"32;
+- (void)usesComputedPresentationProperties;
+- (id)setMenuFont:(id)arg1;
+- (id)setMediaTopCaption:(id)arg1;
+- (float)setApplicationBundleIdenfier:(float)arg1;
+- (id)registeredTypeIdentifiers;
+- (_Bool)registerBagKeySet:(id)arg1 forProfile:profileVersion: /* Error: Ran out of types for this method. */;
+- (_Bool)redComponent;
+- (id)initWithBundleIdentifier:allowPlaceholder:error: /* Error: Ran out of types for this method. */;
+- (long long)hidePlayButtonAnimated:(id)arg1;
+- (long long)gestureRecognizer:(id)arg1 shouldRequireFailureOfGestureRecognizer:(long long)arg2;
+- (void)filteredImageFromImage:(id)arg1 filterInfo:(id)arg2 size:(id)arg3 contentsScale:(long long)arg4 waitForCPUSynchronization:(_Bool)arg5 logKey:completion: /* Error: Ran out of types for this method. */;
+- (id)displayTitle;
+- (id)assetsToFetch;
+- (_Bool)_setSelectedVariantIndex: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (id)e"16@0:(id)arg1 8;
 - (id);
+- (_Bool);
 - (float);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (float);
-- (void)dicateForRelativeFeature:currentTime: /* Error: Ran out of types for this method. */;
+- (void)_predicateForRelativeFeature:currentTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SSPlistDataReader *bundleDict; // @synthesize bundleDict=_bundleDict;
-@property(retain, nonatomic) NSMutableArray *denseFeatureConfigs; // @synthesize denseFeatureConfigs=_denseFeatureConfigs;
-@property(retain, nonatomic) NSMutableArray *idFeatureConfigs; // @synthesize idFeatureConfigs=_idFeatureConfigs;
-@property _Bool loaded; // @synthesize loaded=_loaded;
-@property(retain, nonatomic) SSPlistDataReader *localeDict; // @synthesize localeDict=_localeDict;
-@property(retain, nonatomic) spotlight_l3_1 *model; // @synthesize model=_model;
 
 @end
 

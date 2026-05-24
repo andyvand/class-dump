@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetManager, FCThreadSafeMutableSet, NSString;
+@class FCAssetManager;
 
 @interface FCAVAssetResourceLoader
 {
     FCAssetManager *_assetManager;
-    FCThreadSafeMutableSet *_whitelistedMasterPlaylistURLs;
 }
 
 - (void);
@@ -19,19 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (void)d;
+- (void)issuesNewsletterOptinEnabled;
 - (_Bool)HäÃÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) FCAssetManager *assetManager; // @synthesize assetManager=_assetManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) FCThreadSafeMutableSet *whitelistedMasterPlaylistURLs; // @synthesize whitelistedMasterPlaylistURLs=_whitelistedMasterPlaylistURLs;
 
 @end
 

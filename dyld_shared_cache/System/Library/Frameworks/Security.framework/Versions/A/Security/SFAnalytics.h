@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, SFAnalyticsCollection, SFAnalyticsSQLiteStore;
-@protocol OS_dispatch_queue;
+@class NSMutableSet, SFAnalyticsSQLiteStore;
 
 @interface SFAnalytics
 {
     SFAnalyticsSQLiteStore *_database;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_samplers;
-    NSMutableDictionary *_multisamplers;
-    unsigned int _disableLogging:1;
-    NSMutableSet *_metricsHooks;
-    SFAnalyticsCollection *_collection;
 }
 
-+ (id);
++ (id)!;
 + (id);
 + (id);
 + (id);
 + (id);
 + (long long);
-+ (void);
++ (void)j;
 + (_Bool);
 + (id);
 + (id);
@@ -36,9 +29,9 @@
 + (_Bool);
 + (long long);
 + (_Bool);
-+ (_Bool);
++ (_Bool)L;
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id)tentref for key %@;
 + (id);
@@ -64,27 +57,27 @@
 - (void);
 - (void);
 - (void);
+- (void)l;
+- (void);
+- (void)e;
+- (void)el ;
+- (id);
+- (void);
+- (void)OSAControlFlowError;
 - (void);
 - (void);
 - (void);
+- (id)@;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -92,20 +85,12 @@
 - (id);
 - (void);
 - (id)y from %s;
-- (void)tionAdditions;
-- (void)itCredRequest;
-- (id);
+- (void)SecTrustStoreCopyCARevocationAdditions;
+- (void)SubmitCredRequest;
+- (id)SOSCCCopyViewUnawarePeerInfo;
 
 // Remaining properties
-@property(retain) SFAnalyticsCollection *collection; // @synthesize collection=_collection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMutableSet *metricsHooks; // @synthesize metricsHooks=_metricsHooks;
-@property(readonly) Class superclass;
 
 @end
 

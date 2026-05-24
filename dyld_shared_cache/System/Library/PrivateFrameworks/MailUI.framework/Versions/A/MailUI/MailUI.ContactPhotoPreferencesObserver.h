@@ -7,12 +7,11 @@
 @interface MailUI.ContactPhotoPreferencesObserver
 {
     id updateClosure;
-    id observer;
 }
 
 - (void);
 - (id);
-- (void)PredictionFuture;
+- (void)mailboxPredictionFuture;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface AccessoryLiveActivities.LiveActivityForwarding.Session
 {
     id realSession;
+    id;
 }
 
 @end

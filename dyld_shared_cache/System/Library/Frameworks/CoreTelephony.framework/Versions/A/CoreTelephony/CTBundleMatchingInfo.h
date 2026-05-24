@@ -9,11 +9,9 @@
 @interface CTBundleMatchingInfo
 {
     NSString *_mcc;
-    NSString *_mnc;
-    NSString *_imsi;
 }
 
-+ (_Bool);
++ (_Bool)helper;
 - (void);
 - (id);
 - (void);
@@ -21,16 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)}@ cid:(id)arg1 %u;
 - (id);
 - (id);
 - (void)±ª)ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *imsi; // @synthesize imsi=_imsi;
 @property(retain, nonatomic) NSString *mcc; // @synthesize mcc=_mcc;
-@property(retain, nonatomic) NSString *mnc; // @synthesize mnc=_mnc;
 
 @end
 

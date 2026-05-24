@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSString;
 
 @interface VSAccountChannels
 {
     NSString *_providerID;
-    NSString *_adamID;
-    NSSet *_channelIDs;
-    NSDictionary *_providerInfo;
 }
 
 + (id);
 - (void);
 - (id);
+- (id)R;
 - (id);
-- (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)@!hm;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -34,10 +31,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *adamID; // @synthesize adamID=_adamID;
-@property(copy, nonatomic) NSSet *channelIDs; // @synthesize channelIDs=_channelIDs;
 @property(copy, nonatomic) NSString *providerID; // @synthesize providerID=_providerID;
-@property(copy, nonatomic) NSDictionary *providerInfo; // @synthesize providerInfo=_providerInfo;
 
 @end
 

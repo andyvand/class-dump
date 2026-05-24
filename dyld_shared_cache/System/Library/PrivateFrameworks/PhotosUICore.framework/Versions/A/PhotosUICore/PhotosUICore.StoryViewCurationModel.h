@@ -7,14 +7,6 @@
 @interface PhotosUICore.StoryViewCurationModel
 {
     id _currentCurationKind;
-    id _availableCurationKinds;
-    id _allCurationKinds;
-    id observable;
-    id storyViewModel;
-    id storyViewModelObservation;
-    id customStoryViewDurationChangeHandler;
-    id recipeManager;
-    id recipeManagerObservation;
 }
 
 @end

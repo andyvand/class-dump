@@ -9,28 +9,20 @@
 @interface SODisambiguationItem
 {
     NSString *_titleText;
-    NSString *_descriptionText;
-    id _object;
-    id _target;
-    SEL _action;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)GConversationTurnProtocol>"8Q16^B24;
 - (void);
-- (void);
+- (void);
 - (id);
 - (SEL);
-- (void);
+- (void)(=;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(retain) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
-@property(retain) id object; // @synthesize object=_object;
-@property(retain) id target; // @synthesize target=_target;
 @property(retain) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end

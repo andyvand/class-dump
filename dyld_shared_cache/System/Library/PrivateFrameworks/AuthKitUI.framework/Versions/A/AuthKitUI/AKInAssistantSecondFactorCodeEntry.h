@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPinFieldView, NSButton, NSLayoutConstraint, NSNumber, NSObject, NSProgressIndicator, NSString, NSTextField, NSView;
-@protocol AKSecondFactorCodeEntryDelegate;
+@class AKPinFieldView;
 
 @interface AKInAssistantSecondFactorCodeEntry
 {
     _Bool _isCodeEditable;
-    NSObject<AKSecondFactorCodeEntryDelegate> *_delegate;
-    CDUnknownBlockType _pinEnteredBlock;
-    CDUnknownBlockType _cancelBlock;
-    CDUnknownBlockType _noCodeBlock;
-    NSView *_pinContainerView;
-    NSTextField *_instructionLabel;
-    NSTextField *_errorLabel;
-    NSButton *_didntGetCodeButton;
-    NSProgressIndicator *_progressIndicator;
-    NSLayoutConstraint *_widthOfPinViewConstraint;
-    NSNumber *_codeLength;
-    AKPinFieldView *_pinView;
-    NSString *_code;
-    NSString *_message;
 }
 
 - (id);
+- (void)r.;
+- (void);
+- (void);
+- (void)Z:(CDUnknownBlockType)arg1 ;
 - (void);
 - (void);
 - (void);
+- (void)R;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)u;
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
@@ -50,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -64,37 +49,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
+- (id)H;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void)or;
+- (void)ac_secureCodingError;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(retain, nonatomic) NSString *code; // @synthesize code=_code;
-@property(retain, nonatomic) NSNumber *codeLength; // @synthesize codeLength=_codeLength;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSObject<AKSecondFactorCodeEntryDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSButton *didntGetCodeButton; // @synthesize didntGetCodeButton=_didntGetCodeButton;
-@property(readonly, nonatomic) NSNumber *enteredPin;
-@property(retain, nonatomic) NSTextField *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSTextField *instructionLabel; // @synthesize instructionLabel=_instructionLabel;
-@property(nonatomic, setter=setCodeEditable:) _Bool isCodeEditable; // @synthesize isCodeEditable=_isCodeEditable;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) CDUnknownBlockType noCodeBlock; // @synthesize noCodeBlock=_noCodeBlock;
-@property(retain, nonatomic) NSView *pinContainerView; // @synthesize pinContainerView=_pinContainerView;
-@property(copy, nonatomic) CDUnknownBlockType pinEnteredBlock; // @synthesize pinEnteredBlock=_pinEnteredBlock;
 @property(retain, nonatomic) AKPinFieldView *pinView; // @synthesize pinView=_pinView;
-@property(retain, nonatomic) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *widthOfPinViewConstraint; // @synthesize widthOfPinViewConstraint=_widthOfPinViewConstraint;
 
 @end
 

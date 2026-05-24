@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)""fWeakMenuItemTarget"{TNSWeakPtr<NSObject<FILocationMenuItemTargetProtocol>>="fWeakObject"@"NSObject<FILocationMenuItemTargetProtocol>"}"fScaleFactor"d"fIsDarkBackground"B"fIsSavePanel"B"fInMovePanel"B"fIncludeAncestors"B"fShowKeyEquivalents"B"fShowICloud"B"fShowFavorites"B"fShowDevices"B"fSidebarIsHidden"B"fWantsShowHideSidebarSection"B"fShowOtherSection"B};
 - (id);
 
 @end

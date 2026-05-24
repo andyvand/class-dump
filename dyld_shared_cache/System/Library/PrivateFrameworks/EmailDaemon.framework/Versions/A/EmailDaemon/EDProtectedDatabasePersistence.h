@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabase, EDPersistenceDatabaseJournalManager, EDPersistenceHookRegistry, EFLocked, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class EDPersistenceHookRegistry;
 
 @interface EDProtectedDatabasePersistence
 {
     struct os_unfair_lock_s _initializationLock;
-    struct os_unfair_lock_s _reconciliationLock;
-    EDPersistenceDatabase *_database;
-    _Bool _isInitialized;
-    _Bool _isReconciling;
-    EDPersistenceDatabaseJournalManager *_journalManager;
-    EDPersistenceHookRegistry *_hookRegistry;
-    NSObject<OS_dispatch_queue> *_reconciliationQueue;
-    EFLocked *_reconciliationMergeHandlers;
 }
 
 + (id);
-+ (id);
++ (id)�?;
 + (id);
 + (id);
 + (unsigned long long);
 + (_Bool);
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -68,7 +59,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)UsoEntityBuilderProtocol_common_VoiceTrigger;
 - (unsigned long long);
 - (id);
 - (void);
@@ -77,22 +68,7 @@
 - (_Bool)0È;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(nonatomic) _Bool isInitialized; // @synthesize isInitialized=_isInitialized;
-@property(nonatomic) _Bool isReconciling; // @synthesize isReconciling=_isReconciling;
-@property(readonly, nonatomic) EDPersistenceDatabaseJournalManager *journalManager; // @synthesize journalManager=_journalManager;
-@property(readonly, nonatomic) _Bool protectedDataAvailable;
-@property(readonly, nonatomic) EFLocked *reconciliationMergeHandlers; // @synthesize reconciliationMergeHandlers=_reconciliationMergeHandlers;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *reconciliationQueue; // @synthesize reconciliationQueue=_reconciliationQueue;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsJournaling;
 
 @end
 

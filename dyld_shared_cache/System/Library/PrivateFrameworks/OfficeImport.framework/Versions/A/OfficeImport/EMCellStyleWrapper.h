@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface EMCellStyleWrapper
 {
     OITSUColor *_fillColor;
-    EDStyle *_edStyle;
 }
 
 + (id);
@@ -25,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) EDStyle *edStyle; // @synthesize edStyle=_edStyle;
-@property(readonly) OITSUColor *fillColor;
-@property(readonly) _Bool isVisible;
 
 @end
 

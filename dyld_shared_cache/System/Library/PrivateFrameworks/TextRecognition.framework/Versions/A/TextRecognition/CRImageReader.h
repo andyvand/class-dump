@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRPerformanceStatistics, NSArray, NSDictionary;
+@class NSArray, NSDictionary;
 
 @interface CRImageReader
 {
     NSDictionary *_userOptions;
-    id _engine;
-    NSArray *__outputObjectTypes;
 }
 
 + (id);
@@ -47,7 +45,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -56,43 +54,27 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (struct CGSize);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)getFirstFolderDescendentPassingTest:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)pedDD;
+- (void)wrappedDD;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *_outputObjectTypes; // @synthesize _outputObjectTypes=__outputObjectTypes;
-@property(nonatomic, readonly) CRPerformanceStatistics *detectorInferenceStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *detectorStats;
-@property(retain, nonatomic) id engine; // @synthesize engine=_engine;
-@property(nonatomic, readonly) CRPerformanceStatistics *formAnalyzerStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *formDetectionStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *formPostProcessingStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *lineWrappingStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *orientationCorrectionStats;
 @property(nonatomic, copy) NSArray *outputObjectTypes;
-@property(nonatomic, readonly) CRPerformanceStatistics *postProcStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *recognizerDecodingStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *recognizerInferenceStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *recognizerStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *tableStructureRecognitionStats;
-@property(nonatomic, readonly) CRPerformanceStatistics *textGroupingStats;
-@property(retain, nonatomic) NSDictionary *userOptions; // @synthesize userOptions=_userOptions;
 
 @end
 

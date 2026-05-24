@@ -6,33 +6,22 @@
 
 #import <HomeKitDaemon/_MKFObject.h>
 
-@class MKFMatterLocalKeyValuePairDatabaseID, NSData, NSString;
-@protocol MKFHome;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MKFMatterLocalKeyValuePair : _MKFObject
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)C;
 + (id);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFMatterLocalKeyValuePairDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(readonly, copy, nonatomic) NSString *key; // @dynamic key;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *value; // @dynamic value;
+@property(copy, nonatomic) NSString *key; // @dynamic key;
 
 @end
 

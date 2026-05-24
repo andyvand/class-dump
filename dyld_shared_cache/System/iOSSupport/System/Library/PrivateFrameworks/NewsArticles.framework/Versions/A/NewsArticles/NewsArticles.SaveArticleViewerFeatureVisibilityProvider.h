@@ -7,8 +7,6 @@
 @interface NewsArticles.SaveArticleViewerFeatureVisibilityProvider
 {
     id featureAvailability;
-    id paidAccessChecker;
-    id readingList;
 }
 
 @end

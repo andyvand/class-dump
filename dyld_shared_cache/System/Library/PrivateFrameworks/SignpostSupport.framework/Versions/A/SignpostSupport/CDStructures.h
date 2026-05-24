@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct time {
@@ -40,11 +40,11 @@ struct timezone {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long mct;
-    double ns;
-    double ms;
-    double sec;
-} CDStruct_3fc1305c;
+    unsigned long long _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_e65d4017;
 
 typedef struct {
     int _field1;

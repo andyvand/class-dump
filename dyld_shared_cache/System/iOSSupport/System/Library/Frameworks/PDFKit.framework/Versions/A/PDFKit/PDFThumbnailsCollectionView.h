@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString, PDFThumbnailView, UICollectionView, UICollectionViewDiffableDataSource, UIView;
+@class PDFThumbnailView;
 
 __attribute__((visibility("hidden")))
 @interface PDFThumbnailsCollectionView
 {
     PDFThumbnailView *_thumbnailView;
-    UICollectionView *_collectionView;
-    UICollectionViewDiffableDataSource *_dataSource;
-    NSCache *_cache;
-    UIView *_backgroundOnePixelView;
 }
 
-- (void);
+- (void),;
 - (void);
 - (void);
 - (struct CGSize);
@@ -32,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (id);
 - (id);
@@ -48,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -73,12 +69,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)$_accountUpgradeInformationProvider;
 - (id);
 - (id);
-- (void);
+- (void)";
 - (id);
-- (id);
+- (id)setAttributedMarkedText:(id)arg1 selectedRange:(id)arg2;
 - (void);
 - (long long)1Â0@ù
 × ;
@@ -87,13 +83,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPageReordering;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

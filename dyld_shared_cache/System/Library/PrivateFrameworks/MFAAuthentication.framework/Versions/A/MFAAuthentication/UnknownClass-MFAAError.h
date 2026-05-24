@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MFAAError)
-+ (id);
++ (id);
 + (id);
 + (id);
 @end

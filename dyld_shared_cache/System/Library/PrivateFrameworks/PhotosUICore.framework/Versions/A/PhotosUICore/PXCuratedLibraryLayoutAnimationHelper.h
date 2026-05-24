@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PXCuratedLibraryLayout;
+@class NSDictionary;
 
 @interface PXCuratedLibraryLayoutAnimationHelper
 {
     _Bool _wantsPresentationAdjustment;
-    _Bool _wantsAnimationWithSpriteTransfer;
-    NSDictionary *_userData;
-    PXCuratedLibraryLayout *_layout;
 }
 
 + (id);
@@ -29,25 +26,11 @@
 - (long long);
 - (double)er %@;
 - (id);
-- (unsigned int)olumns;
+- (unsigned int)aggregatedHighlightColumns;
 - (void)4Ýÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long animationCurve;
-@property(readonly, nonatomic) double animationDuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int highFrameRateReason;
-@property(readonly) __weak PXCuratedLibraryLayout *layout; // @synthesize layout=_layout;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSDictionary *userData; // @synthesize userData=_userData;
-@property(readonly, nonatomic) _Bool wantsAnimationWithSpriteTransfer; // @synthesize wantsAnimationWithSpriteTransfer=_wantsAnimationWithSpriteTransfer;
-@property(readonly, nonatomic) _Bool wantsDoubleSidedAnimations;
-@property(readonly, nonatomic) _Bool wantsPresentationAdjustment; // @synthesize wantsPresentationAdjustment=_wantsPresentationAdjustment;
 
 @end
 

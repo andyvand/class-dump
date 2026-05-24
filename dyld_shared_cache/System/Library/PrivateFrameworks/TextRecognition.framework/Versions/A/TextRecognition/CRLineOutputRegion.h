@@ -6,13 +6,11 @@
 
 #import <TextRecognition/CRCompositeOutputRegion.h>
 
-@class CRDetectedLineRegion, CRNormalizedQuad, NSLocale, NSString, NSUUID;
+@class CRDetectedLineRegion;
 
 @interface CRLineOutputRegion : CRCompositeOutputRegion
 {
     _Bool _useLineSeparatorAsLineBreak;
-    unsigned long long _lineWrappingType;
-    CRDetectedLineRegion *_detectedLineRegion;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)(;
 + (id);
 - (_Bool);
 - (void);
@@ -36,38 +34,22 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)2gTQ;
 - (_Bool);
 - (double);
-- (unsigned long long);
-- (long long);
-- (unsigned long long);
+- (unsigned long long)_updateDFRForMovingTabViewItem:fromIndex:toIndex:isChangingPinnedness: /* Error: Ran out of types for this method. */;
+- (long long)_getFrameInfoForFrameHandle:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)?;
 - (_Bool);
-- (id);
+- (id)h;
 - (void)8^v16^{CGSize=dd}24^{CGVector=dd}32;
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CRDetectedLineRegion *detectedLineRegion; // @synthesize detectedLineRegion=_detectedLineRegion;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection;
-@property unsigned long long lineWrappingType; // @synthesize lineWrappingType=_lineWrappingType;
-@property(readonly) NSLocale *locale;
-@property(readonly) _Bool shouldWrapToNextLine;
-@property(readonly) Class superclass;
-@property(readonly) NSString *text;
-@property(readonly) unsigned long long textRegionType;
-@property _Bool useLineSeparatorAsLineBreak; // @synthesize useLineSeparatorAsLineBreak=_useLineSeparatorAsLineBreak;
-@property(readonly) NSUUID *uuid;
 
 @end
 

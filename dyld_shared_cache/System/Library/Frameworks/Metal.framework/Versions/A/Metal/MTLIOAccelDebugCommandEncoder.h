@@ -6,14 +6,9 @@
 
 #import <Metal/_MTLDebugCommandEncoder.h>
 
-@class MTLResourceList;
-
 @interface MTLIOAccelDebugCommandEncoder : _MTLDebugCommandEncoder
 {
     void *_kernelCommandBufferCurrent;
-    void *_kernelCommandBufferEnd;
-    struct IOAccelResourceList *_resourceList;
-    MTLResourceList *_api_resourceList;
 }
 
 - (void);
@@ -21,13 +16,14 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)*
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)SimulateAppActivated for app that is FrontMost (UIElem = %d, BGOnly = %d);
 - (void);
 
 @end

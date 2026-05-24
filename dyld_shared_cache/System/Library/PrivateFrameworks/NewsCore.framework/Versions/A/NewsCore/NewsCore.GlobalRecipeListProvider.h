@@ -7,7 +7,6 @@
 @interface NewsCore.GlobalRecipeListProvider
 {
     id configurationManager;
-    id contentVariantProvider;
 }
 
 @end

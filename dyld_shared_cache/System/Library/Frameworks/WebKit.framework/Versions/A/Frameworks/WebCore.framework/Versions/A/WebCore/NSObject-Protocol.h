@@ -7,6 +7,11 @@
 @class NSString, Protocol;
 
 @protocol NSObject
+- (Class);
+- (unsigned long long)8;
+- (unsigned long long);
+- (_Bool)createURL:(SEL)arg1 withReply: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool)ore:(Class)arg1:WorkerSWClientConnection::SWClientRequestIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::WorkerSWClientConnection::SWClientRequestIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::WorkerSWClientConnection::SWClientRequestIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WebCore::ExceptionOr<void> &&)>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::WorkerSWClientConnection::SWClientRequestIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WebCore::ExceptionOr<void> &&)>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::WorkerSWClientConnection::SWClientRequestIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::WorkerSWClientConnection::SWClientRequestIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::CompletionHandler<void (WebCore::ExceptionOr<void> &&)>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::WorkerSWClientConnection::SWClientRequestIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)get>> WTF:(Class)arg1:downcast(RefPtr<Source, PtrTraits, RefDerefTraits>) [Target = WebCore::AudioWorkletThread, Source = WebCore::WorkerOrWorkletThread, PtrTraits = WTF::RawPtrTraits<WebCore::WorkerOrWorkletThread>, RefDerefTraits = WTF::DefaultRefDerefTraits<WebCore::WorkerOrWorkletThread>] /* Error: Ran out of types for this method. */;
 - (id)yþ-hanäájæoräá;
@@ -22,12 +27,6 @@ hQ`²IÀytowîèÎóänsurplusanäè|ýpesôè©8oniaî	hÿÄëjournå�
 - (NSString *)É¤íùâàïâ¸zoseêââ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

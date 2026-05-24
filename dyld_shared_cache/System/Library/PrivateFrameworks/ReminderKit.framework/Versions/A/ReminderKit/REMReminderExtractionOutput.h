@@ -9,7 +9,6 @@
 @interface REMReminderExtractionOutput
 {
     _Bool _isClassifiedAsRecipe;
-    NSArray *_suggestedTitles;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isClassifiedAsRecipe; // @synthesize isClassifiedAsRecipe=_isClassifiedAsRecipe;
 @property(readonly, nonatomic) NSArray *suggestedTitles; // @synthesize suggestedTitles=_suggestedTitles;
 
 @end

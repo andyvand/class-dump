@@ -7,9 +7,6 @@
 @interface TeaUI.KeyCommandRegistry
 {
     id keyCommands;
-    id controller;
-    id provider;
-    id selector;
 }
 
 @end

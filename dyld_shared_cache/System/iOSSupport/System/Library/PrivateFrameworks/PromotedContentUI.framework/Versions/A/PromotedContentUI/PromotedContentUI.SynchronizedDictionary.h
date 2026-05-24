@@ -7,7 +7,6 @@
 @interface PromotedContentUI.SynchronizedDictionary
 {
     id synchronizedLock;
-    id dict;
 }
 
 @end

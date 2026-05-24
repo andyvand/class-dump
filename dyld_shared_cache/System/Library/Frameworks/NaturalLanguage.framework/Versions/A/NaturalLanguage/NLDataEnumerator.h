@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLDataProvider, NLNumberGenerator, NSMutableData;
+@class NLDataProvider;
 
 __attribute__((visibility("hidden")))
 @interface NLDataEnumerator
 {
     NLDataProvider *_dataProvider;
-    unsigned long long _idx;
-    NLNumberGenerator *_generator;
-    NSMutableData *_shuffleData;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setAutonamingUserFeedbacks should only be used for PHUserFeedbacks with feature set to PHUserFeedbackPersonFeatureAutonamingSuggestionWithName or PHUserFeedbackPersonFeatureAutonamingSuggestionWithContactID;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)enrollmentType;
+- (id)tory.hJefXU/Sources/LocalAuthenticationSecureIO/Shared/LASecureIOUtils.m;
 - (void);
 
 // Remaining properties
 @property(readonly, retain) NLDataProvider *dataProvider;
-@property(readonly) unsigned long long index;
 
 @end
 

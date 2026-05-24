@@ -13,7 +13,7 @@
     LUI2UserPeekabooTransitionLayout *_transitionLayout;
 }
 
-+ (CDStruct_fa0fd69b);
++ (CDStruct_3817e2c3);
 + (void)0@ù
 × ;
 - (id);
@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (id)ACCOUNT;
+- (id)NETWORK_ACCOUNT;
 
 // Remaining properties
 @property(retain) LUI2UserPeekabooTransitionLayout *transitionLayout; // @synthesize transitionLayout=_transitionLayout;

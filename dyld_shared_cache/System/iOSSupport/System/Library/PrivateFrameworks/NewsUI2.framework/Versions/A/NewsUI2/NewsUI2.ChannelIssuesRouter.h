@@ -7,10 +7,6 @@
 @interface NewsUI2.ChannelIssuesRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id navigator;
-    id magazineMoreActionsFactory;
 }
 
 @end

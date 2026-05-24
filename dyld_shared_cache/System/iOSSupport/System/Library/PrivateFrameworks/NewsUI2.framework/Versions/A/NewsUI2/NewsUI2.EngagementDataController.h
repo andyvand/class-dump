@@ -7,8 +7,6 @@
 @interface NewsUI2.EngagementDataController
 {
     id manager;
-    id triggerDataProviders;
-    id controllerQueue;
 }
 
 @end

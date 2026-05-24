@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)setEvaluator: /* Error: Ran out of types for this method. */;
+- (id)writeStringProperty:Value: /* Error: Ran out of types for this method. */;
 - (void)ø;
 - (id);
 

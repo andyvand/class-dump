@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopover, NSString, NSView, SOChatDetailsViewController, SOChatDisplayController;
+@class NSPopover;
 
 @interface SOChatDetailsPopoverController
 {
     _Bool _detachable;
-    _Bool _clearsOnClose;
-    NSPopover *_popover;
-    SOChatDisplayController *_chatDisplayController;
-    SOChatDetailsViewController *_detailsViewController;
-    NSView *_positioningView;
 }
 
 + (id);
@@ -26,35 +21,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (id);
-- (void);
+- (void)isPlaybackAllowed,V_playbackAllowed;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)getLostGreatGrandParentLTID;
+- (void)getInnermostErrorDescriptionFrom:(id)arg1;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) SOChatDisplayController *chatDisplayController; // @synthesize chatDisplayController=_chatDisplayController;
-@property _Bool clearsOnClose; // @synthesize clearsOnClose=_clearsOnClose;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isDetachable) _Bool detachable; // @synthesize detachable=_detachable;
-@property(retain) SOChatDetailsViewController *detailsViewController; // @synthesize detailsViewController=_detailsViewController;
-@property(readonly) unsigned long long hash;
 @property(retain) NSPopover *popover; // @synthesize popover=_popover;
-@property __weak NSView *positioningView; // @synthesize positioningView=_positioningView;
-@property(readonly) Class superclass;
 
 @end
 

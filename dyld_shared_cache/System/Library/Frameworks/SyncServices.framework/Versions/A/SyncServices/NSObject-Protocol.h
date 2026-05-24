@@ -7,15 +7,19 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)pertyDependencies;
+- (id)X;
+- (id)6;
+- (unsigned long long)Hj;
+- (unsigned long long)a;
+- (_Bool);
+- (_Bool);
+- (_Bool)CDPRecoveryKeyPrintController;
+- (struct _NSZone *)PropertyDependencies;
+
+@optional
+- (NSString *)A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

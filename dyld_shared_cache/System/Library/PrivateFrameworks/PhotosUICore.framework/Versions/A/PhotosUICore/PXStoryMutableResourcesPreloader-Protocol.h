@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 currentPlaybackTime;
-@property(nonatomic) long long currentSegmentIdentifier;
 @end
 

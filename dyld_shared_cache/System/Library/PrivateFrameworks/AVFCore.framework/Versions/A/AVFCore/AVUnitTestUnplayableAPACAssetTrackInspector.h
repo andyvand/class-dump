@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (id);
+- (id)SCENE_SECURING_FAILURE;
 - (_Bool);
 
 @end

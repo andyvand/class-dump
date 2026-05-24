@@ -7,10 +7,14 @@
 @class NSError;
 
 @protocol CLSAssetDownloadObservable
+- (void);
+- (double)Driver
+;
+- (void)tificationPortGetRunLoopSource failed!
+;
+- (NSError *)cD;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSError *downloadError;
-@property(readonly, nonatomic, getter=isDownloaded) _Bool downloaded;
 @property(readonly, nonatomic) double fractionDownloaded;
 @end
 

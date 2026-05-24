@@ -7,7 +7,6 @@
 @interface PhotosUICore.PXSensitivityInterventionManagerDelegateHandler__priv_AEF562763F3BEE3B23D6075681351350
 {
     id manager;
-    id completion;
 }
 
 - (void);

@@ -7,8 +7,6 @@
 @interface NewsCore.RecipeItemDatabase
 {
     id fileURL;
-    id logger;
-    id storage;
 }
 
 @end

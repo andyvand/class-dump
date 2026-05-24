@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (void)v32@0:8@"NSString"16@?<v@?BQ@"NSError">24 /* Error: Ran out of types for this method. */;

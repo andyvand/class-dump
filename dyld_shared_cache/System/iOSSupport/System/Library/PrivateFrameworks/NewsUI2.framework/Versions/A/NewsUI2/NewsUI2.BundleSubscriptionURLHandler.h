@@ -7,10 +7,6 @@
 @interface NewsUI2.BundleSubscriptionURLHandler
 {
     id patterns;
-    id magazineActivityNavigator;
-    id configurationManager;
-    id landingPageDecider;
-    id offerManager;
 }
 
 @end

@@ -4,42 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCArticleLinkBehaviorConfig
 {
     _Bool _openArticlesAsModals;
-    _Bool _lohAnimationEnabled;
-    _Bool _lohAnimationCompletesInArticle;
-    int _animationMaxCount;
-    int _animationCampaignVersion;
-    NSString *_animationTitleLine1;
-    NSString *_animationTitleLine2;
-    NSString *_animationBody;
-    long long _animationQuiescenceInterval;
 }
 
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
 - (int);
 - (int);
 - (id);
-- (void)ionRepromptDelay;
+- (void)tagSubscriptionRepromptDelay;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *animationBody; // @synthesize animationBody=_animationBody;
-@property(readonly, nonatomic) int animationCampaignVersion; // @synthesize animationCampaignVersion=_animationCampaignVersion;
-@property(readonly, nonatomic) int animationMaxCount; // @synthesize animationMaxCount=_animationMaxCount;
-@property(readonly, nonatomic) long long animationQuiescenceInterval; // @synthesize animationQuiescenceInterval=_animationQuiescenceInterval;
-@property(readonly, nonatomic) NSString *animationTitleLine1; // @synthesize animationTitleLine1=_animationTitleLine1;
-@property(readonly, nonatomic) NSString *animationTitleLine2; // @synthesize animationTitleLine2=_animationTitleLine2;
-@property(readonly, nonatomic) _Bool lohAnimationCompletesInArticle; // @synthesize lohAnimationCompletesInArticle=_lohAnimationCompletesInArticle;
-@property(readonly, nonatomic) _Bool lohAnimationEnabled; // @synthesize lohAnimationEnabled=_lohAnimationEnabled;
 @property(readonly, nonatomic) _Bool openArticlesAsModals; // @synthesize openArticlesAsModals=_openArticlesAsModals;
 
 @end

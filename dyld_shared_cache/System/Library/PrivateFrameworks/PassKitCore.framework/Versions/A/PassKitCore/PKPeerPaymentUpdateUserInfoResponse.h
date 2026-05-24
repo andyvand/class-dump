@@ -6,19 +6,9 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSArray, NSString, PKDynamicProvisioningPageLearnMoreContent, PKPeerPaymentUserInfo;
-
 @interface PKPeerPaymentUpdateUserInfoResponse : PKPeerPaymentWebServiceResponse
 {
     _Bool _useDeviceValidation;
-    unsigned long long _state;
-    PKPeerPaymentUserInfo *_userInfo;
-    NSString *_title;
-    NSString *_subtitle;
-    PKDynamicProvisioningPageLearnMoreContent *_learnMore;
-    NSArray *_requiredFieldsByPage;
-    NSArray *_encryptionCertificates;
-    NSString *_encryptionVersion;
 }
 
 - (_Bool);
@@ -30,19 +20,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id)Contact;
-- (void)gth;
+- (id)shippingContact;
+- (void)verificationCodeLength;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *encryptionCertificates; // @synthesize encryptionCertificates=_encryptionCertificates;
-@property(readonly, copy, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
-@property(readonly, copy, nonatomic) PKDynamicProvisioningPageLearnMoreContent *learnMore; // @synthesize learnMore=_learnMore;
-@property(readonly, copy, nonatomic) NSArray *requiredFieldsByPage; // @synthesize requiredFieldsByPage=_requiredFieldsByPage;
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) _Bool useDeviceValidation; // @synthesize useDeviceValidation=_useDeviceValidation;
-@property(readonly, nonatomic) PKPeerPaymentUserInfo *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

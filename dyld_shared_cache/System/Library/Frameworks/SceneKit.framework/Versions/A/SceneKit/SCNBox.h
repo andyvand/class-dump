@@ -9,25 +9,17 @@
 @interface SCNBox : SCNGeometry
 {
     double _boxwidth;
-    double _boxheight;
-    double _boxlength;
-    double _boxchamferRadius;
-    long long _boxwidthSegmentCount;
-    long long _boxheightSegmentCount;
-    long long _boxlengthSegmentCount;
-    long long _boxchamferSegmentCount;
-    long long _boxprimitiveType;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -38,7 +30,7 @@
 - (void);
 - (id);
 - (struct __C3DGeometry *);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -46,11 +38,11 @@
 - (long long);
 - (id);
 - (id);
-- (double);
+- (double)dumpCloudRecordsForProductGroup:productNumber:rawOutput:verifySignatures:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (double);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void);
@@ -143,14 +135,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) double chamferRadius;
-@property(nonatomic) long long chamferSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) double length;
-@property(nonatomic) long long lengthSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 
 @end
 

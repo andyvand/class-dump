@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentAnimation, SXJSONArray;
+@class NSString;
 @protocol SXComponentAnchor;
 
 @protocol SXConditionalComponentProperties
-- (NSString *)Color: /* Error: Ran out of types for this method. */;
+- (NSString *)setTextColor: /* Error: Ran out of types for this method. */;
 - (id <SXComponentAnchor>)-ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXComponentAnchor> anchor;
-@property(readonly, nonatomic) SXComponentAnimation *animation;
-@property(readonly, nonatomic) SXJSONArray *behaviors;
-@property(readonly, nonatomic) _Bool hidden;
 @property(readonly, nonatomic) NSString *layout;
-@property(readonly, nonatomic) NSString *style;
 @end
 

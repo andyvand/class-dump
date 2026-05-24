@@ -6,16 +6,15 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIHeightFieldFromMask : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

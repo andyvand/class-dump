@@ -17,7 +17,7 @@
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void)Ed;
 + (void);
 - (_Bool);
 - (void);

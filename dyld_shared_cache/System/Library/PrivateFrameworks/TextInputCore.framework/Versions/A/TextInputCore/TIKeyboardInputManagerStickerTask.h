@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface TIKeyboardInputManagerStickerTask
 {
     TIWordSearchCandidateResultSet *_candidateResultSet;
-    CDUnknownBlockType _stickerCompletionHandler;
 }
 
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (CDUnknownBlockType)deviceIsPhone;
+- (void)_notificationForPreferenceKey:(CDUnknownBlockType)arg1;
+- (void)RTTRemoteCall;
 - (id);
 - (void)að!Bùqi1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) TIWordSearchCandidateResultSet *candidateResultSet; // @synthesize candidateResultSet=_candidateResultSet;
-@property(copy, nonatomic) CDUnknownBlockType stickerCompletionHandler; // @synthesize stickerCompletionHandler=_stickerCompletionHandler;
 
 @end
 

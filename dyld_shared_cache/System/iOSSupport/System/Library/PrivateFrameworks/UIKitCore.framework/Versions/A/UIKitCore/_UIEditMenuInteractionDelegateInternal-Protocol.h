@@ -9,6 +9,7 @@
 @protocol _UIEditMenuInteractionDelegateInternal
 
 @optional
+- (void)P;
 - (UIView *)@ù
 × ;
 @end

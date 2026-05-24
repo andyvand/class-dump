@@ -6,32 +6,9 @@
 
 #import <MetalTools/MTLToolsCommandBuffer.h>
 
-@class MTLTelemetryDevice;
-
 @interface MTLTelemetryCommandBuffer : MTLToolsCommandBuffer
 {
     struct MTLTelemetryEncoderCountRec *encoderCount;
-    struct MTLTelemetryStatisticUIRec *attachmentCount;
-    struct MTLTelemetryStatisticUIRec *textureBindCount;
-    struct MTLTelemetryStatisticUIRec *parallellRenderEncoderDistribution;
-    struct MTLTelemetryStatisticUIRec *renderTargetArrayLengthDistribution;
-    struct MTLTelemetryViewportDistributionRec *viewportDistribution;
-    struct MTLTelemetryScissorRectDistributionRec *scissorRectDistribution;
-    struct MTLTelemetryDrawDistributionRec *drawDistribution;
-    struct MTLTelemetryDispatchDistributionRec *dispatchDistribution;
-    unsigned int cbDraws;
-    unsigned int cbDispatches;
-    unsigned int cbBlits;
-    unsigned int cbMemoryBarriers;
-    struct MTLTelemetryStatisticUIRec *renderEncoderDrawCallDistribution;
-    struct MTLTelemetryStatisticUIRec *computeEncoderDispatchDistribution;
-    struct MTLTelemetryStatisticUIRec *blitEncoderBlitDistribution;
-    struct unordered_map<MTLPixelFormat, MTLTelemetryRenderTargetDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryRenderTargetDistribution>>> renderTargetMap;
-    struct unordered_map<MTLPixelFormat, MTLTelemetryBlitDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryBlitDistribution>>> blitMap;
-    struct MTLTelemetryAnisoClippedCountsRec *anisoClippedCounts;
-    unsigned int depthClipModeClampCount;
-    MTLTelemetryDevice *_telemetryDevice;
-    struct MTLTelemetryKernelStateRec _initKernelState;
 }
 
 - (id);
@@ -42,8 +19,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)Py;
+- (id);
 - (id);
 - (void)"MTLStitchedLibraryDescriptor"16@?<v@?@"<MTLLibrary>"@"NSError">24;
 - (id)¼RÔUV;

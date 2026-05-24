@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (_Bool)onView:(id)arg1;
-- (id)aLight;
+- (_Bool)setLeftButtonView:(id)arg1;
+- (id)ExtraLight;
 - (void)_;
 
 @end

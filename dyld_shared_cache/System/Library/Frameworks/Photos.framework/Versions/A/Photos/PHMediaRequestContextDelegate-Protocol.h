@@ -5,5 +5,6 @@
 //
 
 @protocol PHMediaRequestContextDelegate
+- (void)|;
 @end
 

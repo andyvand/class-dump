@@ -6,27 +6,9 @@
 
 #import <OnBoardingKit/OBBaseWelcomeController.h>
 
-@class NSLayoutConstraint, NSString, OBBulletedList, OBButtonTray, OBContentView, OBHeaderView, UIColor, UIScrollView, UIView;
-
 @interface OBWelcomeController : OBBaseWelcomeController
 {
     _Bool _symbolNeedsAnimation;
-    _Bool _darkMode;
-    _Bool _scrollingDisabled;
-    OBHeaderView *_headerView;
-    OBContentView *_contentView;
-    UIView *_secondaryContentView;
-    OBButtonTray *_buttonTray;
-    UIColor *_backgroundColor;
-    long long _contentViewLayout;
-    UIScrollView *_scrollView;
-    UIView *_scrollContentView;
-    NSLayoutConstraint *_headerTopOffsetConstraint;
-    NSLayoutConstraint *_contentViewTopOffsetConstraint;
-    NSLayoutConstraint *_contentViewHeightConstraint;
-    NSLayoutConstraint *_scrollViewTopConstraint;
-    OBBulletedList *_bulletedList;
-    unsigned long long _templateType;
 }
 
 - (void);
@@ -56,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,7 +58,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
@@ -85,12 +67,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ebKit:(struct CGSize)arg1:(id)arg2 IsolatedSession>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::RegistrableDomain, std::unique_ptr<WebKit::IsolatedSession>>>, HashFunctions = WTF::DefaultHash<WebCore::RegistrableDomain>, Traits = WTF::HashMap<WebCore::RegistrableDomain, std::unique_ptr<WebKit::IsolatedSession>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::RegistrableDomain>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
+- (void)9
+;
 - (void);
 - (void);
 - (void);
@@ -98,11 +82,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	;
 - (long long);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (void);
@@ -113,29 +96,7 @@
 - (id)ht;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) OBBulletedList *bulletedList; // @synthesize bulletedList=_bulletedList;
-@property(retain, nonatomic) OBButtonTray *buttonTray; // @synthesize buttonTray=_buttonTray;
-@property(retain, nonatomic) OBContentView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewHeightConstraint; // @synthesize contentViewHeightConstraint=_contentViewHeightConstraint;
 @property(nonatomic) long long contentViewLayout; // @synthesize contentViewLayout=_contentViewLayout;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewTopOffsetConstraint; // @synthesize contentViewTopOffsetConstraint=_contentViewTopOffsetConstraint;
-@property(nonatomic) _Bool darkMode; // @synthesize darkMode=_darkMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutConstraint *headerTopOffsetConstraint; // @synthesize headerTopOffsetConstraint=_headerTopOffsetConstraint;
-@property(retain, nonatomic) OBHeaderView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) UIView *scrollContentView; // @synthesize scrollContentView=_scrollContentView;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) NSLayoutConstraint *scrollViewTopConstraint; // @synthesize scrollViewTopConstraint=_scrollViewTopConstraint;
-@property(nonatomic, getter=isScrollingDisabled) _Bool scrollingDisabled; // @synthesize scrollingDisabled=_scrollingDisabled;
-@property(readonly, nonatomic) UIView *secondaryContentView; // @synthesize secondaryContentView=_secondaryContentView;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;
 
 @end
 

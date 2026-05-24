@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCompositeSettingsZoneManager, NSArray, NSDictionary, NSString, NSUUID;
-@protocol HMDCompositeSettingsControllerDelegate, HMDCompositeSettingsDatabaseAdapter, HMMLogEventSubmitting;
+@class HMDCompositeSettingsZoneManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingsController
 {
     struct os_unfair_lock_s _lock;
-    _Bool _configured;
-    id <HMDCompositeSettingsControllerDelegate> _delegate;
-    NSDictionary *_settings;
-    NSDictionary *_settingMetadata;
-    Class _modelClass;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSArray *_settingKeyPathBlockList;
-    id <HMDCompositeSettingsDatabaseAdapter> _databaseAdapter;
-    HMDCompositeSettingsZoneManager *_zoneManager;
-    NSUUID *_uuid;
-    NSUUID *_homeUUID;
 }
 
 + (id)tÿÁ^èÕB;
-- (void);
-- (void);
-- (id);
+- (void)4;
+- (void)4;
+- (id)A;
 - (id);
 - (id);
 - (void);
@@ -42,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)` )`;
 - (void);
 - (void);
 - (id)!ôEùÑÐ1Â0@ù
@@ -52,17 +40,6 @@ __attribute__((visibility("hidden")))
 - (void)ager is busy with another operation;
 
 // Remaining properties
-@property _Bool configured; // @synthesize configured=_configured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCompositeSettingsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 @property __weak HMDCompositeSettingsZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
 
 @end

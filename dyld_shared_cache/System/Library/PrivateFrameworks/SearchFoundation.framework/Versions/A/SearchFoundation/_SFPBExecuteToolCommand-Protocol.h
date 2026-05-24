@@ -7,10 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBExecuteToolCommand
+- (NSData *)estHelper",R,N,V_temporalFacesHelper;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *toolIdentifier;
-@property(copy, nonatomic) NSData *toolInvocationData;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface PHAPrivateFederatedLearningRunnerResponse
 {
     NSData *_dataPackage;
-    NSDictionary *_trainingMetrics;
 }
 
 - (id);
@@ -18,11 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (void):argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)classesForSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *dataPackage; // @synthesize dataPackage=_dataPackage;
-@property(retain, nonatomic) NSDictionary *trainingMetrics; // @synthesize trainingMetrics=_trainingMetrics;
 
 @end
 

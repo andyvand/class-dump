@@ -21,7 +21,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)4h0;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -39,7 +39,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)#;
 + (_Bool);
 + (_Bool);
 + (_Bool);

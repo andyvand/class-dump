@@ -7,23 +7,21 @@
 @interface VNEntityIdentificationModelWriteOptions
 {
     _Bool _readOnly;
-    unsigned long long _version;
 }
 
 + (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)setCanIndexFromCurrentState: /* Error: Ran out of types for this method. */;
+- (id)attachItemWithID:(id)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool)eUseInputCVPixelBufferDirectly;
+- (_Bool)VNContourDetectorProcessOption_ForceUseInputCVPixelBufferDirectly;
 - (void)èèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèèè;
 
 // Remaining properties
-@property _Bool readOnly; // @synthesize readOnly=_readOnly;
 @property unsigned long long version; // @synthesize version=_version;
 
 @end

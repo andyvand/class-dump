@@ -13,7 +13,7 @@
 + (Class);
 + (long long)customValueForKeyDictionary;
 - (id);
-- (id)tringAsPriority:(id)arg1;
+- (id)StringAsPriority:(id)arg1;
 
 @end
 

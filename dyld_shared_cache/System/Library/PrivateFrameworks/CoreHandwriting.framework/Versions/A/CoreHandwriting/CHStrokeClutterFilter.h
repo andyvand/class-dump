@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CHStrokeClutterFilter
 {
     void *_heatMap;
-    NSDictionary *_CHStrokeID2HeatmapItemID;
-    NSDictionary *_heatmapItemID2CHStrokeID;
 }
 
 - (_Bool);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)PHResourceLocalAvailabilityRequestAdjustmentDataURLKey;
 - (id);
 - (id);
 - (_Bool);

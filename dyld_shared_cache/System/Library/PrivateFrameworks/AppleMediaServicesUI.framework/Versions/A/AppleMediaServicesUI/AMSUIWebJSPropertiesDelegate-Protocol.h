@@ -5,5 +5,6 @@
 //
 
 @protocol AMSUIWebJSPropertiesDelegate
+- (void);
 @end
 

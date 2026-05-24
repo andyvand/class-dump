@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAGraphReference, MANode, NSDictionary, NSSet, NSString;
-@protocol MAGraphProxy;
+@class MAGraphReference;
 
 @interface MAEdge
 {
     unsigned long long _identifier;
-    MAGraphReference *_graphReference;
-    MANode *_sourceNode;
-    MANode *_targetNode;
 }
 
 - (id);
@@ -37,13 +33,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)baseWritingDirection;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -57,23 +53,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned short domain; // @dynamic domain;
-@property(readonly, nonatomic) id <MAGraphProxy> graph;
 @property(retain, nonatomic) MAGraphReference *graphReference; // @synthesize graphReference=_graphReference;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *label; // @dynamic label;
-@property(readonly, copy, nonatomic) NSSet *labels;
-@property(readonly, copy, nonatomic) NSDictionary *properties;
-@property(readonly, nonatomic) MANode *sourceNode; // @synthesize sourceNode=_sourceNode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MANode *targetNode; // @synthesize targetNode=_targetNode;
-@property(readonly, nonatomic) float weight; // @dynamic weight;
 
 @end
 

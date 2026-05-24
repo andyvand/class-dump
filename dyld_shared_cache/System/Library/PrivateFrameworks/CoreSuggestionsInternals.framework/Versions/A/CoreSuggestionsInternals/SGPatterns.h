@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSMutableSet, NSString;
+@class NSString;
 
 @interface SGPatterns
 {
     NSString *_classKey;
-    NSArray *_langResolutionOrder;
-    NSCache *_compiledRegexes2;
-    NSString *_language;
-    NSMutableSet *_regexpKeysSeen;
-    int _localLanguageVersion;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void)@9;
 + (void);
 + (void);
 + (id);
@@ -30,15 +25,15 @@
 + (void);
 + (id);
 + (id);
-+ (void)iscriminantTokensForIgnorability;
++ (void)hasNbHighlyDiscriminantTokensForIgnorability;
 + (void)ber"16@?0@"NSArray"8;
 - (void);
-- (id);
+- (id)CNUICoreFamilyMemberContactItem;
 - (void);
-- (id);
+- (id)";
 - (void);
-- (void);
-- (id);
+- (void)NSData"@"NSError">24;
+- (id)addFont:(id)arg1 index: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

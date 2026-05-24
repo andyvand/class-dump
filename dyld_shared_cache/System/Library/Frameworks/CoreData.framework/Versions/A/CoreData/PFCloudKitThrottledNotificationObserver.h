@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PFCloudKitThrottledNotificationObserver
 {
     _Atomic int _notificationIteration;
-    NSString *_assertionLabel;
-    NSString *_label;
-    long long _notificationStalenessInterval;
-    CDUnknownBlockType _notificationHandlerBlock;
 }
 
 - (void);

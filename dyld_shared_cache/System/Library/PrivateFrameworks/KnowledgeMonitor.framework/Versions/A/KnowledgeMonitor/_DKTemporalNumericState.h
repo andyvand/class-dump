@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 @interface _DKTemporalNumericState
 {
     NSNumber *_state;
-    NSDate *_timestamp;
 }
 
 + (_Bool);
-- (id);
+- (id)-;
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain) NSNumber *state; // @synthesize state=_state;
-@property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

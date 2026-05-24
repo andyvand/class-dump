@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SiriUIEditScriptIndexedAtom
 {
     long long _editOperation;
-    unsigned long long _indexToEdit;
-    unsigned long long _indexInArrayB;
-    NSString *_replacementText;
 }
 
 + (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (long long);
 - (void);
-- (id);
+- (id)IMESSAGE_KT_WAITING_FOR_CLOUD_NOTIFICATION_HEADER;
 - (id);
 - (void);
 - (void)áx!Eùq°1Â0@ù
@@ -31,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long editOperation; // @synthesize editOperation=_editOperation;
-@property(nonatomic) unsigned long long indexInArrayB; // @synthesize indexInArrayB=_indexInArrayB;
-@property(nonatomic) unsigned long long indexToEdit; // @synthesize indexToEdit=_indexToEdit;
-@property(retain, nonatomic) NSString *replacementText; // @synthesize replacementText=_replacementText;
 
 @end
 

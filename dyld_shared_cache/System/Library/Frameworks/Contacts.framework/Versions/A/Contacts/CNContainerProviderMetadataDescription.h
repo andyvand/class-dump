@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (id)eventMatcherWithEventName:properties: /* Error: Ran out of types for this method. */;
+- (_Bool)%@, peerID 0x%X;
 - (Class)× ;
 
 @end

@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitTicketingSegment
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_paths;
-    NSString *_segmentName;
-    NSString *_ticketingUrl;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_paths:1;
-        unsigned int read_segmentName:1;
-        unsigned int read_ticketingUrl:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)NavigationTransportType:(id)arg1;
++ (_Bool)setNavigationTransportType:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -39,13 +25,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)notifyDidStartStreamWithContext:(id)arg1 successfully:option: /* Error: Ran out of types for this method. */;
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id)b;
 - (void);
 - (_Bool);
 - (id);
@@ -66,12 +52,7 @@ deprecated! (:false_
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSegmentName;
 @property(readonly, nonatomic) _Bool hasTicketingUrl;
-@property(retain, nonatomic) NSMutableArray *paths;
-@property(retain, nonatomic) NSString *segmentName;
-@property(retain, nonatomic) NSString *ticketingUrl;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

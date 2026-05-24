@@ -9,10 +9,6 @@
 @interface CKCDPCodeServiceRequestClientConfig
 {
     CKCDPCodeServiceRequestServiceClientConfig *_config;
-    int _serviceType;
-    struct {
-        unsigned int serviceType:1;
-    } _has;
 }
 
 - (_Bool);
@@ -20,13 +16,15 @@
 - (int);
 - (void);
 - (id);
+- (void)%@ HCI:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (unsigned long long)dioSourceCompression %p invalidating.
+;
+- (void)!;
+- (_Bool)
+;
+- (void)llularOutrankingState:(id)arg1 forInterface:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)updateFlagChangeAction:(id)arg1 withRemainingUIDs: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (id);
@@ -36,10 +34,7 @@
 - (void)have an access token so it can't be revoked;
 
 // Remaining properties
-@property(retain, nonatomic) CKCDPCodeServiceRequestServiceClientConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) _Bool hasConfig;
 @property(nonatomic) _Bool hasServiceType;
-@property(nonatomic) int serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

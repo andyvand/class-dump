@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOMapSubscriptionStateStopObservingRequest : GEOXPCRequest
 {
     NSArray *_identifiers;
 }
 
-+ (Class);
++ (Class)bitmapImageRepForCachingDisplayInRect: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)ifestUpdate;
+- (_Bool)parserDidStartDocument: /* Error: Ran out of types for this method. */;
+- (void)cancelCurrentManifestUpdate;
 - (void)OP:úä2 /* Error: Ran out of types for this method. */;
 - (id))ÿ©Å8Ò8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly) Class superclass;
 
 @end
 

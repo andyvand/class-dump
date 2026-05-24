@@ -9,11 +9,6 @@
 @interface EARLatticeMitigatorResult
 {
     _Bool _processed;
-    float _score;
-    float _threshold;
-    float _calibrationScale;
-    float _calibrationOffset;
-    NSString *_version;
 }
 
 + (_Bool);
@@ -21,7 +16,7 @@
 - (_Bool);
 - (float);
 - (float);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
@@ -30,11 +25,6 @@
 - (float)ïÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) float calibrationOffset; // @synthesize calibrationOffset=_calibrationOffset;
-@property(readonly, nonatomic) float calibrationScale; // @synthesize calibrationScale=_calibrationScale;
-@property(readonly, nonatomic) _Bool processed; // @synthesize processed=_processed;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
-@property(readonly, nonatomic) float threshold; // @synthesize threshold=_threshold;
 @property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

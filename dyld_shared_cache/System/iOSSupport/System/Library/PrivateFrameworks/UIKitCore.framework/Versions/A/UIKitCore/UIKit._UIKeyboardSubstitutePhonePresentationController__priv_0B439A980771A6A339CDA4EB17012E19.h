@@ -9,15 +9,11 @@
 @interface UIKit._UIKeyboardSubstitutePhonePresentationController__priv_0B439A980771A6A339CDA4EB17012E19 : UISheetPresentationController
 {
     id session;
-    id keyboardSuppressionAssertion;
-    id shouldSuppressKeyboard;
-    id isLandscape;
-    id preferredHeight;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)owBluetoothModification;
 - (id)O23£;
 - (void);
 - (void)|áÚþ¢Êhf;

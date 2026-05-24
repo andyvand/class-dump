@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSKeyedUnarchiver;
+
 @protocol NSKeyedUnarchiverDelegate
+
+@optional
+- (void);
+- (void)q`;
+- (id)setWritingDirection:(NSKeyedUnarchiver *)arg1;
 @end
 

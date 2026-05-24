@@ -7,11 +7,6 @@
 @interface JetEngine.LocalPreferences
 {
     id bundleIdentifier;
-    id cacheEnabled;
-    id cache;
-    id userDefaults;
-    id userDefaultsObserver;
-    id observations;
 }
 
 @end

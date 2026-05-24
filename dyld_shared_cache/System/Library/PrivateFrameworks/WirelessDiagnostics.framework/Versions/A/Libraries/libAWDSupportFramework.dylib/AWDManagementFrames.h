@@ -7,37 +7,12 @@
 @interface AWDManagementFrames
 {
     unsigned long long _aTIM;
-    unsigned long long _action;
-    unsigned long long _assocRequest;
-    unsigned long long _assocResponse;
-    unsigned long long _auth;
-    unsigned long long _beacon;
-    unsigned long long _deauth;
-    unsigned long long _disassoc;
-    unsigned long long _probeRequest;
-    unsigned long long _probeResponse;
-    unsigned long long _reassocRequest;
-    unsigned long long _reassocResponse;
-    struct {
-        unsigned int aTIM:1;
-        unsigned int action:1;
-        unsigned int assocRequest:1;
-        unsigned int assocResponse:1;
-        unsigned int auth:1;
-        unsigned int beacon:1;
-        unsigned int deauth:1;
-        unsigned int disassoc:1;
-        unsigned int probeRequest:1;
-        unsigned int probeResponse:1;
-        unsigned int reassocRequest:1;
-        unsigned int reassocResponse:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)i(89;
+- (void)a6;
 - (void);
 - (void);
 - (void);
@@ -56,67 +31,45 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (unsigned long long)(;
 - (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)#;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)i
+;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)kc;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)	k(	;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (id)Z;
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)(;
 
 // Remaining properties
-@property(nonatomic) unsigned long long aTIM; // @synthesize aTIM=_aTIM;
-@property(nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(nonatomic) unsigned long long assocRequest; // @synthesize assocRequest=_assocRequest;
-@property(nonatomic) unsigned long long assocResponse; // @synthesize assocResponse=_assocResponse;
-@property(nonatomic) unsigned long long auth; // @synthesize auth=_auth;
-@property(nonatomic) unsigned long long beacon; // @synthesize beacon=_beacon;
-@property(nonatomic) unsigned long long deauth; // @synthesize deauth=_deauth;
-@property(nonatomic) unsigned long long disassoc; // @synthesize disassoc=_disassoc;
-@property(nonatomic) _Bool hasATIM;
-@property(nonatomic) _Bool hasAction;
 @property(nonatomic) _Bool hasAssocRequest;
-@property(nonatomic) _Bool hasAssocResponse;
-@property(nonatomic) _Bool hasAuth;
-@property(nonatomic) _Bool hasBeacon;
-@property(nonatomic) _Bool hasDeauth;
-@property(nonatomic) _Bool hasDisassoc;
-@property(nonatomic) _Bool hasProbeRequest;
-@property(nonatomic) _Bool hasProbeResponse;
-@property(nonatomic) _Bool hasReassocRequest;
-@property(nonatomic) _Bool hasReassocResponse;
-@property(nonatomic) unsigned long long probeRequest; // @synthesize probeRequest=_probeRequest;
-@property(nonatomic) unsigned long long probeResponse; // @synthesize probeResponse=_probeResponse;
-@property(nonatomic) unsigned long long reassocRequest; // @synthesize reassocRequest=_reassocRequest;
-@property(nonatomic) unsigned long long reassocResponse; // @synthesize reassocResponse=_reassocResponse;
 
 @end
 

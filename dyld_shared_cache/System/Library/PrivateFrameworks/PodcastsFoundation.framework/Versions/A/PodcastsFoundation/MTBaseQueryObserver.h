@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSFetchedResultsController, NSMutableDictionary, NSString;
+@class NSFetchedResultsController, NSMutableDictionary;
 
 @interface MTBaseQueryObserver
 {
     NSFetchedResultsController *_frc;
-    _Bool _isObserving;
-    _Bool _stopCalled;
-    NSString *_identifier;
-    NSDictionary *_userInfo;
-    NSMutableDictionary *_handlers;
 }
 
 + (Class);
@@ -27,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,19 +30,19 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)J,*_;
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)%;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id)FormatsRelationships;
 - (void);
 - (id)äfÿÿ;
 - (void)#;
@@ -55,18 +50,7 @@
 - (id)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableDictionary *handlers; // @synthesize handlers=_handlers;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isObserving; // @synthesize isObserving=_isObserving;
-@property(nonatomic) _Bool stopCalled; // @synthesize stopCalled=_stopCalled;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

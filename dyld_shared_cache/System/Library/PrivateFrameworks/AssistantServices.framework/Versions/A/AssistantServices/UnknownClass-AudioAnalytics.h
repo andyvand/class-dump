@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AudioAnalytics)
-- (id);
+- (id);
 @end
 

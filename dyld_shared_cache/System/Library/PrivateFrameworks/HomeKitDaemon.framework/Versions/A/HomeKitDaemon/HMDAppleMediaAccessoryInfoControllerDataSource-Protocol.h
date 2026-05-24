@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDAppleMediaAccessoryInfoController, NSString;
 @protocol HMEEventForwarder, HMELastEventStoreReadHandle;
 
 @protocol HMDAppleMediaAccessoryInfoControllerDataSource
-- (id <HMELastEventStoreReadHandle>)ntication:response: /* Error: Ran out of types for this method. */;
+- (NSString *)restoreFromGroupSessionStorage:(HMDAppleMediaAccessoryInfoController *)arg1;
+- (NSString *);
+- (id <HMELastEventStoreReadHandle>)didCompleteAuthentication:response: /* Error: Ran out of types for this method. */;
 - (id <HMEEventForwarder>)pe %d (not recognized);
 
 // Remaining properties
 @property(readonly) id <HMEEventForwarder> eventForwarder;
-@property(readonly) id <HMELastEventStoreReadHandle> eventStoreReadHandle;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationConfiguration, CKOperationGroupSystemImposedInfo, NSNumber, NSString;
+@class CKOperationGroupSystemImposedInfo;
 
 @interface CKOperationGroup
 {
     CKOperationGroupSystemImposedInfo *_systemImposedInfo_locked;
-    long long _expectedSendSize;
-    long long _expectedReceiveSize;
-    CKOperationConfiguration *_defaultConfiguration;
-    NSString *_operationGroupID;
-    NSString *_name;
-    NSNumber *_quantityNumber;
-    NSString *_authPromptReason;
 }
 
 @end

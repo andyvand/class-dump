@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)B40B44@48@?56@?64@?72;
-- (id)ingDisplayType;
+- (id)_hikingDisplayType;
 - (id)ã;
 - (void)ìQ¸k@Ä °rTs@;
 

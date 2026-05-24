@@ -7,19 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.Toggles.ViewModel
 {
     id _hideAlertsEnabled;
-    id _readReceiptsEnabled;
-    id _shareFocusStatusEnabled;
-    id _sharedWithYouEnabled;
-    id _translationLanguageStatus;
-    id _userTranslationLanguageStatus;
-    id conversation;
-    id __isInitializing;
-    id __isAsyncInitializing;
-    id __languageViewModel;
-    id __translateToLanguageViewModel;
-    id _suggestedTranslationLanguages;
-    id __supportedToggleSections;
-    id _$observationRegistrar;
 }
 
 - (void);

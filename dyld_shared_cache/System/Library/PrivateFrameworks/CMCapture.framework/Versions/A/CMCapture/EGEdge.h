@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EGDestinationPort, EGSourcePort;
+@protocol EGSourcePort;
 
 __attribute__((visibility("hidden")))
 @interface EGEdge
 {
     id <EGSourcePort> _sourcePort;
-    id <EGDestinationPort> _destinationPort;
 }
 
 + (void)apturedevice.built-in_audio:0 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)clearProperties;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <EGDestinationPort> destinationPort; // @synthesize destinationPort=_destinationPort;
 @property(readonly, nonatomic) id <EGSourcePort> sourcePort; // @synthesize sourcePort=_sourcePort;
 
 @end

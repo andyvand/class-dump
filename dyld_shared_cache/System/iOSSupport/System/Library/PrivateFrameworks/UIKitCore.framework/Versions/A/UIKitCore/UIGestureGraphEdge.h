@@ -12,25 +12,20 @@ __attribute__((visibility("hidden")))
 @interface UIGestureGraphEdge : UIGestureGraphElement
 {
     _Bool _directed;
-    UIGestureGraphNode *_sourceNode;
-    UIGestureGraphNode *_targetNode;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)__kCFStreamErrorHTTPSProxyAuthRequired;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)eLibraryAddedDate;
 - (_Bool);
 - (id)S_setHidEvent:,V_hidEvent /* Error: Ran out of types for this method. */;
 - (void)è h;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDirected) _Bool directed; // @synthesize directed=_directed;
-@property(readonly, nonatomic, getter=isLoop) _Bool loop;
 @property(readonly, nonatomic) UIGestureGraphNode *sourceNode; // @synthesize sourceNode=_sourceNode;
-@property(readonly, nonatomic) UIGestureGraphNode *targetNode; // @synthesize targetNode=_targetNode;
 
 @end
 

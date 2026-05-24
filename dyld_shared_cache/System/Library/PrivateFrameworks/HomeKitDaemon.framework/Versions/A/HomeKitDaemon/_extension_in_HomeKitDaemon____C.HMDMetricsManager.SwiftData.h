@@ -7,11 +7,6 @@
 @interface (extension in HomeKitDaemon):__C.HMDMetricsManager.SwiftData
 {
     id metricsDateProvider;
-    id repeatingScheduler;
-    id dailyScheduler;
-    id countersManager;
-    id tapToRadarInitiator;
-    id currentQuarterIndex;
 }
 
 - (id);

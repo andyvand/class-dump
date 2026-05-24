@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPServerObjectDatabase, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MPStoreItemMetadataImportWindow
 {
     NSMutableArray *_accumulatedObjects;
-    struct os_unfair_lock_s _lock;
-    double _eventCadence;
-    double _maximumLatency;
-    MPServerObjectDatabase *_serverObjectDatabase;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -26,13 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)setDateModified:forPlaylistPersistentID: /* Error: Ran out of types for this method. */;
+- (void)_setDateModified:forPlaylistPersistentID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double eventCadence; // @synthesize eventCadence=_eventCadence;
-@property(readonly, nonatomic) double maximumLatency; // @synthesize maximumLatency=_maximumLatency;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) __weak MPServerObjectDatabase *serverObjectDatabase; // @synthesize serverObjectDatabase=_serverObjectDatabase;
 
 @end
 

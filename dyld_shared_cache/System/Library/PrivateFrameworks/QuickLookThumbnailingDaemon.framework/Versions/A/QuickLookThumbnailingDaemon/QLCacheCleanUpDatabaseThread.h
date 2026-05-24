@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSMutableDictionary, NSThread, _QLCacheThread;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface QLCacheCleanUpDatabaseThread
 {
     NSMutableDictionary *_thumbnailsHit;
-    _QLCacheThread *_cacheThread;
-    NSConditionLock *_threadLock;
-    struct __CFRunLoop *_threadRunLoop;
-    NSThread *_thread;
-    _Bool _diskCacheCleanupDone;
-    int _currentMode;
-    _Bool _shouldRemoveThumbnailsForDeletedFiles;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (int);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)responseDataItems;
 - (void);
 - (void);
 - (void);
@@ -43,12 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) _QLCacheThread *cacheThread; // @synthesize cacheThread=_cacheThread;
-@property(readonly, nonatomic) int currentMode; // @synthesize currentMode=_currentMode;
 @property _Bool diskCacheCleanupDone; // @synthesize diskCacheCleanupDone=_diskCacheCleanupDone;
-@property(readonly, nonatomic) unsigned long long hitToSaveCount;
-@property(nonatomic) _Bool shouldRemoveThumbnailsForDeletedFiles; // @synthesize shouldRemoveThumbnailsForDeletedFiles=_shouldRemoveThumbnailsForDeletedFiles;
-@property(retain) NSMutableDictionary *thumbnailsHit; // @synthesize thumbnailsHit=_thumbnailsHit;
 
 @end
 

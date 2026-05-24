@@ -6,8 +6,7 @@
 
 #import <PencilKit/PKPaletteConcreteBaseTool.h>
 
-@class NSString, PKToolConfiguration;
-@protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool;
+@class NSString;
 
 @interface PKPaletteConcreteHandwritingTool : PKPaletteConcreteBaseTool
 {
@@ -21,21 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PKToolConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PKPaletteErasingTool> erasingTool;
-@property(readonly, nonatomic) id <PKPaletteHandwritingTool> handwritingTool;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PKPaletteInkingTool> inkingTool;
-@property(readonly, nonatomic) NSString *itemIdentifier;
 @property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *toolIdentifier;
-@property(readonly, nonatomic) NSString *toolVariant;
 
 @end
 

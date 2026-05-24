@@ -11,16 +11,12 @@
 @interface SwiftUI.NavigationSplitViewController : SwiftUI.SplitViewController
 {
     id _sidebarState;
-    id isSidebarEnabled;
-    id backingNavigationSplitView;
-    id behavioralHostViews;
-    id behavioralItems;
 }
 
-- (id);
+- (id)	;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)±]Y7Æ;
 

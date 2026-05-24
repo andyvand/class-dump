@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLiteCompiledStatement, NSMutableDictionary;
+@class CKSQLiteCompiledStatement;
 
 @interface CKSQLiteCompiledStatementDecoder
 {
     CKSQLiteCompiledStatement *_statement;
-    NSMutableDictionary *_propertyValues;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (int)onsByKey;
+- (int)assetTransferOptionsByKey;
 - (float)ChangeTokenByZoneID;
 - (void);
 - (long long),;

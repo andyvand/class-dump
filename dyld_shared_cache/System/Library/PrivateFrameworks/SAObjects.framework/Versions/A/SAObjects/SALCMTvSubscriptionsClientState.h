@@ -16,9 +16,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
++ (id);
++ (id);
+- (void)list found more than once for :(id)arg1;
 - (id);
 - (id);
 - (id);

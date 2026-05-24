@@ -9,7 +9,6 @@
 @interface TSKCountedObserver
 {
     TSUWeakReference *mWeakObserver;
-    unsigned long long mCount;
 }
 
 - (unsigned long long);

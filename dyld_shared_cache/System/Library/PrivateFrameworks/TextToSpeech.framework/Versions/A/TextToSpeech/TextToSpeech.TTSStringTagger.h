@@ -7,9 +7,6 @@
 @interface TextToSpeech.TTSStringTagger
 {
     id allowUnsupportedScripts;
-    id scriptLocaleMap;
-    id uscriptCodeMap;
-    id scripts;
 }
 
 @end

@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosBatchedSearchStateModel
 {
     id _allResultUUIDs;
-    id _searchResultsId;
-    id _currentOffset;
-    id _$observationRegistrar;
 }
 
 @end

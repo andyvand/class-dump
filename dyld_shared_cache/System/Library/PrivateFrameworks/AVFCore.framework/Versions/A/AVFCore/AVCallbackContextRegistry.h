@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface AVCallbackContextRegistry
 {
     NSMutableDictionary *_contextsForTokens;
-    unsigned long long _currentToken;
-    NSObject<OS_dispatch_queue> *_readWriteQueue;
 }
 
-+ (id);
++ (id)$6;
 + (void)AVEncoderDynamicRangeControlConfigurationKey; dynamic range control config must be between AVAudioDynamicRangeControlConfiguration_None and AVAudioDynamicRangeControlConfiguration_Capture inclusive;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void *);
+- (id)(,;
+- (void *)~;
 
 @end
 

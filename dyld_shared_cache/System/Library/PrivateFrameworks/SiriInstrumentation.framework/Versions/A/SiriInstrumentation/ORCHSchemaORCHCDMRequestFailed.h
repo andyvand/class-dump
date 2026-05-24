@@ -6,18 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHCDMRequestFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _reason;
-    CDStruct_592e509c _has;
 }
 
-- (void);
+- (void)SDictionary"@"NSError">40;
 - (id);
-- (int);
+- (int)anceEvent;
 - (_Bool);
 - (void);
 - (void);
@@ -29,19 +25,15 @@
 - (id);
 - (id)0@ù
 × ;
-- (id)rPhoneCall;
-- (id)sEmpty;
-- (_Bool)ENT_BASED_LEAVE_HOME;
-- (void)L;
+- (id)_appFreqForPhoneCall;
+- (id)isEmpty;
+- (_Bool)FLOWHOMEAUTOMATIONCONDITIONTYPE_EVENT_BASED_LEAVE_HOME;
+- (void)COUNTRYCODE_GL;
 - (_Bool)¯FT!;
 - (void)ºÿ`&;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

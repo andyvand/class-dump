@@ -5,11 +5,9 @@
 //
 
 @protocol MRAudioPlayer
+- (double);
 
 // Remaining properties
-@property(nonatomic) double fadeInDuration;
-@property(nonatomic) double fadeOutDuration;
-@property(nonatomic) _Bool isMuted;
 @property(nonatomic) double volume;
 @end
 

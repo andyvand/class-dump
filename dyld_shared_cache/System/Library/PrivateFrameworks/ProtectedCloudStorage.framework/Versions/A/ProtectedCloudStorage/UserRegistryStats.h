@@ -7,11 +7,6 @@
 @interface UserRegistryStats
 {
     long long _fetchRecordZoneChanges;
-    long long _lastfetchRecordZoneChangesAtStart;
-    long long _pushNotifications;
-    long long _zoneReset;
-    long long _recordFetch;
-    long long _recordModify;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,15 +25,10 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)eate(APTransportTrafficRegistrarRef, APTTrafficRegistrarTokenRef *)_block_invoke;
 
 // Remaining properties
 @property long long fetchRecordZoneChanges; // @synthesize fetchRecordZoneChanges=_fetchRecordZoneChanges;
-@property long long lastfetchRecordZoneChangesAtStart; // @synthesize lastfetchRecordZoneChangesAtStart=_lastfetchRecordZoneChangesAtStart;
-@property long long pushNotifications; // @synthesize pushNotifications=_pushNotifications;
-@property long long recordFetch; // @synthesize recordFetch=_recordFetch;
-@property long long recordModify; // @synthesize recordModify=_recordModify;
-@property long long zoneReset; // @synthesize zoneReset=_zoneReset;
 
 @end
 

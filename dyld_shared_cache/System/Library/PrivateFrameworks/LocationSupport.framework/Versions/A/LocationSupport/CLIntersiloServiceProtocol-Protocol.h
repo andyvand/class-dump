@@ -5,5 +5,61 @@
 //
 
 @protocol CLIntersiloServiceProtocol
+
+@optional
+- (void);
+- (void)LoadPersistedPostponed:%@
+          AlwaysPromoteStagedAssets:%@
+
+MOST-RECENT TARGET:AssetTargetOSVersion:%@
+            AssetTargetBuildVersion:%@
+               AssetTargetTrainName:%@
+          AssetTargetRestoreVersion:%@
+           OptionalAssetSizeAllowed:%@
+           ActiveTargetOTASituation:%@
+      ActiveCandidatesRequiredCount:%llu
+      ActiveCandidatesOptionalCount:%llu
+      ActiveSetConfigsRequiredCount:%llu
+      ActiveSetConfigsOptionalCount:%llu
+       ActiveAvailableRequiredCount:%llu
+       ActiveAvaialbleOptionalCount:%llu
+
+OTHER TARGET:OtherTargetName:%@
+            OtherTargetOTASituation:%@
+       OtherCandidatesRequiredCount:%llu
+       OtherCandidatesOptionalCount:%llu
+       OtherSetConfigsRequiredCount:%llu
+       OtherSetConfigsOptionalCount:%llu
+        OtherAvailableRequiredCount:%llu
+        OtherAvaialbleOptionalCount:%llu
+
+STAGING-CLIENT REQUESTS:DetermineCount:%llu
+                     DownloadActive:%@
+                             Active:%@
+                               Name:%@
+
+DETERMINE:SetConfigurationsCount:%llu
+                    SetTargetsCount:%llu
+                 ScheduledJobsCount:%llu
+
+CANDIDATES:CandidatesForStagingCount:%llu
+             SetConfigurationsCount:%llu
+              SetLookupResultsCount:%llu
+     BaseForStagingDescriptorsCount:%llu
+         DeterminingBySelectorCount:%llu
+
+AVAILABLE-OR-STAGED:AvailableForStagingCount:%llu
+        AwaitingStagingAttemptCount:%llu
+            SuccessfullyStagedCount:%llu
+
+PROGRESS:OverallStagedTotalExpectedBytes:%llu
+  OverallStagedDownloadedSoFarBytes:%llu
+      CurrentStagedLastWrittenBytes:%llu
+        CurrentStagedRemainingBytes:%llu
+
+ELIMINATION:SelectorsCount:%llu
+    SetConfigurationCurrentJob:%@
+    SelectorsAcknowledgedCount:%llu
+<<<] /* Error: Ran out of types for this method. */;
 @end
 

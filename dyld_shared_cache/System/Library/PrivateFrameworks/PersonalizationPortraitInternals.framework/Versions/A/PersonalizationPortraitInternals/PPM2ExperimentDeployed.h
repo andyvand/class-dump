@@ -9,41 +9,31 @@
 @interface PPM2ExperimentDeployed
 {
     NSString *_activeTreatments;
-    unsigned int _delay;
-    NSString *_namespaceName;
-    struct {
-        unsigned int delay:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)ton,V_radarButton;
+- (_Bool)ffer missed;
+- (id)=;
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (_Bool);
 - (unsigned int);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_chat:setProperties:ofParticipant: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)nsMetricsTracker";
 - (void)om.apple.PersonalizationPortrait.Topic.PopulateDatabaseQueue;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) unsigned int delay; // @synthesize delay=_delay;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(nonatomic) _Bool hasDelay;
-@property(readonly, nonatomic) _Bool hasNamespaceName;
-@property(retain, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
 
 @end
 

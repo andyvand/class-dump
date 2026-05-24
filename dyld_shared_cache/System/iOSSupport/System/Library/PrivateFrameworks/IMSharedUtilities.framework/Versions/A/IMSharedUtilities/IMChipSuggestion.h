@@ -9,8 +9,6 @@
 @interface IMChipSuggestion
 {
     void displayText;
-    void postback;
-    void inReplyToID;
 }
 
 - (id);
@@ -18,8 +16,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -29,9 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *displayText;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSString *inReplyToID;
-@property(nonatomic, copy) NSString *postback;
 
 @end
 

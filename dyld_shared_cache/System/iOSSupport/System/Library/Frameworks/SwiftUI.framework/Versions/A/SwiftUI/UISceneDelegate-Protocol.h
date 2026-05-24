@@ -7,6 +7,8 @@
 @protocol UISceneDelegate
 
 @optional
+- (void)o12UIScrollViewCSgG;
+- (void)0ScrollViewProxyManagerDelegateP;
 - (void)(Ò;
 - (void);
 @end

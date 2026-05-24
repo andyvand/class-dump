@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDHomeSettingsBaseModel.h>
 
-@class NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomePersonManagerSettingsModel : HMDHomeSettingsBaseModel
 {
@@ -18,22 +16,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class)× ;
 - (id);
-- (void);
+- (void)__objc_methlist;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) NSUUID *zoneUUID;
-@property(retain) NSString *zoneUUIDString; // @dynamic zoneUUIDString;
 
 @end
 

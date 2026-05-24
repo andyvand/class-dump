@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactKeyVector, CNMultiDictionary, NSArray, NSFetchRequest;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCDContactConversionTask
 {
     NSArray *_impls;
-    NSArray *_posterData;
-    CNContactKeyVector *_availableKeys;
-    NSFetchRequest *_fetchRequestPrototype;
-    NSArray *_unlinkedImpls;
-    CNMultiDictionary *_linkedImpls;
-    NSArray *_contacts;
 }
 
 + (id);
@@ -24,26 +18,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void)sterForDistributedNotifications;
+- (void);
+- (id);
+- (void)unregisterForDistributedNotifications;
 - (id)ÄÔ(T;
 
 // Remaining properties
-@property(readonly, copy) CNContactKeyVector *availableKeys; // @synthesize availableKeys=_availableKeys;
-@property(retain) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly) NSFetchRequest *fetchRequestPrototype; // @synthesize fetchRequestPrototype=_fetchRequestPrototype;
 @property(readonly, copy) NSArray *impls; // @synthesize impls=_impls;
-@property(retain) CNMultiDictionary *linkedImpls; // @synthesize linkedImpls=_linkedImpls;
-@property(readonly, copy) NSArray *posterData; // @synthesize posterData=_posterData;
-@property(retain) NSArray *unlinkedImpls; // @synthesize unlinkedImpls=_unlinkedImpls;
 
 @end
 

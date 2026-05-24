@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWFigCaptureDeviceVendorAnalyticsPayload
 {
     int _timerReason;
-    int _idleOpenDuration;
-    _Bool _deviceUsed;
 }
 
 - (int);
 - (void);
 - (void);
-- (int);
+- (int)uq;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)X';
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool deviceUsed; // @synthesize deviceUsed=_deviceUsed;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int idleOpenDuration; // @synthesize idleOpenDuration=_idleOpenDuration;
-@property(readonly) Class superclass;
 @property(nonatomic) int timerReason; // @synthesize timerReason=_timerReason;
 
 @end

@@ -6,26 +6,23 @@
 
 #import <ChatKit/CKPinnedConversationTailedActivityItemView.h>
 
-@class CKPinnedConversationRichLinkActivityItem, LPLinkView, NSString;
+@class LPLinkView;
 
 @interface CKPinnedConversationRichLinkBubble : CKPinnedConversationTailedActivityItemView
 {
     double _pillCornerRadius;
-    long long _activityItemViewContentScale;
-    CKPinnedConversationRichLinkActivityItem *_richLinkActivityItem;
-    LPLinkView *_linkView;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)ernResultsOnly: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSearchSuggestionsResponder:userInput:performNLSearch:modernResultsOnly: /* Error: Ran out of types for this method. */;
+- (void),N,V_disableFirstResponderChanges;
+- (id)_coalesceAuthorHighlightUpdates;
 - (id);
 - (double);
-- (long long);
-- (long long);
-- (void);
-- (void);
+- (long long)C;
+- (long long)ted the subfolder;
+- (void)ord for that device.;
+- (void)nts specified.;
 - (void);
 - (double);
 - (void);
@@ -36,15 +33,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(readonly, nonatomic) CKPinnedConversationRichLinkActivityItem *richLinkActivityItem; // @synthesize richLinkActivityItem=_richLinkActivityItem;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PXContextualMemoriesSettings;
+@class PXContextualMemoriesSettings;
 
 @interface PXContextualMemoriesSettingsController
 {
     _Bool _requestingUpdates;
-    PXContextualMemoriesSettings *_settings;
-    NSMutableArray *_completionHandlers;
-    NSMutableArray *_registrationIdentifiers;
 }
 
-+ (id)olariumDetailsViewPreviewHeaderCrossFadeDuration;
++ (id)solariumDetailsViewPreviewHeaderCrossFadeDuration;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -27,9 +24,6 @@
 - (void)øçÿX·ôçÿ5X·;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(retain, nonatomic) NSMutableArray *registrationIdentifiers; // @synthesize registrationIdentifiers=_registrationIdentifiers;
-@property(nonatomic, getter=isRequestingUpdates) _Bool requestingUpdates; // @synthesize requestingUpdates=_requestingUpdates;
 @property(readonly, nonatomic) PXContextualMemoriesSettings *settings; // @synthesize settings=_settings;
 
 @end

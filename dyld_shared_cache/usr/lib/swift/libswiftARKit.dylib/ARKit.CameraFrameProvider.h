@@ -8,7 +8,6 @@
 {
     id _cCameraFrameProvider;
     id cameraFrameContinuationsPerFormat;
-    id frameQueue;
 }
 
 @end

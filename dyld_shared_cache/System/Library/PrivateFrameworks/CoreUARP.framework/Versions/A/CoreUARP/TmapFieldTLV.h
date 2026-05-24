@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface TmapFieldTLV
 {
     NSString *_fieldName;
-    unsigned long long _fieldLength;
-    int _fieldType;
-    _Bool _fieldPrivacyRestricted;
-    int _endian;
-    NSObject<OS_os_log> *_log;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)assification string %s to an enum value;
+- (id)hecking with the guid instead.;
+- (_Bool)er error.;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)mpress[%s]:(id)arg1 Failed to create decode filestream;
+- (_Bool)to create decompression filestream;
+- (_Bool)tream for the input file;
+- (id)d[%s]:Task was cancelled, aborting data stream processing. /* Error: Ran out of types for this method. */;
+- (id)nloaded;
+- (_Bool)nloading to path:(id)arg1 %s;
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MKStackingViewControllerSizableView
+- (struct CGSize)Q;
 @end
 

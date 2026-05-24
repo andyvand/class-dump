@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @protocol DASubCalAccount
-- (_Bool)T@8Ôöªðªñ	ªñÇåò0ÁÚ"@ùéªqÚ10@ù
-?×é;
-- (_Bool);
-- (_Bool)øðªñ	ªñÇåò0ÁÚñªñGÁÚë@;
-- (void)ÝÒ0
-ÁÚãªáªâªNyýã;
-- (void)ªPwüò	?×àªý{A©ôOÂ¨ÿ_Ö#Õý{¿©ý;
-- (void)×â;
-- (NSString *)`@ù;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *calendarExternalId;
-@property(nonatomic) double refreshInterval;
-@property(nonatomic) _Bool shouldRemoveAlarms;
-@property(nonatomic) _Bool shouldRemoveAttachments;
 @property(readonly, nonatomic) NSURL *subscriptionURL;
-@property(nonatomic) _Bool useFTP;
 @end
 

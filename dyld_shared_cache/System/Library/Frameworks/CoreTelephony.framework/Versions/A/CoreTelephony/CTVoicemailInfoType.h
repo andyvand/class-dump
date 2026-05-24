@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CTVoicemailInfoType
 {
     _Bool _available;
-    _Bool _isNetworkOriginated;
-    _Bool _isVoiceMailMWI;
-    NSString *_url;
-    NSNumber *_count;
 }
 
-+ (_Bool);
++ (_Bool)port AVVideoCleanApertureKey or AVVideoPixelAspectRatioKey;
 - (void);
 - (void);
 - (_Bool);
@@ -27,7 +23,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)removeObjectForKey:(id)arg1 contextUUID:connection:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -37,10 +33,6 @@
 - (_Bool)VoiceMailAvailable error:%d, domain:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool available; // @synthesize available=_available;
-@property(retain, nonatomic) NSNumber *count; // @synthesize count=_count;
-@property(nonatomic) _Bool isNetworkOriginated; // @synthesize isNetworkOriginated=_isNetworkOriginated;
-@property(nonatomic) _Bool isVoiceMailMWI; // @synthesize isVoiceMailMWI=_isVoiceMailMWI;
 @property(retain, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end

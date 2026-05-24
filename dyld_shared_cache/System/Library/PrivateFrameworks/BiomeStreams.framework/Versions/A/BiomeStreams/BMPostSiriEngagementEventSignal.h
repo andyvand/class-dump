@@ -6,16 +6,11 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class BMPostSiriEngagementEventSignalDeltaEvent, NSArray, NSString;
+@class NSString;
 
 @interface BMPostSiriEngagementEventSignal : BMEventBase
 {
     _Bool _hasIsPostSiriEngagement;
-    _Bool _isPostSiriEngagement;
-    NSString *_domain;
-    NSString *_action;
-    BMPostSiriEngagementEventSignalDeltaEvent *_pseDelta;
-    NSArray *_pseContents;
 }
 
 + (id);
@@ -24,7 +19,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (_Bool);
 - (unsigned int);
 - (id);
@@ -33,24 +28,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)_`abcdefg;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *action; // @synthesize action=_action;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasIsPostSiriEngagement; // @synthesize hasIsPostSiriEngagement=_hasIsPostSiriEngagement;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPostSiriEngagement; // @synthesize isPostSiriEngagement=_isPostSiriEngagement;
-@property(readonly, nonatomic) NSArray *pseContents; // @synthesize pseContents=_pseContents;
-@property(readonly, nonatomic) BMPostSiriEngagementEventSignalDeltaEvent *pseDelta; // @synthesize pseDelta=_pseDelta;
-@property(readonly) Class superclass;
 
 @end
 

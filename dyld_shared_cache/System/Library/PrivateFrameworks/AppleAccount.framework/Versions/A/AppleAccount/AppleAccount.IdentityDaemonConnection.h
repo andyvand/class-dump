@@ -7,7 +7,6 @@
 @interface AppleAccount.IdentityDaemonConnection
 {
     id lock;
-    id _connection;
 }
 
 @end

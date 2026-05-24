@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVAudioSettingsValueConstrainer
 {
     struct AudioStreamBasicDescription _inputASBD;
-    struct AudioStreamBasicDescription _outputASBD;
-    struct OpaqueAudioConverter *_audioConverter;
-    unsigned int _outputDataRate;
-    _Bool _needNewConverter;
-    _Bool _needAvailableSampleRates;
-    _Bool _needApplicableParameters;
-    NSArray *_availableOutputSampleRates;
-    NSMutableArray *_availableOutputDataRates;
-    NSMutableArray *_applicableOutputSampleRatesForDataRate;
-    NSMutableArray *_applicableOutputDataRatesForSampleRate;
 }
 
 - (void);
@@ -28,30 +16,25 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (unsigned int);
-- (id);
+- (id)@;
+- (float)@;
 - (float);
-- (float);
+- (void)e;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)setContainerName:(unsigned int)arg1;
 - (unsigned int);
 - (float);
 - (unsigned int);
 - (void);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)EndpointEnabled,V_defaultShellEndpointEnabled;
 - (void);
-- (void)reKeyPathDependenciesWithRegistry:(unsigned int)arg1;
+- (void)declareKeyPathDependenciesWithRegistry:(unsigned int)arg1;
 - (void)R,C,N;
 
 // Remaining properties
-@property(nonatomic) unsigned int outputBitsPerChannel;
-@property(nonatomic) unsigned int outputChannelCount;
-@property(nonatomic) unsigned int outputDataRate;
-@property(nonatomic) unsigned int outputFormat;
-@property(nonatomic) unsigned int outputFormatFlags;
 @property(nonatomic) float outputSampleRate;
 
 @end

@@ -7,11 +7,6 @@
 @interface ReminderKitInternal.REMBertTokenizer
 {
     id basicTokenizer;
-    id wordpieceTokenizer;
-    id maxLen;
-    id asciiOnly;
-    id vocab;
-    id idsToTokens;
 }
 
 @end

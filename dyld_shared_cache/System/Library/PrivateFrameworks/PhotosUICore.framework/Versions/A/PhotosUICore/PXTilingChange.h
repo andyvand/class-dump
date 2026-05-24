@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, PXTilingLayout;
+@class NSMutableArray;
 
 @interface PXTilingChange
 {
     NSMutableArray *_events;
-    PXTilingLayout *_initialLayout;
-    NSArray *_compositionInvalidationContexts;
-    struct CGSize _initialReferenceSize;
-    struct NSEdgeInsets _initialContentInset;
 }
 
 - (struct NSEdgeInsets);
@@ -31,30 +27,17 @@
 - (struct CGSize);
 - (struct NSEdgeInsets);
 - (_Bool);
-- (id);
+- (id){;
 - (id);
 - (id):°1Â0@ù
 ×  /* Error: Ran out of types for this method. */;
 - (void)A22PagingViewModelMutatorP;
 - (id)r information;
-- (id)nTitle;
+- (id)PXPeopleConfirmButtonTitle;
 - (void)öþ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *compositionInvalidationContexts; // @synthesize compositionInvalidationContexts=_compositionInvalidationContexts;
-@property(readonly, nonatomic) _Bool coordinateSpaceDidChange;
-@property(readonly, nonatomic) NSArray *events;
-@property(readonly, nonatomic) struct NSEdgeInsets fromContentInset;
-@property(readonly, nonatomic) PXTilingLayout *fromLayout;
-@property(readonly, nonatomic) struct CGSize fromReferenceSize;
 @property(readonly, nonatomic, getter=isIdentity) _Bool identity;
-@property(readonly, nonatomic) struct NSEdgeInsets initialContentInset; // @synthesize initialContentInset=_initialContentInset;
-@property(readonly, nonatomic) PXTilingLayout *initialLayout; // @synthesize initialLayout=_initialLayout;
-@property(readonly, nonatomic) struct CGSize initialReferenceSize; // @synthesize initialReferenceSize=_initialReferenceSize;
-@property(readonly, nonatomic) NSArray *invalidationContexts;
-@property(readonly, nonatomic) struct NSEdgeInsets toContentInset;
-@property(readonly, nonatomic) PXTilingLayout *toLayout;
-@property(readonly, nonatomic) struct CGSize toReferenceSize;
 
 @end
 

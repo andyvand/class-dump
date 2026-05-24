@@ -6,19 +6,13 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSUIErrorView, NSDictionary, NSError, NSString;
+@class NSDictionary;
 @protocol AMSBagProtocol;
 
 __attribute__((visibility("hidden")))
 @interface AMSUICommonErrorViewController : AMSUICommonViewController
 {
     NSDictionary *_engagementMetrics;
-    NSString *_logKey;
-    id <AMSBagProtocol> _bag;
-    CDUnknownBlockType _cancelAction;
-    NSError *_error;
-    AMSUIErrorView *_errorView;
-    CDUnknownBlockType _retryAction;
 }
 
 - (void);
@@ -28,33 +22,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)(!;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (id)edForDirection:reply:] /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
+- (id);
+- (void)5	0	M	#	(	@	/	0	@	$	@	(	G	;
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)olHandler: /* Error: Ran out of types for this method. */;
-- (id)s;
+- (void)setProtocolHandler: /* Error: Ran out of types for this method. */;
+- (id)requestedKeys;
 - (void)c¾=GAByAByACyADyAQ_APtGGATGAVGG;
 - (void)ÍýÿìAø¼;
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(copy) CDUnknownBlockType cancelAction; // @synthesize cancelAction=_cancelAction;
-@property(retain) NSDictionary *engagementMetrics; // @synthesize engagementMetrics=_engagementMetrics;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) AMSUIErrorView *errorView; // @synthesize errorView=_errorView;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(copy) CDUnknownBlockType retryAction; // @synthesize retryAction=_retryAction;
 
 @end
 

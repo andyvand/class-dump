@@ -7,29 +7,24 @@
 #import <PhotosUICore/PXStoryBaseDisplayAssetCroppingContext.h>
 
 @class NSSet;
-@protocol PXDisplayAssetCollection, PXStorySaliencyDataSource;
 
 @interface PXStoryDefaultDisplayAssetCroppingContext : PXStoryBaseDisplayAssetCroppingContext
 {
     NSSet *_featuredPersonLocalIdentifiers;
-    id <PXDisplayAssetCollection> _assetCollection;
-    id <PXStorySaliencyDataSource> _detailedSaliency;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)ÐiÿÜÐiÿèÙÉ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) id <PXStorySaliencyDataSource> detailedSaliency; // @synthesize detailedSaliency=_detailedSaliency;
 @property(readonly, nonatomic) NSSet *featuredPersonLocalIdentifiers; // @synthesize featuredPersonLocalIdentifiers=_featuredPersonLocalIdentifiers;
 
 @end

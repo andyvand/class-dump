@@ -7,26 +7,15 @@
 @interface PromotedContentUI.TapGestureRecognizer
 {
     id kMaximumTimeSinceTap;
-    id touchDownHandler;
-    id touchMovedHandler;
-    id touchUpHandler;
-    id shouldBlockNavigation;
-    id mostRecentTapLocation;
-    id lastTrackedTouch;
-    id mostRecentTapTimestamp;
-    id location;
-    id pointIsInsideView;
-    id preventedTouches;
-    id $__lazy_storage_$_scrollableAncestor;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)pletion:(id)arg1 | replacing data source in identifier list [];
 - (void);
 - (_Bool);
 - (_Bool);

@@ -11,8 +11,8 @@
 }
 
 + (_Bool);
-+ (_Bool);
-- (id);
++ (_Bool)aptionBarAccessoryStyle";
+- (id);
 
 @end
 

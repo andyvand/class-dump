@@ -7,12 +7,11 @@
 @class _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBCancelWorkoutIntent
-- (_Bool)etEventIdentifier;
+- (_INPBDataString *);
+- (_INPBIntentMetadata *)shots/;
+- (_Bool)_targetEventIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasWorkoutName;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *workoutName;
 @end
 

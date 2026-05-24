@@ -6,86 +6,69 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class CKAvatarView, NSString, NSUUID, UIButton, UIImageView, UILabel, UIView;
-
 @interface CKTUConversationBalloonView : CKColoredBalloonView
 {
     BOOL _orientation;
-    _Bool _unknownSender;
-    _Bool _animating;
-    _Bool _shouldRenderJoinButtonAsIcon;
-    unsigned long long _conversationAVMode;
-    NSUUID *_tuConversationUUID;
-    unsigned long long _state;
-    UIImageView *_sessionImageView;
-    UIView *_sessionAccessoryView;
-    UIImageView *_iconView;
-    CKAvatarView *_avatarView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel1;
-    UILabel *_subtitleLabel2;
-    UIButton *_joinButton;
-    NSString *_joinButtonText_TestingOverride;
 }
 
 + (_Bool);
 + (_Bool);
 + (struct CGSize);
+- (_Bool)0:8 /* Error: Ran out of types for this method. */;
+- (id)sanitizedDatesForDates:referenceDate: /* Error: Ran out of types for this method. */;
+- (id)samplesPerWaveformSlice;
+- (id)sameNoteMentionsFrom: /* Error: Ran out of types for this method. */;
+- (struct CGSize)recentUpdatesGenerationDate;
+- (struct CGSize)rangesModifiedAfterTimestamp:(struct CGSize)arg1 inTextStorage:(_Bool)arg2;
+- (struct CGSize)presentLockedNotesLearnMoreViewForAccount:(struct CGSize)arg1 window:(struct UIEdgeInsets *)arg2;
+- (_Bool)namedStyleFromStyleID: /* Error: Ran out of types for this method. */;
+- (void)isEditingViaWritingTools;
+- (void)isDaemonProcessForCollaborationController:(id)arg1;
+- (void)initWithRecordsToSave:(id)arg1 recordIDsToDelete: /* Error: Ran out of types for this method. */;
+- (void)initWithRecordIDs:(id)arg1;
+- (void)initForSharePreviewThumbnailWithNote:(_Bool)arg1 appearanceInfo: /* Error: Ran out of types for this method. */;
+- (void)imageWithSize:(id)arg1 flipped:drawingHandler: /* Error: Ran out of types for this method. */;
+- (void)imageWithRGBColorspaceFromImage:(id)arg1;
+- (void)generateImageForAttachment:(id)arg1 fullResolution:appearanceInfo: /* Error: Ran out of types for this method. */;
+- (void)fo:(id)arg1;
+- (void)createAndAddSubAttachmentsToGalleryAttachment:(unsigned long long)arg1 fromDocuments:imageCache:context: /* Error: Ran out of types for this method. */;
+- (id)availableWidth;
+- (id)autorelease;
+- (struct CGSize);
+- (id);
+- (struct CGSize);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)d;
+- (void)s;
+- (void)e;
+- (void);
+- (void)i;
+- (void)y;
+- (void)d;
+- (id)etionHandler:shareArgument is nil /* Error: Ran out of types for this method. */;
+- (_Bool)ent {note:%@} /* Error: Ran out of types for this method. */;
+- (_Bool)o v1 Neo if needed… {note:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (id)orMovingFolderContainingLockedOrJoinedNotesWithGuiltyObjects:(double)arg1 CompletionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGSize)eted %lld subfolders;
 - (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (struct CGSize);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)need to remember a separate password for “%@” locked notes.;
+- (void)e>    </head>    <body id="editor">    </body></html>;
+- (id)hes/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/Utilities/ICLongRunningTaskController.m;
+- (id)ICLockedNotesSwitchViewController;
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -102,8 +85,8 @@
 - (void);
 - (unsigned long long);
 - (BOOL);
-- (BOOL);
-- (id);
+- (BOOL)lt_LT;
+- (id)_capOffsetFromBoundsTop;
 - (void)1Â0@ù
 × ;
 - (void)k;
@@ -111,21 +94,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool animating; // @synthesize animating=_animating;
-@property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(nonatomic) unsigned long long conversationAVMode; // @synthesize conversationAVMode=_conversationAVMode;
-@property(retain, nonatomic) UIImageView *iconView; // @synthesize iconView=_iconView;
-@property(retain, nonatomic) UIButton *joinButton; // @synthesize joinButton=_joinButton;
-@property(copy, nonatomic) NSString *joinButtonText_TestingOverride; // @synthesize joinButtonText_TestingOverride=_joinButtonText_TestingOverride;
-@property(retain, nonatomic) UIView *sessionAccessoryView; // @synthesize sessionAccessoryView=_sessionAccessoryView;
-@property(retain, nonatomic) UIImageView *sessionImageView; // @synthesize sessionImageView=_sessionImageView;
-@property(nonatomic) _Bool shouldRenderJoinButtonAsIcon; // @synthesize shouldRenderJoinButtonAsIcon=_shouldRenderJoinButtonAsIcon;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(retain, nonatomic) UILabel *subtitleLabel1; // @synthesize subtitleLabel1=_subtitleLabel1;
-@property(retain, nonatomic) UILabel *subtitleLabel2; // @synthesize subtitleLabel2=_subtitleLabel2;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSUUID *tuConversationUUID; // @synthesize tuConversationUUID=_tuConversationUUID;
-@property(nonatomic, getter=isUnknownSender) _Bool unknownSender; // @synthesize unknownSender=_unknownSender;
 
 @end
 

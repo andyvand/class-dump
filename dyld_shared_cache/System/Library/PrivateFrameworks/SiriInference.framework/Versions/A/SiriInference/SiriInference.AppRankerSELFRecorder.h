@@ -7,11 +7,6 @@
 @interface SiriInference.AppRankerSELFRecorder
 {
     id messageEmitter;
-    id configProvider;
-    id persistentStorage;
-    id randomProvider;
-    id nowProvider;
-    id dnuAllowedProvider;
 }
 
 @end

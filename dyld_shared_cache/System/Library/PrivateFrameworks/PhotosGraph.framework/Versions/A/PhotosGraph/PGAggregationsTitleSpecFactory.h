@@ -8,6 +8,9 @@
 {
 }
 
++ (id)roller;
++ (id)troller",&,N,S_setKeyboardFocusedApplicationController:(id)arg1 ,V__keyboardFocusedApplicationController;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -16,14 +19,11 @@
 + (id);
 + (id);
 + (id);
++ (id)~;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)d~;
 + (id);
 + (id);
 + (id);

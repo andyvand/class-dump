@@ -4,13 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
+@class HMDCloudShareParticipantsManager, HMDUserSettingsBackingStoreController, NSUUID;
 
 @protocol HMDUserSettingsBackingStoreControllerDelegate
+- (void)_msp_registerTestTrip:(HMDUserSettingsBackingStoreController *)arg1;
+- (void)_msp_isTestTripBlockedWithIdentifier:(HMDUserSettingsBackingStoreController *)arg1;
+- (void)chable for route;
+- (HMDCloudShareParticipantsManager *)participants:(HMDUserSettingsBackingStoreController *)arg1 %@;
+- (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool isCurrentUser;
-@property(readonly) _Bool isRunningOnHomeOwnersDevice;
 @property(readonly) NSUUID *userUUID;
 @end
 

@@ -8,18 +8,14 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
+- (_Bool);
+- (unsigned long long);
+- (unsigned long long)@;
 - (unsigned long long)BuildRoots/4~CN9SugDQ7XfdI6wkt5BVrjTZQAbhvWn9-4IHbbI/Library/Caches/com.apple.xbs/TemporaryDirectory.l1tWzK/Sources/WebGPU_iosmac/Source/WebGPU/WGSL/ConstantFunctions.h:1418:1) &)::(anonymous class)::operator()(auto &) const [arg:auto = const WGSL::ConstantValue] /* Error: Ran out of types for this method. */;
 - (id <MTLHeap>)èÄ;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
 @property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

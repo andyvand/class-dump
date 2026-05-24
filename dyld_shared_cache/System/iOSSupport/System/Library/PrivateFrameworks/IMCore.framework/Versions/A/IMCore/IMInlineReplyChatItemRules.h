@@ -11,8 +11,6 @@
 @interface IMInlineReplyChatItemRules : IMTranscriptChatItemRules
 {
     NSString *_threadIdentifier;
-    NSString *_threadOriginatorMessageGUID;
-    struct _NSRange _threadOriginatorRange;
 }
 
 - (struct _NSRange);
@@ -20,7 +18,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,21 +27,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id));
 - (void)|Þ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(copy, nonatomic) NSString *threadOriginatorMessageGUID; // @synthesize threadOriginatorMessageGUID=_threadOriginatorMessageGUID;
-@property(nonatomic) struct _NSRange threadOriginatorRange; // @synthesize threadOriginatorRange=_threadOriginatorRange;
 
 @end
 

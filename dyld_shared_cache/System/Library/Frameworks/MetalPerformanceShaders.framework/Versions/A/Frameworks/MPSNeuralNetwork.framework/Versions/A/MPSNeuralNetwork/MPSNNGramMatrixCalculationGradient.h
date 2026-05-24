@@ -9,7 +9,6 @@
 @interface MPSNNGramMatrixCalculationGradient : MPSCNNGradientKernel
 {
     struct MPSCNNGramGradientFilters_s _filters;
-    float _alpha;
 }
 
 + (const struct MPSLibraryInfo *);

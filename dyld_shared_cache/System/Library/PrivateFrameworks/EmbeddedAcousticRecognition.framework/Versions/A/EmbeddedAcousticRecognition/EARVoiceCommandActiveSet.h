@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSURL;
+@class NSSet;
 
 @interface EARVoiceCommandActiveSet
 {
     NSSet *_suites;
-    NSURL *_resourceBaseURL;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)brary/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)+;
 - (_Bool);
 - (void);
-- (id);
+- (id) ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *resourceBaseURL; // @synthesize resourceBaseURL=_resourceBaseURL;
 @property(readonly, copy, nonatomic) NSSet *suites; // @synthesize suites=_suites;
 
 @end

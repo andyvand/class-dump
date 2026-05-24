@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMHomeTheaterSystem.h>
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMutableHomeTheaterSystem : HMHomeTheaterSystem
 {
@@ -15,11 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(copy) NSUUID *associatedGroupIdentifier; // @dynamic associatedGroupIdentifier;
-@property(copy) NSString *audioDestinationIdentifier; // @dynamic audioDestinationIdentifier;
-@property long long audioDestinationType; // @dynamic audioDestinationType;
 @property(copy) NSUUID *identifier; // @dynamic identifier;
-@property(copy) NSString *name; // @dynamic name;
 
 @end
 

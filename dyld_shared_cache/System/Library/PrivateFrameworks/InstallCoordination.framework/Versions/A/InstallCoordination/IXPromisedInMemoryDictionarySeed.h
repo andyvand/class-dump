@@ -13,7 +13,7 @@
 + (_Bool);
 - (Class);
 - (id);
-- (void);
+- (void)P;
 - (id);
 
 @end

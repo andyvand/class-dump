@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSessionChannelDescription, CUAudioRequest, NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class AVAudioSessionChannelDescription, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUAudioPlayer
 {
     AVAudioSessionChannelDescription *_channel;
-    CUAudioRequest *_currentRequest;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    unsigned int _invalidateFlags;
-    NSMutableArray *_playRequests;
-    NSMutableDictionary *_preparedRequests;
-    CUAudioPlayer *_selfRef;
-    struct LogCategory *_ucat;
-    unsigned int _flags;
-    unsigned int _enableSmartRouting;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
 }
 
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (void);
 - (void);
@@ -47,30 +34,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)_scaleFactor;
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void))	;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int enableSmartRouting; // @synthesize enableSmartRouting=_enableSmartRouting;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
 
 @end
 

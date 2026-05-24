@@ -7,14 +7,9 @@
 @interface SwiftUI.EditMenuBridge
 {
     id host;
-    id listCell;
-    id interaction;
-    id editMenuPresentationSeed;
-    id lastEditMenuPresentation;
-    id presentedMenu;
 }
 
-- (id);
+- (id)setNativeFocus;
 - (void);
 - (void)M§Ð=­;
 - (void)|;

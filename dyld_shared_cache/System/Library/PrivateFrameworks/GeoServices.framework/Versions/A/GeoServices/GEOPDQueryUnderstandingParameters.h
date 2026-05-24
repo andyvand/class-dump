@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDQueryUnderstandingTaxonomyLookupParameters, GEOPDQueryUnderstandingTaxonomySearchParameters, GEOPDViewportInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDQueryUnderstandingParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_searchString;
-    GEOPDQueryUnderstandingTaxonomyLookupParameters *_taxonomyLookupParameters;
-    GEOPDQueryUnderstandingTaxonomySearchParameters *_taxonomySearchParameters;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    int _workflow;
-    struct {
-        unsigned int has_type:1;
-        unsigned int has_workflow:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_searchString:1;
-        unsigned int read_taxonomyLookupParameters:1;
-        unsigned int read_taxonomySearchParameters:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)	;
+- (id)_shouldSetStartSampleCountForRTS;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ay"@"NSError">16@?<v@?B>24;
-- (id)el;
+- (id)_matchedUsingLabel;
 - (id)4;
 - (void);
 

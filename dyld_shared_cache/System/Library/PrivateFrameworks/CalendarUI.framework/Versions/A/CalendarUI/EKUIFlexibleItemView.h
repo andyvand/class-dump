@@ -8,8 +8,8 @@
 {
 }
 
-- (_Bool);
-- (struct CGSize);
+- (_Bool)J;
+- (struct CGSize);
 
 @end
 

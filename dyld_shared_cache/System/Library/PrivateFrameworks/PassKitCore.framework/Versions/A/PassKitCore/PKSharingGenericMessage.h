@@ -11,7 +11,6 @@
 @interface PKSharingGenericMessage : PKSharingMessage
 {
     NSDictionary *_genericSharingDict;
-    NSDictionary *_appleSharingDict;
 }
 
 + (id);
@@ -31,7 +30,6 @@
 - (void)ut invalid device credential;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *appleSharingDict; // @synthesize appleSharingDict=_appleSharingDict;
 @property(readonly, nonatomic) NSDictionary *genericSharingDict; // @synthesize genericSharingDict=_genericSharingDict;
 
 @end

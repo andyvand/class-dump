@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 @interface CXNotificationServiceExtensionVoIPXPCClient
 {
     struct os_unfair_lock_s _accessorLock;
-    NSXPCConnection *_connection;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)h";
 - (id);
 - (void);
 - (id);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXCuratedLibraryCardSectionConfigurator.h>
 
-@class PXYearAssetsSectionHeaderLayoutSpec, PXYearAssetsSkimmingSectionHeaderLayoutSpec;
+@class PXYearAssetsSkimmingSectionHeaderLayoutSpec;
 
 @interface PXYearAssetsSectionConfigurator : PXCuratedLibraryCardSectionConfigurator
 {
     PXYearAssetsSkimmingSectionHeaderLayoutSpec *_skimmingHeaderSpec;
-    PXYearAssetsSectionHeaderLayoutSpec *_normalHeaderSpec;
 }
 
 - (id);

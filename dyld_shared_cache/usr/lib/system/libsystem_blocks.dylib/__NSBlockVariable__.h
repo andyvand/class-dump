@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface __NSBlockVariable__
 {
     struct Block_byref *forwarding;
-    int flags;
-    int size;
-    CDUnknownFunctionPointerType byref_keep;
-    CDUnknownFunctionPointerType byref_destroy;
-    id containedObject;
 }
 
 @end

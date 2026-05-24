@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (CPAnalytics)
++ (id),;
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)R~qL;
 @end
 

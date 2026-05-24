@@ -6,7 +6,7 @@
 
 @interface UnknownClass (MCMimeDataEncoding)
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 @end

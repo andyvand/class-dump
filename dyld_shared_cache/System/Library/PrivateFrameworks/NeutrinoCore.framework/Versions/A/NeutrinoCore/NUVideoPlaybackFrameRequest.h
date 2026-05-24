@@ -6,22 +6,11 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NSArray, NSDictionary, NUColorSpace, NURenderNode;
+@class NUColorSpace;
 
 @interface NUVideoPlaybackFrameRequest : NURenderRequest
 {
     _Bool _isDolbyVision;
-    float _playbackRate;
-    NUColorSpace *_colorSpace;
-    struct __CVBuffer *_destinationBuffer;
-    long long _playbackDirection;
-    NURenderNode *_videoRenderPrepareNode;
-    NSDictionary *_videoFrames;
-    NSDictionary *_videoMetadataSamples;
-    NSArray *_videoSampleSlices;
-    CDStruct_1e2b2e48 _renderScale;
-    CDStruct_1b6d18a9 _evaluationTime;
-    CDStruct_1b6d18a9 _frameDuration;
 }
 
 - (id);
@@ -33,9 +22,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)5;
+- (void);
+- (long long)S;
 - (id);
 - (long long);
 - (_Bool);
@@ -43,9 +32,9 @@
 - (struct __CVBuffer *);
 - (void);
 - (CDStruct_912cb5d2);
-- (void);
-- (void);
-- (CDStruct_1b6d18a9);
+- (void)W;
+- (void)P;
+- (CDStruct_1b6d18a9);
 - (void);
 - (id);
 - (id);
@@ -58,17 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(retain, nonatomic) struct __CVBuffer *destinationBuffer; // @synthesize destinationBuffer=_destinationBuffer;
-@property(nonatomic) CDStruct_1b6d18a9 evaluationTime; // @synthesize evaluationTime=_evaluationTime;
-@property(nonatomic) CDStruct_1b6d18a9 frameDuration; // @synthesize frameDuration=_frameDuration;
-@property(nonatomic) _Bool isDolbyVision; // @synthesize isDolbyVision=_isDolbyVision;
-@property(nonatomic) long long playbackDirection; // @synthesize playbackDirection=_playbackDirection;
-@property(nonatomic) float playbackRate; // @synthesize playbackRate=_playbackRate;
-@property(nonatomic) CDStruct_912cb5d2 renderScale; // @synthesize renderScale=_renderScale;
-@property(copy, nonatomic) NSDictionary *videoFrames; // @synthesize videoFrames=_videoFrames;
-@property(copy, nonatomic) NSDictionary *videoMetadataSamples; // @synthesize videoMetadataSamples=_videoMetadataSamples;
-@property(retain, nonatomic) NURenderNode *videoRenderPrepareNode; // @synthesize videoRenderPrepareNode=_videoRenderPrepareNode;
-@property(copy, nonatomic) NSArray *videoSampleSlices; // @synthesize videoSampleSlices=_videoSampleSlices;
 
 @end
 

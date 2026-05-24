@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLDataProvider, NLModelConfiguration;
+@class NLModelConfiguration;
 
 @interface NLDataSet
 {
     NLModelConfiguration *_configuration;
-    NLDataProvider *_trainingDataProvider;
-    NLDataProvider *_validationDataProvider;
-    NLDataProvider *_testDataProvider;
 }
 
 + (id);
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(readonly, copy) NLModelConfiguration *configuration;
-@property(readonly) unsigned long long numberOfTestInstances;
-@property(readonly) unsigned long long numberOfTrainingInstances;
-@property(readonly) unsigned long long numberOfValidationInstances;
 
 @end
 

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SGMITokenCounts
 {
     NSNumber *_salientCount;
-    NSNumber *_regularCount;
-    NSString *_token;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%X%0&D'd(8);
 - (id);
 - (id);
 - (id);
@@ -24,9 +22,7 @@
 - (void)Ìkm;
 
 // Remaining properties
-@property(readonly) NSNumber *regularCount; // @synthesize regularCount=_regularCount;
 @property(readonly) NSNumber *salientCount; // @synthesize salientCount=_salientCount;
-@property(readonly) NSString *token; // @synthesize token=_token;
 
 @end
 

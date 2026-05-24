@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString, NSUUID, RPIdentity, RPNearFieldTapEvent, RPTransportServiceHandoverMessage;
-@protocol RPNFCTransactionDelegate;
-
 __attribute__((visibility("hidden")))
 @interface RPNFCTransaction
 {
     _Bool _connected;
-    id <RPNFCTransactionDelegate> _delegate;
-    NSUUID *_identifier;
-    NSDate *_connectionDate;
-    long long _state;
-    RPNearFieldTapEvent *_tapEvent;
-    RPIdentity *_remoteIdentity;
-    NSError *_error;
-    long long _role;
-    RPTransportServiceHandoverMessage *_localAuthenticationMessage;
-    RPTransportServiceHandoverMessage *_localValidationMessage;
-    RPTransportServiceHandoverMessage *_remoteAuthenticationMessage;
-    RPTransportServiceHandoverMessage *_remoteValidationMessage;
 }
 
-+ (_Bool);
++ (_Bool)"M;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)tBlock;
+- (id)der chain.;
 - (id);
 - (void);
 - (id);
@@ -51,33 +36,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
 - (void)gedAccount(;
 
 // Remaining properties
 @property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, nonatomic) NSDate *connectionDate; // @synthesize connectionDate=_connectionDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RPNFCTransactionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isInitiator;
-@property(retain, nonatomic) RPTransportServiceHandoverMessage *localAuthenticationMessage; // @synthesize localAuthenticationMessage=_localAuthenticationMessage;
-@property(retain, nonatomic) RPTransportServiceHandoverMessage *localValidationMessage; // @synthesize localValidationMessage=_localValidationMessage;
-@property(retain, nonatomic) RPTransportServiceHandoverMessage *remoteAuthenticationMessage; // @synthesize remoteAuthenticationMessage=_remoteAuthenticationMessage;
-@property(retain, nonatomic) RPIdentity *remoteIdentity; // @synthesize remoteIdentity=_remoteIdentity;
-@property(retain, nonatomic) RPTransportServiceHandoverMessage *remoteValidationMessage; // @synthesize remoteValidationMessage=_remoteValidationMessage;
-@property(readonly, nonatomic) long long role; // @synthesize role=_role;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RPNearFieldTapEvent *tapEvent; // @synthesize tapEvent=_tapEvent;
 
 @end
 

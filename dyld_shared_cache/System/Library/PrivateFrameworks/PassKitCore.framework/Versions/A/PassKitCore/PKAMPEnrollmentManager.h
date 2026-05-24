@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSObject, PKInAppPaymentService;
-@protocol OS_dispatch_queue;
+@class PKInAppPaymentService;
 
 @interface PKAMPEnrollmentManager
 {
     PKInAppPaymentService *_service;
-    NSMutableDictionary *_promiseMap;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    struct os_unfair_lock_s _lockObservers;
-    NSHashTable *_observers;
 }
 
-+ (id)tIdentifier;
++ (id)_baseTransportIdentifier;
 - (_Bool);
 - (void);
 - (void);

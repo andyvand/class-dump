@@ -6,19 +6,14 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSSlider, NSSliderAccessory, NSString, NSView, _NSSliderTouchBarItemView;
-@protocol NSUserInterfaceCompression;
+@class NSView;
 
 @interface NSSliderTouchBarItem : NSTouchBarItem
 {
     NSView *_view;
-    id _autounbinder;
-    id _target;
-    SEL _action;
-    NSString *_customizationLabel;
 }
 
-+ (id);
++ (id)match;
 - (double);
 - (void);
 - (void);
@@ -34,68 +29,44 @@
 - (id);
 - (double);
 - (id);
-- (double);
+- (double)sks;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)8;
 - (id);
-- (id);
+- (id)@;
 - (Class);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (oneway void);
 - (void);
+- (id)numberWithUnsignedInt: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)S;
 - (id);
+- (double);
 - (void);
-- (id);
-- (double);
-- (void);
-- (id)pareToMoveToURL:completionHandler: /* Error: Ran out of types for this method. */;
-- (double)Button: /* Error: Ran out of types for this method. */;
+- (id)_prepareToMoveToURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)_hasActiveAppearanceForStandardWindowButton: /* Error: Ran out of types for this method. */;
 - (double)Vÿÿ;
 - (void);
 - (SEL);
 - (void)ociated with a pasteboard instance.;
-- (void)rea;
+- (void)AXTextArea;
 - (void)IhP;
-- (void)Interface;
+- (void)ActionInterface;
 - (double)D;
 
 // Remaining properties
 @property(readonly) _Bool _hasStepBehaviorContext;
-@property(readonly) _NSSliderTouchBarItemView *_sliderItemView;
-@property SEL action; // @synthesize action=_action;
-@property(copy) NSString *customizationLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double doubleValue;
-@property(readonly) unsigned long long hash;
-@property double incrementValue;
-@property(copy) NSString *label;
-@property double maximumSliderWidth;
-@property double maximumValue;
-@property(retain) NSSliderAccessory *maximumValueAccessory;
-@property double minimumSliderWidth;
-@property double minimumValue;
-@property(retain) NSSliderAccessory *minimumValueAccessory;
-@property(retain) NSSlider *slider;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
-@property double value;
-@property double valueAccessoryWidth;
-@property(readonly) NSView<NSUserInterfaceCompression> *view;
 
 @end
 

@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, SFCard;
+@class NSArray;
 
 @protocol CRCard
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool asynchronous;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) SFCard *backingCard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SFCard",?,R,N
-
-@property(readonly, nonatomic) unsigned long long cardFormat;
-@property(readonly, copy, nonatomic) NSString *cardIdentifier;
 @property(readonly, nonatomic) NSArray *cardSections;
-@property(readonly, nonatomic) NSArray *dismissalCommands;
-@property(readonly, nonatomic) _Bool flexibleSectionOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSSet *interactions;
-@property(readonly, nonatomic) NSArray *resolvedCardSections;
 @end
 

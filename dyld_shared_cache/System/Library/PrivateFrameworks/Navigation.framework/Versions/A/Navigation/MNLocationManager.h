@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLHeading, MNLocation;
-@protocol MNLocationRecorder;
+@class MNLocation;
 
 @interface MNLocationManager
 {
     id _lastHeadingDate;
-    void locationCorrector;
-    id mapMatchingProvider;
-    id <MNLocationRecorder> locationRecorder;
-    id _lastLocation;
-    id _lastHeading;
-    id _observers;
-    id _locationProvider;
-    id _locationStreamContinuation;
-    id _locationStreamTask;
-    id _locationProviderType;
-    id $__lazy_storage_$__locationShifter;
 }
 
-+ (id)upportedPlateNumerics;
++ (id)supportedPlateNumerics;
 - (void);
 - (void);
 - (void);
@@ -44,36 +32,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)@;
+- (_Bool)AMPLibModelPlaylistKind;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)NSString"16;
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)setPerformingRecoveryOSUpdate:(id)arg1;
+- (void)PersistedStateError;
 - (void);
 - (double);
 - (void)SArray"24@"CLBeaconIdentityConstraint"32;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)ePath: /* Error: Ran out of types for this method. */;
+- (void)setHeight: /* Error: Ran out of types for this method. */;
+- (void)_createSymlinkForTracePath: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ationForLocation;
+- (void)MatchedLocationForLocation;
 - (double)NSACTION;;
-- (void)ent;
+- (void)ArrayLiteralElement;
 
 // Remaining properties
-@property(nonatomic, readonly) double expectedGpsUpdateInterval;
-@property(nonatomic, readonly) _Bool isHeadingAvailable;
-@property(nonatomic, readonly) CLHeading *lastHeading;
 @property(nonatomic, readonly) MNLocation *lastLocation;
-@property(nonatomic, copy) CDUnknownBlockType locationCorrector;
-@property(nonatomic, readonly) long long locationProviderType;
-@property(nonatomic, retain) id <MNLocationRecorder> locationRecorder; // @synthesize locationRecorder;
-@property(nonatomic, readonly) double timeScale;
 
 @end
 

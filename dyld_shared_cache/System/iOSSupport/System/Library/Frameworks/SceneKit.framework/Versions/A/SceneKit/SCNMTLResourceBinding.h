@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArgument, NSMutableArray, NSString;
-@protocol MTLArgumentEncoder;
+@class MTLArgument;
 
 __attribute__((visibility("hidden")))
 @interface SCNMTLResourceBinding
 {
     _Bool _needsRenderResource;
-    CDStruct_21854d8c _indices;
-    CDStruct_21854d8c _samplerIndices;
-    NSMutableArray *_usedResources;
-    id _bindBlock;
-    MTLArgument *_argument;
-    id <MTLArgumentEncoder> _argumentEncoder;
 }
 
-- (id);
+- (id)O;
 - (void);
 - (void);
 - (void);
@@ -28,20 +21,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)__swift_objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (id)¬<C>6ä½¦¤?ÔC´<A>v7ï½Ü?wÓ<oH>ñü½)?ù<[Î>¢¾~Q?O¬=Áà>V¾7U?ÂÜ.=nm!>õö¾Ú?ûN=»(>HR"¾Rz?s=ÖÄ2>°-¾]u?b=;
 
 // Remaining properties
 @property(retain, nonatomic) MTLArgument *argument; // @synthesize argument=_argument;
-@property(retain, nonatomic) id <MTLArgumentEncoder> argumentEncoder; // @synthesize argumentEncoder=_argumentEncoder;
-@property(copy, nonatomic) id bindBlock; // @synthesize bindBlock=_bindBlock;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) _Bool needsRenderResource;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) NSMutableArray *usedResources;
 
 @end
 

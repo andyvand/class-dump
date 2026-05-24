@@ -7,9 +7,6 @@
 @interface NewsUI2.ChannelCoinRenderer
 {
     id imageApplier;
-    id styler;
-    id accessoryButtonRenderer;
-    id commandCenter;
 }
 
 @end

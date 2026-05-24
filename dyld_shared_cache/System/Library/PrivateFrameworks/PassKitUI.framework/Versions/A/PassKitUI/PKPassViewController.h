@@ -4,48 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, NSView, NSWindow, PKPass, PKPassBackView, PKPassFrontView;
+@class NSView, PKPass;
 
 @interface PKPassViewController
 {
     NSView *flipFromView;
-    CALayer *flipFromLayer;
-    NSView *flipToView;
-    CALayer *flipToLayer;
-    NSWindow *_flipWindow;
-    _Bool _isFlipped;
-    _Bool _disableActions;
-    PKPass *_pass;
-    PKPassFrontView *_frontView;
-    PKPassBackView *_backView;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)rt/System/Library/PrivateFrameworks/IMSharedUtilities.framework/Versions/A/IMSharedUtilities;
 
 // Remaining properties
-@property(readonly) PKPassBackView *backView; // @synthesize backView=_backView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disableActions; // @synthesize disableActions=_disableActions;
-@property(readonly) PKPassFrontView *frontView; // @synthesize frontView=_frontView;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isFlipped; // @synthesize isFlipped=_isFlipped;
 @property(retain, nonatomic) PKPass *pass; // @synthesize pass=_pass;
-@property(readonly) Class superclass;
 
 @end
 

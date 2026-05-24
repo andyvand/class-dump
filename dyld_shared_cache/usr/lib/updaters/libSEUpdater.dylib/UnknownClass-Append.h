@@ -7,8 +7,8 @@
 @interface UnknownClass (Append)
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
+- (void)`;
 - (void);
 - (void);
 - (void);

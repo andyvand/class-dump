@@ -24,7 +24,6 @@
         unsigned int providerUniversalLink:1;
         unsigned int providerBundleIdentifier:1;
     } _requestedRadioStationProperties;
-    MPPropertySet *_requestedProperties;
 }
 
 - (id);

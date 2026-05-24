@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBlitCommandEncoder, MTLDevice;
+@protocol MTLDevice;
 
 @protocol SCNGeometryDeformerInitComputeContext
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBlitCommandEncoder> currentBlitEncoder;
 @property(readonly, nonatomic) id <MTLDevice> device;
 @end
 

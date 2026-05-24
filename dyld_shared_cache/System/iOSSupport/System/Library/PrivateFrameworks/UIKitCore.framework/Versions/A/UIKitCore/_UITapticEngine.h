@@ -12,13 +12,13 @@
     _UIStatesFeedbackGenerator *_feedbackGenerator;
 }
 
-- (void);
+- (void)A;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)systemDidBecomeIdle;
+- (id)groupPhotoUploadFailureCount;
+- (id)%p (%@)> invalidatePlaybackQueueBoundaryWithExpectedQueueSize:%ld [] didChange=%{BOOL}u /* Error: Ran out of types for this method. */;
 - (void)entationModifierGroupC_G;
 - (void);
 - (id)ì6mþæÐ];

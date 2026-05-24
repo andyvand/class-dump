@@ -5,6 +5,8 @@
 //
 
 @protocol NUTimeBased
+- (CDStruct_1b6d18a9)}16{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 time;

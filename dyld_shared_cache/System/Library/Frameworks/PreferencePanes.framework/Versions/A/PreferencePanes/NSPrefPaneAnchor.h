@@ -9,11 +9,10 @@
 @interface NSPrefPaneAnchor
 {
     NSString *mAnchorString;
-    NSString *mPPIdentifier;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

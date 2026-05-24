@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemHomeSharingLoadOperation
 {
     MPCModelGenericAVItemAssetLoadProperties *_assetLoadProperties;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (void);
-- (id);
-- (CDUnknownBlockType);
+- (id)__objc_data;
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void){public}@  ââ´%{public}@ %{public}-40@ [%{public}@];
 
 // Remaining properties
 @property(retain, nonatomic) MPCModelGenericAVItemAssetLoadProperties *assetLoadProperties; // @synthesize assetLoadProperties=_assetLoadProperties;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

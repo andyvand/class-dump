@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaInstrumentationMessage, SUTSchemaTestAssociatedSchemaIdentifier, SUTSchemaTestExecutionBegin, SUTSchemaTestExecutionEnd, SUTSchemaTestExecutionMetadata, SUTSchemaTestOutcomeRecorded;
+@class SISchemaInstrumentationMessage, SUTSchemaTestExecutionMetadata;
 
 @interface SUTSchemaTestExecutionEvent : SISchemaTopLevelUnionType
 {
     SUTSchemaTestExecutionMetadata *_metadata;
-    SUTSchemaTestExecutionBegin *_testExecutionBegin;
-    SUTSchemaTestExecutionEnd *_testExecutionEnd;
-    SUTSchemaTestAssociatedSchemaIdentifier *_testAssociatedSchemaIdentifier;
-    SUTSchemaTestOutcomeRecorded *_testOutcomeRecorded;
-    _Bool _hasMetadata;
-    _Bool _hasTestExecutionBegin;
-    _Bool _hasTestExecutionEnd;
-    _Bool _hasTestAssociatedSchemaIdentifier;
-    _Bool _hasTestOutcomeRecorded;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -47,43 +37,31 @@
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_addMessagesSharingOption;
+- (id))!;
 - (int);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_objectToExport;
+- (_Bool)on_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE guid = ? ORDER BY message.ROWID ASC;;
 - (id);
 - (id);
 - (id);
 - (id)Ô ;
-- (void)oreReported;
-- (unsigned long long)guationsLastSevenDays;
-- (id)ditNamedEntityMetrics;
-- (id)nals;
+- (void)pommesServiceClassifierScoreReported;
+- (unsigned long long)hasNumAppDisambiguationsLastSevenDays;
+- (id)deletePersonalizationUserEditNamedEntityMetrics;
+- (id)_inferenceCommsAppSelectionTrainingAppDependentSignals;
 - (int)t",&,N,V_contactSignalSet;
 - (_Bool)±ä³
 h¹¼;
-- (void)CHTASKTYPE_VOICEMAIL;
+- (void)ORCHSPEECHTASKTYPE_VOICEMAIL;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMetadata; // @synthesize hasMetadata=_hasMetadata;
-@property(nonatomic) _Bool hasTestAssociatedSchemaIdentifier; // @synthesize hasTestAssociatedSchemaIdentifier=_hasTestAssociatedSchemaIdentifier;
-@property(nonatomic) _Bool hasTestExecutionBegin; // @synthesize hasTestExecutionBegin=_hasTestExecutionBegin;
-@property(nonatomic) _Bool hasTestExecutionEnd; // @synthesize hasTestExecutionEnd=_hasTestExecutionEnd;
-@property(nonatomic) _Bool hasTestOutcomeRecorded; // @synthesize hasTestOutcomeRecorded=_hasTestOutcomeRecorded;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SUTSchemaTestExecutionMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) SUTSchemaTestAssociatedSchemaIdentifier *testAssociatedSchemaIdentifier; // @synthesize testAssociatedSchemaIdentifier=_testAssociatedSchemaIdentifier;
-@property(retain, nonatomic) SUTSchemaTestExecutionBegin *testExecutionBegin; // @synthesize testExecutionBegin=_testExecutionBegin;
-@property(retain, nonatomic) SUTSchemaTestExecutionEnd *testExecutionEnd; // @synthesize testExecutionEnd=_testExecutionEnd;
-@property(retain, nonatomic) SUTSchemaTestOutcomeRecorded *testOutcomeRecorded; // @synthesize testOutcomeRecorded=_testOutcomeRecorded;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

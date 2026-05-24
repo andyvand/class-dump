@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatVideoNodeRenderer
 {
     id assetManager;
-    id imageCache;
-    id creationQueue;
 }
 
 @end

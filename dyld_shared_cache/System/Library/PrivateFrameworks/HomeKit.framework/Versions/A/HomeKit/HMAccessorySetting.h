@@ -6,12 +6,11 @@
 
 #import <HomeKit/HMSetting.h>
 
-@class HMAccessorySettingGroup, NSString, NSUUID, _HMAccessorySetting;
+@class _HMAccessorySetting;
 
 @interface HMAccessorySetting : HMSetting
 {
     _HMAccessorySetting *_internal;
-    HMAccessorySettingGroup *_group;
 }
 
 + (id);
@@ -29,34 +28,23 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)ssionSessionTNGEncodePreProcessing() failed to allocate delta_frame_buffer_
+;
 - (id);
-- (_Bool);
+- (_Bool)enhancement;
+- (id)addObserver:forKeyPath:options:context: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)aceFst:Inconsistent arc iterator flags /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (Class)ô;
 - (void)lic}@Staging destination controller data:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak HMAccessorySettingGroup *group; // @synthesize group=_group;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier;
 @property(readonly) _HMAccessorySetting *internal; // @synthesize internal=_internal;
-@property(readonly, copy) NSString *keyPath;
-@property(readonly, getter=isReflected) _Bool reflected;
-@property(readonly) Class superclass;
-@property(readonly) Class valueClass;
 
 @end
 

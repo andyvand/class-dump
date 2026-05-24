@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEExtensionManager, NSMutableArray;
+@class DEExtensionManager;
 
 __attribute__((visibility("hidden")))
 @interface DiagnosticExtensionCaller
 {
     DEExtensionManager *_manager;
-    NSMutableArray *_liveDEs;
 }
 
 + (_Bool);
 + (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)navigationSessionWillReroute:(id)arg1;
+- (_Bool)isMemberOfClass:(id)arg1;
 - (void);
 
 @end

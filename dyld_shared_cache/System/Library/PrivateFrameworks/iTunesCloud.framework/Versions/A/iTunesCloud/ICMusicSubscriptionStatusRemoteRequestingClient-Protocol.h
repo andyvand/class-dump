@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ICMusicSubscriptionStatusResponse;
+
 @protocol ICMusicSubscriptionStatusRemoteRequestingClient
+- (void)CNCAction=^^?d@?@BdddddBB@?^{__CFString}qdddd}16@0:(ICMusicSubscriptionStatusResponse *)arg1 8;
 @end
 

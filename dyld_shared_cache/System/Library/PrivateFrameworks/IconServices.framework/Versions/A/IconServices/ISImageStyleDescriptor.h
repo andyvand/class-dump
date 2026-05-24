@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface ISImageStyleDescriptor
 {
     _Bool _templateVariant;
-    _Bool _selectedVariant;
-    IFColor *_tintColor;
 }
 
-+ (id);
++ (id)localeWithLocaleIdentifier: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)ALSAlgorithm;
+- (id)CBReasonForBrightnessChange;
 - (_Bool);
-- (void);
+- (void)V;
 - (id)
 ÜüTdÜ;
 - (void);
 
 // Remaining properties
-@property(readonly) NSUUID *digest; // @dynamic digest;
-@property(nonatomic) _Bool selectedVariant; // @synthesize selectedVariant=_selectedVariant;
 @property(nonatomic) _Bool templateVariant; // @synthesize templateVariant=_templateVariant;
-@property(retain, nonatomic) IFColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

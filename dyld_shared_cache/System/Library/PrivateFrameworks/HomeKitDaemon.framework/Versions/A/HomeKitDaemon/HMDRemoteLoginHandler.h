@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, HMDAppleMediaAccessory, HMDRemoteLoginAnisetteDataHandler, HMDRemoteLoginInitiator, HMDRemoteLoginReceiver, HMFMessageDispatcher, HMFStagedValue, NSObject, NSString, NSUUID;
-@protocol HMEEventForwarder, HMELastEventStoreReadHandle, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginHandler
 {
     _Bool _targetSupportsAccounts;
-    NSUUID *_uuid;
-    HMDRemoteLoginInitiator *_initiator;
-    HMDRemoteLoginReceiver *_receiver;
-    HMDAppleMediaAccessory *_accessory;
-    HMDRemoteLoginAnisetteDataHandler *_anisetteDataHandler;
-    ACAccount *_loggedInAccount;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    id <HMELastEventStoreReadHandle> _eventStoreReadHandle;
-    id <HMEEventForwarder> _eventForwarder;
-    HMFStagedValue *_stagedLoggedInAccount;
-    ACAccountStore *_accountStore;
 }
 
-+ (id);
++ (id)(;
 + (_Bool)Àm;
 + (id)Ô_B;
 - (void);
@@ -34,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)_maps_setNeedsUpdate:(id)arg1 withSelector:(id)arg2;
+- (id)_maps_scheduledTimerWithFireDate:(id)arg1 block:(id)arg2;
+- (id)k_invoke;
 - (void);
 - (id);
 - (void);
@@ -48,55 +36,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ft/libswiftUniformTypeIdentifiers.dylib;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)SSBonjourBrowser;
+- (id)dBackgroundThreadRoutine] THREAD EXITING UNEXPECTEDLY!;
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)ndle:toAccount: /* Error: Ran out of types for this method. */;
+- (id)addHandle:toAccount: /* Error: Ran out of types for this method. */;
 - (id)ess than the curve minimum color temperature value:%ld /* Error: Ran out of types for this method. */;
 - (id)erval is %@;
 - (id)in with message:%@ actionURL:%@ /* Error: Ran out of types for this method. */;
 - (id)%s;
 - (void)red Accessory;
 - (id)e&cfuAction=updateOS;
-- (void)R_BODY_PARTIAL_SUCCESS;
+- (void)TRIGGER_EXECUTION_ERROR_BODY_PARTIAL_SUCCESS;
 - (id)ßÿ=A
 ÈO>;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAppleMediaAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, nonatomic) HMDRemoteLoginAnisetteDataHandler *anisetteDataHandler; // @synthesize anisetteDataHandler=_anisetteDataHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id <HMEEventForwarder> eventForwarder; // @synthesize eventForwarder=_eventForwarder;
-@property(retain) id <HMELastEventStoreReadHandle> eventStoreReadHandle; // @synthesize eventStoreReadHandle=_eventStoreReadHandle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDRemoteLoginInitiator *initiator; // @synthesize initiator=_initiator;
-@property(retain, nonatomic) ACAccount *loggedInAccount; // @synthesize loggedInAccount=_loggedInAccount;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly, nonatomic) HMDRemoteLoginReceiver *receiver; // @synthesize receiver=_receiver;
-@property(readonly) HMFStagedValue *stagedLoggedInAccount; // @synthesize stagedLoggedInAccount=_stagedLoggedInAccount;
-@property(readonly) Class superclass;
-@property(readonly) _Bool targetSupportsAccounts; // @synthesize targetSupportsAccounts=_targetSupportsAccounts;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

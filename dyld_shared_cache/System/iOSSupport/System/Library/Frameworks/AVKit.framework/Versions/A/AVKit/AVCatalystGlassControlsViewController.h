@@ -6,43 +6,32 @@
 
 #import <AVKit/AVMobileControlsViewController.h>
 
-@class AVCatalystGlassPlaybackControlsController, AVCatalystGlassPlaybackControlsView, AVCatalystGlassStyleSheet, AVCatalystTurboModePlaybackControlsPlaceholderView, AVMobileChromeControlsView, AVObservationController, AVPlayerViewController, NSString, NSValue;
+@class AVCatalystGlassPlaybackControlsController, AVPlayerViewController;
 
 __attribute__((visibility("hidden")))
 @interface AVCatalystGlassControlsViewController : AVMobileControlsViewController
 {
     AVPlayerViewController *_playerViewController;
-    AVObservationController *_observationController;
-    AVMobileChromeControlsView *_controlsView;
-    AVCatalystGlassPlaybackControlsController *_playbackControlsController;
-    AVCatalystGlassStyleSheet *_styleSheet;
-    struct UIEdgeInsets _legibleContentInsetsAvoidingControlsUI;
-    _Bool _prefersCompactFullScreenControls;
-    _Bool _prefersFullWidthTransportControls;
-    NSValue *_embeddedInlineLayoutMargins;
-    AVCatalystGlassPlaybackControlsView *_playbackControlsView;
-    AVCatalystTurboModePlaybackControlsPlaceholderView *_turboModeControlsView;
-    struct CGAffineTransform _transformForProminentPlayButton;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void).;
 - (struct CGAffineTransform);
 - (void);
 - (void);
@@ -65,8 +54,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ng possible sponsors:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -76,21 +65,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSValue *embeddedInlineLayoutMargins; // @synthesize embeddedInlineLayoutMargins=_embeddedInlineLayoutMargins;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AVCatalystGlassPlaybackControlsController *playbackControlsController;
-@property(readonly, nonatomic) AVCatalystGlassPlaybackControlsView *playbackControlsView; // @synthesize playbackControlsView=_playbackControlsView;
-@property(nonatomic) _Bool prefersCompactFullScreenControls; // @synthesize prefersCompactFullScreenControls=_prefersCompactFullScreenControls;
-@property(nonatomic) _Bool prefersFullWidthTransportControls; // @synthesize prefersFullWidthTransportControls=_prefersFullWidthTransportControls;
-@property(nonatomic) _Bool showsAnalysisControl;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transformForProminentPlayButton; // @synthesize transformForProminentPlayButton=_transformForProminentPlayButton;
-@property(readonly, nonatomic) AVCatalystTurboModePlaybackControlsPlaceholderView *turboModeControlsView; // @synthesize turboModeControlsView=_turboModeControlsView;
 
 @end
 

@@ -5,10 +5,10 @@
 //
 
 @protocol CoalescableMicroGamepad
+- (unsigned long long);
 - (void)RS,f;
 
 // Remaining properties
-@property(nonatomic) long long deviceType;
 @property(nonatomic) unsigned long long owner;
 @end
 

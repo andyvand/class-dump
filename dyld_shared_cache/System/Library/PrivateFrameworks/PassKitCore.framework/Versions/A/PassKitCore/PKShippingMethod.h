@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentSummaryItem.h>
 
-@class NSString, PKDateComponentsRange;
+@class NSString;
 
 @interface PKShippingMethod : PKPaymentSummaryItem
 {
     NSString *_identifier;
-    NSString *_detail;
-    PKDateComponentsRange *_dateComponentsRange;
 }
 
 + (id);
@@ -22,13 +20,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)>;
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (void)_txdeauth;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -36,8 +34,6 @@
 - (void)@"PKPassVerificationMethodGroup"8;
 
 // Remaining properties
-@property(copy, nonatomic) PKDateComponentsRange *dateComponentsRange; // @synthesize dateComponentsRange=_dateComponentsRange;
-@property(copy, nonatomic) NSString *detail; // @synthesize detail=_detail;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

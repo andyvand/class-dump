@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRTOCFileParser
 {
     NSString *tocPath;
-    NSMutableArray *trackInfoList;
-    NSMutableDictionary *burnInfo;
-    NSMutableArray *cdTextBlocks;
-    long long trackNumber;
 }
 
 - (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

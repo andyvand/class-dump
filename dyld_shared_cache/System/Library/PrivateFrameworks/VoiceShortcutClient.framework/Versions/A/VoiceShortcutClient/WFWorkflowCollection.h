@@ -6,14 +6,9 @@
 
 #import <VoiceShortcutClient/WFDatabaseObjectDescriptor.h>
 
-@class NSString;
-
 @interface WFWorkflowCollection : WFDatabaseObjectDescriptor
 {
     _Bool _folder;
-    _Bool _deleted;
-    unsigned short _glyphCharacter;
-    NSString *_name;
 }
 
 @end

@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHBottomUpStrokeGroupingStrategy, CHTilingManager, NSArray;
-@protocol CHDocumentLayoutAnalyzing, CHStrokeProvider;
+@class CHTilingManager;
+@protocol CHStrokeProvider;
 
 @interface CHDocumentLayoutAnalysisManager
 {
     CHTilingManager *_tilingManager;
-    CHBottomUpStrokeGroupingStrategy *_leftToRightBottomUpStrategy;
-    CHBottomUpStrokeGroupingStrategy *_rightToLeftBottomUpStrategy;
-    NSArray *_scriptCodeMap;
-    long long _maxNumStrokesPerTile;
-    id <CHStrokeProvider> _strokeProvider;
-    id <CHDocumentLayoutAnalyzing> _documentLayoutAnalyzer;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)nŷrn;
 - (id);
 - (id);
 - (void)Ä;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CHDocumentLayoutAnalyzing> documentLayoutAnalyzer; // @synthesize documentLayoutAnalyzer=_documentLayoutAnalyzer;
 @property(readonly, nonatomic) id <CHStrokeProvider> strokeProvider; // @synthesize strokeProvider=_strokeProvider;
 
 @end

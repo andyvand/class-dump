@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, WFNetworkRetryManager, WFWeatherStoreCache, WFWeatherStoreServiceConfiguration;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WFWeatherStoreService
 {
     struct os_unfair_lock_s _retryLock;
-    WFWeatherStoreServiceConfiguration *_configuration;
-    CDUnknownBlockType _forecastRequestStartingCallback;
-    CDUnknownBlockType _locationGeocodeForCoordinateRequestStartingCallback;
-    NSObject<OS_dispatch_queue> *_incomingRequestQueue;
-    NSObject<OS_dispatch_queue> *_parseQueue;
-    NSObject<OS_dispatch_queue> *_mapQueue;
-    NSMutableDictionary *_UUIDToCallbackMap;
-    NSMutableDictionary *_UUIDToURLMap;
-    NSMutableDictionary *_URLToTaskMap;
-    NSMutableDictionary *_URLToCallbackMap;
-    WFWeatherStoreCache *_cache;
-    WFNetworkRetryManager *_retryManager;
 }
 
 - (void);
@@ -83,13 +71,13 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)thout item count);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -98,26 +86,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *URLToCallbackMap; // @synthesize URLToCallbackMap=_URLToCallbackMap;
-@property(retain) NSMutableDictionary *URLToTaskMap; // @synthesize URLToTaskMap=_URLToTaskMap;
-@property(retain) NSMutableDictionary *UUIDToCallbackMap; // @synthesize UUIDToCallbackMap=_UUIDToCallbackMap;
-@property(retain) NSMutableDictionary *UUIDToURLMap; // @synthesize UUIDToURLMap=_UUIDToURLMap;
-@property(retain) WFWeatherStoreCache *cache; // @synthesize cache=_cache;
-@property(copy, nonatomic) WFWeatherStoreServiceConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType forecastRequestStartingCallback; // @synthesize forecastRequestStartingCallback=_forecastRequestStartingCallback;
-@property(readonly) unsigned long long hash;
 @property(retain) NSObject<OS_dispatch_queue> *incomingRequestQueue; // @synthesize incomingRequestQueue=_incomingRequestQueue;
-@property(copy, nonatomic) CDUnknownBlockType locationGeocodeForCoordinateRequestStartingCallback; // @synthesize locationGeocodeForCoordinateRequestStartingCallback=_locationGeocodeForCoordinateRequestStartingCallback;
-@property(retain) NSObject<OS_dispatch_queue> *mapQueue; // @synthesize mapQueue=_mapQueue;
-@property(retain) NSObject<OS_dispatch_queue> *parseQueue; // @synthesize parseQueue=_parseQueue;
-@property struct os_unfair_lock_s retryLock; // @synthesize retryLock=_retryLock;
-@property(retain, nonatomic) WFNetworkRetryManager *retryManager; // @synthesize retryManager=_retryManager;
-@property(readonly) Class superclass;
 
 @end
 

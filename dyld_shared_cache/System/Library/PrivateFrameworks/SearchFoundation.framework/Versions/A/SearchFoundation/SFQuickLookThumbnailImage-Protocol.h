@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @protocol SFQuickLookThumbnailImage
 
 // Remaining properties
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSURL *filePath;
-@property(copy, nonatomic) NSString *fileProviderIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (ABMutableSetAdditions)
-- (void);
+- (void);
 @end
 

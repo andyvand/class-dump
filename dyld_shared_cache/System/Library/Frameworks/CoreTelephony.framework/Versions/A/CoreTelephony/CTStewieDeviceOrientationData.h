@@ -9,33 +9,27 @@
 @interface CTStewieDeviceOrientationData
 {
     _Bool _targetLocked;
-    _Bool _isDeviceStationary;
-    NSDate *_timestamp;
-    long long _x;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)E_IS_NUMERIC;
+- (_Bool)@�?;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@;
+- (void)numberWithInteger:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)%@;
+- (id)ds;
 - (_Bool);
 - (long long);
 - (void)a&ð!(Aùqª)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool isDeviceStationary; // @synthesize isDeviceStationary=_isDeviceStationary;
-@property(nonatomic) _Bool targetLocked; // @synthesize targetLocked=_targetLocked;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) long long x; // @synthesize x=_x;
 
 @end
 

@@ -9,25 +9,6 @@
 @interface PromotedContent.SearchLandingPageRepresentation : APPCContentRepresentation
 {
     id adamId;
-    id metadata;
-    id clientRequestId;
-    id journeyRelayAdGroupId;
-    id journeyRelayCampaignId;
-    id parentAppCheckEnabled;
-    id installAttribution;
-    id aakInstallAttribution;
-    id rank;
-    id timeToDisplay;
-    id iAdId;
-    id storeFront;
-    id storeFrontLocale;
-    id odmlSuccess;
-    id treatmentId;
-    id deploymentId;
-    id experimentId;
-    id appMetadata;
-    id creativeDetails;
-    id triggers;
 }
 
 - (void);

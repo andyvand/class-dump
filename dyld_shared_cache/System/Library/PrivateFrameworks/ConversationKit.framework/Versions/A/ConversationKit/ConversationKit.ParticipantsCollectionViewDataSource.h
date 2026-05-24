@@ -7,13 +7,10 @@
 @interface ConversationKit.ParticipantsCollectionViewDataSource
 {
     id onlineParticipants;
-    id offlineParticipants;
-    id participantIsShownInGrid;
-    id didCreateCellForParticipant;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (long long);
 - (void)°·üÿ¸·üÿ;

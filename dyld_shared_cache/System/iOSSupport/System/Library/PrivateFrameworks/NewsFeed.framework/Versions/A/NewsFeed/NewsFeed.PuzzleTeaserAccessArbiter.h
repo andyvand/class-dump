@@ -7,7 +7,6 @@
 @interface NewsFeed.PuzzleTeaserAccessArbiter
 {
     id puzzleHistoryService;
-    id bundleSubscriptionManager;
 }
 
 @end

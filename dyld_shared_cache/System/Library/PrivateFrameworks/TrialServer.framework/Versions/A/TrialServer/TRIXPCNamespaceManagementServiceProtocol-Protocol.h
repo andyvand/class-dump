@@ -5,5 +5,10 @@
 //
 
 @protocol TRIXPCNamespaceManagementServiceProtocol
+- (void)ured characteristic %@;
+- (void)utablePurgeableSurfaceImage>",R,N;
+- (void)o;
+- (void)_populationLevelMax;
+- (void);
 @end
 

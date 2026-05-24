@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOTFCompactRoadSpeeds
 {
     PBDataReader *_reader;
-    CDStruct_5df41632 _geoIds;
-    NSData *_openlr;
-    NSMutableArray *_predictedSpeeds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _color;
-    float _confidence;
-    unsigned int _decayTimeWindowInMinutes;
-    float _endOffset;
-    unsigned int _speedKph;
-    float _startOffset;
-    _Bool _hidden;
-    struct {
-        unsigned int has_color:1;
-        unsigned int has_confidence:1;
-        unsigned int has_decayTimeWindowInMinutes:1;
-        unsigned int has_endOffset:1;
-        unsigned int has_speedKph:1;
-        unsigned int has_startOffset:1;
-        unsigned int has_hidden:1;
-        unsigned int read_geoIds:1;
-        unsigned int read_openlr:1;
-        unsigned int read_predictedSpeeds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
@@ -47,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id)d"b1};
-- (id)rk;
-- (id)EOConfigChangedBlockListener;
+- (id)hasPaymentNetwork;
+- (id)_GEOConfigChangedBlockListener;
 - (void);
 
 @end

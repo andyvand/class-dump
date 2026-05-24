@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEnumerator, Protocol;
+@class Protocol;
 
 @interface MPMiddlewareChain
 {
     Protocol *_protocol;
-    NSArray *_builders;
-    NSEnumerator *_middlewareEnumerator;
-    SEL _builderSelector;
 }
 
-+ (id);
++ (id)$;
 - (void);
 - (id);
-- (SEL);
+- (SEL);
 - (void);
 - (id);
-- (id);
+- (id)ed before http transactionComplete;
 - (void)TB,R,N,GisH1Route;
 
 // Remaining properties

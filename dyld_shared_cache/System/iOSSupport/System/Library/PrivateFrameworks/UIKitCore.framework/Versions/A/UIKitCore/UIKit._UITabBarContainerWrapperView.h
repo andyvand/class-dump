@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id)endarViewDecorationItem;
+- (id)(;
+- (id)_UICalendarViewDecorationItem;
 
 @end
 

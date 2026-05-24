@@ -4,12 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AAMessagingCapability, NSArray, NSUUID;
 @protocol AAMessagingServiceDelegate;
 
 @protocol AAIDSMessagingService
+- (void)e '%@' was not installed by a MDM;
+- (void)g -[CPProfileManager init] is not allowed;
+- (NSUUID *)_______________________________________________;
+- (void)Manager.installProfile authorization failed during validation authorization result = %d;
+- (id <AAMessagingServiceDelegate>)cause Family Controls rejected due to reason:%d /* Error: Ran out of types for this method. */;
+- (void)KeyArchive profile:(AAMessagingCapability *)arg1 %s  Error:(NSArray *)arg2 %s;
+- (void)lt of decrypting 'EncryptedPayloadContent' was not an array;
+- (id <AAMessagingServiceDelegate>)information for PayloadUUID;
 
 // Remaining properties
-@property(nonatomic) __weak id <AAMessagingServiceDelegate> custodianDelegate;
 @property(nonatomic) __weak id <AAMessagingServiceDelegate> inheritanceDelegate;
 @end
 

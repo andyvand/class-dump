@@ -9,8 +9,6 @@
 @interface NewsUI2.WelcomeView
 {
     id scrollView;
-    id titleGroup;
-    id footer;
 }
 
 - (void);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic) _Bool accessibilityViewIsModal;
 
 @end
 

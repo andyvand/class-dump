@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol IDSBaseMessageSigningSessionBAAContext
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *signingDigest;

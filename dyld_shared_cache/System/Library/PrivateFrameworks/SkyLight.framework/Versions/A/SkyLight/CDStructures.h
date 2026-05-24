@@ -13,12 +13,12 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -153,28 +153,7 @@ struct CGXSessionHMDData;
 
 struct CGXSessionPackageData;
 
-struct CGXSessionProcessData {
-    id _field1;
-    id _field2;
-    id _field3;
-    id _field4;
-    id _field5;
-    id _field6;
-    id _field7;
-    id _field8;
-    id _field9;
-    struct CPSProcessRec *_field10;
-    struct CPSProcessRec *_field11[32];
-    struct CPSProcessRec *_field12;
-    struct CPSProcessSerNum _field13;
-    struct CPSKeyFocusInfoRec *_field14;
-    int _field15;
-    unsigned int _field16;
-    _Bool _field17;
-    void *_field18;
-    unsigned int _field19;
-    CDUnknownFunctionPointerType _field20;
-};
+struct CGXSessionProcessData;
 
 struct CGXSessionUtilityDisplayControllerData;
 
@@ -185,8 +164,6 @@ struct CGXSessionWindowOverrideResolutionData;
 struct CGXSessionWindowPixelDimensionsHintData;
 
 struct CGXWindow;
-
-struct CPSKeyFocusInfoRec;
 
 struct CPSProcessRec {
     unsigned int _field1;
@@ -248,53 +225,10 @@ struct MessageInitData {
 
 struct PKGSpace;
 
-struct PresetDeviceFlags {
-    _Bool _field1;
-    _Bool _field2;
-    _Bool _field3;
-    _Bool _field4;
-};
-
-struct ProDisplayController {
-    struct function<NSDictionary *()> _load_legacy_preset_data;
-    struct function<void ()> _erase_legacy_preset_data;
-    struct function<NSDictionary *()> _load_legacy_user_adjustment_data;
-    struct function<void ()> _erase_legacy_user_adjustment_data;
-    struct function<void ()> _preset_update_callback;
-    struct function<void ()> _ua_update_callback;
-    struct unique_ptr<SkyLight::ProDisplayLibraryShim, std::default_delete<SkyLight::ProDisplayLibraryShim>> _shim;
-};
-
-struct ProDisplayLibraryShim;
-
 struct SLSBrightnessPolicyTxState {
     unsigned char shielding_policy;
     unsigned char dim_policy;
     unsigned char sleep_policy;
-    unsigned int mask;
-};
-
-struct SLSBrightnessTimeoutTxState {
-    double shielding_timeout;
-    double dim_timeout;
-    double sleep_timeout;
-    unsigned int mask;
-};
-
-struct SLSBrightnessTxState {
-    float ambient;
-    float filtered_ambient;
-    float sdr_brightness;
-    float brightness_limit;
-    float headroom;
-    float potential_headroom;
-    float reference_headroom;
-    float contrast_preservation;
-    float low_ambient_adaptation;
-    float high_ambient_adaptation;
-    float indicator_brightness;
-    float indicator_brightness_limit;
-    float contrast_enhancer;
     unsigned int mask;
 };
 
@@ -422,14 +356,6 @@ struct SLSeedResolver;
 struct SchedulerSessionData;
 
 struct SessionData;
-
-struct SpecialKeyState {
-    unsigned int KeyCode;
-    unsigned int Modifiers;
-    struct CPSProcessRec *Registrant;
-    unsigned int connID;
-    unsigned int KeysPending;
-};
 
 struct WSConnectionDatagramInfo {
     unsigned int _field1;
@@ -586,20 +512,6 @@ struct __CGXConnectionBox;
 
 struct __shared_weak_count;
 
-struct function<NSDictionary *()> {
-    struct __value_func<NSDictionary *()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct function<void ()> {
-    struct __value_func<void ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
@@ -633,12 +545,6 @@ struct unique_ptr<(anonymous namespace)::HMAC<(anonymous namespace)::HashingAlgo
 struct unique_ptr<(anonymous namespace)::HMAC<(anonymous namespace)::HashingAlgorithm::SHA256, 32>::Key, std::default_delete<(anonymous namespace)::HMAC<(anonymous namespace)::HashingAlgorithm::SHA256, 32>::Key>> {
     struct {
         struct Key *__ptr_;
-    } ;
-};
-
-struct unique_ptr<SkyLight::ProDisplayLibraryShim, std::default_delete<SkyLight::ProDisplayLibraryShim>> {
-    struct {
-        struct ProDisplayLibraryShim *__ptr_;
     } ;
 };
 
@@ -1047,6 +953,11 @@ typedef struct {
 } CDStruct_6f4e2a38;
 
 typedef struct {
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
+
+typedef struct {
     short _field1;
     short _field2;
     short _field3;
@@ -1081,11 +992,11 @@ typedef struct {
 } CDStruct_3d4d02d4;
 
 typedef struct {
-    CDStruct_6e3f967a red;
-    CDStruct_6e3f967a green;
-    CDStruct_6e3f967a blue;
-    CDStruct_6e3f967a white;
-} CDStruct_5a6196cb;
+    CDStruct_b2fbf00d _field1;
+    CDStruct_b2fbf00d _field2;
+    CDStruct_b2fbf00d _field3;
+    CDStruct_b2fbf00d _field4;
+} CDStruct_31cefc2d;
 
 typedef struct {
     unsigned char _field1;
@@ -1109,22 +1020,7 @@ typedef struct {
     unsigned int _field14;
 } CDStruct_e29a92ac;
 
-// Ambiguous groups
-typedef struct {
-    float _field1;
-    float _field2;
-} CDStruct_b2fbf00d;
-
-typedef struct {
-    float width;
-    float height;
-} CDStruct_643d22a7;
-
-typedef struct {
-    float x;
-    float y;
-} CDStruct_6e3f967a;
-
+// Template types
 typedef struct shared_ptr<SLSScreenTelemetryResultsSnapshotData> {
     struct SLSScreenTelemetryResultsSnapshotData *__ptr_;
     struct __shared_weak_count *__cntrl_;
@@ -1150,10 +1046,4 @@ typedef struct unique_ptr<(anonymous namespace)::HMAC<(anonymous namespace)::Has
         struct Digester *__ptr_;
     } ;
 } unique_ptr_77531153;
-
-#pragma mark Named Unions
-
-union type {
-    unsigned char __data[24];
-};
 

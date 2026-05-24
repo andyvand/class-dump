@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotGenericCssTemplateInfo, CTLazuliChatBotInformation, CTLazuliChatBotMenuItem, CTLazuliChatBotVerificationDetails;
+@class CTLazuliChatBotInformation;
 
 @interface CTLazuliChatBotRenderInformation
 {
     CTLazuliChatBotInformation *_botInfo;
-    CTLazuliChatBotMenuItem *_persistentMenu;
-    CTLazuliChatBotVerificationDetails *_verificationDetails;
-    CTLazuliChatBotGenericCssTemplateInfo *_cssInfo;
 }
 
-+ (_Bool);
++ (_Bool)nt:%p %@ isMultivariantPlaylist:%d mediaType:%@ mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliChatBotInformation *botInfo; // @synthesize botInfo=_botInfo;
-@property(retain, nonatomic) CTLazuliChatBotGenericCssTemplateInfo *cssInfo; // @synthesize cssInfo=_cssInfo;
-@property(retain, nonatomic) CTLazuliChatBotMenuItem *persistentMenu; // @synthesize persistentMenu=_persistentMenu;
-@property(retain, nonatomic) CTLazuliChatBotVerificationDetails *verificationDetails; // @synthesize verificationDetails=_verificationDetails;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSTimer;
+@class NSCache;
 
 @interface WBSRichSearchSuggestionImageProvider
 {
     NSCache *_searchSuggestionImageCache;
-    NSMutableDictionary *_pendingCompletionHandlers;
-    NSTimer *_clearSearchSuggestionImageCacheTimer;
 }
 
 + (id)	
@@ -18,9 +16,9 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)q"Iz(;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSObject, TKSmartCardSlot;
-@protocol OS_dispatch_queue;
+@class TKSmartCardSlot;
 
 @interface TKSmartCard
 {
     TKSmartCardSlot *_slot;
-    NSObject<OS_dispatch_queue> *_beginSessionQueue;
-    _Bool _sensitive;
-    _Bool _sensitiveRequired;
-    _Bool _synchronous;
-    id _session;
-    long long _sessionCounter;
-    _Bool _someoneWantsSession;
-    long long _sessionEndPolicy;
-    NSMutableDictionary *_contexts;
-    NSNumber *_reservationId;
-    _Bool _useExtendedLength;
-    _Bool _useCommandChaining;
-    unsigned char _cla;
-    NSObject *_syncObject;
-    NSObject<OS_dispatch_queue> *_apduQueue;
-    _Bool _valid;
-    unsigned long long _allowedProtocols;
-    unsigned long long _currentProtocol;
 }
 
 + (_Bool);
@@ -42,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,42 +40,37 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (CDStruct_140f1394);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)J(;
 - (id);
 - (unsigned long long);
 - (unsigned char);
+- (void)NSt3__120__shared_ptr_emplaceIN6quasar44OnlineDecodableMatrixScaledMappedTmDecodableENS_9allocatorIS2_EEEE;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ion failed for query %@;
 - (id)°;
 
 // Remaining properties
-@property unsigned long long allowedProtocols; // @synthesize allowedProtocols=_allowedProtocols;
-@property(retain) id context;
 @property unsigned long long currentProtocol; // @synthesize currentProtocol=_currentProtocol;
-@property _Bool sensitive;
-@property(readonly, nonatomic) TKSmartCardSlot *slot; // @synthesize slot=_slot;
-@property _Bool valid; // @synthesize valid=_valid;
 
 @end
 

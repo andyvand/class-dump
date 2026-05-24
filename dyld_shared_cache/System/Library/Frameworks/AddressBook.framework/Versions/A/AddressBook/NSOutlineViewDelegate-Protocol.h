@@ -5,5 +5,9 @@
 //
 
 @protocol NSOutlineViewDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

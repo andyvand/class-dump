@@ -7,15 +7,15 @@
 @class NSDictionary, NSString;
 
 @protocol IMDaemonListening
+- (unsigned long long);
+- (void)ocate endpointsArray;
+- (unsigned long long)cted MKI collision for streamGroup=%@;
+- (unsigned int)tting decryption status;
+- (_Bool)for mediaType=%@ mediaState=%@;
+- (void)ult=%@;
+- (NSString *)create transfer session;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isHoldingChatMessages) _Bool holdingChatMessages;
-@property(readonly, nonatomic) unsigned int myIdleTime;
-@property(readonly, nonatomic) unsigned long long myStatus;
-@property(readonly, nonatomic) NSString *myStatusMessage;
-@property(readonly, nonatomic) NSDictionary *persistentProperties;
 @property(readonly, nonatomic) NSDictionary *properties;
-@property(readonly, nonatomic) _Bool shouldHoldChatMessages;
-@property(readonly, nonatomic) unsigned long long vcCapabilities;
 @end
 

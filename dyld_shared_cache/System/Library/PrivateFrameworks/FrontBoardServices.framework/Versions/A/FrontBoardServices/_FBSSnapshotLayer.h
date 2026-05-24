@@ -7,15 +7,13 @@
 @interface _FBSSnapshotLayer
 {
     unsigned int _contextID;
-    struct CATransform3D _baseTransform;
 }
 
 - (struct CATransform3D);
-- (unsigned int);
+- (unsigned int)?;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CATransform3D baseTransform; // @synthesize baseTransform=_baseTransform;
 @property(readonly, nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
 
 @end

@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDAsyncSocket, HTTPConfig, HTTPMessage, NSMutableArray, NSObject, NSString;
-@protocol HTTPResponse, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HTTPConnection
 {
     NSObject<OS_dispatch_queue> *connectionQueue;
-    GCDAsyncSocket *asyncSocket;
-    HTTPConfig *config;
-    _Bool started;
-    HTTPMessage *request;
-    unsigned int numHeaderLines;
-    _Bool sentResponseHeaders;
-    NSString *nonce;
-    long long lastNC;
-    NSObject<HTTPResponse> *httpResponse;
-    NSMutableArray *ranges;
-    NSMutableArray *ranges_headers;
-    NSString *ranges_boundry;
-    int rangeIndex;
-    unsigned long long requestContentLength;
-    unsigned long long requestContentLengthReceived;
-    unsigned long long requestChunkSize;
-    unsigned long long requestChunkSizeReceived;
-    NSMutableArray *responseDataSizes;
-    unsigned long long posthumousCountedBytesWritten;
-    unsigned int replyStarted:1;
-    unsigned int ignoreBodyData:1;
-    unsigned int disconnectAfterResponding:1;
-    unsigned long long requestBodyState;
 }
 
 + (id);
@@ -48,16 +25,16 @@
 - (void);
 - (void);
 - (id);
-- (const unsigned short *);
+- (const unsigned short *)";
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void)#;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
@@ -71,26 +48,26 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)|;
+- (id)};
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -105,8 +82,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned short);
+- (void)remoteURL:(int)arg1 %@;
+- (unsigned short)TokenRetrieveRequest",&,N;
 - (id);
 - (_Bool);
 - (void);

@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView;
+@class UICollectionView, UITargetedDragPreview;
 
 @protocol _UIFloatingTabBarDragControllerDelegate
+- (UITargetedDragPreview *);
 - (UICollectionView *)0@ù
 × ;
 

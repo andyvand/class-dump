@@ -5,5 +5,16 @@
 //
 
 @protocol TUConversationManagerDelegate
+
+@optional
+- (void)<m;
+- (void);
+- (void)n;
+- (void)آin;
+- (void);
+- (void)in;
+- (void)xkn;
+- (void)m;
+- (void)kn;
 @end
 

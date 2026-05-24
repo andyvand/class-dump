@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoDelegateInfoTokenB
 {
     unsigned long long _sessionID;
-    NSData *_hardwareInfoData;
-    NSData *_machineIDData;
-    NSData *_picData;
-    NSString *_userAgent;
-    struct {
-        unsigned int sessionID:1;
-    } _has;
 }
 
 - (id);

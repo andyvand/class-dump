@@ -4,60 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, UIColor, UIImageView, UILabel;
+@class NSArray, NSLayoutConstraint;
 
 @interface EKEventDetailsHighlightControl
 {
     NSArray *_titleAndSubtitleVisibleContraints;
-    NSArray *_justTitleVisibleContraints;
-    NSArray *_justSubtitleVisibleContraints;
-    NSArray *_justTitleAndActionVisibleContraints;
-    NSString *_actionText;
-    NSString *_subtitleText;
-    UIColor *_actionColor;
-    UIImageView *_iconStack;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UILabel *_actionLabel;
-    NSLayoutConstraint *_topMarginConstraint;
-    NSLayoutConstraint *_interLabelPaddingConstraint;
-    NSLayoutConstraint *_bottomMarginConstraint;
 }
 
-+ (double);
-+ (double);
-+ (double);
++ (double)2%s;
++ (double);
++ (double)s;
 + (id);
 + (id);
 + (id);
 + (_Bool);
 - (void);
+- (id)*s;
 - (id);
-- (id);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id){;
 - (id);
 - (void);
-- (void);
-- (void);
+- (id)-;
 - (id);
-- (void)hedAddInviteeCellReuseIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ayWithColor: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)constraintLessThanOrEqualToAnchor:(id)arg1 constant: /* Error: Ran out of types for this method. */;
+- (id)3;
+- (void)setCachedAddInviteeCellReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (id)overlayWithColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UILabel *actionLabel; // @synthesize actionLabel=_actionLabel;
-@property(readonly, retain, nonatomic) NSLayoutConstraint *bottomMarginConstraint; // @synthesize bottomMarginConstraint=_bottomMarginConstraint;
-@property(readonly, nonatomic) UIImageView *iconStack; // @synthesize iconStack=_iconStack;
-@property(readonly, retain, nonatomic) NSLayoutConstraint *interLabelPaddingConstraint; // @synthesize interLabelPaddingConstraint=_interLabelPaddingConstraint;
-@property(readonly, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 @property(readonly, retain, nonatomic) NSLayoutConstraint *topMarginConstraint; // @synthesize topMarginConstraint=_topMarginConstraint;
 
 @end

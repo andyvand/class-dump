@@ -8,12 +8,13 @@
 @protocol MTLDevice;
 
 @protocol MTL4CommandBuffer
+- (NSString *)(;
+- (id <MTLDevice>);
 - (void)1Â0@ù
 × ;
-- (void)BinaryFunctionResourceIndices;
+- (void)vertexAdditionalBinaryFunctionResourceIndices;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(copy) NSString *label;
 @end
 

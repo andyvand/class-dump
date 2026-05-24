@@ -5,5 +5,6 @@
 //
 
 @protocol AVFigSampleBufferRenderSynchronizerFactory
+- (struct OpaqueFigSampleBufferRenderSynchronizer *);
 @end
 

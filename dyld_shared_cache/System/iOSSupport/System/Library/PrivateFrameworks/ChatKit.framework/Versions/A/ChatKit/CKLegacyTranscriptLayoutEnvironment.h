@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatItem, CKConversation, UICollectionView;
-@protocol NSCollectionLayoutEnvironment;
+@class CKConversation;
 
 @interface CKLegacyTranscriptLayoutEnvironment
 {
     CKConversation *_conversation;
-    id <NSCollectionLayoutEnvironment> _collectionLayoutEnvironment;
-    UICollectionView *_collectionView;
-    long long _layoutContext;
-    CKChatItem *_previousItem;
-    struct UIEdgeInsets _marginInsets;
 }
 
-- (void);
+- (void)updatingContent;
 - (struct UIEdgeInsets);
-- (id);
+- (id)remove lock because note doesn't have one — canceling;
 - (void);
 - (void);
 - (void);
@@ -34,12 +28,7 @@
 - (void)à0;
 
 // Remaining properties
-@property(retain, nonatomic) id <NSCollectionLayoutEnvironment> collectionLayoutEnvironment; // @synthesize collectionLayoutEnvironment=_collectionLayoutEnvironment;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(nonatomic) long long layoutContext; // @synthesize layoutContext=_layoutContext;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets=_marginInsets;
-@property(retain, nonatomic) CKChatItem *previousItem; // @synthesize previousItem=_previousItem;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CKFetchDatabaseChangesOperationCallbacks
+- (void);
 @end
 

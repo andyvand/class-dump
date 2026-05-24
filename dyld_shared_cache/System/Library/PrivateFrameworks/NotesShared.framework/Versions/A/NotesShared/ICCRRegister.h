@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDocument, NSString;
+@class ICCRDocument;
 
 @interface ICCRRegister
 {
@@ -13,12 +13,12 @@
 
 + (id);
 + (id);
-- (id);
-- (void);
+- (id)NBStateDaemonProtocol;
+- (void)ԍ;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)rS;
 - (id);
 - (void);
 - (void);
@@ -28,14 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id contents; // @dynamic contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak ICCRDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

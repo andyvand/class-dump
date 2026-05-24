@@ -6,14 +6,12 @@
 
 #import <UIKitCore/_UISmartReplyFeedbackInputDashboardView.h>
 
-@class UIImageView, UIView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface _UISmartReplyFeedbackInputDashboardReportConcernView : _UISmartReplyFeedbackInputDashboardView
 {
     UIImageView *_feedbackIconView;
-    UIView *_feedbackIconAndLabelView;
-    long long _touchState;
 }
 
 - (_Bool);
@@ -22,20 +20,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)es to delete from CloudKit;
 - (long long);
-- (id);
+- (id)dispatch event in unknown state:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void)troller:(id)arg1;
-- (void)iew:(id)arg1 allowsSelectingContentAfterDropForSession:(id)arg2;
-- (void)orFiles;
-- (void)PayloadKeyMissingKeyboardInputMode;
+- (void)setAlertController:(id)arg1;
+- (void)_webView:(id)arg1 allowsSelectingContentAfterDropForSession:(id)arg2;
+- (void)_ignoreFinishingModalTransitionForFiles;
+- (void)IAPayloadKeyMissingKeyboardInputMode;
 - (void)+?;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *feedbackIconAndLabelView; // @synthesize feedbackIconAndLabelView=_feedbackIconAndLabelView;
 @property(retain, nonatomic) UIImageView *feedbackIconView; // @synthesize feedbackIconView=_feedbackIconView;
-@property(nonatomic) long long touchState; // @synthesize touchState=_touchState;
 
 @end
 

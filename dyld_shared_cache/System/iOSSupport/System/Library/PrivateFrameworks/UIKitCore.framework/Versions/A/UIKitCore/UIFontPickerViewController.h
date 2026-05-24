@@ -6,51 +6,46 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UIFontDescriptor, UIFontPickerViewControllerConfiguration;
-@protocol UIFontPickerViewControllerDelegate, UINSFontPickerController;
+@class NSArray;
 
 @interface UIFontPickerViewController : UIViewController
 {
     _Bool _presentingViewController;
-    UIFontPickerViewControllerConfiguration *_configuration;
-    id <UINSFontPickerController> _macPickerController;
-    id <UIFontPickerViewControllerDelegate> _delegate;
-    NSArray *__selectedFontDescriptors;
 }
 
 + (_Bool);
+- (void)up record %@ ;
+- (id)nickname info into memory;
+- (void)\;
 - (void);
+- (_Bool);
+- (void)CѴk8�;
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (void)@16@24B32@36@44@52@60;
+- (void)registerForAppLaunchWithBundleId:queue:handler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)s;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id)0@ù
 × ;
 - (void)ndexPath"24@"NSIndexPath"32;
-- (id)elementDidBlurNode: /* Error: Ran out of types for this method. */;
-- (_Bool)youtForViewportBoundsAtRange: /* Error: Ran out of types for this method. */;
-- (void)tureRecognizer;
+- (id)webView:elementDidBlurNode: /* Error: Ran out of types for this method. */;
+- (_Bool)ui_ensureLayoutForViewportBoundsAtRange: /* Error: Ran out of types for this method. */;
+- (void)actionScrubbingHandoffGestureRecognizer;
 - (id)chesEvent",R,N;
 - (id)Ü%;
 - (id)ent=automatic;
@@ -59,18 +54,7 @@
 - (void)xh;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _presentingViewController; // @synthesize _presentingViewController;
 @property(retain, nonatomic, setter=_setSelectedFontDescriptors:) NSArray *_selectedFontDescriptors; // @synthesize _selectedFontDescriptors=__selectedFontDescriptors;
-@property(readonly, copy, nonatomic) UIFontPickerViewControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIFontPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIFontDescriptor *selectedFontDescriptor;
-@property(readonly) Class superclass;
 
 @end
 

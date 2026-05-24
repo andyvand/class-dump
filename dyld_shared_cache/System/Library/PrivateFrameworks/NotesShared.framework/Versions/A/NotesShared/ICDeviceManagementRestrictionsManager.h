@@ -9,19 +9,16 @@
 @interface ICDeviceManagementRestrictionsManager
 {
     void calculatorDomainID;
-    _Bool _isMathPaperSolvingAllowed;
-    _Bool _isKeyboardMathSolvingAllowed;
-    _Bool _isCalculatorModeScientificAllowed;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)__TEXT;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,13 +30,7 @@
 - (void)¬£ÿÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool _isCalculatorModeScientificAllowed; // @synthesize _isCalculatorModeScientificAllowed;
-@property(nonatomic) _Bool _isKeyboardMathSolvingAllowed; // @synthesize _isKeyboardMathSolvingAllowed;
-@property(nonatomic) _Bool _isMathPaperSolvingAllowed; // @synthesize _isMathPaperSolvingAllowed;
 @property(nonatomic, readonly) NSString *calculatorDomainID;
-@property(nonatomic, readonly) _Bool isCalculatorModeScientificAllowed;
-@property(nonatomic, readonly) _Bool isKeyboardMathSolvingAllowed;
-@property(nonatomic, readonly) _Bool isMathPaperSolvingAllowed;
 
 @end
 

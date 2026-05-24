@@ -5,5 +5,9 @@
 //
 
 @protocol AVMobileChromelessDisplayModeControlsViewDelegate
+
+@optional
+- (void)G;
+- (void);
 @end
 

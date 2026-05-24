@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICRadioContentReference, ICStoreRequestContext, NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSDictionary;
 
 @interface ICRadioGetTracksRequest
 {
     _Bool _allowsExplicitContent;
-    _Bool _preservingCurrentlyPlayingItem;
-    _Bool _shouldResponseContainStationMetadata;
-    NSDictionary *_additionalRequestParameters;
-    NSNumber *_privateListeningEnabled;
-    NSNumber *_delegatedPrivateListeningEnabled;
-    long long _reasonType;
-    ICStoreRequestContext *_requestContext;
-    long long _requestedTrackCount;
-    NSString *_stationHash;
-    long long _stationID;
-    NSString *_stationStringID;
-    NSURL *_stationURL;
-    ICRadioContentReference *_seedContentReference;
-    ICRadioContentReference *_nowPlayingContentReference;
-    NSArray *_queueContentReferences;
 }
 
 - (_Bool);
@@ -45,42 +30,27 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (id)MMediaSession"16q24;
+- (_Bool)"16;
+- (void)sendMessage:(id)arg1 target:responseQueue:responseHandler: /* Error: Ran out of types for this method. */;
+- (id)residentProvisioningStatus;
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void)rObserver:(id)arg1;
+- (void);
+- (void)dn;
+- (id);
+- (void);
+- (id);
+- (long long);
+- (void)registerObserver:(id)arg1;
 - (void)ableArray",&,N,V_pendingResponseCredentialRequests;
 - (id)ÿ7ík
 ;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *additionalRequestParameters; // @synthesize additionalRequestParameters=_additionalRequestParameters;
-@property(nonatomic) _Bool allowsExplicitContent; // @synthesize allowsExplicitContent=_allowsExplicitContent;
-@property(copy, nonatomic, getter=isDelegatedPrivateListeningEnabled) NSNumber *delegatedPrivateListeningEnabled; // @synthesize delegatedPrivateListeningEnabled=_delegatedPrivateListeningEnabled;
-@property(copy, nonatomic) ICRadioContentReference *nowPlayingContentReference; // @synthesize nowPlayingContentReference=_nowPlayingContentReference;
-@property(nonatomic, getter=isPreservingCurrentlyPlayingItem) _Bool preservingCurrentlyPlayingItem; // @synthesize preservingCurrentlyPlayingItem=_preservingCurrentlyPlayingItem;
-@property(copy, nonatomic, getter=isPrivateListeningEnabled) NSNumber *privateListeningEnabled; // @synthesize privateListeningEnabled=_privateListeningEnabled;
-@property(copy, nonatomic) NSArray *queueContentReferences; // @synthesize queueContentReferences=_queueContentReferences;
-@property(nonatomic) long long reasonType; // @synthesize reasonType=_reasonType;
-@property(copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(nonatomic) long long requestedTrackCount; // @synthesize requestedTrackCount=_requestedTrackCount;
-@property(copy, nonatomic) ICRadioContentReference *seedContentReference; // @synthesize seedContentReference=_seedContentReference;
-@property(nonatomic) _Bool shouldResponseContainStationMetadata; // @synthesize shouldResponseContainStationMetadata=_shouldResponseContainStationMetadata;
-@property(copy, nonatomic) NSString *stationHash; // @synthesize stationHash=_stationHash;
-@property(nonatomic) long long stationID; // @synthesize stationID=_stationID;
-@property(copy, nonatomic) NSString *stationStringID; // @synthesize stationStringID=_stationStringID;
-@property(copy, nonatomic) NSURL *stationURL; // @synthesize stationURL=_stationURL;
 
 @end
 

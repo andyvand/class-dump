@@ -9,8 +9,10 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)d19FormatViewNodeStyle;
-- (void)nOrEqual;
+- (void);
+- (_Bool)Q;
+- (void)_TtC8NewsFeed19FormatViewNodeStyle;
+- (void)lessThanOrEqual;
 - (UIView *);
 - (void);
 @end

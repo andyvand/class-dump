@@ -11,17 +11,14 @@
 @interface CKIntroductionsButtonsCell : CKTranscriptLabelCell
 {
     UIView *buttonsContainer;
-    _Bool shouldShowIntroductionsLabel;
-    id buttonsLeadingConstraint;
-    id buttonsTrailingConstraint;
 }
 
 - (_Bool);
+- (void)setAssociatedObjectIdentifiers:(_Bool)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)ading;
 - (struct CGSize);
 - (id);
 - (id);
@@ -29,7 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) UIView *buttonsContainer; // @synthesize buttonsContainer;
-@property(nonatomic) _Bool shouldShowIntroductionsLabel; // @synthesize shouldShowIntroductionsLabel;
 
 @end
 

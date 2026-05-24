@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSClock;
+@class NSObject, TSClock;
 @protocol OS_dispatch_queue;
 
 @interface TSClockInterface
 {
     NSObject<OS_dispatch_queue> *_notificationsQueue;
-    CDUnknownFunctionPointerType _lockStateCallback;
-    void *_lockStateRefcon;
-    CDUnknownFunctionPointerType _masterChangeCallback;
-    void *_masterChangeRefcon;
-    CDUnknownFunctionPointerType _timeSyncTimeChangeCallback;
-    void *_timeSyncTimeChangeRefcon;
-    CDUnknownFunctionPointerType _gptpGrandmasterCallback;
-    void *_gptpGrandmasterRefcon;
-    CDUnknownFunctionPointerType _gptpGrandmasterPortCallback;
-    void *_gptpGrandmasterPortRefcon;
-    CDUnknownFunctionPointerType _gptpLocalPortCallback;
-    void *_gptpLocalPortRefcon;
-    TSClock *_clock;
 }
 
 - (void);
@@ -37,19 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_֕=;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) TSClock *clock; // @synthesize clock=_clock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

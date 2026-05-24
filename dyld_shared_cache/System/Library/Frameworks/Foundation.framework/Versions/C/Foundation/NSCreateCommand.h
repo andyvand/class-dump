@@ -6,7 +6,7 @@
 
 #import <Foundation/NSScriptCommand.h>
 
-@class NSDictionary, NSScriptClassDescription;
+@class NSScriptClassDescription;
 
 @interface NSCreateCommand : NSScriptCommand
 {
@@ -17,16 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)?!;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)face-W0;
 
 // Remaining properties
 @property(readonly, retain) NSScriptClassDescription *createClassDescription;
-@property(readonly, copy) NSDictionary *resolvedKeyDictionary;
 
 @end
 

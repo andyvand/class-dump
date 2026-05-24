@@ -7,8 +7,6 @@
 @interface AXVScrollMenuSuggestedEventPayload
 {
     CDStruct_ffe6b7c1 _delta;
-    double _acceleration;
-    struct CGPoint _point;
 }
 
 + (_Bool);
@@ -20,16 +18,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (struct CGPoint);
+- (void);
+- (struct CGPoint)writeJSONChartData:outputPath: /* Error: Ran out of types for this method. */;
 - (double);
 - (CDStruct_ffe6b7c1)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double acceleration; // @synthesize acceleration=_acceleration;
 @property(nonatomic) CDStruct_ffe6b7c1 delta; // @synthesize delta=_delta;
-@property(nonatomic) struct CGPoint point; // @synthesize point=_point;
 
 @end
 

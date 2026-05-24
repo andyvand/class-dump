@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICommandAlternate, _UIMenuLeafAlternate;
+@class _UIMenuLeafAlternate;
 
 @protocol _UIMenuLeafAlternateOrCommandAlternate
 
 // Remaining properties
-@property(readonly, nonatomic) UICommandAlternate *commandAlternate;
 @property(readonly, nonatomic) _UIMenuLeafAlternate *leafAlternate;
-@property(readonly, nonatomic) long long modifierFlags;
 @end
 

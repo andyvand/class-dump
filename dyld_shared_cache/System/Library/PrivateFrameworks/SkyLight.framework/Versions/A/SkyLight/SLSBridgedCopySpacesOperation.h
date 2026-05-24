@@ -11,13 +11,13 @@
     unsigned int _options;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (id);
++ (_Bool)L';
+- (id)e primary keys for transaction;
+- (id)ZTRANSACTION;
+- (id)!;
 - (id);
 - (unsigned int);
-- (void);
+- (void)~;
 
 // Remaining properties
 @property(readonly) unsigned int options; // @synthesize options=_options;

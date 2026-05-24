@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)teWithOptionsAndPolicy(CFDictionaryRef, ABCreatePolicy, CFErrorRef *);
 - (void);
 
 @end

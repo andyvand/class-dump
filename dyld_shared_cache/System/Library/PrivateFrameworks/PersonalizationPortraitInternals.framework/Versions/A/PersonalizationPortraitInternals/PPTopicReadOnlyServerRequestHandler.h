@@ -4,41 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPXPCServerPipelinedBatchQueryManager, _PASBundleIdResolver;
+@class NSString;
 @protocol PPTopicClientProtocol;
 
 @interface PPTopicReadOnlyServerRequestHandler
 {
     id <PPTopicClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    NSString *_clientProcessName;
-    _PASBundleIdResolver *_bundleIdResolver;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
+- (void)k;
 - (void);
-- (void);
+- (id)ld;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)connectionType;
+- (void)rray",&,N,V_cnEmails;
 - (void)1Â0@ù
 × ;
 - (void)topic import because database is nonempty.;
 - (void)ld after contact matching call.;
-- (void)nInHours;
+- (void)PPCombinedScoreInputScalarTimeSpanInHours;
 - (void)ce_id FROM tp_records AS tp JOIN first_party_sources USING (source_id) WHERE is_remote = 1 ;
 - (void)ion_asset_version INTEGER,     source_id INTEGER NOT NULL REFERENCES sources (id),     is_remote INTEGER NOT NULL,     is_sync_eligible INTEGER NOT NULL,     dk_event_id BLOB);
 - (void)SSSo19_PASDomainSelectionCIggg_;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) _PASBundleIdResolver *bundleIdResolver; // @synthesize bundleIdResolver=_bundleIdResolver;
 @property(copy, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
 
 @end

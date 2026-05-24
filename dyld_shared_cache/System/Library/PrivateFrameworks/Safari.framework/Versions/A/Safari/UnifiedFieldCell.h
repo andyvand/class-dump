@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 
 @end

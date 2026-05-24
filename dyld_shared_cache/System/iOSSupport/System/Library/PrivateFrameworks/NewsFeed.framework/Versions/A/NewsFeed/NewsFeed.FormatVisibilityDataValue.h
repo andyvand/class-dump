@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatVisibilityDataValue
 {
     id dataLayoutValue;
-    id view;
 }
 
 @end

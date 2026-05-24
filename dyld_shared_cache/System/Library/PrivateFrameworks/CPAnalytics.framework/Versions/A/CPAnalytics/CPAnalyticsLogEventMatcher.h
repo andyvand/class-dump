@@ -6,20 +6,16 @@
 
 #import <CPAnalytics/CPAnalyticsEventMatcher.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CPAnalyticsLogEventMatcher : CPAnalyticsEventMatcher
 {
     CPAnalyticsEventMatcher *_eventMatcher;
-    _Bool _shouldLogEventName;
-    NSString *_eventTypeLabel;
-    NSArray *_eventPropertiesToLog;
-    NSArray *_eventPublicPropertiesToLog;
 }
 
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)c;
 - (_Bool);
 - (id);
 - (id);
@@ -27,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *eventPropertiesToLog; // @synthesize eventPropertiesToLog=_eventPropertiesToLog;
-@property(readonly, nonatomic) NSArray *eventPublicPropertiesToLog; // @synthesize eventPublicPropertiesToLog=_eventPublicPropertiesToLog;
 @property(readonly, nonatomic) NSString *eventTypeLabel; // @synthesize eventTypeLabel=_eventTypeLabel;
-@property(readonly, nonatomic) _Bool shouldLogEventName; // @synthesize shouldLogEventName=_shouldLogEventName;
 
 @end
 

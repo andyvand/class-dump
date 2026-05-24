@@ -6,16 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSTitlebarContainerView;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface _NSTitlebarDecorationView : NSView
 {
     CALayer *_decorationLayer;
-    CALayer *_topHighlightLayer;
-    CALayer *_bottomSeparatorLayer;
-    _Bool _drawsBottomSeparator;
-    NSTitlebarContainerView *_titlebarContainerView;
 }
 
 + (id);
@@ -25,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (void);
-- (void);
+- (void)setAsBool:forProperty:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -37,7 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool drawsBottomSeparator; // @synthesize drawsBottomSeparator=_drawsBottomSeparator;
-@property __weak NSTitlebarContainerView *titlebarContainerView; // @synthesize titlebarContainerView=_titlebarContainerView;
 
 @end
 

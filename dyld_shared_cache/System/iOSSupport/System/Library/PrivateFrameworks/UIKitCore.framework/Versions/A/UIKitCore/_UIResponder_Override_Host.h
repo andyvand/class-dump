@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (long long);
-- (void);
-- (void);
+- (void)setRequestResponse:(id)arg1;
+- (void)isWaldoEnabled;
 - (void);
 - (id);
-- (id);
-- (id)tionForEvent:fallbackSender: /* Error: Ran out of types for this method. */;
+- (id)MPModelPropertyTVShowTitle;
+- (id)_triggerActionForEvent:fallbackSender: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

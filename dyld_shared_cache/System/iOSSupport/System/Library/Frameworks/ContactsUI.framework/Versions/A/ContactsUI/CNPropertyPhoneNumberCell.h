@@ -6,43 +6,37 @@
 
 #import <ContactsUI/CNPropertySimpleTransportCell.h>
 
-@class CNStaticIdentityBadgeView, UIImageView;
+@class CNStaticIdentityBadgeView;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyPhoneNumberCell : CNPropertySimpleTransportCell
 {
     _Bool _staticIdentityVerified;
-    _Bool _emergencyPhoneNumber;
-    CNStaticIdentityBadgeView *_staticIdentityBadgeView;
-    UIImageView *_emergencyImageView;
 }
 
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)V+;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void)udienceDataSource;
+- (void)_sharingAudienceDataSource;
 - (void)UIImageView",&,N,V_posterView;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *emergencyImageView; // @synthesize emergencyImageView=_emergencyImageView;
-@property(nonatomic, getter=isEmergencyPhoneNumber) _Bool emergencyPhoneNumber; // @synthesize emergencyPhoneNumber=_emergencyPhoneNumber;
 @property(retain, nonatomic) CNStaticIdentityBadgeView *staticIdentityBadgeView; // @synthesize staticIdentityBadgeView=_staticIdentityBadgeView;
-@property(nonatomic, getter=isStaticIdentityVerified) _Bool staticIdentityVerified; // @synthesize staticIdentityVerified=_staticIdentityVerified;
 
 @end
 

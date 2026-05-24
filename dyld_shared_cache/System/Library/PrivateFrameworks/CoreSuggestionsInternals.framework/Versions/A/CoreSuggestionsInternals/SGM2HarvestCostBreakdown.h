@@ -9,24 +9,18 @@
 @interface SGM2HarvestCostBreakdown
 {
     NSString *_componentName;
-    int _documentSource;
-    _Bool _significantWork;
-    struct {
-        unsigned int documentSource:1;
-        unsigned int significantWork:1;
-    } _has;
 }
 
+- (void)cy.dylib;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ing.framework/Versions/A/URLFormatting;
 - (_Bool);
 - (id);
-- (_Bool);
-- (int);
-- (int);
+- (_Bool)ew"16q24;
+- (int)ew"16;
+- (int)installConstraintsWithVisualFormat:views:metrics: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -42,12 +36,7 @@
 - (void)X¬;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(nonatomic) int documentSource; // @synthesize documentSource=_documentSource;
-@property(readonly, nonatomic) _Bool hasComponentName;
 @property(nonatomic) _Bool hasDocumentSource;
-@property(nonatomic) _Bool hasSignificantWork;
-@property(nonatomic) _Bool significantWork; // @synthesize significantWork=_significantWork;
 
 @end
 

@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale;
-
 @interface CHRecognizerConfiguration
 {
     unsigned long long _language;
-    unsigned long long _script;
-    _Bool _enableCachingIfAvailable;
-    _Bool _enableGen2ModelIfAvailable;
-    _Bool _enableGen2CharacterLMIfAvailable;
-    int _mode;
-    int _contentType;
-    int _contentTypeForNoSpaceRecognition;
-    int _autoCapitalizationMode;
-    int _autoCorrectionMode;
-    NSLocale *_locale;
-    int _baseWritingDirection;
 }
 
 + (long long);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)Jc;
 + (id);
 + (id);
 + (id);
 + (id);
 + (double);
 + (_Bool);
++ (_Bool)J1J>S㫥R#;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -41,27 +35,20 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)J1;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)J;
 + (void);
 + (id);
 + (id);
 + (id);
++ (id)B;
++ (id);
++ (id)c;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)"JO;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -106,6 +93,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)l;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -125,24 +118,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!	
+!;
+- (_Bool)rsJl
+30;
 - (_Bool);
 - (id);
 - (unsigned int);
-- (long long);
+- (long long)N;
 - (struct _LXLexicon *);
 - (CDUnknownBlockType);
 - (void *);
 - (void *);
 - (struct VariantMap *);
-- (struct _LXLexicon *);
+- (struct _LXLexicon *);
 - (struct _LXLexicon *);
 - (struct CHNeuralNetwork *);
 - (void *);
@@ -181,7 +170,7 @@
 - (int);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -195,15 +184,6 @@
 - (void)¼B;
 
 // Remaining properties
-@property(readonly, nonatomic) int autoCapitalizationMode; // @synthesize autoCapitalizationMode=_autoCapitalizationMode;
-@property(readonly, nonatomic) int autoCorrectionMode; // @synthesize autoCorrectionMode=_autoCorrectionMode;
-@property(readonly, nonatomic) int baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property(readonly, nonatomic) int contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) int contentTypeForNoSpaceRecognition; // @synthesize contentTypeForNoSpaceRecognition=_contentTypeForNoSpaceRecognition;
-@property(readonly, nonatomic) _Bool enableCachingIfAvailable; // @synthesize enableCachingIfAvailable=_enableCachingIfAvailable;
-@property(readonly, nonatomic) _Bool enableGen2CharacterLMIfAvailable; // @synthesize enableGen2CharacterLMIfAvailable=_enableGen2CharacterLMIfAvailable;
-@property(readonly, nonatomic) _Bool enableGen2ModelIfAvailable; // @synthesize enableGen2ModelIfAvailable=_enableGen2ModelIfAvailable;
-@property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 @property(readonly, nonatomic) int mode; // @synthesize mode=_mode;
 
 @end

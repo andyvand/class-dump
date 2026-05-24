@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIResponder, UIWindowScene;
+@class UIWindowScene;
 
 @interface UIInputResponderController
 {
     _Bool _isOnScreen;
-    _Bool _automaticAppearanceEnabled;
-    _Bool _shouldSuppressInputAssistantUpdates;
-    UIWindowScene *_scene;
-    UIResponder *_responder;
 }
 
 + (id);
++ (void);
++ (long long)isAdvertisement;
 + (void);
-+ (long long);
-+ (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)populateLocationPropertiesOfItem:withPath:assetProtectionType: /* Error: Ran out of types for this method. */;
+- (void)aplessInfo;
 - (id);
 - (double);
 - (void)
@@ -30,8 +26,8 @@
 - (id)]ð1Â0@ù
 × ;
 - (struct CGRect)SRange=QQ}{_NSRange=QQ}{_NSRange=QQ}{_NSRange=QQ}{_NSRange=QQ}}16;
-- (void)matchFidelityForKeyboardShortcutLeaf:(_Bool)arg1 translationMap:additionalModifiers: /* Error: Ran out of types for this method. */;
-- (struct CGRect)nstraint;
+- (void)_matchFidelityForKeyboardShortcutLeaf:(_Bool)arg1 translationMap:additionalModifiers: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_UILayoutSupportConstraint;
 - (id);
 - (void)ÿ;
 - (_Bool)ØØÿQ.;
@@ -41,11 +37,7 @@
 - (void)lgßþ;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticAppearanceEnabled; // @synthesize automaticAppearanceEnabled=_automaticAppearanceEnabled;
-@property(readonly, nonatomic) _Bool isOnScreen; // @synthesize isOnScreen=_isOnScreen;
-@property(readonly, nonatomic) UIResponder *responder; // @synthesize responder=_responder;
 @property(readonly, nonatomic) UIWindowScene *scene; // @synthesize scene=_scene;
-@property(nonatomic) _Bool shouldSuppressInputAssistantUpdates; // @synthesize shouldSuppressInputAssistantUpdates=_shouldSuppressInputAssistantUpdates;
 
 @end
 

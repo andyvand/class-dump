@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFStrokeAnimationCardSection
+- (NSArray *)!*;
+- (NSArray *)setVolumePath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *characters;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *pronunciations;
-@property(copy, nonatomic) NSString *strokeAnimationRepresentation;
-@property(copy, nonatomic) NSArray *strokeNames;
 @property(copy, nonatomic) NSString *type;
 @end
 

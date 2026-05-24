@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBStreamingAsset, NSArray, NSData, NSDate, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipModel
@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)isDisagnosticSubissionAllowed;
++ (id)facetimeWithEntityGivenSpecificGeoHash;
++ (id)ƕ;
++ (id);
++ (id);
++ (id);
 + (id)
 × ;
 + (id)Ä9À!B;
-- (void);
+- (void)a charger;
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,22 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)¸ ÿhÙÞâ>;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *duration; // @dynamic duration;
-@property(retain, nonatomic) NSData *encryptionKey; // @dynamic encryptionKey;
-@property(retain, nonatomic) NSNumber *encryptionScheme; // @dynamic encryptionScheme;
-@property unsigned long long feedbackStatus;
 @property(retain, nonatomic) NSNumber *feedbackStatusField; // @dynamic feedbackStatusField;
-@property(retain, nonatomic) NSNumber *isComplete; // @dynamic isComplete;
-@property long long quality;
-@property(retain, nonatomic) NSNumber *qualityField; // @dynamic qualityField;
-@property(retain, nonatomic) NSNumber *recordedLocally; // @dynamic recordedLocally;
-@property(retain, nonatomic) NSNumber *size; // @dynamic size;
-@property(retain, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(retain, nonatomic) NSString *streamingAssetVersion; // @dynamic streamingAssetVersion;
-@property(retain, nonatomic) NSNumber *targetFragmentDuration; // @dynamic targetFragmentDuration;
-@property(retain, nonatomic) NSArray *videoMetadataArray; // @dynamic videoMetadataArray;
-@property(readonly, copy) NSArray *videoSegments;
-@property(retain, nonatomic) HMBStreamingAsset *videoStreamingAsset; // @dynamic videoStreamingAsset;
 
 @end
 

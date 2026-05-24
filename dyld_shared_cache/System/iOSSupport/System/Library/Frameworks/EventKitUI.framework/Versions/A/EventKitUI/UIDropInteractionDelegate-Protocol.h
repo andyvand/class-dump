@@ -7,7 +7,8 @@
 @protocol UIDropInteractionDelegate
 
 @optional
-- (void)nsView;
-- (void)rtRatio;
+- (void);
+- (void)statusButtonsView;
+- (void)pinchStartRatio;
 @end
 

@@ -18,6 +18,8 @@
 + (id);
 + (_Bool);
 + (id);
++ (id)B24@0:(id)arg1 8@?16;
++ (id)2D:(id)arg1 [%g %g %g %g %g %g];
 + (id);
 + (id);
 + (id);
@@ -26,10 +28,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id)onfig;
-+ (id)pe_p;
++ (id)_forYouTopicsConfig;
++ (id)So34FCEntitlementsOverrideProviderType_p;
 - (id);
 - (id);
 - (id);
@@ -38,21 +38,21 @@
 - (id);
 - (void);
 - (id);
+- (id)gestAnEditButton;
 - (id);
 - (id);
+- (id)SW;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)LA;
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)pareReferenceToChannelMembershipsAndReturnExpectations;
+- (id)_prepareReferenceToChannelMembershipsAndReturnExpectations;
 - (id)&¼'¤(à(Ä+ü.h0À1Ô4¤5h6¤67`8Ô9(;ØG;
 - (id)¨ü;
 - (id)ate:reachedToOrder:extent:reachedEnd:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)nityGroup;
+- (void)AffinityGroup;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCCoreConfiguration> coreConfiguration; // @synthesize coreConfiguration=_coreConfiguration;

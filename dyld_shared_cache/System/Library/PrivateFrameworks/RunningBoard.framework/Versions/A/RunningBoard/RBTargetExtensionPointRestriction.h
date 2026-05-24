@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)ontextInfo",R,N,V_contextInfoForHIDInput;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)aches;
+- (id)=;
 - (void);
 
 @end

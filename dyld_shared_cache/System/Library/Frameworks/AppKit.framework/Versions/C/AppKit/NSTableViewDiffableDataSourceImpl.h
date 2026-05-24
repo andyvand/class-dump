@@ -6,16 +6,12 @@
 
 #import <AppKit/__NSDiffableDataSource.h>
 
-@class __NSDiffableDataSourceSnapshot;
 @protocol NSTableViewDiffableDataSourceProtocol;
 
 __attribute__((visibility("hidden")))
 @interface NSTableViewDiffableDataSourceImpl : __NSDiffableDataSource
 {
     id <NSTableViewDiffableDataSourceProtocol> _dataSource;
-    __NSDiffableDataSourceSnapshot *_appliedSnapshot;
-    __NSDiffableDataSourceSnapshot *_tableViewSnapshot;
-    _Bool _hasSectionHeaders;
 }
 
 - (id);
@@ -28,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)_DKMetadataHomeKitScene__actionSetUUID;
 - (void);
-- (void);
+- (void)Center;
 - (id)kÿ¹hkÿý¸hüjÿ;
 
 // Remaining properties

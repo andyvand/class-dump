@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface VTTestProcessorConfiguration
 {
     long long _frameWidth;
-    long long _frameHeight;
-    long long _flags;
-    NSArray *_frameSupportedPixelFormats;
-    NSDictionary *_sourcePixelBufferAttributes;
-    NSDictionary *_destinationPixelBufferAttributes;
 }
 
 + (unsigned char);
@@ -24,33 +17,13 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
-- (long long);
+- (long long)1'3~H1y3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *destinationPixelBufferAttributes; // @synthesize destinationPixelBufferAttributes=_destinationPixelBufferAttributes;
-@property(readonly, nonatomic) long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) long long frameHeight; // @synthesize frameHeight=_frameHeight;
-@property(readonly, nonatomic) NSArray *frameSupportedPixelFormats; // @synthesize frameSupportedPixelFormats=_frameSupportedPixelFormats;
 @property(readonly, nonatomic) long long frameWidth; // @synthesize frameWidth=_frameWidth;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long nextFrameCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long previousFrameCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes; // @synthesize sourcePixelBufferAttributes=_sourcePixelBufferAttributes;
-@property(readonly) Class superclass;
 
 @end
 

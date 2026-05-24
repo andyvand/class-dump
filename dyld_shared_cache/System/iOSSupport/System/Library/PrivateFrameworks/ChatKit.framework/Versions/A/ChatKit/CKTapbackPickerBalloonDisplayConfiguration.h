@@ -7,34 +7,26 @@
 @interface CKTapbackPickerBalloonDisplayConfiguration
 {
     double sourceX;
-    _Bool wantsRightTail;
-    _Bool wantsBottomTail;
-    _Bool isWidthConstrained;
-    double horizontalMarginBetweenBubbleAndEmojiTail;
-    struct CGSize pickerPillPreferredContentSize;
 }
 
 - (_Bool);
+- (void)a;
+- (void)f;
+- (void)s;
+- (void)e;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
+- (void)E;
+- (struct CGSize)ID and Face ID. No one can access your locked notes without your device passcode or password—not even Apple.
+
+Do you still want to know more about how your information is secured? ;
 - (_Bool);
 - (double);
 - (_Bool);
 - (double);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) double horizontalMarginBetweenBubbleAndEmojiTail; // @synthesize horizontalMarginBetweenBubbleAndEmojiTail;
-@property(nonatomic) _Bool isWidthConstrained; // @synthesize isWidthConstrained;
-@property(nonatomic) struct CGSize pickerPillPreferredContentSize; // @synthesize pickerPillPreferredContentSize;
 @property(nonatomic) double sourceX; // @synthesize sourceX;
-@property(nonatomic) _Bool wantsBottomTail; // @synthesize wantsBottomTail;
-@property(nonatomic) _Bool wantsRightTail; // @synthesize wantsRightTail;
 
 @end
 

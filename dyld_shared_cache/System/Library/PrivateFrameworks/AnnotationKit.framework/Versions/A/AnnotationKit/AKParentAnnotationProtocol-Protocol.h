@@ -7,6 +7,7 @@
 @class AKAnnotation;
 
 @protocol AKParentAnnotationProtocol
+- (AKAnnotation *)nDidSendStateNotification with active:%{bool}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak AKAnnotation *childAnnotation;

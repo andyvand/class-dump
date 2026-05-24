@@ -7,17 +7,6 @@
 @interface AWDWiFiQualityScore
 {
     unsigned int _channelQuality;
-    unsigned int _rxLatency;
-    unsigned int _rxLoss;
-    unsigned int _txLatency;
-    unsigned int _txLoss;
-    struct {
-        unsigned int channelQuality:1;
-        unsigned int rxLatency:1;
-        unsigned int rxLoss:1;
-        unsigned int txLatency:1;
-        unsigned int txLoss:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -27,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -46,21 +35,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(;
 - (id);
-- (id);
+- (id)(;
 
 // Remaining properties
-@property(nonatomic) unsigned int channelQuality; // @synthesize channelQuality=_channelQuality;
 @property(nonatomic) _Bool hasChannelQuality;
-@property(nonatomic) _Bool hasRxLatency;
-@property(nonatomic) _Bool hasRxLoss;
-@property(nonatomic) _Bool hasTxLatency;
-@property(nonatomic) _Bool hasTxLoss;
-@property(nonatomic) unsigned int rxLatency; // @synthesize rxLatency=_rxLatency;
-@property(nonatomic) unsigned int rxLoss; // @synthesize rxLoss=_rxLoss;
-@property(nonatomic) unsigned int txLatency; // @synthesize txLatency=_txLatency;
-@property(nonatomic) unsigned int txLoss; // @synthesize txLoss=_txLoss;
 
 @end
 

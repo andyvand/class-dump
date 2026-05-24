@@ -7,8 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupBlueprintHeaderView
 {
     id publisherLogo;
-    id headline;
-    id subheadline;
 }
 
 - (id);

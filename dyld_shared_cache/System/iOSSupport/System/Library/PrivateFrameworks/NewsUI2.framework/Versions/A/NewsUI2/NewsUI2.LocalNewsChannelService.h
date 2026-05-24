@@ -9,23 +9,10 @@
 @interface NewsUI2.LocalNewsChannelService
 {
     id tagService;
-    id subscriptionList;
-    id localAreasManager;
-    id locationManager;
-    id personalizationService;
-    id featureAvailability;
-    id localDataManager;
-    id refreshQueue;
-    id _lastKnownChannelIDs;
-    id _hasKnownChannelIDs;
-    id _lastKnownForYouChannelIDs;
-    id _hasKnownForYouChannelIDs;
-    id _lastKnownPrimaryChannelIDs;
-    id _hasKnownPrimaryChannelIDs;
 }
 
 - (void);
-- (id);
+- (id)InCallControlsParticipantCellDelegate;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *lastKnownChannelIDs;

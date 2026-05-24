@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)ftwareUpdateSetting>"24@0:8^B16 /* Error: Ran out of types for this method. */;
++ (id)ocalKeyValuePair>"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

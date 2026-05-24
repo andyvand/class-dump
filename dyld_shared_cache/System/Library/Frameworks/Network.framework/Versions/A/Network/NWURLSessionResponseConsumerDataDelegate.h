@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSURLResponse, NWURLError;
+@class NSURLResponse;
 
 __attribute__((visibility("hidden")))
 @interface NWURLSessionResponseConsumerDataDelegate
 {
     _Bool _hasCompleted;
-    NSURLResponse *_currentResponse;
-    NWURLError *_internalError;
-    long long _countOfBytesReceivedInternal;
 }
 
 - (void);
@@ -20,23 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)2@?0@"NSError"8^{CGImage=}16d24;
 - (long long);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly) long long countOfBytesReceived;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSURL *downloadFileURL;
-@property(readonly) NWURLError *error;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSURLResponse *response;
-@property(readonly) Class superclass;
 
 @end
 

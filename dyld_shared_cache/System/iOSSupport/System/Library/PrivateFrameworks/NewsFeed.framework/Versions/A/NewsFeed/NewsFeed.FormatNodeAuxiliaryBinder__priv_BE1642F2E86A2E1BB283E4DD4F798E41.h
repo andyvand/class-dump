@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatNodeAuxiliaryBinder__priv_BE1642F2E86A2E1BB283E4DD4F798E41
 {
     id bindingContext;
-    id slots;
 }
 
 @end

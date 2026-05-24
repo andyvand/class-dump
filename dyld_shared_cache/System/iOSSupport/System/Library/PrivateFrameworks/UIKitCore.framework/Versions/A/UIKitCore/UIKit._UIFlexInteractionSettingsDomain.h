@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)View:didTransitionToLevel: /* Error: Ran out of types for this method. */;
-+ (id):atIndexes:forPinningToVisibleRect: /* Error: Ran out of types for this method. */;
++ (id)backgroundLumaView:didTransitionToLevel: /* Error: Ran out of types for this method. */;
++ (id)_updateSupplementaryFrames:atIndexes:forPinningToVisibleRect: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

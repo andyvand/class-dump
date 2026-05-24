@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFTableAlignmentSchema;
+@class NSString;
 
 @protocol SFTableRowCardSection
+- (_Bool);
+- (NSString *)E;
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool alignRowsToHeader;
-@property(retain, nonatomic) SFTableAlignmentSchema *alignmentSchema;
-@property(copy, nonatomic) NSArray *data;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isSubHeader;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool reducedRowHeight;
-@property(copy, nonatomic) NSArray *richData;
-@property(copy, nonatomic) NSString *tabGroupIdentifier;
-@property(copy, nonatomic) NSString *tableIdentifier;
 @property(copy, nonatomic) NSString *type;
-@property(nonatomic) int verticalAlign;
 @end
 

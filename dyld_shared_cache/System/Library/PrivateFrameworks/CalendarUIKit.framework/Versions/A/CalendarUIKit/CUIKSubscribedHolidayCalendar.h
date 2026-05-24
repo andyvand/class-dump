@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString, NSURL;
+@class NSString;
 
 @interface CUIKSubscribedHolidayCalendar
 {
     NSString *_cachedLocalizedDescription;
-    NSString *_cachedDescriptionInLocaleLanguage;
-    NSString *_countryCode;
-    struct os_unfair_lock_s _localizedDescriptionCacheLock;
-    NSLocale *_locale;
-    NSString *_languageCode;
-    NSURL *_URL;
 }
 
-- (id)Ã;
-- (id)@ù;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)HƮr?k;
 - (void)4Q32^B40;
 - (id)·¡4GÒ®¡4ýðþÿGSgtGANSgGAEyAFA10_ySayé¶¡4GSdA14_GAFGtGGA1_G;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 
 @end
 

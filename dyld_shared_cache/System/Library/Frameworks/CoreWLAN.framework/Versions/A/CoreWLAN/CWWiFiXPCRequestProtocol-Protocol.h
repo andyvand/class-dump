@@ -5,5 +5,20 @@
 //
 
 @protocol CWWiFiXPCRequestProtocol
+- (void)-;
+- (void);
+- (void);
+- (void)};
+- (void)R_;
+- (void);
+- (void);
+- (void)P;
+- (void)!;
+- (void)W;
+- (void)a;
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

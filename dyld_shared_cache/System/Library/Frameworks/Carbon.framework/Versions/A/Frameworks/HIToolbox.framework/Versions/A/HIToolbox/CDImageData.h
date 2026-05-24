@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface CDImageData
 {
     unsigned int _pasteboardIndex;
-    struct CGRect _screenFrame;
-    struct CGSize _originalSize;
-    NSArray *_imageComponents;
-    CDUnknownBlockType _imageComponentsBlock;
-    unsigned int _flags;
 }
 
 - (void);
@@ -39,11 +32,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned int flags; // @synthesize flags=_flags;
-@property(retain) NSArray *imageComponents;
-@property(copy) CDUnknownBlockType imageComponentsBlock;
 @property unsigned int pasteboardIndex; // @synthesize pasteboardIndex=_pasteboardIndex;
-@property struct CGRect screenFrame; // @synthesize screenFrame=_screenFrame;
 
 @end
 

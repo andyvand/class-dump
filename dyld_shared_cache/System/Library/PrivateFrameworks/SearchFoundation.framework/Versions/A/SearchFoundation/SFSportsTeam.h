@@ -4,65 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFButtonItem, SFImage;
+@class SFImage;
 
 @interface SFSportsTeam
 {
     struct {
         unsigned int isWinner:1;
     } _has;
-    _Bool _isWinner;
-    SFImage *_logo;
-    NSString *_record;
-    NSString *_score;
-    NSString *_accessibilityDescription;
-    NSString *_name;
-    SFButtonItem *_button;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
+- (id)vocalAttenuationStatisticsName;
 - (id);
-- (id);
-- (id);
+- (id)recordSearchResultPageImpressionWithDefaultSearchProviderIdentifier:searchProviderIdentifier:provenance: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)_screenTimeSettingsChangeNotifyToken;
 - (id);
 - (_Bool);
-- (void);
+- (void)albumTitle;
 - (id);
+- (id)PHQuestionTypeSurveyMemoryMusicEnergy;
+- (id)for asset:(struct _NSZone *)arg1 %@;
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
-- (void)mentNames;
+- (void);
+- (void);
+- (void)hasCountBigramMatchInAttachmentNames;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(retain, nonatomic) SFButtonItem *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isWinner; // @synthesize isWinner=_isWinner;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFImage *logo; // @synthesize logo=_logo;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *record; // @synthesize record=_record;
-@property(copy, nonatomic) NSString *score; // @synthesize score=_score;
-@property(readonly) Class superclass;
 
 @end
 

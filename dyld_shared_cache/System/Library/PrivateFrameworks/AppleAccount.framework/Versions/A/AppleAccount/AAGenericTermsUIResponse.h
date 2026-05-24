@@ -6,25 +6,21 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSDictionary;
 
 @interface AAGenericTermsUIResponse : AAResponse
 {
     NSDictionary *_responseTermsDictionary;
-    NSString *_responseAgreeURL;
-    NSData *_responseData;
 }
 
+- (id)ecause MDM protocol version > 1;
+- (id)asCert = %d;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)isLCMessageExtensionEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *agreeURL;
 @property(readonly, nonatomic) NSData *responseData;
-@property(readonly, nonatomic) NSDictionary *termsDictionary;
 
 @end
 

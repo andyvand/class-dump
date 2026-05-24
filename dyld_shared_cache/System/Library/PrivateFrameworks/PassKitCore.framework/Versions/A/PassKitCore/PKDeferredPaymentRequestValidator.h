@@ -9,29 +9,20 @@
 @interface PKDeferredPaymentRequestValidator
 {
     NSString *_currencyCode;
-    PKDeferredPaymentRequest *_deferredPaymentRequest;
 }
 
 + (id);
 + (Class);
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (void);
-- (id)OfType: /* Error: Ran out of types for this method. */;
+- (id)setProtobufAction:forIncomingResponsesOfType: /* Error: Ran out of types for this method. */;
 - (_Bool)[%s] ProvisioningStepSetupAccount:(id *)arg1 pass available to provision;
 - (void)t:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) PKDeferredPaymentRequest *deferredPaymentRequest; // @synthesize deferredPaymentRequest=_deferredPaymentRequest;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

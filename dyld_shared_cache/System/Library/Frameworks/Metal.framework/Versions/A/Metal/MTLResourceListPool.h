@@ -7,7 +7,6 @@
 @interface MTLResourceListPool
 {
     struct _MTLResourceListPoolPrivate _priv;
-    int _resourceListCapacity;
 }
 
 - (void);

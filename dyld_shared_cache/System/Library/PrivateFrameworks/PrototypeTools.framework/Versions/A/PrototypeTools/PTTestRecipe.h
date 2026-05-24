@@ -9,14 +9,10 @@
 @interface PTTestRecipe
 {
     NSString *_title;
-    CDUnknownBlockType _prepareBlock;
-    CDUnknownBlockType _cleanupBlock;
-    PTTestRecipeInfo *_info;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
-- (void);
+- (void)h;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
@@ -30,14 +26,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)countUtilities.m;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cleanupBlock; // @synthesize cleanupBlock=_cleanupBlock;
 @property(retain, nonatomic) PTTestRecipeInfo *info; // @synthesize info=_info;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType prepareBlock; // @synthesize prepareBlock=_prepareBlock;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

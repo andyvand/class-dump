@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSManagedObjectContext, NSManagedObjectID, NSSet, NSString;
-@protocol ICLegacyFolder;
-
 @interface UnknownClass (ICLegacyAccount)
 - (_Bool);
 - (id);
@@ -14,7 +11,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)__auth_got;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -24,36 +21,9 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool)RATOR_UNKNOWN;
+- (_Bool)PERSON_OPERATOR_UNKNOWN;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountIdentifier;
-@property(readonly, copy, nonatomic) NSString *allItemsFolderLocalizedTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSManagedObject<ICLegacyFolder> *defaultFolder;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didChooseToMigrate;
-@property(readonly, copy, nonatomic) NSString *emailAddress;
 @property(readonly, nonatomic) _Bool enabled;
-@property(readonly, nonatomic) NSSet *folders;
-@property(readonly, nonatomic) _Bool hasAnyCustomFolders;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isExchangeAccount;
-@property(readonly, nonatomic) _Bool isIMAPAccount;
-@property(readonly, nonatomic) _Bool isLocalAccount;
-@property(readonly, nonatomic) _Bool isManaged;
-@property(readonly, nonatomic) long long legacyAccountType;
-@property(readonly, copy, nonatomic) NSString *localizedAttachmentsNotSupportedReason;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, copy, nonatomic) NSString *objectIdentifier;
-@property(readonly, nonatomic) _Bool preventMovingNotesToOtherAccounts;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAttachments;
 @end
 

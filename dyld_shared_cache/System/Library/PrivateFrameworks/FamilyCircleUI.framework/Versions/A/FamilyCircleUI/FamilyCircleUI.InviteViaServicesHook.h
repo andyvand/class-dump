@@ -7,11 +7,6 @@
 @interface FamilyCircleUI.InviteViaServicesHook
 {
     id inviteViaAirDropHookKey;
-    id inviteViaMessagesHookKey;
-    id inviteViaMailHookKey;
-    id hookNameWithInviteOption;
-    id continuation;
-    id window;
 }
 
 - (id);

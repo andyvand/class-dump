@@ -7,7 +7,6 @@
 @interface NewsArticles.CookingKitExternalRecipeHydrator
 {
     id recipeService;
-    id recipeFactory;
 }
 
 @end

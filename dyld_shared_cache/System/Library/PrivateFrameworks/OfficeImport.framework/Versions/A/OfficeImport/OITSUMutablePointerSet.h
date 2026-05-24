@@ -13,11 +13,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (Class);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -25,7 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (void)A;
+- (void)mandQueue>"32@0:(id)arg1 8@"MTLIOCommandQueueDescriptor"16^@24;
 - (void);
 - (unsigned long long)0@ù
 × ;

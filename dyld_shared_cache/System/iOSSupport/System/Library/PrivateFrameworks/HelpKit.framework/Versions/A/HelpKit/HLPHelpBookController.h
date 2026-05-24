@@ -6,78 +6,58 @@
 
 #import <HelpKit/HLPRemoteDataController.h>
 
-@class HLPHelpLocale, HLPHelpSectionItem, HLPURLImageCacheController, NSArray, NSMutableDictionary, NSString, NSURL;
-
 @interface HLPHelpBookController : HLPRemoteDataController
 {
     _Bool _hasSectionIcon;
     _Bool _fullBookView;
-    _Bool _platformIndependent;
-    long long _contentFormatVersion;
-    long long _serverType;
-    NSArray *_additionalSupportedLanguages;
-    NSMutableDictionary *_helpItemMap;
-    NSString *_contentVersion;
-    NSString *_copyrightText;
-    NSString *_copyrightTopicIdentifier;
-    NSString *_bookId;
-    NSString *_topicPathFormat;
-    NSString *_remoteSearchPath;
-    NSString *_remoteCSSearchIndex;
-    NSString *_iconBasePath;
-    HLPHelpLocale *_locale;
-    NSString *_welcomeTopicIdentifier;
-    NSURL *_helpBookURL;
-    HLPHelpSectionItem *_rootSectionItem;
-    HLPURLImageCacheController *_imageCacheController;
 }
 
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void)9;
+- (void)K;
+- (void)j;
+- (void)R;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (id)O;
+- (id)';
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)M;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)c;
+- (id)@)2;
 - (long long);
-- (id);
-- (id);
+- (id)qN;
+- (id)#;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)	N;
+- (id);
+- (void)9i;
+- (id)	N;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
@@ -89,27 +69,8 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalSupportedLanguages; // @synthesize additionalSupportedLanguages=_additionalSupportedLanguages;
-@property(retain, nonatomic) NSString *bookId; // @synthesize bookId=_bookId;
 @property(nonatomic) long long contentFormatVersion; // @synthesize contentFormatVersion=_contentFormatVersion;
-@property(retain, nonatomic) NSString *contentVersion; // @synthesize contentVersion=_contentVersion;
-@property(retain, nonatomic) NSString *copyrightText; // @synthesize copyrightText=_copyrightText;
-@property(retain, nonatomic) NSString *copyrightTopicIdentifier; // @synthesize copyrightTopicIdentifier=_copyrightTopicIdentifier;
-@property(nonatomic) _Bool fullBookView; // @synthesize fullBookView=_fullBookView;
-@property(nonatomic) _Bool hasSectionIcon; // @synthesize hasSectionIcon=_hasSectionIcon;
-@property(retain, nonatomic) NSURL *helpBookURL; // @synthesize helpBookURL=_helpBookURL;
-@property(retain, nonatomic) NSMutableDictionary *helpItemMap; // @synthesize helpItemMap=_helpItemMap;
-@property(retain, nonatomic) NSString *iconBasePath; // @synthesize iconBasePath=_iconBasePath;
-@property(retain, nonatomic) HLPURLImageCacheController *imageCacheController; // @synthesize imageCacheController=_imageCacheController;
-@property(retain, nonatomic) HLPHelpLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) _Bool platformIndependent; // @synthesize platformIndependent=_platformIndependent;
-@property(retain, nonatomic) NSString *remoteCSSearchIndex; // @synthesize remoteCSSearchIndex=_remoteCSSearchIndex;
-@property(retain, nonatomic) NSString *remoteSearchPath; // @synthesize remoteSearchPath=_remoteSearchPath;
-@property(retain, nonatomic) HLPHelpSectionItem *rootSectionItem; // @synthesize rootSectionItem=_rootSectionItem;
-@property(readonly, nonatomic, getter=isSemanticHTML) _Bool semanticHTML; // @dynamic semanticHTML;
 @property(nonatomic) long long serverType; // @synthesize serverType=_serverType;
-@property(retain, nonatomic) NSString *topicPathFormat; // @synthesize topicPathFormat=_topicPathFormat;
-@property(retain, nonatomic) NSString *welcomeTopicIdentifier; // @synthesize welcomeTopicIdentifier=_welcomeTopicIdentifier;
 
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXFullscreenCanvasViewControllerDelegate;
-
 @interface SXFullscreenCanvasViewController
 {
     _Bool _isTransitioning;
-    long long _statusBarStyle;
-    id <SXFullscreenCanvasViewControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (_Bool);
 - (void);
 - (void);
@@ -34,8 +30,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) __weak id <SXFullscreenCanvasViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isTransitioning; // @synthesize isTransitioning=_isTransitioning;
 @property(nonatomic) long long statusBarStyle; // @synthesize statusBarStyle=_statusBarStyle;
 
 @end

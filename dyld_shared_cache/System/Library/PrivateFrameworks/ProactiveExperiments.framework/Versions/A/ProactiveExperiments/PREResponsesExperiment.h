@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserDefaults, PREPredictionExemptTermsDetector, RKMessageResponseManager, TIPreferencesController, _PASLRUCache, _PASLock;
-@protocol PREExperimentResolverProtocol, PREResponsesMetricsProtocol, PREResponsesProtocol;
+@protocol PREExperimentResolverProtocol;
 
 @interface PREResponsesExperiment
 {
     id <PREExperimentResolverProtocol> _experimentResolver;
-    id <PREResponsesMetricsProtocol> _metrics;
-    id <PREResponsesProtocol> _xpcClient;
-    RKMessageResponseManager *_rkClient;
-    TIPreferencesController *_tiPreferencesController;
-    NSUserDefaults *_defaults;
-    _PASLRUCache *_responsesGeneratedCache;
-    _PASLock *_guardedCachedResponsesGeneratedEvent;
-    PREPredictionExemptTermsDetector *_exemptTermsDetector;
-    _Bool _registerDisplayed;
-    _Bool _includeCannedResponses;
-    _Bool _includeCustomResponses;
-    _Bool _includeResponsesToRobots;
-    _Bool _useResponseKitAsFallback;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (int);
 + (_Bool);
 + (id);
-+ (id);
++ (id)B;
 + (id);
 + (id);
 + (_Bool);
@@ -50,7 +36,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)R;
 - (id);
 - (void);
 - (void);
@@ -60,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)p�\� ;
 - (void);
 - (id);
 - (void);
@@ -73,23 +59,19 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)windowDidResignKey:(id)arg1;
+- (id)windowDidMiniaturize:(id)arg1;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(nonatomic) _Bool includeCannedResponses; // @synthesize includeCannedResponses=_includeCannedResponses;
-@property(nonatomic) _Bool includeCustomResponses; // @synthesize includeCustomResponses=_includeCustomResponses;
-@property(nonatomic) _Bool includeResponsesToRobots; // @synthesize includeResponsesToRobots=_includeResponsesToRobots;
 @property(nonatomic) _Bool registerDisplayed; // @synthesize registerDisplayed=_registerDisplayed;
-@property(nonatomic) _Bool useResponseKitAsFallback; // @synthesize useResponseKitAsFallback=_useResponseKitAsFallback;
 
 @end
 

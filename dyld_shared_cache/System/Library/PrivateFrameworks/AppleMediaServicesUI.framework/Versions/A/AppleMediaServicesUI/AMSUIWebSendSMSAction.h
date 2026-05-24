@@ -12,25 +12,21 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebSendSMSAction : AMSUIWebAction
 {
     NSString *_body;
-    NSString *_countryCode;
-    NSString *_digits;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)egate>",W,V_delegate;
+- (id)riggered, holding with pending assertions...;
+- (id)et lock reason count:(id)arg1 %lu for assetSelector:(id)arg2 %{public}@;
+- (void);
+- (id)@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)H;
 - (void);
 - (void)v24@?0@"AMSAuthenticateResult"8@"NSError"16;
 
 // Remaining properties
 @property(retain) NSString *body; // @synthesize body=_body;
-@property(retain) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain) NSString *digits; // @synthesize digits=_digits;
 
 @end
 

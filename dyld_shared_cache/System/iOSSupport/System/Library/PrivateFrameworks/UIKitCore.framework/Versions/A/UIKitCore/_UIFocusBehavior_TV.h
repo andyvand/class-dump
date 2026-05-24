@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusBehavior_TV
 {
 }
 
 + (id)P$}þ¦;
-- (void);
+- (void)nsfer %@;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -21,19 +19,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool)_payloadAuthEAPPlugins;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)preferredFontForTextStyle:maximumContentSizeCategory: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
+- (_Bool);
+- (_Bool)confidence_delta_min;
+- (_Bool);
+- (_Bool)fo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)retry this request;
+- (long long)ore is NULL;
 - (id);
 - (long long);
 - (_Bool);
@@ -68,14 +66,14 @@ __attribute__((visibility("hidden")))
 - (long long)izedReservedLayoutSize"b1"hasCustomizedMaximumSize"b1"hasCustomizedAccessibilityIgnoresInvertColors"b1"hasCustomizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedMonochromaticTreatment"b1};
 - (long long)B44@?48;
 - (long long)ngeObserver>";
-- (_Bool);
-- (long long)tMenuInteraction: /* Error: Ran out of types for this method. */;
-- (unsigned long long)cument;
-- (long long)amping;
-- (_Bool)pWithCapacity: /* Error: Ran out of types for this method. */;
-- (_Bool)s;
-- (_Bool)ling;
-- (_Bool)rCommandWithType:(id)arg1 action: /* Error: Ran out of types for this method. */;
+- (_Bool)setRelativeRangeBefore:(id)arg1;
+- (long long)setContextMenuInteraction: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ownerDocument;
+- (long long)knobTouchDownSpringAnimationDamping;
+- (_Bool)groupWithCapacity: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateFocusSystemCapabilities;
+- (_Bool)_hasContentScaling;
+- (_Bool)_handleAutoFillPopoverCommandWithType:(id)arg1 action: /* Error: Ran out of types for this method. */;
 - (_Bool)nBehaviorSettings",N,&,VinteractiveSpring;
 - (_Bool)ntroller>",&,N,S_setSmartReplyFeedbackInputDashboardViewController: /* Error: Ran out of types for this method. */;
 - (_Bool)FBSSceneIdentityToken",&,N,V_sceneIdentity;
@@ -84,18 +82,12 @@ __attribute__((visibility("hidden")))
 - (_Bool)al info:(id)arg1 %@;
 - (_Bool);
 - (_Bool)sed layout. Split view controller:(id)arg1 %@;
-- (_Bool)ndexPathCSo0a8ReusableB0CSgIeyByyya_;
+- (_Bool)So16UICollectionViewCSo8NSStringCSo11NSIndexPathCSo0a8ReusableB0CSgIeyByyya_;
 - (unsigned long long)®;
 - (long long)7ABSQ12CoreGraphicsyHCg_G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

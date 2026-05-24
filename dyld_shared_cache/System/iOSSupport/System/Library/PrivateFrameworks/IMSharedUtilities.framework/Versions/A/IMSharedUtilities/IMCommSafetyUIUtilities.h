@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)So6UIViewCSgXo;
 + (id);
 
 @end

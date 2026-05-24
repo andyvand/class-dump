@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSHashTable, NSObject, SFApproveDiscovery;
-@protocol OS_dispatch_queue;
+@class NSHashTable, SFApproveDiscovery;
 
 @interface WatchMonitor
 {
     NSHashTable *_observers;
-    unsigned long long _restartAttempt;
-    unsigned long long _invalidationCount;
-    unsigned long long _failedActivationCount;
-    SFApproveDiscovery *_approveDiscovery;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_lastActivation;
 }
 
 + (id);
@@ -32,7 +25,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_orderedTasks;
 - (void);
 - (void);
 - (void);
@@ -41,9 +34,6 @@
 
 // Remaining properties
 @property(retain) SFApproveDiscovery *approveDiscovery; // @synthesize approveDiscovery=_approveDiscovery;
-@property(readonly, nonatomic) _Bool deviceAvailable;
-@property(retain, nonatomic) NSDate *lastActivation; // @synthesize lastActivation=_lastActivation;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

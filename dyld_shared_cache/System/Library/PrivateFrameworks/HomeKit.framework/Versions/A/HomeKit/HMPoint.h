@@ -10,11 +10,11 @@
 }
 
 + (_Bool);
-- (id);
+- (id)location. Error:(struct CGPoint)arg1 %@;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)perpetual;
 - (void);
 - (id);
 - (struct CGPoint);

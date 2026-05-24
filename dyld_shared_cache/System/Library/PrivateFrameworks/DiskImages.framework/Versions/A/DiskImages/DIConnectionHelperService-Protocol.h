@@ -5,5 +5,6 @@
 //
 
 @protocol DIConnectionHelperService
+- (void)C;
 @end
 

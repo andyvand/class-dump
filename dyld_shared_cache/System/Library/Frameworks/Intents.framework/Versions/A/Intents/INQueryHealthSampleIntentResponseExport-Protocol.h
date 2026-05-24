@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INQueryHealthSampleIntentResponseExport
-- (long long)ndParticipantsExactly;
+- (long long)hasMatchCallerAndParticipantsExactly;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *resultValues;
 @end
 

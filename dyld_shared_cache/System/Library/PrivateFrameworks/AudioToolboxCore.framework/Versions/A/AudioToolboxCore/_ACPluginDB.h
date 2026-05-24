@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _ACPluginDB
 {
     NSMutableDictionary *mSearchDirectories;
-    _Bool mDirty;
-    NSObject<OS_dispatch_queue> *mDispatchQueue;
-    struct function<void (AudioComponentVector &, AudioComponentVector &)> mNotificationCallback;
-    function_e88ba8d7 mScanHashCallback;
-    NSData *mCarbonComponentHash;
 }
 
 + (_Bool);

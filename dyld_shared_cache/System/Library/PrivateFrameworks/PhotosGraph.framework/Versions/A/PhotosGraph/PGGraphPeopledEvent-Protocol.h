@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol PGGraphPeopledEvent
+- (NSSet *)_wordTerminationCharSet;
+- (NSSet *)_wordDelimCountAtEndOfString: /* Error: Ran out of types for this method. */;
 @end
 

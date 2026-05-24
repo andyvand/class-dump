@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedIdentifierListEntryPositionKey, NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListEntry
 {
     NSMutableArray *_nextEntries;
-    _Bool _dataSourceRemoved;
-    MPSectionedIdentifierListEntryPositionKey *_positionKey;
-    NSString *_sectionIdentifier;
-    NSString *_hostedSectionIdentifier;
-    MPSectionedIdentifierListEntry *_previousEntry;
-    long long _branchDepth;
 }
 
 + (_Bool);
@@ -23,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)j;
 - (void);
-- (id);
-- (id);
+- (id)2;
+- (id)h;
 - (id);
 - (_Bool);
 - (id);
@@ -38,28 +32,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)cord"8;
 - (long long);
 - (id);
 - (void);
-- (void)GenericSong__MAPPING_MISSING__;
+- (void)__MPModelRelationshipGenericSong__MAPPING_MISSING__;
 
 // Remaining properties
-@property(nonatomic) long long branchDepth; // @synthesize branchDepth=_branchDepth;
-@property(readonly, nonatomic, getter=isDataSourceRemoved) _Bool dataSourceRemoved; // @synthesize dataSourceRemoved=_dataSourceRemoved;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entryType;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *hostedSectionIdentifier; // @synthesize hostedSectionIdentifier=_hostedSectionIdentifier;
-@property(readonly, nonatomic) NSArray *nextEntries; // @synthesize nextEntries=_nextEntries;
-@property(readonly, nonatomic) MPSectionedIdentifierListEntryPositionKey *positionKey; // @synthesize positionKey=_positionKey;
-@property(nonatomic) __weak MPSectionedIdentifierListEntry *previousEntry; // @synthesize previousEntry=_previousEntry;
-@property(readonly, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

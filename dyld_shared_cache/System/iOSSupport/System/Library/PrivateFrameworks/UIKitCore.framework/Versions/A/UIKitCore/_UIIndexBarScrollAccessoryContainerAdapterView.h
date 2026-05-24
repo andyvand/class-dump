@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     UIView<UIScrollAccessory> *_delegatedView;
 }
 
-- (id);
+- (id)keyEnumerator;
 - (void);
 - (struct CGSize);
 - (_Bool);
@@ -26,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long edge;
-@property(readonly, nonatomic) _Bool overlay;
 @property(nonatomic) __weak UIScrollView *scrollView;
 
 @end

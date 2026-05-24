@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMessage, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorSticker
 {
@@ -15,20 +15,14 @@
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
-- (id);
+- (struct _NSRange)4{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (id)rsationActivitySnapshot";
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageFallbackHash;
-@property(nonatomic, readonly) NSString *associatedMessageGUID;
-@property(nonatomic, readonly) struct _NSRange associatedMessageRange;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_associatedMessageRange;
-@property(nonatomic, readonly) BlastDoorMessage *messageContent;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
 
 @end
 

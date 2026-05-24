@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _CPError
 {
     NSString *_domain;
-    NSString *_reason;
-    double _code;
-    unsigned long long _errorCode;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)75;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) double code; // @synthesize code=_code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) unsigned long long errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 
 @end
 

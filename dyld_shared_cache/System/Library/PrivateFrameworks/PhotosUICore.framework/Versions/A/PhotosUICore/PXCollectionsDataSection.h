@@ -18,7 +18,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)`B;
 
 @end
 

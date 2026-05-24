@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, _NSWritingToolsData;
+@class NSEnumerator;
 
 __attribute__((visibility("hidden")))
 @interface __NSWritingToolsItemTransactionQueue
 {
     NSEnumerator *_enumerator;
-    _NSWritingToolsData *_writingToolsData;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void)n-Unicode event without Carbon EventRef;

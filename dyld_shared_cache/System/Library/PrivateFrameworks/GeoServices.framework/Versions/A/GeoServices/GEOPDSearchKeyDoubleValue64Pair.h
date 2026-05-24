@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeyDoubleValue64Pair
 {
     double _key;
-    unsigned long long _value;
-    CDStruct_a4cc0a70 _flags;
 }
 
 - (id);
-- (void);
+- (void)ds;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ta";
-- (id)ularNearbySearchParameters;
+- (id)_popularNearbySearchParameters;
 - (id)81;
 
 @end

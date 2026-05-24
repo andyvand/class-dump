@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMUserWantedToPause : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    _Bool _hasTaskId;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tal Signature;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,12 +28,10 @@
 - (id)1Â0@ù
 × ;
 - (id)extCollectorLocal;
-- (id)tIndex: /* Error: Ran out of types for this method. */;
+- (id)userFeedbackParticipantAtIndex: /* Error: Ran out of types for this method. */;
 - (void)²>;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

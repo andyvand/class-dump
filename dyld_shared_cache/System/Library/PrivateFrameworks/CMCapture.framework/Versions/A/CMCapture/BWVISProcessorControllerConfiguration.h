@@ -4,74 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigCaptureISPProcessingSession, BWPixelBufferPool, NSArray, NSData, NSDictionary, NSObject;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface BWVISProcessorControllerConfiguration
 {
     int _transformPlatform;
-    int _smoothingMethod;
-    int _motionBlurShimmerMitigationMethod;
-    BWFigCaptureISPProcessingSession *_ispProcessingSession;
-    NSDictionary *_inputPixelBufferAttributes;
-    NSDictionary *_outputPixelBufferAttributes;
-    CDStruct_79c71658 _generatedTransformsOutputDimensionsOverride;
-    BWPixelBufferPool *_outputPixelBufferPool;
-    BWPixelBufferPool *_outputDepthPixelBufferPool;
-    NSDictionary *_sensorIDDict;
-    float _cinematicLookAheadTime;
-    unsigned int _cinematicLookAheadFrameCount;
-    _Bool _useISPMotionData;
-    _Bool _sphereCorrectionEnabled;
-    _Bool _sphereVideoEnabled;
-    _Bool _frameRateConversionEnabled;
-    _Bool _videoStabilizationDisabled;
-    _Bool _blurBorderPixels;
-    struct CGRect _livePhotoCleanOutputRect;
-    _Bool _onlyGenerateTransformsParameters;
-    _Bool _attachStabilizedOutputCameraTrajectory;
-    _Bool _attachStabilizedTrajectoryHomography;
-    _Bool _attachEstimatedMotionVector;
-    _Bool _p3ToBT2020ConversionEnabled;
-    int _gpuPriority;
-    unsigned int _extendedOutputRowsToFill;
-    NSObject<OS_dispatch_semaphore> *_emitSampleBufferSemaphore;
-    NSDictionary *_cameraInfoByPortType;
-    NSDictionary *_videoSTFParameters;
-    NSDictionary *_videoGreenGhostMitigationParameters;
-    int _videoStabilizationStrength;
-    _Bool _zoomSmoothingEnabled;
-    _Bool _applyFrameCropOffset;
-    NSData *_cameraExtrinsicMatrix;
-    _Bool _faceStabilizationEnabled;
-    float _faceStabilizationSigmaMultiplierForFaceFiltering;
-    float _faceStabilizationSigmaMultiplierForBiasTracking;
-    float _faceStabilizationSigmaModulationExponent;
-    float _faceStabilizationSigmaModulationSmoothTransitionMultiplier;
-    _Bool _smartStyleRenderingEnabled;
-    _Bool _smartStyleReversibilityEnabled;
-    _Bool _lowResImageUsedByVideoEncoderEnabled;
-    _Bool _enableRollingShutterCorrectionOnly;
-    _Bool _disableTransformLimitsForPredeterminedTrajectory;
-    _Bool _useCameraGeometry;
-    unsigned int _metalSubmissionAndCompletionQueuePriority;
-    float _minDistanceForBravoParallaxShift;
-    NSDictionary *_outputAttachmentsPixelBufferPools;
-    NSDictionary *_smartStyleConfigurationDict;
-    unsigned long long _smartStyleMemoryPoolId;
-    NSArray *_distortionCorrectionEnabledPortTypes;
-    NSArray *_distortionCompensationEnabledPortTypes;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (CDStruct_1ef3fb1f);
-- (int);
-- (void);
-- (unsigned int);
+- (CDStruct_1ef3fb1f)contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
+- (int)clearTopBorder;
+- (void)OIProgressiveReaderDelegate;
+- (unsigned int)directly to seekable output stream, but input stream cannot be seeked for CRC calculation.;
 - (void);
 - (id);
 - (id);
@@ -89,68 +35,68 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)g;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)u**	;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)performMaintenanceIfNecessary;
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (float);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (float);
+- (id)setTargetString: /* Error: Ran out of types for this method. */;
+- (void)setPreferredContentMode:(unsigned int)arg1;
+- (void)initWithReservationID:(int)arg1 eventName:provider:customerNames:startLocationName:startLocationAddress:startLocationTelephone:startDate:startDateTimeZone:endLocationName:endLocationAddress:endLocationTelephone:endDate:endDateTimeZone:reservationForName:duration:cost:costCode:eventStatus:error: /* Error: Ran out of types for this method. */;
+- (struct CGRect)aredInstanceConfigurationBlock:] /* Error: Ran out of types for this method. */;
+- (void)naiveBayesModelsGlobalCounts_featureName_idx ON mailIntelligence_naiveBayesModelsGlobalCounts(featureName);
+- (void)ramTokens;
+- (void)`B;
 - (unsigned int);
 - (_Bool);
+- (float);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)c;
+- (float);
+- (unsigned int);
+- (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)angingDelegate>",W,N,V_delegate;
+- (void);
+- (_Bool)stemClient remoteTextInputSessionWithID:documentTraitsDidChange:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)ft[0vtp0vt&0vt|0vt/0vt-0ftp0ft&0ft|0ft/0ft-2vtp2vt&2vt|2vt/2vt-2ftp2ft&2ft|2ft/2ft-4vtp4vt&4vt|4vt/4vt-4ftp4ft&4ft|4ft/4ft-r03wr3w&a04wa4w&8a3b83b&555L565L4444ARGBABGR800A800L80AL88AL80C2k01Rr01l610L61C2r46lh00Lh0C2ahGRf00LafGRAGB&AGB|AGB/AGB-r1l&ahR&;
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (float);
+- (float);
 - (void);
 - (int)2;
-- (id)ible;
-- (void)CaptureVideoDataSinkPipelineConfiguration;
+- (id)siriVisible;
+- (void)FigCaptureVideoDataSinkPipelineConfiguration;
 - (void)_ÿï¹_ÿøº_ÿÿº_ÿÿº_ÿÿº_ÿÿº_ÿc¼Pÿd¼Pÿf¼Pÿh¼Qÿj¼Qÿn¼Qÿq¼Rÿu¼Rÿz½Sÿ½Tÿ½Uÿ½Uÿ½Vÿ¾Wÿ¾Xÿ¢¾Yÿ¨¿Zÿ¯¿[ÿ¶¿\ÿ¼¿]ÿÃÀ^ÿÊÀ_ÿÑÀ_ÿÙÁ_ÿàÁ`ÿèÁ`ÿðÁ`ÿùÁ`ÿÿÂ`ÿÿÂ`ÿÿÂ_ÿÿÂ_ÿiÄQÿjÄQÿkÄQÿmÄQÿpÄQÿsÄRÿvÄRÿzÄSÿ~ÄSÿÅTÿÅUÿÅVÿÅVÿÆWÿ ÆXÿ¦ÆYÿ¬ÆZÿ²Ç[ÿ¹Ç\ÿ¿Ç]ÿÆÇ^ÿÌÈ^ÿÓÈ_ÿÛÈ`ÿãÈ`ÿêÉ`ÿòÉ`ÿúÉ`ÿÿÉ`ÿÿÉ`ÿÿÉ`ÿÿÊ`ÿoËQÿpËQÿqÌQÿsÌRÿuÌRÿxÌRÿ{ÌSÿÌSÿÌTÿÍTÿÍUÿÍVÿÍVÿÍWÿ£ÎXÿ©ÎYÿ¯ÎZÿµÎ[ÿ¼Ï\ÿÂÏ]ÿÉÏ^ÿÏÏ^ÿÖÐ_ÿÞÐ`ÿåÐ`ÿìÐ`ÿóÑ`ÿüÑaÿÿÑaÿÿÑaÿÿÑaÿÿÑaÿvÔRÿwÔRÿxÔRÿyÔRÿ{ÕRÿ~ÕSÿÕSÿÕSÿÕTÿÕUÿÖUÿÖVÿÖWÿ¡ÖWÿ§ÖXÿ­×Yÿ³×Zÿ¹×[ÿÀ×\ÿÆØ]ÿÌØ]ÿÓØ^ÿÙØ_ÿáØ_ÿçÙ`ÿîÙ`ÿöÙaÿþÙaÿÿÙaÿÿÚaÿÿÚaÿÿÚaÿ{ÜRÿ|ÜRÿ}ÜRÿÜSÿÜSÿÜSÿÝSÿÝTÿÝTÿÝUÿÝUÿÝVÿ ÞWÿ¥ÞWÿ«ÞXÿ±ÞYÿ¶ßZÿ¼ß[ÿÃß\ÿÉß\ÿÏß]ÿÕà^ÿÜà_ÿãà_ÿêà`ÿñà`ÿøáaÿÿáaÿÿáaÿÿáaÿÿáaÿÿáaÿäSÿäSÿäSÿäSÿäSÿäTÿäTÿåTÿåUÿåUÿåVÿåVÿ¤åWÿ©æXÿ¯æXÿ´æYÿºæZÿÀæ[ÿÆç\ÿÌç\ÿÒç]ÿØç^ÿßç^ÿæè_ÿìè`ÿóè`ÿúèaÿÿèaÿÿèaÿÿéaÿÿébÿÿébÿìSÿìSÿìTÿìTÿìTÿìTÿìTÿìUÿìUÿíVÿíVÿ£íWÿ¨íWÿ­íXÿ³íYÿ¸îYÿ½îZÿÃî[ÿÉî[ÿÏî\ÿÕï]ÿÛï^ÿáï^ÿéï_ÿïï`ÿõð`ÿüðaÿÿðaÿÿðaÿÿðaÿÿðbÿÿðbÿôTÿôTÿôTÿôTÿõUÿõUÿõUÿõUÿõVÿ õVÿ¤õWÿ¨õWÿ­öXÿ±öXÿ·öYÿ¼öYÿÁöZÿÇ÷[ÿÍ÷[ÿÓ÷\ÿÙ÷]ÿß÷]ÿå÷^ÿìø_ÿòø_ÿøø`ÿÿø`ÿÿøaÿÿøaÿÿøaÿÿøbÿÿùbÿ;
 - (void)Å¼ÿË¼ÿÒ¼ÿÙ½ÿá½ÿè½ÿï¾ÿ÷¾ÿÿ¾ÿÿ¿ÿÿ¿ÿÿ¿ÿÿÀÿwÀÿxÀÿyÀÿzÀÿ|ÀÿÀÿÀÿÁÿÁÿÁÿÁÿÁÿÁÿ¢Â
 ÿ¨Âÿ®Âÿ´ÂÿºÃÿÁÃÿÇÃÿÎÄÿÕÄÿÛÄÿãÅÿêÅÿñÅÿùÆÿÿÆÿÿÆÿÿÇÿÿÇÿÿÇ ÿ|Èÿ}Èÿ~ÈÿÈÿÈÿÈÿÈÿÉÿÉÿÉÿÉÿÉÿ É	ÿ¥Ê
@@ -167,65 +113,14 @@ __attribute__((visibility("hidden")))
 - (void);ñRÿLðSÿYðTÿfðUÿrïWÿïYÿï[ÿî]ÿ¢î`ÿ­îcÿ¹îfÿÄîiÿÏîmÿÙîoÿåïrÿïïtÿøïtÿÿïuÿÿðuÿ;
 - (id)ead requirement must be zero when not using a motion data time machine;
 - (void)NULL CMFormatDescription;
-- (void)ayWorldWhiteBalanceGainsChanged;
+- (void)GrayWorldWhiteBalanceGainsChanged;
 - (void)eController.m:(float)arg1 417;
 - (void);
 - (_Bool)m;
 - (int)t-samples;
 
 // Remaining properties
-@property(nonatomic) _Bool applyFrameCropOffset; // @synthesize applyFrameCropOffset=_applyFrameCropOffset;
-@property(nonatomic) _Bool attachEstimatedMotionVector; // @synthesize attachEstimatedMotionVector=_attachEstimatedMotionVector;
-@property(nonatomic) _Bool attachStabilizedOutputCameraTrajectory; // @synthesize attachStabilizedOutputCameraTrajectory=_attachStabilizedOutputCameraTrajectory;
-@property(nonatomic) _Bool attachStabilizedTrajectoryHomography; // @synthesize attachStabilizedTrajectoryHomography=_attachStabilizedTrajectoryHomography;
-@property(nonatomic) _Bool blurBorderPixels; // @synthesize blurBorderPixels=_blurBorderPixels;
-@property(retain, nonatomic) NSData *cameraExtrinsicMatrix; // @synthesize cameraExtrinsicMatrix=_cameraExtrinsicMatrix;
-@property(retain, nonatomic) NSDictionary *cameraInfoByPortType; // @synthesize cameraInfoByPortType=_cameraInfoByPortType;
-@property(nonatomic) unsigned int cinematicLookAheadFrameCount; // @synthesize cinematicLookAheadFrameCount=_cinematicLookAheadFrameCount;
-@property(nonatomic) float cinematicLookAheadTime; // @synthesize cinematicLookAheadTime=_cinematicLookAheadTime;
-@property(nonatomic) _Bool disableTransformLimitsForPredeterminedTrajectory; // @synthesize disableTransformLimitsForPredeterminedTrajectory=_disableTransformLimitsForPredeterminedTrajectory;
-@property(retain, nonatomic) NSArray *distortionCompensationEnabledPortTypes; // @synthesize distortionCompensationEnabledPortTypes=_distortionCompensationEnabledPortTypes;
-@property(retain, nonatomic) NSArray *distortionCorrectionEnabledPortTypes; // @synthesize distortionCorrectionEnabledPortTypes=_distortionCorrectionEnabledPortTypes;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *emitSampleBufferSemaphore; // @synthesize emitSampleBufferSemaphore=_emitSampleBufferSemaphore;
-@property(nonatomic) _Bool enableRollingShutterCorrectionOnly; // @synthesize enableRollingShutterCorrectionOnly=_enableRollingShutterCorrectionOnly;
-@property(nonatomic) unsigned int extendedOutputRowsToFill; // @synthesize extendedOutputRowsToFill=_extendedOutputRowsToFill;
-@property(nonatomic) _Bool faceStabilizationEnabled; // @synthesize faceStabilizationEnabled=_faceStabilizationEnabled;
-@property(nonatomic) float faceStabilizationSigmaModulationExponent; // @synthesize faceStabilizationSigmaModulationExponent=_faceStabilizationSigmaModulationExponent;
-@property(nonatomic) float faceStabilizationSigmaModulationSmoothTransitionMultiplier; // @synthesize faceStabilizationSigmaModulationSmoothTransitionMultiplier=_faceStabilizationSigmaModulationSmoothTransitionMultiplier;
-@property(nonatomic) float faceStabilizationSigmaMultiplierForBiasTracking; // @synthesize faceStabilizationSigmaMultiplierForBiasTracking=_faceStabilizationSigmaMultiplierForBiasTracking;
-@property(nonatomic) float faceStabilizationSigmaMultiplierForFaceFiltering; // @synthesize faceStabilizationSigmaMultiplierForFaceFiltering=_faceStabilizationSigmaMultiplierForFaceFiltering;
-@property(nonatomic) _Bool frameRateConversionEnabled; // @synthesize frameRateConversionEnabled=_frameRateConversionEnabled;
-@property(nonatomic) CDStruct_1ef3fb1f generatedTransformsOutputDimensionsOverride; // @synthesize generatedTransformsOutputDimensionsOverride=_generatedTransformsOutputDimensionsOverride;
-@property(nonatomic) int gpuPriority; // @synthesize gpuPriority=_gpuPriority;
-@property(retain, nonatomic) NSDictionary *inputPixelBufferAttributes; // @synthesize inputPixelBufferAttributes=_inputPixelBufferAttributes;
-@property(retain, nonatomic) BWFigCaptureISPProcessingSession *ispProcessingSession; // @synthesize ispProcessingSession=_ispProcessingSession;
-@property(nonatomic) struct CGRect livePhotoCleanOutputRect; // @synthesize livePhotoCleanOutputRect=_livePhotoCleanOutputRect;
-@property(nonatomic) _Bool lowResImageUsedByVideoEncoderEnabled; // @synthesize lowResImageUsedByVideoEncoderEnabled=_lowResImageUsedByVideoEncoderEnabled;
-@property(nonatomic) unsigned int metalSubmissionAndCompletionQueuePriority; // @synthesize metalSubmissionAndCompletionQueuePriority=_metalSubmissionAndCompletionQueuePriority;
-@property(nonatomic) float minDistanceForBravoParallaxShift; // @synthesize minDistanceForBravoParallaxShift=_minDistanceForBravoParallaxShift;
-@property(nonatomic) int motionBlurShimmerMitigationMethod; // @synthesize motionBlurShimmerMitigationMethod=_motionBlurShimmerMitigationMethod;
-@property(nonatomic) _Bool onlyGenerateTransformsParameters; // @synthesize onlyGenerateTransformsParameters=_onlyGenerateTransformsParameters;
-@property(retain, nonatomic) NSDictionary *outputAttachmentsPixelBufferPools; // @synthesize outputAttachmentsPixelBufferPools=_outputAttachmentsPixelBufferPools;
-@property(retain, nonatomic) BWPixelBufferPool *outputDepthPixelBufferPool; // @synthesize outputDepthPixelBufferPool=_outputDepthPixelBufferPool;
-@property(retain, nonatomic) NSDictionary *outputPixelBufferAttributes; // @synthesize outputPixelBufferAttributes=_outputPixelBufferAttributes;
-@property(retain, nonatomic) BWPixelBufferPool *outputPixelBufferPool; // @synthesize outputPixelBufferPool=_outputPixelBufferPool;
-@property(nonatomic) _Bool p3ToBT2020ConversionEnabled; // @synthesize p3ToBT2020ConversionEnabled=_p3ToBT2020ConversionEnabled;
-@property(retain, nonatomic) NSDictionary *sensorIDDict; // @synthesize sensorIDDict=_sensorIDDict;
-@property(retain, nonatomic) NSDictionary *smartStyleConfigurationDict; // @synthesize smartStyleConfigurationDict=_smartStyleConfigurationDict;
-@property(nonatomic) unsigned long long smartStyleMemoryPoolId; // @synthesize smartStyleMemoryPoolId=_smartStyleMemoryPoolId;
-@property(nonatomic) _Bool smartStyleRenderingEnabled; // @synthesize smartStyleRenderingEnabled=_smartStyleRenderingEnabled;
-@property(nonatomic) _Bool smartStyleReversibilityEnabled; // @synthesize smartStyleReversibilityEnabled=_smartStyleReversibilityEnabled;
-@property(nonatomic) int smoothingMethod; // @synthesize smoothingMethod=_smoothingMethod;
-@property(nonatomic) _Bool sphereCorrectionEnabled; // @synthesize sphereCorrectionEnabled=_sphereCorrectionEnabled;
-@property(nonatomic) _Bool sphereVideoEnabled; // @synthesize sphereVideoEnabled=_sphereVideoEnabled;
 @property(nonatomic) int transformPlatform; // @synthesize transformPlatform=_transformPlatform;
-@property(nonatomic) _Bool useCameraGeometry; // @synthesize useCameraGeometry=_useCameraGeometry;
-@property(nonatomic) _Bool useISPMotionData; // @synthesize useISPMotionData=_useISPMotionData;
-@property(retain, nonatomic) NSDictionary *videoGreenGhostMitigationParameters; // @synthesize videoGreenGhostMitigationParameters=_videoGreenGhostMitigationParameters;
-@property(retain, nonatomic) NSDictionary *videoSTFParameters; // @synthesize videoSTFParameters=_videoSTFParameters;
-@property(nonatomic) _Bool videoStabilizationDisabled; // @synthesize videoStabilizationDisabled=_videoStabilizationDisabled;
-@property(nonatomic) int videoStabilizationStrength; // @synthesize videoStabilizationStrength=_videoStabilizationStrength;
-@property(nonatomic) _Bool zoomSmoothingEnabled; // @synthesize zoomSmoothingEnabled=_zoomSmoothingEnabled;
 
 @end
 

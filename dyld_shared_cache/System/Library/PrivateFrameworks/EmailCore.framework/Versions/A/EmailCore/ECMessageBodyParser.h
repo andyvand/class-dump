@@ -6,57 +6,54 @@
 
 #import <EmailCore/ECMessageBodyParserObject.h>
 
-@class NSError, NSMutableArray, NSNumberFormatter;
+@class NSNumberFormatter;
 
 @interface ECMessageBodyParser : ECMessageBodyParserObject
 {
     NSNumberFormatter *_currencyFormatter;
-    NSMutableArray *_subparsers;
-    NSMutableArray *_elementPool;
-    NSMutableArray *_paragraphNodes;
-    CDUnknownBlockType _foundMessageBodyElementBlock;
-    NSError *_parserError;
-    struct __CFArray *_nodesStackCache;
-    struct __CFDictionary *_nodesLevelCache;
-    struct __CFDictionary *_nodesQuoteLevelCache;
-    unsigned long long _options;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
++ (_Bool)view.;
++ (_Bool)+;
++ (_Bool);
+- (void)view controller. This is hard.;
+- (_Bool)ssed on the main thread.;
+- (_Bool)MobileTextImageCache should only be accessed on the main thread.;
+- (void)rted:(CDUnknownBlockType)arg1 %s
+	isPictureInPicturePossible:%s
+	isSystemPictureInPicturePossible:%s
+	allowsPictureInPicturePlayback:%s
+	isPlayingOnSecondScreen:%s
+	sourceIsVisible:%s
+	contentDimensions:(%.01f, %.01f)
+	isPictureInPictureSupported:%s
+} /* Error: Ran out of types for this method. */;
+- (void)other view.;
+- (void)r:(id)arg1 displayModeControlsView should only be set once on an AVMobileChromelessControlsView.;
+- (unsigned long long)trolsView.;
+- (id)ForTransition:(unsigned long long)arg1 %d};
+- (unsigned long long)osted in view service. ***;
+- (Class)er cannot update status bar visibility while hosted in view service. ***;
+- (Class)w;
+- (_Bool):(id)arg1 %@;
+- (void)failed.;
+- (id)ry after an invalid dismissal.;
+- (void)ismissal analysis:isViewLoaded=%@ AND (hasSuperview=%@ OR isPresentingDetached=%@) AND isPresentingFromInline=%@ = %@ /* Error: Ran out of types for this method. */;
+- (void)ready:(id)arg1 %@;
+- (void)n hovered -- displayName:%@ /* Error: Ran out of types for this method. */;
+- (void)subtype:(id)arg1 %d;
+- (void)ia options changed for type:(id)arg1 %d, subtype:%d /* Error: Ran out of types for this method. */;
+- (void)e language option command;
 - (id);
-- (unsigned long long);
-- (Class);
-- (Class);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)_exclave_textlayout_info;
 - (unsigned long long);
 - (id);
 - (_Bool)ult in _plug_get_simple;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumberFormatter *currencyFormatter; // @synthesize currencyFormatter=_currencyFormatter;
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSError *parserError;
 
 @end
 

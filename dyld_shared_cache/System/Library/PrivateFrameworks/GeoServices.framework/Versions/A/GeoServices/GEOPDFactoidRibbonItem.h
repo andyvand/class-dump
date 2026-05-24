@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDFactoidRibbonItem
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _factoidItemIndex;
-    struct {
-        unsigned int has_factoidItemIndex:1;
-    } _flags;
 }
 
-- (id);
+- (id)P;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)d_unknownFields"b1"read_field"b1"read_operands"b1"read_value"b1"wrote_anyField"b1};
-- (id)rInTransaction;
+- (id)_didEncounterExternalResourceErrorInTransaction;
 - (id)¼d´¨tP ¡;
 - (void);
 

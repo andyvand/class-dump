@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)activeCollections;
 - (unsigned long long);
 - (_Bool);
 - (void);

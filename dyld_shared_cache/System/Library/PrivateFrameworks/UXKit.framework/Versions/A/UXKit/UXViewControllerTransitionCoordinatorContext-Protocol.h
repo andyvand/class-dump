@@ -5,6 +5,7 @@
 //
 
 @protocol UXViewControllerTransitionCoordinatorContext
+- (long long)3;
 - (double);
 - (long long)0@ù
 × ;

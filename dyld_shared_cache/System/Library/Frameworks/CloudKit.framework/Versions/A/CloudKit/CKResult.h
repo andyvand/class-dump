@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface CKResult
 {
     id _successValue;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)6;
 - (id);
 - (_Bool);
 - (void)ÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) id successValue; // @synthesize successValue=_successValue;
 
 @end

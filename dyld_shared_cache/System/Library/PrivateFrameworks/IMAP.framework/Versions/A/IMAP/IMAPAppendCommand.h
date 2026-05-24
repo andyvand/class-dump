@@ -6,16 +6,11 @@
 
 #import <IMAP/IMAPMailboxCommand.h>
 
-@class MCActivityMonitor, NSArray, NSData, NSDate, NSDictionary;
+@class NSDate;
 
 @interface IMAPAppendCommand : IMAPMailboxCommand
 {
     _Bool _shouldTryCreate;
-    NSDate *_dateReceived;
-    NSArray *_serverFlags;
-    NSDictionary *_messageInfo;
-    MCActivityMonitor *_progressMonitor;
-    NSData *_data;
 }
 
 - (_Bool);
@@ -26,11 +21,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)c;
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (id);
 - (void);
 - (void);
@@ -41,12 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(retain) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(copy) NSDictionary *messageInfo; // @synthesize messageInfo=_messageInfo;
-@property(retain) MCActivityMonitor *progressMonitor; // @synthesize progressMonitor=_progressMonitor;
-@property(copy) NSArray *serverFlags; // @synthesize serverFlags=_serverFlags;
-@property _Bool shouldTryCreate; // @synthesize shouldTryCreate=_shouldTryCreate;
 
 @end
 

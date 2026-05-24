@@ -7,20 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (NSString *)Play Date UTC;
+- (unsigned long long)t;
+- (_Bool);
+- (_Bool);
 - (id)figurationP;
 - (_Bool)löÿTQ9ÿ$;
-- (struct _NSZone *);
 
 @optional
 - (NSString *)Sg;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

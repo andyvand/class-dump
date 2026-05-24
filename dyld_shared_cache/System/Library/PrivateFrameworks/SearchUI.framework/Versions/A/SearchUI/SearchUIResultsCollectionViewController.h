@@ -6,72 +6,46 @@
 
 #import <SearchUI/SearchUICollectionViewController.h>
 
-@class NSArray, NSDate, NSMutableSet, NSString, NSTimer, SearchUICardSectionCollectionViewItem;
-@protocol SearchUIResultsCollectionViewSizingDelegate;
-
 @interface SearchUIResultsCollectionViewController : SearchUICollectionViewController
 {
     _Bool _presentsAlternateDetails;
-    NSArray *_sections;
-    NSString *_queryString;
-    id <SearchUIResultsCollectionViewSizingDelegate> _sizingDelegate;
-    id _monitor;
-    NSTimer *_alternateDetailsTimer;
-    NSDate *_alternateDetailsTimerFireDate;
-    SearchUICardSectionCollectionViewItem *_itemShowingAlternateDetail;
-    NSMutableSet *_expandedCollectionSections;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)maxTimeElapsedBeforeFlushLeeway;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)0@0:8{?=qq}16@"NUPixelFormat"32 /* Error: Ran out of types for this method. */;
+- (void)imageAssetWithCIImage:type:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (_Bool)AXRightTabStopMarkerType;
 - (id);
 - (void);
+- (void);
+- (void)originatingProcess;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)r:(id)arg1 Selected Keychain-OIDC authentication provider (internal build);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)`;
 - (id)Ì;
 
 // Remaining properties
-@property(retain, nonatomic) NSTimer *alternateDetailsTimer; // @synthesize alternateDetailsTimer=_alternateDetailsTimer;
-@property(retain, nonatomic) NSDate *alternateDetailsTimerFireDate; // @synthesize alternateDetailsTimerFireDate=_alternateDetailsTimerFireDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *expandedCollectionSections; // @synthesize expandedCollectionSections=_expandedCollectionSections;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SearchUICardSectionCollectionViewItem *itemShowingAlternateDetail; // @synthesize itemShowingAlternateDetail=_itemShowingAlternateDetail;
 @property(retain, nonatomic) id monitor; // @synthesize monitor=_monitor;
-@property(nonatomic) _Bool presentsAlternateDetails; // @synthesize presentsAlternateDetails=_presentsAlternateDetails;
-@property(retain, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(nonatomic) __weak id <SearchUIResultsCollectionViewSizingDelegate> sizingDelegate; // @synthesize sizingDelegate=_sizingDelegate;
-@property(readonly) Class superclass;
 
 @end
 

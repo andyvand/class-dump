@@ -6,34 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAssistantDaemonAudioRecordingInterruptionEnded, MHSchemaMHAssistantDaemonAudioRecordingInterruptionStarted, NSData;
+@class MHSchemaMHAssistantDaemonAudioRecordingInterruptionStarted;
 
 @interface MHSchemaMHAssistantDaemonAudioRecordingInterruptionContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAssistantDaemonAudioRecordingInterruptionStarted *_startedOrChanged;
-    MHSchemaMHAssistantDaemonAudioRecordingInterruptionEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
+- (_Bool)x;
+- (void);
+- (void);
+- (void);
+- (void)H;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)RIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/asn_moid.c;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)E;
 - (id);
 - (id)1Â0@ù
 × ;
@@ -42,12 +38,7 @@
 - (void)8®!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioRecordingInterruptionEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioRecordingInterruptionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

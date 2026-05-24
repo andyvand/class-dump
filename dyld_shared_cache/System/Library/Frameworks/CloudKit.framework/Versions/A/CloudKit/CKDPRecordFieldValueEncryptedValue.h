@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPLocationCoordinate, CKDPRecordReference, NSMutableArray, NSString;
-
 @interface CKDPRecordFieldValueEncryptedValue
 {
     struct {
@@ -13,24 +11,6 @@
         unsigned long long count;
         unsigned long long size;
     } _doubleListValues;
-    struct {
-        long long *list;
-        unsigned long long count;
-        unsigned long long size;
-    } _signedListValues;
-    double _ckDoubleValue;
-    long long _signedValue;
-    NSMutableArray *_dateListValues;
-    CKDPDate *_dateValue;
-    NSMutableArray *_locationListValues;
-    CKDPLocationCoordinate *_locationValue;
-    CKDPRecordReference *_referenceValue;
-    NSMutableArray *_stringListValues;
-    NSString *_stringValue;
-    struct {
-        unsigned int ckDoubleValue:1;
-        unsigned int signedValue:1;
-    } _has;
 }
 
 + (Class);
@@ -38,10 +18,10 @@
 + (Class);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)N@;
+- (unsigned long long)];
 - (double *);
 - (unsigned long long);
 - (long long *);
@@ -54,10 +34,10 @@
 - (long long);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)setAllowBackgroundGPUCompute: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
+- (id)2CustomLayerParams_ParametersEntry_DoNotUseENSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEENS4_39CustomLayerParams_CustomLayerParamValueELNS1_14WireFormatLite9FieldTypeE9ELSF_11EEE;
 - (_Bool);
 - (void);
 - (double);
@@ -66,11 +46,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -78,14 +58,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)+;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)sTimestamp: /* Error: Ran out of types for this method. */;
-- (_Bool)tag;
+- (id)includesTimestamp: /* Error: Ran out of types for this method. */;
+- (_Bool)_previousProtectionEtag;
 - (void)AppendCancelled,V_currentAppendCancelled;
 - (double);
 - (void)HÛ;
@@ -94,30 +74,12 @@
 - (_Bool)%{public}@" (%llds);
 - (long long)rrent state;
 - (void)callback for task that is not ours:(id)arg1 %@;
-- (void)data;
+- (void)returnPCSMetadata;
 - (_Bool)te < $EXPIRE_DATE;
 - (void)y:(id)arg1 wrappingDatabase:convenienceConfiguration:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double ckDoubleValue; // @synthesize ckDoubleValue=_ckDoubleValue;
-@property(retain, nonatomic) NSMutableArray *dateListValues; // @synthesize dateListValues=_dateListValues;
-@property(retain, nonatomic) CKDPDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(readonly, nonatomic) double *doubleListValues;
-@property(readonly, nonatomic) unsigned long long doubleListValuesCount;
-@property(nonatomic) _Bool hasCkDoubleValue;
-@property(readonly, nonatomic) _Bool hasDateValue;
-@property(readonly, nonatomic) _Bool hasLocationValue;
-@property(readonly, nonatomic) _Bool hasReferenceValue;
 @property(nonatomic) _Bool hasSignedValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(retain, nonatomic) NSMutableArray *locationListValues; // @synthesize locationListValues=_locationListValues;
-@property(retain, nonatomic) CKDPLocationCoordinate *locationValue; // @synthesize locationValue=_locationValue;
-@property(retain, nonatomic) CKDPRecordReference *referenceValue; // @synthesize referenceValue=_referenceValue;
-@property(readonly, nonatomic) long long *signedListValues;
-@property(readonly, nonatomic) unsigned long long signedListValuesCount;
-@property(nonatomic) long long signedValue; // @synthesize signedValue=_signedValue;
-@property(retain, nonatomic) NSMutableArray *stringListValues; // @synthesize stringListValues=_stringListValues;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

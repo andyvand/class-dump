@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface FASharedServiceGroup
 {
     NSString *_headerText;
-    NSString *_footerText;
-    NSNumber *_groupID;
-    NSArray *_services;
 }
 
 - (void);
 - (void);
 - (id);
+- (id)setMediaStartSeamSampleCount:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
-- (id);
-- (id);
+- (id)@;
+- (id)kCBConnectionEventMatchingOptionAllPeripherals;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *footerText; // @synthesize footerText=_footerText;
-@property(retain, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
 @property(retain, nonatomic) NSString *headerText; // @synthesize headerText=_headerText;
-@property(retain, nonatomic) NSArray *services; // @synthesize services=_services;
 
 @end
 

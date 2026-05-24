@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UIDragItem;
+@class UIDragItem;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptStickerDropProposal
 {
     UIDragItem *_dragItem;
-    NSIndexPath *_targetBalloonIndex;
-    struct CGPoint _previewCenter;
 }
 
+- (id)textZoomFactor;
+- (void)progressLabel;
+- (void)newNoteWithAttributedString:(struct CGPoint)arg1 inFolder:error: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)addLockWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (struct CGPoint);
-- (id);
-- (void);
-- (id);
-- (void)OTOS_TITLE;
+- (id);
+- (void)SEARCH_PHOTOS_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) UIDragItem *dragItem; // @synthesize dragItem=_dragItem;
-@property(nonatomic) struct CGPoint previewCenter; // @synthesize previewCenter=_previewCenter;
-@property(retain, nonatomic) NSIndexPath *targetBalloonIndex; // @synthesize targetBalloonIndex=_targetBalloonIndex;
 
 @end
 

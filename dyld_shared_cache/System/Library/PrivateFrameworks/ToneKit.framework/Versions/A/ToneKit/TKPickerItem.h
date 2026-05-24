@@ -15,8 +15,15 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)showFMMNetworkOffSheet: /* Error: Ran out of types for this method. */;
+- (_Bool)list:(id)arg1 %@
+           assetState:%@
+      updateInfoPlist:%@
+          errorDomain:%@
+            errorCode:%@
+        errorUserInfo:%@
+     errorRecoverable:%@
+<<<] /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties

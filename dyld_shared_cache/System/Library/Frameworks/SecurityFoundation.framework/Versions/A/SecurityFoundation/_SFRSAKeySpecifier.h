@@ -12,12 +12,12 @@
 }
 
 + (Class);
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)teMonths="%@"cd || kMDItemPhotosContentCreationDateYear="%@"cd || kMDItemPhotosContentCreationDateYears="%@"cd || _kMDItemContentCreationDateDay="%@"cd);
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)performSelector:withObject: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -6,25 +6,9 @@
 
 #import <GeoServices/GEOComposedWaypoint.h>
 
-@class GEOComposedWaypointDisplayInfo, GEOFeatureStyleAttributes, GEOMapItemIdentifier, NSString, NSUUID;
-
 @interface GEOComposedRouteAnchorPoint : GEOComposedWaypoint
 {
     _Bool _isCurrentLocation;
-    _Bool _isCoordinate;
-    _Bool _isAddress;
-    _Bool _isCuratedRoute;
-    unsigned long long _anchorPointType;
-    GEOComposedWaypointDisplayInfo *_displayInfo;
-    int _mapDisplayType;
-    NSUUID *_uniqueID;
-    CDStruct_3f2a7a20 _routeCoordinate;
-    NSString *_name;
-    GEOFeatureStyleAttributes *_styleAttributes;
-    GEOMapItemIdentifier *_mapItemIdentifier;
-    NSString *_countryCode;
-    double _elevation;
-    CDStruct_071ac149 _locationCoordinate;
 }
 
 + (id);
@@ -34,22 +18,7 @@
 + (_Bool)esource '%{private}@' from network;
 
 // Remaining properties
-@property(nonatomic) unsigned long long anchorPointType;
-@property(readonly, copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) GEOComposedWaypointDisplayInfo *displayInfo;
-@property(readonly, nonatomic) double elevation; // @synthesize elevation=_elevation;
-@property(readonly, nonatomic) _Bool elevationIsValid;
-@property(nonatomic) _Bool isAddress;
-@property(nonatomic) _Bool isCoordinate;
-@property(nonatomic) _Bool isCuratedRoute;
 @property(nonatomic) _Bool isCurrentLocation;
-@property(readonly, nonatomic) CDStruct_39925896 locationCoordinate; // @synthesize locationCoordinate=_locationCoordinate;
-@property(readonly, nonatomic) int mapDisplayType; // @synthesize mapDisplayType=_mapDisplayType;
-@property(readonly, nonatomic) GEOMapItemIdentifier *mapItemIdentifier; // @synthesize mapItemIdentifier=_mapItemIdentifier;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
-@property(readonly, nonatomic) GEOFeatureStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
-@property(readonly, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end
 

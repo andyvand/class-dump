@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateInterval, NSDictionary, NSTimeZone;
-
 @interface USUsageReport
 {
     double _screenTime;
-    NSDateInterval *_longestSession;
-    NSArray *_categoryUsage;
-    unsigned long long _pickupsWithoutApplicationUsage;
-    NSDate *_firstPickup;
-    NSDateInterval *_interval;
-    NSTimeZone *_timeZone;
-    NSDate *_lastEventDate;
 }
 
 + (id);
@@ -32,24 +23,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)distanceTexture_sampler;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)cumulateAppWebUsage:timestamp: /* Error: Ran out of types for this method. */;
+- (id)_accumulateAppWebUsage:timestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *categoryUsage; // @synthesize categoryUsage=_categoryUsage;
-@property(readonly, copy) NSDate *firstPickup; // @synthesize firstPickup=_firstPickup;
-@property(readonly, copy) NSDateInterval *interval; // @synthesize interval=_interval;
-@property(readonly, copy) NSDate *lastEventDate; // @synthesize lastEventDate=_lastEventDate;
-@property(readonly, copy) NSDateInterval *longestSession; // @synthesize longestSession=_longestSession;
-@property(readonly, copy) NSDictionary *pickupsByBundleIdentifier;
-@property(readonly) unsigned long long pickupsWithoutApplicationUsage; // @synthesize pickupsWithoutApplicationUsage=_pickupsWithoutApplicationUsage;
 @property(readonly) double screenTime; // @synthesize screenTime=_screenTime;
-@property(readonly, copy) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(readonly, copy) NSDictionary *userNotificationsByBundleIdentifier;
 
 @end
 

@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface EDTokenTreeNode
 {
     unsigned int mTokenIndex;
-    int mTokenType;
-    EDTokenTreeNode *mFirstChild;
-    EDTokenTreeNode *mSibling;
 }
 
 + (id);
@@ -20,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)nt;
 - (void);
 
 @end

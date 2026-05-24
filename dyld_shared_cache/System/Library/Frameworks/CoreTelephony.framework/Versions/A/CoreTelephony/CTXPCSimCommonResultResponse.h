@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)ingsExtension;
 - (id);
 
 // Remaining properties

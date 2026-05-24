@@ -6,21 +6,13 @@
 
 #import <PackageKit/PKInstallOperation.h>
 
-@class NSObject, PKPackageSpecifier, PKPayloadCopier;
-@protocol OS_dispatch_queue;
-
 @interface PKExtractInstallOperation : PKInstallOperation
 {
     unsigned long long _payloadBytesCompleted;
-    unsigned long long _totalPayloadSize;
-    unsigned long long _informedExtractionSpeed;
-    PKPackageSpecifier *_currentPackageSpecifier;
-    PKPayloadCopier *_activeExtractor;
-    NSObject<OS_dispatch_queue> *_updateQueue;
 }
 
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
@@ -34,7 +26,7 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)PK;
 
 @end
 

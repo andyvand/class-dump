@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSInferencePluginCompleted, PLUSSchemaPLUSInferencePluginFailed, PLUSSchemaPLUSInferencePluginStartedOrChanged;
+@class PLUSSchemaPLUSInferencePluginStartedOrChanged;
 
 @interface PLUSSchemaPLUSInferencePluginInvocationContext : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSInferencePluginStartedOrChanged *_startedOrChanged;
-    PLUSSchemaPLUSInferencePluginCompleted *_ended;
-    PLUSSchemaPLUSInferencePluginFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,39 +18,32 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)hR;
 - (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)> %@;
 - (id);
 - (id)
 × ;
-- (id)stemRequirement;
+- (id)_hasSystemRequirement;
 - (id)edToConvertClientEvent;
-- (void)RESIZE_ACTION;
+- (void)LINKSYSTEMACTIONPROTOCOL_RESIZE_ACTION;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSInferencePluginCompleted *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PLUSSchemaPLUSInferencePluginFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PLUSSchemaPLUSInferencePluginStartedOrChanged *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

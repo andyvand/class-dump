@@ -6,31 +6,27 @@
 
 #import <IMCore/IMAttachmentMessagePartChatItem.h>
 
-@class IMItem, NSString;
+@class IMItem;
 
 @interface IMReplyContextAttachmentMessagePartChatItem : IMAttachmentMessagePartChatItem
 {
     _Bool _replyIsFromMe;
-    IMItem *_parentItem;
-    NSString *_replyMessageGUID;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)andle failed (%d);
+- (void)cketRelayDriverThread:(_Bool)arg1 CreateHandle failed (%d);
+- (id), notifying client;
+- (_Bool)deoStream:AVC server died, notifying client /* Error: Ran out of types for this method. */;
+- (_Bool)ror=%x;
+- (id)d with error %d;
+- (id)ng in 1 second for Interface %s, attempt %d out of %d;
+- (void)imeout=%d linkProbingQueryResultsInterval=%d exponentialMovingMeanFactor=%f plrEnvelopeAttackFactor=%f plrEnvelopeDecayFactor=%f plrBuckets=%@ minSentRequestCountThreshold=%d _linkProbingDuplicationWaitTimeout=%d _consecutiveIdenticalQueryResultMax=%d _linkProbingLockdownPeriod=%f _linkProbingQRStatFrequency=%d _linkProbingQRStatRequestMaxCount=%d _inkProbingQRStatRequestMaxRTT=%f;
 - (id);
 - (_Bool);
 - (void)hÄ;
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 
 @end
 

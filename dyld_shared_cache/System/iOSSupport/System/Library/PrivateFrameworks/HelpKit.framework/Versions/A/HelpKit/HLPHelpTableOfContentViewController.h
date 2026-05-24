@@ -4,84 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPHelpBookController, HLPHelpLocale, HLPHelpSearchIndexController, HLPHelpSearchResultTableViewController, NSArray, NSLayoutConstraint, NSMutableArray, NSString, UIButton, UILabel, UISearchController, UIView, UIVisualEffectView;
-@protocol HLPHelpTableOfContentViewControllerDelegate;
+@class NSMutableArray, UIView;
 
 @interface HLPHelpTableOfContentViewController
 {
     _Bool _initialized;
     UIView *_tableBackgroundView;
-    UIView *_tableFooterSeparatorView;
-    UILabel *_copyrightFooterLabel;
-    UIButton *_footerViewOverlayButton;
-    NSLayoutConstraint *_copyrightFooterLabelHeightConstraint;
-    NSLayoutConstraint *_copyrightFooterLabelTopConstraint;
-    _Bool _fullBookView;
-    _Bool _showTopicViewOnLoad;
-    _Bool _searchLogged;
-    id <HLPHelpTableOfContentViewControllerDelegate> _delegate;
-    NSArray *_searchTerms;
-    UISearchController *_searchController;
-    HLPHelpLocale *_locale;
-    HLPHelpBookController *_helpBookController;
-    NSMutableArray *_openSections;
-    NSMutableArray *_displayHelpItems;
-    UIView *_tableFooterView;
-    UIVisualEffectView *_searchBlurEffectView;
-    HLPHelpSearchIndexController *_helpSearchIndexController;
-    HLPHelpSearchResultTableViewController *_searchResultTableViewController;
 }
 
 - (void);
 - (void);
+- (void)5B;
+- (void);
+- (void);
+- (void)CT;
+- (_Bool);
+- (void);
+- (void)CT;
 - (void);
 - (void);
+- (void){T;
+- (void);
+- (void);
+- (void);
+- (void)#;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)CT;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)Ȉ;
+- (long long)dG;
 - (void);
-- (long long);
-- (void);
+- (id);
 - (id);
+- (_Bool)Q;
+- (id);
+- (void)P;
+- (void);
+- (void);
+- (void);
+- (void)sk;
 - (id);
-- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -102,27 +82,8 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HLPHelpTableOfContentViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableArray *displayHelpItems; // @synthesize displayHelpItems=_displayHelpItems;
-@property(nonatomic) _Bool fullBookView; // @synthesize fullBookView=_fullBookView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HLPHelpBookController *helpBookController; // @synthesize helpBookController=_helpBookController;
-@property(retain, nonatomic) HLPHelpSearchIndexController *helpSearchIndexController; // @synthesize helpSearchIndexController=_helpSearchIndexController;
-@property(retain, nonatomic) HLPHelpLocale *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic) NSMutableArray *openSections; // @synthesize openSections=_openSections;
-@property(retain, nonatomic) UIVisualEffectView *searchBlurEffectView; // @synthesize searchBlurEffectView=_searchBlurEffectView;
-@property(retain, nonatomic) UISearchController *searchController; // @synthesize searchController=_searchController;
-@property(nonatomic) _Bool searchLogged; // @synthesize searchLogged=_searchLogged;
-@property(retain, nonatomic) HLPHelpSearchResultTableViewController *searchResultTableViewController; // @synthesize searchResultTableViewController=_searchResultTableViewController;
-@property(retain, nonatomic) NSArray *searchTerms; // @synthesize searchTerms=_searchTerms;
-@property(nonatomic) _Bool showTopicViewOnLoad; // @synthesize showTopicViewOnLoad=_showTopicViewOnLoad;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *tableFooterView; // @synthesize tableFooterView=_tableFooterView;
 
 @end
 

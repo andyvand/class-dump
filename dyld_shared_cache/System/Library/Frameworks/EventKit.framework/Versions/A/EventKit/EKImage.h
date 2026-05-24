@@ -6,32 +6,30 @@
 
 #import <EventKit/EKObject.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface EKImage : EKObject
 {
 }
 
-+ (id);
++ (id)<%{public}@> event to <%@> <%{public}@>;
 + (Class);
-+ (id);
-- (void);
-- (id);
-- (id);
-- (void);
++ (id);
+- (void)@;
+- (id)roller] %@ Unable to discover endpoint.;
+- (id)<%{public}@> to <%@> in <%{public}@>;
+- (void), secondary=%@, status=%@, creatorPID=%d>;
 - (id);
 - (long long);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)setCharge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:(id)arg1;
+- (id)ef;
+- (void)E;
+- (id)yValuePairTraits, KeyTraits = IntegerArrayHashTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *colorData;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long type;
 
 @end
 

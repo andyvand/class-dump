@@ -9,9 +9,6 @@
 @interface GEOPowerAssertion
 {
     NSString *_identifier;
-    double _timeout;
-    unsigned int _assertion;
-    long long _type;
 }
 
 - (id);

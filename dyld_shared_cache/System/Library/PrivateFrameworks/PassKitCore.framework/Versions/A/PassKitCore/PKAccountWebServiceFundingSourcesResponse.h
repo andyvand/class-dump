@@ -13,9 +13,9 @@
     NSArray *_fundingSources;
 }
 
+- (id);
 - (id);
-- (id);
-- (void)MESSAGE;
+- (void)NEARBY_ERROR_SEND_RESTRICTION_FAMILY_RESTRICTED_MESSAGE;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fundingSources; // @synthesize fundingSources=_fundingSources;

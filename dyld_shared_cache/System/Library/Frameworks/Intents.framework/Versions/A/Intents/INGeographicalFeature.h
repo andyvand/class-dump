@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INGeographicalFeature
 {
     NSString *_geographicalFeatureType;
-    NSArray *_geographicalFeatureDescriptors;
 }
 
 + (id);
@@ -17,27 +16,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)pIdentifier;
+- (id)e;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__stopNetworkRelayBridgeForInterfaceName:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)om.apple.wifi.managed.AB944BC5-41E6-44AC-880B-C50FD3EC6F13;
 - (id);
 - (id);
-- (id)tOutputAttributeName:(unsigned long long)arg1;
-- (void)CarLockStatus:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_setOutputAttributeName:(unsigned long long)arg1;
+- (void)provideCarNameOptionsCollectionForGetCarLockStatus:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)@6èÿ>åOú;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *geographicalFeatureDescriptors; // @synthesize geographicalFeatureDescriptors=_geographicalFeatureDescriptors;
 @property(readonly, copy) NSString *geographicalFeatureType; // @synthesize geographicalFeatureType=_geographicalFeatureType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, PHAsset;
+@protocol NSFastEnumeration, PGHighlightItem;
+
 @protocol PGHighlightItemModelReader
+- (NSArray *);
+- (PHAsset *)addObjectsFromArray:(id <PGHighlightItem>)arg1;
+- (NSArray *)Server] Connection interrupted:(id <NSFastEnumeration>)arg1 %@;
 @end
 

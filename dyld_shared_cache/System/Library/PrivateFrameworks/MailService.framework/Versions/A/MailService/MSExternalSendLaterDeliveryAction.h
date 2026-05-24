@@ -6,13 +6,11 @@
 
 #import <MailService/MSExternalAction.h>
 
-@class ACAccount, NSNumber;
+@class NSNumber;
 
 @interface MSExternalSendLaterDeliveryAction : MSExternalAction
 {
     int _mailboxType;
-    NSNumber *_libraryID;
-    ACAccount *_account;
 }
 
 + (id);
@@ -21,15 +19,13 @@
 - (int);
 - (id);
 - (id);
+- (id)setCdpRecoveryKeyImageView:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)@ (scheme not allowed);
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
 @property(readonly) NSNumber *libraryID; // @synthesize libraryID=_libraryID;
-@property(readonly) int mailboxType; // @synthesize mailboxType=_mailboxType;
 
 @end
 

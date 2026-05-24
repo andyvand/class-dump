@@ -9,24 +9,6 @@
 @interface MRTextRenderer
 {
     NSAttributedString *_text;
-    NSAttributedString *_cachedText;
-    NSAttributedString *_placeholderText;
-    struct CGSize _definedSize;
-    struct CGSize _resolution;
-    long long _maxNumberOfLines;
-    long long _lastGlyphIndex;
-    _Bool _truncate;
-    _Bool _renderAtDefinedSize;
-    double _lineSpacingFactor;
-    struct CGSize _inset;
-    double _scale;
-    long long _columnCount;
-    double _columnMargin;
-    double _extraFooter;
-    _Bool _centerVertically;
-    struct CGSize _cachedSize;
-    struct CGSize _originalCacheSize;
-    struct CGRect _imageRect;
 }
 
 - (void);
@@ -36,12 +18,12 @@
 - (void);
 - (struct CGSize);
 - (struct CGSize);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGContext *);
+- (struct CGContext *)2";
 - (struct CGContext *);
 - (_Bool);
 - (CDStruct_912cb5d2);
@@ -50,25 +32,25 @@
 - (CDStruct_912cb5d2);
 - (struct CGPoint);
 - (struct CGPoint);
-- (long long);
-- (long long);
+- (long long)B24@0:8:16 /* Error: Ran out of types for this method. */;
+- (long long)seedTime;
+- (double)initWithDirectoryAtPath:preferredAssetPathExtension: /* Error: Ran out of types for this method. */;
+- (id)URLSession:(id)arg1 task:(struct CGSize)arg2 willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long);
+- (struct CGRect);
 - (double);
+- (struct CGSize);
+- (long long)userSegmentationTreatmentIDs;
+- (long long);
+- (double)er init];
+- (void)AUAnalyticsEnvelopeTracker registerEnvelopesAsReceivedByUploader:] /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
 - (struct CGRect);
-- (double);
+- (struct CGRect);
+- (double);
 - (struct CGSize);
-- (long long);
-- (long long);
-- (double);
-- (void);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
-- (double);
-- (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)AggregateStateMode;
+- (struct CGSize)CodingKeys;
 - (struct CGContext *);
 - (long long);
 - (id);
@@ -76,7 +58,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)scheduleDisplayName;
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -86,41 +68,27 @@
 - (struct CGContext *);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)H;
 - (long long);
 - (_Bool);
 - (id);
 - (double);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)DefaultTrackFinishedAggregateModificationConfiguration;
 - (void);
 - (double);
 - (void);
 - (void);
 - (void);
-- (struct CGSize)oleranceAfter: /* Error: Ran out of types for this method. */;
-- (long long)rogressFactor;
+- (struct CGSize)setRequestedTimeToleranceAfter: /* Error: Ran out of types for this method. */;
+- (long long)progressFactor;
 - (void)gl_FragColor = vec4(c.rgb * val * val * val * level, 1.); 
 		} 
 		;
 
 // Remaining properties
-@property(nonatomic) _Bool centerVertically; // @synthesize centerVertically=_centerVertically;
-@property(nonatomic) long long columnCount; // @synthesize columnCount=_columnCount;
-@property(nonatomic) double columnMargin; // @synthesize columnMargin=_columnMargin;
-@property(nonatomic) struct CGSize definedSize; // @synthesize definedSize=_definedSize;
-@property(nonatomic) double extraFooter; // @synthesize extraFooter=_extraFooter;
-@property(nonatomic) struct CGRect imageRect; // @synthesize imageRect=_imageRect;
-@property(nonatomic) struct CGSize inset; // @synthesize inset=_inset;
-@property(nonatomic) double lineSpacingFactor; // @synthesize lineSpacingFactor=_lineSpacingFactor;
-@property(nonatomic) long long maxNumberOfLines; // @synthesize maxNumberOfLines=_maxNumberOfLines;
-@property(nonatomic) NSAttributedString *placeholderText; // @synthesize placeholderText=_placeholderText;
-@property(nonatomic) _Bool renderAtDefinedSize; // @synthesize renderAtDefinedSize=_renderAtDefinedSize;
-@property(nonatomic) struct CGSize resolution; // @synthesize resolution=_resolution;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 @property(nonatomic) NSAttributedString *text; // @synthesize text=_text;
-@property(nonatomic) _Bool truncate; // @synthesize truncate=_truncate;
 
 @end
 

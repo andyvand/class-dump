@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSPointerArray, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, NSPointerArray;
 
 @interface TSClock
 {
     NSPointerArray *_clients;
-    NSObject<OS_dispatch_queue> *_notificationsQueue;
-    int _lockState;
-    unsigned long long _clockIdentifier;
-    NSObject<OS_dispatch_queue> *_propertyUpdateQueue;
 }
 
 + (id);
@@ -57,12 +52,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSMutableArray *clients; // @dynamic clients;
-@property(nonatomic) unsigned long long clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(readonly, copy, nonatomic) NSString *clockName; // @dynamic clockName;
-@property(readonly, nonatomic) double hostRateRatio; // @dynamic hostRateRatio;
-@property(nonatomic) int lockState; // @synthesize lockState=_lockState;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @dynamic notificationQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *propertyUpdateQueue; // @synthesize propertyUpdateQueue=_propertyUpdateQueue;
 
 @end
 

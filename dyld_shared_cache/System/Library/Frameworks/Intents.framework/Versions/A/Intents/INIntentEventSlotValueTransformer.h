@@ -13,7 +13,7 @@
 + (Class);
 + (long long)ay",C,N,V_taskTitles;
 - (id);
-- (id)rtedReason:(id)arg1;
+- (id)StringAsAddCallParticipantIntentParticipantsUnsupportedReason:(id)arg1;
 
 @end
 

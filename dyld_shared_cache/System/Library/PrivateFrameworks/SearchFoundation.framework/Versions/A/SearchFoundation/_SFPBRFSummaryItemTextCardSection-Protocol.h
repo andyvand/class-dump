@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemTextCardSection
+- (unsigned long long);
+- (void);
+- (void);
+- (NSData *)initForTestingWithPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (id)lg
+;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
 @end
 

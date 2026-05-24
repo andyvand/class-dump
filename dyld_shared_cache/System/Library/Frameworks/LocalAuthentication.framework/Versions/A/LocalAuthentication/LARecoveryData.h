@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface LARecoveryData
 {
@@ -14,13 +14,12 @@
 + (id);
 + (id);
 - (id);
+- (id)�;
 - (id);
-- (id);
-- (id);
+- (id)generateForegroundAppSearchButtonLabel;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSData *data;
 @property(nonatomic, readonly) NSUUID *uuid;
 
 @end

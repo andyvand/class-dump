@@ -7,10 +7,9 @@
 @class _UIClickPresentation;
 
 @protocol _UIClickPresentationAssisting
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType keyboardAssertionInvalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType lifecycleCompletion;
 @property(retain, nonatomic) _UIClickPresentation *presentation;
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue;
-
 __attribute__((visibility("hidden")))
 @interface ACNotificationRebroadcaster
 {
     id _daemonAccountStoreDidChangeObserver;
-    NSOperationQueue *_queue;
 }
 
 + (id);

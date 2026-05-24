@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TIDPReporterMock
@@ -14,23 +14,16 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (_Bool)yLexicons;
+- (_Bool)releaseCachedNamedEntityLexicons;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *recordsWritten;
-@property(readonly) Class superclass;
 
 @end
 

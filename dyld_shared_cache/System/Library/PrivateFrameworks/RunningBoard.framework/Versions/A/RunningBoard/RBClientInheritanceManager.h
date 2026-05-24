@@ -10,16 +10,11 @@
 @interface RBClientInheritanceManager
 {
     NSMutableSet *_inheritances;
-    NSMutableSet *_queuedGainedInheritances;
-    NSMutableSet *_queuedLostInheritances;
-    _Bool _awaitingAck;
-    struct os_unfair_lock_s _lock;
-    id <RBClientInheritanceManagerDelegate> _delegate;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)initWithArgumentObject:privacy: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

@@ -6,18 +6,17 @@
 
 #import <MusicLibrary/ML3Predicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ML3SearchStringPredicate : ML3Predicate
 {
     NSArray *_properties;
-    NSString *_searchString;
 }
 
-+ (id);
++ (id)initWithSuggestionTemplate:(id)arg1 firstGroup:(id)arg2 secondGroup:dateLastUsed: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (id);
+- (id)orithmVersion;
+- (id)supplementalLexiconIdentifier;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,7 +25,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)usyConnection:(id)arg1;
+- (void)isBusyConnection:(id)arg1;
 - (void)C is an abstract class.  You must allocate a concrete subclass.;
 - (void)type, is_container_type_active_target, orig_date_modified, store_cloud_id, has_cloud_play_order, cloud_global_id, cloud_is_public, cloud_is_subscribed, cloud_author_store_id, cloud_author_display_name, cloud_author_store_url, cloud_min_refresh_interval, cloud_last_update_time, cloud_user_count, cloud_global_play_count, cloud_global_like_count, keep_local, keep_local_status FROM container;
 - (id)LL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, relative_path TEXT NOT NULL DEFAULT '', artwork_type INTEGER NOT NULL DEFAULT 0, UNIQUE (artwork_token, artwork_source_type));
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

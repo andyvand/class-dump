@@ -4,44 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _BlastDoorASCodableSample;
-
 @interface _BlastDoorASCodableActivitySnapshot
 {
     double _activeHours;
-    double _activeHoursGoal;
-    long long _amm;
-    double _briskMinutes;
-    double _briskMinutesGoal;
-    double _energyBurned;
-    double _energyBurnedGoal;
-    double _mmg;
-    double _mmv;
-    double _pushCount;
-    long long _snapshotIndex;
-    double _stepCount;
-    long long _timeZoneOffsetFromUTCForNoon;
-    double _walkingAndRunningDistance;
-    long long _wheelchairUse;
-    _BlastDoorASCodableSample *_sample;
-    NSData *_sourceUUID;
-    struct {
-        unsigned int activeHours:1;
-        unsigned int activeHoursGoal:1;
-        unsigned int amm:1;
-        unsigned int briskMinutes:1;
-        unsigned int briskMinutesGoal:1;
-        unsigned int energyBurned:1;
-        unsigned int energyBurnedGoal:1;
-        unsigned int mmg:1;
-        unsigned int mmv:1;
-        unsigned int pushCount:1;
-        unsigned int snapshotIndex:1;
-        unsigned int stepCount:1;
-        unsigned int timeZoneOffsetFromUTCForNoon:1;
-        unsigned int walkingAndRunningDistance:1;
-        unsigned int wheelchairUse:1;
-    } _has;
 }
 
 - (long long);
@@ -71,34 +36,34 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
+- (double)!;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)#;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (void);
 - (void);
 - (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
-- (double);
-- (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (double);
 - (void);
@@ -118,44 +83,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double activeHours; // @synthesize activeHours=_activeHours;
-@property(nonatomic) double activeHoursGoal; // @synthesize activeHoursGoal=_activeHoursGoal;
-@property(nonatomic) long long amm; // @synthesize amm=_amm;
-@property(nonatomic) double briskMinutes; // @synthesize briskMinutes=_briskMinutes;
-@property(nonatomic) double briskMinutesGoal; // @synthesize briskMinutesGoal=_briskMinutesGoal;
-@property(nonatomic) double energyBurned; // @synthesize energyBurned=_energyBurned;
-@property(nonatomic) double energyBurnedGoal; // @synthesize energyBurnedGoal=_energyBurnedGoal;
-@property(nonatomic) _Bool hasActiveHours;
-@property(nonatomic) _Bool hasActiveHoursGoal;
-@property(nonatomic) _Bool hasAmm;
-@property(nonatomic) _Bool hasBriskMinutes;
-@property(nonatomic) _Bool hasBriskMinutesGoal;
-@property(nonatomic) _Bool hasEnergyBurned;
-@property(nonatomic) _Bool hasEnergyBurnedGoal;
-@property(nonatomic) _Bool hasMmg;
-@property(nonatomic) _Bool hasMmv;
-@property(nonatomic) _Bool hasPushCount;
 @property(readonly, nonatomic) _Bool hasSample;
-@property(nonatomic) _Bool hasSnapshotIndex;
-@property(readonly, nonatomic) _Bool hasSourceUUID;
-@property(nonatomic) _Bool hasStepCount;
-@property(nonatomic) _Bool hasTimeZoneOffsetFromUTCForNoon;
-@property(nonatomic) _Bool hasWalkingAndRunningDistance;
-@property(nonatomic) _Bool hasWheelchairUse;
-@property(nonatomic) double mmg; // @synthesize mmg=_mmg;
-@property(nonatomic) double mmv; // @synthesize mmv=_mmv;
-@property(nonatomic) double pushCount; // @synthesize pushCount=_pushCount;
-@property(retain, nonatomic) _BlastDoorASCodableSample *sample; // @synthesize sample=_sample;
-@property(nonatomic) long long snapshotIndex; // @synthesize snapshotIndex=_snapshotIndex;
-@property(retain, nonatomic) NSData *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
-@property(nonatomic) double stepCount; // @synthesize stepCount=_stepCount;
-@property(nonatomic) long long timeZoneOffsetFromUTCForNoon; // @synthesize timeZoneOffsetFromUTCForNoon=_timeZoneOffsetFromUTCForNoon;
-@property(nonatomic) double walkingAndRunningDistance; // @synthesize walkingAndRunningDistance=_walkingAndRunningDistance;
-@property(nonatomic) long long wheelchairUse; // @synthesize wheelchairUse=_wheelchairUse;
 
 @end
 

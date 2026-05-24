@@ -4,9 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SCNMaterial, SCNMaterialProperty, SCNProgram;
+@class CAAnimation, NSArray, NSString, SCNMaterialProperty, SCNProgram;
 
 @protocol SCNMaterialJSExport
+- (SCNMaterialProperty *);
+- (void);
+- (NSString *);
+- (_Bool)`B;
+- (NSArray *)transitionPointingDirectionDidChange: /* Error: Ran out of types for this method. */;
+- (CAAnimation *)transitionExpandedToCollapsedRatioDidChange:(NSString *)arg1;
+- (void)ession;
+- (long long)ta;
+- (id)Attempting group participant recovery migration...;
+- (SCNProgram *)previewPanel:didUpdateContentsOfPreviewItem: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)MP
 uniform sampler2D u_colorRamp;
@@ -175,40 +185,6 @@ void main()
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SCNMaterialProperty *ambient;
-@property(readonly, nonatomic) SCNMaterialProperty *ambientOcclusion;
-@property(nonatomic) _Bool avoidsOverLighting;
-@property(nonatomic) long long blendMode;
-@property(readonly, nonatomic) SCNMaterialProperty *clearCoat;
-@property(readonly, nonatomic) SCNMaterialProperty *clearCoatNormal;
-@property(readonly, nonatomic) SCNMaterialProperty *clearCoatRoughness;
-@property(nonatomic) long long colorBufferWriteMask;
-@property(nonatomic) long long cullMode;
-@property(readonly, nonatomic) SCNMaterialProperty *diffuse;
-@property(readonly, nonatomic) SCNMaterialProperty *displacement;
-@property(nonatomic, getter=isDoubleSided) _Bool doubleSided;
-@property(readonly, nonatomic) SCNMaterialProperty *emission;
-@property(nonatomic) unsigned long long fillMode;
-@property(nonatomic) double fresnelExponent;
-@property(nonatomic) double indexOfRefraction;
-@property(copy, nonatomic) NSString *lightingModelName;
-@property(nonatomic, getter=isLitPerPixel) _Bool litPerPixel;
-@property(nonatomic) _Bool locksAmbientWithDiffuse;
-@property(readonly, nonatomic) SCNMaterialProperty *metalness;
-@property(readonly, nonatomic) SCNMaterialProperty *multiply;
 @property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) SCNMaterialProperty *normal;
-@property(readonly, nonatomic) SCNMaterial *presentationMaterial;
-@property(retain, nonatomic) SCNProgram *program;
-@property(nonatomic) _Bool readsFromDepthBuffer;
-@property(readonly, nonatomic) SCNMaterialProperty *reflective;
-@property(readonly, nonatomic) SCNMaterialProperty *roughness;
-@property(readonly, nonatomic) SCNMaterialProperty *selfIllumination;
-@property(nonatomic) double shininess;
-@property(readonly, nonatomic) SCNMaterialProperty *specular;
-@property(nonatomic) double transparency;
-@property(nonatomic) long long transparencyMode;
-@property(readonly, nonatomic) SCNMaterialProperty *transparent;
-@property(nonatomic) _Bool writesToDepthBuffer;
 @end
 

@@ -6,13 +6,11 @@
 
 #import <AppleMediaServices/AMSMetricsEvent.h>
 
-@class NSArray, NSDictionary, NSError, NSMutableDictionary, NSString;
+@class NSDictionary;
 
 @interface AMSMetricsLoggingEvent : AMSMetricsEvent
 {
     NSDictionary *_breadcrumbs;
-    NSError *_error;
-    NSDictionary *_jsVersions;
 }
 
 + (id);
@@ -26,8 +24,8 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -48,13 +46,14 @@
 - (void);
 - (void);
 - (void);
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,7 +65,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -78,14 +77,14 @@
 - (double);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (id);
@@ -100,12 +99,12 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)initWithQueue:(struct _NSZone *)arg1 instanceContext:delegate: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)fetchActiveEndpointOnQueue:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -123,53 +122,6 @@
 
 // Remaining properties
 @property(copy) NSDictionary *breadcrumbs; // @synthesize breadcrumbs=_breadcrumbs;
-@property(readonly) NSString *category;
-@property(copy) NSString *clientApp;
-@property(copy) NSString *clientBuildType;
-@property(copy) NSString *currentProcess;
-@property(copy) NSString *engagementEventType;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property long long errorCode;
-@property(copy) NSString *errorDomain;
-@property(copy) NSString *errorMessage;
-@property(copy) NSString *errorTitle;
-@property long long errorUserInfoCryptoCode;
-@property _Bool errorUserInfoEngagementPresented;
-@property long long errorUserInfoServerErrorCode;
-@property long long errorUserInfoStatusCode;
-@property(copy) NSArray *eventDestinations;
-@property double eventEndTime;
-@property _Bool eventInlineInterruption;
-@property(copy) NSString *eventParamEventType;
-@property(copy) NSString *eventParamItemId;
-@property(copy) NSString *eventParamProductType;
-@property(copy) NSString *eventParamSource;
-@property(copy) NSString *eventParamSuccess;
-@property(copy) NSString *eventPlacement;
-@property(copy) NSString *eventServiceType;
-@property double eventStartTime;
-@property(copy) NSArray *jsVersionMap;
-@property(copy, nonatomic) NSDictionary *jsVersions; // @synthesize jsVersions=_jsVersions;
-@property(readonly) NSString *lastBreadcrumb;
-@property(readonly) double lastBreadcrumbDuration;
-@property long long logLevel;
-@property(copy) NSString *originatingURL;
-@property(copy) NSString *originatingURLParamBagProfile;
-@property(copy) NSString *originatingURLParamBagProfileVersion;
-@property(copy) NSString *releaseVersion;
-@property(readonly) NSString *subsystem;
-@property(readonly) NSMutableDictionary *underlyingDictionaryForSentry;
-@property long long underlyingErrorCode;
-@property(copy) NSString *underlyingErrorDomain;
-@property(copy) NSString *underlyingErrorMessage;
-@property(copy) NSString *underlyingErrorTitle;
-@property long long underlyingErrorUserInfoCryptoCode;
-@property _Bool underlyingErrorUserInfoEngagementPresented;
-@property long long underlyingErrorUserInfoServerErrorCode;
-@property long long underlyingErrorUserInfoStatusCode;
-@property(copy) NSString *url;
-@property(copy) NSString *urlParamBagProfile;
-@property(copy) NSString *urlParamBagProfileVersion;
 
 @end
 

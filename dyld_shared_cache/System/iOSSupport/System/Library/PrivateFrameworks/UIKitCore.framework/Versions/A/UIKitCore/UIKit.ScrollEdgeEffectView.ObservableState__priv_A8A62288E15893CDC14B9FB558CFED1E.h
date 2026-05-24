@@ -7,9 +7,6 @@
 @interface UIKit.ScrollEdgeEffectView.ObservableState__priv_A8A62288E15893CDC14B9FB558CFED1E
 {
     id _lumaStyle;
-    id _glassFrost;
-    id _isInWindow;
-    id _$observationRegistrar;
 }
 
 @end

@@ -9,13 +9,11 @@
 @interface AVAudioHardwareConfigurationChangeEvent
 {
     NSArray *createdObjects;
-    NSArray *destroyedObjects;
-    NSArray *changedObjects;
 }
 
+- (void)NEIPSecSASessionDelegate;
 - (void);
-- (void);
-- (void);
+- (void)NEIKEv2InformationalPacket;
 - (id);
 - (id);
 - (id);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *changedObjects; // @synthesize changedObjects;
 @property(retain, nonatomic) NSArray *createdObjects; // @synthesize createdObjects;
-@property(retain, nonatomic) NSArray *destroyedObjects; // @synthesize destroyedObjects;
 
 @end
 

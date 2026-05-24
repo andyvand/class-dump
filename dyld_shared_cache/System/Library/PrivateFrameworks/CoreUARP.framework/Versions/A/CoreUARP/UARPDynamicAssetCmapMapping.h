@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface UARPDynamicAssetCmapMapping
 {
     NSObject<OS_os_log> *_log;
-    NSString *_appleModelNumber;
-    NSArray *_cmapEvents;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)d;
 - (id);
-- (id);
+- (id)AMSBagNetworkTask;
 - (void);
 - (void);
 

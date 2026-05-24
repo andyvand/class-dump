@@ -7,6 +7,11 @@
 @class NSArray;
 
 @protocol SLDataTimelineSnapshotCollection
+- (void)s:(void (^)(id <SLDataTimelineServerSnapshot>))arg1 %@
+;
+- (NSArray *)%@
+ destination hashes:%@
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *snapshots;

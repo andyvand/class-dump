@@ -6,26 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTInvocationCancelled, MTSchemaMTInvocationEnded, MTSchemaMTInvocationFailed, MTSchemaMTInvocationStarted, NSData;
+@class MTSchemaMTInvocationStarted;
 
 @interface MTSchemaMTInvocationContext : SISchemaInstrumentationMessage
 {
     MTSchemaMTInvocationStarted *_startedOrChanged;
-    MTSchemaMTInvocationEnded *_ended;
-    MTSchemaMTInvocationFailed *_failed;
-    MTSchemaMTInvocationCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -35,15 +27,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)legate>";
+- (_Bool)deOverLay;
+- (id)A;
+- (id);
+- (id);
+- (id);
+- (void)ature parts greater than q;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -56,16 +48,7 @@
 - (void)INFERENCESchemaINFERENCEContactSearchSuggestedType;
 
 // Remaining properties
-@property(retain, nonatomic) MTSchemaMTInvocationCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) MTSchemaMTInvocationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) MTSchemaMTInvocationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MTSchemaMTInvocationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

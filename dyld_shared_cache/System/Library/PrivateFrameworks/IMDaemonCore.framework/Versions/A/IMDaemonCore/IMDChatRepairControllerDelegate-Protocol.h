@@ -5,5 +5,7 @@
 //
 
 @protocol IMDChatRepairControllerDelegate
+- (_Bool)O;
+- (_Bool)D9i;
 @end
 

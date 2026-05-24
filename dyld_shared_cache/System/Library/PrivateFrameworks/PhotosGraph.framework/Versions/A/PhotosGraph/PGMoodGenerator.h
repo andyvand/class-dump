@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PGMoodGeneratorOptions, PGMoodVector, PHAssetCollection, PHPhotoLibrary;
-@protocol PGEnrichedMemoryProtocol;
+@class PGMoodGeneratorOptions, PHAssetCollection;
 
 @interface PGMoodGenerator
 {
     PHAssetCollection *_assetCollection;
-    PHPhotoLibrary *_photoLibrary;
-    unsigned long long _suggestedMood;
-    PGMoodVector *_positiveMoodVector;
-    PGMoodVector *_negativeMoodVector;
-    PGMoodVector *_historyWeightedPositiveMoodVector;
-    id <PGEnrichedMemoryProtocol> _enrichedMemory;
-    NSArray *_extendedCuratedAssets;
-    PGMoodGeneratorOptions *_options;
-    double _positiveThreshold;
-    double _negativeThreshold;
 }
 
 - (unsigned long long);
@@ -30,20 +19,18 @@
 - (id);
 - (double);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)_signalDelegatesInfoChangedForElement:(id)arg1 infoBeforeChange:(id)arg2 infoAfterChange:(id)arg3;
+- (id)_screenInScreens:(id)arg1 closestToPoint:(id)arg2 horizontally:(id)arg3;
+- (id)__suppressionCheckbox;
+- (unsigned long long)patch_queue>",&,N,S_setDelegateQueue:(id)arg1 ,V__delegateQueue;
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void)PGGraphMeNode"8^B16;
 
 // Remaining properties
-@property double negativeThreshold; // @synthesize negativeThreshold=_negativeThreshold;
 @property(retain) PGMoodGeneratorOptions *options; // @synthesize options=_options;
-@property double positiveThreshold; // @synthesize positiveThreshold=_positiveThreshold;
 
 @end
 

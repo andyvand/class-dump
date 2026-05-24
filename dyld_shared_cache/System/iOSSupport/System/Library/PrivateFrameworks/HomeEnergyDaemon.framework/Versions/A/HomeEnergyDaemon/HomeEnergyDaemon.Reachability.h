@@ -8,10 +8,6 @@
 {
     id $defaultActor;
     id monitor;
-    id queue;
-    id delegate;
-    id monitoringTask;
-    id isStopped;
 }
 
 @end

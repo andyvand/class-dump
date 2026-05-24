@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface GEOPBOfflineDataLayerBatches
 {
     struct GEOPBOfflineDataLayerVersion _layerVersion;
-    NSMutableArray *_batchReferences;
-    CDStruct_4b81633f _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)'` ";
 - (_Bool);
 - (id)laceSuggestionResult";
-- (id)aleFactor: /* Error: Ran out of types for this method. */;
+- (id)setScaleFactor: /* Error: Ran out of types for this method. */;
 - (id)¬Ú;
 - (void)%2;
 

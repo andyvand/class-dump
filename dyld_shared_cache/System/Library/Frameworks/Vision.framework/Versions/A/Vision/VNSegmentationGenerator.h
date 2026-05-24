@@ -10,18 +10,14 @@ __attribute__((visibility("hidden")))
 @interface VNSegmentationGenerator : VNEspressoModelFileBasedDetector
 {
     struct BufferSize _espressoMaskInputBufferSize;
-    struct unordered_map<NSString *, espresso_buffer_t, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, espresso_buffer_t>>> _espressoMaskOutputBuffers;
-    struct unordered_map<NSString *, apple::vision::BufferSize, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, apple::vision::BufferSize>>> _espressoMaskOutputBufferSizes;
-    struct BufferSize _espressoInputImageSize;
-    struct BufferSize _espressoInputMaskSize;
 }
 
 + (_Bool);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ta",&,N,V_thumbnailImageData;
 + (id);
 - (_Bool);
 - (struct __CVBuffer *);
@@ -30,20 +26,16 @@ __attribute__((visibility("hidden")))
 - (const void *);
 - (const void *);
 - (const struct BufferSize *);
-- (const struct BufferSize *);
+- (const struct BufferSize *);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
-- (void)manFilter;
+- (void)VNTrackObjectPrivateRevisionLegacyFaceCoreProcessOption_KalmanFilter;
 
 // Remaining properties
 @property(readonly) const struct BufferSize *espressoInputImageSize;
-@property(readonly) const struct BufferSize *espressoInputMaskSize;
-@property(readonly) const void *espressoMaskOutputBufferSizes; // @synthesize espressoMaskOutputBufferSizes=_espressoMaskOutputBufferSizes;
-@property(readonly) const void *espressoMaskOutputBuffers; // @synthesize espressoMaskOutputBuffers=_espressoMaskOutputBuffers;
-@property(readonly, nonatomic) struct BufferSize outputMaskSize;
 
 @end
 

@@ -6,29 +6,23 @@
 
 #import <UIKitCore/UIFocusUpdateContext.h>
 
-@class NSIndexPath, UICollectionView;
+@class UICollectionView;
 
 @interface UICollectionViewFocusUpdateContext : UIFocusUpdateContext
 {
     _Bool _didSetPreviouslyFocusedIndexPath;
-    _Bool _didSetNextFocusedIndexPath;
-    NSIndexPath *_previouslyFocusedIndexPath;
-    NSIndexPath *_nextFocusedIndexPath;
-    UICollectionView *_collectionView;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)<;
+- (id)rocessingPipelineComponent> Started processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
+- (id)d addressed.;
 - (id);
-- (id);
-- (id);
-- (id)chedKeyList;
+- (id)updateCachedKeyList;
 - (void)ãùÒ4$i;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, nonatomic) NSIndexPath *nextFocusedIndexPath; // @synthesize nextFocusedIndexPath=_nextFocusedIndexPath;
-@property(readonly, nonatomic) NSIndexPath *previouslyFocusedIndexPath; // @synthesize previouslyFocusedIndexPath=_previouslyFocusedIndexPath;
 
 @end
 

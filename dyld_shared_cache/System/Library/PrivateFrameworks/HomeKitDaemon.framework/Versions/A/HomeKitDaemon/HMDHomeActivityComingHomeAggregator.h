@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDHomeActivityStateAggregator.h>
 
-@class HMDHomeActivityComingHomeAggregatorState, NSString;
+@class HMDHomeActivityComingHomeAggregatorState;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityComingHomeAggregator : HMDHomeActivityStateAggregator
@@ -18,23 +18,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)senderIsGroupInitiator %@, groupContainsSender %@;
+- (_Bool)\;
+- (_Bool)aLp;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDHomeActivityComingHomeAggregatorState *aggregatedComingHomeState;
 @property(readonly, nonatomic) HMDHomeActivityComingHomeAggregatorState *computedState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

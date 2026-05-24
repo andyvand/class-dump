@@ -9,10 +9,6 @@
 @interface Network.FlowControlStream : Network.FlowControl
 {
     id receiveHighWaterMarkTime;
-    id receiveHighWaterMarkCount;
-    id receiveHighWaterMarkPreviousCount;
-    id ackedMaxData;
-    id bytesReceived;
 }
 
 @end

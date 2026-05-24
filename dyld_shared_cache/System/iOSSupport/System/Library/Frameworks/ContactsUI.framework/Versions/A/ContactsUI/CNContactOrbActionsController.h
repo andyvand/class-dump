@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactActionsController, CNQuickActionsManager, NSArray, NSString;
-@protocol CNContactOrbActionsControllerDelegate;
+@class NSArray;
 
 @interface CNContactOrbActionsController
 {
     _Bool _bypassActionValidation;
-    id <CNContactOrbActionsControllerDelegate> _delegate;
-    NSArray *_contacts;
-    NSArray *_menuItems;
-    CNContactActionsController *_actionsController;
-    CNQuickActionsManager *_actionsManager;
-    NSArray *_actionCategories;
 }
 
-+ (id)ariableConstraints: /* Error: Ran out of types for this method. */;
++ (id)setVariableConstraints: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void)T	};
 - (id);
 - (id);
 - (id);
@@ -36,10 +29,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@yH;
 - (void);
 - (void);
-- (id);
+- (id)!
+;
 - (void);
 - (void);
 - (void);
@@ -50,20 +44,7 @@
 - (void)Enabled;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actionCategories; // @synthesize actionCategories=_actionCategories;
-@property(retain, nonatomic) CNContactActionsController *actionsController; // @synthesize actionsController=_actionsController;
-@property(retain, nonatomic) CNQuickActionsManager *actionsManager; // @synthesize actionsManager=_actionsManager;
-@property(nonatomic) _Bool bypassActionValidation; // @synthesize bypassActionValidation=_bypassActionValidation;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactOrbActionsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *menuItems; // @synthesize menuItems=_menuItems;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationGroup, CKSyncEngineFetchChangesScope, CKSyncEngineFetchChangesZoneConfiguration, NSArray, NSDictionary, NSString;
-
 @interface CKSyncEngineFetchChangesOptions
 {
     _Bool _forceFetchChanges;
-    CKSyncEngineFetchChangesScope *_scope;
-    CKOperationGroup *_operationGroup;
-    NSArray *_prioritizedZoneIDs;
-    NSDictionary *_zoneConfigurations;
-    CKSyncEngineFetchChangesZoneConfiguration *_defaultZoneConfiguration;
 }
 
 + (id);
@@ -32,31 +25,20 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)*;
+- (void);
 - (id);
+- (id)mation for SVR probability inference
+;
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)tion;
+- (void)}i^v^?^?^?^?{__sbuf=*i}^{__sFILEX}i[3C][1C]{__sbuf=*i}iq}16B24;
+- (void)CKCodeOperation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) CKSyncEngineFetchChangesZoneConfiguration *defaultZoneConfiguration;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceFetchChanges;
-@property(readonly) unsigned long long hash;
-@property(retain) CKOperationGroup *operationGroup; // @synthesize operationGroup=_operationGroup;
-@property(copy) NSArray *prioritizedZoneIDs; // @synthesize prioritizedZoneIDs=_prioritizedZoneIDs;
-@property(copy) CKSyncEngineFetchChangesScope *scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
-@property(copy) NSDictionary *zoneConfigurations;
+@property(nonatomic) _Bool forceFetchChanges; // @synthesize forceFetchChanges=_forceFetchChanges;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSString;
+@class CNContactStore;
 
 @interface CNUICoreContactStoreProductionFacade
 {
@@ -12,23 +12,16 @@
 }
 
 - (_Bool);
+- (id)W;
 - (id);
+- (id)lock;
 - (id);
-- (id);
-- (id);
-- (void)sagingApps;
+- (void)targetsForTextWithDefaultMessagingApps;
 - (_Bool)ÄÉ$Ê;
 - (id)àÿàÿ*×;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

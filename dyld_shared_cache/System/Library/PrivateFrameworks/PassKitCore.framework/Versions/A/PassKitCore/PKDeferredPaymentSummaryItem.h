@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasStackLevel;
 - (void);
 - (id);
 - (id);

@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     UIImageView *_bgView;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)0;
+- (id)ompressedProtobuf2DataForParticipantChangeItem called on object %@ %@;
+- (void)or player path:(double)arg1 %{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)xìe;
 
 @end

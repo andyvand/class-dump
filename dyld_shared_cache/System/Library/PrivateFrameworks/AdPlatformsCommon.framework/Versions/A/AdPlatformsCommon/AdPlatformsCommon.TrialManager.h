@@ -7,11 +7,6 @@
 @interface AdPlatformsCommon.TrialManager
 {
     id lifecycleService;
-    id updateService;
-    id namespaces;
-    id factors;
-    id triggers;
-    id delegates;
 }
 
 @end

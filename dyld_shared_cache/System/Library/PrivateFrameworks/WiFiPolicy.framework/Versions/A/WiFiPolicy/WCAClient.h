@@ -10,17 +10,15 @@
 @interface WCAClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    long long _changeCounter;
-    NSXPCConnection *_connectionToService;
 }
 
 + (id);
 - (id);
+- (void)T_;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)0@ù
 × ;

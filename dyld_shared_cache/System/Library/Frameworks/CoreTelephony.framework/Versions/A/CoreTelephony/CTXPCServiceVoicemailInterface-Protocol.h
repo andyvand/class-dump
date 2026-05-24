@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServiceVoicemailInterface
+- (void);
 @end
 

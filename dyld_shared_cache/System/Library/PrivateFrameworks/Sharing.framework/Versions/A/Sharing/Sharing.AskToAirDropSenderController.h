@@ -9,10 +9,6 @@
 @interface Sharing.AskToAirDropSenderController
 {
     OS_dispatch_queue *queue;
-    long long nearbyDeviceCount;
-    void nearbyDeviceCountChangedHandler;
-    void didStopHandler;
-    id airDropClient;
 }
 
 - (void);
@@ -34,10 +30,6 @@
 - (void)¡ÊW;
 
 // Remaining properties
-@property(nonatomic, copy) CDUnknownBlockType didStopHandler;
-@property(nonatomic) _Bool hasSeenPrivacyPrompt;
-@property(nonatomic) long long nearbyDeviceCount; // @synthesize nearbyDeviceCount;
-@property(nonatomic, copy) CDUnknownBlockType nearbyDeviceCountChangedHandler;
 @property(nonatomic, readonly) OS_dispatch_queue *queue; // @synthesize queue;
 
 @end

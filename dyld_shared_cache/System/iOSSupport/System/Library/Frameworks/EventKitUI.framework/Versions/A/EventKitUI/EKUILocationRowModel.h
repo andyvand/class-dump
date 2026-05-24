@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKStructuredLocation, EKVirtualConference, UITableViewCell;
-
 @interface EKUILocationRowModel
 {
     unsigned long long _locationType;
-    EKStructuredLocation *_location;
-    EKVirtualConference *_conference;
-    UITableViewCell *_cell;
 }
 
 - (void);
+- (id)s;
+- (id)=+s;
+- (id)s;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)>z;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long)"48@"EKSource"56B64B68B72;
-- (void)xtYOffsetWithoutAdjustmentForOverlay;
+- (void)usesTextYOffsetWithoutAdjustmentForOverlay;
 - (void)H»æÿ$`Sf;
 
 // Remaining properties
-@property(retain, nonatomic) UITableViewCell *cell; // @synthesize cell=_cell;
-@property(retain, nonatomic) EKVirtualConference *conference; // @synthesize conference=_conference;
-@property(retain, nonatomic) EKStructuredLocation *location; // @synthesize location=_location;
 @property(nonatomic) unsigned long long locationType; // @synthesize locationType=_locationType;
 
 @end

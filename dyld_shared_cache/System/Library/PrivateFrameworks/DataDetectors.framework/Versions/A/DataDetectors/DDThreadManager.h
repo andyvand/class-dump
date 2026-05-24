@@ -9,13 +9,12 @@
 @interface DDThreadManager
 {
     NSOperationQueue *_queue;
-    _Bool _stopping;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)capture preference manager;
 - (void);
 
 @end

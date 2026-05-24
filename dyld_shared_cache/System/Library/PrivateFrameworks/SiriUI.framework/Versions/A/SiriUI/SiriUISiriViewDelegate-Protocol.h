@@ -5,5 +5,10 @@
 //
 
 @protocol SiriUISiriViewDelegate
+- (_Bool);
+- (void)A;
+- (void);
+- (void);
+- (void);
 @end
 

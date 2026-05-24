@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVSegmentedCodingPackage, NSDictionary, NSMutableDictionary;
-@protocol MSVSegmentedCoding;
-
 @interface MSVSegmentedEncoder
 {
     _Bool _hasFinished;
-    MSVSegmentedCodingPackage *_package;
-    id <MSVSegmentedCoding> _rootObject;
-    NSMutableDictionary *_subcoders;
-    NSDictionary *_userInfo;
 }
 
-- (id);
+- (id)<;
 - (void);
 - (id);
 - (void);
@@ -25,8 +18,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)(;
+- (id)U;
 - (void);
 - (void);
 - (void);
@@ -36,9 +29,9 @@
 - (void);
 - (id)1!$Ð1Â0@ù
 × ;
-- (void)mentID;
-- (void)ysAndObjectsOrderedByKeyDescriptors:(float)arg1 usingBlock:(id)arg2;
-- (void)amed: /* Error: Ran out of types for this method. */;
+- (void)treatmentID;
+- (void)msv_enumerateKeysAndObjectsOrderedByKeyDescriptors:(float)arg1 usingBlock:(id)arg2;
+- (void)_bindInt32Array:length:toParameterNamed: /* Error: Ran out of types for this method. */;
 - (void)r:(id)arg1 %{public}@;
 - (void)mework/Contents/MacOS/SymptomDiagnosticReporter;
 - (void);
@@ -46,10 +39,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasFinished; // @synthesize hasFinished=_hasFinished;
-@property(retain, nonatomic) MSVSegmentedCodingPackage *package; // @synthesize package=_package;
-@property(retain, nonatomic) id <MSVSegmentedCoding> rootObject; // @synthesize rootObject=_rootObject;
-@property(retain, nonatomic) NSMutableDictionary *subcoders; // @synthesize subcoders=_subcoders;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

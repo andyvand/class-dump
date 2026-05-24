@@ -7,15 +7,10 @@
 @interface AWDIDSLocalMessageTimedOut
 {
     long long _expirationDate;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int expirationDate:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (_Bool);
@@ -26,17 +21,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)?;
 - (void);
-- (void);
-- (id);
+- (id)_;
 - (id);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) _Bool hasExpirationDate;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

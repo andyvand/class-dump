@@ -4,23 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage, UIShadowProperties, UIView, UIVisualEffect;
-@protocol _UIViewMaterial;
+@class NSString, UIColor, UIShadowProperties, UIView, UIVisualEffect;
 
 @protocol _UIBackgroundConfigurationInternal
+- (UIShadowProperties *);
+- (long long)barrierAfterQueueStages:beforeStages:visibilityOptions: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (long long)O;
 - (_Bool);
 - (void)ù
 × ;
 - (_Bool)nsets=dddd}24o^{UIEdgeInsets=dddd}32o^{UIEdgeInsets=dddd}40;
 - (UIColor *)cusAnimationCoordinator"24;
-- (void)ptForReplacementCandidate:(UIColor *)arg1;
-- (void)eActionsGroupView;
-- (void)downSystemSounds;
-- (void)urationForCompact:(unsigned long long)arg1;
+- (void)showPromptForReplacementCandidate:(UIColor *)arg1;
+- (void)_prepareMainInterfaceActionsGroupView;
+- (void)_cooldownSystemSounds;
+- (void)_backIndicatorMaskSymbolConfigurationForCompact:(unsigned long long)arg1;
 - (void)initialContentOffset;
-- (double)ndAttribute;
-- (UIVisualEffect *)Action;
-- (_Bool)ListCellVisualProvider_iOS;
+- (double)secondAttribute;
+- (UIVisualEffect *)UIFetchContentInBackgroundAction;
+- (_Bool)_UICollectionViewListCellVisualProvider_iOS;
 - (void)øù@úû;
 - (void)Á;
 - (_Bool)d;
@@ -33,40 +36,14 @@
 - (void)>:(UIVisualEffect *)arg1 scale:%f, idiom:%ld, subtype:%lu /* Error: Ran out of types for this method. */;
 - (void)RotateToInterfaceOrientation:(double)arg1 %li;
 - (void)before dealloc;
-- (void)InsertionRate;
+- (void)charInsertionRate;
 - (double)on identifier, skipping:%@ /* Error: Ran out of types for this method. */;
 - (void)u.hide;
 - (_Bool)Settings<_UISceneOcclusionSettings>"8;
-- (unsigned long long);
 - (UIView *)Ç/3GSg;
 - (_Bool)03,C;
 
 // Remaining properties
-@property(nonatomic, setter=__setMaskedCorners:) unsigned long long __maskedCorners;
-@property(copy, nonatomic, setter=__setVisualEffectGroupName:) NSString *__visualEffectGroupName;
-@property(nonatomic, setter=__setVisualEffectblurClippingMode:) unsigned long long __visualEffectblurClippingMode;
-@property(retain, nonatomic, setter=_setContentView:) UIView *_contentView;
-@property(nonatomic, setter=_setContentViewIgnoresBackgroundInsets:) _Bool _contentViewIgnoresBackgroundInsets;
-@property(nonatomic, setter=_setCornerRadius:) double _cornerRadius;
-@property(retain, nonatomic, setter=_setMaterial:) id <_UIViewMaterial> _material;
-@property(readonly, nonatomic) UIShadowProperties *_shadowProperties;
-@property(retain, nonatomic) UIColor *backgroundColor;
-@property(nonatomic) struct NSDirectionalEdgeInsets backgroundInsets;
-@property(nonatomic) double cornerRadius;
 @property(retain, nonatomic) UIView *customView;
-@property(nonatomic) unsigned long long edgesAddingLayoutMarginsToBackgroundInsets;
-@property(readonly, nonatomic, getter=_hasBackgroundColor) _Bool hasBackgroundColor;
-@property(readonly, nonatomic, getter=_hasBackgroundFill) _Bool hasBackgroundFill;
-@property(readonly, nonatomic, getter=_hasContentView) _Bool hasContentView;
-@property(readonly, nonatomic, getter=_hasMaterial) _Bool hasMaterial;
-@property(readonly, nonatomic, getter=_hasStroke) _Bool hasStroke;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) long long imageContentMode;
-@property(readonly, nonatomic) _Bool isTintBackgroundColor;
-@property(retain, nonatomic) UIColor *strokeColor;
-@property(nonatomic, getter=_strokeLocation, setter=_setStrokeLocation:) long long strokeLocation;
-@property(nonatomic) double strokeOutset;
-@property(nonatomic) double strokeWidth;
-@property(copy, nonatomic) UIVisualEffect *visualEffect;
 @end
 

@@ -7,18 +7,12 @@
 @interface _SFXPCError
 {
     id domain;
-    id errorCode;
-    id internalLocalizedDescription;
-    id internalDebugDescription;
-    id file;
-    id line;
-    id process;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)<;
 - (void)üNÿÿeÎWÒ;
 
 @end

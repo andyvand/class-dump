@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DIBaseParams, DIDeviceHandle, NSArray, NSURL;
+@class DIDeviceHandle, NSURL;
 
 @interface SKDiskImage
 {
     NSURL *_imageURL;
-    NSArray *_shadowURLs;
-    DIDeviceHandle *_deviceHandle;
-    DIBaseParams *_diParams;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
 - (id);
@@ -41,7 +38,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)0;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -49,18 +46,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)iQQII}{tagVCNWConnectionNotification_BBLinkMeasurement=isscCC}{tagVCNWConnectionNotification_BBBWLimitation=C}{tagVCNWConnectionNotification_BBCDRXUpdate=CS}{tagVCNWConnectionNotification_BBOutage=iSC}{tagVCNWConnectionNotification_BBThermalUpdate=i})}16;
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) DIDeviceHandle *deviceHandle; // @synthesize deviceHandle=_deviceHandle;
-@property(retain, nonatomic) DIBaseParams *diParams; // @synthesize diParams=_diParams;
-@property(readonly, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, nonatomic) NSArray *shadowURLs; // @synthesize shadowURLs=_shadowURLs;
 
 @end
 

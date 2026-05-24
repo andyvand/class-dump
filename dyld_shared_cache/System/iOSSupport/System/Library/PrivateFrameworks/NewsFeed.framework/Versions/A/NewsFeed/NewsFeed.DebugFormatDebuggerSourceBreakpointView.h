@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatDebuggerSourceBreakpointView
 {
     id sourceFile;
-    id editor;
-    id breakpointSize;
 }
 
 - (id);

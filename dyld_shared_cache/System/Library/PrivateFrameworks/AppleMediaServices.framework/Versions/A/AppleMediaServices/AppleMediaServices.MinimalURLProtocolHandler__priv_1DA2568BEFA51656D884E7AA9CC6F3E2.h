@@ -9,12 +9,11 @@
 @interface AppleMediaServices.MinimalURLProtocolHandler__priv_1DA2568BEFA51656D884E7AA9CC6F3E2
 {
     id metricsHandler;
-    void session;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

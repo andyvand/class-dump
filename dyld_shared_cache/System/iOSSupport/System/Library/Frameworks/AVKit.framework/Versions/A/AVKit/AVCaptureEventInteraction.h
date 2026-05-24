@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureEventAction, NSString, UIView;
+@class UIView;
 
 @interface AVCaptureEventInteraction
 {
     UIView *_view;
-    AVCaptureEventAction *_primaryAction;
-    AVCaptureEventAction *_secondaryAction;
-    _Bool _enabled;
 }
 
 + (_Bool);
@@ -28,15 +25,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

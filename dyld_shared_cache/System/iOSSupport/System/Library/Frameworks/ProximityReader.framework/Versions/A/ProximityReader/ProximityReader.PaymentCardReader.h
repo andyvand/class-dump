@@ -8,8 +8,6 @@
 {
     id id;
     id events;
-    id uuid;
-    id options;
 }
 
 @end

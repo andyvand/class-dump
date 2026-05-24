@@ -7,9 +7,6 @@
 @interface NewsFeed.CoverViewFollowSwitch
 {
     id titleLabel;
-    id borderColor;
-    id onTap;
-    id toggleState;
 }
 
 - (id);

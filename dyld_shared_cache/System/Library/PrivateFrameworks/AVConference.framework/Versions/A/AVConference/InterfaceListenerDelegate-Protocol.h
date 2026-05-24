@@ -5,5 +5,8 @@
 //
 
 @protocol InterfaceListenerDelegate
+
+@optional
+- (void)|S)|S*4;
 @end
 

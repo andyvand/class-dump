@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MPCQueueControllerBehaviorPodcastsIdentifierComponents
 {
     void contentItemID;
-    void sectionID;
-    void itemID;
-    _Bool isPlaceholder;
 }
 
 - (void);
@@ -21,18 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned short);
-- (void);
+- (void);
 - (id);
-- (void)n;
+- (void)updatePlayerConfiguration;
 - (_Bool)source:%{public}@ | updating target /* Error: Ran out of types for this method. */;
 - (void)OCAL;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned short behaviorFlags;
 @property(nonatomic, copy) NSString *contentItemID;
-@property(nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder;
-@property(nonatomic, copy) NSString *itemID;
-@property(nonatomic, copy) NSString *sectionID;
 
 @end
 

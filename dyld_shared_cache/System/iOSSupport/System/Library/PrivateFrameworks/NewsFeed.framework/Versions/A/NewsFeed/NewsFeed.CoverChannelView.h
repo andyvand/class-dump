@@ -7,11 +7,6 @@
 @interface NewsFeed.CoverChannelView
 {
     id moreActionsButton;
-    id followButton;
-    id titleLabel;
-    id coverImage;
-    id accessoryLabel;
-    id debugButton;
 }
 
 - (id);

@@ -33,15 +33,7 @@
 - (void)null;
 
 // Remaining properties
-@property(nonatomic) _Bool disabled;
-@property(copy, nonatomic) NSString *frameId;
-@property(nonatomic) _Bool isInline;
-@property(nonatomic) long long origin;
-@property(copy, nonatomic) NSString *sourceURL;
-@property(nonatomic) double startColumn;
-@property(nonatomic) double startLine;
 @property(copy, nonatomic) NSString *styleSheetId;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

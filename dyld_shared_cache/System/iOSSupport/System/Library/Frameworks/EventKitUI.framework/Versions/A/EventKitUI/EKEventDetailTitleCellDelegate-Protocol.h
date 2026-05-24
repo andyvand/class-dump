@@ -5,6 +5,9 @@
 //
 
 @protocol EKEventDetailTitleCellDelegate
+- (_Bool);
+- (void);
+- (void)lib/swift/libswiftsimd.dylib;
 - (_Bool)TB,N,V_allDayDrawingStyle;
 @end
 

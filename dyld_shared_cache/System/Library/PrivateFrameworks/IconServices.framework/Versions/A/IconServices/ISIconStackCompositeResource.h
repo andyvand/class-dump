@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISCompositingDescriptor, ISGenerationReport, NSMutableDictionary, NSString;
+@class ISCompositingDescriptor;
 @protocol ISScalableCompositorResource;
 
 __attribute__((visibility("hidden")))
 @interface ISIconStackCompositeResource
 {
     ISCompositingDescriptor *compositingDescriptor;
-    ISGenerationReport *generationReport;
-    id <ISScalableCompositorResource> _wrappedResource;
-    unsigned long long _platform;
-    NSMutableDictionary *_finalizedIcons;
 }
 
 - (void);
-- (void);
+- (void)__objc_intobj;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,30 +24,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long);
+- (id)_NSRange=QQ}16;
+- (long long)untimeBase=QAQ}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(copy) ISCompositingDescriptor *compositingDescriptor; // @synthesize compositingDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSMutableDictionary *finalizedIcons; // @synthesize finalizedIcons=_finalizedIcons;
-@property(retain) ISGenerationReport *generationReport; // @synthesize generationReport;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long platform; // @synthesize platform=_platform;
-@property(readonly) Class superclass;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 @property(readonly) id <ISScalableCompositorResource> wrappedResource; // @synthesize wrappedResource=_wrappedResource;
 
 @end

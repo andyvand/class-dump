@@ -9,37 +9,31 @@
 @interface TRIActivationEventRecord
 {
     int _deploymentId;
-    NSString *_parentId;
-    NSString *_factorPackSetId;
-    NSString *_osBuild;
-    NSString *_languageCode;
-    NSString *_regionCode;
-    NSString *_carrierBundleIdentifier;
-    NSString *_carrierCountryIsoCode;
-    long long _diagnosticsUsageEnabled;
-    long long _hasAne;
-    NSString *_aneVersion;
 }
 
-+ (id);
++ (id)fileName:(id)arg1 matchesRegex:(id)arg2;
+- (id)initWithFormatIdentifier:formatVersion:data:baseVersion:editorBundleID: /* Error: Ran out of types for this method. */;
+- (id)horizonLinePresent;
+- (long long)encodeDouble:forKey: /* Error: Ran out of types for this method. */;
+- (id)didReadOriginalPairedVideoMetadata;
+- (id)dictionaryWithDictionary:(id)arg1;
+- (id)dictionaryWithContentsOfFile:(id)arg1;
+- (id)rSpace:(id)arg1 compatibilityMetadata: /* Error: Ran out of types for this method. */;
+- (id)dictionary;
+- (id)detectedSalientObjects;
+- (id)deserializedMetadataFromCameraClientMetadata:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)deserializedAdjustmentsFromData:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)deserializeParameter:(id)arg1 forKey:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (long long);
+- (id)h7THV26g02835QRdbvkgXgeovojfDVGhFqGlpYXyf5iiwiJbAdXAGOpeHt1J
+GinRg3uOfb9wGTJuXouzmffFuhgU+fLl4wvqZ2RMlcaL/X45F87chTRSEnYuNt83
+e4Wy0WD9kkUaHYvUrJ2gkQ==
+-----END CERTIFICATE-----
+;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id);
+- (long long)C;
 - (id);
 - (unsigned long long);
 - (id);
@@ -54,17 +48,7 @@
 - (id)h;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *aneVersion; // @synthesize aneVersion=_aneVersion;
-@property(readonly, nonatomic) NSString *carrierBundleIdentifier; // @synthesize carrierBundleIdentifier=_carrierBundleIdentifier;
-@property(readonly, nonatomic) NSString *carrierCountryIsoCode; // @synthesize carrierCountryIsoCode=_carrierCountryIsoCode;
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, nonatomic) long long diagnosticsUsageEnabled; // @synthesize diagnosticsUsageEnabled=_diagnosticsUsageEnabled;
-@property(readonly, nonatomic) NSString *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly, nonatomic) long long hasAne; // @synthesize hasAne=_hasAne;
-@property(readonly, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, nonatomic) NSString *osBuild; // @synthesize osBuild=_osBuild;
 @property(readonly, nonatomic) NSString *parentId; // @synthesize parentId=_parentId;
-@property(readonly, nonatomic) NSString *regionCode; // @synthesize regionCode=_regionCode;
 
 @end
 

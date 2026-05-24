@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBProcess, FBSDisplayConfiguration, FUApplicationBundleInfo, NSArray, NSMutableSet, NSObject, NSString;
-@protocol FUApplicationDataStore, OS_os_transaction;
+@class FBProcess, NSString;
 
 @interface FUApplication
 {
     struct os_unfair_lock_s _lock;
     NSString *_description;
-    NSObject<OS_os_transaction> *_transaction;
-    NSMutableSet *_trackedScenes;
-    id <FUApplicationDataStore> _dataStore;
-    FBSDisplayConfiguration *_defaultDisplay;
-    unsigned long long _supportedOrientations;
-    _Bool _everForeground;
-    _Bool _supportsMultiwindow;
-    _Bool _requiresFullScreen;
-    _Bool _supportsPad;
-    _Bool _supportsPhone;
-    struct CGSize _usableDisplaySizeInPoints;
-    _Bool _preferSmallerDisplaySize;
-    _Bool _useTrueDisplaySize;
-    _Bool _hasComputedFullScreenSize;
-    struct CGSize _cachedFullScreenSize;
-    NSArray *_usableDisplaySizes;
-    _Bool _runningAsPhoneApp;
-    unsigned int _userID;
-    FBProcess *_process;
-    FUApplicationBundleInfo *_bundleInfo;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)M;|;
 - (void);
 - (id);
 - (void);
@@ -46,28 +25,20 @@
 - (void);
 - (void);
 - (void);
+- (id)@;
+- (void);
+- (void);
+- (void);
+- (id)ManagerDidFinishUnknownChange:) as this is an internal unit test -tearDown /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) FUApplicationBundleInfo *bundleInfo; // @synthesize bundleInfo=_bundleInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) FBProcess *process; // @synthesize process=_process;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned int userID; // @synthesize userID=_userID;
 
 @end

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol GEOTransitArtworkDataSource;
+@class GEONameInfo, NSMutableArray;
 
 @protocol GEOCompanionManeuverStep
+- (void);
+- (NSMutableArray *);
+- (void):(GEONameInfo *)arg1 16;
+- (void)NCDPersistenceBackend>";
+- (_Bool)_showCompanyInFallback;
+- (_Bool)_requestedMultivalueIdentifierCount;
 - (int)àÛôg?3Q@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasJunctionType;
 @property(nonatomic) _Bool hasManeuverType;
-@property(readonly, nonatomic) struct GEOJunctionElement *junctionElements;
-@property(readonly, nonatomic) unsigned long long junctionElementsCount;
-@property(nonatomic) int junctionType;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> maneuverArtworkOverride;
-@property(retain, nonatomic) NSMutableArray *maneuverNames;
-@property(nonatomic) int maneuverType;
-@property(retain, nonatomic) NSMutableArray *signposts;
-@property(readonly, nonatomic) int transportType;
 @end
 

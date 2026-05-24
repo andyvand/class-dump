@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface OITSUHTMLTable
 {
     NSMutableDictionary *_columnAttributes;
-    NSMutableDictionary *_rowClasses;
-    NSMutableDictionary *_cellAttributes;
-    NSMutableArray *_columnHeaders;
-    NSMutableArray *_rows;
-    unsigned long long _rowClassStride;
 }
 
 + (id);
@@ -23,17 +18,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id))	;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void)T;
+- (void)?;
 - (void);
 - (id);
 - (void);
@@ -41,9 +36,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) unsigned long long lastRowIndex;
-@property(nonatomic) unsigned long long rowClassStride; // @synthesize rowClassStride=_rowClassStride;
 
 @end
 

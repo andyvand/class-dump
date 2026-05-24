@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-@protocol QLMarkupViewControllerDelegate;
-
 @interface QLMarkupViewController
 {
     _Bool _isDirty;
-    id <QLMarkupViewControllerDelegate> _delegate;
-    NSURL *_originalURL;
 }
 
 - (_Bool);
@@ -20,19 +15,17 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)_prewarmedState;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ng>"8;
 - (void);
 
 // Remaining properties
-@property __weak id <QLMarkupViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property _Bool isDirty; // @synthesize isDirty=_isDirty;
-@property(retain) NSURL *originalURL; // @synthesize originalURL=_originalURL;
 
 @end
 

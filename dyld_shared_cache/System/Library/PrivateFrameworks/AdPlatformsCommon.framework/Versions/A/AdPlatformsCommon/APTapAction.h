@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSURL;
-
 @interface APTapAction
 {
     _Bool _opensInstalledApp;
-    long long _actionType;
-    NSURL *_actionURL;
-    double _confirmedClickInterval;
-    NSNumber *_adamIdentifier;
-    long long _templateType;
-    NSDictionary *_iTunesMetadata;
 }
 
 + (_Bool);
@@ -25,25 +17,19 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)1b3b1b1b1b1b1}[37c]}40;
 - (void);
 - (void)"PCNativeStyle",&,N,V_defaultStyle;
 
 // Remaining properties
 @property long long actionType; // @synthesize actionType=_actionType;
-@property(retain) NSURL *actionURL; // @synthesize actionURL=_actionURL;
-@property(retain) NSNumber *adamIdentifier; // @synthesize adamIdentifier=_adamIdentifier;
-@property double confirmedClickInterval; // @synthesize confirmedClickInterval=_confirmedClickInterval;
-@property(retain) NSDictionary *iTunesMetadata; // @synthesize iTunesMetadata=_iTunesMetadata;
-@property(nonatomic) _Bool opensInstalledApp; // @synthesize opensInstalledApp=_opensInstalledApp;
-@property long long templateType; // @synthesize templateType=_templateType;
 
 @end
 

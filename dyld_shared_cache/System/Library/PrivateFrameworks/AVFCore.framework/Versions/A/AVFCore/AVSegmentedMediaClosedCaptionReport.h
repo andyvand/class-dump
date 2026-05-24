@@ -11,7 +11,7 @@
     NSDictionary *_dict;
 }
 
-- (_Bool);
+- (_Bool)"NSArray",R,C,N,V_personalEntities;
 - (id);
 - (void);
 - (id);
@@ -24,11 +24,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ccInStreamID;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic, getter=isExcludedFromAutoSelection) _Bool excludedFromAutoSelection;
-@property(readonly, nonatomic) NSString *extendedLanguageTag;
-@property(readonly, nonatomic) NSString *languageCode;
 @property(readonly, nonatomic) NSString *mediaType;
 
 @end

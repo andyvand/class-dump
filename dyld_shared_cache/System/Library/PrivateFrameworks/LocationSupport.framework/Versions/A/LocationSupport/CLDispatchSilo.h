@@ -6,16 +6,12 @@
 
 #import <LocationSupport/CLSilo.h>
 
-@class NSNumber, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CLDispatchSilo : CLSilo
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSOperationQueue *_operationQueue;
-    _Bool _useCLPermissiveTimer;
-    _Bool _isQueueSuspended;
-    NSNumber *_cohortId;
 }
 
 - (_Bool);
@@ -32,12 +28,12 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (void)pend or resume yet. See rdar:(CDUnknownBlockType)arg1 //problem/45973444;

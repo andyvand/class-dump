@@ -8,7 +8,14 @@
 
 @protocol _NSTextAnimation
 
+@optional
+- (NSString *)
+;
+
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: @"NSString"16@0:8
+// Property attributes: (null)
+
 @property(readonly, nonatomic) NSString *name;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,N

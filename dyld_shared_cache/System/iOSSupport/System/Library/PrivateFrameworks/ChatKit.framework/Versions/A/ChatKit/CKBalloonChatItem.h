@@ -6,40 +6,36 @@
 
 #import <ChatKit/CKChatItem.h>
 
-@class CKEntity, NSDate;
+@class CKEntity;
 
 @interface CKBalloonChatItem : CKChatItem
 {
     CKEntity *_entity;
-    _Bool _isMultilineText;
-    struct CGSize _balloonSizeAtMaxWidth;
-    struct CGSize _translationSecondaryTextSize;
-    struct UIEdgeInsets _textAlignmentInsetsAtMaxWidth;
-    struct UIEdgeInsets _tailInsetsAtMaxWidth;
 }
 
-+ (double);
-- (_Bool);
++ (double)e;
+- (_Bool)Delayer;
 - (struct CGSize);
 - (struct UIEdgeInsets);
-- (BOOL);
+- (BOOL);
 - (struct UIEdgeInsets);
-- (BOOL);
+- (BOOL)$Q;
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
+- (void)t;
+- (_Bool)t;
+- (_Bool);
+- (_Bool)e;
+- (id)neParentItems:] is not implemented /* Error: Ran out of types for this method. */;
+- (struct CGSize)%@ self.attachment.previewImages.count %lu;
+- (Class)ishingUpRegexMatchFinder:] /* Error: Ran out of types for this method. */;
+- (struct IMColorComponents)$;
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CGSize);
-- (Class);
-- (struct IMColorComponents);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)r
+;
 - (Class);
 - (struct CGSize);
 - (BOOL);
@@ -57,32 +53,14 @@
 - (struct UIEdgeInsets);
 - (Class);
 - (id);
-- (unsigned long long);
-- (id)creen;
+- (unsigned long long)setShouldExpire: /* Error: Ran out of types for this method. */;
+- (id)_contactSharingScreen;
 - (struct IMColorComponents)¨#;
 - (id)²xZG©ZySayÁG]IZ=[yAByADyä<[yAE§ZGÎZy ¦ZSgGGAEGGGG_Qo_máyAGGGG;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double balloonCornerRadius;
-@property(readonly, nonatomic) unsigned long long balloonCorners;
 @property(readonly, nonatomic) BOOL balloonOrientation;
-@property(readonly, nonatomic) BOOL balloonShape;
-@property(nonatomic) struct CGSize balloonSizeAtMaxWidth; // @synthesize balloonSizeAtMaxWidth=_balloonSizeAtMaxWidth;
-@property(readonly, nonatomic) Class balloonViewClass;
-@property(readonly, nonatomic) struct IMColorComponents dynamicFillColor;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly, nonatomic) Class impactBalloonViewClass;
-@property(readonly, nonatomic) _Bool isBlackholed;
-@property(readonly, nonatomic) _Bool isMultilineText; // @synthesize isMultilineText=_isMultilineText;
-@property(readonly, nonatomic) _Bool needsVibrantOuterStrokeOverBackground;
-@property(readonly, nonatomic) _Bool shouldCacheSize;
-@property(readonly, nonatomic) struct IMColorComponents strokeColor;
-@property(nonatomic) struct UIEdgeInsets tailInsetsAtMaxWidth; // @synthesize tailInsetsAtMaxWidth=_tailInsetsAtMaxWidth;
-@property(readonly, nonatomic) BOOL tailShape;
-@property(nonatomic) struct UIEdgeInsets textAlignmentInsetsAtMaxWidth; // @synthesize textAlignmentInsetsAtMaxWidth=_textAlignmentInsetsAtMaxWidth;
-@property(readonly, nonatomic) NSDate *time;
-@property(nonatomic) struct CGSize translationSecondaryTextSize; // @synthesize translationSecondaryTextSize=_translationSecondaryTextSize;
 
 @end
 

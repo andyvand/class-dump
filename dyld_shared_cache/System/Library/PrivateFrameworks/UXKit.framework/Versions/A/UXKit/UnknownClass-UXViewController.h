@@ -6,7 +6,7 @@
 
 @interface UnknownClass (UXViewController)
 - (id);
-- (void)Object;
+- (void)rowObject;
 - (void);
 @end
 

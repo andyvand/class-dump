@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(}Sh;
 
 // Remaining properties
 @property(readonly) ASDLogFileOptions *logOptions; // @synthesize logOptions=_logOptions;

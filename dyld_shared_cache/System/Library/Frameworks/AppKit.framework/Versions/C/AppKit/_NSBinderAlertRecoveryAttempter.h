@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)t content;
+- (_Bool)accepted;
 - (id);
 
 @end

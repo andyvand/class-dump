@@ -7,21 +7,11 @@
 @interface NewsAds.BannerAdMetricsView
 {
     id placementIdentifier;
-    id tracker;
-    id adFrame;
-    id contentInfo;
-    id state;
-    id onLongPress;
-    id metricsView;
-    id promotedContentInfoObserver;
-    id unfilledReasonObserver;
-    id padding;
-    id onSizeResolved;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)ibrary/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserData.swift;
+- (void)c7wn9rzpSpGsBvMbd49PVLiWAEKoO4O0/Library/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserData.swift;
+- (id)(}S;
 - (void);
 - (id);
 - (void);

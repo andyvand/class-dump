@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface IDSEndpointTransparency
 {
     unsigned long long _ktValidation;
-    NSError *_ktError;
 }
 
 + (_Bool);
@@ -19,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)URI:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *ktError; // @synthesize ktError=_ktError;
 @property(nonatomic) unsigned long long ktValidation; // @synthesize ktValidation=_ktValidation;
 
 @end

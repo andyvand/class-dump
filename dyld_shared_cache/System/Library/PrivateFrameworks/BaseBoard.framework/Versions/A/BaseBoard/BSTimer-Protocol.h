@@ -5,10 +5,9 @@
 //
 
 @protocol BSTimer
+- (void)igD9?;
 
 // Remaining properties
-@property(readonly, nonatomic) double fireInterval;
 @property(readonly, nonatomic, getter=isScheduled) _Bool scheduled;
-@property(readonly, nonatomic) double startTime;
 @end
 

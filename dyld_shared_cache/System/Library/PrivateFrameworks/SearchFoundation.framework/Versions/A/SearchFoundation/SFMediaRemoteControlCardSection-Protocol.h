@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFMediaRemoteControlCardSection
+- (void);
+- (NSData *)pk;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *playbackBundleIdentifier;
-@property(copy, nonatomic) NSString *playbackRouteUniqueIdentifier;
-@property(nonatomic) _Bool playbackRouteUniqueIdentifierIsEncrypted;
 @property(copy, nonatomic) NSString *type;
 @end
 

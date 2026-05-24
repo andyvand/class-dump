@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *rootStreamIdentifiers;
-@property(readonly, copy, nonatomic) NSSet *streamPublishers;
 @end
 

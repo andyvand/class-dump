@@ -7,7 +7,6 @@
 @interface PhotosUICore.iCloudLinkItemListManager.Mutator__priv_D18CE676E5E2A2B310C3FA58EE842D70
 {
     id observable;
-    id _itemList;
 }
 
 @end

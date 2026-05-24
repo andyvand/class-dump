@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACUIAccountTypesViewController;
-
 @interface ACUIAccountTypesCellView
 {
     _Bool _isLastRow;
-    _Bool _isHovered;
-    ACUIAccountTypesViewController *_accountTypesVC;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)B;
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (void);
@@ -27,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property __weak ACUIAccountTypesViewController *accountTypesVC; // @synthesize accountTypesVC=_accountTypesVC;
-@property _Bool isHovered; // @synthesize isHovered=_isHovered;
 @property _Bool isLastRow; // @synthesize isLastRow=_isLastRow;
 
 @end

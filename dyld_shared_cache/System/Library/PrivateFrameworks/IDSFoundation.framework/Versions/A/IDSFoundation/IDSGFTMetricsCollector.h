@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSGFTMetricsAnonymizer, IDSGFTMetricsLocalJoin, IDSGFTMetricsMembershipChange, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface IDSGFTMetricsCollector
 {
     NSMutableDictionary *_referencePointsByType;
-    NSMutableDictionary *_pushTokensByMKIs;
-    NSMutableDictionary *_unknownMKMReceiptTimes;
-    int _nextUniqueID;
-    IDSGFTMetricsMembershipChange *_lastMembershipChange;
-    NSMutableDictionary *_annotatorsByEventType;
-    NSSet *_activeParticipantURIs;
-    struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _unknownMKMFlushLock;
-    IDSGFTMetricsAnonymizer *_anonymizer;
-    _Bool _isInitiator;
-    NSString *_conversationID;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)7;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,49 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_;
 - (void);
 - (void);
 - (void);
@@ -91,6 +47,39 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)jh8	;
+- (void)b;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -105,22 +94,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)6;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id)!BùQæ+°1Â0@ù
 × ;
-- (id)erInfo: /* Error: Ran out of types for this method. */;
+- (id)setUserInfo: /* Error: Ran out of types for this method. */;
 - (void)ool disabled! (PGM enabled:%@) /* Error: Ran out of types for this method. */;
 - (void)ge;
 
 // Remaining properties
-@property(copy) NSSet *activeParticipantURIs;
 @property NSString *conversationID; // @synthesize conversationID=_conversationID;
-@property _Bool isInitiator; // @synthesize isInitiator=_isInitiator;
-@property(readonly) IDSGFTMetricsLocalJoin *localJoin;
 
 @end
 

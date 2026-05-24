@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id defaults;
-    id _downloadInProgress;
 }
 
 @end

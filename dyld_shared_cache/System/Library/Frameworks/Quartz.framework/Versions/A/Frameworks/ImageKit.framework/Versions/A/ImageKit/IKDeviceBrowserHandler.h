@@ -4,51 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDeviceBrowser, IKAccessoryView, IKDeviceBrowserView, IKDeviceItem, NSArray, NSCollectionView, NSIndexSet, NSLayoutConstraint, NSMutableArray, NSOutlineView, NSString, NSTabView, NSTableView, NSTreeController, NSView;
-
 @interface IKDeviceBrowserHandler
 {
     long long mode;
-    id delegate;
-    IKDeviceBrowserView *_deviceBrowserView;
-    NSArray *_deviceBrowserViewTLO;
-    NSTreeController *treeController;
-    NSView *containerView;
-    NSTabView *tabView;
-    NSOutlineView *outlineView;
-    NSTableView *tableView;
-    NSCollectionView *iconView;
-    IKAccessoryView *accessoryView;
-    NSLayoutConstraint *accessoryViewConstraint;
-    NSString *numberOfLocalDevices;
-    NSString *numberOfNetworkDevices;
-    _Bool hideNumberOfLocalDevices;
-    _Bool hideNumberOfNetworkDevices;
-    long long _icAutolaunchedDeviceRef;
-    _Bool _icDisabledLastSelection;
-    ICDeviceBrowser *deviceBrowser;
-    NSMutableArray *devices;
-    NSMutableArray *deviceUUIDs;
-    IKDeviceItem *currentDeviceItem;
-    _Bool addingOrRemoving;
-    NSIndexSet *tableSelectionIndexes;
-    NSIndexSet *iconSelectionIndexes;
-    _Bool _updatingSelections;
-    _Bool isInitialized;
-    _Bool shouldExpandLocalDevices;
-    _Bool shouldExpandRemoteDevices;
-    _Bool displaysLocalCameras;
-    _Bool displaysLocalScanners;
-    _Bool displaysNetworkCameras;
-    _Bool displaysNetworkScanners;
-    _Bool useLocalDevices;
-    _Bool useNetworkDevices;
-    _Bool deviceSelectionDisabled;
-    _Bool displaysAccessoryView;
-    _Bool accessoryViewIsExpanded;
-    NSArray *accessoryConstraints;
-    _Bool _isInInterfaceBuilderApp;
-    _Bool _allDevicesAdded;
 }
 
 - (void);
@@ -56,13 +14,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -98,42 +56,24 @@
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool)RP;
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -141,23 +81,41 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void)setPayloadFilterBlackList:(id)arg1;
+- (void)initWithBundleIdentifier:(_Bool)arg1 changeHandler: /* Error: Ran out of types for this method. */;
+- (void)getLocalDeviceIdentifierAndReturnError:(id)arg1;
+- (void)nRatings loadRegionRatingsDataWithCompletionHandler received ratings data:(id)arg1 %@;
+- (void)ferent identifiers;
+- (void)blic}@;
+- (id)blic}@;
+- (_Bool)from organization:(id)arg1 %@;
+- (_Bool)%{public}s:(id)arg1 app exceptions empty;
+- (_Bool)a Validation failed with:(id)arg1 %{public}@;
+- (id)ScreenTimeSettings failed with:%{public}@ /* Error: Ran out of types for this method. */;
+- (long long)or store:(id)arg1 %{public}@, Delete:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (struct CGSize);
@@ -165,10 +123,10 @@
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void)ueuePriority:(id)arg1;
-- (id)oundaries;
-- (void)th;
+- (void);
+- (void)setQueuePriority:(id)arg1;
+- (id)checkZoomBoundaries;
+- (void)_qlQueueLength;
 - (id)rray",&,V_fileFormats;
 - (id)kIKScannerDeviceView_Advanced_Reset;
 - (void)usText:' /* Error: Ran out of types for this method. */;
@@ -177,41 +135,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) IKAccessoryView *accessoryView; // @synthesize accessoryView;
-@property(retain) NSLayoutConstraint *accessoryViewConstraint; // @synthesize accessoryViewConstraint;
-@property(nonatomic) _Bool accessoryViewIsExpanded; // @synthesize accessoryViewIsExpanded;
-@property(retain) NSView *containerView; // @synthesize containerView;
-@property(nonatomic) IKDeviceItem *currentDeviceItem; // @synthesize currentDeviceItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property ICDeviceBrowser *deviceBrowser; // @synthesize deviceBrowser;
-@property(retain) NSArray *deviceBrowserViewTLO; // @synthesize deviceBrowserViewTLO=_deviceBrowserViewTLO;
-@property _Bool deviceSelectionDisabled; // @synthesize deviceSelectionDisabled;
-@property NSMutableArray *devices; // @synthesize devices;
-@property(nonatomic) _Bool displaysAccessoryView; // @synthesize displaysAccessoryView;
-@property(nonatomic) _Bool displaysLocalCameras; // @synthesize displaysLocalCameras;
-@property(nonatomic) _Bool displaysLocalScanners; // @synthesize displaysLocalScanners;
-@property(nonatomic) _Bool displaysNetworkCameras; // @synthesize displaysNetworkCameras;
-@property(nonatomic) _Bool displaysNetworkScanners; // @synthesize displaysNetworkScanners;
-@property(readonly) unsigned long long hash;
-@property _Bool hideNumberOfLocalDevices; // @synthesize hideNumberOfLocalDevices;
-@property _Bool hideNumberOfNetworkDevices; // @synthesize hideNumberOfNetworkDevices;
-@property(retain) NSIndexSet *iconSelectionIndexes; // @synthesize iconSelectionIndexes;
-@property(retain) NSCollectionView *iconView; // @synthesize iconView;
-@property _Bool isInitialized; // @synthesize isInitialized;
-@property(nonatomic) long long mode; // @synthesize mode;
-@property(copy) NSString *numberOfLocalDevices; // @synthesize numberOfLocalDevices;
-@property(copy) NSString *numberOfNetworkDevices; // @synthesize numberOfNetworkDevices;
-@property(retain) NSOutlineView *outlineView; // @synthesize outlineView;
-@property(readonly) Class superclass;
-@property(retain) NSTabView *tabView; // @synthesize tabView;
-@property(retain) NSIndexSet *tableSelectionIndexes; // @synthesize tableSelectionIndexes;
-@property(retain) NSTableView *tableView; // @synthesize tableView;
-@property(retain) NSTreeController *treeController; // @synthesize treeController;
 
 @end
 

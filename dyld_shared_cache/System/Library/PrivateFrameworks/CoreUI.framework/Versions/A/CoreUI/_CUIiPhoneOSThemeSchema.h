@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (const CDStruct_22c2ae3f *);
 - (id);
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)<;
 - (const CDStruct_22c2ae3f *);
 - (unsigned long long);
 - (const CDStruct_22c2ae3f *);
 - (unsigned long long);
 - (const CDStruct_c77fb927 *);
 - (id);
-- (const CDStruct_22c2ae3f *);
+- (const CDStruct_22c2ae3f *)qa;
 - (unsigned long long);
-- (const CDStruct_22c2ae3f *);
+- (const CDStruct_22c2ae3f *)<;
 - (id);
 - (const CDStruct_c77fb927 *);
 - (const CDStruct_22c2ae3f *);

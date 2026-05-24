@@ -9,13 +9,13 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)languageTerm;
+- (id)"HMActionSet"8;
+- (void)link;
+- (id)WFShortcutsDrawerHideInternalSwitches;
+- (id)WFShortcutsDefaultPosterRepresentation;
+- (void)WFShortcutsAutomationsBackgroundRunningTesting;
+- (_Bool)IntentsHandledBySiriOverride;
 
 @end
 

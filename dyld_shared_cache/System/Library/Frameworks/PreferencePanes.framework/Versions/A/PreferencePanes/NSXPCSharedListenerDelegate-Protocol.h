@@ -5,5 +5,8 @@
 //
 
 @protocol NSXPCSharedListenerDelegate
+
+@optional
+- (void);
 @end
 

@@ -6,42 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorAppIntentCallEnded, ExecutorSiriSchemaExecutorAppIntentCallFailed, ExecutorSiriSchemaExecutorAppIntentCallStarted, NSData, SISchemaUUID;
+@class ExecutorSiriSchemaExecutorAppIntentCallStarted;
 
 @interface ExecutorSiriSchemaExecutorAppIntentCallContext : SISchemaInstrumentationMessage
 {
     ExecutorSiriSchemaExecutorAppIntentCallStarted *_startedOrChanged;
-    ExecutorSiriSchemaExecutorAppIntentCallEnded *_ended;
-    ExecutorSiriSchemaExecutorAppIntentCallFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)W;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
+- (void)@;
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ctivate received an XPC_ERROR_CONNECTION_INTERRUPTED error.
+;
 - (void);
-- (id);
+- (id)%x;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -49,22 +42,13 @@
 - (_Bool);
 - (id);
 - (id)oStreamReadyTimeInNs"b1"secondPassFirstAudioPacketReceptionTimeInNs"b1"secondPassLastAudioPacketReceptionTimeInNs"b1"secondPassCheckerModelKeywordDetectionStartTimeInNs"b1"secondPassCheckerModelKeywordDetectionEndTimeInNs"b1"lastDisplayWakeTimeOffsetInNs"b1"isHSJSTriggerFromAlwaysOnMicBuffer"b1"displayWakeTimeOffsetInNs"b1"neptuneDetectionApiScore"b1};
-- (id)nEnded;
+- (id)RGSiriSchemaRGHallucinationDetectionEnded;
 - (id)´Ø´;
 - (void)ì?ºÿ;
 - (id)µaì+;
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorAppIntentCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorAppIntentCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ExecutorSiriSchemaExecutorAppIntentCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (void)orKey: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)removeObjectForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *engagementData;

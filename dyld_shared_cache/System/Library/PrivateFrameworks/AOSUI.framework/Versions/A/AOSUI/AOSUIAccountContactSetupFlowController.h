@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AABeneficiaryInfo, AACustodianController, AALocalContactInfo, ACAccount, AKBiometricRatchetController, AOSUIAccountContactsSharingController, AOSUIContactsProvider, AOSUIOBBaseViewController, CNContactPicker, NSDictionary, NSMutableArray, NSString, NSUUID, NSWindow, iCloudAccountDetailsWebTabView;
-@protocol AOSUIAccountContactSetupFlowControllerDelegate;
+@class ACAccount, NSWindow;
 
 @interface AOSUIAccountContactSetupFlowController
 {
     ACAccount *_appleAccount;
-    NSWindow *_modalWindow;
-    unsigned long long _requestedFlow;
-    AOSUIOBBaseViewController *baseViewController;
-    unsigned long long currentSetupStep;
-    AOSUIContactsProvider *_contactsProvider;
-    NSDictionary *_authResults;
-    AALocalContactInfo *_selectedContact;
-    AABeneficiaryInfo *_selectedBeneficiary;
-    AACustodianController *_custodianController;
-    NSUUID *_custodianshipID;
-    NSMutableArray *_suggestedContacts;
-    CNContactPicker *contactPicker;
-    unsigned long long _currentRadioListSelection;
-    AOSUIAccountContactsSharingController *_sharingController;
-    CDUnknownBlockType _dismref;
-    iCloudAccountDetailsWebTabView *_webView;
-    AKBiometricRatchetController *_bioRatchetController;
-    _Bool _isWalrusEnabled;
-    NSWindow *_hostWindow;
-    id <AOSUIAccountContactSetupFlowControllerDelegate> _delegate;
-    NSString *_telemetryFlowID;
 }
 
+- (void)3;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)k	m;
 - (void);
 - (void);
 - (void);
@@ -41,14 +33,16 @@
 - (void);
 - (void);
 - (void);
+- (void)k`8?kɌ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void)$;
 - (void);
-- (void);
-- (void);
+- (void)kiu;
 - (void);
 - (void);
 - (void);
@@ -62,23 +56,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -106,17 +84,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AOSUIAccountContactSetupFlowControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool isWalrusEnabled; // @synthesize isWalrusEnabled=_isWalrusEnabled;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

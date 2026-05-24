@@ -6,22 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSecurityFDEFileVaultDeclaration : CEMConfigurationBase
 {
     NSString *_payloadEnable;
-    NSNumber *_payloadDefer;
-    NSNumber *_payloadUserEntersMissingInfo;
-    NSNumber *_payloadUseRecoveryKey;
-    NSNumber *_payloadShowRecoveryKey;
-    NSString *_payloadOutputPath;
-    NSString *_payloadUsername;
-    NSString *_payloadPassword;
-    NSNumber *_payloadUseKeychain;
-    NSNumber *_payloadDeferForceAtUserLoginMaxBypassAttempts;
-    NSNumber *_payloadDeferDontAskAtUserLogout;
-    NSString *_payloadCertificateIdentifier;
 }
 
 + (id);
@@ -45,7 +34,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -60,30 +49,12 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)[\d|\.]+)(?<unit>;
 - (id);
-- (void);
+- (void)ead server hello A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadCertificateIdentifier; // @synthesize payloadCertificateIdentifier=_payloadCertificateIdentifier;
-@property(copy, nonatomic) NSNumber *payloadDefer; // @synthesize payloadDefer=_payloadDefer;
-@property(copy, nonatomic) NSNumber *payloadDeferDontAskAtUserLogout; // @synthesize payloadDeferDontAskAtUserLogout=_payloadDeferDontAskAtUserLogout;
-@property(copy, nonatomic) NSNumber *payloadDeferForceAtUserLoginMaxBypassAttempts; // @synthesize payloadDeferForceAtUserLoginMaxBypassAttempts=_payloadDeferForceAtUserLoginMaxBypassAttempts;
 @property(copy, nonatomic) NSString *payloadEnable; // @synthesize payloadEnable=_payloadEnable;
-@property(copy, nonatomic) NSString *payloadOutputPath; // @synthesize payloadOutputPath=_payloadOutputPath;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
-@property(copy, nonatomic) NSNumber *payloadShowRecoveryKey; // @synthesize payloadShowRecoveryKey=_payloadShowRecoveryKey;
-@property(copy, nonatomic) NSNumber *payloadUseKeychain; // @synthesize payloadUseKeychain=_payloadUseKeychain;
-@property(copy, nonatomic) NSNumber *payloadUseRecoveryKey; // @synthesize payloadUseRecoveryKey=_payloadUseRecoveryKey;
-@property(copy, nonatomic) NSNumber *payloadUserEntersMissingInfo; // @synthesize payloadUserEntersMissingInfo=_payloadUserEntersMissingInfo;
-@property(copy, nonatomic) NSString *payloadUsername; // @synthesize payloadUsername=_payloadUsername;
-@property(readonly) Class superclass;
 
 @end
 

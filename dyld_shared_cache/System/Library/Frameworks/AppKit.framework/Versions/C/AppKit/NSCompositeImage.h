@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     NSArray *_constituentImages;
 }
 
-+ (id);
++ (id)le:(id)arg1 %@;
 - (void);
-- (id);
-- (id);
+- (id)_URLHasScheme:(id)arg1;
+- (id)to be chunked.;
 - (void);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *):(struct CGRect *)arg1 TK;
+- (id)om.11bitstudios.frostpunk2;
 - (id);
 - (id);
-- (id);
-- (id)mage:(struct CGSize)arg1 presentationFrame:candidateRects: /* Error: Ran out of types for this method. */;
-- (id)ts:(struct _NSZone *)arg1 atArrangedObjectIndexes:objectHandler: /* Error: Ran out of types for this method. */;
+- (id)initWithSnapshotImage:(struct CGSize)arg1 presentationFrame:candidateRects: /* Error: Ran out of types for this method. */;
+- (id)_insertObjects:(struct _NSZone *)arg1 atArrangedObjectIndexes:objectHandler: /* Error: Ran out of types for this method. */;
 - (void)0mB;
 
 // Remaining properties

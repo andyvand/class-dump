@@ -6,46 +6,31 @@
 
 #import <MechanismBase/MechanismBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MechanismBaseComposite : MechanismBase
 {
     NSArray *_submechanisms;
-    _Bool _AND;
-    _Bool _OR;
-    unsigned long long _k;
-    unsigned long long _n;
 }
 
-- (id);
+- (id)%d, should be %d);
+- (void)y);
+- (void)eature (required set = 0x%.6X%.8X, available = 0x%.6X%.8X);
+- (_Bool))  - only INVAR type supported for variances in GMIR (file %s);
+- (_Bool)INVARBITS;
+- (_Bool)MEANBITS;
+- (id)- only an odd number of frames supported;
+- (_Bool)getphraseresults() phrase %d out of range (0-%d);
+- (void)d after create();
+- (unsigned long long)only be called after create();
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)_documentTiles;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAND) _Bool AND; // @synthesize AND=_AND;
-@property(nonatomic, getter=isOR) _Bool OR; // @synthesize OR=_OR;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long k; // @synthesize k=_k;
-@property(nonatomic) unsigned long long n; // @synthesize n=_n;
-@property(retain, nonatomic) NSArray *submechanisms; // @synthesize submechanisms=_submechanisms;
-@property(readonly) Class superclass;
 
 @end
 

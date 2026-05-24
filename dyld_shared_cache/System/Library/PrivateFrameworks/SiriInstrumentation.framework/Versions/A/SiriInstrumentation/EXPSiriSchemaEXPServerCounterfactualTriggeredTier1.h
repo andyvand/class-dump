@@ -6,32 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class EXPSiriSchemaEXPSiriPegasusResponseSummary, NSArray, NSData, NSString, SISchemaUUID;
+@class NSArray;
 
 @interface EXPSiriSchemaEXPServerCounterfactualTriggeredTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_allocations;
-    SISchemaUUID *_codepathId;
-    SISchemaUUID *_pegasusId;
-    NSArray *_counterfactualAllocations;
-    _Bool _isCounterfactualDifferent;
-    float _compareRankingAtK;
-    long long _kValue;
-    int _diffOutcome;
-    EXPSiriSchemaEXPSiriPegasusResponseSummary *_treatmentSummary;
-    EXPSiriSchemaEXPSiriPegasusResponseSummary *_counterfactualSummary;
-    NSString *_resultCandidateId;
-    struct {
-        unsigned int isCounterfactualDifferent:1;
-        unsigned int compareRankingAtK:1;
-        unsigned int kValue:1;
-        unsigned int diffOutcome:1;
-    } _has;
-    _Bool _hasCodepathId;
-    _Bool _hasPegasusId;
-    _Bool _hasTreatmentSummary;
-    _Bool _hasCounterfactualSummary;
-    _Bool _hasResultCandidateId;
 }
 
 - (id);
@@ -49,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -58,7 +37,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
@@ -77,7 +56,7 @@
 - (id);
 - (float);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -93,40 +72,20 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)LAM2;
+- (id)@=%@, %@=%@};
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)anismRequestRatio"b1};
-- (id)SECall;
+- (id)PSESchemaPSECall;
 - (id)Ì|Ï;
 - (void)@îÿìê;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allocations; // @synthesize allocations=_allocations;
-@property(retain, nonatomic) SISchemaUUID *codepathId; // @synthesize codepathId=_codepathId;
-@property(nonatomic) float compareRankingAtK; // @synthesize compareRankingAtK=_compareRankingAtK;
-@property(copy, nonatomic) NSArray *counterfactualAllocations; // @synthesize counterfactualAllocations=_counterfactualAllocations;
-@property(retain, nonatomic) EXPSiriSchemaEXPSiriPegasusResponseSummary *counterfactualSummary; // @synthesize counterfactualSummary=_counterfactualSummary;
-@property(nonatomic) int diffOutcome; // @synthesize diffOutcome=_diffOutcome;
-@property(nonatomic) _Bool hasCodepathId; // @synthesize hasCodepathId=_hasCodepathId;
-@property(nonatomic) _Bool hasCompareRankingAtK;
-@property(nonatomic) _Bool hasCounterfactualSummary; // @synthesize hasCounterfactualSummary=_hasCounterfactualSummary;
-@property(nonatomic) _Bool hasDiffOutcome;
-@property(nonatomic) _Bool hasIsCounterfactualDifferent;
-@property(nonatomic) _Bool hasKValue;
-@property(nonatomic) _Bool hasPegasusId; // @synthesize hasPegasusId=_hasPegasusId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasTreatmentSummary; // @synthesize hasTreatmentSummary=_hasTreatmentSummary;
-@property(nonatomic) _Bool isCounterfactualDifferent; // @synthesize isCounterfactualDifferent=_isCounterfactualDifferent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long kValue; // @synthesize kValue=_kValue;
-@property(retain, nonatomic) SISchemaUUID *pegasusId; // @synthesize pegasusId=_pegasusId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) EXPSiriSchemaEXPSiriPegasusResponseSummary *treatmentSummary; // @synthesize treatmentSummary=_treatmentSummary;
 
 @end
 

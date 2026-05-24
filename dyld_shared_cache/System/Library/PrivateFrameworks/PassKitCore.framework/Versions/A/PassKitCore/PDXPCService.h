@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
-
 @interface PDXPCService
 {
     struct os_unfair_lock_s _lock;
-    NSXPCConnection *_connection;
-    NSString *_className;
-    _Bool _callbacksSuspended;
-    int _remoteProcessIdentifier;
-    NSString *_remoteProcessApplicationIdentifier;
 }
 
-- (void);
+- (void)1;
+- (id)@;
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (int)lateSecureEvent: /* Error: Ran out of types for this method. */;
-- (id)usByAppleID;
+- (int)simulateSecureEvent: /* Error: Ran out of types for this method. */;
+- (id)_fetchStatusByAppleID;
 - (void)tCount:%ld;  /* Error: Ran out of types for this method. */;
-- (void)32PKSecureElementProvisioningStateCSg;
+- (void)So32PKSecureElementProvisioningStateCSg;
 - (void)¯;
 - (void)u;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *remoteProcessApplicationIdentifier; // @synthesize remoteProcessApplicationIdentifier=_remoteProcessApplicationIdentifier;
 @property(readonly, nonatomic) int remoteProcessIdentifier; // @synthesize remoteProcessIdentifier=_remoteProcessIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

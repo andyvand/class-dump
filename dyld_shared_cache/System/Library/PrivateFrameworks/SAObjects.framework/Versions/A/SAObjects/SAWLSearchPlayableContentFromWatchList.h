@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)j;
 - (void);
 - (id);
 - (void);
@@ -26,14 +26,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void):(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)keylineItemWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalId;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) _Bool onlyReturnNextItem;
-@property(copy, nonatomic) NSString *siriLocale;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

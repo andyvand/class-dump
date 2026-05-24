@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUILabel, NSImageView;
+@class NSImageView;
 
 @interface LeadingIconAndTextView
 {
     NSImageView *_iconView;
-    CalUILabel *_textView;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSImageView *iconView; // @synthesize iconView=_iconView;
-@property(readonly, nonatomic) CalUILabel *textView; // @synthesize textView=_textView;
 
 @end
 

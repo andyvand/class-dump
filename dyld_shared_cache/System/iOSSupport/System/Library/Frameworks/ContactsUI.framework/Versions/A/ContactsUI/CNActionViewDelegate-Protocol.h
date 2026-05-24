@@ -5,5 +5,8 @@
 //
 
 @protocol CNActionViewDelegate
+
+@optional
+- (_Bool)	;
 @end
 

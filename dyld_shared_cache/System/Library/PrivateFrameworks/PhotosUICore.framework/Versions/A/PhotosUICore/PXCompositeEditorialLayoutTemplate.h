@@ -7,12 +7,6 @@
 @interface PXCompositeEditorialLayoutTemplate
 {
     struct CGRect *_rects;
-    double *_rectWeights;
-    _Bool _shouldIgnoreWeights;
-    long long _identifier;
-    long long _numberOfRects;
-    long long _numberOfColumns;
-    double _tileAspectRatio;
 }
 
 - (long long);
@@ -20,18 +14,15 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
-- (id);
+- (id)x;
 - (long long)¬Ü;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(readonly, nonatomic) long long numberOfRects; // @synthesize numberOfRects=_numberOfRects;
-@property(readonly, nonatomic) double tileAspectRatio; // @synthesize tileAspectRatio=_tileAspectRatio;
 
 @end
 

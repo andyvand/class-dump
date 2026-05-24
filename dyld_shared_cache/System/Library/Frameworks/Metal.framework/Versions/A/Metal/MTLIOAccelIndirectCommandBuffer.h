@@ -6,18 +6,11 @@
 
 #import <Metal/MTLIOAccelResource.h>
 
-@class MTLIOAccelBuffer, MTLIndirectCommandBufferDescriptor;
-@protocol MTLIndirectComputeCommandEncoder, MTLIndirectRenderCommandEncoder;
+@class MTLIOAccelBuffer;
 
 @interface MTLIOAccelIndirectCommandBuffer : MTLIOAccelResource
 {
     MTLIOAccelBuffer *_privateICBuffer;
-    unsigned long long _maxCommandCount;
-    unsigned long long _commandBufferType;
-    id <MTLIndirectComputeCommandEncoder> _privateIndirectComputeEncoder;
-    id <MTLIndirectRenderCommandEncoder> _privateIndirectRenderEncoder;
-    MTLIndirectCommandBufferDescriptor *_descriptor;
-    struct MTLIndirectCommandBufferHeader _internalHeader;
 }
 
 - (id);
@@ -37,7 +30,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (struct MTLResourceID);
+- (struct MTLResourceID);
 - (unsigned long long);
 - (void);
 - (id);
@@ -45,12 +38,7 @@
 - (unsigned long long)4;
 
 // Remaining properties
-@property(readonly) unsigned long long commandBufferType;
-@property(readonly) MTLIndirectCommandBufferDescriptor *descriptor;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) MTLIOAccelBuffer *privateICBuffer;
-@property(readonly) unsigned long long size;
-@property(readonly) unsigned long long storageMode;
 
 @end
 

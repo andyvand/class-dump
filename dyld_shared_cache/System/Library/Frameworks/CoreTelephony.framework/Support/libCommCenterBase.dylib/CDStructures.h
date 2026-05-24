@@ -11,12 +11,12 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct OSSharedRef<os_log_s> {
-    struct os_log_s *fRef;
+    struct os_log_s *_field1;
 };
 
 struct OsLogContext {
-    char *domain;
-    struct OSSharedRef<os_log_s> handle;
+    char *_field1;
+    struct OSSharedRef<os_log_s> _field2;
 };
 
 struct basic_string<char, std::char_traits<char>, std::allocator<char>> {

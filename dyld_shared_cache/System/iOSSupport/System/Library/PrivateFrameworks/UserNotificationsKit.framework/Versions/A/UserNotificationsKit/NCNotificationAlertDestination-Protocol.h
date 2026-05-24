@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NCNotificationRequest;
 @protocol NCNotificationAlertDestinationDelegate;
 
 @protocol NCNotificationAlertDestination
+- (_Bool):] /* Error: Ran out of types for this method. */;
+
+@optional
+- (void)tionRunRequestResponse readMessageFromData:(NCNotificationRequest *)arg1 error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAlertDestination) _Bool alertDestination;

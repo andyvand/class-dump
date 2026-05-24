@@ -7,25 +7,6 @@
 @interface PodcastsFoundation.SubscriptionOffer
 {
     id id;
-    id isFamily;
-    id isSubscribed;
-    id eligibilityType;
-    id offerName;
-    id kind;
-    id title;
-    id period;
-    id isStudent;
-    id description;
-    id buyParams;
-    id freeTrial;
-    id freeTrialPeriod;
-    id isFree;
-    id valueProposition;
-    id appId;
-    id appType;
-    id appName;
-    id appArtwork;
-    id authorizationUrl;
 }
 
 @end

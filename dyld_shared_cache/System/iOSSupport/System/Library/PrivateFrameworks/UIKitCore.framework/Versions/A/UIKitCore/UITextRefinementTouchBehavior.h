@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextLoupeSession, UITextRange, _UIKeyboardTextSelectionController;
-@protocol _UIInvalidatable;
-
 __attribute__((visibility("hidden")))
 @interface UITextRefinementTouchBehavior
 {
     _Bool _isShiftKeyBeingHeld;
-    UITextRange *_originalTextRange;
-    long long _activeSelectionMode;
-    _UIKeyboardTextSelectionController *_activeSelectionController;
-    UITextLoupeSession *_loupeSession;
-    id <_UIInvalidatable> _grabberHandleSuppressionAssertion;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)recordsToSave;
+- (_Bool)lsAppRecordForURL:(id)arg1 checkInstalledAppsOnly: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (void);
+- (void)initWithSender:(id)arg1 time:(long long)arg2 body:(CDUnknownBlockType)arg3 attributes:(CDUnknownBlockType)arg4 fileTransferGUIDs:(CDUnknownBlockType)arg5 flags:(long long)arg6 error:(_Bool *)arg7 guid:associatedMessageGUID:associatedMessageType:associatedMessageRange:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (_Bool);
+- (_Bool)copyChatsWithGroupedHandles:(id)arg1 style:(id)arg2 displayName:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (Class);
-- (void);
-- (void);
-- (void);
+- (void)est for an empty array of item identifiers;
+- (void)blic}ld itemIdentifiers:(id)arg1 %s;
+- (void)@;
 - (_Bool);
 - (struct CGPoint);
 - (void)ÀCa;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

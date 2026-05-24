@@ -6,18 +6,11 @@
 
 #import <MediaMiningKit/CLSInvestigationFeeder.h>
 
-@class CLSCurationContext, NSArray, NSSet, PHAssetCollection, PHFetchOptions, PHFetchResult;
+@class PHAssetCollection;
 
 @interface CLSInvestigationPhotoKitFeeder : CLSInvestigationFeeder
 {
     unsigned long long _assetPrefetchOptions;
-    PHFetchResult *_fetchResult;
-    NSArray *_allItems;
-    unsigned long long _numberOfAllPeople;
-    CLSCurationContext *_curationContext;
-    PHAssetCollection *_assetCollection;
-    PHFetchOptions *_assetFetchOptions;
-    NSSet *_shareParticipants;
 }
 
 + (id);
@@ -31,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (id);
 - (id);
@@ -44,7 +37,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)amsBag;
 - (id);
 - (id);
 - (unsigned long long);
@@ -53,14 +46,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, copy, nonatomic) PHFetchOptions *assetFetchOptions; // @synthesize assetFetchOptions=_assetFetchOptions;
-@property(readonly, nonatomic) PHFetchResult *assetFetchResult;
-@property(readonly, nonatomic) _Bool hasBestScoringAssets;
-@property(readonly, nonatomic) _Bool hasFavoritedAssets;
-@property(readonly, nonatomic) _Bool hasNonJunkAssets;
-@property(readonly, nonatomic) _Bool hasPeople;
-@property(readonly, nonatomic) unsigned long long numberOfAllPeople;
-@property(readonly, nonatomic) NSSet *shareParticipants; // @synthesize shareParticipants=_shareParticipants;
 
 @end
 

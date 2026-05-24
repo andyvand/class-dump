@@ -6,28 +6,20 @@
 
 #import <SafariShared/WBSFormMetadata.h>
 
-@class NSArray, NSString;
-
 @interface WBSMutableFormMetadata : WBSFormMetadata
 {
 }
 
 - (void);
 - (void);
-- (void);
+- (void)Qq;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *confirmPasswordElementUniqueID; // @dynamic confirmPasswordElementUniqueID;
-@property(copy, nonatomic) NSArray *controls; // @dynamic controls;
-@property(copy, nonatomic) NSString *firstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID; // @dynamic firstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID;
-@property(copy, nonatomic) NSString *oldPasswordElementUniqueID; // @dynamic oldPasswordElementUniqueID;
-@property(copy, nonatomic) NSString *passwordElementUniqueID; // @dynamic passwordElementUniqueID;
 @property(nonatomic) unsigned long long type; // @dynamic type;
-@property(copy, nonatomic) NSString *userNameElementUniqueID; // @dynamic userNameElementUniqueID;
 
 @end
 

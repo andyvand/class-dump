@@ -7,10 +7,6 @@
 @interface NewsUI2.InterludeViewController
 {
     id contentView;
-    id animationContainer;
-    id eventHandler;
-    id renderer;
-    id animator;
 }
 
 - (id);

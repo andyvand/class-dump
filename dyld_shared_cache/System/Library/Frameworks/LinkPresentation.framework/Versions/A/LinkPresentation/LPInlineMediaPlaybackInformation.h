@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAudio, LPLyricExcerptMetadata, NSArray, NSString, NSURL;
-
 @interface LPInlineMediaPlaybackInformation
 {
     unsigned long long _type;
-    NSString *_storeIdentifier;
-    NSString *_storefrontIdentifier;
-    NSArray *_offers;
-    NSURL *_previewURL;
-    LPLyricExcerptMetadata *_lyricExcerpt;
-    double _startTime;
-    NSString *_persistentIdentifier;
-    LPAudio *_audio;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)#;
 + (id);
 + (id);
 + (id);
@@ -30,12 +20,12 @@
 + (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)n;
 - (id);
 - (double);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void)0@ù
@@ -44,15 +34,6 @@
 - (id)ã;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) LPAudio *audio; // @synthesize audio=_audio;
-@property(readonly, nonatomic) _Bool isAvailableForAnonymousDownload;
-@property(readonly, retain, nonatomic) LPLyricExcerptMetadata *lyricExcerpt; // @synthesize lyricExcerpt=_lyricExcerpt;
-@property(readonly, copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(readonly, copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(readonly, copy, nonatomic) NSURL *previewURL; // @synthesize previewURL=_previewURL;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly, copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

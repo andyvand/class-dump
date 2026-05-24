@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSMutableData, NSString;
+@class NSDictionary;
 
 @interface SMIncompatibleAppUpdater
 {
     NSDictionary *_catalog;
-    NSError *_error;
-    NSString *_downloadLocation;
-    _Bool _updateComplete;
-    _Bool _updateSuccessful;
-    _Bool _startedUpdate;
-    _Bool _appleEVVerified;
-    _Bool _requireEVValidation;
-    NSMutableData *_catalogData;
 }
 
 + (id)1	1Â0@ù
@@ -37,17 +29,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)P;
+- (void);
+- (id)userConcernConfigManager;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -56,22 +48,7 @@
 × ;
 
 // Remaining properties
-@property _Bool appleEVVerified; // @synthesize appleEVVerified=_appleEVVerified;
 @property(retain) NSDictionary *catalog; // @synthesize catalog=_catalog;
-@property(retain) NSMutableData *catalogData; // @synthesize catalogData=_catalogData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *downloadLocation; // @synthesize downloadLocation=_downloadLocation;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property _Bool requireEVValidation; // @synthesize requireEVValidation=_requireEVValidation;
-@property _Bool startedUpdate; // @synthesize startedUpdate=_startedUpdate;
-@property(readonly) Class superclass;
-@property(readonly) _Bool updateComplete; // @synthesize updateComplete=_updateComplete;
-@property(readonly) _Bool updateSuccessful; // @synthesize updateSuccessful=_updateSuccessful;
 
 @end
 

@@ -12,30 +12,24 @@ __attribute__((visibility("hidden")))
 @interface UIAssistantBarRoundedButtonViewButton : UIButton
 {
     UIColor *_normalBackgroundColor;
-    UIColor *_highlightedBackgroundColor;
-    UIColor *_normalTitleColor;
-    UIColor *_highlightedTitleColor;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)r are the same, I am SMS Capable, My callerID is a phone number:(id)arg1 Sending Message via CT;
+- (void)sage via CT;
+- (void)age GUID for fallback hash with length %llu, rejecting replicated message;
+- (void)h actionIdentifier=%@;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)uestFocusUpdateToEnvironment:(_Bool)arg1 environment]`), outlining each step of the process for determining the next focused item.;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *highlightedBackgroundColor; // @synthesize highlightedBackgroundColor=_highlightedBackgroundColor;
-@property(retain, nonatomic) UIColor *highlightedTitleColor; // @synthesize highlightedTitleColor=_highlightedTitleColor;
 @property(retain, nonatomic) UIColor *normalBackgroundColor; // @synthesize normalBackgroundColor=_normalBackgroundColor;
-@property(retain, nonatomic) UIColor *normalTitleColor; // @synthesize normalTitleColor=_normalTitleColor;
 
 @end
 

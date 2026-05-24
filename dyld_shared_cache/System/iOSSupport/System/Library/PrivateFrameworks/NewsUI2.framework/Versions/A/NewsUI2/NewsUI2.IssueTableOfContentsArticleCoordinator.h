@@ -7,10 +7,6 @@
 @interface NewsUI2.IssueTableOfContentsArticleCoordinator
 {
     id delegate;
-    id tracker;
-    id articleCoordinator;
-    id sessionManager;
-    id issue;
 }
 
 @end

@@ -13,9 +13,9 @@
     UARPAccessoryHardwareHDS *hwID;
 }
 
++ (id)lic}s iMessage enabled for multiple subscriptions:%{bool}d alias:%s sim:%s /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-- (id);
+- (id)AMSPaymentViewTaskProtocol;
 - (void);
 
 @end

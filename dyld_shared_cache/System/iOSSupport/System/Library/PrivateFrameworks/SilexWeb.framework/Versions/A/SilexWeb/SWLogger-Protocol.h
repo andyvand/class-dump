@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol SWLogger
+- (void);
+- (void)ct<TSDOwningAttachment>"16@0:(NSString *)arg1 8;
 @end
 

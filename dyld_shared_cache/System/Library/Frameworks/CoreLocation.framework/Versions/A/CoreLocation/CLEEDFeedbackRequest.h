@@ -6,16 +6,9 @@
 
 #import <CoreLocation/CLEEDRequest.h>
 
-@class NSNumber;
-
 @interface CLEEDFeedbackRequest : CLEEDRequest
 {
     _Bool _callRelatedToEmergency;
-    long long _feedbackVersion;
-    NSNumber *_callerResponsive;
-    long long _callTrigger;
-    long long _callReason;
-    NSNumber *_respondersDispatched;
 }
 
 - (void);
@@ -33,19 +26,15 @@
 - (long long);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (long long);
-- (void);
+- (void)for %zu bytes
+;
 - (id);
-- (id);
+- (id)container_create_or_lookup_path_for_platform;
 
 // Remaining properties
-@property(nonatomic) long long callReason; // @synthesize callReason=_callReason;
-@property(nonatomic) _Bool callRelatedToEmergency; // @synthesize callRelatedToEmergency=_callRelatedToEmergency;
-@property(nonatomic) long long callTrigger; // @synthesize callTrigger=_callTrigger;
-@property(nonatomic) NSNumber *callerResponsive; // @synthesize callerResponsive=_callerResponsive;
 @property(nonatomic) long long feedbackVersion; // @synthesize feedbackVersion=_feedbackVersion;
-@property(nonatomic) NSNumber *respondersDispatched; // @synthesize respondersDispatched=_respondersDispatched;
 
 @end
 

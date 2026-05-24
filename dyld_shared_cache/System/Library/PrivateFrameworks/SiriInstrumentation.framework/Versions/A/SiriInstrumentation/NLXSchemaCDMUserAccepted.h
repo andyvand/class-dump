@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMUserAccepted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_offerId;
-    _Bool _hasOfferId;
 }
 
 - (void);
@@ -20,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509/x509_v3.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (id)1Â0@ù
 × ;
@@ -33,8 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOfferId; // @synthesize hasOfferId=_hasOfferId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *offerId; // @synthesize offerId=_offerId;
 
 @end

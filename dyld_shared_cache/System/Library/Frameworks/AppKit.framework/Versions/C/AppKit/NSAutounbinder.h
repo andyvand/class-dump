@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 
 @interface NSAutounbinder
 {
     NSObject *_bindingTarget;
-    _Bool _isRetainingBindingTarget;
-    _Bool _isRecordingBindings;
-    NSMutableArray *_bindingsToThisObject;
-    NSMutableArray *_observancesOfThisObject;
 }
 
+- (void)initWithBase64EncodedString:options: /* Error: Ran out of types for this method. */;
+- (void)backupFile;
+- (id)onnection %d;
+- (id);
+- (void)aTask connection:(id)arg1 challenged:(id)arg2 authCallback:(_Bool)arg3 ];
+- (void)connection:(id)arg1 didFinishLoadingWithError;
+- (id);
+- (id)6km;
+- (id)6kd;
+- (_Bool)2d4;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)predicateWithLeftExpression:rightExpression:modifier:type:options: /* Error: Ran out of types for this method. */;
+- (id)able to convert %lu/%lu objects during v%lu migration.;
 - (void);
 - (void)!hEùqà3ð1Â0@ù
 × ;

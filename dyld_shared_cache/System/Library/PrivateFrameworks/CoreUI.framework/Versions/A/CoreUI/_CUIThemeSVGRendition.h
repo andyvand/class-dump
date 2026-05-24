@@ -6,26 +6,10 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class NSArray, NSData;
-
 __attribute__((visibility("hidden")))
 @interface _CUIThemeSVGRendition : CUIThemeRendition
 {
     struct CGSVGDocument *_svgDocument;
-    NSData *_fileData;
-    unsigned int _standardPointSize;
-    NSArray *_vectorSizes;
-    double _baseline;
-    double _capline;
-    CDStruct_3c058996 _alignmentRectInsets;
-    _Bool _isAlignmentRect;
-    struct CGSize _canvasSize;
-    float _templateVersion;
-    _Bool _isInterpolatable;
-    long long _renderingMode;
-    short _containsMulticolorLayers;
-    short _containsHierarchicalLayers;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
@@ -49,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (int)Q1°1Â0@ù
 × ;
 - (id)r Background-Opaque;
-- (id)PartEdgesOnly;
+- (id)kCoreThemeNinePartEdgesOnly;
 
 @end
 

@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSMediaStreamDaemon, MSServerSideConfigProtocol, NSDictionary, NSString;
+@class NSString;
 
 @interface MSServerSideConfigManager
 {
     NSString *_personID;
-    NSDictionary *_config;
-    MSMediaStreamDaemon *_daemon;
-    NSString *_configPath;
-    MSServerSideConfigProtocol *_protocol;
-    int _state;
 }
 
 + (id);
 + (long long);
 + (long long);
 + (void);
-+ (id);
-+ (id);
++ (id)boxUID;
++ (id)nformation is missing;
 + (double);
 + (void);
-+ (int);
++ (int)bs(%ld,%ld), task:(id)arg1 %p bundleID:(id)arg2 %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_rawBatteryVoltageVolt;
+- (void)adding 5 elements to context;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)ib/libSystem.B.dylib;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *config;
-@property(nonatomic) MSMediaStreamDaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(readonly) Class superclass;
 
 @end
 

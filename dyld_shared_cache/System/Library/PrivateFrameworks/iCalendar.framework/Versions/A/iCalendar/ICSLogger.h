@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ICSLoggingDelegate;
-
 @interface ICSLogger
 {
     int _logCount;
-    id <ICSLoggingDelegate> _loggingDelegate;
 }
 
 + (void);

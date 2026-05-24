@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface LPFetcherResponse
 {
     long long _state;
-    id _userData;
 }
 
 - (id);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, retain, nonatomic) id userData; // @synthesize userData=_userData;
 
 @end
 

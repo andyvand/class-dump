@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIExperimentDatabase;
 @protocol TRITaskQueuing;
 
 @interface TRIUrgentRollbackScheduler
 {
     id <TRITaskQueuing> _queue;
-    TRIExperimentDatabase *_experimentDatabase;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TRIExperimentDatabase *experimentDatabase; // @synthesize experimentDatabase=_experimentDatabase;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <TRITaskQueuing> queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

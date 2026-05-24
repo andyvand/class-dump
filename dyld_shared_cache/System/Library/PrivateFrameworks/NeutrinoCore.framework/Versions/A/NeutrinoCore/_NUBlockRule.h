@@ -9,7 +9,6 @@
 @interface _NUBlockRule : NURule
 {
     CDUnknownBlockType _predicate;
-    CDUnknownBlockType _action;
 }
 
 - (void);

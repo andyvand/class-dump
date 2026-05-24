@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol PGGraphLocatedEvent
+- (NSSet *);
+- (NSSet *)MenuController;
 - (_Bool)ria"16;
 
 // Remaining properties

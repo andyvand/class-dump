@@ -6,30 +6,9 @@
 
 #import <MetalTools/MTL4ToolsCommandBuffer.h>
 
-@class GPUDebugRetainedReportingData, MTLGPUDebugDevice;
-@protocol MTL4CommandAllocator, MTLLogState;
-
 @interface MTL4GPUDebugCommandBuffer : MTL4ToolsCommandBuffer
 {
     struct TensorUsageTable tensorResidencyTable;
-    _Bool _initialized;
-    struct Options *_options;
-    struct GPUDebugDeviceOptions *_deviceOptions;
-    struct MetalBuffer _currentPooledBuffer;
-    unsigned long long _currentPooledBufferOffset;
-    unsigned int _numDispatches;
-    struct mutex _allocationLock;
-    struct os_unfair_lock_s _tempBufLock;
-    _Bool _supportsTileStage;
-    _Bool _supportsMeshStage;
-    BufferUsageTable_ae770826 _bufferUsageTable;
-    TextureUsageTable_bc03d9af _textureUsageTable;
-    HeapUsageTable_a27726bc _heapUsageTable;
-    struct unordered_map<unsigned long, MTLGPUDebugResidencySet *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, MTLGPUDebugResidencySet *>>> _residencySets;
-    struct unordered_map<unsigned long, (anonymous namespace)::EncoderResourceUsage, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, (anonymous namespace)::EncoderResourceUsage>>> _encodersResourceUsage;
-    id <MTL4CommandAllocator> _allocator;
-    GPUDebugRetainedReportingData *retainedData;
-    id <MTLLogState> _reportLogState;
 }
 
 - (id);
@@ -60,17 +39,16 @@
 - (void);
 - (pair_eb21f6dd);
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ortsBfloat16Format;
+- (void)supportsBfloat16Format;
 
 // Remaining properties
-@property(readonly) MTLGPUDebugDevice *device; // @dynamic device;
 @property unsigned int numDispatches; // @synthesize numDispatches=_numDispatches;
 
 @end

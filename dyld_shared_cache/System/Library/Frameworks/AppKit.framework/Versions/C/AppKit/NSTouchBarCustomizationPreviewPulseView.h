@@ -6,19 +6,16 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSColor, NSImage;
+@class CALayer, NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewPulseView : NSView
 {
     CALayer *_borderLayer;
-    CALayer *_imageLayer;
-    NSColor *_pulseColor;
-    NSImage *_contentImage;
 }
 
-+ (id);
-- (_Bool);
++ (id)eton;
+- (_Bool)red in this case;
 - (void);
 - (id);
 - (void);
@@ -26,11 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (id)Position:(struct CGRect)arg1;
+- (id)setPresentationPosition:(struct CGRect)arg1;
 - (void)ry/BuildRoots/4~COGNugB11GogT2dDN7oGM_6nljmJ3P7Wm3qaFSA/Library/Caches/com.apple.xbs/TemporaryDirectory.tLhrrW/Sources/AppKit/TableView.subproj/NSTableHeaderView.m;
 
 // Remaining properties
-@property(copy) NSImage *contentImage; // @synthesize contentImage=_contentImage;
 @property(copy) NSColor *pulseColor; // @synthesize pulseColor=_pulseColor;
 
 @end

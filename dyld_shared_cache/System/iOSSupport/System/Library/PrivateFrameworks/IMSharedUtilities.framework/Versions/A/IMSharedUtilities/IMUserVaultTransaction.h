@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface IMUserVaultTransaction
 {
     id _uvTransaction;
@@ -18,7 +16,6 @@
 - (void)èRÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *url;
 @property(retain, nonatomic) id uvTransaction; // @synthesize uvTransaction=_uvTransaction;
 
 @end

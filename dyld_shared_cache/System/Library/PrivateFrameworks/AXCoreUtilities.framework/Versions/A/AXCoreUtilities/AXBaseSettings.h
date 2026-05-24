@@ -9,12 +9,6 @@
 @interface AXBaseSettings : AXBaseSettings_Legacy
 {
     _Bool forceNewSettingsUsage;
-    id encoder;
-    id decoder;
-    id store;
-    id listenerMap;
-    id listenerLock;
-    id $__lazy_storage_$_selectorToPrefGroups;
 }
 
 - (id);
@@ -27,7 +21,7 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)h;
 - (long long);
 - (void);
 - (void);
@@ -36,7 +30,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

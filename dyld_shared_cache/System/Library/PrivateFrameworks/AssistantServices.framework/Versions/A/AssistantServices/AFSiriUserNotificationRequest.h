@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriUserNotificationSummary, NSString, UNNotification;
+@class UNNotification;
 
 @interface AFSiriUserNotificationRequest
 {
     UNNotification *_notification;
-    NSString *_sourceAppId;
-    long long _platform;
-    long long _summaryDecision;
-    AFSiriUserNotificationSummary *_summary;
 }
 
 + (_Bool);
++ (_Bool)@9*;
 + (_Bool);
-+ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void)iveDeviceInfoChanged: /* Error: Ran out of types for this method. */;
+- (void)_activeDeviceInfoChanged: /* Error: Ran out of types for this method. */;
 
 @end
 

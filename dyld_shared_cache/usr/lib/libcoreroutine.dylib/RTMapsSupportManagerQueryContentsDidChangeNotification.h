@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (long long);
 
 // Remaining properties

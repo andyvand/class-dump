@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NWConcrete_nw_path;
-@protocol OS_dispatch_queue, OS_nw_advertise_descriptor, OS_nw_browse_descriptor, OS_nw_endpoint, OS_nw_group_descriptor, OS_nw_parameters;
+@class NSObject;
+@protocol OS_nw_parameters;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_path_evaluator
 {
     NSObject<OS_nw_parameters> *parameters;
-    NSObject<OS_nw_endpoint> *endpoint;
-    NSObject<OS_nw_group_descriptor> *group_descriptor;
-    NSObject<OS_nw_browse_descriptor> *browse_descriptor;
-    NSObject<OS_nw_advertise_descriptor> *advertise_descriptor;
-    NWConcrete_nw_path *path;
-    NSObject<OS_dispatch_queue> *client_queue;
-    CDUnknownBlockType update_block;
-    CDUnknownBlockType cancel_handler;
-    unsigned char client_id[16];
-    struct mutex lock;
-    unsigned int flow_count;
-    unsigned short custom_ethertype;
-    unsigned char custom_ip_protocol;
-    unsigned int is_default:1;
-    unsigned int is_listener:1;
-    unsigned int is_interpose:1;
-    unsigned int is_custom_ether:1;
-    unsigned int started:1;
-    unsigned int cancelled:1;
-    unsigned int logging:1;
 }
 
-- (void);
+- (void)BevelButtonRound;
 - (id);
 - (id);
 - (id);
@@ -41,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

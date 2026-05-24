@@ -6,19 +6,14 @@
 
 #import <HomeKit/HMXPCMessageTransportConfiguration.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface HMMutableXPCMessageTransportConfiguration : HMXPCMessageTransportConfiguration
 {
 }
 
-- (id);
+- (id)P;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @dynamic queue;
 @property unsigned long long requiredEntitlements; // @dynamic requiredEntitlements;
-@property _Bool requiresHomeDataAccess; // @dynamic requiresHomeDataAccess;
 
 @end
 

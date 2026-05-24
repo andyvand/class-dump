@@ -9,12 +9,6 @@
 @interface BMPBNowPlayingOutputDevice
 {
     NSString *_outputDeviceId;
-    int _outputDeviceSubType;
-    int _outputDeviceType;
-    struct {
-        unsigned int outputDeviceSubType:1;
-        unsigned int outputDeviceType:1;
-    } _has;
 }
 
 - (int);
@@ -26,30 +20,25 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool)attributesOfFileSystemForPath:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)P;
 - (int);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)s;
 - (void);
 - (id);
 - (int);
 - (void)ú;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOutputDeviceId;
-@property(nonatomic) _Bool hasOutputDeviceSubType;
 @property(nonatomic) _Bool hasOutputDeviceType;
-@property(retain, nonatomic) NSString *outputDeviceId; // @synthesize outputDeviceId=_outputDeviceId;
-@property(nonatomic) int outputDeviceSubType; // @synthesize outputDeviceSubType=_outputDeviceSubType;
-@property(nonatomic) int outputDeviceType; // @synthesize outputDeviceType=_outputDeviceType;
 
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol RTFrameworkProtocol
+- (void)
+;
 - (void)ache receivers;
 @end
 

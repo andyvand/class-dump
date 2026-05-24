@@ -4,43 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCMotion, GCPhysicalInputProfile, NSArray, NSMutableArray, NSObject, NSString, _GCControllerInputComponent;
-@protocol GCControllerMotionConfigurableSensors, GCControllerPlayerIndicator, GCControllerProductInfo, GCControllerSettingsComponent, GCDeviceBatteryComponent, GCDeviceHapticCapabilityInfo, GCDeviceLightComponent, GCDeviceSpatial, GCNamedProfile, GCSystemGestureComponent, NSCopying><NSObject><NSSecureCoding, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface GCController
 {
     NSObject<OS_dispatch_queue> *_handlerQueue;
-    id <NSCopying><NSObject><NSSecureCoding> _identifier;
-    NSArray *_components;
-    id <GCControllerProductInfo> _info;
-    id <GCDeviceSpatial> _spatial;
-    _GCControllerInputComponent *_input;
-    GCPhysicalInputProfile *_physicalInput;
-    GCMotion *_motion;
-    id <GCControllerMotionConfigurableSensors> _motionConfigurableSensors;
-    id <GCControllerSettingsComponent> _settings;
-    id <GCControllerPlayerIndicator> _playerIndicator;
-    id <GCDeviceHapticCapabilityInfo> _hapticCapabilityInfo;
-    id <GCDeviceLightComponent> _light;
-    id <GCDeviceBatteryComponent> _battery;
-    id <GCSystemGestureComponent> _systemGesture;
-    id <GCNamedProfile> _profile;
-    id _coalescingDelegate;
-    _GCControllerInputComponent *_legacy_input;
-    NSString *_uniqueIdentifier;
-    NSMutableArray *_hidServices;
-    NSString *_physicalDeviceUniqueID;
-    NSString *_debugName;
-    NSString *_vendorName;
-    NSString *_description;
-    unsigned long long _deviceHash;
-    long long _playerIndex;
-    _Bool _physicalDeviceUsesCompass;
-    _Bool _forwarded;
-    _Bool _allHIDDevicesConnected;
-    _Bool _published;
-    _Bool _snapshot;
-    CDUnknownBlockType _controllerPausedHandler;
 }
 
 + (_Bool);
@@ -64,7 +33,7 @@
 + (void);
 + (void);
 + (_Bool);
-+ (id);
++ (id)friendlyDomainRepresentation;
 + (id)c;
 
 @end

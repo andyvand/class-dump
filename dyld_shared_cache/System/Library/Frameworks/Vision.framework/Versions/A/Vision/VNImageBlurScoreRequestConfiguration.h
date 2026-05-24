@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNImageBlurScoreRequestConfiguration : VNImageBasedRequestConfiguration
 {
     unsigned long long _maximumIntermediateSideLength;
-    unsigned long long _blurDeterminationMethod;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)ì!";
 
 // Remaining properties
-@property(nonatomic) unsigned long long blurDeterminationMethod; // @synthesize blurDeterminationMethod=_blurDeterminationMethod;
 @property(nonatomic) unsigned long long maximumIntermediateSideLength; // @synthesize maximumIntermediateSideLength=_maximumIntermediateSideLength;
 
 @end

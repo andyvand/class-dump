@@ -21,7 +21,7 @@
 - (id);
 - (struct __CFString *);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void)ÿ;
 

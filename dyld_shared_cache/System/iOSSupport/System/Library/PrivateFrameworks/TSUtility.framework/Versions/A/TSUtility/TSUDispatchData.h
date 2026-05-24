@@ -10,11 +10,6 @@
 @interface TSUDispatchData
 {
     NSObject<OS_dispatch_data> *_data;
-    unsigned long long _size;
-    unsigned long long _maxFragmentsCount;
-    NSObject<OS_dispatch_data> *_fragmentedData;
-    NSObject<OS_dispatch_data> *_defragmentedData;
-    unsigned long long _fragmentsCount;
 }
 
 - (void);
@@ -24,18 +19,13 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)TextArchiving;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *data;
-@property(readonly, nonatomic) NSObject<OS_dispatch_data> *defragmentedData; // @synthesize defragmentedData=_defragmentedData;
 @property(readonly, nonatomic) NSObject<OS_dispatch_data> *fragmentedData; // @synthesize fragmentedData=_fragmentedData;
-@property(readonly, nonatomic) unsigned long long fragmentsCount; // @synthesize fragmentsCount=_fragmentsCount;
-@property(nonatomic) unsigned long long maxFragmentsCount; // @synthesize maxFragmentsCount=_maxFragmentsCount;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

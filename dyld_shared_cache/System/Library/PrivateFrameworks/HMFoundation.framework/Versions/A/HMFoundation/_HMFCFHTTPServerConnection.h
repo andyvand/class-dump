@@ -6,42 +6,37 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFNetAddress, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue, _HMFCFHTTPServerConnectionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _HMFCFHTTPServerConnection : HMFObject
 {
     id <_HMFCFHTTPServerConnectionDelegate> _delegate;
-    HMFNetAddress *_address;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableArray *_pendingRequests;
-    NSMutableArray *_pendingRespones;
-    struct _CFHTTPServerConnection *_internal;
 }
 
 + (id);
 - (id);
+- (void)hc;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (struct _CFHTTPServerConnection *);
-- (id);
+- (id));
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void):(id)arg1;
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -49,20 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMFNetAddress *address; // @synthesize address=_address;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_HMFCFHTTPServerConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct _CFHTTPServerConnection *internal; // @synthesize internal=_internal;
-@property(readonly, nonatomic) NSMutableArray *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(readonly, nonatomic) NSMutableArray *pendingRespones; // @synthesize pendingRespones=_pendingRespones;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

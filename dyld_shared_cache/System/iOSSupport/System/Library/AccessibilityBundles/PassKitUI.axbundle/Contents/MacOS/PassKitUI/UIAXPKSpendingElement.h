@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface UIAXPKSpendingElement
 {
     NSDate *_startDate;
     NSDate *_endDate;
-    double _chartValue;
-    NSString *_currency;
 }
 
-- (void);
+- (void)�;
 - (double);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)mage.dylib;
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)__TEXT;
 
 // Remaining properties
-@property(nonatomic) double chartValue; // @synthesize chartValue=_chartValue;
-@property(retain, nonatomic) NSString *currency; // @synthesize currency=_currency;
 @property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 

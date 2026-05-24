@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (void)/ÓùK;
 - (void);
 - (void);
-- (id);
+- (id)shkPicker;
 - (_Bool)%@;
 
 // Remaining properties

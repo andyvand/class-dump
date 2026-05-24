@@ -7,11 +7,6 @@
 @interface AXFScreen
 {
     int _depth;
-    unsigned int _displayID;
-    double _backingScaleFactor;
-    struct CGPoint _center;
-    struct CGRect _frame;
-    struct CGRect _visibleFrame;
 }
 
 - (id);
@@ -19,12 +14,12 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (double);
-- (struct CGRect);
+- (double)jsVersion;
+- (struct CGRect)isTest;
 - (unsigned long long);
 - (struct CGPoint);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)$;
+- (struct CGRect)SQLITE_CONSTRAINT_ROWID;
 - (id);
 - (id);
 - (struct CGRect);
@@ -32,12 +27,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;
-@property(readonly, nonatomic) struct CGPoint center; // @synthesize center=_center;
 @property(readonly, nonatomic) int depth; // @synthesize depth=_depth;
-@property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) struct CGRect visibleFrame; // @synthesize visibleFrame=_visibleFrame;
 
 @end
 

@@ -11,10 +11,6 @@
 @interface PXRenameCollectionAction : PXPhotosAction
 {
     NSString *_currentTitle;
-    PHCollection *_collection;
-    unsigned long long _collectionType;
-    NSString *_redoTitle;
-    NSString *_undoTitle;
 }
 
 + (id);
@@ -23,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)u;
 - (void);
 - (void);
 - (id);
@@ -31,15 +27,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void)rollDistance;
+- (void)curatedLibraryExpansionMinScrollDistance;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) unsigned long long collectionType; // @synthesize collectionType=_collectionType;
-@property(copy, nonatomic) NSString *currentTitle; // @synthesize currentTitle=_currentTitle;
-@property(readonly, copy, nonatomic) NSString *redoTitle; // @synthesize redoTitle=_redoTitle;
-@property(readonly, copy, nonatomic) NSString *undoTitle; // @synthesize undoTitle=_undoTitle;
 
 @end
 

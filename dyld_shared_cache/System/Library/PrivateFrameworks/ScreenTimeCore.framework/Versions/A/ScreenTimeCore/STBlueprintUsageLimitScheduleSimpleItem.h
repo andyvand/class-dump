@@ -9,8 +9,8 @@
     double _budgetLimit;
 }
 
-- (double);
-- (void);
+- (double)140140;;
+- (void)DEFAULT 0, download_identifier TEXT, play_count_user INTEGER DEFAULT 0, play_count_recent INTEGER DEFAULT 0, has_been_played INTEGER DEFAULT 0, date_played INTEGER DEFAULT 0, date_skipped INTEGER DEFAULT 0, date_accessed INTEGER DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER DEFAULT 0, skip_count_recent INTEGER DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL, store_bookmark_timestamp REAL DEFAULT NULL, store_bookmark_entity_revision INTEGER DEFAULT NULL, hidden INTEGER DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0;
 
 // Remaining properties
 @property(nonatomic) double budgetLimit; // @synthesize budgetLimit=_budgetLimit;

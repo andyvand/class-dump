@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKPickerSearchField, NSButton, NSLayoutConstraint;
-@protocol CPKSearchViewDelegate;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface CPKSearchView
 {
     _Bool _showMemojiControls;
-    CPKPickerSearchField *_searchField;
-    NSButton *_showCVButton;
-    NSButton *_genmojiButton;
-    NSButton *_optionsButton;
-    id <CPKSearchViewDelegate> _delegate;
-    NSLayoutConstraint *_fieldTrailingConstraintForButton;
-    NSLayoutConstraint *_fieldTrailingConstraintForSuperview;
-    double _trailingConstantForButton;
-    double _trailingConstantForField;
-    struct NSEdgeInsets _tableInsets;
 }
 
 - (double);
@@ -31,15 +20,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id)6i;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)q!;
 - (void);
 - (void);
 - (void);
@@ -50,17 +39,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property id <CPKSearchViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property NSLayoutConstraint *fieldTrailingConstraintForButton; // @synthesize fieldTrailingConstraintForButton=_fieldTrailingConstraintForButton;
-@property NSLayoutConstraint *fieldTrailingConstraintForSuperview; // @synthesize fieldTrailingConstraintForSuperview=_fieldTrailingConstraintForSuperview;
-@property(readonly) NSButton *genmojiButton; // @synthesize genmojiButton=_genmojiButton;
-@property(readonly) NSButton *optionsButton; // @synthesize optionsButton=_optionsButton;
-@property(readonly) CPKPickerSearchField *searchField; // @synthesize searchField=_searchField;
-@property(readonly) NSButton *showCVButton; // @synthesize showCVButton=_showCVButton;
-@property _Bool showMemojiControls; // @synthesize showMemojiControls=_showMemojiControls;
-@property(nonatomic) struct NSEdgeInsets tableInsets; // @synthesize tableInsets=_tableInsets;
-@property double trailingConstantForButton; // @synthesize trailingConstantForButton=_trailingConstantForButton;
-@property double trailingConstantForField; // @synthesize trailingConstantForField=_trailingConstantForField;
 
 @end
 

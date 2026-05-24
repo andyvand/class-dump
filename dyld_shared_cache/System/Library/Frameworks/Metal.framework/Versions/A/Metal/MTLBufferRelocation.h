@@ -10,27 +10,16 @@
 @interface MTLBufferRelocation
 {
     NSString *_symbolName;
-    id <MTLBuffer> _buffer;
-    unsigned long long _offset;
 }
 
 - (id);
 - (void);
-- (id);
-- (id)GB;
-- (unsigned long long)obal;
+- (id);
+- (id)RG10Unorm_X12_sRGB;
+- (unsigned long long)Global;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

@@ -11,32 +11,27 @@
 @interface IMAPUIDStoreCommand : IMAPUIDCommand
 {
     NSArray *_flagsOrGmailLabels;
-    _Bool _add;
-    _Bool _forGmailLabels;
 }
 
 - (id);
+- (id)~�;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)#K9;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
+- (id)B9(;
+- (void)A;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property _Bool add; // @synthesize add=_add;
 @property(readonly) _Bool forGmailLabels; // @synthesize forGmailLabels=_forGmailLabels;
-@property(readonly, copy) NSArray *gmailLabels;
-@property(readonly, copy) NSArray *serverFlags;
 
 @end
 

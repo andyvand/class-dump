@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBOfflinePerformanceMetrics, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPBOfflineResponseMetadata
 {
     PBDataReader *_reader;
-    GEOPBOfflinePerformanceMetrics *_performanceMetrics;
-    NSString *_requestIdentifier;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_performanceMetrics:1;
-        unsigned int read_requestIdentifier:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasUserPreferredTransportType:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)registerPostBuildInstallService;
 - (id);
-- (void);
+- (void)directory path(%@) does not match expected path;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)}7;
 - (void);
 - (_Bool);
 - (id);
@@ -46,10 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPerformanceMetrics;
 @property(readonly, nonatomic) _Bool hasRequestIdentifier;
-@property(retain, nonatomic) GEOPBOfflinePerformanceMetrics *performanceMetrics;
-@property(retain, nonatomic) NSString *requestIdentifier;
 
 @end
 

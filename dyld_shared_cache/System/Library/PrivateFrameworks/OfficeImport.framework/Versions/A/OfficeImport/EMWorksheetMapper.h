@@ -6,24 +6,16 @@
 
 #import <OfficeImport/EMSheetMapper.h>
 
-@class CMStyle, ECColumnWidthConvertor, EDWorksheet;
+@class EDWorksheet;
 
 __attribute__((visibility("hidden")))
 @interface EMWorksheetMapper : EMSheetMapper
 {
     EDWorksheet *edWorksheet;
-    CMStyle *mStyle;
-    long long mMaxPopulatedColumn;
-    long long mMaxPopulatedRow;
-    double *mColumnGrid;
-    double *mRowGrid;
-    int mWidth;
-    int mHeight;
-    ECColumnWidthConvertor *mColumnWidthConvertor;
 }
 
-- (double);
-- (void);
+- (double);
+- (void);
 - (void);
 - (int);
 - (struct CGSize);
@@ -37,9 +29,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)Tu;
 - (double);
-- (void);
+- (void)*;
 - (id);
 - (double *);
 - (double *);

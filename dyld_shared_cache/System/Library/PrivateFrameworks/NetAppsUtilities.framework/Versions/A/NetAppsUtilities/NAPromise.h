@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAFuture, NSString;
+@class NAFuture;
 
 @interface NAPromise
 {
@@ -15,25 +15,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (CDUnknownBlockType);
-- (_Bool);
-- (CDUnknownBlockType);
+- (_Bool)takeStatisticsSnapshotSinceDate:(id)arg1 completionHandler:(id)arg2;
+- (CDUnknownBlockType)h twice;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *descriptor;
 @property(readonly) NAFuture *future; // @synthesize future=_future;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

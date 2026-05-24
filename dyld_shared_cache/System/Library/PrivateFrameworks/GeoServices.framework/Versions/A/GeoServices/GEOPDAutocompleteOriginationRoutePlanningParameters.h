@@ -4,44 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDAutocompleteOriginationRoutePlanningParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_previousLocation;
-    _Bool _isEditServerRecommendedStop;
-    _Bool _isRoutePlanningEditStopFillRequest;
-    struct {
-        unsigned int has_isEditServerRecommendedStop:1;
-        unsigned int has_isRoutePlanningEditStopFillRequest:1;
-    } _flags;
 }
 
-+ (_Bool)therAqi:(id)arg1;
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
++ (_Bool)setHasWeatherAqi:(id)arg1;
+- (void)-;
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool)";
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)out:(id)arg1 ]_block_invoke;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)FromOriginRoad:currentDepth: /* Error: Ran out of types for this method. */;
+- (id)_addRoadsFromOriginRoad:currentDepth: /* Error: Ran out of types for this method. */;
 - (id)Ìú²øh1àú²~1Xû²`1lû²¸1û²ì1û²81´û²È1Èû²¤1Üû²Ð¥1ðû²H§1ü²Ì´1ü²øÈ1dü²t2þ²%2þ²T-2þ²Ð.2¬þ²l12Äþ²ô32àþ²:2ôþ²4<2ÿ²ÐE2ÿ²¸Y2àÿ²T\2 /* Error: Ran out of types for this method. */;
 - (id)E data.rowid IN (            SELECT data_pk                FROM shiftresponse                WHERE coordinatesMatch(@lat, @lng, lat, lng, 1e-8) != 0                ORDER BY time ASC                LIMIT 1    ) AND data.rowid NOT IN (            SELECT data_pk                FROM subscription_data_refs    );;
 - (_Bool)´;
@@ -106,13 +99,7 @@ deprecated (:false
 - (void)ø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEditServerRecommendedStop;
-@property(nonatomic) _Bool hasIsRoutePlanningEditStopFillRequest;
 @property(readonly, nonatomic) _Bool hasPreviousLocation;
-@property(nonatomic) _Bool isEditServerRecommendedStop;
-@property(nonatomic) _Bool isRoutePlanningEditStopFillRequest;
-@property(retain, nonatomic) GEOLatLng *previousLocation;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

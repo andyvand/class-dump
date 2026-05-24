@@ -9,21 +9,18 @@
 @interface GEOMapsURLShortener
 {
     GEOXPCConnection *_xpcConnection;
-    unsigned int _options;
-    double _requestTimeout;
 }
 
-- (void);
+- (void)K;
 - (void);
 - (double);
-- (void);
-- (id);
+- (void)ibswiftObjectiveC.dylib;
+- (id)ction Device doesn't support speakAudio;
 - (unsigned int);
 - (void)up"32@"NSSet"40@"NSSet"48@"GEODataSetDescription"56q64;
 - (void)rÿø;
 
 // Remaining properties
-@property unsigned int options; // @synthesize options=_options;
 @property double requestTimeout; // @synthesize requestTimeout=_requestTimeout;
 
 @end

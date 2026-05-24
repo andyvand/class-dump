@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)initWithQueryID:(id)arg1 userQuery:maxItemsCount:keyboardLanguage:preferredLanguages: /* Error: Ran out of types for this method. */;
 - (id)Ì;$w?F.(i!r?;
 
 @end

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSCache, NSObject;
+@class GEOLatLng, NSObject;
 @protocol OS_dispatch_queue;
 
 @protocol _GEOLocationShifterProxy
+- (_Bool);
 - (void)GEOMiniBrowseCategories"16@0:(GEOLatLng *)arg1 8;
 - (void)ageUrlTemplate"b1"wrote_anyField"b1};
-- (void)nView: /* Error: Ran out of types for this method. */;
-- (NSObject<OS_dispatch_queue> *)String: /* Error: Ran out of types for this method. */;
-- (void)s;
+- (void)setJunctionView: /* Error: Ran out of types for this method. */;
+- (NSObject<OS_dispatch_queue> *)newValueAsString: /* Error: Ran out of types for this method. */;
+- (void)clearChildrens;
 - (void))    SELECT ext_uuid FROM data WHERE ext_uuid IS NOT NULL AND data.rowid IN (    SELECT data_pk FROM tiles WHERE insert_timestamp < @insert_timestamp    );;
-- (NSCache *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSCache *memoryCache;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
 @end
 

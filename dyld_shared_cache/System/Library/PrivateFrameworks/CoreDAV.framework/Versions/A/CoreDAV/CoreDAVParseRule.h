@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CoreDAVParseRule
 {
     long long _minimumNumber;
-    long long _maximumNumber;
-    NSString *_nameSpace;
-    NSString *_elementName;
-    Class _objectClass;
-    SEL _setterMethod;
 }
 
 + (id);
-- (long long);
+- (long long)@"NSArray"24@0:8@"NSSharingServicePicker"16 /* Error: Ran out of types for this method. */;
+- (id)accessibilityFrame;
 - (id);
-- (id);
-- (id);
+- (id);
 - (SEL);
 - (long long);
 - (Class);
@@ -28,12 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *elementName; // @synthesize elementName=_elementName;
-@property(readonly, nonatomic) long long maximumNumber; // @synthesize maximumNumber=_maximumNumber;
 @property(readonly, nonatomic) long long minimumNumber; // @synthesize minimumNumber=_minimumNumber;
-@property(readonly, nonatomic) NSString *nameSpace; // @synthesize nameSpace=_nameSpace;
-@property(readonly, nonatomic) Class objectClass; // @synthesize objectClass=_objectClass;
-@property(readonly, nonatomic) SEL setterMethod; // @synthesize setterMethod=_setterMethod;
 
 @end
 

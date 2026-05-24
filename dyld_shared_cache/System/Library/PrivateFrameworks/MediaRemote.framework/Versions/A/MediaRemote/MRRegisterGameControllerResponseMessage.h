@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)/7;
+- (unsigned long long)tTypeError %@ ID Type %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long controllerID;

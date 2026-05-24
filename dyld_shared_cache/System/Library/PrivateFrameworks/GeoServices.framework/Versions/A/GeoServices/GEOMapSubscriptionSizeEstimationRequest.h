@@ -6,24 +6,20 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOMapRegion, NSString, NSUUID;
-
 @interface GEOMapSubscriptionSizeEstimationRequest : GEOXPCRequest
 {
     unsigned long long _dataTypes;
-    GEOMapRegion *_region;
-    NSUUID *_requestUUID;
 }
 
-+ (Class);
++ (Class)autorelease;
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)parser:foundAttributeDeclarationWithName:forElement:type:defaultValue: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ameraStyling;
+- (void)cameraStyling;
 - (id);
 - (void);
 - (void)ìÿ;
@@ -31,15 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long dataTypes; // @synthesize dataTypes=_dataTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOMapRegion *region; // @synthesize region=_region;
-@property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly) Class superclass;
 
 @end
 

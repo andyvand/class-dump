@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSMutableSet, NSString;
+@class NSString;
 
 @interface ISDChangeStore
 {
     NSString *_path;
-    NSMutableArray *_addChanges;
-    NSMutableArray *_changes;
-    NSMutableDictionary *_recordIdReferences;
-    NSMutableSet *_enumeratedRecordIds;
-    unsigned long long _flushCount;
-    _Bool _dirty;
-    _Bool _didSkipRecordsWhenEnumerating;
-    id _dirtyCoderDelegate;
-    NSMutableDictionary *_addedChangeIndex;
-    NSMutableDictionary *_modifiedChangeIndex;
-    NSMutableIndexSet *_deletedAddedRecordIdsIndex;
 }
 
 + (id);
@@ -27,7 +16,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (_Bool);
@@ -37,20 +26,20 @@
 - (unsigned int);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);

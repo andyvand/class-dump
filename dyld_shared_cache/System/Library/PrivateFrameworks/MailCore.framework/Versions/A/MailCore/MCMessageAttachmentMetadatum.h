@@ -9,18 +9,16 @@
 @interface MCMessageAttachmentMetadatum
 {
     NSString *_name;
-    NSString *_attachmentID;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)0@0:8^?16^v24r*32 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *attachmentID; // @synthesize attachmentID=_attachmentID;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

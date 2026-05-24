@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLRouterSchemaNLRouterSubComponentSetupEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)eflight failure has been reported;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)EY;
+- (unsigned long long)ȴ;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)PrescribedPlan;
-- (id)cationTypeId: /* Error: Ran out of types for this method. */;
+- (id)setHasAnonymizedLocationTypeId: /* Error: Ran out of types for this method. */;
 - (_Bool)itive.app.bundleId;
 - (_Bool)ï;
 - (void)ú¬Q';
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

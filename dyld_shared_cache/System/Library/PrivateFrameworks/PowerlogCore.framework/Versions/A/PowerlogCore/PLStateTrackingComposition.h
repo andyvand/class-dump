@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PLStateTrackingComposition
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_executeBlockCache;
-    NSMutableArray *_stateChangeNotifications;
-    unsigned long long _stateChangeMask;
-    NSDate *_systemStateChangeTime;
-    NSMutableDictionary *_stateIDToStateMap;
-    NSMutableDictionary *_entryKeyToStateMap;
 }
 
 + (void);
 + (id);
-- (void);
+- (void)3;
 - (id);
 - (id);
 - (_Bool);
@@ -29,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,20 +36,14 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void)on;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)FamilyExtensionHost::proxy is nil /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *entryKeyToStateMap; // @synthesize entryKeyToStateMap=_entryKeyToStateMap;
-@property(retain) NSMutableDictionary *executeBlockCache; // @synthesize executeBlockCache=_executeBlockCache;
-@property unsigned long long stateChangeMask; // @synthesize stateChangeMask=_stateChangeMask;
-@property(retain) NSMutableArray *stateChangeNotifications; // @synthesize stateChangeNotifications=_stateChangeNotifications;
-@property(retain) NSMutableDictionary *stateIDToStateMap; // @synthesize stateIDToStateMap=_stateIDToStateMap;
-@property(retain) NSDate *systemStateChangeTime; // @synthesize systemStateChangeTime=_systemStateChangeTime;
 @property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

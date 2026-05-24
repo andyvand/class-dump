@@ -4,22 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID;
+@class CKCompleteParticipantVettingOperationInfo, CKDPResponseOperationResult, CKRecordID, CKRepairAssetsOperationInfo;
 
 @protocol CKXPCContainerScopedDaemonSPI
-- (void):(CKRecordID *)arg1;
+- (void)denominatorValue;
+- (void)metadataSender_sendMRNowPlayingInfo;
+- (void)endpointCluster_handleDidCloseCommChannelInternal;
+- (void)Interface:(CKRepairAssetsOperationInfo *)arg1 ];
+- (void);
+- (void)timeIntervalSinceDate:(CKCompleteParticipantVettingOperationInfo *)arg1;
+- (void)url (%{public}@) for message:(CKDPResponseOperationResult *)arg1 %{public}@;
+- (void);
+- (void)setShareIDs:(CKRecordID *)arg1;
 - (void)tion=},N,V_encryptedInvitedPCS;
 - (void)\â;
 - (void)È/	@1¬1Ä2°4;
 - (void)dÜ0Ý¨Ý;
 - (void)¨;
-- (void);
-- (void)tate;
-- (void)rypted;
+- (void)participantState;
+- (void)isEncrypted;
 - (void)get key IDs from share PCS %@;
 - (void)not supported in manatee;
 - (void)expected file signature for asset %@;
-- (void)air;
+- (void)LogFacilityDataRepair;
 - (void)on bundle identifier without the %@ entitlement;
 - (void)4@"NSError"32;
 - (void)ðÿÿòÅüÿ;

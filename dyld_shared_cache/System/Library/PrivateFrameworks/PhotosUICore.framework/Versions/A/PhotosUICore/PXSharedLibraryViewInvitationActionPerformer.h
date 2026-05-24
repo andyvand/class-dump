@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXSharedLibraryLegacyDevicesFallbackMonitor, PXSharedLibraryStatusProvider;
-@protocol PXSharedLibrary;
+@class PXSharedLibraryStatusProvider;
 
 @interface PXSharedLibraryViewInvitationActionPerformer
 {
     PXSharedLibraryStatusProvider *_sharedLibrartyStatusProvider;
-    id <PXSharedLibrary> _invitation;
-    PXSharedLibraryLegacyDevicesFallbackMonitor *_legacyDevicesFallbackMonitor;
 }
 
 - (id);
@@ -22,20 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <PXSharedLibrary> invitation; // @synthesize invitation=_invitation;
-@property(retain, nonatomic) PXSharedLibraryLegacyDevicesFallbackMonitor *legacyDevicesFallbackMonitor; // @synthesize legacyDevicesFallbackMonitor=_legacyDevicesFallbackMonitor;
 @property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibrartyStatusProvider; // @synthesize sharedLibrartyStatusProvider=_sharedLibrartyStatusProvider;
-@property(readonly) Class superclass;
 
 @end
 

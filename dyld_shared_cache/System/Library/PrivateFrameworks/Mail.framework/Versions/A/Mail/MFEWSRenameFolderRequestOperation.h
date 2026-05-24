@@ -6,29 +6,25 @@
 
 #import <Mail/MFEWSRequestOperation.h>
 
-@class MFEWSGetFolderResponseOperation, NSString;
+@class NSString;
 
 @interface MFEWSRenameFolderRequestOperation : MFEWSRequestOperation
 {
     NSString *_folderIdString;
-    NSString *_folderName;
-    MFEWSGetFolderResponseOperation *_changeKeysResponse;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)Ä.¨;
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSGetFolderResponseOperation *changeKeysResponse; // @synthesize changeKeysResponse=_changeKeysResponse;
 @property(readonly, copy, nonatomic) NSString *folderIdString; // @synthesize folderIdString=_folderIdString;
-@property(readonly, copy, nonatomic) NSString *folderName; // @synthesize folderName=_folderName;
 
 @end
 

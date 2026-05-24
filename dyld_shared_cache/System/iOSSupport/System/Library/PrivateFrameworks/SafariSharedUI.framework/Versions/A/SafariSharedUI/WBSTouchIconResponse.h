@@ -6,14 +6,11 @@
 
 #import <SafariSharedUI/WBSSiteMetadataResponse.h>
 
-@class NSDate, NSString, UIColor, UIImage;
+@class UIImage;
 
 @interface WBSTouchIconResponse : WBSSiteMetadataResponse
 {
     _Bool _generated;
-    UIImage *_touchIcon;
-    UIColor *_extractedBackgroundColor;
-    NSDate *_nextIconDownloadRetryDate;
 }
 
 + (id);
@@ -26,20 +23,9 @@
 - (id);
 - (id);
 - (id);
-- (void)e;
+- (void)safari_isOffWhite;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIColor *extractedBackgroundColor; // @synthesize extractedBackgroundColor=_extractedBackgroundColor;
-@property(readonly, nonatomic, getter=isGenerated) _Bool generated; // @synthesize generated=_generated;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *icon;
-@property(retain, nonatomic) NSDate *nextIconDownloadRetryDate; // @synthesize nextIconDownloadRetryDate=_nextIconDownloadRetryDate;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIImage *touchIcon; // @synthesize touchIcon=_touchIcon;
 
 @end

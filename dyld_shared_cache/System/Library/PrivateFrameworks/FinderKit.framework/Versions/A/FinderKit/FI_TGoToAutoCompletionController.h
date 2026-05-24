@@ -4,83 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol FI_TGoToAutoCompletionControllerDelegate;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FI_TGoToAutoCompletionController
 {
     struct TSpinLock _lock;
-    struct TString _pathToCompleteStr;
-    struct TString _adjustedPathToCompleteStr;
-    struct TFENodeVector _nodesInPath;
-    _Bool _adjustedPathToCompleteIsValid;
-    _Bool _isAdjustedPathFolderFullyResolved;
-    _Bool _isAutoCompleting;
-    _Bool _isQuit;
-    vector_1395b470 _completionNodesAndNames;
-    vector_1395b470 _filteredSortedCompletionNodesAndNames;
-    NSArray *_itemsInPath;
-    function_e88ba8d7 _updatePathHandler;
-    function_d1b809cd _suggestionsHandler;
-    function_f5a30204 _autoCompleteHandler;
-    function_6864fa91 _completionHandler;
-    id <FI_TGoToAutoCompletionControllerDelegate> _delegate;
 }
 
 + (id);
-+ (vector_1395b470);
++ (vector_aca297d4);
 - (void);
 - (id);
 - (struct TFENodeVector);
 - (id);
 - (_Bool);
 - (_Bool);
-- (vector_1395b470);
-- (vector_1395b470);
+- (vector_aca297d4);
+- (vector_aca297d4);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
+- (void)j;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)*;
+- (void);
 - (void);
 - (void);
 - (void);
 - (const void *);
 - (const void *);
-- (id);
+- (id)9;
 - (_Bool);
 - (const void *);
 - (const void *);
 - (_Bool);
 - (const void *);
+- (_Bool)#;
+- (_Bool)4;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void))@;
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adjustedPathToCompleteIsValid;
-@property(readonly, nonatomic) NSString *adjustedPathToCompleteStr;
-@property(nonatomic) __weak id <FI_TGoToAutoCompletionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isAdjustedPathFolderFullyResolved;
-@property(readonly, nonatomic) _Bool isAutoCompleting;
-@property(readonly, nonatomic) _Bool isQuit;
-@property(readonly, nonatomic) NSArray *itemsInPath;
 @property(readonly, nonatomic) NSString *pathToCompleteStr;
 
 @end

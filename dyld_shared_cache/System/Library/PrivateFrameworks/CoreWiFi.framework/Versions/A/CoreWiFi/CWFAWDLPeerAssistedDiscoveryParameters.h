@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CWFAWDLPeerAssistedDiscoveryParameters
 {
     _Bool _followMode;
-    int _peerSupportedChannelFlags;
-    unsigned long long _localMasterChannel;
-    unsigned long long _localPreferredChannel;
-    unsigned long long _localSecondaryPreferredChannel;
-    unsigned long long _localAssistedDiscoveryMetric;
-    NSString *_peerMACAddress;
-    unsigned long long _peerMasterChannel;
-    unsigned long long _peerPreferredChannel;
-    unsigned long long _peerSecondaryPreferredChannel;
-    unsigned long long _peerAssistedDiscoveryMetric;
-    unsigned long long _followModePreferredBand;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -30,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,7 +33,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -57,18 +44,7 @@
 - (void)¬b;
 
 // Remaining properties
-@property(nonatomic) _Bool followMode; // @synthesize followMode=_followMode;
-@property(nonatomic) unsigned long long followModePreferredBand; // @synthesize followModePreferredBand=_followModePreferredBand;
-@property(nonatomic) unsigned long long localAssistedDiscoveryMetric; // @synthesize localAssistedDiscoveryMetric=_localAssistedDiscoveryMetric;
 @property(nonatomic) unsigned long long localMasterChannel; // @synthesize localMasterChannel=_localMasterChannel;
-@property(nonatomic) unsigned long long localPreferredChannel; // @synthesize localPreferredChannel=_localPreferredChannel;
-@property(nonatomic) unsigned long long localSecondaryPreferredChannel; // @synthesize localSecondaryPreferredChannel=_localSecondaryPreferredChannel;
-@property(nonatomic) unsigned long long peerAssistedDiscoveryMetric; // @synthesize peerAssistedDiscoveryMetric=_peerAssistedDiscoveryMetric;
-@property(copy, nonatomic) NSString *peerMACAddress; // @synthesize peerMACAddress=_peerMACAddress;
-@property(nonatomic) unsigned long long peerMasterChannel; // @synthesize peerMasterChannel=_peerMasterChannel;
-@property(nonatomic) unsigned long long peerPreferredChannel; // @synthesize peerPreferredChannel=_peerPreferredChannel;
-@property(nonatomic) unsigned long long peerSecondaryPreferredChannel; // @synthesize peerSecondaryPreferredChannel=_peerSecondaryPreferredChannel;
-@property(nonatomic) int peerSupportedChannelFlags; // @synthesize peerSupportedChannelFlags=_peerSupportedChannelFlags;
 
 @end
 

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSControlStateValueTransformer, NSString, NSUserDefaultsController, NSValueTransformer;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UINSPreferencesConfirmableButton
 {
     NSString *_localizedTrueConfirmationPrompt;
-    NSString *_localizedTrueConfirmText;
-    NSString *_localizedTrueDenyText;
-    NSString *_localizedFalseConfirmationPrompt;
-    NSString *_localizedFalseConfirmText;
-    NSString *_localizedFalseDenyText;
-    NSString *_keyPath;
-    NSUserDefaultsController *_userDefaultsController;
-    NSControlStateValueTransformer *_valueTransformer;
-    id _confirmationTarget;
-    SEL _confirmationAction;
 }
 
 - (void);
@@ -39,29 +29,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void):(id)arg1;
 - (void);
 - (void);
+- (id)}16;
+- (SEL)@0:8 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (SEL);
-- (void);
-- (void);
+- (void)6;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property SEL confirmationAction; // @synthesize confirmationAction=_confirmationAction;
-@property __weak id confirmationTarget; // @synthesize confirmationTarget=_confirmationTarget;
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain) NSString *localizedFalseConfirmText; // @synthesize localizedFalseConfirmText=_localizedFalseConfirmText;
-@property(retain) NSString *localizedFalseConfirmationPrompt; // @synthesize localizedFalseConfirmationPrompt=_localizedFalseConfirmationPrompt;
-@property(retain) NSString *localizedFalseDenyText; // @synthesize localizedFalseDenyText=_localizedFalseDenyText;
-@property(retain) NSString *localizedTrueConfirmText; // @synthesize localizedTrueConfirmText=_localizedTrueConfirmText;
 @property(retain) NSString *localizedTrueConfirmationPrompt; // @synthesize localizedTrueConfirmationPrompt=_localizedTrueConfirmationPrompt;
-@property(retain) NSString *localizedTrueDenyText; // @synthesize localizedTrueDenyText=_localizedTrueDenyText;
-@property(retain) NSUserDefaultsController *userDefaultsController; // @synthesize userDefaultsController=_userDefaultsController;
-@property(retain) NSValueTransformer *valueTransformer; // @synthesize valueTransformer=_valueTransformer;
 
 @end
 

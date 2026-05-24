@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableString, NSString, NSUUID;
-@protocol CXActionDelegate;
+@class NSUUID;
 
 @interface CXAction
 {
     NSUUID *_UUID;
-    long long _originator;
-    long long _state;
-    long long _failureReason;
-    NSDate *_commitDate;
-    id <CXActionDelegate> _delegate;
 }
 
 + (_Bool);
 + (double);
 - (void);
-- (void);
-- (void);
+- (void)$;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -30,19 +24,19 @@
 - (void);
 - (void);
 - (id);
+- (id)n;
 - (id);
-- (id);
-- (id);
+- (id){public}@ [SKD] - Timed out waiting for the enhanced audio configuration (prefetchKeyServerURL) to load.;
 - (void);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)DeviceLibraryGlobalPlaylistWithID:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (void);
@@ -52,22 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSDate *commitDate; // @synthesize commitDate=_commitDate;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(readonly, copy, nonatomic) NSMutableString *customDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXActionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long failureReason; // @synthesize failureReason=_failureReason;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long originator; // @synthesize originator=_originator;
-@property(readonly, nonatomic) _Bool shouldTimeout;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *timeoutDate;
 
 @end
 

@@ -9,16 +9,13 @@
 @interface PGGraphUpdateJetsamIndicator
 {
     _Bool _indicatorExists;
-    NSURL *_indicatorURL;
-    long long _retryCount;
-    long long _maxRetryCount;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)addCharactersInString: /* Error: Ran out of types for this method. */;
+- (id)_refreshKeyboardFocusedElement:(id)arg1;
+- (id)c;
 - (void);
 - (void);
 - (_Bool);
@@ -27,16 +24,12 @@
 - (id);
 - (long long);
 - (void);
-- (void)rences;
+- (void)inferences;
 - (long long)ÿA÷$<×ÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool indicatorExists; // @synthesize indicatorExists=_indicatorExists;
 @property(readonly, nonatomic) NSURL *indicatorURL; // @synthesize indicatorURL=_indicatorURL;
-@property(nonatomic) long long maxRetryCount; // @synthesize maxRetryCount=_maxRetryCount;
-@property(nonatomic) long long retryCount; // @synthesize retryCount=_retryCount;
-@property(readonly, nonatomic) _Bool updateDidCauseJetsam;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDTip, NSString;
+@class GEOPDTip;
 
 @interface GEOMapItemTip
 {
@@ -17,21 +17,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (double);
+- (double)encodeBool:forKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Û2;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bestImageURL;
 @property(retain, nonatomic) GEOPDTip *geoTip; // @synthesize geoTip=_geoTip;
-@property(readonly, nonatomic) _Bool hasTipId;
-@property(readonly, nonatomic) _Bool hasTipTime;
-@property(readonly, nonatomic) NSString *localizedSnippet;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *tipId;
-@property(readonly, nonatomic) double tipTime;
 
 @end
 

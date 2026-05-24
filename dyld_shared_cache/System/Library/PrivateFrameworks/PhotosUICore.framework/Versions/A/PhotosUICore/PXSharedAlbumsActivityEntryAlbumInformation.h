@@ -9,8 +9,6 @@
 @interface PXSharedAlbumsActivityEntryAlbumInformation
 {
     _Bool _ownerIsAllowlisted;
-    NSString *_albumTitle;
-    NSString *_albumGUID;
 }
 
 - (_Bool);
@@ -21,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *albumGUID; // @synthesize albumGUID=_albumGUID;
 @property(readonly, copy, nonatomic) NSString *albumTitle; // @synthesize albumTitle=_albumTitle;
-@property(readonly, nonatomic) _Bool ownerIsAllowlisted; // @synthesize ownerIsAllowlisted=_ownerIsAllowlisted;
 
 @end
 

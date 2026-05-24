@@ -7,8 +7,6 @@
 @interface NewsUI2.ChannelIssuesGroupConfig
 {
     id issueIDs;
-    id tag;
-    id title;
 }
 
 - (id);

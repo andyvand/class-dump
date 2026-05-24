@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ckServerChangeTokenBlob;
 - (void);
 
 // Remaining properties

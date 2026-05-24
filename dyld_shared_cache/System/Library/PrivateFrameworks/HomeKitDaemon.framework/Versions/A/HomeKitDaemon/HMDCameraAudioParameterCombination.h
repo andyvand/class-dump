@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAudioCodecGroup, HMDAudioSampleRate, HMDBitRateSetting, NSNumber;
+@class HMDAudioCodecGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraAudioParameterCombination
 {
     HMDAudioCodecGroup *_codecGroupType;
-    HMDBitRateSetting *_bitrateSetting;
-    HMDAudioSampleRate *_sampleRate;
-    NSNumber *_maximumBitrate;
-    NSNumber *_minimumBitrate;
-    NSNumber *_rtcpInterval;
-    NSNumber *_rtpPTime;
 }
 
+- (id)};
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)d;
 - (id);
 - (_Bool);
 - (id)e message to set natural lighting enabled for light profiles on non-primary resident;
 - (void)SystemWiFiStatus;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDBitRateSetting *bitrateSetting; // @synthesize bitrateSetting=_bitrateSetting;
 @property(readonly, nonatomic) HMDAudioCodecGroup *codecGroupType; // @synthesize codecGroupType=_codecGroupType;
-@property(readonly, nonatomic) NSNumber *maximumBitrate; // @synthesize maximumBitrate=_maximumBitrate;
-@property(readonly, nonatomic) NSNumber *minimumBitrate; // @synthesize minimumBitrate=_minimumBitrate;
-@property(readonly, nonatomic) NSNumber *rtcpInterval; // @synthesize rtcpInterval=_rtcpInterval;
-@property(readonly, nonatomic) NSNumber *rtpPTime; // @synthesize rtpPTime=_rtpPTime;
-@property(readonly, nonatomic) HMDAudioSampleRate *sampleRate; // @synthesize sampleRate=_sampleRate;
 
 @end
 

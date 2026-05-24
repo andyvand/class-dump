@@ -7,10 +7,10 @@
 @class NSDate;
 
 @protocol _DKHistoricalMonitor
+- (void)JAPAN_Hankyuudentetsu_Hankyuusenri;
+- (NSDate *)#;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType historicalHandler;
-@property(readonly, nonatomic) NSDate *lastUpdate;
-@property(copy, nonatomic) CDUnknownBlockType shutdownHandler;
 @end
 

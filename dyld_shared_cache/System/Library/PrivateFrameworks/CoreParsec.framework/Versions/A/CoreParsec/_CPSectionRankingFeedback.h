@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _CPResultSectionForFeedback;
-
 @interface _CPSectionRankingFeedback
 {
     unsigned int _localSectionPosition;
-    unsigned long long _timestamp;
-    NSArray *_results;
-    _CPResultSectionForFeedback *_section;
-    double _personalizationScore;
 }
 
 - (void);
@@ -22,34 +16,22 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned int);
 - (void);
+- (id)4B;
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
-- (double);
+- (void)emergencyMediaItems;
+- (double)AVCaptureDeviceWasDisconnectedNotification;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) unsigned int localSectionPosition; // @synthesize localSectionPosition=_localSectionPosition;
-@property(nonatomic) double personalizationScore; // @synthesize personalizationScore=_personalizationScore;
-@property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(retain, nonatomic) _CPResultSectionForFeedback *section; // @synthesize section=_section;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

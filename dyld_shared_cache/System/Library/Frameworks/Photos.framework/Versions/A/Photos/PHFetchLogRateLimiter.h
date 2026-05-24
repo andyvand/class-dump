@@ -9,8 +9,6 @@
 @interface PHFetchLogRateLimiter
 {
     PFTokenBucket *_faultTokenBucket;
-    PFTokenBucket *_errorTokenBucket;
-    PFTokenBucket *_defaultTokenBucket;
 }
 
 + (id);

@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBCATModel
 {
     NSString *_catIdentifier;
-    NSString *_bundleIdentifier;
-    NSData *_params;
 }
 
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)vative:(id)arg1 isPrimaryFormat:canDownload:isHintBased:uti:store:key:localAvailabilityTarget: /* Error: Ran out of types for this method. */;
+- (id)AssetExportRequest] Downloading required for resources of asset %{public}@...;
 - (id);
 - (id);
 - (void);
-- (void)ToSelector: /* Error: Ran out of types for this method. */;
+- (void)respondsToSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(copy, nonatomic) NSString *catIdentifier; // @synthesize catIdentifier=_catIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *params; // @synthesize params=_params;
-@property(readonly) Class superclass;
 
 @end
 

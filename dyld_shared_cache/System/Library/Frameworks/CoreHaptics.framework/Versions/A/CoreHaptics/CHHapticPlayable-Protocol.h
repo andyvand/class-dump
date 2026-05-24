@@ -7,18 +7,10 @@
 @class NSArray, NSString;
 
 @protocol CHHapticPlayable
-- (NSString *)ndler: /* Error: Ran out of types for this method. */;
+- (NSString *)6;
+- (NSString *)doStopWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *audioPowerUsage;
-@property(readonly) double duration;
 @property(readonly) NSArray *events;
-@property(readonly) NSString *hapticPowerUsage;
-@property(readonly) NSString *locality;
-@property(readonly) NSArray *parameterCurves;
-@property(readonly) NSArray *parameters;
-@property(readonly) NSString *patternID;
-@property(readonly) NSString *priority;
-@property(readonly) NSString *usageCategory;
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol DefaultBrowserBannerDelegate
+- (void);
+
+@optional
+- (void);
 @end
 

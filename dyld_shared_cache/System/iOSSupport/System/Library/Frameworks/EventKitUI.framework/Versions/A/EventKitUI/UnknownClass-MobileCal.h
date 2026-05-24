@@ -13,8 +13,8 @@
 - (double);
 - (double);
 - (double);
+- (double)ni;
 - (double);
-- (double);
-- (double);
+- (double);
 @end
 

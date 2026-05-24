@@ -7,15 +7,6 @@
 @interface HomeKitDaemon.DefaultUserActivityReportMessenger
 {
     id $defaultActor;
-    id homeUUID;
-    id messageDispatcher;
-    id timerProvider;
-    id dateProvider;
-    id identifierInFlight;
-    id sendCount;
-    id retryTimer;
-    id payloadToRetry;
-    id logger;
 }
 
 @end

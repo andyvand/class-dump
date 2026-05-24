@@ -7,11 +7,6 @@
 @interface NewsUI2.SearchMoreTracker
 {
     id tracker;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id articleDataFactory;
-    id requestData;
-    id contentAvailabilityValidator;
 }
 
 @end

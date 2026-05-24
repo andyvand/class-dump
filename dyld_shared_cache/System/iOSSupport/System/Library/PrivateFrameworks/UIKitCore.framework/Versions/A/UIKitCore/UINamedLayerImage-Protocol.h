@@ -8,26 +8,17 @@
 @protocol UINamedLayerContentProvider;
 
 @protocol UINamedLayerImage
+- (NSString *);
 - (int)!¤Gù±[Ð1Â0@ù
 × ;
 - (struct CGRect)""matchCase"@"UIAction""wholeWords"@"UIAction"};
-- (double);
+- (double)persistent;
 
 @optional
+- (void)}};
 - (id <UINamedLayerContentProvider>)contentAreaDidResize;
 
 // Remaining properties
-@property(readonly, nonatomic) int blendMode;
-@property(readonly, nonatomic) id <UINamedLayerContentProvider> contentProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UINamedLayerContentProvider>",?,R,N
-
-@property(nonatomic) _Bool fixedFrame;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) struct CGRect frame;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double opacity;
 @end
 

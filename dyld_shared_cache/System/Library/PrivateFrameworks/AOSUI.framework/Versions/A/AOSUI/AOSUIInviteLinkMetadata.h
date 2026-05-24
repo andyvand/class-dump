@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAMessagesInviteContext, LPImage, LPLinkMetadata;
+@class AAMessagesInviteContext;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIInviteLinkMetadata
 {
     AAMessagesInviteContext *_context;
-    LPImage *_image;
-    LPImage *_icon;
 }
 
 - (id);
@@ -20,14 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) LPLinkMetadata *bubbleMetadata;
 @property(readonly, nonatomic) AAMessagesInviteContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
 
 @end
 

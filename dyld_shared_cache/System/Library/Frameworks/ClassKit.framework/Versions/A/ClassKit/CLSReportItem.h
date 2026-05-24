@@ -14,9 +14,11 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)n, usage type:(id)arg1 %d
+;
+- (id)ce:(id)arg1 H11ANEIn
+;
+- (void)TaskID;
 - (id);
 - (id);
 - (id);

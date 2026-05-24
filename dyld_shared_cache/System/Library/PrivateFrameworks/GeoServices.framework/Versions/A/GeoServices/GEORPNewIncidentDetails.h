@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPIncidentLocation, GEORPUserLocationDetails, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPNewIncidentDetails
 {
     PBDataReader *_reader;
-    GEORPIncidentLocation *_incidentLocation;
-    GEORPUserLocationDetails *_userLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_incidentLocation:1;
-        unsigned int read_userLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)fset:(id)arg1;
++ (_Bool)setLatestArrivalOffset:(id)arg1;
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -35,9 +23,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)SessionInfoProviding>"16@"NSDictionary"24;
+- (void)CSFallbackAudioSessionReleaseProvider;
+- (void)DataToPeerId:(unsigned long long)arg1 ]_block_invoke;
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -45,11 +33,11 @@
 - (id);
 - (void);
 - (id)If}16;
-- (void)MapViewZoomLevel;
-- (id)Coverages;
-- (int)teParametersOfflineRegionSearch;
+- (void)hasMapViewZoomLevel;
+- (id)clearCoverages;
+- (int)GEOPDAutocompleteParametersOfflineRegionSearch;
 - (id)üÞ´ß;
-- (id)ENU_TEXT;
+- (id)COMPONENT_TYPE_SIMPLE_RESTAURANT_MENU_TEXT;
 - (id)ü;
 - (_Bool)DescriptorProto7
 	enum_type (2$.google.protobuf.EnumDescriptorProtoH
@@ -190,12 +178,7 @@ deprecated (:false
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIncidentLocation;
 @property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUserLocation;
-@property(retain, nonatomic) GEORPIncidentLocation *incidentLocation;
-@property(nonatomic) int type;
-@property(retain, nonatomic) GEORPUserLocationDetails *userLocation;
 
 @end
 

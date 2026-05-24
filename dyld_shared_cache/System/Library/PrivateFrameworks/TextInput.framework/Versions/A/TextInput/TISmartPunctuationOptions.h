@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
+@class NSString;
 
 @interface TISmartPunctuationOptions
 {
     _Bool _usesDirectionalQuotes;
-    NSLocale *_locale;
-    NSString *_leftSingleQuote;
-    NSString *_rightSingleQuote;
-    NSString *_apostrophe;
-    NSString *_leftDoubleQuote;
-    NSString *_rightDoubleQuote;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool))
+C;
++ (id)T	ƎR	Ϥr	k;
 - (void);
-- (void);
+- (void)gFeatureTypingFeedback",&,N,V__typingFeedbackFeature;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)processHighlightItemsInHighlightItemList:currentlyPromotedHighlightItems:withSharingConsideration:resultBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
@@ -39,7 +34,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)
 ¸
 ¡
@@ -49,13 +44,7 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *apostrophe; // @synthesize apostrophe=_apostrophe;
-@property(copy, nonatomic) NSString *leftDoubleQuote; // @synthesize leftDoubleQuote=_leftDoubleQuote;
 @property(copy, nonatomic) NSString *leftSingleQuote; // @synthesize leftSingleQuote=_leftSingleQuote;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSString *rightDoubleQuote; // @synthesize rightDoubleQuote=_rightDoubleQuote;
-@property(copy, nonatomic) NSString *rightSingleQuote; // @synthesize rightSingleQuote=_rightSingleQuote;
-@property(nonatomic) _Bool usesDirectionalQuotes; // @synthesize usesDirectionalQuotes=_usesDirectionalQuotes;
 
 @end
 

@@ -6,32 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, PNRODSchemaPNRODPQAMetrics, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODIntelligenceFlowExecutorComponentSummary : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_actionId;
-    SISchemaUUID *_planId;
-    SISchemaUUID *_clientRequestId;
-    SISchemaUUID *_rawQueryEventId;
-    SISchemaUUID *_executorId;
-    _Bool _isAppForeground;
-    long long _appState;
-    PNRODSchemaPNRODMetricDuration *_executionTime;
-    PNRODSchemaPNRODPQAMetrics *_pqaMetrics;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int isAppForeground:1;
-        unsigned int appState:1;
-    } _has;
-    _Bool _hasActionId;
-    _Bool _hasPlanId;
-    _Bool _hasClientRequestId;
-    _Bool _hasRawQueryEventId;
-    _Bool _hasExecutorId;
-    _Bool _hasExecutionTime;
-    _Bool _hasPqaMetrics;
-    _Bool _hasFailureInfo;
 }
 
 - (void);
@@ -54,7 +33,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -86,39 +65,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)txn-%@] Failed to reparse client state that we attempted to write:(id)arg1 %@;
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (id)onalRequest;
+- (id)_isPersonalRequest;
 - (id)TB,N,V_hasPhoneticMatchDecoderName;
 - (long long)oiceIdSubmitted;
-- (void)tionExperimentContext;
+- (void)personalizationExperimentContext;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *actionId; // @synthesize actionId=_actionId;
-@property(nonatomic) long long appState; // @synthesize appState=_appState;
-@property(retain, nonatomic) SISchemaUUID *clientRequestId; // @synthesize clientRequestId=_clientRequestId;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *executionTime; // @synthesize executionTime=_executionTime;
-@property(retain, nonatomic) SISchemaUUID *executorId; // @synthesize executorId=_executorId;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasActionId; // @synthesize hasActionId=_hasActionId;
-@property(nonatomic) _Bool hasAppState;
-@property(nonatomic) _Bool hasClientRequestId; // @synthesize hasClientRequestId=_hasClientRequestId;
-@property(nonatomic) _Bool hasExecutionTime; // @synthesize hasExecutionTime=_hasExecutionTime;
-@property(nonatomic) _Bool hasExecutorId; // @synthesize hasExecutorId=_hasExecutorId;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasIsAppForeground;
-@property(nonatomic) _Bool hasPlanId; // @synthesize hasPlanId=_hasPlanId;
-@property(nonatomic) _Bool hasPqaMetrics; // @synthesize hasPqaMetrics=_hasPqaMetrics;
-@property(nonatomic) _Bool hasRawQueryEventId; // @synthesize hasRawQueryEventId=_hasRawQueryEventId;
-@property(nonatomic) _Bool isAppForeground; // @synthesize isAppForeground=_isAppForeground;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *planId; // @synthesize planId=_planId;
-@property(retain, nonatomic) PNRODSchemaPNRODPQAMetrics *pqaMetrics; // @synthesize pqaMetrics=_pqaMetrics;
-@property(retain, nonatomic) SISchemaUUID *rawQueryEventId; // @synthesize rawQueryEventId=_rawQueryEventId;
 
 @end
 

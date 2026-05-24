@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UILabelContentLayer, _UILabelLightInertLayer, _UILabelLightReactiveLayer;
+@class _UILabelContentLayer;
 
 __attribute__((visibility("hidden")))
 @interface _UILabelLayer
 {
     _UILabelContentLayer *_contentLayer;
-    _UILabelLightReactiveLayer *_lightReactiveLayer;
-    _UILabelLightInertLayer *_lightInertLayer;
-    _Bool _contentInsetsValid;
-    struct UIEdgeInsets _contentInsets;
-    unsigned long long _oversizeEdgesIncludedInLabelLayer;
-    UIView *_lightContainerView;
 }
 
 - (void);
@@ -24,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)mmcs_put_req_context_init_items_for_section;
+- (void)der x-apple-put-complete-response malformed with value %@;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ITMediaItem;
 - (_Bool);
 - (void);
 - (void);
@@ -41,27 +35,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)"24;
-- (id)le;
-- (void)withGesture:(_Bool)arg1 withState: /* Error: Ran out of types for this method. */;
-- (_Bool)ppendOverflowScrollForNode:offset:whileScrolling: /* Error: Ran out of types for this method. */;
-- (void):(struct CGRect)arg1;
+- (id)clientHandle;
+- (void)changeSelectionWithGestureAt:(_Bool)arg1 withGesture:withState: /* Error: Ran out of types for this method. */;
+- (_Bool)appendOverflowScrollForNode:offset:whileScrolling: /* Error: Ran out of types for this method. */;
+- (void)_shouldIgnoreFormTextChangesInFrame:(struct CGRect)arg1;
 - (void)N,V_delegate;
 - (void)wasReset;
 - (void)6þÿÑîÿ;
-- (void)orage;
+- (void)appearanceStorage;
 - (_Bool)ring-spanner;
 - (void)---+;
-- (void)n;
+- (void)swipePresentation;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets letterformAwareInsets; // @synthesize letterformAwareInsets=_contentInsets;
 @property(readonly, nonatomic) _Bool letterformAwareInsetsAreValid; // @synthesize letterformAwareInsetsAreValid=_contentInsetsValid;
-@property(retain, nonatomic) UIView *lightContainerView; // @synthesize lightContainerView=_lightContainerView;
-@property(nonatomic) unsigned long long oversizeEdgesIncludedInLabelLayer; // @synthesize oversizeEdgesIncludedInLabelLayer=_oversizeEdgesIncludedInLabelLayer;
 
 @end
 

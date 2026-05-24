@@ -4,51 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchContext, NSArray, NSData, NSString;
-
 @interface CSIndexJob
 {
     long long _jobType;
-    long long _jobOptions;
-    NSArray *_identifiersToReindex;
-    NSArray *_bundleIDs;
-    NSArray *_excludedBundleIDs;
-    NSArray *_protectionClasses;
-    NSString *_providerIdentifier;
-    NSArray *_providerIdentifiers;
-    NSString *_providerType;
-    NSString *_extensionBundleID;
-    CSSearchContext *_searchContext;
-    NSData *_importData;
-    NSString *_reason;
-    NSString *_fileType;
-    NSArray *_fileAttributeSets;
-    NSArray *_updatedItems;
-    long long _updatedItemsMask;
 }
 
-+ (long long);
++ (long long)!;
 + (long long);
 + (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id)_;
+- (id);
+- (void);
+- (id)I;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)';
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (void);
+- (void)[;
 - (_Bool);
 - (void);
 - (void);
@@ -58,42 +40,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (long long);
+- (void)/usr/lib/system/libsystem_info.dylib;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id)s;
+- (id)_components;
 - (id);
-- (id);
-- (id)fiers;
+- (id)kMDItemSubItemCount;
+- (id)identifiers;
 - (id)2;
 - (void)o;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property(retain, nonatomic) NSArray *excludedBundleIDs; // @synthesize excludedBundleIDs=_excludedBundleIDs;
-@property(retain, nonatomic) NSString *extensionBundleID; // @synthesize extensionBundleID=_extensionBundleID;
-@property(copy, nonatomic) NSArray *fileAttributeSets; // @synthesize fileAttributeSets=_fileAttributeSets;
-@property(retain, nonatomic) NSString *fileType; // @synthesize fileType=_fileType;
-@property(retain, nonatomic) NSArray *identifiersToReindex; // @synthesize identifiersToReindex=_identifiersToReindex;
-@property(retain, nonatomic) NSData *importData; // @synthesize importData=_importData;
-@property(nonatomic) long long jobOptions; // @synthesize jobOptions=_jobOptions;
 @property(nonatomic) long long jobType; // @synthesize jobType=_jobType;
-@property(retain, nonatomic) NSArray *protectionClasses; // @synthesize protectionClasses=_protectionClasses;
-@property(retain, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(retain, nonatomic) NSArray *providerIdentifiers; // @synthesize providerIdentifiers=_providerIdentifiers;
-@property(retain, nonatomic) NSString *providerType; // @synthesize providerType=_providerType;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) CSSearchContext *searchContext; // @synthesize searchContext=_searchContext;
-@property(retain, nonatomic) NSArray *updatedItems; // @synthesize updatedItems=_updatedItems;
-@property long long updatedItemsMask; // @synthesize updatedItemsMask=_updatedItemsMask;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface JetEngine.JetPackResourceBundleDiskLocation
 {
     id url;
-    id automaticallyCleanUp;
 }
 
 @end

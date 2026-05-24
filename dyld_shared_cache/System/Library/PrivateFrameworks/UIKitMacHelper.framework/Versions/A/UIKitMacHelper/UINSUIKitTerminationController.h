@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-@protocol UINSUIKitTerminationControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface UINSUIKitTerminationController
 {
     _Bool __isTerminatingUIApplication;
-    _Bool __backgroundTasksDidTimeOut;
-    id <UINSUIKitTerminationControllerDelegate> _delegate;
-    NSTimer *__finalWarningShotTimer;
 }
 
 - (void);
@@ -22,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (unsigned long long);
@@ -35,15 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)nt processing stage;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool _backgroundTasksDidTimeOut; // @synthesize _backgroundTasksDidTimeOut=__backgroundTasksDidTimeOut;
-@property(retain, nonatomic) NSTimer *_finalWarningShotTimer; // @synthesize _finalWarningShotTimer=__finalWarningShotTimer;
 @property(nonatomic) _Bool _isTerminatingUIApplication; // @synthesize _isTerminatingUIApplication=__isTerminatingUIApplication;
-@property(readonly, nonatomic) unsigned long long backgroundTaskCount;
-@property(nonatomic) __weak id <UINSUIKitTerminationControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

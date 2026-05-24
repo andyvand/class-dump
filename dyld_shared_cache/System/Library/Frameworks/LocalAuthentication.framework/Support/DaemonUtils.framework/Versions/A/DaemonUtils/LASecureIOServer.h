@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreKDL, LASecureIOCommunication, LASecureIODoubleClick, NSData, NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_os_transaction;
+@class LASecureIOCommunication;
 
 @interface LASecureIOServer
 {
     long long _currentSceneID;
-    long long _currentOperationID;
-    NSObject<OS_os_transaction> *_transaction;
-    NSData *_currentInstructionsData;
-    NSDictionary *_currentInstructions;
-    NSData *_currentCredentialSet;
-    CoreKDL *_kdl;
-    NSMutableDictionary *_scenes;
-    NSDictionary *_scenesDescriptions;
-    LASecureIODoubleClick *_doubleClick;
-    LASecureIOCommunication *_communication;
 }
 
 + (_Bool);
@@ -35,9 +24,9 @@
 - (long long);
 - (void);
 - (void);
+- (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -50,7 +39,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (long long);
 - (long long);

@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)vectorWithX:Y: /* Error: Ran out of types for this method. */;
 @end
 

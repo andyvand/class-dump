@@ -10,11 +10,11 @@
 }
 
 - (id);
+- (id)xo;
+- (id);
+- (id)o;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)_¤Y_	YRz
 YRzYRzYRzå4Ò	RzlXX;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakObservableCallbackCancellationHelper, AVWeakReference, NSMutableSet;
+@class AVWeakReference;
 
 @interface AVKeyPathDependencyManager
 {
     AVWeakReference *_weakReferenceToDependencyHost;
-    AVWeakObservableCallbackCancellationHelper *_callbackCancellationHelper;
-    NSMutableSet *_keyPathDependencies;
 }
 
 - (void);

@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationPickerVehicleItemProvider
 {
     id store;
-    id backgroundQueue;
-    id everConnectedToCar;
-    id ignoresSeachText;
 }
 
 @end

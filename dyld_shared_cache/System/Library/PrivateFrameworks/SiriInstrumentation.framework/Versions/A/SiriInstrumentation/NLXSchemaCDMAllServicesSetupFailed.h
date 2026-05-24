@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMAllServicesSetupFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)ired:(_Bool)arg1 %{public}@;
 - (id);
 - (void);
-- (void);
+- (void)EugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs12/p12_decr.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (id)B,N,V_hasQueryAttributes;
 - (id)lannerComponentSummary",&,N,V_pnrodPNRODIntelligenceFlowPlannerComponentSummary;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

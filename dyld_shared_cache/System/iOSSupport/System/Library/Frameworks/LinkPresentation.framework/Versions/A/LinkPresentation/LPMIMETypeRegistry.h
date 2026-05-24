@@ -8,21 +8,21 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool)spinAnimation;
++ (_Bool)spellCheckingTypeDidChange:(id)arg1;
++ (_Bool)spatialMetadataProcessingQueue;
++ (_Bool)sparseTileSizeWithTextureType:(id)arg1 pixelFormat:sampleCount:sparsePageSize: /* Error: Ran out of types for this method. */;
++ (_Bool)sparseTileSizeWithTextureType:(id)arg1 pixelFormat:sampleCount: /* Error: Ran out of types for this method. */;
++ (_Bool)sparseTileSizeInBytesForSparsePageSize:(id)arg1;
++ (_Bool)sparseTextureTier;
++ (_Bool)sparseBufferTier;
++ (_Bool)spacingForLeading:(id)arg1 top:trailing:bottom: /* Error: Ran out of types for this method. */;
++ (_Bool)sourceViewController;
++ (id)sideMountPresentationSpacing;
++ (id)sideMountContentDismissedScale;
++ (id)sharedAssetsController:(id)arg1 didDeleteAttachmentItems: /* Error: Ran out of types for this method. */;
++ (id)setupReplyButton;
++ (id)set_suggestionGroup:(id)arg1;
 
 @end
 

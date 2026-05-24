@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTouchBarCaptureInputSourceItem, NSArray, NSNumber, NSString;
 @protocol AVTouchBarRecordingControlsControlling;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarRecordingControlsController
 {
     id <AVTouchBarRecordingControlsControlling> _externalTouchBarRecordingControlsController;
-    struct {
-        _Bool _videoTouchBarInputSourceItems;
-        _Bool _selectedVideoTouchBarInputSourceItem;
-        _Bool _audioTouchBarInputSourceItems;
-        _Bool _selectedAudioTouchBarInputSourceItem;
-        _Bool _screenTouchBarInputSourceItems;
-        _Bool _selectedScreenTouchBarInputSourceItem;
-        _Bool _selectTouchBarInputSourceItem;
-    } _externalControllerRespondsTo;
 }
 
 + (id);
@@ -70,54 +60,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)A;
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)or;
+- (_Bool)_imageGenerator;
 - (_Bool)&½Í;
 
 // Remaining properties
-@property(readonly) NSArray *audioTouchBarInputSourceItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) _Bool canAssociateAudioAndVideoDevices;
-@property(readonly) _Bool canPauseRecording;
-@property(readonly) _Bool canResumeRecording;
-@property(readonly) _Bool canStartRecording;
-@property(readonly) _Bool canStopRecording;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak id <AVTouchBarRecordingControlsControlling> externalTouchBarRecordingControlsController;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isPaused) _Bool paused;
-@property(readonly) NSNumber *recordedFileSize;
-@property(readonly) double recordedTime;
-@property(readonly, getter=isRecording) _Bool recording;
-@property(readonly) NSArray *screenTouchBarInputSourceItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) AVTouchBarCaptureInputSourceItem *selectedAudioTouchBarInputSourceItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AVTouchBarCaptureInputSourceItem",?,R
-
-@property(readonly) AVTouchBarCaptureInputSourceItem *selectedScreenTouchBarInputSourceItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AVTouchBarCaptureInputSourceItem",?,R
-
-@property(readonly) AVTouchBarCaptureInputSourceItem *selectedVideoTouchBarInputSourceItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AVTouchBarCaptureInputSourceItem",?,R
-
-@property(readonly) Class superclass;
-@property(readonly) NSArray *videoTouchBarInputSourceItems;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
 
 @end
 

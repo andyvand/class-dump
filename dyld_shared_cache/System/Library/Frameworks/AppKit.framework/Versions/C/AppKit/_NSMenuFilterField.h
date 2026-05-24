@@ -15,25 +15,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
+- (void)oard;
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (id)regateAssetDownloadTask"24@"NSURL"32;
+- (unsigned long long)downloadTaskWithResumeData:extractor:identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (void)_nscfBridgeURLCacheRemoveCachedResponseForRequest: /* Error: Ran out of types for this method. */;
+- (_Bool)5;
 - (_Bool);
 - (void);
 - (id)¸°Ðì¸ø;
-- (void)CMYK;
+- (void)kCGColorSpaceDeviceCMYK;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

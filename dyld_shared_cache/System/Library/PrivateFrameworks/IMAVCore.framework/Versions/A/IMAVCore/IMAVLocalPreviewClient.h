@@ -9,10 +9,6 @@
 @interface IMAVLocalPreviewClient
 {
     _Bool _shouldAlterPreviewState;
-    _Bool _wantsPreview;
-    _Bool _wantsPausedPreview;
-    _Bool _wantsUnpausedPreview;
-    AVConferencePreview *_conferencePreview;
 }
 
 + (id);
@@ -25,16 +21,16 @@
 - (void);
 - (id);
 - (unsigned int);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void *);
+- (void)4@?0@"IDSDevice"8Q16;
 - (void);
-- (void);
-- (id);
+- (id)2;
 - (_Bool);
 - (void);
 - (void);
@@ -43,27 +39,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)backgroundColor;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (unsigned int)builtInCommandsExamplesTableForLocaleIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)%@/%@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int cameraOrientation;
-@property(nonatomic) unsigned int cameraType;
 @property(retain, nonatomic) AVConferencePreview *conferencePreview; // @synthesize conferencePreview=_conferencePreview;
-@property(readonly, nonatomic) _Bool isPreviewRunning;
-@property(nonatomic) void *localVideoBackLayer;
-@property(nonatomic) void *localVideoLayer;
 
 @end
 

@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
+@class NSPredicate;
 
 @protocol PXMutableAssetsDataSourceManager
-- (void)teredEventsFromUI;
-- (void)tShareInvitation;
+- (void);
+- (_Bool);
+- (void)A;
+- (void)shouldRemoveFilteredEventsFromUI;
+- (void)PXCMMMomentShareInvitation;
 - (NSPredicate *)?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}56^{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}64^{?=cC{?=qiIq}c(?=cccc)(?=ddc)}72^{?=qqfdddd}80^Q88;
 - (void)t;
 
 // Remaining properties
 @property(nonatomic) long long backgroundFetchOriginSection;
-@property(retain, nonatomic) NSPredicate *filterPredicate;
-@property(nonatomic) _Bool includeOthersInSocialGroupAssets;
-@property(nonatomic, getter=isReverseSortOrder) _Bool reverseSortOrder;
-@property(copy, nonatomic) NSArray *sortDescriptors;
 @end
 

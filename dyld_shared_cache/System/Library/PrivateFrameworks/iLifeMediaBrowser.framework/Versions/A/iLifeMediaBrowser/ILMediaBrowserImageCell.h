@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILMediaBrowserMovieView, NSAttributedString, NSString, NSTimer, NSView;
+@class ILMediaBrowserMovieView;
 
 @interface ILMediaBrowserImageCell
 {
     ILMediaBrowserMovieView *movieView;
-    NSString *moviePath;
-    NSString *imagePath;
-    NSView *currentControlView;
-    NSTimer *durationTimer;
-    _Bool mReallyPlaying;
-    struct CGRect _movieBounds;
-    NSString *titleString;
-    NSAttributedString *attribTitle;
-    _Bool drawTitle;
-    _Bool mIsClip;
-    _Bool mIsProject;
-    long long mDisplayDuration;
-    long long mImageIndex;
 }
 
 - (void);
@@ -35,12 +22,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)0:(_Bool)arg1 8;
+- (_Bool)TWriterLock";
 - (void);
 - (long long);
 - (struct CGRect);
-- (void);
+- (void)BlueprintCollectionViewLayout.swift;
 - (void);
 - (void);
 - (void);

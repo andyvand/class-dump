@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CloudVodkaAttributes_ {
@@ -30,11 +30,6 @@ struct DevicePresetTokenResult {
 struct FPSubscriptionInfo_ {
     unsigned long long _field1;
     int _field2;
-};
-
-struct FairPlayHWInfo_ {
-    unsigned int IDLength;
-    unsigned char ID[20];
 };
 
 struct VanillaVodkaAttributes_ {
@@ -61,11 +56,6 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
-};
-
 struct sinfEntry_;
 
 #pragma mark Typedef'd Structures
@@ -87,38 +77,6 @@ typedef struct {
     CDStruct_198678f7 _field1;
     CDStruct_198678f7 _field2;
 } CDStruct_3c1748cc;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int position:1;
-    unsigned int revision:1;
-} CDStruct_bf543796;
-
-typedef struct {
-    unsigned int removeType:1;
-    unsigned int revision:1;
-} CDStruct_c634eefe;
-
-typedef struct {
-    unsigned int revision:1;
-    unsigned int trackGenerationSource:1;
-} CDStruct_4af0550e;
-
-typedef struct {
-    unsigned int dSID:1;
-} CDStruct_f07dd4d9;
-
-typedef struct {
-    unsigned int payload:1;
-} CDStruct_69063d38;
-
-typedef struct {
-    unsigned int revision:1;
-} CDStruct_3e022450;
-
-typedef struct {
-    unsigned int type:1;
-} CDStruct_f953fb60;
 
 #pragma mark Named Unions
 

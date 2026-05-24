@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSData;
 
 @interface AKIconContext
 {
     NSData *_data;
-    NSNumber *_scale;
-    unsigned long long _maskingStyle;
-    NSString *_appName;
 }
 
 + (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -29,10 +26,7 @@
 - (void)è,;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) unsigned long long maskingStyle; // @synthesize maskingStyle=_maskingStyle;
-@property(retain, nonatomic) NSNumber *scale; // @synthesize scale=_scale;
 
 @end
 

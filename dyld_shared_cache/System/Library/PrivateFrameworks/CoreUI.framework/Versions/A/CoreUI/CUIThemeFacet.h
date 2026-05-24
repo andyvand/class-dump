@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIThemeFacet
 {
     struct _renditionkeytoken *_renditionKeyList;
-    unsigned long long _themeIndex;
-    long long _renditionType;
-    struct CGSize _thumbnailSize;
-    struct CGPoint _hotSpot;
-    int _isTintable;
-    struct {
-        unsigned int hasCheckedButtonGlyph:1;
-        unsigned int isButtonGlyph:1;
-        unsigned int reserved:14;
-    } _fFlags;
 }
 
 + (void);
@@ -33,16 +21,16 @@
 + (unsigned long long);
 + (id);
 + (unsigned long long);
-+ (id);
++ (id)lue NSUIntegerMax is reserved;
 + (unsigned long long);
 + (void)on %lu;
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -50,7 +38,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (id);
 - (id);
 - (_Bool);
@@ -106,7 +94,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (void);
@@ -118,25 +106,19 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)OUDKIT:CKSyncEngine accountProvider is nil /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (long long);
-- (struct CGSize);
-- (double);
+- (long long)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (struct CGSize)nsactionReason:performActions:] /* Error: Ran out of types for this method. */;
+- (double)send keyness change to host;
 - (id);
-- (struct CGSize): /* Error: Ran out of types for this method. */;
+- (struct CGSize)_setExtraShadowAtIndex:fromPreset:index: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

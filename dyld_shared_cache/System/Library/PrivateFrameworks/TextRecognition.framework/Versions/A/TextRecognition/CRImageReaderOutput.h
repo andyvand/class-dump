@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CRImageReaderOutput
 {
     _Bool _isTitle;
-    float _baselineAngle;
-    NSString *_type;
-    NSString *_stringValue;
-    unsigned long long _confidence;
-    NSArray *_candidates;
-    NSArray *_components;
-    struct CGPoint _topLeft;
-    struct CGPoint _topRight;
-    struct CGPoint _bottomRight;
-    struct CGPoint _bottomLeft;
-    struct CGSize _imageSize;
-    struct CGRect _boundingBox;
 }
 
 + (unsigned long long);
@@ -38,9 +26,9 @@
 - (float);
 - (void);
 - (id);
+- (id)_titleTextLineHeight;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ListButton;
 - (id);
 - (void);
 - (struct CGPoint);
@@ -51,9 +39,9 @@
 - (id);
 - (struct CGPoint);
 - (_Bool);
-- (void);
+- (void)failed to compute thumbnail image, fall back to Icon Services.;
 - (id);
-- (id);
+- (id)NSt3__120__shared_ptr_emplaceI11CImageBlockNS_9allocatorIS1_EEEE;
 - (id);
 - (unsigned long long);
 - (void);
@@ -62,26 +50,7 @@
 - (void)hresholdProviding>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property float baselineAngle; // @synthesize baselineAngle=_baselineAngle;
-@property(readonly) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(readonly) struct CGPoint bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(readonly) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(readonly) NSArray *components; // @synthesize components=_components;
-@property unsigned long long confidence; // @synthesize confidence=_confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property _Bool isTitle; // @synthesize isTitle=_isTitle;
 @property(retain) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
-@property(readonly) struct CGPoint topLeft; // @synthesize topLeft=_topLeft;
-@property(readonly) struct CGPoint topRight; // @synthesize topRight=_topRight;
-@property(readonly) NSString *type; // @synthesize type=_type;
 
 @end
 

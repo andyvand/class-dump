@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void)s;
+- (void)sendPreferredContactForNameEvents;
 
 @end
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSearchField;
 @protocol SidebarSearchFieldViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SidebarSearchFieldView
 {
     id <SidebarSearchFieldViewDelegate> _delegate;
-    NSSearchField *_searchField;
-    id _accessibilityOverrideParent;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -28,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id accessibilityOverrideParent; // @synthesize accessibilityOverrideParent=_accessibilityOverrideParent;
 @property(nonatomic) __weak id <SidebarSearchFieldViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSSearchField *searchField; // @synthesize searchField=_searchField;
 
 @end
 

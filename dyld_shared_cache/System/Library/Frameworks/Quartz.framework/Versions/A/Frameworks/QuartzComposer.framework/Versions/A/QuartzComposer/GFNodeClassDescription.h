@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFList, NSMutableDictionary;
-
 @interface GFNodeClassDescription
 {
     Class _class;
-    struct _opaque_pthread_mutex_t _mutex;
-    GFList *_inputs;
-    GFList *_outputs;
-    _Bool _attributesInitialized;
-    NSMutableDictionary *_attributes;
-    NSMutableDictionary *_identifierAttributes;
-    NSMutableDictionary *_userInfo;
 }
 
 - (id);
@@ -26,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 

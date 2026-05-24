@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryMetricVendorDetails
 {
     NSString *_productData;
-    NSString *_manufacturer;
-    NSString *_model;
-    NSString *_firmwareVersion;
-    NSString *_category;
-    NSNumber *_differentiationNumber;
 }
 
 + (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)gressBlock: /* Error: Ran out of types for this method. */;
+- (id)numberOfYearsAgoWithMomentNodes:(id)arg1 relativeToDateComponents:useOrdinal: /* Error: Ran out of types for this method. */;
 - (id)!BùÑð1Â0@ù
 × ;
-- (id)leEnabled_;
+- (id)accessoriesWithMediaContentProfileEnabled_;
 - (id)ped due to error %@;
 - (void);
 - (id);
 - (id)ÿkøt2D;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSNumber *differentiationNumber; // @synthesize differentiationNumber=_differentiationNumber;
-@property(readonly, nonatomic) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
 @property(readonly, nonatomic) NSString *productData; // @synthesize productData=_productData;
 
 @end

@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
 @protocol DDSAssetTrackingDelegate;
 
 @protocol DDSAssetTracking
+- (void);
+- (void))a;
+- (NSSet *)ailExtension %s is trying to register for a prohibited filename extension:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <DDSAssetTrackingDelegate> delegate;

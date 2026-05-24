@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UITabBarItem, UIViewController;
+@class UIViewController;
 
 @interface TSTransitionContainerViewController
 {
     id disableInstallBarButtonItems;
-    id doneButtonPlacement;
-    id doneButtonStyle;
-    id hideDoneButton;
-    id rootViewController;
-    id containerIdentifier;
-    id backBarButtonItem;
-    id nextDisplayMode;
-    id $__lazy_storage_$_doneBarButtonItem;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)riceDescription;
+- (void);
+- (id)֎;
 - (id);
+- (id)_initWithUserActivityType:dynamicActivityType:options: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
@@ -41,12 +33,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) _Bool hidesBottomBarWhenPushed;
-@property(nonatomic, readonly) NSArray *leftBarButtonItems;
-@property(nonatomic, readonly) NSArray *rightBarButtonItems;
-@property(nonatomic, retain) UITabBarItem *tabBarItem;
 
 @end
 

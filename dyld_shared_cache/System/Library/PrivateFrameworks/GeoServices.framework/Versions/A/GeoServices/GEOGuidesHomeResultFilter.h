@@ -12,15 +12,13 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)inlineScheduler;
+- (id)y;
 - (long long)Pãäå;
 - (void)z±6;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOGuidesHomeResultFilterTypeConcept *conceptFilter;
-@property(readonly, nonatomic) long long filterType;
-@property(readonly, nonatomic) GEOPDGuidesHomeResultFilter *pdResultFilter;
 
 @end
 

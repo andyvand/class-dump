@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol ADCorePreferencesStoring;
-
 @interface ADRoutingInfoMessage
 {
     unsigned long long _routingInfoType;
-    id <ADCorePreferencesStoring> _storage;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)playerMuteFadeAnimationID;
 - (id);
 - (id);
 - (void);
@@ -25,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *environmentURL;
-@property(readonly, nonatomic) NSString *payload;
 @property(nonatomic) unsigned long long routingInfoType; // @synthesize routingInfoType=_routingInfoType;
-@property(retain, nonatomic) id <ADCorePreferencesStoring> storage; // @synthesize storage=_storage;
 
 @end
 

@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener;
-@protocol CXNotificationServiceExtensionHostDelegate;
+@class NSXPCListener;
 
 @interface CXNotificationServiceExtensionVoIPXPCHost
 {
     NSXPCListener *_xpcListener;
-    id <CXNotificationServiceExtensionHostDelegate> _delegate;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)must be escaped to \u0015;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CXNotificationServiceExtensionHostDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
 
 @end

@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOPDModuleLayoutEntry
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_applicationIds;
-    NSString *_debugLayoutId;
-    NSMutableArray *_modules;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _platformType;
-    int _renderingMode;
-    struct {
-        unsigned int has_platformType:1;
-        unsigned int has_renderingMode:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_applicationIds:1;
-        unsigned int read_debugLayoutId:1;
-        unsigned int read_modules:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)v16@?0^{__CFRunLoopTimer=}8;
 + (Class);
-+ (Class);
-+ (_Bool)allbackShield:(id)arg1;
-- (void);
++ (_Bool)setIconFallbackShield:(id)arg1;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,15 +34,15 @@
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (int);
 - (int);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_decodeError: /* Error: Ran out of types for this method. */;
+- (void)-[CSSiriSpeechRecorder speakerIdentificationDidDetectSpeakerWithScores:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (void);
@@ -70,24 +52,16 @@
 - (id);
 - (void);
 - (id)b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24q32Q40;
-- (void)TimeZone;
-- (id);
+- (void)localTimeZone;
+- (id)_guideGroup;
 - (id)x=°EF´Q¸W`YxZ{¸	(		Ì	h	ÌX;
-- (id)PARKED_CAR;
+- (id)MAPS_WIDGET_PARKED_CAR;
 - (void);
 - (void)\ÿ@;
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *applicationIds;
-@property(retain, nonatomic) NSString *debugLayoutId;
-@property(readonly, nonatomic) _Bool hasDebugLayoutId;
-@property(nonatomic) _Bool hasPlatformType;
-@property(nonatomic) _Bool hasRenderingMode;
-@property(retain, nonatomic) NSMutableArray *modules;
-@property(nonatomic) int platformType;
-@property(nonatomic) int renderingMode;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

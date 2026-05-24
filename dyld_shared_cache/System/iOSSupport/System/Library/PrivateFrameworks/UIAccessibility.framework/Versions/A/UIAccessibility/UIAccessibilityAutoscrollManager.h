@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @interface UIAccessibilityAutoscrollManager
 {
     _Bool _autoscrolling;
-    UIScrollView *_scrollView;
-    unsigned long long _scrollDirection;
-    double _autoscrollSpeed;
-    id _targetToScroll;
 }
 
 + (id);
@@ -24,14 +18,14 @@
 - (unsigned long long);
 - (_Bool);
 - (double);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)PXPeoplePickerViewControllerDelegate;
+- (_Bool)_TtCV12PhotosUICoreP33_0353D17CBE1C867E9E0FB31C003D882622PhotosSceneOrientation20NotificationObserver;
+- (_Bool)_TtC12PhotosUICore40LemonadeMemoriesCreationButtonValidation;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)%;
 - (unsigned long long);
 - (id);
 - (void);
@@ -40,11 +34,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double autoscrollSpeed; // @synthesize autoscrollSpeed=_autoscrollSpeed;
 @property(nonatomic, getter=isAutoscrolling) _Bool autoscrolling; // @synthesize autoscrolling=_autoscrolling;
-@property(nonatomic) unsigned long long scrollDirection; // @synthesize scrollDirection=_scrollDirection;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) id targetToScroll; // @synthesize targetToScroll=_targetToScroll;
 
 @end
 

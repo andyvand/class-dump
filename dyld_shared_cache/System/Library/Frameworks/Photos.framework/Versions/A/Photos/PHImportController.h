@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDeviceBrowser, NSHashTable, NSMutableDictionary, NSString;
+@class ICDeviceBrowser;
 
 @interface PHImportController
 {
     struct os_unfair_lock_s _sourceListLock;
-    struct os_unfair_lock_s _importInProgressLock;
-    _Bool _importInProgress;
-    ICDeviceBrowser *_deviceBrowser;
-    NSMutableDictionary *_importSources;
-    NSHashTable *_observers;
-    id _processInfoActivityToken;
 }
 
 + (_Bool);
 + (_Bool);
 + (id)Èå
 Èæ;
-- (_Bool);
+- (_Bool)n``n@n;
 - (void);
 - (void);
 - (void);
@@ -43,31 +37,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void)R";
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)edType;
+- (id));
+- (id)countOfFilterItems;
+- (void)representedType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) ICDeviceBrowser *deviceBrowser; // @synthesize deviceBrowser=_deviceBrowser;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool importInProgress; // @synthesize importInProgress=_importInProgress;
-@property(retain, nonatomic) NSMutableDictionary *importSources; // @synthesize importSources=_importSources;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) id processInfoActivityToken; // @synthesize processInfoActivityToken=_processInfoActivityToken;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ContactsPersistence/ABCDOwnedObject.h>
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface ABCDSocialProfile : ABCDOwnedObject
 {
@@ -42,18 +42,7 @@
 × ;
 
 // Remaining properties
-@property(copy) NSArray *bundleIdentifiers;
 @property(copy) NSString *bundleIdentifiersString; // @dynamic bundleIdentifiersString;
-@property(copy) NSDictionary *customValues;
-@property(copy) NSData *customValuesData; // @dynamic customValuesData;
-@property(copy) NSString *displayValue;
-@property(copy) NSString *displayname; // @dynamic displayname;
-@property(copy) NSString *serviceName; // @dynamic serviceName;
-@property(copy) NSString *teamIdentifier; // @dynamic teamIdentifier;
-@property(retain, nonatomic) NSURL *url;
-@property(copy) NSString *urlString; // @dynamic urlString;
-@property(copy) NSString *userIdentifier; // @dynamic userIdentifier;
-@property(copy) NSString *username; // @dynamic username;
 
 @end
 

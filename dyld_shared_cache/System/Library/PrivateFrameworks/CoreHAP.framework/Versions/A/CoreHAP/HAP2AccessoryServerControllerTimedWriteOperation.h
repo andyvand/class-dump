@@ -14,15 +14,15 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void)reapSession: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HAP2EncodedRequest> executeRequest; // @synthesize executeRequest=_executeRequest;

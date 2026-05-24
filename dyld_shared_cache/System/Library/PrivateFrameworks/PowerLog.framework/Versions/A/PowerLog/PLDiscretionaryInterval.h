@@ -4,50 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PLCPUEnergySnapshot, PLNetworkUsageSnapshot;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface PLDiscretionaryInterval
 {
     NSDate *_originalStartDate;
-    NSDate *_currentStartDate;
-    NSDate *_endDate;
-    PLCPUEnergySnapshot *_cpuEnergySnapshot;
-    PLNetworkUsageSnapshot *_networkEnergySnapshot;
-    double _startCount;
-    double _openCount;
 }
 
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (double);
+- (double)kRegLastNetworkType;
+- (id);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)0;
+- (id)9H;
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain) PLCPUEnergySnapshot *cpuEnergySnapshot; // @synthesize cpuEnergySnapshot=_cpuEnergySnapshot;
-@property(retain) NSDate *currentStartDate; // @synthesize currentStartDate=_currentStartDate;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) PLNetworkUsageSnapshot *networkEnergySnapshot; // @synthesize networkEnergySnapshot=_networkEnergySnapshot;
-@property double openCount; // @synthesize openCount=_openCount;
 @property(retain) NSDate *originalStartDate; // @synthesize originalStartDate=_originalStartDate;
-@property double startCount; // @synthesize startCount=_startCount;
 
 @end
 

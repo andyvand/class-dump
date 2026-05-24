@@ -4,50 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, WiFiLexicon;
-@protocol OS_dispatch_queue, WiFiLocationProvider, WiFiScanProvider;
+@class NSSet;
 
 @interface WiFiAvailabilityEngine
 {
     double _availabilityMatchMaximumAge;
-    NSSet *_providers;
-    NSSet *_sources;
-    NSSet *_availableNetworks;
-    CDUnknownBlockType _availabilityChangedCallback;
-    id <WiFiScanProvider> _scanProvider;
-    id <WiFiLocationProvider> _locationProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    WiFiLexicon *_wifiLexicon;
 }
 
 - (id);
 - (id);
+- (void)d to create temp file.;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void)_TtC12SiriOntology32UsoEntity_common_PointOfInterest;
+- (id)2;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (double);
 - (id);
 - (void);
 - (void);
 - (id);
+- (double)decimalNumberByAdding: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (void);
+- (id);
+- (void)Boolean, Boolean);
 - (void);
 - (id);
 - (void);
@@ -58,15 +49,7 @@
 - (void)wayAddress is probably stale or incorrect %@ self.dnsServers is probably stale or incorrect %@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType availabilityChangedCallback; // @synthesize availabilityChangedCallback=_availabilityChangedCallback;
-@property(nonatomic) double availabilityMatchMaximumAge; // @synthesize availabilityMatchMaximumAge=_availabilityMatchMaximumAge;
-@property(retain, nonatomic) NSSet *availableNetworks; // @synthesize availableNetworks=_availableNetworks;
-@property(nonatomic) __weak id <WiFiLocationProvider> locationProvider; // @synthesize locationProvider=_locationProvider;
 @property(copy, nonatomic) NSSet *providers; // @synthesize providers=_providers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id <WiFiScanProvider> scanProvider; // @synthesize scanProvider=_scanProvider;
-@property(copy, nonatomic) NSSet *sources; // @synthesize sources=_sources;
-@property(retain, nonatomic) WiFiLexicon *wifiLexicon; // @synthesize wifiLexicon=_wifiLexicon;
 
 @end
 

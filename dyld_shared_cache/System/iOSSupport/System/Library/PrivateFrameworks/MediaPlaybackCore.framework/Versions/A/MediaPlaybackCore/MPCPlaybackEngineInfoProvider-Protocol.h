@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MPCPlaybackEngineInfoProvider
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *playbackEngineID;

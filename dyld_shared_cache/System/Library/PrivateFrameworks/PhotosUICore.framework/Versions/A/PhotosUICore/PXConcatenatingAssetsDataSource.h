@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXAssetReference;
-
 @interface PXConcatenatingAssetsDataSource
 {
     id underlyingDataSources;
-    id mode;
-    id $__lazy_storage_$_numberOfUnderlyingSections;
 }
 
 - (id);
@@ -22,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (long long)dentifiers: /* Error: Ran out of types for this method. */;
+- (long long)initWithPhotoLibraryAndOnlyReturnsIdentifiers: /* Error: Ran out of types for this method. */;
 - (long long)ë;
 - (void)>Q$ç: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) long long numberOfSections;
-@property(nonatomic, readonly) PXAssetReference *startingAssetReference;
 
 @end
 

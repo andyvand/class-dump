@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol HMDThreadRadioClient, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDThreadResidentCommissioner
 {
     struct os_unfair_recursive_lock_s _threadOperationsLock;
-    NSMutableArray *_pendingOperations;
-    _Bool _operationInProgress;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDThreadRadioClient> _threadRadioClient;
 }
 
 + (id);
@@ -25,13 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@"MSPContainer"32;
+- (void)initWithRawData:(_Bool)arg1 elevationModel:(_Bool)arg2;
+- (void)ShareETABlocklistMigration2022;
 - (void);
 - (void);
 - (void);
@@ -41,12 +39,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -59,14 +55,6 @@ __attribute__((visibility("hidden")))
 - (void)son.settings.manager;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HMDThreadRadioClient> threadRadioClient; // @synthesize threadRadioClient=_threadRadioClient;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -7,17 +7,11 @@
 @interface AMPMPPlayerControllerNowPlayingTimeSnapshot
 {
     double _elapsedTime;
-    double _duration;
-    double _timestamp;
-    _Bool _live;
-    float _rate;
-    double _timeStamp;
-    long long _state;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (double);
 - (_Bool);
 - (id);
@@ -28,15 +22,10 @@
 - (_Bool);
 - (void);
 - (double);
-- (float);
+- (float)selectTabViewItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic, getter=isLive) _Bool live; // @synthesize live=_live;
-@property(readonly, nonatomic) float rate; // @synthesize rate=_rate;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) double timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

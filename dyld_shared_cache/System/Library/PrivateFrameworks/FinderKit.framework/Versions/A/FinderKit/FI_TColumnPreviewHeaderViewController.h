@@ -6,25 +6,18 @@
 
 #import <FinderKit/FI_TBaseInfoWindowViewController.h>
 
-@class FI_TPropertyColumnPreviewKindAndSizeController, FI_TPropertyColumnPreviewNameController, FI_TPropertyColumnPreviewSmallIconController, FI_TPropertySharedFromController, NSLayoutConstraint, NSStackView;
+@class FI_TPropertyColumnPreviewSmallIconController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TColumnPreviewHeaderViewController : FI_TBaseInfoWindowViewController
 {
     FI_TPropertyColumnPreviewSmallIconController *_iconController;
-    FI_TPropertyColumnPreviewNameController *_nameController;
-    FI_TPropertyColumnPreviewKindAndSizeController *_kindAndSizeController;
-    FI_TPropertySharedFromController *_sharedFromController;
-    NSStackView *_textVerticalStackView;
-    NSLayoutConstraint *_nameTopConstraint;
-    NSLayoutConstraint *_nameHeightConstraint;
-    struct TKeyValueBinder _nameTextAlignmentBinder;
 }
 
++ (id));
 + (id);
-+ (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned int);
@@ -34,15 +27,12 @@ __attribute__((visibility("hidden")))
 - (struct TFENode);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void)ô
 ;
 
 // Remaining properties
-@property(nonatomic) struct TFENode browserTargetNode;
-@property(readonly, nonatomic) double nameFontSize;
 @property(readonly, nonatomic) long long nameKindTextAlignment;
-@property(nonatomic) _Bool showSmallThumbnail;
 
 @end
 

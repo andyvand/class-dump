@@ -7,14 +7,6 @@
 @interface CalendarUIKit.LocationViewModel
 {
     id _eventModelObject;
-    id _virtualConferenceStatus;
-    id _location;
-    id updateAttendeesHandler;
-    id _selectedLocationFromChooser;
-    id _vcTitle;
-    id _vcSubtitle;
-    id _mapMarkerItem;
-    id _$observationRegistrar;
 }
 
 @end

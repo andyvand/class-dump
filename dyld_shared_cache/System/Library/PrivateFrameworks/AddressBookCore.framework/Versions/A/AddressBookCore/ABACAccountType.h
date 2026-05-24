@@ -16,12 +16,12 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nSignpostNameRecoverWithCDPContext}d ;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;

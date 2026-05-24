@@ -7,16 +7,6 @@
 @interface PhotosUICore.PeopleUnifiedItemListManager
 {
     id itemList;
-    id peopleFetchLimit;
-    id peopleSoftCap;
-    id magicManager;
-    id personManager;
-    id groupManager;
-    id unifiedManager;
-    id magicObserver;
-    id personObserver;
-    id groupObserver;
-    id itemListNeedsUpdate;
 }
 
 @end

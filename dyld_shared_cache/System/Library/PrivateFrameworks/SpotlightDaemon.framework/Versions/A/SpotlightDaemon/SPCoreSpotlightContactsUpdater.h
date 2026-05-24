@@ -9,9 +9,9 @@
 }
 
 + (id);
-- (id);
-- (void);
-- (id);
+- (id)handleMediaContentProfileAccessControlUpdate:(id)arg1;
+- (void)handleMediaAccessorySetActionType:(id)arg1 forObjects:withServiceType:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)gematennaaid;
 
 @end
 

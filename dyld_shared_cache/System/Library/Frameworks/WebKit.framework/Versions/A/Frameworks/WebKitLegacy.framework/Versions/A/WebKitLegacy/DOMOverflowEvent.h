@@ -16,9 +16,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool horizontalOverflow;
 @property(readonly) unsigned short orient;
-@property(readonly) _Bool verticalOverflow;
 
 @end
 

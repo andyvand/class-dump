@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, PGGraphMomentNodeCollection, PGTitleGenerationContext, PGTitleTuple;
-@protocol OS_os_log;
+@class NSArray, PGTitleTuple;
 
 @interface PGDayHighlightTitleGenerator
 {
     NSArray *_summarizedFeatures;
-    PGGraphMomentNodeCollection *_momentNodes;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGTitleGenerationContext *_titleGenerationContext;
-    PGTitleTuple *_titleTuple;
 }
 
+- (id)6@0:8 /* Error: Ran out of types for this method. */;
+- (id)ACMContextRemoveCredentialsByValue;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)t+;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)cent;
+- (void)PGThrowbackThursdayTitleMoreRecent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PGTitleTuple *titleTuple; // @synthesize titleTuple=_titleTuple;
 
 @end

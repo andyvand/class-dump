@@ -5,5 +5,10 @@
 //
 
 @protocol CNContactNavigationControllerDelegate
+
+@optional
+- (_Bool);
+- (_Bool)h&;
+- (void);
 @end
 

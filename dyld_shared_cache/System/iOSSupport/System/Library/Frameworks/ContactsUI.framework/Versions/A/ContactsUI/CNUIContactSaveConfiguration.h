@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, CNContainer, CNGroup, CNMutableContact, CNUIContainerContext, CNUIGroupContext, NSArray, NSMutableArray;
+@class CNContact;
 
 __attribute__((visibility("hidden")))
 @interface CNUIContactSaveConfiguration
 {
     _Bool _ignoresParentalRestrictions;
-    _Bool _saveWasAuthorized;
-    CNContact *_contact;
-    CNMutableContact *_mutableContact;
-    NSArray *_originalContacts;
-    CNMutableContact *_shadowCopyOfReadonlyContact;
-    NSMutableArray *_editingLinkedContacts;
-    CNContactStore *_contactStore;
-    CNGroup *_parentGroup;
-    CNContainer *_parentContainer;
-    CNUIContainerContext *_containerContext;
-    CNUIGroupContext *_groupContext;
 }
 
 - (id);
@@ -33,26 +22,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)T9c;
 - (_Bool);
 - (id);
-- (id);
-- (void)strictions:issuedRequestIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)SYMBOLICATION_LOG_SWIFT_UNKNOWN_FIELDS;
+- (void)addLinkedContacts:toOriginalContact:ignoresGuardianRestrictions:issuedRequestIdentifiers: /* Error: Ran out of types for this method. */;
 - (id)Ä;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) CNUIContainerContext *containerContext; // @synthesize containerContext=_containerContext;
-@property(readonly, nonatomic) NSMutableArray *editingLinkedContacts; // @synthesize editingLinkedContacts=_editingLinkedContacts;
-@property(readonly, nonatomic) CNUIGroupContext *groupContext; // @synthesize groupContext=_groupContext;
-@property(readonly, nonatomic) _Bool ignoresParentalRestrictions; // @synthesize ignoresParentalRestrictions=_ignoresParentalRestrictions;
-@property(readonly, nonatomic) CNMutableContact *mutableContact; // @synthesize mutableContact=_mutableContact;
-@property(readonly, nonatomic) NSArray *originalContacts; // @synthesize originalContacts=_originalContacts;
-@property(readonly, nonatomic) CNContainer *parentContainer; // @synthesize parentContainer=_parentContainer;
-@property(readonly, nonatomic) CNGroup *parentGroup; // @synthesize parentGroup=_parentGroup;
-@property(readonly, nonatomic) _Bool saveWasAuthorized; // @synthesize saveWasAuthorized=_saveWasAuthorized;
-@property(readonly, nonatomic) CNMutableContact *shadowCopyOfReadonlyContact; // @synthesize shadowCopyOfReadonlyContact=_shadowCopyOfReadonlyContact;
 
 @end
 

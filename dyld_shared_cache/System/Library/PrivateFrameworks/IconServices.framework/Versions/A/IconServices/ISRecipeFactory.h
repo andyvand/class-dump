@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISImageDescriptor, ISResourceProvider;
+@class ISResourceProvider;
 
 __attribute__((visibility("hidden")))
 @interface ISRecipeFactory
 {
     ISResourceProvider *_resourceProvider;
-    ISImageDescriptor *_descriptor;
 }
 
-+ (id);
-+ (id);
++ (id)rawValue;
++ (id)rangeOfString:(id)arg1 options:range: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)__gcc_except_tab__TEXT;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)66;
 - (id);
 - (id);
 - (void);
 - (void)¢I;
 
 // Remaining properties
-@property(copy) ISImageDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) _Bool preferRichRecipe;
 @property(copy) ISResourceProvider *resourceProvider; // @synthesize resourceProvider=_resourceProvider;
 
 @end

@@ -13,7 +13,7 @@
 + (id);
 - (void);
 - (CDStruct_8b1c126c);
-- (id);
+- (id)recordId;
 
 // Remaining properties
 @property(nonatomic) CDStruct_8b1c126c candidateSet; // @synthesize candidateSet=_candidateSet;

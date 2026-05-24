@@ -5,5 +5,9 @@
 //
 
 @protocol XCTMessagingRole_UIAutomationProcess
+- (void);
+- (void);
+- (void)T;
+- (void);
 @end
 

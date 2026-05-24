@@ -12,20 +12,16 @@
 }
 
 - (id);
+- (int)asyncDataWithContentsOfURL: /* Error: Ran out of types for this method. */;
+- (id)_TtCC19ContactsPersistence19CNCDFileSystemPhotoP33_7DF0F0C34F4DC3D385D6DC9AAC3F043E12CodingHelper;
 - (int);
-- (id);
-- (int);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int componentIdentifier;
-@property(readonly, nonatomic) int layoutVariant;
-@property(readonly, nonatomic) unsigned long long numberOfRows;
 @property(readonly, nonatomic) NSString *sectionTitle;
-@property(readonly, nonatomic, getter=isVertical) _Bool vertical;
 
 @end
 

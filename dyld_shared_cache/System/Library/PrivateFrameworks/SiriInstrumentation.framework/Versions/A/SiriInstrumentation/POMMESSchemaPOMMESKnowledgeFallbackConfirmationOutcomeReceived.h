@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface POMMESSchemaPOMMESKnowledgeFallbackConfirmationOutcomeReceived : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pommesSessionId;
-    int _confirmationOutcome;
-    CDStruct_72d5c25e _has;
-    _Bool _hasPommesSessionId;
 }
 
 - (void);
@@ -26,23 +23,19 @@
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)%@, Type:%i, HasUsedFreeOffer:%@, HasUsedIntroPricingOffer:%@, Subscription Family ID:%@, AutoRenewStatus:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ery - unable to create row dictionary for messageId:(id)arg1 %@, skipping!;
 - (id);
 - (id);
-- (id)annerResponseTime;
+- (id)_plannerResponseTime;
 - (id)V_hasUserAsrScore;
-- (void)itServiceResponse;
+- (void)homeKitServiceResponse;
 
 // Remaining properties
-@property(nonatomic) int confirmationOutcome; // @synthesize confirmationOutcome=_confirmationOutcome;
-@property(nonatomic) _Bool hasConfirmationOutcome;
-@property(nonatomic) _Bool hasPommesSessionId; // @synthesize hasPommesSessionId=_hasPommesSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *pommesSessionId; // @synthesize pommesSessionId=_pommesSessionId;
 
 @end

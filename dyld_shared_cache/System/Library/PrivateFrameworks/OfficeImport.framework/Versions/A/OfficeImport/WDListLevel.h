@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, WDCharacterProperties, WDDocument, WDOfficeArt, WDParagraphProperties;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDListLevel
 {
     WDDocument *mDocument;
-    WDParagraphProperties *mParagraphProperties;
-    WDCharacterProperties *mCharacterProperties;
-    WDOfficeArt *mImage;
-    long long mStartNumber;
-    int mNumberFormat;
-    _Bool mRestartNumbering;
-    long long mRestartLevel;
-    _Bool mLegal;
-    int mSuffix;
-    NSMutableString *mText;
-    _Bool mLegacy;
-    long long mLegacySpace;
-    long long mLegacyIndent;
-    int mJustification;
 }
 
 - (_Bool);
@@ -32,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,9 +33,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
+- (int)M;
+- (_Bool)(;
+- (_Bool)(;
 - (id);
 - (void);
 - (void);

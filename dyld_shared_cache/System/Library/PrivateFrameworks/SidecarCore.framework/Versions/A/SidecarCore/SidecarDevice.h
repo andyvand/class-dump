@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NSUUID, UTType;
+@class NSUUID;
 
 @interface SidecarDevice
 {
     NSUUID *_identifier;
-    NSString *_model;
-    NSString *_name;
-    unsigned long long _status;
-    NSString *_version;
-    long long _rapportVersion;
-    UTType *_deviceType;
-    unsigned long long _generation;
-    unsigned long long _cameraState;
-    NSDictionary *_cameraCapabilities;
-    NSString *_mediaRouteIdentifier;
 }
 
 + (id);
@@ -30,16 +20,16 @@
 - (id);
 - (id);
 - (id);
+- (void)R;
 - (void);
-- (void);
-- (id);
+- (id)eFrameworks/WebInspectorUI.framework/Versions/A/WebInspectorUI;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (id)`;
 - (id);
-- (id);
-- (id);
+- (id)b;
 - (_Bool);
 - (id);
 - (void);
@@ -53,25 +43,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)int=dd}{CGSize=dd}}16;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *cameraCapabilities;
-@property(nonatomic) unsigned long long cameraState;
-@property(readonly, nonatomic) UTType *deviceType;
-@property(readonly, nonatomic) NSString *deviceTypeIdentifier;
-@property(readonly, nonatomic) _Bool hasHomeButton;
-@property(readonly, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) NSURL *imageURL;
-@property(readonly, nonatomic) _Bool isRealityDevice;
-@property(readonly, nonatomic) NSString *localizedDeviceType;
-@property(copy, nonatomic) NSString *mediaRouteIdentifier;
-@property(readonly, nonatomic) NSString *model;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool offersAdditionalDisplay;
 @property(readonly, nonatomic) long long rapportVersion;
-@property(nonatomic) unsigned long long status;
-@property(readonly, nonatomic) NSString *version;
 
 @end
 

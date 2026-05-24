@@ -7,16 +7,12 @@
 @interface SwiftUI.UIKitGestureRecognizer
 {
     id eventBridge;
-    id initialScale;
-    id initialAngle;
-    id scrollConverter;
-    id gestureCategory;
 }
 
-- (void);
+- (void)";
 - (id);
 - (id);
-- (id);
+- (id)rd snippet for a non password protected note;
 - (void);
 - (void);
 - (void);

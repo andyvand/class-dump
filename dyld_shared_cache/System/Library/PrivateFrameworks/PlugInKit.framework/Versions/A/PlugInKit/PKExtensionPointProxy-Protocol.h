@@ -7,9 +7,9 @@
 @class NSDictionary, NSNumber;
 
 @protocol PKExtensionPointProxy
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *platform;
-@property(readonly, nonatomic) NSDictionary *sdkEntry;
 @end
 

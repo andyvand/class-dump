@@ -6,25 +6,19 @@
 
 #import <UserNotificationsKit/NCNotificationSystemSettings.h>
 
-@class NSArray;
-
 @interface NCNotificationMutableSystemSettings : NCNotificationSystemSettings
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ile no action is running;
+- (void).;
+- (void)cted interaction or condition not handled.;
+- (void)ion:(long long)arg1 forceExecutionOnPhone:] /* Error: Ran out of types for this method. */;
+- (void)"NSData"24@?0@"WFVariableSubstitutableParameterState"8Q16;
+- (void)S;
 
 // Remaining properties
-@property(nonatomic, getter=areHighlightsEnabled) _Bool highlightsEnabled; // @dynamic highlightsEnabled;
-@property(nonatomic) long long listDisplayStyleSetting; // @dynamic listDisplayStyleSetting;
 @property(nonatomic, getter=isScheduledDeliveryEnabled) _Bool scheduledDeliveryEnabled; // @dynamic scheduledDeliveryEnabled;
-@property(nonatomic, getter=shouldScheduledDeliveryShowNextSummary) _Bool scheduledDeliveryShowNextSummary; // @dynamic scheduledDeliveryShowNextSummary;
-@property(copy, nonatomic) NSArray *scheduledDeliveryTimes; // @dynamic scheduledDeliveryTimes;
 @property(nonatomic, getter=isScheduledDeliveryUninitialized) _Bool scheduledDeliveryUninitialized; // @dynamic scheduledDeliveryUninitialized;
 
 @end

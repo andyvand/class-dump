@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtensionContext, NSWindow;
+@class NSExtensionContext;
 
 __attribute__((visibility("hidden")))
 @interface ASExtensionServiceViewController
 {
     NSExtensionContext *_extensionContext;
-    NSWindow *_window;
 }
 
 - (void);

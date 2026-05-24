@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSNumber, NSString;
-
 @interface SFProductInventory
 {
     struct {
@@ -13,14 +11,6 @@
         unsigned int availabilityStatus:1;
         unsigned int distanceUnit:1;
     } _has;
-    int _type;
-    int _availabilityStatus;
-    int _distanceUnit;
-    NSString *_storeId;
-    NSNumber *_distance;
-    NSDate *_timestamp;
-    NSString *_storeName;
-    NSString *_storeAddress;
 }
 
 + (_Bool);
@@ -34,43 +24,27 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)setValue:(id)arg1 forProperty:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)`;
 - (id);
-- (unsigned long long);
-- (id);
-- (int);
-- (id);
+- (int)hasVideo;
+- (id)`(;
 - (_Bool);
-- (void);
+- (void)setTargetUnattenuatedReverbMix:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)PhotoKit changes:(id)arg1 [%{public}@] Reply sent to client %{public}@ at %{public}@ success:%{public}@ error:%@ validate:%f wait:%f tx#:%llu %{public}@ /* Error: Ran out of types for this method. */;
+- (id)PHPhotosErrorSharedLibraryDoesNotHaveACurrentUser;
+- (id)PHSuggestedContributionsAssetsMetadataLongitudeKey;
 - (void);
 - (id);
 - (id);
 - (_Bool)!Ô@ù§1Â0@ù
 × ;
-- (void)ionItemTypesAtIndex: /* Error: Ran out of types for this method. */;
+- (void)actionItemTypesAtIndex: /* Error: Ran out of types for this method. */;
 - (void)SString",C,N,V_expandText;
 - (void)äAC;
 
 // Remaining properties
-@property(nonatomic) int availabilityStatus; // @synthesize availabilityStatus=_availabilityStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *distance; // @synthesize distance=_distance;
-@property(nonatomic) int distanceUnit; // @synthesize distanceUnit=_distanceUnit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *storeAddress; // @synthesize storeAddress=_storeAddress;
-@property(copy, nonatomic) NSString *storeId; // @synthesize storeId=_storeId;
-@property(copy, nonatomic) NSString *storeName; // @synthesize storeName=_storeName;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

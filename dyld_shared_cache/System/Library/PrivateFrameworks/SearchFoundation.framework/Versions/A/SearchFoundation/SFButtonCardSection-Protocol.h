@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFImage, SFRichText;
+@class NSData, NSString;
 
 @protocol SFButtonCardSection
+- (NSData *);
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFImage *thumbnail;
-@property(retain, nonatomic) SFRichText *title;
 @property(copy, nonatomic) NSString *type;
 @end
 

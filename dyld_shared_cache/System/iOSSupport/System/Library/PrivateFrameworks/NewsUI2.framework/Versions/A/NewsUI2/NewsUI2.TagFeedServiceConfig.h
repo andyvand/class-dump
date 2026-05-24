@@ -7,23 +7,6 @@
 @interface NewsUI2.TagFeedServiceConfig
 {
     id context;
-    id contentConfig;
-    id contentConfigData;
-    id parentContentConfig;
-    id parentContentConfigData;
-    id paidBundleConfig;
-    id appConfig;
-    id cachePolicy;
-    id canCache;
-    id feedDescriptor;
-    id dateRange;
-    id refreshInterval;
-    id sportsOnboardingState;
-    id featureAvailability;
-    id subscriptionController;
-    id selectors;
-    id sportsEventVisualizationResult;
-    id puzzleArchiveFilterOptions;
 }
 
 @end

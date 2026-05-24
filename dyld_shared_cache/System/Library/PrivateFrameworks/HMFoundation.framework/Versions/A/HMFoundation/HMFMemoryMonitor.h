@@ -6,25 +6,21 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSMapTable, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HMFMemoryMonitor : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    _Bool _monitoring;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    NSMapTable *_memoryObservancesByObserver;
 }
 
-+ (id);
++ (id)}@Setting state to:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (void);
 - (void);
@@ -33,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSMapTable *memoryObservancesByObserver; // @synthesize memoryObservancesByObserver=_memoryObservancesByObserver;
-@property(readonly, nonatomic) NSObject<OS_dispatch_source> *memoryPressureSource; // @synthesize memoryPressureSource=_memoryPressureSource;
-@property(nonatomic, getter=isMonitoring) _Bool monitoring; // @synthesize monitoring=_monitoring;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

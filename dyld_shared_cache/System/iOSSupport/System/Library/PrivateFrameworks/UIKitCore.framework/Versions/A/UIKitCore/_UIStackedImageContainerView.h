@@ -6,19 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSObject, UIImage, UIMotionEffectGroup, _UIStackedImageConfiguration;
-@protocol UINamedLayerStack;
+@class UIImage, UIMotionEffectGroup;
 
 @interface _UIStackedImageContainerView : UIView
 {
     UIMotionEffectGroup *_stackMotionEffects;
-    _Bool _installsMotionEffectsWhenFocused;
-    UIImage *_stackImage;
-    NSObject<UINamedLayerStack> *_constructedStackImage;
-    _UIStackedImageConfiguration *_config;
 }
 
-+ (Class);
++ (Class)addChild:withPendingUnitCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -30,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,27 +33,27 @@
 - (_Bool);
 - (id);
 - (struct CGPoint);
-- (unsigned long long);
+- (unsigned long long)geContext";
+- (id)2B56B60^@64@72;
+- (id)pendingHandleIDsForReload;
+- (void)itedMessagePartBody:(unsigned long long)arg1 editedMessagePartTranslation:(struct CGPoint)arg2 editedMessagePartFileTransferGUIDs:(_Bool)arg3 shouldRetractMessageSubject:(id)arg4 hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
+- (void)initWithEntityName: /* Error: Ran out of types for this method. */;
+- (void)has_parentPreviewWidth;
+- (void)generateAndPersistSpamDetectionPreviewImage:senderContext:maxPxWidth:scale:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)_permanentTransferGUIDForTransfer:(_Bool)arg1 inItem:(_Bool)arg2;
+- (void);
 - (id);
+- (id)9;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)ecks Passed, Enabling!!;
+- (void)ed to sizeOfAssetForRecord %@;
 - (id);
 - (_Bool);
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)eShapeLayerPath;
-- (id)mCenterToActivateRestingTouch:(struct CGRect)arg1;
+- (void)_updateShapeLayerPath;
+- (id)_isTouchFarEnoughFromCenterToActivateRestingTouch:(struct CGRect)arg1;
 - (id);
 - (void)ccessoryView;
 - (void)-screen;
@@ -68,17 +63,7 @@ Touch and hold to select from a list.;
 - (void)ü©q=¦Ä;;
 
 // Remaining properties
-@property(copy, nonatomic) _UIStackedImageConfiguration *config; // @synthesize config=_config;
-@property(retain, nonatomic) NSObject<UINamedLayerStack> *constructedStackImage; // @synthesize constructedStackImage=_constructedStackImage;
-@property(nonatomic) unsigned long long controlState;
-@property(nonatomic) struct CGPoint focusDirection;
-@property(retain, nonatomic) UIView *imageOverlayView;
-@property(nonatomic) _Bool installsMotionEffectsWhenFocused; // @synthesize installsMotionEffectsWhenFocused=_installsMotionEffectsWhenFocused;
-@property(retain, nonatomic) UIView *maskedOverlayView;
-@property(nonatomic, getter=isPressed) _Bool pressed;
-@property(nonatomic, getter=isStackFocused) _Bool stackFocused;
 @property(retain, nonatomic) UIImage *stackImage; // @synthesize stackImage=_stackImage;
-@property(retain, nonatomic) UIView *unmaskedOverlayView;
 
 @end
 

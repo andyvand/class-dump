@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSimpleItemStandardCardSection
 {
     _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    NSArray *_text_3s;
-    NSArray *_text_4s;
-    _SFPBRFTextProperty *_text_5;
-    _SFPBRFTextProperty *_text_6;
 }
 
 - (id);
@@ -37,33 +32,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)d, newTiles:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)removePreviewAssetsSuggestedByPhotos:(id)arg1;
+- (id)rary;
 - (id);
 - (id);
 - (void)16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(copy, nonatomic) NSArray *text_4s; // @synthesize text_4s=_text_4s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5; // @synthesize text_5=_text_5;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6; // @synthesize text_6=_text_6;
 
 @end
 

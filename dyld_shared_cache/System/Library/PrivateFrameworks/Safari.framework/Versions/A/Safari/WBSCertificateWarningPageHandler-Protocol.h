@@ -5,5 +5,6 @@
 //
 
 @protocol WBSCertificateWarningPageHandler
+- (void);
 @end
 

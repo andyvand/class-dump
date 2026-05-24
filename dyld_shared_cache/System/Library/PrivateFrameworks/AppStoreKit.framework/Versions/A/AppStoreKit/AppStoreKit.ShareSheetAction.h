@@ -9,8 +9,6 @@
 @interface AppStoreKit.ShareSheetAction : AppStoreKit.Action
 {
     id data;
-    id activities;
-    id shareSheetStyle;
 }
 
 @end

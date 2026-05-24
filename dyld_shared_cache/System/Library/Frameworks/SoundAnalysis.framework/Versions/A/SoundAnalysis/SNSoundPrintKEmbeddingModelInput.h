@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNSoundPrintKEmbeddingModelInput
 {
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MLMultiArray *audioSamples; // @synthesize audioSamples=_audioSamples;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

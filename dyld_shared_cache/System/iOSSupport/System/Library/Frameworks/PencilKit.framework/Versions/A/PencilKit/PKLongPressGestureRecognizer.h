@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PKLongPressGestureRecognizer
 {
     id allowableMovement;
-    id allowableTotalMovement;
-    id minimumPressDuration;
-    id startLocation;
-    id pressStartLocations;
 }
 
 - (void);
@@ -19,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void):(id)arg1;
+- (void)imageWithTintColor:(id)arg1;
 - (void)¬u7;
 
 @end

@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (id)75;
+- (id)satPercentile75;
 
 // Remaining properties
 @property(retain) PHAsset *asset; // @synthesize asset=_asset;

@@ -7,38 +7,23 @@
 @interface AWDCoreRoutinePersistenceMirroringDeviceProfile
 {
     unsigned long long _timestamp;
-    int _ageOfDevice;
-    int _deviceClass;
-    int _placesAssociatedToDevice;
-    int _timeIntervalSinceLastRecordAssociation;
-    int _transitionsAssociatedToDevice;
-    int _visitsAssociatedToDevice;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int ageOfDevice:1;
-        unsigned int deviceClass:1;
-        unsigned int placesAssociatedToDevice:1;
-        unsigned int timeIntervalSinceLastRecordAssociation:1;
-        unsigned int transitionsAssociatedToDevice:1;
-        unsigned int visitsAssociatedToDevice:1;
-    } _has;
 }
 
 - (int);
 - (int);
 - (int);
+- (void)r ;
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (int);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (void);
@@ -49,9 +34,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)@F;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -63,20 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int ageOfDevice; // @synthesize ageOfDevice=_ageOfDevice;
-@property(nonatomic) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) _Bool hasAgeOfDevice;
-@property(nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasPlacesAssociatedToDevice;
-@property(nonatomic) _Bool hasTimeIntervalSinceLastRecordAssociation;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTransitionsAssociatedToDevice;
-@property(nonatomic) _Bool hasVisitsAssociatedToDevice;
-@property(nonatomic) int placesAssociatedToDevice; // @synthesize placesAssociatedToDevice=_placesAssociatedToDevice;
-@property(nonatomic) int timeIntervalSinceLastRecordAssociation; // @synthesize timeIntervalSinceLastRecordAssociation=_timeIntervalSinceLastRecordAssociation;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int transitionsAssociatedToDevice; // @synthesize transitionsAssociatedToDevice=_transitionsAssociatedToDevice;
-@property(nonatomic) int visitsAssociatedToDevice; // @synthesize visitsAssociatedToDevice=_visitsAssociatedToDevice;
 
 @end
 

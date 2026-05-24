@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)MTMediaItemMetadataLoadingProtocol;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsDeselection; // @synthesize allowsDeselection=_allowsDeselection;

@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSURL;
-
 @interface IKPathPopupButton
 {
     long long _lastSelection;
-    long long _selectedPathType;
-    _Bool _hotplugActionMode;
-    _Bool _includeAutoDownloader;
-    _Bool _includeMoviesAsStandardDirectory;
-    _Bool _canChooseApplications;
-    _Bool _canChooseDirectories;
-    _Bool _canChooseImageCaptureTools;
-    _Bool _canChooseImageCaptureWorkflows;
-    _Bool _enableMakeSubFoldersPerCamera;
-    _Bool _enableICTasks;
-    _Bool _enableAutomatorActions;
-    _Bool _makeSubFoldersPerCamera;
-    NSMutableArray *_defaultDirs;
-    NSMutableArray *_defaultApps;
-    NSMutableArray *_userDirs;
-    NSMutableArray *_userApps;
-    NSMutableArray *_icApps;
-    NSMutableArray *_icWorkflows;
-    SEL _actionApp;
-    SEL _actionDir;
 }
 
 + (id);
@@ -57,17 +35,17 @@
 - (void);
 - (void);
 - (void);
+- (void))}k;
+- (void);
 - (void);
-- (void);
-- (void);
+- (_Bool)a;
+- (long long)";
 - (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -88,46 +66,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)shouldAllowOneMoreMinuteForBundleIdentifier:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ountGranted;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)?>24;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)So7CKEventC;
 - (id);
 - (id);
 - (void);
 - (void)ÌL;
 
 // Remaining properties
-@property SEL actionApp; // @synthesize actionApp=_actionApp;
-@property SEL actionDir; // @synthesize actionDir=_actionDir;
-@property(nonatomic) _Bool canChooseApplications; // @synthesize canChooseApplications=_canChooseApplications;
-@property(nonatomic) _Bool canChooseDirectories; // @synthesize canChooseDirectories=_canChooseDirectories;
-@property(nonatomic) _Bool canChooseImageCaptureTools; // @synthesize canChooseImageCaptureTools=_canChooseImageCaptureTools;
-@property(nonatomic) _Bool canChooseImageCaptureWorkflows; // @synthesize canChooseImageCaptureWorkflows=_canChooseImageCaptureWorkflows;
-@property(retain) NSMutableArray *defaultApps; // @synthesize defaultApps=_defaultApps;
-@property(retain) NSMutableArray *defaultDirs; // @synthesize defaultDirs=_defaultDirs;
-@property(nonatomic) _Bool enableMakeSubFoldersPerCamera; // @synthesize enableMakeSubFoldersPerCamera=_enableMakeSubFoldersPerCamera;
-@property(nonatomic) _Bool hotplugActionMode; // @synthesize hotplugActionMode=_hotplugActionMode;
-@property(retain) NSMutableArray *icApps; // @synthesize icApps=_icApps;
-@property(retain) NSMutableArray *icWorkflows; // @synthesize icWorkflows=_icWorkflows;
-@property(nonatomic) _Bool includeAutoDownloader; // @synthesize includeAutoDownloader=_includeAutoDownloader;
-@property(nonatomic) _Bool includeMoviesAsStandardDirectory; // @synthesize includeMoviesAsStandardDirectory=_includeMoviesAsStandardDirectory;
 @property long long lastSelection; // @synthesize lastSelection=_lastSelection;
-@property _Bool makeSubFoldersPerCamera; // @synthesize makeSubFoldersPerCamera=_makeSubFoldersPerCamera;
-@property(copy, nonatomic) NSString *path;
-@property long long selectedPathType; // @synthesize selectedPathType=_selectedPathType;
-@property(nonatomic) NSURL *url;
-@property(retain) NSMutableArray *userApps; // @synthesize userApps=_userApps;
-@property(retain) NSMutableArray *userDirs; // @synthesize userDirs=_userDirs;
 
 @end
 

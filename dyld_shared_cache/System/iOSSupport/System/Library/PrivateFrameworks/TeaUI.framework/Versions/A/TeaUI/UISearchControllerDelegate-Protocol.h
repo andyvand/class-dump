@@ -7,6 +7,6 @@
 @protocol UISearchControllerDelegate
 
 @optional
-- (void)paratorProvider;
+- (void)itemSeparatorProvider;
 @end
 

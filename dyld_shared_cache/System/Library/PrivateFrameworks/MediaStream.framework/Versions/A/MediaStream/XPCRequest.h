@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 @interface XPCRequest
 {
     CDUnknownBlockType _handler;
-    unsigned long long _sequence;
-    NSObject<OS_xpc_object> *_message;
-    NSObject<OS_xpc_object> *_reply;
 }
 
-- (void);
+- (void)r:lastStrokeIdentifier:bounds:classification:groupingConfidence:strategyIdentifier:firstStrokeOrigin: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)2026 Apple Inc. All rights reserved. */
+// Copyright (c) 2025 Apple Inc. All rights reserved.
+"use strict";function normalizedElementTagName(e){return e.localName}function plaintextVersionOfNodeAppendingNewlinesBetweenBlockElements(e){const n=(e.ownerDocument??document).createTreeWalker(e,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,null);let t="";for(n.currentNode=e;n.nextNode();){const e=n.currentNode;if(e.nodeType===Node.TEXT_NODE){t+=e.textContent;continue}let o=normalizedElementTagName(e);"p"!==o&&"div"!==o||(t+="\n")}return t}const READER_UNIQUE_ID_ATTRIBUTE_KEY="data-reader-unique-id",READER_UNIQUE_ID_TITLE="titleElement",READER_UNIQUE_ID_SUBHEAD="subheadElement";
+0;;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *reply; // @synthesize reply=_reply;
 @property(readonly, nonatomic) unsigned long long sequence; // @synthesize sequence=_sequence;
 
 @end

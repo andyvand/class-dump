@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void)CelcCeleCeliCeloCelsCelt.el;
-- (void);
+- (void)round-Opaque;
 
 @end
 

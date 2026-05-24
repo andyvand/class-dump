@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface WBSUserMediaCapturePolicyEntry
 {
     double _permissionExpirationDate;
-    double _permissionGrantDate;
-    NSString *_origin;
-    NSString *_topLevelOrigin;
-    NSString *_persistentSalt;
-    unsigned long long _permission;
-    NSMutableDictionary *_ephemeralSalts;
 }
 
 - (void);
@@ -29,25 +21,19 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)h;
+- (void)already posted final notification;
 - (id);
 - (void);
-- (id);
+- (id)_filteredLexiconForLanguage:waitUntilLoaded: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *ephemeralSalts; // @synthesize ephemeralSalts=_ephemeralSalts;
-@property(retain, nonatomic) NSString *origin; // @synthesize origin=_origin;
-@property(nonatomic) unsigned long long permission; // @synthesize permission=_permission;
 @property(nonatomic) double permissionExpirationDate; // @synthesize permissionExpirationDate=_permissionExpirationDate;
-@property(nonatomic) double permissionGrantDate; // @synthesize permissionGrantDate=_permissionGrantDate;
-@property(retain, nonatomic) NSString *persistentSalt; // @synthesize persistentSalt=_persistentSalt;
-@property(retain, nonatomic) NSString *topLevelOrigin; // @synthesize topLevelOrigin=_topLevelOrigin;
 
 @end
 

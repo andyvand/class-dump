@@ -6,18 +6,11 @@
 
 #import <ChatKit/CKMessagePartChatItem.h>
 
-@class CKMediaObjectAssetDataSource, NSArray, NSURL, UITraitCollection;
+@class NSArray;
 
 @interface CKAggregateAttachmentMessagePartChatItem : CKMessagePartChatItem
 {
     _Bool _hasCheckedForMomentShareURL;
-    UITraitCollection *_transcriptTraitCollection;
-    NSArray *_aggregateChatItems;
-    NSArray *_mediaObjects;
-    CKMediaObjectAssetDataSource *_dataSource;
-    NSURL *_momentShareURL;
-    NSArray *_aggregatedVisibleAssociatedMessageChatItems;
-    NSArray *_aggregatedNonTapbackVisibleAssociatedMessageChatItems;
 }
 
 - (id);
@@ -26,12 +19,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
+- (void)t;
+- (void)d;
+- (id)d to append sample buffer:%@ /* Error: Ran out of types for this method. */;
+- (id)count:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (struct CGSize)them. Just use the passcode or Mac login password on any device signed in to your Apple Account to lock or unlock a note. 
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
+- (id)wordForAccount:(id)arg1 displayWindow:(double)arg2 completionHandler:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (Class);
 - (id);
@@ -47,21 +42,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (Class);
 - (void);
-- (unsigned long long)plete:animated: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setPercentComplete:animated: /* Error: Ran out of types for this method. */;
 - (void)PzÂÿ ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *aggregateChatItems; // @synthesize aggregateChatItems=_aggregateChatItems;
-@property(retain, nonatomic) NSArray *aggregatedNonTapbackVisibleAssociatedMessageChatItems; // @synthesize aggregatedNonTapbackVisibleAssociatedMessageChatItems=_aggregatedNonTapbackVisibleAssociatedMessageChatItems;
-@property(retain, nonatomic) NSArray *aggregatedVisibleAssociatedMessageChatItems; // @synthesize aggregatedVisibleAssociatedMessageChatItems=_aggregatedVisibleAssociatedMessageChatItems;
-@property(retain, nonatomic) CKMediaObjectAssetDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) NSArray *mediaObjects; // @synthesize mediaObjects=_mediaObjects;
-@property(copy, nonatomic) NSURL *momentShareURL; // @synthesize momentShareURL=_momentShareURL;
-@property(readonly, copy, nonatomic) NSArray *transferGUIDs;
-@property(readonly, nonatomic) NSArray *visibleAssociatedMessageChatItemsIncludingTapbacks;
 
 @end
 

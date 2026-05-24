@@ -6,26 +6,24 @@
 
 #import <CharacterPicker/CPKDraggableView.h>
 
-@class NSString, NSTextField;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CPKCharacterCellView : CPKDraggableView
 {
     NSString *_characterString;
-    double _fontSize;
-    NSTextField *_textField;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)/;
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)@	;
 - (struct CGSize);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (double);
 - (void);
@@ -34,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *characterString; // @synthesize characterString=_characterString;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(retain, nonatomic) NSTextField *textField; // @synthesize textField=_textField;
 
 @end
 

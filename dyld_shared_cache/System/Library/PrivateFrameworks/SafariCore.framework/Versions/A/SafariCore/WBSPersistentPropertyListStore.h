@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSURL, WBSCoalescedAsynchronousWriter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSPersistentPropertyListStore
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSURL *_backingStoreURL;
-    NSMutableDictionary *_store;
-    WBSCoalescedAsynchronousWriter *_writer;
-    CDUnknownBlockType _createEmptyStoreHandler;
-    CDUnknownBlockType _validateLoadedStoreHandler;
 }
 
 - (id);
-- (id);
+- (id)ources/Core3DRuntime/Engine/AppleEngine/C3DEngineContext.c;
 - (id);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (CDUnknownBlockType);
+- (id)odelController",&,V_signatureModelController;
+- (void)3;
 - (id);
 - (id);
 - (void);
@@ -45,7 +40,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType createEmptyStoreHandler; // @synthesize createEmptyStoreHandler=_createEmptyStoreHandler;
-@property(copy, nonatomic) CDUnknownBlockType validateLoadedStoreHandler; // @synthesize validateLoadedStoreHandler=_validateLoadedStoreHandler;
 
 @end
 

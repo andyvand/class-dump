@@ -7,6 +7,7 @@
 @class CPLPlatformObject;
 
 @protocol CPLAbstractObject
+- (CPLPlatformObject *)d, syserr = %s;
 
 // Remaining properties
 @property(readonly, nonatomic) CPLPlatformObject *platformObject;

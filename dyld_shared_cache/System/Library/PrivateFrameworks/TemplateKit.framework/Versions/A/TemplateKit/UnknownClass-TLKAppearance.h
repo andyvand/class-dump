@@ -13,7 +13,7 @@
 - (id);
 - (double);
 - (float);
-- (float);
+- (float);
 - (id);
 - (void);
 - (void);

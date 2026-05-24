@@ -17,11 +17,11 @@
 - (void);
 - (void)Ä;
 - (void)com.apple.hardcoded.bundleid;
-- (void)ySettings;
+- (void)userPrivacySettings;
 - (void)cept share at URL %@ because we couldn't decrypt the share as an invited user;
 - (void)MyKIpsYw_srFtQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/Operations/Database/Records/CKDFetchRecordsOperation.m;
 - (void)it.operationInfoCacheDelegate;
-- (void)D;
+- (void)DSID;
 - (void)s corrupt - item boundary is not aligned with section boundary;
 - (void)];
 - (void)obal deviceID from keychain, returning nil.;
@@ -39,7 +39,7 @@
 - (void)lic}@ zoneID:(CKModifyRecordZonesOperationInfo *)arg1 %@;
 - (void)ing account status from %@ to temporarily unavailable for container:(CKFetchRecordZoneChangesOperationInfo *)arg1 %@;
 - (void)t identifiers:(CKFetchRecordsOperationInfo *)arg1 %@;
-- (void)upContext;
+- (void)CKDMMCSItemGroupContext;
 - (void)g cached asset file at %{public}@:(CKLeaveSharesOperationInfo *)arg1 %@;
 - (void)blic}@;
 - (void)ResponseObject;

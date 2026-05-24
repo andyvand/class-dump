@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UIWindow *_windowWithBorder;
 }
 
-+ (id)umberOfMulticolorLayers;
++ (id)numberOfMulticolorLayers;
 - (void);
-- (void);
-- (void);
+- (void)g"32i40@"NSDictionary"44;
+- (void)setExportedInterface: /* Error: Ran out of types for this method. */;
 - (void)yÞÚ.3yAAy­¾7Ã.3y:º.3GGSOGGGAIy3£.3yU¾7GGG_Û.3Qo__#¾7Qo__|.3Qo_ /* Error: Ran out of types for this method. */;
 
 @end

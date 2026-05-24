@@ -9,50 +9,40 @@
 @interface GEOMarcoLiteUsageState
 {
     PBUnknownFields *_unknownFields;
-    int _stateExitReason;
-    unsigned int _stateTime;
-    int _stateType;
-    unsigned int _stateValue;
-    struct {
-        unsigned int has_stateExitReason:1;
-        unsigned int has_stateTime:1;
-        unsigned int has_stateType:1;
-        unsigned int has_stateValue:1;
-    } _flags;
 }
 
-+ (_Bool)me:(id)arg1;
++ (_Bool)setHasTrafficSnapshotUnixTime:(id)arg1;
 - (unsigned int);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
-- (int);
+- (int)userHasOptedOutOfPreference: /* Error: Ran out of types for this method. */;
+- (int)initWithDomain:(id)arg1 message: /* Error: Ran out of types for this method. */;
+- (void);
+- (id));
 - (void);
 - (id);
-- (void);
+- (void)lowercaseString;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)-[CSSiriSpeechRecordingContext willPrepareAndStartRecordingWithAudioActivationInfo:(id)arg1 ];
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)locationServicesEnabled;
 - (_Bool);
 - (int);
-- (void);
+- (void);
 - (id)26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24^@32;
-- (_Bool)teStatusAsString: /* Error: Ran out of types for this method. */;
+- (_Bool)rerouteStatusAsString: /* Error: Ran out of types for this method. */;
 - (id)teDetails",&,N;
 - (id)Äx;
 - (id)d;
@@ -60,15 +50,7 @@
 - (void)8"ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStateExitReason;
-@property(nonatomic) _Bool hasStateTime;
 @property(nonatomic) _Bool hasStateType;
-@property(nonatomic) _Bool hasStateValue;
-@property(nonatomic) int stateExitReason;
-@property(nonatomic) unsigned int stateTime;
-@property(nonatomic) int stateType;
-@property(nonatomic) unsigned int stateValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

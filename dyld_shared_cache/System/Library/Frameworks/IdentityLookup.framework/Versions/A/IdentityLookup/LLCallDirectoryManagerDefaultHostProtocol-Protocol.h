@@ -5,5 +5,11 @@
 //
 
 @protocol LLCallDirectoryManagerDefaultHostProtocol
+- (oneway void),N,V_peerBitErrorRate;
+- (oneway void)tartPortion;
+- (oneway void)oggleEventCount;
+- (oneway void)sCaptive;
+- (oneway void);
+- (oneway void)bleReasonString;
 @end
 

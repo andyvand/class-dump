@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)onse:(id)arg1 %@;
 + (void);
 + (void);
 + (void);

@@ -9,12 +9,12 @@
     _Bool _hasConnectedAVCall;
 }
 
-+ (id)annel;
++ (id)_lastTriggeredBestChannel;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)newOwnedObjectForCoreDataContact:(id)arg1;
 - (id);
 - (void);
 - (void);

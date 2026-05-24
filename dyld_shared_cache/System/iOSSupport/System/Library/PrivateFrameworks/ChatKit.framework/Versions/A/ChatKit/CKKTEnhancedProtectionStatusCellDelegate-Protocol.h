@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKKTEnhancedProtectionStatusCell;
+
 @protocol CKKTEnhancedProtectionStatusCellDelegate
+- (void)_webView:(CKKTEnhancedProtectionStatusCell *)arg1 requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)entOptionalFeatures:(CKKTEnhancedProtectionStatusCell *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(CKKTEnhancedProtectionStatusCell *)arg1 requestPermissionForXRSessionOrigin:mode:grantedFeatures:consentRequiredFeatures:consentOptionalFeatures:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(CKKTEnhancedProtectionStatusCell *)arg1 requestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
 @end
 

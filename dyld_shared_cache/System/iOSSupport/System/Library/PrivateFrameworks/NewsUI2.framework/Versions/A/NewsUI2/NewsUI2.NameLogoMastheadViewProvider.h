@@ -7,10 +7,6 @@
 @interface NewsUI2.NameLogoMastheadViewProvider
 {
     id mastheadView;
-    id renderer;
-    id layoutAttributesFactory;
-    id margins;
-    id model;
 }
 
 - (id);

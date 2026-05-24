@@ -6,24 +6,16 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOMapSubscriptionRemoveReply : GEOXPCReply
 {
 }
 
 - (id);
-- (_Bool);
-- (void)tIndex:(id)arg1;
+- (_Bool)objectAtIndex: /* Error: Ran out of types for this method. */;
+- (void)cameraAtIndex:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

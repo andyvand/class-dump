@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECEmailAddress, NSString;
+@class ECEmailAddress;
 
 @protocol ECEmailAddressConvertible
 
 // Remaining properties
 @property(readonly, nonatomic) ECEmailAddress *emailAddressValue;
-@property(readonly, nonatomic) NSString *stringValue;
 @end
 

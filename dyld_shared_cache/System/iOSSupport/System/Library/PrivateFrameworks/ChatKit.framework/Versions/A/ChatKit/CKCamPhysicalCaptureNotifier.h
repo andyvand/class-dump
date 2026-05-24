@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKCamPhysicalCaptureNotifierDelegate;
-
 @interface CKCamPhysicalCaptureNotifier
 {
     _Bool _enabled;
-    id <CKCamPhysicalCaptureNotifierDelegate> _delegate;
-    long long _state;
-    long long __volumeUpButtonState;
-    long long __volumeDownButtonState;
 }
 
 - (long long);
@@ -31,15 +25,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)!;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setVolumeDownButtonState:) long long _volumeDownButtonState; // @synthesize _volumeDownButtonState=__volumeDownButtonState;
-@property(nonatomic, setter=_setVolumeUpButtonState:) long long _volumeUpButtonState; // @synthesize _volumeUpButtonState=__volumeUpButtonState;
-@property(nonatomic) __weak id <CKCamPhysicalCaptureNotifierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(nonatomic, setter=_setState:) long long state; // @synthesize state=_state;
 
 @end

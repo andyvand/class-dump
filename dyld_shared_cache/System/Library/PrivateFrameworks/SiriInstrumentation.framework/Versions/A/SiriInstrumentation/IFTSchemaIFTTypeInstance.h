@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTCollectionValue, IFTSchemaIFTTypeIdentifier, NSData;
+@class IFTSchemaIFTTypeIdentifier;
 
 @interface IFTSchemaIFTTypeInstance : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTTypeIdentifier *_typeIdentifier;
-    IFTSchemaIFTCollectionValue *_collection;
-    _Bool _hasTypeIdentifier;
-    _Bool _hasCollection;
-    unsigned long long _whichItemtype;
 }
 
 - (unsigned long long);
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (unsigned long long);
@@ -36,19 +32,14 @@
 - (void)1àð1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)GATSchemaGATModelAgentCaptured;
 - (void)-#;
 - (id)ìê;
 - (id)¦îÿ¿;
 - (void)[á&;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTCollectionValue *collection; // @synthesize collection=_collection;
-@property(nonatomic) _Bool hasCollection; // @synthesize hasCollection=_hasCollection;
-@property(nonatomic) _Bool hasTypeIdentifier; // @synthesize hasTypeIdentifier=_hasTypeIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTTypeIdentifier *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
-@property(readonly, nonatomic) unsigned long long whichItemtype; // @synthesize whichItemtype=_whichItemtype;
 
 @end
 

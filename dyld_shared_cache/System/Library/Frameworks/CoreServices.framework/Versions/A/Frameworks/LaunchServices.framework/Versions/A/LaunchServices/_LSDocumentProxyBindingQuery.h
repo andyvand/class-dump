@@ -6,17 +6,14 @@
 
 #import <LaunchServices/_LSQuery.h>
 
-@class LSClaimBindingConfiguration;
-
 __attribute__((visibility("hidden")))
 @interface _LSDocumentProxyBindingQuery : _LSQuery
 {
     _Bool _yieldClaimBindings;
-    LSClaimBindingConfiguration *_bindingConfiguration;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)48@0:8@"<MTLFunction>"16@"MTLFunctionDescriptor"24@"<MTLBinaryArchive>"32^@40 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -27,12 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)( ;
 - (_Bool);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) LSClaimBindingConfiguration *bindingConfiguration; // @synthesize bindingConfiguration=_bindingConfiguration;
 @property(nonatomic) _Bool yieldClaimBindings; // @synthesize yieldClaimBindings=_yieldClaimBindings;
 
 @end

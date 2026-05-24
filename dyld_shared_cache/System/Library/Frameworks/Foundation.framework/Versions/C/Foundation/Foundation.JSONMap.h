@@ -7,7 +7,6 @@
 @interface Foundation.JSONMap
 {
     id mapBuffer;
-    id dataLock;
 }
 
 @end

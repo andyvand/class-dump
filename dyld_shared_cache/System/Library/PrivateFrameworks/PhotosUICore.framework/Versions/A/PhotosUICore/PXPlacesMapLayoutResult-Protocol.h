@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, PXPlacesMapViewPort;
+@class NSOrderedSet;
 
 @protocol PXPlacesMapLayoutResult
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *layoutItems;
-@property(readonly, nonatomic) PXPlacesMapViewPort *viewPort;
 @end
 

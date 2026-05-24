@@ -9,12 +9,11 @@
 @interface SMTaskManager
 {
     NSConditionLock *taskTerminationLock;
-    int termStatus;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)setObject:forKey: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

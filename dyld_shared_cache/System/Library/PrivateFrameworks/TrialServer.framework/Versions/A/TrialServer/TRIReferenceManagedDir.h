@@ -8,24 +8,24 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (CDStruct_6b48f683);
-- (id);
++ (_Bool)outVariant:(id)arg1 hasTopEdgeContact:(id)arg2 maxClockShift:debugLayouts: /* Error: Ran out of types for this method. */;
++ (_Bool)meFrame:(id)arg1 salientContentFrame:(id)arg2 clockLayerOrder:(id)arg3 clockIntersection:layoutVariant:hasTopEdgeContact:maxClockShift:debugLayouts: /* Error: Ran out of types for this method. */;
++ (_Bool)nInfo:(id)arg1 currentStyle:seedSongIdentifiersByCatalog:autoDecisionLists:presentations: /* Error: Ran out of types for this method. */;
++ (_Bool)initForReadingFromData:(id)arg1 error:(unsigned char)arg2;
++ (_Bool)floatValue;
++ (_Bool)createImageRefFromAuxiliaryImagePixelBuffer:(id)arg1 applyingOrientation:scaleFactor: /* Error: Ran out of types for this method. */;
++ (_Bool)computeInactiveAvoidingRectForVisibleRect:(id)arg1 acceptableFrame:(id)arg2 unsafeRect:(id)arg3 imageSize:(_Bool *)arg4 considerHeadroom:newVisibleRect: /* Error: Ran out of types for this method. */;
++ (_Bool)computeDateTimeValues;
++ (_Bool)entialAreaRect:(id)arg1 outputCropScore:(id)arg2;
++ (id)bestAdaptiveCropRectForPosterClassification:(id)arg1 layoutConfiguration:sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
++ (_Bool)auxiliaryImagesToPreserveForDerivativesFromImageSource:(id)arg1 imageIndex:(struct TRIFlockWitness_ *)arg2;
++ (id)archivedJSONObjectWithAsset:(id)arg1;
++ (_Bool)appendString:(id)arg1;
++ (_Bool)addSortSourceEnumerationAscendingWithOptions:(id)arg1;
++ (id)addCodecSupportInformationToDictionary:(id)arg1;
++ (id)adaptiveVisibleFrame;
++ (CDStruct_6b48f683)_volumeSuppressionIntroTime;
+- (id);
 
 @end
 

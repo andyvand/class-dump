@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSURL;
-@protocol OS_dispatch_queue, WBSMobileAssetControllerDelegate;
+@class NSURL;
+@protocol WBSMobileAssetControllerDelegate;
 
 @interface WBSLocalAssetController
 {
     NSURL *_url;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <WBSMobileAssetControllerDelegate> _delegate;
 }
 
 - (void);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property __weak id <WBSMobileAssetControllerDelegate> delegate;
-@property(retain, nonatomic) NSDate *lastUpdateDate;
-@property(readonly, nonatomic) double updateInterval;
 
 @end
 

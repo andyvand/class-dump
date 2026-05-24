@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString, NUANFAssetLoader, SXDocumentController;
-@protocol FCHeadlineProviding, FCNetworkReachabilityType, NUArticleResourceURLTranslator;
+@class SXDocumentController;
 
 @interface NUANFResourceDataSource
 {
     SXDocumentController *_documentController;
-    NUANFAssetLoader *_assetLoader;
-    id <FCNetworkReachabilityType> _networkReachability;
-    id <NUArticleResourceURLTranslator> _resourceURLTranslator;
-    id <FCHeadlineProviding> _headline;
-    NSOperationQueue *_imageDecodingQueue;
 }
 
 - (void);
@@ -28,25 +22,13 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)WPArabicLabelFromNumber(unsigned int);
 - (id);
 - (void);
-- (id);
+- (id).framework/Versions/A/CoreFoundation;
 
 // Remaining properties
-@property(retain, nonatomic) NUANFAssetLoader *assetLoader; // @synthesize assetLoader=_assetLoader;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) SXDocumentController *documentController; // @synthesize documentController=_documentController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
-@property(readonly, nonatomic) NSOperationQueue *imageDecodingQueue; // @synthesize imageDecodingQueue=_imageDecodingQueue;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(readonly, nonatomic) id <NUArticleResourceURLTranslator> resourceURLTranslator; // @synthesize resourceURLTranslator=_resourceURLTranslator;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,13 +7,6 @@
 @interface SiriInference.DateTime.Time
 {
     id hour;
-    id minute;
-    id second;
-    id meridiem;
-    id definedValue;
-    id occurringIn;
-    id setByUser;
-    id meridiemSetByUser;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDMediaProfile.h>
 
-@class HMDAppleMediaAccessory, HMDMediaSystem, NSString;
+@class HMDAppleMediaAccessory, HMDMediaSystem;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaProfile : HMDMediaProfile
@@ -14,33 +14,25 @@ __attribute__((visibility("hidden")))
     HMDMediaSystem *_mediaSystem;
 }
 
-+ (id);
++ (id)bestItemInItems:(id)arg1 options:(id)arg2 criteria:(id)arg3 minimumCriteriaScore:useIconicScore: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)verboseSmartDescriptionShared;
+- (id)setQuestionsByQuestionTypeByEntityType: /* Error: Ran out of types for this method. */;
+- (void)locationOfInterestVisitsInDateInterval:(id)arg1;
 - (void);
 - (void);
 - (void)v?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDAppleMediaAccessory *mediaAccessory;
-@property(nonatomic) __weak HMDMediaSystem *mediaSystem; // @synthesize mediaSystem=_mediaSystem;
-@property(readonly) Class superclass;
 
 @end
 

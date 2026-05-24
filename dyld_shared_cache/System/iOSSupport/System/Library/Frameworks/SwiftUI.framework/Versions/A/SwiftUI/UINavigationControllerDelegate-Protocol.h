@@ -9,6 +9,7 @@
 @protocol UINavigationControllerDelegate
 
 @optional
+- (long long);
 - (void)úÿ;
 - (id <UIViewControllerInteractiveTransitioning>)Ý;
 @end

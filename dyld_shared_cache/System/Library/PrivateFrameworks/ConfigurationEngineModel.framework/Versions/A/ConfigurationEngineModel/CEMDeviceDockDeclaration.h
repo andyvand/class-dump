@@ -6,37 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMDeviceDockDeclaration : CEMConfigurationBase
 {
     NSString *_payloadOrientation;
-    NSNumber *_payloadPositionImmutable;
-    NSNumber *_payloadAutohide;
-    NSNumber *_payloadAutohideImmutable;
-    NSNumber *_payloadMinimizeToApplication;
-    NSNumber *_payloadMinimizeToApplicationImmutable;
-    NSNumber *_payloadMagnification;
-    NSNumber *_payloadMagnifyImmutable;
-    NSNumber *_payloadLargesize;
-    NSNumber *_payloadMagsizeImmutable;
-    NSNumber *_payloadShowProcessIndicators;
-    NSNumber *_payloadLaunchanim;
-    NSNumber *_payloadLaunchanimImmutable;
-    NSString *_payloadMineffect;
-    NSNumber *_payloadMineffectImmutable;
-    NSNumber *_payloadTilesize;
-    NSNumber *_payloadSizeImmutable;
-    NSArray *_payloadMCXDockSpecialFolders;
-    NSNumber *_payloadAllowDockFixupOverride;
-    NSNumber *_payloadStaticOnly;
-    NSArray *_payloadStaticOthers;
-    NSArray *_payloadStaticApps;
-    NSNumber *_payloadContentsImmutable;
-    NSNumber *_payloadWindowtabbingImmutable;
-    NSNumber *_payloadDblclickbehaviorImmutable;
-    NSNumber *_payloadShowindicatorsImmutable;
-    NSNumber *_payloadShowRecents;
 }
 
 + (id);
@@ -55,6 +29,7 @@
 - (void);
 - (void);
 - (void);
+- (void)~;
 - (void);
 - (void);
 - (void);
@@ -72,7 +47,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -94,7 +68,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -110,40 +84,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowDockFixupOverride; // @synthesize payloadAllowDockFixupOverride=_payloadAllowDockFixupOverride;
-@property(copy, nonatomic) NSNumber *payloadAutohide; // @synthesize payloadAutohide=_payloadAutohide;
-@property(copy, nonatomic) NSNumber *payloadAutohideImmutable; // @synthesize payloadAutohideImmutable=_payloadAutohideImmutable;
-@property(copy, nonatomic) NSNumber *payloadContentsImmutable; // @synthesize payloadContentsImmutable=_payloadContentsImmutable;
-@property(copy, nonatomic) NSNumber *payloadDblclickbehaviorImmutable; // @synthesize payloadDblclickbehaviorImmutable=_payloadDblclickbehaviorImmutable;
-@property(copy, nonatomic) NSNumber *payloadLargesize; // @synthesize payloadLargesize=_payloadLargesize;
-@property(copy, nonatomic) NSNumber *payloadLaunchanim; // @synthesize payloadLaunchanim=_payloadLaunchanim;
-@property(copy, nonatomic) NSNumber *payloadLaunchanimImmutable; // @synthesize payloadLaunchanimImmutable=_payloadLaunchanimImmutable;
-@property(copy, nonatomic) NSArray *payloadMCXDockSpecialFolders; // @synthesize payloadMCXDockSpecialFolders=_payloadMCXDockSpecialFolders;
-@property(copy, nonatomic) NSNumber *payloadMagnification; // @synthesize payloadMagnification=_payloadMagnification;
-@property(copy, nonatomic) NSNumber *payloadMagnifyImmutable; // @synthesize payloadMagnifyImmutable=_payloadMagnifyImmutable;
-@property(copy, nonatomic) NSNumber *payloadMagsizeImmutable; // @synthesize payloadMagsizeImmutable=_payloadMagsizeImmutable;
-@property(copy, nonatomic) NSString *payloadMineffect; // @synthesize payloadMineffect=_payloadMineffect;
-@property(copy, nonatomic) NSNumber *payloadMineffectImmutable; // @synthesize payloadMineffectImmutable=_payloadMineffectImmutable;
-@property(copy, nonatomic) NSNumber *payloadMinimizeToApplication; // @synthesize payloadMinimizeToApplication=_payloadMinimizeToApplication;
-@property(copy, nonatomic) NSNumber *payloadMinimizeToApplicationImmutable; // @synthesize payloadMinimizeToApplicationImmutable=_payloadMinimizeToApplicationImmutable;
 @property(copy, nonatomic) NSString *payloadOrientation; // @synthesize payloadOrientation=_payloadOrientation;
-@property(copy, nonatomic) NSNumber *payloadPositionImmutable; // @synthesize payloadPositionImmutable=_payloadPositionImmutable;
-@property(copy, nonatomic) NSNumber *payloadShowProcessIndicators; // @synthesize payloadShowProcessIndicators=_payloadShowProcessIndicators;
-@property(copy, nonatomic) NSNumber *payloadShowRecents; // @synthesize payloadShowRecents=_payloadShowRecents;
-@property(copy, nonatomic) NSNumber *payloadShowindicatorsImmutable; // @synthesize payloadShowindicatorsImmutable=_payloadShowindicatorsImmutable;
-@property(copy, nonatomic) NSNumber *payloadSizeImmutable; // @synthesize payloadSizeImmutable=_payloadSizeImmutable;
-@property(copy, nonatomic) NSArray *payloadStaticApps; // @synthesize payloadStaticApps=_payloadStaticApps;
-@property(copy, nonatomic) NSNumber *payloadStaticOnly; // @synthesize payloadStaticOnly=_payloadStaticOnly;
-@property(copy, nonatomic) NSArray *payloadStaticOthers; // @synthesize payloadStaticOthers=_payloadStaticOthers;
-@property(copy, nonatomic) NSNumber *payloadTilesize; // @synthesize payloadTilesize=_payloadTilesize;
-@property(copy, nonatomic) NSNumber *payloadWindowtabbingImmutable; // @synthesize payloadWindowtabbingImmutable=_payloadWindowtabbingImmutable;
-@property(readonly) Class superclass;
 
 @end
 

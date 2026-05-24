@@ -9,12 +9,11 @@
 @interface LPAppearanceDependentValue
 {
     CDUnknownBlockType _provider;
-    NSArray *_dependentTraits;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)syndicationOnboardingLastShownVersion;
 - (id);
 - (void);
 

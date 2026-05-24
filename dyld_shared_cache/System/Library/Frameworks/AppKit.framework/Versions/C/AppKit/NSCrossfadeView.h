@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     _NSTitleControlCrossFadeAnimation *_crossFadeAnimation;
 }
 
-- (void);
-- (id);
+- (void)Q;;
+- (id)46;
 - (void);
 
 // Remaining properties

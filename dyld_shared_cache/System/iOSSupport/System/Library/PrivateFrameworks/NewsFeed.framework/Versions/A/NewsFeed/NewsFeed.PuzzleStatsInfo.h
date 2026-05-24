@@ -7,7 +7,6 @@
 @interface NewsFeed.PuzzleStatsInfo
 {
     id statValue;
-    id difficultyStatValue;
 }
 
 @end

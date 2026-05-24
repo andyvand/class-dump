@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSearchTransactionTypeResult
 {
     long long _transactionType;
 }
 
-+ (_Bool);
++ (_Bool)__data;
 - (unsigned long long);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_phyActiveDuration;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long transactionType; // @synthesize transactionType=_transactionType;
 
 @end

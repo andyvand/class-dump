@@ -7,10 +7,6 @@
 @interface CallHistory.CallHistorySchemaV39.ManagedEmergencyMediaItem
 {
     id _assetID;
-    id _emergencyMediaType;
-    id _uploadedForCall;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

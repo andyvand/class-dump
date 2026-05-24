@@ -7,15 +7,6 @@
 @interface SPTagUserStats
 {
     unsigned char _overflowFlag;
-    unsigned char _version;
-    unsigned short _crashCount;
-    unsigned int _ownerPlaySoundCount;
-    unsigned int _ownerPlaySoundTime;
-    unsigned int _rangingCount;
-    unsigned int _rangingTime;
-    unsigned long long _multiTime;
-    unsigned long long _nearOwnerTime;
-    unsigned long long _wildTime;
 }
 
 + (_Bool);
@@ -33,9 +24,9 @@
 - (unsigned long long);
 - (unsigned int);
 - (unsigned int);
-- (unsigned char);
+- (unsigned char)Io;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned short);
 - (unsigned char);
 - (id);
@@ -46,16 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned short crashCount; // @synthesize crashCount=_crashCount;
-@property(nonatomic) unsigned long long multiTime; // @synthesize multiTime=_multiTime;
-@property(nonatomic) unsigned long long nearOwnerTime; // @synthesize nearOwnerTime=_nearOwnerTime;
 @property(nonatomic) unsigned char overflowFlag; // @synthesize overflowFlag=_overflowFlag;
-@property(nonatomic) unsigned int ownerPlaySoundCount; // @synthesize ownerPlaySoundCount=_ownerPlaySoundCount;
-@property(nonatomic) unsigned int ownerPlaySoundTime; // @synthesize ownerPlaySoundTime=_ownerPlaySoundTime;
-@property(nonatomic) unsigned int rangingCount; // @synthesize rangingCount=_rangingCount;
-@property(nonatomic) unsigned int rangingTime; // @synthesize rangingTime=_rangingTime;
-@property(nonatomic) unsigned char version; // @synthesize version=_version;
-@property(nonatomic) unsigned long long wildTime; // @synthesize wildTime=_wildTime;
 
 @end
 

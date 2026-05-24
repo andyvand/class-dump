@@ -5,6 +5,11 @@
 //
 
 @protocol AVCVideoStreamDelegate
+- (void)4;
 - (void)leader b/c local is its buddy (tsuuid %@);
+
+@optional
+- (void);
+- (void);
 @end
 

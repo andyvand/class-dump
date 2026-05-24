@@ -11,9 +11,9 @@
     NSString *_itemIdentifier;
 }
 
+- (id), entity_type INTEGER NOT NULL DEFAULT 0, UNIQUE (artwork_token, artwork_source_type, artwork_type, entity_pid, entity_type));
 - (id);
-- (id);
-- (void)Operation;
+- (void)ICUserVerificationOperation;
 - (id)µÜ\µÜ`µÜCµÜòµÜÑµÜíµÜÎµÜjµÜIµÜuµÜVµÜçµÜÄµÜøµÜÛµÜ^µÜ}µÜAµÜbµÜÓµÜðµÜÌµÜïµÜKµÜhµÜTµÜwµÜÆµÜåµÜÙµÜúyÕü¾ßÂü¾ Ãü¾UÕü¾1Âü¾Âü¾Âü¾hÕü¾«Ãü¾JÕü¾~Õü¾Ãü¾bÕü¾°Ãü¾pÕü¾ÄÂü¾ÏÂü¾ËÂü¾Ãü¾ëÂü¾rÕü¾ÿÂü¾nÕü¾øÂü¾þÂü¾KÕü¾Ãü¾;Âü¾fÕü¾Âü¾:Âü¾5Âü¾jÕü¾Ãü¾ÚÂü¾Âü¾
 Âü¾>Âü¾4Âü¾Âü¾çÂü¾Ãü¾Ãü¾îÂü¾ÛÂü¾èÂü¾Ãü¾+Âü¾¿Ãü¾XÕü¾&Âü¾eÕü¾³Ãü¾òÂü¾öÂü¾ñÂü¾ /* Error: Ran out of types for this method. */;
 

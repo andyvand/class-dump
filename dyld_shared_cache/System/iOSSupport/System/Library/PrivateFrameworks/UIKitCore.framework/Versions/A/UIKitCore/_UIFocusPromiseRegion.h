@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _UIFocusPromiseRegion : _UIFocusRegion
 {
     id _identifier;
-    unsigned long long _fullfillmentCount;
-    CDUnknownBlockType _contentFulfillmentHandler;
 }
 
 - (void);
+- (id)handler:(struct CGRect)arg1 localFileRequest:(id)arg2 storageContext:(id)arg3;
 - (id);
+- (CDUnknownBlockType)_deleteAttachmentsWithRecordIDs:completion: /* Error: Ran out of types for this method. */;
+- (id)omething was null. service %@ account %@ message %@ fromID %@;
+- (unsigned long long)for message:%@ /* Error: Ran out of types for this method. */;
+- (id)ing bundle:(struct CGRect)arg1 %@;
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool)roppableView:(id)arg1 willPerformDrop: /* Error: Ran out of types for this method. */;
+- (_Bool)textDroppableView:(id)arg1 willPerformDrop: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

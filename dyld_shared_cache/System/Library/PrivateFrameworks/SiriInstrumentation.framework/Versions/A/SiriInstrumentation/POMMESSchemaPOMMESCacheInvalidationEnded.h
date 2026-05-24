@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheInvalidationEnded : SISchemaInstrumentationMessage
 {
     unsigned int _numberOfCacheKeysInvalidated;
-    struct {
-        unsigned int numberOfCacheKeysInvalidated:1;
-    } _has;
 }
 
 - (void);
@@ -24,16 +19,14 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ހ;
+- (_Bool)le for Message <--> Attachment. SQLiteError:(id)arg1 %d;
 - (id);
 - (id);
-- (id)antsWithTrust;
+- (id)_numParticipantsWithTrust;
 - (id)ageName;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumberOfCacheKeysInvalidated;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numberOfCacheKeysInvalidated; // @synthesize numberOfCacheKeysInvalidated=_numberOfCacheKeysInvalidated;
 
 @end

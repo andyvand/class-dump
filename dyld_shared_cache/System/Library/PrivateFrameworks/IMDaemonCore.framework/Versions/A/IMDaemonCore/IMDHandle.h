@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMDHandle
 {
     NSString *_id;
-    NSString *_countryCode;
-    NSString *_unformattedID;
-    NSString *_personCentricID;
-    NSString *_CNContactID;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)H;
 - (void);
-- (_Bool);
+- (_Bool)k;
 - (id);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)SSL handshake;
 - (void);
 - (void);
 - (id);
@@ -38,21 +34,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)nexpected type '%@' in manifest property entries;
 - (void)1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *CNContactID; // @synthesize CNContactID=_CNContactID;
 @property(retain, nonatomic) NSString *ID; // @synthesize ID=_id;
-@property(readonly, nonatomic) _Bool cachedOffGridMode;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy, nonatomic) NSDictionary *handleInfo;
-@property(readonly, nonatomic) _Bool matchesLoginHandleForAnyAccount;
-@property(readonly, nonatomic) NSString *normalizedID;
-@property(copy, nonatomic) NSString *personCentricID; // @synthesize personCentricID=_personCentricID;
-@property(copy, nonatomic) NSString *unformattedID; // @synthesize unformattedID=_unformattedID;
 
 @end
 

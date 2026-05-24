@@ -15,7 +15,8 @@
 
 - (id);
 - (void);
-- (id);
+- (id)y>Children</key>
+;
 - (void);
 
 // Remaining properties

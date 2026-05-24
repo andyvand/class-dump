@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSNumberFormatter *_auxiliaryFormatter;
 }
 
-- (long long);
-- (void);
+- (long long)NSURLStorageURLCacheDB;
+- (void)VAssetDownloadTask from background transfer daemon:(id)arg1 %@;
 - (id);
 - (void);
 

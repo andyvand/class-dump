@@ -4,96 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementGuidesHome, GEOPDResultRefinementMultiSelect, GEOPDResultRefinementOpenOptions, GEOPDResultRefinementRange, GEOPDResultRefinementSort, GEOPDResultRefinementToggle, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDResultRefinement
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDResultRefinementGuidesHome *_guidesHome;
-    GEOPDResultRefinementMultiSelect *_multiSelect;
-    GEOPDResultRefinementOpenOptions *_openOptions;
-    GEOPDResultRefinementRange *_range;
-    GEOPDResultRefinementSort *_sort;
-    GEOPDResultRefinementToggle *_toggle;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _resultRefinementType;
-    struct {
-        unsigned int has_resultRefinementType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_guidesHome:1;
-        unsigned int read_multiSelect:1;
-        unsigned int read_openOptions:1;
-        unsigned int read_range:1;
-        unsigned int read_sort:1;
-        unsigned int read_toggle:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ncludeSnapScoreMetadataDebug:(id)arg1;
++ (_Bool)setIncludeSnapScoreMetadataDebug:(id)arg1;
+- (id)contactMembershipPredicateWithUniqueIds: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)8Ԝ';
+- (int)';
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)j(8;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (int);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_trailStageDirectoryForAsset: /* Error: Ran out of types for this method. */;
+- (void)nfiguring with asbd %.4s;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)imageForIconID:contentScale:sizeGroup:modifiers: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id)y"b1"has_isOffline"b1"has_lowGuidanceNavigation"b1"read_selectedRideIndexs"b1"read_alightMessage"b1"read_location"b1"read_routeID"b1"read_routeMatchCoordinate"b1"wrote_anyField"b1};
-- (id)ionAutoLaunchDelay;
+- (id)_navigationAutoLaunchDelay;
 - (id)Ä¼;
-- (id)_entry;
+- (id)zero_keyword_entry;
 - (void)§¢BA¥Ýèc>øF@;
 - (id).;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDResultRefinementGuidesHome *guidesHome;
-@property(readonly, nonatomic) _Bool hasGuidesHome;
-@property(readonly, nonatomic) _Bool hasMultiSelect;
-@property(readonly, nonatomic) _Bool hasOpenOptions;
-@property(readonly, nonatomic) _Bool hasRange;
 @property(nonatomic) _Bool hasResultRefinementType;
-@property(readonly, nonatomic) _Bool hasSort;
-@property(readonly, nonatomic) _Bool hasToggle;
-@property(retain, nonatomic) GEOPDResultRefinementMultiSelect *multiSelect;
-@property(retain, nonatomic) GEOPDResultRefinementOpenOptions *openOptions;
-@property(retain, nonatomic) GEOPDResultRefinementRange *range;
-@property(nonatomic) int resultRefinementType;
-@property(retain, nonatomic) GEOPDResultRefinementSort *sort;
-@property(retain, nonatomic) GEOPDResultRefinementToggle *toggle;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

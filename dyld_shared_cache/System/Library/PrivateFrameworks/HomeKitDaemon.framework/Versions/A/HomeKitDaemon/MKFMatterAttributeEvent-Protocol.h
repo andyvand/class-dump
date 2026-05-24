@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFMatterAttributeEventDatabaseID;
 @protocol MKFHome, MKFMatterPath;
 
 @protocol MKFMatterAttributeEvent
@@ -12,8 +11,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFMatterAttributeEventDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(retain, nonatomic) id <MKFMatterPath> matterPath;
 @end
 

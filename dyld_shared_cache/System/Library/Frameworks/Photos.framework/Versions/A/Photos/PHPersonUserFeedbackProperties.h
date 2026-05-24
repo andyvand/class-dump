@@ -6,28 +6,26 @@
 
 #import <Photos/PHPersonPropertySet.h>
 
-@class NSOrderedSet, PHUserFeedback;
+@class PHUserFeedback;
 
 @interface PHPersonUserFeedbackProperties : PHPersonPropertySet
 {
     PHUserFeedback *_userFeedback;
-    NSOrderedSet *_autonamingUserFeedbacks;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)dictionaryWithObjectsAndKeys: /* Error: Ran out of types for this method. */;
 + (id)SDictionary"16;
-+ (id)rFall2023OSVersionsKey;
++ (id)PHLinkedOnOrAfterFall2023OSVersionsKey;
 - (id);
 - (id);
 - (id);
 - (void)tForDelayedSaveActions;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *autonamingUserFeedbacks; // @synthesize autonamingUserFeedbacks=_autonamingUserFeedbacks;
 @property(readonly, nonatomic) PHUserFeedback *userFeedback; // @synthesize userFeedback=_userFeedback;
 
 @end

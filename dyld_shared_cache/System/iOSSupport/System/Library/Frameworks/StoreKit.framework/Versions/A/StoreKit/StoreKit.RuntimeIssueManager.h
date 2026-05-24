@@ -7,7 +7,6 @@
 @interface StoreKit.RuntimeIssueManager
 {
     id $defaultActor;
-    id logger;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface HMAccessorySettingsPartialFetchFailureInformation
 {
     NSMutableDictionary *_mutableFailureTypes;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -18,38 +17,22 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)R#;
 - (id);
-- (id);
+- (id)|;
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (id)
+J>;
+- (_Bool)fresco;
+- (id)MultilingualSettingTip;
 - (id);
 - (id);
 - (id);
 - (void)ø;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSDictionary *failureTypes;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

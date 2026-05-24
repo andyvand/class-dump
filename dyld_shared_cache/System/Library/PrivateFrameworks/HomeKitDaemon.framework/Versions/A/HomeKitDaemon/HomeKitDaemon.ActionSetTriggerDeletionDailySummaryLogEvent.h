@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.ActionSetTriggerDeletionDailySummaryLogEvent
 {
     id actionDeletionCount;
-    id eventDeletionCount;
-    void coreAnalyticsEventName;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (id);
@@ -22,9 +19,7 @@
 - (void)X>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
 
 @end
 

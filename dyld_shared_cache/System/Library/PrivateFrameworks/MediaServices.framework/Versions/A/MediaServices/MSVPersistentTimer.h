@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PCPersistentTimer;
+@class PCPersistentTimer;
 
 @interface MSVPersistentTimer
 {
     PCPersistentTimer *_timer;
-    NSString *_name;
-    CDUnknownBlockType _block;
-    NSDate *_startDate;
-    double _interval;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);

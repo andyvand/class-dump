@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SFHeadphoneProxPairingEvent
 {
     _Bool _attemptedPairing;
-    unsigned char _color;
-    unsigned int _productID;
-    long long _errorCode;
-    long long _pairingType;
-    double _pairingDuration;
-    double _foundToFirstCardDuration;
-    double _triggerToFirstCardDuration;
-    double _assetFetchDuration;
-    NSString *_productIDString;
 }
 
 + (id);
@@ -26,17 +15,17 @@
 - (void);
 - (void);
 - (void);
+- (void);;
 - (void);
 - (void);
-- (void);
-- (double);
+- (double);
 - (_Bool);
 - (double);
 - (id);
 - (double);
 - (long long);
 - (void);
-- (id);
+- (id)k;
 - (unsigned char);
 - (void);
 - (void)FDeviceDiscovery/deviceDiscoveryFastScanTrigger;
@@ -45,24 +34,7 @@
 - (long long)esentationTypeIdentifier(void);
 
 // Remaining properties
-@property(nonatomic) double assetFetchDuration; // @synthesize assetFetchDuration=_assetFetchDuration;
-@property(nonatomic) _Bool attemptedPairing; // @synthesize attemptedPairing=_attemptedPairing;
-@property(nonatomic) unsigned char color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, copy, nonatomic) NSDictionary *eventPayload;
-@property(nonatomic) double foundToFirstCardDuration; // @synthesize foundToFirstCardDuration=_foundToFirstCardDuration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double pairingDuration; // @synthesize pairingDuration=_pairingDuration;
-@property(nonatomic) long long pairingType; // @synthesize pairingType=_pairingType;
-@property(nonatomic) unsigned int productID; // @synthesize productID=_productID;
-@property(nonatomic) NSString *productIDString; // @synthesize productIDString=_productIDString;
-@property(readonly) Class superclass;
-@property(nonatomic) double triggerToFirstCardDuration; // @synthesize triggerToFirstCardDuration=_triggerToFirstCardDuration;
 
 @end
 

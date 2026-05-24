@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBImageMontageData
 {
@@ -13,31 +13,23 @@
 
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)WBSWebsitePasskeyAvailabilityInfo;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)momentCountsByPersonUUIDForPersonsWithUUIDs:(id)arg1 afterDate:photoLibrary: /* Error: Ran out of types for this method. */;
+- (id)ata for %{public}@;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)opHit: /* Error: Ran out of types for this method. */;
+- (void)setTopHit: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

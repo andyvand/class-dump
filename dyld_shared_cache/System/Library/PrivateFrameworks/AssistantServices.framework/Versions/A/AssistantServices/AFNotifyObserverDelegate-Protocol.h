@@ -9,6 +9,6 @@
 @protocol AFNotifyObserverDelegate
 
 @optional
-- (void)er:(AFNotifyObserver *)arg1;
+- (void)addContextProvider:(AFNotifyObserver *)arg1;
 @end
 

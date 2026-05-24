@@ -13,10 +13,10 @@
 
 + (void);
 - (void);
+- (id)qa;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)l;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void)dElements:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_adjustVisibilityForTargetedElements:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumCondition.h>
 
-@class NSArray, NSDate, NSNumber, PXLabeledValue;
+@class NSArray, NSDate;
 
 @interface PXSmartAlbumDateValueCondition : PXSmartAlbumCondition
 {
@@ -29,11 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *dateValue;
-@property(readonly, nonatomic) _Bool hasNumberOfUnitValue;
-@property(retain, nonatomic) NSNumber *numberOfUnitValue;
-@property(retain, nonatomic) NSDate *secondDateValue;
-@property(retain, nonatomic) PXLabeledValue *unitValue;
-@property(readonly, nonatomic) NSArray *unitValues;
 
 @end
 

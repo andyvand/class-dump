@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol INEditMessageIntentExport
+- (NSString *);
+- (void)not respond to setCommandListWithIsAllowList;
 
 // Remaining properties
-@property(copy) NSString *editedContent;
 @property(copy) NSString *messageIdentifier;
 @end
 

@@ -14,13 +14,13 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)u;
 - (_Bool);
 - (id);
 - (CDStruct_912cb5d2);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

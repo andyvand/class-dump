@@ -5,20 +5,15 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, RPMessageable;
+@protocol OS_dispatch_queue;
 
 @interface RPMediaControlSession
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _registeredMediaControlInterest;
-    unsigned long long _mediaControlFlags;
-    CDUnknownBlockType _mediaControlFlagsChangedHandler;
-    id <RPMessageable> _messenger;
 }
 
 - (void);
-- (void);
+- (void)+;
 - (id);
 - (void);
 - (void);
@@ -38,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long mediaControlFlags; // @synthesize mediaControlFlags=_mediaControlFlags;
-@property(copy, nonatomic) CDUnknownBlockType mediaControlFlagsChangedHandler; // @synthesize mediaControlFlagsChangedHandler=_mediaControlFlagsChangedHandler;
-@property(retain, nonatomic) id <RPMessageable> messenger; // @synthesize messenger=_messenger;
 
 @end
 

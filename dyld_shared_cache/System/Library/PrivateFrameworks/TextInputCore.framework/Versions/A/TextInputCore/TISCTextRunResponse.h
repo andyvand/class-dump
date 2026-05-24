@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface TISCTextRunResponse
 {
     struct __CFArray *_ctLines;
-    NSMutableArray *_widths;
-    struct __CTFont *_font;
 }
 
-+ (id);
-+ (id);
++ (id)AVAudioClientBatchMXPropertiesKey;
++ (id)kAUVoiceIOProperty_OperationMode;
 - (id);
 - (struct __CFArray *);
 - (void);
-- (struct __CTFont *);
+- (struct __CTFont *)messageCoordinator:didRequestAction: /* Error: Ran out of types for this method. */;
 - (void)Qi°1Â0@ù
 × ;
 

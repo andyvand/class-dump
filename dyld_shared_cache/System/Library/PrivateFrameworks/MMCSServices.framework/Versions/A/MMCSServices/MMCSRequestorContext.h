@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMCSController, NSString;
+@class MMCSController;
 
 @interface MMCSRequestorContext
 {
     MMCSController *_controller;
-    NSString *_transferID;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, retain) MMCSController *controller; // @synthesize controller=_controller;
-@property(readonly, retain) NSString *transferID; // @synthesize transferID=_transferID;
 
 @end
 

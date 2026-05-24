@@ -30,24 +30,14 @@
 - (double);
 - (id);
 - (double);
-- (double);
+- (double)&,N,SsetImage:,V_image /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (double)dddd}24^{CGAffineTransform=dddddd}32;
-- (void)shWithQueryItems:duration: /* Error: Ran out of types for this method. */;
+- (void)recognitionManager:recognitionDidFinishWithQueryItems:duration: /* Error: Ran out of types for this method. */;
 - (double)6;
 
 // Remaining properties
 @property(readonly, nonatomic) double _edgeWidth;
-@property(readonly, nonatomic) double _radius2;
-@property(readonly, nonatomic) double altitude;
-@property(readonly, nonatomic) double azimuth;
-@property(readonly, nonatomic) double force;
-@property(readonly, nonatomic) struct CGPoint location;
-@property(readonly, nonatomic) double opacity;
-@property(readonly, nonatomic) double secondaryScale;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) double threshold;
-@property(readonly, nonatomic) double timeOffset;
 
 @end
 

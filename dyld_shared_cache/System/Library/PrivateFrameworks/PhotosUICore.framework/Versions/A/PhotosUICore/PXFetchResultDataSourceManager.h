@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHFetchResult, PHPhotoLibrary, PXFetchResultDataSource;
+@class PHFetchResult, PHPhotoLibrary;
 
 @interface PXFetchResultDataSourceManager
 {
     PHFetchResult *_currentFetchResult;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)derContentView;
+- (void)PhotosDynamicHeaderContentView;
 - (id)ÂM`<;
 - (void)?;
 
 // Remaining properties
-@property(readonly, nonatomic) PXFetchResultDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

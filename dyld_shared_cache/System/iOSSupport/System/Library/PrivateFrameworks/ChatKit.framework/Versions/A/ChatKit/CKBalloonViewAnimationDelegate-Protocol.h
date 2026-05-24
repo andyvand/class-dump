@@ -5,5 +5,6 @@
 //
 
 @protocol CKBalloonViewAnimationDelegate
+- (_Bool)8@0:8@16{_NSRange=QQ}24@40 /* Error: Ran out of types for this method. */;
 @end
 

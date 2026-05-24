@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, _DKSyncPeer;
+@class NSUUID;
 
 @interface _DKSyncPeerInfo
 {
     NSUUID *_uuid;
-    _DKSyncPeer *_peer;
-    long long _transports;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

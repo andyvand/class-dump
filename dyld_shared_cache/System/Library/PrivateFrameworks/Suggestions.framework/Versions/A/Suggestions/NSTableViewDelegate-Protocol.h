@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSTableRowView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (NSString *)ih8	h(8;
+- (NSTableRowView *);
+- (void);
 @end
 

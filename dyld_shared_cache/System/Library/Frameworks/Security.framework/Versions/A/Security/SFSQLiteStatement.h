@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString, SFSQLite;
+@class NSMutableArray, SFSQLite;
 
 __attribute__((visibility("hidden")))
 @interface SFSQLiteStatement
 {
     SFSQLite *_SQLite;
-    NSString *_SQL;
-    struct sqlite3_stmt *_handle;
-    _Bool _reset;
-    NSMutableArray *_temporaryBoundObjects;
-    NSDictionary *_indexesByColumnName;
 }
 
 - (id);
@@ -32,10 +27,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)1@9;
+- (_Bool)IOPOL_VFS_SKIP_MTIME_UPDATE_OFF;
+- (id)PRIV_GLOBAL_PROC_INFO;
+- (void)filterEventMatching:(id)arg1 event:forClient: /* Error: Ran out of types for this method. */;
 - (int);
 - (unsigned long long);
 - (id);
@@ -43,12 +38,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct sqlite3_stmt *);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)K);
 - (void)8è;
 - (_Bool).1.1.1;
 - (id)on-checkcustodianrecoverykey;
@@ -56,18 +51,6 @@ __attribute__((visibility("hidden")))
 - (void)ÝêBÖIA|^bÃ;¥u¢¢RÌÐÁ#ùüåÖÌÝêt3-]¸Âº7?X×O>KÕâÑ%ÜiÏ³ÁøF20HÅÃþ¸ !;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *SQL; // @synthesize SQL=_SQL;
-@property(readonly, nonatomic) __weak SFSQLite *SQLite; // @synthesize SQLite=_SQLite;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct sqlite3_stmt *handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *indexesByColumnName; // @synthesize indexesByColumnName=_indexesByColumnName;
-@property(nonatomic, getter=isReset) _Bool reset; // @synthesize reset=_reset;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *temporaryBoundObjects; // @synthesize temporaryBoundObjects=_temporaryBoundObjects;
 
 @end

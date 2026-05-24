@@ -7,10 +7,6 @@
 @interface ReminderKitInternal.REMBertTextClassifier
 {
     id labels;
-    id model;
-    id tokenizer;
-    id numOfClasses;
-    id maxLength;
 }
 
 @end

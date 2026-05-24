@@ -7,6 +7,7 @@
 @interface GenerativeAssistantSettings.GenerativeAssistantSettingsSyncHandler
 {
     id defaults;
+    id;
 }
 
 @end

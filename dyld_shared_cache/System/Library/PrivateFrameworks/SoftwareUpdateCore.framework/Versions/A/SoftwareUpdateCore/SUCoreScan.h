@@ -4,47 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSObject, NSString, SUCoreDescriptor, SUCoreFSM, SUCoreMobileAsset, SUCorePolicy, SUCoreScanParam;
-@protocol OS_dispatch_queue, OS_os_transaction;
-
 @interface SUCoreScan
 {
     _Bool _cancelingOperation;
-    _Bool _downloadDocumentation;
-    int _operation;
-    int _operationSPIType;
-    int _pendingMobileAssetRequests;
-    int _phase;
-    NSString *_scanUUID;
-    NSObject<OS_dispatch_queue> *_clientCompletionQueue;
-    SUCoreFSM *_scanFSM;
-    SUCorePolicy *_scanPolicy;
-    SUCoreDescriptor *_activeDescriptor;
-    NSString *_alternateAssetAudienceUUID;
-    SUCoreMobileAsset *_maDocumentationControl;
-    MAAsset *_primaryUpdateAsset;
-    MAAsset *_secondaryUpdateAsset;
-    CDUnknownBlockType _checkCompletion;
-    CDUnknownBlockType _checkMajorMinorCompletion;
-    CDUnknownBlockType _checkSlowReleaseCompletion;
-    CDUnknownBlockType _verifyCompletion;
-    CDUnknownBlockType _collectCompletion;
-    CDUnknownBlockType _locateCompletion;
-    CDUnknownBlockType _cancelCompletion;
-    SUCorePolicy *_originalScanPolicy;
-    SUCoreScanParam *_interimScanResult;
-    SUCoreDescriptor *_psusPrimaryDescriptor;
-    SUCoreDescriptor *_psusSecondaryDescriptor;
-    NSObject<OS_os_transaction> *_scanCheckTransaction;
-    NSObject<OS_os_transaction> *_scanVerifyTransaction;
-    NSObject<OS_os_transaction> *_scanCollectTransaction;
-    NSObject<OS_os_transaction> *_scanLocateTransaction;
-    NSObject<OS_os_transaction> *_scanCancelTransaction;
 }
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)';
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -56,6 +23,7 @@
 - (void);
 - (void);
 - (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -70,8 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
@@ -90,7 +57,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id)`!;
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -100,7 +67,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (long long);
@@ -172,56 +139,26 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (long long);
-- (long long);
+- (long long);
+- (long long);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)_makeUnifiedFieldFirstResponderProgrammatically;
 - (id);
 - (long long);
 - (void);
-- (long long);
+- (long long)@;
 - (id);
 - (void);
-- (int)rclass;
+- (int)superclass;
 - (void)mmendedUpdateEnabled=NO | isRecommendedUpdateApplicable=NO;
 
 // Remaining properties
-@property(retain, nonatomic) SUCoreDescriptor *activeDescriptor; // @synthesize activeDescriptor=_activeDescriptor;
-@property(retain, nonatomic) NSString *alternateAssetAudienceUUID; // @synthesize alternateAssetAudienceUUID=_alternateAssetAudienceUUID;
-@property(copy, nonatomic) CDUnknownBlockType cancelCompletion; // @synthesize cancelCompletion=_cancelCompletion;
-@property(nonatomic) _Bool cancelingOperation; // @synthesize cancelingOperation=_cancelingOperation;
-@property(copy, nonatomic) CDUnknownBlockType checkCompletion; // @synthesize checkCompletion=_checkCompletion;
-@property(copy, nonatomic) CDUnknownBlockType checkMajorMinorCompletion; // @synthesize checkMajorMinorCompletion=_checkMajorMinorCompletion;
-@property(copy, nonatomic) CDUnknownBlockType checkSlowReleaseCompletion; // @synthesize checkSlowReleaseCompletion=_checkSlowReleaseCompletion;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientCompletionQueue; // @synthesize clientCompletionQueue=_clientCompletionQueue;
-@property(copy, nonatomic) CDUnknownBlockType collectCompletion; // @synthesize collectCompletion=_collectCompletion;
-@property(nonatomic) _Bool downloadDocumentation; // @synthesize downloadDocumentation=_downloadDocumentation;
-@property(retain, nonatomic) SUCoreScanParam *interimScanResult; // @synthesize interimScanResult=_interimScanResult;
-@property(copy, nonatomic) CDUnknownBlockType locateCompletion; // @synthesize locateCompletion=_locateCompletion;
-@property(retain, nonatomic) SUCoreMobileAsset *maDocumentationControl; // @synthesize maDocumentationControl=_maDocumentationControl;
 @property(nonatomic) int operation; // @synthesize operation=_operation;
-@property(nonatomic) int operationSPIType; // @synthesize operationSPIType=_operationSPIType;
-@property(retain, nonatomic) SUCorePolicy *originalScanPolicy; // @synthesize originalScanPolicy=_originalScanPolicy;
-@property(nonatomic) int pendingMobileAssetRequests; // @synthesize pendingMobileAssetRequests=_pendingMobileAssetRequests;
-@property(nonatomic) int phase; // @synthesize phase=_phase;
-@property(retain, nonatomic) MAAsset *primaryUpdateAsset; // @synthesize primaryUpdateAsset=_primaryUpdateAsset;
-@property(retain, nonatomic) SUCoreDescriptor *psusPrimaryDescriptor; // @synthesize psusPrimaryDescriptor=_psusPrimaryDescriptor;
-@property(retain, nonatomic) SUCoreDescriptor *psusSecondaryDescriptor; // @synthesize psusSecondaryDescriptor=_psusSecondaryDescriptor;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *scanCancelTransaction; // @synthesize scanCancelTransaction=_scanCancelTransaction;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *scanCheckTransaction; // @synthesize scanCheckTransaction=_scanCheckTransaction;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *scanCollectTransaction; // @synthesize scanCollectTransaction=_scanCollectTransaction;
-@property(readonly, nonatomic) SUCoreFSM *scanFSM; // @synthesize scanFSM=_scanFSM;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *scanLocateTransaction; // @synthesize scanLocateTransaction=_scanLocateTransaction;
-@property(retain) SUCorePolicy *scanPolicy; // @synthesize scanPolicy=_scanPolicy;
-@property(readonly, nonatomic) NSString *scanUUID; // @synthesize scanUUID=_scanUUID;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *scanVerifyTransaction; // @synthesize scanVerifyTransaction=_scanVerifyTransaction;
-@property(retain, nonatomic) MAAsset *secondaryUpdateAsset; // @synthesize secondaryUpdateAsset=_secondaryUpdateAsset;
-@property(copy, nonatomic) CDUnknownBlockType verifyCompletion; // @synthesize verifyCompletion=_verifyCompletion;
 
 @end
 

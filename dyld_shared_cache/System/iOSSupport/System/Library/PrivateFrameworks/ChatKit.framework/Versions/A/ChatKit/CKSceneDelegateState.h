@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString;
-
 @interface CKSceneDelegateState
 {
     _Bool _composingNewMessage;
-    NSArray *_unreadLastMessages;
-    NSString *_groupID;
-    NSDate *_date;
-    unsigned long long _filterMode;
-    NSSet *_storedFilterModes;
 }
 
-+ (id);
-+ (id);
-+ (_Bool)ut;
-- (void);
++ (id)ܕ;
++ (id)y;
++ (_Bool)conversationListCellUsesLargeTextLayout;
+- (void)setUpForAddingPasswordWithAccount:(id)arg1;
+- (id)VisibleCharLocation: /* Error: Ran out of types for this method. */;
+- (id)normalizedItemIdentifier: /* Error: Ran out of types for this method. */;
+- (void)ic_nonCurrentUserAcceptedParticipants;
+- (void)ic_appearanceInfo;
+- (void)addFontTrait:(_Bool)arg1;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)t;
 - (void);
 - (unsigned long long);
 - (id);
@@ -36,17 +29,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (id)HÌG_A20_A20_A20_A20_A20_A20_tGAXGþËtGG_Qo__Qo__­%]y_¦%]y_ ]yyt7*]yANyAHG_Qo_GQo_Qo_Qo__Qo_G_g,]yAH\GQo__,]yACyAD*]y,]yn+]yÈ)]yAEyAfGyAhByA_yAHËG_A_yAH~ËGA_yAH{ËGtGAXGG_Qo__Qo__A33_Qo__Qo_G_A39_Qo_tGG;
 - (void)8;
 
 // Remaining properties
 @property(nonatomic) _Bool composingNewMessage; // @synthesize composingNewMessage=_composingNewMessage;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) unsigned long long filterMode; // @synthesize filterMode=_filterMode;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(retain, nonatomic) NSSet *storedFilterModes; // @synthesize storedFilterModes=_storedFilterModes;
-@property(retain, nonatomic) NSArray *unreadLastMessages; // @synthesize unreadLastMessages=_unreadLastMessages;
 
 @end
 

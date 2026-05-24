@@ -6,42 +6,26 @@
 
 #import <MusicLibrary/ML3ExportSession.h>
 
-@class MSVStreamWriter, NSString;
+@class NSString;
 
 @interface ML3ProtoSyncExportSession : ML3ExportSession
 {
     NSString *_libraryUUID;
-    int _syncType;
-    MSVStreamWriter *_streamWriter;
-    struct {
-        int trackAdds;
-        int trackUpdates;
-        int trackDeletes;
-        int playlistAdds;
-        int playlistDeletes;
-        int playlistUpdates;
-        int artistAdds;
-        int artistUpdates;
-        int albumUpdates;
-        int pinAdds;
-        unsigned int totalSize;
-    } _stats;
-    double _sessionStartTime;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id),V_jobType;
+- (id)osCount;
+- (id)otosCount;
+- (id)temsCount;
+- (id)NumberOfObjects;
+- (id)umberOfCuratedAssets;
+- (id)xtTokenGeneration;
+- (id)N,V_mediaAnalysisImageVersion;
+- (id)ion;
+- (id)ationInQueryStringForSuggestionGeneration;
+- (id)_libraryRole;
+- (id)N,V_k;
+- (id)setIptcUpdated:(id)arg1;
 - (id);
 - (id);
 - (void)lock_invoke_3;

@@ -5,6 +5,6 @@
 //
 
 @protocol SFLoadableProxy
-- (_Bool)ecordDataCodingKeys;
+- (_Bool)MissingRecordDataCodingKeys;
 @end
 

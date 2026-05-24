@@ -4,9 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
+
 @protocol UICollectionViewDelegate
 
 @optional
+- (void)SQLEntityConstraintSchema;
+- (void);
+- (void);
+- (NSIndexPath *)_proxySheetTitleOverride;
+- (NSIndexPath *)6#�4;
+- (UIContextMenuConfiguration *)shortcutWithInput:(UICollectionView *)arg1 flags:(NSIndexPath *)arg2 repeatable:(struct CGPoint)arg3 menu:action:title:systemImageName:plist: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *);
 - (_Bool)hT¼;
 @end
 

@@ -6,29 +6,24 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryGradientKernel.h>
 
-@class MPSNDArrayIdentity;
-
 @interface MPSNDArrayScatterGradient : MPSNDArrayMultiaryGradientKernel
 {
     int _operation;
-    unsigned long long _batchDimensions;
-    MPSNDArrayIdentity *_identity;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
-- (unsigned long long);
+- (unsigned long long)*;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchDimensions; // @synthesize batchDimensions=_batchDimensions;
 @property(readonly, nonatomic) int operation; // @synthesize operation=_operation;
 
 @end

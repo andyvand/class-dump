@@ -9,16 +9,12 @@
 @interface UIWKAutocorrectionContext
 {
     NSString *_contextBeforeSelection;
-    NSString *_selectedText;
-    NSString *_contextAfterSelection;
-    NSString *_markedText;
-    struct _NSRange _rangeInMarkedText;
 }
 
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
+- (void)fetchUnreadMessageRecordsForChatsFilteredUsingPredicate:(struct _NSRange)arg1 limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_shouldCheckChatForSMSSpam:(id)arg1 participants:sender:chat:fallbackFilterCategory:fallbackFilterSubCategory: /* Error: Ran out of types for this method. */;
+- (void)_shouldBroadcastDeltas;
+- (struct _NSRange)tions;
 - (id);
 - (id);
 - (void);
@@ -28,11 +24,7 @@
 - (id)Ô¢íÿÙ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contextAfterSelection; // @synthesize contextAfterSelection=_contextAfterSelection;
 @property(copy, nonatomic) NSString *contextBeforeSelection; // @synthesize contextBeforeSelection=_contextBeforeSelection;
-@property(copy, nonatomic) NSString *markedText; // @synthesize markedText=_markedText;
-@property(nonatomic) struct _NSRange rangeInMarkedText; // @synthesize rangeInMarkedText=_rangeInMarkedText;
-@property(copy, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
 
 @end
 

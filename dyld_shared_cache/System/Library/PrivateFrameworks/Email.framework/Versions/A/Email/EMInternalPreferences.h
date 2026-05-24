@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EMInternalPreferences
 {
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)t a differential update, preferring asset;
++ (void)visualComponents;
++ (id)/BuildRoots/4~CNqRugCSzycZZGvpxZ9wI2FWDByvH0oCeGYOVRo/Library/Caches/com.apple.xbs/TemporaryDirectory.oFD1IC/Sources/DialogEngine/protobuf/src/google/protobuf/extension_set_inl.h;
 + (void);
++ (_Bool);
++ (_Bool);
 + (id);
 + (void);
-+ (_Bool);
-+ (_Bool);
-+ (id);
 + (void);
-+ (void);
-+ (void);
++ (void)periodic_rd_training_latency_;
 + (_Bool);
 + (void);
 + (id);
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

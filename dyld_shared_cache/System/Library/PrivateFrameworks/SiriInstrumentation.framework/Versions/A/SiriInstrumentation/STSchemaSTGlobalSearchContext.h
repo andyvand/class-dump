@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTGlobalSearchRequestEnded, STSchemaSTGlobalSearchRequestFailed, STSchemaSTGlobalSearchRequestStarted;
+@class STSchemaSTGlobalSearchRequestStarted;
 
 @interface STSchemaSTGlobalSearchContext : SISchemaInstrumentationMessage
 {
     STSchemaSTGlobalSearchRequestStarted *_startedOrChanged;
-    STSchemaSTGlobalSearchRequestEnded *_ended;
-    STSchemaSTGlobalSearchRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -26,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (_Bool);
@@ -37,25 +31,18 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)poraryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pkcs12/p12_npas.c;
+- (unsigned long long)setSourceStream: /* Error: Ran out of types for this method. */;
+- (_Bool)ABUndoableCommandVisitor;
+- (_Bool)bject TEXT;
 - (id);
 - (id);
-- (id)mquPreWarmModelDurationInMs;
-- (id)ntext;
-- (void)itigationCount;
+- (id)deleteLlmquPreWarmModelDurationInMs;
+- (id)_hasReadThisRequestContext;
+- (void)ttmAcceptPostTtmMitigationCount;
 
 // Remaining properties
-@property(retain, nonatomic) STSchemaSTGlobalSearchRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) STSchemaSTGlobalSearchRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) STSchemaSTGlobalSearchRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

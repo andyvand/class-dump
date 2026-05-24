@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, _IDSActivityMonitorXPCConnector;
-@protocol IDSActivityMonitorListenerDelegate, OS_dispatch_queue;
+@class _IDSActivityMonitorXPCConnector;
+@protocol IDSActivityMonitorListenerDelegate;
 
 @interface IDSActivityMonitor
 {
     id <IDSActivityMonitorListenerDelegate> _delegate;
-    NSString *_activity;
-    _IDSActivityMonitorXPCConnector *_XPCConnector;
-    NSString *_activityIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
+- (void)V;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)U;
 - (void);
 - (void)eateSessionIDAliasWithSalt:(id)arg1 delegateQueueCompletionHandler:(id)arg2 ];
 
 // Remaining properties
 @property(retain, nonatomic) _IDSActivityMonitorXPCConnector *XPCConnector; // @synthesize XPCConnector=_XPCConnector;
-@property(readonly, nonatomic) NSString *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IDSActivityMonitorListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool listeningForUpdates;
-@property(nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSArray *subscriptions;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,33 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEFilterControlExtensionProviderHostContext, NEFilterExtensionProviderHostContext, NEFilterProviderConfiguration, NSArray, NSExtension, NSObject, NSString, NSUUID, NSXPCInterface, NSXPCListenerEndpoint;
-@protocol NEPluginManagerObjectFactory, OS_dispatch_queue, OS_dispatch_source;
-
 @interface NEAgentFilterExtension
 {
     _Bool _dataExtensionInitialized;
-    _Bool _controlExtensionInitialized;
-    _Bool _appsUpdateStarted;
-    _Bool _appsUpdateEnding;
-    int _crypto_kernel_salt;
-    id <NEPluginManagerObjectFactory> _managerObjectFactory;
-    NSString *_pluginType;
-    NSExtension *_dataExtension;
-    NSExtension *_controlExtension;
-    NEFilterExtensionProviderHostContext *_dataSessionContext;
-    NEFilterControlExtensionProviderHostContext *_controlSessionContext;
-    NSUUID *_dataSessionRequestIdentifier;
-    NSUUID *_controlSessionRequestIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_dataExtensionIdentifier;
-    NSString *_controlExtensionIdentifier;
-    NSXPCListenerEndpoint *_clientListenerEndpoint;
-    NEFilterProviderConfiguration *_configuration;
-    NSArray *_extensionUUIDs;
-    NSObject<OS_dispatch_source> *_sendFailedTimer;
-    struct cfil_crypto_state *_crypto_state;
-    CDUnknownBlockType _pendingDisposeCompletion;
 }
 
 + (_Bool);
@@ -64,20 +40,11 @@
 - (void);
 - (void);
 - (void);
-- (void)ets:(id)arg1;
-- (void)KeepaliveEnabled;
+- (void)setFilterPackets:(id)arg1;
+- (void)natTraversalKeepaliveEnabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSXPCInterface *driverInterface;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCInterface *managerInterface;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *uuids;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol PXContentSyndicationAssetFetchResultProvider
+- (void);
+- (void)`;
+- (void);
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PLUSSchemaPLUSTMDCCorrectedPronunciationTier1 : SISchemaInstrumentationMessage
 {
     NSString *_firstNamePhonemes;
-    NSString *_lastNamePhonemes;
-    NSString *_nicknamePhonemes;
-    _Bool _hasFirstNamePhonemes;
-    _Bool _hasLastNamePhonemes;
-    _Bool _hasNicknamePhonemes;
 }
 
 - (void);
@@ -36,23 +31,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ityMap:(id)arg1 %@;
 - (id);
 - (id);
-- (id)onfirmed;
+- (id)_isActionConfirmed;
 - (id),N,V_hasMobileAssetErrorsReported;
-- (void)RYCODE_GL;
+- (void)COUNTRYCODE_GL;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *firstNamePhonemes; // @synthesize firstNamePhonemes=_firstNamePhonemes;
-@property(nonatomic) _Bool hasFirstNamePhonemes; // @synthesize hasFirstNamePhonemes=_hasFirstNamePhonemes;
-@property(nonatomic) _Bool hasLastNamePhonemes; // @synthesize hasLastNamePhonemes=_hasLastNamePhonemes;
-@property(nonatomic) _Bool hasNicknamePhonemes; // @synthesize hasNicknamePhonemes=_hasNicknamePhonemes;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *lastNamePhonemes; // @synthesize lastNamePhonemes=_lastNamePhonemes;
-@property(copy, nonatomic) NSString *nicknamePhonemes; // @synthesize nicknamePhonemes=_nicknamePhonemes;
 
 @end
 

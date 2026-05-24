@@ -6,34 +6,24 @@
 
 #import <NewsCore/FCKeyValueStoreSavePolicy.h>
 
-@class NSObject, NSString;
-@protocol FCBackgroundTaskable, OS_dispatch_queue;
+@protocol FCBackgroundTaskable;
 
 @interface FCKeyValueStoreSavePolicyAppBackground : FCKeyValueStoreSavePolicy
 {
     id <FCBackgroundTaskable> _backgroundTaskable;
-    _Bool _inBackground;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    CDUnknownBlockType _pendingSaveHandler;
 }
 
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)storyItemSecure;
+- (void)IssueReadingHistoryItemSecure;
 - (void)6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

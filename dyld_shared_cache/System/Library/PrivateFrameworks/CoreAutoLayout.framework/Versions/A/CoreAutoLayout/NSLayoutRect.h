@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutDimension, NSLayoutPoint, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor, NSString;
+@class NSLayoutXAxisAnchor, NSLayoutYAxisAnchor;
 
 @interface NSLayoutRect
 {
     NSLayoutXAxisAnchor *_leadingAnchor;
-    NSLayoutYAxisAnchor *_topAnchor;
-    NSLayoutDimension *_heightAnchor;
-    NSLayoutDimension *_widthAnchor;
-    NSString *_name;
-    id _reserved1;
 }
 
 + (id);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -44,24 +39,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)MLE5InputPortBinder;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_hasSystemTask;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly, copy) NSLayoutPoint *centerLayoutPoint;
-@property(readonly, copy) NSLayoutXAxisAnchor *centerXAnchor;
-@property(readonly, copy) NSLayoutYAxisAnchor *centerYAnchor;
-@property(readonly, copy) NSLayoutDimension *heightAnchor;
-@property(readonly, copy) NSLayoutXAxisAnchor *leadingAnchor;
 @property(readonly, copy) NSLayoutYAxisAnchor *topAnchor;
-@property(readonly, copy) NSLayoutXAxisAnchor *trailingAnchor;
-@property(readonly, copy) NSLayoutDimension *widthAnchor;
 
 @end
 

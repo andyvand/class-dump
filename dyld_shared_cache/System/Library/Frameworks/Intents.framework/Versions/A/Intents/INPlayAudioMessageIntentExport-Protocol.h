@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol INPlayAudioMessageIntentExport
+- (void)onStart;
 
 // Remaining properties
 @property(copy) NSString *messageIdentifier;

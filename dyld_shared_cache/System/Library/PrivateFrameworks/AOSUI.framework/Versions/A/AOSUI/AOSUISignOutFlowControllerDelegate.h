@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AIDAAccountManager, AOSUIRecoveryFactorController, NSString, NSWindow;
+@class NSWindow;
 
 @interface AOSUISignOutFlowControllerDelegate
 {
     CDUnknownBlockType _pendingSignOutCompletion;
-    AOSUIRecoveryFactorController *_recoveryFactorController;
-    CDUnknownBlockType _pendingWalrusValidationCompletion;
-    NSWindow *_presentingWindow;
-    AIDAAccountManager *_accountManager;
-    NSString *_telemetryFlowID;
-    NSString *_clientID;
 }
 
 - (void);
@@ -42,17 +36,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AIDAAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

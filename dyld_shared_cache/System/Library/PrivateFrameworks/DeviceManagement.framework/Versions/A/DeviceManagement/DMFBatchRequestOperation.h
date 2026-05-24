@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATRemoteTaskOperation, NSArray;
+@class CATOperationQueue;
 
 @interface DMFBatchRequestOperation
 {
     CATOperationQueue *_queue;
-    CATRemoteTaskOperation *_activityTransactionOperation;
-    NSArray *_subOperations;
 }
 
 - (id);
@@ -21,16 +19,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool)mf.bookmark.reading-list-folder;
 
 // Remaining properties
-@property(retain, nonatomic) CATRemoteTaskOperation *activityTransactionOperation; // @synthesize activityTransactionOperation=_activityTransactionOperation;
 @property(retain, nonatomic) CATOperationQueue *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) NSArray *subOperations; // @synthesize subOperations=_subOperations;
 
 @end
 

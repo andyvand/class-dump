@@ -5,6 +5,8 @@
 //
 
 @protocol NSLegacyExternalColorPickerServiceViewController
+- (void)not get bluetooth address;
+- (void);
 - (void)0@ù
 × ;
 @end

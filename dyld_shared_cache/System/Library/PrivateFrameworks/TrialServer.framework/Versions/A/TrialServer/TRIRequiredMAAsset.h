@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIFullMAAssetId, TRIMAAssetMetadata;
+@class NSString;
 
 @interface TRIRequiredMAAsset
 {
     _Bool _isInstalled;
-    _Bool _isOnDemand;
-    NSString *_factorName;
-    TRIMAAssetMetadata *_metadata;
-    TRIFullMAAssetId *_fullAssetId;
 }
 
-+ (id);
++ (id)composabilityTargetDurationMultiplier;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
+- (id)copyPixelsFromSurfaceImage:(id)arg1 rect:destPtr:destPtrRowBytes: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
+- (_Bool)enumerateObjectsInRange:options:block: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)geProcessingBlock;
+- (id)inflight_end_to_end_cpu_ms;
+- (id)ontentView;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *factorName; // @synthesize factorName=_factorName;
-@property(readonly, nonatomic) TRIFullMAAssetId *fullAssetId; // @synthesize fullAssetId=_fullAssetId;
-@property(readonly, nonatomic) _Bool isInstalled; // @synthesize isInstalled=_isInstalled;
-@property(readonly, nonatomic) _Bool isOnDemand; // @synthesize isOnDemand=_isOnDemand;
-@property(readonly, nonatomic) TRIMAAssetMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

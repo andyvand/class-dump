@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIImproveSiriAlert
 {
     NSTextField *_messageText;
-    NSTextField *_informativeText;
-    NSButton *_aboutLinkButton;
-    NSButton *_firstButton;
-    NSButton *_secondButton;
 }
 
 - (void);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)md.dylib;
 - (void);
 - (long long);
 - (void);
@@ -39,11 +35,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property __weak NSButton *aboutLinkButton; // @synthesize aboutLinkButton=_aboutLinkButton;
-@property __weak NSButton *firstButton; // @synthesize firstButton=_firstButton;
-@property __weak NSTextField *informativeText; // @synthesize informativeText=_informativeText;
 @property __weak NSTextField *messageText; // @synthesize messageText=_messageText;
-@property __weak NSButton *secondButton; // @synthesize secondButton=_secondButton;
 
 @end
 

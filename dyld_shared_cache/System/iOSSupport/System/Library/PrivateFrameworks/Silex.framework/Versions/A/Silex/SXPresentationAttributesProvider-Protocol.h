@@ -7,6 +7,7 @@
 @class SXPresentationAttributes;
 
 @protocol SXPresentationAttributesProvider
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SXPresentationAttributes *presentationAttributes;

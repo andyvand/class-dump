@@ -6,17 +6,17 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSDate, NSNumber;
+@class NSArray;
 
 @interface SAPhoneSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)SDStateWordSpec;
+- (id)>;
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -28,28 +28,19 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contacts;
-@property(copy, nonatomic) NSDate *end;
-@property(copy, nonatomic) NSNumber *faceTime;
-@property(copy, nonatomic) NSNumber *faceTimeAudio;
-@property(copy, nonatomic) NSNumber *isNew;
-@property(copy, nonatomic) NSNumber *last;
-@property(copy, nonatomic) NSNumber *missed;
-@property(copy, nonatomic) NSNumber *outgoing;
-@property(copy, nonatomic) NSDate *start;
-@property(copy, nonatomic) NSNumber *voiceMail;
 
 @end
 

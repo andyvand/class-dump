@@ -7,18 +7,12 @@
 @interface SiriIntentEvents.AppSelectionSignal
 {
     id name;
-    id version;
-    id timeElapsed;
-    id rows;
-    id info;
-    id signalTiming;
-    id test;
 }
 
 + (void);
 + (_Bool);
-- (id);
-- (id);
+- (id)tedOrChanged;
+- (id)P;
 - (void);
 - (void);
 

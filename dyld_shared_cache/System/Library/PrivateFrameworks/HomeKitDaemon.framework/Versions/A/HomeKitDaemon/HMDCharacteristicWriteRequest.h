@@ -6,24 +6,17 @@
 
 #import <HomeKitDaemon/HMDCharacteristicRequest.h>
 
-@class NSData, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicWriteRequest : HMDCharacteristicRequest
 {
     _Bool _includeResponseValue;
-    id _value;
-    NSData *_authorizationData;
-    NSUUID *_identifier;
-    unsigned long long _requestType;
-    NSData *_contextData;
 }
 
 + (id);
 + (id);
++ (id)a;
 + (id);
-+ (id);
-+ (id);
++ (id)]u;
 + (id);
 + (id);
 + (id);
@@ -31,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id)ProfileWithIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)_removeManagedConfigurationProfileWithIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (id)´îDðõ¬öûýÜl4
 ÄxTp;
 - (id)access mode notification to disabled during settings migration on Apple TV;
@@ -40,11 +33,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)è?;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *authorizationData; // @synthesize authorizationData=_authorizationData;
-@property(readonly, nonatomic) NSData *contextData; // @synthesize contextData=_contextData;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool includeResponseValue; // @synthesize includeResponseValue=_includeResponseValue;
-@property(readonly, nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
 @property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end

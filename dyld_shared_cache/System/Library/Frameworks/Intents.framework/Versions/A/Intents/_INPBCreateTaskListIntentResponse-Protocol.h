@@ -7,9 +7,9 @@
 @class _INPBTaskList;
 
 @protocol _INPBCreateTaskListIntentResponse
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBTaskList *createdTaskList;
-@property(readonly, nonatomic) _Bool hasCreatedTaskList;
 @end
 

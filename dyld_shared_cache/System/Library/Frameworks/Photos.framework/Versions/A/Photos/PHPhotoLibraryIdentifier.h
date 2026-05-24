@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PLPhotoLibraryIdentifier, PLPhotoLibrarySearchCriteria;
+@class PLPhotoLibraryIdentifier;
 
 @interface PHPhotoLibraryIdentifier
 {
     PLPhotoLibraryIdentifier *_pl_libraryIdentifier;
-    NSString *_uuid;
-    NSString *_containerIdentifier;
-    long long _domain;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)dChangeNotification;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -36,13 +33,7 @@
 - (id)computeSyncAttributes.localAnalysisStage;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *archivalStringRepresentation;
-@property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *containerIdentifier;
-@property(readonly) long long domain;
-@property(readonly, copy) PLPhotoLibrarySearchCriteria *librarySearchCriteria;
 @property(readonly) PLPhotoLibraryIdentifier *pl_libraryIdentifier; // @synthesize pl_libraryIdentifier=_pl_libraryIdentifier;
-@property(readonly) NSString *uuid;
 
 @end
 

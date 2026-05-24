@@ -13,13 +13,11 @@
 - (float);
 - (long long);
 - (void);
-- (id);
+- (id){a;
 - (float)essage %{public}@ with path %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long attachmentTTL;
-@property(readonly, nonatomic) float maxMessageSize;
-@property(readonly, nonatomic) float minMessageSize;
 
 @end
 

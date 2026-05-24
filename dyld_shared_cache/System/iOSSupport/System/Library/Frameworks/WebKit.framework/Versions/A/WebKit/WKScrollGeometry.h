@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WKScrollGeometry
 {
     struct CGSize _containerSize;
-    struct CGPoint _contentOffset;
-    struct CGSize _contentSize;
-    struct UIEdgeInsets _contentInsets;
 }
 
 - (id);
@@ -22,9 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(readonly, nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, nonatomic) struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
 
 @end
 

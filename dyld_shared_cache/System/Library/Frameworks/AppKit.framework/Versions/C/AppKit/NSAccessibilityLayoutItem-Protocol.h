@@ -5,5 +5,8 @@
 //
 
 @protocol NSAccessibilityLayoutItem
+
+@optional
+- (void);
 @end
 

@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol INPauseTimerIntentResponseExport
-- (long long)ng;
+- (NSArray *);
+- (long long)hasFuelPercentRemaining;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *pausedTimers;
 @end
 

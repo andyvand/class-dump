@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SMTSchemaSMTAppLanguageModelProfileRebuildEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)dioLatencyOffsetForSystemAudioMs(void);
+- (void)h~;
+- (unsigned long long)queryForSystemAppsOnDeviceWithPairingID: /* Error: Ran out of types for this method. */;
+- (_Bool)ABBirthdayCollectionViewItem;
+- (_Bool)com_apple_mobilesms_suggested_contact_photo;
 - (id);
 - (id);
-- (id)ontainerAsSiriRequest;
-- (id)etadata;
-- (_Bool)GS;
+- (id)deleteIsFollowUpInSameContainerAsSiriRequest;
+- (id)_hasLinkMetadata;
+- (_Bool)ANNOUNCENOTIFICATIONSCARPLAYSTATUS_REMEMBER_PREVIOUS_SETTINGS;
 - (_Bool)ssionExperiments;
 - (void)RæÿMµ^`!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

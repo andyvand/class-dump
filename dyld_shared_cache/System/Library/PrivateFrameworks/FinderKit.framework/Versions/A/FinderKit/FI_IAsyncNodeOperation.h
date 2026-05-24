@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject;
-@protocol IAsyncNodeOperationDelegateProtocol;
-
 __attribute__((visibility("hidden")))
 @interface FI_IAsyncNodeOperation
 {
     struct OpaqueOperationRef *_operationRef;
-    struct TOperationMonitor _operationMonitor;
-    struct vector<std::shared_ptr<TOperationRecord>, std::allocator<std::shared_ptr<TOperationRecord>>> _operationRecordList;
-    struct TFENodeVector _nodes;
-    struct TOperationIterator _operationIterator;
-    struct __wrap_iter<std::shared_ptr<TOperationRecord>*> {
-        void *__i_;
-    } _operationRecordIter;
-    struct OperationStatus _status;
-    unsigned int _respondsToFlags;
-    unsigned int _options;
-    NSObject<IAsyncNodeOperationDelegateProtocol> *_delegate;
-    FI_IAsyncNodeOperation *_selfReference;
-    NSData *_scriptingAuditToken;
 }
 
 + (id);
@@ -33,22 +17,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (int);
-- (int);
-- (void);
+- (int);
+- (void)S�;
 - (int);
 - (struct TString);
 - (shared_ptr_97e1bdf3);
 - (shared_ptr_97e1bdf3);
+- (int)4;
 - (int);
-- (int);
-- (void);
+- (void);
 - (id);
 - (const void *);
 - (id);
 - (void);
-- (struct TString);
+- (struct TString)9A;
 - (void);
-- (void);
+- (void)flag;
 - (id);
 - (int);
 - (void);
@@ -60,9 +44,6 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<IAsyncNodeOperationDelegateProtocol> *delegate; // @synthesize delegate=_delegate;
-@property unsigned int options; // @synthesize options=_options;
-@property(copy) NSData *scriptingAuditToken; // @synthesize scriptingAuditToken=_scriptingAuditToken;
 @property(retain, nonatomic) FI_IAsyncNodeOperation *selfReference; // @synthesize selfReference=_selfReference;
 
 @end

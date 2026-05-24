@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface TUSmartHoldingEvent
 {
     long long _eventType;
-    NSString *_text;
-    NSDate *_date;
-    double _confidenceScore;
 }
 
 + (_Bool);
@@ -23,17 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)P;
 - (_Bool);
 - (void);
 - (id);
-- (void)Info;
+- (void)wiFiCallingCapabilityInfo;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

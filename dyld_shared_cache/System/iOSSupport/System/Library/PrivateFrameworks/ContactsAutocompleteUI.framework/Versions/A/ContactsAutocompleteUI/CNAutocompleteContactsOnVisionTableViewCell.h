@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarView, CNComposeRecipient, UILabel;
+@class CNComposeRecipient;
 
 @interface CNAutocompleteContactsOnVisionTableViewCell
 {
     CNComposeRecipient *_suggestion;
-    CNAvatarView *_avatarView;
-    UILabel *_nameLabel;
 }
 
 - (_Bool);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
 @property(retain, nonatomic) CNComposeRecipient *suggestion; // @synthesize suggestion=_suggestion;
 
 @end

@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (int);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (int);
-- (void);
+- (void)@ = NEW.%@;;
+- (void)ectedObjectValue('%@', %@, %@, '%@', %@) FROM %@ WHERE %@ = NEW.%@;;
+- (id)@';
+- (_Bool)pendingExportChangeTypeNumber;
+- (int)ary/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitMetadataModel.m;
+- (void)teUnresolvedIDsInStore:withManagedObjectContext:error:]_block_invoke /* Error: Ran out of types for this method. */;
 
 @end
 

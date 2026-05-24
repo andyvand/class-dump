@@ -9,19 +9,10 @@
 @interface QCGraphicsRenderState : QCRenderState
 {
     struct CGColorSpace *currentColorSpace;
-    int currentQuality;
-    struct CGRect currentFrame;
-    struct CGRect currentBounds;
-    struct CGRect saveFullFrame;
-    struct CGRect saveCleanFrame;
-    struct CGRect saveFullBounds;
-    struct CGRect saveCleanBounds;
-    struct CGSize savePixelAspectRatio;
-    struct CGRect saveCleanAperture;
 }
 
 - (void);
-- (void);
+- (void)qA;
 
 @end
 

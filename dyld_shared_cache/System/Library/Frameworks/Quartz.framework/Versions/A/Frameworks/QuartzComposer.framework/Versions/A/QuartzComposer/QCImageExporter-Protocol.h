@@ -5,5 +5,6 @@
 //
 
 @protocol QCImageExporter
+- (id);
 @end
 

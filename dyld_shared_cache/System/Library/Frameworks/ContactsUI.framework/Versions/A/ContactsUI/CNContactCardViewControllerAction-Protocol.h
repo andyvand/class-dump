@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactCardViewControllerAction
+- (void);
 @end
 

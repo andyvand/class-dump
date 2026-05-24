@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)NETunnelProvider;
+- (_Bool)NEPolicySession;
+- (_Bool)R0CPCPU High side power (IC0R * VD0R) (Watts) (PC0R);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool value;

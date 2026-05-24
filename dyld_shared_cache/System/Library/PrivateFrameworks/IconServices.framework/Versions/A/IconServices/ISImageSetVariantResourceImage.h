@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface ISImageSetVariantResourceImage
 {
     struct CGImage *_image;
-    unsigned long long _size;
-    unsigned long long _scale;
 }
 
-+ (id);
++ (id)ng}^v^{__CFDictionary}qCf}16;
 - (id);
 - (void);
-- (id);
+- (id)Equirectangular;
 - (unsigned long long);
 - (struct CGImage *);
-- (unsigned long long);
+- (unsigned long long)$;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGImage *image; // @synthesize image=_image;
-@property unsigned long long scale; // @synthesize scale=_scale;
 @property unsigned long long size; // @synthesize size=_size;
 
 @end

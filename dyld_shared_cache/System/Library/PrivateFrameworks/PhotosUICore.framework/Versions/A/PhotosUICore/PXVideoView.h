@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISAVPlayerLayer, ISWrappedAVPlayer, NSString;
-@protocol PXVideoViewDelegate;
+@class ISWrappedAVPlayer, NSString;
 
 @interface PXVideoView
 {
     ISWrappedAVPlayer *_player;
-    struct {
-        _Bool readinessDidChange;
-    } _delegateRespondsTo;
-    id <PXVideoViewDelegate> _delegate;
-    NSString *_kvoProxyIdentifier;
 }
 
-+ (Class);
++ (Class);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)wn-paper-02;
 - (id)CGSize=dd}40@0:8q16{CGSize=dd}24 /* Error: Ran out of types for this method. */;
-- (void)istencePermission:(id)arg1;
+- (void)setDidPrerequestPersistencePermission:(id)arg1;
 - (void);
-- (id)andscapePass;
+- (id)WSNatureLandscapePass;
 - (void)ºÉ;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PXVideoViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) NSString *kvoProxyIdentifier; // @synthesize kvoProxyIdentifier=_kvoProxyIdentifier;
-@property(retain, nonatomic) ISWrappedAVPlayer *player;
-@property(readonly, nonatomic) ISAVPlayerLayer *playerLayer;
-@property(nonatomic) _Bool toneMapToStandardDynamicRange;
-@property(copy, nonatomic) NSString *videoGravity;
-@property(readonly, nonatomic) _Bool videoIsReadyForDisplay;
 
 @end
 

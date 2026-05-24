@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFKeySpecifier;
+@class _SFKeySpecifier;
 
 @protocol _SFKeyAttributes
 + (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *keyDomain;
 @property(readonly, copy, nonatomic) _SFKeySpecifier *keySpecifier;
 @end
 

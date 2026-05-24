@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSPasteboard;
+
 @protocol NSPasteboardWriting
+- (NSArray *)4@0:(NSPasteboard *)arg1 8@"Protocol"16;
+- (id)԰];
+
+@optional
+- (unsigned long long);
 @end
 

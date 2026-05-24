@@ -9,38 +9,29 @@
 @interface CPLPersonReference
 {
     NSDictionary *_extraProperties;
-    NSString *_personIdentifier;
 }
 
 + (_Bool);
-- (id);
+- (id)<;
+- (void)onds;
+- (id)parsec_description_TermFrequencies_Mean_Prefix;
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ÿ#ÕÐÊP;
+- (_Bool);
 - (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDictionary *extraProperties; // @synthesize extraProperties=_extraProperties;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,16 +11,11 @@
 @interface IMKCandidateArrowView : IMKUIView
 {
     NSImage *_arrowImageUp;
-    NSImage *_arrowImageDown;
-    SEL _action;
-    _Bool _pointsUpwards;
-    id _target;
-    _Bool _visible;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -28,18 +23,13 @@
 - (void);
 - (void);
 - (SEL);
-- (void);
-- (void)sToAnimateOut;
+- (void)_rtcpPSFBForLossFeedbackEnabled;
+- (void)_layoutUnitsToAnimateOut;
 - (void);
 - (_Bool)is not complete. This is a programming error;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, retain, nonatomic) NSImage *arrowImageDown; // @synthesize arrowImageDown=_arrowImageDown;
-@property(readonly, retain, nonatomic) NSImage *arrowImageUp; // @synthesize arrowImageUp=_arrowImageUp;
-@property(nonatomic) _Bool pointsUpwards; // @synthesize pointsUpwards=_pointsUpwards;
-@property(nonatomic) id target; // @synthesize target=_target;
-@property(nonatomic) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface PPPBContactNameRecordCache
 {
     long long _createdAt;
-    NSMutableArray *_records;
-    struct {
-        unsigned int createdAt:1;
-    } _has;
 }
 
 + (Class);
@@ -24,9 +20,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)updateAndReturnLQMStateAfterPreviewAttachmentSizeEnabled;
 - (_Bool);
-- (_Bool);
+- (_Bool)ts' is not a dictionary, %@, %@;
 - (_Bool);
 - (void);
 - (void);
@@ -35,12 +31,10 @@
 - (id);
 - (void)0@ù
 × ;
-- (void)ithQuery:(id)arg1 error:clientProcessName: /* Error: Ran out of types for this method. */;
+- (void)rankedTopicsWithQuery:(id)arg1 error:clientProcessName: /* Error: Ran out of types for this method. */;
 - (long long)Ößæÿ;
 
 // Remaining properties
-@property(nonatomic) long long createdAt; // @synthesize createdAt=_createdAt;
-@property(nonatomic) _Bool hasCreatedAt;
 @property(retain, nonatomic) NSMutableArray *records; // @synthesize records=_records;
 
 @end

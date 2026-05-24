@@ -7,7 +7,7 @@
 @interface UnknownClass (center)
 - (void);
 - (void);
-- (double);
+- (double)));
 - (double);
 - (void);
 - (struct CGRect);
@@ -19,13 +19,13 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void);
 @end
 

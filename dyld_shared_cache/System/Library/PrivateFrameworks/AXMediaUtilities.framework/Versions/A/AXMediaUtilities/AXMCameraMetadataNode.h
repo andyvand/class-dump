@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)getDateRangeParameter: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (void);

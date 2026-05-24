@@ -7,8 +7,6 @@
 @interface NotesShared.CancellableTaskQueue
 {
     id currentTask;
-    id upcomingTask;
-    id taskQueue;
 }
 
 @end

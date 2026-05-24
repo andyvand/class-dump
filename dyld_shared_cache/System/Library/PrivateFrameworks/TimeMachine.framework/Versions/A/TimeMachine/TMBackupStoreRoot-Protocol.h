@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, TMBackup;
+@class NSArray, NSURL;
+@protocol TMMountableBackupProtocol;
 
 @protocol TMBackupStoreRoot
+- (id <TMMountableBackupProtocol>);
+- (NSArray *)#;
+- (NSURL *)a;
 
 // Remaining properties
-@property(readonly) TMBackup *baselineBackupCandidate;
-@property(readonly) NSURL *inheritanceHistoryURL;
-@property(readonly) NSURL *liveVolumeMountPoint;
 @property(readonly) NSURL *machineStoreURL;
 @end
 

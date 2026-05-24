@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSString, PRMonogram, UITextField;
+@class CAGradientLayer;
 
 @interface PRMonogramView
 {
     CAGradientLayer *_circleGradientLayer;
-    UITextField *_textField;
-    _Bool _bordered;
-    _Bool _selected;
-    _Bool _highlighted;
-    _Bool _allowsEditing;
-    _Bool _circular;
-    PRMonogram *_monogram;
 }
 
 - (void);
@@ -26,38 +19,26 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void):(_Bool)arg1 %s (%d);
+- (_Bool);
+- (void)kTCCServiceAccessibility;
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)J;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(nonatomic) _Bool bordered; // @synthesize bordered=_bordered;
 @property(nonatomic, getter=isCircular) _Bool circular; // @synthesize circular=_circular;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) PRMonogram *monogram; // @synthesize monogram=_monogram;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly) Class superclass;
 
 @end
 

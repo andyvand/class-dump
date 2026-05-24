@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)poutState;
 - (id);
 - (id)columns = %lu), does not match init time weight matrix dimensions (rows = %lu, columns = %lu)
 ;

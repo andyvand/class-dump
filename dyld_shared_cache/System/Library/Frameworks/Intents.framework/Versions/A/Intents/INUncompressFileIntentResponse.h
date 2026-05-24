@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INUncompressFileIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setTintColor:(long long)arg1;
++ (long long)setOptions:(int)arg1;
++ (_Bool)setFileSize:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
@@ -24,27 +22,18 @@
 - (long long);
 - (id);
 - (void);
+- (id)hysicalDeviceRegistry>"16@0:(id)arg1 8;
 - (id);
-- (id);
-- (void);
+- (void)TO-JOIN:(id)arg1 Scan%{public}s Results (%lu) -->;
 - (id);
 - (id);
 - (id)_provider;
-- (long long)ame: /* Error: Ran out of types for this method. */;
+- (long long)setServiceName: /* Error: Ran out of types for this method. */;
 - (void)egator roundCount:(id)arg1 toSignificantFigure:] /* Error: Ran out of types for this method. */;
 - (id)Z:Of /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *entityName;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

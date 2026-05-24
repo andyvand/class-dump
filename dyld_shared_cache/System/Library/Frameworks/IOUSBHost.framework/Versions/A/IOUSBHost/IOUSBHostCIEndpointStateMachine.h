@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOUSBHostControllerInterface;
-
 @interface IOUSBHostCIEndpointStateMachine
 {
     int _endpointState;
-    int _endpointType;
-    unsigned long long _deviceAddress;
-    unsigned long long _endpointAddress;
-    const struct IOUSBHostCIMessage *_currentTransferMessage;
-    IOUSBHostControllerInterface *_controllerInterface;
 }
 
+- (void),;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)ظ;
+- (_Bool)ClipThumbnailFilePath;
+- (_Bool)ClipIFrameIndex;
+- (_Bool)ClipIngestOUTPTSIDR;
+- (_Bool)ClipSamplingFrequency;
+- (id)PlayListTimeZoneValue;
 - (_Bool);
 - (const struct IOUSBHostCIMessage *);
 - (id);
@@ -33,17 +26,12 @@
 - (unsigned long long);
 - (id);
 - (int);
-- (int);
+- (int)k,;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IOUSBHostControllerInterface *controllerInterface; // @synthesize controllerInterface=_controllerInterface;
-@property(nonatomic) const struct IOUSBHostCIMessage *currentTransferMessage; // @synthesize currentTransferMessage=_currentTransferMessage;
-@property(nonatomic) unsigned long long deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property(nonatomic) unsigned long long endpointAddress; // @synthesize endpointAddress=_endpointAddress;
 @property(nonatomic) int endpointState; // @synthesize endpointState=_endpointState;
-@property(nonatomic) int endpointType; // @synthesize endpointType=_endpointType;
 
 @end
 

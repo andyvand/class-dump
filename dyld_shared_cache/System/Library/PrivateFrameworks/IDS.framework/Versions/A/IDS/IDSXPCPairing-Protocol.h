@@ -5,5 +5,7 @@
 //
 
 @protocol IDSXPCPairing
+- (void);
+- (void);
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol IMUIPluginPayloadProtocol
+- (void)r"16@"NSURL"24@?<v@?@"NSError">32;
+- (_Bool)preferredMIMEType;
 
 // Remaining properties
 @property(nonatomic) _Bool requiresValidation;

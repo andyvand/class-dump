@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLViewExtensionLoader, NSString, NSViewController;
+@class FLViewExtensionLoader;
 
 @interface FLFollowUpActionHandler
 {
     FLViewExtensionLoader *_extensionLoader;
-    NSViewController *_remoteViewController;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _extensionRequestedViewControllerPresentation;
 }
 
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
@@ -29,14 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType extensionRequestedViewControllerPresentation; // @synthesize extensionRequestedViewControllerPresentation=_extensionRequestedViewControllerPresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

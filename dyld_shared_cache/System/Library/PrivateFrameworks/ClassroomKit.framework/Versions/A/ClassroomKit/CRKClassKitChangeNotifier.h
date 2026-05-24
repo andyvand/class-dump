@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
+@class NSObject;
 @protocol CRKClassKitChangeNotifierDelegate, CRKClassKitRosterRequirements;
 
 @interface CRKClassKitChangeNotifier
 {
     id <CRKClassKitChangeNotifierDelegate> _delegate;
-    NSObject<CRKClassKitRosterRequirements> *_requirements;
-    id _generalObserverToken;
-    id _trustedPersonObserverToken;
-    NSSet *_observedTrustedPersonIDs;
 }
 
 - (_Bool);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (id);
@@ -37,11 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CRKClassKitChangeNotifierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) id generalObserverToken; // @synthesize generalObserverToken=_generalObserverToken;
-@property(copy, nonatomic) NSSet *observedTrustedPersonIDs; // @synthesize observedTrustedPersonIDs=_observedTrustedPersonIDs;
 @property(readonly, nonatomic) NSObject<CRKClassKitRosterRequirements> *requirements; // @synthesize requirements=_requirements;
-@property(retain, nonatomic) id trustedPersonObserverToken; // @synthesize trustedPersonObserverToken=_trustedPersonObserverToken;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol NSViewLayerContentScaleDelegate
+
+@optional
+- (_Bool)DeviceEnclosureRGBColor;
 @end
 

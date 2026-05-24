@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKNavigationAction, WKWebView;
+@class WKWebView;
 
 @interface _SFSyntheticClickContext
 {
     WKWebView *_webView;
-    WKNavigationAction *_navigationAction;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (id)esafari._SFSearchEngineController;
 
 // Remaining properties
-@property(readonly, nonatomic) WKNavigationAction *navigationAction; // @synthesize navigationAction=_navigationAction;
 @property(readonly, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

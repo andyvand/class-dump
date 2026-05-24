@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILCConnection, NSMutableDictionary, NSPipe;
+@class ILCConnection;
 
 @interface InstlogRemoteLogging
 {
     int _state;
-    ILCConnection *_logServerConnection;
-    NSPipe *_logFilePipe;
-    NSMutableDictionary *_fileKeyToPath;
 }
 
 + (_Bool);
 + (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void)@9	;
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)b;
 - (id);
 - (void);
 - (void);
@@ -40,10 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *fileKeyToPath; // @synthesize fileKeyToPath=_fileKeyToPath;
-@property(retain) NSPipe *logFilePipe; // @synthesize logFilePipe=_logFilePipe;
 @property(retain) ILCConnection *logServerConnection; // @synthesize logServerConnection=_logServerConnection;
-@property int state; // @synthesize state=_state;
 
 @end
 

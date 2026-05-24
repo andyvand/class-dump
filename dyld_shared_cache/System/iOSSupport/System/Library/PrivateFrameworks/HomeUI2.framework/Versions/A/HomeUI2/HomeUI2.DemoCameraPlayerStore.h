@@ -8,7 +8,6 @@
 {
     id cameras;
     id snapshots;
-    id hasSetupAudioSession;
 }
 
 @end

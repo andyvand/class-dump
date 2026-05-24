@@ -6,17 +6,13 @@
 
 #import <CoreBrightness/CBContainer.h>
 
-@class HIDDevice, KeyboardBacklight, NSMutableDictionary, NSObject, NSString;
+@class HIDDevice, NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBKeyboardBacklightContainer : CBContainer
 {
     NSObject<OS_os_log> *_logHandle;
-    KeyboardBacklight *_keyboardBacklight;
-    _Bool _userActive;
-    NSMutableDictionary *_properties;
-    HIDDevice *_device;
 }
 
 - (_Bool);
@@ -28,24 +24,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)StructuredLightOccluded;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id)ightness %f;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) HIDDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

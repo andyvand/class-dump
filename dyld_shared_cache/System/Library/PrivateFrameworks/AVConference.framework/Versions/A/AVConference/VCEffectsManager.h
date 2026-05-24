@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, VCEffectsManagerDelegate;
+@protocol VCEffectsManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCEffectsManager
 {
     id _delegate;
-    id _reportingAgent;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    NSMutableArray *_effectsArray;
-    _Bool _effectsRegistered;
-    int _lastEffectsType;
-    struct _opaque_pthread_mutex_t _loggingLock;
-    CDStruct_1b6d18a9 _lastPrintTimestamp;
-    CDStruct_1b6d18a9 _lastReceivedTimestamp;
-    CDStruct_1b6d18a9 _lastSentTimestamp;
-    int _consecutiveDroppedFrameCount;
-    int _sentFrameCount;
-    int _receivedFrameCount;
-    int _droppedFrameCount;
-    int _failedFrameCount;
-    _Bool _forceDisableEffectsHealthCheck;
-    struct __CVBuffer *_lastReceivedPixelBuffer;
-    struct __CVBuffer *_lastReceivedDepthBuffer;
-    int _thermalPressureLevel;
-    struct opaqueVCRemoteImageQueue *_senderQueue;
 }
 
 + (id).;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -58,9 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) id <VCEffectsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *effectsArray; // @synthesize effectsArray=_effectsArray;
-@property(retain, nonatomic) id reportingAgent; // @synthesize reportingAgent=_reportingAgent;
-@property(readonly, nonatomic) struct opaqueVCRemoteImageQueue *senderQueue; // @synthesize senderQueue=_senderQueue;
 
 @end
 

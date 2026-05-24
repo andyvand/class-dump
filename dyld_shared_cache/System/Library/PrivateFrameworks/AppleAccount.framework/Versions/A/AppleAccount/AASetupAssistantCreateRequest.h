@@ -6,21 +6,20 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class AASigningSession, ACAccount, NSDictionary;
+@class NSDictionary;
 
 @interface AASetupAssistantCreateRequest : AARequest
 {
     NSDictionary *appleIDParameters;
-    AASigningSession *signingSession;
-    ACAccount *_account;
 }
 
 + (Class);
+- (id)e user log directory.
+;
+- (id)dsAttrTypeStandard:NFSHomeDirectory /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void)nWithCompletion: /* Error: Ran out of types for this method. */;
-- (id)newCredentials;
+- (void)sendInvitationWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)UnifyRenewCredentials;
 
 @end
 

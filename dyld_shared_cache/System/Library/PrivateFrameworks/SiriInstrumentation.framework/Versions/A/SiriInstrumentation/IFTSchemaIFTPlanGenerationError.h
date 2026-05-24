@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTPlanGenerationModelOutputError, NSData;
+@class IFTSchemaIFTPlanGenerationModelOutputError;
 
 @interface IFTSchemaIFTPlanGenerationError : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTPlanGenerationModelOutputError *_planGenerationModelOutputError;
-    _Bool _hasPlanGenerationModelOutputError;
-    unsigned long long _whichOneof_Plangenerationerror;
 }
 
 - (unsigned long long);
@@ -22,7 +20,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -30,15 +28,12 @@
 - (id);
 - (id)
 × ;
-- (id)dex:(id)arg1;
-- (id)tContainingSpeechReceived;
+- (id)toolIdsAtIndex:(id)arg1;
+- (id)ASRSchemaASRFinalAudioPacketContainingSpeechReceived;
 - (void)DJÐÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlanGenerationModelOutputError; // @synthesize hasPlanGenerationModelOutputError=_hasPlanGenerationModelOutputError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTPlanGenerationModelOutputError *planGenerationModelOutputError; // @synthesize planGenerationModelOutputError=_planGenerationModelOutputError;
-@property(readonly, nonatomic) unsigned long long whichOneof_Plangenerationerror; // @synthesize whichOneof_Plangenerationerror=_whichOneof_Plangenerationerror;
 
 @end
 

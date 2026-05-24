@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCollectionViewLayout;
+
 @protocol NSCollectionViewElement
+
+@optional
+- (void)removeObjectAtIndex:(NSCollectionViewLayout *)arg1;
 @end
 

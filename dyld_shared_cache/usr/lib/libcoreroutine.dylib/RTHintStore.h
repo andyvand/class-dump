@@ -6,21 +6,20 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTHintStore : RTStore
 {
 }
 
 + (id);
-+ (id);
++ (id)not found
+;
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)initWithNameAndType:(id)arg1 payloadType:(CDUnknownBlockType)arg2;
 - (void);
 - (void);
 - (void);
@@ -30,13 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

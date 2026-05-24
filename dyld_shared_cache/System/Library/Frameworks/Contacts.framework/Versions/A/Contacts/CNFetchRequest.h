@@ -9,12 +9,12 @@
     long long _disposition;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (void)ForContainerWithProviderIdentifier:(id)arg1;
+- (void)predicateForContainerWithProviderIdentifier:(id)arg1;
 - (void);
 
 // Remaining properties

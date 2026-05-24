@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamControlProtocol
 {
     _Bool _helloMessageResponseReceived;
-    _Bool _controlHandshakeComplete;
-    NSNumber *_peerDataStreamProtocolVersion;
-    NSString *_logIdentifier;
-    NSNumber *_pendingHelloMessageIdentifier;
 }
 
 + (id)®B;
+- (void)setLastState:(id)arg1;
+- (void)oblemSearchRecordingsPath;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,26 +31,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)B28;
 - (_Bool);
 - (id)!Bù±ð1Â0@ù
 × ;
 - (void)ibutionLogEvent;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) _Bool controlHandshakeComplete; // @synthesize controlHandshakeComplete=_controlHandshakeComplete;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool helloMessageResponseReceived; // @synthesize helloMessageResponseReceived=_helloMessageResponseReceived;
 @property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(retain, nonatomic) NSNumber *peerDataStreamProtocolVersion; // @synthesize peerDataStreamProtocolVersion=_peerDataStreamProtocolVersion;
-@property(retain, nonatomic) NSNumber *pendingHelloMessageIdentifier; // @synthesize pendingHelloMessageIdentifier=_pendingHelloMessageIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

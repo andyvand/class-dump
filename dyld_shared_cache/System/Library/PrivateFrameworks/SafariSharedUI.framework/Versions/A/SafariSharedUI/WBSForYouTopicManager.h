@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContextClient, NSArray, NSDate, NSObject, PPNamedEntityStore, WBSHistory, WBSRecentHistoryTopicTagController;
-@protocol OS_dispatch_queue;
+@class WBSRecentHistoryTopicTagController;
 
 @interface WBSForYouTopicManager
 {
     WBSRecentHistoryTopicTagController *_historyTopicTagController;
-    PPNamedEntityStore *_namedEntityStore;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSHistory *_history;
-    CKContextClient *_contextClient;
-    NSDate *_lastContextKitRequestDate;
-    NSArray *_mostRecentUserVisibleTopics;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)ExtensionStateForDefaults: /* Error: Ran out of types for this method. */;
+- (void)cloudExtensionStateForDefaults: /* Error: Ran out of types for this method. */;
 
 @end
 

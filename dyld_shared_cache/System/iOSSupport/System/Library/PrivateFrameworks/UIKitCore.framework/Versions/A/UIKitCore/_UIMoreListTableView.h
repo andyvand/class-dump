@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)We don't have an IDSAccount, please file a radar ********** State:service session = %@, accounts = %@ /* Error: Ran out of types for this method. */;
 - (void)ô;
 - (void)Tgþÿÿÿÿ;
 

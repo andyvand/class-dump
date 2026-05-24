@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDCategoryInformation
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLocalizedString *_localizedMapsCategoryName;
-    NSString *_mapsCategoryId;
-    GEOStyleAttributes *_mapsCategoryStyleAttributes;
-    NSString *_walletCategoryId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_localizedMapsCategoryName:1;
-        unsigned int read_mapsCategoryId:1;
-        unsigned int read_mapsCategoryStyleAttributes:1;
-        unsigned int read_walletCategoryId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tected:(id)arg1;
++ (_Bool)setHasWrmIsPCDetected:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -37,38 +21,30 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)guageCodeUpdateMonitor:(id)arg1 didReceiveLanguageCodeChanged:] /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
+- (unsigned long long)�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ons;
 - (id);
 - (_Bool);
-- (void);
+- (void)H;
 - (id);
-- (void);
+- (void)ions/C/Foundation;
 - (id)ck"b1"read_poiEnrichmentUpdate"b1"read_poiFeedback"b1"read_poiImageFeedback"b1"read_rapUserResponseFeedback"b1"read_runningTrackFeedback"b1"read_searchFeedback"b1"read_streetFeedback"b1"read_thirdPartyPhotoSharingPreferenceUpdate"b1"read_tileFeedback"b1"read_transitPoiFeedback"b1"wrote_anyField"b1};
-- (id)eEdgeLengthFrom:to:startCoord:endCoord: /* Error: Ran out of types for this method. */;
+- (id)_calculateEdgeLengthFrom:to:startCoord:endCoord: /* Error: Ran out of types for this method. */;
 - (id)àG´ãôG´ÐäH´æH´;
 - (id)b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8@"GEOTileData"16B24@"NSString"28C36d40;
 - (void)üÿúÿùÿòÿôÿûÿöÿ÷ÿýÿúÿûÿüÿõÿùÿ÷ÿûÿ÷ÿõÿûÿúÿçÿÿÿñÿÿÿéÿÿÿæÿÿÿõÿóÿøÿ÷ÿöÿôÿüÿûÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocalizedMapsCategoryName;
-@property(readonly, nonatomic) _Bool hasMapsCategoryId;
-@property(readonly, nonatomic) _Bool hasMapsCategoryStyleAttributes;
 @property(readonly, nonatomic) _Bool hasWalletCategoryId;
-@property(retain, nonatomic) GEOLocalizedString *localizedMapsCategoryName;
-@property(retain, nonatomic) NSString *mapsCategoryId;
-@property(retain, nonatomic) GEOStyleAttributes *mapsCategoryStyleAttributes;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *walletCategoryId;
 
 @end
 

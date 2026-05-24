@@ -7,7 +7,7 @@
 @class NSURLRequest;
 
 @protocol WKURLSchemeTask
-- (void);
+- (void)cloudContext;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURLRequest *request;

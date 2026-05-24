@@ -5,5 +5,8 @@
 //
 
 @protocol NSPersistentUIStorageXPCService
+- (void);
+- (void);
+- (void)T@"NSURL",R,C;
 @end
 

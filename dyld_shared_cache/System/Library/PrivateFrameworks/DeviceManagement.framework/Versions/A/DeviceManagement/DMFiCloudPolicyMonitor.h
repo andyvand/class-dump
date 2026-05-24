@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSArray;
 
 @interface DMFiCloudPolicyMonitor
 {
     long long _iCloudLogoutPolicy;
-    NSArray *_policyTypes;
-    NSUUID *_identifier;
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)!;
+- (void)?;
 - (long long);
 - (id);
 - (id);
@@ -23,12 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)controlTextDidEndEditing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long iCloudLogoutPolicy; // @synthesize iCloudLogoutPolicy=_iCloudLogoutPolicy;
-@property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSArray *policyTypes; // @synthesize policyTypes=_policyTypes;
 
 @end

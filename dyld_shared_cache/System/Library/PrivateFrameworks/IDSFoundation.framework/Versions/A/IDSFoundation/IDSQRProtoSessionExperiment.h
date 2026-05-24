@@ -9,15 +9,6 @@
 @interface IDSQRProtoSessionExperiment
 {
     NSString *_experimentName;
-    int _int32Value;
-    NSString *_stringValue;
-    int _testValue;
-    _Bool _boolValue;
-    struct {
-        unsigned int int32Value:1;
-        unsigned int testValue:1;
-        unsigned int boolValue:1;
-    } _has;
 }
 
 - (id);
@@ -43,26 +34,17 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)B24B28I32;
+- (void)8@"NSDictionary"16^B24;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (void)d secondary relayLinkid count (%d:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(retain, nonatomic) NSString *experimentName; // @synthesize experimentName=_experimentName;
-@property(nonatomic) _Bool hasBoolValue;
 @property(readonly, nonatomic) _Bool hasExperimentName;
-@property(nonatomic) _Bool hasInt32Value;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasTestValue;
-@property(nonatomic) int int32Value; // @synthesize int32Value=_int32Value;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int testValue; // @synthesize testValue=_testValue;
 
 @end
 

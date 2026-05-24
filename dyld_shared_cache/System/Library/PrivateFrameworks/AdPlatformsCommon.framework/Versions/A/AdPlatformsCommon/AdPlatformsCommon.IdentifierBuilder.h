@@ -7,16 +7,6 @@
 @interface AdPlatformsCommon.IdentifierBuilder
 {
     id type;
-    id source;
-    id processId;
-    id storage;
-    id rotation;
-    id cacheTTL;
-    id dataBuilder;
-    id telemetryDelivery;
-    id bucketIdInjector;
-    id rotationSignal;
-    id notificationPoster;
 }
 
 @end

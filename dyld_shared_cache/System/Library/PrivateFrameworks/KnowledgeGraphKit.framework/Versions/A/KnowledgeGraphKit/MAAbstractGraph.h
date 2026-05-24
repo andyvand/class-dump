@@ -9,13 +9,12 @@
 @interface MAAbstractGraph
 {
     NSMutableArray *_nodes;
-    NSMutableArray *_edges;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)(;
 
 @end
 

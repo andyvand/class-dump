@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface _NSPaddedButton : NSButton
 {
     struct CGSize _intrinsicContentSize;
-    NSArray *_stringsForLength;
 }
 
 - (id);
-- (void);
+- (void)/libsystem_blocks.dylib;
 - (id);
-- (struct CGSize);
+- (struct CGSize)(H;
 - (void);
 - (id)6@"NSTableColumn"24;
 - (void)eration mark for category:%@ name:%@ /* Error: Ran out of types for this method. */;

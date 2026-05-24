@@ -6,22 +6,13 @@
 
 #import <BaseBoardUI/BSUIVibrancyView.h>
 
-@class BSUIVibrancyBackdropView, BSUIVibrancyEffectValues, UIView;
+@class BSUIVibrancyBackdropView;
 
 @interface BSUIVibrancyEffectView : BSUIVibrancyView
 {
     struct {
         _Bool subviews;
     } _needsUpdate;
-    BSUIVibrancyEffectValues *_values;
-    _Bool _isEnabled;
-    _Bool _blurEnabled;
-    _Bool _captureOnly;
-    UIView *_contentView;
-    BSUIVibrancyBackdropView *_materialBackdropView;
-    UIView *_maskView;
-    UIView *_vibrancyView;
-    unsigned long long _contentType;
 }
 
 - (void);
@@ -29,31 +20,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)fiersForExistingGraphNearLocation"b1"delegateSupportsExpressionIdentifiersForCompatibleGraphNearLocation"b1"delegateSupportsAddGraphForExpression"b1"delegateSupportsLatestEndOfStrokeTimestamp"b1"delegateSupportsCoordinateSpaceForDrawing"b1"delegateSupportsSetHiddenStrokes"b1"delegateSupportsReplaceStrokesWithStrokes"b1"delegateSupportsUpdatedResult"b1"delegateSupportsCreateScrubberController"b1"delegateSupportsCreateTypesetViewController"b1"delegateSupportsCreateTypesetImage"b1"delegateSupportsCreateTypesetImageFromUUID"b1"delegateSupportsSetShouldSolve"b1"delegateSupportsSetShouldSolveUndoable"b1"delegateSupportsAnySetShouldSolve"b1"delegateSupportsSelectStrokes"b1"delegateSupportsTimestampForLatestUserInteraction"b1"delegateSupportsWillPresentPopoverUI"b1"delegateSupportsDidDismissPopoverUI"b1"delegateSupportsResultForLocale"b1};
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)te3.dylib;
 
 // Remaining properties
-@property(nonatomic, getter=isBlurEnabled) _Bool blurEnabled; // @synthesize blurEnabled=_blurEnabled;
-@property(nonatomic, getter=isCaptureOnly) _Bool captureOnly; // @synthesize captureOnly=_captureOnly;
-@property(nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) UIView *maskView; // @synthesize maskView=_maskView;
 @property(readonly, nonatomic) BSUIVibrancyBackdropView *materialBackdropView; // @synthesize materialBackdropView=_materialBackdropView;
-@property(readonly, nonatomic) UIView *vibrancyView; // @synthesize vibrancyView=_vibrancyView;
 
 @end
 

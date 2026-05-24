@@ -5,5 +5,6 @@
 //
 
 @protocol VCSessionUplinkBandwidthAllocatorClient
+- (_Bool)A;
 @end
 

@@ -7,7 +7,6 @@
 @interface PromotedContentUI.AppStoreNotificationListener
 {
     id theLock;
-    id lifecycleDelegate;
 }
 
 - (void);

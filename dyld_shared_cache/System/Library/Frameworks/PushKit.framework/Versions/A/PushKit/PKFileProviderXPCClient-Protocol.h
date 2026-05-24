@@ -5,5 +5,6 @@
 //
 
 @protocol PKFileProviderXPCClient
+- (void));
 @end
 

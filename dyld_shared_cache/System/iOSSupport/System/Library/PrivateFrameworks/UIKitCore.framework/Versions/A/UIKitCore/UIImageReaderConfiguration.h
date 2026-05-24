@@ -12,18 +12,16 @@
         unsigned int generatesThumbnails:1;
         unsigned int skipImageStats:1;
     } _flags;
-    double _pixelsPerInch;
-    struct CGSize _preferredThumbnailSize;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
-- (double);
+- (void)orwarding Attachment with guid %@ to local peer. Filepath %@;
+- (void)nsfer:(_Bool)arg1 %@   success:%@  error:%@ /* Error: Ran out of types for this method. */;
+- (void)guid:(struct CGSize)arg1 %@;
+- (void)ize;
+- (_Bool)any of these %lu dirty attachments, looks like there's nothing left to do;
+- (_Bool)download batch with %lu items retries %@;
+- (struct CGSize)to get a CKRecordID from a transfer; transfer sync state %@, non-empty salt %@;
+- (double)path %@, no need to move further;
 - (void);
 - (id);
 - (id);
@@ -33,14 +31,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool)hasBeganCancelling;
-- (id)e3;
+- (id)UIKitCore3;
 
 // Remaining properties
 @property(nonatomic, setter=_setSkipImageStats:) _Bool _skipImageStats;
-@property(nonatomic) double pixelsPerInch; // @synthesize pixelsPerInch=_pixelsPerInch;
-@property(nonatomic) struct CGSize preferredThumbnailSize; // @synthesize preferredThumbnailSize=_preferredThumbnailSize;
-@property(nonatomic) _Bool prefersHighDynamicRange;
-@property(nonatomic) _Bool preparesImagesForDisplay;
 
 @end
 

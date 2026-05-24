@@ -7,11 +7,6 @@
 @interface AppStoreKit.OfferLabelPresenter
 {
     id adamId;
-    id offerDisplayProperties;
-    id offerLabelText;
-    id view;
-    id stateMachine;
-    id arePreordersCancellable;
 }
 
 @end

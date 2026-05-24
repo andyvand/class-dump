@@ -5,34 +5,28 @@
 //
 
 @class IMChipSuggestion;
-@protocol IMChipActionProtocol;
 
 @interface IMChipAction
 {
     IMChipSuggestion *suggestion;
-    long long type;
-    id <IMChipActionProtocol> action;
 }
 
 + (id);
 + (_Bool);
+- (id)_;
 - (id);
-- (id);
-- (id);
+- (id)e.passbook.payment.pnr.present.verify;
 - (long long);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)te;
+- (id)state;
 - (void)rk/IMFoundation;
 
 // Remaining properties
-@property(nonatomic, readonly) id <IMChipActionProtocol> action; // @synthesize action;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) IMChipSuggestion *suggestion; // @synthesize suggestion;
-@property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end
 

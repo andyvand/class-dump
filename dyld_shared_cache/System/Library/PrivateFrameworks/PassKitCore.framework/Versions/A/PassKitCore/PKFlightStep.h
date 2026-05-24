@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, PKAirport;
+@class PKAirport;
 
 @interface PKFlightStep
 {
     PKAirport *_airport;
-    NSString *_terminal;
-    NSString *_gate;
-    NSString *_baggageClaim;
-    unsigned long long _status;
-    NSDate *_scheduledGateTime;
-    NSDate *_currentGateTime;
-    NSDate *_scheduledRunwayTime;
-    NSDate *_currentRunwayTime;
-    NSNumber *_gateBufferMinutes;
-    NSNumber *_runwayBufferMinutes;
 }
 
 + (_Bool)X"°!0Gùî%°1Â0@ù
@@ -27,19 +17,19 @@
 - (void);
 - (void);
 - (void);
+- (void):(id)arg1 A;
 - (void);
 - (void);
-- (void);
+- (id);
+- (id)A@9	;
+- (id);
+- (id)UT;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -51,30 +41,18 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)__text;
+- (_Bool)radioCoverage;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)ation;
-- (void)aymentWebService;
+- (id)_displayedNotification;
+- (void)PKDeletePeerPaymentWebService;
 
 // Remaining properties
 @property(retain, nonatomic) PKAirport *airport; // @synthesize airport=_airport;
-@property(retain, nonatomic) NSString *baggageClaim; // @synthesize baggageClaim=_baggageClaim;
-@property(retain, nonatomic) NSDate *currentDate;
-@property(retain, nonatomic) NSDate *currentGateTime; // @synthesize currentGateTime=_currentGateTime;
-@property(retain, nonatomic) NSDate *currentRunwayTime; // @synthesize currentRunwayTime=_currentRunwayTime;
-@property(retain, nonatomic) NSString *gate; // @synthesize gate=_gate;
-@property(retain, nonatomic) NSNumber *gateBufferMinutes; // @synthesize gateBufferMinutes=_gateBufferMinutes;
-@property(retain, nonatomic) NSDate *originalDate;
-@property(retain, nonatomic) NSNumber *runwayBufferMinutes; // @synthesize runwayBufferMinutes=_runwayBufferMinutes;
-@property(retain, nonatomic) NSDate *scheduledGateTime; // @synthesize scheduledGateTime=_scheduledGateTime;
-@property(retain, nonatomic) NSDate *scheduledRunwayTime; // @synthesize scheduledRunwayTime=_scheduledRunwayTime;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *terminal; // @synthesize terminal=_terminal;
 
 @end
 

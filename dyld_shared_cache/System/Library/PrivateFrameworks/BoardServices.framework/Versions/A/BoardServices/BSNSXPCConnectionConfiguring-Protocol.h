@@ -5,5 +5,7 @@
 //
 
 @protocol BSNSXPCConnectionConfiguring
+- (void);
+- (void);
 @end
 

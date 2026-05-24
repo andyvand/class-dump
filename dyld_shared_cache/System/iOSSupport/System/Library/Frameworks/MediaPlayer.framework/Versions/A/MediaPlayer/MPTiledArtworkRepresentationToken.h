@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface MPTiledArtworkRepresentationToken
 {
     id <NSCopying> _revisionIdentifier;
-    NSArray *_tileArtworkVisualIdenticalityIdentifiers;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)%c;
 - (id);
-- (void)ility;
+- (void)_artworkColorAnalysisUtility;
 
 // Remaining properties
 @property(copy, nonatomic) id <NSCopying> revisionIdentifier; // @synthesize revisionIdentifier=_revisionIdentifier;
-@property(copy, nonatomic) NSArray *tileArtworkVisualIdenticalityIdentifiers; // @synthesize tileArtworkVisualIdenticalityIdentifiers=_tileArtworkVisualIdenticalityIdentifiers;
 
 @end
 

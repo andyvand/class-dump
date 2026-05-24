@@ -4,52 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBActionItem, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, NSString;
 
 @protocol _SFPBRichTitleCardSection
+- (int);
+- (void);
+- (void)A;
+- (_Bool)$;
+- (void)`;
+- (void);
+- (void)s:(float)arg1 Single dot special case should only ever receive 1 point.;
+- (_Bool)tDownloadTask"24{?={?=qiIq}{?=qiIq}}32@"NSArray"80{?={?=qiIq}{?=qiIq}}88@"AVMediaSelection"136;
+- (_Bool)setAlbumEntityProperties:forAlbumPersistentID:configuration:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)sendPlaybackSyncPayload: /* Error: Ran out of types for this method. */;
+- (void)setAdjustmentBakeInOptions:(NSArray *)arg1;
+- (float)_applyFastVideoModernizationToRecord: /* Error: Ran out of types for this method. */;
+- (NSData *)publishThreadID;
 - (void)atmentId:(NSString *)arg1;
-- (int);
 
 // Remaining properties
-@property(nonatomic) int auxiliaryAlignment;
-@property(copy, nonatomic) NSString *auxiliaryBottomText;
-@property(nonatomic) int auxiliaryBottomTextColor;
-@property(copy, nonatomic) NSString *auxiliaryMiddleText;
-@property(copy, nonatomic) NSString *auxiliaryTopText;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(copy, nonatomic) NSArray *buttonItems;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSString *contentAdvisory;
-@property(copy, nonatomic) NSString *descriptionText;
-@property(copy, nonatomic) NSString *footnote;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(nonatomic) _Bool hideVerticalDivider;
-@property(retain, nonatomic) _SFPBImage *imageOverlay;
-@property(nonatomic) _Bool isCentered;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *moreGlyphs;
-@property(copy, nonatomic) NSArray *offers;
-@property(retain, nonatomic) _SFPBActionItem *playAction;
-@property(nonatomic) int playActionAlign;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) float rating;
-@property(copy, nonatomic) NSString *ratingText;
-@property(retain, nonatomic) _SFPBImage *reviewGlyph;
-@property(nonatomic) _Bool reviewNewLine;
-@property(copy, nonatomic) NSString *reviewText;
-@property(retain, nonatomic) _SFPBRichText *richSubtitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *subtitle;
-@property(nonatomic) _Bool subtitleIsEmphasized;
-@property(nonatomic) _Bool thumbnailCropCircle;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) int titleAlign;
-@property(retain, nonatomic) _SFPBImage *titleImage;
-@property(nonatomic) _Bool titleNoWrap;
-@property(nonatomic) int titleWeight;
-@property(copy, nonatomic) NSString *type;
 @end
 

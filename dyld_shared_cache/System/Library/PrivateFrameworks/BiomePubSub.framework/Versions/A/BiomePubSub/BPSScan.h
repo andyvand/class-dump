@@ -11,9 +11,6 @@
 @interface BPSScan : BMBookmarkablePublisher
 {
     id <BPSPublisher> _upstream;
-    id _initialResult;
-    CDUnknownBlockType _nextPartialResult;
-    id _result;
 }
 
 + (id);
@@ -31,14 +28,11 @@
 - (id);
 - (id);
 - (id)× ;
-- (_Bool)ithCurrent:comparator:correlateHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)correlateWithCurrent:comparator:correlateHandler: /* Error: Ran out of types for this method. */;
 - (void)h.;
 
 // Remaining properties
-@property(readonly, nonatomic) id initialResult; // @synthesize initialResult=_initialResult;
-@property(readonly, copy, nonatomic) CDUnknownBlockType nextPartialResult; // @synthesize nextPartialResult=_nextPartialResult;
 @property(retain, nonatomic) id result; // @synthesize result=_result;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

@@ -12,8 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (long long);
-- (id);
+- (long long)ed more bytes.  Dropping %lu bytes.;
+- (id)l
+llll)l8lmm
+mmmm)m8mnn
+nnnn)n8npp
+pppp)p8pr	rr(ru	uu(u::BBCCDDrr
+rrrr)r8ruu
+uuuu)u8u:::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

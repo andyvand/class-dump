@@ -5,5 +5,6 @@
 //
 
 @protocol AVTAvatarActionsControllerDelegate
+- (void)C;
 @end
 

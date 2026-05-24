@@ -9,13 +9,10 @@
 @interface UIKit.IntelligenceUI.PromptComposeView : UIView
 {
     id entryView;
-    id contentView;
-    id inputAreaStackView;
-    id contentViewContainer;
 }
 
 - (id);
-- (id)ayoutData;
+- (id)_UITabBarLayoutData;
 - (void)õ¬Ò^m;
 
 @end

@@ -12,27 +12,19 @@ __attribute__((visibility("hidden")))
 @interface NSCMYKSliders : NSColorSpaceSliders
 {
     id cyanSlider;
-    id yellowSlider;
-    id magentaSlider;
-    id blackSlider;
-    id cyanText;
-    id yellowText;
-    id magentaText;
-    id blackText;
-    NSView *_cmykView;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)length %d;
+- (void)invalid;
 - (void);
 - (void);
-- (void);
+- (id)setTLSMaximumSupportedProtocolVersion:(id)arg1;
+- (id)okayToSendPendingCallbacksForIdentifier:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (id)es not exist, recreating.;
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 

@@ -10,8 +10,8 @@
 }
 
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (id);

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
+@protocol SGConversationTurnProtocol;
 
 @protocol SGConversationTurnProtocol
+- (_Bool)setProposedTimeCompositeGadget:(id <SGConversationTurnProtocol>)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *senderID;
 @property(readonly, nonatomic) NSString *text;
-@property(readonly, nonatomic) NSDate *timestamp;
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VSAppChannelsMapping
 {
     NSString *_appAdamID;
-    NSArray *_channelIDs;
 }
 
 + (_Bool);
@@ -22,14 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_isInMemoryStorePrewarmed;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appAdamID; // @synthesize appAdamID=_appAdamID;
-@property(copy, nonatomic) NSArray *channelIDs; // @synthesize channelIDs=_channelIDs;
 
 @end
 

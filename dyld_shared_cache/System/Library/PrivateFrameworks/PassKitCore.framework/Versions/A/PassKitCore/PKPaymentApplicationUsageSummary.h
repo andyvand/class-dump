@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKPaymentApplicationUsageSummary
 {
     NSString *_passUniqueIdentifier;
-    NSString *_paymentApplicationIdentifier;
-    NSDate *_lastUsed;
-    NSDate *_lastUsedTransaction;
 }
 
 + (_Bool);
@@ -29,16 +26,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dnsServersImpacted;
 - (void);
 - (id);
-- (void)iringChangeReasonAPI;
+- (void)PKSecureElementPairingChangeReasonAPI;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastUsed; // @synthesize lastUsed=_lastUsed;
-@property(retain, nonatomic) NSDate *lastUsedTransaction; // @synthesize lastUsedTransaction=_lastUsedTransaction;
 @property(retain, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
-@property(retain, nonatomic) NSString *paymentApplicationIdentifier; // @synthesize paymentApplicationIdentifier=_paymentApplicationIdentifier;
 
 @end
 

@@ -11,23 +11,22 @@
 @interface AXMSourceNode : AXMVisionEngineNode
 {
     NSMutableArray *_nodeQueue_resultHandlers;
-    _Bool _shouldProcessRemotely;
 }
 
-+ (_Bool);
++ (_Bool)setViewportVertices: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)|;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)݇[|;
+- (void)`;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldProcessRemotely; // @synthesize shouldProcessRemotely=_shouldProcessRemotely;

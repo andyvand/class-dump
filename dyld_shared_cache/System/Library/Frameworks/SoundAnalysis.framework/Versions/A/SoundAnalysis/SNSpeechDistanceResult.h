@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNSpeechDistanceResult
 {
     id impl;
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)!;
 - (void);
 - (_Bool);
 - (void);
@@ -31,11 +29,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double currentFrameValue;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) double meanValue;
-@property(nonatomic) double standardDeviation;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

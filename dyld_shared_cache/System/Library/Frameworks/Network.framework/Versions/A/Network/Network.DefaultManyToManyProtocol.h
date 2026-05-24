@@ -7,19 +7,6 @@
 @interface Network.DefaultManyToManyProtocol
 {
     id flags;
-    id reserveHeaderSize;
-    id reserveFooterSize;
-    id multiplexedFlows;
-    id multiplexingPaths;
-    id primaryPath;
-    id logIDNumber;
-    id logString;
-    id context;
-    id _selfAsListenHandlerLinkage;
-    id newFlowLinkage;
-    id initialized;
-    id isServer;
-    id timerScheduled;
 }
 
 @end

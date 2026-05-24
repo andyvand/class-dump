@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)AVMetrics;
 - (struct CGSize);
 - (id);
 - (id);

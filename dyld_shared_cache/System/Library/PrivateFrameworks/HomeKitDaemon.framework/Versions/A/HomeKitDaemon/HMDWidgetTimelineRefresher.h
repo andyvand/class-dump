@@ -4,46 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class (extension in HomeKitDaemon):__C.HMDWidgetTimelineRefresher.SwiftExtensions__priv_E4AFB2A25343A8F5063AD1A14CCEA937, HMDHomeManager, HMDWidgetConfigurationReader, HMDWidgetTimelineController, NSMapTable, NSMutableDictionary, NSMutableSet, NSNotificationCenter, NSObject, NSSet, NSString, NSUUID;
-@protocol HMDWidgetAccessoryReachabilityMonitor, HMDWidgetTimelineRefresherDataSource, HMDarwinNotificationProvider, HMFTimerManager, HMFTimerManagerTimerContext, HMMLogEventSubmitting, OS_dispatch_queue;
+@class (extension in HomeKitDaemon):__C.HMDWidgetTimelineRefresher.SwiftExtensions__priv_E4AFB2A25343A8F5063AD1A14CCEA937;
 
 __attribute__((visibility("hidden")))
 @interface HMDWidgetTimelineRefresher
 {
     int _homeSensingChangedNotificationToken;
-    int _selectedHomeChangedNotificationToken;
-    HMDHomeManager *_homeManager;
-    NSString *_clientIdentifier;
-    id <HMDarwinNotificationProvider> _darwinNotificationProvider;
-    HMDWidgetConfigurationReader *_widgetConfigurationReader;
-    HMDWidgetTimelineController *_timelineController;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    id <HMFTimerManager> _timerManager;
-    id <HMDWidgetTimelineRefresherDataSource> _dataSource;
-    NSUUID *_currentHomeUUID;
-    NSSet *_widgetKindsToUpdate;
-    NSString *_clientIdentifierForExplicitlyMonitoredCharacteristics;
-    NSMutableDictionary *_monitoredCharacteristicsMapByWidget;
-    NSMutableDictionary *_monitoredMTRAttributesByWidget;
-    NSMutableDictionary *_monitoredActionSetsMapByWidget;
-    NSMapTable *_cachedValueByCharacteristic;
-    NSMapTable *_cachedIsOnStateByActionSet;
-    NSMapTable *_deviceControllersByID;
-    NSMapTable *_devicesByController;
-    NSMapTable *_pendingRequestValueByUUID;
-    NSMutableDictionary *_cachedActionSetExecuteErrorByUUID;
-    NSMutableDictionary *_cachedActionSetExecuteErrorTimerContextByUUID;
-    id <HMFTimerManagerTimerContext> _actionSetPrimaryStateUpdateCoalesceTimerContext;
-    NSMutableSet *_actionSetsPendingPrimaryResidentStateUpdates;
-    id <HMFTimerManagerTimerContext> _widgetRefreshCoalesceTimerContext;
-    NSString *_widgetRefreshCoalesceReason;
-    NSSet *_widgetRefreshCoalesceKinds;
-    long long _reachabilityUpdateDispatchDelayNs;
-    long long _forceUpdateTimelineDispatchDelayNs;
-    NSMutableDictionary *_characteristicsToPreviouslySeenValues;
-    id _swiftExtensions;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)RB;
@@ -61,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)er"16;
+- (void)_sessionSelectionAction;
+- (void)or while parsing network address:(id)arg1 %s;
 - (id);
 - (void);
 - (void);
@@ -71,44 +37,50 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)setRadius: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)2.126286*(pos.g-kinv) :(id)arg1 im.g;
+im.b = pos.b > kinv ? 0.8 + 2.126286*(pos.b-kinv) :im.b;
+im.rgb = mix(orig.rgb, im.rgb, boost);
+return im;
+}
+
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void)a`;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)C;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)Ds;
+- (void)partialNameExpandedQuerysSize;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)t&J;
 - (long long);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (long long);
@@ -119,15 +91,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)`;
+- (void);
 - (void);
 - (void)Ð1Â0@ù
 × ;
-- (id)erlyingErrorCode_HH2: /* Error: Ran out of types for this method. */;
-- (void)aGroupParticipantLocalDataStorage;
-- (void)kStateTimer;
-- (void)RampDivisor;
+- (id)setLastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2: /* Error: Ran out of types for this method. */;
+- (void)mediaGroupParticipantLocalDataStorage;
+- (void)_setPlaybackStateTimer;
+- (void)_hh2AutoMigrationWithSharedUserRampDivisor;
 - (id)cords;
 - (id)ons;
 - (id)Best matched capability (Matched:%ld, Index:%ld) from Filtered list :%@ /* Error: Ran out of types for this method. */;
@@ -144,9 +116,9 @@ __attribute__((visibility("hidden")))
 - (void)is active;
 - (id)ÿÿ;
 - (id)HomeKitDaemon13LocalPresenceO09AccessoryE8ObserverP;
-- (void)er;
-- (id)erviceAreaMessageMapIDKey;
-- (id)ownPersons;
+- (void)messenger;
+- (id)HMDRVCServiceAreaMessageMapIDKey;
+- (id)numberOfKnownPersons;
 - (id)s green;
 - (id)\~&äéÿ;
 - (id)æ;
@@ -158,51 +130,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) (extension in HomeKitDaemon):__C.HMDWidgetTimelineRefresher.SwiftExtensions__priv_E4AFB2A25343A8F5063AD1A14CCEA937 *_swiftExtensions;
-@property(retain, nonatomic) id <HMFTimerManagerTimerContext> actionSetPrimaryStateUpdateCoalesceTimerContext; // @synthesize actionSetPrimaryStateUpdateCoalesceTimerContext=_actionSetPrimaryStateUpdateCoalesceTimerContext;
-@property(readonly) NSMutableSet *actionSetsPendingPrimaryResidentStateUpdates; // @synthesize actionSetsPendingPrimaryResidentStateUpdates=_actionSetsPendingPrimaryResidentStateUpdates;
-@property(readonly, nonatomic) NSMutableDictionary *cachedActionSetExecuteErrorByUUID; // @synthesize cachedActionSetExecuteErrorByUUID=_cachedActionSetExecuteErrorByUUID;
-@property(readonly, nonatomic) NSMutableDictionary *cachedActionSetExecuteErrorTimerContextByUUID; // @synthesize cachedActionSetExecuteErrorTimerContextByUUID=_cachedActionSetExecuteErrorTimerContextByUUID;
-@property(readonly, nonatomic) NSMapTable *cachedIsOnStateByActionSet; // @synthesize cachedIsOnStateByActionSet=_cachedIsOnStateByActionSet;
-@property(readonly, nonatomic) NSMapTable *cachedValueByCharacteristic; // @synthesize cachedValueByCharacteristic=_cachedValueByCharacteristic;
-@property(readonly) NSMutableDictionary *characteristicsToPreviouslySeenValues;
-@property(readonly, copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy, nonatomic) NSString *clientIdentifierForExplicitlyMonitoredCharacteristics; // @synthesize clientIdentifierForExplicitlyMonitoredCharacteristics=_clientIdentifierForExplicitlyMonitoredCharacteristics;
-@property(copy) NSUUID *currentHomeUUID; // @synthesize currentHomeUUID=_currentHomeUUID;
-@property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider; // @synthesize darwinNotificationProvider=_darwinNotificationProvider;
-@property(readonly, nonatomic) id <HMDWidgetTimelineRefresherDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMapTable *deviceControllersByID; // @synthesize deviceControllersByID=_deviceControllersByID;
-@property(readonly, nonatomic) NSMapTable *devicesByController; // @synthesize devicesByController=_devicesByController;
-@property(readonly) long long forceUpdateTimelineDispatchDelayNs; // @synthesize forceUpdateTimelineDispatchDelayNs=_forceUpdateTimelineDispatchDelayNs;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) NSMutableDictionary *monitoredActionSetsMapByWidget; // @synthesize monitoredActionSetsMapByWidget=_monitoredActionSetsMapByWidget;
-@property(readonly, nonatomic) NSMutableDictionary *monitoredCharacteristicsMapByWidget; // @synthesize monitoredCharacteristicsMapByWidget=_monitoredCharacteristicsMapByWidget;
-@property(readonly, nonatomic) NSMutableDictionary *monitoredMTRAttributesByWidget; // @synthesize monitoredMTRAttributesByWidget=_monitoredMTRAttributesByWidget;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) NSMapTable *pendingRequestValueByUUID; // @synthesize pendingRequestValueByUUID=_pendingRequestValueByUUID;
-@property(nonatomic, readonly) id <HMDWidgetAccessoryReachabilityMonitor> reachabilityMonitor;
-@property(readonly) long long reachabilityUpdateDispatchDelayNs; // @synthesize reachabilityUpdateDispatchDelayNs=_reachabilityUpdateDispatchDelayNs;
-@property(readonly) Class superclass;
-@property(retain) id swiftExtensions;
-@property(readonly) HMDWidgetTimelineController *timelineController; // @synthesize timelineController=_timelineController;
-@property(readonly, nonatomic) id <HMFTimerManager> timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly) HMDWidgetConfigurationReader *widgetConfigurationReader; // @synthesize widgetConfigurationReader=_widgetConfigurationReader;
-@property(copy) NSSet *widgetKindsToUpdate; // @synthesize widgetKindsToUpdate=_widgetKindsToUpdate;
-@property(retain, nonatomic) NSSet *widgetRefreshCoalesceKinds; // @synthesize widgetRefreshCoalesceKinds=_widgetRefreshCoalesceKinds;
-@property(copy, nonatomic) NSString *widgetRefreshCoalesceReason; // @synthesize widgetRefreshCoalesceReason=_widgetRefreshCoalesceReason;
-@property(retain, nonatomic) id <HMFTimerManagerTimerContext> widgetRefreshCoalesceTimerContext; // @synthesize widgetRefreshCoalesceTimerContext=_widgetRefreshCoalesceTimerContext;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue;
 
 @end
 

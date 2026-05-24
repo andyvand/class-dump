@@ -5,13 +5,11 @@
 //
 
 @class NSHashTable;
-@protocol WBSFluidProgressControllerDelegate, WBSFluidProgressControllerWindowDelegate;
+@protocol WBSFluidProgressControllerDelegate;
 
 @interface WBSFluidProgressController
 {
     NSHashTable *_observers;
-    id <WBSFluidProgressControllerDelegate> _delegate;
-    id <WBSFluidProgressControllerWindowDelegate> _windowDelegate;
 }
 
 - (id);
@@ -20,23 +18,22 @@
 - (void);
 - (void);
 - (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ckedAvailableLocalePairs;
+- (void)_hasCheckedAvailableLocalePairs;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSFluidProgressControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property __weak id <WBSFluidProgressControllerWindowDelegate> windowDelegate; // @synthesize windowDelegate=_windowDelegate;
 
 @end
 

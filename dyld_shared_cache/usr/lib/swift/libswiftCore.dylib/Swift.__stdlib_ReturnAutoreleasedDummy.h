@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)%{sensitive}@, fetch error, %@;
 - (id);
 
 @end

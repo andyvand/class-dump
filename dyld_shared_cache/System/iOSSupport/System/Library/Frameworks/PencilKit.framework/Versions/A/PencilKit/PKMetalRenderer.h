@@ -4,86 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTKTextureLoader, NSArray, PKLinedPaper, PKMetalFramebuffer, PKMetalRenderState, PKMetalResourceHandler, PKStroke;
-@protocol MTLBuffer, MTLCommandQueue, MTLCommandQueueSPI, MTLDevice, MTLTexture;
+@class PKMetalRenderState;
+@protocol MTLCommandQueue;
 
 @interface PKMetalRenderer
 {
     PKMetalRenderState *_currentRenderState;
-    unsigned long long _currentCacheSize;
-    id <MTLDevice> _device;
-    id <MTLCommandQueueSPI> _commandQueue;
-    struct RendererFramebuffer _originalBackFramebuffer;
-    struct RendererFramebuffer _sixChannelMultiplyFramebuffer;
-    _Bool _shouldClearOriginalBackFramebuffer;
-    CDStruct_3ead2808 _originalBackClearColor;
-    struct RendererFramebuffer _paintFramebuffer[2];
-    struct RendererFramebuffer _paintAccumulationFramebuffer[2];
-    PKMetalFramebuffer *_paintFramebufferMask;
-    PKMetalFramebuffer *_maskMSAAFramebuffer;
-    PKMetalResourceHandler *_resourceHandler;
-    PKMetalFramebuffer *_dummyPaintFramebuffer[2];
-    PKMetalFramebuffer *_dummyColorFramebuffer;
-    struct CGSize _drawingPixelSize;
-    struct CGColor *_backgroundColor;
-    struct CGSize _actualSize;
-    double _fromStrokeSpaceScale;
-    struct CGAffineTransform _strokeTransform;
-    struct CGRect _viewScissor;
-    _Bool _lastPointForEraserIsValid;
-    struct _PKStrokePoint _lastPointForEraser;
-    id <MTLTexture> _paperTexture;
-    struct CGSize _paperTextureSize;
-    unsigned long long _originalBackPixelFormat;
-    unsigned long long _paintAndParticlePixelFormat;
-    _Bool _sixChannelCanvasHasContentTexture;
-    _Bool _wantsExtendedDynamicRangeContent;
-    struct vector<PKMetalParticleStrokePoint, std::allocator<PKMetalParticleStrokePoint>> _particleStrokePointBuffer;
-    struct vector<PKMetalPaintStrokePoint, std::allocator<PKMetalPaintStrokePoint>> _paintStrokePointBuffer;
-    struct vector<PKMetalSDFPenStrokePoint, std::allocator<PKMetalSDFPenStrokePoint>> _sdfPenStrokePointBuffer;
-    struct vector<PKMetalLiveStrokePaintStrokePoint, std::allocator<PKMetalLiveStrokePaintStrokePoint>> _liveStrokeStrokePointBuffer;
-    struct shared_ptr<std::vector<(anonymous namespace)::StrokeVertex>> _sharedStrokeVertexBuffer;
-    struct shared_ptr<std::vector<PKMetalSDFStrokeVertex>> _sharedSDFStrokeVertexBuffer;
-    struct vector<(anonymous namespace)::AnimatingStroke, std::allocator<(anonymous namespace)::AnimatingStroke>> _animatingStrokes;
-    PKStroke *_activeCombinedStroke;
-    NSArray *_activeCombinedAlternativeStrokes;
-    struct CGRect _paintFramebufferDirtyRect;
-    id <MTLBuffer> _randomNumberBuffer;
-    unsigned long long _renderMaskMSAASampleCount;
-    _Bool _needRestartWorkaroundForOldIntelDrivers;
-    _Bool _useComputeRenderCaches;
-    long long _sixChannelBlendingMode;
-    struct CGRect _drawableDirtyRect;
-    MTKTextureLoader *_textureLoader;
-    struct vector<_PKStrokePoint, std::allocator<_PKStrokePoint>> previewStrokePoints;
-    struct PKShaderPipelineConfig _defaultNonSixChannelPipelineConfig;
-    struct PKShaderPipelineConfig _defaultSixChannelPipelineConfig;
-    struct PKShaderPipelineConfig _singleFramebufferPipelineConfig;
-    CDStruct_4cc01785 _latestInputPoint;
-    _Bool _renderDebugColorForSynthesizedStrokes;
-    struct RendererFramebuffer _addLayerFramebuffer;
-    struct RendererFramebuffer _multiplyLayerFramebuffer;
-    _Bool _solidColorBackboard;
-    _Bool _oneRenderPassForLiveRendering;
-    _Bool _fadeOutStrokesMode;
-    _Bool _liveStrokeMode;
-    _Bool _edgeMask;
-    _Bool _invertColors;
-    _Bool _drawBitmapEraserMask;
-    _Bool _allowBrushIndicator;
-    _Bool _combineStrokesAllowed;
-    unsigned long long _pixelFormat;
-    PKLinedPaper *_linedPaper;
-    struct CGColor *_liveRenderingOverrideColor;
-    double _contentZoomScale;
-    double _backboardPaperMultiply;
-    double _inputScale;
-    double _eraserIndicatorAlpha;
-    double _previewStrokeAlpha;
-    double _previewStrokeMaxPoints;
-    double _liveStrokeElapsedTime;
-    struct CGSize _liveStrokeMaxSize;
-    struct CGAffineTransform _paperTransform;
 }
 
 - (struct CGRect);
@@ -97,13 +23,29 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)qH;
+- (_Bool);
+- (void *);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void *);
 - (void);
 - (void);
 - (void);
@@ -115,21 +57,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -145,9 +73,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (unsigned long long);
@@ -189,13 +115,13 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double);
@@ -233,12 +159,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -266,17 +192,17 @@
 - (struct PKShaderPipelineConfig);
 - (struct PKShaderPipelineConfig);
 - (void);
+- (void)";
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (_Bool);
 - (struct CGRect);
--     // Error parsing type: {CGRect={CGPoint=dd}{CGSize=dd}}32@0:8r^{StrokeVertex=ff       }16Q24, name: (null)
+-     // Error parsing type: {CGRect={CGPoint=dd}{CGSize=dd}}32@0:8r^{StrokeVertex=ff       }16Q24, name: 
 -     // Error parsing type: {CGRect={CGPoint=dd}{CGSize=dd}}32@0:8r^{PKMetalSDFStrokeVertex=      }16Q24, name: (null)
 - (void);
 - (void);
@@ -317,7 +243,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -326,40 +252,11 @@
 - (struct CGColor *);
 - (void)ä·3¨¸;
 - (unsigned long long);
-- (id)ifierCoherence;
+- (id)PKStrokeProviderSliceIdentifierCoherence;
 - (void)bG;
 
 // Remaining properties
-@property(nonatomic) struct CGSize actualSize; // @synthesize actualSize=_actualSize;
-@property(nonatomic) _Bool allowBrushIndicator; // @synthesize allowBrushIndicator=_allowBrushIndicator;
-@property(nonatomic) double backboardPaperMultiply; // @synthesize backboardPaperMultiply=_backboardPaperMultiply;
-@property(nonatomic) struct CGColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool combineStrokesAllowed; // @synthesize combineStrokesAllowed=_combineStrokesAllowed;
 @property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(nonatomic) double contentZoomScale; // @synthesize contentZoomScale=_contentZoomScale;
-@property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(nonatomic) _Bool drawBitmapEraserMask; // @synthesize drawBitmapEraserMask=_drawBitmapEraserMask;
-@property(nonatomic) _Bool edgeMask; // @synthesize edgeMask=_edgeMask;
-@property(nonatomic) double eraserIndicatorAlpha; // @synthesize eraserIndicatorAlpha=_eraserIndicatorAlpha;
-@property(nonatomic) _Bool fadeOutStrokesMode; // @synthesize fadeOutStrokesMode=_fadeOutStrokesMode;
-@property(nonatomic) double inputScale; // @synthesize inputScale=_inputScale;
-@property(nonatomic) _Bool invertColors; // @synthesize invertColors=_invertColors;
-@property(readonly, nonatomic) _Bool isFinishedRendering;
-@property(readonly, nonatomic) double latestTimestamp;
-@property(retain, nonatomic) PKLinedPaper *linedPaper; // @synthesize linedPaper=_linedPaper;
-@property(nonatomic) struct CGColor *liveRenderingOverrideColor; // @synthesize liveRenderingOverrideColor=_liveRenderingOverrideColor;
-@property(nonatomic) double liveStrokeElapsedTime; // @synthesize liveStrokeElapsedTime=_liveStrokeElapsedTime;
-@property(nonatomic) struct CGSize liveStrokeMaxSize; // @synthesize liveStrokeMaxSize=_liveStrokeMaxSize;
-@property(nonatomic) _Bool liveStrokeMode; // @synthesize liveStrokeMode=_liveStrokeMode;
-@property(nonatomic) _Bool oneRenderPassForLiveRendering; // @synthesize oneRenderPassForLiveRendering=_oneRenderPassForLiveRendering;
-@property(nonatomic) struct CGAffineTransform paperTransform; // @synthesize paperTransform=_paperTransform;
-@property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) double previewStrokeAlpha; // @synthesize previewStrokeAlpha=_previewStrokeAlpha;
-@property(nonatomic) double previewStrokeMaxPoints; // @synthesize previewStrokeMaxPoints=_previewStrokeMaxPoints;
-@property(readonly, nonatomic) PKMetalResourceHandler *resourceHandler; // @synthesize resourceHandler=_resourceHandler;
-@property(nonatomic) _Bool solidColorBackboard; // @synthesize solidColorBackboard=_solidColorBackboard;
-@property(nonatomic) struct CGAffineTransform strokeTransform; // @synthesize strokeTransform=_strokeTransform;
-@property(nonatomic) struct CGRect viewScissor; // @synthesize viewScissor=_viewScissor;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol _SFXPCEARSpeechRecognitionResultStream
+- (void);
+- (void)A;
 @end
 

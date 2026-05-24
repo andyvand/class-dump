@@ -7,28 +7,11 @@
 @interface PXPhotosSearchCollectionSectionProvider
 {
     id photoLibrary;
-    id observable;
-    id badgesModifier;
-    id collectionResultUUIDs;
-    id rankedCollectionResultUUIDs;
-    id promotedRankedCollection;
-    id topCollections;
-    id allCollections;
-    id allPeople;
-    id searchMatchInfo;
-    _Bool isDisabled;
-    id showsShelfTitle;
-    id collectionResultsScores;
-    id photoLibraryObservation;
-    id albumsFetchResult;
-    id collectionShareFetchResult;
-    id tripsFetchResult;
-    id memoriesFetchResult;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)x;
 - (void);
 - (_Bool)KH@;
 

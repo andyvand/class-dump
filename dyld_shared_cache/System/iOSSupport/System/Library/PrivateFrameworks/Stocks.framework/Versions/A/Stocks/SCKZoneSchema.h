@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSArray, NSString;
+@class NSArray;
 
 @interface SCKZoneSchema
 {
     _Bool _atomic;
-    CKRecordZoneID *_zoneID;
-    NSString *_zoneName;
-    NSArray *_recordSchemas;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)m;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)_authController;
+- (void)SCRCArgumentHolder;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allRecordFieldNames;
-@property(readonly, nonatomic, getter=isAtomic) _Bool atomic; // @synthesize atomic=_atomic;
 @property(copy, nonatomic) NSArray *recordSchemas; // @synthesize recordSchemas=_recordSchemas;
-@property(readonly, copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
-@property(readonly, copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

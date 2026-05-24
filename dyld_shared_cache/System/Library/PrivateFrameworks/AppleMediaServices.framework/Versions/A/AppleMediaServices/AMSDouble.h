@@ -13,7 +13,7 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)setHasHostDeviceClass:(id)arg1;
 - (void);
 - (double);
 - (id);

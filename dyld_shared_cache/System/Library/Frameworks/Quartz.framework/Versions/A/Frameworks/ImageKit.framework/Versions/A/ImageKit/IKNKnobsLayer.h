@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKNImageViewHandler, IKNSelection;
+@class IKNImageViewHandler;
 
 @interface IKNKnobsLayer
 {
     IKNImageViewHandler *_handler;
-    struct CGPath *_handlePath;
-    _Bool _selectionsCanBeModified;
-    IKNSelection *_mouseOverSelection;
-    long long _mouseOverKnob;
-    _Bool _hideNonSelectedKnobs;
-    long long _autoItemGuideIndex;
-    long long _mouseOverGuideIndex;
-    _Bool _drawGuides;
-    long long _guideCount;
-    struct CGPoint _guidePoints[8];
 }
 
-+ (void)Item;
++ (void)IKTexturePackerItem;
 - (void);
 - (void);
 - (void);
@@ -33,7 +23,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -49,9 +39,6 @@
 
 // Remaining properties
 @property(nonatomic) IKNImageViewHandler *handler; // @synthesize handler=_handler;
-@property(nonatomic) _Bool hideNonSelectedKnobs; // @synthesize hideNonSelectedKnobs=_hideNonSelectedKnobs;
-@property(retain) IKNSelection *mouseOverSelection; // @synthesize mouseOverSelection=_mouseOverSelection;
-@property(nonatomic) _Bool selectionsCanBeModified; // @synthesize selectionsCanBeModified=_selectionsCanBeModified;
 
 @end
 

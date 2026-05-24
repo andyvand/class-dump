@@ -11,7 +11,7 @@
 
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (void)7_;
 - (id)ion;

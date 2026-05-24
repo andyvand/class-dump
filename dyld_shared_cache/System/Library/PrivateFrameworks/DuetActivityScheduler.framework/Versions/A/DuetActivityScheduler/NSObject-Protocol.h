@@ -7,14 +7,20 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)installed MAAsset "%@" with obsolete version %@.;
+- (id)questing purge of installed MAAsset "%@" with obsolete version %@.;
+- (id)%@" with obsolete version %@, but not removing because state is %ld.;
+- (id)mpleted with result:(SEL)arg1 %ld;
+- (id)load for "%@" (version %@) completed with result:(SEL)arg1 %ld;
+- (Class)current known to be available.;
+- (unsigned long long)limit.;
+- (_Bool)#;
+- (NSString *);
+- (_Bool)#;
+- (_Bool));
+- (_Bool)tionURL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

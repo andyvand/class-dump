@@ -5,15 +5,10 @@
 //
 
 @class NSURL;
-@protocol IXApplicationRecordEnumeratorProtocol, IXTerminationAssertionWrapperProtocol;
 
 @interface IXUnregisterOSModuleToken
 {
     NSURL *_moduleURL;
-    id _options;
-    id <IXTerminationAssertionWrapperProtocol> _terminationAssertion;
-    id <IXApplicationRecordEnumeratorProtocol> _applicationEnumerator;
-    CDUnknownBlockType _terminationAssertionCreationBlock;
 }
 
 - (CDUnknownBlockType);
@@ -21,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)G;
 - (id);
 - (id);
 - (id);
@@ -35,12 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <IXApplicationRecordEnumeratorProtocol> applicationEnumerator; // @synthesize applicationEnumerator=_applicationEnumerator;
-@property(readonly, nonatomic) _Bool isValid;
 @property(copy, nonatomic) NSURL *moduleURL; // @synthesize moduleURL=_moduleURL;
-@property(retain, nonatomic) id options; // @synthesize options=_options;
-@property(retain, nonatomic) id <IXTerminationAssertionWrapperProtocol> terminationAssertion; // @synthesize terminationAssertion=_terminationAssertion;
-@property(copy, nonatomic) CDUnknownBlockType terminationAssertionCreationBlock; // @synthesize terminationAssertionCreationBlock=_terminationAssertionCreationBlock;
 
 @end
 

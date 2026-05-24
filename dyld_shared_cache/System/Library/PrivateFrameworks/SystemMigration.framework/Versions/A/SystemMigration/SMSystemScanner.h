@@ -4,28 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString, SMSystem_Daemon;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface SMSystemScanner
 {
     _Bool _mustRemovelastKnownFinalTMSelectedSourceDisk;
-    unsigned long long _scannerState;
-    SMSystem_Daemon *_currentSystem;
-    NSMutableDictionary *_lastKnownFinalSelectedSourceDiskDetails;
-    NSMutableDictionary *_localSystems;
-    NSObject<OS_dispatch_queue> *_localSystemsListQueue;
-    NSMutableArray *_discoveryPlugins;
-    NSHashTable *_systemEventListeners;
-    NSHashTable *_scannerClients;
-    NSObject<OS_dispatch_queue> *_scannerQueue;
-    NSObject<OS_dispatch_queue> *_scanningDisk;
-    NSMutableDictionary *_availabilityNotifications;
-    NSMutableSet *_observedSystems;
 }
 
 + (id);
-+ (id);
++ (id);
+- (void);
+- (void);
+- (id);
+- (id)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -37,25 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -71,12 +58,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -118,27 +105,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSSet *allSystems;
-@property(retain) NSMutableDictionary *availabilityNotifications; // @synthesize availabilityNotifications=_availabilityNotifications;
-@property(retain) SMSystem_Daemon *currentSystem; // @synthesize currentSystem=_currentSystem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableArray *discoveryPlugins; // @synthesize discoveryPlugins=_discoveryPlugins;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *lastKnownFinalSelectedSourceDiskDetails; // @synthesize lastKnownFinalSelectedSourceDiskDetails=_lastKnownFinalSelectedSourceDiskDetails;
 @property(retain) NSMutableDictionary *localSystems; // @synthesize localSystems=_localSystems;
-@property(retain) NSObject<OS_dispatch_queue> *localSystemsListQueue; // @synthesize localSystemsListQueue=_localSystemsListQueue;
-@property _Bool mustRemovelastKnownFinalTMSelectedSourceDisk; // @synthesize mustRemovelastKnownFinalTMSelectedSourceDisk=_mustRemovelastKnownFinalTMSelectedSourceDisk;
-@property(retain) NSMutableSet *observedSystems; // @synthesize observedSystems=_observedSystems;
-@property(retain) NSHashTable *scannerClients; // @synthesize scannerClients=_scannerClients;
-@property(retain) NSObject<OS_dispatch_queue> *scannerQueue; // @synthesize scannerQueue=_scannerQueue;
-@property unsigned long long scannerState; // @synthesize scannerState=_scannerState;
-@property(retain) NSObject<OS_dispatch_queue> *scanningDisk; // @synthesize scanningDisk=_scanningDisk;
-@property(readonly) Class superclass;
-@property(retain) NSHashTable *systemEventListeners; // @synthesize systemEventListeners=_systemEventListeners;
 
 @end
 

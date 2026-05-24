@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSNumber, NSString;
+@class NSError;
 @protocol WBSCreditCardImporterDelegate;
 
 @interface WBSCreditCardImporter
 {
     NSError *_lastError;
-    NSMutableArray *_stack;
-    _Bool _foundCreditCardArray;
-    NSString *_cardNumber;
-    NSString *_cardName;
-    NSString *_cardholderName;
-    NSNumber *_expirationDateMonth;
-    NSNumber *_expirationDateYear;
-    NSNumber *_lastUsedDateTimeInterval;
-    id <WBSCreditCardImporterDelegate> _delegate;
 }
 
 - (_Bool);
@@ -35,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)newBottomEdgePathForAnnotation:withPageController: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)n;
+- (id)resultWithFavicon:iconData:iconURL:host:pageRequestDidSucceed:response:higherPriorityIconDownloadFailedDueToNetworkError:error:faviconInfoFromWebView: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationCountryNodeCollection;
 
 @end
 

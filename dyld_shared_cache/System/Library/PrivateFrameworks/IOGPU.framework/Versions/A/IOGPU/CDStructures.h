@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice, IOGPUMetalDeviceShmem, IOGPUMetalDeviceShmemPool, IOGPUMetalHeap, IOGPUMetalPooledResource, IOGPUMetalResource, IOGPUMetalResourcePool, MTLResourceListPool, NSString;
+@class IOGPUMetalDevice, IOGPUMetalDeviceShmem, IOGPUMetalDeviceShmemPool, IOGPUMetalHeap, IOGPUMetalPooledResource, IOGPUMetalResource, IOGPUMetalResourcePool, NSString;
 
 #pragma mark Blocks
 
@@ -55,43 +55,6 @@ struct IOGPUDeviceNewCommandQueueArgs {
     unsigned char _field5[2];
 };
 
-struct IOGPUDrawableSurfaceConfig {
-    unsigned long long window_mode;
-    int width;
-    int height;
-    int sfc_width;
-    int sfc_height;
-    unsigned int config_bits;
-    unsigned int status_bits;
-    unsigned long long texture_ram;
-};
-
-struct IOGPUGenerationalSet<id, IOGPUMTLIdKey, IOGPUMTLObjectHashAllocator> {
-    struct IOGPUMTLIdKey *m_keyTable;
-    unsigned long long *m_generationTable;
-    unsigned int *m_hopInfo;
-    unsigned long long *m_usedInfo;
-    unsigned long long *m_dirtyInfo;
-    unsigned long long *m_dirtyInfoH;
-    unsigned int m_hashSize;
-    unsigned int m_hashMask;
-    unsigned int m_usedMask;
-    unsigned int m_dirtyHMask;
-    unsigned int m_hashShift;
-    unsigned int m_count;
-    unsigned int m_dirtyCount;
-    unsigned int m_maxSize;
-    unsigned long long m_allocatedSize;
-    unsigned long long m_currentGeneration;
-    unsigned long long m_expiredGeneration;
-    _Bool m_init;
-};
-
-struct IOGPUIOKernelCommandListHeader {
-    unsigned int _field1;
-    unsigned int _field2;
-};
-
 struct IOGPUKernelCommandSignalEventAgentArgs {
     unsigned int _field1;
     unsigned int _field2;
@@ -104,8 +67,6 @@ struct IOGPUKernelCommandSignalOrWaitEventArgs {
     unsigned int _field2;
     unsigned long long _field3;
 };
-
-struct IOGPUMTLIdKey;
 
 struct IOGPUMetalCommandBufferResourceInfo {
     unsigned long long _field1;
@@ -170,15 +131,7 @@ struct IOGPUMetalCommandBufferStorage {
     _Bool _field41;
 };
 
-struct IOGPUMetalCommandBufferStoragePool {
-    struct gpuStorageQueue _field1;
-    struct os_unfair_lock_s _field2;
-    int _field3;
-    int _field4;
-    int _field5;
-    id _field6;
-    struct *_field7;
-};
+struct IOGPUMetalCommandBufferStoragePool;
 
 struct IOGPUNewResourceArgs {
     struct IOGPUNewResourceData _field1;
@@ -242,7 +195,7 @@ struct IOGPUResourceList {
     unsigned int _field1[114];
     unsigned int *_field2;
     unsigned long long *_field3;
-    CDUnion_f8afffed *_field4;
+    union *_field4;
     unsigned int _field5;
     unsigned int _field6;
     unsigned int _field7;
@@ -301,47 +254,6 @@ struct IndirectArgumentBufferCapabilities {
     unsigned int :1;
     unsigned int :29;
 };
-
-struct MTLIndirectCommandBufferHeader {
-    unsigned long long headerSize;
-    unsigned int commandTypes;
-    _Bool inheritPipelineState;
-    _Bool inheritBuffers;
-    unsigned char maxVertexBufferBindCount;
-    unsigned char maxFragmentBufferBindCount;
-    unsigned char maxKernelBufferBindCount;
-    unsigned char maxObjectBufferBindCount;
-    unsigned char maxMeshBufferBindCount;
-    _Bool supportRayTracing;
-    _Bool supportDynamicAttributeStride;
-    unsigned char maxKernelThreadgroupMemoryBindCount;
-    unsigned char maxObjectThreadgroupMemoryBindCount;
-    unsigned char maxScissorRectCount;
-    unsigned char maxViewportCount;
-    _Bool inheritDepthStencilState;
-    _Bool inheritDepthBias;
-    _Bool inheritStencilReferenceValues;
-    _Bool inheritDepthClipMode;
-    _Bool inheritCullMode;
-    _Bool inheritFrontFacingWinding;
-    _Bool inheritTriangleFillMode;
-    _Bool inheritDepthTestBounds;
-    _Bool inheritScissorRects;
-    _Bool inheritViewports;
-    _Bool inheritBlendColor;
-    long long allowOverrideRenderStates;
-    unsigned long long size;
-};
-
-struct MTLRangeAllocator {
-    struct MTLRangeAllocatorElement *elements;
-    unsigned int numElements;
-    unsigned long long capacity;
-    unsigned long long capacityIncrement;
-    unsigned long long defaultAlignmentMask;
-};
-
-struct MTLRangeAllocatorElement;
 
 struct MTLResourceID {
     unsigned long long _field1;
@@ -489,19 +401,9 @@ struct __IOGPUResource {
     unsigned long long _field16[0];
 };
 
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
 struct commandBufferStorageBusyQueue {
     struct IOGPUMetalCommandBufferStorage *tqh_first;
     struct IOGPUMetalCommandBufferStorage **tqh_last;
-};
-
-struct gpuStorageQueue {
-    struct IOGPUMetalCommandBufferStorage *_field1;
-    struct IOGPUMetalCommandBufferStorage **_field2;
 };
 
 struct os_unfair_lock_s {
@@ -519,26 +421,7 @@ struct shmemlog_list {
     struct _s_shmemlog_ *_field1;
 };
 
-struct vector<IOGPUIOCommandQueueCommandBufferCallbackBlock, std::allocator<IOGPUIOCommandQueueCommandBufferCallbackBlock>> {
-    CDUnion_f8afffed *__begin_;
-    CDUnion_f8afffed *__end_;
-    struct {
-        CDUnion_f8afffed *__cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
-
-typedef struct {
-    IOGPUMetalDeviceShmemPool *segmentListShmemPool;
-    IOGPUMetalDeviceShmemPool *kernelCommandShmemPool;
-    IOGPUMetalDeviceShmemPool *sidebandPool;
-    id *hwResourcePools;
-    unsigned int hwResourcePoolCount;
-    MTLResourceListPool *akResourceListPool;
-    MTLResourceListPool *akPrivateResourceListPool;
-    IOGPUMetalDeviceShmemPool *debugBufferShmemPool;
-} CDStruct_f5fd6011;
 
 typedef struct {
     unsigned char _field1;
@@ -618,6 +501,12 @@ typedef struct {
 typedef struct {
     unsigned int _field1;
     unsigned int _field2;
+    unsigned int _field3;
+} CDStruct_32a7f38a;
+
+typedef struct {
+    unsigned int _field1;
+    unsigned int _field2;
 } CDStruct_c0454aff;
 
 typedef struct {
@@ -632,6 +521,12 @@ typedef struct {
     double _field3;
     double _field4;
 } CDStruct_d2b197d1;
+
+typedef struct {
+    _Bool _field1;
+    unsigned long long _field2;
+    struct *_field3;
+} CDStruct_dbc1e4aa;
 
 typedef struct {
     unsigned long long _field1;
@@ -650,8 +545,6 @@ typedef struct {
 } CDStruct_d201eb49;
 
 #pragma mark Typedef'd Unions
-
-typedef union CDUnion_f8afffed;
 
 typedef union {
     CDUnknownBlockType _field1;

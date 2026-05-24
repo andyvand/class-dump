@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, CIDualRedEyeRepairTuning, CIImage, CIRenderDestination, NSArray, NSDate, NSDictionary;
-@protocol MTLCommandBuffer, MTLCommandQueue, MTLTexture;
+@class NSArray;
 
 @interface CIDualRedEyeRepairSession
 {
     struct __CVBuffer *_primary;
-    struct __CVBuffer *_secondary;
-    struct __CVBuffer *_output;
-    CIContext *context;
-    NSArray *observations;
-    CIRenderDestination *destination;
-    CIImage *primaryImage;
-    CIImage *secondaryImage;
-    NSDictionary *metadata;
-    NSDictionary *imageProperties;
-    NSArray *faces;
-    CIDualRedEyeRepairTuning *tuning;
-    NSDate *timestamp;
-    NSDictionary *tuningParametersByPortType;
-    id <MTLCommandQueue> commandQueue;
-    id <MTLTexture> primaryTexture;
-    id <MTLTexture> secondaryTexture;
-    id <MTLTexture> outputTexture;
-    id <MTLCommandBuffer> commandBuffer;
 }
 
 + (id);
@@ -63,21 +44,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)
+;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)`2;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)GaborGradients;
+- (id);
+- (id);
+- (void);
+- (void)k;
+- (void)columns;
+- (void)CIGaborGradients;
 - (id)(relativeWeightThreshold.x * (sampledPix.w - basePixRawR) + relativeWeightThreshold.y, 0.0, 1.0);
     float relativeWeight = rwT * rwT * (3.0 - 2.0 * rwT); 
     float totalWeight = distWeight * spatialWeight * colorWeight * backgroundWeight * relativeWeight;
@@ -153,22 +135,7 @@ kernel vec4 _CIPortraitBlur(sampler image,vec4 sizeAndScale,vec3 p0,vec4 p1,vec2
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer;
-@property(retain, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue;
-@property(retain, nonatomic) CIContext *context; // @synthesize context;
-@property(retain, nonatomic) CIRenderDestination *destination; // @synthesize destination;
-@property(retain, nonatomic) NSArray *faces; // @synthesize faces;
-@property(retain, nonatomic) NSDictionary *imageProperties; // @synthesize imageProperties;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata;
 @property(retain, nonatomic) NSArray *observations; // @synthesize observations;
-@property(retain, nonatomic) id <MTLTexture> outputTexture; // @synthesize outputTexture;
-@property(retain, nonatomic) CIImage *primaryImage; // @synthesize primaryImage;
-@property(retain, nonatomic) id <MTLTexture> primaryTexture; // @synthesize primaryTexture;
-@property(retain, nonatomic) CIImage *secondaryImage; // @synthesize secondaryImage;
-@property(retain, nonatomic) id <MTLTexture> secondaryTexture; // @synthesize secondaryTexture;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp;
-@property(retain, nonatomic) CIDualRedEyeRepairTuning *tuning; // @synthesize tuning;
-@property(retain, nonatomic) NSDictionary *tuningParametersByPortType; // @synthesize tuningParametersByPortType;
 
 @end
 

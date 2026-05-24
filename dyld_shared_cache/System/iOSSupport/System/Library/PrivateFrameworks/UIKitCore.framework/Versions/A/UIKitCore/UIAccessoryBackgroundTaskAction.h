@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)pletion:(id)arg1;
+- (id)finishTransitionWithCompletion:(id)arg1;
 - (long long)ÿ;
 
 @end

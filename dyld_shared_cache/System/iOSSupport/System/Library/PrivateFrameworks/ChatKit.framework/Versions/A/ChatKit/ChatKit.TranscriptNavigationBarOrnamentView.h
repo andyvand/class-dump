@@ -9,15 +9,9 @@
 @interface ChatKit.TranscriptNavigationBarOrnamentView
 {
     id contentView;
-    id titleRowView;
-    id subtitleLabel;
-    id progressView;
-    id showsPlatter;
-    id progressBarValue;
-    id progressBarColor;
 }
 
-- (void);
+- (void)(;
 - (id);
 - (struct CGSize);
 - (id);

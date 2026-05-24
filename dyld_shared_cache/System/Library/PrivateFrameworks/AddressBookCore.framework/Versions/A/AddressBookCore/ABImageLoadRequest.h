@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface ABImageLoadRequest
 {
     NSString *_contactIdentifier;
-    NSArray *_emailAddresses;
-    _Bool _isMe;
-    int _searchLocations;
-    NSData *_imageData;
-    NSData *_thumbnailImageData;
-    NSString *_primaryImagePath;
 }
 
 + (id);
@@ -25,20 +19,14 @@
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id)ths:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)fetchObjectsForClass:withPredicate:prefetchingKeyPaths:managedObjectContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(copy) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, copy) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly) _Bool isMe; // @synthesize isMe=_isMe;
 @property(readonly, copy) NSString *primaryImagePath; // @synthesize primaryImagePath=_primaryImagePath;
-@property(readonly) int searchLocations; // @synthesize searchLocations=_searchLocations;
-@property(readonly, copy) NSData *thumbnailImageData; // @synthesize thumbnailImageData=_thumbnailImageData;
 
 @end
 

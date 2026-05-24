@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSString, PKAccount, PKAccountMinimumOSVersions;
+@class NSDateFormatter;
 
 @interface PKAccountMinimumOSPolicy
 {
     NSDateFormatter *_dateFormatter;
-    unsigned long long _status;
-    PKAccountMinimumOSVersions *_versions;
-    PKAccount *_account;
-    NSString *_deviceClass;
 }
 
 - (id);
@@ -22,14 +18,11 @@
 - (unsigned long long);
 - (id);
 - (void)inner",R,N;
-- (void)a;
+- (void)subAdministrativeArea;
 - (void)±È;
 
 // Remaining properties
-@property(copy, nonatomic) PKAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
 @property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(copy, nonatomic) PKAccountMinimumOSVersions *versions; // @synthesize versions=_versions;
 
 @end
 

@@ -6,29 +6,22 @@
 
 #import <SearchFoundation/SFEndSearchFeedback.h>
 
-@class NSDictionary, NSString;
-
 @interface SFEndNetworkSearchFeedback : SFEndSearchFeedback
 {
     long long _responseSize;
-    unsigned long long _rawResponseSize;
-    unsigned long long _decompressedResponseSize;
-    long long _statusCode;
-    NSDictionary *_networkTimingData;
-    NSString *_edge;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)segments;
+- (void)ne"16^B24;
 - (void);
 - (void)pe;
 - (id)$¤Á;
@@ -37,12 +30,7 @@
 - (void)Í;
 
 // Remaining properties
-@property(nonatomic) unsigned long long decompressedResponseSize; // @synthesize decompressedResponseSize=_decompressedResponseSize;
-@property(readonly, copy, nonatomic) NSString *edge; // @synthesize edge=_edge;
-@property(copy, nonatomic) NSDictionary *networkTimingData; // @synthesize networkTimingData=_networkTimingData;
-@property(nonatomic) unsigned long long rawResponseSize; // @synthesize rawResponseSize=_rawResponseSize;
 @property(nonatomic) long long responseSize; // @synthesize responseSize=_responseSize;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end
 

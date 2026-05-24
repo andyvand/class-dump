@@ -5,5 +5,6 @@
 //
 
 @protocol WBSTestResults
+- (void)R;
 @end
 

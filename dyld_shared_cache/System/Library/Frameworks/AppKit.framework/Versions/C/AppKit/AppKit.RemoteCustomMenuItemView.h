@@ -9,17 +9,15 @@
 @interface AppKit.RemoteCustomMenuItemView : NSView
 {
     id menuItem;
-    id currentFrameOnScreen;
-    id trackingArea;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)v;
+- (void)Can't have an HTTP here already;
+- (void)FHTTPCookieStorage.c;
 - (void);
 - (id);
-- (id)emoval;
+- (id)_snapshotContentForRemoval;
 - (void);
 - (void)ð¶E;
 

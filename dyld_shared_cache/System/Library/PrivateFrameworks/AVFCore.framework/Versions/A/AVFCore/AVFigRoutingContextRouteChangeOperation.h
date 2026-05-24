@@ -6,20 +6,12 @@
 
 #import <AVFCore/AVOperation.h>
 
-@class AVOutputContextDestinationChange, AVWeakReference, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AVOutputContextDestinationChange, AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVFigRoutingContextRouteChangeOperation : AVOperation
 {
     AVWeakReference *_weakObserver;
-    struct OpaqueFigRoutingContext *_routingContext;
-    struct __CFString *_successNotification;
-    CDUnknownBlockType _routeChangeBlock;
-    NSObject<OS_dispatch_queue> *_notificationManagementQueue;
-    _Bool _actOnRouteChangeNotifications;
-    struct __CFNumber *_routeChangeID;
-    AVOutputContextDestinationChange *_result;
 }
 
 + (void)er than %@;
@@ -35,14 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AVOutputContextDestinationChange *result;
-@property(readonly) Class superclass;
 
 @end
 

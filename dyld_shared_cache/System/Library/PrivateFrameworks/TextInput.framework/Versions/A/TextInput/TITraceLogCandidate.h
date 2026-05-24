@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface TITraceLogCandidate
 {
     unsigned int _wordId;
-    double _probability;
-    double _contextProbability;
-    NSString *_token;
-    NSArray *_wordSources;
-    NSNumber *_dynamicUsageCount;
-    NSNumber *_penalty;
-    NSString *_lexiconLocaleIdentifier;
-    NSString *_filterName;
-    NSString *_priorContext;
 }
 
 + (id);
@@ -39,8 +28,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)K
+;
+- (void)n;
 - (double);
 - (id);
 - (id);
@@ -51,24 +41,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(nonatomic) double contextProbability; // @synthesize contextProbability=_contextProbability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSNumber *dynamicUsageCount; // @synthesize dynamicUsageCount=_dynamicUsageCount;
-@property(retain, nonatomic) NSString *filterName; // @synthesize filterName=_filterName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *lexiconLocaleIdentifier; // @synthesize lexiconLocaleIdentifier=_lexiconLocaleIdentifier;
-@property(retain, nonatomic) NSNumber *penalty; // @synthesize penalty=_penalty;
-@property(retain, nonatomic) NSString *priorContext; // @synthesize priorContext=_priorContext;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 @property(nonatomic) unsigned int wordId; // @synthesize wordId=_wordId;
-@property(retain, nonatomic) NSArray *wordSources; // @synthesize wordSources=_wordSources;
 
 @end
 

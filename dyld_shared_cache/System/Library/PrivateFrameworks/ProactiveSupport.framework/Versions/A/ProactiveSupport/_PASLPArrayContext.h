@@ -7,12 +7,12 @@
 @interface _PASLPArrayContext
 {
     const unsigned int *_storage;
-    unsigned long long _count;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)riteDBO oid:%lld externalID:%@ sparseScoreL1:%.04f scoreL1:%.04f
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

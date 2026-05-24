@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_appContactFreqForMessages2Min;
++ (id)_adBlockerDismissalType;
++ (id)_activeSubscriptions;
++ (id)_accuracyOnTheFirstUserParseCount;
 
 @end
 

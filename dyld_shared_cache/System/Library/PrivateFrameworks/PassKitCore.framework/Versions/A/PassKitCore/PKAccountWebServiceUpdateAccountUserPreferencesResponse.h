@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)Numbers;
+- (void)phoneNumbers;
 
 // Remaining properties
 @property(readonly, nonatomic) PKAccountUser *accountUser; // @synthesize accountUser=_accountUser;

@@ -6,31 +6,25 @@
 
 #import <PassKitCore/PKPaymentSetupFieldLabel.h>
 
-@class NSAttributedString;
-
 @interface PKPaymentSetupFieldFooter : PKPaymentSetupFieldLabel
 {
     unsigned long long _fontScale;
-    NSAttributedString *_body;
-    unsigned long long _position;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
+- (void)i)4?;
+- (id)(kE)_k!;
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)noscript> section.;
 - (unsigned long long);
 - (id);
 - (void)à(Päp;
-- (void)ogoWhite;
+- (void)PayButtonLogoWhite;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *body; // @synthesize body=_body;
 @property(nonatomic) unsigned long long fontScale; // @synthesize fontScale=_fontScale;
-@property(nonatomic) unsigned long long position; // @synthesize position=_position;
 
 @end
 

@@ -6,13 +6,12 @@
 
 #import <OfficeImport/CMArchiveManager.h>
 
-@class NSMutableDictionary, NSMutableString;
+@class NSMutableString;
 
 __attribute__((visibility("hidden")))
 @interface CMStylingArchiveManager : CMArchiveManager
 {
     NSMutableString *mCssString;
-    NSMutableDictionary *mStyleCache;
 }
 
 - (id);

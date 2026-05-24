@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurface, NSString, _FBSSnapshotContext;
+@class _FBSSnapshotContext;
 
 @interface _FBSSnapshot
 {
     _FBSSnapshotContext *_context;
-    struct CGImage *_imageRef;
-    IOSurface *_nonProtectedSurfaceRef;
-    IOSurface *_protectedSurfaceRef;
 }
 
 - (struct CGSize);
@@ -20,28 +17,17 @@
 - (void);
 - (id);
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (struct CGImage *);
+- (struct CGImage *)?;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *CGImage;
-@property(readonly, nonatomic) IOSurface *IOSurface;
 @property(readonly, copy, nonatomic) _FBSSnapshotContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) IOSurface *fallbackIOSurface;
-@property(readonly, nonatomic) _Bool hasProtectedContent;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

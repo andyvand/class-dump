@@ -6,24 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSDeviceOfferEligibilityTask, AMSDeviceOfferRegistrationPrivacyValidator, AMSProcessInfo, AMSURLSession, NSArray, NSSet, NSString;
-@protocol AMSBagProtocol, AMSDeviceOffersTracking;
+@class ACAccount;
 
 @interface AMSDeviceOfferRegistrationTask : AMSTask
 {
     _Bool _ignoreRegistrationDenyList;
-    _Bool _lightweightCheckOnly;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSSet *_offerIdentifiers;
-    NSArray *_registrationGroups;
-    AMSDeviceOfferEligibilityTask *_eligibilityTask;
-    NSString *_deviceGUID;
-    NSString *_masterSerialNumber;
-    id <AMSDeviceOffersTracking> _deviceOffersStore;
-    AMSDeviceOfferRegistrationPrivacyValidator *_privacyValidator;
-    AMSURLSession *_urlSession;
 }
 
 + (id);
@@ -51,26 +38,26 @@
 - (id);
 - (id);
 - (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)tch CNContact from Map.ID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -87,25 +74,6 @@ sÖêá29ADÆã;Öl6ñ*p¤[ÅÛü¢<fnÓÍõ-?¹ËÀü+a/WËü	·Y
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *deviceGUID; // @synthesize deviceGUID=_deviceGUID;
-@property(readonly) id <AMSDeviceOffersTracking> deviceOffersStore; // @synthesize deviceOffersStore=_deviceOffersStore;
-@property(readonly) AMSDeviceOfferEligibilityTask *eligibilityTask; // @synthesize eligibilityTask=_eligibilityTask;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreRegistrationDenyList; // @synthesize ignoreRegistrationDenyList=_ignoreRegistrationDenyList;
-@property _Bool lightweightCheckOnly; // @synthesize lightweightCheckOnly=_lightweightCheckOnly;
-@property(readonly) NSString *masterSerialNumber; // @synthesize masterSerialNumber=_masterSerialNumber;
-@property(retain) NSSet *offerIdentifiers; // @synthesize offerIdentifiers=_offerIdentifiers;
-@property(readonly) AMSDeviceOfferRegistrationPrivacyValidator *privacyValidator; // @synthesize privacyValidator=_privacyValidator;
-@property(retain) NSArray *registrationGroups; // @synthesize registrationGroups=_registrationGroups;
-@property(readonly) Class superclass;
-@property(retain) AMSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

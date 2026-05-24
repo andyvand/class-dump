@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRichText;
+@class NSData, _SFPBRichText;
 
 @protocol _SFPBSplitCardSection
+- (void);
+- (_SFPBRichText *)ۂ;
+- (NSData *)CollectionList",&,N,V_destinationFolder;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRichText *body;
-@property(retain, nonatomic) _SFPBRichText *bottomTitle;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *listItems;
-@property(copy, nonatomic) NSString *listMoreString;
-@property(copy, nonatomic) NSString *listPrefix;
-@property(retain, nonatomic) _SFPBRichText *secondaryTopTitle;
 @property(retain, nonatomic) _SFPBRichText *topTitle;
 @end
 

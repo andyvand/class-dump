@@ -6,26 +6,24 @@
 
 #import <PackageKit/PKMutableDistributionContainer.h>
 
-@class NSDictionary, PKArchive;
+@class PKArchive;
 
 @interface PKArchiveDistributionContainer : PKMutableDistributionContainer
 {
     PKArchive *_archive;
-    NSDictionary *_lprojSubpathByName;
-    NSDictionary *_strings;
 }
 
+- (id)#;
+- (_Bool);
+- (_Bool)#;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)e failed to create an IMFileTransfer for IMDAttachmentRecordRef with identifier:%lld /* Error: Ran out of types for this method. */;
+- (struct CGPoint)didn't get back any attachments to purge;
+- (double)ulted in %lu file transfers to delete;
+- (struct CGPoint)for a moment share is not supported;
 - (double);
-- (struct CGPoint);
 - (double);
-- (double);
-- (double);
+- (double);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct UIEdgeInsets);

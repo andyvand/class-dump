@@ -7,8 +7,6 @@
 @interface SwiftUI.SwiftUISegmentedControl
 {
     id shortcuts;
-    id customAcceptsFirstMouse;
-    id _cachedMinimumWidth;
 }
 
 + (void);

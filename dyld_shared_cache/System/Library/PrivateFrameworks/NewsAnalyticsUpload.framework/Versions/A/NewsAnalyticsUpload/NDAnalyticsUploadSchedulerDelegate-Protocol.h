@@ -5,5 +5,6 @@
 //
 
 @protocol NDAnalyticsUploadSchedulerDelegate
+- (void)ʹ;
 @end
 

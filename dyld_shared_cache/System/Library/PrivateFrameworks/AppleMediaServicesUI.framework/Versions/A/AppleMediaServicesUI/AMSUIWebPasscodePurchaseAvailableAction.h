@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebPasscodePurchaseAvailableAction : AMSUIWebAction
 {
     id profile;
-    id profileVersion;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)Request:originalTask:redirect:error: /* Error: Ran out of types for this method. */;
+- (void)reconfigureNewRequest:originalTask:redirect:error: /* Error: Ran out of types for this method. */;
 
 @end
 

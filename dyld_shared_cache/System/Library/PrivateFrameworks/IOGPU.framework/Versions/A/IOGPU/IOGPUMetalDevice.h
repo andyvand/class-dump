@@ -4,49 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMemoryInfo, IOGPUMetalDeviceShmemPool, MTLIOAccelService, NSLock, NSObject;
-@protocol MTLDeviceSPI, OS_dispatch_queue, OS_dispatch_source;
-
 @interface IOGPUMetalDevice
 {
     struct __IOGPUDevice *_deviceRef;
-    unsigned int _acceleratorPort;
-    MTLIOAccelService *_acceleratorService;
-    CDStruct_f5fd6011 _storageCreateParams;
-    struct IOGPUMetalCommandBufferStoragePool *_commandBufferStoragePool;
-    unsigned int _configBits;
-    unsigned int _deviceBits;
-    unsigned long long _textureRam;
-    unsigned long long _videoRam;
-    unsigned long long _sharedMemorySize;
-    unsigned int _accelID;
-    int _numCommandBuffers;
-    unsigned long long _segmentByteThreshold;
-    unsigned long long _peerGroupID;
-    unsigned int _peerIndex;
-    unsigned int _peerCount;
-    unsigned int _peerMask;
-    NSLock *_peerConnectionsLock;
-    struct {
-        IOGPUMetalDevice *device;
-        int refCount;
-    } _peerConnections[4];
-    IOGPUMetalDeviceShmemPool *_ioKernelCommandListShmemPool;
-    _Bool _disableGPUIO;
-    struct IOGPUMetalSuballocator *_buffer_suballocator;
-    NSObject<OS_dispatch_queue> *_device_dispatch_queue;
-    NSObject<OS_dispatch_queue> *_device_pool_cleanup_queue;
-    NSObject<OS_dispatch_source> *_device_pool_cleanup_source;
-    struct os_unfair_lock_s _device_pool_cleanup_lock;
-    _Bool _device_pool_cleanup_scheduled;
-    _Bool _device_pool_cleanup_requested;
-    Class _bufferClass;
-    unsigned long long _registryID;
-    unsigned long long _location;
-    unsigned long long _locationNumber;
-    unsigned long long _maxTransferRate;
-    id <MTLDeviceSPI> _deviceWrapper;
-    NSObject<OS_dispatch_queue> *_mappingQueue;
 }
 
 + (void);
@@ -55,18 +15,18 @@
 - (id);
 - (void);
 - (id);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)tableView:willDisplayCell:forTableColumn:row: /* Error: Ran out of types for this method. */;
+- (unsigned int)isEqualToString: /* Error: Ran out of types for this method. */;
+- (id)commcenter.country_bundle;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)__AUTH_CONST;
 - (void);
 - (id);
 - (unsigned int);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)initWithBytesNoCopy:length:encoding:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -81,30 +41,30 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)ntrol"16@"NSTextView"24@"NSArray"32{_NSRange=QQ}40^q56;
 - (id);
-- (id);
-- (void);
+- (void)#;
 - (_Bool);
 - (void);
+- (unsigned long long)CNUICoreFamilyMemberContactsModelRetriever;
+- (id)GG1;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
+- (_Bool)method;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);;
 - (unsigned int);
 - (id);
 - (id);
 - (unsigned int);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ntType";
 - (id);
-- (unsigned int);
-- (unsigned long long);
+- (unsigned int)ion;
+- (unsigned long long)Base URL:[%@] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -116,27 +76,27 @@
 × ;
 - (void)rectRenderCommandEncoder>";
 - (void)ewResourceArgs={IOGPUNewResourceData=IISSSSCCCCIQQQII(?={?=QQQ(?=IQ)}{?=IIII[2Q]}{?=QQQ}{?=I}{?=QQQI})}}84I92@?96;
-- (_Bool)ncySets:count: /* Error: Ran out of types for this method. */;
-- (Class)nTableWithDescriptor: /* Error: Ran out of types for this method. */;
-- (id):error: /* Error: Ran out of types for this method. */;
-- (id)evice:(id)arg1 assertionType:(long long)arg2 options:(id *)arg3;
-- (id)igin:(id)arg1 sliceDimensions:(unsigned long long)arg2;
-- (id)Level:(id)arg1 sourceOrigin:sourceSize:toTexture:destinationSlice:destinationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
-- (id)mponentsJoinedByString: /* Error: Ran out of types for this method. */;
-- (int)e:(unsigned long long *)arg1;
-- (id)derEncoder;
-- (id *)ce;
-- (unsigned int)eue;
+- (_Bool)removeInternalResidencySets:count: /* Error: Ran out of types for this method. */;
+- (Class)newVisibleFunctionTableWithDescriptor: /* Error: Ran out of types for this method. */;
+- (id)newDefaultLibraryWithBundle:error: /* Error: Ran out of types for this method. */;
+- (id)initWithDevice:(id)arg1 assertionType:(long long)arg2 options:(id *)arg3;
+- (id)getBytes:(id)arg1 strides:(unsigned long long)arg2 fromSliceOrigin:(unsigned long long)arg3 sliceDimensions: /* Error: Ran out of types for this method. */;
+- (id)copyFromTexture:(id)arg1 sourceSlice:sourceLevel:sourceOrigin:sourceSize:toTexture:destinationSlice:destinationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
+- (id)componentsJoinedByString: /* Error: Ran out of types for this method. */;
+- (int)addDataSource:(unsigned long long *)arg1;
+- (id)_privateIndirectRenderEncoder;
+- (id *)_fence;
+- (unsigned int)_device_pool_cleanup_queue;
 - (struct __IOGPUDevice *)1b29},R;
 - (id)_maxTransferRate;
 - (void);
 - (void):(unsigned long long *)arg1 size:(unsigned long long *)arg2 sourceHandle:sourceHandleOffset:] /* Error: Ran out of types for this method. */;
-- (_Bool)nalMTLEvent;
+- (_Bool)IOGPUCommandQueueSignalMTLEvent;
 - (unsigned int)ication_version;
 - (id)Pixel format bytes per pixel doesn't match IOSurface bytes per pixel (size casting disallowed by this IOSurface);
-- (id)andBufferResource;
+- (id)lastkernelCommandBufferResource;
 - (_Bool)location requires MTLResourceStorageModePrivate storage mode;
-- (unsigned long long)moved;
+- (unsigned long long)kIOGPUCommandBufferCallbackErrorDeviceRemoved;
 - (_Bool)e IOGPUDeviceShmem.";
 - (unsigned long long)nd;
 - (void)tEvent:with uncommitted encoder /* Error: Ran out of types for this method. */;
@@ -146,29 +106,7 @@
 - (id)ÅýÿVl;
 
 // Remaining properties
-@property(readonly) unsigned int acceleratorPort; // @synthesize acceleratorPort=_acceleratorPort;
-@property(readonly) Class bufferClass;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly) unsigned long long dedicatedMemorySize;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned int hwResourcePoolCount;
 @property(readonly) id *hwResourcePools;
-@property(readonly) unsigned long long location; // @synthesize location=_location;
-@property(readonly) unsigned long long locationNumber; // @synthesize locationNumber=_locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxTransferRate; // @synthesize maxTransferRate=_maxTransferRate;
-@property(readonly) IOGPUMemoryInfo *memoryInfo; // @dynamic memoryInfo;
-@property(readonly) int numCommandBuffers; // @synthesize numCommandBuffers=_numCommandBuffers;
-@property(readonly) unsigned int peerCount; // @synthesize peerCount=_peerCount;
-@property(readonly) unsigned long long peerGroupID; // @synthesize peerGroupID=_peerGroupID;
-@property(readonly) unsigned int peerIndex; // @synthesize peerIndex=_peerIndex;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
-@property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property(readonly) unsigned long long sharedMemorySize;
-@property(readonly) _Bool supportPriorityBand;
-@property(readonly) _Bool supportsVertexAmplification;
 
 @end
 

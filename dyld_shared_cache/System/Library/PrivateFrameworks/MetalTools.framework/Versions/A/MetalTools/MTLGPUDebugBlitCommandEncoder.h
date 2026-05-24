@@ -6,8 +6,6 @@
 
 #import <MetalTools/MTLToolsBlitCommandEncoder.h>
 
-@class NSString;
-
 @interface MTLGPUDebugBlitCommandEncoder : MTLToolsBlitCommandEncoder
 {
     unsigned int _encoderID;
@@ -17,19 +15,12 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned int encoderID; // @synthesize encoderID=_encoderID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

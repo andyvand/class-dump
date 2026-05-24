@@ -12,23 +12,22 @@
 }
 
 + (id);
-- (id);
+- (id)c;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)L;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)@;
+- (_Bool)_generatePersonCentricID;
 - (id);
 - (id);
 - (void)a¡°!@ù1÷Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
 @property(readonly, nonatomic) _Bool hasActiveTreatments;
 
 @end

@@ -14,7 +14,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)_pageDictionaryIndices;
 - (id);
 - (void)±Xð1Â0@ù
 × ;

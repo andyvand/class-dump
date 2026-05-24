@@ -13,12 +13,12 @@
     NSMutableSet *mAuthors;
 }
 
-- (_Bool);
+- (_Bool)sition settings from User Defaults;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (id);

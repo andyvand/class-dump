@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MLAppleImageFeatureExtractorScenePrintParameters
 {
     unsigned long long _scenePrintVersion;
-    NSString *_requestClassName;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void)to configure the indernal buffer to use the output shape of rank %zu due to an error:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *requestClassName; // @synthesize requestClassName=_requestClassName;
 @property(readonly) unsigned long long scenePrintVersion; // @synthesize scenePrintVersion=_scenePrintVersion;
 
 @end

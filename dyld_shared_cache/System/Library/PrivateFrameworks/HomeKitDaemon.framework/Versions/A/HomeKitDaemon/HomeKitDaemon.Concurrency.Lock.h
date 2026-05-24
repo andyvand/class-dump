@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.Concurrency.Lock
 {
     id $defaultActor;
-    id lastWaitingTask;
 }
 
 @end

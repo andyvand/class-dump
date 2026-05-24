@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDContainer, NSString;
-@protocol ABGroupDropHelper;
+@class ABCDContainer;
 
 @interface ABGroupAcceptDropAction
 {
     _Bool executionWasAuthorized;
-    ABCDContainer *_container;
-    id <ABGroupDropHelper> _helper;
 }
 
 - (_Bool);
@@ -27,16 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ABCDContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool executionWasAuthorized; // @synthesize executionWasAuthorized;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <ABGroupDropHelper> helper; // @synthesize helper=_helper;
-@property(readonly, nonatomic) _Bool requiresAuthorizationBeforeExecution;
-@property(readonly) Class superclass;
 
 @end
 

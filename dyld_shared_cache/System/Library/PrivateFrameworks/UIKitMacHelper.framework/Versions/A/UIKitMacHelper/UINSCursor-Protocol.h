@@ -5,7 +5,9 @@
 //
 
 @protocol UINSCursor
-+ (void)letionHandler;
++ (void)_configCompletionHandler;
+- (long long)ble:read past bound:dstr (%tx) str_index (%d)
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type;

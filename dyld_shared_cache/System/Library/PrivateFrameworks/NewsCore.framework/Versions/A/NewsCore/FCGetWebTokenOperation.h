@@ -11,19 +11,17 @@
 @interface FCGetWebTokenOperation : FCOperation
 {
     FCNewsletterEndpointConnection *_endpointConnection;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void)bel;
-- (void)tLQMetadata;
+- (CDUnknownBlockType)rberos flags for principal %@;
+- (void)label;
+- (void)thumbnailWidgetLQMetadata;
 - (void)ndleInputConfiguration from configuration %{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain, nonatomic) FCNewsletterEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
 
 @end

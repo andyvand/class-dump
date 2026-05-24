@@ -7,6 +7,8 @@
 @class MapsSuggestionsManager;
 
 @protocol MapsSuggestionsStrategy
+- (void)C;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak MapsSuggestionsManager *manager;

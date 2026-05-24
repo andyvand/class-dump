@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface TableCellViewWithCustomHighlightedViews
 {
     NSMapTable *_attributedStringsForBackgroundStyles;
-    NSMapTable *_imagesForBackgroundStyles;
 }
 
 - (void);
-- (void);
+- (void)4hB;
 - (void);
 - (void);
 - (void);

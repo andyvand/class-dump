@@ -5,5 +5,6 @@
 //
 
 @protocol ISTransactionService
+- (void);
 @end
 

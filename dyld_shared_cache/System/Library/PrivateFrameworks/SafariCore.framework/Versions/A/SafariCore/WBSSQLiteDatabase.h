@@ -4,48 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue, WBSSQLiteDatabaseDelegate;
+@protocol WBSSQLiteDatabaseDelegate;
 
 @interface WBSSQLiteDatabase
 {
     struct sqlite3 *_handle;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_lastSQLQuery;
-    id <WBSSQLiteDatabaseDelegate> _delegate;
-    NSURL *_url;
 }
 
 + (id);
 + (id);
++ (id)C3DNodeCreateHitTestResultsWithSegment;
 + (id);
-+ (id);
-+ (id);
++ (id)%@)> invalidated;
 + (void)ú;
 - (id);
 - (unsigned long long);
 - (int);
+- (void)accessibilityLayer;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (int)ork/Versions/A/QuartzCore;
+- (id)setAppearanceOverride: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)8^@16^@24;
+- (void)ICCloudServiceStatusRemoteMonitoring;
 - (id);
 - (struct sqlite3 *);
-- (_Bool);
+- (_Bool)έ/
+;
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)__MPModelPropertyMovieTitle__MAPPING_MISSING__;
+- (_Bool)sonalizedContentDescriptors;
+- (id)delRelationshipPlayEventAlbum;
 - (_Bool);
 - (int);
 - (_Bool);
@@ -55,15 +51,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long changedRowCount;
 @property(nonatomic) __weak id <WBSSQLiteDatabaseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) struct sqlite3 *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) int lastErrorCode;
-@property(readonly, nonatomic) NSString *lastErrorMessage;
-@property(readonly, nonatomic) long long lastInsertRowID;
-@property(readonly, nonatomic) unsigned long long maximumParameterCount;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString, _UIDigitizerGestureRecognizerImp;
+@class _UIDigitizerGestureRecognizerImp;
 
 @interface UIDigitizerLongPressGestureRecognizer : UIGestureRecognizer
 {
@@ -14,16 +14,16 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)n exit state ? %@;
+- (void)changing it from %@ to %@. Are we in exit state ? %@;
+- (void)Exit Record date has been modified, changing it from %@ to %@. Are we in exit state ? %@;
+- (void)it:(id)arg1 %@;
 - (struct CGPoint);
 - (void);
-- (id)Object:(id)arg1 withObject:(SEL)arg2;
+- (id)performSelector:(id)arg1 withObject:(SEL)arg2 withObject: /* Error: Ran out of types for this method. */;
 - (void)_setPreferredUserInterfaceStyle:(id)arg1;
-- (void)assThrough;
-- (void)nary;
+- (void)_allowDismissalTapsToPassThrough;
+- (void)debugDictionary;
 - (void)(;
 - (void)ô
 ;
@@ -37,15 +37,7 @@
 - (void)ÙÄSl;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGPoint digitizerLocation;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double minimumPressDuration;
-@property(readonly) Class superclass;
 
 @end
 

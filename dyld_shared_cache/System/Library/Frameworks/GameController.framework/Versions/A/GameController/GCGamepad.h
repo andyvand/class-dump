@@ -6,19 +6,11 @@
 
 #import <GameController/GCPhysicalInputProfile.h>
 
-@class GCController, GCControllerButtonInput, GCControllerDirectionPad;
+@class GCControllerButtonInput;
 
 @interface GCGamepad : GCPhysicalInputProfile
 {
     CDUnknownBlockType _valueChangedHandler;
-    GCControllerDirectionPad *_dpad;
-    GCControllerButtonInput *_button0;
-    GCControllerButtonInput *_button1;
-    GCControllerButtonInput *_button2;
-    GCControllerButtonInput *_button3;
-    GCControllerButtonInput *_leftShoulder;
-    GCControllerButtonInput *_rightShoulder;
-    GCControllerButtonInput *_buttonMenu;
 }
 
 + (_Bool);
@@ -27,41 +19,32 @@
 - (void);
 - (void);
 - (id);
+- (id)';
+- (_Bool)%;
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)l;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)interpolationQuality;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GCControllerButtonInput *buttonA;
-@property(readonly, nonatomic) GCControllerButtonInput *buttonB;
 @property(readonly, nonatomic) GCControllerButtonInput *buttonMenu;
-@property(readonly, nonatomic) GCControllerButtonInput *buttonX;
-@property(readonly, nonatomic) GCControllerButtonInput *buttonY;
-@property(readonly, nonatomic) __weak GCController *controller; // @dynamic controller;
-@property(readonly, nonatomic) GCControllerDirectionPad *dpad;
-@property(readonly, nonatomic) GCControllerButtonInput *leftShoulder;
-@property(readonly, nonatomic) GCControllerButtonInput *rightShoulder;
-@property(copy, nonatomic) CDUnknownBlockType valueChangedHandler; // @synthesize valueChangedHandler=_valueChangedHandler;
 
 @end
 

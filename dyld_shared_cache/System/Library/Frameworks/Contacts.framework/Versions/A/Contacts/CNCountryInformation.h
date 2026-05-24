@@ -9,25 +9,21 @@
 @interface CNCountryInformation
 {
     NSString *_isoCountryCode;
-    NSString *_name;
-    NSString *_phoneticName;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)IsValid(value);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)eleased copy in NSData=%p=*****;
 - (id);
 - (void)Aq&Ð!(@ùQ*°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *phoneticName; // @synthesize phoneticName=_phoneticName;
 
 @end
 

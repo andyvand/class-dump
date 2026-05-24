@@ -9,24 +9,20 @@
 @interface RCEndpointError
 {
     NSString *_errorCode;
-    NSString *_message;
-    NSString *_stacktrace;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (_Bool);
 - (id);
 - (void);
-- (id)n:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id)URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *stacktrace; // @synthesize stacktrace=_stacktrace;
 
 @end
 

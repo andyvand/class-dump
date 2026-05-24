@@ -13,23 +13,23 @@
     NSArray *_fileURLs;
 }
 
-+ (id);
++ (id)8@"AVAssetResourceLoader"16@"NSURLAuthenticationChallenge"24;
++ (_Bool)o"16@0:8 /* Error: Ran out of types for this method. */;
++ (_Bool)iew";
++ (id)setOverrideJPEGCompressionQuality:(id)arg1;
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setAttachmentsForUnarchiving: /* Error: Ran out of types for this method. */;
+- (id)setArtworkMetadata: /* Error: Ran out of types for this method. */;
+- (id)setAddress: /* Error: Ran out of types for this method. */;
+- (id)safariIcon;
+- (id)ruleDictionaryForStyle:forComponentClass: /* Error: Ran out of types for this method. */;
+- (id)isValidMIMEType: /* Error: Ran out of types for this method. */;
+- (id)isTwitterProfileImageURL:(id)arg1;
 - (void);
 - (id);
-- (void)nitoringProviderDomainChanges: /* Error: Ran out of types for this method. */;
-- (id)tegories_ordered_prefix_first_term_position;
+- (void)endMonitoringProviderDomainChanges: /* Error: Ran out of types for this method. */;
+- (id)kMDItemPhotosEventCategories_ordered_prefix_first_term_position;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *fileURLs; // @synthesize fileURLs=_fileURLs;

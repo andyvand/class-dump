@@ -9,12 +9,9 @@
 @interface CKVCustomTerm
 {
     unsigned short _vocabularyType;
-    NSString *_itemId;
-    NSString *_term;
-    NSString *_vocabularyId;
 }
 
-+ (id);
++ (id)Pv;
 + (_Bool);
 - (unsigned short);
 - (id);
@@ -24,27 +21,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)c;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)updateCloudSharedAlbumMetadataOnServer: /* Error: Ran out of types for this method. */;
+- (_Bool)16@0:(id)arg1 8;
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *itemId; // @synthesize itemId=_itemId;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *term; // @synthesize term=_term;
-@property(readonly, nonatomic) NSString *vocabularyId; // @synthesize vocabularyId=_vocabularyId;
-@property(readonly, nonatomic) unsigned short vocabularyType; // @synthesize vocabularyType=_vocabularyType;
 
 @end
 

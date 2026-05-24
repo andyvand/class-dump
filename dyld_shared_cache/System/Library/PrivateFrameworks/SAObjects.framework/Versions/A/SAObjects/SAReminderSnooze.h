@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, SAReminderDateTimeTriggerOffset;
+@class SAReminderDateTimeTriggerOffset;
 
 @interface SAReminderSnooze : SABaseClientBoundCommand
 {
@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (_Bool);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAReminderDateTimeTriggerOffset *offset;
-@property(copy, nonatomic) NSArray *reminderIdentifierList;
 
 @end
 

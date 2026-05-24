@@ -6,21 +6,14 @@
 
 #import <Metal/MTL4PipelineDescriptor.h>
 
-@class MTL4FunctionDescriptor, MTL4StaticLinkingDescriptor, MTLTileRenderPipelineColorAttachmentDescriptorArray;
+@class MTL4FunctionDescriptor;
 
 @interface MTL4TileRenderPipelineDescriptor : MTL4PipelineDescriptor
 {
     _Bool _threadgroupSizeMatchesTileSize;
-    _Bool _supportBinaryLinking;
-    MTL4StaticLinkingDescriptor *_staticLinkingDescriptor;
-    MTL4FunctionDescriptor *_tileFunctionDescriptor;
-    unsigned long long _rasterSampleCount;
-    MTLTileRenderPipelineColorAttachmentDescriptorArray *_colorAttachments;
-    unsigned long long _maxTotalThreadsPerThreadgroup;
-    CDStruct_da2e99ad _requiredThreadsPerThreadgroup;
 }
 
-- (void);
+- (void)@xj;
 - (id);
 - (void);
 - (id);
@@ -28,29 +21,36 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)pi - a) :a;
+  x = (x < (-halfpi)) ? ((-pi) - x) :x;
+  float sn = (((x - (((x * x) * x) / 6.0)) + (((((x * x) * x) * x) * x) / 1.200000e+02)) - (((((((x * x) * x) * x) * x) * x) * x) / 5.040000e+03)) + (((((((((x * x) * x) * x) * x) * x) * x) * x) * x) / 3.628800e+05);
+  x = abs(a);
+  float k = (x > halfpi) ? (-1.0) :1.0;
+  x = (x > halfpi) ? (pi - x) :x;
+  x = x * x;
+  x = (((((((2.480159e-05 * x) - 1.388889e-03) * x) + 4.166667e-02) * x) - 0.5) * x) + 1.0;
+  float cs = x * k;
+  v = vec2((v.x * cs) - (v.y * sn), (v.x * sn) + (v.y * cs));
+  v.y = abs(v.y);
+  v = vec2(dot(v, rotb.xy), dot(v, rotb.zw));
+  return v + ctr;
+}
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)PatientEquipmentRelationshipCodeSequence;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (CDStruct_da2e99ad);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) MTLTileRenderPipelineColorAttachmentDescriptorArray *colorAttachments; // @synthesize colorAttachments=_colorAttachments;
-@property(nonatomic) unsigned long long maxTotalThreadsPerThreadgroup; // @synthesize maxTotalThreadsPerThreadgroup=_maxTotalThreadsPerThreadgroup;
-@property(nonatomic) unsigned long long rasterSampleCount; // @synthesize rasterSampleCount=_rasterSampleCount;
-@property(nonatomic) CDStruct_da2e99ad requiredThreadsPerThreadgroup; // @synthesize requiredThreadsPerThreadgroup=_requiredThreadsPerThreadgroup;
-@property(copy, nonatomic) MTL4StaticLinkingDescriptor *staticLinkingDescriptor; // @synthesize staticLinkingDescriptor=_staticLinkingDescriptor;
-@property(nonatomic) _Bool supportBinaryLinking; // @synthesize supportBinaryLinking=_supportBinaryLinking;
-@property(nonatomic) _Bool threadgroupSizeMatchesTileSize; // @synthesize threadgroupSizeMatchesTileSize=_threadgroupSizeMatchesTileSize;
 @property(copy, nonatomic) MTL4FunctionDescriptor *tileFunctionDescriptor; // @synthesize tileFunctionDescriptor=_tileFunctionDescriptor;
 
 @end

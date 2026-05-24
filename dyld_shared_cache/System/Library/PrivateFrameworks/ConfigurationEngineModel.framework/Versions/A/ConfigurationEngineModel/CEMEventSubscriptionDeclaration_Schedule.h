@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMEventSubscriptionDeclaration_Schedule : CEMPayloadBase
 {
     NSString *_payloadFrequency;
-    NSString *_payloadLocalTime;
-    NSNumber *_payloadSpread;
-    NSNumber *_payloadDay;
 }
 
 + (id);
@@ -21,22 +18,19 @@
 + (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ow freq);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadDay; // @synthesize payloadDay=_payloadDay;
 @property(copy, nonatomic) NSString *payloadFrequency; // @synthesize payloadFrequency=_payloadFrequency;
-@property(copy, nonatomic) NSString *payloadLocalTime; // @synthesize payloadLocalTime=_payloadLocalTime;
-@property(copy, nonatomic) NSNumber *payloadSpread; // @synthesize payloadSpread=_payloadSpread;
 
 @end
 

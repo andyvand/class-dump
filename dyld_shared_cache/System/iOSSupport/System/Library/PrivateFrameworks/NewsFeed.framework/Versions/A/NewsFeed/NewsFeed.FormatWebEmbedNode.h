@@ -7,21 +7,6 @@
 @interface NewsFeed.FormatWebEmbedNode
 {
     id _identifier;
-    id content;
-    id contentFrameIdentifier;
-    id config;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id location;
-    id _selectors;
-    id flex;
-    id rendering;
 }
 
 @end

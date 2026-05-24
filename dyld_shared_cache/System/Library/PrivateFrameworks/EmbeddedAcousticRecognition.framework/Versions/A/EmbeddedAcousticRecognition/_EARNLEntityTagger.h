@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLTagger, NSArray;
+@class NLTagger;
 
 @interface _EARNLEntityTagger
 {
     NLTagger *nlTagger;
-    unsigned long long tagOptions;
-    void supportedTags;
 }
 
 + (id);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) NLTagger *nlTagger; // @synthesize nlTagger;
-@property(nonatomic, copy) NSArray *supportedTags;
-@property(nonatomic) unsigned long long tagOptions; // @synthesize tagOptions;
 
 @end
 

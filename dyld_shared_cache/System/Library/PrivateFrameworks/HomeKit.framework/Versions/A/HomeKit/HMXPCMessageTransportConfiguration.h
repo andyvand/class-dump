@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface HMXPCMessageTransportConfiguration
 {
     _Bool _requiresHomeDataAccess;
-    NSString *_machServiceName;
-    unsigned long long _requiredEntitlements;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -21,43 +15,22 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)i;
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)abridger;
+- (id)expected;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (id);
 - (void)tionTransformer;
 - (void)MediaActions;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property unsigned long long requiredEntitlements; // @synthesize requiredEntitlements=_requiredEntitlements;
-@property _Bool requiresHomeDataAccess; // @synthesize requiresHomeDataAccess=_requiresHomeDataAccess;
-@property(readonly, copy) NSString *serverStartNotification;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

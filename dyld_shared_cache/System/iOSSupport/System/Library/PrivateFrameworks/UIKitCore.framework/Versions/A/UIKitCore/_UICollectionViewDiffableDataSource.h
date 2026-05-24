@@ -6,8 +6,6 @@
 
 #import <UIKitCore/_UIDiffableDataSourceSnapshotter.h>
 
-@class UICollectionView;
-
 @interface _UICollectionViewDiffableDataSource : _UIDiffableDataSourceSnapshotter
 {
 }
@@ -24,9 +22,6 @@
 - (void)ve its scroll view as its delegate.;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak UICollectionView *collectionView;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryConfigurationHandler;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryReuseIdentifierProvider;
 @property(copy, nonatomic) CDUnknownBlockType supplementaryViewProvider;
 
 @end

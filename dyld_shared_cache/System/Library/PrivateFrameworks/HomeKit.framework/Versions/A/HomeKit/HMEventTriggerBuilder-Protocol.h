@@ -7,13 +7,15 @@
 @class NSArray, NSPredicate;
 
 @protocol HMEventTriggerBuilder
+- (NSArray *)ׂ;
+- (void)%;
+- (NSArray *);
+- (NSPredicate *)C;
+- (void)7/;
+- (void);
+- (void)#;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *endEvents;
-@property(copy, nonatomic) NSArray *events;
-@property(nonatomic) _Bool executeOnce;
-@property(copy, nonatomic) NSPredicate *predicate;
 @property(nonatomic) unsigned long long recurrenceDays;
-@property(copy, nonatomic) NSArray *recurrences;
 @end
 

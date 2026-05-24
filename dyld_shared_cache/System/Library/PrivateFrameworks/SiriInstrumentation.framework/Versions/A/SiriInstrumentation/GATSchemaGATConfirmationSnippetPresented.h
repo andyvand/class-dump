@@ -6,16 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATConfirmationSnippetPresented : SISchemaInstrumentationMessage
 {
     int _confirmationDialogName;
-    int _requestedAgent;
-    CDStruct_a7c29d72 _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,23 +21,19 @@
 - (void);
 - (void);
 - (int);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)RowItems:insertedTonePickerSectionItems:tonePickerSectionItemsWithUpdatedHeaderText:tonePickerSectionItemsWithUpdatedFooterText: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)emaPSEMapsUserFollowup";
-- (id)xRSS;
+- (id)_maxRSS;
 - (id)$¨l	|
 |;
 
 // Remaining properties
 @property(nonatomic) int confirmationDialogName; // @synthesize confirmationDialogName=_confirmationDialogName;
-@property(nonatomic) _Bool hasConfirmationDialogName;
-@property(nonatomic) _Bool hasRequestedAgent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int requestedAgent; // @synthesize requestedAgent=_requestedAgent;
 
 @end
 

@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSMutableArray *m_data;
 }
 
-- (void);
+- (void)`;
 - (id);
 - (int);
-- (id);
+- (id)dataUsingEncoding:(id)arg1;
 - (void);
 - (void);
 

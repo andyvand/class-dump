@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class HMDHomeNFCReaderKey, NSData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeNFCReaderKeyModel : HMDBackingStoreModelObject
@@ -17,11 +17,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)vice] %{private}s;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *encodedNfcReaderKey; // @dynamic encodedNfcReaderKey;
-@property(copy, nonatomic) HMDHomeNFCReaderKey *nfcReaderKey;
 
 @end
 

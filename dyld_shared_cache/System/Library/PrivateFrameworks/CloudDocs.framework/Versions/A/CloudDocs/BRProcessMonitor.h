@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol BRProcessMonitorDelegate;
-
 @interface BRProcessMonitor
 {
     id _monitor;
-    id <BRProcessMonitorDelegate> _weakObserver;
 }
 
 - (id);

@@ -16,24 +16,15 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)setAddInsertedTracksToLibrary:(id)arg1;
+- (void)ironment;
+- (void)Ӳ;
 - (id);
 - (id);
 - (void)tion;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *query;
-@property(readonly, nonatomic) int queryType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSObject, NSString, NSXPCConnection, NSXPCInterface;
-@protocol NFCSessionCallbacks, OS_dispatch_queue;
+@class NSLock, NSXPCConnection;
 
 @interface NFCSession
 {
     NSLock *_connectionLock;
     NSXPCConnection *_connection;
-    long long _connectionID;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSXPCInterface *_remoteObjectInterface;
-    NSXPCInterface *_exportedObjectInterface;
-    NSString *_machServiceName;
-    id _exportedObject;
-    id <NFCSessionCallbacks> _delegate;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

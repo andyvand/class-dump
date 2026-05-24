@@ -5,5 +5,7 @@
 //
 
 @protocol FAFamilyNotifierAgentProtocol
+- (void)k;
+- (void)tzComposer/MeshKit/sources/Core3DRuntime/Core/C3DNodeIterator.c;
 @end
 

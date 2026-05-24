@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink;
-@protocol TUDynamicBarAnimatorDelegate;
-
 @interface TUDynamicBarAnimator
 {
     double _topBarHeightForState[2];
-    double _bottomBarOffsetForState[2];
-    _Bool _dragging;
-    CADisplayLink *_displayLink;
-    double _targetTopBarHeight;
-    double _unroundedTopBarHeight;
-    double _lastUnroundedTopBarHeight;
-    _Bool _didHideBarsByMoving;
-    _Bool _didHideOrShowBarsExplicitly;
-    double _lastOffset;
-    _Bool _inSteadyState;
-    long long _state;
-    double _topBarHeight;
-    double _bottomBarOffset;
-    double _minimumTopBarHeight;
-    double _maximumBottomBarOffset;
-    id <TUDynamicBarAnimatorDelegate> _delegate;
 }
 
 - (void);
@@ -33,20 +14,20 @@
 - (void);
 - (double);
 - (double);
+- (void)anDisk:(double)arg1 Will attempt adding systems of type [TimeMachineBased] for TM disk at:(long long)arg2 %@ (original local disk UUID:%@) /* Error: Ran out of types for this method. */;
+- (double)#;
+- (double)arentElement;this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&e?this._enableBigEmoji(e):e.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(e)}},_enableBigEmoji:function(e){e.setAttribute("style","font-size:"+bigEmojiFontSize),e.className=MFMailBigEmojiAttribute},_disableBigEmoji:function(e){"FONT"==e.tagName?e.setAttribute("size",defaultEmojiFontSize):(e.setAttribute("style","font-size:"+defaultEmojiFontSize),e.removeAttribute("class"))},_locateSignatureDiv:function(e){let t=e.body.querySelectorAll(`div[id="${MFHtmlIDSignature}"]`);for(let e=0;e<t.length;++e){let i=t.item(e);if(!i.mf_isQuoteOrWithinQuote())return i}return null},_updateCounts:function(e){numberOfEmojis=0,numberOfOtherCharacters=0,e.map(e=>{document.whitespaceRegex.test(e)||(document.emojiRegex.test(e)?numberOfEmojis+=1:numberOfOtherCharacters+=1)})},_getCurrentEmojiElement:function(e){return"BODY"==e.tagName?document.querySelector(".AppleMailBigEmoji"):e.nodeType===Node.TEXT_NODE?e.parentElement:e},_removeSignatureFromEmojiCount:function(e,t){if(this._locateSignatureDiv(t)){var i=this._locateSignatureDiv(t).textContent.trim();return e.trim().includes(i.trim())&&(e=e.trim().replace(i.trim(),"")),e}return e},_checkEmojiFontSize:function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
+- (id)writeSyncWithAccessor: /* Error: Ran out of types for this method. */;
+- (double)umberOfViewportsBetweenAds;
+- (void).tagfeedmodule;
 - (void);
-- (double);
-- (double);
 - (id);
-- (double);
-- (void);
-- (void);
-- (id);
-- (void);
-- (double);
+- (void);
+- (double)B@;
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)B;
 - (long long);
 - (void);
 - (double);
@@ -60,15 +41,7 @@
 - (void)è+ùÿÜ,ùÿô,ùÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double bottomBarOffset; // @synthesize bottomBarOffset=_bottomBarOffset;
-@property(nonatomic) __weak id <TUDynamicBarAnimatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double maximumBottomBarOffset; // @synthesize maximumBottomBarOffset=_maximumBottomBarOffset;
-@property(readonly, nonatomic) double maximumTopBarHeight;
-@property(readonly, nonatomic) double minimumBottomBarOffset;
-@property(nonatomic) double minimumTopBarHeight; // @synthesize minimumTopBarHeight=_minimumTopBarHeight;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) long long targetState;
-@property(readonly, nonatomic) double topBarHeight; // @synthesize topBarHeight=_topBarHeight;
 
 @end
 

@@ -5,11 +5,12 @@
 //
 
 @protocol HMDSBSRemoteAlertHandle
+- (void));
+- (_Bool)sisterInLawWifesSisterTamil;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, getter=isActive) _Bool active;
-@property(readonly, getter=isValid) _Bool valid;
 @end
 

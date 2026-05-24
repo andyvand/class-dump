@@ -5,5 +5,6 @@
 //
 
 @protocol WFFocusConfigurationServiceVendorProtocol
+- (void);
 @end
 

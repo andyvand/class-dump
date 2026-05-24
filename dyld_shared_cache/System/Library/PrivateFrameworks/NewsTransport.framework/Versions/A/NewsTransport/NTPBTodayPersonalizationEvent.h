@@ -4,99 +4,62 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NTPBTodayPersonalizationEvent
 {
     double _createdAt;
-    long long _groupType;
-    long long _orderInGroup;
-    long long _overallOrder;
-    long long _sectionOrder;
-    int _action;
-    NSString *_articleId;
-    NSString *_headlinePublisher;
-    NSMutableArray *_headlineTopics;
-    NSString *_personalizationSectionFeatureId;
-    struct {
-        unsigned int createdAt:1;
-        unsigned int groupType:1;
-        unsigned int orderInGroup:1;
-        unsigned int overallOrder:1;
-        unsigned int sectionOrder:1;
-        unsigned int action:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithDestinations:(long long)arg1 resultHandler: /* Error: Ran out of types for this method. */;
+- (void)oCurationProducerFactory:(id)arg1;
+- (void)initWithColorLookupCube:(long long)arg1;
+- (void)initWithCollectionsDataSource:(long long)arg1 outlineObject: /* Error: Ran out of types for this method. */;
+- (void)initWithActionType:(id)arg1 assetCollectionReference:parameters: /* Error: Ran out of types for this method. */;
+- (void)initWithActionType:(id)arg1;
+- (void)imageOptions;
+- (void)highlightProvider;
+- (void)highlightCenterSettingsEnablementHasChanged:(_Bool)arg1;
+- (void)getClipFrames:(_Bool)arg1 forContext: /* Error: Ran out of types for this method. */;
+- (long long)estimatedDimension: /* Error: Ran out of types for this method. */;
+- (long long)estimatedAssetCountWithEnrichmentStateNotEnriched;
+- (unsigned long long)enableShowAllButtons;
+- (id)enableShelvesLoaderGradualDelivery;
+- (id)enableShelves;
+- (id)enableShelfIPadLayout;
+- (_Bool)didLoadInjectedActionPerformer;
+- (_Bool)dateWeight4;
+- (_Bool)dateByAddingUnit:value:toDate:options: /* Error: Ran out of types for this method. */;
+- (void)contentViewDidDisappearForContentController:animated: /* Error: Ran out of types for this method. */;
+- (void)configurationByApplyingConfiguration:(id)arg1;
+- (_Bool)columnSpacingForColumnSpan: /* Error: Ran out of types for this method. */;
+- (_Bool)colorWithCalibratedRed:green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (id)collectionFetchOperationDidBegin: /* Error: Ran out of types for this method. */;
+- (_Bool)coalescerBeganPendingEvent: /* Error: Ran out of types for this method. */;
+- (void)o;
+- (_Bool);
+- (id);
+- (_Bool);
 - (long long);
-- (long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
+- (unsigned long long)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)account password to C-string;
+- (id);
+- (_Bool)clearUserMigratedMark];
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)dSubscriptionToTag:(id)arg1 notificationsEnabled:error:] /* Error: Ran out of types for this method. */;
+- (_Bool)to fetch %lu %{public}@ records with operation ID %@;
 - (void);
 - (id);
 - (id);
 - (int);
+- (void)_didExitBlock;
 - (void);
-- (void);
-- (void)getContentTypeAsString: /* Error: Ran out of types for this method. */;
+- (void)widgetContentTypeAsString: /* Error: Ran out of types for this method. */;
 - (long long)JDx*;
 - (double)h;
 
 // Remaining properties
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) double createdAt; // @synthesize createdAt=_createdAt;
-@property(nonatomic) long long groupType; // @synthesize groupType=_groupType;
 @property(nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasCreatedAt;
-@property(nonatomic) _Bool hasGroupType;
-@property(readonly, nonatomic) _Bool hasHeadlinePublisher;
-@property(nonatomic) _Bool hasOrderInGroup;
-@property(nonatomic) _Bool hasOverallOrder;
-@property(readonly, nonatomic) _Bool hasPersonalizationSectionFeatureId;
-@property(nonatomic) _Bool hasSectionOrder;
-@property(retain, nonatomic) NSString *headlinePublisher; // @synthesize headlinePublisher=_headlinePublisher;
-@property(retain, nonatomic) NSMutableArray *headlineTopics; // @synthesize headlineTopics=_headlineTopics;
-@property(nonatomic) long long orderInGroup; // @synthesize orderInGroup=_orderInGroup;
-@property(nonatomic) long long overallOrder; // @synthesize overallOrder=_overallOrder;
-@property(retain, nonatomic) NSString *personalizationSectionFeatureId; // @synthesize personalizationSectionFeatureId=_personalizationSectionFeatureId;
-@property(nonatomic) long long sectionOrder; // @synthesize sectionOrder=_sectionOrder;
 
 @end
 

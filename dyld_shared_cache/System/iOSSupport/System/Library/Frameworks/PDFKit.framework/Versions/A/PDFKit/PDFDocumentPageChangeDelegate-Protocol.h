@@ -5,5 +5,8 @@
 //
 
 @protocol PDFDocumentPageChangeDelegate
+
+@optional
+- (void)0;
 @end
 

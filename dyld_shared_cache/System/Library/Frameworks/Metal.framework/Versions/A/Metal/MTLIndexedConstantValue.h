@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MTLIndexedConstantValue
 {
     unsigned long long _index;
-    unsigned long long _dataType;
-    char *_data;
 }
 
 - (id);
@@ -18,12 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void *);
-- (unsigned long long);
+- (unsigned long long)9;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) void *data; // @synthesize data=_data;
-@property(readonly) unsigned long long dataType; // @synthesize dataType=_dataType;
 @property(readonly) unsigned long long index; // @synthesize index=_index;
 
 @end

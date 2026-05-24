@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSBundleRecord, NSOperationQueue;
+@class LSBundleRecord;
 
 @interface VSBundleRecord
 {
     LSBundleRecord *_record;
-    NSOperationQueue *_lsQueue;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *lsQueue; // @synthesize lsQueue=_lsQueue;
 @property(retain, nonatomic) LSBundleRecord *record; // @synthesize record=_record;
 
 @end

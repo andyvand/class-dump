@@ -6,33 +6,30 @@
 
 #import <ContactsUI/CNContactAction.h>
 
-@class CNContact, CNContactCardFieldPicker, NSString, UIActivityViewController, UIView;
+@class UIActivityViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNContactShareContactAction : CNContactAction
 {
     UIActivityViewController *_activityViewController;
-    CNContact *_filteredContact;
-    CNContactCardFieldPicker *_fieldPicker;
-    UIView *_sourceView;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (_Bool);
+- (id)T(;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)+;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)U;
 - (void);
 - (id);
 - (void);
@@ -40,16 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityViewController *activityViewController; // @synthesize activityViewController=_activityViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContactCardFieldPicker *fieldPicker; // @synthesize fieldPicker=_fieldPicker;
-@property(retain, nonatomic) CNContact *filteredContact; // @synthesize filteredContact=_filteredContact;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,21 +6,12 @@
 
 #import <PhotosUICore/PXAction.h>
 
-@class NSArray, NSMutableDictionary, NSObject, NSProgress;
+@class NSObject;
 @protocol OS_dispatch_queue, PXEditPresetManager;
 
 @interface PXEditBatchAction : PXAction
 {
     NSObject<OS_dispatch_queue> *_actionQueue;
-    NSArray *_assets;
-    NSArray *_asyncAssets;
-    NSArray *_syncAssets;
-    NSMutableDictionary *_undoActionMap;
-    _Bool _allowSynchronousRendering;
-    id <PXEditPresetManager> _manager;
-    CDUnknownBlockType _completionHandler;
-    NSProgress *_syncProgress;
-    NSProgress *_asyncProgress;
 }
 
 - (void);
@@ -38,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -46,21 +37,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)w;
+- (id)&j;
 - (CDUnknownBlockType);
-- (id)IndexPaths: /* Error: Ran out of types for this method. */;
+- (id)forceIncludeAssetsAtIndexPaths: /* Error: Ran out of types for this method. */;
 - (void)à/;
 - (void)ratedLibraryLayoutAssetsSnapshot"8;
 - (void)¹¡;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSynchronousRendering; // @synthesize allowSynchronousRendering=_allowSynchronousRendering;
-@property(readonly, nonatomic) NSArray *assets;
-@property(readonly, nonatomic) NSProgress *asyncProgress; // @synthesize asyncProgress=_asyncProgress;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) id <PXEditPresetManager> manager; // @synthesize manager=_manager;
-@property(readonly, nonatomic) NSProgress *syncProgress; // @synthesize syncProgress=_syncProgress;
 
 @end
 

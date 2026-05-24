@@ -9,7 +9,6 @@
 @interface DOCFeatureRequirement
 {
     NSString *_name;
-    CDUnknownBlockType _requirementValidationBlock;
 }
 
 - (CDUnknownBlockType);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) CDUnknownBlockType requirementValidationBlock; // @synthesize requirementValidationBlock=_requirementValidationBlock;
 
 @end
 

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface FigCPEFPAirPlaySession
 {
     _Bool _invalid;
-    unsigned int _fairPlayContext;
-    NSDictionary *_protectionInfo;
-    NSDictionary *_contentInfo;
-    struct __CFAllocator *_fairPlayDeallocator;
-    struct OpaqueFigEndpointPlaybackSession *_playbackSession;
-    NSString *_mediaControlUUID;
-    unsigned int _vodkaVersion;
-    struct FPStreamOpaque_ *_fairPlaySession;
-    NSObject<OS_dispatch_queue> *_serializationQueue;
 }
 
 - (id);
@@ -32,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@"NSDictionary",&,N,V_allDownloadedAtomicInstanceEntries;
 - (void);
 
 @end

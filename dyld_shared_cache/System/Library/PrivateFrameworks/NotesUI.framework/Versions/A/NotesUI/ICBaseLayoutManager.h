@@ -12,14 +12,14 @@
 }
 
 + (id);
-- (void);
+- (void)#;
 - (void);
 - (double);
 - (id);
 - (void);
+- (id)B;
 - (id);
-- (id);
-- (void)ToTouchBarItems;
+- (void)_buttonIdentifiersToTouchBarItems;
 
 // Remaining properties
 @property(nonatomic) __weak NSTextView *textView; // @synthesize textView=_textView;

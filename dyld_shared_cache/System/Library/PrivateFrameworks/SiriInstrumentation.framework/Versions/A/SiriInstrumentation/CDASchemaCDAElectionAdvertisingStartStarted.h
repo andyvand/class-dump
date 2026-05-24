@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDAElectionAdvertisingStartStarted : SISchemaInstrumentationMessage
 {
     int _state;
-    float _advertisementInterval;
-    float _advertisementDelay;
-    float _voiceTriggerLatency;
-    struct {
-        unsigned int state:1;
-        unsigned int advertisementInterval:1;
-        unsigned int advertisementDelay:1;
-        unsigned int voiceTriggerLatency:1;
-    } _has;
 }
 
 - (float);
@@ -36,32 +25,24 @@
 - (void);
 - (float);
 - (float);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (int);
+- (void);
+- (int)?);
 - (_Bool);
 - (id);
 - (id)epareContext";
-- (id)CMInsertContext;
+- (id)CMSchemaCMInsertContext;
 - (id)©;
 
 // Remaining properties
-@property(nonatomic) float advertisementDelay; // @synthesize advertisementDelay=_advertisementDelay;
-@property(nonatomic) float advertisementInterval; // @synthesize advertisementInterval=_advertisementInterval;
-@property(nonatomic) _Bool hasAdvertisementDelay;
-@property(nonatomic) _Bool hasAdvertisementInterval;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasVoiceTriggerLatency;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) float voiceTriggerLatency; // @synthesize voiceTriggerLatency=_voiceTriggerLatency;
 
 @end
 

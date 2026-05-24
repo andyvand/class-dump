@@ -8,9 +8,9 @@
 @protocol GSAdditionStoring;
 
 @protocol GSLibraryProtocol
+- (NSString *)setWithObjects:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *nameSpace;
 @property(readonly, nonatomic) NSObject<GSAdditionStoring> *storage;
 @end
 

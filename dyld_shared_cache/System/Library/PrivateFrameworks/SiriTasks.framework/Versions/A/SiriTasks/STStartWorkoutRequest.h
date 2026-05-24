@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HKQuantity;
-
 @interface STStartWorkoutRequest
 {
     long long _activityType;
-    long long _locationType;
-    long long _goalType;
-    long long _userMode;
-    HKQuantity *_goal;
-    _Bool _isOpenGoal;
-    _Bool _skipActivitySetup;
 }
 
 + (_Bool);
 - (id);
-- (long long);
+- (long long)M|;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)*;
+- (_Bool)p;
+- (id)p;
 - (id);
 - (long long);
 - (void);

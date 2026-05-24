@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError;
+@class NSDate;
 
 @interface VPWatermarkReader
 {
     struct HCImagePerspectiveReader *_reader;
     unsigned long long _readerLastWatermarkTicks;
-    unsigned long long _readerResetTicks;
-    float _readerLastProgress;
-    CDUnknownBlockType _progressHandler;
-    NSDate *_startDate;
-    NSDate *_firstScannedCodeDate;
-    NSDate *_firstCapturedFrameDate;
-    unsigned long long _readerResetCount;
-    unsigned long long _extractedCodeLength;
-    NSError *_latestError;
-    unsigned long long _readerWidth;
-    unsigned long long _readerHeight;
-    unsigned long long _readerRowBytes;
 }
 
 - (void);
@@ -65,15 +53,7 @@ LKKKÊÊÉÉÈÈGGFFEEDDÃÃÂÂÁÁÀÀÀ¿¿¾¾
 °	¯	¯	/	.	.	®­­-,,¬«++*ªª*)©©©((¨¨((§§''§§''¦¦&&¦ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned long long extractedCodeLength; // @synthesize extractedCodeLength=_extractedCodeLength;
-@property(retain) NSDate *firstCapturedFrameDate; // @synthesize firstCapturedFrameDate=_firstCapturedFrameDate;
 @property(retain) NSDate *firstScannedCodeDate; // @synthesize firstScannedCodeDate=_firstScannedCodeDate;
-@property(retain) NSError *latestError; // @synthesize latestError=_latestError;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property unsigned long long readerHeight; // @synthesize readerHeight=_readerHeight;
-@property unsigned long long readerResetCount; // @synthesize readerResetCount=_readerResetCount;
-@property unsigned long long readerRowBytes; // @synthesize readerRowBytes=_readerRowBytes;
-@property unsigned long long readerWidth; // @synthesize readerWidth=_readerWidth;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol CWFXPCRequestProtocolWiFiNetworkSharingApp
+- (void)Y;
+- (void);
 @end
 

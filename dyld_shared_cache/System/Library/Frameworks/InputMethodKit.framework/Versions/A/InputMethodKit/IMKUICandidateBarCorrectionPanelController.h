@@ -6,13 +6,11 @@
 
 #import <InputMethodKit/IMKUICandidateWindowController.h>
 
-@class NSView, NSVisualEffectView;
-@protocol NSCorrectionTextViewProtocol;
+@class NSVisualEffectView;
 
 @interface IMKUICandidateBarCorrectionPanelController : IMKUICandidateWindowController
 {
     NSVisualEffectView *_appearanceView;
-    NSView<NSCorrectionTextViewProtocol> *_correctionTextView;
 }
 
 - (void);
@@ -29,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSVisualEffectView *appearanceView; // @synthesize appearanceView=_appearanceView;
-@property(retain, nonatomic) NSView<NSCorrectionTextViewProtocol> *correctionTextView; // @synthesize correctionTextView=_correctionTextView;
 
 @end
 

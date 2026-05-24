@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEExtensionProviderContext, NSString, NWPath, NWPathEvaluator;
+@class NWPath;
 
 @interface NEProvider
 {
     NWPath *_defaultPath;
-    NWPathEvaluator *_defaultPathEvaluator;
-    NEExtensionProviderContext *_context;
-    NSString *_appName;
 }
 
 + (void);
@@ -31,24 +28,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)allMembersWithMemberType;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)spatch_queue>"48@"<NEPluginManagerObjectFactory>"56;
 
 // Remaining properties
-@property(retain) NSString *appName; // @synthesize appName=_appName;
-@property(retain) NEExtensionProviderContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) NWPath *defaultPath; // @synthesize defaultPath=_defaultPath;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

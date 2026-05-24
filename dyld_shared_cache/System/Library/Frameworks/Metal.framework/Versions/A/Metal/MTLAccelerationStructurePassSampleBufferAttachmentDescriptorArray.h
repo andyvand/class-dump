@@ -17,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)adgroupSizeMatchesTileSize;
-- (id)ength;
+- (void)_threadgroupSizeMatchesTileSize;
+- (id)payload_memory_length;
 
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface WCDProtoUserInfoTransfer
 {
     NSData *_clientData;
-    NSString *_transferIdentifier;
-    unsigned int _version;
-    struct {
-        unsigned int version:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,16 +29,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *clientData; // @synthesize clientData=_clientData;
-@property(readonly, nonatomic) _Bool hasClientData;
-@property(readonly, nonatomic) _Bool hasTransferIdentifier;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *transferIdentifier; // @synthesize transferIdentifier=_transferIdentifier;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

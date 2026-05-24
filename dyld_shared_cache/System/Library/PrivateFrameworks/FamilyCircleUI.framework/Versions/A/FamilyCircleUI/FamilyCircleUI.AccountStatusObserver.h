@@ -9,7 +9,7 @@
     id accountStore;
 }
 
-- (void);
+- (void)setBucketedDistance: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

@@ -4,70 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _DKSyncPolicy
 {
     _Bool _syncDisabled;
-    _Bool _alwaysSyncUpAndDown;
-    _Bool _pushTriggersSync;
-    _Bool _forceSync;
-    unsigned long long _assetThresholdInBytes;
-    unsigned long long _firstSyncPeriodInDays;
-    unsigned long long _maxSyncDownIntervalInDays;
-    unsigned long long _minSyncIntervalInSeconds;
-    unsigned long long _minSyncsPerDay;
-    unsigned long long _maxSyncsPerDay;
-    unsigned long long _numChangesTriggeringSync;
-    unsigned long long _singleDeviceSyncIntervalInDays;
-    NSArray *_streamNamesWithAdditionsTriggeringSync;
-    NSArray *_streamNamesWithDeletionsTriggeringSync;
-    unsigned long long _syncTimeoutInSeconds;
-    unsigned long long _triggeredSyncDelayInSeconds;
-    unsigned long long _policyDownloadIntervalInDays;
 }
 
++ (id)>;
 + (id);
-+ (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)supportsLossyCompression;
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)t0?1t0?1t1?1t1?1t2?1t2?1ta?1ta?1tc?1tc?1te?1te?1ti?1ti?1to?1to?1ts?1ts?1tt?1ttC1t C1t%C1t-C1t.C1t/C1t3C1t4C1t5C1t6C1t7C1t8C1t9C1t=C1tAC1t_C1tbC1tdC1tfC1tgC1thC1tlC1tmC1tnC1tpC1trC1tu*1t;
 - (double);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (id)secp128r1;
+- (unsigned long long)ext_ri_parse_serverhello;
+- (unsigned long long);
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysSyncUpAndDown;
-@property(readonly, nonatomic) unsigned long long assetThresholdInBytes;
-@property(readonly, nonatomic) unsigned long long firstSyncPeriodInDays;
-@property(readonly, nonatomic) _Bool forceSync;
-@property(readonly, nonatomic) unsigned long long maxSyncDownIntervalInDays;
-@property(readonly, nonatomic) unsigned long long maxSyncsPerDay;
-@property(readonly, nonatomic) unsigned long long minSyncIntervalInSeconds;
-@property(readonly, nonatomic) unsigned long long minSyncsPerDay;
-@property(readonly, nonatomic) unsigned long long numChangesTriggeringSync;
-@property(readonly, nonatomic) _Bool pushTriggersSync;
-@property(readonly, nonatomic) unsigned long long singleDeviceSyncIntervalInDays;
-@property(readonly, nonatomic) NSArray *streamNamesWithAdditionsTriggeringSync;
-@property(readonly, nonatomic) NSArray *streamNamesWithDeletionsTriggeringSync;
 @property(readonly, nonatomic) _Bool syncDisabled;
-@property(readonly, nonatomic) unsigned long long syncTimeoutInSeconds;
-@property(readonly, nonatomic) unsigned long long triggeredSyncDelayInSeconds;
 
 @end
 

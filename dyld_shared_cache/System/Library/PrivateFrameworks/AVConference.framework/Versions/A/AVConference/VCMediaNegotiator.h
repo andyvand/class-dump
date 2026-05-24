@@ -6,16 +6,10 @@
 
 #import <AVConference/VCMediaNegotiatorBase.h>
 
-@class VCMediaNegotiatorResultsCaptions;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiator : VCMediaNegotiatorBase
 {
     _Bool _usePreNegotiation;
-    _Bool _negotiationDone;
-    _Bool _isCellular16x9Capable;
-    VCMediaNegotiatorResultsCaptions *_negotiatedCaptionsSettings;
-    long long _negotiationMode;
 }
 
 + (_Bool);
@@ -27,24 +21,24 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)c;
 + (id);
 + (_Bool);
 + (void);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (unsigned int);
@@ -52,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -65,9 +59,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)k;
+- (_Bool);
+- (_Bool)B;
 - (void);
 - (_Bool);
 - (void);
@@ -93,11 +87,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCaller;
-@property(readonly, nonatomic) _Bool isCellular16x9Capable; // @synthesize isCellular16x9Capable=_isCellular16x9Capable;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsCaptions *negotiatedCaptionsSettings; // @synthesize negotiatedCaptionsSettings=_negotiatedCaptionsSettings;
 @property(readonly, nonatomic) long long negotiationMode; // @synthesize negotiationMode=_negotiationMode;
-@property(readonly, nonatomic) _Bool usePreNegotiation; // @synthesize usePreNegotiation=_usePreNegotiation;
 
 @end
 

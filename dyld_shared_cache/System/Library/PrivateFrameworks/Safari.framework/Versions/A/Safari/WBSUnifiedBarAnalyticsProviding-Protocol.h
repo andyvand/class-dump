@@ -11,11 +11,6 @@
 - (_Bool)@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backgroundColorInTabBarEnabled;
-@property(readonly, nonatomic) unsigned long long numberOfTabsInCurrentTabBar;
 @property(readonly, nonatomic) _Bool shouldReportUnifiedTabBarAnalytics;
-@property(readonly, nonatomic) _Bool tabBarIsCurrentlyScrollable;
-@property(readonly, nonatomic) _Bool tabsShowOnlyIcons;
-@property(readonly, nonatomic) long long unifiedTabBarLayoutStyle;
 @end
 

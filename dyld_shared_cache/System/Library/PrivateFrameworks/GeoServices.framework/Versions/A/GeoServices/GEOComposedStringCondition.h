@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
-
 __attribute__((visibility("hidden")))
 @interface GEOComposedStringCondition
 {
     int _conditionType;
-    NSDate *_expirationDate;
-    NSArray *_subConditions;
 }
 
 + (_Bool)ry path "%@" - %@;
+- (id)initWithClassificationQuality:(id)arg1;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)_timedOutComputingThumbnail;
 - (_Bool);
 - (void);
 - (id)setDisableFasterRerouteByDefault:(struct _NSZone *)arg1;

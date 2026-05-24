@@ -10,8 +10,6 @@
 @interface PKPaymentSetupAssistantCoreController
 {
     id <PKPaymentSetupAssistantContextProtocol> _setupAssistantContext;
-    PKPaymentProvisioningController *_provisioningController;
-    unsigned long long _preflightState;
 }
 
 + (id);
@@ -25,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (_Bool);
 - (void);
@@ -35,12 +33,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)HJ;
 - (void)ng"8B16@"NSError"20;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long preflightState;
-@property(readonly, retain, nonatomic) PKPaymentProvisioningController *provisioningController;
+@property(readonly, retain, nonatomic) PKPaymentProvisioningController *provisioningController; // @synthesize provisioningController=_provisioningController;
 
 @end
 

@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
 @protocol FCSectionProviding;
 
 @interface FCEditorialOperationGroup
 {
     id <FCSectionProviding> _section;
-    NSArray *_headlines;
-    NSDate *_publishDate;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)ntArticlesGroupHeadlineScoringOutputName;
+- (void)@;
+- (id)shadowSportsEventArticlesGroupHeadlineScoringOutputName;
 - (void)ID was requested from UserInfo before a temporary one had been generated;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *headlines; // @synthesize headlines=_headlines;
-@property(retain, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;
 @property(retain, nonatomic) id <FCSectionProviding> section; // @synthesize section=_section;
 
 @end

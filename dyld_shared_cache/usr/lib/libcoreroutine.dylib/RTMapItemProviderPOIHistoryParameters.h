@@ -9,10 +9,10 @@
     double _distanceThreshold;
 }
 
-- (id);
+- (id)or updated check {dataIsDifferent:%@} /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
-- (id);
+- (id);
 - (id)ssful, from commuteID,%@,compound tripsegment commuteID,%@,duration,%.2f,location count,%lu,road transition count,%lu;
 
 // Remaining properties

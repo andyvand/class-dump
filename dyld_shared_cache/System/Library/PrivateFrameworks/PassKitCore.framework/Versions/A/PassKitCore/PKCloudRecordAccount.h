@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
+- (id).;
+- (id)ȉ;
 - (void);
-- (long long)rIfNeededWithResponse:(id)arg1 task:isRedirect:completion: /* Error: Ran out of types for this method. */;
+- (long long)_registerIfNeededWithResponse:(id)arg1 task:isRedirect:completion: /* Error: Ran out of types for this method. */;
 - (void),N,V_startStationLongitude;
 - (void)setupCurreny;
 

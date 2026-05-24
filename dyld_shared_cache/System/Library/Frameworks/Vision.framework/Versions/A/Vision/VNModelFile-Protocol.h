@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol VNModelFile
+
+@optional
+- (struct __sFILE *)@9H;
 
 // Remaining properties
 @property(readonly) const void *baseAddress;
-@property(readonly) unsigned long long length;
-@property(readonly) struct __sFILE *ptrFile;
-// Preceding property had unknown attributes: ?
-// Original attribute string (following type): ?,R
-
-@property(retain, nonatomic) NSString *resourcePath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
 @end
 

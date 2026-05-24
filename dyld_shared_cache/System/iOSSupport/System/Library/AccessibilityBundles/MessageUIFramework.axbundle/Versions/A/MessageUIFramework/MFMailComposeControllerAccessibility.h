@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)___UIContextMenuListViewAccessibility_super;
++ (void)AXHitTestShouldFallbackToNearestChild;
 - (void);
 - (void);
 - (void);

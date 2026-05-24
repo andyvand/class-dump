@@ -6,17 +6,17 @@
 
 #import <VoiceShortcutClient/WFDialogResponse.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface WFInputDateDialogResponse : WFDialogResponse
 {
     NSDate *_inputtedDate;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)__objc_classname__TEXT;
++ (_Bool);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (id);
 - (id);
@@ -26,14 +26,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDate *inputtedDate; // @synthesize inputtedDate=_inputtedDate;
-@property(readonly) Class superclass;
 
 @end
 

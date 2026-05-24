@@ -4,42 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRNowPlayingPlayerPathProtobuf;
+@class _MRNowPlayingPlayerPathProtobuf;
 
 @interface _MRApplicationConnectionContextProtobuf
 {
     _MRNowPlayingPlayerPathProtobuf *_destinationPlayerPath;
-    NSString *_identifier;
-    NSString *_serviceName;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)@7� 7�(7�	7�
+7�7�;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)updateTextLegibilityIfNeededWithImage:(id)arg1 displayID:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 %s;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)rences setDictationIsEnabled:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void)N,V_releaseDate;
 
 // Remaining properties
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *destinationPlayerPath; // @synthesize destinationPlayerPath=_destinationPlayerPath;
-@property(readonly, nonatomic) _Bool hasDestinationPlayerPath;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

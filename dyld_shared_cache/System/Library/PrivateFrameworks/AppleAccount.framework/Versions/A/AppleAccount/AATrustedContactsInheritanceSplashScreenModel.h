@@ -4,98 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AACustodianshipInfo, NSString;
-
 @interface AATrustedContactsInheritanceSplashScreenModel
 {
     _Bool _isWalrusEnabled;
-    NSString *_detailText;
-    NSString *_helpLinkTitle;
-    NSString *_helpLinkURL;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)d-Facebook;
+- (void)lic}s' due to MCX management;
+- (id)ationRecord:Calling CPFetchActivationRecord /* Error: Ran out of types for this method. */;
+- (id)ached error:%@ /* Error: Ran out of types for this method. */;
+- (id)ing static storage class because OS version is too old;
+- (id)waiting on lock:%s /* Error: Ran out of types for this method. */;
+- (id)uire lock:%s ==> %d /* Error: Ran out of types for this method. */;
+- (id)rictSupervisedPrefs returning NO (no items filtered);
+- (id)turning YES (some items filtered);
+- (id)returned %d;
+- (id)%d.
+;
+- (id)%ld, code=%u.
+;
+- (id)= %ld, var=%u.
+;
+- (void)iNetworkProfile mcxUsr_removewifinetworkprofile kern_result returned %d;
+- (id)nWithCompletionBlock no connection;
+- (id)tracer domain;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)ExistingAccount: /* Error: Ran out of types for this method. */;
+- (void)setExistingAccount: /* Error: Ran out of types for this method. */;
 - (id),¼;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) AACustodianshipInfo *custodianshipInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AACustodianshipInfo",?,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *detailText; // @synthesize detailText=_detailText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_detailText
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *helpLinkTitle; // @synthesize helpLinkTitle=_helpLinkTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_helpLinkTitle
-
-@property(copy, nonatomic) NSString *helpLinkURL; // @synthesize helpLinkURL=_helpLinkURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_helpLinkURL
-
-@property(copy, nonatomic) NSString *imageName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 @property(nonatomic) _Bool isWalrusEnabled; // @synthesize isWalrusEnabled=_isWalrusEnabled;
-@property(copy, nonatomic) NSString *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *ownerHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *primaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *recipientHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *secondaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 
 @end
 

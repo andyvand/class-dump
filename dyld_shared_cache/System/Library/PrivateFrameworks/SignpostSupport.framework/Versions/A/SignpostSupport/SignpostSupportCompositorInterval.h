@@ -6,18 +6,18 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SignpostSupportCompositorInterval : SignpostAnimationSubInterval
 {
     NSArray *_contributingPids;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,14 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contributingPids; // @synthesize contributingPids=_contributingPids;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

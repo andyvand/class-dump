@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_nw_interface;
 
 @interface NWInterface
@@ -16,7 +16,7 @@
 + (id);
 + (_Bool)egate socket uuid failed for fd:%d /* Error: Ran out of types for this method. */;
 + (id);
-- (_Bool);
+- (_Bool)e %@ of %@ to %@ and got %@;
 - (id);
 - (id);
 - (id);
@@ -32,25 +32,25 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)T;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)k;
 - (void);
-- (id);
+- (id)_accumulation;
 - (void)}s %{public}s (%{public}@)] Successfully repaired protocol stack after failed TLS insertion;
 - (id)for next stream;
 - (unsigned long long)dumping backtrace:%{public}s /* Error: Ran out of types for this method. */;
 - (id)p) has invalid get_path callback, no backtrace;
-- (long long)ion:invalid_max /* Error: Ran out of types for this method. */;
+- (long long)corelocation:invalid_max /* Error: Ran out of types for this method. */;
 - (void)@;
 - (id)7 ;
 - (unsigned long long);
@@ -58,24 +58,7 @@
 - (_Bool)'/æk;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_nw_interface> *cInterface;
-@property(readonly, nonatomic, getter=isConstrained) _Bool constrained;
-@property(readonly, nonatomic) NWInterface *delegateInterface;
-@property(readonly, nonatomic, getter=isExpensive) _Bool expensive;
-@property(readonly, nonatomic) unsigned long long generation;
-@property(readonly, nonatomic) _Bool hasDNS;
-@property(readonly, nonatomic) _Bool hasNAT64;
-@property(readonly, nonatomic) unsigned long long interfaceIndex;
-@property(readonly, nonatomic) NSString *interfaceName;
-@property(retain) NSObject<OS_nw_interface> *internalInterface; // @synthesize internalInterface=_internalInterface;
-@property(readonly, nonatomic, getter=isIPv4Routable) _Bool ipv4Routable;
-@property(readonly, nonatomic, getter=isIPv6Routable) _Bool ipv6Routable;
-@property(readonly, nonatomic) long long mtu;
-@property(readonly, copy, nonatomic) NSString *privateDescription;
-@property(readonly, nonatomic) long long subtype;
 @property(readonly, nonatomic) _Bool supportsMulticast;
-@property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) NSString *typeString;
 
 @end
 

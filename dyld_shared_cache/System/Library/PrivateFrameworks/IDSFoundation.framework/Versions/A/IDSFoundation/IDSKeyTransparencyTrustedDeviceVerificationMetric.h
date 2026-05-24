@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IDSKeyTransparencyTrustedDeviceVerificationMetric
 {
     _Bool _cloudKitSuccess;
-    _Bool _accountKeySuccess;
-    unsigned long long _keyTransparencyVersion;
-    NSString *_cloudKitErrorDomain;
-    long long _cloudKitErrorCode;
-    NSString *_cloudKitUnderlyingErrorDomain;
-    long long _cloudKitUnderlyingErrorCode;
-    double _cloudKitOperationTimeInterval;
-    NSString *_accountKeyErrorDomain;
-    long long _accountKeyErrorCode;
-    NSString *_accountKeyUnderlyingErrorDomain;
-    long long _accountKeyUnderlyingErrorCode;
-    double _accountKeyOperationTimeInterval;
-    unsigned long long _numberOfTotalDevices;
-    unsigned long long _numberOfCandidateDevices;
-    unsigned long long _numberOfMatchesFromCloudKit;
-    unsigned long long _numberOfMatchesFromAccountKey;
 }
 
 - (unsigned long long);
@@ -52,33 +34,7 @@
 - (void)ID:%@, createdAt:%@, isGeneratedLocally:%@, KeySalt:%@, KeyMaterial:%@, ratchetIndex:%d, counter:%u, participantID:%llu, smkil:%u> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountKeyErrorCode; // @synthesize accountKeyErrorCode=_accountKeyErrorCode;
-@property(readonly, nonatomic) NSString *accountKeyErrorDomain; // @synthesize accountKeyErrorDomain=_accountKeyErrorDomain;
-@property(readonly, nonatomic) double accountKeyOperationTimeInterval; // @synthesize accountKeyOperationTimeInterval=_accountKeyOperationTimeInterval;
-@property(readonly, nonatomic) _Bool accountKeySuccess; // @synthesize accountKeySuccess=_accountKeySuccess;
-@property(readonly, nonatomic) long long accountKeyUnderlyingErrorCode; // @synthesize accountKeyUnderlyingErrorCode=_accountKeyUnderlyingErrorCode;
-@property(readonly, nonatomic) NSString *accountKeyUnderlyingErrorDomain; // @synthesize accountKeyUnderlyingErrorDomain=_accountKeyUnderlyingErrorDomain;
-@property(readonly, nonatomic) long long cloudKitErrorCode; // @synthesize cloudKitErrorCode=_cloudKitErrorCode;
-@property(readonly, nonatomic) NSString *cloudKitErrorDomain; // @synthesize cloudKitErrorDomain=_cloudKitErrorDomain;
-@property(readonly, nonatomic) double cloudKitOperationTimeInterval; // @synthesize cloudKitOperationTimeInterval=_cloudKitOperationTimeInterval;
-@property(readonly, nonatomic) _Bool cloudKitSuccess; // @synthesize cloudKitSuccess=_cloudKitSuccess;
-@property(readonly, nonatomic) long long cloudKitUnderlyingErrorCode; // @synthesize cloudKitUnderlyingErrorCode=_cloudKitUnderlyingErrorCode;
-@property(readonly, nonatomic) NSString *cloudKitUnderlyingErrorDomain; // @synthesize cloudKitUnderlyingErrorDomain=_cloudKitUnderlyingErrorDomain;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long keyTransparencyVersion; // @synthesize keyTransparencyVersion=_keyTransparencyVersion;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned long long numberOfCandidateDevices; // @synthesize numberOfCandidateDevices=_numberOfCandidateDevices;
-@property(readonly, nonatomic) unsigned long long numberOfMatchesFromAccountKey; // @synthesize numberOfMatchesFromAccountKey=_numberOfMatchesFromAccountKey;
-@property(readonly, nonatomic) unsigned long long numberOfMatchesFromCloudKit; // @synthesize numberOfMatchesFromCloudKit=_numberOfMatchesFromCloudKit;
-@property(readonly, nonatomic) unsigned long long numberOfTotalDevices; // @synthesize numberOfTotalDevices=_numberOfTotalDevices;
-@property(readonly) unsigned short rtcType;
-@property(readonly) Class superclass;
 
 @end
 

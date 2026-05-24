@@ -9,12 +9,11 @@
 @protocol HMDMRAVRoutingDiscoverySession
 - (void)fired;
 - (unsigned int)-823164245F58;
-- (void)opUUID;
+- (void)personFaceCropUUID;
 - (NSArray *)not convert number: /* Error: Ran out of types for this method. */;
 - (id)faultRoomPresencePublisher;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *availableOutputDevices;
-@property(nonatomic) unsigned int discoveryMode;
 @end
 

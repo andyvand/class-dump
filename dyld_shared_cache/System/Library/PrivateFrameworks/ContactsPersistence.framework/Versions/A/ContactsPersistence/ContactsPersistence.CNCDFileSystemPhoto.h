@@ -9,16 +9,12 @@
 @interface ContactsPersistence.CNCDFileSystemPhoto
 {
     id imageDataURL;
-    id largeImageDataURL;
-    id cropRect;
-    id cropRectHash;
-    id cropRectID;
 }
 
-+ (void);
++ (void)safetyAlertsAlertID;
 + (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (long long);
 - (_Bool);
@@ -28,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

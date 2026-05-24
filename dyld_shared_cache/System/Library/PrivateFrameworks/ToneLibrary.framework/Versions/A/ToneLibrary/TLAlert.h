@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TLAlertConfiguration;
 @protocol TLAlertPlaybackObserver;
 
 @interface TLAlert
 {
     long long _instanceIndex;
-    id <TLAlertPlaybackObserver> _playbackObserver;
-    TLAlertConfiguration *_configuration;
-    long long _type;
-    NSString *_toneIdentifier;
 }
 
 - (void);
@@ -27,20 +22,17 @@
 - (id);
 - (void);
 - (void);
+- (id)scrubber:didSelectItemAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (long long);
+- (void)%{public}@ to process completed response with status code %{public}@ for %{public}@.;
+- (long long)mapping for MPModelPropertyMovieLibraryAddedDate;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TLAlertConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(nonatomic) __weak id <TLAlertPlaybackObserver> playbackObserver; // @synthesize playbackObserver=_playbackObserver;
-@property(readonly, nonatomic) NSString *toneIdentifier; // @synthesize toneIdentifier=_toneIdentifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

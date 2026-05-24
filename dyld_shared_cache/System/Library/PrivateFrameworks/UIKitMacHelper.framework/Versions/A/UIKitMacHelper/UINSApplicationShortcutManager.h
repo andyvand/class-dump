@@ -9,7 +9,6 @@
 @interface UINSApplicationShortcutManager
 {
     NSArray *_staticShortcutItems;
-    NSArray *_dynamicShortcutItems;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *dynamicShortcutItems; // @synthesize dynamicShortcutItems=_dynamicShortcutItems;
 @property(retain, nonatomic) NSArray *staticShortcutItems; // @synthesize staticShortcutItems=_staticShortcutItems;
 
 @end

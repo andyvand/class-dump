@@ -6,25 +6,22 @@
 
 #import <Mail/MFEWSPersistenceTaskOperation.h>
 
-@class MFEWSSyncFolderHierarchyBatch;
 @protocol MFEWSPersistFolderHierarchyTaskOperationDelegate;
 
 @interface MFEWSPersistFolderHierarchyTaskOperation : MFEWSPersistenceTaskOperation
 {
     id <MFEWSPersistFolderHierarchyTaskOperationDelegate> _delegate;
-    MFEWSSyncFolderHierarchyBatch *_batch;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)menuFontSize;
 - (id);
 - (void);
 - (void)*;
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSSyncFolderHierarchyBatch *batch; // @synthesize batch=_batch;
 @property __weak id <MFEWSPersistFolderHierarchyTaskOperationDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

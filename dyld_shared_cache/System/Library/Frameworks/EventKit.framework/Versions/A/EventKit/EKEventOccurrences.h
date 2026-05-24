@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKObjectID, NSArray;
+@class EKObjectID;
 
 @interface EKEventOccurrences
 {
     EKObjectID *_objectID;
-    NSArray *_startDates;
 }
 
 - (id);
-- (id);
+- (id)ef. Please fix.;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EKObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) NSArray *startDates; // @synthesize startDates=_startDates;
 
 @end
 

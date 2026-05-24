@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDOfflineSearchCapabilities
 {
     PBUnknownFields *_unknownFields;
-    _Bool _supportsTextSearch;
-    struct {
-        unsigned int has_supportsTextSearch:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)L&;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)OTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24Q32q40Q48;
-- (id)NumericSplit;
+- (id)_hasNumericSplit;
 - (id)¼¼½;
 - (void)­ms;
 

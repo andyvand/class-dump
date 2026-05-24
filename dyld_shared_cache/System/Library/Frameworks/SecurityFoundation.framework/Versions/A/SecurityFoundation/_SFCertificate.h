@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _SFCertificate
 {
@@ -13,21 +11,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (struct __SecCertificate *);
+- (struct __SecCertificate *)r( ;
 - (id);
-- (id);
+- (id)) ;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id)ocalizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
+- (id)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long certificateType;
-@property(readonly, nonatomic) NSString *issuerName;
 @property(readonly, nonatomic) struct __SecCertificate *secCertificate;
-@property(readonly, nonatomic) NSData *serialNumber;
-@property(readonly, nonatomic) NSString *subject;
 
 @end
 

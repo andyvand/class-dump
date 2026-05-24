@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUFontManager
 {
     NSObject<OS_dispatch_queue> *_registrationQueue;
-    NSCountedSet *_referenceCounts;
 }
 
 - (_Bool);
@@ -23,18 +22,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSCountedSet *referenceCounts; // @synthesize referenceCounts=_referenceCounts;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *registrationQueue; // @synthesize registrationQueue=_registrationQueue;
-@property(readonly) Class superclass;
 
 @end
 

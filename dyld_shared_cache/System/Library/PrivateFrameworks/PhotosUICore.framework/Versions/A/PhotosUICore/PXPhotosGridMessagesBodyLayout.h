@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSShadow, NSString, PXAssetsDataSource, PXPhotosGridAssetDecorationSource, PXPhotosGridMessagesLayoutSpec;
-@protocol PXDisplayAssetFetchResult;
+@class PXPhotosGridAssetDecorationSource;
 
 @interface PXPhotosGridMessagesBodyLayout
 {
     struct _NSRange _cachedClampedItemRange;
-    id <PXDisplayAssetFetchResult> _cachedClampedFetchResult;
-    NSShadow *_contentShadow;
-    PXPhotosGridAssetDecorationSource *_assetDecorationSource;
-    long long _section;
-    PXAssetsDataSource *_dataSource;
-    PXPhotosGridMessagesLayoutSpec *_spec;
 }
 
 - (unsigned long long);
@@ -24,7 +17,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)=;
 - (id);
 - (id);
 - (id);
@@ -38,16 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotosGridAssetDecorationSource *assetDecorationSource; // @synthesize assetDecorationSource=_assetDecorationSource;
-@property(readonly, nonatomic) PXAssetsDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long section; // @synthesize section=_section;
-@property(retain, nonatomic) PXPhotosGridMessagesLayoutSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
 
 @end
 

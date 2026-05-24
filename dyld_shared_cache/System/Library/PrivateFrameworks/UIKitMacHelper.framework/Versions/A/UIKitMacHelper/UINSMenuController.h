@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSString, _NSRecentItemsMenuController;
-@protocol UINSMenu;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface UINSMenuController
 {
     NSMenu *_currentContextMenu;
-    _NSRecentItemsMenuController *_recentItemsController;
-    CDUnknownBlockType _performItemAction;
-    CDUnknownBlockType _willHighlightItem;
-    CDUnknownBlockType _contextMenuDidClose;
-    CDUnknownBlockType _validateItem;
-    CDUnknownBlockType _menuWillAppear;
-    struct CGPoint _location;
 }
 
 + (id);
@@ -51,33 +43,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint)ʻ;
 - (void);
 - (_Bool),R,N;
 - (void)£üÿ¸;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType contextMenuDidClose; // @synthesize contextMenuDidClose=_contextMenuDidClose;
-@property(readonly, nonatomic) NSMenu *currentContextMenu; // @synthesize currentContextMenu=_currentContextMenu;
-@property(readonly, nonatomic) id <UINSMenu> currentContextMenuProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(copy, nonatomic) CDUnknownBlockType menuWillAppear; // @synthesize menuWillAppear=_menuWillAppear;
-@property(copy, nonatomic) CDUnknownBlockType performItemAction; // @synthesize performItemAction=_performItemAction;
-@property(retain, nonatomic) _NSRecentItemsMenuController *recentItemsController; // @synthesize recentItemsController=_recentItemsController;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType validateItem; // @synthesize validateItem=_validateItem;
-@property(copy, nonatomic) CDUnknownBlockType willHighlightItem; // @synthesize willHighlightItem=_willHighlightItem;
 
 @end
 
